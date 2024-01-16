@@ -134,17 +134,18 @@ Also, keep in mind the following:
 
 ## Devices and accessories
 
-Heads-up and hands-free communication is key for real-time collaboration. Frontline workers often need to communicate with each other when their phones are locked. This experience is possible through the following devices and headsets.
+Heads-up and hands-free communication is key for real-time collaboration. Frontline workers often need to communicate with each other when their phones are locked. This experience is possible through the following devices and headsets:
 
-### Generic wired (USBc and 3.5mm) headsets
+- [Generic wired headsets](#generic-wired-headsets)
+- [Specialized headsets and devices that have a dedicated PTT button](#specialized-headsets-and-devices-that-have-a-dedicated-ptt-button)
+
+### Generic wired headsets
 
 Walkie Talkie works with any generic wired (USBc and 3.5mm) headset on Android. As long as the generic headset has a pause/play button, frontline workers can tap the button to start and end transmissions on Walkie Talkie in toggle-to-talk (TTT) mode.
 
 ### Specialized headsets and devices that have a dedicated PTT button
 
-Walkie Talkie is integrated with a range of specialized headsets and devices that have a dedicated PTT button. Pressing the PTT button on the headset or device brings up Walkie Talkie for instant communication. 
-
-Here's a list of these specialized headsets and devices from our partners.
+Walkie Talkie is integrated with a range of specialized headsets and devices that have a dedicated PTT button. Pressing the PTT button on the headset or device brings up Walkie Talkie for instant communication. Here's a list of these headsets and devices from our partners.
 
 **Headsets**
 
