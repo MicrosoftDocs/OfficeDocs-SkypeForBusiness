@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.topic: article
-ms.date: 01/16/2023
+ms.date: 01/17/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -28,7 +28,7 @@ This article describes the requirements and limitations of using the new Microso
 
 ### Important announcement for classic Teams for VDI
 
-The **classic Teams for VDI** will reach end of support on **June 30th, 2024**. Learn more: [End of availability for classic Teams client](/MicrosoftTeams/teams-classic-client-end-of-availability)
+The **classic Teams for VDI** will reach end of support on **June 30th, 2024**. For more details, see: [**End of availability for classic Teams client**](/MicrosoftTeams/teams-classic-client-end-of-availability)
 
 After that date, users won't be able to use classic Teams but instead be prompted to switch to new Teams. We recommend you update to new Teams today.
 
@@ -252,9 +252,10 @@ Value: 1
 ## Profile and cache location for new Teams Client 
 
 All the user settings and configurations are now stored in:
-C:\Users\<username>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams
-C:\Users\<username>\AppData\Local\Publishers\8wekyb3d8bbwe\TeamsSharedConfig\app_switcher_settings.json
-C:\Users\<username>\AppData\Local\Publishers\8wekyb3d8bbwe\TeamsSharedConfig\tma_settings.json
+
+- C:\Users\<username>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams
+- C:\Users\<username>\AppData\Local\Publishers\8wekyb3d8bbwe\TeamsSharedConfig\app_switcher_settings.json
+- C:\Users\<username>\AppData\Local\Publishers\8wekyb3d8bbwe\TeamsSharedConfig\tma_settings.json
 
 Make sure these folders and files are persisted for proper Teams functioning.
 
@@ -287,10 +288,14 @@ For example, Outlook goes through the discovery process outlined here to integra
 >[!Note]
 >If the new Teams is installed on a virtual machine where the classic Teams is **not** installed, you must make sure you are using new Teams version 23320.3021.2567.4799 or higher in order to guarantee proper integration with Outlook and presence.
 
-Additionally, the new Teams MSIX package bundles the Teams Meeting add-in MSI ("MicrosoftTeamsMeetingAddinInstaller.msi"). The teamsbootstrapper.exe installer installs this msi machine-wide for all users.
+Additionally, the new Teams MSIX package bundles the Teams Meeting add-in MSI ("MicrosoftTeamsMeetingAddinInstaller.msi"). 
 
 Installation logs for this MSI are stored here:
 - AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Logs \tma_addin_msi.txt
+
+>[!Note:]
+>In Windows Server or Windows 10/11 Multiuser environments, installation of MicrosoftTeamsMeetingAddinInstaller.msi can fail with the error "Installation success or error status: 1625". Microsoft is working on a solution for this issue.
+
  
 ### Troubleshooting new Teams and Outlook integration
 
@@ -370,10 +375,6 @@ You can’t use the native Teams app to join meetings. Clicking “Join on the T
   
 >[!Note]
 >Microsoft is working on a solution and plan to remove these limitations soon.
-
-
-
-
 
 ## Enhancements in new Teams 
 
