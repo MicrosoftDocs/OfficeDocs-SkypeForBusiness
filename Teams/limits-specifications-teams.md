@@ -101,7 +101,7 @@ Users who participate in conversations that are part of the chat list in Teams m
 
 <sup>1</sup> If you have more than 20 people in a chat, the following chat features are turned off: Outlook automatic replies and Teams status messages; typing indicator; video and audio calling; sharing; read receipts. The "Set Delivery Options" button (!) is also removed when private group chats contain more than 20 members.
 
-<sup>2</sup> Only 200 members at a time can be added to a group chat. For more information, see [Error when sending messages to a group chat in Teams: Failed to send](/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat).
+<sup>2</sup> Only 200 members can be added to a group chat at the same time. 
 
 <sup>3</sup> If the number of attachments exceeds this limit, you'll see an error message.
 
