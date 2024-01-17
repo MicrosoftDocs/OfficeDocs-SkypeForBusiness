@@ -77,7 +77,7 @@ To enable the one-touch join experience, meeting join link information from the 
 Here are some example entries that you may need to add to your Defender for Office 365 Safe Links *Do not rewrite* list or third-party URL rewrite exception list:
 
 - **Cisco Webex** `*.webex.com/*`
-- **Zoom** `*.zoom.us/*`, `*.zoom.com/*`, `*.zoomgov.com/*`
+- **Zoom** `zoom.us/*`, `zoom.com/*`,  `*.zoom.us/*`, `*.zoom.com/*`, `*.zoomgov.com/*`
 - **BlueJeans** `*.bluejeans.com/*`
 
 For a complete list of URLs to add to your Defender for Office 365 Safe Links *Do not rewrite* list or third-party URL rewrite exception list, contact the third-party meeting service provider you want to accept meeting invites from.
