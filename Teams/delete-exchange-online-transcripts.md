@@ -217,21 +217,11 @@ You can also use the [EWSEditor open source tool](https://github.com/dseph/EwsEd
 
 1. Sign in with client app ID: "d3590ed6-52b3-4102-aeff-aad2292ab01c".
 
-   Select **Validate Authority** to let tenant admin control the data of the user in the tenant:
+   Select **Validate Authority** to let tenant admin control the data of the user in the tenant.
 
-   :::image type="content" source="media/delete-transcripts-ews-editor.png" alt-text="Image of the screenshot displaying the EWSEditor for deleting transcripts.":::
+2. Select **Identify folder by well known name** and select **Root** as Folder name and provide SMTP address.
 
-2. Select **Identify folder by well known name** and select **Root** as Folder name and provide SMTP address, as shown in the following image:
-
-   :::image type="content" source="media/ews-editor-folder-ID.png" alt-text="Image displaying the screenshot of the EWSEditor requesting to select a FolderID.":::
-
-3. Find the transcription folder and right-click to delete. 
-
-    :::image type="content" source="media/ews-meeting-transcription-collection.png" alt-text="Image displaying the screenshot of the Meeting Transcription selection in EWSEditor." lightbox="media/EWS-Meeting-transcription-collection.png":::
-
-    To view more details in a pane, double-click on the transcription folder.
-
-    :::image type="content" source="media/ewseditorredetails.png" alt-text="Image displaying the screenshot of the View pane of EWSEditor." lightbox="media/ewseditorredetails.png":::
+3. Find the transcription folder and right-click to delete. To view more details in a pane, double-click on the transcription folder.
 
 ### Delete specific transcript using EWSEditor
 
@@ -239,26 +229,16 @@ To identify a particular meeting, users can check the DateTimeCreated. Additiona
 
 1. Select **View** and then **Configure Detail Property Set…** in the toolbar on top.
 
-    :::image type="content" source="media/ews-editor-datetime-and-threadid.png" alt-text="Image displaying the screenshot of the DateTimeCreated selection in EWSEditor." lightbox="media/ews-editor-datetime-and-threadid.png":::
-
 2. Select **Add Extended Property** in the Property Set Editor pane and select **OK**.
-
-   :::image type="content" source="media/add-extended-property-ews-editor.png" alt-text="Image displaying the screenshot of Property Set Editor pane in EWSEditor.":::
 
    Provide the following details under Property Identifier in the Extended Property Definition pane and select **OK**:
    - Name or ID: RawJSON
    - Property Set: 2842957e-8ed9-439b-99b5-f681924bd972 
    - Property Type: String
 
-   :::image type="content" source="media/EWSEditor-extendedproperty.png" alt-text="Image displaying the screenshot of Extended Property pane in EWSEditor.":::
-
 3. Go back to EWSEditor and the new property will be displayed with its raw JSON string in the lower part of the pane.
 
-    :::image type="content" source="media/Filtered-string-ews-editor.png" alt-text="Image displaying the screenshot of filtered string in EWSEditor." lightbox="media/Filtered-string-ews-editor.png":::
-
-4. Double-click on the property to open it in a new window and check the threadId, as shown in this image: 
-
-    :::image type="content" source="media/threadid-ews-editor.png" alt-text="Image that displays the Thread ID in EWSEditor." lightbox="media/threadid-ews-editor.png":::
+4. Double-click on the property to open it in a new window and check the threadId.
 
 ## Delete transcript copy in ODSP via Microsoft Purview
 
