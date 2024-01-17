@@ -188,7 +188,7 @@ The Teams Premium trial is added from the Microsoft 365 admin center.
 To add the Teams Premium trial to Microsoft 365
 1. In the Microsoft 365 admin center, expand **Billing**, and then select **Purchase services**.
 1. Search for *Teams Premium*.
-1. Under **Microsoft Teams Premium Trial**, select **Details**.
+1. Under **Microsoft Teams Premium Introductory Pricing**, select **Details**.
 1. Select **Start free trial**.
 1. On the checkout page, select **Try now**.
 1. Select **Continue**.
