@@ -34,7 +34,6 @@ ms.localizationpriority: high
 - Support for NDI, SDI, and ISO streaming of Teams media content.
 - Set presence in taskbar.
 - Show and set presence in system tray.
-<<<<<<< HEAD
 - The app will crash if users hit enter instead of clicking the *Create* button after entering the team name in the team creation wizard.
 - Newly created private channels won't show up in the left rail until the page is reloaded or users move to another screen and come back.
 - The calendar icon will show an error message for users not licensed with Exchange Online. A fix to hide the calendar icon for these users is expected soon.
