@@ -667,7 +667,7 @@ items:
               href: set-up-meeting-registration.md
         - name: Attendee experience
           items: 
-            - name: Manage Copilot for Teams test
+            - name: Manage Copilot for Teams
               href: copilot-teams-transcription.md
             - name: Manage Q&A
               href: manage-qna-for-teams.md
