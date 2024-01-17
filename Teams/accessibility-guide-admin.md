@@ -31,7 +31,7 @@ Create inclusive meetings and calls for users with disabilities so everyone can 
 
 ### Turn on live captions
 
-Live captions are real-time auto-generated text of what is said in a meeting. They appear a few lines at a time for a user who has turned them on, and aren’t saved.
+Live captions are real-time auto-generated text of what is said in a meeting or call. They appear a few lines at a time for a user who has turned them on, and aren’t saved.
 
 #### Meetings
 

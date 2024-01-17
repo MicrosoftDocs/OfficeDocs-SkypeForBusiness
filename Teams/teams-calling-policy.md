@@ -58,8 +58,8 @@ Follow these steps to edit an existing calling policy.
 Here are the settings that you can configure for calling policies.
 
 - Make private calls - This setting controls all calling capabilities in Teams. Turn this setting off to turn off all calling functionality in Teams.
-- [Cloud recording for calling]()
-- [Transcription](accessibility-guide-admin.md)
+- [Cloud recording for calling](call-recording-transcriptions-captions.md.md)
+- [Transcription](call-recording-transcriptions-captions.md.md)
 - [Routing for PSTN calls](inbound-call-routing.md)
 - [Routing for federated calls](inbound-call-routing.md)
 - [Call forwarding and simultaneous ringing to people in your organization](user-call-settings.md)
@@ -71,16 +71,10 @@ Here are the settings that you can configure for calling policies.
 - [Music on hold for PSTN calls](music-on-hold.md)
 - [Busy on busy during calls](inbound-call-routing.md)
 - Web PSTN calling - This setting enables users to call PSTN numbers using the Teams web client. This setting is on by default.
-- [Real-time captions in Teams calls](accessibility-guide-admin.md)
+- [Real-time captions in Teams calls](call-recording-transcriptions-captions.md.md)
 - [Spam filtering]()
 - [SIP devices can be used for calls](sip-gateway-configure.md)
 - [Open apps in browser for incoming PSTN calls](inbound-call-routing.md)
-
-### Cloud recording for calling
-
-This setting controls whether users can record calls. This setting is off by default.
-
-For more information, see [Routing inbound calls](inbound-call-routing.md).
 
 ### Spam filtering
 

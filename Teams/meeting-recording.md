@@ -61,8 +61,9 @@ Many users use meetings and calls interchangeably depending on their needs. We r
 
 # [**Meeting policy**](#tab/meeting-policy)
 
-To allow or prevent meeting recordings
-1. In the Microsoft [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851), expand **Meetings**.
+To allow or prevent meeting recordings:
+
+1. In the Microsoft [Teams admin center](https://admin.teams.microsoft.com/), expand **Meetings**.
 1. Select **Meeting policies**.
 1. Select the policy that you want to edit.
 1. Turn **Meeting recording** On or Off.
@@ -72,7 +73,8 @@ With PowerShell, you configure the `-AllowCloudRecording` parameter in [Set-CsTe
 
 # [**Calling policy**](#tab/calling-policy)
 
-To allow or prevent call recordings
+To allow or prevent call recordings:
+
 1. In the Microsoft [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851), expand **Voice**.
 1. Select **Calling policies**.
 1. Select the policy that you want to edit.
