@@ -1,5 +1,5 @@
 ---
-title: Delete Exchange Online and OneDrive Transcripts
+title: Delete Exchange Online and OneDrive transcripts
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -15,12 +15,12 @@ search.appverid: MET150
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: Learn how to delete Exchange Online and OneDrive Transcript files.
+description: Learn how to delete Exchange Online and OneDrive transcript files.
 appliesto: 
   - Microsoft Teams
 ---
 
-# Delete Exchange Online and OneDrive Transcript files
+# Delete Exchange Online and OneDrive transcript files
 
 **APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
 
@@ -262,7 +262,7 @@ To identify a particular meeting, users can check the DateTimeCreated. Additiona
 
 ## Deleting transcript copy in ODSP via Microsoft Purview
 
-You can choose to delete Teams meeting recordings along with their accompanying transcripts by using an *auto-apply retention label policy* that identifies these files from OneDrive and SharePoint Transcript (ODSP) or ODB Transcript. For more information, see [Automatically apply a retention label to Microsoft 365 items](/purview/apply-retention-labels-automatically). 
+You can choose to delete Teams meeting recordings along with their accompanying transcripts by using an *auto-apply retention label policy* that identifies these files from OneDrive and SharePoint (ODSP) transcript or ODB transcript. For more information, see [Automatically apply a retention label to Microsoft 365 items](/purview/apply-retention-labels-automatically).
 
 Here are the most relevant sections to help you get started:
 
