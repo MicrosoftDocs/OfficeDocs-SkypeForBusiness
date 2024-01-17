@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.topic: article
-ms.date: 01/16/2023
+ms.date: 01/17/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
