@@ -9,6 +9,7 @@ audience: admin
 ms.collection: 
   - M365-collaboration
   - m365initiative-meetings
+  - Tier3
 ms.reviewer: richardzhang
 ms.date: 01/17/2024
 search.appverid: MET150
