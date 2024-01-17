@@ -24,9 +24,9 @@ appliesto:
 
 **APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
 
-In Microsoft Teams, the current storage location of meeting transcript files is in Exchange Online Transcript (EXO Transcript) or substrate transcript. EXO Transcript will be deprecated in 2024. The new storage location will be OneDrive for Business (ODB).
+In Microsoft Teams, the current storage location of meeting transcript files is known as Exchange Online transcript (EXO transcript) or substrate transcript. EXO transcript will be deprecated in 2024. The new storage location will be OneDrive for Business (ODB).
 
-This article describes how to delete the meeting transcript files in Exchange Online.
+This article describes how to delete the meeting transcript files in Exchange Online and OneDrive.
 
 ## Delete EXO transcript files using XML
 
@@ -67,7 +67,7 @@ The structure of the transcription file will be: `Root\ApplicationDataRoot\93c86
       </soap:Envelope> 
    ```
 
-2. Find MeetingIntelligenceApp "93c8660e-1330-4e40-8fda-fd27f9eafe10" folder ID, as shown in the following code sample:
+2. Find MeetingIntelligenceApp folder ID: "93c8660e-1330-4e40-8fda-fd27f9eafe10", as shown in the following code sample:
 
    ```xml
    <?xml version="1.0" encoding="utf-8"?> 
@@ -153,7 +153,7 @@ The structure of the transcription file will be: `Root\ApplicationDataRoot\93c86
 
 ## Delete specific transcript file using XML
 
-1. Get the *MeetingTranscriptCollection folder ID* using the first three steps mentioned in the [above section](#delete-exo-transcript-files-using-xml).
+1. Get the *MeetingTranscriptCollection folder ID* by following the first three steps mentioned in the [above section](#delete-exo-transcript-files-using-xml).
 
 2. Now, find a transcript based on threadId + DateTimeCreated using the following code sample:
 
@@ -274,7 +274,7 @@ Here are the most relevant sections to help you get started:
 >[!NOTE]
 > When creating a retention label policy in Microsoft Purview, the minimum retention period is 1 day, which means the recordings and accompanying transcripts will only be deleted after 1 day.
 
-## Related topics
+## Related articles
 
 - [Teams meeting recording](meeting-recording.md)
 - [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md)
