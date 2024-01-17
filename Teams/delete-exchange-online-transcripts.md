@@ -10,7 +10,7 @@ ms.collection:
   - M365-collaboration
   - m365initiative-meetings
 ms.reviewer: richardzhang
-ms.date: 17/01/2024
+ms.date: 01/17/2024
 search.appverid: MET150
 ms.localizationpriority: medium
 f1.keywords:
@@ -272,4 +272,10 @@ Here are the most relevant sections to help you get started:
 - [How long it takes for retention labels to take effect](/purview/apply-retention-labels-automatically#how-long-it-takes-for-retention-labels-to-take-effect)
 
 >[!NOTE]
-> When creating a retention label policy in Microsoft Purview, the minimum retention period is 1 day, which means the recordings and accompanying transcripts will only be deleted after 1 day.  
+> When creating a retention label policy in Microsoft Purview, the minimum retention period is 1 day, which means the recordings and accompanying transcripts will only be deleted after 1 day.
+
+## Related topics
+
+- [Teams meeting recording](meeting-recording.md)
+- [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md)
+- [Teams policies reference - Meetings](settings-policies-reference.md#meetings)
