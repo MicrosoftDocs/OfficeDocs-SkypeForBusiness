@@ -38,6 +38,7 @@ ms.localizationpriority: high
 - Newly created private channels won't show up in the left rail until the page is reloaded or users move to another screen and come back.
 - The calendar icon will show an error message for users not licensed with Exchange Online. A fix to hide the calendar icon for these users is expected soon.
 - Report a Problem is missing in the help menu for users in the public preview channel.
+- Configuring an incoming webhook connector in a private channel is not available in Microsoft Teams Desktop client. You need to switch back to classic Teams or use the Progressive Web App (PWA) to create/configure.
 
 ## Issues specifically for the new Microsoft Teams for Education
 
