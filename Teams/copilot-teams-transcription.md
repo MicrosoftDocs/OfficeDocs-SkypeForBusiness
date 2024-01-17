@@ -34,13 +34,13 @@ There are two ways for users in your organization to use Copilot in meetings:
 
 **1. Copilot with transcription turned on**<br>
 
-When organizers create a meeting or event, they can set Copilot’s value to **With transcription** from the dropdown in their meeting options. Once someone with a Copilot license selects the Copilot button and enables transcription, they can enter prompts into the Copilot panel. Copilot is available both during and after the meeting. If you assign a policy that disables transcription, organizers with this policy can’t use Copilot with transcription in their meetings. Instead, they must use Copilot with transcription turned off.
+When organizers create a meeting or event, they can set Copilot’s value to **With transcription** from the dropdown in their meeting options. Once someone with a Copilot license selects the Copilot button and enables transcription during the meeting or event, they can enter prompts into the Copilot panel. Copilot is available both during and after the meeting. If you assign a policy that disables transcription, organizers with this policy can’t use Copilot with transcription in their meetings. Instead, they must use Copilot with transcription turned off.
 
 To learn more about how organizers can use Copilot with transcription, see [Get started with Copilot in Microsoft Teams meetings](https://support.microsoft.com/office/get-started-with-copilot-in-microsoft-teams-meetings-0bf9dd3c-96f7-44e2-8bb8-790bedf066b1).
 
 **2. Copilot with transcription turned off**<br>
 
-When organizers create a meeting or event, they can set Copilot’s value to **Without transcription** from the dropdown in their meeting options. Once someone with a Copilot license selects the Copilot button, they can start entering prompts into the Copilot panel. Copilot isn’t available after the meeting ends. If you assign organizers a policy that disables transcription, any organizers with this policy must use Copilot with transcription turned off to access Copilot in their meetings.
+When organizers create a meeting or event, they can set Copilot’s value to **Without transcription** from the dropdown in their meeting options. Once someone with a Copilot license selects the Copilot button during the meeting or event, they can start entering prompts into the Copilot panel. Copilot isn’t available after the meeting ends. If you assign organizers a policy that disables transcription, any organizers with this policy must use Copilot with transcription turned off to access Copilot in their meetings.
 
 To learn more about how organizers can use Copilot without transcription, see [Use Copilot without recording a Teams meeting](https://support.microsoft.com/office/use-copilot-without-recording-a-teams-meeting-a59cb88c-0f6b-4a20-a47a-3a1c9a818bd9).
 
