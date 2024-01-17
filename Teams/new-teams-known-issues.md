@@ -47,8 +47,6 @@ ms.localizationpriority: high
 >The desktop clients will be updated as issues are fixed and functionality added. Check back here for the latest information.
 
 
-- Team owners may see the button to generate a new *join code* in the team code menu instead of the original code. If they click to generate, the original code will no longer work. </br>**Workaround:** Store and share team code with other team owners, or temporarily switch back to classic Teams to identify the code.
-
 - In some scenarios the channel is not deleted when a team owner selects delete channel. A fix is expected in the end of January.
   
 - The Edit class team dialogue shows sensitivity label, however it isn't supported in class teams and a fix is expected in the end of January. 
