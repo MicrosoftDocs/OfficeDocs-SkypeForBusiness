@@ -151,7 +151,7 @@ The structure of the transcription file will be: `Root\ApplicationDataRoot\93c86
     </soap:Envelope> 
    ```
 
-## Delete specific transcript file using XML
+### Delete specific transcript file using XML
 
 1. Get the *MeetingTranscriptCollection folder ID* by following the first three steps mentioned in the [above section](#delete-exo-transcript-files-using-xml).
 
