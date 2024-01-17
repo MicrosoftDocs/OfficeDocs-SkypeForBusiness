@@ -138,7 +138,7 @@ For details, see the [Skype for Business Online Service Description](/office365/
 |Schedule a meeting or conference |Outlook or Skype for Business Web Scheduler |Outlook or Skype for Business Web Scheduler |Skype for Business Web Scheduler |Outlook or Skype for Business Web Scheduler |Outlook or Lync Web Scheduler |Outlook or Lync Web Scheduler |Outlook ||||Outlook |
 |Q&amp;A Manager |&#x2714;|||||||||||
 |Disable attendee video|&#x2714;||&#x2714;|||||||||
- | |Disable meeting IM  |&#x2714;||&#x2714;|&#x2714;|&#x2714;|||||||
+|Disable meeting IM  |&#x2714;||&#x2714;|&#x2714;|&#x2714;|||||||
 |Mute Audience   |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||||||&#x2714;|
 |Make everyone an attendee |&#x2714;||&#x2714;|&#x2714;|&#x2714;||||||&#x2714;|
 |Produce Skype Meeting Broadcast  |&#x2714;|||||||||||

@@ -1,8 +1,8 @@
 ---
 title: Use supervised chats for non-educational tenants
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.reviewer: angch
 ms.date: 06/28/2021
 ms.topic: article

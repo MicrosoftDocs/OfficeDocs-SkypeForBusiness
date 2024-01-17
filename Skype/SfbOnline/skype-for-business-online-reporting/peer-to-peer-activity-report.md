@@ -1,8 +1,8 @@
 ---
 ms.date: 11/28/2017
 title: "Peer-to-peer activity report"
-ms.author: tonysmit
-author: tonysmit
+ms.author: serdars
+author: pamgreen
 manager: serdars
 ms.reviewer: mikedav, wlooney
 ms.topic: article

@@ -2,18 +2,19 @@
 title: Troubleshooting live streaming in Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 ms.reviewer: asteele
 ms.date: 10/03/2022
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: This article will discuss troubleshooting options for Microsoft Teams streaming events.
+description: This article discusses troubleshooting options for Microsoft Teams streaming events.
 localization_priority: medium
 appliesto: 
   - Microsoft Teams
@@ -22,8 +23,11 @@ ms.custom:
 
 # Troubleshooting live events in Microsoft Teams
 
+> [!NOTE]
+> Teams live events will be deprecated on September 30, 2024. We recommend that you use town halls instead. For details, see [Plan for Teams town halls](/microsoftteams/plan-town-halls).
+
 > [!IMPORTANT]
-> **China**: Users located in China won't be able to set up or attend Teams or Yammer live events or view videos on-demand because currently, Azure CDN, which these apps rely on, might not be accessible in China.
+> **China**: Users located in China won't be able to set up or attend Teams or Viva Engage live events or view videos on-demand because currently, Azure CDN, which these apps rely on, might not be accessible in China.
 >
 > As an administrator, you might need to set up a VPN to connect your corporate network for these apps to work seamlessly. Once that's complete, people in your organization can schedule and attend live events.
 
@@ -37,7 +41,7 @@ Teams requires connectivity to the internet. All endpoints listed on [Office 365
 
 #### Teams Encoder live events - RMTP ingest endpoints
 
-To get a video feed for a Teams Encoder live event sent to Teams from your encoder, you'll need the domain name and ports open in your network's firewall:
+To get a video feed for a Teams Encoder live event sent to Teams from your encoder, you need the domain name and ports open in your network's firewall:
 
 - Domains: *.rtmpingest.mcr.teams.microsoft.com
 - Ports: 1935/1936 (for RTMP/RTMPS)
@@ -67,7 +71,7 @@ Viewers receive the Teams live event stream via TCP HTTPS. The following URLs sh
 
 ### I can't create a live event
 
-There are permissions across Microsoft Teams and Yammer that a user needs to be able to create a live event depending on which service you're using for the live event.
+There are permissions across Microsoft Teams and Viva Engage that a user needs to be able to create a live event depending on which service you're using for the live event.
 
 1. Check that the Teams admin has enabled you to create live events.
 2. Check with your administrator that you have a valid Teams license that allows the creation of live events.
@@ -103,7 +107,7 @@ The easiest way to get started is to follow the instructions outlined from the [
 
 ### I tried to start setup and it's taking a long time
 
-In general, it can take a few minutes to get the setup going before you can start pushing your encoder. It is possible if the service is busy that this can take longer to get going, so it's recommended that you give yourself ample time to start the setup before your scheduled live event.
+In general, it can take a few minutes to get the setup going before you can start pushing your encoder. It's possible if the service is busy that this can take longer to get going, so it's recommended that you give yourself ample time to start the setup before your scheduled live event.
 
 ### I tried to start setup but there are too many events happening
 

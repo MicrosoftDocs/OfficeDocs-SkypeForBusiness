@@ -2,8 +2,8 @@
 ms.date: 11/28/2017
 title: "Diagnose connection problems in the Skype for Business Online Connector"
 ms.reviewer: 
-ms.author: tonysmit
-author: tonysmit
+ms.author: serdars
+author: pamgreen
 manager: serdars
 ms.topic: article
 ms.assetid: 866fadfd-16e2-4134-95db-c6aed7678416

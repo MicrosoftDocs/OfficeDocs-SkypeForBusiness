@@ -2,27 +2,23 @@
 
 
 
-## Week of September 12, 2022
+## Week of January 01, 2024
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 9/12/2022 | [SIP Trunking and E-911 services partner qualification for Lync](/SkypeForBusiness/lync-cert/sip-trunking-services) | modified |
-| 9/12/2022 | [Validated Lync Applications](/SkypeForBusiness/lync-cert/validated-lync-apps) | modified |
-| 9/12/2022 | [Latest updates for versions of Skype for Business that use Windows Installer (MSI)](/SkypeForBusiness/sfb-client-updates) | modified |
-| 9/14/2022 | [Move users between on-premises and cloud](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud) | modified |
-| 9/14/2022 | [Move users from Skype for Business Server 2019 to Teams](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) | modified |
+| 1/2/2024 | [Skype Room System room setup scripts](/SkypeForBusiness/deploy/deploy-clients/room-setup-scripts) | modified |
+| 1/5/2024 | [Configure Cloud Connector integration with your Microsoft 365 or Office 365 organization](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-cloud-connector-integration-with-your-office-365-tenant) | modified |
 
 
-## Week of August 15, 2022
+## Week of December 11, 2023
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 8/20/2022 | [Validated Lync Applications](/SkypeForBusiness/lync-cert/validated-lync-apps) | modified |
-| 8/20/2022 | [Configure Skype for Business hybrid](/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online) | modified |
-| 8/20/2022 | [Configure hybrid connectivity \| Deploy Skype for Business Server 2019 connect](/SkypeForBusiness/hybrid/configure-hybrid-connectivity) | modified |
-| 8/20/2022 | [Move users between on-premises and cloud](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud) | modified |
-| 8/20/2022 | [Move users from on premises to Skype for Business Online](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online) | modified |
-| 8/20/2022 | [Plan hybrid connect \| Skype for Business Server 2019 and Teams](/SkypeForBusiness/hybrid/plan-hybrid-connectivity) | modified |
-
+| 12/11/2023 | [Video based Screen Sharing for Skype for Business Server](/SkypeForBusiness/manage/video-based-screen-sharing) | modified |
+| 12/12/2023 | [Integration between Skype for Business Online and Exchange server](/SkypeForBusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises) | modified |
+| 12/13/2023 | [Connect a Survivable Branch Appliance](/SkypeForBusiness/migration/connect-a-survivable-branch-appliance) | modified |
+| 12/13/2023 | [Skype for Business mobile app security](/SkypeForBusiness/set-up-skype-for-business-online/skype-for-business-mobile-app-security) | modified |
+| 12/13/2023 | [Skype for Business Online support in Outlook on the web](/SkypeForBusiness/set-up-skype-for-business-online/skype-for-business-online-support-in-outlook-on-the-web) | modified |
+| 12/13/2023 | [Switching between the Skype for Business and the Lync client user interfaces](/SkypeForBusiness/set-up-skype-for-business-online/switching-the-skype-for-business-and-the-lync-client-user-interfaces) | modified |

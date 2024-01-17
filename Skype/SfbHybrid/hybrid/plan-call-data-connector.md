@@ -2,9 +2,9 @@
 ms.date: 06/22/2018
 title: Plan Call Data Connector | Call Quality Dashboard Monitoring Hybrid Analytics
 ms.reviewer: 
-ms.author: heidip
 author: MicrosoftHeidi
-manager: serdars
+ms.author: heidip
+manager: jtremper
 audience: ITPro
 f1.keywords:
 - NOCSH

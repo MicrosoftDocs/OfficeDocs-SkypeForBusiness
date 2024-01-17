@@ -1,17 +1,17 @@
 ---
 title: Manage Microsoft Teams configuration on Surface Hub
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 ms.reviewer: rahulmi
 ms.date: 08/06/2020
-manager: serdars
+manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-rooms
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier1
 f1.keywords: 
   - NOCSH

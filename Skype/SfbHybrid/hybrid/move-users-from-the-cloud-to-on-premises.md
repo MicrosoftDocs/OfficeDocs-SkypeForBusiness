@@ -1,9 +1,9 @@
 ---
 ms.date: 11/16/2018
 title: "Move users from the cloud to on-premises"
-ms.author: heidip
 author: MicrosoftHeidi
-manager: serdars
+ms.author: heidip
+manager: jtremper
 ms.reviewer: bjwhalen
 audience: ITPro
 f1.keywords:
@@ -14,6 +14,7 @@ ms.localizationpriority: medium
 ms.collection: 
 - Hybrid 
 - M365-voice
+- m365initiative-voice
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
@@ -21,18 +22,18 @@ ms.custom:
 description: "Learn how to move users from Teams to on-premises."
 ---
 
-# Move users from the cloud to on-premises 
+# Move users from the cloud to on-premises
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 If needed, you can move a user who was previously migrated from on-premises to Teams back to on-premises. To move users from TeamsOnly mode back to an on-premises deployment of Skype for Business Server, use either the Move-CsUser cmdlet or the Skype for Business Server Control Panel, both of which are on-premises tools. When you move a user back to an on-premises deployment, you must decide which pool to move the user to.
 
-> [!Important]
+> [!IMPORTANT]
 > If the user was previously in TeamsOnly mode, and you are using an earlier version than Skype for Business Server 2015 with CU8, then you must also remove the TeamsOnly mode assignment of TeamsUpgradePolicy for that user. On-premises users must not have mode= TeamsOnly.  Subsequent versions of Skype for Business Server automatically remove this assignment. For more information, see [Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy).
 
 ## Prerequisites
 
-- The organization must have Azure AD Connect properly configured and be syncing all relevant attributes for the user, as described in [Configure Azure AD Connect](configure-azure-ad-connect.md).
+- The organization must have Microsoft Entra Connect properly configured and be syncing all relevant attributes for the user, as described in [Configure Microsoft Entra Connect](configure-azure-ad-connect.md).
 - The user being moved from online back to on-premises must already exist in the on-premises Active Directory.
 - Skype for Business hybrid must be configured, as described in [Configure Skype for Business hybrid](configure-federation-with-skype-for-business-online.md).
 
@@ -40,7 +41,7 @@ If needed, you can move a user who was previously migrated from on-premises to T
 
 Once you move a user from the cloud back to on-premises:
 
-- The user interacts with your Skype for Business Server deployment for its functionality. 
+- The user interacts with your Skype for Business Server deployment for its functionality.
 - Any contacts that existed in Teams are migrated to Skype for Business Server. The two sets of contacts are merged and then migrated back to on-premises.  In addition, contacts that are pre-existing in Teams remain in Teams.
 - If the user also uses Teams, they won't have the ability to interoperate with Skype for Business users, nor will they be able to communicate with users in federated organizations.
 
@@ -83,7 +84,6 @@ To remove the user’s assignment of TeamsUpgradePolicy, run the following cmdle
 `Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName $null`
 
 Alternatively, to assign another instance of TeamsUpgradePolicy that doesn't have mode=TeamsOnly, you can specify the name of the desired instance as the value of PolicyName parameter in the cmdlet. To see a list of available instances of TeamsUpgradePolicy, run Get-CsTeamsUpgradePolicy.
-
 
 ## See also
 

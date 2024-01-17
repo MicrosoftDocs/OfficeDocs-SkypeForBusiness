@@ -24,7 +24,7 @@ description: "Partner qualification requirements for Lync: Survivable branch app
 
 # Lync: Survivable branch appliances
 
-Survivable branch appliances (SBAs) listed in the table that follows, along with the relevant firmware, has been independently qualified with Lync Server. We recommend you visit the vendor's web site for the latest information about protocol, capacity, country support, and documentation that includes a Quick Start Guide, release notes, and any known issues.
+Survivable branch appliances (SBAs) listed in the table that follows, along with the relevant firmware, has been independently qualified with Lync Server. We recommend you visit the vendor's web site for the latest information about protocol, capacity, country/region support, and documentation that includes a Quick Start Guide, release notes, and any known issues.
 
 ## Qualified for Microsoft Lync Server 2013
 

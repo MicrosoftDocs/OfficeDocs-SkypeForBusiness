@@ -1,8 +1,8 @@
 ---
 title: Data and Privacy Information
-author: altsou
-ms.author: altsou
-manager: serdars
+author: mstonysmith
+ms.author: tonysmit
+manager: pamgreen
 ms.date: 06/01/2022
 ms.reviewer: 
 ms.topic: article
@@ -12,8 +12,8 @@ ms.subservice: itpro-rooms
 audience: Admin
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_MTRP
   - Tier1
+  - teams-rooms-devices
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium

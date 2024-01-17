@@ -4,7 +4,7 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 ms.reviewer: aravin
 ms.date: 01/11/2021
-manager: serdars
+manager: pamgreen
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -13,10 +13,13 @@ searchScope:
 search.appverid: MET150
 description: Learn how to Set up Microsoft Teams meeting add-on for Google Workspace.
 ms.localizationpriority: medium
+ms.custom:
+  - has-azure-ad-ps-ref
 f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 ---

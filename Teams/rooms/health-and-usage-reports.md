@@ -1,8 +1,8 @@
 ---
 title: Health and usage reports
-author: altsou
-ms.author: altsou
-manager: serdars
+author: mstonysmith
+ms.author: tonysmit
+manager: pamgreen
 ms.date: 04/07/2022
 ms.reviewer: altsou
 ms.topic: article
@@ -12,7 +12,7 @@ ms.subservice: itpro-rooms
 audience: Admin
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_MTRP
+  - teams-rooms-devices
   - Tier3
 appliesto: 
   - Microsoft Teams
@@ -21,6 +21,7 @@ search.appverid: MET150
 description: Reporting node data for health and usage of reports
 f1keywords: 
 ---
+
 # Health and usage reports
 
 The reporting node contains data for the health and usage of your Microsoft Teams Rooms in the Pro Management portal. The **Overview** tab surfaces tenant-wide health trends of your rooms. The **Health** tab displays a list of rooms with their corresponding health data. Room usage based on calendar information and call quality data is visible under the **Usage** tab.
@@ -88,7 +89,7 @@ The ticket history graph shows a comparison of incidents assigned to you or Micr
 
 ### Health history
 
-This graph shows the average health (definition in Health section) for all the rooms in the tenant and the average health for all MTR Pro customers on a day-to-day basis. You can view the average health for up to 90 days.
+This graph shows the average health (definition in Health section) for all the rooms in the tenant and the average health for all Microsoft Teams Rooms Pro customers on a day-to-day basis. You can view the average health for up to 90 days.
 
 <!--!![A screenshot of rooms health and average health](../media/health-and-usage-010.png)-->
 
@@ -148,13 +149,16 @@ Below the headline **Metrics** is a table of rooms with corresponding metrics. S
 
 |Column|Description|
 |---|---|
-|Utilization|Percentage of time the room was booked during business hours in the selected period. Ex. Time period set to 7 days. 80% utilization over the means the room was booked for 32/40 hours|
+|Utilization|Percentage of time the room was booked during business hours (Max of 8hours/ per day) in the selected period.  Utilization= (total hours)/ (number of selected days set in the report * 8).   Ex: Time period set to 7 days in the report. The room was booked for 5 days during that period and the total hours= 8*5 = 40 hours. In this case, utilization = (8*5)/ (7*8) = 40/56= 71%|
 |Booked online|Of the booked meetings, the percentage of which were enabled with Teams. Ex. 10 meetings were booked. Of that, 8 had a Teams link. Booked Online = 80%|
 |Scheduled meetings|Absolute number of meetings scheduled in the room|
 |Total calls|Absolute number of calls with the room as a participant.|
-Call performance|Percentage of calls with a "Good" rating. Each call is evaluated and receives a Good, Poor, Unknown rating. This metric is calculated from Good calls/Total calls|
+|Call performance|Percentage of calls with a "Good" rating. Each call is evaluated and receives a Good, Poor, Unknown rating. This metric is calculated from Good calls/Total calls|
 
 Usage is calculated at the end of each day at midnight (00:00) local time of the meeting room device. Utilization is calculated based on the total booked meeting time for that day divided by 8 hours.
+
+> > [!NOTE]
+> > The metrics for Panels that aren't sharing an account with Microsoft Teams Rooms aren't showing yet in the usage report.  
 
 ## Usage details of a room
 
@@ -167,3 +171,31 @@ The **Calls** table shows meetings in which the room participated in a Teams cal
 <!--!![A screenshot of room audio quality](../media/health-and-usage-016.png)-->
 
 To view stream details for the room, click the Session Start Time.
+
+## Insight report
+
+The Insight report is located under the Report section of the pro-management portal. It provides a detailed overview of all the activities completed by our services during a specific time range, including the types of actions performed, such as detection, remediation, and updates. This report highlights the value we provide through actions to resolve rooms issues and how much time and money we help you save by doing that. 
+
+To view the Insight report for all rooms, select **Report** > **Insight Report (Preview)**.
+
+## Actions
+
+ The Actions section of the report shows a timeline view and aggregate count of all actions completed each day by the service. Action types include detection, remediation, and updates. Details on the actions can be viewed by selecting **See details**. Once you have selected **See details**, a new panel will appear with two sections; Tickets and Updates. The Tickets section shows a list of tickets with corresponding hours saved. Select the Tickets section to show an expanded view of each action taken on the respective ticket and the hours saved. the Updates section shows a list of each update applied and the corresponding tally of devices that successfully completed the update.  
+ 
+## Detection, investigation, and remediation
+
+The Detection, investigation, and remediation section displays two counts respective of the specified time range: Meeting issues prevented and Incidents remediated.
+
+## Updates
+ 
+The Updates section provides a count of total updates either scheduled, in progress, or completed across the devices enrolled in the service.
+
+## Estimated savings
+ 
+The estimated hours saved from the actions completed are converted to a monetary amount based on a default rate of $50 USD/hour for IT professionals. To customize the rate, select _See details_ in this section.
+The Detail pane allows you to input a custom hourly rate and corresponding currency to get a better monetary estimate.  
+
+## User experience
+
+This section provides the average call rating by end-users on a scale of 1 to 5 (5 being the best).
+

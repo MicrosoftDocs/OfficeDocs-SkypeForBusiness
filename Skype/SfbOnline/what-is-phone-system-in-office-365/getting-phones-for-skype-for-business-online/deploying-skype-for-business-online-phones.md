@@ -1,8 +1,8 @@
 ---
 ms.date: 11/28/2017
 title: "Deploying Skype for Business Online phones"
-ms.author: tonysmit
-author: tonysmit
+ms.author: serdars
+author: pamgreen
 manager: serdars
 ms.reviewer: wasseemh
 ms.topic: article
@@ -183,7 +183,7 @@ You can find out more about Calling Plans by reading [Phone System and Calling P
     
 - **Phone-Lock** is a recently introduced feature in Skype for Business certified phones that is used to secure a phone. If enabled, users will be asked to create a PIN upon successful authentication. Once created, phones will lock when the idle-timeout that you define expires, a user manually locks their phone, or they sync their phone-lock with their PC lock using Phone Pairing. If the phone-lock PIN is entered wrong several times, the phone will either sign the user out or require an administrator's code to unlock the phone, but this will vary depending on the phone partner. The user's PIN should be between 6 and 15 digits.
     
-    You can disable Phone-Lock for your organization (which is enabled by default), change the idle-timeout, and choose whether users can make phone calls while they are locked or not using inband-settings. See [Set-CsUCPhoneConfiguration](/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps) for more details on those settings.
+    You can disable Phone-Lock for your organization (which is enabled by default), change the idle-timeout, and choose whether users can make phone calls while they are locked or not using inband-settings. See [Set-CsUCPhoneConfiguration](/powershell/module/skype/set-csucphoneconfiguration) for more details on those settings.
     
 ## Step 7 (optional) - If you have device pairing and Better Together over Ethernet (BToE)
 <a name="BK_BTOE"> </a>

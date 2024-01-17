@@ -2,8 +2,8 @@
 ms.date: 11/28/2017
 title: "Set up Skype for Business Online"
 ms.reviewer: 
-ms.author: tonysmit
-author: tonysmit
+ms.author: serdars
+author: pamgreen
 manager: serdars
 ms.topic: article
 ms.assetid: 40296968-e779-4259-980b-c2de1c044c6e

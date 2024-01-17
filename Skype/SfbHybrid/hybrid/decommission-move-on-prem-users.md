@@ -1,9 +1,9 @@
 ---
 ms.date: 04/03/2021
 title: Move users to the cloud
-ms.author: heidip
 author: MicrosoftHeidi
-manager: serdars
+ms.author: heidip
+manager: jtremper
 ms.reviewer: bjwhalen
 audience: ITPro
 f1.keywords:
@@ -14,6 +14,7 @@ ms.localizationpriority: medium
 ms.collection: 
 - Hybrid 
 - M365-voice
+- m365initiative-voice
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
@@ -34,7 +35,6 @@ This article describes how to move required users to the Microsoft cloud before 
 - Step 3. [Migrate hybrid application endpoints from on-premises to online](decommission-move-on-prem-endpoints.md). Be aware that any existing hybrid application endpoints will not be discoverable between the time you perform Step 2 above until you complete this step. You should plan to do both steps 2 and 3 in the same maintenance window.
 
 - Step 4. [Remove your on-premises Skype for Business deployment](decommission-remove-on-prem.md).
-
 
 ## Move all required users from on-premises to the cloud
 
@@ -58,7 +58,6 @@ Get-CsUser -Filter { HostingProvider -eq "SRV:"} | Disable-CsUser
 > [!NOTE]
 > Running Disable-CsUser will remove all Skype for Business attributes for all users meeting the filter criteria. Before proceeding, confirm that these accounts are no longer needed going forward.
 
-
 You are now ready to [disable your hybrid configuration](cloud-consolidation-disabling-hybrid.md).
 
 ## See also
@@ -70,8 +69,3 @@ You are now ready to [disable your hybrid configuration](cloud-consolidation-dis
 - [Move hybrid application endpoints from on-premises to online](decommission-move-on-prem-endpoints.md)
 
 - [Remove your on-premises Skype for Business deployment](decommission-remove-on-prem.md)
-
-
-
-
-

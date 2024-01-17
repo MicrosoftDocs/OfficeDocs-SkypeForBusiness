@@ -2,11 +2,11 @@
 title: Microsoft Teams PSTN minute pools report
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: v-rifer
+ms.reviewer: 
 ms.date: 10/08/2019
 f1.keywords: 
   - NOCSH
@@ -18,6 +18,7 @@ appliesto:
 ms.custom: seo-marvel-apr2020
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 ---
 # Microsoft Teams PSTN minute pools report

@@ -1,12 +1,11 @@
 ---
 title: Use financial team templates
-author: lanachin
-ms.author: v-lanachin
-manager: samanro
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: yinchang
 ms.date: 09/10/2020
 ms.collection: 
   - M365-collaboration

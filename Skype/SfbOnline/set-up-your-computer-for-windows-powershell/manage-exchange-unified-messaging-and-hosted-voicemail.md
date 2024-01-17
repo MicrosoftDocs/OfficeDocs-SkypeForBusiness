@@ -2,8 +2,8 @@
 ms.date: 11/28/2017
 title: "Manage Exchange Unified Messaging and hosted voicemail"
 ms.reviewer: 
-ms.author: tonysmit
-author: tonysmit
+ms.author: serdars
+author: pamgreen
 manager: serdars
 ms.topic: article
 ms.assetid: 707198df-df85-4833-9c15-aa29b71f085c

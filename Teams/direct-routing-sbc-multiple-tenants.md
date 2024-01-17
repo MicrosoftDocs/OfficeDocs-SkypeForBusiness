@@ -4,7 +4,7 @@ ms.reviewer: filippse
 ms.date: 06/27/2018
 ms.author: crowe
 author: CarolynRowe
-manager: serdars
+manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: msteams
@@ -12,6 +12,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 appliesto: 
   - Microsoft Teams

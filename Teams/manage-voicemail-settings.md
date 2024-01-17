@@ -2,7 +2,7 @@
 title: Manage Cloud Voicemail settings
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: jenstr
 ms.date: 05/21/2021
 ms.topic: article
@@ -12,6 +12,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 audience: Admin
 appliesto: 

@@ -1,11 +1,11 @@
 ---
 title: Create resource accounts for rooms and shared Teams devices
 ms.author: tonysmit
-author: tonysmit
-manager: serdars
+author: mstonysmith
+manager: pamgreen
 audience: ITPro
 ms.reviewer: sohailta
-ms.date: 02/23/2018
+ms.date: 08/03/2023
 ms.topic: quickstart
 ms.service: msteams
 ms.subservice: itpro-rooms
@@ -14,7 +14,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier1
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
@@ -34,10 +34,6 @@ Every resource account is unique to a single Microsoft Teams Rooms installation 
 > [!NOTE]
 > If using Microsoft Teams panels, the Teams Rooms resource account signs in to both Teams Rooms and associated Teams panels.
 
-> [!NOTE]
-> **Skype for Business** <br><br>
-> If you need to enable your resource account to work with Skype for Business, see [Deploy Microsoft Teams Rooms with Skype for Business Server](with-skype-for-business-server-2015.md)
-
 ## Before you begin
 
 ### Requirements
@@ -46,8 +42,8 @@ Depending on your environment, you need one or more roles to create resource acc
 
 |**Environment**|**Required Roles**|
 |-----|-----|
-|Azure Active Directory  <br/> |Global Administrator or User Administrator  <br/> |
-|Active Directory  <br/> |Active Directory Enterprise Admins, Domain Admins, or have delegated rights to create users. Azure Active Directory Connect Sync rights.  <br/> |
+|Microsoft Entra ID  <br/> |Global Administrator or User Administrator  <br/> |
+|Active Directory  <br/> |Active Directory Enterprise Admins, Domain Admins, or have delegated rights to create users. Microsoft Entra Connect Sync rights.  <br/> |
 |Exchange Online  <br/> |Global Administrator or Exchange Administrator   <br/> |
 |Exchange Server  <br/> |Exchange Organization Management or Recipient Management   <br/> |
 

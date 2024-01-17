@@ -1,12 +1,12 @@
 ---
 title: Limit who users can see when searching the directory in Teams
-author: MikePlumleyMSFT
-ms.author: mikeplum
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: sbhatta
+ms.reviewer: 
 ms.date: 10/05/2018
 ms.localizationpriority: medium
 search.appverid: MET150

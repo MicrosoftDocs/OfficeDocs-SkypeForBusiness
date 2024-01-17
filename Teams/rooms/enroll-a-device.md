@@ -1,8 +1,8 @@
 ---
 title: Enroll a Teams Room device into Pro Management
-author: altsou
-ms.author: altsou
-manager: serdars
+author: mstonysmith
+ms.author: tonysmit
+manager: pamgreen
 ms.date: 09/28/2022
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -11,7 +11,7 @@ ms.subservice: itpro-rooms
 audience: Admin
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_MTRP
+  - teams-rooms-devices
   - Tier3
 appliesto: 
   - Microsoft Teams
@@ -23,9 +23,19 @@ f1keywords:
 
 
 
-# Enroll device into Pro Management
+# Enrolling a device into Pro Management
 
-Deployment requires onboarding Microsoft Teams Rooms devices to the Microsoft Teams Rooms Pro Management portal. The monitoring service agent is for use with certified Microsoft Teams Rooms (MTR) systems and peripherals.
+**With the upcoming Teams Rooms on Windows app update (version 4.17), which is scheduled for release by the end of June 2023, we have streamlined the enrollment process for Windows-based Teams Rooms devices. With version 4.17, IT admins will no longer need to manually download and install the Pro management admin agent on each device.**
+
+Instead of performing the steps in this article, the Pro Management agent will be automatically downloaded and installed onto the Windows-based Teams Rooms devices as part of the Teams Rooms app update. This improvement simplifies the agent deployment and device enrollment tasks for IT admins, reducing their workload.
+
+Once the Pro Management agent is successfully installed and connected, devices with the Teams Rooms Pro license will be automatically enrolled and visible on the Pro Management portal. This eliminates the need for any additional user action, making the process more efficient.
+
+> [!IMPORTANT]
+>
+> If your Windows-based Teams Rooms devices are running version 4.16 or earlier, you must still follow the steps below to enroll those devices.
+
+Both automatic and manual deployment requires onboarding Microsoft Teams Rooms devices to the Microsoft Teams Rooms Pro Management portal. The monitoring service agent is for use with certified Microsoft Teams Rooms (MTR) systems and peripherals.
 
 ## Prerequisites
 
@@ -41,7 +51,7 @@ Follow these procedures to set up your hardware before attempting the enrollment
 
      *Example:*
 
-     ```DOS
+     ```cmd
      bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL_PROXY contosoproxy.corp.net:8080 ""
      ```
 
@@ -49,7 +59,7 @@ Follow these procedures to set up your hardware before attempting the enrollment
 
      *Example:*
 
-     ```DOS
+     ```cmd
      bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT http://contosoproxy.corp.net/proxy.pac
      ```
 
@@ -109,7 +119,17 @@ mmrprodapacstor.blob.core.windows.net<br>
 mmrprodemeaiot.azure-devices.net<br>
 mmrprodemeastor.blob.core.windows.net<br>
 mmrprodnoamiot.azure-devices.net<br>
-mmrprodnoamstor.blob.core.windows.net
+mmrprodnoamstor.blob.core.windows.net<br>
+mmrprodglobapi.azurewebsites.net<br>
+mmrprodnoamapi.azurewebsites.net<br>
+mmrprodemeaapi.azurewebsites.net<br>
+mmrprodapacapi.azurewebsites.net<br>
+
+**GCC customers should also ensure reachability to:**
+
+mmrprodgcciot.azure-devices.net<br>
+mmrprodgccstor.blob.core.windows.net<br>
+mmrprodgccapi.azurewebsites.net<br>
 
 ## Enrollment process
 
@@ -156,10 +176,10 @@ The following components are pre-requisites for successful installation:
 
 - **Intune enrollment**: Teams Rooms on Windows devices must be already enrolled in Intune.
   For more information about how to enroll Teams Rooms on Windows devices in Intune, see [Enrolling Microsoft Teams Rooms on Windows devices with Microsoft Endpoint Manager - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
-- **Azure AD group with all Teams Rooms on Windows devices as members** – a group created in Azure AD that includes all Teams Rooms on Windows devices that should be part of the Microsoft Teams Rooms Premium service. This group will be used for targeting the deployment of the MTR Pro agent.
+- **Microsoft Entra group with all Teams Rooms on Windows devices as members** – a group created in Microsoft Entra ID that includes all Teams Rooms on Windows devices that should be part of the Microsoft Teams Rooms Premium service. This group will be used for targeting the deployment of the MTR Pro agent.
   
 > [!NOTE]
-> You may consider using Dynamic groups in Azure AD for this purpose, more information at [Enrolling Microsoft Teams Rooms on Windows devices with Microsoft Endpoint Manager - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
+> You may consider using Dynamic groups in Microsoft Entra ID for this purpose, more information at [Enrolling Microsoft Teams Rooms on Windows devices with Microsoft Endpoint Manager - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
 - **Download MTR Pro agent** **installer** – Download the Agent’s zip file from <https://aka.ms/serviceportalagentmsi> and extract the contents of the zip (ManagedRoomsInstaller.msi) to a local temporary folder.
 
 **To install using Intune**

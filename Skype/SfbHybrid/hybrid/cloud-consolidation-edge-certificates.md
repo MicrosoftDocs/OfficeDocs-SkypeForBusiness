@@ -1,9 +1,9 @@
 ---
 ms.date: 11/09/2018
 title: "Update the edge certificate"
-ms.author: heidip
 author: MicrosoftHeidi
-manager: serdars
+ms.author: heidip
+manager: jtremper
 ms.reviewer: bjwhalen
 ms.topic: article
 ms.service: skype-for-business-server
@@ -11,6 +11,7 @@ search.appverid: MET150
 ms.collection: 
 - Hybrid 
 - M365-voice
+- m365initiative-voice
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online

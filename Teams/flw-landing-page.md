@@ -1,9 +1,9 @@
 ---
 title: Get started with Teams for frontline workers
-author: lanachin
-ms.author: samanro
+author: lana-chin
+ms.author: v-chinlana
+manager: jtremper
 ms.reviewer: aaglick
-manager: pamgreen
 ms.topic: landing-page
 audience: admin
 ms.service: msteams
@@ -13,11 +13,10 @@ ms.localizationpriority: high
 ms.collection: 
   - M365-collaboration
   - m365-frontline
-  - tier2
   - highpri
 appliesto: 
   - Microsoft Teams
-ms.date: 11/21/2022
+ms.date: 11/27/2023
 
 ---
 

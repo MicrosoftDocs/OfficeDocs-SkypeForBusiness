@@ -23,7 +23,7 @@ description: "Read this topic to learn how to plan for multiple emergency number
  
 Read this topic to learn how to plan for multiple emergency numbers in Skype for Business Server.
   
-Skype for Business Server now supports the configuration of multiple emergency numbers for a client. Multiple emergency numbers is a new feature introduced in the June 2016 Cumulative Update. While the United States has a single emergency number, 911, many countries support multiple emergency numbers. The United Kingdom, for example, supports both 999, the emergency number specific to the United Kingdom, and 112, the emergency number for the European Union. 
+Skype for Business Server now supports the configuration of multiple emergency numbers for a client. Multiple emergency numbers is a new feature introduced in the June 2016 Cumulative Update. While the United States has a single emergency number, 911, many countries/regions support multiple emergency numbers. The United Kingdom, for example, supports both 999, the emergency number specific to the United Kingdom, and 112, the emergency number for the European Union. 
   
 This feature is also useful for health care providers within the United States who want to have roaming support for multiple code blue emergency numbers.
   

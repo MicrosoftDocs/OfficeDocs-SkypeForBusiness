@@ -1,8 +1,8 @@
 ---
 title: "Toll-free dialing limitations and restrictions"
-ms.author: tonysmit
-author: tonysmit
-manager: serdars
+ms.author: crowe
+author: CarolynRowe
+manager: pamgreen
 ms.reviewer: mikedav, roykuntz, jastark, oscarr
 ms.date: 11/28/2017
 ms.topic: reference
@@ -12,6 +12,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 audience: Admin
 appliesto: 
@@ -24,12 +25,12 @@ ms.custom:
   - Calling Plans
   - Strat_SB_PSTN
   - seo-marvel-mar2020
-description: Learn about dialing toll-free numbers in a country/region, including availability, wired/fixed-line and mobile network availability, and restrictions.
+description: Learn about dialing toll-free numbers in a country/region, including availability, wired and fixed-line number, and mobile network availability, and restrictions.
 ---
 
 # Toll-free dialing limitations and restrictions
 
-This will help you find out how to dial toll free numbers in each country or region. After you select the country/region, it will take you to a page that contains where toll free service is available including specific details, restrictions, and limits. The dialing format or formats will show you the required access codes within each country/region to dial the toll-free number.
+This article describes how to dial toll free numbers in each country or region. After you select the country/region, it will take you to a page that lists where toll free service is available including specific details, restrictions, and limits. The dialing format or formats  show you the required access codes within each country/region to dial the toll-free number.
   
 If you're ready, select a country or region:
   
@@ -61,7 +62,7 @@ If you're ready, select a country or region:
 > - [France](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-france.md)
 > - [Germany](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany.md)
 > - [Honduras](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras.md)
-> - [Hong Kong](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md)
+> - [Hong Kong SAR](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md)
 > - [Hungary](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary.md)
 > - [India](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-india.md)
 > - [Indonesia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md)
@@ -96,7 +97,7 @@ If you're ready, select a country or region:
 > - [Switzerland](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-switzerland.md)
 > - [Taiwan](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan.md)
 > - [Thailand](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand.md)
-> - [Turkey](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md)
+> - [Türkiye](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md)
 > - [United Arab Emirates (UAE)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates.md)
 > - [United Kingdom](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k.md)
 > - [United States](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-states-u-s.md)
@@ -117,7 +118,7 @@ If you're ready, select a country or region:
   
 - **Wireline, fixed line, and mobile network access to toll-free numbers may be fully or partially restricted.** The dialing format describes the required access codes within each country/region to place calls using the toll free number.
     
-- **North America Numbering Plan Toll Free Numbers:** Per-minute rates for North America Numbering Plan toll free numbers are determined by the originating country. The toll free per-minute rate for calls that originate from the United States map to the rate defined as "North America." However, calls that originate from other North American countries such as Canada, Puerto Rico, etc. have specific toll free rates.
+- **North America Numbering Plan Toll Free Numbers:** Per-minute rates for North America Numbering Plan toll free numbers are determined by the originating country/region. The toll free per-minute rate for calls that originate from the United States map to the rate defined as "North America." However, calls that originate from other North American countries/regions such as Canada, Puerto Rico, etc. have specific toll free rates.
 
 > [!NOTE]
 > If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

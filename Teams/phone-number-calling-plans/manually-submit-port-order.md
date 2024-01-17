@@ -2,7 +2,7 @@
 title: Manually submit a port order
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: mikedav, roykuntz, jastark
 ms.date: 10/24/2019
 ms.topic: article
@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
 - M365-voice
+- m365initiative-voice
 - Tier1
 audience: Admin
 appliesto:
@@ -46,7 +47,7 @@ To manually submit a new port order, upload your completed Letter of Authorizati
 
 - To use Calling Plans, you must purchase and assign licenses to your users. See [Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-- You must assign the new phone numbers you have to each of your users. See [Assign, change, or remove a phone number for a user](../assign-change-or-remove-a-phone-number-for-a-user.md).
+- You must assign the new phone numbers you have to each of your users. See [Manage phone numbers for users](../assign-change-or-remove-a-phone-number-for-a-user.md).
 
 ## Related topics
 
@@ -54,4 +55,4 @@ To manually submit a new port order, upload your completed Letter of Authorizati
 - [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Emergency calling terms and conditions](../emergency-calling-terms-and-conditions.md)
-- [Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+- [Emergency Calling disclaimer label](https://download.microsoft.com/download/9/9/0/990e24c1-eb49-4b52-9306-dbd4c864ed91/emergency-calling-label-(en-us)-(v.1.0).zip)

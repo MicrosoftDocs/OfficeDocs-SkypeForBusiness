@@ -2,8 +2,8 @@
 ms.date: 11/28/2017
 title: "Let people record their audio and video conferences"
 ms.reviewer: 
-ms.author: tonysmit
-author: tonysmit
+ms.author: serdars
+author: pamgreen
 manager: serdars
 ms.topic: article
 ms.assetid: 122cb43d-b57a-4b93-b902-a1a432e7de28

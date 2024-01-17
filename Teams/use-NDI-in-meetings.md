@@ -2,9 +2,9 @@
 title: Broadcast meeting content
 ms.author: mikeplum
 author: MikePlumleyMSFT
-ms.reviewer: aalinne
+ms.reviewer: 
 ms.date: 07/28/2020
-manager: serdars
+manager: pamgreen
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -15,6 +15,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 ---

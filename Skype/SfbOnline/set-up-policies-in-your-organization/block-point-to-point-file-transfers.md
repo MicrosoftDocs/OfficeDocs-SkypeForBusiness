@@ -2,8 +2,8 @@
 ms.date: 11/28/2017
 title: "Block Point-to-Point file transfers"
 ms.reviewer: 
-ms.author: tonysmit
-author: tonysmit
+ms.author: serdars
+author: pamgreen
 manager: serdars
 ms.topic: article
 ms.assetid: 9adf9859-de5b-461e-92ea-b6ce4dd2f7c1

@@ -1,8 +1,8 @@
 ---
 title: Teams policy packages for government
-ms.author: mabond
-author: mkbond007
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.reviewer: aaglick
 ms.date: 06/20/2019
 ms.topic: article

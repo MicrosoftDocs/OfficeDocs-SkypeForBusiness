@@ -1,8 +1,8 @@
 ---
 ms.date: 03/16/2018
 title: "Office 365 Enterprise, E1, E3, and E4 plans"
-ms.author: tonysmit
-author: tonysmit
+ms.author: serdars
+author: pamgreen
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: article

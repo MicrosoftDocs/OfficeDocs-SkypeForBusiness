@@ -2,7 +2,7 @@
 title: "Emails sent to users when their settings change"
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 11/28/2017
 ms.topic: article
@@ -12,6 +12,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 audience: Admin
 appliesto: 
   - Microsoft Teams

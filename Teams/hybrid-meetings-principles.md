@@ -1,12 +1,12 @@
 ---
 title: "Teams hybrid meeting principles"
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 f1.keywords:
 - Teams hybrid
 - remote work
 - Teams meetings
-manager: serdars
+manager: pamgreen
 ms.date: 07/08/2022
 audience: ITPro
 description: Learn about the guiding principles you should apply to create an inclusive Teams Rooms meeting experience.
@@ -16,6 +16,8 @@ ms.localizationpriority: high
 ms.collection:
 - m365solution-teamshybrid
 - m365solution-scenario
+- m365initiative-meetings
+- teams-rooms-devices
 ms.custom: 
 keywords: 
 ---

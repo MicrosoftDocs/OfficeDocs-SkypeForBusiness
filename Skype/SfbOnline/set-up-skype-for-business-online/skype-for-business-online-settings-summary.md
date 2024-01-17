@@ -2,8 +2,8 @@
 ms.date: 11/28/2017
 title: "Skype for Business Online settings summary"
 ms.reviewer: 
-ms.author: tonysmit
-author: tonysmit
+ms.author: serdars
+author: pamgreen
 manager: serdars
 ms.topic: article
 ms.assetid: da3386ab-0397-4c55-b9f0-9dbeade93455

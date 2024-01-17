@@ -1,8 +1,8 @@
 ---
 ms.date: 11/28/2017
 title: "Set up your network for Skype Meeting Broadcast"
-ms.author: tonysmit
-author: tonysmit
+ms.author: serdars
+author: pamgreen
 manager: serdars
 ms.reviewer: micchan
 ms.topic: article

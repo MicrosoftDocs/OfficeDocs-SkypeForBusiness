@@ -2,7 +2,7 @@
 title: "Phone numbers and licensing changes"
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: jenstr
 ms.date: 07/28/2021
 ms.topic: conceptual
@@ -20,7 +20,9 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - CSH
-ms.custom: 
+ms.custom:
+  - has-azure-ad-ps-ref
+  - azure-ad-ref-level-one-done
 
 description: Learn how licensing changes can affect phone number management.
 ---
@@ -65,8 +67,8 @@ For example, assume you want to assign a Microsoft 365 E5 license to a user who 
 
 - If you are using Teams admin center, in the **Licenses and apps** tab on the user details, ensure that the old license is removed and the new license is added before you click **Save changes**. 
 
-- If you are using the PowerShell cmdlets, [Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense) or [Set-MgUserLicense](/powershell/module/microsoft.graph.users.actions/set-mguserlicense), execute the cmdlet once and use both the -AddLicenses and the -RemoveLicenses parameters.
+- If you are using the PowerShell cmdlet [Set-MgUserLicense](/powershell/module/microsoft.graph.users.actions/set-mguserlicense), execute the cmdlet once and use both the -AddLicenses and the -RemoveLicenses parameters.
 
 (If you remove the old license and save the change, and then add the new license and save the change, the phone number will be unassigned and the user might lose the ability to make and receive PSTN calls in Microsoft Teams. After assigning the new license, you’ll need to re-assign the phone number to the user.)
 
-For information about how to change the license simultaneously with group-based licensing, see [Change license assignments for a user or group in Azure Active Directory](/azure/active-directory/enterprise-users/licensing-groups-change-licenses).
+For information about how to change the license simultaneously with group-based licensing, see [Change license assignments for a user or group in Microsoft Entra ID](/azure/active-directory/enterprise-users/licensing-groups-change-licenses).

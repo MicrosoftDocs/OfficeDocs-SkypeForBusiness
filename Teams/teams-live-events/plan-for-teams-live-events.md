@@ -2,12 +2,12 @@
 title: Plan for live events in Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: sonua
-ms.date: 09/11/2018
+ms.reviewer: christi.balaki
+ms.date: 01/16/2024
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -18,7 +18,7 @@ ms.collection:
 - enabler-strategic
 - highpri
 search.appverid: MET150
-description: In this article, you'll learn about the factors to consider before you set up live events in Microsoft Teams.
+description: In this article, learn about the factors to consider before you set up live events in Microsoft Teams.
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-apr2020
@@ -26,10 +26,15 @@ ms.custom: seo-marvel-apr2020
 
 # Plan for live events in Microsoft Teams
 
+> [!NOTE]
+> Teams live events will be deprecated on September 30, 2024. We recommend that you use town halls instead. For details, see [Plan for Teams town halls](/microsoftteams/plan-town-halls).
+
 When you're planning Teams live events to hold large meetings in your organization, there are several factors that you need to consider before starting the setup.
 
 > [!NOTE]
 > For details about Teams live events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3). See [prepare your organization](../prepare-network.md) to learn about bandwidth requirements for Teams live events.
+>
+> The Teams client doesn't support Teams live events on Surface hub devices. Users can join the events only as viewers using the Edge web browser on their Surface hub devices.
 
 ## Who can attend, create, and schedule live events
 
@@ -40,13 +45,13 @@ The following prerequisites are required for the user to schedule a Teams live e
 Here are the licenses that must be assigned to organize, produce or present a Teams live event:  
 
 - **To organize:** A Microsoft or Office 365 Enterprise E1, E3, or E5 license, **[or]** a Microsoft or Office 365 Education A3 or A5 license.
-- **To produce or present:** A Microsoft or Office 365 Enterprise E1, E3 or E5 license, **[or]** a Microsoft or Office 365 Education A1, A3 or A5 license. The exception to this requirement is guests can present without a license if the other criteria for [guests](plan-for-teams-live-events.md#guest-to-present) is met.
+- **To produce or present:** A Microsoft or Office 365 Enterprise E1, E3 or E5 license, **[or]** a Microsoft or Office 365 Education A1, A3 or A5 license. The exception to this requirement is guests can present without a license if the other criteria for [guests](plan-for-teams-live-events.md#guest-to-present) are met.
 - A Microsoft Teams license - this license is included in the licenses listed in the first and second bullets.
 
 > [!NOTE]
 > At this time there aren't any Microsoft 365 Small Business plans that can be used to create and hold Teams live events.
 
-It's important to know that a Microsoft 365 or Office 365 license is required to participate in a live event as an authenticated user, but this requirement depends on the production method used:
+To participate in a live event as an authenticated user, a Microsoft 365 or Office 365 license is required. This requirement depends on the production method used:  
 
 - **For events produced in Teams or using a Teams Powered Encoder**  The user must be assigned a Teams license.
 
@@ -74,7 +79,7 @@ For a guest to present in a live event, do the following tasks:
 2. Have the user accept the guest invitation and join the team.
 3. [Schedule the live event and add the guest to your event group](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
-As a best practice, we recommend that you create a channel for producers and presenters of the live event so they can chat and share information before the event. Guests who don't have Microsoft 365 credentials won't see the Calendar in Teams. To make it easy for them to join the event, producers can post the event link to the channel. Presenters can then open Teams, go to the channel, and then select the link to join the event.
+As a best practice, we recommend that you create a channel for producers and presenters of the live event so they can chat and share information before the event. Guests who don't have Microsoft 365 credentials don't see the Calendar in Teams. To make it easy for them to join the event, producers can post the event link to the channel. Presenters can then open Teams, go to the channel, and then select the link to join the event.
 
 ## Who can watch live events
 
@@ -95,22 +100,22 @@ The following table highlights core capabilities and features offered in live ev
 > [!IMPORTANT]
 > **Microsoft 365 live event limit increases**
 >
-> **To continue supporting our customers' needs, we will extend temporary limit increases for live events through June 30, 2023, including:**
+> **To continue supporting our customers' needs, we will extend temporary limit increases for live events through June 30, 2024, including:**
 >
 >- Event support for up to 20,000 attendees
 >- 50 events can be hosted simultaneously across a tenant
 >- Event duration of 16 hours per broadcast
 >
-> Additionally, live events with up to 100,000 attendees can be planned through the Microsoft 365 live events assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions).
+> Additionally, live events with up to 100,000 attendees can be planned through the Microsoft 365 Live Event Assistance Program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions).
 
 | Capability | Events produced in Teams | Events produced in external app or device |
 |---------|---------|---------|
 |Maximum audience size |10,000 attendees<sup>1</sup> |10,000 attendees<sup>1</sup> |
-|Maximum duration of live event |4 hours |4 hours |
+|Maximum duration of live event |four hours |four hours |
 |Maximum number of presenters and producers in a live event |10 <sup>2</sup> |10 <sup>2</sup> |
 |Maximum number of concurrent live events per Microsoft 365 or Office 365 organization | 15  | 15  |
-|Live event creation |Teams, Yammer via Teams | Teams, Yammer via Teams, Stream |
-|Audience engagement – Yammer |&#x2714; (integrated experience) |&#x2714; (integrated experience) |
+|Live event creation |Teams, Viva Engage via Teams | Teams, Viva Engage via Teams, Stream |
+|Audience engagement – Viva Engage |&#x2714; (integrated experience) |&#x2714; (integrated experience) |
 |Audience engagement – Moderated Q & A |&#x2714; |&#x2714; |
 |Producer client on Windows |&#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
 |Producer client on Mac |&#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
@@ -129,7 +134,7 @@ The following table highlights core capabilities and features offered in live ev
 |Captions in live event recordings |&#x2714; |&#x2714; |
 |Attendee DVR controls (pause, rewind) |&#x2714; |&#x2714; |
 |Microsoft eCDN |&#x2714; |&#x2714; |
-|Partner eCDN Support |&#x2714; (Kollective, Hive, Ramp, Riverbed) |&#x2714; (Hive, Kollective, Ramp, Riverbed) |
+|Partner eCDN Support |&#x2714; (Hive, Kollective, Ramp, Riverbed) |&#x2714; (Hive, Kollective, Ramp, Riverbed) |
 |Post-broadcast attendance report for Producers |&#x2714; |&#x274C; |
 |Audience Sentiment Analysis – Live voting & polls |&#x274C; |&#x274C; |
 
@@ -161,6 +166,7 @@ You can use Teams live events in multiple regions across the world. The followin
 - India
 - Japan
 - Norway
+- Poland
 - Singapore
 - South Africa
 - South Korea
@@ -170,7 +176,7 @@ You can use Teams live events in multiple regions across the world. The followin
 
 **Exclusions and considerations**
 
-- **Data location:** Teams data locations, outside of the ones listed above, aren't currently supported.
+- **Data location:** Teams data locations, outside of the ones listed, aren't currently supported.
 
 ## Next steps
 

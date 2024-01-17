@@ -1,8 +1,8 @@
 ---
 ms.date: 11/28/2017
 title: "Assign Skype for Business licenses"
-ms.author: tonysmit
-author: tonysmit
+ms.author: serdars
+author: pamgreen
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: article
@@ -20,7 +20,8 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
-- Licensing
+  - Licensing
+  - has-azure-ad-ps-ref
 description: "Learn how to assign Skype for Business licenses for Phone System, Audio Conferencing, Calling Plans, and Communications Credits. "
 ---
 
@@ -54,7 +55,7 @@ The steps are the same as assigning a Microsoft 365 or Office 365 license. See [
 
 1. Install the **Microsoft Online Services Sign-In Assistant for IT Professionals RTW**. Don't have the module installed? See [Microsoft Online Services Sign-In Assistant for IT Professionals RTW](https://go.microsoft.com/fwlink/?LinkId=625123) to download it.
 
-2. Install the **Windows Azure Active Directory Module.** Don't have the module installed? See [Manage Azure AD using Windows PowerShell](/previous-versions/azure/jj151815(v=azure.100)) for download instructions and cmdlet syntax.
+2. Install the **Windows Azure Active Directory module.** Don't have the module installed? See [Manage Microsoft Entra ID using Windows PowerShell](/previous-versions/azure/jj151815(v=azure.100)) for download instructions and cmdlet syntax.
 
 3. Once you get the modules installed, use the Windows PowerShell command prompt and the following syntax to assign the licenses to your users:
 
@@ -127,7 +128,7 @@ The steps are the same as assigning a Microsoft 365 or Office 365 license. See [
 
 1. Download and install [Microsoft Online Services Sign-In Assistant for IT Professionals RTW](https://go.microsoft.com/fwlink/?LinkId=625123).
 
-2. Download and install the **Windows Azure Active Directory Module.** See[Manage Azure AD using Windows PowerShell](/previous-versions/azure/jj151815(v=azure.100)) for download instructions and cmdlet syntax.
+2. Download and install the **Windows Azure Active Directory module.** See[Manage Microsoft Entra ID using Windows PowerShell](/previous-versions/azure/jj151815(v=azure.100)) for download instructions and cmdlet syntax.
 
    Once you get the modules installed, use the Windows PowerShell command prompt and the following syntax to assign the licenses to your users:
 
@@ -205,4 +206,3 @@ Take a look at the sample script for assigning **Audio Conferencing** licenses. 
 [Add funds and manage Communications Credits](/microsoftteams/add-funds-and-manage-communications-credits)
   
   
-

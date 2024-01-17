@@ -1,8 +1,8 @@
 ---
 title: Manage Audio Conferencing settings
-ms.author: heidip
-author: MicrosoftHeidi
-manager: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 08/14/2018
 ms.topic: article
@@ -13,6 +13,7 @@ search.appverid: MET150
 ms.collection: 
   - M365-voice
   - M365-collaboration
+  - m365initiative-meetings
   - Tier1
 audience: Admin
 appliesto: 

@@ -1,7 +1,7 @@
 ---
 ms.date: 11/28/2017
 title: "Assign Microsoft as the audio conferencing provider"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr

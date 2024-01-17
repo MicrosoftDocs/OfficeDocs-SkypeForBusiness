@@ -1,8 +1,8 @@
 ---
 title: Microsoft Teams Rooms Standards and Room planning
-author: altsou
-ms.author: altsou
-manager: serdars
+author: mstonysmith
+ms.author: tonysmit
+manager: pamgreen
 ms.reviewer: srpall
 ms.date: 02/16/2022
 ms.topic: article
@@ -12,7 +12,7 @@ ms.subservice: itpro-rooms
 audience: Admin
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_MTRP
+  - teams-rooms-devices
   - Tier3
 appliesto: 
   - Microsoft Teams

@@ -1,7 +1,7 @@
 ---
 title: "Get-CcCredential"
 ms.reviewer: 
-ms.author: crowe
+ms.author: serdars
 author: CarolynRowe
 manager: serdars
 ms.date: 8/8/2017

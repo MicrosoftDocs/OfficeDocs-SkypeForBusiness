@@ -1,8 +1,8 @@
 ---
 title: Audit logging in the MTR Pro Portal
-author: altsou
-ms.author: altsou
-manager: serdars
+author: mstonysmith
+ms.author: tonysmit
+manager: pamgreen
 ms.reviewer: altsou
 ms.date: 11/30/2021
 ms.topic: article
@@ -12,7 +12,7 @@ ms.subservice: itpro-rooms
 audience: Admin
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_MTRP
+  - teams-rooms-devices
   - Tier3
 appliesto: 
   - Microsoft Teams

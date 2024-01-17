@@ -1,8 +1,8 @@
 ---
 title: Manage policy packages in Teams
-ms.author: mabond
-author: mkbond007
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.reviewer: sekrantz, aaglick
 ms.date: 06/20/2019
 ms.topic: article
@@ -48,6 +48,12 @@ Policy packages support the following Teams policy types:
 - App setup policy
 - Calling policy
 - Live events policy
+- Call park policy
+- Teams policy
+- Voice routing policy
+- Caller ID policy
+- Update policy
+- Events policy
 
 ## Policy packages included in Teams
 

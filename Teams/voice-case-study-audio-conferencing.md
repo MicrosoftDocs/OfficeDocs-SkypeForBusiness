@@ -2,13 +2,14 @@
 title: 'Teams voice Contoso case study: Audio Conferencing'
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.date: 06/17/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 ms.reviewer: jowrig
 search.appverid: MET150
@@ -44,7 +45,6 @@ Phone numbers that are associated with audio conferencing are referred to as ser
 
 - To assign the Audio Conferencing license to the end user in the technical pilot, the Contoso administrator followed the steps in [Manage the Audio Conferencing settings for your organization](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md). 
 
-- For the business pilot and migration, Contoso used group-based licensing by following the steps in [Assign licenses to users by group membership in Azure Active Directory](/azure/active-directory/users-groups-roles/licensing-groups-assign).  
+- For the business pilot and migration, Contoso used group-based licensing by following the steps in [Assign licenses to users by group membership in Microsoft Entra ID](/azure/active-directory/users-groups-roles/licensing-groups-assign).  
 
  
-

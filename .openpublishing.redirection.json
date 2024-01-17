@@ -1,6 +1,16 @@
 {
   "redirections": [
     {
+      "source_path": "Teams/app-permissions-admin-center.md",
+      "redirect_url": "/microsoftteams/manage-consent-app-permissions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/upload-custom-apps.md",
+      "redirect_url": "/microsoftteams/teams-custom-app-policies-and-settings",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Teams/manage-third-party-teams-apps.md",
       "redirect_url": "/microsoft-365/admin/manage/teams-apps-work-on-outlook-and-m365",
       "redirect_document_id": false
@@ -217,7 +227,7 @@
     },
     {
       "source_path": "Teams/manage-your-custom-apps.md",
-      "redirect_url": "/microsoftteams/upload-custom-apps",
+      "redirect_url": "/microsoftteams/teams-custom-app-policies-and-settings",
       "redirect_document_id": true
     },
     {
@@ -3097,7 +3107,7 @@
   },
   {
     "source_path": "Teams/manage-phone-numbers-for-your-organization/contact-tns-service-desk.md",
-    "redirect_url": "/microsoftteams/contact-tns-service-desk",
+    "redirect_url": "/microsoftteams/phone-reference/manage-numbers/contact-tns-service-desk",
     "redirect_document_id": false
   },
   {
@@ -3158,6 +3168,11 @@
   {
     "source_path": "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md",
     "redirect_url": "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-germany",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-hong-kong.md",
+    "redirect_url": "/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-hong-kong",
     "redirect_document_id": false
   },
   {
@@ -4446,10 +4461,264 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "Teams/loop-components-in-teams.md",
+    "redirect_url": "/microsoft-365/loop/loop-components-teams",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/manage-teams-skypeforbusiness-admin-center.md",
+    "redirect_url": "/microsoftteams/manage-teams-in-modern-portal",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/Tutorial-Meetings-in-Teams.yml",
+    "redirect_url": "/microsoftteams/deploy-meetings-microsoft-teams-landing-page",
+    "redirect_document_id": false
+  },
+  {
     "source_path": "Teams/teams-add-on-licensing/pri-message.md",
     "redirect_url": "/microsoftteams/messaging-policies-in-teams",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/assign-change-emergency-place-user.md",
+    "redirect_url": "/microsoftteams/add-change-remove-emergency-place-organization",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/assign-change-emergency-location-user.md",
+    "redirect_url": "/microsoftteams/add-change-remove-emergency-location-organization",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/different-kinds-of-phone-numbers-used-for-calling-plans.md",
+    "redirect_url": "/microsoftteams/manage-phone-numbers-landing-page",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/upgrade-basic-powershell.md",
+    "redirect_url": "/microsoftteams/setting-your-coexistence-and-upgrade-settings",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/teams-in-30-workshops.md",
+    "redirect_url": "/microsoftteams/teams-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/ignite-2020-landing-page.md",
+    "redirect_url": "/microsoftteams/itadmin-readiness",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/teams-admin-training-landing-page.md",
+    "redirect_url": "/microsoftteams/itadmin-readiness",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/upgrade-to-Teams-execute-SkypeforBusinessHybrid.md",
+    "redirect_url": "/microsoftteams/upgrade-start-here",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/Environmental-discovery-for-Microsoft-Teams-rollout.md",
+    "redirect_url": "/microsoftteams/deploy-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/upgrade-basic.md",
+    "redirect_url": "/microsoftteams/upgrade-start-here",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/upgrade-monitor-quality.md",
+    "redirect_url": "/microsoftteams/monitor-call-quality-qos",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md",
+    "redirect_url": "/microsoftteams/upgrade-start-here",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/best-practices-feedback.md",
+    "redirect_url": "/microsoftteams/deploy-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/upgrade-emails-surveys.md",
+    "redirect_url": "/microsoftteams/deploy-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/upgrade-workshops-landing-page.yml",
+    "redirect_url": "/microsoftteams/upgrade-start-here",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/upgrade-plan-journey-discovery-questionnaire.md",
+    "redirect_url": "/microsoftteams/deploy-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/scripts/powershell-script-create-teams-from-managers-new-teams.md",
+    "redirect_url": "/microsoftteams/teams-powershell-managing-teams",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/prepare-my-users-feedback-templates.md",
+    "redirect_url": "/microsoftteams/deploy-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/upgrade-enhance-my-service.md",
+    "redirect_url": "/microsoftteams/manage-teams-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/get-help-in-microsoft-teams.md",
+    "redirect_url": "/microsoftteams/teams-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/business-voice-to-teams-phone-licenses.md",
+    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/business-voice/get-ready-internet.md",
+    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/business-voice/reseller-partner-support.md",
+    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/business-voice/set-up-licenses.md",
+    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/business-voice/ui/admin-perms-needed.md",
+    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/career-coach.md",
+    "redirect_url": "/microsoftteams/expand-teams-across-your-org/teams-for-education-landing-page",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/career-coach-set-up-steps.md",
+    "redirect_url": "/microsoftteams/expand-teams-across-your-org/teams-for-education-landing-page",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/career-coach-troubleshoot.md",
+    "redirect_url": "/microsoftteams/expand-teams-across-your-org/teams-for-education-landing-page",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/privacy-career-coach-data-compliance.md",
+    "redirect_url": "/microsoftteams/expand-teams-across-your-org/teams-for-education-landing-page",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/career-coach-resources.md",
+    "redirect_url": "/microsoftteams/expand-teams-across-your-org/teams-for-education-landing-page",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/manage-phone-numbers-for-your-organization.md",
+    "redirect_url": "/microsoftteams/manage-phone-numbers",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/teams-stream-ecdn.md",
+    "redirect_url": "/microsoftteams/streaming-ecdn-enterprise-content-delivery-network",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/deploy-meetings-microsoft-teams-landing-page.md",
+    "redirect_url": "/microsoftteams/overview-meetings-webinars-town-halls",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/teams-stream-create-event.md",
+    "redirect_url": "https://support.microsoft.com/office/f92363a0-6d98-46d2-bdd9-f2248075e502",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/scripts/powershell-script-create-teams-from-managers-export-managers.md",
+    "redirect_url": "/microsoftteams/manage-teams-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/scripts/powershell-script-teams-reset-autostart.md",
+    "redirect_url": "/microsoftteams/manage-teams-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/get-started-with-teams-create-your-first-teams-and-channels.md",
+    "redirect_url": "https://support.microsoft.com/office/174adf5f-846b-4780-b765-de1a0a737e2b",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/get-started-with-teams-onboard-early-adopters.md",
+    "redirect_url": "/microsoftteams/limits-specifications-teams",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/get-started-with-teams-monitor-usage-and-feedback.md",
+    "redirect_url": "/microsoftteams/teams-analytics-and-reports/teams-reporting-reference",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/get-started-with-teams-resources-for-org-wide-rollout.md",
+    "redirect_url": "/microsoftteams/deploy-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/get-started-with-teams-quick-start.md",
+    "redirect_url": "/microsoftteams/deploy-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/office-365-urls-ip-address-ranges.md",
+    "redirect_url": "/microsoft-365/enterprise/urls-and-ip-address-ranges",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/best-practices-organizing.md",
+    "redirect_url": "https://support.microsoft.com/office/b98d533f-118e-4bae-bf44-3df2470c2b12",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/quick-start-meetings-live-events.md",
+    "redirect_url": "/microsoftteams/overview-meetings-webinars-town-halls",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/cortana-in-teams.md",
+    "redirect_url": "https://techcommunity.microsoft.com/t5/microsoft-teams-support/cortana-voice-assistance-deprecation-in-microsoft-teams-rooms/ba-p/3931593",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/contact-tns-service-desk.md",
+    "redirect_url": "/microsoftteams/phone-reference/manage-numbers/contact-tns-service-desk",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/known-issues-for-mac.md",
+    "redirect_url": "/microsoftteams/new-teams-known-issues",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/unsupported-browsers.md",
+    "redirect_url": "https://support.microsoft.com/office/daafdd3c-ac7a-4855-871b-9113bad15907",
     "redirect_document_id": false
   }
  ] 
 }
-

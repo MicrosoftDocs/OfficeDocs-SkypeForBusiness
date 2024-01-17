@@ -1,8 +1,8 @@
 ---
 ms.date: 11/28/2017
 title: "Why is number activation listed as incomplete?"
-ms.author: tonysmit
-author: tonysmit
+ms.author: pamgreen
+author: pamgreen
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -105,7 +105,7 @@ Address validation is an important part of setting up Calling Plans. If for some
 
 [Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online: Emergency Calling disclaimer label](https://download.microsoft.com/download/9/9/0/990e24c1-eb49-4b52-9306-dbd4c864ed91/emergency-calling-label-(en-us)-(v.1.0).zip)
 
   
  

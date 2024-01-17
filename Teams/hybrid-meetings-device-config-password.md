@@ -1,12 +1,12 @@
 ---
 title: "Step 5 - Turn off password expiration"
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 f1.keywords:
 - Teams hybrid
 - remote work
 - Teams meetings
-manager: serdars
+manager: pamgreen
 ms.date: 07/08/2022
 audience: ITPro
 description: Disable password expiration on resource accounts used with Teams Rooms devices.
@@ -16,6 +16,8 @@ ms.localizationpriority: high
 ms.collection:
 - m365solution-teamshybrid
 - m365solution-scenario
+- m365initiative-meetings
+- teams-rooms-devices
 ms.custom: 
 keywords: 
 ---

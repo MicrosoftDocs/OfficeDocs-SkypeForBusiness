@@ -1,9 +1,9 @@
 ---
 ms.date: 03/17/2018
 title: Plan hybrid connectivity | Skype for Business Server and Teams 
-ms.author: heidip
 author: MicrosoftHeidi
-manager: serdars
+ms.author: heidip
+manager: jtremper
 ms.reviewer: bjwhalen
 audience: ITPro
 f1.keywords:
@@ -14,6 +14,7 @@ ms.localizationpriority: medium
 ms.collection: 
 - Hybrid 
 - M365-voice
+- m365initiative-voice
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
@@ -24,9 +25,8 @@ ms.custom: seo-marvel-jun2020
 
 # Plan hybrid connectivity between Skype for Business Server and Teams
 
-> [!Important]
+> [!IMPORTANT]
 > Although Skype for Business Online has been retired since 2021, the on-premises products Skype for Business Server 2019, Skype for Business Server 2015, and Lync Server 2013 are still supported. In addition, Microsoft supports hybrid environments between these on-premises products and Microsoft Teams. This allows organizations with these on-premises deployments to migrate their users to TeamsOnly.  Finally, Cloud Connector Edition of Skype for Business Server is no longer supported. Customers requiring on-premises PSTN connectivity should use [Direct Routing](/MicrosoftTeams/direct-routing-landing-page).
-
 
 Read this article to learn how to plan hybrid connectivity between Skype for Business Server or Lync Server 2013 and Teams. Setting up hybrid connectivity is the first step in moving off your on-premises environment towards a Microsoft Teams only environment in the cloud.
 
@@ -44,29 +44,30 @@ This article describes the infrastructure and system requirements you'll need to
 
 After you have read this article and are ready to configure hybrid connectivity, see [Configure hybrid connectivity between Skype for Business Server and Teams](configure-hybrid-connectivity.md). The configuration topics provide step-by-step guidance for setting up hybrid connectivity between your on-premises deployment and Teams.
 
-
 ## Implications of the retirement of Skype for Business Online
-It's important to remember that both before and after retirement of Skype for Business Online, users homed in Skype for Business Server on-premises can use Teams, but they can't be TeamsOnly. (On-premises users are in Islands mode by default and be assigned any mode other than TeamsOnly). Users can only experience the full benefits of Teams, in particular federation, PSTN support, and assurance that all inbound chats and calls land in Teams, once they are in TeamsOnly mode. 
+
+It's important to remember that both before and after retirement of Skype for Business Online, users homed in Skype for Business Server on-premises can use Teams, but they can't be TeamsOnly. (On-premises users are in Islands mode by default and be assigned any mode other than TeamsOnly). Users can only experience the full benefits of Teams, in particular federation, PSTN support, and assurance that all inbound chats and calls land in Teams, once they are in TeamsOnly mode.
 
 The retirement of Skype for Business Online has no impact on the existing support lifecycle of Skype for Business Server or Lync Server 2013.  However, the retirement of Skype for Business Online did impact certain aspects of **how** *users transition to the cloud and become TeamsOnly* in organizations with on-premises Skype for Business Server or Lync Server 2013, including existing hybrid organizations. The use of hybrid as a pre-requisite configuration to transition from on-premises to the cloud (e.g. TeamsOnly) remains unchanged.
 
-Prior to the retirement of Skype for Business Online, hybrid organizations could consist of three basic types of users: 
-- On-premises users (who may or may not use Teams, but not in Teams Only mode) 
+Prior to the retirement of Skype for Business Online, hybrid organizations could consist of three basic types of users:
+
+- On-premises users (who may or may not use Teams, but not in Teams Only mode)
 - Online users with any coexistence mode other than TeamsOnly
 - TeamsOnly users.
 
-After the retirement of Skype for Business Online, however, hybrid organizations can only consist of two basic types of users: 
+After the retirement of Skype for Business Online, however, hybrid organizations can only consist of two basic types of users:
+
 - On-premises users (Who may or may not use Teams, but not in TeamsOnly mode)
-- Teams Only users. 
+- Teams Only users.
 
-For organizations to move from Skype for Business Server or Lync Server 2013 to Teams, they must still set up and configure hybrid using the same toolset, *exactly as before the retirement*. When moving a user from on-premises to TeamsOnly, it's no longer required to specify the `-MoveToTeams` switch in `Move-CsUser`. Previously if this switch wast specified, users transitioned from being homed in Skype for Business Server on-premises to Skype for Business Online, and their mode remained unchanged. However, since Skype Business Online has been retired, moving a user from on-premises to the cloud with `Move-CsUser` will *automatically* assign TeamsOnly mode and initiate conversion of their meetings from on-premises to Teams meetings, regardless of whether the `-MoveToTeams` switch is specified. This also means organizations with Lync Server 2013, which never had the `MoveToTeams` switch, can move users direct to TeamsOnly from on-premises. 
+For organizations to move from Skype for Business Server or Lync Server 2013 to Teams, they must still set up and configure hybrid using the same toolset, *exactly as before the retirement*. When moving a user from on-premises to TeamsOnly, it's no longer required to specify the `-MoveToTeams` switch in `Move-CsUser`. Previously if this switch wast specified, users transitioned from being homed in Skype for Business Server on-premises to Skype for Business Online, and their mode remained unchanged. However, since Skype Business Online has been retired, moving a user from on-premises to the cloud with `Move-CsUser` will *automatically* assign TeamsOnly mode and initiate conversion of their meetings from on-premises to Teams meetings, regardless of whether the `-MoveToTeams` switch is specified. This also means organizations with Lync Server 2013, which never had the `MoveToTeams` switch, can move users direct to TeamsOnly from on-premises.
 
-Similarly, if a new user is created directly in Microsoft 365 rather than on-premises, that user will automatically have Teams Only mode regardless of the tenant's mode. Keep in mind that in a hybrid organization with at least one on-premises user, new users should be created in the on-premises Active Directory (and then synchronized into Microsoft 365), rather than directly creating a user in Microsoft 365, to ensure that on-premises users can route to the new user *even if you intend for the new user to be a cloud user*. Once created in the on-premises directory, these new users must be sip-enabled *in the on-premises* Skype for Business deployment, and then, if desired, moved to the cloud to become TeamsOnly. 
+Similarly, if a new user is created directly in Microsoft 365 rather than on-premises, that user will automatically have Teams Only mode regardless of the tenant's mode. Keep in mind that in a hybrid organization with at least one on-premises user, new users should be created in the on-premises Active Directory (and then synchronized into Microsoft 365), rather than directly creating a user in Microsoft 365, to ensure that on-premises users can route to the new user *even if you intend for the new user to be a cloud user*. Once created in the on-premises directory, these new users must be sip-enabled *in the on-premises* Skype for Business deployment, and then, if desired, moved to the cloud to become TeamsOnly.
 
 Co-existence modes continue to exist after retirement of Skype for Business Online. As before, users with accounts homed in Skype for Business Server on-premises can be assigned any coexistence mode except TeamsOnly. After retirement however, users homed online can only be TeamsOnly. It is no longer possible to assign a mode other than TeamsOnly to a user that is homed online.
 
-
-> [!Important]
+> [!IMPORTANT]
 > Existing hybrid organizations with users homed in Skype for Business Online who are NOT TeamsOnly should focus on upgrading these users to Teams Only mode as soon as possible. If your organization still has users homed in Skype for Business *Online* who are not TeamsOnly, you will be scheduled for a Microsoft-assisted upgrade to transition these users to TeamsOnly. **Microsoft Assisted upgrades will not impact users who are homed in Skype for Business Server on-premises.** Scheduling notifications will be sent in advance to hybrid customers with users homed in Skype for Business Online before these online, non-TeamsOnly users are upgraded to Teams.
 
 ## About Shared SIP Address Space functionality
@@ -81,11 +82,11 @@ This type of configuration relies on shared SIP address space functionality, and
 
 When shared SIP address space is configured:
 
-- Azure Active Directory Connect is used to synchronize your on-premises directory with Microsoft 365.
+- Microsoft Entra Connect is used to synchronize your on-premises directory with Microsoft 365.
 - Users who are homed on premises interact with on-premises Skype for Business servers.
 - Users who are homed online interact with Teams.
 - Users from both environments can communicate with each other.
-- The on-premises Active Directory is authoritative. All users should be created in the on-premises Active Directory first, and then synchronized to Azure AD. Even if you intend for the user to be homed online, you must first create the user in the on-premises environment, and then move the user to online to ensure the user is discoverable by on-premises users.
+- The on-premises Active Directory is authoritative. All users should be created in the on-premises Active Directory first, and then synchronized to Microsoft Entra ID. Even if you intend for the user to be homed online, you must first create the user in the on-premises environment, and then move the user to online to ensure the user is discoverable by on-premises users.
 
 Before a user can be moved online, the user must be assigned a Teams license as well as Skype for Business Online (Plan 2). **Assignment of the Skype for Business Online license is required even after retirement of Skype for Business Online.** If your users want to take advantage of additional online features, such as Audio Conferencing or Phone System, you need to assign them the appropriate license in Microsoft 365.
 
@@ -98,10 +99,11 @@ To implement hybrid connectivity between your on-premises environment and Micros
 - A single on-premises deployment of Skype for Business Server or Lync Server that is deployed in a supported topology. See [Topology requirements](plan-hybrid-connectivity.md#BKMK_Topology) in this article.
 
 - A Microsoft 365 organization with Teams.
-    > [!NOTE]
-    > You can use only a single tenant for a hybrid configuration with your on-premises deployment.
-    
-- Azure Active Directory Connect to synchronize your on-premises directory with Microsoft 365. For more information, see [Azure AD Connect: Accounts and permissions](/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
+
+  > [!NOTE]
+  > You can use only a single tenant for a hybrid configuration with your on-premises deployment.
+
+- Microsoft Entra Connect to synchronize your on-premises directory with Microsoft 365. For more information, see [Microsoft Entra Connect: Accounts and permissions](/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
 
 - Skype for Business Server administrative tools. These are required to move users from on-premises to the cloud. These tools must be installed on a server with access to both on-premises deployment and the internet.
 - Online administrative tools. You can use either the Teams admin center or Windows PowerShell to manage Teams. To use PowerShell to manage Teams, download and install the Teams PowerShell Module. (The Skype for Business Online Connector has been retired).
@@ -133,9 +135,8 @@ To configure your deployment for hybrid with **Teams**, you need to have one of 
 
 </br>
 
-> [!NOTE] 
+> [!NOTE]
 > Lync Server 2010 is not supported with Teams.
-
 
 ## Multi-forest support
 
@@ -150,7 +151,7 @@ Microsoft supports the following types of multi-forest hybrid scenarios:
 
 - **Multiple deployments of Skype for Business Server in multiple forests.** This configuration can arise as a result of merger and acquisition scenarios, and in more complex enterprises. Consolidation of all users from on premises to the cloud in a single Microsoft 365 organization can be achieved for any organization with multiple Skype for Business deployments, provided that the following key requirements are met:
   - There must be at most one Microsoft 365 organization involved. Consolidation in scenarios with more than one organization is not supported.
-  - At any given time, only one on-premises Skype for Business forest can be in hybrid mode (shared SIP address space). All other on-premises Skype for Business forests must remain fully on premises (and presumably federated with each other). Note that these other on-premises organizations can sync to AAD if desired with [new functionality to disable online SIP domains](/powershell/module/skype/disable-csonlinesipdomain) available as of December 2018.
+  - At any given time, only one on-premises Skype for Business forest can be in hybrid mode (shared SIP address space). All other on-premises Skype for Business forests must remain fully on premises (and presumably federated with each other). Note that these other on-premises organizations can sync to Microsoft Entra ID if desired with [new functionality to disable online SIP domains](/powershell/module/skype/disable-csonlinesipdomain) available as of December 2018.
 
     Customers with deployments of Skype for Business in multiple forests must fully migrate each Skype for Business forest individually into the Microsoft 365  organization using split-domain (Shared SIP Address Space) functionality. After the forest migration is complete, customers must then disable hybrid with the on-premises deployment before moving on to migrate the next on-premises Skype for Business deployment. Furthermore, prior to being migrated to the cloud, on-premises users remain in a federated state with any users that aren't represented in the same user’s on-premises directory. For more information, see [Cloud consolidation for Teams and Skype for Business](cloud-consolidation.md).
 
@@ -198,4 +199,3 @@ Computers on your network must be able to perform standard Internet DNS lookups.
 Depending on the location of your Microsoft Online Services data center, you must also configure your network firewall devices to accept connections based on wildcard domain names (for example, all traffic from \*.outlook.com). If your organization's firewalls do not support wildcard name configurations, you will have to manually determine the IP address ranges that you would like to allow and the specified ports.
 
 For more information, including details about ports and protocol requirements, see [Microsoft 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges).
-

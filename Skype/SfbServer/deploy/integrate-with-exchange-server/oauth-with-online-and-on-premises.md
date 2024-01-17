@@ -11,6 +11,8 @@ ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
+ms.custom:
+  - has-azure-ad-ps-ref, azure-ad-ref-level-one-done
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: "Configuring OAuth authentication between Exchange on premises and Skype for Business Online enables the Skype for Business and Exchange Integration features described in Feature support."
@@ -95,17 +97,19 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 
 In Exchange PowerShell in your on-premises Exchange organization, run the PowerShell script that you just created. For example: .\ExportAuthCert.ps1
 
-### Step 5: Upload the on-premises authorization certificate to Azure Active Directory ACS
+<a name='step-5-upload-the-on-premises-authorization-certificate-to-azure-active-directory-acs'></a>
 
-Next, use Windows PowerShell to upload the on-premises authorization certificate that you exported in the previous step to Azure Active Directory Access Control Services (ACS). To do this, the Azure Active Directory Module for Windows PowerShell cmdlets must already be installed. If it's not installed, go to [https://aka.ms/aadposh](/previous-versions/azure/jj151815(v=azure.100)) to install the Azure Active Directory Module for Windows PowerShell. Complete the following steps after the Azure Active Directory Module for Windows PowerShell is installed.
+### Step 5: Upload the on-premises authorization certificate to Microsoft Entra ACS
 
-1. Click the **Azure Active Directory Module for Windows PowerShell** shortcut to open a Windows PowerShell workspace that has the Azure AD cmdlets installed. All commands in this step will be run using the Windows PowerShell for Azure Active Directory console.
+Next, use Windows PowerShell to upload the on-premises authorization certificate that you exported in the previous step to Microsoft Entra Access Control Services (ACS). To do this, the Azure Active Directory module for Windows PowerShell cmdlets must already be installed. If it's not installed, go to [https://aka.ms/aadposh](/previous-versions/azure/jj151815(v=azure.100)) to install the Azure Active Directory module for Windows PowerShell. Complete the following steps after the Azure Active Directory module for Windows PowerShell is installed.
+
+1. Click the **Azure Active Directory module for Windows PowerShell** shortcut to open a Windows PowerShell workspace that has the Microsoft Entra cmdlets installed. All commands in this step will be run using the Windows PowerShell for Microsoft Entra ID console.
 
 2. Save the following text to a PowerShell script file named, for example,  `UploadAuthCert.ps1`.
 
    ```powershell
-   Connect-MsolService
-   Import-Module MSOnline
+   Connect-MgGraph
+   Import-Module Microsoft.Graph
    $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
    $objFSO = New-Object -ComObject Scripting.FileSystemObject
    $CertFile = $objFSO.GetAbsolutePathName($CertFile);
@@ -114,19 +118,19 @@ Next, use Windows PowerShell to upload the on-premises authorization certificate
    $binCert = $cer.GetRawCertData();
    $credValue = [System.Convert]::ToBase64String($binCert)
    $ServiceName = "00000004-0000-0ff1-ce00-000000000000"
-   $p = Get-MsolServicePrincipal -ServicePrincipalName $ServiceName
-   New-MsolServicePrincipalCredential -AppPrincipalId $p.AppPrincipalId -Type asymmetric -Usage Verify -Value $credValue
+   $p = Get-MgServicePrincipal -ServicePrincipalId $ServicePrincipalNames
+   Add-MgServicePrincipalKey -ServicePrincipalId $servicePrincipalId -Type asymmetric -Usage Verify -Value $credValue
    ```
 
 3. Run the PowerShell script that you created in the previous step. For example:  `.\UploadAuthCert.ps1`
 
-4. After you start the script, a credentials dialog box is displayed. Enter the credentials for the tenant administrator account of your Microsoft Online Azure AD organization. After running the script, leave the Windows PowerShell for Azure AD session open. You will use this to run a PowerShell script in the next step.
+4. After you start the script, a credentials dialog box is displayed. Enter the credentials for the tenant administrator account of your Microsoft Online Microsoft Entra organization. After running the script, leave the Windows PowerShell for Microsoft Entra session open. You will use this to run a PowerShell script in the next step.
 
 ### Step 6: Verify that the Certificate has Uploaded to the Skype for Business Service Principal
-1. In the PowerShell opened and authenticated to Azure Active Directory, run the following
+1. In the PowerShell opened and authenticated to Microsoft Entra ID, run the following
 
    ```powershell
-   Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
+   Get-MgServicePrincipal -ServicePrincipalId 00000004-0000-0ff1-ce00-000000000000
    ```
 2. Press Enter when prompted for ReturnKeyValues
 3. Confirm you see a key listed with start date and end data that matches your Exchange Oauth certificate start and end dates

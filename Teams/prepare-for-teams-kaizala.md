@@ -1,8 +1,8 @@
 ---
 title: Prepare for your Kaizala to Teams move
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.topic: reference
 ms.service: msteams
 audience: admin
@@ -20,11 +20,11 @@ ms.custom:
 # Prepare for your Kaizala to Teams move
 
 > [!Important]
-> Microsoft Kaizala will retire on August 31, 2023. We recommend moving to Microsoft Teams for continued connection, sharing, and collaboration. After the retirement date, access and support for Kaizala will be discontinued.
+> Microsoft Kaizala has retired on August 31, 2023. We recommend using Microsoft Teams for continued connection, sharing, and collaboration.
 
 You’ve decided to move from Kaizala to Microsoft Teams.
 
-Before getting started, it is important to answer these two questions:
+Before getting started, it's important to answer the following two questions:
 
 - What user groups will be moving to Teams?  
 
@@ -32,15 +32,15 @@ Before getting started, it is important to answer these two questions:
 
 ## Identify User Groups
 
-*What groups exist in your organization? Who will be using Teams and how? What needs will these groups require for effective teamwork?* To begin your journey to Teams, first **identify users groups for your transition.**  User groups are a set of employees within your workforce that conduct work in similar areas of the business. 
+*What groups exist in your organization? Who will be using Teams and how? What needs will these groups have for effective teamwork?* To begin your journey to Teams, first **identify users groups for your transition.**  User groups are a set of employees within your workforce that conduct work in similar areas of the business.
 
-We’ve identified three common user groups to support you in identifying collaboration needs. Every user group has its own unique needs in terms of communication. 
+We’ve identified three common user groups to support you in identifying collaboration needs. Every user group has its own unique needs in terms of communication.
 
-![Chart of User Groups for Transition](media/kaizala-user-groups.png)
+![Screenshot that shows the Chart of User Groups for Transition](media/kaizala-user-groups.png)
 
  1. **Information workers** are employees who create, use, transform, consume, or manage information in the course of their work.
 
- 2. **Frontline workers** are mostly desk-less workers whose primary function is to work directly with customers or the general public providing services, support, and selling products, or are directly involved in the manufacturing of products/services.
+ 2. **Frontline workers** are mostly desk-less workers whose primary function is to work directly with customers or the general public providing services; support; and selling products; or are directly involved in the manufacturing of products/services.
 
  3. **External users** are people outside your organization such as your suppliers, vendors, business partners, clients, or customers.
 
@@ -56,9 +56,9 @@ Users connecting with other information workers in their workforce need:
   
 - Internal and external collaboration with email
 
-Users connecting with the Frontline workforce need:
+Users connecting with the frontline workforce need:
 
-- Connection with Frontline Workers within their organization’s directory
+- Connection with frontline workers within their organization’s directory
 
 - Offline, remote locations
 
@@ -66,7 +66,7 @@ Users connecting with the Frontline workforce need:
 
 - Digitized processes and workflows
 
-- Shifts scheduling and tasks management
+- Shifts-scheduling and tasks management
 
 Users connecting with external users (suppliers/vendors) could use:
 
@@ -76,35 +76,35 @@ Users connecting with external users (suppliers/vendors) could use:
 
 ## Determine your path
 
-After verifying the collaboration needs of your user groups, you'll be able to determine what your path from Kaizala to Teams will look like. Every organization is unique, and no workforce’s journey will be the exact same. Organizations not currently using Teams will need to make additional strategic decisions to ensure a successful transition journey. Determining your path will help you identify any important actions that should be completed for a successful transition.
+After you verify the collaboration needs of your user groups, you'll be able to determine what your path from Kaizala to Teams will look like. Every organization is unique, and no workforce’s journey will be the exact same. Organizations not currently using Teams will need to make additional strategic decisions to ensure a successful transition journey. Determining your path will help you identify any important actions that should be completed for a successful transition.
 
 We’ve outlined what the path may consist of depending on your organization’s usage today:  
 
 For organizations **not using Teams**:
 
-![Path for organizations not currently using Teams](media/kaizala-not-using-teams.png)
+![Screenshot that depicts the path for organizations not currently using Teams.](media/kaizala-not-using-teams.png)
 
- 1. Envision teamwork for your organization
+ 1. Envision teamwork for your organization.
 
- 2. Pilot Teams
+ 2. Pilot Teams.
   
- 3. Deploy Teams
+ 3. Deploy Teams.
   
- 4. Use Kaizala and Teams
+ 4. Use Kaizala and Teams.
   
- 5. Manage change
+ 5. Manage change.
 
- 6. Plan for your adoption of Teams
+ 6. Plan for your adoption of Teams.
 
- 7. Move your organization to Teams
+ 7. Move your organization to Teams.
 
 For organizations **already using Teams**:
 
-![Path for organizations currently using Teams](media/kaizala-using-teams.png)
+![Screenshot that depicts the path for organizations currently using Teams](media/kaizala-using-teams.png)
 
- 1. Plan for your transition
+ 1. Plan for your transition.
 
- 2. Manage change
+ 2. Manage change.
 
 ## Next Steps
 

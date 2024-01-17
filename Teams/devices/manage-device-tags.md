@@ -1,13 +1,13 @@
 ---
 title: Manage and filter Microsoft Teams device tags
-author: tonysmit
+author: mstonysmith
 ms.author: tonysmit
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
 audience: admin
-ms.reviewer: kelsawi
+ms.reviewer: 
 ms.date: 07/20/2020
 ms.collection: 
   - M365-collaboration

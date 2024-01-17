@@ -2,8 +2,8 @@
 ms.date: 11/28/2017
 title: "Set up conferencing policies for your organization"
 ms.reviewer: 
-ms.author: tonysmit
-author: tonysmit
+ms.author: serdars
+author: pamgreen
 manager: serdars
 ms.topic: article
 ms.assetid: 9957722b-b542-49ad-8ec8-5569df7fb08b

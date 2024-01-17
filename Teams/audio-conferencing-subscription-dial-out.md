@@ -1,8 +1,8 @@
 ---
 title: Audio Conferencing Dial-Out/Call Me At minutes
-ms.author: heidip
-author: MicrosoftHeidi
-manager: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 ms.reviewer: mikedav, oscarr
 ms.date: 04/10/2019
 ms.topic: conceptual
@@ -10,8 +10,9 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-  - M365-voice
+  - m365initiative-meetings
   - M365-collaboration
+  - m365initiative-meetings
   - Tier1
 audience: Admin
 appliesto: 

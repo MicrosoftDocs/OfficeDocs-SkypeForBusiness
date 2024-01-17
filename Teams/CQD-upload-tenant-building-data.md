@@ -1,8 +1,8 @@
 ---
 title: Upload tenant and building data in Call Quality Dashboard (CQD)
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
+author: mkbond007
+ms.author: mabond
+manager: pamgreen
 ms.reviewer: mikedav, siunies, gageames
 ms.date: 06/02/2020
 ms.topic: article
@@ -10,6 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 search.appverid: MET150
 audience: Admin
@@ -30,7 +31,7 @@ description: Learn how to upload tenant and building data in Call Quality Dashbo
 
 To get the most out of Call Quality Dashboard (CQD), we recommend that you upload your tenant and building data. There are 2 types of tenant data files, [Building](#upload-building-data-file) and [Endpoint](#endpoint-data-file).
 
-You can download a sample tenant data template [here](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true). For help with building mapping, read [Create a building map for CQD](CQD-building-mapping.md).
+You can download a sample tenant data template [here](https://download.microsoft.com/download/0/b/9/0b9c1610-d421-489a-a3f9-d1ae703c9f1b/locations-template.zip). For help with building mapping, read [Create a building map for CQD](CQD-building-mapping.md).
 
 From the CQD Summary Reports dashboard, select **Tenant Data Upload** from the CQD **Settings** menu (a gear icon at the top of CQD). From here, admins can upload their organization's building and endpoint information, such as mapping of IP addresses and geographical information, mapping each wireless access point and its MAC address, etc.
 

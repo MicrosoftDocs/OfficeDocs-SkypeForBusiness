@@ -2,7 +2,7 @@
 title: Set up auto answer for Teams Android devices
 author: mkbond007
 ms.author: mabond
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: kponnus
@@ -41,7 +41,7 @@ Set-CsTeamsCallingPolicy -AutoAnswerEnabledType Enabled
 
 ### 2. Set the device sign-in mode
 
-You use **Set-CsTeamsIPPhonePolicy -SignInMode** to set the sign-in mode for the device to determine the behavior when signing into Teams. Read [Set-CsTeamsIPPhonePolicy](/powershell/module/skype/set-csteamsipphonepolicy) for more information on the cmdlet.
+You use **Set-CsTeamsIPPhonePolicy -SignInMode** to set the sign-in mode for the Teams video phone device to determine the behavior when signing into Teams. Read [Set-CsTeamsIPPhonePolicy](/powershell/module/skype/set-csteamsipphonepolicy) for more information on the cmdlet.
 
 There are three options for sign-in mode:
 

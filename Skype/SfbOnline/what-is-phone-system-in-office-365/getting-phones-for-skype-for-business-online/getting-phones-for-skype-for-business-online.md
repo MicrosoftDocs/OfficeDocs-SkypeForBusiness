@@ -1,8 +1,8 @@
 ---
 ms.date: 11/28/2017
 title: "Getting phones for Skype for Business Online"
-ms.author: tonysmit
-author: tonysmit
+ms.author: serdars
+author: pamgreen
 manager: serdars
 ms.reviewer: wasseemh
 ms.topic: article

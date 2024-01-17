@@ -2,9 +2,9 @@
 ms.date: 06/22/2018
 title: "Configure Call Data Connector"
 ms.reviewer: 
-ms.author: heidip
 author: MicrosoftHeidi
-manager: serdars
+ms.author: heidip
+manager: jtremper
 audience: ITPro
 f1.keywords:
 - NOCSH

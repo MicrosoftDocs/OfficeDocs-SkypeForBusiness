@@ -1,5 +1,7 @@
 ---
 ms.date: 11/28/2017
+ms.custom:
+  - has-azure-ad-ps-ref, azure-ad-ref-level-one-done
 ---
 ## Video demonstration
 
@@ -83,11 +85,11 @@ If you didn't assign dial keys, then choose an option for **Directory search**.
 
 **Dial by extension** - If you enable this option, callers can connect with users in your organization by dialing their phone extension. Any online user or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with **Dial by extension**. (You can set who is and isn't included in the directory on the [Dial scope](?tabs=dial-scope) page.)
 
-Users you want to make available for Dial By Extension need to have an extension specified as part of one of the following phone attributes defined in Active Directory (and synchronized via Azure AD Connect) or Azure Active Directory. For more information, see [Add users individually or in bulk](/microsoft-365/admin/add-users/add-users).
+Users you want to make available for Dial By Extension need to have an extension specified as part of one of the following phone attributes defined in Active Directory (and synchronized via Microsoft Entra Connect) or Microsoft Entra ID. For more information, see [Add users individually or in bulk](/microsoft-365/admin/add-users/add-users).
 
-- OfficePhone/TelephoneNumber (AD and Azure AD)
+- OfficePhone/TelephoneNumber (AD and Microsoft Entra ID)
 - HomePhone (AD)
-- Mobile/MobilePhone (AD and Azure AD)
+- Mobile/MobilePhone (AD and Microsoft Entra ID)
 - OtherTelephone (AD)
 
 The required format to enter the extension in the user phone number field can be one of the following formats:
@@ -96,11 +98,11 @@ The required format to enter the extension in the user phone number field can be
 - *+\<phone number>x\<extension>*
 - *x\<extension>*
 
-- Example 1: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678;ext=5678"
-- Example 2: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678x5678"
-- Example 3: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "x5678"
+- Example 1: Update-MgUser -UserId usern@domain.com -BusinessPhones "+15555555678;ext=5678"
+- Example 2: Update-MgUser -UserId usern@domain.com -BusinessPhones "+15555555678x5678"
+- Example 3: Update-MgUser -UserId usern@domain.com -BusinessPhones "x5678"
 
-You can set the extension in the [Microsoft 365 admin center](https://admin.microsoft.com/) or the [Azure Active Directory admin center](https://aad.portal.azure.com). It can take up to 12 hours before changes are available to auto attendants and call queues.
+You can set the extension in the [Microsoft 365 admin center](https://admin.microsoft.com/) or the [Microsoft Entra admin center](https://aad.portal.azure.com). It can take up to 12 hours before changes are available to auto attendants and call queues.
 
 > [!NOTE]
 > If you want to use both the **Dial by name** and **Dial by extension** features, you can assign a dial key on your main auto attendant to reach an auto attendant enabled for **Dial by name**. Within that auto attendant, you can assign the 1 key (which has no letters associated with it) to reach the **Dial by extension** auto attendant.

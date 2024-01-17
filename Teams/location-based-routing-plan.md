@@ -2,7 +2,7 @@
 title: Plan Location-Based Routing for Direct Routing
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -15,6 +15,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 appliesto: 
   - Microsoft Teams

@@ -1,9 +1,9 @@
 ---
 title: "Complaint handling code for U.K. - Microsoft 365 calling plans"
-ms.author: tonysmit
-author: tonysmit
-manager: serdars
-ms.reviewer: mikedav, allancar
+author: pamgreen
+ms.author: pamgreen
+manager: pamgreen
+ms.reviewer: mikedav
 ms.date: 11/28/2017
 ms.topic: reference
 ms.assetid: 6f51ee4a-d939-4ba3-8659-ccf012d069f8
@@ -11,6 +11,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 search.appverid: MET150
 audience: Admin

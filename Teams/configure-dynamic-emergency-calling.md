@@ -2,7 +2,7 @@
 title: Configure dynamic emergency calling
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -12,12 +12,12 @@ ms.collection:
   - highpri
   - Tier1
 ms.reviewer: roykuntz
-ms.date: 03/06/2023
+ms.date: 10/16/2023
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn how to configure the Microsoft Calling Plans and Phone System Direct Routing dynamic emergency calling feature.
+description: Learn how to configure the Teams Phone dynamic emergency calling feature.
 ms.custom: seo-marvel-mar2020
 appliesto: 
 - Microsoft Teams
@@ -47,7 +47,7 @@ For dynamic emergency calling, the following must occur:
 
 3. When the Teams client makes an emergency call, the emergency location is conveyed to the PSTN network.
 
-The ability to do automatic routing to the appropriate Public Safety Answering Point (PSAP) varies depending on the country of usage of the Teams user.
+The ability to do automatic routing to the appropriate Public Safety Answering Point (PSAP) varies depending on the country/region of usage of the Teams user.
 
 Microsoft Calling Plans, Operator Connect partners, and Teams Phone Mobile partners include dynamic emergency routing services for users in the United States and Canada.
 
@@ -62,7 +62,7 @@ This article contains the following sections.
 - [Enable users and sites](#enable-users-and-sites)
 - [Test emergency calling](#test-emergency-calling)
 
-For more information about emergency calling, including information about emergency addresses and emergency call routing, information specific to countries, and information about network settings and network topology, see the following:
+For more information about emergency calling, including information about emergency addresses and emergency call routing, information specific to countries/regions, and information about network settings and network topology, see the following:
 
 - [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Manage network settings for cloud voice features](cloud-voice-network-settings.md)
@@ -82,7 +82,7 @@ The following clients are currently supported.  Check back often to see updates 
 - Teams Rooms version 4.4.25.0 and greater
 
 > [!NOTE]
-> Subnet and WiFi-based locations are supported on all supported Teams clients.
+> Subnet locations are supported on all Teams clients.  WiFi-based locations are supported on all Teams clients except Teams phone.
 >
 > Ethernet/Switch (LLDP) is supported on:
 >
@@ -92,9 +92,6 @@ The following clients are currently supported.  Check back often to see updates 
 
 > [!NOTE]
 > Dynamic emergency calling, including security desk notification, isn't supported on the Teams web client. To prevent users from using the Teams web client to call PSTN numbers, you can set a Teams calling policy and turn off the **Allow web PSTN calling** setting. To learn more, see [Calling policies in Teams](teams-calling-policy.md) and [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
-
-> [!NOTE]
-> 3PIP phones do not support dynamic emergency calling.
 
 ## Assign emergency addresses
 
@@ -201,7 +198,7 @@ Use the following policies to configure emergency calling. You can manage these 
 
 - **Emergency call routing policy – Applies only to Direct Routing**. This policy configures the emergency numbers, masks per number if desired, and the PSTN route per number. You can assign this policy to users, to network sites, or to both. To  learn more, see [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md).  
 
-   (Calling Plan, Operator Connect, and Teams Phone Mobile users are automatically enabled for emergency calling with the emergency numbers from the country based upon their Microsoft 365 or Office 365 usage location.)
+   (Calling Plan, Operator Connect, and Teams Phone Mobile users are automatically enabled for emergency calling with the emergency numbers from the country/region based upon their Microsoft 365 or Office 365 usage location.)
 
 - **Emergency calling policy - Applies to Calling Plans, Operator Connect, Teams Phone Mobile, and Direct Routing.** This policy configures the security desk notification experience when an emergency call is made. You can set who to notify and how they are notified. For example, to automatically notify your organization's security desk and have them listen in on emergency calls.  This policy can either be assigned to users or network sites or both. To learn more, see [Manage emergency calling policies in Teams](manage-emergency-calling-policies.md).
 
@@ -259,7 +256,7 @@ The following table shows support for dynamic emergency calling in the governmen
 | World Wide Multi Tenant | Available on all Teams clients |
 | GCC | Available on all Teams clients |
 | GCCH | - Available on Teams desktop <br> - Available on Teams mobile clients <br> - Available on Teams phones, app version: 1449/1.0.94.2022061702 |
-| DoD | - Available on Teams desktop <br>- Available on Teams mobile clients <br>- Pending on Teams phones |
+| DoD | - Available on Teams desktop <br>- Available on Teams mobile clients <br>- Available on Teams phone application released on Teams admin center |
 
 ## Related topics
 

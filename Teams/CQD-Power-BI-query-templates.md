@@ -1,8 +1,8 @@
 ---
 title: "Use Power BI to analyze CQD data for Microsoft Teams"
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
+author: mkbond007
+ms.author: mabond
+manager: pamgreen
 ms.reviewer: siunies
 ms.date: 03/06/2020
 ms.topic: article
@@ -10,6 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - remotework
   - Tier1
 search.appverid: MET150

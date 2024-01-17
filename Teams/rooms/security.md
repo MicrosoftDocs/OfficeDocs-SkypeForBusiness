@@ -1,13 +1,13 @@
 ---
 title: Microsoft Teams Rooms security
 ms.author: tonysmit
-author: tonysmit
-manager: serdars
+author: mstonysmith
+manager: pamgreen
 audience: ITPro
 appliesto: 
   - Microsoft Teams
-ms.reviewer: sohailta
-ms.date: 04/18/2023
+ms.reviewer: kspiess
+ms.date: 11/02/2023
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-rooms
@@ -16,7 +16,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier1
 description: Learn how to secure your Microsoft Teams Rooms on Windows and Android devices.
 ---
@@ -34,16 +34,16 @@ Microsoft works with our partners to deliver a solution that is secure and doesn
 For information about security on Teams Rooms on Android devices, select the **Teams Rooms on Android** tab.
 
 > [!NOTE]
-> Microsoft Teams Rooms should not be treated like a typical end-user workstation. Not only are the use cases vastly different, but the default security profiles are also much different.
+> Microsoft Teams Rooms should not be treated like a typical end-user workstation. Not only are the use cases vastly different, but the default security profiles are also much different, we recommend treating them as appliances. Installing additional software on your Teams Rooms devices is not supported by Microsoft.
 > This article applies to Microsoft Teams Rooms devices running on Windows.
 
 Limited end-user data is stored on Teams Rooms. End-user data may be stored in the log files for troubleshooting and support only. At no point can an attendee of a meeting using Teams Rooms copy files to the hard drive or sign in as themselves. No end-user data is transferred to, or accessible by, the Microsoft Teams Rooms device.
 
-Even though end users can't put files on a Teams Rooms hard drive, Microsoft Defender is still enabled. Teams Rooms performance is tested with Microsoft Defender. Disabling this or adding endpoint security software can lead to unpredictable results and potential system degradation.
+Even though end users can't put files on a Teams Rooms hard drive, Microsoft Defender is still enabled out of the box. Teams Rooms performance is tested with Microsoft Defender, including enrolling into the Defender for Endpoint portal. Disabling this or adding endpoint security software can lead to unpredictable results and potential system degradation.
 
 ## Hardware security
 
-In a Teams Rooms environment, there's a central compute module that runs Windows 10 IoT Enterprise edition. Every certified compute module must have a secure mounting solution, a security lock slot (for example, Kensington lock), and I/O port access security measures to prevent the connection of unauthorized devices. You can also disable specific ports via Unified Extensible Firmware Interface (UEFI) configuration.
+In a Teams Rooms environment, there's a central compute module that runs Windows 10 or 11 IoT Enterprise edition. Every certified compute module must have a secure mounting solution, a security lock slot (for example, Kensington lock), and I/O port access security measures to prevent the connection of unauthorized devices. You can also disable specific ports via Unified Extensible Firmware Interface (UEFI) configuration.
 
 Every certified compute module must ship with Trusted Platform Module (TPM) 2.0 compliant technology enabled by default. TPM is used to encrypt the login information for the Teams Rooms resource account.
 
@@ -51,7 +51,7 @@ Secure boot is enabled by default. Secure boot is a security standard developed 
 
 Access to UEFI settings is only possible by attaching a physical keyboard and mouse. This prevents being able to access UEFI via the Teams Rooms touch-enabled console as well as any other touch-enabled displays attached to Teams Rooms.
 
-Kernel Direct Memory Access (DMA) Protection is a Windows 10 setting that is enabled on Teams Rooms. With this feature, the OS and the system firmware protect the system against malicious and unintended DMA attacks for all DMA-capable devices:
+Kernel Direct Memory Access (DMA) Protection is a Windows setting that is enabled on Teams Rooms. With this feature, the OS and the system firmware protect the system against malicious and unintended DMA attacks for all DMA-capable devices:
 
 - During the boot process.
 
@@ -72,11 +72,13 @@ After Microsoft Windows boots, Teams Rooms automatically signs into a local Wind
 > [!IMPORTANT]
 > Don't change the password or edit the local Skype user account. Doing so can prevent Teams Rooms from automatically signing in.
 
-The Microsoft Teams Rooms app runs using the Assigned Access feature found in Windows 10 1903 and later. Assigned Access is a feature in Windows 10 that limits the application entry points exposed to the user. This is what enables single-app kiosk mode. Using Shell Launcher, Teams Rooms is configured as a kiosk device that runs a Windows desktop application as the user interface. The Microsoft Teams Rooms app replaces the default shell (explorer.exe) that usually runs when a user logs on. In other words, the traditional Explorer shell does not get launched at all. This greatly reduces the Microsoft Teams Rooms vulnerability surface within Windows. For more information, see [Configure kiosks and digital signs on Windows desktop editions](/windows/configuration/kiosk-methods).
+The Microsoft Teams Rooms app runs using the Assigned Access feature found in Windows 10 1903 and later. Assigned Access is a feature in Windows that limits the application entry points exposed to the user. This is what enables single-app kiosk mode. Using Shell Launcher, Teams Rooms is configured as a kiosk device that runs a Windows desktop application as the user interface. The Microsoft Teams Rooms app replaces the default shell (explorer.exe) that usually runs when a user logs on. In other words, the traditional Explorer shell does not get launched at all. This greatly reduces the Microsoft Teams Rooms vulnerability surface within Windows. For more information, see [Configure kiosks and digital signs on Windows desktop editions](/windows/configuration/kiosk-methods).
 
 If you decide to run a security scan or a Center for Internet Security (CIS) benchmark on Teams Rooms, the scan can only run under the context of a local administrator account as the Skype user account doesn't support running applications other than the Teams Rooms app. Many of the security features applied to the Skype user context don't apply to other local users and, as a result, these security scans won't surface the full security lockdown applied to the Skype account. Therefore, it is not recommended to run a local scan on Teams Rooms. However, you can run external penetration tests if so desired. Because of this, we recommend that you run external penetration tests against Teams Rooms devices instead of running local scans.
 
 Additionally, lock down policies are applied to limit non-administrative features from being used. A keyboard filter is enabled to intercept and block potentially insecure keyboard combinations that aren't covered by Assigned Access policies. Only users with local or domain administrative rights are permitted to sign into Windows to manage Teams Rooms. These and other policies applied to Windows on Microsoft Teams Rooms devices are continually assessed and tested during the product lifecycle.
+
+Microsoft Defender is enabled out of the box, the Teams Rooms Pro license also includes Defender for Endpoint which allows customers to enroll their Teams Rooms into Defender for Endpoint to provide security teams visibility into the security posture of Teams Room on Windows devices from the Defender portal. Teams Rooms on Windows can be enrolled following the steps for [Windows devices](/microsoft-365/security/defender-endpoint/onboarding-endpoint-manager), we do not recommend modifying Teams Rooms using protection rules (or other Defender policies that make configuration changes) as these can impact Teams Rooms functionality; however, reporting functionality into the portal is supported.
 
 ## Account Security
 
@@ -87,7 +89,7 @@ The Admin account isn't required for proper operation of Teams Rooms devices and
 - [Change or reset your Windows password](https://support.microsoft.com/windows/change-or-reset-your-windows-password-8271d17c-9f9e-443f-835a-8318c8f68b9c)
 - [Set-LocalUser](/powershell/module/microsoft.powershell.localaccounts/set-localuser#example-2--change-the-password-on-an-account)
 
-You can also import domain accounts into the local Windows Administrator group. You can do this for Azure AD accounts by using Intune. For more information, see [Policy CSP – RestrictedGroups.](/windows/client-management/mdm/policy-csp-restrictedgroups).
+You can also import domain accounts into the local Windows Administrator group. You can do this for Microsoft Entra accounts by using Intune. For more information, see [Policy CSP – RestrictedGroups.](/windows/client-management/mdm/policy-csp-restrictedgroups).
 
 > [!NOTE]
 > If you are using Crestron consoles, be sure to also update the Admin password on the console as well as on the compute module. For more information, contact Crestron.
@@ -97,17 +99,17 @@ You can also import domain accounts into the local Windows Administrator group. 
 
 Don't grant local Administrator permissions to the Skype user account.
 
-Windows Configuration Designer can be used to create Windows 10 provisioning packages. Along with changing the local Admin password, you can also do things like changing the machine name and enrolling into Azure Active Directory. For more information on creating a Windows Configuration Designer provisioning package, see [Provisioning packages for Windows 10](/windows/configuration/provisioning-packages/provisioning-packages).
+Windows Configuration Designer can be used to create Windows provisioning packages. Along with changing the local Admin password, you can also do things like changing the machine name and enrolling into Microsoft Entra ID. For more information on creating a Windows Configuration Designer provisioning package, see [Provisioning packages for Windows 10](/windows/configuration/provisioning-packages/provisioning-packages).
 
-You need to create a resource account for each Teams Rooms device so that it can sign into Teams. You can't use two-factor or multi-factor authentication with this account. Requiring a second factor would prevent the account from being able to automatically sign into the Teams Rooms app after a reboot. However, you can enable Modern Authentication for additional security for this account. In addition, Azure Active Directory Conditional Access policies and Intune Compliance Policies can be deployed to secure the resource account. For more information, see [Supported Conditional Access and Intune device compliance policies for Microsoft Teams Rooms](supported-ca-and-compliance-policies.md) and [Conditional Access and Intune compliance for Microsoft Teams Rooms](conditional-access-and-compliance-for-devices.md)
+You need to create a resource account for each Teams Rooms device so that it can sign into Teams. You can't use two-factor or multi-factor authentication with this account. Requiring a second factor would prevent the account from being able to automatically sign into the Teams Rooms app after a reboot. However, you can enable Modern Authentication for additional security for this account. In addition, Microsoft Entra Conditional Access policies and Intune Compliance Policies can be deployed to secure the resource account. For more information, see [Supported Conditional Access and Intune device compliance policies for Microsoft Teams Rooms](supported-ca-and-compliance-policies.md) and [Conditional Access and Intune compliance for Microsoft Teams Rooms](conditional-access-and-compliance-for-devices.md)
 
-We recommend that you create the resource account in Azure AD, if possible. While a synced account can work with Teams Rooms in hybrid deployments, these synced accounts often have difficulty signing into Teams Rooms and can be difficult to troubleshoot. If you choose to use a third-party federation service to authenticate the credentials for the resource account, ensure the third-party IDP responds with the `wsTrustResponse` attribute set to `urn:oasis:names:tc:SAML:1.0:assertion`.
+We recommend that you create the resource account in Microsoft Entra ID, if possible as a cloud-only account. While a synced account can work with Teams Rooms in hybrid deployments, these synced accounts often have difficulty signing into Teams Rooms and can be difficult to troubleshoot. If you choose to use a third-party federation service to authenticate the credentials for the resource account, ensure the third-party IDP responds with the `wsTrustResponse` attribute set to `urn:oasis:names:tc:SAML:1.0:assertion`. If your organization does not want to use WS-Trust, please leverage cloud-only accounts.
 
 ## Network Security
 
 Generally, Teams Rooms has the same network requirements as any Microsoft Teams client. Access through firewalls and other security devices is the same for Teams Rooms as for any other Microsoft Teams client. Specific to Teams Rooms, the categories listed as "required" for Teams must be open on your firewall. Teams Rooms also needs access to Windows Update, Microsoft Store, and Microsoft Intune (if you use Microsoft Intune to manage your devices). For the full list of IPs and URLs required for Microsoft Teams Rooms, see:
 
-- **Microsoft Teams** [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)
+- **Microsoft Teams, Exchange Online, SharePoint Online, Microsoft 365 Common, and Office Online** [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)
 - **Windows Update** [Configure WSUS](/windows-server/administration/windows-server-update-services/deploy/2-configure-wsus#211-connection-from-the-wsus-server-to-the-internet)
 - **Microsoft Store** [Prerequisites for Microsoft Store for Business and Education](/microsoft-store/prerequisites-microsoft-store-for-business#proxy-configuration)
 - **Microsoft Intune** [Network Endpoints for Microsoft Intune](/mem/intune/fundamentals/intune-endpoints)
@@ -125,6 +127,11 @@ If you're using the Microsoft Teams Rooms managed services component of Microsof
 - mmrprodemeastor.blob.core.windows.net
 - mmrprodnoamiot.azure-devices.net
 - mmrprodnoamstor.blob.core.windows.net
+
+**GCC customers will also need to enable the following URLs:**
+
+- mmrprodgcciot.azure-devices.net
+- mmrprodgccstor.blob.core.windows.net
 
 Teams Rooms is configured to automatically keep itself patched with the latest Windows updates, including security updates. Teams Rooms installs any pending updates every day beginning at 2:00am using a pre-set local policy. There is no need to use additional tools to deploy and apply Windows Updates. Using additional tools to deploy and apply updates can delay the installation of Windows patches and thus lead to a less secure deployment. The Teams Rooms app is deployed using the Microsoft Store.
 

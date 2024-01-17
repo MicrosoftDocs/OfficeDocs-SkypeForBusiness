@@ -1,8 +1,8 @@
 ---
 title: PowerShell script sample - Create security groups for educators and students in your school
-author: DaniEASmith
-ms.author: danismith
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jacktremper
 ms.topic: article
 ms.reviewer: angch
 ms.date: 07/22/2020
@@ -18,7 +18,9 @@ ms.collection:
   - tier1
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-mar2020
+ms.custom:
+  - seo-marvel-mar2020
+  - has-azure-ad-ps-ref
 ---
 
 # PowerShell script sample - Create security groups for educators and students in your school

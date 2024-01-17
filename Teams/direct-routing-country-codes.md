@@ -2,9 +2,9 @@
 title: "Direct Routing country codes"
 ms.author: crowe
 author: CarolynRowe
-manager: serdars
+manager: pamgreen
 audience: ITPro
-ms.reviewer: NMuravlyannikov
+ms.reviewer: 
 ms.date: 06/28/2019
 ms.topic: reference
 ms.service: msteams
@@ -12,6 +12,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 appliesto: 
   - Microsoft Teams
@@ -235,7 +236,7 @@ The following table shows the country code values for the -MediaRelayRoutingLoca
 | Saint Vincent and the Grenadines | VC |
 | Samoa           | WS |
 | San Marino      | SM |
-| Sao Tome and Principe | ST |
+| São Tomé and Príncipe | ST |
 | Saudi Arabia    | SA |
 | Senegal         | SN |
 | Serbia          | RS |
@@ -270,7 +271,7 @@ The following table shows the country code values for the -MediaRelayRoutingLoca
 | Tonga           | TO |
 | Trinidad and Tobago | TT |
 | Tunisia         | TN |
-| Turkey          | TR |
+| Türkiye         | TR |
 | Turkmenistan    | TM |
 | Turks and Caicos Islands | TC |
 | Tuvalu          | TV |

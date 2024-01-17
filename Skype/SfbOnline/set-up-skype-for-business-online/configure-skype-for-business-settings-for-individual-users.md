@@ -2,8 +2,8 @@
 ms.date: 11/28/2017
 title: "Admins Configure Skype for Business settings for individual users"
 ms.reviewer: 
-ms.author: tonysmit
-author: tonysmit
+ms.author: serdars
+author: pamgreen
 manager: serdars
 ms.topic: article
 ms.assetid: 77b26eac-8228-4161-ba9f-733b187bd836
@@ -31,7 +31,7 @@ description: "Learn how to change the Skype for Business settings for individual
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!IMPORTANT]
-> The Microsoft Teams admin center has replaced the Skype for Business admin center (Legacy portal). All settings for managing Skype for Business are now in the Teams admin center. You must be assigned the [Azure AD admin role](/azure/active-directory/roles/permissions-reference) of Global admin or Skype for Business admin to manage Skype for Business features in the Teams admin center. To learn more, see [Manage Skype for Business settings in the Microsoft Teams admin center](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
+> The Microsoft Teams admin center has replaced the Skype for Business admin center (Legacy portal). All settings for managing Skype for Business are now in the Teams admin center. You must be assigned the [Microsoft Entra admin role](/azure/active-directory/roles/permissions-reference) of Global admin or Skype for Business admin to manage Skype for Business features in the Teams admin center. To learn more, see [Manage Skype for Business settings in the Microsoft Teams admin center](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
 
 This article explains how admins configure Skype for Business for a small number of users. To do these steps in bulk, we've included links to the Windows PowerShell cmdlets you can use.
   
@@ -116,4 +116,3 @@ To configure these settings in bulk, use PowerShell. See [Set the phone numbers 
 [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
   
   
-

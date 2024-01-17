@@ -1,7 +1,7 @@
 ---
 title: "Backing up Response Group Service (RGS) data in Skype for Business Server 2019"
 ms.reviewer: rogupta
-ms.author: heidip
+ms.author: serdars
 author: MicrosoftHeidi
 manager: serdars
 ms.date: 07/22/2019

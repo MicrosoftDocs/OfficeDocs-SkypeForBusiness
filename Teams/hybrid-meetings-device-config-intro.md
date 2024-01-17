@@ -1,12 +1,12 @@
 ---
 title: "Step 5 - Overview"
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 f1.keywords:
 - Teams hybrid
 - remote work
 - Teams meetings
-manager: serdars
+manager: pamgreen
 ms.date: 08/05/2022
 audience: ITPro
 description: Step through the complete process of setting up a new Teams Rooms device in your organization.
@@ -16,11 +16,13 @@ ms.localizationpriority: high
 ms.collection:
 - m365solution-teamshybrid
 - m365solution-scenario
+- m365initiative-meetings
+- teams-rooms-devices
 ms.custom: 
 keywords: 
 ---
 
-# Step 5 - Overview
+# Overview
 
 :::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="IT Pro audience" border="false":::
 

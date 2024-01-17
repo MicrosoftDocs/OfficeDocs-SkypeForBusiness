@@ -1,8 +1,8 @@
 ---
 title: Country and region zones for Audio Conferencing
-ms.author: heidip
-author: MicrosoftHeidi
-manager: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 ms.reviewer: tonysmit
 ms.date: 11/28/2017
 ms.topic: conceptual
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
-  - M365-voice
+  - m365initiative-meetings
   - Tier1
 search.appverid: MET150
 audience: Admin
@@ -47,7 +47,7 @@ This article lists the country and region zones for Audio Conferencing.
 |France  <br/> |
 |Germany  <br/> |
 |Greece  <br/> |
-|Hong Kong  <br/> |
+|Hong Kong SAR <br/> |
 |Hungary  <br/> |
 |India  <br/> |
 |Ireland  <br/> |

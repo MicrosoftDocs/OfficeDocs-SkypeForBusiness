@@ -1,10 +1,10 @@
 ---
 title: Microsoft Teams Rooms license overview in Teams admin center
 ms.author: tonysmit
-author: tonysmit
-manager: serdars
-ms.reviewer: sohailta
-ms.date: 08/16/2022
+author: mstonysmith
+manager: pamgreen
+ms.reviewer: ayerragangu
+ms.date: 11/02/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -12,7 +12,7 @@ ms.subservice: itpro-rooms
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier1
 audience: Admin
 appliesto: 

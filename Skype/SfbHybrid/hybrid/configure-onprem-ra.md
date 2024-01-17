@@ -1,9 +1,9 @@
 ---
 ms.date: 06/22/2018
 title: "Configure a resource account in Skype for Business Server 2019"
-ms.author: heidip
 author: MicrosoftHeidi
-manager: serdars 
+ms.author: heidip
+manager: jtremper
 ms.reviewer: wasseemh
 ms.audience: ITPro
 audience: ITPro
@@ -74,7 +74,7 @@ Creating a resource account that uses a phone number would require performing th
 
     For more information, see [New-CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps).
 
-4. (Optional) Once your resource accounts are created, you can either wait for AD to sync between online and on premises, or force a sync and proceed to online configuration of Phone System auto attendant or call queues. To force a sync, run the following command on the computer running Azure AD Connect (if you haven't done so already you would need to load `import-module adsync` to run the command):
+4. (Optional) Once your resource accounts are created, you can either wait for AD to sync between online and on premises, or force a sync and proceed to online configuration of Phone System auto attendant or call queues. To force a sync, run the following command on the computer running Microsoft Entra Connect (if you haven't done so already you would need to load `import-module adsync` to run the command):
 
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta
@@ -132,7 +132,7 @@ Log in to the Skype for Business front end server and run the following PowerShe
 
     For more information, see [New-CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps).
 
-2. (Optional) Once your resource accounts are created, you can either wait for AD to sync between online and on premises, or force a sync and proceed to online configuration of Phone System auto attendant or call queues. To force a sync you would run the following command on the computer running Azure AD Connect (if you haven't done so already you would need to load `import-module adsync` to run the command):
+2. (Optional) Once your resource accounts are created, you can either wait for AD to sync between online and on premises, or force a sync and proceed to online configuration of Phone System auto attendant or call queues. To force a sync you would run the following command on the computer running Microsoft Entra Connect (if you haven't done so already you would need to load `import-module adsync` to run the command):
 
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta

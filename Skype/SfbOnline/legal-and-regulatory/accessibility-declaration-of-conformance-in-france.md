@@ -1,7 +1,7 @@
 ---
 ms.date: 11/28/2017
 title: "Accessibility Declaration of Conformance in France"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, allancar

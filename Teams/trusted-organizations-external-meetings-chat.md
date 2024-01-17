@@ -1,8 +1,8 @@
 ---
-title: Manage external meetings and chat with people and organizations using Microsoft identities
+title: IT Admins - Manage external meetings and chat with people and organizations using Microsoft identities
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.reviewer: alsolom
 ms.date: 06/01/2023
 ms.topic: article
@@ -21,10 +21,10 @@ ms.custom:
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: normal
-description: "For IT admins: Learn how to configure chat and meetings with people outside your organization who use Azure Active Directory, Microsoft Teams Essentials, or Skype."
+description: "For IT admins: Learn how to configure chat and meetings with people outside your organization who use Microsoft Entra ID, Microsoft Teams Essentials, or Skype."
 ---
 
-# Manage external meetings and chat with people and organizations using Microsoft identities
+# IT Admins - Manage external meetings and chat with people and organizations using Microsoft identities
 
 With the *external access* feature in Teams, you can allow users in your organization to chat and meet with people outside the organization who are using Microsoft as an identity provider. You can configure external access with:
 

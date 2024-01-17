@@ -1,7 +1,7 @@
 ---
 title: "Plan for media bypass in Cloud Connector Edition"
 ms.reviewer: 
-ms.author: crowe
+ms.author: serdars
 author: CarolynRowe
 manager: serdars
 ms.date: 11/15/2017

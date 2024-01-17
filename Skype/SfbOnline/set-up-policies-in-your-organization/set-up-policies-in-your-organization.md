@@ -2,8 +2,8 @@
 ms.date: 11/28/2017
 title: "Set up policies in your organization"
 ms.reviewer: 
-ms.author: tonysmit
-author: tonysmit
+ms.author: serdars
+author: pamgreen
 manager: serdars
 ms.topic: article
 ms.assetid: 91f9655f-1e9d-4688-9801-a6dc8d6efd87
@@ -19,6 +19,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
+description: "You can set up policies on how your users connect to Skype for Business Online using the Skype for Business."
 ---
 
 # Set up policies in your organization

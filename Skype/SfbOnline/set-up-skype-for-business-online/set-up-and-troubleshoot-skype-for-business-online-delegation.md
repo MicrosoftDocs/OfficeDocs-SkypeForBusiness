@@ -2,8 +2,8 @@
 ms.date: 11/28/2017
 title: "Set up and troubleshoot Skype for Business Online delegation"
 ms.reviewer: 
-ms.author: tonysmit
-author: tonysmit
+ms.author: serdars
+author: pamgreen
 manager: serdars
 ms.topic: article
 ms.assetid: e676b911-5f82-41d8-b4ce-3d0d45c3cd04

@@ -1,8 +1,8 @@
 ---
 title: "Get service phone numbers for Calling Plans"
-author: CarolynRowe
-ms.author: crowe
-manager: serdars
+author: mkbond007
+ms.author: mabond
+manager: pamgreen
 ms.reviewer: mikedav, jastark, oscarr, makolomi
 ms.date: 11/28/2017
 ms.topic: article

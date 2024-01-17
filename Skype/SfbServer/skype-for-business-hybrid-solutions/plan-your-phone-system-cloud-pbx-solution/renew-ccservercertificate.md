@@ -1,7 +1,7 @@
 ---
 title: "Renew-CcServerCertificate"
 ms.reviewer: 
-ms.author: crowe
+ms.author: serdars
 author: CarolynRowe
 manager: serdars
 ms.date: 7/18/2017

@@ -1,12 +1,12 @@
 ---
 title: Share to Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: kblevens
+ms.reviewer: 
 ms.date: 03/10/2021
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -51,4 +51,4 @@ Share to Teams, in both Outlook on the web and Outlook desktop clients, relies o
 > [!IMPORTANT]
 > Share to Teams requires both third-party cookies and local storage access to be enabled for users' browsers.
 
-Share to Teams uses Single Sign-on (SSO), which means users don't need to provide their credentials when using the add-in via Share to Teams. SSO for Outlook on the web supports <https://outlook.office365.com/owa/extSSO.aspx> and <https://outlook.office.com/owa/extSSO.aspx> reply URLs by default. For vanity domains, administrators need to add the appropriate Azure Active Directory reply URL.
+Share to Teams uses Single Sign-on (SSO), which means users don't need to provide their credentials when using the add-in via Share to Teams. SSO for Outlook on the web supports <https://outlook.office365.com/owa/extSSO.aspx> and <https://outlook.office.com/owa/extSSO.aspx> reply URLs by default. For vanity domains, administrators need to add the appropriate Microsoft Entra ID reply URL.

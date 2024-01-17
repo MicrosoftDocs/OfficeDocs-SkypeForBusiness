@@ -1,8 +1,8 @@
 ---
 ms.date: 11/28/2017
 title: "Enable Skype Meeting Broadcast"
-ms.author: tonysmit
-author: tonysmit
+ms.author: serdars
+author: pamgreen
 manager: serdars
 ms.reviewer: micchan
 ms.topic: article
@@ -34,7 +34,7 @@ Before the people in your organization can use Skype Meeting Broadcast, you need
 
 
 > [!NOTE]
-> The Microsoft Teams admin center has replaced the Skype for Business admin center (Legacy portal). All settings for managing Skype for Business are now in the Teams admin center. You must be assigned the [Azure AD admin role](/azure/active-directory/roles/permissions-reference) of Global admin or Skype for Business admin to manage Skype for Business features in the Teams admin center. To learn more, see [Manage Skype for Business settings in the Microsoft Teams admin center](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
+> The Microsoft Teams admin center has replaced the Skype for Business admin center (Legacy portal). All settings for managing Skype for Business are now in the Teams admin center. You must be assigned the [Microsoft Entra admin role](/azure/active-directory/roles/permissions-reference) of Global admin or Skype for Business admin to manage Skype for Business features in the Teams admin center. To learn more, see [Manage Skype for Business settings in the Microsoft Teams admin center](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
 
   
 ## Enable Skype Meeting Broadcast using the Skype for Business admin center
@@ -100,4 +100,3 @@ To skip this step and instead add another business to your federation, see [Allo
 [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
   
-

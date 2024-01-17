@@ -2,7 +2,7 @@
 title: "Teams languages for voicemail greetings and messages"
 author: CarolynRowe 
 ms.author: crowe 
-manager: serdars
+manager: pamgreen
 ms.reviewer: colongma
 ms.date: 05/19/2021
 ms.topic: article
@@ -12,6 +12,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 audience: Admin
 appliesto: 
@@ -38,7 +39,7 @@ Teams supports the following languages for voicemail greetings.
 |Bulgarian     |Bulgaria           |bg-BG  |Yes                                          |Yes                                   |No  |
 |Catalan       |Catalan            |ca-ES  |Yes                                          |Yes                                   |No  |
 |Chinese (Simplified)   |China     |zh-CN  |Yes                                          |Yes                                   |Yes |
-|Chinese (Hong Kong)    |China     |zh-HK  |Yes, but Chinese (Traditional) is used.      |Yes                                   |Yes, but Chinese (Traditional) is used. |
+|Chinese (Hong Kong SAR)    |China     |zh-HK  |Yes, but Chinese (Traditional) is used.      |Yes                                   |Yes, but Chinese (Traditional) is used. |
 |Chinese (Traditional)  |Taiwan    |zh-TW  |Yes                                          |Yes                                   |No  |
 |Croatian      |Croatia            |hr-HR  |Yes                                          |Yes                                   |No  |
 |Czech         |Czech Republic     |cs-CZ  |Yes                                          |Yes                                   |No  |
@@ -84,7 +85,7 @@ Teams supports the following languages for voicemail greetings.
 |Spanish       |Mexico             |es-MX  |Yes                                          |Yes                                   |Yes, but Spanish (Spain) is used.   |
 |Swedish       |Sweden             |sv-SE  |Yes                                          |Yes                                   |No  |
 |Thai          |Thailand           |th-TH  |Yes                                          |Yes                                   |No  |
-|Turkish       |Turkey             |tr-TR  |Yes                                          |Yes                                   |No  |
+|Turkish       |Türkiye            |tr-TR  |Yes                                          |Yes                                   |No  |
 |Vietnamese    |Vietnam            |vi-VN  |Yes                                          |Yes                                   |No  |
 |Welsh         |Wales              |cy-GB  |Yes                                          |Yes                                   |No  |
 

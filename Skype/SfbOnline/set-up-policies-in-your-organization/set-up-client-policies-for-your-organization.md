@@ -2,8 +2,8 @@
 ms.date: 11/28/2017
 title: "Set up client policies for your organization"
 ms.reviewer: 
-ms.author: tonysmit
-author: tonysmit
+ms.author: serdars
+author: pamgreen
 manager: serdars
 ms.topic: article
 ms.assetid: 0326b19f-4fd1-4b74-8791-df4c09a964b9
