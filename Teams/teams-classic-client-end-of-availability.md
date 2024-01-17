@@ -58,7 +58,7 @@ If users are on an unsupported OS (including Win 10 LTSC), you’ll see a slight
 > [!NOTE]
 > Users on a June 30th timeline will see this banner from April 1 2024.
 
-Here's a list of the complete messages you may experience from February 1 2024:
+Here's a list of the banner messages you may experience after January 31 2024:
 
 |Condition for triggering the banner |Banner message |Further information |
 |------------------------------------|---------------|--------------------|
@@ -75,6 +75,8 @@ Here's a list of the complete messages you may experience from February 1 2024:
 After March 31 2024, if you’re already running on new Teams, there will be no change in behavior. Your Teams will continue working as expected.
 
 Users on classic Teams will be automatically updated to the new Teams client. Users won’t be able to switch back to classic Teams after this date, because classic Teams won’t be functional. Microsoft will attempt to uninstall classic Teams.
+
+Here's a list of the banner messages you may experience after March 31 2024:
 
 |Condition for triggering the banner |Banner message |Further information |
 |------------------------------------|---------------|--------------------|
