@@ -25,13 +25,13 @@ appliesto:
 
 **APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
 
-In Microsoft Teams, the current storage location of meeting transcript files is known as Exchange Online transcript (EXO transcript) or substrate transcript. EXO transcript will be deprecated in 2024. The new storage location will be OneDrive for Business (ODB).
+In Microsoft Teams, the current storage location of meeting transcript files is known as Exchange Online transcript or substrate transcript. Exchange Online transcript will be deprecated in 2024. The new storage location will be OneDrive for Business.
 
 This article describes how to delete the meeting transcript files in Exchange Online and OneDrive.
 
-## Delete EXO transcript files using XML
+## Delete Exchange Online transcript files using XML
 
-You need to use EWS API to delete a transcript file that’s saved on EXO. For more information on the instructions of API, see [EWS operations in Exchange](/exchange/client-developer/web-service-reference/ews-operations-in-exchange).
+You need to use EWS API to delete a transcript file that’s saved on Exchange Online. For more information on the instructions of API, see [EWS operations in Exchange](/exchange/client-developer/web-service-reference/ews-operations-in-exchange).
 
 The structure of the transcription file will be: `Root\ApplicationDataRoot\93c8660e-1330-4e40-8fda-fd27f9eafe10\MeetingTranscriptCollection\`
 
@@ -154,7 +154,7 @@ The structure of the transcription file will be: `Root\ApplicationDataRoot\93c86
 
 ### Delete specific transcript file using XML
 
-1. Get the *MeetingTranscriptCollection folder ID* by following the first three steps mentioned in the [above section](#delete-exo-transcript-files-using-xml).
+1. Get the *MeetingTranscriptCollection folder ID* by following the first three steps mentioned in the [above section](#delete-exchange online-transcript-files-using-xml).
 
 2. Now, find a transcript based on threadId + DateTimeCreated using the following code sample:
 
@@ -241,15 +241,15 @@ To identify a particular meeting, users can check the DateTimeCreated. Additiona
 
 4. Double-click on the property to open it in a new window and check the threadId.
 
-## Delete transcript copy in ODSP via Microsoft Purview
+## Delete transcript copy in OneDrive and SharePoint via Microsoft Purview
 
-You can choose to delete Teams meeting recordings along with their accompanying transcripts by using an *auto-apply retention label policy* that identifies these files from OneDrive and SharePoint (ODSP) transcript or ODB transcript. For more information, see [Automatically apply a retention label to Microsoft 365 items](/purview/apply-retention-labels-automatically).
+You can choose to delete Teams meeting recordings along with their accompanying transcripts by using an *auto-apply retention label policy* that identifies these files from OneDrive and SharePoint transcript or OneDrive transcript. For more information, see [Automatically apply a retention label to Microsoft 365 items](/purview/apply-retention-labels-automatically).
 
 Here are the most relevant sections to help you get started:
 
 - [How to create an auto-apply retention label policy](/purview/apply-retention-labels-automatically#how-to-create-an-auto-apply-retention-label-policy)
 - [Auto-apply labels to content with keywords or searchable properties](/purview/apply-retention-labels-automatically#auto-apply-labels-to-content-with-keywords-or-searchable-properties)
-- [Identifying Teams meeting recordings and accompanying transcripts in ODSP](/purview/apply-retention-labels-automatically#microsoft-teams-meeting-recordings)
+- [Identifying Teams meeting recordings and accompanying transcripts in OneDrive and SharePoint](/purview/apply-retention-labels-automatically#microsoft-teams-meeting-recordings)
 - [How long it takes for retention labels to take effect](/purview/apply-retention-labels-automatically#how-long-it-takes-for-retention-labels-to-take-effect)
 
 >[!NOTE]
