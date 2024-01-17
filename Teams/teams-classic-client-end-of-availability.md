@@ -63,12 +63,9 @@ Here's a list of the banner messages you may experience after January 31 2024:
 |Condition for triggering the banner |Banner message |Further information |
 |------------------------------------|---------------|--------------------|
 |Classic Teams is being used, new Teams is installed |Classic Teams won't be available for use after March 31, 2024. You’ll be switched to the new Teams after this date. Switch now |         |
-|Classic Teams si being used, new Teams is not installed |Classic Teams won't be available for use after March 31, 2024. Get the new Teams |         |
-|Gov clouds |Classic Teams won’t be available for use after March 31, 2024. You’ll be switched to the new Teams after this date. Switch Now |  |
-|New Teams install failed |Something went wrong, and we couldn’t open the new Teams. Contact your IT admin. Learn more about installation issues |         |
-|New Teams install failed and the machine is rebooted |Classic Teams won’t be available for use after March 31, 2024. We couldn’t open the new Teams. Contact your IT admin. Learn more about installation issues |         |
-|Microsoft cannot update because of policy restrictions |Classic Teams won’t be available for use after March 31, 2024, and we can't update to the new Teams due to org policy. For more info, contact your IT admin. Learn more |[Troubleshooting installation issues in the new Teams client](new-teams-troubleshooting-installation.md) |
-|Microsoft cannot update because of admin permissions |Classic Teams won’t be available for use after March 31, 2024. Contact your IT admin to switch to the new Teams. Learn more |[Classic Teams users to be updated to new Teams after March 31, 2024](new-teams-automatic-upgrade-announced.md) |
+|Classic Teams is being used, new Teams is not installed |Classic Teams won't be available for use after March 31, 2024. Get the new Teams |         |
+|Microsoft cannot update because of policy restrictions (Commercial) |Classic Teams won’t be available for use after March 31, 2024, and we can't update to the new Teams due to org policy. For more info, contact your IT admin. Learn more |[Troubleshooting installation issues in the new Teams client](new-teams-troubleshooting-installation.md) |
+|If your Teams update policy is set to **Not enabled** |Classic Teams won’t be available for use after March 31, 2024. Contact your IT admin to switch to the new Teams. Learn more |[Classic Teams users to be updated to new Teams after March 31, 2024]new-teams-deploy-using-policies.md) |
 
 ### What users will experience after March 31 2024
 
