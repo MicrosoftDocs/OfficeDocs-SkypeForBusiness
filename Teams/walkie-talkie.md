@@ -141,7 +141,7 @@ Heads-up and hands-free communication is key for real-time collaboration. Frontl
 
 ### Generic wired headsets
 
-Walkie Talkie works with any generic wired (USBc and 3.5mm) headset on Android. As long as the generic headset has a pause/play button, frontline workers can tap the button to start and end transmissions on Walkie Talkie in toggle-to-talk (TTT) mode.
+Walkie Talkie works with any generic wired (USBc and 3.5mm) headset on Android. As long as the generic headset has a pause/play button or an answer/end call button, frontline workers can tap the button to start and end transmissions on Walkie Talkie in toggle-to-talk (TTT) mode.
 
 ### Specialized headsets and devices that have a dedicated PTT button
 
