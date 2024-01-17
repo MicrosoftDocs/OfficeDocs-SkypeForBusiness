@@ -23,7 +23,7 @@ description: Learn about how IT Admins can set up, use, and manage Q&A in Q&A fo
 
 Q&A allows presenters, organizers, and co-organizers to take questions from attendees and answer them in real time. This feature is best suited for large, structured meetings and events– like town halls, webinars, all Hands, and trainings. Q&A is a per-organizer setting.
 
-Your organization might have requirements to limit which organizers can turn on Q&A. As an admin, you can manage Q&A and user-level policies, to control whether an organizer can enable Q&A in their meetings and events.
+Your organization might have requirements to limit which organizers can use Q&A. As an admin, you can control whether an organizer can enable Q&A in their meetings and events.
 
 To learn more about Q&A for your users, see [Q&A in Microsoft Teams meetings](https://support.microsoft.com/office/q-a-in-microsoft-teams-meetings-f3c84c72-57c3-4b6d-aea5-67b11face787).
 
