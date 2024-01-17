@@ -6,6 +6,7 @@ manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sanjayra
+ms.date: 01/17/24
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
