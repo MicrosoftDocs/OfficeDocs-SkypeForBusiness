@@ -61,7 +61,7 @@ As an admin, you can manage the default value for Copilot that  your organizers 
 2. Expand **Meetings** from the navigation pane.
 3. Under **Meetings**, select **Meeting Policies**.
 4. Either select an existing policy or create a new one.
-5. Navigate to the Recording & transcription section and note your setting for the **Transcription** policy.
+5. Navigate to the **Recording & transcription** section and note your setting for the **Transcription** policy.
 6. Select one of the following values from the dropdown for the **Copilot** setting:
 
     - **On**- Select this value if you want your organizers to use Copilot without the transcript. You should use this value if you disabled **Transcription** for organizers with this policy. When organizers with this policy create meetings, Copilot isn’t accessible once the meeting is over.
