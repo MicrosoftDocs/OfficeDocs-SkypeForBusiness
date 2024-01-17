@@ -260,7 +260,7 @@ To identify a particular meeting, users can check the DateTimeCreated. Additiona
 
     :::image type="content" source="media/threadid-ews-editor.png" alt-text="Image that displays the Thread ID in EWSEditor." lightbox="media/threadid-ews-editor.png":::
 
-## Deleting transcript copy in ODSP via Microsoft Purview
+## Delete transcript copy in ODSP via Microsoft Purview
 
 You can choose to delete Teams meeting recordings along with their accompanying transcripts by using an *auto-apply retention label policy* that identifies these files from OneDrive and SharePoint (ODSP) transcript or ODB transcript. For more information, see [Automatically apply a retention label to Microsoft 365 items](/purview/apply-retention-labels-automatically).
 
