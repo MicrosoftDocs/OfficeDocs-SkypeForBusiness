@@ -564,8 +564,6 @@ items:
             href: manage-teams-with-policies.md
           - name: Team expiration and renewal
             href: team-expiration-renewal.md
-          - name: Private team discovery
-            href: search-private-teams.md
           - name: Archive or delete a team
             href: archive-or-delete-a-team.md
           - name: Migrate from Slack to Teams
@@ -667,6 +665,8 @@ items:
               href: set-up-meeting-registration.md
         - name: Attendee experience
           items: 
+            - name: Manage Copilot for Teams
+              href: copilot-teams-transcription.md
             - name: Manage Q&A
               href: manage-qna-for-teams.md
             - name: Manage meeting chat
