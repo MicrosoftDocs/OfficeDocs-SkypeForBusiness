@@ -154,7 +154,7 @@ The structure of the transcription file will be: `Root\ApplicationDataRoot\93c86
 
 ### Delete specific transcript file using XML
 
-1. Get the *MeetingTranscriptCollection folder ID* by following the first three steps mentioned in the [above section](#delete-exchange online-transcript-files-using-xml).
+1. Get the *MeetingTranscriptCollection folder ID* by following the first three steps mentioned in the [above section](#delete-exchange-online-transcript-files-using-xml).
 
 2. Now, find a transcript based on threadId + DateTimeCreated using the following code sample:
 
