@@ -48,7 +48,7 @@ To create a one-time password, perform the following steps:
 
    The **Configuration** page appears.
 
-   :::image type="content" source="../media/configuration-screen.png" alt-text="Screenshot that shows the Configuration page." lightbox="../media/configuration-screen.png":::
+   :::image type="content" source="../media//mtr-devices/configuration-screen.png" alt-text="Screenshot that shows the Configuration page." lightbox="../media/mtr-devices/configuration-screen.png":::
   
 1. Select **Automatically generate passwords for all selected accounts**. You'll select this option if you want to reset/delete the existing password for the resource accounts for which you're generating a one-time password.
    OR
@@ -56,7 +56,7 @@ To create a one-time password, perform the following steps:
 
 1. Select **Next**. The **Review** page appears.
 
-   :::image type="content" source="../media/review-screen.png" alt-text="Screenshot that shows the Review page." lightbox="../media/review-screen.png":::
+   :::image type="content" source="../media//mtr-devices/review-screen.png" alt-text="Screenshot that shows the Review page." lightbox="../media/mtr-devices/review-screen.png":::
 
 1. Review the settings you have configured, and then select **Generate**.
 
@@ -76,7 +76,7 @@ To verify and approve a one-time password, do the following:
 1. On the left navigation pane, select **Planning > Resource accounts**. The **Resource accounts** page appears.
 1. Select a resource account that has the value **Awaiting OTP Approval**.
 
-   :::image type="content" source="../media/resource-account-provisioning-status.png" alt-text="Screenshot that shows the page on which you select a resource account that has awaiting one-time password approval as its provisioning status." lightbox="../media/resource-account-provisioning-status.png":::
+   :::image type="content" source="../media/mtr-devices/resource-account-provisioning-status.png" alt-text="Screenshot that shows the page on which you select a resource account that has awaiting one-time password approval as its provisioning status." lightbox="../media/mtr-devices/resource-account-provisioning-status.png":::
 
    The page displaying the details of the chosen resource account appears.
 
@@ -89,6 +89,6 @@ To verify and approve a one-time password, do the following:
 1. Select the **Reject the request** button, if you want to reject the one-time password request.
     1. Provide the reason for rejecting the one-time password request by choosing a value from the **Reason for rejection** drop-down.
 
-   :::image type="content" source="../media/select-reason-for-rejection.png" alt-text="Screenshot that shows the page on which you choose the reason for rejecting the OTP request." lightbox="../media/select-reason-for-rejection.png":::
+   :::image type="content" source="../media/mtr-devices/select-reason-for-rejection.png" alt-text="Screenshot that shows the page on which you choose the reason for rejecting the OTP request." lightbox="../media/mtr-devices/select-reason-for-rejection.png":::
 
 1. Select **Submit**.
