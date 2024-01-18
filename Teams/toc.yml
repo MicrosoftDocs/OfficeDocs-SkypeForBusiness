@@ -558,7 +558,7 @@ items:
           - name: Create people manager teams
             href: create-manager-directs-teams.md
            
-      - name: Managing teams
+      - name: Manage teams
         items:
           - name: Manage teams and policies
             href: manage-teams-with-policies.md
@@ -665,6 +665,8 @@ items:
               href: set-up-meeting-registration.md
         - name: Attendee experience
           items: 
+            - name: Manage Copilot for Teams
+              href: copilot-teams-transcription.md
             - name: Manage Q&A
               href: manage-qna-for-teams.md
             - name: Manage meeting chat
@@ -751,6 +753,8 @@ items:
               href: meeting-transcription-captions.md
             - name: Use OneDrive and SharePoint or Stream for meeting recordings
               href: tmr-meeting-recording-change.md
+            - name: Delete Exchange Online and OneDrive transcript files for Teams meetings
+              href: delete-exchange-online-transcripts.md
         - name: Integration
           items:
             - name: eCDN
@@ -804,6 +808,8 @@ items:
           href: teams-live-events/what-are-teams-live-events.md
         - name: Plan for Teams live events
           href: teams-live-events/plan-for-teams-live-events.md
+        - name: Live events overview
+          href: teams-stream-overview.md
         - name: Set up for Teams live events
           href: teams-live-events/set-up-for-teams-live-events.md
         - name: Use PowerShell to set Teams live events policies
@@ -812,8 +818,6 @@ items:
           href: teams-live-events/configure-teams-live-events.md
         - name: Live events recording policies
           href: teams-live-events/live-events-recording-policies.md
-        - name: Streaming overview
-          href: teams-stream-overview.md
         - name: Configuration
           href: teams-encoder-configuration.md
         - name: Troubleshooting
