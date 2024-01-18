@@ -25,7 +25,7 @@ appliesto:
 
 **APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
 
-In Microsoft Teams, the current storage location of meeting transcript files is known as Exchange Online transcript or substrate transcript. Exchange Online transcript will be deprecated in 2024. The new storage location will be OneDrive for Business.
+In Microsoft Teams, the current storage location of meeting transcript files is known as Exchange Online transcript or substrate transcript. Exchange Online transcript will be deprecated in 2024. The new storage location will be OneDrive.
 
 This article describes how to delete the meeting transcript files in Exchange Online and OneDrive.
 
