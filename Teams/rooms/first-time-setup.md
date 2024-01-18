@@ -56,7 +56,7 @@ To set up consoles by using a one-time password, perform the following steps:
 
    When the one-time password is approved - either automatically or by the IT administrator - this page will be displayed on the console that shows it was set up and then signed in successfully.
 
-   :::image type="content" source="../media/device-signed-in-notification.png" alt-text="Screenshot that shows the user that the device has been signed in." lightbox="../media/device-signed-in-notification.png":::
+   :::image type="content" source="../media/mtr-devices/device-signed-in-notification.png" alt-text="Screenshot that shows the user that the device has been signed in." lightbox="../media/mtr-devices/device-signed-in-notification.png":::
 
 ## Set up consoles manually
 
@@ -76,7 +76,7 @@ To set up a Microsoft Teams Rooms console manually,  follow these steps:
 
 1. Select **Finish**. The page displayed in the following screenshot appears, showing that the console was set up and then signed in successfully.
 
-   :::image type="content" source="../media/device-signed-in-notification.png" alt-text="Screenshot that shows the user that the device has been signed in." lightbox="../media/device-signed-in-notification.png":::
+   :::image type="content" source="../media/mtr-devices/device-signed-in-notification.png" alt-text="Screenshot that shows the user that the device has been signed in." lightbox="../media/mtr-devices/device-signed-in-notification.png":::
 
 ### Device verification failure and troubleshooting
 
