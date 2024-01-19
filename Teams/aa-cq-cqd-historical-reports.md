@@ -711,11 +711,12 @@ Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx
 
 |Version  |Date Published     |Supported |Filename                                                    |Description                                                             |
 |:--------|:------------------|:---------|:-----------------------------------------------------------|:-----------------------------------------------------------------------|
-|3.1.3    |September 13, 2023 |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.2 |Accessibility improvements for screen readers   |
+|3.1.4    |January 24, 2024   |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.4 |Per day reporting for large volume customers, accessibility improvements for screen readers   |
+|3.1.3    |September 13, 2023 |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.3 |Accessibility improvements for screen readers   |
 |3.1.2    |July 21, 2023      |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.2 |Support any time zone offset, added detail call pop-up on Auto Attendant & Call Queue, No Agents support    |
 |3.1.1    |May 11, 2023       |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.1 |Corrected an error with the Date, Agent and Call Queue slicers          |
 |3.1.0    |May 1, 2023        |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.0 |New templates, added detail call pop-up on Agent Timeline, Power BI Service support   |
-|3.0.7    |February 16, 2023  |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.0.7 |Corrected error on Agent Timeline when call minutes were greater than 9 |
+|3.0.7    |February 16, 2023  |No        |Teams Auto Attendant & Call Queue Historical Reports V3.0.7 |Corrected error on Agent Timeline when call minutes were greater than 9 |
 |3.0.6    |February 14, 2023  |No        |Teams Auto Attendant & Call Queue Historical Reports V3.0.6 |Corrected error, improved call classification and Agent timeline visuals|
 |3.0.5    |January 9, 2023    |No        |Teams Auto Attendant & Call Queue Historical Reports V3.0.5 |Improved Call Overflow/Timeout Destinations and Agent timeline visuals  |
 |3.0.4    |November 18, 2022  |No        |Teams Auto Attendant & Call Queue Historical Reports V3.0.4 |Corrected error, improved call classification, added legend             |
