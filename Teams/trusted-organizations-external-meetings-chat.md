@@ -20,8 +20,8 @@ ms.custom:
 - chat-teams-channels-revamp
 appliesto: 
   - Microsoft Teams
-ms.localizationpriority: normal
-description: "For IT admins: Learn how to configure chat and meetings with people outside your organization who use Microsoft Entra ID, Microsoft Teams Essentials, or Skype."
+ms.localizationpriority: medium
+description: For IT admins: Learn how to configure chat and meetings with people outside your organization who use Microsoft Entra ID, Microsoft Teams Essentials, or Skype.
 ---
 
 # IT Admins - Manage external meetings and chat with people and organizations using Microsoft identities
@@ -117,6 +117,12 @@ To block specific domains
 
 6. Click **Save**.
 
+By default, when you block domains, subdomains aren't blocked. For example, if you block contoso.com, marketing.contoso.com isn't blocked. If you want to block all subdomains, you can use the [Set-CsTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration) PowerShell cmdlet with the `-BlockAllSubdomains` parameter. For example:
+
+```powershell
+Set-CsTenantFederationConfiguration -BlockAllSubdomains $True
+```
+
 #### Diagnostic Tool
 
 If you're an administrator, you can use the following diagnostic tool to validate if a Teams user can communicate with a Teams user in a trusted organization:
@@ -193,6 +199,7 @@ The following table shows the cmdlet parameters used for configuring trusted org
 |Allow or prevent meetings and chat with other Teams organizations and Skype for Business|`-AllowFederatedUsers`|
 |Specify allowed domains|`-AllowedDomains`|
 |Specify blocked domains|`-BlockedDomains`|
+|Block subdomains|`-BlockAllSubdomains`|
 
 Chat with Teams users not managed by an organization and Skype users can be configured by using the [Set-CSTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration) cmdlet.
 
