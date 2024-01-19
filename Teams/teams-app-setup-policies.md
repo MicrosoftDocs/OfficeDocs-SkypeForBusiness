@@ -117,6 +117,11 @@ Independent bots work by default in Classic Teams but not in new Teams. In the n
 
 :::image type="content" source="media/use-bots-setup-policy.png" alt-text="Flowchart showing a decision making flow for admins to know how they can allow their users to use independent bots.":::
 
+To summarize, you can let users chat with independent bots by using one of the following methods:
+
+* Allow custom app upload for users.
+* Incorporate the bot in a Teams app and allow the app in your organization.
+
 ## Manage app setup policies
 
 You can manage the app setup policies in the Microsoft Teams admin center. Use the global (Org-wide default) policy or create and assign custom policies. Users get the global policy and if you create a custom policy, it overrides the global policy. A Global Administrator or a Teams Administrator can manage these policies.
