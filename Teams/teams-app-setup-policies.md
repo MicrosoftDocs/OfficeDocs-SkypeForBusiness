@@ -115,7 +115,7 @@ Developers can create bots as part of [Microsoft Bot Framework](https://dev.botf
 
 Independent bots work by default in Classic Teams but not in new Teams. In the new Teams client, your users can use independent bots only if you allow users to upload custom apps. You use app setup policy to configure the interaction between users and independent bots by allowing users to upload a custom app.
 
-:::image type="content" source="media/use-bots-setup-policy.png" alt-text="Flowchart showing a decision making flow for admins to know how they can allow their users to use independent bots.":::
+:::image type="content" source="media/use-bots-setup-policy.png" alt-text="Flowchart showing a decision making flow for admins to know how they can allow their users to use independent bots." lightbox="media/use-bots-setup-policy-large.png":::
 
 To summarize, you can let users chat with independent bots by using one of the following methods:
 
