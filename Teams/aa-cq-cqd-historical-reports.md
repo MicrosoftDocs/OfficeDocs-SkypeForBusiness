@@ -34,7 +34,7 @@ description: Learn about how to use the updated Teams Auto Attendant & Call Queu
 
 This Power BI template provides three reports that allow organizations to report on the number of calls processed by Auto attendants and Call queues.  It also provides agent performance insights.
 
-## V3.1.4 published on January XX, 2024
+## V3.1.4 published on January 24, 2024
 
 The Teams Auto Attendant & Call Queue Historical Report Power BI template provides the following three reports:
 
@@ -117,7 +117,7 @@ Perform the following steps:
 6. Select **Connect**, and the data refreshes.
 
 > [!NOTE]
-> If you were using v1.63 or earlier, you may encounter an error when v3.x.x tries to retrieve the data from VAAC.  To resolve this error, it's necessary to clear any previous credentials from Power BI.
+> If you were using v1.64 or earlier, you may encounter an error when v3.x.x tries to retrieve the data from VAAC.  To resolve this error, it's necessary to clear any previous credentials from Power BI.
 >
 > 1. Open the v3.x.x template to clear the error.
 > 1. Select **File** > **Options & Settings** > **Data source settings**.
@@ -145,14 +145,15 @@ You have to refresh the report to see any new data.
 |3        |Auto Attendant Resource Accounts       |The Resource Accounts to be reported on. Select all the resource accounts assigned to a specific Auto Attedant to see the calls for that Auto Attendant.<br>Default: All       |
 |4        |Quick Stats -> Incoming Calls          |A breakdown showing the total number of calls received between the start date/start hour and end date/end hour.<br><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.* |
 |5a       |Quick Stats -> Usage Statistics        |A breakdown showing the average call duration in the Auto Attendant and the average number of caller actions. |
-|5b       |Caller Action Count                    |A breakdown on caller actions showing how many .....   |
+|5b       |Caller Action Count                    |A breakdown on the number of caller actions (key presses, voice commands) |
 |6        |Quick Stats -> Directory Search Method |A breakdown showing how the Directory Search option was used by callers.<br>This section of the report is blank if the Auto Attendant isn't configured to provided this service or if callers didn't use it.<br><br>Directory Search Method Legend Definitions:<br><ul><li>DTMF - Caller used the telephone dial pad to search for the user's name</li><li>Voice - Caller used voice input to search for the user's name</ul>                          |
 |7        |Call Results                           |A breakdown showing the call treatment received by callers.<br><br>Call Results Legend Definitions:<br><ul><li>Terminated (No Caller Action) - Call was disconnected - the caller did not make any selections</li><li>Terminated (With Caller Action) - Call was disconnected - the caller had made some selections</li><li>Terminated (Disconnected) - Call was disconnected per the auto attendant configuration</li><li>Terminated (No Operator) - Call was disconnected as there was no operator to transfer the call to</li><li>Terminated (Transfer Failed) - Call was disconnected as the configured transfer failed</li><li>Transferred (AA) - Call was transferred to another Auto Attendant</li><li>Transferred (CQ) - Call was transferred to a Call Queue</li><li>Transferred (Operator) - Call was transferred to the Operator</li><li>Transferred (Voicemail) - Call was transferred to Shared Voicemail</li><li>Transferred (External) - Call was transferred to an External Number</li><li>Transferred (User) - Call was transferred to a Person in the organization</li><li>Other - Some other condition has occurred</li></ul><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.*   |
-|8        |                                       |A breakdown showing the caller paths through the auto attendant and the final call result.ADD EXPLANATION OF EACH FIELD <br><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.*                          |
+|8        |                                       |A breakdown showing the caller paths through the auto attendant and the final call result.<br><br>Column definitions:<br><ul><li>MM-DD - The month and day the call</li><li>Start Hour - The hour the call started</li><li>Name - The Resource Account name</li><li>Call flow - The callflow the call followed</li><li>Call Type - The connectivity method for the call.  CalllingPlan or DirectRouting</li><li>Call Result - The end result of the call (see #7 Call Results above)</li><li>Call Count - The number of calls that followed this same path</li><li>Average Call Duration (seconds) - The average number of seconds the call spent in the Auto Attendant</li></ul><br><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.*                          |
 
 #### Known issues
 
-1. Only the calls and caller actions in the first Auto attendant that answers the call are reported on.  Calls and caller actions in chained Auto attendants (when one Auto attendant transfers to another Auto attendant) aren't reported on. 
+1. Only the calls and caller actions in the first Auto attendant that answers the call are reported on.  Calls and caller actions in chained Auto attendants (when one Auto attendant transfers to another Auto attendant) aren't reported on.
+1. Auto attendants are shown by the resource account's ID instead of Auto attendant names.  To show all the traffic for an Auto attendant, you must select all the resource accounts assigned to the Auto attendant.
 1. Only 28 days of call history are available. Auto attendant data is considered personal data and is subject to data privacy retention policies.
 1. The Date selector will sometimes show dates outside the range of available data resulting in a blank report. Changing the dates to be within the last 28 days will resolve the issue.
 
@@ -168,7 +169,7 @@ You have to refresh the report to see any new data.
 |2        |Time Range                             |The start and end hour of the report. The report spans all dates/times from start date/start hour to the end date/end hour.<br>Use this slider to select the time range to report on.    |
 |3        |Call Queue Resource Accounts           |The Resource Accounts to be reported on. Select all the resource accounts assigned to a specific Call Queue to see the calls for that Call Queue.<br>Default: All       |
 |4        |Quick Stats -> Incoming Calls          |A breakdown showing the total number of calls received between the start date/start hour and end date/end hour.<br><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.* |
-|5        |Quick Stats -> Average Wait Time (seconds)      |A breakdown showing the average call duration in the Call Queue before a caller is answered for they abandon. |
+|5        |Quick Stats -> Average Wait Time (seconds)      |A breakdown showing the average call duration in the Call Queue before a caller is answered or they abandon. |
 |6        |Call Results                           |A breakdown showing the call treatment received by callers.<br><br>Call Results Legend Definitions:<br><ul><li>Agent Answered - Caller was answered by an agent</li><li>Abandoned - Caller disconnected before being answered by an agent or before Call Timeout occurred</li><li>No Agent - The No Agent exception handling condition occurred</li><li>Overflowed - The Call Overflow exception handling condition occurred</li><li>Timed Out - The Call Timeout exception handling occurred</li><li>Other - Some other condition has occurred</li></ul><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.*   |
 |7        |Call Volume and Agent Opt-in Count     |A breakdown showing the number of calls per hour and the maximum number of agents that were opted into the call queue at that time  |
 |8        |Abandoned Calls                        |A breakdown showing the number of abandoned calls per hour  |
@@ -177,7 +178,8 @@ You have to refresh the report to see any new data.
 
 #### Known issues
 
-1. Only the calls and caller actions in the first Call queue that answers the call are reported on.  Calls in chained Call queues (when one Call queue transfers to another Call queue) aren't reported on. 
+1. Only the calls and caller actions in the first Call queue that answers the call are reported on.  Calls in chained Call queues (when one Call queue transfers to another Call queue) aren't reported on.
+1. Call queues are shown by the resource account's ID instead of Call queue names.  To show all the traffic for a Call queue, you must select all the resource accounts assigned to the Call queue.
 1. Only 28 days of call history are available. Call queue data is considered personal data and is subject to data privacy retention policies.
 1. The Date selector will sometimes show dates outside the range of available data resulting in a blank report. Changing the dates to be within the last 28 days will resolve the issue.
 
@@ -196,13 +198,14 @@ You have to refresh the report to see any new data.
 |5        |Calls Answered (by date)               |A breakdown showing the number of agent answered calls by date |
 |6        |                                       |A breakdown showing how many calls each agent in the queue answered and the average call duration for those calls. |
 |7        |Calls Answered (by hour)               |A breakdown showing the number of agent answered calls by hour  |
-|8        |                                       |A breakdown showing ADD INFO HERE.  ADD EXPLANATION OF EACH FIELD |
+|8        |                                       |A breakdown showing the number of calls answered by agent, by Call Queue.<br><br>Column definitions:<br><ul><li>MM-DD - The month and day the call</li><li>Hour - The hour the call was answered</li><li>CQ Name - The Resource Account name</li><li>Agent Name - The URI name of the agent who answered the call</li><li>Calls Answered - The number of calls answere by this agent from this Call Queue</li><li>Average Call Duration (Seconds) - The average call duration of each call in seconds</li><li>Total Call Duration (Minutes) - The total call duration for all calls</li><li>Total Call Duration (HH:MM:SS) - The total call duration for all calls</li></ul> |
+
 
 #### Known issues
 
 1. Only 28 days of call history are available. Call queue and Agent data is considered personal data and is subject to data privacy retention policies.
 1. Call queues are shown by the resource account's ID instead of Call queue names.  To show all the traffic for a Call queue, you must select all the resource accounts assigned to the Call queue.
-1. Agent names.... ^^^ SIMILAR TO ABOVE
+1. Agent names are shown by the agent's UPN instead of their first/last name.
 1. The Date selector will sometimes show dates outside the range of available data resulting in a blank report. Changing the dates to be within the last 28 days will resolve the issue.
 1. In some scenarios, the agent answered call count might be different than the number of calls shown in the Teams client call history. The Teams client call history is correct. Support is investigating, but there's no estimated time to repair available at this time.
 
@@ -336,7 +339,7 @@ You have to refresh the report to see any new data.
 
 ## Data Limits
 
-Each report tab is restricted to retrieving 90,000 rows. If there's a large number of calls being processed each day, it's possible that the report doesn't show all calls for all days within the selected date range.  There's no notification when this exclusion occurs.  Try shortening the date range to avoid this issue.
+Each report tab retrieves data for all Auto attendants, Call queues or agents in the tenant for the selected date range regardless of the specific Resource Account or Agent selected on the report.  Filtering to show only the requested inforamtion occurs locally.  Each report tab is restricted to retrieving 90,000 rows. If there's a large number of calls being processed each day, it's possible that the report doesn't show all calls for all days within the selected date range.  There's no notification when this exclusion occurs.  Try shortening the date range to avoid this issue.
 
 If shortening the date range isn't sufficient, it's possible to increase the number of rows that can be retrieved by modifying the report as follows:
 
@@ -353,7 +356,7 @@ Increasing the limit results in longer execution and response times.
 
 ## Report Execution Time Limits
 
-Increasing the maximum number of rows that can be returned may result in the reports timing out before the data can be returned.  The report execution time can be increased by modifying the report as follows:
+Increasing the maximum number of rows that can be returned results in longer execution and response times meaning the report may time out before the data can be returned.  The report execution time can be increased by modifying the report as follows:
 
 1. Click on the "Transform data" in the ribbon bar to open the Power Query Editor.
 1. Click on "ReportExecutionMinutes" on the left-hand side.
@@ -404,7 +407,7 @@ These dimensions are common to both Auto attendants and Call queues:
 |PSTNCallType<br>(Text)                                 |                               |                                                                  |
 |                                                       |External                       |Call is coming from outside the tenant                            |
 |                                                       |Internal                       |Call is coming from within the tenant                             |
-|PSTNConnectivityType<sup>1</sup><br>(Text)             |                               |                                                                  |
+|PSTNConnectivityType<br>(Text)                         |                               |                                                                  |
 |                                                       |CallingPlan                    |                                                                  |
 |                                                       |DirectRouting                  |                                                                  |
 |Second<br>(Text)                                       |                               |Second call started (UTC)                                         |
@@ -413,7 +416,6 @@ These dimensions are common to both Auto attendants and Call queues:
 |Timestamp<br>(DateTime)                                |                               |Time record was written (UTC)                                     |
 |UserStartTimeUTC<br>(DateTime)                         |                               |Time call started (UTC)                                           |
 
-- <sup>1</sup> **PSTNConnectivityType** shows the final call leg source rather than the initial call leg source. For example, if an Auto attendant receives an external call and transfers the call to another Auto attendant or Call queue, the **Incoming call source** is reported as **Internal**.
 
 ### Auto attendant dimensions
 
