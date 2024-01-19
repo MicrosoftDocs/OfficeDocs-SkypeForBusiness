@@ -43,6 +43,7 @@ The following table shows which features are available in meetings, webinars, an
 |[Channel meeting scheduling](https://support.microsoft.com/office/schedule-a-meeting-in-microsoft-teams-943507a9-8583-4c58-b5d2-8ec8265e04e5)|✔️|✖️|✖️|
 |[Choose co-organizers](https://support.microsoft.com/office/roles-in-microsoft-teams-meetings-c16fa7d0-1666-4dde-8686-0a0bfe16e019)|✔️|✔️|✔️|
 |[Content sharing](meeting-policies-content-sharing.md)|✔️|✔️|✔️|
+|[Copilot](copilot-teams-transcription.md)|✔️|✔️|For organizers, co-organizers, and presenters only.|
 |[Custom backgrounds](custom-meeting-backgrounds.md)|Premium|Premium|Premium|
 |[eCDN](streaming-ecdn-enterprise-content-delivery-network.md)|✔️|✖️|✔️|
 |[End-to-end encryption](teams-end-to-end-encryption.md)|Premium|✖️|✖️|
@@ -50,7 +51,7 @@ The following table shows which features are available in meetings, webinars, an
 |[Green room](hide-attendee-names.md)|✔️|✔️|✔️|
 |[Hide attendee names](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5)|Premium|Premium|✖️|
 |[Interactive participants](view-only-meeting-experience.md)|1,000|1,000|✖️|
-|[Language interpretation](https://support.microsoft.com/office/use-language-interpretation-in-microsoft-teams-meetings-b9fdde0f-1896-48ba-8540-efc99f5f4b2e)|✔️|✔️|✔️|
+|[Language interpretation](https://support.microsoft.com/office/use-language-interpretation-in-microsoft-teams-meetings-b9fdde0f-1896-48ba-8540-efc99f5f4b2e)|✔️|✔️|✖️|
 |[Live captions](meeting-transcription-captions.md)|✔️|✔️|✔️|
 |[Live transcriptions](https://support.microsoft.com/office/view-live-transcription-in-microsoft-teams-meetings-dc1a8f23-2e20-4684-885e-2152e06a4a8b)|✔️|✔️|✔️|
 |[Lobby](who-can-bypass-meeting-lobby.md)|✔️|✔️|✖️|
@@ -76,7 +77,7 @@ The following table shows which features are available in meetings, webinars, an
 |[Watermarks](watermark-meeting-content-video.md)|Premium|✖️|✖️|
 |[Whiteboard](meeting-policies-content-sharing.md)|✔️|✔️|✖️|
 
-*The usual 10,000 is increased to 20,000 through December 30, 2023.
+*The usual 10,000 is increased to 20,000 through June 30, 2024.
 
 ## Related topics
 

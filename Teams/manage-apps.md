@@ -188,13 +188,12 @@ To allow third-party apps, either edit and use the global (Org-wide default) pol
 
 You may have queries about admin settings or configuration, user flows and app features, app troubleshooting, and more. You receive support information about apps from the following two different sources:
 
-* We don't provide direct customer support for Teams apps but we provide the following value adds, useful information, platform features, and app quality checks to our customers:
+* We don't provide direct customer support for Teams apps but we provide the following safeguards, health checks, and certification methods for apps:
 
   * We proactively check Teams apps for issues and inform the developer to update their app. Scenarios covered are related to app health, functional issues reported by users to Microsoft, security issues, and so on. For details, see [Microsoft enforcement actions for published apps](/microsoftteams/platform/concepts/deploy-and-publish/appsource/post-publish/overview#possible-enforcement-actions).
   * For Publisher Attested and Microsoft 365 certified apps, Microsoft provides the [security and compliance information of apps](overview-of-app-certification.md).
-  * Testing of all apps as part of its [app validation program](overview-of-app-validation.md) to ensure that all apps work as advertised. If apps don't work as suggested in the app listing, then we contact app developers to request either an update to the app or a removal of the app.
-  * If app developers don't make the requested updates after a few reminders, we proactively remove the apps from Teams.
-  * Certification to apps via its [Microsoft 365 app compliance program](overview-of-app-certification.md) to reassure that app are compliant with the industry-standard frameworks.
+  * Testing of all apps as part of its [app validation program](overview-of-app-validation.md) to ensure that all apps work as advertised. If apps don't work as suggested in the app listing, then we contact app developers to request either an update to the app. If app developers don't make the requested updates after a few reminders, we proactively remove the apps from Teams.
+  * Certification to apps using [Microsoft 365 app compliance program](overview-of-app-certification.md) ensures that apps are compliant with the industry-standard frameworks.
 
 * App developers provide customer support, updates to the apps, security and compliance information, bug fixes, and so on. The app security and compliance information are available in the admin center in app details page as mentioned above. App developers publish app updates, bug fixes, and vulnerability fixes as per their business requirements, issue severity, and service agreements. For direct support requests and inquiry about app updates, contact the app developer at their website address available at the following two places:
 
@@ -205,6 +204,8 @@ You may have queries about admin settings or configuration, user flows and app f
   * **Details + support** tab of the app's [AppSource](https://appsource.microsoft.com/) page.
 
     :::image type="content" source="media/appsource-help-link.png" alt-text="Screenshot that shows help and support link for a Teams app in AppSource.":::
+
+* **Privacy and data access considerations**: In the terms of use and privacy policy of any app, the app developer discloses what data their app uses and how it's handled. This information is available on app developer's website and you can access the URLs in the app details page in Teams admin center. Many app developers choose to undergo the Microsoft 365 app compliance program. The program checks and audits an app against controls that are derived from leading industry-standard frameworks. The detailed information about each such app is available at [Teams Apps Security and Compliance](/microsoft-365-app-certification/teams/teams-apps).
 
 ## Related article
 
