@@ -148,7 +148,7 @@ You have to refresh the report to see any new data.
 |5b       |Caller Action Count                    |A breakdown on the number of caller actions (key presses, voice commands) |
 |6        |Quick Stats -> Directory Search Method |A breakdown showing how the Directory Search option was used by callers.<br>This section of the report is blank if the Auto Attendant isn't configured for this service or if callers don't use it.<br><br>Directory Search Method Legend Definitions:<br><ul><li>DTMF - Caller used the telephone dial pad to search for the user's name</li><li>Voice - Caller used voice input to search for the user's name</ul>                          |
 |7        |Call Results                           |A breakdown showing the call treatment received by callers.<br><br>Call Results Legend Definitions:<br><ul><li>Terminated (No Caller Action) - Call was disconnected - the caller didn't make any selections</li><li>Terminated (With Caller Action) - Call was disconnected - the caller made selections</li><li>Terminated (Disconnected) - Call was disconnected per the auto attendant configuration</li><li>Terminated (No Operator) - Call was disconnected as there was no operator to transfer the call to</li><li>Terminated (Transfer Failed) - Call was disconnected as the configured transfer failed</li><li>Transferred (AA) - Call was transferred to another Auto Attendant</li><li>Transferred (CQ) - Call was transferred to a Call Queue</li><li>Transferred (Operator) - Call was transferred to the Operator</li><li>Transferred (Voicemail) - Call was transferred to Shared Voicemail</li><li>Transferred (External) - Call was transferred to an External Number</li><li>Transferred (User) - Call was transferred to a Person in the organization</li><li>Other - Some other condition occurred</li></ul><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.*   |
-|8        |                                       |A breakdown showing the caller paths through the auto attendant and the final call result.<br><br>Column definitions:<br><ul><li>MM-DD - The month and day the call</li><li>Start Hour - The hour the call started</li><li>Name - The Resource Account name</li><li>Call flow - The call flow the call followed</li><li>Call Type - The connectivity method for the call.  CalllingPlan or DirectRouting</li><li>Call Result - The end result of the call (see #7 Call Results)</li><li>Call Count - The number of calls that followed this same path</li><li>Average Call Duration (seconds) - The average number of seconds the call spent in the Auto Attendant</li></ul><br><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.*                          |
+|8        |                                       |A breakdown showing the caller paths through the auto attendant and the final call result.<br><br>Column definitions:<br><ul><li>MM-DD - The month and day the call</li><li>Start Hour - The hour the call started</li><li>Name - The Resource Account name</li><li>Call flow - The call flow the call followed</li><li>Call Type - The connectivity method for the call.  CalllingPlan or DirectRouting</li><li>Call Result - The end result of the call (see #7 Call Results)</li><li>Call Count - The number of calls that followed this same path</li><li>Average Call Duration (seconds) - The average number of seconds the call spent in the Auto Attendant</li></ul><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.*                          |
 
 #### Known issues
 
@@ -208,6 +208,7 @@ You have to refresh the report to see any new data.
 1. The Agent's UPN name instead of their name is shown.
 1. The Date selector sometimes shows dates outside the range of available data resulting in a blank report. Change the dates to be within the last 28 days to resolve the issue.
 1. In some scenarios, the agent answered call count might be different than the number of calls shown in the Teams client call history. The Teams client call history is correct. Support is investigating, but there's no estimated time to repair available at this time.
+1. When the Call Overflow exception handling redirects calls to another call queue that are then answered by an agent, the agent who answered the call will be shown in the call queue where the Call Overflow exception occurred rather than the call queue they're in.
 
 ## Auto attendant and Call queue historical reports field definitions
 
@@ -215,24 +216,24 @@ You have to refresh the report to see any new data.
 
 |Name                                    |Data Type                |Description                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|AA Name                                 |Text                     |Name of resource account attached to Auto Attendant<br><br>If the full Resource Account name is **aa_test@microsoft.com**, then this value is: **aa_test** |
+|AA Name                                 |Text                     |Name of the resource account attached to the Auto Attendant<br><br>If the full Resource Account name is **aa_test@microsoft.com**, then this value is: **aa_test** |
 |AA Start Hour                           |Whole Number             |Auto Attendant call start hour - Local (based on selected UTC Offset)                    |
 |AA Start Time Local                     |Date/time                |Auto Attendant call start time - Local (based on selected UTC Offset)                    |
 |AA Start Time UTC                       |Date/time                |Auto Attendant call start time - UTC                                                     |
 |AACallerActionCount                     |Whole number             |Summarize: Sum<br>Count of actions selected by caller in Auto Attendant during the call  |
-|AACallerActionCountAverage (Measure)    |Whole number             |Average of AACallerActionCount                                                           |
+|AACallerActionCountAverage (Measure)    |Whole number             |Average of AACallerActionCount - zero instead of blank                                   |
 |AACallFlow                              |Text                     |See Auto Attendant dimensions -> AutoAttendantCallFlow                                   |
 |AACallResult                            |Text                     |See Auto Attendant dimensions -> AutoAttendantCallResult                                 |
-|AACallResultLegend                      |Text                     |Sets up legend items based on AACallResult                                               |
+|AACallResultLegend                      |Text                     |Legend items for on AACallResult                                                         |
 |AAChainDuration                         |Decimal number           |Summarize: Sum<br>Duration of call in Auto Attendant                                     |
-|AAChainDurationAverage (Measure)        |Decimal number           |Average of AAChainDuration                                                               |
+|AAChainDurationAverage (Measure)        |Decimal number           |Average of AAChainDuration - zero instead of blank                                       |
 |AAChainIndex                            |Whole Number             |                                                                                         |
 |AAConnectivityType                      |Text                     |See Common dimensions -> PSTNConnectivityType                                            |
-|AACount                                 |Whole Number             |Number of Auto Attendants involved in call                                               |
+|AACount                                 |Whole Number             |Summarized: Sum<br>Number of Auto Attendants involved in call                            |
 |AADirectorySearchMethod                 |Text                     |See Auto Attendant dimensions -> AutoAttendantDirectorySearchMethod                      |
-|AADirectorySearchMethodCountDTMF (Measure)  |Whole number         |Count of calls that used DTMF to search the directory                                    |
-|AADirectorySearchMethodCountVoice (Measure) |Whole number         |Count of calls that used Voice to search the directory                                   |
-|AADirectorySearchMethodLegend           |Text                     |Sets up legend items based on AADirectorySearchMethod - see Section 6 above              |
+|AADirectorySearchMethodCountDTMF (Measure)  |Whole number         |Count of calls that used DTMF to search the directory - zero instead of blank            |
+|AADirectorySearchMethodCountVoice (Measure) |Whole number         |Count of calls that used Voice to search the directory - zero instead of blank           |
+|AADirectorySearchMethodLegend           |Text                     |Legend items for AADirectorySearchMethod                                                 |
 |AATransferAction                        |Text                     |See Auto Attendant Dimensions -> AutoAttendantTransferAction                             |
 |Call Duration Seconds                   |Whole number             |Call duration                                                                            |
 |Call End Time Local                     |Date/time                |Call end time - Local (based on selected UTC Offset)                                     |
@@ -254,16 +255,16 @@ You have to refresh the report to see any new data.
 |Name                                    |Data Type                |Description                                                                              |
 |:---------------------------------------|:------------------------|:----------------------------------------------------------------------------------------|
 |Call Count                              |Whole number             |Summarize: Sum<br>Number of calls                                                        |
-|Call Count Sum (Measure)                |Whole number             |Sum of Call Count                                                                        |
+|Call Count Sum (Measure)                |Whole number             |Call Count Sum - zero instead of blank
 |Call Duration Seconds                   |Whole number             |Call duration                                                                            |
 |Call End Time Local                     |Date/time                |Call end time - Local (based on selected UTC Offset)                                     |
 |Call End Time UTC                       |Date/time                |Call end time - UTC                                                                      |
 |Call Queue Agent Count                  |Whole number             |Summarize: Sum<br>Number of agents configured in the Call queue                          |
 |Call Queue Agent Opt In Count           |Whole number             |Summarize: Sum<br>Number of agents opted-in to the Call queue                            |
 |Call Queue Call Result                  |Text                     |See Call Queue Dimensions -> CallQueueCallResult                                         |
-|Call Queue Call Result Legend           |Text                     |Sets up legend items based on Call Queue Result                                          |
+|Call Queue Call Result Legend           |Text                     |Legend items for Call Queue Result                                                       |
 |Call Queue Target Type                  |Text                     |See Call Queue Dimensions -> CallQueueTargetType                                         |
-|Call Queue Target Type Legend           |Text                     |Sets up legend items based on Call Queue Target Type                                     |
+|Call Queue Target Type Legend           |Text                     |Legend items for Call Queue Target Type                                                  |
 |Call Start Time Local                   |Date/time                |Call start time - Local (based on selected UTC Offset)                                   |
 |Call Start Time UTC                     |Date/time                |Call start time - UTC                                                                    |
 |ConferenceID                            |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
@@ -281,12 +282,12 @@ You have to refresh the report to see any new data.
 |Name                                    |Data Type                |Description                                                                |
 |:---------------------------------------|:------------------------|:--------------------------------------------------------------------------|
 |Average Call Duration (Seconds)         |Decimal number           |Summarize: Sum<br>Average call duration in seconds for abandoned calls     |
-|Average Call Duration (Seconds) Average (Measure)  |Whole number  |Average of Average Call Duration (Seconds)                                 |
+|Average Call Duration (Seconds) Average (Measure)  |Whole number  |Average of Average Call Duration (Seconds) - zero instead of blank         |
 |Average Call Queue Duration (Sec)       |Decimal number           |Summarize: Sum<br>Average waiting time in seconds for answered calls       |
-|Average Call Queue Duration (Sec) (Measure)        |Whole number  |Average of Average Call Queue Duration (Sec)                             |
+|Average Call Queue Duration (Sec) (Measure)        |Whole number  |Average of Average Call Queue Duration (Sec) - zero instead of blank       |
 |Call Count                              |Whole number             |Summarize: Sum<br>Number of calls                                          |
 |Call Queue Call Result                  |Text                     |See Call Queue Dimensions -> CallQueueCallResult                           |
-|Call Queue Call Result Legend           |Text                     |Sets up legend items based on Call Queue Call Result                       |
+|Call Queue Call Result Legend           |Text                     |Legend items for Call Queue Call Result                                    |
 |Call Queue Final State Action           |Text                     |See Call Queue Dimensions -> CallQueueFinalStateAction                     |
 |CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value is: **cq_test** |
 |CQHour                                  |Number                   |Hour that the call took place in
@@ -333,9 +334,6 @@ You have to refresh the report to see any new data.
 |Total Call Count                        |Whole number             |Summarize: Sum<br>Number of calls presented to agent     |
 |Total Call Duration (HH:MM:SS)          |Text                     |Call Duration (Minutes) converted to HH:MM:SS            |
 |Total Call Duration (Minutes)           |Whole number             |Summarize: Sum<br>Total call duration of answered Call queue calls in minutes  |
-
-> [!NOTE]
-> When a call arrives at the first Call queue, if the number of calls already waiting in that queue has reached the **Call overflow handling** limit and if the redirect option sends new calls to a second Call queue, then the agents in the second Call queue show as being in the first Call queue on this report. 
 
 ## Data Limits
 
