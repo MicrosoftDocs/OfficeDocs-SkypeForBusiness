@@ -2,7 +2,7 @@
 title: Plan for Operator Connect for India
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.date: 09/01/2023
 ms.topic: article
 ms.service: msteams
@@ -16,20 +16,15 @@ ms.reviewer: roykuntz
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-- ms.teamsadmincenter.directrouting.overview
 description: Learn more about Operator Connect for India, such as requirements and planning for deployment.
 ms.custom: 
  - seo-marvel-apr2020
  - seo-marvel-jun2020
 appliesto: 
   - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Plan Operator Connect for India
-
-> [!NOTE]
-> Operator Connect for India is a preview release. Content is subject to change. Check back for updates.
 
 Operator Connect for India is another option for providing Public Switched Telephone Network (PSTN) connectivity with Teams Phone. Operator Connect for India has been designed to address the telephony regulatory issues specific to India.  
 
@@ -39,7 +34,7 @@ After reading this article, you'll also want to read:
 
 - [Configure Operator Connect for India](operator-connect-india-configure.md)
 - [Plan and configure Location-Based Routing for Operator Connect for India](location-based-routing-india-plan.md)
-- [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings-india.md)
+- [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
 
 With Operator Connect for India:
 
@@ -85,6 +80,6 @@ For technical support, contact the customer support of your operator first. If n
 
 - [Configure Operator Connect for India](operator-connect-india-configure.md)
 - [Plan and configure Location-Based Routing for Operator Connect for India](location-based-routing-india-plan.md)
-- [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings-india.md)
+- [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
 
 

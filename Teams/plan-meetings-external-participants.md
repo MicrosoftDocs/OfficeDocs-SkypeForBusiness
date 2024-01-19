@@ -3,7 +3,7 @@ ms.date: 07/01/2023
 title: Plan for meetings with external participants in Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: alsolom
@@ -53,7 +53,7 @@ When planning your configuration for external meetings, consider the types of me
 
 When meeting with people from non-Microsoft 365 organizations, you must add each individual who you want to meet with to your organization's directory as guests in order for them to be verified meeting participants.
 
-[Guest access in Teams must be enabled](/microsoft-365/solutions/collaborate-as-team) in order for guests to be able to join meetings. Your users can invite guests to their teams (which will add them to the directory), or you can [add them directly in the Azure AD portal](/azure/active-directory/external-identities/add-users-administrator).
+[Guest access in Teams must be enabled](/microsoft-365/solutions/collaborate-as-team) in order for guests to be able to join meetings. Your users can invite guests to their teams (which will add them to the directory), or you can [add them directly in the Microsoft Entra admin center](/azure/active-directory/external-identities/add-users-administrator).
 
 Guests must log in to Teams with their guest account in order to join meetings. If they're not logged in, they will be considered anonymous.
 
@@ -106,4 +106,3 @@ The lobby can be configured by the meeting organizer before or during the meetin
 [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
 
 [External participants receive "Sign in to Teams to join, or contact the meeting organizer"](/microsoftteams/troubleshoot/meetings/external-participants-join-meeting-blocked)
-

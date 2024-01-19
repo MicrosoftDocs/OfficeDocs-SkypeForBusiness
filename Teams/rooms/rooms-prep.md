@@ -1,10 +1,10 @@
 ---
 title: Prepare your Environment
 ms.author: tonysmit
-author: tonysmit
-ms.reviewer: sohailta
-ms.date: 02/23/2018
-manager: serdars
+author: mstonysmith
+ms.reviewer: kimmatlock
+ms.date: 10/04/2023
+manager: pamgreen
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
@@ -20,7 +20,7 @@ ms.collection:
 description: Learn about how to prepare your infrastructure for deploying Microsoft Teams Rooms so that you can take advantage of all of the features.
 ms.custom: seo-marvel-apr2020
 ---
- 
+
 # Prepare your environment
 
 This section contains an overview of the steps required to prepare your environment so that you can use all of the features of Microsoft Teams Rooms.
@@ -42,11 +42,13 @@ A  *resource account*  is an account that the Microsoft Teams Rooms client uses 
 
 In order to function properly, Microsoft Teams Rooms  must have access to a network that meets these requirements:
   
-- Access to your Active Directory or Azure Active Directory (Azure AD) instance, and Microsoft Exchange and Microsoft Teams.
+- Access to your Active Directory or Microsoft Entra instance, and Microsoft Exchange and Microsoft Teams.
 
-- Access to HTTP ports 80 and 443.
+- Open ports HTTP (port 80) and HTTPS (port 443). To see the destinations when you are configuring the firewall rules, please see  the
+Skype for Business Online and Microsoft Teams table in [Microsoft 365 and Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges)
+for those destinations. 
 
-- TCP and UDP ports configured as described in [Port and protocol requirements for servers](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) for on-premises Skype for Business Server implementations, or [Microsoft 365 and Office 365 URLs and IP address ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) for Microsoft Teams.
+- TCP and UDP ports configured as described in [Microsoft 365 and Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges) for Microsoft Teams.
 
 If your network runs through a proxy, you need the proxy address or script information as well.
     
@@ -58,19 +60,16 @@ If your network runs through a proxy, you need the proxy address or script infor
 
 > [!NOTE]
 > Software updates for Microsoft Teams Rooms are automatically downloaded from the Microsoft Store for Business. See [Prerequisites for Microsoft Store for Business and Education](/microsoft-store/prerequisites-microsoft-store-for-business) to verify that the room console will be able to access the store and self-update.
-  
+
 ### Certificates
 
-Your Microsoft Teams Rooms device uses certificates for Exchange Web Services, Microsoft Teams or Skype for Business, network usage, and authentication. If the related servers use public certificates, which is the case for online and some on-premises deployments, there should be no further action required on the part of the admin to install certificates. If, on the other hand, the certificate authority is a private CA then the device needs to trust that CA. This means having the CA + CA chain certificates installed on the device. Adding the device to the domain may perform this task automatically.
-  
+Your Microsoft Teams Rooms device uses certificates for Exchange Web Services, Microsoft Teams, network usage, and authentication. If the related servers use public certificates, which is the case for online and some on-premises deployments, there should be no further action required on the part of the admin to install certificates. If, on the other hand, the certificate authority is a private CA then the device needs to trust that CA. This means having the CA + CA chain certificates installed on the device. Adding the device to the domain may perform this task automatically.
+
 You'll install certificates the same way you would for any other Windows client.
 
 > [!IMPORTANT]
 > If your proxy server utilizes internally signed certificates, you must install the internal certificate chain, including the root CA, on the Microsoft Teams Rooms device.
-  
-> [!NOTE]
-> Certificates may be required in order to have Microsoft Teams Rooms use Skype for Business Server.
-  
+
 ### Proxy
 
 Microsoft Teams Rooms is designed to inherit Proxy settings from the Windows OS. Access the Windows OS in the following manner:
@@ -115,11 +114,11 @@ See the [Network Security](security.md#network-security) article for full detail
   
 ### Admin group management
 
-If you choose to join a domain (Azure Active Directory or Active Directory), you can use Microsoft Endpoint Manager, Group Policy, or Local Computer Management to set a Security Group as local administrator just like you would for a Windows PC in your domain. Anyone who is a member of that security group can enter their credentials and unlock Settings.
+If you choose to join a domain (Microsoft Entra ID or Active Directory), you can use Microsoft Endpoint Manager, Group Policy, or Local Computer Management to set a Security Group as local administrator just like you would for a Windows PC in your domain. Anyone who is a member of that security group can enter their credentials and unlock Settings.
   
 > [!NOTE]
 > If your Microsoft Teams Rooms device loses trust with the domain (for example, if you remove the Microsoft Teams Rooms from the domain after it is domain joined), you won't be able to authenticate into the device and open up Settings. The workaround is to log in with the local Admin account. 
-  
+
 ## Local accounts
 
 ### Microsoft Teams Rooms Local User Account
@@ -132,8 +131,15 @@ Microsoft Teams Rooms default password is set to "sfb". The Password can be chan
   
 > [!CAUTION]
 > Be sure to change the Microsoft Teams Rooms password as soon as possible. 
-  
+
 The Local admin password isn't included as a choice during Setup.
+
+Use Windows Local Administrative Password Solution (LAPS) to enhance security and manage local administrator passwords for Microsoft Teams Rooms devices.
+It automatically generates and backs up the passwords to Entra and allows authorized users to retrieve them when needed. LAPS also prevents password reuse and simplifies password rotation.
+For more information, see:
+- [Windows LAPS documentation](/windows-server/identity/laps/laps-overview)
+- [Manage Windows LAPS with Microsoft Intune policies](/mem/intune/protect/windows-laps-overview)
+- [Windows Local Administrator Password Solution in Microsoft Entra ID](/entra/identity/devices/howto-manage-local-admin-passwords)
 
 You can read more about the Admin account in the [Microsoft Teams Rooms security](security.md) article.
   

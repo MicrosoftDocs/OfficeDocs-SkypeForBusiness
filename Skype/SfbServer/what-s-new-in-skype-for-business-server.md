@@ -167,4 +167,4 @@ The Skype for Business multi-factor authentication experience is seamless regard
   
 - Geographic Location - Whether the user is signing in from inside or outside the organization 
 - Client/Device Type - Which Skype for Business client is used and which device the client is running on (PC, mobile, iPad, etc.)
-- Account Location - Whether the user is hosted in an on-premises Active Directory or in Azure Active Directory Online.
+- Account Location - Whether the user is hosted in an on-premises Active Directory or in Microsoft Entra Online.

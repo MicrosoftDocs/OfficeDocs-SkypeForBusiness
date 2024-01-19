@@ -1,12 +1,12 @@
 ---
 title: "Step 6 - Configure meeting policies"
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 f1.keywords:
 - Teams hybrid
 - remote work
 - Teams meetings
-manager: serdars
+manager: pamgreen
 ms.date: 07/08/2022
 audience: ITPro
 description: Define meeting policies to control what meeting organizers and participants can do in a meeting.

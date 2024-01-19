@@ -3,7 +3,7 @@ ms.date: 08/22/2019
 title: Emergency call routing for Calling Plans
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: roykuntz
 ms.topic: article
 ms.tgt.pltfrm: cloud

@@ -2,7 +2,7 @@
 title: Configure Local Media Optimization for Direct Routing
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.date: 04/07/2020
 ms.topic: article
 ms.service: msteams

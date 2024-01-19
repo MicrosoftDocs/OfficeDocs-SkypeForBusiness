@@ -1,10 +1,10 @@
 ---
 title:  Install and prerequisites for the Microsoft new Teams for the Mac
-ms.author: jhendr
-author: JoanneHendrickson
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.topic: article
-ms.date: 08/31/2023
+ms.date: 10/02/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -44,11 +44,16 @@ The new Teams ensures more efficient use of device resources. Whether you have u
 
 ### Minimum Mac and Teams versions 
 
-- You must be running macOS Big Sur (11) or higher, including macOS Monterey (12) and macOS Ventura (13). 
+- You must be running on macOS Monterey (12) or higher. 
 
-- To see the “Try the new Teams” toggle, your current Teams app must be running version 1.6.00.12303 or higher. If you are at a lower version, select on the overflow menu (…) and select on check for updates, update, and restart your app. If you still don't see the App Switcher, please Report a Problem.  
+- To see the “Try the new Teams” toggle, your current Teams app must be running version 1.6.00.12303 or higher. If you are at a lower version, select on the overflow menu (…) and select **>**Check for updates >Update**, and restart your app. If you still don't see the App Switcher, please Report a Problem.  
 
 - To install the new Teams client, the user needs admin privileges for their computer. If the user doesn't have admin privileges, admins can user their MDM (or whatever other way they deploy and install software on devices without admin privileges) and use this [**PKG**](https://statics.teams.cdn.office.net/production-osx/enterprise/webview2/lkg/MicrosoftTeams.pkg).  
+
+>[!Note]
+> Only **Microsoft Autoupdate** can be used to update new Teams. 
+>Learn more: [**Update Office for Mac automatically**](/office/update-office-for-mac-automatically-bfd1e497-c24d-4754-92ab-910a4074d7c1)
+
 
 
 ### Turn ON System Notification 

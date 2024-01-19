@@ -4,7 +4,7 @@ ms.reviewer: filippse
 ms.date: 06/27/2018
 ms.author: crowe
 author: CarolynRowe
-manager: serdars
+manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: msteams

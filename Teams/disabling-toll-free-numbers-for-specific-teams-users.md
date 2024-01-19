@@ -1,8 +1,8 @@
 ---
 title: "Disabling toll-free numbers for specific Teams users"
-ms.author: heidip
-author: MicrosoftHeidi
-manager: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 02/21/2018
 ms.topic: article

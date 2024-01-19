@@ -1,8 +1,8 @@
 ---
 title: "Audio Conferencing pay-per-minute"
-ms.author: heidip
-author: MicrosoftHeidi
-manager: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 ms.reviewer: mikedav, oscarr
 ms.date: 11/28/2017
 ms.topic: conceptual

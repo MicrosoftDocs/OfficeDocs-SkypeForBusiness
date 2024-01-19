@@ -2,7 +2,7 @@
 title: Direct Routing SBA
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.date: 12/08/2020
 ms.topic: article
 ms.service: msteams
@@ -77,7 +77,7 @@ For the SBA feature to work, the Teams client needs to know which SBAs are avail
 1. Create the SBAs.
 2. Create the Teams branch survivability policy.
 3. Assign the policy to users.
-4. Register an application for the SBA with Azure Active Directory.
+4. Register an application for the SBA with Microsoft Entra ID.
 
 All configuration is done by using Teams PowerShell cmdlets. (The Teams admin center does not yet support the Direct Routing SBA feature.) 
 
@@ -152,13 +152,15 @@ You can remove a policy from a user by granting the $Null policy as shown in the
 C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity user@contoso.com 
 ```
 
-### Register an application for the SBA with Azure Active Directory
+<a name='register-an-application-for-the-sba-with-azure-active-directory'></a>
 
-To allow different SBAs used within your tenant to read required data from Microsoft 365, you need to register an application for the SBA with Azure Active Directory. 
+### Register an application for the SBA with Microsoft Entra ID
+
+To allow different SBAs used within your tenant to read required data from Microsoft 365, you need to register an application for the SBA with Microsoft Entra ID. 
 
 For more information about application registration, see the following:
 
-- [Develop line-of-business apps for Azure Active Directory](/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
+- [Develop line-of-business apps for Microsoft Entra ID](/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
 
 - [Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app).  
 
@@ -212,7 +214,7 @@ Report any issues to your SBC vendor's support organization. When reporting the 
 
 - When you assign a Survivable Branch Appliance policy to a user, it might take some time before the SBA is shown in the output of Get-CsOnlineUser. 
 
-- Reverse number lookup against Azure AD Contacts is not performed. 
+- Reverse number lookup against Microsoft Entra ID Contacts is not performed. 
 
 - The SBA does not support call forwarding settings. 
 

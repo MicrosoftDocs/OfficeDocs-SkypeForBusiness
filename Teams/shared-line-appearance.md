@@ -2,7 +2,7 @@
 title: "Shared line appearance in Microsoft Teams"
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.date: 02/19/2019
 ms.reviewer: jenstr
 ms.topic: conceptual
@@ -42,7 +42,7 @@ When a delegate makes an outbound PSTN call on behalf of a delegator, the delega
 Managers and delegates must have a Teams Phone license. Managers must have a phone number assigned, PSTN connectivity, and a required license for PSTN connectivity: Calling Plan, Operator Connect, or Direct Routing. The shared line experience is part of delegation and is included with Teams Phone. For more information on licensing, see [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
 
 > [!NOTE]
-> A delegate without a phone number assigned must be EnterpriseVoiceEnabled using the Teams PowerShell cmdlet Set-CsPhoneNumberAssignment -Identity <user> -EnterpriseVoiceEnabled $true, see [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment).
+> A delegate without a phone number assigned must be EnterpriseVoiceEnabled using the Teams PowerShell cmdlet Set-CsPhoneNumberAssignment -Identity \<user\> -EnterpriseVoiceEnabled $true, see [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment).
 
 ## Shared line appearance feature availability
 
@@ -62,22 +62,23 @@ Shared line appearance is currently supported by the following apps and devices.
 ## Limitations
 
 Managers can add up to 25 delegates, and delegates can have up to 25 managers. There's no limit to the number of delegation relationships that can be created in a tenant.
- 
+
 If the delegator and delegate aren't in the same geographic location, the PSTN provider must allow caller ID to show up from a different geographic location for a delegated call.
 
 Circular delegation configuration isn't permitted. If the delegated users also have delegations between them, they'll only be able to see their delegation and not the initial delegation.
 
 ## Enable delegation and shared line appearance
 
-You enable delegation by using the **TeamsCallingPolicy AllowDelegation** setting. You can use Teams admin center or Teams PowerShell. 
-When enabled, the end user can configure their delegation relationships directly in Teams. 
+You enable delegation by using the **TeamsCallingPolicy AllowDelegation** setting. You can use Teams admin center or Teams PowerShell.
+
+When enabled, the end user can configure their delegation relationships directly in Teams.
 
 > [!IMPORTANT]
 > When you turn off delegation for a user, you also need to clean up delegation relationships for that user in the Teams admin center to avoid incorrect call routing.
 
 ## Use Teams admin center
 
-To configure delegation and shared line appearance by using Teams admin center, see [Configure call settings for your users](/MicrosoftTeams/user-call-settings).
+To configure delegation and shared line appearance by using Teams admin center, see [Configure call forwarding and delegation settings](/MicrosoftTeams/user-call-settings).
 
 ## Use PowerShell
 
@@ -110,7 +111,7 @@ In the next example, user2@contoso.com is removed as a delegate of user1@contoso
 ```powershell
 Remove-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.com
 ```
- 
+
 ## More information
 
 [Share a phone line with a delegate](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)

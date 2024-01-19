@@ -4,13 +4,14 @@ ms.reviewer:
 ms.date: 06/04/2018
 ms.author: crowe
 author: CarolynRowe
-manager: serdars
+manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 ms.custom:
   - has-azure-ad-ps-ref
+  - azure-ad-ref-level-one-done
 search.appverid: MET150
 ms.collection: 
   - M365-voice
@@ -41,7 +42,7 @@ The following table shows the end-state for a user provisioned for the selected 
 |---|---|---|---|---|
 |Client|Skype for Business or Teams |Skype for Business |Skype for Business |Teams|
 |Licenses|Skype Business Online</br>Plan 2</br></br>(MCOProfessional or MCOSTANDARD)</br></br></br>Teams Phone (MCOEV)</br></br></br>Calling Plans</br>Teams|Skype Business Online Plan 2 (MCOProfessional or MCOSTANDARD)</br></br></br>Teams Phone (MCOEV)|Skype Business Online Plan 2 (MCOProfessional or MCOSTANDARD)</br></br></br>Teams Phone (MCOEV)|Skype Business Online Plan 2 (MCOProfessional or MCOSTANDARD)</br></br></br>Teams Phone (MCOEV)</br></br>Teams|
-OnPremLineURI |N/A|The phone number  must be synced from the on-premises AD. |The phone number can be managed either in on-premises Active Directory or in Azure Active Directory.|The phone number can be managed either in on-premises Active Directory or in Azure Active Directory. However, if the organization has on-premises Skype for Business, the number must be synced from the on-premises Active Directory.|
+OnPremLineURI |N/A|The phone number  must be synced from the on-premises AD. |The phone number can be managed either in on-premises Active Directory or in Microsoft Entra ID.|The phone number can be managed either in on-premises Active Directory or in Microsoft Entra ID. However, if the organization has on-premises Skype for Business, the number must be synced from the on-premises Active Directory.|
 |LineURI|PSTN Calling phone number|Set automatically from the OnPremLineURI parameter|Set automatically from the OnPremLineURI parameter|Set automatically from the OnPremLineURI parameter|
 |EnterpriseVoiceEnabled|True|True|True|True|
 |HostedVoiceMail |True|True|True|True|
@@ -74,8 +75,8 @@ It's recommended that you remove previously configured licensing plan informatio
 $companyname = “contoso” 
 $lic1 = $companyname + “:MCOPSTN1” 
 $lic2 = $companyname + “:MCOPSTN2” 
-Set-MsolUserLicense -UserPrincipalName <UPN> -RemoveLicenses $lic1 
-Set-MsolUserLicense -UserPrincipalName <UPN> -RemoveLicenses $lic2 
+Set-MgUserLicense -UserId '11111111-0000-aaaa-bbbb-222222222222' -RemoveLicenses @($lic1) 
+Set-MgUserLicense -UserId '11111111-0000-aaaa-bbbb-222222222222' -RemoveLicenses @($lic2) 
 ```
 
 ## Migrating from Office 365 Teams Phone with on-premises PSTN connectivity in Skype for Business Server

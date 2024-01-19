@@ -1,13 +1,13 @@
 ---
 title: Microsoft Teams Devices Monitoring and Alerting
-author: tonysmit
+author: mstonysmith
 ms.author: tonysmit
-manager: serdars
+manager: pamgreen
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: vapati
-ms.date: 03/15/2021
+ms.date: 10/10/2023
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -23,7 +23,7 @@ ms.custom:
 
 Device health monitoring in the Microsoft Teams admin center gives you an ability to proactively monitor the health of various Teams devices. Monitor the offline state of a device and receive alerts in real time if the monitored device in your organization goes offline.  
 
-Before you start, you'll need the teams/channel creation permissions in your tenant. [Learn More](/microsoft-365/solutions/manage-creation-of-groups?view=o365-worldwide).
+Before you start, you'll need the teams/channel creation permissions in your tenant. [Learn More](/microsoft-365/solutions/manage-creation-of-groups).
 
 ## Configure device state rule
 
@@ -49,10 +49,52 @@ Before you start, you'll need the teams/channel creation permissions in your ten
 |**Actions** > **Channel alert**   |In the Actions section, you can specify teams channels you want to get alerts for. Currently, a default team named **Admin Alerts and Notifications** and channel named **MonitoringAlerts** will be created where notifications will be delivered to. <BR/> <BR/> Global administrators and Teams administrators in your tenant will be automatically added to this default team.|
 |**Actions** > **Webhook**   |You can also get notifications with an external webhook (optional). Specify an external public webhook URL in the webhook section where a JSON notification payload will be sent. <BR/> <BR/>  The notification payload, via webhooks, can be integrated with other systems in your organization to create custom workflows.<br/><br/> 
 
-**JSON payload schema for webhook:** <BR/><BR/>
-<pre lang="json">{ <br/>    "type": "object",<br>    "properties": { <br/>      "AlertTitle": { "type": "string"} ,<br/>      "DeviceLoggedInUserId": { "type": "string" } ,<br/>      "DeviceId": { "type": "string" } , <br/>      "MetricValues": { <br/>            "type": "object",<br/>            "properties": { <br/>                 "DeviceHealthStatus": { "type": "string"} <br/>            } <br/>       } ,<br/>       "RuleName": { "type": "string"} ,<br/>       "RuleDescription": { "type": "string"} ,<br/>       "RuleFrequency": { "type": "string"} ,<br/>       "RuleType": { "type": "string"} ,<br/>       "TenantId": { "type": "string"} , <br/>       "RuleCondition": { "type": "string"} , <br/>       "AlertRaisedAt": { "type": "string"} <br/>    } <br/>} </pre> <br/> 
+**JSON payload schema for webhook:**
 
-  **Sample JSON payload**:<br/> <br/> <pre lang="JSON">    { <br/>      "AlertTitle":"*sample_device_name* of *User_Name* has become offline",<br/>      "DeviceLoggedInUserId": *User_GUID* ,<br/>      "DeviceId": *Device_GUID* , <br/>      "MetricValues": { <br/>         "DeviceHealthStatus": "offline" <br/>            }, <br/>        <br/>       "RuleName": "Device state rule" ,<br/>       "RuleDescription": "Alerts when device health status is detected as offline" ,<br/>       "RuleFrequency": "Real-time" ,<br/>       "RuleType": "Device Management" ,<br/>       "TenantId": *Tenant_GUID* , <br/>       "RuleCondition": "DeviceHealthStatus = Offline" , <br/>       "AlertRaisedAt": "2020-02-28T12:49:06Z" <br/>    }  </pre> <br/> 
+```json
+{ 
+    "type": "object",
+    "properties": { 
+      "AlertTitle": { "type": "string"} ,
+      "DeviceLoggedInUserId": { "type": "string" } ,
+      "DeviceId": { "type": "string" } , 
+      "MetricValues": {
+            "type": "object",
+            "properties": {
+                 "DeviceHealthStatus": { "type": "string"} 
+             }
+        } ,
+        "RuleName": { "type": "string"} ,
+        "RuleDescription": { "type": "string"} ,
+        "RuleFrequency": { "type": "string"} ,
+        "RuleType": { "type": "string"} ,
+        "TenantId": { "type": "string"} , 
+        "RuleCondition": { "type": "string"} , 
+        "AlertRaisedAt": { "type": "string"} 
+     }
+} 
+``` 
+
+**Sample JSON payload**:
+
+```json
+{
+    "AlertTitle":"sample_device_name of User_Name has become offline",
+    "DeviceLoggedInUserId": User_GUID ,
+    "DeviceId": Device_GUID ,  
+    "MetricValues": { 
+       "DeviceHealthStatus": "offline" 
+           },
+
+    "RuleName": "Device state rule" ,
+    "RuleDescription": "Alerts when device health status is detected as offline" ,
+    "RuleFrequency": "Real-time" ,
+    "RuleType": "Device Management" ,
+    "TenantId": Tenant_GUID , 
+    "RuleCondition": "DeviceHealthStatus = Offline" , 
+    "AlertRaisedAt": "2020-02-28T12:49:06Z" 
+ }
+```
 
 ## Select devices for configuration
 
@@ -60,7 +102,7 @@ Before you start, you'll need the teams/channel creation permissions in your ten
 
 2. Select one or more users for which you want to monitor device health state
 
-   ![add user in device health status rule.](../media/select-device-users.png )
+   ![add user in device health status rule.](../media/select-device-users.png)
 
    The selected list of users shows in **Device users** section. You can modify this list by adding or removing users.
 

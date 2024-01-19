@@ -1,8 +1,8 @@
 ---
 title: Microsoft Teams Rooms Pro Management update management
-author: altsou
-ms.author: altsou
-manager: serdars
+author: mstonysmith
+ms.author: tonysmit
+manager: pamgreen
 ms.reviewer: 
 ms.date: 10/27/2021
 ms.topic: article

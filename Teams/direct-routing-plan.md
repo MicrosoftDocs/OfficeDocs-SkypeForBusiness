@@ -2,7 +2,7 @@
 title: "Plan Direct Routing"
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 audience: ITPro
 ms.reviewer: filippse
 ms.date: 07/31/2023
@@ -49,7 +49,7 @@ For more information about voice solutions, see [Plan your Teams voice solution]
 
 With Direct Routing, when users participate in a scheduled conference, the dial-in number is provided by the Microsoft Audio Conferencing service, which requires proper licensing. When dialing out, Audio Conferencing places the call using online calling capabilities, which requires proper licensing. If a user doesn't have a Microsoft Audio Conferencing license, the call routes through Direct Routing. For more information, see [Audio Conferencing requirements and considerations](#audio-conferencing-requirements-and-considerations).
 
-Direct Routing also supports users who have another license for Microsoft Calling Plan. For more information, see [Calling Plan considerations](#microsoft-calling-plan-considerations). 
+Direct Routing also supports users who have another license for Microsoft Calling Plan. For more information, see [Direct Routing with Calling Plan and Operator Connect](#direct-routing-with-calling-plans-and-operator-connect). 
 
 ## Infrastructure requirements
 
@@ -83,7 +83,7 @@ Direct Routing users must have the following licenses assigned in Microsoft 365:
 > [!NOTE]
 > Skype for Business Plan should not be removed from any licensing agreement where it is included. 
 
-Direct Routing also supports users who are licensed for Microsoft Calling Plan. For more information, see [Microsoft Calling Plan considerations](#microsoft-calling-plan-considerations).
+Direct Routing also supports users who are licensed for Microsoft Calling Plan. For more information, see [Direct Routing with Calling Plan and Operator Connect](#direct-routing-with-calling-plans-and-operator-connect).
 
 ### Audio Conferencing requirements and considerations
 
@@ -111,11 +111,11 @@ You must ensure the following:
 
 
 
-### Microsoft Calling Plan considerations
+### Direct Routing with Calling Plans and Operator Connect
 
-Direct Routing also supports users who are licensed for Microsoft Calling Plan. Teams Phone with Calling Plan can route some calls using the Direct Routing interface. However, the users' phone numbers must be either acquired online or ported to Microsoft.  
+Direct Routing also supports users who are licensed for Microsoft Calling Plan or assigned an Operator Connect phone number. Teams Phone with Calling Plan or Operator Connect enabled users can route some calls using the Direct Routing interface. 
 
-Mixing Calling Plan and Direct Routing connectivity for the same user is optional, but could be useful. For example, when the user is assigned a Microsoft Calling Plan but wants to route some calls using the SBC. One of the most common scenarios is calls to third-party PBXs.  With third-party PBXs, all calls, except calls to the phones connected to that PBX, are routed using Microsoft Calling Plan. Calls to the phones connected to third-party PBXs go to the SBC, and therefore stay within the enterprise network and not the PSTN.
+Mixing Calling Plan or Operator Connect and Direct Routing connectivity for the same user is optional, but could be useful. For example, when the user is assigned a Microsoft Calling Plan or Operator Connect number but wants to route some calls using the SBC. One of the most common scenarios is calls to third-party PBXs. With this configuration, calls to the phones connected to the third-party PBX are routed using Direct Routing and therefore stay within the enterprise network, not traversing the PSTN. Meanwhile, all other calls are routed to the PSTN based on the users’ assigned PSTN connectivity method: Microsoft Calling Plan or Operator Connect.
 
 For more information about Teams Phone licensing, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
@@ -165,7 +165,7 @@ Alternatively, Direct Routing supports a wildcard in the CN and/or SAN, and the 
 
 An example would be using \*.contoso.com, which would match the SBC FQDN sbc.contoso.com, but wouldn't match with sbc.test.contoso.com.
 
-Direct Routing SIP interface will only trust certificates that are signed by Certificate Authorities (CAs) that are part of the Microsoft Trusted Root Certificate Program. Make sure that a CA that is part of the program signs your SBC certificate. Also make sure that the Extended Key Usage (EKU) extension of your certificate includes Server Authentication.
+Direct Routing SIP interface will only trust certificates that are signed by Certificate Authorities (CAs) that are part of the Microsoft Trusted Root Certificate Program. Make sure that a CA that is part of the program signs your SBC certificate. Also make sure that the Extended Key Usage (EKU) extension of your certificate includes Server Authentication and Client Authentication.
 
 For more information, see
 [Program Requirements - Microsoft Trusted Root Program](/security/trusted-root/program-requirements) and [Included CA Certificate List](https://ccadb-public.secure.force.com/microsoft/IncludedCACertificateReportForMSFT).

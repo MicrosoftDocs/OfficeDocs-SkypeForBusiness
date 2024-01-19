@@ -8,7 +8,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
-ms.date: 06/27/2023
+ms.date: 10/17/2023
+ms.reviewer: mhayrapetyan
 ms.collection: 
 - M365-collaboration
 appliesto: 

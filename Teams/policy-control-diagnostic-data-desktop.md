@@ -1,8 +1,8 @@
 ---
 title: Required desktop client diagnostic data for Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
+ms.author: danbrown
+author: DHB-MSFT
+manager: laurawi
 ms.topic: reference
 ms.service: msteams
 audience: admin
@@ -35,22 +35,22 @@ For more information about diagnostic data, including how to control what diagno
 > For information on the properties of Logging events, see [Properties sent with logging events](#properties-sent-with-logging-events).
 
 - **adal-anonymous-mac.ts:this.logger.logError** - Records that a generic sso error occurred when logging in anonymously on a Mac device.
-- **adalAnonymousUtil.ts:loggingService.getInstance** - Records error statement logging that the app could not launch anonymous user authentication.
+- **adalAnonymousUtil.ts:loggingService.getInstance** - Records error statement logging that the app couldn't launch anonymous user authentication.
 - **adal-anonymous-windows.ts:this.logger.logError** - Records that a generic sso error occurred when logging in anonymously on a windows device.
 - **adalBase.ts:this.loggingService.logError** - Records information needed to determine that the user profile is null or empty.
 - **adal-impl-mac.ts:this.loggingService.logError** - Records the occurrence of an issue when parsing telemetry received during authentication or generic sso error occurred when logging in on a Mac device.
 - **adal-rigel-windows.ts:this.logger.logError** - General logging statement indicating a generic sso error occurred when logging in on our Meeting room device.
 - **adal-sso-windows.ts:this.loggingService.logError** - Records that a generic sso error occurred when logging in on a Windows device, errors in initiating the chat service or log in failure information.
-- **appOnlineService.ts:loggingService.getInstance** - Records the occurrence of an error due to settings that could not be parsed during startup or with downloading pre-user authentication, pre-authorized settings.
-- **appStart.ts:loggingService.logError** - Records the occurrence of an error when the application could not launch, disk space error, valid certificate error or failed to find the correct certificate, and restarting the app.
-- **browserWindowHttp.ts:this.loggingService.logError** - Records information to indicate that the application could not be updated due to issues with the file system.
+- **appOnlineService.ts:loggingService.getInstance** - Records the occurrence of an error due to settings that couldn't be parsed during startup or with downloading pre-user authentication, pre-authorized settings.
+- **appStart.ts:loggingService.logError** - Records the occurrence of an error when the application couldn't launch, disk space error, valid certificate error or failed to find the correct certificate, and restarting the app.
+- **browserWindowHttp.ts:this.loggingService.logError** - Records information to indicate that the application couldn't be updated due to issues with the file system.
 - **contextInstallService.ts:loggingService.getInstance** - Records the occurrence of an error when:
   - attempting to parse or read a file or resolve a URL critical to the contextual install feature.
   - the URL shortener attempts to run the contextual install feature.
 - **crashManager.ts:loggingService.logError** - Records information to determine the cause of an error when the application crashes.
-- **localStorageService.ts:loggingService.getInstance** - Records the occurrence of an error when essential boot data does not load properly to run the application.
+- **localStorageService.ts:loggingService.getInstance** - Records the occurrence of an error when essential boot data doesn't load properly to run the application.
 - **logProviders\pageDumpProvider.ts:loggingService.getInstance** - Records error information when the application crashes.
-- **multiWindowManager.ts:this.logError** - Records the occurrence of an error when essential boot data does not load properly to run the application.
+- **multiWindowManager.ts:this.logError** - Records the occurrence of an error when essential boot data doesn't load properly to run the application.
 - **nativeElectronNotifications\osNotificationService.ts:this.loggingService.logError** - This event records the occurrence of an error when attempting to launch a notification about a failure.
 - **OutlookMeetingAddinHelper.ts:loggingService.getInstance** - Records the occurrence of an error when attempting to connect to a meeting using the Outlook meeting addin.
 - **recoveryManager.ts:loggingService.getInstance** - Records the occurrence of an error during update rollbacks.
@@ -61,7 +61,7 @@ For more information about diagnostic data, including how to control what diagno
 - **utility.ts:loggingService.logError** - Records an error accessing a local file (a file in the application).
 - **utility.ts:loggingService.getInstance** - Records an error in  available diskspace, display issues, url issues, cookie issues, protocols, or regkey issues on machine to load the application.
 - **windowmanager.js:this._loggingService.logError** - Records the occurrence of cookie issues, whitescreen issues, issues between desktop and shell communication, url issues,errors with loading page messages, errors with process rendering, and network connectivity issues.
-- **windowmanager.js:loggingService.getInstance** - Records information to indicate when the recovery window cannot br shown.
+- **windowmanager.js:loggingService.getInstance** - Records information to indicate when the recovery window can't be shown.
 
 ### Outlook addin
 
@@ -79,8 +79,8 @@ For more information about diagnostic data, including how to control what diagno
 > [!NOTE]
 > For information on the properties of Scenario events, see [Properties sent with scenario events](#properties-sent-with-scenario-events).
 
-- **desktop_app_load** - Records information needed to determine that the desktop application has launched, that the service should be initialized, and that it is able to be initialized.
-- **desktop_app_not_ready** - Records information needed to determine that the desktop application is not ready to function.
+- **desktop_app_load** - Records information needed to determine that the desktop application has launched, that the service should be initialized, and that it's able to be initialized.
+- **desktop_app_not_ready** - Records information needed to determine that the desktop application isn't ready to function.
 - **desktop_install** - Records information needed to determine that the desktop application has been installed successfully, or that it failed to install.
 - **desktop_previous_lifecycle_invalid** - Records information needed to determine that the desktop application restarted after it had been previously been running and then crashed.
 
@@ -89,18 +89,18 @@ For more information about diagnostic data, including how to control what diagno
 > [!NOTE]
 > For information on the properties of Tracking events, see [Properties sent with tracking events](#properties-sent-with-tracking-events).
 
-- **deeplink_scenario_missing** - Teams was launched from a deeplink, but the telemetry/diagnostic is not present.
+- **deeplink_scenario_missing** - Teams was launched from a deeplink, but the telemetry/diagnostic isn't present.
 - **desktop_app_initialized** - Records information needed to determine if the application has successfully started when the desktop application is initialized.
 - **desktop_app_quit_exception** - The application crashed while attempting to close.
 - **desktop_blankScreenDetected** - Records information needed to determine errors when the desktop application renders a blank screen.
 - **desktop_blankScreenDetectedAfterRepaint** - Detected that page was blank upon detecting rendering attempt.
-- **desktop_blankScreenRecoveredAfterRepaint** - Recovered from a rendering issue where the screen was not rendered earlier.
+- **desktop_blankScreenRecoveredAfterRepaint** - Recovered from a rendering issue where the screen wasn't rendered earlier.
 - **desktop_configuration_failed_to_save** - Collects information needed to determine configuration errors when desktop settings have failed to save.
 - **desktop_navigation_error_recovery** - Collects information needed to determine desktop navigation errors when a page fails to load after five attempts.
 - **desktop_previous_gpu_crashed** - Records information needed to determine graphics processing unit errors when the desktop crashes.
 - **desktop_previous_plugin_host_crashed** - Collects information need to determine media stack issues associated with desktop application crashes.
 - **desktop_recovery_cleared_user_data** - Records application crashed multiple times, and app had to clear local cache to recover.
-- **desktop_settings_blank_on_load** - This is an error that the applications settings are not present.
+- **desktop_settings_blank_on_load** - This is an error that the applications settings aren't present.
 - **desktop_settings_failed_to_load** - Collects information needed to determine cause when desktop settings fail to load.
 - **desktop_silent_restart** - Client update is staged and client is updated without user disruption.
 - **desktop_terminated** - Records information needed to determine whether the inter-process communication has been disconnected when the user closes the desktop application.
@@ -108,8 +108,8 @@ For more information about diagnostic data, including how to control what diagno
 - **desktop_write_storage_failed** - Records information needed to determine disk errors when the desktop application fails to write to storage.
 - **registration_failed** - Records information needed to resolve add-in registration failures.
 - **registration_success** - Records information needed to determine whether add-in registrations where successful.
-- **security_unsupported_ipc_channel** - Interprocess message that was not permitted was inbound.
-- **sfb_running_not_connected** - Detected that the Skype for Business app is not running.
+- **security_unsupported_ipc_channel** - Interprocess message that wasn't permitted was inbound.
+- **sfb_running_not_connected** - Detected that the Skype for Business app isn't running.
 - **sfb_not_running** - Records that the 'wait for response' from call to Skype of Business timed out.
 - **sfb_never_replied** - Tracks no API response when communicating with Skype for Business.
 - **server_error_hit** - Tracks that an error from the ipc pipes communicating with Skype for Business.
@@ -394,6 +394,6 @@ For more information about diagnostic data, including how to control what diagno
 | TeamsRing                       | Ring of current user logged into Teams client                            |
 | TeamsVersion                    | Captures version of Teams app                                            |
 | TelemetrySetupCompletedTime     | Time when telemetry setup is completed                                   |
-| UpnMismatch                     | Whether there is a upn mismatch between outlook and teams                  |
+| UpnMismatch                     | Whether there's a upn mismatch between outlook and teams                  |
 | UserDomain                      | Domain of the user                                                       |
 | ViewUpdatedTime                 | Time when the view got updated                                           |
