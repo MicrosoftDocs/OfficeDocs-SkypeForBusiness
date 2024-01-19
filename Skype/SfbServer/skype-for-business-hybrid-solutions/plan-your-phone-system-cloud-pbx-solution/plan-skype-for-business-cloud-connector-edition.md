@@ -48,7 +48,7 @@ For example, assume your company has a sophisticated Call Center with specific f
 
 Cloud Connector provides routing between the users homed on premises and online, and you can choose to use your own PSTN provider with Phone System.
 
-Consider the following when planning your Cloud Connector Edition deployment:
+Consider the following points when planning your Cloud Connector Edition deployment:
 
 - To use Cloud Connector to take advantage of cloud voice solutions, you need to sign up for a Microsoft 365 or Office 365 organization that includes Phone System. If you don't yet have a Microsoft 365 or Office 365 organization, you can learn how to sign up here: [Microsoft 365 for Business](https://products.office.com/business/office). You need to sign up for a plan that includes Skype for Business Online.
 
@@ -99,7 +99,7 @@ This article contains the following sections:
 ## Cloud Connector Edition components
 <a name="BKMK_Components"> </a>
 
-With Cloud Connector Edition, you deploy a set of packaged VMs that contain a minimal Skype for Business Server topology—consisting of an Edge component, Mediation component, and a Central Management Store (CMS) role. You will also install a domain controller, which is required for the internal functioning of Cloud Connector. These services are configured for hybrid with your Microsoft 365 or Office 365 organization that includes Skype for Business Online services.
+With Cloud Connector Edition, you deploy a set of packaged VMs that contain a minimal Skype for Business Server topology—consisting of an Edge component, Mediation component, and a Central Management Store (CMS) role. You install a domain controller, which is required for the internal functioning of Cloud Connector. These services are configured for hybrid with your Microsoft 365 or Office 365 organization that includes Skype for Business Online services.
 
 ![Cloud Connector Edition components.](../../media/f2d4b8a7-c2f4-4cfc-8137-f187399c1298.png)
 
@@ -150,7 +150,7 @@ You can deploy the following Cloud Connector topologies:
 
 - Multiple PSTN sites with multiple Cloud Connector Edition appliances to provide scalability with high availability. You can deploy up to 200 sites.
 
-When planning your topology, consider the following:
+When planning your topology, consider the following points:
 
 - With Cloud Connector 2.0 and later, one PSTN site can have up to 16 Cloud Connector appliances. Previous versions support up to four appliances per site.
 
@@ -228,7 +228,7 @@ Before you deploy Cloud Connector Edition, make sure you have the following for 
 
   - Three 1 Gbps RJ45 high throughput network adapters
 
-- If you choose to deploy the smaller version of Cloud Connector Edition that supports up to 50 simultaneous calls, you will need the following hardware:
+- If you choose to deploy the smaller version of Cloud Connector Edition that supports up to 50 simultaneous calls, you need the following hardware:
 
   - Intel i7 4790 quad core with Intel 4600 Graphics (no high end graphics needed)
 
@@ -242,7 +242,7 @@ Before you deploy Cloud Connector Edition, make sure you have the following for 
 
   - To bypass the proxy, specify WinHTTP Proxy settings set with your proxy server and a Bypass-list including the "192.168.213.\*" network used by your Cloud Connector Managements services and Skype for Business Corpnet subnet as defined in your CloudConnector.ini file. Otherwise, management connectivity will fail and prevent the deployment and auto recovery of Cloud Connector. The following is a sample winhttp configuration command: netsh winhttp set proxy "10.10.10.175:8080" bypass-list="\*.local;1.\*;172.20.\*;192.168.218.\*'\<local\>".
 
-  - Specify proxy settings per machine rather than per user. Otherwise Cloud Connector downloads will fail. You can specify proxy settings per machine with a registry change or with the Group Policy setting as follows:
+  - Specify proxy settings per machine rather than per user. Otherwise Cloud Connector downloads fail. You can specify proxy settings per machine with a registry change or with the Group Policy setting as follows:
 
   - **Registry:** HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings] ProxySettingsPerUser dword: 00000000
 
