@@ -23,7 +23,7 @@ ms.custom:
   - ms.teamsadmincenter.appsetuppolicies.overview
 ---
 
-# Use app setup policies to pin and auto-install apps for users
+# Use app setup policies to pin and autoinstall apps for users
 
 As an admin, you use app setup policies to install and pin apps and control which users can upload custom apps in personal or team context. Pinning helps promote adoption of apps for the users and it provides quick access to the relevant apps. To know more, see [app setup policy](app-policies.md).
 
@@ -91,7 +91,7 @@ Using an app setup policy, an admin can achieve the following tasks:
 * Install apps for the users in their personal Teams environment.
 * Install apps for the users as [messaging extensions](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
 
-The users can install apps on their own if the [app permission policy](teams-app-permission-policies.md) lets them install it and an admin has allowed the app. If an app is blocked, then the users can [request admin approval](user-requests-approve-apps.md).
+The users can install apps on their own if the [app permission policy](teams-app-permission-policies.md) lets them install it and an admin allowed the app. If an app is blocked, then the users can [request admin approval](user-requests-approve-apps.md).
 
 To install apps using an app setup policy, follow these steps:
 
@@ -192,7 +192,7 @@ After you unassign policies, you can review operation details in the [Activity l
 
 * You can't install custom apps with configurable tabs using app setup policies.
 
-* Users can't uninstall an app if an admin has installed it.
+* Users can't uninstall an app if an admin installs it.
 
 * Users can unpin an app that is pinned via app setup policy if user pinning is allowed in the policy.
 
@@ -204,14 +204,14 @@ After you unassign policies, you can review operation details in the [Activity l
 
 * In Teams for Education, the Assignments app is pinned by default in the global policy even though you don't see it listed in the global policy.
 
-* There's no limit on the maximum number of pinned apps you can add to a policy. However, at least two apps must be pinned to the Teams mobile client (iOS and Android). If a policy has fewer than two apps, the mobile client won't reflect the policy settings, and instead will continue to use the existing configuration.
+* There's no limit on the maximum number of pinned apps you can add to a policy. However, at least two apps must be pinned to the Teams mobile client (iOS and Android). If a policy has fewer than two apps, the mobile client won't reflect the policy settings, and instead continues to use the existing configuration.
 
-* After you edit or assign a policy, it can take a few hours for changes to take effect. Also, the rollback takes a few hours to take effect if you choose to rollback the policy application.
+* After you edit or assign a policy, it can take a few hours for changes to take effect. Also, the rollback takes a few hours to take effect if you choose to roll back the policy application.
 
 * Not all apps can be pinned to Teams through an app setup policy. Some apps may not support this functionality. To find apps that can be pinned, search for the app in the **Add pinned apps** pane. Tabs that have a personal scope (static tabs) and bots can be pinned to the Teams desktop client and these apps are available in the **Add pinned apps** pane. While the Teams app store lists all Teams apps, the **Add pinned apps** pane includes only apps that can be pinned to Teams through a policy.
 
-* In Teams for Education, the Calling app isn't available. When you create a new custom policy in the app setup policy, the Calling app is displayed in the list of apps. However, the app isn't pinned to Teams clients and Teams for Education users won't see the Calls app in Teams.
+* In Teams for Education, the Calling app isn't available. When you create a new custom policy in the app setup policy, the Calling app is displayed in the list of apps. However, the app isn't pinned to Teams clients and Teams for Education users don't see the Calls app in Teams.
 
 ## Related article
 
-* [Assign policies to users in Teams](assign-policies-users-and-groups.md)
+* [Assign policies to users in Teams](assign-policies-users-and-groups.md).
