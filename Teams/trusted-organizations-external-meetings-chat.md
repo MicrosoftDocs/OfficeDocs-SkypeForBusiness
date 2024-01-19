@@ -1,5 +1,5 @@
 ---
-title: "IT Admins - Manage external meetings and chat with people and organizations using Microsoft identities"
+title: IT Admins - Manage external meetings and chat with people and organizations using Microsoft identities
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -21,7 +21,7 @@ ms.custom:
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
-description: "For IT admins: Learn how to configure chat and meetings with people outside your organization who use Microsoft Entra ID, Microsoft Teams Essentials, or Skype."
+description: For IT admins - Learn how to configure chat and meetings with people outside your organization who use Microsoft Entra ID, Microsoft Teams Essentials, or Skype.
 ---
 
 # IT Admins - Manage external meetings and chat with people and organizations using Microsoft identities
