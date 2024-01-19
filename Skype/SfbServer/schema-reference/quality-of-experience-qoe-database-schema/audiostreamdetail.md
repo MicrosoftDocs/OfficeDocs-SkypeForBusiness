@@ -28,7 +28,7 @@ The AudioStreamDetail View stores information about each audio stream in the dat
 |EndTime  <br/> |datetime  <br/> |End time of the session.  <br/> |
 |DialogCategory  <br/> |bit  <br/> |Dialog category: 0 is the Skype for Business Server to Mediation Server leg; 1 is the Mediation Server to PSTN gateway leg.  <br/> |
 |MediationServerBypassFlag  <br/> |bit  <br/> |Flag indicating if the call was bypassed or not.  <br/> |
-|MediaBypassWarningFlag  <br/> |int  <br/> |If present, indicates why a call was not bypassed even if the bypass IDs matched. Only one value is defined:  <br/> 0x0001 - Unknown bypass ID for Default network adapter.  <br/> |
+|MediaBypassWarningFlag  <br/> |int  <br/> |If present, indicates why a call wasn't bypassed even if the bypass IDs matched. Only one value is defined:  <br/> 0x0001 - Unknown bypass ID for Default network adapter.  <br/> |
 |CallPriority  <br/> |int  <br/> |Priority of the call.  <br/> |
 |CallerPool  <br/> |nvarchar(256)  <br/> |Caller pool FQDN.  <br/> |
 |CalleePool  <br/> |nvarchar(256)  <br/> |Callee pool FQDN.  <br/> |
@@ -50,26 +50,26 @@ The AudioStreamDetail View stores information about each audio stream in the dat
 |CalleeCPUNumberOfCores  <br/> |smallint  <br/> |Number of CPU cores in the callee's endpoint.  <br/> |
 |CallerCPUProcessorSpeed  <br/> |int  <br/> |CPU processor speed of the caller's endpoint.  <br/> |
 |CalleeCPUProcessorSpeed  <br/> |int  <br/> |CPU processor speed of the callee's endpoint.  <br/> |
-|CallerVirtualizationFlag  <br/> |tinyint  <br/> |Indicates whether the caller's system is running in a virtualized environment. See the [Endpoint table](endpoint.md) for more information. <br/> |
-|CalleeVirtualizationFlag  <br/> |tinyint  <br/> |Indicates whether the callee's system is running in a virtualized environment. See the [Endpoint table](endpoint.md) for more information. <br/> |
+|CallerVirtualizationFlag  <br/> |tinyint  <br/> |Indicates whether the caller's system is running in a virtualized environment. For more information, see the [Endpoint table](endpoint.md). <br/> |
+|CalleeVirtualizationFlag  <br/> |tinyint  <br/> |Indicates whether the callee's system is running in a virtualized environment. For more information, see the [Endpoint table](endpoint.md). <br/> |
 |CorrelationKey  <br/> ||Correlation key. Referenced from the [SessionCorrelation table](sessioncorrelation.md).  <br/> |
-|ConnectivityIce  <br/> |tinyint  <br/> |Information about the media path, such as direct or relayed. See the [MediaLine table](medialine-0.md) for more information. <br/> |
+|ConnectivityIce  <br/> |tinyint  <br/> |Information about the media path, such as direct or relayed. For more information, see the [MediaLine table](medialine-0.md). <br/> |
 |CallerIceWarningFlags  <br/> |int  <br/> |Information about Interactive Connectivity Establishment (ICE) process described in bits flags for the caller. For details, refer to the Quality of Experience Monitoring Server Protocol Specification.  <br/> |
 |CalleeIceWarningFlags  <br/> |int  <br/> |Information about Interactive Connectivity Establishment (ICE) process described in bits flags for the callee. For details, refer to the Quality of Experience Monitoring Server Protocol Specification.  <br/> |
 |Transport  <br/> |tinyint  <br/> |Transport type: 0 is UDP, 1 is TCP.  <br/> |
-|CallerIPAddr  <br/> |var(50)  <br/> |IP address of the caller. This may be either an IPv4 or an IPv6 address.  <br/> |
+|CallerIPAddr  <br/> |var(50)  <br/> |IP address of the caller. This might be either an IPv4 or an IPv6 address.  <br/> |
 |CallerPort  <br/> |int  <br/> |Port used by the caller.  <br/> |
 |CallerInside  <br/> |bit  <br/> |Indicates whether the caller is inside the interval network: 1 means caller is inside the enterprise network, 0 means the caller is outside the network.  <br/> |
-|CalleeIPAddr  <br/> |var(50)  <br/> |IP address of the callee. This may be either an IPv4 or an IPv6 address.  <br/> |
+|CalleeIPAddr  <br/> |var(50)  <br/> |IP address of the callee. This might be either an IPv4 or an IPv6 address.  <br/> |
 |CalleePort  <br/> |int  <br/> |Port used by the callee.  <br/> |
 |CalleeInside  <br/> |bit  <br/> |Indicates whether the callee is inside the interval network: 1 means callee is inside the enterprise network, 0 means the callee is outside the network.  <br/> |
 |CallerUserSite  <br/> |nvarchar(128)  <br/> |Name of the caller's site.  <br/> |
 |CallerRegion  <br/> |nvarchar(128)  <br/> |Name of the country/region of the caller's site.  <br/> |
 |CalleeUserSite  <br/> |nvarchar(128)  <br/> |Name of the callee's site.  <br/> |
 |CalleeRegion  <br/> |nvarchar(128)  <br/> |Name of the country/region of the callee's site.  <br/> |
-|CallerRelayIPAddr  <br/> |var(50)  <br/> |IP Address of the A/V Edge service used by the caller. See the [IPAddress table](ipaddress.md) for more information. <br/> |
+|CallerRelayIPAddr  <br/> |var(50)  <br/> |IP Address of the A/V Edge service used by the caller. For more information, see the [IPAddress table](ipaddress.md). <br/> |
 |CallerRelayPort  <br/> |int  <br/> |Port used on the A/V Edge service used by the caller.  <br/> |
-|CalleeRelayIPAddr  <br/> |var(50)  <br/> |IP Address key of the A/V Edge service used by the callee. See the [IPAddress table](ipaddress.md) for more information. <br/> |
+|CalleeRelayIPAddr  <br/> |var(50)  <br/> |IP Address key of the A/V Edge service used by the callee. For more information, see the [IPAddress table](ipaddress.md). <br/> |
 |CalleeRelayPort  <br/> |int  <br/> |Port used on the A/V Edge service used by the callee.  <br/> |
 |CallerCaptureDev  <br/> |varchar(256)  <br/> |Caller's capture device name.  <br/> |
 |CallerRenderDev  <br/> |varchar(256)  <br/> |Caller's render device name.  <br/> |
@@ -86,7 +86,7 @@ The AudioStreamDetail View stores information about each audio stream in the dat
 |CalleeVPN  <br/> |bit  <br/> |Indicates whether the caller connected over a virtual private network: 1 is virtual private network (VPN), 0 is non-VPN.  <br/> |
 |CalleeLinkSpeed  <br/> |decimal(18,0)  <br/> |Network link speed for the callee's endpoint in bps.  <br/> |
 |ConversationalMOS  <br/> |decimal(3,2)  <br/> |Narrowband Conversational MOS of the audio sessions (based on both audio streams).  <br/> |
-|AppliedBandwidthLimit  <br/> |int  <br/> |Actual bandwidth applied to the given send side stream given various policy settings (TURN, API, SDP, Policy Server, and so on). This is not to be confused with the effective bandwidth because there can be a lower effective bandwidth based on the bandwidth estimate. This is basically the maximum bandwidth the send stream can take barring limits imposed by the bandwidth estimate  <br/> |
+|AppliedBandwidthLimit  <br/> |int  <br/> |Actual bandwidth applied to the given send side stream given various policy settings (TURN, API, SDP, Policy Server, and so on). This isn't to be confused with the effective bandwidth because there can be a lower effective bandwidth based on the bandwidth estimate. This is basically the maximum bandwidth the send stream can take barring limits imposed by the bandwidth estimate  <br/> |
 |JitterInterArrival  <br/> |int  <br/> |Average network jitter from Real Time Control Protocol (RTCP) statistics.  <br/> |
 |JitterInterArrivalMax  <br/> |int  <br/> |Maximum network jitter during the call.  <br/> |
 |PacketLossRate  <br/> |decimal(5,4)  <br/> |Average packet loss rate during the call.  <br/> |
@@ -97,17 +97,17 @@ The AudioStreamDetail View stores information about each audio stream in the dat
 |BurstGapDuration  <br/> |int  <br/> |Average duration of gaps between bursts of packet loss.  <br/> |
 |PacketUtilization  <br/> |int  <br/> |Packet count for the audio stream.  <br/> |
 |BandwidthEst  <br/> |int  <br/> |Bandwidth estimates for the audio stream.  <br/> |
-|DegradationAvg  <br/> |decimal(3,2)  <br/> |Network MOS Degradation for the whole call. Range is 0.0 to 5.0. This metric shows the amount the Network MOS was reduced because of jitter and packet loss. For acceptable quality it should less than 0.5.  <br/> |
+|DegradationAvg  <br/> |decimal(3,2)  <br/> |Network MOS Degradation for the whole call. Range is 0.0 to 5.0. This metric shows the amount the Network MOS was reduced because of jitter and packet loss. For acceptable quality it should be less than 0.5.  <br/> |
 |DegradationMax  <br/> |decimal(3,2)  <br/> |Maximum Network MOS degradation during the call.  <br/> |
 |DegradationJitterAvg  <br/> |decimal(3,2)  <br/> |Network MOS degradation caused by jitter.  <br/> |
 |DegradationPacketLossAvg  <br/> |decimal(3,2)  <br/> |Network MOS degradation caused by packet loss.  <br/> |
 |PayloadDescription  <br/> |int  <br/> |The audio codec used for the call, referenced from the [PayloadDescription table](payloaddescription.md).  <br/> |
 |AudioSampleRate  <br/> |int  <br/> |Sampling rate for the audio stream.  <br/> |
-|CallerSendSignalLevel  <br/> |int  <br/> |Post-Analog Gain Control audio signal level for the audio the caller sent. The unit for this metric is dBmo. For acceptable quality, it should be at least 30 dBmo. This metric is not reported by the A/V Conferencing Server or IP phones.  <br/> |
-|CallerRecvSignalLevel  <br/> |int  <br/> |Audio signal level for the audio the caller received. The unit for this metric is dBmo. For acceptable quality, it should be at least 30 dBmo. This metric is not reported by the A/V Conferencing Server or IP phones.  <br/> |
-|CallerSendNoiseLevel  <br/> |int  <br/> |Post-Analog Gain Control audio noise level for the audio the caller sent. The unit for this metric is dBmo. For acceptable quality, it should be less than 35 dBmo. This metric is not reported by the A/V Conferencing Server or IP phones.  <br/> |
-|CallerRecvNoiseLevel  <br/> |int  <br/> |Post-Analog Gain Control audio noise level for the audio the caller received. The unit for this metric is dBmo. For acceptable quality, it should be less than 35 dBmo. This metric is not reported by the A/V Conferencing Server or IP phones.  <br/> |
-|CallerEchoReturn  <br/> |int  <br/> |Echo Return Loss Enhancement for the caller. The unit for this metric is dB. Lower values represent less echo. This metric is not reported by the A/V Conferencing Server or IP phones.  <br/> |
+|CallerSendSignalLevel  <br/> |int  <br/> |Post-Analog Gain Control audio signal level for the audio caller sent. The unit for this metric is dBmo. For acceptable quality, it should be at least 30 dBmo. This metric isn't reported by the A/V Conferencing Server or IP phones.  <br/> |
+|CallerRecvSignalLevel  <br/> |int  <br/> |Audio signal level for the audio caller received. The unit for this metric is dBmo. For acceptable quality, it should be at least 30 dBmo. This metric isn't reported by the A/V Conferencing Server or IP phones.  <br/> |
+|CallerSendNoiseLevel  <br/> |int  <br/> |Post-Analog Gain Control audio noise level for the audio caller sent. The unit for this metric is dBmo. For acceptable quality, it should be less than 35 dBmo. This metric isn't reported by the A/V Conferencing Server or IP phones.  <br/> |
+|CallerRecvNoiseLevel  <br/> |int  <br/> |Post-Analog Gain Control audio noise level for the audio the caller received. The unit for this metric is dBmo. For acceptable quality, it should be less than 35 dBmo. This metric isn't reported by the A/V Conferencing Server or IP phones.  <br/> |
+|CallerEchoReturn  <br/> |int  <br/> |Echo Return Loss Enhancement for the caller. The unit for this metric is dB. Lower values represent less echo. This metric isn't reported by the A/V Conferencing Server or IP phones.  <br/> |
 |CallerSpeakerGlitchRate  <br/> |int  <br/> |Average glitches per five minutes for the caller's loudspeaker rendering. For good quality, this should be less than one per five minutes. Not reported by A/V Conferencing Servers, Mediation Servers, or IP phones.  <br/> |
 |CallerMicGlitchRate  <br/> |int  <br/> |Average glitches per five minutes for the caller's microphone capture. For good quality this should be less than one per five minutes. Not reported by A/V Conferencing Servers, Mediation Servers, or IP phones.  <br/> |
 |CallerTimestampDriftRateMic  <br/> |decimal(9,2)  <br/> |Caller's microphone device clock drift rate, relative to CPU clock.  <br/> |
@@ -122,11 +122,11 @@ The AudioStreamDetail View stores information about each audio stream in the dat
 |CallerRxAGCNoiseLevel  <br/> |int  <br/> |Received signal level on the Mediation Server from the Gateway for the caller's audio. This applies only to the Mediation Server. The unit of this metric is dBoV. For good quality, the acceptable range should be less than -50 dBoV.  <br/> |
 |CallerRxAGCGain  <br/> |int  <br/> |Automatic gain control (AGC) on the Mediation Server side applied to the caller's audio.  <br/> |
 |CallerInitialSignalLevelRMS  <br/> |float  <br/> |Root mean square (RMS) of the incoming signal to the caller for up to the first 30 seconds of the call.  <br/> |
-|CalleeSendSignalLevel  <br/> |int  <br/> |Represents the Post-Analog Gain Control audio signal level for the audio the callee sent. The unit for this metric is dBmo. For acceptable quality, it should be at least 30 dBmo. This metric is not reported by the A/V Conferencing Server or IP phones.  <br/> |
-|CalleeRecvSignalLevel  <br/> |int  <br/> |Audio signal level for the audio the callee received. The unit for this metric is dBmo. For acceptable quality, it should be at least 30 dBmo. This metric is not reported by the A/V Conferencing Server or IP phones.  <br/> |
-|CalleeSendNoiseLevel  <br/> |int  <br/> |Post-Analog Gain Control audio noise level for the audio the callee sent. The unit for this metric is dBmo. For acceptable quality, it should be less than 35 dBmo. This metric is not reported by the A/V Conferencing Server or IP phones.  <br/> |
-|CalleeRecvNoiseLevel  <br/> |int  <br/> |Post-Analog Gain Control audio noise level for the audio the callee received. The unit for this metric is dBmo. For acceptable quality, it should be less than 35 dBmo. This metric is not reported by the A/V Conferencing Server or IP phones.  <br/> |
-|CalleeEchoReturn  <br/> |int  <br/> |Echo Return Loss Enhancement for the callee. The unit for this metric is dB. Lower values represent less echo. This metric is not reported by the A/V Conferencing Server or IP phones.  <br/> |
+|CalleeSendSignalLevel  <br/> |int  <br/> |Represents the Post-Analog Gain Control audio signal level for the audio the callee sent. The unit for this metric is dBmo. For acceptable quality, it should be at least 30 dBmo. This metric isn't reported by the A/V Conferencing Server or IP phones.  <br/> |
+|CalleeRecvSignalLevel  <br/> |int  <br/> |Audio signal level for the audio callee received. The unit for this metric is dBmo. For acceptable quality, it should be at least 30 dBmo. This metric isn't reported by the A/V Conferencing Server or IP phones.  <br/> |
+|CalleeSendNoiseLevel  <br/> |int  <br/> |Post-Analog Gain Control audio noise level for the audio callee sent. The unit for this metric is dBmo. For acceptable quality, it should be less than 35 dBmo. This metric isn't reported by the A/V Conferencing Server or IP phones.  <br/> |
+|CalleeRecvNoiseLevel  <br/> |int  <br/> |Post-Analog Gain Control audio noise level for the audio the callee received. The unit for this metric is dBmo. For acceptable quality, it should be less than 35 dBmo. This metric isn't reported by the A/V Conferencing Server or IP phones.  <br/> |
+|CalleeEchoReturn  <br/> |int  <br/> |Echo Return Loss Enhancement for the callee. The unit for this metric is dB. Lower values represent less echo. This metric isn't reported by the A/V Conferencing Server or IP phones.  <br/> |
 |CalleeSpeakerGlitchRate  <br/> |int  <br/> |Average glitches per five minutes for the callee's loudspeaker rendering. For good quality, this should be less than one per five minutes. Not reported by A/V Conferencing Servers, Mediation Servers, or IP phones.  <br/> |
 |CalleeMicGlitchRate  <br/> |int  <br/> |Average glitches per five minutes for the callee's microphone capture. For good quality this should be less than one per five minutes. Not reported by A/V Conferencing Servers, Mediation Servers, or IP phones.  <br/> |
 |CalleeTimestampDriftRateMic  <br/> |decimal(9,2)  <br/> |Callee's microphone device clock drift rate, relative to CPU clock.  <br/> |
