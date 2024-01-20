@@ -5,7 +5,7 @@ ms.author: mactra
 manager: jtremper
 ms.reviewer: mikeplum
 ms.topic: overview
-ms.date: 01/17/2024
+ms.date: 01/19/2024
 audience: Admin
 ms.service: msteams
 ms.custom: chat-teams-channels-revamp
@@ -20,33 +20,33 @@ description: Learn how to manage standard channels in Microsoft Teams.
 ---
 # Overview of standard channels in Microsoft Teams
 
-A teams channel is a dedicated space within a team where members can engage in conversations, share files and collaborate on projects.
+A Teams channel is a dedicated space within a team where members can engage in conversations, share files and collaborate on projects.
 
-There are three types of channels in Microsoft Teams that serve different purposes: standard, [private](private-channels.md) and [shared](shared-channels.md).
+There are three types of channels in Teams that serve different purposes: standard, [private](private-channels.md) and [shared](shared-channels.md).
 
 In this article, we focus on standard channels, compare them to private and shared channels, and explore use case scenarios for using standard channels.
 
 ## What is a standard channel?
 
- In Microsoft Teams, a standard channel is visible and accessible to all team members. Standard channels provide spaces for members to collaborate and communicate within your organization. Like private and shared channels, you can designate a standard channel to a specific subject, project or department.
+ In Teams, a standard channel is visible and accessible to all team members. Standard channels provide spaces for team members to collaborate and communicate within your organization. Like private and shared channels, you can designate a standard channel to a specific subject, project or department. Conversations and shared files in a standard channel are also searchable within the channel and across the team.
 
 ### What is a General channel?
 
-By default, every team in Microsoft Teams has a "**General**" channel. General channels permanently appear at the top of the channel list of a team. The General channel can be used as a space for announcements or conversation that doesn't fall into your other subject-specific channels.
+Every team in Teams has a "**General**" channel. General channels are standard channels that permanently appear at the top of the channel list of a team. The General channel can be used as a space for announcements or conversation that doesn't fall into your other subject-specific channels.
 
 ## How are SharePoint sites and Teams standard channels linked?
 
-SharePoint sites let you create web pages and store files. When a SharePoint site is also used by Teams, it becomes a [Teams-connected site](/sharepoint/manage-teams-sharepoint-experiences).  Conversations and shared files in a standard channel are also searchable within the channel and across the team.
+SharePoint sites let you create web pages and store files. When a SharePoint site is also used by Teams, it becomes a [Teams-connected site](/sharepoint/manage-teams-sharepoint-experiences).
 
- All standard channels share the same [SharePoint site](/sharepoint/teams-connected-sites) when you create a team. Each standard channel appears as a folder in the **Files** tab of a team, which is actually the same as looking at a folder in SharePoint document library.
+ All standard channels share the same [SharePoint site](/sharepoint/teams-connected-sites). Each standard channel appears as a list of files that are in the channel. Viewing the **Files** tab of a team is the same as looking at a folder of the channel in the SharePoint site's document library.
 
 ## Features of standard, private and shared channels
 
 |  Channel type | Who can view | Use cases |
 |--------------|------------|--------------|
 | ***Standard***    | All members and invited guests of a team       | Group discussions, project updates, file sharing |
-| ***Private***      | Channel members and invited guests only | Sensitive information, restricted discussions |
-| ***Shared***       | Channel members, B2B direct connect users and invited guests only | Cross-organizational projects, internal collaboration
+| ***Private***      | Only team members and guests specifically added to the channel | Sensitive information, restricted discussions |
+| ***Shared***       | Channel members, B2B direct connect users | Cross-organizational projects, internal collaboration
 
 ## Standard channel owner and member actions
 
@@ -54,11 +54,11 @@ The following table outlines what actions owners, members, and guests can do in 
 
 |***Standard channel tasks*** | **Team owner** | **Team member**| **Guest**
 |----|----|----|----|
-|Create/Delete channel  |     Yes    |    Yes, if enabled by team owner      |    Yes, if enabled by team owner    |
-| Restore deleted channel    |    Yes    |    Yes, if enabled by team owner    |    Yes, if enabled by admin    |
-|Add member to channel    |    Yes    |    Yes, if team owner approves request    |    Yes, if enabled by admin    |
-|Edit channel name/description    |    Yes     |     Yes, if enabled by team owner    |    Yes, if enabled by admin    |
-Manage tabs and apps    |    Yes    |    Yes, if enabled by team owner    |    Yes, if enabled by admin    |
+|Create/Delete channel  |     Yes    |    Yes, if enabled by team owner      |    [Yes, if enabled by admin in Entra ID](/microsoft-365/solutions/collaborate-as-team)  |
+| Restore deleted channel    |    Yes    |    Yes, if enabled by team owner    |    Yes, if enabled by admin in Entra ID        |
+|Add member to channel    |    Yes    |    Yes    |    Yes, if enabled by admin in Entra ID    |
+|Edit channel name/description    |    Yes     |     Yes, if enabled by team owner    |    Yes, if enabled by admin in Entra ID    |
+Manage tabs and apps    |    Yes    |    Yes, if enabled by team owner    |    Yes, if enabled by admin in Entra ID    |
 
 ## Use case scenarios for standard channels
 
