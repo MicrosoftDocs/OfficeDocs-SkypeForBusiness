@@ -12,12 +12,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: ba19fa16-4d2d-4635-ac32-f93e09469546
-description: "tblADUpdates contains Active Directory Domain Services changes that have not yet been processed by the later Active Directory Sync steps."
+description: "tblADUpdates contains Active Directory Domain Services changes that haven't yet been processed by the later Active Directory Sync steps."
 ---
 
 # tblADUpdates
  
-tblADUpdates contains Active Directory Domain Services changes that have not yet been processed by the later Active Directory Sync steps.
+tblADUpdates contains Active Directory Domain Services changes that aren't processed by the later Active Directory Sync steps.
   
 **Columns**
 

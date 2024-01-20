@@ -293,7 +293,7 @@ Additionally, the new Teams MSIX package bundles the Teams Meeting add-in MSI ("
 Installation logs for this MSI are stored here:
 - AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Logs \tma_addin_msi.txt
 
->[!Note:]
+>[!Note]
 >In Windows Server or Windows 10/11 Multiuser environments, installation of MicrosoftTeamsMeetingAddinInstaller.msi can fail with the error "Installation success or error status: 1625". Microsoft is working on a solution for this issue.
 
  
