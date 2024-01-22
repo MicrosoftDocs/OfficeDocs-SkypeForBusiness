@@ -76,7 +76,7 @@ Emergency call routing determines how an emergency call is routed to the Public 
 
 ## Emergency addresses for remote locations
 
-End users working at home can enable location sharing. Various device managemet applications can also enable location sharing. Enabling location sharing to Teams varies by operating systems. For more information, see [Emergency addresses for remote locations](emergency-calling-dispatchable-location.md) and [Enable location services](https://support.microsoft.com/en-us/office/work-from-home-emergency-911-enable-location-services-583dd649-87fc-4b23-aed6-f4e2279297f9?storagetype=live).
+End users working at home can enable location sharing. Various device management applications can also enable location sharing. Enabling location sharing to Teams varies by operating systems. For more information, see [Emergency addresses for remote locations](emergency-calling-dispatchable-location.md) and [Enable location services](https://support.microsoft.com/en-us/office/work-from-home-emergency-911-enable-location-services-583dd649-87fc-4b23-aed6-f4e2279297f9?storagetype=live).
 
 ## Security desk notification
 
