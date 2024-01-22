@@ -290,7 +290,8 @@ The types of apps to permission are divided into three categories - Microsoft ap
 - [Use app permission policies to control user access to apps](teams-app-permission-policies.md)
 - [Overview of app management and governance in Teams admin center](manage-apps.md)
 - [Information accessed and actions performed by apps and related admin considerations](app-permissions.md)
-- [View app permissions and grant admin consent in Teams admin center](app-permissions-admin-center.md)
+- [View and understand app permissions](app-permissions.md)
+- [Grant and manage consent to app permissions](manage-consent-app-permissions.md)
 - [Resource-specific consent in Microsoft Teams](resource-specific-consent.md)
 - [Set-CsTeamsAppPermissionPolicy](/powershell/module/skype/set-csteamsapppermissionpolicy)
 
@@ -495,7 +496,7 @@ Meeting policies are used to control what features are available in meetings org
 |Store recordings outside your country/region|Off|If you want to store meeting recordings outside of your country/region, turn on both this setting and **Meeting recording**. This setting isn't applicable to recordings stored in OneDrive or SharePoint.|
 |Transcription|Off|Controls whether captions and transcription features are available during playback of meeting recordings. The person who started the recording needs this setting turned on for these features to work with their recording.|
 |Live captions|Off, but organizers and co-organizers can turn them on|This setting is a per-user policy and applies during a meeting. This setting controls whether the **Turn on live captions** option is available for the user to turn on and turn off live captions in meetings that the user attends.|
-|Copilot|On with transcript|Controls whether Copilot is enabled with a persisted transcript or a nonpersisted transcript.|
+|Copilot|On with transcript|Controls the default value for Copilot in your organizers’ meeting options.|
 
 **PowerShell-only recording & transcription policies**
 

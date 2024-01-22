@@ -81,7 +81,7 @@ items:
           items: 
             - name: New Teams client
               items:
-                - name: Overview & rollout schedule for Windows client
+                - name: Overview & rollout schedule for new Teams
                   href: new-teams-desktop-admin.md
                 - name: Features that are changing in new Teams
                   href: new-teams-whats-changing.md
@@ -107,6 +107,8 @@ items:
                   href: new-teams-automatic-upgrade-announced.md                  
             - name: Classic Teams clients
               items:
+                - name: Classic Teams client end of availability
+                  href: teams-classic-client-end-of-availability.md
                 - name: Get the classic Teams clients
                   href: get-clients.md
                 - name: Classic Teams client updates
@@ -556,7 +558,7 @@ items:
           - name: Create people manager teams
             href: create-manager-directs-teams.md
            
-      - name: Managing teams
+      - name: Manage teams
         items:
           - name: Manage teams and policies
             href: manage-teams-with-policies.md
@@ -663,6 +665,8 @@ items:
               href: set-up-meeting-registration.md
         - name: Attendee experience
           items: 
+            - name: Manage Copilot for Teams
+              href: copilot-teams-transcription.md
             - name: Manage Q&A
               href: manage-qna-for-teams.md
             - name: Manage meeting chat
@@ -749,6 +753,8 @@ items:
               href: meeting-transcription-captions.md
             - name: Use OneDrive and SharePoint or Stream for meeting recordings
               href: tmr-meeting-recording-change.md
+            - name: Delete Exchange Online and OneDrive transcript files for Teams meetings
+              href: delete-exchange-online-transcripts.md
         - name: Integration
           items:
             - name: eCDN
@@ -802,6 +808,8 @@ items:
           href: teams-live-events/what-are-teams-live-events.md
         - name: Plan for Teams live events
           href: teams-live-events/plan-for-teams-live-events.md
+        - name: Live events overview
+          href: teams-stream-overview.md
         - name: Set up for Teams live events
           href: teams-live-events/set-up-for-teams-live-events.md
         - name: Use PowerShell to set Teams live events policies
@@ -810,8 +818,6 @@ items:
           href: teams-live-events/configure-teams-live-events.md
         - name: Live events recording policies
           href: teams-live-events/live-events-recording-policies.md
-        - name: Streaming overview
-          href: teams-stream-overview.md
         - name: Configuration
           href: teams-encoder-configuration.md
         - name: Troubleshooting
@@ -1006,6 +1012,16 @@ items:
               href: operator-connect-plan.md
             - name: Configure Operator Connect
               href: operator-connect-configure.md
+        - name: Operator Connect for India
+          items: 
+            - name: Plan for Operator Connect for India
+              href: operator-connect-india-plan.md
+            - name: Configure Operator Connect for India
+              href: operator-connect-india-configure.md
+            - name: Location-Based Routing for Operator Connect for India
+              href: location-based-routing-india-plan.md
+            - name: Configure network settings for Location-Based Routing
+              href: location-based-routing-configure-network-settings.md
         - name: Teams Phone Mobile
           items:
             - name: Plan for Teams Phone Mobile
@@ -1476,6 +1492,8 @@ items:
               href: rooms/rooms-prep.md
             - name: Create resource accounts 
               href: rooms/create-resource-account.md
+            - name: Set up using one-time passwords 
+              href: rooms/first-time-setup.md
             - name: Authentication
               items:
               - name: Configure authentication
@@ -1538,6 +1556,8 @@ items:
           href: rooms/enrolling-mtrp-managed-service.md
         - name: Enroll a device into Pro management
           href: rooms/enroll-a-device.md
+        - name: Create a one-time password
+          href: rooms/create-otp.md
         - name: Role-based access control
           href: rooms/rooms-pro-rbac.md
         - name: Monitoring and maintaining Rooms
@@ -1733,10 +1753,10 @@ items:
           href: app-centric-management.md
         - name: Tailor Teams apps for your frontline workers
           href: /microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-        - name: Understand app permissions and access to resources
+        - name: View and understand app permissions
           href: app-permissions.md
-        - name: Grant admin consent to an app on behalf of users
-          href: app-permissions-admin-center.md
+        - name: Grant and manage consent to permissions
+          href: manage-consent-app-permissions.md
         - name: Manage resource-specific consent to access team's data
           href: resource-specific-consent.md
         - name: Brand your organization's app store
