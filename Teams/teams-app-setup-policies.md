@@ -110,6 +110,18 @@ To add apps for your users using an app setup policy, follow these steps:
 
 :::image type="content" source="media/install-apps-in-meeting.png" alt-text="Screenshot showing an example of a list of apps that are installed using app setup policy.":::
 
+## Use app setup policy to allow independent bots
+
+Developers can create bots as part of [Microsoft Bot Framework](https://dev.botframework.com/). Developers can incorporate these bots in a Teams app for use in Teams or developers can share these bots as independent bots that users can use anywhere else, including in Teams client. As an admin, you not only govern Teams apps that contains bots but you can also let your users use independent bots.
+
+| Bot scenario and admin center settings                                                                         | Works in Teams classic | Works in [new Teams](new-teams-desktop-admin.md) |
+|:---------------------------------------------------------------------------------------------------------------|:-----------------------|:-------------------------------------------------|
+| Independent bot and custom app upload isn't allowed.                                                           | Yes                    | No                                               |
+| Independent bot and [custom app upload is allowed](teams-custom-app-policies-and-settings.md).                 | Yes                    | Yes                                              |
+| Bot is part of a Teams app and admin [allows the app](manage-apps.md#allow-or-block-apps) in the organization. | Yes                    | Yes                                              |
+
+:::image type="content" source="media/use-bots-setup-policy.png" alt-text="Flowchart showing a decision making flow for admins to know how they can allow their users to use independent bots." lightbox="media/use-bots-setup-policy-large.png":::
+
 ## Manage app setup policies
 
 You can manage the app setup policies in the Microsoft Teams admin center. Use the global (Org-wide default) policy or create and assign custom policies. Users get the global policy and if you create a custom policy, it overrides the global policy. A Global Administrator or a Teams Administrator can manage these policies.
