@@ -3,7 +3,7 @@ title: IT Admins - Manage external meetings and chat with people and organizatio
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.reviewer: alsolom
+ms.reviewer: nigolc
 ms.date: 06/01/2023
 ms.topic: article
 ms.service: msteams
@@ -12,6 +12,7 @@ ms.collection:
   - Teams_ITAdmin_GuestAccess
   - M365-collaboration
   - m365initiative-externalcollab
+  - Tier1
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,8 +21,8 @@ ms.custom:
 - chat-teams-channels-revamp
 appliesto: 
   - Microsoft Teams
-ms.localizationpriority: normal
-description: "For IT admins: Learn how to configure chat and meetings with people outside your organization who use Microsoft Entra ID, Microsoft Teams Essentials, or Skype."
+ms.localizationpriority: medium
+description: For IT admins - Learn how to configure chat and meetings with people outside your organization who use Microsoft Entra ID, Microsoft Teams Essentials, or Skype.
 ---
 
 # IT Admins - Manage external meetings and chat with people and organizations using Microsoft identities
@@ -70,17 +71,17 @@ You can also [configure these settings by using PowerShell](#configure-organizat
 
 For meetings and chat with other Microsoft 365 organizations, you can specify which domains you want to trust. By default, all external domains are allowed. You can allow or block certain domains in order to define which organizations your organization trusts for external meetings and chat.
 
-In order to chat and meet with people in external domains, the organizations that you trust must also trust your organization, and their users must be enabled for external access. If not, they won't be able to chat with users in your organization and will be considered anonymous when joining meetings hosted by your organization. [Learn more about meetings with other Microsoft 365 organizations](plan-meetings-external-participants.md#meetings-with-other-microsoft-365-organizations).
+In order to chat and meet with people in external domains, the organizations that you trust must also trust your organization, and their users must be enabled for external access. If not, they won't be able to chat with users in your organization and are considered anonymous when joining meetings hosted by your organization. [Learn more about meetings with other Microsoft 365 organizations](plan-meetings-external-participants.md#meetings-with-other-microsoft-365-organizations).
 
-You can specify which domains are allowed or which domains are blocked. If you specify blocked domains, all other domains will be allowed; if you specify allowed domains, all other domains will be blocked. There are four scenarios for configuring trusted organizations:
+You can specify which domains are allowed or which domains are blocked. If you specify blocked domains, all other domains are allowed; if you specify allowed domains, all other domains are blocked. There are four scenarios for configuring trusted organizations:
 
 - **Allow all external domains** - This is the default setting in Teams, and it lets users in your organization find, call, chat, and set up meetings with people external to your organization in any domain.
 
     In this scenario, your users can communicate with all external domains that are running Teams or Skype for Business so long as the other organization has also enabled external access.
     
-- **Allow only specific external domains** - By adding domains to an **Allow** list, you limit external access to only the allowed domains. Once you set up a list of allowed domains, all other domains will be blocked.
+- **Allow only specific external domains** - By adding domains to an **Allow** list, you limit external access to only the allowed domains. Once you set up a list of allowed domains, all other domains are blocked.
 
-- **Block specific domains** - By adding domains to a **Block** list, you can communicate with all external domains *except* the ones you've blocked.  Once you set up a list of blocked domains, all other domains will be allowed.
+- **Block specific domains** - By adding domains to a **Block** list, you can communicate with all external domains *except* the ones you've blocked.  Once you set up a list of blocked domains, all other domains are allowed.
 
 - **Block all external domains** - Prevents users in your organization from finding, calling, chatting, and setting up meetings with people external to your organization in any domain.
 
@@ -117,18 +118,24 @@ To block specific domains
 
 6. Click **Save**.
 
+By default, when you block domains, subdomains aren't blocked. For example, if you block contoso.com, marketing.contoso.com isn't blocked. If you want to block all subdomains, you can use the [Set-CsTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration) PowerShell cmdlet with the `-BlockAllSubdomains` parameter. For example:
+
+```powershell
+Set-CsTenantFederationConfiguration -BlockAllSubdomains $True
+```
+
 #### Diagnostic Tool
 
 If you're an administrator, you can use the following diagnostic tool to validate if a Teams user can communicate with a Teams user in a trusted organization:
 
-1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center. 
+1. Select **Run Tests** below, which populates the diagnostic in the Microsoft 365 Admin Center. 
 
    > [!div class="nextstepaction"]
    > [Run Tests: Teams Trusted Organizations](https://aka.ms/TeamsFederationDiag)
 
 2. In the Run diagnostic pane, enter the **Session Initiation Protocol (SIP) Address** and the **Federated tenant's domain name**, and then select **Run Tests**.
 
-3. The tests will return the best next steps to address any setting or policy configurations that are preventing communication with the external Teams user.
+3. The tests return the best next steps to address any setting or policy configurations that are preventing communication with the external Teams user.
 
 #### Skype for Business Online
 
@@ -138,7 +145,7 @@ If you want chats and calls to arrive in the user's Skype for Business client, c
 
 You can choose to enable or disable chat with external unmanaged Teams users (those not managed by an organization, such as Microsoft Teams (free)). If enabled, you can also control if people with unmanaged Teams accounts can start chats with users in your organization.
 
-Meetings are not supported with unmanaged Teams users. If invited to a meeting, they're considered anonymous when joining.
+Meetings aren't supported with unmanaged Teams users. If invited to a meeting, they're considered anonymous when joining.
 
 > [!NOTE]
 > Chat with external unmanaged Teams users isn't available in GCC, GCC High, or DOD deployments, or in private cloud environments.
@@ -154,7 +161,7 @@ To allow chat with unmanaged Teams accounts
 
 ![Screenshot of external accounts settings](./media/external-access-accounts-not-managed-by-org.png)
 
-Note that if **External users with Teams accounts not managed by an organization can contact users in my organization** is turned off, unmanaged Teams users will not be able to search by email address to find users in your organization. All communications with unmanaged Teams users must be initiated by users in your organization.
+Note that if **External users with Teams accounts not managed by an organization can contact users in my organization** is turned off, unmanaged Teams users can't search by email address to find users in your organization. All communications with unmanaged Teams users must be initiated by users in your organization.
 
 To prevent chat with unmanaged Teams accounts
 1. In the Teams admin center, go to **Users** > **External access**.
@@ -167,7 +174,7 @@ To prevent chat with unmanaged Teams accounts
 
 Follow these steps to let Teams users in your organization chat with and call Skype users. Teams users can then search for and start a one-on-one text-only conversation or an audio/video call with Skype users and vice versa.
 
-Meetings are not supported with Skype users. If invited to a meeting, they're considered anonymous when joining.
+Meetings aren't supported with Skype users. If invited to a meeting, they're considered anonymous when joining.
 
 > [!NOTE]
 > External communication with Skype users isn't available in GCC, GCC High, or DOD deployments, or in private cloud environments.
@@ -193,6 +200,7 @@ The following table shows the cmdlet parameters used for configuring trusted org
 |Allow or prevent meetings and chat with other Teams organizations and Skype for Business|`-AllowFederatedUsers`|
 |Specify allowed domains|`-AllowedDomains`|
 |Specify blocked domains|`-BlockedDomains`|
+|Block subdomains|`-BlockAllSubdomains`|
 
 Chat with Teams users not managed by an organization and Skype users can be configured by using the [Set-CSTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration) cmdlet.
 
@@ -200,7 +208,7 @@ The following table shows the cmdlet parameters used for configuring chat with S
 
 |Configuration|Parameter|
 |:-------|:--------|
-|Allow or prevent chat with Teams users that are not managed by an organization|`-AllowTeamsConsumer`|
+|Allow or prevent chat with Teams users that aren't managed by an organization|`-AllowTeamsConsumer`|
 |Allow or prevent Teams users not managed by an organization starting conversations|`-AllowTeamsConsumerInbound`|
 |Allow or prevent chat with Skype users|`-AllowPublicUsers`|
 
@@ -210,7 +218,7 @@ Before you can run these cmdlets you must be connected to Microsoft Teams PowerS
 
 If you've enabled one of the external access settings for the organization, you can specify which users in your organization can chat or meet with people outside your organization by using an external access policy. (It's important to note that both of these must be enabled for users to chat or meet with people outside your organization.)
 
-For meeting organizers who are not enabled for external access, meeting attendees from other organizations will be considered anonymous when joining their meetings.
+For meeting organizers who aren't enabled for external access, meeting attendees from other organizations are considered anonymous when joining their meetings.
 
 ### Configure external access policies
 
@@ -221,7 +229,7 @@ The following table shows the cmdlet parameters used for configuring who can cha
 |Configuration|Parameter|
 |:-------|:--------|
 |Allow or prevent meetings and chat with other Teams organizations and Skype for Business|`-EnableFederationAccess`|
-|Allow or prevent chat with Teams users that are not managed by an organization|`-EnableTeamsConsumerAccess`|
+|Allow or prevent chat with Teams users that aren't managed by an organization|`-EnableTeamsConsumerAccess`|
 |Allow or prevent Teams users not managed by an organization starting conversations|`-EnableTeamsConsumerInbound`|
 |Allow or prevent chat with Skype users|`-EnablePublicCloudAccess`|
 
