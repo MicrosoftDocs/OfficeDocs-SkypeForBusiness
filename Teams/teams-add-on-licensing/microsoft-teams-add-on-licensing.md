@@ -58,13 +58,13 @@ Whether you're a small business, enterprise organization, educational institutio
 
 - Buy a Teams Essentials with Microsoft Entra ID, Microsoft 365 Business, E1/E3, A1/A3, F1/F3, or G1/G3 plan and then buy **Teams Phone with Calling Plan** bundle licenses.
   - This model will give you Teams Phone System PBX capabilities and a Microsoft Domestic Calling Plan.
-  - Choose this setup if you want all phone number management and billing to be handled by Microsoft.
-  - Check to see if the [Teams Phone with Calling Plan bundle license is available in your region](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+    - Choose this setup if you want all phone number management and billing to be handled by Microsoft.
+    - Check to see if the [Teams Phone with Calling Plan bundle license is available in your region](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-- Buy a Teams Essentials with Microsoft Entra ID, Microsoft 365 Business, E1/E3, A1/A3, F1/F3, or G1/G3 plan, buy **Teams Phone Standard** licenses, and buy a Microsoft standalone calling plan or choose a third-party PSTN carrier.
+- Buy a Teams Essentials with Microsoft Entra ID, Microsoft 365 Business, E1/E3, A1/A3, F1/F3, or G1/G3 plan, buy **Teams Phone Standard** or **Teams Phone for Frontline Workers** licenses, and buy a Microsoft standalone calling plan or choose a third-party PSTN carrier.
   - This model will give you Teams Phone System, but you'll still need to connect to the PSTN.
-  - To view all your PSTN connectivity options, see [PSTN connectivity options](../pstn-connectivity.md).
-  - To learn about all voice solutions, see [Plan your Teams voice solution](../cloud-voice-landing-page.md).
+    - To view all your PSTN connectivity options, see [PSTN connectivity options](../pstn-connectivity.md).
+    - To learn about all voice solutions, see [Plan your Teams voice solution](../cloud-voice-landing-page.md).
 
 - Buy an E5/A5/G5 plan and buy **Microsoft Calling Plans** or connect to a third-party PSTN connectivity provider.
   - Most Microsoft 365 E5, A5, and G5 plans include Teams Phone System, but organizations still need to choose a [PSTN connectivity option](../pstn-connectivity.md).
@@ -96,6 +96,17 @@ Here's a summary of which Microsoft voice and calling licenses to purchase, base
 For instructions on how to buy licenses in the Microsoft 365 admin center, see [Buy or remove licenses](/microsoft-365/commerce/licenses/buy-licenses).
 
 After you've purchased licenses, you'll need to assign them to your users. For more information, see [Assign Teams add-on licenses](assign-teams-add-on-licenses.md).
+
+#### Purchase the Teams Phone Standard for Frontline Workers license
+
+To access the **Teams Phone for Frontline Workers** license, your tenant must also be licensed with Microsoft 365 Frontline Worker or Office 365 Frontline Worker licenses.
+
+Also, Microsoft 365 and Office 365 Frontline Worker licenses can only be assigned to users who meet *one or more* of the following requirements:
+
+- The user uses a primary device with a single screen smaller than 10.9".
+- The user shares their primary work device with other licensed Microsoft 365 or Office 365 Frontline Worker licensed users, during or across shifts.
+  - Other licensed Microsoft Frontline Worker users must also use the device as their primary work device.
+  - Any software or services accessed from the shared device requires the devices or users to be assigned a user license that includes use of those software or services.
 
 ## Unassign licenses from users
 
