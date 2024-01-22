@@ -74,6 +74,10 @@ Dynamic emergency calling for Microsoft Calling Plans, Operator Connect, Teams P
 
 Emergency call routing determines how an emergency call is routed to the Public Safety Answering Point (PSAP). Call routing depends on several factors including the emergency calling network of the country/region in which the call originates and which [PSTN connectivity option](pstn-connectivity.md) you’ve chosen. For example, Direct Routing requires configuring [specific call routing polices](manage-emergency-call-routing-policies.md). With other PSTN connectivity options, the carrier handles a lot of the configuration for call routing.
 
+## Emergency addresses for remote locations
+
+End users working at home can enable location sharing. Various device managemet applications can also enable location sharing. Enabling location sharing to Teams varies by operating systems. For more information, see [Emergency addresses for remote locations](emergency-calling-dispatchable-location.md) and [Enable location services](https://support.microsoft.com/en-us/office/work-from-home-emergency-911-enable-location-services-583dd649-87fc-4b23-aed6-f4e2279297f9?storagetype=live).
+
 ## Security desk notification
 
 Security desk notification is available with both Microsoft Calling Plans, Operator Connect, and Direct Routing.
