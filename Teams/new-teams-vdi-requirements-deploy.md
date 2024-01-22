@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.topic: article
-ms.date: 01/17/2023
+ms.date: 01/22/2024
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -368,7 +368,7 @@ You can’t use the native Teams app to join meetings. Clicking “Join on the T
 
 ## Features currently not available in VDI with the new Teams
 
-- Screen sharing from chat for Azure Virtual Desktops/Windows 365
+- Screen sharing from chat for Azure Virtual Desktops/Windows 365. **Note:** Note: This issue is fixed on new WebRTC Redirector Service 2.0.2311.15001 and RD Client 1.2.5105.
 - Give/Take control for Citrix and AVD/Windows 365
 - HID support in headsets
 - The app switcher toggle isn't shown in new Teams if the virtual machine has the machine-wide classic Teams installed (MSI with ALLUSERS=1). **Note:** This issue is fixed on new Teams version 23320.3021.2567.4799 or higher.
