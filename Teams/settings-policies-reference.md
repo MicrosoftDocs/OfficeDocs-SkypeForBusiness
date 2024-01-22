@@ -468,6 +468,7 @@ Meeting policies are used to control what features are available in meetings org
 |Whiteboard|On|Controls whether a user can share the Whiteboard in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer. Read more on [how to manage the Whiteboard in Microsoft Teams](manage-whiteboard.md).|
 |Collaborative annotations|On|When **On**, participants can collaborate while sharing their screen during a Teams meeting.|
 |Shared notes|On|When **On**, attendees can create shared meeting notes through the meeting details.|
+|Organizer can restrict participants from copying or forwarding meeting chat messages|On|When this is on, meeting organizers have the option to turn off message copying and forwarding, which includes using keyboard shortcuts, right click, or the more actions menu to copy or forward messages.|
 
 **PowerShell-only content sharing policies**
 
