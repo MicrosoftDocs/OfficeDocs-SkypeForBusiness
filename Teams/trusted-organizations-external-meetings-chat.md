@@ -3,7 +3,7 @@ title: IT Admins - Manage external meetings and chat with people and organizatio
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.reviewer: alsolom
+ms.reviewer: nigolc
 ms.date: 06/01/2023
 ms.topic: article
 ms.service: msteams
