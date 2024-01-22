@@ -32,7 +32,7 @@ This article includes information about Microsoft's compliance with the RAY BAUM
 
 Users working at home can now set their own emergency addresses if applicable. This article describes how you can configure user policies so that your end users can set their emergency addresses. For more information about how end users can enable location sharing, see [Enable location services](https://support.microsoft.com/en-us/office/work-from-home-emergency-911-enable-location-services-583dd649-87fc-4b23-aed6-f4e2279297f9?storagetype=live).
 
-Various device managemet applications can also enable location sharing. Enabling location sharing to Teams varies by operating systems. 
+Various device management applications can also enable location sharing. Enabling location sharing to Teams varies by operating systems. 
 
 Although this information applies to emergency 911 calling in the United States, user-entered locations will be conveyed to the screening center in Canada as well.
 
