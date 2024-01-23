@@ -208,9 +208,9 @@ Once you've selected your **Dial scope** options, select **Next**.
 
 ## [Step 4: Resource accounts](#tab/resource-accounts)
 
-## Step 4: Set up resource accounts (optional)
+## Step 4: Assign resource accounts
 
-All Auto attendants must have an associated resource account.  First-level Auto attendants need at least one resource account that has an associated service number. If you wish, you can assign several resource accounts to an Auto attendant, each with a separate service number.
+All Auto attendants must have an associated resource account. All resource accounts must be assigned a CXXXXXX. If you wish, you can assign several resource accounts to an Auto attendant. 
 
 ### Add an existing resource account
 To add an existing resource account:
@@ -231,8 +231,6 @@ To add an existing resource account:
 1. Select the Resource account type dropdown and select Call queue.
 1. At the bottom of the pane, select the Save button.
 1. On the Resource accounts pane, select the Add button.
-
-To add a resource account, select **Add account** and search for the account that you want to add. Select **Add**, and then select **Add**.
 
 Once you've added resource accounts, select **Next**.
 
