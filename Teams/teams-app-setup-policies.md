@@ -122,9 +122,12 @@ Developers can create bots as part of [Microsoft Bot Framework](https://dev.botf
 
 :::image type="content" source="media/use-bots-setup-policy.png" alt-text="Flowchart showing a decision making flow for admins to know how they can allow their users to use independent bots." lightbox="media/use-bots-setup-policy-large.png":::
 
+> [!TIP]
+> We recommend that you get a Teams app created to use bots in your organization. Having a bot incorporated in a Teams app, offers many governance controls to you as an admin.
+
 ## Manage app setup policies
 
-You can manage the app setup policies in the Microsoft Teams admin center. Use the global (Org-wide default) policy or create and assign custom policies. Users get the global policy and if you create a custom policy, it overrides the global policy. A Global Administrator or a Teams Administrator can manage these policies.
+You can manage the app setup policies in the Microsoft Teams admin center. Use the Global (Org-wide default) policy or create and assign custom policies. Global policy applies to all users unless you assign a custom policy to some users. Custom policy overrides the global policy. A Global Administrator or a Teams Administrator can manage these policies.
 
 You can edit the settings in the global policy to include the apps that you want. To customize Teams for different groups of users in your organization, create and assign one or more custom policies.
 
