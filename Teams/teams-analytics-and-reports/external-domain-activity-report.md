@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: izzychun
-ms.date: 01/08/2024
+ms.date: 01/23/2024
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
@@ -18,7 +18,7 @@ appliesto:
 ---
 # Microsoft Teams external domain activity report
 
-The external domain activity report in the Microsoft Teams admin center shows you the number of users in your organization that have communicated with [trusted external organizations](/microsoftteams/trusted-organizations-external-meetings-chat?tabs=organization-settings#specify-trusted-microsoft-365-organizations) each day.
+The external domain activity report in the Microsoft Teams admin center shows you the number of users in your organization that have communicated with [trusted external organizations](/microsoftteams/trusted-organizations-external-meetings-chat?tabs=organization-settings#specify-trusted-microsoft-365-organizations) each day. This report includes information for 1:1 and group chats, but not meetings or calls.
 
 ## View the webinar usage report
 
