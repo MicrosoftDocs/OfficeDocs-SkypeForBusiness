@@ -413,7 +413,7 @@ The following settings are recommended:
 |Serial                           |Y                         |Y         |Y               |Y    |Y         |Y<sup>4</sup>         |Y<sup>4</sup>             |   |
 |**Agent Routing Options**        |                          |          |                |     |          |                      |                          |   |
 |Presence Based Routing<sup>3</sup>|Y                        |Y         |Y               |N    |Y         |Y                     |Y                         |*Default* |
-|Agents can Opt-out<sup>10</sup>  |Y                         |Y         |Y               |Y<sup>7</sup>|Y<sup>7</sup>|Y          |Y                         |*Default*     |
+|Agents can Opt-out               |Y                         |Y         |Y               |Y<sup>7,10</sup>|Y<sup>7,10</sup>|Y          |Y                         |*Default*     |
 |**Transfer Modes**               |                          |          |                |     |          |                      |                          |   |
 |Conference Mode<sup>5</sup>      |Y                         |Y         |Y               |N    |Y<sup>6</sup>|Y                  |Y                         |*Default* |
 |Transfer Mode                    |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |   |
@@ -440,11 +440,11 @@ The following settings are recommended:
 4. It's not possible to set the order the agents are presented with calls.
 5. Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that's enabled for Location-Based Routing.
     - For Call queue implementation with Location-Based Routing, see [Voice apps (Auto Attendant or Call Queue)](location-based-routing-plan.md#inbound-calls-through-voice-apps-auto-attendant-or-call-queue).
-7. Microsoft Teams Phone System only.
-8. Through the User Settings Portal page at [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
-9. Only standard channels are supported.
-10. Auto Attendants and Call Queues can't transfer calls between PSTN connectivity methods.
-11. For GCCH/DOD, only available through User Settings Portal at:
+6. Microsoft Teams Phone System only.
+7. Through the User Settings Portal page at [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
+8. Only standard channels are supported.
+9. Transferring calls between PSTN connectivity methods is not supported.
+10. For GCCH/DOD, only available through User Settings Portal at:
     - GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
     - DOD: [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
 
