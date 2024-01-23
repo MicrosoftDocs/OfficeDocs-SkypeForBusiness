@@ -234,9 +234,12 @@ To add an existing resource account:
 1. At the bottom of the pane, select the Save button.
 1. On the Resource accounts pane, select the Add button.
 
-Once you've added resource accounts, select **Next**.
+>[!NOTE]
+> Remember to assign a [Microsoft Teams Phone System Resource Account license](manage-resource-accounts.md#assign-a-license).
 
 For more information, see [Manage Teams resource accounts](manage-resource-accounts.md).
+
+Once you've added resource accounts, select **Next**.
 
 ## [Step 5: Authorized users](#tab/authorized-users)
 
