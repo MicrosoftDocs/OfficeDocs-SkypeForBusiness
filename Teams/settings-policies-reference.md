@@ -464,10 +464,11 @@ Meeting policies are used to control what features are available in meetings org
 |Screen sharing|Entire screen|Controls whether a user is allowed to share a desktop and a window in a Teams meeting. Read more on how to [Configure desktop sharing in Microsoft Teams](configure-desktop-sharing.md).|
 |Participants can give or request control|On|Controls whether the user can give control of the shared desktop or window to other meeting participants. This setting isn't supported if either user is in Teams in a browser.|
 |External participants can give or request control|Off|This setting controls whether external participants, anonymous users, and guests can be given control or request control of people in your organization's shared screen during a Teams meeting. This setting must be turned on in both organizations for an external participant to take control.|
-|PowerPoint Live|On|Controls whether a user can share PowerPoint slide decks in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer.|
+|PowerPoint Live|On|Controls whether a user can share PowerPoint presentations in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer.|
 |Whiteboard|On|Controls whether a user can share the Whiteboard in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer. Read more on [how to manage the Whiteboard in Microsoft Teams](manage-whiteboard.md).|
 |Collaborative annotations|On|When **On**, participants can collaborate while sharing their screen during a Teams meeting.|
 |Shared notes|On|When **On**, attendees can create shared meeting notes through the meeting details.|
+|Organizer can restrict participants from copying or forwarding meeting chat messages|On|When this is on, meeting organizers have the option to turn off message copying and forwarding, which includes using keyboard shortcuts, right click, or the more actions menu to copy or forward messages.|
 
 **PowerShell-only content sharing policies**
 
@@ -514,7 +515,6 @@ Meeting policies are used to control what features are available in meetings org
 
 - [Teams meeting recording](meeting-recording.md)
 - [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md)
-- [Use OneDrive for Business and SharePoint or Stream for meeting recordings](tmr-meeting-recording-change.md)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
 
 #### Audio & video
