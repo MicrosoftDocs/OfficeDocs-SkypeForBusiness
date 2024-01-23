@@ -54,8 +54,7 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 
 ## What's new for Auto attendants in the past six months
 
-- June 26 - **Holidays** - holiday sets now support up to 50 date ranges.
-- May 01 - **Authorized users** - authorized users can now update Auto attendant business, after hours, and holiday greetings.
+- January 26 - Support click-to-call web based calling
 
 ## Steps to create an Auto attendant
 
@@ -85,7 +84,12 @@ To set up an Auto attendant, in the [Teams admin center](https://go.microsoft.co
 
 4. Specify a [supported language](create-a-phone-system-auto-attendant-languages.md) for this Auto attendant. This language is used for system-generated voice prompts.
 
-5. Choose if you want to enable voice inputs. When enabled, the name of every menu option becomes a speech-recognition keyword. For example, callers can say "One" to select the menu option mapped to key 1, or they can say "Sales" to select the menu option named "Sales."
+   > [!NOTE]
+   > When using Text to Speech, the text must be entered in the selected language as the system does not perform translation.
+   >
+   > All words will be pronouced in the selected language.
+
+6. Choose if you want to enable voice inputs. When enabled, the name of every menu option becomes a speech-recognition keyword. For example, callers can say "One" to select the menu option mapped to key 1, or they can say "Sales" to select the menu option named "Sales."
 
    > [!NOTE]
    > If you choose a language in Step 4 that doesn't support voice inputs this option will be disabled.
@@ -166,8 +170,6 @@ Once you've added your after hours call flow, select **Next**.
 
 ## Step 2.3: Set up call flows for holidays (optional)
 
-*New* - holiday sets now support up to 50 date ranges.
-
 Your Auto attendant can have a call flow for each [Holiday you've set up](set-up-holidays-in-teams.md). You can add up to 20 holiday sets to each Auto attendant. Each holiday set can contain up to 50 unique date ranges. Holiday dates must be unique across all holiday sets being added to the Auto attendant.
 
 1. On the Holiday call settings page, select **Add**.
@@ -209,6 +211,26 @@ Once you've selected your **Dial scope** options, select **Next**.
 ## Step 4: Set up resource accounts (optional)
 
 All Auto attendants must have an associated resource account.  First-level Auto attendants need at least one resource account that has an associated service number. If you wish, you can assign several resource accounts to an Auto attendant, each with a separate service number.
+
+### Add an existing resource account
+To add an existing resource account:
+
+1. Under Resource accounts, select the Add button to add a resource account for this Call queue.
+1. On the Add accounts pane, search for the resource account to add.
+1. Select the Add button next to the resource account you want to assign to this Call queue.
+1. At the bottom of the pane, select the Add button.
+
+### Create a new resource account:
+
+1. Under Resource accounts, select the Add button to add a resource account for this Call queue.
+1. On the Add accounts pane, search for any set of letters to pull up the results dropdown.
+1. Select the + Add a resource account button at the bottom of the results.
+1. On the Add resource account pane:
+1. Type in a descriptive Display name. Agents see this name when a call is presented to them.
+1. Type in a descriptive Username for the resource account.
+1. Select the Resource account type dropdown and select Call queue.
+1. At the bottom of the pane, select the Save button.
+1. On the Resource accounts pane, select the Add button.
 
 To add a resource account, select **Add account** and search for the account that you want to add. Select **Add**, and then select **Add**.
 
