@@ -289,7 +289,7 @@ In a Skype for Business hybrid environment, to transfer an Auto attendant call t
 
 If you're an administrator, you can use the following diagnostic tool to validate that an Auto attendant is able to receive calls:
 
-1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center.
+1. Select **Run Tests** which will populate the diagnostic in the Microsoft 365 Admin Center.
 
    > [!div class="nextstepaction"]
    > [Run Tests: Teams Auto Attendant](https://aka.ms/TeamsAADiag)
