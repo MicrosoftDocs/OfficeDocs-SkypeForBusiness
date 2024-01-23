@@ -85,7 +85,7 @@ To set up an Auto attendant, in the [Teams admin center](https://go.microsoft.co
 4. Specify a [supported language](create-a-phone-system-auto-attendant-languages.md) for this Auto attendant. This language is used for system-generated voice prompts.
 
    > [!NOTE]
-   > When using Text to Speech, the text must be entered in the selected language as the system does not perform translation.
+   > When using *Text to Speech*, the text must be entered in the selected language as the system does not perform translation.
    >
    > All words will be pronouced in the selected language.
 
@@ -108,8 +108,10 @@ Once you've set your Auto attendant's general info, select **Next**.
 
 - If you select **Type a greeting message**, the system reads the text that you enter (up to 1000 characters) when the Auto attendant answers a call.
 
->[!NOTE]
-> When using *Text to Speech*, the text must be entered in the language selected for the Auto attendant. The system doesn't perform translation.
+> [!NOTE]
+> When using *Text to Speech*, the text must be entered in the selected language as the system does not perform translation.
+>
+> All words will be pronouced in the selected language.
 
 ### Route the call
 
