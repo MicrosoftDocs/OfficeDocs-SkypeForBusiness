@@ -73,9 +73,9 @@ For information about using watermarks with other meeting features to help prote
 
 ## Meeting recordings
 
-If a meeting with watermarks is recorded, the watermark is applied at playback time by Microsoft Stream. Viewers of the recording see their own email address as a watermark on the video. If the recording file is edited or moved, watermarks won't be available at playback time.
+If a meeting with a watermark is recorded, the watermark is applied at playback time by Microsoft Stream. Viewers of the recording see their own email address as a watermark on the video. If the recording file is edited or moved, the watermark won't be available at playback time.
 
-By default, download of the meeting recording (.mp4) file is disabled for recordings of meetings with watermarks. However, the person who recorded the meeting can change that permission. Downloaded .mp4 files don't contain watermarks.
+By default, download of the meeting recording (.mp4) file is disabled for recordings of meetings with a watermark. However, the person who recorded the meeting can change that permission. Downloaded .mp4 files don't contain a watermark.
 
 ## Configure watermarks
 
