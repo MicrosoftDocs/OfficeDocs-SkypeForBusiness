@@ -75,7 +75,7 @@ To configure Auto attendants and Call queues, you need the following resources:
   - At least one [Microsoft service number](getting-service-phone-numbers.md), [Operator Connect number](operator-connect-plan.md), [Direct Routing number](direct-routing-plan.md), or a hybrid number for each resource account that you want to be directly dialable from external phone numbers.
     - The service number may be a toll or toll-free number.
 - Web click-to-call:  
-  - [Auto attendant](/azure/communication-services/quickstarts/voice-video-calling/get-started-teams-auto-attendant.md)
+  - [Auto attendant](/azure/communication-services/quickstarts/voice-video-calling/get-started-teams-auto-attendant)
   - [Call queue](/azure/communication-services/quickstarts/voice-video-calling/get-started-teams-call-queue)
 
 > [!NOTE]
