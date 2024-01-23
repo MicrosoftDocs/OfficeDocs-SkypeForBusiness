@@ -133,9 +133,8 @@ If your tenant had only Global permission policy and doesn't have any custom pol
 | Allowed                     | Blocked                                              | No one can install             |
 | Allowed                     | Allowed                                              | Everyone                       |
 
-You can't access, edit, or use permissions policies after switching to manage access by apps functionality.
-
-:::image type="content" source="media/permission-policy-unavailable.png" alt-text="Screenshot showing that app permission policies are not available for organizations using app centric management.":::
+> [!NOTE]
+> You can't access, edit, or use permission policies after switching to manage access by apps functionality.
 
 ## Related article
 
