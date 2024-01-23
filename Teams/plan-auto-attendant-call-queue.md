@@ -63,7 +63,7 @@ For each Call queue, you can specify if agents in the queue can opt out of takin
 
 Internal callers, using their Teams client, can reach a Call queue by calling the Resource account assigned to the Call queue.  External callers can reach a Call queue by dialing the phone number assigned to the Resource account or via the web if click-to-call has been configured.
 
-Call queues do not provide separate call routing for off hours and holidays. Even if your Call queue is staffed 24/7 we recommend using an Auto attendant to direct calls to the call queue.
+Call queues don't provide separate call routing for off hours and holidays. Even if your Call queue is staffed 24/7 we recommend using an Auto attendant to direct calls to the call queue.
 
 ## Prerequisites
 
@@ -81,7 +81,7 @@ To configure Auto attendants and Call queues, you need the following resources:
 > [!NOTE]
 > Resource accounts are disabled for sign in and must remain so. Chat and presence are not available for these accounts.
 
-Agents who receive calls from a Call queues must be Enterprise Voice enabled online or on-premise users. For more information, see [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) and [Enable users for Direct Routing](/microsoftteams/direct-routing-enable-users). In addition, if the Call queue is using Direct Routing or Operator Connect numbers, agents who need to conference or transfer calls also require:
+Agents who receive calls from a Call queue must be Enterprise Voice enabled online or on-premise users. For more information, see [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) and [Enable users for Direct Routing](/microsoftteams/direct-routing-enable-users). In addition, if the Call queue is using Direct Routing or Operator Connect numbers, agents who need to conference or transfer calls also require:
 
 - An [online voice routing policy](manage-voice-routing-policies.md) assigned if the Call queue uses transfer mode.
 - An [Audio Conferencing license](set-up-audio-conferencing-in-teams.md) or [online voice routing policy](manage-voice-routing-policies.md) assigned if the Call queue uses conference mode.
@@ -121,7 +121,7 @@ Which resource account to license:
 
 ## Business decisions
 
-Before you set up your Auto attendants and Call queues, there are some decisions that you should make about how to use these features in your business. These decisions will determine the settings that you choose when you configure your Auto attendants and Call queues.
+Before you set up your Auto attendants and Call queues, there are some decisions that you should make about how to use these features in your business. These decisions determine the settings you choose when configuring your Auto attendants and Call queues.
 
 Document your answers to these questions and provide the information to the administrator doing the configuration.
 
@@ -165,7 +165,7 @@ Conference mode is enabled by default. If you have agents who don't meet the req
 
 ## Click-to-call restrictions
 
-In order to help prevent a denial of service attack from web based click-to-call applications, there is a maximum of 40 click-to-call calls per minute across all auto attendants and call queues in the tenant.
+In order to help prevent a denial of service attack from web based click-to-call applications, there's a maximum of 40 click-to-call calls per minute across all auto attendants and call queues in the tenant.
 
 ## Getting started
 
