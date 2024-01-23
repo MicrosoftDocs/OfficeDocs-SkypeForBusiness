@@ -124,7 +124,8 @@ If your tenant had only Global permission policy and doesn't have any custom pol
 |  Global permission policy for custom apps was `Block all` or Global permission policy for custom apps was `Allow app(s), Block all others` | `Allow users install available apps by default` for custom apps is set to off |
 
 > [!NOTE]
-> This change retires the third-party apps settings and the new third-party apps in the Org-wide app settings.
+> * This change retires the third-party apps settings and the new third-party apps in the Org-wide app settings.
+> * For a list of Microsoft apps, see [Microsoft apps in Teams](apps-in-teams.md#list-of-apps-created-by-microsoft).
 
 | App status before migration | Global permission policy definition before migration | App assignment after migration |
 |-----------------------------|------------------------------------------------------|--------------------------------|
