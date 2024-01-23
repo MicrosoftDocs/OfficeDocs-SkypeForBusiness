@@ -50,13 +50,11 @@ As a Teams admin, you get full access to all real-time telemetry data for each u
 
 ## Where to find per-user real-time troubleshooting telemetry
 
-To see all meeting information and data for a user, go to the [Teams admin center](https://admin.teams.microsoft.com). Under **Users** > **Manage users**, select a user, and open the **Meetings & calls** tab on the user's profile page. Under **Recent meetings**, you'll see a list of meetings the user has attended within the past 24 hours *for which real-time telemetry is available*, including any in progress meetings. If the meeting isn't in progress or doesn't have real-time telemetry data, it will show up in **Past meetings**.
+To see all meeting information and data for a user, go to the [Teams admin center](https://admin.teams.microsoft.com). Under **Users** > **Manage users**, select a user, and open the **Meetings & calls** tab on the user's profile page. Under **Recent meetings**, you'll see a list of meetings the user has attended within the past 24 hours for which real-time telemetry is available, including any in progress meetings. If the meeting isn't in progress or doesn't have real-time telemetry data, it will show up in **Past meetings**.
+
+Real-time telemetry is gathered automatically for all users who have a Teams Premium license and is retained for seven days. For users who don't have a Teams Premium license, real-time telemetry is only gathered when you access the in-progress meeting in the Teams admin center and is retained for 24 hours.
 
 :::image type="content" alt-text="Screenshot of recent meetings table." source="media/recent-meetings.png" lightbox="media/recent-meetings.png":::
-
-> [!NOTE]
-> For a meeting to show up under "Recent Meetings", a Teams admin must have clicked on the meeting in Real-Time Analytics while the meeting was in progress to begin the flow of real-time client telemetry.
-
 
 To get additional information about participants of a meeting that's in progress, including their device, network, and audio statistics, find the meeting in **Recent meetings** and select the link under the **Participants** column.
 
@@ -145,17 +143,16 @@ User signals identify when a user is actively participating in the call, isn't s
 | Battery level | Charging or Percentage | Greater than 10% | Where an endpoint includes a battery as a power source, this metric indicates the percentage of the battery remaining or if the device is plugged in and charging. |
 
 
-## Client platforms supported for real-time telemetry
+## Client platforms that support real-time telemetry
 
 - Windows
 - macOS
 - Android
 - iOS
 
-> [!NOTE]
-> Teams Web client (including VDI) does not support delivery of telemetry in real time.
+Real-time telemetry isn't available in Teams web client (including VDI) or when using older versions of Teams. If no telemetry is available, try updating your client.
 
-## Teams devices with support for real-time telemetry
+## Teams devices that support real-time telemetry
 
 - Teams displays
 - Teams phone
@@ -165,16 +162,12 @@ User signals identify when a user is actively participating in the call, isn't s
 > [!NOTE]
 > Devices that joined the meeting using Cloud Video Interop (CVI) solutions are not supported in Real-Time Analytics.
 
-
 ## Limitations
 
-- Real-time telemetry subscription isn't automatic for all meetings and must be started by a Teams admin while the meeting is in progress.
-- Real-time telemetry will only be available for a meeting's supported endpoints from the point at which the admin first clicked the in-progress meeting in Real-Time Analytics.
 - Real-time telemetry is only available for scheduled meetings and Meet Now. For PSTN, 1:1 calls, and group calls, real-time telemetry isn't available.
-- Real-time telemetry is only available for presenters of scheduled live event. It's currently not available for live event attendees.
-- Real-time telemetry data is available for a meeting under **Recent meetings** for 24 hours after the meeting has ended. After 24 hours, you can't access the data and the meeting moves to **Past meetings**. If a meeting is longer than 3 hours, real-time telemetry will only be available for the *last 3 hours*.
-- Telemetry isn't available in real time when using older versions of Teams. If no telemetry is available, try updating your client.
+- Real-time telemetry is only available for presenters of live events. It's not available for live event attendees.
 - If external participants or anonymous users join a meeting, their display name will show as **unavailable** to retain cross-tenant privacy.
+- If a meeting is longer than 3 hours, real-time telemetry will only be available for the *last 3 hours*.
 
 ## Related topics
 
