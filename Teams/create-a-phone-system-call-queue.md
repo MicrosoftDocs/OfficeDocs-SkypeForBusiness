@@ -446,7 +446,7 @@ The following settings are recommended:
 6. Microsoft Teams Phone System only.
 7. Through the User Settings Portal page at [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
 8. Only standard channels are supported.
-9. Transferring calls between PSTN connectivity methods is not supported.
+9. Transferring calls between PSTN connectivity methods isn't supported.
 10. For GCCH/DOD, only available through User Settings Portal at:
     - GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
     - DOD: [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
