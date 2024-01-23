@@ -163,6 +163,10 @@ Conference mode is enabled by default. If you have agents who don't meet the req
 
 **Call routing flow** plans help determine the most efficient routing for people calling into your organization. To learn how to plan your call routing flow, see [Plan your call routing flow](plan-your-call-routing-flow.md).
 
+## Click-to-call restrictions
+
+In order to help prevent a denial of service attack from web based click-to-call applications, there is a maximum of 40 click-to-call calls per minute across all auto attendants and call queues in the tenant.
+
 ## Getting started
 
 Once you've completed the planning tasks in this article, follow these steps to get your Auto attendants and Call queues set up:
