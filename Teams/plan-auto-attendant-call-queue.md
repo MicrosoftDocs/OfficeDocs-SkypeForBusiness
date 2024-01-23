@@ -81,7 +81,7 @@ To configure Auto attendants and Call queues, you need the following resources:
 > [!NOTE]
 > Resource accounts are disabled for sign in and must remain so. Chat and presence are not available for these accounts.
 
-Agents who receive calls from the Call queues must be Enterprise Voice enabled online or on-premise users. For more information, see [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) and [Enable users for Direct Routing](/microsoftteams/direct-routing-enable-users). In addition, if the Call queues are using Direct Routing or Operator Connect numbers, agents who need to conference or transfer calls also require:
+Agents who receive calls from a Call queues must be Enterprise Voice enabled online or on-premise users. For more information, see [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) and [Enable users for Direct Routing](/microsoftteams/direct-routing-enable-users). In addition, if the Call queue is using Direct Routing or Operator Connect numbers, agents who need to conference or transfer calls also require:
 
 - An [online voice routing policy](manage-voice-routing-policies.md) assigned if the Call queue uses transfer mode.
 - An [Audio Conferencing license](set-up-audio-conferencing-in-teams.md) or [online voice routing policy](manage-voice-routing-policies.md) assigned if the Call queue uses conference mode.
@@ -125,7 +125,7 @@ Before you set up your Auto attendants and Call queues, there are some decisions
 
 Document your answers to these questions and provide the information to the administrator doing the configuration.
 
-- How will callers reach you? By phone or click-to-call on the web?
+- How will callers reach you? Internally only? Externally? Click-to-call on the web?
 - What languages do you need? Where are these languages needed - which department or group?
 - Do you want to allow voice inputs from callers or only dialing inputs?
 - Do you need separate call routing for off hours or holidays? What are the hours and holidays?
@@ -171,7 +171,7 @@ Once you've completed the planning tasks in this article, follow these steps to 
 1. [Create a resource account](manage-resource-accounts.md) for each Auto attendant and Call queue that you want to create.
 1. Assign a Teams Phone Resource Account license to each resource account.
 1. Get service numbers for the Auto attendants and Call queues that you want phone callers from outside your organization to call. This might include [transferring numbers from another provider](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) or [requesting new service numbers](getting-service-phone-numbers.md).
-1. Create click-to-call XXXX for the Auto attendants and Call queues that you want users on your website or in your mobile applications to call.
+1. Create click-to-call configurations for the [Auto attendants](/azure/communication-services/quickstarts/voice-video-calling/get-started-teams-auto-attendant) and [Call queues](/azure/communication-services/quickstarts/voice-video-calling/get-started-teams-call-queue) that you want users on your website or in your mobile applications to call.
 1. [Create the holidays](set-up-holidays-in-teams.md) for which you want to have separate call routing in your Auto attendants.
 1. Create the groups or Teams channels that you want to use to contain the call agents for the Call queues.
 1. If you plan to allow dial by extension, ensure that you've added your users' extension number to their Azure Active Directory (Azure AD) profile.
