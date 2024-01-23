@@ -148,7 +148,7 @@ Specify if you want to play a *greeting* to callers when they arrive in the queu
 - If you select **Type a greeting message**, the system reads the text that you type (up to 1000 characters) when the Call queue answers a call.
 
 >[!NOTE]
-> When using *Text to Speech*, the text must be entered in the selected language as the system does not perform translation.
+> When using *Text to Speech*, the text must be entered in the selected language as the system doesn't perform translation.
 >
 > All words will be pronouced in the selected language.
 
