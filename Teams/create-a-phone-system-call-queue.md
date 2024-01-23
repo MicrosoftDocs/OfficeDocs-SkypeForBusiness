@@ -43,7 +43,7 @@ Before you follow the procedures in this article, be sure you have read [Plan fo
 
 ## What's new for Call queues in the past six months
 
-No new features in the past six months.
+- January 26 - [Support click-to-call web based calling](/azure/communication-services/quickstarts/voice-video-calling/get-started-teams-call-queue)
 
 ## Steps to create a Call queue
 
@@ -68,7 +68,7 @@ To set up a Call queue, in the [Teams admin center](https://go.microsoft.com/fwl
 
 Type a name for the Call queue in the box at the top.
 
-### Add a resource account
+### Add an existing resource account
 
 To add an existing resource account:
 
@@ -77,7 +77,7 @@ To add an existing resource account:
 1. Select the **Add** button next to the resource account you want to assign to this Call queue.
 1. At the bottom of the pane, select the **Add** button.
 
-If you need to create a resource account:
+### Create a new resource account:
 
 1. Under **Resource accounts**, select the **Add** button to add a resource account for this Call queue.
 1. On the **Add accounts** pane, search for any set of letters to pull up the results dropdown.
@@ -148,7 +148,9 @@ Specify if you want to play a *greeting* to callers when they arrive in the queu
 - If you select **Type a greeting message**, the system reads the text that you type (up to 1000 characters) when the Call queue answers a call.
 
 >[!NOTE]
-> When using *Text to Speech*, the text must be entered in the language selected for the Call queue. The system doesn't perform translation.
+> When using *Text to Speech*, the text must be entered in the selected language as the system does not perform translation.
+>
+> All words will be pronouced in the selected language.
 
 Teams provides default music to callers while they're *on hold in a queue*.
 
@@ -320,6 +322,8 @@ For example, when **Overflow** occurs, you might send calls to a backup Call que
 > The **Voicemail (personal)** routing option will send calls to the user and not directly to their voicemail as indicated. This is being investigated by Support. As an alternative, setup a distribution list with the person being the only member and use the **Voicemail (shared)** option.
 >
 > For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md?tabs=additional-resources) for number formatting.
+>
+> Do not include any special characters in the greeting message when redirecting to **Voicemail (shared)**.
 
 ### Overflow: Set how to handle call overflow
 
@@ -403,28 +407,30 @@ The following settings are recommended:
 |Feature                          |Teams Desktop<sup>1</sup> |Teams Web | Teams Mobile<sup>2</sup> |Skype for Business |IP Phones | Standard Call Queues |Channel Based Call Queues | Comment |
 |:--------------------------------|:------------------------:|:--------:|:--------------:|:---:|:--------:|:--------------------:|:------------------------:|:--------|
 |**Agent Routing Methods**        |                          |          |                |     |          |                      |                          |   |
-|Attendant Routing              |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |*Default*     |
-|Longest Idle<sup>3</sup>       |Y                         |Y         |Y               |N    |Y         |Y                     |Y                         |*Recommended* |
-|Round Robin                    |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |*Recommended* |
-|Serial                         |Y                         |Y         |Y               |Y    |Y         |Y<sup>4</sup>         |Y<sup>4</sup>             |   |
+|Attendant Routing                |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |*Default*     |
+|Longest Idle<sup>3</sup>         |Y                         |Y         |Y               |N    |Y         |Y                     |Y                         |*Recommended* |
+|Round Robin                      |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |*Recommended* |
+|Serial                           |Y                         |Y         |Y               |Y    |Y         |Y<sup>4</sup>         |Y<sup>4</sup>             |   |
 |**Agent Routing Options**        |                          |          |                |     |          |                      |                          |   |
-|Presence Based Routing<sup>3</sup>|Y                      |Y         |Y               |N    |Y         |Y                     |Y                         |*Default* |
-|Agents can Opt-out<sup>10</sup> |Y                       |Y         |Y               |Y<sup>7</sup>|Y<sup>7</sup>|Y          |Y                         |*Default*     |
+|Presence Based Routing<sup>3</sup>|Y                        |Y         |Y               |N    |Y         |Y                     |Y                         |*Default* |
+|Agents can Opt-out<sup>10</sup>  |Y                         |Y         |Y               |Y<sup>7</sup>|Y<sup>7</sup>|Y          |Y                         |*Default*     |
 |**Transfer Modes**               |                          |          |                |     |          |                      |                          |   |
-|Conference Mode<sup>5</sup>    |Y                         |Y         |Y               |N    |Y<sup>6</sup>|Y                  |Y                         |*Default* |
-|Transfer Mode                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |   |
+|Conference Mode<sup>5</sup>      |Y                         |Y         |Y               |N    |Y<sup>6</sup>|Y                  |Y                         |*Default* |
+|Transfer Mode                    |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |   |
 |**Collaborative Calling**        |                          |          |                |     |          |                      |                          |   |
-|Channel Based Queues             |Y                       |N         |N               |N    |N         |N/A                   |Y<sup>8</sup>             |   |
+|Channel Based Queues             |Y                         |N         |N               |N    |N         |N/A                   |Y<sup>8</sup>             |   |
 |**Dynamic caller ID**            |                          |          |                |     |          |                      |                          |   |
-|Standard Call queue            |Y                         |Y         |Y               |N    |N         |Y                     |N/A                       |   |
-|Channel based Call queue       |Y                         |N/A       |N/A             |N/A  |N/A       |N/A                   |Y                         |   |
+|Standard Call queue              |Y                         |Y         |Y               |N    |N         |Y                     |N/A                       |   |
+|Channel based Call queue         |Y                         |N/A       |N/A             |N/A  |N/A       |N/A                   |Y                         |   |
 |**PSTN Connectivity Methods**    |                          |          |                |     |          |                      |                          |See Note 9   |
-|Calling Plans                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |   |
-|Direct Routing                 |Y                         |Y         |Y               |N    |Y         |Y<sup>6</sup>         |Y                         |   |
-|Operator Connect               |Y                         |Y         |Y               |     |Y         |Y<sup>6</sup>         |Y                         |   |
+|Calling Plans                    |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |   |
+|Direct Routing                   |Y                         |Y         |Y               |N    |Y         |Y<sup>6</sup>         |Y                         |   |
+|Operator Connect                 |Y                         |Y         |Y               |     |Y         |Y<sup>6</sup>         |Y                         |   |
 |**Miscellaneous**                |                          |          |                |     |          |                      |                          |   |
-|Call toast shows Resource Account Name |Y                 |N         |Y               |Y    |          |Y                     |Y                         |   |
+|Call toast shows Resource Account Name |Y                   |N         |Y               |Y    |          |Y                     |Y                         |   |
 |[Compliance recording](teams-recording-policy.md) | N/A     |N/A       |N/A             |N/A  |N/A       |N/A                   |N                         |   |
+|Click-to-call                    | Y                        |N         |N               |N    |N         |Y                     |Y                         |   |
+
 
 #### Notes
 
