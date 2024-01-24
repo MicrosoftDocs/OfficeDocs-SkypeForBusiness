@@ -148,7 +148,7 @@ To view the Usage report for your Bring Your Own Device rooms:
 1. In the Reports page, select the **BYOD Usage** tab.  
 
 :::image type="content" source="../media/byod/usage-report.png" alt-text="Screenshot of Usage Report." lightbox="../media/byod/usage-report.png":::
-The headlines provide some rooms’ insights described in the following table: 
+The headlines provide few rooms’ insights described in the following table: 
 
 | Metrics | Description |
 |---|---|
