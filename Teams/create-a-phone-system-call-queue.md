@@ -247,6 +247,8 @@ Once you've selected your call answering options, select the **Next** button at 
 >
 > Agents may hear the configured music on hold in queue for up to 2 seconds when first joining the call.
 
+> [!IMPORTANT]
+> Transfer mode (when conference mode is disabled) is now in legacy mode.  Support for transfer mode is scheduled to be removed by the end of 2024.
 
 ## [Step 4: Agent selection](#tab/agent-selection)
 
