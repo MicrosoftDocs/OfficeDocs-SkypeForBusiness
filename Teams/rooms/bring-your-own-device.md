@@ -62,7 +62,7 @@ Below the headline, you'll find a table with specific information about each roo
 
 #### Room detail view:
 
-When you select a specific room, you'll see a new tab with two different pages, **General** and **Inventory** page.
+When you select a specific room, you'll see a new pane with two different pages, **General** and **Inventory** page.
 
 - **The General page:** Provides the following room information:
 
@@ -101,7 +101,7 @@ The Devices tab displays a table with device information. Select the device to v
 
 When you select a specific device associated with a room, a new page opens up displaying the following two tabs:
 
-- **Configuration**: This page displays information about the device and room, including device serial number, product and vendor ID, manufacturer, and model. It also displays room details like name, capacity, city, state, building, and license type
+- **Configuration**: This page displays information about the device and room, including device serial number, product and vendor ID, manufacturer, and model. It also displays room details like name, capacity, city, state, building, and license type.
 - **Usage details**: This page shows the room's usage report data for the selected period and can be accessible only with a Teams Shared Device license assigned to the room.
 
 ### To add a device to the room
@@ -172,7 +172,7 @@ Below the headline metrics, there's a table that provides a granular breakdown o
 
 ### Bring Your Own Device call utilization detailed view 
 
-To see the call utilization view for each room, select the specific Bring Your Own Device room from the table. There will be a new tab, which gives a detailed view of devices call utilization based on selected period. 
+To see the call utilization view for each room, select the specific Bring Your Own Device room from the table. There will be a new pane, which gives a detailed view of devices call utilization based on selected period. 
 
 > [!NOTE]
 > Only rooms with Teams Shared Devices or Pro licenses and that are done with the device association are shown in the usage report. 
