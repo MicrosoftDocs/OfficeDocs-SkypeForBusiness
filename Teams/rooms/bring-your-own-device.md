@@ -23,7 +23,7 @@ f1keywords:
 
 # Bring Your Own Device Rooms in Teams Pro Management portal
 
-Bring Your Own Device rooms are identified as rooms with no Microsoft Teams Rooms. As an admin, you will gain visibility of the Bring Your Own Device rooms and devices in the Teams Pro Management Portal upon logging in. To have access to the portal, you will need at least one pro, premium, or TSD license.
+Bring Your Own Device rooms are identified as rooms with no Microsoft Teams Rooms. As an admin, you'll gain visibility of the Bring Your Own Device rooms and devices in the Teams Pro Management Portal upon logging in. To have access to the portal, you'll need at least one pro, premium, or TSD license.
 
 1. Open Pro Management Portal on [https://portal.rooms.microsoft.com/](https://portal.rooms.microsoft.com/) and navigate to **Inventory**.
 2. In the left navigation menu, select **Planning** and go to **Inventory**.
@@ -33,7 +33,7 @@ Bring Your Own Device rooms are identified as rooms with no Microsoft Teams Room
 
 ## Inventory page
 
-In the **Inventory** page, you will find an overview of all the rooms within your organization. You can explore your organization's inventory and devices and you can find rooms based on specific groups (country, city, buildings) or by utilizing the search function.
+In the **Inventory** page, you'll find an overview of all the rooms within your organization. You can explore your organization's inventory and devices and you can find rooms based on specific groups (country, city, buildings) or by utilizing the search function.
 
 There are two main tabs under **Inventory**: **Rooms** and **Devices**.
 
@@ -56,13 +56,13 @@ The following table describes the columns in the **Rooms** view of Inventory.
 | Display name | Name of the room |
 | Capacity | Illustrate the room's capacity number |
 | Room type | Type of the room either Teams Rooms or Bring Your Own Device |
-| Licenses Type | Type of license assigned to the room, (eg. pro, premium, basic, standard, shared licenses, or unlicensed) |
+| Licenses Type | Type of license assigned to the room (for example, pro, premium, basic, standard, shared licenses, or unlicensed) |
 
-Below the headline, you will find a table with specific information about each room:
+Below the headline, you'll find a table with specific information about each room:
 
 #### Room detail view:
 
-When you click on a specific room, you will see a new tab with two different pages, **General** and **Inventory** page.
+When you select a specific room, you'll see a new tab with two different pages, **General** and **Inventory** page.
 
 - **The General page:** Provides the following room information:
 
@@ -78,7 +78,7 @@ When you click on a specific room, you will see a new tab with two different pag
 | **Column** | **Description** |
 | --- | --- |
 | Name | Name of the device |
-| Type | Type of device (eg. Microsoft Teams Rooms, TeamsPanel, camera.) |
+| Type | Type of device (for example, Microsoft Teams Rooms, TeamsPanel, camera.) |
 | Make | Manufacturer name |
 | SerialNumber | The device's serial number |
 
@@ -93,8 +93,8 @@ The Devices tab displays a table with device information. Select the device to v
 | **Column** | **Description** |
 | --- | --- |
 | Device display name | Name of the device |
-| Device type | The category of the device ( eg. panel, speaker,) |
-| Associated account | The name of the room associated with the device. <br> Need action: Indicates if the device is not yet associated with a room |
+| Device type | The category of the device (for example, panel, speaker) |
+| Associated account | The name of the room associated with the device. <br> Need action: Indicates if the device isn't yet associated with a room |
 | SerialNumber | The device's serial number |
 
 #### Device detailed view:
@@ -122,7 +122,7 @@ To associate a device with a room, the following two methods are available:
 
 - **Using Auto directory function:** To associate a device with a room:
   - Go to the device table.
-  - Click the specific device with the **Need Action** banner. 
+  - Select the specific device with the **Need Action** banner. 
   - Click **Add a room to this device**.
   - Select the desired room from the list to associate the device with.
   - Click **Save**.
@@ -132,11 +132,11 @@ To associate a device with a room, the following two methods are available:
 
 ## Devices automatically discovered by the Pro Management Portal
 
-Devices are automatically discovered using your users' Teams client to send device data to Pro Management Portal. When a user enters the pre-join screen of a meeting, any connected displays and USB audio/video peripherals will be scanned and transmitted to the cloud. These devices populate your Devices sub-tab within the Inventory navigation.
+Devices are automatically discovered using your users' Teams client to send device data to Pro Management Portal. When a user enters the prejoin screen of a meeting, any connected displays and USB audio/video peripherals are scanned and transmitted to the cloud. These devices populate your Devices tab within the Inventory navigation.
 
-At launch, only displays will be supported, but USB audio/video peripherals will follow within a few weeks. Display ingestion is supported on Windows and Mac, whereas USB audio/video will only be supported on Windows.
+At launch, only displays are supported, but USB audio/video peripherals will follow within a few weeks. Display ingestion is supported on Windows and Mac, whereas USB audio/video will only be supported on Windows.
 
-Please be aware that Microsoft can't guarantee that devices provide unique data like serial numbers, and this may cause errors or overcounting of usage. We recommend working with your OEM partners to ensure that their devices are providing unique serial numbers to the operating system via the USB descriptor or EDID.
+Be aware that Microsoft can't guarantee that devices provide unique data like serial numbers, and this may cause errors or overcounting of usage. We recommend working with your OEM partners to ensure that their devices are providing unique serial numbers to the operating system via the USB descriptor or EDID.
 
 ## Bring Your Own Device Usage Report 
 
@@ -155,12 +155,12 @@ The headlines provide some rooms’ insights described in the following table:
 | **Total rooms** | Total number of Bring Your Own Device rooms |
 | **Unused rooms** | Number of Bring Your Own Device rooms with no calls |
 | **Used rooms** | Number of Bring Your Own Device rooms used based on calls made |
-| **Utilization** | Percentage of utilization of all Bring Your Own Device rooms across the tenant. <br> Utilization = Total call duration (all rooms) / (Workdays * workday hour * Bring Your Own Device rooms) <br> For example: If the tenant has 15 Bring Your Own Device Rooms, total call duration for all rooms is 300h, work days = 10, work day hour = 8h; then Utilization = 300/(10\*8\*15)= 25% |
+| **Utilization** | Percentage of utilization of all Bring Your Own Device rooms across the tenant. <br> Utilization = Total call duration (all rooms) / (Workdays * workday hour * Bring Your Own Device rooms) <br> For example: If the tenant has 15 Bring Your Own Device Rooms, total call duration for all rooms is 300 h, work days = 10, work day hour = 8 h; then Utilization = 300/(10\*8\*15)= 25% |
 | **Audio and video calls** | Will generate the duration of the audio call and video camera |
 | **Overall call performance** | Overall Percentage of calls rated as “Good” out of the total calls in the room. Each call is evaluated and receives a Good, poor, Unknown rating. |
 | **Total calls** | Overall number of calls made in Bring Your Own Device rooms |
 
-Below the headline metrics, there is a table that provides a granular breakdown of individual Bring Your Own Device rooms, accompanied by specific metrics that illuminate each room’s usage and performance during the period selected. 
+Below the headline metrics, there's a table that provides a granular breakdown of individual Bring Your Own Device rooms, accompanied by specific metrics that illuminate each room’s usage and performance during the period selected. 
 
 | **Column** | **Description** |
 |---|---|
@@ -172,7 +172,7 @@ Below the headline metrics, there is a table that provides a granular breakdown 
 
 ### Bring Your Own Device call utilization detailed view 
 
-To see the call utilization view for each room, select the specific Bring Your Own Device room from the table. There will be a new tab which gives a detailed view of devices call utilization based on selected period. 
+To see the call utilization view for each room, select the specific Bring Your Own Device room from the table. There will be a new tab, which gives a detailed view of devices call utilization based on selected period. 
 
 > [!NOTE]
 > Only rooms with Teams Shared Devices or Pro licenses and that are done with the device association are shown in the usage report. 
