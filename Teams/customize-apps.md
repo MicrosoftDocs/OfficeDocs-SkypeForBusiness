@@ -8,7 +8,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
-ms.date: 06/27/2023
+ms.date: 10/17/2023
+ms.reviewer: mhayrapetyan
 ms.collection: 
   - M365-collaboration
 f1.keywords: 
@@ -104,8 +105,6 @@ After a few hours, your Teams users can see the customized app in the Teams stor
 Consider the following details about app customization functionality:
 
 * You can only customize [third-party apps](apps-in-teams.md#third-party-apps-created-by-independent-app-developers) and not [custom apps](apps-in-teams.md#custom-apps-created-within-an-organization-for-internal-use).
-
-* You can't customize any app in Government Community Cloud High (GCCH) and Department of Defense (DoD) environments.
 
 * An app can be customized only if the app developer allows it.
 

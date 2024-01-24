@@ -1,8 +1,8 @@
 ---
 title: Plan SIP Gateway
-author: tonysmit
+author: mstonysmith
 ms.author: tonysmit
-manager: serdars
+manager: pamgreen
 ms.date: 08/22/2023
 ms.topic: article
 ms.service: msteams
@@ -11,7 +11,7 @@ ms.collection:
   - teams-rooms-devices
   - highpri
   - Tier1
-ms.reviewer: crowe
+ms.reviewer: chasing
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -113,15 +113,15 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |Rove 20    |8.0.5.0003  |8.0.5.0003 |   |   |
 |          |Rove 30    |8.0.5.0002  |8.0.5.0002 |   |   |
 |          |Rove 40    |8.0.5.0002  |8.0.5.0002 |   |   |
-|          |Edge E100  |8.1.0.12774  |8.1.0.12774 |   |   |
-|          |Edge E220  |8.1.0.12774  |8.1.0.12774 |   |   |
-|          |Edge E300  |8.1.0.12774  |8.1.0.12774 |   |   |
-|          |Edge E320  |8.1.0.12774  |8.1.0.12774 |   |   |
-|          |Edge E350  |8.1.0.12774  |8.1.0.12774 |   |   |
-|          |Edge E400  |8.1.0.12774  |8.1.0.12774 |   |   |
-|          |Edge E450  |8.1.0.12774  |8.1.0.12774 |   |   |
-|          |Edge E500  |8.1.0.12774  |8.1.0.12774 |   |   |
-|          |Edge E550  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E100<sup>1</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E220<sup>1</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E300<sup>1</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E320<sup>1</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E350<sup>1</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E400<sup>1</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E450<sup>1</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E500<sup>1</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E550<sup>1</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
 |          |OBi 300  |3.2.4.8441     |3.2.5.8732  |   |   |
 |          |OBi 302  |3.2.4.8441     |3.2.5.8732  |   |   |
 |**Yealink**|          |            |           |   |[Yealink support](https://support.yealink.com/)|
@@ -180,7 +180,7 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |C450HD<sup>1</sup>     |3.2.1      |3.4.6.717  |   |   |
 |          |445HD<sup>1</sup>      |3.2.1      |3.4.6.717  |   |   |
 |          |RX50<sup>1</sup>       |3.2.1      |3.4.6.717  |   |   |
-|          |MP112                  |6.60A.367.001      |6.60A.367.001  |ATA   | All ports available  |
+|          |MP112                  |6.60A.367.001      |6.60A.367.001  |ATA   | All ports available [AudioCodes ATA Setup Guide](https://www.audiocodes.com/media/pafhki3d/onboarding-audiocodes-ata-to-microsoft-sip-gateway-for-teams.pdf)  |
 |          |MP114-FXS              |6.60A.367.001      |6.60A.367.001  |ATA   | 3 out of 4 ports available   |
 |          |MP114-FXS-FXO          |6.60A.367.001      |6.60A.367.001  |ATA   | 3 out of 4 ports available   |
 |          |MP118-FXS              |6.60A.367.001      |6.60A.367.001  |ATA   | 6 out of 8 ports available  |
@@ -243,8 +243,16 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |8373          |5.3     |5.3     |Paging Adapter |   |
 |          |8410          |5.3     |5.3     |Display Speaker |   |
 |          |8420          |5.3     |5.3     |Display Speaker |   |
+|**Alcatel-Lucent Enterprise**|       |     |              |                |   |
+|          |M3          |2.14.03.000.2345     |2.14.03.000.2345 |   |   |
+|          |M5          |2.14.03.000.2345     |2.14.03.000.2345 |   |   |
+|          |M7          |2.14.03.000.2345     |2.14.03.000.2345 |   |   |
+|          |M8          |2.14.05.000.2352     |2.14.05.000.2352 |   |   |
 
 <sup>1</sup> Device supports dynamic emergency calling (E911) with SIP Gateway.
+
+> [!NOTE]
+> Compatible Cisco SIP IP phones support dynamic location discovery over LLDP only. 
 
 > [!NOTE]
 > Customers can use AudioCodes OVOC and Poly Lens to manage device side configuration of their AudioCodes 400 series and Poly VVX/Trio devices respectively.

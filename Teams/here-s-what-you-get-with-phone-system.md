@@ -4,7 +4,7 @@ ms.reviewer:
 ms.date: 08/15/2023
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 msreviewer: jastarck, roykuntz
 ms.topic: conceptual
 ms.assetid: bc9756d1-8a2f-42c4-98f6-afb17c29231c
@@ -33,12 +33,12 @@ This article describes Microsoft Teams Phone features. For more information abou
 
 Clients are available for PC, Mac, and mobile, which provides features on devices from tablets and mobile phones to PCs and desktop IP phones. For more information, see [Get clients for Microsoft Teams](get-clients.md).
 
- > [!Note]
+> [!NOTE]
 > For details about Teams phone systems on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 To use Teams Phone features, your organization must have a Teams Phone license. For more information about licensing, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-Be aware that most features require you to assign the Teams Phone license and ensure that users are "voice enabled." To assign the license, use the [Set-CsPhoneNumberAssignment cmdlet](/powershell/module/teams/set-csphonenumberassignment?view=teams-ps) and set the **EnterpriseVoiceEnabled** parameter to $true. A few features, such as cloud auto attendant, do not require a user to be voice enabled. Exceptions are called out in the table below.
+Be aware that most features require you to assign the Teams Phone license and ensure that users are "voice enabled." To assign the license, use the [Set-CsPhoneNumberAssignment cmdlet](/powershell/module/teams/set-csphonenumberassignment) and set the **EnterpriseVoiceEnabled** parameter to $true. A few features, such as cloud auto attendant, do not require a user to be voice enabled. Exceptions are called out in the table below.
   
 ## Teams Phone features
 
@@ -51,7 +51,7 @@ Teams Phone provides the following features.
 |[Music on hold](music-on-hold.md) | Plays default music defined by the service or custom music uploaded by the tenant administrator when an external call from the Public Switched Telephone Network (PSTN) is placed on hold. This feature works for one-to-one PSTN-to-Teams calls in addition to calls made to a call queue. This feature provides on-hold notification parity with other platforms. |
 |Call answer/initiate (by name and number)   |Lets users answer inbound calls with a touch, and place outbound calls either by dialing the full phone number or by clicking a name in the client.   |
 |[Call forwarding options and simultaneous ring](https://support.office.com/article/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)  |Lets users set up forwarding rules so calls can go with them anywhere, or calls can be forwarded to colleagues or to voicemail.   |
-|[Group call pickup and forward to group](call-sharing-and-group-call-pickup.md)  | Lets users share incoming calls with colleagues so that the colleagues can answer calls that occur while the user is unavailable. Less disruptive to recipients than other forms of call sharing (such as call forwarding or simultaneous ringing) because users can configure how they want to be notified of an incoming shared call. |
+|[Call sharing and group call pickup](call-sharing-and-group-call-pickup.md)  | Lets users share incoming calls with colleagues so that the colleagues can answer calls that occur while the user is unavailable. Less disruptive to recipients than other forms of call sharing (such as call forwarding or simultaneous ringing) because users can configure how they want to be notified of an incoming shared call. |
 |[Transfer a call and consultative transfer](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0)  |Lets users transfers calls to another person. Or, if they need to leave their office but want to continue the conversation, they can transfer the calls from their PC or IP phone to their cell phone.  <br/> Note that users *do not* need to be voice enabled to receive transferred calls from another user. |
 |[Transfer to voicemail mid call*](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0)  | Lets users transfer to voicemail during a call. |
 |[Call park and retrieve](call-park-and-retrieve.md)   | Lets users place a call on hold in the Teams service in the cloud. When a call is parked, the service generates a unique code for call retrieval. The user who parked the call or someone else can then use that code and a supported app or device to retrieve the call.  |
@@ -81,9 +81,9 @@ The following capabilities are not yet available in GCC High and DoD Clouds.
 - [Call settings for secondary ringer, voicemail, and enhanced delegation](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)
 - [Transfer to voicemail mid call](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0)
 - Call phone number from search bar
-- Azure AD reverse number lookup
+- Microsoft Entra ID reverse number lookup
 
-## Related topics
+## Related articles
 
 - [What is Teams Phone](what-is-phone-system-in-office-365.md)
 - [Cloud voice in Microsoft Teams](cloud-voice-landing-page.md)

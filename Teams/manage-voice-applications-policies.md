@@ -1,8 +1,8 @@
 ---
 title: Manage voice applications policies for Microsoft Teams
-ms.author: danismith
-author: DaniEASmith
-manager: serdars
+author: mkbond007
+ms.author: mabond
+manager: pamgreen
 ms.reviewer: colongma
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -31,7 +31,7 @@ Voice applications policies can be managed in the Microsoft Teams admin center.
 1. Sign into the [Microsoft Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
 1. Navigate to **Voice** > **Voice applications policies**.
 
-Alternatively, the [PowerShell cmdlets](#voice-applications-policy-powershell-cmdlets) in this article may be used.
+Alternatively, the [PowerShell cmdlets](#voice-applications-policy-powershell-cmdlets) in this article can be used.
 
 ## Before creating and assigning voice applications policies
 
@@ -51,9 +51,9 @@ Changing the global policy or creating a custom policy and assigning to user(s) 
 
 In addition to having a voice applications policy assigned, users must also be assigned as an [Authorized user](aa-cq-authorized-users.md) to at least one Auto attendant or Call queue.
 
-Having only a policy assigned and not being assigned as an authorized user to at least one Auto attendant or Call queue won't enable the user to perform the actions described in this article.
+Assigning a policy to a user but not assigning them an authorized user to at least one Auto attendant or Call queue won't enable the user to perform the actions described in this article.
 
-Similarly, being assigned as an authorized user to at least one Auto attendant or Call queue but not being assigned a policy won't enable the user to perform the actions described in this article.
+Similarly, assigning a user as an authorized user to at least one Auto attendant or Call queue but not assigning a policy won't enable the user to perform the actions described in this article.
 
 ## Create a custom voice applications policy
 
@@ -61,7 +61,7 @@ Similarly, being assigned as an authorized user to at least one Auto attendant o
 1. Navigate to **Voice** > **Voice applications policies**.
 1. Select **Add**.
 
-    :::image type="content" source="media/voiceapplications-policies-add-policy.png" alt-text="Screenshot of voice applications policy page in the Microsoft Teams admin center.":::
+    :::image type="content" source="media/voiceapplications-policies-example-02.png" alt-text="Screenshot of voice applications policy page in the Microsoft Teams admin center.":::
 
 1. Enter a name and description for the policy.
 1. From here, choose the settings you want.
@@ -103,12 +103,17 @@ You can edit the global policy or any custom policies you create.
 - [Remove-CsTeamsVoiceApplicationsPolicy](/powershell/module/teams/remove-csteamsvoiceapplicationspolicy):
   - Delete an existing Teams voice applications policy.
 
+- [Set-CsTeamsVoiceApplicationsPolicy](/powershell/module/teams/Set-CsTeamsVoiceApplicationsPolicy)
+  - Change an existing Teams voice applications policy.
+
 ## Voice applications policy settings
 
 > [!IMPORTANT]
 > In addition to creating a `TeamsVoiceApplicationsPolicy` and assigning it to users, a user must also be assigned as an [Authorized users](aa-cq-authorized-users.md) to at least one Auto attendant or Call queue.
 
-### Auto attendant configuration
+### Auto Attendant
+
+#### Greetings
 
 - **Business Hours Greeting**: Turn on this setting to allow authorized users to change the *business hours greeting* for the Auto attendants they're authorized for.
 
@@ -116,7 +121,9 @@ You can edit the global policy or any custom policies you create.
 
 - **Holiday Greeting**: Turn on this setting to allow authorized users to change the *holiday greeting* for the Auto attendants they're authorized for.
 
-### Call queue configuration
+### Call Queue
+
+#### Greetings
 
 - **Welcome Greeting**: Turn on this setting to allow authorized users to change the *welcome greeting* for the Call queues they're authorized for.
 
@@ -126,98 +133,7 @@ You can edit the global policy or any custom policies you create.
 
 - **Timeout Shared Voicemail Greeting**: Turn on this setting to allow authorized users to change the *timeout shared voicemail greeting* for the Call queues they're authorized for.
 
-## Future release voice applications policy settings
-
-The following policy settings are referenced in the [PowerShell cmdlets section](#voice-applications-policy-powershell-cmdlets); however, they aren't generally available at this time and aren't shown in Teams admin center. Currently, changing these policies via PowerShell will not allow authorized users to perform these functions.  
-
-### Auto attendant configuration
-
-- **AllowAutoAttendantBusinessHoursChange**: Turn on this setting to allow authorized users to change the *Auto attendant business hours schedule* for the Auto attendants they're authorized for.
-
-- **AllowAutoAttendantBusinessHoursRoutingChange**: Turn on this setting to allow authorized users to change the *Auto attendant business hours call flow* for the Auto attendants they're authorized for.
-
-- **AllowAutoAttendantAfterHoursRoutingChange**: Turn on this setting to allow authorized users to change the *Auto attendant after-hours call flow* for the Auto attendants they're authorized for.
-
-- **AllowAutoAttendantHolidaysChange**: Turn on this setting to allow authorized users to change the *Auto attendant holiday schedules* for the Auto attendants they're authorized for.
-
-  > [!WARNING]
-  > Holiday sets may be shared across multiple auto attendants.  When an authorized user makes a change to the dates or times in a holiday set, it affects all auto attendants that use that holiday set.
-  
-- **AllowAutoAttendantHolidayRoutingChange**: Turn on this setting to allow authorized users to change the *auto attendant holiday call flows* for the auto attendants they're authorized for.
-
-- **AllowAutoAttendantLanguageChange**: Turn on this setting to allow authorized users to change the *Auto attendant language* for the Auto attendants they're authorized for.
-
-- **AllowAutoAttendantTimeZoneChange**: Turn on this setting to allow authorized users to change the *Auto attendant time zone* for the Auto attendants they're authorized for.
-
-### Call queue configuration
-
-- **AllowCallQueueOptOutChange**: Turn this setting on to allow authorized users to change the *Call queue opt-out setting* for the Call queues they're authorized for. This setting allows agents to opt-out of receiving calls from the Call queue.
-
-- **AllowCallQueueConferenceModeChange**: Turn this setting on to allow authorized users to change the *Call queue conference mode setting* for the Call queues they're authorized for.
-
-  > [!WARNING]
-  > **Conference mode** reduces the amount of time it takes for a caller and agent to be connected after the agent accepts the call.
-  > 
-  > Turning off **Conference Mode** will result in longer caller-to-agent connection times.
-
-- **AllowCallQueueLanguageChange**: Turn this setting on to allow authorized users to change the *Call queue language* for Call queues they're authorized for.
-
-- **AllowCallQueueMembershipChange**: Turn this setting on to allow authorized users to change the agents who are part of the Call queue.
-
-- **AllowCallQueueNoAgentsRoutingChange**: Turn this setting on to allow authorized users to change the *call queue no-agent handling properties* for the call queues they're authorized for.
-
-- **AllowCallQueueOverflowRoutingChange**: Turn this setting on to allow authorized users to change the *Call queue overflow handling properties* for the Call queues they're authorized for.
-
-- **AllowCallQueuePresenceBasedRoutingChange**: Turn this setting on to allow authorized users to change the *Call queue presence-based routing option* for the Call queues they're authorized for.
-
-- **AllowCallQueueRoutingMethodChange**: Turn this setting on to allow authorized users to change the *Call queue routing method* for the Call queues they're authorized for.
-
-- **AllowCallQueueTimeoutRoutingChange**: Turn this setting on to allow authorized users to change the *Call queue timeout handling properties* for the Call queues they're authorized for.
-
-### Call queue agent opt-in status
-
-- **AllowCallQueueAgentOptChange**: Turn on this setting to allow authorized users to change an agent's opt-in status for the Call queues they're authorized for. 
-
-### Call queue monitor, whisper, barge, takeover
-
-- **CallQueueAgentMonitorMode**: When set to **Monitor**, **Whisper**, **Barge**, or **Takeover**, this setting allows an authorized user to perform the following actions:
-  - When set to **Monitor**, an authorized user can monitor an agent and listen to them while they are on an inbound call queue call.
-  - When set to **Whisper**, an authorized user can monitor an agent and whisper to them while they are on an inbound call queue call. The caller won't hear the authorized user.
-  - When set to **Barge**, an authorized user can monitor an agent, whisper to them, and barge in or join the inbound call queue call.
-  - When set to **Takeover**, an authorized user can monitor an agent, whisper to them, barge in, and take over the inbound call queue call.
-
-    > [!NOTE]
-    > An agent may only be monitored by one authorized user at a time.
-    >
-    > An authorized user may only be in one monitor session at a time.
-
-- **CallQueueAgentMonitorNotificationMode**: When set to *agent*, a call monitoring banner is presented to the agent who is being actively monitored by an authorized user.
-
-### Real-time and historical reporting
-
- - **RealTimeAutoAttendantMetricsPermission**: When set to **Authorized** or **All**, this setting allows authorized users to access real-time auto attendant metrics.
-   -  When set to **Authorized**, an authorized user sees metrics for the auto attendants they're authorized for.
-   -  When set to **All**, an authorized user sees metrics for all the auto attendants in the tenant.
-
- - **RealTimeCallQueueMetricsPermission**: When set to **Authorized** or **All**, this setting allows authorized users to access real-time call queue metrics.
-   -  When set to **Authorized**, an authorized user sees metrics for the call queues they're authorized for.
-   -  When set to **All**, an authorized user sees metrics for all the call queues in the tenant.
-
- - **RealTimeAgentMetricsPermission**: When set to **Authorized** or **All**, this setting allows authorized users to access real-time agent metrics.
-   -  When set to **Authorized**, an authorized user sees metrics for the agents associated with the call queues they're authorized for.
-   -  When set to **All**, an authorized user sees metrics for all the agents in the tenant.
-
- - **HistoricalAutoAttendantMetricsPermission**: When set to **Authorized** or **All**, this setting allows authorized users to access historical auto attendant metrics.
-   -  When set to **Authorized**, an authorized user sees metrics for the auto attendants they're authorized for.
-   -  When set to **All**, an authorized user sees metrics for all the auto attendants in the tenant.
-
- - **HistoricalCallQueueMetricsPermission**: When set to **Authorized** or **All**, this setting allows authorized users to access historical call queue metrics.
-   -  When set to **Authorized**, an authorized user sees metrics for the call queues they're authorized for.
-   -  When set to **All**, an authorized user sees metrics for all the call queues in the tenant.
-
- - **HistoricalAgentMetricsPermission**: When set to **Authorized** or **All**, this setting allows authorized users to access historical agent metrics.
-   -  When set to **Authorized**, an authorized user sees metrics for the agents associated with the call queues they're authorized for.
-   -  When set to **All**, an authorized user sees metrics for all the agents in the tenant.
+- **No Agents Shared Voicemail Greeting**: Turn on this setting to allow authorized users to change the *timeout shared voicemail greeting* for the Call queues they're authorized for.
 
 ## Related articles
 

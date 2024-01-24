@@ -11,7 +11,7 @@ ms.date: 08/16/2023
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.reviewer: 
+ms.reviewer: mbmanoj
 search.appverid: 
 f1keywords: 
 description: Learn how to set Adobe Acrobat as a default PDF viewer to view and edit PDF files in Microsoft Teams.
@@ -61,7 +61,7 @@ To assign and make the Adobe Acrobat app available for all users, follow these s
 
 1. Select **Save**.
 
-1. Optionally, you can allow SSO with Microsoft Azure Active Directory identity if you own a license of Adobe Acrobat. We recommend configuring SSO using the instructions available at [Set up identity and single sign-on](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
+1. Optionally, you can allow SSO with Microsoft Entra identity if you own a license of Adobe Acrobat. We recommend configuring SSO using the instructions available at [Set up identity and single sign-on](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
 
 After you complete the configuration, Teams uses Adobe Acrobat app as the default file handler for PDF files.
 

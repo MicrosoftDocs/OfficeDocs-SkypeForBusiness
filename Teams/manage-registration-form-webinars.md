@@ -2,7 +2,7 @@
 title: Manage the registration form for webinars in Microsoft Teams
 author: wlibebe
 ms.author: wlibebe
-manager: serdars
+manager: pamgreen
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -17,6 +17,8 @@ appliesto:
   - Microsoft Teams
 ---
 # Manage the registration form for webinars
+
+**APPLIES TO:** ✖️Meetings ✔️Webinars ✖️Town halls
 
 ## Overview
 

@@ -2,13 +2,13 @@
 title: Cloud Video Interop for Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: serdars
+manager: pamgreen
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 search.appverid: MET150
 ms.reviewer: naforer
-ms.date: 09/21/2018
+ms.date: 01/10/2024
 f1.keywords:
 - NOCSH
 description: Use Cloud Video Interop as an intermediate solution to allow third-party meeting room devices to join Microsoft Teams meetings.
@@ -57,6 +57,9 @@ third-party systems that are outside of the Office 365 infrastructure and theref
 
 The following partners have video interop solutions for Microsoft Teams. Your company may choose to work with any combination of these partners within your enterprise and choose the best support plan these partners offer for their CVI solution. 
 
+> [!WARNING]
+> Microsoft has only certified CVI partners (within the table below), for video interoperability within Teams meetings. Granting other 3rd parties with Graph API permissions which provide similar capabilities is not supported by Microsoft.
+
 |Partner|Partner solution|
 |----|---|
 |![The logo representing Pexip Infinity.](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip Infinity for Microsoft Teams</a> | 
@@ -71,7 +74,6 @@ The following partners have video interop solutions for Microsoft Teams. Your co
 ## Cloud Video Interop Release Notes
 
 Microsoft continues to work with Cloud Video Interop (CVI) partners to make meetings between Microsoft Teams and other services more seamless for users. The table below details which features are available or planned.
-
 
 |Release Date| Feature Name|Feature Description|Microsoft Status|*BlueJeans|Cisco|Pexip|*Poly|
 | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |

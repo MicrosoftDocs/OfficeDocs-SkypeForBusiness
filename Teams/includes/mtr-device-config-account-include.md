@@ -6,10 +6,10 @@ Each Microsoft Teams Rooms device needs its own resource account. The resource a
 When you create the resource mailbox, you can specify whether you want to allow recurring meetings, have the room auto accept invites, how many days into the future to accept invites, and so on.
 
 > [!TIP]
-> When naming your resource accounts, we recommend using a standard naming convention to the beginning of the e-mail address. This will help with creating dynamic groups to ease management in Azure Active Directory. For example, you could use "mtr-" for all resource accounts that will be associated with Microsoft Teams Rooms.
+> When naming your resource accounts, we recommend using a standard naming convention to the beginning of the e-mail address. This will help with creating dynamic groups to ease management in Microsoft Entra ID. For example, you could use "mtr-" for all resource accounts that will be associated with Microsoft Teams Rooms.
 
 > [!TIP]
-> We recommend that you create all resource accounts using Exchange Online and Azure Active Directory.
+> We recommend that you create all resource accounts using Exchange Online and Microsoft Entra ID.
 >
 > You can automatically configure recommended Teams Rooms resource settings via the [Surface Hub and Microsoft Teams Rooms automated setup guide](https://go.microsoft.com/fwlink/?linkid=2221605).
 

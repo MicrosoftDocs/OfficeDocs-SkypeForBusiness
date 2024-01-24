@@ -1,8 +1,8 @@
 ---
 title: Manage the Updates app for your organization
-author: lana-chin
-ms.author: v-chinlana
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.reviewer: acolonna, diyu
 ms.date: 03/30/2023
 ms.topic: how-to

@@ -2,7 +2,7 @@
 title: Plan for Teams Phone Mobile
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.date: 08/10/2023
 ms.topic: article
 ms.service: msteams
@@ -89,7 +89,7 @@ Teams Phone Mobile users can leverage existing [Phone System features](here-s-wh
 
 Ensure your organization has eligible Microsoft 365 services:
 
-- Teams Phone System SKU/E5
+- Teams Phone System SKU or E5 with Teams
 - Teams Phone Mobile add-on SKU
 
 To enable phone number assignments with Teams Phone Mobile, make sure your users:

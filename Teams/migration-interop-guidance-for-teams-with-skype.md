@@ -1,8 +1,8 @@
 ---
 title: Migration and interoperability - Skype for Business
-author: CarolynRowe
-ms.author: crowe
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.topic: conceptual
 ms.service: msteams
 audience: admin

@@ -1,8 +1,8 @@
 ---
 title: Auto attendant and call queue historical reports for GCC High and DoD
-author: DaniEASmith
-ms.author: danismith
-manager: serdars
+author: mkbond007
+ms.author: mabond
+manager: pamgreen
 ms.reviewer: colongma
 ms.date: 08/22/2023
 ms.topic: article
@@ -89,7 +89,7 @@ Perform the following steps:
 
     GCC High and DoD Customers:
 
-1. Select the appropriate CQD data pipeline from the drop down:
+1. Select the appropriate CQD data pipeline from the drop-down list:
 
    - GCCH: `cqd.gov.teams.microsoft.us/data`
    - DoD: `cqd.dod.teams.microsoft.us/data`
@@ -311,7 +311,7 @@ Perform the following steps:
 
 ## Known issues
 
-- Auto attendant resoure account IDs are being masked which prevents reporting by individual auto attendants.  Support is investigating.
+- Auto attendant resource account IDs are being masked which prevents reporting by individual auto attendants.  Support is investigating.
 
 - Call queue and auto attendants are shown by the resource account's ID instead of call queue/auto attendant names.  To show all the traffic for an auto attendant or call queue, you must select all the resource accounts assigned to the auto attendant or call queue.
 

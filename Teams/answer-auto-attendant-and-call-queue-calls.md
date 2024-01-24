@@ -1,9 +1,9 @@
 ---
 title: Answer Auto attendant and Call queue calls
 ms.reviewer: colongma
-author: DaniEASmith
-ms.author: danismith
-manager: serdars
+author: mkbond007
+ms.author: mabond
+manager: pamgreen
 audience: ITPro
 ms.date: 08/01/2023
 ms.topic: conceptual

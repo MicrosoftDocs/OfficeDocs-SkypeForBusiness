@@ -2,7 +2,7 @@
 title: Plan your voice solution in Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.date: 08/03/2023
 ms.topic: article
 ms.service: msteams

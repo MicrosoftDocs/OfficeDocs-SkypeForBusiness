@@ -76,6 +76,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "ms.service": "lync-server-2013",
       "breadcrumb_path": "/LyncServer/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "uhfHeaderId": "MSDocsHeader-M365-IT",
@@ -91,12 +92,14 @@
         "jborsecnik",
         "tiburd",
         "garycentric",
-        "beccarobins"
+        "beccarobins",
+        "Stacyrch140",
+        "v-stsavell",
+        "American-Dipper"
       ],
       "feedback_system": "None",
       "hideEdit": true,
       "ms.topic": "conceptual",
-      "ms.prod": "lync-server-2013",
       "audience": "ITPro",
       "ms.collection": "LyncServer",
       "ms.manager": "serdars",

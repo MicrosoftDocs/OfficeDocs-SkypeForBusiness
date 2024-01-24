@@ -1,9 +1,9 @@
 ---
 ms.date: 04/03/2021
 title: Migrate hybrid application endpoints to the cloud
-ms.author: serdars
 author: MicrosoftHeidi
-manager: serdars
+ms.author: heidip
+manager: jtremper
 ms.reviewer: bjwhalen
 audience: ITPro
 f1.keywords:

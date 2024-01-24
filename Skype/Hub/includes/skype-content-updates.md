@@ -2,28 +2,29 @@
 
 
 
-## Week of September 04, 2023
+## Week of January 15, 2024
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 9/5/2023 | [Skype for Business Server updates](/SkypeForBusiness/sfb-server-updates) | modified |
+| 1/19/2024 | [AppSharingMetricsThreshold table](/SkypeForBusiness/schema-reference/quality-of-experience-qoe-database-schema/appsharingmetricsthreshold) | modified |
+| 1/19/2024 | [AudioClientEvent table](/SkypeForBusiness/schema-reference/quality-of-experience-qoe-database-schema/audioclientevent) | modified |
+| 1/19/2024 | [AudioStreamDetail view](/SkypeForBusiness/schema-reference/quality-of-experience-qoe-database-schema/audiostreamdetail) | modified |
+| 1/19/2024 | [MediaLine view](/SkypeForBusiness/schema-reference/quality-of-experience-qoe-database-schema/medialine) | modified |
+| 1/19/2024 | [PurgeSettings table (QoE)](/SkypeForBusiness/schema-reference/quality-of-experience-qoe-database-schema/purgesettings-qoe) | modified |
+| 1/19/2024 | [Deploy media bypass in Cloud Connector Edition](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/deploy-media-bypass-in-cloud-connector) | modified |
+| 1/19/2024 | [Modify the configuration of an existing Cloud Connector deployment](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/modify-the-configuration-of-an-existing-cloud-connector-deployment) | modified |
+| 1/19/2024 | [Monitor Cloud Connector using Operations Management Suite (OMS)](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/monitor-cloud-connector-using-operations-management-suite-oms) | modified |
+| 1/19/2024 | [Plan for Skype for Business Cloud Connector Edition](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition) | modified |
+| 1/19/2024 | [Register-CcAppliance](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/register-ccappliance) | modified |
+| 1/19/2024 | [Troubleshoot your Cloud Connector deployment](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/troubleshoot-your-cloud-connector-deployment) | modified |
+| 1/19/2024 | [Upgrade to a new version of Cloud Connector](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/upgrade-to-a-new-version-of-cloud-connector) | modified |
 
 
-## Week of August 28, 2023
+## Week of January 01, 2024
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 8/28/2023 | [Your port order was accepted](/SkypeForBusiness/what-are-calling-plans-in-office-365/your-port-order-was-accepted) | modified |
-| 8/30/2023 | [Emergency Mitigation Service - Overview](/SkypeForBusiness/emergency-mitigation-service-overview) | modified |
-| 8/31/2023 | [Cloud Consolidation for Teams and Skype for Business](/SkypeForBusiness/hybrid/cloud-consolidation) | modified |
-| 8/31/2023 | [Deploy a resource forest topology](/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid) | modified |
-| 8/31/2023 | [Configure Azure AD Connect](/SkypeForBusiness/hybrid/configure-azure-ad-connect) | modified |
-| 8/31/2023 | [Configure Skype for Business hybrid](/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online) | modified |
-| 8/31/2023 | [Migrate hybrid application endpoints to the cloud](/SkypeForBusiness/hybrid/decommission-move-on-prem-endpoints) | modified |
-| 8/31/2023 | [Decommission Skype for Business Server](/SkypeForBusiness/hybrid/decommission-remove-on-prem) | modified |
-| 8/31/2023 | [Move users between on-premises and cloud](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud) | modified |
-| 8/31/2023 | [Move users from on premises to Skype for Business Online](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online) | modified |
-| 8/31/2023 | [Move users from Skype for Business Server 2019 to Teams](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) | modified |
-| 8/31/2023 | [Plan hybrid connectivity \| Skype for Business Server and Teams](/SkypeForBusiness/hybrid/plan-hybrid-connectivity) | modified |
+| 1/2/2024 | [Skype Room System room setup scripts](/SkypeForBusiness/deploy/deploy-clients/room-setup-scripts) | modified |
+| 1/5/2024 | [Configure Cloud Connector integration with your Microsoft 365 or Office 365 organization](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-cloud-connector-integration-with-your-office-365-tenant) | modified |

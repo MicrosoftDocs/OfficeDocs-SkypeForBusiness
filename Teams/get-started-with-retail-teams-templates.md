@@ -1,8 +1,8 @@
 ---
 title: Use retail team templates
 author: lana-chin
-ms.author: heidip
-manager: serdars
+ms.author: v-chinlana
+manager: jtremper
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams

@@ -2,7 +2,7 @@
 title: Configure dynamic emergency calling
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -12,12 +12,12 @@ ms.collection:
   - highpri
   - Tier1
 ms.reviewer: roykuntz
-ms.date: 03/06/2023
+ms.date: 10/16/2023
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn how to configure the Microsoft Calling Plans and Phone System Direct Routing dynamic emergency calling feature.
+description: Learn how to configure the Teams Phone dynamic emergency calling feature.
 ms.custom: seo-marvel-mar2020
 appliesto: 
 - Microsoft Teams
@@ -79,22 +79,22 @@ The following clients are currently supported.  Check back often to see updates 
 - Teams mobile client for Apple iOS client version 1.0.92.2019121004 and App Store version 1.0.92 and greater
 - Teams mobile client for Android client and Google Play store version 1416/1.0.0.2019121201 and greater
 - Teams phone version 1449/1.0.94.2019110802 and greater
-- Teams Rooms version 4.4.25.0 and greater
+- Teams Rooms on Windows
+- Teams Rooms on Android
 
 > [!NOTE]
-> Subnet and WiFi-based locations are supported on all supported Teams clients.
+> Subnet locations are supported on all Teams clients.  WiFi-based locations are supported on all Teams clients except Teams phone.
 >
 > Ethernet/Switch (LLDP) is supported on:
 >
 > - Windows versions 10.0 and later at this time.
 > - Mac OS, which requires [LLDP enablement software](https://www.microsoft.com/download/details.aspx?id=103383).
 > - Teams phone with Teams app version 1449/1.0.94.2021110101 and later.
+> - Teams Rooms on Windows
+> - Teams Rooms on Android (OEM specific configuration may be required)
 
 > [!NOTE]
 > Dynamic emergency calling, including security desk notification, isn't supported on the Teams web client. To prevent users from using the Teams web client to call PSTN numbers, you can set a Teams calling policy and turn off the **Allow web PSTN calling** setting. To learn more, see [Calling policies in Teams](teams-calling-policy.md) and [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
-
-> [!NOTE]
-> 3PIP phones do not support dynamic emergency calling.
 
 ## Assign emergency addresses
 
@@ -259,7 +259,7 @@ The following table shows support for dynamic emergency calling in the governmen
 | World Wide Multi Tenant | Available on all Teams clients |
 | GCC | Available on all Teams clients |
 | GCCH | - Available on Teams desktop <br> - Available on Teams mobile clients <br> - Available on Teams phones, app version: 1449/1.0.94.2022061702 |
-| DoD | - Available on Teams desktop <br>- Available on Teams mobile clients <br>- Pending on Teams phones |
+| DoD | - Available on Teams desktop <br>- Available on Teams mobile clients <br>- Available on Teams phone application released on Teams admin center |
 
 ## Related topics
 
