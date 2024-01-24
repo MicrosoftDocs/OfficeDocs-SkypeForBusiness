@@ -20,7 +20,7 @@ description: "Summary: Learn how to retrieve, update, and create configuration s
 
 **Summary:** Learn how to retrieve, update, and create configuration settings for the Centralized Logging Service in Skype for Business Server 2015.
 
-The Centralized Logging Service is controlled and configured by settings and parameters that are created and used by the Centralized Logging Service Controller (CLSController) to send commands to the individual computer's Centralized Logging Service Agent (CLSAgent). The agent processes the commands that are sent to it and (in the case of a Start command) uses the configuration of the scenarios, providers, trace duration, and flags to begin collecting trace logs according to the configuration information provided.
+The Centralized Logging Service is controlled and configured by settings and parameters that are created and used by the Centralized Logging Service Controller (CLSController) to send commands to the individual computers Centralized Logging Service Agent (CLSAgent). The agent processes the commands that are sent to it and (in the case of a Start command) uses the configuration of the scenarios, providers, trace duration, and flags to begin collecting trace logs according to the configuration information provided.
 
 > [!IMPORTANT]
 >  Not all Windows PowerShell cmdlets listed for the Centralized Logging Service are intended for use with Skype for Business Server 2015 on-premises deployments. Although they may appear to work, the following cmdlets are not designed to function with Skype for Business Server 2015 on-premises deployments:
@@ -29,11 +29,11 @@ The Centralized Logging Service is controlled and configured by settings and par
 -  **CsClsSearchTerm cmdlets:** [Get-CsClsSearchTerm](/powershell/module/skype/get-csclssearchterm?view=skype-ps) and [Set-CsClsSearchTerm](/powershell/module/skype/set-csclssearchterm?view=skype-ps).
 -  **CsClsSecurityGroup cmdlets:** [Get-CsClsSecurityGroup](/powershell/module/skype/get-csclssecuritygroup?view=skype-ps), [Set-CsClsSecurityGroup](/powershell/module/skype/set-csclssecuritygroup?view=skype-ps),  [New-CsClsSecurityGroup](/powershell/module/skype/new-csclssecuritygroup?view=skype-ps), and [Remove-CsClsSecurityGroup](/powershell/module/skype/remove-csclssecuritygroup?view=skype-ps).
 
-The settings defined in these cmdlets won't hinder or cause any adverse behavior, but they're designed for use with Microsoft 365 or Office 365 and won't yield the expected results in on-premises deployments. This is not to say that there is no use for these cmdlets in on-premises deployments, but their use is a more advanced topic that is not covered in this documentation.
+The settings defined in these cmdlets don't hinder or cause any adverse behavior, but they're designed for use with Microsoft 365 or Office 365 and don't yield the expected results in on-premises deployments. This isn't to say that there's no use for these cmdlets in on-premises deployments, but their use is a more advanced article that isn't covered in this documentation.
 
 The Centralized Logging Service can be run at a scope that includes a single computer or a pool of computers, at a site scope (that is, a defined site such as the site Redmond that contains a collection of computer and pools in your deployment), or at a global scope (that is, all computers and pools in your deployment).
 
-To configure the Centralized Logging Service scope by using the Skype for Business Server Management Shell, you must be a member of either the CsAdministrator or the CsServerAdministrator role-based access control (RBAC) security groups, or a custom RBAC role that contains either of these two groups. To return a list of all the RBAC roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Skype for Business Server Management Shell or the Windows PowerShell prompt:
+To configure the Centralized Logging Service scope by using the Skype for Business Server Management Shell, you must be a member of either the CsAdministrator or the CsServerAdministrator role-based access control (RBAC) security groups, or a custom RBAC role that contains either of these two groups. To return a list of all the RBAC roles this cmdlet is assigned to (including any custom RBAC roles you are creating yourself), run the following command from the Skype for Business Server Management Shell or the Windows PowerShell prompt:
 
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "<Skype for Business cmdlet>"}
@@ -60,7 +60,7 @@ Site and Global scopes are defined in the **New-**, **Set-**, and **Remove-** Ce
 
 ### To retrieve the current Centralized Logging Service configuration
 
-1. Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.
+1. Start the Skype for Business Server Management Shell: Select **Start**, select **All Programs**, select **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.
 
 2. Type the following at the command-line prompt:
 
@@ -68,13 +68,13 @@ Site and Global scopes are defined in the **New-**, **Set-**, and **Remove-** Ce
    Get-CsClsConfiguration
    ```
 
-Use the **New-CsClsConfiguration** and **Set-CsClsConfiguration** cmdlets to create a new configuration or to update an existing configuration.When you run **Get-CsClsConfiguration**, it displays information similar to the following screen shot, where the deployment currently has the default Global configuration, but no site configurations defined:
+Use the **New-CsClsConfiguration** and **Set-CsClsConfiguration** cmdlets to create a new configuration or to update an existing configuration.When you run **Get-CsClsConfiguration**, it displays information similar to the following screenshot, where the deployment currently has the default Global configuration, but no site configurations defined:
 
 ![Sample output from Get-CsClsConfiguration.](../../media/Ops_Get-CsClsConfiguration_Basic.jpg)
 
 ### To retrieve the current Centralized Logging Service configuration from the computer local store
 
-1. Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.
+1. Start the Skype for Business Server Management Shell: Select **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.
 
 2. Type the following at the command-line prompt:
 
@@ -82,10 +82,10 @@ Use the **New-CsClsConfiguration** and **Set-CsClsConfiguration** cmdlets to cre
    Get-CsClsConfiguration -LocalStore
    ```
 
-When you use the first example where **Get-CsClsConfiguration** does not specify any parameters, the command references the Central Management store for the data. If you specify the parameter -LocalStore, the command references the computer LocalStore instead of the Central Management store.
+When you use the first example where **Get-CsClsConfiguration** doesn't specify any parameters, the command references the Central Management store for the data. If you specify the parameter -LocalStore, the command references the computer LocalStore instead of the Central Management store.
 ### To retrieve a listing of scenarios currently defined
 
-1. Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.
+1. Start the Skype for Business Server Management Shell: Select **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.
 
 2. Type the following at the command-line prompt:
 
@@ -93,16 +93,16 @@ When you use the first example where **Get-CsClsConfiguration** does not specify
    Get-CsClsConfiguration -Identity <scope and name> | Select-Object -ExpandProperty Scenarios
    ```
 
-    For example, to retrieve the scenarios that is defined at the global scope:
+    For example, to retrieve the scenarios that are defined at the global scope:
 
    ```PowerShell
    Get-CsClsConfiguration -Identity "global" | Select-Object -ExpandProperty Scenarios
    ```
 
-The cmdlet **Get-CsClsConfiguration** always displays the scenarios that are a part of a given scope's configuration. In most cases, all scenarios are not displayed, and are truncated. The command used here lists all of the scenarios and partial information about what providers, settings, and flags are used.
+The cmdlet **Get-CsClsConfiguration** always displays the scenarios that are a part of a given scope's configuration. In most cases, all scenarios aren't displayed, and are truncated. The command used here lists all of the scenarios and partial information about what providers, settings, and flags are used.
 ### To update a global scope for the Centralized Logging Service by using Windows PowerShell
 
-1. Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.
+1. Start the Skype for Business Server Management Shell: Select **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.
 
 2. Type the following at the command-line prompt:
 
