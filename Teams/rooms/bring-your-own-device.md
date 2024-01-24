@@ -110,22 +110,23 @@ To associate a device with a room, the following two methods are available:
 
 - **Using Import/Export function:** You can use this function to export the inventory list via an excel file and construct Bring Your Own Device rooms.
 
-1. In the **Devices** page, click **Export** to download the device inventory.
-2. Open the excel file and verify that it contains all the devices and room information.
-3. In the excel file, select the **PERIPHERALS** tab and fill out the Account or Display Name column for the devices listed.
-4. Save the file after associating the device with the specific room information.
-5. Go back to the Inventory Devices page and click **Import** to upload the modified file.
-6. Verify that the device-room association is updated successfully.
+    1. In the **Devices** page, click **Export** to download the device inventory.
+    2. Open the excel file and verify that it contains all the devices and room information.
+    3. In the excel file, select the **PERIPHERALS** tab and fill out the Account or Display Name column for the devices listed.
+    4. Save the file after associating the device with the specific room information.
+    5. Go back to the Inventory Devices page and click **Import** to upload the modified file.
+    6. Verify that the device-room association is updated successfully.
 
-> [!NOTE]
-> In cases where the devices were not discovered or reported by Pro Management portal, admins can add those new devices using the import function. Device information such as the Product ID, Vendor ID, Serial Number, and Account information are required for the association to be done.
+    > [!NOTE]
+    > In cases where the devices were not discovered or reported by Pro Management portal, admins can add those new devices using the import function. Device information such as the Product ID, Vendor ID, Serial Number, and Account information are required for the association to be done.
 
 - **Using Auto directory function:** To associate a device with a room:
-  - Go to the device table.
-  - Select the specific device with the **Need Action** banner. 
-  - Click **Add a room to this device**.
-  - Select the desired room from the list to associate the device with.
-  - Click **Save**.
+
+    1. Go to the device table.
+    1. Select the specific device with the **Need Action** banner. 
+    1. Click **Add a room to this device**.
+    1. Select the desired room from the list to associate the device with.
+    1. Click **Save**.
 
 :::image type="content" source="../media/byod/device-discovery.png" alt-text="Screenshot of device room association." lightbox="../media/byod/device-discovery.png":::
 
@@ -175,7 +176,7 @@ Below the headline metrics, there's a table that provides a granular breakdown o
 To see the call utilization view for each room, select the specific Bring Your Own Device room from the table. There will be a new pane, which gives a detailed view of devices call utilization based on selected period. 
 
 > [!NOTE]
-> Only rooms with Teams Shared Devices or Pro licenses and that are done with the device association are shown in the usage report. 
+> Only rooms with Teams Shared Devices or Pro licenses and which are done with the device association are shown in the usage report. 
 
 
 
