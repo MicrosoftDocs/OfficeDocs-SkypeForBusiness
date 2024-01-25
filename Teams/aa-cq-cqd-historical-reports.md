@@ -136,7 +136,7 @@ You have to refresh the report to see any new data.
 
 #### Interpret the report
 
-:::image type="content" source="media/aa-cq-historical-report-sample-aa-v310-new-explain.png" alt-text="Screenshot showing sample cloud auto attendant analytics report, version 3.1.4" lightbox=="media/aa-cq-historical-report-sample-aa-v310-new-explain.png":::
+:::image type="content" source="media/aa-cq-historical-report-sample-aa-v310-new-explain.png" alt-text="Screenshot showing sample cloud auto attendant analytics report, version 3.1.4" lightbox="media/aa-cq-historical-report-sample-aa-v310-new-explain.png":::
 
 | Callout | Title | Description |
 |:-|:-|:-|
@@ -584,7 +584,7 @@ Any application that can access RESTful web services can use the VAAC API to ret
 ### Preparation
 
 1. Download [Postman](https://www.postman.com/).
-1. Import the folder `postman` in the [downloaded zip file](#v3xx-desktop-installation) instructions into Postman. 
+1. Import the folder `postman` in the [downloaded zip file](#v3xx-desktop-installation) instructions into Postman.
 
 :::image type="content" source="media/aa-cq-historical-report-postman-01.png" alt-text="Screenshot showing import completed" lightbox="media/aa-cq-historical-report-postman-01.png":::
 
@@ -624,7 +624,7 @@ After you submit your input, there are a couple of possible results:
 - If the input is invalid, an error message with the actual reason is returned
 - If the input is valid, the result looks like this:
 
-   :::image type="content" source="media/aa-cq-historical-report-postman-04.png" alt-text="Screenshot showing query result with dataResult field" lightbox="media/aa-cq-historical-report-postman-04.png" :::
+   :::image type="content" source="media/aa-cq-historical-report-postman-04.png" alt-text="Screenshot showing query result with dataResult field" lightbox="media/aa-cq-historical-report-postman-04.png":::
 
    In this case, the data is in the "dataResult" field in the same order requested in the query dimension and measurements attributes.
 
