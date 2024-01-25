@@ -142,7 +142,7 @@ You have to refresh the report to see any new data.
 |:--------|:--------------------------------------|:-------------------------|
 |1        |Date                                   |The start and end date of the report.<br>Use this slider to select the date range to report on.<br><br>**See Known Issues** |
 |2        |Time Range                             |The start and end hour of the report. The report spans all dates/times from start date/start hour to the end date/end hour.<br>Use this slider to select the time range to report on.    |
-|3        |Auto Attendant Resource Accounts       |The Resource Accounts to be reported on. Select all the resource accounts assigned to a specific Auto Attendant to see the calls for that Auto Attendant.<br>Default: All       |
+|3        |Auto Attendant Resource Accounts       |The Resource Accounts to be reported on. Select all the resource accounts assigned to a specific Auto Attendant to see the calls for that Auto Attendant. If the full Resource Account name is **aa_test@microsoft.com**, then this value is: **aa_test**<br>Default: All       |
 |4        |Quick Stats -> Incoming Calls          |A breakdown showing the total number of calls received between the start date/start hour and end date/end hour.<br><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.* |
 |5a       |Quick Stats -> Usage Statistics        |A breakdown showing the average call duration in the Auto Attendant and the average number of caller actions. |
 |5b       |Caller Action Count                    |A breakdown on the number of caller actions (key presses, voice commands) |
@@ -167,7 +167,7 @@ You have to refresh the report to see any new data.
 |:--------|:--------------------------------------|:-------------------------|
 |1        |Date                                   |The start and end date of the report.<br>Use this slider to select the date range to report on.<br><br>**See Known Issues** |
 |2        |Time Range                             |The start and end hour of the report. The report spans all dates/times from start date/start hour to the end date/end hour.<br>Use this slider to select the time range to report on.    |
-|3        |Call Queue Resource Accounts           |The Resource Accounts to be reported on. Select all the resource accounts assigned to a specific Call Queue to see the calls for that Call Queue.<br>Default: All       |
+|3        |Call Queue Resource Accounts           |The Resource Accounts to be reported on. Select all the resource accounts assigned to a specific Call Queue to see the calls for that Call Queue. If the full Resource Account name is **cq_test@microsoft.com**, then this value is: **cq_test**<br>Default: All       |
 |4        |Quick Stats -> Incoming Calls          |A breakdown showing the total number of calls received between the start date/start hour and end date/end hour.<br><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.* |
 |5        |Quick Stats -> Average Wait Time (seconds)      |A breakdown showing the average call duration in the Call Queue before a caller is answered or they abandon. |
 |6        |Call Results                           |A breakdown showing the call treatment received by callers.<br><br>Call Results Legend Definitions:<br><ul><li>Agent Answered - Caller was answered by an agent</li><li>Abandoned - Caller disconnected before an agent answered or before Call Timeout occurred</li><li>No Agent - The No Agent exception handling condition occurred</li><li>Overflowed - The Call Overflow exception handling condition occurred</li><li>Timed Out - The Call Timeout exception handling occurred</li><li>Other - Some other condition occurred</li></ul><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.*   |
@@ -192,7 +192,7 @@ You have to refresh the report to see any new data.
 |Callout  |Title                                  |Description               |
 |:--------|:--------------------------------------|:-------------------------|
 |1        |Date                                   |The start and end date of the report.<br>Use this slider to select the date range to report on.<br><br>**See Known Issues** |
-|2        |Agent Username                         |The agents to report on. ADD URI INFO HERE <br>Default: All    |
+|2        |Agent Username                         |The agents to report on. If the full username is **user@microsoft.com**, then this value is: **user** <br>Default: All    |
 |3        |Call Queue Resource Accounts           |The Resource Accounts to be reported on. Select all the resource accounts assigned to a specific Call Queue to see the calls for that Call Queue.<br>Default: All       |
 |4        |Quick Stats -> Incoming Calls          |A breakdown showing the total number of calls answered, the average number of calls answered per agent and the average call length of answered calls handled.<br><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.* |
 |5        |Calls Answered (by date)               |A breakdown showing the number of agent answered calls by date |
