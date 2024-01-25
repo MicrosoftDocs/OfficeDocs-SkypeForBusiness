@@ -24,7 +24,7 @@ The Clear Cache operation is part of the Data API for Call Quality Dashboard.
   
 ## Clear Cache
 
-Clear Cache operation deletes the cache on server for queries and data. This will reset the cache and we will get fresh data from QoE Cube afterward for new requests.
+Clear Cache operation deletes the cache on server for queries and data. This resets the cache and we get fresh data from QoE Cube afterward for new requests.
   
 
 |**Method**|**Request URI**|**HTTP Version**|
@@ -33,7 +33,7 @@ Clear Cache operation deletes the cache on server for queries and data. This wil
    
  **URI Parameters** - None.
   
- **Request Headers** - No additional headers.
+ **Request Headers** - No extra headers.
   
  **Request Body** - None.
   
@@ -41,7 +41,7 @@ Clear Cache operation deletes the cache on server for queries and data. This wil
   
  **Status Code** - A successful operation returns status code 200 (OK).
   
- **Response Headers** - No additional headers.
+ **Response Headers** - No extra headers.
   
  **Response Body** - None.
   
