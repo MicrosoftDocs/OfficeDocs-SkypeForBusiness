@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
-ms.date: 09/13/2023
+ms.date: 01/25/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -98,7 +98,7 @@ Perform the following steps:
 
 3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.1.4.pbit` template file. Power BI Desktop should launch.
 
-4. You're prompted to select the **DataSource**. **Report Level**, and **UTC Offset**.  
+4. You're prompted to select the **DataSource**, **Report Level**, and **UTC Offset**.  
 
    :::image type="content" source="media/aa-cq-historical-report-01-v314.png" alt-text="Screenshot showing the DataSource, Report Level and UTC Offset selections.":::
 
@@ -136,19 +136,19 @@ You have to refresh the report to see any new data.
 
 #### Interpret the report
 
-:::image type="content" source="media/aa-cq-historical-report-sample-aa-v310-new-explain.png" alt-text="Screenshot showing sample cloud auto attendant analytics report, version 3.1.4":::
+:::image type="content" source="media/aa-cq-historical-report-sample-aa-v310-new-explain.png" alt-text="Screenshot showing sample cloud auto attendant analytics report, version 3.1.4" lightbox=="media/aa-cq-historical-report-sample-aa-v310-new-explain.png":::
 
-|Callout  |Title                                  |Description               |
-|:--------|:--------------------------------------|:-------------------------|
-|1        |Date                                   |The start and end date of the report.<br>Use this slider to select the date range to report on.<br><br>**See Known Issues** |
-|2        |Time Range                             |The start and end hour of the report. The report spans all dates/times from start date/start hour to the end date/end hour.<br>Use this slider to select the time range to report on.    |
-|3        |Auto Attendant Resource Accounts       |The Resource Accounts to be reported on. Select all the resource accounts assigned to a specific Auto Attendant to see the calls for that Auto Attendant.<br>Default: All       |
-|4        |Quick Stats -> Incoming Calls          |A breakdown showing the total number of calls received between the start date/start hour and end date/end hour.<br><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.* |
-|5a       |Quick Stats -> Usage Statistics        |A breakdown showing the average call duration in the Auto Attendant and the average number of caller actions. |
-|5b       |Caller Action Count                    |A breakdown on the number of caller actions (key presses, voice commands) |
-|6        |Quick Stats -> Directory Search Method |A breakdown showing how the Directory Search option was used by callers.<br>This section of the report is blank if the Auto Attendant isn't configured for this service or if callers don't use it.<br><br>Directory Search Method Legend Definitions:<br><ul><li>DTMF - Caller used the telephone dial pad to search for the user's name</li><li>Voice - Caller used voice input to search for the user's name</ul>                          |
-|7        |Call Results                           |A breakdown showing the call treatment received by callers.<br><br>Call Results Legend Definitions:<br><ul><li>Terminated (No Caller Action) - Call was disconnected - the caller didn't make any selections</li><li>Terminated (With Caller Action) - Call was disconnected - the caller made selections</li><li>Terminated (Disconnected) - Call was disconnected per the auto attendant configuration</li><li>Terminated (No Operator) - Call was disconnected as there was no operator to transfer the call to</li><li>Terminated (Transfer Failed) - Call was disconnected as the configured transfer failed</li><li>Transferred (AA) - Call was transferred to another Auto Attendant</li><li>Transferred (CQ) - Call was transferred to a Call Queue</li><li>Transferred (Operator) - Call was transferred to the Operator</li><li>Transferred (Voicemail) - Call was transferred to Shared Voicemail</li><li>Transferred (External) - Call was transferred to an External Number</li><li>Transferred (User) - Call was transferred to a Person in the organization</li><li>Other - Some other condition occurred</li></ul><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.*   |
-|8        |                                       |A breakdown showing the caller paths through the auto attendant and the final call result.<br><br>Column definitions:<br><ul><li>MM-DD - The month and day the call</li><li>Start Hour - The hour the call started</li><li>Name - The Resource Account name</li><li>Call flow - The call flow the call followed</li><li>Call Type - The connectivity method for the call.  CalllingPlan or DirectRouting</li><li>Call Result - The end result of the call (see #7 Call Results)</li><li>Call Count - The number of calls that followed this same path</li><li>Average Call Duration (seconds) - The average number of seconds the call spent in the Auto Attendant</li></ul><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.*                          |
+| Callout | Title | Description |
+|:-|:-|:-|
+| 1 | Date | The start and end date of the report.<br>Use this slider to select the date range to report on.<br><br>[**See Known Issues**](#known-issues) |
+| 2 | Time Range | The start and end hour of the report. The report spans all dates/times from start date/start hour to the end date/end hour.<br>Use this slider to select the time range to report on. |
+| 3 | Auto Attendant Resource Accounts | The Resource Accounts to be reported on. Select all the resource accounts assigned to a specific Auto Attendant to see the calls for that Auto Attendant.<br>Default: All |
+| 4 | Quick Stats -> Incoming Calls | A breakdown showing the total number of calls received between the start date/start hour and end date/end hour.<br><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.* |
+| 5a | Quick Stats -> Usage Statistics | A breakdown showing the average call duration in the Auto Attendant and the average number of caller actions. |
+| 5b | Caller Action Count | A breakdown on the number of caller actions (key presses, voice commands) |
+| 6 | Quick Stats -> Directory Search Method | A breakdown showing how the Directory Search option was used by callers.<br>This section of the report is blank if the Auto Attendant isn't configured for this service or if callers don't use it.<br><br>Directory Search Method Legend Definitions:<br><ul><li>**DTMF** - Caller used the telephone dial pad to search for the user's name</li><li>**Voice** - Caller used voice input to search for the user's name</ul> |
+| 7 | Call Results | A breakdown showing the call treatment received by callers.<br><br>Call Results Legend Definitions:<br><ul><li>**Terminated (No Caller Action)** - Call was disconnected - the caller didn't make any selections</li><li>**Terminated (With Caller Action)** - Call was disconnected - the caller made selections</li><li>**Terminated (Disconnected)** - Call was disconnected per the auto attendant configuration</li><li>**Terminated (No Operator)** - Call was disconnected as there was no operator to transfer the call to</li><li>**Terminated (Transfer Failed)** - Call was disconnected as the configured transfer failed</li><li>**Transferred (AA)** - Call was transferred to another Auto Attendant</li><li>**Transferred (CQ)** - Call was transferred to a Call Queue</li><li>**Transferred (Operator)** - Call was transferred to the Operator</li><li>**Transferred (Voicemail)** - Call was transferred to Shared Voicemail</li><li>**Transferred (External)** - Call was transferred to an External Number</li><li>**Transferred (User)** - Call was transferred to a Person in the organization</li><li>**Other** - Some other condition occurred</li></ul><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.* |
+| 8 |  | A breakdown showing the caller paths through the auto attendant and the final call result.<br><br>Column definitions:<br><ul><li>**MM-DD** - The month and day the call</li><li>**Start Hour** - The hour the call started</li><li>**Name** - The Resource Account name</li><li>**Call flow** - The call flow the call followed</li><li>**Call Type** - The connectivity method for the call.  CalllingPlan or DirectRouting</li><li>**Call Result** - The end result of the call (see #7 Call Results)</li><li>**Call Count** - The number of calls that followed this same path</li><li>**Average Call Duration (seconds)** - The average number of seconds the call spent in the Auto Attendant</li></ul><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.* |
 
 #### Known issues
 
@@ -161,19 +161,19 @@ You have to refresh the report to see any new data.
 
 #### Interpret the report
 
-:::image type="content" source="media/aa-cq-historical-report-sample-cq-v310-new-explain.png" alt-text="Screenshot showing sample cloud call queue analytics report, version 3.1.4":::
+:::image type="content" source="media/aa-cq-historical-report-sample-cq-v310-new-explain.png" alt-text="Screenshot showing sample cloud call queue analytics report, version 3.1.4" lightbox="media/aa-cq-historical-report-sample-cq-v310-new-explain.png":::
 
 |Callout  |Title                                  |Description               |
 |:--------|:--------------------------------------|:-------------------------|
-|1        |Date                                   |The start and end date of the report.<br>Use this slider to select the date range to report on.<br><br>**See Known Issues** |
+|1        |Date                                   |The start and end date of the report.<br>Use this slider to select the date range to report on.<br><br>[**See Known Issues**](#known-issues-1) |
 |2        |Time Range                             |The start and end hour of the report. The report spans all dates/times from start date/start hour to the end date/end hour.<br>Use this slider to select the time range to report on.    |
 |3        |Call Queue Resource Accounts           |The Resource Accounts to be reported on. Select all the resource accounts assigned to a specific Call Queue to see the calls for that Call Queue.<br>Default: All       |
 |4        |Quick Stats -> Incoming Calls          |A breakdown showing the total number of calls received between the start date/start hour and end date/end hour.<br><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.* |
 |5        |Quick Stats -> Average Wait Time (seconds)      |A breakdown showing the average call duration in the Call Queue before a caller is answered or they abandon. |
-|6        |Call Results                           |A breakdown showing the call treatment received by callers.<br><br>Call Results Legend Definitions:<br><ul><li>Agent Answered - Caller was answered by an agent</li><li>Abandoned - Caller disconnected before an agent answered or before Call Timeout occurred</li><li>No Agent - The No Agent exception handling condition occurred</li><li>Overflowed - The Call Overflow exception handling condition occurred</li><li>Timed Out - The Call Timeout exception handling occurred</li><li>Other - Some other condition occurred</li></ul><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.*   |
+|6        |Call Results                           |A breakdown showing the call treatment received by callers.<br><br>Call Results Legend Definitions:<br><ul><li>**Agent Answered** - Caller was answered by an agent</li><li>**Abandoned** - Caller disconnected before an agent answered or before Call Timeout occurred</li><li>**No Agent** - The No Agent exception handling condition occurred</li><li>**Overflowed** - The Call Overflow exception handling condition occurred</li><li>**Timed Out** - The Call Timeout exception handling occurred</li><li>**Other** - Some other condition occurred</li></ul><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.*   |
 |7        |Call Volume and Agent Opt-in Count     |A breakdown showing the number of calls per hour and the maximum number of agents that were opted into the call queue at that time  |
 |8        |Abandoned Calls                        |A breakdown showing the number of abandoned calls per hour  |
-|9        |Average Session Length (seconds)       |A breakdown showing how long calls waited before each call result.<br><br><ul><li>Agent Answered - for calls answered by an agent</li><li>Abandoned - for calls abandoned before an agent answered or before Call Timeout occurred</li><li>Overflowed (Disconnect) - for calls where the Call Overflow exception handling occurred and the treatment was to disconnect</li><li>Overflowed (Xferred) - for calls where the Call Overflow exception handling occurred and the treatment was to transfer the caller externally</li><li>Overflowed (Voicemail) - for calls where the Call Overflow exception handling occurred and the treatment was to send the call to shared voicemail</li><li>Timed Out (Disconnect) - for calls where the Call Timeout exception handling occurred and the treatment was to disconnect</li><li>Timed Out (Xferred) - for calls where the Call Timeout exception handling occurred and the treatment was to transfer the caller externally</li><li>Timed Out (Voicemail) - for calls where the Call Timeout exception handling occurred and the treatment was to send the call to shared voicemail</li><li>No Agents (Disconnect) - for calls where the No Agents exception handling occurred and the treatment was to disconnect</li><li>No Agents (Xferred) - for calls where the No Agents exception handling occurred and the treatment was to transfer the caller externally</li><li>No Agents (Voicemail) - for calls where the No Agents exception handling occurred and the treatment was to send the call to shared voicemail</li><li>Other - for calls where some other condition occurred</li></ul> |
+|9        |Average Session Length (seconds)       |A breakdown showing how long calls waited before each call result.<br><br><ul><li>**Agent Answered** - for calls answered by an agent</li><li>**Abandoned** - for calls abandoned before an agent answered or before Call Timeout occurred</li><li>**Overflowed (Disconnect)** - for calls where the Call Overflow exception handling occurred and the treatment was to disconnect</li><li>**Overflowed (Xferred)** - for calls where the Call Overflow exception handling occurred and the treatment was to transfer the caller externally</li><li>**Overflowed (Voicemail)** - for calls where the Call Overflow exception handling occurred and the treatment was to send the call to shared voicemail</li><li>**Timed Out (Disconnect)** - for calls where the Call Timeout exception handling occurred and the treatment was to disconnect</li><li>**Timed Out (Xferred)** - for calls where the Call Timeout exception handling occurred and the treatment was to transfer the caller externally</li><li>**Timed Out (Voicemail)** - for calls where the Call Timeout exception handling occurred and the treatment was to send the call to shared voicemail</li><li>**No Agents (Disconnect)** - for calls where the No Agents exception handling occurred and the treatment was to disconnect</li><li>**No Agents (Xferred)** - for calls where the No Agents exception handling occurred and the treatment was to transfer the caller externally</li><li>**No Agents (Voicemail)** - for calls where the No Agents exception handling occurred and the treatment was to send the call to shared voicemail</li><li>**Other** - for calls where some other condition occurred</li></ul> |
 10        |Call Overflow/Timeout/No Agents Destinations |A breakdown of where the calls that received the Call Overflow, Call Timeout or No Agents exception handling treatment were sent |
 
 #### Known issues
@@ -182,24 +182,23 @@ You have to refresh the report to see any new data.
 1. The Call queues resource account ID's name instead of Call queue name is shown.  To show all the traffic for a Call queue, you must select all the resource accounts assigned to the Call queue.
 1. Only 28 days of call history are available. Call queue data is considered personal data and is subject to data privacy retention policies.
 1. The Date selector sometimes shows dates outside the range of available data resulting in a blank report. Change the dates to be within the last 28 days to resolve the issue.
-   
+
 ### Cloud Call Queue Agent Timeline report
 
 #### Interpret the report
 
-:::image type="content" source="media/aa-cq-historical-report-sample-at-v310-new-explain.png" alt-text="Screenshot showing sample cloud call queue agent timeline report, version 3.1.4":::
+:::image type="content" source="media/aa-cq-historical-report-sample-at-v310-new-explain.png" alt-text="Screenshot showing sample cloud call queue agent timeline report, version 3.1.4" lightbox="media/aa-cq-historical-report-sample-cq-v310-new-explain.png":::
 
 |Callout  |Title                                  |Description               |
 |:--------|:--------------------------------------|:-------------------------|
-|1        |Date                                   |The start and end date of the report.<br>Use this slider to select the date range to report on.<br><br>**See Known Issues** |
+|1        |Date                                   |The start and end date of the report.<br>Use this slider to select the date range to report on.<br><br>[**See Known Issues**](#known-issues-2) |
 |2        |Agent Username                         |The agents to report on. ADD URI INFO HERE <br>Default: All    |
 |3        |Call Queue Resource Accounts           |The Resource Accounts to be reported on. Select all the resource accounts assigned to a specific Call Queue to see the calls for that Call Queue.<br>Default: All       |
 |4        |Quick Stats -> Incoming Calls          |A breakdown showing the total number of calls answered, the average number of calls answered per agent and the average call length of answered calls handled.<br><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.* |
 |5        |Calls Answered (by date)               |A breakdown showing the number of agent answered calls by date |
 |6        |                                       |A breakdown showing how many calls each agent in the queue answered and the average call duration for those calls. |
 |7        |Calls Answered (by hour)               |A breakdown showing the number of agent answered calls by hour  |
-|8        |                                       |A breakdown showing the number of calls answered by agent, by Call Queue.<br><br>Column definitions:<br><ul><li>MM-DD - The month and day the call</li><li>Hour - The hour the call was answered</li><li>CQ Name - The Resource Account name</li><li>Agent Name - The URI name of the agent who answered the call</li><li>Calls Answered - The number of calls answered by this agent from this Call Queue</li><li>Average Call Duration (Seconds) - The average call duration of each call in seconds</li><li>Total Call Duration (Minutes) - The total call duration for all calls</li><li>Total Call Duration (HH:MM:SS) - The total call duration for all calls</li></ul> |
-
+|8        |                                       |A breakdown showing the number of calls answered by agent, by Call Queue.<br><br>Column definitions:<br><ul><li>**MM-DD** - The month and day the call</li><li>**Hour** - The hour the call was answered</li><li>**CQ Name** - The Resource Account name</li><li>**Agent Name** - The URI name of the agent who answered the call</li><li>**Calls Answered** - The number of calls answered by this agent from this Call Queue</li><li>**Average Call Duration (Seconds)** - The average call duration of each call in seconds</li><li>**Total Call Duration (Minutes)** - The total call duration for all calls</li><li>**Total Call Duration (HH:MM:SS)** - The total call duration for all calls</li></ul> |
 
 #### Known issues
 
@@ -341,14 +340,14 @@ Each report tab retrieves data for all Auto attendants, Call queues or agents in
 
 If shortening the date range isn't sufficient, it's possible to increase the number of rows that can be retrieved by modifying the report as follows:
 
-1. Click on the "Transform data" in the ribbon bar to open the Power Query Editor.
-1. Click on "LimitResultRowsCount" on the left-hand side.
+1. Select the **Transform data** in the ribbon bar to open the Power Query Editor.
+1. Select on **LimitResultRowsCount** on the left-hand side.
 1. Change the value in the field to the right to a larger number.
 1. Close the Power Query Editor window.
-1. Select "Yes" when prompted to apply the changes now. The report should automatically refresh.
+1. Select **Yes** when prompted to apply the changes now. The report should automatically refresh.
 1. Save your report.
 
-The maximum number of rows that can be retuned is 200,000.  Setting the value to a number higher than 200,000 has no effect as this value is a hard-coded limit.
+The maximum number of rows that can be returned is 200,000. Setting the value to a number higher than 200,000 has no effect as this value is a hard-coded limit.
 
 Increasing the limit results in longer execution and response times.
 
@@ -356,11 +355,11 @@ Increasing the limit results in longer execution and response times.
 
 Increasing the maximum number of rows that can be returned results in longer execution and response times meaning the report may time out before the data can be returned.  The report execution time can be increased by modifying the report as follows:
 
-1. Click on the "Transform data" in the ribbon bar to open the Power Query Editor.
-1. Click on "ReportExecutionMinutes" on the left-hand side.
+1. Select on the **Transform data** in the ribbon bar to open the Power Query Editor.
+1. Select on **ReportExecutionMinutes** on the left-hand side.
 1. Change the value in the field to the right to a larger number.
 1. Close the Power Query Editor window.
-1. Select "Yes" when prompted to apply the changes now. The report should automatically refresh.
+1. Select **Yes** when prompted to apply the changes now. The report should automatically refresh.
 1. Save your report.
 
 ## Customization
@@ -414,7 +413,6 @@ These dimensions are common to both Auto attendants and Call queues:
 |Timestamp<br>(DateTime)                                |                               |Time record was written (UTC)                                     |
 |UserStartTimeUTC<br>(DateTime)                         |                               |Time call started (UTC)                                           |
 
-
 ### Auto attendant dimensions
 
 |Name (Type)                                            |Possible Values                |Description                                                       |
@@ -467,49 +465,49 @@ These dimensions are common to both Auto attendants and Call queues:
 
 ### Call queue dimensions
 
-|Name (Type)                                            |Possible Values                |Description                                                       |
-|:------------------------------------------------------|:------------------------------|:-----------------------------------------------------------------|
-|CallQueueAgentCount<br>(Whole Number)                  |                               |Number of agents in Call queue                                    |
-|CallQueueAgentOptInCount<br>(Whole Number)             |                               |Number of agents opted-in to Call queue                           |
-|CallQueueCallResult<br>(Text)                          |                               |Call queue call final state                                       |
-|                                                       |agent_joined_conference        |Call answered - conference mode CQ                                |
-|                                                       |declined                       |                                                                  |
-|                                                       |disconnected                   |                                                                  |
-|                                                       |error                          |                                                                  |
-|                                                       |failed                         |                                                                  |
-|                                                       |invalid                        |                                                                  |
-|                                                       |overflown                      |Overflow condition met                                            |
-|                                                       |timed_out                      |Timeout condition met                                             |
-|                                                       |transferred_to_agent           |Call answered - transfer mode CQ                                  |
-|CallQueueDurationSeconds<br>(Real Number)              |                               |Call duration in the Call queue                                   |
-|CallQueueFinalStateAction<br>(Text)                    |                               |Call queue final action                                           |
-|                                                       |disconnect                     |time_out calls                                                    |
-|                                                       |disconnect_with_busy           |overflown calls                                                   |
-|                                                       |failed_to_accept_call          |                                                                  |
-|                                                       |forward                        |Call was forwarded to a user or externally                        |
-|                                                       |shared_voicemail               |Call was sent to shared voicemail                                 |
-|                                                       |other                          |                                                                  |
-|                                                       |voicemail                      |                                                                  |
-|CallQueueIdentity<br>(Text)                            |                               |Resource account URI the call arrived on                         |
-|CallQueueTargetType<br>(Text)                          |                               |Call redirection target                                           |
-|                                                       |ApplicationEndpoint            |                                                                  |
-|                                                       |Mailbox                        |                                                                  |
-|                                                       |Other                          |                                                                  |
-|                                                       |Phone                          |                                                                  |
-|                                                       |User                           |                                                                  |
-|HasCQ<br>(Boolean)                                     |                               |Is CQ involved in call                                            |
-|TransferredFromCallQueueIdentity<br>(Text)             |                               |                                                                  |
+| Name (Type)                                | Possible Values         | Description                                |
+|:-------------------------------------------|:------------------------|:-------------------------------------------|
+| CallQueueAgentCount<br>(Whole Number)      |                         | Number of agents in Call queue             |
+| CallQueueAgentOptInCount<br>(Whole Number) |                         | Number of agents opted-in to Call queue    |
+| CallQueueCallResult<br>(Text)              |                         | Call queue call final state                |
+|                                            | agent_joined_conference | Call answered - conference mode CQ         |
+|                                            | declined                |                                            |
+|                                            | disconnected            |                                            |
+|                                            | error                   |                                            |
+|                                            | failed                  |                                            |
+|                                            | invalid                 |                                            |
+|                                            | overflown               | Overflow condition met                     |
+|                                            | timed_out               | Timeout condition met                      |
+|                                            | transferred_to_agent    | Call answered - transfer mode CQ           |
+| CallQueueDurationSeconds<br>(Real Number)  |                         | Call duration in the Call queue            |
+| CallQueueFinalStateAction<br>(Text)        |                         | Call queue final action                    |
+|                                            | disconnect              | time_out calls                             |
+|                                            | disconnect_with_busy    | overflown calls                            |
+|                                            | failed_to_accept_call   |                                            |
+|                                            | forward                 | Call was forwarded to a user or externally |
+|                                            | shared_voicemail        | Call was sent to shared voicemail          |
+|                                            | other                   |                                            |
+|                                            | voicemail               |                                            |
+| CallQueueIdentity<br>(Text)                |                         | Resource account URI the call arrived on   |
+| CallQueueTargetType<br>(Text)              |                         | Call redirection target                    |
+|                                            | ApplicationEndpoint     |                                            |
+|                                            | Mailbox                 |                                            |
+|                                            | Other                   |                                            |
+|                                            | Phone                   |                                            |
+|                                            | User                    |                                            |
+| HasCQ<br>(Boolean)                         |                         | Is CQ involved in call                     |
+| TransferredFromCallQueueIdentity<br>(Text) |                         |                                            |
 
 ### Measurements
 
-|Name (Type)                                            |Possible Values                |Description                                                       |
-|:------------------------------------------------------|:------------------------------|:-----------------------------------------------------------------|
-|AvgAutoAttendantChainDurationSeconds<br>(Real Number)  |                               |                                                                  |
-|AvgCallDuration<br>(Real Number)                       |                               |                                                                  |
-|AvgCallQueueDurationSeconds<br>(Real Number)           |                               |                                                                  |
-|PSTNTotalMinutes<br>(Real Number)                      |                               |                                                                  |
-|TotalAudioStreamDuration<br>(Real Number)              |                               |                                                                  |
-|TotalCallCount<br>(Whole Number)                       |                               |                                                                  |
+| Name (Type)                                           | Possible Values | Description |
+|:------------------------------------------------------|:----------------|:------------|
+| AvgAutoAttendantChainDurationSeconds<br>(Real Number) |                 |             |
+| AvgCallDuration<br>(Real Number)                      |                 |             |
+| AvgCallQueueDurationSeconds<br>(Real Number)          |                 |             |
+| PSTNTotalMinutes<br>(Real Number)                     |                 |             |
+| TotalAudioStreamDuration<br>(Real Number)             |                 |             |
+| TotalCallCount<br>(Whole Number)                      |                 |             |
 
 ### Constructing a valid query
 
@@ -554,7 +552,7 @@ A valid query consists of several attributes in a JSON object:
 
 #### Required fields
 
-- Filters: used to filter data returned by VAAC
+- **Filters**: used to filter data returned by VAAC
   - DataModelName should be one of the supported dimensions
   - Value should be in the correct format (datetime, string, number etc.)
   - Operands:
@@ -569,15 +567,15 @@ A valid query consists of several attributes in a JSON object:
     - 8 - Does Not Contain
     - 9 - Does Not Begin With
 
-- Dimensions:
+- **Dimensions**:
   - DataModelName should be one of the supported dimensions
 
-- Measurements:
+- **Measurements**:
   - DataModelName should be one of the supported measurements
 
-- Parameters: Currently only UserAgent is supported.
+- **Parameters**: Currently only UserAgent is supported.
 
-- LimitResultRowsCount: the max count of rows returned by VAAC
+- **LimitResultRowsCount**: the max count of rows returned by VAAC
 
 ## Accessing VAAC outside of Power BI
 
