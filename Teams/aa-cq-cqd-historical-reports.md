@@ -30,9 +30,9 @@ description: Learn about how to use the updated Teams Auto Attendant & Call Queu
 # Auto attendant and Call queue historical reports
 
 > [!IMPORTANT]
-> GCC High and DoD customers need to use [Auto attendant and call queue historical reports for GCC High and DoD](aa-cq-cqd-historical-reports-v164.md)
+> GCC High and DoD customers need to use [Auto attendant and call queue historical reports for GCC High and DoD](aa-cq-cqd-historical-reports-v164.md).
 
-This Power BI template provides three reports that allow organizations to report on the number of calls processed by Auto attendants and Call queues.  It also provides agent performance insights.
+This Power BI template provides three reports that allow organizations to report on the number of calls processed by Auto attendants and Call queues. It also provides agent performance insights.
 
 ## V3.1.4 published on January 24, 2024
 
@@ -555,7 +555,7 @@ A valid query consists of several attributes in a JSON object:
 - **Filters**: used to filter data returned by VAAC
   - DataModelName should be one of the supported dimensions
   - Value should be in the correct format (datetime, string, number etc.)
-  - Operands:
+  - *Operands*:
     - 0 - Equals
     - 1 - Not Equals
     - 2 - Contains
@@ -634,8 +634,8 @@ The VAAC API only accepts GZip-compressed or Base64-encoded strings as input.
 
 Find any website to compress the JSON blob using GZIP or Base64.
 
-- GZIP: (https://www.multiutil.com/text-to-gzip-compress/)
-- Base64: (https://www.multiutil.com/text-to-base64-converter/)
+- [GZIP](https://www.multiutil.com/text-to-gzip-compress/)
+- [Base64](https://www.multiutil.com/text-to-base64-converter/)
 
 GZIP output should look like this:
 
