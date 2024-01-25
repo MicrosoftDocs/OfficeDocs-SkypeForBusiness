@@ -189,7 +189,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 |:-|:-|:-|:-|:-|:-|
 | [Aver VC520 Pro Camera + Speakerphone](https://www.averusa.com/products/conference-camera/vc520pro) | 1004.35 |  |  |
 | [Aver VC520 PRO2 Conferencing System](https://www.averusa.com/products/conference-camera/vc520pro2) | 00.0.7200.79 |  |  |
-| [Aver VB342+ Camera Soundbar](https://www.averusa.com/products/conference-camera/vb342plus) | Soundbar: 0.0.0000.97 |  |  |
+| Aver VB342+ Camera Soundbar | Soundbar: 0.0.0000.97 |  |  |
 | [Aver VB342 pro Video bar](https://www.averusa.com/products/video-collaboration-bar/vb342pro) | 0.0.7800.61 |  |  |
 | [Aver VB350 Video bar](https://communication.aver.com/model/vb350) | 0.0.8200.91 |  |  |
 | [Aver CAM 540](https://www.averusa.com/products/conference-camera/cam540) | 0.0.6002.83 |  |  |
@@ -199,7 +199,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Aver CAM 520 Pro 2](https://www.averusa.com/products/conference-camera/cam520pro2) | 0.0.7200.3 |  |  |
 | [Aver CAM 130](https://www.averusa.com/products/conference-camera/cam130) | 0.0.7450.02 | &#x2714; |  |
 | [Aver Fone540](https://www.averusa.com/products/vc-accessories/fone540) | 0.0.7002.17 |  |  |
-| [Aver VB130 Camera Soundbar](https://www.averusa.com/products/conference-camera/vb130) | 0.0.7300.71 |  |  |
+| Aver VB130 Camera Soundbar | 0.0.7300.71 |  |  |
 | [Aver TR313V2 Camera](https://www.averusa.com/products/ptz-camera/tr313v2) | 0.3.0011.38 |  |  |
 | [Audiocodes RXVCAM50L](https://www.audiocodes.com/solutions-products/products/room-experience-rx-suite/rxvcam50lm-video-camera) | 1.0.5 |  |  |
 | [AudioCodes RXVCam10](https://www.audiocodes.com/solutions-products/products/room-experience-rx-suite/rxvcam10-cc-content-camera) | 1.0.6 | &#x2714; |  |
@@ -247,7 +247,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [MAXHUB UC S07 Videoconferencing Camera](https://www.maxhub.com/en/s07/) | Audio firmware version : V0.0.0.5476 </br> Video firmware version : V100-20230726-175602 |  |  |
 | MAXHUB UC W31 4K USB Camera | Video firmware version : 100-20230731-104934 |  |  |
 | [Microsoft Surface Hub Smart Camera](https://www.microsoft.com/d/surface-hub-smart-camera/8n983ctks176) | FW: 1.8.1 |  |  |
-| [Microsoft Surface Hub 2 Camera](https://www.microsoft.com/d/surface-hub-2-camera/8tzgfl7z18ph) | FW: 24.712.159 Certified up to Large room |  |  |
+| [Microsoft Surface Hub 2 Camera](https://www.microsoft.com/d/surface-hub-2-camera/8tzgfl7z18ph) | FW: 24.712.159 |  |  |
 | [Nureva HDL300](https://www.nureva.com/audio-conferencing/hdl300) | 2.3.6 |  |  |
 | [Nureva HDL310](https://www.nureva.com/audio-conferencing/hdl310) | 1.5.0.0 |  |  |
 | [Nureva HDL410](https://www.nureva.com/audio-conferencing/hdl410) | 1.5.243554 |  |  |
