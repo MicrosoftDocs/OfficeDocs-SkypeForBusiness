@@ -406,8 +406,8 @@ These dimensions are common to both Auto attendants and Call queues:
 |                                                       |External                       |Call is coming from outside the tenant                            |
 |                                                       |Internal                       |Call is coming from within the tenant                             |
 |PSTNConnectivityType<br>(Text)                         |                               |                                                                  |
-|                                                       |CallingPlan                    |                                                                  |
-|                                                       |DirectRouting                  |                                                                  |
+|                                                       |CallingPlan                    |The call arrived on a Calling Plan numbeer                        |
+|                                                       |DirectRouting                  |The call arrived on a Direct Routing number                       |
 |Second<br>(Text)                                       |                               |Second call started (UTC)                                         |
 |SecondUPN<br>(Text)                                    |                               |The user principal name (UPN) of the second endpoint's user       |
 |TenantId<br>(Text)                                     |                               |Tenant ID                                                         |
@@ -420,15 +420,15 @@ These dimensions are common to both Auto attendants and Call queues:
 |Name (Type)                                            |Possible Values                |Description                                                       |
 |:------------------------------------------------------|:------------------------------|:-----------------------------------------------------------------|
 |AutoAttendantCallFlow<br>(Text)                        |                               |Encapsulates the different states of Auto Attendant call          |
-|                                                       |abs_search                     |                                                                  |
-|                                                       |announcement                   |                                                                  |
+|                                                       |abs_search                     |A dial-by-name search occurred                                    |
+|                                                       |announcement                   |An announcement was played                                        |
 |                                                       |automatic_menu                 |                                                                  |
-|                                                       |call_termination               |                                                                  |
-|                                                       |call_transfer                  |                                                                  |
+|                                                       |call_termination               |Call was ended                                                    |
+|                                                       |call_transfer                  |Call was transferred                                              |
 |                                                       |first_level_menu               |                                                                  |
 |                                                       |main_menu                      |                                                                  |
-|                                                       |speech_input_confirmation      |                                                                  |
-|                                                       |user_selection                 |                                                                  |
+|                                                       |speech_input_confirmation      |Caller used voice input                                           |
+|                                                       |user_selection                 |Caller used touch tone key entry                                  |
 |AutoAttendantCallResult<br>(Text)                      |                               |Final call result                                                 |
 |                                                       |failed_to_establish_media      |The media portion of the call couldn't be established             |
 |                                                       |failover_to_operator           |Call transferred to operator typically due to a system error      |
@@ -448,11 +448,11 @@ These dimensions are common to both Auto attendants and Call queues:
 |                                                       |transferred_to_user            |Call was transferred to a user                                    |
 |                                                       |unknown                        |An unknown condition occurred                                     |
 |                                                       |user_terminated                |Caller hung up                                                    |
-|AutoAttendantCallerActionCounts<br>(Whole Number)      |                               |                                                                  |
-|AutoAttendantChainDurationInSecs<br>(Real Number)      |                               |                                                                  |
+|AutoAttendantCallerActionCounts<br>(Whole Number)      |                               |The number of actions (touch tone key or voice entries) the caller performed |
+|AutoAttendantChainDurationInSecs<br>(Real Number)      |                               |The number of seconds the call remained in this portion of the call flow     |
 |AutoAttendantChainIndex<br>(Whole Number)              |                               |                                                                  |
-|AutoAttendantChainStartTime<br>(DateTime)              |                               |                                                                  |
-|AutoAttendantCount<br>(Whole Number)                   |                               |                                                                  |
+|AutoAttendantChainStartTime<br>(DateTime)              |                               |The start time of this portion of the call flow                   |
+|AutoAttendantCount<br>(Whole Number)                   |                               |How many auto attendants the call transitioned through            |
 |AutoAttendantDirectorySearchMethod<br>(Text)           |                               |Directory search method                                           |
 |                                                       |abs_search_dtmf                |Touch tone                                                        |
 |                                                       |abs_search_voice               |Voice                                                             |
@@ -490,26 +490,26 @@ These dimensions are common to both Auto attendants and Call queues:
 |                                                       |shared_voicemail               |Call was sent to shared voicemail                                 |
 |                                                       |other                          |                                                                  |
 |                                                       |voicemail                      |                                                                  |
-|CallQueueIdentity<br>(Text)                            |                               |Resource account URI the call arrived on                         |
+|CallQueueIdentity<br>(Text)                            |                               |Resource account URI the call arrived on                          |
 |CallQueueTargetType<br>(Text)                          |                               |Call redirection target                                           |
-|                                                       |ApplicationEndpoint            |                                                                  |
-|                                                       |Mailbox                        |                                                                  |
+|                                                       |ApplicationEndpoint            |Call was transferred to another auto attendant or call queue      |
+|                                                       |Mailbox                        |Call was transferred to voicemail                                 |
 |                                                       |Other                          |                                                                  |
-|                                                       |Phone                          |                                                                  |
-|                                                       |User                           |                                                                  |
+|                                                       |Phone                          |External phone number                                             |
+|                                                       |User                           |Person in the organization                                        |
 |HasCQ<br>(Boolean)                                     |                               |Is CQ involved in call                                            |
-|TransferredFromCallQueueIdentity<br>(Text)             |                               |                                                                  |
+|TransferredFromCallQueueIdentity<br>(Text)             |                               |Call queue resource ID when call is answered by an agent          |
 
 ### Measurements
 
 |Name (Type)                                            |Possible Values                |Description                                                       |
 |:------------------------------------------------------|:------------------------------|:-----------------------------------------------------------------|
-|AvgAutoAttendantChainDurationSeconds<br>(Real Number)  |                               |                                                                  |
-|AvgCallDuration<br>(Real Number)                       |                               |                                                                  |
-|AvgCallQueueDurationSeconds<br>(Real Number)           |                               |                                                                  |
-|PSTNTotalMinutes<br>(Real Number)                      |                               |                                                                  |
+|AvgAutoAttendantChainDurationSeconds<br>(Real Number)  |                               |The average call duration within each portion of the auto attendant call flow |
+|AvgCallDuration<br>(Real Number)                       |                               |The average call duration in seconds                              |
+|AvgCallQueueDurationSeconds<br>(Real Number)           |                               |The average call queue duration in seconds                        |
+|PSTNTotalMinutes<br>(Real Number)                      |                               |Total call duration in minutes                                    |
 |TotalAudioStreamDuration<br>(Real Number)              |                               |                                                                  |
-|TotalCallCount<br>(Whole Number)                       |                               |                                                                  |
+|TotalCallCount<br>(Whole Number)                       |                               |Total number of calls                                             |
 
 ### Constructing a valid query
 
