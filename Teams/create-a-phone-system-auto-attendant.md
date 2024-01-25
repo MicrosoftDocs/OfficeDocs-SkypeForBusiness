@@ -212,7 +212,7 @@ Once you've selected your **Dial scope** options, select **Next**.
 
 ## Step 4: Assign resource accounts
 
-All Auto attendants must have an associated resource account. All resource accounts must be assigned a CXXXXXX. If you wish, you can assign several resource accounts to an Auto attendant. 
+All Auto attendants must have an associated resource account. All resource accounts must be assigned a [Microsoft Teams Phone Resource Account license](teams-add-on-licensing/virtual-user.md). If you wish, you can assign several resource accounts to an Auto attendant. 
 
 ### Add an existing resource account
 To add an existing resource account:
