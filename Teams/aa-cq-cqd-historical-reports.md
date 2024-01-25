@@ -117,7 +117,7 @@ Perform the following steps:
 6. Select **Connect**, and the data refreshes.
 
 > [!NOTE]
-> If you were using v1.64 or earlier, you may encounter an error when v3.x.x tries to retrieve the data from VAAC.  To resolve this error, it's necessary to clear any previous credentials from Power BI.
+> If you were using v1.64 or earlier, you might encounter an error when v3.x.x tries to retrieve the data from VAAC. To resolve this error, it's necessary to clear any previous credentials from Power BI.
 >
 > 1. Open the v3.x.x template to clear the error.
 > 1. Select **File** > **Options & Settings** > **Data source settings**.
@@ -195,9 +195,9 @@ You have to refresh the report to see any new data.
 |2        |Agent Username                         |The agents to report on. If the full username is **user@microsoft.com**, then this value is: **user** <br>Default: All    |
 |3        |Call Queue Resource Accounts           |The Resource Accounts to be reported on. Select all the resource accounts assigned to a specific Call Queue to see the calls for that Call Queue.<br>Default: All       |
 |4        |Quick Stats -> Incoming Calls          |A breakdown showing the total number of calls answered, the average number of calls answered per agent and the average call length of answered calls handled.<br><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.* |
-|5        |Calls Answered (by date)               |A breakdown showing the number of agent answered calls by date |
+|5        |Calls Answered (by date)               |A breakdown showing the number of agent-answered calls by date |
 |6        |                                       |A breakdown showing how many calls each agent in the queue answered and the average call duration for those calls. |
-|7        |Calls Answered (by hour)               |A breakdown showing the number of agent answered calls by hour  |
+|7        |Calls Answered (by hour)               |A breakdown showing the number of agent-answered calls by hour  |
 |8        |                                       |A breakdown showing the number of calls answered by agent, by Call Queue.<br><br>Column definitions:<br><ul><li>**MM-DD** - The month and day the call</li><li>**Hour** - The hour the call was answered</li><li>**CQ Name** - The Resource Account name</li><li>**Agent Name** - The URI name of the agent who answered the call</li><li>**Calls Answered** - The number of calls answered by this agent from this Call Queue</li><li>**Average Call Duration (Seconds)** - The average call duration of each call in seconds</li><li>**Total Call Duration (Minutes)** - The total call duration for all calls</li><li>**Total Call Duration (HH:MM:SS)** - The total call duration for all calls</li></ul> |
 
 #### Known issues
@@ -207,7 +207,7 @@ You have to refresh the report to see any new data.
 1. The Agent's UPN name instead of their name is shown.
 1. The Date selector sometimes shows dates outside the range of available data resulting in a blank report. Change the dates to be within the last 28 days to resolve the issue.
 1. In some scenarios, the agent answered call count might be different than the number of calls shown in the Teams client call history. The Teams client call history is correct. Support is investigating, but there's no estimated time to repair available at this time.
-1. When the Call Overflow exception handling redirects calls to another call queue that are then answered by an agent, the agent who answered the call will be shown in the call queue where the Call Overflow exception occurred rather than the call queue they're in.
+1. When the Call Overflow exception handling redirects calls to another call queue and those calls are then answered by an agent, the agent who answered the call is shown in the call queue where the Call Overflow exception occurred rather than the call queue they're in.
 
 ## Auto attendant and Call queue historical reports field definitions
 
@@ -336,7 +336,7 @@ You have to refresh the report to see any new data.
 
 ## Data Limits
 
-Each report tab retrieves data for all Auto attendants, Call queues or agents in the tenant for the selected date range. This occurs regardless of the specific Resource Account(s) or Agent(s) selected on the report.  Filtering to show only the requested information occurs locally.  Each report tab is restricted to retrieving 90,000 rows. If there's a large number of calls being processed each day, it's possible that the report doesn't show all calls for all days within the selected date range.  There's no notification when this exclusion occurs.  Try shortening the date range to avoid this issue.
+Each report tab retrieves data for all Auto attendants, Call queues or agents in the tenant for the selected date range. This data retrieval occurs regardless of the specific Resource Account(s) or Agent(s) selected on the report. Filtering to show only the requested information occurs locally. Each report tab is restricted to retrieving 90,000 rows. If there's a large number of calls being processed each day, it's possible that the report doesn't show all calls for all days within the selected date range. There's no notification when this exclusion occurs. Try shortening the date range to avoid this issue.
 
 If shortening the date range isn't sufficient, it's possible to increase the number of rows that can be retrieved by modifying the report as follows:
 
@@ -405,7 +405,7 @@ These dimensions are common to both Auto attendants and Call queues:
 |                                                       |External                       |Call is coming from outside the tenant                            |
 |                                                       |Internal                       |Call is coming from within the tenant                             |
 |PSTNConnectivityType<br>(Text)                         |                               |                                                                  |
-|                                                       |CallingPlan                    |The call arrived on a Calling Plan numbeer                        |
+|                                                       |CallingPlan                    |The call arrived on a Calling Plan number                        |
 |                                                       |DirectRouting                  |The call arrived on a Direct Routing number                       |
 |Second<br>(Text)                                       |                               |Second call started (UTC)                                         |
 |SecondUPN<br>(Text)                                    |                               |The user principal name (UPN) of the second endpoint's user       |
