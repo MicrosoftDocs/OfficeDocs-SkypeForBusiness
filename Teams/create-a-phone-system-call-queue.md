@@ -70,6 +70,8 @@ Type a name for the Call queue in the box at the top.
 
 ### Add an existing resource account
 
+All Call queues must have an associated resource account. All resource accounts must be assigned a [Microsoft Teams Phone Resource Account license](teams-add-on-licensing/virtual-user.md). If you wish, you can assign several resource accounts to a Call queue. 
+
 To add an existing resource account:
 
 1. Under **Resource accounts**, select the **Add** button to add a resource account for this Call queue.
