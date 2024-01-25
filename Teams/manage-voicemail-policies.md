@@ -35,13 +35,13 @@ Voicemail policies allow you to configure and assign existing or new voicemail p
 
 Before specifying policies, you should read [Set up Cloud Voicemail](set-up-phone-system-voicemail.md). For information on managing settings for individual users, see [Manage Voicemail settings](manage-voicemail-settings.md).
 
-To manage voicemail policies, you can use the Teams admin center or the New-CsOnlineVoicemailPolicy PowerShell cmdlet. 
+To manage voicemail policies, you can use the Teams admin center or the New-CsOnlineVoicemailPolicy PowerShell cmdlet.
 
 The default policies for users are:
 
 - Voicemail transcription is enabled.
 - Voicemail transcription translation is enabled.
-- Voicemail transcription profanity masking is disabled.
+- Voicemail transcription profanity masking is not enabled.
 - The maximum recording duration is set to five minutes.
 - Editing call answering rules is enabled.
 - Primary and secondary system prompt languages are set to null and the user's voicemail language setting is used.
@@ -55,7 +55,7 @@ You can use the global (Org-wide default) policy that's created automatically or
 ## Use Teams admin center
 
 > [!NOTE]
-> Managing Voicemail Policies through the Teams Admin Center is not currently available in GCC High and DoD environments.
+> Managing Voicemail Policies through the Teams admin center is not currently available in GCC High and DoD environments.
 
 ### Create a custom voicemail policy
 
@@ -81,7 +81,6 @@ Follow these steps to edit an existing voicemail policy.
 
 > [!IMPORTANT]
 > You can't edit or remove the pre-configured policy instances called TranscriptionDisabled and TranscriptionProfanityMaskingEnabled.
-
 
 ### Assign a custom voicemail policy to users
 
@@ -116,8 +115,7 @@ You can also use PowerShell to configure and assign existing or new voicemail po
 
 - **Call answering rules** - This setting controls whether the user is allowed to configure voicemail call answering rules in Microsoft Teams.
 
-- **Dual language system prompts** - By default, the voicemail system prompts are presented to callers in the language selected by the user when setting up their voicemail. If there is a business 
-requirement to have the voicemail system prompts presented in two languages, a primary and secondary language can be set and they may not be the same.
+- **Dual language system prompts** - By default, the voicemail system prompts are presented to callers in the language selected by the user when setting up their voicemail. If there is a business requirement to have the voicemail system prompts presented in two languages, a primary and secondary language can be set and they may not be the same.
 
 - **PreambleAudioFile** - The audio file to play to the caller before the user's voicemail greeting is played.
 
@@ -129,5 +127,6 @@ requirement to have the voicemail system prompts presented in two languages, a p
 
 Specifies whether voicemail and transcription data is shared with the service for training and improving accuracy. If set to false, voicemail data will not be shared, regardless of user choice.
 
-
 ## Related articles
+
+[Configure calling policies](teams-calling-policy.md)
