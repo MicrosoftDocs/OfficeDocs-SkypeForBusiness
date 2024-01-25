@@ -142,7 +142,7 @@ You have to refresh the report to see any new data.
 |:-|:-|:-|
 | 1 | Date | The start and end date of the report.<br>Use this slider to select the date range to report on.<br><br>[**See Known Issues**](#known-issues) |
 | 2 | Time Range | The start and end hour of the report. The report spans all dates/times from start date/start hour to the end date/end hour.<br>Use this slider to select the time range to report on. |
-| 3 | Auto Attendant Resource Accounts | The Resource Accounts to be reported on. Select all the resource accounts assigned to a specific Auto Attendant to see the calls for that Auto Attendant.<br>Default: All |
+| 3 | Auto Attendant Resource Accounts | The Resource Accounts to be reported on. Select all the resource accounts assigned to a specific Auto Attendant to see the calls for that Auto Attendant. If the full Resource Account name is **aa_test@microsoft.com**, then this value is: **aa_test**<br>Default: All |
 | 4 | Quick Stats -> Incoming Calls | A breakdown showing the total number of calls received between the start date/start hour and end date/end hour.<br><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.* |
 | 5a | Quick Stats -> Usage Statistics | A breakdown showing the average call duration in the Auto Attendant and the average number of caller actions. |
 | 5b | Caller Action Count | A breakdown on the number of caller actions (key presses, voice commands) |
@@ -167,7 +167,7 @@ You have to refresh the report to see any new data.
 |:--------|:--------------------------------------|:-------------------------|
 |1        |Date                                   |The start and end date of the report.<br>Use this slider to select the date range to report on.<br><br>[**See Known Issues**](#known-issues-1) |
 |2        |Time Range                             |The start and end hour of the report. The report spans all dates/times from start date/start hour to the end date/end hour.<br>Use this slider to select the time range to report on.    |
-|3        |Call Queue Resource Accounts           |The Resource Accounts to be reported on. Select all the resource accounts assigned to a specific Call Queue to see the calls for that Call Queue.<br>Default: All       |
+|3        |Call Queue Resource Accounts           |The Resource Accounts to be reported on. Select all the resource accounts assigned to a specific Call Queue to see the calls for that Call Queue. If the full Resource Account name is **cq_test@microsoft.com**, then this value is: **cq_test**<br>Default: All       |
 |4        |Quick Stats -> Incoming Calls          |A breakdown showing the total number of calls received between the start date/start hour and end date/end hour.<br><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.* |
 |5        |Quick Stats -> Average Wait Time (seconds)      |A breakdown showing the average call duration in the Call Queue before a caller is answered or they abandon. |
 |6        |Call Results                           |A breakdown showing the call treatment received by callers.<br><br>Call Results Legend Definitions:<br><ul><li>**Agent Answered** - Caller was answered by an agent</li><li>**Abandoned** - Caller disconnected before an agent answered or before Call Timeout occurred</li><li>**No Agent** - The No Agent exception handling condition occurred</li><li>**Overflowed** - The Call Overflow exception handling condition occurred</li><li>**Timed Out** - The Call Timeout exception handling occurred</li><li>**Other** - Some other condition occurred</li></ul><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.*   |
@@ -192,7 +192,7 @@ You have to refresh the report to see any new data.
 |Callout  |Title                                  |Description               |
 |:--------|:--------------------------------------|:-------------------------|
 |1        |Date                                   |The start and end date of the report.<br>Use this slider to select the date range to report on.<br><br>[**See Known Issues**](#known-issues-2) |
-|2        |Agent Username                         |The agents to report on. ADD URI INFO HERE <br>Default: All    |
+|2        |Agent Username                         |The agents to report on. If the full username is **user@microsoft.com**, then this value is: **user** <br>Default: All    |
 |3        |Call Queue Resource Accounts           |The Resource Accounts to be reported on. Select all the resource accounts assigned to a specific Call Queue to see the calls for that Call Queue.<br>Default: All       |
 |4        |Quick Stats -> Incoming Calls          |A breakdown showing the total number of calls answered, the average number of calls answered per agent and the average call length of answered calls handled.<br><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.* |
 |5        |Calls Answered (by date)               |A breakdown showing the number of agent answered calls by date |
@@ -405,8 +405,8 @@ These dimensions are common to both Auto attendants and Call queues:
 |                                                       |External                       |Call is coming from outside the tenant                            |
 |                                                       |Internal                       |Call is coming from within the tenant                             |
 |PSTNConnectivityType<br>(Text)                         |                               |                                                                  |
-|                                                       |CallingPlan                    |                                                                  |
-|                                                       |DirectRouting                  |                                                                  |
+|                                                       |CallingPlan                    |The call arrived on a Calling Plan numbeer                        |
+|                                                       |DirectRouting                  |The call arrived on a Direct Routing number                       |
 |Second<br>(Text)                                       |                               |Second call started (UTC)                                         |
 |SecondUPN<br>(Text)                                    |                               |The user principal name (UPN) of the second endpoint's user       |
 |TenantId<br>(Text)                                     |                               |Tenant ID                                                         |
@@ -418,15 +418,15 @@ These dimensions are common to both Auto attendants and Call queues:
 |Name (Type)                                            |Possible Values                |Description                                                       |
 |:------------------------------------------------------|:------------------------------|:-----------------------------------------------------------------|
 |AutoAttendantCallFlow<br>(Text)                        |                               |Encapsulates the different states of Auto Attendant call          |
-|                                                       |abs_search                     |                                                                  |
-|                                                       |announcement                   |                                                                  |
+|                                                       |abs_search                     |A dial-by-name search occurred                                    |
+|                                                       |announcement                   |An announcement was played                                        |
 |                                                       |automatic_menu                 |                                                                  |
-|                                                       |call_termination               |                                                                  |
-|                                                       |call_transfer                  |                                                                  |
+|                                                       |call_termination               |Call was ended                                                    |
+|                                                       |call_transfer                  |Call was transferred                                              |
 |                                                       |first_level_menu               |                                                                  |
 |                                                       |main_menu                      |                                                                  |
-|                                                       |speech_input_confirmation      |                                                                  |
-|                                                       |user_selection                 |                                                                  |
+|                                                       |speech_input_confirmation      |Caller used voice input                                           |
+|                                                       |user_selection                 |Caller used touch tone key entry                                  |
 |AutoAttendantCallResult<br>(Text)                      |                               |Final call result                                                 |
 |                                                       |failed_to_establish_media      |The media portion of the call couldn't be established             |
 |                                                       |failover_to_operator           |Call transferred to operator typically due to a system error      |
@@ -446,11 +446,11 @@ These dimensions are common to both Auto attendants and Call queues:
 |                                                       |transferred_to_user            |Call was transferred to a user                                    |
 |                                                       |unknown                        |An unknown condition occurred                                     |
 |                                                       |user_terminated                |Caller hung up                                                    |
-|AutoAttendantCallerActionCounts<br>(Whole Number)      |                               |                                                                  |
-|AutoAttendantChainDurationInSecs<br>(Real Number)      |                               |                                                                  |
+|AutoAttendantCallerActionCounts<br>(Whole Number)      |                               |The number of actions (touch tone key or voice entries) the caller performed |
+|AutoAttendantChainDurationInSecs<br>(Real Number)      |                               |The number of seconds the call remained in this portion of the call flow     |
 |AutoAttendantChainIndex<br>(Whole Number)              |                               |                                                                  |
-|AutoAttendantChainStartTime<br>(DateTime)              |                               |                                                                  |
-|AutoAttendantCount<br>(Whole Number)                   |                               |                                                                  |
+|AutoAttendantChainStartTime<br>(DateTime)              |                               |The start time of this portion of the call flow                   |
+|AutoAttendantCount<br>(Whole Number)                   |                               |How many auto attendants the call transitioned through            |
 |AutoAttendantDirectorySearchMethod<br>(Text)           |                               |Directory search method                                           |
 |                                                       |abs_search_dtmf                |Touch tone                                                        |
 |                                                       |abs_search_voice               |Voice                                                             |
@@ -500,14 +500,14 @@ These dimensions are common to both Auto attendants and Call queues:
 
 ### Measurements
 
-| Name (Type)                                           | Possible Values | Description |
-|:------------------------------------------------------|:----------------|:------------|
-| AvgAutoAttendantChainDurationSeconds<br>(Real Number) |                 |             |
-| AvgCallDuration<br>(Real Number)                      |                 |             |
-| AvgCallQueueDurationSeconds<br>(Real Number)          |                 |             |
-| PSTNTotalMinutes<br>(Real Number)                     |                 |             |
-| TotalAudioStreamDuration<br>(Real Number)             |                 |             |
-| TotalCallCount<br>(Whole Number)                      |                 |             |
+|Name (Type)                                            |Possible Values                |Description                                                       |
+|:------------------------------------------------------|:------------------------------|:-----------------------------------------------------------------|
+|AvgAutoAttendantChainDurationSeconds<br>(Real Number)  |                               |The average call duration within each portion of the auto attendant call flow |
+|AvgCallDuration<br>(Real Number)                       |                               |The average call duration in seconds                              |
+|AvgCallQueueDurationSeconds<br>(Real Number)           |                               |The average call queue duration in seconds                        |
+|PSTNTotalMinutes<br>(Real Number)                      |                               |Total call duration in minutes                                    |
+|TotalAudioStreamDuration<br>(Real Number)              |                               |                                                                  |
+|TotalCallCount<br>(Whole Number)                       |                               |Total number of calls                                             |
 
 ### Constructing a valid query
 
