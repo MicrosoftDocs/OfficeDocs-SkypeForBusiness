@@ -23,29 +23,29 @@ The Top Failures Report provides a look at the most-commonly reported failures a
   
 - **Diagnostic ID**. Unique identifier (in the form of an ms-diagnostics header) that is attached to a SIP message. Diagnostic IDs provide information useful in troubleshooting call-related problems.
     
-- **Response code**. Response codes are used in SIP communication sessions to respond to SIP requests. For example, suppose Ken sends the INVITE request to Pilar Ackerman (that is, suppose Ken Myer calls Pilar Ackerman). If Pilar answers, her phone will send the response code 200 (OK), letting Ken's phone know that Pilar has answered. The Top Failures Report only includes response codes that were sent in response to a call failure; Skype for Business Server does not keep track of all the response codes issued during the course of a call.
+- **Response code**. Response codes are used in SIP communication sessions to respond to SIP requests. For example, suppose Ken sends the INVITE request to Pilar Ackerman (that is, suppose Ken Myer calls Pilar Ackerman). If Pilar answers, their phone sends the response code 200 (OK), letting Ken's phone know that Pilar has answered. The Top Failures Report only includes response codes that were sent in response to a call failure; Skype for Business Server doesn't keep track of all the response codes issued during a call.
     
 Information is reported not only for the total number of sessions where a failure occurred but also for the total number of users who were impacted by the failure.
   
 ## Accessing the Top Failures Report
 
-The Top Failures Report is accessed from the Monitoring Reports home page. Clicking the Reported sessions metric will take you to the [Failure Distribution Report in Skype for Business Server](failure-distribution-report.md).
+The Top Failures Report is accessed from the Monitoring Reports home page. Clicking the Reported sessions metric takes you to the [Failure Distribution Report in Skype for Business Server](failure-distribution-report.md).
   
 ## Making the Best Use of the Top Failures Report
 
-The Top Failures Report is unusual in one regard: it allows you to filter on as many as 5 diagnostic IDs at once. (Typically you can only filter on one item - such as one user SIP address - at a time.) To filter on multiple diagnostic IDs, simply enter each ID in the Diagnostic IDs box, separating the IDs by using commas. (If you want to, you can leave a blank space after each comma.) For example:
+The Top Failures Report is unusual in one regard: it allows you to filter on as many as 5 diagnostic IDs at once. (Typically you can only filter on one item - such as one user SIP address - at a time.) To filter on multiple diagnostic IDs, enter each ID in the Diagnostic IDs box, separating the IDs by using commas. (If you want to, you can leave a blank space after each comma.) For example:
   
 1011, 2412, 1033, 52116, 1008
   
 Do that, and only failed calls that reported at least one of those five diagnostic IDs will be displayed.
   
-If you hold your mouse over a Response code you'll see a tooltip that tells you what the Response code in question means. For example, if you hold the mouse over the Response code 486 you'll see this message:
+If you hold your mouse over a Response code, you see a tooltip that tells you what the Response code in question means. For example, if you hold the mouse over the Response code 486 you see this message:
   
 Busy Here.
   
 ## Filters
 
-Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the Top Failures Report enables you to filter the returned data based on such things as the activity type (peer-to-peer session or conferencing session) or by the SIP response code that accompanied the failed session. You can also choose how data should be grouped. In this case, usages are grouped by hour, day, week, or month.
+Filters provide a way for you to return a more finely targeted set of data or to view the returned data in different ways. For example, the Top Failures Report enables you to filter the returned data based on such things as the activity type (peer-to-peer session or conferencing session) or by the SIP response code that accompanied the failed session. You can also choose how data should be grouped. In this case, usage is grouped by hour, day, week, or month.
   
 The following table lists the filters that you can use with the Top Failures Report.
   
@@ -53,7 +53,7 @@ The following table lists the filters that you can use with the Top Failures Rep
 
 |**Name**|**Description**|
 |:-----|:-----|
-|**From** <br/> |Start date/time for the time range. To view data by hours, enter both the start date and time as follows:  <br/> 7/7/2015 1:00 PM  <br/> If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:  <br/> 7/7/2015  <br/> To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):  <br/> 7/3/2015  <br/> Weeks always run from Sunday through Saturday.  <br/> |
+|**From** <br/> |Start date/time for the time range. To view data by hours, enter both the start date and time as follows:  <br/> 7/7/2015 1:00 PM  <br/> If you don't enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:  <br/> 7/7/2015  <br/> To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):  <br/> 7/3/2015  <br/> Weeks always run from Sunday through Saturday.  <br/> |
 |**To** <br/> |End date/time for the time range. To view data by hours, enter both the end date and time as follows:  <br/> 7/7/2015 1:00 PM  <br/> If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:  <br/> 7/7/2015  <br/> To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):  <br/> 7/3/2015  <br/> Weeks always run from Sunday through Saturday.  <br/> |
 |**Activity type** <br/> | Type of activity. Select one of the following: <br/>  [All] <br/>  Peer-to-peer <br/>  Conference <br/> |
 |**Modality** <br/> |At this time the only option available is **[All]**.  <br/> |
