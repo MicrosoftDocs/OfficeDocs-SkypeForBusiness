@@ -33,7 +33,7 @@ The Meeting Migration Service (MMS) is a service that updates a user’s existin
 - When an admin makes a change to the user’s audio conferencing settings
 - When an online user is upgraded to Teams only, or when a user's mode in TeamsUpgradePolicy is set to SfBwithTeamsCollabAndMeetings
 - When migrating from one CVI partner to another, in this scenario the tenant key will be updated to reflect the new partner
-- When you use Start-CsExMeetingMigration cmdlet within the Teams PowerShell Module
+- When you use Start-CsExMeetingMigration cmdlet within the Teams PowerShell module
 
 By default, MMS is automatically triggered in each of these cases. In addition, admins can use a PowerShell cmdlet to manually trigger meeting migration for a given user.
 
