@@ -45,31 +45,29 @@ The default settings for Cloud Voicemail are:
 - The default out-of-office greeting prompt overwrite isn't set.
 - The transfer target isn't set.
 
-
 To manage Cloud Voicemail features for your users, you can use the Teams admin center or PowerShell. Your end users can also configure these settings in the Teams client by going to **Settings -> Calls -> Configure Voicemail.**
 
 ## Use Teams admin center
 
 In the Teams admin center:
 
-1.	In the left navigation, go to **Users > Manage users** and select the user.
+1. In the left navigation, go to **Users > Manage users** and select the user.
 
-2.	On the user details page, go to the **Voicemail** tab.
+2. On the user details page, go to the **Voicemail** tab.
 
-3.	Change the settings.
+3. Change the settings.
 
-4.	Select **Save**.
-
+4. Select **Save**.
 
 ## Use PowerShell
 
 You can also use PowerShell to manage voicemail settings as follows:
 
-- To manage Cloud Voicemail settings for individual users, use the  [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) cmdlet. 
+- To manage Cloud Voicemail settings for individual users, use the  [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) cmdlet.
 
 - To view settings, use the [Get-CsOnlineVoicemailUserSettings](/powershell/module/skype/get-csonlinevoicemailusersettings) cmdlet.
 
-- You can disable Cloud Voicemail for a user by using the [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) cmdlet and setting the VoicemailEnabled parameter to $false. 
+- You can disable Cloud Voicemail for a user by using the [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) cmdlet and setting the VoicemailEnabled parameter to $false.
 
 ## Voicemail settings
 
@@ -93,7 +91,7 @@ You can also use PowerShell to manage voicemail settings as follows:
   - The service declines the call with no message.
   - Only the relevant greeting (normal or out-of-office) is played.
   - The relevant greeting (normal or out-of-office) is played and the caller is transferred to the specified user or phone number.
-  -  The relevant greeting (normal or out-of-office) is played and the caller can leave a voicemail.
+  - The relevant greeting (normal or out-of-office) is played and the caller can leave a voicemail.
   - The relevant greeting (normal or out-of-office) is played, the caller can leave a voicemail and is allowed to press 0 to be transferred to the specified user or phone number.
 
 - **Share data for service improvements** - Specifies whether voicemail and transcription data is shared with the service for training and improving accuracy. If set to false, voicemail data will not be shared, regardless of user choice.
