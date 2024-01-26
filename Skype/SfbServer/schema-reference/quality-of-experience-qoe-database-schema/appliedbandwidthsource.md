@@ -22,6 +22,6 @@ The AppliedBandwidthSource table is a supporting table. Each record represents o
 |**Column**|**Data Type**|**Key/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
 |**AppliedBandwidthSourceKey** <br/> |int  <br/> |Primary  <br/> |Unique number identifying the source.  <br/> |
-|**AppliedBandwidthSource** <br/> |varchar(256)  <br/> |Unique  <br/> |This is the source of the bandwidth cap being imposed. It describes where the bandwidth limit is coming from (for example, "Policy Server", "TURN Server", or "Modality").  <br/> |
+|**AppliedBandwidthSource** <br/> |varchar(256)  <br/> |Unique  <br/> |This is the source of the bandwidth cap being imposed. It describes where the bandwidth limit is coming from (for example, "Policy Server," "TURN Server," or "Modality").  <br/> |
    
 

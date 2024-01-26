@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.topic: article
-ms.date: 01/11/2023
+ms.date: 01/22/2024
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -28,7 +28,7 @@ This article describes the requirements and limitations of using the new Microso
 
 ### Important announcement for classic Teams for VDI
 
-The **classic Teams for VDI** will reach end of support on **June 30th, 2024**. 
+The **classic Teams for VDI** will reach end of availability on **June 30th, 2024**. For more details, see: [**End of availability for classic Teams client**](/MicrosoftTeams/teams-classic-client-end-of-availability)
 
 After that date, users won't be able to use classic Teams but instead be prompted to switch to new Teams. We recommend you update to new Teams today.
 
@@ -254,11 +254,14 @@ Value: 1
 All the user settings and configurations are now stored in:
 
 - C:\Users\<username>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams
-- C:\Users\<username>\AppData\Local\Publishers\8wekyb3d8bbwe\TeamsSharedConfig
+- C:\Users\<username>\AppData\Local\Publishers\8wekyb3d8bbwe\TeamsSharedConfig\app_switcher_settings.json
+- C:\Users\<username>\AppData\Local\Publishers\8wekyb3d8bbwe\TeamsSharedConfig\tma_settings.json
 
-Make sure these folders are persisted for proper Teams functioning.
+Make sure these folders and files are persisted for proper Teams functioning.
 
-TeamsSharedConfig stores user configurations for the Teams app switcher toggle (and what should be the default app, the Classic or New Teams), and the Teams Meeting Add In for Outlook.
+**TeamsSharedConfig** stores user configurations for the Teams app switcher toggle (and what should be the default app, the Classic or New Teams), and the Teams Meeting Add In for Outlook.
+
+The folder "meeting-addin" under TeamsSharedConfig shouldn't be persisted, as this could cause issues with the default meeting coordinates in the meeting templates inserted into Outlook.
 
 Excluding these items helps reduce the user caching size to further optimize a non-persistent setup:
  
@@ -268,9 +271,6 @@ Excluding these items helps reduce the user caching size to further optimize a n
 
 When you exclude the WebStorage folder (used for domains hosted within Teams like SharePoint, Viva Learning, etc.), you can significantly reduce storage. It can also have an impact on performance as users would lose caching benefits.
 
- 
- 
- 
  
 >[!Important]
 >Customers using FSLogix need to install hotfix [2.9.8716.30241](/fslogix/overview-release-notes#fslogix-2210-hotfix-3-preview-29871630241) in order to guarantee proper integration with the new Teams client in VDI. The hotfix addressess the following issues:
@@ -288,10 +288,14 @@ For example, Outlook goes through the discovery process outlined here to integra
 >[!Note]
 >If the new Teams is installed on a virtual machine where the classic Teams is **not** installed, you must make sure you are using new Teams version 23320.3021.2567.4799 or higher in order to guarantee proper integration with Outlook and presence.
 
-Additionally, the new Teams MSIX package bundles the Teams Meeting add-in MSI ("MicrosoftTeamsMeetingAddinInstaller.msi"). The teamsbootstrapper.exe installer installs this msi machine-wide for all users.
+Additionally, the new Teams MSIX package bundles the Teams Meeting add-in MSI ("MicrosoftTeamsMeetingAddinInstaller.msi"). 
 
 Installation logs for this MSI are stored here:
 - AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Logs \tma_addin_msi.txt
+
+>[!Note]
+>In Windows Server or Windows 10/11 Multiuser environments, installation of MicrosoftTeamsMeetingAddinInstaller.msi can fail with the error "Installation success or error status: 1625". Microsoft is working on a solution for this issue.
+
  
 ### Troubleshooting new Teams and Outlook integration
 
@@ -347,24 +351,15 @@ When users connect from an unsupported endpoint, the users are in fallback mode,
 
 The new version of Teams in VDI allows you to sign in quickly and easily, and allowing you to switch between multiple accounts and organizations from the same Microsoft 365 cloud environment. 
 
-If any of your accounts have guest access to other organizations, you don’t need to add them—they'll appear automatically.   
+If any of your accounts have guest access to other organizations, you don’t need to add them--they appear automatically.
 A guest is someone from outside an organization that a team owner invites to join the team, such as a partner or consultant. Guests have fewer capabilities than team members or team owners.
 
 Learn more: [Manage accounts and organizations in Microsoft Teams](https://support.microsoft.com/en-us/office/manage-accounts-and-organizations-in-microsoft-teams-7b221128-6643-465c-a317-679e48cd2ce9) 
 
-### Cross Cloud Meetings
-
-Users trying to join meetings between your organization and an organization in a different Microsoft 365 cloud environment (such as commercial/GCC and GCCH or DOD) must use the “Continue on this browser” option when prompted by the Join launcher:
-
-:::image type="content" source="media/new-teams-vdi-mtma.png" alt-text="new teams for vdi using mtma"::: 
-
-
-You can’t use the native Teams app to join meetings. Clicking “Join on the Teams app” will only bring new Teams chat UI to the foreground without switching to the lobby.
-
 
 ## Features currently not available in VDI with the new Teams
 
-- Screen sharing from chat for Azure Virtual Desktops/Windows 365
+- Screen sharing from chat for Azure Virtual Desktops/Windows 365. **Note:** Note: This issue is fixed on new WebRTC Redirector Service 2.0.2311.15001 and RD Client 1.2.5105.
 - Give/Take control for Citrix and AVD/Windows 365
 - HID support in headsets
 - The app switcher toggle isn't shown in new Teams if the virtual machine has the machine-wide classic Teams installed (MSI with ALLUSERS=1). **Note:** This issue is fixed on new Teams version 23320.3021.2567.4799 or higher.
@@ -372,17 +367,15 @@ You can’t use the native Teams app to join meetings. Clicking “Join on the T
 >[!Note]
 >Microsoft is working on a solution and plan to remove these limitations soon.
 
-
-
-
-
 ## Enhancements in new Teams 
 
 Issues from classic Teams are now fixed in new Teams:
 
+- Multitenant Multi-Account
+- Performance improvements in hardware resource consumptions
 - Channels 2.0 
 - Multi-window is enabled by default, without prompting for a Restart.
-- Sharing toolbar can now be pinned/unpinned.
+- Sharing toolbar improvements (including pinning/unpinning).
 
 ## VDI Feature comparison between classic Teams and new Teams
 

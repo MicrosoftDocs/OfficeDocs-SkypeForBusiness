@@ -524,8 +524,6 @@ items:
           href: log-files.md
         - name: Browser logs and tracing for Teams
           href: browser-logs-and-tracing-for-teams.md
-        - name: Verify service health for Teams
-          href: service-health.md
         - name: How to look up your support PIN
           href: support-pin.md
 
@@ -564,8 +562,6 @@ items:
             href: manage-teams-with-policies.md
           - name: Team expiration and renewal
             href: team-expiration-renewal.md
-          - name: Private team discovery
-            href: search-private-teams.md
           - name: Archive or delete a team
             href: archive-or-delete-a-team.md
           - name: Migrate from Slack to Teams
@@ -667,6 +663,8 @@ items:
               href: set-up-meeting-registration.md
         - name: Attendee experience
           items: 
+            - name: Manage Copilot for Teams
+              href: copilot-teams-transcription.md
             - name: Manage Q&A
               href: manage-qna-for-teams.md
             - name: Manage meeting chat
@@ -753,6 +751,8 @@ items:
               href: meeting-transcription-captions.md
             - name: Use OneDrive and SharePoint or Stream for meeting recordings
               href: tmr-meeting-recording-change.md
+            - name: Delete Exchange Online and OneDrive transcript files for Teams meetings
+              href: delete-exchange-online-transcripts.md
         - name: Integration
           items:
             - name: eCDN
@@ -806,6 +806,8 @@ items:
           href: teams-live-events/what-are-teams-live-events.md
         - name: Plan for Teams live events
           href: teams-live-events/plan-for-teams-live-events.md
+        - name: Live events overview
+          href: teams-stream-overview.md
         - name: Set up for Teams live events
           href: teams-live-events/set-up-for-teams-live-events.md
         - name: Use PowerShell to set Teams live events policies
@@ -814,8 +816,6 @@ items:
           href: teams-live-events/configure-teams-live-events.md
         - name: Live events recording policies
           href: teams-live-events/live-events-recording-policies.md
-        - name: Streaming overview
-          href: teams-stream-overview.md
         - name: Configuration
           href: teams-encoder-configuration.md
         - name: Troubleshooting
@@ -1490,6 +1490,8 @@ items:
               href: rooms/rooms-prep.md
             - name: Create resource accounts 
               href: rooms/create-resource-account.md
+            - name: Set up using one-time passwords 
+              href: rooms/first-time-setup.md
             - name: Authentication
               items:
               - name: Configure authentication
@@ -1552,6 +1554,8 @@ items:
           href: rooms/enrolling-mtrp-managed-service.md
         - name: Enroll a device into Pro management
           href: rooms/enroll-a-device.md
+        - name: Create a one-time password
+          href: rooms/create-otp.md
         - name: Role-based access control
           href: rooms/rooms-pro-rbac.md
         - name: Monitoring and maintaining Rooms
