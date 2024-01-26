@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: serdars
 ms.reviewer: vivekmo
-ms.date: 11/13/2023
+ms.date: 1/26/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -28,7 +28,7 @@ description: Learn how to prevent or block users in your organization from joini
 
 **APPLIES TO:** ✔️Meetings ✖️Webinars ✖️Town halls
 
-As an admin, you can control which types of Microsoft Teams meetings your users can join. Managing the types of meetings users can join can be helpful in privacy and compliance scenarios, where you might not want specific users or groups in your org joining meetings with trusted or nontrusted organizations.
+As an admin, you can control which types of Microsoft Teams meetings users in your org can join. Managing the types of meetings users can join can be helpful in privacy and compliance scenarios, where you might not want specific users or groups in your org joining meetings with external non-trusted trusted or even trusted organizations.
 
 To learn more about trusted organizations, see [IT Admins - Manage external meetings and chat with people and organizations using Microsoft identities](trusted-organizations-external-meetings-chat.md).
 
@@ -36,7 +36,7 @@ The following table describes how different roles in Teams interact with this po
 
 |User role| Policy effect|
 |---------|---------------|
-|Trusted org participant| When this policy is set to Anyone or Only people in trusted orgs, users can join meetings with trusted organizations defined in external access. When this policy is set to No one, users can still join these meetings as anonymous if they aren’t logged in to Teams. |
+|Trusted org participant| When this policy is set to **Anyone** or **Only people in trusted orgs**, users in your org can join meetings that trusted organizations (as defined in “External access”) host. <br> When this policy is set to **No one**, users in your org can't join these externally hosted Teams meetings using your org’s accounts. However, your users can still join these external meetings as anonymous if they aren’t logged in to Teams. |
 |Guest| This policy doesn’t affect meetings in other organizations where your users are signed in as guests.|
 |Anonymous| This policy doesn't prevent users from joining external meeting anonymously if they’re not signed into Teams.|
 |External participant in a shared channel meeting| This policy doesn't prevent users from joining external shared channel meetings.|
@@ -45,13 +45,19 @@ The following table describes how different roles in Teams interact with this po
 
 You can manage the types of meetings your users can join through the Teams admin center or PowerShell.
 
+|Teams admin center policy option|Parameter value in PowerShell| Behavior|
+|---------|---------|---------------|
+|Anyone|All| **This is the default value.** Users with this policy can join any meeting they’re invited to. |
+|Only people in trusted orgs|Current&TrustedOrgs| Users with this policy can only join in org meetings and meetings organizations that you have a trusted relationship with host.|
+|No one|CurrentOrgOnly| Users with this policy can only join in org meetings.|
+
 ### Prevent users from joining external meetings using the Teams admin center
 
 Follow these steps in the Teams admin center to turn town halls on or off:
 
 1. Open the Teams admin center.
 2. Select **Meetings** from the navigation pane.
-3. Under **Meetings**, select **Meeting Policies**.
+3. Expand **Meetings** a d select **Meeting Policies**.
 4. Either select an existing policy or create a new one.
 5. Navigate to the **Meeting join & lobby** section.
 6. Set **People can join external meetings hosted by** to your chosen value of either **Anyone**, **Only people in trusted orgs**, or **No one**.
@@ -60,13 +66,6 @@ Follow these steps in the Teams admin center to turn town halls on or off:
 ### Prevent users from joining external meetings using PowerShell
 
 You can use the **`-JoinMeetingsHostedAt`** parameter within the PowerShell [**CsTeamsMeetingPolicy**](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet to manage the types of external meetings your users can join.
-The following table shows the behaviors of the settings for the **`-JoinMeetingsHostedAt`** parameter:
-
-|Setting value| Behavior|
-|---------|---------------|
-|All| **This is the default.** Users with this policy can join any meeting they’re invited to. |
-|Current&TrustedOrgs| Users with this policy can only join in org meetings and meetings organizations that you have a trusted relationship with host.|
-|CurrentOrgOnly| Users with this policy can only join in org meetings.|
 
 Before you can run these cmdlets, you must be connected to Microsoft Teams PowerShell. For more information, see [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams).
 
