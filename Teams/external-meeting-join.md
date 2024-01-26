@@ -32,7 +32,7 @@ As an admin, you can control which types of Microsoft Teams meetings users in yo
 
 To learn more about trusted organizations, see [IT Admins - Manage external meetings and chat with people and organizations using Microsoft identities](trusted-organizations-external-meetings-chat.md).
 
-The following table describes how different roles in Teams interact with this policy.
+The following table describes how different roles in Teams interact with this policy:
 
 |User role| Policy effect|
 |---------|---------------|
