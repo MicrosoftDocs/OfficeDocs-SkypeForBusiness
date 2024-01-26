@@ -120,6 +120,7 @@ The following are the latest Teams phone app and firmware versions.
 
 | Product release | Release date  | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| 2023 Update #3E | January 23, 2024 | `1449/1.0.94.2024011003` | `5.0.5954.0` | `486`|
 | 2023 Update #3D | December 6, 2023 | `1449/1.0.94.2023112704` | `5.0.5954.0` | `486`|
 | 2023 Update #3C1 | November 28, 2023 | `1449/1.0.94.2023111407` | `5.0.5954.0` | `486`|
 | 2023 Update #3C | November 6, 2023 | `1449/1.0.94.2023100602` | `5.0.5954.0` | `486`|
@@ -163,6 +164,8 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|Yealink MP52  | `145.15.0.83`     | 2023 Update #3B  |
+|Yealink VP59  | `91.15.0.136`     | 2023 Update #3B  |
 |Poly CCX 350/400/500/505/600 | `8.1.5.1732` | 2023 Update #3 |
 |Poly Trio C60 | `8.1.5.1737 ` | 2023 Update #3 |
 |Poly CCX 400/500/505/600 | `8.1.4.1480` | 2023 Update #3 |
