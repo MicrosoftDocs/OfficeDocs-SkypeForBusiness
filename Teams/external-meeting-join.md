@@ -48,7 +48,7 @@ You can manage the types of meetings your users can join through the Teams admin
 |Teams admin center policy option|Parameter value in PowerShell| Behavior|
 |---------|---------|---------------|
 |Anyone|All| **This is the default value.** Users with this policy can join any meeting they’re invited to. |
-|Only people in trusted orgs|Current&TrustedOrgs| Users with this policy can only join in org meetings and meetings organizations that you have a trusted relationship with host.|
+|Only people in trusted orgs|Current&TrustedOrgs| Users with this policy can only join in org meetings and meetings that organizations you have a trusted relationship with host.|
 |No one|CurrentOrgOnly| Users with this policy can only join in org meetings.|
 
 ### Prevent users from joining external meetings using the Teams admin center
