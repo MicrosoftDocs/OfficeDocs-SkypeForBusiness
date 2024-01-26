@@ -36,7 +36,7 @@ The following table describes how different roles in Teams interact with this po
 
 |User role| Policy effect|
 |---------|---------------|
-|Trusted org participant| When this policy is set to **Anyone** or **Only people in trusted orgs**, users in your org can join meetings that trusted organizations (as defined in External access) host. <br><br> When this policy is set to **No one**, users in your org can't join these externally hosted Teams meetings using your org’s accounts. However, your users can still join these external meetings as anonymous if they aren’t logged in to Teams. |
+|Trusted org participant| When this policy is set to **Anyone** or **Only people in trusted orgs**, users in your org can join meetings that trusted organizations (as defined in External access) host. <br><br> When this policy is set to **No one**, users in your org can't join externally hosted Teams meetings using your org’s accounts. However, your users can still join external meetings as anonymous if they aren’t logged in to Teams. |
 |Guest| This policy doesn’t affect meetings in other organizations where your users are signed in as guests.|
 |Anonymous| This policy doesn't prevent users from joining external meeting anonymously if they’re not signed into Teams.|
 |External participant in a shared channel meeting| This policy doesn't prevent users from joining external shared channel meetings.|
