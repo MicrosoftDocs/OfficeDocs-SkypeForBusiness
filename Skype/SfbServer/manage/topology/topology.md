@@ -13,7 +13,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b2f8ce22-938e-4e22-8a1a-c829a1366b27
 description: "Summary: Learn about the steps to manage your topology in Skype for Business Server."
-ms.collection
+ms.collection:
 - essentials-manage
 ---
 
