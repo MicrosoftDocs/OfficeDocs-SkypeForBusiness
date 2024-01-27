@@ -11,7 +11,8 @@ ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-ms.collection: IT_Skype16
+ms.collection:
+- essentials-manage
 description: "This article provides an overview of the new Control Panel."
 ---
 
