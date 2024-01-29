@@ -212,7 +212,7 @@ Inbound PSTN calls from a Location-Based Routing enabled gateway are allowed to 
 
 Users enabled for Location-Based Routing can receive inbound call transfers from Auto attendants as long as the inbound PSTN call is using the same Location-Based Routing rules listed earlier. 
  
-Call forwarding and simultaneous ringing to users and PSTN is allowed for voice app transfers. Completing the call to the target is subject to the same Location-Based Routing rules listed earlier. Forwarding to voicemail is also allowed.  
+Call forwarding and simultaneous ringing to users and PSTN is allowed for Auto attendant transfers. Completing the call to the target is subject to the same Location-Based Routing rules listed earlier. Forwarding to voicemail is also allowed.  
 
 ## Delegation
 
@@ -253,7 +253,9 @@ Location-Based Routing doesn't apply to the following types of interactions. Loc
 
 - Call park or retrieval of PSTN calls through Call Park 
 
-- An on-premises Skype for Business user or a Skype for Business Online user calls a Teams user  
+- An on-premises Skype for Business user calls a Teams user  
+
+- Call queue support
 
 
 
