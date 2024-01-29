@@ -56,7 +56,7 @@ The data in the table columns below the graph allow a more granular look at indi
 - If your organization allows users to toggle back and forth between classic and new Teams ahead of the automatic update coming on March 31, 2024, this report will allow you to identify users who've chosen to remain on classic Teams so you can perform any relevant communication or change management campaigns to help those users make the switch.
 - Using the export capability of the report, you can identify any Teams desktop clients within your organization that have somehow ended up stuck on an older version and are not automatically updating as they should. This is often a result of some sort of network or machine issue or a configuration change. Identifying these users with this report will allow you to proactively identify and engage with these users to investigate and resolve the issue.
 
-## See also
+## Related topics
 
 - [The new Microsoft Teams](new-teams-desktop-admin.md)
 - [New Teams for Mac - Overview and prerequisites](new-teams-mac-install-prerequisites.md)
