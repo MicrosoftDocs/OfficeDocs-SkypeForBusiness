@@ -194,7 +194,7 @@ Direct Voice over IP (VoIP) must not be deployed with any telephony equipment in
 
 ## Location-Based Routing for conferencing
 
-A user who is enabled for Location-Based Routing but who does not have an audio conferencing license on a PSTN call isn't allowed to start a conference with another user or PSTN number. Connecting to auto attendants or call queues is allowed.
+A user who is enabled for Location-Based Routing but who does not have an audio conferencing license on a PSTN call isn't allowed to start a conference with another user or PSTN number. Connecting to auto attendants is allowed.
 
 If the user has an audio conferencing license, the user must start a conference with the relevant users and call the PSTN through the conference bridge to start a conference call. If the user is already on a 1:1 PSTN call, the *People* modality in the Teams client will be hidden, preventing the Teams LBR user from adding a participant or escalating the existing call to a conference.  In this scenario, the call must be ended. The Teams LBR user will then need to create a conference and use the conferencing bridge to dial out to the required PSTN numbers. 
 
@@ -206,15 +206,13 @@ On-network conferencing for Audio Conferencing must NOT be deployed with any tel
 
 A Location-Based Routing enabled user on a PSTN call is not allowed to merge that call with another call. The following are not supported: recording the PSTN call and compliance recording of the PSTN call.
 
-## Inbound calls through voice apps (Auto Attendant or Call Queue)
+## Inbound calls through Auto attendants
 
-Inbound PSTN calls from a Location-Based Routing enabled gateway are allowed to connect to an auto attendant or call queue. 
+Inbound PSTN calls from a Location-Based Routing enabled gateway are allowed to connect to an Auto attendant. (Calls to a Call queue are not supported.)
 
-Users enabled for Location-Based Routing are supported to receive inbound call transfers for these applications when they are located at the same site the inbound PSTN call originates from. To support Local Media Optimization and Media Bypass in these scenarios, Calls Queues must be configured for transfer mode (Conference Mode = OFF).
+Users enabled for Location-Based Routing can receive inbound call transfers from Auto attendants as long as the inbound PSTN call is using the same Location-Based Routing rules listed earlier. 
  
-Call forwarding and simultaneous ringing to users and PSTN is allowed for voice app transfers. Completing the call to the target is subject to the same Location-Based Routing rules listed earlier.  
- 
-Forwarding to voicemail is also allowed.  
+Call forwarding and simultaneous ringing to users and PSTN is allowed for voice app transfers. Completing the call to the target is subject to the same Location-Based Routing rules listed earlier. Forwarding to voicemail is also allowed.  
 
 ## Delegation
 
