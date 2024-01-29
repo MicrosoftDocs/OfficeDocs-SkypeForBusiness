@@ -52,7 +52,7 @@ As a Teams admin, you get full access to all real-time telemetry data for each u
 
 ## Where to find per-user real-time troubleshooting telemetry
 
-To see all meeting information and data for a user, go to the [Teams admin center](https://admin.teams.microsoft.com). Under **Users** > **Manage users**, select a user, and open the **Meetings & calls** tab on the user's profile page. Under **Recent meetings**, you'll see a list of meetings the user has attended within the past 24 hours for which real-time telemetry is available, including any in progress meetings. If the meeting isn't in progress or doesn't have real-time telemetry data, it will show up in **Past meetings**.
+To see all meeting information and data for a user, go to the [Teams admin center](https://admin.teams.microsoft.com). Under **Users** > **Manage users**, select a user, and open the **Meetings & calls** tab on the user's profile page. Under **Recent meetings**, there is a list of meetings the user attended within the past 24 hours for which real-time telemetry is available, including any in progress meetings. If the meeting isn't in progress or doesn't have real-time telemetry data, it's listed under **Past meetings**.
 
 Real-time telemetry is gathered automatically for all users who have a Teams Premium license and is retained for seven days. For users who don't have a Teams Premium license, real-time telemetry is only gathered when you access the in-progress meeting in the Teams admin center and is retained for 24 hours.
 
@@ -71,8 +71,8 @@ To look at the telemetry of a given user for an in-progress meeting, including i
 ### Device information
 | Name | Description | Possible reasons for blank values|
 |:---|:---|:---|
-| Audio capture device | Name of the audio capture device (eg: microphone) in use | System might not have a name associated with the device (eg: Remote Desktop or Virtual machine 'Remote audio' device)  |
-| Audio render device | Name of the audio render device (eg: speakers or headphones) in use | System might not have a name associated with the device (eg: Remote Desktop or Virtual machine 'Remote audio' device)  |
+| Audio capture device | Name of the audio capture device (for example, microphone) in use | System might not have a name associated with the device (for example, Remote Desktop or Virtual machine 'Remote audio' device)  |
+| Audio render device | Name of the audio render device (for example, speakers or headphones) in use | System might not have a name associated with the device (for example, Remote Desktop or Virtual machine 'Remote audio' device)  |
 | Video capture device | Name of the video capture device in use | User isn't sending video from the endpoint being monitored |
 
 ### Connectivity information
@@ -117,7 +117,7 @@ User signals identify when a user is actively participating in the call, isn't s
 |Resolution |Pixels | Information only |The resolution of the video being sent. Outbound video resolution is dynamic, based on the highest requirement from an endpoint in the meeting. A client capable of 1920 x 1080 video will only send 640 x 360 video if no clients are displaying that user's video in a frame larger than 640 x 360 |
 | Source Freeze Count | Count | Less than 2 | The number of times the camera didn’t generate a new frame for more than one second at a stretch. For video, this metric is typically indicative of an issue with the device generating content at the asked format. |
 | Loss Recovery Attempt Rate | Count | Less than 21 | Indicates the number of times there was a request to recover from network loss causing video to freeze. This value is typically caused by packet loss on the network and can result in short to long freezes depending on the nature of loss. Mitigating the source of network loss should improve quality. |
-| Video Encoder Hardware Failure | Boolean | False | This flag indicates that there has been an error raised from the hardware encoding component. Typically, Teams handles video encoder errors by falling back to software encoding, but software encoding can result in degraded performance if the endpoint doesn’t have sufficient processing power. |
+| Video Encoder Hardware Failure | Boolean | False | This flag indicates that there was an error from the hardware encoding component. Typically, Teams handles video encoder errors by falling back to software encoding, but software encoding can result in degraded performance if the endpoint doesn’t have sufficient processing power. |
 
 
 
@@ -131,7 +131,7 @@ User signals identify when a user is actively participating in the call, isn't s
 |Codec |String | Information only |Displays the codec and rendering mode of the VBSS stream. (Example: H264 SW HW indicates an H264 VBSS stream using both software and hardware rendering.)|
 |Resolution |Pixels | Information only |The resolution of the VBSS stream being sent and received. |
 | Normalized Freeze Duration | Milliseconds per minute| Less than 25 | This metric is the rate of video freezing that is observed on the receiver side and is represented in milliseconds of freeze per minute of active video. Loss-free networks should have a value of 0. Video freeze is typically caused by network loss. Larger percentages of loss or short, high bursts of loss may lead to higher normalized freeze. |
-| Harmonic Frame Rate Average | Frames per second (FPS) | Greater than 0.15 | The harmonic average of the incoming video framerate. This typically represents the regularity of the incoming frames along with the rate of frames. A low value can stem from jitter in the incoming frames, freezes, burst arrivals, and low FPS itself. These are typically related to network issues, but -- although rare -- can also be caused by devices not producing consistent output framerates.|
+| Harmonic Frame Rate Average | Frames per second (FPS) | Greater than 0.15 | The harmonic average of the incoming video framerate. This typically represents the regularity of the incoming frames along with the rate of frames. A low value can stem from jitter in the incoming frames, freezes, burst arrivals, and low FPS itself. These are typically related to network issues, but (rarely) can also be caused by devices not producing consistent output framerates.|
 | Audio / Video Sync | Milliseconds | Between -900 ms to 900 ms | This metric indicates the audio / video sync in milliseconds. The sync value is calculated as (audioDelay – videoDelay). A positive value indicates audio is behind while a negative value indicates video is behind. Audio video sync issues may be caused by various factors, most common of which include bad capture devices and network issues delaying one modality more than the other. |
 | Loss Recovery Attempt Rate | Count | Less than 21 | Indicates the number of times there was a request to recover from network loss causing video to freeze. This metric is typically caused by packet loss on the network and can result in short to long freezes depending on the nature of loss. Mitigating the source of network loss should improve quality. |
 | Source Freeze Count | Count | Less than 75 | The number of times the outbound screen share didn’t generate a new frame for more than one second at a stretch. For screen sharing, this value can potentially relate to permissions of screen capture, and can also result from performance issues causing glitches while capturing screen content. |
