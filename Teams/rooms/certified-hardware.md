@@ -95,6 +95,10 @@ The following devices are Certified under the Microsoft Teams Rooms on Windows C
 | Logitech TAP Console with Lenovo Core Compute | Core i5 | 8 GB | 128 GB |
 | [Logitech Tap and Lenovo ThinkSmart Tiny](https://www.logitech.com/video-collaboration/partners/lenovo.html) | Core i5 | 8 GB | 128 GB |
 | MAXHUB XCore Kit | Core i3 | 8 GB | 128 GB |
+| [Microsoft Surface Hub 3 50"](https://www.microsoft.com/surface/business/surface-hub-3) | Core i5 | 32 GB | 512 GB |
+| [Microsoft Surface Hub 3 85"](https://www.microsoft.com/surface/business/surface-hub-3) | Core i5 | 32 GB | 512 GB |
+| [Microsoft Surface Hub 2S 50" upgraded with the Surface Hub 3 Pack](https://www.microsoft.com/d/surface-hub-3-pack-for-business/8mf5qhhn1t4g) | Core i5 | 32 GB | 512 GB |
+| [Microsoft Surface Hub 2S 85" upgraded with the Surface Hub 3 Pack](https://www.microsoft.com/d/surface-hub-3-pack-for-business/8mf5qhhn1t4g) | Core i5 | 32 GB | 512 GB |
 | [Poly G10-T with Lenovo ThinkSmart Tiny](https://www.poly.com/us/en/products/video-conferencing/g/g10) | Core i5 | 8 GB | 128 GB |
 | [Poly G40-T Kit with Poly Studio USB, with Lenovo](https://www.poly.com/us/en/support/products/video-conferencing/poly-room-solutions/g40) | Core i5 | 8 GB | 128 GB |
 | [Poly G85-T Kit with Poly Eagle Eye Director II, with Lenovo](https://www.poly.com/us/en/support/products/video-conferencing/poly-room-solutions/g85) | Core i5 | 8 GB | 128 GB |
@@ -185,7 +189,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 |:-|:-|:-|:-|:-|:-|
 | [Aver VC520 Pro Camera + Speakerphone](https://www.averusa.com/products/conference-camera/vc520pro) | 1004.35 |  |  |
 | [Aver VC520 PRO2 Conferencing System](https://www.averusa.com/products/conference-camera/vc520pro2) | 00.0.7200.79 |  |  |
-| [Aver VB342+ Camera Soundbar](https://www.averusa.com/products/conference-camera/vb342plus) | Soundbar: 0.0.0000.97 |  |  |
+| Aver VB342+ Camera Soundbar | Soundbar: 0.0.0000.97 |  |  |
 | [Aver VB342 pro Video bar](https://www.averusa.com/products/video-collaboration-bar/vb342pro) | 0.0.7800.61 |  |  |
 | [Aver VB350 Video bar](https://communication.aver.com/model/vb350) | 0.0.8200.91 |  |  |
 | [Aver CAM 540](https://www.averusa.com/products/conference-camera/cam540) | 0.0.6002.83 |  |  |
@@ -195,7 +199,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Aver CAM 520 Pro 2](https://www.averusa.com/products/conference-camera/cam520pro2) | 0.0.7200.3 |  |  |
 | [Aver CAM 130](https://www.averusa.com/products/conference-camera/cam130) | 0.0.7450.02 | &#x2714; |  |
 | [Aver Fone540](https://www.averusa.com/products/vc-accessories/fone540) | 0.0.7002.17 |  |  |
-| [Aver VB130 Camera Soundbar](https://www.averusa.com/products/conference-camera/vb130) | 0.0.7300.71 |  |  |
+| Aver VB130 Camera Soundbar | 0.0.7300.71 |  |  |
 | [Aver TR313V2 Camera](https://www.averusa.com/products/ptz-camera/tr313v2) | 0.3.0011.38 |  |  |
 | [Audiocodes RXVCAM50L](https://www.audiocodes.com/solutions-products/products/room-experience-rx-suite/rxvcam50lm-video-camera) | 1.0.5 |  |  |
 | [AudioCodes RXVCam10](https://www.audiocodes.com/solutions-products/products/room-experience-rx-suite/rxvcam10-cc-content-camera) | 1.0.6 | &#x2714; |  |
@@ -210,6 +214,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | Crestron 1Beyond- Crestron Automate VX Plus: [Automate VX Plus (IV-SAM-VXN-1B)](https://www.crestron.com/Products/Workspace-Solutions/Intelligent-Video/1-Beyond-Intelligent-Video/IV-SAM-VXN-1B), [INOGENI (SDI2USB3) converter](https://inogeni.com/product/sdi2usb3/), [AutoTracker (IV-CAMA3-20) presenter tracking camera](https://www.crestron.com/Products/Workspace-Solutions/Intelligent-Video/1-Beyond-Intelligent-Video/IV-CAMA3-20-N-W-1B), [Optical PTZ (IV-CAMPTZ) camera](https://www.crestron.com/Products/Workspace-Solutions/Intelligent-Video/1-Beyond-Intelligent-Video/IV-CAMPTZ-12-W-1B) | Automate VX Plus: Version 5.11.8580.20169 </br> INOGENI SDI1USB3: Version 8.39 </br> IV-CAMA30: Version 5.1.82 </br> IV-CAMPTZ: Version 3.1.20 |  |  |
 | HP Presence See Camera | 1.0.23.0 |  |  |
 | [:::no-loc text="Huddly"::: Canvas](https://www.huddly.com/conference-cameras/canvas/) | 1.3.25 | &#x2714; |  |
+| [Huddly Crew AI-directed multi-camera system](https://www.huddly.com/conference-cameras/crew/) | 1.5.19 |  |  |
 | [:::no-loc text="Huddly"::: IQ](https://www.huddly.com/conference-cameras/iq/) | 1.3.22 |  |  |
 | [:::no-loc text="Huddly"::: IQ Lite](https://www.huddly.com/conference-cameras/iq/) | 1.3.29 |  |  |
 | [:::no-loc text="Huddly"::: IQ Camera](https://www.huddly.com/conference-cameras/iq/) | 1.3.27 |  |  |
@@ -242,10 +247,8 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Logitech Scribe](https://www.logitech.com/products/video-conferencing/room-solutions/scribe.960-001332.html) | 1.1.1 | &#x2714; |  |
 | [MAXHUB UC S07 Videoconferencing Camera](https://www.maxhub.com/en/s07/) | Audio firmware version : V0.0.0.5476 </br> Video firmware version : V100-20230726-175602 |  |  |
 | MAXHUB UC W31 4K USB Camera | Video firmware version : 100-20230731-104934 |  |  |
-| Microsoft Surface Hub 3 50" | Bios 3.18.143 </br> USB Audio2 Aggregator Driver 17.63.19.0 </br> Audio Firmware 1.389.139 |  |  |
-| Microsoft Surface Hub 3 85" | Bios 3.18.143 </br> USB Audio2 Aggregator Driver 17.63.19.0 </br> Audio Firmware 1.389.139 |  |  |
-| Microsoft Surface Hub 2S 50" upgraded with the Surface Hub 3 Pack | Bios 3.18.143 </br> USB Audio2 Aggregator Driver 17.63.19.0 </br> Audio Firmware 1.389.139 |  |  |
-| Microsoft Surface Hub 2S 85" upgraded with the Surface Hub 3 Pack | Bios 3.18.143 </br> USB Audio2 Aggregator Driver 17.63.19.0 </br> Audio Firmware 1.389.139 |  |  |
+| [Microsoft Surface Hub Smart Camera](https://www.microsoft.com/d/surface-hub-smart-camera/8n983ctks176) | FW: 1.8.1 |  |  |
+| [Microsoft Surface Hub 2 Camera](https://www.microsoft.com/d/surface-hub-2-camera/8tzgfl7z18ph) | FW: 24.712.159 |  |  |
 | [Nureva HDL300](https://www.nureva.com/audio-conferencing/hdl300) | 2.3.6 |  |  |
 | [Nureva HDL310](https://www.nureva.com/audio-conferencing/hdl310) | 1.5.0.0 |  |  |
 | [Nureva HDL410](https://www.nureva.com/audio-conferencing/hdl410) | 1.5.243554 |  |  |
@@ -281,8 +284,8 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Yealink UVC84](https://www.yealink.com/product/camera-uvc84) | 262.410.0.10 |  |  |
 | [Yealink UVC86]( https://www.yealink.com/product/camera-uvc86) | 151.410.0.5 |  |  |
 | Yealink MSpeech | 136.410.0.19 |  |  |  | &#x2714; |
-| Shure Microflex Ecosystem:  [MXA910 Ceiling Array Microphone](https://www.shure.com/en-US/products/microphones/mxa910?variant=MXA910AL-60CM) or [MXA920 Ceiling Array Microphone](https://www.shure.com/en-US/products/microphones/mxa920?variant=MXA920W-S) or [MXA902 Integrated Conferencing Ceiling Array](https://www.shure.com/en-US/products/microphones/mxa902?variant=MXA902W-S) or [MXA710 Linear Array Microphone](https://www.shure.com/en-US/products/microphones/mxa710?variant=MXA710AL-2FT%2520) or [MXA310 Table Array Microphone](https://www.shure.com/en-US/products/microphones/mxa310?variant=MXA310AL) + </br>Shure [IntelliMix P300 Audio Conferencing Processor](https://www.shure.com/en-US/products/mixers/p300?variant=P300-IMX) or [ANIUSB-MATRIX Network Interface](https://www.shure.com/en-US/products/mixers/aniusb-matrix?variant=ANIUSB-MATRIX) + </br>Shure [MXN5W-C Ceiling Speaker](https://www.shure.com/en-US/products/loudspeakers/mxn5?variant=MXN5W-C) | MXA910: FW 4.1, MXA920: FW 1.1.56, MXA902: FW 5.0.115, MXA710: FW 1.2.0, MXA310: FW 4.1, </br> P300: FW 4.1, ANIUSB-MATRIX: FW 4.7.21, </br> MXN5W-C: FW 1.0.4 |  |  |
-|Shure Microflex Ecosystem: [MXA910 Ceiling Array Microphone](https://www.shure.com/en-US/products/microphones/mxa910?variant=MXA910AL-60CM) or [MXA920 Ceiling Array Microphone](https://www.shure.com/en-US/products/microphones/mxa920?variant=MXA920W-S) or [MXA902 Integrated Conferencing Ceiling Array](https://www.shure.com/en-US/products/microphones/mxa902?variant=MXA902W-S) or [MXA710 Linear Array Microphone](https://www.shure.com/en-US/products/microphones/mxa710?variant=MXA710AL-2FT%2520) or [MXA310 Table Array Microphone](https://www.shure.com/en-US/products/microphones/mxa310?variant=MXA310AL) + </br>[Shure IntelliMix Room Software DSP](https://www.shure.com/en-US/products/software/intellimix_room) on Crestron UC-C100-T with :::no-loc text="ASUSTeK"::: Computer INC 9934 Compute or Dell OptiPlex7080XE or on Lenovo ThinkSmart Core + </br>[Shure MXN5W-C Ceiling Speaker](https://www.shure.com/en-US/products/loudspeakers/mxn5?variant=MXN5W-C) | MXA910: FW 4.1, MXA920: FW 1.1.56, MXA902: FW 5.0.115, MXA710: FW 1.2.0, MXA310: FW 4.1, </br>MXN5W-C: FW 1.0.4 |  |  |
+| Shure Microflex Ecosystem:  [MXA910 Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910?variant=MXA910AL-60CM) or [MXA920 Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa920?variant=MXA920W-S) or [MXA901 Conferencing Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa901?variant=MXA901W-R) or [MXA902 Integrated Conferencing Ceiling Array](https://www.shure.com/products/microphones/mxa902?variant=MXA902W-S) or [MXA710 Linear Array Microphone](https://www.shure.com/products/microphones/mxa710?variant=MXA710AL-2FT%2520) or [MXA310 Table Array Microphone](https://www.shure.com/products/microphones/mxa310?variant=MXA310AL) + </br>Shure [IntelliMix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300?variant=P300-IMX) or [ANIUSB-MATRIX Network Interface](https://www.shure.com/products/mixers/aniusb-matrix?variant=ANIUSB-MATRIX) + </br>Shure [MXN5W-C Ceiling Speaker](https://www.shure.com/products/loudspeakers/mxn5?variant=MXN5W-C) | MXA910: FW 4.1, MXA920: FW 1.1.56, MXA901: FW 6.0.15.0, MXA902: FW 5.0.115, MXA710: FW 1.2.0, MXA310: FW 4.1, </br> P300: FW 4.1, ANIUSB-MATRIX: FW 4.7.21, </br> MXN5W-C: FW 1.0.4 |  |  |
+|Shure Microflex Ecosystem: [MXA910 Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910?variant=MXA910AL-60CM) or [MXA920 Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa920?variant=MXA920W-S) or [MXA901 Conferencing Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa901?variant=MXA901W-R) or [MXA902 Integrated Conferencing Ceiling Array](https://www.shure.com/products/microphones/mxa902?variant=MXA902W-S) or [MXA710 Linear Array Microphone](https://www.shure.com/products/microphones/mxa710?variant=MXA710AL-2FT%2520) or [MXA310 Table Array Microphone](https://www.shure.com/products/microphones/mxa310?variant=MXA310AL) + </br>[Shure IntelliMix Room Software DSP](https://www.shure.com/products/software/intellimix_room) on Crestron UC-C100-T with :::no-loc text="ASUSTeK"::: Computer INC 9934 Compute or Dell OptiPlex7080XE or on Lenovo ThinkSmart Core + </br>[Shure MXN5W-C Ceiling Speaker](https://www.shure.com/products/loudspeakers/mxn5?variant=MXN5W-C) | MXA910: FW 4.1, MXA920: FW 1.1.56, MXA901: FW 6.0.15.0, MXA902: FW 5.0.115, MXA710: FW 1.2.0, MXA310: FW 4.1, </br>MXN5W-C: FW 1.0.4 |  |  |
 | [Sennheiser TeamConnect Intelligent Speaker/TC ISP (T-Rock)](https://en-us.sennheiser.com/tcisp) | 1.0.6 |  |  |  | &#x2714; |
 | [Biamp Tesira Fore AVB VT4 Fixed audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br>[Sennheiser TeamConnect Ceiling 2 Microphone](https://sennheiser.com/tcc2)+ &Dagger;</br>[Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; | Biamp DSP: 3.12.0.15 </br> TCC2: 1.3.3 </br>EX-UBT: 3.12.0.15 |  |  |
 | [Biamp Tesira FORTÉ AVB VT4 Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+</br>[Biamp Parlé TCM-XA Ceiling Microphone](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br>[Biamp Desono C-IC6 ceiling mounted loudspeaker](https://www.biamp.com/products/tesira-speakers) | Audio FW version: 3.15 |  |  |
