@@ -7,7 +7,7 @@ ms.date: 05/11/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: kkodali
+ms.reviewer: romanf
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn about Teams Policy-based Recording for Calling & Meetings
@@ -317,6 +317,7 @@ The following partners are in the process of certifying their solution for Micro
 
 |Partner|Solution website |
 |:--|:--|
+|Comunycarse |[https://www.comunycarse.com/en/call-recording-and-interactions-archiving/](https://www.comunycarse.com/en/call-recording-and-interactions-archiving/) |
 |GuardRec |[https://www.guardrec.com/en/teams-compliance-recording/](https://www.guardrec.com/en/teams-compliance-recording/) |
 |Landis Technologies |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
