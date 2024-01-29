@@ -7,22 +7,22 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
-  - M365-collaboration
-  - tier1
+- M365-collaboration
+- tier1
 ms.reviewer: ritikag
-ms.date: 08/11/2017
+ms.date: 01/28/2024
 search.appverid: MET150
 description: Learn how to manage user access to Teams by assigning or removing a Teams license to users in your organization. 
 f1.keywords:
 - CSH
 - ms.teamsadmincenter.signin.domainerror.nolicensedusers
 ms.custom:
-  - NewAdminCenter_Update
-  - seo-marvel-apr2020
-  - has-azure-ad-ps-ref
-  - azure-ad-ref-level-one-done
+- NewAdminCenter_Update
+- seo-marvel-apr2020
+- has-azure-ad-ps-ref
+- azure-ad-ref-level-one-done
 appliesto: 
-  - Microsoft Teams
+- Microsoft Teams
 ---
 
 # Manage user access to Teams
