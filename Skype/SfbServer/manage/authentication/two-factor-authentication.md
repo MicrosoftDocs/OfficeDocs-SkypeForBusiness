@@ -32,7 +32,7 @@ The Cumulative Updates for Lync Server 2013: July 2013 desktop client and the Sk
   
 ## Topology Requirements
 
-Customers are encouraged to deploy two-factor authentication using dedicated Skype for Business Server with Edge, Director, and User Pools. To enable passive authentication for users, other authentication methods must be disabled for other roles and services, including these:
+Customers are encouraged to deploy two-factor authentication using dedicated Skype for Business Server with Microsoft Edge, Director, and User Pools. To enable passive authentication for users, other authentication methods must be disabled for other roles and services, including these:
   
 |**Configuration Type**|**Service Type**|**Server Role**|**Authentication Type to Disable**|
 |:-----|:-----|:-----|:-----|
@@ -41,15 +41,15 @@ Customers are encouraged to deploy two-factor authentication using dedicated Sky
 |Proxy  <br/> |EdgeServer  <br/> |Edge  <br/> |Kerberos and NTLM  <br/> |
 |Proxy  <br/> |Registrar  <br/> |Front End  <br/> |Kerberos and NTLM  <br/> |
    
-Unless these authentication types are disabled at the service level, all other versions of the client will be unable to sign in successfully once two-factor authentication is enabled within in your deployment.
+Unless these authentication types are disabled at the service level, all other versions of the clients are unable to sign in successfully once two-factor authentication is enabled within in your deployment.
   
 ## Skype for Business Service Discovery
 
-DNS records used by internal and/or external clients to discover Skype for Business services should be configured to resolve to a Skype for Business server that is not enabled for two-factor authentication. With this configuration, users from Skype for Business Pools that are not enabled for two-factor authentication will not be required to enter a PIN to authenticate, while users from Skype for Business Pools that are enabled for two-factor authentication will be required to enter their PIN to authenticate.
+DNS records used by internal and/or external clients to discover Skype for Business services should be configured to resolve to a Skype for Business server that isn't enabled for two-factor authentication. With this configuration, users from Skype for Business Pools that aren't enabled for two-factor authentication won't be required to enter a PIN to authenticate, while users from Skype for Business Pools that are enabled for two-factor authentication will be required to enter their PIN to authenticate.
   
 ## Exchange Authentication
 
-Customers who have deployed two-factor authentication for Microsoft Exchange may find that certain features in the client are unavailable. This behavior is by design, as the Skype for Business client doesn't support two-factor authentication for features that are dependent on Exchange integration.
+Customers who have deployed two-factor authentication for Microsoft Exchange might find that certain features in the client are unavailable. This behavior is by design, as the Skype for Business client doesn't support two-factor authentication for features that are dependent on Exchange integration.
   
 ## Contacts
 

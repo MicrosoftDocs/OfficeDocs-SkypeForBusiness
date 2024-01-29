@@ -23,9 +23,9 @@ Conference directories maintain a mapping between the alphanumeric meeting ID th
   
 ## Create a conference directory
 
-Creating multiple conference directories will ensure that conference IDs will stay short until a significant amount of conferences have been created. 
+Creating multiple conference directories ensure that conference IDs stay short until a significant number of conferences are created. 
   
-In an organization with a typical number of conferences per user, we recommend that you create one conference directory for every 999 users in the pool. Using this guideline, the conference IDs can generally be kept small. However, once the number of conference directories (across the pools) exceed 9, the Conference ID length will grow to support additional conferences.
+In an organization with a typical number of conferences per user, we recommend that you create one conference directory for every 999 users in the pool. Using this guideline, the conference IDs can generally be kept small. However, once the number of conference directories (across the pools) exceeds nine, the Conference ID length grows to support additional conferences.
   
 The format of a conference ID is as follows: 
   
