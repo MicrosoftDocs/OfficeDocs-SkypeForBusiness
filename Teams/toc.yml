@@ -105,6 +105,8 @@ items:
                   href: new-teams-known-issues.md
                 - name: Automatic update announcement
                   href: new-teams-automatic-upgrade-announced.md                  
+                - name: New Teams usage report
+                  href: new-teams-usage-report.md                  
             - name: Classic Teams clients
               items:
                 - name: Classic Teams client end of availability
