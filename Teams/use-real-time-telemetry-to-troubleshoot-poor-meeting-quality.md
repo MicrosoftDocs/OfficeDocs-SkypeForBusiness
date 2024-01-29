@@ -1,10 +1,10 @@
 ---
-title: "Use real-time telemetry to troubleshoot poor meeting quality"
+title: Use real-time telemetry to troubleshoot poor meeting quality
 author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: pamgreen
-ms.reviewer: mikedav
-ms.date: 09/24/2021
+ms.reviewer: vapati
+ms.date: 01/29/2024
 ms.topic: article
 ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
 ms.tgt.pltfrm: cloud
@@ -37,6 +37,8 @@ This article explains how to use Real-Time Analytics (RTA) to troubleshoot poor 
 For more information on Teams admin roles, see [Use Microsoft Teams administrator roles to manage Teams](/MicrosoftTeams/using-admin-roles).
 
 Real-Time Analytics lets IT admins look at their important users’ scheduled meetings and see audio, video, content sharing, and network-related issues. As an admin, you can use this telemetry to investigate these issues during meetings and troubleshoot in real time.
+
+Real-Time Analytics is available in Commercial, GCC, and GCC High.
 
 You can also set up alerts for audio issues as they occur in in-progress meetings. For more information, see [Alerts for in-progress meeting audio quality issues](alerts/alerts-in-progress-meeting-audio.md).
 
