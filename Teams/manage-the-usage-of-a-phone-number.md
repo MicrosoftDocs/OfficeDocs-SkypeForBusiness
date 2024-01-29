@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: pamgreen
 ms.reviewer: garciadaniel
-ms.date: 10/09/2023
+ms.date: 01/29/2024
 ms.topic: article
 ms.assetid: 
 ms.tgt.pltfrm: cloud
@@ -28,6 +28,20 @@ description: "Learn how to change the usage of a phone number to be used as eith
 # Manage the usage of a phone number
 
 You might want to change the usage of a phone number after it was acquired or ported into your organization. You can change the usage of user and service numbers by using the Teams admin center.
+
+There are three types of usages:
+
+- User number assigned directly to a user.
+- Service number assigned to an Auto attendant or Call queue.
+- Service number assigned to an Audio conferencing bridge.
+
+For more information about types of phone numbers, see [Manage phone numbers for your oranization](manage-phone-numbers-landing-page.md).
+
+Before changing the usage of a number:
+
+- Be sure you have the right licenses for the target type of number usage. For more information, see [How many numbers can you get](how-many-phone-numbers-can-you-get.md). 
+
+- Be aware that you can only assign toll-free numbers to voice apps (Auto attendants and Call queues) and Audio conferencing bridges.
 
 ## How to manage the usage of a phone number
 
@@ -56,6 +70,8 @@ If you still need assistance, contact the [TNS Service Desk](/MicrosoftTeams/man
 
 ## Related articles
 
-[Manage phone numbers for users](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)
+[Manage phone numbers for your organization](manage-phone-numbers-landing-page.md)
 
-[Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
+[Manage phone numbers for users](assign-change-or-remove-a-phone-number-for-a-user.md)
+
+
