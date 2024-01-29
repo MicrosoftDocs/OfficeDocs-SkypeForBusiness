@@ -11,7 +11,8 @@ ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-ms.collection: IT_Skype16
+ms.collection:
+- essentials-get-started
 ms.custom: Strat_SB_Admin
 ms.assetid: 71299b34-8783-4384-9949-0d3162c8a36e
 description: "Summary: Learn how to prepare your environment for an installation of Skype for Business Server."
