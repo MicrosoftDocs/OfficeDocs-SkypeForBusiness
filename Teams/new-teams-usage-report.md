@@ -15,7 +15,7 @@ ms.reviewer: daro
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Troubleshoot new Teams installation 
+description: Information about the new Teams client usage report, what it does and how to make the best use of it.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: high
