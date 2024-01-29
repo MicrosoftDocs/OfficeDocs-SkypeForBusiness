@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
 ms.reviewer: elederman
-ms.date: 1/16/2024
+ms.date: 1/29/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -47,6 +47,9 @@ To learn more about how organizers can use Copilot without transcription, see [U
 For more information about transcription policies, see [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md).
 
 As an admin, you can manage the default value for Copilot that  your organizers have in their meeting options. Meeting organizers can change their Copilot setting for each meeting they create.
+
+> [!IMPORTANT]
+> Copilot isn’t available in end-to-end encrypted meetings. For more details on end-to-end encryption, see [Require end-to-end encryption for sensitive Teams meetings](end-to-end-encrypted-meetings.md).
 
 > [!NOTE]
 > Copilot isn’t available for GCC, GCC High, DoD, and EDU.
