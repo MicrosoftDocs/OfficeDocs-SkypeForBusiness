@@ -40,7 +40,7 @@ To learn more about how organizers can use Copilot with transcription, see [Get 
 
 **2. Copilot with transcription turned off**<br>
 
-When organizers create a meeting or event, they can set Copilot’s value to **Without transcription** from the dropdown in their meeting options. Once someone with a Copilot license selects the Copilot button during the meeting or event, Copilot without transcription starts running for all licensed users. Because this option uses a non-persisted transcript that's deleted after the meeting ends, Copilot also isn’t available after the meeting or event is over. If you assign organizers a policy that disables transcription, any organizers with this policy must use Copilot with transcription turned off to access Copilot in their meetings.
+When organizers create a meeting or event, they can set Copilot’s value to **Without transcription** from the dropdown in their meeting options. Once someone with a Copilot license selects the Copilot button during the meeting or event, Copilot without transcription starts running for all licensed users. This option relies on a temporary transcript that gets deleted when the meeting or event ends, so Copilot isn't accessible after the meeting or event. If you assign organizers a policy that disables transcription, any organizers with this policy must use Copilot with transcription turned off to access Copilot in their meetings.
 
 To learn more about how organizers can use Copilot without transcription, see [Use Copilot without recording a Teams meeting](https://support.microsoft.com/office/use-copilot-without-recording-a-teams-meeting-a59cb88c-0f6b-4a20-a47a-3a1c9a818bd9).
 
@@ -49,7 +49,7 @@ For more information about transcription policies, see [Configure transcription 
 As an admin, you can manage the default value for Copilot that  your organizers have in their meeting options. Meeting organizers can change their Copilot setting for each meeting they create.
 
 > [!IMPORTANT]
-> Copilot for Teams meetings isn’t available in end-to-end encrypted meetings. For more details on end-to-end encryption, see [Require end-to-end encryption for sensitive Teams meetings](end-to-end-encrypted-meetings.md).
+> Copilot for Teams meetings isn’t available in end-to-end encrypted meetings. For more information on end-to-end encryption, see [Require end-to-end encryption for sensitive Teams meetings](end-to-end-encrypted-meetings.md).
 
 > [!NOTE]
 > Copilot isn’t available for GCC, GCC High, DoD, and EDU.
