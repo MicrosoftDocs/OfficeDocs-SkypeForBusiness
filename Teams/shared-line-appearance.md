@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.date: 02/19/2019
-ms.reviewer: jenstr
+ms.reviewer: roykuntz, guptaashish
 ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
