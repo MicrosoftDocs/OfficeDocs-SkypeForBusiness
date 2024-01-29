@@ -19,31 +19,31 @@ description: "Summary: Learn about the IP Phone Inventory Report in Skype for Bu
  
 **Summary:** Learn about the IP Phone Inventory Report in Skype for Business Server.
   
-The IP Phone Inventory Report reports information about the IP phones currently in use in your organization. The IP Inventory Report provides a detailed list of the IP phones that were actually used during the specified reporting period. Among other things, this report lets administrators know if there are any old, outdated phones still in use that should be replaced; it can also alert administrators to the fact that there are expensive phones in the organization that are rarely being used. That type of information can be invaluable when it comes time to purchase new phones or to redistribute existing phones. (For example, a user who rarely uses his or her expensive phone might be asked to swap phones with a user who uses his or her phone much more frequently.)
+The IP Phone Inventory Report reports information about the IP phones currently in use in your organization. The IP Inventory Report provides a detailed list of the IP phones that were used during the specified reporting period. Among other things, this report lets administrators know if there are any old, outdated phones still in use that should be replaced; it can also alert administrators to the fact that there are expensive phones in the organization that are rarely being used. That type of information can be invaluable when it comes time to purchase new phones or to redistribute existing phones. (For example, a user who rarely uses their expensive phone might be asked to swap phones with a user who uses phone much more frequently.)
   
-It should be noted that this report does have a few limitations when it comes to being used as a true inventory report. For one thing, the IP Phone Report simply lists all the phones that logged on to Skype for Business Server during the specified time period, sorted by their last logon time. If a phone did not log on during the specified time period then it will not be listed in the inventory report. That includes phones that logged on before the time period started and were still logged on during the specified time interval. For example, suppose you wanted to look at all the phone inventory for July, 2015. Suppose, as well, that several phones logged on to Skype for Business Server on June 30, 2015, and were still logged on as of July 1st. Those phones will not show up on the inventory report for July 1st.
+It should be noted that this report does have a few limitations when it comes to being used as a true inventory report. For one thing, the IP Phone Report simply lists all the phones that logged on to Skype for Business Server during the specified time period, sorted by their last sign in time. If a phone didn't sign in during the specified time period then it will not be listed in the inventory report. That includes phones that logged on before the time period started and were still logged on during the specified time interval. For example, suppose you wanted to look at all the phone inventory for July 2015. Suppose, as well, that several phones logged on to Skype for Business Server on June 30, 2015, and were still logged on as of July 1. Those phones won't show up on the inventory report for July 1.
   
-It's also important to note that the inventory report could include phones that your organization no longer uses. For example, suppose a number of Fabrikam phones logged on to the system on July 1, 2015; 5 days later your organization got rid of all those Fabrikam phones and replaced them with a newer Contoso model. The Fabrikam phones will still appear on the "inventory" report simply because they logged on to the system during the month of July.
+It's also important to note that the inventory report could include phones that your organization no longer uses. For example, suppose many Fabrikam phones logged on to the system on July 1, 2015; five days later your organization gets rid of all those Fabrikam phones and replaced them with a newer Contoso model. The Fabrikam phones appear on the "inventory" report simply because they logged on to the system during the month of July.
   
-In addition, the IP Phone Inventory Report does not report summary totals for the different types of phones. For example, suppose you have 105 Polycom CX600 phones. The report will not tell you that you have 105 of these phones; instead, you will simply see 105 separate entries for the Polycom Cx600. The only way to know that there are 105 entries for the Polycom Cx600 would be to count each of those entries manually.
+In addition, the IP Phone Inventory Report doesn't report summary totals for the different types of phones. For example, suppose you have 105 Polycom CX600 phones. The report won't tell you that you have 105 of these phones; instead, you'll see 105 separate entries for the Polycom Cx600. The only way to know that there are 105 entries for the Polycom Cx600 would be to count each of those entries manually.
   
 > [!TIP]
 > Or, export the data and use Microsoft Excel or Windows PowerShell to do that counting for you. 
   
 ## Accessing the IP Phone Inventory Report
 
-The IP Phone Inventory Report is accessed from the Monitoring Reports home page. If you click the User URI metric you can access the User Activity Report for that user. Clicking the Last activity metric for a peer-to-peer call will take you to the Peer-to-Peer Session Detail Report; clicking that same metric for a conference will take you to the Conference Detail Report.
+The IP Phone Inventory Report is accessed from the Monitoring Reports home page. If you select the User URI metric, you can access the User Activity Report for that user. Clicking the Last activity metric for a peer-to-peer call takes you to the Peer-to-Peer Session Detail Report; clicking that same metric for a conference takes you to the Conference Detail Report.
   
 ## Making the Best Use of the IP Phone Inventory Report
 
-If you're only interested in usage information for one particular kind of phone (for example, "How often are users using a Polycom CX600 phone?") you can get that information directly from the IP Phone Inventory Report by filtering for that particular kind of phone. However, if you want summary information for all your phones (how many people are using a Polycom CX600, how many are using an LG-Nortel IP8540, etc.) then you will need to export the data and use another application (such as Windows PowerShell) to do that type of analysis. For example, suppose you export the data to a comma-separated values file (C:\Data\IP_Phone_Inventory_Report.csv). In that case, you could use these two commands to provide summary data for all your phones:
+If you're only interested in usage information for one particular type of phone (for example, "How often are users using a Polycom CX600 phone?") you can get that information directly from the IP Phone Inventory Report by filtering for that particular type of phone. However, if you want summary information for all your phones (how many people are using a Polycom CX600, how many are using an LG-Nortel IP8540, etc.) then you need to export the data and use another application (such as Windows PowerShell) to do that type of analysis. For example, suppose you export the data to a comma-separated values file (C:\Data\IP_Phone_Inventory_Report.csv). In that case, you could use these two commands to provide summary data for all your phones:
   
 ```PowerShell
 $phones = Import-Csv "C:\Data\IP_Phone_Inventory_Report.csv"
 $phones |Group-Object Manufacturer, "Hardware version" | Select-Object Count, Name | Sort-Object Count -Descending
 ```
 
-That will return data similar to this:
+That returns data similar to this:
   
 <pre>
 Count    Name
@@ -61,14 +61,14 @@ Count    Name
     7    Aastra, 6721ip
 </pre>
 
-Similarly, these two commands tell you which phones logged on to the system but were never actually used to make a call (the value of the Last activity metric is blank, indicating that there hasn't been any last activity):
+Similarly, these two commands tell you, which phones logged on to the system but were never used to make a call (the value of the Last activity metric is blank, indicating that there hasn't been any last activity):
   
 ```PowerShell
 $phones = Import-Csv "C:\Data\IP_Phone_Inventory_Report.csv"
 $phones | Where-Object {$_."Last activity" -eq ""}
 ```
 
-That returns data similar to this for each phone that has not been used:
+That returns data similar to this for each phone that hasn't been used:
   
 <pre>
 Manufacturer     : POLYCOM
@@ -85,7 +85,7 @@ Another interesting way to use the IP Phone Inventory Report is this: if you hav
   
 ## Filters
 
-Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the IP Phone Inventory enables you to view only the phones manufactured by a specific company, or even a specific version of those phones. You can also choose how data should be grouped. In this case, registrations are grouped by hour, day, week, or month.
+Filters provide a way for you to return a more finely targeted set of data or to view the returned data in different ways. For example, the IP Phone Inventory enables you to view only the phones manufactured by a specific company, or even a specific version of those phones. You can also choose how data should be grouped. In this case, registrations are grouped by hour, day, week, or month.
   
 The following table lists the filters that you can use with the IP Phone Inventory Report.
   

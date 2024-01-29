@@ -19,30 +19,30 @@ description: "Summary: Learn about the Device Report in Skype for Business Serve
  
 **Summary:** Learn about the Device Report in Skype for Business Server.
   
-The Device Report might be better titled the Microphone and Speakers Report; that's because the Device Report retrieves call-related metrics (such as poor call percentage, echo, and voice switch time) grouped by the microphones and speakers used in the call. If you are interested in IP phones (also commonly referred to as "devices"), use the [IP Phone Inventory Report in Skype for Business Server](ip-phone-inventory-report.md) instead.
+The Device Report might be better titled the Microphone and Speakers Report; that's because the Device Report retrieves call-related metrics (such as poor call percentage, echo, and voice switch time) grouped by the microphones and speakers used in the call. If you're interested in IP phones (also commonly referred to as "devices"), use the [IP Phone Inventory Report in Skype for Business Server](ip-phone-inventory-report.md) instead.
   
-The Device Report is extremely useful for administrators in determining if a specific type of device is experiencing high volumes of poor quality calls than others. In turn, this could influence any decisions you must make when it comes time to buy new devices or to replace existing devices.
+The Device Report is useful for administrators in determining if a specific type of device is experiencing high volumes of poor quality calls than others. In turn, this could influence any decisions you must make when it comes time to buy new devices or to replace existing devices.
   
 By default, the information displayed in the Device Report is also based on the microphone (the capture device) and speakers/headset (the render device) used in the call. For example, suppose you have several users who use the following capture device and the following render device: By default, the information displayed in the Device Report is also based on the microphone (the capture device) and speakers/headset (the render device) used in the call. For example, suppose you have several users who use the following capture device and the following render device:
   
-- Capture device -- Microphone (SoundMAX Integrated Digital HD Audio)
+- Capture device--Microphone (SoundMAX Integrated Digital HD Audio)
     
-- Render device -- Headset Earphone (Microsoft LifeChat LX-3000)
+- Render device--Headset Earphone (Microsoft LifeChat LX-3000)
     
-If those users made a total of 254 calls you'll see an entry like this in the report:
+If those users made a total of 254 calls, you see an entry like this in the report:
   
 |**Capture device**|**Render device**|**Call volume**|
 |:-----|:-----|:-----|
 |Microphone (SoundMAX Integrated Digital HD Audio)  <br/> |Headset Earphone (Microsoft LifeChat LX-3000)  <br/> |254  <br/> |
    
-Now, suppose you have a number of users who use that same capture device but a different render device. In that case, you'll have a second line entry in the report, one for that unique combination of capture device and render device:
+Now, suppose you have many users who use that same capture device but a different render device. In that case, you have a second line entry in the report, one for that unique combination of capture device and render device:
   
 |**Capture device**|**Render device**|**Call volume**|
 |:-----|:-----|:-----|
 |Microphone (SoundMAX Integrated Digital HD Audio)  <br/> |Headset Earphone (Microsoft LifeChat LX-3000)  <br/> |254  <br/> |
 |Microphone (SoundMAX Integrated Digital HD Audio)  <br/> |Speakers (SoundMAX Integrated Digital HD Audio)  <br/> |319  <br/> |
    
-If you would rather see combined totals for a given device (for example, for the SoundMAX capture device, regardless of the render device used), select the appropriate option from the Device type dropdown list (either Capture device or Render device). If you select Capture device in this example, that will give you output similar to this:
+If you would rather see combined totals for a given device (for example, for the SoundMAX capture device, regardless of the render device used), select the appropriate option from the Device type dropdown list (either Capture device or Render device). If you select Capture device in this example that gives you output similar to this:
   
 |**Capture device**|**Call volume**|
 |:-----|:-----|
@@ -50,7 +50,7 @@ If you would rather see combined totals for a given device (for example, for the
    
 ## Accessing the Device Report
 
-The Device Report is typically accessed from the Monitoring Reports home page. However, if you are viewing the [Call Detail Report in Skype for Business Server](call-detail-report.md) you can drill down to the Device Report for a specific device by clicking either of the following metrics:
+The Device Report is typically accessed from the Monitoring Reports home page. However, if you're viewing the [Call Detail Report in Skype for Business Server](call-detail-report.md) you can drill down to the Device Report for a specific device by clicking either of the following metrics:
   
 - Capture Device
     
@@ -64,7 +64,7 @@ From the Device Report you can drill down to the [Call List Report in Skype for 
     
 ## Making the Best Use of the Device Report
 
-When it comes to device names, the Device Report is extremely detailed; for example, suppose you have the following capture devices:
+When it comes to device names, the Device Report is detailed; for example, suppose you have the following capture devices:
   
 - Aastra 3002 Microphone (2- Aastra 3002)
     
@@ -105,7 +105,7 @@ When it comes to device names, the Device Report is extremely detailed; for exam
 > [!NOTE]
 > Keep in mind that capture device names might not be the same if you are running localized versions of Skype for Business Server. A device named Aastra 6725ip Microphone (Aastra 6725ip)-V0 in US English could have a different name in French or Spanish. 
   
-Often times you'll want that level of detail; at other times, however, you might only be interested in how many calls use any Aastra microphone, regardless of model number. One way to get information like that is to export the Device Report data to Microsoft Excel and then save that data to a comma-separated values file (for example, C:\Data\Devices_Report.csv). You can then use a set of commands similar to these to import the .CSV file into Windows PowerShell and report back the total number of calls made using an Aastra capture device:
+Often you want that level of detail; at other times, however, you might only be interested in how many calls use any Aastra microphone, regardless of model number. One way to get information like that is to export the Device Report data to Microsoft Excel and then save that data to a comma-separated values file (for example, C:\Data\Devices_Report.csv). You can then use a set of commands similar to these to import the .CSV file into Windows PowerShell and report back the total number of calls made using an Aastra capture device:
   
 ```PowerShell
 $devices = Import-Csv "C:\Data\Device_Report.csv
@@ -114,11 +114,11 @@ $sum | foreach-object {[Int]$x = [Int]$x + [Int]$_."call volume"}
 $x
 ```
 
-That will return a single value representing the total number of calls made using an Aastra capture device. For example: 384
+That returns a single value representing the total number of calls made using an Aastra capture device. For example: 384
 
 ## Filters
 
-Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the Device Report enables you to filter on such things as call type (that is, was the call a client call), a conference call, or a public switched telephone network (PSTN) call. You can also choose how data should be grouped. In this case, devices are grouped by hour, day, week, or month.
+Filters provide a way for you to return a more finely targeted set of data or to view the returned data in different ways. For example, the Device Report enables you to filter on such things as call type (that is, was the call a client call), a conference call, or a public switched telephone network (PSTN) call. You can also choose how data should be grouped. In this case, devices are grouped by hour, day, week, or month.
   
 The following table lists the filters that you can use with the Device Report.
   
@@ -126,10 +126,10 @@ The following table lists the filters that you can use with the Device Report.
 
 |**Name**|**Description**|
 |:-----|:-----|
-|**From** <br/> |Start date/time for the time range. To view data by hours, enter both the start date and time as follows:  <br/> 7/7/2015 1:00 PM  <br/> If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:  <br/> 7/7/2015  <br/> To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):  <br/> 7/3/2015  <br/> Weeks always run from Sunday through Saturday.  <br/> |
-|**To** <br/> |End date/time for the time range. To view data by hours, enter both the end date and time as follows:  <br/> 7/7/2015 1:00 PM  <br/> If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:  <br/> 7/7/2015  <br/> To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):  <br/> 7/3/2015  <br/> Weeks always run from Sunday through Saturday.  <br/> |
+|**From** <br/> |Start date/time for the time range. To view data by hours, enter both the start date and time as follows:  <br/> 7/7/2015 1:00 PM  <br/> If you don't enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:  <br/> 7/7/2015  <br/> To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you don't have to enter the first day of the week or month):  <br/> 7/3/2015  <br/> Weeks always run from Sunday through Saturday.  <br/> |
+|**To** <br/> |End date/time for the time range. To view data by hours, enter both the end date and time as follows:  <br/> 7/7/2015 1:00 PM  <br/> If you don't enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:  <br/> 7/7/2015  <br/> To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you don't have to enter the first day of the week or month):  <br/> 7/3/2015  <br/> Weeks always run from Sunday through Saturday.  <br/> |
 |**Voice switch cause** <br/> |Reason why a call had to be placed into half duplex mode in order to prevent echo. In half duplex mode, communication can travel in only one direction at a time, similar to the way users take turns when communicating with a walkie-talkie. Select one of the following:  <br/> [All] None Bad timestamp Echo DNLP (dynamic nonlinear processor) Low complexity Bad device state Post-AEC echo (acoustic echo cancellation) |
-|**Echo cause** <br/> |Reason why echo above the accepted level was detected in a call. (In telecommunications, echo is a reflection of sound, the same phenomenon you will hear if you yell down to the bottom of a well.) Select one of the following:  <br/> [All] None Bad timestamp Post-AEC echo (acoustic echo cancellation) ANLP (adaptive nonlinear processor) DNLP (dynamic nonlinear processor) Microphone clipping |
+|**Echo cause** <br/> |Reason why echo above the accepted level was detected in a call. (In telecommunications, echo is a reflection of sound, the same phenomenon you hear if you yell down to the bottom of a well.) Select one of the following:  <br/> [All] None Bad timestamp Post-AEC echo (acoustic echo cancellation) ANLP (adaptive nonlinear processor) DNLP (dynamic nonlinear processor) Microphone clipping |
 |**Call type** <br/> |Indicates the type of call that was made. Select one of the following:  <br/> [All] Client call PSTN call Conference call |
 |**Access type** <br/> |Indicates whether the client was logged on to the internal network or the external network when the call was placed. Select one of the following:  <br/> [All] Internal External |
 |**Network type** <br/> |Indicates the type of network the client was connected to when the call was placed. Select one of the following:  <br/> [All] Wired Wireless |

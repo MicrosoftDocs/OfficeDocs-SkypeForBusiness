@@ -34,22 +34,22 @@ The Media Quality Metrics Distribution Report enables you to see a graph that sh
 |9  <br/> |50  <br/> |
 |10  <br/> |50  <br/> |
    
-The average for those round trip times is 500 milliseconds (5000 divided by 10). Five hundred milliseconds is an extremely large round trip time; as a result, you might believe that you have a serious problem with network congestion. (Long round trip times are typically the result of overloaded networks.)
+The average for those round trip times is 500 milliseconds (5000 divided by 10). 500 milliseconds is a large round trip time; as a result, you might believe that you have a serious problem with network congestion. (Long round trip times are typically the result of overloaded networks.)
   
-In reality, of course, 90% of your calls had excellent round trip times; you merely had one bad call that skewed the overall results. If you only look at the average round trip time you might jump to a very wrong conclusion.
+In reality, of course, 90% of your calls had excellent round trip times; you merely had one bad call that skewed the overall results. If you only look at the average round trip time, you might jump to a wrong conclusion.
   
-The Media Quality Metrics Distribution Report helps you avoid jumping to wrong conclusions by showing you a graphical distribution of a specified metric (such as round trip time). These graphs can help make it clear that you had nine very good calls and one very bad call. Admittedly, you might still want to further investigate that one call; however, the fact that 9 out of the 10 calls were very good suggests that there is no reason to make any drastic changes to your network, at least not at this point in time.
+The Media Quality Metrics Distribution Report helps you avoid jumping to wrong conclusions by showing you a graphical distribution of a specified metric (such as round trip time). These graphs can help make it clear that you had nine good calls and one bad call. Admittedly, you might still want to further investigate that one call; however, the fact that 9 out of the 10 calls were good suggests that there's no reason to make any drastic changes to your network, at least not at this point in time.
   
 ## Filters
 
-Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. The following table lists the filters that you can use with the Media Quality Metrics Distribution Report.
+Filters provide a way for you to return a more finely targeted set of data or to view the returned data in different ways. The following table lists the filters that you can use with the Media Quality Metrics Distribution Report.
   
 **Media Quality Metrics Distribution Report Filters**
 
 |**Name**|**Description**|
 |:-----|:-----|
-|**From** <br/> |Start date/time for the time range. To view data by hours, enter both the start date and time as follows:  <br/> 7/7/2015 1:00 PM  <br/> If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:  <br/> 7/7/2015  <br/> To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):  <br/> 7/3/2015  <br/> Weeks always run from Sunday through Saturday.  <br/> |
-|**To** <br/> |End date/time for the time range. To view data by hours, enter both the end date and time as follows:  <br/> 7/7/2015 1:00 PM  <br/> If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:  <br/> 7/7/2015  <br/> To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):  <br/> 7/3/2015  <br/> Weeks always run from Sunday through Saturday.  <br/> |
+|**From** <br/> |Start date/time for the time range. To view data by hours, enter both the start date and time as follows:  <br/> 7/7/2015 1:00 PM  <br/> If you don't enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:  <br/> 7/7/2015  <br/> To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you don't have to enter the first day of the week or month):  <br/> 7/3/2015  <br/> Weeks always run from Sunday through Saturday.  <br/> |
+|**To** <br/> |End date/time for the time range. To view data by hours, enter both the end date and time as follows:  <br/> 7/7/2015 1:00 PM  <br/> If you don't enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:  <br/> 7/7/2015  <br/> To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you don't have to enter the first day of the week or month):  <br/> 7/3/2015  <br/> Weeks always run from Sunday through Saturday.  <br/> |
 |**Minimum in x axis** <br/> |Lowest value to be displayed on the X axis of the graph.  <br/> |
 |**Maximum in x axis** <br/> |Highest value to be displayed on the X axis of the graph.  <br/> |
 |**Access type** <br/> | Indicates whether the client was logged on to the internal network or the external network when the call was placed. Select one of the following: <br/>  [All] <br/>  Internal <br/>  External <br/> |
