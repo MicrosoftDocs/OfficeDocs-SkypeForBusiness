@@ -151,8 +151,9 @@ User signals identify when a user is actively participating in the call, isn't s
 - macOS
 - Android
 - iOS
+- Teams web client (including VDI 1.0 and VDI 2.0)
 
-Real-time telemetry isn't available in Teams web client (including VDI) or when using older versions of Teams. If no telemetry is available, try updating your client.
+Real-time telemetry isn't available in older versions of Teams. If no telemetry is available, try updating your client.
 
 ## Teams devices that support real-time telemetry
 
