@@ -58,7 +58,7 @@ The data in the table columns below the graph allow a more granular look at indi
 
 ## See also
 
-[The new Microsoft Teams](new-teams-desktop-admin.md)
-[New Teams for Mac - Overview and prerequisites](new-teams-mac-install-prerequisites.md)
-[Upgrade to new Teams for Virtualized Desktop Infrastructure (VDI)](new-teams-vdi-requirements-deploy.md)
-[Troubleshooting installation issues in the new Teams client](new-teams-troubleshooting-installation.md)
+- [The new Microsoft Teams](new-teams-desktop-admin.md)
+- [New Teams for Mac - Overview and prerequisites](new-teams-mac-install-prerequisites.md)
+- [Upgrade to new Teams for Virtualized Desktop Infrastructure (VDI)](new-teams-vdi-requirements-deploy.md)
+- [Troubleshooting installation issues in the new Teams client](new-teams-troubleshooting-installation.md)
