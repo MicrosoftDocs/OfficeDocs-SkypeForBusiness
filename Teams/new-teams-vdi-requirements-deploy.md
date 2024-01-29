@@ -279,6 +279,9 @@ When you exclude the WebStorage folder (used for domains hosted within Teams lik
 >
 >*Note:* Customers using Profile and ODFC or just ODFC containers, will still need to add the setting ‘IncludeTeams’ for the new Teams user data/cache to be preserved.
 
+>[!Note]
+>[Folder Redirection or Roaming User Profiles](/windows-server/storage/folder-redirection/folder-redirection-rup-overview) are not supported with the new Teams client in VDI environments.
+
 ## New Teams and Outlook integration
  
 When the "Register the new Teams as the chat app for Microsoft 365" checkbox is selected under Settings > General > System, this lets the new Teams client integrate with all the Microsoft 365 apps that have instant message capabilities (presence, chat, VOIP, etc.).
