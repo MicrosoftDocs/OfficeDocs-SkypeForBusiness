@@ -55,6 +55,14 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Cisco Board Pro 55 | `11.11.1.10` | 2023 Update #2B1 |
+| Cisco Board Pro 75 | `11.11.1.10` | 2023 Update #2B1 |
+| Cisco Room Bar | `11.11.1.10` | 2023 Update #2B1 |
+| Cisco Room Kit Pro | `11.11.1.10` | 2023 Update #2B1 |
+| Cisco Desk Pro | `11.11.1.10` | 2023 Update #2B1 |
+| Cisco Room Bar Pro | `11.11.1.10` | 2023 Update #2B1 |
+| Cisco Room Kit EQ | `11.11.1.10` | 2023 Update #2B1 |
+| Cisco Navigator | `11.11.1.10` | 2023 Update #2B1 |
 | Neat Bar | `NFB1.20230928.0015` | 2023 Update #2B1 |
 | Neat Bar Pro| `NFD1.20230928.0015` | 2023 Update #2B1 |
 | Neat Board | `NFC1.20230928.0015	` |  2023 Update #2B1 |

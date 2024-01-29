@@ -589,7 +589,7 @@ Use customization policies to customize the look of Teams meetings with your org
 
 - [Meeting themes for Teams meetings](meeting-themes.md)
 - [Custom meeting backgrounds for Teams Meetings](custom-meeting-backgrounds.md)
-- [Custom Together Mode scenes in Teams](/platform/apps-in-teams-meetings/teams-together-mode)
+- [Custom Together Mode scenes in Teams](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)
 - [Microsoft Teams Premium - Overview for administrators](enhanced-teams-experience.md)
 
 ### Meeting settings
@@ -682,7 +682,7 @@ Teams live events policies are used to turn on or off features, such as who can 
 |Record an event|Organizer can record|This setting controls whether the event is recorded. Read more about [live event recording policies in Microsoft Teams](teams-live-events/live-events-recording-policies.md).|
 
 > [!NOTE]
-> GCC High and DoD customers must set up live events policies using Windows PowerShell. Read examples of how to [Use PowerShell to set live events policies in Microsoft Teams](/teams-live-events/set-teams-live-events-policies-using-powershell).
+> GCC High and DoD customers must set up live events policies using Windows PowerShell. Read examples of how to [Use PowerShell to set live events policies in Microsoft Teams](/microsoftteams/teams-live-events/set-teams-live-events-policies-using-powershell).
 
 #### Related topics for live events meeting policies
 

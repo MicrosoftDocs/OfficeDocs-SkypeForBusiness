@@ -524,8 +524,6 @@ items:
           href: log-files.md
         - name: Browser logs and tracing for Teams
           href: browser-logs-and-tracing-for-teams.md
-        - name: Verify service health for Teams
-          href: service-health.md
         - name: How to look up your support PIN
           href: support-pin.md
 
