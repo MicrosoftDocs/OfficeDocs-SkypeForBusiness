@@ -115,7 +115,7 @@ Teams admins and organizers have different policies and settings to control the 
 |[Transcription and captions](meeting-transcription-captions.md)|Can allow or prevent transcription and closed captions for attendees.|Can enable captions.|
 [VOD publishing](manage-vod-publishing.md) |Can manage the types of recordings organizers can publish. |Can publish and modify webinar recordings. |
 |[Webinar join and lobby](who-can-bypass-meeting-lobby.md)|Can set the defaults for new meetings and webinars.|Can choose meeting join and lobby settings for each webinar.|
-|[Webinar usage report](/teams-analytics-and-reports/teams-webinar-usage-report.md)|View activity and usage trends for all webinars created in your organization.|No control.|
+|[Webinar usage report](/microsoftteams/teams-analytics-and-reports/teams-webinar-usage-report)|View activity and usage trends for all webinars created in your organization.|No control.|
 
 ## Need help with your webinar?
 

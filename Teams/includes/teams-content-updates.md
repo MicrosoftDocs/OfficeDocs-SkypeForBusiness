@@ -2,6 +2,25 @@
 
 
 
+## Week of January 22, 2024
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/21/2024 | [Standard channels in Microsoft Teams](/MicrosoftTeams/standard-channels) | added |
+| 1/22/2024 | [Manage app setup policies in Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modified |
+| 1/22/2024 | [Manage chat for sensitive Teams meetings](/MicrosoftTeams/manage-chat-sensitive-meetings) | modified |
+| 1/23/2024 | [Manage anonymous participant access to Teams meetings, webinars, and town halls (IT admins)](/MicrosoftTeams/anonymous-users-in-meetings) | modified |
+| 1/23/2024 | Verify service health for Microsoft Teams | removed |
+| 1/23/2024 | [Know about apps in Microsoft Teams](/MicrosoftTeams/apps-in-teams) | modified |
+| 1/23/2024 | [Manage app setup policies in Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modified |
+| 1/25/2024 | [Auto attendant and Call queue historical reports](/MicrosoftTeams/aa-cq-cqd-historical-reports) | modified |
+| 1/25/2024 | [Manage Voicemail Policies](/MicrosoftTeams/manage-voicemail-policies) | modified |
+| 1/25/2024 | [Manage Cloud Voicemail settings](/MicrosoftTeams/manage-voicemail-settings) | modified |
+| 1/25/2024 | [Set up Cloud Voicemail](/MicrosoftTeams/set-up-phone-system-voicemail) | modified |
+| 1/26/2024 | [Allow meeting and webinar organizers to hide the names of attendees](/MicrosoftTeams/hide-attendee-names) | modified |
+
+
 ## Week of January 15, 2024
 
 
@@ -41,19 +60,3 @@
 | Published On |Topic title | Change |
 |------|------------|--------|
 | 12/30/2023 | [Security guide for Microsoft Teams](/MicrosoftTeams/shared-device-security-for-microsoft-teams) | modified |
-
-
-## Week of December 18, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 12/18/2023 | [Release notes for Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-release-note) | modified |
-| 12/18/2023 | [An overview of customizations for meetings in Microsoft Teams](/MicrosoftTeams/custom-meetings-overview) | modified |
-| 12/18/2023 | [Create and manage meeting themes for Teams meetings](/MicrosoftTeams/meeting-themes) | modified |
-| 12/18/2023 | [Overview of meetings, webinars, and town halls](/MicrosoftTeams/overview-meetings-webinars-town-halls) | modified |
-| 12/18/2023 | [Microsoft Teams Rooms Resource Accounts](/MicrosoftTeams/rooms/resource-accounts) | modified |
-| 12/18/2023 | [Set up and manage Teams Rooms on Windows custom backgrounds](/MicrosoftTeams/rooms/custom-backgrounds) | modified |
-| 12/19/2023 | [Manage and upload custom meeting backgrounds for Teams meetings](/MicrosoftTeams/custom-meeting-backgrounds) | modified |
-| 12/19/2023 | [An overview of customizations for meetings in Microsoft Teams](/MicrosoftTeams/custom-meetings-overview) | modified |
-| 12/21/2023 | [New Microsoft Teams for Virtualized Desktop Infrastructure (VDI)](/MicrosoftTeams/new-teams-vdi-requirements-deploy) | modified |
