@@ -70,7 +70,7 @@ As an admin, you can manage the default value for Copilot that  your organizers 
     - **On**- Select this value if you want your organizers to use Copilot without the transcript. You should use this value if you disabled **Transcription** for organizers with this policy. When organizers with this policy create meetings, Copilot isn’t accessible once the meeting is over.
     - **On with transcript**- Select this value if you want your organizers to use Copilot with the transcript. You should use this value if you enabled **Transcription** for organizers with this policy. Copilot is available both during and after meetings that organizers with this policy create meetings.
 
-7. Select **Save**.
+7. Select **Save**
 
 You can apply your Copilot meeting policies to groups or individual users. You can also add Copilot to your meeting templates.  To learn how to apply Copilot meeting policies to meeting templates, see [IT admins - Create a custom meeting template in Microsoft Teams](create-custom-meeting-template.md).
 
@@ -84,6 +84,12 @@ The following table shows the behaviors of the settings for the **`-Copilot`** p
 |---------|---------------|
 |Enabled| When organizers with this policy create meetings, the default value for Copilot in their meeting options is Without transcription. If the organizer keeps the default, transcription isn’t required to use Copilot for the meeting. Copilot starts once a licensed user selects the Copilot button and is only available to use during the meeting. |
 |EnabledWithTranscript| **This is the default value**. When organizers with this policy create meetings, the default value for Copilot in their meeting options is With transcription. If the organizer keeps the default, transcription must be enabled to use Copilot for the meeting. Copilot is still available to use after the meeting ends.|
+
+For organizers with this policy to have the default value for Copilot set to **Without transcription**, use the following script:
+
+```PowerShell
+Set-CsTeamsMeetingPolicy -Identity <policy name> -Copilot Enabled
+```
 
 ## Related articles
 
