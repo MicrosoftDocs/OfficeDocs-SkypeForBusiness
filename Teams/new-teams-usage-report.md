@@ -32,11 +32,11 @@ The Microsoft Teams desktop client usage report gives you an overview of the Tea
 
 ## Interpret the Microsoft Teams device usage report
 
-The graph in the Teams desktop client usage report shows the usage of classic Teams and new Teams as a percentage within your tenant. These numbers are directly related – if one increases the other will decrease. Take note of these important characteristics of this data:
+The graph in the Teams desktop client usage report shows the usage of classic Teams and new Teams as a percentage within your tenant. These numbers are directly related – if one number increases the other will decrease. Take note of these important characteristics of this data:
 
 - This data only represents Windows or Mac Teams desktop clients. It does not show any data about other client types, such as web, mobile, or any hardware devices.
-- This data is dependent on a user’s Teams desktop client being actively used. If a user is not active on their desktop client or their data is prevented from reporting in for any reason, their data will be empty for that period in which there was no data available. This can result in fluctuations in the data, for example during weekends or when users go on vacation.
-- A user’s data originates from their most recent usage when the snapshot is taken. If a user has multiple machines they use regularly, whichever they used last will be represented for that day. For most users that do have multiple machines, they usually have a primary that gets the majority of their usage.
+- This data is dependent on a user’s Teams desktop client being actively used. If a user isn't active on their desktop client or their data can't be reported in for any reason, their data will be empty for the period in which there was no data available. This missing information can result in fluctuations in the data, for example during weekends or when users go on vacation.
+- A user’s data originates from their most recent usage when the snapshot is taken. If a user has multiple machines they use regularly, whichever machine they used last will be represented for that day. For most users that have multiple machines, they usually have a primary device that gets the majority of their usage.
 
 The data in the table columns below the graph allow a more granular look at individual users and the state of their Teams desktop client. This data can be exported using the Export to Excel function in the top right corner, and columns can be shown or hidden using the Edit columns function also in the top right corner.
 
