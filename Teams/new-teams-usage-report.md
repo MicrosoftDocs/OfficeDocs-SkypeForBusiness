@@ -36,7 +36,7 @@ The graph in the Teams desktop client usage report shows the usage of classic Te
 
 - This data only represents Windows or Mac Teams desktop clients. It does not show any data about other client types, such as web, mobile, or any hardware devices.
 - This data is dependent on a user’s Teams desktop client being actively used. If a user isn't active on their desktop client or their data can't be reported in for any reason, their data will be empty for the period in which there was no data available. This missing information can result in fluctuations in the data, for example during weekends or when users go on vacation.
-- A user’s data originates from their most recent usage when the snapshot is taken. If a user has multiple machines they use regularly, whichever machine they used last will be represented for that day. For most users that have multiple machines, they usually have a primary device that gets the majority of their usage.
+- A user’s data originates from their most recent usage when the snapshot is taken. If a user has multiple machines they use regularly, whichever machine they used last will be represented for that day. For most users that have multiple machines, they usually have a primary device that gets most of their usage.
 
 The data in the table columns below the graph allow a more granular look at individual users and the state of their Teams desktop client. This data can be exported using the Export to Excel function in the top right corner, and columns can be shown or hidden using the Edit columns function also in the top right corner.
 
@@ -52,7 +52,7 @@ The data in the table columns below the graph allow a more granular look at indi
 
 ## Example Scenarios for the Teams desktop client usage report
 
-- While your organization is transitioning from classic Teams to new Teams, this report will allow you to monitor progress along the way. Whether or not you've given your users the ability to toggle back and forth between classic and new Teams, or whether or not you're moving groups of users to new Teams on a set schedule, this report will allow you to see and confirm the transition as you proceed.
+- While your organization is moving from classic Teams to new Teams, this report will allow you to monitor progress along the way. Whether or not you've given your users the ability to toggle back and forth between classic and new Teams, or whether or not you're moving groups of users to new Teams on a set schedule, this report will allow you to see and confirm the transition as you proceed.
 - If your organization allows users to toggle back and forth between classic and new Teams ahead of the [automatic update coming on March 31 2024](new-teams-automatic-upgrade-announced.md), this report will allow you to identify users who've chosen to remain on classic Teams so you can perform any relevant communication or change management campaigns to help those users make the switch.
 - Using the export capability of the report, you can identify any Teams desktop clients within your organization that have somehow ended up stuck on an older version and are not automatically updating as they should. This is often a result of some sort of network or machine issue or a configuration change. Identifying these users with this report will allow you to proactively identify and engage with these users to investigate and resolve the issue.
 
