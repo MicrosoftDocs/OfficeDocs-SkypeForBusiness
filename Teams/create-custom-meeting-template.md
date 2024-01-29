@@ -70,6 +70,7 @@ Note that if you change the options of an existing template, the changes affect 
 |End-to-end encryption|Specifies if the meeting uses end-to-end encryption. Recording and transcription don't work if this is on.|
 |Enable watermark for screenshare|Specifies if a watermark is overlaid on content that is shared on screen in the meeting.|
 |Enable watermark for video|Specifies if a watermark is overlaid on attendees' video feeds in the meeting.|
+|Restrict participants from copying or forwarding meeting chat messages|Prevents participants from copying or forwarding content in the meeting chat.|
 
 #### Audio & video
 
