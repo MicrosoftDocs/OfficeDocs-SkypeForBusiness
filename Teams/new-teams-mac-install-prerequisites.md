@@ -23,7 +23,7 @@ ms.localizationpriority: high
 # New Teams for Mac - Overview and prerequisites
 
 >[!Note]
-> The features described in this article are available to [**Teams Public preview**](/microsoftteams/public-preview-doc-updates) and [**Microsoft 365 Targeted release**](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide#targeted-release) customers only. Features and content are subject to change. Check back for updates.
+> The features described in this article are available to [**Teams Public preview**](/microsoftteams/public-preview-doc-updates) and [**Microsoft 365 Targeted release**](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide#targeted-release&preserve-view=true) customers only. Features and content are subject to change. Check back for updates.
 
 The new Teams for Mac has been reimagined from the ground up with performance in mind, providing a faster, simpler, and more flexible experience. The new Teams client installs and loads faster, letting you launch the app and join meetings more quickly, giving you more time to focus on the business tasks.
 
@@ -49,7 +49,7 @@ The new Teams ensures more efficient use of device resources. Whether you have u
 
 >[!Note]
 > Only **Microsoft Autoupdate** can be used to update new Teams.
->Learn more: [**Update Office for Mac automatically**](/office/update-office-for-mac-automatically-bfd1e497-c24d-4754-92ab-910a4074d7c1)
+>Learn more: [**Update Office for Mac automatically**](https://support.microsoft.com/office/update-office-for-mac-automatically-bfd1e497-c24d-4754-92ab-910a4074d7c1)
 
 ### Turn ON System Notification
 
