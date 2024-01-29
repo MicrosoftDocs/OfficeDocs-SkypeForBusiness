@@ -5,7 +5,7 @@ ms.author: mabond
 manager: pamgreen
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: 
+ms.reviewer: roykuntz
 ms.date: 01/17/2024
 audience: admin
 search.appverid: MET150
@@ -25,6 +25,8 @@ appliesto:
 # Configure call recording, transcription, and captions in Teams
 
 In Microsoft Teams, users can record, transcribe, and view captions in their Teams calls.
+
+For compliance recording information, see [Policy-based recording for calls & meetings](teams-recording-policy.md).
 
 Follow the guides and resources [Accessibility guide for Microsoft Teams admins](accessibility-guide-admin.md) to configure Teams for optimal accessibility.
 

@@ -9,7 +9,7 @@ ms.reviewer: jastark
 ms.date: 01/10/2024
 audience: admin
 search.appverid: MET150
-description: Learn how to create, modify, and add users to custom calling policies in Microsoft Teams, and various calling policy settings.
+description: Learn how to create, modify, and add users to custom calling policies in Microsoft Teams, and discover various calling policy settings.
 ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
