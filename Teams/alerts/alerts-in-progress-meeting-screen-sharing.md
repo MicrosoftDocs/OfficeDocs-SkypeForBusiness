@@ -26,11 +26,13 @@ description: Learn how to set up alerts for screen sharing issues detected in in
 
 [!INCLUDE[Teams Premium ECM](../includes/teams-premium-ecm.md)]
 
-You can set up alerts for in-progress meeting screen sharing (also known as application sharing) issues and be informed immediately when the users you specify experience issues. This feature requires Teams Premium.
+You can set up alerts for in-progress meeting screen sharing (also known as application sharing) issues and be informed immediately when the users you specify experience issues.
 
 Notifications are available for freeze, frame rate, sync, decoder hardware, and loss recovery attempts. You can set the threshold for each of these as well as the frequency of notification.
 
 Notifications can  be sent to a Teams channel or a web hook URL.
+
+To be monitored, meeting attendees must have a Teams Premium or Teams Rooms Pro license.
 
 ## Set up alerts for screen sharing issues
 
