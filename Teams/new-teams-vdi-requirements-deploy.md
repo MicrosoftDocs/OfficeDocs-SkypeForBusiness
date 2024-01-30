@@ -291,14 +291,6 @@ For example, Outlook goes through the discovery process outlined here to integra
 >[!Note]
 >If the new Teams is installed on a virtual machine where the classic Teams is **not** installed, you must make sure you are using new Teams version 23320.3021.2567.4799 or higher in order to guarantee proper integration with Outlook and presence.
 
-Additionally, the new Teams MSIX package bundles the Teams Meeting add-in MSI ("MicrosoftTeamsMeetingAddinInstaller.msi"). 
-
-Installation logs for this MSI are stored here:
-- AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Logs \tma_addin_msi.txt
-
->[!Note]
->In Windows Server or Windows 10/11 Multiuser environments, installation of MicrosoftTeamsMeetingAddinInstaller.msi can fail with the error "Installation success or error status: 1625". Microsoft is working on a solution for this issue.
-
 ### Teams Meeting add-in
 
 Additionally, the new Teams MSIX package bundles the Teams Meeting add-in (or TMA) MSI ("MicrosoftTeamsMeetingAddinInstaller.msi"). TMA lets you schedule a Teams meeting from Outlook. 
