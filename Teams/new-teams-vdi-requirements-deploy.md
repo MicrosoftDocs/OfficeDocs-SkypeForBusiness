@@ -297,7 +297,7 @@ Additionally, the new Teams MSIX package bundles the Teams Meeting add-in (or TM
 
 For Security articles related to TMA integration with the Outlook client, learn more at [**Teams meeting add-in security when using your Outlook client**](/microsoftteams/teams-meeting-addin-security-with-outlook) 
 
-All new Teams files that are installed on the computer are signed, so IT admins can use  AppLocker / Code Integrity  / Windows Defender Application Guard policies configured to enforce that. 
+All new Teams files that are installed on the computer are signed, so IT admins can use  [AppLocker](/microsoftteams/applocker-in-teams) / Code Integrity  / Windows Defender Application Guard policies configured to enforce that. 
 
 - For New Teams per-user installations of TMA, the install folder is in AppData\Local\Microsoft\TeamsMeetingAddin 
 - Installation logs for TMA MSI are stored here: *AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Logs \tma_addin_msi.txt*
@@ -305,7 +305,7 @@ All new Teams files that are installed on the computer are signed, so IT admins 
 >[!Note]
 >In Windows Server or Windows 10/11 Multiuser environments, installation of MicrosoftTeamsMeetingAddinInstaller.msi can fail with the error *"Installation success or error status: 1625."*. 
  
-This error is caused by GPOs affecting Windows Installer (like DisableUserInstalls or DisableMSI) or AppLocker policies.  For example based on Publisher rule conditions, or a RuleCollection for MSI installs, in which case you must create an exception such as:
+This error is caused by GPOs affecting Windows Installer. This includes [**DisableUserInstalls**](/windows/win32/msi/disableuserinstalls), [**DisableMSI**](/windows/win32/msi/disablemsi), or AppLocker policies based on Publisher rule conditions, or a RuleCollection for MSI installs. In this case you must create an exception such as:
  
 - <FilePathCondition Path="%PROGRAMFILES%\WINDOWSAPPS\*\MICROSOFTTEAMSMEETINGADDININSTALLER.MSI" />
  
