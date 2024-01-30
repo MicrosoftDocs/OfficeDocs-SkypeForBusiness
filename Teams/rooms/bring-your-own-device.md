@@ -23,7 +23,7 @@ f1keywords:
 
 # Bring Your Own Device Rooms in Teams Pro Management portal
 
-Bring Your Own Device rooms are identified as rooms with no Microsoft Teams Rooms. As an admin, you'll gain visibility of the Bring Your Own Device rooms and devices in the Teams Pro Management Portal upon logging in. To have access to the portal, you'll need at least one pro, premium, or TSD license.
+Bring Your Own Device rooms are identified as rooms with no Microsoft Teams Rooms. As an admin, you'll gain visibility of the Bring Your Own Device rooms and devices in the Teams Pro Management Portal upon logging in. To have access to the portal, you'll need at least one pro, premium, or Teams Shared Device (TSD) license.
 
 1. Open Pro Management Portal on [https://portal.rooms.microsoft.com/](https://portal.rooms.microsoft.com/) and navigate to **Inventory**.
 2. In the left navigation menu, select **Planning** and go to **Inventory**.
@@ -120,7 +120,8 @@ To associate a device with a room, the following two methods are available:
     > [!NOTE]
     > In cases where the devices were not discovered or reported by Pro Management portal, admins can add those new devices using the import function. Device information such as the Product ID, Vendor ID, Serial Number, and Account information are required for the association to be done.
 
-- **Using Auto directory function:** To associate a device with a room:
+- **Manually associate discovered devices using Pro Management UI:** 
+    To associate a device with a room:
 
     1. Go to the device table.
     1. Select the specific device with the **Need Action** banner. 
