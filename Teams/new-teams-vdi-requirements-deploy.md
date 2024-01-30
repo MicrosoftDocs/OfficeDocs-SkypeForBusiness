@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.topic: article
-ms.date: 01/29/2024
+ms.date: 01/30/2024
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -331,7 +331,9 @@ BinaryVersion
 1.24.2203.0 
 
 ```
- 
+
+**Example:**  The following is an example of the final command:
+
 ```powershell
 
 msiexec.exe /i "C:\Program Files\WindowsApps\MSTeams_23320.3021.2567.4799_x64__8wekyb3d8bbwe\MicrosoftTeamsMeetingAddinInstaller.msi" ALLUSERS=1 /qn /norestart TARGETDIR="C:\Program Files (x86)\Microsoft\TeamsMeetingAddin\1.24.2203.0\" 
