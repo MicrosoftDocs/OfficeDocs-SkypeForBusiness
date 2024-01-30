@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.topic: article
-ms.date: 01/22/2024
+ms.date: 01/29/2024
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -278,6 +278,9 @@ When you exclude the WebStorage folder (used for domains hosted within Teams lik
 >- During user sign out, new Teams client user data/cache located in %LocalAppData%\Packages\MSTeams_8wekyb3d8bbwe\LocalCache **was not saved** in the FSLogix Profile or ODFC containers
 >
 >*Note:* Customers using Profile and ODFC or just ODFC containers, will still need to add the setting ‘IncludeTeams’ for the new Teams user data/cache to be preserved.
+
+>[!Note]
+>[Folder Redirection or Roaming User Profiles](/windows-server/storage/folder-redirection/folder-redirection-rup-overview) are not supported with the new Teams client in VDI environments.
 
 ## New Teams and Outlook integration
  

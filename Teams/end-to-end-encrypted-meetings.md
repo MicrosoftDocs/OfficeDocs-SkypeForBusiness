@@ -52,6 +52,8 @@ Some features aren't available during an end-to-end encrypted meeting, including
 
 - Breakout rooms
 
+- Copilot for Teams meetings
+
 - Excel Live
 
 - Live captions and transcription
