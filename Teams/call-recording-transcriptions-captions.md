@@ -6,10 +6,10 @@ manager: pamgreen
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: roykuntz
-ms.date: 01/17/2024
+ms.date: 01/30/2024
 audience: admin
 search.appverid: MET150
-description: Learn how to enable users to record calls in Microsoft Teams.
+description: Learn how to enable users to record, transcribe, and turn on captions for calls in Microsoft Teams.
 ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
@@ -26,9 +26,9 @@ appliesto:
 
 In Microsoft Teams, users can record, transcribe, and view captions in their Teams calls.
 
-For compliance recording information, see [Policy-based recording for calls & meetings](teams-recording-policy.md).
+For compliance call recording information, see [Policy-based recording for calls & meetings](teams-recording-policy.md).
 
-Follow the guides and resources [Accessibility guide for Microsoft Teams admins](accessibility-guide-admin.md) to configure Teams for optimal accessibility.
+For for optimal accessibility, follow the guides and resources [Accessibility guide for Microsoft Teams admins](accessibility-guide-admin.md) to configure Teams.
 
 ## Allow or prevent users from recording calls
 

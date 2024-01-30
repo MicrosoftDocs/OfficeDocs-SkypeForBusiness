@@ -6,7 +6,7 @@ manager: pamgreen
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jastark
-ms.date: 01/10/2024
+ms.date: 01/30/2024
 audience: admin
 search.appverid: MET150
 description: Learn how to create, modify, and add users to custom calling policies in Microsoft Teams, and discover various calling policy settings.
@@ -55,7 +55,7 @@ Follow these steps to edit an existing calling policy.
 
 ## Calling policy settings
 
-Here are the settings that you can configure for calling policies.
+Here are the settings that you can configure for calling policies:
 
 - Make private calls - This setting controls all calling capabilities in Teams. Turn this setting off to turn off all calling functionality in Teams.
 - [Cloud recording for calling](call-recording-transcriptions-captions.md)
@@ -72,21 +72,21 @@ Here are the settings that you can configure for calling policies.
 - [Busy on busy during calls](inbound-call-routing.md)
 - Web PSTN calling - This setting enables users to call PSTN numbers using the Teams web client. This setting is on by default.
 - [Real-time captions in Teams calls](call-recording-transcriptions-captions.md.md)
-- [Spam filtering]()
+- [Spam filtering](configure-call-spam-filtering.md)
 - [SIP devices can be used for calls](sip-gateway-configure.md)
 - [Open apps in browser for incoming PSTN calls](inbound-call-routing.md)
 
-### Spam filtering
+## Calling policy PowerShell cmdlets
 
-This setting allows you to control the type of Spam filtering available on incoming calls. This setting is on by default. This setting has three options:
+To create, modify, retrieve, assign, and remove calling policies, use the following cmdlets:
 
-- **On** Spam filtering is fully enabled. Both Basic and Captcha Interactive Voice Response (IVR) checks are performed. In case the call is considered as spam, the user gets a "Spam Likely" notification in Teams.
-- **On without IVR** Spam Filtering is partially enabled. Captcha IVR checks are disabled. A "Spam Likely" notification appears. A call might get dropped if it gets a high score from Basic checks.
-- **Off** Spam filtering is completely disabled. No checks are performed. A "Spam Likely" notification doesn't appear.
+- [New-CsTeamsCallingPolicy](/powershell/module/skype/new-csteamscallingpolicy)
+- [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
+- [Get-CsTeamsCallingPolicy](/powershell/module/skype/get-csteamscallingpolicy)
+- [Grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy)
+- [Remove-CsTeamsCallingPolicy](/powershell/module/skype/remove-csteamscallingpolicy)
 
 ## Related articles
-
-[Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
 [Voice policies reference for Microsoft Teams](settings-policies-reference.md#voice)
 
