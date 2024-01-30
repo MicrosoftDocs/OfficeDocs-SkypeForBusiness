@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
 ms.reviewer: elederman
-ms.date: 1/16/2024
+ms.date: 1/29/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -40,13 +40,16 @@ To learn more about how organizers can use Copilot with transcription, see [Get 
 
 **2. Copilot with transcription turned off**<br>
 
-When organizers create a meeting or event, they can set Copilot’s value to **Without transcription** from the dropdown in their meeting options. Once someone with a Copilot license selects the Copilot button during the meeting or event, Copilot without transcription starts running for all licensed users. Because this option uses a non-persisted transcript that's deleted after the meeting ends, Copilot also isn’t available after the meeting or event is over. If you assign organizers a policy that disables transcription, any organizers with this policy must use Copilot with transcription turned off to access Copilot in their meetings.
+When organizers create a meeting or event, they can set Copilot’s value to **Without transcription** from the dropdown in their meeting options. Once someone with a Copilot license selects the Copilot button during the meeting or event, Copilot without transcription starts running for all licensed users. This option relies on a temporary transcript that gets deleted when the meeting or event ends, so Copilot isn't accessible after the meeting or event. If you assign organizers a policy that disables transcription, any organizers with this policy must use Copilot with transcription turned off to access Copilot in their meetings.
 
 To learn more about how organizers can use Copilot without transcription, see [Use Copilot without recording a Teams meeting](https://support.microsoft.com/office/use-copilot-without-recording-a-teams-meeting-a59cb88c-0f6b-4a20-a47a-3a1c9a818bd9).
 
 For more information about transcription policies, see [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md).
 
 As an admin, you can manage the default value for Copilot that  your organizers have in their meeting options. Meeting organizers can change their Copilot setting for each meeting they create.
+
+> [!IMPORTANT]
+> Copilot for Teams meetings isn’t available in end-to-end encrypted meetings. For more information on end-to-end encryption, see [Require end-to-end encryption for sensitive Teams meetings](end-to-end-encrypted-meetings.md).
 
 > [!NOTE]
 > Copilot isn’t available for GCC, GCC High, DoD, and EDU.
@@ -67,7 +70,7 @@ As an admin, you can manage the default value for Copilot that  your organizers 
     - **On**- Select this value if you want your organizers to use Copilot without the transcript. You should use this value if you disabled **Transcription** for organizers with this policy. When organizers with this policy create meetings, Copilot isn’t accessible once the meeting is over.
     - **On with transcript**- Select this value if you want your organizers to use Copilot with the transcript. You should use this value if you enabled **Transcription** for organizers with this policy. Copilot is available both during and after meetings that organizers with this policy create meetings.
 
-7. Select **Save**.
+7. Select **Save**
 
 You can apply your Copilot meeting policies to groups or individual users. You can also add Copilot to your meeting templates.  To learn how to apply Copilot meeting policies to meeting templates, see [IT admins - Create a custom meeting template in Microsoft Teams](create-custom-meeting-template.md).
 
@@ -81,6 +84,12 @@ The following table shows the behaviors of the settings for the **`-Copilot`** p
 |---------|---------------|
 |Enabled| When organizers with this policy create meetings, the default value for Copilot in their meeting options is Without transcription. If the organizer keeps the default, transcription isn’t required to use Copilot for the meeting. Copilot starts once a licensed user selects the Copilot button and is only available to use during the meeting. |
 |EnabledWithTranscript| **This is the default value**. When organizers with this policy create meetings, the default value for Copilot in their meeting options is With transcription. If the organizer keeps the default, transcription must be enabled to use Copilot for the meeting. Copilot is still available to use after the meeting ends.|
+
+For organizers with this policy to have the default value for Copilot set to **Without transcription**, use the following script:
+
+```PowerShell
+Set-CsTeamsMeetingPolicy -Identity <policy name> -Copilot Enabled
+```
 
 ## Related articles
 
