@@ -33,7 +33,7 @@ ms.localizationpriority: high
 
 ## What is the new Teams?
 
-The new Teams desktop client is reimagined from the ground up with performance in mind, providing a faster, simpler, and more flexible experience. The new Teams client installs and loads faster, letting you launch the app and join meetings more quickly, giving you more time to focus on the business tasks. 
+The new Teams desktop client is reimagined from the ground up with performance in mind, providing a faster, simpler, and more flexible experience. The new Teams client installs and loads faster, letting you launch the app and join meetings more quickly, giving you more time to focus on the business tasks.
 
 The new Teams ensures more efficient use of device resources. You can lower memory and disk usage with a Teams app optimized for your device. Whether you have users on multiple accounts or tenants, the new Teams can help eliminate the silos and bring them together in one place, giving them more extensibility and scale.
 
@@ -58,33 +58,32 @@ The new Teams client is now available for the Web.
 |Safari/Firefox (target date)|March 2024|
 |Gov/Special Clouds |March 2024|
 
-
 **New Teams is not yet available for these Customer segments:**
 
 - Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China
 - Consumer
 - Desktop running a Windows 10 version earlier than 10.0.19041
 
-
 ## New Teams schedule for clients
 
 >[!Important]
 >These schedules only apply if your organization has set the Teams Update policy "**Use new Teams Client**" to either:
+
 >- **Microsoft controlled** (the value in the Teams Admin Center)  **or**
->- **Microsoft choice** (if you are using PowerShell) 
+>- **Microsoft choice** (if you are using PowerShell)
 >
 >[Learn more about Teams Admin policies](/microsoftteams/manage-teams-with-policies).
 
 ### When will all users see the "Try the new Teams" toggle?
 
-##### Licenses
+#### Licenses
 
 |License|Availability date|
 |:-----|:-----|
 |Business Licenses and Teams Essentials|Available|
 |Enterprise and other Licenses|See the schedule listed in this article.|
 
-##### Update channels
+#### Update channels
 
 >[!Tip]
 >Learn more about update channels, including how to make changes here:
@@ -103,28 +102,28 @@ If the update channel isn't listed, then the Monthly Enterprise Channel schedule
 |Semi-Annual Enterprise Channel (Preview)|October 2023|
 |Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC and remaining channels|November 2023|
 
-
 ### When will the new Teams become the default client?
 
 Existing Teams users are updated to the new Teams based on two factors:</br>
-- Which Microsoft 365/Teams license is assigned to the user; and 
-- The [**Microsoft 365 app update channel**](/deployoffice/updates/overview-update-channels) you're using. 
+
+- Which Microsoft 365/Teams license is assigned to the user; and,
+- The [**Microsoft 365 app update channel**](/deployoffice/updates/overview-update-channels) you're using.
 
 Users are switched once to the new Teams. Afterward, users can switch back to classic Teams if they wish.
 
-##### Licenses
+#### Licenses
 
 |License|Date|
 |:-----|:-----|
 |Business Licenses and Teams Essentials|October 2023|
 |Enterprise and other Licenses|See the schedule listed in this article.|
 
-##### Update channels
+#### Update channels
 
 If the update channel isn't listed, then the Monthly Enterprise Channel schedule is followed.
 
 >[!Tip]
->Learn more about update channels, including how to make changes here: [**Update channels for Microsoft 365 apps**](/deployoffice/updates/overview-update-channels).
+>Learn more about update channels, including how to make changes here: [**Update channels for Microsoft 365 apps**](https://learn.microsoft.com/deployoffice/updates/overview-update-channels).
 
 |Update channel|Date|
 |:-----|:-----|
@@ -136,6 +135,5 @@ If the update channel isn't listed, then the Monthly Enterprise Channel schedule
 |Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC, and remaining channels|January 2024|
 |Government Cloud (GCC, GCC High) Preview|March 2024|
 |Government Cloud (DoD) Preview|March 2024|
-
 
 [**Follow Microsoft Adoption for the latest information on upcoming features for the new Teams.**](https://aka.ms/newTeams).

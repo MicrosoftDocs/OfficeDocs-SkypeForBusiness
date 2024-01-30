@@ -24,7 +24,7 @@ ms.localizationpriority: high
 
 ## Overview
 
-On March 31 2024, a new Teams client will be rolled out for users who are still on classic Teams, installing the new Teams client for them and uninstalling the classic Teams client. After this time, classic Teams will be unavailable for different users as outlined in this table:
+Beginning March 31 2024, a new Teams client will be rolled out for users who are still on classic Teams, installing the new Teams client for them and uninstalling the classic Teams client. After this time, classic Teams will be unavailable for different users as outlined in this table:
 
 |Availability area                                | Date         |Link |
 |-------------------------------------------------|--------------|-----|
