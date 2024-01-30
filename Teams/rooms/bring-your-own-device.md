@@ -108,7 +108,7 @@ When you select a specific device associated with a room, a new page opens up di
 
 To associate a device with a room, the following two methods are available:
 
-- **Using Import/Export function:** You can use this function to export the inventory list via an excel file and construct Bring Your Own Device rooms.
+- **Use Import/Export function:** You can use this function to export the inventory list via an excel file and construct Bring Your Own Device rooms.
 
     1. In the **Devices** page, click **Export** to download the device inventory.
     2. Open the excel file and verify that it contains all the devices and room information.
@@ -121,8 +121,7 @@ To associate a device with a room, the following two methods are available:
     > In cases where the devices were not discovered or reported by Pro Management portal, admins can add those new devices using the import function. Device information such as the Product ID, Vendor ID, Serial Number, and Account information are required for the association to be done.
 
 - **Manually associate discovered devices using Pro Management UI:** 
-    To associate a device with a room:
-
+    
     1. Go to the device table.
     1. Select the specific device with the **Need Action** banner. 
     1. Click **Add a room to this device**.
