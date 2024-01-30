@@ -315,7 +315,7 @@ All new Teams files that are installed on the computer are signed, so IT admins 
  
 This error is caused by GPOs affecting Windows Installer (like DisableUserInstalls or DisableMSI) or AppLocker policies.  For example based on Publisher rule conditions, or a RuleCollection for MSI installs, in which case you must create an exception such as:
  
-- **<FilePathCondition Path="%PROGRAMFILES%\WINDOWSAPPS\*\MICROSOFTTEAMSMEETINGADDININSTALLER.MSI" />** 
+- <FilePathCondition Path="%PROGRAMFILES%\WINDOWSAPPS\*\MICROSOFTTEAMSMEETINGADDININSTALLER.MSI" />
  
 **Workaround:**  You can install the MSI that is located in the new Teams installation directory from an Admin Command prompt using:  
  
@@ -326,8 +326,8 @@ msiexec.exe /i "C:\Program Files\WindowsApps\MSTeams_X.X.X.X_x64__8wekyb3d8bbwe\
 ```
 
 - TARGETDIR must be kept consistent across installs so that the Teams Meeting Add-in MSI can easily detect and clean up older versions. If multiple directories are used, then the installation may not behave as expected.  
-- <X.X.X.X> needs to be replaced by the New Teams version. Note there's a double underscore between the CPU architecture (x64) and the PublisherID (8wekyb3d8bbwe) 
-- <version> must be replaced with the MSI file version, for example, 1.24.2203.0. The exact version number can be extracted by running this command in PowerShell: 
+- **X.X.X.X** needs to be replaced by the New Teams version. Make sure there's a double underscore between the CPU architecture (x64) and the PublisherID (8wekyb3d8bbwe) 
+- **version** must be replaced with the MSI file version, for example, 1.24.2203.0. The exact version number can be extracted by running this command in PowerShell: 
  
 ```powershell
 
