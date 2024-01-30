@@ -123,7 +123,7 @@ Users are switched once to the new Teams. Afterward, users can switch back to cl
 If the update channel isn't listed, then the Monthly Enterprise Channel schedule is followed.
 
 >[!Tip]
->Learn more about update channels, including how to make changes here: [**Update channels for Microsoft 365 apps**](/deployoffice/updates/overview-update-channels).
+>Learn more about update channels, including how to make changes here: [**Update channels for Microsoft 365 apps**](https://learn.microsoft.com/deployoffice/updates/overview-update-channels).
 
 |Update channel|Date|
 |:-----|:-----|
