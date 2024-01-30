@@ -36,7 +36,7 @@ Only software versions that have been tested by Microsoft are available for auto
 
 Additionally, earlier versions of the software may also be made available and are labeled as **Microsoft Preview**. Devices can be manually updated to Microsoft Preview versions that are released, and those devices running on these versions are also eligible for receiving automatic updates in future.
 
-Firmware versions that haven't been tested by Microsoft are labeled **Unknown version**. Devices running an unknown firmware version can't be automatically updated. These devices can only be  updated manually.
+Firmware versions that have not been tested by Microsoft are labeled **Unknown version**. Devices running an unknown firmware version can't be automatically updated. These devices can only be  updated manually.
 
 Refer to this list for the details on new releases and the requirements that must be met.
 
@@ -52,23 +52,22 @@ Refer to this list for the details on new releases and the requirements that mus
 
 ### Assign devices to update phases
 
-Assigning devices to an automatic update phase is a Teams Rooms Pro feature for Teams Rooms on Android devices. Devices with a Teams Rooms Basic license will be assigned to the General phase. Any preconfigured phases will be maintained, and no further changes will be allowed. For more information, see [Microsoft Teams Rooms licenses](../rooms/rooms-licensing.md).  
+Assigning devices to an automatic update phase is a Teams Rooms Pro feature for Teams Rooms on Android devices. Devices with a Teams Rooms Basic license are assigned to the General phase. Any preconfigured phases are maintained, and no further changes are allowed. For more information, see [Microsoft Teams Rooms licenses](../rooms/rooms-licensing.md).  
 
 Automatic updates of Teams devices using the Teams admin center isn't available in GCC High and DoD. Organizations in GCC High and DoD can, however, [manually update Teams devices](#manually-update-remote-devices) using the Teams admin center.
 
-> [!NOTE]
-> Some devices don't support automatic updates yet. Applying automatic update settings on devices that don't support automatic updates won't have any effect on those devices. For questions about whether your device will support automatic updates, contact your device manufacturer.
-> > Updates happen during the Maintenance window configured for the device to avoid disruptions. Maintenance window can be configured through Configuration profiles.
-> Devices within a phase are updated gradually over a few weeks rather than all at once. 
-To choose the automatic update phase for your devices, do the following steps:
+  > [!NOTE]
+  > Some devices don't support automatic updates yet. Applying automatic update settings on devices that don't support automatic updates won't have any effect on those devices. For questions about whether your device will support automatic updates, contact your device manufacturer.
+  > 
+  > Updates are applied on weekends and outside typical business hours to avoid disruptions. Devices within a phase will be updated gradually over a few weeks rather than all at once. To choose the automatic update phase for your devices, do the following steps:
 1. Sign in to Microsoft Teams admin center by going to https://admin.teams.microsoft.com.
 2. Navigate to **Teams devices** and then select **Phones**, **Displays**, **Panels**, or **Teams Rooms on Android**.  
 3. Select one or more devices and then select **Update**.
 1. Under **Automatic updates**, select one of the following phases:
    - **Validation** This option is best for lab or test devices on which you can carry out any validation you need to perform. Updates start deployment as soon as the latest software version is released. Previously called **As soon as possible**.
    - **General** This is the default option and is best for most of your general-purpose devices. Firmware updates start deployment only after **30 days** have elapsed from the release of the new firmware version. Teams app updates start deployment only after **15 days** have elapsed from the release of the new Teams app version. Previously called **Defer by 30 days** (applicable for firmware updates).
-   - **Final** This option is best for devices used by VIPs and in large settings after large-scale validation has been completed. Firmware updates start deployment only after **90 days** have elapsed from the release of the new firmware version. Teams app updates start deployment only after **45 days** have elapsed from the release of the new Teams app version. Previously called **Defer by 90 days** (applicable for firmware updates).
-               
+   - **Final** This option is best for devices used by VIPs and in large settings after large-scale validation is complete. Firmware updates start deployment only after **90 days** have elapsed from the release of the new firmware version. Teams app updates start deployment only after **45 days** have elapsed from the release of the new Teams app version. Previously called **Defer by 90 days** (applicable for firmware updates).
+      
 5. Select **Update**.
 
 To see which phase a device is in, see the **Automatic updates** column in the Teams admin center. To see which devices are part of a specific phase, use the **Filter** option then select **Auto-update phase**.
@@ -98,10 +97,10 @@ If you want to configure the Maintenance window for a device, do the following s
 1. You can check the selected Maintenance window settings under the **Details** tab on the device page. 
 
   
-Automatic updates, when they happen, will utilize the Maintenance window configured for the device, that is, within the **Time window** on the selected days for **Update frequency**. Maintenance window can also be utilized for scheduling manual updates. 
+Automatic updates, when they happen, utilize the Maintenance window configured for the device, that is, the **Time window** on the selected days for **Update frequency**. Maintenance window can also be utilized for scheduling manual updates. 
 
 > [!NOTE]
-> If an update operation is unable to start execution within the maintenance window it is scheduled for, it will be cancelled and re-scheduled for the next available maintenance window.
+> If an update operation is unable to start execution within the maintenance window it is scheduled for, it is cancelled and rescheduled for the next available maintenance window.
 
 ### Track automatic updates
 
@@ -123,7 +122,7 @@ If you want to check which software versions are currently rolling out for your 
 > The new version may not always be the latest available version. Devices running older versions may be updated in a step-wise approach, until they reach the latest version.
 ### Pause automatic updates
 
-You can temporarily pause automatic updates for your tenant. When paused, Android based devices won't be automatically updated for the next 15 days. To pause the updates, do the following steps:
+You can temporarily pause automatic updates for your tenant. When paused, Android based devices are not automatically updated for the next 15 days. To pause the updates, do the following steps:
 
 1. Sign in to Microsoft Teams admin center by visiting https://admin.teams.microsoft.com.
 2. Navigate to **Teams devices** and then select **Phones**, **Displays**, **Panels**, or **Teams Rooms on Android**.
@@ -135,7 +134,7 @@ You can temporarily pause automatic updates for your tenant. When paused, Androi
 
 If you want to manually update devices using the Teams admin center, you can decide whether to update the devices immediately or schedule an update for a future date and time.
 
-To manually update remote devices, do the following:
+To manually update remote devices, do the following steps:
 
 1. Sign in to Microsoft Teams admin center by visiting https://admin.teams.microsoft.com.
 1. Navigate to **Teams Devices** and then select **Phones**, **Displays**, **Panels**, or **Teams Rooms on Android**.
@@ -167,7 +166,7 @@ The Teams app updates for paired Microsoft Teams Rooms running Android and their
 
 **For manual updates** - Whenever an update is being done for Microsoft Teams Rooms running Android or a Touch console, the paired device will also be updated. If an update is being scheduled for later, it will be scheduled for the same time on the paired device.
 
-**For automatic updates** - Automatic updates for Microsoft Teams Rooms on Android and their paired consoles also happen in sync. Automatic updates rollout according to the timeline dictated by the [Update phases](../devices/remote-update#assign-devices-to-update-phases). Touch consoles will be updated according to the update phase of their paired Microsoft Teams Rooms on Android. There will be no impact if both devices are in the same phase. If they are in different phases, the MTRoA phase will take precedence.
+**For automatic updates** - Automatic updates for Microsoft Teams Rooms on Android and their paired consoles also happen in sync. Automatic updates rollout according to the timeline dictated by the [Update phases](../devices/remote-update#assign-devices-to-update-phases). Touch consoles are updated according to the update phase of their paired Microsoft Teams Rooms on Android. There is no impact if both devices are in the same phase. If they are in different phases, the phase of the Teams Rooms on Android takes precedence.
 
 #### Conditions for updates to happen during sync
 
@@ -178,7 +177,7 @@ The Teams app updates for paired Microsoft Teams Rooms running Android and their
     
 #### Tracking update status
 
-Administrators can track the status of these update operations from the 'History' section in the device page. Details for each operation are shown in the relevant row, including, if the operation was carried out for a paired device. Additional details for the operation are available on selecting the operation status.
+Administrators can track the status of these update operations from the 'History' section in the device page. Details for each operation are shown in the relevant row, including, if the operation was carried out for a paired device. Additional details are available on selecting the operation status.
 
 ## Frequently asked questions about automatic updates
 
@@ -186,7 +185,7 @@ Administrators can track the status of these update operations from the 'History
 
 1. **What makes a device eligible to receive automatic updates?** The following conditions should be satisfied for the device to be eligible for automatic updates:
    - Device model should be certified. Refer to [Devices for Teams](../devices/teams-ip-phones.md) and [Teams Rooms certified systems and peripherals](../rooms/certified-hardware.md?tabs=Android) for details.
-   - Current version should be supported by Microsoft. Refer to [Software versions](#software-versions-on-teams-admin-center) for more details.
+   - Current version should be supported by Microsoft. For more details, see [Software versions](#software-versions-on-teams-admin-center).
    - Devices on versions that were released prior to 2022 generally do not have auto-update support.
       
 3. **How fast does the rollout happen?**  Eligible devices receive updates in weekly cycles based on the update phase they are in. For example, devices in General phase start receiving updates only after 15/30 days have elapsed since the new version was published. To ensure a stable rollout, the devices are updated gradually for a tenant and not all at once. Overall, the rollout of each new version takes a few weeks after the start of each update phase.
@@ -201,9 +200,9 @@ Also, if the device is on an older version, like N-3. It is updated step-wise to
    - Network configuration is done appropriately to allow download of updates. Refer to [URLs and IP address ranges for Microsoft Teams](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) for the URLs and IP address ranges that need to be allowed for Teams.
    - If this doesn't help, reach out to Microsoft support with the logs. Device logs can be found in the History tab of the device page as part of the Device diagnostics operation run with the software update operation.
 
-6. **The eligible count of devices doesn't seem to match the available devices.**  The device count in **Automatic software updates** section shows the number of eligible devices that are ready to be updated. Those that have already been updated to the **New version** aren't counted. It can also include devices from the previous phase that couldn't get updated.
+1. **The eligible count of devices does not seem to match the available devices.**  The device count in **Automatic software updates** section shows the number of eligible devices that are ready to be updated. The devices that are already updated to the **New version** are not counted. It can also include devices from the previous phase that are not updated.
 
-1. **When do automatic updates happen?**  The updates are scheduled to happen during the Maintenance window to minimize impact. If the device is offline at that time, the updates get executed when the device comes back online the next time. If the Maintenance window is already over, the update will be re-scheduled for the next available window.
+1. **When do automatic updates happen?**  The updates are scheduled to happen during the Maintenance window to minimize impact. If the device is offline at that time, the updates get executed when the device comes back online the next time. If the Maintenance window is already over, the update will be rescheduled for the next available window.
 
 1. **Why do Teams app and Firmware follow a different cadence in update phases?**   Updates phases allow Firmware auto-updates to start immediately (Validation phase), only after 30 days (General phase), or only after 90 days (Final phase). Since Firmware changes include significant changes, their rollout through auto-update is done at a slow pace to ensure minimal impact. On the other hand, the update phases allow Teams app to start immediately (for Validation phase), only after 15 days (for General phase), or only after 45 days (for Final phase). Teams app versions include smaller scope of changes for the devices than the Firmware and hence their auto-update rollout is done at a faster pace to bring the devices to recent versions.
 
