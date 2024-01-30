@@ -76,14 +76,14 @@ To see which phase a device is in, see the **Automatic updates** column in the T
 If you need to revert or remove firmware from a device that has been updated, you need to reset your device to its factory settings. Reset your device using the instructions from its manufacturer.
 
 ### Configure Maintenance window
-If you want to configure the Maintenance window for a device, do the following:
+If you want to configure the Maintenance window for a device, do the following steps:
 
 1. Sign in to Microsoft Teams admin center by going to https://admin.teams.microsoft.com.
 
 1. Navigate to **Teams devices** and then select **Phones**, **Displays**, **Panels**, or **Teams Rooms on Android**.
 1. Follow the steps for [editing or creating a new configuration profile.](./device-management#use-configuration-profiles-in-teams)
 
-1. Specify a suitable **Time window** by selecting a **Start time** and an **End time**. This time window will follow the local timezone of the device.
+1. Specify a suitable **Time window** by selecting a **Start time** and an **End time**. This time window follows the local timezone of the device.
 
    1. The default Time Window is from **01:00 Hrs** to **04:00 Hrs**.
 
@@ -93,19 +93,19 @@ If you want to configure the Maintenance window for a device, do the following:
 
    1. Default selection is for **Sunday**.
 
-1. Once the selection is done, **Save** the profile. If this is a new profile, you can now **Assign** it to devices. If you are editing an existing profile, it will automatically get re-applied to the devices to which it is assigned.
+1. Once the selection is done, **Save** the profile. If it is a new profile, you can **Assign** it to devices. If you are editing an existing profile, it automatically gets re-applied to the devices to which it is assigned.
 
 1. You can check the selected Maintenance window settings under the **Details** tab on the device page. 
 
   
-Automatic updates, when they happen, will utilize the Maintenance window configured for the device, i.e., within the **Time window** on the selected days for **Update frequency**. Maintenance window can also be utilized for scheduling manual updates. 
+Automatic updates, when they happen, will utilize the Maintenance window configured for the device, that is, within the **Time window** on the selected days for **Update frequency**. Maintenance window can also be utilized for scheduling manual updates. 
 
 > [!NOTE]
 > If an update operation is unable to start execution within the maintenance window it is scheduled for, it will be cancelled and re-scheduled for the next available maintenance window.
 
 ### Track automatic updates
 
-If you want to check which software versions are currently rolling out for your devices, do the following:
+If you want to check which software versions are currently rolling out for your devices, do the following steps:
 
 1. Sign in to Microsoft Teams admin center by going to https://admin.teams.microsoft.com.
 2. Navigate to **Teams devices** and then select **Phones**, **Displays**, **Panels**, or **Teams Rooms on Android**.
@@ -124,7 +124,7 @@ If you want to check which software versions are currently rolling out for your 
 
 ### Pause automatic updates
 
-You can temporarily pause automatic updates for your tenant. When paused, Android based devices won't be automatically updated for the next 15 days. To pause the updates, do the following:
+You can temporarily pause automatic updates for your tenant. When paused, Android based devices won't be automatically updated for the next 15 days. To pause the updates, do the following steps:
 
 1. Sign in to Microsoft Teams admin center by visiting https://admin.teams.microsoft.com.
 2. Navigate to **Teams devices** and then select **Phones**, **Displays**, **Panels**, or **Teams Rooms on Android**.
