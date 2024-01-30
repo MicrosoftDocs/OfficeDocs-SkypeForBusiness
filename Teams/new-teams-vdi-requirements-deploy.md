@@ -307,7 +307,7 @@ All new Teams files that are installed on the computer are signed, so IT admins 
  
 This error is caused by GPOs affecting Windows Installer. This includes [**DisableUserInstalls**](/windows/win32/msi/disableuserinstalls), [**DisableMSI**](/windows/win32/msi/disablemsi), or AppLocker policies based on Publisher rule conditions, or a RuleCollection for MSI installs. In this case you must create an exception such as:
  
-- <FilePathCondition Path="%PROGRAMFILES%\WINDOWSAPPS\*\MICROSOFTTEAMSMEETINGADDININSTALLER.MSI" />
+- FilePathCondition Path="%PROGRAMFILES%\WINDOWSAPPS\*\MICROSOFTTEAMSMEETINGADDININSTALLER.MSI"
  
 **Workaround:**  You can install the MSI that is located in the new Teams installation directory from an Admin Command prompt using:  
  
