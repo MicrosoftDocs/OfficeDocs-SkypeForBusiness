@@ -81,7 +81,7 @@ If you want to configure the Maintenance window for a device, do the following s
 1. Sign in to Microsoft Teams admin center by going to https://admin.teams.microsoft.com.
 
 1. Navigate to **Teams devices** and then select **Phones**, **Displays**, **Panels**, or **Teams Rooms on Android**.
-1. Follow the steps for [editing or creating a new configuration profile.](./device-management#use-configuration-profiles-in-teams)
+1. Follow the steps for [editing or creating a new configuration profile.](../device-management#use-configuration-profiles-in-teams)
 
 1. Specify a suitable **Time window** by selecting a **Start time** and an **End time**. This time window follows the local timezone of the device.
 
@@ -168,7 +168,7 @@ The Teams app updates for paired Microsoft Teams Rooms running Android and their
 
 **For manual updates** - Whenever an update is being done for Microsoft Teams Rooms running Android  or a Touch console, the paired device will also be updated. If an update is being scheduled for later, it will be scheduled for the same time on the paired device.
 
-**For automatic updates** - Automatic updates for Microsoft Teams Rooms on Android and their paired consoles will also happen in sync. Automatic updates rollout according to the timeline dictated by the [Update phases](/../devices/remote-update#assign-devices-to-update-phases). Touch consoles will be updated according to the update phase of their paired Microsoft Teams Rooms on Android. There will be no impact if both devices are in the same phase. If they are in different phases, the MTRoA phase will take precedence.
+**For automatic updates** - Automatic updates for Microsoft Teams Rooms on Android and their paired consoles will also happen in sync. Automatic updates rollout according to the timeline dictated by the [Update phases](../devices/remote-update#assign-devices-to-update-phases). Touch consoles will be updated according to the update phase of their paired Microsoft Teams Rooms on Android. There will be no impact if both devices are in the same phase. If they are in different phases, the MTRoA phase will take precedence.
 
 #### Conditions for updates to happen during sync
 
