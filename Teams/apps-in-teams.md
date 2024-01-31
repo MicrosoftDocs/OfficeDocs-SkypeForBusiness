@@ -138,6 +138,76 @@ To provide a rich experience that allows users to work inside Teams, apps contai
 
 To view common use cases mapped to Teams capabilities, see [Map your use cases to Teams app capabilities](/microsoftteams/platform/concepts/design/map-use-cases).
 
+## List of apps created by Microsoft
+
+The following list of apps are the only Microsoft apps in Teams admin center:
+
+* Admin
+* Approvals
+* Avatars
+* Azure AD Notifications
+* Azure Boards
+* Azure DevOps
+* Azure DevOps Server
+* Azure Lab Services
+* Azure Pipelines
+* Azure Repos
+* Bing News
+* Bookings
+* Bulletins
+* Channel calendar
+* Data Activator
+* Dataverse Chat Sync
+* Defender Experts
+* Developer Portal
+* Dynamics 365
+* Employee ideas
+* Forms
+* Games for Work
+* Images
+* Inspection
+* Issue reporting
+* Lists
+* M365 Chat
+* Mesh
+* Power Virtual Agents
+* Milestones
+* News
+* OneNote
+* Outgoing Webhook
+* Payments (preview)
+* Places
+* Polls
+* Power Apps
+* Power Automate Actions
+* Power BI
+* Praise
+* Project
+* PTZ Camera Controls
+* Roadmap – Microsoft Project
+* Sales Copilot
+* SharePoint
+* SharePoint News
+* SharePoint Pages
+* Shifts
+* Stocks
+* Tasks by Planner and To Do
+* Viva Topics
+* Updates
+* Virtual Appointments
+* Visio
+* Viva Connections
+* Viva Engage
+* Viva Goals
+* Viva Insights
+* Viva Learning
+* Viva Pulse
+* Weather
+* Website
+* Whiteboard
+* Wikipedia Search
+* Workflows
+
 ## Related articles
 
 * [Overview of how apps are used by users](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)
