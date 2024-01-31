@@ -84,7 +84,7 @@ When you select a specific room, you'll see a new pane with two different pages,
 
 ### Device view
 
-:::image type="content" source="../media/byod/inventory-devices-asso.png" alt-text="Screenshot of Device page.":::
+:::image type="content" source="../media/byod/inventory-devices-asso.png" alt-text="Screenshot of Device page." lightbox="../media/byod/inventory-devices-asso.png":::
 
 The Device page offers a comprehensive overview of device and room insights.
 
