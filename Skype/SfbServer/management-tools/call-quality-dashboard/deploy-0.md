@@ -42,7 +42,7 @@ Portal install creates a Repository database that stores the mapping of CQD user
 |**Phase**|**Steps**|**Roles and group membership**|**Documentation**|
 |:-----|:-----|:-----|:-----|
 |Install prerequisite hardware and software.  <br/> |Decide on the CQD configuration, and choose a SQL Server from which to perform the install.  <br/> |Domain user who is a member of the local administrator's group.  <br/> |"Pre-install Requirements" section in the deployment documentation.  <br/> |
-|Install CQD.  <br/> |Run the MSI following the deployment document.  <br/> |To perform the setup, the installing account must be a domain user who is a member of the local administrators group and read access to QoE Metrics database on the Monitoring Server.  <br/> |"Accounts and Deployment Steps" sections in the deployment documentation.  <br/> |
+|Install CQD.  <br/> |Run the MSI following the deployment document.  <br/> |To perform the setup, the installing account must be a domain user who is a member of the local administrator's group and read access to QoE Metrics database on the Monitoring Server.  <br/> |"Accounts and Deployment Steps" sections in the deployment documentation.  <br/> |
 |Grant user access.  <br/> |For managing user authorization to the Portal, we recommend using URL Authorization, which was introduced in IIS 7.0. For more information, see [Understanding IIS 7.0 URL Authorization](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization).  <br/> |Domain user who is a member of the local administrator's group.  <br/> |Managing User Access for the Portal section in the deployment documentation.  <br/> |
 |Optional: Provide subnet mapping information.  <br/> |Populate network and building mapping tables in QoE Archive database.  <br/> |An account with write access to the QoE Archive database.  <br/> |"Supplying Subnet Information" section in the user documentation.  <br/> |
    
@@ -72,14 +72,14 @@ Deployment of Call Quality Dashboard involves setting up the infrastructure and 
     
    - **QoE Archive Database:** By default, this option is set to "Create new database". Since Archive DB upgrade isn't supported, the only circumstance under which the "Use existing database" option can be used is if the existing Archive database has the same schema as the build to be installed.
     
-   - **Database File Directory:** Path to where the database files (.mdf and .ldf) for the Archive DB should be placed. This should be on a drive (HDD2 in the recommended hardware configuration) separate from the OS. Since the file names are fixed in the install, to avoid any potential conflict, it is recommended that a blank directory with no files be used.
+   - **Database File Directory:** Path to where the database files (.mdf and .ldf) for the Archive DB should be placed. This should be on a drive (HDD2 in the recommended hardware configuration) separate from the OS. Since the file names are fixed in the install, to avoid any potential conflict, it's recommended that a blank directory with no files be used.
     
-   - **Use Multiple Partitions:** The default is set to "Multiple partition", which requires Business Intelligence edition or Enterprise edition of SQL Server. For Standard edition, select "Single Partition" option. Note that cube processing performance may be impacted if Single Partition is used.
+   - **Use Multiple Partitions:** The default is set to "Multiple partitions", which requires Business Intelligence edition or Enterprise edition of SQL Server. For Standard edition, select "Single Partition" option. The cube processing performance might be impacted if Single Partition is used.
     
      > [!NOTE]
      > The selection for Use Multiple Partitions option cannot be changed once Setup completes. In order to change it, the Cube feature needs to be first uninstalled and then reinstalled using "Change" option in Control Panel. 
   
-   - **Partition File Directory:** Path to where the partitions for the QoE Archive database should be placed. This should be on a drive (HDD3 in the recommended hardware configuration) separate from the OS drive and SQL database log files drive. Note that since the file names are fixed in the install, to avoid any potential conflict, it's recommended that a blank directory with no files be used.
+   - **Partition File Directory:** Path to where the partitions for the QoE Archive database should be placed. This should be on a drive (HDD3 in the recommended hardware configuration) separate from the OS drive and SQL database log files drive. Since the file names are fixed in the install, to avoid any potential conflict, it's recommended that a blank directory with no files be used.
     
    - **SQL Agent Job User - User Name &amp; Password:** Domain service account name and password (masked) that is used to run the "QoE Archive Data" step of the SQL Server Agent job (which runs the stored procedure to fetch data from QoE Metrics DB into Archive DB, so this account must have read access to QoE Metrics DB, as indicated under Accounts section. This account also needs to have a sign in in the QoE Archive SQL Server Instance).
     
@@ -153,7 +153,7 @@ Administrators should first remove the inherited "Allow All Users" rule. This pr
   
 Next, administrators should add new Allow Rules and give specific users the permission to access the Portal. It's recommended that a local Group called "CQDPortalUsers" be created to manage the users.
   
-![Deploy Call Quality Dashboard.](../../media/8cfdc141-ec89-4552-921b-53196f497cbf.png)
+![Manage CQD users.](../../media/8cfdc141-ec89-4552-921b-53196f497cbf.png)
   
 The configuration details are stored in the web.config located at the Portal's physical directory.
   
@@ -170,11 +170,11 @@ The next step is to configure the dashboard of the CQD. After the user's authent
 
 1. Open the Configuration Editor for CQD.
     
-     ![Deploy Call Quality Dashboard.](../../media/544056eb-3090-434e-bae6-321c984029fa.png)
+     ![CQD configuration editor.](../../media/544056eb-3090-434e-bae6-321c984029fa.png)
   
 2. Under Section, choose **system.webServer/serverRuntime**.
     
-     ![Deploy Call Quality Dashboard.](../../media/b0af0e56-21b0-45dd-b610-5381b39319d3.png)
+     ![CQD server run time.](../../media/b0af0e56-21b0-45dd-b610-5381b39319d3.png)
   
 3. Change authenticatedUserOverride to **UseWorkerProcessUser**.
     
@@ -209,19 +209,19 @@ In rare cases, the installer fails to create the correct settings in IIS. Manual
   
 1. Open up IIS Manager, and navigate to Default Web Site.
     
-     ![Deploy Call Quality Dashboard.](../../media/dc6007aa-870b-4d70-867d-32ffd937063b.png)
+     ![Default web site.](../../media/dc6007aa-870b-4d70-867d-32ffd937063b.png)
   
 2. Select "Authentication". If the "Anonymous Authentication," "ASP.NET Impersonation," "Form Authentication," and "Windows Authentication" don't match the settings shown below, manually change them to match the settings below. All other authentication mechanisms should be disabled.
     
-     ![Deploy Call Quality Dashboard.](../../media/5d9e38fb-8a50-41a2-a423-3ce983a83d0c.png)
+     ![CQD authentication.](../../media/5d9e38fb-8a50-41a2-a423-3ce983a83d0c.png)
   
 3. For "Windows Authentication," select on Advanced Settings on the right-hand side.
     
-     ![Deploy Call Quality Dashboard.](../../media/cad29486-df40-4cc9-82f3-bbdaca52d9ca.png)
+     ![Windows authentication.](../../media/cad29486-df40-4cc9-82f3-bbdaca52d9ca.png)
   
 4. Set "Extended Protection" to Accept and check the "Enable Kernel-mode authentication" box.
     
-     ![Deploy Call Quality Dashboard.](../../media/0ab2dda1-0001-4747-8cfc-072e9368b6cb.png)
+     ![CQD extended protection.](../../media/0ab2dda1-0001-4747-8cfc-072e9368b6cb.png)
   
 5. Repeat the above steps for each of the "CQD", "QoEDataService", and "QoERepositoryService" entries below "Default Web Site".
     
