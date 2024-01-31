@@ -108,7 +108,7 @@ When you select a specific device associated with a room, a new page opens up di
 
 To associate a device with a room, the following two methods are available:
 
-- **Use Import/Export function:** You can use this function to export the inventory list via an excel file and construct Bring Your Own Device rooms.
+- **Use Import/Export function:** You can use this function to export the inventory list via an Excel file and construct Bring Your Own Device rooms.
 
     1. In the **Devices** page, click **Export** to download the device inventory.
     2. Open the excel file and verify that it contains all the devices and room information.
