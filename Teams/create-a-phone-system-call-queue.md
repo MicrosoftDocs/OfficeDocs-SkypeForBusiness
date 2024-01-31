@@ -128,7 +128,7 @@ If you don't have a resource account with an assigned phone number:
 1. At the bottom of the pane, select the **Save** button.
 1. On the **Resource accounts** pane, select the **Add** button.
 
-After you've created this new resource account for calling ID, you'll still need to:
+After you create this new resource account for calling ID, you still need to:
 
 - Assign a [Microsoft Teams Phone System Resource Account license](manage-resource-accounts.md#assign-a-license).
 - Assign a Microsoft Calling Plan license, assign an Operator Connect phone number, or assign an online voice routing policy for Direct Routing.
@@ -238,7 +238,7 @@ Agents' Teams accounts must be set to TeamsOnly mode. Agents who don't meet the 
 > [!TIP]
 > Setting **Conference mode** to **On** is the recommended setting.
 
-Once you've selected your call answering options, select the **Next** button at the bottom of the **Add a Call queue** page.
+Once you select your call answering options, select the **Next** button at the bottom of the **Add a Call queue** page.
 
 > [!NOTE]
 > Conference mode isn't supported for calls that are routed to the queue from a Direct Routing gateway that's enabled for Location Based Routing.
@@ -313,7 +313,7 @@ We recommend turning on **Call agents can opt out of taking calls**.
 > [!TIP]
 > Setting the **Agent alert time** to a minimum **20 seconds** is the recommended setting.
 
-Once you've selected your agent call routing options, select the **Next** button at the bottom of the **Add a Call queue** page.
+Once you select your agent call routing options, select the **Next** button at the bottom of the **Add a Call queue** page.
 
 ## [Step 5: Exception Handling](#tab/call-exception-handling)
 
@@ -326,11 +326,11 @@ Each exception allows you to **disconnect** the call or **redirect** it to any o
 For example, when **Overflow** occurs, you might send calls to a backup Call queue, but when **Timeout** or **No Agents** occurs, you might want the callers to leave a shared voicemail.
 
 > [!NOTE]
-> The **Voicemail (personal)** routing option will send calls to the user and not directly to their voicemail as indicated. This is being investigated by Support. As an alternative, setup a distribution list with the person being the only member and use the **Voicemail (shared)** option.
+> The **Voicemail (personal)** routing option sends calls to the user and not directly to their voicemail as indicated. This is being investigated by Support. As an alternative, setup a distribution list with the person being the only member and use the **Voicemail (shared)** option.
 >
 > For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md?tabs=additional-resources) for number formatting.
 >
-> Do not include any special characters in the greeting message when redirecting to **Voicemail (shared)**.
+> Don't include any special characters in the greeting message when redirecting to **Voicemail (shared)**.
 
 ### Overflow: Set how to handle call overflow
 
@@ -368,7 +368,7 @@ This call exception handling option handles calls when no agents are opted into 
 >
 > If agents are logged in or opted in, then calls will be queued.
 
-Once you've selected your call overflow, call timeout and no agents handling options, select the **Next** button at the bottom of the **Add a Call queue** page.
+Once you select your call overflow, call timeout and no agents handling options, select the **Next** button at the bottom of the **Add a Call queue** page.
 
 
 ## [Step 6: Authorized users](#tab/authorized-users)
@@ -394,7 +394,7 @@ To **add a user** to the authorized users:
 
 For more information, see [Set up authorized users](./aa-cq-authorized-users.md).
 
-Once you've selected your authorized users, select the **Submit** button at the bottom of the **Add a Call queue** page.
+Once you select your authorized users, select the **Submit** button at the bottom of the **Add a Call queue** page.
 
 ---
 
