@@ -446,7 +446,7 @@ The following settings are recommended:
 3. Selecting *Longest Idle* for the agent routing method automatically enables Presence based routing.
 4. It's not possible to set the order the agents are presented with calls.
 5. Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that's enabled for Location-Based Routing.
-    - For Call queue implementation with Location-Based Routing, see [Voice apps (Auto Attendant or Call Queue)](location-based-routing-plan.md#inbound-calls-through-voice-apps-auto-attendant-or-call-queue).
+    - For Call queue implementation with Location-Based Routing, see [Voice apps (Auto Attendant or Call Queue)](location-based-routing-plan.md).
 6. Microsoft Teams Phone System only.
 7. Through the User Settings Portal page at [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
 8. Only standard channels are supported.
