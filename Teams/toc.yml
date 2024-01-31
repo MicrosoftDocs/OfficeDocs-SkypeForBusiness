@@ -1556,6 +1556,8 @@ items:
           href: rooms/enrolling-mtrp-managed-service.md
         - name: Enroll a device into Pro management
           href: rooms/enroll-a-device.md
+        - name: Bring Your Own Device Rooms in Pro Management portal
+          href: rooms/bring-your-own-device.md  
         - name: Create a one-time password
           href: rooms/create-otp.md
         - name: Role-based access control
