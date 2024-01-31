@@ -295,6 +295,8 @@ If you're an administrator, you can use the following diagnostic tool to validat
 
 [Here's what you get with Teams Phone](./here-s-what-you-get-with-phone-system.md)
 
+[Routing calls with Auto attendants and Call queues](plan-your-call-routing-flow.md)
+
 [Getting service phone numbers](./getting-service-phone-numbers.md)
 
 [Country and region availability for Audio Conferencing and Calling Plans](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
