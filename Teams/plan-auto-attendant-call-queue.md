@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
-ms.date: 08/22/2023
+ms.date: 01/31/2024
 ms.topic: article
 ms.assetid: ab9f05a2-22cb-4692-a585-27f82d1b37c7
 ms.tgt.pltfrm: cloud
@@ -206,5 +206,11 @@ If you need more extensive capabilities, such as integration with workflows, bot
 ## Related topics
 
 [Plan Direct Routing](direct-routing-plan.md)
+
+[Routing calls with Auto attendants and Call queues](plan-your-call-routing-flow.md)
+
+[Set up a Microsoft Teams Auto attendant](create-a-phone-system-auto-attendant.md)
+
+[Create a Call queue in Microsoft Teams](create-a-phone-system-call-queue.md)
 
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
