@@ -49,7 +49,7 @@ For each Auto attendant, you can configure an operator. While you can configure 
 
 Auto attendants can be configured to allow callers to search your organization's directory, either by name or by extension number. Within an Auto attendant, you can specify who is available for the directory search by choosing groups of users to include or exclude. (This is known as *dial scope*.)
 
-Internal callers, using their Teams client, can reach an Auto attendant by calling the Resource account assigned to the Auto attendant.  External callers can reach an Auto attendant by dialing the phone number assigned to the Resource account or via the web if click-to-call has been configured.
+Internal callers, using their Teams client, can reach an Auto attendant by calling the Resource account assigned to the Auto attendant.  External callers can reach an Auto attendant by dialing the phone number assigned to the Resource account or via the web if click-to-call is configured.
 
 ## Call queues
 
@@ -61,7 +61,7 @@ Like Auto attendants, Call queues each have a language setting. You can use diff
 
 For each Call queue, you can specify if agents in the queue can opt out of taking calls and if calls should be routed to them based on their presence indication in Teams.
 
-Internal callers, using their Teams client, can reach a Call queue by calling the Resource account assigned to the Call queue.  External callers can reach a Call queue by dialing the phone number assigned to the Resource account or via the web if click-to-call has been configured.
+Internal callers, using their Teams client, can reach a Call queue by calling the Resource account assigned to the Call queue.  External callers can reach a Call queue by dialing the phone number assigned to the Resource account or via the web if click-to-call is configured.
 
 Call queues don't provide separate call routing for off hours and holidays. Even if your Call queue is staffed 24/7 we recommend using an Auto attendant to direct calls to the call queue.
 
@@ -82,7 +82,7 @@ To configure Auto attendants and Call queues, you need the following resources:
 > [!NOTE]
 > Resource accounts are disabled for sign in and must remain so. Chat and presence are not available for these accounts.
 
-Agents who receive calls from a Call queue must be Enterprise Voice enabled online or on-premise users. For more information, see [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) and [Enable users for Direct Routing](/microsoftteams/direct-routing-enable-users). In addition, if the Call queue is using Direct Routing or Operator Connect numbers, agents who need to conference or transfer calls also require:
+Agents who receive calls from a Call queue must be Enterprise Voice enabled online or on-premises users. For more information, see [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) and [Enable users for Direct Routing](/microsoftteams/direct-routing-enable-users). In addition, if the Call queue is using Direct Routing or Operator Connect numbers, agents who need to conference or transfer calls also require:
 
 - An [online voice routing policy](manage-voice-routing-policies.md) assigned if the Call queue uses transfer mode.
 - An [Audio Conferencing license](set-up-audio-conferencing-in-teams.md) or [online voice routing policy](manage-voice-routing-policies.md) assigned if the Call queue uses conference mode.
@@ -170,7 +170,7 @@ In order to help prevent a denial of service attack from web based click-to-call
 
 ## Getting started
 
-Once you've completed the planning tasks in this article, follow these steps to get your Auto attendants and Call queues set up:
+Once you complete the planning tasks in this article, follow these steps to get your Auto attendants and Call queues set up:
 
 1. Get a [Teams Phone Resource Account license](teams-add-on-licensing/virtual-user.md) for each resource account that you plan to create. These licenses are free, so we suggest getting a few extra in case you decide to make changes to your resource accounts in the future.
 1. [Create a resource account](manage-resource-accounts.md) for each Auto attendant and Call queue that you want to create.
@@ -179,10 +179,10 @@ Once you've completed the planning tasks in this article, follow these steps to 
 1. Create click-to-call configurations for the [Auto attendants](/azure/communication-services/quickstarts/voice-video-calling/get-started-teams-auto-attendant) and [Call queues](/azure/communication-services/quickstarts/voice-video-calling/get-started-teams-call-queue) that you want users on your website or in your mobile applications to call.
 1. [Create the holidays](set-up-holidays-in-teams.md) for which you want to have separate call routing in your Auto attendants.
 1. Create the groups or Teams channels that you want to use to contain the call agents for the Call queues.
-1. If you plan to allow dial by extension, ensure that you've added your users' extension number to their Azure Active Directory (Azure AD) profile.
+1. If you plan to allow dial by extension, ensure that you add your users' extension number to their Azure Active Directory (Azure AD) profile.
 1. Optionally, [set up call parking and retrieval](call-park-and-retrieve.md) if you want to use this feature to help with call transfers.
 
-Once you've completed the steps above, you're ready to create your Auto attendants and Call queues. Because Auto attendants and Call queues can redirect calls to each other, refer to the workflow diagram that you created to determine which Auto attendant or Call queue should be created first. In the example in the diagram above, you would create the sales and support Call queues before you create the Contoso main Auto attendant because the main Auto attendant needs to direct callers to the sales and support Call queues.
+Once you completed the steps above, you're ready to create your Auto attendants and Call queues. Because Auto attendants and Call queues can redirect calls to each other, refer to the workflow diagram that you created to determine which Auto attendant or Call queue should be created first. In the example in the diagram above, you would create the sales and support Call queues before you create the Contoso main Auto attendant because the main Auto attendant needs to direct callers to the sales and support Call queues.
 
 See the following articles for information on how to create Auto attendants and Call queues:
 
