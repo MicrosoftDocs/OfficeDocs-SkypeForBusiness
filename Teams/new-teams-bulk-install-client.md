@@ -121,7 +121,7 @@ To deploy this installer to a group of computers, or your entire organization, f
 > HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams
 > Value = CloudType
 > value type = DWORD
->   1 = Commercial, 2 = GCC, 3 = GCCH, 4 = DOD, 5 = AirGap09, 6 = AirGap08, 7 = Gallatin
+>   1 = Commercial, 2 = GCC, 3 = GCCH, 4 = DOD, 7 = Gallatin
 > ```
 
 ## Step 2: Set new Teams as the default
