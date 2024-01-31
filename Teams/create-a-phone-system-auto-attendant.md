@@ -29,7 +29,7 @@ description: Learn how to set up and manage Auto attendants in Microsoft Teams.
 
 Auto attendants let people call your organization and navigate a menu system to speak to the right department, Call queue, person, or an operator. You can create Auto attendants for your organization with the Microsoft Teams admin center or with PowerShell.
 
-Be sure you have read [Plan for Teams Auto attendants and Call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started) before you follow the procedures in this article.
+Be sure you've read [Plan for Teams Auto attendants and Call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started) before you follow the procedures in this article.
 
 Auto attendants can redirect calls, based on callers' input, to one of the following destinations:
 
@@ -48,7 +48,7 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 >[!IMPORTANT]
 > While defining an **Operator** is optional, it's recommended.  Auto attendants redirect calls to the operator if there is an error in the Auto attendant configuration due to a user or shared voicemail account being deleted or if the caller doesn't make any selection after listening to the menu three consecutive times.
 >
-> If an operator isn't defined, the Auto attendant will drop the call.
+> If an operator isn't defined, the Auto attendant drops the call.
 >
 > In addition to defining an operator, the operator needs to be one of the configured menu choices.
 
@@ -87,9 +87,9 @@ To set up an Auto attendant, in the [Teams admin center](https://admin.teams.mic
    > [!IMPORTANT]
    > When using *Text to Speech*, the text must be entered in the selected language as the system doesn't perform translation.
    >
-   > All words will be pronouced in the selected language.
+   > All words are pronouced in the selected language.
 
-1. Choose if you want to enable voice inputs. When enabled, the name of every menu option becomes a speech-recognition keyword. For example, callers can say "One" to select the menu option mapped to key 1, or they can say "Sales" to select the menu option named "Sales." If you choose a language in Step 4 that doesn't support voice inputs, this option will be disabled.
+1. Choose if you want to enable voice inputs. When enabled, the name of every menu option becomes a speech-recognition keyword. For example, callers can say "One" to select the menu option mapped to key 1, or they can say "Sales" to select the menu option named "Sales." If you choose a language in Step 4 that doesn't support voice inputs, this option isn't available.
 
 Once you've set your Auto attendant's general info, select **Next**.
 
@@ -238,7 +238,7 @@ Once you've added resource accounts, select **Next**.
 
 ## Step 5: Authorized users
 
-**Authorized users** specifies the users who are authorized to make changes to this Auto attendant.  The capabilities that the users have will be determined based on the [Teams voice applications policy](./manage-voice-applications-policies.md) that is assigned to the user.
+**Authorized users** specifies the users who are authorized to make changes to this Auto attendant.  The capabilities that the users have is determined based on the [Teams voice applications policy](./manage-voice-applications-policies.md) that is assigned to the user.
 
 To **add a user** to the authorized users:
 
@@ -282,14 +282,14 @@ In a Skype for Business hybrid environment, to transfer an Auto attendant call t
 
 If you're an administrator, you can use the following diagnostic tool to validate that an Auto attendant is able to receive calls:
 
-1. Select **Run Tests** which will populate the diagnostic in the Microsoft 365 Admin Center.
+1. Select **Run Tests**, which populates the diagnostic in the Microsoft 365 Admin Center.
 
    > [!div class="nextstepaction"]
    > [Run Tests: Teams Auto Attendant](https://aka.ms/TeamsAADiag)
 
 1. In the Run diagnostic pane, enter the Resource Account in the **Username or Email** field, and then select **Run Tests**.
 
-1. The tests will identify tenant, policy, or resource account configurations that are preventing the Auto attendant from receiving calls and will also provide steps to fix any problems identified.
+1. The tests identify tenant, policy, or resource account configurations that are preventing the Auto attendant from receiving calls and also provide steps to fix any problems identified.
 
 ## Related articles
 
