@@ -176,7 +176,9 @@ Below the headline metrics, there's a table that provides a granular breakdown o
 To see the call utilization view for each room, select the specific Bring Your Own Device room from the table. There will be a new pane, which gives a detailed view of devices call utilization based on selected period. 
 
 > [!NOTE]
-> Only rooms with Teams Shared Devices or Pro licenses and which are done with the device association are shown in the usage report. 
+> Only rooms with Teams Shared Devices or Pro licenses and which are associated with their peripherals are shown in the Bring Your Own Device usage report. 
+>
+> Great news! for this first release, customers can utilize the Bring Your Own Device usage data without an additional Teams shared device license.  
 
 
 
