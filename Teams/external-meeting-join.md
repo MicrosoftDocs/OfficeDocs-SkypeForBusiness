@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: serdars
 ms.reviewer: vivekmo
-ms.date: 1/26/2024
+ms.date: 1/31/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -28,7 +28,7 @@ description: Learn how to prevent or block users in your organization from joini
 
 **APPLIES TO:** ✔️Meetings ✖️Webinars ✖️Town halls
 
-As an admin, you can control which types of Microsoft Teams meetings users in your org can join. Managing the types of meetings users can join can be helpful in privacy and compliance scenarios, where you might not want specific users or groups in your org joining meetings with external non-trusted trusted or even trusted organizations.
+As an admin, you can control which types of Microsoft Teams meetings users in your org can join. Managing the types of meetings your users can join can be helpful in privacy and compliance scenarios, where you might not want specific users or groups in your org joining meetings with external non-trusted trusted or even trusted organizations.
 
 To learn more about trusted organizations, see [IT Admins - Manage external meetings and chat with people and organizations using Microsoft identities](trusted-organizations-external-meetings-chat.md).
 
@@ -47,9 +47,9 @@ You can manage the types of meetings your users can join through the Teams admin
 
 |Teams admin center policy option|Parameter value in PowerShell| Behavior|
 |---------|---------|---------------|
-|Anyone|All| **This is the default value.** Users with this policy can join any meeting they’re invited to. |
-|Only people in trusted orgs|Current&TrustedOrgs| Users with this policy can only join in org meetings and meetings that organizations you have a trusted relationship with host.|
-|No one|CurrentOrgOnly| Users with this policy can only join in org meetings.|
+|Anyone|EnabledForAnyone| **This is the default value.** Users with this policy can join any meeting they’re invited to. |
+|Only people in trusted orgs|EnabledForTrustedOrgs| Users with this policy can only join in org meetings and meetings that organizations you have a trusted relationship with host.|
+|No one|Disabled| Users with this policy can only join in org meetings.|
 
 ### Prevent users from joining external meetings using the Teams admin center
 
@@ -57,7 +57,7 @@ Follow these steps in the Teams admin center to turn town halls on or off:
 
 1. Open the Teams admin center.
 2. Select **Meetings** from the navigation pane.
-3. Expand **Meetings** a d select **Meeting Policies**.
+3. Expand **Meetings** and select **Meeting Policies**.
 4. Either select an existing policy or create a new one.
 5. Navigate to the **Meeting join & lobby** section.
 6. Set **People can join external meetings hosted by** to your chosen value of either **Anyone**, **Only people in trusted orgs**, or **No one**.
@@ -65,7 +65,7 @@ Follow these steps in the Teams admin center to turn town halls on or off:
 
 ### Prevent users from joining external meetings using PowerShell
 
-You can use the **`-JoinMeetingsHostedAt`** parameter within the PowerShell [**CsTeamsMeetingPolicy**](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet to manage the types of external meetings your users can join.
+You can use the **`-ExternalMeetingJoin`** parameter within the PowerShell [**CsTeamsMeetingPolicy**](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet to manage the types of external meetings your users can join.
 
 Before you can run these cmdlets, you must be connected to Microsoft Teams PowerShell. For more information, see [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams).
 
@@ -74,13 +74,13 @@ For more information on PowerShell cmdlets for Teams meetings, see the [Related 
 For users to only join meetings that are in org or hosted by orgs that you have a trusted relationship with, run the following script, use the following script:
 
 ```powershell
-Set-CsTeamsMeetingPolicy -Identity <policy name> -JoinMeetingsHostedAt  Current&TrustedOrgs
+Set-CsTeamsMeetingPolicy -Identity <policy name> -ExternalMeetingJoin  EnabledForTrustedOrgs
 ```
 
 To only allow users to join in org meetings, use the following script:
 
 ```powershell
-Set-CsTeamsMeetingPolicy -Identity <policy name> -JoinMeetingsHostedAt  CurrentOrgOnly
+Set-CsTeamsMeetingPolicy -Identity <policy name> -ExternalMeetingJoin  Disabled
 ```
 
 ## Related topics
