@@ -420,7 +420,7 @@ The following settings are recommended:
 |Serial                           |Y                         |Y         |Y               |Y    |Y         |Y<sup>4</sup>         |Y<sup>4</sup>             |   |
 |**Agent Routing Options**        |                          |          |                |     |          |                      |                          |   |
 |Presence Based Routing<sup>3</sup>|Y                        |Y         |Y               |N    |Y         |Y                     |Y                         |*Default* |
-|Agents can Opt-out               |Y                         |Y         |Y               |Y<sup>7,10</sup>|Y<sup>7,10</sup>|Y          |Y                         |*Default*     |
+|Agents can opt out               |Y                         |Y         |Y               |Y<sup>7,10</sup>|Y<sup>7,10</sup>|Y          |Y                         |*Default*     |
 |**Transfer Modes**               |                          |          |                |     |          |                      |                          |   |
 |Conference Mode<sup>5</sup>      |Y                         |Y         |Y               |N    |Y<sup>6</sup>|Y                  |Y                         |*Default* |
 |Transfer Mode                    |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |   |
