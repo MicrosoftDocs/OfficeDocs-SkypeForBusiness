@@ -38,6 +38,7 @@ ms.localizationpriority: high
 - Newly created private channels won't show up in the left rail until the page is reloaded or users move to another screen and come back.
 - The calendar icon will show an error message for users not licensed with Exchange Online. A fix to hide the calendar icon for these users is expected soon.
 - Report a Problem is missing in the help menu for users in the public preview channel.
+- Custom Announcement Backgrounds are only available in the AMER region. Pending availability of the full Designer backed AI capabilities in other regions, we are working to provide the option for users to upload their own images.
 - [Cross Cloud Guest Access (CCGA) accounts](https://techcommunity.microsoft.com/t5/microsoft-teams-support/cross-cloud-meeting-amp-cross-cloud-guest-access-between-ww/ba-p/3990829) are not yet shown on the Web client. Until this feature is available, users can use CCGA meeting-join links or navigate directly to the cloud-specific URL in a new tab.
 - If using classic Teams for Web to open a [Cross Cloud Meeting (CCM)](https://techcommunity.microsoft.com/t5/microsoft-teams-support/cross-cloud-meeting-amp-cross-cloud-guest-access-between-ww/ba-p/3990829) link into a cloud where the user is opted into new Teams for web, the meeting join will fail. Until a fix is ready, users may navigate directly to the cloud-specific URL to join their meeting.
 
