@@ -138,7 +138,7 @@ Where $LyssProvider is the variable containing the defined scenario created with
    Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
    ```
 
-The end result of the command is that the scenario site:Redmond/RedmondLyssInfo will have updated flags and level for the provider assigned to it. You can view the new scenario by using Get-CsClsScenario. For details, see [Get-CsClsScenario](/powershell/module/skype/get-csclsscenario?view=skype-ps).
+The end result of the command is that the scenario site:Redmond/RedmondLyssInfo will have updated flags and level for the provider assigned to it. You can view the new scenario by using Get-CsClsScenario. For details, see [Get-CsClsScenario](/powershell/module/skype/get-csclsscenario?view=skype-ps&preserve-view=true).
 > [!CAUTION]
 > **New-ClsCsProvider** does not check to determine whether the flags are valid. Make sure that the spelling of the flags (for example, TF_DIAG or TF_CONNECTION) is spelled correctly. If the flags are not spelled correctly, the provider cannot return the expected log information.
   
@@ -149,6 +149,7 @@ Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Add=$ABSP
 ```
 
 Where each provider defined with the Add directive has already been defined using the **New-CsClsProvider** process.
+
 ### To remove a scenario provider
 
 1. Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.
@@ -179,14 +180,15 @@ Where each provider defined with the Add directive has already been defined usin
     > The cmdlet **Remove-CsClsScenario** does not prompt you for confirmation. The scenario is deleted, along with the providers that were assigned to it. You can recreate the scenario by re-running the commands used to create it initially. There is no procedure to recover removed scenarios or providers.
   
 When you remove a scenario by using the **Remove-CsClsScenario** cmdlet, you completely remove the scenario from the scope. To use the scenarios that you created and the providers that were a part of the scenario, you create new providers and assign them to a new scenario.
+
 ## See also
 
-[Get-CsClsScenario](/powershell/module/skype/get-csclsscenario?view=skype-ps)
+[Get-CsClsScenario](/powershell/module/skype/get-csclsscenario?view=skype-ps&preserve-view=true)
   
-[New-CsClsScenario](/powershell/module/skype/new-csclsscenario?view=skype-ps)
+[New-CsClsScenario](/powershell/module/skype/new-csclsscenario?view=skype-ps&preserve-view=true)
   
-[Remove-CsClsScenario](/powershell/module/skype/remove-csclsscenario?view=skype-ps)
+[Remove-CsClsScenario](/powershell/module/skype/remove-csclsscenario?view=skype-ps&preserve-view=true)
   
-[Set-CsClsScenario](/powershell/module/skype/set-csclsscenario?view=skype-ps)
+[Set-CsClsScenario](/powershell/module/skype/set-csclsscenario?view=skype-ps&preserve-view=true)
   
-[New-CsClsProvider](/powershell/module/skype/new-csclsprovider?view=skype-ps)
+[New-CsClsProvider](/powershell/module/skype/new-csclsprovider?view=skype-ps&preserve-view=true)
