@@ -22,14 +22,11 @@ appliesto:
 
 # Sign out of Microsoft Teams
 
-We recommend for users to remain signed in to the Microsoft Teams app to continue receiving chats, incoming calls, and other activities. We understand that, at times, users might want to sign out of the Teams application for several reasons:
+We recommend for users to remain signed in to Microsoft Teams to continue receiving chats, incoming calls, and other notifications.  
 
-- Because they're done using Teams for the day
-- They want to use a different account
-- Because they're on a device that they share with another person
-
-For these reasons and others, Teams allows you to sign out of the app and end your session.
-
+The new Teams desktop app supports multiple accounts side-by-side, removing the need to sign out and sign back in. [Learn more about New Teams.](/microsoftteams/new-teams-desktop-admin)
+We understand that, in some cases, users might need to sign out of Teams, for example when they’re using a device that is shared with another person.  
+Except for Shared Device Mode for mobile devices which is described below, signing out of Teams should always be initiated by end-users, from inside the Teams app. Microsoft recommends against using custom scripts that attempt to programmatically sign users out. 
 ## Account sharing between apps
 
 Modern operating systems allow sharing of accounts between different apps on a device. This single sign-on (SSO) design allows users to use multiple apps on their device without requiring them to sign in to every single app. Teams doesn't control this behavior, but it does take advantage of the convenience this design provides for the end-user experience.
