@@ -29,7 +29,7 @@ Bring Your Own Device rooms are identified as rooms with no Microsoft Teams Room
 2. In the left navigation menu, select **Planning** and go to **Inventory**.
 
 > [!NOTE]
-> For the devices to be captured in Pro Management Portal as Bring Your Own Devices, user needs to plug in the device in the room and join a meeting. We will need at least two unique users to report the device.
+> For the devices to be captured in Pro Management Portal as Bring Your Own Devices, user needs to plug in the device in the room and join a meeting. We will need at least five unique users to report the device.
 
 ## Inventory page
 
