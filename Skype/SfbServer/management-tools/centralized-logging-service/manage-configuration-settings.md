@@ -191,10 +191,10 @@ If you choose to remove a site-level configuration, the site will use the global
 
 [Centralized Logging Service in Skype for Business 2015](centralized-logging-service.md)
 
-[Set-CsClsConfiguration](/powershell/module/skype/set-csclsconfiguration?view=skype-ps)
+[Set-CsClsConfiguration](/powershell/module/skype/set-csclsconfiguration?view=skype-ps&preserve-view=true)
 
-[Get-CsClsConfiguration](/powershell/module/skype/get-csclsconfiguration?view=skype-ps)
+[Get-CsClsConfiguration](/powershell/module/skype/get-csclsconfiguration?view=skype-ps&preserve-view=true)
 
-[New-CsClsConfiguration](/powershell/module/skype/new-csclsconfiguration?view=skype-ps)
+[New-CsClsConfiguration](/powershell/module/skype/new-csclsconfiguration?view=skype-ps&preserve-view=true)
 
-[Remove-CsClsConfiguration](/powershell/module/skype/remove-csclsconfiguration?view=skype-ps)
+[Remove-CsClsConfiguration](/powershell/module/skype/remove-csclsconfiguration?view=skype-ps&preserve-view=true)
