@@ -76,12 +76,16 @@ Teams Phone provides the following features.
 ## Availability in GCC High and DoD clouds
 <a name="bkmk_setup"> </a>
 
-The following capabilities are not yet available in GCC High and DoD Clouds. 
+The following capabilities are not yet available in GCC High and DoD Clouds.
 
 - [Call settings for secondary ringer, voicemail, and enhanced delegation](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)
 - [Transfer to voicemail mid call](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0)
 - Call phone number from search bar
 - Microsoft Entra ID reverse number lookup
+
+## Access the Teams Phone for Frontline Worker license
+
+To access the **Teams Phone Standard for Frontline Workers** license, your tenant must meet several requirements first. To learn what these requirements are, see [Purchase the Teams Phone Standard for Frontline Workers license](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md#purchase-the-teams-phone-standard-for-frontline-workers-license).
 
 ## Related articles
 
