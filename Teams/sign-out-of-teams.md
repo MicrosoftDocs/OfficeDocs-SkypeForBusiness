@@ -27,12 +27,6 @@ We recommend that users remain signed in to Microsoft Teams to continue receivin
 The new Teams desktop app supports multiple accounts side-by-side, removing the need to sign out and sign back in. [Learn more about New Teams.](/microsoftteams/new-teams-desktop-admin)
 We understand that, in some cases, users might need to sign out of Teams, for example when they’re using a device that is shared with another person.  
 Except for Shared Device Mode for mobile devices which is described below, signing out of Teams should always be initiated by end-users, from inside the Teams app. Microsoft recommends against using custom scripts that attempt to programmatically sign users out. 
-## Account sharing between apps
-
-Modern operating systems allow sharing of accounts between different apps on a device. This single sign-on (SSO) design allows users to use multiple apps on their device without requiring them to sign in to every single app. Teams doesn't control this behavior, but it does take advantage of the convenience this design provides for the end-user experience.
-
-SSO has an important impact on sign out. When users sign out of Teams, the data associated with their account is removed from the Teams app, but other apps on the device could continue to have access to their account. It also means that users might not be prompted to reenter their credentials if they choose to sign back in to Teams with the same account.
-
 ## Sign out of Teams on the web
 
 To sign out of Teams in a browser, select your profile picture at the top of the app, then select **Sign Out**. You'll be signed out from all Microsoft 365 applications in that browser profile. The next time you sign in to Teams or other Microsoft 365 applications, your username will be shown on the sign-in page. In most cases, you’ll have to reenter your credentials, and you can remove your account from the list by clicking “Forget”.  
