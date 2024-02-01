@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.topic: article
-ms.date: 01/22/2024
+ms.date: 01/30/2024
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -279,6 +279,9 @@ When you exclude the WebStorage folder (used for domains hosted within Teams lik
 >
 >*Note:* Customers using Profile and ODFC or just ODFC containers, will still need to add the setting ‘IncludeTeams’ for the new Teams user data/cache to be preserved.
 
+>[!Note]
+>[Folder Redirection or Roaming User Profiles](/windows-server/storage/folder-redirection/folder-redirection-rup-overview) are not supported with the new Teams client in VDI environments.
+
 ## New Teams and Outlook integration
  
 When the "Register the new Teams as the chat app for Microsoft 365" checkbox is selected under Settings > General > System, this lets the new Teams client integrate with all the Microsoft 365 apps that have instant message capabilities (presence, chat, VOIP, etc.).
@@ -288,13 +291,64 @@ For example, Outlook goes through the discovery process outlined here to integra
 >[!Note]
 >If the new Teams is installed on a virtual machine where the classic Teams is **not** installed, you must make sure you are using new Teams version 23320.3021.2567.4799 or higher in order to guarantee proper integration with Outlook and presence.
 
-Additionally, the new Teams MSIX package bundles the Teams Meeting add-in MSI ("MicrosoftTeamsMeetingAddinInstaller.msi"). 
+### Teams Meeting add-in
 
-Installation logs for this MSI are stored here:
-- AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Logs \tma_addin_msi.txt
+Additionally, the new Teams MSIX package bundles the Teams Meeting add-in (or TMA) MSI ("MicrosoftTeamsMeetingAddinInstaller.msi"). TMA lets you schedule a Teams meeting from Outlook. 
+
+For Security articles related to TMA integration with the Outlook client, learn more at [**Teams meeting add-in security when using your Outlook client**](/microsoftteams/teams-meeting-addin-security-with-outlook) 
+
+All new Teams files that are installed on the computer are signed, so IT admins can use  [AppLocker](/microsoftteams/applocker-in-teams) / Code Integrity  / Windows Defender Application Guard policies configured to enforce that. 
+
+- For New Teams per-user installations of TMA, the install folder is in AppData\Local\Microsoft\TeamsMeetingAddin 
+- Installation logs for TMA MSI are stored here: *AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Logs \tma_addin_msi.txt*
 
 >[!Note]
->In Windows Server or Windows 10/11 Multiuser environments, installation of MicrosoftTeamsMeetingAddinInstaller.msi can fail with the error "Installation success or error status: 1625". Microsoft is working on a solution for this issue.
+>In Windows Server or Windows 10/11 Multiuser environments, installation of MicrosoftTeamsMeetingAddinInstaller.msi can fail with the error *"Installation success or error status: 1625."*. 
+ 
+This error is caused by GPOs affecting Windows Installer. This includes [**DisableUserInstalls**](/windows/win32/msi/disableuserinstalls), [**DisableMSI**](/windows/win32/msi/disablemsi), or AppLocker policies based on Publisher rule conditions, or a RuleCollection for MSI installs. In this case you must create an exception such as:
+ 
+- FilePathCondition Path="%PROGRAMFILES%\WINDOWSAPPS\*\MICROSOFTTEAMSMEETINGADDININSTALLER.MSI"
+ 
+**Workaround:**  You can install the MSI that is located in the new Teams installation directory from an Admin Command prompt using:  
+ 
+```powershell
+
+msiexec.exe /i "C:\Program Files\WindowsApps\MSTeams_X.X.X.X_x64__8wekyb3d8bbwe\MicrosoftTeamsMeetingAddinInstaller.msi" ALLUSERS=1 /qn /norestart TARGETDIR="C:\Program Files (x86)\Microsoft\TeamsMeetingAddin\<version>\" 
+
+```
+
+- TARGETDIR must be kept consistent across installs so that the Teams Meeting Add-in MSI can easily detect and clean up older versions. If multiple directories are used, then the installation may not behave as expected.  
+- **X.X.X.X** needs to be replaced by the New Teams version. Make sure there's a double underscore between the CPU architecture (x64) and the PublisherID (8wekyb3d8bbwe) 
+- **version** must be replaced with the MSI file version, for example, 1.24.2203.0. The exact version number can be extracted by running this command in PowerShell: 
+ 
+```powershell
+
+PS C:\WINDOWS\system32> Get-AppLockerFileInformation -Path "C:\PROGRAM FILES\WINDOWSAPPS\MSTEAMS_24026.1000.2656.1710_X64__8WEKYB3D8BBWE\MICROSOFTTEAMSMEETINGADDININSTALLER.MSI" | Select -ExpandProperty Publisher | select BinaryVersion  
+
+BinaryVersion 
+
+
+1.24.2203.0 
+
+```
+
+**Example:**  The following is an example of the final command:
+
+```powershell
+
+msiexec.exe /i "C:\Program Files\WindowsApps\MSTeams_23320.3021.2567.4799_x64__8wekyb3d8bbwe\MicrosoftTeamsMeetingAddinInstaller.msi" ALLUSERS=1 /qn /norestart TARGETDIR="C:\Program Files (x86)\Microsoft\TeamsMeetingAddin\1.24.2203.0\" 
+```
+
+  
+After installation, restart Outlook and verify TMA is loading. Logs are located on %localappdata%\Temp\Microsoft\Teams\meeting-addin 
+ 
+For Teams Meeting add-in troubleshooting articles, learn more at: [**Resolve issues with Teams Meeting add-in for Outlook**](/microsoftteams/troubleshoot/meetings/resolve-teams-meeting-add-in-issues)
+
+If classic Teams is removed and only new Teams is being installed, the Teams Meeting Add-in MSI could fail to create three registry keys under HKCU that prevent the Meeting Add In from loading properly. 
+
+These keys should be then deployed via additional sign in scripts or similar methods: 
+ 
+:::image type="content" source="media/new-teams-vdi-meeting-addin.png" alt-text="new Teams meeting add in":::
 
  
 ### Troubleshooting new Teams and Outlook integration
@@ -356,19 +410,11 @@ A guest is someone from outside an organization that a team owner invites to joi
 
 Learn more: [Manage accounts and organizations in Microsoft Teams](https://support.microsoft.com/en-us/office/manage-accounts-and-organizations-in-microsoft-teams-7b221128-6643-465c-a317-679e48cd2ce9) 
 
-### Cross Cloud Meetings
-
-Users trying to join meetings between your organization and an organization in a different Microsoft 365 cloud environment (such as commercial/GCC and GCCH or DOD) must use the “Continue on this browser” option when prompted by the Join launcher:
-
-:::image type="content" source="media/new-teams-vdi-mtma.png" alt-text="new teams for vdi using mtma"::: 
-
-
-You can’t use the native Teams app to join meetings. Clicking “Join on the Teams app” will only bring new Teams chat UI to the foreground without switching to the lobby.
-
 
 ## Features currently not available in VDI with the new Teams
 
 - Screen sharing from chat for Azure Virtual Desktops/Windows 365. **Note:** Note: This issue is fixed on new WebRTC Redirector Service 2.0.2311.15001 and RD Client 1.2.5105.
+- Screen sharing from chat for Citrix
 - Give/Take control for Citrix and AVD/Windows 365
 - HID support in headsets
 - The app switcher toggle isn't shown in new Teams if the virtual machine has the machine-wide classic Teams installed (MSI with ALLUSERS=1). **Note:** This issue is fixed on new Teams version 23320.3021.2567.4799 or higher.
