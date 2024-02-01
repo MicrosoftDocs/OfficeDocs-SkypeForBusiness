@@ -154,7 +154,7 @@ To learn more, see [View licenses and services with PowerShell](/office365/enter
 | Microsoft 365 Business | SPB|
 | Audio Conferencing | MCOMEETADV |
 | Audio Conferencing Pay Per Minute (pay as you go) Requires Communications Credits to be set up and enabled.* | MCOMEETACPEA |
-| Teams Phone Standard | MCOEV |
+| Teams Phone Standard and Teams Phone Standard for Frontline Workers | MCOEV |
 | Teams Phone with Calling Plan | MCOTEAMS_ESSENTIALS |
 | International Calling Plan | MCOPSTN2 |
 | Domestic Calling Plan (3000 minutes per user/month for US/PR/CA, 1200 minutes per user/month for EU countries/regions) | MCOPSTN1 |
