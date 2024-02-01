@@ -64,10 +64,13 @@ Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: ico
 Introduced in this update:
 
 - **Windows Autopilot and Auto-login preview** :::image type="icon" source="../media/mtr-pro-icon.png":::. This is now available for Pro Management Portal customers that were nominated for the preview. To sign up, reach out to your Microsoft Account team. This feature provide a seamless end to end setup experience for Microsoft Teams Rooms on Windows.
+
+- App version information is now shown on the setup screens including One Time Passcode screen.
+- Fixed a bug that causes video to freeze temporarily when using Yealink SmartVision 60.
+- Other bug fixes and improvements.
 -	App version information is now shown on the setup screens including One Time Passcode screen.
 -	Fixed a bug that causes video to freeze temporarily when using Yealink SmartVision 60
 -	Other bug fixes and improvements
-
 
 ### 4.19.57.0 (11/16/2023)
 
@@ -385,9 +388,6 @@ Introduced in this update:
 - Quality and reliability fixes
 - Fix for "application won't launch after update to 4.4.41.0" issue
 
-> [!NOTE]
-> If your device doesn't automatically update to version 4.4.63.0, follow the steps in [Microsoft Teams Rooms application does not start after updating to version 4.4.41.0](https://support.microsoft.com/help/4565998/teams-rooms-application-does-not-start-after-update) to resolve the issue.
-
 ### 4.4.41.0 (05/06/2020)
 
 Introduced in this update:
@@ -603,7 +603,7 @@ Introduced in this update:
 
 - Runs on a Surface Pro (2017) tablet
 - Supports Windows 10 Enterprise Creator's Update (English language, build 1703)
-- Support for [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system) dock hardware
+- Support for Crestron SR dock hardware.
 - OEM Support for Environment Controls (Crestron)
 
 The 64-bit version of Windows 10 Enterprise Anniversary edition (English language, version 1607) is no longer supported as of Microsoft Teams Rooms release 3.0.12.0 (update 3).
