@@ -64,9 +64,13 @@ Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: ico
 Introduced in this update:
 
 - **Windows Autopilot and Auto-login preview** :::image type="icon" source="../media/mtr-pro-icon.png":::. This is now available for Pro Management Portal customers that were nominated for the preview. To sign up, reach out to your Microsoft Account team. This feature provide a seamless end to end setup experience for Microsoft Teams Rooms on Windows.
+
 - App version information is now shown on the setup screens including One Time Passcode screen.
 - Fixed a bug that causes video to freeze temporarily when using Yealink SmartVision 60.
 - Other bug fixes and improvements.
+-	App version information is now shown on the setup screens including One Time Passcode screen.
+-	Fixed a bug that causes video to freeze temporarily when using Yealink SmartVision 60
+-	Other bug fixes and improvements
 
 ### 4.19.57.0 (11/16/2023)
 
