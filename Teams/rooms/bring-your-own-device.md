@@ -29,7 +29,7 @@ Bring Your Own Device rooms are identified as rooms with no Microsoft Teams Room
 2. In the left navigation menu, select **Planning** and go to **Inventory**.
 
 > [!NOTE]
-> For the devices to be captured in Pro Management Portal as Bring Your Own Devices, user needs to plug in the device in the room and join a meeting. We will need at least two unique users to report the device.
+> For the devices to be captured in Pro Management Portal as Bring Your Own Devices, user needs to plug in the device in the room and join a meeting. We will need at least five unique users to report the device.
 
 ## Inventory page
 
@@ -111,8 +111,8 @@ To associate a device with a room, the following two methods are available:
 - **Use Import/Export function:** You can use this function to export the inventory list via an Excel file and construct Bring Your Own Device rooms.
 
     1. In the **Devices** page, click **Export** to download the device inventory.
-    2. Open the excel file and verify that it contains all the devices and room information.
-    3. In the excel file, select the **PERIPHERALS** tab and fill out the Account or Display Name column for the devices listed.
+    2. Open the Excel file and verify that it contains all the devices and room information.
+    3. In the Excel file, select the **PERIPHERALS** tab and fill out the Account or Display Name column for the devices listed.
     4. Save the file after associating the device with the specific room information.
     5. Go back to the Inventory Devices page and click **Import** to upload the modified file.
     6. Verify that the device-room association is updated successfully.
