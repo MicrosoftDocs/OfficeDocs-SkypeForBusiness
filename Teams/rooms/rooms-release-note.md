@@ -40,6 +40,7 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|[4.19.82.0](#419820-1312024) | 1/31/2024 |
 |[4.19.57.0](#419570-11162023) | 11/16/2023 |
 |[4.18.44.0](#418440-9202023) | 9/20/2023 |
 |[4.18.35.0](#418350-8212023) | 8/21/2023 |
@@ -57,6 +58,15 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 Teams Rooms app updates happen either via the Microsoft Store or via [manual update](manual-update.md). Updates are applied to the Universal Windows Platform (UWP) application that is installed locally on the device.
 
 Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: icon are available only with Teams Rooms Pro license.
+
+### 4.19.82.0 (1/31/2024)
+
+Introduced in this update:
+
+- **Windows Autopilot and Auto-login preview** :::image type="icon" source="../media/mtr-pro-icon.png":::. This is now available for Pro Management Portal customers that were nominated for the preview. To sign up, reach out to your Microsoft Account team. This feature provide a seamless end to end setup experience for Microsoft Teams Rooms on Windows.
+- App version information is now shown on the setup screens including One Time Passcode screen.
+- Fixed a bug that causes video to freeze temporarily when using Yealink SmartVision 60.
+- Other bug fixes and improvements.
 
 ### 4.19.57.0 (11/16/2023)
 
