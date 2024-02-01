@@ -1,5 +1,5 @@
 ---
-title: Multi-tenant customer management for partners
+title: Multitenant customer management for partners
 author: mstonysmith
 ms.author: tonysmit
 ms.date: 07/25/2022
@@ -22,9 +22,9 @@ description: Mult-tenant customer management for partners.
 f1keywords: 
 ---
 
-# Multi-tenant customer management for partners
+# Multitenant customer management for partners
 
-Multi-tenant management (MTM) in the Teams Rooms Pro Management service helps partner organizations manage multiple customers in one place, with their own domain credentials. Partner users will see only those customer rooms that they are assigned to manage. It is possible to apply custom roles for each customer in the MTM portal, giving partner organizations granular control of permissions to the customer’s resources. 
+Multitenant management (MTM) in the Teams Rooms Pro Management service helps partner organizations manage multiple customers in one place, with their own domain credentials. Partner users will see only those customer rooms that they are assigned to manage. It is possible to apply custom roles for each customer in the MTM portal, giving partner organizations granular control of permissions to the customer’s resources. 
 
 The MTM portal can be accessed through this [link](https://partner.rooms.microsoft.com/).
 
@@ -61,7 +61,7 @@ The partner should provide the domain name to customers. Only the Global admin, 
 > [!Note]
 > Even though these roles can see invitations and high-level Tenant metadata, you will not see the customer’s data until you are assigned a role with that customer.
 
-Details on the customer invitation are outlined in [Multi-tenant management for Customers](multi-tenant-management-customer.md).
+Details on the customer invitation are outlined in [Multitenant management for Customers](Multi-tenant-management-customer.md).
 
 **To accept a pending invite**
 
@@ -164,14 +164,14 @@ With the delegated access feature, a partner does not gain any other privileges 
 
 Once the partner—customer relationship is established—as described in the “Onboarding customers” of this doc – the partner can view room data in the Pro Management portal. This includes any data present in the Pro Management portal but derived from other Microsoft products. For example, call quality reports in the Pro Management portal are derived from Teams call quality data.
 
-Data resides in the customer’s tenant and is not copied to the partner’s tenant. 
+Data resides in the customer’s tenant and isn't copied to the partner’s tenant. 
 
 The MTM portal uses Microsoft Entra authentication to validate the login credentials of the partner. It is important to note that at this time, the customer’s authentication policies will not apply to the partner. For example, if the customer has a multi-factor authentication policy, it does not translate to the partner.
 
-The customer can pull audit logs for the Pro Management portal, which includes partner activity. See [Audit logging in the Teams Rooms Managed service](multi-tenant-auditing.md).
+The customer can pull audit logs for the Pro Management portal, which includes partner activity. See [Audit logging in the Teams Rooms Managed service](Multi-tenant-auditing.md).
 
 > [!Note]
-> Microsoft Entra auditing and O365 auditing does not capture logs from the Pro Management portal.
+> Microsoft Entra auditing and Office 365 auditing does not capture logs from the Pro Management portal.
 
 ## Navigating the MTM portal
 
@@ -182,7 +182,7 @@ The MTM portal has two interactive models to navigate between customer data:
   > [!Note]
   > This view is only supported in the **Incidents** page when **Enable all tickets view** is toggled on.
   >
-  > ![Figure 1](../media/multi-tenant-management-partner-001.png)
+  > ![Figure 1](../media/Multi-tenant-management-partner-001.png)
 
  - Tenant switching where only data from the **Customer** selected in the dropdown list is displayed.
 
