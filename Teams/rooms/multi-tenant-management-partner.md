@@ -24,14 +24,14 @@ f1keywords:
 
 # Multi-tenant customer management for partners
 
-Multi-tenant management (MTM) in the Teams Rooms Pro Management service helps partner organizations manage multiple customers in one place, with their own domain credentials. Partner users will only see customer rooms that they are assigned to manage. It is possible to apply custom roles for each customer in the MTM portal, giving partner organizations granular control of permissions to the customer’s resources. 
+Multi-tenant management (MTM) in the Teams Rooms Pro Management service helps partner organizations manage multiple customers in one place, with their own domain credentials. Partner users will see only those customer rooms that they are assigned to manage. It is possible to apply custom roles for each customer in the MTM portal, giving partner organizations granular control of permissions to the customer’s resources. 
 
 The MTM portal can be accessed through this [link](https://partner.rooms.microsoft.com/).
 
 > [!Note] 
 > Partner organizations cannot manage their own rooms through the MTM portal. Those rooms can be managed in the [Pro Management portal](https://portal.rooms.microsoft.com/). 
 
-## Pre-requisites for managing your customers through the MTM experience
+## Prerequisites for managing your customers through the MTM experience
 
 Partners who meet specific eligibility criteria with a proven track record and the organizational capabilities to deploy, configure, and manage Microsoft Teams Rooms, including Surface Hub. Partners interested in learning more about the requirements for becoming a Microsoft Teams Rooms Partner can submit their request at https://aka.ms/MicrosoftTeamsRoomsPartnerInquiry.
 
@@ -41,8 +41,8 @@ To manage customers through the Pro Management-MTM portal, a relationship must b
 
 ## Tenant managers
 
-This built-in role is only configurable in the Pro Management-MTM portal. This role allows you to assign a group of users that accept invitations, but are not involved with the management of customer rooms. In order to assign Tenant manager permissions in the Pro Management-MTM portal, the assigning account must be set to be a Managed Service Administrator in the Pro Management Customer portal.  Before attempting to set Tenant manager permissions, please ensure your account is appropriately configured in your Customer portal.  This is not configurable from the Pro Management-MTM portal.
-It is recommended to configure this role so designated Tenant managers can accept customer invitations and sub-delegate permissions to others in your organization. Otherwise, only users with the Managed Service Administrator role in your tenant will be able to accept invitations.
+This built-in role is only configurable in the Pro Management-MTM portal. This role allows you to assign a group of users that accept invitations, but are not involved with the management of customer rooms. In order to assign Tenant manager permissions in the Pro Management-MTM portal, the assigning account must be set to be a Managed Service Administrator in the Pro Management Customer portal.  Before attempting to set Tenant manager permissions ensure your account is configured correctly in your Customer portal.  You won't be able to configure it from the Pro Management-MTM portal.
+It is recommended to configure this role so designated Tenant managers can accept customer invitations and sub-delegate permissions to others in your organization. If this doesn't happen, only those users with the Managed Service Administrator role in your tenant will be able to accept invitations.
 
 **To configure tenant managers**
 
@@ -67,9 +67,9 @@ Details on the customer invitation are outlined in [Multi-tenant management for 
 
 1. Log in to the Pro Management-MTM portal as either a Global admin, Managed Service admin, or Tenant manager.
 1. Go to **Tenants**.
-1. Select the invitation showing with a status of “Pending”.
+1. Select the invitation that shows a “Pending” status.
 1. Review the invitation details.
-1. Assign users that will be the primary admins of this customer.
+1. Assign users that will be the admins for this customer.
 1. Select **Accept** to establish the partner-customer relationship.
 
    Selecting **Deny** deletes the invitation.
