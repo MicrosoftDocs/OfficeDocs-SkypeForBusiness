@@ -131,6 +131,7 @@ If you're in China, you can install Teams from the following app stores:
 
 - **Xiaomi** <https://aka.ms/TeamsXiaomi>
 - **Huawei** <https://aka.ms/TeamsHuawei>
+- **Vivo** <https://aka.ms/Teamsvivo>
 - **Oppo** Search for "Teams" in the Oppo store
 - **Baidu** <https://aka.ms/TeamsBaidu>
 
