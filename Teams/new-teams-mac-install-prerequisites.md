@@ -1,5 +1,5 @@
 ---
-title:  Install and prerequisites for the Microsoft new Teams for the Mac
+title: Install and prerequisites for the Microsoft new Teams for the Mac
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
@@ -23,7 +23,7 @@ ms.localizationpriority: high
 # New Teams for Mac - Overview and prerequisites
 
 >[!Note]
-> The features described in this article are available to [**Teams Public preview**](/microsoftteams/public-preview-doc-updates) and [**Microsoft 365 Targeted release**](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide#targeted-release&preserve-view=true) customers only. Features and content are subject to change. Check back for updates.
+> The features described in this article are available to [**Teams Public preview**](/microsoftteams/public-preview-doc-updates) and [**Microsoft 365 Targeted release**](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide#targeted-release) customers only. Features and content are subject to change. Check back for updates.
 
 The new Teams for Mac has been reimagined from the ground up with performance in mind, providing a faster, simpler, and more flexible experience. The new Teams client installs and loads faster, letting you launch the app and join meetings more quickly, giving you more time to focus on the business tasks.
 
@@ -32,7 +32,8 @@ The new Teams ensures more efficient use of device resources. Whether you have u
 ## How to try new Teams: App Switcher
 
 - Launch the Teams app and turn on **Try the new Teams** toggle on the upper-left corner of the desktop app to switch to new Teams.
-- Opt-in by selecting the **Try the new Teams** toggle and select “Get it now”.  To switch back, just flip the toggle.
+- Opt-in by selecting the **Try the new Teams** toggle and select **Get it now**.
+- To switch back, just flip the toggle.
 
 >[!Note]
 >This experience is currently optimized for non-EDU users. If you are an EDU user, you will see the App switcher and are welcome to try it out, but we do not recommend you use it for primary scenarios yet.
@@ -53,17 +54,18 @@ The new Teams ensures more efficient use of device resources. Whether you have u
 
 ### Turn ON System Notification
 
-After installing the new client, if users don't choose to Allow Notifications with the initial macOS Alert about notifications settings, then users must turn on the "Allow Notifications” from system settings  
+After installing the new client, if users don't choose to Allow Notifications with the initial macOS Alert about notifications settings, then users must turn on the **Allow Notifications** from system settings.
 
 1. Open macOS System Preferences.
-2. Go to Notifications & Focus > Under App Notifications, select Microsoft Teams.
-3. Switch the “Allow notifications” toggle to turn on notifications
+2. Go to **Notifications & Focus** and under **App Notifications**, select Microsoft Teams.
+3. Switch the **Allow notifications** toggle to turn on notifications.
 
 :::image type="content" source="media/new-teams-mac-notifications.png" alt-text="new teams for mac notifications":::
 
 ### Turn on Screen Sharing
 
 Users can enable screen sharing for sharing content on call and in meetings using the regular in-app flow when they first try to screen share, but this requires they restart new Teams. The user needs to drop from the meeting. Alternatively, users can turn on permissions for screen recording under system settings.
+
 For Monterey OS:
 
 1. Open macOS System Preferences.
@@ -83,14 +85,14 @@ For Monterey OS:
 
 ### App Switcher Toggle
 
-- Relaunch your current client before turning the “Try the new Teams” toggle ON to ensure that you have latest changes.
+- Relaunch your current client before turning the **Try the new Teams** toggle ON to ensure that you have latest changes.
 
 - If you’re not seeing the toggle for new Teams, make sure you have the minimum required versions for Mac and Teams:
 
-  - macOS Big Sur (11) or above (including macOS Monterey (12) and macOS Ventura (13) and
+  - macOS Big Sur (11) or above, including macOS Monterey (12) and macOS Ventura (13) and
   - Microsoft Teams (work or school) version 1.6.00.12303 or higher.
 
-- After you successfully switched to new Teams, if you can't find the toggle on the top left to switch between new Teams and Microsoft Teams (work or school), you can start the version you want by searching in Launchpad for Teams.
+- After you've successfully switched to new Teams, if you can't find the toggle on the top left to switch between new Teams and Microsoft Teams (work or school), you can start the version you want by searching in Launchpad for Teams.
 
 :::image type="content" source="media/new-teams-mac-switch-using-launchpad.png" alt-text="switchusing launchpad":::
 
@@ -98,7 +100,7 @@ For Monterey OS:
 
 You can uninstall the new Teams client just like any other Mac app.
 
-### How to clear cache
+### How to clear the cache
 
 1. Command + Space and enter Terminal.
 2. rm -rf ~/Library/Group Containers/UBF8T346G9.com.microsoft.teams

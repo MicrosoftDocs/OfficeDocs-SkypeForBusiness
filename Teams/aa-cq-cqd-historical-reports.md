@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
-ms.date: 01/25/2024
+ms.date: 01/30/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -34,7 +34,7 @@ description: Learn about how to use the updated Teams Auto Attendant & Call Queu
 
 This Power BI template provides three reports that allow organizations to report on the number of calls processed by Auto attendants and Call queues. It also provides agent performance insights.
 
-## V3.1.4 published on January 24, 2024
+## V3.1.5 published on January 29, 2024
 
 The Teams Auto Attendant & Call Queue Historical Report Power BI template provides the following three reports:
 
@@ -92,11 +92,11 @@ The following steps assume the Power BI Desktop client is installed on your comp
 
 Perform the following steps:
 
-1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.1.4.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
+1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.1.5.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
 
 2. Open the zip file.
 
-3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.1.4.pbit` template file. Power BI Desktop should launch.
+3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.1.5.pbit` template file. Power BI Desktop should launch.
 
 4. You're prompted to select the **DataSource**, **Report Level**, and **UTC Offset**.  
 
@@ -136,7 +136,7 @@ You have to refresh the report to see any new data.
 
 #### Interpret the report
 
-:::image type="content" source="media/aa-cq-historical-report-sample-aa-v310-new-explain.png" alt-text="Screenshot showing sample cloud auto attendant analytics report, version 3.1.4" lightbox="media/aa-cq-historical-report-sample-aa-v310-new-explain.png":::
+:::image type="content" source="media/aa-cq-historical-report-sample-aa-v310-new-explain.png" alt-text="Screenshot showing sample cloud auto attendant analytics report" lightbox="media/aa-cq-historical-report-sample-aa-v310-new-explain.png":::
 
 | Callout | Title | Description |
 |:-|:-|:-|
@@ -161,7 +161,7 @@ You have to refresh the report to see any new data.
 
 #### Interpret the report
 
-:::image type="content" source="media/aa-cq-historical-report-sample-cq-v310-new-explain.png" alt-text="Screenshot showing sample cloud call queue analytics report, version 3.1.4" lightbox="media/aa-cq-historical-report-sample-cq-v310-new-explain.png":::
+:::image type="content" source="media/aa-cq-historical-report-sample-cq-v310-new-explain.png" alt-text="Screenshot showing sample cloud call queue analytics report" lightbox="media/aa-cq-historical-report-sample-cq-v310-new-explain.png":::
 
 |Callout  |Title                                  |Description               |
 |:--------|:--------------------------------------|:-------------------------|
@@ -187,7 +187,7 @@ You have to refresh the report to see any new data.
 
 #### Interpret the report
 
-:::image type="content" source="media/aa-cq-historical-report-sample-at-v310-new-explain.png" alt-text="Screenshot showing sample cloud call queue agent timeline report, version 3.1.4" lightbox="media/aa-cq-historical-report-sample-cq-v310-new-explain.png":::
+:::image type="content" source="media/aa-cq-historical-report-sample-at-v310-new-explain.png" alt-text="Screenshot showing sample cloud call queue agent timeline report" lightbox="media/aa-cq-historical-report-sample-at-v310-new-explain.png":::
 
 |Callout  |Title                                  |Description               |
 |:--------|:--------------------------------------|:-------------------------|
@@ -709,6 +709,7 @@ Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx
 
 |Version  |Date Published     |Supported |Filename                                                    |Description                                                             |
 |:--------|:------------------|:---------|:-----------------------------------------------------------|:-----------------------------------------------------------------------|
+|3.1.5    |January 29, 2024   |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.5 |Corrected an error with the Per Day query logic for fAgentTimelineAnalytics and fAgentTimelineAnalyticsSummary  |
 |3.1.4    |January 24, 2024   |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.4 |Per day reporting for large volume customers, accessibility improvements for screen readers   |
 |3.1.3    |September 13, 2023 |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.3 |Accessibility improvements for screen readers   |
 |3.1.2    |July 21, 2023      |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.2 |Support any time zone offset, added detail call pop-up on Auto Attendant & Call Queue, No Agents support    |
