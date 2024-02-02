@@ -131,7 +131,7 @@ Each Microsoft Teams Rooms device requires a dedicated and unique resource accou
 
 Teams Rooms comes pre-installed by the original equipment manufacturer (OEM).
 
-We provide guidance on how to use [Microsoft Teams Rooms Pro Management](/managed-meeting-rooms-portal) to monitor the Microsoft Teams Rooms deployment and report on availability, hardware/software errors, and Microsoft Teams Rooms application version. 
+We provide guidance on how to use [Microsoft Teams Rooms Pro Management](managed-meeting-rooms-portal.md) to monitor the Microsoft Teams Rooms deployment and report on availability, hardware/software errors, and Microsoft Teams Rooms application version. 
 
 An additional consideration is whether the Microsoft Teams Rooms will be domain-joined. Information about the benefits of domain joining can be found in [Configuring Group Policy for Microsoft Teams Rooms](rooms-operations.md#configuring-group-policy-for-microsoft-teams-rooms). 
 
