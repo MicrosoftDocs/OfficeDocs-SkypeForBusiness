@@ -70,13 +70,13 @@ You can efficiently configure a single retention policy for all Teams messages. 
 
 - Apply the policies only to specific users or teams in your organization. For Teams chats and private channels, you can select which users the policy applies to. For Teams channel messages, you can select which teams the policy applies to.
 
-For example, for standard channel messages: Create a retention policy for specific teams in your organization and configure that policy with a delete action after 1 year. Then create another retention policy for standard channel messages for all other teams and configure that policy with a delete action after 3 years.
+For example, for standard channel messages: Create a retention policy for specific teams in your organization and configure that policy with a delete action after one year. Then create another retention policy for standard channel messages for all other teams and configure that policy with a delete action after three years.
 
 ## Create and manage retention policies for Teams
 
 To create or edit a retention policy for Teams messages, use the instructions from [Create and configure a retention policy](/purview/create-retention-policies?tabs=teams-retention#create-and-configure-a-retention-policy) and the **Retention policy for Teams** tab.
 
-That page has additional information about creating and managing retention policies for other workloads in Microsoft 365. For example, you might want to also create a retention policy for Microsoft 365 Groups to retain and delete files that are accessed in Teams and stored in OneDrive or SharePoint.  
+That page has additional information about creating and managing retention policies for other workloads in Microsoft 365. For example, you might want to also create a retention policy for Microsoft 365 groups to retain and delete files that are accessed in Teams and stored in OneDrive or SharePoint.  
 
 ## End-user experience
 
