@@ -68,9 +68,6 @@ Introduced in this update:
 - App version information is now shown on the setup screens including One Time Passcode screen.
 - Fixed a bug that causes video to freeze temporarily when using Yealink SmartVision 60.
 - Other bug fixes and improvements.
--	App version information is now shown on the setup screens including One Time Passcode screen.
--	Fixed a bug that causes video to freeze temporarily when using Yealink SmartVision 60
--	Other bug fixes and improvements
 
 ### 4.19.57.0 (11/16/2023)
 
