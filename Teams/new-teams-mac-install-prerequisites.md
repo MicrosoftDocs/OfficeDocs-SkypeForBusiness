@@ -1,5 +1,5 @@
 ---
-title:  Install and prerequisites for the Microsoft new Teams for the Mac
+title: Install and prerequisites for the Microsoft new Teams for the Mac
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
@@ -32,7 +32,8 @@ The new Teams ensures more efficient use of device resources. Whether you have u
 ## How to try new Teams: App Switcher
 
 - Launch the Teams app and turn on **Try the new Teams** toggle on the upper-left corner of the desktop app to switch to new Teams.
-- Opt-in by selecting the **Try the new Teams** toggle and select “Get it now”.  To switch back, just flip the toggle.
+- Opt-in by selecting the **Try the new Teams** toggle and select **Get it now**.
+- To switch back, just flip the toggle.
 
 >[!Note]
 >This experience is currently optimized for non-EDU users. If you are an EDU user, you will see the App switcher and are welcome to try it out, but we do not recommend you use it for primary scenarios yet.
@@ -42,20 +43,20 @@ The new Teams ensures more efficient use of device resources. Whether you have u
 ### Minimum Mac and Teams versions
 
 - You must be running on macOS Monterey (12) or higher.
-- To see the “Try the new Teams” toggle, your current Teams app must be running version 1.6.00.12303 or higher. If you are at a lower version, select on the overflow menu (…) and select **>**Check for updates >Update**, and restart your app. If you still don't see the App Switcher, please Report a Problem.  
-- To install the new Teams client, the user needs admin privileges for their computer. If the user doesn't have admin privileges, admins can user their MDM (or whatever other way they deploy and install software on devices without admin privileges) and use this [**PKG**](https://statics.teams.cdn.office.net/production-osx/enterprise/webview2/lkg/MicrosoftTeams.pkg).  
+- To see the “Try the new Teams” toggle, your current Teams app must be running version 1.6.00.12303 or higher. If you are at a lower version, select the three dots on the overflow menu (…), select **Check for updates**, **Update**, and restart your app. If you still don't see the App Switcher, **Report a Problem**.
+- To install the new Teams client, the user needs admin privileges for their computer. If the user doesn't have admin privileges, admins can user their MDM (or whatever other way they deploy and install software on devices without admin privileges) and use this [**PKG**](https://statics.teams.cdn.office.net/production-osx/enterprise/webview2/lkg/MicrosoftTeams.pkg).
 
 >[!Note]
-> Only **Microsoft Autoupdate** can be used to update new Teams. 
+> Only **Microsoft Autoupdate** can be used to update new Teams.
 >Learn more: [**Update Office for Mac automatically**](https://support.microsoft.com/office/update-office-for-mac-automatically-bfd1e497-c24d-4754-92ab-910a4074d7c1)
 
 ### Turn ON System Notification
 
-After installing the new client, if users don't choose to Allow Notifications with the initial macOS Alert about notifications settings, then users must turn on the "Allow Notifications” from system settings  
+After installing the new client, if users don't choose to Allow Notifications with the initial macOS Alert about notifications settings, then users must turn on the **Allow Notifications** from system settings.
 
 1. Open macOS System Preferences.
-2. Go to Notifications & Focus > Under App Notifications, select Microsoft Teams.
-3. Switch the “Allow notifications” toggle to turn on notifications.
+2. Go to **Notifications & Focus** and under **App Notifications**, select Microsoft Teams.
+3. Switch the **Allow notifications** toggle to turn on notifications.
 
 :::image type="content" source="media/new-teams-mac-notifications.png" alt-text="new teams for mac notifications":::
 
@@ -82,14 +83,14 @@ For Monterey OS:
 
 ### App Switcher Toggle
 
-- Relaunch your current client before turning the “Try the new Teams” toggle ON to ensure that you have latest changes.
+- Relaunch your current client before turning the **Try the new Teams** toggle ON to ensure that you have latest changes.
 
 - If you’re not seeing the toggle for new Teams, make sure you have the minimum required versions for Mac and Teams:
 
-  - macOS Big Sur (11) or above (including macOS Monterey (12) and macOS Ventura (13) and
+  - macOS Big Sur (11) or above, including macOS Monterey (12) and macOS Ventura (13) and
   - Microsoft Teams (work or school) version 1.6.00.12303 or higher.
 
-- After you successfully switched to new Teams, if you can't find the toggle on the top left to switch between new Teams and Microsoft Teams (work or school), you can start the version you want by searching in Launchpad for Teams.
+- After you've successfully switched to new Teams, if you can't find the toggle on the top left to switch between new Teams and Microsoft Teams (work or school), you can start the version you want by searching in Launchpad for Teams.
 
 :::image type="content" source="media/new-teams-mac-switch-using-launchpad.png" alt-text="switchusing launchpad":::
 
