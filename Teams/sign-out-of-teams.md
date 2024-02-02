@@ -41,7 +41,7 @@ SSO has an important impact on sign out: when you sign out of the Teams desktop 
 ### “This app only” mode on Windows
 On Windows, users may see an option to sign in to “this app only”. When this option is selected, and you later sign out of Teams, your account is removed from the PC. However, your user name may continue to be shown on sign-in pages. 
 
-![Screenshot: User interface of sign in to all apps with a link to only sign into this app only.](/image/sign-in-to-all-apps.png)
+![Screenshot: User interface of sign in to all apps with a link to only sign into this app only.](/images/sign-in-to-all-apps.png)
 
 **Note:** when you select “this app only” when signing in to Teams, other apps on your PCs won’t be able to use this account. Practically, this means that links to files or websites you click in Teams may not properly open in Microsoft 365 or in Edge, or you may be prompted to sign in again. In other words, “this app only” prevents SSO from working correctly between Windows, Teams and other applications on your PC, and as such it’s not recommended when signing in to Teams. 
 
