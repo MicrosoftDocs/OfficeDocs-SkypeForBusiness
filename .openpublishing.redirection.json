@@ -4716,8 +4716,18 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "Teams/service-health.md",
+    "redirect_url": "/microsoft-365/enterprise/view-service-health",
+    "redirect_document_id": false
+  },
+  {
     "source_path": "Teams/unsupported-browsers.md",
     "redirect_url": "https://support.microsoft.com/office/daafdd3c-ac7a-4855-871b-9113bad15907",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/teams-add-on-licensing/advanced-communications.md",
+    "redirect_url": "/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing",
     "redirect_document_id": false
   }
  ] 

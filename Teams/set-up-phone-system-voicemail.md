@@ -71,15 +71,25 @@ The default setting for all users provisioned for Cloud Voicemail is to allow ro
 
 You can control whether routing of calls to Cloud Voicemail is allowed for Teams users by using the Teams admin center or by using PowerShell.
 
-- To use the Teams admin center, go to **Voice** > **Calling Policies** > add new or edit existing policy > **Voicemail for inbound calls**.  
+### Use the Teams admin center
 
-- In PowerShell, use the Set-CsTeamsCallingPolicy cmdlet with the AllowVoicemail parameter. For more information, see [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
+To use the Teams admin center, go to **Voice** > **Calling Policies** > add new or edit existing policy > **Voicemail for inbound calls**.  
 
-  - If you set AllowVoicemail to AlwaysDisabled, calls are never routed to voicemail--regardless of the call forward or unanswered settings for a user. Voicemail isn't available as a call forwarding or unanswered setting in Teams.
+This setting enables inbound calls to be sent to voicemail. The default setting is **Let users decide**. Valid options are:
 
-  - If you set AllowVoicemail to AlwaysEnabled, calls are always forwarded to voicemail on unanswered after ringing for thirty seconds--regardless of the unanswered call forward setting for a user.
+- **On** Voicemail is always available for inbound calls.
+- **Off**  Voicemail isn't available for inbound calls.
+- **Let users decide** Users can determine whether they want voicemail to be available.
 
-  - If you set AllowVoicemail to UserOverride, calls are forwarded to voicemail based on the call forwarding and/or unanswered settings for a user.
+### Use PowerShell
+
+In PowerShell, use the Set-CsTeamsCallingPolicy cmdlet with the AllowVoicemail parameter. For more information, see [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
+
+- If you set AllowVoicemail to AlwaysDisabled, calls are never routed to voicemail--regardless of the call forward or unanswered settings for a user. Voicemail isn't available as a call forwarding or unanswered setting in Teams.
+
+- If you set AllowVoicemail to AlwaysEnabled, calls are always forwarded to voicemail on unanswered after ringing for thirty seconds--regardless of the unanswered call forward setting for a user.
+
+- If you set AllowVoicemail to UserOverride, calls are forwarded to voicemail based on the call forwarding and/or unanswered settings for a user.
 
 ## Set up Cloud Voicemail to work with on-premises users
 
