@@ -28,7 +28,7 @@ ms.custom: seo-marvel-apr2020
 
 > [!NOTE]
 > If you are seeing a message in Teams that your chats or messages have been deleted by a retention policy, see [Teams messages about retention policies](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b).
-> 
+>
 > The information on this page is for IT administrators who manage these retention policies.
 
 Retention policies and retention labels from Microsoft 365 help you to more effectively manage the information in your organization. You can configure retention settings to keep data that's needed to comply with your organization's internal policies, industry regulations, or legal requirements. You can also configure retention settings to delete data that's considered a liability, that you're no longer required to keep, or that has no legal or business value.
@@ -53,7 +53,7 @@ For detailed information about how these policies work depending on your policy 
 If you set up multiple Teams retention policies with different retention settings, the principles of retention resolve any conflicts. For example:
 
 - If there is a conflict between retaining or deleting the same content, the content is always retained in the secured location so that it remains searchable with eDiscovery for compliance administrators.
-    
+
     This principle also applies to messages that are under eDiscovery holds for legal or investigative reasons.
 
 - If there is a conflict in how long to retain the same content, it is retained in the secured location for the longest retention period.
@@ -84,7 +84,6 @@ For private chats (1:1 chats) or group chats, users will see that chats older th
 
 :::image type="content" source="media/retention-policies-image1.png" alt-text="User informed in Teams that chat message are deleted because of a Teams retention policy.":::
 
-
 :::image type="content" source="media/retention-policies-image2.png" alt-text="User in Teams explaining messages are deleted as a result of a Teams retention policy.":::
 
 For Channel messages, users (channel members) will see the deleted messages disappear from view after messages expire. If the deleted message was a parent message of a threaded conversation, then, in place of parent message, a message stating "This message has been deleted because of a Retention Policy" will be displayed. For example:
@@ -96,11 +95,11 @@ For Channel messages, users (channel members) will see the deleted messages disa
 > [!NOTE]
 > The displayed messages that users see as a result of deleted messages are not configurable at this time.
 
-The links in these displayed messages go to [Teams messages about retention policies](https://support.microsoft.com/en-us/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b). This documentation for end users helps to answer basic questions about why their messages have been deleted. However, as part of your retention policy deployment, make sure that you communicate to users and your help desk the impact of your configured settings.
+The links in these displayed messages go to [Teams messages about retention policies](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b). This documentation for end users helps to answer basic questions about why their messages have been deleted. However, as part of your retention policy deployment, make sure that you communicate to users and your help desk the impact of your configured settings.
 
 ## Related topics
 
-- [Get started with retention policies and retention labels](/purview/get-started-with-retention)
+- [Get started with data lifecycle management](/purview/get-started-with-data-lifecycle-management)
 - [Learn about retention for Microsoft Teams](/purview/retention-policies-teams)
 - [Create and configure retention policies](/purview/create-retention-policies)
 - Troubleshooting: [Messages in the Teams and Viva Engage apps are unexpectedly deleted by retention policies](/microsoftteams/troubleshoot/teams-im-presence/messages-unexpectedly-deleted-retention-policy)
