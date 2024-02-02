@@ -79,7 +79,7 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 ## Certified devices
 
-*Table Updated January 2024*
+*Table Updated February 2024*
 
 > [!NOTE]
 > The date format is MM/DD/YYYY.
@@ -88,6 +88,8 @@ If you're a manufacturer and want to join the certification program, see [How to
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
 |Jabra                |Evolve 65 SE/ 2 55/ 2 65/ 2 65 Flex/ 2 75/ 2 85/ 2 BUDS headsets with Link 390 dongle | 1/29/2024 |Certified for Microsoft Teams  |
 |HP                   |960 4K Streaming Webcam                                    |11/20/2023      |Certified for Microsoft Teams                           |
+|Dell                 |WL5024 Headset                                             |11/17/2023      |Certified for Microsoft Teams                           |
+|Dell                 |WH5024 Headset                                             |11/17/2023      |Certified for Microsoft Teams                           |
 |Anker                |PowerConf S3 Speakerphone                                  |11/17/2023      |Certified for Microsoft Teams                           |
 |Dell                 |WH3024 Headset                                             |11/10/2023      |Certified for Microsoft Teams                           |
 |HP                   |FHD 620/625 Webcam                                         |11/10/2023      |Certified for Microsoft Teams       |
