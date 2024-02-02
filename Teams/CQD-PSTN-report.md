@@ -22,6 +22,9 @@ description: "Use the Microsoft Teams Call Quality Dashboard (CQD)) PSTN Direct 
 
 # Using the CQD PSTN Direct Routing report
 
+    > [!WARNING]
+    > The CQD PSTN Direct Routing Report template is deprecated and no longer maintained. Please refer to the Quality of Experience Report (QER) templates going forward.
+
 The Microsoft Teams Call Quality Dashboard (CQD) PSTN Direct Routing report is available in our downloadable [Power BI query templates for CQD](https://www.microsoft.com/download/details.aspx?id=102291). 
 
 
