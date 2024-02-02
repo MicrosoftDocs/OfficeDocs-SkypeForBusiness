@@ -23,7 +23,6 @@ ms.localizationpriority: high
 
 # Features that are changing in the new Microsoft Teams
 
-
 As we improved the client, the experience also improved to align with similar features. Here are some of the changes you see.
 
 |Classic Teams|New Teams|
