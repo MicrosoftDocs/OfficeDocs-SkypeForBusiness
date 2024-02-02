@@ -34,9 +34,11 @@ The Microsoft Teams desktop client usage report gives you an overview of the Tea
 
 The graph in the Teams desktop client usage report shows the usage of classic Teams and new Teams as a percentage within your tenant. These numbers are directly related, so if one number increases the other decreases. Take note of the important characteristics of this data:
 
-- This data only represents Windows or Mac Teams desktop clients. It doesn't show any data about other client types, such as web, mobile, or any hardware devices.
+- This data represents Windows or Mac Teams desktop clients and not web or mobile clients, but some Room Devices may also show up. These can be filtered out if needed by using the Export functionality of the report. We're investigating ways to filter these out in a future version.
+- This data may also contain Guest users if you allow, and use, Guest Access within your tenant. You will see #EXT# on these users, which you can use to filter them out using the **Export** functionality of the report. We're investigating ways to filter these out in a future version.
 - This data is dependent on a user’s Teams desktop client being actively used. When a user isn't active on their desktop client or their data can't be reported in for any reason, their data won't be reported for that period. In basic, there will be no data reported if no data was available. This missing information can result in fluctuations in the data, for example during weekends or when users go on vacation.
 - A user’s data comes from their most recent usage when the snapshot is taken. If a user has multiple machines they use regularly, whichever machine they used last will be represented for that day. For most people who have multiple machines, they usually have a primary device that gets the most use.
+- In some scenarios, the classic Teams client reported may not show a version number. This only affects classic Teams and any new Teams clients listed will always show their version number. When the transition to new Teams is complete, this issue will be resolved.
 
 The data in the table columns below the graph allow a more granular look at individual users and the state of their Teams desktop client. This data can be exported using the Export to Excel function in the top right corner, and columns can be shown or hidden using the Edit columns function also in the top right corner.
 
