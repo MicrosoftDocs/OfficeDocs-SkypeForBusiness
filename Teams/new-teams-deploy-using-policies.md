@@ -28,7 +28,7 @@ You can upgrade to the new Teams client to your organization by setting policies
 
 |Requirement|Version|
 |:----------|:------|
-|Windows| Windows 10 version 10.0.19041 or higher (excluding Windows 10 LTSC for Teams desktop app)|
+|Windows| Windows 10 version 10.0.19041 or higher (excluding Windows 10 LTSC for Teams desktop app). Users of Windows N SKU need to enable [Media Feature Pack for Windows 10/11 N](https://support.microsoft.com/en-us/windows/media-feature-pack-for-windows-10-11-n-september-2022-78cfeea5-c7d9-4aa8-b38f-ee4df1392009#:~:text=Here%E2%80%99s%20how%20to%20install%20the%20Media%20Feature%20Pack%3A,select%20Settings%20%3E%20Apps%20%3E%20Optional%20features.%20)|
 |Webview2|Update to the most current version. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise)|
 |Teams app|Version 1.6.00.4472 to see the *Try the new Teams* toggle.</br></br>If you are at a lower version, select the overflow menu **(…) > Check for updates > Update**. Then restart your app.|
 |Office |Microsoft 365 Apps or Office LTSC 2021 Learn more: [Office versions and connectivity to Microsoft 365 services](/deployoffice/endofsupport/microsoft-365-services-connectivity)|
