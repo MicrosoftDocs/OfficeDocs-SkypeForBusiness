@@ -153,7 +153,7 @@ During installation, firewall ports for the Listener and the Website are automat
 
 ### Hardware requirements
 
-In an on-premises deployment, in which a single server hosts all of the server-side Statistics Manager components, a server with 16 GB of RAM and 4 CPU's should be able to support about 150 samples per second on average. To determine how many counters/agents you can support, use the following calculation:
+In an on-premises deployment, in which a single server hosts all of the server-side Statistics Manager components, a server with 16 GB of RAM and 4 CPUs should be able to support about 150 samples per second on average. To determine how many counters/agents you can support, use the following calculation:
 
 100 servers \*80 counters \* 1 sample per minute from each agent / 60 seconds = ~ 133 samples per second.
 
