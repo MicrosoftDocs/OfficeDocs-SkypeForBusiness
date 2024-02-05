@@ -45,7 +45,7 @@ Communications Credits are a convenient way to pay for Microsoft Teams Calling P
 
 We recommend using auto-recharge so you don't have to remember to add funds manually. When your balance hits the trigger amount, funds are added automatically. If you don't choose auto-recharge, you run the risk of your balance falling below zero. At that point, you and your users won't be able to make toll-free calls or international calls.
 
-You can update your payment options at any time. On the **Subscriptions** page, select **Communications Credits** and make your updates.
+You can update your payment options at any time. On the **Subscriptions** page in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), select **Communications Credits** and make your updates.
 
 Funds will be applied only to Communications Credits at Microsoft's published rates when the services are used. Any funds not used within 12 months of the purchase date will expire and be forfeited.
 
@@ -65,20 +65,22 @@ Because Communication Credits are pre-paid to support outgoing minutes, they're 
 
 Instead, NCE customers will pay for overage outgoing minutes after they've used them. There's no need for a pool of Communication Credits.
 
-- Most customers who haven't yet moved to the NCE have the **Automatic Top Up** (ATU) flag enabled within their account. This automatically refills your Communications Credit balance to the threshold you’ve selected. When switching to NCE, you need to disable this ATU option. Otherwise, the Communications Credit balance will indefinitely refill itself, and the commerce system won't switch to the post-usage mechanism under NCE. If you're moving to NCE, turn off auto-recharge by completing the following steps:
+### Turn off automatic recharge for Communication Credits
+
+Most customers who haven't yet moved to the NCE have the **Automatic Top Up** (ATU) flag enabled within their account. This automatically refills your Communications Credit balance to the threshold you’ve selected. When switching to NCE, you need to disable this ATU option. Otherwise, the Communications Credit balance will indefinitely refill itself, and the commerce system won't switch to the post-usage mechanism under NCE. If you're moving to NCE, turn off auto-recharge by completing the following steps:
 
 1. Sign into the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
-1. In the left side menu, navigate to and select **Your products**.
+1. In the left-side menu, navigate to and select **Your products**.
 1. Select **Communication Credits** in your listed products.
 1. On the **Communication Credits** page, find the section titled **Billing settings** and select **Edit auto recharge settings**.
 1. On the **Auto-recharge settings** page, uncheck the box next to **Auto recharge**.
 1. Select the **Save** button.
 
-- When this is done, you can easily transition to NCE before your Communications Credit balance is empty. Even as an NCE customer, the commerce system will drain your Communications Credit balance prior to changing to post-usage billing. There's no action needed by you to ensure this happens other than to have turned off **Auto-recharge** for Communications Credits in the Microsoft 365 admin center.
+When this is done, you can easily transition to NCE before your Communications Credit balance is empty. Even as an NCE customer, the commerce system will drain your Communications Credit balance prior to changing to post-usage billing. There's no action needed by you to ensure this happens other than to have turned off **Auto-recharge** for Communications Credits in the Microsoft 365 admin center.
 
 For more information about the new commerce experience for calling subscriptions, see [Enable pay-as-you-go for your subscription](/microsoft-365/commerce/subscriptions/manage-pay-as-you-go-services) and [New commerce overage for telco pay-as-you-go](/partner-center/new-commerce-telco-payg).
 
-## Want to know about plans and pricing
+## Learn about calling plans and pricing
 
 You can see the plans and pricing by visiting one of the following links:
 
@@ -88,7 +90,7 @@ You can see the plans and pricing by visiting one of the following links:
 
 - [Phone System plans](https://go.microsoft.com/fwlink/?LinkId=799763)
 
-You can also see information by signing in to the Microsoft 365 admin center and going to **Billing** > **Subscriptions** > **Add subscriptions**.
+You can also see information by signing in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) and going to **Billing** > **Subscriptions** > **Add subscriptions**.
 
 To see a table with the license or licenses you'll need for each feature, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
