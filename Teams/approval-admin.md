@@ -102,7 +102,7 @@ Approval Template Permissions
 
 - When an admin creates a template for their entire organization for the first time, it will automatically create a new Microsoft Entra group for all admins of the tenant, including the global and Teams service admins. These admins are added as owners of the group, so they can co-manage organizational templates. Admins that are new to the organization after the team has been created need to be manually added as group owners so they have the same permissions to manage organization-wide templates.
 
-> [!Note]
+> [!NOTE]
 > If an admin deletes the group, you have one month to restore it within the Microsoft Entra admin center to restore all related data. After one month, or if the admin deletes this group within the recycle bin, you will lose all related data.
 
 ## Disable the Approvals app
@@ -143,8 +143,7 @@ To pin the Approvals app for your users, you can edit the global (Org-wide defau
 
 Approvals created from the Approvals app are stored in the default Microsoft Dataverse environment, which doesn't support backups at this time. Learn more about how to [Back up and restore environments - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
 
-Admins can set custom retention policies for data stored within Dataverse tables. To learn more, see 
-[Dataverse long term data retention overview (preview)](/power-apps/maker/data-platform/data-retention-overview).
+Admins can set custom retention policies for data stored within Dataverse tables. To learn more, see [Dataverse long term data retention overview (preview)](/power-apps/maker/data-platform/data-retention-overview).
 
 Data stored in Forms won't be deleted until the team owners clean it up from the **deleted forms** tab in the Microsoft Forms web app.
 
@@ -231,11 +230,11 @@ E-signature approvals created from the Approvals app are stored in the selected 
 
 ## Approvals - Parent App integration
 
-Teachers and admins using Teams for education can use the [Parent App](/https://aka.ms/parentapp) to update the contact information for class students’ parents. 
+Teachers and admins using Teams for education can use the [Parent App](https://aka.ms/parentapp) to update the contact information for class students’ parents.
 
 Admins can use the approvals app to view and approve or reject the request raised by schoolteachers to update the parent contact information accordingly. Once the admin approves this request, the new contact details will reflect in the parent app and allow teachers to communicate with the parent.
 
-### Frequently Asked Questions:
+### Frequently Asked Questions
 
 #### Question: How does the teacher track the status of the approval request?
 
