@@ -54,7 +54,7 @@ Get User returns a user record from the repository.
 
  *userId*  - ID of the user.
   
- *loginName*  - External user identification for regular users. If Windows Authentication is used for authenticating users, then this might be a FQDN of the user.
+ *loginName*  - External user identification for regular users. If Windows Authentication is used for authenticating users, then this might be an FQDN of the user.
   
  *defaultItemId*  - ID of the default Item for this user. The default Item is the top-most Item that is associated to the user. All other Items this user owns can be navigated from the default Item.
   
