@@ -63,7 +63,7 @@ Use the procedures on the tabs below to configure organization settings and user
 In this section, you can configure:
 
 - [Meetings and chat with trusted Microsoft 365 organizations](#specify-trusted-microsoft-365-organizations)
-- [Chat with external Teams users not managed by an organization](#manage-chats-and-meetings-with-external-teams-users-not-managed-by-an-organization)
+- [Chat with external Teams users not managed by an organization](#manage-chat-with-external-teams-users-not-managed-by-an-organization)
 - [Chat and calls with Skype users](#manage-chat-and-calls-with-skype-users)
 
 You can also [configure these settings by using PowerShell](#configure-organization-settings-by-using-powershell)
@@ -142,9 +142,14 @@ If you're an administrator, you can use the following diagnostic tool to validat
 
 If you want chats and calls to arrive in the user's Skype for Business client, configure your users to be in any mode other than TeamsOnly. For more information, see [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
-### Manage chats and meetings with external Teams users not managed by an organization
 
-You can choose to enable or disable chats and meetings with external unmanaged Teams users (those not managed by an organization, such as Microsoft Teams (free)). If enabled, you can also control if people with unmanaged Teams accounts can start chats and meetings with users in your organization.
+### Manage chat with external Teams users not managed by an organization
+
+You can choose to enable or disable chat with external unmanaged Teams users (those not managed by an organization, such as Microsoft Teams (free)). If you allow chat with unmanaged Teams users, you can further control how your users communicate with them:
+
+- You can control if unmanaged Teams users can initiate the communication with your users.
+- You can create a list of external user profiles that users can communicate with.
+- You can restrict communication to the external user profiles list if needed.
 
 > [!NOTE]
 > Chats and meetings with external unmanaged Teams users isn't available in GCC, GCC High, or DOD deployments, or in private cloud environments.
@@ -155,6 +160,11 @@ To allow chats and meetings with unmanaged Teams accounts
 1. Turn on the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
 
 1. If you want to allow external unmanaged Teams users to start the conversation, select the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
+
+1. If you want to restrict communication with people with unmanaged Teams accounts to a specific list of user profiles, select the **Restrict communication to the list of external user profiles added to extended directory** checkbox and select **Manage external user profiles** to add the user profiles that you want to allow. (See [manage external user profiles](#manage-external-user-profiles) below.)
+
+    > [!NOTE]
+    > [Parent Connection in Microsoft Teams for Education](edu-parents-app.md) does not support restricting communication to the list of external user profiles added to extended directory.
 
 1. Select **Save**.
 
@@ -168,6 +178,55 @@ To prevent chat with unmanaged Teams accounts
 1. Turn off the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
 
 1. Select **Save**.
+
+### Manage external user profiles
+
+External user profiles are based on phone numbers. You can add the name and phone numbers of people outside your organization and they'll be invited to communicate with people in your organization by using Teams on their mobile device. If they don't have Teams installed, they will receive a link to install it via SMS. Once they have created a Teams account, they can also use Teams on the desktop. You can delegate management of the user profiles by using the Extended Directory User Administrator role in Azure AD.
+
+When a profile is added for someone outside your organization, it's available to your users via search by name or phone number within 24 hours. Users can start a 1:1 or group chat with the external users and can see the external users' profile cards with the information that you specify.
+
+When a user starts a chat with an external user, the external user can allow or block the connection.
+
+> [!IMPORTANT]
+> Your organization is the Data Controller for the external user profiles that you add. This may have GDPR implications. For more information, see [General Data Protection Regulation Summary](/compliance/regulatory/gdpr).
+
+To add an external user profile
+1. Select **Manage external user profiles**.
+1. Select **Add**.
+1. Type a **Display name** for the contact. (Users will be able to search for this name in Teams.)
+1. Type a **Country or region code** and **Phone number**.
+1. Add any additional information that you want to include.
+1. Read the Data Controller statement and select the check box to agree.
+1. Select **Save**.
+
+You can remove an existing profile by selecting the profile and then selecting **Delete**.
+
+#### Import a list of profiles
+
+If you want to upload a list of users via .csv file, you can download a template file, add the people you want to include and their phone numbers, and upload the file.
+
+To download the .csv template
+1. On the Manage external user profiles page, select **Import** on the command bar.
+1. Select **download a template**.
+
+Required fields in the template are *DisplayName* and *PhoneNumber*. Other fields are optional.
+
+To upload a completed template file
+1. On the Manage external user profiles page, select **Import** on the command bar.
+1. Select **Select a file**.
+1. Select the file that you want to upload and then select **Open**.
+1. If you want to update the profile information for existing profiles, select the **Update existing external users** checkbox.
+1. Read the Data Controller statement and select the check box to agree.
+1. Select **Import**.
+
+### Use PowerShell to restrict communication to the user profiles in extended directory
+
+You can also configure the **Restrict communication to the list of external user profiles added to extended directory** setting in PowerShell by using the [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy) cmdlet with the *RestrictTeamsConsumerAccessToExternalUserProfiles* parameter. For example:
+
+```powershell
+Set-CsExternalAccessPolicy -Identity Global -RestrictTeamsConsumerAccessToExternalUserProfiles $true
+```
+restricts communication to the list of user profiles in extended directory for the default global external access policy.
 
 ### Manage chat and calls with Skype users
 
