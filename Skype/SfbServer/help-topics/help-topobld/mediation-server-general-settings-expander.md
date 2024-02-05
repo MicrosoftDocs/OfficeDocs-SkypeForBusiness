@@ -14,12 +14,11 @@ ms.custom:
 ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 0e0ad9f0-27d5-4975-ae88-0b8ff8a4c514
+description: "Mediation Server helps to mediate traffic between internal Skype for Business Server and Public Switched telephone Network gateways."
 
 ---
 
 # Mediation Server General Settings Expander
- 
-
 
 ## General settings
 
