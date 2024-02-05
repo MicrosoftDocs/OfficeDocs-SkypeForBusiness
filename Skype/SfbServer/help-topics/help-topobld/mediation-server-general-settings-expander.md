@@ -24,9 +24,9 @@ description: "Mediation Server helps to mediate traffic between internal Skype f
 
 Fully qualified domain name (FQDN) of the Mediation Server pool or Mediation Server. Edit the FQDN of the server to change the value. You must have a Domain Name System (DNS) host (A) record that coincides with the new value.
   
-In the **Associations** section, you select an Microsoft Edge Server or Edge Server pool to associate with the Mediation Server pool or Mediation Server. You select the Edge that the Mediation Server's media components use for External user Enterprise Voice.
+In the **Associations** section, you select a Microsoft Edge Server or Microsoft Edge Server pool to associate with the Mediation Server pool or Mediation Server. You select the Microsoft Edge that the Mediation Server's media components use for External user Enterprise Voice.
   
-If you don't have a Microsoft Edge Server currently defined and need to associate the Mediation Server with a Microsoft Edge Server, select **New** and define the new Microsoft Edge Server or Microsoft Edge Server pool in the Define the New Edge pool wizard.
+If you don't have a Microsoft Edge Server currently defined and need to associate the Mediation Server with a Microsoft Edge Server, select **New** and define the new Microsoft Edge Server or Microsoft Edge Server pool in the Define the New Microsoft Edge pool wizard.
   
 ## Next hop settings
 
@@ -34,9 +34,9 @@ You specify the Mediation Server pool or Mediation Server next hop by selecting 
   
 ## PSTN gateway settings
 
-1. You define PSTN gateways that are associated with the Mediation Server pool or Mediation Server. If you have already defined gateways, they're available to associate with the Mediation Server. If you enable the collocation of the Mediation Server, define the listening port range on the pool servers for Transport Layer Security (TLS). By default, this port is 5067. If you select **Enable TCP port**, you must define a Transmission Control Protocol (TCP) port for the collocated Mediation Server. This is an optional setting, and you should refer to the requirements of your gateway or PSTN requirements to determine if you need this. By default, the TCP port value is 5068.
+1. You define PSTN gateways that are associated with the Mediation Server pool or Mediation Server. If you've defined gateways, they're available to associate with the Mediation Server. If you enable the collocation of the Mediation Server, define the listening port range on the pool servers for Transport Layer Security (TLS). By default, this port is 5067. If you select **Enable TCP port**, you must define a Transmission Control Protocol (TCP) port for the collocated Mediation Server. This is an optional setting, and you should refer to the requirements of your gateway or PSTN requirements to determine if you need this. By default, the TCP port value is 5068.
     
-2. Trunks that are associated with the collocated Mediation Server. If you have already defined trunks, they're available to associate with the Mediation Server. 
+2. Trunks that are associated with the collocated Mediation Server. If you've defined trunks, they're available to associate with the Mediation Server. 
     
 3. If you have more than one trunk associated with a Mediation Server, you can specify a default trunk by selecting the trunk and then clicking **Make Default**. To unselect a gateway as the default, select **Unmake Default**. 
     
