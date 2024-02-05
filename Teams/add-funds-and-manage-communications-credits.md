@@ -43,14 +43,14 @@ Communications Credits are a convenient way to pay for Microsoft Teams Calling P
 
 - Dial out and pay per minute for all outgoing calls, if you have a Pay-As-You-Go Calling Plan.
 
-We recommend using auto-recharge so you don't have to remember to add funds manually. When your balance hits the trigger amount, funds are added automatically. If you don't choose auto-recharge, you run the risk of your balance falling under zero. At that point, you and your users can't make toll-free calls or international calls.
+We recommend using automatic recharge so you don't have to remember to add funds manually. When your balance hits the trigger amount, funds are added automatically. If you don't choose to automatically recharge your Communication Credits, you run the risk of your balance falling under zero. At that point, you and your users can't make toll-free calls or international calls.
 
 You can update your payment options at any time. On the **Subscriptions** page in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), select **Communications Credits** and make your updates.
 
 Funds apply only to Communications Credits at Microsoft's published rates when the services are used. Any funds not used within 12 months of the purchase date expire and are forfeited.
 
 > [!TIP]
-> We send email notifications when funds are added via auto-recharge, when auto-recharge fails (for example, when a credit card expires), and when your balance reaches zero. 
+> We send email notifications when funds are added via automatic recharge, when automatic recharge fails (for example, when a credit card expires), and when your balance reaches zero. 
 
 For more information, see [What are Communications Credits?](what-are-communications-credits.md).
 
@@ -61,13 +61,13 @@ For more information, see [What are Communications Credits?](what-are-communicat
 
 The new commerce experience (NCE) allows customers to pay for services *after* the services are consumed, also known as post-usage billing.
 
-Because Communication Credits are pre-paid to support outgoing minutes, they're not available to purchase for customers with NCE calling subscriptions.
+Because Communication Credits are prepaid to support outgoing minutes, they're not available to purchase for customers with NCE calling subscriptions.
 
 Instead, NCE customers pay for overage outgoing minutes after they use them. There's no need for a pool of Communication Credits.
 
 ### Turn off automatic recharge for Communication Credits
 
-Most customers who haven't moved to the NCE have the **Automatic Top Up** (ATU) flag enabled within their account. The ATU flag automatically refills your Communications Credit balance to the threshold you selected. When switching to NCE, you need to disable this ATU option. Otherwise, the Communications Credit balance will indefinitely refill itself, and the commerce system doesn't switch to the post-usage mechanism under NCE. If you're moving to NCE, turn off auto-recharge by completing the following steps:
+Most customers not using the NCE have the **Automatic Top Up** (ATU) flag enabled within their account. The ATU flag automatically refills your Communications Credit balance to the threshold you selected. When switching to NCE, you need to disable this ATU option. Otherwise, the Communications Credit balance will indefinitely refill itself, and the commerce system doesn't switch to the post-usage mechanism under NCE. If you're moving to NCE, turn off automatic recharge by completing the following steps:
 
 1. Sign into the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 1. In the left-side menu, navigate to and select **Your products**.
@@ -76,7 +76,7 @@ Most customers who haven't moved to the NCE have the **Automatic Top Up** (ATU) 
 1. On the **Auto-recharge settings** page, uncheck the box next to **Auto recharge**.
 1. Select the **Save** button.
 
-When this is action is complete, you can easily transition to NCE before your Communications Credit balance is empty. Even as an NCE customer, the commerce system consumes your Communications Credit balance prior to changing to post-usage billing. There's no action needed by you to ensure this switch happens other than to turn off **Auto-recharge** for Communications Credits in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
+When the previous process is complete, you can transition to NCE before your Communications Credit balance is empty. Even as an NCE customer, the commerce system consumes your Communications Credit balance prior to changing to post-usage billing. There's no action needed by you to ensure this switch happens other than to turn off **Auto-recharge** for Communications Credits in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
 For more information about the new commerce experience for calling subscriptions, see [Enable pay-as-you-go for your subscription](/microsoft-365/commerce/subscriptions/manage-pay-as-you-go-services) and [New commerce overage for telco pay-as-you-go](/partner-center/new-commerce-telco-payg).
 
