@@ -12,18 +12,19 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-  - M365-voice
-  - m365initiative-voice
-  - highpri
-  - Tier1
+- M365-voice
+- m365initiative-voice
+- highpri
+- Tier1
 appliesto: 
-  - Skype for Business
-  - Microsoft Teams
+- Skype for Business
+- Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
- - CSH
+- CSH
 ms.custom:
-  - Licensing
+- Licensing
+- admindeeplinkMAC
 description: Learn how to pay for Communication credits (PSTN Consumption) for Skype for Business services and see plans to keep your users with continuous phone system access.
 ---
 
