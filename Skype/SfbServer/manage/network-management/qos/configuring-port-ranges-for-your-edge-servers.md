@@ -25,7 +25,7 @@ This article describes how to configure port ranges for Edge Servers and how to 
 
 ## Configure port ranges
 
-With Edge servers, you do not have to configure separate port ranges for audio, video, and application sharing; likewise, the port ranges used for Edge servers do not have to match the port ranges used with your Conferencing, Application, and Mediation servers. Before we proceed with our example, it's important to stress that while this option exists, we recommend you not change the port ranges, as this may adversely affect some scenarios if you move out of the 50000 port range.
+With Microsoft Edge servers, you don't have to configure separate port ranges for audio, video, and application sharing; likewise, the port ranges used for Microsoft Edge servers don't have to match the port ranges used with your Conferencing, Application, and Mediation servers. Before we proceed with our example, it's important to stress that while this option exists, we recommend you not change the port ranges, as this might adversely affect some scenarios if you move out of the 50000 port range.
 
 For example, suppose you have configured your Conferencing, Application, and Mediation servers to use these port ranges:
 
@@ -65,7 +65,7 @@ For example, suppose you have configured your Conferencing, Application, and Med
 </table>
 
 
-As you can see, your port ranges for audio, video, and application sharing start at port 40803 and encompass a total of 24732 ports. If you prefer, you can configure a given Edge Server to use these overall port values by running a command similar to this one from within the Skype for Business Server Management Shell:
+As you can see, your port ranges for audio, video, and application sharing start at port 40803 and encompass a total of 24732 ports. If you prefer, you can configure a given Microsoft Edge Server to use these overall port values by running a command similar to this one from within the Skype for Business Server Management Shell:
 
   **Set-CsEdgeServer -Identity EdgeServer:atl-edge-001.litwareinc.com -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730**
 
@@ -81,9 +81,9 @@ Again, while we do provide these options, we strongly recommend you leave things
 
 ## Configure a QoS policy for your A/V Edge Servers
 
-In addition to creating QoS policies for your Conferencing, Application, and Mediation servers, you must also create both audio and video policies for the internal side of your A/V Edge servers. However, the policies used on your Edge servers are different from the policies used on your Conferencing, Application, and Mediation servers. For the Conferencing, Application, and Mediation servers, you specified a source port range; with Edge servers, you need to specify a destination port range. Because of this, you cannot simply apply the Conferencing, Application, and Mediation server QoS policies to your Edge servers: these policies simply won't work. Instead, you must create new policies and apply those policies to your Edge servers only.
+In addition to creating QoS policies for your Conferencing, Application, and Mediation servers, you must also create both audio and video policies for the internal side of your A/V Edge servers. However, the policies used on your Edge servers are different from the policies used on your Conferencing, Application, and Mediation servers. For the Conferencing, Application, and Mediation servers, you specified a source port range; with Edge servers, you need to specify a destination port range. Because of this, you can't apply the Conferencing, Application, and Mediation server QoS policies to your Edge servers: these policies don't work. Instead, you must create new policies and apply those policies to your Edge servers only.
 
-The following procedure describes the process for creating Active Directory Group Policy objects that can be used to manage Quality of Service on Edge Servers. Of course, it's possible that your Edge servers are stand-alone servers that do not have Active Directory accounts. If that's the case, you can use local Group Policy instead of Active Directory Group Policy: the only difference is that you must create these local policies using the Local Group Policy Editor, and must individually create the same set of policies on each Edge Server. To start the Local Group Policy Editor on an Edge server, do the following:
+The following procedure describes the process for creating Active Directory Group Policy objects that can be used to manage Quality of Service on Edge Servers. It's possible that your Edge servers are stand-alone servers that do not have Active Directory accounts. If that's the case, you can use local Group Policy instead of Active Directory Group Policy: the only difference is that you must create these local policies using the Local Group Policy Editor, and must individually create the same set of policies on each Edge Server. To start the Local Group Policy Editor on an Edge server, do the following:
 
 1.  Click **Start**, and then click **Run**.
 
