@@ -61,8 +61,9 @@ Use the procedures on the tabs below to configure organization settings and user
 ## [**Organization settings**](#tab/organization-settings)
 
 In this section, you can configure:
+
 - [Meetings and chat with trusted Microsoft 365 organizations](#specify-trusted-microsoft-365-organizations)
-- [Chat with external Teams users not managed by an organization](#manage-chat-with-external-teams-users-not-managed-by-an-organization)
+- [Chat with external Teams users not managed by an organization](#manage-chats-and-meetings-with-external-teams-users-not-managed-by-an-organization)
 - [Chat and calls with Skype users](#manage-chat-and-calls-with-skype-users)
 
 You can also [configure these settings by using PowerShell](#configure-organization-settings-by-using-powershell)
@@ -141,6 +142,7 @@ If you're an administrator, you can use the following diagnostic tool to validat
 
 If you want chats and calls to arrive in the user's Skype for Business client, configure your users to be in any mode other than TeamsOnly. For more information, see [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
+
 ### Manage chat with external Teams users not managed by an organization
 
 You can choose to enable or disable chat with external unmanaged Teams users (those not managed by an organization, such as Microsoft Teams (free)). If you allow chat with unmanaged Teams users, you can further control how your users communicate with them:
@@ -149,12 +151,10 @@ You can choose to enable or disable chat with external unmanaged Teams users (th
 - You can create a list of external user profiles that users can communicate with.
 - You can restrict communication to the external user profiles list if needed.
 
-Meetings aren't supported with unmanaged Teams users. If invited to a meeting, they're considered anonymous when joining.
-
 > [!NOTE]
-> Chat with external unmanaged Teams users isn't available in GCC, GCC High, or DOD deployments, or in private cloud environments.
+> Chats and meetings with external unmanaged Teams users isn't available in GCC, GCC High, or DOD deployments, or in private cloud environments.
 
-To allow chat with unmanaged Teams accounts
+To allow chats and meetings with unmanaged Teams accounts
 1. In the Teams admin center, go to **Users** > **External access**.
 
 1. Turn on the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
