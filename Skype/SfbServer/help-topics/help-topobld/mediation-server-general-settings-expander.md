@@ -34,9 +34,9 @@ You specify the Mediation Server pool or Mediation Server next hop by selecting 
   
 ## PSTN gateway settings
 
-1. You define PSTN gateways that are associated with the Mediation Server pool or Mediation Server. If you've defined gateways, they're available to associate with the Mediation Server. If you enable the collocation of the Mediation Server, define the listening port range on the pool servers for Transport Layer Security (TLS). By default, this port is 5067. If you select **Enable TCP port**, you must define a Transmission Control Protocol (TCP) port for the collocated Mediation Server. This is an optional setting, and you should refer to the requirements of your gateway or PSTN requirements to determine if you need this. By default, the TCP port value is 5068.
+1. You define PSTN gateways that are associated with the Mediation Server pool or Mediation Server. If you define gateways, they're available to associate with the Mediation Server. If you enable the collocation of the Mediation Server, define the listening port range on the pool servers for Transport Layer Security (TLS). By default, this port is 5067. If you select **Enable TCP port**, you must define a Transmission Control Protocol (TCP) port for the collocated Mediation Server. Enabling the TCP port is an optional setting. You must refer to the requirements of your gateway or PSTN to determine if you need it. By default, the TCP port value is 5068.
     
-2. Trunks that are associated with the collocated Mediation Server. If you've defined trunks, they're available to associate with the Mediation Server. 
+2. Trunks that are associated with the collocated Mediation Server. If you define trunks, they're available to associate with the Mediation Server. 
     
 3. If you have more than one trunk associated with a Mediation Server, you can specify a default trunk by selecting the trunk and then clicking **Make Default**. To unselect a gateway as the default, select **Unmake Default**. 
     
