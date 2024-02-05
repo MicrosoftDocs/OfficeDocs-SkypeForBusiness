@@ -90,11 +90,11 @@ The remaining elements are populated with the answers you provided to the questi
   
 - **Enterprise Voice**
     
-    Enterprise voice is Microsft's software-powered VoIP solution. Enterprise voice enables users to use Skype for Business to place a phone call from their computer.
+    Enterprise voice is Microsoft's software-powered VoIP solution. Enterprise voice enables users to use Skype for Business to place a phone call from their computer.
     
 - **Exchange Unified Messaging**
     
-    Exchange Unified Messaging (UM) combines voice mail and email into a single messaging infrastructure. Skype for Business Server 2015 uses Exchange UM to provide call answering, subscriber access, call notification, and auto attendant services. If you use these services, you will need to integrate Exchange UM and Skype for Business Server in a shared Active Directory topology.
+    Exchange Unified Messaging (UM) combines voice mail and email into a single messaging infrastructure. Skype for Business Server 2015 uses Exchange UM to provide call answering, subscriber access, call notification, and auto attendant services. If you use these services, you'll need to integrate Exchange UM and Skype for Business Server in a shared Active Directory topology.
     
 ### Additional Deployment Options
 
@@ -130,7 +130,7 @@ The remaining elements are populated with the answers you provided to the questi
     
 - **Device Update Web service**
     
-    The Device Update Web service provides an automated way to update all devices, such as Skype for Business for Windows Phone, that are deployed outside of your organization.
+    The Device Update Web service provides an automated way to update all devices, such as Skype for Business for Windows Phone that are deployed outside of your organization.
     
 ### Server Applications
 
@@ -154,7 +154,7 @@ The remaining elements are populated with the answers you provided to the questi
     
 - **Conferencing Announcement**
     
-    Conferencing Announcement application produces tones that signal when users enter or leave a conference, as well as notifications to phone users when they are muted or unmuted.
+    Conferencing Announcement application produces tones that signal when users enter or leave a conference, as well as notifications to phone users when they're muted or unmuted.
     
 - **Call Admission Control**
     
