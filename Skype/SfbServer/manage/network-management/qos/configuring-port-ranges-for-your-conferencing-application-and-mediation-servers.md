@@ -124,7 +124,7 @@ To create a Quality of Service policy for managing audio, sign-in a computer whe
 
 3.  In the **New GPO** dialog box, type a name for the new Group Policy object in the **Name** box (for example, **Skype for Business Server QoS**), and then click **OK**.
 
-4.  Right-click the newly-created policy, and then click **Edit**.
+4.  Right-click the newly created policy, and then click **Edit**.
 
 5.  In the Group Policy Management Editor, expand **Computer Configuration**, expand **Policies**, expand **Windows Settings**, right-click **Policy-based QoS**, and then click **Create new policy**.
 
