@@ -61,7 +61,7 @@ Introduced in [Centralized Logging Service in Skype for Business 2015](centraliz
     
   - **Debug** this is essentially an equivalent of 'All' - collects traces of type Fatal, Error, Warning, Info, Verbose and Debug for the defined provider.
     
-- **Flags** OCSLogger provided the option to choose flags for each provider that defined what type of information you could retrieve from the trace files. You can chose the following flags, based on the provider:
+- **Flags** OCSLogger provided the option to choose flags for each provider that defined what type of information you could retrieve from the trace files. You can choose the following flags, based on the provider:
     
   - **TF_Connection** Provides connection-related log entries. These logs include information about connections established to and from a particular component. This may also include significant network-level information (that is, for components without the concept of a connection).
     
