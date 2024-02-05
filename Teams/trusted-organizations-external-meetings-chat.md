@@ -63,7 +63,7 @@ Use the procedures on the tabs below to configure organization settings and user
 In this section, you can configure:
 
 - [Meetings and chat with trusted Microsoft 365 organizations](#specify-trusted-microsoft-365-organizations)
-- [Chat with external Teams users not managed by an organization](#manage-chats-and-meetings-with-external-teams-users-not-managed-by-an-organization)
+- [Chat with external Teams users not managed by an organization](#manage-chat-with-external-teams-users-not-managed-by-an-organization)
 - [Chat and calls with Skype users](#manage-chat-and-calls-with-skype-users)
 
 You can also [configure these settings by using PowerShell](#configure-organization-settings-by-using-powershell)
