@@ -39,7 +39,7 @@ By default, audio and video port ranges don't overlap in Skype for Business Serv
 > [!WARNING]  
 > As you can see in the preceding commands, each port type – audio, video, and application sharing – is assigned two separate property values: the port start and the port count. The port start indicates the first port used for that modality; for example, if the audio port start is equal to 50000 that means that the first port used for audio traffic is port 50000. If the audio port count is 2 (which is not a valid value, but is used here for illustration purposes), that means that only two ports are allocated for audio. If the first port is port 50000 and there are a total of two ports, that means the second port must be port 50001 (port ranges have to be contiguous). As a result, the port range for audio would be ports 50000 through 50001, inclusive.<BR><br>Note, too that Application server and Mediation server only support QoS for audio; you do not need to change video or application sharing ports in your Application servers or Mediation servers.
 
-If you run the preceding three commands, you'll see that that the default port values for Skype for Business Server are configured like this:
+If you run the preceding three commands, you'll see that the default port values for Skype for Business Server are configured like this:
 
 <table>
 <colgroup>
