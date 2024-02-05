@@ -23,7 +23,8 @@ ms.localizationpriority: high
 
 # Classic Teams users to be updated to new Teams after March 31, 2024
 
-After **March 31, 2024**, any classic Teams users that haven't updated to new Teams, will be automatically updated to new Teams. 
+> [!NOTE]
+> After **March 31, 2024**, any classic Teams users that haven't updated to new Teams will be automatically updated to new Teams (with some exceptions, such as VDI users, who have until June 30 2024) To learn more, see [End of availability for classic Teams client](teams-classic-client-end-of-availability.md).
 
 >[!Important]
 >This automatic update **does not apply** to Virtualized Desktop Infrastructure (VDI) users. **Classic Teams for VDI** will reach end of support on **June 30th, 2024**. Learn more: [Upgrade to new Teams for Virtualized Desktop Infrastructure (VDI)](new-teams-vdi-requirements-deploy.md)]
@@ -40,13 +41,11 @@ New Teams includes support for [multitenant organizations (MTO)](https://techcom
 
 New Teams allows us to release new capabilities to market faster. With the move to general availability, new features, capabilities, and enhancements to existing features are available exclusively on new Teams.
 
-
 ## Servicing agreement
 
 Teams is governed by the Modern Lifecycle Policy, with the expectation that users remain on the most up-to-date version of the desktop client. Automatic updates ensure that users have the latest capabilities, performance enhancements, security, and service reliability. An in-app alert is displayed if the user’s current version is between one and three months old, and if there's a new version available.
 
 Learn more about the Modern Lifecycle Policy under the [**Servicing agreement**](/microsoftteams/teams-client-update#servicing-agreement) for Microsoft Teams.
-
 
 ## How to prepare
 
@@ -55,12 +54,16 @@ There's no major impact to the user experience for new Teams, which means you wo
 As an admin, you can [manage how new Teams becomes available to your users](https://aka.ms/newTeamsUpgrade). 
 Users can get started on the new Teams today by flipping the toggle in the classic Teams app if your policies allow them to do so.
 
-[**Review policies**](/microsoftteams/new-teams-deploy-using-policies). 
-- Admins can enable new Teams in their organizations through robust IT admin policies, which empower them to enable users and groups within their organizations as appropriate. 
+[**Review policies**](/microsoftteams/new-teams-deploy-using-policies).
+
+- Admins can enable new Teams in their organizations through robust IT admin policies, which empower them to enable users and groups within their organizations as appropriate.
 - Admins who currently have the Teams update policy set to 'Not enabled' for the 'Use new Teams client' setting, we suggest setting the value as **New Teams only** after selecting the Teams update policy to  ‘Microsoft controlled’ in the Teams admin center.
 
 [**Review prerequisites** ](/microsoftteams/new-teams-deploy-using-policies#prerequisites)
+
 - Make sure your organization meets the system requirements.
 
 [**Review bulk update options**](/microsoftteams/new-teams-bulk-install-client)
-- Bulk updates are helpful because users don't need to manually download and install the Teams client. Microsoft provides an executable (.exe) file for the new Teams client so you can update the application directly to the computers in your organization. An offline option is also available. 
+
+- Bulk updates are helpful because users don't need to manually download and install the Teams client. Microsoft provides an executable (.exe) file for the new Teams client so you can update the application directly to the computers in your organization. An offline option is also available.
+
