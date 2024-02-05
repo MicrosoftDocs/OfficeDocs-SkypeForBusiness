@@ -16,7 +16,7 @@ ms.assetid: 948c176c-75ce-418d-891a-a68427d61e40
 description: "Requirements or prerequisites for the Skype for Business Server 2015 Stress and Performance Tool. How to install or set up the Stress and Performance Tool."
 ---
 
-# Prerequisites and set up for the Skype for Business Stress and Performance Tool
+# Prerequisites and setup for the Skype for Business Stress and Performance Tool
  
 Requirements or prerequisites for the Skype for Business Server 2015 Stress and Performance Tool. How to install or set up the Stress and Performance Tool.
   
