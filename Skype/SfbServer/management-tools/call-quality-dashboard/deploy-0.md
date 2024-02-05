@@ -81,7 +81,7 @@ Deployment of Call Quality Dashboard involves setting up the infrastructure and 
   
    - **Partition File Directory:** Path to where the partitions for the QoE Archive database should be placed. This should be on a drive (HDD3 in the recommended hardware configuration) separate from the OS drive and SQL database log files drive. Since the file names are fixed in the install, to avoid any potential conflict, it's recommended that a blank directory with no files be used.
     
-   - **SQL Agent Job User - User Name &amp; Password:** Domain service account name and password (masked) that is used to run the "QoE Archive Data" step of the SQL Server Agent job (which runs the stored procedure to fetch data from QoE Metrics DB into Archive DB, so this account must have read access to QoE Metrics DB, as indicated under Accounts section. This account also needs to have a sign in in the QoE Archive SQL Server Instance).
+   - **SQL Agent Job User - User Name &amp; Password:** Domain service account name and password (masked) that is used to run the "QoE Archive Data" step of the SQL Server Agent job (which runs the stored procedure to fetch data from QoE Metrics DB into Archive DB, so this account must have read access to QoE Metrics DB, as indicated under Accounts section. This account also needs to have a sign in the QoE Archive SQL Server Instance).
     
      > [!NOTE]
      > The account that the SQL Server instance is running under, such as NT SERVICE\MSSQLSERVER, must have access/permission to the directories given above for the installation to succeed. For details, see [Configure File System Permissions for Database Engine Access](/previous-versions/sql/sql-server-2012/jj219062(v=sql.110))
