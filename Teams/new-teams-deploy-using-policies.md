@@ -70,7 +70,7 @@ Configure setting via Teams Admin Center.
    |Classic Teams as default|Use this value to have classic Teams the default version. The new Teams toggle switch displays to let users opt into the new Teams and switch back if needed. **Note:** This option was previously called *Users can choose*.|
    |Microsoft controlled| Default. The value lets Microsoft control whether the new Teams toggle switch is shown or not based on product readiness|
    |New Teams as default </br>Rollout for the feature began in early August  2023 | Use this value to make new Teams the default version. Users can switch back to classic Teams using the toggle.|
-   |New Teams only (Rolling out end of January 2024) |Use this value to make new Teams the default version and uninstall classic Teams. Users don't have the option to switch back to classic Teams.|
+   |New Teams only (Rolling out mid-February 2024) |Use this value to make new Teams the default version and uninstall classic Teams. Users don't have the option to switch back to classic Teams.|
 
 In addition to PowerShell, you can also use Teams Admin Center to manage the visibility of the toggle on a per-user basis.
 
