@@ -17,8 +17,6 @@ ms.collection:
   - m365-frontline
   - teams-1p-app-admin
   - highpri
-ms.custom: 
-- Security
 appliesto: 
   - Microsoft Teams
 ms.date: 11/03/2023
