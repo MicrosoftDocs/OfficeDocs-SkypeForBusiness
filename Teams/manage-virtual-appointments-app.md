@@ -5,7 +5,7 @@ ms.author: v-chinlana
 manager: jtremper
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: megano
+ms.reviewer: revathim
 ms.date: 09/18/2023
 search.appverid: MET150
 searchScope:

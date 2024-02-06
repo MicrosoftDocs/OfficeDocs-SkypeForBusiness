@@ -1,5 +1,5 @@
 ---
-title: "Prerequisites and setup for the Skype for Busines Stress and Performance Tool"
+title: "Prerequisites and setup for the Skype for Business Stress and Performance Tool"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -13,14 +13,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 948c176c-75ce-418d-891a-a68427d61e40
-description: "Requirements or prerequisites for the Skype for Business Server 2015 Stress and Performance Tool. How to install or setup the Stress and Performance Tool."
+description: "Requirements or prerequisites for the Skype for Business Server 2015 Stress and Performance Tool. How to install or set up the Stress and Performance Tool."
 ---
 
-# Prerequisites and setup for the Skype for Busines Stress and Performance Tool
+# Prerequisites and setup for the Skype for Business Stress and Performance Tool
  
-Requirements or prerequisites for the Skype for Business Server 2015 Stress and Performance Tool. How to install or setup the Stress and Performance Tool.
+Requirements or prerequisites for the Skype for Business Server 2015 Stress and Performance Tool. How to install or set up the Stress and Performance Tool.
   
-We have the following sections of hardware, software and system configuration requirements you'll need to be aware of prior to running the Stress and Performance Tool:
+We have the following sections of hardware, software and system configuration requirements you need to be aware of prior to running the Stress and Performance Tool:
   
 - [Client hardware requirements](prerequisites-and-setup.md#ClientHardwareReqs)
     
@@ -35,9 +35,9 @@ Additionally, we also have a section below for [Installing the Skype for Busines
 
 When running the Stress and Performance Tool against your Skype for Business Server 2015 deployment, you'll, at a minimum, need these hardware requirements met for every 4500 users in your test:
   
-- 1 gigabit network adapter
+- 1-gigabit network adapter
     
-- 8 GB RAM
+- 8-GB RAM
     
 - 2 dual-core CPUs
     
@@ -52,22 +52,22 @@ The supported operating systems for the Stress and Performance Tool are:
     
 Additionally, computers need to meet the following software requirements:
   
-- You'll need the Microsoft .NET 4.5 Framework installed. [Download the .Net 4.5 Framework here.](https://www.microsoft.com/download/details.aspx?id=30653)
+- You need the Microsoft .NET 4.5 Framework installed. [Download the .Net 4.5 Framework here.](https://www.microsoft.com/download/details.aspx?id=30653)
     
-- You'll need the Desktop Experience feature enabled in Windows.
+- You need the Desktop Experience feature enabled in Windows.
     
-- You'll need Microsoft Visual C++ 2013 (x64) installed. [Download Visual C++ 2013 here](https://www.microsoft.com/download/details.aspx?id=40784)
+- You need Microsoft Visual C++ 2013 (x64) installed. [Download Visual C++ 2013 here](https://www.microsoft.com/download/details.aspx?id=40784)
     
 - You're going to need Skype for Business Server 2015 successfully deployed.
     
 ## Configuration requirements
 <a name="ConfigReqs"> </a>
 
-You'll need these additional configurations done to run the Stress and Performance Tool successfully:
+You need these extra configurations done to run the Stress and Performance Tool successfully:
   
 - You need to log into the server as a member of the Domain or Local Administrator's group.
     
-- You can't install the Skype for Business Server 2015 User Creation tool (UserProvisioningTool.exe) on any Front End Server or Standard Edition server where the user accounts will reside.
+- You can't install the Skype for Business Server 2015 User Creation tool (UserProvisioningTool.exe) on any Front End Server or Standard Edition server where the user accounts reside.
     
 - When the User Creation tool is run multiple times, each user who's enabled for Microsoft Unified Communications needs to have a unique phone number.
     
