@@ -2,6 +2,48 @@
 
 
 
+## Week of January 29, 2024
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/29/2024 | [Manage Copilot for Microsoft Teams meetings and events](/MicrosoftTeams/copilot-teams-transcription) | modified |
+| 1/29/2024 | [Use real-time telemetry to troubleshoot poor meeting quality](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | modified |
+| 1/29/2024 | [Manage user access to Microsoft Teams](/MicrosoftTeams/user-access) | modified |
+| 1/29/2024 | [Manage the usage of a phone number](/MicrosoftTeams/manage-the-usage-of-a-phone-number) | modified |
+| 1/29/2024 | [Shared line appearance in Microsoft Teams](/MicrosoftTeams/shared-line-appearance) | modified |
+| 1/30/2024 | [What's New Direct Routing](/MicrosoftTeams/direct-routing-whats-new) | modified |
+| 1/30/2024 | [Plan Location-Based Routing for Direct Routing](/MicrosoftTeams/location-based-routing-plan) | modified |
+| 1/30/2024 | [Auto attendant and Call queue historical reports](/MicrosoftTeams/aa-cq-cqd-historical-reports) | modified |
+| 1/30/2024 | [Bulk install Teams using Windows Installer (MSI)](/MicrosoftTeams/msi-deployment) | modified |
+| 1/30/2024 | [Bulk deploy the new Microsoft Teams desktop client](/MicrosoftTeams/new-teams-bulk-install-client) | modified |
+| 1/30/2024 | [Overview of the new Microsoft Teams client](/MicrosoftTeams/new-teams-desktop-admin) | modified |
+| 1/30/2024 | [New Microsoft Teams for Virtualized Desktop Infrastructure (VDI)](/MicrosoftTeams/new-teams-vdi-requirements-deploy) | modified |
+| 1/31/2024 | [Bring Your Own Device Rooms in Pro Management Portal](/MicrosoftTeams/rooms/bring-your-own-device) | added |
+| 1/31/2024 | [Microsoft Teams external domain activity report](/MicrosoftTeams/teams-analytics-and-reports/external-domain-activity-report) | added |
+| 1/31/2024 | [Set up a Microsoft Teams Auto attendant](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modified |
+| 1/31/2024 | [Create a Call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
+| 1/31/2024 | [Update Microsoft Teams devices remotely](/MicrosoftTeams/devices/remote-update) | modified |
+| 1/31/2024 | [Plan for Teams Auto attendants and Call queues](/MicrosoftTeams/plan-auto-attendant-call-queue) | modified |
+| 2/1/2024 | [Manage tags in Microsoft Teams](/MicrosoftTeams/manage-tags) | modified |
+| 2/1/2024 | [Release notes for Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-release-note) | modified |
+| 2/1/2024 | Advanced Communications add-on for Microsoft Teams | removed |
+| 2/1/2024 | [Microsoft Teams add-on licenses](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | modified |
+| 2/1/2024 | [Manage the Updates app for your organization](/MicrosoftTeams/manage-updates-app) | modified |
+| 2/1/2024 | [New Microsoft Teams for Virtualized Desktop Infrastructure (VDI)](/MicrosoftTeams/new-teams-vdi-requirements-deploy) | modified |
+| 2/1/2024 | [Multitenant customer management for partners](/MicrosoftTeams/rooms/multi-tenant-management-partner) | modified |
+| 2/1/2024 | [The new Microsoft Teams desktop client](/MicrosoftTeams/new-teams-desktop-admin) | added |
+| 2/1/2024 | [View-only meeting experience](/MicrosoftTeams/view-only-meeting-experience) | modified |
+| 2/2/2024 | [Usage report for new Teams client](/MicrosoftTeams/new-teams-usage-report) | added |
+| 2/2/2024 | [Classic Teams users to be automatically updated to new Teams](/MicrosoftTeams/new-teams-automatic-upgrade-announced) | modified |
+| 2/2/2024 | [Upgrade to the new Teams client using policies](/MicrosoftTeams/new-teams-deploy-using-policies) | modified |
+| 2/2/2024 | [Install and prerequisites for the Microsoft new Teams for the Mac](/MicrosoftTeams/new-teams-mac-install-prerequisites) | modified |
+| 2/2/2024 | [Manage retention policies for Microsoft Teams](/MicrosoftTeams/retention-policies) | modified |
+| 2/2/2024 | [Deploy Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-deploy) | modified |
+| 2/2/2024 | [Sign out of Microsoft Teams](/MicrosoftTeams/sign-out-of-teams) | modified |
+| 2/2/2024 | [Teams security best practices for safer messaging](/MicrosoftTeams/teams-security-best-practices-for-safer-messaging) | modified |
+
+
 ## Week of January 22, 2024
 
 
@@ -52,11 +94,3 @@
 |------|------------|--------|
 | 1/3/2024 | [Known issues in the new Microsoft Teams desktop client](/MicrosoftTeams/new-teams-known-issues) | modified |
 | 1/3/2024 | [Signal settings](/MicrosoftTeams/rooms/signal-settings) | added |
-
-
-## Week of December 25, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 12/30/2023 | [Security guide for Microsoft Teams](/MicrosoftTeams/shared-device-security-for-microsoft-teams) | modified |
