@@ -35,16 +35,22 @@ The Exchange Online PowerShell v2 module uses modern authentication and works wi
 
 The tenant setting overrides the group setting. For example, if an admin enables connectors for the group and disables them on the tenant, connectors for the group are disabled. To enable a connector in Teams, [connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps#connect-to-exchange-online-powershell-using-modern-authentication-with-or-without-mfa&preserve-view=true) using modern authentication with or without MFA.
 
-To enable or disable a connector, execute the following commands in Exchange Online PowerShell:
+To enable or disable a connector, execute the following commands in Microsoft Exchange Online PowerShell:
 
-* To disable connectors for the tenant: `Set-OrganizationConfig -ConnectorsEnabled:$false`.
-* To disable actionable messages for the tenant: `Set-OrganizationConfig -ConnectorsActionableMessagesEnabled:$false`.
-* To enable connectors for Teams, execute the following commands:
-  * `Set-OrganizationConfig -ConnectorsEnabled:$true`
-  * `Set-OrganizationConfig -ConnectorsEnabledForTeams:$true`
-  * `Set-OrganizationConfig -ConnectorsActionableMessagesEnabled:$true`
+1. Open PowerShell as an administrator.
+1. Use the command `Import-Module ExchangeOnlineManagement` to import the Microsoft Exchange module.
+1. To disable connectors for the tenant, use the command `Set-OrganizationConfig -ConnectorsEnabled:$false`.
+1. To connect the admin account, use the command `Connect-ExchangeOnline -UserPrincipalName UPN -ExchangeEnvironmentName O365USGovGCCHigh`. Replace the UPN with your UPN.
+1. To enable connectors for Teams, use the following commands. To disable connectors or actionable messages, set the value to `false` instead of `true` in the following commands.
+
+   * `Set-OrganizationConfig -ConnectorsEnabled:$true`
+   * `Set-OrganizationConfig -ConnectorsEnabledForTeams:$true`
+   * `Set-OrganizationConfig -ConnectorsActionableMessagesEnabled:$true`
 
 For more information on PowerShell module exchange, see [Set-OrganizationConfig](/powershell/module/exchange/Set-OrganizationConfig?view=exchange-ps&preserve-view=true). To enable or disable Outlook connectors, [connect apps to your groups in Microsoft Outlook](https://support.microsoft.com/topic/connect-apps-to-your-groups-in-outlook-ed0ce547-038f-4902-b9b3-9e518ae6fbab).
+
+> [!NOTE]
+> It may take up to 24 hours for these changes to propagate.
 
 ## Publish connectors for your organization
 
@@ -56,6 +62,52 @@ To make a custom connector available to your organization's users, upload a cust
 To use connectors in a team or a channel, open the More Options menu from the upper right corner of a channel. From the menu, select **Connectors** and then locate or search for the required connector. Configure the selected connector if necessary.
 
 :::image type="content" source="media/connectors-selection-ui.png" alt-text="Add connectors to your channel in Teams from the More options in the upper right corner of the channel.":::
+
+## Use connectors in GCC or GCCH
+
+You must [enable connectors in Teams](#enable-or-disable-connectors-in-teams). Connectors are disabled by default in the Government Cloud Community (GCC) environments and Government Community Cloud-High (GCCH).
+
+To set the parameters, connect to the [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps&preserve-view=true).
+
+To use an incoming webhook in Teams, create a `manifest.json` using the following snippet and upload it as a custom app on the **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** page in the admin center.
+
+``` json
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.5",
+  "id": "96598e97-093a-4032-b539-43256c9ecf99",
+  "version": "1.0.0",
+  "packageName": "com.ToDoTestApp2020",
+  "developer": {
+    "name": "Developer",
+    "websiteUrl": "https://www.microsoft.com",
+    "privacyUrl": "https://www.microsoft.com",
+    "termsOfUseUrl": "https://www.microsoft.com"
+  },
+  "description": {
+    "full": "to do app sdf",
+    "short": "test connector"
+  },
+  "icons": {
+    "outline": "todo.jpg",
+    "color": "todo.jpg"
+  },
+  "connectors": [
+    {
+      "connectorId": "96598e97-093a-4032-b539-43256c9ecf99",
+      "scopes": ["team"],
+      "configurationUrl": "https://teamstodosampleconnector.azurewebsites.net/connector/setup"
+    }
+  ],
+  "name": {
+    "full": "ToDoTestApp2020",
+    "short": "ToDoTestApp2020"
+  },
+  "accentColor": "#FFFFFF",
+  "validDomains": ["teamstodosampleconnector.azurewebsites.net"],
+  "permissions": ["identity", "messageTeamMembers"]
+}
+```
 
 ## Considerations when using Connectors in Teams
 
