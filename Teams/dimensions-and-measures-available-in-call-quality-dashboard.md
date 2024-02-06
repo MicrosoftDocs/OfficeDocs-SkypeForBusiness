@@ -222,7 +222,7 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 | Duration (Minutes)  | Range (minutes)  | Duration of stream in minutes. Values grouped by range. <br/> **Example value:** 065: [3–4) ||
 | Duration (Seconds)  | Range (seconds) | Duration of stream in seconds. Values grouped by range. <br/> **Example value:** 062: [1 -2)||
 |**Date**||| |
-|End Time|  String| Time of day the call ended. Values are reported in the UTC time zone. |&bull; Call setup failed or isn't established (see CDR Response Reason) |
+|End Time|  String| Time of day the call ended. Values are reported in the UTC time zone. |&bull; Call setup failed or wasn't established (see CDR Response Reason) |
 | Year  | Integer  | Year of the end of the stream. Values are reported in the UTC time zone. <br/> **Example value:** 2018 | |
 | Month  | Integer  | Month of the end of the stream. Values are reported in the UTC time zone. <br/> **Example value:** 2 | |
 | Day  | Integer  | Day of the end of the stream. Values are reported in the UTC time zone. <br/> **Example value:** 1 | |
@@ -233,12 +233,12 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 | Day Of Year  | Integer  | Day of year of the end of the stream. Values are reported in the UTC time zone. <br/> **Example value:** 32 | |
 | Day Of Week  | String  | Day of week of the end of the stream. Values are reported in the UTC time zone. <br/> **Example value:** Wednesday | |
 | Day Number Of Week  | Integer  | Day number of week of the end of the stream. Values are reported in the UTC time zone. <br/> **Example value:** 3 | |
-|Week|  String  |Starting date of the week  in which the call took place. <br/> **Example value:** 2019-09-01 |&bull; Call setup failed or isn't established (see CDR Response Reason) |
+|Week|  String  |Starting date of the week  in which the call took place. <br/> **Example value:** 2019-09-01 |&bull; Call setup failed or wasn't established (see CDR Response Reason) |
 | Month Year  | String  | Month and year of the end of the stream. Values are reported in the UTC time zone. <br/> **Example value:** 2017-02 | |
 | Full Month  | Date time  | Full Month of the end of the stream. Values are reported in the UTC time zone. <br/> **Example value:** 2017-02-01T00:00:00 | |
-|Start time|String  |Time of day the call started. Values are reported in the UTC time zone. |&bull; Call setup failed or isn't established (see CDR Response Reason) |
+|Start time|String  |Time of day the call started. Values are reported in the UTC time zone. |&bull; Call setup failed or wasn't established (see CDR Response Reason) |
 |**UserAgent** | | | |
-| First Domain  | String  | Domain of the first endpoint's user. If the first endpoint is a conference server, it uses the domain of the organizer of the meeting.Might also be the domain of service accounts used in scenario.  <br/> **Example value:** contoso<span></span>.com | |
+| First Domain  | String  | Domain of the first endpoint's user. If the first endpoint is a conference server, it uses the domain of the organizer of the meeting. Might also be the domain of service accounts used in scenario.  <br/> **Example value:** contoso<span></span>.com | |
 | Second Domain  | String  | Domain of the second endpoint's user. If the second endpoint is a conference server, it uses the domain of the organizer of the meeting. Might also be the domain of service accounts used in scenario. <br/> **Example value:** contoso<span></span>.com  | |
 | First User Agent Category  | String  | Category of the user agent of the first endpoint. <br/> **Example value:** OC | &bull; A user agent doesn't currently have a mapping    |
 | Second User Agent Category  | String  | Category of the user agent of the second endpoint. <br/> **Example value:** OC | &bull; A user agent doesn't currently have a mapping    |
