@@ -3,7 +3,7 @@ title: "Walkie Talkie app in Microsoft Teams"
 author: lana-chin
 ms.author: v-chinlana
 manager: jtremper
-ms.topic: reference
+ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: prastogi
