@@ -365,7 +365,7 @@ When you install a new firmware version on your device, you can determine the co
 |Yealink RoomPanel | ` 147.520.0.15 ` | 2023 Update #3 |
 |Logitech Tap Scheduler | `1.10.129` |2023 Update #3  |
 |EPOS EXPAND Control 3P |`v1.8.23258.01`   | 2023 Update #3 |
-|Audiocodes RXPanel | '2.2.311' |2023 Update #3|
+|Audiocodes RXPanel | `2.2.311` |2023 Update #3|
 |Logitech Tap Scheduler | `1.10.121` |2023 Update #2  |
 |Poly TC10 | `5.0.0.211238` | 2023 Update #2 |
 |Yealink RoomPanel | ` 147.520.0.10 ` | 2023 Update #2 |
@@ -374,7 +374,6 @@ When you install a new firmware version on your device, you can determine the co
 | EPOS EXPAND Control 3P |`v1.7.23195.06`   | 2023 Update #2 |
 |Yealink RoomPanel | ` 147.520.0.7 ` | 2023 Update #1 |
 |Crestron Touchpanel /770-T/1070-T | `2.004.1029` | 2022 Update #4A|
-|Yealink RoomPanel Plus | ` 269.520.0.12 ` | 2023 Update #1 |
 |Logitech Tap Scheduler | `1.9.388` |2023 Update #1  |
 |Crestron Touchpanel /770-T/1070-T | `2.004.1026` | 2022 Update #4A|
 |Crestron Touchpanel /770-T/1070-T | `2.004.0033.001` | 2022 Update #4A|
