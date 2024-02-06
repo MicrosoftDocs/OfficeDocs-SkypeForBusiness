@@ -84,11 +84,14 @@ When you select a specific room, you'll see a new pane with two different pages,
 
 ### Device view
 
-:::image type="content" source="../media/byod/inventory-devices-asso.png" alt-text="Screenshot of Device page." lightbox="../media/byod/inventory-devices-asso.png":::
+:::image type="content" source="../media/byod/device-view-latest.png" alt-text="Screenshot of Device view." lightbox="../media/byod/device-view-latest.png":::
 
 The Device page offers a comprehensive overview of device and room insights.
 
-The Devices tab displays a table with device information. Select the device to view more details.
+The **Devices** tab displays a table with device information. The devices are reported as grouped, which means if they are plugged in together, they are displayed as a group with the first device name as the primary device shown in the main device table.<br>
+The **Number of devices** column shows the number of devices in the group. <br>
+Select the device to view more details.<br> 
+In the **Device group details** panel that opens up, a table displays all the devices in the group, allowing you to associate them with the specific room at once.
 
 | **Column** | **Description** |
 | --- | --- |
