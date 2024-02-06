@@ -68,13 +68,13 @@ MSI files can't be used to deploy updates. The Teams client will auto-update whe
 > accessing the service.
 
 > [!NOTE]
-> If the customer tenant is on the GCCH, DoD, Gallatin, or AG clouds, the customer may need to set the initial cloud endpoint through the registry key listed. Setting the endpoint with the registry key restricts teams to connecting to the correct cloud endpoint for pre-sign-in connectivity with Teams, as shown in the following:
+> If the customer tenant is on the GCCH, DoD, or Gallatin, the customer may need to set the initial cloud endpoint through the registry key listed. Setting the endpoint with the registry key restricts teams to connecting to the correct cloud endpoint for pre-sign-in connectivity with Teams, as shown in the following:
 >
 > ```console
 > HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams
 > Value = CloudType
 > value type = DWORD
->   1 = Commercial, 2 = GCC, 3 = GCCH, 4 = DOD, 5 = AirGap09, 6 = AirGap08, 7 = Gallatin
+>   1 = Commercial, 2 = GCC, 3 = GCCH, 4 = DOD, 7 = Gallatin
 > ```
 
 #### Target computer requirements

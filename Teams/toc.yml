@@ -107,6 +107,8 @@ items:
                   href: new-teams-automatic-upgrade-announced.md                  
                 - name: Classic Teams client end of availability
                   href: teams-classic-client-end-of-availability.md
+                - name: Usage report for new Teams client
+                  href: new-teams-usage-report.md
             - name: Classic Teams clients
               items:
                 - name: Get the classic Teams clients
@@ -487,6 +489,8 @@ items:
           href: advanced-collaboration-analytics.md
         - name: Teams user activity report
           href: /microsoft-365/admin/activity-reports/microsoft-teams-user-activity-preview?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: External domain activity report
+          href: teams-analytics-and-reports/external-domain-activity-report.md
         - name: Teams app usage report
           href: teams-analytics-and-reports/app-usage-report.md
         - name: Teams device usage report
@@ -517,6 +521,9 @@ items:
           href: teams-analytics-and-reports/walkie-talkie-usage-report.md
         - name: SMS notifications usage report
           href: /microsoft-365/frontline//sms-notifications-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: Usage report for new Teams client
+          href: new-teams-usage-report.md
+
               
     - name: Log files, service health, and support
       items:
@@ -1556,6 +1563,8 @@ items:
           href: rooms/enrolling-mtrp-managed-service.md
         - name: Enroll a device into Pro management
           href: rooms/enroll-a-device.md
+        - name: Bring Your Own Device Rooms in Pro Management portal
+          href: rooms/bring-your-own-device.md  
         - name: Create a one-time password
           href: rooms/create-otp.md
         - name: Role-based access control
@@ -1724,7 +1733,7 @@ items:
         - name: Set Adobe Acrobat as default PDF viewer
           href: adobe-acrobat-pdf-viewer-teams.md
         - name: Manage M365 connectors and custom connectors
-          href: Office-365-custom-connectors.md
+          href: m365-custom-connectors.md
         - name: Auto install approved apps
           href: auto-install-approved-apps.md
 
@@ -1901,8 +1910,6 @@ items:
           href: teams-add-on-licensing/remove-assign-free-licenses.md
         - name: Microsoft Teams Shared Devices licensing
           href: teams-add-on-licensing/teams-shared-device-license.md
-        - name: Advanced Communications
-          href: teams-add-on-licensing/advanced-communications.md
         - name: Microsoft Teams Phone Resource Account license
           href: teams-add-on-licensing/virtual-user.md
         - name: Get started with Teams Essentials 

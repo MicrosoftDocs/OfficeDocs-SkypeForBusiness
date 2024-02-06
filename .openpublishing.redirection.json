@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "Teams/Office-365-custom-connectors.md",
+      "redirect_url": "/microsoftteams/m365-custom-connectors",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Teams/app-permissions-admin-center.md",
       "redirect_url": "/microsoftteams/manage-consent-app-permissions",
       "redirect_document_id": false
@@ -4723,6 +4728,11 @@
   {
     "source_path": "Teams/unsupported-browsers.md",
     "redirect_url": "https://support.microsoft.com/office/daafdd3c-ac7a-4855-871b-9113bad15907",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/teams-add-on-licensing/advanced-communications.md",
+    "redirect_url": "/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing",
     "redirect_document_id": false
   }
  ] 

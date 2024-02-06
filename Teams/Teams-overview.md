@@ -33,6 +33,9 @@ Don't miss our Welcome to Teams for the Teams admin video (just over 3 minutes):
 
 If you're looking for end user Teams Help, click **Help** on the left side of the app, or go to the [Microsoft Teams help center](https://support.office.com/teams). For training, go to [Microsoft Teams Training](training-microsoft-teams-landing-page.md). 
 
+> [!IMPORTANT]
+> For details about Teams feature availability and licensing, see [Teams add-on licensing options](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+
 ## Teams architecture
 
 Teams is built on Microsoft 365 groups, Microsoft Graph, and the same enterprise-level security, compliance, and manageability as the rest of Microsoft 365. Teams leverages identities stored in Microsoft Entra ID.

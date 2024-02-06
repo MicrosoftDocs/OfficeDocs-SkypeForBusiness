@@ -112,6 +112,9 @@ After these options are removed, Microsoft will begin moving all users except VD
 
 ## Frequently Asked Questions
 
+> [!NOTE]
+> The unavailability of classic Teams and dates mentioned in this article don't currently apply to Windows 10 users signed into Teams for Life or users signed into both Teams for Life and Teams for Work.
+
 ### Users
 
 - **If a user has both clients installed:** Only new Teams will work after March 31 2024, and we'll attempt to uninstall the classic Teams client.

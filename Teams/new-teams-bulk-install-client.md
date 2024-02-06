@@ -58,6 +58,7 @@ For new Teams to be successfully installed, computers must meet the minimum requ
 |:-----|:-----|
 |Windows| Windows 10 version 10.0.19041 or higher (excluding Windows 10 LTSC for Teams desktop app)|
 |Classic Teams app|Version 1.6.00.4472 or later to see the *Try the new Teams* toggle.</br>**Important:** Classic Teams is only a requirement if you want users to be able to switch between classic Teams and new Teams. This prerequisite is optional if you only want your users to see the new Teams client.|
+|Office |Microsoft 365 Apps or Office LTSC 2021 Learn more: [Office versions and connectivity to Microsoft 365 services](/deployoffice/endofsupport/microsoft-365-services-connectivity)|
 |Settings|Turn on the "Show Notification Banners" setting in **System > Notifications > Microsoft Teams** to receive Teams Notifications.|
 |Webview2|Update to the most current version. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise)|
 |App sideloading enabled|Ensure that sideloading is enabled on every computer you install on.  Learn more: [Sideload line of business (LOB) apps in Windows client devices](/windows/application-management/sideload-apps-in-windows-10)
@@ -115,13 +116,13 @@ To deploy this installer to a group of computers, or your entire organization, f
 3. Run the installer on each computer.
 
 > [!NOTE]
-> If the customer tenant is on the GCCH, DoD, Gallatin, or AG clouds, the customer may need to set the initial cloud endpoint through the registry key listed. Setting the endpoint with the registry key restricts teams to connecting to the correct cloud endpoint for pre-sign-in connectivity with Teams, as shown in the following:
+> If the customer tenant is on the GCCH, DoD, or Gallatin, the customer may need to set the initial cloud endpoint through the registry key listed. Setting the endpoint with the registry key restricts teams to connecting to the correct cloud endpoint for pre-sign-in connectivity with Teams, as shown in the following:
 >
 > ```console
 > HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams
 > Value = CloudType
 > value type = DWORD
->   1 = Commercial, 2 = GCC, 3 = GCCH, 4 = DOD, 5 = AirGap09, 6 = AirGap08, 7 = Gallatin
+>   1 = Commercial, 2 = GCC, 3 = GCCH, 4 = DOD, 7 = Gallatin
 > ```
 
 ## Step 2: Set new Teams as the default

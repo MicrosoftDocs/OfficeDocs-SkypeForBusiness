@@ -27,7 +27,7 @@ description: "Summary: How to use the Capacity Calculator Tool."
   
 The [Skype for Business Server 2015 Capacity Calculator](https://www.microsoft.com/download/details.aspx?id=51196) and [Skype for Business Server 2019 Capacity Calculator](https://www.microsoft.com/download/details.aspx?id=57509) augment the [Skype for Business Planning Tool](https://www.microsoft.com/download/details.aspx?id=50357) and your deployment documentation ([Plan for your Skype for Business Server 2015 deployment](../plan-your-deployment/plan-your-deployment.md) and [Plan for your Skype for Business Server 2019 deployment](../../SfBServer2019/plan/plan-your-deployment-2019.md) respectively). Use the calculator after you have reviewed the guide and created a recommended topology by using the Planning Tool.
   
-The Skype for Business Server Capacity Calculator helps you determine server requirements based on the number of users and the communication tools your organization uses. After you have determined your user profile and the functions you want to enable for your users, use the calculator to determine the number of servers, memory, and bandwidth you will need. This version of the calculator does not provide guidance for disk I/O requirements.
+The Skype for Business Server Capacity Calculator helps you determine server requirements based on the number of users and the communication tools your organization uses. After you have determined your user profile and the functions you want to enable for your users, use the calculator to determine the number of servers, memory, and bandwidth you'll need. This version of the calculator doesn't provide guidance for disk I/O requirements.
   
 You can benefit most from the calculator if you have accurate, detailed information about your specific user profile. For example, the percentage of voice-enabled users, average calls per user per hour, call duration, and the percentage of concurrent users in conferences can make a huge difference in server requirements. The accuracy of the recommendations created by the calculator depends on the accuracy of the information that you provide.
   
@@ -35,15 +35,15 @@ Once you have used the Planning Tool and the Capacity Planning Calculator, you s
   
 ## Using the Capacity Calculator
 
-The calculator is a Microsoft Excel spreadsheet. Your input cells are colored orange. Default values are entered in the cells (For Skype for Business Server 2015, 80,000 users in one pool with twelve Front End Servers, while for Skype for Business Server 2019, 106,000 users in one pool with sixteen Front End Servers), but you should change these values to match your organization's needs.
+The calculator is a Microsoft Excel spreadsheet. Your input cells are colored orange. Default values are entered in the cells (For Skype for Business Server 2015, 80,000 users in one pool with 12 Front End Servers, while for Skype for Business Server 2019, 106,000 users in one pool with 16 Front End Servers), but you should change these values to match your organization's needs.
   
 The usage model contains the following sections. To calculate your capacity requirements, enter data as described starting at the top of the sheet and working down row by row: 
   
  **Instant Messaging and Presence**
   
-- Under **Number of Users**, type the number of users who will be signed in at once. This number is typically 80% of the total number of provisioned users. In most situations, 100% of your concurrent users will be enabled for IM and Presence. The default is 80,000 for Skype for Business Server 2015, and 106,000 users for Skype for Business Server 2019.
+- Under **Number of Users**, type the number of users who will sign in at once. This number is typically 80% of the total number of provisioned users. In most situations, 100% of your concurrent users are enabled for IM and Presence. The default is 80,000 for Skype for Business Server 2015, and 106,000 users for Skype for Business Server 2019.
     
-- **Average number of contacts in Contact list** indicates the number of contacts that we are using to validate your system requirements. This number is fixed and not something you should change.
+- **Average number of contacts in Contact list** indicates the number of contacts that we're using to validate your system requirements. This number is fixed and not something you should change.
     
   **Enterprise Voice**
   
@@ -51,9 +51,9 @@ The usage model contains the following sections. To calculate your capacity requ
     
 - In **Average number of calls per user per hour (peak)**, type the number of calls per hour you expect the average user to participate in during times of peak load. The default is 4. 
     
-- In **Percentage of calls that use media bypass**, type the percentage of calls placed by your users that will bypass the Mediation Server. The default is 65%, but could be lower if you are spread out geographically or have a large percentage of users who work from home.
+- In **Percentage of calls that use media bypass**, type the percentage of calls placed by your users that bypass the Mediation Server. The default is 65%, but could be lower if you're spread out geographically or have a large percentage of users who work from home.
     
-- In **Percentage of voice users involved in UC-PSTN calls**, type the percentage of your organization's calls which are UC-PSTN phone calls. The default is 60%.
+- In **Percentage of voice users involved in UC-PSTN calls**, type the percentage of your organization's calls, which are UC-PSTN phone calls. The default is 60%.
     
 - **Percentage of voice users involved in UC-UC calls** shows the percentage of users who are enabled for Enterprise Voice who will be enabled only for UC-UC calls. This number is calculated based on what you input for **Percentage of voice users enabled for UC-PSTN calls**. 
     
@@ -61,11 +61,11 @@ The usage model contains the following sections. To calculate your capacity requ
   
 - In **Percentage of users in concurrent conferences**, type the percentage of users who will be participating in conferences at the same time. The default is 5%. 
     
-- In **Percentage of conferences with group IM only (no voice)**, type the percentage of conferences that will involve instant messaging only and do not include audio. The default is 10%
+- In **Percentage of conferences with group IM only (no voice)**, type the percentage of conferences that involves instant messaging only and don't include audio. The default is 10%
     
-- In **Percentage of users using dial-in conferencing**, type the percentage of participants in conferences who will be using dial-in conferencing at one time. The default is 15%.
+- In **Percentage of users using dial-in conferencing**, type the percentage of participants in conferences who are using dial-in conferencing at one time. The default is 15%.
     
-- In **Percentage of conferences using voice**, type the percentage of conferences that will include audio. 
+- In **Percentage of conferences using voice**, type the percentage of conferences that includes audio. 
     
   - If 20% of your voice conferences will also include regular video, select the **Including video (no Multi View)** check box.
     
