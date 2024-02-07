@@ -96,21 +96,20 @@ The following devices are Certified under the Microsoft Teams Displays Android C
 
 The following devices are Certified under the Microsoft Teams panels Certification Program:
 
-> The certification end date for Android 9 based devices has been extended to November 5, 2023.
-> The Certification end date for Qualcomm-based devices on Android 10 has been extended to September 3, 2025
+> The certification end date for Android 10 based devices has been extended to September 3, 2025
 
 | Device model| Firmware version | Current certification end date | Android OS version |
 |:------------------------|:-----------------|:--------------|-----------------------|
-|Neat Pad Panel    | `NFA1.20230928.0108` | 	September 3, 2024  | 10 |
-|Logitech Dock Flex | `1.10.81` | September 3, 2024 | 10|
+|Neat Pad Panel    | `NFA1.20230928.0108` | 	September 3, 2025  | 10 |
+|Logitech Dock Flex | `1.10.81` | September 3, 2025 | 10|
+|Logitech TAP Scheduler | `1.3.111` |September 3, 2025 | 10 |
 |Poly TC10 | `5.0.0.211194`|September 3, 2025  | 11 |
 |Audiocodes RX-Panel | `2.1.457`|October 4, 2026  | 12 |
-|Yealink RoomPanel | `147.520.0.4 `|September 3, 2024  | 10 |
+|Yealink RoomPanel | `147.520.0.4 `|September 3, 2025  | 10 |
 |Yealink RoomPanel Plus | `269.520.0.2 `|September 3, 2025   | 11 |
-|EPOS Expand Control Panel   | `1.2.22206.03` | September 3, 2024 | 10 |
-|Crestron TSS-770 | `2.001.0058` |September 3, 2024  | 10 |
-|Crestron TSS-1070 | `2.001.0058`|September 3, 2024 | 10 |
-|Logitech TAP Scheduler | `1.3.111` |September 3, 2024 | 10 |
+|EPOS Expand Control Panel   | `1.2.22206.03` | September 3, 2025 | 10 |
+|Crestron TSS-770 | `2.001.0058` |September 3, 2025  | 10 |
+|Crestron TSS-1070 | `2.001.0058`|September 3, 2025 | 10 |
 
 ### Product release information for Teams phones
 
