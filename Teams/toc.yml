@@ -569,6 +569,8 @@ items:
             href: manage-teams-with-policies.md
           - name: Team expiration and renewal
             href: team-expiration-renewal.md
+          - name: Private team discovery
+            href: search-private-teams.md
           - name: Archive or delete a team
             href: archive-or-delete-a-team.md
           - name: Migrate from Slack to Teams
@@ -676,6 +678,8 @@ items:
               href: manage-qna-for-teams.md
             - name: Manage meeting chat
               href: manage-meeting-chat.md
+            - name: Prevent users from joining external meetings
+              href: external-meeting-join.md
             - name: Manage reactions
               href: manage-reactions-meetings.md
             - name: Enable users to record their name when they join a meeting
@@ -1731,7 +1735,7 @@ items:
         - name: Set Adobe Acrobat as default PDF viewer
           href: adobe-acrobat-pdf-viewer-teams.md
         - name: Manage M365 connectors and custom connectors
-          href: Office-365-custom-connectors.md
+          href: m365-custom-connectors.md
         - name: Auto install approved apps
           href: auto-install-approved-apps.md
 
