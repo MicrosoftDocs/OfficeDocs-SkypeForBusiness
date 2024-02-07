@@ -20,9 +20,6 @@ appliesto:
   - Microsoft Teams
 ---
 
-# WARNING! There was an error parsing the document
-
-```
 # Sign out of Microsoft Teams
 
 It's a good idea to remain signed in to Microsoft Teams to ensure you don't miss incoming calls, chat messages, meeting starts, and other notifications. The new Teams desktop app supports multiple accounts side-by-side, removing the need to sign out and sign back in. [Learn more about New Teams](/microsoftteams/new-teams-desktop-admin).
@@ -62,7 +59,7 @@ In cases where a single desktop computer is shared between multiple Frontline Wo
 
 On mobile, users can sign out of Teams by tapping their profile icon, selecting **Settings**, and then **Sign out**. Once signed out, they'll need to reenter their credentials the next time they launch Teams.
 
-## <a id="shared-device" />Shared Device Mode: Global sign-in and sign-out for Frontline Workers
+## Shared Device Mode: Global sign-in and sign-out for Frontline
 
 Microsoft’s Shared Device Mode (SDM) allows mobile devices to be optimized for fast check-in/check-out by Frontline Workers. When a device is enabled for SDM, sign-out work differently on Teams.
 
@@ -74,4 +71,3 @@ With SDM, users can pick any device from a shared device pool and sign in as usu
 
 ![Sign-out-section](media/signout.png)
 ```
-
