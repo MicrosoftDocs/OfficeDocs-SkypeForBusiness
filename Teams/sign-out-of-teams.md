@@ -20,9 +20,6 @@ appliesto:
   - Microsoft Teams
 ---
 
-# WARNING! There was an error parsing the document
-
-```
 # Sign out of Microsoft Teams
 
 It's a good idea to remain signed in to Microsoft Teams to ensure you don't miss incoming calls, chat messages, meeting starts, and other notifications. The new Teams desktop app supports multiple accounts side-by-side, removing the need to sign out and sign back in. [Learn more about New Teams](/microsoftteams/new-teams-desktop-admin).
@@ -73,5 +70,4 @@ With SDM, users can pick any device from a shared device pool and sign in as usu
 **iOS**: To set up Shared Device Mode on iOS, see [How to use shared device mode on iOS](/azure/active-directory/develop/msal-ios-shared-devices).
 
 ![Sign-out-section](media/signout.png)
-```
 
