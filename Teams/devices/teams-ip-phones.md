@@ -96,8 +96,7 @@ The following devices are Certified under the Microsoft Teams Displays Android C
 
 The following devices are Certified under the Microsoft Teams panels Certification Program:
 
-> The certification end date for Android 9 based devices has been extended to November 5, 2023.
-> The Certification end date for Qualcomm-based devices on Android 10 has been extended to September 3, 2025
+> The certification end date for Android 10 based devices has been extended to September 3, 2025
 
 | Device model| Firmware version | Current certification end date | Android OS version |
 |:------------------------|:-----------------|:--------------|-----------------------|
