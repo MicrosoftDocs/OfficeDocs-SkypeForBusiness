@@ -27,7 +27,7 @@ Watcher nodes are computers that periodically run Skype for Business Server synt
     
 - **Extended** A special type of Non-default synthetic transaction. Unlike other synthetic transactions, Extended tests can be run multiple times during each pass. This is useful when verifying behavior, such as multiple public switched telephone network (PSTN) voice routes for a pool. You can configure this simply by adding multiple instances of an extended test to a watcher node.
     
-For details about the process for adding other synthetic transactions to a watcher node, see [Configure a Watcher Node to Run Synthetic Transactions](../../SfbServer/management-tools/use-scom-management-pack/watcher-nodes.md.md#enable_synthetic_trans). You can also use Skype for Business Server Management Shell to remove synthetic transactions from a watcher node.
+For details about the process for adding other synthetic transactions to a watcher node, see [Configure a Watcher Node to Run Synthetic Transactions](../../SfbServer/management-tools/use-scom-management-pack/watcher-nodes.md#enable_synthetic_trans). You can also use Skype for Business Server Management Shell to remove synthetic transactions from a watcher node.
   
 The synthetic transactions available to watcher nodes include the following:
   
