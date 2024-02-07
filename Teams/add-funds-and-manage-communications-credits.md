@@ -49,7 +49,7 @@ You can update your payment options at any time. On the **Subscriptions** pa
 
 Funds apply only to Communications Credits at Microsoft's published rates when the services are used. Any funds not used within 12 months of the purchase date expire and are forfeited.
 
-> [!TIP]
+> [!TIP]
 > We send email notifications when funds are added via automatic recharge, when automatic recharge fails (for example, when a credit card expires), and when your balance reaches zero. 
 
 For more information, see [What are Communications Credits?](what-are-communications-credits.md).
