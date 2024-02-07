@@ -24,11 +24,11 @@ appliesto:
 
 It's a good idea to remain signed in to Microsoft Teams to ensure you don't miss incoming calls, chat messages, meeting starts, and other notifications. The new Teams desktop app supports multiple accounts side-by-side, removing the need to sign out and sign back in. [Learn more about New Teams](/microsoftteams/new-teams-desktop-admin).
 
-However, there are times where users might need to sign out of Teams, for example when they’re using a device that is shared with another person. Signing out should always be initiated by end-users, from inside the Teams app, and Microsoft recommends against using custom scripts that attempt to programmatically sign out users. Things are a bit different for [Shared Device Mode on mobile devices](#shared-device) which is described later in this article.
+However, there are times where users might need to sign out of Teams, for example when they’re using a device that is shared with another person. Signing out should always be initiated by end-users, from inside the Teams app, and Microsoft recommends against using custom scripts that attempt to programmatically sign out users. Things are a bit different for [Shared Device Mode: Global sign-in and sign-out for Frontline](#shared-device-mode-global-sign-in-and-sign-out-for-frontline) which is described later in this article.
 
 ## Sign out of Teams on the web
 
-To sign out of Teams in a browser, users should select their profile picture at the top of the app, then select **Sign Out**. They'll be signed out from all Microsoft 365 applications in a given browser profile. The next time they sign in to Teams or other Microsoft 365 applications, their username will be shown on the sign-in page. In most cases, they'll to reenter their credentials, and can remove their account from the list by clicking “Forget”.  
+To sign out of Teams in a browser, users should select their profile picture at the top of the app, then select **Sign Out**. They'll be signed out from all Microsoft 365 applications in a given browser profile. The next time they sign in to Teams or other Microsoft 365 applications, their username will be shown on the sign-in page. In most cases, they'll need to reenter their credentials, and can remove their account from the list by clicking “Forget”.  
 
 If this is a shared computer and you don’t want usernames to be visible to others, we recommend using browsers in InPrivate/Incognito mode.
 
@@ -59,7 +59,7 @@ In cases where a single desktop computer is shared between multiple Frontline Wo
 
 On mobile, users can sign out of Teams by tapping their profile icon, selecting **Settings**, and then **Sign out**. Once signed out, they'll need to reenter their credentials the next time they launch Teams.
 
-## <a id="shared-device" />Shared Device Mode: Global sign-in and sign-out for Frontline Workers
+## Shared Device Mode: Global sign-in and sign-out for Frontline
 
 Microsoft’s Shared Device Mode (SDM) allows mobile devices to be optimized for fast check-in/check-out by Frontline Workers. When a device is enabled for SDM, sign-out work differently on Teams.
 
@@ -70,4 +70,3 @@ With SDM, users can pick any device from a shared device pool and sign in as usu
 **iOS**: To set up Shared Device Mode on iOS, see [How to use shared device mode on iOS](/azure/active-directory/develop/msal-ios-shared-devices).
 
 ![Sign-out-section](media/signout.png)
-
