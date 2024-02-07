@@ -72,8 +72,8 @@ We recommend you select a specific value other than **Microsoft default** to ens
 
 2. Under **Tagging**, next to **Who can manage tags**, select one of the following options:
 
-    - **Team owners, members, and guests**: Allow team owners, members, and guests to manage tags.
-    - **Team owners and members**: Allow team owners and members to manage tags.
+    - **Team owners, members, and guests**: Allow team owners, team members, and guests to manage tags.
+    - **Team owners and members**: Allow team owners and team members to manage tags.
     - **Team owners**: Allow team owners to manage tags.
     - **Not enabled**: Turn off tags.
 
