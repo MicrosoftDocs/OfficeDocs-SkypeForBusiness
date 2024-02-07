@@ -28,7 +28,7 @@ However, there are times where users might need to sign out of Teams, for exampl
 
 ## Sign out of Teams on the web
 
-To sign out of Teams in a browser, users should select their profile picture at the top of the app, then select **Sign Out**. They'll be signed out from all Microsoft 365 applications in a given browser profile. The next time they sign in to Teams or other Microsoft 365 applications, their username will be shown on the sign-in page. In most cases, they'll to reenter their credentials, and can remove their account from the list by clicking “Forget”.  
+To sign out of Teams in a browser, users should select their profile picture at the top of the app, then select **Sign Out**. They'll be signed out from all Microsoft 365 applications in a given browser profile. The next time they sign in to Teams or other Microsoft 365 applications, their username will be shown on the sign-in page. In most cases, they'll need to reenter their credentials, and can remove their account from the list by clicking “Forget”.  
 
 If this is a shared computer and you don’t want usernames to be visible to others, we recommend using browsers in InPrivate/Incognito mode.
 
