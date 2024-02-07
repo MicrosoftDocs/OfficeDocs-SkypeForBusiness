@@ -24,7 +24,7 @@ appliesto:
 
 It's a good idea to remain signed in to Microsoft Teams to ensure you don't miss incoming calls, chat messages, meeting starts, and other notifications. The new Teams desktop app supports multiple accounts side-by-side, removing the need to sign out and sign back in. [Learn more about New Teams](/microsoftteams/new-teams-desktop-admin).
 
-However, there are times where users might need to sign out of Teams, for example when they’re using a device that is shared with another person. Signing out should always be initiated by end-users, from inside the Teams app, and Microsoft recommends against using custom scripts that attempt to programmatically sign out users. Things are a bit different for [Shared Device Mode on mobile devices](#shared-device) which is described later in this article.
+However, there are times where users might need to sign out of Teams, for example when they’re using a device that is shared with another person. Signing out should always be initiated by end-users, from inside the Teams app, and Microsoft recommends against using custom scripts that attempt to programmatically sign out users. Things are a bit different for [Shared Device Mode: Global sign-in and sign-out for Frontline](#Shared-Device-Mode-Global-sign-in-and-sign-out-for-Frontline) which is described later in this article.
 
 ## Sign out of Teams on the web
 
