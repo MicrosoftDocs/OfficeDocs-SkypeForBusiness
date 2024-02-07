@@ -49,15 +49,17 @@ The following table shows the main features that are different between meetings,
 |Attendee mic and camera|✔️|✔️|✖️|
 |End-to-end encryption|Premium|✖️|✖️|
 |Watermarks|Premium|✖️|✖️|
-|Theme|Premium|Premium|Premium|
-|Streaming|Above 1,000 participants|✖️|Automatic|
+|Theme|Premium|✔️|✔️|
 |Registration|Optional|✔️|✖️|
-|Interactive participants|1,000 (Enterprise plans)<br>300 (Business plans)|1,000|✖️|
-|Streaming participants|10,000 (Enterprise plans only)|✖️|Town halls: 10,000<br> Premium town halls: 20,000|
-|Maximum total participants|11,000* (Enterprise plans only)|1,000|Town halls: 10,000<br> Premium town halls: 20,000|
-|Breakout rooms|✔️|✖️|✖️|
+|Breakout rooms|✔️|✖️<sup>2</sup>|✖️|
+|Content sharing and interaction|✔️|✔️|Q&A only|
+|Interactive participants|1,000 (Enterprise plans)<br>300 (Business plans)|1,000|Town halls: 10,000<br> Premium town halls: 20,000|
+|View-only participants|10,000<sup>1</sup> (Enterprise plans only)|✖️|✖️|
+|Maximum total participants|11,000<sup>1</sup> (Enterprise plans only)|1,000|Town halls: 10,000<br> Premium town halls: 20,000|
 
-*The usual 10,000 is increased to 20,000 through June 30, 2024. The maximum total participants for meetings is the sum of the interactive participants plus streaming participants.
+<sup>1</sup>The usual 10,000 is increased to 20,000 through June 30, 2024. The maximum total participants for meetings is the sum of the interactive participants plus streaming participants.<br>
+
+<sup>2</sup> Breakout rooms can be used if a webinar has fewer than 300 participants. However, if the number of participants increases to above 300, breakout rooms aren't supported.
 
 For more information on limits and specifications for Teams webinars, meetings, and town halls, see [Limits and specifications for Microsoft Teams.](limits-specifications-teams.md)
 

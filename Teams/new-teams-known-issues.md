@@ -39,6 +39,7 @@ ms.localizationpriority: high
 - Custom Announcement Backgrounds are only available in the AMER region. Pending availability of the full Designer backed AI capabilities in other regions, we are working to provide the option for users to upload their own images.
 - [Cross Cloud Guest Access (CCGA) accounts](https://techcommunity.microsoft.com/t5/microsoft-teams-support/cross-cloud-meeting-amp-cross-cloud-guest-access-between-ww/ba-p/3990829) are not yet shown on the Web client. Until this feature is available, users can use CCGA meeting-join links or navigate directly to the cloud-specific URL in a new tab.
 - If using classic Teams for Web to open a [Cross Cloud Meeting (CCM)](https://techcommunity.microsoft.com/t5/microsoft-teams-support/cross-cloud-meeting-amp-cross-cloud-guest-access-between-ww/ba-p/3990829) link into a cloud where the user is opted into new Teams for web, the meeting join will fail. Until a fix is ready, users may navigate directly to the cloud-specific URL to join their meeting.
+- [A website doesn't load in the new Teams desktop](/microsoftteams/troubleshoot/tabs/websites-not-loaded-new-teams).
 
 ## Issues specifically for the new Microsoft Teams for Education
 
