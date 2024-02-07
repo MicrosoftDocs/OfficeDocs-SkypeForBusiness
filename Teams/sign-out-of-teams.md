@@ -32,14 +32,14 @@ To sign out of Teams in a browser, users should select their profile picture at 
 
 If this is a shared computer and you don’t want usernames to be visible to others, we recommend using browsers in InPrivate/Incognito mode.
 
-## Sign out of Teams on desktop (Windows or MacOS)
+## Sign out of Teams on desktop (Windows or macOS)
 
 To sign out of the Teams desktop app, users should select their profile picture at the top of the app, and then select **Sign Out**. If multiple accounts were added, they'll need to sign out of each account individually.
 
 ### Account sharing between apps
 
 Modern operating systems allow sharing of accounts between different apps on a device. This is referred to as single sign-on (SSO), and it’s designed to help users seamlessly navigate between different apps with the same account.  
-SSO has an important impact on sign out: when users sign out of the Teams desktop app, the data associated with their account is removed from the Teams app but the account iteself isn’t removed from the device. Users will need  to reenter their credentials if they sign back in to Teams with the same account, but other apps on the device may continue to have access to their account. This means that signing out of Teams does not prevent other users from accessing the data associated with your account.
+SSO has an important impact on sign out: when users sign out of the Teams desktop app, the data associated with their account is removed from the Teams app but the account itself isn’t removed from the device. Users will need  to reenter their credentials if they sign back in to Teams with the same account, but other apps on the device may continue to have access to their account. This means that signing out of Teams doesn't prevent other users from accessing the data associated with your account.
 
 ### “This app only” mode on Windows
 
@@ -47,11 +47,11 @@ On Windows, users may see an option to sign in to “this app only”. When this
 
 ![Screenshot: User interface of sign in to all apps with a link to only sign into this app only.](media/sign-in-to-all-apps.png)
 
-**Note:** when users select “this app only” when signing in to Teams, other apps on the PCs won’t be able to use this account. Practically, this means that links to files or websites clicked in Teams may not properly open in Microsoft 365 or in Edge, and users may be prompted to sign in again. In other words, “this app only” prevents SSO from working correctly between Windows, Teams and other applications, and as such is not recommended when signing in to Teams.
+**Note:** when users select “this app only” when signing in to Teams, other apps on the PCs won’t be able to use this account. Practically, this means that links to files or websites clicked in Teams may not properly open in Microsoft 365 or in Microsoft Edge, and users may be prompted to sign in again. In other words, “this app only” prevents SSO from working correctly between Windows, Teams and other applications, and as such isn't recommended when signing in to Teams.
 
 ### Best practices for multiple users on a shared desktop device
 
-If a desktop computer is shared by different users, we recommend setting it up with separate accounts to log in to Windows or MacOS and training users to lock the computer when they walk away. This allows each user to enjoy SSO between apps in a given operating system session and keep their account and data separated from other users'.
+If a desktop computer is shared by different users, we recommend setting it up with separate accounts to sign in to Windows or macOS and training users to lock the computer when they walk away. This allows each user to enjoy SSO between apps in a given operating system session and keep their account and data separated from other users'.
 
 In cases where a single desktop computer is shared between multiple Frontline Workers, we recommend using Cloud PCs, as described here: [Frontline worker for Windows devices in Microsoft Intune](/mem/solutions/frontline-worker/frontline-worker-overview-windows).
 
