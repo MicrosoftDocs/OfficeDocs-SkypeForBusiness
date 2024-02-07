@@ -21,20 +21,20 @@ description: "To configure the Microsoft push notifications and Apple push notif
  
 To configure the **Microsoft push notifications** and **Apple push notifications**, you must create a policy to define which types of push notification you require.
   
-On the main configuration screen, you can click **Refresh** to refresh and re-populate the list of policies. A search box is provided for narrowing the list of displayed policies. As you type the name that you are searching for, the list of policies narrows automatically.
+On the main configuration screen, you can select **Refresh** to refresh and re-populate the list of policies. A search box is provided for narrowing the list of displayed policies. As you type the name that you're searching for, the list of policies narrows automatically.
   
 > [!IMPORTANT]
 > Policy settings that are applied at one policy level can override settings that are applied at another policy level. Policy precedence is: User policy (most influence) overrides a Site policy, and then a Site policy overrides a Global policy (least influence). This means that the closer the policy setting is to the object that the policy is affecting, the more influence it has on the object. 
   
 Two selections are available for policy creation and editing:
   
-1. **New**: Click to create a new policy. You must provide a site for the policy to apply to. You then configure the settings for the push notification. For **Push Notification Configuration**, you can only create policies for Sites that you have already created.
+1. **New**: Select to create a new policy. You must provide a site for the policy to apply to. You then configure the settings for the push notification. For **Push Notification Configuration**, you can only create policies for Sites that you have created.
     
 2. **Edit**: Select a policy and click Edit to select an action from a drop-down. You can only edit sites that you have already created or edit the Global policy:
     
-   - **Show details...**: Displays information about the currently selected policy. You will be able to make changes to the existing policy.
+   - **Show details...**: Displays information about the currently selected policy. You are able to make changes to the existing policy.
     
-   - **Select all**: If you have a number of policies and need to select all policies, click Select all
+   - **Select all**: If you have many policies and need to select all policies, click **Select all**.
     
    - **Delete**: Will remove the selected policy. Using **Select all** and **Delete** will remove all policies
     

@@ -56,12 +56,7 @@ Some Teams functionalities such as activity feed, teams, chat, calendar, calls, 
 
 ### Apps created by Microsoft
 
-Microsoft provides many apps to improve productivity and collaboration. You and the users can find these apps by looking for Microsoft listed as the Publisher in Teams admin center or listed as Provider in the Teams store.
-
-> [!NOTE]
-> A known limitation in the Teams admin center is that you can only view and manage apps that are deployed in the same release channel as your tenant is. For example, if your tenant is in the general release channel then you can't manage apps that are deployed in the private or public preview channels. This isn't an issue for apps that are released to the general release channel.
-
-Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approvals, and more. We recommend that you include the featured apps—such as Planner—in your initial Teams rollout.
+Microsoft provides [these apps](#list-of-apps-created-by-microsoft) to improve productivity and collaboration. Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approvals, and more. We recommend that you include the featured apps—such as Planner—in your initial Teams rollout.
 
 :::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Screenshot showing a list of Microsoft apps in Teams admin center." lightbox="media/microsoft-apps-in-tac2.png":::
 
@@ -137,6 +132,76 @@ To provide a rich experience that allows users to work inside Teams, apps contai
 * **Activity feeds**: Activity Feed in Teams contains a notification of all the activity in various scopes like channels and chats. Apps can broadcast a message to all the members of say a team or a channel to notify of any updates. Users can customize what notifications they view.
 
 To view common use cases mapped to Teams capabilities, see [Map your use cases to Teams app capabilities](/microsoftteams/platform/concepts/design/map-use-cases).
+
+## List of apps created by Microsoft
+
+The following list of apps are the only Microsoft apps in Teams admin center:
+
+* Admin
+* Approvals
+* Avatars
+* Azure AD Notifications
+* Azure Boards
+* Azure DevOps
+* Azure DevOps Server
+* Azure Lab Services
+* Azure Pipelines
+* Azure Repos
+* Bing News
+* Bookings
+* Bulletins
+* Channel calendar
+* Data Activator
+* Dataverse Chat Sync
+* Defender Experts
+* Developer Portal
+* Dynamics 365
+* Employee ideas
+* Forms
+* Games for Work
+* Images
+* Inspection
+* Issue reporting
+* Lists
+* M365 Chat
+* Mesh
+* Power Virtual Agents
+* Milestones
+* News
+* OneNote
+* Outgoing Webhook
+* Payments (preview)
+* Places
+* Polls
+* Power Apps
+* Power Automate Actions
+* Power BI
+* Praise
+* Project
+* PTZ Camera Controls
+* Roadmap – Microsoft Project
+* Sales Copilot
+* SharePoint
+* SharePoint News
+* SharePoint Pages
+* Shifts
+* Stocks
+* Tasks by Planner and To Do
+* Viva Topics
+* Updates
+* Virtual Appointments
+* Visio
+* Viva Connections
+* Viva Engage
+* Viva Goals
+* Viva Insights
+* Viva Learning
+* Viva Pulse
+* Weather
+* Website
+* Whiteboard
+* Wikipedia Search
+* Workflows
 
 ## Related articles
 

@@ -55,6 +55,26 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Logi Rallybar | `1.11.254`   | 2023 Update #2 |
+| Logi Rallybar Mini | `1.11.254`   | 2023 Update #2  |
+| Logi RoomMate | `1.11.215`   | 2023 Update #2  |
+| Logi Rallybar Huddle | `1.11.166`   | 2023 Update #2  |
+| Logi Console  | `1.11.202`| 2023 Update #2  |
+| Jabra Panacast 50 VBS | 1.17.4-1 | 2023 Update #2 |
+| Jabra Panacast 50 TC | 1.17.4-1 | 2023 Update #2 |
+| Cisco Board Pro 55 | `11.11.1.10` | 2023 Update #2B1 |
+| Cisco Board Pro 75 | `11.11.1.10` | 2023 Update #2B1 |
+| Cisco Room Bar | `11.11.1.10` | 2023 Update #2B1 |
+| Cisco Room Kit Pro | `11.11.1.10` | 2023 Update #2B1 |
+| Cisco Desk Pro | `11.11.1.10` | 2023 Update #2B1 |
+| Cisco Room Bar Pro | `11.11.1.10` | 2023 Update #2B1 |
+| Cisco Room Kit EQ | `11.11.1.10` | 2023 Update #2B1 |
+| Cisco Navigator | `11.11.1.10` | 2023 Update #2B1 |
+| Neat Bar | `NFB1.20230928.0015` | 2023 Update #2B1 |
+| Neat Bar Pro| `NFD1.20230928.0015` | 2023 Update #2B1 |
+| Neat Board | `NFC1.20230928.0015	` |  2023 Update #2B1 |
+| Neat Board 50 | `NFC1.20230928.0015	` |  2023 Update #2B1 |
+| Neat Pad touch console | `NFA1.20230928.0116`  |  2023 Update #2B1 |
 | Cisco Board Pro 55 | `11.10.1.9` | 2023 Update #2B1 |
 | Cisco Board Pro 75 | `11.10.1.9` | 2023 Update #2B1 |
 | Cisco Room Bar | `11.10.1.9` | 2023 Update #2B1 |
@@ -67,8 +87,8 @@ When you install a new firmware version on your device, you can determine the co
 | Yealink MeetingBar A20 | `133.320.0.35`   | 2023 Update #2B1  |
 | Yealink MeetingBar A30 | `133.320.0.35`   | 2023 Update #2B1  |
 | Yealink CTP18 | `137.320.0.40`   | 2023 Update #2B1  |
-| Yealink MeetingBoard 65" | `155.15.0.59` | 2022 Update #2B1 |
-| Yealink MeetingBoard 86" | `155.15.0.59` | 2022 Update #2B1 |
+| Yealink MeetingBoard 65" | `155.15.0.59` | 2023 Update #2B1 |
+| Yealink MeetingBoard 86" | `155.15.0.59` | 2023 Update #2B1 |
 | Poly Studio X52 | `4.1.2-388101` | 2023 Update #2B1 |
 | Poly TC10 | `4.1.2-211367` | 2023 Update #2B1 |
 | Poly Studio X30 | `4.1.2-388101` | 2023 Update #2B1 |

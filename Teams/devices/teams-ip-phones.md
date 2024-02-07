@@ -101,7 +101,7 @@ The following devices are Certified under the Microsoft Teams panels Certificati
 
 | Device model| Firmware version | Current certification end date | Android OS version |
 |:------------------------|:-----------------|:--------------|-----------------------|
-|Neat Pad Panel    | `NFA1.20230928.0108` | 	September 3, 2025  | 10 |
+|Neat Pad Panel    | `NFA1.20230928.0108` | 	September 3, 2024  | 10 |
 |Logitech Dock Flex | `1.10.81` | September 3, 2024 | 10|
 |Poly TC10 | `5.0.0.211194`|September 3, 2025  | 11 |
 |Audiocodes RX-Panel | `2.1.457`|October 4, 2026  | 12 |
@@ -120,6 +120,7 @@ The following are the latest Teams phone app and firmware versions.
 
 | Product release | Release date  | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| 2023 Update #3E | January 23, 2024 | `1449/1.0.94.2024011003` | `5.0.5954.0` | `486`|
 | 2023 Update #3D | December 6, 2023 | `1449/1.0.94.2023112704` | `5.0.5954.0` | `486`|
 | 2023 Update #3C1 | November 28, 2023 | `1449/1.0.94.2023111407` | `5.0.5954.0` | `486`|
 | 2023 Update #3C | November 6, 2023 | `1449/1.0.94.2023100602` | `5.0.5954.0` | `486`|
@@ -163,6 +164,10 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|Yealink MP52  | `145.15.0.83`     | 2023 Update #3B  |
+|Yealink VP59  | `91.15.0.136`     | 2023 Update #3B  |
+|Poly CCX 350/400/500/505/600 | `8.1.5.1732` | 2023 Update #3 |
+|Poly Trio C60 | `8.1.5.1737 ` | 2023 Update #3 |
 |Poly CCX 400/500/505/600 | `8.1.4.1480` | 2023 Update #3 |
 |Poly Trio C60 | `8.1.4.1456 ` | 2023 Update #3 |
 |Audiocodes C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.584` | 2023 Update #3C    |
@@ -360,7 +365,7 @@ When you install a new firmware version on your device, you can determine the co
 |Yealink RoomPanel | ` 147.520.0.15 ` | 2023 Update #3 |
 |Logitech Tap Scheduler | `1.10.129` |2023 Update #3  |
 |EPOS EXPAND Control 3P |`v1.8.23258.01`   | 2023 Update #3 |
-|Audiocodes RXPanel | '2.2.311' |2023 Update #3|
+|Audiocodes RXPanel | `2.2.311` |2023 Update #3|
 |Logitech Tap Scheduler | `1.10.121` |2023 Update #2  |
 |Poly TC10 | `5.0.0.211238` | 2023 Update #2 |
 |Yealink RoomPanel | ` 147.520.0.10 ` | 2023 Update #2 |
@@ -369,7 +374,6 @@ When you install a new firmware version on your device, you can determine the co
 | EPOS EXPAND Control 3P |`v1.7.23195.06`   | 2023 Update #2 |
 |Yealink RoomPanel | ` 147.520.0.7 ` | 2023 Update #1 |
 |Crestron Touchpanel /770-T/1070-T | `2.004.1029` | 2022 Update #4A|
-|Yealink RoomPanel Plus | ` 269.520.0.12 ` | 2023 Update #1 |
 |Logitech Tap Scheduler | `1.9.388` |2023 Update #1  |
 |Crestron Touchpanel /770-T/1070-T | `2.004.1026` | 2022 Update #4A|
 |Crestron Touchpanel /770-T/1070-T | `2.004.0033.001` | 2022 Update #4A|
