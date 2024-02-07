@@ -23,11 +23,11 @@ Watcher nodes are computers that periodically run Skype for Business Server synt
   
 - **Default** Synthetic transactions that a watcher node runs by default. When you create a new watcher node, you can specify which synthetic transactions that node run. (That's the purpose of the Tests parameter used by the New-CsWatcherNodeConfiguration cmdlet.) If you don't use the Tests parameter when the watcher node is created, it automatically runs all the Default synthetic transactions and doesn't run any of the Non-default synthetic transactions. This means, for example, that the watcher node will be configured to run the Test-CsAddressBookService test, but won't be configured to run the Test-CsExumConnectivity test.
     
-- **Non-default** Tests that watcher nodes don't run by default. (For details, see the description of the Default type.) However, the watcher node can be enabled to run any of the Non-default synthetic transactions. You can do this when you create the watcher node (by using the New-CsWatcherNodeConfiguration cmdlet), or anytime after the watcher node has been created. Note that many of the Non-default synthetic transactions require extra setup steps. For more details about these steps, see [Special Setup Instructions for Synthetic Transactions](test-users-and-settings.md#special_synthetictrans).
+- **Non-default** Tests that watcher nodes don't run by default. (For details, see the description of the Default type.) However, the watcher node can be enabled to run any of the Non-default synthetic transactions. You can do this when you create the watcher node (by using the New-CsWatcherNodeConfiguration cmdlet), or anytime after the watcher node has been created. Note that many of the Non-default synthetic transactions require extra setup steps. For more details about these steps, see [Special Setup Instructions for Synthetic Transactions](..\..\SfbServer\management-tools\use-scom-management-pack\test-users-and-settings.md#special_synthetictrans).
     
 - **Extended** A special type of Non-default synthetic transaction. Unlike other synthetic transactions, Extended tests can be run multiple times during each pass. This is useful when verifying behavior, such as multiple public switched telephone network (PSTN) voice routes for a pool. You can configure this simply by adding multiple instances of an extended test to a watcher node.
     
-For details about the process for adding other synthetic transactions to a watcher node, see [Configure a Watcher Node to Run Synthetic Transactions](watcher-nodes.md#enable_synthetic_trans). You can also use Skype for Business Server Management Shell to remove synthetic transactions from a watcher node.
+For details about the process for adding other synthetic transactions to a watcher node, see [Configure a Watcher Node to Run Synthetic Transactions](..\..\SfbServer\management-tools\use-scom-management-pack\watcher-nodes.md.md#enable_synthetic_trans). You can also use Skype for Business Server Management Shell to remove synthetic transactions from a watcher node.
   
 The synthetic transactions available to watcher nodes include the following:
   
@@ -74,7 +74,7 @@ Lync Server 2013 watcher nodes may be deployed inside or outside an enterprise t
     
 - Connectivity to Lync Server 2013 inside the enterprise and through perimeter networks.
     
-To help simplify administration, different authentication options are available for inside and outside of the enterprise. For details, see [Configure a Watcher Node to Run Synthetic Transactions](watcher-nodes.md#enable_synthetic_trans).
+To help simplify administration, different authentication options are available for inside and outside of the enterprise. For details, see [Configure a Watcher Node to Run Synthetic Transactions](..\..\SfbServer\management-tools\use-scom-management-pack\watcher-nodes.md#enable_synthetic_trans).
   
 To configure a computer to act as a watcher node, you must first complete the following prerequisites: 
   
@@ -140,7 +140,7 @@ If you see information about your PIN policies, the core components have been su
 
 Similar to Skype for Business Server setup for reporting component alerts, a Skype for Business Server 2015 watcher node requires System Center Operations Manager agent files to be installed. This enables the synthetic transactions to be run and alerts to be reported to the System Center Operations Manager Root Management Server.
   
-To install the agent files, follow the procedures listed in [Configure the Skype for Business Server computers that will be monitored](configure-computers-to-monitor.md).
+To install the agent files, follow the procedures listed in [Configure the Skype for Business Server computers that will be monitored](..\..\SfbServer\management-tools\use-scom-management-pack\configure-computers-to-monitor.md).
   
 ## Configure a Watcher Node to Run Synthetic Transactions
 <a name="enable_synthetic_trans"> </a>
