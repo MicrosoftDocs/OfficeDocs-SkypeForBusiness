@@ -700,7 +700,7 @@ Introduced in this update:
 - Bug fixes and other improvements.
 
 > [!NOTE]
-> This release only applies to Logitech devices. 
+> This release only applies to Logitech devices. Support for additional device manufacturers will be added later.
 
 ### 1449/1.0.96.2023120801 (December 2023)
 
