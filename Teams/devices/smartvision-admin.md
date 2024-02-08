@@ -22,20 +22,20 @@ description: Learn how to setup and use the Microsoft Teams Multi-Stream Intelli
 ---
 # What is Microsoft Multi-Stream IntelliFrame and Intelligent Camera
 
-Microsoft Teams Multi-Stream IntelliFrame is a platform leveraging AI (Artificial Intelligence) Cameras, which allows users to inspire and share experiences for remote users.
+Microsoft Teams Multi-Stream IntelliFrame is a AI (Artificial Intelligence) platform, which allows users to inspire and share experiences for remote users.
 
-IntelliFrame provides an immersive audio and video experience for remote users through a better meeting understanding. It allows for identifying the active speaker and their role, whiteboard content capture, transcription and translation, and an Office 365 Graph for remote and hard of hearing users to be deployed easily.
+IntelliFrame provides an immersive audio and video experience for remote users through a better meeting understanding by identifying the active speaker as well as a view of the room to provide a accessible and high quality hybrid meeting experience.
 
 ## Getting started
 
-Microsoft Teams Multi-Stream IntelliFrame certified cameras, include a loudspeaker and microphones as well as a AI camera which can produce multiple video streams and AI-powered active speaker tracking by recognizing facial movements and gestures.
+Microsoft Teams Multi-Stream IntelliFrame certified devices, include a speaker, microphone, and a AI camera which can produce multiple video streams and AI-powered active speaker tracking by recognizing facial movements and gestures.
 
 ### Prerequisites
 
 - Microsoft Teams Rooms Windows device
 - Teams Rooms resource account with a Microsoft Teams Rooms Pro license
   - Microsoft Teams Rooms with Pro license is required to enable IntelliFrame, and people recognition features on Microsoft Teams Rooms.
-  - Basic license won't enable IntelliFrame or people recognition. If you have Teams Rooms Basic license, the camera shows only active speaker and panoramic views.
+  - Basic license does not support IntelliFrame or people recognition. If you have Teams Rooms Basic license, the camera shows only active speaker and panoramic views.
   - Check the [this link](../rooms/license-check.md#check-the-license-of-a-couple-teams-rooms-devices   ) to determine if you have the right license.
 - Set policy for [People Recognition and Enrollment](#enabling-enrollment-option-and-people-recognition).
 
@@ -55,7 +55,7 @@ Connect the supplied USB cable to the USB port on your Microsoft Teams Room devi
 > [!Note]
 > Ensure the cable is not pulled tightly or pinched for ideal data transmission and connectivity.
 
-Sign in to Microsoft Teams Rooms settings as an admin and ensure your camera is selected.  You may also need to adjust OEM specific camera settings to ignore displays or set zones to not track speakers if you have glass walls in your conference room, please refer to your camera documentation for these processes as they are device specific.
+Sign in to Microsoft Teams Rooms settings as an admin and ensure your camera is selected.  You may need to adjust OEM specific camera settings to ignore displays or set zones to not track speakers if you have glass walls in your conference room, refer to your camera documentation for these processes as they are device specific.
 
 
 ## Enabling enrollment option and people recognition
@@ -81,27 +81,27 @@ This requires  `CsTeamsMeetingPolicy` **enrollUserOverride** tenant policy to be
 - `enrollUserOverride` = {Disabled | Enabled}
 
   - **Enabled**- Policy value allows Enrollment tab to be seen on individual Teams user accounts for registering voice and face profiles.  
-  - **Disabled** – No enrollment tab option. This is default.
+  - **Disabled** – No enrollment tab option (Default).
 
-  *This policy should already be enabled if tenant has allowed voice enrollment.
+  *This policy should already be enabled if tenant already allows voice enrollment.
 
   :::image type="content" source="../media/enroll-user-override.png" alt-text="Screenshot that shows the voice recognition."
 
 ### Enabling people recognition
 
-In some states, people recognition can't be used.
+In some locations, people recognition can't be used due to local laws or regulations.
 
-This requires the tenant  `CsTeamsMeetingPolicy` **roomPeopleNameUserOverride** to be "**On**" and **roomAttributeUserOverride** to be **Attribute** for allowing individual voice and face profiles to be used for recognition in meetings.
+Enabling people recognition requires the tenant  `CsTeamsMeetingPolicy` **roomPeopleNameUserOverride** to be "**On**" and **roomAttributeUserOverride** to be **Attribute** for allowing individual voice and face profiles to be used for recognition in meetings.
 
 - `roomPeopleNameUserOverride` = {On | Off}
 
-  - **On** - Policy value allow **People recognition** option on Microsoft Teams Rooms under call control bar.  
-  - **Off** – No People Recognition option on Microsoft Teams Room. This is default.
+  - **On** - Policy value allows **People recognition** option on Microsoft Teams Rooms under call control bar.  
+  - **Off** – No People Recognition option on Microsoft Teams Room (Default).
 
 - `roomAttributeUserOverride` = {Attribute | Off}
 
-  - **Attribute** - Policy value allow **Voice identification** option on Microsoft Teams Rooms if transcription is started for the meeting.  
-  - **Off** – No Voice identification option on Microsoft Teams Rooms. This is the default.
+  - **Attribute** - Policy value allows **Voice identification** option on Microsoft Teams Rooms if transcription is started for the meeting.  
+  - **Off** – No Voice identification option on Microsoft Teams Rooms (Default).
 
 For more on information on setting meeting policies, see [Tenant administration control](../rooms/voice-recognition.md) and [Microsoft Teams PowerShell](../teams-powershell-overview.md).
 
@@ -124,7 +124,7 @@ Get-CsTeamsMeetingPolicy -identity {identity_name} // to confirm the changed val
 
 ## Scheduling a meeting
 
-When you schedule a meeting, both room and users who wish to be identified must be invited to experience Multi-Stream IntelliFrame and people recognition upon enrollment. Else, users will only be identified as **Guest**.
+When you schedule a meeting, both room and users who wish to be identified must be invited to experience Multi-Stream IntelliFrame and people recognition upon enrollment. Else, users will be identified as **Guest**.
 Following is an example of a meeting invite.
 
 :::image type="content" source="../media/demo-meeting.png" alt-text="Screenshot that shows the demo meeting schedule.":::
@@ -139,10 +139,10 @@ Following is an example of a meeting invite.
 | # | Behavior | Mitigation |
 |---|----------|------------|
 | 1 | When the view from the room is an Active speaker view and not IntelliFrame view, the **Name** label is missing on the participant video. | N/A |
-| 2 | Intermittently room participants fail to get added to the Roster. | Option 1: Stop and Start the the camera. Option 2: Restart device |
+| 2 | Intermittently room participants fail to get added to the Roster. | Option 1: Stop and Start the camera. Option 2: Restart device |
 | 3 | The purple bounding box around the room is always highlighted even when there's no voice or sound from the Room. | N/A |
 | 4 | Time taken to switch from IntelliFrame to Active speaker, after IntelliFrame toggle, and for **Name** labels to appear/disappear after people recognition toggle is five to seven seconds. | N/A |
-| 5 | For people Identification, the Outlook invite supports a total of 64 users. This includes users attending online, and 12 concurrent users in the room for **Name** labels. | N/A |
+| 5 | For people Identification, the Outlook invite supports a total of 64 users, which includes both users attending online and up to 12 concurrent users in the room for **Name** labels. | N/A |
 | 6 | Room participants get identified: <br><li> If they're part of the Outlook meeting invite <br><li> If the meeting invite was forwarded to a participant before 30 minutes of the meeting. | N/A |
 
 
