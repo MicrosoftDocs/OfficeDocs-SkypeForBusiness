@@ -69,4 +69,4 @@ With SDM, users can pick any device from a shared device pool and sign in as usu
 
 **iOS**: To set up Shared Device Mode on iOS, see [How to use shared device mode on iOS](/azure/active-directory/develop/msal-ios-shared-devices).
 
-![Sign-out-section](media/signout.png)
+![Screenshot of Sign-out-section.](media/signout.png)
