@@ -24,6 +24,6 @@ To define a new branch site, specify the following:
 
 A name for the new branch site. The name that you define must be unique in your deployment. Any naming convention that you decide on can be used. Typical recommendations are by city, location name, branch office name. The name value is a required entry.
 
-The description field, which is optional, provides a place for you to specify additional descriptive information that will not be a part of the infrastructure name, but provides a location for text to further describe your site.
+The description field, which is optional, provides a place for you to specify other descriptive information that won't be a part of the infrastructure name, but provides a location for text to further describe your site.
 
 For details, see [Sites](/previous-versions/office/lync-server-2013/lync-server-2013-sites).
