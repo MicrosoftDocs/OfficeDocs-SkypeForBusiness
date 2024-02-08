@@ -1,5 +1,5 @@
 ---
-title: What is Microsoft Multi-Stream IntelliFrame and Intelligent Camera
+title: What is Microsoft Multi-Stream IntelliFrame and Intelligent Camera?
 ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
@@ -18,32 +18,31 @@ ms.collection:
   - Tier1
 ms.topic: reference
 search.appverid: MET150
-description: Learn how to setup and use the Microsoft Teams Multi-Stream IntelliFrame cameras for hybrid meetings.
+description: Learn how to set up and use the Microsoft Teams Multi-Stream IntelliFrame cameras for hybrid meetings.
 ---
-# What is Microsoft Multi-Stream IntelliFrame and Intelligent Camera
+# What is Microsoft Multi-Stream IntelliFrame and Intelligent Camera?
 
 Microsoft Teams Multi-Stream IntelliFrame is a AI (Artificial Intelligence) platform, which allows users to inspire and share experiences for remote users.
 
-IntelliFrame provides an immersive audio and video experience for remote users through a better meeting understanding by identifying the active speaker as well as a view of the room to provide a accessible and high quality hybrid meeting experience.
-
+IntelliFrame provides an immersive video experience for remote users through a better meeting understanding by identifying the active speaker and a view of the room.
 ## Getting started
 
-Microsoft Teams Multi-Stream IntelliFrame certified devices, include a speaker, microphone, and a AI camera which can produce multiple video streams and AI-powered active speaker tracking by recognizing facial movements and gestures.
+Microsoft Teams Multi-Stream IntelliFrame certified devices, include a speaker, microphone, and a AI camera that can produce multiple video streams and AI-powered active speaker tracking by recognizing facial movements and gestures.
 
 ### Prerequisites
 
 - Microsoft Teams Rooms Windows device
-- Teams Rooms resource account with a Microsoft Teams Rooms Pro license
+- Microsoft Teams Rooms Pro license
   - Microsoft Teams Rooms with Pro license is required to enable IntelliFrame, and people recognition features on Microsoft Teams Rooms.
-  - Basic license does not support IntelliFrame or people recognition. If you have Teams Rooms Basic license, the camera shows only active speaker and panoramic views.
+  - Basic license doesn't support IntelliFrame or people recognition. If you have Teams Rooms Basic license, the camera shows only active speaker and panoramic views.
   - Check the [this link](../rooms/license-check.md#check-the-license-of-a-couple-teams-rooms-devices   ) to determine if you have the right license.
-- Set policy for [People Recognition and Enrollment](#enabling-enrollment-option-and-people-recognition).
+- Policy configured for [People Recognition and Enrollment](#enabling-enrollment-option-and-people-recognition).
 
 ## Device provisioning
 
 ### Supported cameras
 
-The folllowing Microsoft Teams Rooms devices support Multi-Stream IntelliFrame and people recognition:
+These Microsoft Teams Rooms devices support Multi-Stream IntelliFrame and people recognition:
 
 - Yealink SmartVision 60
 - Jabra Panacast 50 (coming soon)
@@ -55,7 +54,7 @@ Connect the supplied USB cable to the USB port on your Microsoft Teams Room devi
 > [!Note]
 > Ensure the cable is not pulled tightly or pinched for ideal data transmission and connectivity.
 
-Sign in to Microsoft Teams Rooms settings as an admin and ensure your camera is selected.  You may need to adjust OEM specific camera settings to ignore displays or set zones to not track speakers if you have glass walls in your conference room, refer to your camera documentation for these processes as they are device specific.
+Sign in to Microsoft Teams Rooms settings as an admin and ensure your camera is selected.  You may need to adjust OEM specific camera settings to ignore displays or set tracking zones if you have glass walls in your conference room. Refer to your camera documentation for these processes as they're device specific.
 
 
 ## Enabling enrollment option and people recognition
@@ -70,7 +69,7 @@ A multi-stream IntelliFrame camera uses face and voice profile information of an
 - Roster entry under call room participants.
 - Live transcription with recognition (who said what).
 
-This requires  `CsTeamsMeetingPolicy` **enrollUserOverride** tenant policy to be **Enabled**. When an Admin applies the policy, face enrollment option shows up under **Recognition** tab along with voice enrollment.
+`CsTeamsMeetingPolicy` **enrollUserOverride** tenant policy must be **Enabled**. When an Admin applies the policy, face enrollment option shows up under **Recognition** tab along with voice enrollment.
 
 > [!IMPORTANT]
 >
@@ -124,7 +123,7 @@ Get-CsTeamsMeetingPolicy -identity {identity_name} // to confirm the changed val
 
 ## Scheduling a meeting
 
-When you schedule a meeting, both room and users who wish to be identified must be invited to experience Multi-Stream IntelliFrame and people recognition upon enrollment. Else, users will be identified as **Guest**.
+When you schedule a meeting, both room and users who wish to be identified must be invited to experience Multi-Stream IntelliFrame and people recognition upon enrollment. Else, users are identified as **Guest**.
 Following is an example of a meeting invite.
 
 :::image type="content" source="../media/demo-meeting.png" alt-text="Screenshot that shows the demo meeting schedule.":::
