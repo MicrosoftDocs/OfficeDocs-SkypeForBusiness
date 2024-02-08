@@ -1,7 +1,7 @@
 ---
 title: "Plan for Shared Calling"
-ms.reviewer: jenstr
-ms.date: 10/16/2023
+ms.reviewer: roykuntz
+ms.date: 2/8/2024
 author: mkbond007
 ms.author: mabond
 manager: pamgreen
@@ -61,7 +61,7 @@ To set up Shared Calling, you need to perform the following steps. These steps a
 
 1. Assign the Shared Calling policy to users.
 
-Currently, Shared Calling can only be configured with PowerShell. You must have Teams PowerShell Module version 5.5.0 or higher to use the new [TeamsSharedCallingRoutingPolicy](/powershell/module/teams/set-csteamssharedcallingroutingpolicy) cmdlets. You'll use these cmdlets to create and manage Shared Calling policies.
+Shared Calling can be configured with the Teams admin center and PowerShell. You must have Teams PowerShell Module version 5.5.0 or higher to use the new [TeamsSharedCallingRoutingPolicy](/powershell/module/teams/set-csteamssharedcallingroutingpolicy) cmdlets. You can use these cmdlets to create and manage Shared Calling policies.
 
 ## Related topics
 
