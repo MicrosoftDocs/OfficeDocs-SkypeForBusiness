@@ -15,7 +15,7 @@ ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 5d065268-a694-49a1-b285-9be80a09995c
 ROBOTS: NOINDEX, NOFOLLOW
-description: "To define a Trusted Applications pool fully qualified domain name (FQDN), specify the following:"
+description: "You can define a Trusted Applications pool fully qualified domain name (FQDN)."
 ---
 
 # Add Trusted Application Pool FQDN
@@ -29,5 +29,5 @@ Select **Multiple computer pool** if you deploy a pool of servers for the truste
 > [!IMPORTANT]
 > A single Trusted Applications Server cannot be converted to a pool of servers later. If you think you may need a pool in the future, you can deploy a multiple server pool containing a single computer now, and add servers when needed. 
   
-For details about Trusted Applications pools, see [New-CsTrustedApplicationPool](/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps).
+For details about Trusted Applications pools, see [New-CsTrustedApplicationPool](/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps&preserve-view=true).
 
