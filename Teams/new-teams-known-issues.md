@@ -39,6 +39,8 @@ ms.localizationpriority: high
 - [Cross Cloud Guest Access (CCGA) accounts](https://techcommunity.microsoft.com/t5/microsoft-teams-support/cross-cloud-meeting-amp-cross-cloud-guest-access-between-ww/ba-p/3990829) aren't yet shown on the Web client. Until this feature is available, users can use CCGA meeting-join links or navigate directly to the cloud-specific URL in a new tab.
 - If using classic Teams for Web to open a [Cross Cloud Meeting (CCM)](https://techcommunity.microsoft.com/t5/microsoft-teams-support/cross-cloud-meeting-amp-cross-cloud-guest-access-between-ww/ba-p/3990829) link into a cloud where the user is opted into new Teams for web, the meeting join will fail. Until a fix is ready, users can navigate directly to the cloud-specific URL to join their meeting.
 - [A website doesn't load in the new Teams desktop](/microsoftteams/troubleshoot/tabs/websites-not-loaded-new-teams).
+- [The new Teams desktop app fails to render video](/microsoftteams/troubleshoot/meetings/new-teams-desktop-app-fail-render-video)
+- Collaborative Notes is only available in public clouds.
 
 ## Issues specifically for the new Microsoft Teams for Education
 
