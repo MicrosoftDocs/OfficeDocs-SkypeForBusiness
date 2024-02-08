@@ -30,7 +30,7 @@ The Microsoft Teams desktop client usage report gives you an overview of the Tea
 1. In the Teams admin center, go to the **Analytics & Reports** > **Usage Reports** page.
 1. From the Usage Reports page, choose the **Teams desktop client usage report**, choose a date range selection, and select **Run report**.
 
-## Interpret the Microsoft Teams device usage report
+## Interpret the Microsoft Teams client usage report
 
 The graph in the Teams desktop client usage report shows the usage of classic Teams and new Teams as a percentage within your tenant. These numbers are directly related, so if one number increases the other decreases. Take note of the important characteristics of this data:
 
