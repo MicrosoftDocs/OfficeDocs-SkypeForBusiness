@@ -29,6 +29,7 @@ The following are the latest Teams Rooms on Android app and firmware versions.
 
 | Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| 2023 Update #2B1  | Feb 07, 2023 |`1449/1.0.96.2023120901`| `5.0.5484.0` | `1.0.0.202306202019.product version code : 486` |
 | 2023 Update #2B1  | Dec 14, 2023 |`1449/1.0.96.2023120801`| `5.0.6061.0` | `1.0.0.202306202019.product version code : 486` |
 | 2023 Update #2A  | Oct 04, 2023 |`1449/1.0.96.2023090601`| `5.0.5954.0` | `1.0.0.202306202019.product version code : 486` |
 | 2023 Update #2  | June 28, 2023 |`1449/1.0.96.2023062301`| `5.0.5484.0` | `1.0.0.202301162118.product version code : 413` |
@@ -55,13 +56,16 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Yealink CTP18 | `137.320.0.50`   | 2023 Update #2B1  |
+| Yealink MeetingBoard 65" | `155.15.0.65` | 2023 Update #2B1 |
+| Yealink MeetingBoard 86" | `155.15.0.65` | 2023 Update #2B1 |
 | Logi Rallybar | `1.11.254`   | 2023 Update #2 |
 | Logi Rallybar Mini | `1.11.254`   | 2023 Update #2  |
 | Logi RoomMate | `1.11.215`   | 2023 Update #2  |
 | Logi Rallybar Huddle | `1.11.166`   | 2023 Update #2  |
 | Logi Console  | `1.11.202`| 2023 Update #2  |
-| Jabra Panacast 50 VBS | 1.17.4-1 | 2023 Update #2 |
-| Jabra Panacast 50 TC | 1.17.4-1 | 2023 Update #2 |
+| Jabra Panacast 50 VBS | `1.17.4-1` | 2023 Update #2 |
+| Jabra Panacast 50 TC | `1.17.4-1` | 2023 Update #2 |
 | Cisco Board Pro 55 | `11.11.1.10` | 2023 Update #2B1 |
 | Cisco Board Pro 75 | `11.11.1.10` | 2023 Update #2B1 |
 | Cisco Room Bar | `11.11.1.10` | 2023 Update #2B1 |
