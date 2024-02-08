@@ -668,6 +668,7 @@ Introduced in this update:
 
 |Release  |Release date  |
 |---------|---------|
+|[1449/1.0.96.2023120901](#144910962023120901-february-2023) | February 2024 |
 |[1449/1.0.96.2023120801](#144910962023120801-december-2023) | December 2023 |
 |[1449/1.0.96.2023111001](#144910962023111001-december-2023) | December 2023 |
 |[1449/1.0.96.2023090601](#144910962023090601-october-2023) | October 2023 |
@@ -690,6 +691,16 @@ Introduced in this update:
 > There can be a delay between when features are released by Microsoft and when they become available on a device make and model. If an update isn't available on your device, check with your device manufacturer for information on when it might become available.
 
 Features with :::image type="icon" source="../media/mtr-pro-icon.png"::: are only available with Teams Rooms Pro license. 
+
+### 1449/1.0.96.2023120901 (February 2024)
+
+Introduced in this update:
+
+- **Daily maintenance restart window** – by default, the device restarts anytime between 2:00 AM and 3:00 AM based on it's local time zone. If the device is in use during this window and the window period ends, the restart is rescheduled the following day. IT admins can turn off this functionality or change the restart window from the device settings. Support for these admin controls is coming soon on the Teams admin center.
+- Bug fixes and other improvements.
+
+> [!NOTE]
+> This release only applies to Logitech devices. 
 
 ### 1449/1.0.96.2023120801 (December 2023)
 
