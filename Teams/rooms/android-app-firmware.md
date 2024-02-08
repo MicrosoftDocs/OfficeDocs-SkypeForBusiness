@@ -56,6 +56,9 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| DTEN D7X 75" |`1.5.5.4`   | 2023 Update #1C |
+| DTEN D7X 55" |`1.5.5.4`   | 2023 Update #1C |
+| DTEN Mate Touch Console | `2.1.1.1` | 2023 Update #1C |
 | Yealink CTP18 | `137.320.0.50`   | 2023 Update #2B1  |
 | Yealink MeetingBoard 65" | `155.15.0.65` | 2023 Update #2B1 |
 | Yealink MeetingBoard 86" | `155.15.0.65` | 2023 Update #2B1 |
@@ -101,7 +104,7 @@ When you install a new firmware version on your device, you can determine the co
 | Poly Studio G7500 | `4.1.2-388101` | 2023 Update #2B1 |
 | Poly TC8 | `4.1.2-211367` | 2023 Update #2B1 |
 | DTEN D7X 75" |`1.4.5.2`   | 2023 Update #1C |
-| DTEN_MATE | `2.0.3.0` | 2023 Update #1C |
+| DTEN Mate Touch Console | `2.0.3.0` | 2023 Update #1C |
 | Logi Rallybar | `1.10.409`   | 2023 Update #2 |
 | Logi Rallybar Mini | `1.10.409`   | 2023 Update #2  |
 | Logi RoomMate | `1.10.175`   | 2023 Update #2  |
