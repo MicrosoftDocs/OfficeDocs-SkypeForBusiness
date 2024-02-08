@@ -25,9 +25,9 @@ f1keywords:
 
 Proximity Join is a feature that enables you to nudge your meeting room into a Microsoft Teams Rooms so that your meeting room can sync with Microsoft Teams Rooms. Your personal device, for example, your desktop or mobile phone, detects Microsoft Teams Rooms through a wireless signal.
 
-If your personal device is a desktop, then using the TEAMS app, you detect an ultrasonic sound and capture a Microsoft Teams Rooms and nudge your meeting room into it. For more information, see [Proximity Join using TEAMS app on your desktop](#proximity-join-using-teams-app-on-your-desktop).
+If your personal device is a desktop, then using the TEAMS app, you detect an ultrasonic sound and capture a Microsoft Teams Rooms and nudge your meeting room into it. For more information, see [How to detect Microsoft Teams Rooms using Proximity Join from TEAMS app on your desktop](#how-to-detect-microsoft-teams-rooms-using-proximity-join-from-teams-app-on-your-desktop).
 
-If your personal device is a mobile phone, then using the TEAMS app, you detect a bluetooth signal and capture a Microsoft Teams Rooms and nudge your meeting room into it. For more information, see [Proximity Join using TEAMS app on your mobile](#proximity-join-using-teams-app-on-your-mobile).
+If your personal device is a mobile phone, then using the TEAMS app, you detect a bluetooth signal and capture a Microsoft Teams Rooms and nudge your meeting room into it. For more information, see [How to detect Microsoft Teams Rooms using Proximity Join from TEAMS app on your mobile](#how-to-detect-microsoft-teams-rooms-using-proximity-join-from-teams-app-on-your-mobile).
 
 The Proximity Join feature provides you with the following advantages:
 
