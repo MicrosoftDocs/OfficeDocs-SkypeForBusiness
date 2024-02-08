@@ -48,7 +48,7 @@ The data in the table columns below the graph allow a more granular look at indi
 |Display name             |Display name of the user.                                                          |
 |Classic or new (Windows) |Whether or not a Windows user is using the classic Teams or new Teams application. |
 |App version (Windows)    |The version number of the Windows Teams application for the user.                  |
-|Classic or new (Mac)     |Whether a Mac user is using the classic Teams or new Teams application.            |
+|Classic or new (Mac)     |Whether or not a Mac user is using the classic Teams or new Teams application.     |
 |App version (Mac)        |The version number of the Mac Teams application for the user.                      |
 |User type                |What deployment ring a user is assigned to. Differences between users in this column can explain why they may have different versions of the Teams application. The values that may display are: <br> - **TAP Admin**: Administrators who participate in the Microsoft Teams TAP program. Sometimes referred to as R1.5. <br> - **Developer Preview**: Developers who have opted into early preview of developer focused functionality for Teams app development. Sometimes referred to as R1.6. <br> - **TAP**: Users who participate in the Microsoft Teams TAP program. Sometimes referred to as R3. <br> - **Public Preview**: Users who participate in the [Public Preview](public-preview-doc-updates.md) program. Sometimes referred to as R3.6. <br> - **Production**: Regular users who don't have access to early preview functionality. Sometimes referred to as R4. <br> - **GCC Production**: Regular GCC users who don't have access to early preview functionality. |
 
