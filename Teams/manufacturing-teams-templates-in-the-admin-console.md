@@ -1,19 +1,19 @@
 ---
 title: Use manufacturing team templates
-author: MicrosoftHeidi
-ms.author: heidip
+author: lana-chin
+ms.author: v-chinlana
 manager: jtremper
-audience: Admin
+audience: admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
-ms.date: 09/10/2020
+ms.date: 02/09/2024
 ms.collection: 
   - M365-collaboration
   - m365-frontline 
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn how to use team templates to create team structures designed for manufacturing needs by providing predefined settings, channels, and pre-installed apps using the admin center.
+description: Learn how to use and manage manufacturing team templates in the Team admin center to quickly and easily create teams for your manufacturing plant needs. 
 f1.keywords:
 - CSH
 ms.custom: 
@@ -30,9 +30,9 @@ Team templates in Microsoft Teams allow you to quickly and easily create teams b
 
 Use team templates to quickly deploy consistent teams across your organization. Templates also help staff to get oriented with how to effectively use Teams.
 
-As an admin, you can manage team templates in the Microsoft Teams admin center. Here, you can view details about each template. You can also [create and assign templates policies](templates-policies.md) to your staff to control which templates they see in Teams for [creating teams](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b).
+As an admin, you can manage team templates in the Microsoft Teams admin center. You can use the [prebuilt templates](get-started-with-teams-templates-in-the-admin-console.md#pre-built-team-templates-in-the-teams-admin-center) that we provide and create your own templates [from scratch](create-a-team-template.md), from [an existing team](create-template-from-existing-team), and from [an existing template](create-template-from-existing-template). You can also [create and assign templates policies](templates-policies.md) to your staff to control which templates they see in Teams for [creating teams](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b).
 
-Teams includes the following pre-built template designed for manufacturing needs.
+Teams includes the following prebuilt template designed for manufacturing needs. To learn more about team templates in general, see [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md).
 
 ## Quality and Safety
 
