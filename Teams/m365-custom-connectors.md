@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
-ms.date: 11/15/2023
+ms.date: 02/05/2024
 ms.collection: 
   - M365-collaboration
 ms.reviewer: vivg
@@ -112,4 +112,4 @@ To use connectors in a team or a channel, open the More Options menu from the up
 ## Related articles
 
 * [Overview of custom connectors and webhooks](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)
-* [How to create Office 365 connectors](/microsoftteams/platform/webhooks-and-connectors/how-to/connectors-creating)
+* [How to create Microsoft 365 connectors](/microsoftteams/platform/webhooks-and-connectors/how-to/connectors-creating)

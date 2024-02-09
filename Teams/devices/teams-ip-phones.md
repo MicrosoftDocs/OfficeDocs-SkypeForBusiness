@@ -96,21 +96,20 @@ The following devices are Certified under the Microsoft Teams Displays Android C
 
 The following devices are Certified under the Microsoft Teams panels Certification Program:
 
-> The certification end date for Android 9 based devices has been extended to November 5, 2023.
-> The Certification end date for Qualcomm-based devices on Android 10 has been extended to September 3, 2025
+> The certification end date for Android 10 based devices has been extended to September 3, 2025
 
 | Device model| Firmware version | Current certification end date | Android OS version |
 |:------------------------|:-----------------|:--------------|-----------------------|
-|Neat Pad Panel    | `NFA1.20230928.0108` | 	September 3, 2024  | 10 |
-|Logitech Dock Flex | `1.10.81` | September 3, 2024 | 10|
+|Neat Pad Panel    | `NFA1.20230928.0108` | 	September 3, 2025  | 10 |
+|Logitech Dock Flex | `1.10.81` | September 3, 2025 | 10|
+|Logitech TAP Scheduler | `1.3.111` |September 3, 2025 | 10 |
 |Poly TC10 | `5.0.0.211194`|September 3, 2025  | 11 |
 |Audiocodes RX-Panel | `2.1.457`|October 4, 2026  | 12 |
-|Yealink RoomPanel | `147.520.0.4 `|September 3, 2024  | 10 |
+|Yealink RoomPanel | `147.520.0.4 `|September 3, 2025  | 10 |
 |Yealink RoomPanel Plus | `269.520.0.2 `|September 3, 2025   | 11 |
-|EPOS Expand Control Panel   | `1.2.22206.03` | September 3, 2024 | 10 |
-|Crestron TSS-770 | `2.001.0058` |September 3, 2024  | 10 |
-|Crestron TSS-1070 | `2.001.0058`|September 3, 2024 | 10 |
-|Logitech TAP Scheduler | `1.3.111` |September 3, 2024 | 10 |
+|EPOS Expand Control Panel   | `1.2.22206.03` | September 3, 2025 | 10 |
+|Crestron TSS-770 | `2.001.0058` |September 3, 2025  | 10 |
+|Crestron TSS-1070 | `2.001.0058`|September 3, 2025 | 10 |
 
 ### Product release information for Teams phones
 
@@ -365,7 +364,7 @@ When you install a new firmware version on your device, you can determine the co
 |Yealink RoomPanel | ` 147.520.0.15 ` | 2023 Update #3 |
 |Logitech Tap Scheduler | `1.10.129` |2023 Update #3  |
 |EPOS EXPAND Control 3P |`v1.8.23258.01`   | 2023 Update #3 |
-|Audiocodes RXPanel | '2.2.311' |2023 Update #3|
+|Audiocodes RXPanel | `2.2.311` |2023 Update #3|
 |Logitech Tap Scheduler | `1.10.121` |2023 Update #2  |
 |Poly TC10 | `5.0.0.211238` | 2023 Update #2 |
 |Yealink RoomPanel | ` 147.520.0.10 ` | 2023 Update #2 |
@@ -374,7 +373,6 @@ When you install a new firmware version on your device, you can determine the co
 | EPOS EXPAND Control 3P |`v1.7.23195.06`   | 2023 Update #2 |
 |Yealink RoomPanel | ` 147.520.0.7 ` | 2023 Update #1 |
 |Crestron Touchpanel /770-T/1070-T | `2.004.1029` | 2022 Update #4A|
-|Yealink RoomPanel Plus | ` 269.520.0.12 ` | 2023 Update #1 |
 |Logitech Tap Scheduler | `1.9.388` |2023 Update #1  |
 |Crestron Touchpanel /770-T/1070-T | `2.004.1026` | 2022 Update #4A|
 |Crestron Touchpanel /770-T/1070-T | `2.004.0033.001` | 2022 Update #4A|

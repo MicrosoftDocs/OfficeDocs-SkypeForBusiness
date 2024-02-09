@@ -30,19 +30,17 @@ description: "Meeting Migration Service (MMS) is a service that runs in the back
 The Meeting Migration Service (MMS) is a service that updates a user’s existing meetings in the following scenarios:
 
 - When a user is migrated from on-premises to the cloud.
-- When an admin makes a change to the user’s audio conferencing settings
-- When an online user is upgraded to Teams only, or when a user's mode in TeamsUpgradePolicy is set to SfBwithTeamsCollabAndMeetings
-- When you use PowerShell
+- When an admin makes a change to the user’s audio conferencing settings.
+- When an online user is upgraded to Teams only, or when a user's mode in TeamsUpgradePolicy is set to SfBwithTeamsCollabAndMeetings.
+- When migrating from one Cloud Video Interop (CVI) partner to another. In this scenario the tenant key will be updated to reflect the new partner.
+- When admins use Start-CsExMeetingMigration cmdlet within the Teams PowerShell module.
 
-By default, MMS is automatically triggered in each of these cases. In addition, admins can use a PowerShell cmdlet to manually trigger meeting migration for a given user.
+By default, MMS is automatically triggered in each of these cases, except in the case of CVI migration. For CVI, MMS will need to be executed manually once the CsTeamsVideoInteropServicePolicy is changed to reflect the new partner. In addition, admins can use a PowerShell cmdlet to manually trigger meeting migration for a given user.
 
 **Limitations**: The meeting migration service can't be used if any of the following apply:
 
 - The user’s mailbox is hosted in Exchange on-premises.
 - The user is being migrated from the cloud to Skype for Business Server on-premises.
-
-> [!NOTE]
-> Cloud Video Interop (CVI) meeting coordinates are only preserved (and newly created), when migrating from Skype for Business to Microsoft Teams. For meetings migrated from Microsoft Teams to Microsoft Teams, CVI coordinates are not updated. If you're moving from one CVI partner to another, meetings will need to be re-scheduled for CVI coordinates to be updated.
 
 ## How MMS works
 
