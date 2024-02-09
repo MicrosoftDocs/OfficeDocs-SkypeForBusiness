@@ -34,7 +34,7 @@ To help guide you as to what features are available on different platforms, you 
 
 ## [Commercial](#tab/Commercial)
 
-# Teams Rooms
+## Teams Rooms
 
 | &ensp;                                   | Features                                                                                                     | Windows                                                                                     | Android                                                                        |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
@@ -113,7 +113,7 @@ To help guide you as to what features are available on different platforms, you 
 |                                          | Unauthenticated proxy support                                                                                | Available                                                                                   | Available                                                                      |
 |                                          | Authenticated proxy support                                                                                  | Not available                                                                               | Not available                                                                  |
 
-# Teams Panels
+## Teams Panels
 
 | &ensp;                                   | Features                                                                                                     | Availability                                                                                | 
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
@@ -138,7 +138,7 @@ To help guide you as to what features are available on different platforms, you 
 
 ## [GCC](#tab/GCC)
 
-# Teams Rooms
+## Teams Rooms
 
 | &ensp;                                   | Features                                                                                                     | Windows                                                                                     | Android                                                                        |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
@@ -217,7 +217,7 @@ To help guide you as to what features are available on different platforms, you 
 |                                          | Unauthenticated proxy support                                                                                | Available                                                                                   | Available                                                                      |
 |                                          | Authenticated proxy support                                                                                  | Not available                                                                               | Not available                                                                  |
 
-# Teams Panels
+## Teams Panels
 
 | &ensp;                                   | Features                                                                                                     | Availability                                                                                | 
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
@@ -241,7 +241,7 @@ To help guide you as to what features are available on different platforms, you 
 
 ## [GCC-High](#tab/GCCHigh)
 
-# Teams Rooms
+## Teams Rooms
 
 | &ensp;                                   | Features                                                                                                     | Windows                                                                                     | Android                                                                        |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
@@ -320,7 +320,7 @@ To help guide you as to what features are available on different platforms, you 
 |                                          | Unauthenticated proxy support                                                                                | Available                                                                                   | Available                                                                      |
 |                                          | Authenticated proxy support                                                                                  | Not available                                                                               | Not available                                                                  |
 
-# Teams Panels
+## Teams Panels
 
 | &ensp;                                   | Features                                                                                                     | Availability                                                                                | 
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
