@@ -1,10 +1,10 @@
 ---
 title: "Shared line appearance in Microsoft Teams"
-author: CarolynRowe
-ms.author: crowe
+author: mkbond007
+ms.author: mabond
 manager: pamgreen
 ms.date: 02/19/2019
-ms.reviewer: jenstr
+ms.reviewer: roykuntz, guptaashish
 ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -46,17 +46,17 @@ Managers and delegates must have a Teams Phone license. Managers must have a pho
 
 ## Shared line appearance feature availability
 
-Shared line appearance is currently supported by the following apps and devices.
+The following apps and devices currently support shared line appearance:
 
-| Capability | Teams Desktop | Teams Mac App | Teams Web App (Edge) |Teams mobile iOS/Android App | Teams IP phone |
-|------------|---------------|---------------|----------------------|-----------------------------|----------------|
-| Set up delegation | Yes | Yes | Yes | No | Yes |
+| Capability | Teams Desktop | Teams Mac App | Teams Web App (Edge) | Teams mobile iOS/Android App | Teams IP phone |
+|--|--|--|--|--|--|
+| Set up delegation | Yes | Yes | Yes | Yes | Yes |
 | Receive calls on behalf of another | Yes | Yes | Yes | Yes | Yes |
 | Call a phone number on behalf of another | Yes | Yes | Yes | Yes | Yes |
 | Call a Teams user on behalf of another | Yes | Yes | Yes | Yes | Yes |
-| See the delegate view of shared lines | Yes | Yes | Yes | No | Yes |
+| See the delegate view of shared lines | Yes | Yes | Yes | Yes | Yes |
 | See the delegate view of manager's call activities | Yes | Yes | Yes | No | Yes |
-| See the manager view of delegates | Yes | Yes | Yes | No | Yes |
+| See the manager view of delegates | Yes | Yes | Yes | Yes | Yes |
 | Delegate or manager can hold or resume | Yes | Yes | Yes | No | Yes |
 
 ## Limitations
