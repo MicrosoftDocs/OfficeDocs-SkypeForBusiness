@@ -1,5 +1,5 @@
 ---
-title: Get started with manufacturing team templates in the admin center
+title: Use manufacturing team templates
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
@@ -24,19 +24,19 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Use manufacturing team templates in the admin center
+# Use manufacturing team templates
 
-Team templates in Microsoft Teams allow you to quickly and easily create teams by providing a predefined team structure of settings, channels, and pre-installed apps.
+Team templates in Microsoft Teams allow you to quickly and easily create teams by providing a predefined team structure of settings, channels, and preinstalled apps.
 
 Use team templates to quickly deploy consistent teams across your organization. Templates also help staff to get oriented with how to effectively use Teams.
 
-Teams includes pre-built templates designed for manufacturing needs. In this article, we introduce you to these templates.
+As an admin, you can manage team templates in the Microsoft Teams admin center. Here, you can view details about each template. You can also [create and assign templates policies](templates-policies.md) to your staff to control which templates they see in Teams for [creating teams](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b).
 
-To learn more about team templates in general, see [Get started with team templates](get-started-with-teams-templates-in-the-admin-console.md).
+Teams includes the following pre-built template designed for manufacturing needs.
 
 ## Quality and Safety
 
-Centralize communication, access to resources, and plant operations with a Manufacturing Plant team. Include policy and procedure documents, training videos, safety notices, shift handover processes.
+Centralize communication, access to resources, and plant operations with your team. Include policy and procedure documents, training videos, safety notices, shift handover processes.
 
 >[!div class="mx-tdBreakAll"]
 >|Template type|TemplateId| Properties that come with this template |
