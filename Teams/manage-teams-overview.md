@@ -9,12 +9,12 @@ ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-collaboration
+  - essentials-manage
 search.appverid: MET150
 f1.keywords:
 ms.custom: 
 ms.reviewer: 
 description: Roadmap to articles about how to manage and monitor Teams.
-ms.collection: essentials-manage
 appliesto: 
   - Microsoft Teams
 ---
