@@ -180,7 +180,7 @@ If IT administrators set restrictions for MSIX or deploy GPOs, it could prevent 
 
   :::image type="content" source="media/new-teams-troubleshooting-error-isntallation-org-policies.png" alt-text="error with org policies":::
 
-This error might be seen in non-persistent or multi-user OS deployments if the admin didn't sideload the new Teams client on the golden/master Image.
+The 'side by side' method is only supported in persistent environments.
 
 ## Classic Teams versus new Teams installers in VDI environments
 
