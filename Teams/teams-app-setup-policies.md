@@ -51,11 +51,15 @@ You can pin apps in the following UIs for the users:
 > [!NOTE]
 > Pinning apps in meetings is a Preview feature. To use Preview features in your organization, see [Microsoft Teams Public preview](public-preview-doc-updates.md).
 
-Apps are pinned to the app bar on the left side of the Teams desktop client and at the bottom of the Teams mobile client.
+Apps that you pin to the app bar, show on the app bar on the left side of the Teams desktop client and at the bottom of the Teams mobile client.
 
 | Teams desktop client                                                                                      | Teams mobile client                                                                |
 |-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
 | ![Screenshot showing the app bar in Teams desktop client.](media/app-setup-policies-desktop-app-bar.png). | ![Screenshot showing the app bar in Teams mobile client.](media/mobile-app-ui.png) |
+
+Apps that you pin in a meeting show at the top of the meeting window. Beyond two apps, the other apps display in the More option.
+
+   :::image type="content" source="media/polls-user-meeting.png" alt-text="Screenshot showing a meeting room and apps pinned to the top bar in the meeting room." lightbox="media/polls-user-meeting-large.png":::
 
 To modify the pinned apps for everyone in your organization, edit the existing `Global (Org-wide default)` policy. To modify the pinned apps for specific users, create a new app setup policy and assign it to the specific users.
 
