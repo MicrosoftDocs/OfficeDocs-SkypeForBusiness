@@ -116,7 +116,7 @@ To add apps for your users using an app setup policy, follow these steps:
 
 ## Use app setup policy to allow independent bots
 
-Developers can create bots as part of [Microsoft Bot Framework](https://dev.botframework.com/). Developers can incorporate these bots in a Teams app for use in Teams or developers can share these bots as independent bots that users can use anywhere else, including in Teams client. As an admin, you not only govern Teams apps that contains bots but you can also let your users use independent bots.
+Developers can create bots as part of [Microsoft Bot Framework](https://dev.botframework.com/). Developers can incorporate these bots in a Teams app for use in Teams or developers can share these bots as independent bots that users can use anywhere else, including in Teams client. As an admin, you not only govern Teams apps that contain bots but you can also let your users use independent bots.
 
 | Bot scenario and admin center settings                                                                         | Works in Teams classic | Works in [new Teams](new-teams-desktop-admin.md) |
 |:---------------------------------------------------------------------------------------------------------------|:-----------------------|:-------------------------------------------------|
