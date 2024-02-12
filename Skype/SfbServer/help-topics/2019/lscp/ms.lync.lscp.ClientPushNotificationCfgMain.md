@@ -22,7 +22,7 @@ description: "To configure the Microsoft push notifications and Apple push notif
  
 To configure the **Microsoft push notifications** and **Apple push notifications**, you must create a policy to define which types of push notification you require.
   
-On the main configuration screen, you can select **Refresh** to refresh and repopulate the list of policies. A search box is provided for narrowing the list of displayed policies. As you type the name that you're searching for, the list of policies narrows automatically.
+On the main configuration screen, you can select **Refresh** to refresh and repopulate the list of policies. A search box is provided for narrowing the list of displayed policies. As you type the name that you search for, the list of policies narrows automatically.
   
 > [!IMPORTANT]
 > Policy settings that are applied at one policy level can override settings that are applied at another policy level. Policy precedence is: User policy (most influence) overrides a Site policy, and then a Site policy overrides a Global policy (least influence). This means that the closer the policy setting is to the object that the policy is affecting, the more influence it has on the object. 
@@ -33,7 +33,7 @@ Two selections are available for policy creation and editing:
     
 2. **Edit**: Select a policy and select Edit to select an action from a drop-down. You can only edit sites that you create or edit the Global policy:
     
-   - **Show details...**: Displays information about the currently selected policy. You'll be able to make changes to the existing policy.
+   - **Show details...**: Displays information about the currently selected policy. You are able to make changes to the existing policy.
     
    - **Select all**: If you have many policies and need to select all policies, click Select all
     
@@ -44,7 +44,7 @@ Two selections are available for policy creation and editing:
   
 Creating a new policy or editing an existing policy is associated with two actions:
   
-- **Commit** The commit action creates or updates the policy and saves the changes
+- **Commit** The commit action creates or updates the policy and saves the changes.
     
 - **Cancel** The cancel action discards any changes that are made since the last commit action. If you cancel, any changes made will be lost.
     
