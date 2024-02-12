@@ -26,11 +26,10 @@ ms.localizationpriority: high
 - Language-aware spell checking is currently not available in the new Teams. The team is focusing on this issue with a high priority. Check back for updates.
 - On Windows, spell checking is limited to English (United States) dictionaries. Until this feature is fixed, users can disable spell checking from the settings page.
 - Some spell checker suggestions for English can be inaccurate. A Windows fix is pending, with an estimated rollout date of January. Users can choose to disable spell checking from the settings page until then.
-- Scheduling a Teams Live Event will redirect to the classic Teams web experience currently. By late March, scheduling a Teams Live Event will redirect to the new Teams web experience.
+- Scheduling a Teams Live Event will redirect to the classic Teams web experience. This will continue to work even after the deprecation of classic Teams.
 - Producing a Teams Live Event will be available in the new Microsoft Teams Desktop client in March. Until then, you need to switch back to classic Teams to produce a Teams Live Event.
 - Users are unable to see the presence of other users under the Organization tab in 1:1 chats. Restart your new Teams client or browser window to resolve. Still an issue for offline contacts.
 - New Teams client isn't respecting the date time formats set in the OS. This affects both 12h/24h time formatting and date formatting in the product. A fix is pending; check back for updates.
-- Support for NDI, SDI, and ISO streaming of Teams media content.
 - The app will crash if users hit enter instead of clicking the *Create* button after entering the team name in the team creation wizard.
 - Newly created private channels won't show up in the left rail until the page is reloaded or users move to another screen and come back.
 - The calendar icon will show an error message for users not licensed with Exchange Online. A fix to hide the calendar icon for these users is expected soon.
