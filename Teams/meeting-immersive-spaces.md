@@ -89,7 +89,7 @@ For more information about service tags, see the [Virtual network service tags](
 
 ## Create or edit app permission policy
 
-The Mesh app is by default allowed in the Teams admin center. If you want to allow or block the app for specific user groups, create or edit an app permission policy so that selected groups are allowed or blocked from the Mesh app.
+The **Mesh app is by default allowed in the Teams admin center**. If you want to allow or block the app for specific user groups, create or edit an app permission policy so that selected groups are allowed or blocked from the Mesh app.
 
 > [!NOTE]
 > It may be more complicated if the tenant already has different app permission policies for users or groups.
