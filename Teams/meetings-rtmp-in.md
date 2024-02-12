@@ -44,7 +44,8 @@ The incoming RTMP feed must deliver:
 
 ## RTMP ingest endpoints
 
-To get a video feed sent to Teams from your encoder, you need the domain name and ports open in your network's firewall:
+As part of the network connectivity principles, ensure that the Microsoft 365 endpoints are reachable as defined in
+[Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges). In addition, ensure you also have the following domains/ports:
 
 **Domains**: *.rtmpingest.mcr.teams.microsoft.com<br>
 **Ports**: 1935/1936 (for RTMP/RTMPS)
