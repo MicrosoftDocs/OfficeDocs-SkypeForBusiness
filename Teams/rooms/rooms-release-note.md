@@ -702,16 +702,6 @@ Introduced in this update:
 > [!NOTE]
 > This release only applies to Logitech devices. Support for additional device manufacturers will be added later.
 
-### 1449/1.0.96.2023120901 (February 2024)
-
-Introduced in this update:
-
-- **Daily maintenance restart window** – by default, the device restarts anytime between 2:00 AM and 3:00 AM based on its local time zone. If the device is in use during this window and the window period ends, the restart is rescheduled the following day. IT admins can turn off this functionality or change the restart window from the device settings. Support for these admin controls is coming soon on the Teams admin center.
-- Bug fixes and other improvements.
-
-> [!NOTE]
-> This release only applies to Logitech devices. Support for additional device manufacturers will be added later.
-
 ### 1449/1.0.96.2023120801 (December 2023)
 
 Introduced in this update:
