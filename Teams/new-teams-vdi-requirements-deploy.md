@@ -180,7 +180,7 @@ If IT administrators set restrictions for MSIX or deploy GPOs, it could prevent 
 
   :::image type="content" source="media/new-teams-troubleshooting-error-isntallation-org-policies.png" alt-text="error with org policies":::
 
-This error might be seen in non-persistent or multi-user OS deployments if the admin didn't sideload the new Teams client on the golden/master Image.
+The 'side by side' method is only supported in persistent environments.
 
 ## Classic Teams versus new Teams installers in VDI environments
 
@@ -219,6 +219,7 @@ Make sure sideloading is enabled, and that WebView2 is installed. See 'Requireme
 Known limitations:
 
 - Classic Teams on Windows Server 2019 isn't displaying the app switcher toggle if Classic Teams version is lower than 1.6.00.33567
+- New Teams on Windows Server 2019 currently isn't compatible with FSLogix and fails to launch. See [FSLogic known issues](/fslogix/troubleshooting-known-issues) for more details.
 - New Teams MSIX installer isn't registering UC Typelib, causing Outlook presence bubbles to show as grey/unknown even if the virtual machine does have the Classic Teams client installed as well.
 
 ## Remove new Teams for all users
@@ -273,7 +274,7 @@ When you exclude the WebStorage folder (used for domains hosted within Teams lik
 >*Note:* Customers using Profile and ODFC or just ODFC containers, will still need to add the setting ‘IncludeTeams’ for the new Teams user data/cache to be preserved.
 
 >[!Note]
->[Folder Redirection or Roaming User Profiles](/windows-server/storage/folder-redirection/folder-redirection-rup-overview) are not supported with the new Teams client in VDI environments.
+>[Folder Redirection or Roaming User Profiles](/windows-server/storage/folder-redirection/folder-redirection-rup-overview) aren't supported with the new Teams client in VDI environments since they can't roam folders in AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams. Customers can continue to use Folder Redirection or Roaming User Profiles with a complementary product, such as FSLogix, Citrix Profile Manager, VMware, and DEM, that can roam the Appdata\Local folders above.
 
 ## New Teams and Outlook integration
 
