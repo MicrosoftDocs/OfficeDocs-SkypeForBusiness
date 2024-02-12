@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
-ms.date: 06/27/2023
+ms.date: 12/02/2024
 ms.collection: 
   - M365-collaboration
 search.appverid: MET150
@@ -150,6 +150,10 @@ To manage licenses across multiple users who are part of the same team, you can 
 After you have assigned licenses to the users or team, you can view the list of assigned users. This list allows you to view who has been assigned licenses and which licenses are assigned.
 
    :::image type="content" source="media/remove-licenses.png" alt-text="Screenshot that shows list of assigned users to remove the licenses." lightbox="media/remove-licenses1.png":::
+
+## Disable app purchases in Teams admin center
+
+To prevent your organization users from purchasing third-party apps, you can disable purchases using the MSCommerce PowerShell module. You can view a list of applicable apps and whether self-service purchase is enabled or disabled, using `AllowSelfServicePurchase` parameter. For more information, see [Use AllowSelfServicePurchase to disable Teams app purchases](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell?view=o365-worldwide).
 
 ## Related articles
 
