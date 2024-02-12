@@ -32,9 +32,9 @@ For details about site properties, see [Add Branch Sites to Your Topology](/prev
 
 ## Federation Route properties
 
-To set a site federation route assignment, you must first have federation enabled on an Edge Server or an Edge Server pool. If federation is not enabled on an Edge Server or pool, the federation route assignment settings for the site will not be available for modification.
+To set a site federation route assignment, you must first have federation enabled on a Microsoft Edge Server or a Microsoft Edge Server pool. If federation isn't enabled on a Microsoft Edge Server or pool, the federation route assignment settings for the site aren't available for modification.
 
-If the federation setting at the Edge Server or pool has been configured, select **Enable** at the site level. Then select an Edge or a Director from the drop-down list to set as the federation route.
+If the federation setting at the Microsoft Edge Server or pool is configured, select **Enable** at the site level. Then select a Microsoft Edge or a Director from the drop-down list to set as the federation route.
 
 > [!CAUTION]
 > This setting will affect all sites. Be sure that the setting that you are configuring at this site is appropriate for all sites.

@@ -28,13 +28,13 @@ However, there are times where users might need to sign out of Teams, for exampl
 
 ## Sign out of Teams on the web
 
-To sign out of Teams in a browser, users should select their profile picture at the top of the app, then select **Sign Out**. They'll be signed out from all Microsoft 365 applications in a given browser profile. The next time they sign in to Teams or other Microsoft 365 applications, their username will be shown on the sign-in page. In most cases, they'll need to reenter their credentials, and can remove their account from the list by clicking “Forget”.  
+To sign out of Teams in a browser, users should select their profile picture at the top of the app, then select **Sign out**. They'll be signed out from all Microsoft 365 applications in a given browser profile. The next time they sign in to Teams or other Microsoft 365 applications, their username will be shown on the sign-in page. In most cases, they'll need to reenter their credentials, and can remove their account from the list by clicking “Forget”.  
 
 If this is a shared computer and you don’t want usernames to be visible to others, we recommend using browsers in InPrivate/Incognito mode.
 
 ## Sign out of Teams on desktop (Windows or macOS)
 
-To sign out of the Teams desktop app, users should select their profile picture at the top of the app, and then select **Sign Out**. If multiple accounts were added, they'll need to sign out of each account individually.
+To sign out of the Teams desktop app, users should select their profile picture at the top of the app, and then select **Sign out**. If multiple accounts were added, they'll need to sign out of each account individually.
 
 ### Account sharing between apps
 
@@ -47,7 +47,7 @@ On Windows, users may see an option to sign in to “this app only”. When this
 
 ![Screenshot: User interface of sign in to all apps with a link to only sign into this app only.](media/sign-in-to-all-apps.png)
 
-**Note:** when users select “this app only” when signing in to Teams, other apps on the PCs won’t be able to use this account. Practically, this means that links to files or websites clicked in Teams may not properly open in Microsoft 365 or in Microsoft Edge, and users may be prompted to sign in again. In other words, “this app only” prevents SSO from working correctly between Windows, Teams and other applications, and as such isn't recommended when signing in to Teams.
+**Note:** when users select “this app only” when signing in to Teams, other apps on the PCs won’t be able to use this account. Practically, this means that links to files or websites clicked in Teams may not properly open in Microsoft 365 apps or in the browser, and users may be prompted to sign in again. In other words, “this app only” prevents SSO from working correctly between Windows, Teams and other applications, and as such isn't recommended when signing in to Teams.
 
 ### Best practices for multiple users on a shared desktop device
 
@@ -69,4 +69,4 @@ With SDM, users can pick any device from a shared device pool and sign in as usu
 
 **iOS**: To set up Shared Device Mode on iOS, see [How to use shared device mode on iOS](/azure/active-directory/develop/msal-ios-shared-devices).
 
-![Sign-out-section](media/signout.png)
+![Screenshot of Sign-out-section.](media/signout.png)
