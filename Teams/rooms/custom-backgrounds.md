@@ -79,7 +79,7 @@ The recommended custom background resolution for front-of-room displays and touc
   - 16:9 displays - 1920 x 1080 or 3840 x 2160 for 4K-enabled displays (up to two 16:9 displays are supported)
   - 21:9 displays - 2560 x 1080 or 3840 x 1645 for 4K-enabled displays (only one 21:9 display is supported)
 - Touch console displays
-  - 16:9 displays - 1280 x 720
+  - 16:9 displays - 1920 x 1080 
   - 16:10 displays - 1280 x 800
   - 3:2 displays - 1920 x 800
 - Touch board displays
