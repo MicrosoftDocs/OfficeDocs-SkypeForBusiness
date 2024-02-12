@@ -69,7 +69,7 @@ If you enable custom backgrounds and don't provide custom backgrounds for all of
 
 ### Minimum resolutions
 
-Front-of-room displays and touch consoles have minimum supported custom background resolutions. For front-of-room displays, the minimum supported resolution is 1920 x 1080. For touch consoles, the minimum supported resolution is 1280 x 720. If the resolution of any custom background is below the minimum supported resolution for the display or console it's added to, all displays default to `No Theme`.
+Front-of-room displays and touch consoles have minimum supported custom background resolutions. For front-of-room displays, the minimum supported resolution is 1920 x 1080. For touch consoles, the minimum supported resolution is 1280 x 800. If the resolution of any custom background is below the minimum supported resolution for the display or console it's added to, all displays default to `No Theme`.
 
 ### Recommended resolutions
 
