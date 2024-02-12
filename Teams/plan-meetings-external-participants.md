@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: alsolom
 audience: admin
 search.appverid: MET150
-ms.localizationpriority: normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 
@@ -32,9 +32,9 @@ How external participants can attend meetings depends on a combination of your T
 
 There are three types of external participants who can attend meetings hosted by your organization:
 
-- **Guests** - people who are logged in to Teams in your organization using a guest account
-- **People from trusted organizations** - people who are logged in to Teams in other Microsoft 365 organizations that you have a two-way trust relationship with
-- **Anonymous** - people whose identity can't be verified. They may be logged in to an organization without a two-way trust relationship or they may not have an account.
+- **Guests** - people who are logged in to Teams in your organization using a guest account. Guests appear with "(Guest)" appended to their name in meetings.
+- **People from trusted organizations** - people who are logged in to Teams in other Microsoft 365 organizations that you have a two-way trust relationship with. People from trusted organizations appear with "(External)" appended to their name in meetings.
+- **Anonymous** - people whose identity can't be verified. They may be logged in to an organization without a two-way trust relationship or they may not have an account. Anonymous participants appear with "(Unverified)" appended to their name in meetings.
 
 ## Meeting with verified external participants
 
