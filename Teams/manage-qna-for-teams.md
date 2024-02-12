@@ -3,7 +3,7 @@ title: Manage Q&A in Teams meetings and events
 author: wlibebe
 ms.author: wlibebe
 ms.reviewer: sameer.sitaram
-ms.date: 1/17/2024
+ms.date: 2/9/2024
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
@@ -21,11 +21,14 @@ description: Learn about how IT Admins can set up, use, and manage Q&A in Q&A fo
 
 **APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
 
-Q&A allows presenters, organizers, and co-organizers to take questions from attendees and answer them in real time. This feature is best suited for large, structured meetings and events– like town halls, webinars, all Hands, and trainings. Q&A is a per-organizer setting.
+Q&A allows presenters, organizers, and co-organizers to take questions from attendees and answer them in real time. This feature is best suited for large, structured meetings and events– like town halls, webinars, all hands, and trainings. The Q&A policy is a per-organizer setting.
 
 Your organization might have requirements to limit which organizers can use Q&A. As an admin, you can control whether an organizer can enable Q&A in their meetings and events.
 
 To learn more about Q&A for your users, see [Q&A in Microsoft Teams meetings](https://support.microsoft.com/office/q-a-in-microsoft-teams-meetings-f3c84c72-57c3-4b6d-aea5-67b11face787).
+
+> [!NOTE]
+> Q&A isn't available for GCC.
 
 ## Prerequisites
 
