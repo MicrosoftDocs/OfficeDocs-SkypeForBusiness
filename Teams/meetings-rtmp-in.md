@@ -42,6 +42,13 @@ The incoming RTMP feed must deliver:
 - Frame rate of 29.97 fps or 30 fps
 - Square Pixel Aspect Ratio (PAR)
 
+## RTMP ingest endpoints
+
+To get a video feed sent to Teams from your encoder, you need the domain name and ports open in your network's firewall:
+
+**Domains**: *.rtmpingest.mcr.teams.microsoft.com<br>
+**Ports**: 1935/1936 (for RTMP/RTMPS)
+
 ## Manage whether organizers can use RTMP-In with the Teams admin center
 
 1. Open the Teams admin center.
