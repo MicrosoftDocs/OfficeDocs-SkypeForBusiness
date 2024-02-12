@@ -53,7 +53,7 @@ Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "AllowUnifiedContact
 
 After the policy is assigned, Skype for Business Server will begin to migrate the user's contacts to the unified contact store. After migration is complete, the user will then have their contacts stored in Exchange rather than Skype for Business Server. If the user happens to be logged on to Lync 2013 at the time migration completes, a message box appears and they will be asked to sign out of Skype for Business and then log back on in order to finalize the process. Users who haven't been assigned this per-user policy won't have their contacts migrated to the unified contact store. That's because those users are managed by the global policy, and use of the unified contact store is disabled in the global policy.
   
-You can verify that a user's contacts is successfully migrated to the unified contact store by running the [Test-CsUnifiedContactStore](/powershell/module/skype/test-csunifiedcontactstore?view=skype-ps) cmdlet from within the Skype for Business Server Management Shell:
+You can verify that a user's contacts is successfully migrated to the unified contact store by running the [Test-CsUnifiedContactStore](/powershell/module/skype/test-csunifiedcontactstore?view=skype-ps&preserve-view=true) cmdlet from within the Skype for Business Server Management Shell:
   
 ```powershell
 Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
@@ -82,7 +82,7 @@ The preceding command assigns the new policy to the user Ken Myer, and also prev
   
 The terminology "prevents Ken's contacts from being migrated to the unified contact store" is important to keep in mind when working with the unified contact store. Simply assigning Ken a new user services policy won't move his contacts out of the unified contact store. When a user sign-ins Skype for Business Server, the system checks the user's user services policy to see whether their contacts should be kept in the unified contact store. If the answer is yes (that is, if the UcsAllowed property is set to $True) then those contacts will be migrated to the unified contact store (assuming that those contacts aren't already in the unified contact store). If the answer is no, then Skype for Business Server simply ignores the user's contacts and moves on to its next task. That means that Skype for Business Server won't automatically move a user's contacts from out of the unified contact store, regardless of the value of the UcsAllowed property.
   
-That also means that, after assigning the user a new user services policy, you must then run the [Invoke-CsUcsRollback](/powershell/module/skype/invoke-csucsrollback?view=skype-ps) cmdlet in order to move the user's contacts out of Exchange Server and back to Skype for Business Server. For example, after assigning Ken Myer a new user services policy you can then move their contacts out of the unified contact store by using the following command:
+That also means that, after assigning the user a new user services policy, you must then run the [Invoke-CsUcsRollback](/powershell/module/skype/invoke-csucsrollback?view=skype-ps&preserve-view=true) cmdlet in order to move the user's contacts out of Exchange Server and back to Skype for Business Server. For example, after assigning Ken Myer a new user services policy you can then move their contacts out of the unified contact store by using the following command:
   
 ```powershell
 Invoke-CsUcsRollback -Identity "Ken Myer"
