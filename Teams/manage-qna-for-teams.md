@@ -3,7 +3,7 @@ title: Manage Q&A in Teams meetings and events
 author: wlibebe
 ms.author: wlibebe
 ms.reviewer: sameer.sitaram
-ms.date: 1/17/2024
+ms.date: 2/9/2024
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
@@ -21,11 +21,14 @@ description: Learn about how IT Admins can set up, use, and manage Q&A in Q&A fo
 
 **APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
 
-Q&A allows presenters, organizers, and co-organizers to take questions from attendees and answer them in real time. This feature is best suited for large, structured meetings and events– like town halls, webinars, all Hands, and trainings. Q&A is a per-organizer setting.
+Q&A allows presenters, organizers, and co-organizers to take questions from attendees and answer them in real time. This feature is best suited for large, structured meetings and events– like town halls, webinars, all hands, and trainings. The Q&A policy is a per-organizer setting.
 
 Your organization might have requirements to limit which organizers can use Q&A. As an admin, you can control whether an organizer can enable Q&A in their meetings and events.
 
 To learn more about Q&A for your users, see [Q&A in Microsoft Teams meetings](https://support.microsoft.com/office/q-a-in-microsoft-teams-meetings-f3c84c72-57c3-4b6d-aea5-67b11face787).
+
+> [!NOTE]
+> Q&A isn't available for GCC.
 
 ## Prerequisites
 
@@ -99,7 +102,7 @@ Q&A defaults to the user’s language for Teams. When there’s a difference in 
 
 eDiscovery for Q&A works the same as eDiscovery for any other Viva Engage content.
 
-- If you use Q&A in your tenant’s Teams application, this content is available in eDiscovery regardless of the configuration or existence of your Viva Engage network. To use eDiscovery for standard Viva Engage content, your Viva Engage network needs to be in [Native Mode](/viva/engage/configure-your-yammer-network/overview-native-mode).
+- If you use Q&A in your tenant’s Teams application, this content is available in eDiscovery regardless of the configuration or existence of your Viva Engage network. To use eDiscovery for standard Viva Engage content, your Viva Engage network needs to be in [Native Mode](/viva/engage/overview-native-mode).
 - When you perform eDiscovery, you can determine whether messages were generated in Viva Engage or through Q&A in Teams. In the File Metadata section, you can find that information in the Item Class field.
 - If your organization uses the Q&A, powered by Viva Engage, the content Q&A generates is considered Viva Engage content and is discoverable. For more information about eDiscovery in Microsoft 365 apps, see [eDiscovery solutions in Microsoft 365.](/microsoft-365/compliance/ediscovery)
 - If the meeting organizer enables anonymous posting, the questions attendees post are ingested into the organizer’s mailbox for eDiscovery.

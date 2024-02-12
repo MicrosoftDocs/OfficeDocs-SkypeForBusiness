@@ -23,7 +23,6 @@ ms.localizationpriority: high
 
 # Features that are changing in the new Microsoft Teams
 
-
 As we improved the client, the experience also improved to align with similar features. Here are some of the changes you see.
 
 |Classic Teams|New Teams|
@@ -31,7 +30,7 @@ As we improved the client, the experience also improved to align with similar fe
 |Allow users to follow another user's presence, then notify them of availability|Select a user’s avatar or profile photo anywhere in new Teams to quickly get an overview of their online status, next available calendar slot in Outlook, work hours, local time, or work location either remote or in office.|
 |Contacts in chat|You no longer can access Contacts from Chat. Instead, use the new People app. Pin it to your left navigation pane by selecting  the **(...)** menu, right-click **People**, and then select Pin.|
 |Windows notifications| Teams notifications are now fully served from Teams and all notifications preferences are handled within Teams Settings.|
-|Ability to save messages and files in Teams|The Save feature is no longer available. However, classic Teams users can download their saved messages and files to a local folder that they can open in new Teams. Learn more: [Mark a message as saved in Microsoft Teams](/office/mark-a-message-as-saved-in-microsoft-teams-3f04cba4-7f80-42ca-9983-cd93676c7420)|
+|Ability to save messages and files in Teams|The Save feature is no longer available. However, classic Teams users can download their saved messages and files to a local folder that they can open in new Teams. Learn more: [Mark a message as saved in Microsoft Teams](https://support.microsoft.com/office/3f04cba4-7f80-42ca-9983-cd93676c7420)|
 |Teams Theme Setting|Consistent with other Office applications, Teams Theme setting follows the OS Theme by default. Users can change this default in **Teams Settings > Appearance and Accessibility.**|
 |Look up an organizational chart while in a 1:1 chat |Select a user’s avatar or profile photo anywhere in Teams and navigate to the organizational chart within the profile card.|
 |Settings dialog|Teams Settings is now an app accessed from the More options menu **(...)** in the title bar. |
@@ -50,4 +49,4 @@ As we improved the client, the experience also improved to align with similar fe
 |About links in the More options menu (...) |About links are now in the Settings app under the **About Teams** category.|
 |Help in the app bar|The Help entrypoint, including Help links and Give Feedback is now located under the More options menu **(...)** in the title bar.|
 |Ability to sign out from the notification area at the far right of the taskbar (system tray). |No longer available.|
-|Ability to build Teams personal apps usings Adaptive cards|No longer available.|
+|Adaptive Card-based tabs in personal app tabs.|No longer available.|
