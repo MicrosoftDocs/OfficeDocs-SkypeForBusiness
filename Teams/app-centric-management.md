@@ -1,5 +1,5 @@
 ---
-title: App centric management to manage app access
+title: App centric management to manage user access to Teams apps
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
@@ -27,7 +27,7 @@ ms.custom: seo-marvel-apr2020
 # Use app centric management to manage apps
 
 > [!IMPORTANT]
-> If you're using app permission policies to manage access to apps, see [Use app permission policies to control user access to apps](teams-app-permission-policies.md).
+> If you're organization's Teams admin center does not have this feature, it means that you're using app permission policies to manage access to apps, see [Use app permission policies to control user access to apps](teams-app-permission-policies.md).
 
 App centric management introduces new admin settings to control who in the tenant can add and use Teams apps. This feature replaces the existing app permission policies and provides admins with the ability to manage access to the app individually. This new functionality lets you specify the users and group in your organization who can add Teams apps on a per-app basis. This feature replaces the existing app permission policies and makes it easier to manage access to apps. We retain and preserve the existing access to apps that you defined in your organization.
 
@@ -96,7 +96,7 @@ If you make any app assignments, then the assignments supersede the default orga
 
 ## View apps in your organization
 
-You can view all apps in the catalog and easily access the app assignments from the [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page. You can sort and filter using all three types of app assignments. You can combine this filter with other types of available filters.
+You can view all apps in the catalog and easily access the app assignments from the [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page. You can sort and filter using all three types of app assignments. To get a handy list of Microsoft-provided apps, see [list of Microsoft created apps](apps-in-teams.md#list-of-apps-created-by-microsoft).
 
 :::image type="content" source="media/acm-app-filter.png" alt-text="Screenshot showing how to filter apps by combing various criteria.":::
 
