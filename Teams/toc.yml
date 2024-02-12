@@ -107,6 +107,8 @@ items:
                   href: new-teams-automatic-upgrade-announced.md                  
                 - name: Classic Teams client end of availability
                   href: teams-classic-client-end-of-availability.md
+                - name: Usage report for new Teams client
+                  href: new-teams-usage-report.md
             - name: Classic Teams clients
               items:
                 - name: Get the classic Teams clients
@@ -519,6 +521,9 @@ items:
           href: teams-analytics-and-reports/walkie-talkie-usage-report.md
         - name: SMS notifications usage report
           href: /microsoft-365/frontline//sms-notifications-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: Usage report for new Teams client
+          href: new-teams-usage-report.md
+
               
     - name: Log files, service health, and support
       items:
@@ -564,6 +569,8 @@ items:
             href: manage-teams-with-policies.md
           - name: Team expiration and renewal
             href: team-expiration-renewal.md
+          - name: Private team discovery
+            href: search-private-teams.md
           - name: Archive or delete a team
             href: archive-or-delete-a-team.md
           - name: Migrate from Slack to Teams
@@ -671,6 +678,8 @@ items:
               href: manage-qna-for-teams.md
             - name: Manage meeting chat
               href: manage-meeting-chat.md
+            - name: Prevent users from joining external meetings
+              href: external-meeting-join.md
             - name: Manage reactions
               href: manage-reactions-meetings.md
             - name: Enable users to record their name when they join a meeting
@@ -1726,7 +1735,7 @@ items:
         - name: Set Adobe Acrobat as default PDF viewer
           href: adobe-acrobat-pdf-viewer-teams.md
         - name: Manage M365 connectors and custom connectors
-          href: Office-365-custom-connectors.md
+          href: m365-custom-connectors.md
         - name: Auto install approved apps
           href: auto-install-approved-apps.md
 
