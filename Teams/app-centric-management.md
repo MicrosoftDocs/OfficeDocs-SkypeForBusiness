@@ -27,7 +27,7 @@ ms.custom: seo-marvel-apr2020
 # Use app centric management to manage apps
 
 > [!IMPORTANT]
-> If you're organization's Teams admin center does not have this feature, it means that you're using app permission policies to manage access to apps, see [Use app permission policies to control user access to apps](teams-app-permission-policies.md).
+> If your Teams admin center does not have this feature, it'll receive the feature later. We recommend that you continue to [use app permission policies to control user access to apps](teams-app-permission-policies.md).
 
 App centric management introduces new admin settings to control who in the tenant can add and use Teams apps. This feature replaces the existing app permission policies and provides admins with the ability to manage access to the app individually. This new functionality lets you specify the users and group in your organization who can add Teams apps on a per-app basis. This feature replaces the existing app permission policies and makes it easier to manage access to apps. We retain and preserve the existing access to apps that you defined in your organization.
 
