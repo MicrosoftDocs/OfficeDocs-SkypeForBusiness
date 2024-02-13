@@ -256,7 +256,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Poly Eagle Eye Cube Camera](https://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.html) | 1.2.0 |  |  |
 | [Polycom EagleEye IV](https://www.poly.com/us/en/products/video-conferencing/eagleeye/eagleeye-iv) | 1.0.0 |  |  |
 | [Polycom CX5100](https://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.md) | 1.2.0.70232 |  |  |
-| [Polycom Eagle Eye Director II](https://www.poly.com/us/en/support/products/video-conferencing/enterprise-cameras/eagleeye-director-ii) | 2.1.0.10 |  |  |
+| [Polycom Eagle Eye Director II][https://www.poly.com/us/en/support/products/video-conferencing/enterprise-cameras/eagleeye-director-ii](https://support.hp.com/us-en/poly)) | 2.1.0.10 |  |  |
 | [Polycom Studio Soundbar](https://www.polycom.com/hd-video-conferencing/room-video-systems/polycom-studio.html) | 1.1.2.000570 |  |  |
 | [Poly Sync 40](https://www.poly.com/us/en/products/phones/sync/sync-40) | 0.0.94.1461 |  |  |
 | [Poly Sync 60](https://www.poly.com/us/en/products/phones/sync/sync-60) | 0.0.150.1671 |  |  |
