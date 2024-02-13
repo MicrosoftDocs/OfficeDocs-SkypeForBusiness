@@ -27,7 +27,7 @@ appliesto:
 
 # Introduction to Teams policy-based recording for callings & meetings
 
-Policy-based recording allows orgs with Microsoft Teams for calling and meetings to decide when calls and meetings should automatically be recorded. Orgs also decide when calls and meetings should be captured for
+Policy-based recording allows orgs with Microsoft Teams for calling and meetings to decide when calls and meetings should automatically be recorded through an admin policy. Orgs can also decide when calls and meetings should be captured for
 subsequent processing and retention as required by relevant corporate or regulatory policy.
 
 Teams is enhanced to support integration of
