@@ -211,7 +211,7 @@ teamsbootstrapper.exe -x -m
 
 #### User settings migration
 
-End user settings are automatically migrated from classic Teams to new Teams during the intial switch.  
+End user settings are automatically migrated from classic Teams to new Teams during the initial switch.  
 
 >[!Note]
 >Settings are only migrated once, the first time a user updates to new Teams. After that, no incremental migrations of setting changes will occur if the user switches back and forth between classic and new Teams.
