@@ -90,10 +90,8 @@ Here are some examples on how you can use these export APIs:
 > The API returns response with next page link in case of multiple results. For getting next set of results, simply call GET on the url from @odata.nextlink. If @odata.nextlink is not present or null then all messages are retrieved.
 
 ## Prerequisites to access Teams Export APIs
-
-- You can call these APIs as long as the requirements for [accessing without a user](/graph/auth-v2-service) are met.
-  
-- Application permissions are used by apps that run without a signed-in user present; application permissions can only be approved by an administrator. The following permissions are needed:
+ 
+- Application permissions are used by apps that run [without a signed-in user present](/graph/auth-v2-service); application permissions can only be approved by an administrator. The following permissions are needed:
   
   - *Chat.Read.All*: enables access to all 1:1, Group chat, and meeting chat messages
   
