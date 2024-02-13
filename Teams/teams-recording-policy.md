@@ -30,7 +30,7 @@ appliesto:
 Policy-based recording allows orgs with Microsoft Teams for calling and meetings to decide when calls and meetings should automatically be recorded through an admin policy. Orgs can also decide when calls and meetings should be captured for
 subsequent processing and retention as required by relevant corporate or regulatory policy.
 
-Teams is enhanced to support integration of
+Teams is enhanced to support the integration of
 partner recording solutions. These enhancements cover platform
 functionality, user experiences, and  administrative interfaces needed to
 provide an end-to-end solution for configuring, managing, recording,
