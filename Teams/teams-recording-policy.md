@@ -317,7 +317,7 @@ The following partners are in the process of certifying their solution for Micro
 
 |Partner|Solution website |
 |:--|:--|
-|Comunycarse |[https://www.comunycarse.com/en/call-recording-and-interactions-archiving/](https://www.comunycarse.com/en/call-recording-and-interactions-archiving/) |
+|Cloud World Wide Services |[https://recordia.net/microsoft-teams-call-recording/](https://recordia.net/microsoft-teams-call-recording/) |
 |GuardRec |[https://www.guardrec.com/en/teams-compliance-recording/](https://www.guardrec.com/en/teams-compliance-recording/) |
 |Landis Technologies |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
