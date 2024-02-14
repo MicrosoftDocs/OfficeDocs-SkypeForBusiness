@@ -56,6 +56,13 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X52 | `4.1.3.394009` | 2023 Update #2B1 |
+| Poly TC10 | `4.1.3.211457` | 2023 Update #2B1 |
+| Poly Studio X30 | `4.1.3.394009` | 2023 Update #2B1 |
+| Poly Studio X50 | `4.1.3.394009` | 2023 Update #2B1 |
+| Poly Studio X70 | `4.1.3.394009` | 2023 Update #2B1 |
+| Poly Studio G7500 | `4.1.3.394009` | 2023 Update #2B1 |
+| Poly TC8 | `4.1.3.211457` | 2023 Update #2B1 |
 | DTEN D7X 75" |`1.5.5.4`   | 2023 Update #1C |
 | DTEN D7X 55" |`1.5.5.4`   | 2023 Update #1C |
 | DTEN Mate Touch Console | `2.1.1.1` | 2023 Update #1C |
