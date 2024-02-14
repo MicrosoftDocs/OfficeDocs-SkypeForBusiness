@@ -65,47 +65,51 @@ To use connectors in a team or a channel, open the More Options menu from the up
 
 ## Use connectors in GCC or GCCH
 
-You must [enable connectors in Teams](#enable-or-disable-connectors-in-teams). Connectors are disabled by default in the Government Cloud Community (GCC) and Government Community Cloud-High (GCCH) environments.
+Connectors are disabled by default in the Government Cloud Community (GCC) and Government Community Cloud-High (GCCH) environments. To let your users use connectors in GCC or GCCH environments, follow these steps:
 
-To set the parameters, connect to the [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps&preserve-view=true).
+1. You must [enable connectors in Teams](#enable-or-disable-connectors-in-teams).
 
-To use an incoming webhook in Teams, create a `manifest.json` using the following snippet and upload it as a custom app on the **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** page in the admin center.
+1. To set the parameters, connect to the [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps&preserve-view=true).
 
-``` json
-{
-  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
-  "manifestVersion": "1.5",
-  "id": "203a1e2c-26cc-47ca-83ae-be98f960b6b2",
-  "version": "1.0.0",
-  "packageName": "com.incomingwebhook.microsoft",
-  "developer": {
-    "name": "Microsoft Corporation",
-    "websiteUrl": "https://go.microsoft.com/fwlink/?linkid=837668",
-    "privacyUrl": "https://privacy.microsoft.com/privacystatement",
-    "termsOfUseUrl": "https://www.microsoft.com/servicesagreement"
-  },
-  "description": {
-    "full": "The Incoming Webhook connector enables external services to notify you about activities that you want to track.",
-    "short": "Send data from a service to your Microsoft 365 group in real time. "
-  },
-  "icons": {
-    "outline": "outline.png",
-    "color": "color.png"
-  },
-  "connectors": [
+1. To use an incoming webhook in Teams, create a custom app using the following `manifest.json`. To use icons in the custom app, follow the [guidelines to create app icons](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines#app-icons).
+
+    ``` json
     {
-      "connectorId": "203a1e2c-26cc-47ca-83ae-be98f960b6b2",
-      "scopes": ["team"]
+      "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+      "manifestVersion": "1.5",
+      "id": "203a1e2c-26cc-47ca-83ae-be98f960b6b2",
+      "version": "1.0.0",
+      "packageName": "com.incomingwebhook.microsoft",
+      "developer": {
+        "name": "Microsoft Corporation",
+        "websiteUrl": "https://go.microsoft.com/fwlink/?linkid=837668",
+        "privacyUrl": "https://privacy.microsoft.com/privacystatement",
+        "termsOfUseUrl": "https://www.microsoft.com/servicesagreement"
+      },
+      "description": {
+        "full": "The Incoming Webhook connector enables external services to notify you about activities that you want to track.",
+        "short": "Send data from a service to your Microsoft 365 group in real time. "
+      },
+      "icons": {
+        "outline": "outline.png",
+        "color": "color.png"
+      },
+      "connectors": [
+        {
+          "connectorId": "203a1e2c-26cc-47ca-83ae-be98f960b6b2",
+          "scopes": ["team"]
+        }
+      ],
+      "name": {
+        "full": "Incoming Webhook",
+        "short": "Incoming Webhook"
+      },
+      "accentColor": "#FFFFFF",
+      "permissions": ["identity", "messageTeamMembers"]
     }
-  ],
-  "name": {
-    "full": "Incoming Webhook",
-    "short": "Incoming Webhook"
-  },
-  "accentColor": "#FFFFFF",
-  "permissions": ["identity", "messageTeamMembers"]
-}
-```
+    ```
+
+1. [Upload the custom app](teams-custom-app-policies-and-settings.md#upload-a-custom-app-using-teams-admin-center) in your Teams admin center.
 
 ## Considerations when using Connectors in Teams
 
