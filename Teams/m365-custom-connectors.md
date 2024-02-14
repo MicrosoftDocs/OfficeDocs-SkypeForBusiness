@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
-ms.date: 02/05/2024
+ms.date: 02/14/2024
 ms.collection: 
   - M365-collaboration
 ms.reviewer: vivg
