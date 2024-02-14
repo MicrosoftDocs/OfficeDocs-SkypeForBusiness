@@ -13,7 +13,7 @@ ms.collection:
   - M365-collaboration
   - Tier1
 search.appverid: MET150
-ms.date: 01/04/2024
+ms.date: 02/12/2024
 ms.reviewer: mhayrapetyan
 description: Manage access to Teams apps using app centric management.
 f1.keywords:
@@ -29,9 +29,9 @@ ms.custom: seo-marvel-apr2020
 > [!IMPORTANT]
 > If your Teams admin center does not have this feature, it'll receive the feature later. We recommend that you continue to [use app permission policies to control user access to apps](teams-app-permission-policies.md).
 
-App centric management introduces new admin settings to control who in the tenant can add and use Teams apps. This feature replaces the existing app permission policies and provides admins with the ability to manage access to the app individually. This new functionality lets you specify the users and group in your organization who can add Teams apps on a per-app basis. This feature replaces the existing app permission policies and makes it easier to manage access to apps. We retain and preserve the existing access to apps that you defined in your organization.
+You evaluate and allow one app at a time. Now you can manage access to apps one app at a time too. App centric management functionality introduces a new way to control which users are permitted to use Teams apps. This feature replaces app permission policies and provides admins with the ability to manage access to the app individually. This new functionality lets you specify the users and group in your organization who can add Teams apps on a per-app basis. This feature replaces the existing app permission policies and makes it easier to manage access to apps. We retain and preserve the existing access to apps that you defined in your organization.
 
-You control it and can set the default settings to access the new apps that are published to the Teams app store. You can manage access to apps for users, groups, or everyone in the organization.
+As an admin, you can manage app availability and decide which users can use apps in your organization. You can manage access to apps for users, groups, or everyone in the organization. You have complete control over who can or can't add and use apps in your organization. You can also control the access of new apps that are published to the Teams app store.
 
 ## What changes with this feature
 
@@ -47,13 +47,9 @@ App centric management feature simplifies these settings by having each app defi
 * **Specific users or groups**: Only the users and groups that you select can use the app. The supported group types are security groups, Microsoft 365 groups, dynamic user membership groups, nested groups, and the distribution lists.
 * **No one**: Nobody in the organization can use the app. Any existing users lose access to the app.
 
-The method to block or allow an app changes with this functionality. In the past, to allow access to a user, you'd add the app as an allowed app in a policy and assign that policy to the user. Using this functionality, you simply modify the app assignments of an app to allow a user. You can deny everyone access or you can explicitly specify the list of users or groups who get access to an app.
+The method to block or allow an app changes with this functionality. In the past, to allow access to a user, you'd add the app as an allowed app in a policy and assign that policy to the user. Using this functionality, you just modify the app assignments of an app to allow a user. You can deny everyone access or you can explicitly specify the list of users or groups who get access to an app.
 
-## Manage app availability
-
-As an admin, you can manage app availability, deciding which users can add Teams apps in your organization from the Teams app store. You have complete control over who can or can't add and use apps in your organization.
-
-### Add or modify app assignments
+## Add or modify app assignments
 
 To assign users or groups to an app, follow these steps:
 
@@ -71,7 +67,7 @@ To assign users or groups to an app, follow these steps:
 
     :::image type="content" source="media/acm-remove-access.png" alt-text="Screenshot showing how to remove an existing app assignment from the app details page.":::
 
-### Block an app
+## Block an app
 
 You can block an app for all users in the organization and restrict them from adding and using the app in Teams.
 
@@ -83,16 +79,18 @@ You can block an app for all users in the organization and restrict them from ad
 
 When you block an app, you can still view and modify the assignments but the assignments take effect only when you allow the app.
 
-### Customize the default settings for app availability
+## Default settings for app availability
 
-You can control the default app assignments of any new and incoming app in your organization for all types of apps. The default setting is set to `Let users install available apps by default`. To change this default setting, access [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page, select **Actions** > **Org-wide app settings**, and modify the required settings.
+You can control the default app assignments of any new and incoming apps in your organization and it applies to all types of apps. When your tenant moves to the feature then the default setting is set to `Let users install available apps by default`. To change this default setting, access [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page, select **Actions** > **Org-wide app settings**, and modify the required settings.
 
 The default tenant settings apply in the following cases:
 
 * All new and incoming Teams apps.
-* All apps published in the past that you didn't manage.
+* All apps published in the past that you didn't manage, that is, you didn't change the settings of these apps.
 
-If you make any app assignments, then the assignments supersede the default organization settings. Teams admin center honors the admin changes over the default settings.
+If you make any app assignments, then the assignments supersede the default organization settings. We honor the admin settings over the default settings.
+
+Consider a scenario where you start using the feature and assign an app to `No one`.
 
 ## View apps in your organization
 
