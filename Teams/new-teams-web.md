@@ -57,25 +57,27 @@ More-specific dates and details for Firefox, Safari, and PWA on Linux will be sh
 ### Minimum Browser versions
 
 New Teams for Web follows the same browser requirements as classic Teams for Microsoft Edge and Chrome Browsers:
-  
+
 - The browser must be configured to allow third-party cookies.
 - The browser runs on a desktop computer.
 - The browser is updated to one of the three most-recent versions of Microsoft Edge or Chrome.
-  
+
 The new Teams web client offers near feature parity with the new Desktop client thanks to a new, cross-client infrastructure.
-  
+
 ## Features currently not available
 
 The following notable features aren't available on new Teams or classic Teams clients:
-  
+
 - Simultaneous availability and notifications across multiple accounts and tenants.
 - Popout windows for chat and channel content.
 - Avatars and video background effects, except for background blur.
-  
+
+New Teams for Web supports the same features available on classic Teams for Web with the exception of the changes listed in [Features that are changing in the new Microsoft Teams](new-teams-whats-changing.md).
+
 ## Enhancements in new Teams
 
 The following issues from classic Teams Web are now fixed in new Teams Web:
-  
+
 - Support for more than two concurrent Teams tabs.
 - Screen reader challenges with notifications.
 - Various stability and performance issues.
