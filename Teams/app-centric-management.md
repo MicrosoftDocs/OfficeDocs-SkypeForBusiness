@@ -13,7 +13,7 @@ ms.collection:
   - M365-collaboration
   - Tier1
 search.appverid: MET150
-ms.date: 02/12/2024
+ms.date: 02/14/2024
 ms.reviewer: mhayrapetyan
 description: Manage access to Teams apps using app centric management.
 f1.keywords:
@@ -79,18 +79,20 @@ You can block an app for all users in the organization and restrict them from ad
 
 When you block an app, you can still view and modify the assignments but the assignments take effect only when you allow the app.
 
-## Default settings for app availability
+## Settings for app availability and how your assignments are preserved
 
-You can control the default app assignments of any new and incoming apps in your organization and it applies to all types of apps. When your tenant moves to the feature then the default setting is set to `Let users install available apps by default`. To change this default setting, access [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page, select **Actions** > **Org-wide app settings**, and modify the required settings.
+In addition to allowing or blocking apps and app assignments, you can also control the default app assignments of any new apps. When your tenant moves to the feature then the default setting is set to `Let users install available apps by default`. To change this default setting, access [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page, select **Actions** > **Org-wide app settings**, and modify the required settings.
 
-The default tenant settings apply in the following cases:
+:::image type="content" source="media/acm-org-wide-app-settings.png" alt-text="Screenshot showing the org-wide app settings in an organization that uses app centric  ":::
 
-* All new and incoming Teams apps.
-* All apps published in the past that you didn't manage, that is, you didn't change the settings of these apps.
+The org-wide app settings apply in the following cases:
 
-If you make any app assignments, then the assignments supersede the default organization settings. We honor the admin settings over the default settings.
+* All new apps made available in Teams app store.
+* All existing apps that you didn't actively manage, that is, you didn't change the assignments of.
 
-Consider a scenario where you start using the feature and assign an app to `No one`.
+When you change the assignment of an app and save it, then we retain and preserve your assignment and it supersedes the org-wide app settings, even if you change these settings. That is, a change in org-wide app settings doesn't override your app assignments.
+
+Consider a scenario where you started using the feature and all apps were assigned to everyone. Now, you changed an app's assignment to a specific group or users. After saving this app assignment, if you change the org-wide app setting titled **Let users install and use available apps by default**, then this particular app continues to be assigned to the specific group or users. Your change to the org-wide app setting applies only to those apps for which you didn't change assignments. Further, if you again change the **Let users install and use available apps by default** setting, the assignments of all other apps are again impacted, except the app that you actively managed.
 
 ## View apps in your organization
 
