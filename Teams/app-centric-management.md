@@ -29,25 +29,29 @@ ms.custom: seo-marvel-apr2020
 > [!IMPORTANT]
 > If your Teams admin center does not have this feature, it'll receive the feature later. We recommend that you continue to [use app permission policies to control user access to apps](teams-app-permission-policies.md).
 
-You evaluate and allow one app at a time. Now you can manage access to apps one app at a time too. App centric management functionality introduces a new way to control which users are permitted to use Teams apps. This feature replaces app permission policies and provides admins with the ability to manage access to the app individually. This new functionality lets you specify the users and group in your organization who can add Teams apps on a per-app basis. This feature replaces the existing app permission policies and makes it easier to manage access to apps. We retain and preserve the existing access to apps that you defined in your organization.
+You evaluate and allow one app at a time. Now you can manage access to apps one app at a time too. Manage access by apps functionality introduces a new way to control how you permit users to use Teams apps. This feature replaces app permission policies. This functionality lets you specify which users and groups can use each app and you can control it on a per-app basis.
 
-As an admin, you can manage app availability and decide which users can use apps in your organization. You can manage access to apps for users, groups, or everyone in the organization. You have complete control over who can or can't add and use apps in your organization. You can also control the access of new apps that are published to the Teams app store.
+When you start using this functionality, we retain the existing access to apps that you defined using permission policies. As always, your governance controls are preserved.
 
-## What changes with this feature
+You can manage access to apps for individual users, supported groups, or everyone in the organization. You have complete control over who can or can't add and use apps in your organization. You can also control the access of new apps that we publish to Teams app store.
 
-When you used permission policies, the following three settings determined if a user can add and use an app:
+## Difference between permission policy and manage access by apps
 
-* Permission policy: Applied to a user to define apps that are allowed or blocked for a specific user.
-* App status: Allow or block settings for a specific app.
-* Org-wide setting for third-party apps: Applied for the entire organization.
+Previously, when using permission policies, you determined access to apps using the following three settings:
 
-App centric management feature simplifies these settings by having each app define who can use the app, so that you can handle each app differently based on your user's needs and organization's compliance and risk posture. When using this functionality, you define app assignments by choosing one of the following options for each app:
+* Org-wide setting for third-party apps. It applies at an org-level and controls if all third-party apps are available for every user or not.
+* App status. It applies at an app-level and controls if it is available to any user or not.
+* Permission policy. It applies at a user-level and controls if a specific user is permitted to use an app or not.
 
-* **Everyone in the organization**: Anyone in your org can add and use the app.
+Manage access by apps feature simplifies these settings by having each app contain its access definition. That is, users and groups who can access the app. It let's you manage each app differently and one at a time based on your user's needs and organization's compliance and risk posture.
+
+When using this functionality, you determine access to apps using one of the following options for each app:
+
+* **Everyone in the organization**.
 * **Specific users or groups**: Only the users and groups that you select can use the app. The supported group types are security groups, Microsoft 365 groups, dynamic user membership groups, nested groups, and the distribution lists.
-* **No one**: Nobody in the organization can use the app. Any existing users lose access to the app.
+* **No one**.
 
-The method to block or allow an app changes with this functionality. In the past, to allow access to a user, you'd add the app as an allowed app in a policy and assign that policy to the user. Using this functionality, you just modify the app assignments of an app to allow a user. You can deny everyone access or you can explicitly specify the list of users or groups who get access to an app.
+The method to block or allow an app changes with this functionality. In the past, to allow access to a user, you'd add the app as an allowed app in a policy and assign that policy to the user. Using this functionality, you just modify the app assignments of an app to allow a user. Also, you don't have to create multiple policies for different combinations across allowed apps and permitted users.
 
 ## Add or modify app assignments
 
@@ -67,28 +71,19 @@ To assign users or groups to an app, follow these steps:
 
     :::image type="content" source="media/acm-remove-access.png" alt-text="Screenshot showing how to remove an existing app assignment from the app details page.":::
 
-## Block an app
-
-You can block an app for all users in the organization and restrict them from adding and using the app in Teams.
-
-1. In Teams admin center, go to the [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page, search for the required app, and select the app name to open its app details page.
-
-1. Select **Actions** > **Block app**.
-
-    :::image type="content" source="media/acm-block-app.png" alt-text="Screenshot showing how to block access to an app for an entire organization from the Actions menu in app details page.":::
-
-When you block an app, you can still view and modify the assignments but the assignments take effect only when you allow the app.
+> [!NOTE]
+> You can view and modify the assignments for a blocked app but your assignments apply only when you [allow the app](manage-apps.md#allow-or-block-apps).
 
 ## Settings for app availability and how your assignments are preserved
 
-In addition to allowing or blocking apps and app assignments, you can also control the default app assignments of any new apps. When your tenant moves to the feature then the default setting is set to `Let users install available apps by default`. To change this default setting, access [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page, select **Actions** > **Org-wide app settings**, and modify the required settings.
+In addition to allowing or blocking apps and creating app assignments, you can also control the default app assignments of any new apps. When your tenant moves to the feature then the default setting let's users install available apps by default. To change this default setting, access [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page, select **Actions** > **Org-wide app settings**, and modify the required settings.
 
-:::image type="content" source="media/acm-org-wide-app-settings.png" alt-text="Screenshot showing the org-wide app settings in an organization that uses app centric  ":::
+:::image type="content" source="media/acm-org-wide-app-settings.png" alt-text="Screenshot showing the org-wide app settings in an organization that uses manage access by apps feature.":::
 
-The org-wide app settings apply in the following cases:
+The org-wide app settings apply to:
 
-* All new apps made available in Teams app store.
-* All existing apps that you didn't actively manage, that is, you didn't change the assignments of.
+* All the new apps made available in Teams app store.
+* All the existing apps that you didn't actively manage, that is, you didn't change the assignments of.
 
 When you change the assignment of an app and save it, then we retain and preserve your assignment and it supersedes the org-wide app settings, even if you change these settings. That is, a change in org-wide app settings doesn't override your app assignments.
 
@@ -98,7 +93,7 @@ Consider a scenario where you started using the feature and all apps were assign
 
 You can view all apps in the catalog and easily access the app assignments from the [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page. You can sort and filter using all three types of app assignments. To get a handy list of Microsoft-provided apps, see [list of Microsoft created apps](apps-in-teams.md#list-of-apps-created-by-microsoft).
 
-:::image type="content" source="media/acm-app-filter.png" alt-text="Screenshot showing how to filter apps by combing various criteria.":::
+:::image type="content" source="media/acm-app-filter.png" alt-text="Screenshot showing how to filter apps by combining various criteria such as assignments, app type, and app status.":::
 
 ### View and modify apps assigned to a user
 
