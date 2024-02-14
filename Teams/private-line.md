@@ -1,5 +1,5 @@
 ---
-title: 'Private lines in Microsoft Teams'
+title: 'Configure private lines in Microsoft Teams'
 author: mkbond007
 ms.author: mabond
 manager: serdars
@@ -22,9 +22,9 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Private telephone lines in Microsoft Teams
+# Configure private lines in Microsoft Teams
 
-This article describes how to configure private lines for users with Teams Phone in Microsoft Teams.
+This article describes how to configure private telephone lines for users with Teams Phone in Microsoft Teams.
 
 A *private line* is a second phone number assigned to a user. Typically, the user is an executive who shares the second number with only a few people.
 
@@ -57,7 +57,7 @@ The following information describes how inbound calls are handled using a privat
 - If a user with a private line has voicemail enabled, the call goes to voicemail per normal.
 - If the user doesn't have voicemail enabled and the call is unanswered, the busy signal will be played after 1 minute. Calls to a user's private line don't follow "do not disturb" rules.
 - Incoming calls to a user's private line have a special ringtone to distinguish them from calls to the user's primary line.
-- The Teams notification for the call tells the user that the incoming call is on his or her private line. The call history in Teams will also show a label that an incoming call was made to the private line.
+- The Teams notification for the call tells the user that the incoming call is on their private line. The call history in Teams will also show a label that an incoming call was made to the private line.
 
 ## Configure a private line for a user
 
