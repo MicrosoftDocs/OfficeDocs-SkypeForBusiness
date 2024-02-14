@@ -40,17 +40,17 @@ To enable or disable a connector, execute the following commands in Microsoft Ex
 1. Open PowerShell as an administrator.
 1. Use the command `Import-Module ExchangeOnlineManagement` to import the Microsoft Exchange module.
 1. To disable connectors for the tenant, use the command `Set-OrganizationConfig -ConnectorsEnabled:$false`.
-1. To connect the admin account, use the command `Connect-ExchangeOnline -UserPrincipalName UPN -ExchangeEnvironmentName O365USGovGCCHigh`. Replace the UPN with your UPN.
+1. To connect the admin account, use the command `Connect-ExchangeOnline -UserPrincipalName UPN -ExchangeEnvironmentName O365USGovGCCHigh`. Replace the User Principal Name (UPN) with your UPN.
 1. To enable connectors for Teams, use the following commands. To disable connectors or actionable messages, set the value to `false` instead of `true` in the following commands.
 
    * `Set-OrganizationConfig -ConnectorsEnabled:$true`
    * `Set-OrganizationConfig -ConnectorsEnabledForTeams:$true`
    * `Set-OrganizationConfig -ConnectorsActionableMessagesEnabled:$true`
 
-For more information on PowerShell module exchange, see [Set-OrganizationConfig](/powershell/module/exchange/Set-OrganizationConfig?view=exchange-ps&preserve-view=true). To enable or disable Outlook connectors, [connect apps to your groups in Microsoft Outlook](https://support.microsoft.com/topic/connect-apps-to-your-groups-in-outlook-ed0ce547-038f-4902-b9b3-9e518ae6fbab).
+For more information about PowerShell module exchange, see [Set-OrganizationConfig](/powershell/module/exchange/Set-OrganizationConfig?view=exchange-ps&preserve-view=true). To enable or disable Outlook connectors, [connect apps to your groups in Microsoft Outlook](https://support.microsoft.com/topic/connect-apps-to-your-groups-in-outlook-ed0ce547-038f-4902-b9b3-9e518ae6fbab). To know more about User Principal Name (UPN), see [what is UPN in Microsoft 365](/entra/identity/hybrid/connect/plan-connect-userprincipalname#what-is-userprincipalname).
 
 > [!NOTE]
-> It may take up to 24 hours for these changes to propagate.
+> It takes up to 24 hours for these changes to propagate.
 
 ## Publish connectors for your organization
 
@@ -75,36 +75,34 @@ To use an incoming webhook in Teams, create a `manifest.json` using the followin
 {
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
   "manifestVersion": "1.5",
-  "id": "96598e97-093a-4032-b539-43256c9ecf99",
+  "id": "203a1e2c-26cc-47ca-83ae-be98f960b6b2",
   "version": "1.0.0",
-  "packageName": "com.ToDoTestApp2020",
+  "packageName": "com.incomingwebhook.microsoft",
   "developer": {
-    "name": "Developer",
-    "websiteUrl": "https://www.microsoft.com",
-    "privacyUrl": "https://www.microsoft.com",
-    "termsOfUseUrl": "https://www.microsoft.com"
+    "name": "Microsoft Corporation",
+    "websiteUrl": "https://go.microsoft.com/fwlink/?linkid=837668",
+    "privacyUrl": "https://privacy.microsoft.com/privacystatement",
+    "termsOfUseUrl": "https://www.microsoft.com/servicesagreement"
   },
   "description": {
-    "full": "to do app sdf",
-    "short": "test connector"
+    "full": "The Incoming Webhook connector enables external services to notify you about activities that you want to track.",
+    "short": "Send data from a service to your Microsoft 365 group in real time. "
   },
   "icons": {
-    "outline": "todo.jpg",
-    "color": "todo.jpg"
+    "outline": "outline.png",
+    "color": "color.png"
   },
   "connectors": [
     {
-      "connectorId": "96598e97-093a-4032-b539-43256c9ecf99",
-      "scopes": ["team"],
-      "configurationUrl": "https://teamstodosampleconnector.azurewebsites.net/connector/setup"
+      "connectorId": "203a1e2c-26cc-47ca-83ae-be98f960b6b2",
+      "scopes": ["team"]
     }
   ],
   "name": {
-    "full": "ToDoTestApp2020",
-    "short": "ToDoTestApp2020"
+    "full": "Incoming Webhook",
+    "short": "Incoming Webhook"
   },
   "accentColor": "#FFFFFF",
-  "validDomains": ["teamstodosampleconnector.azurewebsites.net"],
   "permissions": ["identity", "messageTeamMembers"]
 }
 ```
