@@ -17,6 +17,7 @@ ms.custom:
   - seo-marvel-apr2020
 ms.collection: 
   - M365-collaboration
+  - essentials-manage
 appliesto: 
   - Microsoft Teams
 description: Learn how to view or update the teams that your organization has set up for collaboration in the Microsoft Teams admin center.
