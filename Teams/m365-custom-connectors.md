@@ -61,7 +61,7 @@ To make a custom connector available to your organization's users, upload a cust
 
 To use connectors in a team or a channel, open the More Options menu from the upper right corner of a channel. From the menu, select **Connectors** and then locate or search for the required connector. Configure the selected connector if necessary.
 
-:::image type="content" source="media/connectors-selection-ui.png" alt-text="Add connectors to your channel in Teams from the More options in the upper right corner of the channel.":::
+:::image type="content" source="media/connectors-selection-ui.png" alt-text="Screenshot that shows add connectors to your channel in Teams from the More options in the upper right corner of the channel.":::
 
 ## Use connectors in GCC or GCCH
 
