@@ -82,8 +82,8 @@ The following table shows the behaviors of the settings for the **`-Copilot`** p
 
 |Setting value| Behavior|
 |---------|---------------|
-|Enabled| When organizers with this policy create meetings, the default value for Copilot in their meeting options is Without transcription. If the organizer keeps the default, transcription isn’t required to use Copilot for the meeting. Copilot starts once a licensed user selects the Copilot button and is only available to use during the meeting. |
-|EnabledWithTranscript| **This is the default value**. When organizers with this policy create meetings, the default value for Copilot in their meeting options is With transcription. If the organizer keeps the default, transcription must be enabled to use Copilot for the meeting. Copilot is still available to use after the meeting ends.|
+|Enabled| When organizers with this policy create meetings, the default value for Copilot in their meeting options is **Without transcription**. If the organizer keeps the default, transcription isn’t required to use Copilot for the meeting. Copilot starts once a licensed user selects the Copilot button and is only available to use during the meeting. |
+|EnabledWithTranscript| **This is the default value**. When organizers with this policy create meetings, the default value for Copilot in their meeting options is **With transcription**. If the organizer keeps the default, transcription must be enabled to use Copilot for the meeting. Copilot is still available to use after the meeting ends.|
 
 For organizers with this policy to have the default value for Copilot set to **Without transcription**, use the following script:
 
