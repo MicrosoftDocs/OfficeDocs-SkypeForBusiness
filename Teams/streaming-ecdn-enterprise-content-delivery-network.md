@@ -44,7 +44,7 @@ Before you can enable an eCDN solution to be used with Teams, you must purchase 
 Several eCDN solutions are preintegrated and can be enabled for use with Teams. See information about the providers in the next section.
 
 > [!IMPORTANT]
-> Teams Premium features require the Microsoft eCDN. Streaming events organized by people with a Teams Premium license always use the Microsoft eCDN even if you've configured a different option.
+> At this time, Teams Premium features for town halls are compatible with Microsoft eCDN. When organizers with a Teams Premium license create town halls, the Microsoft eCDN is always used even if you've configured a different option.
 
 ### Microsoft eCDN (Teams Premium)
 
