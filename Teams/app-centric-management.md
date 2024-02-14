@@ -76,7 +76,7 @@ To assign users or groups to an app, follow these steps:
 
 ## Settings for app availability and how your assignments are preserved
 
-In addition to allowing or blocking apps and creating app assignments, you can also control the default app assignments of any new apps. When your tenant moves to the feature then the default setting let's users install available apps by default. To change this default setting, access [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page, select **Actions** > **Org-wide app settings**, and modify the required settings.
+In addition to allowing or blocking apps and creating app assignments, you can also control the default app assignments of any new apps. When you start to use the feature then the default setting are to let users install apps by default. To change this default setting, access [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page, select **Actions** > **Org-wide app settings**, and modify the required settings.
 
 :::image type="content" source="media/acm-org-wide-app-settings.png" alt-text="Screenshot showing the org-wide app settings in an organization that uses manage access by apps feature.":::
 
@@ -105,12 +105,12 @@ Each app displays the assignment type, which indicates how the user was assigned
 
 You can remove app assignment for a user. Select an app that is directly assigned to the user and select **Remove**. You can’t remove assignments for a user if the app is available to everyone or to a group.
 
-## App management settings before and after migration
+## Old and new app management settings
 
-If your tenant had only Global permission policy and doesn't have any custom policies, then the following changes are made to the settings after the migration.
+If your organization has just the Global permission policy and doesn't have any custom policies, then the following changes are made to the settings after you start to use this feature.
 
-| App permission policy and tenant settings before migration | Org-wide app settings after migration |
-|------------------------------------------------------------|--------------------------|
+| App permission policy and org settings earlier | Org-wide app settings while using this feature |
+|------------------------------------------------|------------------------------------------------|
 |  Global permission policy for Microsoft apps was `Allow all` or Global permission policy for Microsoft apps was `Block an app(s), allow all others`  |  `Allow users install available apps by default` for Microsoft apps is set to on |
 |  Global permission policy for Microsoft apps was `Block all` or Global permission policy for Microsoft apps was `Allow app(s), Block all others` | `Allow users install available apps by default` for Microsoft apps is set to off |
 |  Third party app setting in the Org-wide app settings was set to on; New third-party app setting in the org-wide setting was set to on; Global permission policy for third party apps was `Allow all`; or Global permission policy for third party apps was `Block an app(s), allow all others`  |  `Allow users install available apps by default` for third party apps is set to on |
@@ -122,12 +122,12 @@ If your tenant had only Global permission policy and doesn't have any custom pol
 > * This change retires the third-party apps settings and the new third-party apps in the Org-wide app settings.
 > * For a list of Microsoft apps, see [Microsoft apps in Teams](apps-in-teams.md#list-of-apps-created-by-microsoft).
 
-| App status before migration | Global permission policy definition before migration | App assignment after migration |
-|-----------------------------|------------------------------------------------------|--------------------------------|
-| Blocked                     | Blocked                                              | No one can install             |
-| Blocked                     | Allowed                                              | No one can install             |
-| Allowed                     | Blocked                                              | No one can install             |
-| Allowed                     | Allowed                                              | Everyone                       |
+| App status earlier | Global permission policy definition earlier | App assignments while using the new feature |
+|--------------------|---------------------------------------------|---------------------------------------------|
+| Blocked            | Blocked                                     | No one can install                          |
+| Blocked            | Allowed                                     | No one can install                          |
+| Allowed            | Blocked                                     | No one can install                          |
+| Allowed            | Allowed                                     | Everyone                                    |
 
 > [!NOTE]
 > You can't access, edit, or use permission policies after switching to manage access by apps functionality.
