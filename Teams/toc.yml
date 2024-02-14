@@ -984,24 +984,26 @@ items:
               href: call-queue-auto-attendant-cmdlets.md
             - name: Dial and voice reference
               href: dial-voice-reference.md
-        - name: Routing inbound calls
-          href: inbound-call-routing.md
-        - name: Block inbound calls
-          href: block-inbound-calls.md
-        - name: Configure call forwarding and delegation settings
-          href: user-call-settings.md
-        - name: Call park and retrieve
-          href: call-park-and-retrieve.md
-        - name: Call sharing and group call pickup
-          href: call-sharing-and-group-call-pickup.md
+        -name: Manage inbound calls
+         items:
+           - name: Route inbound calls
+             href: inbound-call-routing.md
+           - name: Block inbound calls
+             href: block-inbound-calls.md
+           - name: Configure call forwarding and delegation settings
+             href: user-call-settings.md
+           - name: Call park and retrieve
+             href: call-park-and-retrieve.md
+           - name: Call sharing and group call pickup
+             href: call-sharing-and-group-call-pickup.md
+           - name: Music on Hold
+             href: music-on-hold.md
         - name: Configure calling policies
           href: teams-calling-policy.md
         - name: Shared line appearance
           href: shared-line-appearance.md
         - name: Dial pad configuration
           href: dial-pad-configuration.md
-        - name: Music on Hold
-          href: music-on-hold.md
 
     - name: PSTN connectivity options
       items:
