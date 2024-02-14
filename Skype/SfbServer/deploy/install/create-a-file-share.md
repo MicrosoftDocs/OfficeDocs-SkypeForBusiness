@@ -46,11 +46,13 @@ Watch the video steps for **create a file share**:
     
 3. Select the **Sharing** tab, and click **Advanced Sharing**.
     
-4. Click **Share this folder**.
+4. Select **Share this folder**.
     
-5. Click **Permissions**.
+5. Select **Permissions**.
     
 6. Add the local **Administrators** group of the server hosting the file share, grant **Allow: Full Control, Change, and Read** rights, and then click **OK**.
+
+7. Select the group **Everyone** and then click **Remove**.
     
 7. Click **OK** again and take note of the network path.
     
