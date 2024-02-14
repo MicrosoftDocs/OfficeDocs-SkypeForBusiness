@@ -135,7 +135,7 @@ To view common use cases mapped to Teams capabilities, see [Map your use cases t
 
 ## List of apps created by Microsoft
 
-The following list of apps are the only Microsoft apps in Teams admin center:
+The following apps are the only apps provided by Microsoft and are generally available:
 
 * Admin
 * Approvals
