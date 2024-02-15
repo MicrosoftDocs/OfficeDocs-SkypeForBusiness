@@ -56,6 +56,9 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Yealink MeetingBar A10 | `278.320.0.36`   | 2023 Update #2B1  |
+| Yealink MeetingBar A20 | `133.320.0.39`   | 2023 Update #2B1  |
+| Yealink MeetingBar A30 | `133.320.0.39`   | 2023 Update #2B1  |
 | Poly Studio X52 | `4.1.3.394009` | 2023 Update #2B1 |
 | Poly TC10 | `4.1.3.211457` | 2023 Update #2B1 |
 | Poly Studio X30 | `4.1.3.394009` | 2023 Update #2B1 |
