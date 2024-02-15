@@ -996,6 +996,8 @@ items:
           href: call-park-and-retrieve.md
         - name: Call sharing and group call pickup
           href: call-sharing-and-group-call-pickup.md
+        - name: Configure private lines
+          href: private-line.md
         - name: Configure calling policies
           href: teams-calling-policy.md
         - name: Shared line appearance
