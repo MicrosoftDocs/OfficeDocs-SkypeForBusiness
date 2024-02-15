@@ -6,21 +6,21 @@ manager: pamgreen
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: rafarhi
-ms.date: 08/21/2023
+ms.date: 02/13/2024
 audience: admin
 search.appverid: MET150
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 
-  - ms.teamsadmincenter.orgwidesettings.guestaccess.overview
-  - chat-teams-channels-revamp
+- ms.teamsadmincenter.orgwidesettings.guestaccess.overview
+- chat-teams-channels-revamp
 ms.collection: 
-  - Teams_ITAdmin_GuestAccess
-  - M365-collaboration
-  - m365initiative-externalcollab
+- Teams_ITAdmin_GuestAccess
+- M365-collaboration
+- m365initiative-externalcollab
 appliesto: 
-  - Microsoft Teams
+- Microsoft Teams
 description: Guest access in Microsoft Teams allows teams in your organization to collaborate with people outside your organization by granting them access to teams and channels.
 ---
 
