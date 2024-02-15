@@ -79,9 +79,6 @@ Guest access can be used with all Microsoft 365 Business Standard, Microsoft 365
 
 Guests are subject to  [Microsoft 365 or Office 365](/office365/servicedescriptions/office-365-service-descriptions-technet-library) and [Microsoft Entra ID](/office365/servicedescriptions/azure-active-directory) service limits.
 
-> [!NOTE]
-> Converting a guest account into a Microsoft Entra member account or converting a Microsoft Entra member account into a guest is not supported by Teams.
-
 ## Diagnosing issues with Guest Access
 
 To troubleshoot issues with inviting guests in Teams, administrators can run a diagnostic tool in the Microsoft 365 admin center to validate that guest access is correctly configured for use in Teams. 
