@@ -43,7 +43,7 @@ Previously, when using permission policies, you determined access to apps using 
 * App status. It applies at an app-level and controls if it is available to any user or not.
 * Permission policy. It applies at a user-level and controls if a specific user is permitted to use an app or not.
 
-Manage access by apps feature simplifies these settings by having each app contain its access definition. That is, users and groups who can access the app. It let's you manage each app differently and one at a time based on your user's needs and organization's compliance and risk posture.
+Manage access by apps feature simplifies these settings by having each app contain its access definition. That is, users and groups who can access the app. It lets you manage each app differently and one at a time based on your user's needs and organization's compliance and risk posture.
 
 When using this functionality, you determine access to apps using one of the following options for each app:
 
