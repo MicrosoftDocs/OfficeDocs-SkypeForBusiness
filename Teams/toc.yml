@@ -940,24 +940,30 @@ items:
           href: here-s-what-you-get-with-phone-system.md
         - name: Set up Teams Phone
           href: setting-up-your-phone-system.md
-        - name: Voicemail
-          items: 
-            - name: Manage Cloud Voicemail
-              href: set-up-phone-system-voicemail.md
-            - name: Manage Voicemail policies
-              href: manage-voicemail-policies.md
-            - name: Manage Voicemail settings
-              href: manage-voicemail-settings.md
-            - name: Change the default language for voicemail
-              href: change-the-default-language-for-greetings-and-emails.md
-            - name: Languages for voicemail greetings and messages
-              href: languages-for-voicemail-greetings-and-messages.md
+        - name: Configure calling policies
+          href: teams-calling-policy.md
         - name: Caller ID
           items: 
             - name: Manage caller ID for users
               href: caller-id-policies.md
             - name: More about Calling Line ID and Calling Party Name
               href: more-about-calling-line-id-and-calling-party-name.md
+        - name: Manage inbound calls
+          items:
+            - name: Route inbound calls
+              href: inbound-call-routing.md
+            - name: Block inbound calls
+              href: block-inbound-calls.md
+            - name: Configure call forwarding and delegation settings
+              href: user-call-settings.md
+            - name: Configure call park and retrieve
+              href: call-park-and-retrieve.md
+            - name: Configure call sharing and group call pickup
+              href: call-sharing-and-group-call-pickup.md
+            - name: Configure music on Hold
+              href: music-on-hold.md
+            - name: Configure private line
+              href: private-line.md
         - name: Auto attendants and Call queues
           items: 
             - name: Plan Auto attendants and Call queues
@@ -984,26 +990,23 @@ items:
               href: call-queue-auto-attendant-cmdlets.md
             - name: Dial and voice reference
               href: dial-voice-reference.md
-        - name: Routing inbound calls
-          href: inbound-call-routing.md
-        - name: Block inbound calls
-          href: block-inbound-calls.md
-        - name: Configure call forwarding and delegation settings
-          href: user-call-settings.md
-        - name: Call park and retrieve
-          href: call-park-and-retrieve.md
-        - name: Call sharing and group call pickup
-          href: call-sharing-and-group-call-pickup.md
-        - name: Configure private lines
-          href: private-line.md
-        - name: Configure calling policies
-          href: teams-calling-policy.md
+        - name: Voicemail
+          items: 
+            - name: Manage Cloud Voicemail
+              href: set-up-phone-system-voicemail.md
+            - name: Manage Voicemail policies
+              href: manage-voicemail-policies.md
+            - name: Manage Voicemail settings
+              href: manage-voicemail-settings.md
+            - name: Change the default language for voicemail
+              href: change-the-default-language-for-greetings-and-emails.md
+            - name: Languages for voicemail greetings and messages
+              href: languages-for-voicemail-greetings-and-messages.md
         - name: Shared line appearance
           href: shared-line-appearance.md
         - name: Dial pad configuration
           href: dial-pad-configuration.md
-        - name: Music on Hold
-          href: music-on-hold.md
+        
 
     - name: PSTN connectivity options
       items:
