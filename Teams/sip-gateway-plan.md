@@ -47,12 +47,29 @@ SIP Gateway connects compatible SIP devices to Teams to help your users migrate 
 - **Set DND from SIP devices:** You can use your SIP device for setting and fetching your Teams Do Not Disturb (DND) status. To set the DND status for your Teams account from your SIP device, dial the feature code \*30\* on the SIP device. To reset your Teams DND status, dial \*31\* from the SIP device. Dialing \*31\* clears the user-configured presence status, in this case DND.
 - **Call Queues and voice apps support:** Customers can use SIP devices as call queue agents with some restrictions, for instance, SIP Gateway doesn't publish presence for devices hence presence based routing is not supported.
 
+
 ## Requirements to use SIP Gateway
 
 Teams users must have a phone number with PSTN calling enabled to use SIP Gateway.
 
 > [!NOTE]
 > SIP Gateway is now available for government community cloud (GCC) environment. It is not yet available for GCC High and DoD.
+
+>[!note]
+>SIP Gateway Feature Codes:
+> DND -
+> \*30\* (Set DND From SIP Device)
+> \*31\* (Reset Teams DND Status from SIP Device)
+> Call Forwarding - (https://support.microsoft.com/en-us/office/call-forwarding-call-groups-and-simultaneous-ring-in-microsoft-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)
+> \*32\* - Reset Call Forwarding Status
+> \*33\* (Set "Call Forwarded To" Number)
+> \*34\* (Set "Forward on Timeout")
+> \*35\* (Setup Simultaneous Ring)
+> Device Validation -
+> \*55\* - OTP validation from devices provisioned through Teams Admin Center
+> Voicemail -
+> \*99\* - Check voicemail
+
 
 ### Hardware, software, and licenses
 
@@ -122,6 +139,8 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |Edge E450<sup>1</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
 |          |Edge E500<sup>1</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
 |          |Edge E550<sup>1</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |ATA 400  |4.0.1.6480     |4.0.1.6480  |   |[Poly ATA 400 Series Configuration Guide](https://kaas.hpcloud.hp.com/pdf-public/pdf_10029605_en-US-1.pdf)|
+|          |ATA 402  |4.0.1.6480     |4.0.1.6480  |   |   |
 |          |OBi 300  |3.2.4.8441     |3.2.5.8732  |   |   |
 |          |OBi 302  |3.2.4.8441     |3.2.5.8732  |   |   |
 |**Yealink**|          |            |           |   |[Yealink support](https://support.yealink.com/)|
@@ -248,7 +267,9 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |M5          |2.14.03.000.2345     |2.14.03.000.2345 |   |   |
 |          |M7          |2.14.03.000.2345     |2.14.03.000.2345 |   |   |
 |          |M8          |2.14.05.000.2352     |2.14.05.000.2352 |   |   |
-
+|**Snom**|       |     |              |                |   |
+|          |D717          |10.1.141.13     |10.1.141.13 |IP Phone   |   |
+|          |D735          |10.1.141.13     |10.1.141.13 |IP Phone   |   |
 <sup>1</sup> Device supports dynamic emergency calling (E911) with SIP Gateway.
 
 > [!NOTE]
