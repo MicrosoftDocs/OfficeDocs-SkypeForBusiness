@@ -364,5 +364,4 @@ Microsoft only supports Teams Phone with Direct Routing when used with certified
 ## See also
 
 - [Configure Direct Routing](direct-routing-configure.md)
-- [Diagnose issues with Direct Routing](/troubleshoot/phone-system/direct-routing/diagnose-direct-routing-issues.md)
 - Video session: [Direct Routing in Microsoft Teams](https://aka.ms/teams-direct-routing).
