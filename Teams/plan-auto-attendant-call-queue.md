@@ -170,7 +170,7 @@ In order to help prevent a denial of service attack from web based click-to-call
 
 ## Supported audio file formats
 
-When using a custom audio file for prompts or music the supported formats are WAV (uncompressed, linear PCM with 8/16/32-bit depth in mono or stereo), WMA (mono only), and MP3. The audio file content cannot be more 5MB.
+When using a recorded audio file for prompts or music the supported formats are WAV (uncompressed, linear PCM with 8/16/32-bit depth in mono or stereo), WMA (mono only), and MP3. The audio file content cannot be more 5MB.
 
 ## Getting started
 
