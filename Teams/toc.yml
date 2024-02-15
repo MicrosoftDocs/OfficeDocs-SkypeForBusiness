@@ -956,12 +956,14 @@ items:
               href: block-inbound-calls.md
             - name: Configure call forwarding and delegation settings
               href: user-call-settings.md
-            - name: Call park and retrieve
+            - name: Congifure call park and retrieve
               href: call-park-and-retrieve.md
-            - name: Call sharing and group call pickup
+            - name: Congifure call sharing and group call pickup
               href: call-sharing-and-group-call-pickup.md
-            - name: Music on Hold
+            - name: Configure music on Hold
               href: music-on-hold.md
+            - name: Configure private line
+              href: private-line.md
         - name: Auto attendants and Call queues
           items: 
             - name: Plan Auto attendants and Call queues
@@ -1004,6 +1006,7 @@ items:
           href: shared-line-appearance.md
         - name: Dial pad configuration
           href: dial-pad-configuration.md
+        
 
     - name: PSTN connectivity options
       items:
