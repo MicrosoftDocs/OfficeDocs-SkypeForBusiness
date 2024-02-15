@@ -94,8 +94,8 @@ The following list of policies can block users from seeing the app switcher togg
 1. Open logs.txt.
 1. Search for **appswitcher_appstateservice_check**.
 1. Check the **enggComplete** flag:  
-   - If true, the Microsoft has turned the setting for you.
-   - If false, you didn’t the settings from MSFT yet or need an app relaunch (see below for steps to relaunch the app) 
+   - If true, Microsoft turned the setting on for you.
+   - If false, you didn’t the settings from MSFT yet or need an app relaunch (there are for steps to relaunch the app included in this article).
 1. Check **isAboveWin10Vibranium**.
    - If true, the OS version is >= what is needed for app switcher.
    - If false, the OS is older than what we support.
@@ -110,11 +110,10 @@ The following list of policies can block users from seeing the app switcher togg
 |VDI|You're signed in to a VDI machine (VMware, Citrix, AVD/WV).|
 |SIGNINRESTRICTED|You're signed in to the specified tenant but the App switcher toggle doesn't appear.|
 
-
 ## Update and restart message in title bar
 
-Issue: After opting into the new Teams, users may receive an “Update and restart” message in the title bar.
-Action: This is expected behavior. Select the link to restart.
+Issue: After a user opts into the new Teams, they might receive an **Update and restart** message in the title bar.
+Action: This messsage is an expected behavior. Select the link to restart.
 
 ## Windows 10 users can receive an error message
 
@@ -123,11 +122,11 @@ Action: [Download and install WebView2 Runtime](https://developer.microsoft.com/
 
 ## Some people don't see the toggle to opt in
 
-Make sure the user has the minimum requirements met on their computer.  Next, have them sign out and back into the Teams desktop app.  
+Make sure the user has the minimum requirements met on their computer. Next, have them sign out and back into the Teams desktop app.  
 If the toggle still doesn't appear, then:
 
 1. Right-click on the Teams app icon in your taskbar and select Quit.
-2. Open File Explorer. In the address bar, enter the following: `%appdata%/Microsoft/Teams`.
+2. Open File Explorer. In the address bar, enter the following text: `%appdata%/Microsoft/Teams`.
 3. Select the arrow, or press Enter. You're taken to the contents of that folder.
 4. Delete all contents of the folder (don’t worry, Teams app won't be deleted, and no or on any of your custom settings). If you get any messages that a certain file or folder can’t be deleted, select Skip.
 5. Relaunch the Teams app, then right-click on the icon and select Quit.
@@ -135,7 +134,7 @@ If the toggle still doesn't appear, then:
 
 ## Download and install even if group policy is set to disabled
 
-You may still be able to download and install the new Teams even if you have *"Allow all Trusted apps"*  group policy set to disabled.  
+You might still be able to download and install the new Teams even if you have *"Allow all Trusted apps"*  group policy set to disabled.  
 
 - If you're running **Windows 10 or Windows 11 patch 10D version or higher**, you can still download and install the new Teams app
 
