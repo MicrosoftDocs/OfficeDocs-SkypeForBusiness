@@ -15,7 +15,7 @@ ms.reviewer: dansteve
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Troubleshoot new Teams installation 
+description: Troubleshoot new Teams installation issues.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: high
@@ -28,7 +28,7 @@ If your users are experiencing issues installing the app, as an administrator yo
 
 :::image type="content" source="media/new-teams-troubleshooting-org-policies.png" alt-text="error when policies restrict install":::
 
-It's possible that the MSIX package installation could be blocked by registry keys set by GPO policy/third party tool. For a complete list of registry keys: [How Group Policy works with packaged apps - MSIX](/windows/msix/group-policy-msix)
+It's possible that the MSIX package installation could be blocked by registry keys set by GPO policy/third party tool. For a complete list of registry keys: [How Group Policy works with packaged apps - MSIX](/windows/msix/group-policy-msix).
 
 The registry keys that could block new Teams MSIX package installation are:
 
@@ -49,21 +49,21 @@ These registry keys can be found at one of these locations:
 </br>
 There are a few policies that could alter these registry keys and block app installation in your organization due to restricted policy set by the admins. Some of the known GPO policies that could be preventing installation include:
 
-- Prevent non-admins users from installing packaged Windows apps
+- Prevent non-admin users from installing packaged Windows apps
 - Allow all trusted apps to install (disabled)
 
 #### To check this setting for your computer
 
 1. In Windows, search for **Edit Group Policy** or right-click the Windows Key and select **Run > enter "gpedit.msc"**.
-2. This opens the Local Group Policy Editor screen.
+2. This action opens the Local Group Policy Editor screen.
 3. Go to **Go to Computer Configuration > Administrative Templates > Windows Components > App package Deployment** to check settings for these policies:
-  - *Prevent non-admins users from installing packaged Windows apps*
+  - *Prevent non-admin users from installing packaged Windows apps*
   - *Allow all trusted apps to install*
 4. Make sure that value for these settings is set as follows:
 
 |Setting                                                        |Value          |
 |:--------------------------------------------------------------|:--------------|
-|Prevent non-admins users from installing packaged Windows apps |Not configured |
+|Prevent non-admin users from installing packaged Windows apps |Not configured |
 |Allow all trusted apps to install                              |Not configured |
 
 </br>
@@ -76,7 +76,7 @@ There are a few policies that could alter these registry keys and block app inst
 
 - Relaunch your current client before turning the *Try the new Teams* toggle ON to make sure that you have latest changes. Also, if there's any Windows update pending, including security updates, install them before you try new Teams.
 - If you’re not seeing the toggle for new Teams, make sure you have the minimum required versions for Windows and Teams.
-- After you successfully switch to new Teams: If you can't find the toggle on the top left to switch between new Teams and Microsoft Teams (work or school), start the version you want by going to Start menu and searching for it or by clicking on it from the task bar.
+- After you successfully switch to new Teams: If you can't find the toggle on the top left to switch between new Teams and Microsoft Teams (work or school), start the version you want by going to Start menu and searching for it or by selecting it from the task bar.
 
 ## Policies that could block the user from seeing the App switcher toggle
 
@@ -137,6 +137,6 @@ If the toggle still doesn't appear, then:
 
 You may still be able to download and install the new Teams even if you have *"Allow all Trusted apps"*  group policy set to disabled.  
 
-- If you are running **Windows 10 or Windows 11 patch 10D version or higher**, you can still download and install the new Teams app
+- If you're running **Windows 10 or Windows 11 patch 10D version or higher**, you can still download and install the new Teams app
 
-- If you are running Windows 11 21H1 SV1 (Build 10.0.22000) **you will remain blocked.** You must upgrade to a newer version of Windows 11 to use the new Teams.
+- If you're running Windows 11 21H1 SV1 (Build 10.0.22000) **you will remain blocked.** You must upgrade to a newer version of Windows 11 to use the new Teams.
