@@ -956,9 +956,9 @@ items:
               href: block-inbound-calls.md
             - name: Configure call forwarding and delegation settings
               href: user-call-settings.md
-            - name: Congifure call park and retrieve
+            - name: Configure call park and retrieve
               href: call-park-and-retrieve.md
-            - name: Congifure call sharing and group call pickup
+            - name: Configure call sharing and group call pickup
               href: call-sharing-and-group-call-pickup.md
             - name: Configure music on Hold
               href: music-on-hold.md
