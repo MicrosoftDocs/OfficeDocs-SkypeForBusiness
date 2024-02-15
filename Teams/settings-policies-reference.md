@@ -395,6 +395,9 @@ Meeting policies are used to control what features are available in meetings org
 |Include attendees in the report|Yes, but attendees can opt out|This setting controls whether participants in the meeting or webinar can opt in or out of offering their attendance information in the Attendance Report. Only the post-meeting report is supported.|
 |Attendee information|Show everything|This setting controls whether to attendance time information - such as join times, leave times, and in-meeting duration - can be included for each meeting or event attendee. Only the post-meeting report is supported.|
 
+> [!NOTE]
+> A guest can be a participant joining from a non-Teams application or device. All the guest settings applied by your organization will apply to these participants.
+
 ##### Related topics for meeting scheduling
 
 - [Manage who can start instant meetings and schedule meetings](manage-who-can-schedule-meetings.md)
