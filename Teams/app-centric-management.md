@@ -40,7 +40,7 @@ You can manage access to apps for individual users, supported groups, or everyon
 Previously, when using permission policies, you determined access to apps using the following three settings:
 
 * Org-wide setting for third-party apps. It applies at an org-level and controls if all third-party apps are available for every user or not.
-* App status. It applies at an app-level and controls if it is available to any user or not.
+* App status. It applies at an app-level and controls if it's available to any user or not.
 * Permission policy. It applies at a user-level and controls if a specific user is permitted to use an app or not.
 
 Manage access by apps feature simplifies these settings by having each app contain its access definition. That is, users and groups who can access the app. It lets you manage each app differently and one at a time based on your user's needs and organization's compliance and risk posture.
@@ -76,7 +76,7 @@ To assign users or groups to an app, follow these steps:
 
 ## Settings for app availability and how your assignments are preserved
 
-In addition to allowing or blocking apps and creating app assignments, you can also control the default app assignments of any new apps. You can control the default app assignments for each app type. For new organizations the default setting is set to let users install apps by default. For existing organizations, [old settings are mapped to new access settings](#mapping-between-old-and-new-app-management-settings).
+In addition to allowing or blocking apps and creating app assignments, you can also control the default app assignments of any new apps. You can control the default app assignments for each app type. For new organizations, the default setting is set to let users install apps by default. For existing organizations, [old settings are mapped to new access settings](#mapping-between-old-permission-policies-and-new-app-assignments).
 
 To change this default setting, access [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page, select **Actions** > **Org-wide app settings**, and modify the required settings.
 
@@ -93,7 +93,7 @@ The Org-wide app settings don’t apply to:
 * All apps that were assigned to Everyone or to No one and saved individually.
 * Any apps in blocked state.
 
-Consider a scenario where you started using the feature and all apps were assigned to everyone. Now, you changed an app's assignment to a specific group or users. After saving this app assignment, if you change the org-wide app setting titled **Let users install and use available apps by default**, then this particular app continues to be assigned to the specific group or users. Your change to the org-wide app setting applies only to those apps for which you didn't change assignments. Further, if you again change the **Let users install and use available apps by default** setting, the assignments of all other apps are again impacted, except the app that you actively managed.
+Consider a scenario where you started using the feature and all apps were assigned to everyone. Now, you changed an app's assignment to a specific group or users. After saving this app assignment, if you change the Org-wide app setting titled **Let users install and use available apps by default**, then this particular app continues to be assigned to the specific group or users. Your change to the org-wide app setting applies only to those apps for which you didn't change assignments. Further, if you again change the **Let users install and use available apps by default** setting, the assignments of all other apps are again impacted, except the app that you actively managed.
 
 ## View apps in your organization
 
@@ -111,9 +111,9 @@ Each app displays the assignment type, which indicates how the user was assigned
 
 You can remove app assignment for a user. Select an app that is directly assigned to the user and select **Remove**. You can’t remove assignments for a user if the app is available to everyone or to a group.
 
-## Mapping between old and new app management settings
+## Mapping between old permission policies and new app assignments
 
-If your organization has just the Global permission policy and doesn't have any custom policies, then the following changes are made to the settings after you start to use this feature.
+When your tenant's admin center receives this feature, the following updates are made to the app access. The access to apps doesn't change and the update only maps your existing permission policies to new assignments.
 
 | App permission policy and org settings earlier | Org-wide app settings while using this feature |
 |------------------------------------------------|------------------------------------------------|
@@ -123,10 +123,6 @@ If your organization has just the Global permission policy and doesn't have any 
 |  Third party app setting in the Org-wide app settings was set to off; New third-party app setting in the org-wide setting was set to off; Global permission policy for third party apps was `Block all`; or Global permission policy for third party apps was `Allow app(s), Block all others` | `Allow users install available apps by default` for third party apps is set to off |
 |  Global permission policy for Custom apps was `Allow all` or Global permission policy for Custom apps was `Block an app(s), allow all others` | `Allow users install available apps by default` for custom apps is set to on |
 |  Global permission policy for custom apps was `Block all` or Global permission policy for custom apps was `Allow app(s), Block all others` | `Allow users install available apps by default` for custom apps is set to off |
-
-> [!NOTE]
-> * This change retires the third-party apps settings and the new third-party apps in the Org-wide app settings.
-> * For a list of Microsoft apps, see [Microsoft apps in Teams](apps-in-teams.md#list-of-apps-created-by-microsoft).
 
 | App status earlier | Global permission policy definition earlier | App assignments while using the new feature |
 |--------------------|---------------------------------------------|---------------------------------------------|
