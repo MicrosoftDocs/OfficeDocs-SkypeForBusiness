@@ -25,11 +25,11 @@ This article describes what's new in Direct Routing. Check back often for update
 
 ## SBC certificates EKU extensions test
 
-On March 5th 2024 (starting 9 AM UTC), Microsoft will be conducting a 24-hour test of its infrastructure. During this time, Session Border Controllers (SBCs) certificates will be required to include both Client and Server Authentication for their Extended Key Usage (EKU) extensions. We kindly ask that you ensure that the EKU extension of your certificate includes Server Authentication and Client Authentication to avoid any service degradation. 
+On March 5, 2024 (starting 9 AM UTC), Microsoft will be conducting a 24-hour test of its infrastructure. During this time, Session Border Controllers (SBCs) certificates will be required to include both Client and Server Authentication for their Extended Key Usage (EKU) extensions. We kindly ask that you ensure that the EKU extension of your certificate includes Server Authentication and Client Authentication to avoid any service degradation. 
 
 If your SBCs certificate EKU extension does not include both Server and Client Authentication, your SBCs will not be able to connect with Microsoft infrastructure.
 
-Please note that the final switch to request both Server and Client authentication for EKU will be performed on March 19th, 2024.
+Please note that the final switch to request both Server and Client authentication for EKU will be performed on March 19, 2024.
 
 For more information, see [Public trusted certificate for the SBC](direct-routing-plan.md#public-trusted-certificate-for-the-sbc).
 
