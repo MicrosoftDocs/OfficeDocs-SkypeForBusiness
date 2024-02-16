@@ -113,7 +113,7 @@ You can remove app assignment for a user. Select an app that is directly assigne
 
 ## Mapping between old and new app management settings
 
-If your organization has just the Global permission policy and doesn't have any custom policies, then the following changes are made to the settings after you start to use this feature.
+When your tenant's admin center receives this feature, the following updates are made to the app access. The access to apps doesn't change and the update only maps your existing permission policies to new assignments.
 
 | App permission policy and org settings earlier | Org-wide app settings while using this feature |
 |------------------------------------------------|------------------------------------------------|
