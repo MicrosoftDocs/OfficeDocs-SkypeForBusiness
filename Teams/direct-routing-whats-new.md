@@ -23,6 +23,16 @@ ms.collection:
 
 This article describes what's new in Direct Routing. Check back often for updates.
 
+## SBC certificates EKU extensions test
+
+On March 5th 2024 (starting 9 AM UTC), Microsoft will be conducting a 24-hour test of its infrastructure. During this time, Session Border Controllers (SBCs) certificates will be required to include both Client and Server Authentication for their Extended Key Usage (EKU) extensions. We kindly ask that you ensure that the EKU extension of your certificate includes Server Authentication and Client Authentication to avoid any service degradation. 
+
+If your SBCs certificate EKU extension does not include both Server and Client Authentication, your SBCs will not be able to connect with Microsoft infrastructure.
+
+Please note that the final switch to request both Server and Client authentication for EKU will be performed on March 19th, 2024.
+
+For more information, see [Public trusted certificate for the SBC](direct-routing-plan.md#public-trusted-certificate-for-the-sbc).
+
 ## SIP certificate to MSPKI Certificate Authority change in DoD and GCCH clouds
 
 Microsoft 365 is updating services powering messaging, meetings, telephony, voice, and video to use TLS certificates from a different set of Root Certificate Authorities (CAs). Affected endpoints include Microsoft Teams Direct Routing SIP endpoints used for PSTN traffic in Office 365 Government - GCC High (GCCH) and DoD deployments. The transition to certificates issued by the new CA for SIP endpoints will begin in May 2024. This means that action needs to be taken before end of April 2024.
