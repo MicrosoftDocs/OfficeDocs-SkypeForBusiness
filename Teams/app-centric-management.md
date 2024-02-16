@@ -40,7 +40,7 @@ You can manage access to apps for individual users, supported groups, or everyon
 Previously, when using permission policies, you determined access to apps using the following three settings:
 
 * Org-wide setting for third-party apps. It applies at an org-level and controls if all third-party apps are available for every user or not.
-* App status. It applies at an app-level and controls if it is available to any user or not.
+* App status. It applies at an app-level and controls if it's available to any user or not.
 * Permission policy. It applies at a user-level and controls if a specific user is permitted to use an app or not.
 
 Manage access by apps feature simplifies these settings by having each app contain its access definition. That is, users and groups who can access the app. It lets you manage each app differently and one at a time based on your user's needs and organization's compliance and risk posture.
@@ -76,7 +76,7 @@ To assign users or groups to an app, follow these steps:
 
 ## Settings for app availability and how your assignments are preserved
 
-In addition to allowing or blocking apps and creating app assignments, you can also control the default app assignments of any new apps. You can control the default app assignments for each app type. For new organizations the default setting is set to let users install apps by default. For existing organizations, [old settings are mapped to new access settings](#mapping-between-old-and-new-app-management-settings).
+In addition to allowing or blocking apps and creating app assignments, you can also control the default app assignments of any new apps. You can control the default app assignments for each app type. For new organizations, the default setting is set to let users install apps by default. For existing organizations, [old settings are mapped to new access settings](#mapping-between-old-and-new-app-management-settings).
 
 To change this default setting, access [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page, select **Actions** > **Org-wide app settings**, and modify the required settings.
 
@@ -93,7 +93,7 @@ The Org-wide app settings don’t apply to:
 * All apps that were assigned to Everyone or to No one and saved individually.
 * Any apps in blocked state.
 
-Consider a scenario where you started using the feature and all apps were assigned to everyone. Now, you changed an app's assignment to a specific group or users. After saving this app assignment, if you change the org-wide app setting titled **Let users install and use available apps by default**, then this particular app continues to be assigned to the specific group or users. Your change to the org-wide app setting applies only to those apps for which you didn't change assignments. Further, if you again change the **Let users install and use available apps by default** setting, the assignments of all other apps are again impacted, except the app that you actively managed.
+Consider a scenario where you started using the feature and all apps were assigned to everyone. Now, you changed an app's assignment to a specific group or users. After saving this app assignment, if you change the Org-wide app setting titled **Let users install and use available apps by default**, then this particular app continues to be assigned to the specific group or users. Your change to the org-wide app setting applies only to those apps for which you didn't change assignments. Further, if you again change the **Let users install and use available apps by default** setting, the assignments of all other apps are again impacted, except the app that you actively managed.
 
 ## View apps in your organization
 
