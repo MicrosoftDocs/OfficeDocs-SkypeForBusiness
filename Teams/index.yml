@@ -15,6 +15,9 @@ metadata:
   ms.author: samanro #Required; microsoft alias of author; optional team alias.
   ms.date: 06/15/2023 #Required; mm/dd/yyyy format.
   ms.localizationpriority: high
+  ms.collection:
+  - M365-Teams-ITPro #Required; collection slug assigned to your service by ACOM.
+  - essentials-navigation 
   ms.custom: 
   - seo-marvel-apr2020
   - intro-hub-or-landing

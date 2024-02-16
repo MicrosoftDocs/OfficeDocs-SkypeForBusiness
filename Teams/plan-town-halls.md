@@ -71,7 +71,7 @@ There are five steps you must follow to ensure your network is set up to support
    For more information about the Microsoft eCDN, see [Introduction to Microsoft eCDN](/ecdn/intro) and [Enterprise content delivery networks for streaming Microsoft Teams events](streaming-ecdn-enterprise-content-delivery-network.md).
 
    > [!NOTE]
-   > The Microsoft eCDN is required for Teams Premium users and is used automatically.
+   > At this time, Teams Premium features for town halls are compatible with Microsoft eCDN. When organizers with a Teams Premium license create town halls, the Microsoft eCDN is always used even if you've configured a different option.
 
 ## Understand your policies
 
