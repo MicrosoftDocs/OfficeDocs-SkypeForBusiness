@@ -40,6 +40,7 @@ ms.localizationpriority: high
 - [A website doesn't load in the new Teams desktop](/microsoftteams/troubleshoot/tabs/websites-not-loaded-new-teams).
 - [The new Teams desktop app fails to render video](/microsoftteams/troubleshoot/meetings/new-teams-desktop-app-fail-render-video)
 - Collaborative Notes is only available in public clouds.
+- Users may receive an error message when trying to open a document attached to a cross-post shared from a team where they're not a member. A fix is expected by mid-March.
 
 ## Issues specifically for the new Microsoft Teams for Education
 
@@ -48,20 +49,9 @@ ms.localizationpriority: high
 >  
 >The desktop clients will be updated as issues are fixed and functionality added. Check back here for the latest information.
 
-- In some scenarios, the channel isn't deleted when a team owner selects delete channel. A fix is expected in the end of January.
-  
-- The Edit class team dialogue shows sensitivity labels but this isn't supported in class teams and a fix is expected in the end of January.
-
 - Weekly digest mail settings are missing.
-
 - When navigating to Teams from microsoft365.com, the top navigation bar isn't working as expected and both search and profile menu are missing. The plan is to fix this issue by February.</br>**Workaround:** Use a taskbar shortcut or navigate directly to *teams.microsoft.com* to avoid the issue.
-
-- Students are able to reply to posts by bots like the Assignment bot in the General channel even if channel moderation is enabled.</br>**Workaround:** Publish assignments in another channel where channel moderation is enabled or in channel settings where you have enabled **Allow bots to submit channel messages**.
-
-- In some scenarios, students or teachers in your tenant, with the correct policy assigned, still might not be automatically moved to New Teams. Encourage them to use the toggle to switch to New Teams.
-
-- If the toggle to switch to New Teams is greyed out with an error message, see: [**Troubleshooting installation issues**](new-teams-troubleshooting-installation.md).
-- Support for external Shared Channels when using *Grid view* isn't available.</br>**Workaround:** Use *List view*.  
+- 
 
 ## What features are changing?
 
