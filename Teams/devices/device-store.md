@@ -19,18 +19,18 @@ ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords: 
   - CSH
-description: Learn how to browse and purchase devices in the Microsoft Teams device store
+description: Learn how to browse and purchase devices in the Microsoft Teams device store.
 ---
 
 # Purchase devices in the Microsoft Teams device store
 
 The device store lets you browse and purchase devices certified for Microsoft Teams. There are two places where you can find the device store.
 
-- Device store in Teams Admin Center
+- Device store in Teams admin center
 
 - Device store in Teams App
 
-## Device store in Teams Admin Center
+## Device store in Teams admin center
 
 The device store in the Teams admin center lets you browse, purchase, and provision devices certified for Microsoft Teams. The device store is available in Canada, France, Germany, Ireland, Italy, Portugal, Austria, Spain, Greece, Belgium, Netherlands, the United States, and the United Kingdom.
 
@@ -60,7 +60,7 @@ Orders placed in the Teams device store and any data associated with them are cl
 
 ### Provision devices
 
-When you purchase devices that support remote provisioning, the MAC address of those devices is automatically added to the Teams admin center when the device is shipped. Depending on the order and when it ships, it can take approximately 5 days for the MAC address to appear in the Teams admin center.
+When you purchase devices that support remote provisioning, the MAC address of those devices is automatically added to the Teams admin center when the device is shipped. Depending on the order and when it ships, it can take approximately five days for the MAC address to appear in the Teams admin center.
 
 Once your devices are delivered, see [Remotely provision devices](remote-provision-remote-login.md#generate-a-verification-code) to complete the provision and sign-in process.
 
@@ -69,7 +69,7 @@ Once your devices are delivered, see [Remotely provision devices](remote-provisi
 
 ## Device store in Teams App
 
-With Teams device store inside Microsoft Teams, users can easily discover and purchase certified Teams devices for personal or shared use cases - headsets, web cameras, desk phones, Teams Rooms, and more. Explore devices in categories, use search or filters to find desired device.
+With Teams device store inside Microsoft Teams, users can easily discover and purchase certified Teams devices for personal or shared use cases - headsets, web cameras, desk phones, Teams Rooms, and more. Explore devices in categories, use search, or filters to find desired device.
 
 The device store is available for tenants in Canada and the United States. To use the device store in the Teams App, go to **Teams > Apps > Devices**.
 
@@ -77,7 +77,7 @@ The device store is available for tenants in Canada and the United States. To us
 
 ### Requirements
 
-The device store is currently limited to commercial tenants only, i.e. EDU tenants will not see this store. Also, it is limited to customers with user licenses less than or equal to three hundred.
+The device store is currently limited to commercial tenants only, that is, EDU tenants won't see this store. Also, it's limited to customers with user licenses less than or equal to 300.
 
 ### Browse the store
 
@@ -85,14 +85,22 @@ The device store includes all devices that are certified for Teams, including he
 
 ### Purchase devices
 
-When users purchase devices from the device store, the payment and fulfillment, including shipping and delivery, are handled by UnifiedCommunications.com (a Microsoft third-party fulfillment partner), under their [terms of service](https://unifiedcommunications.com/docs/teams-marketplace/en-US/terms-of-service) and [privacy policy](https://unifiedcommunications.com/docs/teams-marketplace/en-US/privacy-policy)
+When users purchase devices from the device store, the payment and fulfillment, including shipping and delivery, are handled by UnifiedCommunications.com (a Microsoft third-party fulfillment partner), under their [terms of service](https://unifiedcommunications.com/docs/teams-marketplace/en-US/terms-of-service) and [privacy policy.](https://unifiedcommunications.com/docs/teams-marketplace/en-US/privacy-policy)
 
 Users can pay with a credit or debit card. All orders can be returned up to 30 days after they're delivered. For questions about order tracking, returns, or refunds, contact UnifiedCommunications.com. Their contact information is available on the invoice sent to the email address mentioned during order placement.
 
 ### Admin controls
 
-Admins can manage the device store experience for their organization from Teams Admin Center. You can disable the purchase for all users in your tenant using this setting, available in **Teams admin center > Devices > Store > Settings**.
+Admins can manage the device store experience for their organization from Teams admin center. You can disable the purchase for all users in your tenant using this setting, available in **Teams admin center > Devices > Store > Settings**.
 
-By default, purchase is enabled. When it's disabled, the device store will be visible for users to browse and learn about latest certified devices, but the users cannot purchase.
+By default, purchase is enabled. When it's disabled, the device store will be visible for users to browse and learn about latest certified devices, but the users can't purchase.
 
 Orders placed in the Teams device store and any data associated with them are classified as tenant orders and tenant data.
+
+## What are the benefits of Teams device store?
+Teams device store is a convenient and easy way to find and buy Teams certified devices that can enhance your Teams experience. By using Teams device store, you can:
+
+- Discover the latest and best Teams certified devices for Teams calls and meetings in a single familiar place within the product.
+- Browse devices by features, prices, and easily find the one you need based on rich filters.
+- When you buy any Teams Room device from the store, you also get free expert support for 90-days after delivery, to help you set up and manage them.
+- Hassle-free returns: Return almost any device within 30 days.
