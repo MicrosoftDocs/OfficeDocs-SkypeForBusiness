@@ -305,13 +305,11 @@ The following partners are in the process of certifying their solution for Micro
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
 |Redwood Technologies |[https://www.contentguru.com/en-gb/solutions/needs/compliance-recording-ms-teams/](https://www.contentguru.com/en-gb/solutions/needs/compliance-recording-ms-teams/) |
 
-<<<<<<< HEAD
+This list gets updated as more partners join and meet the certification criteria.
+
 ## Support boundaries
 
 Microsoft only supports Compliance Recording solutions from the certified partners. If there are issues, you must contact your Compliance Recording partner first. If needed, the Compliance Recording partner will bring the issue to Microsoft through internal channels. Microsoft may reject support cases where a non-certified Compliance Recording solution is used, or if investigation shows the issue is one that the partner can address.
-=======
-This list gets updated as more partners join and meet the certification criteria.
->>>>>>> main
 
 ## Next steps
 
