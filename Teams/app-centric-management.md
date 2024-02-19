@@ -76,7 +76,7 @@ To assign users or groups to an app, follow these steps:
 
 ## Settings for app availability and how your assignments are preserved
 
-In addition to allowing or blocking apps and creating app assignments, you can also control the default app assignments of any new apps. You can control the default app assignments for each app type. For new organizations, the default setting is set to let users install apps by default. For existing organizations, [old settings are mapped to new access settings](#mapping-between-old-and-new-app-management-settings).
+In addition to allowing or blocking apps and creating app assignments, you can also control the default app assignments of any new apps. You can control the default app assignments for each app type. For new organizations, the default setting is set to let users install apps by default. For existing organizations, [old settings are mapped to new access settings](#mapping-between-old-permission-policies-and-new-app-assignments).
 
 To change this default setting, access [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page, select **Actions** > **Org-wide app settings**, and modify the required settings.
 
@@ -111,7 +111,7 @@ Each app displays the assignment type, which indicates how the user was assigned
 
 You can remove app assignment for a user. Select an app that is directly assigned to the user and select **Remove**. You can’t remove assignments for a user if the app is available to everyone or to a group.
 
-## Mapping between old and new app management settings
+## Mapping between old permission policies and new app assignments
 
 When your tenant's admin center receives this feature, the following updates are made to the app access. The access to apps doesn't change and the update only maps your existing permission policies to new assignments.
 
@@ -123,10 +123,6 @@ When your tenant's admin center receives this feature, the following updates are
 |  Third party app setting in the Org-wide app settings was set to off; New third-party app setting in the org-wide setting was set to off; Global permission policy for third party apps was `Block all`; or Global permission policy for third party apps was `Allow app(s), Block all others` | `Allow users install available apps by default` for third party apps is set to off |
 |  Global permission policy for Custom apps was `Allow all` or Global permission policy for Custom apps was `Block an app(s), allow all others` | `Allow users install available apps by default` for custom apps is set to on |
 |  Global permission policy for custom apps was `Block all` or Global permission policy for custom apps was `Allow app(s), Block all others` | `Allow users install available apps by default` for custom apps is set to off |
-
-> [!NOTE]
-> * This change retires the third-party apps settings and the new third-party apps in the Org-wide app settings.
-> * For a list of Microsoft apps, see [Microsoft apps in Teams](apps-in-teams.md#list-of-apps-created-by-microsoft).
 
 | App status earlier | Global permission policy definition earlier | App assignments while using the new feature |
 |--------------------|---------------------------------------------|---------------------------------------------|
