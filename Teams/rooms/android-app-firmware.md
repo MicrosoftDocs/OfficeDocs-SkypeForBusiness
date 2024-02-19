@@ -29,6 +29,7 @@ The following are the latest Teams Rooms on Android app and firmware versions.
 
 | Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| 2023 Update #2B1  | Feb 07, 2024 |`1449/1.0.96.2023120901`| `5.0.5484.0` | `1.0.0.202306202019.product version code : 486` |
 | 2023 Update #2B1  | Dec 14, 2023 |`1449/1.0.96.2023120801`| `5.0.6061.0` | `1.0.0.202306202019.product version code : 486` |
 | 2023 Update #2A  | Oct 04, 2023 |`1449/1.0.96.2023090601`| `5.0.5954.0` | `1.0.0.202306202019.product version code : 486` |
 | 2023 Update #2  | June 28, 2023 |`1449/1.0.96.2023062301`| `5.0.5484.0` | `1.0.0.202301162118.product version code : 413` |
@@ -55,6 +56,37 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Yealink MeetingBar A10 | `278.320.0.36`   | 2023 Update #2B1  |
+| Yealink MeetingBar A20 | `133.320.0.39`   | 2023 Update #2B1  |
+| Yealink MeetingBar A30 | `133.320.0.39`   | 2023 Update #2B1  |
+| Poly Studio X52 | `4.1.3.394009` | 2023 Update #2B1 |
+| Poly TC10 | `4.1.3.211457` | 2023 Update #2B1 |
+| Poly Studio X30 | `4.1.3.394009` | 2023 Update #2B1 |
+| Poly Studio X50 | `4.1.3.394009` | 2023 Update #2B1 |
+| Poly Studio X70 | `4.1.3.394009` | 2023 Update #2B1 |
+| Poly Studio G7500 | `4.1.3.394009` | 2023 Update #2B1 |
+| Poly TC8 | `4.1.3.211457` | 2023 Update #2B1 |
+| DTEN D7X 75" |`1.5.5.4`   | 2023 Update #1C |
+| DTEN D7X 55" |`1.5.5.4`   | 2023 Update #1C |
+| DTEN Mate Touch Console | `2.1.1.1` | 2023 Update #1C |
+| Yealink CTP18 | `137.320.0.50`   | 2023 Update #2B1  |
+| Yealink MeetingBoard 65" | `155.15.0.65` | 2023 Update #2B1 |
+| Yealink MeetingBoard 86" | `155.15.0.65` | 2023 Update #2B1 |
+| Logi Rallybar | `1.11.254`   | 2023 Update #2 |
+| Logi Rallybar Mini | `1.11.254`   | 2023 Update #2  |
+| Logi RoomMate | `1.11.215`   | 2023 Update #2  |
+| Logi Rallybar Huddle | `1.11.166`   | 2023 Update #2  |
+| Logi Console  | `1.11.202`| 2023 Update #2  |
+| Jabra Panacast 50 VBS | `1.17.4-1` | 2023 Update #2 |
+| Jabra Panacast 50 TC | `1.17.4-1` | 2023 Update #2 |
+| Cisco Board Pro 55 | `11.11.1.10` | 2023 Update #2B1 |
+| Cisco Board Pro 75 | `11.11.1.10` | 2023 Update #2B1 |
+| Cisco Room Bar | `11.11.1.10` | 2023 Update #2B1 |
+| Cisco Room Kit Pro | `11.11.1.10` | 2023 Update #2B1 |
+| Cisco Desk Pro | `11.11.1.10` | 2023 Update #2B1 |
+| Cisco Room Bar Pro | `11.11.1.10` | 2023 Update #2B1 |
+| Cisco Room Kit EQ | `11.11.1.10` | 2023 Update #2B1 |
+| Cisco Navigator | `11.11.1.10` | 2023 Update #2B1 |
 | Neat Bar | `NFB1.20230928.0015` | 2023 Update #2B1 |
 | Neat Bar Pro| `NFD1.20230928.0015` | 2023 Update #2B1 |
 | Neat Board | `NFC1.20230928.0015	` |  2023 Update #2B1 |
@@ -82,7 +114,7 @@ When you install a new firmware version on your device, you can determine the co
 | Poly Studio G7500 | `4.1.2-388101` | 2023 Update #2B1 |
 | Poly TC8 | `4.1.2-211367` | 2023 Update #2B1 |
 | DTEN D7X 75" |`1.4.5.2`   | 2023 Update #1C |
-| DTEN_MATE | `2.0.3.0` | 2023 Update #1C |
+| DTEN Mate Touch Console | `2.0.3.0` | 2023 Update #1C |
 | Logi Rallybar | `1.10.409`   | 2023 Update #2 |
 | Logi Rallybar Mini | `1.10.409`   | 2023 Update #2  |
 | Logi RoomMate | `1.10.175`   | 2023 Update #2  |

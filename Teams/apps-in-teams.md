@@ -56,12 +56,7 @@ Some Teams functionalities such as activity feed, teams, chat, calendar, calls, 
 
 ### Apps created by Microsoft
 
-Microsoft provides many apps to improve productivity and collaboration. You and the users can find these apps by looking for Microsoft listed as the Publisher in Teams admin center or listed as Provider in the Teams store.
-
-> [!NOTE]
-> A known limitation in the Teams admin center is that you can only view and manage apps that are deployed in the same release channel as your tenant is. For example, if your tenant is in the general release channel then you can't manage apps that are deployed in the private or public preview channels. This isn't an issue for apps that are released to the general release channel.
-
-Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approvals, and more. We recommend that you include the featured apps—such as Planner—in your initial Teams rollout.
+Microsoft provides [these apps](#list-of-apps-created-by-microsoft) to improve productivity and collaboration. Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approvals, and more. We recommend that you include the featured apps—such as Planner—in your initial Teams rollout.
 
 :::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Screenshot showing a list of Microsoft apps in Teams admin center." lightbox="media/microsoft-apps-in-tac2.png":::
 
@@ -140,7 +135,7 @@ To view common use cases mapped to Teams capabilities, see [Map your use cases t
 
 ## List of apps created by Microsoft
 
-The following list of apps are the only Microsoft apps in Teams admin center:
+The following apps are the only apps provided by Microsoft and are generally available:
 
 * Admin
 * Approvals

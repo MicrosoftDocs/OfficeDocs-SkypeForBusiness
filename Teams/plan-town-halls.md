@@ -71,7 +71,7 @@ There are five steps you must follow to ensure your network is set up to support
    For more information about the Microsoft eCDN, see [Introduction to Microsoft eCDN](/ecdn/intro) and [Enterprise content delivery networks for streaming Microsoft Teams events](streaming-ecdn-enterprise-content-delivery-network.md).
 
    > [!NOTE]
-   > The Microsoft eCDN is required for Teams Premium users and is used automatically.
+   > At this time, Teams Premium features for town halls are compatible with Microsoft eCDN. When organizers with a Teams Premium license create town halls, the Microsoft eCDN is always used even if you've configured a different option.
 
 ## Understand your policies
 
@@ -177,7 +177,7 @@ Teams admins and organizers have different policies and settings to control the 
 |[Recording expiration](meeting-recording.md)|Can manage whether recordings automatically expire. |By default, published recordings expire after 30 days. Organizers can extend the expiration date to 60 days. After the new date passes, they must reupload and republish the file to keep sharing.|
 |[RTMP-In](meetings-rtmp-in.md)|Can control whether organizers can use RTMP-In for their town halls. |Can produce their Teams events directly from an external hardware or software-based encoder to integrate different types of media into the event. To start streaming from the encoder, organizers can choose RTMP-In from their meeting options and then access the RTMP link and key. |
 |[Shared notes](meeting-policies-content-sharing.md)|Can manage whether organizers and co-organizers can use shared notes amongst other during town halls. |Can use shared notes with co-organizers during town halls |
-|[Speaker coach](meeting-speaker-coach.md)|Can manage whether organizers, presenters, and co-organizers can us speaker coach during town halls. |Can use speaker coach for private real-time feedback and suggestions for improvement of themselves, co-organizers, and presenters. |
+|[Speaker coach](meeting-speaker-coach.md)|Can manage whether organizers, presenters, and co-organizers can use speaker coach during town halls. |Can use speaker coach for private real-time feedback and suggestions for improvement of themselves, co-organizers, and presenters. |
 |[Town hall usage report](teams-analytics-and-reports/teams-town-hall-usage-report.md)|View activity and usage trends for all town halls created in your organization.| No control. |
 |[Transcription and captions](meeting-transcription-captions.md)|Can allow or prevent transcription and closed captions for attendees.| Only AI generated captions are currently available. |
 [VOD publishing](manage-vod-publishing.md) |Can manage the types of recordings organizers can publish. |Can publish and modify town hall recordings. |

@@ -23,7 +23,6 @@ ms.localizationpriority: high
 
 # Features that are changing in the new Microsoft Teams
 
-
 As we improved the client, the experience also improved to align with similar features. Here are some of the changes you see.
 
 |Classic Teams|New Teams|
@@ -50,4 +49,4 @@ As we improved the client, the experience also improved to align with similar fe
 |About links in the More options menu (...) |About links are now in the Settings app under the **About Teams** category.|
 |Help in the app bar|The Help entrypoint, including Help links and Give Feedback is now located under the More options menu **(...)** in the title bar.|
 |Ability to sign out from the notification area at the far right of the taskbar (system tray). |No longer available.|
-|Ability to build Teams personal apps usings Adaptive cards|No longer available.|
+|Adaptive Card-based tabs in personal app tabs.|No longer available.|

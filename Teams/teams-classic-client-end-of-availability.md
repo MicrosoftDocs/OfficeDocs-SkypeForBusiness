@@ -24,7 +24,7 @@ ms.localizationpriority: high
 
 ## Overview
 
-On March 31 2024, a new Teams client will be rolled out for users who are still on classic Teams, installing the new Teams client for them and uninstalling the classic Teams client. After this time, classic Teams will be unavailable for different users as outlined in this table:
+Beginning March 31 2024, a new Teams client will be rolled out for users who are still on classic Teams, installing the new Teams client for them and uninstalling the classic Teams client. After this time, classic Teams will be unavailable for different users as outlined in this table:
 
 |Availability area                                | Date         |Link |
 |-------------------------------------------------|--------------|-----|
@@ -111,6 +111,9 @@ Beginning March 31 2024, all policy options within Teams Admin Center to control
 After these options are removed, Microsoft will begin moving all users except VDI users back to the **Microsoft controlled** policy setting. After March 31 2024, the **Microsoft controlled** policy setting will equate to the user being assigned the **New Teams Only** policy (this policy option will be released soon). This will allow them to transition the user to new Teams and then uninstall the classic Teams client. Learn more in the [Upgrade to the new Teams using policies](new-teams-deploy-using-policies.md) article.
 
 ## Frequently Asked Questions
+
+> [!NOTE]
+> The unavailability of classic Teams and dates mentioned in this article don't currently apply to Windows 10 users signed into Teams for Life or users signed into both Teams for Life and Teams for Work.
 
 ### Users
 
