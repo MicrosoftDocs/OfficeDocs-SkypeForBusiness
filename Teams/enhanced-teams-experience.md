@@ -48,6 +48,13 @@ The following sections describe the Teams Premium enhancements for:
 - [Premium events](#premium-events)
 - [Virtual Appointments](#advanced-virtual-appointments)
 
+For more information about Teams meetings and premmium events in general, see the following articles:
+
+- [Meetings, webinars, and townhalls](overview-meetings-webinars-town-halls.md)
+- [Plan for Teams meetings](plan-meetings.md)
+- [Plan for Teams webinars](plan-webinars.md)
+- [Plan for Teams town halls](plan-town-halls.md)
+
 >[!Note]
 >We will continue to update this article. Check back often for links to new content.
 
@@ -101,6 +108,14 @@ Teams Premium provides the following additional features for customizing meeting
 | RTMP-In | [Manage RTMP-In for Teams meetings](meetings-rtmp-in.md)|[Use RTMP-In in a Teams meeting](https://support.microsoft.com/office/use-rtmp-in-in-a-teams-meeting-789d6090-8511-4e2e-add6-52a9f551be7f) |
 
 ## Premium events
+
+Premium events include town halls and webinars.
+
+- Town halls bring interactive video streaming to a new level. Town halls are meant for one-to-many communications where the presenters, organizers, and co-organizers are leading the interactions. The audience participation is primarily to view and react to the content being shared. 
+
+- Webinars provide a two-way interactive virtual event where the presenters deliver information to attendees. This format provides extra control for an organizer over the conversation and participants.
+
+The following sections describe Teams Premium features for townhalls and webinars. For more information about planning for town halls, webinars, and meetings in general, see [Plan for town halls](plan-town-halls.md) and [Plan for webinars](plan-webinars.md) and [Meetings, webinars, and town halls](overview-meetings-webinars-town-halls.md).
 
 ### Town halls
 
