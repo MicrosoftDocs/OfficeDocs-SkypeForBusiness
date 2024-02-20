@@ -48,7 +48,7 @@ The following sections describe the Teams Premium enhancements for:
 - [Premium events](#premium-events)
 - [Virtual Appointments](#advanced-virtual-appointments)
 
-**For more information about Teams meetings and premmium events in general, see the following articles:**
+**For more information about Teams meetings and premium events in general, see the following articles:**
 
 - [Meetings, webinars, and townhalls](overview-meetings-webinars-town-halls.md)
 - [Plan for Teams meetings](plan-meetings.md)
