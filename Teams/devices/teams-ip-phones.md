@@ -125,6 +125,7 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 #### <b> Audiocodes </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft appplications                            | Release date|
 |:----------------|:-------------------|:----------------------------|:---------------------------------------------------------------------------------------------------------------|:------------------------------------------|
+| C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.642` | `N/A`| Teams client: `1449/1.0.94.2024011601` <br> Company Portal: `5.0.6061.0` <br> Admin Agent: `1.0.0.202310260109.product`| February 8, 2024|
 | C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.584` | `1.19.516`| Teams client: `1449/1.0.94.2023100602` <br> Company Portal: `5.0.5954.0` <br> Admin Agent: `1.0.0.202306202019.product`| November 6, 2023|
 | C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.516` | N/A | Teams client: `1449/1.0.94.2023100602` <br> Company Portal: `5.0.5954.0` <br> Admin Agent: `1.0.0.202301162118.product`| Recalled |
 | C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.456` | `1.15.289` | Teams client: `1449/1.0.94.2023020602` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product` | April 6, 2023 |
@@ -248,12 +249,15 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 #### <b> EPOS </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft appplications  | Release date|
 |:----------------|:-------------------|:----------------------------|:--------------------------------------------------------------------|:-------------------------------|
+| Expand Control 3P | `v1.9.24025.01` | N/A| Teams client: `1449/1.0.97.2023111003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| February 19, 2024|
 | Expand Control 3P | `v1.8.23258.01` | N/A| Teams client: `1449/1.0.97.2023080401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| October 17, 2023|
 | Expand Control 3P | `v1.7.23195.06` | N/A| Teams client: `1449/1.0.97.2023060102` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202305022347.product`| July 31, 2023|
 
 #### <b> Logitech </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft appplications  | Release date|
 |:----------------|:-------------------|:----------------------------|:--------------------------------------------------------------------|:--------------------------------|
+| DockFlex | `1.10.225`| N/A| Teams client: `1449/1.0.97.2023080401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| February 19, 2024|
+| TAP Scheduler | `1.11.205`| N/A| Teams client: `1449/1.0.97.2023111003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| February 19, 2024|
 | TAP Scheduler | `1.10.129`| N/A| Teams client: `1449/1.0.97.2023080401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| November 30, 2023|
 | TAP Scheduler | `1.10.121`| N/A| Teams client: `1449/1.0.97.2023060102` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202305022347.product`| September 7, 2023|
 | TAP Scheduler | `1.9.400` | N/A| Teams client: `1449/1.0.97.2023060102` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202305022347.product`| August 3, 2023|
