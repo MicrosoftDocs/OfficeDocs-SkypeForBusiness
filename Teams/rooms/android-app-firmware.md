@@ -29,7 +29,7 @@ The following are the latest Teams Rooms on Android app and firmware versions.
 
 | Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-| 2023 Update #2B1  | Feb 07, 2023 |`1449/1.0.96.2023120901`| `5.0.5484.0` | `1.0.0.202306202019.product version code : 486` |
+| 2023 Update #2B1  | Feb 07, 2024 |`1449/1.0.96.2023120901`| `5.0.5484.0` | `1.0.0.202306202019.product version code : 486` |
 | 2023 Update #2B1  | Dec 14, 2023 |`1449/1.0.96.2023120801`| `5.0.6061.0` | `1.0.0.202306202019.product version code : 486` |
 | 2023 Update #2A  | Oct 04, 2023 |`1449/1.0.96.2023090601`| `5.0.5954.0` | `1.0.0.202306202019.product version code : 486` |
 | 2023 Update #2  | June 28, 2023 |`1449/1.0.96.2023062301`| `5.0.5484.0` | `1.0.0.202301162118.product version code : 413` |
