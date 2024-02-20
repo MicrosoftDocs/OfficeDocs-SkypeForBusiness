@@ -20,6 +20,8 @@ appliesto:
 
 The external domain activity report in the Microsoft Teams admin center shows you the number of users in your organization that have communicated with [trusted external organizations](/microsoftteams/trusted-organizations-external-meetings-chat?tabs=organization-settings#specify-trusted-microsoft-365-organizations) each day. This report includes information for 1:1 and group chats, but not meetings or calls.
 
+Note that if you have an explicit allowed domains list, this report may include domains not on your allow list. It is possible for users from an allowed tenant to start a group chat with users from your tenant and from tenants allowed by them, but not allowed by you. This may cause unexpected domains on your allow list. 
+
 ## View the webinar usage report
 
 1. In the left navigation of the Microsoft Teams admin center, select **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **External domain activity**.
