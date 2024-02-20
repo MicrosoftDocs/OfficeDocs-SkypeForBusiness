@@ -455,4 +455,4 @@ The following features aren't supported in either classic Teams or new Teams.
 - Cross cloud anonymous join in Government Clouds (GCC, GCC High and DoD).
 - **Record video clip** doesn't capture screen share.
 - The call monitor (the small floating window after you minimize the main Teams window) doesn't display video or screen share.
-- Running new Teams simultaneously on a physical device and on a virtual desktop.
+- Running new Teams simultaneously on a physical device and on a virtual desktop (connected from the same physical device).
