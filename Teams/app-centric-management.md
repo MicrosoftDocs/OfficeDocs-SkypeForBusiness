@@ -13,12 +13,12 @@ ms.collection:
   - M365-collaboration
   - Tier1
 search.appverid: MET150
-ms.date: 02/14/2024
+ms.date: 02/21/2024
 ms.reviewer: mhayrapetyan
 description: Manage access to Teams apps using app centric management.
 f1.keywords:
 - NOCSH
-ms.localizationpriority: medium
+ms.localizationpriority: high
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-apr2020
@@ -29,13 +29,13 @@ ms.custom: seo-marvel-apr2020
 > [!IMPORTANT]
 > If your Teams admin center does not have this feature, it'll receive the feature later. We recommend that you continue to [use app permission policies to control user access to apps](teams-app-permission-policies.md).
 
-You evaluate and allow one app at a time. Now you can manage access to apps one app at a time too. Manage access by apps functionality introduces a new way to control how you permit users to use Teams apps. This feature replaces app permission policies. This functionality lets you specify which users and groups can use each app and you can control it on a per-app basis.
+App centric management functionality introduces a new way to control how you control access to Teams apps for users and groups. It replaces app permission policies. This functionality lets you specify which users and groups can use each app and you can control it on a per-app basis.
 
-When you start using this functionality, we retain the existing access to apps that you defined using permission policies. As always, your governance controls are preserved.
+When you start using this functionality, we retain your existing app access that you defined using permission policies. Users continue to have access to only those apps that you've allowed for them.
 
-You can manage access to apps for individual users, supported groups, or everyone in the organization. You have complete control over who can or can't add and use apps in your organization. You can also control the access of new apps that we publish to Teams app store.
+You can manage access to apps for individual users, supported groups, or everyone in the organization. You have complete control over who can or can't add and use apps in your organization. You can also control the access to new apps that we publish to Teams app store.
 
-## Difference between permission policy and manage access by apps
+## Difference between permission policy and app centric management
 
 Previously, when using permission policies, you determined access to apps using the following three settings:
 
@@ -43,7 +43,7 @@ Previously, when using permission policies, you determined access to apps using 
 * App status. It applies at an app-level and controls if it's available to any user or not.
 * Permission policy. It applies at a user-level and controls if a specific user is permitted to use an app or not.
 
-Manage access by apps feature simplifies these settings by having each app contain its access definition. That is, users and groups who can access the app. It lets you manage each app differently and one at a time based on your user's needs and organization's compliance and risk posture.
+App centric management feature simplifies these settings. Each app contains its access definition using a list of users and groups that you assign to the app. It lets you manage each app individually based on your user's needs and organization's compliance and risk posture.
 
 When using this functionality, you determine access to apps using one of the following options for each app:
 
@@ -85,7 +85,7 @@ The Org-wide app settings apply to:
 * All the new apps made available in Teams app store.
 * All the existing apps that you didn't actively manage, that is, you didn't change the assignments of.
 
-:::image type="content" source="media/acm-org-wide-app-settings.png" alt-text="Screenshot showing the org-wide app settings in an organization that uses manage access by apps feature.":::
+:::image type="content" source="media/acm-org-wide-app-settings.png" alt-text="Screenshot showing the org-wide app settings in an organization that uses app centric management feature.":::
 
 The Org-wide app settings don’t apply to:
 
@@ -132,7 +132,7 @@ When your tenant's admin center receives this feature, the following updates are
 | Allowed            | Allowed                                     | Everyone                                    |
 
 > [!NOTE]
-> You can't access, edit, or use permission policies after switching to manage access by apps functionality.
+> You can't access, edit, or use permission policies after switching to this feature.
 
 ## Related article
 
