@@ -48,7 +48,7 @@ The following sections describe the Teams Premium enhancements for:
 - [Premium events](#premium-events)
 - [Virtual Appointments](#advanced-virtual-appointments)
 
-For more information about Teams meetings and premmium events in general, see the following articles:
+**For more information about Teams meetings and premmium events in general, see the following articles:**
 
 - [Meetings, webinars, and townhalls](overview-meetings-webinars-town-halls.md)
 - [Plan for Teams meetings](plan-meetings.md)
@@ -109,13 +109,13 @@ Teams Premium provides the following additional features for customizing meeting
 
 ## Premium events
 
-Premium events include town halls and webinars.
+**Premium events include town halls and webinars.**
 
-- Town halls bring interactive video streaming to a new level. Town halls are meant for one-to-many communications where the presenters, organizers, and co-organizers are leading the interactions. The audience participation is primarily to view and react to the content being shared. 
+- **Town halls bring interactive video streaming to a new level. Town halls are meant for one-to-many communications where the presenters, organizers, and co-organizers are leading the interactions. The audience participation is primarily to view and react to the content being shared.**
 
-- Webinars provide a two-way interactive virtual event where the presenters deliver information to attendees. This format provides extra control for an organizer over the conversation and participants.
+- **Webinars provide a two-way interactive virtual event where the presenters deliver information to attendees. This format provides extra control for an organizer over the conversation and participants.**
 
-The following sections describe Teams Premium features for townhalls and webinars. For more information about planning for town halls, webinars, and meetings in general, see [Plan for town halls](plan-town-halls.md) and [Plan for webinars](plan-webinars.md) and [Meetings, webinars, and town halls](overview-meetings-webinars-town-halls.md).
+**The following sections describe Teams Premium features for townhalls and webinars. For more information about planning for town halls, webinars, and meetings in general, see [Plan for town halls](plan-town-halls.md) and [Plan for webinars](plan-webinars.md) and [Meetings, webinars, and town halls](overview-meetings-webinars-town-halls.md).**
 
 ### Town halls
 
