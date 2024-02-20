@@ -2,6 +2,29 @@
 
 
 
+## Week of February 12, 2024
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/12/2024 | [Configure Teams meetings with protection for highly sensitive data](/MicrosoftTeams/configure-meetings-highly-sensitive-protection) | modified |
+| 2/12/2024 | [Devices for Teams](/MicrosoftTeams/devices/teams-ip-phones) | modified |
+| 2/12/2024 | [Phones and Devices for Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modified |
+| 2/12/2024 | [Purchase third-party apps and manage subscriptions and licenses](/MicrosoftTeams/purchase-third-party-apps) | modified |
+| 2/13/2024 | [Introduction to Teams Policy-based Recording for Calling & Meetings](/MicrosoftTeams/teams-recording-policy) | modified |
+| 2/13/2024 | [New Microsoft Teams for Virtualized Desktop Infrastructure (VDI)](/MicrosoftTeams/new-teams-vdi-requirements-deploy) | modified |
+| 2/14/2024 | [Manage Microsoft 365 connectors and custom connectors](/MicrosoftTeams/m365-custom-connectors) | modified |
+| 2/14/2024 | [Configure private lines in Microsoft Teams](/MicrosoftTeams/private-line) | added |
+| 2/14/2024 | [New Teams for Web - Overview and prerequisites](/MicrosoftTeams/new-teams-web) | modified |
+| 2/14/2024 | [Configure Shared Calling](/MicrosoftTeams/shared-calling-setup) | modified |
+| 2/15/2024 | [Guest access in Microsoft Teams](/MicrosoftTeams/guest-access) | modified |
+| 2/15/2024 | [Bulk deploy the new Microsoft Teams desktop client](/MicrosoftTeams/new-teams-bulk-install-client) | modified |
+| 2/15/2024 | [Troubleshooting the new Teams installation](/MicrosoftTeams/new-teams-troubleshooting-installation) | modified |
+| 2/15/2024 | [Meet with people in other Microsoft 365 cloud environments](/MicrosoftTeams/cross-cloud-meetings) | modified |
+| 2/16/2024 | [App centric management to manage user access to Teams apps](/MicrosoftTeams/app-centric-management) | modified |
+| 2/16/2024 | [What's New Direct Routing](/MicrosoftTeams/direct-routing-whats-new) | modified |
+
+
 ## Week of February 05, 2024
 
 

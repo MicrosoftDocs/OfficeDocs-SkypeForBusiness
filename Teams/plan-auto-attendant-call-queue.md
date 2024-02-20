@@ -168,6 +168,12 @@ Conference mode is enabled by default. If you have agents who don't meet the req
 
 In order to help prevent a denial of service attack from web based click-to-call applications, there's a maximum of 40 click-to-call calls per minute across all auto attendants and call queues in the tenant.
 
+## Supported audio file formats
+
+When using a recorded audio file for prompts or music the supported formats are WAV (uncompressed, linear PCM with 8/16/32-bit depth in mono or stereo), WMA (mono only), and MP3. 
+
+The audio file content cannot be more 5MB.
+
 ## Getting started
 
 Once you complete the planning tasks in this article, follow these steps to get your Auto attendants and Call queues set up:
