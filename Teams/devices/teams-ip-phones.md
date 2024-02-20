@@ -52,7 +52,7 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
-| AudioCodes C470HD | `2.1.87`  |October 26, 2026  | 12 |
+| AudioCodes C470HD | `1.8.293`  |October 31, 2024  | 9 |
 | AudioCodes C435HD    | `1.12.33`     | October 31, 2024 | 9 |
 | AudioCodes C455HD    | `1.14.404`    | October 31, 2024 | 9 |
 | Crestron UC-P8, UC-P8-I, UC-P10, UC-P10-I | `1.0.0.80` |March 30, 2024 | 9 |
