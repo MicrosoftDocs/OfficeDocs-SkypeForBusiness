@@ -22,7 +22,7 @@ appliesto:
 
 # How different technologies affect Microsoft Teams sign-in
 
-If you need to understand how technologies like single sign-on (SSO), modern authentication (MS), and multifactor authentication (MA) affect users' experience of sign-in, this article helps clarify what users and admins can expect to see. It also outlines the sign-in behavior for macOS, Android, and iOS devices, how sign-in works using multiple accounts, how to remove automatically filled credentials or 'pre-fill' at the sign-in screen, and how to restrict sign-in.
+If you need to understand how technologies like single sign-on (SSO), modern authentication (MS), and multifactor authentication (MA) affect users' experience of sign-in, this article helps clarify what users and admins can expect to see. It also outlines the sign-in behavior for macOS, Android, and iOS devices, how sign-in works using multiple accounts, how to simplify the sign-in experience with domainless sign-in on shared and managed mobile devices, how to remove automatically filled credentials or "pre-fill" at the sign-in screen, and how to restrict sign-in.
 
 Bookmark this article if your role involves knowing Microsoft Team's expected behaviors during sign-in.
 
@@ -84,15 +84,15 @@ Teams for iOS and Android supports the use of multiple work or school and multip
 
 The following images show how users can add multiple accounts in Teams mobile applications.
 
-:::image type="content" source="media/sign-in-multiple-accounts.png" alt-text="Adding multiple accounts in Teams.":::
+:::image type="content" source="media/sign-in-multiple-accounts.png" alt-text="Adding multiple accounts in Teams." lightbox="media/sign-in-multiple-accounts.png":::
 
 ## Simplify the sign-in experience with domainless sign-in
 
-You can simplify the sign-in experience on Teams for iOS and Android by pre-filling the domain name on the sign-in screen for users on shared and managed devices. Users sign in by entering the first part of their UPN (without the domain name). For example, if the username is 123456@contoso.com or adelev@contoso.com, users can sign in using only “123456” or “adelev”, respectively, and their password.
+You can simplify the sign-in experience on Teams for iOS and Android by pre-filling the domain name on the sign-in screen for users on shared and managed devices. Users sign in by entering the first part of their UPN (without the domain name). For example, if the username is 123456@contoso.com or adelev@contoso.com, users can sign in using only "123456" or "adelev", respectively, and their password.
 
 Signing in to Teams is faster and easier, especially for employees such as frontline workers on shared devices, who sign in and out on a regular basis.
 
-:::image type="content" source="media/teams-mobile-domainless-sign-in.png" alt-text="Screenshot of the sign-in screen showing the prefilled domain name on Teams for iOS and Android. ":::
+:::image type="content" source="media/teams-mobile-domainless-sign-in.png" alt-text="Screenshot of the sign-in screen showing the pre-filled domain name on Teams for iOS and Android." lightbox="media/teams-mobile-domainless-sign-in.png":::
 
 In the Microsoft Entra admin center:
 
