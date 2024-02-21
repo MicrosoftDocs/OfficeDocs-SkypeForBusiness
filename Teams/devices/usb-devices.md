@@ -86,6 +86,8 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS                 |IMPACT 760T                                                |2/13/2024       |Certified for Microsoft Teams                           |
+|EPOS                 |IMPACT 730T                                                |2/13/2024       |Certified for Microsoft Teams                           | 
 |Yealink              |DeskVision A24 Monitor – Peripheral Mode                   |2/8/2024        |Certified for Microsoft Teams                           |
 |Yealink              |BH70 Dual/ Mono Headset                                    |2/8/2024        |Certified for Microsoft Teams                           |
 |Jabra                |Evolve 65 SE/ 2 55/ 2 65/ 2 65 Flex/ 2 75/ 2 85/ 2 BUDS headsets with Link 390 dongle | 1/29/2024 |Certified for Microsoft Teams  |
@@ -104,6 +106,9 @@ If you're a manufacturer and want to join the certification program, see [How to
 |B&O                  |Beocom EX MS Earbuds                                       |7/14/2023       |Certified for Microsoft Teams                           |
 |Yealink              |MP45 USB Phone                                             |7/12/2023       |Certified for Microsoft Teams                           |
 |Yealink              |BH71 speakerphone/headset                                  |7/10/2023       |Certified for Microsoft Teams                           |
+|EPOS                 |IMPACT 860T ANC                                            |5/26/2023       |Certified for Microsoft Teams                           |
+|EPOS                 |IMPACT 860T                                                |5/26/2023       |Certified for Microsoft Teams                           |
+|EPOS                 |IMPACT 830T                                                |5/26/2023       |Certified for Microsoft Teams                           |
 |EPOS                 |IMPACT 1030T                                               |5/25/2023       |Certified for Microsoft Teams                           |
 |EPOS                 |IMPACT 1061T                                               |5/25/2023       |Certified for Microsoft Teams                           |
 |EPOS                 |IMPACT 1060T                                               |5/25/2023       |Certified for Microsoft Teams                           |
