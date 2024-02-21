@@ -183,5 +183,5 @@ After new Teams is deployed to your target computers, users will sign in as usua
 **Option 2:** Users can directly launch new Teams:
 
 1. In Windows, select **Start** **> new Microsoft Teams**.
-2. Select "Yes" at the confirmation prompt screen. 
+2. Select "Yes" at the confirmation prompt screen.
 3. Once confirmed, the new Teams launches and is the default version.
