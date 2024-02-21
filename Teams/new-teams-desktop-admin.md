@@ -94,17 +94,17 @@ The new Teams client is now available for the Web.
 
 If the update channel isn't listed, then the Monthly Enterprise Channel schedule is followed.
 
-|Update channel|Date|
-|:-----|:-----|
-|Public preview program|Available|
-|Targeted release program|Available|
-|Current Channel|In rollout|
-|Government Cloud (GCC, GCC High) Preview|In rollout|
-|Government Cloud (DoD) Preview|March 2024|
-|Microsoft 365 operated by 21Vianet in China |March 2024|
-|Monthly Enterprise Channel|Late October 2023|
-|Semi-Annual Enterprise Channel (Preview)|October 2023|
-|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC and remaining channels|November 2023|
+|Update channel                                                                    |Date       |
+|:---------------------------------------------------------------------------------|:----------|
+|Public preview program                                                            |Available  |
+|Targeted release program                                                          |Available  |
+|Monthly Enterprise Channel                                                        |Available  |
+|Semi-Annual Enterprise Channel (Preview)                                          |Available  |
+|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC and remaining channels |Available  |
+|Current Channel                                                                   |In rollout |
+|Government Cloud (GCC, GCC High) Preview                                          |In rollout |
+|Government Cloud (DoD) Preview                                                    |March 2024 |
+|Microsoft 365 operated by 21Vianet in China                                       |March 2024 |
 
 ## When will the new Teams become the default client?
 
