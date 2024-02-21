@@ -50,7 +50,7 @@ New Teams is available for:
 - Edu
 - Web
 
-**New Teams is not yet available for these Customer segments:**
+**New Teams is not available for these Customer segments:**
 
 - Consumer
 - Desktop running a Windows 10 version earlier than 10.0.19041
