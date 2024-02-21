@@ -179,7 +179,8 @@ If IT administrators set restrictions for MSIX or deploy GPOs, it could prevent 
 
   :::image type="content" source="media/new-teams-troubleshooting-error-isntallation-org-policies.png" alt-text="error with org policies":::
 
-The 'side by side' method is only supported in persistent environments.
+> [!IMPORTANT]
+> The 'side by side' method is only supported in persistent environments.
 
 ## Classic Teams versus new Teams installers in VDI environments
 
