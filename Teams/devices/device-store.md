@@ -24,6 +24,15 @@ description: Learn how to browse and purchase devices in the Microsoft Teams dev
 
 # Purchase devices in the Microsoft Teams device store
 
+## What are the benefits of Teams device store?
+
+Teams device store is a convenient and easy way to find and buy Teams certified devices that can enhance your Teams experience. By using Teams device store, you can:
+
+- Discover the latest and best Teams certified devices for Teams calls and meetings in a single familiar place within the product.
+- Browse devices by features, prices, and easily find the one you need based on rich filters.
+- When you buy any Teams Room device from the store, you also get free expert support for 90-days after delivery, to help you set up and manage them.
+- Hassle-free returns: Return almost any device within 30 days.
+
 The device store lets you browse and purchase devices certified for Microsoft Teams. There are two places where you can find the device store.
 
 - Device store in Teams admin center
@@ -71,7 +80,7 @@ Once your devices are delivered, see [Remotely provision devices](remote-provisi
 
 With Teams device store inside Microsoft Teams, users can easily discover and purchase certified Teams devices for personal or shared use cases - headsets, web cameras, desk phones, Teams Rooms, and more. Explore devices in categories, use search, or filters to find desired device.
 
-The device store is available for tenants in Canada and the United States. To use the device store in the Teams App, go to **Teams > Apps > Devices**.
+The device store is available for tenants in Canada and the United States. To use the device store in the Teams App, go to **Apps > Devices**.
 
 :::image type="content" source="media/device-store-app.png" alt-text="Screenshot of Device Store in Teams app.":::
 
@@ -97,10 +106,3 @@ By default, purchase is enabled. When it's disabled, the device store will be vi
 
 Orders placed in the Teams device store and any data associated with them are classified as tenant orders and tenant data.
 
-## What are the benefits of Teams device store?
-Teams device store is a convenient and easy way to find and buy Teams certified devices that can enhance your Teams experience. By using Teams device store, you can:
-
-- Discover the latest and best Teams certified devices for Teams calls and meetings in a single familiar place within the product.
-- Browse devices by features, prices, and easily find the one you need based on rich filters.
-- When you buy any Teams Room device from the store, you also get free expert support for 90-days after delivery, to help you set up and manage them.
-- Hassle-free returns: Return almost any device within 30 days.
