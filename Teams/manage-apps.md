@@ -85,11 +85,15 @@ You allow or block specific apps on either the Manage apps page or in the app de
 
    :::image type="content" source="media/allow-block-option-app-details.png" alt-text="Screenshot showing the option to allow or block an app in the app details page.":::
 
+If you use [manage access by apps feature](app-centric-management.md), the block option is available in the **Actions** menu.
+
+:::image type="content" source="media/acm-block-app.png" alt-text="Screenshot showing how to block access to an app from the Actions menu when you use manage access by app feature.":::
+
 To allow an app for specific users, see [app permission policies](teams-app-permission-policies.md).
 
-When a developer publishes an app to the Teams store, some apps may need an admin to configure the app. Before an admin allows such an app, it shows as `Blocked by publisher` in the admin center. After following the publisher's guidance to set up the app, you can make it available to users by allowing it.
+When a developer publishes an app to the Teams store, some apps may need an admin to configure the app. Before an admin allows such an app, it shows as `Blocked by publisher` in the admin center. Before you allow it for users, follow the publisher's guidance to configure the app.
 
-To block all third-party apps, open the **Org-wide app settings** on the [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page and disallow the use of third-party apps. You can't block the [apps created by Microsoft](apps-in-teams.md#apps-created-by-microsoft) but you can disallow users from using these using permission policies.
+To block all third-party apps, open the **Org-wide app settings** on the [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page and disallow the use of third-party apps. If you use [manage access by apps feature](app-centric-management.md), you can also block the [apps created by Microsoft](apps-in-teams.md#apps-created-by-microsoft).
 
 > [!NOTE]
 > From within the Teams client, your users can request you to allow the apps that aren't available for them. You receive notifications and can allow the app. For details, see [view and manage user requests](user-requests-approve-apps.md).
