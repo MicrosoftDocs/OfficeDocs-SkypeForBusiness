@@ -86,19 +86,29 @@ The following images show how users can add multiple accounts in Teams mobile ap
 
 :::image type="content" source="media/sign-in-multiple-accounts.png" alt-text="Adding multiple accounts in Teams.":::
 
-## 
+## Simplify the sign-in experience with domainless sign-in
 
-You can simplify the sign-in experience on Teams for iOS and Android by prefilling the domain on the sign-in screen for users on shared and managed devices. Users sign in by entering the first part of their UPN (without the domain name), making sign-in faster and easier, especially for employees such as frontline workers, who sign in and out on a regular basis.
+You can simplify the sign-in experience on Teams for iOS and Android by pre-filling the domain on the sign-in screen for users on shared and managed devices. Users sign in by entering the first part of their UPN (without the domain name). Signing in to Teams is faster and easier, especially for employees such as frontline workers, who sign in and out on a regular basis.
 
 For example, if the username is 123456@contoso.com or adelev@contoso.com, users can sign in using only “123456” or “adelev”, respectively, and their password.
 
-To configure this feature: 
+To configure this feature:
 
 In the Microsoft Entra admin center:
 
-1.	Configure the UPN or Employee ID of users in email format. For example, adelev@contoso.com.
-2.	Enable the Email as an alternate login ID feature in Microsoft Entra ID. This feature lets users sign in to Microsoft Entra ID with their email as an alternate login ID. To learn more, see Sign-in to Microsoft Entra ID with email as an alternate login ID.
+1. Configure the UPN or Employee ID of users in email format. For example, adelev@contoso.com.
+2. Enable the Email as an alternate login ID feature in Microsoft Entra ID. To learn more, see [Sign-in to Microsoft Entra ID with email as an alternate login ID](/entra/identity/authentication/howto-authentication-use-email-signin).
 
+In your mobile device management (MDM) solution, configure app configuration policy settings for Teams using the following keys:
+
+| Name | Value |
+|---|---|
+| domain_name | A string value providing the domain of the tenant to appended. Use a semicolon delimited value to add multiple domains. |
+| enable_numeric_emp_id_keypad | A boolean value used to indicate that the employee ID is all numeric and the number keypad should be enabled for easy entry. If the value isn't set, the alphanumeric keyboard opens.  |
+
+If you're using Microsoft Intune, see [Manage collaboration experiences in Teams for iOS and Android with Microsoft Intune](/mem/intune/apps/manage-microsoft-teams).
+
+To apply the app configuration policy using Graph API, see [managedDeviceMobileAppConfiguration resource type](/graph/api/resources/intune-apps-manageddevicemobileappconfiguration?view=graph-rest-1.0).  
 
 ## Restrict sign-in to Microsoft Teams
 
@@ -106,7 +116,7 @@ Organization may want to restrict how corporate-approved apps are used on manage
 
 ### How to restrict Microsoft Teams sign-in on mobile devices
 
-Teams for iOS and Android offers IT administrators the ability to push account configurations to Microsoft 365 accounts. This capability works with any Mobile Device Management (MDM) provider that uses the [Managed App Configuration](https://developer.apple.com/library/archive/samplecode/sc2279/Introduction/Intro.html) channel for iOS or the [Android Enterprise](https://developer.android.com/work/managed-configurations) channel for Android.
+Teams for iOS and Android offers IT administrators the ability to push account configurations to Microsoft 365 accounts. This capability works with any MDM provider that uses the [Managed App Configuration](https://developer.apple.com/library/archive/samplecode/sc2279/Introduction/Intro.html) channel for iOS or the [Android Enterprise](https://developer.android.com/work/managed-configurations) channel for Android.
 
 For users enrolled in Microsoft Intune, you can deploy the account configuration settings using Intune in the Azure portal.
 
