@@ -88,11 +88,9 @@ The following images show how users can add multiple accounts in Teams mobile ap
 
 ## Simplify the sign-in experience with domainless sign-in
 
-You can simplify the sign-in experience on Teams for iOS and Android by pre-filling the domain on the sign-in screen for users on shared and managed devices. Users sign in by entering the first part of their UPN (without the domain name). Signing in to Teams is faster and easier, especially for employees such as frontline workers, who sign in and out on a regular basis.
+You can simplify the sign-in experience on Teams for iOS and Android by pre-filling the domain name on the sign-in screen for users on shared and managed devices. Users sign in by entering the first part of their UPN (without the domain name). For example, if the username is 123456@contoso.com or adelev@contoso.com, users can sign in using only “123456” or “adelev”, respectively, and their password.
 
-For example, if the username is 123456@contoso.com or adelev@contoso.com, users can sign in using only “123456” or “adelev”, respectively, and their password.
-
-To configure this feature:
+By enabling this feature, signing in to Teams is faster and easier, especially for employees such as frontline workers, who sign in and out on a regular basis.
 
 In the Microsoft Entra admin center:
 
