@@ -42,29 +42,32 @@ The new Teams ensures more efficient use of device resources. You can lower memo
 
 ## New Teams availability
 
-New Teams is available for Windows, Mac, VDI, Edu, and Web.
+New Teams is available for:
 
->[!Note]
->Now in **public preview:**
->
->- **GCC and GCC HIGH (Government cloud):** Public preview starts October 5, 2023.  Note:  **DoD** will roll out to public preview later in October.
+- Windows
+- Mac
+- VDI
+- Edu
+- Web
+
+**New Teams is not yet available for these Customer segments:**
+
+- Consumer
+- Desktop running a Windows 10 version earlier than 10.0.19041
+
+## New Teams client availability
 
 The new Teams client is now available for the Web.
 
 |Browser|Date|
 |:-----|:-----|
-|R4, Chrome/Edge, Non-EDU|Mid November 2023
-|Chrome/Edge, EDU|November 2023
+|R4, Chrome/Edge, Non-EDU|Mid November 2023|
+|Chrome/Edge, EDU|November 2023|
 |Safari/Firefox (target date)|March 2024|
-|Gov/Special Clouds |March 2024|
+|Gov |March 2024|
+|Microsoft 365 operated by 21Vianet in China |March 2024|
 
-**New Teams is not yet available for these Customer segments:**
-
-- Special cloud: Air-gapped, Microsoft 365 operated by 21Vianet in China
-- Consumer
-- Desktop running a Windows 10 version earlier than 10.0.19041
-
-## New Teams schedule for clients
+### New Teams schedule for clients
 
 >[!Important]
 >These schedules only apply if your organization has set the Teams Update policy "**Use new Teams Client**" to either:
@@ -74,16 +77,16 @@ The new Teams client is now available for the Web.
 >
 >[Learn more about Teams Admin policies](/microsoftteams/manage-teams-with-policies).
 
-### When will all users see the "Try the new Teams" toggle?
+## When will all users see the "Try the new Teams" toggle?
 
-#### Licenses
+### Licenses
 
 |License|Availability date|
 |:-----|:-----|
 |Business Licenses and Teams Essentials|Available|
 |Enterprise and other Licenses|See the schedule listed in this article.|
 
-#### Update channels
+### Update channels
 
 >[!Tip]
 >Learn more about update channels, including how to make changes here:
@@ -96,13 +99,14 @@ If the update channel isn't listed, then the Monthly Enterprise Channel schedule
 |Public preview program|Available|
 |Targeted release program|Available|
 |Current Channel|In rollout|
-|Government Cloud (GCC, GCC High) Preview|October 2023|
-|Government Cloud (DoD) Preview|Mid October 2023|
+|Government Cloud (GCC, GCC High) Preview|In rollout|
+|Government Cloud (DoD) Preview|March 2024|
+|Microsoft 365 operated by 21Vianet in China |March 2024|
 |Monthly Enterprise Channel|Late October 2023|
 |Semi-Annual Enterprise Channel (Preview)|October 2023|
 |Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC and remaining channels|November 2023|
 
-### When will the new Teams become the default client?
+## When will the new Teams become the default client?
 
 Existing Teams users are updated to the new Teams based on two factors:</br>
 
@@ -111,14 +115,14 @@ Existing Teams users are updated to the new Teams based on two factors:</br>
 
 Users are switched once to the new Teams. Afterward, users can switch back to classic Teams if they wish.
 
-#### Licenses
+### Licenses
 
 |License|Date|
 |:-----|:-----|
 |Business Licenses and Teams Essentials|October 2023|
 |Enterprise and other Licenses|See the schedule listed in this article.|
 
-#### Update channels
+### Update channels
 
 If the update channel isn't listed, then the Monthly Enterprise Channel schedule is followed.
 
@@ -134,6 +138,7 @@ If the update channel isn't listed, then the Monthly Enterprise Channel schedule
 |Semi-Annual Enterprise Channel (Preview)|November 2023|
 |Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC, and remaining channels|January 2024|
 |Government Cloud (GCC, GCC High) Preview|March 2024|
-|Government Cloud (DoD) Preview|March 2024|
+|Government Cloud (DoD) Preview|May 2024|
+|Microsoft 365 operated by 21Vianet in China|May 2024|
 
 [**Follow Microsoft Adoption for the latest information on upcoming features for the new Teams.**](https://aka.ms/newTeams).
