@@ -30,7 +30,7 @@ Audio Conferencing is the ability to join a Teams meeting from a regular phone a
 
 ## Audio Conferencing deployment decisions
 
-This article helps you decide whether to change any of the default Audio Conferencing settings, based on your organization's profile and business requirements, then it walks you through each change. We split the settings into two groups, starting with the core set of [changes you're more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you might want to configure, based on your organization's needs.
+This article helps you decide whether to change any of the default Audio Conferencing settings, based on your organization's profile and business requirements, then it walks you through each change. We split the settings into two groups, starting with the core set of [changes you're more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#other-deployment-decisions) you might want to configure, based on your organization's needs.
 
 You only need to set up Audio Conferencing for people who plan to schedule or lead meetings. Meeting attendees who dial in don't need any licenses assigned to them or any other setup. Dialing in (calling in) to meetings is useful for users who are on the road and can't attend a meeting using the Teams app on their laptops or mobile devices.
 
