@@ -103,6 +103,7 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 | Jabra Panacast 50 VBS | `1.17.4-1` |  N/A|  `1449/1.0.96.2023062301` | `5.0.5484.0` | `1.0.0.202306202019.product` | January 30, 2024|
 | Jabra Panacast 50 TC | `1.17.4-1` | N/A | `1449/1.0.96.2023062301` | `5.0.5484.0` | `1.0.0.202306202019.product` | January 30, 2024|
 
+
 #### <b> Logitech </b> 
 | Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
