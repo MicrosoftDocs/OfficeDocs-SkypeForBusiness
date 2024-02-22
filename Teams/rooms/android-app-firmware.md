@@ -23,7 +23,7 @@ ms.custom: seo-marvel-apr2020
 
 # Product release information for Microsoft Teams Rooms on Android
 
-For information about the latest Teams app releases, see [What's new in Microsoft Teams Devices, Teams Rooms on Android](https://learn.microsoft.com/en-us/microsoftteams/rooms/rooms-release-note?tabs=Android).
+For information about the latest Teams app releases, see [What's new in Microsoft Teams Devices, Teams Rooms on Android](/microsoftteams/rooms/rooms-release-note?tabs=Android).
 
 The following are the latest firmware versions released via Microsoft Teams Admin Center. 
 
