@@ -15,6 +15,8 @@ ms.collection:
   - M365-collaboration
   - remotework
   - purview-compliance
+  - essentials-security
+  - essentials-compliance
 f1.keywords:
   - CSH
 ms.custom: 

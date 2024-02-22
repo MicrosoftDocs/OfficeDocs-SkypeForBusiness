@@ -26,7 +26,7 @@ The **Lync Server** node lists the central sites in your topology. You can perfo
     
 - **Edit Properties**. Enables you to edit settings that affect your whole topology, such as supported Session Initiation Protocol (SIP) domains and simple URLs.
     
-- **New Topology**. Enables you to start creating a new topology for your deployment. This option is useful when you are planning your deployment, before you have installed your servers. Do not click this option if you have already used your current topology to install your deployment.
+- **New Topology**. Enables you to start creating a new topology for your deployment. This option is useful when you plan your deployment, before you install your servers. Don't select this option if you've already used your current topology to install your deployment.
     
 - **Open Topology**. Opens a topology file that you have saved.
     
@@ -38,7 +38,7 @@ The **Lync Server** node lists the central sites in your topology. You can perfo
     
 - **Install Database**. Enables you to create the databases necessary for your deployment.
     
-- **Merge Office Communications Server 2007 R2 Topology**. Starts the Topology Builder Merge wizard. This tool collects information about your previous Office Communications Server environment, including Edge Server information, and publishes that information to a shared database. 
+- **Merge Office Communications Server 2007 R2 Topology**. Starts the Topology Builder Merge wizard. This tool collects information about your previous Office Communications Server environment, including Microsoft Edge Server information, and publishes that information to a shared database. 
     
 - **Remove Deployment**. Starts the Remove Deployment wizard, which enables you to start removing your whole deployment.
     

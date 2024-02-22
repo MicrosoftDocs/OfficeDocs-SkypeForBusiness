@@ -2,6 +2,55 @@
 
 
 
+## Week of February 12, 2024
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/12/2024 | [Configure Teams meetings with protection for highly sensitive data](/MicrosoftTeams/configure-meetings-highly-sensitive-protection) | modified |
+| 2/12/2024 | [Devices for Teams](/MicrosoftTeams/devices/teams-ip-phones) | modified |
+| 2/12/2024 | [Phones and Devices for Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modified |
+| 2/12/2024 | [Purchase third-party apps and manage subscriptions and licenses](/MicrosoftTeams/purchase-third-party-apps) | modified |
+| 2/13/2024 | [Introduction to Teams Policy-based Recording for Calling & Meetings](/MicrosoftTeams/teams-recording-policy) | modified |
+| 2/13/2024 | [New Microsoft Teams for Virtualized Desktop Infrastructure (VDI)](/MicrosoftTeams/new-teams-vdi-requirements-deploy) | modified |
+| 2/14/2024 | [Manage Microsoft 365 connectors and custom connectors](/MicrosoftTeams/m365-custom-connectors) | modified |
+| 2/14/2024 | [Configure private lines in Microsoft Teams](/MicrosoftTeams/private-line) | added |
+| 2/14/2024 | [New Teams for Web - Overview and prerequisites](/MicrosoftTeams/new-teams-web) | modified |
+| 2/14/2024 | [Configure Shared Calling](/MicrosoftTeams/shared-calling-setup) | modified |
+| 2/15/2024 | [Guest access in Microsoft Teams](/MicrosoftTeams/guest-access) | modified |
+| 2/15/2024 | [Bulk deploy the new Microsoft Teams desktop client](/MicrosoftTeams/new-teams-bulk-install-client) | modified |
+| 2/15/2024 | [Troubleshooting the new Teams installation](/MicrosoftTeams/new-teams-troubleshooting-installation) | modified |
+| 2/15/2024 | [Meet with people in other Microsoft 365 cloud environments](/MicrosoftTeams/cross-cloud-meetings) | modified |
+| 2/16/2024 | [App centric management to manage user access to Teams apps](/MicrosoftTeams/app-centric-management) | modified |
+| 2/16/2024 | [What's New Direct Routing](/MicrosoftTeams/direct-routing-whats-new) | modified |
+
+
+## Week of February 05, 2024
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/5/2024 | [IT Admins - Manage external meetings and chat with people and organizations using Microsoft identities](/MicrosoftTeams/trusted-organizations-external-meetings-chat) | modified |
+| 2/5/2024 | [Manage your apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-apps) | modified |
+| 2/6/2024 | [Prevent users from joining external Microsoft Teams meetings](/MicrosoftTeams/external-meeting-join) | added |
+| 2/6/2024 | [Allow users to search for private teams](/MicrosoftTeams/search-private-teams) | added |
+| 2/6/2024 | [Using the CQD PSTN Direct Routing report](/MicrosoftTeams/cqd-pstn-report) | modified |
+| 2/6/2024 | [Use Power BI to analyze CQD data for Microsoft Teams](/MicrosoftTeams/cqd-power-bi-query-templates) | modified |
+| 2/6/2024 | [Data and reports in Call Quality Dashboard (CQD)](/MicrosoftTeams/cqd-data-and-reports) | modified |
+| 2/6/2024 | [Overview of meetings, webinars, and town halls](/MicrosoftTeams/overview-meetings-webinars-town-halls) | modified |
+| 2/7/2024 | [Add funds and manage Communications Credits](/MicrosoftTeams/add-funds-and-manage-communications-credits) | modified |
+| 2/7/2024 | [Devices for Teams](/MicrosoftTeams/devices/teams-ip-phones) | modified |
+| 2/7/2024 | [Dimensions and measurements - Call Quality Dashboard (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modified |
+| 2/7/2024 | [Sign out of Microsoft Teams](/MicrosoftTeams/sign-out-of-teams) | modified |
+| 2/8/2024 | [Usage report for new Teams client](/MicrosoftTeams/new-teams-usage-report) | modified |
+| 2/8/2024 | [Known issues in the new Microsoft Teams desktop client](/MicrosoftTeams/new-teams-known-issues) | modified |
+| 2/8/2024 | [Release notes for Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-release-note) | modified |
+| 2/9/2024 | [Teams Rooms on Android app and firmware versions](/MicrosoftTeams/rooms/android-app-firmware) | modified |
+| 2/9/2024 | [Microsoft Teams Privacy](/MicrosoftTeams/teams-privacy) | modified |
+| 2/9/2024 | [Use manufacturing team templates](/MicrosoftTeams/manufacturing-teams-templates-in-the-admin-console) | modified |
+| 2/9/2024 | [Release notes for Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-release-note) | modified |
+
+
 ## Week of January 29, 2024
 
 
@@ -85,12 +134,3 @@
 | 1/19/2024 | [Microsoft Teams apps/Line of Business (LOB) app support on Teams panels](/MicrosoftTeams/app-support-on-teams-panels) | modified |
 | 1/19/2024 | Allow users to block Microsoft Teams chat messages | removed |
 | 1/19/2024 | [IT Admins - Manage external meetings and chat with people and organizations using Microsoft identities](/MicrosoftTeams/trusted-organizations-external-meetings-chat) | modified |
-
-
-## Week of January 01, 2024
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 1/3/2024 | [Known issues in the new Microsoft Teams desktop client](/MicrosoftTeams/new-teams-known-issues) | modified |
-| 1/3/2024 | [Signal settings](/MicrosoftTeams/rooms/signal-settings) | added |
