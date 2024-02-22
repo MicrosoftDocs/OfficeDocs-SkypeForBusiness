@@ -88,6 +88,9 @@ The following images show how users can add multiple accounts in Teams mobile ap
 
 ## Simplify the sign-in experience with domainless sign-in
 
+> [!NOTE]
+> This feature is currently in public preview. 
+
 You can simplify the sign-in experience on Teams for iOS and Android by pre-filling the domain name on the sign-in screen for users on shared and managed devices. Users sign in by entering the first part of their UPN (without the domain name). For example, if the username is 123456@contoso.com or adelev@contoso.com, users can sign in using only "123456" or "adelev", respectively, and their password.
 
 Signing in to Teams is faster and easier, especially for employees such as frontline workers on shared devices, who sign in and out on a regular basis.
@@ -175,12 +178,9 @@ Our improved sign-in experience on shared device provides a hassle free sign-in 
 
 **Android**: To learn how to set up android devices in shared mode, see [How to use a shared device mode in Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
 
-**iOS**: Shared device mode support on iOS is in public preview. To set a device in shared mode on iOS, see [How to use shared device mode on iOS](/azure/active-directory/develop/msal-ios-shared-devices). Download Teams app from app store, once the device is set in shared mode. Launch Teams and leave it open for 30 seconds, close the app, and relaunch (this step is only needed for public preview phase).
+**iOS**: To set a device in shared mode on iOS, see [How to use shared device mode on iOS](/azure/active-directory/develop/msal-ios-shared-devices). Download the Teams app from the app store once the device is set in shared mode.
 
 The sign-in experience looks similar to our standard Teams sign-in experience.
-
-> [!NOTE]
-> This feature is in public preview.
 
 ![Sign-in-section](media/signin.png)
 
