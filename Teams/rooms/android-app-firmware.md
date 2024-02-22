@@ -105,7 +105,7 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 
 
 #### <b> Logitech </b> 
-| Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date |
+| Device model  | Latest Firmware version | Minimum Firmware version required|  Teams client | Company Portal | Admin Agent | Release date |
 |:------------------- |:---------------------------- |:--------------------------------------------- |:------------------------------- |:------------------------------- |:-------------------------------- |:-------------------------------- |
 | Logi Rallybar | `1.11.254` | N/A | `1449/1.0.96.2023090601` | `5.0.5484.0`| `1.0.0.202306202019.product` | January 31, 2024|
 | Logi Rallybar Mini | `1.11.254` | N/A | `1449/1.0.96.2023090601` | `5.0.5484.0`| `1.0.0.202306202019.product` | January 31, 2024|
@@ -168,7 +168,7 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 
 
 #### <b> HP | Poly </b> 
-| Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date |
+| Device model  | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date |
 |:------------------- |:---------------------------- |:--------------------------------------------- |:------------------------------- |:------------------------------- |:-------------------------------- |:-------------------------------- |
 | Poly Studio X30 | `4.1.3.394009` | `4.1.0_00.180034`| `1449/1.0.96.2023120801`| `5.0.6061.0` | `1.0.0.202310260109.product`| February 13, 2024|
 | Poly Studio X50 | `4.1.3.394009` | `4.1.0_00.180034`| `1449/1.0.96.2023120801`| `5.0.6061.0` | `1.0.0.202310260109.product`| February 13, 2024|
