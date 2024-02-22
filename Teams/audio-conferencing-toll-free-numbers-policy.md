@@ -30,9 +30,9 @@ description: Learn about how Audio Conferencing in Microsoft 365 or Office 365 a
 
 ## Teams Audio Conferencing policy
 
-Use Audio conferencing policies to manage audio conferencing toll and toll-free numbers to be displayed in meeting invites created by users within your organization. You can use one of the two automatically created policies or create and assign custom policies. The two automatically created policies are global (Org-wide default) and AllowTollFreeDialinFalse (assigned to all existing users within the organization that aren't enabled for toll-free dial-in numbers). You manage audio conferencing policies in the Microsoft Teams admin center or by using [PowerShell](teams-powershell-overview.md).
+Use Audio conferencing policies to manage audio conferencing toll and toll-free numbers to be displayed in meeting invites created by users within your organization. You can use one of the two automatically created policies or create and assign custom policies. The two automatically created policies are global (Org-wide default) and **`-AllowTollFreeDialInFalse`** (assigned to all existing users within the organization that aren't enabled for toll-free dial-in numbers). You manage audio conferencing policies in the Microsoft Teams admin center or by using [PowerShell](teams-powershell-overview.md).
 
-- The setting for AllowTollFreeDialin can no longer be managed for an individual user through Teams admin center or PowerShell. Tenant admins can only manage this setting through the new audio conferencing policy.
+- You can no longer manage the **`-AllowTollFreeDialIn`** setting for individual users in the Teams admin center or PowerShell. As an admin, you can only manage this setting through the new audio conferencing policy.
 - The Global policy can't be modified from the Teams admin center.
 
 > [!NOTE]
@@ -42,24 +42,24 @@ When a Teams audio conferencing policy is enabled in the tenant, there are two a
 
 ### Global (Org-wide default)
 
-In this policy, the value for **AllowTollfreedialin** is set to ON and there aren't any phone numbers defined in the policy. This is the default Policy for all users in the tenant who have **AllowTollfreedialin** set to **On**.
-The policy doesn't have any phone numbers defined, so When users with this policy create a Teams meeting, the available phone numbers remain unchanged from their prior settings. These phone numbers normally default to the user’s country/region, unless changed by the Tenant admin for individual users.
+In this policy, the value for **`-AllowTollFreeDialIn`** is set to **On** and there aren't any phone numbers defined in the policy. This is the default policy for all users in the tenant who have **`-AllowTollFreeDialIn`** set to **On**.
+The policy doesn't have any phone numbers defined, so when users with this policy create a Teams meeting, the available phone numbers remain unchanged from their prior settings. These phone numbers normally default to the user’s country/region, unless changed by the Tenant admin for individual users.
 
 For example, if a user in Germany already has German toll and toll-free numbers assigned before the Audio-conferencing policy launch, they retain these numbers after the policy is applied. Users don't notice any changes upon policy launch. However, if an admin modifies the Global Policy to include new phone numbers, all users with the assigned policy see these new numbers in their scheduled meetings.
 
 > [!NOTE]
 > If instead of Modifying the Global policy a tenant admin creates a custom policy and applies it to users, then the settings defined in the custom policy will be what the end users see in their meeting invites.
 
-For example, if a custom policy with -'AllowTollFreeDialinFalse' has no defined phone numbers, users under this policy don't have toll-free numbers. Meeting invites that these users with this policy create have the same toll numbers as before the policy.
+For example, if a custom policy with **`-AllowTollFreeDialInFalse`** has no defined phone numbers, users under this policy don't have toll-free numbers. Meeting invites that these users with this policy create have the same toll numbers as before the policy.
 These phone numbers normally default to the user’s country/region, unless the admin makes changes for individual users.
 
-### AllowTollfreedialinFalse
+### AllowTollFreeDialInFalse
 
-In this policy, the value for **AllowTollfreedialin** is set to **Off** and there aren't any phone numbers defined in the policy. This is the default policy for all users in the tenant who, at the time of launch, have **AllowTollfreedialin** set to **Off**.
+In this policy, the value for **`-AllowTollFreeDialIn`** is set to **Off** and there aren't any phone numbers defined in the policy. This is the default policy for all users in the tenant who, at the time of launch, have **`-AllowTollFreeDialIn`** set to **Off**.
 
 Because the policy doesn't have any phone numbers defined, when users under this policy create a Teams meeting, the available phone numbers remain unchanged from their prior settings. These phone numbers normally default to the user’s country/region, or location, unless the admin makes changes for individual users.
 
-If a user in Germany already has a German toll phone number before an Audio Conferencing policy launch, they maintain this number under the -**'AllowTollfreedialinFalse'** policy. Users don't notice any changes at policy launch. However, if an admin modifies the -**'AllowTollfreedialinFalse'** policy to include specific numbers, all policy users only see those numbers in their scheduled meetings."
+If a user in Germany already has a German toll phone number before an Audio Conferencing policy launch, they maintain this number under the **`-AllowTollFreeDialInFalse`** policy. Users don't notice any changes at policy launch. However, if an admin modifies the **`-AllowTollFreeDialInFalse`** policy to include specific numbers, all policy users only see those numbers in their scheduled meetings."
 
 ## Create a custom audio-conferencing policy
 
@@ -122,4 +122,4 @@ To learn about the different ways that you can assign policies to users, see [As
 
 ### Known issue
 
-When you start a meeting using the **Meet now** option from Microsoft Teams > Calendar > Meet Mow, if you then select the ellipsis ... menu option, and then Meeting Info, there's an issue with the lower portion of the section under **Or call in (audio only)**. All phone numbers defined in the policy are shown, but the alignment of the numbers makes it difficult to read.
+When you start a meeting using the **Meet now** option from **Microsoft Teams** > **Calendar** > **Meet Mow**, if you then select the ellipsis menu option, and then **Meeting Info**, there's an issue with the lower portion of the section under **Or call in (audio only)**. All phone numbers defined in the policy are shown, but the alignment of the numbers makes it difficult to read.
