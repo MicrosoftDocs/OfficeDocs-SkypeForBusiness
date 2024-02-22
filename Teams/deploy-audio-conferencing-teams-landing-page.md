@@ -127,7 +127,7 @@ As an administrator, you can use outbound call controls to restrict the type of 
 
 ### Dial plans
 
-A dial plan in Microsoft 365 or Office 365's Phone System is a set of normalization rules that translate dialed numbers into an another format (typically E.164 format) for call authorization and routing.
+A dial plan in Microsoft 365 or Office 365's Phone System is a set of normalization rules that translate dialed numbers into another format (typically E.164 format) for call authorization and routing.
 
 For more information about dial plans, see [What are dial plans?](what-are-dial-plans.md)
 
