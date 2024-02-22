@@ -256,7 +256,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Poly Eagle Eye Cube Camera](https://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.html) | 1.2.0 |  |  |
 | [Polycom EagleEye IV](https://www.poly.com/us/en/products/video-conferencing/eagleeye/eagleeye-iv) | 1.0.0 |  |  |
 | [Polycom CX5100](https://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.md) | 1.2.0.70232 |  |  |
-| [Polycom Eagle Eye Director II][https://www.poly.com/us/en/support/products/video-conferencing/enterprise-cameras/eagleeye-director-ii](https://support.hp.com/us-en/poly)) | 2.1.0.10 |  |  |
+| [Polycom Eagle Eye Director II](https://www.poly.com/us/en/products/video-conferencing/eagleeye/eagleeye-director-ii) | 2.1.0.10 |  |  |
 | [Polycom Studio Soundbar](https://www.polycom.com/hd-video-conferencing/room-video-systems/polycom-studio.html) | 1.1.2.000570 |  |  |
 | [Poly Sync 40](https://www.poly.com/us/en/products/phones/sync/sync-40) | 0.0.94.1461 |  |  |
 | [Poly Sync 60](https://www.poly.com/us/en/products/phones/sync/sync-60) | 0.0.150.1671 |  |  |
@@ -278,7 +278,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [:::no-loc text="Jabra"::: 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710) | 1.8.0 |  |  |
 | [:::no-loc text="Jabra"::: 810](http://www.jabra.com/supportpages/jabra-speak-810) | 1.2.23 |  |  |
 | [Yealink CP900](https://www.yealink.com/products_150.html) | 100.20.0.29 |  |  |
-| [Yealink SmartVision 60](https://www.yealink.com/en/product-detail/smartvision60) | 279.410.0.74 |  |  |
+| [Yealink SmartVision 60](https://www.yealink.com/en/product-detail/smartvision60) | 279.410.0.74 |  | &#x2714; |  | &#x2714; |
 | [Yealink UVC30](https://www.yealink.com/product/microsoft-teams-room-system-uvc30) | 105.420.0.11 | &#x2714; |  |
 | [Yealink UVC34 All-in-one video bar](https://www.yealink.com/product/usb-videobar-uvc34) | 265.410.0.9 |  |  |
 | [Yealink UVC40 All-in-one Video bar](https://www.yealink.com/product/usb-videobar-uvc40) | 128.410.0.10 |  |  |
