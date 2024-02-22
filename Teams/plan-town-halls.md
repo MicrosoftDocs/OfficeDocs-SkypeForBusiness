@@ -1,7 +1,7 @@
 ---
 title: Plan for Teams town halls
 ms.reviewer: sachung
-ms.date: 02/21/2024
+ms.date: 12/6/2023
 ms.author: wlibebe
 author: wlibebe
 ms.topic: article
@@ -30,7 +30,7 @@ description: Learn what is a town hall in Microsoft Teams. Understand how to pla
 
 **APPLIES TO:** ✖️Meetings ✖️Webinars ✔️Town halls
 
-Town halls are meant for one-to-many communications where the presenters, organizers, and co-organizers lead the presentation. The audience participation is primarily to view and react to the content being shared.
+ Microsoft Teams town halls bring interactive video streaming to a new level. Town halls are meant for one-to-many communications where the presenters, organizers, and co-organizers are leading the interactions. The audience participation is primarily to view and react to the content being shared.
 
 As an admin, this article guides you through how to plan and prepare for town halls in your organization.
 
@@ -62,13 +62,16 @@ There are five steps you must follow to ensure your network is set up to support
 
 5. **Optimize your Internal network via eCDN**
 
-   An Enterprise Content Delivery Network (eCDN) takes the video content from the internet and distributes the content throughout your enterprise without impacting network performance.<br><br> If town hall organizers in your organization have a Teams Premium license, they use the Microsoft eCDN by default. You can turn off the Microsoft eCDN if you want Teams Premium town hall organizers to use the eCDN of your choice. Keep in mind that some future Teams Premium features might require the Microsoft eCDN. <br>For town hall organizers with all other Teams subscriptions, you can enable them to use the Microsoft eCDN solution or, alternatively, one of the following certified eCDN partner solutions to optimize your network for town halls held within your organization:
+   An Enterprise Content Delivery Network (eCDN) takes the video content from the internet and distributes the content throughout your enterprise without impacting network performance. If organizers in your organization have a Teams Premium subscription, they use the Microsoft  eCDN solution with town halls by default. For organizers with all other Teams subscriptions, you can enable them to use the Microsoft eCDN solution or, alternatively, one of the following certified eCDN partner solutions to optimize your network for town halls held within your organization:
 
    - [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
    - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
    - [Ramp](https://rampecdn.com/)
 
-   To turn off the Microsoft eCDN for town hall organizers with a Premium license and learn more about our partner solutions, see  [Enterprise content delivery networks for streaming Microsoft Teams events](streaming-ecdn-enterprise-content-delivery-network.md). For more information about the Microsoft eCDN, see [Introduction to Microsoft eCDN](/ecdn/intro). 
+   For more information about the Microsoft eCDN, see [Introduction to Microsoft eCDN](/ecdn/intro) and [Enterprise content delivery networks for streaming Microsoft Teams events](streaming-ecdn-enterprise-content-delivery-network.md).
+
+   > [!NOTE]
+   > At this time, Teams Premium features for town halls are compatible with Microsoft eCDN. When organizers with a Teams Premium license create town halls, the Microsoft eCDN is always used even if you've configured a different option.
 
 ## Understand your policies
 
@@ -83,7 +86,7 @@ For a full list of admin policies and organizer settings for town halls, see [To
 When managing the event access type for town halls to decide whether organizers can schedule public town halls, consider the following points:
 
 - External attendees can only join a town hall if the organizer sets the event to public.
-- Guests are considered in-org.
+- In town halls, guests are considered in-org.
 - Attendees who aren't in your org (including anonymous and external access users) can't join in-org town halls.
 
 ## Premium town halls and live events
@@ -95,14 +98,14 @@ Live events will be deprecated on September 30, 2024. If you've been using live 
 |Broadcast capacity|10k|10k|20k|
 |Concurrent events|15|15|50|
 |Attendee reporting|✔️| ✔️|✔️|
-|eCDN|Microsoft and partner providers|Microsoft and partner providers|Microsoft and partner providers|
-|Duration|Four hours|30 hours|30 hours|
+|eCDN|Microsoft and partner providers|Microsoft and partner providers|Microsoft|
+|Duration|4 hours|30 hours|30 hours|
 |RTMP-in|✔️|✔️|✔️|
 |Producer UX|✔️ |Manage what attendees see|Manage what attendees see |
 |Default audio and video off|✔️|✔️|✔️|
 |Layouts|Single Video, Video + Content​​|Dynamic focused curated view|Dynamic focused curated view|
 |Green room|✔️|✔️|✔️|
-|Live translated captions|✔️|Six languages|10 languages|
+|Live translated captions|✔️|6 languages|10 languages|
 |Manage what attendees see|✖️|✔️|✔️|
 |External presenters|✔️|✔️|✔️|
 |AI generated captions|✔️|✔️|✔️|
@@ -159,10 +162,10 @@ Teams admins and organizers have different policies and settings to control the 
 |:------|:-----|:---------|
 |[Attendance and engagement reports](/microsoftteams/teams-analytics-and-reports/meeting-attendance-report)|Can enforce on or off or allow organizer to choose.|Can turn on or off if allowed by admin.|
 |[Audio and video](meeting-policies-audio-and-video.md)|Can manage the availability and use of audio and video for presenters and organizers.| Only presenters and organizers can use their audio and video. Attendees can't share their audio or video, but interact through Q&A.|
-|[Chat](manage-meeting-chat.md)|Can manage whether organizers, presenters, and co-organizers can read and write messages to each other during town halls.|Can chat with presenters and co-organizers. Attendees don't use chat during town halls.|
-|[Content sharing](meeting-policies-content-sharing.md)|Can control sharing mode, who can request control, and can set a default for who can present.|Can control who can present among presenters, organizers, and co-organizers. Attendees can't share content in town halls.|
+|[Chat](manage-meeting-chat.md)|Can manage whether organizers, presenters, and co-organizers can read and write messages to each other during town halls.|Can chat amongst presenters and co-organizers. Attendees don't use chat during town halls.|
+|[Content sharing](meeting-policies-content-sharing.md)|Can control sharing mode, who can request control, and can set a default for who can present.|Can control who can present amongst presenters, organizers, and co-organizers. Attendees can't share content in town halls.|
 |[Copilot](copilot-teams-transcription.md)|Can control the default value for Copilot in organizers’ meeting options.|Can control whether Copilot can be used with or without transcription during their town halls. Only organizers, co-organizers, and presenters can use Copilot during the town hall if they have a Copilot license.|
-|[eCDN](streaming-ecdn-enterprise-content-delivery-network.md)|Can manage and configure the availability of eCDN for organizers. Can also disable the Microsoft eCDN for town hall organizers with a Premium license and switch to a partner eCDN provider.| No control.|
+|[eCDN](streaming-ecdn-enterprise-content-delivery-network.md)|Can manage and configure the availability of eCDN for organizers.|No control.|
 |[Email communications (Teams Premium)](manage-email-communications.md)|Can control if event organizers and co-organizers can edit email templates for their town halls.|Can edit email templates before they're sent out.|
 |[External presenters](https://support.microsoft.com/office/schedule-a-town-hall-in-microsoft-teams-d493b5cc-9f61-4dac-8027-d837dafb7a4c)|No control.|Can invite presenters from outside  of your organization. External presenters have a unique join link to join the town hall without waiting in the lobby.|
 |[Green room](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5) |No control.|Can choose if green room is used for a town hall.|
@@ -173,7 +176,7 @@ Teams admins and organizers have different policies and settings to control the 
 |[Recording](meeting-recording.md)|Can allow or prevent town hall recording. |Recordings start automatically for town halls, but organizers can turn this off. |
 |[Recording expiration](meeting-recording.md)|Can manage whether recordings automatically expire. |By default, published recordings expire after 30 days. Organizers can extend the expiration date to 60 days. After the new date passes, they must reupload and republish the file to keep sharing.|
 |[RTMP-In](meetings-rtmp-in.md)|Can control whether organizers can use RTMP-In for their town halls. |Can produce their Teams events directly from an external hardware or software-based encoder to integrate different types of media into the event. To start streaming from the encoder, organizers can choose RTMP-In from their meeting options and then access the RTMP link and key. |
-|[Shared notes](meeting-policies-content-sharing.md)|Can manage whether organizers and co-organizers can use shared notes with other during town halls. |Can use shared notes with co-organizers during town halls |
+|[Shared notes](meeting-policies-content-sharing.md)|Can manage whether organizers and co-organizers can use shared notes amongst other during town halls. |Can use shared notes with co-organizers during town halls |
 |[Speaker coach](meeting-speaker-coach.md)|Can manage whether organizers, presenters, and co-organizers can use speaker coach during town halls. |Can use speaker coach for private real-time feedback and suggestions for improvement of themselves, co-organizers, and presenters. |
 |[Town hall usage report](teams-analytics-and-reports/teams-town-hall-usage-report.md)|View activity and usage trends for all town halls created in your organization.| No control. |
 |[Transcription and captions](meeting-transcription-captions.md)|Can allow or prevent transcription and closed captions for attendees.| Only AI generated captions are currently available. |
