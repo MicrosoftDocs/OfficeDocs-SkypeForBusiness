@@ -105,7 +105,7 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 
 
 #### <b> Logitech </b> 
-| Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date |
+| Device model  | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
 | Logi Rallybar | `1.11.254` | N/A | `1449/1.0.96.2023090601` | `5.0.5484.0`| `1.0.0.202306202019.product` | January 31, 2024|
 | Logi Rallybar Mini | `1.11.254` | N/A | `1449/1.0.96.2023090601` | `5.0.5484.0`| `1.0.0.202306202019.product` | January 31, 2024|
