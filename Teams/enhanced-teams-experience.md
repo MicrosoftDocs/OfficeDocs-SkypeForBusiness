@@ -115,7 +115,7 @@ Premium events include town halls and webinars.
 
 - **[Webinars](#webinars)** provide a two-way interactive virtual event where the presenters deliver information to attendees. This format provides extra control for an organizer over the conversation and participants.
 
-The following sections describe Teams Premium feature enhancements for townhalls and webinars. For more information about planning for town halls, webinars, and meetings in general, see [Plan for town halls](plan-town-halls.md) and [Plan for webinars](plan-webinars.md) and [Meetings, webinars, and town halls](overview-meetings-webinars-town-halls.md).
+The following sections describe Teams Premium feature enhancements for townhalls and webinars. For more information about planning for town halls, webinars, and meetings in general, see [Plan for town halls](plan-town-halls.md), [Plan for webinars](plan-webinars.md), and [Meetings, webinars, and town halls](overview-meetings-webinars-town-halls.md).
 
 ### Town halls
 
