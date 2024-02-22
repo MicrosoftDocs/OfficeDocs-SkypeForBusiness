@@ -32,7 +32,9 @@ Beginning March 31 2024, a new Teams client will be rolled out for users who are
 |Mac                                              |March 31 2024 |     |
 |EDU                                              |March 31 2024 |     |
 |Web                                              |March 31 2024 |     |
-|Government Cloud (GCC, GCC High, DOD)            |March 31 2024 |     |
+|Government Cloud (GCC, GCC High)                 |May 31 2024   |     |
+|Government Cloud (DOD)                           |June 30 2024  |     |
+|Microsoft 365 operated by 21Vianet in China      |June 30 2024  |     |
 |Policy and prerequisite blocked users (non-EDU) |March 31 2024 |[Troubleshooting installation issues in the new Teams client](new-teams-troubleshooting-installation.md) |
 |VDI                                              |June 30 2024  | [Upgrade to new Teams for Virtualized Desktop Infrastructure (VDI)](new-teams-vdi-requirements-deploy.md) |
 |Unsupported OS users (including Win 10 LTSC)     |June 30 2024  |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites) |
@@ -80,7 +82,9 @@ If you're on the June timeline, here's a list of the banner messages you may exp
 |Unsupported Windows operating system |Classic Teams won't be available for use after June 30, 2024. To use the new Teams, update your OS to meet requirements or contact your IT admin. |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites) |
 |Unsupported Mac operating system |Classic Teams won't be available for use after June 30, 2024. To use the new Teams, update your OS to meet requirements or contact your IT admin. |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites) |
 |Unsupported operating system (EDU) |Classic Teams won't be available for use after June 30, 2024. To use the new Teams, update your OS to meet requirements or contact your IT admin. |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites) |
-|Unsupported operating system (Gov) |Classic Teams won't be available for use after June 30, 2024. To use the new Teams, update your OS to meet requirements or contact your IT admin. |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites) |
+|Unsupported operating system (Gov) |Classic Teams won't be available for use after August 31, 2024. To use the new Teams, update your OS to meet requirements or contact your IT admin. |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites) |
+|Unsupported operating system (DOD)|Classic Teams won't be available for use after September 30, 2024.To use the new Teams, update your OS to meet requirements or contact your IT admin. |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites)|
+|Microsoft 365 operated by 21Vianet in China |Classic Teams won't be available for use after September 30, 2024.To use the new Teams, update your OS to meet requirements or contact your IT admin. |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites)|
 |Unsupported OS (VDI) |Classic Teams won't be available for use after June 30, 2024. To use the new Teams, update your OS to meet requirements or contact your IT admin. |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites) |
 |Microsoft cannot update because of policy restrictions (EDU) |Classic Teams won't be available for use after June 30, 2024, and we can't update to the new Teams due to org policy. For more info, contact your IT admin. Learn more  |         |
 
