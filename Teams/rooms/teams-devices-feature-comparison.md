@@ -1,16 +1,16 @@
 ---
-title: Teams Rooms on Windows, Teams Rooms on Android, & Teams panels feature comparison
+title: Teams Rooms and  Deviecs feature comparison
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.date: 10/04/2023
+ms.date: 02/22/2024
 ms.topic: conceptual
 audience: ITPro
 ms.service: msteams
 ms.subservice: itpro-rooms
 search.appverid: MET150
 ms.reviewer: sohailta
-description: A guide comparing the Teams devices for shared spaces features between Windows and Android.  Also comparing Teams Rooms and Panels features across government clouds.
+description:  A guide comparing the Microsoft Teams Rooms and Teams devices features between Windows and Android for shared spaces acorss all deployments.
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
