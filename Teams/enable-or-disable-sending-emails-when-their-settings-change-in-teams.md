@@ -77,7 +77,7 @@ Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $tr
 
 You can use the [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings) to manage other settings for your organization, including email.
 
-For more information, see [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=teams-ps).
+For more information, see [Microsoft Teams PowerShell reference](/powershell/module/teams/).
 
 ## Want to know more about Windows PowerShell?
 
@@ -87,7 +87,7 @@ Windows PowerShell is all about managing users and what users are allowed or not
 
 - [Best ways to manage Office 365 with Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
-For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=teams-ps).
+For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](/powershell/module/teams).
 
 ## Related topics
 
