@@ -36,7 +36,7 @@ After you plan the dial plans for your organization and figured out all the norm
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Dial plans**.
 1. Select **Add**, and then enter a name and description for the dial plan.
-1. Under **Normalization rules**, configure and associate one or more [normalization rules](what-are-dial-plans.md#normalization-rules) for the dial plan. Each dial plan must have at least one normalization rule associated with it.  To do this, do one or more of the following:
+1. Under **Normalization rules**, configure and associate one or more [normalization rules](what-are-dial-plans.md#normalization-rules) for the dial plan. Each dial plan must have at least one normalization rule associated with it. To do this, do one or more of the following:
     - To create a new normalization rule and associate it with the dial plan, select **Add**, and then define the rule.
     - To edit a normalization rule that's already associated with the dial plan, select the rule by clicking to the left of the rule name, and then select **Edit**. Make the changes you want, and then select **Save**.
     - To remove a normalization rule from the dial plan, select the rule by clicking to the left of the rule name, and then select **Delete**.
@@ -194,7 +194,7 @@ Get-CsOnlineUser -Filter {HostingProvider -eq "sipfed.online.lync.com"} | Grant-
 
 Run these to add the existing on-premises dial plan named OPDP1 as a tenant dial plan for your organization. You need to first save the on-premises dial plan to an .xml file, and then use it to create the new tenant dial plan.
   
-- Run this in Skype for Business Server Management Shell on-premises to save the on-premises dial plan to the .xml file.
+- Run this script in Skype for Business Server Management Shell on-premises to save the on-premises dial plan to the .xml file.
   
     ```PowerShell
     $DPName = "OPDP1"
@@ -202,7 +202,7 @@ Run these to add the existing on-premises dial plan named OPDP1 as a tenant dial
     Get-CsDialplan $DPName | Export-Clixml $DPFileName
     ```
 
-- Run this in Teams PowerShell Module online to create the new tenant dial plan.
+- Run this script in Teams PowerShell Module online to create the new tenant dial plan.
   
     ```PowerShell
     $DPFileName = "dialplan.xml"
