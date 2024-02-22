@@ -57,4 +57,4 @@ As a Microsoft 365 or Office 365 admin, you can edit the Audio Conferencing sett
 
 - [Manage the Audio Conferencing settings for your organization](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 
-[Audio Conferencing common questions](audio-conferencing-common-questions.md)
+- [Audio Conferencing common questions](audio-conferencing-common-questions.md)
