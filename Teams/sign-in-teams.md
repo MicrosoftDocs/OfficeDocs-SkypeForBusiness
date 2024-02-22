@@ -94,7 +94,7 @@ Signing in to Teams is faster and easier, especially for employees such as front
 
 :::image type="content" source="media/teams-mobile-domainless-sign-in.png" alt-text="Screenshot of the sign-in screen showing the pre-filled domain name on Teams for iOS and Android." lightbox="media/teams-mobile-domainless-sign-in.png":::
 
-You can configure the UPN in the format of \<employeeid>@\<domain>.com and apply the following app configuration policy settings to enable employee ID sign in for the Teams mobile app.  
+You can configure the UPN in the format of \<employeeid>@\<domain>.com and apply the following app configuration policy to enable employee ID sign in for the Teams mobile app.  
 
 | Name | Value |
 |---|---|
