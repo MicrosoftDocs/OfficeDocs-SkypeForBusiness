@@ -75,7 +75,7 @@ By default, there are four types of email that are sent to your users who are en
 
 ## Make changes to the email messages that are sent to them
 
-You can make changes to the email that is automatically sent to users. By default, the sender of the emails is from Microsoft 365 or Office 365, but you can change the display name using Windows PowerShell. For more information, see [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=teams-ps) .
+You can make changes to the email that is automatically sent to users. By default, the sender of the emails is from Microsoft 365 or Office 365, but you can change the display name using Windows PowerShell. For more information, see [Microsoft Teams PowerShell reference](/powershell/module/teams) .
 
 ## What if you don't want email to be sent to them?
 
@@ -118,7 +118,7 @@ Windows PowerShell is all about managing users and what users are allowed or not
 
 - [Best ways to manage Office 365 with Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
-For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=teams-ps).
+For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](/powershell/module/teams).
 
 ## Related topics
 
