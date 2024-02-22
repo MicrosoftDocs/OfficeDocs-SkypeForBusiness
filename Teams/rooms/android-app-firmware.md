@@ -140,8 +140,8 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 | Logi RoomMate | `1.8.575`   | N/A | `1449/1.0.96.2023031201` | `5.0.5484.0` |`1.0.0.202301162118.product`| April 6, 2023|
 | Logi TAP IP  | `1.8.558`    | N/A | `1449/1.0.96.2023031201` | `5.0.5484.0` |`1.0.0.202301162118.product`| April 6, 2023|
 | Logi Rallybar | `1.8.295`   | N/A | `1449/1.0.96.2022090606` | `5.0.5484.0` | `1.0.0.202209060820.product`| February 26, 2023|
-| Logi Rallybar Mini | `1.8.295` | N/A | `1449/1.0.96.2022090606 | `5.0.5484.0` |`1.0.0.202209060820.product`| February 26, 2023|
-| Logi RoomMate | `1.8.536`   | N/A | `1449/1.0.96.2022090606 | `5.0.5484.0` |`1.0.0.202209060820.product`| February 26, 2023|
+| Logi Rallybar Mini | `1.8.295` | N/A | `1449/1.0.96.2022090606` | `5.0.5484.0` |`1.0.0.202209060820.product`| February 26, 2023|
+| Logi RoomMate | `1.8.536`   | N/A | `1449/1.0.96.2022090606` | `5.0.5484.0` |`1.0.0.202209060820.product`| February 26, 2023|
 
 
 #### Neat
