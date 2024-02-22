@@ -3,7 +3,7 @@ title: Plan for Operator Connect Conferencing
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 02/22/2024
+ms.date: 10/28/2021
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -13,7 +13,7 @@ ms.collection:
   - m365initiative-meetings
   - highpri
   - Tier1
-ms.reviewer: oscarr
+ms.reviewer: crowe
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -28,16 +28,16 @@ appliesto:
 
 # Plan for Operator Connect Conferencing
 
-Microsoft Audio Conferencing allows users to dial into a conference and dial out from a conference using Public Switched Telephone Network (PSTN) phone numbers. Participants join Microsoft Teams meetings using an audio-only conferencing bridge.
+Microsoft Audio Conferencing provides the ability to dial into a conference and dial out from a conference using Public Switched Telephone Network (PSTN) phone numbers.  Participants join Microsoft Teams meetings using an audio-only conferencing bridge.
 
 With Operator Connect Conferencing capabilities, organizations can use phone numbers from a third-party operator to join Microsoft Teams meetings. If your current operator is part of the Microsoft Operator Connect program, you can add phone numbers from your operator to your Audio Conferencing bridge and use them to join meetings.
 
 Without Operator Connect Conferencing capabilities, organizations can only use phone numbers provided by Microsoft for their audio conferencing bridge.
 
-> [!NOTE]
+>[!NOTE]
 >A telephone number provider that is part of the Microsoft Operator Connect program is referenced in this article as an "operator."
 >
-> To see if your operator participates in the Microsoft Operator Connect program, see the [Microsoft 365 Operator Connect directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory).
+>To see if your operator participates in the Microsoft Operator Connect program, see the [Microsoft 365 Operator Connect directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory).
 
 This article describes Operator Connect Conferencing:
 
@@ -61,7 +61,7 @@ Operator Connect Conferencing provides the following benefits:
 
 - **Enhanced support and reliability.** Operators provide technical support and shared service level agreements to improve service support, and direct peering powered by Azure creates a one-to-one network connection for enhanced reliability.
 
-Operator Connect Conferencing might be the right solution for your org if:
+Operator Connect Conferencing might be the right solution for your organization if:
 
 - You want to **keep your contracts** with your existing telephone number provider
 
@@ -93,10 +93,10 @@ The Operator Connect Conferencing license allows subscribers to use phone number
 
 For more information, see [**Configure Operator Connect Conferencing**](operator-connect-conferencing-configure.md).
 
-> [!NOTE]
-> Meeting participants don't require an Audio Conferencing Standard Subscription license or an Operator Connect Conferencing license to join a meeting organized by a user with Operator Connect Conferencing capabilities.
+>[!Note]
+>Meeting participants don't require an Audio Conferencing Standard Subscription license or an Operator Connect Conferencing license to join a meeting organized by a user with Operator Connect Conferencing capabilities.
 
-With Operator Connect Conferencing, Microsoft bills your organization based on the type of Audio Conferencing license and the use of provided phone numbers.
+With Operator Connect Conferencing, Microsoft bills your organization according to the type of Audio Conferencing license used by your organization, Microsoft Audio Conferencing or Operator Connect Conferencing, and the use of any phone numbers provided by Microsoft.
 
 Your operator bills your organization for the use of Operator Connect Conferencing numbers they provide.
 
