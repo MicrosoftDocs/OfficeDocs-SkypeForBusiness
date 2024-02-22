@@ -132,7 +132,7 @@ You can use the Teams admin center to manage which eCDN solution your organizers
 ### Using PowerShell
 
 You can use PowerShell to manage which eCDN solution your organizers with a Premium license use for town halls.
-To manage eCDN for Premium town halls, use the **`-UseMicrosoftECDN`** parameter within the PowerShell [**CsTeamsEventsPolicy**](/powershell/module/teams/set-csteamseventspolicy).
+To manage eCDN for Premium town halls, use the **`-UseMicrosoftECDN`** parameter within the PowerShell [**CsTeamsEventsPolicy**](/powershell/module/teams/set-csteamsmeetingpolicy).
 
 To allow Premium town hall organizers to use a partner eCDN solution, use the following script:
 
