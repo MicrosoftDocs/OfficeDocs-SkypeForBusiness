@@ -10,7 +10,7 @@ ms.service: msteams
 ms.subservice: itpro-rooms
 search.appverid: MET150
 ms.reviewer: sohailta
-description:  A guide comparing the Microsoft Teams Rooms and Teams devices features between Windows and Android for shared spaces acorss all deployments.
+description:  A guide comparing Microsoft Teams Rooms and Teams devices features running on Windows and Android across all deployments.
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
