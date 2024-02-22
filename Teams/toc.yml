@@ -1481,7 +1481,7 @@ items:
                   href: rooms/rooms-lifecycle-support.md
                 - name: Android app and firmware versions
                   href: rooms/android-app-firmware.md
-                - name: Teams Rooms Windows and Android comparison
+                - name: Teams Rooms and devices feature comparison
                   href: rooms/teams-devices-feature-comparison.md
             - name: Licensing
               items:
@@ -1659,7 +1659,7 @@ items:
               href: devices/usb-devices.md
             - name: RealWear for Teams
               href: flw-realwear.md
-            - name: SmartVision
+            - name: Multi-Stream IntelliFrame
               href: devices/smartvision-admin.md
             - name: Cloud IntelliFrame
               href: devices/cloud-intelliframe.md
