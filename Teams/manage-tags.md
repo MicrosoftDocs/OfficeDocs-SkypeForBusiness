@@ -89,7 +89,7 @@ You can configure the following tags settings to control how tags are used acros
     - **Suggested tags**: Use this option to add a set of default tags. You can add up to 25 tags, and each tag can contain a maximum of 25 characters. Team owners and members (if the feature is enabled for them) can use these suggestions, add to them, or create a new set of tags.
 
       > [!NOTE]
-      > Suggested tags is available in classic Teams but will no longer be available in new Teams.
+      > Suggested tags is available in classic Teams but will no longer be available in [new Teams](new-teams-desktop-admin.md).
 
     - **Custom tags**: Turn on this setting to let people add tags other than the suggested default tags that you set. If this setting is turned off, people can only use the suggested default tags. If you turn off this setting, make sure that you add one or more default tags.
     - **Shifts app can apply tags**: Turn on this setting to enable the Shifts app to automatically assign tags to people who are on-shift in real time. These tags match a user's schedule and group name in Shifts. Notifications are only sent to those people who are on-shift at the time the tag is used in a chat or channel post.
