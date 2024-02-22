@@ -50,7 +50,7 @@ Here's a rundown of the behavior users can expect with each modern authenticatio
 
 - If users are signed in to a domain-joined computer, when they start Teams, they might be asked to go through one more authentication step, depending on whether your organization opted to require MFA or if their computer already requires MFA to sign in. If their computer already requires MFA to sign in, when they open up Teams, the app automatically starts.
 
-- On Domain joined PCs, when SSO isn't possible, Teams may pre-fill its sign-in screen with the user principal name (UPN). There are cases where you may not want this, especially if your organization uses different UPNs on-premises and in Microsoft Entra ID. If that's the case, **you can use the following Windows registry key to turn off pre-population of the UPN**:
+- On domain-joined PCs, when SSO isn't possible, Teams may pre-fill its sign-in screen with the user principal name (UPN). There are cases where you may not want this, especially if your organization uses different UPNs on-premises and in Microsoft Entra ID. If that's the case, **you can use the following Windows registry key to turn off pre-population of the UPN**:
 
   Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams<br/>
   SkipUpnPrefill(REG_DWORD)<br/>
@@ -89,9 +89,9 @@ The following images show how users can add multiple accounts in Teams mobile ap
 ## Simplify the sign-in experience with domainless sign-in
 
 > [!NOTE]
-> This feature is currently in public preview. 
+> This feature is currently in public preview.
 
-You can simplify the sign-in experience on Teams for iOS and Android by pre-filling the domain name on the sign-in screen for users on shared and managed devices. Users sign in by entering the first part of their UPN (without the domain name). For example, if the username is 123456@contoso.com or adelev@contoso.com, users can sign in using only "123456" or "adelev", respectively, and their password.
+You can simplify the sign-in experience on Teams for iOS and Android by pre-filling the domain name on the sign-in screen for users on shared and managed devices. Users sign in by entering the first part of their UPN (without the domain name). For example, if the username is 123456@contoso.com or adelev@contoso.com, users can sign in by only using "123456" or "adelev", respectively, and their password.
 
 Signing in to Teams is faster and easier, especially for employees such as frontline workers on shared devices, who sign in and out on a regular basis.
 
