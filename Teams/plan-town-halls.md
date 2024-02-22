@@ -68,7 +68,7 @@ There are five steps you must follow to ensure your network is set up to support
    - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
    - [Ramp](https://rampecdn.com/)
 
-   To turn off the Microsoft eCDN for town hall organizers with a Premium license and learn more about our partner solutions, see  [Enterprise content delivery networks for streaming Microsoft Teams events](streaming-ecdn-enterprise-content-delivery-network.md). For more information about Microsoft eCDN, see [Introduction to Microsoft eCDN](/ecdn/intro).
+   To turn off the Microsoft eCDN for town hall organizers with a Premium license and learn more about our partner solutions, see  [Enterprise content delivery networks for streaming Microsoft Teams events](streaming-ecdn-enterprise-content-delivery-network.md). For more information about the Microsoft eCDN, see [Introduction to Microsoft eCDN](/ecdn/intro). 
 
 ## Understand your policies
 
