@@ -29,7 +29,7 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 
 ## Firmware versions released to Public cloud
 
-#### <b> Audiocodes </b>
+#### Audiocodes
 
 | Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
@@ -42,7 +42,8 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 | Audiocodes RX-Pad | `2.0.369` |  N/A | `1449/1.0.96.2023090601` | `5.0.5484.0`| `1.0.0.202305022347.product` | July 24, 2023|
 | Audiocodes RXV81 | `2.0.268` | N/A |`1449/1.0.96.2023041207`| `5.0.5484.0`| `1.0.0.202301162118.product` | May 30, 2023 |
 
-#### <b> Cisco </b> 
+#### Cisco
+
 | Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
 | Cisco Board Pro 55 | `11.11.1.10` | N/A | `1449/1.0.96.2023120801` | `5.0.6061.0` | `1.0.0.202310260109.product` | January 25, 2024|
@@ -72,7 +73,8 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 | Cisco Board Pro 75 | `11.3.1.16` | N/A | `1449/1.0.96.2023010302` | `5.0.5484.0` | `1.0.0.202209060820.product` | March 30, 2023 |
 
 
-#### <b> DTEN </b> 
+#### DTEN
+
 | Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
 | DTEN D7X 75" |`1.5.5.4` | N/A| `1449/1.0.96.2023060802` | `5.0.5484.0`| `1.0.0.202305022347.product`| February 8, 2024|
@@ -84,7 +86,8 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 | DTEN D7X 55" |`1.4.3.3`   | N/A| `1449/1.0.96.2023060802` | `5.0.5484.0`| `1.0.0.202305022347.product`| September 14, 2023|
 | DTEN D7X 55"| `1.2.7.0` | N/A | `1449/1.0.96.2022120503`| `5.0.5484.0` | `1.0.0.202301162118.product`|  April 18, 2023|
 
-#### <b> EPOS </b> 
+#### EPOS
+
 | Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
 | EPOS EXPAND Vision 5T |`v1.9.23365.01`| N/A |  `1449/1.0.96.2023062301`| `5.0.5484.0` | `1.0.0.202310260109.product`| February 20, 2024|
@@ -97,14 +100,16 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 | EPOS EXPAND Control 3C |`v1.4.23139.06`| N/A | `1449/1.0.96.2023041207`| `5.0.5484.0` | `1.0.0.202205230848.product` | June 23, 2023|
 
 
-#### <b> Jabra </b> 
+#### Jabra
+
 | Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
 | Jabra Panacast 50 VBS | `1.17.4-1` |  N/A|  `1449/1.0.96.2023062301` | `5.0.5484.0` | `1.0.0.202306202019.product` | January 30, 2024|
 | Jabra Panacast 50 TC | `1.17.4-1` | N/A | `1449/1.0.96.2023062301` | `5.0.5484.0` | `1.0.0.202306202019.product` | January 30, 2024|
 
 
-#### <b> Logitech </b> 
+#### Logitech
+
 | Device model  | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
 | Logi Rallybar | `1.11.254` | N/A | `1449/1.0.96.2023090601` | `5.0.5484.0`| `1.0.0.202306202019.product` | January 31, 2024|
@@ -139,7 +144,8 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 | Logi RoomMate | `1.8.536`   | N/A | `1449/1.0.96.2022090606 | `5.0.5484.0` |`1.0.0.202209060820.product`| February 26, 2023|
 
 
-#### <b> Neat </b> 
+#### Neat
+
 | Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
 | Neat Bar | `NFB1.20240120.0007` | N/A | `1449/1.0.96.2023120801`| `5.0.6061.0` | `1.0.0.202310260109.product`| February 21, 2024|
@@ -167,7 +173,8 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 | Neat Pad touch console | `NFA1.20221128.0005` | N/A | `1449/1.0.96.2022120503` | `5.0.5484.0` | `1.0.0.202209060820.product`| February 16, 2023 |
 
 
-#### <b> HP | Poly </b>
+#### HP | Poly
+
 | Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
 | Poly Studio X30 | `4.1.3.394009` | `4.1.0_00.180034`| `1449/1.0.96.2023120801`| `5.0.6061.0` | `1.0.0.202310260109.product`| February 13, 2024|
@@ -216,7 +223,7 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 | Poly Studio G7500 | `4.0.0-376092` |  N/A | `1449/1.0.96.2022120503` | `5.0.5484.0`| `1.0.0.202209060820.product` | March 23, 2023 |
 | Poly TC8 | `4.0.0.210993` |  N/A | `1449/1.0.96.2022120503` | `5.0.5484.0`| `1.0.0.202209060820.product` | March 23, 2023 |
 
-#### <b> Yealink </b> 
+#### Yealink
 | Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
 | Yealink MeetingBar A10 | `278.320.0.36` | N/A | `1449/1.0.96.2023111001`| `5.0.6061.0` | `1.0.0.202306202019.product` | February 15, 2024 |
@@ -241,7 +248,9 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 
 
 ## Firmware versions released to Federal clouds
-#### <b> Cisco </b> 
+
+#### Cisco
+
 | Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date | Cloud |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|:----------------------------------|
 | Cisco Board Pro 55 | `11.11.1.10` | N/A | `1449/1.0.96.2023120801` | `5.0.6061.0` | `1.0.0.202310260109.product` | January 25, 2024| GCCH|
@@ -253,7 +262,8 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 | Cisco Room Kit EQ | `11.11.1.10` |  N/A | `1449/1.0.96.2023120801` | `5.0.6061.0` | `1.0.0.202310260109.product` | January 25, 2024| GCCH|
 | Cisco Navigator | `11.11.1.10` | N/A | `1449/1.0.96.2023120801` | `5.0.6061.0` | `1.0.0.202310260109.product` | January 25, 2024| GCCH|
 
-#### <b> Logitech </b> 
+#### Logitech
+
 | Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date | Cloud|
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|:-----------------|
 | Logi RoomMate | `1.11.215`   | N/A | `1449/1.0.96.2023090601` | `5.0.5484.0`| `1.0.0.202306202019.product` | February 20, 2024| GCCH|
@@ -261,7 +271,8 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 | Logi RoomMate | `1.10.175`   |  N/A | `1449/1.0.96.2023090601` | `5.0.5484.0`| `1.0.0.202306202019.product` | February 2, 2023| GCCH|
 | Logi TAP IP  | `1.10.129`    |  N/A | `1449/1.0.96.2023090601` | `5.0.5484.0`| `1.0.0.202306202019.product` | February 2, 2023| GCCH|
 
-#### <b> HP | Poly </b> 
+#### HP | Poly
+ 
 | Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date | Cloud |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|:---------------------------------|
 | Poly Studio X30 | `4.1.2-388101` |`4.1.0_00.180034` | `1449/1.0.96.2023120801` | `5.0.6061.0` | `1.0.0.202310260109.product`| January 23, 2024| GCCH |
