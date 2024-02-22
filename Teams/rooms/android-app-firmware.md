@@ -166,6 +166,7 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 | Neat Board | `NFC1.20221128.0009` | N/A | `1449/1.0.96.2022120503` | `5.0.5484.0` | `1.0.0.202209060820.product`| February 16, 2023 |
 | Neat Pad touch console | `NFA1.20221128.0005` | N/A | `1449/1.0.96.2022120503` | `5.0.5484.0` | `1.0.0.202209060820.product`| February 16, 2023 |
 
+
 #### <b> HP | Poly </b> 
 | Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
