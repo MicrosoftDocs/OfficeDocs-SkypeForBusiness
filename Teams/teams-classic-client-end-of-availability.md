@@ -57,7 +57,7 @@ This rollout will be different based on your Teams Admin Center policy controls.
 
 ### What users will see until April 01 2024
 
-Starting on February 1 2024, any classic Teams users who haven’t updated to new Teams will begin seeing an informational banner to remind them about the timeline for the auto update. This banner will appear in the main Teams client window at the top of the page (underneath the main bar).
+Starting in March 2024, any classic Teams users who haven’t updated to new Teams will begin seeing an informational banner to remind them about the timeline for the auto update. This banner will appear in the main Teams client window at the top of the page (underneath the main bar).
 
 :::image type="content" source="media/teams-client-eol-switch-banner.png" alt-text="Shows the banner in Teams client that reads 'Classic Teams won't be available after March 31, 2024. You'll be switched to the new Teams after this date. Switch now.' Switch now is a selectable link.":::
 
