@@ -128,6 +128,8 @@ Microsoft highly recommends that admins who want more control or a more gradual 
 
 ### What admins will experience starting April 01 2024
 
+In the Teams admin center:
+
 - Microsoft-managed rollout: If you left the policy controls at their defaults, we'll continue rolling out new Teams as per the schedule outlined above, with one update: We won't proceed with the uninstallation of the classic Teams client for 14 days.
 - Admin-managed rollout: Admins can choose to control the new Teams rollout as outlined in [Upgrade to the new Teams using policies](new-teams-deploy-using-policies.md). These policies will no longer work at the start of April, apart from your VDI users, and the following changes will happen:
   - New Teams will become the default client. The toggle to return to classic Teams will still be available if needed.
