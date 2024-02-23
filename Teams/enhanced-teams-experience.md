@@ -105,7 +105,7 @@ Teams Premium provides more ways to safeguard and monitor users' Teams experienc
 | Feature/Task  | Can admins turn this feature on/off? | Documentation for admins | Documentation for your end users
 | -------------------- | -----------| ----------- | ------------ |
 | Advanced collaboration analytics |No, contact support for assistance.| [Advanced Collaboration Analytics for Microsoft Teams](advanced-collaboration-analytics.md) | No end-user control |
-| Audio quality alerts |Yes, you can add or remove users.| [Alerts for in-progress meeting audio quality issues](alerts-in-progress-meeting-audio.md) | No end-user control |
+| Audio quality alerts |Yes, you can add or remove users.| [Alerts for in-progress meeting audio quality issues](/MicrosoftTeams/alerts-in-progress-meeting-audio.md) | No end-user control |
 | Custom user policy packages |Yes| [Managing policy packages in Teams](manage-policy-packages.md) | No end-user control |
 | End-to-end encryption (E2EE) | Yes |[Encryption for sensitive meetings](end-to-end-encrypted-meetings.md) | [Use encryption](https://support.microsoft.com/office/use-end-to-end-encryption-for-teams-meetings-a8326d15-d187-49c4-ac99-14c17dbd617c)  |
 | Hide attendee names | Yes |[Allow meeting and webinar organizers to hide the names of attendees](hide-attendee-names.md) | [Hide attendee names in Teams meetings and webinars](https://support.microsoft.com/office/hide-attendee-names-in-teams-meetings-and-webinars-00389c74-ee61-48b5-bad8-8295600085ed) |
