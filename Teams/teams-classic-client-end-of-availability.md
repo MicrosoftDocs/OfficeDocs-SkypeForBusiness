@@ -24,7 +24,19 @@ ms.localizationpriority: high
 
 ## Overview
 
-Beginning March 31 2024, a new Teams client will be rolled out for users who are still on classic Teams, installing the new Teams client for them and uninstalling the classic Teams client. After this time, classic Teams will be unavailable for different users as outlined in this table:
+After March 31 2024, a new Teams client will begin to be rolled out for users who are still on classic Teams. This will be a gradual process, as outlined in the table below, giving adminstrators time to work out any issues with their organization's policies and permissions around the upgrade of the new Teams client.
+
+|Policy settings                          | Date                     |
+|-----------------------------------------|--------------------------|
+|Policy no longer honored                 |April 01 2024             |
+|Admin managed moves to new Teams default |April 02 to April 26 2024 |
+|Admin managed moves to new Teams only    |April 29 to May 24 2024   |
+|Stuff we can't tell you about XXX        |May 27 to June 30 2024    |
+|Blocking dialogs if you're bad           |July 01 2024              |
+
+After a fourteen-day period of moving to the new Teams client, Microsoft will also uninstall the classic Teams client. After this time, classic Teams will be unavailable for different users as outlined in this table:
+
+XXX DATES HERE
 
 |Availability area                                | Date         |Link |
 |-------------------------------------------------|--------------|-----|
@@ -42,7 +54,7 @@ Beginning March 31 2024, a new Teams client will be rolled out for users who are
 
 ## User experience
 
-### What users will see until March 31 2024
+### What users will see until April 01 2024
 
 Starting on February 1 2024, any classic Teams users who haven’t updated to new Teams will begin seeing an informational banner to remind them about the timeline for the auto update. This banner will appear in the main Teams client window at the top of the page (underneath the main bar).
 
@@ -57,10 +69,12 @@ If users are on an unsupported OS (including Win 10 LTSC), you’ll see a slight
 
 :::image type="content" source="media/teams-client-eol-requirements-banner.png" alt-text="Shows the banner in Teams client that reads 'Classic Teams won't be available for use after June 30, 2024. To use the new Teams, update your OS to meet requirements or contact your IT Admin.' Requirements is a selectable link.":::
 
+XXX ALL THE ALT TEXT MUST CHANGE
+
 > [!NOTE]
 > Users on a June 30th timeline will see this banner from April 1 2024.
 
-Here's a list of the banner messages you may experience after January 31 2024:
+Here's a list of the banner messages you may experience after January 31 2024: XXX IS THIS THE RIGHT DATE?!
 
 |Condition for triggering the banner |Banner message |Further information |
 |------------------------------------|---------------|--------------------|
@@ -100,7 +114,7 @@ If you fall under the June 30 2024 list items and you aren’t able to be update
 
 ## Admin experience
 
-### What admins will see until March 31 2024
+### What admins will see until the end of March 31 2024
 
 Admins have full control over their tenant’s transition to new Teams via the [Upgrade to the new Teams using policies](new-teams-deploy-using-policies.md) article.
 
@@ -108,7 +122,7 @@ A bulk installer, including offline capability, is provided for admins who want 
 
 Microsoft highly recommends that admins who want more control or a more gradual rollout of new Teams take advantage of these tools and functionality to begin slowly transitioning their users to new Teams now. Policies can be targeted to individual users, groups of users, or your entire tenant to give you flexibility to release to users group by group while monitoring progress and feedback.
 
-### What admins will experience starting March 31 2024
+### What admins will experience starting April 01 2024
 
 Beginning March 31 2024, all policy options within Teams Admin Center to control the transition to new Teams will be made unavailable or will no longer function for all users.
 
