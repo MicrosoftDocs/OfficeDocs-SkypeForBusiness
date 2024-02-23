@@ -26,8 +26,6 @@ ms.localizationpriority: high
 
 After March 31 2024, a new Teams client will be rolled out, in stages, for users who are still on classic Teams. The roll out means installing the new Teams client for users who still have the classic Teams client, and uninstalling the classic Teams client fourteen days after the installation of new Teams.
 
-
-XXX
 After this process is complete, classic Teams will be unavailable for different users as outlined in this table:
 
 |Availability area                                | Date         |Link |
@@ -39,10 +37,9 @@ After this process is complete, classic Teams will be unavailable for different 
 |Government Cloud (GCC, GCC High)                 |May 31 2024   |     |
 |Government Cloud (DOD)                           |June 30 2024  |     |
 |Microsoft 365 operated by 21Vianet in China      |June 30 2024  |     |
-|Policy and prerequisite blocked users (non-EDU) |March 31 2024 |[Troubleshooting installation issues in the new Teams client](new-teams-troubleshooting-installation.md) |
 |VDI                                              |June 30 2024  | [Upgrade to new Teams for Virtualized Desktop Infrastructure (VDI)](new-teams-vdi-requirements-deploy.md) |
 |Unsupported OS users (including Win 10 LTSC)     |June 30 2024  |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites) |
-|Policy and prerequisite blocked users (EDU)     |June 30 2024  |[Troubleshooting installation issues in the new Teams client](new-teams-troubleshooting-installation.md)       |
+|Policy and prerequisite blocked users            |June 30 2024  |[Troubleshooting installation issues in the new Teams client](new-teams-troubleshooting-installation.md) |
 
 ## Timeline updates
 
@@ -73,12 +70,10 @@ If users are on an unsupported OS (including Win 10 LTSC), you’ll see a slight
 
 :::image type="content" source="media/teams-client-eol-requirements-banner.png" alt-text="Shows the banner in Teams client that reads 'Classic Teams won't be available for use after June 30, 2024. To use the new Teams, update your OS to meet requirements or contact your IT Admin.' Requirements is a selectable link.":::
 
-XXX ALL THE ALT TEXT MUST CHANGE
-
 > [!NOTE]
 > Users on a June 30th timeline will see this banner from April 1 2024.
 
-Here's a list of the banner messages you may experience after January 31 2024: XXX IS THIS THE RIGHT DATE?!
+Here's a list of the banner messages you may experience after January 31 2024:
 
 |Condition for triggering the banner |Banner message |Further information |
 |------------------------------------|---------------|--------------------|
@@ -130,22 +125,7 @@ Microsoft highly recommends that admins who want more control or a more gradual 
 
 Beginning March 31 2024, all policy options within Teams Admin Center to control the transition to new Teams will be made unavailable or will no longer function for all users.
 
-After these options are removed, Microsoft will begin moving all users except VDI users back to the **Microsoft controlled** policy setting.
-
-Look at this spiffy table for more information:
-
-|Policy settings                          | Date                     |
-|-----------------------------------------|--------------------------|
-|Policy no longer honored                 |April 01 2024             |
-|Admin managed moves to new Teams default |April 02 to April 26 2024 |
-|Admin managed moves to new Teams only    |April 29 to May 24 2024   |
-|Stuff we can't tell you about XXX        |May 27 to June 30 2024    |
-|Blocking dialogs if you're unfortunate   |July 01 2024              |
-
-
-XXX
-
-After March 31 2024, the **Microsoft controlled** policy setting will equate to the user being assigned the **New Teams Only** policy (this policy option will be released soon). This will allow them to transition the user to new Teams and then uninstall the classic Teams client. Learn more in the [Upgrade to the new Teams using policies](new-teams-deploy-using-policies.md) article.
+After these options are removed, Microsoft will begin moving all users except VDI users back to the **Microsoft controlled** policy setting. After March 31 2024, the **Microsoft controlled** policy setting will equate to the user being assigned the **New Teams Only** policy (this policy option will be released soon). This will allow them to transition the user to new Teams and then uninstall the classic Teams client. Learn more in the [Upgrade to the new Teams using policies](new-teams-deploy-using-policies.md) article.
 
 ## Frequently Asked Questions
 
@@ -180,6 +160,4 @@ After March 31 2024, the **Microsoft controlled** policy setting will equate to 
 
 ### VDI
 
-- **Will the March 31 2024 date apply to users on VDI devices:** No, the June 30 2024 date applies to users on VDI devices. XXX REALLY THIS DATE FOR VDI STILL?
-
-
+- **Will the March 31 2024 date apply to users on VDI devices:** No, the June 30 2024 date applies to users on VDI devices.
