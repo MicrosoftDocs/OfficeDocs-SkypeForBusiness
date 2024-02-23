@@ -63,11 +63,7 @@ Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: ico
 
 Introduced in this update:
 
-- **Windows Autopilot and Auto-login preview** :::image type="icon" source="../media/mtr-pro-icon.png":::. This feautre is now available for Pro Management Portal customers that were nominated for the preview. To sign up, reach out to your Microsoft Account team. This feature provides a seamless end to end setup experience for Microsoft Teams Rooms on Windows.
-
-- App version information is now shown on the setup screens including One Time Passcode screen.
-- Fixed a bug that causes video to freeze temporarily when using Yealink SmartVision 60.
-- Other bug fixes and improvements.
+- **Windows Autopilot and Auto-login preview** :::image type="icon" source="../media/mtr-pro-icon.png":::. This feature is now available for Pro Management Portal customers that were nominated for the preview. To sign up, reach out to your Microsoft Account team. This feature provides a seamless end to end setup experience for Microsoft Teams Rooms on Windows.
 - App version information is now shown on the setup screens including One Time Passcode screen.
 - Fixed a bug that causes video to freeze temporarily when using Yealink SmartVision 60.
 - Other bug fixes and improvements.
@@ -271,7 +267,7 @@ Introduced in this update:
 - Reaction support in Teams meetings
 
 > [!NOTE]
-> Web client updates are available to all Teams Rooms with application versions 4.10 and 4.9. Admins will be able to enroll in Teams Rooms public preview program to get sneak peak of the web client features soon.
+> Web client updates are available to all Teams Rooms with application versions 4.10 and 4.9. Admins will be able to enroll in Teams Rooms public preview program to get sneak peek of the web client features soon.
 
 ### 4.10.10.0 (10/1/2021)
 
@@ -668,6 +664,7 @@ Introduced in this update:
 
 |Release  |Release date  |
 |---------|---------|
+|[1449/1.0.96.2024020802](#144910962024020802-february-2024) | February 2024 |
 |[1449/1.0.96.2023120901](#144910962023120901-february-2024) | February 2024 |
 |[1449/1.0.96.2023120801](#144910962023120801-december-2023) | December 2023 |
 |[1449/1.0.96.2023111001](#144910962023111001-december-2023) | December 2023 |
@@ -692,15 +689,28 @@ Introduced in this update:
 
 Features with :::image type="icon" source="../media/mtr-pro-icon.png"::: are only available with Teams Rooms Pro license.
 
+### 1449/1.0.96.2024020802 (February 2024)
+
+Introduced in this update:
+
+- **Meeting ID and passcode**<sup>1</sup> :::image type="icon" source="../media/mtr-pro-icon.png":::. IT admins can configure and require users to enter a meeting ID and passcode for joining meetings to ensure a level of security and privacy. 
+- **New calendar views**. A new look with expanded functionalities. Users can view the calendar for the current day and the next day. Any available time slots for 11 minutes or more are shown. A visual indicator (green/purple vertical bar) is added to each time slot for users to easily see whether a room is booked or available.
+- **Improved view switcher for Front of Room display controls**. The updated interface for the view switcher menu provides users with more control of the front of room display(s) during a meeting. Users can customize the views to show or hide the meeting chat. For Front Row, users can select which meeting component is displayed on the left and right panel. IT admins can configure the default number of panels and the default component showing on the panel(s) using the local device setting.
+- Support for Teams Premium security features including end-to-end encryption for meetings and sensitivity labels.
+- Fix for an experience regression in the Call app including support for P2P call and group call.
+- Reliability and other improvements. 
+
+<sup>1</sup> The Meeting ID and passcode feature fully rolls out in March 2024.  
+  
 ### 1449/1.0.96.2023120901 (February 2024)
 
 Introduced in this update:
 
-- **Daily maintenance restart window** – by default, the device restarts anytime between 2:00 AM and 3:00 AM based on its local time zone. If the device is in use during this window and the window period ends, the restart is rescheduled the following day. IT admins can turn off this functionality or change the restart window from the device settings. Support for these admin controls is coming soon on the Teams admin center.
+- **Daily maintenance restart window**. By default, the device restarts anytime between 2:00 AM and 3:00 AM based on its local time zone. If the device is in use during this window and the window period ends, the restart is rescheduled the following day. IT admins can turn off this functionality or change the restart window from the device settings. Support for these admin controls is coming soon on the Teams admin center.
 - Bug fixes and other improvements.
 
 > [!NOTE]
-> This release only applies to Logitech devices. Support for additional device manufacturers will be added later.
+> This release only applies to Logitech and DTEN devices. Support for additional device manufacturers will be added later.
 
 ### 1449/1.0.96.2023120801 (December 2023)
 
@@ -712,7 +722,7 @@ Introduced in this update:
 
 Introduced in this update:
 
-- **Daily maintenance restart window** – by default, the device restarts anytime between 2:00 AM and 3:00 AM based on its local time zone. If the device is in use during this window and the window period ends, the restart is rescheduled the following day. IT admins can turn off this functionality or change the restart window from the device settings. Support for these admin controls is coming soon on the Teams admin center.
+- **Daily maintenance restart window**. By default, the device restarts anytime between 2:00 AM and 3:00 AM based on its local time zone. If the device is in use during this window and the window period ends, the restart is rescheduled the following day. IT admins can turn off this functionality or change the restart window from the device settings. Support for these admin controls is coming soon on the Teams admin center.
 - Bug fixes for app crashes and devices not showing up on Intune.
 - Significant reduction in sign out errors and pairing issues due to Workplace Join failures, timeout issues, and memory leaks.
 
