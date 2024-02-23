@@ -86,7 +86,7 @@ The device store is available for tenants in Canada and the United States. To us
 
 ### Requirements
 
-The device store is currently limited to commercial tenants only, that is, EDU tenants won't see this store. Also, it's limited to customers with user licenses less than or equal to 300.
+The device store is currently limited to commercial tenants only, that is, Education tenants won't see this store. Also, it's limited to customers with user licenses less than or equal to 300.
 
 ### Browse the store
 
