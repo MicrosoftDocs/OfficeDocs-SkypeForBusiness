@@ -267,7 +267,7 @@ Introduced in this update:
 - Reaction support in Teams meetings
 
 > [!NOTE]
-> Web client updates are available to all Teams Rooms with application versions 4.10 and 4.9. Admins will be able to enroll in Teams Rooms public preview program to get sneak peak of the web client features soon.
+> Web client updates are available to all Teams Rooms with application versions 4.10 and 4.9. Admins will be able to enroll in Teams Rooms public preview program to get sneak peek of the web client features soon.
 
 ### 4.10.10.0 (10/1/2021)
 
