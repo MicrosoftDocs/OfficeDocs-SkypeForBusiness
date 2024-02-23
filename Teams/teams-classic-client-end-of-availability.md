@@ -24,7 +24,7 @@ ms.localizationpriority: high
 
 ## Overview
 
-After March 31 2024, a new Teams client will be rolled out, in stages, for users who are still on classic Teams. The roll out means installing the new Teams client for users who still have the classic Teams client, and uninstalling the classic Teams client fourteen days after the installation of new Teams.
+After March 31 2024, a new Teams client will be rolled out, in stages, for users who are still on classic Teams. The roll out means installing the new Teams client for users who still have the classic Teams client, and uninstalling the classic Teams client 14 days after the installation of new Teams.
 
 After this process is complete, classic Teams will be unavailable for different users as outlined in this table:
 
@@ -45,10 +45,10 @@ After this process is complete, classic Teams will be unavailable for different 
 
 This rollout will be different based on your Teams Admin Center policy controls.
 
-- Microsoft-managed rollout: If you've left the policy controls at their defaults, we will continue rolling out new Teams as per the schedule outlined above, with one update: We won't proceed with the uninstallation of the classic Teams client for fourteen days.
+- Microsoft-managed rollout: If you've left the policy controls at their defaults, we will continue rolling out new Teams as per the schedule outlined above, with one update: We won't proceed with the uninstallation of the classic Teams client for 14 days.
 - Admin-managed rollout: Admins can choose to control the new Teams rollout as outlined in [Upgrade to the new Teams using policies](new-teams-deploy-using-policies.md). These policies will no longer work at the start of April, apart from your VDI users, and the following changes will happen:
   - New Teams will become the default client. The toggle to return to classic Teams will still be available if needed.
-  - In mid-May, new Teams will be installed, and the toggle to return to classic Teams will no longer be available. We will attempt to uninstall classic Teams, currently after a period of fourteen days.
+  - In mid-May, new Teams will be installed, and the toggle to return to classic Teams will no longer be available. We will attempt to uninstall classic Teams, currently after a period of 14 days.
 
 > [!IMPORTANT]
 > We're aware of the concerns around our timeline. Classic Teams users who have encountered issues moving to new Teams or who don't meet the prerequisites to upgrade will still have access to the classic Teams client until July 01 2024. This will give admins more time to address any issues encountered during this process.
