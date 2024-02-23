@@ -3,8 +3,8 @@ title: Country and region zones for Audio Conferencing
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.reviewer: tonysmit
-ms.date: 11/28/2017
+ms.reviewer: oscarr
+ms.date: 02/22/2024
 ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
