@@ -92,14 +92,14 @@ If you're on the June timeline, here's a list of the banner messages you may exp
 
 |Condition for triggering the banner |Banner message |Further information |
 |------------------------------------|---------------|--------------------|
-|Unsupported Windows operating system |Classic Teams won't be available for use after June 30, 2024. To use the new Teams, update your OS to meet requirements or contact your IT admin. |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites) |
-|Unsupported Mac operating system |Classic Teams won't be available for use after June 30, 2024. To use the new Teams, update your OS to meet requirements or contact your IT admin. |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites) |
-|Unsupported operating system (EDU) |Classic Teams won't be available for use after June 30, 2024. To use the new Teams, update your OS to meet requirements or contact your IT admin. |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites) |
-|Unsupported operating system (Gov) |Classic Teams won't be available for use after August 31, 2024. To use the new Teams, update your OS to meet requirements or contact your IT admin. |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites) |
-|Unsupported operating system (DOD)|Classic Teams won't be available for use after September 30, 2024.To use the new Teams, update your OS to meet requirements or contact your IT admin. |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites)|
-|Microsoft 365 operated by 21Vianet in China |Classic Teams won't be available for use after September 30, 2024.To use the new Teams, update your OS to meet requirements or contact your IT admin. |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites)|
-|Unsupported OS (VDI) |Classic Teams won't be available for use after June 30, 2024. To use the new Teams, update your OS to meet requirements or contact your IT admin. |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites) |
-|Microsoft cannot update because of policy restrictions (EDU) |Classic Teams won't be available for use after June 30, 2024, and we can't update to the new Teams due to org policy. For more info, contact your IT admin. Learn more  |         |
+|Unsupported Windows operating system |Classic Teams will soon be unavailable for use. To use the new Teams, update your OS to meet requirements or contact your IT admin. Learn more. |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites) |
+|Unsupported Mac operating system |Classic Teams will soon be unavailable for use. To use the new Teams, update your OS to meet requirements or contact your IT admin. Learn more. |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites) |
+|Unsupported operating system (EDU) |Classic Teams will soon be unavailable for use. To use the new Teams, update your OS to meet requirements or contact your IT admin. Learn more. |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites) |
+|Unsupported operating system (Gov) |Classic Teams will soon be unavailable for use. To use the new Teams, update your OS to meet requirements or contact your IT admin. Learn more. |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites) |
+|Unsupported operating system (DOD)|Classic Teams will soon be unavailable for use. To use the new Teams, update your OS to meet requirements or contact your IT admin. Learn more. |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites)|
+|Microsoft 365 operated by 21Vianet in China |Classic Teams will soon be unavailable for use. To use the new Teams, update your OS to meet requirements or contact your IT admin. Learn more. |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites)|
+|Unsupported OS (VDI) |Classic Teams will soon be unavailable for use. Contact your IT admin to switch to the new Teams. Learn more. |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites) |
+|Microsoft cannot update because of policy restrictions (EDU) |Classic Teams will soon be unavailable for use, and we can't update to the new Teams due to org policy. For more info, contact your IT admin. Learn more |         |
 
 ### What happens if we can’t update users to new Teams
 
