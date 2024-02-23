@@ -41,7 +41,7 @@ This article is for IT Pros and admins who are deploying and configuring Teams P
 >
 > For admins to manage Teams Premium features, their tenant needs at least one user with an active [Teams Premium license](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams).
 
-The following sections describe the Teams Premium enhancements for:
+The following sections in this article describe the Teams Premium enhancements for:
 
 - [Intelligent productivity](#intelligent-productivity)
 - [Protection and advanced management](#protection-and-advanced-management)
