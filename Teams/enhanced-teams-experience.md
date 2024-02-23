@@ -34,10 +34,10 @@ Teams Premium is an add-on license that provides the following enhancements to T
 - Enhanced security and protection for meetings
 - Enhanced administrative and telemetry support
 
-This article is for IT Pros and admins who are deploying and configuring Teams Premium features. The article provides a brief description of the features, with links to more detailed documentation.
+This article, written for IT Pros and admins who are deploying and configuring Teams Premium features, describes the features and links to more detailed documentation.
 
 > [!IMPORTANT]
-> Teams Premium has reached general availability, so some features formerly available with Teams are now only available with a Teams Premium license.
+> Now that Teams Premium has reached general availability, some features previously accessible with Teams now require a Teams Premium license for access.
 >
 > For admins to manage Teams Premium features, their tenant needs at least one user with an active [Teams Premium license](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams).
 
