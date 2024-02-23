@@ -114,13 +114,13 @@ Teams Premium provides additional ways to personalize your Teams meeting experie
 - **Custom together mode scenes for organizations** - Custom Together Mode creates an immersive and engaging environment by digitally combining participants into a single virtual scene. Customize, create, or accept together mode scenes for your users' meetings.
 - **Real Time Messaging Protocol (RTMP)-In** - Organizers can produce their Teams meetings directly from an external hardware or software-based encoder.
 
-| Feature/Task | Documentation for admins | Documentation for your end users
-| -------------------- | ----------- | ------------ |
-| Meeting templates | - [Overview](custom-meeting-templates-overview.md)<br>- [Create a custom meeting template](create-custom-meeting-template.md)| [Use custom templates](https://support.microsoft.com/office/use-custom-templates-for-teams-meetings-78279be9-3283-4999-b24e-96fb0da2fb4f)
-| Meeting themes | [Themes for Teams meetings](meeting-themes.md) | [Use meeting themes](https://support.microsoft.com/office/use-meeting-themes-for-teams-meetings-fbfd826d-1112-4790-918a-5a82cac8250e) |
-| Custom meeting backgrounds for organizations | [Meeting backgrounds](custom-meeting-backgrounds.md)| |
-| Custom together mode scenes for organizations | [Content for you and your developers](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)| |
-| RTMP-In | [Manage RTMP-In for Teams meetings](meetings-rtmp-in.md)|[Use RTMP-In in a Teams meeting](https://support.microsoft.com/office/use-rtmp-in-in-a-teams-meeting-789d6090-8511-4e2e-add6-52a9f551be7f) |
+| Feature/Task |  Admin Control | Documentation for administrators | Documentation for your end users
+| -------------------- | ----------- | ----------- | ------------ |
+| Meeting templates | Filler text| - [Overview](custom-meeting-templates-overview.md)<br>- [Create a custom meeting template](create-custom-meeting-template.md)| [Use custom templates](https://support.microsoft.com/office/use-custom-templates-for-teams-meetings-78279be9-3283-4999-b24e-96fb0da2fb4f)
+| Meeting themes | Filler text| [Themes for Teams meetings](meeting-themes.md) | [Use meeting themes](https://support.microsoft.com/office/use-meeting-themes-for-teams-meetings-fbfd826d-1112-4790-918a-5a82cac8250e) |
+| Custom meeting backgrounds for organizations | Filler text| [Meeting backgrounds](custom-meeting-backgrounds.md)| [Use meeting themes](https://support.microsoft.com/office/use-meeting-themes-for-teams-meetings-fbfd826d-1112-4790-918a-5a82cac8250e) |
+| Custom together mode scenes for organizations | Filler text|[Content for you and your developers](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)| |
+| RTMP-In | Filler text| [Manage RTMP-In for Teams meetings](meetings-rtmp-in.md)|[Use RTMP-In in a Teams meeting](https://support.microsoft.com/office/use-rtmp-in-in-a-teams-meeting-789d6090-8511-4e2e-add6-52a9f551be7f) |
 
 ## Premium events
 
