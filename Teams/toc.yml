@@ -960,7 +960,7 @@ items:
               href: call-park-and-retrieve.md
             - name: Configure call sharing and group call pickup
               href: call-sharing-and-group-call-pickup.md
-            - name: Configure music on Hold
+            - name: Configure Music on Hold
               href: music-on-hold.md
             - name: Configure private line
               href: private-line.md
