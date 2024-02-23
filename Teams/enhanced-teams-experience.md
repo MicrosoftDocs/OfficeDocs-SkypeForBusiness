@@ -55,8 +55,25 @@ For more information about Teams meetings and premium events in general, see the
 - [Plan for Teams webinars](plan-webinars.md)
 - [Plan for Teams town halls](plan-town-halls.md)
 
->[!Note]
->We will continue to update this article. Check back often for links to new content.
+> [!NOTE]
+> We'll continue to update this article. Check back often for links to new content.
+
+## Intelligence
+
+Teams Premium provides additional ways to safeguard and monitor users' Teams experiences with the following key features:
+
+- **Sensitivity labels** - Extended capabilities for sensitivity labels to control meeting settings normally controlled by the meeting organizer. These capabilities include new settings to control lobby, chat, chat copy, presentation, and recording functions.
+
+| Feature/Task  | Can admins turn this on/off? | Documentation for administrators | Documentation for your end users
+| -------------------- | -----------| ----------- | ------------ |
+| Decorate my background | No, contact support for assistance. | No admin control | [Decorate your background](https://adoption.microsoft.com/microsoft-teams-premium/decorate-your-background/)|
+| Intelligent recap| Filler text|[Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md) | filler text |
+| Live translated captions | Yes | [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md)|[Use live captions in Microsoft Teams meetings](https://support.microsoft.com/office/use-live-captions-in-microsoft-teams-meetings-4be2d304-f675-4b57-8347-cbd000a21260) |
+| Live translated transcript | No, contact support for assistance. | No admin control | [Decorate your background](https://adoption.microsoft.com/microsoft-teams-premium/decorate-your-background/)|
+
+
+
+
 
 ## Advanced protection
 
@@ -74,16 +91,16 @@ Teams Premium provides additional ways to safeguard and monitor users' Teams exp
 
 - **Advanced collaboration analytics** - In the Teams admin center, Teams admins can view data on their users, teams, federated domains, channels, and guests concerning their external collaboration activity.
 
-| Feature/Task  | Documentation for administrators | Documentation for your end users
-| -------------------- | ----------- | ------------ |
-| Sensitivity labels | [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md) | |
-| Watermarks | [Require a watermark for meetings](watermark-meeting-content-video.md) | [Watermarks for meetings](https://support.microsoft.com/office/watermark-for-teams-meetings-a9166432-f429-4a19-9a72-c9e8fdf4f589)|
-| End-to-end encryption (E2EE) | [Encryption for sensitive meetings](end-to-end-encrypted-meetings.md) | [Use encryption](https://support.microsoft.com/office/use-end-to-end-encryption-for-teams-meetings-a8326d15-d187-49c4-ac99-14c17dbd617c)  |
-| Templates, labels, and policies | [Templates, sensitivity labels, and policies](meeting-templates-sensitivity-labels-policies.md)  | [Use custom templates](https://support.microsoft.com/office/use-custom-templates-for-teams-meetings-78279be9-3283-4999-b24e-96fb0da2fb4f) |
-| Restrict who can record | [Manage recordings for sensitive meetings](manage-meeting-recording-options.md) | [Record a meeting](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24?storagetype=stage#bkmk_whocanstartorstoparecording) |
-| Manage what attendees see | No admin control. | [Manage what attendees see in Teams meetings](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|
-| Hide attendee names | [Allow meeting and webinar organizers to hide the names of attendees](hide-attendee-names.md) | |
-| Advanced collaboration analytics | [Advanced Collaboration Analytics for Microsoft Teams](advanced-collaboration-analytics.md) | No end-user controls. |
+| Feature/Task  | Can admins turn this on/off? | Documentation for administrators | Documentation for your end users
+| -------------------- | -----------| ----------- | ------------ |
+| Sensitivity labels | Filler text|[Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md) | |
+| Watermarks | Yes. | [Require a watermark for meetings](watermark-meeting-content-video.md) | [Watermarks for meetings](https://support.microsoft.com/office/watermark-for-teams-meetings-a9166432-f429-4a19-9a72-c9e8fdf4f589)|
+| End-to-end encryption (E2EE) | Filler text|[Encryption for sensitive meetings](end-to-end-encrypted-meetings.md) | [Use encryption](https://support.microsoft.com/office/use-end-to-end-encryption-for-teams-meetings-a8326d15-d187-49c4-ac99-14c17dbd617c)  |
+| Templates, labels, and policies |Filler text| [Templates, sensitivity labels, and policies](meeting-templates-sensitivity-labels-policies.md)  | [Use custom templates](https://support.microsoft.com/office/use-custom-templates-for-teams-meetings-78279be9-3283-4999-b24e-96fb0da2fb4f) |
+| Restrict who can record | Filler text|[Manage recordings for sensitive meetings](manage-meeting-recording-options.md) | [Record a meeting](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24?storagetype=stage#bkmk_whocanstartorstoparecording) |
+| Manage what attendees see | No, contact support for assistance.| No admin control | [Manage what attendees see in Teams meetings](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|
+| Hide attendee names | Yes |[Allow meeting and webinar organizers to hide the names of attendees](hide-attendee-names.md) | [Hide attendee names in Teams meetings and webinars](https://support.microsoft.com/office/hide-attendee-names-in-teams-meetings-and-webinars-00389c74-ee61-48b5-bad8-8295600085ed) |
+| Advanced collaboration analytics |Filler text| [Advanced Collaboration Analytics for Microsoft Teams](advanced-collaboration-analytics.md) | No end-user control |
 
 ## Custom meetings
 
