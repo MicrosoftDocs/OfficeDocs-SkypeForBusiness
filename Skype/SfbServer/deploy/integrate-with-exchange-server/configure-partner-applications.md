@@ -56,7 +56,7 @@ After you configure Skype for Business Server to be a partner application for Ex
 https://autodiscover.litwareinc.com/autodiscover/metadata/json/1
 ```
 
-In Skype for Business Server, partner applications are configured by using the [New-CsPartnerApplication](/powershell/module/skype/new-cspartnerapplication?view=skype-ps) cmdlet. In addition to specifying the metadata URI you should also set the application trust level to Full; this will allow Exchange to represent both itself and any authorized user in the realm. For example:
+In Skype for Business Server, partner applications are configured by using the [New-CsPartnerApplication](/powershell/module/skype/new-cspartnerapplication?view=skype-ps&preserve-view=true) cmdlet. In addition to specifying the metadata URI you should also set the application trust level to Full; this will allow Exchange to represent both itself and any authorized user in the realm. For example:
   
 ```powershell
 New-CsPartnerApplication -Identity Exchange -ApplicationTrustLevel Full -MetadataUrl "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
@@ -64,7 +64,7 @@ New-CsPartnerApplication -Identity Exchange -ApplicationTrustLevel Full -Metadat
 
 Alternatively, you can create a partner application by copying and modifying the script code found in the Skype for Business Server server-to-server authentication documentation. See the [Manage server-to-server authentication (OAuth) and partner applications in Skype for Business Server](../../manage/authentication/server-to-server-and-partner-applications.md) article for more information.
   
-If you successfully configure partner applications for both Skype for Business Server and Exchange Server, you have also successfully configured server-to-server authentication between the two products. Skype for Business Server includes a Windows PowerShell cmdlet, [Test-CsExStorageConnectivity](/powershell/module/skype/test-csexstorageconnectivity?view=skype-ps) which enables you to verify that server-to-server authentication has been correctly configured and that the Skype for Business Server Storage Service can connect to Exchange Server. The cmdlet does this by connecting to the mailbox of an Exchange Server user, writing an item into the Conversation History folder for that user, and then (optionally) deleting that item.
+If you successfully configure partner applications for both Skype for Business Server and Exchange Server, you have also successfully configured server-to-server authentication between the two products. Skype for Business Server includes a Windows PowerShell cmdlet, [Test-CsExStorageConnectivity](/powershell/module/skype/test-csexstorageconnectivity?view=skype-ps&preserve-view=true) which enables you to verify that server-to-server authentication has been correctly configured and that the Skype for Business Server Storage Service can connect to Exchange Server. The cmdlet does this by connecting to the mailbox of an Exchange Server user, writing an item into the Conversation History folder for that user, and then (optionally) deleting that item.
   
 To test the integration of Skype for Business Server and Exchange Server, run a command similar to the following from the Skype for Business Server Management Shell:
   
