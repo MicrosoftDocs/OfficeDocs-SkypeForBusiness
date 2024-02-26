@@ -50,7 +50,7 @@ Users can also use Planner to:
 - Create new personal or shared plans
 - Get notificadtions and Planner tasks
 
-For organizations who want to streamline task management for frontline workers, Planner also includes capabilities that enable you to target, publish, and track tasks at scale across your Frontline Workforce. For example, corporate and regional leadership can create and publish task lists targeted to relevant locations, such as specific retail stores, and track progress through real-time reports. Managers can assign tasks to their staff and direct activities within their locations, and frontline workers have a prioritized list of their assigned tasks on mobile or desktop. To enable [task publishing](#task-publishing), first set up a team targeting hierarchy for your organization, which defines how all teams in the hierarchy are related to each other.
+For organizations who want to streamline task management for frontline workers, Planner also includes capabilities that enable you to target, publish, and track tasks at scale across your frontline workforce. For example, corporate and regional leadership can create and publish task lists targeted to relevant locations, such as specific retail stores, and track progress through real-time reports. Managers can assign tasks to their staff and direct activities within their locations, and frontline workers have a prioritized list of their assigned tasks on mobile or desktop. To enable [task publishing](#task-publishing), first set up a team targeting hierarchy for your organization, which defines how all teams in the hierarchy are related to each other.
 
 ## Set up Planner
 
@@ -70,7 +70,7 @@ Planner is enabled by default for all Teams users in your organization. You can 
 > [!NOTE]
 > If you can't find the Planner app, search for the names in the first note of this article. The app could still be in the process of being renamed.
 
-### Enable or disable Tasks for specific users in your organization
+### Enable or disable Planner for specific users in your organization
 
 To allow or block specific users in your organization from using Planner, make sure Planner is turned on for your organization on the [Manage apps](manage-apps.md) page, and then create a custom policy for app permissions and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
