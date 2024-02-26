@@ -150,8 +150,8 @@ A phased and controlled rollout can then be achieved by selectively expanding th
 
 Admins can also use a local teams MSIX to provision new Teams. This option minimizes the amount of bandwidth used for the initial installation. The MSIX can exist in a local path or UNC.
 
-1. [Download the .exe installer.](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409)
-2. Download the MSIX:</br>- [MSIX x86](https://go.microsoft.com/fwlink/?linkid=2196060&clcid=0x409)</br>- [MSIX x64](https://go.microsoft.com/fwlink/?linkid=2196106)</br>- [ARM64](https://go.microsoft.com/fwlink/?linkid=2196207&clcid=0x409)
+1. [Download the .exe installer.](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409).
+2. Download the MSIX:</br>- [MSIX x86](https://go.microsoft.com/fwlink/?linkid=2196060&clcid=0x409)</br>- [MSIX x64](https://go.microsoft.com/fwlink/?linkid=2196106)</br>- [ARM64](https://go.microsoft.com/fwlink/?linkid=2196207&clcid=0x409).
 3. Open the Command Prompt as an Admin.
 4. Depending on where your MSIX is located, do the following steps:
 </br>
@@ -171,16 +171,16 @@ Admins can also use a local teams MSIX to provision new Teams. This option minim
 ### Option 2: Install both apps 'side by side'
 
 Let the user switch between them by using the toggle on the top left of the Teams UI.
-You can control who sees the toggle by configuring the Teams Admin Center policy "Teams update policy".
-  
-If the toggle is being used for the new Teams client rollout, admins must make sure that the VDI environments meet the minimum requirements described here: [Troubleshooting installation issues in the new Teams client](new-teams-troubleshooting-installation.md)
-Troubleshooting the new Teams installation - Microsoft Teams | Microsoft Learn
+You can control who sees the toggle by configuring the Teams Admin Center policy **Teams update policy**.
+
+If the toggle is being used for the new Teams client rollout, admins must make sure that the VDI environments meet the minimum requirements described here: [Troubleshooting installation issues in the new Teams client](new-teams-troubleshooting-installation.md).
 
 If IT administrators set restrictions for MSIX or deploy GPOs, it could prevent users from downloading and installing the app. If restrictions are in place, the user could see errors like this:
 
   :::image type="content" source="media/new-teams-troubleshooting-error-isntallation-org-policies.png" alt-text="error with org policies":::
 
-The 'side by side' method is only supported in persistent environments.
+> [!IMPORTANT]
+> The 'side by side' method is only supported in persistent environments.
 
 ## Classic Teams versus new Teams installers in VDI environments
 
@@ -440,19 +440,20 @@ All the multimedia features that work on the classic Teams client are expected t
 
 The following features aren't supported in either classic Teams or new Teams.
 
-- QoS
-- 1080p
-- Custom Backgrounds uploaded by users
-- Teams Premium features (End to End Encryption, Watermark, Premium Events aren't optimized, Custom meeting backgrounds for organizations)
-- Avatars
-- Gallery View 3x3 and 7x7
-- Noise Suppression
-- Zoom In / Out
-- Location Based Routing
-- Media Bypass
-- HID (Citrix only)
-- Share System Audio (Citrix and VMware)
-- Broadcast and live event producer and presenter roles
-- Cross cloud anonymous join in Government Clouds (GCC, GCC High and DoD)
-- **Record video clip** doesn't capture screen share
-- The call monitor (the small floating window after you minimize the main Teams window) doesn't display video or screen share
+- QoS.
+- 1080p.
+- Custom Backgrounds uploaded by users.
+- Teams Premium features (End to End Encryption, Watermark, Premium Events aren't optimized, Custom meeting backgrounds for organizations).
+- Avatars.
+- Gallery View 3x3 and 7x7.
+- Noise Suppression.
+- Zoom In / Out.
+- Location Based Routing.
+- Media Bypass.
+- HID (Citrix only).
+- Share System Audio (Citrix and VMware).
+- Broadcast and live event producer and presenter roles.
+- Cross cloud anonymous join in Government Clouds (GCC, GCC High and DoD).
+- **Record video clip** doesn't capture screen share.
+- The call monitor (the small floating window after you minimize the main Teams window) doesn't display video or screen share.
+- Running new Teams simultaneously on a physical device and on a virtual desktop (connected from the same physical device).
