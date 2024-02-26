@@ -15,7 +15,7 @@ appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 
+description: How to enable or disable AI content recommendations for educators in an institution.
 ms.collection: 
   - M365-collaboration
   - tier2
