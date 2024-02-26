@@ -437,7 +437,7 @@ Meeting policies are used to control what features are available in meetings org
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Meeting chat|On for everyone|Controls which meeting attendees can participate in the meeting chat. When turned off for anonymous participants, they can't read the chat or post messages. Read more about how to [Manage chat in Microsoft Teams meetings](manage-meeting-chat.md)|
-|External meeting chat|On|When this is turned on, users in your org can read or write chat messages in Teams meetings that organizations you don't have a trusted relationship with host.|
+|External meeting chat|On|When this setting is turned on, users in your org can read or write chat messages in Teams meetings that organizations you don't have a trusted relationship with host.|
 |Q&A|On|When **On**, organizers can enable a question and answer experience for their meetings. Read more on [Q&A in Teams Meetings](manage-qna-for-teams.md).|
 |Reactions|On|This setting controls whether users can use live reactions such as Like, Love, Applause, Laugh, and Surprise in Teams meetings.|
 
@@ -468,7 +468,7 @@ Meeting policies are used to control what features are available in meetings org
 |Whiteboard|On|Controls whether a user can share the Whiteboard in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer. Read more on [how to manage the Whiteboard in Microsoft Teams](manage-whiteboard.md).|
 |Collaborative annotations|On|When **On**, participants can collaborate while sharing their screen during a Teams meeting.|
 |Shared notes|On|When **On**, attendees can create shared meeting notes through the meeting details.|
-|Organizer can restrict participants from copying or forwarding meeting chat messages|On|When this is on, meeting organizers have the option to turn off message copying and forwarding, which includes using keyboard shortcuts, right click, or the more actions menu to copy or forward messages.|
+|Organizer can restrict participants from copying or forwarding meeting chat messages|On|When this setting is on, meeting organizers can turn off message copying and forwarding, which includes using keyboard shortcuts, right click, or the more actions menu to copy or forward messages.|
 
 **PowerShell-only content sharing policies**
 
@@ -540,7 +540,7 @@ Meeting policies are used to control what features are available in meetings org
 | Parameter | Default | Description |
 |:-----|:-----|:-----|
 |AllowBreakoutRooms|True|This setting enables the Breakout Rooms functionality.|
-|PreferredMeetingProviderForIslandsMode|TeamsAndSfb|Determines the Outlook meeting add-in availability to users on Islands mode. With the default value of `TeamsAndSfb`, users see both the Skype for Business and Teams add-ins. If you set this value to `Teams`, the Skype for Business add-in will be removed and only the Teams add-in will be shown.|
+|PreferredMeetingProviderForIslandsMode|TeamsAndSfb|Determines the Outlook meeting add-in availability to users on Islands mode. With the default value of `TeamsAndSfb`, users see both the Skype for Business and Teams add-ins. If you set this value to `Teams`, the Skype for Business add-in is removed and only the Teams add-in is shown.|
 |TeamsCameraFarEndPTZMode|Disabled|Read more about how to to configure [Far end camera control (FECC) for pan tilt zoom (PTZ) cameras](meeting-policies-audio-and-video.md#far-end-camera-control-fecc-for-pan-tilt-zoom-ptz-cameras).|
 
 ##### Related articles for audio & video meeting policies
@@ -853,22 +853,22 @@ Messaging policies are used to control what chat and channel messaging features 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Owners can delete sent messages|Off|When **On**, team owners can delete channel messages or posts that users have sent.|
-|Delete sent messages|On|When **On**, users can delete messages they've sent in chat.|
-|Edit sent messages|On|When **On**, users can edit messages they've sent in chat.|
-|Read receipts|User controlled|When set as **User controlled** or **Turned on for everyone**, the sender of a chat message can be notified when their message was read by the recipient in 1:1 and group chats 20 people or fewer.|
+|Delete sent messages|On|When this setting is **On**, users can delete messages they send in chat.|
+|Edit sent messages|On|When this setting is **On**, users can edit messages they send in chat.|
+|Read receipts|User controlled|When set as **User controlled** or **Turned on for everyone**, the sender of a chat message can be notified when their message is read by the recipient in 1:1 and group chats of 20 people or fewer.|
 |Chat|On|When **On**, users in your organization can use the Teams app to chat with other people.|
-|Giphy in conversations|On|When **On**, users can include Giphys in chat conversations with other people.|
+|Giphy in conversations|On|When this setting is **On**, users can include Giphys in chat conversations with other people.|
 |Giphy content rating|Moderate|This setting controls the amount of adult content allowed with Giphys in chat.|
-|Memes in conversations|On|When **On**, users can include Memes in chat conversations with other people.|
-|Stickers in conversations|On|When **On**, users can include Stickers in chat conversations with other people.|
+|Memes in conversations|On|When this setting is **On**, users can include Memes in chat conversations with other people.|
+|Stickers in conversations|On|When this setting is **On**, users can include Stickers in chat conversations with other people.|
 |URL previews|On|Controls automatic URL previewing in messages.|
 |Translate messages|On|Turn on this setting to let users automatically translate Teams messages into the language specified by their personal language settings for Microsoft 365 or Office 365. Read more on [inline message translation in Microsoft Teams](inline-message-translation-teams.md)|
-|Immersive reader for messages|On|When **On**, users can view messages in Microsoft Immersive Reader.|
+|Immersive reader for messages|On|When this setting is **On**, users can view messages in Microsoft Immersive Reader.|
 |Send urgent messages using priority notifications|On|If you turn on this setting, users can send messages using priority notifications. Priority notifications notify users every 2 minutes for 20 minutes or until messages that are marked as urgent are picked up and read by the recipient.|
 |Create voice messages|Allowed in chats and channels|This setting controls whether users can leave audio messages in chats and channels.|
 |On mobile devices, display favorite channels above recent chats|Not enabled|When **Enabled**, this setting moves favorite channels to the top of the mobile device screen so that a user doesn't need to scroll to find them.|
 |Remove users from group chats|On|Turn on this setting to let a user remove other users from a group chat. This feature lets you continue a chat with a smaller group of people without losing the chat history.|
-|Suggested replies|On|When **On**, users get text predictions for chat messages.|
+|Suggested replies|On|When this setting is **On**, users get text predictions for chat messages.|
 |Chat permissions role|Restricted permissions|Defines the supervised chat role of a user.|
 |Users with full chat permissions can delete any message|Off|Use this setting to let users with full chat permissions delete any group or meeting chat message.|
 
@@ -1040,8 +1040,8 @@ Voicemail policies control the available features for the voicemail service in T
 |Secondary prompt language|(Blank)|The second language used to play system prompts to callers and the second option on the language selection menu.|
 |Voicemail transcription|On|Turn on this setting to enable transcription for voicemails.|
 |Translation for transcriptions|On|Turn on this setting to enable translation for voicemail transcriptions.|
-|Mask profanity in voicemail transcription|Off|If you turn on this setting, profanity will be masked in voicemail transcriptions.|
-|Users can share data for service improvement|On|If you turn on this setting, users can share voicemail and transcription data for training and improving accuracy. If you turn off this setting, voicemail data won't be shared.|
+|Mask profanity in voicemail transcription|Off|If you turn on this setting, profanity is masked in voicemail transcriptions.|
+|Users can share data for service improvement|On|If you turn on this setting, users can share voicemail and transcription data for training and improving accuracy. If you turn off this setting, voicemail data isn't shared.|
 |Before the user's greeting, play audio file|(none)|The audio file to play to the caller before the user's voicemail greeting is played.|
 |After the user's greeting, play audio file|(none)|The audio file to play to the caller after the user's voicemail greeting has played and before the caller is allowed to leave a voicemail message.|
 |Disconnect the call if preamble or postamble can't be played|Off|If you turn on this setting, the Pre- or Postamble will play before the caller can leave a message.|

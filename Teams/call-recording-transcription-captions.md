@@ -50,7 +50,7 @@ To allow or prevent *meeting recordings*, see [Teams meeting recording](meeting-
 
 ## Enable call transcription
 
-Transcription is auto-generated, recorded text of what was said in a call. When turned on, the transcript is available to users to review after a call has ended. This setting is off by default.
+Transcription is automatically generated, recorded text of what was said in a call. When turned on, the transcript is available to users to review after a call ends. This setting is off by default.
 
 ### Using the Teams admin center
 
@@ -82,7 +82,7 @@ Set-CsTeamsCallingPolicy -Identity Global -AllowTranscriptionForCalling $true
 
 ### Using the Teams admin center
 
-Captions are real-time auto-generated text of what is said in a call. They appear a few lines at a time for a user who has turned them on, and aren’t saved.
+Captions are real-time automatically generated text of what is said in a call. They appear a few lines at a time for a user who turns them on. Captions aren’t saved.
 
 To turn on real-time captions for calls for users:
 

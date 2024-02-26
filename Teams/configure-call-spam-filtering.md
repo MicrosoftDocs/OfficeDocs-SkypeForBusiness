@@ -6,7 +6,7 @@ manager: pamgreen
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: roykuntz
-ms.date: 01/30/2024
+ms.date: 02/26/2024
 audience: admin
 search.appverid: MET150
 description: Learn how to configure spam filtering for calls in Microsoft Teams.
@@ -26,17 +26,17 @@ appliesto:
 
 In Microsoft Teams, admins can configure spam filtering for inbound calls from the Public Switched Telephone Network (PSTN). Teams can detect potential spam calls and notify users with a "Spam Likely" notification.
 
-Spam filtering for calls is not the same as blocking inbound calls. For more information, see [Block inbound calls](block-inbound-calls.md).
+Spam filtering for calls isn't the same as blocking inbound calls. For more information, see [Block inbound calls](block-inbound-calls.md).
 
-## Use Teams admin center
+## Using the Teams admin center
 
 This setting allows you to control the type of spam filtering available on incoming calls. This setting is on by default. This setting has three options:
 
 - **On** Spam filtering is fully enabled. Both Basic and Captcha Interactive Voice Response (IVR) checks are performed. In case the call is considered as spam, the user gets a "Spam Likely" notification in Teams.
 - **On without IVR** Spam Filtering is partially enabled. Captcha IVR checks are disabled. A "Spam Likely" notification appears. A call might get dropped if it gets a high score from Basic checks.
-- **Off** Spam filtering is completely disabled. No checks are performed. A "Spam Likely" notification doesn't appear.
+- **Off** Spam filtering is disabled. No checks are performed. A "Spam Likely" notification doesn't appear.
 
-## Use PowerShell
+## Using PowerShell
 
 To configure spam filtering for calls in Teams, use the `-SpamFilteringEnabledType` parameter with the following cmdlets:
 
