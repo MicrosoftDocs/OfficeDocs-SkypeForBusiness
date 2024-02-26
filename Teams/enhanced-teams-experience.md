@@ -73,7 +73,7 @@ Teams Premium provides more ways to safeguard and monitor users' Teams experienc
 
 - **Hide attendee names** - Meeting and webinar organizers can hide the names of attendees from other attendees in the stage, roster, and chat.
 
-- **Manage what attendees see** - Meeting organizers can decide whose avatars or video feeds to spotlight during a Teams meeting. Others are hidden from view.
+- **Manage what attendees see** - Meeting organizers can decide whose avatars or video feeds to spotlight during a Teams meeting while others are hidden from view.
 
 - **Screen sharing quality alerts** - Set up alerts for in-progress meeting screen sharing issues and get notified immediately when your specified users experience issues.
 
@@ -174,7 +174,7 @@ Teams Premium provides more ways to elevate your Teams webinars with the followi
 - **Enable and manage the waitlist for webinars beyond capacity** - When the webinar's registration reaches capacity, organizers can manage overflow registration requests through a waitlist.
 - **Hide attendee names** - Meeting and webinar organizers can hide the names of attendees from other attendees in the stage, roster, and chat.
 - **Limit registration start and end times** - Organizers can set a time window during which potential attendees can register for their webinar.
-- **Manage what attendees see** - Webinar organizers can decide whose avatars or video feeds to spotlight during a Teams webinar. Others are hidden from view.
+- **Manage what attendees see** - Webinar organizers can decide whose avatars or video feeds to spotlight during a Teams webinar while others are hidden from view.
 - **Manually approve registrants** - Organizers can approve or deny requests to register for their webinar.
 - **Real Time Messaging Protocol (RTMP)-In** - Organizers can produce their Teams webinar directly from an external hardware or software-based encoder.
 
