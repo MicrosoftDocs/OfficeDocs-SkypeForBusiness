@@ -13,23 +13,23 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 
-description: "Summary: Learn how to install a service that will generate Monitoring reports in Skype for Business Server."
+description: "Summary: Learn how to install a service that generates Monitoring reports in Skype for Business Server."
 ---
 
 # Install Monitoring Reports in Skype for Business Server
  
-**Summary:** Learn how to install a service that will generate Monitoring reports in Skype for Business Server.
+**Summary:** Learn how to install a service that generates Monitoring reports in Skype for Business Server.
   
-Skype for Business Server Monitoring Reports provide you with a wealth of information about the quality and quantity of the communication sessions that take place in your organization. 
+Skype for Business Server Monitoring Reports provides you with a wealth of information about the quality and quantity of the communication sessions that take place in your organization. 
   
 ## Install Monitoring Reports
 
-Monitoring Reports are not automatically installed when you install Skype for Business Server; instead, you must install Monitoring Reports separately, and only after Skype for Business Server has been installed on the computer.
+Monitoring Reports aren't automatically installed when you install Skype for Business Server; instead, you must install Monitoring Reports separately, and only after Skype for Business Server are installed on the computer.
   
 > [!NOTE]
 > It is recommended that you install Monitoring Reports on the same computer where the monitoring database is installed. This simplifies the process of assigning permissions for accessing the reports: installing Monitoring Reports on the computer that hosts the monitoring store means that you will not have to configure permissions that allow a database on one computer to interact with Reporting Services running on a second computer. 
   
-Skype for Business Server Monitoring Reports include over 30 reports designed to provide detailed information about conferences, peer-to-peer IM sessions, user registrations, the Response Group application, and much more. For the 2013 version, Skype for Business Server Monitoring Reports include a number of enhancements:
+Skype for Business Server Monitoring Reports includes over 30 reports designed to provide detailed information about conferences, peer-to-peer IM sessions, user registrations, the Response Group application, and much more. For the 2013 version, Skype for Business Server Monitoring Reports include many enhancements:
   
 - **New voice quality reports**. These new reports include the [Media Quality Comparison Report in Skype for Business Server](../../manage/health-and-monitoring/comparison.md), which compares quality between different types of calls (for example, between wired calls and wireless calls); and the [Conference Join Time Report in Skype for Business Server](../../manage/health-and-monitoring/join-time-report.md), which provides information regarding the amount of time requires for users to join a conference. 
     
@@ -50,19 +50,19 @@ There are two ways to install Skype for Business Server Monitoring Reports: you 
     
 To install the Monitoring Reports by using the Deployment Wizard, complete the following steps:
   
-1. Click **Start**, click **All Programs**, click **Skype for Business Server**, and then click **Skype for Business Server Deployment Wizard**.
+1. Select **Start**, select **All Programs**, select **Skype for Business Server**, and then select **Skype for Business Server Deployment Wizard**.
     
-2. In the Deployment Wizard, click **Deploy Monitoring Reports** in order to start the Deploy Monitoring Reports wizard.
+2. In the Deployment Wizard, select **Deploy Monitoring Reports** in order to start the Deploy Monitoring Reports wizard.
     
-3. In the Deploy Monitoring Reports wizard, on the **Specify Monitoring Database** page, make sure that the fully qualified domain name of the computer hosting your monitoring store appears in the **Monitoring database** dropdown list. (If you have multiple monitoring stores you will need to select the appropriate server from the dropdown list.) Verify that the correct SQL Server instance appears in the **SQL Server Reporting Services (SSRS) instance** box (for example, **atl-sql-001.litwareinc.com/archinst**) and then click **Next**.
+3. In the Deploy Monitoring Reports wizard, on the **Specify Monitoring Database** page, make sure that the fully qualified domain name of the computer hosting your monitoring store appears in the **Monitoring database** dropdown list. (If you have multiple monitoring stores you need to select the appropriate server from the dropdown list.) Verify that the correct SQL Server instance appears in the **SQL Server Reporting Services (SSRS) instance** box (for example, **atl-sql-001.litwareinc.com/archinst**) and then select **Next**.
     
-4. On the **Specify Credentials** page, in the **User name** box, type the domain name and user name of the account to be used when accessing the Monitoring Reports (for example, **litwareinc\kenmyer**). If you do not use this format (domain\user name) an error will occur.
+4. On the **Specify Credentials** page, in the **User name** box, type the domain name and user name of the account to be used when accessing the Monitoring Reports (for example, **litwareinc\kenmyer**). If you don't use this format (domain\user name) an error occurs.
     
-    Type the user account password in the **Password** box, and then click **Next**. Note that no special rights are required for this account. The account will automatically be granted the required logon and database permissions when setup completes.
+    Type the user account password in the **Password** box, and then select **Next**. No special rights are required for this account. The account automatically grants the required sign in and database permissions when setup completes.
     
-5. On the **Specify Read-Only Group** page enter the name of a security group that will be granted read-only access to the SQL Server Reporting Services in the User group box. For example, to give read-only administrators access to the reports enter **RTCUniversalReadOnlyAdmins**. Click **Next**.
+5. On the **Specify Read-Only Group** page, enter the name of a security group that grants read-only access to the SQL Server Reporting Services in the User group box. For example, to give read-only administrators access to the reports enter **RTCUniversalReadOnlyAdmins**. Select **Next**.
     
-6. On the **Executing Commands** page, click **Finish**.
+6. On the **Executing Commands** page, select **Finish**.
     
 Monitoring Reports can also be installed from the Skype for Business Server Management Shell by running the script DeployReports.ps1; this Windows PowerShell script can be found in the \<install location\>\Skype for Business Server 2015\Deployment\Setup folder. To install Monitoring Reports using DeployReports.ps1, type a command similar to the following at the Management Shell prompt:
   
@@ -74,9 +74,9 @@ The parameters used in the preceding command are described in the following tabl
   
 |**Parameter Name**|**Required**|**Description**|
 |:-----|:-----|:-----|
-|storedUserName  <br/> |Yes  <br/> |User account (in the format domain\username) used to access the monitoring store; for example:  <br/> ```-storedUserName "litwareinc\kenmyer"``` This account must have the previously-specified SQL Server and SQL Server Reporting Services permissions or the script will fail.  <br/> |
+|storedUserName  <br/> |Yes  <br/> |User account (in the format domain\username) used to access the monitoring store; for example:  <br/> ```-storedUserName "litwareinc\kenmyer"``` This account must have the previously-specified SQL Server and SQL Server Reporting Services permissions or the script fails.  <br/> |
 |storedPassword  <br/> |Yes  <br/> |Password for the user account used to access the monitoring store.  <br/> |
-|readOnlyGroupName  <br/> |No  <br/> |Domain or local security group whose members will be granted read-only access to the Monitoring Reports. Note that the script will fail if the specified group does not exist. If you later decide to revoke these permissions, or if you decide to grant other users or other groups access permissions, you can do so using the SQL Service Reporting Services Report Manager.  <br/> |
+|readOnlyGroupName  <br/> |No  <br/> |Domain or local security group whose members are granted read-only access to the Monitoring Reports. The script fails if the specified group does not exist. If you later decide to revoke these permissions, or if you decide to grant other users or other groups access permissions, you can do so using the SQL Service Reporting Services Report Manager.  <br/> |
 |reportSqlServerInstance  <br/> |No  <br/> |SQL Server instance that hosts the Reporting Service. The Reporting instance must be specified using the fully qualified domain name of the Report Server; for example:  <br/> ```-reportServerSqlInstance atl-sql-001.litwareinc.com``` If this parameter is not included the script will assume that the reporting services are hosted by the same SQL Server instance that hosts the monitoring database.  <br/> |
 |monitoringDatabaseId  <br/> |No  <br/> |Service Identity for the monitoring database. You can return the Identities for your monitoring databases by running this command:  <br/> ```Get-CsService -MonitoringDatabase```|
    
