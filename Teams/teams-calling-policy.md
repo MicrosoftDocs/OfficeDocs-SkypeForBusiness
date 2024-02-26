@@ -15,6 +15,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - Tier1
+  - ContentFreshnessFY24
 f1.keywords:
 - CSH
 ms.custom: 
