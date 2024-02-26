@@ -63,7 +63,7 @@ For more general information about Teams meetings and premium events, see the fo
 
 Teams Premium provides more ways to safeguard and monitor users' Teams experiences with the following key features:
 
-- **Advanced collaboration analytics** - View data on your users, teams, federated domains, channels, and guests concerning their external collaboration activity.
+- **Advanced collaboration analytics** - View external collaboration activity data on your users, teams, federated domains, channels, and guests.
 
 - **Audio quality alerts** - Set up alerts for in-progress meeting audio issues and get notified immediately when your specified users experience issues.
 
