@@ -53,6 +53,16 @@ Follow these steps to edit an existing calling policy.
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
+## Calling policy PowerShell cmdlets
+
+To create, modify, retrieve, assign, and remove calling policies, use the following cmdlets:
+
+- [New-CsTeamsCallingPolicy](/powershell/module/skype/new-csteamscallingpolicy)
+- [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
+- [Get-CsTeamsCallingPolicy](/powershell/module/skype/get-csteamscallingpolicy)
+- [Grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy)
+- [Remove-CsTeamsCallingPolicy](/powershell/module/skype/remove-csteamscallingpolicy)
+
 ## Calling policy settings
 
 Here are the settings that you can configure for calling policies:
@@ -68,23 +78,13 @@ Here are the settings that you can configure for calling policies:
 - [Inbound calls can be routed to call groups](call-sharing-and-group-call-pickup.md)
 - [Delegation for inbound and outbound calls](shared-line-appearance.md)
 - [Prevent toll bypass and send calls through the PSTN](location-based-routing-enable.md)
-- [Music on hold for PSTN calls](music-on-hold.md)
+- [Music on hold for calls](music-on-hold.md)
 - [Busy on busy during calls](inbound-call-routing.md)
 - Web PSTN calling - This setting enables users to call PSTN numbers using the Teams web client. This setting is on by default.
 - [Real-time captions in Teams calls](call-recording-transcriptions-captions.md.md)
 - [Spam filtering](configure-call-spam-filtering.md)
 - [SIP devices can be used for calls](sip-gateway-configure.md)
 - [Open apps in browser for incoming PSTN calls](inbound-call-routing.md)
-
-## Calling policy PowerShell cmdlets
-
-To create, modify, retrieve, assign, and remove calling policies, use the following cmdlets:
-
-- [New-CsTeamsCallingPolicy](/powershell/module/skype/new-csteamscallingpolicy)
-- [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
-- [Get-CsTeamsCallingPolicy](/powershell/module/skype/get-csteamscallingpolicy)
-- [Grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy)
-- [Remove-CsTeamsCallingPolicy](/powershell/module/skype/remove-csteamscallingpolicy)
 
 ## Related articles
 

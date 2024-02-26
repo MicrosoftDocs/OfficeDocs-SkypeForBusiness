@@ -124,7 +124,7 @@ Remove-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso
 
 [Share a phone line with a delegate](https://support.office.com/article/16307929-a51f-43fc-8323-3b1bf115e5a8)
 
-[Teams calling policy](/MicrosoftTeams/teams-calling-policy)
+[Configure Teams calling policy](/MicrosoftTeams/teams-calling-policy)
 
 [New-CsTeamsCallingPolicy](/powershell/module/skype/new-csteamscallingpolicy)
 

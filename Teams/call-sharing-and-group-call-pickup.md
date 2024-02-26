@@ -106,9 +106,9 @@ Set-CsUserCallingSettings -Identity user1@contoso.com -CallGroupOrder $ucs.CallG
 
 ## Related articles
 
-[Call forwarding and simultaneous ring in Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)
+[Call forwarding and simultaneous ring in Teams](https://support.office.com/article/a88da9e8-1343-4d3c-9bda-4b9615e4183e)
 
-[Teams calling policy](/MicrosoftTeams/teams-calling-policy)
+[Configure calling policies](/MicrosoftTeams/teams-calling-policy)
 
 [New-CsTeamsCallingPolicy](/powershell/module/skype/new-csteamscallingpolicy)
 

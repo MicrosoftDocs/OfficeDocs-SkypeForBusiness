@@ -903,7 +903,7 @@ Calling policies are used to control what calling features are available to peop
 |Inbound calls can be routed to call groups|On|This setting controls whether incoming calls can be forwarded to a call group.|
 |Delegation for inbound and outbound calls|On|This setting enables inbound calls to be routed to delegates, allowing delegates to make outbound calls on behalf of the users for whom they have delegated permissions.|
 |Prevent toll bypass and send calls through the PSTN|Off|Turn on this setting to send calls through the PSTN and incur charges rather than sending them through the network and bypassing the tolls.|
-|Music on hold for PSTN calls|On|Controls whether music is played when a PSTN caller is placed on hold.|
+|Music on hold for calls|On|Controls whether music is played when a PSTN caller is placed on hold.|
 |Busy on busy during calls|Off|Controls how incoming calls are handled when a user is already in a call or conference or has a call placed on hold.|
 |Web PSTN calling|On|This setting enables users to call PSTN numbers using the Teams web client.|
 |Real-time captions in Teams calls|On|This setting allows you to control whether real-time captions in Teams calls are available for your users.|
