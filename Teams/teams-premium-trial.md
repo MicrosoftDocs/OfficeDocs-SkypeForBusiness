@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: sanjayra
 audience: admin
-ms.date: 02/26/2024
+ms.date: 2/26/2024
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
