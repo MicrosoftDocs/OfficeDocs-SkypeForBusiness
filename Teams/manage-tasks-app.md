@@ -32,12 +32,69 @@ The Planner app in Microsoft Teams brings together the simplicity of [Microsoft 
 
 Planner is available in Teams deskop and with select capabilities on Teams mobile.
 
-Planner includes the following views:
+## What you need to know about Planner
+
+Planner is available as an app and as a tab in a channel. The app shows a user's individual tasks and shared tasks.
+
+With Planner, users get a desktop and web experience. If Planner is installed on the Teams desktop client, users will also see it on their Teams web and mobile clients. The exception is guests. It's important to know that guests can only access Planner as an app from the Teams mobile client. Guests will see Planner tabs on both Teams desktop and web clients.
+
+When a user opens the Planner app in Teams, they see the following views:
 
 - **My Day**: Shows any tasks that are due today, along with any tasks that a user chooses to add to this view.
 - **My Tasks**: Includes a dedicated place called Private Tasks for users to quickly create tasks, flagged emails, and tasks that are assigned to the user from Teams meeting notes, Microsoft Loop, Planner, and Planner premium.
-- **My Plans**: Shows all your To Do lists, basic plans, and premium plans.
+- **My Plans**: Shows the users's To Do lists, basic plans, and premium plans.
 - **New Plan**: Create a new personal or shared plan directly in the app.
+
+Users can also use Planner to:
+
+- Create new personal or shared plans
+- Get notificadtions and Planner tasks
+
+For organizations who want to streamline task management for frontline workers, Planner also includes capabilities that enable you to target, publish, and track tasks at scale across your Frontline Workforce. For example, corporate and regional leadership can create and publish task lists targeted to relevant locations, such as specific retail stores, and track progress through real-time reports. Managers can assign tasks to their staff and direct activities within their locations, and frontline workers have a prioritized list of their assigned tasks on mobile or desktop. To enable [task publishing](#task-publishing), first set up a team targeting hierarchy for your organization, which defines how all teams in the hierarchy are related to each other.
+
+## Set up Planner
+
+> [!IMPORTANT]
+> Settings and policies that you configure for Planner for web will also apply to Planner in Teams.
+
+### Enable or disable Planner in your organization
+
+Planner is enabled by default for all Teams users in your organization. You can turn off or turn on the app at the org level on the [Manage apps](manage-apps.md) page in the Teams admin center.
+
+1. In the left pane of the Teams admin center, go to **Teams apps** > **Manage apps**.
+2. In the list of apps, do one of the following actions:
+
+    - To turn off Planner for your organization, search for the Tasks app, select it, and then select **Block**.
+    - To turn on Planner for your organization, search for the Tasks app, select it, and then select **Allow**.
+
+> [!NOTE]
+> If you can't find the Planner app, search for the names in the first note of this article. The app could still be in the process of being renamed.
+
+### Enable or disable Tasks for specific users in your organization
+
+To allow or block specific users in your organization from using Planner, make sure Planner is turned on for your organization on the [Manage apps](manage-apps.md) page, and then create a custom policy for app permissions and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
+
+### Pin Planner to Teams
+
+#### Use the Tailored frontline app experience to pin Planner and other apps to Teams
+
+The tailored frontline app experience in Teams pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Pinned apps include Planner, Walkie Talkie, Shifts, and Approvals. By default, this feature is on, giving your frontline workers an out-of-the-box experience that’s tailored to their needs.
+
+The apps are pinned to the app bar—the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients—where users can quickly and easily access them.
+
+To learn more, including how the experience works with app policies that you set, see [Tailor Teams apps for your frontline workers](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).
+
+#### Use an app setup policy to pin Planner to Teams
+
+App setup policies let you customize Teams to pin apps that are most important for your users in your users.
+
+To pin the Planner app for your users, you can edit the global (Org-wide default) policy or create and assign a custom policy in app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
+
+### A user's My Tasks is visible if the user is licensed for Exchange Online
+
+If you don't want a user to see **My Tasks**, you can hide it. To hide **My Tasks**, [remove the user's Exchange Online license](/microsoft-365/admin/manage/remove-licenses-from-users). It's important to know that after you remove an Exchange Online license, the user no longer has access to their mailbox.  Mailbox data is held for 30 days, after which the data will be removed and can't be recovered unless the mailbox is placed on [In-Place Hold or Litigation Hold](/exchange/security-and-compliance/in-place-and-litigation-holds).
+
+We don't recommend removing an Exchange Online license for information workers, but there may be some scenarios where you can hide **My Tasks** in this way, such as for frontline workers who don't depend on email.
 
 +++++++++++++++++++++++++++++++++
 
