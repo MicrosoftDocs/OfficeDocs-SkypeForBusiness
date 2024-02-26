@@ -293,7 +293,7 @@ Microsoft’s Disability Answer Desk has end-user guides to customize their expe
 
 ### Reference Web Content Accessibility Guidelines (WCAG)
 
-WCAG are a series of international standards designed to improve web accessibility. The success criterion referenced in this guide include:
+WCAG are a series of international standards designed to improve web accessibility. The success criteria referenced in this guide include:
 
 - [WCAG 1.2.4.: Captions (Live)](https://www.w3.org/WAI/WCAG21/Understanding/captions-live)
 

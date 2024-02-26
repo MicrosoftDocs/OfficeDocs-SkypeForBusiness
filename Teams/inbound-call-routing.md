@@ -130,7 +130,7 @@ This setting can also be configured using PowerShell with the `-PopoutForIncomin
 
 With PowerShell, you can configure the `-BusyOnBusyEnabledType` parameter with [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
 
-For example, this script allows users decide their busy options for users in the global policy instance:
+For example, this script allows users to choose their busy options for users in the global policy instance:
 
 ```powershell
 Set-CsTeamsCallingPolicy -Identity Global -BusyOnBusyEnabledType UserOverride
