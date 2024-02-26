@@ -83,6 +83,8 @@ To allow or prevent call recordings:
 
 With PowerShell, you configure the `-AllowCloudRecordingForCalls` parameter in [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
 
+For more information on call recording, see [Configure call recording, transcription, and captions in Teams](call-recording-transcription-captions.md).
+
 ---
 
 ## Require participant agreement for recording

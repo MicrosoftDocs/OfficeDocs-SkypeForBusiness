@@ -67,24 +67,24 @@ To create, modify, retrieve, assign, and remove calling policies, use the follow
 
 Here are the settings that you can configure for calling policies:
 
-- Make private calls - This setting controls all calling capabilities in Teams. Turn this setting off to turn off all calling functionality in Teams.
-- [Cloud recording for calling](call-recording-transcriptions-captions.md)
-- [Transcription](call-recording-transcriptions-captions.md)
-- [Routing for PSTN calls](inbound-call-routing.md)
-- [Routing for federated calls](inbound-call-routing.md)
-- [Call forwarding and simultaneous ringing to people in your organization](user-call-settings.md)
-- [Call forwarding and simultaneous ringing to external phone numbers](user-call-settings.md)
-- [Voicemail for inbound calls](set-up-phone-system-voicemail.md)
-- [Inbound calls can be routed to call groups](call-sharing-and-group-call-pickup.md)
-- [Delegation for inbound and outbound calls](shared-line-appearance.md)
-- [Prevent toll bypass and send calls through the PSTN](location-based-routing-enable.md)
-- [Music on hold for calls](music-on-hold.md)
-- [Busy on busy during calls](inbound-call-routing.md)
-- Web PSTN calling - This setting enables users to call PSTN numbers using the Teams web client. This setting is on by default.
-- [Real-time captions in Teams calls](call-recording-transcriptions-captions.md.md)
-- [Spam filtering](configure-call-spam-filtering.md)
-- [SIP devices can be used for calls](sip-gateway-configure.md)
-- [Open apps in browser for incoming PSTN calls](inbound-call-routing.md)
+- **Make private calls** - This setting controls all calling capabilities in Teams. Turn this setting off to turn off all calling functionality in Teams.
+- **[Cloud recording for calling](call-recording-transcription-captions.md)**
+- **[Transcription](call-recording-transcription-captions.md)**
+- **[Routing for PSTN calls](inbound-call-routing.md)**
+- **[Routing for federated calls](inbound-call-routing.md)**
+- **[Call forwarding and simultaneous ringing to people in your organization](user-call-settings.md)**
+- **[Call forwarding and simultaneous ringing to external phone numbers](user-call-settings.md)**
+- **[Voicemail for inbound calls](set-up-phone-system-voicemail.md)**
+- **[Inbound calls can be routed to call groups](call-sharing-and-group-call-pickup.md)**
+- **[Delegation for inbound and outbound calls](shared-line-appearance.md)**
+- **[Prevent toll bypass and send calls through the PSTN](location-based-routing-enable.md)**
+- **[Music on hold for calls](music-on-hold.md)**
+- **[Busy on busy during calls](inbound-call-routing.md)**
+- **Web PSTN calling** - This setting enables users to call PSTN numbers using the Teams web client. This setting is on by default.
+- **[Real-time captions in Teams calls](call-recording-transcription-captions.md)**
+- **[Spam filtering](configure-call-spam-filtering.md)**
+- **[SIP devices can be used for calls](sip-gateway-configure.md)**
+- **[Open apps in browser for incoming PSTN calls](inbound-call-routing.md)**
 
 ## Related articles
 

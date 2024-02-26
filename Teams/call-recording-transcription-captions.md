@@ -36,9 +36,7 @@ You can use the Microsoft Teams admin center or PowerShell to set a Teams callin
 
 Many users use calls and meetings interchangeably depending on their needs. We recommend you check your meeting recording policy settings as well. If the settings are different for calls and meetings, it might cause confusion for your users.
 
-# [**Calling policy**](#tab/calling-policy)
-
-To allow or prevent call recordings:
+To allow or prevent *call recordings*:
 
 1. In the Microsoft [Teams admin center](https://admin.teams.microsoft.com/), expand **Voice**.
 1. Select **Calling policies**.
@@ -48,19 +46,7 @@ To allow or prevent call recordings:
 
 With PowerShell, you configure the `-AllowCloudRecordingForCalls` parameter in [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
 
-# [**Meeting policy**](#tab/meeting-policy)
-
-To allow or prevent meeting recordings:
-
-1. In the Microsoft [Teams admin center](https://admin.teams.microsoft.com/), expand **Meetings**.
-1. Select **Meeting policies**.
-1. Select the policy that you want to edit.
-1. Turn **Meeting recording** On or Off.
-1. Select **Save**.
-
-With PowerShell, you configure the `-AllowCloudRecording` parameter in [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
-
----
+To allow or prevent *meeting recordings*, see [Teams meeting recording](meeting-recording.md).
 
 ## Enable call transcription
 
@@ -78,7 +64,13 @@ To turn on call transcription for users:
 
 ### Using PowerShell
 
-With PowerShell, you configure the `-AllowTranscriptionForCalling` parameter in [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
+With PowerShell, you configure the `-AllowTranscriptionForCalling` parameter with the following cmdlets:
+
+- [Get-CsTeamsCallingPolicy](/powershell/module/skype/get-csteamscallingpolicy)
+- [New-CsTeamsCallingPolicy](/powershell/module/skype/new-csteamscallingpolicy)
+- [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
+- [Remove-CsTeamsCallingPolicy](/powershell/module/skype/remove-csteamscallingpolicy)
+- [Grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy)
 
 For example, this script enables transcription for the global policy:
 
@@ -102,7 +94,13 @@ To turn on real-time captions for calls for users:
 
 ### Using PowerShell
 
-With PowerShell, you configure the `-LiveCaptionsEnabledTypeForCalling` parameter in [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
+With PowerShell, you configure the `-LiveCaptionsEnabledTypeForCalling` parameter with the following cmdlets:
+
+- [Get-CsTeamsCallingPolicy](/powershell/module/skype/get-csteamscallingpolicy)
+- [New-CsTeamsCallingPolicy](/powershell/module/skype/new-csteamscallingpolicy)
+- [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
+- [Remove-CsTeamsCallingPolicy](/powershell/module/skype/remove-csteamscallingpolicy)
+- [Grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy)
 
 For example, this script allows the user to turn on real-time captions in the global policy:
 
@@ -119,6 +117,8 @@ Set-CsTeamsCallingPolicy -Identity Global -LiveCaptionsEnabledTypeForCalling Dis
 ## Related articles
 
 [Accessibility guide for Microsoft Teams Admins](accessibility-guide-admin.md)
+
+[Teams meeting recording](meeting-recording.md)
 
 [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md)
 
