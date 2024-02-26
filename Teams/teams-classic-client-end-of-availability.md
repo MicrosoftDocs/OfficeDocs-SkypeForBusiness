@@ -154,17 +154,17 @@ In the Teams admin center:
 - **When will classic Teams client stop being installed with M365 apps:** This will stop happening at the end of the availaibility period.
 - **Can I stop the classic Teams client from being uninstalled and what happens if a policy is set to prevent app uninstallation:** Yes, you can stop the classic Teams client from being uninstalled. If your configuration prevents uninstall, Microsoft won't attempt the uninstall again. You'll need to uninstall classic Teams after that point.
 - **Do I need to remove the old client:** Microsoft recommends that you remove the classic Teams client once a user is fully transitioned to new Teams. It's security best practice to not leave software that is no longer operational installed on a machine. Microsoft will attempt to remove the classic Teams client on your behalf, but if this uninstall is blocked or prevented by your configuration or policies it is your responsibility to conduct this removal yourself.
-- **What can I do if users still need classic Teams:** You won’t be able to use classic Teams once availability ends, or June 30 2024 if you meet the conditions in the table at the start of the article. Until that date you'll still have a banner announcing the end of classic Teams at the top of your client. For more information review: [Features that are changing in the new Microsoft Teams](new-teams-whats-changing.md).
-- **Are there any scripts available if the admin needs to bulk uninstall classic Teams:** Check out our [uninstallation](msi-deployment.md#uninstallation) documentation.
+- **What can I do if users still need the classic Teams client:** You won’t be able to use classic Teams once availability ends, or June 30 2024 if you meet the conditions in the table at the start of the article. Until that date you'll still have a banner announcing the end of classic Teams at the top of your client. For more information review: [Features that are changing in the new Microsoft Teams](new-teams-whats-changing.md).
+- **Are there any scripts available if the admin needs to bulk uninstall the classic Teams client:** Check out our [uninstallation](msi-deployment.md#uninstallation) documentation.
 
 ### Client
 
-- **Will classic Teams be removed automatically:** Microsoft will attempt to uninstall classic Teams after the availability period ends. If this fails, admins must uninstall classic Teams for their users. You can find more information on [uninstallation](msi-deployment.md#uninstallation) in this article.
-- **When or how will it be removed, and what triggers the uninstall:** This will happen after the availability period ends. As each user receives the automatic update and switches to new Teams, an attempt will be made to uninstall classic Teams.
-- **Will classic Teams be removed for all users on the device:** Yes.
+- **Will the classic Teams client be removed automatically:** Microsoft will attempt to uninstall classic Teams after the availability period ends. If this fails, admins must uninstall classic Teams for their users. You can find more information on [uninstallation](msi-deployment.md#uninstallation) in this article.
+- **When or how will it be removed, and what triggers the uninstall:** This removal will happen after the availability period ends. As each user receives the automatic update and switches to new Teams, an attempt will be made to uninstall classic Teams.
+- **Will the classic Teams client be removed for all users on the device:** Yes.
 - **Will both Windows and Mac support uninstallation:** Yes.
-- **What if I need to use classic Teams after the availability period:** You won’t be able to use classic Teams after the availability period ends, or June 30 2024 if you meet the conditions in the table at the start of the article. Until that date you'll still have a banner announcing the end of classic Teams at the top of your client. Please reference this page for more information: [Features that are changing in the new Microsoft Teams](new-teams-whats-changing.md).
-- **Will I be able to download classic Teams after the availability period ends:** Yes, but it won't be functional unless you meet one of the conditions to extend classic Teams functionality until June 30 2024.
+- **What if I need to use the classic Teams client after the availability period:** You won’t be able to use classic Teams after the availability period ends, or June 30 2024 if you meet the conditions in the table at the start of the article. Until that date you'll still have a banner announcing the end of classic Teams at the top of your client. Refer to this page for more information: [Features that are changing in the new Microsoft Teams](new-teams-whats-changing.md).
+- **Will I be able to download the classic Teams client after the availability period ends:** Yes, but it won't be functional unless you meet one of the conditions to extend classic Teams functionality until June 30 2024.
 
 ### VDI
 
