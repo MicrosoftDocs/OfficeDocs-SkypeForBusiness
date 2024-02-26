@@ -137,7 +137,7 @@ The following meeting and webinar features are available in Teams Premium:
 
 - **[Green room for Teams meetings](https://support.microsoft.com/office/5b744652-789f-42da-ad56-78a68e8460d5)** - A place where organizers can meet with each other, change meeting options and admit participants from the lobby into the meeting. Available for both meetings and webinars.
 
-- **[Enhanced video feed controls](https://products.support.services.microsoft.com/office/19bfd690-8122-49f4-bc04-c2c5f69b4e16)** - Options to decide whose avatars or video feeds to spotlight during a Teams meeting. Available for both meetings and webinars.
+- **Enhanced video feed controls** - Options to decide whose avatars or video feeds to spotlight during a Teams meeting. Available for both meetings and webinars.
 
 - **[Live translated captions](https://support.microsoft.com/office/4be2d304-f675-4b57-8347-cbd000a21260)** - Allows users to see captions translated into the language they're most comfortable with. Available for both meetings and webinars.
 
