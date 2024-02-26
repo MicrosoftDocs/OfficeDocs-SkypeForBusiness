@@ -960,7 +960,7 @@ items:
               href: call-park-and-retrieve.md
             - name: Configure call sharing and group call pickup
               href: call-sharing-and-group-call-pickup.md
-            - name: Configure music on Hold
+            - name: Configure Music on Hold
               href: music-on-hold.md
             - name: Configure private line
               href: private-line.md
@@ -984,7 +984,7 @@ items:
               href: set-up-holidays-in-teams.md
             - name: Answer Auto attendant and Call queue calls directly from Teams
               href: answer-auto-attendant-and-call-queue-calls.md
-            - name: Reports
+            - name: Reports - Historical
               href: aa-cq-cqd-historical-reports.md
             - name: PowerShell cmdlet reference for Auto attendants and Call queues
               href: call-queue-auto-attendant-cmdlets.md
@@ -1486,7 +1486,7 @@ items:
                   href: rooms/rooms-lifecycle-support.md
                 - name: Android app and firmware versions
                   href: rooms/android-app-firmware.md
-                - name: Teams Rooms Windows and Android comparison
+                - name: Teams Rooms and devices feature comparison
                   href: rooms/teams-devices-feature-comparison.md
             - name: Licensing
               items:
@@ -1664,7 +1664,7 @@ items:
               href: devices/usb-devices.md
             - name: RealWear for Teams
               href: flw-realwear.md
-            - name: SmartVision
+            - name: Multi-Stream IntelliFrame
               href: devices/smartvision-admin.md
             - name: Cloud IntelliFrame
               href: devices/cloud-intelliframe.md
