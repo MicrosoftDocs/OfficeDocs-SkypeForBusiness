@@ -4,7 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: pamgreen
 ms.reviewer: spraveen, margidesai
-ms.date: 02/23/2024
+ms.date: 02/26/2024
 ms.topic: conceptual
 ms.service: msteams
 ms.subservice: teams-premium
@@ -37,17 +37,17 @@ Teams Premium is an add-on license that provides the following enhancements to T
 This article, written for IT Pros and admins who are deploying and configuring Teams Premium, describes the available features and provides links to more detailed documentation.
 
 > [!IMPORTANT]
-> Now that Teams Premium has reached general availability, some features previously accessible with Teams now require a Teams Premium license for access.
+> Now that Teams Premium has reached general availability, some features that were previously accessible with Teams now require a Teams Premium license for access.
 >
 > For admins to manage Teams Premium features, their tenant needs at least one user with an active [Teams Premium license](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams).
 
 The following sections in this article describe the Teams Premium enhancements for:
 
-- [Intelligent productivity](#intelligent-productivity)
-- [Protection and advanced management](#protection-and-advanced-management)
-- [Personalized experiences](#personalized-experiences)
+- [Protection and advanced management for meetings](#protection-and-advanced-management-for-meetings)
+- [Personalized meetings](#personalized-meetings)
 - [Premium events](#premium-events)
 - [Virtual Appointments](#advanced-virtual-appointments)
+- [Intelligent meeting features](#intelligent-meeting-features)
 
 For more general information about Teams meetings and premium events, see the following articles:
 
@@ -59,33 +59,17 @@ For more general information about Teams meetings and premium events, see the fo
 > [!NOTE]
 > We'll continue to update this article. Check back often for links to new content.
 
-## Intelligent productivity
-
-Teams Premium provides more ways to focus on what matters most with the following key AI-powered meetings features:
-
-- **Decorate my background** - Use AI to decorate your background, show off your own personal style. and make meetings more fun and inclusive.
-- **Intelligent meeting recap** - Get a more personalized rundown of your meetings with intelligent meeting recap. Save time reviewing with AI-powered features that take you right to the moments you’re looking for.
-- **Live translated captions** -  By default, live captions are displayed in the language spoken during a meeting, webinar, or town hall. Live translated captions allow you to see captions translated into the language they’re most comfortable with.
-- **Live translated transcription** - Understand each other better during a meeting or event by translating the meeting transcript into the language you’re most comfortable with.
-
-| Feature/Task  | Can admins turn this feature on/off? | Documentation for admins | Documentation for your end users
-| -------------------- | -----------| ----------- | ------------ |
-| Decorate my background | No, contact support for assistance. | No admin control | [Decorate your background](https://adoption.microsoft.com/microsoft-teams-premium/decorate-your-background/)|
-| Intelligent meeting recap| Yes. If you toggle the **Transcription** and **Recording** settings to **Off** in your **Meeting policies**, intelligent meeting recap isn't available for users with this policy.|[Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md) | [Meeting recap in Microsoft Teams](https://support.microsoft.com/office/meeting-recap-in-microsoft-teams-c2e3a0fe-504f-4b2c-bf85-504938f110ef#bkmk_intelligent_meeting_recap) |
-| Live translated captions | Yes | [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md)|[Use live captions in Microsoft Teams meetings](https://support.microsoft.com/office/use-live-captions-in-microsoft-teams-meetings-4be2d304-f675-4b57-8347-cbd000a21260) |
-| Live translated transcription | Yes |  [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md) | [View live transcription in Microsoft Teams meetings](https://support.microsoft.com/office/view-live-transcription-in-microsoft-teams-meetings-dc1a8f23-2e20-4684-885e-2152e06a4a8b)|
-
-## Protection and advanced management
+## Protection and advanced management for meetings
 
 Teams Premium provides more ways to safeguard and monitor users' Teams experiences with the following key features:
 
-- **Advanced collaboration analytics** - In the Teams admin center, Teams admins can view data on their users, teams, federated domains, channels, and guests concerning their external collaboration activity.
+- **Advanced collaboration analytics** - View data on your users, teams, federated domains, channels, and guests concerning their external collaboration activity.
 
 - **Audio quality alerts** - Set up alerts for in-progress meeting audio issues and get notified immediately when your specified users experience issues.
 
 - **Custom user policy packages** - Create policy packages to simplify, streamline, and help provide consistency when managing policies for groups of users across your organization.
 
-- **End-to-end encryption** - Enforced through a sensitivity label. End-to-end encryption provides increased security for meetings that require a higher level of protection.
+- **End-to-end encryption** - Enforced through a sensitivity label, end-to-end encryption provides increased security for meetings that require a higher level of protection.
 
 - **Hide attendee names** - Meeting and webinar organizers can hide the names of attendees from other attendees in the stage, roster, and chat.
 
@@ -99,7 +83,7 @@ Teams Premium provides more ways to safeguard and monitor users' Teams experienc
 
 - **Video quality alerts** - Set up alerts for in-progress meeting video issues and get notified immediately when your specified users experience issues.
 
-- **Watermarking** - Enforced through a sensitivity label. Watermarks display the email address of a meeting participant, which is useful for protecting confidential information shared in meetings.
+- **Watermarking** - Enforced through a sensitivity label, watermarks display the email address of a meeting participant. Watermarks are useful for protecting confidential information shared in meetings.
 
 | Feature/Task  | Can admins turn this feature on/off? | Documentation for admins | Documentation for your end users
 | -------------------- | -----------| ----------- | ------------ |
@@ -118,17 +102,17 @@ Teams Premium provides more ways to safeguard and monitor users' Teams experienc
 | Video quality alerts|Yes, you can add or remove users.| [Alerts for in-progress meeting video quality issues](/MicrosoftTeams/alerts/alerts-in-progress-meeting-video) | No end-user control |
 | Watermarks | Yes | [Require a watermark for meetings](watermark-meeting-content-video.md) | [Watermarks for meetings](https://support.microsoft.com/office/watermark-for-teams-meetings-a9166432-f429-4a19-9a72-c9e8fdf4f589)|
 
-## Personalized experiences
+## Personalized meetings
 
 Teams Premium provides more ways to personalize your Teams meeting experiences with the following key features:
 
-- **Custom meeting backgrounds for organizations** - Create and define custom meeting backgrounds that your can use during meetings and events.
+- **Custom meeting backgrounds for organizations** - Create and define custom meeting backgrounds that your users can use during meetings and events.
 
-- **Custom together mode scenes for organizations** - Custom Together Mode creates an immersive and engaging environment by digitally combining participants into a single virtual scene. Customize, create, or accept together mode scenes for your users' meetings.
+- **Custom together mode scenes for organizations** -Customize, create, or accept together mode scenes to digitally combine participants into a single virtual scene.
 
 - **Meeting templates** - Control meeting settings that the meeting organizer normally controls. With templates, you can create consistent meeting experiences in your organization and help enforce compliance requirements and business rules.
 
-- **Meeting themes** - Extend your organization's visual identity across the meeting experience. Set up and create meeting themes for various business units and departments within a single tenant.
+- **Meeting themes** - Set up and create meeting themes for various business units and departments within a single tenant.
 
 - **Real Time Messaging Protocol (RTMP)-In** - Organizers can produce their Teams meetings directly from an external hardware or software-based encoder.
 
@@ -222,6 +206,24 @@ Teams Premium provides advanced Virtual Appointment capabilities, such as:
 | -------------------- | ----------- | ----------- |
 | Reporting | No, contact support for assistance.| [Virtual Appointments usage report](/microsoft-365/frontline/virtual-appointments-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)<br>[Advanced Virtual Appointments activity report](/microsoft-365/frontline/advanced-virtual-appointments-activity-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) |
 | SMS notifications  | Yes| [SMS text notifications](bookings-app-admin.md#sms-text-notifications) |
+
+## Intelligent meeting features
+
+Teams Premium provides the following key AI-powered meetings features:
+
+- **Decorate my background** - Your users can use AI to decorate their backgrounds.
+- **Intelligent meeting recap** - Give your users a more personalized rundown of their meetings with intelligent meeting recap.
+- **Live translated captions** -  Allow your users to see captions translated into the language they’re most comfortable with.
+- **Live translated transcription** - Your users can understand each other better during a meeting or event by translating the meeting transcript into the language they're most comfortable with.
+
+| Feature/Task  | Can admins turn this feature on/off? | Documentation for admins | Documentation for your end users
+| -------------------- | -----------| ----------- | ------------ |
+| Decorate my background | No, contact support for assistance. | No admin control | [Decorate your background](https://adoption.microsoft.com/microsoft-teams-premium/decorate-your-background/)|
+| Intelligent meeting recap| No, contact support for assistance.<sup>1</sup>|[Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md) | [Meeting recap in Microsoft Teams](https://support.microsoft.com/office/meeting-recap-in-microsoft-teams-c2e3a0fe-504f-4b2c-bf85-504938f110ef#bkmk_intelligent_meeting_recap) |
+| Live translated captions | Yes | [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md)|[Use live captions in Microsoft Teams meetings](https://support.microsoft.com/office/use-live-captions-in-microsoft-teams-meetings-4be2d304-f675-4b57-8347-cbd000a21260) |
+| Live translated transcription | Yes |  [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md) | [View live transcription in Microsoft Teams meetings](https://support.microsoft.com/office/view-live-transcription-in-microsoft-teams-meetings-dc1a8f23-2e20-4684-885e-2152e06a4a8b)|
+
+<sup>1</sup>If you toggle the **Transcription** and **Recording** settings to **Off** in your **Meeting policies**, intelligent meeting recap isn't available for users with this policy.
 
 ## More resources
 
