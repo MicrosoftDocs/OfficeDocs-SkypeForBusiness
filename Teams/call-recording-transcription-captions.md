@@ -44,7 +44,7 @@ To allow or prevent *call recordings*:
 1. Turn **Cloud recording for calling** On or Off.
 1. Select **Save**.
 
-With PowerShell, you configure the `-AllowCloudRecordingForCalls` parameter in [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
+With PowerShell, you can configure the `-AllowCloudRecordingForCalls` parameter in [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
 
 To allow or prevent *meeting recordings*, see [Teams meeting recording](meeting-recording.md).
 
@@ -64,7 +64,7 @@ To turn on call transcription for users:
 
 ### Using PowerShell
 
-With PowerShell, you configure the `-AllowTranscriptionForCalling` parameter with the following cmdlets:
+With PowerShell, you can configure the `-AllowTranscriptionForCalling` parameter with the following cmdlets:
 
 - [Get-CsTeamsCallingPolicy](/powershell/module/skype/get-csteamscallingpolicy)
 - [New-CsTeamsCallingPolicy](/powershell/module/skype/new-csteamscallingpolicy)
