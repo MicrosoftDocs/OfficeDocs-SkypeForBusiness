@@ -1,5 +1,5 @@
 ---
-title: Teams Rooms and  Deviecs feature comparison
+title: Teams Rooms and  Devices feature comparison
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
