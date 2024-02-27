@@ -6,7 +6,7 @@ manager: jtremper
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jewilcze
-ms.date: 
+ms.date: 02/27/2024
 search.appverid: MET150
 searchScope:
   - Microsoft Teams
