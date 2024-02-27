@@ -130,7 +130,7 @@ By selecting **Save**, the meeting theme is automatically saved and applied to y
 ### Manage meeting themes in PowerShell
 
 > [!NOTE]
-> To upload images, you must use Teams admin center.
+> To upload images, you must use the Teams admin center.
 
 You can manage meeting themes by using the following PowerShell cmdlets in Teams PowerShell:
 
