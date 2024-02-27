@@ -35,7 +35,7 @@ By default, this feature is turned on for your organization and anonymous meetin
 
 Here’s an example of a survey that anonymous meeting participants might receive.
 
-:::image type="content" source="media/meeting-surveys-anonymous-participants.png" alt-text="Example of a survey that anonymous meeting participants receive to provide feedback about their Teams meeting experience.":::
+:::image type="content" source="media/meeting-surveys-anonymous-participants.png" alt-text="Screenshot of a survey that anonymous meeting participants receive to provide feedback about their Teams meeting experience.":::
 
 ## Set whether anonymous meeting participants receive surveys
 
