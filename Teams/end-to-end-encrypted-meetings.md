@@ -48,19 +48,25 @@ During an end-to-end encrypted meeting, Teams secures the following features:
 
 [Encryption in Microsoft 365](/microsoft-365/compliance/encryption) protects chat, file sharing, presence, and other content in the meeting. Apps, avatars, reactions, chat, and Q&A aren't end-to-end encrypted.
 
-The following features aren't available during an end-to-end encrypted meeting:
-
-- Recording
-
-- Live captions and transcription
-
-- Together mode, companion mode, large gallery
+Some features aren't available during an end-to-end encrypted meeting, including:
 
 - Breakout rooms
 
-- PowerPoint Live
+- Copilot for Teams meetings
 
 - Excel Live
+
+- Live captions and transcription
+
+- People dialing in by phone
+
+- PowerPoint Live
+
+- Recording
+
+- Request control of shared content
+
+- Together mode, companion mode, large gallery
 
 If your organization uses compliance recording for 1:1 calls, end-to-end encryption isn't available. An individual who needs compliance recording can't join an end-to-end encrypted meeting. For more info on how Teams supports compliance recording, see [Introduction to Teams policy-based recording for callings & meetings](teams-recording-policy.md).
 

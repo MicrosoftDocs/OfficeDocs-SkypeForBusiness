@@ -14,6 +14,7 @@ ms.collection:
 - M365-collaboration
 - m365initiative-externalcollab
 - Tier2
+- essentials-manage
 search.appverid: MET150
 f1.keywords:
 - NOCSH

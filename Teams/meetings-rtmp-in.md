@@ -42,6 +42,14 @@ The incoming RTMP feed must deliver:
 - Frame rate of 29.97 fps or 30 fps
 - Square Pixel Aspect Ratio (PAR)
 
+## RTMP ingest endpoints
+
+As part of the network connectivity principles, ensure that the Microsoft 365 endpoints are reachable as defined in
+[Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges). In addition, ensure you also have the following domains/ports:
+
+**Domains**: *.rtmpingest.mcr.teams.microsoft.com<br>
+**Ports**: 1935/1936 (for RTMP/RTMPS)
+
 ## Manage whether organizers can use RTMP-In with the Teams admin center
 
 1. Open the Teams admin center.

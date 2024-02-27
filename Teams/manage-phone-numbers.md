@@ -113,7 +113,7 @@ To create a case for directory services, see [Create a new case.](/microsoftteam
 
 ## Additional resources
 
-- For information about licensing and number availability in your country or region, see [Countries and region availability for Audio Conferencing and Calling Plans](/microsoftteams/phone-reference/plan-availability/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+- For information about licensing and number availability in your country or region, see [Countries and region availability for Audio Conferencing and Calling Plans](calling-plan-overview.md)
 - To assist you in choosing the correct type of phone numbers, read [Different kinds of phone numbers used for Calling Plans and services](different-kinds-of-phone-numbers-used-for-calling-plans.md).
 
 

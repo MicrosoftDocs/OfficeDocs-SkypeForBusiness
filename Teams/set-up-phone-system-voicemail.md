@@ -37,7 +37,7 @@ Cloud Voicemail deposits voicemail messages in a user's Exchange mailbox. Cloud 
 
 For Teams users, Cloud Voicemail is automatically set up and provisioned. *A Microsoft Teams Phone license is not required for Cloud Voicemail.*
 
-Provisioning for Teams users isn't the same as it was for Skype for Business Online users. For Skype for Business Online users, Cloud Voicemail was automatically set up and provisioned when the users were assigned a Teams Phone license and were Enterprise Voice enabled by the provisioning system.
+Provisioning for Teams users isn't the same as it was for Skype for Business Online users. For Skype for Business Online users, Cloud Voicemail was automatically set up and provisioned when the users were assigned a Teams Phone license and their accounts were enabled for Enterprise Voice by the provisioning system.
 
 For Skype for Business Server on-premises users, Cloud Voicemail is automatically set up and provisioned. However, you must configure the Skype for Business Server environment to route calls to Cloud Voicemail. For more information, see [Plan Cloud Voicemail service for on-premises users](/skypeforbusiness/hybrid/plan-cloud-voicemail).
 
@@ -71,15 +71,39 @@ The default setting for all users provisioned for Cloud Voicemail is to allow ro
 
 You can control whether routing of calls to Cloud Voicemail is allowed for Teams users by using the Teams admin center or by using PowerShell.
 
-- To use the Teams admin center, go to **Voice** > **Calling Policies** > add new or edit existing policy > **Voicemail for inbound calls**.  
+### Using Teams admin center
 
-- In PowerShell, use the Set-CsTeamsCallingPolicy cmdlet with the AllowVoicemail parameter. For more information, see [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
+To configure Cloud Voicemail routing:
 
-  - If you set AllowVoicemail to AlwaysDisabled, calls are never routed to voicemail--regardless of the call forward or unanswered settings for a user. Voicemail isn't available as a call forwarding or unanswered setting in Teams.
+1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Calling Policies**
 
-  - If you set AllowVoicemail to AlwaysEnabled, calls are always forwarded to voicemail on unanswered after ringing for thirty seconds--regardless of the unanswered call forward setting for a user.
+1. Choose the policy you would like to update or select **Add** to create a new policy.
 
-  - If you set AllowVoicemail to UserOverride, calls are forwarded to voicemail based on the call forwarding and/or unanswered settings for a user.
+1. For **Voicemail for inbound calls**, select one of the following options:
+
+     - **On** Voicemail is always available for inbound calls.
+     - **Off** Voicemail isn't available for inbound calls.
+     - **Let users decide** Users can determine whether they want voicemail to be available. This is the default setting.
+
+1. Select **Save**.
+
+### Using PowerShell
+
+In PowerShell, use the Set-CsTeamsCallingPolicy cmdlet with the AllowVoicemail parameter.
+
+In the following example, this script turns off the the ability for users to route inbound calls to voicemail for the Global (default) Teams Calling Policy instance:
+
+```powershell
+Set-CsTeamsCallingPolicy -Identity Global -AllowVoicemail AlwaysDisabled
+```
+
+- If you set AllowVoicemail to AlwaysEnabled, calls are always forwarded to voicemail on unanswered after ringing for thirty seconds--regardless of the unanswered call forward setting for a user.
+
+- If you set AllowVoicemail to AlwaysDisabled, calls are never routed to voicemail--regardless of the call forward or unanswered settings for a user. Voicemail isn't available as a call forwarding or unanswered setting in Teams.
+
+- If you set AllowVoicemail to UserOverride, calls are forwarded to voicemail based on the call forwarding and/or unanswered settings for a user. This is the default setting.
+
+For more information, see [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
 
 ## Set up Cloud Voicemail to work with on-premises users
 

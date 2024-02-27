@@ -92,3 +92,4 @@ For information on how your end users can turn on live translated captions, read
 - [Accessibility guide for Microsoft Teams Admins](accessibility-guide-admin.md)
 - [Teams policies reference - Meetings](settings-policies-reference.md#meetings)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
+- [Delete Exchange Online and OneDrive transcript files for Teams meetings](delete-exchange-online-transcripts.md)
