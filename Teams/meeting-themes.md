@@ -154,7 +154,7 @@ Grant-CsTeamsMeetingBrandingPolicy -identity " alice@contoso.com" -PolicyName "P
 
 Meeting customization policies can be assigned to one, many, or a predefined user group in your Tenant. Make sure that these users have a Teams premium license to use these features.
 
-- All licensed users automatically get the Global default policy assigned to them.
+- All licensed users automatically get the global default policy assigned to them.
 - Custom customization policies override the global default.
 - A licensed user can only be assigned one customization policy.
 
