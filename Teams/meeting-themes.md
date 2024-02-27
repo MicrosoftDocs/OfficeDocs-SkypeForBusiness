@@ -138,13 +138,13 @@ You can manage meeting themes by using the following PowerShell cmdlets in Teams
 - [Grant-CsTeamsMeetingBrandingPolicy](/powershell/module/skype/grant-csteamsmeetingbrandingpolicy)
 - [New-CsTeamsMeetingBrandingPolicy](/powershell/module/skype/new-csteamsmeetingbrandingpolicy)
 
-This example assigns a meeting theme policy called “Policy Test” to a group named group@contoso.com.
+This example assigns a meeting theme policy called 'Policy Test' to a group named group@contoso.com.
 
 ```PowerShell
 Grant-CsTeamsMeetingBrandingPolicy -Group group@contoso.com -PolicyName "Policy Test" -Rank 1
 ```
 
-This example assigns a meeting theme policy called “Policy Test” to a user named alice@contoso.com.
+This example assigns a meeting theme policy called 'Policy Test' to a user named alice@contoso.com.
 
 ```PowerShell
 Grant-CsTeamsMeetingBrandingPolicy -identity " alice@contoso.com" -PolicyName "Policy Test"
@@ -184,12 +184,11 @@ Supported clients:
 - Android (Versions 11+ only)
 - iOS
 
-|         | Join Launcher | Meeting Pre-Join | Meeting Lobby | Meeting Stage | Meeting invite |
-| :---:          |     :---:      |         :---:  |         :---:  |         :---:  |        :---:  |
-| **Logo**   | No | Yes| Yes| No| Yes |
-| **Image**     | No | Yes| Yes| No| No|
-| **Color**     | Yes | Yes| Yes| Yes| No|
-
+|  Asset type       | Join Launcher | Meeting Pre-Join | Meeting Lobby | Meeting Stage |
+| :---:          |     :---:      |         :---:  |         :---:  |         :---:  |
+| **Logo**   | Yes | Yes| Yes| No|
+| **Image**     | Yes | Yes| Yes| No|
+| **Color**     | Yes | Yes| Yes| Yes| 
 
 > [!NOTE]
 > Images aren't visible on mobile clients.
@@ -207,7 +206,7 @@ While only licensed users who are assigned a meeting customization policy can cr
 - External Users
 - Anonymous users
 
-## How to turn off meeting themes for a meeting
+## Allow organizers to turn off meeting themes for a meeting
 
 Admins can allow meeting organizers to disable meeting themes for a specific meeting. Disabling meeting themes returns the meeting to the default Teams theme.
 
