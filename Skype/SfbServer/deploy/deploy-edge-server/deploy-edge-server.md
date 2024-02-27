@@ -26,11 +26,11 @@ Why deploy an Edge Server or an Edge pool into your Skype for Business Server en
   
 ## Deployment checklist for the Edge, for Skype for Business Server
 
-As noted above, a lot goes into an Edge Server deployment for Skype for Business Server. This checklist gives you an overview of the tasks you'll need to perform, and links to more detailed steps.
+As noted above, a lot goes into an Edge Server deployment for Skype for Business Server. This checklist gives you an overview of the tasks you need to perform, and links to more detailed steps.
   
 We hope you've begun in the [Plan for Edge Server deployments in Skype for Business Server](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) section. If not, many of the things we refer to are detailed there. The deployment section contains only procedures, so if you want to know the reasoning behind these steps, planning is the place to begin.
   
-This documentation also presumes you've already completed the Basic Deployment of Skype for Business Server. You may be doing that deployment side-by-side with the Edge, but you do need to follow those steps first, and then you'll be able to make the topology changes for the Edge that are documented here.
+This documentation also presumes you've already completed the Basic Deployment of Skype for Business Server. You might be doing that deployment side-by-side with the Edge, but you do need to follow those steps first, and then you'll be able to make the topology changes for the Edge that are documented here.
   
 These are the high-level steps you'll need to follow, and the places you'll find those steps:
   
