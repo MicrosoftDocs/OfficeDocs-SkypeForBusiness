@@ -89,8 +89,8 @@ Uploads must adhere to the following parameters. An admin can only upload:
 - Two variations of the logo images that appear on the Pre-Join and Lobby UI:
   - Dark theme brand logo
   - Light theme brand logo
-- Logo images with a maximum size of 5 MB.
-- Logo images with a minimum dimension of 576 x 576 pixels.
+- A logo image  with a maximum size of 5 MB.
+- A logo image with a minimum dimension of 576 x 576 pixels.
 - Upload one image per theme from your device.
 
 ### 3. Add a custom image
