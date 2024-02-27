@@ -31,7 +31,7 @@ Team members can listen and talk to other team members who are connected through
 With Walkie Talkie, users can communicate through a familiar PTT experience without needing to carry bulky radios. And because Walkie Talkie works over Wi-Fi or cellular data, your users can stay connected to and instantly communicate with their team from anywhere they have an internet connection.
 
 To learn more about the end-user experience, see [Get started with Teams Walkie Talkie](https://support.microsoft.com/office/get-started-with-teams-walkie-talkie-25bdc3d5-bbb2-41b7-89bf-650fae0c8e0c),
-[Communicate with your team with Walkie Talkie](https://support.microsoft.com/office/communicate-with-your-team-in-walkie-talkie-e4342550-5516-4451-b9ec-93166b60f8a4), and [Set up and use a wired headset with Walkie Talkie in Teams](https://support.microsoft.com/office/set-up-and-use-a-wired-headset-with-walkie-talkie-in-teams-ee17b280-ad3c-4d5c-b78c-146a7b39c285).
+[Communicate with your team with Walkie Talkie](https://support.microsoft.com/office/communicate-with-your-team-in-walkie-talkie-e4342550-5516-4451-b9ec-93166b60f8a4), and [Set up and use a wired headset with Walkie Talkie](https://support.microsoft.com/office/set-up-and-use-a-wired-headset-with-walkie-talkie-in-teams-ee17b280-ad3c-4d5c-b78c-146a7b39c285).
 
 > [!NOTE]
 > Walkie Talkie currently is not available in China.
