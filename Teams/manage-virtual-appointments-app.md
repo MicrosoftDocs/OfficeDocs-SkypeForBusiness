@@ -13,7 +13,7 @@ searchScope:
   - Microsoft Cloud for Healthcare
   - Microsoft Cloud for Retail
 audience: admin
-description: Learn how to manage the Virtual Appointments app for users in your organization.
+description: Learn how to manage the Virtual Appointments app which provides business-to-customer engagements, including scheduling, analytics, and management options.
 ms.localizationpriority: medium
 MS.collection: 
   - Teams_ITAdmin_Help

@@ -407,7 +407,7 @@ Learn more: [Manage accounts and organizations in Microsoft Teams](https://suppo
 
 ## Features currently not available in VDI with the new Teams
 
-- Screen sharing from chat for Azure Virtual Desktops/Windows 365. **Note:** Note: This issue is fixed on new WebRTC Redirector Service 2.0.2311.15001 and RD Client 1.2.5105.
+- Screen sharing from chat for Azure Virtual Desktops/Windows 365.
 - Screen sharing from chat for Citrix.
 - Give/Take control for Citrix and AVD/Windows 365.
 - HID support in headsets.
