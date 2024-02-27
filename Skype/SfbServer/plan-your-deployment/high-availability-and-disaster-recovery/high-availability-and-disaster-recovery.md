@@ -15,7 +15,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 3543eb40-54f4-49ef-a058-03aceed4773a
-description: "Skype for Business Server offers high availability with server pooling, disaster recovery with pool pairing, and several modes of Back End Server high availability, including AlwaysOn Availability groups, database mirroring, and SQL failover clustering."
+description: "Skype for Business Server offers high availability with server pooling, disaster recovery with pool pairing, and several modes of Back End Server availability. It includes AlwaysOn Availability groups, database mirroring, and SQL failover clustering."
 ---
 
 # Plan for high availability and disaster recovery in Skype for Business Server

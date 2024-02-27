@@ -98,8 +98,8 @@ Use one of the following procedures to create or modify a call park orbit range.
 
 ## See also
 
-[New-CsCallParkOrbit](/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
+[New-CsCallParkOrbit](/powershell/module/skype/new-cscallparkorbit?view=skype-ps&preserve-view=true)
 
-[Set-CsCallParkOrbit](/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
+[Set-CsCallParkOrbit](/powershell/module/skype/set-cscallparkorbit?view=skype-ps&preserve-view=true)
 
 [Delete a Call Park Orbit Range](/previous-versions/office/lync-server-2013/lync-server-2013-delete-a-call-park-orbit-range)

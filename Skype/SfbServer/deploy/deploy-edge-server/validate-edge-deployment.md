@@ -44,7 +44,7 @@ Any test for external user access needs to include each type of internal user yo
     
 - Users in your organization who are logged into Skype for Business remotely, but aren't using VPN.
     
-These tests will determine whether your Edge Server is:
+These tests determine whether your Microsoft Edge Server is:
   
 - Listening on the necessary ports by using a telnet client from outside your network.
     
@@ -54,7 +54,7 @@ These tests will determine whether your Edge Server is:
     
 - Performing accurate external DNS resolution.
     
-  - From outside your network, ping each of the external FQDNs of your Edge Server or Edge Server pool. Even if the ping fails, you'll see the IP addresses, which you can compare the IP addresses you've previously assigned.
+  - From outside your network, ping each of the external FQDNs of your Microsoft Edge Server or Microsoft Edge Server pool. Even if the ping fails, you see the IP addresses, with which you can compare the IP addresses you previously assigned.
     
 
 
