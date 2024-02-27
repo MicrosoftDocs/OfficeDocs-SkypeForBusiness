@@ -241,6 +241,6 @@ Here are a few points to ensure accessibility requirements are met:
 - Image Contrast Ratio – Image assets are required to meet the 4:5:1 color contrast ratio.  
 - Accessible Color Generation Support – We calculate the accessible color output that is the closest match to the brand color input while maintain Microsoft Accessibility standards.  
 - High Contrast support – For users with high contrast settings enabled, branding doesn't apply. They continue to see the default Teams meeting experience.
-- IT Admin Controls – IT Admins can prevent users with accessibility concerns from seeing the branding through:
+- Admin Controls – Admins can prevent users with accessibility concerns from seeing the branding through:
   - Policy control – ensuring they're not added to a customization policy. This control prevents them from creating branding-enabled meetings.
   - Meeting Options – meeting organizers can turn off branding for a meeting if a user with accessibility concerns joins their meeting.
