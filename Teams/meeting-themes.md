@@ -50,7 +50,7 @@ Before setting up meeting themes in Teams meetings, check to make sure you have 
 
 - The users who need to use meeting themes have a Teams Premium license.
 - You’re an admin with access to the Teams admin center or you have an assigned customization policy.
-- Your [custom logo](#add-a-custom-logo), [image](#add-a-custom-image), and [color](#add-a-custom-color) meet the required specifications.
+- Your [custom logo](#2-add-a-custom-logo), [image](#3-add-a-custom-image), and [color](#4-add-a-custom-color) meet the required specifications.
 
 ## Set up and manage meeting themes in the Teams admin center
 
