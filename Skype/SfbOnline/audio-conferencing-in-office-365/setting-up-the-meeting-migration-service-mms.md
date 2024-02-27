@@ -1,5 +1,5 @@
 ---
-ms.date: 11/28/2017
+ms.date: 01/10/2024
 title: "Using the Meeting Migration Service (MMS)"
 ms.author: serdars
 author: tonysmit
@@ -30,11 +30,12 @@ description: "Meeting Migration Service (MMS) is a service that runs in the back
 The Meeting Migration Service (MMS) is a service that updates a user’s existing meetings in the following scenarios:
 
 - When a user is migrated from on-premises to the cloud.
-- When an admin makes a change to the user’s audio conferencing settings
-- When an online user is upgraded to Teams only, or when a user's mode in TeamsUpgradePolicy is set to SfBwithTeamsCollabAndMeetings
-- When you use PowerShell
+- When an admin makes a change to the user’s audio conferencing settings.
+- When an online user is upgraded to Teams only, or when a user's mode in TeamsUpgradePolicy is set to SfBwithTeamsCollabAndMeetings.
+- When migrating from one Cloud Video Interop (CVI) partner to another. In this scenario the tenant key will be updated to reflect the new partner.
+- When admins use Start-CsExMeetingMigration cmdlet within the Teams PowerShell module.
 
-By default, MMS is automatically triggered in each of these cases. In addition, admins can use a PowerShell cmdlet to manually trigger meeting migration for a given user.
+By default, MMS is automatically triggered in each of these cases, except in the case of CVI migration. For CVI, MMS will need to be executed manually once the CsTeamsVideoInteropServicePolicy is changed to reflect the new partner. In addition, admins can use a PowerShell cmdlet to manually trigger meeting migration for a given user.
 
 **Limitations**: The meeting migration service can't be used if any of the following apply:
 
@@ -48,18 +49,18 @@ When MMS is triggered for a given user, a migration request for that user is pla
 1. It searches that user’s mailbox for all existing meetings organized by that user and scheduled in the future.
 2. Based on the information found in the user’s mailbox, it either updates or schedules new meetings in Teams for that user, depending on the exact scenario.
 3. In the email message, it replaces the online meeting block in the meeting details.
-4. It sends the updated version of that meeting to all meeting recipients on behalf of the meeting organizer. Meeting invitees will receive a meeting update with updated meeting coordinates in their email.
+1. It sends the updated version of that meeting to all meeting recipients on behalf of the meeting organizer. Meeting invitees will receive a meeting update with updated meeting coordinates in their email.
 
-    ![The meeting block that gets updated by MMS.](../images/210a03ee-30c1-46f3-808f-4c2ebdaa3ea1.png)
+ ![Screenshot that shows the meeting block that gets updated by MMS.](/skypeforbusiness/sfbonline/images/210a03ee-30c1-46f3-808f-4c2ebdaa3ea1.png)
 
 From the time MMS is triggered, it typically takes about 2 hours until the user’s meetings are migrated. However, if the user has a large number of meetings, it might take longer. If MMS encounters an error migrating one or more meetings for the user, it will periodically retry up to 9 times over the span of 24 hours.
 
 **Notes**:
 
 - MMS replaces everything in the online meeting information block when a meeting is migrated. Therefore, if a user has edited that block, their changes will be overwritten. Any content they have in the meeting details outside of the online meeting information block won't be affected. This means any files attached to the meeting invite will still be included.
-- Only the Skype for Business or Microsoft Teams meetings that were scheduled by clicking the **Add Skype meeting** button in Outlook on the Web or by using the Skype Meeting add-in for Outlook are migrated. If a user copies and pastes the Skype online meeting information from one meeting to a new meeting, that new meeting won't be updated since there is no meeting in the original service.
+- Only the Skype for Business or Microsoft Teams meetings that were scheduled by clicking the **Add Skype meeting** button in Outlook on the Web or by using the Skype Meeting add-in for Outlook are migrated. If a user copies and pastes the Skype online meeting information from one meeting to a new meeting, that new meeting won't be updated since there's no meeting in the original service.
 - Meeting content that was created or attached to the meeting (whiteboards, polls, and so on) won't be retained after MMS runs. If your meeting organizers have attached content to the meetings in advance, the content will need to be recreated after MMS runs.
-- The link to the shared meeting notes in the calendar item and also from within the Skype meeting also will be overwritten. Note that the actual meeting notes stored in OneNote will still be there; it is only the link to the shared notes that is overwritten.
+- The link to the shared meeting notes in the calendar item and also from within the Skype meeting also will be overwritten. Note that the actual meeting notes stored in OneNote will still be there; it's only the link to the shared notes that is overwritten.
 - Meetings with more than 250 attendees (including the organizer) won't be migrated.
 - Some UNICODE characters in the body of the invite might be incorrectly updated to one of the following special characters: ï, ¿, ½, �.
 
@@ -69,7 +70,7 @@ This section describes what happens when MMS is triggered in each of the followi
 
 - When a user is migrated from on-premises to the cloud
 - When an admin makes a change to the user’s audio conferencing settings
-- When the user's mode in TeamsUpgradePolicy is set to either TeamsOnly or SfBWithTeamsCollabAndMeetings (using either Powershell or the Teams Admin Portal)
+- When the user's mode in TeamsUpgradePolicy is set to either TeamsOnly or SfBWithTeamsCollabAndMeetings (using either PowerShell or the Teams Admin Portal)
 - When you use the PowerShell cmdlet, Start-CsExMeetingMigration
 
 ### Updating meetings when you move an on-premises user to the cloud
@@ -87,7 +88,7 @@ In the following cases, MMS will update existing Skype for Business and Microsof
 - When you enable or disable audio conferencing for a user.
 - When you change or reset the conference ID for a user configured to use public meetings.
 - When you move the user to a new audio conferencing bridge.
-- When a phone number from a audio conferencing bridge is unassigned. This is a complex scenario that requires additional steps. For more information, see [Change the phone numbers on your audio conferencing bridge](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
+- When a phone number from an audio conferencing bridge is unassigned. This is a complex scenario that requires additional steps. For more information, see [Change the phone numbers on your audio conferencing bridge](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
 
 Not all changes to a user's audio conferencing settings trigger MMS. Specifically, the following two changes won't result in MMS updating meetings:
 
@@ -96,7 +97,7 @@ Not all changes to a user's audio conferencing settings trigger MMS. Specificall
 
 ### Updating meetings when assigning TeamsUpgradePolicy
 
-By default, meeting migration is automatically triggered when a user is granted an instance of `TeamsUpgradePolicy` with `mode=TeamsOnly` or `mode= SfBWithTeamsCollabAndMeetings`. If you do not want to migrate meetings when granting either of these modes, then specify `MigrateMeetingsToTeams $false` in `Grant-CsTeamsUpgradePolicy` (if using PowerShell) or uncheck the box to migrate meetings when setting a user's coexistence mode (if using the Teams admin portal).
+By default, meeting migration is automatically triggered when a user is granted an instance of `TeamsUpgradePolicy` with `mode=TeamsOnly` or `mode= SfBWithTeamsCollabAndMeetings`. If you don't want to migrate meetings when granting either of these modes, then specify `MigrateMeetingsToTeams $false` in `Grant-CsTeamsUpgradePolicy` (if using PowerShell) or uncheck the box to migrate meetings when setting a user's coexistence mode (if using the Teams admin portal).
 
 Also note the following:
 
@@ -166,7 +167,7 @@ If you see any migrations that have failed, take action to resolve these issues 
     Get-CsMeetingMigrationStatus| Where {$_.State -eq "Failed"}| Format-Table UserPrincipalName, LastMessage
     ```
 
-2. For each affected user, review the value of LastMessage property to determine why the meeting migration failed and what corrective action to take. Once corrective action has been taken, re-trigger meeting migration for the affected users, using the `Start-CsExMeetingMigration` PowerShell cmldet, as described above.
+2. For each affected user, review the value of LastMessage property to determine why the meeting migration failed and what corrective action to take. Once corrective action has been taken, re-trigger meeting migration for the affected users, using the `Start-CsExMeetingMigration` PowerShell cmdlet, as described above.
 
 3. If migration still doesn't work, you have two options:
 
@@ -190,7 +191,7 @@ To see if MMS is enabled for your organization, run the following command. MMS i
 Get-CsTenantMigrationConfiguration
 ```
 
-If MMS is enabled in the organization and you want to check if it is enabled for audio conferencing updates, check the value of the `AutomaticallyMigrateUserMeetings` parameter in the output from `Get-CsOnlineDialInConferencingTenantSettings`. To enable or disable MMS for audio conferencing, use `Set-CsOnlineDialInConferencingTenantSettings`. For example, to disable MMS for audio conferencing, run the following command:
+If MMS is enabled in the organization and you want to check if it's enabled for audio conferencing updates, check the value of the `AutomaticallyMigrateUserMeetings` parameter in the output from `Get-CsOnlineDialInConferencingTenantSettings`. To enable or disable MMS for audio conferencing, use `Set-CsOnlineDialInConferencingTenantSettings`. For example, to disable MMS for audio conferencing, run the following command:
 
 ```PowerShell
 Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings $false

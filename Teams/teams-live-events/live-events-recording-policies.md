@@ -6,7 +6,7 @@ manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: christi.balaki
-ms.date: 06/10/2020
+ms.date: 01/16/2024
 audience: admin
 search.appverid: MET150
 f1.keywords:

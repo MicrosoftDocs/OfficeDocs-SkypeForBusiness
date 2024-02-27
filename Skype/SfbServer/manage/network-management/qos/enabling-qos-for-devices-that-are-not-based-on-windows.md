@@ -21,11 +21,11 @@ description: "Learn how to enable QoS for devices used in your organization that
 # Enabling QoS in Skype for Business Server for devices that are not based on Windows
 
 
-When you install Skype for Business Server, Quality of Service (QoS) will not be enabled for any devices used in your organization that use an operating system other than Windows. You can verify this by running the following command from within the Skype for Business ServerManagement Shell:
+When you install Skype for Business Server, Quality of Service (QoS) won't be enabled for any devices used in your organization that use an operating system other than Windows. You can verify it by running the following command from within the Skype for Business ServerManagement Shell:
 
 **Get-CsMediaConfiguration**
 
-Assuming you have not made any changes to your media configuration settings, you should get back information similar to this:
+Assuming you did not make any changes to your media configuration settings, you should get back information similar to this:
 
 Identity                          : Global<br/>
 EnableQoS                         : False<br/>
@@ -36,7 +36,7 @@ EnableG722StereoCodec             : True<br/>
 EnableH264Codec                   : True<br/>
 EnableAdaptiveBandwidthEstimation : True<br/>
 
-If the EnableQoS property is set to False (as in the preceding output) that means that Quality of Service is not enabled for computers and devices that use an operating system other than Windows.
+If the EnableQoS property is set to False (as in the preceding output) that means that Quality of Service isn't enabled for computers and devices that use an operating system other than Windows.
 
 To enable Quality of Service at the global scope, run the following command from within the Skype for Business Server Management Shell:
 
@@ -61,7 +61,7 @@ You can disable QoS for devices that use an operating system other than Windows 
 
 This gives you the ability to implement QoS on some portions of your network (for example, on the Redmond site) while leaving Quality of Service disabled on other portions of your network.
 
-QoS can only be enabled and disabled by using Windows PowerShell. These options are not available in the Skype for Business Server Control Panel.
+QoS can only be enabled and disabled by using Windows PowerShell. These options aren't available in the Skype for Business Server Control Panel.
 
 > [!NOTE]
 > Skype for Business clients for iOS Version 6.17 and later now support QoS.  This QoS capability is only applicable to Skype for Business clients and IP phone devices which are registered directly to an internal Skype for Business or Lync pool Server on managed networks. QoS is not applicable for traffic routed over the Internet.

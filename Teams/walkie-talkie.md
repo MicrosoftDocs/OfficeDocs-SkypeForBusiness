@@ -3,24 +3,20 @@ title: "Walkie Talkie app in Microsoft Teams"
 author: lana-chin
 ms.author: v-chinlana
 manager: jtremper
-ms.topic: reference
+ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: prastogi
-description: How to configure the Walkie Talkie app in Microsoft Teams, from an IT admin perspective.
+description: How to configure the Walkie Talkie app in Microsoft Teams, which provides push-to-talk communication for teams on Android and iOS devices.
 ms.localizationpriority: medium
 search.appverid: MET150
-f1.keywords:
-- NOCSH
+f1.keywords: NOCSH
 ms.collection: 
-  - M365-collaboration
-  - m365-frontline
-  - teams-1p-app-admin
-  - highpri
-ms.custom: 
-- Security
-appliesto: 
-  - Microsoft Teams
+- M365-collaboration
+- m365-frontline
+- teams-1p-app-admin
+- highpri
+appliesto: Microsoft Teams
 ms.date: 11/03/2023
 ---
 
