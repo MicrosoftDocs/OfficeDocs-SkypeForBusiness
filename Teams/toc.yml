@@ -956,6 +956,8 @@ items:
               href: inbound-call-routing.md
             - name: Block inbound calls
               href: block-inbound-calls.md
+            - name: Configure spam filtering
+              href: configure-call-spam-filtering.md
             - name: Configure call forwarding and delegation settings
               href: user-call-settings.md
             - name: Configure call park and retrieve
@@ -1008,6 +1010,8 @@ items:
           href: shared-line-appearance.md
         - name: Dial pad configuration
           href: dial-pad-configuration.md
+        - name: Call recording, transcription, and captions
+          href: call-recording-transcription-captions.md
         
 
     - name: PSTN connectivity options
