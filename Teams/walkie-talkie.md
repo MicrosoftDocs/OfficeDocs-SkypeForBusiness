@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: prkoduku
-description: How to configure the Walkie Talkie app in Microsoft Teams, which provides push-to-talk communication for teams on Android and iOS devices.
+description: How to manage the Walkie Talkie app in Microsoft Teams, which provides push-to-talk communication for teams on Android and iOS devices.
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords: NOCSH
@@ -17,7 +17,7 @@ ms.collection:
 - teams-1p-app-admin
 - highpri
 appliesto: Microsoft Teams
-ms.date: 11/03/2023
+ms.date: 02/27/2024
 ---
 
 # Manage the Walkie Talkie app in Microsoft Teams
@@ -30,8 +30,8 @@ Team members can listen and talk to other team members who are connected through
 
 With Walkie Talkie, users can communicate through a familiar PTT experience without needing to carry bulky radios. And because Walkie Talkie works over Wi-Fi or cellular data, your users can stay connected to and instantly communicate with their team from anywhere they have an internet connection.
 
-To learn more about the end-user experience, see [Get started with Teams Walkie Talkie](https://support.microsoft.com/office/get-started-with-teams-walkie-talkie-25bdc3d5-bbb2-41b7-89bf-650fae0c8e0c) and
-[Communicate with your team with Walkie Talkie](https://support.microsoft.com/office/communicate-with-your-team-in-walkie-talkie-e4342550-5516-4451-b9ec-93166b60f8a4).
+To learn more about the end-user experience, see [Get started with Teams Walkie Talkie](https://support.microsoft.com/office/get-started-with-teams-walkie-talkie-25bdc3d5-bbb2-41b7-89bf-650fae0c8e0c),
+[Communicate with your team with Walkie Talkie](https://support.microsoft.com/office/communicate-with-your-team-in-walkie-talkie-e4342550-5516-4451-b9ec-93166b60f8a4), and [Set up and use a wired headset with Walkie Talkie in Teams](https://support.microsoft.com/office/set-up-and-use-a-wired-headset-with-walkie-talkie-in-teams-ee17b280-ad3c-4d5c-b78c-146a7b39c285).
 
 > [!NOTE]
 > Walkie Talkie currently is not available in China.
@@ -149,42 +149,9 @@ Walkie Talkie is integrated with a range of specialized headsets and devices tha
 |Crosscall    |[Core-X4](https://www.crosscall.com/en_FR/core-x4-1001010801327.html), [Core-M5](https://www.crosscall.com/en_FR/core-m5-1001011101114.html), [Action-X5](https://www.crosscall.com/en_FR/action-x5-1001020701220.html), [Core-X5](https://www.crosscall.com/en_FR/core-x5-1001010701695.html), [Core-T5](https://www.crosscall.com/en_FR/core-t5-1003011401749.html)|Manual setup: With Teams installed, go to **Settings** > **Buttons**. On the Dedicated button (1 or 2), select **Long press**, and then choose **PTT App**. Select the blue wheel next to **Custom**, and select **Teams**. |
 |Kyocera    |[DuraForce Ultra 5G](https://kyoceramobile.com/duraforce-ultra-5g/), [DuraSport 5G](https://kyoceramobile.com/durasport-5g/) |Manual setup: With Teams installed, go to **Settings** > **Programmable keys**. Choose **PTT key** or **Press and hold** (depending on the device), and select **Teams**.         |
 |Honeywell    |[CT30 XP](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/ct30-xp-handheld-computer), [CT30 XP HC](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/ct30-xp-hc-mobile-computer), [EDA51](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/scanpal-eda51-handheld-computer), [EDA52](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/eda52-handheld-computer), [EDA52 HC](https://sps.honeywell.com/gb/en/products/productivity/mobile-computers/healthcare-computers/scanpal-eda52-healthcare-mobile-computer)          |Manual setup: With Teams installed, the dedicated PTT button works with Walkie Talkie by default.<br>**Important**: Customers using Honeywell CT30 should upgrade to Android version: **A11 HON4290 MR14**.         |
-|Samsung    |Galaxy XCover 7, [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/), [Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy), [Galaxy Tab Active 5](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/), [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)         |<ul><li>Manual setup: With Teams installed, go to **Settings** > **Advanced Features** > **XCover/Active key**. Turn on **Control XCover key with app**, and select **Teams**.</li><li>[MDM setup](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)</li></ul>         |
+|Samsung    |[Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/), [Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy), [Galaxy Tab Active 5](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/), [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)         |<ul><li>Manual setup: With Teams installed, go to **Settings** > **Advanced Features** > **XCover/Active key**. Turn on **Control XCover key with app**, and select **Teams**.</li><li>[MDM setup](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)</li></ul>         |
 |Sonim |XP8        |Manual setup: With Teams installed, go to **Settings** > **Programmable Keys**. Choose **Select PTT Key app**, and select **Teams**.         |
 |Zebra    |[TC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc5x-series.html), [TC15](https://www.zebra.com/gb/en/products/mobile-computers/handheld/tc15.html) (not available in North America), [TC5301](https://www.zebra.com/us/en/products/spec-sheets/mobile-computers/handheld/tc53-tc58.html) , [TC7x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc72-tc77-series-touch-computer.html), [TC2x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc21-tc26.html), [EC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec50-ec55.html), [MC3300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc3300.html), [MC9300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc9300.html), [ET40](https://www.zebra.com/us/en/products/spec-sheets/tablets/et40-et45.html)         |Manual setup: With Teams installed, the dedicated PTT button (LEFT_TRIGGER_2) works with Walkie Talkie by default.         |
-
-<!--- Generic wired (USBc and 3.5mm) headsets that have a play/pause button. Tapping the pause/play button starts and ends tranmissions on Walkie Talkie in toggle–to-talk (TTT) mode.
-- Specialized headsets and devices that have a dedicated PTT button. Pressing the PTT button on the headset or device brings up Walkie Talkie for instant communication. Here's the list of the specialized headsets and devices from our partners that Walkie Talkie is integrated with.-->
-
-<!--**Wireless headsets (iOS and Android)**
-
-- [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie)
-  - [B450-XT](https://www.blueparrott.ca/on-the-road-headsets/blueparrott-b450-xt), firmware version 1.07
-  - [C300-XT](https://www.blueparrott.ca/on-the-road-headsets/blueparrott-c300-xt), firmware version 1.30
-- Jabra
-  - [Perform 45](https://www.jabra.ca/bluetooth-headsets/jabra-perform-45)
-
-**Wired headsets (Android only)**
-
-- [Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/)
-  - 3.5mm
-  - USBc-->
-
-<!--- Crosscall [Core-X4](https://www.crosscall.com/en_FR/core-x4-1001010801327.html), [Core-M5](https://www.crosscall.com/en_FR/core-m5-1001011101114.html), [Action-X5](https://www.crosscall.com/en_FR/action-x5-1001020701220.html), [Core-X5](https://www.crosscall.com/en_FR/core-x5-1001010701695.html), [Core-T5](https://www.crosscall.com/en_FR/core-t5-1003011401749.html)
-  - Manual setup: With Teams installed, go to **Settings** > **Buttons**. On the Dedicated button (1 or 2), select **Long press**, and then choose **PTT App**. Select the blue wheel next to **Custom**, and select **Teams**.
-- Kyocera [DuraForce Ultra 5G](https://kyoceramobile.com/duraforce-ultra-5g/) and [DuraSport 5G](https://kyoceramobile.com/durasport-5g/)
-  - Manual setup: With Teams installed, go to **Settings** > **Programmable keys**. Choose **PTT key** or **Press and hold** (depending on the device), and select **Teams**.
-- Honeywell [CT30 XP](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/ct30-xp-handheld-computer), [CT30 XP HC](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/ct30-xp-hc-mobile-computer), [EDA51](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/scanpal-eda51-handheld-computer), [EDA52](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/eda52-handheld-computer), [EDA52 HC](https://sps.honeywell.com/gb/en/products/productivity/mobile-computers/healthcare-computers/scanpal-eda52-healthcare-mobile-computer)
-    - Manual setup: With Teams installed, the dedicated PTT button works with Walkie Talkie by default.
-       > [!IMPORTANT]
-       > Customers using Honeywell CT30 should upgrade to Android version: **A11 HON4290 MR14**.
-- Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/), [Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy), [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
-  - Manual setup: With Teams installed, go to **Settings** > **Advanced Features** > **XCover/Active key**. Turn on **Control XCover key with app**, and select **Teams**.
-  - [MDM setup](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
-- Sonim XP8
-  - Manual setup: With Teams installed, go to **Settings** > **Programmable Keys**. Choose **Select PTT Key app**, and select **Teams**.
-- Zebra [TC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc5x-series.html), [TC15](https://www.zebra.com/gb/en/products/mobile-computers/handheld/tc15.html), [TC5301](https://www.zebra.com/us/en/products/spec-sheets/mobile-computers/handheld/tc53-tc58.html) , [TC7x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc72-tc77-series-touch-computer.html), [TC2x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc21-tc26.html), [EC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec50-ec55.html), [EC30](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec30.html), [MC3300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc3300.html), [MC9300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc9300.html), [ET40](https://www.zebra.com/us/en/products/spec-sheets/tablets/et40-et45.html)
-  - Manual setup: With Teams installed, the dedicated PTT button (LEFT_TRIGGER_2) works with Walkie Talkie by default.-->
 
 > [!NOTE]
 > These headsets and devices are not Teams certified. They have been validated to work with Walkie Talkie in Teams.
