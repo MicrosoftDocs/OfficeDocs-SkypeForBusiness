@@ -16,7 +16,8 @@ ms.collection:
 - m365-frontline
 - teams-1p-app-admin
 - highpri
-appliesto: Microsoft Teams
+appliesto: 
+  - Microsoft Teams
 ms.date: 02/27/2024
 ---
 
