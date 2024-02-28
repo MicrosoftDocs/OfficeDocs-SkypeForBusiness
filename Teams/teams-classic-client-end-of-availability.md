@@ -106,9 +106,6 @@ After this process is complete, classic Teams will be unavailable for different 
 |Unsupported OS users (including Win 10 LTSC)     |June 30 2024  |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites) |
 |Policy and prerequisite blocked users            |June 30 2024  |[Troubleshooting installation issues in the new Teams client](new-teams-troubleshooting-installation.md) |
 
-
-
-
 ## User experience
 
 ### What users will experience after March 31 2024
@@ -154,9 +151,9 @@ Once classic Teams is no longer available for you, you're going to see a dialog 
 
 :::image type="content" source="media/teams-client-eol-notification-box.png" alt-text="Teams dialog box that appears after classic Teams no longer works, if you're unable to be updated to the new Teams client. The notification box has a link to requirements and a button that takes you to Teams on the web.":::
 
-To use Teams after this point, install the new Teams client or use Teams on the web.
+To use Teams after this point, ensure you meet all the prerequisites to install the new Teams client or use Teams on the web.
 
-If you fall under the June 30 2024 list items and you aren’t able to be updated at the end of March, your classic Teams client will continue to run until June 30 2024. There will continue to be a warning banner at the top of your client. We do ask that users update their OS and address any other issues to continue using the Teams client after this time, as new features are only being added to the new Teams client.
+Classic Teams users who have encountered issues moving to new Teams or who don't meet the [prerequisites](new-teams-deploy-using-policies.md#prerequisites) to upgrade will still have access to the classic Teams client until July 01 2024 at the earliest. This gives admins more time to address any issues encountered during this process. We do ask that users update their OS and address any other issues to continue using the Teams client after this time, as new features are only being added to the new Teams client.
 
 ## Admin experience
 
