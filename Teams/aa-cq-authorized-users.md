@@ -31,10 +31,48 @@ The Teams user accesses these configuration items through their Teams desktop cl
 
 ## Requirements for setting up authorized users
 
+To create an authorized user, you must complete the following steps:
+
+- Step 1 - Assign licenses and enable users for voice
+- Step 2 - Assign phone numbers to your users
+- Step 3 - Create a Teams voice applications policy
+- Step 4 - Create an Auto attendant or Call queue
+- Step 5 - Assign the voice applications policy to the user
+- Step 6 - Assign authorized users to the relevant Auto attendant or Call queue
+
 There are two required configuration steps to set up an authorized user:
 
-1. The first step is to create a [Teams voice applications policy](manage-voice-applications-policies.md) that turns on the change functionality that the user needs and to assign that policy to the user.
-1. The second step is to assign the user as an *Authorized user* to at least one Auto attendant or Call queue. There is a maximum of 15 authorized users per each Auto attendant or Call queue.
+## Step 1: Assign licenses and enable users for voice
+
+> [!NOTE]
+> In order for your users to use the Queues App, they need to have a Teams Phone and Teams Premium license assigned to them. For a list of authorized user settings that can be used outside of the Queues App, see [Manage Teams voice applications policies](manage-voice-applications-policies.md).
+
+To assign a Teams Phone and Teams Premium license, do the following steps:
+
+1. Use the Microsoft 365 admin center and go to **Billing** > **Licenses**.
+1. Select your Teams Phone license. On the product details page, select **Assign licenses** and assign the license to your users.
+1. Select Assign once you're finished.
+1. Repeat Steps 2 and 3 for a Teams Premium license.
+
+## Step 2: Assign phone numbers to your users
+
+
+
+## Step 3: Create a Teams voice applications policy
+
+After assigning phone numbers to your users, you need to create a [Teams voice applications policy](manage-voice-applications-policies.md) that turns on the change functionality that the user needs and to assign that policy to the user.
+
+## Step 4: Create an Auto attendant or Call queue
+
+If you haven't already done so, you need to create an [Auto attendant](create-a-phone-system-auto-attendant.md) or [Call queue](create-a-phone-system-call-queue.md) that the user will be authorized to manage.
+
+## Step 5: Assign the voice applications policy to the user
+
+
+
+## Step 6: Assign authorized users to the relevant Auto attendant or Call queue
+
+The second step is to assign the user as an *Authorized user* to at least one Auto attendant or Call queue. There is a maximum of 15 authorized users per each Auto attendant or Call queue.
 
 > [!IMPORTANT]
 > A user must have a policy assigned that enables at least one type of configuration change and must also be assigned as an authorized user to at least one Auto attendant or Call queue.
