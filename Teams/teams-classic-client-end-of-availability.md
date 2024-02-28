@@ -160,7 +160,7 @@ In the Teams admin center:
 
 ### Users
 
-- **If a user has both clients installed:** Only new Teams will work after the end of availability, and we'll attempt to uninstall the classic Teams client as per  
+- **If a user has both clients installed:** Only new Teams will work after the end of availability, and we'll attempt to uninstall the classic Teams client after 14 days.
 - **If only the new Teams client is installed:** There won’t be any difference.
 - **If a user can’t install the new Teams client due to a reason outlined in the previous table, such as unsupported OS (including Win 10 LTSC):** These users will be allowed to use classic Teams until June 30, 2024 to allow for updating operating system to modifying permissions etc. After June 30 2024, classic Teams won't work.
 
