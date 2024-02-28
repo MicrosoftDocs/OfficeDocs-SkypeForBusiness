@@ -47,7 +47,7 @@ Apps update on their own if there's no change in functionality or request for or
 When developers create a new version of an app, they can change the above values in the [app manifest file](/microsoftteams/platform/resources/schema/manifest-schema) or change the required permissions in their Microsoft Entra ID or both. Any of these changes lead to a change in app permissions. Hence, an update requires admin approval.
 
 > [!TIP]
-> Request your admin team to regularly monitor the [Message Center posts](/microsoft-365/admin/manage/message-center?view=o365-worldwide) in Microsoft 365 admin center, to stay informed of the upcoming changes to Teams apps governance methods or permissions. We recommend admin actions for smooth app updates in case of major changes. Know the [roles that can view Message Center posts](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide#commonly-used-microsoft-365-admin-center-roles).
+> Request your admin team to regularly monitor the [Message Center posts](/microsoft-365/admin/manage/message-center?view=o365-worldwide&preserve-view=true) in Microsoft 365 admin center, to stay informed of the upcoming changes to Teams apps governance methods or permissions. We recommend admin actions for smooth app updates in case of major changes. Know the [roles that can view Message Center posts](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide#commonly-used-microsoft-365-admin-center-roles&preserve-view=true).
 
 ## Update to new version by users and admins
 
