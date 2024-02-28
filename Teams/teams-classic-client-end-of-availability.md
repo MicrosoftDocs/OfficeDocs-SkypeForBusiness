@@ -35,6 +35,10 @@ This rollout is going to differ based on your Teams Admin Center policy controls
 > [!NOTE]
 > This timeline doesn't apply to GCC, GCCHigh, DoD, Gallatin, AG. We cover this in a later section. XXX
 
+> [!NOTE]
+> The unavailability of classic Teams and dates mentioned in this article don't currently apply to Windows 10 users signed into Teams for Life or users signed into both Teams for Life and Teams for Work.
+
+
 - Microsoft-managed rollout: If you left the policy controls at their defaults state of Microsoft-controlled, we'll continue rolling out new Teams as per the schedule outlined above, with one update: We won't proceed with the uninstallation of the classic Teams client for 14 days.
 - Admin-managed rollout: Admins can choose to control the new Teams rollout as outlined in [Upgrade to the new Teams using policies](new-teams-deploy-using-policies.md). These policies will no longer be honored at the start of April, apart from your VDI users, and the following changes will happen:
   - New Teams will be installed and become the default client. The toggle to return to classic Teams will still be available if needed.
@@ -145,9 +149,6 @@ In the Teams admin center:
   - In mid-May, new Teams will be installed, and the toggle to return to classic Teams will no longer be available. We'll attempt to uninstall classic Teams, currently after a period of 14 days.
 
 ## Frequently Asked Questions
-
-> [!NOTE]
-> The unavailability of classic Teams and dates mentioned in this article don't currently apply to Windows 10 users signed into Teams for Life or users signed into both Teams for Life and Teams for Work.
 
 ### Users
 
