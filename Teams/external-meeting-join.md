@@ -71,7 +71,7 @@ Before you can run these cmdlets, you must be connected to Microsoft Teams Power
 
 For more information on PowerShell cmdlets for Teams meetings, see the [Related topics](#related-topics) section.
 
-For users to only join meetings that are in org or hosted by orgs that you have a trusted relationship with, run the following script, use the following script:
+For users to only join meetings that are in org or hosted by orgs that you have a trusted relationship with, use the following script:
 
 ```powershell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -ExternalMeetingJoin  EnabledForTrustedOrgs

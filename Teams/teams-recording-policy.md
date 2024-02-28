@@ -307,8 +307,13 @@ The following partners are in the process of certifying their solution for Micro
 
 This list gets updated as more partners join and meet the certification criteria.
 
+## Support boundaries
+
+Microsoft only supports Compliance Recording solutions from the certified partners. If there are issues, you must contact your Compliance Recording partner first. If needed, the Compliance Recording partner will bring the issue to Microsoft through internal channels. Microsoft may reject support cases where a non-certified Compliance Recording solution is used, or if investigation shows the issue is one that the partner can address.
+
 ## Next steps
 
 If you need to provide more context and details, send a mail to [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com). If you're a vendor seeking to join the certification program, fill out the calling platform intake as the next step.
+
 
 ### [Calling Platform Intake](https://aka.ms/CallingPlatformIntake)
