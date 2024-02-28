@@ -129,7 +129,8 @@ Here's a list of the banner messages you may experience after January 31 2024:
 |Microsoft can't update because of policy restrictions (Commercial) |Classic Teams will soon be unavailable for use, and we can't update to the new Teams due to org policy. For more info, contact your IT admin. Learn more |[Troubleshooting installation issues in the new Teams client](new-teams-troubleshooting-installation.md) |
 |If your Teams update policy is set to **Not enabled** |Classic Teams  will soon be unavailable for use. Contact your IT admin to switch to the new Teams. Learn more |[Classic Teams users to be updated to new Teams after March 31, 2024](new-teams-deploy-using-policies.md) |
 
-Classic Teams will remain available to use until March 31 2024. However, we highly encourage admins to update their users to new Teams, as new features are only being added to the new Teams client. Learn more in the [Upgrade to the new Teams using policies](new-teams-deploy-using-policies.md) article.
+
+Classic Teams will remain available to use as per defined in the above timelines. However, we highly encourage admins to update their users to new Teams, as new features are only being added to the new Teams client. Learn more in the [Upgrade to the new Teams using policies](new-teams-deploy-using-policies.md) article.
 
 If users are on an unsupported OS (including Win 10 LTSC), you’ll see a slightly different banner messaging:
 
