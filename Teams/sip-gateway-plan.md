@@ -144,7 +144,7 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |ATA 402  |4.0.1.6480     |4.0.1.6480  |   |   |
 |          |OBi 300  |3.2.4.8441     |3.2.5.8732  |   |   |
 |          |OBi 302  |3.2.4.8441     |3.2.5.8732  |   |   |
-|**Yealink**|          |            |           |   |[Yealink support](https://support.yealink.com/)|
+|**Yealink**|          |            |           |   |[Yealink support](https://support.yealink.com/portal/home)|
 |          |T21P       |83          |34.72.0.75 |   |   |
 |          |T21P_E2    |83          |52.84.0.125|   |   |
 |          |T23G       |83          |44.84.0.140|   |   |
