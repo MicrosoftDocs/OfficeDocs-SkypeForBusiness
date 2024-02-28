@@ -80,7 +80,7 @@ Admin-managed tenants. Admins may choose to control their new Teams rollout by s
 In April, we'll have guidance on end of support policies for the classic Teams client.
 
 
-
+XXX
 
 
 - Microsoft-managed rollout: If you left the policy controls at their defaults state of Microsoft-controlled, we'll continue rolling out new Teams as per the schedule outlined above, with one update: We won't proceed with the uninstallation of the classic Teams client for 14 days.
@@ -88,23 +88,7 @@ In April, we'll have guidance on end of support policies for the classic Teams c
   - New Teams will be installed and become the default client. The toggle to return to classic Teams will still be available if needed.
   - In mid-May, any users remaining on classic Teams will be switched to new Teams, and the toggle to return to classic Teams will no longer be available. We'll attempt to uninstall classic Teams, currently after a period of 14 days.
 
-
-
-
 After this process is complete, classic Teams will be unavailable for different users as outlined in this table:
-
-|Availability area                                | Date         |Link |
-|-------------------------------------------------|--------------|-----|
-|Windows                                          |March 31 2024 |     |
-|Mac                                              |March 31 2024 |     |
-|EDU                                              |March 31 2024 |     |
-|Web                                              |March 31 2024 |     |
-|Government Cloud (GCC, GCC High)                 |May 31 2024   |     |
-|Government Cloud (DOD)                           |June 30 2024  |     |
-|Microsoft 365 operated by 21Vianet in China      |June 30 2024  |     |
-|VDI                                              |June 30 2024  | [Upgrade to new Teams for Virtualized Desktop Infrastructure (VDI)](new-teams-vdi-requirements-deploy.md) |
-|Unsupported OS users (including Win 10 LTSC)     |June 30 2024  |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites) |
-|Policy and prerequisite blocked users            |June 30 2024  |[Troubleshooting installation issues in the new Teams client](new-teams-troubleshooting-installation.md) |
 
 ## User experience
 
@@ -176,7 +160,7 @@ In the Teams admin center:
 
 ### Users
 
-- **If a user has both clients installed:** Only new Teams will work after the end of availability, and we'll attempt to uninstall the classic Teams client as per  XXX
+- **If a user has both clients installed:** Only new Teams will work after the end of availability, and we'll attempt to uninstall the classic Teams client as per  
 - **If only the new Teams client is installed:** There won’t be any difference.
 - **If a user can’t install the new Teams client due to a reason outlined in the previous table, such as unsupported OS (including Win 10 LTSC):** These users will be allowed to use classic Teams until June 30, 2024 to allow for updating operating system to modifying permissions etc. After June 30 2024, classic Teams won't work.
 
