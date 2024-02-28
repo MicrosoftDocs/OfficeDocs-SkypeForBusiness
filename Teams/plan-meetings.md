@@ -52,7 +52,7 @@ The following table shows the policy settings that are similar between meetings 
 |Transcribe a meeting or call|[Transcription](meeting-transcription-captions.md)|Transcription|
 |See closed captions in a meeting or call|[Live captions](meeting-transcription-captions.md)|Real-time captions in Teams calls|
 
-For information about calling policies, see [Calling policies in Teams](teams-calling-policy.md).
+For information about calling policies, see [Configure calling policies in Teams](teams-calling-policy.md).
 
 ## Recordings
 
