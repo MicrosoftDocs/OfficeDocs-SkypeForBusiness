@@ -30,20 +30,20 @@ SIP Gateway lets your organization use any compatible SIP device with Microsoft 
 
 ## Benefits of SIP Gateway
 
-SIP Gateway connects compatible SIP devices to Teams to help your users migrate seamlessly to Teams telephony. Using SIP Gateway, your users can do all of the following:
+A SIP gateway lets compatible SIP devices connect seamlessly to Teams for calling features and lets them do the  following:
 
 - **Make calls:** SIP device users can make calls to the Public Switched Telephone Network (PSTN), to other SIP devices, and to Teams and Skype for Business users. SIP device users can only call users who have phone numbers.
-- **Receive calls:** SIP device users can receive a call from the PSTN, from Teams or Skype for Business users who have SIP devices, and from Teams and Skype for Business client applications. The SIP device acts as a Teams endpoint. Inbound calls will also be forked to the user's SIP device.
+- **Receive calls:** SIP device users can receive a call from the PSTN, from other Teams or Skype for Business users who have SIP devices, and from Teams and Skype for Business applications. The SIP device acts as a Teams endpoint. Inbound calls will be received on the user's SIP device.
 - **Multiple simultaneous calls:** A SIP device user in a call can put the call on hold to make or receive other calls. A SIP device user can also conference two calls.
 - **Hold/Resume and Mute/Unmute:** A SIP device user can hold and resume or mute and unmute a call by using the features for those actions on the device.
 - **Voicemail:** SIP device users can listen to electronically stored voice messages that callers leave for them.
 - **Message waiting indicator:** SIP device users can receive notifications that alert them when they have new voicemail messages.
 - **Sign-in and sign-out:** SIP devices users can sign in and sign out of Teams on the device.
 - **Dual-tone multi-frequency:** SIP device users can press number keys to provide input during interactive voice response calls.
-- **Teams meetings:** A SIP device user can join a Teams meeting by dialing the meeting access number. Meeting participants can add a SIP device user to the meeting by dialing out to user's phone number or simply adding a participant by clicking on 'Request to Join' will also alert the user's SIP device. Guest users from another organization can be added to a Teams meeting by a participant who dials out to a guest user's number to include that guest.
+- **Teams meetings:** A user's SIP device can join Teams meetings by dialing into the meeting using a phone number. A meeting participants can add a internal and external guests to a meeting by dialing out to user's phone number or can add them by using the 'Request to Join' button.
 - **Call transfers:** SIP device users can transfer calls. SIP Gateway supports both blind and consultative transfers.
-- **Local call forwarding:** A SIP device user can set forwarding rules (always, on timeout, and busy) for the device. If the device is connected to the SIP Gateway, then the call will be redirected to the target address based on the rule that the device user set. To make local call forwarding work, the admin must set the `AllowCallRedirect` attribute in `Set-CsTeamsCallingPolicy` to `Enabled`.
-- **Offboard stale devices:** SIP Gateway supports auto offboarding of stale devices provisioned for a tenant. Paired (signed-in) devices will be offboarded if not connected for 30 days, and unpaired (signed-out) devices after 14 days. An offboarded device can be re-onboarded after a factory reset.
+- **Local call forwarding:** A user can set forwarding rules (always, on timeout, and busy) for the device. If the device is connected to the SIP Gateway, then the call will be sent to the calls enpoint based on the rule that the user has set. To make local call forwarding work, the admin must set the `AllowCallRedirect` attribute in `Set-CsTeamsCallingPolicy` to `Enabled`.
+- **Off board stale devices:** A SIP gateway supports auto offboarding of stale devices provisioned for a tenant. Paired (signed-in) devices will be off boarded if not connected for 30 days, and unpaired (signed-out) devices after 14 days. A device that has been off boarded can be onboarded again after a factory reset.
 - **Set DND from SIP devices:** You can use your SIP device for setting and fetching your Teams Do Not Disturb (DND) status. To set the DND status for your Teams account from your SIP device, dial the feature code \*30\* on the SIP device. To reset your Teams DND status, dial \*31\* from the SIP device. Dialing \*31\* clears the user-configured presence status, in this case DND.
 - **Call Queues and voice apps support:** Customers can use SIP devices as call queue agents with some restrictions, for instance, SIP Gateway doesn't publish presence for devices hence presence based routing is not supported.
 
@@ -104,7 +104,7 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |8865<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
 |          |ATA191-MPP       |11.2.2MPP   |11-2-2MPP0101-013  |   |   |
 |          |ATA192-MPP       |11.2.2MPP   |11-2-2MPP0101-013  |   |   |
-|**Poly**  |           |            |           |The device will auto-reboot and install the selected firmware.|   |
+|**Poly**  |           |            |           |The device will auto reboot and install the selected firmware.|   |
 |          |Trio 8500  |5.9.5.3182  |7.2.2.1094 |   |   |
 |          |Trio 8800  |5.9.5.3182  |7.2.2.1094 |   |   |
 |          |VVX150<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
@@ -288,7 +288,7 @@ If you have a 3PIP or SIP device, you must have the following:
 > Gigaset Handsets receive firmware updates over the air from Gigaset IP-DECT servers. All Gigaset PRO DECT Handset models are compatible with Microsoft Teams SIP Gateway.
 
 > [!NOTE]
-> For Yealink DECT Base Stations, please use the appropriate region specific firmware version listed above for having the best calling experience.
+> For Yealink DECT Base Stations, please use the appropriate region specific firmware version from the list to have the best calling experience.
 
 > [!NOTE]
 > For support queries, customers using IP-DECT systems with Teams SIP Gateway should reach out to their DECT manufacturer or their implementation channel partners.
@@ -297,7 +297,7 @@ If you have a 3PIP or SIP device, you must have the following:
 > For some devices, the minimum firmware version is greater than the approved firmware version. This is because the 3.X version is the Skype for Business version. We update the SIP version which is 2.X.
 
 > [!NOTE]
-> For support queries, customers using the above listed Algo Solutions' SIP enabled endpoints with Teams SIP Gateway should reach out to Algo Solutions.
+> For support queries, customers using the Algo Solutions' SIP enabled endpoints listed with Teams SIP Gateway should reach out directly to Algo Solutions.
 > [General Information on Algo integration with Teams](https://www.algosolutions.com/solutions/compatibility/msteams/)
 > [Configuration Guide](https://www.algosolutions.com/wp-content/uploads/2023/04/Configuration-Guide-Teams-2023.pdf)
 > [Troubleshooting Guide](https://www.algosolutions.com/wp-content/uploads/2023/07/Troubleshooting-Algo-Devices-in-MS-Teams.pdf)
