@@ -44,11 +44,11 @@ Before you can enable an eCDN solution to be used with Teams, you must purchase 
 Several eCDN solutions are preintegrated and can be enabled for use with Teams. See information about the providers in the next section.
 
 > [!IMPORTANT]
-> Teams Premium features require the Microsoft eCDN. Streaming events organized by people with a Teams Premium license always use the Microsoft eCDN even if you've configured a different option.
+> At this time, Teams Premium features for town halls are compatible with Microsoft eCDN. When organizers with a Teams Premium license create town halls, the Microsoft eCDN is always used even if you've configured a different option.
 
 ### Microsoft eCDN (Teams Premium)
 
-**Microsoft eCDN** solves the network congestion problem that occurs during large corporate virtual events such as all-hands meetings. Microsoft eCDN is the only eCDN option for Teams Premium town hall organizers. Microsoft eCDN forms a mesh network over the LAN, which reduces the load by 95% and eliminates network issues. Microsoft eCDN is the first eCDN to use WebRTC as its foundation, which means no software or hardware installation is needed. Fortune 500 customers mitigate networking issues and trust Peer5 for their biggest corporate events.
+**Microsoft eCDN** solves the network congestion problem that occurs during large corporate virtual events such as all-hands meetings. Microsoft eCDN is the only eCDN option for Teams Premium town hall organizers. Microsoft eCDN forms a mesh network over the LAN, which reduces the load by 95% and eliminates network issues. Microsoft eCDN is the first eCDN to use WebRTC as its foundation, which means no software or hardware installation is needed. Fortune 500 customers mitigate networking issues and trust Microsoft eCDN for their biggest corporate events.
 
 - Zero-setup network configuration for Microsoft eCDN ensures that remote workers and/or heavy video traffic doesn't strain your network nor oblige you to invest in costly infrastructure. It includes automatic site detection, automatic VPN detection, and automatic NAT/firewall traversal. Learn more at [How to enable Microsoft eCDN](/ecdn/how-to/enable-microsoft-ecdn-for-your-tenant).
 - Silent Testing with Microsoft eCDN allows IT admins to simulate large events on their corporate network, permitting thorough and nondisruptive testing and troubleshooting before a real event. Learn more at [Perform a silent test](/ecdn/how-to/perform-silent-test).

@@ -1,7 +1,7 @@
 ---
 title: Audit logging in the MTR Pro Portal
-author: altsou
-ms.author: altsou
+author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: altsou
 ms.date: 11/30/2021

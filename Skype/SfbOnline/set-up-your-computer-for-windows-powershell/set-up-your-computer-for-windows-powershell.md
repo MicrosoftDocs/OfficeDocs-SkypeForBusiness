@@ -3,7 +3,7 @@ ms.date: 11/28/2017
 title: "Set up your computer for Windows PowerShell"
 ms.reviewer: 
 ms.author: serdars
-author: tonysmit
+author: pamgreen
 manager: serdars
 ms.topic: article
 ms.assetid: ebf5adf0-d848-4e99-baf4-387d1711e1d0

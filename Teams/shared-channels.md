@@ -142,9 +142,58 @@ The following articles might be helpful for the users in your organization when 
 
 [Shared channel owner and member roles in Teams](https://support.microsoft.com/office/75b379f4-8e9c-4202-acf1-6ffc3878a2d7)
 
+## Compliance in shared channels
+
+Shared channels are integrated with Microsoft Purview features.
+
+### Communications compliance
+
+Admins can set policies to monitor content for all users in the channel. All messages content in channels, including shared channels, is covered by [communication compliance policies](/microsoft-365/compliance/communication-compliance). Shared channels inherit the policy of the host organization.
+
+### Conditional access
+
+Supported [conditional access policies](/entra/identity/conditional-access/overview) from the host organization can be applied to B2B direct connect users. (The external organization's policies are not used.) The following types of conditional access policies are supported with shared channels:
+
+- Policies that are scoped to **All guest and external users**, and the **Office 365 SharePoint Online** cloud app.
+- Grant Access controls that require MFA, a compliant device, or a Microsoft Entra hybrid joined device.
+
+IP-based policies are supported at the SharePoint file level. So an external participant could access shared channel from a restricted location, but be blocked when trying to open a file.
+
+For more information about conditional access for external identities, see [Authentication and Conditional Access for External Identities](/entra/external-id/authentication-conditional-access).
+
+### Data loss prevention (DLP)
+
+Admins can apply [Microsoft Purview DLP policies](/microsoft-365/compliance/dlp-policy-design) to a team where all channels, including shared channels, inherit the policy. Shared channels inherit the policy of the host organization.
+
+### Retention policy
+
+Admins can apply a [retention policy](/microsoft-365/compliance/retention) on a team where all channels, including shared channels, inherit the retention policy. Shared channels inherit the policy of the parent team.
+
+### Sensitivity labels
+
+[Sensitivity labels](/microsoft-365/compliance/sensitivity-labels) available in the host organization are the only labels that can be applied to the documents in a shared channel site. A file that is encrypted by a sensitivity label cannot be opened by external participants unless permissions are granted. Automatic labeling is not used.
+
+Shared channels and their associated SharePoint sites inherit the label from the parent team.
+
+### Information barriers
+
+Users who are not allowed to communicate per [information barrier](/microsoftteams/information-barriers-in-teams) policies can't be part of shared channel. Information barrier policies are only effective for users in the host organization. If users are external participants in another organization's shared channel, information barrier policies don't apply.
+
+### eDiscovery
+
+Admins can perform searches for all users in the channel. All channels, including the shared channel, are discoverable. All message data in the channel regardless of who added the data is discoverable by the compliance admin.
+
+### Legal hold
+
+Admins can place channel-only members from the host organization who are not a part of the team on hold. They can also [place the entire team on hold](/MicrosoftTeams/legal-hold). Admins cannot place an external participant on hold.
+
+### Audit logs
+
+All the actions performed for [existing audit events](/microsoft-365/compliance/detailed-properties-in-the-office-365-audit-log) are audited in shared channels.
+
 ## Supported apps in shared channels
 
-For information about how to prepare your app for shared channels, see [How to open your app to cross-organizational collaboration with Microsoft Teams Connect](https://mybuild.microsoft.com/sessions/4d84d73c-08de-4f56-990b-2a73b2037df1).
+For information about how to prepare your app for shared channels, see [Microsoft Teams Connect shared channels](/microsoftteams/platform/concepts/build-and-test/shared-channels).
 
 The following apps are supported for use in shared channels. 
 
