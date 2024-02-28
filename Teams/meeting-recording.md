@@ -57,12 +57,13 @@ External participants can't record meetings except in the case of [Teams policy-
 
 You can use the Microsoft [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851) or PowerShell to set a Teams meeting policy to control whether users' meetings can be recorded. Both the meeting organizer and the recording initiator need to have recording permissions to record the meeting.
 
-Many users use meetings and calls interchangeably depending on their needs. We recommend you check your call recording policy settings as well. If the settings are different for meetings and calls, it may cause confusion for your users.
+Many users use meetings and calls interchangeably depending on their needs. We recommend that you check your call recording policy settings as well. If the settings are different for meetings and calls, it may cause confusion for your users.
 
 # [**Meeting policy**](#tab/meeting-policy)
 
-To allow or prevent meeting recordings
-1. In the Microsoft [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851), expand **Meetings**.
+To allow or prevent meeting recordings:
+
+1. In the Microsoft [Teams admin center](https://admin.teams.microsoft.com/), expand **Meetings**.
 1. Select **Meeting policies**.
 1. Select the policy that you want to edit.
 1. Turn **Meeting recording** On or Off.
@@ -72,7 +73,8 @@ With PowerShell, you configure the `-AllowCloudRecording` parameter in [Set-CsTe
 
 # [**Calling policy**](#tab/calling-policy)
 
-To allow or prevent call recordings
+To allow or prevent call recordings:
+
 1. In the Microsoft [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851), expand **Voice**.
 1. Select **Calling policies**.
 1. Select the policy that you want to edit.
@@ -80,6 +82,8 @@ To allow or prevent call recordings
 1. Select **Save**.
 
 With PowerShell, you configure the `-AllowCloudRecordingForCalls` parameter in [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
+
+For more information on call recording, see [Configure call recording, transcription, and captions in Teams](call-recording-transcription-captions.md).
 
 ---
 
