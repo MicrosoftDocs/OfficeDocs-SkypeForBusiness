@@ -4,7 +4,7 @@ author: lana-chin
 ms.author: v-chinlana
 manager: jtremper
 ms.reviewer: yinchang
-ms.date: 02/12/2024
+ms.date: 02/20/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -87,6 +87,10 @@ You can configure the following tags settings to control how tags are used acros
 
     - **Team owners can change who can manage tags**: When you turn on this setting, team owners can set whether team members can create and manage tags within a team and the value of the **Who can manage tags** setting is the default value for each team. If you turn off this setting, the **Who can manage tags** setting can’t be changed per team.
     - **Suggested tags**: Use this option to add a set of default tags. You can add up to 25 tags, and each tag can contain a maximum of 25 characters. Team owners and members (if the feature is enabled for them) can use these suggestions, add to them, or create a new set of tags.
+
+      > [!NOTE]
+      > Suggested tags is being deprecated.
+
     - **Custom tags**: Turn on this setting to let people add tags other than the suggested default tags that you set. If this setting is turned off, people can only use the suggested default tags. If you turn off this setting, make sure that you add one or more default tags.
     - **Shifts app can apply tags**: Turn on this setting to enable the Shifts app to automatically assign tags to people who are on-shift in real time. These tags match a user's schedule and group name in Shifts. Notifications are only sent to those people who are on-shift at the time the tag is used in a chat or channel post.
 
