@@ -11,7 +11,7 @@ search.appverid: MET150
 searchScope:
   - Microsoft Teams
 audience: admin
-description: Learn how to manage the Virtual appointment meeting template for Teams users in your organization.
+description: Learn how to manage the Virtual appointment meeting template for Teams to provide a default meeting configuration for your organization.
 ms.localizationpriority: medium
 MS.collection: 
   - Teams_ITAdmin_Help

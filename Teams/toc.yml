@@ -694,6 +694,8 @@ items:
               href: view-only-meeting-experience.md
             - name: Meeting invitations
               href: customize-meeting-invitations.md
+            - name: Manage feedback surveys for anonymous participants
+              href: meeting-surveys-anonymous-participants.md
         - name: Standardized meetings
           items: 
             - name: Custom meetings overview
@@ -954,13 +956,15 @@ items:
               href: inbound-call-routing.md
             - name: Block inbound calls
               href: block-inbound-calls.md
+            - name: Configure spam filtering
+              href: configure-call-spam-filtering.md
             - name: Configure call forwarding and delegation settings
               href: user-call-settings.md
             - name: Configure call park and retrieve
               href: call-park-and-retrieve.md
             - name: Configure call sharing and group call pickup
               href: call-sharing-and-group-call-pickup.md
-            - name: Configure music on Hold
+            - name: Configure Music on Hold
               href: music-on-hold.md
             - name: Configure private line
               href: private-line.md
@@ -984,7 +988,7 @@ items:
               href: set-up-holidays-in-teams.md
             - name: Answer Auto attendant and Call queue calls directly from Teams
               href: answer-auto-attendant-and-call-queue-calls.md
-            - name: Reports
+            - name: Reports - Historical
               href: aa-cq-cqd-historical-reports.md
             - name: PowerShell cmdlet reference for Auto attendants and Call queues
               href: call-queue-auto-attendant-cmdlets.md
@@ -1006,6 +1010,8 @@ items:
           href: shared-line-appearance.md
         - name: Dial pad configuration
           href: dial-pad-configuration.md
+        - name: Call recording, transcription, and captions
+          href: call-recording-transcription-captions.md
         
 
     - name: PSTN connectivity options
