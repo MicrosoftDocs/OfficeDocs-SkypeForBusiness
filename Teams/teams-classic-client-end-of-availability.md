@@ -4,7 +4,7 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: jtremper
 ms.topic: article
-ms.date: 02/22/2023
+ms.date: 02/28/2023
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -163,7 +163,7 @@ A bulk installer, including offline capability, is provided for admins who want 
 
 Microsoft highly recommends that admins who want more control or a more gradual rollout of new Teams take advantage of these tools and functionality to begin slowly transitioning their users to new Teams now. Policies can be targeted to individual users, groups of users, or your entire tenant to give you flexibility to release to users group by group while monitoring progress and feedback.
 
-### What admins will experience starting April 01 2024
+### What admins will experience after April 01 2024
 
 In the Teams admin center:
 
@@ -176,15 +176,15 @@ In the Teams admin center:
 
 ### Users
 
-- **If a user has both clients installed:** Only new Teams will work after the end of availability, and we'll attempt to uninstall the classic Teams client.
+- **If a user has both clients installed:** Only new Teams will work after the end of availability, and we'll attempt to uninstall the classic Teams client as per  XXX
 - **If only the new Teams client is installed:** There won’t be any difference.
 - **If a user can’t install the new Teams client due to a reason outlined in the previous table, such as unsupported OS (including Win 10 LTSC):** These users will be allowed to use classic Teams until June 30, 2024 to allow for updating operating system to modifying permissions etc. After June 30 2024, classic Teams won't work.
 
 ### Admins
 
 - **The system requirements for the new Teams client:** [Prerequisites](new-teams-deploy-using-policies.md#prerequisites).
-- **When will admins see the new Teams Only policy in their tenant:** [Upgrade to the new Teams using policies](new-teams-deploy-using-policies.md).
-- **What will happen with the update policies:** The update policies may still appear, but they won’t be functional after the end of availability.
+- **When will admins see the new Teams Only policy in their tenant:** This is available in the Teams admin center now. Please see [Upgrade to the new Teams using policies](new-teams-deploy-using-policies.md).
+- **What will happen with the update policies:** The update policies may still appear, but they won’t be functional after March 31, 2024, except for VDI customers.
 - **When will classic Teams client stop being installed with M365 apps:** The installation of the classic Teams client will stop happening at the end of the availaibility period.
 - **Can I stop the classic Teams client from being uninstalled and what happens if a policy is set to prevent app uninstallation:** Yes, you can stop the classic Teams client from being uninstalled. If your configuration prevents uninstall, Microsoft won't attempt the uninstall again. You'll need to uninstall classic Teams after that point.
 - **Do I need to remove the old client:** Microsoft recommends that you remove the classic Teams client once a user is fully transitioned to new Teams. It's security best practice to not leave software that is no longer operational installed on a machine. Microsoft will attempt to remove the classic Teams client on your behalf, but if your configuration or policies are blocking or preventing this uninstall it's your responsibility to do this removal yourself.
