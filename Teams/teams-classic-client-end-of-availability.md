@@ -31,7 +31,7 @@ After March 31 2024, a new Teams client will be rolled out, in stages, for users
 This rollout is going to differ based on your Teams Admin Center policy controls.
 
 > [!IMPORTANT]
-> This timeline doesn't apply to GCC, GCCHigh, DoD, Gallatin, AG. We cover this in a later section. XXX
+> This timeline doesn't apply to GCC, GCCH, and DoD. We cover this in a later section.
 
 :::image type="content" source="media/teams-client-eoa-timeline.png" alt-text="A chart showing the timelines for classic Teams to new Teams.":::
 
@@ -46,7 +46,7 @@ This rollout is going to differ based on your Teams Admin Center policy controls
 > [!IMPORTANT]
 > Classic Teams users who have encountered issues moving to new Teams or who don't meet the [prerequisites](new-teams-deploy-using-policies.md#prerequisites) to upgrade will still have access to the classic Teams client until July 01 2024 at the earliest. This gives admins more time to address any issues encountered during this process.
 
-### Timeline for GCC, GCCHigh, DoD, Gallatin, AG
+### Timeline for GCC, GCCH, DoD
 
 This rollout is going to differ based on your Teams Admin Center policy controls.
 
@@ -65,6 +65,8 @@ Starting in mid-July, Teams update policies you have applied in Teams Admin Cent
 - New Teams Only. Beginning mid-August all remaining classic Teams users will be updated to the new Teams client and the toggle switch will be removed. After this completes, Microsoft will attempt to remove the classic Teams client.
 
 In April, we'll have guidance on end of support policies for the classic Teams client.
+
+
 
 
 
