@@ -111,7 +111,7 @@ After this process is complete, classic Teams will be unavailable for different 
 
 ## User experience
 
-### What users will see from March 31 2024
+### What users will experience after March 31 2024
 
 Starting in March 2024, any classic Teams users who haven’t updated to new Teams will begin seeing an informational banner to remind them about the timeline for the Microsoft AutoUpdate. This banner will appear in the main Teams client window at the top of the page (underneath the main bar).
 
@@ -129,28 +129,13 @@ Here's a list of the banner messages you may experience after January 31 2024:
 |Microsoft can't update because of policy restrictions (Commercial) |Classic Teams will soon be unavailable for use, and we can't update to the new Teams due to org policy. For more info, contact your IT admin. Learn more |[Troubleshooting installation issues in the new Teams client](new-teams-troubleshooting-installation.md) |
 |If your Teams update policy is set to **Not enabled** |Classic Teams  will soon be unavailable for use. Contact your IT admin to switch to the new Teams. Learn more |[Classic Teams users to be updated to new Teams after March 31, 2024](new-teams-deploy-using-policies.md) |
 
-
 Classic Teams will remain available to use as per defined in the above timelines. However, we highly encourage admins to update their users to new Teams, as new features are only being added to the new Teams client. Learn more in the [Upgrade to the new Teams using policies](new-teams-deploy-using-policies.md) article.
 
 If users are on an unsupported OS (including Win 10 LTSC), you’ll see a slightly different banner messaging:
 
 :::image type="content" source="media/teams-client-eol-requirements-banner.png" alt-text="Shows the banner in Teams client that reads 'Classic Teams won't be available for use after the end of the availability period. To use the new Teams, update your OS to meet requirements or contact your IT Admin.' Requirements is a selectable link.":::
 
-> [!NOTE]
-> Users on a June 30th timeline will see this banner from April 1 2024.
-
-### What users will experience after March 31 2024
-
-After March 31 2024, if you’re already running on new Teams, there will be no change in behavior. Your Teams will continue working as expected.
-
-If you are still on classic Teams, the following applies:
-
-- Microsoft-managed rollout: If you left the policy controls at their defaults, we'll continue rolling out new Teams as per the schedule outlined above, with one update: We won't proceed with the uninstallation of the classic Teams client for 14 days.
-- Admin-managed rollout: Admins can choose to control the new Teams rollout as outlined in [Upgrade to the new Teams using policies](new-teams-deploy-using-policies.md). These policies will no longer work at the start of April, apart from your VDI users, and the following changes will happen:
-  - New Teams will become the default client. The toggle to return to classic Teams will still be available if needed.
-  - In mid-May, new Teams will be installed, and the toggle to return to classic Teams will no longer be available. We'll attempt to uninstall classic Teams, currently after a period of 14 days.
-
-If you're on the June timeline, here's a list of the banner messages you may experience after March 31 2024:
+If we are unable to move you to new Teams, here's a list of the banner messages you may experience:
 
 |Condition for triggering the banner |Banner message |Further information |
 |------------------------------------|---------------|--------------------|
