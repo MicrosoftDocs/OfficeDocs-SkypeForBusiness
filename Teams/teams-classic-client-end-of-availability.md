@@ -75,7 +75,7 @@ Starting in mid-July, Teams update policies you've applied in Teams Admin Center
 New Teams only: Beginning in early June all remaining classic Teams users will be updated to the new Teams client and the toggle switch will be removed. After this process completes, Microsoft will attempt to remove the classic Teams client.
 Admin-managed tenants. Admins may choose to control their new Teams rollout by setting the Teams updates policy for their users (as described in: Upgrade to the new Teams client using policies - Microsoft Teams | Microsoft Learn.) Admins may control the Teams update policy until mid-July.
   - New Teams becomes the default client. Beginning in mid-July, the new Teams client will become the default client for all active Teams users. Customers will receive the new Teams update. Users may still toggle back to the classic Teams client.
-  - New Teams Only. Beginning mid-August all remaining classic Teams users will be updated to the new Teams client and the toggle switch will be removed. After this completes, Microsoft will attempt to remove the classic Teams client.
+  - New Teams Only. Beginning mid-August all remaining classic Teams users will be updated to the new Teams client and the toggle switch will be removed. After this process completes, Microsoft will attempt to remove the classic Teams client.
 
 In April, we'll have guidance on end of support policies for the classic Teams client.
 
@@ -95,7 +95,7 @@ Here's a list of the banner messages you may experience after January 31 2024:
 |Condition for triggering the banner |Banner message |Further information |
 |------------------------------------|---------------|--------------------|
 |Classic Teams is being used or new Teams is installed |Classic Teams will soon be unavailable for use. You’ll be switched to the new Teams after this date. Learn More. Switch now |         |
-|Classic Teams is being used, new Teams is not installed |Classic Teams  will soon be unavailable. Learn more Get the new Teams |         |
+|Classic Teams is being used. new Teams isn't installed |Classic Teams  will soon be unavailable. Learn more Get the new Teams |         |
 |Microsoft can't update because of policy restrictions (Commercial) |Classic Teams will soon be unavailable for use, and we can't update to the new Teams due to org policy. For more info, contact your IT admin. Learn more |[Troubleshooting installation issues in the new Teams client](new-teams-troubleshooting-installation.md) |
 |If your Teams update policy is set to **Not enabled** |Classic Teams  will soon be unavailable for use. Contact your IT admin to switch to the new Teams. Learn more |[Classic Teams users to be updated to new Teams after March 31, 2024](new-teams-deploy-using-policies.md) |
 
@@ -103,9 +103,9 @@ Classic Teams will remain available to use as per defined in the above timelines
 
 If users are on an unsupported OS (including Win 10 LTSC), you’ll see a slightly different banner messaging:
 
-:::image type="content" source="media/teams-client-eol-requirements-banner.png" alt-text="Shows the banner in Teams client that reads 'Classic Teams won't be available for use after the end of the availability period. To use the new Teams, update your OS to meet requirements or contact your IT Admin.' Requirements is a selectable link.":::
+:::image type="content" source="media/teams-client-eol-requirements-banner.png" alt-text="Shows the banner in Teams client that reads 'Classic Teams won't be available for use after the end of the availability period. To use the new Teams, update your OS to meet requirements or contact your IT Admin.' the requirements link is a selectable link.":::
 
-If we are unable to move you to new Teams, here's a list of the banner messages you may experience:
+If we're unable to move you to new Teams, here's a list of the banner messages you may experience:
 
 |Condition for triggering the banner |Banner message |Further information |
 |------------------------------------|---------------|--------------------|
@@ -116,7 +116,7 @@ If we are unable to move you to new Teams, here's a list of the banner messages 
 |Unsupported operating system (DOD)|Classic Teams will soon be unavailable for use. To use the new Teams, update your OS to meet requirements or contact your IT admin. Learn more. |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites)|
 |Microsoft 365 operated by 21Vianet in China |Classic Teams will soon be unavailable for use. To use the new Teams, update your OS to meet requirements or contact your IT admin. Learn more. |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites)|
 |Unsupported OS (VDI) |Classic Teams will soon be unavailable for use. Contact your IT admin to switch to the new Teams. Learn more. |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites) |
-|Microsoft cannot update because of policy restrictions (EDU) |Classic Teams will soon be unavailable for use, and we can't update to the new Teams due to org policy. For more info, contact your IT admin. Learn more |         |
+|Microsoft can't update because of policy restrictions (EDU) |Classic Teams will soon be unavailable for use, and we can't update to the new Teams due to org policy. For more info, contact your IT admin. Learn more |         |
 
 ### What happens if we can’t update users to new Teams
 
