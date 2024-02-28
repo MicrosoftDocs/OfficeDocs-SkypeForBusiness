@@ -31,7 +31,7 @@ After March 31 2024, a new Teams client will be rolled out, in stages, for users
 This rollout is going to differ based on your Teams Admin Center policy controls.
 
 > [!IMPORTANT]
-> This timeline doesn't apply to GCC, GCCH, and DoD. We cover this in a later section.
+> This timeline doesn't apply to GCC, GCCH, and DoD. We cover this in a later section. For VDI information, please see [Upgrade to new Teams for Virtualized Desktop Infrastructure (VDI)](new-teams-vdi-requirements-deploy.md).
 
 :::image type="content" source="media/teams-client-eoa-timeline.png" alt-text="A chart showing the timelines for classic Teams to new Teams.":::
 
