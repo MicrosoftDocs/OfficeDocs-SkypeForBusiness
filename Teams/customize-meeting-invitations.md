@@ -30,6 +30,9 @@ description: Learn how to customize Teams meeting invitations for your organizat
 
 You can customize Teams meeting invitations to meet your organization's needs. You can add your organization's logo and include helpful information, such as links to your support website and legal disclaimer, and a text-only footer.
 
+> [!NOTE]
+> Logos added to a meeting theme override the logos you upload to meeting invitations. To learn more about meeting themes, see [Create and manage meeting themes for Teams meetings](meeting-themes.md).
+
 ## Tips for creating a logo for meeting invitations
 
 1. Create an image that's no more than 188 pixels wide by 30 pixels tall (it's small).
