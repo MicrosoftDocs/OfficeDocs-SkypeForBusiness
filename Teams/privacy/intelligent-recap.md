@@ -12,6 +12,8 @@ hideEdit: true
 description: Learn about what content is used to provide intelligent recap and how intelligent recap uses AI
 ms.localizationpriority: medium
 ms.date: 11/08/2023
+appliesto: 
+  - Microsoft Teams
 ---
 
 # Data, privacy, and security for intelligent recap in Teams Premium
