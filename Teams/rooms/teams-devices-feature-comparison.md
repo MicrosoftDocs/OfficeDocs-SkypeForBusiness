@@ -1,5 +1,5 @@
 ---
-title: Teams Rooms and  Deviecs feature comparison
+title: Teams Rooms and  Devices feature comparison
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
@@ -60,7 +60,7 @@ To help guide you as to what features are available on different platforms, you 
 |                                          | Live reactions                                                                                               | Available                                                                                   | Available                                                                      |
 |                                          | Live closed captions                                                                                         | Available                                                                                   | Available                                                                      |
 |                                          | Participate in breakout rooms                                                                                | Not available                                                                               | Not available                                                                  |
-|                                          | Teams Premium meeting protection policies (watermark, E2E encryption for meetings, and sensitivity labels)   | Available                                                                                   | Not available                                                                  |
+|                                          | Teams Premium meeting protection policies (watermark, E2E encryption for meetings, and sensitivity labels)   | Available                                                                                   | Available                                                                      |
 |                                          | Start meeting recording and transcription                                                                    | Not available                                                                               | Not available                                                                  |
 |                                          | Teams Town Hall (Presenter role)                                                                             | Not available                                                                               | Not available                                                                  |
 |                                          | Teams Town Hall (Attendee role)                                                                              | Not available                                                                               | Not available                                                                  |
