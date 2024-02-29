@@ -43,7 +43,7 @@ Before you follow the procedures in this article, be sure you have read [Plan fo
 
 ## What's new for Call queues in the past six months
 
-- January 26 - Public Preview: [Support click-to-call web based calling](/azure/communication-services/quickstarts/voice-video-calling/get-started-teams-call-queue)
+- February 16 - [Support click-to-call web based calling](/azure/communication-services/quickstarts/voice-video-calling/get-started-teams-call-queue)
 
 ## Steps to create a Call queue
 
@@ -148,8 +148,7 @@ After you select a language, select the **Next** button at the bottom of the **A
 
 Specify if you want to play a *greeting* to callers when they arrive in the queue.
 
-- If you select **Play an audio file**, you must upload an MP3, WAV, or WMA file containing the greeting that you want to play. The uploaded recording can be no larger than 5 MB.
-
+- If you select **Play an audio file**, you must upload an MP3, WAV, or WMA file containing the greeting that you want to play. See [Supported audio file formats](plan-auto-attendant-call-queue.md#supported-audio-file-formats).
 - If you select **Type a greeting message**, the system reads the text that you type (up to 1000 characters) when the Call queue answers a call.
 
 >[!NOTE]
@@ -160,7 +159,7 @@ Specify if you want to play a *greeting* to callers when they arrive in the queu
 Teams provides default music to callers while they're *on hold in a queue*.
 
 - The default music supplied in Teams Call queues is free of any royalties payable by your organization.
-- If you want to play a specific audio file, choose **Play an audio file** and upload an MP3, WAV, or WMA file.
+- If you want to play a specific audio file, choose **Play an audio file** and upload an MP3, WAV, or WMA file. See [Supported audio file formats](plan-auto-attendant-call-queue.md#supported-audio-file-formats).
 
 > [!NOTE]
 > You are responsible for independently clearing and securing all necessary rights and permissions to use any music or audio file with your Microsoft Teams service, which may include intellectual property and other rights in any music, sound effects, audio, brands, names, and other content in the audio file from all relevant rights holders, which may include artists, actors, performers, musicians, songwriters, composers, record labels, music publishers, unions, guilds, rights societies, collective management organizations and any other parties who own, control or license the music copyrights, sound effects, audio and other intellectual property rights.

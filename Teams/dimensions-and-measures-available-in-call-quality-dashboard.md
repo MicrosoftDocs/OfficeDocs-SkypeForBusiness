@@ -603,7 +603,8 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 |PSTN Event Info Time|Date|The time in UTC format when an outbound call starts from the Microsoft network or an inbound call reaches the Microsoft network.<br/>**Example:** 2020-02-06 20:57:53.1750000||
 |PSTN MP Location|String|The Media Processor location will show the media path when in non-bypass mode.<br/>**Example:** USWE||
 |PSTN Trunk Call Id|String|The SIP Call ID between the PSTN SIP Trunk and the SIP Proxy. Direct Routing customers can use this value to troubleshoot PSTN calling scenarios. Cross-reference the Trunk Call ID with the logs of the Session Border Controller or Media Gateway.||
-|PSTN Trunk User Agent|String|The manufacturer and model information for the PSTN SIP trunk's Session Border Controller or Media Gateway.<br/>**Example:** Mediant 1000/v.7.20A.258.750 ||
+|PSTN Trunk User Agent|String|The manufacturer, device type, and software revision for the PSTN SIP trunk's Session Border Controller or Media Gateway.<br/>**Example:** Cisco-SIPGateway/IOS-17.9.4a ||
+|PSTN Trunk SBC Version |	String	| The manufacturer, model name, and software revision for the PSTN SIP trunk's Session Border Controller or Media Gateway. <br/> **Example:** Cisco UBE/ISR4331/IOS-17.9.4a||
 |PSTN Call End Reason|Int|A three-digit integer response code shows the final status of the call. <br/> For more information about SIP call end reasons, see the [List of SIP response codes](https://www.wikipedia.org/wiki/List_of_SIP_response_codes). <br/>**Example:** 404||
 | Is PSTN Conferencing | Boolean | Indicates if a call or stream was involved in a PSTN conferencing scenario||
 |**Voice Apps (Preview)**||For this category, see [Auto Attendant & Call Queue Historical Report](aa-cq-cqd-historical-reports.md) for more information.)||
