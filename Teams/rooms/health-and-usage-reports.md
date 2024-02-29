@@ -3,7 +3,7 @@ title: Health and usage reports
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.date: 04/07/2022
+ms.date: 02/28/2024
 ms.reviewer: altsou
 ms.topic: article
 ms.tgt.pltfrm: cloud
