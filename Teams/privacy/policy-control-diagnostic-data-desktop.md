@@ -67,7 +67,7 @@ For more information about diagnostic data, including how to control what diagno
 ### Outlook add-in
 
 > [!NOTE]
-> For information on the properties of Outlook add-in events, see [Properties sent with Outlook ad-in events](#properties-sent-with-outlook-add-in-events).
+> For information on the properties of Outlook add-in events, see [Properties sent with Outlook add-in events](#properties-sent-with-outlook-add-in-events).
 
 - **joinmeetingoperation** - Records information needed to join a user to a meeting.
 - **meetingaddinapplifecycle** - Records information regarding app state such as Launch or Exit.
