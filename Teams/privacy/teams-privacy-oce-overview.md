@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
+  - privacy-teams
 ms.reviewer: 
 ms.date: 10/04/2023
 ms.localizationpriority: high

@@ -15,6 +15,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
+  - privacy-teams
 appliesto: 
   - Microsoft Teams
 ---
@@ -52,7 +53,7 @@ For more information about diagnostic data, including how to control what diagno
 - **logProviders\pageDumpProvider.ts:loggingService.getInstance** - Records error information when the application crashes.
 - **multiWindowManager.ts:this.logError** - Records the occurrence of an error when essential boot data doesn't load properly to run the application.
 - **nativeElectronNotifications\osNotificationService.ts:this.loggingService.logError** - This event records the occurrence of an error when attempting to launch a notification about a failure.
-- **OutlookMeetingAddinHelper.ts:loggingService.getInstance** - Records the occurrence of an error when attempting to connect to a meeting using the Outlook meeting addin.
+- **OutlookMeetingAddinHelper.ts:loggingService.getInstance** - Records the occurrence of an error when attempting to connect to a meeting using the Outlook meeting add-in.
 - **recoveryManager.ts:loggingService.getInstance** - Records the occurrence of an error during update rollbacks.
 - **renderer\startPage\startPage.ts:this.logger.logError** - Records the occurrence of an error with the application start page.
 - **settingsService.ts:loggingService.getInstance** - Records the occurrence of an error with the application settings.
@@ -63,10 +64,10 @@ For more information about diagnostic data, including how to control what diagno
 - **windowmanager.js:this._loggingService.logError** - Records the occurrence of cookie issues, whitescreen issues, issues between desktop and shell communication, url issues,errors with loading page messages, errors with process rendering, and network connectivity issues.
 - **windowmanager.js:loggingService.getInstance** - Records information to indicate when the recovery window can't be shown.
 
-### Outlook addin
+### Outlook add-in
 
 > [!NOTE]
-> For information on the properties of Outlook addin events, see [Properties sent with Outlook addin events](#properties-sent-with-outlook-addin-events).
+> For information on the properties of Outlook add-in events, see [Properties sent with Outlook ad-in events](#properties-sent-with-outlook-add-in-events).
 
 - **joinmeetingoperation** - Records information needed to join a user to a meeting.
 - **meetingaddinapplifecycle** - Records information regarding app state such as Launch or Exit.
@@ -107,7 +108,7 @@ For more information about diagnostic data, including how to control what diagno
 - **desktop_uncaught_exception** Function call on an undefined object, this will result in a crash/app restart.
 - **desktop_write_storage_failed** - Records information needed to determine disk errors when the desktop application fails to write to storage.
 - **registration_failed** - Records information needed to resolve add-in registration failures.
-- **registration_success** - Records information needed to determine whether add-in registrations where successful.
+- **registration_success** - Records information needed to determine whether add-in registrations were successful.
 - **security_unsupported_ipc_channel** - Interprocess message that wasn't permitted was inbound.
 - **sfb_running_not_connected** - Detected that the Skype for Business app isn't running.
 - **sfb_not_running** - Records that the 'wait for response' from call to Skype of Business timed out.
@@ -198,7 +199,7 @@ For more information about diagnostic data, including how to control what diagno
 | session                           | Unique session ID                                                                  |
 | freeMemory                        | Captures free memory available                                                     |
 | processMemory                     | Captures process memory                                                            |
-| scenarioDelta                     | Captures time different between 2 scenario steps                                   |
+| scenarioDelta                     | Captures time different between two scenario steps                                   |
 | Session_DesktopId                 | Unique session ID                                                                  |
 | machineLocked                     | Captures if the machine was locked or not                                          |
 | windowIsVisible                   | Captures if the app window was visible to use                                      |
@@ -220,7 +221,7 @@ For more information about diagnostic data, including how to control what diagno
 | updateTimeOfDay                   | Time the app was updated                                                           |
 | launchPath                        | whether Teams is installed in %LOCALAPPDATA%, %PROGRAMFILES%, or other locations   |
 | loggedIn                          | If the user was logged in                                                          |
-| envType/complianceEnvironmentType | Commercial cloud or private (e.g. DoD, GCC-High, etc.)                              |
+| envType/complianceEnvironmentType | Commercial cloud or private (for example, DoD, GCC-High, etc.)                              |
 | cpuusage                          | CPU usage                                                                          |
 | installationSource                | Type of installation user has                                                      |
 | adalVersion                       | Version of the auth library                                                        |
@@ -262,7 +263,7 @@ For more information about diagnostic data, including how to control what diagno
 | machineLocked                      | Whether machine was locked or not locked during the event                        |
 | data                               | Captures technical data for scenario investigation                               |
 | appRuntime                         | Captures runtime of the app                                                      |
-| activities                         | Last 50 user scenario names which happened before crash                          |
+| activities                         | Last 50 user scenario names that happened before crash                          |
 | timeSinceActivity                  | Time since last user activity                                                    |
 | appStates                          | Records a list of app states that the desktop app went through, which helps with crash investigations because it shows what state the desktop app was in |
 | timeSinceAppState                  | Time since the app state changed                                                 |
@@ -292,7 +293,7 @@ For more information about diagnostic data, including how to control what diagno
 | rigelVersion                       | Captures version of rigel device                                                 |
 | DeviceInfo_OsSku                   | Captures OS SKU information                                                      |
 | isLoggedOut                        | Captures if the user is logged out                                               |
-| complianceEnvironmentType          | Commercial cloud or private (e.g. DoD, GCC-High, etc.)                           |
+| complianceEnvironmentType          | Commercial cloud or private (for example, DoD, GCC-High, etc.)                           |
 | restartTimes                       | Exact times of previous restarts                                                 |
 | Skype_ResultCode                   | Captures result of interop communication between Skype and Teams                 |
 | cpumodel                           | Captures model of CPU                                                            |
@@ -330,8 +331,8 @@ For more information about diagnostic data, including how to control what diagno
 | Panel_Type            | Panel type accessed by the user                                    |
 | Action_Outcome        | Outcome of the action performed by user                            |
 | Team_Id               | ID of the team in which action was performed by the user           |
-| Module_Type           | Type of the module which hosted user action                        |
-| Module_Name           | Name of the module which hosted user action                        |
+| Module_Type           | Type of the module that hosted user action                        |
+| Module_Name           | Name of the module that hosted user action                        |
 | Module_Summary        | Summary of the module that hosed user action                       |
 | Thread_Id             | ID of the thread that was accessed by user                         |
 | Panel_PreviousUri     | URI of the previous panel                                          |
@@ -345,17 +346,17 @@ For more information about diagnostic data, including how to control what diagno
 | Tab_Type              | Type of the tab accessed by user                                   |
 | Team_Type             | Type of team accessed by user                                      |
 
-### Properties sent with Outlook addin events
+### Properties sent with Outlook add-in events
 
 | Property Name                   | Description                                                              |
 |---------------------------------|--------------------------------------------------------------------------|
-| AccountComparisonFailedReason   | Addin compares the account with Teams account to see if creation is allowed, this event is sent if the comparison fails |
-| AccountComparisonSuccessful     | Addin compares the account with Teams account to see if creation is allowed, this event is sent if the comparison is successful |
+| AccountComparisonFailedReason   | Add-in compares the account with Teams account to see if creation is allowed, this event is sent if the comparison fails |
+| AccountComparisonSuccessful     | Add-in compares the account with Teams account to see if creation is allowed, this event is sent if the comparison is successful |
 | AdalVersion                     | Version of the authentication library used                               |
-| AddinBitness                    | Version of addin                                                         |
-| AddinLanguage                   | Language of addin strings being used                                     |
-| AggregatorSetupCompletedTime    | Setup time for addin loader                                              |
-| AppDomainCreatedTime            | Time when addin loader initializes app domain                            |
+| AddinBitness                    | Version of add-in                                                         |
+| AddinLanguage                   | Language of add-in strings being used                                     |
+| AggregatorSetupCompletedTime    | Setup time for add-in loader                                              |
+| AppDomainCreatedTime            | Time when add-in loader initializes app domain                            |
 | AppointmentDisplayTime          | Time at which the appointment item was displayed during meeting creation |
 | AuthenticationCompletedTime     | Time at which authentication was provided for a given request            |
 | ConnectionMode                  | Indicates the connection mode of the user's primary Exchange account     |
@@ -364,7 +365,7 @@ For more information about diagnostic data, including how to control what diagno
 | ErrorName                       | Captures name of the error                                               |
 | ExchangeVersion                 | Captures version of Exchange                                             |
 | IsSmtpFormatError               | Error in SMTP address                                                    |
-| IsTeamsRunning                  | Captures if there is a Teams process running                             |
+| IsTeamsRunning                  | Captures if there's a Teams process running                             |
 | IsTeamsUserLoggedOut            | Captures if the user is logged out of Teams                              |
 | LanguageSetupCompletedTime      | Time at which language setup got completed                               |
 | ManagedConnectTime              | Time when the managed add-in received the connect callback               |
@@ -386,9 +387,9 @@ For more information about diagnostic data, including how to control what diagno
 | ServiceResponseReceiveTime      | Time of response from the service                                        |
 | SettingsInitializeCompletedTime | Time when settings initialized                                           |
 | SetupLoggingCompletedTime       | Time when logging was set up                                             |
-| ShutdownBeginTime               | Time when shutdown of addin begins                                       |
+| ShutdownBeginTime               | Time when shutdown of add-in begins                                       |
 | ShutdownCompletedTime           | Time when shutdown completed                                             |
-| StartupBeginTime                | Time when startup of addin begins                                        |
+| StartupBeginTime                | Time when startup of add-in begins                                        |
 | StartupCompletedTime            | Time when startup completed                                              |
 | TeamsDeployment                 | Deployment of Teams client (Dev, Prod)                                   |
 | TeamsRing                       | Ring of current user logged into Teams client                            |

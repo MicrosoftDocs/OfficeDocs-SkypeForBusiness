@@ -16,6 +16,7 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - essentials-privacy
+  - privacy-teams
 appliesto: 
   - Microsoft Teams
 ---
