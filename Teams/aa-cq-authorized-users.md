@@ -40,18 +40,16 @@ To create an authorized user, you must complete the following steps:
 - Step 5 - Assign the voice applications policy to the user
 - Step 6 - Assign authorized users to the relevant Auto attendant or Call queue
 
-There are two required configuration steps to set up an authorized user:
-
 ## Step 1: Assign licenses and enable users for voice
 
 > [!NOTE]
-> In order for your users to use the Queues App, they need to have a Teams Phone and Teams Premium license assigned to them. For a list of authorized user settings that can be used outside of the Queues App, see [Manage Teams voice applications policies](manage-voice-applications-policies.md).
+> In order for your users to use the Queues App, they need to have a Teams Phone and Teams Premium license assigned to them. For a list of authorized user settings that require a Teams Premium license, see [Manage Teams voice applications policies](manage-voice-applications-policies.md).
 
 To assign a Teams Phone and Teams Premium license, do the following steps:
 
 1. Use the Microsoft 365 admin center and go to **Billing** > **Licenses**.
 1. Select your Teams Phone license. On the product details page, select **Assign licenses** and assign the license to your users.
-1. Select Assign once you're finished.
+1. Select **Assign** once you're finished.
 1. Repeat Steps 2 and 3 for a Teams Premium license.
 
 ## Step 2: Assign phone numbers to your users
@@ -68,7 +66,9 @@ If you haven't already done so, you need to create an [Auto attendant](create-a-
 
 ## Step 5: Assign the voice applications policy to the user
 
+Once you’ve created your voice applications policy, you need to assign it to users. To do this, you can use the Teams admin center or [Grant-CsTeamsVoiceApplicationsPolicy](/powershell/module/teams/grant-csteamsvoiceapplicationspolicy) cmdlet.
 
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## Step 6: Assign authorized users to the relevant Auto attendant or Call queue
 
@@ -101,7 +101,7 @@ User 2 needs to be able to change Auto attendant after hours greetings for *Auto
 1. Assign both User 1 and User 2 as *Authorized users* for *Auto attendant 1*.
 1. Assign User 1 as an *Authorized User* for *Call queue 1*.
 
-Both User 1 and User 2 are now fully authorized users and will have new configuration options available to them in their Teams desktop client once they sign out and sign back in.
+Both User 1 and User 2 are now fully authorized users and have new configuration options available to them in their Teams desktop client once they sign out and sign back in.
 
 ## Related articles
 
