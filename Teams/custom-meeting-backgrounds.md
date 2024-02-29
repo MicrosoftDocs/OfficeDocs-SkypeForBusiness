@@ -82,9 +82,11 @@ Uploaded images must adhere to the following parameters. You can upload:
 
 You can find previews of your uploaded images in a new table under the **Meeting backgrounds** section. This table also displays the names and resolutions of your images. Once you confirm your choice of uploaded images, select the **Save** button below the preview table. Once you select save, your uploaded backgrounds are visible to your users with a Teams Premium license.
 
-## Select a preset background
+## Choose a preset background
 
-You can choose a preset background for your users in the Teams admin center. Users with this policy only have the background that you choose and can't change the background.
+You can choose a preset background for your users in the Teams admin center. Users with this policy are restricted to the chosen background and can't change it.
+
+To choose a preset background, follow these steps:
 
 1. Select **Meetings** from the navigation pane in the Teams admin center.
 2. Under Meetings, select **Customization policies** to select an existing policy or create a new one.
