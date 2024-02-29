@@ -25,7 +25,7 @@ description: "Troubleshoot your Cloud Connector Edition deployment."
  
 Troubleshoot your Cloud Connector Edition deployment.
   
-This topic describes solutions to common issues with Cloud Connector Edition deployments. If you are experiencing issues with calls to and from the Public Switched Telephone Network (PSTN), you can investigate by following the solutions described in this topic.
+This article describes solutions to common issues with Cloud Connector Edition deployments. If you're experiencing issues with calls to and from the Public Switched Telephone Network (PSTN), you can investigate by following the solutions described in this article.
   
 Cloud Connector provides built-in mechanisms for automatically resolving some issues. An automatic detection process looks for potential issues with the Cloud Connector appliances, and, if possible, takes corrective action to resolve those issues without the need for administrator intervention. The detection process works as follows:
   
@@ -54,15 +54,15 @@ Cloud Connector provides built-in mechanisms for automatically resolving some is
     
   - Edge Server service: RTCSRV
     
-- **Recovery process:** If any monitored services are down, an appliance is marked down, and services are stopped and marked manual until all issues can be resolved. This will prevent calls from routing to an appliance that may cause call failures.
+- **Recovery process:** If any monitored services are down, an appliance is marked down, and services are stopped and marked manual until all issues can be resolved. This prevents calls from routing to an appliance that might cause call failures.
     
-    The Cloud Connector Management service will retry automatic recovery as follows
+    The Cloud Connector Management service retries automatic recovery as follows
     
   - The initial retry interval is every ten seconds with a maximum interval time of one hour.
     
   - For the first three recovery attempts, the interval time is 10 seconds. Starting from the fourth retry, the interval time increases by two times the previous interval time. For example, the fourth retry will occur in 20 seconds, the fifth in 40 seconds, and so on. 
     
-  - When the maximum interval time of one hour is reached, retries will continue once per hour.
+  - When the maximum interval time of one hour is reached, retries continue once per hour.
     
   - When recovery is successful, the interval and retry counts are set to their initial values.
     
@@ -74,7 +74,7 @@ Following are solutions to commonly encountered issues:
   
 - **Issue: Deployment fails or stops responding when running the deployment scripts. After logging on to each VM, the IP address is missing or incorrect for the Management/Internal/External NIC.**
     
-    **Resolution:** This issue cannot be resolved automatically. NICs cannot be added to VMs while they are running. Please shut down and remove these VMs in hyper-v manager, then run the following cmdlets:
+    **Resolution:** This issue can't be resolved automatically. NICs can't be added to VMs while they're running. Shut down and remove these VMs in Hyper-V manager, then run the following cmdlets:
     
   ```powershell
   Uninstall-CcAppliance
@@ -90,26 +90,26 @@ Following are solutions to commonly encountered issues:
     
     **Resolution:** To resolve this issue, take the following steps:
     
-  - Log on to the Active Directory Server and verify that the domain was created correctly.
+  - Sign-in the Active Directory Server and verify that the domain was created correctly.
     
-  - Log on to the CMS/Mediation Server and verify that on the corpnet NIC a valid IP address is assigned, and that valid static IP and DNS is configured as the AD server's IP address.
+  - Sign-in the CMS/Mediation Server and verify that on the corpnet NIC a valid IP address is assigned, and that valid static IP and DNS is configured as the AD server's IP address.
     
   - Log on to the CMS/Mediation Server, and open a command prompt. Make sure you can ping the FQDN and IP address of the Active Directory Server. If you cannot, there may be an IP address conflict. Please try to assign a new IP for Active Directory and update DNS on the CMS/Mediation server accordingly.
     
 - **Issue: You receive the following error message, "Remove-VMSwitch : Failed while removing virtual Ethernet switch. The virtual switch 'Cloud Connector Management Switch' cannot be deleted because it is being used by running virtual machines or assigned to child pools."**
     
-    **Resolution:** The "Cloud Connector Management Switch" was not deleted after the deployment. If you hit this error, please go to Hyper-v manager and verify that there is not still a virtual machine still connected to it. If there are virtual machines still connected, disconnect them and delete the management switch. If the management switch still cannot be deleted, restart the host server and try again.
+    **Resolution:** The "Cloud Connector Management Switch" was not deleted after the deployment. If you hit this error, please go to Hyper-v manager and verify that there isn't still a virtual machine still connected to it. If there are virtual machines still connected, disconnect them and delete the management switch. If the management switch still can't be deleted, restart the host server and try again.
     
 - **Issue: You receive the following error message, "Service RTCMRAUTH failed to start. Check to make sure the service is not disabled."**
     
     > [!NOTE]
     > This issue only applies to Cloud Connector versions earlier than 1.4.2. 
   
-    The failure to start could also be because this Front End server was previously failed over (using computer fail over). If that's the case, please invoke fail back (using computer fail back).
+    The failure to start could also be because this Front End server was previously failed over (using computer failover). If that's the case, invoke fail back (using computer fail back).
     
-    **Resolution:** This issue happens on an Edge Server when the root CA certificate or intermediate CA certificate is not trusted by the Edge Server. Even if the external certificate can be imported but the certificate chain is broken. Under this condition, the RTCMRAUTH and/or RTCSRV service can not start.
+    **Resolution:** This issue happens on an Edge Server when the root CA certificate or intermediate CA certificate isn't trusted by the Edge Server. Even if the external certificate can be imported but the certificate chain is broken. Under this condition, the RTCMRAUTH and/or RTCSRV service cannot start.
     
-    Please import the root CA certificate and all intermediate CA certificates of your external certificate manually into the Edge Server and then restart the Edge Server. After you see the RTCMRAUTH and RTCSRV services started on the Edge Server, go back to your host server, launch a PowerShell console as administrator, and run following cmdlet to switch to the new deployment:
+    Import the root CA certificate and all intermediate CA certificates of your external certificate manually into the Edge Server and then restart the Edge Server. After you see the RTCMRAUTH and RTCSRV services started on the Edge Server, go back to your host server, launch a PowerShell console as administrator, and run following cmdlet to switch to the new deployment:
     
   ```powershell
   Switch-CcVersion
@@ -149,7 +149,7 @@ Following are solutions to commonly encountered issues:
   Get-CsHybridPSTNSite
   ```
 
-    If  _EnableAutoUpdate_ is set to **True**, you can safely ignore this warning message because the CCEManagement service will handle downloading and installing Windows updates for both virtual machines and the host server. If  _EnableAutoUpdate_ is set to **False**, run following cmdlet to set it to **True**.
+    If  _EnableAutoUpdate_ is set to **True**, you can safely ignore this warning message because the CCEManagement service handles downloading and installing Windows updates for both virtual machines and the host server. If  _EnableAutoUpdate_ is set to **False**, run following cmdlet to set it to **True**.
     
   ```powershell
   Set-CsHybridPSTNSite -EnableAutoUpdate $true
@@ -161,9 +161,9 @@ Following are solutions to commonly encountered issues:
     
     **Resolution:** Values for the \<ApplianceName\>, \<Mediation Server FQDN\> and \<Mediation Server IP Address\> must be unique and only used for one appliance registration. By default, \<ApplianceName\> comes from the host name. \<Mediation Server FQDN\> and \<Mediation Server IP Address\> defined in configuration ini file.
     
-    For example, using (ApplianceName= MyserverNew, Mediation Server FQDN=ms.contoso.com, Mediation Server IP Address=10.10.10.10) to register to SiteName=MySite, but if there is a registered appliance (ApplianceName= Myserver, Mediation Server FQDN=ms.contoso.com, Mediation Server IP Address=10.10.10.10), you will have the conflict.
+    For example, using (ApplianceName= MyserverNew, Mediation Server FQDN=ms.contoso.com, Mediation Server IP Address=10.10.10.10) to register to SiteName=MySite, but if there's a registered appliance (ApplianceName= Myserver, Mediation Server FQDN=ms.contoso.com, Mediation Server IP Address=10.10.10.10), you have the conflict.
     
-    First, please check your CloudConnector.ini file in ApplianceRoot directory section. You will get \<SiteName\>, \<Mediation Server FQDN\> and \<Mediation Server IP Address\> values in the file. \<ApplianceName\> is your host server name.
+    First, check your CloudConnector.ini file in ApplianceRoot directory section. You get \<SiteName\>, \<Mediation Server FQDN\> and \<Mediation Server IP Address\> values in the file. \<ApplianceName\> is your host server name.
     
     Second, Launch Tenant Remote PowerShell using your Skype for Business tenant admin credentials, then run the following cmdlet to check the registered appliance(s).
     
@@ -180,19 +180,19 @@ Following are solutions to commonly encountered issues:
     
 - **Issue: The Get-CcRunningVersion cmdlet returns an empty value if there is a deployed appliance running on the host.**
     
-  **Resolution:** This can happen when you upgrade from 1.3.4 or 1.3.8 to 1.4.1. After you install version 1.4.1 with the .msi, you must run `Register-CcAppliance` before you run any other cmdlet. `Register-CcAppliance` will migrate the module.ini file from %UserProfile%\CloudConnector to %ProgramData%\CloudConnector. If you missed it, a new module.ini will be created in %ProgramData%\CloudConnector folder and replace the running/backup version information for 1.3.4 or 1.3.8.
+  **Resolution:** This can happen when you upgrade from 1.3.4 or 1.3.8 to 1.4.1. After you install version 1.4.1 with the .msi, you must run `Register-CcAppliance` before you run any other cmdlet. `Register-CcAppliance` migrates the module.ini file from %UserProfile%\CloudConnector to %ProgramData%\CloudConnector. If you missed it, a new module.ini is created in %ProgramData%\CloudConnector folder and replace the running/backup version information for 1.3.4 or 1.3.8.
     
   Compare module.ini files in %UserProfile%\CloudConnector and %ProgramData%\CloudConnector folder. If there are differences, delete the module.ini file in %ProgramData%\CloudConnector and rerun  `Register-CcAppliance`. You could also modify the file manually to the correct running and backup version.
     
 - **Issue: After you run the Switch-CcVersion cmdlet to switch to an old version which is different from current script version, there is no High Availability support for this old version.**
     
-    **Resolution:** For example, you have upgraded from 1.4.1 to 1.4.2. Your current script version, which can be determined by running `Get-CcVersion`, and your running version, which can be determined by running  `Get-CcRunningVersion` are both 1.4.2. At this time, if you run `Switch-CcVersion` to switch the running version back to 1.4.1, then there will be no High Availability support for this old version.
+    **Resolution:** For example, you have upgraded from 1.4.1 to 1.4.2. Your current script version, which can be determined by running `Get-CcVersion`, and your running version, which can be determined by running  `Get-CcRunningVersion` are both 1.4.2. At this time, if you run `Switch-CcVersion` to switch the running version back to 1.4.1, then there is no High Availability support for this old version.
     
-    To get full High Availability support, please switch back to 1.4.2, so the running version and script version are the same. If you are experiencing problems with your 1.4.2 deployment, please uninstall and reinstall it as soon as possible.
+    To get full High Availability support, switch back to 1.4.2, so the running version and script version are the same. If you're experiencing problems with your 1.4.2 deployment, uninstall and reinstall it as soon as possible.
     
 - **Issue: Certificate authority certificates or internal certificates issued to Central Management Store, Mediation Server, and Edge Server are near expiration or are compromised.**
     
-    **Resolution:** Skype for Business certification authority certificates are valid for five years. Internal certificates issued to the Central Management Store, Mediation Server, and Edge Server are valid for two years.
+    **Resolution:** Skype for Business certification authority certificates is valid for five years. Internal certificates issued to the Central Management Store, Mediation Server, and Edge Server are valid for two years.
     
     > [!NOTE]
     > In Cloud Connector version 2.0 and later, the Renew-CcServerCertificate cmdlet has changed to Update-CcServerCertificate and the Renew-CcCACertificate cmdlet has changed to Update-CcCACertificate. 
@@ -227,7 +227,7 @@ Following are solutions to commonly encountered issues:
     Remove-CcLegacyServerCertificate 
     ```
     
-3. If TLS is used between the gateway and the Mediation Server, run the Export-CcRootCertificate cmdlet from the appliance, and then install the exported certificate to your PSTN gateways. You may also be required to re-issue the certificate on your gateway.
+3. If TLS is used between the gateway and the Mediation Server, run the Export-CcRootCertificate cmdlet from the appliance, and then install the exported certificate to your PSTN gateways. You might also be required to reissue the certificate on your gateway.
 
    ```powershell
    Export-CcRootCertificate
@@ -288,7 +288,7 @@ Following are solutions to commonly encountered issues:
      Remove-CcLegacyServerCertificate 
      ```
      
-6. If TLS is used between the gateway and the Mediation Server, run the Export-CcRootCertificate cmdlet from any appliance in the site, and then install the exported certificate to your PSTN gateways. You may also be required to re-issue the certificate on your gateway.
+6. If TLS is used between the gateway and the Mediation Server, run the Export-CcRootCertificate cmdlet from any appliance in the site, and then install the exported certificate to your PSTN gateways. You might also be required to re-issue the certificate on your gateway.
   
      ```powershell
      Export-CcRootCertificate

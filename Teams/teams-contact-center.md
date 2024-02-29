@@ -61,6 +61,7 @@ The following providers offer contact center solutions that are integrated into 
 | `Audiocodes` | https://www.audiocodes.com/solutions-products/voiceai/voca-conversational-interaction-center                                   |
 | `Avaya` | https://www.avaya.com/en/enterprise-cloud/                           |
 | `Bright Pattern` | https://www.brightpattern.com/                              |
+| `CentrePal` | https://www.centrepal.com/                                 |
 | `Cisco` | https://www.cisco.com/c/en/us/products/contact-center/webex-contact-center/index.html                                |
 | `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
@@ -87,7 +88,6 @@ The following providers offer contact center solutions that are integrated into 
 
 |  Solution Provider                                                                                                                               |  Solution website                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `CentrePal` | https://www.centrepal.com/                                 |
 | `Cirrus` | https://www.cirrusresponse.com/cloud-contact-centre/microsoft-teams/ |
 | `Evolve IP` | https://www.evolveip.net/contact-center   |
 | `FrontStage` | https://www.frontstage.cc                                                                                        |
@@ -101,3 +101,7 @@ The following providers offer contact center solutions that are integrated into 
 | `Vonage` |  https://www.vonage.com/contact-centers/integrations/microsoft-teams/                                 |
 
 This list will be updated as more solution providers join and meet the certification criteria.
+
+## Support boundaries
+
+Microsoft supports Contact Center solutions only from the certified partners. If there are issues, you must contact your Contact Center partner first. If needed, the Contact Center partner will bring the issue to Microsoft through internal channels. Microsoft may reject support cases where a non-certified Contact Center solution is used, or if investigation shows the issue is one that the partner can address.

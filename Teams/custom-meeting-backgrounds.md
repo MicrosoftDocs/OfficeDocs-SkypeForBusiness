@@ -1,5 +1,5 @@
 ---
-title: Manage and upload custom meeting backgrounds for Teams meetings
+title: IT Admins- Manage and create custom meeting backgrounds for Teams meetings
 author: wlibebe
 ms.author: wlibebe
 manager: pamgreen
@@ -22,7 +22,7 @@ search.appverid: MET150
 description: Using approved corporate assets like backgrounds to create custom backgrounds for Teams meetings within your organization.
 ---
 
-# Manage and upload custom meeting backgrounds for Teams meetings
+# IT Admins- Manage and create custom meeting backgrounds for Teams meetings
 
 **APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
 
@@ -42,7 +42,7 @@ Only you and Teams Premium licensed users that you assign this custom background
 
 Before setting up custom meeting backgrounds for your Teams meetings, check to make sure you have the following items:
 
-- The users who need to use custom backgrounds have a Teams Premium license.
+- Your users who need to use custom backgrounds have a Teams Premium license.
 - You’re an admin with access to the Teams admin center or you were assigned a customization policy.
 - Your background images meet the [required specifications](#add-custom-background-images).
 

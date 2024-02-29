@@ -69,7 +69,7 @@ If you enable custom backgrounds and don't provide custom backgrounds for all of
 
 ### Minimum resolutions
 
-Front-of-room displays and touch consoles have minimum supported custom background resolutions. For front-of-room displays, the minimum supported resolution is 1920 x 1080. For touch consoles, the minimum supported resolution is 1280 x 720. If the resolution of any custom background is below the minimum supported resolution for the display or console it's added to, all displays default to `No Theme`.
+Front-of-room displays and touch consoles have minimum supported custom background resolutions. For front-of-room displays, the minimum supported resolution is 1920 x 1080. For touch consoles, the minimum supported resolution is 1280 x 800. If the resolution of any custom background is below the minimum supported resolution for the display or console it's added to, all displays default to `No Theme`.
 
 ### Recommended resolutions
 
@@ -79,7 +79,7 @@ The recommended custom background resolution for front-of-room displays and touc
   - 16:9 displays - 1920 x 1080 or 3840 x 2160 for 4K-enabled displays (up to two 16:9 displays are supported)
   - 21:9 displays - 2560 x 1080 or 3840 x 1645 for 4K-enabled displays (only one 21:9 display is supported)
 - Touch console displays
-  - 16:9 displays - 1280 x 720
+  - 16:9 displays - 1920 x 1080 
   - 16:10 displays - 1280 x 800
   - 3:2 displays - 1920 x 800
 - Touch board displays
@@ -130,15 +130,15 @@ When you create a custom background:
   
 **16:9 - Single front-of-room display dimensions**
 
-:::image type="content" source="../media/front-of-room-16-9-single-dimensions.png" alt-text="A custom background showing a 16:9 front of room display with element dimensions." lightbox="../media/front-of-room-16-9-single-dimensions-large.png":::
+:::image type="content" source="../media/front-of-room-16-9-single-dimensions.png" alt-text="A custom background showing a 16:9 front of room display with element dimensions." lightbox="../media/front-of-room-16-9-single-dimensions.png":::
 
 **16:9 - Dual front-of-room display dimensions**
 
-:::image type="content" source="../media/front-of-room-16-9-dual-display-dimensions.png" alt-text="A custom background showing dual 16:9 front of room displays with element dimensions." lightbox="../media/front-of-room-16-9-dual-display-dimensions-large.png":::
+:::image type="content" source="../media/front-of-room-16-9-dual-display-dimensions.png" alt-text="A custom background showing dual 16:9 front of room displays with element dimensions." lightbox="../media/front-of-room-16-9-dual-display-dimensions.png":::
 
 **21:9 - Single front-of-room display dimensions**
 
-:::image type="content" source="../media/front-of-room-21-9-dimensions.png" alt-text="Custom background showing a 21:9 front of room display with element dimensions." lightbox="../media/front-of-room-21-9-dimensions-large.png":::
+:::image type="content" source="../media/front-of-room-21-9-dimensions.png" alt-text="Custom background showing a 21:9 front of room display with element dimensions." lightbox="../media/front-of-room-21-9-dimensions.png":::
 
 These guidelines are also available in a [custom theme template](#custom-background-template) that you can download.
 
@@ -159,7 +159,7 @@ When you create a custom background, avoid placing text, logos, or icons, near t
 
 **16:9 - Touch console dimensions**
 
-:::image type="content" source="../media/console-16-9-dimensions.png" alt-text="A custom background showing a 16:9 touch console display with element dimensions." lightbox="../media/console-16-9-dimensions-large.png":::
+:::image type="content" source="../media/console-16-9-dimensions.png" alt-text="A custom background showing a 16:9 touch console display with element dimensions." lightbox="../media/console-16-9-dimensions.png":::
 
 #### Touch board displays
 
@@ -176,11 +176,11 @@ When you create a custom background, avoid placing text, logos, or icons, on the
 
 **16:9 - Touch board display dimensions**
 
-:::image type="content" source="../media/touch-board-16-9-display-dimensions.png" alt-text="A custom background showing a 16:9 touch board display with element dimensions.":::
+:::image type="content" source="../media/touch-board-16-9-display-dimensions.png" alt-text="A custom background showing a 16:9 touch board display with element dimensions." lightbox="../media/touch-board-16-9-display-dimensions.png":::
 
 **3:2 - Touch board display dimensions**
 
-:::image type="content" source="../media/touch-board-3-2-display-dimensions.png" alt-text="A custom background showing a 3:2 touch board display with element dimensions.":::
+:::image type="content" source="../media/touch-board-3-2-display-dimensions.png" alt-text="A custom background showing a 3:2 touch board display with element dimensions." lightbox="../media/touch-board-3-2-display-dimensions.png":::
 
 ### Custom background template
 
@@ -247,15 +247,15 @@ When you create a custom background, use the following guidelines:
 
 **16:9 - Single front-of-room display dimensions**
 
-:::image type="content" source="../media/front-of-room-16-9-single-dimensions.png" alt-text="A custom background showing a 16:9 front of room display with element dimensions." lightbox="../media/front-of-room-16-9-single-dimensions-large.png":::
+:::image type="content" source="../media/front-of-room-16-9-single-dimensions.png" alt-text="A custom background showing a 16:9 front of room display with element dimensions." lightbox="../media/front-of-room-16-9-single-dimensions.png":::
 
 **16:9 - Dual front-of-room display dimensions**
 
-:::image type="content" source="../media/front-of-room-16-9-dual-display-dimensions.png" alt-text="A custom background showing dual 16:9 front of room displays with element dimensions." lightbox="../media/front-of-room-16-9-dual-display-dimensions-large.png":::
+:::image type="content" source="../media/front-of-room-16-9-dual-display-dimensions.png" alt-text="A custom background showing dual 16:9 front of room displays with element dimensions." lightbox="../media/front-of-room-16-9-dual-display-dimensions.png":::
 
 **21:9 - Single front-of-room display dimensions**
 
-:::image type="content" source="../media/front-of-room-21-9-dimensions.png" alt-text="Custom background showing a 21:9 front of room display with element dimensions." lightbox="../media/front-of-room-21-9-dimensions-large.png":::
+:::image type="content" source="../media/front-of-room-21-9-dimensions.png" alt-text="Custom background showing a 21:9 front of room display with element dimensions." lightbox="../media/front-of-room-21-9-dimensions.png":::
 
 #### Touch board displays
 
@@ -272,11 +272,11 @@ When you create a custom background, avoid placing text, logos, or icons, near t
 
 **16:9 - Touch board display dimensions**
 
-:::image type="content" source="../media/touch-board-16-9-display-dimensions.png" alt-text="A custom background showing a 16:9 touch board display with element dimensions.":::
+:::image type="content" source="../media/touch-board-16-9-display-dimensions.png" alt-text="A custom background showing a 16:9 touch board display with element dimensions." lightbox="../media/touch-board-16-9-display-dimensions.png":::
 
 **3:2 - Touch board display dimensions**
 
-:::image type="content" source="../media/touch-board-3-2-display-dimensions.png" alt-text="A custom background showing a 3:2 touch board display with element dimensions.":::
+:::image type="content" source="../media/touch-board-3-2-display-dimensions.png" alt-text="A custom background showing a 3:2 touch board display with element dimensions." lightbox="../media/touch-board-3-2-display-dimensions.png":::
 
 ### Custom background template
 
