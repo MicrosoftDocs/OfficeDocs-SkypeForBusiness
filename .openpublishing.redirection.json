@@ -4736,49 +4736,49 @@
     "redirect_document_id": false
   },
   {
-  "source_path": "/microsoftteams/teams-privacy.md",
-  "redirect_url": "/microsoftteams/privacy/teams-privacy",
-  "redirect_document_id": true
+    "source_path": "microsoftteams/teams-privacy.md",
+    "redirect_url": "/microsoftteams/privacy/teams-privacy",
+    "redirect_document_id": true
   },
   {
-    "source_path": "/microsoftteams/location-of-data-in-teams.md",
+    "source_path": "microsoftteams/location-of-data-in-teams.md",
     "redirect_url": "/microsoftteams/privacy/location-of-data-in-teams",
     "redirect_document_id": true
   },
   {
-      "source_path": "/microsoftteams/teams-privacy-feedback.md",
-      "redirect_url": "/microsoftteams/privacy/teams-privacy-feedback",
-      "redirect_document_id": true
+    "source_path": "microsoftteams/teams-privacy-feedback.md",
+    "redirect_url": "/microsoftteams/privacy/teams-privacy-feedback",
+    "redirect_document_id": true
   },
   {
-    "source_path": "/microsoftteams/policy-control-overview.md",
+    "source_path": "microsoftteams/policy-control-overview.md",
     "redirect_url": "/microsoftteams/privacy/policy-control-overview",
     "redirect_document_id": true
   },
   {
-      "source_path": "/microsoftteams/policy-control-diagnostic-data-mobile.md",
-      "redirect_url": "/microsoftteams/privacy/policy-control-diagnostic-data-mobile",
-      "redirect_document_id": true
+    "source_path": "microsoftteams/policy-control-diagnostic-data-mobile.md",
+    "redirect_url": "/microsoftteams/privacy/policy-control-diagnostic-data-mobile",
+    "redirect_document_id": true
   },
   {
-    "source_path": "/microsoftteams/policy-control-diagnostic-data-desktop.md",
+    "source_path": "microsoftteams/policy-control-diagnostic-data-desktop.md",
     "redirect_url": "/microsoftteams/privacy/policy-control-diagnostic-data-desktop",
     "redirect_document_id": true
  },
  {
-  "source_path": "/microsoftteams/teams-privacy-oce-overview.md",
-  "redirect_url": "/microsoftteams/privacy/teams-privacy-oce-overview",
-  "redirect_document_id": true
+    "source_path": "microsoftteams/teams-privacy-oce-overview.md",
+    "redirect_url": "/microsoftteams/privacy/teams-privacy-oce-overview",
+    "redirect_document_id": true
  },
  {
-  "source_path": "/microsoftteams/operator-connect-data-transfer.md",
-  "redirect_url": "/microsoftteams/privacy/operator-connect-data-transfer",
-  "redirect_document_id": true
+    "source_path": "microsoftteams/operator-connect-data-transfer.md",
+    "redirect_url": "/microsoftteams/privacy/operator-connect-data-transfer",
+    "redirect_document_id": true
  },
  {
-  "source_path": "/microsoftteams/privacy/index.md",
-  "redirect_url": "/microsoftteams/privacy/teams-privacy",
-  "redirect_document_id": false
+    "source_path": "microsoftteams/privacy/index.md",
+    "redirect_url": "/microsoftteams/privacy/teams-privacy",
+    "redirect_document_id": false
 }           
 ] 
 }
