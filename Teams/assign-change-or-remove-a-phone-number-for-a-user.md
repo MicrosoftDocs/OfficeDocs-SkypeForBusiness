@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: pamgreen
 ms.reviewer: julienp, roykuntz, jastark
-ms.date: 08/25/2023
+ms.date: 02/14/2024
 ms.topic: article
 ms.assetid: 91089761-cb87-4119-885b-3713840dd9f7
 ms.tgt.pltfrm: cloud
@@ -64,7 +64,7 @@ Set-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <phone number> -PhoneN
 For Teams Phone Mobile numbers:
 
 ```PowerShell
-Set-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <phone number> -PhoneNumberType OCMobile
+Set-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <phone number> -PhoneNumberType OperatorConnect
 ```
 
 For example:
@@ -72,7 +72,6 @@ For example:
 ```PowerShell
 Set-CsPhoneNumberAssignment -Identity john@contoso.com -PhoneNumber "+14255550101" -PhoneNumberType CallingPlan
 Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+14255550102" -PhoneNumberType OperatorConnect
-Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+14255550103" -PhoneNumberType OCMobile
 ```
 
 > [!NOTE]
