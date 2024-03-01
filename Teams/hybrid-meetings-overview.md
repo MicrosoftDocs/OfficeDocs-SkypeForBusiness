@@ -1,7 +1,8 @@
 ---
 title: "Create an inclusive Teams meeting experience for all participants"
+ms.author: tonysmit
 author: mstonysmith
-
+manager: pamgreen
 ms.reviewer: sohailta
 ms.date: 2/26/2024
 ms.topic: article
