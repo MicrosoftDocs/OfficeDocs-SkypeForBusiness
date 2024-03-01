@@ -21,7 +21,7 @@ f1.keywords:
 - Teams hybrid
 - remote work
 - Teams meetings
-- description: Assign a Teams Rooms Basic or Teams Rooms Pro license to a resource account.
+description: Assign a Teams Rooms Basic or Teams Rooms Pro license to a resource account.
 ---
 
 # Step 3 - Assign a meeting room license
