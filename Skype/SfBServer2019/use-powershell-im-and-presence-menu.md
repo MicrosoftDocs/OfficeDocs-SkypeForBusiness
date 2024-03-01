@@ -18,7 +18,7 @@ description: "Summary: Skype for Business Server Control panel to Cmdlet mapping
 
 This article describes how similar results as that of the **IM and Presence** menu item in the legacy Control Panel can be achieved using cmdlets.
 
-This article describes the following sub-menus :
+This article describes the following submenus:
 
 - [IM and Presence](#im-and-presence)
   - [File Filter](#file-filter)
@@ -26,7 +26,7 @@ This article describes the following sub-menus :
 
 ## File Filter
 
-**FILE FILTER** sub-menu enables administrators to manage file transfer filter configurations in the organization. These configurations are used to block a user's ability to transfer certain types of files (for example, files with a .vbs or .ps1 file extension) using a Skype for Business Server client.
+**FILE FILTER** submenu enables administrators to manage file transfer filter configurations in the organization. These configurations are used to block a user's ability to transfer certain types of files (for example, files with a .vbs or .ps1 file extension) using a Skype for Business Server client.
 
 Let us consider the various tasks a user can do on **FILE FILTER**, and the Skype for Business cmdlets those tasks map to.
 
@@ -114,7 +114,7 @@ Let us consider the various tasks a user can do on **FILE FILTER**, and the Skyp
 
 ## URL Filter
 
-The **URL FILTER** sub-menu item under **IM and Presence** enables administrators to configure URL filter so that hyperlinks with certain prefixes are blocked or are not active. (In other words, the participants can't simply click the link and go to the site the URI refers to; they must copy and paste the link manually into a browser.)
+The **URL FILTER** submenu item under **IM and Presence** enables administrators to configure URL filter so that hyperlinks with certain prefixes are blocked or aren't active. (In other words, the participants can't select the link and go to the site the URI refers to; they must copy and paste the link manually into a browser.)
 
 Let us consider the various tasks a user can do on **URL FILTER**, and the Skype for Business cmdlets those tasks map to.
 

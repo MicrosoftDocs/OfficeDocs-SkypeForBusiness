@@ -111,7 +111,7 @@ Let us consider the various tasks a user can do on **SERVER APPLICATION**, and t
 
 ## Simple URL
 
-Simple URLs make it easier for users to join meetings and conferences, and also make it easier for Administrators to log on to the Skype for Business Server Control Panel.The **SIMPLE URL** sub-menu helps administrator to view them.
+Simple URLs make it easier for users to join meetings and conferences, and also make it easier for Administrators to sign in the Skype for Business Server Control Panel.The **SIMPLE URL** submenu helps administrator to view them.
 
 Let us consider the various tasks a user can do on **SIMPLE URL**, and the Skype for Business cmdlets those tasks map to.
 
@@ -134,7 +134,7 @@ Let us consider the various tasks a user can do on **SIMPLE URL**, and the Skype
 
 ## Trusted Application
 
-A trusted application is an application developed by a third party that is given trusted status to run as part of Skype for Business Server but that is not a built-in part of the product.The **TRUSTED APPLICATION** sub-menu helps administrator to view them.
+A trusted application is an application developed by a partner that is given trusted status to run as part of Skype for Business Server but that isn't a built-in part of the product.The **TRUSTED APPLICATION** submenu helps administrator to view them.
 
 Let us consider the various tasks a user can do on **TRUSTED APPLICATION**, and the Skype for Business cmdlets those tasks map to.
 

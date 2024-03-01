@@ -19,18 +19,18 @@ description: "Configure test user accounts and watcher node settings for Skype f
  
 **Summary:** Configure test user accounts and watcher node settings for Skype for Business Server synthetic transactions.
   
-After configuring the computer that will act as a watcher node, you must:
+After configuring the computer that acts as a watcher node, you must:
   
-1. [Configure Test User Accounts](test-users-and-settings-2019.md#testuser) to be used by these watcher nodes. If you are using the Negotiate authentication method, you must also use the **Set-CsTestUserCredential** cmdlet to enable these test accounts for use on the watcher node.
+1. [Configure Test User Accounts](test-users-and-settings-2019.md#testuser) to be used by these watcher nodes. If you're using the Negotiate authentication method, you must also use the **Set-CsTestUserCredential** cmdlet to enable these test accounts for use on the watcher node.
     
 2. Update the watcher node configuration settings.
     
 ## Configure Test User Accounts
 <a name="testuser"> </a>
 
-Test accounts do not need to represent actual people, but they must be valid Active Directory accounts. In addition, these accounts must be enabled for Skype for Business Server, they must have valid SIP addresses, and they should be enabled for Enterprise Voice (to use the Test-CsPstnPeerToPeerCall synthetic transaction). 
+Test accounts don't need to represent actual people, but they must be valid Active Directory accounts. In addition, these accounts must be enabled for Skype for Business Server, they must have valid SIP addresses, and they should be enabled for Enterprise Voice (to use the Test-CsPstnPeerToPeerCall synthetic transaction). 
   
-If you are using the TrustedServer authentication method, all you need to do is to make sure that these accounts exist and configure them as noted. Assign at least three test users for each pool that you want to test. If you are using the Negotiate authentication method, you must also use the Set-CsTestUserCredential cmdlet and the Skype for Business Server Management Shell to enable these test accounts to work with the synthetic transactions. Do this by running a command similar to the following (these commands assume that the three Active Directory user accounts have been created and that these accounts are enabled for Skype for Business Server):
+If you're using the TrustedServer authentication method, all you need to do is to make sure that these accounts exist and configure them as noted. Assign at least three test users for each pool that you want to test. If you're using the Negotiate authentication method, you must also use the Set-CsTestUserCredential cmdlet and the Skype for Business Server Management Shell to enable these test accounts to work with the synthetic transactions. Do this by running a command similar to the following (these commands assume that the three Active Directory user accounts are created and that these accounts are enabled for Skype for Business Server):
   
 ```PowerShell
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
@@ -38,7 +38,7 @@ Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "li
 Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "litwareinc\watcher3" -Password "P@ssw0rd"
 ```
 
-Include not only the SIP address, but also the user name and password. If you do not include the password, the Set-CsTestUserCredential cmdlet will prompt you to enter that information. The user name can be specified by using the domain name\user name format shown in the preceding code block.
+Include not only the SIP address, but also the user name and password. If you don't include the password, the Set-CsTestUserCredential cmdlet prompts you to enter that information. The user name can be specified by using the domain name\user name format shown in the preceding code block.
   
 To verify that the test user credentials were created, run these commands from the Skype for Business Server Management Shell:
   
