@@ -22,7 +22,6 @@ f1.keywords:
 - remote work
 - Teams meetings
 - description: Create a resource account for use with Teams Rooms devices.
-ms.topic: article
 ---
 
 # Step 2 - Create a resource account
