@@ -3,19 +3,21 @@ title: Set up the common area phones for Microsoft Teams
 ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
-ms.date: 10/11/2023
 ms.reviewer: kvijagan
+ms.date: 10/11/2023
 ms.topic: article
-ms.tgt.pltfrm: cloud
+audience: Admin
 ms.service: msteams
-search.appverid: MET150
+ms.subservice: itpro-rooms
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
+  - M365-collaboration
+  - teams-rooms-devices
   - M365-voice
   - m365initiative-voice
   - Tier1
-audience: Admin
-appliesto: 
-  - Microsoft Teams
+search.appverid: MET150
 ms.localizationpriority: medium
 f1.keywords:
 - CSH

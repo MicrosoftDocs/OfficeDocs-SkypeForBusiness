@@ -5,10 +5,12 @@ author: mstonysmith
 manager: pamgreen
 ms.reviewer: naforer
 ms.date: 08/22/2023
-audience: ITPro
 ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices

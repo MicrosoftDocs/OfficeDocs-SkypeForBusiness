@@ -5,12 +5,14 @@ author: mstonysmith
 ms.reviewer: anusharma
 ms.date: 10/04/2023
 manager: pamgreen
-audience: ITPro
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
+audience: Admin
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
-  - M365-collaboration
+  - teams-rooms-devices
   - Teams_ITAdmin_Devices
   - Tier1
 f1.keywords: 

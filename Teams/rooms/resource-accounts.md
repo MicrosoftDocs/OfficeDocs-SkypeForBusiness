@@ -3,20 +3,19 @@ title: Microsoft Teams Rooms Resource Accounts
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: dansimp
+ms.reviewer: sohailta
 ms.date: 09/29/2023
 ms.topic: article
-ms.tgt.pltfrm: cloud
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-search.appverid: MET150
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
   - Tier1
-audience: Admin
-appliesto: 
-  - Microsoft Teams
+search.appverid: MET150
 ms.localizationpriority: medium
 f1.keywords: 
   - NOCSH

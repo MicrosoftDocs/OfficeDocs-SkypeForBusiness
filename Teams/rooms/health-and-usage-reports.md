@@ -3,19 +3,18 @@ title: Health and usage reports
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.date: 04/07/2022
 ms.reviewer: altsou
+ms.date: 04/07/2022
 ms.topic: article
-ms.tgt.pltfrm: cloud
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-audience: Admin
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
-  - Tier3
-appliesto: 
-  - Microsoft Teams
+  - Tier1
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Reporting node data for health and usage of reports

@@ -2,22 +2,24 @@
 title: Teams devices for Education
 author: mstonysmith
 ms.author: tonysmit
-manager: serdars
-ms.date: 08/3/2021
-ms.topic: conceptual
-audience: ITPro
+manager: pamgreen
+ms.reviewer: elaineho
+ms.date: 2/27/2024
+ms.topic: article
+audience: Admin
 ms.service: msteams
-search.appverid: MET150
-ms.reviewer: 
-description: Outlines the potential uses and benefits of Teams Rooms systems and devices in various spaces and setups for educators.
+ms.subservice: itpro-rooms
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
-  - tier2
+  - teams-rooms-devices
+  - Tier1
+search.appverid: MET150
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
-appliesto: 
-  - Microsoft Teams
+description: Outlines the potential uses and benefits of Teams Rooms systems and devices in various spaces and setups for educators.
 ---
 # Teams devices for Education
 

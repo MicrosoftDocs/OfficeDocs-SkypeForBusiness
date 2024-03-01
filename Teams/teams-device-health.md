@@ -3,13 +3,18 @@ title: Managing the health of Teams devices
 ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
-ms.topic: article
-ms.service: msteams
-audience: admin
-ms.collection: 
-  - M365-collaboration
 ms.reviewer: snchatur
 ms.date: 08/17/2021
+ms.topic: article
+audience: Admin
+ms.service: msteams
+ms.subservice: itpro-rooms
+appliesto: 
+  - Microsoft Teams
+ms.collection: 
+  - M365-collaboration
+  - teams-rooms-devices
+  - Tier1
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,7 +22,6 @@ description: This article will guide you in managing the health of Teams devices
 localization_priority: Normal
 appliesto: 
   - Microsoft Teams
-ms.custom:
 ---
 
 # Manage the health of Teams devices

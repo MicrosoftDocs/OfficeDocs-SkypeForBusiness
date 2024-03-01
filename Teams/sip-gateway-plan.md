@@ -4,14 +4,18 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.date: 08/22/2023
-ms.topic: article
-ms.service: msteams
-audience: admin
-ms.collection:
-  - teams-rooms-devices
-  - highpri
-  - Tier1
 ms.reviewer: chasing
+ms.topic: article
+audience: Admin
+ms.service: msteams
+ms.subservice: itpro-rooms
+appliesto: 
+  - Microsoft Teams
+ms.collection: 
+  - M365-collaboration
+  - teams-rooms-devices
+  - M365-voice
+  - Tier1
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -20,8 +24,6 @@ description: Learn more about SIP Gateway, such as requirements and benefits.
 ms.custom:
  - seo-marvel-apr2020
  - seo-marvel-jun2020
-appliesto:
-  - Microsoft Teams
 ---
 
 # Plan for SIP Gateway
