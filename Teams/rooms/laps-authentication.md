@@ -42,7 +42,7 @@ LAPS consists of the following components:
 
 **LAPS architecture and workflow**:
 
-![Windows LAPS architecture with a managed device, Azure Active Directory, and Windows Server ActiveDirectory.](windows-server/identity/laps/media/laps-concepts-overview/laps-concepts-overview-architecture-diagram.png)
+![Windows LAPS architecture with a managed device, Azure Active Directory, and Windows Server ActiveDirectory.](/windows-server/identity/laps/media/laps-concepts-overview/laps-concepts-overview-architecture-diagram.png)
 
 ## LAPS deployment
 
@@ -125,6 +125,6 @@ LAPS is a Windows feature that enhances the security and management of local adm
 ## Related LAPS documentation
 
 - [Windows LAPS documentation](/windows-server/identity/laps/laps-overview)
-- [Manage Windows LAPS with Microsoft Intune policies](intune/protect/windows-laps-overvie)
-- [Windows Local Administrator Password Solution in Microsoft Entra ID](entra/identity/devices/howto-manage-local-admin-passwords)
-- [LAPS CSP](windows/client-management/mdm/laps-csp)
+- [Manage Windows LAPS with Microsoft Intune policies](/intune/protect/windows-laps-overvie)
+- [Windows Local Administrator Password Solution in Microsoft Entra ID](/entra/identity/devices/howto-manage-local-admin-passwords)
+- [LAPS CSP](/windows/client-management/mdm/laps-csp)
