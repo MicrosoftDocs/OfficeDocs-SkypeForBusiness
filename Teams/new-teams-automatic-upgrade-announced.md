@@ -51,7 +51,7 @@ Learn more about the Modern Lifecycle Policy under the [**Servicing agreement**]
 
 There's no major impact to the user experience for new Teams, which means you won't need to invest in any further training. Instead, users experience faster performance and less memory use.
 
-As an admin, you can [manage how new Teams becomes available to your users](https://aka.ms/newTeamsUpgrade). 
+As an admin, you can [manage how new Teams becomes available to your users](https://aka.ms/newTeamsUpgrade).
 Users can get started on the new Teams today by flipping the toggle in the classic Teams app if your policies allow them to do so.
 
 [**Review policies**](/microsoftteams/new-teams-deploy-using-policies).
@@ -59,11 +59,10 @@ Users can get started on the new Teams today by flipping the toggle in the class
 - Admins can enable new Teams in their organizations through robust IT admin policies, which empower them to enable users and groups within their organizations as appropriate.
 - Admins who currently have the Teams update policy set to 'Not enabled' for the 'Use new Teams client' setting, we suggest setting the value as **New Teams only** after selecting the Teams update policy to  ‘Microsoft controlled’ in the Teams admin center.
 
-[**Review prerequisites** ](/microsoftteams/new-teams-deploy-using-policies#prerequisites)
+[**Review prerequisites**](/microsoftteams/new-teams-deploy-using-policies#prerequisites)
 
 - Make sure your organization meets the system requirements.
 
 [**Review bulk update options**](/microsoftteams/new-teams-bulk-install-client)
 
 - Bulk updates are helpful because users don't need to manually download and install the Teams client. Microsoft provides an executable (.exe) file for the new Teams client so you can update the application directly to the computers in your organization. An offline option is also available.
-

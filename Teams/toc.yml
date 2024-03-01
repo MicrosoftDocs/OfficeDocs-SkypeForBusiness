@@ -330,21 +330,21 @@ items:
     - name: Privacy
       items: 
         - name: Privacy and Microsoft Teams
-          href: teams-privacy.md
+          href: privacy/teams-privacy.md
         - name: Location of data in Teams
-          href: location-of-data-in-teams.md
+          href: privacy/location-of-data-in-teams.md
         - name: Microsoft Teams feedback privacy
-          href: teams-privacy-feedback.md
+          href: privacy/teams-privacy-feedback.md
         - name: Policy control overview
-          href: policy-control-overview.md
+          href: privacy/policy-control-overview.md
         - name: Mobile diagnostic data
-          href: policy-control-diagnostic-data-mobile.md
+          href: privacy/policy-control-diagnostic-data-mobile.md
         - name: Desktop client diagnostic data
-          href: policy-control-diagnostic-data-desktop.md
+          href: privacy/policy-control-diagnostic-data-desktop.md
         - name: Optional connected experiences
-          href: teams-privacy-oce-overview.md
+          href: privacy/teams-privacy-oce-overview.md
         - name: Operator Connect data transfer
-          href: operator-connect-data-transfer.md
+          href: privacy/operator-connect-data-transfer.md
         - name: Intelligent recap
           href: privacy/intelligent-recap.md
 
@@ -694,6 +694,8 @@ items:
               href: view-only-meeting-experience.md
             - name: Meeting invitations
               href: customize-meeting-invitations.md
+            - name: Manage feedback surveys for anonymous participants
+              href: meeting-surveys-anonymous-participants.md
         - name: Standardized meetings
           items: 
             - name: Custom meetings overview
@@ -954,13 +956,15 @@ items:
               href: inbound-call-routing.md
             - name: Block inbound calls
               href: block-inbound-calls.md
+            - name: Configure spam filtering
+              href: configure-call-spam-filtering.md
             - name: Configure call forwarding and delegation settings
               href: user-call-settings.md
             - name: Configure call park and retrieve
               href: call-park-and-retrieve.md
             - name: Configure call sharing and group call pickup
               href: call-sharing-and-group-call-pickup.md
-            - name: Configure music on Hold
+            - name: Configure Music on Hold
               href: music-on-hold.md
             - name: Configure private line
               href: private-line.md
@@ -984,7 +988,7 @@ items:
               href: set-up-holidays-in-teams.md
             - name: Answer Auto attendant and Call queue calls directly from Teams
               href: answer-auto-attendant-and-call-queue-calls.md
-            - name: Reports
+            - name: Reports - Historical
               href: aa-cq-cqd-historical-reports.md
             - name: PowerShell cmdlet reference for Auto attendants and Call queues
               href: call-queue-auto-attendant-cmdlets.md
@@ -1006,6 +1010,8 @@ items:
           href: shared-line-appearance.md
         - name: Dial pad configuration
           href: dial-pad-configuration.md
+        - name: Call recording, transcription, and captions
+          href: call-recording-transcription-captions.md
         
 
     - name: PSTN connectivity options
@@ -1486,7 +1492,7 @@ items:
                   href: rooms/rooms-lifecycle-support.md
                 - name: Android app and firmware versions
                   href: rooms/android-app-firmware.md
-                - name: Teams Rooms Windows and Android comparison
+                - name: Teams Rooms and devices feature comparison
                   href: rooms/teams-devices-feature-comparison.md
             - name: Licensing
               items:
@@ -1664,7 +1670,7 @@ items:
               href: devices/usb-devices.md
             - name: RealWear for Teams
               href: flw-realwear.md
-            - name: SmartVision
+            - name: Multi-Stream IntelliFrame
               href: devices/smartvision-admin.md
             - name: Cloud IntelliFrame
               href: devices/cloud-intelliframe.md
