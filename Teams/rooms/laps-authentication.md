@@ -22,11 +22,11 @@ ms.localizationpriority: medium
 description: This article provides an overview of LAPS, its architecture, the required deployment steps, and the steps to configure LAPs for Teams Rooms on Windows.
 ---
 
-# Overview
-
-Windows Local Administrator Password Solution (LAPS) is a Windows feature that manages and backs up the password of the local administrator account to Microsoft Entra joined (Entra Joined) or Active Directory (AD). It provides enhanced protection against local administrator account password attacks and meets key customer requirements for deploying Teams Rooms on Windows devices.
+# Windows Local Administrator Password Solution (LAPS)
 
 This article provides an overview of LAPS, its architecture, the required deployment steps, and the steps to configure LAPs for Teams Rooms on Windows.
+
+Windows Local Administrator Password Solution (LAPS) is a Windows feature that manages and backs up the password of the local administrator account to Microsoft Entra joined (Entra Joined) or Active Directory (AD). It provides enhanced protection against local administrator account password attacks and meets key customer requirements for deploying Teams Rooms on Windows devices.
 
 ## What is LAPS?
 
@@ -42,7 +42,7 @@ LAPS consists of the following components:
 
 **LAPS architecture and workflow**:
 
-![Windows LAPS architecture with a managed device, Azure Active Directory, and Windows Server ActiveDirectory.](media/laps-auth-overview.png)
+![Windows LAPS architecture with a managed device, Azure Active Directory, and Windows Server ActiveDirectory.](https://learn.microsoft.com/windows-server/identity/laps/media/laps-concepts-overview/laps-concepts-overview-architecture-diagram.png)
 
 ## LAPS deployment
 
@@ -125,6 +125,6 @@ LAPS is a Windows feature that enhances the security and management of local adm
 ## Related LAPS documentation
 
 - [Windows LAPS documentation](https://learn.microsoft.com/windows-server/identity/laps/laps-overview)
-- [Manage Windows LAPS with Microsoft Intune policies](https://learn.microsoft.com/en-us/mem/intune/protect/windows-laps-overvie)
+- [Manage Windows LAPS with Microsoft Intune policies](https://learn.microsoft.com/mem/intune/protect/windows-laps-overvie)
 - [Windows Local Administrator Password Solution in Microsoft Entra ID](https://learn.microsoft.com/en-us/entra/identity/devices/howto-manage-local-admin-passwords)
-- [LAPS CSP](https://learn.microsoft.com/en-us/windows/client-management/mdm/laps-csp)
+- [LAPS CSP](https://learn.microsoft.com/windows/client-management/mdm/laps-csp)
