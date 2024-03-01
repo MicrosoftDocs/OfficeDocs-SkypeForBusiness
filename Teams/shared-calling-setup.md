@@ -1,7 +1,7 @@
 ---
 title: "Configure Shared Calling"
-ms.reviewer: jenstr
-ms.date: 10/16/2023
+ms.reviewer: roykuntz, jastark
+ms.date: 2/8/2024
 author: mkbond007
 ms.author: mabond
 manager: pamgreen
@@ -68,7 +68,7 @@ Each user must have a Teams Phone license assigned, and each user must be "voice
 
 - To enable users for voice, use the [Set-CsPhoneNumberAssignment cmdlet](/powershell/module/teams/set-csphonenumberassignment) and set the -EnterpriseVoiceEnabled parameter to $true.
 
-For more information about licensing, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) and [assigning licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users.md).
+For more information about licensing, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) and [assigning licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
 
 ## Step 2: Assign number to resource account for inbound and outbound calling
 
@@ -91,7 +91,7 @@ For information on the configuration of emergency locations, see [Manage emergen
 If the resource account is using a Calling Plan service number, you must have a [Pay-As-You-Go Calling Plan](calling-plans-for-office-365.md#pay-as-you-go-calling-plan) assigned to the resource account, and fund calls either with [Enable pay-as-you-go for your subscription](/microsoft-365/commerce/subscriptions/manage-pay-as-you-go-services#buy-a-pay-as-you-go-product-or-service-and-enable-overage), if your tenant has [New commerce experience calling subscriptions](what-are-communications-credits.md#customers-with-new-commerce-experience-calling-subscriptions) and you want to post pay for calls, or [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).
 
 > [!NOTE]
-> If funding is not available for a call, the caller will hear a voice treatment stating that "You are not setup to use this calling feature, please contact your admin". If only a Pay-As-You-Go Calling Plan is assigned to the Resource Account, be sure it's correctly enabled to fund calls. If Communication Credits are assigned, confirm that the Communication Credits have a funded balance. 
+> If funding is not available for a call, the caller will hear a voice treatment stating that "You are not setup to use this calling feature, please contact your admin". If only a Pay-As-You-Go Calling Plan is assigned to the Resource Account, be sure it's correctly enabled to fund calls. If Communication Credits are assigned, confirm that the Communication Credits have a funded balance.
 
 ## Step 6: Create voice routing policy without PSTN usages
 
@@ -107,7 +107,20 @@ You aren't required to define emergency numbers for a Shared Calling policy. If 
 
 Once you've created your emergency call routing policy, you'll create your Shared Calling policy.
 
-Currently, Shared Calling can only be configured with PowerShell.
+Shared Calling can be configured with the Teams admin center and PowerShell.
+
+## Use the Teams admin center
+
+To create a Shared Calling policy in the Teams admin center, do the following steps:
+
+1. In the Teams admin center, go to **Voice** > **Shared calling policies**.
+1. Select **Add** to create a new Shared Calling policy.
+1. Enter a unique name and description for the policy.
+1. For **Resource account**, select the resource account that you want to use for this policy.
+1. If you want to use emergency numbers for the Shared Calling policy, select **Add emergency callback numbers**. From the side panel, select the **Phone number type** and **Assigned phone number**. Once you've added the emergency callback number, select **Add**.
+1. Select **Save**.
+
+### Use PowerShell
 
 To configure and manage Shared Calling policies, you'll use the following Teams PowerShell cmdlets:
 
@@ -140,13 +153,15 @@ Set-CsTeamsSharedCallingRoutingPolicy -Identity Seattle -EmergencyNumbers @{add=
 
 ## Step 9: Assign the Shared Calling policy to users
 
-Once you've [created your Shared Calling policy](#step-8-create-the-shared-calling-policy), you need to assign it to users with [Grant-CsTeamsSharedCallingRoutingPolicy](/powershell/module/teams/grant-csteamssharedcallingroutingpolicy).
+Once you've [created your Shared Calling policy](#step-8-create-the-shared-calling-policy), you need to assign it to users. To do this, you can use the [Grant-CsTeamsSharedCallingRoutingPolicy](/powershell/module/teams/grant-csteamssharedcallingroutingpolicy) PowerShell cmdlet or the Teams admin center.
 
-The following cmdlet assigns the Shared Calling policy to a user:
+The following PowerShell script assigns the Shared Calling policy to a user:
 
 ```powershell
 Grant-CsTeamsSharedCallingRoutingPolicy -PolicyName Seattle -Identity user@contoso.com
 ```
+
+To learn about the different ways that you can assign policies to users in the Teams admin center, see [Assign policies to users and groups](assign-policies-users-and-groups.md).
 
 ## Emergency calling for Shared Calling users
 
@@ -173,7 +188,7 @@ The routing of emergency calls is based on how a resource account is configured.
 - If the emergency call routing policy used for the emergency call - either from user or network site assignment - has online PSTN usages configured, the routing of the emergency call will be based on the online PSTN usages.
 
 > [!NOTE]
-> If Shared Calling for Calling Plans or Operator Connect is configured in the same Tenant with Direct Routing, site assigned emergency call routing polices cannot be used. 
+> If Shared Calling for Calling Plans or Operator Connect is configured in the same Tenant with Direct Routing, site assigned emergency call routing polices cannot be used.
 
 For more information, see [Manage emergency call routing policies](manage-emergency-call-routing-policies.md) and [Set-CsOnlinePstnUsage](/powershell/module/skype/set-csonlinepstnusage).
 
@@ -181,7 +196,7 @@ For more information, see [Manage emergency call routing policies](manage-emerge
 
 Emergency services must be able to call back the originator of an emergency call through the emergency callback number. The callback number serves as the caller ID or calling number used when an emergency call is made.
 
-You define a list of emergency callback numbers in the Shared Calling policy by using the -EmergencyNumbers parameter. Each Shared Calling policy must have a unique emergency calling number. That is, you can't use the same emergency number in more than one Shared Calling policy.
+You define a list of emergency callback numbers in the Shared Calling policy by using the `-EmergencyNumbers` parameter. Each Shared Calling policy must have a unique emergency calling number. That is, you can't use the same emergency number in more than one Shared Calling policy.
 
 When an emergency call is made, the next free number in the emergency number list will be used as the caller ID. This number will be reserved for the next 60 minutes.
 

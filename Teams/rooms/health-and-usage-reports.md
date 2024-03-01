@@ -3,8 +3,8 @@ title: Health and usage reports
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
+ms.date: 02/28/2024
 ms.reviewer: altsou
-ms.date: 04/07/2022
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -148,9 +148,9 @@ Below the headline **Metrics** is a table of rooms with corresponding metrics. S
 
 |Column|Description|
 |---|---|
-|Utilization|Percentage of time the room was booked during business hours (Max of 8hours/ per day) in the selected period.  Utilization= (total hours)/ (number of selected days set in the report * 8).   Ex: Time period set to 7 days in the report. The room was booked for 5 days during that period and the total hours= 8*5 = 40 hours. In this case, utilization = (8*5)/ (7*8) = 40/56= 71%|
+|Utilization|Percentage of time the room was booked during business hours (Max of 8hours/ per day) in the selected period.  Utilization= (total hours)/ (number of selected days set in the report * 8).   Ex: Time period set to 7 days in the report. The room was booked for 5 days during that period and the total hours= (8 * *5) =* 40 hours*. **In this case, utilization = (8 **** **5)/ (7 * 8) = 40/56= 71%**      |
 |Booked online|Of the booked meetings, the percentage of which were enabled with Teams. Ex. 10 meetings were booked. Of that, 8 had a Teams link. Booked Online = 80%|
-|Scheduled meetings|Absolute number of meetings scheduled in the room|
+|Scheduled meetings|Absolute number of meetings scheduled in the room.|
 |Total calls|Absolute number of calls with the room as a participant.|
 |Call performance|Percentage of calls with a "Good" rating. Each call is evaluated and receives a Good, Poor, Unknown rating. This metric is calculated from Good calls/Total calls|
 

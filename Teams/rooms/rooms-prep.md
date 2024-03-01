@@ -136,6 +136,13 @@ Microsoft Teams Rooms default password is set to "sfb". The Password can be chan
 
 The Local admin password isn't included as a choice during Setup.
 
+Use Windows Local Administrative Password Solution (LAPS) to enhance security and manage local administrator passwords for Microsoft Teams Rooms on Windows devices. 
+It automatically generates and backs up the passwords to Entra and allows authorized users to retrieve them when needed. LAPS also prevents password reuse and simplifies password rotation.
+For more information, see:
+- [Windows LAPS documentation](/windows-server/identity/laps/laps-overview)
+- [Manage Windows LAPS with Microsoft Intune policies](/mem/intune/protect/windows-laps-overview)
+- [Windows Local Administrator Password Solution in Microsoft Entra ID](/entra/identity/devices/howto-manage-local-admin-passwords)
+
 You can read more about the Admin account in the [Microsoft Teams Rooms security](security.md) article.
   
 ### Machine Account

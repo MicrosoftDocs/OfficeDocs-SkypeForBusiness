@@ -24,7 +24,7 @@ ms.localizationpriority: high
 description: Step through the complete process of setting up a new Teams Rooms device in your organization.
 ---
 
-# Step 5 - Overview
+# Overview
 
 :::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="IT Pro audience" border="false":::
 

@@ -101,7 +101,7 @@ To configure other parameters, consider creating an [IP phone policy](/powershel
 
 ### Calling policies
 
-Use calling policies to enable private calls, using call forwarding, or simultaneous ring on common area phones. To learn more, see [Calling and call-forwarding in Teams](teams-calling-policy.md).
+Use calling policies to enable private calls, using call forwarding, or simultaneous ring on common area phones. To learn more, see [Configure calling policies in Teams](teams-calling-policy.md).
 
 By default, call park isn't enabled for common area phones. You'll need to create a policy to enable it. To learn more, see [Call park and retrieve in Microsoft Teams](call-park-and-retrieve.md).
 
@@ -155,9 +155,9 @@ The following advanced calling features are available for supported Teams phone 
 - [Call queues](create-a-phone-system-call-queue.md).
 - [Auto attendants](create-a-phone-system-auto-attendant.md).
 - [Group call pickup](call-sharing-and-group-call-pickup.md).
-- [Forwarding rules](teams-calling-policy.md).
+- [Forwarding rules](user-call-settings.md).
 
-To use these advanced calling features on a supported Teams phone device model, you can turn on the **Advanced calling** toggle in the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851) or on your Teams phone device that is signed into your Teams Shared Devices account. Once you turn on advanced calling home screen experience on the phone, the device will update.
+To use these advanced calling features on a supported Teams phone device model, you can turn on the **Advanced calling** toggle in the [Teams admin center](https://admin.teams.microsoft.com/) or on your Teams phone device that is signed into your Teams Shared Devices account. Once you turn on advanced calling home screen experience on the phone, the device will update.
 
 Turning on advanced calling capabilities requires you to purchase hardware models that can support all required capabilities.
 

@@ -32,7 +32,7 @@ The MediaLine View stores information about each media line in the database. One
 |CallerPort  <br/> |int  <br/> |Port used by the caller.  <br/> |
 |CallerInside  <br/> |bit  <br/> |Indicates whether or not the caller is inside the organization network. 1 means that the caller is inside the enterprise network. 0 means that the caller is outside the network.  <br/> |
 |CallerMacAddress  <br/> |varchar(256)  <br/> |MAC address of network interface used by caller.  <br/> |
-|CallerRelayIPAddr  <br/> |var(50)  <br/> |IP Address of the A/V Edge service used by the caller. See the [IPAddress table](ipaddress.md) for more information. <br/> |
+|CallerRelayIPAddr  <br/> |var(50)  <br/> |IP Address of the A/V Edge service used by the caller. For more information, see the [IPAddress table](ipaddress.md). <br/> |
 |CalleeRelayPort  <br/> |int  <br/> |Port used on the A/V Edge service used by the caller.  <br/> |
 |CallerReflexiveIPAddr  <br/> |var(50)  <br/> |Caller's IP address as reported by the A/V Edge service. This address may be different that the CallerIPAddr if the client is located behind a NAT for example.  <br/> |
 |CallerCaptureDev  <br/> |varchar(256)  <br/> |Caller's capture device name.  <br/> |
@@ -41,14 +41,14 @@ The MediaLine View stores information about each media line in the database. One
 |CallerRenderDevDriver  <br/> |varchar(256)  <br/> |Caller's render device driver name.  <br/> |
 |CallerWifiDriverDeviceDesc  <br/> |varchar(256  <br/> |Caller's Wifi driver description.  <br/> |
 |CallerWifiDriverVersion  <br/> |varchar(256)  <br/> |Caller's Wifi driver version.  <br/> |
-|CalleeNetworkConnectionDetail  <br/> |varchar(256)  <br/> |Details of caller's network connection. See the [NetworkConnectionDetail table](networkconnectiondetail.md) for more information. <br/> |
+|CalleeNetworkConnectionDetail  <br/> |varchar(256)  <br/> |Details of caller's network connection. For more information, see the [NetworkConnectionDetail table](networkconnectiondetail.md) for more information. <br/> |
 |CallerBssid  <br/> |varchar(256)  <br/> |Basic Service Set Identifier used by callers WiFi connection.  <br/> |
 |CallerVPN  <br/> |bit  <br/> |Indicates whether the caller connected over a virtual private network. 1 is virtual private network (VPN), 0 is non-VPN.  <br/> |
 |CalleeIPAddr  <br/> |var(50)  <br/> |IP address of the callee. This can be either an IPv4 or IPv6 address.  <br/> |
 |CalleePort  <br/> |int  <br/> |Port used by the callee.  <br/> |
 |CalleeInside  <br/> |bit  <br/> |Indicates whether the callee is inside the enterprise network. 1 means callee is inside the enterprise network, 0 means the callee is outside the network.  <br/> |
 |CalleeMacAddress  <br/> |varchar(256)  <br/> |MAC address of network interface used by callee.  <br/> |
-|CalleeRelayIPAddr  <br/> |var(50)  <br/> |IP Address of the A/V Edge service used by the callee. See the [IPAddress table](ipaddress.md) for more information. <br/> |
+|CalleeRelayIPAddr  <br/> |var(50)  <br/> |IP Address of the A/V Edge service used by the callee. For more information, see the [IPAddress table](ipaddress.md). <br/> |
 |CalleeRelayPort  <br/> |int  <br/> |Port used on the A/V Edge service used by the callee.  <br/> |
 |CalleeReflexiveIPAddr  <br/> |var(50)  <br/> |Callee's IP address as reported by the A/V Edge service. This address may be different that the CalleeIPAddr if the client is located behind a NAT for example.  <br/> |
 |CalleeCaptureDev  <br/> |var(50)  <br/> |Callee's capture device name.  <br/> |
@@ -57,11 +57,11 @@ The MediaLine View stores information about each media line in the database. One
 |CalleeRenderDevDriver  <br/> |varchar(256)  <br/> |Callee's render device driver name.  <br/> |
 |CalleeWifiDriverDeviceDesc  <br/> |varchar(256)  <br/> |Callee's Wifi driver description.  <br/> |
 |CalleeWifiDriverVersion  <br/> |varchar(256  <br/> |Callee's Wifi driver version.  <br/> |
-|CalleeNetworkConnectionDetail  <br/> |varchar(256)  <br/> |Details of callee's network connection. See the [NetworkConnectionDetail table](networkconnectiondetail.md) for more information. <br/> |
+|CalleeNetworkConnectionDetail  <br/> |varchar(256)  <br/> |Details of callee's network connection. For more information, see the [NetworkConnectionDetail table](networkconnectiondetail.md). <br/> |
 |CalleeBssid  <br/> |varchar(256)  <br/> |Basic Service Set Identifier used by callee's WiFi connection.  <br/> |
 |CalleeVPN  <br/> |bit  <br/> |Indicates whether the callee connected over a virtual private network. 1 is virtual private network (VPN), 0 is non-VPN.  <br/> |
 |ConversationalMOS  <br/> |decimal(3,2)  <br/> |Narrowband Conversational MOS of the audio sessions (based on both audio streams).  <br/> |
-|AppliedBandwidthLimit  <br/> |int  <br/> |This is the actual bandwidth applied to the given send side stream given various policy settings (TURN, API, SDP, Policy Server, etc.). This should not to be confused with the effective bandwidth because there can be a lower effective bandwidth based on the bandwidth estimate. This is basically the maximum bandwidth the send stream can take barring limits imposed by the bandwidth estimate.  <br/> |
+|AppliedBandwidthLimit  <br/> |int  <br/> |This is the actual bandwidth applied to the given send side stream given various policy settings (TURN, API, SDP, Policy Server, etc.). This should not be confused with the effective bandwidth because there can be a lower effective bandwidth based on the bandwidth estimate. This is basically the maximum bandwidth the send stream can take barring limits imposed by the bandwidth estimate.  <br/> |
 |AppliedBandwidthSource  <br/> |varchar(256)  <br/> |Source of the bandwidth cap being imposed. It describes where the bandwidth limit is coming from (for example, "Policy Server", "TURN Server", or "Modality").  <br/> |
 |Caller  <br/> |bit  <br/> |Indicates whether metrics from the caller were received; 1 is yes, 0 is no.  <br/> |
 |Callee  <br/> |bit  <br/> |Indicates whether metrics from the call receiver were received; 1 is yes, 0 is no.  <br/> |
