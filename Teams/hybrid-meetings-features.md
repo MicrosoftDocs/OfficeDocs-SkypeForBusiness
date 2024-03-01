@@ -2,24 +2,26 @@
 title: "Step 1 - Get familiar with Teams meeting features"
 ms.author: tonysmit
 author: mstonysmith
-f1.keywords:
-- Teams hybrid
-- remote work
-- Teams meetings
 manager: pamgreen
-ms.date: 07/08/2022
-audience: ITPro
-description: Learn which features can help you create an immersive and inclusive Teams Rooms meeting experience.
+ms.reviewer: sohailta
+ms.date: 2/26/2024
 ms.topic: article
+audience: Admin
 ms.service: msteams
-ms.localizationpriority: high
+ms.subservice: itpro-rooms
+appliesto: 
+  - Microsoft Teams
 ms.collection:
 - m365solution-teamshybrid
 - m365solution-scenario
 - m365initiative-meetings
 - teams-rooms-devices
-ms.custom: 
-keywords: 
+f1.keywords:
+- Teams hybrid
+- remote work
+- Teams meetings
+ms.localizationpriority: high
+description: Learn which features can help you create an immersive and inclusive Teams Rooms meeting experience.
 ---
 
 # Step 1 - Get familiar with Teams meeting features

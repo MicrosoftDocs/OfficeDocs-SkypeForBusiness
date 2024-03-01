@@ -5,7 +5,7 @@ author: mstonysmith
 ms.reviewer: divank
 ms.date: 11/04/2023
 manager: pamgreen
-audience: ITPro
+audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-rooms
