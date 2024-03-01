@@ -56,7 +56,6 @@ You should only perform these steps if the necessary Microsoft Teams and Exchang
 Surface Pro devices require one of the following docking station options:
 
 - [Logitech SmartDock](https://www.logitech.com/assets/64799/smartdockdatasheetweb.pdf)
-- [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
 - [Polycom MSR Series](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
 ## Prepare the installation media
