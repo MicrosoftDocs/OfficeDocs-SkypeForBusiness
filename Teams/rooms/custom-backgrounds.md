@@ -3,19 +3,21 @@ title: Set up and manage Teams Rooms on Windows custom backgrounds
 ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
-audience: ITPro
 ms.reviewer: henrikalim
 ms.date: 11/02/2023
-ms.topic: quickstart
+ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-f1.keywords: 
-  - NOCSH
-ms.localizationpriority: medium
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
   - Tier1
+f1.keywords: 
+  - NOCSH
+ms.localizationpriority: medium
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Learn how to set up custom backgrounds on Teams Rooms front-of-room and touch console displays.
@@ -69,7 +71,7 @@ If you enable custom backgrounds and don't provide custom backgrounds for all of
 
 ### Minimum resolutions
 
-Front-of-room displays and touch consoles have minimum supported custom background resolutions. For front-of-room displays, the minimum supported resolution is 1920 x 1080. For touch consoles, the minimum supported resolution is 1280 x 720. If the resolution of any custom background is below the minimum supported resolution for the display or console it's added to, all displays default to `No Theme`.
+Front-of-room displays and touch consoles have minimum supported custom background resolutions. For front-of-room displays, the minimum supported resolution is 1920 x 1080. For touch consoles, the minimum supported resolution is 1280 x 800. If the resolution of any custom background is below the minimum supported resolution for the display or console it's added to, all displays default to `No Theme`.
 
 ### Recommended resolutions
 
@@ -79,7 +81,7 @@ The recommended custom background resolution for front-of-room displays and touc
   - 16:9 displays - 1920 x 1080 or 3840 x 2160 for 4K-enabled displays (up to two 16:9 displays are supported)
   - 21:9 displays - 2560 x 1080 or 3840 x 1645 for 4K-enabled displays (only one 21:9 display is supported)
 - Touch console displays
-  - 16:9 displays - 1280 x 720
+  - 16:9 displays - 1920 x 1080 
   - 16:10 displays - 1280 x 800
   - 3:2 displays - 1920 x 800
 - Touch board displays

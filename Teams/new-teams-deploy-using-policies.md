@@ -28,7 +28,7 @@ You can upgrade to the new Teams client to your organization by setting policies
 
 |Requirement|Version|
 |:----------|:------|
-|Windows| Windows 10 version 10.0.19041 or higher (excluding Windows 10 LTSC for Teams desktop app)|
+|Windows| Windows 10 version 10.0.19041 or higher (excluding Windows 10 LTSC for Teams desktop app). Users of Windows N SKU need to enable [Media Feature Pack for Windows 10/11 N](https://support.microsoft.com/windows/media-feature-pack-for-windows-10-11-n-september-2022-78cfeea5-c7d9-4aa8-b38f-ee4df1392009#:~:text=Here%E2%80%99s%20how%20to%20install%20the%20Media%20Feature%20Pack%3A,select%20Settings%20%3E%20Apps%20%3E%20Optional%20features.%20)|
 |Webview2|Update to the most current version. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise)|
 |Teams app|Version 1.6.00.4472 to see the *Try the new Teams* toggle.</br></br>If you are at a lower version, select the overflow menu **(…) > Check for updates > Update**. Then restart your app.|
 |Office |Microsoft 365 Apps or Office LTSC 2021 Learn more: [Office versions and connectivity to Microsoft 365 services](/deployoffice/endofsupport/microsoft-365-services-connectivity)|
@@ -70,7 +70,7 @@ Configure setting via Teams Admin Center.
    |Classic Teams as default|Use this value to have classic Teams the default version. The new Teams toggle switch displays to let users opt into the new Teams and switch back if needed. **Note:** This option was previously called *Users can choose*.|
    |Microsoft controlled| Default. The value lets Microsoft control whether the new Teams toggle switch is shown or not based on product readiness|
    |New Teams as default </br>Rollout for the feature began in early August  2023 | Use this value to make new Teams the default version. Users can switch back to classic Teams using the toggle.|
-   |New Teams only (Rolling out end of January 2024) |Use this value to make new Teams the default version and uninstall classic Teams. Users don't have the option to switch back to classic Teams.|
+   |New Teams only (Rolling out mid-February 2024) |Use this value to make new Teams the default version and uninstall classic Teams. Users don't have the option to switch back to classic Teams.|
 
 In addition to PowerShell, you can also use Teams Admin Center to manage the visibility of the toggle on a per-user basis.
 
@@ -205,7 +205,7 @@ teamsbootstrapper.exe -x -m
 
 #### User settings migration
 
-End user settings are automatically migrated from classic Teams to new Teams during the intial switch.  
+End user settings are automatically migrated from classic Teams to new Teams during the initial switch.  
 
 >[!Note]
 >Settings are only migrated once, the first time a user updates to new Teams. After that, no incremental migrations of setting changes will occur if the user switches back and forth between classic and new Teams.
