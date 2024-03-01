@@ -214,6 +214,7 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 #### <b> Neat </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications  | Release date|
 |:----------------|:-------------------|:----------------------------|:-----------------------------------------------------------|:--------------------------|
+| Neat Frame | `NFF1.20240120.0009` | N/A | Teams client: `1449/1.0.95.2023101102` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| February 29, 2024|
 | Neat Frame | `NFF1.20230928.0015` | N/A | Teams client: `1449/1.0.95.2023061601` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| December 7, 2023|
 | Neat Frame | `NFF1.20230504.0023` | N/A | Teams client: `1449/1.0.95.2023061601` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202305022347.product`| August 22, 2023|
 | Neat Frame | `NNFF1.20221128.0005`| N/A | Teams client: `1449/1.0.95.2022120502` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202209060820.product`| February 17, 2023|
@@ -236,6 +237,7 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 #### <b> Audiocodes </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications  | Release date|
 |:----------------|:-------------------|:----------------------------|:---------------------------------------------------------------|:----------------------------|
+| RX Panel | `2.2.808` | N/A| Teams client: `1449/1.0.97.2023111003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| February 27, 2024|
 | RX Panel | `2.2.311` | N/A| Teams client: `1449/1.0.97.2023080401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| October 16, 2023|
 
 #### <b> Crestron </b>

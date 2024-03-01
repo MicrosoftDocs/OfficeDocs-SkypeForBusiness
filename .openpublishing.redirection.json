@@ -2687,8 +2687,8 @@
     },
     {
       "source_path": "Teams/data-collection-practices.md",
-      "redirect_url": "/microsoftteams/teams-privacy",
-      "redirect_document_id": true
+      "redirect_url": "/microsoftteams/privacy/teams-privacy",
+      "redirect_document_id": false
     },
     {
       "source_path": "Teams/upgrade-automated.md",
@@ -4734,6 +4734,51 @@
     "source_path": "Teams/teams-add-on-licensing/advanced-communications.md",
     "redirect_url": "/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing",
     "redirect_document_id": false
-  }
- ] 
+  },
+  {
+    "source_path": "teams/teams-privacy.md",
+    "redirect_url": "/microsoftteams/privacy/teams-privacy",
+    "redirect_document_id": true
+  },
+  {
+    "source_path": "teams/location-of-data-in-teams.md",
+    "redirect_url": "/microsoftteams/privacy/location-of-data-in-teams",
+    "redirect_document_id": true
+  },
+  {
+    "source_path": "teams/teams-privacy-feedback.md",
+    "redirect_url": "/microsoftteams/privacy/teams-privacy-feedback",
+    "redirect_document_id": true
+  },
+  {
+    "source_path": "teams/policy-control-overview.md",
+    "redirect_url": "/microsoftteams/privacy/policy-control-overview",
+    "redirect_document_id": true
+  },
+  {
+    "source_path": "teams/policy-control-diagnostic-data-desktop.md",
+    "redirect_url": "/microsoftteams/privacy/policy-control-diagnostic-data-desktop",
+    "redirect_document_id": true
+ },
+ {
+  "source_path": "teams/policy-control-diagnostic-data-mobile.md",
+  "redirect_url": "/microsoftteams/privacy/policy-control-diagnostic-data-mobile",
+  "redirect_document_id": true
+},
+ {
+    "source_path": "teams/teams-privacy-oce-overview.md",
+    "redirect_url": "/microsoftteams/privacy/teams-privacy-oce-overview",
+    "redirect_document_id": true
+ },
+ {
+    "source_path": "teams/operator-connect-data-transfer.md",
+    "redirect_url": "/microsoftteams/privacy/operator-connect-data-transfer",
+    "redirect_document_id": true
+ },
+ {
+    "source_path": "teams/privacy/index.md",
+    "redirect_url": "/microsoftteams/privacy/teams-privacy",
+    "redirect_document_id": false
+}           
+] 
 }
