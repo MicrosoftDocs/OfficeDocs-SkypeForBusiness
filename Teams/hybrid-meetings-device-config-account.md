@@ -21,7 +21,7 @@ f1.keywords:
 - Teams hybrid
 - remote work
 - Teams meetings
-- description: Create a resource account for use with Teams Rooms devices.
+description: Create a resource account for use with Teams Rooms devices.
 ---
 
 # Step 2 - Create a resource account
