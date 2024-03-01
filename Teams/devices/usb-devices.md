@@ -8,13 +8,13 @@ ms.date: 11/02/2023
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
+audience: Admin
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - Tier3
   - teams-rooms-devices
   - Teams_ITAdmin_Devices
-audience: Admin
-appliesto: 
-  - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords: 
   - NOCSH
