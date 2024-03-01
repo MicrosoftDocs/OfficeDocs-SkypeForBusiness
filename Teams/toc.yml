@@ -330,21 +330,21 @@ items:
     - name: Privacy
       items: 
         - name: Privacy and Microsoft Teams
-          href: teams-privacy.md
+          href: privacy/teams-privacy.md
         - name: Location of data in Teams
-          href: location-of-data-in-teams.md
+          href: privacy/location-of-data-in-teams.md
         - name: Microsoft Teams feedback privacy
-          href: teams-privacy-feedback.md
+          href: privacy/teams-privacy-feedback.md
         - name: Policy control overview
-          href: policy-control-overview.md
+          href: privacy/policy-control-overview.md
         - name: Mobile diagnostic data
-          href: policy-control-diagnostic-data-mobile.md
+          href: privacy/policy-control-diagnostic-data-mobile.md
         - name: Desktop client diagnostic data
-          href: policy-control-diagnostic-data-desktop.md
+          href: privacy/policy-control-diagnostic-data-desktop.md
         - name: Optional connected experiences
-          href: teams-privacy-oce-overview.md
+          href: privacy/teams-privacy-oce-overview.md
         - name: Operator Connect data transfer
-          href: operator-connect-data-transfer.md
+          href: privacy/operator-connect-data-transfer.md
         - name: Intelligent recap
           href: privacy/intelligent-recap.md
 
