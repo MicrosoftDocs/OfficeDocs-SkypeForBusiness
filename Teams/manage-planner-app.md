@@ -32,6 +32,8 @@ The Planner app in Microsoft Teams brings together the simplicity of [Microsoft 
 
 Planner is available in Teams desktop and with select capabilities on Teams mobile.
 
+:::image type="content" source="media/manage-planner-app.png" alt-text="Screenshot of the Planner app, showing the Assigned to me list in My Tasks." lightbox="media/manage-planner-app.png":::
+
 ## What you need to know about Planner
 
 Planner is available as an app and as a tab in a channel. The app shows a user's individual tasks and shared tasks.
@@ -49,8 +51,6 @@ Users can also use the Planner app to:
 
 - Create new personal or shared plans
 - Get notifications about Planner tasks
-
-[placeholder for screenshot]
 
 For organizations who want to streamline task management for frontline workers, Planner also includes capabilities that enable you to target, publish, and track tasks at scale across your frontline workforce. For example, corporate and regional leadership can create and publish task lists targeted to relevant locations, such as specific retail stores, and track progress through real-time reports. Managers can assign tasks to their staff and direct activities within their locations, and frontline workers have a prioritized list of their assigned tasks on mobile or desktop. To enable [task publishing](#task-publishing), first set up a team targeting hierarchy for your organization, which defines how all teams in the hierarchy are related to each other.
 
