@@ -1516,6 +1516,8 @@ items:
               href: rooms/first-time-setup.md
             - name: Authentication
               items:
+              - name: Deploy LAPs
+                href: rooms/laps-authentication.md
               - name: Configure authentication
                 href: rooms/rooms-authentication.md
               - name: Best practices for Conditional Access and Intune compliance
