@@ -25,9 +25,13 @@ description: Learn how to set up authorized users and what they can manage for A
 
 # Set up Auto attendant and Call queue authorized users
 
-An authorized user is a Teams user who has been authorized by a Teams admin center administrator to make configuration changes to Auto attendants and Call queues. The user doesn't need to have access to the Teams admin center portal nor be assigned any administrative roles.
+Before reading this article, be sure you've read [Plan for authorized users](aa-cq-authorized-users-plan.md), which describes licensing requirements and prerequisites for Auto attendant and Call queue authorized users.
 
-The Teams user accesses these configuration items through their Teams desktop client.
+An **authorized user** is a Teams user who has been authorized by a Teams admin center administrator to make configuration changes to Auto attendants and Call queues. The user doesn't need to have access to the Teams admin center portal nor be assigned any administrative roles.
+
+The authorized user accesses these configuration items through their Teams desktop client.
+
+For information on creating a Call queue or Auto attendant, see [Create a Call queue in Microsoft Teams](create-a-phone-system-call-queue.md) and [Set up a Microsoft Teams Auto attendant](create-a-phone-system-auto-attendant.md).
 
 ## Requirements for setting up authorized users
 
@@ -72,7 +76,7 @@ Once you’ve created your voice applications policy, you need to assign it to u
 
 ## Step 6: Assign authorized users to the relevant Auto attendant or Call queue
 
-The second step is to assign the user as an *Authorized user* to at least one Auto attendant or Call queue. There is a maximum of 15 authorized users per each Auto attendant or Call queue.
+The second step is to assign the user as an Authorized user to at least one Auto attendant or Call queue. There's a maximum of 15 authorized users per each Auto attendant or Call queue.
 
 > [!IMPORTANT]
 > A user must have a policy assigned that enables at least one type of configuration change and must also be assigned as an authorized user to at least one Auto attendant or Call queue.
@@ -82,7 +86,9 @@ The second step is to assign the user as an *Authorized user* to at least one Au
 > - The user has a policy assigned but isn't assigned as an authorized user to at least one Auto attendant or Call queue.
 > - The user is assigned as an authorized user to at least one Auto attendant or Call queue but doesn't have a policy assigned.
 
-## Examples
+## Authorized user examples
+
+[INCLUDE PS SCENARIO]
 
 User 1 needs to be able to change Auto attendant business hours greetings and Call queue timeout shared voicemail greetings for *Auto attendant 1* and *Call queue 1*.
 
