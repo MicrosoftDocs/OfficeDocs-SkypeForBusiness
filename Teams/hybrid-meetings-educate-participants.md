@@ -2,24 +2,26 @@
 title: "Teams hybrid meeting participant best practices"
 ms.author: tonysmit
 author: mstonysmith
-f1.keywords:
-- Teams hybrid
-- remote work
-- Teams meetings
 manager: pamgreen
-ms.date: 07/15/2022
-audience: ITPro
-description: Learn about what meeting organizers, presenters, and participants, can do to create an inclusive meeting experience.
+ms.reviewer: sohailta
+ms.date: 2/26/2024
 ms.topic: article
+audience: Admin
 ms.service: msteams
-ms.localizationpriority: high
+ms.subservice: itpro-rooms
+appliesto: 
+  - Microsoft Teams
 ms.collection:
 - m365solution-teamshybrid
 - m365solution-scenario
 - m365initiative-meetings
 - teams-rooms-devices
-ms.custom: 
-keywords: 
+f1.keywords:
+- Teams hybrid
+- remote work
+- Teams meetings
+ms.localizationpriority: high
+description: Learn about what meeting organizers, presenters, and participants, can do to create an inclusive meeting experience.
 ---
 
 # Teams meeting participant best practices
