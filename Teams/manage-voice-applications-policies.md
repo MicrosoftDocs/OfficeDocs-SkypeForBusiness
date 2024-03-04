@@ -23,12 +23,12 @@ search.appverid: MET150
 description: Learn how to use and manage voice applications policies in Microsoft Teams to allow authorized end users to perform configuration changes on auto attendants and call queues.
 ---
 
+# Manage voice applications policies in Microsoft Teams
+
 > [!IMPORTANT]
 > The Voice applications policy and Authorized user configuration options are available to all customers however any Voice applications policy items marked as `Preview` are currently only available as part of a Public Preview.
 >
 > General availability for all customers is scheduled for the second half of 2024. Licensing requirements TBD.
-
-# Manage voice applications policies in Microsoft Teams
 
 Voice applications policies allow you to create and assign voice application policies to authorized users. Voice application policies control what configuration changes an authorized user can make to the auto attendants and call queues they're authorized for.
 

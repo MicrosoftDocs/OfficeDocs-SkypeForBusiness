@@ -22,3 +22,11 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn the requirements needed to set up authorized users for Auto attendants and Call queues.
 ---
+
+# Plan for Auto attendant and Call queue authorized users
+
+## Related topics
+
+[Set up Auto attendant and Call queue authorized users](aa-cq-authorized-users.md)
+
+[Manage voice applications policies](manage-voice-applications-policies.md)
