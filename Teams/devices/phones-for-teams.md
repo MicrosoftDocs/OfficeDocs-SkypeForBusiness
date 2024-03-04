@@ -5,19 +5,18 @@ author: mstonysmith
 manager: pamgreen
 ms.reviewer: kponnus
 ms.date: 11/05/2018
-ms.topic: reference
+ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
 audience: Admin
 appliesto: 
-  - Skype for Business
   - Microsoft Teams
-f1.keywords: 
-  - NOCSH
 ms.collection: 
   - teams-rooms-devices
   - Teams_ITAdmin_Devices
   - Tier1
+f1.keywords: 
+  - NOCSH
 search.appverid: MET150
 ms.localizationpriority: medium
 description: This article covers the list of phones that are certified for Microsoft Teams and the features supported in the phones certified for Microsoft Teams.
