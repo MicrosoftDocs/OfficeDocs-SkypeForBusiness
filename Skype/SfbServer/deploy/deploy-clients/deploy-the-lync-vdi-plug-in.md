@@ -28,7 +28,7 @@ This article provides details on deploying the Microsoft Lync VDI plug-in, which
 ## Prepare your environment for the Lync VDI plug-in
 <a name="Prepare_vdi"> </a>
 
-1. In Skype for Business Server, ensure that EnableMediaRedirection is set to TRUE for all Lync VDI plug-in users. For details, see the Help articles for the [New-CsClientPolicy](/powershell/module/skype/new-csclientpolicy?view=skype-ps) cmdlet and the [Set-CsClientPolicy](/powershell/module/skype/set-csclientpolicy?view=skype-ps) cmdlet.
+1. In Skype for Business Server, ensure that EnableMediaRedirection is set to TRUE for all Lync VDI plug-in users. For details, see the Help articles for the [New-CsClientPolicy](/powershell/module/skype/new-csclientpolicy?view=skype-ps&preserve-view=true) cmdlet and the [Set-CsClientPolicy](/powershell/module/skype/set-csclientpolicy?view=skype-ps&preserve-view=true) cmdlet.
     
 2. On the data center server, install the Skype for Business client on all virtual desktops.
     

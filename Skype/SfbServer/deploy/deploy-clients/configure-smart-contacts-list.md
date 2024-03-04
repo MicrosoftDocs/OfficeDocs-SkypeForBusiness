@@ -49,13 +49,13 @@ To enable the Smart contacts list feature for your users, you need to perform th
 
 ### Create a policy entry to enable Smart contacts list
 
-To create a policy entry to enable the Smart contacts list feature, use the [New-CsClientPolicyEntry](/powershell/module/skype/new-csclientpolicyentry?view=skype-ps) cmdlet with the EnableClientAutoPopulateWithTeam option as follows:
+To create a policy entry to enable the Smart contacts list feature, use the [New-CsClientPolicyEntry](/powershell/module/skype/new-csclientpolicyentry?view=skype-ps&preserve-view=true) cmdlet with the EnableClientAutoPopulateWithTeam option as follows:
 
 ```powershell
 $x=New-CsClientPolicyEntry -Name EnableClientAutoPopulateWithTeam -Value $True
 ```
 
-Next, use the [Set-CsClientPolicy](/powershell/module/skype/set-csclientpolicy?view=skype-ps) cmdlet to write the changes to the global policy as follows:
+Next, use the [Set-CsClientPolicy](/powershell/module/skype/set-csclientpolicy?view=skype-ps&preserve-view=true) cmdlet to write the changes to the global policy as follows:
 
 ```powershell
 Set-CsClientPolicy -Identity Global -PolicyEntry @{Add=$x}
@@ -68,7 +68,7 @@ $x=New-CsClientPolicyEntry -Name TagContactsInClientAutoPopulatedGroup -Value $F
 Set-CsClientPolicy -Identity Global -PolicyEntry @{Add=$x}
 ```
 
-You must also set the AddressBookAvailability parameter for the corresponding policy to WebSearchOnly. For more information, see [Set-CsClientPolicy](/powershell/module/skype/set-csclientpolicy?view=skype-ps). 
+You must also set the AddressBookAvailability parameter for the corresponding policy to WebSearchOnly. For more information, see [Set-CsClientPolicy](/powershell/module/skype/set-csclientpolicy?view=skype-ps&preserve-view=true). 
 
 ### Troubleshoot
 

@@ -11,12 +11,12 @@ ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: "The topics in this section describe tasks that you will need to perform after you have completed your migration to Skype for Business Server 2019."
+description: "The articles in this section describe tasks that you need to perform after you complete your migration to Skype for Business Server 2019."
 ---
 
 # Phase 7: Complete post-migration tasks
 
-The topics in this section describe tasks that you will need to perform after you have completed your migration to Skype for Business Server 2019.
+The articles in this section describe tasks that you need to perform after you complete your migration to Skype for Business Server 2019.
   
 ## In this section
 
