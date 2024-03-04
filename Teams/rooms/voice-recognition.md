@@ -2,24 +2,22 @@
 title: Tenant Administration control for voice recognition (voice profile) in Teams Rooms
 author: mstonysmith
 ms.author: tonysmit
+manager: pamgreen
 ms.reviewer: parisataheri
 ms.date: 03/29/2021
-manager: pamgreen
 ms.topic: article
-audience: admin
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-search.appverid: MET150
-description: Learn about Tenant Administration control for voice recognition (voice profile) in Teams meeting rooms.
-ms.localizationpriority: medium
-f1.keywords: 
-  - NOCSH
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
   - Tier1
-appliesto: 
-  - Microsoft Teams
+search.appverid: MET150
+ms.localizationpriority: medium
+description: Learn about Tenant Administration control for voice recognition (voice profile) in Teams meeting rooms.
 ---
 
 # Manage voice recognition technology controls for an Intelligent Speaker
