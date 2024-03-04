@@ -2,21 +2,23 @@
 title: Monitor Microsoft Teams Rooms devices with Azure Monitor
 ms.author: tonysmit
 author: mstonysmith
+manager: pamgreen
 ms.reviewer: tjaved
 ms.date: 11/02/2023
-manager: pamgreen
-audience: ITPro
 ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-f1.keywords: 
-  - NOCSH
-ms.localizationpriority: medium
-ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
   - Tier1
+f1.keywords: 
+  - NOCSH
+ms.localizationpriority: medium
+ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
 description: This article discusses how to monitor Microsoft Teams Rooms devices in an integrated manner using Azure Monitor.
 ms.custom: seo-marvel-apr2020
 ---

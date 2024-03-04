@@ -5,18 +5,18 @@ author: mstonysmith
 manager: pamgreen
 ms.reviewer: vishnuna
 ms.date: 08/18/2023
+ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
 audience: Admin
 appliesto: 
   - Microsoft Teams
-f1.keywords: 
-  - NOCSH
 ms.collection: 
   - teams-rooms-devices
   - Teams_ITAdmin_Devices
   - Tier1
-ms.topic: reference
+f1.keywords: 
+  - NOCSH
 search.appverid: MET150
 description: Learn how to set up and use the Microsoft Teams Multi-Stream IntelliFrame cameras for hybrid meetings.
 ---
