@@ -1,7 +1,7 @@
 ---
 title: View-only meeting experience
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: wlibebe
+author: wlibebe
 ms.reviewer: christi.balaki
 ms.date: 3/4/2024
 manager: pamgreen
