@@ -115,7 +115,7 @@ To create, manage, and publish task lists in the Planner app, users select the *
 
 ### Example scenario
 
-Check out this [Task Publishing video](https://www.microsoft.com/en-us/videoplayer/embed/RWSGO), which includes an example scenario.
+To learn more, see this short [Task Publishing video](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) with an example scenario.
 
 ### Set up your team targeting hierarchy
 
