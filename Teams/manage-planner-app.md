@@ -30,7 +30,8 @@ ms.collection:
 
 The Planner app in Microsoft Teams brings together the simplicity of [Microsoft To Do](https://todo.microsoft.com/tasks/), the collaboration of Microsoft Planner, and the power of Planner premium to help your users get work done more efficiently. Users can access Planner as an app on the left side of Teams and as a tab in a channel within individual teams.
 
-Planner is available in Teams desktop and with select capabilities on Teams mobile.
+> [!NOTE]
+> Prior to March 2024, this app was named Tasks by Planner and To Do.
 
 :::image type="content" source="media/manage-planner-app.png" alt-text="Screenshot of the Planner app, showing the Assigned to me list in My Tasks." lightbox="media/manage-planner-app.png":::
 
@@ -38,19 +39,20 @@ Planner is available in Teams desktop and with select capabilities on Teams mobi
 
 Planner is available as an app and as a tab in a channel. The app shows a user's individual tasks and shared tasks.
 
-With Planner, users get a desktop and web experience. If Planner is installed on the Teams desktop client, users will also see it on their Teams web and mobile clients. The exception is guests. It's important to know that guests can only access Planner as an app from the Teams mobile client. Guests will see Planner tabs on both Teams desktop and web clients.
-
 When a user opens the Planner app in Teams, they see:
 
 - **My Day**: Shows tasks that are due today, along with any tasks that a user chooses to add to this view.
-- **My Tasks**: Includes Private Tasks, which is a dedicated place for a user to quickly create tasks, tasks that are assigned to the user from Teams meeting notes, Microsoft Loop, Planner, and Planner premium, and tasks from flagged emails.
-- **My Plans**: Shows the user's To Do lists, basic plans, and premium plans.
+- **My Tasks**: This section includes:
+  - **Private Tasks**: A dedicated place for a user to quickly create tasks in a default place.
+  - **Assigned to me**: All tasks that are assigned to the user from Teams meeting notes, Microsoft Loop, Planner, and Planner premium.
+  - **Flagged emails**: Emails the user flagged in Outlook show up as tasks here.
+- **My Plans**: Shows all the user's To Do lists, basic plans, and premium plans.
 - **New plan**: Create a new personal or shared plan directly in the app.
 
-Users can also use the Planner app to:
+> [!NOTE]
+> When using the Planner app on Teams mobile, users will only see plans that are added to tab in a channel within a team.
 
-- Create new personal or shared plans
-- Get notifications about Planner tasks
+Users can also use the Planner app to create new personal or shared plans and get notifications about Planner tasks.
 
 For organizations who want to streamline task management for frontline workers, Planner also includes capabilities that enable you to target, publish, and track tasks at scale across your frontline workforce. For example, corporate and regional leadership can create and publish task lists targeted to relevant locations, such as specific retail stores, and track progress through real-time reports. Managers can assign tasks to their staff and direct activities within their locations, and frontline workers have a prioritized list of their assigned tasks on mobile or desktop. To enable [task publishing](#task-publishing), first set up a team targeting hierarchy for your organization, which defines how all teams in the hierarchy are related to each other.
 
@@ -70,27 +72,27 @@ Planner is enabled by default for all Teams users in your organization. You can 
     - To turn on Planner for your organization, search for the Planner app, select it, and then select **Allow**.
 
 > [!NOTE]
-> If you can't find the Planner app, search for the names in the first note of this article. The app could still be in the process of being renamed.
+> If you can't find the Planner app, search for "Tasks by Planner and To Do". The app could still be in the process of being renamed.
 
 ### Enable or disable Planner for specific users in your organization
 
-To allow or block specific users in your organization from using Planner, make sure Planner is turned on for your organization on the [Manage apps](manage-apps.md) page, and then create a custom policy for app permissions and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
+To allow or block specific users in your organization from using Planner, make sure Planner is turned on for your organization on the [Manage apps](manage-apps.md) page, and then create a custom policy for app permissions and assign it to those users. To learn more, see [Use app permission policies to control user access to apps](teams-app-permission-policies.md).
 
 ### Pin Planner to Teams
-
-#### Use the Tailored frontline app experience to pin Planner and other apps to Teams
-
-The tailored frontline app experience in Teams pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Pinned apps include Planner, Walkie Talkie, Shifts, and Approvals. By default, this feature is on, giving your frontline workers an out-of-the-box experience that’s tailored to their needs.
-
-The apps are pinned to the app bar—the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients—where users can quickly and easily access them.
-
-To learn more, including how the experience works with app policies that you set, see [Tailor Teams apps for your frontline workers](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).
 
 #### Use an app setup policy to pin Planner to Teams
 
 App setup policies let you customize Teams to pin apps that are most important for your users in your users.
 
-To pin the Planner app for your users, you can edit the global (Org-wide default) policy or create and assign a custom policy in app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
+To pin the Planner app for your users, you can edit the global (Org-wide default) policy or create and assign a custom policy in app setup policy. To learn more, see [Use app setup policies to pin and auto install apps for users](teams-app-setup-policies.md).
+
+#### Tailored frontline app experience in Teams for frontline workers and managers
+
+The tailored frontline app experience in Teams pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline) assigned to them. This feature is enabled by default, giving your frontline workers an out-of-the-box experience that’s tailored to reflect workloads used by frontline employees.
+
+As part of this experience, a handful of apps are pinned to the app bar&mdash;the bar on the side of the Teams desktop client and at the bottom of Teams mobile clients&mdash;where users can quickly and easily access them. Pinned apps include Viva Connections dashboard, Walkie Talkie, Shifts, and Planner. However, Planner might appear in the **…** menu on mobile because there are fewer app spots available in the app navigation.
+
+To learn more, including how the experience works with app policies that you set, see [Tailor Teams apps for your frontline workers](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).
 
 ### A user's My Tasks is visible if the user is licensed for Exchange Online
 
@@ -100,28 +102,20 @@ We don't recommend removing an Exchange Online license for information workers, 
 
 ## Task publishing
 
-With task publishing, your organization can publish task lists targeted to specific locations (teams) across your organization to define and share a work plan to be completed at those locations.
+With task publishing, your organization can [publish task lists](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) targeted to specific locations (teams) across your organization to define and share a work plan to be completed at those locations.
 
 - People on the publishing team, such as corporate or regional leadership, can create task lists and publish them to specific teams.
 - Managers on the recipient teams can review the published task lists and assign individual tasks to team members.
 - Frontline workers have a simple mobile experience to see tasks assigned to them. They can attach photos to show their work when appropriate and mark their tasks as completed.
 - Publishers and managers can view reports to see assignment and completion status of tasks at each level, including by location (team), task list, and individual task.
 
-Users create, manage, and publish task lists on the **Published lists** tab in the Planner app. This tab only shows for a user if your organization [set up a team targeting hierarchy](#set-up-your-team-targeting-hierarchy) and the user is on a team that's included in the hierarchy. The hierarchy determines whether the user can publish or receive task lists and view reporting for received lists.
+To create, manage, and publish task lists in the Planner app, users select the **My tasks & plans** dropdown menu, and then choose **Publishing**. This menu only shows for a user if your organization [set up a team targeting hierarchy](#set-up-your-team-targeting-hierarchy) *and* the user is part of a team that's included in the hierarchy. The hierarchy determines whether the user can publish or receive task lists and view reporting for received lists.
+
+:::image type="content" source="media/manage-planner-app-publishing.png" alt-text="Screenshot of the My tasks & plans dropdown menu, showing the Publishing option":::
 
 ### Example scenario
 
-Here's an example of how task publishing works.
-
-Contoso is rolling out a new food takeout and delivery promotion. To maintain a consistent brand experience, they need to coordinate consistent execution of the rollout across over 300 store locations.
-
-The Marketing team shares the promotion details and the corresponding list of tasks with the Retail Communications Manager. The Retail Communications Manager, who serves as the gatekeeper for stores, reviews the information. Then they create a task list for the promotion, and create a task for each unit of work that the affected stores need to perform. When the task list is complete, they need to select the stores that must complete the work. In this case, the promotion only applies to stores in the United States that have an in-store restaurant. In Planner, they filter the store list based on the in-store restaurant attribute, select the matching United States locations in the hierarchy, and then publish the task list to those stores.
-
-Store managers at each location receive a copy of the published tasks and assign those tasks to their team members. Managers can use the Planner experience to understand all the work required across their store. They can also use the available filters to focus on a specific set of work, such as work due today or work in a particular area.
-
-Frontline workers at each store location now have a prioritized list of their work in Planner on their mobile device. When they finish a task, they mark it complete. They can even choose to upload and attach a photo to the task to show their work.
-
-Contoso headquarters and intermediate managers can view reports to see the assignment and completion status of tasks at each store and across stores. They can also drill down to a specific task to see the status within different stores. As the launch date gets closer, they can spot any abnormalities and check in with their teams as needed. This visibility allows Contoso to improve the efficiency of the rollout and provide a more consistent experience across their stores.
+Check out this [Task Publishing video](https://www.microsoft.com/en-us/videoplayer/embed/RWSGO), which includes an example scenario.
 
 ### Set up your team targeting hierarchy
 
