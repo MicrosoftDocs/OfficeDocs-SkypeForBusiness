@@ -101,3 +101,7 @@ The following providers offer contact center solutions that are integrated into 
 | `Vonage` |  https://www.vonage.com/contact-centers/integrations/microsoft-teams/                                 |
 
 This list will be updated as more solution providers join and meet the certification criteria.
+
+## Support boundaries
+
+Microsoft supports Contact Center solutions only from the certified partners. If there are issues, you must contact your Contact Center partner first. If needed, the Contact Center partner will bring the issue to Microsoft through internal channels. Microsoft may reject support cases where a non-certified Contact Center solution is used, or if investigation shows the issue is one that the partner can address.

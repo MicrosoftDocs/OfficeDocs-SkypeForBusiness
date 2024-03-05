@@ -38,11 +38,11 @@ To configure Music on Hold:
 
 1. On the **Manage policies** tab, select one of the existing policies or create a new one.
 
-1. In the **Music on hold for PSTN callers** field, select **On** from the toggle.
+1. In the **Music on hold for calls** field, select **On** from the toggle.
 
 1. Select **Save**.
 
-You can also configure Music on Hold by using the Teams PowerShell module. In the TeamsCallingPolicy, change the MusicOnHoldEnabledType parameter to Enabled and then grant that policy instance to one or more users.
+You can also configure Music on Hold by using the Teams PowerShell module. In the TeamsCallingPolicy, change the `-MusicOnHoldEnabledType` parameter to Enabled and then grant that policy instance to one or more users.
 
 If a Teams user has a Teams calling policy with Music on Hold set to Disabled, then no music is played when the Teams user places the call on hold.
 

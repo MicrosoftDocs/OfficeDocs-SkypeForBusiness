@@ -86,7 +86,6 @@ The following list of policies can block users from seeing the app switcher togg
 - If the user is on a VDI computer (Citrix, VMware etc.).
 - If the user is signed in to classic Teams with a *Teams for Life* account and a work account.
 - If the user is signed in to classic Teams with a *Teams for Life* account.
-- If you have an MSIX client.
 
 ### How do I know which one of the above policies is blocking me?
 
