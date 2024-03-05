@@ -136,7 +136,7 @@ Select **Stop event** before disconnecting your encoder. If you already disconne
 ### My viewers are seeing issues
 
 - If a single viewer is reporting an issue, ensure that the viewer has enough bandwidth and is on a good internet connection to watch the event.
-- If multiple people within the same network are having issues, you may be experiencing network congestion related issues. Review [Scale video delivery and monitor network traffic by using eCDNs with Microsoft Teams](teams-stream-ecdn.md) to see if you can identify a solution to your issue.
+- If multiple people within the same network are having issues, you might be experiencing network congestion related issues. To see if you can identify a solution to your issue, see [Scale video delivery and monitor network traffic by using eCDNs with Microsoft Teams](teams-stream-ecdn.md).
 - Many times, when multiple viewers are seeing an issue, it's related to the encoder feed.
   - Check that the encoder is properly set to the specifications outlined in the encoder setup, and configured correctly.
   - Ensure that you have enough upload bandwidth to stream. You can try reducing the bandwidth from the encoder output.
