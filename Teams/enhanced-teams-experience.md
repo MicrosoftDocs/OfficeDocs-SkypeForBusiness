@@ -85,15 +85,15 @@ Teams Premium provides more ways to safeguard and monitor users' Teams experienc
 
 - **Watermarking** - Enforced through a sensitivity label, watermarks display the email address of a meeting participant. Watermarks are useful for protecting confidential information shared in meetings.
 
-| Feature/Task  | Can admins turn this feature on/off? | Documentation for admins | Documentation for your end users
-| -------------------- | -----------| ----------- | ------------ |
+| Feature/Task  | Can admins turn this feature on/off? | Documentation for admins | Documentation for your end users |
+| --------- | -----------| ----------- | ------------ |
 | Advanced collaboration analytics |No, contact support for assistance.| [Advanced Collaboration Analytics for Microsoft Teams](advanced-collaboration-analytics.md) | No end-user control |
 | Audio quality alerts |Yes, you can add or remove users.| [Alerts for in-progress meeting audio quality issues](/MicrosoftTeams/alerts/alerts-in-progress-meeting-audio) | No end-user control |
 | Custom user policy packages |Yes| [Managing policy packages in Teams](manage-policy-packages.md) | No end-user control |
 | End-to-end encryption (E2EE) | Yes |[Encryption for sensitive meetings](end-to-end-encrypted-meetings.md) | [Use encryption](https://support.microsoft.com/office/use-end-to-end-encryption-for-teams-meetings-a8326d15-d187-49c4-ac99-14c17dbd617c)  |
 | Hide attendee names | Yes |[Allow meeting and webinar organizers to hide the names of attendees](hide-attendee-names.md) | [Hide attendee names in Teams meetings and webinars](https://support.microsoft.com/office/hide-attendee-names-in-teams-meetings-and-webinars-00389c74-ee61-48b5-bad8-8295600085ed) |
 | Manage what attendees see | No, contact support for assistance.| No admin control | [Manage what attendees see in Teams meetings](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|
-|Prevent copying chat content to clipboard |Yes, use the Teams admin center to add or delete chat content copying restrictions in your meeting templates. Use the [Microsoft Purview compliance portal](https://go.microsoft.com/fwlink/p/?linkid=2077149) to turn labels with chat content copying restrictions on or off.| [Manage chat for sensitive Teams meetings](manage-chat-sensitive-meetings.md) | No end-user control |
+| Prevent copying chat content to clipboard |Yes, use the Teams admin center to add or delete chat content copying restrictions in your meeting templates. Use the [Microsoft Purview compliance portal](https://go.microsoft.com/fwlink/p/?linkid=2077149) to turn labels with chat content copying restrictions on or off.| [Manage chat for sensitive Teams meetings](manage-chat-sensitive-meetings.md) | No end-user control |
 | Real-time telemetry and retention|No, contact support for assistance.| [Use real-time telemetry to troubleshoot poor meeting quality](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md#where-to-find-per-user-real-time-troubleshooting-telemetry) | No end-user control |
 | Restrict who can record | Yes, use the Teams admin center to add or delete recording restrictions in your meeting templates. Use the [Microsoft Purview compliance portal](https://go.microsoft.com/fwlink/p/?linkid=2077149) to turn labels with recording restrictions on or off.|[Manage recordings for sensitive meetings](manage-meeting-recording-options.md) | [Record a meeting](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24?storagetype=stage#bkmk_whocanstartorstoparecording) |
 | Screen sharing quality alerts|Yes, you can add or remove users.| [Alerts for in-progress meeting screen sharing issues](/MicrosoftTeams/alerts/alerts-in-progress-meeting-screen-sharing) | No end-user control |
@@ -116,11 +116,11 @@ Teams Premium provides more ways to personalize your Teams meeting experiences w
 
 - **Real Time Messaging Protocol (RTMP)-In** - Organizers can produce their Teams meetings directly from an external hardware or software-based encoder.
 
-| Feature/Task |  Can admins turn this feature on/off? | Documentation for admins | Documentation for your end users
+| Feature/Task |  Can admins turn this feature on/off? | Documentation for admins | Documentation for your end users |
 | -------------------- | ----------- | ----------- | ------------ |
 | Custom meeting backgrounds for organizations | Yes| [Meeting backgrounds](custom-meeting-backgrounds.md)| [Use meeting themes](https://support.microsoft.com/office/use-meeting-themes-for-teams-meetings-fbfd826d-1112-4790-918a-5a82cac8250e) |
 | Custom together mode scenes for organizations | No, contact support for assistance.|[Content for you and your developers](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)| |
-| Meeting templates | Yes| - [Overview](custom-meeting-templates-overview.md)<br>- [Create a custom meeting template](create-custom-meeting-template.md)| [Use custom templates](https://support.microsoft.com/office/use-custom-templates-for-teams-meetings-78279be9-3283-4999-b24e-96fb0da2fb4f)
+| Meeting templates | Yes| - [Overview](custom-meeting-templates-overview.md)<br>- [Create a custom meeting template](create-custom-meeting-template.md)| [Use custom templates](https://support.microsoft.com/office/use-custom-templates-for-teams-meetings-78279be9-3283-4999-b24e-96fb0da2fb4f) |
 | Meeting themes | Yes| [Themes for Teams meetings](meeting-themes.md) | [Use meeting themes](https://support.microsoft.com/office/use-meeting-themes-for-teams-meetings-fbfd826d-1112-4790-918a-5a82cac8250e) |
 | RTMP-In | Yes| [Manage RTMP-In for Teams meetings](meetings-rtmp-in.md)|[Use RTMP-In in a Teams meeting](https://support.microsoft.com/office/use-rtmp-in-in-a-teams-meeting-789d6090-8511-4e2e-add6-52a9f551be7f) |
 
@@ -157,7 +157,7 @@ Teams Premium provides more ways to elevate your Teams town halls with the follo
 - **Real time monitoring of the attendee experience** - Admins can use the analytics dashboard to troubleshoot the attendee experience during live town halls.
 - **Town hall insights** - Town hall organizers can troubleshoot town halls while they're live.
 
-| Feature/Task | Can admins turn this feature on/off? |Documentation for admins| Documentation for your end users
+| Feature/Task | Can admins turn this feature on/off? |Documentation for admins| Documentation for your end users |
 | -------------------- |  ----------- | ----------- | ----------- |
 | Custom emails | Yes | [Manage email communications](manage-email-communications.md) |[Schedule a town hall in Microsoft Teams](https://support.microsoft.com/office/schedule-a-town-hall-in-microsoft-teams-d493b5cc-9f61-4dac-8027-d837dafb7a4c#bkmk_town_hall_invites) |
 | Live translated captions | Yes |[Configure transcription and captions for Teams meetings](meeting-transcription-captions.md)|[Use live captions in Microsoft Teams meetings](https://support.microsoft.com/office/use-live-captions-in-microsoft-teams-meetings-4be2d304-f675-4b57-8347-cbd000a21260) |
@@ -178,10 +178,10 @@ Teams Premium provides more ways to elevate your Teams webinars with the followi
 - **Manually approve registrants** - Organizers can approve or deny requests to register for their webinar.
 - **Real Time Messaging Protocol (RTMP)-In** - Organizers can produce their Teams webinar directly from an external hardware or software-based encoder.
 
-| Feature/Task | Can admins turn this feature on/off? | Documentation for admins | Documentation for your end users
+| Feature/Task | Can admins turn this feature on/off? | Documentation for admins | Documentation for your end users |
 | -------------------- | ----------- | ----------- | ----------- |
 | Custom emails | Yes| [Manage email communications](manage-email-communications.md) |[Manage webinar emails in Microsoft Teams](https://support.microsoft.com/office/manage-webinar-emails-in-microsoft-teams-d0006848-f707-494f-b0a4-eeebcbc723be) |
-| Enable and manage the waitlist for webinars beyond capacity| No, contact support for assistance.| No admin control|[Manage webinar registration in Microsoft Teams](https://support.microsoft.com/office/manage-webinar-registration-in-microsoft-teams-923f382a-0cca-433a-b38d-7461971192d1)
+| Enable and manage the waitlist for webinars beyond capacity| No, contact support for assistance.| No admin control|[Manage webinar registration in Microsoft Teams](https://support.microsoft.com/office/manage-webinar-registration-in-microsoft-teams-923f382a-0cca-433a-b38d-7461971192d1) |
 | Hide attendee names | Yes | [Allow meeting and webinar organizers to hide the names of attendees](hide-attendee-names.md) | [Hide attendee names in Teams meetings and webinars](https://support.microsoft.com/office/hide-attendee-names-in-teams-meetings-and-webinars-00389c74-ee61-48b5-bad8-8295600085ed)|
 | Limit registration start and end times | No, contact support for assistance.| No admin control|[Manage webinar registration in Microsoft Teams](https://support.microsoft.com/office/manage-webinar-registration-in-microsoft-teams-923f382a-0cca-433a-b38d-7461971192d1) |
 | Manage what attendees see | No, contact support for assistance.| No admin control | [Manage what attendees see in Teams meetings](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|
@@ -216,7 +216,7 @@ Teams Premium provides the following key AI-powered meetings features:
 - **Live translated captions** -  Allow your users to see captions translated into the language they’re most comfortable with.
 - **Live translated transcription** - Your users can understand each other better during a meeting or event by translating the meeting transcript into the language they're most comfortable with.
 
-| Feature/Task  | Can admins turn this feature on/off? | Documentation for admins | Documentation for your end users
+| Feature/Task  | Can admins turn this feature on/off? | Documentation for admins | Documentation for your end users |
 | -------------------- | -----------| ----------- | ------------ |
 | Decorate my background | No, contact support for assistance. | No admin control | [Decorate your background](https://adoption.microsoft.com/microsoft-teams-premium/decorate-your-background/)|
 | Intelligent meeting recap| No, contact support for assistance.<sup>1</sup>|[Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md) | [Meeting recap in Microsoft Teams](https://support.microsoft.com/office/meeting-recap-in-microsoft-teams-c2e3a0fe-504f-4b2c-bf85-504938f110ef#bkmk_intelligent_meeting_recap) |
