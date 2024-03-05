@@ -776,7 +776,7 @@ items:
               href: configure-skype-meetings-app-to-work-with-teams.md 
             - name: Set up Teams meeting add-on for Google Workspace
               href: google-workspace-addon-teams.md
-            - name: Island mode
+            - name: Islands mode
               href: meeting-provider-islands-mode.md
 
         - name: Create a Teams hybrid meeting experience
