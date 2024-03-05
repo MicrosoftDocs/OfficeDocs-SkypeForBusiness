@@ -59,7 +59,7 @@ If you have issues with upload bandwidth, here are a few things you can try:
 
 ### Preparing your network for many concurrent viewers
 
-Many viewers watch live events, which can strain your network and download bandwidth. Evaluate your network infrastructure and ensure that there's enough bandwidth for viewers within your corporate network. To help reduce internet traffic needed for live events, there are two options:
+Many viewers watch live events, which can strain your network and download bandwidth. It's important to evaluate your network infrastructure and ensure that there's enough bandwidth for viewers within your corporate network. To help reduce internet traffic needed for live events, there are two options:
 
 1. Configure existing cache proxies within your network to cache videos from Teams.
 1. Use a partner eCDN video delivery solution to optimize video traffic.
@@ -73,9 +73,9 @@ Viewers receive the Teams live event's stream via TCP HTTPS. The following URLs 
 
 Users require specific permissions in both Microsoft Teams and Viva Engage to create a live event, depending on the service being used.
 
-1. Check that the Teams admin enabled you to create live events.
-2. Check with your administrator that you have a valid Teams license that allows the creation of live events.
-3. Select the following **Run Tests**, which populates the diagnostic in Microsoft 365 admin center to help you validate if a user is able to schedule Teams live events.
+1. Verify that your Teams admin enabled you to create live events.
+2. Check with your administrator that you have a valid Teams license that allows you to create live events.
+3. Select **Run Tests**, which populates the diagnostic in Microsoft 365 admin center to help you validate if a user is able to schedule Teams live events.
 
    > [!div class="nextstepaction"]
    > [Run Tests: Schedule Teams live events](https://aka.ms/TeamsLiveEventsDiag)
@@ -90,7 +90,7 @@ For more information, see [Microsoft Teams event group roles](https://support.of
 
 ### I don't know how to set up my encoder
 
-The easiest way to get started is to follow the instructions outlined from the [Using an encoder for live streaming in Microsoft Teams](teams-encoder-setup.md) article.
+To get started, see [Using an encoder for live streaming in Microsoft Teams](teams-encoder-setup.md).
 
 ### My encoder isn't connecting to the server ingest URL
 
