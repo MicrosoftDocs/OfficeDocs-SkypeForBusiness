@@ -258,14 +258,6 @@ Make sure these folders and files are persisted for proper Teams functioning.
 
 The folder "meeting-addin" under TeamsSharedConfig shouldn't be persisted, as this could cause issues with the default meeting coordinates in the meeting templates inserted into Outlook.
 
-Excluding these items helps reduce the user caching size to further optimize a non-persistent setup:
-
-- AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Logs
-- AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\PerfLogs
-- AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\WebStorage
-
-When you exclude the WebStorage folder (used for domains hosted within Teams like SharePoint, Viva Learning, etc.), you can significantly reduce storage. It can also have an impact on performance as users would lose caching benefits.
-
 >[!Important]
 >Customers using FSLogix need to install hotfix [2.9.8784.63912](/fslogix/overview-release-notes#fslogix-2210-hotfix-3-29878463912) in order to guarantee proper integration with the new Teams client in VDI. The hotfix addresses the following issues:
 >- In non-persistent multiuser environments, the new Teams can become unregistered for some users after a new Teams update
@@ -275,6 +267,39 @@ When you exclude the WebStorage folder (used for domains hosted within Teams lik
 
 >[!Note]
 >[Folder Redirection or Roaming User Profiles](/windows-server/storage/folder-redirection/folder-redirection-rup-overview) aren't supported with the new Teams client in VDI environments since they can't roam folders in AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams. Customers can continue to use Folder Redirection or Roaming User Profiles with a complementary product, such as FSLogix, Citrix Profile Manager, VMware, and DEM, that can roam the Appdata\Local folders above.
+
+### Folder exclusions
+
+#### Disk storage usage
+
+The new Teams app takes up about 50% less disk space than the classic version. To make it easier to distribute our client to Windows devices, we have added support for MSIX, which improves the dependability of installations and app updates, as well as reduces network bandwidth and disk space consumption. This packaging technology also shows the accurate disk space usage. Users may see larger disk usage than classic Teams in Windows settings, but the difference is mainly because the disk space related to Electron-based classic Teams is not fully and correctly shown.
+
+#### Disk Footprint - Key folders and location
+
+- **App installer**: C:\Program Files\WindowsApps\MSTeams_[version]_[arch]__8wekyb3d8bbwe
+  Includes the installation package, supports the ability to reset the app, and allows single instancing.
+- **User and app data**: C:\Users\<alias>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe
+  This includes code (Javascript bundles), code cache, browser caches, databases for user data (like conversations which scales based on usage), and web storage (from domains hosted within Teams, such as Sharepoint, Viva learning, Apps, and so on).
+
+The underlying folder structure is logically similar to Electron-based classic Teams. For non-persistent setups where storage footprint is a consideration, the following guidance applies:
+
+##### Recommended for exclusion
+
+|Folder             |Folder path |Role |Exclusion impact |
+|-------------------|------------|---------|-----------------|
+|**Logs**           |LocalCache\Microsoft\MSTeams\Logs </br>LocalCache\Microsoft\MSTeams\PerfLog |Diagnostics, perf logs, and so on. |No impact. |
+|**WebStorage**     |LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\ WebStorage |Storage used and managed by the browser when accessing other web apps inside a web app using iframes. For example, loading Sharepoint, OneDrive and office apps within Teams. |Loading these apps again could be slower after clearing this cache. |
+|**GPU Cache**      |LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\ GPUCache |GPU cache. |No impact. |
+
+##### Review tradeoff considerations, requiring evaluation and testing for these environments
+
+|Folder             |Folder path |Role |Exclusion impact |
+|-------------------|---------|---------|---------|
+|**Service worker** |LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\ Service Worker\CacheStorage </br>LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\Code Cache |Code and caching of Web/JS Scripts for the app to run. |- Reduced performance to download and load scripts on every app launch </br>- No offline access to app |
+|**IndexedDB**      |LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\IndexedDB |Holds app and user data and is the recommended way to cache data at scale in a web app to improve responsiveness. |- Significantly higher app launch times as data (such as chat or channel conversations) must be pulled down, along with network usage as data needing to be downloaded and cached every time. </br>- The size of the data varies based on the user profile. </br>- Users might see **We’re setting things up for you** in the launch splash-screen. |
+|**Cache**          |LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\Cache |Cache used and managed by the browser for the contents of all network calls that leave the app. Also known as Disk Cache. |For example, profile pictures in Teams are mostly cached in this storage by the browser. These will need to be downloaded again. |
+
+Other than the folders in this section, we don't recommend excluding additional directories.
 
 ## New Teams and Outlook integration
 
