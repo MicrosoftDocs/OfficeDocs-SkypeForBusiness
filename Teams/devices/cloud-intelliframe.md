@@ -3,20 +3,20 @@ title: Cloud IntelliFrame
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: dansimp
+ms.reviewer: suhailkhalid
 ms.date: 08/09/2023
+ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
 audience: Admin
 appliesto: 
   - Microsoft Teams
-f1.keywords: 
-  - NOCSH
 ms.collection: 
   - teams-rooms-devices
   - Teams_ITAdmin_Devices
   - Tier1
-ms.topic: reference
+f1.keywords: 
+  - NOCSH
 search.appverid: MET150
 description: This article describes the Cloud IntelliFrame feature.
 ---

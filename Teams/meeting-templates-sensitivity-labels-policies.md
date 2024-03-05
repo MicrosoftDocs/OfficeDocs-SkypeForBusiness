@@ -1,7 +1,7 @@
 ---
 title: Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams

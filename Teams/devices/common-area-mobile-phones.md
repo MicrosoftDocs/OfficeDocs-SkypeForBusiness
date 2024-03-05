@@ -3,13 +3,16 @@ title: Set up an Android mobile phone as a common area phone
 ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
+ms.reviewer: vijagan
+ms.date: 08/25/2023
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
-ms.reviewer: vijagan
-ms.date: 08/25/2023
-audience: admin
+audience: Admin
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
+  - teams-rooms-devices
   - M365-collaboration
   - Teams_ITAdmin_Devices
   - Tier1
