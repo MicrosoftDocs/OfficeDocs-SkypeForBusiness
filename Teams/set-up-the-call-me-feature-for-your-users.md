@@ -1,7 +1,7 @@
 ---
 title: Set up the Call me feature for your users
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: wlibebe
+author: wlibebe
 ms.reviewer: oscarr
 ms.date: 3/4/2024
 manager: pamgreen
