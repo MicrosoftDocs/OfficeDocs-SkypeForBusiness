@@ -3,7 +3,7 @@ title: IT Admins- Manage and create custom meeting backgrounds for Teams meeting
 author: wlibebe
 ms.author: wlibebe
 manager: pamgreen
-ms.date: 1/5/2024
+ms.date: 03/05/2024
 ms.reviewer: margidesai
 ms.topic: article
 ms.tgt.pltfrm: cloud
