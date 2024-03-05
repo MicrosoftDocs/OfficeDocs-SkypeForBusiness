@@ -1,7 +1,7 @@
 ---
 title: Live events recording policies
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
