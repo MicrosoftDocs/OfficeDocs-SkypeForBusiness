@@ -23,6 +23,7 @@ ms.localizationpriority: high
 # Known issues for new Microsoft Teams
 
 - PowerPoint Live Standout isn't yet available.
+- The dark theme is not working properly.
 - Language-aware spell checking is currently not available in the new Teams. The team is focusing on this issue with a high priority. Check back for updates.
 - Scheduling a Teams Live Event redirects to the classic Teams web experience. This feature will continue to work even after the deprecation of classic Teams.
 - New Teams client isn't respecting the date time formats set in the OS. This issue affects both 12h/24h time formatting and date formatting in the product. A fix is pending; check back for updates.
