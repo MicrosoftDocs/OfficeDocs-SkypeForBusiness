@@ -13,12 +13,11 @@ searchScope:
 audience: admin
 description: Learn how to manage the Virtual appointment meeting template for Teams to provide a default meeting configuration for your organization.
 ms.localizationpriority: medium
-MS.collection: 
-  - Teams_ITAdmin_Help
-  - M365-collaboration
-  - m365-frontline
-  - m365initiative-meetings
-  - m365-virtual-appointments 
+ms.collection: 
+- M365-collaboration
+- m365-frontline
+- m365initiative-meetings
+- m365-virtual-appointments 
 appliesto: 
   - Microsoft Teams
 ---

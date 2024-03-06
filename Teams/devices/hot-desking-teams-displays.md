@@ -3,14 +3,16 @@ title: Hot desking Teams displays
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
+ms.reviewer: prashibadkur
+ms.date: 07/05/2023
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
-audience: admin
-ms.reviewer: prashibadkur
-ms.date: 07/05/2023
+audience: Admin
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
-  - M365-collaboration
+  - teams-rooms-devices
   - Teams_ITAdmin_Devices
   - Tier1
 f1.keywords: 
@@ -18,8 +20,6 @@ f1.keywords:
 description: Learn how to set up and deploy hot desking for Teams Displays.
 ms.localizationpriority: medium
 search.appverid: MET150
-appliesto: 
-  - Microsoft Teams
 ---
 
 # Deploy hot desking for Teams Displays

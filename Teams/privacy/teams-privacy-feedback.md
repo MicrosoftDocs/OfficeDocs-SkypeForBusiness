@@ -15,6 +15,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
+  - privacy-teams
 appliesto: 
   - Microsoft Teams
 ---
