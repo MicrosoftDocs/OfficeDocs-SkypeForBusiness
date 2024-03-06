@@ -3,8 +3,8 @@ title: Meetings, webinars, and town halls feature comparison
 ms.reviewer: 
 ms.date: 11/13/2023
 ms.topic: article
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.service: msteams
 ms.subservice: meetings
