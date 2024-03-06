@@ -40,6 +40,12 @@ The new Teams ensures more efficient use of device resources. You can lower memo
 >[!Note]
 >See [What's features are changing?](new-teams-known-issues.md) to review some of the changes you will see.
 
+## Servicing agreement
+
+Teams is governed by the Modern Lifecycle Policy, with the expectation that users remain on the most up-to-date version of the desktop client. Automatic updates ensure that users have the latest capabilities, performance enhancements, security, and service reliability. An in-app alert is displayed if the user’s current version is between one and three months old, and if there's a new version available.
+
+Learn more about the Modern Lifecycle Policy under the [**Servicing agreement**](/microsoftteams/teams-client-update#servicing-agreement) for Microsoft Teams.
+
 ## New Teams availability
 
 New Teams is available for:
