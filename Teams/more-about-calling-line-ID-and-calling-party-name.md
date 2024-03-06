@@ -26,11 +26,11 @@ description: "Learn about Calling Line ID and Calling Party Name."
 
 # More about Calling Line ID and Calling Party Name
 
-CallerID consists of two user-facing pieces of information:
+Caller ID consists of two user-facing pieces of information:
 
-- A phone number (typically referred to as CLID or calling line ID).
+- A phone number - typically referred to as CLID or calling line ID.
 
-- Calling party name (typically referred to as CNAM). 
+- Calling party name - typically referred to as CNAM. 
 
 When a call is made, the CLID (phone number) is routed to the destination's carrier (also known as the terminating carrier). The CNAM information for the call may or may not be routed with the call because as this information depends on how the country/region has implemented CNAM (if at all). The reliability of CNAM delivery with the call varies depending on the country/region and carriers that handle the call--either as an intermediary or a terminating carrier. 
 
