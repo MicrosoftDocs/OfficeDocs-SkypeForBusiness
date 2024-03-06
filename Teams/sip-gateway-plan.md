@@ -77,7 +77,7 @@ Teams users must have a phone number with PSTN calling enabled to use SIP Gatewa
 
 If you have a 3PIP or SIP device, you must have the following:
 
-- [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software)
+- [Microsoft Teams](https://www.microsoft.com/microsoft-teams/group-chat-software)
 - Skype for Business Online (Plan 2)
   - *Skype for Business Online (Plan 2)* isn't a standalone license that can be purchased.
 - [Microsoft Phone System](what-is-phone-system-in-office-365.md)
@@ -86,8 +86,7 @@ If you have a 3PIP or SIP device, you must have the following:
 ## Compatible devices
 
 |Vendor    |Model      |Minimum firmware version|Approved firmware version|Remarks|Links|
-|----------|-----------|------------|-----------|------------|------------|
-
+|----------|-----------|------------------------|-------------------------|-------|-----|
 |**Cisco** |           |            |           |Devices running enterprise firmware must be converted to multiplatform firmware. Read the guide at the right to learn how.|[Cisco firmware conversion guide](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-7800-series/guide-c07-742786.html)|
 |          |8832<sup>1</sup>       |11.3.5MPP   |12-0-1MPP  |   |   |
 |          |6821<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
@@ -273,10 +272,11 @@ If you have a 3PIP or SIP device, you must have the following:
 |**Snom**|       |     |              |                |   |
 |          |D717          |10.1.141.13     |10.1.141.13 |IP Phone   |   |
 |          |D735          |10.1.141.13     |10.1.141.13 |IP Phone   |   |
+
 <sup>1</sup> Device supports dynamic emergency calling (E911) with SIP Gateway.
 
 > [!NOTE]
-> Compatible Cisco SIP IP phones support dynamic location discovery over LLDP only. 
+> Compatible Cisco SIP IP phones support dynamic location discovery over LLDP only.
 
 > [!NOTE]
 > Customers can use AudioCodes OVOC and Poly Lens to manage device side configuration of their AudioCodes 400 series and Poly VVX/Trio devices respectively.
@@ -316,4 +316,3 @@ If you have a 3PIP or SIP device, you must have the following:
 > Remote Sign-in from TAC is currently not supported by Tango Extend.
 > Teams mobile client – If users have both Tango Extend eSIM and Teams mobile client on their phones, then inbound calls will prioritize the Teams mobile client.
 > Call transfer – where presented by mobile dialler menu option this is not supported by Tango Extend.
- 
