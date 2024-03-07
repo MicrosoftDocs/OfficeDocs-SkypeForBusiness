@@ -3,8 +3,8 @@ title: Plan for Teams meetings
 ms.reviewer: bryanyce
 ms.date: 11/13/2023
 ms.topic: article
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.service: msteams
 ms.subservice: meetings
