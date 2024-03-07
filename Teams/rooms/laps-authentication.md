@@ -125,6 +125,6 @@ LAPS is a Windows feature that enhances the security and management of local adm
 ## Related LAPS documentation
 
 - [Windows LAPS documentation](/windows-server/identity/laps/laps-overview)
-- [Manage Windows LAPS with Microsoft Intune policies](/intune/protect/windows-laps-overview)
+- [Manage Windows LAPS with Microsoft Intune policies](/mem/intune/protect/windows-laps-overview)
 - [Windows Local Administrator Password Solution in Microsoft Entra ID](/entra/identity/devices/howto-manage-local-admin-passwords)
 - [LAPS CSP](/windows/client-management/mdm/laps-csp)
