@@ -23,7 +23,7 @@ description: Learn how third-party and custom apps get updated in Teams to a new
 
 # Role of an admin to upgrade Teams apps to a newer version
 
-When an app is installed for the first time it may require consent of an admin depending on the permissions that the app needs. When a new version of an installed app is made available in the store, then one of the following scenarios occur:
+When you install an app for the first time, it may require consent of an admin depending on the permissions that the app needs. When a new version of an installed app is made available in the store, then one of the following scenarios occur:
 
 * If there are changes in app permissions or [some selected functionality](#conditions-when-an-app-update-requires-consent), then the app update requires consent from the app user.
 * If the updated version of the app doesn't require new permissions and has only basic functionality changes, then it updates automatically.
@@ -92,7 +92,7 @@ For custom apps to update, after you upload the new version of the app to Teams,
 
 ## Considerations for app upgrades
 
-* Apps that are pinned or installed by the admin update without a need for user consent when a new version of the app is available in the Teams app store.
+* If you pin or install an app, then it automatically updates to a new version if only user consent is required. When a new version is available in the Teams app store.
 
 * If an app isn't updated for a user, then the user continues to use the older version of an app. If an app updates in one context but not in the other context for a user, then the user continues to use two different versions of the app.
 
