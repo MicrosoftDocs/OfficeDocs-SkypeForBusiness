@@ -1,5 +1,5 @@
 ---
-title: LAPS authentication on Teams Rooms with Windows
+title: LAPS authentication on Teams Rooms on Windows
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
