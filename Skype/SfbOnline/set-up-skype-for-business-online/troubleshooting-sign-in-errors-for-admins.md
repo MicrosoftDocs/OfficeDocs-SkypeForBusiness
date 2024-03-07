@@ -37,8 +37,6 @@ To troubleshoot Skype for Business Online sign-in errors, start by eliminating t
 > 
 > [Add a firewall entry for msoidsvc.exe to your proxy server](troubleshooting-sign-in-errors-for-admins.md#add-a-firewall)
 > 
-> [Update DNS settings](troubleshooting-sign-in-errors-for-admins.md#update-dns-service)
-> 
 > [Install a third-party SSL certificate on your ADFS server](troubleshooting-sign-in-errors-for-admins.md#verify-upn-and)
 > 
 > [Update security credentials](troubleshooting-sign-in-errors-for-admins.md#update-security-credentials)
@@ -83,7 +81,6 @@ If the user cannot sign in after you have tried the suggestions in the previous 
 |Sign-in address not found  <br/> |Sign-in requests from the Microsoft Online Services Sign-On Assistant (msoidsvc.exe) are not going through your external firewall, or proxy server.  <br/> |[Add a firewall entry for msoidsvc.exe to your proxy server](troubleshooting-sign-in-errors-for-admins.md#add-a-firewall) <br/> |
 |Server is temporarily unavailable  <br/> |If your organization has a custom domain, the necessary Domain Name System (DNS) settings may be missing or incorrect.  <br/> |[Update DNS settings](troubleshooting-sign-in-errors-for-admins.md#update-dns-service) <br/> |
 |Server is temporarily unavailable  <br/> |If your organization is using single sign-on with Active Directory Federation Services (ADFS), you may have used a self-signed Secure Socket Layer (SSL) certificate rather than one from a third-party certification authority.  <br/> |[Install a third-party SSL certificate on your ADFS server](troubleshooting-sign-in-errors-for-admins.md#verify-upn-and) <br/> |
-|Problem acquiring a personal certificate that is required to sign in  <br/> |If you've already removed the cached server data used to sign in and the error continues to appear, the user's security credentials may be corrupted, or an RSA folder on the user's computer may be blocking authentication.  <br/> |[Update security credentials](troubleshooting-sign-in-errors-for-admins.md#update-security-credentials) <br/> |
 |A certificate trust dialog box appears when a user signs in for the first time.  <br/> |This dialog box appears if your Skype for Business server is not yet listed in the **TrustModelData** registry key. <br/> |[Modify TrustModelData registry keys](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry) <br/> |
 |User is not SIP enabled  <br/> |If your organization had a previous installation of Microsoft Office Communications Server or Microsoft Lync Server 2010, you may not have deleted your users from the server before decommissioning it. As a result, the **msRTCSIP-UserEnabled** attribute is still set to **FALSE** in Active Directory Domain Services. <br/> |[Update user settings in Active Directory](troubleshooting-sign-in-errors-for-admins.md#update-user-settings)<br/> |
 
