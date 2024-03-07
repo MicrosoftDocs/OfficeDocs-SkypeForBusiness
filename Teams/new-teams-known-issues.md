@@ -44,8 +44,7 @@ ms.localizationpriority: high
 >  
 >The desktop clients will be updated as issues are fixed and functionality added. Check back here for the latest information.
 
-- Weekly digest mail settings are missing.
-- When navigating to Teams from microsoft365.com, the top navigation bar isn't working as expected and both search and profile menu are missing. The plan is to fix this issue by February.</br>**Workaround:** Use a taskbar shortcut or navigate directly to *teams.microsoft.com* to avoid the issue.
+We currently have no EDU-specific features, but this may change.
 
 ## What features are changing?
 
