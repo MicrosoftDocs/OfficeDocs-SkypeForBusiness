@@ -22,7 +22,7 @@ ms.localizationpriority: medium
 description: This article provides an overview of LAPS, its architecture, the required deployment steps, and the steps to configure LAPs for Teams Rooms on Windows.
 ---
 
-# Windows Local Administrator Password Solution (LAPS)
+# Configuring LAPS on Teams Rooms on Windows
 
 This article provides an overview of LAPS, its architecture, the required deployment steps, and the steps to configure LAPs for Teams Rooms on Windows.
 
@@ -30,7 +30,7 @@ Windows Local Administrator Password Solution (LAPS) is a Windows feature that m
 
 ## What is LAPS?
 
-LAPS is a solution that automatically generates a random and complex password for the local administrator account on each Windows device and stores it securely in Entra or Active Directory. The password is periodically changed according to the configured policy and can be retrieved by authorized users or groups when needed. LAPS reduces the risk of lateral movement and privilege escalation attacks that exploit the same local administrator password on multiple devices. LAPS also simplifies the management of local administrator passwords andeliminates the need for manual or scripted solutions.
+LAPS is a solution that automatically generates a random and complex password for the local administrator account on each Windows device and stores it securely in Entra or Active Directory. The password is periodically changed according to the configured policy and can be retrieved by authorized users or groups when needed. LAPS reduces the risk of lateral movement and privilege escalation attacks that exploit the same local administrator password on multiple devices. LAPS also simplifies the management of local administrator passwords and eliminates the need for manual or scripted solutions.
 
 ## Windows LAPS architecture
 
@@ -48,7 +48,7 @@ LAPS consists of the following components:
 
 Before deploying LAPS on Teams Rooms on Windows, you should consider:
 
-- LAPS should be deployed in Entra where possible, as it provides better security and scalability than AD.
+- LAPS should be deployed in Entra where possible, as it provides better security and scalability than Active Directory.
 - The devices **must** be Entra joined or Hybrid Entra Joined and **managed** by Intune before proceeding with LAPS deployment.
 - Any peripherals or endpoints that connect to the Teams Rooms on Windows device using the local administrator credentials will lose connection upon reboot or password change. Some OEM implementations use this method for connecting room controllers. The OEM should be consulted for compatibility and alternative solutions.
 - That all guidance in this document has been configured and tested against OEM builds and excludes any custom images.
@@ -57,13 +57,13 @@ Before deploying LAPS on Teams Rooms on Windows, you should consider:
 The deployment of LAPS for Teams Rooms on Windows devices involve the
 doing these steps:
 
-- Configuring the Entra settings to enable LAPS.
+- Configuring the Entra ID settings to enable LAPS.
 - Creating and assigning the LAPS policy in Intune.
 - Verifying the password change and backup on the devices.
 
 ### Entra Configuration
 
-To enable LAPS in Entra:
+To enable LAPS in Entra ID:
 
 1. Go to https://entra.microsoft.com.
 2. Click **Identity** > **Devices** > **All Devices**.
@@ -125,6 +125,6 @@ LAPS is a Windows feature that enhances the security and management of local adm
 ## Related LAPS documentation
 
 - [Windows LAPS documentation](/windows-server/identity/laps/laps-overview)
-- [Manage Windows LAPS with Microsoft Intune policies](/intune/protect/windows-laps-overview)
+- [Manage Windows LAPS with Microsoft Intune policies](/mem/intune/protect/windows-laps-overview)
 - [Windows Local Administrator Password Solution in Microsoft Entra ID](/entra/identity/devices/howto-manage-local-admin-passwords)
 - [LAPS CSP](/windows/client-management/mdm/laps-csp)
