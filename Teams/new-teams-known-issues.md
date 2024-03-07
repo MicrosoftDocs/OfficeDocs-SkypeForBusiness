@@ -4,7 +4,7 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: jtremper
 ms.topic: article
-ms.date: 02/16/2024
+ms.date: 02/28/2024
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -24,14 +24,9 @@ ms.localizationpriority: high
 
 - PowerPoint Live Standout isn't yet available.
 - Language-aware spell checking is currently not available in the new Teams. The team is focusing on this issue with a high priority. Check back for updates.
-- On Windows, spell checking is limited to English (United States) dictionaries. Until this feature is fixed, users can disable spell checking from the settings page.
-- Some spell checker suggestions for English can be inaccurate. A Windows fix is pending, with an estimated rollout date of January. Users can choose to disable spell checking from the settings page until then.
 - Scheduling a Teams Live Event redirects to the classic Teams web experience. This feature will continue to work even after the deprecation of classic Teams.
-- Producing a Teams Live Event will be available in the new Microsoft Teams Desktop client in March. Until then, you need to switch back to classic Teams to produce a Teams Live Event.
-- Users are unable to see the presence of other users under the Organization tab in 1:1 chats. Restart your new Teams client or browser window to resolve. This issue is still an issue for offline contacts.
 - New Teams client isn't respecting the date time formats set in the OS. This issue affects both 12h/24h time formatting and date formatting in the product. A fix is pending; check back for updates.
 - The app will crash if users hit enter instead of clicking the *Create* button after entering the team name in the team creation wizard.
-- Newly created private channels won't show up in the left rail until the page is reloaded or users move to another screen and come back.
 - The calendar icon will show an error message for users not licensed with Exchange Online. A fix to hide the calendar icon for these users is expected soon.
 - Report a Problem is missing in the help menu for users in the public preview channel.
 - Custom Announcement Backgrounds are only available in the North American region. Pending availability of the full Designer backed AI capabilities in other regions, we're working to provide the option for users to upload their own images.
@@ -49,8 +44,7 @@ ms.localizationpriority: high
 >  
 >The desktop clients will be updated as issues are fixed and functionality added. Check back here for the latest information.
 
-- Weekly digest mail settings are missing.
-- When navigating to Teams from microsoft365.com, the top navigation bar isn't working as expected and both search and profile menu are missing. The plan is to fix this issue by February.</br>**Workaround:** Use a taskbar shortcut or navigate directly to *teams.microsoft.com* to avoid the issue.
+We currently have no EDU-specific features, but this may change.
 
 ## What features are changing?
 

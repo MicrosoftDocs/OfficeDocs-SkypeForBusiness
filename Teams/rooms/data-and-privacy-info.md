@@ -6,16 +6,15 @@ manager: pamgreen
 ms.date: 06/01/2022
 ms.reviewer: 
 ms.topic: article
-ms.tgt.pltfrm: cloud
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-audience: Admin
-ms.collection: 
-  - M365-collaboration
-  - Tier1
-  - teams-rooms-devices
 appliesto: 
   - Microsoft Teams
+ms.collection: 
+  - M365-collaboration
+  - teams-rooms-devices
+  - Tier1
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Data and Privacy Information
