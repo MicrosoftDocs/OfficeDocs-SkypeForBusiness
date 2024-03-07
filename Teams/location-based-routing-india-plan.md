@@ -146,6 +146,7 @@ For more information, see [Outbound calling restrictions](outbound-calling-restr
 | Other VoIP meeting participants are at the same site as the PSTN number of the meeting organizer | Allowed | Allowed | 
 | Any participant is at a different site than the PSTN number of the meeting organizer | Not allowed | Not allowed | 
 
+A user who is enabled for Location-Based Routing, but who does not have an audio conferecning license on a PSTN call isn't allowed to start a conference with another user or PSTN number. Connecting to auto attendants is allowed.
 
 ## Client support for Location-Based Routing
 
