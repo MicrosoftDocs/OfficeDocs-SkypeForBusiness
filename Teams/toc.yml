@@ -103,8 +103,6 @@ items:
                   href: new-teams-troubleshooting-installation.md                 
                 - name: Known issues in new Teams
                   href: new-teams-known-issues.md
-                - name: Automatic update announcement
-                  href: new-teams-automatic-upgrade-announced.md                  
                 - name: Classic Teams client end of availability
                   href: teams-classic-client-end-of-availability.md
                 - name: Usage report for new Teams client
@@ -330,21 +328,21 @@ items:
     - name: Privacy
       items: 
         - name: Privacy and Microsoft Teams
-          href: teams-privacy.md
+          href: privacy/teams-privacy.md
         - name: Location of data in Teams
-          href: location-of-data-in-teams.md
+          href: privacy/location-of-data-in-teams.md
         - name: Microsoft Teams feedback privacy
-          href: teams-privacy-feedback.md
+          href: privacy/teams-privacy-feedback.md
         - name: Policy control overview
-          href: policy-control-overview.md
+          href: privacy/policy-control-overview.md
         - name: Mobile diagnostic data
-          href: policy-control-diagnostic-data-mobile.md
+          href: privacy/policy-control-diagnostic-data-mobile.md
         - name: Desktop client diagnostic data
-          href: policy-control-diagnostic-data-desktop.md
+          href: privacy/policy-control-diagnostic-data-desktop.md
         - name: Optional connected experiences
-          href: teams-privacy-oce-overview.md
+          href: privacy/teams-privacy-oce-overview.md
         - name: Operator Connect data transfer
-          href: operator-connect-data-transfer.md
+          href: privacy/operator-connect-data-transfer.md
         - name: Intelligent recap
           href: privacy/intelligent-recap.md
 
@@ -682,12 +680,6 @@ items:
               href: external-meeting-join.md
             - name: Manage reactions
               href: manage-reactions-meetings.md
-            - name: Enable users to record their name when they join a meeting
-              href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-            - name: Turn on or off entry and exit announcements for meetings
-              href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
-            - name: Emails sent to users when their settings change
-              href: emails-sent-to-users-when-their-settings-change-in-teams.md
             - name: Set up the Call me feature for your users
               href: set-up-the-call-me-feature-for-your-users.md
             - name: View-only meeting experience
@@ -776,7 +768,7 @@ items:
               href: configure-skype-meetings-app-to-work-with-teams.md 
             - name: Set up Teams meeting add-on for Google Workspace
               href: google-workspace-addon-teams.md
-            - name: Island mode
+            - name: Islands mode
               href: meeting-provider-islands-mode.md
 
         - name: Create a Teams hybrid meeting experience
@@ -1516,6 +1508,8 @@ items:
               href: rooms/first-time-setup.md
             - name: Authentication
               items:
+              - name: Deploy LAPs
+                href: rooms/laps-authentication.md
               - name: Configure authentication
                 href: rooms/rooms-authentication.md
               - name: Best practices for Conditional Access and Intune compliance

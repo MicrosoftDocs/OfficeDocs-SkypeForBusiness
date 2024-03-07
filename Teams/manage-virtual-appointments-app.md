@@ -15,13 +15,12 @@ searchScope:
 audience: admin
 description: Learn how to manage the Virtual Appointments app which provides business-to-customer engagements, including scheduling, analytics, and management options.
 ms.localizationpriority: medium
-MS.collection: 
-  - Teams_ITAdmin_Help
-  - M365-collaboration
-  - m365-frontline
-  - teams-1p-app-admin
-  - highpri
-  - m365-virtual-appointments
+ms.collection: 
+- M365-collaboration
+- m365-frontline
+- teams-1p-app-admin
+- highpri
+- m365-virtual-appointments
 appliesto: 
   - Microsoft Teams
 ---

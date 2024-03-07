@@ -16,6 +16,7 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - essentials-privacy
+  - privacy-teams
 appliesto: 
   - Microsoft Teams
 ---
@@ -57,7 +58,7 @@ Microsoft won't disclose personal data except:
 
 If law enforcement contacts Microsoft with a demand, Microsoft will attempt to redirect the law enforcement agency to request that personal data directly from the customer. If compelled to disclose personal data to law enforcement, Microsoft will promptly notify the customer and provide a copy of the demand unless legally prohibited from doing so. For more information about data that we disclose in response to requests from law enforcement and other government agencies, please see our [Law Enforcement Requests Report](https://www.microsoft.com/corporate-responsibility/law-enforcement-requests-report).
 
-The [Teams Security Guide](./security-compliance-overview.md#compliance-standards) has more information about our compliance standards.
+The [Teams Security Guide](../security-compliance-overview.md#compliance-standards) has more information about our compliance standards.
 
 ## Where does Teams transfer and store personal data?
 

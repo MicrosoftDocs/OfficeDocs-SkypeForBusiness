@@ -5,7 +5,7 @@ author: mstonysmith
 ms.reviewer: divank
 ms.date: 11/04/2023
 manager: pamgreen
-audience: ITPro
+audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-rooms
@@ -33,13 +33,16 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 
 | Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
-| Audiocodes RXV81 | `2.2.335` | N/A| `1449/1.0.96.2023090601` | `5.0.5484.0`|  `1.0.0.202306202019.product` | November 9, 2023|
-| Audiocodes RX-Pad | `2.2.335` | N/A | `1449/1.0.96.2023090601` | `5.0.5484.0`| `1.0.0.202306202019.product` | November 9, 2023|
-| Audiocodes RXV200 | `2.2.335` | N/A | `1449/1.0.96.2023090601` | `5.0.5484.0`| `1.0.0.202306202019.product` | November 9, 2023|
-| Audiocodes RXV81 | `2.2.311` |  N/A | `1449/1.0.96.2023090601` | `5.0.5484.0`| `1.0.0.202306202019.product` | October 17, 2023|
-| Audiocodes RX-Pad | `2.2.311` |  N/A | `1449/1.0.96.2023090601` | `5.0.5484.0`| `1.0.0.202306202019.product` | October 17, 2023|
-| Audiocodes RXV81 | `2.0.369` |  N/A | `1449/1.0.96.2023090601` | `5.0.5484.0`| `1.0.0.202305022347.product` | July 24, 2023|
-| Audiocodes RX-Pad | `2.0.369` |  N/A | `1449/1.0.96.2023090601` | `5.0.5484.0`| `1.0.0.202305022347.product` | July 24, 2023|
+| Audiocodes RXV81 | `2.2.808` | N/A| `1449/1.0.97.2023062301` | `5.0.5484.0`|  `1.0.0.202310260109.product` | March 1, 2024|
+| Audiocodes RX-Pad | `2.2.808` | N/A | `1449/1.0.97.2023062301` | `5.0.5484.0`| `1.0.0.202310260109.product` | March 1, 2024|
+| Audiocodes RXV200 | `2.2.808` | N/A | `1449/1.0.97.2023062301` | `5.0.5484.0`| `1.0.0.202310260109.product` | March 1, 2024|
+| Audiocodes RXV81 | `2.2.335` | N/A| `1449/1.0.97.2023062301` | `5.0.5484.0`|  `1.0.0.202306202019.product` | November 9, 2023|
+| Audiocodes RX-Pad | `2.2.335` | N/A | `1449/1.0.97.2023062301` | `5.0.5484.0`| `1.0.0.202306202019.product` | November 9, 2023|
+| Audiocodes RXV200 | `2.2.335` | N/A | `1449/1.0.97.2023062301` | `5.0.5484.0`| `1.0.0.202306202019.product` | November 9, 2023|
+| Audiocodes RXV81 | `2.2.311` |  N/A | `1449/1.0.97.2023062301` | `5.0.5484.0`| `1.0.0.202306202019.product` | October 17, 2023|
+| Audiocodes RX-Pad | `2.2.311` |  N/A | `1449/1.0.97.2023062301` | `5.0.5484.0`| `1.0.0.202306202019.product` | October 17, 2023|
+| Audiocodes RXV81 | `2.0.369` |  N/A | `1449/1.0.97.2023062301` | `5.0.5484.0`| `1.0.0.202305022347.product` | July 24, 2023|
+| Audiocodes RX-Pad | `2.0.369` |  N/A | `1449/1.0.97.2023062301` | `5.0.5484.0`| `1.0.0.202305022347.product` | July 24, 2023|
 | Audiocodes RXV81 | `2.0.268` | N/A |`1449/1.0.96.2023041207`| `5.0.5484.0`| `1.0.0.202301162118.product` | May 30, 2023 |
 
 #### Cisco

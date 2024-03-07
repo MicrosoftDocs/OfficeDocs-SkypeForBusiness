@@ -13,12 +13,11 @@ searchScope:
 audience: admin
 description: Learn how to control whether anonymous participants who join Teams meetings hosted by your organization receive surveys to provide feedback to Microsoft about their meeting experience. 
 ms.localizationpriority: medium
-MS.collection: 
-  - Teams_ITAdmin_Help
-  - M365-collaboration
-  - m365-frontline
-  - m365initiative-meetings
-  - m365-virtual-appointments 
+ms.collection: 
+- M365-collaboration
+- m365-frontline
+- m365initiative-meetings
+- m365-virtual-appointments 
 appliesto: 
   - Microsoft Teams
 ---
