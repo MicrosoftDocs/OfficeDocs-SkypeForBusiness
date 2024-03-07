@@ -81,7 +81,7 @@ The new Teams client is now available for the Web.
 >- **Microsoft controlled** (the value in the Teams Admin Center)  **or**
 >- **Microsoft choice** (if you are using PowerShell)
 >
->[Learn more about Teams Admin policies](/microsoftteams/manage-teams-with-policies).
+>[Learn more about Teams admin policies](manage-teams-with-policies.md).
 
 ## When will all users see the "Try the new Teams" toggle?
 
