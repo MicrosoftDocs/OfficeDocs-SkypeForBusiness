@@ -309,7 +309,7 @@ This list gets updated as more partners join and meet the certification criteria
 
 ## Support boundaries
 
-Microsoft supports Compliance Recording solutions only from the certified partners. If there are issues, you must contact your Compliance Recording partner first. If needed, the Compliance Recording partner will bring the issue to Microsoft through internal channels. Microsoft may reject support cases where a non-certified Compliance Recording solution is used, or if investigation shows the issue is one that the partner can address.
+Microsoft only supports Compliance Recording solutions from the certified partners. If there are issues, you must contact your Compliance Recording partner first. If needed, the Compliance Recording partner will bring the issue to Microsoft through internal channels. Microsoft may reject support cases where a non-certified Compliance Recording solution is used, or if investigation shows the issue is one that the partner can address.
 
 ## Next steps
 
