@@ -51,15 +51,15 @@ When developers create a new version of an app, they can change the above values
 
 ## Update to new version by users and admins
 
-If an app update doesn't require consent, then it automatically updates. If consent is required, then Teams simplifies the app update experience by requiring user consent only once. When a user consents, Teams updates the app in the chats, channels, and meetings where the user is added. Users don't need to update the app separately in each context.
+If an app update doesn't require consent, then it automatically updates. If consent is required, then Teams simplifies the app update experience by requesting user consent only once. When a user consents, Teams updates the app in the chats, channels, and meetings where the user is added. Users don't need to update the app separately in different contexts. Apps that are pinned or installed by the admin update without a need for user consent when a new version of the app is available in the Teams app store.
 
 To update their app, users must individually provide their consent. Admins can't consent on behalf of the users but can update an app manually.
 
-| Who can consent to app update | How to update | Conditions and scope of update |
-|---|---|---|
-| User | Select [Update on the consent prompt](#contexts-in-which-apps-upgrade). | [Microsoft Entra admin must allow user consent](/azure/active-directory/manage-apps/configure-user-consent?pivots=portal). |
-| Admin | Open a team in Teams client and update an app from the team's settings page. | Team and channel |
-| Team owner | Open a team in Teams client and update an app from their team's settings page. | In the teams that they own. For other contexts, users still need to provide their consent. |
+| Who can consent to app update | How to update                                                                  | Conditions and scope of update                                                                                             |
+|-------------------------------|--------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| User                          | Select [Update on the consent prompt](#contexts-in-which-apps-upgrade).        | [Microsoft Entra admin must allow user consent](/azure/active-directory/manage-apps/configure-user-consent?pivots=portal). |
+| Admin                         | Open a team in Teams client and update an app from the team's settings page.   | Team and channel                                                                                                           |
+| Team owner                    | Open a team in Teams client and update an app from their team's settings page. | In the teams that they own. For other contexts, users still need to provide their consent.                                 |
 
 If none of above methods is used to update, then an app is never updated. Users can update their apps only in personal context, if a team owner doesn't allow app updates in team context. However, the user continues to use different versions of the app in personal and team contexts.
 
@@ -91,6 +91,8 @@ For more information, see [how admins manage custom apps](teams-custom-app-polic
 For custom apps to update, after you upload the new version of the app to Teams, users must individually provide their consent if it's required.
 
 ## Considerations for app upgrades
+
+* Apps that are pinned or installed by the admin update without a need for user consent when a new version of the app is available in the Teams app store.
 
 * If an app isn't updated for a user, then the user continues to use the older version of an app. If an app updates in one context but not in the other context for a user, then the user continues to use two different versions of the app.
 
