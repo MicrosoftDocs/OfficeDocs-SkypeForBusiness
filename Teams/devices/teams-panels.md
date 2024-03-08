@@ -3,20 +3,20 @@ title: Microsoft Teams panels
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: weizxue
+ms.reviewer: eviegrimshaw
 ms.date: 02/15/2021
-ms.topic: reference
+ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
 audience: Admin
 appliesto: 
   - Microsoft Teams
-f1.keywords: 
-  - NOCSH
 ms.collection: 
   - teams-rooms-devices
   - Teams_ITAdmin_Devices
   - Tier1
+f1.keywords: 
+  - NOCSH
 search.appverid: MET150
 ms.localizationpriority: medium
 description: This article provides an overview of and features supported by Microsoft Teams panels.

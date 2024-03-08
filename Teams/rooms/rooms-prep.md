@@ -2,21 +2,23 @@
 title: Prepare your Environment
 ms.author: tonysmit
 author: mstonysmith
+manager: pamgreen
 ms.reviewer: kimmatlock
 ms.date: 10/04/2023
-manager: pamgreen
-audience: ITPro
-ms.topic: conceptual
+ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-f1.keywords: 
-  - NOCSH
-ms.localizationpriority: medium
-ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
   - Tier1
+f1.keywords: 
+  - NOCSH
+ms.localizationpriority: medium
+ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Learn about how to prepare your infrastructure for deploying Microsoft Teams Rooms so that you can take advantage of all of the features.
 ms.custom: seo-marvel-apr2020
 ---
@@ -134,7 +136,7 @@ Microsoft Teams Rooms default password is set to "sfb". The Password can be chan
 
 The Local admin password isn't included as a choice during Setup.
 
-Use Windows Local Administrative Password Solution (LAPS) to enhance security and manage local administrator passwords for Microsoft Teams Rooms devices.
+Use Windows Local Administrative Password Solution (LAPS) to enhance security and manage local administrator passwords for Microsoft Teams Rooms on Windows devices. 
 It automatically generates and backs up the passwords to Entra and allows authorized users to retrieve them when needed. LAPS also prevents password reuse and simplifies password rotation.
 For more information, see:
 - [Windows LAPS documentation](/windows-server/identity/laps/laps-overview)
