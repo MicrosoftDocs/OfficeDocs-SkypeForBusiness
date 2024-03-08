@@ -39,7 +39,7 @@ For making external calls, Teams Phone provides add-on options for connecting to
 
 **Licenses and voice enablement** - To use Teams Phone features, your organization must have a Teams Phone license. For more information about licensing, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-Most features require you to assign the Teams Phone license and ensure that users are "voice enabled." To assign the license, use the [Set-CsPhoneNumberAssignment cmdlet](/powershell/module/teams/set-csphonenumberassignment) and set the **EnterpriseVoiceEnabled** parameter to $true. A few features, such as Auto attendant, do not require a user to be voice enabled. 
+Most features require you to assign the Teams Phone license and ensure that users are "voice enabled." To assign the license, use the [Set-CsPhoneNumberAssignment cmdlet](/powershell/module/teams/set-csphonenumberassignment) and set the **EnterpriseVoiceEnabled** parameter to $true. A few features, such as Auto attendant, do not require a user to be voice enabled (more about features in the next section).
 
 ## Teams Phone features
 
