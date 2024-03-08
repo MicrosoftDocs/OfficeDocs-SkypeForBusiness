@@ -1,16 +1,17 @@
 ---
-title: Teams Rooms and  Deviecs feature comparison
+title: Teams Rooms and  Devices feature comparison
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.date: 02/22/2024
-ms.topic: conceptual
-audience: ITPro
+ms.reviewer: sohailta
+ms.date: 10/04/2023
+ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
+appliesto: 
+  - Microsoft Teams
 search.appverid: MET150
-ms.reviewer: sohailta
-description:  A guide comparing Microsoft Teams Rooms and Teams devices features running on Windows and Android across all deployments.
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
@@ -18,8 +19,7 @@ ms.collection:
 f1.keywords: 
   - NOCSH
 localization_priority: Normal
-appliesto: 
-  - Microsoft Teams
+description: A guide comparing the Teams devices for shared spaces features between Windows and Android.
 ---
 
 # Teams Device feature comparison (Windows, Android, & Panels)
@@ -60,7 +60,7 @@ To help guide you as to what features are available on different platforms, you 
 |                                          | Live reactions                                                                                               | Available                                                                                   | Available                                                                      |
 |                                          | Live closed captions                                                                                         | Available                                                                                   | Available                                                                      |
 |                                          | Participate in breakout rooms                                                                                | Not available                                                                               | Not available                                                                  |
-|                                          | Teams Premium meeting protection policies (watermark, E2E encryption for meetings, and sensitivity labels)   | Available                                                                                   | Not available                                                                  |
+|                                          | Teams Premium meeting protection policies (watermark, E2E encryption for meetings, and sensitivity labels)   | Available                                                                                   | Available                                                                      |
 |                                          | Start meeting recording and transcription                                                                    | Not available                                                                               | Not available                                                                  |
 |                                          | Teams Town Hall (Presenter role)                                                                             | Not available                                                                               | Not available                                                                  |
 |                                          | Teams Town Hall (Attendee role)                                                                              | Not available                                                                               | Not available                                                                  |

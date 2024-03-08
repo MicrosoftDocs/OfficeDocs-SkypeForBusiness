@@ -3,15 +3,19 @@ title: Configure SIP Gateway
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
+ms.reviewer: chasing
 ms.date: 11/02/2023
 ms.topic: article
-ms.service: msteams
 audience: admin
+ms.service: msteams
+ms.subservice: itpro-rooms
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
+  - M365-collaboration
   - teams-rooms-devices
   - highpri
   - Tier1
-ms.reviewer: chasing
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -20,8 +24,6 @@ description: Learn how to configure SIP Gateway.
 ms.custom: 
  - seo-marvel-apr2020
  - seo-marvel-jun2020
-appliesto: 
-  - Microsoft Teams
 ---
 
 # Configure SIP Gateway

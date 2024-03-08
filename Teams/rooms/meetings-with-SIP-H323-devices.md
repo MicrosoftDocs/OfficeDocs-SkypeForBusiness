@@ -3,19 +3,21 @@ title: Teams Rooms meetings with SIP and H.323 devices
 ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
-audience: ITPro
 ms.reviewer: naforer
 ms.date: 11/03/2023
-ms.topic: quickstart
+ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
+appliesto: 
+  - Microsoft Teams
+ms.collection: 
+  - M365-collaboration
+  - teams-rooms-devices
+  - Tier1
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
-ms.collection: 
-  - Tier1
-  - M365-collaboration
-  - teams-rooms-devices
 description: Learn about how to set up Teams Rooms to receive and place calls to and from approved SIP and H.323 devices.
 ---
 
