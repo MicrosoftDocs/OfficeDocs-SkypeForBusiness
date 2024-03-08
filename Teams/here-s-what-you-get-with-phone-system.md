@@ -24,21 +24,21 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Phone System
-description: "Learn about the features, availability, and how to plan and set up Microsoft Teams Phone System for your business. "
+description: "Learn about the features, availability, and how to plan and set up Microsoft Teams Phone System for your business."
 ---
 
 # Teams Phone features
 
-This article describes Microsoft Teams Phone features. For more information about using Teams Phone as your Private Branch Exchange (PBX) replacement, and options for connecting to the Public Switched Telephone Network (PSTN), see [What is Teams Phone](what-is-phone-system-in-office-365.md).
+This article describes Microsoft Teams Phone features. For more information about using Teams Phone as your Private Branch Exchange (PBX) replacement, and options for connecting to the Public Switched Telephone Network (PSTN), see [What is Teams Phone](what-is-phone-system-in-office-365.md). This article is for administrators and IT professionals.
 
 Clients are available for PC, Mac, and mobile, which provides features on devices from tablets and mobile phones to PCs and desktop IP phones. For more information, see [Get clients for Microsoft Teams](get-clients.md).
 
 > [!NOTE]
 > For details about Teams phone systems on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
-To use Teams Phone features, your organization must have a Teams Phone license. For more information about licensing, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+**Licenses and voice enablement** - To use Teams Phone features, your organization must have a Teams Phone license. For more information about licensing, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-Be aware that most features require you to assign the Teams Phone license and ensure that users are "voice enabled." To assign the license, use the [Set-CsPhoneNumberAssignment cmdlet](/powershell/module/teams/set-csphonenumberassignment) and set the **EnterpriseVoiceEnabled** parameter to $true. A few features, such as cloud auto attendant, do not require a user to be voice enabled. Exceptions are called out in the table below.
+Most features require you to assign the Teams Phone license and ensure that users are "voice enabled." To assign the license, use the [Set-CsPhoneNumberAssignment cmdlet](/powershell/module/teams/set-csphonenumberassignment) and set the **EnterpriseVoiceEnabled** parameter to $true. A few features, such as Auto attendant, do not require a user to be voice enabled. Exceptions are called out in the table below.
   
 ## Teams Phone features
 

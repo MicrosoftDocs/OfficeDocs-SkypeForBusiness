@@ -24,7 +24,7 @@ description: This article provides an overview of LAPS, its architecture, the re
 
 # Configuring LAPS on Teams Rooms on Windows
 
-This article provides an overview of LAPS, its architecture, the required deployment steps, and the steps to configure LAPs for Teams Rooms on Windows.
+This article provides an overview of LAPS, its architecture, the required deployment steps, and the steps to configure LAPS for Teams Rooms on Windows.
 
 Windows Local Administrator Password Solution (LAPS) is a Windows feature that manages and backs up the password of the local administrator account to Microsoft Entra joined (Entra Joined) or Active Directory (AD). It provides enhanced protection against local administrator account password attacks and meets key customer requirements for deploying Teams Rooms on Windows devices.
 
