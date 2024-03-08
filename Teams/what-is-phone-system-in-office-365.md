@@ -1,7 +1,7 @@
 ---
 title: "What is Teams Phone"
 ms.reviewer: roykuntz
-ms.date: 08/15/2023
+ms.date: 03/07/2024
 author: CarolynRowe
 ms.author: crowe
 manager: pamgreen
@@ -45,7 +45,7 @@ Most features require you to assign the Teams Phone license and ensure that user
 
 With Teams Phone, users in your organization can use Teams to place and receive calls, transfer calls, and mute or unmute calls. Teams Phone users can click a name in their address book, and place Teams calls to that person. To place and receive calls, Teams Phone users can use their mobile devices, a headset with a laptop or PC, or one of many IP phones that work with Teams. 
 
-For more information about Teams Phone features, including which features require a user to be voice enabled, see [Here's what you get with Teams Phone](here-s-what-you-get-with-phone-system.md).
+For more information about Teams Phone features, including which features require a user to be voice enabled, see [Teams Phone features](here-s-what-you-get-with-phone-system.md).
 
 You can manage calling options and settings by using the Teams admin center and by using PowerShell.
 

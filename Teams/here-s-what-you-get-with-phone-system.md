@@ -24,12 +24,12 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Phone System
-description: "Learn about the features, availability, and how to plan and set up Microsoft Teams Phone System for your business. "
+description: "Learn about the features, availability, and how to plan and set up Microsoft Teams Phone System for your business."
 ---
 
 # Teams Phone features
 
-This article describes Microsoft Teams Phone features. For more information about using Teams Phone as your Private Branch Exchange (PBX) replacement, and options for connecting to the Public Switched Telephone Network (PSTN), see [What is Teams Phone](what-is-phone-system-in-office-365.md).
+This article describes Microsoft Teams Phone features. For more information about using Teams Phone as your Private Branch Exchange (PBX) replacement, and options for connecting to the Public Switched Telephone Network (PSTN), see [What is Teams Phone](what-is-phone-system-in-office-365.md). This article is for administrators and IT professionals.
 
 Clients are available for PC, Mac, and mobile, which provides features on devices from tablets and mobile phones to PCs and desktop IP phones. For more information, see [Get clients for Microsoft Teams](get-clients.md).
 
