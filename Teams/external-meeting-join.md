@@ -2,7 +2,7 @@
 title:  Prevent users from joining external Microsoft Teams meetings
 ms.author: wlibebe
 author: wlibebe
-manager: serdars
+manager: pamgreen
 ms.reviewer: vivekmo
 ms.date: 2/6/2024
 ms.topic: article
