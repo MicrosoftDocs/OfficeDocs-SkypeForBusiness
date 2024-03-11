@@ -50,7 +50,7 @@ To limit presenter role permissions for your tenant, you must use the **`-LimitP
 To limit presenter role capabilities for tenants with this policy, use the following script:
 
 ```powershell
-Set-CsTeamsMeetingConfiguration -Identity <policy name> -LimitPresenterRolePermissions  True
+Set-CsTeamsMeetingConfiguration -Identity <policy name> -LimitPresenterRolePermissions  $true
 ```
 
 ## Presenter capabilities
