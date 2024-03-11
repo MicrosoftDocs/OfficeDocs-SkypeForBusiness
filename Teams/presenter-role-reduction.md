@@ -85,14 +85,14 @@ Here’s a complete table of the permissions that presenters have when you restr
 |Manage recording permissions  | No| No|
 |Reschedule or cancel the meeting | No| No|
 
-<sup>1</sup> When **Manage what attendees see** is enabled, presenters can still lower raised hands, and enable and disable attendees’ mics and cameras. You can enable **Manage what attendees see** through a meeting template or organizers can enable this option through their meeting options. To learn more about **Manage what attendees see**, see [Manage the meeting presentation experience for sensitive Teams meetings](manage-meeting-presentation-experience#manage-which-content-and-video-is-shared-with-attendees.md).
+<sup>1</sup> When **Manage what attendees see** is enabled, presenters can still lower raised hands, and enable and disable attendees’ mics and cameras. You can enable **Manage what attendees see** through a meeting template or organizers can enable this option through their meeting options. To learn more about **Manage what attendees see**, see [Manage the meeting presentation experience for sensitive Teams meetings](manage-meeting-presentation-experience.md#manage-which-content-and-video-is-shared-with-attendees).
 
 ## Related topics
 
 - [Meetings, webinars, and live events overview](quick-start-meetings-live-events.md)
 - [Feature comparison](meeting-webinar-town-hall-feature-comparison.md)
 - [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams)
-- [Manage the meeting presentation experience for sensitive Teams meetings](manage-meeting-presentation-experience#manage-which-content-and-video-is-shared-with-attendees.md)
+- [Manage the meeting presentation experience for sensitive Teams meetings](manage-meeting-presentation-experience.md#manage-which-content-and-video-is-shared-with-attendees)
 - [Plan for meetings](plan-meetings.md)
 - [Plan for webinars](plan-webinars.md)
 - [Plan for town halls](plan-town-halls.md)
