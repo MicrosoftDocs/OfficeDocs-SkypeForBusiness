@@ -216,6 +216,9 @@ Dism /Online /Add-ProvisionedAppxPackage /PackagePath:<MSIX package path> /SkipL
 
 Make sure sideloading is enabled, and that WebView2 is installed. See 'Requirements' section above.
 
+The /SkipLicense command is needed because the MSIX package isn't considered a "Store Package" (since it wasn't downloaded from the store). Therefore, for the Dism installation command to succeed, you need to enable this policy as well during installation time:
+Computer Configuration > Administrative Templates > Windows Components > App Package Deployment > **Allow all trusted apps to install**.
+
 Known limitations:
 
 - Classic Teams on Windows Server 2019 isn't displaying the app switcher toggle if Classic Teams version is lower than 1.6.00.33567
@@ -435,7 +438,6 @@ Learn more: [Manage accounts and organizations in Microsoft Teams](https://suppo
 - Screen sharing from chat for Azure Virtual Desktops/Windows 365.
 - Screen sharing from chat for Citrix.
 - Give/Take control for Citrix and AVD/Windows 365.
-- HID support in headsets.
 - The app switcher toggle isn't shown in new Teams if the virtual machine has the machine-wide classic Teams installed (MSI with ALLUSERS=1). **Note:** This issue is fixed on new Teams version 23320.3021.2567.4799 or higher.
 
 >[!Note]
