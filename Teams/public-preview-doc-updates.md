@@ -71,7 +71,7 @@ You can also set the policy using the PowerShell `Set-CsTeamsUpdateManagementPol
 
 To enable Public preview on a desktop or web client, perform the following tasks:
 > [!NOTE]  
-> This option is only available when **Show Teams preview features** is set to **Users can opt in** or [Custom app upload](https://learn.microsoft.com/en-us/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant#enable-custom-teams-apps-and-turn-on-custom-app-uploading) is enabled.
+> This option is only available when **Show Teams preview features** is set to **Users can opt in** or [Custom app upload](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant#enable-custom-teams-apps-and-turn-on-custom-app-uploading) is enabled.
 
 # [New Teams client](#tab/new-teams-client)
 
