@@ -76,7 +76,7 @@ Here’s a complete table of the permissions that presenters have when you restr
 |Start or stop live transcription  | Yes| Yes|
 |Start or stop recording  | Yes| Yes|
 |Take control of someone else's PowerPoint presentation  | Yes| Yes|
-|Use an app*| Yes| Yes|
+|Use an app| Yes| Yes|
 |Attendance report  | No| No|
 |Change meeting options  | No| No|
 |Edit meeting details | No| No|
