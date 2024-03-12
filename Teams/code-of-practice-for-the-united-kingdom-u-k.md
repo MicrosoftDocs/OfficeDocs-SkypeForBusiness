@@ -146,6 +146,6 @@ National Translation Services are telephone numbers that begin with 08 or 0500 (
 
 Rates for National Translation Services, Personal Numbers, and 0870 numbers are provided on our [website](https://go.microsoft.com/fwlink/?LinkID=820709&amp;clcid=0x809) and can fluctuate depending on the time of day and the day of the week that your call is made. Calls to 0800 numbers are free.
 
-
 ## Related topics
+
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
