@@ -103,8 +103,6 @@ items:
                   href: new-teams-troubleshooting-installation.md                 
                 - name: Known issues in new Teams
                   href: new-teams-known-issues.md
-                - name: Automatic update announcement
-                  href: new-teams-automatic-upgrade-announced.md                  
                 - name: Classic Teams client end of availability
                   href: teams-classic-client-end-of-availability.md
                 - name: Usage report for new Teams client
@@ -770,7 +768,7 @@ items:
               href: configure-skype-meetings-app-to-work-with-teams.md 
             - name: Set up Teams meeting add-on for Google Workspace
               href: google-workspace-addon-teams.md
-            - name: Island mode
+            - name: Islands mode
               href: meeting-provider-islands-mode.md
 
         - name: Create a Teams hybrid meeting experience
@@ -1510,6 +1508,8 @@ items:
               href: rooms/first-time-setup.md
             - name: Authentication
               items:
+              - name: Deploy LAPs
+                href: rooms/laps-authentication.md
               - name: Configure authentication
                 href: rooms/rooms-authentication.md
               - name: Best practices for Conditional Access and Intune compliance
