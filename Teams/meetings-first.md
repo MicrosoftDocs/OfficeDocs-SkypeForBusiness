@@ -34,7 +34,7 @@ In Meetings First, users create their meeting in Teams, while continuing to use 
 
 ![Screenshot of the better together scenario with Teams and Skype for Business.](media/meetings-first-meeting-in-meeting.png)
 
-> [!Important]
+> [!IMPORTANT]
 > Meetings First is a better match for organizations who have no or few active Teams chat users. Active Teams chat users should not be switched to Meetings First mode, as they would lose the ability to chat in Teams and to access to their chat history. These users should be grandfathered in **Islands** mode instead, and Meetings First only granted to the users not yet active in chat in Teams.
 
 ## Who should consider Meetings First?
@@ -55,9 +55,9 @@ Meeting First brings the following capabilities together:
 - [Meetings Migration Service](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms): Meetings organized by the user will be migrated to the cloud and converted to Teams meetings as the user is promoted to Meetings First (requires Exchange Online).
 - Streamlined user experience in Teams, centered on Teams meetings and teams and channels (which can be hidden using the [App Permissions policy](teams-app-permission-policies.md)). [Teams private chat, calling, and self-presence](teams-client-experience-and-conformance-to-coexistence-modes.md) aren't exposed in Meetings First, enabling the deployment and adoption effort to focus on meetings.
 - Superior [Teams meeting experience](tutorial-meetings-in-teams.yml).
-- "Better Together" between Teams and Skype for Business: 
+- "Better Together" between Teams and Skype for Business:
   - Automatic hold: When in a meeting in Teams, getting in a call in Skype for Business will place the Teams meeting on hold, and vice-versa. This prevents users from having their private calls overheard by the meetings participants.
-    ![Screenshot of the better together scenario with Teams and Skype for Business.](media/meetings-first-better-together-hold.png)
+    ![Screenshot of the better together hold screen scenario with Teams and Skype for Business.](media/meetings-first-better-together-hold.png)
   - Presence reconciliation: Activity in Teams is reflected in the user's presence, which is the Skype for Business presence since chat and calling are in Skype for Business. Specifically, when Meetings First users are in a Teams meeting, their presence will be updated to reflect that. When they present their screen, their presence will be updated to show Do Not Disturb (based on their settings in Skype for Business).
   - USB device HID control reconciliation (also available on Mac): The HID controls are honored by Teams while in Teams meetings and by Skype for Business in all other circumstances.
   - Unless otherwise mentioned, Better Together capabilities require recent Windows desktop clients at this time.
