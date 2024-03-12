@@ -437,7 +437,6 @@ Learn more: [Manage accounts and organizations in Microsoft Teams](https://suppo
 
 - Screen sharing from chat for Azure Virtual Desktops/Windows 365.
 - Screen sharing from chat for Citrix.
-- Give/Take control for Citrix and AVD/Windows 365.
 - The app switcher toggle isn't shown in new Teams if the virtual machine has the machine-wide classic Teams installed (MSI with ALLUSERS=1). **Note:** This issue is fixed on new Teams version 23320.3021.2567.4799 or higher.
 
 >[!Note]
