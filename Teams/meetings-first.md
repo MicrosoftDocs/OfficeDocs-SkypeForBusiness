@@ -30,7 +30,7 @@ appliesto:
 
 Meetings First is based on the **SfBWithTeamsCollabAndMeetings** coexistence mode. Meetings First isn't a product or a feature—it's a configuration that uses capabilities and features of Teams and Skype for Business to provide a uniquely tailored coexistence experience.
 
-In Meetings First, users create their meeting in Teams, while continuing to use Skype for Business for chat, calling, and presence. There is no overlap of modalities between Teams and Skype for Business. Chat, calling, and presence are on in Skype for Business and off in Teams. This configuration enables unique "better together" scenarios between Skype for Business and Teams that enhance the user's experience during coexistence, as well as interoperability scenarios with **Teams Only** users.
+In Meetings First, users create their meeting in Teams, while continuing to use Skype for Business for chat, calling, and presence. There'S no overlap of modalities between Teams and Skype for Business. Chat, calling, and presence are on in Skype for Business and off in Teams. This configuration enables unique "better together" scenarios between Skype for Business and Teams that enhance the user's experience during coexistence, and interoperability scenarios with **Teams Only** users.
 
 ![Screenshot of the better together scenario with Teams and Skype for Business.](media/meetings-first-meeting-in-meeting.png)
 
@@ -43,7 +43,7 @@ Meetings First is for organizations who use Skype for Business Server with Enter
 
 For complex or large organizations, voice migrations are typically done on a site-by-site basis and might take a long time, potentially several years, resulting in extended coexistence scenarios. If that coexistence is in **Islands** mode, users will always have the choice of two meeting solutions (Skype for Business and Teams), which can result in confusing or suboptimal situations. Unlike voice migrations, meetings migrations can generally be completed across the entire company in a short amount of time. Organizations who want to completely switch to Teams meetings as quickly as possible (and without waiting for their voice migration to be complete) should consider Meetings First.
 
-Meetings First might not be useful to organizations who have no Enterprise Voice users. These organizations should be able to upgrade to **Teams Only** as soon as they are able to adopt Teams meetings. They should consider skipping Meetings First.
+Meetings First might not be useful to organizations who have no Enterprise Voice users. These organizations should be able to upgrade to **Teams Only** as soon as they're able to adopt Teams meetings. They should consider skipping Meetings First.
 
 In addition, Meetings First is useful to organizations whose scope is a pure-play meeting solution, for example when a "meetings-only" RFP is being issued.
 
@@ -56,7 +56,7 @@ Meeting First brings the following capabilities together:
 - Streamlined user experience in Teams, centered on Teams meetings and teams and channels (which can be hidden using the [App Permissions policy](teams-app-permission-policies.md)). [Teams private chat, calling, and self-presence](teams-client-experience-and-conformance-to-coexistence-modes.md) aren't exposed in Meetings First, enabling the deployment and adoption effort to focus on meetings.
 - Superior [Teams meeting experience](tutorial-meetings-in-teams.yml).
 - "Better Together" between Teams and Skype for Business:
-  - Automatic hold: When in a meeting in Teams, getting in a call in Skype for Business will place the Teams meeting on hold, and vice-versa. This prevents users from having their private calls overheard by the meetings participants.
+  - Automatic hold: When in a meeting in Teams, getting in a call in Skype for Business will place the Teams meeting on hold, and vice-versa. This hold prevents users from having their private calls overheard by the meetings participants.
     ![Screenshot of the better together hold screen scenario with Teams and Skype for Business.](media/meetings-first-better-together-hold.png)
   - Presence reconciliation: Activity in Teams is reflected in the user's presence, which is the Skype for Business presence since chat and calling are in Skype for Business. Specifically, when Meetings First users are in a Teams meeting, their presence will be updated to reflect that. When they present their screen, their presence will be updated to show Do Not Disturb (based on their settings in Skype for Business).
   - USB device HID control reconciliation (also available on Mac): The HID controls are honored by Teams while in Teams meetings and by Skype for Business in all other circumstances.
@@ -66,13 +66,13 @@ Meeting First brings the following capabilities together:
 
 The only hard requirements for Meetings First are the same as the requirements for Teams with on-premises Active Directory and a Skype for Business on-premises deployment:
 
-- [General pre-requisites for Teams](upgrade-plan-journey-prerequisites.md), including
-- [Identity and authentication in Teams](identify-models-authentication.md) and
+- [General prerequisites for Teams](upgrade-plan-journey-prerequisites.md), including,
+- [Identity and authentication in Teams](identify-models-authentication.md) and,
 - [Configure Microsoft Entra ID for Teams and Skype for Business](/skypeforbusiness/hybrid/configure-azure-ad-connect).
 
 A [Skype for Business hybrid topology](/skypeforbusiness/hybrid/configure-federation-with-skype-for-business-online) isn't required, but it's recommended. Some capabilities such as Meetings Migration Service and interoperability rely on that topology.
 
-Meetings First is supported with any version of the Skype for Business Server (and known to work with the no-longer-supported Lync Server). It's supported with any supported Skype for Business client, however Better Together capabilities require a recent client.
+Meetings First is supported with any version of the Skype for Business Server (and known to work with the no-longer-supported Lync Server). It's supported with any supported Skype for Business client. However, Better Together capabilities require a recent client.
 
 Once these requirements are met (and not prior), the users can be [licensed for Microsoft 365 or Office 365 and Teams](/office365/enterprise/assign-licenses-to-user-accounts).
 
@@ -80,7 +80,7 @@ For the best Meetings First experience, users should be enabled for [Exchange On
 
 At minimum, users must be [licensed for Teams](/microsoft-365/admin/manage/assign-licenses-to-users). In addition, they can be licensed for [Audio Conferencing](set-up-audio-conferencing-in-teams.md), if needed.
 
-We recommend you [grant **SfBOnly** or **SfBWithTeamsCollab**](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) mode as tenant default at the time you license the users. This setting ensures that users wouldn't start using Teams on their own in the default **Islands** mode prior to launching Meetings First.
+We recommend you [grant **SfBOnly** or **SfBWithTeamsCollab**](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) mode as tenant default at the time you license the users. This setting ensures that users wouldn't start using Teams on their own in the default **Islands** mode before launching Meetings First.
 
 Meetings First is supported on full desktop clients (Windows and Mac), on browser clients, and on mobile clients. It's also compatible with [Microsoft Teams Rooms](/microsoftteams/room-systems/). Better Together requires the full desktop client.
 
