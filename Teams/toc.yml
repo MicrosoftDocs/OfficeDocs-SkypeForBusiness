@@ -103,12 +103,12 @@ items:
                   href: new-teams-troubleshooting-installation.md                 
                 - name: Known issues in new Teams
                   href: new-teams-known-issues.md
-                - name: Automatic update announcement
-                  href: new-teams-automatic-upgrade-announced.md                  
-            - name: Classic Teams clients
-              items:
                 - name: Classic Teams client end of availability
                   href: teams-classic-client-end-of-availability.md
+                - name: Usage report for new Teams client
+                  href: new-teams-usage-report.md
+            - name: Classic Teams clients
+              items:
                 - name: Get the classic Teams clients
                   href: get-clients.md
                 - name: Classic Teams client updates
@@ -328,21 +328,21 @@ items:
     - name: Privacy
       items: 
         - name: Privacy and Microsoft Teams
-          href: teams-privacy.md
+          href: privacy/teams-privacy.md
         - name: Location of data in Teams
-          href: location-of-data-in-teams.md
+          href: privacy/location-of-data-in-teams.md
         - name: Microsoft Teams feedback privacy
-          href: teams-privacy-feedback.md
+          href: privacy/teams-privacy-feedback.md
         - name: Policy control overview
-          href: policy-control-overview.md
+          href: privacy/policy-control-overview.md
         - name: Mobile diagnostic data
-          href: policy-control-diagnostic-data-mobile.md
+          href: privacy/policy-control-diagnostic-data-mobile.md
         - name: Desktop client diagnostic data
-          href: policy-control-diagnostic-data-desktop.md
+          href: privacy/policy-control-diagnostic-data-desktop.md
         - name: Optional connected experiences
-          href: teams-privacy-oce-overview.md
+          href: privacy/teams-privacy-oce-overview.md
         - name: Operator Connect data transfer
-          href: operator-connect-data-transfer.md
+          href: privacy/operator-connect-data-transfer.md
         - name: Intelligent recap
           href: privacy/intelligent-recap.md
 
@@ -487,6 +487,8 @@ items:
           href: advanced-collaboration-analytics.md
         - name: Teams user activity report
           href: /microsoft-365/admin/activity-reports/microsoft-teams-user-activity-preview?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: External domain activity report
+          href: teams-analytics-and-reports/external-domain-activity-report.md
         - name: Teams app usage report
           href: teams-analytics-and-reports/app-usage-report.md
         - name: Teams device usage report
@@ -517,6 +519,9 @@ items:
           href: teams-analytics-and-reports/walkie-talkie-usage-report.md
         - name: SMS notifications usage report
           href: /microsoft-365/frontline//sms-notifications-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: Usage report for new Teams client
+          href: new-teams-usage-report.md
+
               
     - name: Log files, service health, and support
       items:
@@ -524,8 +529,6 @@ items:
           href: log-files.md
         - name: Browser logs and tracing for Teams
           href: browser-logs-and-tracing-for-teams.md
-        - name: Verify service health for Teams
-          href: service-health.md
         - name: How to look up your support PIN
           href: support-pin.md
 
@@ -564,6 +567,8 @@ items:
             href: manage-teams-with-policies.md
           - name: Team expiration and renewal
             href: team-expiration-renewal.md
+          - name: Private team discovery
+            href: search-private-teams.md
           - name: Archive or delete a team
             href: archive-or-delete-a-team.md
           - name: Migrate from Slack to Teams
@@ -665,24 +670,24 @@ items:
               href: set-up-meeting-registration.md
         - name: Attendee experience
           items: 
+            - name: Manage Copilot for Teams
+              href: copilot-teams-transcription.md
             - name: Manage Q&A
               href: manage-qna-for-teams.md
             - name: Manage meeting chat
               href: manage-meeting-chat.md
+            - name: Prevent users from joining external meetings
+              href: external-meeting-join.md
             - name: Manage reactions
               href: manage-reactions-meetings.md
-            - name: Enable users to record their name when they join a meeting
-              href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-            - name: Turn on or off entry and exit announcements for meetings
-              href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
-            - name: Emails sent to users when their settings change
-              href: emails-sent-to-users-when-their-settings-change-in-teams.md
             - name: Set up the Call me feature for your users
               href: set-up-the-call-me-feature-for-your-users.md
             - name: View-only meeting experience
               href: view-only-meeting-experience.md
             - name: Meeting invitations
               href: customize-meeting-invitations.md
+            - name: Manage feedback surveys for anonymous participants
+              href: meeting-surveys-anonymous-participants.md
         - name: Standardized meetings
           items: 
             - name: Custom meetings overview
@@ -751,6 +756,8 @@ items:
               href: meeting-transcription-captions.md
             - name: Use OneDrive and SharePoint or Stream for meeting recordings
               href: tmr-meeting-recording-change.md
+            - name: Delete Exchange Online and OneDrive transcript files for Teams meetings
+              href: delete-exchange-online-transcripts.md
         - name: Integration
           items:
             - name: eCDN
@@ -761,7 +768,7 @@ items:
               href: configure-skype-meetings-app-to-work-with-teams.md 
             - name: Set up Teams meeting add-on for Google Workspace
               href: google-workspace-addon-teams.md
-            - name: Island mode
+            - name: Islands mode
               href: meeting-provider-islands-mode.md
 
         - name: Create a Teams hybrid meeting experience
@@ -927,24 +934,32 @@ items:
           href: here-s-what-you-get-with-phone-system.md
         - name: Set up Teams Phone
           href: setting-up-your-phone-system.md
-        - name: Voicemail
-          items: 
-            - name: Manage Cloud Voicemail
-              href: set-up-phone-system-voicemail.md
-            - name: Manage Voicemail policies
-              href: manage-voicemail-policies.md
-            - name: Manage Voicemail settings
-              href: manage-voicemail-settings.md
-            - name: Change the default language for voicemail
-              href: change-the-default-language-for-greetings-and-emails.md
-            - name: Languages for voicemail greetings and messages
-              href: languages-for-voicemail-greetings-and-messages.md
+        - name: Configure calling policies
+          href: teams-calling-policy.md
         - name: Caller ID
           items: 
             - name: Manage caller ID for users
               href: caller-id-policies.md
             - name: More about Calling Line ID and Calling Party Name
               href: more-about-calling-line-id-and-calling-party-name.md
+        - name: Manage inbound calls
+          items:
+            - name: Route inbound calls
+              href: inbound-call-routing.md
+            - name: Block inbound calls
+              href: block-inbound-calls.md
+            - name: Configure spam filtering
+              href: configure-call-spam-filtering.md
+            - name: Configure call forwarding and delegation settings
+              href: user-call-settings.md
+            - name: Configure call park and retrieve
+              href: call-park-and-retrieve.md
+            - name: Configure call sharing and group call pickup
+              href: call-sharing-and-group-call-pickup.md
+            - name: Configure Music on Hold
+              href: music-on-hold.md
+            - name: Configure private line
+              href: private-line.md
         - name: Auto attendants and Call queues
           items: 
             - name: Plan Auto attendants and Call queues
@@ -965,30 +980,31 @@ items:
               href: set-up-holidays-in-teams.md
             - name: Answer Auto attendant and Call queue calls directly from Teams
               href: answer-auto-attendant-and-call-queue-calls.md
-            - name: Reports
+            - name: Reports - Historical
               href: aa-cq-cqd-historical-reports.md
             - name: PowerShell cmdlet reference for Auto attendants and Call queues
               href: call-queue-auto-attendant-cmdlets.md
             - name: Dial and voice reference
               href: dial-voice-reference.md
-        - name: Routing inbound calls
-          href: inbound-call-routing.md
-        - name: Block inbound calls
-          href: block-inbound-calls.md
-        - name: Configure call forwarding and delegation settings
-          href: user-call-settings.md
-        - name: Call park and retrieve
-          href: call-park-and-retrieve.md
-        - name: Call sharing and group call pickup
-          href: call-sharing-and-group-call-pickup.md
-        - name: Configure calling policies
-          href: teams-calling-policy.md
+        - name: Voicemail
+          items: 
+            - name: Manage Cloud Voicemail
+              href: set-up-phone-system-voicemail.md
+            - name: Manage Voicemail policies
+              href: manage-voicemail-policies.md
+            - name: Manage Voicemail settings
+              href: manage-voicemail-settings.md
+            - name: Change the default language for voicemail
+              href: change-the-default-language-for-greetings-and-emails.md
+            - name: Languages for voicemail greetings and messages
+              href: languages-for-voicemail-greetings-and-messages.md
         - name: Shared line appearance
           href: shared-line-appearance.md
         - name: Dial pad configuration
           href: dial-pad-configuration.md
-        - name: Music on Hold
-          href: music-on-hold.md
+        - name: Call recording, transcription, and captions
+          href: call-recording-transcription-captions.md
+        
 
     - name: PSTN connectivity options
       items:
@@ -1468,7 +1484,7 @@ items:
                   href: rooms/rooms-lifecycle-support.md
                 - name: Android app and firmware versions
                   href: rooms/android-app-firmware.md
-                - name: Teams Rooms Windows and Android comparison
+                - name: Teams Rooms and devices feature comparison
                   href: rooms/teams-devices-feature-comparison.md
             - name: Licensing
               items:
@@ -1488,8 +1504,12 @@ items:
               href: rooms/rooms-prep.md
             - name: Create resource accounts 
               href: rooms/create-resource-account.md
+            - name: Set up using one-time passwords 
+              href: rooms/first-time-setup.md
             - name: Authentication
               items:
+              - name: Deploy LAPs
+                href: rooms/laps-authentication.md
               - name: Configure authentication
                 href: rooms/rooms-authentication.md
               - name: Best practices for Conditional Access and Intune compliance
@@ -1550,6 +1570,10 @@ items:
           href: rooms/enrolling-mtrp-managed-service.md
         - name: Enroll a device into Pro management
           href: rooms/enroll-a-device.md
+        - name: Bring Your Own Device Rooms in Pro Management portal
+          href: rooms/bring-your-own-device.md  
+        - name: Create a one-time password
+          href: rooms/create-otp.md
         - name: Role-based access control
           href: rooms/rooms-pro-rbac.md
         - name: Monitoring and maintaining Rooms
@@ -1640,7 +1664,7 @@ items:
               href: devices/usb-devices.md
             - name: RealWear for Teams
               href: flw-realwear.md
-            - name: SmartVision
+            - name: Multi-Stream IntelliFrame
               href: devices/smartvision-admin.md
             - name: Cloud IntelliFrame
               href: devices/cloud-intelliframe.md
@@ -1716,7 +1740,7 @@ items:
         - name: Set Adobe Acrobat as default PDF viewer
           href: adobe-acrobat-pdf-viewer-teams.md
         - name: Manage M365 connectors and custom connectors
-          href: Office-365-custom-connectors.md
+          href: m365-custom-connectors.md
         - name: Auto install approved apps
           href: auto-install-approved-apps.md
 
@@ -1893,8 +1917,6 @@ items:
           href: teams-add-on-licensing/remove-assign-free-licenses.md
         - name: Microsoft Teams Shared Devices licensing
           href: teams-add-on-licensing/teams-shared-device-license.md
-        - name: Advanced Communications
-          href: teams-add-on-licensing/advanced-communications.md
         - name: Microsoft Teams Phone Resource Account license
           href: teams-add-on-licensing/virtual-user.md
         - name: Get started with Teams Essentials 

@@ -15,6 +15,8 @@ ms.collection:
   - M365-collaboration
   - remotework
   - purview-compliance
+  - essentials-security
+  - essentials-compliance
 f1.keywords:
   - CSH
 ms.custom: 
@@ -194,7 +196,7 @@ For information on determining the licensing needs to implement features for sec
 
 ## Location of data in Teams
 
-Data in Teams resides in the geographic region associated with your Microsoft 365 or Office 365 organization. To see what regions are supported currently, please review [Location of data in Microsoft Teams](location-of-data-in-teams.md).
+Data in Teams resides in the geographic region associated with your Microsoft 365 or Office 365 organization. To see what regions are supported currently, please review [Location of data in Microsoft Teams](privacy/location-of-data-in-teams.md).
 
 If you need to see which region houses data for your tenant, go to the [Microsoft 365 admin center](https://portal.office.com/adminportal/home) > **Settings** > **Organization profile**. Scroll down to **Data location**.
 
