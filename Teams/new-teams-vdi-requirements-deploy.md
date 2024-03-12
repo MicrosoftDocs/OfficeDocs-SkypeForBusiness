@@ -77,7 +77,7 @@ HKLM\SOFTWARE\Microsoft\Teams:
 
 Windows 365 uses AV optimization provided by Azure Virtual Desktop to ensure optimal Teams experiences from Cloud PCs. To learn more on requirements and installation, see [Use Teams on Cloud PC](/windows-365/enterprise/teams-on-cloud-pc).
 
-The Windows 10/11 images in the gallery are preconfigured with required optimization components. When you install and use Microsoft Teams in your cloud PC, you get an optimized experience. A new image with the new Teams client will be added to the gallery in a few weeks.
+The Windows 10/11 images in the gallery are preconfigured with required optimization components. When you install and use Microsoft Teams in your Cloud PC, you get an optimized experience. A new image with the new Teams client will be added to the gallery in a few weeks.
 
 If you want to create custom images that include optimizations for Microsoft Teams, you need to perform the steps described in [Create a custom Cloud PC image to support Microsoft Teams](/windows-365/enterprise/create-custom-image-support-teams).
 
