@@ -30,11 +30,11 @@ description: Learn how to limit presenter role permissions and capabilities in y
 
 In Microsoft Teams meetings and events, presenters have responsibilities related to presenting, sharing content and  collaborating within the meeting. Presenters can mute attendees, change roles within the meeting, manage the lobby, and more.
 
-If a meeting organizer has **Who can present** set to **Everyone** in their meeting options, anyone who has access to the meeting link joins the meeting as a presenter.  When meeting organizers have **Who can present** set to **People in my organization** in their meeting options, anyone in their org who accesses the meeting link joins the meeting as a presenter. These meeting option configurations can lead to attendees who are presenters by default having too many controls when they attend meetings. Even though event organizers choose presenters when creating the invite, they might want their presenters to focus on delivering the presentation and engaging with attendees.
+If a meeting organizer has **Who can present** set to **Everyone** in their meeting options, anyone who has access to the meeting link joins the meeting as a presenter.  When meeting organizers have **Who can present** set to **People in my organization** in their meeting options, anyone in their org who accesses the meeting link joins the meeting as a presenter. These meeting option configurations can lead to attendees who are presenters by default having too many controls when they attend meetings. Event organizers select presenters when they create the invite, but they might want their presenters to focus on giving the presentation and engaging with attendees.
 
 As an admin, you can limit presenter role permissions for your tenant. Limiting presenter role permissions only applies to personal accounts, excluding Meeting Teams Rooms.
 
-For a complete table of the permissions presenters have when you restrict their role permissions,see the [Presenter capabilities](#presenter-capabilities) section in this article.
+For a complete table of the permissions presenters have when you restrict their role permissions, see the [Presenter capabilities](#presenter-capabilities) section in this article.
 
 To learn more about the roles meeting organizers can assign, see [Roles in Microsoft Teams meetings](https://support.microsoft.com/office/roles-in-microsoft-teams-meetings-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
 
