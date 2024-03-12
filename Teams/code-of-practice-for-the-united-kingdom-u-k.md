@@ -108,7 +108,7 @@ All usage charges for Premium Rate Services can be found on our [website](https:
 
 Telephone Preference Service ("TPS"), which is operated by the Direct Marketing Association on behalf of Ofcom, is a register that enables customers to opt-out of receiving unsolicited sales calls. If you would like to register with the TPS, you may do so at [https://www.tpsservices.co.uk/tps-services-for-consumers/register-on-the-tps.aspx](https://www.tpsservices.co.uk/tps-services-for-consumers/register-on-the-tps.aspx) or by calling 0843 005 9576.
 
-Like TPS, Fax Preference Service ("FPS") is a register where businesses and individuals may opt-out of receiving unsolicited sales and market faxes. You may register with FPS by calling 0843 005 9576 or online at [https://secure.dma.org.uk/cgi-bin/session.pl?reg_option=fps](https://secure.dma.org.uk/cgi-bin/session.pl?reg_option=fps).
+Like TPS, Fax Preference Service ("FPS") is a register where businesses and individuals may opt-out of receiving unsolicited sales and market faxes. You may register with FPS by calling 0345 070 0702 or online at [https://www.fpsonline.org.uk/](https://www.fpsonline.org.uk/).
 
 ### Internet dialler protection
 
