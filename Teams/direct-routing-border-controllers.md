@@ -159,11 +159,12 @@ The following table describes which SBC vendors support [Local Media Optimizatio
 |[Avaya](https://documentation.avaya.com/en-US/bundle/WorkingWithAvayaSBCEandMicrosoftTeams_r81x/page/About_Avaya_SBCE_and_MS_Teams.html)|Avaya Session Border Controller for Enterprise (ASBCE)|10.1.2 or higher|
 |[Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|NetMatch-S CI|5.7 or higher SW version|
 |[Enghouse Networks](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|Enghouse BorderNet|3.9.2-XY or higher SW version|
+
 ## Direct Routing and analog devices interoperability
 
 The following table lists devices that are verified for interoperability between Direct Routing and Analog Devices.
 
-|Vendor|Product|Verified
+|Vendor|Product|Verified|
 |---|---|---|
 |[AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)|[ATA-1](https://www.audiocodes.com/media/2373/mp-1xx-and-mp-124-datasheet.pdf)|&#10004;|
 |[AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)|[ATA-2](https://www.audiocodes.com/media/2399/mediapack-20x-mp-20x-analog-telephone-adapters-datasheet.pdf)|&#10004;|
