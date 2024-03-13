@@ -686,6 +686,8 @@ items:
               href: view-only-meeting-experience.md
             - name: Meeting invitations
               href: customize-meeting-invitations.md
+            - name: Privacy statement in meeting join experience
+              href: meeting-privacy-statement.md
             - name: Manage feedback surveys for anonymous participants
               href: meeting-surveys-anonymous-participants.md
         - name: Standardized meetings
