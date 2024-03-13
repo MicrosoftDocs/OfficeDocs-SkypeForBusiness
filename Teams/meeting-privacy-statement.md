@@ -1,5 +1,5 @@
 ---
-title: Customize your organization's privacy statement in the meeting join experience
+title: Customize and display your privacy statement in the meeting join experience
 author: lana-chin
 ms.author: v-chinlana
 manager: jtremper
@@ -11,7 +11,7 @@ search.appverid: MET150
 searchScope:
   - Microsoft Teams
 audience: admin
-description: Learn how to control whether anonymous participants who join Teams meetings hosted by your organization receive surveys to provide feedback to Microsoft about their meeting experience. 
+description: Learn how to customize and display a link to your organization's privacy statement in the Teams meeting join experience. 
 ms.localizationpriority: medium
 ms.collection: 
 - M365-collaboration
@@ -22,13 +22,13 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Customize your organization's privacy statement in the meeting join experience
+# Customize and display your privacy statement in the meeting join experience
 
 **APPLIES TO:** ✔️Meetings ✖️Webinars ✖️Town halls
 
-Microsoft Teams enables businesses to schedule and conduct business-to-customer engagements with customers, clients, and other people outside your organization as well as with employees within your organization. When attendees join Teams meetings, especially in external engagements, there's a need to inform them of the organization's privacy statement.
+Microsoft Teams enables businesses to schedule and conduct business-to-customer engagements with customers, clients, and other people outside your organization, as well as with employees within your organization. When attendees join Teams meetings, especially in external engagements, it's important to inform them of your organization's privacy statement.
 
-You can customize and display a privacy statement link in the Teams meeting join experience to ensure attendees are aware of your organization's privacy guidelines before they join a meeting.
+You can customize and display a link to your organization's privacy statement in the Teams meeting join experience to ensure attendees are aware of your organization's privacy guidelines before they join a meeting.
 
 ## Set your organization's privacy statement
 
@@ -41,6 +41,8 @@ Global admins can configure the privacy statement for your organization in the M
 
 ## Meeting join experience
 
-After it's set up, the privacy statement link is shown to attendees in the lower-left corner of the meeting join experience. When internal or external attendees join using the Teams meeting link in the meeting invitation or from the Teams or Outlook calendar, they can go the privacy statement link to view your organization's privacy statement.
+After it's set up, the privacy statement link is shown to attendees in the lower-left corner of the meeting join experience. When external and internal attendees join using the Teams meeting link in their meeting invitation or from their Teams or Outlook calendar, they can go the privacy statement link to view your organization's privacy statement.
 
-:::image type="content" source="media/meeting-privacy-statement-experience.png" alt-text="Screenshot of the meeting join experience in Teams, showing the privacy statement link." lightobx="media/meeting-privacy-statement-experience.png":::
+:::image type="content" source="media/meeting-privacy-statement-experience.png" alt-text="Screenshot of the meeting join experience in Teams, showing the privacy statement link." lightbox="media/meeting-privacy-statement-experience.png":::
+
+With this capability, organizations can ensure that a relevant privacy statement is available to external and internal attendees before they join a meeting.
