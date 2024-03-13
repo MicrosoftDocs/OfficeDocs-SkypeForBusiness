@@ -81,7 +81,7 @@ By default, all users have permissions to create a team. To modify this, see [As
 
 This video shows the steps to view and manage a user's team membership.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53x1L?autoplay=false]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1c55m?autoplay=false]
 
 ## Channel feature comparison
 
