@@ -56,7 +56,7 @@ All apps aren't customizable. If an app developer allows customization of their 
 
 To find out all customizable apps in the Teams store, sort the **Customizable** column.
 
-## Understand types of customization
+## Understand types of customizations
 
 A customizable app can be customized in two ways depending on your organization's needs:
 
