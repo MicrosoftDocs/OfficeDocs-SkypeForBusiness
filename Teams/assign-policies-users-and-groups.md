@@ -160,7 +160,7 @@ To change the ranking of a group assignment, you need to remove the group policy
 
 This video shows the steps to create and assign a custom meeting policy to a group.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53Ws0?autoplay=false]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1ca7M?autoplay=false]
 
 
 ### Install and connect to the Microsoft Teams PowerShell module
