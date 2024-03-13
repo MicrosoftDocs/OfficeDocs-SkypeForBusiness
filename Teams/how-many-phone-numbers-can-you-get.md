@@ -34,7 +34,7 @@ When you're looking for and getting telephone numbers from Microsoft for your or
 
 How you acquire and manage telephone numbers differs depending on your PSTN connectivity option: Microsoft Calling Plans, Operator Connect, Teams Phone Mobile, or Direct Routing. For more information, see [Manage telephone numbers for your organization](manage-phone-numbers-landing-page.md).
 
-For information about Teams Phone and Audio Conferencing licensing, see [Add-on licenses](/teams-add-on-licensing/microsoft-teams-add-on-licensing.md). For more information about Calling Plans, see [Microsoft Calling Plans](calling-plans-for-office-365.md).
+For information about Teams Phone and Audio Conferencing licensing, see [Add-on licenses](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). For more information about Calling Plans, see [Microsoft Calling Plans](calling-plans-for-office-365.md).
 
 The following table applies to Microsoft Calling Plans, [Audio Conferencing](deploy-audio-conferencing-teams-landing-page.md), and voice apps, such as [Call Queues and Auto Attendants](plan-auto-attendant-call-queue.md). For information about Operator Connect, Teams Phone Mobile, or Direct Routing, contact your service provider.
 
