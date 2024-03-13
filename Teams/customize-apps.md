@@ -8,7 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
-ms.date: 03/15/2024
+ms.date: 03/14/2024
 ms.reviewer: eddieqiao
 ms.collection: 
   - M365-collaboration
@@ -62,13 +62,13 @@ A customizable app can be customized in two ways depending on your organization'
 
 1. **[Default customization](#create-a-default-customization-for-an-app)**: Customize an app for all users to receive a single customized version with constant appearance for all users.
 
-1. **[Additional customization](#create-additional-customization-to-provide-to-different-users)**: Create multiple customizations of the same app and let users or groups receive differently customized app.
+1. **[Additional customization](#create-additional-customizations-to-provide-to-different-users)**: Create multiple customizations of the same app and let users or groups receive differently customized app.
 
 | Requirements, considerations, and behavior | Default customization                                       | Additional customizations                                                      |
 |:-------------------------------------------|:------------------------------------------------------------|:-------------------------------------------------------------------------------|
 | When to use the customization              | All app users need the same customized appearance of an app | Different users or groups need differently customized versions of the same app |
 | Who receives the customized app            | Every user who is allowed to use the app                    | Selected users who are assigned using app setup policy.                        |
-| Impact on the app in the app catalog       | Changes are visible such as updated name                    | Not visible in the app catalog.                                                |
+| Changes to the app in  the app catalog     | Changes are visible such as updated name                    | Not visible in the app catalog.                                                |
 | Where to do it in the admin center         | Manage apps page or app details page                        | App details page only                                                          |
 | How do users receive the customized app    | Automatically                                               | You assign users to setup policy and setup policy to customizations.           |
 
@@ -94,7 +94,7 @@ To change the look and feel of an app in your organization's Teams store, follow
 
    :::image type="content" source="media/customize-settings.png" alt-text="The screenshot displays name and description on the user interface to customize app listing.":::
 
-1. After customizing the app, select **Apply**. To verify the changes that you do, see [preview app details](#preview-app-customizations). To undo the changes, see [reset app details to default values](#reset-app-details-to-default-values).
+1. After customizing the app, select **Apply**. To verify the changes that you do, see [preview app details](#preview-default-customization-of-an-app). To undo the changes, see [reset app details to default values](#reset-app-details-to-default-values).
 
 1. Select **Publish** to publish the customized app to your organization's store.
 
@@ -116,11 +116,11 @@ After a few hours, your Teams users can see the customized app in the Teams stor
 
    :::image type="content" source="media/contoso-app.png" alt-text="The screenshot shows a customized app in Teams client.":::
 
-## Create additional customization to provide to different users
+## Create additional customizations to provide to different users
 
 If the app developer allows any customization, you can specifically create multiple customizations of the same app that lets various users or user groups to receive differently customized app. For example, app users across your current organization and your acquired organization can use the same app but also see the app with different brand logos that they relate with. It helps you as an admin in the following ways:
 
-* You can provide customized apps that all of your users can relate with. 
+* You can provide customized apps that all of your users can relate with.
 * It helps your app adoption efforts succeed as users with varied needs and trust towards different corporate branding trust the app that you make available.
 
 To create additional customizations of an app, follow these steps:
@@ -133,13 +133,13 @@ To create additional customizations of an app, follow these steps:
 
    :::image type="content" source="media/additional-app-customization1.png" alt-text="Screenshot showing the UI to create additional customizations for an app in the app details page.":::
 
-1. If you're creating this customization for the first time then select **Add a customization** otherwise select **Add**.
+1. If you're creating this customization for the first time, select **Add a customization** otherwise select **Add**.
 
    :::image type="content" source="media/add-app-customizations.png" alt-text="Screenshot showing the option to create a new app customization option.":::
 
 1. In the left sidebar, provide the updated values of the app information that you want to customize. Select **Apply**.
 
-1. After it is created, select the additional customization and select **Manage assignments**.
+1. After it's created, select the additional customization and select **Manage assignments**.
 
 1. Search for and select the appropriate app setup policy to apply to the additional customization. Users who are assigned to this setup policy receive the additional customization. Select **Close**.
 
