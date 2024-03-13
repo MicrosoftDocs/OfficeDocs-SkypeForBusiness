@@ -29,23 +29,21 @@ This article is for IT Pros and administrators who want to delegate certain Auto
 
 ## Benefits
 
-Through **authorized users**, you enable users in your organization—for example, business owners, team leads, supervisors of call queues--to manage day-to-day operational changes directly. This includes changes such as updating business hours, holiday greetings, and after hours call routing.
+Through **Authorized users**, you enable users in your organization—for example, business owners, team leads, supervisors of call queues--to manage day-to-day operational changes directly.
 
-## Requirements
+For example, authorized users can configure business hours, holiday greetings, and after hours call routing for Auto attendants and Call queues. For features only available with Teams Premium, authorized users can also configure business, after hours, and holiday call routing and they can view real-time and historical metrics for Auto attendants and Call queues all within the Queues app in the Teams client.
 
-For basic configuration features, authorized users must have a user phone number and Teams Phone license assigned to them and authorized users must be “voice enabled". For advanced configuration features located in the Customer Calls app, you must assign a Teams Phone and Teams Premium license to authorized users. For a list of features that require a Teams Premium license, see [Licensing requirements for configuration features](#licensing-requirements-for-configuration-features).
+For a complete list of features, see [Manage voice applications policies](manage-voice-applications-policies.md).
 
-Keep in mind the following:
+## Licensing requirements
 
-- An authorized user has the same capabilities across the Auto attendant and Call queues they're authorized for.
-- You can only assign one voice applications policy per user.
-- You can't delegate an authorized user to perform the following actions:
-  - Create or delete Auto attendants or Call queues
-  - Manage Resource Accounts
-  - Change the calling ID used in Call queue
-  - Change the call queue overflow limit or agent timeout values
+All Authorized users must have a Teams Phone license. For some configuration features, users must also have a Teams Premium license. For information about which features require Teams Premium, see [Manage voice applications policies](manage-voice-applications-policies.md).
 
-## Steps for setting up authorized users
+For more information about assigning licenses, see [Set up Auto attendant and Call queue authorized users](aa-cq-authorized-users.md).
+
+**add info about voice enablement**
+
+## Overview of steps for setting up authorized users
 
 To create an authorized user, you must complete the following steps:  
 
@@ -55,29 +53,30 @@ To create an authorized user, you must complete the following steps:
 - Step 4 - Assign the voice applications policy to the user
 - Step 5 - Create an Auto attendant or Call queue and assign licensed resource accounts
 - Step 6 - Assign authorized users to the relevant Auto attendant or Call queue
+- Step 7 - Set up the Customer Calls app for authorized users (optional)
 
 For information on configuring these steps, see [Set up authorized users](aa-cq-authorized-users.md).
 
-## Configuration features
+## What can authorized users configure
 
-Basic configuration features for Auto attendants and Call queues are available to all authorized users with a Teams Phone license. However, advanced configuration features require a Teams Premium license.
+Configuration features for Auto attendants and Call queues are available to all authorized users with a Teams Phone license. However, some configuration features also require a Teams Premium license. For information about which features require Teams Premium, see [Manage voice applications policies](manage-voice-applications-policies.md).
 
 ### Auto attendants
 
 You can delegate an authorized user to perform some or all of the following configuration tasks for Auto attendants:
 
-| Configuration feature | Teams Premium license required |
+| Feature | Teams Premium license required |
 |-----------------------|--------------------------------|
-|Business hours greeting|✖️|
-|After hours greeting|✖️|
-|Holiday greeting|✖️|
+|Business hours greeting||
+|After hours greeting||
+|Holiday greeting||
 |Business hours|✔️|
 |Holiday dates and hours|✔️|
 |Business hours call routing|✔️|
 |After hours call routing|✔️|
 |Holiday hours call routing|✔️|
 |Real-time auto attendant metrics|✔️|
-|Historical auto attendant metrics|✖️ Using Power BI<br>✔️ Using Customer Calls app|
+|Historical auto attendant metrics|✖️[TEXT EXPLANATION] Using Power BI<br>✔️ Using Customer Calls app|
 
 For more information about these configuration features, see [Manage voice applications policies](manage-voice-applications-policies.md).
 
@@ -87,11 +86,11 @@ You can delegate an authorized user to perform some or all of the following conf
 
 | Configuration feature | Teams Premium license required |
 |-----------------------|--------------------------------|
-|Welcome greeting|✖️|
-|Music on Hold|✖️|
-|Shared voicemail greeting for call overflow|✖️|
-|Shared voicemail greeting for call timeout|✖️|
-|Shared voicemail greeting for no agents|✖️|
+|Welcome greeting||
+|Music on Hold||
+|Shared voicemail greeting for call overflow||
+|Shared voicemail greeting for call timeout||
+|Shared voicemail greeting for no agents||
 |Membership|✔️|
 |Conference mode|✔️|
 |Agent routing method|✔️|
@@ -103,8 +102,8 @@ You can delegate an authorized user to perform some or all of the following conf
 |Routing for no agents|✔️|
 |Real-time call queue metrics|✔️|
 |Real-time agent metrics|✔️|
-|Historical call queue metrics|✖️ Using Power BI<br>✔️ Using Customer Calls app|
-|Historical agent metrics|✖️ Using Power BI<br>✔️ Using Customer Calls app|
+|Historical call queue metrics|✖️ [TEXT EXPLANATION] Using Power BI<br>✔️ Using Customer Calls app|
+|Historical agent metrics|✖️ [TEXT EXPLANATION] Using Power BI<br>✔️ Using Customer Calls app|
 
 For more information about these configuration features, see [Manage voice applications policies](manage-voice-applications-policies.md).
 
