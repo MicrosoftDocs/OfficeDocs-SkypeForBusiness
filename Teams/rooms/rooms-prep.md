@@ -27,7 +27,7 @@ ms.custom: seo-marvel-apr2020
 
 This section contains an overview of the steps required to prepare your environment so that you can use all of the features of Microsoft Teams Rooms.
   
-1. Prepare a resource account for each Microsoft Teams Rooms device. See [Deploy Microsoft Teams Rooms](rooms-deploy.md) for details.
+1. Prepare a resource account for each Microsoft Teams Rooms device. See [Deploy Microsoft Teams Rooms](rooms-deploy.md) for details
     
 2. Ensure that there's a working network/Internet connection for the device to use with access to all required URLs and IPs, further guidance can be found here: [Network Security](security.md#network-security)
   
@@ -48,9 +48,9 @@ In order to function properly, Microsoft Teams Rooms devices must have access to
 
 - Review network bandwidth and quality of service (QoS) requirements: [QoS on Teams Devices](/microsoftteams/devices/qos-on-teams-devices)
 
-- If your organization utilizes a proxy, you need the proxy address or proxy auto-configuration (PAC) file url.
+- If your organization utilizes a proxy, you need the proxy address or proxy autoconfiguration (PAC) file url
 
-- If your organization utilizes certificates for network access, you will need those for a successful setup.
+- If your organization utilizes certificates for network access, you need the certificates for a successful setup
 
 
 > [!IMPORTANT]
@@ -69,17 +69,17 @@ Your Microsoft Teams Rooms device uses certificates for Microsoft Teams, network
 
 #### Proxy for Teams Rooms on Windows
 
-This guidance is for manual configuration, this can also be automated using Intune configurations on your devices ensure these configurations are consistent across a large scale deployment.
+This guidance is for manual configuration. This can also be automated using Intune configurations on your devices ensure these configurations are consistent across a large scale deployment.
 
 ##### Skype User Registry Hive
 
-1. In the Microsoft Teams Rooms UI, select on the Settings gear icon where you'll be prompted for the local Administrator password on the device (the default password is **sfb**).
-2. Tap on **Settings** followed by tapping on the **Go to Windows** button and then tapping on the **go to Admin Sign In** button and then clicking the **Administrator** button (if the computer is Entra ID joined choose **Other User,** then use .\admin as the user name).
-3. In the **Search Windows** box bottom left type in regedit (either long press the screen or right select and choose **Run as administrator**).
-4. Select on the HKEY_USERS folder (you'll see a list of machine user SIDs) ensure the root folder HKEY_USERS is selected.
-5. Select on File and then choose **Load Hive.**
+1. In the Microsoft Teams Rooms UI, select on the Settings gear icon where you'll be prompted for the local Administrator password on the device (the default password is **sfb**)
+2. Tap on **Settings** followed by tapping on the **Go to Windows** button and then tapping on the **go to Admin Sign In** button and then clicking the **Administrator** button (if the computer is Entra ID joined choose **Other User,** then use .\admin as the user name)
+3. In the **Search Windows** box bottom left type in regedit (either long press the screen or right select and choose **Run as administrator**)
+4. Select on the HKEY_USERS folder (you'll see a list of machine user SIDs) ensure the root folder HKEY_USERS is selected
+5. Select on File and then choose **Load Hive**
 6. Browse to the **C:\Users\Skype** folder and type in the File name box NTUSER.dat and press the open button
-7. You'll be prompted for a Key Name for your newly loaded Hive; type in Skype (you should now see the registry settings for the Skype User).
+7. You'll be prompted for a Key Name for your newly loaded Hive; type in Skype (you should now see the registry settings for the Skype User)
 8. Open the Skype key and browse to HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings then ensure these settings are entered: 
     
     ```console
@@ -91,7 +91,7 @@ This guidance is for manual configuration, this can also be automated using Intu
     
     If ProxyServer doesn't exist you may have to add this key as a string, change the xx.xx.xx.xx:8080 to the ip/host and port of your Proxy server.
  
-    If the customer is using a PAC file the configuration would look like the example below:
+    A completed configuration would look like this example:
 
      ```console
     [HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
@@ -100,14 +100,13 @@ This guidance is for manual configuration, this can also be automated using Intu
     "AutoConfigURL"=http://contosoproxy.corp.net/proxy.pac
     ```
     
-9. Once you're finished making your changes highlight the Skype User key (root folder for Skype) and choose unload Hive from the Registry file menu (you'll be prompted for confirmation - select **Yes**).   
-10. You can now close the registry editor and type logoff into the Windows search box.  
-11. Back at the sign-in screen, choose the **Skype** user. If all the previous steps were successful, the Microsoft Teams Rooms device will sign-in successfully.
+9. Once you're finished making your changes highlight the Skype User key (root folder for Skype) and choose unload Hive from the Registry file menu (you'll be prompted for confirmation - select **Yes**)
+10. You can now close the registry editor and reboot your Teams Room 
     
 ##### Windows System Proxy
 
-1. In the Microsoft Teams Rooms UI, select on the Settings gear icon where you'll be prompted for the local Administrator password on the device (the default password is **sfb**).
-2. Tap on **Settings** followed by tapping on the **Go to Windows** button and then tapping on the **go to Admin Sign In** button and then clicking the **Administrator** button (if the computer is Entra ID joined choose **Other User,** then use .\admin as the user name).
+1. In the Microsoft Teams Rooms UI, select on the Settings gear icon where you'll be prompted for the local Administrator password on the device (the default password is **sfb**)
+2. Tap on **Settings** followed by tapping on the **Go to Windows** button and then tapping on the **go to Admin Sign In** button and then clicking the **Administrator** button (if the computer is Entra ID joined choose **Other User,** then use .\admin as the user name)
 3. In the **Search Windows** box bottom left type in 'Settings'
 4. Select 'Network & internet'
 5. Select 'Proxy'
@@ -116,8 +115,8 @@ This guidance is for manual configuration, this can also be automated using Intu
 
 ##### Pro Management Agent Proxy
 
-1. In the Microsoft Teams Rooms UI, select on the Settings gear icon where you'll be prompted for the local Administrator password on the device (the default password is **sfb**).
-2. Tap on **Settings** followed by tapping on the **Go to Windows** button and then tapping on the **go to Admin Sign In** button and then clicking the **Administrator** button (if the computer is Entra ID joined choose **Other User,** then use .\admin as the user name).
+1. In the Microsoft Teams Rooms UI, select on the Settings gear icon where you'll be prompted for the local Administrator password on the device (the default password is **sfb**)
+2. Tap on **Settings** followed by tapping on the **Go to Windows** button and then tapping on the **go to Admin Sign In** button and then clicking the **Administrator** button (if the computer is Entra ID joined choose **Other User,** then use .\admin as the user name)
 3. In the Windows ***Search*** field (bottom-left section of the screen), enter **cmd** (either long press the screen or right select, and choose ***Run as administrator***).
 4. Run the following command (double quotes at end of command are important):
 
@@ -139,7 +138,7 @@ This guidance is for manual configuration, this can also be automated using Intu
 
 #### Proxy on Teams Rooms on Android
 
-Proxy settings on Teams Rooms on Android vary by device manufacturer, please consult your OEM documentation for how to best configure your Teams Rooms on Android device for a network with a proxy.
+Proxy settings on Teams Rooms on Android vary by device manufacturer. Consult OEM documentation for how to best configure Teams Rooms on Android devices for a network with a proxy.
 
 ## Admin group management
 
