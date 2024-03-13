@@ -1,8 +1,8 @@
 ---
 title: Proximity Join
-author: v-smandalika
-ms.author: v-smandalika
-manager: dansimp
+author: mstonysmith
+ms.author: tonysmit
+manager: pamgreen
 ms.date: 02/07/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -10,15 +10,15 @@ ms.service: msteams
 ms.subservice: itpro-rooms
 audience: Admin
 ms.collection: 
-  - M365-collaboration
   - teams-rooms-devices
-  - Tier3
+  - Teams_ITAdmin_Devices
+  - Tier1
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to use Proximity Join to nudge your meeting room into MTR for an optimum meeting room experience
-f1keywords: 
+f1keywords: NOCSH
 ---
 
 # Proximity Join
