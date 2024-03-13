@@ -114,7 +114,7 @@ To view the changes after saving the customizations, view the app details page.
 
 After a few hours, your Teams users can see the customized app in the Teams store in their client (web, mobile, and desktop).
 
-   :::image type="content" source="media/contoso-app.png" alt-text="The screenshot shows a customized app in Teams client.":::
+   :::image type="content" source="media/customized-app-in-store.png" alt-text="The screenshot shows a customized app in Teams client.":::
 
 ## Create additional customizations to provide to different users
 
