@@ -55,7 +55,8 @@ To change the usage of a phone number by using the Teams admin center:
 
    If you don't see a **Change usage** option, check the following:
 
-   - Make sure you're selecting an **unassigned** number before trying to change its usage; otherwise, the option isn't visible. If the number is currently assigned, you need to [remove the phone number from a user](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user#remove-a-phone-number-from-a-user) or resource account first.
+   - Make sure you're selecting an unassigned number before trying to change its usage. The value of the **Assignment status** column should be **Unassigned.** Otherwise, the option isn't visible. 
+   - If the number is currently assigned, you need to [remove the phone number from a user](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user#remove-a-phone-number-from-a-user) or resource account first. To unassign a number from a conference bridge, see [Change numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#steps-when-youre-unassigning-a-service-phone-number-for-a-conferencing-bridge).
    - You must have more than one type of usage in the **Available usages** column. Otherwise, you can't change the number type through the Teams admin center.
 
 4. In the **Change usage** pane, open the list of available usages for the phone number, and then select the intended option.
