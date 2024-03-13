@@ -141,9 +141,11 @@ To create additional customizations of an app, follow these steps:
 
 1. After it's created, select the additional customization and select **Manage assignments**.
 
-1. Search for and select the appropriate app setup policy to apply to the additional customization. Users who are assigned to this setup policy receive the additional customization. Select **Close**.
+1. Search for and select the appropriate app setup policy to apply to the additional customization. Users who are assigned to this setup policy receive the additional customization. Select **Close**. A policy must not be assigned to another additional customization of the same app.
 
    :::image type="content" source="media/app-customization-assign-setup-policy.png" alt-text="Screenshot showing the manage assignments option that is used to apply a setup policy to an additional customization.":::
+
+You can create up to 10 additional customizations for an app.
 
 To remove an additional customization, select it in the **Settings and Customization** tab and select **Remove**. The customization must not be assigned to any setup policy. To remove a default customization, see [reset default customization of an app](#reset-app-details-to-default-values).
 
@@ -186,7 +188,7 @@ The limitations on some of the customizable fields are:
 | Icon                                | Transparent outline icon in PNG format that is 32x32 pixels in resolution. |
 | Color icon                          | Full-color icon in PNG format that is 192x192 pixels in resolution.        |
 | Accent color                        | Color must match your icon background.                                     |
-| Number of additional customizations | Can only create 10 customizations.                                         |
+| Number of additional customizations | Can only create up to 10 customizations.                                   |
 
 ## Troubleshoot app customization
 
