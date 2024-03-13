@@ -74,7 +74,7 @@ You must also set the AddressBookAvailability parameter for the corresponding po
 
 If Smart contacts list isn't functioning as expected, check the following:
 
-- Validate the configuration. 
+- Validate the configuration.
 
 - Confirm that the AD organization information is populated.
 
