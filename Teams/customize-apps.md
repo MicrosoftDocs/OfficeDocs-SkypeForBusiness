@@ -88,11 +88,11 @@ To change the look and feel of an app in your organization's Teams store, follow
 
    * Select the app name to open the app details page and then select **Actions** > **Customize**.
 
-     :::image type="content" source="media/customize-action-menu.png" alt-text="The screenshot shows an option to customize an app by opening Actions menu and selecting Customize option from the app details page." lightbox="media/customize-action-menu-expanded.png":::
+     :::image type="content" source="media/customize-action-menu.png" alt-text="Screenshot showing the option to customize an app that is available from the actions menu on the app details page.":::
 
 1. Customize one or more of the available fields. You can customize only those parameters that the admin center displays, which are the parameters that a developer allows you to modify. For the allowed values and limitations on the parameters, see [considerations and limitations of customizable fields](#considerations-and-limitations-of-app-customization).
 
-   :::image type="content" source="media/customize-settings.png" alt-text="The screenshot displays name and description on the user interface to customize app listing.":::
+   :::image type="content" source="media/customize-teams-app.png" alt-text="Screenshot showing the name and description on the user interface to customize the app listing.":::
 
 1. After customizing the app, select **Apply**. To verify the changes that you do, see [preview app details](#preview-default-customization-of-an-app). To undo the changes, see [reset app details to default values](#reset-app-details-to-default-values).
 
@@ -110,7 +110,7 @@ To view the changes after saving the customizations, view the app details page.
 
 1. View the app details, including the original app name in the field **Short name from publisher**. The field is only visible if you change the app's short name.
 
-   :::image type="content" source="media/original-app-version.png" alt-text="The screenshot shows modified short name of an app.":::
+   :::image type="content" source="media/customized-app-details.png" alt-text="The screenshot shows modified short name of an app.":::
 
 After a few hours, your Teams users can see the customized app in the Teams store in their client (web, mobile, and desktop).
 
