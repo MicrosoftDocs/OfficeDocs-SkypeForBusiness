@@ -32,7 +32,7 @@ You can customize and display a link to your organization's privacy statement in
 
 ## Set your organization's privacy statement
 
-Global admins can configure the privacy statement for your organization in the Microsoft 365 admin center.
+Tenant admins can configure your organization's privacy statement in the Microsoft 365 admin center.
 
 1. In the left navigation of the Microsoft 365 admin center, go to **Settings** > **Org Settings**, and then select the **Security & privacy** tab.
 1. Choose **Privacy profile**.
