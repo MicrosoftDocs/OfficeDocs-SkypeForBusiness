@@ -26,7 +26,7 @@ appliesto:
 
 **APPLIES TO:** ✔️Meetings ✖️Webinars ✖️Town halls
 
-Microsoft Teams enables businesses to schedule and conduct business-to-customer engagements with customers, clients, and other people outside your organization, as well as with employees within your organization. When attendees join Teams meetings, especially in external engagements, it's important to inform them of your organization's privacy statement.
+Microsoft Teams enables businesses to schedule and conduct business-to-customer engagements with customers, clients, and other people outside your organization, as well as with employees within your organization. When attendees join Teams meetings, especially in meetings with external participants, it's important to make your organization's privacy statement available to them.
 
 You can customize and display a link to your organization's privacy statement in the Teams meeting join experience to ensure attendees are aware of your organization's privacy guidelines before they join a meeting.
 
