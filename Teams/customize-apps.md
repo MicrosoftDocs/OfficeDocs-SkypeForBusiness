@@ -8,7 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
-ms.date: 01/15/2024
+ms.date: 03/15/2024
 ms.reviewer: eddieqiao
 ms.collection: 
   - M365-collaboration
@@ -56,7 +56,23 @@ All apps aren't customizable. If an app developer allows customization of their 
 
 To find out all customizable apps in the Teams store, sort the **Customizable** column.
 
-## Customize an app
+## Understand types of customization
+
+A customizable app can be customized in two ways depending on your organization's needs:
+
+1. **[Default customization](#create-a-default-customization-for-an-app)**: Customize an app for all users to receive a single customized version with constant appearance for all users.
+
+1. **[Additional customization](#create-additional-customization-to-provide-to-different-users)**: Create multiple customizations of the same app and let users or groups receive differently customized app.
+
+| Requirements, considerations, and behavior | Default customization                                       | Additional customizations                                                      |
+|:-------------------------------------------|:------------------------------------------------------------|:-------------------------------------------------------------------------------|
+| When to use the customization              | All app users need the same customized appearance of an app | Different users or groups need differently customized versions of the same app |
+| Who receives the customized app            | Every user who is allowed to use the app                    | Selected users who are assigned using app setup policy.                        |
+| Impact on the app in the app catalog       | Changes are visible such as updated name                    | Not visible in the app catalog.                                                |
+| Where to do it in the admin center         | Manage apps page or app details page                        | App details page only                                                          |
+| How do users receive the customized app    | Automatically                                               | You assign users to setup policy and setup policy to customizations.           |
+
+## Create a default customization for an app
 
 To change the look and feel of an app in your organization's Teams store, follow these steps:
 
@@ -84,7 +100,7 @@ To change the look and feel of an app in your organization's Teams store, follow
 
 The app is listed in the **Manage apps** page and in Teams store and client (available via web, mobile, or desktop client) with the updated details. The modifications take a few hours to display.
 
-## Preview app customizations
+## Preview default customization of an app
 
 To view the changes after saving the customizations, view the app details page.
 
@@ -100,47 +116,77 @@ After a few hours, your Teams users can see the customized app in the Teams stor
 
    :::image type="content" source="media/contoso-app.png" alt-text="The screenshot shows a customized app in Teams client.":::
 
+## Create additional customization to provide to different users
+
+If the app developer allows any customization, you can specifically create multiple customizations of the same app that lets various users or user groups to receive differently customized app. For example, app users across your current organization and your acquired organization can use the same app but also see the app with different brand logos that they relate with. It helps you as an admin in the following ways:
+
+* You can provide customized apps that all of your users can relate with. 
+* It helps your app adoption efforts succeed as users with varied needs and trust towards different corporate branding trust the app that you make available.
+
+To create additional customizations of an app, follow these steps:
+
+1. Sign in to the Teams admin center and access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
+
+1. Ensure that the app that you want to customize supports customization. See [check if a Teams app is customizable](#verify-if-an-app-is-customizable).
+
+1. Click on the app name to open the app details page. Select the **Settings and Customization** tab.
+
+   :::image type="content" source="media/additional-app-customization1.png" alt-text="Screenshot showing the UI to create additional customizations for an app in the app details page.":::
+
+1. If you're creating this customization for the first time then select **Add a customization** otherwise select **Add**.
+
+   :::image type="content" source="media/add-app-customizations.png" alt-text="Screenshot showing the option to create a new app customization option.":::
+
+1. In the left sidebar, provide the updated values of the app information that you want to customize. Select **Apply**.
+
+1. After it is created, select the additional customization and select **Manage assignments**.
+
+1. Search for and select the appropriate app setup policy to apply to the additional customization. Users who are assigned to this setup policy receive the additional customization. Select **Close**.
+
+   :::image type="content" source="media/app-customization-assign-setup-policy.png" alt-text="Screenshot showing the manage assignments option that is used to apply a setup policy to an additional customization.":::
+
+To remove an additional customization, select it in the **Settings and Customization** tab and select **Remove**. The customization must not be assigned to any setup policy. To remove a default customization, see [reset default customization of an app](#reset-app-details-to-default-values).
+
 ## Considerations and limitations of app customization
 
 Consider the following details about app customization functionality:
 
-* You can only customize [third-party apps](apps-in-teams.md#third-party-apps-created-by-independent-app-developers) and not [custom apps](apps-in-teams.md#custom-apps-created-within-an-organization-for-internal-use).
+* You can only customize Teams store apps and not [custom apps](apps-in-teams.md#custom-apps-created-within-an-organization-for-internal-use).
 
-* An app can be customized only if the app developer allows it.
+* You can customize an app only if the app developer allows it to be customized.
 
-* Modifications to any apps are available only within your organization.
+* Your customizations and changes are available only within your organization.
 
-* Your organization's catalog contains only one version of the app as customizing an app's details doesn't create its copy.
+* When you customize apps and any description related to an app, ensure that you follow the guidelines that app developers provide in [app's documentation](manage-apps.md#support-information-for-apps) or in their terms of use. Adhere to the copyright laws when using any third-party images.
 
-* When you customize apps and any description related to an app, ensure that you follow the guidelines that app developers provide in their documentation, or terms of use. Adhere to the copyright laws when using any third-party images.
+* Admin-provided customization information is stored in the nearest data storage region.
 
-* Admin-provided customization data is stored in the nearest data storage region.
+* You're responsible to ensure that the updated links to terms of use or privacy policy are valid.
 
-* You're responsible to ensure that links to terms of use or privacy policy are valid.
-
-* In case the app developer no longer allows a field to be customizable, a message appears on the app details page notifying the admin about such a field. Any changes made to the field are reverted to the original value.
+* In case the app developer no longer allows a field to be customizable, a message appears on the app details page notifying the admin. Your changes to the field revert to the value set by the developer.
 
 * We recommend testing app customization changes in a test tenant before making these changes in your production environment. To get a test tenant, follow the instructions at [create your test tenant](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant).
 
 * Updates take up to 24 hours to show in the client for all the users and admin accounts.
 
-* For an existing app to become customizable, the developer can provide a new version of the app on the Teams store.
+* To make an existing app customizable, the developer must provide a new version of the app in the Teams store.
 
-* The [app usage report](teams-analytics-and-reports/app-usage-report.md) displays the original name of the app that is provided by the publisher, even if the customized app is used by the users.
+* The [app usage report](teams-analytics-and-reports/app-usage-report.md) displays the original name of the app that the app developer provides, even if your users use the customized app.
 
-* The Microsoft Graph permission consent dialog displays the original name of the app that is provided by the publisher. It helps you to accurately identify an app while providing permissions to it.
+* The Microsoft Graph permission consent dialog displays the original name of the app that the app developer provides. It helps you to accurately identify an app when providing consent to its permissions.
 
 * Customizing an app doesn't change any app functionality.
 
 The limitations on some of the customizable fields are:
 
-| Customizable field | Consideration                                                                                   |
-|:-------------------|:------------------------------------------------------------------------------------------------|
-| Any URL fields     | Ensure valid and secure URLs using `https`.                                                     |
-| Short description  | The short description must be under 80 characters. Don't repeat what's in the full description. |
-| Icon               | Transparent outline icon in PNG format that is 32x32 pixel in resolution.                       |
-| Color icon         | Full-color icon in PNG format that is 192x192 pixel in resolution.                              |
-| Accent color       | Color must match your icon background.                                                          |
+| Customization                       | Consideration                                                              |
+|:------------------------------------|:---------------------------------------------------------------------------|
+| Any URL fields                      | Ensure valid and secure `https` URLs.                                      |
+| Short description                   | Must be under 80 characters; don't repeat the full description.            |
+| Icon                                | Transparent outline icon in PNG format that is 32x32 pixels in resolution. |
+| Color icon                          | Full-color icon in PNG format that is 192x192 pixels in resolution.        |
+| Accent color                        | Color must match your icon background.                                     |
+| Number of additional customizations | Can only create 10 customizations.                                         |
 
 ## Troubleshoot app customization
 
@@ -153,15 +199,17 @@ The limitations on some of the customizable fields are:
 
 ## Reset app details to default values
 
-You can reset your customizations to the original values provided by the app developer. The option is only available for the apps that you customize.
+You can remove the app customizations and display the original app information that is provided by the app developer.
 
-1. In Teams admin center, access **Teams Apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
+To remove an additional customization that applies to specific users, select it in the **Settings and Customization** tab and select **Remove**. The customization must not be assigned to any setup policy.
 
-1. To open the app details page, select the app name.
+To remove a default customization that applies to users of the app who aren't assigned an additional customization, follow these steps:
 
-1. From the **Actions** menu, select **Reset to default**.
+1. In Teams admin center, access **Teams Apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** and open the app details page.
 
-   :::image type="content" source="media/reset-app-customization.png" alt-text="The screenshot shows the reset to default option for a customized app.":::
+1. From the **Actions** menu, select **Reset to default** option.
+
+   :::image type="content" source="media/reset-app-customization.png" alt-text="Screenshot showing the reset to default option that removes any customizations for an app.":::
 
 ## Related articles
 
