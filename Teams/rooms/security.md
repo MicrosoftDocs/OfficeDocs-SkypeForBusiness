@@ -86,13 +86,14 @@ Teams Rooms devices include an administrative account named "Admin" with a defau
 
 The Admin account isn't required for proper operation of Teams Rooms devices and can be renamed or even deleted. However, before you delete the Admin account, make sure that you set up an alternate local administrator account configured before removing the one that ships with Teams Rooms devices. For more information on how to change a password for a local Windows account using built-in Windows tools or PowerShell, see the following:
 
+- [Configuring LAPS on Teams Rooms on Windows](/microsoftteams/rooms/laps-authentication)
 - [Change or reset your Windows password](https://support.microsoft.com/windows/change-or-reset-your-windows-password-8271d17c-9f9e-443f-835a-8318c8f68b9c)
 - [Set-LocalUser](/powershell/module/microsoft.powershell.localaccounts/set-localuser#example-2--change-the-password-on-an-account)
 
 You can also import domain accounts into the local Windows Administrator group. You can do this for Microsoft Entra accounts by using Intune. For more information, see [Policy CSP – RestrictedGroups.](/windows/client-management/mdm/policy-csp-restrictedgroups).
 
 > [!NOTE]
-> If you are using Crestron consoles, be sure to also update the Admin password on the console as well as on the compute module. For more information, contact Crestron.
+> If you are using a Crestron Teams Rooms with a network connected console, ensure you follow Crestron's guidance for how to configure the Windows account used for pairing.
 
 > [!CAUTION]
 > If you delete or disable the Admin account before granting local Administrator permissions to another local or domain account, you may lose the ability to administer the Teams Rooms device. If this happens, you'll need to reset the device back to its original settings and complete the setup process again.
@@ -142,7 +143,7 @@ For optimum performance of real time media, we strongly recommend that you confi
 > [!IMPORTANT]
 > Teams Rooms doesn't support authenticated proxy servers.
 
-Teams Rooms devices don't need to connect to an internal LAN. Consider placing Teams Rooms in a secure network segment with direct Internet access. If your internal LAN becomes compromised, the attack vector opportunities towards Teams Rooms will be reduced.
+Teams Rooms devices don't need to connect to an internal LAN. Consider placing Teams Rooms in a secure isolated network segment with direct Internet access. If your internal LAN becomes compromised, the attack vector opportunities towards Teams Rooms will be reduced.
 
 We strongly recommend that you connect your Teams Rooms devices to a wired network. The use of wireless networks requires careful planning and assessment for the best experience. For more information, see [Wireless network considerations](rooms-plan.md#wireless-network-considerations).
 
