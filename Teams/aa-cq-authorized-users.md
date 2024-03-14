@@ -121,21 +121,13 @@ To automatically pin the Queues app in the Teams client for your users, do the f
 
 ## Authorized user examples
 
-**INCLUDE PS SCENARIO**
-
 User 1 needs to be able to change Auto attendant business hours greetings and Call queue timeout shared voicemail greetings for *Auto attendant 1* and *Call queue 1*.
 
 User 2 needs to be able to change Auto attendant after hours greetings for *Auto attendant 1*.
 
 1. Create a *Teams voice applications policy* that enables the Auto attendant **Business Hours Greeting** and the Call queue **Timeout shared voicemail greeting**.
-
-    :::image type="content" source="media/voiceapplications-policies-example-01.png" alt-text="Screenshot of voice applications policy that enables Auto attendant business hours greeting changes and Call queue timeout shared voicemail greeting changes.":::
-
 1. Assign this policy to User 1.
 1. Create another *Teams voice applications policy* that enables the Auto attendant **After Hours Greeting**.
-
-    :::image type="content" source="media/voiceapplications-policies-example-02.png" alt-text="Screenshot of voice applications policy that enables Auto attendant after hours greeting changes.":::
-
 1. Assign this policy to User 2.
 1. Assign both User 1 and User 2 as *Authorized users* for *Auto attendant 1*.
 1. Assign User 1 as an *Authorized User* for *Call queue 1*.
