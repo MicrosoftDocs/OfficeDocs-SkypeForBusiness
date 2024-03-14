@@ -55,7 +55,7 @@ To learn more, see [Location of data in Microsoft Teams](../../privacy/location-
 
 ### Can Shifts data be moved in a tenant-to-tenant migration?
 
-To migrate your existing Shifts data to another tenant, you'll need to export Shifts schedules for a date range, modify user names (if necessary), and then import the schedules to the destination tenant. You can export up to 100 days of Shifts data at a time. The date range can be in the past or future. If you need to export data for a longer timeframe than 100 days, repeat the process.
+To migrate your existing Shifts data to another tenant, you need to export Shifts schedules for a date range, modify user names (if necessary), and then import the schedules to the destination tenant. You can export up to 100 days of Shifts data at a time. The date range can be in the past or future. If you need to export data for a longer timeframe than 100 days, repeat the process.
 
 Before you migrate your Shifts data, make sure the following requirements are met:
 
@@ -76,7 +76,11 @@ Here's an overview of the steps to migrate your Shifts data to another tenant.
 
 ## Data compliance and security
 
-### Purview
+### Shifts and Microsoft Purview solutions
+
+Currently, Shifts supports Microsoft 365 audit logs for Shifts events. Shifts doesn’t yet support data retention policies and/or content search for eDiscovery.
+
+To learn more about the events that are logged for Shifts activities in the Microsoft 365 audit log, see [Teams Shifts activities](/purview/audit-log-activities#microsoft-teams-shifts-activities).
 
 ### What type of encryption does Shifts use for data at rest and in transit?
 
@@ -101,7 +105,7 @@ To learn more about edit operations in Shifts, see [Teams Shifts activities](/pu
 
 #### Permanent deletion of Shifts data
 
-This capability is not natively supported in the Shifts app. The two exceptions are if you delete your tenant or delete a team in Teams that has a Shifts schedule associated with it.
+This capability isn't natively supported in the Shifts app. The two exceptions are if you delete your tenant or delete a team in Teams that has a Shifts schedule associated with it.
 
 - If you delete your tenant, all Shifts data is deleted after the retention period ends. To learn more, see [Data retention, deletion, and destruction in Microsoft 365](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
 - If you delete a team in Teams, Shifts data associated with that team is permanently deleted after the retention period ends. If you restore your team before the retention period ends, you can still restore the schedule in Shifts. To learn more, see [Restore a deleted Microsoft 365 group](/microsoft-365/admin/create-groups/restore-deleted-group) and [Manage teams in the Teams admin center](../../manage-teams-in-modern-portal.md#restore-deleted-teams).
@@ -129,7 +133,7 @@ You can recover a deleted schedule if the Microsoft 365 group that backs it or t
 
 We advise customers to use the [export Shifts schedule data capability](https://support.microsoft.com/office/export-shifts-schedule-data-8e604434-de77-4aae-8e87-561eaab902cf) in Shifts to periodically back up data for safeguarding in case of restoration issues.
 
-If a team was restored within the retention period timeframe, Shifts users on mobile devices might experience some issues when viewing their schedule data in Shifts if their Teams app version is earlier than 1416/1.0.0.2024042104 (2024042140). In this scenario, users should sign out of Teams, and then sign in again.  
+If a team was restored within the retention period timeframe, Shifts users on mobile devices might experience some issues when viewing their schedule data if their Teams app version is earlier than 1416/1.0.0.2024042104 (2024042140). In this scenario, users should sign out of Teams, and then sign in again.  
 
 If for some reason, the issues persist, follow the steps.
 
