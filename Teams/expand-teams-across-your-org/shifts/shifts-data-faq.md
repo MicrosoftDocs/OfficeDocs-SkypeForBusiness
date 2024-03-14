@@ -48,10 +48,10 @@ Examples:
 
 To see where your Teams data is stored, in the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal/), go to **Settings** > **Org settings**, choose the **Organization profile** tab, and then choose **Data location**.
 
-To learn more, see [Location of data in Teams](privacy/location-of-data-in-teams.md) and [Data residency in Teams](/microsoft-365/enterprise/m365-dr-workload-teams).
+To learn more, see [Location of data in Microsoft Teams](../../privacy/location-of-data-in-teams.md) and [Data residency in Teams](/microsoft-365/enterprise/m365-dr-workload-teams).
 
 > [!IMPORTANT]
-> Migration of existing data, if stored in a nearby region, to the region provisioned in Teams is possible. However, Shifts data is only migrated when a signal is received from the Teams side. To learn more, see [Advanced data residency in Microsoft 365]([/microsoft-365/enterprise/advanced-data-residency).
+> Migration of existing data, if stored in a nearby region, to the region provisioned in Teams is possible. However, Shifts data is only migrated when a signal is received from the Teams side. To learn more, see [Advanced data residency in Microsoft 365](/microsoft-365/enterprise/advanced-data-residency).
 
 ### Can Shifts data be moved in a tenant-to-tenant migration?
 
