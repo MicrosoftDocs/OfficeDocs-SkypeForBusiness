@@ -25,7 +25,7 @@ appliesto:
 
 # Set up phone numbers for Teams Phone Mobile
 
-This is step 3 in how to configure Teams Phone Mobile. Before reading this article, be sure you've read [Configure Teams Phone Mobile](operator-connect-mobile-configure).
+This is step 3 in how to configure Teams Phone Mobile. Before reading this article, be sure you've read [Configure Teams Phone Mobile](operator-connect-mobile-configure.md).
 
 How you set up phone numbers depends on whether you're setting up numbers for new users, or moving existing numbers from Microsoft Calling Plans, Operator Connect, or Direct Routing.  This article describes the following scenarios:
 
@@ -89,7 +89,7 @@ To move numbers from Direct Routing to Teams Phone Mobile, you'll need to comple
 
 2. [Migrate the numbers from Direct Routing to Teams Phone Mobile](#migrate-the-numbers-from-direct-routing-to-teams-phone-mobile).
 
-3. [Remove the online voice routing policy associated with your user](#remove-the-online-voice-routing-policy-associated-with-your-user).
+3. [Remove the Direct Routing online voice routing policy associated with your user](#remove-the-direct-routing-online-voice-routing-policy-associated-with-your-user).
 
 4. [Acquire phone numbers](#acquire-phone-numbers).
 
