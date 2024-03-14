@@ -35,13 +35,23 @@ This article covers frequently asked questions about Shifts data.
 
 ### Where is Shifts data stored?
 
-Shifts data is stored in one of three geographies (geos): Asia Pacific (APAC), the European Union (EU), or the United States. Each geo stores data in at least two Azure data center regions for High Availability (HA) and Disaster Recovery (DR). Today, the United States/North America geo uses data centers in North Central and South Central United States. To learn more, see [Where your Microsoft 365 customer data is stored](/microsoft-365/enterprise/o365-data-locations).
+When setting up Teams, a country/region is chosen at the subscription level. Shifts honors this selection and Shifts data is stored in the corresponding country/region specified for Teams. If the country/region specified for Teams isn't supported in Shifts, we ensure that data is stored in a nearby supported region.
 
-Currently, Shifts offers data residency locally in the following countries: Australia, Canada, France, Japan, and the United Kingdom. We're actively working to expand support to more locations.
+Shifts data is stored in one of the following region geographies (geos): Asia Pacific (APAC), European Union (EU), or United States. Within the supported geo, your Shifts data is stored in two Azure data center for High Availability (HA) and Disaster Recovery (DR) purposes.
 
-### Can I choose where Shifts data is stored?
+Additionally, Shifts offers data residency locally in Australia, Canada, France, Japan, and the United Kingdom.
 
-When you first set up Teams, you choose a country or region, which is set at the subscription level. Shifts honors this selection and uses the locale and region that's set in Teams if we support that region. If we aren't yet in that region, we store data in a nearby region that we support. In the future, we plan to migrate existing data, if stored in a nearby region, to the region that's provisioned in Teams. Shifts data is only migrated when it receives the signal from the Team service.
+Examples:
+
+- A tenant with a Microsoft 365 subscription set their country/region to France during the sign-up process. For this tenant, Shifts data is provisioned in France because Shifts supports data residency locally in France.
+- A tenant with a Microsoft 365 subscription sets their country/region to Sweden during the sign-up process. For this tenant, Shifts data is provisioned within the EU geo because Shifts doesn't support data residency locally in Sweden.
+
+To see where your Teams data is stored, in the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal/), go to **Settings** > **Org settings**, choose the **Organization profile** tab, and then choose **Data location**.
+
+To learn more, see [Location of data in Teams](privacy/location-of-data-in-teams.md) and [Data residency in Teams](/microsoft-365/enterprise/m365-dr-workload-teams).
+
+> [!IMPORTANT]
+> Migration of existing data, if stored in a nearby region, to the region provisioned in Teams is possible. However, Shifts data is only migrated when a signal is received from the Teams side. To learn more, see [Advanced data residency in Microsoft 365]([/microsoft-365/enterprise/advanced-data-residency).
 
 ### Can Shifts data be moved in a tenant-to-tenant migration?
 
@@ -83,9 +93,23 @@ We don't store immutable copies of Shifts data. For example, a manager can make 
 
 ### Can Shifts data be edited and/or permanently deleted?
 
-There are certain aspects of Shifts that can't be changed and certain aspects that can be changed. For example, shift details such as notes and colors can be edited similar to how they can be changed in the Shifts app. Shift requests can't be edited unless the request is withdrawn.
+#### Editing Shifts data
 
-To see which what fields have been changed, you can search the Microsoft 365 audit log for Shifts events. To learn more about the events that are logged for Shifts activities in the Microsoft 365 audit log, see [Shifts in Teams activities](../../audit-log-events.md#microsoft-teams-shifts-activities).
+Generally, Shifts data can be edited at any point in time. For example, a frontline manager can always edit the details of a shift assigned to a worker, such as notes, unpaid break, and hours. However, shift requests can't be edited.
+
+To learn more about edit operations in Shifts, see [Teams Shifts activities](/purview/audit-log-activities#microsoft-teams-shifts-activities).
+
+#### Permanent deletion of Shifts data
+
+This capability is not natively supported in the Shifts app. The two exceptions are if you delete your tenant or delete a team in Teams that has a Shifts schedule associated with it.
+
+- If you delete your tenant, all Shifts data is deleted after the retention period ends. To learn more, see [Data retention, deletion, and destruction in Microsoft 365](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
+- If you delete a team in Teams, Shifts data associated with that team is permanently deleted after the retention period ends. If you restore your team before the retention period ends, you can still restore the schedule in Shifts. To learn more, see [Restore a deleted Microsoft 365 group](/microsoft-365/admin/create-groups/restore-deleted-group) and [Manage teams in the Teams admin center](manage-teams-in-modern-portal#restore-deleted-teams.md).
+
+Using [Shifts Graph APIs](/graph/api/resources/shift), it's possible to [create an app using Power Apps](/powerapps/maker/) to retain data for a specified period of time. However, we don't support this natively.
+
+> [!IMPORTANT]
+> Turning off Shifts in your organization *does not* delete data. If you turn off Shifts, and then later turn on Shifts, your Shifts data is still available. 
 
 ## Data access control
 
@@ -98,14 +122,6 @@ You can use export Shifts schedule and time clock data to Excel. To learn more, 
 You can also manually delete schedule data in Shifts by either selecting individual or multiple shifts, using a right-click, long press, or other method to bring up the shortcut menu, and selecting **Delete** on that menu.
 
 To learn more, see [Office 365 Data Subject Requests for the GDPR and CCPA](/microsoft-365/compliance/gdpr-dsr-office365).
-
-### What happens to Shifts data if I turn off Shifts for my organization?
-
-Turning off Shifts in your organization *does not* delete data. If you turn off Shifts, and then later turn on Shifts, your Shifts data is still available.
-
-If you delete your tenant, all Shifts data is deleted after the retention period ends.
-
-There's no option to delete only Shifts data. If you delete a team in Teams, Shifts schedule data associated with that team is deleted after the retention period ends. To learn more, see [Data retention, deletion, and destruction in Microsoft 365](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
 
 ### Can I recover a Shifts schedule that was deleted?
 
