@@ -52,7 +52,7 @@ All apps aren't customizable. If an app developer allows customization of their 
 
 1. Search the app that you want to customize using the app name. Verify in the **Customizable** column if the app developer allows the app to be customized or not.
 
-   :::image type="content" source="media/customizable-apps-in-tac.png" alt-text="The screenshot shows that customizable column in admin center helps you verify if an app is customizable or not.":::
+   :::image type="content" source="media/customizable-apps-in-tac.png" alt-text="Screenshot showing that customizable column in admin center helps you verify if an app is customizable or not.":::
 
 To find out all customizable apps in the Teams store, sort the **Customizable** column.
 
@@ -108,11 +108,11 @@ The app is listed in the **Manage apps** page and in Teams store and client (ava
 
 To verify the changes after saving the default customizations, view the app details page. Verify that the fields that you've edited are updated. For example, the original app name in the field **Short name from publisher** is updated.
 
-   :::image type="content" source="media/customized-app-details.png" alt-text="The screenshot shows modified short name of an app.":::
+   :::image type="content" source="media/customized-app-details.png" alt-text="Screenshot showing the modified short name of an app.":::
 
 After a few hours, your Teams users can see the customized app in their Teams client store (on web, mobile, and desktop).
 
-   :::image type="content" source="media/customized-app-in-store.png" alt-text="The screenshot shows a customized app in Teams client.":::
+   :::image type="content" source="media/customized-app-in-store.png" alt-text="Screenshot showing a customized app in Teams app store in the Teams client.":::
 
 ## Create additional customizations to provide to different users
 
