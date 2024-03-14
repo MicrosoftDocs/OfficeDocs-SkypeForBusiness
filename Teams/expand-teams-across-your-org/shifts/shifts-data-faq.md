@@ -3,7 +3,7 @@ title: Shifts data FAQ
 author: lana-chin
 ms.author: v-chinlana
 manager: jtremper
-ms.date: 08/19/2021
+ms.date: 
 ms.topic: conceptual
 ms.reviewer: imarquesgil
 audience: admin
@@ -12,7 +12,7 @@ search.appverid: MET150
 searchScope: 
   - Microsoft Teams
   - Microsoft Cloud for Healthcare
-description: Get answers to frequently asked questions about Shifts data, including where Shifts data is stored, data retention, retrieval, and encryption.
+description: Get answers to frequently asked questions about Shifts data, including data storage location, data security and compliance, and data access control.
 f1.keywords: 
   - NOCSH
 localization_priority: Normal
@@ -64,6 +64,29 @@ Here's an overview of the steps to migrate your Shifts data to another tenant.
     1. In Shifts, on the **Schedule** page, go to **More options (...)** > **Import schedule**.
     1. Select **Upload file**, go to the Excel file for that team, and then select **Open**.
 
+## Data compliance and security
+
+### Purview
+
+### What type of encryption does Shifts use for data at rest and in transit?
+
+Shifts data is encrypted at rest by Azure Cosmos DB and Azure Storage. To learn more, see [Azure Data Encryption at rest](/azure/security/fundamentals/encryption-atrest) and
+[Data encryption in Azure Cosmos DB](/azure/cosmos-db/database-encryption-at-rest).
+
+Shifts follows Microsoft 365 guidelines for encryption of data in transit. To learn more, see [Encryption for data-in-transit](/compliance/assurance/assurance-encryption-in-transit).
+
+Shifts encryption of data at rest and in transit are verified yearly by the SOC2 compliance audit.
+
+### Can I access immutable copies of Shifts data?
+
+We don't store immutable copies of Shifts data. For example, a manager can make changes to a schedule, such as add notes, change shift times, assign tasks, and so on.
+
+### Can Shifts data be edited and/or permanently deleted?
+
+There are certain aspects of Shifts that can't be changed and certain aspects that can be changed. For example, shift details such as notes and colors can be edited similar to how they can be changed in the Shifts app. Shift requests can't be edited unless the request is withdrawn.
+
+To see which what fields have been changed, you can search the Microsoft 365 audit log for Shifts events. To learn more about the events that are logged for Shifts activities in the Microsoft 365 audit log, see [Shifts in Teams activities](../../audit-log-events.md#microsoft-teams-shifts-activities).
+
 ## Data access control
 
 ### Can I access and export or delete a user's personal data in Shifts?
@@ -92,46 +115,15 @@ By default, a deleted Microsoft 365 group is retained for 30 days. This 30-day p
 
 Consider backing up your Shifts data from time to time by [exporting your Shifts schedule data to Excel](https://support.microsoft.com/office/export-shifts-schedule-data-8e604434-de77-4aae-8e87-561eaab902cf).
 
-### Can I use custom retention policies for Shifts data?
-
-Currently, Shifts doesn't support custom retention policies.
-
-To learn more about retention policies in Teams, see [Learn about retention for Teams](/microsoft-365/compliance/retention-policies-teams) and [Manage retention policies for Teams](../../retention-policies.md).
-
 ### Can I retrieve Shifts data for a user whose license was revoked?
 
 Today, we don't offer the ability to retrieve data for a user whose license was revoked. This capability is something we're working towards.
-
-### Can Shifts data be edited?
-
-There are certain aspects of Shifts that can't be changed and certain aspects that can be changed. For example, shift details such as notes and colors can be edited similar to how they can be changed in the Shifts app. Shift requests can't be edited unless the request is withdrawn.
-
-To see which what fields have been changed, you can search the Microsoft 365 audit log for Shifts events. To learn more about the events that are logged for Shifts activities in the Microsoft 365 audit log, see [Shifts in Teams activities](../../audit-log-events.md#microsoft-teams-shifts-activities).
 
 ### My organization uses a workforce management system for scheduling. Can we integrate with and access Shifts data?
 
 Shifts Graph APIs let you integrate Shifts data with external workforce management (WFM) systems. To learn more, see [Shifts Graph APIs](/graph/api/resources/shift).
 
 We also offer managed Shifts connectors. With these connectors, you can integrate your WFM system directly with Shifts. To learn more about Shifts connectors and supported WFM systems, see [Shifts connectors](/microsoft-365/frontline/shifts-connectors).
-
-### Can Shifts data be deleted permanently after a specified period of time?
-
-Today, we don't delete your Shifts data at all. Using [Shifts Graph APIs](/graph/api/resources/shift), it's possible to [create an app using Power Apps](/powerapps/maker/) to retain data for a specified period of time. However, we don't support this natively.
-
-## Data compliance and security
-
-### What encryption does Shifts use for data at rest and in transit?
-
-Shifts data is encrypted at rest by Azure Cosmos DB and Azure Storage. To learn more, see [Azure Data Encryption at rest](/azure/security/fundamentals/encryption-atrest) and
-[Data encryption in Azure Cosmos DB](/azure/cosmos-db/database-encryption-at-rest).
-
-Shifts follows Microsoft 365 guidelines for encryption of data in transit. To learn more, see [Encryption for data-in-transit](/compliance/assurance/assurance-encryption-in-transit).
-
-Shifts encryption of data at rest and in transit are verified yearly by the SOC2 compliance audit.
-
-### Can I access immutable copies of Shifts data?
-
-We don't store immutable copies of Shifts data. For example, a manager can make changes to a schedule, such as add notes, change shift times, assign tasks, and so on.
 
 <!-- This article covers frequently asked questions about Shifts data, including where Shifts data is stored, data retention, retrieval, and encryption.
 
