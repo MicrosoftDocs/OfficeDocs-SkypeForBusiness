@@ -251,7 +251,7 @@ Value: 1
 
 All the user settings and configurations are now stored in:
 
-- C:\Users\<username>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams
+- C:\Users\<username>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\
 - C:\Users\<username>\AppData\Local\Publishers\8wekyb3d8bbwe\TeamsSharedConfig\app_switcher_settings.json
 - C:\Users\<username>\AppData\Local\Publishers\8wekyb3d8bbwe\TeamsSharedConfig\tma_settings.json
 
