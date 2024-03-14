@@ -102,17 +102,11 @@ The app is listed in the **Manage apps** page and in Teams store and client (ava
 
 ## Preview default customization of an app
 
-To view the changes after saving the customizations, view the app details page.
-
-1. Sign in to the Teams admin center and access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
-
-1. To open the app details page, select the app name.
-
-1. View the app details, including the original app name in the field **Short name from publisher**. The field is only visible if you change the app's short name.
+To verify the changes after saving the default customizations, view the app details page. Verify that the fields that you've edited are updated. For example, the original app name in the field **Short name from publisher** is updated.
 
    :::image type="content" source="media/customized-app-details.png" alt-text="The screenshot shows modified short name of an app.":::
 
-After a few hours, your Teams users can see the customized app in the Teams store in their client (web, mobile, and desktop).
+After a few hours, your Teams users can see the customized app in their Teams client store (on web, mobile, and desktop).
 
    :::image type="content" source="media/customized-app-in-store.png" alt-text="The screenshot shows a customized app in Teams client.":::
 
@@ -194,7 +188,7 @@ The limitations on some of the customizable fields are:
 
 | Errors and issues                                                    | Possible fix or understanding of the issue                                                                                                                           |
 |:---------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| My updates aren't available to my users.                             | Wait a few hours for changes to propagate.                                                                                                                           |
+| My updates aren't available to my users.                             | Wait a few hours for changes to propagate. Verify if the changes were saved.                                                                                         |
 | I can't customize an app.                                            | Cross-check if the [app is customizable or not](#verify-if-an-app-is-customizable).                                                                                  |
 | I started to customize an app but can't save or apply my changes.    | Adhere to the limitations of the fields. Look for errors on the UI and the [limitations of app customization](#considerations-and-limitations-of-app-customization). |
 | Manage apps page not loading properly. List of apps isn't displayed. | Admin account in use must have the Teams license assigned.                                                                                                           |
