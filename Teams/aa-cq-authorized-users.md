@@ -31,7 +31,7 @@ Before reading this article, be sure you've read [Plan for authorized users](aa-
 
 An **authorized user** is a Teams user who has been authorized by a Teams admin center administrator to make configuration changes to Auto attendants and Call queues. The user doesn't need to have access to the Teams admin center portal nor be assigned any administrative roles.
 
-You can delegate advanced capabilities [add examples] for your Authorized users with the Queues app. To enable access to the Queues app, you must assign each user a Teams Premium and Teams Phone license. For more information, see [Authorized users for Queues app](#authorized-users-for-queues-app).
+With the Queues app in Microsoft Teams, you can delegate even more capabilities to your authorized users, such as configuring business, after hours, and holiday call routing and they can view real-time and historical metrics for Auto attendants and Call queues. To enable access to Queues, you must assign each user a Teams Premium and Teams Phone license. For more information, see [Set up Queues app for authorized users](#step-7-set-up-queues-app-for-authorized-users-optional).
 
 The authorized user accesses these change configuration items through their Teams desktop client.
 
@@ -63,7 +63,7 @@ To assign a Teams Phone and Teams Premium license, do the following steps:
 
 ## Step 2: Assign phone numbers to your users
 
-If you have not already done so, assign user phone numbers to your users. For more information, see [Manage phone numbers for users](assign-change-or-remove-a-phone-number-for-a-user.md) and [Enable users for Direct Routing](direct-routing-enable-users.md).
+If you have not already done so, assign user phone numbers to your users. For more information, see [Manage phone numbers for users](assign-change-or-remove-a-phone-number-for-a-user.md).
 
 ## Step 3: Create a Teams voice applications policy
 

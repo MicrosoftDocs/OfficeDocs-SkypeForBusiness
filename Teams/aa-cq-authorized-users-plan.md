@@ -37,7 +37,9 @@ For a complete list of features, see [Manage voice applications policies](manage
 
 ## Licensing requirements
 
-All Authorized users must have a Teams Phone license and must be "voice enabled". To assign the Teams Phone license, use the [Set-CsPhoneNumberAssignment](/powershell/set-csphonenumberassignment) cmdlet and set the `-EnterpriseVoiceEnabled` parameter to $true. For some configuration features, users must also have a Teams Premium license. For information about which features require Teams Premium, see [Manage voice applications policies](manage-voice-applications-policies.md).
+All Authorized users must have a Teams Phone license and must be "voice enabled". To assign the Teams Phone license, use the [Set-CsPhoneNumberAssignment](/powershell/set-csphonenumberassignment) cmdlet and set the `-EnterpriseVoiceEnabled` parameter to $true.
+
+For some configuration features, such as those available only in the Queues app, users must also have a Teams Premium license. For information about which features require Teams Premium, see [Manage voice applications policies](manage-voice-applications-policies.md).
 
 For more information about assigning licenses, see [Set up Auto attendant and Call queue authorized users](aa-cq-authorized-users.md).
 
@@ -55,61 +57,10 @@ To create an authorized user, you must complete the following steps:
 
 For information on configuring these steps, see [Set up authorized users](aa-cq-authorized-users.md).
 
-## What can authorized users configure
-
-Configuration features for Auto attendants and Call queues are available to all authorized users with a Teams Phone license. However, some configuration features also require a Teams Premium license. For information about which features require Teams Premium, see [Manage voice applications policies](manage-voice-applications-policies.md).
-
-### Auto attendants
-
-You can delegate an authorized user to perform some or all of the following configuration tasks for Auto attendants:
-
-| Feature | Teams Premium license required |
-|-----------------------|--------------------------------|
-|Business hours greeting||
-|After hours greeting||
-|Holiday greeting||
-|Business hours|✔️|
-|Holiday dates and hours|✔️|
-|Business hours call routing|✔️|
-|After hours call routing|✔️|
-|Holiday hours call routing|✔️|
-|Real-time auto attendant metrics|✔️|
-|Historical auto attendant metrics in Power BI||
-|Historical auto attendant metrics in Queues app|✔️|
-
-For more information about these configuration features, see [Manage voice applications policies](manage-voice-applications-policies.md).
-
-### Call queues
-
-You can delegate an authorized user to perform some or all of the following configuration tasks for Call queues:
-
-| Configuration feature | Teams Premium license required |
-|-----------------------|--------------------------------|
-|Welcome greeting||
-|Music on Hold||
-|Shared voicemail greeting for call overflow||
-|Shared voicemail greeting for call timeout||
-|Shared voicemail greeting for no agents||
-|Membership|✔️|
-|Conference mode|✔️|
-|Agent routing method|✔️|
-|Presence-based routing|✔️|
-|Opt out (queue configuration)|✔️|
-|Opt agents in/out of queue|✔️|
-|Routing for call overflow|✔️|
-|Routing for call timeout|✔️|
-|Routing for no agents|✔️|
-|Real-time call queue metrics|✔️|
-|Real-time agent metrics|✔️|
-|Historical call queue metrics in Power BI||
-|Historical call queue metrics in Queues app|✔️|
-|Historical agent metrics in Power BI||
-|Historical agent metrics in Queues app|✔️|
-
-For more information about these configuration features, see [Manage voice applications policies](manage-voice-applications-policies.md).
-
 ## Related topics
 
 [Set up Auto attendant and Call queue authorized users](aa-cq-authorized-users.md)
 
 [Manage voice applications policies](manage-voice-applications-policies.md)
+
+[Plan for Teams Auto attendants and Call queues](plan-auto-attendant-call-queue.md)
