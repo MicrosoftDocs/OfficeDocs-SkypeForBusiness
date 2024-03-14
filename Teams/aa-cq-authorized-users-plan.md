@@ -37,11 +37,9 @@ For a complete list of features, see [Manage voice applications policies](manage
 
 ## Licensing requirements
 
-All Authorized users must have a Teams Phone license. For some configuration features, users must also have a Teams Premium license. For information about which features require Teams Premium, see [Manage voice applications policies](manage-voice-applications-policies.md).
+All Authorized users must have a Teams Phone license and must be "voice enabled". To assign the Teams Phone license, use the [Set-CsPhoneNumberAssignment](/powershell/set-csphonenumberassignment) cmdlet and set the `-EnterpriseVoiceEnabled` parameter to $true. For some configuration features, users must also have a Teams Premium license. For information about which features require Teams Premium, see [Manage voice applications policies](manage-voice-applications-policies.md).
 
 For more information about assigning licenses, see [Set up Auto attendant and Call queue authorized users](aa-cq-authorized-users.md).
-
-**add info about voice enablement**
 
 ## Overview of steps for setting up authorized users
 
@@ -76,7 +74,8 @@ You can delegate an authorized user to perform some or all of the following conf
 |After hours call routing|✔️|
 |Holiday hours call routing|✔️|
 |Real-time auto attendant metrics|✔️|
-|Historical auto attendant metrics|✖️[TEXT EXPLANATION] Using Power BI<br>✔️ Using Customer Calls app|
+|Historical auto attendant metrics in Power BI||
+|Historical auto attendant metrics in Queues app|✔️|
 
 For more information about these configuration features, see [Manage voice applications policies](manage-voice-applications-policies.md).
 
@@ -102,8 +101,10 @@ You can delegate an authorized user to perform some or all of the following conf
 |Routing for no agents|✔️|
 |Real-time call queue metrics|✔️|
 |Real-time agent metrics|✔️|
-|Historical call queue metrics|✖️ [TEXT EXPLANATION] Using Power BI<br>✔️ Using Customer Calls app|
-|Historical agent metrics|✖️ [TEXT EXPLANATION] Using Power BI<br>✔️ Using Customer Calls app|
+|Historical call queue metrics in Power BI||
+|Historical call queue metrics in Queues app|✔️|
+|Historical agent metrics in Power BI||
+|Historical agent metrics in Queues app|✔️|
 
 For more information about these configuration features, see [Manage voice applications policies](manage-voice-applications-policies.md).
 
