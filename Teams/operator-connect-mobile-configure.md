@@ -15,7 +15,7 @@ ms.collection:
 ms.reviewer: crowe
 search.appverid: MET150
 
-description: Learn more about how to configure Teams Phone Mobile.
+description: Learn how to configure Teams Phone Mobile.
 ms.custom: 
  - seo-marvel-apr2020
  - seo-marvel-jun2020
@@ -25,46 +25,57 @@ appliesto:
 
 # Configure Teams Phone Mobile
 
+This article is for administrators and IT professionals who are configuring Teams Phone Mobile. Before configuring Teams Phone Mobile, be sure to read [Plan for Teams Phone Mobile](operator-connect-mobile-plan.md) for information about benefits, prerequisites, and licensing.
+
 For a list of operators participating in the Microsoft Teams Phone Mobile program and the countries or regions where their service is available, see [Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/teams-phone-mobile).
 
-This article describes how to configure Teams Phone Mobile. Before configuring Teams Phone Mobile, be sure to read [Plan for Teams Phone Mobile](operator-connect-mobile-plan.md) for information about benefits, prerequisites, and licensing.
+This article describes the following steps to configure Teams Phone Mobile:
 
-## Enable an operator
+- Step 1: Enable an operator
+- Step 2: Set up phone numbers
+- Step 3: Assign numbers to emergency addresses
+- Step 4: Manage your operators
+- Step 5: Release numbers
+- Step 6: Manage user incoming calling policies
 
-You can enable, edit, and remove operators in the Teams admin center. In the left navigation pane, go to **Voice > Operators**.
+## Step 1: Enable an operator
 
-To enable an operator:
+You can enable an operator by using the Teams admin center. 
 
-1. Choose an operator that supports Teams Phone Mobile. Under the **All operators** tab, filter available operators by region or service to find the right operator supporting Teams Phone Mobile. Then select the operator you want to enable.
+1. In the left navigation pane, go to **Voice > Operators**.
 
-2. Under **Operator settings**, select the countries/regions you want to enable with your selected operator.
+2. Choose an operator that supports Teams Phone Mobile. Under the **All operators** tab, filter available operators by region or service, and then select the operator you want to enable.
 
-3. **Provide contact information.** Your contact information, including your full name and email address, will be shared automatically with your operator. You can change this information later. Additionally, you'll need to provide company size, and you'll have the option to provide your phone number. Operators will use this information to contact you with more details about Teams Phone Mobile.
+3. Under **Operator settings**, select the countries/regions you want to enable with your selected operator.
+
+4. **Provide contact information.** Your contact information, including your full name and email address, will be shared automatically with your operator. You can change this information later. Additionally, you'll need to provide company size, and you'll have the option to provide your phone number. Operators will use this information to contact you with more details about Teams Phone Mobile.
 
 4. Accept the data transfer notice.
 
 5. Select **Add as my operator** to save.
 
-## Set up phone numbers
+You can also edit and remove operators by using the Teams admin center and navigating to **Voice > Operators**.
 
-If you want to add your existing company paid SIM-enabled phone numbers to Teams, contact your operator to ensure you have the eligible Teams Phone Mobile subscription, and they can upload your numbers to Teams. After your operator completes the order, you can assign those numbers to users. 
+## Step 2: Set up phone numbers
+
+If you want to add your existing company paid SIM-enabled phone numbers to Teams, contact your operator to ensure you have the eligible Teams Phone Mobile subscription. Your operator can upload your numbers to Teams. After your operator completes the order, you can assign those numbers to users. 
 
 To find your operator's website, see the [Microsoft 365 Teams Phone Mobile directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory).
 
 You'll need to provide your tenant ID. If you don't know your tenant ID, see [Find your Microsoft 365 tenant ID](/onedrive/find-your-office-365-tenant-id). You may be porting an existing desk phone number or wireline number to a wireless voice subscription if it's supported in your region and by your operator. 
 
-How you set up phone numbers depends on whether you're setting up numbers for new users, or moving existing numbers from either Microsoft Calling Plans, Operator Connect, or Direct Routing.
+How you set up phone numbers depends on whether you're setting up numbers for new users, or moving existing numbers from Microsoft Calling Plans, Operator Connect, or Direct Routing. How to set up phone numbers is described in detail in [Set up phone numbers for Teams Phone Mobile](operator-connect-mobile-configure-numbers.md). You can navigate to the section that pertains to your scenario:
 
-- [Acquire numbers for new Teams users](#acquire-numbers-for-new-teams-users).  
+- [Acquire numbers for new Teams users](operator-connect-mobile-configure-numbers.md#acquire-numbers-for-new-teams-users).  
 
-- [Move numbers from Calling Plans to Teams Phone Mobile](#move-numbers-from-calling-plans-to-teams-phone-mobile).  
+- [Move numbers from Calling Plans to Teams Phone Mobile](operator-connect-mobile-configure-numbers.md#move-numbers-from-calling-plans-to-teams-phone-mobile).  
 
-- [Move numbers from Operator Connect to Teams Phone Mobile](#move-numbers-from-operator-connect-to-teams-phone-mobile).  
+- [Move numbers from Operator Connect to Teams Phone Mobile](operator-connect-mobile-configure-numbers.md#move-numbers-from-operator-connect-to-teams-phone-mobile).  
 
-- [Move numbers from Direct Routing to Teams Phone Mobile](#move-numbers-from-direct-routing-to-teams-phone-mobile).  
+- [Move numbers from Direct Routing to Teams Phone Mobile](operator-connect-mobile-configure-numbers.md#move-numbers-from-direct-routing-to-teams-phone-mobile).  
 
 
-### Assign numbers to emergency addresses
+## Step 3: Assign numbers to emergency addresses
 
 The emergency address is a static location associated with a number when accessible through Microsoft Teams endpoints/clients. Once you create emergency addresses in the Teams admin center, how you assign the addresses, or change them later, will depend on your operator.
 
