@@ -23,6 +23,7 @@ ms.localizationpriority: high
 # Known issues for new Microsoft Teams
 
 - PowerPoint Live Standout isn't yet available.
+- The dark theme is not working properly.
 - Language-aware spell checking is currently not available in the new Teams. The team is focusing on this issue with a high priority. Check back for updates.
 - New Teams client isn't respecting the date time formats set in the OS. This issue affects both 12h/24h time formatting and date formatting in the product. A fix is pending; check back for updates.
 - The app will crash if users hit enter instead of clicking the *Create* button after entering the team name in the team creation wizard.
