@@ -122,7 +122,7 @@ Once you've selected your enablement strategy you'll be ready to revisit and sca
 
 Example team level provisioning and management best practices:
 
-|Team level | Who creates? | Lavels and retention | Considerations |
+|Team level | Who creates? | Labels and retention | Considerations |
 | --------- | ------------ | -------------------- | -------------- |
 | Level 1 - Divisional | IT or champion for that group to name it properly | Confidential with standard retention policy applied and 1 year renewal policy | Think of this like reserving a domain name. You want control of how division teams are named and what's included.  Design the team before adding additional users.|
 | Level 2 - Project/service | Project owner or champion | Confidential or highly confidential depending on content. May have a retention policy. 6 month renewal. | Before creating this, think just beyond the boundary of the project or service you are working on. Would it make more sense to combine forces with another team? Make every effort to minimize the number of teams individual users have to visit when working on the same project or service.|
