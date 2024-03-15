@@ -57,7 +57,8 @@ It’s recommended to update to the latest Teams PowerShell Module version.
 - Some of the cmdlets that were deprecated recently are listed below. Details on the same can be found in the respective public documentations.
   - [Get-CsOnlineVoiceUser](/powershell/module/skype/get-csonlinevoiceuser) (deprecated only in commercial & GCC environments currently)
   - [Get-CsOnlineTelephoneNumber](/powershell/module/skype/get-csonlinetelephonenumber)
-  - [Get-CsOnlineDialInConferencingUserInfo](/powershell/module/skype/get-csonlinedialinconferencinguserinfo), [Get-CsOnlineDialInConferencingUserState](/powershell/module/skype/get-csonlinedialinconferencinguserstate), [Enable-CsOnlineDialInConferencingUser](/powershell/module/skype/enable-csonlinedialinconferencinguser), [Disable-CsOnlineDialInConferencingUser](/powershell/module/skype/disable-csonlinedialinconferencinguser)
+  - Get-CsOnlineDialInConferencingUserInfo & Get-CsOnlineDialInConferencingUserState (suggested alternative - [Get-CsOnlineDialInConferencingUser](/powershell/module/teams/get-csonlinedialinconferencinguser))
+  - [Enable|Disable]-CsOnlineDialInConferencingUser (to enable/disable Audio Conferencing for a user, please assign/unassign the Audio Conferencing license, more information at [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users))
   - [Get-CsOnlineDirectoryTenant](/powershell/module/skype/get-csonlinedirectorytenant)
   - [New-CsOnlineAudioFile](/powershell/module/skype/new-csonlineaudiofile)
   - [Get-CsOnlineApplicationEndpoint](/powershell/module/skype/get-csonlineapplicationendpoint), [Set-CsOnlineApplicationEndpoint](/powershell/module/skype/set-csonlineapplicationendpoint), [New-CsOnlineApplicationEndpoint](/powershell/module/skype/new-csonlineapplicationendpoint), [Remove-CsOnlineApplicationEndpoint](/powershell/module/skype/remove-csonlineapplicationendpoint), Switch-CsOnlineApplicationEndpoint
