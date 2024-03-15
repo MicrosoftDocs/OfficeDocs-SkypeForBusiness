@@ -37,7 +37,7 @@ This article covers frequently asked questions about Shifts data.
 
 When setting up Teams, a country/region is chosen at the subscription level. Shifts honors this selection and Shifts data is stored in the corresponding country/region specified for Teams. If the country/region specified for Teams isn't supported in Shifts, we ensure that data is stored in a nearby supported region.
 
-Shifts data is stored in one of the following region geographies (geos): Asia Pacific (APAC), European Union (EU), or United States. Within the supported geo, your Shifts data is stored in two Azure data center for High Availability (HA) and Disaster Recovery (DR) purposes.
+Shifts data is stored in one of the following region geographies (geos): Asia Pacific (APAC), European Union (EU), or United States. Within the supported geo, your Shifts data is stored in two Azure data centers for High Availability (HA) and Disaster Recovery (DR) purposes.
 
 Additionally, Shifts offers data residency locally in Australia, Canada, France, Japan, and the United Kingdom.
 
@@ -93,7 +93,7 @@ Shifts encryption of data at rest and in transit are verified yearly by the SOC2
 
 ### Can I access immutable copies of Shifts data?
 
-We don't store immutable copies of Shifts data. For example, a manager can make changes to a schedule, such as add notes, change shift times, assign tasks, and so on.
+We don't store immutable copies of Shifts data. For example, a frontline manager can make changes to a schedule, such as add notes, change shift times, assign tasks, and so on.
 
 ### Can Shifts data be edited and/or permanently deleted?
 
@@ -107,10 +107,10 @@ To learn more about edit operations in Shifts, see [Teams Shifts activities](/pu
 
 This capability isn't natively supported in the Shifts app. The two exceptions are if you delete your tenant or delete a team in Teams that has a Shifts schedule associated with it.
 
-- If you delete your tenant, all Shifts data is deleted after the retention period ends. To learn more, see [Data retention, deletion, and destruction in Microsoft 365](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
+- If you delete your tenant, Shifts data is permanently deleted after the retention period ends. To learn more, see [Data retention, deletion, and destruction in Microsoft 365](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
 - If you delete a team in Teams, Shifts data associated with that team is permanently deleted after the retention period ends. If you restore your team before the retention period ends, you can still restore the schedule in Shifts. To learn more, see [Restore a deleted Microsoft 365 group](/microsoft-365/admin/create-groups/restore-deleted-group) and [Manage teams in the Teams admin center](../../manage-teams-in-modern-portal.md#restore-deleted-teams).
 
-Using [Shifts Graph APIs](/graph/api/resources/shift), it's possible to [create an app using Power Apps](/powerapps/maker/) to retain data for a specified period of time. However, we don't support this natively.
+Although we don't support this natively, it's possible to use [Shifts Graph APIs](/graph/api/resources/shift) to [create an app using Power Apps](/powerapps/maker/) to retain data for a specified period of time.
 
 > [!IMPORTANT]
 > Turning off Shifts in your organization *does not* delete data. If you turn off Shifts, and then later turn on Shifts, your Shifts data is still available.
@@ -119,13 +119,11 @@ Using [Shifts Graph APIs](/graph/api/resources/shift), it's possible to [create 
 
 ### Can I access and export or delete a user's personal data in Shifts?
 
-Shifts is General Data Protection Regulation (GDPR) compliant. A formal request by a person (known as a data subject) to take an action on their personal data is called a Data Subject Request (DSR). You can find and act on personal data in Shifts in response to a DSR.
+Shifts is General Data Protection Regulation (GDPR) compliant. A formal request by a person (known as a data subject) to take an action on their personal data is called a Data Subject Request (DSR). You can find and act on personal data in Shifts in response to a DSR. To learn more, see [Office 365 Data Subject Requests for the GDPR and CCPA](/microsoft-365/compliance/gdpr-dsr-office365).
 
 You can use export Shifts schedule and time clock data to Excel. To learn more, see [Export Shifts schedule data](https://support.microsoft.com/office/export-shifts-schedule-data-8e604434-de77-4aae-8e87-561eaab902cf) and [Export time reporting in Shifts](https://support.microsoft.com/office/export-time-reporting-in-shifts-c3b06e42-3ad2-4b88-87a0-4e481d432110).
 
 You can also manually delete schedule data in Shifts by either selecting individual or multiple shifts, using a right-click, long press, or other method to bring up the shortcut menu, and selecting **Delete** on that menu.
-
-To learn more, see [Office 365 Data Subject Requests for the GDPR and CCPA](/microsoft-365/compliance/gdpr-dsr-office365).
 
 ### Can I recover a Shifts schedule that was deleted?
 
