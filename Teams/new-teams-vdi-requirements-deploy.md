@@ -464,6 +464,9 @@ All the multimedia features that work on the classic Teams client are expected t
 
 ## Features not supported in VDI
 
+> [!IMPORTANT]
+> New Teams for Web isn't supported in VDI environments, so performance and reliability may be negatively impacted if used in VDI.
+
 The following features aren't supported in either classic Teams or new Teams.
 
 - QoS.
