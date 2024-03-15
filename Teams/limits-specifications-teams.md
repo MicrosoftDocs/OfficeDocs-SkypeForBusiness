@@ -131,15 +131,14 @@ For more information, see [Exchange Online limits](/office365/servicedescription
 
 ## Channel names
 
-Channel names can't contain the following characters or words:
+Channel names can't contain the following characters:
 
 |Type|Example|
 |---------|---------|
 |Characters     | ~ # % & * { } + / \ : < > ? &#124; ' " , ..        |
 |Characters in these ranges    | 0 to 1F<br>80 to 9F        |
-|Words     | forms, CON, CONIN$, CONOUT$, PRN, AUX, NUL, COM1 to COM9, LPT1 to LPT9, desktop.ini,  &#95;vti&#95;|
-
-Channel names also can't start with an underscore (_) or period (.), or end with a period (.).
+  
+The following names can't be used: forms, CON, PRN, AUX, NUL, COM1 to COM8, LPT1 to LPT9, desktop.ini. Channel names also can't start with an underscore (_) or period (.), or end with a period (.).
 
 ## Meetings and calls
 
