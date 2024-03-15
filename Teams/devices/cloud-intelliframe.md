@@ -67,7 +67,7 @@ Cloud IntelliFrame runs on Azure and is fully compliant with M365 data processin
 
 ### Supported cameras
 
-The following camera models when deployed in a Microsoft Teams Room on Windows with a Pro license automatically use the Cloud IntelliFrame:
+The following camera models when deployed in Microsoft Teams Rooms on Windows with a Pro license automatically use the Cloud IntelliFrame:
 
 - AVer CAM520 Pro 
 - AVer CAM520 Pro2
