@@ -265,7 +265,7 @@ A class team can support more than 300 members. However, if you plan to use eith
 
 Teams uses these contacts:
 
-- Contacts in your organization's Active Directory
+- Contacts in your organization's Azure Active Directory
 - Contacts added to the user's Outlook default folder
 
 Teams users can communicate with anyone in your organization's Active Directory and can add anyone in your organization's Active Directory as a contact and to their contact lists by going to **Chat** > **Contacts** or **Calls** > **Contacts**.
