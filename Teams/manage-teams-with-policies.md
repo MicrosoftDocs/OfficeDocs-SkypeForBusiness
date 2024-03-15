@@ -66,6 +66,8 @@ Policy type | Description
 [Voice and calling policies](voice-and-calling-policies.md)| Voice and calling policies manage these settings through teams such as emergency calling, call routing, and caller ID.
 [App policies](app-policies.md)| App policies are used to control applications in Microsoft Teams. Admins can allow or block which apps users can install, pin applications to a user's Teams app bar, and install application on behalf of your users.
 [Messaging policies](messaging-policies-in-teams.md)| Messaging policies control chat and channel feature availability.
+[Template policies](templates-policies.md)|Template policies control team templates that your end users see.
+[Teams policies](teams-policies.md)|Teams policies control what users in your organization can do in teams and channels.
 
 This video is about differences between policies and settings.
 
