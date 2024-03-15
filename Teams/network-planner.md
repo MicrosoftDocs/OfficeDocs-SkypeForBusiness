@@ -32,7 +32,7 @@ Network Planner is a new tool that is available in the Teams admin center. It ca
 
 Network planner allows you to:
 
-- Create representations of your organization using sites and Microsoft recommended personas (office workers, remote workers, and Teams room system).
+- Create representations of your organization using sites and Microsoft recommended personas (office workers, remote workers, and Teams Rooms System).
 
     > [!NOTE]
     > The recommended personas were developed based on data from Teams best use scenarios and typical usage patterns. However, you can create up to three custom personas in addition to the three recommended personas.
