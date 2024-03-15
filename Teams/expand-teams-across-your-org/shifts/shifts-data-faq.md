@@ -12,7 +12,7 @@ search.appverid: MET150
 searchScope: 
   - Microsoft Teams
   - Microsoft Cloud for Healthcare
-description: Get answers to frequently asked questions about Shifts data, including data storage location, data security and compliance, and data access control.
+description: Get answers to frequently asked questions about Shifts data, including data storage location, security and compliance, and access control.
 f1.keywords: 
   - NOCSH
 localization_priority: Normal
@@ -35,7 +35,7 @@ This article covers frequently asked questions about Shifts data.
 
 ### Where is Shifts data stored?
 
-When setting up Teams, a country/region is chosen at the subscription level. Shifts honors this selection and Shifts data is stored in the corresponding country/region specified for Teams. If the country/region specified for Teams isn't supported in Shifts, we ensure that data is stored in a nearby supported region.
+Upon setting up Teams, a country/region is chosen at the subscription level. Shifts honors this selection and Shifts data is stored in the corresponding country/region specified for Teams. If the country/region specified for Teams isn't supported in Shifts, we ensure that data is stored in a nearby supported region.
 
 Shifts data is stored in one of the following region geographies (geos): Asia Pacific (APAC), European Union (EU), or United States. Within the supported geo, your Shifts data is stored in two Azure data centers for High Availability (HA) and Disaster Recovery (DR) purposes.
 
@@ -43,8 +43,8 @@ Additionally, Shifts offers data residency locally in Australia, Canada, France,
 
 Examples:
 
-- For a Microsoft 365 tenant whose country/region is set to France, Shifts data is provisioned in France because Shifts supports data residency locally in France.
-- For a Microsoft 365 tenant whose country/region is set to Sweden, Shifts data is provisioned within the EU geo because Shifts doesn't support data residency locally in Sweden.
+- For a Microsoft 365 tenant whose country/region is set to France, Shifts customer data is provisioned in France because Shifts supports data residency locally in France.
+- For a Microsoft 365 tenant whose country/region is set to Sweden, Shifts customer data is provisioned within the EU geo because Shifts doesn't support data residency locally in Sweden.
 
 To see where your Teams data is stored, in the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal/), go to **Settings** > **Org settings**, choose the **Organization profile** tab, and then choose **Data location**.
 
@@ -55,7 +55,7 @@ To learn more, see [Location of data in Microsoft Teams](../../privacy/location-
 
 ### Can Shifts data be moved in a tenant-to-tenant migration?
 
-To migrate your existing Shifts data to another tenant, you need to export Shifts schedules for a date range, modify user names (if necessary), and then import the schedules to the destination tenant. You can export up to 100 days of Shifts data at a time. The date range can be in the past or future. If you need to export data for a longer timeframe than 100 days, repeat the process.
+To migrate your existing Shifts data to another tenant, you need to export Shifts schedules for a date range, modify usernames (if necessary), and then import the schedules to the destination tenant. You can export up to 100 days of Shifts data at a time. The date range can be in the past or future. If you need to export data for a longer timeframe than 100 days, repeat the process.
 
 Before you migrate your Shifts data, make sure the following requirements are met:
 
@@ -74,7 +74,7 @@ Here's an overview of the steps to migrate your Shifts data to another tenant.
     1. In Shifts, on the **Schedule** page, go to **More options (...)** > **Import schedule**.
     1. Select **Upload file**, go to the Excel file for that team, and then select **Open**.
 
-## Data compliance and security
+## Data security and compliance
 
 ### Shifts and Microsoft Purview solutions
 
@@ -93,7 +93,7 @@ Shifts encryption of data at rest and in transit are verified yearly by the SOC2
 
 ### Can I access immutable copies of Shifts data?
 
-We don't store immutable copies of Shifts data. For example, a frontline manager can make changes to a schedule, such as add notes, change shift times, assign tasks, and so on.
+We don't store immutable copies of Shifts data. For example, a frontline manager can make changes to a schedule, such as add notes, change shift times, assign tasks, and so on, at any point in time.
 
 ### Can Shifts data be edited and/or permanently deleted?
 
@@ -110,7 +110,7 @@ This capability isn't natively supported in the Shifts app. The two exceptions a
 - If you delete your tenant, Shifts data is permanently deleted after the retention period ends. To learn more, see [Data retention, deletion, and destruction in Microsoft 365](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
 - If you delete a team in Teams, Shifts data associated with that team is permanently deleted after the retention period ends. If you restore your team before the retention period ends, you can still restore the schedule in Shifts. To learn more, see [Restore a deleted Microsoft 365 group](/microsoft-365/admin/create-groups/restore-deleted-group) and [Manage teams in the Teams admin center](../../manage-teams-in-modern-portal.md#restore-deleted-teams).
 
-Although we don't support this natively, it's possible to use [Shifts Graph APIs](/graph/api/resources/shift) to [create an app using Power Apps](/powerapps/maker/) to retain data for a specified period of time.
+Although we don't support this natively, it's possible to use [Shifts Graph APIs](/graph/api/resources/shift) to [create an app using Power Apps](/powerapps/maker/) to retain data only for a specified period of time.
 
 > [!IMPORTANT]
 > Turning off Shifts in your organization *does not* delete data. If you turn off Shifts, and then later turn on Shifts, your Shifts data is still available.
@@ -121,7 +121,7 @@ Although we don't support this natively, it's possible to use [Shifts Graph APIs
 
 Shifts is General Data Protection Regulation (GDPR) compliant. A formal request by a person (known as a data subject) to take an action on their personal data is called a Data Subject Request (DSR). You can find and act on personal data in Shifts in response to a DSR. To learn more, see [Office 365 Data Subject Requests for the GDPR and CCPA](/microsoft-365/compliance/gdpr-dsr-office365).
 
-You can use export Shifts schedule and time clock data to Excel. To learn more, see [Export Shifts schedule data](https://support.microsoft.com/office/export-shifts-schedule-data-8e604434-de77-4aae-8e87-561eaab902cf) and [Export time reporting in Shifts](https://support.microsoft.com/office/export-time-reporting-in-shifts-c3b06e42-3ad2-4b88-87a0-4e481d432110).
+You can use export Shifts schedule and time clock data to Excel in the Shifts app. To learn more, see [Export Shifts schedule data](https://support.microsoft.com/office/export-shifts-schedule-data-8e604434-de77-4aae-8e87-561eaab902cf) and [Export time reporting in Shifts](https://support.microsoft.com/office/export-time-reporting-in-shifts-c3b06e42-3ad2-4b88-87a0-4e481d432110).
 
 You can also manually delete schedule data in Shifts by either selecting individual or multiple shifts, using a right-click, long press, or other method to bring up the shortcut menu, and selecting **Delete** on that menu.
 
@@ -133,7 +133,7 @@ We advise customers to use the [export Shifts schedule data capability](https://
 
 If a team was restored within the retention period timeframe, Shifts users on mobile devices might experience some issues when viewing their schedule data if their Teams app version is earlier than 1416/1.0.0.2024042104 (2024042140). In this scenario, users should sign out of Teams, and then sign in again.  
 
-If for some reason, the issues persist, follow the steps.
+If for some reason, the issues persist, follow these steps.
 
 **On Android devices:**
 
