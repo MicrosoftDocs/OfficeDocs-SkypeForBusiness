@@ -43,8 +43,8 @@ Additionally, Shifts offers data residency locally in Australia, Canada, France,
 
 Examples:
 
-- A tenant with a Microsoft 365 subscription set their country/region to France during the sign-up process. For this tenant, Shifts data is provisioned in France because Shifts supports data residency locally in France.
-- A tenant with a Microsoft 365 subscription sets their country/region to Sweden during the sign-up process. For this tenant, Shifts data is provisioned within the EU geo because Shifts doesn't support data residency locally in Sweden.
+- For a Microsoft 365 tenant whose country/region is set to France, Shifts data is provisioned in France because Shifts supports data residency locally in France.
+- For a Microsoft 365 tenant whose country/region is set to Sweden, Shifts data is provisioned within the EU geo because Shifts doesn't support data residency locally in Sweden.
 
 To see where your Teams data is stored, in the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal/), go to **Settings** > **Org settings**, choose the **Organization profile** tab, and then choose **Data location**.
 
