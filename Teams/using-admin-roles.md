@@ -46,7 +46,7 @@ To follow along, you must be an admin. The instructions for getting the permissi
 | Teams Communications Support Specialist | Troubleshoot communications issues within Teams by using **basic** tools.    | Access user profile page for troubleshooting calls in Call Analytics. Can only view user information for the specific user being searched for.<sup>2</sup> <br><br> Access, monitor, and troubleshoot tenant's call quality and reliability using data exposed in Call Quality Dashboard (CQD). |
 | Teams Device Administrator              | Manage devices configured for use with the Teams service.                    | Manage device configuration and updates, review device health and status of connected peripherals, set up and apply configuration profiles, and restart devices.<p>The Teams Device Administrator role doesn't provide access to call quality data or call analytics. To view call quality data or call analytics, you need to be assigned the Teams Communications Administrator role. |
 
-<sup>1</sup> [PowerShell - Microsoft Teams module](https://www.powershellgallery.com/packages/MicrosoftTeams/) (The public release 1.1.6 or later is integrated with Skype for Business Online Connector.)<br>
+<sup>1</sup> [PowerShell - Microsoft Teams module](https://www.powershellgallery.com/packages/MicrosoftTeams/) <br>
 <sup>2</sup> [Microsoft Teams admin center](./manage-teams-skypeforbusiness-admin-center.md)
 <sup>3</sup> Teams administrator account must have a valid Teams license.
 <!-- <sup>3</sup> Microsoft Entra admin center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
