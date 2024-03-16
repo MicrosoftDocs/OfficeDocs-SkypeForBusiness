@@ -62,7 +62,7 @@ You can assign users to these roles in Microsoft Entra ID. To learn how to assig
 
 ## Cmdlets available for each role
 
-Most of the PowerShell tools for these admin roles live in the Teams PowerShell module, and it's important to note that some of the cmdlets that these admin roles have access to control shared settings that are also used for Skype for Business Online. 
+Most of the PowerShell tools for these admin roles live in the Teams PowerShell module. 
 
 To view the full list of cmdlets:
 
