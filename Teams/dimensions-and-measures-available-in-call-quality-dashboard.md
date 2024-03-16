@@ -331,8 +331,8 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 | Second Mic Device Failure | Boolean | Indicates if an audio capture device failure was detected on the second endpoint. ||
 | First No Mic Devices Enumerated Failure | Boolean	| Indicates that no audio capture devices were detected on the first endpoint. ||
 | Second No Mic Devices Enumerated Failure	| Boolean	| Indicates that no audio capture devices were detected on the second endpoint. ||
-| First Mic Is Silent | Boolean | Indicates no audio is detected from the first endpoint microphone while unmuted ||
-| Second Mic Is Silent | Boolean | Indicates no audio is detected from the second endpoint microphone while unmuted ||
+| First Mic Is Silent | Boolean | Indicates no audio is detected from the first endpoint microphone while unmuted. ||
+| Second Mic Is Silent | Boolean | Indicates no audio is detected from the second endpoint microphone while unmuted. ||
 | First Mic Initialization Failure| Boolean	| Indicates that a failure occurred during the hardware initialization of the microphone device on the first endpoint. ||
 | Second Mic Initialization Failure| Boolean	| Indicates that a failure occurred during the hardware initialization of the microphone device on the second endpoint. ||
 | First Mic Connection Type | Enumeration string |The connection interface or type of the microphone device used on the first endpoint <br/> Possible values: BlueTooth, HDAudio, Internal, PCI, USB, Virtual, Other||
