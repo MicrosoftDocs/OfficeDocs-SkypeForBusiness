@@ -1,7 +1,7 @@
 ---
 title: Configure Teams meetings with baseline protection
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
@@ -66,7 +66,7 @@ To configure who can present
 
 In the *baseline* level of protection, we disable watermarks and end-to-end encryption by using a sensitivity label. This will prevent meeting organizers from using these features. Watermarks and end-to-end encryption are more applicable to sensitive meetings.
 
-End-to-end encryption and watermarks disable some other features such as meeting recording. Turning them off for the *baseline* level of protection can avert instances where meeting organizers use these features without realizing the limits they impose.
+End-to-end encryption and watermarks disable some other features such as PowerPoint Live. Turning them off for the *baseline* level of protection can avert instances where meeting organizers use these features without realizing the limits they impose.
 
 If you work in a highly regulated industry, you may want to keep these features available even in the *baseline* level of protection.
 

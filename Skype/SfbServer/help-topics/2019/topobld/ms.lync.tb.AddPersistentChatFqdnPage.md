@@ -15,7 +15,7 @@ ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: e0123fa6-008b-430e-a68b-61f0cc3fb12e
 ROBOTS: NOINDEX, NOFOLLOW
-description: "You create a new Persistent Chat Server or Persistent Chat Server pool using the Define New Persistent Chat Pool wizard. Select either a Multiple computer pool or a Single computer pool. If you select a single computer pool and later need a multiple computer pool, you will need to remove the single computer pool and then define a multiple computer pool."
+description: "You create a new Persistent Chat Server or Persistent Chat Server pool using the Define New Persistent Chat Pool wizard. Select either a Multiple computer pool or a Single computer pool. If you select a single computer pool and later need a multiple computer pool, you need to remove the single computer pool and then define a multiple computer pool."
 ---
 
 # Define Persistent Chat FQDN
