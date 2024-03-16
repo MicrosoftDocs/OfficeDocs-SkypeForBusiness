@@ -50,11 +50,11 @@ It’s recommended to update to the latest Teams PowerShell Module version.
   - [New|Remove]-CsHybridTelephoneNumber cmdlets are now supported from versions 4.5.0 or later in GCC High and DoD environments.
 
 
-- While using TPM 4.x.x or later, it's recommended to not use any of the deprecated or unsupported cmdlets mentioned [below](#deprecated-cmdlets).
+- While using TPM 4.x.x or later, it's recommended to not use any of the [deprecated or unsupported](#deprecated-cmdlets) cmdlets.
 
 ## Deprecated cmdlets
 
-- Some of the cmdlets that were deprecated recently are listed below. Details on the same can be found in the respective public documentations.
+- Following are some of the cmdlets that were deprecated recently. Details on the same can be found in the respective documentations.
   - [Get-CsOnlineVoiceUser](/powershell/module/skype/get-csonlinevoiceuser) (deprecated only in commercial & GCC environments currently)
   - [Get-CsOnlineTelephoneNumber](/powershell/module/skype/get-csonlinetelephonenumber)
   - Get-CsOnlineDialInConferencingUserInfo & Get-CsOnlineDialInConferencingUserState (suggested alternative - [Get-CsOnlineDialInConferencingUser](/powershell/module/teams/get-csonlinedialinconferencinguser))
