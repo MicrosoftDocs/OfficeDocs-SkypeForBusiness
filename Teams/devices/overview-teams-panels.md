@@ -24,86 +24,56 @@ description: This article provides the information required when you are plannin
 
 # Overview of Microsoft Teams panels
 
-Turn every space into a Teams space Teams panels are intelligent devices designed to enhance the efficiency of your office environment. They are a great solution to help your employees seamlessly navigate the workplace and for you to manage your meeting spaces. In just a few steps, you can deploy a [Certified for Teams device](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/room-systems-accessories/73) in your building to make your spaces easier to find, book, and manage.
+Turn every space into a Teams space. Teams panels are intelligent devices designed to enhance the efficiency of your office environment. They are a great solution to help your employees seamlessly navigate the workplace and for you to manage your meeting spaces. In just a few steps, you can deploy a [Certified for Teams device](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/category/teams-panels/2351?rtc=1&page=1&filterIds=) in your building to make your spaces easier to find, book, and manage.
 
 ## Step 1: Consider the space Teams panel will be used in
 
-Tailored to your unique needs, Teams panels offer a range of features that can be customized based on your space. Whether it's a meeting room,
-a huddle space, or even a non-tech room like a yoga room, Teams panels can be used in any bookable space. And when deciding on which Teams
-panel device to purchase, there is no dependency on the in-room devicebrand -- mix and match to deliver the perfect combination for your
-office.
+Tailored to your unique needs, Teams panels offer a range of features that can be customized based on your space. Whether it's a meeting room, a huddle space, or even a non-tech room like a yoga room, Teams panels can be used in any bookable space. And when deciding on which Teams panel device to purchase, there is no dependency on the in-room device brand -- mix and match to deliver the perfect combination for your office.
 
 ## Step 2: Pick the license you will need for the space
 
-With the flexibility to accommodate various environments, we offer two types of licenses: the Microsoft Teams Rooms Pro license and the [Teams
-Shared Device license](/microsoftteams/teams-add-on-licensing/teams-shared-device-license).
+With the flexibility to accommodate various environments, we offer two types of licenses: the [Microsoft Teams Rooms Pro license](/microsoftteams/rooms/rooms-licensing) and the [Teams Shared Device license](/microsoftteams/teams-add-on-licensing/teams-shared-device-license).
 
-If your room is already equipped with a Surface Hub or Microsoft Teams Rooms device, go Pro! With your Teams Rooms Pro license, there is no additional license required for Teams panels. With this license, you can also pair your Teams panel with Teams Rooms on Android and unlock features such as full-room alerts and check-in notifications. One room,one account, one license!
+If your room is already equipped with a Surface Hub or Microsoft Teams Rooms device, go Pro! With your Teams Rooms Pro license, there is no additional license required for Teams panels. With this license, you can also pair your Teams panel with Teams Rooms on Android and unlock features such as full-room alerts and check-in notifications. One room, one account, one license!
 
 For spaces without a room device, you can purchase the Teams Shared Device license at an affordable price per room per month. Gain access to many of the Panel's features, such as booking with a QR code and auto-release of a room.
 
-With either of these licenses, you can manage your devices remotely with Microsoft's device management services and admin portals, Teams Rooms
-Pro Management portal and the Teams admin center.
+With either of these licenses, you can manage your devices remotely with Microsoft's device management services and admin portals, Teams Rooms Pro Management portal and the Teams admin center.
 
 ## Step 3: Setup the desired experience for your employees
 
-Once you've signed in to Teams panels, you can pick from a variety of features to help tailor the in-office experience for your employees.
-This can be done directly on the device or remotely through the Microsoft Teams admin center using [configuration
-profiles](/microsoftteams/devices/device-management#use-configuration-profiles-in-teams). 
+Once you've signed in to Teams panels, you can pick from a variety of features to help tailor the in-office experience for your employees. This can be done directly on the device or remotely through the Microsoft Teams admin center using [configuration profiles](/microsoftteams/devices/device-management).
 
-![A screenshot of a computer Description automatically
-generated](media/image1.png){width="3.7456649168853895in"
-height="2.3410411198600176in"}
+![Image of Teams admins settings on the device where admins can turn features on or off.](media/overview-teams-panels/image.png)
 
-Image of Teams admins settings on the device where admins can turn
-features on or off*
+*Teams admin settings on the device* 
 
-![A screenshot of a computer Description automatically
-generated](media/image2.png){width="4.151442475940508in"
-height="2.8381496062992126in"}
+![Image of a few of the settings available in configuration profiles for Teams panels in Teams admin center.](media/overview-teams-panels/image1.png)
 
-Image of a few of the settings available in configuration profiles for
-Teams panels in Teams admin center.
+
+
+*Configuration profile in Teams admin center*
 
 **Let's take a look at the experiences you can unlock using Teams panels**
 
-Effortlessly reserve a meeting room. Whether it's an impromptu call or a one-on-one meeting, simply tap 'Reserve' on Teams panels, select the end
-time, and the room is booked, free from interruptions. To seamlessly book the room for a new or scheduled meeting on your calendar, scan the [QR code](/microsoftteams/devices/reserving-rooms-with-a-qr-code) on the home screen using your mobile phone.
+Effortlessly reserve a meeting room. Whether it's an impromptu call or a one-on-one meeting, simply tap 'Reserve' on Teams panels, select the end time, and the room is booked, free from interruptions. To seamlessly book the room for a new or scheduled meeting on your calendar, scan the [QR code](/microsoftteams/devices/reserving-rooms-with-a-qr-code) on the home screen using your mobile phone.
 
-![Screens screenshot of a phone Description automatically
-generated](media/image3.png){width="4.743522528433946in"
-height="2.964701443569554in"}
+![Image of Teams panels home screen when the room is available.](media/overview-teams-panels/available-(4).png)
 
-Image of Teams panels home screen when the room is available.
 
-Maximize your space with the [check-in feature](/microsoftteams/devices/check-in-and-room-release).
-You can rest assured that a reserved room is being used, and if not, it is made available for others to reserve, helping you optimize space.
+Maximize your space with the [check-in feature](/microsoftteams/devices/check-in-and-room-release). You can rest assured that a reserved room is being used, and if not, it is made available for others to reserve, helping you optimize space.
 
-![Screens screenshot of a phone Description automatically
-generated](media/image4.png){width="4.7095953630796155in"
-height="2.94828302712161in"}
+![Image of Teams panels home screen when the room is booked but not yet checked in.](media/overview-teams-panels/reserved---qr-code-(4).png)
 
-Image of Teams panels home screen when the room is booked but not yet checked in.
+  
+With Teams panels, you can make real-time adjustments to your bookings. Release the room early from your reservation or extend your room booking directly from the Teams panel.
 
-With Teams panels, you can make real-time adjustments to your bookings.
-Release the room early from your reservation or extend your room booking
-directly from the Teams panel.
+![Image of Teams panels home screen with options to 'Check out' or 'Extend room reservation'.](media/overview-teams-panels/image3.png)
 
-![A screenshot of a computer Description automatically
-generated](media/image5.png){width="4.0809251968503935in"
-height="2.5444739720034995in"}
+Keep employees informed of what's happening inside the room without interruption. Teams panels show you whether the room is full, if it's occupied, and which room equipment is available. It can even alert the people inside the room that someone is waiting for the room. 
 
-Image of Teams panels home screen with options to 'Check out' or 'Extend room reservation'
+![Image of Teams panels home screen with a banner 'Room is at capacity'.](media/overview-teams-panels/resereved---capacity-banner.png)
 
-Keep employees informed of what's happening inside the room without interruption. Teams panels show you whether the room is full, if it's
-occupied, and which room equipment is available. It can even alert the people inside the room that someone is waiting for the room.\
-
-![A screenshot of a video conference Description automatically
-generated](media/image6.png){width="4.040462598425197in"
-height="2.5252887139107614in"}
-
-Image of Teams panels home screen with a banner 'Room is unoccupied'
-but the room is reserved
 
 Empower your employees to use company apps anywhere by deploying [line of business apps](/microsoftteams/app-support-on-teams-panels) to Teams panels. This ensures that employees can use them throughout the office.
 
@@ -131,14 +101,11 @@ Empower your employees to use company apps anywhere by deploying [line of busine
 
 **Question: How do I create an account?**
 
-**Answer:** Just like other Teams devices! In Microsoft Teams admin center, you can create an account under 'Rooms & Equipment' or, if you have an in-room device, you simply re-use the same account for the panel. Once signed in, in the Teams admin center, you'll see the device appear under
-**Teams Devices** > **Panels**. In the Teams Rooms Pro Management portal,the device will be visible on the Rooms and/or Inventory page. If the device is marked as unhealthy or non-urgent, it indicates that an updateis available for installation. We recommend updating to the latest apps so your device is ready to go.
+**Answer:** Just like other Teams devices! In Microsoft Teams admin center, you can create an account under 'Rooms & Equipment' or, if you have an in-room device, you simply re-use the same account for the panel. Once signed in, in the Teams admin center, you'll see the device appear under **Teams Devices** > **Panels**. In the Teams Rooms Pro Management portal, the device will be visible on the Rooms and/or Inventory page. If the device is marked as unhealthy or non-urgent, it indicates that an update is available for installation. We recommend updating to the latest apps so your device is ready to go.
 
 **Question:  Where do I go to remotely manage the device?**
 
-**Answer:** You can use either Teams Rooms Pro Management portal or Teams admin center. In the Pro Management portal, you can view Teams Shared Device or Pro licensed Panels in the Rooms and Inventory pages. You can take actions like one could on a Teams Rooms on Android device such as
-restart the device, search and apply a configuration profile, file a ticket on the device, and more. In Teams admin center, you can create,
-edit, and apply a configuration profile and push updates to the device.
+**Answer:** You can use either Teams Rooms Pro Management portal or Teams admin center. In the Pro Management portal, you can view Teams Shared Device or Pro licensed Panels in the Rooms and Inventory pages. You can take actions like one could on a Teams Rooms on Android device such as restart the device, search and apply a configuration profile, file a ticket on the device, and more. In Teams admin center, you can create, edit, and apply a configuration profile and push updates to the device.
 
 **Question: How frequently does the software need to be updated?**
 
@@ -146,8 +113,7 @@ edit, and apply a configuration profile and push updates to the device.
 
 **Question: Where can I go to learn more on Panels?**
 
-**Answer:** You can learn more [here](/microsoftteams/devices/teams-panels), and make sure to stay up to date on all of our latest
-[releases](/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_panels).
+**Answer:** You can learn more [here](/microsoftteams/devices/teams-panels), and make sure to stay up to date on all of our latest [releases](/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_panels).
 
 ## Best practices
 
