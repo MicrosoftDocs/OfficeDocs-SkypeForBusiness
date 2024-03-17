@@ -34,7 +34,7 @@ Tailored to your unique needs, Teams panels offer a range of features that can b
 
 With the flexibility to accommodate various environments, we offer two types of licenses: the [Microsoft Teams Rooms Pro license](/microsoftteams/rooms/rooms-licensing) and the [Teams Shared Device license](/microsoftteams/teams-add-on-licensing/teams-shared-device-license).
 
-If your room is already equipped with a Surface Hub or Microsoft Teams Rooms device, go Pro! With your Teams Rooms Pro license, there is no additional license required for Teams panels. With this license, you can also pair your Teams panel with Teams Rooms on Android and unlock features such as full-room alerts and check-in notifications. One room, one account, one license!
+If your room is already equipped with a Surface Hub or Microsoft Teams Rooms device, go Pro! With your Teams Rooms Pro license, there is no other license required for Teams panels. With this license, you can also pair your Teams panel with Teams Rooms on Android and unlock features such as full-room alerts and check-in notifications. One room, one account, one license!
 
 For spaces without a room device, you can purchase the Teams Shared Device license at an affordable price per room per month. Gain access to many of the Panel's features, such as booking with a QR code and auto-release of a room.
 
@@ -42,7 +42,7 @@ With either of these licenses, you can manage your devices remotely with Microso
 
 ## Step 3: Setup the desired experience for your employees
 
-Once you've signed in to Teams panels, you can pick from a variety of features to help tailor the in-office experience for your employees. This can be done directly on the device or remotely through the Microsoft Teams admin center using [configuration profiles](/microsoftteams/devices/device-management).
+Once you're signed in to Teams panels, you can pick from various features to help tailor the in-office experience for your employees. This can be done directly on the device or remotely through the Microsoft Teams admin center using [configuration profiles](/microsoftteams/devices/device-management).
 
 ![Image of Teams admins settings on the device where admins can turn features on or off.](media/overview-teams-panels/image.png)
 
@@ -93,15 +93,15 @@ Empower your employees to use company apps anywhere by deploying [line of busine
 
 **Question:  What are your suggestions for deployment?**
 
-**Answer:** You will need to work with your IT team to install Teams panels, which will require Power over Ethernet (PoE) and a network connection. We also recommend chatting with your chosen OEM about the best practices for installation depending on the type of wall such as drywall or glass.
+**Answer:** You need to work with your IT team to install Teams panels, which requires Power over Ethernet (PoE) and a network connection. We also recommend chatting with your chosen OEM about the best practices for installation depending on the type of wall such as drywall or glass.
 
 **Question: Do I need to have a Teams Rooms device?**
 
-**Answer:** You do not. Teams panels can also be deployed by themselves outside of rooms that don't have any in-room devices. Some examples we've heard of are nursing rooms and massage rooms. Any bookable space can have a panel.
+**Answer:** You do not. Teams panels can also be deployed by themselves outside of rooms that don't have any in-room devices. Some examples we have heard of are nursing rooms and massage rooms. Any bookable space can have a panel.
 
 **Question: How do I create an account?**
 
-**Answer:** Just like other Teams devices! In Microsoft Teams admin center, you can create an account under 'Rooms & Equipment' or, if you have an in-room device, you simply re-use the same account for the panel. Once signed in, in the Teams admin center, you'll see the device appear under **Teams Devices** > **Panels**. In the Teams Rooms Pro Management portal, the device will be visible on the Rooms and/or Inventory page. If the device is marked as unhealthy or non-urgent, it indicates that an update is available for installation. We recommend updating to the latest apps so your device is ready to go.
+**Answer:** Just like other Teams devices! In Microsoft Teams admin center, you can create an account under 'Rooms & Equipment' or, if you have an in-room device, you simply re-use the same account for the panel. Once signed in, in the Teams admin center, you will see the device appear under **Teams Devices** > **Panels**. In the Teams Rooms Pro Management portal, the device will be visible on the Rooms and/or Inventory page. If the device is marked as unhealthy or non-urgent, it indicates that an update is available for installation. We recommend updating to the latest apps so your device is ready to go.
 
 **Question:  Where do I go to remotely manage the device?**
 
@@ -109,7 +109,7 @@ Empower your employees to use company apps anywhere by deploying [line of busine
 
 **Question: How frequently does the software need to be updated?**
 
-**Answer:** We aim to release a few new apps each year. Hardware companies have their own release cycle for firmware as well. You can select for these updates to be applied automatically so you don't need to check. See best practices below for more info.
+**Answer:** We aim to release a few new apps each year. Hardware companies have their own release cycle for firmware as well. You can select for these updates to be applied automatically so you don't need to check. See best practices for more info.
 
 **Question: Where can I go to learn more on Panels?**
 
@@ -117,7 +117,7 @@ Empower your employees to use company apps anywhere by deploying [line of busine
 
 ## Best practices
 
-- Manage firmware and Teams app updates: Enable auto updates of firmware and Teams apps via the Microsoft Teams admin center and assign devices to different rings (Validation, General, Final) to roll out updates in phases. You can assign the Validation ring to a small set of test panels and assign other panels to General and Final rings.
+- Manage firmware and Teams app updates: To roll out updates in phases, enable auto updates of firmware and Teams apps via the Microsoft Teams admin center and assign devices to different rings (Validation, General, Final). You can assign the Validation ring to a small set of test panels and assign other panels to General and Final rings.
 
 >[!NOTE]
 > You can also decide to manually update if you want. You can learn more [here](/microsoftteams/devices/remote-update).
@@ -126,4 +126,4 @@ Empower your employees to use company apps anywhere by deploying [line of busine
 
 - Optimize screen time: Enable office hours so that the device turns off outside of working hours to save on power.
 
-- Secure panels: Set an Admin password via configuration profile to provide secured access to settings on panels.
+- Secure panels: To provide secured access to settings on panels, set an Admin password via configuration profile. 
