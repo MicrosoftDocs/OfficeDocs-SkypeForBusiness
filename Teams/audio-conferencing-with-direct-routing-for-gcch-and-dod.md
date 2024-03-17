@@ -107,7 +107,7 @@ To create a new PSTN usage in a remote PowerShell session in Teams, use the foll
   Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
   ```
 
-For additional information, see [Set-CsOnlinePstnUsage](/powershell/module/skype/set-csonlinepstnusage).
+For additional information, see [Set-CsOnlinePstnUsage](/powershell/module/teams/set-csonlinepstnusage).
 
 To create a new voice route, use the following command:
 
@@ -119,7 +119,7 @@ When defining a new voice route for your organization, specify one or multiple o
 
 The number pattern specifies which calls will be routed through the specified list of gateways based on the destination phone number of the call. In the example above, calls to any destinations in the world will match the voice route. If you would like to restrict the phone numbers that can be dialed from the meetings of users in your organization, you can change the number pattern to have the voice route match only the number patterns of the destinations allowed. Note that if there are no voice routes that match the number pattern of the destination phone number of a given call, the call will not be routed.
 
-For additional information, see [New-CsOnlineVoiceRoute](/powershell/module/skype/new-csonlinevoiceroute).
+For additional information, see [New-CsOnlineVoiceRoute](/powershell/module/teams/new-csonlinevoiceroute).
 
 To create a new voice routing policy, use the following command:
 
@@ -129,7 +129,7 @@ To create a new voice routing policy, use the following command:
 
 If multiple PSTN usages are being defined in the voice routing policy, they will be evaluated in the order in which they are defined. It is recommended that the PSTN usages are defined in the order of the most specific to the more generic in terms of the number patterns of the voice routes associated with the PSTN usages. For example, if a PSTN usage was defined to route calls to the United States, and another PSTN usage was defined to route calls to any other location in the world, the PSTN usage for calls to the United States should be listed in the voice routing policy ahead of the PSTN usage to route calls to any other location in the world.
 
-For additional information, see [New-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/new-csonlinevoiceroutingpolicy).
+For additional information, see [New-CsOnlineVoiceRoutingPolicy](/powershell/module/teams/new-csonlinevoiceroutingpolicy).
 
 To assign the new voice route to the global voice routing policy of your organization, use the following command:
 
@@ -137,7 +137,7 @@ To assign the new voice route to the global voice routing policy of your organiz
   Grant-CsOnlineVoiceRoutingPolicy -PolicyName "InternationalVoiceRoutingPolicy" -Global
   ```
 
-For additional information, see [Grant-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/grant-csonlinevoiceroutingpolicy).
+For additional information, see [Grant-CsOnlineVoiceRoutingPolicy](/powershell/module/teams/grant-csonlinevoiceroutingpolicy).
 
 Once the global voice routing policy has been defined, any outbound calls made from meetings organized by users in your organization will be evaluated against the voice routes associated to the PSTN usages of the global voice routing policy. The outbound calls will be routed according to the first voice route that matches the number pattern of the dialed phone number.
 
