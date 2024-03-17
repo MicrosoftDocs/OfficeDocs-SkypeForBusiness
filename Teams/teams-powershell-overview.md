@@ -36,6 +36,6 @@ Microsoft Teams PowerShell module default settings collect telemetry data. Micro
 
 [Teams PowerShell Release Notes](teams-powershell-release-notes.md)
 
-[Microsoft Teams cmdlet reference](/powershell/teams/?view=teams-ps)
+[Microsoft Teams cmdlet reference](/powershell/teams/)
 
 [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md)

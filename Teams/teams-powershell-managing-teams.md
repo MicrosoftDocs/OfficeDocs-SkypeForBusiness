@@ -19,7 +19,7 @@ appliesto:
 
 This article shows you how to use Microsoft Teams PowerShell to manage Teams.
 
-Use this guidance in conjunction with the [Microsoft Teams cmdlet reference](/powershell/teams/?view=teams-ps).
+Use this guidance in conjunction with the [Microsoft Teams cmdlet reference](/powershell/teams/).
 
 To manage Teams in the Teams admin center, see [Manage Teams with Azure Cloud Shell](#manage-teams-with-azure-cloud-shell).
 
@@ -110,7 +110,6 @@ Read [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md) to 
 
 [Teams PowerShell Release Notes](teams-powershell-release-notes.md)
 
-[Teams cmdlet reference](/powershell/teams/?view=teams-ps)
-
+[Teams cmdlet reference](/powershell/teams/)
 
 [Use Teams admin roles to manage Teams](using-admin-roles.md)
