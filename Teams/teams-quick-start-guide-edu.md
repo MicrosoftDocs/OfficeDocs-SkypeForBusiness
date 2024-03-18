@@ -5,7 +5,6 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jacktremper
 audience: admin
-level: Intermediate
 displayType: one-column
 ms.date: 08/30/2018
 ms.reviewer: 
