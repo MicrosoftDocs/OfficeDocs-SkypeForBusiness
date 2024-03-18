@@ -91,7 +91,7 @@ Once you’ve finished setting up the policy, assign the policy to users, groups
 
 ### Use Microsoft PowerShell to configure end-to-end encryption
 
-You can manage end-to-end encryption policies using Microsoft PowerShell and the Teams admin center. Several end-to-end encryption cmdlets are included in the Teams PowerShell module and documented in the [Microsoft Teams cmdlet reference](/powershell/teams/?view=teams-ps&preserve-view=true). This article lists the cmdlets you can use and provides simple example configurations. These configurations use the default, global policy. Your organization might require more complex policy configuration. Complete information about these cmdlets is provided in the cmdlet reference.
+You can manage end-to-end encryption policies using Microsoft PowerShell and the Teams admin center. Several end-to-end encryption cmdlets are included in the Teams PowerShell module and documented in the [Microsoft Teams cmdlet reference](/powershell/teams/). This article lists the cmdlets you can use and provides simple example configurations. These configurations use the default, global policy. Your organization might require more complex policy configuration. Complete information about these cmdlets is provided in the cmdlet reference.
 
 End-to-end encryption PowerShell cmdlets:
 
