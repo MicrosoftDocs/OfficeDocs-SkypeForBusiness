@@ -104,7 +104,7 @@ For more information about migrating from Teams Phone with on-premises PSTN conn
 
 - [Planning](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)  
 - [Deploying](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system)
-- [User configuration](/powershell/module/teams/set-csuserpstnsettings)
+- [User configuration](/powershell/module/skype/set-csuserpstnsettings)
 
 It's recommended that you remove previously configured voice routing information as follows:
 
@@ -117,16 +117,16 @@ Set-CsUserPstnSettings -Identity <UPN> -AllowInternationalCalls $false -HybridPS
 
 [Migration and interoperability guidance for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
 
-[Grant-CsTeamsUpgradePolicy](/powershell/module/teams/grant-csteamsupgradepolicy)
+[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy)
 
-[Get-CsTeamsUpgradePolicy](/powershell/module/teams/Get-CsTeamsUpgradePolicy)
+[Get-CsTeamsUpgradePolicy](/powershell/module/skype/Get-CsTeamsUpgradePolicy)
 
-[New-CsTeamsUpgradePolicy](/powershell/module/teams/New-CsTeamsUpgradePolicy)
+[New-CsTeamsUpgradePolicy](/powershell/module/skype/New-CsTeamsUpgradePolicy)
 
-[Remove-CsTeamsUpgradePolicy](/powershell/module/teams/Remove-CsTeamsUpgradePolicy)
+[Remove-CsTeamsUpgradePolicy](/powershell/module/skype/Remove-CsTeamsUpgradePolicy)
 
-[Set-CsTeamsUpgradePolicy](/powershell/module/teams/Set-CsTeamsUpgradePolicy)
+[Set-CsTeamsUpgradePolicy](/powershell/module/skype/Set-CsTeamsUpgradePolicy)
 
-[Get-CsTeamsUpgradeConfiguration](/powershell/module/teams/Get-CsTeamsUpgradeConfiguration)
+[Get-CsTeamsUpgradeConfiguration](/powershell/module/skype/Get-CsTeamsUpgradeConfiguration)
 
-[Set-CsTeamsUpgradeConfiguration](/powershell/module/teams/Set-CsTeamsUpgradeConfiguration)
+[Set-CsTeamsUpgradeConfiguration](/powershell/module/skype/Set-CsTeamsUpgradeConfiguration)

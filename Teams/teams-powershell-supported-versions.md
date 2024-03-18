@@ -55,15 +55,15 @@ It’s recommended to update to the latest Teams PowerShell Module version.
 ## Deprecated cmdlets
 
 - Some of the cmdlets that were deprecated recently are listed below. Details on the same can be found in the respective public documentations.
-  - [Get-CsOnlineVoiceUser](/powershell/module/teams/get-csonlinevoiceuser) (deprecated only in commercial & GCC environments currently)
-  - [Get-CsOnlineTelephoneNumber](/powershell/module/teams/get-csonlinetelephonenumber)
-  - [Get-CsOnlineDialInConferencingUserInfo](/powershell/module/teams/get-csonlinedialinconferencinguserinfo), [Get-CsOnlineDialInConferencingUserState](/powershell/module/teams/get-csonlinedialinconferencinguserstate), [Enable-CsOnlineDialInConferencingUser](/powershell/module/teams/enable-csonlinedialinconferencinguser), [Disable-CsOnlineDialInConferencingUser](/powershell/module/teams/disable-csonlinedialinconferencinguser)
-  - [Get-CsOnlineDirectoryTenant](/powershell/module/teams/get-csonlinedirectorytenant)
-  - [New-CsOnlineAudioFile](/powershell/module/teams/new-csonlineaudiofile)
-  - [Get-CsOnlineApplicationEndpoint](/powershell/module/teams/get-csonlineapplicationendpoint), [Set-CsOnlineApplicationEndpoint](/powershell/module/teams/set-csonlineapplicationendpoint), [New-CsOnlineApplicationEndpoint](/powershell/module/teams/new-csonlineapplicationendpoint), [Remove-CsOnlineApplicationEndpoint](/powershell/module/teams/remove-csonlineapplicationendpoint), Switch-CsOnlineApplicationEndpoint
-  - [Get-CsOnlineTelephoneNumberInventoryCities](/powershell/module/teams/get-csonlinetelephonenumberinventorycities), [Get-CsOnlineTelephoneNumberInventoryAreas](/powershell/module/teams/get-csonlinetelephonenumberinventoryareas), [Get-CsOnlineTelephoneNumberInventoryCountries](/powershell/module/teams/get-csonlinetelephonenumberinventorycountries), [Get-CsOnlineTelephoneNumberInventoryRegions](/powershell/module/teams/get-csonlinetelephonenumberinventoryregions), [Get-CsOnlineTelephoneNumberInventoryTypes](/powershell/module/teams/get-csonlinetelephonenumberinventorytypes), [Search-CsOnlineTelephoneNumberInventory](/powershell/module/teams/search-csonlinetelephonenumberinventory), [Select-CsOnlineTelephoneNumberInventory](/powershell/module/teams/select-csonlinetelephonenumberinventory), [Get-CsOnlineTelephoneNumberAvailableCount](/powershell/module/teams/get-csonlinetelephonenumberavailablecount), [Clear-CsOnlineTelephoneNumberReservation](/powershell/module/teams/clear-csonlinetelephonenumberreservation), [Get-CsOnlineTelephoneNumberReservationsInformation](/powershell/module/teams/get-csonlinetelephonenumberreservationsinformation), [Get-CsOnlineDirectoryTenantNumberCities](/powershell/module/teams/get-csonlinedirectorytenantnumbercities)
-  - [Set-CsTeamsAppSetupPolicy](/powershell/module/teams/set-csteamsappsetuppolicy), [New-CsTeamsAppSetupPolicy](/powershell/module/teams/new-csteamsappsetuppolicy), [Set-CsTeamsAppPermissionPolicy](/powershell/module/teams/set-csteamsapppermissionpolicy), [New-CsTeamsAppPermissionPolicy](/powershell/module/teams/new-csteamsapppermissionpolicy)
-  - [Test-CsOnlineLisCivicAddress](/powershell/module/teams/test-csonlineliscivicaddress)
+  - [Get-CsOnlineVoiceUser] (deprecated only in commercial & GCC environments currently)
+  - [Get-CsOnlineTelephoneNumber]
+  - [Get-CsOnlineDialInConferencingUserInfo], [Get-CsOnlineDialInConferencingUserState], [Enable-CsOnlineDialInConferencingUser], [Disable-CsOnlineDialInConferencingUser]
+  - [Get-CsOnlineDirectoryTenant]
+  - [New-CsOnlineAudioFile]
+  - [Get-CsOnlineApplicationEndpoint], [Set-CsOnlineApplicationEndpoint], [New-CsOnlineApplicationEndpoint], [Remove-CsOnlineApplicationEndpoint], Switch-CsOnlineApplicationEndpoint
+  - [Get-CsOnlineTelephoneNumberInventoryCities], [Get-CsOnlineTelephoneNumberInventoryAreas], [Get-CsOnlineTelephoneNumberInventoryCountries], [Get-CsOnlineTelephoneNumberInventoryRegions], [Get-CsOnlineTelephoneNumberInventoryTypes], [Search-CsOnlineTelephoneNumberInventory], [Select-CsOnlineTelephoneNumberInventory], [Get-CsOnlineTelephoneNumberAvailableCount], [Clear-CsOnlineTelephoneNumberReservation], [Get-CsOnlineTelephoneNumberReservationsInformation], [Get-CsOnlineDirectoryTenantNumberCities]
+  - [Set-CsTeamsAppSetupPolicy], [New-CsTeamsAppSetupPolicy], [Set-CsTeamsAppPermissionPolicy], [New-CsTeamsAppPermissionPolicy]
+  - [Test-CsOnlineLisCivicAddress]
 
 - Cmdlets that aren't supported/relevant for Microsoft Teams scenarios.
   - [Get|Set]-CsUserPstnSettings
