@@ -35,7 +35,7 @@ This article is for IT Pros and administrators who want to delegate Auto attenda
 
 Voice applications policies allow you to create and assign voice application policies to authorized users. Voice application policies control what configuration changes an authorized user can make to the auto attendants and call queues they're authorized for.
 
-Before creating and assigning policies, read [Plan for authorized users](aa-cq-authorized-users-plan) for licensing information and [Set up authorized users](aa-cq-authorized-users.md). Some configuration capabilities require a Teams Premium license.
+Before creating and assigning policies, read [Plan for authorized users](aa-cq-authorized-users-plan.md) for licensing information and [Set up authorized users](aa-cq-authorized-users.md). Some configuration capabilities require a Teams Premium license.
 
 You can manage voice applications policies by using the [Microsoft Teams admin center](https://admin.microsoft.com/) or with PowerShell to create and assign custom policies. Users in your organization automatically get the global policy unless you create and assign a custom policy.
 
@@ -89,7 +89,7 @@ In addition to creating a TeamsVoiceApplicationsPolicy and assigning it to users
 
 If you only assign a voice application policy to a user and don't assign them as an authorized user to at least one auto attendant or call queue, the user can't perform the actions described in [Voice applications policy settings](#voice-applications-policy-settings). The reverse is also true - if you only assign a user as an Authorized user to at least one auto attendant or call queue but you don't assign them a voice applications policy, the user can't perform the actions you delegate.
 
-To learn more about the different ways that you can assign policies to users, see [Assign policies to your users in Teams](../policy-assignment-overview.md).
+To learn more about the different ways that you can assign policies to users, see [Assign policies to your users in Teams](policy-assignment-overview.md).
 
 ## Voice applications policy settings
 
