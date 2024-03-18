@@ -25,9 +25,9 @@ appliesto:
 
 # Configure Teams Phone Mobile
 
-This article is for administrators and IT professionals who are configuring Teams Phone Mobile. Before configuring Teams Phone Mobile, be sure to read [Plan for Teams Phone Mobile](operator-connect-mobile-plan.md) for information about benefits, prerequisites, and licensing.
+This article is for administrators and IT professionals who are configuring Microsoft Teams Phone Mobile. Before configuring Teams Phone Mobile, be sure to read [Plan for Teams Phone Mobile](operator-connect-mobile-plan.md) for information about benefits, requirements, and licensing.
 
-For a list of operators participating in the Microsoft Teams Phone Mobile program, and the countries or regions where their service is available, see [Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/teams-phone-mobile).
+For a list of operators participating in the Teams Phone Mobile program, and the countries or regions where their service is available, see [Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/teams-phone-mobile).
 
 This article describes the following steps to configure Teams Phone Mobile:
 
@@ -137,6 +137,8 @@ To manage a user's incoming calling policies by using the Teams admin center:
 
 
 ### Use PowerShell
+
+To manage a user's incoming calling policies by using PowerShell:
 
 1. Connect to your tenant: Connect-MicrosoftTeams.
  
