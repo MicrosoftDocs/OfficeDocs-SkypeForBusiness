@@ -73,6 +73,8 @@ Approvals that are created from a template still store data in Microsoft Dataver
 
 Org-scoped templates share the same lifetime of the tenant and team-scoped templates share the same lifetime of the team. So, permanently deleting the team deletes the related templates.
 
+Viva Amplify approvals don't interact with Forms. Approvals store their data in dataverse tables in Power Platform.
+
 ## Approvals Teams app permissions
 
 The Approvals Teams app lets you access the following features:
