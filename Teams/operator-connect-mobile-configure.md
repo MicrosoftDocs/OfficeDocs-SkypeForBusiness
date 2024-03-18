@@ -64,7 +64,7 @@ To find your operator's website, see the [Microsoft 365 Teams Phone Mobile direc
 
 You'll need to provide your tenant ID. If you don't know your tenant ID, see [Find your Microsoft 365 tenant ID](/onedrive/find-your-office-365-tenant-id). You may be porting an existing desk phone number or wireline number to a wireless voice subscription if it's supported in your region and by your operator. 
 
-How you set up phone numbers depends on whether you're setting up numbers for new users, or moving existing numbers from Microsoft Calling Plans, Operator Connect, or Direct Routing. How to set up phone numbers for the various scenarios is described in detail in [Set up phone numbers for Teams Phone Mobile](operator-connect-mobile-configure-numbers.md). You can navigate to the section that pertains to your scenario:
+How you manage phone numbers depends on whether you're setting up numbers for new users, or moving existing numbers from Microsoft Calling Plans, Operator Connect, or Direct Routing. The various scenarios are described in detail in [Manage phone numbers for Teams Phone Mobile](operator-connect-mobile-configure-numbers.md). You can navigate to the section that pertains to your scenario:
 
 - [Acquire numbers for new Teams users](operator-connect-mobile-configure-numbers.md#acquire-numbers-for-new-teams-users).  
 
