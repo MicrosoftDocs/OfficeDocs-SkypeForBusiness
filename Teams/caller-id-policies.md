@@ -57,7 +57,7 @@ For the outbound PSTN caller ID, the following options are available:
   - A telephone number that is classified as a service and toll-free number in your Calling Plans telephone number inventory. It's assigned to a resource account used by a Teams Auto Attendant or Call Queue.
   
   > [!NOTE]
-  > The use of CallingIDSubstitute = Service has been deprecated. You're no longer able to create new caller ID policies using CallingIDSubstitute = Service and existing caller ID policies with CallingIDSubstitute = Service are not being honored. You should use CallingIDSubstitute = Resource instead. See [Set-CsCallingLineIdentity](/powershell/module/skype/Set-CsCallingLineIdentity) for more details and examples.
+  > The use of CallingIDSubstitute = Service has been deprecated. You're no longer able to create new caller ID policies using CallingIDSubstitute = Service and existing caller ID policies with CallingIDSubstitute = Service are not being honored. You should use CallingIDSubstitute = Resource instead. See [Set-CsCallingLineIdentity](/powershell/module/teams/Set-CsCallingLineIdentity) for more details and examples.
 
 - The Calling Party Name or CNAM set on the outbound PSTN call.
 
@@ -69,7 +69,7 @@ For the outbound PSTN caller ID, the following options are available:
 
 - End user control that overrides the caller ID policy.
 
-  - The parameter EnableUserOverride has precedence over other settings in the [CallingLineIdentity](/powershell/module/skype/set-cscallinglineidentity) policy.
+  - The parameter EnableUserOverride has precedence over other settings in the [CallingLineIdentity](/powershell/module/teams/set-cscallinglineidentity) policy.
 
   - For example, assume a policy instance has substitution enabled with a resource account and EnableUserOverride is set and enabled by the user. In this case, the outbound caller ID is blocked and Anonymous is used.
 
@@ -81,7 +81,7 @@ You can't assign the following types of phone numbers for the outbound caller ID
 
 - A Skype for Business Server on-premises telephone number.
 
-For Direct Routing, the phone number substitution and the CNAM are sent in the `From` Session Information Protocol (SIP) header. If the corresponding [OnlinePstnGateway](/powershell/module/skype/set-csonlinepstngateway) policy is configured with `-ForwardPai $true`, the P-Asserted-Identity (PAI) SIP header contains the real calling user.
+For Direct Routing, the phone number substitution and the CNAM are sent in the `From` Session Information Protocol (SIP) header. If the corresponding [OnlinePstnGateway](/powershell/module/teams/set-csonlinepstngateway) policy is configured with `-ForwardPai $true`, the P-Asserted-Identity (PAI) SIP header contains the real calling user.
 
 For more information, see [configure caller ID policies](#configure-caller-id-policies).
 
@@ -156,11 +156,11 @@ You can edit the global policy or any custom policies that you create.
 
 You can manage caller ID policies by using the following PowerShell cmdlets in Teams PowerShell module 2.3.1 or later:
 
-- [New-CsCallingLineIdentity](/powershell/module/skype/new-cscallinglineidentity)
-- [Set-CsCallingLineIdentity](/powershell/module/skype/set-cscallinglineidentity)
-- [Remove-CsCallingLineIdentity](/powershell/module/skype/remove-cscallinglineidentity)
-- [Get-CsCallingLineIdentity](/powershell/module/skype/get-cscallinglineidentity)
-- [Grant-CsCallingLineIdentity](/powershell/module/skype/grant-cscallinglineidentity)
+- [New-CsCallingLineIdentity](/powershell/module/teams/new-cscallinglineidentity)
+- [Set-CsCallingLineIdentity](/powershell/module/teams/set-cscallinglineidentity)
+- [Remove-CsCallingLineIdentity](/powershell/module/teams/remove-cscallinglineidentity)
+- [Get-CsCallingLineIdentity](/powershell/module/teams/get-cscallinglineidentity)
+- [Grant-CsCallingLineIdentity](/powershell/module/teams/grant-cscallinglineidentity)
 
 #### New custom caller ID policy
 
@@ -209,4 +209,4 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName "Ano
 - [Teams policies reference - Caller ID](settings-policies-reference.md#caller-id-policies)
 - [More about Calling Line ID and Calling Party Name](more-about-calling-line-ID-and-calling-party-name.md)
 - [Assign policies to your users in Teams](policy-assignment-overview.md)
-- [Set-CsCallingLineIdentity](/powershell/module/skype/set-cscallinglineidentity)
+- [Set-CsCallingLineIdentity](/powershell/module/teams/set-cscallinglineidentity)

@@ -75,4 +75,4 @@ Prebuilt team templates are templates that we created for specific industries. H
 
 - [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md)
 - [Create a team](/graph/api/team-post?view=graph-rest-beta&preserve-view=true) (in preview)
-- [New-Team](/powershell/module/teams/New-Team?view=teams-ps&preserve-view=true)
+- [New-Team](/powershell/module/teams/New-Team)

@@ -66,8 +66,8 @@ For more information, please refer to [Migration and interoperability Guidance f
 For more information about migrating from Calling Plans, see:
 
 - [Set up Calling Plans](/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
-- [Set-CsOnlineVoice User](/powershell/module/skype/Set-CsOnlineVoiceUser)
-- [Get-CsOnlineLisLocation](/powershell/module/skype/get-csonlinelislocation)  
+- [Set-CsOnlineVoice User](/powershell/module/teams/Set-CsOnlineVoiceUser)
+- [Get-CsOnlineLisLocation](/powershell/module/teams/get-csonlinelislocation)  
 
 It's recommended that you remove previously configured licensing plan information as follows:
 
@@ -104,7 +104,7 @@ For more information about migrating from Teams Phone with on-premises PSTN conn
 
 - [Planning](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)  
 - [Deploying](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system)
-- [User configuration](/powershell/module/skype/set-csuserpstnsettings)
+- [User configuration](/powershell/module/teams/set-csuserpstnsettings)
 
 It's recommended that you remove previously configured voice routing information as follows:
 
@@ -117,16 +117,16 @@ Set-CsUserPstnSettings -Identity <UPN> -AllowInternationalCalls $false -HybridPS
 
 [Migration and interoperability guidance for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
 
-[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy)
+[Grant-CsTeamsUpgradePolicy](/powershell/module/teams/grant-csteamsupgradepolicy)
 
-[Get-CsTeamsUpgradePolicy](/powershell/module/skype/Get-CsTeamsUpgradePolicy)
+[Get-CsTeamsUpgradePolicy](/powershell/module/teams/Get-CsTeamsUpgradePolicy)
 
-[New-CsTeamsUpgradePolicy](/powershell/module/skype/New-CsTeamsUpgradePolicy)
+[New-CsTeamsUpgradePolicy](/powershell/module/teams/New-CsTeamsUpgradePolicy)
 
-[Remove-CsTeamsUpgradePolicy](/powershell/module/skype/Remove-CsTeamsUpgradePolicy)
+[Remove-CsTeamsUpgradePolicy](/powershell/module/teams/Remove-CsTeamsUpgradePolicy)
 
-[Set-CsTeamsUpgradePolicy](/powershell/module/skype/Set-CsTeamsUpgradePolicy)
+[Set-CsTeamsUpgradePolicy](/powershell/module/teams/Set-CsTeamsUpgradePolicy)
 
-[Get-CsTeamsUpgradeConfiguration](/powershell/module/skype/Get-CsTeamsUpgradeConfiguration)
+[Get-CsTeamsUpgradeConfiguration](/powershell/module/teams/Get-CsTeamsUpgradeConfiguration)
 
-[Set-CsTeamsUpgradeConfiguration](/powershell/module/skype/Set-CsTeamsUpgradeConfiguration)
+[Set-CsTeamsUpgradeConfiguration](/powershell/module/teams/Set-CsTeamsUpgradeConfiguration)

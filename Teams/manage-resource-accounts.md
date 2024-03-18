@@ -50,7 +50,7 @@ To switch the licenses on your existing resource account from a **Teams Phone St
 
 ## Skype For Business Server 2019
 
-For resource accounts homed on Skype For Business Server 2019 that can be used with cloud Call queues and cloud Auto attendants, see [Plan Cloud Call queues](/SkypeforBusiness/hybrid/plan-call-queue) or [Plan Cloud Auto attendants](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant). Hybrid implementations (numbers homed on Direct Routing) are configured using the [New-CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint) cmdlet on an on-premises Skype for Business Server 2019 server.
+For resource accounts homed on Skype For Business Server 2019 that can be used with cloud Call queues and cloud Auto attendants, see [Plan Cloud Call queues](/SkypeforBusiness/hybrid/plan-call-queue) or [Plan Cloud Auto attendants](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant). Hybrid implementations (numbers homed on Direct Routing) are configured using the [New-CsHybridApplicationEndpoint](/powershell/module/teams/new-cshybridapplicationendpoint) cmdlet on an on-premises Skype for Business Server 2019 server.
 
 The application IDs that you need to use while creating the application instances are:
 

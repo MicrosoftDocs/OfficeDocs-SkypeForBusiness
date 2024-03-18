@@ -95,9 +95,9 @@ Use policies to control which features are available to users on common area pho
 
 The Teams IP Phone policy can only be modified if the account signing into the phone is licensed with something other than a **Teams Shared Devices** license.  If licensed with a Microsoft 365 E3 or E5 subscription, or an Office 365 Enterprise E1, E3, or E5 subscription, you can modify the IP Phone policy.  If you're using a **Teams Rooms** license on your common area phone account, it will only let you use `MeetingRoomSignIn` mode. `MeetingRoomSignIn` mode isn't available on most common area phones. For more information about supported overrides for the phone interface, see [Set Microsoft Teams Android devices user interface](/microsoftteams/devices/teams-android-devices-user-interface#override-automatic-user-interface-detection).
 
-Using the Teams IP Phone policy, set the [SignInMode parameter](/powershell/module/skype/new-csteamsipphonepolicy#parameters) to `CommonAreaPhoneSignIn` to enable the common area phone experience on the Teams phone device.
+Using the Teams IP Phone policy, set the [SignInMode parameter](/powershell/module/teams/new-csteamsipphonepolicy#parameters) to `CommonAreaPhoneSignIn` to enable the common area phone experience on the Teams phone device.
 
-To configure other parameters, consider creating an [IP phone policy](/powershell/module/skype/new-csteamsipphonepolicy). For example, if a common area phone is used in a public area, set an IP phone policy to restrict searching your organization's Global Address Book and block hot-desking. To learn more, see [Set Teams Android devices user interface](/microsoftteams/devices/Teams-Android-devices-user-interface).
+To configure other parameters, consider creating an [IP phone policy](/powershell/module/teams/new-csteamsipphonepolicy). For example, if a common area phone is used in a public area, set an IP phone policy to restrict searching your organization's Global Address Book and block hot-desking. To learn more, see [Set Teams Android devices user interface](/microsoftteams/devices/Teams-Android-devices-user-interface).
 
 ### Calling policies
 
@@ -151,7 +151,7 @@ The following advanced calling features are available for supported Teams phone 
 
 - [Call park and retrieve](call-park-and-retrieve.md).
 - [Cloud-based voicemail through Exchange Online Plan 2](set-up-phone-system-voicemail.md).
-  - To disable cloud-based voicemail, see [Voicemail user settings using PowerShell](/powershell/module/skype/set-csonlinevoicemailusersettings).
+  - To disable cloud-based voicemail, see [Voicemail user settings using PowerShell](/powershell/module/teams/set-csonlinevoicemailusersettings).
 - [Call queues](create-a-phone-system-call-queue.md).
 - [Auto attendants](create-a-phone-system-auto-attendant.md).
 - [Group call pickup](call-sharing-and-group-call-pickup.md).
