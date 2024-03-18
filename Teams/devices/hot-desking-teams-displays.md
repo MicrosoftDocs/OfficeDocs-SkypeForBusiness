@@ -29,7 +29,7 @@ Teams Displays are used in a shared areas with hot desks, or private work areas 
 Hot desking requires two types of accounts:
 
 - **Resource account** - used by the Teams Display for the hot desking experience and booking the space.
-- **User account** - used by the user who's booked the Teams Display to sign in to access their account and settings.
+- **User account** - used by the user that booked the Teams Display to sign in to access their account and settings.
 
 ## Step 1 – Buy the licenses
 
@@ -103,7 +103,7 @@ To sign in locally with a username and password:
 3. Follow the sign-in directions on the device. Once signed in, the Teams Display will display the hot desking user experience.
 
 ### Sign in from another device
-You can also sign into to a Teams Display from another device using a code. When you sign in this way, you'll enter the username and password on another device, rather than on the display itself.
+You can also sign into to a Teams Display from another device using a code. When you sign in this way, you enter the username and password on another device, rather than on the display itself.
 
 1. On your Teams Display, find the code displayed on the sign in screen.
 2. On another device, go to [https://www.microsoft.com/devicelogin](https://www.microsoft.com/devicelogin).
