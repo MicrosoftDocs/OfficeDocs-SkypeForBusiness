@@ -27,16 +27,16 @@ appliesto:
 
 This article is for administrators and IT professionals who are configuring Teams Phone Mobile. Before configuring Teams Phone Mobile, be sure to read [Plan for Teams Phone Mobile](operator-connect-mobile-plan.md) for information about benefits, prerequisites, and licensing.
 
-For a list of operators participating in the Microsoft Teams Phone Mobile program and the countries or regions where their service is available, see [Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/teams-phone-mobile).
+For a list of operators participating in the Microsoft Teams Phone Mobile program, and the countries or regions where their service is available, see [Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/teams-phone-mobile).
 
 This article describes the following steps to configure Teams Phone Mobile:
 
 - [Step 1: Enable an operator](#step-1-enable-an-operator)
-- [Step 2: Set up phone numbers](#step-2-set-up-phone-numbers)
+- [Step 2: Manage phone numbers](#step-2-manage-phone-numbers)
 - [Step 3: Assign numbers to emergency addresses](#step-3-assign-numbers-to-emergency-addresses)
-- [Step 4: Manage your operators](#manage-your-operators)
-- [Step 5: Release numbers](#release-numbers)
-- [Step 6: Manage user incoming calling policies](#manage-user-incoming-calling-policies)
+- [Step 4: Manage your operators](#step-4-manage-your-operators)
+- [Step 5: Release numbers](#step-5-release-numbers)
+- [Step 6: Manage user incoming calling policies](#step-6-manage-user-incoming-calling-policies)
 
 ## Step 1: Enable an operator
 
@@ -50,13 +50,13 @@ You can enable an operator by using the Teams admin center.
 
 4. **Provide contact information.** Your contact information, including your full name and email address, will be shared automatically with your operator. You can change this information later. Additionally, you'll need to provide company size, and you'll have the option to provide your phone number. Operators will use this information to contact you with more details about Teams Phone Mobile.
 
-4. Accept the data transfer notice.
+5. Accept the data transfer notice.
 
-5. Select **Add as my operator** to save.
+6. Select **Add as my operator** to save.
 
 You can also edit and remove operators by using the Teams admin center and navigating to **Voice > Operators**.
 
-## Step 2: Set up phone numbers
+## Step 2: Manage phone numbers
 
 If you want to add your existing company paid SIM-enabled phone numbers to Teams, contact your operator to ensure you have the eligible Teams Phone Mobile subscription. Your operator can upload your numbers to Teams. After your operator completes the order, you can assign those numbers to users. 
 
@@ -92,7 +92,7 @@ When calls are made through the native dialer of the SIM-enabled smartphone, you
 For more information on emergency calling, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md) and [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).
 
 
-## Manage your operators
+## Step 4: Manage your operators
 
 From the **My operators** tab, you can view your operators and their status, and make the following changes to your selections:  
 
@@ -103,7 +103,7 @@ From the **My operators** tab, you can view your operators and their status, and
 > [!NOTE]
 > Before removing an operator from your organization or from a country/region, you must remove all phone numbers assigned to users in the organization or country/region and contact the operator to release the numbers.
 
-## Release numbers
+## Step 5: Release numbers
 
 To release phone numbers from the Teams admin center, go to the **Phone numbers** page and select a number.
 
@@ -111,7 +111,7 @@ To release phone numbers from the Teams admin center, go to the **Phone numbers*
 
 - If the phone number is assigned to a user, you'll need to unassign the number. Select **Edit**, then **Remove user**. After you save your changes, select **Release**.
 
-## Manage user incoming calling policies
+## Step 6: Manage user incoming calling policies
 
 You can manage a user's incoming calling policies by using the Teams admin center or by using PowerShell. By default, incoming calls for Teams Phone Mobile users will ring the Teams app first on the user's SIM-enabled mobile device. 
 
