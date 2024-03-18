@@ -705,7 +705,7 @@ Introduced in this update:
 - Support for Teams Premium security features including end-to-end encryption for meetings and sensitivity labels.
 - Fix for an experience regression in the Call app including support for P2P call and group call.
 - Reliability and other improvements.
-- Removal of Calling settings from the Teams admin settings on the device, including auto-answer. The latest device configuration prior to the setting removal still applies. Once a device is reset, the functonality is no longer available, just as it is for new devices. 
+- Removal of Calling settings from the Teams admin settings on the device, including auto dial and auto answer. The latest device configuration prior to the setting removal still applies. Once a device is reset, the functonality is no longer available, just as it is for new devices. 
 
 <sup>1</sup> The Meeting ID and passcode feature fully rolls out in March 2024.  
   
