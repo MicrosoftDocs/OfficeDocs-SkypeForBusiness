@@ -8,8 +8,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
-ms.date: 10/17/2023
-ms.reviewer: mhayrapetyan
+ms.date: 03/17/2024
+ms.reviewer: eddieqiao
 ms.collection: 
   - M365-collaboration
 f1.keywords: 
@@ -150,8 +150,6 @@ The limitations on some of the customizable fields are below:
 | I can't customize an app. | Cross-check if the [app is customizable or not](#verify-if-an-app-is-customizable).|
 | I started to customize an app but can't save or apply my changes. | Adhere to the limitations of the fields. Look for errors on the UI and the [limitations of app customization](#considerations-and-limitations-of-app-customization). |
 | Manage apps page not loading properly. List of apps isn't displayed. | Admin account in use must have the Teams license assigned. |
-
-<!--- Check ICM for error string. --->
 
 ## Reset app details to default values
 
