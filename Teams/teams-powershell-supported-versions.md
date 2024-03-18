@@ -50,7 +50,7 @@ It’s recommended to update to the latest Teams PowerShell Module version.
   - [New|Remove]-CsHybridTelephoneNumber cmdlets are now supported from versions 4.5.0 or later in GCC High and DoD environments.
 
 
-- While using TPM 4.x.x or later, it's recommended to not use any of the deprecated or unsupported cmdlets mentioned [below](#deprecated-cmdlets).
+- While using TPM 4.x.x or later, it's recommended to not use any of the [deprecated or unsupported](#deprecated-cmdlets) cmdlets.
 
 ## Deprecated cmdlets
 
@@ -65,7 +65,7 @@ It’s recommended to update to the latest Teams PowerShell Module version.
   - [Set-CsTeamsAppSetupPolicy](/powershell/module/teams/set-csteamsappsetuppolicy), [New-CsTeamsAppSetupPolicy](/powershell/module/teams/new-csteamsappsetuppolicy), [Set-CsTeamsAppPermissionPolicy](/powershell/module/teams/set-csteamsapppermissionpolicy), [New-CsTeamsAppPermissionPolicy](/powershell/module/teams/new-csteamsapppermissionpolicy)
   - [Test-CsOnlineLisCivicAddress](/powershell/module/teams/test-csonlineliscivicaddress)
 
-- Cmdlets that aren't supported/relevant for Microsoft Teams scenarios are listed below.
+- Cmdlets that aren't supported/relevant for Microsoft Teams scenarios.
   - [Get|Set]-CsUserPstnSettings
   - [Get|Set|Enable|Disable]-CsMeetingRoom
   - [Grant|Get|Set|New|Remove]-CsConferencingPolicy
