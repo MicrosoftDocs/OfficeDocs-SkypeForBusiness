@@ -25,6 +25,9 @@ description: Learn how to use and manage voice applications policies in Microsof
 
 # Manage voice applications policies in Microsoft Teams
 
+> [!NOTE]
+> Some of these features are in limited public preview. For more information, contact your Microsoft customer success manager. Information in this article is subject ot change.
+
 This article is for IT Pros and administrators who want to delegate Auto attendant and Call queue change capabilities to users in their organization.
 
 Voice applications policies allow you to create and assign voice application policies to authorized users. Voice application policies control what configuration changes an authorized user can make to the auto attendants and call queues they're authorized for.
