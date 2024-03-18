@@ -1,5 +1,5 @@
 ---
-title: Hot desking Teams displays
+title: Hot-desking Teams displays
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
@@ -17,18 +17,18 @@ ms.collection:
   - Tier1
 f1.keywords: 
   - NOCSH
-description: Learn how to set up and deploy hot desking for Teams Displays.
+description: Learn how to set up and deploy hot-desking for Teams Displays.
 ms.localizationpriority: medium
 search.appverid: MET150
 ---
 
-# Deploy hot desking for Teams Displays
+# Deploy hot-desking for Teams Displays
 
-Teams Displays are used in a shared areas with hot desks, or private work areas such as phone booths or other type of private rooms. This article helps you to deploy and configure Teams Displays in hot desking mode. Hot desking lets users reserve, sign-in, collaborate with other people, and then end their session securely.
+Teams Displays are used in a shared areas with hot desks, or private work areas such as phone booths or other type of private rooms. This article helps you to deploy and configure Teams Displays in hot-desking mode. Hot-desking lets users reserve, sign-in, collaborate with other people, and then end their session securely.
 
-Hot desking requires two types of accounts:
+Hot-desking requires two types of accounts:
 
-- **Resource account** - used by the Teams Display for the hot desking experience and booking the space.
+- **Resource account** - used by the Teams Display for the hot-desking experience and booking the space.
 - **User account** - used by the user that booked the Teams Display to sign in to access their account and settings.
 
 ## Step 1 – Buy the licenses
@@ -89,7 +89,7 @@ To configure other parameters, consider creating an [IP phone policy](/powershel
 
 ## Step 4 - Sign in
 
-Once you create and configure the resource account for the Teams Display, you must sign in to the account and set it up for hot desking.
+Once you create and configure the resource account for the Teams Display, you must sign in to the account and set it up for hot-desking.
 
 - [Local sign in](../set-up-common-area-phones.md#local-sign-in).
 - [Sign in from another device](../set-up-common-area-phones.md#sign-in-from-another-device).
@@ -100,7 +100,7 @@ To sign in locally with a username and password:
 
 1. Turn on the Teams Display and connect it to your network.
 2. Select  **Sign in on this device**.
-3. Follow the sign-in directions on the device. Once signed in, the Teams Display will display the hot desking user experience.
+3. Follow the sign-in directions on the device. Once signed in, the Teams Display will display the hot-desking user experience.
 
 ### Sign in from another device
 You can also sign into to a Teams Display from another device using a code. When you sign in this way, you enter the username and password on another device, rather than on the display itself.
@@ -121,4 +121,4 @@ As an admin, you can remotely provision and sign into Teams Display from the [Te
 
 > [!Note]
 >
-> For hot desking, we recommend the 'AllowConflicts' setting is set to '$False' on all resource mailboxes to ensure resources are booked exclusively for a single user's appointment.
+> For hot-desking, we recommend the 'AllowConflicts' setting is set to '$False' on all resource mailboxes to ensure resources are booked exclusively for a single user's appointment.

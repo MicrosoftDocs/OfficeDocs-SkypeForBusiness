@@ -90,7 +90,7 @@ You can see the ID of your Audio Conferencing Bridge using Get-CsOnlineDialInCon
 
 ### Step 4: Define a global voice routing policy to enable the routing of outbound calls from meetings
 
-The routing of outbound calls that are made to the PSTN from meetings organized by users in your organization is defined by the global voice routing policy of your organization. If your organization has a global voice routing policy defined, verify that the global voice routing policy allows the outbound calls to the PSTN that are expected to be initiated from meetings organized by users in your organization. If your organization doesn’t have a global voice routing policy defined, you will need to define one to enable the routing of outbound calls to the PSTN from meetings organized by users in your organization. Note that the global voice routing policy of your organization also applies to one-to-one calls made to the PSTN by users in your organization. If one-to-one calls to the PSTN are enabled for users in your organization, make sure that the global voice routing policy meets the needs of your organization for both types of calls.
+The routing of outbound calls that are made to the Public Switched Telephone Network (PSTN) from meetings that are organized by users in your organization is defined by the global voice routing policy of your organization. If your organization has a global voice routing policy defined, verify that the global voice routing policy allows the outbound calls to the PSTN that are expected to be initiated from meetings organized by users in your organization. If your organization doesn’t have a global voice routing policy defined, you will need to define one to enable the routing of outbound calls to the PSTN from meetings organized by users in your organization. Note that the global voice routing policy of your organization also applies to one-to-one calls made to the PSTN by users in your organization. If one-to-one calls to the PSTN are enabled for users in your organization, make sure that the global voice routing policy meets the needs of your organization for both types of calls.
 
 > [!NOTE]
 > Location-Based Routing isn't available in Microsoft 365 Government Community Cloud (GCC) High or DoD deployments. When enabling Audio Conferencing, verify that no Audio Conferencing users in the GCCH or the DoD environments are enabled for Location-Based Routing.
@@ -139,7 +139,7 @@ To assign the new voice route to the global voice routing policy of your organiz
 
 For additional information, see [Grant-CsOnlineVoiceRoutingPolicy](/powershell/module/teams/grant-csonlinevoiceroutingpolicy).
 
-Once the global voice routing policy has been defined, any outbound calls made from meetings organized by users in your organization will be evaluated against the voice routes associated to the PSTN usages of the global voice routing policy. The outbound calls will be routed according to the first voice route that matches the number pattern of the dialed phone number.
+Once the global voice routing policy has been defined, any outbound calls made from meetings that are organized by users in your organization will be evaluated against the voice routes associated to the PSTN usages of the global voice routing policy. The outbound calls will be routed according to the first voice route that matches the number pattern of the dialed phone number.
 
 ### Step 5: Assign Audio Conferencing with Direct Routing for GCCH or DoD licenses to your users
 
