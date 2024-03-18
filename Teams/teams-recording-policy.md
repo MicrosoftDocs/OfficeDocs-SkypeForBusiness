@@ -1,7 +1,7 @@
 ---
 title: Introduction to Teams Policy-based Recording for Calling & Meetings
-author: MikePlumleyMSFT
-ms.author: mikeplum
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.date: 05/11/2020
 audience: Admin
@@ -307,8 +307,13 @@ The following partners are in the process of certifying their solution for Micro
 
 This list gets updated as more partners join and meet the certification criteria.
 
+## Support boundaries
+
+Microsoft supports Compliance Recording solutions only from the certified partners. If there are issues, you must contact your Compliance Recording partner first. If needed, the Compliance Recording partner will bring the issue to Microsoft through internal channels. Microsoft may reject support cases where a non-certified Compliance Recording solution is used, or if investigation shows the issue is one that the partner can address.
+
 ## Next steps
 
 If you need to provide more context and details, send a mail to [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com). If you're a vendor seeking to join the certification program, fill out the calling platform intake as the next step.
+
 
 ### [Calling Platform Intake](https://aka.ms/CallingPlatformIntake)

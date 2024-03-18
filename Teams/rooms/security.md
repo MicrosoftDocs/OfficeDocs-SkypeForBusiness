@@ -3,21 +3,21 @@ title: Microsoft Teams Rooms security
 ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
-audience: ITPro
-appliesto: 
-  - Microsoft Teams
 ms.reviewer: kspiess
 ms.date: 11/02/2023
 ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-f1.keywords: 
-  - NOCSH
-ms.localizationpriority: medium
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
   - Tier1
+f1.keywords: 
+  - NOCSH
+ms.localizationpriority: medium
 description: Learn how to secure your Microsoft Teams Rooms on Windows and Android devices.
 ---
 
