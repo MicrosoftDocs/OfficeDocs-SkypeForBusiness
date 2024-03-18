@@ -50,9 +50,12 @@ When a user opens the Planner app in Teams, they see:
 - **New plan**: Create a new personal or shared plan directly in the app.
 
 > [!NOTE]
-> When using the Planner app on Teams mobile, users will only see plans that are added to tab in a channel within a team.
+> There's limited functionaly when using the Planner app on Teams mobile. On mobile, users will only see plans that are added to a tab in a channel within a team.
 
-Users can also use the Planner app to create new personal or shared plans and get notifications about Planner tasks.
+Users can also use the Planner app to:
+
+- Create new personal or shared plans.
+- Get notifications about Planner tasks.
 
 For organizations who want to streamline task management for frontline workers, Planner also includes capabilities that enable you to target, publish, and track tasks at scale across your frontline workforce. For example, corporate and regional leadership can create and publish task lists targeted to relevant locations, such as specific retail stores, and track progress through real-time reports. Managers can assign tasks to their staff and direct activities within their locations, and frontline workers have a prioritized list of their assigned tasks on mobile or desktop. To enable [task publishing](#task-publishing), first set up a team targeting hierarchy for your organization, which defines how all teams in the hierarchy are related to each other.
 
@@ -82,9 +85,9 @@ To allow or block specific users in your organization from using Planner, make s
 
 #### Use an app setup policy to pin Planner to Teams
 
-App setup policies let you customize Teams to pin apps that are most important for your users in your users.
+App setup policies let you customize Teams to pin apps that are most important for your users.
 
-To pin the Planner app for your users, you can edit the global (Org-wide default) policy or create and assign a custom policy in app setup policy. To learn more, see [Use app setup policies to pin and auto install apps for users](teams-app-setup-policies.md).
+To pin the Planner app for your users, you can edit the global (Org-wide default) policy or create and assign a custom policy in app setup policy. To learn more, see [Use app setup policies to pin and auto install apps for users](teams-app-setup-policies.md). See the [Tailored frontline app experience](#tailored-frontline-app-experience-in-teams-for-frontline-workers-and-managers) section for more information about the default app setup policy for users who are assigned an F license.
 
 #### Tailored frontline app experience in Teams for frontline workers and managers
 
@@ -109,13 +112,13 @@ With task publishing, your organization can [publish task lists](https://support
 - Frontline workers have a simple mobile experience to see tasks assigned to them. They can attach photos to show their work when appropriate and mark their tasks as completed.
 - Publishers and managers can view reports to see assignment and completion status of tasks at each level, including by location (team), task list, and individual task.
 
-To create, manage, and publish task lists in the Planner app, users select the **My tasks & plans** dropdown menu, and then choose **Publishing**. This menu only shows for a user if your organization [set up a team targeting hierarchy](#set-up-your-team-targeting-hierarchy) *and* the user is part of a team that's included in the hierarchy. The hierarchy determines whether the user can publish or receive task lists and view reporting for received lists.
+Users create, manage, and publish task lists in the Planner app, by selecting the **My tasks & plans** dropdown menu, and then choosing **Publishing**. This menu only shows for a user if your organization [set up a team targeting hierarchy](#set-up-your-team-targeting-hierarchy) *and* the user is part of a team that's included in the hierarchy. The hierarchy determines whether the user can publish or receive task lists and view reporting for received lists.
 
 :::image type="content" source="media/manage-planner-app-publishing.png" alt-text="Screenshot of the My tasks & plans dropdown menu, showing the Publishing option":::
 
 ### Example scenario
 
-To learn more, see this short [Task Publishing video](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) with an example scenario.
+See this short [Task Publishing video](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) with an example scenario.
 
 ### Set up your team targeting hierarchy
 
