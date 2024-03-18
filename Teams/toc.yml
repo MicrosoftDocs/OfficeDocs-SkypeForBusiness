@@ -1040,6 +1040,8 @@ items:
               href: operator-connect-mobile-plan.md
             - name: Configure Teams Phone Mobile
               href: operator-connect-mobile-configure.md
+            - name: Manage phone numbers for Teams Phone Mobile
+              href: operator-connect-mobile-configure-numbers.md
         - name: Direct Routing
           items: 
             - name: What's new
