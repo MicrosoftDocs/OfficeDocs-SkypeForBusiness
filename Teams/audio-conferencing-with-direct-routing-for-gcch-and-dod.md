@@ -23,7 +23,7 @@ description: Admin can learn about how to use Audio Conferencing with Direct Rou
 ms.custom: seo-marvel-apr2020
 ---
 
-# Audio Conferencing with Direct Routing for GCC High (Government Community Cloud High) and DoD (Department of Defense)
+# Audio Conferencing with Direct Routing for Government Community Cloud High (GCCH) and Department of Defense (DOD)
 
 Audio Conferencing with Direct Routing for GCC High and DoD enables participants to join Teams meetings in your GCC High or DoD organization by using a phone device. Meeting participants might prefer to use a phone device to join Teams meetings in scenarios such as when internet connectivity is limited or when users are on the road and don't have access to Teams. Participants can choose to join meetings by either dialing in to a dial-in phone number for your organization or by having the meeting dial out to their phone device.
 
