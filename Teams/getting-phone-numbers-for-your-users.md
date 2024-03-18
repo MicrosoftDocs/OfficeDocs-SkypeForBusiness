@@ -96,7 +96,7 @@ After you get your phone numbers, you'll need to assign a number to each of your
 
 This video shows the steps to assign a phone number to a user.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE54mbS?autoplay=false]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1ccJJ?autoplay=false]
 
 ## Related articles
 
