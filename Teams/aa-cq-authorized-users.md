@@ -74,7 +74,7 @@ After assigning phone numbers to your users, you need to create a [Teams voice a
 
 ## Step 4: Assign the voice applications policy to the user
 
-Once you’ve created your Teams voice applications policy, you need to individually assign it to users. To do this, you can use the Teams admin center or [Grant-CsTeamsVoiceApplicationsPolicy](/powershell/grant-csteamsvoiceapplicationspolicy) cmdlet.
+Once you’ve created your Teams voice applications policy, you need to individually assign it to users. To do this, you can use the Teams admin center or [Grant-CsTeamsVoiceApplicationsPolicy](/powershell/module/teams/grant-csteamsvoiceapplicationspolicy) cmdlet.
 
 To learn about the different ways that you can assign policies to users, see [Assign policies to your users in Teams](policy-assignment-overview.md).
 
