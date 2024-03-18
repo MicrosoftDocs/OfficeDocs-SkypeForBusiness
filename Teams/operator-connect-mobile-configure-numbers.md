@@ -15,7 +15,7 @@ ms.collection:
 ms.reviewer: crowe
 search.appverid: MET150
 
-description: Learn how to set up phone numbers for Teams Phone Mobile.
+description: Learn how to manage phone numbers for Teams Phone Mobile.
 ms.custom: 
  - seo-marvel-apr2020
  - seo-marvel-jun2020
@@ -27,7 +27,7 @@ appliesto:
 
 This is step 3 in how to configure Teams Phone Mobile. Before reading this article, be sure you've read [Configure Teams Phone Mobile](operator-connect-mobile-configure.md).
 
-How you set up phone numbers depends on whether you're setting up numbers for new users, or moving existing numbers from Microsoft Calling Plans, Operator Connect, or Direct Routing.  This article describes the following scenarios:
+How you manage phone numbers depends on whether you're setting up numbers for new users, or moving existing numbers from Microsoft Calling Plans, Operator Connect, or Direct Routing.  This article describes the following scenarios:
 
 - [Acquire numbers for new Teams users](#acquire-numbers-for-new-teams-users).  
 
