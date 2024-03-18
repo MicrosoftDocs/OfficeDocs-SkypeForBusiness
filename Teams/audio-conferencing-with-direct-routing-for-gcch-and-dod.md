@@ -25,7 +25,7 @@ ms.custom: seo-marvel-apr2020
 
 # Audio Conferencing with Direct Routing for Government Community Cloud High (GCCH) and Department of Defense (DOD)
 
-Audio Conferencing with Direct Routing for GCCH and DoD enables participants to join Teams meetings in your GCCH or DoD organization by using a phone device. Meeting participants might prefer to use a phone device to join Teams meetings in scenarios such as when internet connectivity is limited or when users are on the road and don't have access to Teams. Participants can choose to join meetings by either dialing in to a dial-in phone number for your organization or by having the meeting dial out to their phone device.
+Audio Conferencing with Direct Routing for GCCH and DoD enables participants to join Teams meetings in your GCCH or DoD organization by using a phone device. Meeting participants might prefer to use a phone device to join Teams meetings in scenarios such as when internet connectivity is limited or when they are on the road without access to Teams. Participants can choose to join meetings by either dialing in to a dial-in phone number for your organization or by having the meeting dial out to their phone device.
 
 With Audio Conferencing with Direct Routing for GCCH and DoD, your organization uses its own numbers as dial-in phone numbers and all meeting dial-outs to phone devices are routed via Direct Routing. To enable the service, organizations need to set up Direct Routing and configure phone numbers that can be used as dial-in phone numbers. The requirement to use Direct Routing is different from the Audio Conferencing service that's offered to non-GCCH and non-DoD organizations where the dial-in phone numbers are provided by Microsoft.
 
@@ -117,7 +117,7 @@ To create a new voice route, use the following command:
 
 When defining a new voice route for your organization, specify one or multiple of the PSTN online PSTN gateways that have been defined for your organization during the configuration of Direct Routing.
 
-The number pattern specifies which calls will be routed through the specified list of gateways based on the destination phone number of the call. In the example above, calls to any destinations in the world will match the voice route. If you would like to restrict the phone numbers that can be dialed from the meetings of users in your organization, you can change the number pattern to have the voice route match only the number patterns of the destinations allowed. Note that if there are no voice routes that match the number pattern of the destination phone number of a given call, the call will not be routed.
+The number pattern specifies which calls will be routed through the specified list of gateways based on the destination phone number of the call. In the example above, calls to any destinations in the world will match the voice route. If you want to limit the phone numbers that participants can dial during meetings within your organization, you can adjust the number pattern. Specifically, configure the voice route to only match the number patterns corresponding to the allowed destinations. Note that if there are no voice routes that match the number pattern of the destination phone number of a given call, the call will not be routed.
 
 For additional information, see [New-CsOnlineVoiceRoute](/powershell/module/teams/new-csonlinevoiceroute).
 
