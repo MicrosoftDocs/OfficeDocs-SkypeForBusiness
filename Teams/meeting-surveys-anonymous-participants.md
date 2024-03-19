@@ -40,7 +40,7 @@ Here’s an example of a survey that anonymous meeting participants might receiv
 
 As an admin, you can control whether anonymous participants receive surveys to provide feedback about their meeting experience.
 
-You turn off or turn on this feature for your organization through a policy that you set by using the [Set-CsTeamsMeetingConfiguration](/powershell/module/skype/set-csteamsmeetingconfiguration) PowerShell cmdlet.
+You turn off or turn on this feature for your organization through a policy that you set by using the [Set-CsTeamsMeetingConfiguration](/powershell/module/teams/set-csteamsmeetingconfiguration) PowerShell cmdlet.
 
 - To allow anonymous meeting participants to receive surveys, set the `FeedbackSurveyForAnonymousUsers` parameter to `Enabled`. This is the default value.
 - If you don’t want anonymous meeting participants to receive surveys, set the `FeedbackSurveyForAnonymousUsers` parameter to `Disabled`.

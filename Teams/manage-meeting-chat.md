@@ -65,11 +65,11 @@ Use these steps to manage meeting chat:
 
 You can manage meeting chat for your users by using the following PowerShell cmdlets in Teams PowerShell:
 
-- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
-- [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy)
-- [Grant-CsTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy)
-- [Get-CsTeamsMeetingPolicy](/powershell/module/skype/get-csteamsmeetingpolicy)
-- [Remove-CsTeamsMeetingPolicy](/powershell/module/skype/remove-csteamsmeetingpolicy)
+- [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)
+- [New-CsTeamsMeetingPolicy](/powershell/module/teams/new-csteamsmeetingpolicy)
+- [Grant-CsTeamsMeetingPolicy](/powershell/module/teams/grant-csteamsmeetingpolicy)
+- [Get-CsTeamsMeetingPolicy](/powershell/module/teams/get-csteamsmeetingpolicy)
+- [Remove-CsTeamsMeetingPolicy](/powershell/module/teams/remove-csteamsmeetingpolicy)
 
 The **`-MeetingChatEnabledType`** parameter controls the availability of meeting chat with the following settings:
 
@@ -122,11 +122,11 @@ If you'd like to choose whether users in your organization can use chat in Teams
 
 You can manage chat in Teams meetings hosted by other organizations by using the following PowerShell cmdlets in Teams PowerShell:
 
-- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
-- [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy)
-- [Grant-CsTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy)
-- [Get-CsTeamsMeetingPolicy](/powershell/module/skype/get-csteamsmeetingpolicy)
-- [Remove-CsTeamsMeetingPolicy](/powershell/module/skype/remove-csteamsmeetingpolicy)
+- [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)
+- [New-CsTeamsMeetingPolicy](/powershell/module/teams/new-csteamsmeetingpolicy)
+- [Grant-CsTeamsMeetingPolicy](/powershell/module/teams/grant-csteamsmeetingpolicy)
+- [Get-CsTeamsMeetingPolicy](/powershell/module/teams/get-csteamsmeetingpolicy)
+- [Remove-CsTeamsMeetingPolicy](/powershell/module/teams/remove-csteamsmeetingpolicy)
 
 The **`-AllowExternalNonTrustedMeetingChat`** parameter controls the availability of meeting chat for your users when they attend external meetings.  This parameter uses the following settings:
 
