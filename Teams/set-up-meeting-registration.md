@@ -135,16 +135,16 @@ For more information, on **Who can register** for education tenants, see [Teams 
 
 [Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report)
 
-[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
+[Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)
 
 [Set-CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy)
 
 [Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report)
 
-[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy)
+[New-CsTeamsMeetingPolicy](/powershell/module/teams/new-csteamsmeetingpolicy)
 
-[Grant-CsTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy)
+[Grant-CsTeamsMeetingPolicy](/powershell/module/teams/grant-csteamsmeetingpolicy)
 
-[Get-CsTeamsMeetingPolicy](/powershell/module/skype/get-csteamsmeetingpolicy)
+[Get-CsTeamsMeetingPolicy](/powershell/module/teams/get-csteamsmeetingpolicy)
 
-[Remove-CsTeamsMeetingPolicy](/powershell/module/skype/remove-csteamsmeetingpolicy)
+[Remove-CsTeamsMeetingPolicy](/powershell/module/teams/remove-csteamsmeetingpolicy)

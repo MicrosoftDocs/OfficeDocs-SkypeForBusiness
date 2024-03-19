@@ -8,7 +8,7 @@ ms.service: msteams
 ms.subservice: teams-apps
 ms.custom: intro-get-started
 audience: admin
-ms.date: 02/05/2024
+ms.date: 03/18/2024
 ms.collection: 
   - M365-collaboration
   - tier2
@@ -152,7 +152,7 @@ Admin center settings may allow your users to collaborate with users from other 
 
 Auto install approved apps feature automatically adds approved apps in Teams client of the permitted users. The functionality respects all admin governance controls and only installs apps that the users use outside Teams. It reduces manual intervention to add an app and improves user productivity by preventing context-switching. To know more about the feature, see [Auto install approved apps in Teams](auto-install-approved-apps.md).
 
-## Stop app usage and remove app
+## Stop app usage and remove apps
 
 As an admin, you can [delete custom apps](teams-custom-app-policies-and-settings.md#delete-custom-apps-from-your-organizations-catalog) from your organization's store but can't remove the third-party apps that are available in the Teams store. To prevent app addition and usage by users, you can [block an app for everyone](#allow-or-block-apps) or [use permission policy](teams-app-permission-policies.md#create-an-app-permission-policy) to stop selected users from using an app. You can't remove or uninstall the apps that are currently added by users. Blocking the apps prevents users from using it.
 
@@ -160,13 +160,11 @@ Blocked apps may still have access to data from the teams that the apps were add
 
 ## Manage org-wide app settings for Microsoft 365 Government  
 
-In a Microsoft 365 Government - GCC, GCCH and DoD deployment of Teams, all third-party apps are blocked by default. In GCCH and DOD clouds, the third-party apps aren't available. Additionally, in GCC, you see the following note about managing third-party apps on the app permission policies page in the Microsoft Teams admin center.
+In a Microsoft 365 Government - GCC, GCCH and DoD deployment of Teams, all third-party apps are blocked by default. In GCC, you see the following note about managing third-party apps on the app permission policies page in the Microsoft Teams admin center.
 
 :::image type="content" source="media/app-permission-policies-gcc.png" alt-text="Screenshot of app permission policy in GCCH and DoD." lightbox="media/app-permission-policies-gcc.png":::
 
 Use org-wide app settings to control whether users can install third-party apps. Org-wide app settings govern the behavior for all users and override any other app permission policies assigned to users.
-
-### For GCC clouds
 
 1. On the **Teams Apps** > **Manage apps** page, select **Org-wide app settings**. You can then configure the settings you want in the panel.
 
@@ -181,17 +179,7 @@ Use org-wide app settings to control whether users can install third-party apps.
 
 1. Select **Save** for org-wide app settings to take effect.
 
-To allow third-party apps, either edit and use the global (Org-wide default) policy or create and assign an admin-created policy.
-
-### For GCCH and DoD clouds
-
-1. Sign in to the Teams admin center and access **Teams Apps** > **Permission policies**. In GCCH environment, access [https://admin.gov.teams.microsoft.us](https://admin.gov.teams.microsoft.us/) and in DoD environment, access [https://admin.dod.teams.microsoft.us](https://admin.dod.teams.microsoft.us/).
-
-1. Select **Org-wide app settings**. Under **Blocked apps**, add the apps you want to block across your organization. All third-party apps are added to this list by default. A blocked app isn't available to any user, regardless of app policies.
-
-   :::image type="content" source="media/app-permission-policies-gcch-dod-org-wide.png" alt-text="Screenshot of org-wide app settings in GCCH and DoD.":::
-
-1. Select **Save** for org-wide app settings to take effect.
+To allow third-party apps, either edit and use the Global (Org-wide default) policy or create and assign an admin-created policy.
 
 ## Support information for apps
 
@@ -216,8 +204,9 @@ You may have queries about admin settings or configuration, user flows and app f
 
 * **Privacy and data access considerations**: In the terms of use and privacy policy of any app, the app developer discloses what data their app uses and how it's handled. This information is available on app developer's website and you can access the URLs in the app details page in Teams admin center. Many app developers choose to undergo the Microsoft 365 app compliance program. The program checks and audits an app against controls that are derived from leading industry-standard frameworks. The detailed information about each such app is available at [Teams Apps Security and Compliance](/microsoft-365-app-certification/teams/teams-apps).
 
-## Related article
+## Related articles
 
 * [Manage user requests to allow apps](user-requests-approve-apps.md)
 * [Auto install approved apps in Teams](auto-install-approved-apps.md)
 * [Install and pin apps via setup policies](teams-app-setup-policies.md)
+* [Overview of policies to govern apps](app-policies.md).

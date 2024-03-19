@@ -328,21 +328,21 @@ Or, you can also do the following:
 
 #### Assign DisallowCalling policies using PowerShell
 
-The following example shows how to use the [Grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy) to assign the `DisallowCalling` calling policy to a user.
+The following example shows how to use the [Grant-CsTeamsCallingPolicy](/powershell/module/teams/grant-csteamscallingpolicy) to assign the `DisallowCalling` calling policy to a user.
 
 ```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity "user email id"
 ```
 
-To learn more about using PowerShell to manage calling policies, see [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
+To learn more about using PowerShell to manage calling policies, see [Set-CsTeamsCallingPolicy](/powershell/module/teams/set-csteamscallingpolicy).
 
-The following example shows how to use the [Grant-CsTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) to assign the `AllOff` meeting policy to a user.
+The following example shows how to use the [Grant-CsTeamsMeetingPolicy](/powershell/module/teams/grant-csteamsmeetingpolicy) to assign the `AllOff` meeting policy to a user.
 
 ```PowerShell
 Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 ```
 
-To learn more about using PowerShell to manage meeting policies, see [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
+To learn more about using PowerShell to manage meeting policies, see [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy).
 
 ## Migrate Teams on VDI with chat and collaboration to optimize Teams with calling and meetings
 
@@ -384,21 +384,21 @@ Or, you can also do the following:
 
 #### Assign AllowCalling policies using PowerShell
 
-The following example shows how to use the [Grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy) to assign the `AllowCalling` calling policy to a user.
+The following example shows how to use the [Grant-CsTeamsCallingPolicy](/powershell/module/teams/grant-csteamscallingpolicy) to assign the `AllowCalling` calling policy to a user.
 
 ```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName AllowCalling -Identity "user email id"
 ```
 
-To learn more about using PowerShell to manage calling policies, see [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
+To learn more about using PowerShell to manage calling policies, see [Set-CsTeamsCallingPolicy](/powershell/module/teams/set-csteamscallingpolicy).
 
-The following example shows how to use the [Grant-CsTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) to assign the `AllOn` meeting policy to a user.
+The following example shows how to use the [Grant-CsTeamsMeetingPolicy](/powershell/module/teams/grant-csteamsmeetingpolicy) to assign the `AllOn` meeting policy to a user.
 
 ```PowerShell
 Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 ```
 
-To learn more about using PowerShell to manage meeting policies, see [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
+To learn more about using PowerShell to manage meeting policies, see [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy).
 
 ## Control fallback mode in Teams
 
