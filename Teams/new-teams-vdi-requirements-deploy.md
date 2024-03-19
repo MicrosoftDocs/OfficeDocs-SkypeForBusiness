@@ -108,9 +108,9 @@ Citrix Workspace app:
 
 Citrix Virtual Delivery Agent (VDA):
 
-- 1912 CU6
 - 2203 LTSR (and any CU)
 - 2212 CR
+- 1912 CU6 (but latest CU recommended - please note App Sharing is not supported on 1912)
 
 In addition, you must deploy the following registry key on the VDA for the new Teams client to be optimized:
 
