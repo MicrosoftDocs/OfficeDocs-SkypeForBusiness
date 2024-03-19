@@ -26,7 +26,7 @@ description: Learn how to set up authorized users and what they can manage for A
 # Set up Auto attendant and Call queue authorized users
 
 > [!NOTE]
-> Some of these features are in limited public preview. For more information, contact your Microsoft customer success manager. Information in this article is subject ot change.
+> Some of these features are in limited public preview. For more information, contact your Microsoft customer success manager. Information in this article is subject to change.
 
 This article is for IT Pros and administrators who want to delegate Auto attendant and Call queue change capabilities to users in their organization. This article describes the necessary steps to create an Authorized user.
 
