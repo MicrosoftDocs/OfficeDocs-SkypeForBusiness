@@ -132,7 +132,7 @@ When your tenant's admin center receives this feature, the following updates are
 | Allowed            | Allowed                                     | Everyone                                    |
 
 > [!NOTE]
-> You can't access, edit, or use permission policies after switching to this feature.
+> Once you switch to this feature, you can't access, edit, or use permission policies, including using PowerShell cmdlets.
 
 ## Related article
 
