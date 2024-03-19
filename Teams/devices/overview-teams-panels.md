@@ -117,7 +117,7 @@ You can empower your employees to use organizational apps anywhere by deploying 
 
 **Question: Where can I go to learn more on Panels?**
 
-**Answer:** You can learn more [here](/microsoftteams/devices/teams-panels), and make sure to stay up to date on all of our latest [releases]((https://support.microsoft.com/en-us/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_panels)).
+**Answer:** You can learn more [here](/microsoftteams/devices/teams-panels), and make sure to stay up to date on all of our latest [releases](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_panels).
 
 ## Best practices
 
