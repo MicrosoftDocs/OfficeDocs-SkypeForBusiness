@@ -28,7 +28,7 @@ ms.custom: seo-marvel-mar2020
 
 You have several options for recording a Microsoft Teams live event. The recording options are set using recording policies. This article describes the various settings.
 
-The recording options are set using the PowerShell command [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy).
+The recording options are set using the PowerShell command [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/teams/set-csteamsmeetingbroadcastpolicy).
 
 ## Scheduling and option behaviors
 
