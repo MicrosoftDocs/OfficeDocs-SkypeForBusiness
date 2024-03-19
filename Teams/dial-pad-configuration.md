@@ -35,7 +35,7 @@ In the Teams client, the dial pad enables users to access Public Switched Teleph
 > [!NOTE]
 > If Shared Calling is available in your tenant and you've users who are homed online and enabled for Enterprise Voice, the dial pad shows in Teams for those users. For more information, see [Plan for Shared Calling](shared-calling-plan.md).
 
-The following sections describe how to use PowerShell to check the criteria. In most cases, you need to look at various properties in the output of the [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser) cmdlet. Examples assume $user is either the UPN (UserPrincipalName) or SIP address of the user.
+The following sections describe how to use PowerShell to check the criteria. In most cases, you need to look at various properties in the output of the [Get-CsOnlineUser](/powershell/module/teams/get-csonlineuser) cmdlet. Examples assume $user is either the UPN (UserPrincipalName) or SIP address of the user.
 
 ## User has an enabled Teams Phone ("MCOEV") license
 
@@ -180,7 +180,7 @@ MusicOnHoldEnabledType     : Enabled
 ## Related articles
 
 - [Microsoft Teams add-on licensing](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses)
-- [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser)
+- [Get-CsOnlineUser](/powershell/module/teams/get-csonlineuser)
 - [Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment)
 - [Plan for Shared Calling](shared-calling-plan.md)
 - [PSTN connectivity options](pstn-connectivity.md)

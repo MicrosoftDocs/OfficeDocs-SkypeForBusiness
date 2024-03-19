@@ -78,4 +78,4 @@ You can edit the global policy or any custom policies that you create.
 
 [Assign policies to your users in Teams](policy-assignment-overview.md)
 
-[New-CsTeamsChannelsPolicy](/powershell/module/skype/new-csteamschannelspolicy)
+[New-CsTeamsChannelsPolicy](/powershell/module/teams/new-csteamschannelspolicy)
