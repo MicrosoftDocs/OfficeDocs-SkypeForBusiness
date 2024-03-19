@@ -57,7 +57,7 @@ You must be a Teams service admin to make these changes. See [Use Teams administ
 
 To turn entry and exit announcements on or off with PowerShell, use the **`-EnableEntryExitNotifications`** parameter within the PowerShell CsOnlineDialInConferencingTenantSettings cmdlet.
 
-For CsOnlineDialInConferencingBridge script examples, see [Set-CsOnlineDialInConferencingBridge](/powershell/module/skype/Set-csonlinedialinconferencingtenantsettings).
+For CsOnlineDialInConferencingBridge script examples, see [Set-CsOnlineDialInConferencingBridge](/powershell/module/teams/Set-csonlinedialinconferencingtenantsettings).
 
 ## Related topics
 

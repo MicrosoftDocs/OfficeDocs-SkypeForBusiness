@@ -77,7 +77,7 @@ HKLM\SOFTWARE\Microsoft\Teams:
 
 Windows 365 uses AV optimization provided by Azure Virtual Desktop to ensure optimal Teams experiences from Cloud PCs. To learn more on requirements and installation, see [Use Teams on Cloud PC](/windows-365/enterprise/teams-on-cloud-pc).
 
-The Windows 10/11 images in the gallery are preconfigured with required optimization components. When you install and use Microsoft Teams in your cloud PC, you get an optimized experience. A new image with the new Teams client will be added to the gallery in a few weeks.
+The Windows 10/11 images in the gallery are preconfigured with required optimization components. When you install and use Microsoft Teams in your Cloud PC, you get an optimized experience. A new image with the new Teams client will be added to the gallery in a few weeks.
 
 If you want to create custom images that include optimizations for Microsoft Teams, you need to perform the steps described in [Create a custom Cloud PC image to support Microsoft Teams](/windows-365/enterprise/create-custom-image-support-teams).
 
@@ -108,9 +108,9 @@ Citrix Workspace app:
 
 Citrix Virtual Delivery Agent (VDA):
 
-- 1912 CU6
 - 2203 LTSR (and any CU)
 - 2212 CR
+- 1912 CU6 (but latest CU recommended - please note App Sharing is not supported on 1912)
 
 In addition, you must deploy the following registry key on the VDA for the new Teams client to be optimized:
 
@@ -251,7 +251,7 @@ Value: 1
 
 All the user settings and configurations are now stored in:
 
-- C:\Users\<username>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams
+- C:\Users\<username>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\
 - C:\Users\<username>\AppData\Local\Publishers\8wekyb3d8bbwe\TeamsSharedConfig\app_switcher_settings.json
 - C:\Users\<username>\AppData\Local\Publishers\8wekyb3d8bbwe\TeamsSharedConfig\tma_settings.json
 
@@ -437,7 +437,6 @@ Learn more: [Manage accounts and organizations in Microsoft Teams](https://suppo
 
 - Screen sharing from chat for Azure Virtual Desktops/Windows 365.
 - Screen sharing from chat for Citrix.
-- Give/Take control for Citrix and AVD/Windows 365.
 - The app switcher toggle isn't shown in new Teams if the virtual machine has the machine-wide classic Teams installed (MSI with ALLUSERS=1). **Note:** This issue is fixed on new Teams version 23320.3021.2567.4799 or higher.
 
 >[!Note]
@@ -462,6 +461,10 @@ All the multimedia features that work on the classic Teams client are expected t
 |Azure Virtual Desktops and Windows 365|[Supported features for Microsoft Teams on Azure Virtual Desktop](/azure/virtual-desktop/teams-supported-features)|
 |Citrix|[Optimization for Microsoft Teams](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)|
 |VMware|[MS Teams Optimization Feature Compatibility Matrix for Horizon 7 and Horizon 8 Recent Releases. (86475) (vmware.com)](https://kb.vmware.com/s/article/86475)|
+
+## New Teams for web in VDI
+
+New Teams for Web isn't supported in VDI environments, so performance and reliability may be negatively impacted if used in VDI.
 
 ## Features not supported in VDI
 
