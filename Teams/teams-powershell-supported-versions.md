@@ -55,16 +55,20 @@ It’s recommended to update to the latest Teams PowerShell Module version.
 ## Deprecated cmdlets
 
 - Following are some of the cmdlets that were deprecated recently. Details on the same can be found in the respective documentations.
-  - [Get-CsOnlineVoiceUser](/powershell/module/skype/get-csonlinevoiceuser) (deprecated only in commercial & GCC environments currently)
-  - [Get-CsOnlineTelephoneNumber](/powershell/module/skype/get-csonlinetelephonenumber)
-  - Get-CsOnlineDialInConferencingUserInfo & Get-CsOnlineDialInConferencingUserState (suggested alternative - [Get-CsOnlineDialInConferencingUser](/powershell/module/teams/get-csonlinedialinconferencinguser))
-  - [Enable|Disable]-CsOnlineDialInConferencingUser (to enable/disable Audio Conferencing for a user, assign/unassign the Audio Conferencing license, more information at [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users))
-  - [Get-CsOnlineDirectoryTenant](/powershell/module/skype/get-csonlinedirectorytenant)
-  - New-CsOnlineAudioFile (suggested alternative - [Import-CsOnlineAudioFile](/powershell/module/teams/import-csonlineaudiofile))
-  - [Get-CsOnlineApplicationEndpoint](/powershell/module/skype/get-csonlineapplicationendpoint), [Set-CsOnlineApplicationEndpoint](/powershell/module/skype/set-csonlineapplicationendpoint), [New-CsOnlineApplicationEndpoint](/powershell/module/skype/new-csonlineapplicationendpoint), [Remove-CsOnlineApplicationEndpoint](/powershell/module/skype/remove-csonlineapplicationendpoint), Switch-CsOnlineApplicationEndpoint
-  - Get-CsOnlineTelephoneNumberInventoryCities, Get-CsOnlineTelephoneNumberInventoryAreas, Get-CsOnlineTelephoneNumberInventoryCountries, Get-CsOnlineTelephoneNumberInventoryRegions, Get-CsOnlineTelephoneNumberInventoryTypes, Search-CsOnlineTelephoneNumberInventory, Select-CsOnlineTelephoneNumberInventory, Get-CsOnlineTelephoneNumberAvailableCount, Clear-CsOnlineTelephoneNumberReservation, Get-CsOnlineTelephoneNumberReservationsInformation, Get-CsOnlineDirectoryTenantNumberCities (suggested alternative - [New-CsOnlineTelephoneNumberOrder](/powershell/module/teams/new-csonlinetelephonenumberorder))
-  - [Set-CsTeamsAppSetupPolicy](/powershell/module/skype/set-csteamsappsetuppolicy), [New-CsTeamsAppSetupPolicy](/powershell/module/skype/new-csteamsappsetuppolicy), [Set-CsTeamsAppPermissionPolicy](/powershell/module/skype/set-csteamsapppermissionpolicy), [New-CsTeamsAppPermissionPolicy](/powershell/module/skype/new-csteamsapppermissionpolicy)
-  - Test-CsOnlineLisCivicAddress (the validation checks are incorporated into [New-CsOnlineLisCivicAddress](/powershell/module/teams/new-csonlineliscivicaddress))
+
+  | Cmdlets | Notes |
+  |------- | -------------------- |
+  | [Get-CsOnlineVoiceUser](/powershell/module/skype/get-csonlinevoiceuser) | Deprecated only in commercial & GCC environments currently |
+  | [Get-CsOnlineTelephoneNumber](/powershell/module/skype/get-csonlinetelephonenumber) | |
+  | Get-CsOnlineDialInConferencingUserInfo & Get-CsOnlineDialInConferencingUserState | Suggested alternative is [Get-CsOnlineDialInConferencingUser](/powershell/module/teams/get-csonlinedialinconferencinguser) |
+  | [Enable\|Disable]-CsOnlineDialInConferencingUser | To enable/disable Audio Conferencing for a user, assign/unassign the Audio Conferencing license, more information at [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users) |
+  | [Get-CsOnlineDirectoryTenant](/powershell/module/skype/get-csonlinedirectorytenant) | |
+  | New-CsOnlineAudioFile | Suggested alternative is [Import-CsOnlineAudioFile](/powershell/module/teams/import-csonlineaudiofile) |
+  | [Get-CsOnlineApplicationEndpoint](/powershell/module/skype/get-csonlineapplicationendpoint), [Set-CsOnlineApplicationEndpoint](/powershell/module/skype/set-csonlineapplicationendpoint), [New-CsOnlineApplicationEndpoint](/powershell/module/skype/new-csonlineapplicationendpoint), [Remove-CsOnlineApplicationEndpoint](/powershell/module/skype/remove-csonlineapplicationendpoint), Switch-CsOnlineApplicationEndpoint | |
+  | Get-CsOnlineTelephoneNumberInventoryCities, Get-CsOnlineTelephoneNumberInventoryAreas, Get-CsOnlineTelephoneNumberInventoryCountries, Get-CsOnlineTelephoneNumberInventoryRegions, Get-CsOnlineTelephoneNumberInventoryTypes, Search-CsOnlineTelephoneNumberInventory, Select-CsOnlineTelephoneNumberInventory, Get-CsOnlineTelephoneNumberAvailableCount, Clear-CsOnlineTelephoneNumberReservation, Get-CsOnlineTelephoneNumberReservationsInformation, Get-CsOnlineDirectoryTenantNumberCities | Suggested alternative is [New-CsOnlineTelephoneNumberOrder](/powershell/module/teams/new-csonlinetelephonenumberorder) |
+  | [Set-CsTeamsAppSetupPolicy](/powershell/module/skype/set-csteamsappsetuppolicy), [New-CsTeamsAppSetupPolicy](/powershell/module/skype/new-csteamsappsetuppolicy), [Set-CsTeamsAppPermissionPolicy](/powershell/module/skype/set-csteamsapppermissionpolicy), [New-CsTeamsAppPermissionPolicy](/powershell/module/skype/new-csteamsapppermissionpolicy) | |
+  | Test-CsOnlineLisCivicAddress | The validation checks are incorporated into [New-CsOnlineLisCivicAddress](/powershell/module/teams/new-csonlineliscivicaddress) |
+
 
 - Cmdlets that aren't supported/relevant for Microsoft Teams scenarios.
   - [Get|Set]-CsUserPstnSettings
