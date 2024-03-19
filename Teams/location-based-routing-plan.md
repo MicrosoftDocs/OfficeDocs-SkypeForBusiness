@@ -157,6 +157,7 @@ Outbound PSTN calls are also allowed for users when all the following are true:
 | Office location​ | LBR enabled ​| LBR enabled ​| - | Allowed​ |
 | Remote location​ | LBR enabled ​| LBR enabled ​| - | Not allowed​ |
 | User at unknown site | - ​| LBR enabled ​| True | Allowed​ |
+| User at non-PSTN Gateway Site | - | LBR enabled | True | Allowed |
 
 **Decisions flows**
 
@@ -182,7 +183,9 @@ When a user enabled for Location-Based Routing transfers a call, the system will
 
 - For a 1:1 Teams VoIP call and transfer to PSTN: The transfer will be permitted if the user being transferred is able to make that PSTN call at their location using the same PSTN Gateway as the user transferring the call. 
 
-- For an incoming or outgoing PSTN call and transfer to another Teams user: The transfer will be permitted if the person receiving the transferred call is able to make or receive that PSTN call at their current location using the PSTN gateway used by the ongoing PSTN call.  
+- For an incoming or outgoing PSTN call and transfer to another Teams user: The transfer will be permitted if the person receiving the transferred call is able to make or receive that PSTN call at their current location using the PSTN gateway used by the ongoing PSTN call.
+
+When the GatewayLbrEnabledUserOverride flag is enabled, users can be allowed to connect from unknown or known site, even if it differs from the PSTN gateway's site.
 
 ## Media bypass requirement for Location-Based Routing
 

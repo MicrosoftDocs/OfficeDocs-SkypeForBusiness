@@ -76,7 +76,7 @@ You can apply your Copilot meeting policies to groups or individual users. You c
 
 ## Manage Copilot using PowerShell
 
-To manage the default value for Copilot in your organizers’ meeting options, use the **`-Copilot`** parameter within the PowerShell [**CsTeamsMeetingPolicy**](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet.
+To manage the default value for Copilot in your organizers’ meeting options, use the **`-Copilot`** parameter within the PowerShell [**CsTeamsMeetingPolicy**](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet.
 
 The following table shows the behaviors of the settings for the **`-Copilot`** parameter:
 
