@@ -36,10 +36,10 @@ The TeamsNetworkRoamingPolicy policy enables you to assign settings to network s
 
 To configure the TeamsNetworkRoamingPolicy, use the following PowerShell cmdlets:
 
-- [Get-CsTeamsNetworkRoamingPolicy](/powershell/module/skype/get-csteamsnetworkroamingpolicy)
-- [New-CsTeamsNetworkRoamingPolicy](/powershell/module/skype/new-csteamsnetworkroamingpolicy)
-- [Set-CsTeamsNetworkRoamingPolicy](/powershell/module/skype/set-csteamsnetworkroamingpolicy)
-- [Remove-CsTeamsNetworkRoamingPolicy](/powershell/module/skype/remove-csteamsnetworkroamingpolicy)
+- [Get-CsTeamsNetworkRoamingPolicy](/powershell/module/teams/get-csteamsnetworkroamingpolicy)
+- [New-CsTeamsNetworkRoamingPolicy](/powershell/module/teams/new-csteamsnetworkroamingpolicy)
+- [Set-CsTeamsNetworkRoamingPolicy](/powershell/module/teams/set-csteamsnetworkroamingpolicy)
+- [Remove-CsTeamsNetworkRoamingPolicy](/powershell/module/teams/remove-csteamsnetworkroamingpolicy)
 
 The TeamsNetworkRoamingPolicy contains the following parameters:
 
@@ -47,7 +47,7 @@ The TeamsNetworkRoamingPolicy contains the following parameters:
 
 - MediaBitRateKb - This setting determines the total average media bit rate for audio, video, and video-based app sharing transmissions in calls and meetings for the user.
 
-After you configure the policy, assign it to one or more network sites by using the [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite) cmdlet as follows:
+After you configure the policy, assign it to one or more network sites by using the [Set-CsTenantNetworkSite](/powershell/module/teams/set-cstenantnetworksite) cmdlet as follows:
 
 ```PowerShell
  Set-CsTenantNetworkSite -Identity Burlington -NetworkRoamingPolicy LowBandwidthSite
@@ -85,8 +85,8 @@ When specifying the New- and Get-CsTeamsNetworkRoamingPolicy in Teams Online Pow
 
 ## Related articles
 
-- [Get-CsTeamsNetworkRoamingPolicy](/powershell/module/skype/get-csteamsnetworkroamingpolicy)
-- [New-CsTeamsNetworkRoamingPolicy](/powershell/module/skype/new-csteamsnetworkroamingpolicy)
-- [Set-CsTeamsNetworkRoamingPolicy](/powershell/module/skype/set-csteamsnetworkroamingpolicy)
-- [Remove-CsTeamsNetworkRoamingPolicy](/powershell/module/skype/remove-csteamsnetworkroamingpolicy)
-- [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite)
+- [Get-CsTeamsNetworkRoamingPolicy](/powershell/module/teams/get-csteamsnetworkroamingpolicy)
+- [New-CsTeamsNetworkRoamingPolicy](/powershell/module/teams/new-csteamsnetworkroamingpolicy)
+- [Set-CsTeamsNetworkRoamingPolicy](/powershell/module/teams/set-csteamsnetworkroamingpolicy)
+- [Remove-CsTeamsNetworkRoamingPolicy](/powershell/module/teams/remove-csteamsnetworkroamingpolicy)
+- [Set-CsTenantNetworkSite](/powershell/module/teams/set-cstenantnetworksite)
