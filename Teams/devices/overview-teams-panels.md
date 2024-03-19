@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: eviegrimshaw
-ms.date: 03/12/2024
+ms.date: 03/20/2024
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
@@ -117,7 +117,7 @@ Empower your employees to use company apps anywhere by deploying [line of busine
 
 **Question: Where can I go to learn more on Panels?**
 
-**Answer:** You can learn more [here](/microsoftteams/devices/teams-panels), and make sure to stay up to date on all of our latest [releases](/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_panels).
+**Answer:** You can learn more [here](/microsoftteams/devices/teams-panels), and make sure to stay up to date on all of our latest [releases]((https://support.microsoft.com/en-us/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_panels)).
 
 ## Best practices
 
