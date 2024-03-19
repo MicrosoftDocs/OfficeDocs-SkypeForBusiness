@@ -33,6 +33,7 @@ The Planner app in Microsoft Teams brings together the simplicity of [Microsoft 
 > [!NOTE]
 > Prior to March 2024, this app was named Tasks by Planner and To Do.
 
+[placeholder only - need new image]
 :::image type="content" source="media/manage-planner-app.png" alt-text="Screenshot of the Planner app, showing the Assigned to me list in My Tasks." lightbox="media/manage-planner-app.png":::
 
 ## What you need to know about Planner
@@ -50,7 +51,7 @@ When a user opens the Planner app in Teams, they see:
 - **New plan**: Create a new personal or shared plan directly in the app.
 
 > [!NOTE]
-> There's limited functionaly when using the Planner app on Teams mobile. On mobile, users will only see plans that are added to a tab in a channel within a team.
+> There's limited functionality when using the Planner app on Teams mobile. On mobile, users will only see plans that are added to a tab in a channel within a team.
 
 Users can also use the Planner app to:
 
