@@ -26,11 +26,11 @@ description: This article provides the information required when you are plannin
 
 Turn every space into a Teams space. Teams panels are intelligent devices designed to enhance the efficiency of your office environment. They are a great solution to help your employees seamlessly navigate the workplace and for you to manage your meeting spaces. In just a few steps, you can deploy a [Certified for Teams device](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/category/teams-panels/2351?rtc=1&page=1&filterIds=) in your building to make your spaces easier to find, book, and manage.
 
-## Step 1: Consider the space Teams panel will be used in
+## Step 1: Consider the space a Teams panel is used in
 
-Tailored to your unique needs, Teams panels offer a range of features that can be customized based on your space. Whether it's a meeting room, a huddle space, or even a non-tech room like a yoga room, Teams panels can be used in any bookable space. And when deciding on which Teams panel device to purchase, there is no dependency on the in-room device brand -- mix and match to deliver the perfect combination for your office.
+Tailored to your unique needs, Teams panels offer a range of features that can be customized based on your space. Whether it's a meeting room, a huddle space, or even a room like a yoga room, Teams panels can be used in any bookable space. Also when you are deciding on which Teams panel device to purchase, there is no dependency on the in-room device brand. You can mix and match equipment to deliver the perfect combination for your office.
 
-## Step 2: Pick the license you will need for the space
+## Step 2: Pick the license you need for the space
 
 With the flexibility to accommodate various environments, we offer two types of licenses: the [Microsoft Teams Rooms Pro license](/microsoftteams/rooms/rooms-licensing) and the [Teams Shared Device license](/microsoftteams/teams-add-on-licensing/teams-shared-device-license).
 
@@ -42,7 +42,7 @@ With either of these licenses, you can manage your devices remotely with Microso
 
 ## Step 3: Setup the desired experience for your employees
 
-Once you're signed in to Teams panels, you can pick from various features to help tailor the in-office experience for your employees. This can be done directly on the device or remotely through the Microsoft Teams admin center using [configuration profiles](/microsoftteams/devices/device-management).
+Once you're signed in to Teams panels, you can pick from various features to help tailor the in-office experience for your employees. You can sign in directly on the device or remotely through the Microsoft Teams admin center using [configuration profiles](/microsoftteams/devices/device-management).
 
   
 ![Panels settings - Meetings](media/overview-teams-panels/panels-settings---meetings.png)
@@ -74,12 +74,12 @@ With Teams panels, you can make real-time adjustments to your bookings. Release 
 
 ![Image of Teams panels home screen with options to 'Check out' or 'Extend room reservation'.](media/overview-teams-panels/image3.png)
 
-Keep employees informed of what's happening inside the room without interruption. Teams panels show you whether the room is full, if it's occupied, and which room equipment is available. It can even alert the people inside the room that someone is waiting for the room. 
+Keep employees informed of what's happening inside the room without interruption. Teams panels show you whether the room is currently being used and which room equipment is available. It can even alert the people inside the room that someone is waiting for the room. 
 
 ![Image of Teams panels home screen with a banner 'Room is at capacity'.](media/overview-teams-panels/resereved---capacity-banner.png)
 
 
-Empower your employees to use company apps anywhere by deploying [line of business apps](/microsoftteams/app-support-on-teams-panels) to Teams panels. This ensures that employees can use them throughout the office.
+You can empower your employees to use organizational apps anywhere by deploying [line of business apps](/microsoftteams/app-support-on-teams-panels) to Teams panels. Using organizational apps lets  users have a consistent app experience so they can follow them no matter where they sign in.
 
 ## Frequently ask questions about Teams panel
 
@@ -89,7 +89,7 @@ Empower your employees to use company apps anywhere by deploying [line of busine
 
 **Question:  Which clouds are Teams panels supported in?**
 
-**Answer:** We support public, GCC, and GCC-H.
+**Answer:** Teams displays are supported in the Public cloud, Government Community Cloud (GCC), and Government Community Cloud High (GCCH) deployments.
 
 **Question:  Are there any differences in hardware companies?**
 
@@ -105,7 +105,7 @@ Empower your employees to use company apps anywhere by deploying [line of busine
 
 **Question: How do I create an account?**
 
-**Answer:** Just like other Teams devices! In Microsoft Teams admin center, you can create an account under 'Rooms & Equipment' or, if you have an in-room device, you simply re-use the same account for the panel. Once signed in, in the Teams admin center, you will see the device appear under **Teams Devices** > **Panels**. In the Teams Rooms Pro Management portal, the device will be visible on the Rooms and/or Inventory page. If the device is marked as unhealthy or non-urgent, it indicates that an update is available for installation. We recommend updating to the latest apps so your device is ready to go.
+**Answer:** Just like other Teams devices! In Microsoft Teams admin center, you can create an account under 'Rooms & Equipment' or, if you have an in-room device, you simply re-use the same account for the panel. Once you sign in to the Teams admin center, you will see the device appear under **Teams Devices** > **Panels**. In the Teams Rooms Pro Management portal, the device will be visible on the Rooms and/or Inventory page. If the device is marked as unhealthy or non-urgent, it indicates that an update is available for installation. We recommend updating to the latest apps so your device is ready to go.
 
 **Question:  Where do I go to remotely manage the device?**
 
