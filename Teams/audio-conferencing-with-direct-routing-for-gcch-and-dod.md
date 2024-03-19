@@ -1,5 +1,5 @@
 ---
-title: "Audio Conferencing with Direct Routing, GCCH and DoD"
+title: "Audio Conferencing with Direct Routing, GCC High and DoD"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -19,30 +19,30 @@ appliesto:
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: Admin can learn about how to use Audio Conferencing with Direct Routing in GCCH and DoD environments.
+description: Admin can learn about how to use Audio Conferencing with Direct Routing in GCC High and DoD environments.
 ms.custom: seo-marvel-apr2020
 ---
 
-# Audio Conferencing with Direct Routing for Government Community Cloud High (GCCH) and Department of Defense (DOD)
+# Audio Conferencing with Direct Routing for Government Community Cloud High (GCC High) and Department of Defense (DOD)
 
-Audio Conferencing with Direct Routing for GCCH and DoD enables participants to join Teams meetings in your GCCH or DoD organization by using a phone device. Meeting participants might prefer to use a phone device to join Teams meetings in scenarios such as when internet connectivity is limited or when they are on the road without access to Teams. Participants can choose to join meetings by either dialing in to a dial-in phone number for your organization or by having the meeting dial out to their phone device.
+Audio Conferencing with Direct Routing for GCC High and DoD enables participants to join Teams meetings in your GCC High or DoD organization by using a phone device. Meeting participants might prefer to use a phone device to join Teams meetings in scenarios such as when internet connectivity is limited or when users are on the road and don't have access to Teams. Participants can choose to join meetings by either dialing in to a dial-in phone number for your organization or by having the meeting dial out to their phone device.
 
-With Audio Conferencing with Direct Routing for GCCH and DoD, your organization uses its own numbers as dial-in phone numbers and all meeting dial-outs to phone devices are routed via Direct Routing. To enable the service, organizations need to set up Direct Routing and configure phone numbers that can be used as dial-in phone numbers. The requirement to use Direct Routing is different from the Audio Conferencing service that's offered to non-GCCH and non-DoD organizations where the dial-in phone numbers are provided by Microsoft.
+With Audio Conferencing with Direct Routing for GCC High and DoD, your organization uses its own numbers as dial-in phone numbers and all meeting dial-outs to phone devices are routed via Direct Routing. To enable the service, organizations need to set up Direct Routing and configure phone numbers that can be used as dial-in phone numbers. The requirement to use Direct Routing is different from the Audio Conferencing service that's offered to non-GCC High and non-DoD organizations where the dial-in phone numbers are provided by Microsoft.
 
-## Deploy Audio Conferencing with Direct Routing for GCCH and DoD
+## Deploy Audio Conferencing with Direct Routing for GCC High and DoD
 
-### Step 1: Get Audio Conferencing with Direct Routing for GCCH or DoD licenses
+### Step 1: Get Audio Conferencing with Direct Routing for GCC High or DoD licenses
 
-To use Audio Conferencing in GCCH or DoD, your organization and the users in your organization need to have an Audio Conferencing with Direct Routing license assigned. Here are the licenses you need to enable Audio Conferencing with Direct Routing for GCCH or DoD.
+To use Audio Conferencing in GCC High or DoD, your organization and the users in your organization need to have an Audio Conferencing with Direct Routing license assigned. Here are the licenses you need to enable Audio Conferencing with Direct Routing for GCC High or DoD.
 
-- GCCH: An Audio Conferencing - GCCH Tenant license for your organization and Audio Conferencing - GCCH licenses for your users.
+- GCC High: An Audio Conferencing - GCC High Tenant license for your organization and Audio Conferencing - GCC High licenses for your users.
 
 - DoD: An Audio Conferencing - DoD Tenant license for your organization and Audio Conferencing - DoD licenses for your users.
 
 A tenant license and at least one user license are required to enable the service. You can't enable the service with only the tenant license or with only user licenses. To get service licenses for your tenant and the users in your organization, contact your account team.
 
 > [!IMPORTANT]
-> Users can't be enabled for Audio Conferencing with Direct Routing until dial-in phone numbers are set up. We recommend that you do not assign Audio Conferencing with Direct Routing for GCCH or DoD licenses to users until you set up dial-in phone numbers as outlined in this article.  Failure to follow this guidance may cause the dial pad to be completely missing in the Teams client.
+> Users can't be enabled for Audio Conferencing with Direct Routing until dial-in phone numbers are set up. We recommend that you do not assign Audio Conferencing with Direct Routing for GCC High or DoD licenses to users until you set up dial-in phone numbers as outlined in this article.  Failure to follow this guidance may cause the dial pad to be completely missing in the Teams client.
 
 ### Step 2: Set up Direct Routing
 
@@ -53,7 +53,7 @@ To set up Direct Routing, see the following articles:
 - [Configure Direct Routing](direct-routing-configure.md)
 
 > [!NOTE]
-> When you set up Direct Routing, remember to use the GCCH or DoD-specific FQDNs and ports that are described in these two articles.
+> When you set up Direct Routing, remember to use the GCC High or DoD-specific FQDNs and ports that are described in these two articles.
 
 ### Step 3: Set up dial-in phone numbers
 
@@ -90,10 +90,10 @@ You can see the ID of your Audio Conferencing Bridge using Get-CsOnlineDialInCon
 
 ### Step 4: Define a global voice routing policy to enable the routing of outbound calls from meetings
 
-The routing of outbound calls that are made to the Public Switched Telephone Network (PSTN) from meetings that are organized by users in your organization is defined by the global voice routing policy of your organization. If your organization has a global voice routing policy defined, verify that the global voice routing policy allows the outbound calls to the PSTN that are expected to be initiated from meetings organized by users in your organization. If your organization doesn’t have a global voice routing policy defined, you will need to define one to enable the routing of outbound calls to the PSTN from meetings organized by users in your organization. Note that the global voice routing policy of your organization also applies to one-to-one calls made to the PSTN by users in your organization. If one-to-one calls to the PSTN are enabled for users in your organization, make sure that the global voice routing policy meets the needs of your organization for both types of calls.
+The routing of outbound calls that are made to the PSTN from meetings organized by users in your organization is defined by the global voice routing policy of your organization. If your organization has a global voice routing policy defined, verify that the global voice routing policy allows the outbound calls to the PSTN that are expected to be initiated from meetings organized by users in your organization. If your organization doesn’t have a global voice routing policy defined, you will need to define one to enable the routing of outbound calls to the PSTN from meetings organized by users in your organization. Note that the global voice routing policy of your organization also applies to one-to-one calls made to the PSTN by users in your organization. If one-to-one calls to the PSTN are enabled for users in your organization, make sure that the global voice routing policy meets the needs of your organization for both types of calls.
 
 > [!NOTE]
-> Location-Based Routing isn't available in Microsoft 365 Government Community Cloud (GCC) High or DoD deployments. When enabling Audio Conferencing, verify that no Audio Conferencing users in the GCCH or the DoD environments are enabled for Location-Based Routing.
+> Location-Based Routing isn't available in Microsoft 365 Government Community Cloud (GCC) High or DoD deployments. When enabling Audio Conferencing, verify that no Audio Conferencing users in the GCC High or the DoD environments are enabled for Location-Based Routing.
 
 #### Defining a global voice routing policy
 
@@ -117,7 +117,7 @@ To create a new voice route, use the following command:
 
 When defining a new voice route for your organization, specify one or multiple of the PSTN online PSTN gateways that have been defined for your organization during the configuration of Direct Routing.
 
-The number pattern specifies which calls will be routed through the specified list of gateways based on the destination phone number of the call. In the example above, calls to any destinations in the world will match the voice route. If you want to limit the phone numbers that participants can dial during meetings within your organization, you can adjust the number pattern. Specifically, configure the voice route to only match the number patterns corresponding to the allowed destinations. Note that if there are no voice routes that match the number pattern of the destination phone number of a given call, the call will not be routed.
+The number pattern specifies which calls will be routed through the specified list of gateways based on the destination phone number of the call. In the example above, calls to any destinations in the world will match the voice route. If you would like to restrict the phone numbers that can be dialed from the meetings of users in your organization, you can change the number pattern to have the voice route match only the number patterns of the destinations allowed. Note that if there are no voice routes that match the number pattern of the destination phone number of a given call, the call will not be routed.
 
 For additional information, see [New-CsOnlineVoiceRoute](/powershell/module/teams/new-csonlinevoiceroute).
 
@@ -139,11 +139,11 @@ To assign the new voice route to the global voice routing policy of your organiz
 
 For additional information, see [Grant-CsOnlineVoiceRoutingPolicy](/powershell/module/teams/grant-csonlinevoiceroutingpolicy).
 
-Once the global voice routing policy has been defined, any outbound calls made from meetings that are organized by users in your organization will be evaluated against the voice routes associated to the PSTN usages of the global voice routing policy. The outbound calls will be routed according to the first voice route that matches the number pattern of the dialed phone number.
+Once the global voice routing policy has been defined, any outbound calls made from meetings organized by users in your organization will be evaluated against the voice routes associated to the PSTN usages of the global voice routing policy. The outbound calls will be routed according to the first voice route that matches the number pattern of the dialed phone number.
 
-### Step 5: Assign Audio Conferencing with Direct Routing for GCCH or DoD licenses to your users
+### Step 5: Assign Audio Conferencing with Direct Routing for GCC High or DoD licenses to your users
 
-To assign Audio Conferencing with Direct Routing for GCCH or DoD licenses to your user, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
+To assign Audio Conferencing with Direct Routing for GCC High or DoD licenses to your user, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
 
 ### Step 6: (Optional) See a list of Audio Conferencing numbers in Teams
 
@@ -161,12 +161,12 @@ To change the settings of the Audio Conferencing bridge of your organization, se
 
 To change the set of phone numbers that are included in the meeting invites of the users is your organization, see [Set the phone numbers included on invites in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md).
 
-## Audio Conferencing capabilities not supported in Audio Conferencing with Direct Routing for GCCH and DoD
+## Audio Conferencing capabilities not supported in Audio Conferencing with Direct Routing for GCC High and DoD
 
-The following are Audio Conferencing capabilities that are not supported in Audio Conferencing with Direct Routing for GCCH and DoD:
+The following are Audio Conferencing capabilities that are not supported in Audio Conferencing with Direct Routing for GCC High and DoD:
 
 - Entry and exit notifications using name recording. For Audio Conferencing with Direct Routing, entry and exit notifications are played in the meeting as tones.
 
 - Disable the usage of toll-free numbers for the meetings specific organizer. User-level controls to restrict the usage of toll-free numbers to join the meetings of your organization aren't applicable to calls routed via Direct Routing.
 
-- Sending notification emails to users when their settings change. Audio Conferencing notification emails aren't supported for Audio Conferencing with Direct Routing for GCCH and DoD.
+- Sending notification emails to users when their settings change. Audio Conferencing notification emails aren't supported for Audio Conferencing with Direct Routing for GCC High and DoD.
