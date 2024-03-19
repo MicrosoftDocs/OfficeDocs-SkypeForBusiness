@@ -24,7 +24,7 @@ description: This article provides the information required when you're planning
 
 # Overview of Microsoft Teams panels
 
-Turn every space into a Teams space. Teams panels are intelligent devices designed to enhance the efficiency of your organization. They're a great solution to help your employees navigate the workplace and for you to manage your meeting spaces. In just a few steps, you can deploy a [Certified for Teams device](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-panels/2351?rtc=1&page=1&filterIds=) in your organization to make your spaces easier to find, book, and manage.
+Turn every space into a Teams space. Teams panels are intelligent devices designed to enhance the efficiency of your organization. They're a great solution to help your users navigate the workplace and for you to manage those meeting spaces. In just a few steps, you can deploy a [Certified for Teams device](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-panels/2351?rtc=1&page=1&filterIds=) in your organization to make your spaces easier to find, book, and manage.
 
 ## Step 1: Consider the space a Teams panel is used in
 
@@ -36,15 +36,15 @@ With the flexibility to accommodate various set ups, we offer two types of licen
 - [Microsoft Teams Rooms Pro license](/microsoftteams/rooms/rooms-licensing)
 - [Teams Shared Device license](/microsoftteams/teams-add-on-licensing/teams-shared-device-license).
 
-If your room is already equipped with a Surface Hub or Microsoft Teams Rooms device, go Pro! With a Teams Rooms Pro license, no other licenses are required for Teams panels. With this license, you can also pair your Teams panel with Teams Rooms on Android and unlock features such as full room alerts and check-in notifications. One room, one account, one license!
+If your room is already equipped with a Surface Hub or Microsoft Teams Rooms device, go Pro! With a Microsoft Teams Rooms Pro license, no other licenses are required for Teams panels. With this license, you can also pair your Teams panel with Teams Rooms on Android and unlock features such as full room alerts and check-in notifications. One room, one account, all with one license!
 
 For spaces without a room device, you can purchase the Teams Shared Device license at an affordable price billed per month. This license lets you gain access to many of the Teams panel's features, such as booking with a QR code and to automatically release a room.
 
 With either of these licenses, you can manage Teams panels remotely with Microsoft's device management services Teams Rooms Pro Management portal and in the Teams admin center.
 
-## Step 3: Setup the desired experience for your employees
+## Step 3: Setup the desired experience for your users
 
-Once you're signed in to a Teams panel, you can pick from various features to help tailor the experience for your employees. You can sign in directly on the device or remotely through the Microsoft Teams admin center using [configuration profiles](/microsoftteams/devices/device-management).
+Once you're signed in to a Teams panel, you can pick from various features to help tailor the experience for your users. You can sign in directly on the device or remotely through the **Microsoft Teams admin center** using [configuration profiles](/microsoftteams/devices/device-management).
   
 ![Panels settings - Meetings](media/overview-teams-panels/panels-settings---meetings.png)
 
@@ -56,7 +56,7 @@ Once you're signed in to a Teams panel, you can pick from various features to he
 
 **Let's take a look at the experiences you can unlock using Teams panels**
 
-Effortlessly reserve a meeting room. Whether it's an impromptu call or a one-on-one meeting, you can simply tap **Reserve** on Teams panels, select the end time, and the room is booked. To seamlessly book the room for a new or scheduled meeting on your calendar, scan the [QR code](/microsoftteams/devices/reserving-rooms-with-a-qr-code) on the home screen using your mobile phone.
+Users can effortlessly reserve a meeting room. Whether it's an impromptu call or a one-on-one meeting, you can simply tap **Reserve** on Teams panels, select the end time, and the room is booked. To seamlessly book the room for a new or scheduled meeting on your calendar, scan the [QR code](/microsoftteams/devices/reserving-rooms-with-a-qr-code) on the home screen using your mobile phone.
 
 ![Image of Teams panels home screen when the room is available.](media/overview-teams-panels/available-(4).png)
 
@@ -68,7 +68,7 @@ With Teams panels, you can make real-time adjustments to your bookings and relea
 
 ![Image of Teams panels home screen with options to 'Check out' or 'Extend room reservation'.](media/overview-teams-panels/image3.png)
 
-Keep users informed of what's happening inside the room without interruption. Teams panels show you whether the room is currently being used and which room equipment is available. It can even alert the people inside the room that someone is waiting for the room. 
+Users can be informed of what's happening inside the room without interruption. Teams panels show you whether the room is currently being used and which room equipment is available. It can even alert the people inside the room that someone is waiting for the room. 
 
 ![Image of Teams panels home screen with a banner 'Room is at capacity'.](media/overview-teams-panels/resereved---capacity-banner.png)
 
@@ -84,13 +84,13 @@ You can empower your users to use organizational apps anywhere by deploying [lin
 
 **Answer:** Teams displays are supported in the Public cloud, Government Community Cloud (GCC), and Government Community Cloud High (GCCH) deployments.
 
-**Question:  Are there any differences in hardware companies?**
+**Question:  Are there any differences in hardware vendors?**
 
 **Answer:** There are a few small differences such as whether the device supports occupancy sensor pairing or purple LEDs. Overall, we recommend picking the one that suits you and your organization the best.
 
 **Question:  What are your suggestions for deployment?**
 
-**Answer:** You need to work with your IT team to install your Teams panels, which requires Power over Ethernet (PoE) and a network connection. We also recommend talking with the Original Equipment Manufacturer (OEM) about the best practices for installation such as how the device shouild be installed depending on the type of wall such as drywall or glass.
+**Answer:** You need to work with your IT team to install your Teams panels, which requires Power over Ethernet (PoE) and a network connection. We also recommend talking with the Original Equipment Manufacturer (OEM) about the best practices on how to properly install their devices such as how the device shouild be installed depending on whether the of wall is made of drywall or glass.
 
 **Question: Do I need to have a Teams Rooms device?**
 
@@ -106,7 +106,7 @@ You can empower your users to use organizational apps anywhere by deploying [lin
 
 **Question: How frequently does the software need to be updated?**
 
-**Answer:** We release a few new apps each year but hardware devices themselves have their own release cycle for firmware. You can select for these updates to be applied automatically so you don't need to check. See best practices for more info.
+**Answer:** We release a few new apps each year but hardware devices themselves have their own release cycle when they release their firmware. You can select for these updates to be applied automatically so you don't need to check. See best practices for more info.
 
 **Question: Where can I go to learn more on Teams panels?**
 
