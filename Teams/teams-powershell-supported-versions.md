@@ -36,12 +36,12 @@ It’s recommended to update to the latest Teams PowerShell Module version.
 
 - During the update, it's suggested to not use TPM 4.x.x/3.x.x alongside versions earlier than 3.0.0. For example, using versions 4.x.x & 2.6.0 together for different admin operations in the same organization isn't recommended.
 
-- Related changes:
-  - Updates to Get-CsOnlineUser & Get-CsOnlineVoiceUser in TPM 3.x.x and later – more details in [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser) & [Get-CsOnlineVoiceUser](/powershell/module/skype/get-csonlinevoiceuser) (Message center post – MC340774/MC511150).
+- Related changes
+  - Updates to Get-CsOnlineUser & Get-CsOnlineVoiceUser in TPM 3.x.x and later – more details in [Get-CsOnlineUser](/powershell/module/teams/get-csonlineuser) & [Get-CsOnlineVoiceUser](/powershell/module/teams/get-csonlinevoiceuser) (Message center post – MC340774/MC511150).
 
-  - Changes coming to Phone number assignment - more details in [Set-CsUser](/powershell/module/skype/set-csuser), [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser), [Set-CsOnlineApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance) & [Set-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlinevoiceapplicationinstance) (Message center post – MC316139).
+  - Changes coming to Phone number assignment - more details in [Set-CsUser](/powershell/module/teams/set-csuser), [Set-CsOnlineVoiceUser](/powershell/module/teams/set-csonlinevoiceuser), [Set-CsOnlineApplicationInstance](/powershell/module/teams/set-csonlineapplicationinstance) & [Set-CsOnlineVoiceApplicationInstance](/powershell/module/teams/set-csonlinevoiceapplicationinstance) (Message center post – MC316139).
 
-  - Parameter changes in Get-CsTenant - more details in [Get-CsTenant](/powershell/module/skype/get-cstenant) (Message center post – MC365397).
+  - Parameter changes in Get-CsTenant - more details in [Get-CsTenant](/powershell/module/teams/get-cstenant) (Message center post – MC365397).
   
   - If your scripts use New/Set of Policy or Configuration cmdlets with PSListModifier type parameters, it’s recommended to use the latest version (4.2.0 or later). Message center post for reference - MC397428.
 
@@ -58,20 +58,19 @@ It’s recommended to update to the latest Teams PowerShell Module version.
 
   | Cmdlets | Notes |
   |------- | -------------------- |
-  | [Get-CsOnlineVoiceUser](/powershell/module/skype/get-csonlinevoiceuser) | Deprecated only in commercial & GCC environments currently |
-  | [Get-CsOnlineTelephoneNumber](/powershell/module/skype/get-csonlinetelephonenumber) | |
+  | [Get-CsOnlineVoiceUser] | Deprecated only in commercial & GCC environments currently |
+  | [Get-CsOnlineTelephoneNumber] | |
   | Get-CsOnlineDialInConferencingUserInfo & Get-CsOnlineDialInConferencingUserState | Suggested alternative is [Get-CsOnlineDialInConferencingUser](/powershell/module/teams/get-csonlinedialinconferencinguser) |
   | [Enable\|Disable]-CsOnlineDialInConferencingUser | To enable/disable Audio Conferencing for a user, assign/unassign the Audio Conferencing license, more information at [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users) |
-  | [Get-CsOnlineDirectoryTenant](/powershell/module/skype/get-csonlinedirectorytenant) | |
+  | [Get-CsOnlineDirectoryTenant](/powershell/module/teams/get-csonlinedirectorytenant) | |
   | New-CsOnlineAudioFile | Suggested alternative is [Import-CsOnlineAudioFile](/powershell/module/teams/import-csonlineaudiofile) |
   | Get-CsOnlineApplicationEndpoint | Suggested alternative is [Get-CsOnlineApplicationInstance](/powershell/module/teams/get-csonlineapplicationinstance) |
   | Set-CsOnlineApplicationEndpoint | Suggested alternatives are [Set-CsOnlineApplicationInstance](/powershell/module/teams/set-csonlineapplicationinstance), [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) & [Remove-CsPhoneNumberAssignment](/powershell/module//teams/remove-csphonenumberassignment)  |
   | New-CsOnlineApplicationEndpoint | Suggested alternative is [New-CsOnlineApplicationInstance](/powershell/module/teams/new-csonlineapplicationinstance) |
   | [Remove\|Switch]-CsOnlineApplicationEndpoint | |
   | Get-CsOnlineTelephoneNumberInventoryCities, Get-CsOnlineTelephoneNumberInventoryAreas, Get-CsOnlineTelephoneNumberInventoryCountries, Get-CsOnlineTelephoneNumberInventoryRegions, Get-CsOnlineTelephoneNumberInventoryTypes, Search-CsOnlineTelephoneNumberInventory, Select-CsOnlineTelephoneNumberInventory, Get-CsOnlineTelephoneNumberAvailableCount, Clear-CsOnlineTelephoneNumberReservation, Get-CsOnlineTelephoneNumberReservationsInformation, Get-CsOnlineDirectoryTenantNumberCities | Suggested alternative is [New-CsOnlineTelephoneNumberOrder](/powershell/module/teams/new-csonlinetelephonenumberorder) |
-  | [Set-CsTeamsAppSetupPolicy](/powershell/module/skype/set-csteamsappsetuppolicy), [New-CsTeamsAppSetupPolicy](/powershell/module/skype/new-csteamsappsetuppolicy), [Set-CsTeamsAppPermissionPolicy](/powershell/module/skype/set-csteamsapppermissionpolicy), [New-CsTeamsAppPermissionPolicy](/powershell/module/skype/new-csteamsapppermissionpolicy) | |
+  | [Set-CsTeamsAppSetupPolicy](/powershell/module/teams/set-csteamsappsetuppolicy), [New-CsTeamsAppSetupPolicy](/powershell/module/teams/new-csteamsappsetuppolicy), [Set-CsTeamsAppPermissionPolicy](/powershell/module/teams/set-csteamsapppermissionpolicy), [New-CsTeamsAppPermissionPolicy](/powershell/module/teams/new-csteamsapppermissionpolicy) | |
   | Test-CsOnlineLisCivicAddress | The validation checks are incorporated into [New-CsOnlineLisCivicAddress](/powershell/module/teams/new-csonlineliscivicaddress) |
-
 
 - Cmdlets that aren't supported/relevant for Microsoft Teams scenarios.
   - [Get|Set]-CsUserPstnSettings
@@ -123,4 +122,4 @@ It’s recommended to update to the latest Teams PowerShell Module version.
 
 [Microsoft Teams cmdlet reference](/powershell/module/teams)
 
-[Skype for Business cmdlet reference](/powershell/module/skype)
+[Skype for Business cmdlet reference](/powershell/module/teams)

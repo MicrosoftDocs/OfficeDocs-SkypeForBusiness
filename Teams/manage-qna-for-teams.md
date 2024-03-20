@@ -56,7 +56,7 @@ Follow these steps to control which organizers can use Q&A in their meetings and
 
 ### PowerShell
 
-To manage whether organizers can use Q&A in their meetings and events, use the **`-QnAEngagementMode`** parameter within the PowerShell [**CsTeamsMeetingPolicy**](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet.
+To manage whether organizers can use Q&A in their meetings and events, use the **`-QnAEngagementMode`** parameter within the PowerShell [**CsTeamsMeetingPolicy**](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet.
 
 To allow organizers with this policy to use Q&A in meetings and events they create, use the following script:
 
