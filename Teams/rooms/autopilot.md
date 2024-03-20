@@ -1,5 +1,5 @@
 ---
-title: Autopilot and auto-signin
+title: Use Autopilot and auto-signin to easily deploy Microsoft Teams Rooms consoles
 author: tonysmit
 ms.author: tonysmit
 manager: pamgreen
@@ -17,82 +17,82 @@ appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn how to set up and use autopilot for Microsoft Teams Rooms on Windows.
+description: Learn how to set up and use the AutoPilot and Autol-login features to deploy and provisioning Microsoft Teams Rooms on Windows conosles in your organization.
 f1keywords: 
 ---
 
 # Autopilot and Auto-login for Teams Rooms on Windows
 
+You can use Windows Autopilot and Auto-login to deploy, provision, reset, redeploy, and recover Teams Rooms on Microsoft Teams Rooms on Windows consoles in your organization.
+
+Windows Autopilot with Auto-login for Teams Rooms accelerates and simplifies the on-site deployment time for Teams Rooms consoles running Windows. The combination of these technologies removes the need for direct interaction with the Teams Rooms console during provisioning and deployment. After the physical installation of Teams Rooms for Windows on the device and turning it on, with AutoPilot and Auto-login, there isn't a need for someone to interact directly with the Teams Room console.
+
+Instead, the Teams Rooms console will complete the Windows and Teams app installation automatically out-of-box, then sign-in to the Teams Room app without the need of someone to have to physcially access the device. Having these features greatly simplifies the Teams Rooms console lifecycle for IT, from it's initial deployment to it's end of life.
+
 ## Overview of steps
 
-- Step 1: Ensure all prerequisites have been met
+To be able to use Autopilot and auto-signin to provision and deploy Microsoft Teams Rooms consoles in your organization, you must perform these tasks:
+
+- Step 1: [Verify that all prerequisites have been met](#step-1-prerequistes)
 - Step 2: [Register devices as Autopilot devices](#step-2-registering-device-through-windows-autopilot)
 - Step 3: [Create a devicegroup](#step-3-create-a-group-for-teams-rooms)
 - Step 4: [Deploy Teams Rooms app update tool](#step-8-set-up-auto-login-in-the-pro-management-portal)
 - Step 5: [Create an Enrollment Status Page (ESP) profile](#step-5-create-an-enrollment-status-page-profile)
 - Step 6: [Create and assign Autopilot profile](#step-6-create-an-autopilot-profile)
-- Step 7: [Create and assign a Local Administrator Password Solution(LAPS) policy](https://learn.microsoft.com/mem/intune protect/windows-laps-policy#create-a-laps-policy) 
+- Step 7: [Create and assign a Local Administrator Password Solution(LAPS) policy](https://learn.microsoft.com/mem/intune protect/windows-laps-policy#create-a-laps-policy)
 - Step 8: [Set up Auto-login in the Pro Management Portal](#step-8-set-up-auto-login-in-the-pro-management-portal)
 - Step 9: [Deploy the device](#step-9-deploy-the-device)
 
 ## Step 1: Prerequisites
 
-To ensure successful deployment of Microsoft Teams Rooms, ensure that these pre-requisites are met or completed.
+To ensure successful deployment of Microsoft Teams Rooms, ensure that these prerequisites are met.
 
-1. Teams Rooms Pro licenses. Includes Intune and AAD P1 licenses.
-2. Required permissions:
+1. You have bought enough Teams Rooms Pro licenses to cover the number of consoles you will be provisioning and deploying. The Teams Rooms Pro license includes the correct Intune and Azure Active Directory (AAD) P1 licenses.
+<!-- @Alvin - what is a P1 license? Also what specific Intune license does it include.-->
+1. Verify that you have provisioned the correct permissions:
 
-    a.  In Intune, Intune Administrator or Policy and Profile Manager
-        permissions. [Learn
-        more](https://learn.microsoft.com/en-us/autopilot/add-devices#required-permissions).
+    a.  In Intune, verify that the account you are using has the Intune Administrator or Policy and Profile Manager permissions [Learn more](/autopilot/add-devices#required-permissions).
+    b.  For the Teams Pro Portal snure the account you are using has the Teams Rooms Pro Manager permissions.
 
-    b.  For Pro Portal, Teams Rooms Pro Manager
-
-3. [Set up Windows automatic Intune enrollment](https://learn.microsoft.com/en-us/autopilot/tutorial/self-deploying/self-deploying-automatic-enrollment#set-up-windows-automatic-intune-enrollment)
-
-4. Resource account setup
-
+3. [Set up Windows automatic Intune enrollment](/autopilot/tutorial/self-deploying self-deploying-automatic-enrollment#set-up-windows-automatic-intune-enrollment)
+4. You must set up the correct resource accounts.
+<!-- @Alvin - we need a link here or more information on what type of resource accounts need to be set up. -->
 5. Microsoft Teams Rooms on Windows
+<!-- @Alvin - we need a link here or more information on what this is here. I have no clue what this is.-->
 
 ## Step 2: Registering device through Windows Autopilot
 
-You can perform Windows Autopilot device registration within your organization by manually collecting the hardware identity of devices (hardware hashes) and uploading this information in a comma-separated-values (CSV) file to Intune. This is described in detail here: [Register devices as Autopilot
+You can perform Windows Autopilot device registration within your organization by manually collecting the hardware identity of devices (hardware hashes) and uploading this information in a comma-separated-values (CSV) file to Intune. To do this, [Register devices as Autopilot
 devices](https://learn.microsoft.com/autopilot/tutorial/self-deploying/self-deploying-register-device).
 
-**IMPORTANT:** For Teams Rooms on Windows devices, it is required to ensure the GroupTag is formatted with the prefix **MTR-**\<customname\>. This can be done by adding the GroupTag to the .csv in the manner described
+> [!IMPORTANT]
+> For Teams Rooms on Windows devices, it is required to ensure the GroupTag is formatted with the prefix **MTR-**<customname>. This can be done by adding the GroupTag to the .csv in the manner described
 [here](https://learn.microsoft.com//autopilot/add-devices#ensure-that-the-csv-file-meets-requirements) or having your partner enter the prefix and custom name when uploading using the Microsoft Partner Center in the **Group name** field.
 
-This GroupTag field is critical for the Teams Pro Management Portal to distinguish Teams Rooms devices from other Windows Autopilot registered devices. It is also useful for leveraging dynamic device groups.
+This GroupTag field is critical for the Teams Pro Management Portal to distinguish Teams Rooms consoles from other Windows Autopilot registered devices. It is also useful for leveraging dynamic device groups.
 
-**NOTE:** For testing, manual registration of the Autopilot devices in Intune is required. There are many methods, but all pre-requisites and instructions are detailed in this doc: [Manually register devices with Windows Autopilot \| Microsoft Learn](https://learn.microsoft.com/en-us/autopilot/add-devices)
+> [!Note]
+> For testing, manual registration of the Autopilot devices in Intune is required. There are many methods, but all pre-requisites and instructions are detailed in this doc: [Manually register devices with Windows Autopilot](https://learn.microsoft.com/autopilot/add-devices).
 
 ## Step 3: Create a Group for Teams Rooms
 
-To create a Teams Rooms on Windows specific device group, begin by creating a device group as described here: [Create a device
+To create a Teams Rooms on Windows specific device group, see [Create a device
 group](https://learn.microsoft.com/autopilot/tutorial/self-deploying/self-deploying-device-group).
 
-**NOTE:** Intune\'s Group Tag field maps to the OrderID attribute on
-Microsoft Entra devices.
+> [!Note]
+> Intune's Group Tag field maps to the OrderID attribute on Microsoft Entra devices.
 
-To create a dynamic device group that includes all Teams Rooms Autopilot
-devices, use the following query:
+To create a dynamic device group that includes all Teams Rooms Autopilot devices, use the following query:
 
-(device.devicePhysicalIds -any \_ -startswith\"\[OrderID\]:MTR-\")
+(device.devicePhysicalIds -any _ -startswith"[OrderID]:MTR-")
 
 ## **Step 4: Deploy Teams Room app update tool**
 
-The update tool will update the Teams room app running on the device to
-a version that is Autopilot and Auto-login capable. The update tool
-needs to be downloaded and uploaded to you Intune instance and deployed
-to the Teams devices (ideally through the dynamic device group created
-in Step 3). During the Autopilot Enrollment Status Page (ESP), Intune
-will deliver the update tool to the device to update the Teams room app
-before launching it.
+The update tool will update the Teams room app running on the device to a version that is Autopilot and Auto-login capable. The update tool needs to be downloaded and uploaded to you Intune instance and deployed to the Teams devices (ideally through the dynamic device group created in Step 3). During the Autopilot Enrollment Status Page (ESP), Intune will deliver the update tool to the device to update the Teams room appmbefore launching it.
 
 To deploy the tool:
 
-1. Download the update tool Win32 package
-    [here](https://mmrprodglobstor.blob.core.windows.net/public/softwareupdates/onboarding/MTRPUpdater/ProvisioningToolInstaller.intunewin).
+1. Download the update tool Win32 package [here](https://mmrprodglobstor.blob.core.windows.net/public/softwareupdates/onboarding/MTRPUpdater/ProvisioningToolInstaller.intunewin).
 2. In the Microsoft Intune Admin center, navigate to **Apps** and under **By platform** select **Windows**.
 3. Select **Add**. In the **Select app type** detail pane, select **Windows app (Win32)** in the drop-down menu.
 4. Select the update tool app package file downloaded in Step 1.
@@ -115,52 +115,28 @@ To deploy the tool:
 
 This will enable Intune to push the update tool to the Teams Rooms enrolling through Autopilot. The update tool will then automatically update the client app on the device so that it can perform Teams room auto-login.
 
-For more details on Win32 app deployment in Intune, refer to the Intune doc: [Add and assign Win32 apps to Microsoft Intune \| Microsoft Learn](https://learn.microsoft.com/mem/intune/apps/apps-win32-add#add-a-win32-app-to-intune)
+For more details on Win32 app deployment in Intune, refer to [Add and assign Win32 apps to Microsoft Intune](https://learn.microsoft.com/mem/intune/apps/apps-win32-add#add-a-win32-app-to-intune)
 
 ## Step 5: Create an Enrollment Status Page profile
 
-Create an enrollment status page profile for your Teams Room on Windows deployment by following the steps outlined here  [Configure and assign Autopilot Enrollment Status Page (ESP)](https://learn.microsoft.com/autopilot/tutorial/self-deploying/self-deploying-esp).
+Create an enrollment status page profile for your Teams Room on Windows deployment by using the steps outlined here  [Configure and assign Autopilot Enrollment Status Page (ESP)](https://learn.microsoft.com/autopilot/tutorial/self-deploying/self-deploying-esp).
 
 The required settings for ESP on Teams Rooms are:
-
-+-------------------------------------------------------------+--------+
-| Show app and profile configuration progress                 | Yes    |
-+=============================================================+========+
+|:-----|:-----|
+|Show app and profile configuration progress| Yes|
 | Block device use until all apps and profiles are installed  | Yes    |
-+-------------------------------------------------------------+--------+
 | Turn on log collection and diagnostics page for end users   | Yes    |
-+-------------------------------------------------------------+--------+
-| Only show page to devices provisioned by out-of-box         | Yes    |
-| experience (OOBE)                                           |        |
-+-------------------------------------------------------------+--------+
+| Only show page to devices provisioned by out-of-box experience (OOBE)| Yes|
 | Block device use until all apps and profiles are installed  | Yes    |
-+-------------------------------------------------------------+--------+
 | Allow users to reset device if installation error occurs    | Yes    |
-+-------------------------------------------------------------+--------+
 | Allow users to use device if installation error occurs      | No     |
-+-------------------------------------------------------------+--------+
-| Block device use until required apps are installed if they  | Se     |
-| are assigned to the user/device                             | lected |
-|                                                             |        |
-|                                                             | **N    |
-|                                                             | ote**: |
-|                                                             | S      |
-|                                                             | etting |
-|                                                             | this   |
-|                                                             | to     |
-|                                                             | Se     |
-|                                                             | lected |
-|                                                             | helps  |
-|                                                             | to     |
-|                                                             | co     |
-|                                                             | mplete |
-|                                                             | the    |
-|                                                             | ESP    |
-|                                                             | f      |
-|                                                             | aster. |
-+-------------------------------------------------------------+--------+
+| Block device use until required apps are installed if they are assigned to the user/device| Selected |
+
+> [!Note]
+> Setting this to Selected helps to complete the ESP faster.
 
 Under **Blocking apps**, select the MTRP Provisioning Tool. Set **Only fail selected blocking apps in technician phase** to **Yes**.
+<!-- @Alvin - We need to spell out MTRP unless this is a UX setting. If it is a setting that's named that way, we need to bold it.-->
 
 Assign the ESP to the previously created device group in [Step 3](#step-3-create-a-group-for-teams-rooms).
 
@@ -169,27 +145,25 @@ Assign the ESP to the previously created device group in [Step 3](#step-3-create
 ![image](media/image1.jpeg){width="5.215382764654418in"
 height="4.029448818897638in"}
 
-For Teams Rooms devices, create a Self-deploying Autopilot profile,
-follow the steps outlined here:  [Create and assign Autopilot
+For Teams Rooms devices, create a Self-deploying Autopilot profile, use:[Create and assign Autopilot
 profile](https://learn.microsoft.com/en-us/autopilot/tutorial/self-deploying/self-deploying-autopilot-profile).
 
-Assign the Autopilot profile to the previously created device group in
-[Step 3](#step-3-create-a-group-for-teams-rooms).
+Assign the Autopilot profile to the previously created device group in [Step 3](#step-3-create-a-group-for-teams-rooms).
 
 ## Step 7: Create and assign a Local Administrator Password Solution (LAPS) policy
 
-For Teams Rooms, it is highly recommended to create and assign a LAPS policy as a good security practice. This may also be required in certain jurisdictions.
+For Teams Rooms, it is highly recommended to create and assign a LAPS policy as a good security practice. This may also be required in certain jurisdictions to meet requirements by law.
 
-To configure a LAPS policy, follow the steps here: [LAPS authentication on Teams Rooms with Windows - Microsoft Teams \| Microsoft Learn](https://learn.microsoft.com/en-us/microsoftteams/rooms/laps-authentication#laps-deployment)
+To configure a LAPS policy, do the following: [LAPS authentication on Teams Rooms with Windows](/microsoftteams/rooms/laps-authentication#laps-deployment)
 
 ## Step 8: Set up Auto-login in the Pro Management Portal
 
-After all the configuration is completed in the Endpoint Manager portal, assign resource accounts to the Autopilot devices so that the Teams Rooms can automatically login upon deployment.
+After all the configuration is completed in the Endpoint Manager portal, assign resource accounts to the Autopilot devices so that the Teams Rooms can automatically login when they are deployed.
 
-**NOTE:** Only Teams Rooms devices that are running Windows 11 will be
-able to auto-login. Windows 10 devices are currently unsupported.
+> [!IMPORTANT]
+> Only Teams Rooms devices that are running Windows 11 will be able to auto-login. Windows 10 devices are currently unsupported.
 
-1. In the left navigation of the Microsoft Teams Rooms Pro Management portal, go to **Planning \> Autopilot devices**
+1. In the left navigation of the Microsoft Teams Rooms Pro Management portal, go to **Planning > Autopilot devices**
 2. On the **Windows Autopilot devices** page, select **Sync** to populate the device list.
 
 ![](media/image2.png){width="6.73328302712161in" height="3.05in"}
@@ -200,29 +174,29 @@ To assign an account to an Autopilot device, the device must have an Autopilot p
 2. Select **Assign account**
 3. On the **Device selection** page, the device is pre-selected. Select **Next**
 4. On the **Account selection** page, select the account you want to associate to this device. Select **Next**.
-5. On the **Configuration** page, configure the following options:
-
+5. On the **Configuration** page, configure:
     - Enter the credentials if manual selected
     - Generate password automatically sets a password for the account.
 
-> **NOTE:** Generate password requires Exchange Admin privileges to
-> work. This option will not work with Hybrid resource accounts.
+> [!Note]
+> Generate password requires Exchange Admin privileges to work. This option won't work with Hybrid resource accounts.
 
 6. On the **Review** page, select **Finish** to complete theassociation of the resource account to Autopilot device. On the corresponding device, the **Provisioning status** will show as **Ready**.
 
-**NOTE:** The association is valid for up to 90 days.
+> [!Note]
+> The association is valid for up to 90 days.
 
-Now, when the device is unboxed, during the Out-of-Box-experience (OOBE), after Windows has completed provisioning and enrollment of the device, the Teams app will automatically login to the associated account. When the device successfully completes Auto-login, the **Provisioning status** will change to **Consumed.**
+When the device is unboxed, during the Out-of-Box-experience (OOBE), after Windows has completed provisioning and enrollment of the device, the Teams app will automatically login to the associated account. When the device successfully completes Auto-login, the **Provisioning status** will change to **Consumed.**
 
-**Auto-login when resetting a Teams Room**
+**Auto-login if you are resetting a Teams Room**
 
-When resetting a Teams Room for Autopilot and Autologin, ensure that there is a resource account assigned to the Autopilot device with the **Provisioning status** showing as **Ready**. If the status is **Consumed,** you must re-assign an account to the Autopilot devicebeing reset.
+When resetting a Teams Room for Autopilot and Autologin, ensure that there is a resource account assigned to the Autopilot device with the **Provisioning status** showing as **Ready**. If the status is **Consumed,** you must re-assign an account to the Autopilot device being reset.
 
 ## Step 9: Deploy the device
 
-Once all the configurations for Windows Autopilot self-deploying deployment and Auto-login have been completed in Intune and the Pro Management Portal, the next step is to start the deployment process onthe device.
+Once all the configurations for Windows Autopilot self-deploying deployment and Auto-login have been completed in Intune and the Pro Management Portal, the next step is to start the deployment process on the device.
 
-To start the Autopilot deployment process on the device, select a device that is Autopilot registered, and has a resource account assigned. Then follow these steps:
+To start the Autopilot deployment process on the device, select a device that is Autopilot registered, and has a resource account assigned.
 
 1. If a wired network connection is available, connect the device to
     the wired network connection.
@@ -235,8 +209,8 @@ To start the Autopilot deployment process on the device, select a device that is
         updates (if available or applicable). After the reboot to apply
         critical security updates, the Autopilot process begins.
 
-    - If the device isn\'t connected to a wired network or if it
-        doesn\'t have network connectivity, it prompts to connect to a
+    - If the device isn't connected to a wired network or if it
+        doesn't have network connectivity, it prompts to connect to a
         network. Connectivity to the Internet is required:
 
         a.  OOBE (out of box experience) begins and a screen asking for
@@ -252,24 +226,24 @@ To start the Autopilot deployment process on the device, select a device that is
             select **Skip** if no additional keyboard layouts are
             needed.
 
-> **Note:** When there\'s no network connectivity, the device can't downloaded the Autopilot profile to know what country/region and keyboard settings to use. For this reason, when there\'s no network connectivity, the country/region and keyboard screens appear even if these screens have been set to hidden in the Autopilot profile. These settings need to be specified in these screens in order for the network connectivity screens that follow to work properly.
+        > [!Note]
+        > When there's no network connectivity, the device can't downloaded the Autopilot profile to know what country/region and keyboard settings to use. For this reason, when there's no network connectivity, the country/region and keyboard screens appear even if these screens have been set to hidden in the Autopilot profile. These settings need to be specified in these screens in order for the network connectivity screens that follow to work properly.
 
-d.  The **Let\'s connect you to a network** screen appears. At this screen, either plug the device into a wired network (if available), or select and connect to a wireless Wi-Fi network.
+        d.  The **Let's connect you to a network** screen appears. At this screen, either plug the device into a wired network (if available), or select and connect to a wireless Wi-Fi network.
 
-e.  Once network connectivity is established, the **Next** button should become available. Select **Next**.
+        e.  Once network connectivity is established, the **Next** button should become available. Select **Next**.
 
-f.  At this point, the device may reboot to apply critical security updates (if available or applicable). After the reboot to apply critical security updates, the Autopilot process begins.
+        f.  At this point, the device may reboot to apply critical security updates (if available or applicable). After the reboot to apply critical security updates, the Autopilot process begins.
 
 4. The Enrollment Status Page (ESP) appears displays progress during the provisioning process across two phases:
 
     - **Device preparation** (Device ESP)
-
     - **Device setup** (Device ESP)
 
-The first two phases of **Device preparation** and **Device setup** are part of the Device ESP while the final phase of **Account setup** is part of the User ESP. For Windows Autopilot self-deploying mode, only the Device ESP and its related two related phases (**Device preparation** and **Device setup**) run.
+    The first two phases of **Device preparation** and **Device setup** are part of the Device ESP while the final phase of **Account setup** is part of the User ESP. For Windows Autopilot self-deploying mode, only the Device ESP and its related two related phases (**Device preparation** and **Device setup**) run.
 
-**Note:** User ESP and **Account setup** are not recommended for Teams
-Rooms deployments.
+> [!Note]
+> User ESP and **Account setup** are not recommended for Teams Rooms deployments.
 
 5. During **Device setup** the Teams Rooms app update tool will run and update the app. When the device ESP process completes, the Windows Autopilot self-deploying deployment is complete, and the Teams Rooms Out-of-box experience starts.
 
@@ -281,8 +255,6 @@ Rooms deployments.
 
 **Answer** On the Autopilot device page in PMP, select **Sync** to initiate an update to the device list. Check the "Last synced" time on the page to see if it corresponds to the time the last sync was initiated. If it isn't, check your Intune permissions. The user initiating the sync must have, at minimum, read permissions to devices in Intune.
 
-**Question** Can I use Autopilot to EntraID join the device into one tenant and
-    manually login the Teams Room app to a resource account from another
-    tenant?
+**Question** Can I use Autopilot to EntraID join the device into one tenant and manually login the Teams Room app to a resource account from another tenant?
 
 **Answer** No. This is not a supported scenario and is likely to cause login to fail as the device is registered to a different domain than the resource account.
