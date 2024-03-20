@@ -50,7 +50,7 @@ In the Teams admin center, you can turn on or turn off the **Transcription** set
 
 ### Use PowerShell to turn on or turn off transcription
 
-Using PowerShell, you can configure the `-AllowTranscription` setting in TeamsMeetingPolicy. To learn more, see [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
+Using PowerShell, you can configure the `-AllowTranscription` setting in TeamsMeetingPolicy. To learn more, see [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy).
 
 ```powershell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowTranscription $True
@@ -91,5 +91,5 @@ For information on how your end users can turn on live translated captions, read
 - [Teams meeting recording](meeting-recording.md)
 - [Accessibility guide for Microsoft Teams Admins](accessibility-guide-admin.md)
 - [Teams policies reference - Meetings](settings-policies-reference.md#meetings)
-- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
+- [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)
 - [Delete Exchange Online and OneDrive transcript files for Teams meetings](delete-exchange-online-transcripts.md)

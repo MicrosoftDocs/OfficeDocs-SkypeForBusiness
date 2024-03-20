@@ -40,11 +40,11 @@ This setting allows you to control the type of spam filtering available on incom
 
 To configure spam filtering for calls in Teams, use the `-SpamFilteringEnabledType` parameter with the following cmdlets:
 
-- [Get-CsTeamsCallingPolicy](/powershell/module/skype/get-csteamscallingpolicy)
-- [New-CsTeamsCallingPolicy](/powershell/module/skype/new-csteamscallingpolicy)
-- [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
-- [Remove-CsTeamsCallingPolicy](/powershell/module/skype/remove-csteamscallingpolicy)
-- [Grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy)
+- [Get-CsTeamsCallingPolicy](/powershell/module/teams/get-csteamscallingpolicy)
+- [New-CsTeamsCallingPolicy](/powershell/module/teams/new-csteamscallingpolicy)
+- [Set-CsTeamsCallingPolicy](/powershell/module/teams/set-csteamscallingpolicy)
+- [Remove-CsTeamsCallingPolicy](/powershell/module/teams/remove-csteamscallingpolicy)
+- [Grant-CsTeamsCallingPolicy](/powershell/module/teams/grant-csteamscallingpolicy)
 
 For example, this script enables spam detection for the global policy:
 

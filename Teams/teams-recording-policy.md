@@ -233,7 +233,7 @@ policies](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group).
    -ComplianceRecordingApplications @(New-CsTeamsComplianceRecordingApplication -Id 5069aae5-c451-4983-9e57-9455ced220b7 -Parent TestComplianceRecordingPolicy)
    ```
 
-   See [Set-CsTeamsComplianceRecordingPolicy](/powershell/module/skype/set-csteamscompliancerecordingpolicy).
+   See [Set-CsTeamsComplianceRecordingPolicy](/powershell/module/teams/set-csteamscompliancerecordingpolicy).
 
 3. Assign the Compliance Recording policy to a user.
 
@@ -241,7 +241,7 @@ policies](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group).
    PS C:\> Grant-CsTeamsComplianceRecordingPolicy -Identity testuser@contoso.onmicrosoft.com -PolicyName TestComplianceRecordingPolicy
    ```
 
-   See [Grant-CsTeamsComplianceRecordingPolicy](/powershell/module/skype/grant-csteamscompliancerecordingpolicy).
+   See [Grant-CsTeamsComplianceRecordingPolicy](/powershell/module/teams/grant-csteamscompliancerecordingpolicy).
 
    ```powershell
    PS C:\> Get-CsOnlineUser testuser@contoso.onmicrosoft.com | select SipAddress, TenantId, TeamsComplianceRecordingPolicy | fl

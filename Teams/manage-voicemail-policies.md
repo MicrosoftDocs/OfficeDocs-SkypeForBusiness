@@ -90,15 +90,15 @@ Follow these steps to edit an existing voicemail policy.
 
 You can also use PowerShell to configure and assign existing or new voicemail policies. To manage policies by using PowerShell, use the following cmdlets:
 
-- [New-CsOnlineVoicemailPolicy](/powershell/module/skype/new-csonlinevoicemailpolicy)
+- [New-CsOnlineVoicemailPolicy](/powershell/module/teams/new-csonlinevoicemailpolicy)
 
-- [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/set-csonlinevoicemailpolicy)
+- [Set-CsOnlineVoicemailPolicy](/powershell/module/teams/set-csonlinevoicemailpolicy)
 
-- [Get-CsOnlineVoicemailPolicy](/powershell/module/skype/get-csonlinevoicemailpolicy)
+- [Get-CsOnlineVoicemailPolicy](/powershell/module/teams/get-csonlinevoicemailpolicy)
 
-- [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/grant-csonlinevoicemailpolicy)
+- [Grant-CsOnlineVoicemailPolicy](/powershell/module/teams/grant-csonlinevoicemailpolicy)
 
-- [Remove-CsOnlineVoicemailPolicy](/powershell/module/skype/remove-csonlinevoicemailpolicy)
+- [Remove-CsOnlineVoicemailPolicy](/powershell/module/teams/remove-csonlinevoicemailpolicy)
 
 ## Voicemail policy settings
   
