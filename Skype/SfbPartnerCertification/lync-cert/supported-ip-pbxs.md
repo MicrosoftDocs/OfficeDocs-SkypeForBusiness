@@ -24,7 +24,7 @@ description: "Partner qualification requirements for Lync IP PBXs."
 
 # Supported IP PBXs
 
-The following IP PBXs is supported by Microsoft. But, they haven't gone through the formal UCOIP qualification process, nor did the vendor request testing.
+The following IP PBXs are supported by Microsoft. But, they haven't gone through the formal UCOIP qualification process, nor did the vendor request testing.
 
 Microsoft does sufficient internal testing to identity specific, supported configurations (where applicable with known limitations). These configurations use the commercially available production SIP trunk interface of the IP-PBX vendor, but might not be supported by the vendor. Also, the vendor might not provide complete documentation for installation, set-up, release notes, or support processes. Wherever possible, Microsoft tries to provide documentation for installation and set-up.
 
