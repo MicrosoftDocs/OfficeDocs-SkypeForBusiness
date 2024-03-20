@@ -108,9 +108,9 @@ Citrix Workspace app:
 
 Citrix Virtual Delivery Agent (VDA):
 
-- 1912 CU6
 - 2203 LTSR (and any CU)
 - 2212 CR
+- 1912 CU6 (but latest CU recommended - please note App Sharing is not supported on 1912)
 
 In addition, you must deploy the following registry key on the VDA for the new Teams client to be optimized:
 
@@ -476,7 +476,7 @@ The following features aren't supported in either classic Teams or new Teams.
 - Teams Premium features (End to End Encryption, Watermark, Premium Events aren't optimized, Custom meeting backgrounds for organizations).
 - Avatars.
 - Gallery View 3x3 and 7x7.
-- Noise Suppression.
+- Noise Suppression (except for AVD/W365, where noise suppression is on by default, but confirmation isn't shown in Teams client UI. This is by design).
 - Zoom In / Out.
 - Location Based Routing.
 - Media Bypass.

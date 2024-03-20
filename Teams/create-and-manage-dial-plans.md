@@ -84,7 +84,7 @@ You can either use a single cmdlet or a PowerShell script to create and manage t
   New-CsTenantDialPlan -Identity RedmondDialPlan -Description "Dial Plan for Redmond" -NormalizationRules <pslistmodifier> -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    For other examples and parameters, see [New-CsTenantDialPlan](/powershell/module/skype/new-cstenantdialplan).
+    For other examples and parameters, see [New-CsTenantDialPlan](/powershell/module/teams/new-cstenantdialplan).
 
 - To edit the settings of an existing dial plan, run the following script:
 
@@ -92,7 +92,7 @@ You can either use a single cmdlet or a PowerShell script to create and manage t
   Set-CsTenantDialPlan -Identity RedmondDialPlan  -NormalizationRules <pslistmodifier> -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    For other examples and parameters, see [Set-CsTenantDialPlan](/powershell/module/skype/set-cstenantdialplan).
+    For other examples and parameters, see [Set-CsTenantDialPlan](/powershell/module/teams/set-cstenantdialplan).
 
 - To add users to a dial plan, run the following script:
 
@@ -100,7 +100,7 @@ You can either use a single cmdlet or a PowerShell script to create and manage t
   Grant-CsTenantDialPlan -Identity amos.marble@contoso.com -PolicyName RedmondDialPlan
   ```
 
-    For other examples and parameters, see [Grant-CsTenantDialPlan](/powershell/module/skype/grant-cstenantdialplan).
+    For other examples and parameters, see [Grant-CsTenantDialPlan](/powershell/module/teams/grant-cstenantdialplan).
 
 - To view the settings on a dial plan, run the following script:
 
@@ -108,7 +108,7 @@ You can either use a single cmdlet or a PowerShell script to create and manage t
   Get-CsTenantDialPlan -Identity RedmondDialPlan
   ```
 
-    For other examples and parameters, see [Get-CsTenantDialPlan](/powershell/module/skype/get-cstenantdialplan).
+    For other examples and parameters, see [Get-CsTenantDialPlan](/powershell/module/teams/get-cstenantdialplan).
 
 - To delete a dial plan, run the following script:
 
@@ -116,7 +116,7 @@ You can either use a single cmdlet or a PowerShell script to create and manage t
   Remove-CsTenantDialPlan -Identity RedmondDialPlan -force
   ```
 
-    For other examples and parameters, see [Remove-CsTenantDialPlan](/powershell/module/skype/remove-cstenantdialplan).
+    For other examples and parameters, see [Remove-CsTenantDialPlan](/powershell/module/teams/remove-cstenantdialplan).
 
 - To see the settings of the effective dial plan, run the following script:
 
@@ -124,7 +124,7 @@ You can either use a single cmdlet or a PowerShell script to create and manage t
   Get-CsEffectiveTenantDialPlan -Identity amos.marble@contoso.com
   ```
 
-    For other examples and parameters, see [Get-CsEffectiveTenantDialPlan](/powershell/module/skype/get-cseffectivetenantdialplan).
+    For other examples and parameters, see [Get-CsEffectiveTenantDialPlan](/powershell/module/teams/get-cseffectivetenantdialplan).
 
 - To test the effective settings of a dial plan, run:
 
@@ -132,7 +132,7 @@ You can either use a single cmdlet or a PowerShell script to create and manage t
   Test-CsEffectiveTenantDialPlan -DialedNumber 14255550199 -Identity amos.marble@contoso.com
   ```
 
-    For other examples and parameters, see [Test-CsEffectiveTenantDialPlan](/powershell/module/skype/test-cseffectivetenantdialplan).
+    For other examples and parameters, see [Test-CsEffectiveTenantDialPlan](/powershell/module/teams/test-cseffectivetenantdialplan).
 
 #### Using a PowerShell script
 
