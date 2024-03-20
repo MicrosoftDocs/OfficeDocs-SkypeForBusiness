@@ -33,7 +33,6 @@ The Planner app in Microsoft Teams brings together the simplicity of [Microsoft 
 > [!NOTE]
 > Prior to March 2024, this app was named Tasks by Planner and To Do.
 
-[placeholder only - need new image]
 :::image type="content" source="media/manage-planner-app.png" alt-text="Screenshot of the Planner app, showing the Assigned to me list in My Tasks." lightbox="media/manage-planner-app.png":::
 
 ## What you need to know about Planner
