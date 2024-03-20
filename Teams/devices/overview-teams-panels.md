@@ -46,11 +46,11 @@ With either of these licenses, you can manage Teams panels remotely with Microso
 
 Once you're signed in to a Teams panel, you can pick from various features to help tailor the experience for your users. You can sign in directly on the device or remotely through the **Teams admin center** using [configuration profiles](/microsoftteams/devices/device-management).
   
-![Image of Teams Panels settings for Meetings.](media/mtr-devices/teams-panels/panels-settings.png)
+:::image type="content" source="../media/mtr-devices/teams-panels/panels-settings.png" alt-text="Screenshot that shows the Teams panel settings." lightbox="../media/mtr-devices/teams-panels/panels-settings.png":::
 
 *Teams admin settings on the device* 
 
-![Image of a few of the settings available in configuration profiles for Teams panels in Teams admin center.](media/mtr-devices/teams-panels/configuration-profile.png)
+:::image type="content" source="../media/mtr-devices/teams-panels/configuration-profile.png" alt-text="Screenshot that shows the Teams admin center configuration profile settings." lightbox="../media/mtr-devices/teams-panels/configuration-profile.png":::
 
 *Configuration profile in Teams admin center*
 
@@ -58,21 +58,21 @@ Once you're signed in to a Teams panel, you can pick from various features to he
 
 Users can effortlessly reserve a meeting room. Whether it's an impromptu call or a one-on-one meeting, users can simply tap **Reserve** on Teams panels, select the end time, and the room is booked. To seamlessly book the room for a new or scheduled meeting on their calendar, they scan the [QR code](/microsoftteams/devices/reserving-rooms-with-a-qr-code) on the home screen using their mobile phone.
 
-![Image of Teams panels home screen when the room is available.](media/mtr-devices/teams-panels/impromptu-meeting.png)
+:::image type="content" source="../media/mtr-devices/teams-panels/impromptu-meeting.png" alt-text="Image of Teams panels home screen when the room is available." lightbox="../media/mtr-devices/teams-panels/impromptu-meeting.png":::
 
 Maximize your space with the [check-in feature](/microsoftteams/devices/check-in-and-room-release). You can be assured that when a room is reserved, it's being used, and if not, it's made available for others to reserve, which helps optimize the space.
 
-![Image of Teams panels home screen when the room is booked but not yet checked in.](media/mtr-devices/teams-panels/reserved-qr-code.png)
+:::image type="content" source="../media/mtr-devices/teams-panels/reserved-qr-code.png" alt-text="Image of Teams panels home screen when the room is booked but not yet checked in." lightbox="../media/mtr-devices/teams-panels/reserved-qr-code.png":::
   
 With Teams panels, users can make real-time adjustments to their bookings. They can release the room early from their reservation or extend their room booking directly from a Teams panel.
 
-![Image of Teams panels home screen with options to 'Check out' or 'Extend room reservation'.](media/mtr-devices/teams-panels/extend-reservation.png)
+:::image type="content" source="../media/mtr-devices/teams-panels/reserved-qr-code.png" alt-text="Image of Teams panels home screen with options to 'Check out' or 'Extend room reservation." lightbox="../media/mtr-devices/teams-panels/extend-reservation.png":::
 
-Users can be informed of what's happening inside the room without interrupting. Teams panels show them whether the room is currently being used, if it's full, and which room equipment is available. It can even alert the people inside the room that someone is waiting for the room. 
+Users can be informed of what's happening inside the room without interrupting. Teams panels show them whether the room is currently being used, if it's full, and which room equipment is available. It can even alert the people inside the room that someone is waiting for the room.
 
-![Image of Teams panels home screen with a banner 'Room is at capacity'.](media/mtr-devices/teams-panels/reserved-banner.png)
+:::image type="content" source="../media/mtr-devices/teams-panels/reserved-banner.png" alt-text="mage of Teams panels home screen with a banner 'Room is at capacity'" lightbox="../media/mtr-devices/teams-panels/reserved-banner.png":::
 
-You can empower your users to use organizational apps anywhere by deploying [line of business apps](/microsoftteams/app-support-on-teams-panels) to Teams panels. 
+You can empower your users to use organizational apps anywhere by deploying [line of business apps](/microsoftteams/app-support-on-teams-panels) to Teams panels.
 
 ## Frequently ask questions about Teams panel
 
