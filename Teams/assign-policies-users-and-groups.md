@@ -68,11 +68,6 @@ Each policy type has its own set of cmdlets for managing it. Use the `Grant-` cm
 
  Download and install the [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/) (if you haven't already), and then run the following to connect.
 
-> [!NOTE]
-> Skype for Business Online Connector is part of the latest Teams PowerShell module.
->
-> If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
-
 ```powershell
   # When using Teams PowerShell Module
 
@@ -296,7 +291,7 @@ A batch can contain up to 5,000 users. For best results, don't submit more than 
 
 #### Install and connect to the Teams PowerShell module
 
-Run the following to install the [Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams). Make sure you install version 1.0.5 or later.
+Run the following to install the [Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams).
 
 ```powershell
 Install-Module -Name MicrosoftTeams

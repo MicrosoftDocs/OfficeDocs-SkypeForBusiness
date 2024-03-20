@@ -33,7 +33,7 @@ You can only apply this policy to users who are in Islands mode and have the -**
 
 ## Manage the meeting provider for Islands mode with PowerShell
 
-You must use the -**`PreferredMeetingProviderForIslandsMode`** parameter in PowerShell to control which Outlook meeting add-in is used for users who are in Islands mode. You can edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and assign it to users.
+You must use the -**`PreferredMeetingProviderForIslandsMode`** parameter in PowerShell to control which Outlook meeting add-in is used for users who are in Islands mode. You can edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](/powershell/module/teams/new-csteamsmeetingpolicy) cmdlet and assign it to users.
 
 To specify which meeting add-in you want to be available to users, set the -**`PreferredMeetingProviderForIslandsMode`** parameter as follows:
 
