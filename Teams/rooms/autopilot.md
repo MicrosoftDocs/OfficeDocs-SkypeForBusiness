@@ -52,7 +52,7 @@ To ensure successful deployment of Microsoft Teams Rooms, ensure that these prer
 1. Verify that you have provisioned the correct permissions:
 
     a.  In Intune, verify that the account you are using has the Intune Administrator or Policy and Profile Manager permissions [Learn more](/autopilot/add-devices#required-permissions).
-    b.  For the Teams Pro Portal snure the account you are using has the Teams Rooms Pro Manager permissions.
+    b.  For the Teams Pro Portal ensure the account you are using has the Teams Rooms Pro Manager permissions.
 
 3. [Set up Windows automatic Intune enrollment](/autopilot/tutorial/self-deploying self-deploying-automatic-enrollment#set-up-windows-automatic-intune-enrollment)
 4. You must set up the correct resource accounts.
