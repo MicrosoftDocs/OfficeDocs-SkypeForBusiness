@@ -56,19 +56,19 @@ It’s recommended to update to the latest Teams PowerShell Module version.
 
 - Following are some of the cmdlets that were deprecated recently. Details on the same can be found in the respective documentations.
 
-  | Cmdlets | Notes |
+  | Cmdlets | Notes / Suggested Alternatives |
   |------- | -------------------- |
   | [Get-CsOnlineVoiceUser] | Deprecated only in commercial & GCC environments currently |
   | [Get-CsOnlineTelephoneNumber] | |
-  | Get-CsOnlineDialInConferencingUserInfo & Get-CsOnlineDialInConferencingUserState | Suggested alternative is [Get-CsOnlineDialInConferencingUser](/powershell/module/teams/get-csonlinedialinconferencinguser) |
+  | Get-CsOnlineDialInConferencingUserInfo & Get-CsOnlineDialInConferencingUserState | [Get-CsOnlineDialInConferencingUser](/powershell/module/teams/get-csonlinedialinconferencinguser) |
   | [Enable\|Disable]-CsOnlineDialInConferencingUser | To enable/disable Audio Conferencing for a user, assign/unassign the Audio Conferencing license, more information at [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users) |
   | [Get-CsOnlineDirectoryTenant](/powershell/module/teams/get-csonlinedirectorytenant) | |
-  | New-CsOnlineAudioFile | Suggested alternative is [Import-CsOnlineAudioFile](/powershell/module/teams/import-csonlineaudiofile) |
-  | Get-CsOnlineApplicationEndpoint | Suggested alternative is [Get-CsOnlineApplicationInstance](/powershell/module/teams/get-csonlineapplicationinstance) |
-  | Set-CsOnlineApplicationEndpoint | Suggested alternatives are [Set-CsOnlineApplicationInstance](/powershell/module/teams/set-csonlineapplicationinstance), [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) & [Remove-CsPhoneNumberAssignment](/powershell/module//teams/remove-csphonenumberassignment)  |
-  | New-CsOnlineApplicationEndpoint | Suggested alternative is [New-CsOnlineApplicationInstance](/powershell/module/teams/new-csonlineapplicationinstance) |
+  | New-CsOnlineAudioFile | [Import-CsOnlineAudioFile](/powershell/module/teams/import-csonlineaudiofile) |
+  | Get-CsOnlineApplicationEndpoint | [Get-CsOnlineApplicationInstance](/powershell/module/teams/get-csonlineapplicationinstance) |
+  | Set-CsOnlineApplicationEndpoint | [Set-CsOnlineApplicationInstance](/powershell/module/teams/set-csonlineapplicationinstance), [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment), [Remove-CsPhoneNumberAssignment](/powershell/module//teams/remove-csphonenumberassignment)  |
+  | New-CsOnlineApplicationEndpoint | [New-CsOnlineApplicationInstance](/powershell/module/teams/new-csonlineapplicationinstance) |
   | [Remove\|Switch]-CsOnlineApplicationEndpoint | |
-  | Get-CsOnlineTelephoneNumberInventoryCities, Get-CsOnlineTelephoneNumberInventoryAreas, Get-CsOnlineTelephoneNumberInventoryCountries, Get-CsOnlineTelephoneNumberInventoryRegions, Get-CsOnlineTelephoneNumberInventoryTypes, [Search\|Select]-CsOnlineTelephoneNumberInventory, Get-CsOnlineTelephoneNumberAvailableCount, Clear-CsOnlineTelephoneNumberReservation, Get-CsOnlineTelephoneNumberReservationsInformation, Get-CsOnlineDirectoryTenantNumberCities | Suggested alternative is [New-CsOnlineTelephoneNumberOrder](/powershell/module/teams/new-csonlinetelephonenumberorder) |
+  | Get-CsOnlineTelephoneNumberInventoryCities, Get-CsOnlineTelephoneNumberInventoryAreas, Get-CsOnlineTelephoneNumberInventoryCountries, Get-CsOnlineTelephoneNumberInventoryRegions, Get-CsOnlineTelephoneNumberInventoryTypes, [Search\|Select]-CsOnlineTelephoneNumberInventory, Get-CsOnlineTelephoneNumberAvailableCount, Clear-CsOnlineTelephoneNumberReservation, Get-CsOnlineTelephoneNumberReservationsInformation, Get-CsOnlineDirectoryTenantNumberCities | [New-CsOnlineTelephoneNumberOrder](/powershell/module/teams/new-csonlinetelephonenumberorder) |
   | [Set-CsTeamsAppSetupPolicy](/powershell/module/teams/set-csteamsappsetuppolicy), [New-CsTeamsAppSetupPolicy](/powershell/module/teams/new-csteamsappsetuppolicy), [Set-CsTeamsAppPermissionPolicy](/powershell/module/teams/set-csteamsapppermissionpolicy), [New-CsTeamsAppPermissionPolicy](/powershell/module/teams/new-csteamsapppermissionpolicy) | |
   | Test-CsOnlineLisCivicAddress | The validation checks are incorporated into [New-CsOnlineLisCivicAddress](/powershell/module/teams/new-csonlineliscivicaddress) |
 
