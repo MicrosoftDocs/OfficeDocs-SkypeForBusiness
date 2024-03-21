@@ -56,10 +56,10 @@ It’s recommended to update to the latest Teams PowerShell Module version.
 
 - Following are some of the cmdlets that were deprecated recently. Details on the same can be found in the respective documentations.
 
-  | Cmdlets | Notes or Suggested Alternatives |
+  | Cmdlets | Notes \/ Suggested Alternatives |
   |------- | -------------------- |
-  | [Get-CsOnlineVoiceUser] | Deprecated only in commercial & GCC environments currently |
-  | [Get-CsOnlineTelephoneNumber] | |
+  | [Get-CsOnlineVoiceUser](/powershell/module/teams/get-csonlinevoiceuser) | Deprecated only in commercial & GCC environments currently |
+  | [Get-CsOnlineTelephoneNumber](/powershell/module/teams/get-csonlinetelephonenumber) | |
   | Get-CsOnlineDialInConferencingUserInfo & Get-CsOnlineDialInConferencingUserState | [Get-CsOnlineDialInConferencingUser](/powershell/module/teams/get-csonlinedialinconferencinguser) |
   | [Enable\|Disable]-CsOnlineDialInConferencingUser | To enable/disable Audio Conferencing for a user, assign/unassign the Audio Conferencing license, more information at [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users) |
   | [Get-CsOnlineDirectoryTenant](/powershell/module/teams/get-csonlinedirectorytenant) | |
