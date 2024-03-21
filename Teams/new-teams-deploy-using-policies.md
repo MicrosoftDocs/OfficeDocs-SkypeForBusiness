@@ -48,7 +48,7 @@ You can upgrade to the new Teams client to your organization by setting policies
 Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-history-microsoft365-apps-by-date#supported-versions).
 
 > [!NOTE]
-> The end of availability for classic Teams client is March 31 2024 for most people, with some exceptions ending on June 30 2024. For more information see [End of availability for classic Teams client](teams-classic-client-end-of-availability.md).
+> The end of availability for classic Teams client is June 30 2024. For more information see [End of availability for classic Teams client](teams-classic-client-end-of-availability.md).
 
 ## Set the policies to upgrade to the new Teams client
 
@@ -70,7 +70,7 @@ Configure setting via Teams Admin Center.
    |Classic Teams as default|Use this value to have classic Teams the default version. The new Teams toggle switch displays to let users opt into the new Teams and switch back if needed. **Note:** This option was previously called *Users can choose*.|
    |Microsoft controlled| Default. The value lets Microsoft control whether the new Teams toggle switch is shown or not based on product readiness|
    |New Teams as default </br>Rollout for the feature began in early August  2023 | Use this value to make new Teams the default version. Users can switch back to classic Teams using the toggle.|
-   |New Teams only (Rolling out mid-February 2024) |Use this value to make new Teams the default version and uninstall classic Teams. Users don't have the option to switch back to classic Teams.|
+   |New Teams only (Rolling out mid-February 2024) |Use this value to make new Teams the default version and uninstall classic Teams after a fourteen-day period. Users don't have the option to switch back to classic Teams.|
 
 In addition to PowerShell, you can also use Teams Admin Center to manage the visibility of the toggle on a per-user basis.
 
