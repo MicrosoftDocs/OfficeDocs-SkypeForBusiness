@@ -66,7 +66,7 @@ Maximize your space with the [check-in feature](/microsoftteams/devices/check-in
   
 With Teams panels, users can make real-time adjustments to their bookings. They can release the room early from their reservation or extend their room booking directly from a Teams panel.
 
-:::image type="content" source="../media/mtr-devices/teams-panels/reserved-qr-code.png" alt-text="Image of Teams panels home screen with options to 'Check out' or 'Extend room reservation." lightbox="../media/mtr-devices/teams-panels/extend-reservation.png":::
+:::image type="content" source="../media/mtr-devices/teams-panels/extend-reservation-2.png" alt-text="Image of Teams panels home screen with options to 'Check out' or 'Extend room reservation." lightbox="../media/mtr-devices/teams-panels/extend-reservation-2.png":::
 
 Users can be informed of what's happening inside the room without interrupting. Teams panels show them whether the room is currently being used, if it's full, and which room equipment is available. It can even alert the people inside the room that someone is waiting for the room.
 
