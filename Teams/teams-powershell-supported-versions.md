@@ -56,7 +56,7 @@ It’s recommended to update to the latest Teams PowerShell Module version.
 
 - Following are some of the cmdlets that were deprecated recently. Details on the same can be found in the respective documentations.
 
-  | Cmdlets | Notes \/ Suggested Alternatives |
+  | Cmdlets | Notes \/ Suggested alternatives |
   |------- | -------------------- |
   | [Get-CsOnlineVoiceUser](/powershell/module/teams/get-csonlinevoiceuser) | Deprecated only in commercial & GCC environments currently |
   | [Get-CsOnlineTelephoneNumber](/powershell/module/teams/get-csonlinetelephonenumber) | |
