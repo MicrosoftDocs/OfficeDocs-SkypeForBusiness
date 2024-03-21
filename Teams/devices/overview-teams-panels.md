@@ -46,7 +46,7 @@ With either of these licenses, you can manage Teams panels remotely with Microso
 
 Once you're signed in to a Teams panel, you can pick from various features to help tailor the experience for your users. You can sign in directly on the device or remotely through the **Teams admin center** using [configuration profiles](/microsoftteams/devices/device-management).
   
-:::image type="content" source="../media/mtr-devices/teams-panels/panel-settings.png" alt-text="Screenshot that shows the Teams panel settings." lightbox="../media/mtr-devices/teams-panels/panels-settings.png":::
+:::image type="content" source="../media/mtr-devices/teams-panels/panel-settings.png" alt-text="Screenshot that shows the Teams panel settings." lightbox="../media/mtr-devices/teams-panels/panel-settings.png":::
 
 *Teams admin settings on the device* 
 
