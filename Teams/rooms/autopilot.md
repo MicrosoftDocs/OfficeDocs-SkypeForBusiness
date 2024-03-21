@@ -142,8 +142,7 @@ Assign the ESP to the previously created device group in [Step 3](#step-3-create
 
 ## Step 6: Create an Autopilot Profile
 
-![image](media/image1.jpeg){width="5.215382764654418in"
-height="4.029448818897638in"}
+:::image type="content" source="../media/mtr-devices/intune-screenshot.png" alt-text="Image of Intune admin center." lightbox="../media/mtr-devices/intune-screenshot.png":::
 
 For Teams Rooms devices, create a Self-deploying Autopilot profile, use:[Create and assign Autopilot
 profile](https://learn.microsoft.com/en-us/autopilot/tutorial/self-deploying/self-deploying-autopilot-profile).
@@ -166,7 +165,7 @@ After all the configuration is completed in the Endpoint Manager portal, assign 
 1. In the left navigation of the Microsoft Teams Rooms Pro Management portal, go to **Planning > Autopilot devices**
 2. On the **Windows Autopilot devices** page, select **Sync** to populate the device list.
 
-![](media/image2.png){width="6.73328302712161in" height="3.05in"}
+:::image type="content" source="../media/mtr-devices/windows-autopilot-devices.png" alt-text="Image of Teams panels home screen of Windows AutoPilot devices." lightbox="../media/mtr-devices/windows-autopilot-devices.png":::
 
 To assign an account to an Autopilot device, the device must have an Autopilot profile assigned. This is shown in the **Profile assignment status** column and should show as **Assigned**.
 
