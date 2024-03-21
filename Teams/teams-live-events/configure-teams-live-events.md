@@ -1,7 +1,7 @@
 ---
 title: Configure live event settings in Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.date: 10/01/2023
 ms.topic: article
@@ -55,7 +55,7 @@ Run the following:
 Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 ```
 
-For more information, see [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps&preserve-view=true).
+For more information, see [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/teams/set-csteamsmeetingbroadcastconfiguration).
 
 ## Configure a third-party video distribution provider
 

@@ -143,6 +143,6 @@ The diagram below shows the conceptual phases of a select capabilities transitio
 
 [Setting your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 
-[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy)
+[Grant-CsTeamsUpgradePolicy](/powershell/module/teams/grant-csteamsupgradepolicy)
 
 [Using the Meeting Migration Service (MMS)](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)

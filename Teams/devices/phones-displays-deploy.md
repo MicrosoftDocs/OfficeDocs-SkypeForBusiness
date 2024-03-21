@@ -3,9 +3,9 @@ title: Deploy Teams phones, Teams displays, Teams panels, and Microsoft Teams Ro
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: weizxue
 ms.date: 08/24/2020
-ms.topic: reference
+ms.reviewer: kponnus
+ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
 audience: Admin
@@ -14,6 +14,7 @@ appliesto:
 f1.keywords: 
   - NOCSH
 ms.collection: 
+  - teams-rooms-devices
   - M365-voice
   - Teams_ITAdmin_Devices
   - Tier1

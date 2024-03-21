@@ -15,6 +15,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
+  - privacy-teams
 appliesto: 
   - Microsoft Teams
 ---
@@ -27,7 +28,7 @@ This article is intended to provide you with information about privacy controls 
 - **Diagnostic data** that is collected and sent to Microsoft about Teams and Office software being used on computers running Windows in your organization.
 - **Connected experiences** that use cloud-based functionality to provide enhanced Teams and Office features to you and your users.
 
-As part of these changes, there are new and updated user interface (UI) elements and policy settings
+As part of these changes, there are new and updated user interface (UI) elements and policy settings.
 
 > [!IMPORTANT]
 > For further reading, please review [Overview of privacy controls for Microsoft 365 Apps for enterprise](/deployoffice/privacy/overview-privacy-controls).
@@ -77,7 +78,7 @@ As an admin for your organization, you’ll be able to use a policy setting to c
 
 To choose which level of diagnostic data is sent to us, use the [Office cloud policy service](/deployoffice/overview-office-cloud-policy-service) and configure the *Configure the level of client software diagnostic data sent by Office to Microsoft* policy setting. This is the same policy setting that is used to configure which level of diagnostic data is sent by other Office apps (such as Word, Excel, and PowerPoint) that come with Microsoft 365 Apps for enterprise.
 
-Your users won’t be able to change the diagnostic data level for their devices if they are signed in to Teams with their organizational credentials, which is sometimes referred to as a work or school account.
+Your users won’t be able to change the diagnostic data level for their devices if they're signed in to Teams with their organizational credentials, which is sometimes referred to as a work or school account.
 
 This diagnostic data doesn’t include names of users, their email addresses, or other user content, such as Office files shared in Teams, a chat message sent in Teams, or the text of a post published in a Teams channel. Our system creates a unique ID that it associates with your user’s diagnostic data. When we receive diagnostic data showing that the Teams app crashed 100 times, this unique ID lets us determine if it was a single user who crashed 100 times or if it was 100 different users who each crashed once. We don’t use this unique ID to identify a specific user.
 
@@ -85,10 +86,10 @@ To see what diagnostic data is being sent to Microsoft, you can use the Diagnost
 
 ## Required service data for connected experiences
 
-Required service data is data that enables us to deliver these cloud-based connected experiences and help make these experiences secure and perform as expected. You can choose to not offer this functionality to your users, in which case this information will not be provided to Microsoft to support the functionality of connected experiences. You can learn more about [required service data](/deployoffice/privacy/required-service-data).
+Required service data is data that enables us to deliver these cloud-based connected experiences and help make these experiences secure and perform as expected. You can choose to not offer this functionality to your users, in which case this information won't be provided to Microsoft to support the functionality of connected experiences. You can learn more about [required service data](/deployoffice/privacy/required-service-data).
 
 ## Essential services for Microsoft Teams
 
-There is also a set of services that are essential to how Microsoft 365 Apps for enterprise functions and cannot be disabled. For example, the licensing service that confirms that you are properly licensed to use Microsoft 365 Apps for enterprise. Required service data about these services is collected and sent to Microsoft, regardless of any other policy settings that you have configured.
+There's also a set of services that are essential to how Microsoft 365 Apps for enterprise functions and can't be disabled. For example, the licensing service that confirms that you're properly licensed to use Microsoft 365 Apps for enterprise. Required service data about these services is collected and sent to Microsoft, regardless of any other policy settings that you have configured.
 
 For more information, see [Essential services for Office](/deployoffice/privacy/essential-services).

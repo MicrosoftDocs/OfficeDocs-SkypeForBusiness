@@ -1,7 +1,7 @@
 ---
 title: "Enable users to record their name for a meeting"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 12/14/2023
@@ -53,7 +53,7 @@ Using the Microsoft Teams admin center:
 
 To turn entry and exit announcements on or off with PowerShell, use the **`-EnableNameRecording`** parameter within the PowerShell CsOnlineDialInConferencingTenantSettings cmdlet.
 
-For CsOnlineDialInConferencingBridge script examples, see [Set-CsOnlineDialInConferencingBridge](/powershell/module/skype/Set-csonlinedialinconferencingtenantsettings).
+For CsOnlineDialInConferencingBridge script examples, see [Set-CsOnlineDialInConferencingBridge](/powershell/module/teams/Set-csonlinedialinconferencingtenantsettings).
 
 ## Related topics
 

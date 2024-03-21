@@ -1,8 +1,8 @@
 --- 
 title: IT Admins - Control who can bypass the meeting lobby in Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
-ms.reviewer: rbronisevsky
+ms.author: wlibebe
+author: wlibebe
+ms.reviewer:
 ms.date: 05/19/2023
 manager: pamgreen
 ms.topic: article
@@ -151,11 +151,11 @@ Note that with these settings, anonymous users and dial-in callers will still wa
 
 ## Set meeting policies by using PowerShell
 
-You can set the meeting policies described in this article by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) PowerShell cmdlet with the following parameters:
+You can set the meeting policies described in this article by using the [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) PowerShell cmdlet with the following parameters:
 
-- [-AllowAnonymousUsersToJoinMeeting](/powershell/module/skype/set-csteamsmeetingpolicy?#-allowanonymoususerstojoinmeeting) to control if anonymous users can join meetings
-- [-AllowPSTNUsersToBypassLobby](/powershell/module/skype/set-csteamsmeetingpolicy#-allowpstnuserstobypasslobby) to control if people dialing in by phone can bypass the lobby
-- [-AutoAdmittedUsers](/powershell/module/skype/set-csteamsmeetingpolicy?#-autoadmittedusers) to control who can bypass the lobby
+- [-AllowAnonymousUsersToJoinMeeting](/powershell/module/teams/set-csteamsmeetingpolicy?#-allowanonymoususerstojoinmeeting) to control if anonymous users can join meetings
+- [-AllowPSTNUsersToBypassLobby](/powershell/module/teams/set-csteamsmeetingpolicy#-allowpstnuserstobypasslobby) to control if people dialing in by phone can bypass the lobby
+- [-AutoAdmittedUsers](/powershell/module/teams/set-csteamsmeetingpolicy?#-autoadmittedusers) to control who can bypass the lobby
 
 ## Run the lobby diagnostic tool
 

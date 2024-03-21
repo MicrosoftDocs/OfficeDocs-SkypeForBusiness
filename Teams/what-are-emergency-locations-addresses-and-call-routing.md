@@ -82,7 +82,7 @@ End users working at home can enable location sharing. Various device management
 
 Security desk notification is available with both Microsoft Calling Plans, Operator Connect, and Direct Routing.
 
-You use a Teams emergency calling policy ([TeamsEmergencyCallingPolicy](/powershell/module/skype/set-csteamsemergencycallingpolicy)) to configure who should be notified during an emergency call and how they are notified: chat only, conferenced in and muted, or conferenced in and muted but with the ability to unmute. You can also specify an external PSTN number to call and join the emergency call. Note that the PSTN party is not allowed to unmute.
+You use a Teams emergency calling policy ([TeamsEmergencyCallingPolicy](/powershell/module/teams/set-csteamsemergencycallingpolicy)) to configure who should be notified during an emergency call and how they are notified: chat only, conferenced in and muted, or conferenced in and muted but with the ability to unmute. You can also specify an external PSTN number to call and join the emergency call. Note that the PSTN party is not allowed to unmute.
 
 You can also configure extended notification settings per emergency number. For example, you can specify how a call to the emergency test number 933 is handled without notifying the security desk. For more information about extended notications, see [Extended notfications](#extended-notifications).
 

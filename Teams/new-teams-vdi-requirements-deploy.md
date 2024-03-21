@@ -77,7 +77,7 @@ HKLM\SOFTWARE\Microsoft\Teams:
 
 Windows 365 uses AV optimization provided by Azure Virtual Desktop to ensure optimal Teams experiences from Cloud PCs. To learn more on requirements and installation, see [Use Teams on Cloud PC](/windows-365/enterprise/teams-on-cloud-pc).
 
-The Windows 10/11 images in the gallery are preconfigured with required optimization components. When you install and use Microsoft Teams in your cloud PC, you get an optimized experience. A new image with the new Teams client will be added to the gallery in a few weeks.
+The Windows 10/11 images in the gallery are preconfigured with required optimization components. When you install and use Microsoft Teams in your Cloud PC, you get an optimized experience. A new image with the new Teams client will be added to the gallery in a few weeks.
 
 If you want to create custom images that include optimizations for Microsoft Teams, you need to perform the steps described in [Create a custom Cloud PC image to support Microsoft Teams](/windows-365/enterprise/create-custom-image-support-teams).
 
@@ -108,9 +108,9 @@ Citrix Workspace app:
 
 Citrix Virtual Delivery Agent (VDA):
 
-- 1912 CU6
 - 2203 LTSR (and any CU)
 - 2212 CR
+- 1912 CU6 (but latest CU recommended - please note App Sharing is not supported on 1912)
 
 In addition, you must deploy the following registry key on the VDA for the new Teams client to be optimized:
 
@@ -216,6 +216,9 @@ Dism /Online /Add-ProvisionedAppxPackage /PackagePath:<MSIX package path> /SkipL
 
 Make sure sideloading is enabled, and that WebView2 is installed. See 'Requirements' section above.
 
+The /SkipLicense command is needed because the MSIX package isn't considered a "Store Package" (since it wasn't downloaded from the store). Therefore, for the Dism installation command to succeed, you need to enable this policy as well during installation time:
+Computer Configuration > Administrative Templates > Windows Components > App Package Deployment > **Allow all trusted apps to install**.
+
 Known limitations:
 
 - Classic Teams on Windows Server 2019 isn't displaying the app switcher toggle if Classic Teams version is lower than 1.6.00.33567
@@ -248,7 +251,7 @@ Value: 1
 
 All the user settings and configurations are now stored in:
 
-- C:\Users\<username>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams
+- C:\Users\<username>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\
 - C:\Users\<username>\AppData\Local\Publishers\8wekyb3d8bbwe\TeamsSharedConfig\app_switcher_settings.json
 - C:\Users\<username>\AppData\Local\Publishers\8wekyb3d8bbwe\TeamsSharedConfig\tma_settings.json
 
@@ -257,14 +260,6 @@ Make sure these folders and files are persisted for proper Teams functioning.
 **TeamsSharedConfig** stores user configurations for the Teams app switcher toggle (and what should be the default app, the Classic or New Teams), and the Teams Meeting Add In for Outlook.
 
 The folder "meeting-addin" under TeamsSharedConfig shouldn't be persisted, as this could cause issues with the default meeting coordinates in the meeting templates inserted into Outlook.
-
-Excluding these items helps reduce the user caching size to further optimize a non-persistent setup:
-
-- AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Logs
-- AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\PerfLogs
-- AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\WebStorage
-
-When you exclude the WebStorage folder (used for domains hosted within Teams like SharePoint, Viva Learning, etc.), you can significantly reduce storage. It can also have an impact on performance as users would lose caching benefits.
 
 >[!Important]
 >Customers using FSLogix need to install hotfix [2.9.8784.63912](/fslogix/overview-release-notes#fslogix-2210-hotfix-3-29878463912) in order to guarantee proper integration with the new Teams client in VDI. The hotfix addresses the following issues:
@@ -275,6 +270,39 @@ When you exclude the WebStorage folder (used for domains hosted within Teams lik
 
 >[!Note]
 >[Folder Redirection or Roaming User Profiles](/windows-server/storage/folder-redirection/folder-redirection-rup-overview) aren't supported with the new Teams client in VDI environments since they can't roam folders in AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams. Customers can continue to use Folder Redirection or Roaming User Profiles with a complementary product, such as FSLogix, Citrix Profile Manager, VMware, and DEM, that can roam the Appdata\Local folders above.
+
+### Folder exclusions
+
+#### Disk storage usage
+
+The new Teams app takes up about 50% less disk space than the classic version. To make it easier to distribute our client to Windows devices, we have added support for MSIX, which improves the dependability of installations and app updates, as well as reduces network bandwidth and disk space consumption. This packaging technology also shows the accurate disk space usage. Users may see larger disk usage than classic Teams in Windows settings, but the difference is mainly because the disk space related to Electron-based classic Teams is not fully and correctly shown.
+
+#### Disk Footprint - Key folders and location
+
+- **App installer**: C:\Program Files\WindowsApps\MSTeams_[version]_[arch]__8wekyb3d8bbwe
+  Includes the installation package, supports the ability to reset the app, and allows single instancing.
+- **User and app data**: C:\Users\<alias>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe
+  This includes code (Javascript bundles), code cache, browser caches, databases for user data (like conversations which scales based on usage), and web storage (from domains hosted within Teams, such as Sharepoint, Viva learning, Apps, and so on).
+
+The underlying folder structure is logically similar to Electron-based classic Teams. For non-persistent setups where storage footprint is a consideration, the following guidance applies:
+
+##### Recommended for exclusion
+
+|Folder             |Folder path |Role |Exclusion impact |
+|-------------------|------------|---------|-----------------|
+|**Logs**           |LocalCache\Microsoft\MSTeams\Logs </br>LocalCache\Microsoft\MSTeams\PerfLog |Diagnostics, perf logs, and so on. |No impact. |
+|**WebStorage**     |LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\ WebStorage |Storage used and managed by the browser when accessing other web apps inside a web app using iframes. For example, loading Sharepoint, OneDrive and office apps within Teams. |Loading these apps again could be slower after clearing this cache. |
+|**GPU Cache**      |LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\ GPUCache |GPU cache. |No impact. |
+
+##### Review tradeoff considerations, requiring evaluation and testing for these environments
+
+|Folder             |Folder path |Role |Exclusion impact |
+|-------------------|---------|---------|---------|
+|**Service worker** |LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\ Service Worker\CacheStorage </br>LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\Code Cache |Code and caching of Web/JS Scripts for the app to run. |- Reduced performance to download and load scripts on every app launch </br>- No offline access to app |
+|**IndexedDB**      |LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\IndexedDB |Holds app and user data and is the recommended way to cache data at scale in a web app to improve responsiveness. |- Significantly higher app launch times as data (such as chat or channel conversations) must be pulled down, along with network usage as data needing to be downloaded and cached every time. </br>- The size of the data varies based on the user profile. </br>- Users might see **We’re setting things up for you** in the launch splash-screen. |
+|**Cache**          |LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\Cache |Cache used and managed by the browser for the contents of all network calls that leave the app. Also known as Disk Cache. |For example, profile pictures in Teams are mostly cached in this storage by the browser. These will need to be downloaded again. |
+
+Other than the folders in this section, we don't recommend excluding additional directories.
 
 ## New Teams and Outlook integration
 
@@ -409,8 +437,6 @@ Learn more: [Manage accounts and organizations in Microsoft Teams](https://suppo
 
 - Screen sharing from chat for Azure Virtual Desktops/Windows 365.
 - Screen sharing from chat for Citrix.
-- Give/Take control for Citrix and AVD/Windows 365.
-- HID support in headsets.
 - The app switcher toggle isn't shown in new Teams if the virtual machine has the machine-wide classic Teams installed (MSI with ALLUSERS=1). **Note:** This issue is fixed on new Teams version 23320.3021.2567.4799 or higher.
 
 >[!Note]
@@ -436,6 +462,10 @@ All the multimedia features that work on the classic Teams client are expected t
 |Citrix|[Optimization for Microsoft Teams](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)|
 |VMware|[MS Teams Optimization Feature Compatibility Matrix for Horizon 7 and Horizon 8 Recent Releases. (86475) (vmware.com)](https://kb.vmware.com/s/article/86475)|
 
+## New Teams for web in VDI
+
+New Teams for Web isn't supported in VDI environments, so performance and reliability may be negatively impacted if used in VDI.
+
 ## Features not supported in VDI
 
 The following features aren't supported in either classic Teams or new Teams.
@@ -446,7 +476,7 @@ The following features aren't supported in either classic Teams or new Teams.
 - Teams Premium features (End to End Encryption, Watermark, Premium Events aren't optimized, Custom meeting backgrounds for organizations).
 - Avatars.
 - Gallery View 3x3 and 7x7.
-- Noise Suppression.
+- Noise Suppression (except for AVD/W365, where noise suppression is on by default, but confirmation isn't shown in Teams client UI. This is by design).
 - Zoom In / Out.
 - Location Based Routing.
 - Media Bypass.
@@ -456,4 +486,4 @@ The following features aren't supported in either classic Teams or new Teams.
 - Cross cloud anonymous join in Government Clouds (GCC, GCC High and DoD).
 - **Record video clip** doesn't capture screen share.
 - The call monitor (the small floating window after you minimize the main Teams window) doesn't display video or screen share.
-- Running new Teams simultaneously on a physical device and on a virtual desktop (connected from the same physical device).
+- Teams calls drop on a local machine if a user launches a virtual desktop from that local machine and logs into Teams (AVD/W365 and VMware only).

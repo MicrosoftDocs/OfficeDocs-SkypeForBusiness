@@ -24,7 +24,6 @@ ms.localizationpriority: high
 
 - PowerPoint Live Standout isn't yet available.
 - Language-aware spell checking is currently not available in the new Teams. The team is focusing on this issue with a high priority. Check back for updates.
-- Scheduling a Teams Live Event redirects to the classic Teams web experience. This feature will continue to work even after the deprecation of classic Teams.
 - New Teams client isn't respecting the date time formats set in the OS. This issue affects both 12h/24h time formatting and date formatting in the product. A fix is pending; check back for updates.
 - The app will crash if users hit enter instead of clicking the *Create* button after entering the team name in the team creation wizard.
 - The calendar icon will show an error message for users not licensed with Exchange Online. A fix to hide the calendar icon for these users is expected soon.
@@ -36,16 +35,20 @@ ms.localizationpriority: high
 - [The new Teams desktop app fails to render video](/microsoftteams/troubleshoot/meetings/new-teams-desktop-app-fail-render-video).
 - Collaborative Notes is only available in public clouds.
 - Users may receive an error message when trying to open a document attached to a cross-post shared from a team where they're not a member. A fix is expected by mid-March.
+- Scheduling a Teams Live Event (TLE) redirects to the classic Teams web experience. This feature will continue to work even after the deprecation of classic Teams.
+- When editing a TLE on the web, users can't use the **Join** and **Chat** buttons. Selecting these buttons doesn't take the user to the join or chat experiences.
+- When editing a TLE on the web, users can't use the **Manage live event resources** link at the bottom of the page. Selecting the link redirects the user to a different page. Resources for the event, can be found at the top of the page.
+- The **Manage live event resources** link in the calendar invite doesn't work outside of Teams. Users must open the invite in Teams calendar to edit the session and access event resources.
+- If a user closes a TLE session on the web, the next time they open Teams on the web, Teams might try and relaunch the last TLE event the user was in.
 
 ## Issues specifically for the new Microsoft Teams for Education
 
->[!Note]
->Issues in the first section of this article also may affect EDU. If your issue isn't on either list, file a support ticket at: [**aka.ms/EduSupport**](https://aka.ms/edusupport).
+> [!NOTE]
+> Issues in the first section of this article also may affect EDU. If your issue isn't on either list, file a support ticket at: [**aka.ms/EduSupport**](https://aka.ms/edusupport).
 >  
->The desktop clients will be updated as issues are fixed and functionality added. Check back here for the latest information.
+> The desktop clients will be updated as issues are fixed and functionality added. Check back here for the latest information.
 
-- Weekly digest mail settings are missing.
-- When navigating to Teams from microsoft365.com, the top navigation bar isn't working as expected and both search and profile menu are missing. The plan is to fix this issue by February.</br>**Workaround:** Use a taskbar shortcut or navigate directly to *teams.microsoft.com* to avoid the issue.
+We currently have no EDU-specific features, but this may change.
 
 ## What features are changing?
 
