@@ -32,8 +32,6 @@ description: Learn how to get and manage user (subscriber) and service (toll and
 
 # Manage phone numbers for Calling Plan and services
 
-**TEST**
-
 There are four ways to get user (subscriber) and service (toll and toll-free) phone numbers for Microsoft Calling Plan and services, such as Audio Conferencing, Auto Attendants, and Call Queues:
 
 - [Get new user phone numbers in the Microsoft Teams admin center](getting-phone-numbers-for-your-users.md#get-new-phone-numbers-for-your-users).
