@@ -35,7 +35,7 @@ As an admin, you can manage whether users can turn on Speaker Coach during Teams
 
 ## Manage speaker coach using PowerShell
 
-You can only set and edit this policy in PowerShell by using the **`-AllowMeetingCoach`** parameter within the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, you can create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and assign it to users.
+You can only set and edit this policy in PowerShell by using the **`-AllowMeetingCoach`** parameter within the [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet. Or, you can create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](/powershell/module/teams/new-csteamsmeetingpolicy) cmdlet and assign it to users.
 
 This setting is enabled by default. To turn off speaker coach, use the following script:
 

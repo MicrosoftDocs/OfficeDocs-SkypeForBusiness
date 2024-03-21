@@ -89,4 +89,4 @@ If you plan to leave guest access off, you may want to advise your team owners t
 
 [Block guests from a specific team](/microsoft-365/solutions/per-group-guest-access)
 
-[Set-CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)
+[Set-CsTeamsClientConfiguration](/powershell/module/teams/set-csteamsclientconfiguration)
