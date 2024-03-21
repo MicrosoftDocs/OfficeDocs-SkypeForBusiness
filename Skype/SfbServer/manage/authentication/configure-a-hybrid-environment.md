@@ -13,6 +13,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.custom:
   - has-azure-ad-ps-ref
+  - azure-ad-ref-level-one-done
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 description: "Summary: Configure server-to-server authentication for a Skype for Business Server hybrid environment."
@@ -78,6 +79,8 @@ To execute this script, you must have installed Skype for Business Online PowerS
 
 
 After you have configured Microsoft 365 or Office 365, and after you have created Microsoft 365 or Office 365 service principals for Skype for Business Server and Exchange 2013, you will then need to register your credentials with these service principals. In order to do this, you must first obtain an X.509 Base64 certificate saved as a .CER file. This certificate will then be applied to the Microsoft 365 or Office 365 service principals.
+
+[!INCLUDE [Azure AD PowerShell deprecation note](../../../../Teams/includes/aad-powershell-deprecation-note.md)]
 
 When you have obtained the X.509 certificate, open PowerShell console and import the Microsoft Online Windows PowerShell module containing the cmdlets that can be used to manage service principals:
 
