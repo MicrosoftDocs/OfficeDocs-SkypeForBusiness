@@ -26,11 +26,11 @@ Microsoft Teams Essentials is a standalone Teams subscription that provides an a
 
 ## Before you continue
 
-Microsoft Teams Essentials is available for purchase through Microsoft's direct website and select Microsoft Cloud Partners. Subscriptions through direct and partner differ in some ways because they use different identity systems. For more information, see [Microsoft Teams Essentials plans](#how-does-microsoft-teams-essentials-compare-to-other-microsoft-teams-plans)
+Microsoft Teams Essentials is available for purchase through Microsoft's direct website and select Microsoft Cloud Partners. Subscriptions through direct and partner differ in some ways because they use different identity systems. For more information, see [Microsoft Teams Essentials plans](#how-does-microsoft-teams-essentials-compare-to-other-microsoft-teams-plans).
 
 A subscription purchased through Microsoft's direct website uses Microsoft account identity, which allows you to use your existing email address like `TomislavK@outlook.com`, `TomislavK@gmail.com`, or `TomislavK@ContosoLandscaping.com` to sign up.
 
-Alternatively, Teams Essentials purchased through select Microsoft Certified Partners uses Microsoft Entra which asks you to create a new login/identity. Partners can configure Teams Essentials to connect to your existing email address so you can sign in using your existing email address.  
+Alternatively, Teams Essentials purchased through select Microsoft Certified Partners uses Microsoft Entra, which asks you to create a new login/identity. Partners can configure Teams Essentials to connect to your existing email address so you can sign in using your existing email address.  
 
 ## What Microsoft Teams Essentials subscription do I have?  
 
@@ -105,7 +105,7 @@ To get started with Teams Essentials, follow these steps:
 2. **Sign up with your existing email address.** Use an existing email address and follow the instructions to purchase user licenses.
 3. **Review Teams service description.** Visit [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description) to learn more about Microsoft Teams.
 
-When you've completed these tasks, you're ready to plan, deploy, and use the Teams app.
+When you complete these tasks, you're ready to plan, deploy, and use the Teams app.
 
 To do that, complete these three steps:
 
@@ -127,7 +127,7 @@ If your organization is using a free version of Microsoft Teams, you can easily 
 
 Keep the following limitations in mind:
 
-- All users must be in the same domain. (All users will get a sign-in email in the format *username*@*domain.com*.)
+- All users must be in the same domain. (All users get a sign-in email in the format *username*@*domain.com*.)
 
 <a name='can-i-purchase-teams-essentials-using-aad-identity-through-microsofts-website'></a>
 
