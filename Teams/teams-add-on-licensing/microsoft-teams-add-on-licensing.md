@@ -31,13 +31,13 @@ description: Learn about Microsoft add-on licenses for Microsoft Teams and the c
 
 Add-on licenses are licenses for specific Microsoft Teams capabilities. They give you the flexibility to add capabilities only for users in your organization who need them. To add a capability, buy one add-on license for each user who will use it.
 
-The add-on licensing options available to you depend on the Microsoft 365 plan you have. To see which voice calling and audio conferencing options are available to you, see the [Which Microsoft capabilities are available with my plan?](#which-microsoft-capabilities-are-available-with-my-plan) section of this article.
+The add-on licensing options available to you depend on the Microsoft Teams plan you have. To see which voice calling and audio conferencing options are available to you, see the [Which Microsoft capabilities are available with my plan?](#which-microsoft-capabilities-are-available-with-my-plan) section of this article.
 
 Here's a list of Teams add-on licenses and their capabilities that you can add to your Teams subscription.
 
 |License|Description|
 |-------|-----------|
-| **Microsoft Teams Premium** | Microsoft Teams Premium is a Teams add-on license that allows organizations with Microsoft 365 subscriptions to enhance their Teams experience with benefits like more personalized and intelligent meetings, enhanced meeting protection, and advanced management and reporting capabilities. For more information about the Teams Premium add-on license, see [Microsoft Teams Premium licensing](licensing-enhance-teams.md). |
+| **Microsoft Teams Premium** | Microsoft Teams Premium is a Teams add-on license that allows organizations with Microsoft 365 subscriptions and Teams licenses to enhance their Teams experience with benefits like more personalized and intelligent meetings, enhanced meeting protection, and advanced management and reporting capabilities. For more information about the Teams Premium add-on license, see [Microsoft Teams Premium licensing](licensing-enhance-teams.md). |
 | **Teams Phone with Calling Plan bundle** | The Teams Phone with Calling Plan license bundles Teams Phone System's PBX capabilities and a Domestic Calling Plan for PSTN connectivity. |
 | **Teams Phone Standard** |[Teams Phone System](../what-is-phone-system-in-office-365.md) is a hosted telephone service that gives you call control and Private Branch Exchange (PBX) capabilities. Teams Phone Standard licenses give you all Teams Phone System capabilities like cloud voicemail, call park, call forwarding, auto attendants, call queues, call transfer, and caller ID. <br/> <br/>To learn more about Phone System, see [Here's what you get with Teams Phone System](../here-s-what-you-get-with-phone-system.md). |
 | **Microsoft Teams Calling Plans** | If your users need to call phone numbers outside your organization, you can purchase [Microsoft Teams Calling Plans](../calling-plans-for-office-365.md) to connect to PSTN phone numbers with Microsoft as your PSTN provider. There are Domestic Calling Plans, International Calling Plans, and Pay-As-You-Go Calling Plans. <br/> <br/> To find out whether Teams Calling Plans is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). |
@@ -56,21 +56,21 @@ Most Microsoft 365 plans allow Teams users to make peer-to-peer calls within you
 
 Whether you're a small business, enterprise organization, educational institution, government agency, or nonprofit, you have three ways to get Teams Phone System and PSTN connectivity:
 
-- Buy a Teams Essentials with Microsoft Entra ID, Microsoft 365 Business, E1/E3, A1/A3, F1/F3, or G1/G3 plan and then buy **Teams Phone with Calling Plan** bundle licenses.
+- Buy a Teams Essentials with Microsoft Entra ID, Microsoft 365 Business, E1/E3 E1/E3 and the Microsoft Teams Enterprise license, A1/A3, F1/F3, or G1/G3 plan; and then buy **Teams Phone with Calling Plan** bundle licenses.
   - This model will give you Teams Phone System PBX capabilities and a Microsoft Domestic Calling Plan.
     - Choose this setup if you want all phone number management and billing to be handled by Microsoft.
     - Check to see if the [Teams Phone with Calling Plan bundle license is available in your region](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-- Buy a Teams Essentials with Microsoft Entra ID, Microsoft 365 Business, E1/E3, A1/A3, F1/F3, or G1/G3 plan, buy **Teams Phone Standard** licenses (*If you're adding Teams Phone to F1/F3, buy
-**Teams Phone Standard for Frontline Workers** licenses*), and buy a Microsoft standalone calling plan or choose a third-party PSTN carrier.
+- Buy a Teams Essentials with Microsoft Entra ID, Microsoft 365 Business, E1/E3 and the Microsoft Teams Enterprise license, A1/A3, F1/F3, or G1/G3 plan; buy **Teams Phone Standard** licenses (*If you're adding Teams Phone to F1/F3, buy
+**Teams Phone Standard for Frontline Workers** licenses*); and buy a Microsoft standalone calling plan or choose a third-party PSTN carrier.
   - This model will give you Teams Phone System, but you'll still need to connect to the PSTN.
     - To view all your PSTN connectivity options, see [PSTN connectivity options](../pstn-connectivity.md).
     - To learn about all voice solutions, see [Plan your Teams voice solution](../cloud-voice-landing-page.md).
 
-- Buy an E5/A5/G5 plan and buy **Microsoft Calling Plans** or connect to a third-party PSTN connectivity provider.
+- Buy an E5 plan and add a Microsoft Teams Enterprise license or buy an A5 or G5 plan; and then buy **Microsoft Calling Plans** or connect to a third-party PSTN connectivity provider.
   - Most Microsoft 365 E5, A5, and G5 plans include Teams Phone System, but organizations still need to choose a [PSTN connectivity option](../pstn-connectivity.md).
 
-Here's a summary of which Microsoft voice and calling licenses to purchase, based on Microsoft 365 plan:
+Here's a summary of which Microsoft voice and calling licenses to purchase:
 
 <table>
 <thead>

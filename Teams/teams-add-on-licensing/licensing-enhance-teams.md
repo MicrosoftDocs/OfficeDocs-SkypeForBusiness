@@ -237,8 +237,8 @@ The **tenant requirement** is:
 
 The **user requirement** is:
 
-- An Office 365 or Microsoft 365 subscription with a Teams license.
-  - For new customers in the European Economic Area (EEA), Teams licenses must be purchased separately from Office 365/Microsoft 365 licenses, but both licenses are still required for Teams Premium. For more information on this licensing change in the EEA, see [New subscription structure for Microsoft 365 in Europe](https://www.microsoft.com/licensing/news/Microsoft365-Teams-EEA).
+- An Office 365 or Microsoft 365 subscription and a Teams license.
+For new customers, Teams licenses must be purchased separately from Office 365/Microsoft 365 licenses, but both licenses are still required for Teams Premium.
 
 ### Can I acquire Teams Premium features without the Teams Premium license?
 

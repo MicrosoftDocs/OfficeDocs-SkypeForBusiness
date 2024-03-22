@@ -169,7 +169,8 @@ To learn more, see [View licenses and services with PowerShell](/office365/enter
 | Microsoft Teams Rooms Pro without Audio Conferencing | Microsoft_Teams_Rooms_Pro_without_Audio_Conferencing |
 | Microsoft Teams Shared Devices | MCOCAP |
 | Microsoft Teams Premium | Microsoft_Teams_Premium |
-| Microsoft Teams EEA | Microsoft_Teams_EEA |
+| Microsoft Teams Enterprise EEA | Microsoft_Teams_EEA |
+| Microsoft Teams Enterprise | Microsoft_Teams_Enterprise |
 
 ## Related content
 
