@@ -1644,18 +1644,22 @@ items:
               href: devices/teams-displays.md
             - name: Teams panels
               items: 
-                  - name: Teams panels
+                  - name: Overview
+                    href: devices/overview-teams-panels.md
+                  - name: Plan
                     href: devices/teams-panels.md
-                  - name: Use Teams panels
-                    href: devices/use-teams-panels.md
-                  - name: App support on Teams panels  
-                    href: app-support-on-Teams-panels.md
-                  - name: Check-in and room release 
-                    href: devices/check-in-and-room-release.md
-                  - name: Reserve rooms with a QR code
-                    href: devices/reserving-rooms-with-a-qr-code.md
-            - name: Deploy Teams phones and Teams displays using Intune
-              href: devices/phones-displays-deploy.md
+                  - name: Manage
+                    items:
+                    - name: Feature management
+                      items:
+                      - name: Use Teams panels
+                        href: devices/use-teams-panels.md
+                      - name: App support on Teams panels  
+                        href: app-support-on-Teams-panels.md
+                      - name: Check-in and room release 
+                        href: devices/check-in-and-room-release.md
+                      - name: Reserve rooms with a QR code
+                        href: devices/reserving-rooms-with-a-qr-code.md
             - name: QoS on Teams devices
               href: devices/qos-on-teams-devices.md
             - name: USB audio and video devices
