@@ -192,7 +192,7 @@ The limitations on some of the customizable fields are:
 
 ## Troubleshoot app customization
 
-| Errors and issues                                                    | Possible fix or understanding of the issue                                                                                                                           |
+| Errors and issues                                                    | Possible fixes or understanding of the issue                                                                                                                           |
 |:---------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | My updates aren't available to my users.                             | Wait a few hours for changes to propagate. Verify if the changes were saved.                                                                                         |
 | I can't customize an app.                                            | Cross-check if the [app is customizable or not](#verify-if-an-app-is-customizable).                                                                                  |
