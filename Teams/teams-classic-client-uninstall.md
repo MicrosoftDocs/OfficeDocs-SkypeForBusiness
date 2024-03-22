@@ -84,7 +84,7 @@ You can learn more at [Uninstall an app with Intune for Windows](/mem/intune/app
 ## FAQs
 
 - **How do I know if users still have classic Teams?**
-  Use your tenant dashboard or device management tools to scan for classic Teams and the Machine-Wide Installer.
+  Use your tenant dashboard or device management tools to scan for classic Teams and the Teams Machine-Wide Installer.
 
 - **When will classic Teams be removed automatically?**
   If the policy is set to **New Teams only**, Classic Teams will be uninstalled 14 days after the new Teams installation completes, and once users receive the new Teams policy settings. If the Teams Machine-Wide Installer is present, Microsoft 365 Apps can uninstall it for each user as they sign in.
