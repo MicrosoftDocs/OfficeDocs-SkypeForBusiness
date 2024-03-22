@@ -60,15 +60,20 @@ The SBA feature is supported on the following Microsoft Teams clients:
 
 ## How it works
 
+SBA checks TCP connectivity (ping) with sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com and sip3.pstnhub.microsoft.com. If there is a connectivity with at least one of these addresses, network outage will not be declared. Only when connectivity to all of these three addresses is lost SBA will detect a network outage and will initiate. SP addresses are within Microsoft IP ranges, which should have been already preconfigured during Direct Routing setup. Customers do not need to add extra rules on Firewall.
 During an internet outage, the Teams client should switch to the SBA automatically, and ongoing calls should continue with no interruptions. No action is required from the user. As soon as the Teams client detects that the internet is up and any outgoing calls are finished, the client will fall back to normal operation mode and connect to other Teams services. The SBA will upload collected Call Data Records to the cloud and call history will be updated so that this information is available for review by the tenant administrator. 
 
 When the Microsoft Teams client is in offline mode, the following calling-related functionality is available: 
 
-- Making PSTN calls via local SBA/SBC with media flowing through the SBC.
-
-- Receiving PSTN calls via local SBA/SBC with media flowing through the SBC. 
-
-- Hold and Resume of PSTN calls.
+- Making PSTN calls via local SBA/SBC with media flowing through the SBC
+- Receiving PSTN calls via local SBA/SBC with media flowing through the SBC
+- Hold and Resume of PSTN calls
+- Blind transfer
+- Call Forwarding to single phone number or Teams user
+- Unanswered call forwarding to single phone number or Teams user
+- Redirect of incoming PSTN call to a Call Queue or Auto Attendant number to a local agent
+- VoIP Fallback. If VoIP call cannot be initiated and receiving party has a PSTN number, PSTN call will be attempted
+- VoIP calls between local users. If both users are registered behind the same SBA instead of PSTN call a VoIP call can be initiated and SBA will fully support it
 
 ## Configuration
 
