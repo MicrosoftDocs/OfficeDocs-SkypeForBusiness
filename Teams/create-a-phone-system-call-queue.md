@@ -112,7 +112,7 @@ Assign outbound caller ID numbers for the agents by specifying one or more resou
 > - An online voice routing policy (phone number assignment is optional when using Direct Routing)
 
 1. Under **Assign calling ID**, select the **Add** button.
-1. On the **Add accounts** pane, search for the resource account(s) you want to allow agents to use for outbound caller ID purposes.
+1. On the **Add accounts** pane, search for one or more resource accounts you want to allow agents to use for outbound caller ID purposes.
 1. Select the **Add** button next to the resource account with an assigned phone number.
 1. Select the **Add** button at the bottom of the pane.
 
@@ -149,7 +149,7 @@ After you select a language, select the **Next** button at the bottom of the **A
 Specify if you want to play a *greeting* to callers when they arrive in the queue.
 
 - If you select **Play an audio file**, you must upload an MP3, WAV, or WMA file containing the greeting that you want to play. See [Supported audio file formats](plan-auto-attendant-call-queue.md#supported-audio-file-formats).
-- If you select **Type a greeting message**, the system reads the text that you type (up to 1000 characters) when the Call queue answers a call.
+- If you select **Type a greeting message**, the system reads the text that you type (up to 1,000 characters) when the Call queue answers a call.
 
 >[!NOTE]
 > When using *Text to Speech*, the text must be entered in the selected language as the system doesn't perform translation.
@@ -367,7 +367,7 @@ This call exception handling option handles calls when no agents are opted into 
 >
 > If agents are logged in or opted in, then calls will be queued.
 
-Once you select your call overflow, call timeout and no agents handling options, select the **Next** button at the bottom of the **Add a Call queue** page.
+Once you select your call overflow, call timeout, and no agents handling options, select the **Next** button at the bottom of the **Add a Call queue** page.
 
 
 ## [Step 6: Authorized users](#tab/authorized-users)
