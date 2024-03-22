@@ -38,7 +38,7 @@ To be able to use Autopilot and auto-signin to provision and deploy Microsoft Te
 - Step 4: [Deploy Teams Rooms app update tool](#step-8-set-up-auto-login-in-the-pro-management-portal)
 - Step 5: [Create an Enrollment Status Page (ESP) profile](#step-5-create-an-enrollment-status-page-profile)
 - Step 6: [Create and assign Autopilot profile](#step-6-create-an-autopilot-profile)
-- Step 7: [Create and assign a Local Administrator Password Solution(LAPS) policy](https://learn.microsoft.com/mem/intune protect/windows-laps-policy#create-a-laps-policy)
+- Step 7: [Create and assign a Local Administrator Password Solution(LAPS) policy](/mem/intune protect/windows-laps-policy#create-a-laps-policy)
 - Step 8: [Set up Auto-login in the Pro Management Portal](#step-8-set-up-auto-login-in-the-pro-management-portal)
 - Step 9: [Deploy the device](#step-9-deploy-the-device)
 
@@ -62,10 +62,10 @@ To ensure successful deployment of Microsoft Teams Rooms, ensure that these prer
 ## Step 2: Registering device through Windows Autopilot
 
 You can perform Windows Autopilot device registration within your organization by manually collecting the hardware identity of devices (hardware hashes) and uploading this information in a comma-separated-values (CSV) file to Intune. To do this, [Register devices as Autopilot
-devices](autopilot/tutorial/self-deploying/self-deploying-register-device).
+devices](/autopilot/tutorial/self-deploying/self-deploying-register-device).
 
 > [!IMPORTANT]
-> For Teams Rooms on Windows devices, it is required to ensure the GroupTag is formatted with the prefix **MTR-**<customname>. This can be done by adding the GroupTag to the .csv in the manner described[here](/autopilot/add-devices#ensure-that-the-csv-file-meets-requirements) or having your partner enter the prefix and custom name when uploading using the Microsoft Partner Center in the **Group name** field.
+> For Teams Rooms on Windows devices, it is required to ensure the GroupTag is formatted with the prefix **MTR-<customname>**. This can be done by adding the GroupTag to the .csv  described [here](/autopilot/add-devices#ensure-that-the-csv-file-meets-requirements) or having your partner enter the prefix and custom name when uploading using the Microsoft Partner Center in the **Group name** field.
 
 This GroupTag field is critical for the Teams Pro Management Portal to distinguish Teams Rooms consoles from other Windows Autopilot registered devices. It is also useful for using dynamic device groups.
 
