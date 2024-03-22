@@ -4784,6 +4784,21 @@
     "source_path": "teams/new-teams-automatic-upgrade-announced.md",
     "redirect_url": "/microsoftteams/teams-classic-client-end-of-availability",
     "redirect_document_id": false
-} 
+},
+{
+  "source_path": "teams/manage-freemium.md",
+  "redirect_url": "/microsoftteams/user-access",
+  "redirect_document_id": false
+},
+{
+  "source_path": "teams/upgrade-freemium.md",
+  "redirect_url": "/microsoftteams/user-access",
+  "redirect_document_id": false
+},
+{
+  "source_path": "teams/teams-add-on-licensing/remove-assign-free-licenses.md",
+  "redirect_url": "/microsoftteams/user-access",
+  "redirect_document_id": false
+}
 ] 
 }
