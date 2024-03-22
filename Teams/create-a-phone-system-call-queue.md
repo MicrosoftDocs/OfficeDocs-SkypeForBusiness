@@ -92,7 +92,7 @@ To add an existing resource account:
 1. On the **Resource accounts** pane, select the **Add** button.
 
 >[!NOTE]
-> Remember to assign a [Microsoft Teams Phone System Resource Account license](manage-resource-accounts.md#assign-a-license).
+> Remember to assign a [Microsoft Teams Phone Resource Account license](manage-resource-accounts.md#assign-a-license).
 
 Agents see the resource account name when they receive an incoming call.
 
@@ -130,7 +130,7 @@ If you don't have a resource account with an assigned phone number:
 
 After you create this new resource account for calling ID, you still need to:
 
-- Assign a [Microsoft Teams Phone System Resource Account license](manage-resource-accounts.md#assign-a-license).
+- Assign a [Microsoft Teams Phone Resource Account license](manage-resource-accounts.md#assign-a-license).
 - Assign a Microsoft Calling Plan license, assign an Operator Connect phone number, or assign an online voice routing policy for Direct Routing.
 - Assign the [phone number to the resource account](manage-resource-accounts.md#assign-a-phone-number), if you're using Microsoft Calling Plan.
 
@@ -230,7 +230,7 @@ To **add a group** to the queue:
 **Conference mode** reduces the amount of time it takes for a caller to be connected to an agent after the agent accepts the call. For conference mode to work, agents in the Call queue must use one of the following clients:
 
 - The latest version of the Microsoft Teams desktop client, Android app, or iOS app
-- Microsoft Teams Phone System version 1449/1.0.94.2020051601 or later
+- Microsoft Teams Phone version 1449/1.0.94.2020051601 or later
   
 Agents' Teams accounts must be set to TeamsOnly mode. Agents who don't meet the requirements aren't included in the call routing list. We recommend enabling conference mode for your Call queues if your agents are using compatible clients.
 
@@ -449,7 +449,7 @@ The following settings are recommended:
 4. It's not possible to set the order the agents are presented with calls.
 5. Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that's enabled for Location-Based Routing.
     - For Call queue implementation with Location-Based Routing, see [Voice apps (Auto Attendant or Call Queue)](location-based-routing-plan.md).
-6. Microsoft Teams Phone System only.
+6. Microsoft Teams Phone only.
 7. Through the User Settings Portal page at [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
 8. Only standard channels are supported.
 9. Transferring calls between PSTN connectivity methods isn't supported.
@@ -492,7 +492,7 @@ If you're an administrator, you can use the following diagnostic tool to validat
 
 ## Related articles
 
-[Here's what you get with Microsoft Teams Phone System](here-s-what-you-get-with-phone-system.md).
+[Here's what you get with Microsoft Teams Phone](here-s-what-you-get-with-phone-system.md).
 
 [Getting service phone numbers](getting-service-phone-numbers.md).
 
