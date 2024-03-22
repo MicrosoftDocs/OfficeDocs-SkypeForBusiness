@@ -56,7 +56,7 @@ Most Microsoft 365 plans allow Teams users to make peer-to-peer calls within you
 
 Whether you're a small business, enterprise organization, educational institution, government agency, or nonprofit, you have three ways to get Teams Phone System and PSTN connectivity:
 
-- Buy a Teams Essentials with Microsoft Entra ID, Microsoft 365 Business, E1/E3 E1/E3 and the Microsoft Teams Enterprise license, A1/A3, F1/F3, or G1/G3 plan; and then buy **Teams Phone with Calling Plan** bundle licenses.
+- Buy a Teams Essentials with Microsoft Entra ID, Microsoft 365 Business, E1/E3 and the Microsoft Teams Enterprise license, A1/A3, F1/F3, or G1/G3 plan; and then buy **Teams Phone with Calling Plan** bundle licenses.
   - This model will give you Teams Phone System PBX capabilities and a Microsoft Domestic Calling Plan.
     - Choose this setup if you want all phone number management and billing to be handled by Microsoft.
     - Check to see if the [Teams Phone with Calling Plan bundle license is available in your region](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
