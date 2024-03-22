@@ -410,6 +410,9 @@ The following settings are recommended:
 
 ### Call queue feature compatibility
 
+> [!NOTE]
+> [Teams Phone Mobile](.operator-connect-mobile-plan.md) is not supported for Call queue agents.
+
 |Feature                          |Teams Desktop<sup>1</sup> |Teams Web | Teams Mobile<sup>2</sup> |Skype for Business |IP Phones | Standard Call Queues |Channel Based Call Queues | Comment |
 |:--------------------------------|:------------------------:|:--------:|:--------------:|:---:|:--------:|:--------------------:|:------------------------:|:--------|
 |**Agent Routing Methods**        |                          |          |                |     |          |                      |                          |   |
