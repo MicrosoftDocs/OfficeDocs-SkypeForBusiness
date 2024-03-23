@@ -2,9 +2,10 @@
 title: Shifts data FAQ
 author: lana-chin
 ms.author: v-chinlana
-manager: serdars
+manager: jtremper
 ms.date: 08/19/2021
 ms.topic: conceptual
+ms.reviewer: imarquesgil
 audience: admin
 ms.service: msteams
 search.appverid: MET150
@@ -123,8 +124,6 @@ Here's an overview of the steps to migrate your Shifts data to another tenant.
 1. In the destination tenant, import the schedule to each team.
     1. In Shifts, on the **Schedule** page, go to **More options (...)** > **Import schedule**.
     1. Select **Upload file**, go to the Excel file for that team, and then select **Open**.
-
-To learn more, see [The Excel template for Shifts](https://support.microsoft.com/office/the-excel-template-for-shifts-6fc6a206-e7cc-4907-87b8-a296bae84ce3).
 
 ## Related articles
 

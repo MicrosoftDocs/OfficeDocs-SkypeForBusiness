@@ -1,21 +1,20 @@
 ---
 title: Microsoft Teams Rooms Pro Management Portal
-author: altsou
-ms.author: altsou
-manager: serdars
-ms.reviewer: tonysmit
+author: mstonysmith
+ms.author: tonysmit
+manager: pamgreen
+ms.reviewer: kimmatlock
 ms.date: 10/27/2021
 ms.topic: article
-ms.tgt.pltfrm: cloud
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-audience: Admin
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
-  - Tier3
-appliesto: 
-  - Microsoft Teams
+  - Tier1
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Provide a view of the health of your meeting rooms.

@@ -2,7 +2,7 @@
 title: "Stream classification in Call Quality Dashboard (CQD)"
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: gageames
 ms.date: 05/22/2018
 ms.topic: article

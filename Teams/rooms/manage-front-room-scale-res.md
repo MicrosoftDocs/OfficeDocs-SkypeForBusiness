@@ -1,21 +1,23 @@
 ---
 title: Remotely configure layout, scale, and resolution on Teams Rooms displays
 ms.author: tonysmit
-author: tonysmit
-ms.reviewer: sohailta
-ms.date: 01/24/2023
-manager: serdars
-audience: ITPro
+author: mstonysmith
+ms.reviewer: yoojinjung
+ms.date: 10/10/2023
+manager: pamgreen
 ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-f1.keywords: 
-  - NOCSH
-ms.localizationpriority: medium
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
   - Tier1
+f1.keywords: 
+  - NOCSH
+ms.localizationpriority: medium
 description: Remotely configure the scale, resolution, and default layout of displays on Microsoft Teams Rooms systems.
 ---
 

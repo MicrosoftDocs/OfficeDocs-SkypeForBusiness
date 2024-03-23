@@ -2,7 +2,7 @@
 title: 'Contoso case study: Phone System for a multi-national corporation'
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.date: 06/17/2020
 ms.topic: article
 ms.service: msteams

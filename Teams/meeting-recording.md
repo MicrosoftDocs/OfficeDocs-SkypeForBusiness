@@ -1,8 +1,8 @@
 ---
 title: Teams meeting recording
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: wlibebe
+author: wlibebe
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -25,9 +25,9 @@ description: Learn how to deploy features in Teams meetings to record audio, vid
 
 # Teams meeting recording
 
-**APPLIES TO:** ✔️Meetings ✔️Webinars
+**APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
 
-In Microsoft Teams, users can record their Teams meetings to capture audio, video, and screen sharing activity. The recording happens in Microsoft 365 and is saved to OneDrive or SharePoint, which must be enabled for the user.
+In Microsoft Teams, users can record their Teams meetings, webinars, and town halls to capture audio, video, and screen sharing activity. The recording happens in Microsoft 365 and is saved to OneDrive or SharePoint, which must be enabled for the user.
 
 > [!NOTE]
 > This setting also affects webinars. Recording for live events is a different setting, which is covered in [Live event recording policies in Teams](teams-live-events/live-events-recording-policies.md).
@@ -42,6 +42,13 @@ When a meeting is recorded:
 - It's added to various file lists across Microsoft 365: Shared with me, office.com, Recommended, Recent, etc.
 - Microsoft 365 Search indexes it
 
+Town halls and webinars follow the same process for recording. However, there are a few key differences:
+
+- In town halls, attendees can't access the recording through the chat.
+- Webinars and town halls use video on demand (VOD) to publish recordings.
+
+To learn more about VOD, see [Manage VOD publishing for webinars and town halls](manage-vod-publishing.md).
+
 There's also an option for recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and review important discussion items in the transcript. For more information about transcription and captions, read [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md).
 
 External participants can't record meetings except in the case of [Teams policy-based compliance recording](teams-recording-policy.md). If an external Teams user that is enabled for compliance recording joins a meeting or call hosted by your organization, that meeting or call will be recorded by the other organization for compliance purposes regardless of the **Meeting recording** setting in your organization. Presenters in that meeting can remove the external participant from the meeting if they don't want the recordings captured by the other organization.
@@ -50,35 +57,111 @@ External participants can't record meetings except in the case of [Teams policy-
 
 You can use the Microsoft [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851) or PowerShell to set a Teams meeting policy to control whether users' meetings can be recorded. Both the meeting organizer and the recording initiator need to have recording permissions to record the meeting.
 
-Many users use meetings and calls interchangeably depending on their needs. We recommend you check your call recording policy settings as well. If the settings are different for meetings and calls, it may cause confusion for your users.
+Many users use meetings and calls interchangeably depending on their needs. We recommend that you check your call recording policy settings as well. If the settings are different for meetings and calls, it may cause confusion for your users.
 
 # [**Meeting policy**](#tab/meeting-policy)
 
-To allow or prevent meeting recordings
-1. In the Microsoft [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851), expand **Meetings**.
+To allow or prevent meeting recordings:
+
+1. In the Microsoft [Teams admin center](https://admin.teams.microsoft.com/), expand **Meetings**.
 1. Select **Meeting policies**.
 1. Select the policy that you want to edit.
 1. Turn **Meeting recording** On or Off.
 1. Select **Save**.
 
-With PowerShell, you configure the `-AllowCloudRecording` parameter in [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
+With PowerShell, you configure the `-AllowCloudRecording` parameter in [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy).
 
 # [**Calling policy**](#tab/calling-policy)
 
-To allow or prevent call recordings
+To allow or prevent call recordings:
+
 1. In the Microsoft [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851), expand **Voice**.
 1. Select **Calling policies**.
 1. Select the policy that you want to edit.
 1. Turn **Cloud recording for calling** On or Off.
 1. Select **Save**.
 
-With PowerShell, you configure the `-AllowCloudRecordingForCalls` parameter in [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
+With PowerShell, you configure the `-AllowCloudRecordingForCalls` parameter in [Set-CsTeamsCallingPolicy](/powershell/module/teams/set-csteamscallingpolicy).
+
+For more information on call recording, see [Configure call recording, transcription, and captions in Teams](call-recording-transcription-captions.md).
 
 ---
 
+## Require participant agreement for recording
+
+You can use the Teams admin center or PowerShell to manage whether meetings created by organizers with this assigned policy can require participants to provide explicit consent to be recorded.
+
+When the explicit recording policy is enabled, once the meeting recording starts, all participants are muted, with their cameras and content-share off.  When a participant decides to unmute, turn on their camera, or share content, they’re prompted to respond "Yes" or "No" to consent to be included in the meeting recording. If an attendee responds “No” to the prompt, they have a view-only meeting experience. View only attendees can't start recordings for any meetings that require explicit consent.
+
+The consent choice for each attendee is included in the attendance report. If the organizer has disabled the attendance report, the meeting can't be recorded. If an attendee isn't included in the attendance report - because they've opted out or the admin attendance report policy prevents it, they have a view-only meeting experience.
+
+Before enabling this policy, make sure you check your chosen policy for the attendance report. To learn more about the attendance report, see [Attendance report for meetings and webinars in Microsoft Teams.](teams-analytics-and-reports/meeting-attendance-report.md)
+
+> [!NOTE]
+> The explicit recording consent policy doesn't apply to meetings started with transcription only and without recording.
+
+### Supported and unsupported endpoints
+
+The following user types are auto consented for recording without any participant interaction. They get a recording notification, and their consent data is logged as “not applicable” or “auto consent":
+
+- Teams Rooms on Windows
+- Teams Rooms on Android
+- Third party video conferencing devices via Cloud Video Interop (CVI)
+- Third party video conferencing devices connecting via Direct Guest Join (DGJ)
+- Meeting participants dialing in using the PSTN conferencing dial in
+
+#### Supported endpoints
+
+Explicit recording consent is supported on the following endpoints:
+
+- Teams native Windows
+- Teams native Mac
+- Teams Web
+- Mobile Teams (Android and iOS)
+
+#### Unsupported endpoints
+
+In meetings requiring explicit consent, users joining from unsupported endpoints have the view only experience. Explicit recording consent isn’t supported on the following endpoints, along with any endpoints not listed under supported endpoints:
+
+- Microsoft Teams Phone System devices (including audio conferencing phone devices)
+- Teams Displays
+- VDI
+- CarPlay
+- Old version native clients
+
+### Manage explicit recording consent in the Teams admin center
+
+Follow these steps in the Teams admin center to turn explicit recording consent on or off for users or groups in your organization:
+
+1. Open the Teams admin center.
+2. Select **Meetings** from the navigation pane.
+3. Under **Meetings**, select **Meeting Policies**.
+4. Either select an existing policy or create a new one.
+5. Within your chosen policy, navigate to the **Recording & Transcription** section.
+6. Toggle the **Require participant agreement for recording** setting **On** or **Off**.
+7. Select Save.
+
+### Manage explicit recording consent through PowerShell
+
+Through PowerShell, you can manage explicit recording consent for users or groups in your organization:
+
+The **`-ExplicitRecordingConsent`** parameter in the [**CsTeamsMeetingPolicy**](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet controls whether meetings created by organizers with this assigned policy require participants to provide explicit consent for recordings.
+The following table shows the behaviors of the settings for the **`-ExplicitRecordingConsent`** parameter:
+
+|Setting value| Behavior|
+|---------|---------------|
+|Enabled| For organizers with this policy, all their meetings require participants to provide explicit consent to be recorded.|
+|Disabled| **This setting is the default value.** For organizers with this policy, participants aren't asked for explicit consent to be recorded. All participants are included in recordings from these organizers' meetings. |
+
+To enable **`-ExplicitRecordingConsent`** so that any meeting an organizer with this policy creates requires participants to give explicit consent to be recorded,  run the following script:
+
+```PowerShell
+Set-CsTeamsMeetingPolicy -Identity <policy name> -ExplicitRecordingConsent Enabled
+```
+
 ## Block or allow download of channel meeting recordings
 
-Using PowerShell, the `-ChannelRecordingDownload` parameter in [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) controls if channel members can download meeting recordings. This is done by controlling which folder recordings are stored in.
+Using PowerShell, the `-ChannelRecordingDownload` parameter in [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) controls if channel members can download meeting recordings. This is done by controlling which folder recordings are stored in.
 
 The two values for this setting are:
 
@@ -136,7 +219,7 @@ Migrated recordings from Stream (Classic) won't come with an expiration set on t
 
 ## Set a custom privacy policy URL
 
-You can update the Teams recording and transcription privacy policy URL with a custom link for people in your organization in Azure Active Directory. For details, see [Add your organization's privacy info using Azure Active Directory](/azure/active-directory/fundamentals/active-directory-properties-area).
+You can update the Teams recording and transcription privacy policy URL with a custom link for people in your organization in Microsoft Entra ID. For details, see [Add your organization's privacy info using Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-properties-area).
 
 After adding your privacy policy URL, the default Teams meeting recording and transcription privacy statement will be replaced with the URL you provided. (People from outside your organization who join Teams meetings hosted by your organization will still have the default Teams meeting recording and transcription privacy policy.)
 

@@ -1,9 +1,9 @@
 ---
 title: Hardware decoder and encoder driver recommendations
 ms.reviewer: 
-author: CarolynRowe
-ms.author: crowe
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.date: 06/06/2019
 audience: Admin
 ms.topic: reference

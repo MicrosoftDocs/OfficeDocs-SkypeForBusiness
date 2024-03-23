@@ -2,7 +2,7 @@
 title: Network roaming policy
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: roykuntz
 ms.date: 03/23/2021
 ms.topic: article
@@ -25,21 +25,21 @@ description: Learn how to manage settings for the Teams network roaming policy.
 
 # Manage video and media settings with the network roaming policy
 
-In addition to managing video and media settings with meeting policies, you can now dynamically control the use of the following attributes used by the Microsoft Teams client by using the TeamsNetworkRoamingPolicy: 
+In addition to managing video and media settings with meeting policies, you can dynamically control the use of the following attributes used by the Microsoft Teams client: 
 
 - IP Video
 - Media bit rate
 
-This policy enables you to assign settings to network sites. The Teams client will dynamically pick up the settings based on which network site it connects to. When the Teams client signs in from a network site with a roaming policy assigned, that policy will be used. If there is no policy assigned, the values set in the meeting policy will be used. For more information about meeting policy audio and video settings, see [Meeting policy settings for audio and video](meeting-policies-audio-and-video.md).
+The TeamsNetworkRoamingPolicy policy enables you to assign settings to network sites. The Teams client dynamically picks up the settings based on which network site it connects to. When the Teams client signs in from a network site with a roaming policy assigned, that policy is used. If there's no policy assigned, the values set in the meeting policy are used. For more information about meeting policy audio and video settings, see [Meeting policy settings for audio and video](meeting-policies-audio-and-video.md).
 
 ## Configure the TeamsNetworkRoamingPolicy
 
 To configure the TeamsNetworkRoamingPolicy, use the following PowerShell cmdlets:
 
-- [Get-CsTeamsNetworkRoamingPolicy](/powershell/module/skype/get-csteamsnetworkroamingpolicy)
-- [New-CsTeamsNetworkRoamingPolicy](/powershell/module/skype/new-csteamsnetworkroamingpolicy)
-- [Set-CsTeamsNetworkRoamingPolicy](/powershell/module/skype/set-csteamsnetworkroamingpolicy)
-- [Remove-CsTeamsNetworkRoamingPolicy](/powershell/module/skype/remove-csteamsnetworkroamingpolicy)
+- [Get-CsTeamsNetworkRoamingPolicy](/powershell/module/teams/get-csteamsnetworkroamingpolicy)
+- [New-CsTeamsNetworkRoamingPolicy](/powershell/module/teams/new-csteamsnetworkroamingpolicy)
+- [Set-CsTeamsNetworkRoamingPolicy](/powershell/module/teams/set-csteamsnetworkroamingpolicy)
+- [Remove-CsTeamsNetworkRoamingPolicy](/powershell/module/teams/remove-csteamsnetworkroamingpolicy)
 
 The TeamsNetworkRoamingPolicy contains the following parameters:
 
@@ -47,7 +47,7 @@ The TeamsNetworkRoamingPolicy contains the following parameters:
 
 - MediaBitRateKb - This setting determines the total average media bit rate for audio, video, and video-based app sharing transmissions in calls and meetings for the user.
 
-After you've configured the policy, assign it to one or more network sites by using the [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite) cmdlet as follows:
+After you configure the policy, assign it to one or more network sites by using the [Set-CsTenantNetworkSite](/powershell/module/teams/set-cstenantnetworksite) cmdlet as follows:
 
 ```PowerShell
  Set-CsTenantNetworkSite -Identity Burlington -NetworkRoamingPolicy LowBandwidthSite
@@ -59,7 +59,7 @@ After you've configured the policy, assign it to one or more network sites by us
  Set-CsTenantNetworkSite -Identity Burlington -NetworkRoamingPolicy $null
  ```
 
-To enable the network roaming policy for users who are not enterprise voice enabled, you must also enable the AllowNetworkConfigurationSettingsLookup setting in TeamsMeetingPolicy. This setting is off by default.
+To enable the network roaming policy for users who aren't enterprise voice enabled, you must also enable the AllowNetworkConfigurationSettingsLookup setting in TeamsMeetingPolicy. This setting is off by default.
 
 For more information about creating network sites, see [Network settings for cloud voice features](cloud-voice-network-settings.md). 
 
@@ -76,17 +76,17 @@ Set-CsTenantNetworkSite -Identity Burlington -NetworkRoamingPolicy LowBandwidthS
 ## Supported clients
 
 - Windows 
-- MacOS desktop
+- macOS desktop
 
 ## Known issues
 
 When specifying the New- and Get-CsTeamsNetworkRoamingPolicy in Teams Online PowerShell v 2.0.0, you'll see extra data being displayed.
 
 
-## Related topics
+## Related articles
 
-- [Get-CsTeamsNetworkRoamingPolicy](/powershell/module/skype/get-csteamsnetworkroamingpolicy)
-- [New-CsTeamsNetworkRoamingPolicy](/powershell/module/skype/new-csteamsnetworkroamingpolicy)
-- [Set-CsTeamsNetworkRoamingPolicy](/powershell/module/skype/set-csteamsnetworkroamingpolicy)
-- [Remove-CsTeamsNetworkRoamingPolicy](/powershell/module/skype/remove-csteamsnetworkroamingpolicy)
-- [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite)
+- [Get-CsTeamsNetworkRoamingPolicy](/powershell/module/teams/get-csteamsnetworkroamingpolicy)
+- [New-CsTeamsNetworkRoamingPolicy](/powershell/module/teams/new-csteamsnetworkroamingpolicy)
+- [Set-CsTeamsNetworkRoamingPolicy](/powershell/module/teams/set-csteamsnetworkroamingpolicy)
+- [Remove-CsTeamsNetworkRoamingPolicy](/powershell/module/teams/remove-csteamsnetworkroamingpolicy)
+- [Set-CsTenantNetworkSite](/powershell/module/teams/set-cstenantnetworksite)

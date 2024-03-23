@@ -1,8 +1,8 @@
 ---
 title: Get started with team templates in the Teams admin center
-author: lana-chin
-ms.author: v-chinlana
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
@@ -12,7 +12,6 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
-  - m365-frontline
   - tier2
   - highpri
 description: Learn about team templates and how to manage them in the Microsoft Teams admin center.
@@ -49,7 +48,7 @@ This article gives you an overview of working with team templates in the Teams a
 
 Most properties in a team are included and supported by team templates. But there are a few properties and features that aren't currently supported. Here's a summary of what's included and what's not included in team templates.
 
-| **Team properties supported by team templates** | **Team properties not yet supported by team templates** |
+| Team properties supported by team templates | Team properties not yet supported by team templates |
 | ------------------------------------------------ | -------------------------------------------------------- |
 | Template type | Team membership |
 | Team name | Team picture |

@@ -8,7 +8,8 @@ manager: prkosh
 audience: admin
 ms.subservice: teams-apps
 ms.service: msteams
-ms.date: 06/27/2023
+ms.reviewer: sujai
+ms.date: 10/17/2023
 ms.collection: 
   - M365-collaboration
 f1.keywords:

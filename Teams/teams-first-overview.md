@@ -35,8 +35,8 @@ To get started with your Teams First deployment you will need to meet at minimum
 
 1.  A Microsoft 365 or Office 365 organization configured with your domain name
 
-2.  Azure Active Directory connectivity or similar cloud identity sync solution – with all required attributes synched with your tenant  
-    To understand the attributes synchronized with Azure AD Connect, read [Azure AD Connect sync: Attributes synchronized to Azure Active Directory](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
+2.  Microsoft Entra connectivity or similar cloud identity sync solution – with all required attributes synched with your tenant  
+    To understand the attributes synchronized with Microsoft Entra Connect, read [Microsoft Entra Connect Sync: Attributes synchronized to Microsoft Entra ID](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
 
 3.  Appropriate user licenses assigned for Teams  
     To understand Teams licensing, read [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
@@ -189,7 +189,7 @@ This starting point assumes that your organization utilizes Skype for Business 2
 <p>PSTN Dial-in and Dial-out capability is available with the Audio Conferencing licenses.</p>
 <p>Teams calendar access requires Exchange 2016 CU3+ on-premises deployed with Exchange hybrid established:<br />
 <a href="/exchange/hybrid-deployment/deploy-hybrid">Create a hybrid deployment with the Hybrid Configuration wizard.</a></p>
-<p>Administrator can control the Skype for Business Outlook add-in via the Teams meeting policy's PreferredMeetingProviderForIslandsMode attribute:<a href="/powershell/module/skype/set-csteamsmeetingpolicy">
+<p>Administrator can control the Skype for Business Outlook add-in via the Teams meeting policy's PreferredMeetingProviderForIslandsMode attribute:<a href="/powershell/module/teams/set-csteamsmeetingpolicy">
 set-csteamsmeetingpolicy</a>.</p> 
 </td>
 </tr>
@@ -286,7 +286,7 @@ For specifics on each of the services listed above, please follow the links belo
 
 ## Related topics
 
-[Microsoft Teams IT architecture and telephony solutions posters](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
+[Microsoft Teams IT architecture and telephony solutions posters](teams-architecture-solutions-posters.md)
 
 [Plan hybrid connectivity between Skype for Business Server and Office 365](/SkypeForBusiness/hybrid/plan-hybrid-connectivity)
 

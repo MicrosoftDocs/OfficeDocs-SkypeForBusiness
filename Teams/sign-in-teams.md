@@ -28,7 +28,7 @@ Bookmark this article if your role involves knowing Microsoft Team's expected be
 
 ## Microsoft Teams and Windows users: sign-in recommendations
 
-Microsoft recommends that organizations use recent versions of Windows 10 with either Hybrid Domain Join or Azure AD Join configuration. Using recent versions ensures that users' accounts are primed in Windows' Web Account Manager, which in turn enables single sign-on to Teams and other Microsoft applications. Single sign-on provides a better user experience (silent sign-in) and a better security posture.
+Microsoft recommends that organizations use recent versions of Windows 10 with either Hybrid Domain Join or Microsoft Entra join configuration. Using recent versions ensures that users' accounts are primed in Windows' Web Account Manager, which in turn enables single sign-on to Teams and other Microsoft applications. Single sign-on provides a better user experience (silent sign-in) and a better security posture.
 
 Microsoft Teams uses modern authentication to keep the sign-in experience simple and secure. To see how users sign in to Teams, read [Sign in to Teams](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055).
 
@@ -38,7 +38,7 @@ Modern authentication is part of a process that lets Teams know that users have 
 
 Sign-in behavior will also vary depending on whether your organization has enabled single-factor authentication or multifactor authentication. Multifactor authentication usually involves verifying credentials via a phone, providing a unique code, entering a PIN, or presenting a thumbprint. 
 
-Modern authentication is available for every organization that uses Teams. If users aren't able to complete the process, there might be an underlying issue with your organization's Azure AD configuration. For more information, see [Why am I having trouble signing in to Microsoft Teams?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
+Modern authentication is available for every organization that uses Teams. If users aren't able to complete the process, there might be an underlying issue with your organization's Microsoft Entra configuration. For more information, see [Why am I having trouble signing in to Microsoft Teams?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
 
 Here's a rundown of the behavior users can expect with each modern authentication scenario.
 
@@ -50,7 +50,7 @@ Here's a rundown of the behavior users can expect with each modern authenticatio
 
 - If users are signed in to a domain-joined computer, when they start Teams, they might be asked to go through one more authentication step, depending on whether your organization opted to require MFA or if their computer already requires MFA to sign in. If their computer already requires MFA to sign in, when they open up Teams, the app automatically starts.
 
-- On Domain joined PCs, when SSO isn't possible, Teams may pre-fill its login screen with the user principal name (UPN). There are cases where you may not want this, especially if your organization uses different UPNs on-premises and in Azure Active Directory. If that's the case, **you can use the following Windows registry key to turn off pre-population of the UPN**:
+- On Domain joined PCs, when SSO isn't possible, Teams may pre-fill its login screen with the user principal name (UPN). There are cases where you may not want this, especially if your organization uses different UPNs on-premises and in Microsoft Entra ID. If that's the case, **you can use the following Windows registry key to turn off pre-population of the UPN**:
 
   Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams<br/>
   SkipUpnPrefill(REG_DWORD)<br/>
@@ -116,11 +116,11 @@ To create an app configuration policy for managed Android devices, see [Add app 
 
 Microsoft Teams apps on Windows and macOS are gaining support for device policies that restrict sign in to your organization. The policies can be set via usual Device Management solutions such as MDM (Mobile Device Management) or GPO (Group Policy Object).
 
-When this policy is configured on a device, users can only sign in with accounts homed in an Azure AD tenant that is included in the "Tenant Allow List" defined in the policy. The policy applies to all sign-ins, including first and additional accounts. If your organization spans multiple Azure AD tenants, you can include multiple Tenant IDs in the Allow List. Links to add another account may continue to be visible in the Teams app, but they won't be operable.
+When this policy is configured on a device, users can only sign in with accounts homed in a Microsoft Entra tenant that is included in the "Tenant Allow List" defined in the policy. The policy applies to all sign-ins, including first and additional accounts. If your organization spans multiple Microsoft Entra tenants, you can include multiple Tenant IDs in the Allow List. Links to add another account may continue to be visible in the Teams app, but they won't be operable.
 
 > [!NOTE]
 > 
->1. The policy only restricts sign-ins. It does not restrict the ability for users to be invited as a guest in other Azure AD tenants, or switch to those other tenants (where users have been invited as a guest).
+>1. The policy only restricts sign-ins. It does not restrict the ability for users to be invited as a guest in other Microsoft Entra tenants, or switch to those other tenants (where users have been invited as a guest).
 >2. The policy requires Teams for Windows version 1.3.00.30866 or higher, and Teams for macOS version 1.3.00.30882 (released mid-November 2020).
 
 **Policies for Windows**
@@ -146,7 +146,7 @@ For macOS managed devices, use .plist to deploy sign-in restrictions. The config
 - Domain: com.microsoft.teams
 - Key: RestrictTeamsSignInToAccountsFromTenantList
 - Data Type: String
-- Comments: Enter comma separate list of Azure AD tenant ID(s)
+- Comments: Enter comma separate list of Microsoft Entra tenant ID(s)
 
 ### Global sign in and Microsoft Teams  
 

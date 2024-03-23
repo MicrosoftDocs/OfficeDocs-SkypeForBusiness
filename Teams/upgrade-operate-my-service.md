@@ -1,8 +1,8 @@
 ---
 title: Operations for Microsoft Teams| Service Management | Quality
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -107,13 +107,13 @@ operationalize their roles.
 Microsoft Teams brings together technologies across Microsoft 365 and Office 365 to provide a hub
 for teamwork. Examples include:
 
-- Azure Active Directory (Azure AD) provides authentication and authorization services for Teams.
+- Microsoft Entra ID provides authentication and authorization services for Teams.
 
 - Exchange Online provides advanced features like legal hold and e-discovery.
 
 - SharePoint Online provides the ability to share files in channels, and OneDrive for Business provides a mechanism for sharing files within a private chat.
 
-Organizations can also leverage existing investments in on-premises infrastructure. For example, existing on-premises Active Directory accounts can be used for authentication by leveraging Azure AD Connect. Certain versions of Exchange Server can be used in place of Exchange Online.
+Organizations can also leverage existing investments in on-premises infrastructure. For example, existing on-premises Active Directory accounts can be used for authentication by leveraging Microsoft Entra Connect. Certain versions of Exchange Server can be used in place of Exchange Online.
 
 These technologies come together to provide a rich, collaborative, and intelligent communications suite for users. This tight integration is a key benefit of Teams, but it also drives a requirement for service management across these technologies.
 
@@ -150,7 +150,7 @@ activity and to assist in readiness initiatives.
 It's important that you understand the overall health of the Microsoft Teams
 service so that you can proactively alert others in your organization of any
 event that affects the service. As described earlier, Teams is dependent on
-other Microsoft 365 and Office 365 services such as Azure Active Directory, Exchange Online,
+other Microsoft 365 and Office 365 services such as Microsoft Entra ID, Exchange Online,
 SharePoint Online, and OneDrive for Business. Because of this, it's equally
 important that you monitor the health of the dependent services.
 
@@ -221,7 +221,7 @@ simplifying how you monitor your environment. For more information, see [Microso
 
 | Activity | Description | Cadence | Team assigned |
 |---|---|---|---|
-| Monitor service health | Proactively monitor Microsoft Teams service health, (and dependent services) by using the tools available. Dependent services include: Exchange Online, SharePoint Online, OneDrive for Business, Azure Active Directory. | Real-time | |
+| Monitor service health | Proactively monitor Microsoft Teams service health, (and dependent services) by using the tools available. Dependent services include: Exchange Online, SharePoint Online, OneDrive for Business, Microsoft Entra ID. | Real-time | |
 | Incident notification | Notify internal stakeholders of events that affect the Teams service. Internal stakeholders can include users, helpdesks, and incident managers. | As needed | |
 
 ### References

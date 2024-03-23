@@ -2,7 +2,7 @@
 title: "IP Relay in Canada"
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: 
 ms.date: 04/04/2018
 ms.topic: conceptual

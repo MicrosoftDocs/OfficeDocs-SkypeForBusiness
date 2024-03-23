@@ -2,10 +2,10 @@
 title: Manage the Virtual Appointments app in Microsoft Teams
 author: lana-chin
 ms.author: v-chinlana
-manager: serdars
+manager: jtremper
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: megano
+ms.reviewer: revathim
 ms.date: 09/18/2023
 search.appverid: MET150
 searchScope:
@@ -13,15 +13,14 @@ searchScope:
   - Microsoft Cloud for Healthcare
   - Microsoft Cloud for Retail
 audience: admin
-description: Learn how to manage the Virtual Appointments app for users in your organization.
+description: Learn how to manage the Virtual Appointments app which provides business-to-customer engagements, including scheduling, analytics, and management options.
 ms.localizationpriority: medium
-MS.collection: 
-  - Teams_ITAdmin_Help
-  - M365-collaboration
-  - m365-frontline
-  - teams-1p-app-admin
-  - highpri
-  - m365-virtual-appointments
+ms.collection: 
+- M365-collaboration
+- m365-frontline
+- teams-1p-app-admin
+- highpri
+- m365-virtual-appointments
 appliesto: 
   - Microsoft Teams
 ---

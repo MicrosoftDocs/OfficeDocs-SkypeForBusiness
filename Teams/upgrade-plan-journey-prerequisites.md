@@ -1,8 +1,8 @@
 ---
 title: Prerequisites and environmental dependencies for upgrading to Teams 
-author: MikePlumleyMSFT
-ms.author: mikeplum
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
@@ -32,7 +32,7 @@ This article is part of the Technical Readiness stage of your upgrade journey, a
 - [Understood coexistence and interoperability of Skype for Business and Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-Teams combines multiple Microsoft 365 and Office 365 services, and is therefore dependent on the correct implementation and operation of these services. These services include—but aren't limited to—SharePoint Online, Exchange Online, and OneDrive for Business.
+Teams uses multiple Microsoft 365 and Office 365 services, and is therefore dependent on the correct implementation and operation of these services. These services include—but aren't limited to—SharePoint Online, Exchange Online, and OneDrive for Business.
 
 Although not all services are required, we highly recommend that you implement all of them. If you choose not to implement certain services, it will affect the functionality that Teams can offer your organization. For example, though you don't have to implement SharePoint Online, Teams does rely on SharePoint Online for certain functionality such as file sharing in group conversations, so not implementing this service will reduce the functionality offered through the client.
 
@@ -42,7 +42,7 @@ See the following articles to learn about prerequisites and how Teams interacts 
 
 - If your organization hasn't added or configured a verified domain for Microsoft 365 or Office 365, see [Domains FAQ](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590).
 
-- If your organization hasn't synchronized identities to Azure Active Directory, see [Identity models and authentication in Microsoft Teams](identify-models-authentication.md).
+- If your organization hasn't synchronized identities to Microsoft Entra ID, see [Identity models and authentication in Microsoft Teams](identify-models-authentication.md).
 
 - If your organization doesn't have Exchange Online, see [Understand how Exchange and Microsoft Teams interact](exchange-teams-interact.md).
 

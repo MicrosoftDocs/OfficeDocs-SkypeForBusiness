@@ -1,8 +1,8 @@
 ---
 title: Manage team templates in the admin center
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.reviewer: yinchang
 ms.date: 01/11/2021
 ms.topic: article

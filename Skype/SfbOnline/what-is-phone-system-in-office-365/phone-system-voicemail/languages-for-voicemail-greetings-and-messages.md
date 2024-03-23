@@ -70,7 +70,7 @@ To change the language that Skype for Business uses for system voicemail greetin
 |Spanish   |Mexico   |es-MX   |Yes, but Spain Spanish (es-ES) is used.   |Yes   |Yes, but Spain Spanish (es-ES) is used.   |
 |Swedish   |Sweden   |sv-SE   |Yes   |Yes   |No   |
 |Thai  |Thailand   |th-TH   |Yes   |Yes   |No   |
-|Turkish   |Turkey   |tr-TR   |Yes   |Yes   |No   |
+|Turkish   |Türkiye  |tr-TR   |Yes   |Yes   |No   |
 |Vietnamese  |Vietnam   |vi-VN   |Yes   |Yes   |No   |
 
 ## Related topics

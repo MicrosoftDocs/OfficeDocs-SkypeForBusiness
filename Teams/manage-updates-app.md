@@ -2,9 +2,9 @@
 title: Manage the Updates app for your organization
 author: lana-chin
 ms.author: v-chinlana
-manager: serdars
-ms.reviewer: acolonna, diyu
-ms.date: 03/30/2023
+manager: jtremper
+ms.reviewer: diyu
+ms.date: 02/01/2024
 ms.topic: how-to
 audience: admin
 ms.service: msteams
@@ -29,17 +29,17 @@ ms.custom:
 
 ## Overview of Updates
 
-The Updates in Microsoft Teams app provides a centralized place for members of your organization to create, review, and submit updates. By creating update requests, you can use the Updates app to keep track of anything your organization needs. Updates is available for both desktop and mobile.
+The Updates app in Microsoft Teams provides a centralized place for members of your organization to create, review, and submit updates. By creating update requests, you can use the Updates app to keep track of anything your organization needs. Updates is available for both desktop and mobile.
 
 In Teams, users can get the Updates app from the Teams app store. They'll see all of the update requests they need to submit on the **Submit** page. You can share the [Get started in Updates article](https://support.microsoft.com/office/get-started-in-updates-c03a079e-e660-42dc-817b-ca4cfd602e5a) with your users to help them get comfortable using Updates.
 
 [![Image of the Submit page in Teams for desktop.](media/updates-submit-small.png)](media/updates-submit.png#lightbox)
 
-Users can view updates they've assigned in the **Review** page.
+Users can view updates that they assigned on the **Review** page.
 
 [![Image of the Review page in Teams for desktop.](media/updates-home-small.png)](media/updates-home.png#lightbox)
 
-When a user is assigned an update request, it will show up in their Teams activity feed. Users can also view all their current update requests and previous submissions in the Updates app. In addition, anyone can create and send out update requests.
+When a user is assigned an update request, it shows up in their Teams activity feed. Users can also view all their current update requests and previous submissions in the Updates app. In addition, anyone can create and send out update requests.
 
 Updates comes with both out-of-the-box templates for common business scenarios and the option to create your own requests. Anyone can create an update request for new types of updates and ask others to submit updates to sync their work status.
 
@@ -71,7 +71,7 @@ You need permission for the following items to deploy Updates:
 
 The Common Data Model (CDM) is the shared data language used by business and analytical applications in the Microsoft Dataverse. It consists of a set of standardized, extensible data schemas published by Microsoft and our partners that enables consistency of data and its meaning across applications and business processes. Learn more about the [Common Data Model](/common-data-model/).
 
-Updates that are created from a template still store data in Microsoft Dataverse, such as their title, details, template ID, and more. 
+Updates that are created from a template still store data in Microsoft Dataverse, such as their title, details, template ID, and more.
 
 ## Updates Teams app permissions
 
@@ -90,9 +90,9 @@ The Updates Teams app lets you access the following features:
 - Send messages and notifications in a channel.
 
 - Access your team's information:
-  - team name
-  - channel list
-  - roster (team members' names and email addresses)
+  - Team name
+  - Channel list
+  - Roster (team members' names and email addresses)
 
 - Use the team's information to contact them.
 
@@ -111,13 +111,13 @@ The Updates app is available by default. You can disable the app in the Teams ad
   4. Select **Updates**.
 
   5. Select the toggle to disable the app for your organization.
-    ![Image of the toggle to enable or disable Updates.](media/toggle-updates.png)
+    [![Image of the toggle to enable or disable Updates.](media/toggle-updates.png)](media/toggle-updates.png#lightbox)
 
 ## Pin Updates to Teams
 
 App setup policies let you customize Teams to pin apps that are most important for your users in your users. The apps are pinned to the app bar—the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients—where users can quickly and easily access them.
 
-To pin the Updates app for your users, you can edit the global (Org-wide default) policy or create and assign a custom policy in app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
+To pin the Updates app for your users, you can edit the global (Org-wide default) policy or create and assign a custom policy in app setup policy. Learn more about [Teams app setup policies](teams-app-setup-policies.md).
 
 ## Retention policy
 
@@ -131,7 +131,7 @@ You can use [Teams app permission policies](teams-app-permission-policies.md) to
 
 ## Security
 
-From the Teams Updates app, users have access to create new updates and view updates that they have sent and received. Users can't view the Updates that are submitted by others unless they're a viewer of the update or update request.
+From the Teams Updates app, users have access to create new updates and view updates that they sent and received. Users can't view the Updates that are submitted by others unless they're a viewer of the update or update request.
 
 ## Power Automate connector
 

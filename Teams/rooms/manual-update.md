@@ -1,23 +1,23 @@
 ---
 title: Manually update a Microsoft Teams Rooms device
 ms.author: tonysmit
-author: tonysmit
-manager: serdars
-audience: ITPro
-appliesto: 
-  - Microsoft Teams
-ms.reviewer: sohailta
+author: mstonysmith
+manager: pamgreen
+ms.reviewer: tavis-snoozy
 ms.date: 08/29/2023
 ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-f1.keywords: 
-  - NOCSH
-ms.localizationpriority: medium
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
   - Tier1
+f1.keywords: 
+  - NOCSH
+ms.localizationpriority: medium
 description: Learn how to manually update your Microsoft Teams Rooms device to the latest version.
 ---
 

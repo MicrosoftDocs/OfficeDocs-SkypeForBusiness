@@ -1,8 +1,8 @@
 ---
 title: Microsoft Teams Essentials QuickStart guide for small businesses 
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.date: 11/19/2021
 ms.topic: article
 ms.service: msteams
@@ -30,13 +30,13 @@ Microsoft Teams Essentials is available for purchase through Microsoft's direct 
 
 A subscription purchased through Microsoft's direct website uses Microsoft account identity, which allows you to use your existing email address like TomislavK@outlook.com, TomislavK@gmail.com, or TomislavK@ContosoLandscaping.com to sign up.
 
-Alternatively, Teams Essentials purchased through select Microsoft Certified Partners uses Azure Active Directory (AAD) which asks you to create a new login/identity. Partners can configure Teams Essentials to connect to your existing email address so you can sign in using your existing email address.  
+Alternatively, Teams Essentials purchased through select Microsoft Certified Partners uses Microsoft Entra which asks you to create a new login/identity. Partners can configure Teams Essentials to connect to your existing email address so you can sign in using your existing email address.  
 
 ## What Microsoft Teams Essentials subscription do I have?  
 
 If you purchased Teams Essentials through Microsoft's website (direct), you own **Microsoft Teams Essentials**.
 
-If you purchased Teams Essentials through a Microsoft Certified Partner, you own **Microsoft Teams Essentials (AAD identity)**.
+If you purchased Teams Essentials through a Microsoft Certified Partner, you own **Microsoft Teams Essentials (Microsoft Entra identity)**.
 
 
 ## How does Microsoft Teams Essentials compare to other Microsoft Teams plans?
@@ -44,7 +44,7 @@ If you purchased Teams Essentials through a Microsoft Certified Partner, you own
 The following table lists the major Microsoft Teams features available across plans. Certain caveats apply. For more information, see the footnotes. This table may change without notice. For the most up-to-date, complete list of features, visit  [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
 
  
-|Microsoft Teams Plan | **Microsoft Teams (free)** | [**Microsoft Teams Essentials** ](#get-microsoft-teams-essentials) | **Microsoft Teams Essentials (AAD Identity)** | [**Microsoft 365 Business Basic**](/microsoft-365/admin/setup/setup-business-basic?)  |
+|Microsoft Teams Plan | **Microsoft Teams (free)** | [**Microsoft Teams Essentials** ](#get-microsoft-teams-essentials) | **Microsoft Teams Essentials (Microsoft Entra identity)** | [**Microsoft 365 Business Basic**](/microsoft-365/admin/setup/setup-business-basic?)  |
 |---------|---------|---------|---------|---------|
 |***Feature***     |         |         |         |         |
 | **Meeting and Calling** | Yes| Yes| Yes |   Yes    |
@@ -86,9 +86,9 @@ The following table lists the major Microsoft Teams features available across pl
 | Migrate existing data & users to Microsoft 365  |     |   | Yes  | Yes|
 | Ability to add-on services including Audio Conferencing & Teams Phone |     |   |   Yes      | Yes |
 
-<sup>1</sup> Provides connection to Google Calendar and other third-party calendars with the following configuration: [Microsoft Teams Essentials (AAD Identity) Configuration Guide](connect-teams-essentials-to-email.md)
+<sup>1</sup> Provides connection to Google Calendar and other third-party calendars with the following configuration: [Microsoft Teams Essentials (Microsoft Entra identity) Configuration Guide](connect-teams-essentials-to-email.md)
 
-<sup>2</sup> Teams Essentials (AAD Identity) through partner includes 2 GB Exchange mailbox and no archiving, allowing users to sync with third-party email providers.
+<sup>2</sup> Teams Essentials (Microsoft Entra identity) through partner includes 2 GB Exchange mailbox and no archiving, allowing users to sync with third-party email providers.
 
 
 > [!IMPORTANT] 
@@ -147,9 +147,11 @@ Keep the following limitations in mind:
 
 - All users must be upgraded: a mix of Teams Free (classic) and paid subscription users in the same tenant isn't supported.
 
-#### Can I purchase Teams Essentials using AAD identity through Microsoft's website?  
+<a name='can-i-purchase-teams-essentials-using-aad-identity-through-microsofts-website'></a>
 
-No. Teams Essentials with AAD identity is only available through select Microsoft Cloud Partners. If you're interested in working with a Partner, visit [Find a Microsoft Partner Cloud Solution Provider](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider).
+#### Can I purchase Teams Essentials using Microsoft Entra identity through Microsoft's website?  
+
+No. Teams Essentials with Microsoft Entra identity is only available through select Microsoft Cloud Partners. If you're interested in working with a Partner, visit [Find a Microsoft Partner Cloud Solution Provider](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider).
 
 #### Can I use an existing email system with Microsoft Teams Essentials?  
 
@@ -159,11 +161,13 @@ Yes. You can keep your existing email system and use Teams Essentials to meet, c
 
 Yes. You can sync existing calendars from Outlook.com and Google with Teams Essentials.
 
-To connect an existing calendar solution with Teams Essentials (AAD Identity), follow the instructions later in this article.
+To connect an existing calendar solution with Teams Essentials (Microsoft Entra identity), follow the instructions later in this article.
 
-#### How do I connect my current email and calendar with Teams Essentials (AAD Identity)?
+<a name='how-do-i-connect-my-current-email-and-calendar-with-teams-essentials-aad-identity'></a>
 
-To get started, visit [**Connect Microsoft Teams Essentials (AAD Identity) to an existing email system with calendar**](connect-teams-essentials-to-email.md) for more information. You can connect an existing email system like Google Workspace to Microsoft Teams Essentials (AAD Identity) to stay connected across platforms with integrated calendars and sign in.
+#### How do I connect my current email and calendar with Teams Essentials (Microsoft Entra identity)?
+
+To get started, visit [**Connect Microsoft Teams Essentials (Microsoft Entra identity) to an existing email system with calendar**](connect-teams-essentials-to-email.md) for more information. You can connect an existing email system like Google Workspace to Microsoft Teams Essentials (Microsoft Entra identity) to stay connected across platforms with integrated calendars and sign in.
 
 #### Can I upgrade Teams Essentials bought directly through Microsoft's website to Microsoft 365?
 
@@ -171,6 +175,6 @@ Upgrades from Teams Essentials to Microsoft 365 will be available soon.
 
 ## More information
 
-- Visit [Configuration Guide](connect-teams-essentials-to-email.md) for configuration steps on connecting Microsoft Teams Essentials (AAD Identity) to an existing email system with calendar
+- Visit [Configuration Guide](connect-teams-essentials-to-email.md) for configuration steps on connecting Microsoft Teams Essentials (Microsoft Entra identity) to an existing email system with calendar
 
 - To find out more about Teams versions and their capabilities, visit [Compare Teams plans](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options)

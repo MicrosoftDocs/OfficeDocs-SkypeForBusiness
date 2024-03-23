@@ -1,182 +1,182 @@
 {
-  "build": {
-    "content": [
-      {
-        "files": [
-          "**/*.md",
-          "**/**.yml"
+    "build": {
+        "content": [
+            {
+                "files": [
+                    "**/*.md",
+                    "**/**.yml"
+                ],
+                "src": "Hub",
+                "dest": ".",
+                "exclude": [
+                    "**/obj/**",
+                    "**/includes/**",
+                    "**/_themes/**",
+                    "**/_themes.pdf/**",
+                    "README.md",
+                    "LICENSE",
+                    "LICENSE-CODE",
+                    "ThirdPartyNotices",
+                    "**/common/**"
+                ]
+            },
+            {
+                "files": [
+                    "**/*.md",
+                    "**/**.yml"
+                ],
+                "src": "SfbHybrid",
+                "dest": ".",
+                "exclude": [
+                    "**/obj/**",
+                    "**/includes/**",
+                    "**/_themes/**",
+                    "**/_themes.pdf/**",
+                    "README.md",
+                    "LICENSE",
+                    "LICENSE-CODE",
+                    "ThirdPartyNotices"
+                ]
+            },
+            {
+                "files": [
+                    "**/*.md",
+                    "**/**.yml"
+                ],
+                "src": "SfbOnline",
+                "dest": ".",
+                "exclude": [
+                    "**/obj/**",
+                    "**/includes/**",
+                    "README.md",
+                    "**/_themes/**",
+                    "**/_themes.pdf/**",
+                    "LICENSE",
+                    "LICENSE-CODE",
+                    "ThirdPartyNotices"
+                ]
+            },
+            {
+                "files": [
+                    "**/*.md",
+                    "**/**.yml"
+                ],
+                "src": "SfbServer",
+                "dest": ".",
+                "exclude": [
+                    "**/obj/**",
+                    "**/includes/**",
+                    "**/_themes/**",
+                    "**/_themes.pdf/**",
+                    "README.md",
+                    "LICENSE",
+                    "LICENSE-CODE",
+                    "ThirdPartyNotices"
+                ]
+            },
+            {
+                "files": [
+                    "**/*.md",
+                    "**/**.yml"
+                ],
+                "src": "SfbPartnerCertification",
+                "dest": ".",
+                "exclude": [
+                    "**/obj/**",
+                    "**/includes/**",
+                    "**/_themes/**",
+                    "**/_themes.pdf/**",
+                    "README.md",
+                    "LICENSE",
+                    "LICENSE-CODE",
+                    "ThirdPartyNotices"
+                ]
+            },
+            {
+                "files": [
+                    "**/*.md",
+                    "**/**.yml"
+                ],
+                "src": "SfBServer2019",
+                "dest": ".",
+                "exclude": [
+                    "**/obj/**",
+                    "**/includes/**",
+                    "**/_themes/**",
+                    "**/_themes.pdf/**",
+                    "README.md",
+                    "LICENSE",
+                    "LICENSE-CODE",
+                    "ThirdPartyNotices"
+                ]
+            }
         ],
-        "src": "Hub",
-        "dest": ".",
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "**/_themes/**",
-          "**/_themes.pdf/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices",
-          "**/common/**"
-        ]
-      },
-      {
-        "files": [
-          "**/*.md",
-          "**/**.yml"
+        "resource": [
+            {
+                "files": [
+                    "**/*.png",
+                    "**/*.jpg",
+                    "**/*.gif",
+                    "**/*.pdf",
+                    "**/*.svg",
+                    "**/*.csv"
+                ],
+                "exclude": [
+                    "**/obj/**",
+                    "**/includes/**"
+                ]
+            }
         ],
-        "src": "SfbHybrid",
-        "dest": ".",
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "**/_themes/**",
-          "**/_themes.pdf/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices"
-        ]
-      },
-      {
-        "files": [
-          "**/*.md",
-          "**/**.yml"
-        ],
-        "src": "SfbOnline",
-        "dest": ".",
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "README.md",
-          "**/_themes/**",
-          "**/_themes.pdf/**",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices"
-        ]
-      },
-      {
-        "files": [
-          "**/*.md",
-          "**/**.yml"
-        ],
-        "src": "SfbServer",
-        "dest": ".",
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "**/_themes/**",
-          "**/_themes.pdf/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices"
-        ]
-      },
-      {
-        "files": [
-          "**/*.md",
-          "**/**.yml"
-        ],
-        "src": "SfbPartnerCertification",
-        "dest": ".",
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "**/_themes/**",
-          "**/_themes.pdf/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices"
-        ]
-      },
-      {
-        "files": [
-          "**/*.md",
-          "**/**.yml"
-        ],
-        "src": "SfBServer2019",
-        "dest": ".",
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "**/_themes/**",
-          "**/_themes.pdf/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices"
-        ]
-      }
-    ],
-    "resource": [
-      {
-        "files": [
-          "**/*.png",
-          "**/*.jpg",
-          "**/*.gif",
-          "**/*.pdf",
-          "**/*.svg",
-          "**/*.csv"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**"
-        ]
-      }
-    ],
-    "overwrite": [],
-    "externalReference": [],
-    "globalMetadata": {
-      "searchScope": [
-        "Skype for Business"
-      ],
-      "breadcrumb_path": "/skypeforbusiness/breadcrumb/toc.json",
-      "extendBreadcrumb": "true",
-      "uhfHeaderId": "MSDocsHeader-M365-IT",
-      "ms.suite": "office",
-      "contributors_to_exclude": [
-        "daswifty",
-        "MikePlumleyMSFT",
-        "rjagiewich", 
-        "traya1", 
-        "rmca14", 
-        "claydetels19", 
-        "jborsecnik",
-        "tiburd",
-        "AngelaMotherofDragons",
-        "v-dihans",
-        "garycentric",
-        "beccarobins",
-        "dstrome"
-      ],
-      "feedback_system": "None",
-      "hideEdit": true
-    },
-    "fileMetadata": {
-      "titleSuffix": {
-        "SfBServer2019/**/*.md": "Skype for Business Server 2019",
-        "SfbHybrid/**/*.md": "Skype for Business Hybrid",
-        "SfbOnline/**/*.md": "Skype for Business Online",
-        "SfbServer/**/*.md": "Skype for Business Server 2015"
-      },
-      "feedback_product_url": { 
-        "SfbHybrid/hybrid/*.md": "https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/issues" 
-      },
-      "feedback_system": {
-        "SfbHybrid/hybrid/*.md": "GitHub" 
-      },
-      "feedback_github_repo": {
-        "SfbHybrid/hybrid/*.md": "MicrosoftDocs/OfficeDocs-SkypeForBusiness" 
-      },
-        "hideEdit": {
-        "SfbHybrid/hybrid/*.md": false 
-      } 
-    },
-    "template": [],
-    "dest": "OfficeDocs-SkypeForBusiness",
-    "markdownEngineName": "markdig"
-  }
+        "overwrite": [],
+        "externalReference": [],
+        "globalMetadata": {
+            "searchScope": [
+                "Skype for Business"
+            ],
+            "breadcrumb_path": "/skypeforbusiness/breadcrumb/toc.json",
+            "extendBreadcrumb": "true",
+            "uhfHeaderId": "MSDocsHeader-M365-IT",
+            "ms.suite": "office",
+            "contributors_to_exclude": [
+                "daswifty",
+                "MikePlumleyMSFT",
+                "dstrome2",
+                "rjagiewich",  
+                "American-Dipper",
+                "claydetels19", 
+                "jborsecnik",
+                "v-stchambers",
+                "shdyas",
+                "Stacyrch140",
+                "garycentric",
+                "dstrome",
+                "beccarobins"        
+            ],
+            "feedback_system": "None",
+            "hideEdit": true
+        },
+        "fileMetadata": {
+            "titleSuffix": {
+                "SfBServer2019/**/*.md": "Skype for Business Server 2019",
+                "SfbHybrid/**/*.md": "Skype for Business Hybrid",
+                "SfbOnline/**/*.md": "Skype for Business Online",
+                "SfbServer/**/*.md": "Skype for Business Server 2015"
+            },
+            "feedback_product_url": {
+                "SfbHybrid/hybrid/*.md": "https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/issues"
+            },
+            "feedback_system": {
+                "SfbHybrid/hybrid/*.md": "GitHub"
+            },
+            "feedback_github_repo": {
+                "SfbHybrid/hybrid/*.md": "MicrosoftDocs/OfficeDocs-SkypeForBusiness"
+            },
+            "hideEdit": {
+                "SfbHybrid/hybrid/*.md": false
+            }
+        },
+        "template": [],
+        "dest": "OfficeDocs-SkypeForBusiness",
+        "markdownEngineName": "markdig"
+    }
 }

@@ -1,8 +1,8 @@
 ---
 title: Get started upgrading Skype for Business to Teams
-author: MikePlumleyMSFT    
-ms.author: mikeplum
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl

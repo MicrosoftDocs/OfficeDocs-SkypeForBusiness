@@ -1,14 +1,16 @@
 ---
 title: Enable Teams Rooms devices to join third-party meetings
 ms.author: tonysmit
-author: tonysmit
-manager: serdars
-ms.reviewer: sohailta
+author: mstonysmith
+manager: pamgreen
+ms.reviewer: naforer
 ms.date: 08/22/2023
-audience: ITPro
 ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
@@ -35,9 +37,12 @@ Supported devices and services:
 > [!NOTE]
 > To join a Cisco Webex meeting from a Teams Rooms device, the Cisco meeting needs to be hosted in Webex Meetings Pro using Cisco Webex web application version WBS 40.7 or later.
 
+> [!NOTE]
+> Joining a Zoom meeting from a Teams Rooms console is supported. However, you can't join Zoom Webinars and Zoom Events from a Teams Rooms console. Those aren't supported at this time.
+
 Before you can join third-party meetings from Teams Rooms, you need to do the following:
 
-1. Configure the Teams Rooms' Exchange Online room mailbox to process invites for third-party meetings.
+1. Configure the Teams Rooms' Exchange mailbox to process invites for third-party meetings.
 2. Make sure your organization doesn't have any policies that would prevent you from connecting to third-party meeting services.
 3. Configure Teams Rooms to allow third-party meetings.
 
@@ -45,7 +50,7 @@ The following sections show you how to complete each of these steps.
 
 ## Step 1: Allow calendar invite processing for third-party meetings
 
-The first thing you need to do to enable a one-touch join experience from Team Rooms is set the calendar processing rules for the device's Exchange Online room mailbox. The room mailbox needs to allow external meetings and keep the message body and subject so it can see the URL needed to join the third-party meeting. To set these room mailbox options using the [Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing.) cmdlet, do the following:
+The first thing you need to do to enable a one-touch join experience from Team Rooms is set the calendar processing rules for the device's Exchange Online room mailbox. The room mailbox needs to allow external meetings and keep the message body and subject so it can see the URL needed to join the third-party meeting. To set these room mailbox options using the [Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing) cmdlet, do the following:
 
 1. Connect to Exchange Online PowerShell. For more information, see [Connect to Exchange Online PowerShell with Basic authentication](/powershell/exchange/connect-to-exchange-online-powershell) or [Connect to Exchange Online PowerShell using multi-factor authentication](/powershell/exchange/mfa-connect-to-exchange-online-powershell), depending on your authentication method.
 

@@ -96,7 +96,7 @@ To opt in for a planned migration, send an email request from your administrator
 
 - Preferred date (Tuesdays): migration waves are executed every Tuesday. Please select a date on a Tuesday that is not beyond 12/3/2019.
  
-- Tenant ID: 32 characters number in this format 0046728c-688a-4472-a38f-098fec60ac6x. You can find your tenant ID in the Microsoft 365 admin portal under Azure AD, or using the following PowerShell cmdlet: `Get-CsTenant | Select ObjectId`
+- Tenant ID: 32 characters number in this format 0046728c-688a-4472-a38f-098fec60ac6x. You can find your tenant ID in the Microsoft 365 admin portal under Microsoft Entra ID, or using the following PowerShell cmdlet: `Get-CsTenant | Select ObjectId`
 
 You will receive an email confirmation once your tenant is successfully migrated.
 

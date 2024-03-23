@@ -2,7 +2,7 @@
 title: "Trunk failover on outbound calls"
 ms.author: crowe
 author: CarolynRowe
-manager: serdars
+manager: pamgreen
 audience: ITPro
 ms.reviewer: 
 ms.date: 12/04/2018

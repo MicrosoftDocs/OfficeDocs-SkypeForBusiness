@@ -2,7 +2,7 @@
 title: Use CQD to manage call and meeting quality in Microsoft Teams 
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: siunies, gageames
@@ -100,8 +100,6 @@ To accelerate your assessment, [two curated CQD templates](https://aka.ms/qertem
 ### Intended audience
 
 This article is intended to be used by partner and customer stakeholders with roles such as Collaboration Lead/Architect, Consultant, Change Management/Adoption Specialist, Support/Help Desk Lead, Network Lead, Desktop Lead, and IT Admin.
-
-This article is also intended to be used by the designated quality champion(s). For more information, see [the Quality Champion role](4-envision-plan-my-service-management.md#the-quality-champion-role).
 
 
 ## What is quality?
@@ -286,7 +284,6 @@ Use the Call Quality Dashboard (CQD) to gain insight into the quality of calls m
 CQD, although useful for analyzing trends and subnets, doesn't always provide a specific cause for a given scenario. It's important to understand this and set the correct expectation when using CQD:
 
 -   CQD won't provide the root cause for every scenario
--   CQD won't contain Phone System or Audio Conferencing streams
 -   CQD will call out areas for further investigation based on trends
 
 ### CQD reports overview

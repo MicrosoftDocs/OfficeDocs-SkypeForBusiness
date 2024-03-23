@@ -1,8 +1,8 @@
 ---
 title: Bulk install Teams using Windows Installer (MSI)
-author: MikePlumleyMSFT
-ms.author: jhendr
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.topic: article
 ms.service: msteams
 ms.reviewer: amitsri
@@ -21,9 +21,12 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Bulk install Teams using Windows Installer (MSI)
+# Bulk install classic Teams using Windows Installer (MSI)
 
-> [!Tip]
+>[!Important]
+>This article is for classic Teams only. To bulk deploy to new Teams, see: [Bulk upgrade to the new Microsoft Teams client](new-teams-bulk-install-client.md)
+
+> [!TIP]
 > Watch the following session to learn about the benefits of the Windows Desktop Client, how to plan for it and how to deploy it: [Teams Windows Desktop Client](https://aka.ms/teams-clients).
 
 Microsoft provides 32-bit, 64-bit, and ARM64 MSI files that you can use to bulk deploy Microsoft Teams to select users and computers. MSI files can be used with [Microsoft Endpoint Configuration Manager](/configmgr/core/understand/introduction), [Group Policy](/troubleshoot/windows-server/group-policy/use-group-policy-to-install-software), or third-party distribution software, to deploy Teams to your organization. Bulk deployments are useful because users don't need to download and install the Teams client manually. Rather, Teams will be deployed to computers and then auto-launch the first time users sign into a computer.
@@ -64,6 +67,16 @@ MSI files can't be used to deploy updates. The Teams client will auto-update whe
 > We don't recommended that you change the default install locations as this could break the update flow. Having too old a version will eventually block users from
 > accessing the service.
 
+> [!NOTE]
+> If the customer tenant is on the GCCH, DoD, or Gallatin, the customer may need to set the initial cloud endpoint through the registry key listed. Setting the endpoint with the registry key restricts teams to connecting to the correct cloud endpoint for pre-sign-in connectivity with Teams, as shown in the following:
+>
+> ```console
+> HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams
+> Value = CloudType
+> value type = DWORD
+>   1 = Commercial, 2 = GCC, 3 = GCCH, 4 = DOD, 7 = Gallatin
+> ```
+
 #### Target computer requirements
 
 Make sure the computers you install Teams on meeting the requirements listed in [Hardware requirements for Microsoft Teams](hardware-requirements-for-the-teams-app.md).
@@ -80,7 +93,7 @@ If a user that had Teams installed via an MSI uninstalls it, a registry key is c
 
 While this key is present, Teams won't install itself again from the Machine-Wide Installer. If a user uninstalls the Teams Machine-Wide Installer, then the install Run key is removed, and a new uninstall Run key is created:
 
-```
+```console
 TeamsMachineUninstallerLocalAppData REG_EXPAND_SZ
 %LOCALAPPDATA%\Microsoft\Teams\Update.exe --uninstall --msiUninstall
 ```
@@ -140,5 +153,5 @@ When a user logs in to Windows, Teams is installed with the MSI. Teams won't sta
 
 Note that these examples also use the **ALLUSERS=1** parameter. When you set this parameter, Teams Machine-Wide Installer appears in Programs and Features in Control Panel and in Apps & features in Windows Settings for all users of the computer. All users can then uninstall Teams if they have admin credentials on the computer.
 
-> [!Note]
+> [!NOTE]
 > If you run the MSI manually, be sure to run it with elevated permissions. Even if you run it as an administrator, without running it with elevated permissions, the installer won't be able to configure the option to disable auto start.
