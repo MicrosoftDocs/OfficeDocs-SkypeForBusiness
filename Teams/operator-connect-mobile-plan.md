@@ -2,8 +2,8 @@
 title: Plan for Teams Phone Mobile
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
-ms.date: 08/10/2023
+manager: pamgreen
+ms.date: 02/14/2024
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -89,7 +89,7 @@ Teams Phone Mobile users can leverage existing [Phone System features](here-s-wh
 
 Ensure your organization has eligible Microsoft 365 services:
 
-- Teams Phone System SKU/E5
+- Teams Phone System SKU or E5 with Teams
 - Teams Phone Mobile add-on SKU
 
 To enable phone number assignments with Teams Phone Mobile, make sure your users:
@@ -101,3 +101,9 @@ To enable phone number assignments with Teams Phone Mobile, make sure your users
 - Are in TeamsOnly mode. Users must be in TeamsOnly mode, but your entire organization does not. To learn more, see [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 
+## Related articles
+
+The following training articles are available to the users in your organization:
+
+- [Get started with Teams Phone Mobile](https://prod.support.services.microsoft.com/en-us/office/getting-started-with-teams-phone-mobile-c37a6764-6c4f-4685-a26f-b84c12a71697)
+- [Manage call settings in Teams Phone Mobile](https://prod.support.services.microsoft.com/en-us/office/manage-call-settings-in-microsoft-teams-phone-mobile-dbe4098a-198f-4101-b769-ecf0da9b33e2)

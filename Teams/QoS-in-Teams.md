@@ -1,12 +1,12 @@
 ---
 title: Implement Quality of Service in Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: Serdars
+ms.author: crowe
+author: CarolynRowe
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: siunies
-ms.date: 02/16/2018
+ms.date: 09/27/2023
 audience: admin
 description: Learn about how to prepare your organization's network for Quality of Service (QoS) in Microsoft Teams.
 ms.localizationpriority: medium
@@ -20,7 +20,8 @@ ms.custom:
 ms.collection: 
   - M365-collaboration
 appliesto: 
-  - Microsoft Teams
+  - Classic Microsoft Teams
+  - New Microsoft Teams
 ---
 
 # Implement Quality of Service (QoS) in Microsoft Teams
@@ -163,19 +164,19 @@ If you've previously deployed Skype for Business Online, including QoS tagging a
 **Set QoS for audio**
 
 ```powershell
-new-NetQosPolicy -Name "Teams Audio" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50000 -IPSrcPortEndMatchCondition 50019 -DSCPAction 46 -NetworkProfile All
+new-NetQosPolicy -Name "Teams Audio" -AppPathNameMatchCondition "ms-teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50000 -IPSrcPortEndMatchCondition 50019 -DSCPAction 46 -NetworkProfile All
 ```
 
 **Set QoS for video**
 
 ```powershell
-new-NetQosPolicy -Name "Teams Video" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50020 -IPSrcPortEndMatchCondition 50039 -DSCPAction 34 -NetworkProfile All
+new-NetQosPolicy -Name "Teams Video" -AppPathNameMatchCondition "ms-teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50020 -IPSrcPortEndMatchCondition 50039 -DSCPAction 34 -NetworkProfile All
 ```
 
 **Set QoS for sharing**
 
 ```powershell
-new-NetQosPolicy -Name "Teams Sharing" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50040 -IPSrcPortEndMatchCondition 50059 -DSCPAction 18 -NetworkProfile All
+new-NetQosPolicy -Name "Teams Sharing" -AppPathNameMatchCondition "ms-teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50040 -IPSrcPortEndMatchCondition 50059 -DSCPAction 18 -NetworkProfile All
 ```
 
 ## Managing source ports in the Teams admin center

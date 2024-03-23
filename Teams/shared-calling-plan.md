@@ -1,10 +1,10 @@
 ---
 title: "Plan for Shared Calling"
-ms.reviewer: jenstr
-ms.date: 09/20/2023
-author: CarolynRowe
-ms.author: crowe
-manager: serdars
+ms.reviewer: roykuntz, jastark
+ms.date: 2/8/2024
+author: mkbond007
+ms.author: mabond
+manager: pamgreen
 ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -29,6 +29,8 @@ This article describes what you need to know before configuring Shared Calling f
 
 If you have users who aren't heavy users of the Public Switched Telephone Network (PSTN), they might not need a dedicated assigned phone number. Instead, for these users, you should consider Shared Calling as a simpler, easier-to-implement phone solution for your organization. Shared Calling greatly simplifies phone number management for some users. Shared Calling also reduces costs for your organization because you don't need a dedicated phone number for every user.
 
+Note: Shared Calling is currently available in public clouds only.
+
 Let's start with some definitions that you'll need to know for Shared Calling:
 
 | Term | Definition |
@@ -49,9 +51,7 @@ To set up Shared Calling, you need to perform the following steps. These steps a
 
 1. Assign a location to the resource account for emergency calling.
 
-1. Assign Pay-As-You-Go Calling Plan to resource account with Calling Plan service number.
-
-1. Assign and fund a Communication credits license.
+1. If you're using a resource account with Calling Plan service number, assign Pay-As-You-Go Calling Plan to the resource account. Communication Credits may  be required if your tenant doesn't have the New commerce experience calling subscriptions, or you don't want to post pay for calls.
 
 1. Create voice routing policy without PSTN usages.
 
@@ -61,7 +61,7 @@ To set up Shared Calling, you need to perform the following steps. These steps a
 
 1. Assign the Shared Calling policy to users.
 
-Currently, Shared Calling can only be configured with PowerShell. You must have Teams PowerShell Module version 5.5.0 or higher to use the new [TeamsSharedCallingRoutingPolicy](/powershell/module/teams/set-csteamssharedcallingroutingpolicy) cmdlets. You'll use these cmdlets to create and manage Shared Calling policies.
+Shared Calling can be configured with the Teams admin center and PowerShell. You must have Teams PowerShell Module version 5.5.0 or higher to use the new [TeamsSharedCallingRoutingPolicy](/powershell/module/teams/set-csteamssharedcallingroutingpolicy) cmdlets. You can use these cmdlets to create and manage Shared Calling policies.
 
 ## Related topics
 

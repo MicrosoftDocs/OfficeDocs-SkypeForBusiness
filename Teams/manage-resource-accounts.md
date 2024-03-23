@@ -1,8 +1,8 @@
 ---
 title: Manage resource accounts for service numbers
-author: DaniEASmith
-ms.author: danismith
-manager: serdars
+author: mkbond007
+ms.author: mabond
+manager: pamgreen
 ms.reviewer: roykuntz
 ms.date: 02/24/2023
 ms.topic: article
@@ -58,7 +58,7 @@ The application IDs that you need to use while creating the application instance
 - **Call Queue:** 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
 > [!NOTE]
-> If you want the Call queue or Auto attendant to be searchable by Skype For Business Server 2019 users, you should create your resource accounts on Skype For Business Server 2019, since online resource accounts are not synced down to Active Directory. When DNS SRV records for `sipfederationtls` resolve to Skype for Business Server 2019, then resource accounts **must** be created on Skype For Business Server 2019 using SfB Management shell and synchronized to Azure AD.
+> If you want the Call queue or Auto attendant to be searchable by Skype For Business Server 2019 users, you should create your resource accounts on Skype For Business Server 2019, since online resource accounts are not synced down to Active Directory. When DNS SRV records for `sipfederationtls` resolve to Skype for Business Server 2019, then resource accounts **must** be created on Skype For Business Server 2019 using SfB Management shell and synchronized to Microsoft Entra ID.
 
 For hybrid implementations with Skype for Business Server:
 
@@ -86,7 +86,7 @@ You may want to hide certain resources accounts from Teams users. For example, y
 
 ### Required subscriptions and permissions
 
-To access and use information barriers, your organization must have one of the following subscriptions or add ons:
+To access and use information barriers, your organization must have one of the following subscriptions or add-ons:
 
 - Microsoft 365 E5/A5 subscription (paid or trial version).
 - Office 365 E5/A5/A3/A1 subscription (paid or trial version).

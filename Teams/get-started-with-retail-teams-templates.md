@@ -2,7 +2,7 @@
 title: Use retail team templates
 author: lana-chin
 ms.author: v-chinlana
-manager: serdars
+manager: jtremper
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams

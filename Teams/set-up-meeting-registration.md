@@ -2,9 +2,9 @@
 title: Set up Meeting Registration in Microsoft Teams
 ms.author: wlibebe
 author: wlibebe
-manager: serdars
+manager: pamgreen
 ms.reviewer: justle, ritikag
-ms.date: 05/03/2023
+ms.date: 10/01/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,6 +25,8 @@ description: Learn how to set up and manage meeting registration policies in Tea
 ---
 
 # Manage registration for Microsoft Teams meetings
+
+**APPLIES TO:** ✔️Meetings ✖️Webinars ✖️Town halls
 
 [!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
@@ -127,13 +129,22 @@ For more information, on **Who can register** for education tenants, see [Teams 
 
 ## Related topics
 
-- [Teams policies reference - Meetings](settings-policies-reference.md#meetings)
-- [Meetings, webinars, and live events](quick-start-meetings-live-events.md)
-- [Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report)
-- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
-- [Set-CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy)
-- [Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report)
-- [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy)
-- [Grant-CsTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy)
-- [Get-CsTeamsMeetingPolicy](/powershell/module/skype/get-csteamsmeetingpolicy)
-- [Remove-CsTeamsMeetingPolicy](/powershell/module/skype/remove-csteamsmeetingpolicy)
+[Teams policies reference - Meetings](settings-policies-reference.md#meetings)
+
+[Meetings, webinars, and live events](quick-start-meetings-live-events.md)
+
+[Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report)
+
+[Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)
+
+[Set-CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy)
+
+[Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report)
+
+[New-CsTeamsMeetingPolicy](/powershell/module/teams/new-csteamsmeetingpolicy)
+
+[Grant-CsTeamsMeetingPolicy](/powershell/module/teams/grant-csteamsmeetingpolicy)
+
+[Get-CsTeamsMeetingPolicy](/powershell/module/teams/get-csteamsmeetingpolicy)
+
+[Remove-CsTeamsMeetingPolicy](/powershell/module/teams/remove-csteamsmeetingpolicy)

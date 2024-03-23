@@ -1,8 +1,8 @@
 ---
 title: Upgrade Skype for Business on-premises to Microsoft Teams
-author: MikePlumleyMSFT
-ms.author: mikeplum
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -90,11 +90,11 @@ When considering Public Switched Telephone Network (PSTN) connectivity options, 
 
 - If you have any users with Skype for Business accounts on-premises or if you still have a lyncdiscover DNS record for an on-premises deployment, you can't assign TeamsOnly mode at the tenant level. You must first move all users with on-premises Skype for Business accounts to the cloud using `Move-CsUser`. Then follow the steps described in [Disable hybrid to complete migration to the cloud](/skypeforbusiness/hybrid/cloud-consolidation-disabling-hybrid), which includes removal of DNS entries. `Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams` won't work at the tenant level if a lyncdiscover DNS record is detected that points to a location other than Office 365.
 
-- You must ensure your users are properly synchronized into Azure AD with the correct Skype for Business attributes. These attributes are all prefixes with "msRTCSIP-". If users are not synchronized properly to Azure AD, the management tools in Teams won't be able to manage these users. (For example, you won't be able to assign Teams policies to on-premises users unless you're properly syncing these attributes.) For more information, see [Configure Azure AD Connect for Teams and Skype for Business](/SkypeForBusiness/hybrid/configure-azure-ad-connect).
+- You must ensure your users are properly synchronized into Microsoft Entra ID with the correct Skype for Business attributes. These attributes are all prefixes with "msRTCSIP-". If users are not synchronized properly to Microsoft Entra ID, the management tools in Teams won't be able to manage these users. (For example, you won't be able to assign Teams policies to on-premises users unless you're properly syncing these attributes.) For more information, see [Configure Microsoft Entra Connect for Teams and Skype for Business](/SkypeForBusiness/hybrid/configure-azure-ad-connect).
 
 - To create a new TeamsOnly in a hybrid organization, *you must first enable the user in Skype for Business Server on-premises*, and then move the user from on-premises to the cloud using Move-CsUser.  Creating the user in on-premises first ensures that any other remaining on-premises Skype for Business users will be able route to the newly created user. Once *all* users have been moved online, it is no longer necessary to first enable users in on-premises.
 
-- If you would like display notifications in the Skype for Business client for on-premises users, you must use TeamsUpgradePolicy in the on-premises toolset. Only the NotifySfbUsers parameter is relevant for on-premises users.  On-premises users receive their mode from the online instances of TeamsUpgradePolicy. See the notes in [Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy).
+- If you would like display notifications in the Skype for Business client for on-premises users, you must use TeamsUpgradePolicy in the on-premises toolset. Only the NotifySfbUsers parameter is relevant for on-premises users.  On-premises users receive their mode from the online instances of TeamsUpgradePolicy. See the notes in [Grant-CsTeamsUpgradePolicy](/powershell/module/teams/grant-csteamsupgradepolicy).
 
 > [!NOTE]
 > Any new tenants created after Sept 3, 2019 are created as TeamsOnly tenants unless the organization already has an on-premises deployment of Skype for Business Server. Microsoft uses DNS records to identify on-premises Skype for Business Server organizations. For more information, see [DNS implications for on premises organizations that become hybrid](/SkypeForBusiness/hybrid/configure-hybrid-connectivity#dns-implications-for-on-premises-organizations-that-become-hybrid).
@@ -114,6 +114,6 @@ When considering Public Switched Telephone Network (PSTN) connectivity options, 
 
 [Setting your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 
-[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy)
+[Grant-CsTeamsUpgradePolicy](/powershell/module/teams/grant-csteamsupgradepolicy)
 
 [Using the Meeting Migration Service (MMS)](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)

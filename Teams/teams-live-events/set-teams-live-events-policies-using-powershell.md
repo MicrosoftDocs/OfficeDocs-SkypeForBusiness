@@ -1,12 +1,12 @@
 ---
 title: Use PowerShell to set live events policies
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
-ms.date: 07/10/2019
+ms.author: wlibebe
+author: wlibebe
+manager: pamgreen
+ms.date: 01/16/2024
 ms.topic: article
 ms.service: msteams
-ms.reviewer: 
+ms.reviewer: christi.balaki
 audience: admin
 search.appverid: MET150
 f1.keywords:
@@ -23,12 +23,15 @@ ms.custom: seo-marvel-mar2020
 
 # Use PowerShell to set live events policies in Microsoft Teams
 
+> [!NOTE]
+> Teams live events will be deprecated on September 30, 2024. We recommend that you use town halls instead. For details, see [Plan for Teams town halls](/microsoftteams/plan-town-halls).
+
 You can use the following Windows PowerShell cmdlets to set and assign policy settings for live events in Teams:
 
-- [Get-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/get-csteamsmeetingbroadcastpolicy)
-- [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy)
-- [New-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/new-csteamsmeetingbroadcastpolicy)
-- [Grant-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/grant-csteamsmeetingbroadcastpolicy)
+- [Get-CsTeamsMeetingBroadcastPolicy](/powershell/module/teams/get-csteamsmeetingbroadcastpolicy)
+- [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/teams/set-csteamsmeetingbroadcastpolicy)
+- [New-CsTeamsMeetingBroadcastPolicy](/powershell/module/teams/new-csteamsmeetingbroadcastpolicy)
+- [Grant-CsTeamsMeetingBroadcastPolicy](/powershell/module/teams/grant-csteamsmeetingbroadcastpolicy)
 - [New-CsGroupPolicyAssignment](/powershell/module/teams/new-csgrouppolicyassignment)
 
 Here are some examples.
@@ -181,5 +184,6 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription 
 
 ### Related topics
 
-- [Set up for Teams live events](set-up-for-teams-live-events.md)
-- [Teams PowerShell overview](../teams-powershell-overview.md)
+[Set up for Teams live events](set-up-for-teams-live-events.md)
+
+[Teams PowerShell overview](../teams-powershell-overview.md)

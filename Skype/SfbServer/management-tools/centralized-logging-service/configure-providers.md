@@ -20,9 +20,9 @@ description: "Summary: Learn how to configure scenario providers for the Central
  
 **Summary:** Learn how to configure scenario providers for the Centralized Logging Service in Skype for Business Server 2015.
   
-The concepts and configuration of providers in Centralized Logging Service is one of the most important to grasp. Theproviders map directly to Skype for Business Server server role components in the Skype for Business Server tracing model. The provider defines the components of a Skype for Business Server 2015 that will be traced, the type of messages (for example, fatal, error, or warning) to collect, and the flags (for example, TF_Connection or TF_Diag). Providers are the traceable components in each Skype for Business Server server role. By using providers, you define the level and type of tracing on components (for example, S4, SIPStack, IM and Presence). The defined provider is used in a scenario to group all of the providers for a given logical collection that address a specific problem condition.
+The concepts and configuration of providers in Centralized Logging Service is one of the most important to grasp. The providers map directly to Skype for Business Server server role components in the Skype for Business Server tracing model. The provider defines the components of a Skype for Business Server 2015 that is traced, the type of messages (for example, fatal, error, or warning) to collect, and the flags (for example, TF_Connection or TF_Diag). Providers are the traceable components in each Skype for Business Server server role. By using providers, you define the level and type of tracing on components (for example, S4, SIPStack, IM and Presence). The defined provider is used in a scenario to group all of the providers for a given logical collection that address a specific problem condition.
   
-To run the Centralized Logging Service functions using the Skype for Business Server Management Shell, you must be a member of either the CsAdministrator or the CsServerAdministrator role-based access control (RBAC) security groups, or a custom RBAC role that contains either of these two groups. To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Skype for Business Server Management Shell or the Windows PowerShell prompt:
+To run the Centralized Logging Service functions using the Skype for Business Server Management Shell, you must be a member of either the CsAdministrator or the CsServerAdministrator role-based access control (RBAC) security groups, or a custom RBAC role that contains either of these two groups. To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you are creating yourself), run the following command from the Skype for Business Server Management Shell or the Windows PowerShell prompt:
   
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
@@ -34,12 +34,12 @@ For example:
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
-The remainder of this topic focuses on how to define providers, modify a provider and what a provider definition contains to optimize your troubleshooting. There are two ways to issue Centralized Logging Service commands. You can use the CLSController.exe that is located, by default, in the directory C:\Program Files\Common Files\Skype for Business Server 2015\CLSAgent. Or, you can use the Skype for Business Server Management Shell to issue Windows PowerShell commands. By using Windows PowerShell, you can define new providers for use in your logging sessions, and have complete control over their creation, what they collect, and at what level they collect data.
+The remainder of this article focuses on how to define providers, modify a provider and what a provider definition contains to optimize your troubleshooting. There are two ways to issue Centralized Logging Service commands. You can use the CLSController.exe that is located, by default, in the directory C:\Program Files\Common Files\Skype for Business Server 2015\CLSAgent. Or, you can use the Skype for Business Server Management Shell to issue Windows PowerShell commands. By using Windows PowerShell, you can define new providers for use in your logging sessions, and have complete control over their creation, what they collect, and at what level they collect data.
   
 > [!IMPORTANT]
 > As mentioned, providers are very powerful. However, scenarios are more powerful because they contain the embodiment of all information needed to set and execute tracing on the components that the providers represent. With scenarios being a collection of providers, this could be loosely compared to running a batch file containing hundreds of commands to collect a lot of information versus issuing hundreds of commands, one at a time, at the command line. 
   
-Instead of requiring you to dig deeply into the details of providers, the Centralized Logging Service provides a number of scenarios that are already defined for you. The provided scenarios cover the vast majority of possible issues that you will encounter. In rare cases, you may need to create and define providers and assign them to scenarios. We strongly recommend that you become familiar with each of the scenarios provided before you investigate the need to create new providers and scenarios. While information about creating providers is found here to familiarize you with how the scenarios use the provider elements to collect trace information, details on the providers themselves are not provided at this time. 
+Instead of requiring you to dig deeply into the details of providers, the Centralized Logging Service provides many scenarios that are already defined for you. The provided scenarios cover most of the possible issues that you encounter. In rare cases, you might need to create and define providers and assign them to scenarios. We strongly recommend that you become familiar with each of the scenarios provided before you investigate the need to create new providers and scenarios. While information about creating providers is found here to familiarize you with how the scenarios use the provider elements to collect, trace information, details on the providers themselves aren't provided at this time. 
   
 Introduced in [Centralized Logging Service in Skype for Business 2015](centralized-logging-service.md), the key elements of defining a provider for use in a scenario are:
   
@@ -61,7 +61,7 @@ Introduced in [Centralized Logging Service in Skype for Business 2015](centraliz
     
   - **Debug** this is essentially an equivalent of 'All' - collects traces of type Fatal, Error, Warning, Info, Verbose and Debug for the defined provider.
     
-- **Flags** OCSLogger provided the option to choose flags for each provider that defined what type of information you could retrieve from the trace files. You can chose the following flags, based on the provider:
+- **Flags** OCSLogger provided the option to choose flags for each provider that defined what type of information you could retrieve from the trace files. You can choose the following flags, based on the provider:
     
   - **TF_Connection** Provides connection-related log entries. These logs include information about connections established to and from a particular component. This may also include significant network-level information (that is, for components without the concept of a connection).
     
@@ -138,7 +138,7 @@ Where $LyssProvider is the variable containing the defined scenario created with
    Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
    ```
 
-The end result of the command is that the scenario site:Redmond/RedmondLyssInfo will have updated flags and level for the provider assigned to it. You can view the new scenario by using Get-CsClsScenario. For details, see [Get-CsClsScenario](/powershell/module/skype/get-csclsscenario?view=skype-ps).
+The end result of the command is that the scenario site:Redmond/RedmondLyssInfo will have updated flags and level for the provider assigned to it. You can view the new scenario by using Get-CsClsScenario. For details, see [Get-CsClsScenario](/powershell/module/skype/get-csclsscenario?view=skype-ps&preserve-view=true).
 > [!CAUTION]
 > **New-ClsCsProvider** does not check to determine whether the flags are valid. Make sure that the spelling of the flags (for example, TF_DIAG or TF_CONNECTION) is spelled correctly. If the flags are not spelled correctly, the provider cannot return the expected log information.
   
@@ -149,6 +149,7 @@ Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Add=$ABSP
 ```
 
 Where each provider defined with the Add directive has already been defined using the **New-CsClsProvider** process.
+
 ### To remove a scenario provider
 
 1. Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.
@@ -179,14 +180,15 @@ Where each provider defined with the Add directive has already been defined usin
     > The cmdlet **Remove-CsClsScenario** does not prompt you for confirmation. The scenario is deleted, along with the providers that were assigned to it. You can recreate the scenario by re-running the commands used to create it initially. There is no procedure to recover removed scenarios or providers.
   
 When you remove a scenario by using the **Remove-CsClsScenario** cmdlet, you completely remove the scenario from the scope. To use the scenarios that you created and the providers that were a part of the scenario, you create new providers and assign them to a new scenario.
+
 ## See also
 
-[Get-CsClsScenario](/powershell/module/skype/get-csclsscenario?view=skype-ps)
+[Get-CsClsScenario](/powershell/module/skype/get-csclsscenario?view=skype-ps&preserve-view=true)
   
-[New-CsClsScenario](/powershell/module/skype/new-csclsscenario?view=skype-ps)
+[New-CsClsScenario](/powershell/module/skype/new-csclsscenario?view=skype-ps&preserve-view=true)
   
-[Remove-CsClsScenario](/powershell/module/skype/remove-csclsscenario?view=skype-ps)
+[Remove-CsClsScenario](/powershell/module/skype/remove-csclsscenario?view=skype-ps&preserve-view=true)
   
-[Set-CsClsScenario](/powershell/module/skype/set-csclsscenario?view=skype-ps)
+[Set-CsClsScenario](/powershell/module/skype/set-csclsscenario?view=skype-ps&preserve-view=true)
   
-[New-CsClsProvider](/powershell/module/skype/new-csclsprovider?view=skype-ps)
+[New-CsClsProvider](/powershell/module/skype/new-csclsprovider?view=skype-ps&preserve-view=true)

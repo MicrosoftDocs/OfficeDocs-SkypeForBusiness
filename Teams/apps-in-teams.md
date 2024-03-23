@@ -1,6 +1,5 @@
 ---
 title: Know about apps in Microsoft Teams
-ms.reviewer: 
 description: Learn about apps and decide what apps to allow in Teams based on your organization's profile and business requirements.
 ms.topic: conceptual
 author: ashishguptaiitb
@@ -9,7 +8,8 @@ manager: prkosh
 audience: admin
 ms.service: msteams
 ms.subservice: teams-apps
-ms.date: 06/27/2023
+ms.date: 03/18/2024
+ms.reviewer: mhayrapetyan
 ms.collection: 
   - M365-collaboration
   - tier2
@@ -30,13 +30,13 @@ Apps in Teams help users bring together their workplace tools and services and c
 * An app with bots functionality informing users of the quality of a web service in a Teams channel
 * An app to share and assign tasks to various users in a channel.
 
-Microsoft Teams apps are just like web-based SaaS apps that don't need to be deployed locally, work only in the scope that's allowed, and reads the specified organization data only after an admin's consent. Adding an app to Teams client by your users doesn't require any installation, say of a binary file.
+Microsoft Teams apps are just like web-based SaaS apps that don't need to be deployed locally, work only in the scope that's allowed, and reads the specified organization data only after an admin's consent. Adding an app to Teams client by your users doesn't require any installation, say of a binary file. This article helps you understand the types of apps and where from your users access those apps.
 
 As an admin, you set an app governance process that balances wide-ranging requirements of users along with your organization's IT policies, standards, and risk-profiles.
 
-Our extensive [catalog](https://appsource.microsoft.com/marketplace/apps?product=office%3Bteams&page=1) of validated and secure Teams apps provides users the tools and services that your organization needs every day. Teams admin center provides admins with enterprise-grade controls and configurations to govern these apps. You control the availability of apps for each user across the various contexts such as meeting, chats, and channels.
+## Types of Teams apps
 
-This article helps you understand the types of apps and where from your users access those apps.
+Our extensive [catalog](https://appsource.microsoft.com/marketplace/apps?product=office%3Bteams&page=1) of validated and secure Teams apps provides users the tools and services that your organization needs every day. Teams admin center provides admins with enterprise-grade controls and configurations to govern these apps. You control the availability of apps for each user across the various contexts such as meeting, chats, and channels.
 
 The different types of apps that your users can use in Teams are:
 
@@ -45,30 +45,28 @@ The different types of apps that your users can use in Teams are:
 * [Third-party apps](#third-party-apps-created-by-independent-app-developers) created by partners (validated by Microsoft).
 * [Custom apps](#custom-apps-created-within-an-organization-for-internal-use) created by your own organization.
 
-## Core apps
+> [!NOTE]
+> Adaptive Card tabs aren't supported in the [new Teams client](new-teams-desktop-admin.md). If your users use an app that uses Adaptive Card tabs, we recommend that you reach out to the app developer and request them to rebuild the [tab as a web-based tab](/microsoftteams/platform/tabs/what-are-tabs).
+
+### Core apps
 
 Some Teams functionalities such as activity feed, teams, chat, calendar, calls, files, and assignments (education tenants) are available by default and pinned by default for ease of access for users. For frontline workers, only activity, shifts, chat, and calling are available and pinned. As an admin, you can modify this default behavior using [setup policy](/microsoftteams/teams-app-setup-policies).
 
 :::image type="content" source="media/core-apps-pinned1.png" alt-text="Screenshot showing the core apps are the apps pinned in Teams by default." lightbox="media/core-apps-pinned2.png":::
 
-## Apps created by Microsoft
+### Apps created by Microsoft
 
-Microsoft provides many apps to improve productivity and collaboration. You and the users can find these apps by looking for Microsoft listed as the Publisher in Teams admin center or listed as Provider in the Teams store.
-
-> [!NOTE]
-> A known limitation in the Teams admin center is that you can only view and manage apps that are deployed in the same release channel as your tenant is. For example, if your tenant is in the general release channel then you can't manage apps that are deployed in the private or public preview channels. This isn't an issue for apps that are released to the general release channel.
-
-Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approvals, and more. We recommend that you include the featured apps—such as Planner—in your initial Teams rollout.
+Microsoft provides [these apps](#list-of-apps-created-by-microsoft) to improve productivity and collaboration. Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approvals, and more. We recommend that you include the featured apps—such as Planner—in your initial Teams rollout.
 
 :::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Screenshot showing a list of Microsoft apps in Teams admin center." lightbox="media/microsoft-apps-in-tac2.png":::
 
-## Third-party apps created by independent app developers
+### Third-party apps created by independent app developers
 
 In addition to Microsoft-provided apps, you can use third-party apps. Microsoft rigorously validates the functionality and security of all of these apps. Elaborate manual and automated tests are executed before making these apps available in Teams store and many tests continue at a regular cadence even after an app is published live. To understand the benefits of app validation, see [validation of third-party apps](overview-of-app-validation.md). Some of the apps subscribe to the [Microsoft compliance program](overview-of-app-certification.md) to undergo multiple tiers of further checks beyond validation. See an [Overview of third-party apps](overview-third-party-apps.md).
 
 :::image type="content" source="media/3p-apps-in-teams.png" alt-text="Screenshot of an example of third-party apps in the Teams store.":::
 
-## Custom apps created within an organization for internal use
+### Custom apps created within an organization for internal use
 
 Apps created by developers in your organization are called custom apps (or Line of Business apps). Your organization may commission the creation of custom apps for org-specific requirements. You have the control to allow or block such apps for entire organization or for specific users. Developers in your organization can build custom low-code solutions by using Teams integration with [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions).
 
@@ -109,7 +107,7 @@ A user can add and use an app only when an admin allows the app and the app is m
 
 App developers can enhance their Microsoft Teams apps to work in Outlook and in Microsoft 365 App (formerly known as Office.com). Developers can create such apps either as a third-party app available on the Store or a custom app created for a specific organization. The users can then use the same app in Teams, in Microsoft Outlook and Microsoft 365 App.
 
-To know more about governing such apps, see [Integrated apps in Microsoft 365 admin center](/microsoft-365/admin/manage/test-and-deploy-microsoft-365-apps?view=o365-worldwide).
+To know more about governing such apps, see [Integrated apps in Microsoft 365 admin center](/microsoft-365/admin/manage/test-and-deploy-microsoft-365-apps?view=o365-worldwide&preserve-view=true).
 
 ## Understand app capabilities
 
@@ -134,6 +132,76 @@ To provide a rich experience that allows users to work inside Teams, apps contai
 * **Activity feeds**: Activity Feed in Teams contains a notification of all the activity in various scopes like channels and chats. Apps can broadcast a message to all the members of say a team or a channel to notify of any updates. Users can customize what notifications they view.
 
 To view common use cases mapped to Teams capabilities, see [Map your use cases to Teams app capabilities](/microsoftteams/platform/concepts/design/map-use-cases).
+
+## List of apps created by Microsoft
+
+The following apps are provided by Microsoft and are generally available:
+
+* Admin
+* Approvals
+* Avatars
+* Azure AD Notifications
+* Azure Boards
+* Azure DevOps
+* Azure DevOps Server
+* Azure Lab Services
+* Azure Pipelines
+* Azure Repos
+* Bing News
+* Bookings
+* Bulletins
+* Channel calendar
+* Data Activator
+* Dataverse Chat Sync
+* Defender Experts
+* Developer Portal
+* Dynamics 365
+* Employee ideas
+* Forms
+* Games for Work
+* Images
+* Inspection
+* Issue reporting
+* Lists
+* M365 Chat
+* Mesh
+* Power Virtual Agents
+* Milestones
+* News
+* OneNote
+* Outgoing Webhook
+* Payments (preview)
+* Places
+* Polls
+* Power Apps
+* Power Automate Actions
+* Power BI
+* Praise
+* Project
+* PTZ Camera Controls
+* Roadmap – Microsoft Project
+* Sales Copilot
+* SharePoint
+* SharePoint News
+* SharePoint Pages
+* Shifts
+* Stocks
+* Tasks by Planner and To Do
+* Viva Topics
+* Updates
+* Virtual Appointments
+* Visio
+* Viva Connections
+* Viva Engage
+* Viva Goals
+* Viva Insights
+* Viva Learning
+* Viva Pulse
+* Weather
+* Website
+* Whiteboard
+* Wikipedia Search
+* Workflows
 
 ## Related articles
 

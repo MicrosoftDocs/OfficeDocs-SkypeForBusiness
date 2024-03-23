@@ -1,8 +1,8 @@
 ---
 title: Admin - authentication requirements and functionality of the Teams Meeting add-in in Outlook
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: wlibebe
+author: wlibebe
+manager: pamgreen
 audience: Admin
 ms.topic: article
 ms.service: msteams

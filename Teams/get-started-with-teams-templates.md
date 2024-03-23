@@ -1,8 +1,8 @@
 ---
 title: Get started with team templates using Microsoft Graph
-author: lana-chin
-ms.author: v-chinlana
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
@@ -12,7 +12,6 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
-  - m365-frontline
   - tier2
   - highpri
 description: Learn about the team templates that are available only with Microsoft Graph. 
@@ -33,18 +32,18 @@ appliesto:
 
 A team template in Microsoft Teams is a definition of a team's structure designed around a business need or project. With team templates, you can quickly and easily create rich collaboration spaces with predefined settings, channels, and apps. Team templates can help you to deploy consistent teams across your organization.
 
-With Microsoft Graph, you can [create your own templates](/graph/api/resources/teamtemplate?view=graph-rest-beta&preserve-view=true) or use the pre-built team templates that are included with Teams to create teams. In this article, you'll learn about the properties that can be defined in templates and the pre-built templates that are available only with Microsoft Graph.
+With Microsoft Graph, you can [create your own templates](/graph/api/resources/teamtemplate?view=graph-rest-beta&preserve-view=true) or use the prebuilt team templates that are included with Teams to create teams. In this article, you'll learn about the properties that can be defined in templates and the prebuilt templates that are available only with Microsoft Graph.
 
 This article is for you if you're:
 
-- Responsible for planning, deploying, and managing multiple teams across your organization<br>
+- Responsible for planning, deploying, and managing multiple teams across your organization
 - A developer wanting to programmatically create a team with predefined channels and apps
 
 ## Team template capabilities
 
 Most properties in a team are included and supported by templates. But there are a few properties and features that aren't currently supported. Here's a quick summary of what's included and what's not included in team templates.
 
-| **Team properties supported by team templates** | **Team properties not yet supported by team templates** |
+| Team properties supported by team templates | Team properties not yet supported by team templates |
 | ------------------------------------------------ | -------------------------------------------------------- |
 | Template type | Team membership |
 | Team name | Team picture |
@@ -58,14 +57,14 @@ Most properties in a team are included and supported by templates. But there are
 > [!NOTE]
 > We'll be adding more template capabilities in future releases of Microsoft Teams, so check back for the most up-to-date information on supported properties.
 
-## Pre-built templates
+## Prebuilt templates
 
-Pre-built team templates are templates that we created for specific industries. Here's the pre-built templates that are available only with Microsoft Graph.
+Prebuilt team templates are templates that we created for specific industries. Here's the prebuilt templates that are available only with Microsoft Graph.
 
 | Template type | TemplateId | Properties that come with this template |
 | ------------------ | -------------- | ----------------------------------------------------- |
 | Standard | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('standard')` | No additional apps and properties |
-| Education -<br>Class Team | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationClass')` | Apps:<ul><li>OneNote Class Notebook (pinned to the **General** tab) </li><li>Assignments app (pinned to the **General** tab)</li></ul> Team properties:<ul><li>Team visibility set to **HiddenMembership** (cannot be overridden)</li></ul> |
+| Education -<br>Class Team | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationClass')` | Apps:<ul><li>OneNote Class Notebook (pinned to the **General** tab) </li><li>Assignments app (pinned to the **General** tab)</li></ul> Team properties:<ul><li>Team visibility set to **HiddenMembership** (can't be overridden)</li></ul> |
 | Education -<br>Staff Team | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationStaff')` | Apps:<ul><li>OneNote Staff Notebook (pinned to the **General** tab)</li></ul> |
 |Education -<br>PLC team |`https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Apps:<ul><li>OneNote PLC Notebook (pinned to the **General** tab)</ul></li>|
 
@@ -76,4 +75,4 @@ Pre-built team templates are templates that we created for specific industries. 
 
 - [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md)
 - [Create a team](/graph/api/team-post?view=graph-rest-beta&preserve-view=true) (in preview)
-- [New-Team](/powershell/module/teams/New-Team?view=teams-ps&preserve-view=true)
+- [New-Team](/powershell/module/teams/New-Team)

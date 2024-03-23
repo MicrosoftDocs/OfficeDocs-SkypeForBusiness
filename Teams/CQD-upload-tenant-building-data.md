@@ -1,8 +1,8 @@
 ---
 title: Upload tenant and building data in Call Quality Dashboard (CQD)
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
+author: mkbond007
+ms.author: mabond
+manager: pamgreen
 ms.reviewer: mikedav, siunies, gageames
 ms.date: 06/02/2020
 ms.topic: article

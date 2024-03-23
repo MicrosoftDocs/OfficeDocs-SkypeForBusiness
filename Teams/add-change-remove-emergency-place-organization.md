@@ -2,7 +2,7 @@
 title: Add places to emergency locations
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: jastark, roykuntz
 ms.date: 06/26/2023
 ms.topic: article
@@ -45,7 +45,7 @@ You can manage emergency locations for your organization in the Microsoft Teams 
 
 ### Using PowerShell
 
-See [New-CsOnlineLisLocation](/powershell/module/skype/new-csonlinelislocation).
+See [New-CsOnlineLisLocation](/powershell/module/teams/new-csonlinelislocation).
 
 ## Change a place for an emergency location
 
@@ -58,7 +58,7 @@ See [New-CsOnlineLisLocation](/powershell/module/skype/new-csonlinelislocation).
 
 ### Using PowerShell
 
-See [Set-CsOnlineLisLocation](/powershell/module/skype/set-csonlinelislocation). If you need to update the Emergency Location Identification Number (ELIN), don't set the ELIN attribute to an empty or null string - otherwise, you will receive an error.
+See [Set-CsOnlineLisLocation](/powershell/module/teams/set-csonlinelislocation). If you need to update the Emergency Location Identification Number (ELIN), don't set the ELIN attribute to an empty or null string - otherwise, you will receive an error.
 
 ## Remove a place from an emergency location
 
@@ -70,7 +70,7 @@ See [Set-CsOnlineLisLocation](/powershell/module/skype/set-csonlinelislocation).
 
 ### Using PowerShell
 
-See [Remove-CsOnlineLisLocation](/powershell/module/skype/remove-csonlinelislocation).
+See [Remove-CsOnlineLisLocation](/powershell/module/teams/remove-csonlinelislocation).
 
 ## Assign a place to your users
 

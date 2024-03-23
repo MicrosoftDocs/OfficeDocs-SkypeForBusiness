@@ -1,19 +1,21 @@
 ---
 title: How to make Teams push notifications work in your Xiaomi phone?
-ms.author: v-smandalika
-author: v-smandalika
-manager: dansimp
-ms.reviewer: 
+author: mstonysmith
+ms.author: tonysmit
+manager: pamgreen
+ms.reviewer: divank
+ms.topic: article
 ms.service: msteams
+ms.subservice: itpro-devices
 audience: Admin
 appliesto: 
   - Microsoft Teams
-f1.keywords: 
-  - NOCSH
 ms.collection: 
   - teams-rooms-devices
   - Teams_ITAdmin_Devices
-ms.topic: reference
+  - Tier1
+f1.keywords: 
+  - NOCSH
 search.appverid: MET150
 description: This article provides guidance on how to enable push notifications in your Xiaomi Android phones.
 ---

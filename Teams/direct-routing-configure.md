@@ -1,10 +1,10 @@
 ---
 title: "Configure Direct Routing"
 ms.reviewer: filippse
-ms.date: 04/30/2018
+ms.date: 10/09/2023
 ms.author: crowe
 author: CarolynRowe
-manager: serdars
+manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: msteams
@@ -27,16 +27,16 @@ ms.custom: seo-marvel-apr2020
 
 # Configure Direct Routing
 
-Direct Routing enables you to connect your on-premises telephony infrastructure to Microsoft Teams. The article lists the high-level steps required for connecting a supported on-premises Session Border Controller (SBC) to Direct Routing, and how to configure Teams users to use Direct Routing to connect to the Public Switched Telephone Network (PSTN). This article links to associated articles for details.  
+Direct Routing enables you to connect your on-premises telephony infrastructure to Microsoft Teams Phone. This article lists the high-level steps required for connecting a supported on-premises Session Border Controller (SBC) to Direct Routing, and how to configure Teams users to use Direct Routing to connect to the Public Switched Telephone Network (PSTN). This article links to associated articles for details.  
 
 For information about whether Direct Routing is the right solution for your organization, see [PSTN connectivity options](pstn-connectivity.md). For information about prerequisites and planning your deployment, see [Plan Direct Routing](direct-routing-plan.md).
 
-To complete the steps explained in this article, administrators need some familiarity with PowerShell cmdlets. For more information about using PowerShell, see [Set up your computer for Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
+To complete the steps explained in this article, administrators need some familiarity with PowerShell cmdlets. For more information about using PowerShell, see [Set up your computer for Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
 Before you perform the steps in these articles, Microsoft recommends that you confirm that your SBC has already been configured as recommended by your SBC vendor:
 
 - [AudioCodes deployment documentation](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
-- [Oracle deployment documentation](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
+- [Oracle deployment documentation](https://www.oracle.com/communications/partner-microsoft/)
 - [Ribbon Communications deployment documentation](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
 - [TE-Systems (anynode) deployment documentation](https://www.anynode.de/anynode-and-microsoft-teams/)
 - [Metaswitch deployment documentation](https://www.metaswitch.com/products/core-network/perimeta-sbc)
@@ -54,7 +54,7 @@ If you're configuring an SBC for multiple tenants, you'll also want to read [Con
 
 ## Support Boundaries
 
-Microsoft only supports Teams Phone with Direct Routing when used with certified devices. If there are issues, you must contact your SBC vendor's customer support first. If needed, the SBC vendor will escalate the issue to Microsoft via internal channels. Microsoft reserves the right to reject support cases where a noncertified device is connected to Teams Phone through Direct Routing. If Microsoft determines that a customer's Direct Routing issue is with a vendor's SBC device, the customer will need to re-engage the SBC vendor for support.
+Microsoft only supports Teams Phone with Direct Routing when used with certified devices. If there are issues, you must contact your SBC vendor's customer support first. If needed, the SBC vendor will escalate the issue to Microsoft through internal channels. Microsoft reserves the right to reject support cases where a noncertified device is connected to Teams Phone through Direct Routing. If Microsoft determines that a customer's Direct Routing issue is with a vendor's SBC device, the customer will need to re-engage the SBC vendor for support.
 
 ## Related topics
 

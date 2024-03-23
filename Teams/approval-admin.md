@@ -1,8 +1,8 @@
 ---
 title: Manage the Approvals app in Microsoft Teams
-author: lana-chin
-ms.author: v-chinlana
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.reviewer: corod
 ms.date: 05/11/2023
 ms.topic: how-to
@@ -37,7 +37,7 @@ Users can pin the Approvals app to save it to the menu bar.
 
  ![shows the approvals app with the pin option.](media/approvalApp-pin.png)
 
-The first approval created from the Approvals app will trigger the provisioning of the Approval Solution in the default Microsoft Dataverse environment. Approvals created from the Approvals app are stored in the default Microsoft Dataverse environment.
+The first approval created from the Approvals app triggers the provisioning of the Approval solution in the default Microsoft Dataverse environment. Approvals created from the Approvals app are stored in the default Microsoft Dataverse environment.
 
 This article describes the Approvals app requirements and roles.
 
@@ -73,6 +73,8 @@ Approvals that are created from a template still store data in Microsoft Dataver
 
 Org-scoped templates share the same lifetime of the tenant and team-scoped templates share the same lifetime of the team. So, permanently deleting the team deletes the related templates.
 
+Viva Amplify approvals don't interact with Forms. Approvals store their data in Dataverse tables in Power Platform.
+
 ## Approvals Teams app permissions
 
 The Approvals Teams app lets you access the following features:
@@ -100,10 +102,10 @@ Approval Template Permissions
 
 - All team owners can create an approval template for teams that they own.
 
-- When an admin creates a template for their entire organization for the first time, it will automatically create a new Azure Active Directory (AAD) group for all admins of the tenant, including the global and Teams service admins. These admins are added as owners of the group, so they can co-manage organizational templates. Admins that are new to the organization after the team has been created need to be manually added as group owners so they have the same permissions to manage organization-wide templates.
+- When an admin creates a template for their entire organization for the first time, it will automatically create a new Microsoft Entra group for all admins of the tenant, including the global and Teams service admins. These admins are added as owners of the group, so they can co-manage organizational templates. Admins that are new to the organization after the team has been created need to be manually added as group owners so they have the same permissions to manage organization-wide templates.
 
-> [!Note]
-> If an admin deletes the group, you have one month to restore it within the Azure Active Directory (AAD) portal to restore all related data. After one month, or if the admin deletes this group within the recycle bin, you will lose all related data.
+> [!NOTE]
+> If an admin deletes the group, you have one month to restore it within the Microsoft Entra admin center to restore all related data. After one month, or if the admin deletes this group within the recycle bin, you will lose all related data.
 
 ## Disable the Approvals app
 
@@ -127,7 +129,7 @@ The Approvals app is available by default. You can disable the app in the Teams 
 
 ### Use the Tailored frontline app experience to pin Approvals and other apps to Teams
 
-The tailored frontline app experience in Teams pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Pinned apps include Approvals, Walkie Talkie, Tasks, and Shifts. By default, this feature is on, giving your frontline workers an out-of-the-box experience that's tailored to their needs.
+The tailored frontline app experience in Teams pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Pinned apps include Approvals, Walkie Talkie, Tasks, and Shifts. By default, this feature is on, giving your frontline workers an out-of-the-box experience tailored to their needs.
 
 The apps are pinned to the app bar—the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients—where users can quickly and easily access them.
 
@@ -143,14 +145,13 @@ To pin the Approvals app for your users, you can edit the global (Org-wide defau
 
 Approvals created from the Approvals app are stored in the default Microsoft Dataverse environment, which doesn't support backups at this time. Learn more about how to [Back up and restore environments - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
 
-Admins can set custom retention policies for data stored within Dataverse tables. To learn more, see 
-[Dataverse long term data retention overview (preview)](/power-apps/maker/data-platform/data-retention-overview).
+Admins can set custom retention policies for data stored within Dataverse tables. To learn more, see [Dataverse long term data retention overview (preview)](/power-apps/maker/data-platform/data-retention-overview).
 
 Data stored in Forms won't be deleted until the team owners clean it up from the **deleted forms** tab in the Microsoft Forms web app.
 
 ## Conditional Access policies
 
-Approvals supports [Continuous Access Evaluation (CAE)](/azure/active-directory/conditional-access/concept-continuous-access-evaluation). With CAE, you can set up any conditional access policy to restrict any user, app, or service from accessing some resources. Once the policy is set, AAD will reject when the selected entity requests tokens of that particular resource.
+Approvals supports [Continuous Access Evaluation (CAE)](/azure/active-directory/conditional-access/concept-continuous-access-evaluation). With CAE, you can set up any conditional access policy to restrict any user, app, or service from accessing some resources. Once the policy is set, Microsoft Entra ID will reject when the selected entity requests tokens of that particular resource.
 
 ## Data limitations
 
@@ -228,6 +229,22 @@ You can use the Teams admin center to control which third-party e-signature prov
 4. Select **Submit**.
 
 E-signature approvals created from the Approvals app are stored in the selected provider's cloud environment. To export data about e-signatures, you'll need to go to the provider's site. For more information about storage, export, and retention of e-signature agreements, see the provider's documentation.
+
+## Approvals - Parent App integration
+
+Teachers and admins using Teams for education can use the [Parent App](https://aka.ms/parentapp) to update the contact information for class students’ parents.
+
+Admins can use the approvals app to view and approve or reject the request raised by schoolteachers to update the parent contact information accordingly. Once the admin approves this request, the new contact details will reflect in the parent app and allow teachers to communicate with the parent.
+
+### Frequently Asked Questions
+
+#### Question: How does the teacher track the status of the approval request?
+
+The teacher should navigate to the Approvals app within Teams. Select **Sent** > **Filter** and search for the title **Approval request to update Parent/Guardian details**. This allows a view of all sent requests for parent information updates.
+
+#### Question: How long does it take for new contact details to reflect in the Parent App?
+
+Once the admin has approved the request, new contact details should be available after 60 minutes.
 
 ## Give feedback or report an issue
   

@@ -1,8 +1,8 @@
 ---
 title: Manage channel policies in Microsoft Teams
-author: MikePlumleyMSFT
-ms.author: mikeplum
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.reviewer: jastark
 ms.date: 06/26/2019
 ms.topic: article
@@ -78,4 +78,4 @@ You can edit the global policy or any custom policies that you create.
 
 [Assign policies to your users in Teams](policy-assignment-overview.md)
 
-[New-CsTeamsChannelsPolicy](/powershell/module/skype/new-csteamschannelspolicy)
+[New-CsTeamsChannelsPolicy](/powershell/module/teams/new-csteamschannelspolicy)

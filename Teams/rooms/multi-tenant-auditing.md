@@ -1,21 +1,20 @@
 ---
 title: Audit logging in the MTR Pro Portal
-author: altsou
-ms.author: altsou
-manager: serdars
+author: mstonysmith
+ms.author: tonysmit
+manager: pamgreen
 ms.reviewer: altsou
 ms.date: 11/30/2021
 ms.topic: article
-ms.tgt.pltfrm: cloud
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-audience: Admin
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
-  - Tier3
-appliesto: 
-  - Microsoft Teams
+  - Tier1
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Audit logging for the MTR Pro Portal.

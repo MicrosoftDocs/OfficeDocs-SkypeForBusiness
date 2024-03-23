@@ -1,8 +1,8 @@
 ---
 title: Manage Teams with policies
-author: mkbond007
-ms.author: mabond
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: 
@@ -15,6 +15,7 @@ appliesto:
   - Microsoft Teams
 ms.collection: 
   - M365-collaboration
+  - essentials-manage
 ---
 
 # Manage Teams with policies

@@ -1,8 +1,8 @@
 ---
 title: Assignments for Teams
-author: DaniEASmith
-ms.author: danismith
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jacktremper
 ms.topic: article
 ms.service: msteams
 audience: admin

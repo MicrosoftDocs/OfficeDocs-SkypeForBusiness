@@ -1,8 +1,8 @@
 ---
 title: "Country/region availability - Audio Conferencing, Calling Plans"
-ms.author: heidip
-author: MicrosoftHeidi
-manager: serdars
+ms.author: crowe
+author: CarolynRowe
+manager: pamgreen
 ms.reviewer: mikedav, jastark, oscarr
 ms.date: 11/29/2017
 ms.topic: reference
@@ -99,7 +99,7 @@ You can select a country or region to see what cloud voice features are availabl
 > - [Latvia](/microsoftteams/phone-reference/plan-availability/availability-in-latvia)
 > - [Lithuania](/microsoftteams/phone-reference/plan-availability/availability-in-lithuania)
 > - [Luxembourg](/microsoftteams/phone-reference/plan-availability/availability-in-luxembourg)
-> - [Macedonia](/microsoftteams/phone-reference/plan-availability/availability-in-macedonia)
+> - [North Macedonia](/microsoftteams/phone-reference/plan-availability/availability-in-macedonia)
 > - [Malaysia](/microsoftteams/phone-reference/plan-availability/availability-in-malaysia)
 > - [Malta](/microsoftteams/phone-reference/plan-availability/availability-in-malta)
 > - [Mexico](/microsoftteams/phone-reference/plan-availability/availability-in-mexico)
@@ -140,7 +140,7 @@ You can select a country or region to see what cloud voice features are availabl
 > - [Thailand](/microsoftteams/phone-reference/plan-availability/availability-in-thailand)
 > - [Trinidad and Tobago](/microsoftteams/phone-reference/plan-availability/availability-in-trinidad-and-tobago)
 > - [Tunisia](/microsoftteams/phone-reference/plan-availability/availability-in-tunisia)
-> - [Turkey](/microsoftteams/phone-reference/plan-availability/availability-in-turkey)
+> - [Türkiye](/microsoftteams/phone-reference/plan-availability/availability-in-turkey)
 > - [Turks and Caicos Islands](/microsoftteams/phone-reference/plan-availability/availability-in-turks-and-caicos-islands)
 > - [Uganda](/microsoftteams/phone-reference/plan-availability/availability-in-uganda)
 > - [Ukraine](/microsoftteams/phone-reference/plan-availability/availability-in-the-ukraine)
