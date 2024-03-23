@@ -140,6 +140,9 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Current certification end date | Room size | Android OS version |
 |:-|:-|:-|:-|:-|
+| Cisco Room Kit EQX | `RoomOS11.15` | September 3, 2025 |  Large Meeting Room (4.5m x 8.5 m)| 11 |
+| Cisco Board Pro G2 55 | `RoomOS11.15` | September 3, 2025 |  Medium size room (4.5 m x 6 m) | 11 |
+| Cisco Board Pro G2 75 | `RoomOS11.15` | September 3, 2025 |  Medium size room (4.5 m x 6 m) | 11 |
 | AudioCodes RXV200 | `2.2.335` | September 3, 2025 |  Focus room(3 m x 3 m) | 10 |
 | Audiocodes RXPad Touch console | `2.0.282` | October 4, 2026 | Compatible with Audiocodes RXV81 and RXV200 Collaboration bars. | 12 |
 | Audiocodes RXV81 Collaboration Bar | `2.0.0` | October 4, 2026 | Small meeting room (4.5 m x 4.5 m) | 12 |
@@ -257,6 +260,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Nureva HDL310](https://www.nureva.com/audio-conferencing/hdl310) | 1.5.0.0 |  |  |
 | [Nureva HDL410](https://www.nureva.com/audio-conferencing/hdl410) | 1.5.243554 |  |  |
 | [Panasonic 360 degree camera speakerphone PressIT360](https://panasonic.net/cns/prodisplays/products/ty-csp1/) | 0.0.7904.54 |  |  |
+| [Pansonic AW-UE4 camera](https://pro-av.panasonic.net/products/aw-ue4/) | 02.03 |  |  |
 | [Poly Eagle Eye Cube Camera](https://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.html) | 1.2.0 |  |  |
 | [Polycom EagleEye IV](https://www.poly.com/us/en/products/video-conferencing/eagleeye/eagleeye-iv) | 1.0.0 |  |  |
 | [Polycom CX5100](https://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.md) | 1.2.0.70232 |  |  |
