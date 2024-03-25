@@ -6,7 +6,7 @@ manager: jtremper
 audience: admin
 ms.topic: article
 ms.service: microsoft-365-frontline
-ms.reviewer: prastogi
+ms.reviewer: prkoduku
 ms.date: 10/13/2023
 f1.keywords:
 - NOCSH
