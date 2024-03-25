@@ -50,7 +50,6 @@ The main page (Call Count Summary) immediately provides the number of audio, vid
   ![Screenshot of Daily Call Count by Media Type for the past 30 days drilldown in Teams Usage Reports.](media/CQD-teams-utilization-report4.png)
 
 On the bottom left section of the page, you'll find a table providing total values for each media type over the past year. 
-
     ![Screenshot of table drill through providing total values for each media type over the past year in Teams Usage Reports.](media/CQD-teams-utilization-report5.png)
     ![Screenshot of table providing total values for each media type over the past year in Teams Usage Reports.](media/CQD-teams-utilization-report6.png)   
 
@@ -109,7 +108,6 @@ Select the column for that day to display metrics for that hour.
 ![Screenshot of Hourly Trend by Media Type in Teams Usage Reports.](media/CQD-teams-utilization-report14.png)
   
   1.  The table below the chart will display the metrics for that hour. This can be sorted by any column header; however, we would be interested in finding problematic areas.
-
     ![Screenshot of Hourly Trend by Media Type metrics in Teams Usage Reports.](media/CQD-teams-utilization-report15.png)
     
   1.  We see that the IND region is experiencing poor video performance in conferences during this time frame. After, the CQD QER Microsoft reports can be used to narrow down the problematic location as the region and time frame has been identified.
