@@ -3,7 +3,7 @@ title: Shifts data FAQ
 author: lana-chin
 ms.author: v-chinlana
 manager: jtremper
-ms.date: 
+ms.date: 03/25/2024
 ms.topic: conceptual
 ms.reviewer: imarquesgil
 audience: admin
@@ -24,6 +24,7 @@ ms.collection:
   - highpri
 appliesto: 
   - Microsoft Teams
+  - Microsoft 365 for frontline workers
 ms.custom: seo-marvel-mar2020
 ---
 
@@ -100,8 +101,6 @@ We don't store immutable copies of Shifts data. For example, a frontline manager
 #### Editing Shifts data
 
 Generally, Shifts data can be edited at any point in time. For example, a frontline manager can always edit the details of a shift assigned to a worker, such as notes, unpaid break, and hours. However, shift requests can't be edited.
-
-To learn more about edit operations in Shifts, see [Teams Shifts activities](/purview/audit-log-activities#microsoft-teams-shifts-activities).
 
 #### Permanent deletion of Shifts data
 
