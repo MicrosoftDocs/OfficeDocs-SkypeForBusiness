@@ -38,15 +38,12 @@ The main page (Call Count Summary) immediately provides the number of audio, vid
 ![Screenshot of Call Count Summary report in Teams Usage Reports.](media/CQD-teams-utilization-report1.png)
 
 1. To the right of the slicer dropdowns, the number of calls by media type is broken down to an internal/external view over the past 30 days. We can see through the above screenshot that there are more calls happening from outside organizational locations.
-
   ![Screenshot of Monthly Call Count by Media Type for the last 90 days in Teams Usage Reports.](media/CQD-teams-utilization-report2.png)
 
 1. To the right of the media type count box, we have the Monthly Call Count by Media Type for the last 90 days. You can display the count for a previous month or the current month to date, providing usage trend information.
-
   ![Screenshot of Daily Call Count by Media Type for the past 30 days in Teams Usage Reports.](media/CQD-teams-utilization-report3.png)
 
 1. The middle graph functions as the 90-day graph does, however it provides a daily usage view for the past 30 days and allows a user to select and drill down into details for a specific day.
-
   ![Screenshot of Daily Call Count by Media Type for the past 30 days drilldown in Teams Usage Reports.](media/CQD-teams-utilization-report4.png)
 
 On the bottom left section of the page, you'll find a table providing total values for each media type over the past year. 
@@ -102,7 +99,6 @@ The bottom table provides a range of metrics for the day. Poor percentages along
 
 This data can be used to identify regions having problems during peak consumption times.
 
-
 Select the column for that day to display metrics for that hour.
 
 ![Screenshot of Hourly Trend by Media Type in Teams Usage Reports.](media/CQD-teams-utilization-report14.png)
@@ -132,15 +128,12 @@ We can see the participants in the conference and all the pertinent information 
 The Regional Audio Details drill down specifically shows the audio minute usage for the selected region. Users with access to CQD can see usage trends for both P2P and conference audio within the selected region.
 
 1.  On the Call Count Summary page, drill-through to as specific region through the table.
-
   ![Screenshot of Call Count Summary report drill-through in Teams Usage Reports.](media/CQD-teams-utilization-report16.png)
 
 1.  Select the row with the region additional information is needed for.
-
   ![Screenshot of region details in Call Count Summary report in Teams Usage Reports.](media/CQD-teams-utilization-report17.png)
 
 1.  The data trends show a significant number of minutes being used on the internal network, with conferencing far surpassing P2P use.
-
   ![Screenshot of data trends in Call Count Summary report in Teams Usage Reports.](media/CQD-teams-utilization-report18.png)
 
 The regional audio trend can be used to show how users are impacted by external influences in the world. Specifically, right now, we would expect to see the external usage for the EMEA and APAC regions to increase with people being asked to work remotely.
