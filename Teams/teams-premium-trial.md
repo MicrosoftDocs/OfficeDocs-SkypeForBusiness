@@ -1,7 +1,7 @@
 ---
 title: Roll out a Teams Premium trial
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
@@ -32,6 +32,8 @@ The following are the basic steps involved in a trial:
 1. **Add the trial to your tenant** - including assigning licenses
 1. **Administrative setup** - including creating meeting templates, uploading logos and backgrounds, and assigning policies to users. If your organization uses sensitivity labels, this also includes creating meeting sensitivity labels in Microsoft Purview.
 1. **Start the trial** - including notifying the trial participants to begin testing the use cases you defined and providing feedback to stakeholders
+
+To better assist with planning for your Teams Premium trial, you can download the [Teams Premium Trial Guide](https://adoption.microsoft.com/files/microsoft-teams/teams-premium-trial-guide.pdf) from Microsoft Adoption and watch [Running a Successful Teams Premium Trial on YouTube](https://www.youtube.com/watch?v=b7z3re0GPd4).
 
 This article covers pre-trial planning and how to add the trial to your tenant and assign licenses. Specific steps for administrators to set up features for the trial are covered in other Teams Premium articles which we link to in the sections below.
 
@@ -187,6 +189,7 @@ Once the administrative setup is complete, notify your trial participants that t
 The Teams Premium trial is added from the Microsoft 365 admin center.
 
 To add the Teams Premium trial to Microsoft 365
+
 1. In the Microsoft 365 admin center, expand **Billing**, and then select **Purchase services**.
 1. Search for *Teams Premium*.
 1. Under **Microsoft Teams Premium Introductory Pricing**, select **Details**.
