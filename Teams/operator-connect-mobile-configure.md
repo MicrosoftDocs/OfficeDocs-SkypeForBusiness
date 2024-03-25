@@ -133,6 +133,8 @@ To manage a user's incoming calling policies by using the Teams admin center:
 
    - **Native Dialer** to ring the Native Dialer on the SIM-enabled smartphone first.
 
+   - **User Controlled** allows end users to select their mobility policy from the Teams iOS or Android apps.
+
 4. Assign the policies to users. See [Assign policies](assign-policies-users-and-groups.md).
 
 
