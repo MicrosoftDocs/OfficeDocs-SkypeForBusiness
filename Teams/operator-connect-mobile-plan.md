@@ -104,12 +104,12 @@ To enable phone number assignments with Teams Phone Mobile, make sure your users
 
 ## Related articles
 
-After reading this article, see the following for information about configuring Teams Phone Mobile:
+For administrators:
 
 - [Configure Teams Phone Mobile](operator-connect-mobile-configure.md)
 - [Manage phone numbers for Teams Phone Mobile](operator-connect-mobile-configure-numbers.md)
 
-The following training articles are available to the users in your organization:
+For users in your organization:
 
 - [Get started with Teams Phone Mobile](https://prod.support.services.microsoft.com/en-us/office/getting-started-with-teams-phone-mobile-c37a6764-6c4f-4685-a26f-b84c12a71697)
 - [Manage call settings in Teams Phone Mobile](https://prod.support.services.microsoft.com/en-us/office/manage-call-settings-in-microsoft-teams-phone-mobile-dbe4098a-198f-4101-b769-ecf0da9b33e2)

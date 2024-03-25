@@ -32,7 +32,7 @@ For a list of operators participating in the Teams Phone Mobile program, and the
 This article describes the following steps to configure Teams Phone Mobile:
 
 - [Step 1: Enable an operator](#step-1-enable-an-operator)
-- [Step 2: Manage phone numbers](#step-2-manage-phone-numbers)
+- [Step 2: Manage phone numbers and assign licenses](#step-2-manage-phone-numbers-and-assign-licenses)
 - [Step 3: Assign numbers to emergency addresses](#step-3-assign-numbers-to-emergency-addresses)
 - [Step 4: Manage your operators](#step-4-manage-your-operators)
 - [Step 5: Release numbers](#step-5-release-numbers)
@@ -56,7 +56,7 @@ You can enable an operator by using the Teams admin center.
 
 You can also edit and remove operators by using the Teams admin center and navigating to **Voice > Operators**.
 
-## Step 2: Manage phone numbers
+## Step 2: Manage phone numbers and assign licenses
 
 If you want to add your existing company paid SIM-enabled phone numbers to Teams, contact your operator to ensure you have the eligible Teams Phone Mobile subscription. Your operator can upload your numbers to Teams. After your operator completes the order, you can assign those numbers to users. 
 
@@ -147,6 +147,7 @@ To manage a user's incoming calling policies by using PowerShell:
    ```PowerShell
    New-CsTeamsMobilityPolicy -identity TeamsFirst -MobileDialerPreference Teams 
    New-CsTeamsMobilityPolicy -identity NativeFirst -MobileDialerPreference Native 
+   New-CsTeamsMobilityPolicy -identity UserSelected -MobileDialerPreference UserOverride 
    ```
 
 3. Grant policies to users: 
@@ -154,6 +155,7 @@ To manage a user's incoming calling policies by using PowerShell:
    ```PowerShell
    Grant-CsTeamsMobilityPolicy NativeFirst -Identity user@xyz.onmicrosoft.com
    Grant-CsTeamsMobilityPolicy TeamsFirst -Identity user@xyz.onmicrosoft.com
+   Grant-CsTeamsMobilityPolicy UserSelected -Identity user@xyz.onmicrosoft.com 
    ```
 
 4. Check user policies: 
@@ -162,13 +164,30 @@ To manage a user's incoming calling policies by using PowerShell:
    get-CsUserpolicyassignment -identity user@xyz.onmicrosoft.com
    ```
  
- 5.	Check all mobility policy options: 
+ 5. Check all mobility policy options: 
     
     ```PowerShell
     Get-CsTeamsMobilityPolicy
     ```  
 
+6. You can change the Global Mobility policy to Teams, Native, or UserOverride. To update the default Global Mobility policy for all users, use the following command:  
  
+   ```PowerShell
+   Set-CsTeamsMobilityPolicy -identity <Policy name> -MobileDialerPreference <Dialer preference> 
+   ``` 
+
+## Related articles
+
+For administrators:
+
+- [Plan Teams Phone Mobile](operator-connect-mobile-plan.md)
+- [Manage phone numbers for Teams Phone Mobile](operator-connect-mobile-configure-numbers.md)
+
+For users in your organization:
+
+- [Get started with Teams Phone Mobile](https://prod.support.services.microsoft.com/en-us/office/getting-started-with-teams-phone-mobile-c37a6764-6c4f-4685-a26f-b84c12a71697)
+- [Manage call settings in Teams Phone Mobile](https://prod.support.services.microsoft.com/en-us/office/manage-call-settings-in-microsoft-teams-phone-mobile-dbe4098a-198f-4101-b769-ecf0da9b33e2)
+
 
 
 
