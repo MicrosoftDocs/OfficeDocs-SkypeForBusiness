@@ -91,7 +91,7 @@ To move numbers from Direct Routing to Teams Phone Mobile, you'll need to comple
 
 3. [Remove the Direct Routing online voice routing policy associated with your user](#remove-the-direct-routing-online-voice-routing-policy-associated-with-your-user).
 
-4. [Assign the Teams Phone Mobile licenses to your users(#assign-teams-phone-mobile-licenses-to-your-users).
+4. [Assign the Teams Phone Mobile licenses to your users](#assign-teams-phone-mobile-licenses-to-your-users).
 
 5. [Acquire phone numbers](#acquire-phone-numbers).
 
