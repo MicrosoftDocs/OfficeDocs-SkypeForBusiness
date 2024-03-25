@@ -118,8 +118,9 @@ For more information on Win32 app deployment in Intune, see [Add and assign Win3
 To create an enrollment status page profile for your Teams Room on Windows consoles, see [Configure and assign AutoPilot Enrollment Status Page (ESP)](/autopilot/tutorial/self-deploying/self-deploying-esp).
 
 The required settings for ESP on Teams Rooms are:
-|:-----|:-----|
 
+|**Setting**|**Option**|
+|:-----|:-----|
 | Show app and profile configuration progress                                                 | Yes         |
 | Block device use until all apps and profiles are installed                                  | Yes         |
 | Turn on log collection and diagnostics page for end users                                   | Yes         |
