@@ -87,7 +87,7 @@ The Daily Usage report allows an administrator to identify peak consumption peri
 
 ![Screenshot showing Daily Usage report in Teams Usage Reports.](media/CQD-teams-utilization-report12.png)
 
-The Daily usage report displays the number of Audio, Video and Screen shares for the selected day with the added ability to differentiate between internal and external connectivity. A Conference and Peer to Peer breakdown is to the immediate right of the modality total box. The top right of the report provides a list of conferences with their associated ID and participants for the day. The conference list provides down an additional drill to the Conference Details report as well. REPLACE GRAPHIC
+The Daily usage report displays the number of Audio, Video and Screen shares for the selected day with the added ability to differentiate between internal and external connectivity. A Conference and Peer to Peer breakdown is to the immediate right of the modality total box. The top right of the report provides a list of conferences with their associated ID and participants for the day. The conference list provides down an additional drill to the Conference Details report as well.
 
 ![Screenshot of Daily Call Count by media type for the past 30 days in Teams Usage Reports.](media/CQD-teams-utilization-report13.png)
 
