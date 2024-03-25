@@ -8,7 +8,7 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: admin
-ms.date: 03/13/2024
+ms.date: 03/25/2024
 ms.collection: 
 - M365-voice
 - m365initiative-voice
@@ -56,7 +56,7 @@ To create an authorized user, you must complete the following steps:
 - Step 4 - Assign the voice applications policy to the user
 - Step 5 - Create an Auto attendant or Call queue and assign licensed resource accounts
 - Step 6 - Assign authorized users to the relevant Auto attendant or Call queue
-- Step 7 - Set up the Customer Calls app for authorized users (optional)
+- Step 7 - Set up the Queues app for authorized users (optional)
 
 For information on configuring these steps, see [Set up authorized users](aa-cq-authorized-users.md).
 
