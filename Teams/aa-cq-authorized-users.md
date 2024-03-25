@@ -36,7 +36,7 @@ An **authorized user** is a Teams user who has been authorized by a Teams admin 
 
 With the Queues app in Microsoft Teams, you can delegate even more capabilities to your authorized users, such as configuring business, after hours, and holiday call routing and they can view real-time and historical metrics for Auto attendants and Call queues. To enable access to Queues, you must assign each user a Teams Premium and Teams Phone license. For more information, see [Set up Queues app for authorized users](#step-7-set-up-queues-app-for-authorized-users-optional).
 
-The authorized user accesses these change configuration items through their Teams desktop client.
+The authorized user can access these change configuration items through their Teams desktop client or Queues. For end user documentation, see [Manage your Call queue and Auto attendant greetings in Microsoft Teams](https://support.microsoft.com/office/52c741c6-8577-4faf-aa5a-c7853e0ab8f8).
 
 For information on creating a Call queue or Auto attendant, see [Create a Call queue in Microsoft Teams](create-a-phone-system-call-queue.md) and [Set up a Microsoft Teams Auto attendant](create-a-phone-system-auto-attendant.md).
 
@@ -66,7 +66,7 @@ To assign a Teams Phone and Teams Premium license, do the following steps:
 
 ## Step 2: Assign phone numbers to your users
 
-If you have not already done so, assign user phone numbers to your users. For more information, see [Manage phone numbers for users](assign-change-or-remove-a-phone-number-for-a-user.md).
+If you haven't already done so, assign user phone numbers to your users. For more information, see [Manage phone numbers for users](assign-change-or-remove-a-phone-number-for-a-user.md).
 
 ## Step 3: Create a Teams voice applications policy
 
@@ -74,7 +74,7 @@ After assigning phone numbers to your users, you need to create a [Teams voice a
 
 ## Step 4: Assign the voice applications policy to the user
 
-Once you’ve created your Teams voice applications policy, you need to individually assign it to users. To do this, you can use the Teams admin center or [Grant-CsTeamsVoiceApplicationsPolicy](/powershell/module/teams/grant-csteamsvoiceapplicationspolicy) cmdlet.
+Once you create your Teams voice applications policy, you need to individually assign it to users. To do this, you can use the Teams admin center or [Grant-CsTeamsVoiceApplicationsPolicy](/powershell/module/teams/grant-csteamsvoiceapplicationspolicy) cmdlet.
 
 To learn about the different ways that you can assign policies to users, see [Assign policies to your users in Teams](policy-assignment-overview.md).
 
@@ -111,7 +111,7 @@ To allow or block specific users in your organization from using Queues, make su
 
 App setup policies let you customize Teams to highlight the apps that are most important for users in your organization. The apps you set in a policy are pinned to the app bar—the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients—where users can quickly and easily access them.
 
-Authorized users with a Teams Phone and Teams Premium license have access to Queues and can pin the app on their Teams client. If the app is not pinned by you via an app setup policy, Authorized users can still view Queues in the app bar flyout.
+Authorized users with a Teams Phone and Teams Premium license have access to Queues and can pin the app on their Teams client. If the app isn't pinned by you via an app setup policy, Authorized users can still view Queues in the app bar flyout.
 
 To automatically pin the Queues app in the Teams client for your users, do the following:
 
