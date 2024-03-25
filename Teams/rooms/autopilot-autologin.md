@@ -1,5 +1,5 @@
 ---
-title: Use Autopilot and autologin to easily deploy Microsoft Teams Rooms consoles
+title: Use Autopilot and Autologin to easily deploy Microsoft Teams Rooms consoles
 author: tonysmit
 ms.author: tonysmit
 manager: pamgreen
@@ -20,7 +20,7 @@ search.appverid: MET150
 description: Learn how to set up and use the AutoPilot and Autologin features to deploy and provisioning Microsoft Teams Rooms on Windows consoles in your organization.
 ---
 
-# Autopilot and Auto-login for Teams Rooms on Windows
+# Autopilot and Autologin for Teams Rooms on Windows
 
 You can use Windows Autopilot and Autologin to deploy, provision, reset, redeploy, and recover Teams Rooms on Microsoft Teams Rooms on Windows consoles in your organization.
 
@@ -35,11 +35,11 @@ To use Autopilot and Autologin to provision and deploy Microsoft Teams Rooms con
 - Step 1: [Verify that all prerequisites are met](#step-1-prerequisites)
 - Step 2: [Register devices as Autopilot devices](#step-2-registering-device-through-windows-autopilot)
 - Step 3: [Create a devicegroup](#step-3-create-a-group-for-teams-rooms)
-- Step 4: [Deploy Teams Rooms app update tool](#step-8-set-up-auto-login-in-the-pro-management-portal)
+- Step 4: [Deploy Teams Rooms app update tool](#step-8-set-up-autologin-in-the-pro-management-portal)
 - Step 5: [Create an Enrollment Status Page (ESP) profile](#step-5-create-an-enrollment-status-page-profile)
 - Step 6: [Create and assign Autopilot profile](#step-6-create-an-autopilot-profile)
 - Step 7: [Create and assign a Local Administrator Password Solution(LAPS) policy](/mem/intune protect/windows-laps-policy#create-a-laps-policy)
-- Step 8: [Set up Auto-login in the Pro Management Portal](#step-8-set-up-auto-login-in-the-pro-management-portal)
+- Step 8: [Set up Autologin in the Pro Management Portal](#step-8-set-up-autologin-in-the-pro-management-portal)
 - Step 9: [Deploy the device](#step-9-deploy-the-device)
 
 ## Step 1: Prerequisites
@@ -213,22 +213,22 @@ To start the AutoPilot deployment process on the console that is Autopilot regis
 > [!IMPORTANT]
 > Connectivity to the Internet is required.
 
-    - If the device is connected to a wired network and has network connectivity, the device may reboot to apply critical security updates if the are available. After the reboot to apply critical security updates, the Autopilot process begins.
+- If the device is connected to a wired network and has network connectivity, the device may reboot to apply critical security updates if the are available. After the reboot to apply critical security updates, the Autopilot process begins.
 
-    - If the device isn't connected to a wired network or if it doesn't have network connectivity, it prompts you to connect to a network. 
+- If the device isn't connected to a wired network or if it doesn't have network connectivity, it prompts you to connect to a network. 
 
-        a. The OOBE (Out of Box Experience) begins and a screen asking for a country/region appears. Select the appropriate country or region, and then select **Yes**.
+    a. The OOBE (Out of Box Experience) begins and a screen asking for a country/region appears. Select the appropriate country or region, and then select **Yes**.
 
-        b. The keyboard screen appears to select a keyboard layout. Select the appropriate keyboard layout, and then select **Yes**. If needed, you can select additional keyboard layouts by selecting **Add layout**, or select **Skip** if you don't want to add additional keyboard layouts.
+    b. The keyboard screen appears to select a keyboard layout. Select the appropriate keyboard layout, and then select **Yes**. If needed, you can select additional keyboard layouts by selecting **Add layout**, or select **Skip** if you don't want to add additional keyboard layouts.
 
-        > [!Note]
-        > When there's no network connectivity, the device can't downloaded the Autopilot profile to identify the country/region and keyboard settings to use. This is why when there's no network connectivity, the country/region and keyboard screens appear and must be set to hidden in the Autopilot profile. These settings need to be set in order for the network connectivity screensto work properly.
+    > [!Note]
+    > When there's no network connectivity, the device can't downloaded the Autopilot profile to identify the country/region and keyboard settings to use. This is why when there's no network connectivity, the country/region and keyboard screens appear and must be set to hidden in the Autopilot profile. These settings need to be set in order for the network connectivity screensto work properly.
 
-        d. The **Let's connect you to a network** screen appears. At this screen, either plug the device into a wired network (if available), or select and connect to a wireless Wi-Fi network.
+    d. The **Let's connect you to a network** screen appears. At this screen, either plug the device into a wired network (if available), or select and connect to a wireless Wi-Fi network.
 
-        e. Once network connectivity is established, the **Next** button is available. Select **Next**.
+    e. Once network connectivity is established, the **Next** button is available. Select **Next**.
 
-        f. The device may reboot to apply critical security updates if they are available. After the reboot to apply critical security updates, the Autopilot process begins.
+    f. The device may reboot to apply critical security updates if they are available. After the reboot to apply critical security updates, the Autopilot process begins.
 
 4. The Enrollment Status Page (ESP) displays progress during the provisioning process in two phases:
 
