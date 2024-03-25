@@ -111,12 +111,12 @@ Voice applications policies control what configuration changes and actions an au
 |-----------------------|--------------------------------|---------------------|---------------------|
 |Real-time auto attendant metrics|This setting allows authorized users to access real-time auto attendant metrics. |RealTimeAutoAttendantMetricsPermission |Yes, Public Preview|
 |Historical auto attendant metrics using Power BI|This setting allows authorized users to access historical auto attendant metrics.|HistoricalAutoAttendantMetricsPermission|No|
-|Historical auto attendants metrics using Queues app|This setting allows authorized users to access historical auto attendant metrics.|HistoricalAutoAttendantDescMetricsPermission|Yes, Public Preview|
+|Historical auto attendants metrics using Queues app|This setting allows authorized users to access historical auto attendant metrics.|HistoricalAutoAttendantMetricsPermission|Yes, Public Preview|
 
 Reporting values:
 
 - *None* - no access to any metrics.
-- *Authorized* - the authorized user only sees metrics for the auto attendants and call queues (and associated agents) they're authorized for.
+- *AuthorizedOnly* - the authorized user only sees metrics for the auto attendants and call queues (and associated agents) they're authorized for.
 - *All* - the authorized user sees metrics for all auto attendants and call queues (and associated agents) configured in the tenant.
 
 ### Call queues - Features
@@ -161,7 +161,7 @@ Notes
 Reporting values:
 
 - *None* - no access to any metrics.
-- *Authorized* - the authorized user only sees metrics for the auto attendants and call queues (and associated agents) they're authorized for.
+- *AuthorizedOnly* - the authorized user only sees metrics for the auto attendants and call queues (and associated agents) they're authorized for.
 - *All* - the authorized user sees metrics for all auto attendants and call queues (and associated agents) configured in the tenant.
 
 ## Related articles
