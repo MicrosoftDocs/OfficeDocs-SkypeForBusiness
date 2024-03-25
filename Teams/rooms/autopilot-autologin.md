@@ -34,7 +34,7 @@ To use Autopilot and Autologin to provision and deploy Microsoft Teams Rooms con
 
 - Step 1: [Verify that all prerequisites are met](#step-1-prerequisites)
 - Step 2: [Register devices as Autopilot devices](#step-2-registering-teams-rooms-consoles-using-windows-autopilot)
-- Step 3: [Create a device group](#step-3-create-a-device-group-for-the-teams-rooms-consoles)
+- Step 3: [Create a device group](#step-3-create-a-group-for-the-teams-rooms-consoles)
 - Step 4: [Deploy Teams Rooms app update tool](#step-4-deploy-teams-room-app-update-tool)
 - Step 5: [Create an Enrollment Status Page (ESP) profile](#step-5-create-an-autopilot-enrollment-status-page-esp-status-page-profile)
 - Step 6: [Create and assign Autopilot profile](#step-6-create-an-autopilot-profile)
@@ -71,7 +71,7 @@ This GroupTag field is critical for the Teams Pro Management portal so it can te
 > [!Note]
 > To test AutoPilot, you can manually register Autopilot devices in Intune. You can do this several different ways, see [Manually register devices with Windows Autopilot](/autopilot/add-devices).
 
-## Step 3: Create a device group for the Teams Rooms consoles
+## Step 3: Create a group for the Teams Rooms consoles
 
 To create a Teams Rooms on Windows consoles device group, see [Create a device group](/autopilot/tutorial/self-deploying/self-deploying-device-group).
 
@@ -149,7 +149,7 @@ Then assign the ESP to the device group you created in [Step 3](#step-3-create-a
 For the Teams Rooms consoles, you must create a Self-deploying Autopilot profile. See [Create and assign Autopilot
 profile](/autopilot/tutorial/self-deploying/self-deploying-autopilot-profile).
 
-Then assign the Autopilot profile to the previously created device group in [Step 3](#step-3-create-a-group-for-teams-rooms).
+Then assign the Autopilot profile to the previously created device group in [Step 3](#step-3-create-a-group-for-the-teams-rooms-consoles).
 
 ## Step 7: Create and assign a Local Administrator Password Solution (LAPS) policy
 
