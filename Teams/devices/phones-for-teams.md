@@ -5,19 +5,18 @@ author: mstonysmith
 manager: pamgreen
 ms.reviewer: kponnus
 ms.date: 11/05/2018
-ms.topic: reference
+ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
 audience: Admin
 appliesto: 
-  - Skype for Business
   - Microsoft Teams
-f1.keywords: 
-  - NOCSH
 ms.collection: 
   - teams-rooms-devices
   - Teams_ITAdmin_Devices
   - Tier1
+f1.keywords: 
+  - NOCSH
 search.appverid: MET150
 ms.localizationpriority: medium
 description: This article covers the list of phones that are certified for Microsoft Teams and the features supported in the phones certified for Microsoft Teams.
@@ -56,6 +55,9 @@ In addition to the above features, you can control what capabilities are availab
 Teams licenses can be purchased as part of their [Microsoft 365 and Office 365 subscriptions](/office365/servicedescriptions/teams-service-description). To learn more about the required licenses for using Teams on phones, see available [phone system licenses](https://products.office.com/microsoft-teams/voice-calling).
 
 For more information about getting Teams, check out [How do I get access to Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+
+> [!IMPORTANT]
+> **Microsoft Teams Rooms Basic** licenses aren't supported on and won't work with Teams Phone devices. An account with a Basic license assigned will be blocked from sign in.
 
 ## Deploy your phones using Intune
 

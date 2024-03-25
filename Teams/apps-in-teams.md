@@ -8,7 +8,7 @@ manager: prkosh
 audience: admin
 ms.service: msteams
 ms.subservice: teams-apps
-ms.date: 06/27/2023
+ms.date: 03/18/2024
 ms.reviewer: mhayrapetyan
 ms.collection: 
   - M365-collaboration
@@ -135,7 +135,7 @@ To view common use cases mapped to Teams capabilities, see [Map your use cases t
 
 ## List of apps created by Microsoft
 
-The following apps are the only apps provided by Microsoft and are generally available:
+The following apps are provided by Microsoft and are generally available:
 
 * Admin
 * Approvals

@@ -3,8 +3,8 @@ title: Plan for Teams meetings
 ms.reviewer: bryanyce
 ms.date: 11/13/2023
 ms.topic: article
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.service: msteams
 ms.subservice: meetings
@@ -52,7 +52,7 @@ The following table shows the policy settings that are similar between meetings 
 |Transcribe a meeting or call|[Transcription](meeting-transcription-captions.md)|Transcription|
 |See closed captions in a meeting or call|[Live captions](meeting-transcription-captions.md)|Real-time captions in Teams calls|
 
-For information about calling policies, see [Calling policies in Teams](teams-calling-policy.md).
+For information about calling policies, see [Configure calling policies in Teams](teams-calling-policy.md).
 
 ## Recordings
 

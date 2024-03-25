@@ -35,26 +35,26 @@ The following cmdlet references are for Microsoft Teams Auto attendants and Call
 
 The following cmdlets allow you to manage Auto attendants:
 
-- [New-CsAutoAttendant](/powershell/module/skype/new-csautoattendant)  
-- [Get-CsAutoAttendant](/powershell/module/skype/get-csautoattendant)
-- [Set-CsAutoAttendant](/powershell/module/skype/set-csautoattendant)
-- [Update-CsAutoAttendant](/powershell/module/skype/update-csautoattendant)
-- [Remove-CsAutoAttendant](/powershell/module/skype/remove-csautoattendant)
-- [New-CsOnlineTimeRange](/powershell/module/skype/new-csonlinetimerange)
-- [New-CsOnlineDateTimeRange](/powershell/module/skype/new-csonlinedatetimerange)
-- [New-CsOnlineSchedule](/powershell/module/skype/New-CsOnlineSchedule)
-- [Get-CsAutoAttendantHolidays](/powershell/module/skype/get-csautoattendantholidays)
-- [Import-CsAutoAttendantHolidays](/powershell/module/skype/import-csautoattendantholidays)
-- [Export-CsAutoAttendantHolidays](/powershell/module/skype/export-csautoattendantholidays)
-- [New-CsAutoAttendantDialScope](/powershell/module/skype/New-CsAutoAttendantDialScope)
-- [New-CsAutoAttendantPrompt](/powershell/module/skype/New-CsAutoAttendantPrompt)
-- [New-CsAutoAttendantCallableEntity](/powershell/module/skype/New-CsAutoAttendantCallableEntity)
-- [New-CsAutoAttendantMenuOption](/powershell/module/skype/New-CsAutoAttendantMenuOption)
-- [New-CsAutoAttendantMenu](/powershell/module/skype/new-csautoattendantmenu)
-- [New-CsAutoAttendantCallFlow](/powershell/module/skype/New-CsAutoAttendantCallFlow)
-- [New-CsAutoAttendantCallHandlingAssociation](/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation)
-- [Get-CsAutoAttendantStatus](/powershell/module/skype/Get-CsAutoAttendantStatus)
-- [Get-CsAutoAttendantTenantInformation](/powershell/module/skype/Get-CsAutoAttendantTenantInformation)
+- [New-CsAutoAttendant](/powershell/module/teams/new-csautoattendant)  
+- [Get-CsAutoAttendant](/powershell/module/teams/get-csautoattendant)
+- [Set-CsAutoAttendant](/powershell/module/teams/set-csautoattendant)
+- [Update-CsAutoAttendant](/powershell/module/teams/update-csautoattendant)
+- [Remove-CsAutoAttendant](/powershell/module/teams/remove-csautoattendant)
+- [New-CsOnlineTimeRange](/powershell/module/teams/new-csonlinetimerange)
+- [New-CsOnlineDateTimeRange](/powershell/module/teams/new-csonlinedatetimerange)
+- [New-CsOnlineSchedule](/powershell/module/teams/New-CsOnlineSchedule)
+- [Get-CsAutoAttendantHolidays](/powershell/module/teams/get-csautoattendantholidays)
+- [Import-CsAutoAttendantHolidays](/powershell/module/teams/import-csautoattendantholidays)
+- [Export-CsAutoAttendantHolidays](/powershell/module/teams/export-csautoattendantholidays)
+- [New-CsAutoAttendantDialScope](/powershell/module/teams/New-CsAutoAttendantDialScope)
+- [New-CsAutoAttendantPrompt](/powershell/module/teams/New-CsAutoAttendantPrompt)
+- [New-CsAutoAttendantCallableEntity](/powershell/module/teams/New-CsAutoAttendantCallableEntity)
+- [New-CsAutoAttendantMenuOption](/powershell/module/teams/New-CsAutoAttendantMenuOption)
+- [New-CsAutoAttendantMenu](/powershell/module/teams/new-csautoattendantmenu)
+- [New-CsAutoAttendantCallFlow](/powershell/module/teams/New-CsAutoAttendantCallFlow)
+- [New-CsAutoAttendantCallHandlingAssociation](/powershell/module/teams/New-CsAutoAttendantCallHandlingAssociation)
+- [Get-CsAutoAttendantStatus](/powershell/module/teams/Get-CsAutoAttendantStatus)
+- [Get-CsAutoAttendantTenantInformation](/powershell/module/teams/Get-CsAutoAttendantTenantInformation)
 
 For a step-by-step guide to creating Auto attendants with PowerShell, see [Creating Auto attendants with PowerShell cmdlets](create-a-phone-system-auto-attendant-via-cmdlets.md)
 
@@ -62,10 +62,10 @@ For a step-by-step guide to creating Auto attendants with PowerShell, see [Creat
 
 The following cmdlets allow you to manage a Call queue:
 
-- [New-CsCallQueue](/powershell/module/skype/New-CsCallQueue)
-- [Get-CsCallQueue](/powershell/module/skype/Get-CsCallQueue)
-- [Set-CsCallQueue](/powershell/module/skype/Set-CsCallQueue)
-- [Remove-CsCallQueue](/powershell/module/skype/Remove-CsCallQueue)
+- [New-CsCallQueue](/powershell/module/teams/New-CsCallQueue)
+- [Get-CsCallQueue](/powershell/module/teams/Get-CsCallQueue)
+- [Set-CsCallQueue](/powershell/module/teams/Set-CsCallQueue)
+- [Remove-CsCallQueue](/powershell/module/teams/Remove-CsCallQueue)
 
 For a step-by-step guide to creating Call queues with PowerShell, see [Creating Call queues with PowerShell cmdlets](create-a-phone-system-call-queue-via-cmdlets.md)
 
@@ -76,7 +76,7 @@ The following cmdlets are also required to manage the users, resource accounts, 
 ### Users and Teams
 
 - Users
-  - [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser)
+  - [Get-CsOnlineUser](/powershell/module/teams/Get-CsOnlineUser)
 
 - Teams:
   - [Get-Team](/powershell/module/teams/Get-Team)
@@ -84,14 +84,14 @@ The following cmdlets are also required to manage the users, resource accounts, 
 
 ### Resource accounts
 
-- [New-CsOnlineApplicationInstance](/powershell/module/skype/New-CsOnlineApplicationInstance)
-- [Find-CsOnlineApplicationInstance](/powershell/module/skype/Find-CsOnlineApplicationInstance)
-- [Get-CsOnlineApplicationInstance](/powershell/module/skype/Get-CsOnlineApplicationInstance)
-- [Set-CsOnlineApplicationInstance](/powershell/module/skype/Set-CsOnlineApplicationInstance)
-- [New-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/New-CsOnlineApplicationInstanceAssociation)
-- [Get-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociation)
-- [Remove-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Remove-CsOnlineApplicationInstanceAssociation)
-- [Get-CsOnlineApplicationInstanceAssociationStatus](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociationStatus)
+- [New-CsOnlineApplicationInstance](/powershell/module/teams/New-CsOnlineApplicationInstance)
+- [Find-CsOnlineApplicationInstance](/powershell/module/teams/Find-CsOnlineApplicationInstance)
+- [Get-CsOnlineApplicationInstance](/powershell/module/teams/Get-CsOnlineApplicationInstance)
+- [Set-CsOnlineApplicationInstance](/powershell/module/teams/Set-CsOnlineApplicationInstance)
+- [New-CsOnlineApplicationInstanceAssociation](/powershell/module/teams/New-CsOnlineApplicationInstanceAssociation)
+- [Get-CsOnlineApplicationInstanceAssociation](/powershell/module/teams/Get-CsOnlineApplicationInstanceAssociation)
+- [Remove-CsOnlineApplicationInstanceAssociation](/powershell/module/teams/Remove-CsOnlineApplicationInstanceAssociation)
+- [Get-CsOnlineApplicationInstanceAssociationStatus](/powershell/module/teams/Get-CsOnlineApplicationInstanceAssociationStatus)
 
 ### Teams Phone Resource Account licenses
 
@@ -105,15 +105,15 @@ The following cmdlets are also required to manage the users, resource accounts, 
 
 ### Audio Files
 
-- [Get-CsOnlineAudioFile](/powershell/module/skype/Get-CsOnlineAudioFile)
-- [Import-CsOnlineAudioFile](/powershell/module/skype/Import-CsOnlineAudioFile)
-- [Export-CsOnlineAudioFile](/powershell/module/skype/Export-CsOnlineAudioFile)
-- [Remove-CsOnlineAudioFile](/powershell/module/skype/Remove-CsOnlineAudioFile)
+- [Get-CsOnlineAudioFile](/powershell/module/teams/Get-CsOnlineAudioFile)
+- [Import-CsOnlineAudioFile](/powershell/module/teams/Import-CsOnlineAudioFile)
+- [Export-CsOnlineAudioFile](/powershell/module/teams/Export-CsOnlineAudioFile)
+- [Remove-CsOnlineAudioFile](/powershell/module/teams/Remove-CsOnlineAudioFile)
 
 ### Support Languages and Time zones
 
-- [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
-- [Get-CsAutoAttendantSupportedTimeZone](/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
+- [Get-CsAutoAttendantSupportedLanguage](/powershell/module/teams/Get-CsAutoAttendantSupportedLanguage)
+- [Get-CsAutoAttendantSupportedTimeZone](/powershell/module/teams/Get-CsAutoAttendantSupportedTimeZone)
 
 ### Voice applications policies
 

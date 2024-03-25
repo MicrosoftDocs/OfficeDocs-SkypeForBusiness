@@ -3,21 +3,20 @@ title: Quality of service (QoS) configuration on Teams Rooms devices
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
+ms.reviewer: mattslomka
 ms.date: 09/01/2023
 ms.topic: article
-ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: itpro-devices
 audience: Admin
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
-  - M365-collaboration
   - teams-rooms-devices
   - Teams_ITAdmin_Devices
   - Tier1
 f1.keywords: 
   - NOCSH
-appliesto: 
-  - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn about the key considerations for deploying Teams Rooms.

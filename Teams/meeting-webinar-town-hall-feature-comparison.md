@@ -3,8 +3,8 @@ title: Meetings, webinars, and town halls feature comparison
 ms.reviewer: 
 ms.date: 11/13/2023
 ms.topic: article
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.service: msteams
 ms.subservice: meetings
@@ -59,7 +59,7 @@ The following table shows which features are available in meetings, webinars, an
 |[Meeting chat](manage-meeting-chat.md)|✔️|✔️|For organizers, co-organizers, and presenters only.|
 |[Meeting themes](meeting-themes.md)|Premium|✖️|✖️|
 |[Organizers and co-organizers can use video effects](https://support.microsoft.com/office/apply-video-filters-in-microsoft-teams-meetings-c04a1326-7f63-4170-a4f7-0778520af465)|✔️|✔️|✔️|
-|[Outlook add-in](https://support.microsoft.com/office/schedule-a-microsoft-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)|✔️|✖️|✖️|
+|[Outlook add-in](https://support.microsoft.com/office/schedule-a-microsoft-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)|✔️|✔️|✔️|
 |[Participants can give or request control](meeting-who-present-request-control.md)|✔️|✔️|✖️|
 |[PowerPoint Live](https://support.microsoft.com/office/present-from-powerpoint-live-in-microsoft-teams-28b20e74-7165-499c-9bd4-0ad975d448ad)|✔️|✔️|✖️|
 |[Q&A](manage-qna-for-teams.md)|✔️|✔️|✔️|
