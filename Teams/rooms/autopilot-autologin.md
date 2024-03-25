@@ -118,29 +118,21 @@ For more information on Win32 app deployment in Intune, see [Add and assign Win3
 To create an enrollment status page profile for your Teams Room on Windows consoles, see [Configure and assign Autopilot Enrollment Status Page (ESP)](/autopilot/tutorial/self-deploying/self-deploying-esp).
 
 The required settings for ESP on Teams Rooms are:
-+--------------------------------------------------------------------------------------------------+--------+
+|:-----|:-----|
+
 | Show app and profile configuration progress                                                 | Yes         |
-+--------------------------------------------------------------------------------------------------+--------+
 | Block device use until all apps and profiles are installed                                  | Yes         |
-+--------------------------------------------------------------------------------------------------+--------+
 | Turn on log collection and diagnostics page for end users                                   | Yes         |
-+--------------------------------------------------------------------------------------------------+--------+
 | Only show page to devices provisioned by out-of-box experience (OOBE)                       | Yes         |
-+--------------------------------------------------------------------------------------------------+--------+
 | Block device use until all apps and profiles are installed                                  | Yes         |
-+--------------------------------------------------------------------------------------------------+--------+
 | Allow users to reset device if installation error occurs                                    | Yes         |
-+--------------------------------------------------------------------------------------------------+--------+
 | Allow users to use device if installation error occurs                                      | No          |
-+--------------------------------------------------------------------------------------------------+--------+
 | Block device use until required apps are installed if theyare assigned to the user/device   | Selected    |
-+--------------------------------------------------------------------------------------------------+--------+
 
 > [!Note]
 > Setting this to **Selected** helps to complete the ESP faster.
 
-Under **Blocking apps**, select the Microsoft Teams Rooms Pro Provisioning Tool. Set **Only fail selected blocking apps in technician phase** to **Yes**.
-<!-- @Alvin - We need to spell out MTRP unless this is a UX setting. If it is a setting that's named that way, we need to bold it.-->
+Under **Blocking apps**, select the Microsoft Teams Rooms Pro Provisioning (MTRP) Tool . Set **Only fail selected blocking apps in technician phase** to **Yes**.
 
 Then assign the ESP to the device group you created in [Step 3](#step-3-create-a-group-for-the-teams-rooms-consoles).
 
