@@ -107,13 +107,13 @@ This data can be used to identify regions having problems during peak consumptio
 
 Select the column for that day to display metrics for that hour.
 
-![Screenshot: Teams Usage Reports.](media/CQD-teams-utilization-report14.png)
+![Screenshot of Hourly Trend by Media Type in Teams Usage Reports.](media/CQD-teams-utilization-report14.png)
   
   1.  The table below the chart will display the metrics for that hour. This can be sorted by any column header; however, we would be interested in finding problematic areas.
 
-    ![Screenshot: Teams Usage Reports.](media/CQD-teams-utilization-report15.png)
+    ![Screenshot of Hourly Trend by Media Type metrics in Teams Usage Reports.](media/CQD-teams-utilization-report15.png)
     
-  3.  We see that the IND region is experiencing poor video performance in conferences during this time frame. After, the CQD QER Microsoft reports can be used to narrow down the problematic location as the region and time frame has been identified.
+  1.  We see that the IND region is experiencing poor video performance in conferences during this time frame. After, the CQD QER Microsoft reports can be used to narrow down the problematic location as the region and time frame has been identified.
 
 ### Conference Details
 
@@ -121,14 +121,13 @@ The Conference Details report provides additional insight for meetings, from an 
 
 Select a conference the participant bar in the conference ID chart on the Daily usage page to drill down into the conference details.
 
-![Screenshot: Teams Usage Reports.](media/CQD-teams-utilization-report24.png)
+![Screenshot of conference participant bar for Conference Details report in Teams Usage Reports.](media/CQD-teams-utilization-report24.png)
 
-![Screenshot: Teams Usage Reports.](media/CQD-teams-utilization-report25.png)
-  
+![Screenshot of Participant Count by Conference ID for Conference Details report in Teams Usage Reports.](media/CQD-teams-utilization-report25.png)
 
 We can see the participants in the conference and all the pertinent information down to packet loss and jitter to assist with potential troubleshooting efforts in the bottom table.
 
-![Screenshot: Teams Usage Reports.](media/CQD-teams-utilization-report26.png)
+![Screenshot of drilldown table for Conference Details report in Teams Usage Reports.](media/CQD-teams-utilization-report26.png)
 
 
 ### Regional Audio Details
@@ -136,28 +135,30 @@ We can see the participants in the conference and all the pertinent information 
 The Regional Audio Details drill down specifically shows the audio minute usage for the selected region. Users with access to CQD can see usage trends for both P2P and conference audio within the selected region.
 
 1.  On the Call Count Summary page, drill-through to as specific region through the table.
-  ![Screenshot: Teams Usage Reports.](media/CQD-teams-utilization-report16.png)
 
-2.  Select the row with the region additional information is needed for.
-  ![Screenshot: Teams Usage Reports.](media/CQD-teams-utilization-report17.png)
+  ![Screenshot of Call Count Summary report drill-through in Teams Usage Reports.](media/CQD-teams-utilization-report16.png)
 
-3.  The data trends show a significant number of minutes being used on the internal network, with conferencing far surpassing P2P use.
-  ![Screenshot: Teams Usage Reports.](media/CQD-teams-utilization-report18.png)
+1.  Select the row with the region additional information is needed for.
+
+  ![Screenshot of region details in Call Count Summary report in Teams Usage Reports.](media/CQD-teams-utilization-report17.png)
+
+1.  The data trends show a significant number of minutes being used on the internal network, with conferencing far surpassing P2P use.
+
+  ![Screenshot of data trends in Call Count Summary report in Teams Usage Reports.](media/CQD-teams-utilization-report18.png)
 
 The regional audio trend can be used to show how users are impacted by external influences in the world. Specifically, right now, we would expect to see the external usage for the EMEA and APAC regions to increase with people being asked to work remotely.
-
 
 ### User List
 
 The User List drill down provides, as one might expect, user specific information for a specific hour selected by the person viewing the report. The User List report is accessible through a drill-down in the Hourly Trends graph on the Daily Usage report. Right click on the hour additional information is needed for and select Drill through and User List, as shown below.
 
-![Screenshot: Teams Usage Reports.](media/CQD-teams-utilization-report19.png)
+![Screenshot of User List drill down report in Teams Usage Reports.](media/CQD-teams-utilization-report19.png)
 
 The User List report shows internal/external connectivity through the doughnut chart in the top center of the page. We can see that there is a large amount of participation from Outside the corporate network in the below image.
 
 The top right of the graph shows the number of calls made by each user within that hour.
 
-![Screenshot: Teams Usage Reports.](media/CQD-teams-utilization-report20.png)
+![Screenshot of User List drill down table in Teams Usage Reports.](media/CQD-teams-utilization-report20.png)
 
 The bottom table provides detailed information for the sessions each user participated in during that hour. The Failure Type column is useful in determining what caused a call to drop. The Capture and Render Device columns are useful in identifying why a call was reported having poor quality.
 
