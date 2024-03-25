@@ -52,7 +52,6 @@ The main page (Call Count Summary) immediately provides the number of audio, vid
 On the bottom left section of the page, you'll find a table providing total values for each media type over the past year. 
 
     ![Screenshot of table drill through providing total values for each media type over the past year in Teams Usage Reports.](media/CQD-teams-utilization-report5.png)
-    
     ![Screenshot of table providing total values for each media type over the past year in Teams Usage Reports.](media/CQD-teams-utilization-report6.png)   
 
 To the right of the table, a bar chart shows clients with the most use (calls/streams) for the past 30 days.
