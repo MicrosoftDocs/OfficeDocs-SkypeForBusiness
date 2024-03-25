@@ -142,7 +142,7 @@ The required settings for ESP on Teams Rooms are:
 Under **Blocking apps**, select the Microsoft Teams Rooms Pro Provisioning Tool. Set **Only fail selected blocking apps in technician phase** to **Yes**.
 <!-- @Alvin - We need to spell out MTRP unless this is a UX setting. If it is a setting that's named that way, we need to bold it.-->
 
-Then assign the ESP to the device group you created in [Step 3](#step-3-create-a-group-for-teams-rooms).
+Then assign the ESP to the device group you created in [Step 3](#step-3-create-a-group-for-the-teams-rooms-consoles).
 
 ## Step 6: Create an Autopilot Profile
 
