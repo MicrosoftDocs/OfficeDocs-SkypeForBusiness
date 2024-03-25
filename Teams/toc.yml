@@ -970,10 +970,14 @@ items:
               href: create-a-phone-system-auto-attendant.md
             - name: Set up Call queues
               href: create-a-phone-system-call-queue.md
-            - name: Set up authorized users
-              href: aa-cq-authorized-users.md
-            - name: Manage voice applications policies
-              href: manage-voice-applications-policies.md
+            - name: Authorized users
+              items:
+                - name: Plan for authorized users
+                  href: aa-cq-authorized-users-plan.md
+                - name: Set up authorized users
+                  href: aa-cq-authorized-users.md
+                - name: Manage voice applications policies
+                  href: manage-voice-applications-policies.md
             - name: Manage Teams resource accounts
               href: manage-resource-accounts.md
             - name: Set up holidays
