@@ -3,7 +3,7 @@ title: Plan for Operator Connect
 author: CarolynRowe
 ms.author: crowe
 manager: pamgreen
-ms.date: 08/10/2023
+ms.date: 03/25/2024
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -65,3 +65,6 @@ For a list of operators participating in the Microsoft Operator Connect Program 
 ## Support boundaries
 For technical support, please contact the customer support of your Operator Connect Operator first. If needed, Operator Connect Operators can escalate your support case directly to Microsoft engineering through shared support channels. 
 
+## Related articles
+
+- [Configure Operator Connect](operator-connect-configure.md)
