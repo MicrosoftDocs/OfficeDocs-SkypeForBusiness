@@ -1979,8 +1979,6 @@ items:
           href: /powershell/module/teams
     - name: Developer documentation for Teams
       href: /microsoftteams/platform
-    - name: Teams content updates
-      href: teams-updates.md
     - name: Country and region availability for Audio Conferencing and Calling Plans
       items: 
         - name: Overview
