@@ -160,7 +160,9 @@ After the Endpoint Manager portal configuration is complete, you must assign the
 > Only Teams Rooms consoles that are running Windows 11 will be able to Autologin. Windows 10 devices aren't currently supported.
 
 1. Go to the Microsoft Teams Rooms Pro Management portal and sign in.
+
 2. In the left navigation of the Microsoft Teams Rooms Pro Management portal, go to **Planning > AutoPilot devices**.
+
 3. On the **Windows AutoPilot devices** page, select **Sync** to populate the device list.
 
 To assign an account to an AutoPilot device, the device must have an AutoPilot profile assigned. You can see the devices in the **Profile assignment status** column and they should be listed as **Assigned**.
@@ -212,18 +214,18 @@ To start the AutoPilot deployment process on the console that is AutopAutoPiloti
 
    - If the device isn't connected to a wired network or if it doesn't have network connectivity, it prompts you to connect to a network.
 
-  1. The OOBE (Out of Box Experience) begins and a screen asking for a country/region appears. Select the appropriate country or region, and then select **Yes**.
+   1. The OOBE (Out of Box Experience) begins and a screen asking for a country/region appears. Select the appropriate country or region, and then select **Yes**.
 
-  1. The keyboard screen appears to select a keyboard layout. Select the appropriate keyboard layout, and then select **Yes**. If needed, you can select additional keyboard layouts by selecting **Add layout**, or select **Skip** if you don't want to add additional keyboard layouts.
+   1. The keyboard screen appears to select a keyboard layout. Select the appropriate keyboard layout, and then select **Yes**. If needed, you can select additional keyboard layouts by selecting **Add layout**, or select **Skip** if you don't want to add additional keyboard layouts.
 
-     > [!Note]
-     > When there's no network connectivity, the device can't downloaded the AutoPilot profile to identify the country/region and keyboard settings to use. This is why when there's no network connectivity, the country/region and keyboard screens appear and must be set to hidden in the AutoPilot profile. These settings need to be set in order for the network connectivity screensto work properly.
+      > [!Note]
+      > When there's no network connectivity, the device can't downloaded the AutoPilot profile to identify the country/region and keyboard settings to use. This is why when there's no network connectivity, the country/region and keyboard screens appear and must be set to hidden in the AutoPilot profile. These settings need to be set in order for the network connectivity screensto work properly.
 
-  1. The **Let's connect you to a network** screen appears. At this screen, either plug the device into a wired network (if available), or select and connect to a wireless Wi-Fi network.
+   1. The **Let's connect you to a network** screen appears. At this screen, either plug the device into a wired network (if available), or select and connect to a wireless Wi-Fi network.
 
-  1. Once network connectivity is established, the **Next** button is available. Select **Next**.
+   1. Once network connectivity is established, the **Next** button is available. Select **Next**.
 
-  1. The device may reboot to apply critical security updates if they're available. After the reboot to apply critical security updates, the Autopilot process begins.
+   1. The device may reboot to apply critical security updates if they're available. After the reboot to apply critical security updates, the Autopilot process begins.
 
 4. The Enrollment Status Page (ESP) displays progress during the provisioning process in two phases:
 
