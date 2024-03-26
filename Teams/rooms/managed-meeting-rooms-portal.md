@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: kimmatlock
-ms.date: 10/27/2021
+ms.date: 03/26/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -25,65 +25,65 @@ f1keywords:
 
 ## Overview
 
-The Teams Rooms Pro Management portal provides a view of the health of your meeting rooms and helps to facilitate your existing monitoring tools/practices.
+The Teams Rooms Pro Management portal provides a view of the health of your meeting rooms and helps to facilitate your existing monitoring tools and practices.
 
-The scope of the monitoring is
+The scope of the monitoring is:
 
 - View of incidents
-  - Top issues affecting your rooms
-  - Actions required to restore rooms to healthy status
+  - Top issues affecting your rooms.
+  - Actions required to restore rooms to healthy status.
 - View of Microsoft Teams Room devices
-  - Snapshot of status at Microsoft Teams Rooms (MTR) device level
-  - Basic history and details for every device
+  - Snapshot of status at Microsoft Teams Rooms device level.
+  - Basic history and details for every device.
 
 > [!Important]
-> Review [**Assign users to the Pro Manager Administrator role**](enrolling-mtrp-managed-service.md#assign-users-to-the-managed-service-administrator-role) and make sure that access to the portal is limited based on your business needs.
+> Review [**Assign users to the Pro Manager Administrator role**](enrolling-mtrp-managed-service.md#assign-users-to-the-managed-service-administrator-role) and make sure that access to the portal is restricted based on your organizaitonal needs.
 ## Terminology
 
 Here are frequently used terms in the portal.
 
 |Term |Meaning |
 | :- | :- |
-|**Teams Rooms Pro Monitoring Software** |Monitoring agent that is deployed on each of the Microsoft Teams Room devices. |
-|**App** |Microsoft Teams Room system app |
-|**Room/Device** |The certified Microsoft Teams Room system device. |
-|**Unmonitored** |Teams Rooms Pro management monitoring software deployed as part of management services isn't able to connect to the cloud services. We aren't receiving telemetry about the device. |
-|<p>**Healthy /** </p><p>**Unhealthy** </p>|Abnormalities in device / peripheral. |
-|**Suppressed** |If a device is known to be in maintenance, and its alerts should be ignored, the device or specific alerts can be suppressed deliberately. |
-|**Onboarding** |The state of a room device while it's getting setup but isn't ready yet as a regularly supported room to receive alerts. |
-|**Incident** |An issue affecting meeting experiences of end users that need action. |
-|**Misconfigured** |Configuration detected isn't correct / commonly used. |
+|**Teams Rooms Pro Monitoring Software** |Monitoring agent that is deployed on each of the Microsoft Teams Room devices.|
+|**App** |Microsoft Teams Room system app|
+|**Room/Device** |The certified Microsoft Teams Room system device.|
+|**Unmonitored** |Teams Rooms Pro management monitoring software deployed as part of management services isn't able to connect to the cloud services. We aren't receiving telemetry about the device.|
+|<p>**Healthy /** </p><p>**Unhealthy** </p>|Abnormalities in device or peripheral. |
+|**Suppressed** |If a device is known to be in maintenance, and its alerts should be ignored, the device or specific alerts can be suppressed.|
+|**Onboarding** |The state of a room device while it's getting setup but isn't ready yet and isn't a supported room to receive alerts.|
+|**Incident** |An issue affecting meeting experiences of end users that need attention.|
+|**Misconfigured** |Configuration detected isn't correct or commonly used. |
 
 ## Incidents view
 
-This view is an overview of the Incidents tab in your Teams Rooms Pro Management Portal. 
+This view is an overview of the Incidents tab in your Teams Rooms Pro Management poortal. 
 
 ### Top-level summary 
-The top-level summary shows at a glance the issues affecting your rooms, what you need to do.
+The top-level summary shows at a glance the issues affecting your rooms and what you need to do.
 
 Incidents are expected to be in one of two states:
 
 - **Need Action**: Action required by you to resolve the incident.
-- **System Investigating**: Under automatic investigation by the monitoring platform. Next steps will be provided if the issue cannot be automatically resolved.
+- **System Investigating**: This is set to automatic investigation by the monitoring platform and next steps will be provided if the issue can't be automatically resolved.
 
 ### Reviewing incidents
 
-Clicking any of items that have status “**Needs action**” shows additional details about the incident.
+Selecting any of items that have status “**Needs action**” shows additional details about the incident.
 
 ## Types of Incidents
 
 Incidents are classified into two broad severity types:
 
-- **Critical & Important**: Incidents that are likely causing problems in meetings and should be prioritized.
-- **Warning** & **Recommendations** – Incidents that are notifications to plan maintenance actions. If these aren't taken care of, then over time the rooms are more likely to hit an issue. Warnings are intended to give you time to plan and orchestrate support. Recommendations are best practice guidance to keep your rooms optimally configured.
+- **Critical & Important**: Incidents that are likely causing problems in meetings and should be prioritized to be fixed.
+- **Warning** & **Recommendations** – Incidents that are notifications to plan maintenance actions. If these aren't taken care of, then over time the rooms are more likely to encounter an issue. Warnings are intended to give you time to plan and organize support. Recommendations are best practices and guidance to keep your rooms configured in an optimal state.
 
-A warning might transition to “**Important**” if not attended to for a while.
+A warning may transition to an **Important** status if the issue isn't resolved in a timely manner.
 
 ## Health status of device and incidents
 
-Incidents that are classified as either **"Critical"** or **“Important”** in severity will affect the health status of a device. If there is at least one incident of **Severity = “Important”** associated with a device, it's classified as an ***unhealthy*** device.
+Incidents that are classified as either **Critical** or **Important** in severity will affect the health status of a device. If there is at least one incident of **Severity = **Important** associated with a device, it's classified as an ***unhealthy*** device.
 
-Incidents classified as a **“Warning”** or **"Recommendation"** severity do not affect the health status reported on a device. However, if a device has "Warning" level incidents associated with it, then it would be shown with the health status of the device.
+Incidents classified as a **Warning** or **Recommendation** severity don't affect the health status reported on a device. However, if a device has **Warning** level incidents associated with it, then it will be shown as a health status of the device.
 
 The following are some of the types of incidents that you might see and the explanations for each type. For each type, the action associated with the incident will be more specific depending on the issue.
 
@@ -92,13 +92,13 @@ The following are some of the types of incidents that you might see and the expl
 |Type |Explanation |
 | :- | :- |
 |**Display** |The display connected to the device doesn't appear to be healthy.|
-|**Conference microphone, Conference speaker** |The audio devices (microphone / speaker) seem to be misconfigured. |
-|**Camera** |The camera connected to the device doesn't appear to be healthy. |
-|**HDMI Ingest** |HDMI Ingest isn't healthy. |
-|**Sign-In** (Exchange) |Microsoft Teams Rooms app accesses calendar information from Exchange and any issue with sign-in success will be reported with a sign-in incident. |
-|**Sign-In** (Teams) |Microsoft Teams Rooms app signs into the device and failure to sign-in will be reported with this incident (if the customer is using Teams). |
-|**Sign-In** (Skype for Business) |Microsoft Teams Rooms app signs into the device, and failure to sign in will be reported with this incident (if the customer is using Skype for Business). |
-|**Proximity Sensor** |Microsoft Teams Rooms app invites attendees to join a meeting if they are in proximity. Failures in this feature will be reported under this incident. |
+|**Conference microphone, Conference speaker** |The audio devices (microphone and/or speaker) seem to be misconfigured.|
+|**Camera** |The camera connected to the device doesn't appear to be healthy.|
+|**HDMI Ingest** |HDMI Ingest isn't healthy.|
+|**Sign-In** (Exchange) |Microsoft Teams Rooms app accesses calendar information from Exchange and any issue with sign in success will be reported with a sign-in incident.|
+|**Sign-In** (Teams) |Microsoft Teams Rooms app signs into the device and failure to sign in will be reported with this incident (if the customer is using Teams).|
+|**Sign-In** (Skype for Business) |Microsoft Teams Rooms app signs into the device, and failure to sign in will be reported with this incident (if the customer is using Skype for Business).|
+|**Proximity Sensor** |Microsoft Teams Rooms app invites attendees to join a meeting if they are in proximity. Failures in this feature will be reported under this incident.|
 
 **Table 2: Incidents with “Warning” severity**
 
@@ -109,7 +109,7 @@ The following are some of the types of incidents that you might see and the expl
 
 ## Responding to Incidents
 
-Incidents fall into two categories: Needs Action or System Investigating.
+Incidents fall into two categories.
 
 ### “Needs Action” Incidents
 
@@ -130,11 +130,11 @@ The top panel on the Rooms view provides a quick snapshot of how many of your de
 
 **Healthy / Unhealthy rooms**:
 
-Devices/peripherals which do not have any incidents of severity “Important” are meeting current criteria for health are marked as healthy. There is a visual cue of a green heart to represent a healthy state. However, just because a room may be marked as Unhealthy (as indicated by a red broken heart), doesn't necessarily imply that there is a room *outage* for every unhealthy device in the portal. The description and action part of the incident contains more specific details about the issue and potential impact on user experience.
+Devices and peripherals which don't have any incidents of severity “Important” are meeting current criteria for health are marked as healthy. There is a visual cue of a green heart to represent a healthy state. However, just because a room may be marked as Unhealthy (as indicated by a red broken heart), doesn't necessarily imply that there is a room *outage* for every unhealthy device in the portal. The description and action part of the incident contains more specific details about the issue and potential impact on user experience.
 
 **Unmonitored device:**
 
-For rooms that have the state of Unmonitored, it means that the Teams Rooms Pro management monitoring agent deployed is disconnected from Teams Rooms Pro Management cloud services. We aren't receiving telemetry about the room and do not have latest health status. This may happen due to network issues, firewall policy changes or if there are changes made to the device image.
+For rooms that have the state of **Unmonitored**, it means that the Teams Rooms Pro management monitoring agent deployed is disconnected from Teams Rooms Pro Management cloud services. We aren't receiving telemetry about the room and don't have latest health status. This may happen due to network issues, firewall policy changes or if there are changes made to the device image.
 
 ## Room Detail: Status and Changes
 
@@ -148,7 +148,7 @@ To view all signals contained within a signal category, enable the **Show all si
 When a room is enrolled, you are indicating that you want to receive notifications for changes in room telemetry. There are occasions when a particular device or peripheral is in a known state where you do not want tickets or notifications generated. Using the Suppress ticket functionality will silence any notification about that particular signal. When you are ready for the service to monitor and notify you about that signal, simply unsuppress the individual signal.
 
 **Active Ticket Category Expansion**
-Under each ticket category, any active or latest resolved ticket will be displayed along with the severity and when the ticket was last updated. By clicking on the expansion arrow, all tickets will appear with an active link to the ticket information.
+Under each ticket category, any active or latest resolved ticket will be displayed along with the severity and when the ticket was last updated. By selecting on the expansion arrow, all tickets will appear with an active link to the ticket information.
 
 ## Active Ticket: Overview
 
