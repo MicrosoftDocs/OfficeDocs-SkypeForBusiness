@@ -78,7 +78,9 @@ To create a Teams Rooms on Windows consoles device group, see [Create a device g
 
 To create a dynamic device group that includes all of the Teams Rooms consoles to use AutoPilot, use the following query:
 
+```graphql
 (device.devicePhysicalIds -any _ -startswith"[OrderID]:MTR-")
+```
 
 ## **Step 4: Deploy Teams Room app update tool**
 
