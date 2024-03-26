@@ -82,7 +82,7 @@ To create a dynamic device group that includes all of the Teams Rooms consoles t
 (device.devicePhysicalIds -any _ -startswith"[OrderID]:MTR-")
 ```
 
-## **Step 4: Deploy Teams Room app update tool**
+## Step 4: Deploy Teams Room app update tool
 
 The Teams Rooms app update tool updates the Teams room app running on the device to a version that supports AutoPilot and Autologin. The update tool needs to be first downloaded, then uploaded to Intune, and deployed to the Teams Rooms on Windows consoles. Although it's not required, use dynamic device groups. During the AutoPilot Enrollment Status Page (ESP), Intune installs the update tool to the Teams Rooms console and updates the Teams room app before it starts.
 
@@ -121,7 +121,7 @@ To create an enrollment status page profile for your Teams Room on Windows conso
 
 The required settings for ESP on Teams Rooms are:
 
-|**Setting**|**Option**|
+| Setting | Option |
 |:-----|:-----|
 | Show app and profile configuration progress                                                 | Yes         |
 | Block device use until all apps and profiles are installed                                  | Yes         |
