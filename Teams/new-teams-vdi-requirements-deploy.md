@@ -229,10 +229,10 @@ Known limitations:
 
 For Outlook to properly display presence status, the following steps are required on the golden image:
 
-1. Install machine-wide (ALLUSERS=1) the 'Windows 10 1809 and Windows Server 2019 KB5035849 240209_02051 Feature Preview.msi'.
+1. Install machine-wide (ALLUSERS=1) the '[Windows 10 1809 and Windows Server 2019 KB5035849 240209_02051 Feature Preview.msi](https://statics.teams.cdn.office.net/evergreen-assets/DesktopClient/Windows%2010%201809%20and%20Windows%20Server%202019%20KB5035849%20240209_02051%20Feature%20Preview.msi)'.
 1. Open your Group Policy Editor. Navigate to Computer Configuration\Administrative Templates\KB5035849 240209_02051 Feature Preview\Windows 10, version 1809 and Windows Server 2019. Change the value of that Setting to **Enabled**.
-1. Install KB5035849 March 2024 cumulative update from Microsoft Update Catalog or WSUS for Enterprises.
-1. Install machine-wide (ALLUSERS=1) the 'MSTeamsNativeUtility.msi'.
+1. Install [KB5035849](https://support.microsoft.com/topic/march-12-2024-kb5035849-os-build-17763-5576-719f5f8d-51c6-43f0-a612-1c15802fed06) March 2024 cumulative update from the [Microsoft Update Catalog](https://www.catalog.update.microsoft.com/Search.aspx?q=2024-03%20Cumulative%20Update%20for%20Windows%20Server%202019%20for%20x64-based%20Systems%20(KB5035849)) or WSUS for Enterprises.
+1. Install machine-wide (ALLUSERS=1) the '[MSTeamsNativeUtility.msi](https://statics.teams.cdn.office.net/evergreen-assets/DesktopClient/MSTeamsNativeUtility.msi)'.
 1. Reboot the virtual machine.
 1. Install new Teams 24033.811.2738.2546 or higher, using Dism as described in the section above.
 
