@@ -78,7 +78,7 @@ To create a Teams Rooms on Windows consoles device group, see [Create a device g
 
 To create a dynamic device group that includes all of the Teams Rooms consoles to use AutoPilot, use the following query:
 
-```graphql
+```odata
 (device.devicePhysicalIds -any _ -startswith"[OrderID]:MTR-")
 ```
 
@@ -173,8 +173,8 @@ To assign an account to an AutoPilot device, the device must have an AutoPilot p
     - Enter the credentials if manual was selected.
     - Generate password automatically. This sets a password for the account.
 
-   > [!Note]
-   > Generate password requires Exchange Admin privileges to work. This option won't work with Hybrid resource accounts.
+      > [!Note]
+      > Generate password requires Exchange Admin privileges to work. This option won't work with Hybrid resource accounts.
 
 6. On the **Review** page, select **Finish** to link the resource account to AutoPilot device.
 
