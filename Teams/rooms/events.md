@@ -22,15 +22,15 @@ ms.localizationpriority: medium
 description: Read this article to learn more about the event feed in the Microsoft Teams Rooms Pro Management portal. 
 ---
 
-# Event feed in Microsoft Teams Rooms Pro Management Portal
+# Events feed in Microsoft Teams Rooms Pro Management Portal
 
-Introducing the Event feed in the Teams Rooms Pro Management portal, the way to view and highlight room events of the past. The event feed is the central place to view historical occurrences, like poor calls, user-reported issues, and other information.
+The Event feed in the Teams Rooms Pro Management portal is the way to view and highlight room events that have happened in the past. The event feed is the central place to view historical occurrences, like poor calls, user-reported issues, and other information.
 
-Events are informative and differ from tickets and signals. They don't need to be triaged, but one or many can be used to flag rooms as unhealthy. Flagging a room as unhealthy from the events feed creates a ticket.
+Events are informative and differ from tickets and signals. They don't need to be triaged, but one or more can be used to flag rooms as **unhealthy**. Flagging a room as unhealthy from the events feed then creates a support ticket.
 
 ## Event feed
 
-Events represent activity of the past like issues that occurred briefly, changes to the device, or interactions with the device. Events are informative and differ from health signals, which represent the current condition of devices. They do not need to be triaged, but one or more can be used to flag rooms as unhealthy.
+Events represent activity of the past like issues that occurred briefly, changes to the device, or interactions with the device. Events are informative and differ from health signals, which represent the current condition of devices. They don't need to be triaged, but one or more can be used to flag rooms as unhealthy.
 
 **To view events:**
 
@@ -49,7 +49,7 @@ Events represent activity of the past like issues that occurred briefly, changes
 
 **Flag as unhealthy**
 
-While events are meant to be informative, it's possible to elevate one or more events into a ticket. This makes the respective room(s) unhealthy. This feature is useful if a pattern of events is perceived as problematic and requires troubleshooting.
+While events are meant to be informative, it's possible to elevate one or more events into a support ticket which will in turn mark the Teams Rooms as unhealthy. This feature is useful if a pattern of events is perceived as problematic and requires further troubleshooting.
 
 **To flag a room as unhealthy:**
 
