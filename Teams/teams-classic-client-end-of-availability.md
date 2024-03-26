@@ -98,7 +98,7 @@ Starting in March 2024, any classic Teams users who haven’t updated to new Tea
 > [!NOTE]
 > You can dismiss this banner when it starts to appear, but the banner will reappear with each client launch.
 
-Here's a list of the banner messages you may experience after January 31 2024:
+Here's a list of the banner messages you may experience:
 
 |Condition for triggering the banner |Banner message |Further information |
 |------------------------------------|---------------|--------------------|
