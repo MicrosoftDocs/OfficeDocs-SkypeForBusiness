@@ -1,0 +1,60 @@
+---
+title: Viewing Microsoft Teams Rooms events
+ms.author: tonysmit
+author: tonysmit
+manager: pamgreen
+ms.reviewer: altsou
+ms.date: 03/28/2024
+ms.topic: article
+audience: admin
+appliesto:
+ - Microsoft Teams
+ms.service: msteams
+ms.subservice: itpro-rooms
+ms.collection:
+ - M365-collaboration
+ - teams-rooms-consoles
+ - Tier1
+f1.keywords:
+ - NOCSH
+search.appverid: MET150
+ms.localizationpriority: medium
+description: Read this article to learn more about the event feed in the Microsoft Teams Rooms Pro Management portal. 
+---
+
+# Event feed in Microsoft Teams Rooms Pro Management Portal
+
+Introducing the Event feed in the Pro Management portal, the way to view and highlight room events of the past. The event feed is the central place to view historical occurrences, like poor calls, user-reported issues and more.
+
+Events are informative and differ from tickets and signals. They do not need to be triaged, but one or many can be used to flag rooms as unhealthy. Flagging a room as unhealthy from events creates a ticket.
+
+## Event feed
+
+Events represent activity of the past like issues that occurred briefly, changes to the device, or interactions with the device. Events are informative and differ from health signals, which represent the current condition of devices. They do not need to be triaged, but one or more can be used to flag rooms as unhealthy.
+
+**To view events:**
+
+1. In the left navigation of the Microsoft Teams Rooms Pro Management portal, go to  **Events**
+
+**Types of events**
+
+  ------------------------------------------------------------------------
+  Event type               Source                Description
+  ------------------------ --------------------- -------------------------
+  Poor call detected       Call record           Call analytics detected a
+                                                 poor quality call (Learn
+                                                 more)
+
+  ------------------------------------------------------------------------
+
+**Flag as unhealthy**
+
+While events are meant to be informative, it is possible to elevate one or more events into a ticket. This will make the respective room(s) unhealthy. This feature is useful if a pattern of events is perceived as problematic and requires troubleshooting.
+
+**To flag a room as unhealthy:**
+
+1. In the left navigation of the Microsoft Teams Rooms Pro Management portal, go to **Events**.
+2. Select one or more events in the list and **Flag as unhealthy**.
+3. On the **Details** page, in the Description field, describe as best as possible the issue. Select **High Impact** to elevate importance to your support if the incident is causing significant health degradation for a critical room. Choose **Next.**
+4. On the **Events** page, select more events to add to this issue if needed. Choose **Next.**
+5. On the **Finish** page, review the details of the issue. If you're satisfied with the configuration, choose **Submit**. If you want to edit a section, use the **Previous** button or select the step in the left navigation.
