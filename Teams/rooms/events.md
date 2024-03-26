@@ -24,9 +24,9 @@ description: Read this article to learn more about the event feed in the Microso
 
 # Event feed in Microsoft Teams Rooms Pro Management Portal
 
-Introducing the Event feed in the Pro Management portal, the way to view and highlight room events of the past. The event feed is the central place to view historical occurrences, like poor calls, user-reported issues and more.
+Introducing the Event feed in the Teams Rooms Pro Management portal, the way to view and highlight room events of the past. The event feed is the central place to view historical occurrences, like poor calls, user-reported issues, and other information.
 
-Events are informative and differ from tickets and signals. They do not need to be triaged, but one or many can be used to flag rooms as unhealthy. Flagging a room as unhealthy from events creates a ticket.
+Events are informative and differ from tickets and signals. They don't need to be triaged, but one or many can be used to flag rooms as unhealthy. Flagging a room as unhealthy from the events feed creates a ticket.
 
 ## Event feed
 
@@ -41,15 +41,15 @@ Events represent activity of the past like issues that occurred briefly, changes
   ------------------------------------------------------------------------
   Event type               Source                Description
   ------------------------ --------------------- -------------------------
-  Poor call detected       Call record           Call analytics detected a
+  Poor call detected.       Call record         Call analytics detected a
                                                  poor quality call (Learn
-                                                 more)
+                                                 more).
 
   ------------------------------------------------------------------------
 
 **Flag as unhealthy**
 
-While events are meant to be informative, it is possible to elevate one or more events into a ticket. This will make the respective room(s) unhealthy. This feature is useful if a pattern of events is perceived as problematic and requires troubleshooting.
+While events are meant to be informative, it's possible to elevate one or more events into a ticket. This makes the respective room(s) unhealthy. This feature is useful if a pattern of events is perceived as problematic and requires troubleshooting.
 
 **To flag a room as unhealthy:**
 
