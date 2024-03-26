@@ -12,12 +12,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 548ec156-4d1a-469d-a804-62cff226e5c2
-description: "tblPrincipalInvites contains invitations for all provisioned users for all nodes with auto-invite on."
+description: "tblPrincipalInvites contain invitations for all provisioned users for all nodes with autoinvite on."
 ---
 
 # tblPrincipalInvites
  
-tblPrincipalInvites contains invitations for all provisioned users for all nodes with auto-invite on.
+tblPrincipalInvites contain invitations for all provisioned users for all nodes with autoinvite on.
   
 **Columns**
 

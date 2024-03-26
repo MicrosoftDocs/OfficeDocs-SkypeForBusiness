@@ -14,6 +14,7 @@ search.appverid: MET150
 ms.collection: 
   - M365-collaboration
   - m365initiative-deployteams
+  - essentials-overview
 f1.keywords:
 - CSH
 ms.custom: 
@@ -32,6 +33,9 @@ Don't miss our Welcome to Teams for the Teams admin video (just over 3 minutes):
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
 
 If you're looking for end user Teams Help, click **Help** on the left side of the app, or go to the [Microsoft Teams help center](https://support.office.com/teams). For training, go to [Microsoft Teams Training](training-microsoft-teams-landing-page.md). 
+
+> [!IMPORTANT]
+> For details about Teams feature availability and licensing, see [Teams add-on licensing options](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
 ## Teams architecture
 
