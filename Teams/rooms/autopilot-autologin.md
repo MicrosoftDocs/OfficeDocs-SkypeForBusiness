@@ -47,9 +47,11 @@ To use AutoPilot and Autologin to provision and deploy Microsoft Teams Rooms con
 To successfully deploy Microsoft Teams Rooms consoles, verify that these prerequisites are met.
 
 1. You must buy enough Teams Rooms Pro licenses for each of the consoles you're provisioning and deploying. If you buy a Teams Rooms Pro licenses, they include the correct Intune and Microsoft Entra ID P1 licenses. To see more information on the licensing requirements for AutoPilot, see [AutoPilot licensing requirements](/autopilot/licensing-requirements).
+
 2. You must verify the account you're using to deploy the consoles has the correct permissions.
-  a.  For Intune, verify that the account has the Intune Administrator or Policy and Profile Manager permissions, see [Learn more](/autopilot/add-devices#required-permissions).
-  b. For the Teams Management Pro portal, the account has the Teams Rooms Pro Manager permissions.
+   1.  For Intune, verify that the account has the Intune Administrator or Policy and Profile Manager permissions, see [Learn more](/autopilot/add-devices#required-permissions).
+   1. For the Teams Management Pro portal, the account has the Teams Rooms Pro Manager permissions.
+
 3. You must [Set up Windows automatic Intune enrollment](/autopilot/tutorial/self-deploying/self-deploying-automatic-enrollment#set-up-windows-automatic-intune-enrollment).
 4. You must create and set up the required resource accounts. See, [Create a resource account](/microsoftteams/rooms/create-resource-account).
 5. You must be only deploying Microsoft Teams Rooms on Windows consoles. See, [Teams Rooms Windows support](/microsoftteams/rooms/rooms-lifecycle-support).
@@ -93,14 +95,16 @@ To deploy the Teams Rooms app update tool to your consoles:
 5. On this page, most fields are automatically populated. To see the update tool in the list, put in **Microsoft** as the publisher, then select **Next**.
 6. Under **Program**, select **Next**.
 7. Under **Requirements** set the following:
-    a.  Under **Operating system architecture**, select **32-bit** and **64-bit**.
-    b.  Under **Minimum operating system**, select **Windows 10 21H2**.
+   1.  Under **Operating system architecture**, select **32-bit** and **64-bit**.
+   1.  Under **Minimum operating system**, select **Windows 10 21H2**.
+
 8. Under **Detection rules**, set:
-    a.  **Rules format: Manually configure detection rules**, select **Add**.
-    b.  In the **Detection rule** detail pane, select **MSI** in the **Rule type**. The **MSI product code** should fill in automatically.
-    c.  Select **No** for **MSI product version check**.
-    d.  Select **OK**.
-    e.  Select **Next**.
+   1.  **Rules format: Manually configure detection rules**, select **Add**.
+   1.  In the **Detection rule** detail pane, select **MSI** in the **Rule type**. The **MSI product code** should fill in automatically.
+   1.  Select **No** for **MSI product version check**.
+   1.  Select **OK**.
+   1.  Select **Next**.
+
 9. Under **Dependencies**, select **Next**.
 10. Under **Supersedence**, select **Next**.
 11. Under **Assignments**, select **Add group**.
@@ -206,18 +210,18 @@ To start the AutoPilot deployment process on the console that is AutopAutoPiloti
 
 - If the device isn't connected to a wired network or if it doesn't have network connectivity, it prompts you to connect to a network.
 
-    a. The OOBE (Out of Box Experience) begins and a screen asking for a country/region appears. Select the appropriate country or region, and then select **Yes**.
+  1. The OOBE (Out of Box Experience) begins and a screen asking for a country/region appears. Select the appropriate country or region, and then select **Yes**.
 
-    b. The keyboard screen appears to select a keyboard layout. Select the appropriate keyboard layout, and then select **Yes**. If needed, you can select additional keyboard layouts by selecting **Add layout**, or select **Skip** if you don't want to add additional keyboard layouts.
+  1. The keyboard screen appears to select a keyboard layout. Select the appropriate keyboard layout, and then select **Yes**. If needed, you can select additional keyboard layouts by selecting **Add layout**, or select **Skip** if you don't want to add additional keyboard layouts.
 
-    > [!Note]
-    > When there's no network connectivity, the device can't downloaded the AutoPilot profile to identify the country/region and keyboard settings to use. This is why when there's no network connectivity, the country/region and keyboard screens appear and must be set to hidden in the AutoPilot profile. These settings need to be set in order for the network connectivity screensto work properly.
+     > [!Note]
+     > When there's no network connectivity, the device can't downloaded the AutoPilot profile to identify the country/region and keyboard settings to use. This is why when there's no network connectivity, the country/region and keyboard screens appear and must be set to hidden in the AutoPilot profile. These settings need to be set in order for the network connectivity screensto work properly.
 
-    d. The **Let's connect you to a network** screen appears. At this screen, either plug the device into a wired network (if available), or select and connect to a wireless Wi-Fi network.
+  1. The **Let's connect you to a network** screen appears. At this screen, either plug the device into a wired network (if available), or select and connect to a wireless Wi-Fi network.
 
-    e. Once network connectivity is established, the **Next** button is available. Select **Next**.
+  1. Once network connectivity is established, the **Next** button is available. Select **Next**.
 
-    f. The device may reboot to apply critical security updates if they're available. After the reboot to apply critical security updates, the Autopilot process begins.
+  1. The device may reboot to apply critical security updates if they're available. After the reboot to apply critical security updates, the Autopilot process begins.
 
 4. The Enrollment Status Page (ESP) displays progress during the provisioning process in two phases:
 
@@ -226,8 +230,8 @@ To start the AutoPilot deployment process on the console that is AutopAutoPiloti
 
     The first two phases of **Device preparation** and **Device setup** are part of the Device ESP. The second phase of **Account setup** is part of the User ESP. For Windows Autopilot self-deploying mode, only the Device ESP and these two related phases (**Device preparation** and **Device setup**) run.
 
-> [!Note]
-> User ESP and **Account setup** aren't recommended for Teams Rooms deployments.
+    > [!Note]
+    > User ESP and **Account setup** aren't recommended for Teams Rooms deployments.
 
 5. During **Device setup** the Teams Rooms app update tool runs and updates the Teams app. When the device ESP process completes, the Windows AutoPilot self-deploying deployment is complete, and the Teams Rooms Out-of-box experience starts.
 
