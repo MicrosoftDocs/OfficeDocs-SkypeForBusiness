@@ -188,8 +188,8 @@ When you take the console out of the box:
 2. Windows then completes the provisioning and enrollment of the console.
 3. The Teams app will automatically log in.
 
-> [!Note]
-> When the device successfully completes Autologin, the **Provisioning status** changes to **Consumed**.
+   > [!Note]
+   > When the device successfully completes Autologin, the **Provisioning status** changes to **Consumed**.
 
 **Autologin if you are resetting a Teams Room**
 
@@ -208,9 +208,9 @@ To start the AutoPilot deployment process on the console that is AutopAutoPiloti
    > [!IMPORTANT]
    > Connectivity to the Internet is required.
 
-- If the device is connected to a wired network, the device may reboot to apply critical security updates if they're available. After the reboot to apply critical security updates, the AutoPilot process begins.
+   - If the device is connected to a wired network, the device may reboot to apply critical security updates if they're available. After the reboot to apply critical security updates, the AutoPilot process begins.
 
-- If the device isn't connected to a wired network or if it doesn't have network connectivity, it prompts you to connect to a network.
+   - If the device isn't connected to a wired network or if it doesn't have network connectivity, it prompts you to connect to a network.
 
   1. The OOBE (Out of Box Experience) begins and a screen asking for a country/region appears. Select the appropriate country or region, and then select **Yes**.
 
