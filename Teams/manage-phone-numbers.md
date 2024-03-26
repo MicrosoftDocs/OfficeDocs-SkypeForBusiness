@@ -3,7 +3,7 @@ title: "Manage phone numbers for Calling Plan and services"
 author: CarolynRowe
 ms.author: crowe
 manager: pamgreen
-ms.date: 03/15/2023
+ms.date: 03/21/2024
 ms.topic: conceptual
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
@@ -53,7 +53,6 @@ For information about how many phone numbers you can get, see [How many phone nu
 > - [Austria](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-austria)
 > - [Belgium](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-belgium)
 > - [Canada](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-canada)
-> - [Croatia](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-croatia)
 > - [Czech Republic](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-czech-republic)
 > - [Denmark](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-denmark)
 > - [Estonia](/microsoftteams/phone-reference/manage-numbers/phone-number-management-for-estonia)

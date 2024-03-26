@@ -8,7 +8,7 @@ manager: prkosh
 audience: admin
 ms.service: msteams
 ms.subservice: teams-apps
-ms.date: 06/27/2023
+ms.date: 03/18/2024
 ms.reviewer: mhayrapetyan
 ms.collection: 
   - M365-collaboration
