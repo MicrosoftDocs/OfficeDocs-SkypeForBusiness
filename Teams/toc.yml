@@ -1506,7 +1506,7 @@ items:
               href: rooms/rooms-deploy.md
             - name: Prepare your environment
               href: rooms/rooms-prep.md
-            - name: AutoPilot and Autologin.md 
+            - name: AutoPilot and Autologin
               href: rooms/autopilot-autologin.md
             - name: Create resource accounts 
               href: rooms/create-resource-account.md
