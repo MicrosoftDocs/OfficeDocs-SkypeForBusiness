@@ -38,7 +38,7 @@ To use AutoPilot and Autologin to provision and deploy Microsoft Teams Rooms con
 - Step 4: [Deploy Teams Rooms app update tool](#step-4-deploy-teams-room-app-update-tool)
 - Step 5: [Create an Enrollment Status Page (ESP) profile](#step-5-create-an-autopilot-enrollment-status-page-esp-status-page-profile)
 - Step 6: [Create and assign Autopilot profile](#step-6-create-an-autopilot-profile)
-- Step 7: [Create and assign a Local Administrator Password Solution policy](/mem/intune protect/windows-laps-policy#create-a-laps-policy)
+- Step 7: [Create and assign a Local Administrator Password Solution policy](#step-7-create-and-assign-a-local-administrator-password-solution-laps-policy)
 - Step 8: [Set up Autologin in the Pro Management Portal](#step-8-set-up-autologin-in-the-teams-rooms-pro-management-portal)
 - Step 9: [Deploy the device](#step-9-deploy-the-teams-rooms-console)
 
