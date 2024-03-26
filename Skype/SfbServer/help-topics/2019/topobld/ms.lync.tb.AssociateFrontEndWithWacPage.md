@@ -15,22 +15,22 @@ ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 ROBOTS: NOINDEX, NOFOLLOW
-description: "The Office Web Apps Server provides services similar to a presenter uploading a document for use in a meeting, but enables additional features that the prior versions did not."
+description: "The Office Web Apps Server provides services similar to a presenter uploading a document for use in a meeting, but enables other features that the prior versions didn't."
 ---
 
 # Associate Front End With Office Web Apps Server Page
 
-The Office Web Apps Server provides services similar to a presenter uploading a document for use in a meeting, but enables additional features that the prior versions did not.
+The Office Web Apps Server provides services similar to a presenter uploading a document for use in a meeting, but enables other features that the prior versions didn't.
 
-You select an Office Web Apps Server for your deployment if you have chosen Conferencing as one of your feature options for your Skype for Business Server configuration.
+When you select an Office Web Apps Server for your deployment if you choose Conferencing as one of your feature options for your Skype for Business Server configuration.
 
 The options in this dialog present you with these choices:
 
-1. **Associate pool with an Office Web Apps Server** - You select this check box if you will provide and deploy an Office Web Apps Server for your conferencing users.
+1. **Associate pool with an Office Web Apps Server** - You select this check box if you provide and deploy an Office Web Apps Server for your conferencing users.
 
-2. If you have selected the check box, you use the list to select an already defined Office Web Apps Server.
+2. If you select the check box, you use the list to select an already defined Office Web Apps Server.
 
-3. Click **New** to define a new Office Web Apps Server for your deployment.
+3. Select **New** to define a new Office Web Apps Server for your deployment.
 
 ## See also
 

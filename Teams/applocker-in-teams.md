@@ -27,7 +27,7 @@ The process for enabling Teams with AppLocker requires the creation of AppLocker
 
 ## Teams allow list with AppLocker
 
-AppLocker rules are organized into collections of rules. AppLocker rules apply to the targeted app, and they are the components that make up the AppLocker policy.  
+AppLocker rules are organized into collections of rules. AppLocker rules apply to the targeted app, and they're the components that make up the AppLocker policy.  
 
 To allow Teams, we recommend that you use the [publisher condition rules](/windows/security/threat-protection/windows-defender-application-control/applocker/understanding-the-publisher-rule-condition-in-applocker) since all Teams app files are digitally signed.
   
@@ -37,7 +37,7 @@ Since Teams desktop executable files are digitally signed, the publisher conditi
 
 ### Example of publisher condition rules
 
-For the Teams client app (all files, all versions) add the following to the Executable Rules & DLL Rules:
+For the Teams client app (all files, all versions) adds the following to the Executable Rules & DLL Rules:
 
 ```console
 Publisher: O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US
@@ -45,6 +45,6 @@ Product name: MICROSOFT TEAMS
 Product name: MICROSOFT TEAMS UPDATE
 ```
 
-## Related topics
+## Related articles
 [What is AppLocker?](/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker)
 [AppLocker technical reference](/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference)

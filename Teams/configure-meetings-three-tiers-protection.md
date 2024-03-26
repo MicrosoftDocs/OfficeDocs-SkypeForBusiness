@@ -1,7 +1,7 @@
 ---
 title: Configure Teams meetings with three tiers of protection
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
@@ -82,6 +82,7 @@ Some options are only available in sensitivity labels and some are only availabl
 - End-to-end encryption
 - Lobby options
 - Meeting recording
+- Prevent copying chat content to clipboard
 - Watermarking
 
 Sensitivity labels and templates can be used together to help you meet your compliance needs. For more information, see [Use Teams meeting templates, sensitivity labels, and admin policies together](meeting-templates-sensitivity-labels-policies.md).
@@ -92,11 +93,11 @@ Meeting chat can be an important part of collaboration during a meeting. However
 
 As an admin, you can control meeting chat in the following ways:
 
-- **Teams admin meeting policy** (per user or group) can be used to allow chat, allow chat for everyone except anonymous participants, or turn chat off.
-- **Sensitivity label meeting option** (per meeting) can enforce chat to be on or off or allowed only during the meeting. This option can be left unconfigured to be controlled by a template or the meeting organizer.
-- **Meeting template meeting option** (per meeting) can enforce chat to be on or off or allowed only during the meeting. This option can be left unconfigured to be controlled by the meeting organizer.
+- **Teams admin meeting policy** (per user or group) can be used to allow chat, allow chat for everyone except anonymous participants, or turn chat off. Can also be used to prevent copying chat content to the clipboard.
+- **Sensitivity label meeting option** (per meeting) can enforce chat to be on or off or allowed only during the meeting. Can also be used to prevent copying chat content to the clipboard These options can be left unconfigured to be controlled by a template or the meeting organizer.
+- **Meeting template meeting option** (per meeting) can enforce chat to be on or off or allowed only during the meeting. Can also be used to prevent copying chat content to the clipboard. These options can be left unconfigured to be controlled by the meeting organizer.
 
-For the three tiers of protection, we allow chat for baseline and sensitive meetings and restrict it in highly sensitive meetings to in-meeting only.
+For the three tiers of protection, we allow chat for baseline and sensitive meetings and restrict it in highly sensitive meetings to in-meeting only. We also prevent copying chat content to the clipboard in sensitive and highly sensitive meetings.
 
 For more information, see [Manage chat for sensitive Teams meetings](manage-chat-sensitive-meetings.md).
 

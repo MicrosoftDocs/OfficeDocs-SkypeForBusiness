@@ -24,7 +24,7 @@ The Get Sub-Items operation is part of the Item Service in the Repository API fo
   
 ## Get Sub-Items
 
-Get Sub-Items returns a specific Item's sub-items.
+Get Sub-Items returns a specific Item's subitems.
   
 
 |**Method**|**Request URI**|**HTTP Version**|
@@ -33,15 +33,15 @@ Get Sub-Items returns a specific Item's sub-items.
    
  **URI Parameters** - None.
   
- **Request Headers** - No additional headers.
+ **Request Headers** - No extra headers.
   
  **Request Body** - None.
   
  **Response** - The response includes an HTTP status code and a set of response headers.
   
- **Status Code** - A successful operation returns status code 200 (OK). If a specified user ID is not found, it returns status code 404 (Not Found).
+ **Status Code** - A successful operation returns status code 200 (OK). If a specified user ID isn't found, it returns status code 404 (Not Found).
   
- **Response Headers** - No additional headers.
+ **Response Headers** - No extra headers.
   
  **Response Body** - Below is a sample response payload in JSON.
   

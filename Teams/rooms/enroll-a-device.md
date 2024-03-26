@@ -3,18 +3,18 @@ title: Enroll a Teams Room device into Pro Management
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
+ms.reviewer: kimmatlock
 ms.date: 09/28/2022
 ms.topic: article
-ms.tgt.pltfrm: cloud
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-audience: Admin
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
-  - Tier3
-appliesto: 
-  - Microsoft Teams
+  - Tier1
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Onboarding Teams Rooms devices to Pro Management portal

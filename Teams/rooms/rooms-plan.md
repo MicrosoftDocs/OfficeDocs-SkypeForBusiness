@@ -2,23 +2,23 @@
 title: Plan for Microsoft Teams Rooms
 ms.author: tonysmit
 author: mstonysmith
+manager: pamgreen
 ms.reviewer: sohailta
 ms.date: 10/04/2023
-manager: pamgreen
-audience: ITPro
-ms.topic: conceptual
+ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
+appliesto: 
+  - Microsoft Teams
+ms.collection: 
+  - M365-collaboration
+  - teams-rooms-devices
+  - Tier1
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-ms.collection: 
-  - M365-collaboration
-  - m365initiative-meetings
-  - teams-rooms-devices
-  - Tier1
-  - highpri
 description: This article explains the relevant planning considerations for deploying Microsoft Teams Rooms, the next generation of Skype Room Systems.
 ---
 

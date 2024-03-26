@@ -135,12 +135,12 @@ When a user is in any of the Skype for Business modes (SfBOnly, SfBWithTeamsColl
 
 [Teams client experience and conformance to coexistence modes](./teams-client-experience-and-conformance-to-coexistence-modes.md)
 
-[Get-CsTeamsUpgradePolicy](/powershell/module/skype/get-csteamsupgradepolicy?view=skype-ps)
+[Get-CsTeamsUpgradePolicy](/powershell/module/teams/get-csteamsupgradepolicy)
 
-[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
+[Grant-CsTeamsUpgradePolicy](/powershell/module/teams/grant-csteamsupgradepolicy)
 
-[Get-CsTeamsUpgradeConfiguration](/powershell/module/skype/get-csteamsupgradeconfiguration?view=skype-ps)
+[Get-CsTeamsUpgradeConfiguration](/powershell/module/teams/get-csteamsupgradeconfiguration)
 
-[Set-CsTeamsUpgradeConfiguration](/powershell/module/skype/set-csteamsupgradeconfiguration?view=skype-ps)
+[Set-CsTeamsUpgradeConfiguration](/powershell/module/teams/set-csteamsupgradeconfiguration)
 
 [Using the Meeting Migration Service (MMS)](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
