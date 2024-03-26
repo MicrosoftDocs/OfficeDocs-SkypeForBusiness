@@ -28,7 +28,7 @@ ms.custom: seo-marvel-mar2020
 
 Use the porting step-by-step guide in the Microsoft Teams admin center to transfer your phone numbers from your current service provider to Teams. After you port your phone numbers to Teams, Microsoft will become your service provider. For more information, see [How many telephone numbers can you get?](../how-many-phone-numbers-can-you-get.md)
 
-Before you start, we recommend you review the information in [What's a port order?](port-order-overview.md) If you have service numbers for dial-in conferencing bridges, auto attendants or other service numbers, toll-free phone numbers, or have more than 999 user (subscriber) phone numbers that you need to transfer to Teams, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to download the correct forms and send them to us.
+Before you start, we recommend you review the information in [What's a port order?](port-order-overview.md) If you have service numbers for dial-in conferencing bridges, Auto attendants or other service numbers, toll-free phone numbers, or have more than 999 user (subscriber) phone numbers that you need to transfer to Teams, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to download the correct forms and send them to us.
 
   > [!NOTE]
   > We process port orders for transferring phone numbers only on United States business days and not on public holidays or weekends.
@@ -38,7 +38,9 @@ Before you start, we recommend you review the information in [What's a port orde
 ## Create a port order and transfer your phone numbers to Teams
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Phone numbers**. Select **Numbers**, and then select **Port** to start the porting wizard.
+
 2. Review the information on the **Get started** page, and then when you're ready, select **Next**.
+
 3. On the **Select location and number type** page, specify the following, and then select **Next**:
 
     - **Country or region**: Country or region where you're getting numbers.
@@ -71,10 +73,10 @@ Before you start, we recommend you review the information in [What's a port orde
 
     If you haven't already downloaded and signed the LOA, do the following:
     
-    1. Select **Download the template** to download the LOA for your country or region. 
-    2. Print the LOA.
-    3. Have the LOA signed by the person who is authorized to make changes to the account.
-    4. Scan the signed LOA, and then select **Upload a signed Letter of Authorization** to upload it.
+    a. Select **Download the template** to download the LOA for your country or region. 
+    b. Print the LOA.
+    c. Have the LOA signed by the person who is authorized to make changes to the account.
+    d. Scan the signed LOA, and then select **Upload a signed Letter of Authorization** to upload it.
 
     > [!NOTE]
     > After you upload your LOA, submit your order. Just uploading the LOA isn't sufficient. You have to also submit the order for it be processed.
