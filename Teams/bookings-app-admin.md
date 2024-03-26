@@ -59,15 +59,15 @@ The Bookings app for Teams is a web experience. It can be found under [Apps in T
 
 ## Control access to Bookings within your organization
 
-There are several ways to control who has access to the Bookings app and to specific features of the app. You can turn on or turn off Bookings for your organization or for individual users in the Microsoft 365 admin center. Alternately, you can create a Bookings app policy to allow select users to create Bookings calendars. To learn more, see [Turn Microsoft Bookings on or off](/microsoft-365/bookings/turn-bookings-on-or-off).
+There are several ways to control who has access to the Bookings app and to specific features of the app. You can turn on or turn off Bookings for your organization or for individual users in the Microsoft 365 admin center. Alternatively, you can create a Bookings app policy to allow select users to create Bookings calendars. To learn more, see [Turn Microsoft Bookings on or off](/microsoft-365/bookings/turn-bookings-on-or-off).
 
 You can also [create a Teams app setup policy to pin the Bookings app for select users](teams-app-setup-policies.md).
 
 ## Recommended meeting policy settings
 
-To enable the best experience for Bookings, create a Teams meeting policy to automatically admit **People in my organization** and assign the policy to your staff. The policy allows staff to join the appointment automatically and enable the lobby experience for external attendees. See [who can bypass the lobby to meetings](meeting-policies-participants-and-guests.md#who-can-bypass-the-lobby).
+To enable the best experience for Bookings, create a Teams meeting policy to automatically admit **People in my organization** and assign the policy to your staff. The policy allows staff to join the appointment automatically and enable the lobby experience for external attendees. To learn more, see [Control who can bypass the meeting lobby in Microsoft Teams](who-can-bypass-meeting-lobby.md).
 
-For more information about meeting policies, see [Manage meeting policies in Teams](meeting-policies-in-teams.md) and [Meeting policies and meeting expiration in Teams](meeting-expiration.md).
+For more information about meeting policies, see [Manage meeting and event policies in Teams](meeting-policies-overview.md).
 
 ## SMS text notifications
 
@@ -82,7 +82,7 @@ By default, this setting is on, and SMS text notifications are enabled for all b
 To configure this setting, go to the Microsoft 365 admin center \> **Settings** \> **Org settings**, and then choose **Bookings**. Select or clear the **Allow Microsoft to send SMS text message notifications** check box.
 
 Learn more about how to [configure SMS text notifications for your organization](/microsoft-365/bookings/turn-bookings-on-or-off).
-Use the [SMS notifications usage report](/microsoft-365/frontline/sms-notifications-usage-report) to understand how your organization is using SMS notifications.
+Use the [Teams SMS notifications usage report](/microsoft-365/frontline/sms-notifications-usage-report) to understand how your organization is using SMS notifications.
 
 ## Optional staff approvals setting
 
