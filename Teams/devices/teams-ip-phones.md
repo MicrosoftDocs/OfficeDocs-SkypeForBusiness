@@ -144,8 +144,8 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 | CCX350/CCX400/CCX500/CCX505/CCX600 | `8.1.5.1732` | `8.1.3.1301`| Teams client: `1449/1.0.94.2023072509` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| January 12, 2024|
 |Trio C60 | `8.1.5.1737` | `8.1.3.1300` | Teams client: `1449/1.0.94.2023072509` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| January 12, 2024 |
 |CX350/CCX400/CCX500/CCX505/CCX600 | `8.1.4.1480` | N/A | Teams client: `1449/1.0.94.2023072509` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| November 6, 2023|
-|Trio C60 | `8.1.3.1301` | N/A | Teams client: `1449/1.0.94.2023072509` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| November 6, 2023 |
-|CX350/CCX400/CCX500/CCX505/CCX600 | `8.1.4.1480` | N/A | Teams client: `1449/1.0.94.2023060906` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| August 4, 2023|
+|Trio C60 | `8.1.4.1456` | N/A | Teams client: `1449/1.0.94.2023072509` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| November 6, 2023 |
+|CX350/CCX400/CCX500/CCX505/CCX600 | `8.1.3.1301` | N/A | Teams client: `1449/1.0.94.2023060906` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| August 4, 2023|
 |Trio C60 | `8.1.3.1300` | N/A | Teams client: `1449/1.0.94.2023072509` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| November 6, 2023 |
 |CX350/CCX400/CCX500/CCX505/CCX600 | `8.1.2.1122` | N/A | Teams client: `1449/1.0.94.2023041203` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product`| May 5, 2023|
 |Trio C60 | `8.1.2.1124` | N/A | Teams client: `1449/1.0.94.2023041203` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product`| May 5, 2023|
@@ -175,7 +175,7 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 #### <b> HP | Poly </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications  | Release date| Cloud|
 |:----------------|:-------------------|:----------------------------|:------------------------------------------------------------------|:-------------------------|:----------------------------------|
-|CX350/CCX400/CCX500/CCX505/CCX600 | `8.1.2.1122` | N/A | Teams client: `1449/1.0.94.2023041203` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product`| January 22, 2024| DoD |
+|CX350/CCX400/CCX505/CCX600 | `8.1.2.1122` | N/A | Teams client: `1449/1.0.94.2023041203` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product`| January 22, 2024| DoD |
 | CCX350/CCX400/CCX500/CCX505/CCX600 | `8.1.5.1732` | `8.1.3.1301`| Teams client: `1449/1.0.94.2023072509` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| January 19, 2024| GCCH|
 |Trio C60 | `8.1.5.1737` | `8.1.3.1300` | Teams client: `1449/1.0.94.2023072509` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| January 19, 2024 | GCCH|
 |CCX500 | `8.1.2.1122` | N/A | Teams client: `1449/1.0.94.2023041203` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product`| September 26, 2023| DoD |
@@ -303,6 +303,11 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 |:----------------|:-------------------|:----------------------------|:----------------------------------------------------------------------------|:-----------------|:-------------------------------------|
 | TAP Scheduler | `1.11.205` | N/A| Teams client: `1449/1.0.97.2023111003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| February 22, 2024| GCCH|
 | TAP Scheduler | `1.10.121` | N/A| Teams client: `1449/1.0.97.2023060102` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202305022347.product`| October 9, 2023| GCCH|
+
+#### <b> Neat </b>
+| Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications  | Release date| Cloud|
+|:----------------|:-------------------|:----------------------------|:-------------------------------------------------------------------------|:-------------------------------------|
+| Neat Pad | `NFA1.20240120.0109` | N/A| Teams client: `1449/1.0.97.2023111003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| March 26, 2024| GCCH|
 
 
 ## More resources

@@ -52,7 +52,7 @@ To create a QoS audio policy for domain-joined Windows 10 computers, first log o
 
 1. In the **Policy-based QoS** dialog box, on the opening page, type a name for the new policy in the **Name** box. Select **Specify DSCP Value** and set the value to **46**. Leave **Specify Outbound Throttle Rate** unselected, and then click **Next**.
 
-1. On the next page, select **Only applications with this executable name** and enter the name **Teams.exe**, and then click **Next**. This setting instructs the policy to only prioritize matching traffic from the Teams client.  **Note:** The executable name for new Teams is *ms-teams.exe*.
+1. On the next page, select **Only applications with this executable name** and enter the name **ms-teams.exe**, and then click **Next**. This setting instructs the policy to only prioritize matching traffic from the Teams client.
 
 1. On the third page, make sure that both **Any source IP address** and **Any destination IP address** are selected, and then click **Next**. These two settings ensure that packets will be managed regardless of which computer (IP address) sent the packets and which computer (IP address) will receive the packets.
 
@@ -104,7 +104,7 @@ To verify that the values from the Group Policy object have been set, perform th
 
    |          Name          |  Type  |    Data     |
    |         :---:          | :---:  |    :---:    |
-   |    Application Name    | REG_SZ |  Teams.exe  |
+   |    Application Name    | REG_SZ |  ms-teams.exe  |
    |       DSCP Value       | REG_SZ |     46      |
    |        Local IP        | REG_SZ |     \*      |
    | Local IP Prefix Length | REG_SZ |     \*      |

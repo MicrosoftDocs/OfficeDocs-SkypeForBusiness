@@ -47,7 +47,7 @@ The following table describes which actions we'll restrict for sensitive meeting
 
 Options that are listed as enforced are enforced by the sensitivity label or meeting template. Options that are not enforced can be changed by the meeting organizer.
 
-> [!Note]
+> [!NOTE]
 > Meeting options in sensitivity labels and custom meeting templates require Teams Premium.
 
 ## Video demonstration
@@ -98,7 +98,7 @@ To create a sensitivity label
 1. Select **Next**.
 1. Complete the wizard with any other settings you want to use, select **Create label**, and then select **Done**.
 
-Once you've created the label, you need to publish it to the users who will use it. For sensitive protection, we make the label available to all users. You publish the label in the Microsoft Purview compliance portal, on the **Label policies** page under **Information protection**. If you have an existing policy that applies to all users, add this label to that policy. If you need to create a new policy, see [Publish sensitivity labels by creating a label policy](/compliance/create-sensitivity-labels#publish-sensitivity-labels-by-creating-a-label-policy).
+Once you've created the label, you need to publish it to the users who will use it. For sensitive protection, we make the label available to all users. You publish the label in the Microsoft Purview compliance portal, on the **Label policies** page under **Information protection**. If you have an existing policy that applies to all users, add this label to that policy. If you need to create a new policy, see [Publish sensitivity labels by creating a label policy](/purview/create-sensitivity-labels#publish-sensitivity-labels-by-creating-a-label-policy).
 
 For more information about using sensitivity labels with meetings, see [Use sensitivity labels to protect calendar items, Teams meetings and chat](/microsoft-365/compliance/sensitivity-labels-meetings).
 
