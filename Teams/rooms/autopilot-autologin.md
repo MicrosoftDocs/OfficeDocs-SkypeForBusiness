@@ -46,15 +46,11 @@ To use AutoPilot and Autologin to provision and deploy Microsoft Teams Rooms con
 
 To successfully deploy Microsoft Teams Rooms consoles, verify that these prerequisites are met.
 
-1. You must buy enough Teams Rooms Pro licenses for each of the consoles you're provisioning and deploying. If you buy a Teams Rooms Pro licenses, they include the correct Intune and Microsoft Entra ID P1 licenses.
+1. You must buy enough Teams Rooms Pro licenses for each of the consoles you're provisioning and deploying. If you buy a Teams Rooms Pro licenses, they include the correct Intune and Microsoft Entra ID P1 licenses. To see more information on the licensing requirements for AutoPilot, see [AutoPilot licensing requirements](/autopilot/licensing-requirements).
 2. You must verify the account you're using to deploy the consoles has the correct permissions.
-
-    a. For Intune, verify that the account has the Intune Administrator or Policy and Profile Manager permissions, see [Learn more](/autopilot/add-devices#required-permissions).
-    b. For the Teams Management Pro portal, the account has the Teams Rooms Pro Manager permissions.
- 
-To see more information on the licensing requirements for AutoPilot, see [AutoPilot licensing requirements](/autopilot/licensing-requirements).
-
-3. You must [Set up Windows automatic Intune enrollment](/autopilot/tutorial/self-deploying self-deploying-automatic-enrollment#set-up-windows-automatic-intune-enrollment).
+  a.  For Intune, verify that the account has the Intune Administrator or Policy and Profile Manager permissions, see [Learn more](/autopilot/add-devices#required-permissions).
+  b. For the Teams Management Pro portal, the account has the Teams Rooms Pro Manager permissions.
+3. You must [Set up Windows automatic Intune enrollment](/autopilot/tutorial/self-deploying/self-deploying-automatic-enrollment#set-up-windows-automatic-intune-enrollment).
 4. You must create and set up the required resource accounts. See, [Create a resource account](/microsoftteams/rooms/create-resource-account).
 5. You must be only deploying Microsoft Teams Rooms on Windows consoles. See, [Teams Rooms Windows support](/microsoftteams/rooms/rooms-lifecycle-support).
 
@@ -208,7 +204,7 @@ To start the AutoPilot deployment process on the console that is AutopAutoPiloti
 
 - If the device is connected to a wired network, the device may reboot to apply critical security updates if they're available. After the reboot to apply critical security updates, the AutoPilot process begins.
 
-- If the device isn't connected to a wired network or if it doesn't have network connectivity, it prompts you to connect to a network. 
+- If the device isn't connected to a wired network or if it doesn't have network connectivity, it prompts you to connect to a network.
 
     a. The OOBE (Out of Box Experience) begins and a screen asking for a country/region appears. Select the appropriate country or region, and then select **Yes**.
 
