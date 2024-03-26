@@ -26,7 +26,7 @@ You can use Windows AutoPilot and Autologin to deploy, provision, reset, redeplo
 
 Windows AutoPilot with Autologin for Teams Rooms simplifies and accelerates the on-site deployment time for Teams Rooms consoles running Windows. The combination of these technologies removes the need for direct interaction with the Teams Rooms console during provisioning and deployment. Using AutoPilot and Autologin, there isn't a need for someone to physically interact with the Teams Room console to deploy it.
 
-Instead, the Teams Rooms console completes the Windows and Teams app installation automatically out-of-box. Once installation is complete, it then signs in to the Teams Room app without the need for someone to have physical access to the device. The combinations of these features greatly simplify the Teams Rooms console lifecycle, from it's initial deployment to its end of life.
+Instead, the Teams Rooms console completes the Windows and Teams app installation automatically out-of-box. Once installation is complete, it then signs in to the Teams Room app without the need for someone to have physical access to the device. The combinations of these features greatly simplify the Teams Rooms console lifecycle, from its initial deployment to its end of life.
 
 ## Overview of steps
 
@@ -38,7 +38,7 @@ To use AutoPilot and Autologin to provision and deploy Microsoft Teams Rooms con
 - Step 4: [Deploy Teams Rooms app update tool](#step-4-deploy-teams-room-app-update-tool)
 - Step 5: [Create an Enrollment Status Page (ESP) profile](#step-5-create-an-autopilot-enrollment-status-page-esp-status-page-profile)
 - Step 6: [Create and assign Autopilot profile](#step-6-create-an-autopilot-profile)
-- Step 7: [Create and assign a Local Administrator Password Solution(LAPS) policy](/mem/intune protect/windows-laps-policy#create-a-laps-policy)
+- Step 7: [Create and assign a Local Administrator Password Solution policy](#step-7-create-and-assign-a-local-administrator-password-solution-laps-policy)
 - Step 8: [Set up Autologin in the Pro Management Portal](#step-8-set-up-autologin-in-the-teams-rooms-pro-management-portal)
 - Step 9: [Deploy the device](#step-9-deploy-the-teams-rooms-console)
 
@@ -113,7 +113,7 @@ To deploy the Teams Rooms app update tool to your consoles:
 
 For more information on Win32 app deployment in Intune, see [Add and assign Win32 apps to Microsoft Intune](/mem/intune/apps/apps-win32-add#add-a-win32-app-to-intune).
 
-## Step 5: Create an AutoPilot Enrollment Status Page (ESP) Status page profile
+## Step 5: Create an AutoPilot Enrollment Status Page (ESP) status page profile
 
 To create an enrollment status page profile for your Teams Room on Windows consoles, see [Configure and assign AutoPilot Enrollment Status Page (ESP)](/autopilot/tutorial/self-deploying/self-deploying-esp).
 
@@ -128,16 +128,16 @@ The required settings for ESP on Teams Rooms are:
 | Block device use until all apps and profiles are installed                                  | Yes         |
 | Allow users to reset device if installation error occurs                                    | Yes         |
 | Allow users to use device if installation error occurs                                      | No          |
-| Block device use until required apps are installed if theyare assigned to the user/device   | Selected    |
+| Block device use until required apps are installed if they're assigned to the user/device   | Selected    |
 
 > [!Note]
 > Setting this to **Selected** helps to complete the ESP faster.
 
-Under **Blocking apps**, select the Microsoft Teams Rooms Pro Provisioning (MTRP) tool . Set **Only fail selected blocking apps in technician phase** to **Yes**.
+Under **Blocking apps**, select the Microsoft Teams Rooms Pro Provisioning (MTRP) tool. Set **Only fail selected blocking apps in technician phase** to **Yes**.
 
 Then assign the ESP to the device group you created in [Step 3](#step-3-create-a-group-for-the-teams-rooms-consoles).
 
-## Step 6: Create an AutoPilot Profile
+## Step 6: Create an AutoPilot profile
 
 For the Teams Rooms consoles, you must create a Self-deploying Autopilot profile. See [Create and assign Autopilot
 profile](/autopilot/tutorial/self-deploying/self-deploying-autopilot-profile).
@@ -171,8 +171,8 @@ To assign an account to an AutoPilot device, the device must have an AutoPilot p
     - Enter the credentials if manual was selected.
     - Generate password automatically. This sets a password for the account.
 
-> [!Note]
-> Generate password requires Exchange Admin privileges to work. This option won't work with Hybrid resource accounts.
+   > [!Note]
+   > Generate password requires Exchange Admin privileges to work. This option won't work with Hybrid resource accounts.
 
 6. On the **Review** page, select **Finish** to link the resource account to AutoPilot device.
 
@@ -203,8 +203,8 @@ To start the AutoPilot deployment process on the console that is AutopAutoPiloti
 2. Turn on the device.
 3. Once the device boots up, one of two things occurs depending on the state of network connectivity:
 
-> [!IMPORTANT]
-> Connectivity to the Internet is required.
+   > [!IMPORTANT]
+   > Connectivity to the Internet is required.
 
 - If the device is connected to a wired network, the device may reboot to apply critical security updates if they're available. After the reboot to apply critical security updates, the AutoPilot process begins.
 
@@ -237,7 +237,7 @@ To start the AutoPilot deployment process on the console that is AutopAutoPiloti
 
 6. The Teams Room app now detects the AutoPilot profile and initiates Autologin. The credentials for the resource account assigned to this AutoPilot device are used. When this part is complete, the console will automatically log in and is ready for Teams meetings.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Question** Why aren't my AutoPilot devices syncing into the Teams Room Pro Management portal?
 
