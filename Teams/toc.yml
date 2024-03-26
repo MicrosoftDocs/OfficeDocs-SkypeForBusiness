@@ -1506,6 +1506,8 @@ items:
               href: rooms/rooms-deploy.md
             - name: Prepare your environment
               href: rooms/rooms-prep.md
+            - name: AutoPilot and Autologin
+              href: rooms/autopilot-autologin.md
             - name: Create resource accounts 
               href: rooms/create-resource-account.md
             - name: Set up using one-time passwords 
@@ -1596,6 +1598,8 @@ items:
           href: rooms/multi-tenant-management-customer.md
         - name: Audit logs for Rooms activities
           href: rooms/multi-tenant-auditing.md
+        - name: Viewing events
+          href: rooms/view-events.md
         - name: Health and usage reports
           href: rooms/health-and-usage-reports.md
         - name: Standards and Rooms Planner 
