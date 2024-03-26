@@ -12,12 +12,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
-description: "Each record represents one session which involves audio or audio and video. It contains overall information about the session. A session is defined as an audio or video Session Initiation Protocol (SIP) dialog between two endpoints."
+description: "Each record represents one session, which involves audio or audio and video. It contains overall information about the session. A session is defined as an audio or video Session Initiation Protocol (SIP) dialog between two endpoints."
 ---
 
 # Session table
  
-Each record represents one session which involves audio or audio and video. It contains overall information about the session. A session is defined as an audio or video Session Initiation Protocol (SIP) dialog between two endpoints.
+Each record represents one session, which involves audio or audio and video. It contains overall information about the session. A session is defined as an audio or video Session Initiation Protocol (SIP) dialog between two endpoints.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
@@ -27,7 +27,7 @@ Each record represents one session which involves audio or audio and video. It c
 |**CorrelationKey** <br/> |int  <br/> |Foreign  <br/> |Correlation key. Referenced from the [SessionCorrelation table](sessioncorrelation.md).  <br/> |
 |**DialogCategory** <br/> |bit  <br/> | <br/> |Dialog category; 0 is Skype for Business Server to Mediation Server leg; 1 is Mediation Server to PSTN gateway leg.  <br/> |
 |**MediationServerBypassFlag** <br/> |bit  <br/> ||Flag indicating if the call was bypassed or not.  <br/> |
-|**MediaBypassWarningFlag** <br/> |int  <br/> ||This field, if present, indicates why a call was not bypassed even if the bypass IDs matched. For Skype for Business Server, only one value is defined.  <br/> 0x0001 - Unknown bypass ID for Default network adapter.  <br/> |
+|**MediaBypassWarningFlag** <br/> |int  <br/> ||This field, if present, indicates why a call wasn't bypassed even if the bypass IDs matched. For Skype for Business Server, only one value is defined.  <br/> 0x0001 - Unknown bypass ID for Default network adapter.  <br/> |
 |**StartTime** <br/> |datetime  <br/> | <br/> |Call start time.  <br/> |
 |**EndTime** <br/> |datetime  <br/> | <br/> |Call end time.  <br/> |
 |**CallerPool** <br/> |int  <br/> |Foreign  <br/> |The pool of the caller. Referenced from the [Pool table](pool.md).  <br/> |
@@ -37,7 +37,7 @@ Each record represents one session which involves audio or audio and video. It c
 |**CallerEndpoint** <br/> |int  <br/> |Foreign  <br/> |Caller's endpoint. Referenced from the [Endpoint table](endpoint.md).  <br/> |
 |**CallerUserAgent** <br/> |bit  <br/> |Foreign  <br/> |Caller's user agent. Referenced from the [UserAgent table](useragent.md).  <br/> |
 |**CallPriority** <br/> |smallint  <br/> ||The priority of this call.  <br/> |
-|**ClassifiedPoorCall** <br/> |bit  <br/> ||This column has been deprecated and is not used in Skype for Business Server. Instead, this information is reported on a per-media line bases. Refer to the [MediaLine table](medialine-0.md) for more information. <br/> |
+|**ClassifiedPoorCall** <br/> |bit  <br/> ||This column has been deprecated and isn't used in Skype for Business Server. Instead, this information is reported on a per-media line basis. For more information, see [MediaLine table](medialine-0.md). <br/> |
 |**CallerPAI** <br/> |int  <br/> |Foreign  <br/> |P-Asserted-Identity of the user who placed the call. The P-Asserted-Identity (PAI) is used to convey the true identity of the user who placed the call.  <br/> |
 |**CalleeEndpoint** <br/> |int  <br/> |Foreign  <br/> |Endpoint that received the call.  <br/> |
 |**CalleeUserAgent** <br/> |int  <br/> |Foreign  <br/> |User agent employed by the user who received the call. User agents represent the client endpoint device.  <br/> |

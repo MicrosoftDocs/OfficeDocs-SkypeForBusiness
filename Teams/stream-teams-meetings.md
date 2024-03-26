@@ -1,7 +1,7 @@
 ---
 title: Stream Teams meetings
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.reviewer: 
 ms.date: 08/12/2021
@@ -43,7 +43,7 @@ To turn on live streaming
 
 You can set up your organization for streaming with PowerShell. Currently, this policy is not available in the Teams admin center. The per-user policy is used to specify **who** can enable live streaming. It's turned off by default.
 
-You can use the following attribute within the Windows PowerShell **Set-CsTeamsMeetingPolicy** cmdlet to set up streaming. For more information on the cmdlet, see [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
+You can use the following attribute within the Windows PowerShell **Set-CsTeamsMeetingPolicy** cmdlet to set up streaming. For more information on the cmdlet, see [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy).
 
 - LiveStreamingMode
 
@@ -54,5 +54,5 @@ For information on how to assign policies with PowerShell, see [Assign policies 
 ## Related topics
 
 - [Assign policies in Teams](policy-assignment-overview.md)
-- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
+- [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)
 - [Quick start - Meetings, webinars, and live events](quick-start-meetings-live-events.md)

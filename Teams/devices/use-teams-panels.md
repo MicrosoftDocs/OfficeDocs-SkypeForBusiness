@@ -3,20 +3,20 @@ title: How to use Microsoft Teams panels devices
 ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
-ms.reviewer: weizxue
-ms.date: 02/18/2021
-ms.topic: reference
+ms.reviewer: eviegrimshaw
+ms.date: 03/19/2024
+ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
 audience: Admin
 appliesto: 
   - Microsoft Teams
-f1.keywords: 
-  - NOCSH
 ms.collection: 
   - teams-rooms-devices
   - Teams_ITAdmin_Devices
   - Tier1
+f1.keywords: 
+  - NOCSH
 search.appverid: MET150
 ms.localizationpriority: medium
 description: This article provides guidance on how to use Teams panels devices.

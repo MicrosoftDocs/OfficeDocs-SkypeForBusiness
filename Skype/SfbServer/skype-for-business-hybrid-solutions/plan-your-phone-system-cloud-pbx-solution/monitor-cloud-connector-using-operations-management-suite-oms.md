@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
-description: "Read this topic to learn how to monitor your Cloud Connector version 2.1 and later deployment by using Microsoft Operations Management Suite (OMS)."
+description: "Read this article to learn how to monitor your Cloud Connector version 2.1 and later deployment by using Microsoft Operations Management Suite (OMS)."
 ---
 
 # Monitor Cloud Connector using Operations Management Suite (OMS)
@@ -20,11 +20,11 @@ description: "Read this topic to learn how to monitor your Cloud Connector versi
 > [!Important]
 > Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](/MicrosoftTeams/direct-routing-landing-page).
 
-Read this topic to learn how to monitor your Cloud Connector version 2.1 and later deployment by using Microsoft Operations Management Suite (OMS).
+Read this article to learn how to monitor your Cloud Connector version 2.1 and later deployment by using Microsoft Operations Management Suite (OMS).
 
 You can now monitor your Cloud Connector version 2.1 and later deployment by using Operations Management Suite (OMS), a Microsoft cloud IT management solution. OMS Log Analytics enables you to monitor and analyze the availability and performance of resources including physical and virtual machines. For more information about OMS and Log Analytics, see [What is Operations Management Suite (OMS)?](/azure/operations-management-suite/operations-management-suite-overview)
 
-This topic contains the following sections:
+This article contains the following sections:
 
 - Prerequisites
 
@@ -38,9 +38,9 @@ This topic contains the following sections:
 
 ## Prerequisites
 
-Before you can use OMS to monitor your Cloud Connector deployment, you will need the following:
+Before you can use OMS to monitor your Cloud Connector deployment, you'll need the following:
 
-- **An Azure account and an OMS workspace.** If you don't already have an Azure account, you will need to create one to use OMS Log Analytics. For information about how to create an Azure account and set up an OMS workspace, see [Get started with a Log Analytics workspace](/azure/log-analytics/log-analytics-get-started).
+- **An Azure account and an OMS workspace.** If you don't already have an Azure account, you need to create one to use OMS Log Analytics. For information about how to create an Azure account and set up an OMS workspace, see [Get started with a Log Analytics workspace](/azure/log-analytics/log-analytics-get-started).
 
 - **Cloud Connector version 2.1 or later**
 
@@ -48,7 +48,7 @@ Before you can use OMS to monitor your Cloud Connector deployment, you will need
 
 ## Configure Cloud Connector to use OMS
 
-You'll need to configure your Cloud Connector on-premises environment to use OMS. To do this, you will need your OMS workspace ID and key, which you can find by using the OMS portal as follows: Settings --\>Connected Sources --\> Windows Servers:
+You'll need to configure your Cloud Connector on-premises environment to use OMS. To do this, you need your OMS workspace ID and key, which you can find by using the OMS portal as follows: Settings --\>Connected Sources --\> Windows Servers:
 
 ![Screen shot for Cloud Connector OMS.](../../media/a4bb0a96-c940-435e-a3f5-5ef3062dea83.png)
 
@@ -58,7 +58,7 @@ How you configure Cloud Connector to use OMS depends on your scenario:
 
   1. In the CloudConnector.ini file [Common] section, set the OMSEnabled parameter to True.
 
-     Each time Cloud Connector is deployed or upgraded, it will try to install the OMS agent automatically onto the VMs. Enable this feature so the OMS agent can survive the Cloud Connector automatic update.
+     Each time Cloud Connector is deployed or upgraded, it tries to install the OMS agent automatically onto the VMs. Enable this feature so the OMS agent can survive the Cloud Connector automatic update.
 
   2. To configure the OMS ID and key, run Set-CcCredential -AccountType OMSWorkspace.
 
@@ -81,11 +81,11 @@ How you configure Cloud Connector to use OMS depends on your scenario:
 
 - **For all scenarios, verify that the agents are connected as follows:**
 
-    In the OMS portal, go to Settings -\> Connected Sources -\> Windows Servers. You will see a list of connected machines.
+    In the OMS portal, go to Settings -\> Connected Sources -\> Windows Servers. You see a list of connected machines.
 
 ## Configure OMS
 
-Next, you will need to specify your OMS configuration by using the OMS portal. Specifically, you will need to:
+Next, you need to specify your OMS configuration by using the OMS portal. Specifically, you need to:
 
 - Specify information about event logs and performance counters.
 
@@ -139,11 +139,11 @@ You should consider the following when creating alerts:
 
 - The demo queries require that "Number of results" is set to "Greater than 0".
 
-- It is recommended that you set both Time window and Alert frequency to 5 minutes.
+- It's recommended that you set both Time window and Alert frequency to 5 minutes.
 
-- It is recommended that you do not enable "Suppress alerts" for demo alerts.
+- It is recommended that you don't enable "Suppress alerts" for demo alerts.
 
-- For typical alert scenarios, Microsoft recommends creating a pair of alerts: one error alert and one reset alert. For the error alert, select severity level Critical; for the reset alert, select severity level Informational .
+- For typical alert scenarios, Microsoft recommends creating a pair of alerts: one error alert and one reset alert. For the error alert, select severity level Critical; for the reset alert, select severity level Informational.
 
 The following sections describe how to create sample alerts.
 
@@ -159,9 +159,9 @@ To create this alert pair:
 
     The query uses the computer filter  *where Computer contains "MediationServer"*  . The filter selects only the computer whose name contains the string "MediationServer".
 
-     You would replace the filter with your own computer filter or simply remove it. You can create complex string filters without regular expressions. You can also choose to use regular expressions. Moreover, you can create a computer group by saving a search query and using that group as your computer filter in your alert query. For more information, see [Computer groups in Log Analytics log searches](/azure/log-analytics/log-analytics-computer-groups).
+     You would replace the filter with your own computer filter or remove it. You can create complex string filters without regular expressions. You can also choose to use regular expressions. Moreover, you can create a computer group by saving a search query and using that group as your computer filter in your alert query. For more information, see [Computer groups in Log Analytics log searches](/azure/log-analytics/log-analytics-computer-groups).
 
-    For each computer, the error query will get the last event log for both the RTCMEDSRV service start and service stop. It will return one log if the last event is the service stop event; it will return nothing if the last event is the service start event. In short, the query would return a list of servers whose RTCMEDSRV is stopped in the time window.
+    For each computer, the error query gets the last event log for both the RTCMEDSRV service start and service stop. It will return one log if the last event is the service stop event; it will return nothing if the last event is the service start event. In short, the query would return a list of servers whose RTCMEDSRV is stopped in the time window.
 
 - The query for the reset alert is:
 

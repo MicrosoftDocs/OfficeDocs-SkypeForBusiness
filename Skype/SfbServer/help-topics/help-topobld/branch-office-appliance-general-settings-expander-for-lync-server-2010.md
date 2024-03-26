@@ -14,12 +14,12 @@ ms.custom:
 ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 4a41754a-4653-4845-afb6-4a74b2edfeb4
-description: "To edit properties for Survivable Branch Appliance or Survivable Branch Server , under General, you configure:"
+description: "To edit properties for Survivable Branch Appliance or Survivable Branch Server, under General, you configure:"
 ---
 
 # Branch Office Appliance General Settings Expander for Lync Server 2010
  
-To edit properties for Survivable Branch Appliance or Survivable Branch Server , under **General**, you configure:
+To edit properties for Survivable Branch Appliance or Survivable Branch Server, under **General**, you configure:
   
 - **FQDN**: You type the fully qualified domain name of the Survivable Branch Appliance or Survivable Branch Server.
     
@@ -35,11 +35,11 @@ To edit properties for Survivable Branch Appliance or Survivable Branch Server ,
     
     **Associate Archiving Server** Select from the list the Archiving Server that you want to associate with the Survivable Branch Appliance or Survivable Branch Server
     
-    Click **New** if you have not created the Archiving Server that you want to associate with this Survivable Branch Appliance or Survivable Branch Server
+    Select **New** if you haven't created the Archiving Server that you want to associate with this Survivable Branch Appliance or Survivable Branch Server
     
     **Associate Monitoring Server** Select from the list the Monitoring Server that you want to associate with the Survivable Branch Appliance or Survivable Branch Server
     
-    Click **New** if you have not created the Monitoring Server that you want to associate with this Survivable Branch Appliance or Survivable Branch Server
+    Select **New** if you haven't created the Monitoring Server that you want to associate with this Survivable Branch Appliance or Survivable Branch Server
     
     **Associate Edge pool (for media components)** Select from the list the Edge Server or Edge pool that you want to associate with the Survivable Branch Appliance or Survivable Branch Server
     

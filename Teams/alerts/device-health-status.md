@@ -3,20 +3,21 @@ title: Microsoft Teams Devices Monitoring and Alerting
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-audience: Admin
-ms.topic: article
-ms.service: msteams
 ms.reviewer: vapati
 ms.date: 10/10/2023
+ms.topic: article
+audience: Admin
+ms.service: msteams
+ms.subservice: itpro-rooms
+appliesto: 
+  - Microsoft Teams
+ms.collection: 
+  - M365-collaboration
+  - teams-rooms-devices
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-ms.collection: 
-  - M365-collaboration
 description: Learn how to use the Teams monitoring and alerting capabilities in the Microsoft Teams admin center to proactively monitor the health state of Teams devices
-appliesto: 
-  - Microsoft Teams
-ms.custom: 
 ---
 
 # Microsoft Teams device health monitoring

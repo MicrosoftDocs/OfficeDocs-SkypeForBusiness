@@ -2,21 +2,21 @@
 title: Manage Windows Updates for Microsoft Teams Rooms
 ms.author: tonysmit
 author: mstonysmith
+manager: pamgreen
 ms.reviewer: tjaved
 ms.date: 11/02/2023
-manager: pamgreen
-audience: ITPro
 ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-f1.keywords: 
-  - NOCSH
-ms.localizationpriority: medium
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
   - Tier1
-ms.assetid: 
+f1.keywords: 
+  - NOCSH
 description: Admin can learn about how to manage Windows Updates and Windows feature updates for Microsoft Teams Rooms.
 ms.custom: seo-marvel-apr2020
 ---
