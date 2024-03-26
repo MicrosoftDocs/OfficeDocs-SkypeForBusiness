@@ -15,7 +15,7 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom:
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
-description: "Follow the steps in this topic to modify the configuration of an existing Skype for Business Cloud Connector Edition 1.4.1 or later deployment."
+description: "Follow the steps in this article to modify the configuration of an existing Skype for Business Cloud Connector Edition 1.4.1 or later deployment."
 ---
 
 # Modify the configuration of an existing Cloud Connector deployment
@@ -23,12 +23,12 @@ description: "Follow the steps in this topic to modify the configuration of an e
 > [!Important]
 > Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](/MicrosoftTeams/direct-routing-landing-page).
 
-Follow the steps in this topic to modify the configuration of an existing Skype for Business Cloud Connector Edition 1.4.1 or later deployment. 
+Follow the steps in this article to modify the configuration of an existing Skype for Business Cloud Connector Edition 1.4.1 or later deployment. 
   
 ## Modify the configuration of a single site
 <a name="BKMK_SIngleSite"> </a>
 
-If there is only one appliance in the site, when you want to change the configuration settings after the appliance is deployed, you can modify the CloudConnector.ini file and start the deployment again.
+If there's only one appliance in the site, when you want to change the configuration settings after the appliance is deployed, you can modify the CloudConnector.ini file and start the deployment again.
   
 1. Run the following cmdlet to uninstall all existing virtual machines on the host server: 
     
@@ -62,7 +62,7 @@ If there is only one appliance in the site, when you want to change the configur
    Install-CcAppliance
    ```
 
-If there is more than one appliance in the site, you'll need to follow these steps, modify the CloudConnector.ini file, and redeploy the appliances one by one.
+If there's more than one appliance in the site, you need to follow these steps, modify the CloudConnector.ini file, and redeploy the appliances one by one.
   
 1. Run the following cmdlet to uninstall all existing virtual machines on the current appliance: 
     
@@ -112,7 +112,7 @@ To modify the configuration for multiple sites in a deployment, follow the steps
 
 To enable operating system automatic updates and Bits automatic updates, you must use the Skype for Business tenant admin account for online management and use tenant remote PowerShell as follows.
   
-If you disabled operating system automatic updates or Bits automatic updates, your host and virtual machine may miss important Windows updates, and Cloud Connector will not upgrade to the new version automatically. It is highly recommended that you enable automatic updates.
+If you disabled operating system automatic updates or Bits automatic updates, your host and virtual machine might miss important Windows updates, and Cloud Connector won't upgrade to the new version automatically. It's highly recommended that you enable automatic updates.
   
 1. The EnableAutoUpdate property of the site needs to be set to true (the default value). Run the following cmdlet to make sure EnableAutoUpdate is set to true:
     
@@ -130,7 +130,7 @@ If you disabled operating system automatic updates or Bits automatic updates, yo
     
    - For a monthly time window, there can be two types. The first type is to specify the day of the month, which can be a single day. The second type is to specify the weeks of the month, along with days of the week, which both can be a single item or multiple items.
     
-   - Each tenant can have 20 time windows defined. The default time window will be created for a new tenant as the default time window for operating system update and Bits update. Run the following cmdlet(s) to set the daily, weekly or monthly time window:
+   - Each tenant can have 20 time windows defined. The default time window is created for a new tenant as the default time window for operating system update and Bits update. Run the following cmdlet(s) to set the daily, weekly or monthly time window:
     
    ```powershell
    New-CsTenantUpdateTimeWindow -Identity Night -Daily -StartTime 22:00 -Duration 6:00
@@ -173,11 +173,11 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > This section is applicable to Cloud Connector version 2.0 and later. 
   
-All Cloud Connector credentials are stored in the following file: "%SystemDrive%\Programdata\Cloudconnector\credentials.\<CurrentUser\>.xml". When the password on the host server changes, you will need to update the locally stored credentials.
+All Cloud Connector credentials are stored in the following file: "%SystemDrive%\Programdata\Cloudconnector\credentials.\<CurrentUser\>.xml". When the password on the host server changes, you need to update the locally stored credentials.
   
 To update the locally stored credentials on the Cloud Connector appliance, use the [Get-CcCredential](get-cccredential.md) and [Set-CcCredential](set-cccredential.md) cmdlets and follow these steps:
   
-1. Run the following commands to retrieve the passwords you will need later: 
+1. Run the following commands to retrieve the passwords you need later: 
     
    - Get-CcCredential -AccountType DomainAdmin -DisplayPassword
     

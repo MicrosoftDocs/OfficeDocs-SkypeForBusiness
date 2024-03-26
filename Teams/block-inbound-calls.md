@@ -41,27 +41,27 @@ Number block patterns are defined as regular expression patterns. The order of t
 
 To view and activate the call blocking feature, use the **Get-** and **Set-CsTenantBlockingCallingNumbers** Teams PowerShell Module cmdlets.
 
-- [Get-CsTenantBlockedCallingNumbers](/powershell/module/skype/get-cstenantblockedcallingnumbers) returns the inbound block number patterns and the inbound exempt number patterns parameters for the global blocked number list. This cmdlet also returns whether blocking has been Enabled (True or False). 
+- [Get-CsTenantBlockedCallingNumbers](/powershell/module/teams/get-cstenantblockedcallingnumbers) returns the inbound block number patterns and the inbound exempt number patterns parameters for the global blocked number list. This cmdlet also returns whether blocking has been Enabled (True or False). 
 
-- [Set-CsTenantBlockedCallingNumbers](/powershell/module/skype/set-cstenantblockedcallingnumbers) allows you to specify whether the global tenant blocked calls are turned on or off at the tenant level.
+- [Set-CsTenantBlockedCallingNumbers](/powershell/module/teams/set-cstenantblockedcallingnumbers) allows you to specify whether the global tenant blocked calls are turned on or off at the tenant level.
 
 ### Manage block number patterns
 
 You manage number patterns by using the **New-**, **Get-**, **Set-**, **Test-**, and **Remove-CsInboundBlockedNumberPattern** Teams PowerShell Module cmdlets. 
 
-- [Get-CsInboundBlockedNumberPattern](/powershell/module/skype/get-csinboundblockednumberpattern)
+- [Get-CsInboundBlockedNumberPattern](/powershell/module/teams/get-csinboundblockednumberpattern)
 returns a list of all blocked number patterns added to the tenant list including Name, Description, Enabled (True/False), and Pattern.
 
-- [New-CsInboundBlockedNumberPattern](/powershell/module/skype/new-csinboundblockednumberpattern)
+- [New-CsInboundBlockedNumberPattern](/powershell/module/teams/new-csinboundblockednumberpattern)
 adds a blocked number pattern to the tenant list.
 
-- [Remove-CsInboundBlockedNumberPattern](/powershell/module/skype/remove-csinboundblockednumberpattern)
+- [Remove-CsInboundBlockedNumberPattern](/powershell/module/teams/remove-csinboundblockednumberpattern)
 removes a blocked number pattern from the tenant list.
 
-- [Set-CsInboundBlockedNumberPattern](/powershell/module/skype/set-csinboundblockednumberpattern)
+- [Set-CsInboundBlockedNumberPattern](/powershell/module/teams/set-csinboundblockednumberpattern)
 modifies one or more parameters of a blocked number pattern in the tenant list.
 
-- [Test-CsInboundBlockedNumberPattern](/powershell/module/skype/set-csinboundblockednumberpattern)
+- [Test-CsInboundBlockedNumberPattern](/powershell/module/teams/set-csinboundblockednumberpattern)
 tests whether calls from a given phone number will be blocked.
 
 ### Examples
@@ -138,13 +138,13 @@ errorMessage    :
 
 You can add exceptions to blocked number patterns by using the **New-**, **Get-**, **Set-**, and **Remove-CsInboundExemptNumberPattern** cmdlets.
 
-- [New-CsInboundExemptNumberPattern](/powershell/module/skype/New-CsInboundExemptNumberPattern) adds a number exception pattern to the tenant list.
+- [New-CsInboundExemptNumberPattern](/powershell/module/teams/New-CsInboundExemptNumberPattern) adds a number exception pattern to the tenant list.
 
-- [Get-CsInboundExemptNumberPattern](/powershell/module/skype/Get-CsInboundExemptNumberPattern) returns a list of all number exception patterns added to the tenant list.
+- [Get-CsInboundExemptNumberPattern](/powershell/module/teams/Get-CsInboundExemptNumberPattern) returns a list of all number exception patterns added to the tenant list.
 
-- [Set-CsInboundExemptNumberPattern](/powershell/module/skype/Set-CsInboundExemptNumberPattern) modifies one or more parameters to a number exception pattern in the tenant list.
+- [Set-CsInboundExemptNumberPattern](/powershell/module/teams/Set-CsInboundExemptNumberPattern) modifies one or more parameters to a number exception pattern in the tenant list.
 
-- [Remove-CsInboundExemptNumberPattern](/powershell/module/skype/Remove-CsInboundExemptNumberPattern) removes a number exception pattern from the tenant list.
+- [Remove-CsInboundExemptNumberPattern](/powershell/module/teams/Remove-CsInboundExemptNumberPattern) removes a number exception pattern from the tenant list.
 
 ### Examples
 
@@ -202,8 +202,8 @@ The pattern matching for blocking callers is done by using Regex. Multiple tools
 
 ## Related topics
 
-[Set-CsTenantBlockedCallingNumbers](/powershell/module/skype/set-cstenantblockedcallingnumbers)
+[Set-CsTenantBlockedCallingNumbers](/powershell/module/teams/set-cstenantblockedcallingnumbers)
 
-[Set-CsInboundBlockedNumberPattern](/powershell/module/skype/set-csinboundblockednumberpattern)
+[Set-CsInboundBlockedNumberPattern](/powershell/module/teams/set-csinboundblockednumberpattern)
 
 [Manage call settings in Teams](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
