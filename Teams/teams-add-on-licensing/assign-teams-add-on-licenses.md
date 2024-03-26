@@ -18,7 +18,7 @@ search.appverid: MET150
 f1.keywords: 
   - NOCSH
 ms.reviewer: mikedav
-ms.date: 12/14/2018
+ms.date: 03/26/2024
 description: Learn how to assign Teams add-on licenses to users for capabilities like Audio Conferencing, Phone System, and Calling Plans.
 appliesto: 
   - Microsoft Teams
