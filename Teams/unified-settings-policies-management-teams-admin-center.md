@@ -1,5 +1,5 @@
 ---
-title: Unified policies and settings management in Teams admin center
+title: Unified settings and policies management in Teams admin center
 author: maggierui
 ms.author: ruihu
 manager: jtremper
@@ -15,7 +15,7 @@ appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn the unified policies and settings management in Teams admin center in Microsoft Teams.
+description: Learn the unified settings and policies management in Teams admin center in Microsoft Teams.
 f1keywords: 
   - ms.teamsadmincenter.bulkoperations.users.edit
   - ms.teamsadmincenter.bulkoperations.edit
