@@ -3,8 +3,8 @@ title: Transfer phone numbers to Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: pamgreen
-ms.reviewer: tonysmit
-ms.date: 10/23/2019
+ms.reviewer: parththakkar
+ms.date: 03/26/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -20,13 +20,13 @@ appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn how to use the porting wizard to transfer your phone number from your current service provider to Microsoft Teams.
+description: Learn how to use the porting wizard to transfer your phone number from your current service provider to Microsoft Teams Calling Plans.
 ms.custom: seo-marvel-mar2020
 ---
 
-# Transfer phone numbers to Microsoft Teams
+# Transfer phone numbers to Microsoft Teams Calling Plans
 
-Use the porting step-by-step guide in the Microsoft Teams admin center to transfer your phone numbers from your current service provider to Teams. After you port your phone numbers to Teams, Microsoft will become your service provider. For more information, see [How many telephone numbers can you get?](../how-many-phone-numbers-can-you-get.md)
+Use the porting step-by-step guide in the Microsoft Teams admin center to transfer your phone numbers from your current service provider to Microsoft Teams Calling Plans. After you port your phone numbers to Teams, Microsoft will becomes your service provider. For more information, see [How many telephone numbers can you get?](../how-many-phone-numbers-can-you-get.md)
 
 Before you start, we recommend you review the information in [What's a port order?](port-order-overview.md) If you have service numbers for dial-in conferencing bridges, Auto attendants or other service numbers, toll-free phone numbers, or have more than 999 user (subscriber) phone numbers that you need to transfer to Teams, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to download the correct forms and send them to us.
 
@@ -89,7 +89,7 @@ Before you start, we recommend you review the information in [What's a port orde
 
 ## What happens next?
 
-When we receive your port order, you'll receive an email that verifies your request. Your request is checked and updated daily, and you'll be notified of its progress and status in email. If your port request is rejected by the carrier, contact the [TNS Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) for assistance.
+When we receive your port order, you'll receive an email that verifies your request. Your request is updated daily, and you'll be notified of its progress and status in email. If your port request is rejected by the carrier, contact the [TNS Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) for assistance.
 
 To view the status of your port order, in the left navigation of the Microsoft Teams admin center, go to  **Voice** > **Port orders**, and then select **Order history**. Each port order status is listed in the **Status** column. To learn more, see [What's the status of your port orders?](port-order-status.md)
 
