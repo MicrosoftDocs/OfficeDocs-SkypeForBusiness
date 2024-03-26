@@ -46,7 +46,7 @@ To use AutoPilot and Autologin to provision and deploy Microsoft Teams Rooms con
 
 To successfully deploy Microsoft Teams Rooms consoles, verify that these prerequisites are met.
 
-1. You must buy enough Teams Rooms Pro licenses for each of the consoles you're provisioning and deploying. If you buy a Teams Rooms Pro licenses, they include the correct Intune and Microsoft Entra ID P1 licenses. To see more information on the licensing requirements for AutoPilot, see [AutoPilot licensing requirements](/autopilot/licensing-requirements).
+1. You must buy enough Teams Rooms Pro licenses for each of the consoles you're provisioning and deploying. Teams Rooms Pro licenses include the correct Intune and Microsoft Entra ID P1 licenses. To see more information on the licensing requirements for AutoPilot, see [AutoPilot licensing requirements](/autopilot/licensing-requirements).
 
 2. You must verify the account you're using to deploy the consoles has the correct permissions.
    1.  For Intune, verify that the account has the Intune Administrator or Policy and Profile Manager permissions, see [Learn more](/autopilot/add-devices#required-permissions).
