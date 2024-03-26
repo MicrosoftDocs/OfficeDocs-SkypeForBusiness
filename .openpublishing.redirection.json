@@ -4784,6 +4784,11 @@
     "source_path": "teams/new-teams-automatic-upgrade-announced.md",
     "redirect_url": "/microsoftteams/teams-classic-client-end-of-availability",
     "redirect_document_id": false
-} 
+ },
+ {
+  "source_path": "Teams/teams-updates.md",
+  "redirect_url": "Teams/index.yml",
+  "redirect_document_id": false
+ } 
 ] 
 }
