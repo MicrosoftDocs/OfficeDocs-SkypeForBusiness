@@ -1044,6 +1044,8 @@ items:
               href: operator-connect-mobile-plan.md
             - name: Configure Teams Phone Mobile
               href: operator-connect-mobile-configure.md
+            - name: Manage phone numbers for Teams Phone Mobile
+              href: operator-connect-mobile-configure-numbers.md
         - name: Direct Routing
           items: 
             - name: What's new
@@ -1169,8 +1171,8 @@ items:
           href: operator-connect-configure.md#set-up-phone-numbers
 
         - name: Manage phone numbers for Teams Phone Mobile
-          href: operator-connect-mobile-configure.md#set-up-phone-numbers
-          
+          href: operator-connect-mobile-configure.md#step-2-manage-phone-numbers-and-assign-licenses
+
         - name: Manage phone numbers for Direct Routing
           href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
         - name: Licensing and phone number management
