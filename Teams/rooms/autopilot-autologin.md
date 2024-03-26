@@ -38,7 +38,7 @@ To use AutoPilot and Autologin to provision and deploy Microsoft Teams Rooms con
 - Step 4: [Deploy Teams Rooms app update tool](#step-4-deploy-teams-room-app-update-tool)
 - Step 5: [Create an Enrollment Status Page (ESP) profile](#step-5-create-an-autopilot-enrollment-status-page-esp-status-page-profile)
 - Step 6: [Create and assign Autopilot profile](#step-6-create-an-autopilot-profile)
-- Step 7: [Create and assign a Local Administrator Password Solution policy](/mem/intune protect/windows-laps-policy#create-a-laps-policy)
+- Step 7: [Create and assign a Local Administrator Password Solution policy](#step-7-create-and-assign-a-local-administrator-password-solution-laps-policy)
 - Step 8: [Set up Autologin in the Pro Management Portal](#step-8-set-up-autologin-in-the-teams-rooms-pro-management-portal)
 - Step 9: [Deploy the device](#step-9-deploy-the-teams-rooms-console)
 
@@ -46,7 +46,7 @@ To use AutoPilot and Autologin to provision and deploy Microsoft Teams Rooms con
 
 To successfully deploy Microsoft Teams Rooms consoles, verify that these prerequisites are met.
 
-1. You must buy enough Teams Rooms Pro licenses for each of the consoles you're provisioning and deploying. If you buy a Teams Rooms Pro licenses, they include the correct Intune and Microsoft Entra ID P1 licenses. To see more information on the licensing requirements for AutoPilot, see [AutoPilot licensing requirements](/autopilot/licensing-requirements).
+1. You must buy enough Teams Rooms Pro licenses for each of the consoles you're provisioning and deploying. If you buy Teams Rooms Pro licenses, they include the correct Intune and Microsoft Entra ID P1 licenses. To see more information on the licensing requirements for AutoPilot, see [AutoPilot licensing requirements](/autopilot/licensing-requirements).
 2. You must verify the account you're using to deploy the consoles has the correct permissions.
   a.  For Intune, verify that the account has the Intune Administrator or Policy and Profile Manager permissions, see [Learn more](/autopilot/add-devices#required-permissions).
   b. For the Teams Management Pro portal, the account has the Teams Rooms Pro Manager permissions.
