@@ -52,7 +52,7 @@ How you acquire and manage telephone numbers differs depending on your Public Sw
 
 - For information about managing telephone numbers for Operator Connect, see [Set up telephone numbers with Operator Connect](operator-connect-configure.md#set-up-phone-numbers).
 
-- For information about managing telephone numbers for Teams Phone Mobile, see [Set up telephone numbers with Teams Phone Mobile](operator-connect-mobile-configure.md#set-up-phone-numbers).
+- For information about managing telephone numbers for Teams Phone Mobile, see [Set up telephone numbers with Teams Phone Mobile](operator-connect-mobile-configure.md#step-2-manage-phone-numbers-and-assign-licenses).
 
 - For information about managing telephone numbers for Direct Routing, see [Configure the telephone number and enable enterprise voice](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
 

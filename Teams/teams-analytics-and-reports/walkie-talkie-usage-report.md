@@ -4,9 +4,9 @@ author: lana-chin
 ms.author: v-chinlana
 manager: jtremper
 audience: admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: microsoft-365-frontline
-ms.reviewer: prastogi
+ms.reviewer: prkoduku
 ms.date: 10/13/2023
 f1.keywords:
 - NOCSH
@@ -66,5 +66,5 @@ The report gives you a breakdown of each transmission made during the date range
 
 ## Related articles
 
-- [Walkie Talkie app in Teams](../walkie-talkie.md)
+- [Manage the Walkie Talkie app in Teams](../walkie-talkie.md)
 - [Get started with Walkie Talkie](https://support.microsoft.com/office/get-started-with-teams-walkie-talkie-25bdc3d5-bbb2-41b7-89bf-650fae0c8e0c)
