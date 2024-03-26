@@ -43,6 +43,8 @@ You can create and manage multiple booking pages, each with their own unique set
 
 Every appointment booked as an online meeting creates a meeting link that people can use to join and meet virtually in Teams.
 
+To learn more, see [Microsoft Bookings](/microsoft-365/bookings/bookings-overview).
+
 ## Prerequisites to use the Bookings app in Teams
 
 - The Exchange mailbox is in Exchange Online. On-premises Exchange Server mailboxes aren't supported.
@@ -51,7 +53,6 @@ Every appointment booked as an online meeting creates a meeting link that people
     - Office 365: A3, A5, E1, E3, E5, F1, F3, G1, G3, and G5
     - Microsoft 365: A3, A5, E1, E3, E5, F1, F3, Business Basic, Business Standard, Business Premium, Teams Essentials, Teams Premium
 - All users of the Bookings app and all staff participating in meetings have a license that supports Teams meeting scheduling.
-- [Software and browser prerequisites](hardware-requirements-for-the-teams-app.md).
 
 ## Availability of Bookings in Teams
 
@@ -67,7 +68,7 @@ You can also [create a Teams app setup policy to pin the Bookings app for select
 
 To enable the best experience for Bookings, create a Teams meeting policy to automatically admit **People in my organization** and assign the policy to your staff. The policy allows staff to join the appointment automatically and enable the lobby experience for external attendees. To learn more, see [Control who can bypass the meeting lobby in Microsoft Teams](who-can-bypass-meeting-lobby.md).
 
-For more information about meeting policies, see [Manage meeting and event policies in Teams](meeting-policies-overview.md).
+For more information about meeting policies, see [Manage meeting and event policies in Teams](meeting-policies-overview.md). 
 
 ## SMS text notifications
 
@@ -115,8 +116,6 @@ To learn more, see [Set Mailbox](/powershell/module/exchange/mailboxes/set-mailb
 
 To send feedback, select the **Help** option at bottom of the Teams left navigation bar, and then select **Report a Problem**. Select **Other**, and then enter your feedback or details about the issue you're experiencing. Indicate at the beginning of your feedback report that you're sending feedback about "Bookings" so we can easily identify Bookings issues.
 
-## Related articles
+## See also
 
-[Manage the join experience for Teams Virtual Appointments on browsers](/microsoft-365/frontline/browser-join)
-
-[Bookings documentation for end users](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)
+[Microsoft Bookings documentation](/microsoft-365/bookings/bookings-overview)
