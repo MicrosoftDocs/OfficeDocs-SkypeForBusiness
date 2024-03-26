@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: kimmatlock
-ms.date: 003/26/2024
+ms.date: 03/26/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -41,7 +41,7 @@ Follow these procedures to set up your hardware before attempting the enrollment
 
 ### Adding proxy settings (optional)
 
-1. Log in as administrator by following [Performing operations as the Admin user of the MTR device](#performing-operations-as-the-admin-user-of-the-mtr-device).
+1. Log in as administrator by following [Performing operations as the Admin user of the MTR device](#performing-operations-as-the-admin-user-of-the-teams-rooms-device).
 1. In the Windows ***Search*** field (bottom-left section of the screen), enter **cmd** (either long press the screen or right select, and choose ***Run as administrator***).
 1. Run the following command (double quotes at end of command are important):
 
