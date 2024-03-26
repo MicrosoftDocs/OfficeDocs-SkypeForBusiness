@@ -179,6 +179,7 @@ The first row of the CSV contains column names. All dates are UTC and in [ISO 86
 > | 21 | Capability | `nvarchar(32)` | The license used for the call |
 > | 22 | Operator | `nvarchar(32)` | Microsoft |
 > | 23 | Source of Call Duration | `nvarchar(32)` | Microsoft |
+> | 24 | Administrative Units | `uniqueidentifier` |  Collection of administrative units associated to a call. |
 
 ### Exported Direct Routing usage report
 
@@ -210,6 +211,8 @@ You can export data up to five months (150 days) from the current date unless co
 > | 20 | SBC FQDN | `nvarchar(64)` | Fully qualified domain name of the session border controller |
 > | 21 | Media bypass | `nvarchar(3)` | Yes/No. Indicates if the trunk was enabled for media bypass or not |
 > | 22 | Shared correlation ID | `uniqueidentifier` | Indicates that two or more calls are related |
+> | 23 | Administrative Units | `uniqueidentifier` |  Collection of administrative units associated to a call. |
+> | 24 | Transfer or Correlation ID | `uniqueidentifier` |  Indicates CorrelationId from call between Transferee and Transferor|
 
 
 ## Related topics
