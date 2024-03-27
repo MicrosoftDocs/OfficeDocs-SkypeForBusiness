@@ -42,7 +42,7 @@ We've improved the custom policy page by adding a three tab structure for a feat
 
 To use the new unified settings and policy experience, you need to opt-in from the Teams admin center dashboard or from any of the existing settings or policy pages. You will see a card or a banner that invites you to try the new experience, and you can Select it to switch to the new experience. You will also see a guided tour and coach marks that will help you to explore the new features and functionalities.
 
-<img src="/media/tac-1.png" " alt="The screenshot of Opt-in from Teams admin center dashboard" />
+::: image type="content" source="/media/tac-1.png" " alt="The screenshot of Opt-in from Teams admin center dashboard" :::
 
 
 <img src="c:\GitHub\OfficeDocs-SharePoint-pr\SharePoint\SharePointOnline/media/image3.png" style="width:5.69048in;height:2.30416in" alt="A screenshot of a computer Description automatically generated" />
