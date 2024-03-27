@@ -70,9 +70,9 @@ When a user dials in to a meeting using a phone, the conferencing bridge answers
 
 To manage audio conferencing bridges with PowerShell, use the **`-CsOnlineDialInConferencingBridge`** cmdlet.
 
-For **`-CsOnlineDialInConferencingBridge`** script examples, see [Set-CsOnlineDialInConferencingBridge](/powershell/module/skype/Set-CsOnlineDialInConferencingBridge).
+For **`-CsOnlineDialInConferencingBridge`** script examples, see [Set-CsOnlineDialInConferencingBridge](/powershell/module/teams/Set-CsOnlineDialInConferencingBridge).
 
-To manage entry and exit announcements through PowerShell, see [Set-CsOnlineDialInConferencingBridge](/powershell/module/skype/Set-csonlinedialinconferencingtenantsettings).
+To manage entry and exit announcements through PowerShell, see [Set-CsOnlineDialInConferencingBridge](/powershell/module/teams/Set-csonlinedialinconferencingtenantsettings).
 
 ## Related articles
 

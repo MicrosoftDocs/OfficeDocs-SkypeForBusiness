@@ -83,7 +83,7 @@ Messaging policies control which chat and channel messaging features are availab
 |------------|-------|
 |Will I customize the global messaging policy?|For information about using the Microsoft Teams admin center to change the global messaging policy or add a new policy, see [Manage messaging policies in Teams](messaging-policies-in-teams.md).|
 |Do I require multiple messaging policies?|To create and assign a messaging policy in PowerShell, see [PowerShell script sample - Create and assign a messaging policy](scripts/powershell-script-teams-messaging-policy-edu.md).|
-|How will I determine which groups of users get which messaging policy?|To learn about the CsTeamsMessagingPolicy cmdlets, see [Set-CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy).|
+|How will I determine which groups of users get which messaging policy?|To learn about the CsTeamsMessagingPolicy cmdlets, see [Set-CsTeamsMessagingPolicy](/powershell/module/teams/set-csteamsmessagingpolicy).|
 
 ### External access
 
