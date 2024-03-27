@@ -1249,212 +1249,6 @@ items:
       items: 
         - name: Voice policies reference
           href: settings-policies-reference.md#voice
-        - name: Country phone number management
-          items: 
-            - name: Phone number management for Australia
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md
-            - name: Phone number management for Austria
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-austria.md
-            - name: Phone number management for Belgium
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md
-            - name: Phone number management for Canada
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md
-            - name: Phone number management for the Czech Republic
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-czech-republic.md
-            - name: Phone number management for Denmark
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md
-            - name: Phone number management for Estonia
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-estonia.md
-            - name: Phone number management for Finland
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-finland.md
-            - name: Phone number management for France
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-france.md
-            - name: Phone number management for Germany
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md
-            - name: Phone number management for Hong Kong SAR
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-hong-kong.md
-            - name: Phone number management for Hungary
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-hungary.md
-            - name: Phone number management for Ireland
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md
-            - name: Phone number management for Italy
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md
-            - name: Phone number management for Japan
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md
-            - name: Phone number management for Latvia
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-latvia.md
-            - name: Phone number management for Lithuania
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-lithuania.md
-            - name: Phone number management for Luxembourg
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-luxembourg.md
-            - name: Phone number management for Mexico
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-mexico.md
-            - name: Phone number management for New Zealand
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-new-zealand.md
-            - name: Phone number management for Norway
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-norway.md
-            - name: Phone number management for Poland
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-poland.md
-            - name: Phone number management for Portugal
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-portugal.md
-            - name: Phone number management for Romania
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-romania.md
-            - name: Phone number management for Singapore
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-singapore.md
-            - name: Phone number management for Slovakia
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-slovakia.md
-            - name: Phone number management for Slovenia
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-slovenia.md
-            - name: Phone number management for South Africa
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-south-africa.md
-            - name: Phone number management for Spain
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md
-            - name: Phone number management for the Netherlands
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md
-            - name: Phone number management for Sweden
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-sweden.md
-            - name: Phone number management for Switzerland
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland.md
-            - name: Phone number management for the United Kingdom
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md
-            - name: Phone number management for the United States
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md
-            - name: Contact the TNS Service Desk
-              href: manage-phone-numbers-for-your-organization/contact-tns-service-desk.md
-        - name: Toll-free dialing limitations and restrictions
-          items: 
-            - name: Overview
-              href: toll-free-dialing-limitations-and-restrictions.md
-            - name: Argentina
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md
-            - name: Australia
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md
-            - name: Austria
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-austria.md
-            - name: Belarus
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md
-            - name: Belgium
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md
-            - name: Belize
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md
-            - name: Bosnia & Herzegovina
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md
-            - name: Brazil
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md
-            - name: Brunei
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md
-            - name: Bulgaria
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md
-            - name: Chile
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md
-            - name: China (North)
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md
-            - name: China (South)
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md
-            - name: Colombia
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-columbia.md
-            - name: Croatia
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-croatia.md
-            - name: Cyprus
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-cyprus.md
-            - name: Denmark
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-denmark.md
-            - name: Ecuador
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ecuador.md
-            - name: Egypt
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-egypt.md
-            - name: Estonia
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-estonia.md
-            - name: Finland
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-finland.md
-            - name: France
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-france.md
-            - name: Germany
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany.md
-            - name: Honduras
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras.md
-            - name: Hong Kong SAR
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md
-            - name: Hungary
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary.md
-            - name: India
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-india.md
-            - name: Indonesia
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md
-            - name: Ireland
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ireland.md
-            - name: Israel
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-israel.md
-            - name: Italy
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-italy.md
-            - name: Japan
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-japan.md
-            - name: Kenya
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-kenya.md
-            - name: Luxembourg
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-luxembourg.md
-            - name: Malaysia
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-malaysia.md
-            - name: Mexico
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-mexico.md
-            - name: Moldova
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-moldova.md
-            - name: Monaco
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-monaco.md
-            - name: Netherlands
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-netherlands.md
-            - name: Panama
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-panama.md
-            - name: Paraguay
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-paraguay.md
-            - name: Peru
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-peru.md
-            - name: Philippines
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-philippines.md
-            - name: Poland
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-poland.md
-            - name: Portugal
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-portugal.md
-            - name: Qatar
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-qatar.md
-            - name: Romania
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-romania.md
-            - name: Saudi Arabia
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-saudi-arabia.md
-            - name: Serbia
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-serbia.md
-            - name: Singapore
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-singapore.md
-            - name: Slovakia
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovakia.md
-            - name: Slovenia
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovenia.md
-            - name: South Africa
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-africa.md
-            - name: South Korea
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea.md
-            - name: Spain
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md
-            - name: Sweden
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden.md
-            - name: Switzerland
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-switzerland.md
-            - name: Taiwan
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan.md
-            - name: Thailand
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand.md
-            - name: Türkiye
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md
-            - name: United Arab Emirates (UAE)
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates.md
-            - name: United Kingdom
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k.md
-            - name: Uruguay
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-uruguay.md
-            - name: Venezuela
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md
-            - name: Vietnam
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md
         - name: Manage Communications Credits
           items: 
             - name: What are Communications Credits?
@@ -1987,6 +1781,217 @@ items:
       href: /microsoftteams/platform
     - name: Teams content updates
       href: teams-updates.md
+
+    - name: Country phone number management
+      items: 
+        - name: Phone number management for Australia
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md
+        - name: Phone number management for Austria
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-austria.md
+        - name: Phone number management for Belgium
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md
+        - name: Phone number management for Canada
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md
+        - name: Phone number management for the Czech Republic
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-czech-republic.md
+        - name: Phone number management for Denmark
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md
+        - name: Phone number management for Estonia
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-estonia.md
+        - name: Phone number management for Finland
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-finland.md
+        - name: Phone number management for France
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-france.md
+        - name: Phone number management for Germany
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md
+        - name: Phone number management for Hong Kong SAR
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-hong-kong.md
+        - name: Phone number management for Hungary
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-hungary.md
+        - name: Phone number management for Ireland
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md
+        - name: Phone number management for Italy
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md
+        - name: Phone number management for Japan
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md
+        - name: Phone number management for Latvia
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-latvia.md
+        - name: Phone number management for Lithuania
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-lithuania.md
+        - name: Phone number management for Luxembourg
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-luxembourg.md
+        - name: Phone number management for Mexico
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-mexico.md
+        - name: Phone number management for New Zealand
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-new-zealand.md
+        - name: Phone number management for Norway
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-norway.md
+        - name: Phone number management for Poland
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-poland.md
+        - name: Phone number management for Portugal
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-portugal.md
+        - name: Phone number management for Romania
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-romania.md
+        - name: Phone number management for Singapore
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-singapore.md
+        - name: Phone number management for Slovakia
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-slovakia.md
+        - name: Phone number management for Slovenia
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-slovenia.md
+        - name: Phone number management for South Africa
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-south-africa.md
+        - name: Phone number management for Spain
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md
+        - name: Phone number management for the Netherlands
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md
+        - name: Phone number management for Sweden
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-sweden.md
+        - name: Phone number management for Switzerland
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland.md
+        - name: Phone number management for the United Kingdom
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md
+        - name: Phone number management for the United States
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md
+        - name: Contact the TNS Service Desk
+          href: manage-phone-numbers-for-your-organization/contact-tns-service-desk.md
+
+
+    - name: Toll-free dialing limitations and restrictions
+      items: 
+        - name: Overview
+          href: toll-free-dialing-limitations-and-restrictions.md
+        - name: Argentina
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md
+        - name: Australia
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md
+        - name: Austria
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-austria.md
+        - name: Belarus
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md
+        - name: Belgium
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md
+        - name: Belize
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md
+        - name: Bosnia & Herzegovina
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md
+        - name: Brazil
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md
+        - name: Brunei
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md
+        - name: Bulgaria
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md
+        - name: Chile
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md
+        - name: China (North)
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md
+        - name: China (South)
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md
+        - name: Colombia
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-columbia.md
+        - name: Croatia
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-croatia.md
+        - name: Cyprus
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-cyprus.md
+        - name: Denmark
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-denmark.md
+        - name: Ecuador
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ecuador.md
+        - name: Egypt
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-egypt.md
+        - name: Estonia
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-estonia.md
+        - name: Finland
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-finland.md
+        - name: France
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-france.md
+        - name: Germany
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany.md
+        - name: Honduras
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras.md
+        - name: Hong Kong SAR
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md
+        - name: Hungary
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary.md
+        - name: India
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-india.md
+        - name: Indonesia
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md
+        - name: Ireland
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ireland.md
+        - name: Israel
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-israel.md
+        - name: Italy
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-italy.md
+        - name: Japan
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-japan.md
+        - name: Kenya
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-kenya.md
+        - name: Luxembourg
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-luxembourg.md
+        - name: Malaysia
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-malaysia.md
+        - name: Mexico
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-mexico.md
+        - name: Moldova
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-moldova.md
+        - name: Monaco
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-monaco.md
+        - name: Netherlands
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-netherlands.md
+        - name: Panama
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-panama.md
+        - name: Paraguay
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-paraguay.md
+        - name: Peru
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-peru.md
+        - name: Philippines
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-philippines.md
+        - name: Poland
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-poland.md
+        - name: Portugal
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-portugal.md
+        - name: Qatar
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-qatar.md
+        - name: Romania
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-romania.md
+        - name: Saudi Arabia
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-saudi-arabia.md
+        - name: Serbia
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-serbia.md
+        - name: Singapore
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-singapore.md
+        - name: Slovakia
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovakia.md
+        - name: Slovenia
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovenia.md
+        - name: South Africa
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-africa.md
+        - name: South Korea
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea.md
+        - name: Spain
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md
+        - name: Sweden
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden.md
+        - name: Switzerland
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-switzerland.md
+        - name: Taiwan
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan.md
+        - name: Thailand
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand.md
+        - name: Türkiye
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md
+        - name: United Arab Emirates (UAE)
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates.md
+        - name: United Kingdom
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k.md
+        - name: Uruguay
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-uruguay.md
+        - name: Venezuela
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md
+        - name: Vietnam
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md
+
+
     - name: Country and region availability for Audio Conferencing and Calling Plans
       items: 
         - name: Overview
@@ -2217,6 +2222,8 @@ items:
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela.md
         - name: Vietnam
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md
+   
+   
     - name: Accessibility and conformance
       items: 
         - name: Accessibility guidance for Teams
