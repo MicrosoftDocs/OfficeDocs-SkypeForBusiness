@@ -56,6 +56,9 @@ Teams licenses can be purchased as part of their [Microsoft 365 and Office 365 s
 
 For more information about getting Teams, check out [How do I get access to Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
+> [!IMPORTANT]
+> **Microsoft Teams Rooms Basic** licenses aren't supported on and won't work with Teams Phone devices. An account with a Basic license assigned will be blocked from sign in.
+
 ## Deploy your phones using Intune
 
 To learn more about how to deploy Teams displays using Intune, see [Deploy Teams phones and Teams displays](phones-displays-deploy.md).
