@@ -42,7 +42,7 @@ For more information about submitting the necessary forms, see [Manage phone num
 > [!NOTE]
 > We process port orders for transferring phone numbers only on United States business days and not on public holidays or weekends.
 >
-> Porting availability for Toll-free phone numbers may vary by country and region. To find our more, please refer to your country or region specific documents to see available support for porting service.
+> Porting availability for Toll-free phone numbers may vary by country and region. For more information, see your [country or region specific articles](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 ## Create a port order and transfer your phone numbers to Teams
 
