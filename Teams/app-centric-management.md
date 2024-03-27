@@ -135,7 +135,7 @@ When your tenant's admin center receives this feature, the following updates are
 
 * After you switch to this feature, you can't access, edit, or use permission policies.
 
-* PowerShell cmdlets aren't supported on tenants that switch to this feature. Cmdlets return the results but the results aren't applicable to tenants that use this feature. The PowerShell cmdlets are not supported if you use this feature.
+* [PowerShell cmdlets](/powershell/module/teams/?view=teams-ps) for permission policies aren't supported on tenants that switch to this feature. These cmdlets return the results but the results aren't applicable to tenants that use this feature. App permission policy PowerShell cmdlets are not supported if you use this feature.
 
 ## Related article
 
