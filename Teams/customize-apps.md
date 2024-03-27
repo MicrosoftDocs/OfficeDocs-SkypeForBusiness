@@ -62,7 +62,7 @@ A customizable app can be customized in two ways depending on your organization'
 
 1. **[Default customization](#create-a-default-customization-for-an-app)**: Customize an app for all users to receive a single customized version with a constant appearance for all users.
 
-1. **[Additional customization](#create-additional-customizations-to-provide-to-different-users)**: In addition to the default customization, you can create more customizations of the same app and let different users or groups receive differently customized app.
+1. **[Additional customization](#create-and-assign-additional-customizations-to-different-users)**: In addition to the default customization, you can create more customizations of the same app and let different users or groups receive differently customized app.
 
 | Requirements, considerations, and behavior                 | Default customization                                                      | Additional customizations                                                                                                                         |
 |:-----------------------------------------------------------|:---------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -143,7 +143,7 @@ To create additional customizations of an app, follow these steps:
    :::image type="content" source="media/app-customization-assign-setup-policy.png" alt-text="Screenshot showing the manage assignments option that is used to apply a setup policy to an additional customization.":::
 
 > [!NOTE]
-> When you assign app setup policy to an additional customization, it only helps you provide customizations to specific users. It doesn't help you to pin and auto-install apps. Use [app setup policies](teams-app-setup-policies.md) to pin and add apps. Also, customizations respect the app assignments so only those users can view customized apps who are allowed by you to use an app.
+> When you assign app setup policy to an additional customization, it only helps you provide customizations to specific users. It doesn't help you to pin and auto-install apps. Use [app setup policies](teams-app-setup-policies.md) to pin and add apps.
 
 You can create up to 10 additional customizations for an app.
 
@@ -155,29 +155,31 @@ Consider the following details about app customization functionality:
 
 * You can only customize Teams store apps and not [custom apps](apps-in-teams.md#custom-apps-created-within-an-organization-for-internal-use).
 
-* You can customize an app only if the app developer allows it to be customized.
+* You can customize an app only if the [app developer allows customization](/microsoftteams/platform/concepts/design/enable-app-customization).
 
 * Your customizations and changes are available only within your organization.
 
-* When you customize apps and any description related to an app, ensure that you follow the guidelines that app developers provide in [app's documentation](manage-apps.md#support-information-for-apps) or in their terms of use. Adhere to the copyright laws when using any third-party images.
+* When you customize apps and any description related to an app, ensure that you follow the guidelines that app developers provide in [app's documentation](manage-apps.md#support-information-for-apps) or in their terms of use. Adhere to the copyright laws when using any logos or images.
 
 * Admin-provided customization information is stored in the nearest data storage region.
 
-* You're responsible to ensure that the updated links to terms of use or privacy policy are valid.
+* You're responsible to ensure that the updated [links to terms of use or privacy policy](manage-apps.md#support-information-for-apps) are valid.
 
-* In case the app developer no longer allows a field to be customizable, a message appears on the app details page to notify you. Your changes to the app revert to the value set by the developer.
+* In case the app developer no longer allows a field to be customizable, a message appears on the app details page to notify you. Your changes to the app revert to the [value set by the developer](/microsoftteams/platform/concepts/design/enable-app-customization).
+
+* To make an existing app customizable or disallow an existing app customizations, the developer must provide a new version of the app in the Teams store.
 
 * We recommend testing app customization changes in a test tenant before making these changes in your production environment. To get a test tenant, follow the instructions at [create your test tenant](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant).
 
 * Updates take up to 24 hours to show in the client for all the users and admin accounts.
 
-* To make an existing app customizable, the developer must provide a new version of the app in the Teams store.
-
 * The [app usage report](teams-analytics-and-reports/app-usage-report.md) displays the original name of the app that the app developer provided, even if your users use the customized app.
 
-* The Microsoft Graph permission consent dialog displays the original name of the app that the app developer provides. It helps you to accurately identify an app when providing consent to its permissions.
+* The Microsoft Graph permission consent dialog displays the original name of the app that the app developer provides. It helps you to accurately identify an app when you [provide consent to its permissions](manage-consent-app-permissions.md).
 
 * Customizing an app doesn't change any app functionality.
+
+* [External or guest users](non-standard-users.md) can only see the original app.
 
 The limitations on some of the customizable fields are:
 
