@@ -46,6 +46,8 @@ To use the new unified settings and policy experience, you need to opt-in from t
 
 ![The screenshot of Opt-in from Teams admin center dashboard.](/media/tac-1.png)
 
+![The screenshot of Opt-in from Teams admin center dashboard.](/media/tac-1.png)
+
 :::image type="content" source="/media/tac-1.png" alt-text="The screenshot of Opt-in from Teams admin center dashboard":::
 
 <img src="c:\GitHub\OfficeDocs-SharePoint-pr\SharePoint\SharePointOnline/media/image3.png" style="width:5.69048in;height:2.30416in" alt="A screenshot of a computer Description automatically generated" />
