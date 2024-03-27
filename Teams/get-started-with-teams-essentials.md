@@ -42,47 +42,47 @@ If you purchased Teams Essentials through a Microsoft Certified Partner, you own
 
 The following table lists the major Microsoft Teams features available across plans. Certain caveats apply. For more information, see the footnotes. This table may change without notice. For the most up-to-date, complete list of features, visit  [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
 
-|Microsoft Teams Plan | [**Microsoft Teams Essentials**](#get-microsoft-teams-essentials) | **Microsoft Teams Essentials (Microsoft Entra identity)** | [**Microsoft 365 Business Basic**](/microsoft-365/admin/setup/setup-business-basic?)  |
-|---------|---------|---------|---------|
-|***Feature*** |         |         |         |
-| **Meeting and Calling** | Yes| Yes | Yes |
-| Unlimited group meetings |   Yes    |   Yes      |   |
-| Unlimited 1:1 calls |    Yes     |   Yes      | Yes |
-| Group meeting participant capacity |     300    |   300      |  300  |
-| Group meeting duration |    30 hours     |    30 hours     | 30 hours |
-| Screen sharing |    Yes     |    Yes     | Yes |
-| Customized Backgrounds |    Yes     |    Yes     | Yes |
-| Live transcription |    Yes     |   Yes      |     Yes    |
-| Schedule meetings |   Yes      |     Yes    |     Yes    |
-| Calendar app |      Yes   |     Yes    |     Yes    |
-| Together mode |      Yes   |     Yes    |     Yes    |
-| Live reaction |    Yes     |   Yes      |     Yes    |
-| Noise suppression |    Yes     |   Yes      |     Yes    |
-| Meeting attendees can join meetings without an account |    Yes     |     Yes    |     Yes    |
-| Send meeting invites to a phone number |  Yes      |         |    |
-| Meeting recordings & transcripts |         |   Yes       |     Yes    |
-| Breakout rooms |         |   Yes      |     Yes    |
-| Whiteboard |         |  Yes       |     Yes    |
-| Host webinars that include attendee registration pages, email confirmations, and reporting. |     |      | Available in Business Standard|
-| **Chat and collaboration**  |         |         |         |
-| Unlimited chat (one-to-one & group) |   Yes      |   Yes      |    Yes      |
-| Real-time collaboration in Office apps |   Yes      |   Yes      |  Yes      |
-| Guest access: Chat w/anyone inside & outside your company |   Yes      |   Yes      |  Yes      |
-| Polls |   Yes      |   Yes      |  Yes      |
-| Teams and Channels |   |   Yes      |  Yes      |
-| **Productivity apps and services** |         |         ||
-| File & document cloud storage (per user) |   10 GB      |   10 GB     | 1 TB |
-| Word, Excel, PowerPoint web & mobile apps |   Yes      |   Yes      | Yes |
-| Google calendar sync |   Yes      |   Yes&sup1;      | Yes&sup1; |
-| App Extensibility (250+ integrated apps & services) |        |   Yes      | Yes |
-| Exchange email hosting with customer email domain address |   | 2 GB&sup2; |    50 GB|
-|**Security and compliance**   |         |         | |
-| Microsoft Teams data encryption at rest and in transit |   Yes      |   Yes      | Yes |
-| Single sign-on to all services |     |   Yes      | Yes |
-|**Administration and support** |         |         | |
-| Administration tools for managing users, apps, settings & policies  |   | Yes |   Yes      |
-| Migrate existing data & users to Microsoft 365 |   | Yes  | Yes|
-| Ability to add-on services including Audio Conferencing & Teams Phone |   |   Yes      | Yes |
+|Microsoft Teams Plan | **Microsoft Teams (free)** | [**Microsoft Teams Essentials** ](#get-microsoft-teams-essentials) | **Microsoft Teams Essentials (Microsoft Entra identity)** | [**Microsoft 365 Business Basic**](/microsoft-365/admin/setup/setup-business-basic?)  |
+|---------|---------|---------|---------|---------|
+|***Feature***     |         |         |         |         |
+| **Meeting and Calling** | Yes| Yes| Yes |   Yes    |
+| Unlimited group meetings |     Yes    |   Yes      |   Yes      |
+| Unlimited 1:1 calls |    Yes     |    Yes     |   Yes      | Yes |
+| Group meeting participant capacity |  100       |     300    |   300      |  300  |
+| Group meeting duration |    60 minutes     |    30 hours     |    30 hours     | 30 hours |
+| Screen sharing |   Yes      |    Yes     |    Yes     | Yes |
+| Customized Backgrounds |    Yes     |    Yes     |    Yes     | Yes |
+| Live transcription |    Yes     |    Yes     |   Yes      |     Yes    |
+| Schedule meetings |    Yes     |   Yes      |     Yes    |     Yes    |
+| Calendar app |    Yes     |      Yes   |     Yes    |     Yes    |
+| Together mode |     Yes   |      Yes   |     Yes    |     Yes    |
+| Live reaction |   Yes      |    Yes     |   Yes      |     Yes    |
+| Noise suppression |    Yes     |    Yes     |   Yes      |     Yes    |
+| Meeting attendees can join meetings without an account | Yes  |    Yes     |     Yes    |     Yes    |
+| Send meeting invites to a phone number |   Yes     |  Yes      |         |    |
+| Meeting recordings & transcripts |         |         |   Yes       |     Yes    |
+| Breakout rooms |         |         |   Yes      |     Yes    |
+| Whiteboard |         |         |  Yes       |     Yes    |
+| Host webinars that include attendee registration pages, email confirmations, and reporting. |     |     |      | Available in Business Standard|
+| **Chat and collaboration**     |         |         |         |         |
+| Unlimited chat (one-to-one & group) |     Yes    |   Yes      |   Yes      |    Yes      |
+| Real-time collaboration in Office apps |     Yes    |   Yes      |   Yes      |  Yes      |
+| Guest access: Chat w/anyone inside & outside your company|     Yes    |   Yes      |   Yes      |  Yes      |
+| Polls |     Yes    |   Yes      |   Yes      |  Yes      |
+| Teams and Channels |     |   |   Yes      |  Yes      |
+| **Productivity apps and services** |         |         |         ||
+| File & document cloud storage (per user) |     5 GB    |   10 GB      |   10 GB     | 1 TB | 
+| Word, Excel, PowerPoint web & mobile apps |     Yes   |   Yes      |   Yes      | Yes | 
+| Google calendar sync |     Yes    |   Yes      |   Yes&sup1;      | Yes&sup1; | 
+| App Extensibility (250+ integrated apps & services) |     |        |   Yes      | Yes | 
+| Exchange email hosting with customer email domain address |    |   | 2 GB&sup2; |    50 GB|
+|**Security and compliance**     |         |         |         | | 
+| Microsoft Teams data encryption at rest and in transit |     Yes    |   Yes      |   Yes      | Yes | 
+| Single sign-on to all services |         |     |   Yes      | Yes | 
+|**Administration and support**     |         |         |         | | 
+| Administration tools for managing users, apps, settings & policies  |     |   | Yes |   Yes      |
+| Migrate existing data & users to Microsoft 365  |     |   | Yes  | Yes|
+| Ability to add-on services including Audio Conferencing & Teams Phone |     |   |   Yes      | Yes |
 
 <sup>1</sup> Provides connection to Google Calendar and other third-party calendars with the following configuration: [Microsoft Teams Essentials (Microsoft Entra identity) Configuration Guide](connect-teams-essentials-to-email.md)
 
