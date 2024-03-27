@@ -26,9 +26,16 @@ ms.custom: seo-marvel-mar2020
 
 # Transfer phone numbers to Microsoft Teams Calling Plans
 
-Use the porting step-by-step guide in the Microsoft Teams admin center to transfer your phone numbers from your current service provider to Microsoft Teams Calling Plans. After you port your phone numbers to Teams, Microsoft will becomes your service provider. For more information, see [How many telephone numbers can you get?](../how-many-phone-numbers-can-you-get.md)
+This article is for administrators and IT professionals. The article describes how to transfer phone numbers from your current service provider to Microsoft Teams Calling Plans. 
 
-Before you start, we recommend you review the information in [What's a port order?](port-order-overview.md) If you have service numbers for dial-in conferencing bridges, Auto attendants or other service numbers, toll-free phone numbers, or have more than 999 user (subscriber) phone numbers that you need to transfer to Teams, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to download the correct forms and send them to us.
+To transfer your phone numbers, you can use the porting step-by-step guide in the Microsoft Teams admin center. After you port your phone numbers to Teams, Microsoft becomes your service provider. For more information, see [How many phone numbers can you get?](../how-many-phone-numbers-can-you-get.md)
+
+Before you start, we recommend you review the information in [What's a port order?](port-order-overview.md). If you have any of the following types of numbers that you need to transfer to Teams, see [Manage phone numbers for Calling Plans and services](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to download the correct forms and send them to us:
+
+- Dial-in conferencing bridges
+- Auto attendants or other service numbers
+- Toll-free phone numbers
+- More than 999 user (subscriber) phone numbers that you need to transfer to Teams
 
   > [!NOTE]
   > We process port orders for transferring phone numbers only on United States business days and not on public holidays or weekends.
