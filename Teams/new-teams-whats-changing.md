@@ -50,3 +50,4 @@ As we improved the client, the experience also improved to align with similar fe
 |Help in the app bar|The Help entrypoint, including Help links and Give Feedback is now located under the More options menu **(...)** in the title bar.|
 |Ability to sign out from the notification area at the far right of the taskbar (system tray). |No longer available.|
 |Adaptive Card-based tabs in personal app tabs.|No longer available.|
+|Whiteboard Tab automatically displayed in meeting tabs.|Using Recap tab from the calendar allows you to access the Whiteboard file shared in the meeting in the content section.|
