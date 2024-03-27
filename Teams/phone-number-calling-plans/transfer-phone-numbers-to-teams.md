@@ -20,13 +20,13 @@ appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn how to use the porting wizard to transfer your phone number from your current service provider to Microsoft Teams Calling Plans.
+description: Learn how to use the porting wizard to transfer your phone number from your current service provider to Microsoft Teams.
 ms.custom: seo-marvel-mar2020
 ---
 
-# Transfer phone numbers to Microsoft Teams Calling Plans
+# Transfer phone numbers to Microsoft Teams
 
-This article is for administrators and IT professionals. The article describes how to transfer phone numbers from your current service provider to Microsoft Teams Calling Plans. 
+This article is for administrators and IT professionals. The article describes how to transfer phone numbers from your current service provider to Microsoft Teams. This article applies to Microsoft Calling Plans and services.
 
 To transfer your phone numbers, you can use the porting step-by-step guide in the Microsoft Teams admin center. After you port your phone numbers to Teams, Microsoft becomes your service provider. For more information, see [How many phone numbers can you get?](../how-many-phone-numbers-can-you-get.md)
 
@@ -94,14 +94,14 @@ Before you start, we recommend you review the information in [What's a port orde
 
 7. Review your order details, and then select **Submit**.
 
-## What happens next?
+## What happens next
 
 When we receive your port order, you'll receive an email that verifies your request. Your request is updated daily, and you'll be notified of its progress and status in email. If your port request is rejected by the carrier, contact the [TNS Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) for assistance.
 
 To view the status of your port order, in the left navigation of the Microsoft Teams admin center, go to  **Voice** > **Port orders**, and then select **Order history**. Each port order status is listed in the **Status** column. To learn more, see [What's the status of your port orders?](port-order-status.md)
 
 
-## Reporting Telephone Number Issues?
+## Report phone number issues
 
 If you notice any issues with the ported numbers within the first 24-48 hours after the port is completed, contact the [TNS Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md). For any issues beyond 48 hours, contact the Microsoft Support Team.
 
