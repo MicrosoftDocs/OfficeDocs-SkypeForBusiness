@@ -1,4 +1,4 @@
-> Starting April 1, 2024, all new Enterprise customers who wish to provide workers with both Microsoft Teams and the value in existing Microsoft 365 or Office 365 Enterprise suites (E1/E3/E5) will need to purchase two SKUs: one E1/E3/E5 (no Teams) suite and one Teams standalone (*Microsoft Teams Enterprise* or *Microsoft Teams Enterprise EEA*). Microsoft 365 Business suites (up to 300 users) and Frontline worker suites will be available in versions both with and without Teams.
+> Starting April 1, 2024, all new Enterprise customers who wish to provide workers with both Microsoft Teams and the value in existing Microsoft 365 or Office 365 Enterprise suites (E1/E3/E5) will need to purchase two SKUs: one E1/E3/E5 (no Teams) suite and one Teams standalone (*Microsoft Teams Enterprise* or *Microsoft Teams EEA*). Microsoft 365 Business suites (up to 300 users) and Frontline worker suites will be available in versions both with and without Teams.
 >
 > For Enterprise customers in the European Economic Area (EEA) and Switzerland, this change became effective on October 1, 2023. 
 >
