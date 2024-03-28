@@ -167,7 +167,7 @@ You can simplify the sign-in experience on Teams for iOS and Android by pre-fill
 Signing in to Teams is faster and easier, especially for employees such as frontline workers on shared devices, who sign in and out regularly.
 
 > [!NOTE]
-> For users to experience the sign-in experience described in this section, their devices must be running Teams for iOS version 6.60 or later, or Teams for Android version 1416/1.0.0.2024053003 or later.
+> For users to experience the sign-in experience described in this section, their devices must be running Teams for iOS version 6.6.0 or later, or Teams for Android version 1416/1.0.0.2024053003 or later.
 
 :::image type="content" source="media/teams-mobile-domainless-sign-in.png" alt-text="Screenshot of the sign-in screen showing the pre-filled domain name on Teams for iOS and Android." lightbox="media/teams-mobile-domainless-sign-in.png":::
 
@@ -176,7 +176,7 @@ Signing in to Teams is faster and easier, especially for employees such as front
 | domain_name | A string value providing the domain of the tenant to appended. Use a semicolon delimited value to add multiple domains. |
 | enable_numeric_emp_id_keypad | A boolean value used to indicate that the employee ID is all numeric and the number keypad should be enabled for easy entry. If the value isn't set, the alphanumeric keyboard opens.  |
  
-We use an app configuration channel that works with any MDM provider that uses the [Managed App Configuration](https://developer.apple.com/library/archive/samplecode/sc2279/Introduction/Intro.html) channel for iOS or the [Android Enterprise](https://developer.android.com/work/managed-configurations) channel for Android.
+Teams uses app configuration that works with any MDM provider that uses the [Managed App Configuration](https://developer.apple.com/library/archive/samplecode/sc2279/Introduction/Intro.html) channel for iOS or the [Android Enterprise](https://developer.android.com/work/managed-configurations) channel for Android.
 
 If you're using Microsoft Intune, see [Manage collaboration experiences in Teams for iOS and Android with Microsoft Intune](/mem/intune/apps/manage-microsoft-teams).
 
