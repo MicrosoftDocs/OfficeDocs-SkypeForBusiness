@@ -3,7 +3,6 @@ title: Shifts data FAQ
 author: lana-chin
 ms.author: v-chinlana
 manager: jtremper
-ms.date: 03/25/2024
 ms.topic: conceptual
 ms.reviewer: imarquesgil
 audience: admin
@@ -26,6 +25,7 @@ appliesto:
   - Microsoft Teams
   - Microsoft 365 for frontline workers
 ms.custom: seo-marvel-mar2020
+ms.date: 03/25/2024
 ---
 
 # Shifts data FAQ
