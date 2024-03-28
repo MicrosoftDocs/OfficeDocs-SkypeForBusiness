@@ -76,9 +76,9 @@ Upon sign in, mobile users will see a list of all the Microsoft 365 accounts tha
 2. If the user isn't signed in to their Microsoft 365 account anywhere else, they're asked to provide single-factor or multifactor authentication (SFA or MFA), depending on what your organization configured for mobile sign-in policies.
 
 > [!NOTE]
-> For users to experience the sign on experience as described in this section, their devices must be running Teams for iOS version 2.0.13 (build 2020061704) or later, or Teams for Android version 1416/1.0.0.2020061702 or later.
+> For users to experience the sign-n experience as described in this section, their devices must be running Teams for iOS version 2.0.13 (build 2020061704) or later, or Teams for Android version 1416/1.0.0.2020061702 or later.
 
-## Using Microsoft Teams with multiple sign-in accounts
+## Using Microsoft Teams with multiple accounts
 
 Teams for iOS and Android supports the use of multiple work or school and multiple personal accounts side by side. Teams desktop applications will support one work/school and one personal account side by side in December 2020, with support for multiple work/school accounts coming at a later date.
 
@@ -92,9 +92,9 @@ Organization may want to restrict how corporate-approved apps are used on manage
 
 ### How to restrict Microsoft Teams sign-in on mobile devices
 
-Teams for iOS and Android offers IT administrators the ability to push account configurations to Microsoft 365 accounts. This capability works with any MDM provider that uses the [Managed App Configuration](https://developer.apple.com/library/archive/samplecode/sc2279/Introduction/Intro.html) channel for iOS or the [Android Enterprise](https://developer.android.com/work/managed-configurations) channel for Android.
+Teams app for iOS and Android on enrolled devices can be configured to only allow a single corporate account to be provisioned within the app. This capability works with any MDM provider that uses the [Managed App Configuration](https://developer.apple.com/library/archive/samplecode/sc2279/Introduction/Intro.html) channel for iOS or the [Android Enterprise](https://developer.android.com/work/managed-configurations) channel for Android.
 
-For users enrolled in Microsoft Intune, you can deploy the account configuration settings using Intune in the Azure portal.
+For users enrolled in Microsoft Intune, you can deploy the account configuration settings using the Intune portal.
 
 Once account setup configuration has been configured in the MDM provider, and after the user enrolls their device, on the sign-in page, Teams for iOS and Android will only show the allowed account(s) on the Teams sign-in page. The user can tap on any of the allowed accounts on this page to sign in.
 
@@ -162,21 +162,21 @@ The sign-in experience looks similar to our standard Teams sign-in experience.
 
 ## Simplify the sign-in experience with domain-less sign-in
 
-> [!NOTE]
-> This feature is currently in public preview.
-
 You can simplify the sign-in experience on Teams for iOS and Android by pre-filling the domain name on the sign-in screen for users on shared and managed devices. Users sign in by entering the first part of their UPN (without the domain name). For example, if the username is 123456@contoso.com or adelev@contoso.com, users can sign in by using only "123456" or "adelev", respectively, and their password.
 
 Signing in to Teams is faster and easier, especially for employees such as frontline workers on shared devices, who sign in and out regularly.
 
-:::image type="content" source="media/teams-mobile-domainless-sign-in.png" alt-text="Screenshot of the sign-in screen showing the pre-filled domain name on Teams for iOS and Android." lightbox="media/teams-mobile-domainless-sign-in.png"::: 
+> [!NOTE]
+> For users to experience the sign-in experience described in this section, their devices must be running Teams for iOS version 6.60 or later, or Teams for Android version 1416/1.0.0.2024053003 or later.
+
+:::image type="content" source="media/teams-mobile-domainless-sign-in.png" alt-text="Screenshot of the sign-in screen showing the pre-filled domain name on Teams for iOS and Android." lightbox="media/teams-mobile-domainless-sign-in.png":::
 
 | Name | Value |
 |---|---|
 | domain_name | A string value providing the domain of the tenant to appended. Use a semicolon delimited value to add multiple domains. |
 | enable_numeric_emp_id_keypad | A boolean value used to indicate that the employee ID is all numeric and the number keypad should be enabled for easy entry. If the value isn't set, the alphanumeric keyboard opens.  |
  
-Teams for iOS and Android offers IT administrators the ability to push account configurations to Microsoft 365 accounts. This capability works with any MDM provider that uses the [Managed App Configuration](https://developer.apple.com/library/archive/samplecode/sc2279/Introduction/Intro.html) channel for iOS or the [Android Enterprise](https://developer.android.com/work/managed-configurations) channel for Android.
+We use an app configuration channel that works with any MDM provider that uses the [Managed App Configuration](https://developer.apple.com/library/archive/samplecode/sc2279/Introduction/Intro.html) channel for iOS or the [Android Enterprise](https://developer.android.com/work/managed-configurations) channel for Android.
 
 If you're using Microsoft Intune, see [Manage collaboration experiences in Teams for iOS and Android with Microsoft Intune](/mem/intune/apps/manage-microsoft-teams).
 
