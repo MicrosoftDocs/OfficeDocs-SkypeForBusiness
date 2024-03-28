@@ -94,5 +94,5 @@ Use the training resources to educate yourself about Teams, teach others or run 
 ## Related topics
 
 [Live and on demand user training](https://adoption.microsoft.com/user-training/?filter=microsoft-teams)
-```
+
 
