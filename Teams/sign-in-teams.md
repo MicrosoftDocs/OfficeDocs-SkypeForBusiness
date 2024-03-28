@@ -86,30 +86,6 @@ The following images show how users can add multiple accounts in Teams mobile ap
 
 :::image type="content" source="media/sign-in-multiple-accounts.png" alt-text="Adding multiple accounts in Teams." lightbox="media/sign-in-multiple-accounts.png":::
 
-## Simplify the sign-in experience with domainless sign-in
-
-> [!NOTE]
-> This feature is currently in public preview.
-
-You can simplify the sign-in experience on Teams for iOS and Android by pre-filling the domain name on the sign-in screen for users on shared and managed devices. Users sign in by entering the first part of their UPN (without the domain name). For example, if the username is 123456@contoso.com or adelev@contoso.com, users can sign in by using only "123456" or "adelev", respectively, and their password.
-
-Signing in to Teams is faster and easier, especially for employees such as frontline workers on shared devices, who sign in and out on a regular basis.
-
-:::image type="content" source="media/teams-mobile-domainless-sign-in.png" alt-text="Screenshot of the sign-in screen showing the pre-filled domain name on Teams for iOS and Android." lightbox="media/teams-mobile-domainless-sign-in.png":::
-
-Configure the UPN in the format of \<employeeid>@\<domain>.com and apply the following app configuration policy to enable employee ID sign-in for the Teams mobile app.  
-
-| Name | Value |
-|---|---|
-| domain_name | A string value providing the domain of the tenant to appended. Use a semicolon delimited value to add multiple domains. |
-| enable_numeric_emp_id_keypad | A boolean value used to indicate that the employee ID is all numeric and the number keypad should be enabled for easy entry. If the value isn't set, the alphanumeric keyboard opens.  |
- 
-Teams for iOS and Android offers IT administrators the ability to push account configurations to Microsoft 365 accounts. This capability works with any MDM provider that uses the [Managed App Configuration](https://developer.apple.com/library/archive/samplecode/sc2279/Introduction/Intro.html) channel for iOS or the [Android Enterprise](https://developer.android.com/work/managed-configurations) channel for Android.
-
-If you're using Microsoft Intune, see [Manage collaboration experiences in Teams for iOS and Android with Microsoft Intune](/mem/intune/apps/manage-microsoft-teams).
-
-To apply the app configuration policy using Graph API, see [managedDeviceMobileAppConfiguration resource type](/graph/api/resources/intune-apps-manageddevicemobileappconfiguration?view=graph-rest-1.0).  
-
 ## Restrict sign-in to Microsoft Teams
 
 Organization may want to restrict how corporate-approved apps are used on managed devices, for example to restrict students' or employees' ability to access data from other organizations or use corporate-approved apps for personal scenarios. These restrictions can be enforced by setting Devices Policies that Teams applications recognize.
@@ -183,6 +159,47 @@ Our improved sign-in experience on shared device provides a hassle free sign-in 
 The sign-in experience looks similar to our standard Teams sign-in experience.
 
 ![Sign-in-section](media/signin.png)
+
+## Simplify the sign-in experience with domain-less sign-in
+
+> [!NOTE]
+> This feature is currently in public preview.
+
+You can simplify the sign-in experience on Teams for iOS and Android by pre-filling the domain name on the sign-in screen for users on shared and managed devices. Users sign in by entering the first part of their UPN (without the domain name). For example, if the username is 123456@contoso.com or adelev@contoso.com, users can sign in by using only "123456" or "adelev", respectively, and their password.
+
+Signing in to Teams is faster and easier, especially for employees such as frontline workers on shared devices, who sign in and out regularly.
+
+:::image type="content" source="media/teams-mobile-domainless-sign-in.png" alt-text="Screenshot of the sign-in screen showing the pre-filled domain name on Teams for iOS and Android." lightbox="media/teams-mobile-domainless-sign-in.png"::: 
+
+| Name | Value |
+|---|---|
+| domain_name | A string value providing the domain of the tenant to appended. Use a semicolon delimited value to add multiple domains. |
+| enable_numeric_emp_id_keypad | A boolean value used to indicate that the employee ID is all numeric and the number keypad should be enabled for easy entry. If the value isn't set, the alphanumeric keyboard opens.  |
+ 
+Teams for iOS and Android offers IT administrators the ability to push account configurations to Microsoft 365 accounts. This capability works with any MDM provider that uses the [Managed App Configuration](https://developer.apple.com/library/archive/samplecode/sc2279/Introduction/Intro.html) channel for iOS or the [Android Enterprise](https://developer.android.com/work/managed-configurations) channel for Android.
+
+If you're using Microsoft Intune, see [Manage collaboration experiences in Teams for iOS and Android with Microsoft Intune](/mem/intune/apps/manage-microsoft-teams).
+
+To apply the app configuration policy using Graph API, see [managedDeviceMobileAppConfiguration resource type](/graph/api/resources/intune-apps-manageddevicemobileappconfiguration?view=graph-rest-1.0).  
+
+## Enable domain-less sign in for your custom apps
+
+Domain-less sign in Teams relies on app configuration channel, which is supported by all major MDM providers. All third-party or custom LOB applications on Android and iOS can support domain-less sign in, with some additional work.  
+
+Follow these steps to implement domain-less sign-in in your app:
+
+1. Set up the domain_name app configuration key for your app.
+1. Use [Managed App Configuration](https://developer.apple.com/library/archive/samplecode/sc2279/introduction/intro.html) and [Android in the Enterprise](https://developer.android.com/work/managed-configurations) to read the configuration. Here's a sample of how to read the value in iOS and Android code.
+
+    - iOS: ```UserDefaults.standard.object(forKey:"com.apple.configuration.managed")["domain_name"]```
+    - Android: ```appRestrictions.getString("domain_name")```
+
+        Learn more about how to [read and apply managed configurations](https://developer.android.com/work/managed-configurations#read-configurations) and [configure and test setup using TestDPC](https://github.com/android/enterprise-samples/tree/main/ManagedConfigurations#testing).
+
+1. Customize your sign-in experience to collect the username and domain_name (from step 2) to auto append or preconfigure on the screen. If you're using the Microsoft Authentication Library (MSAL), you can make the following call to acquire a token post to collect the username on your screen.
+
+    - iOS: [GitHub - AzureAD/microsoft-authentication-library-for-objc: Microsoft Authentication Library (MSAL) for iOS and macOS](https://github.com/AzureAD/microsoft-authentication-library-for-objc?tab=readme-ov-file#quick-sample)
+    - Android: [https://github.com/AzureAD/microsoft-authentication-library-for-android/?tab=readme-ov-file#step-4-create-an-msal-publicclientapplication](https://github.com/AzureAD/microsoft-authentication-library-for-android/?tab=readme-ov-file#step-4-create-an-msal-publicclientapplication)
 
 ## URLs and IP address ranges for Microsoft Teams
 
