@@ -893,7 +893,7 @@ items:
                   href: send-an-email-to-a-user-with-their-dial-in-information-in-teams.md
             - name: Manage meetings settings for audio conferencing
               items:
-                - name: Explicit recording consent for audio conferencing
+                - name: Explicit recording consent for 
                   href: conferencing-recording-consent.md
                 - name: Dialing out from a meeting so other people can join it
                   href: dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md
