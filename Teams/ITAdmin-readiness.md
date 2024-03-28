@@ -20,6 +20,10 @@ description: Training videos, PowerPoint decks, tutorials, and other resources f
 appliesto: 
 - Microsoft Teams
 ---
+# WARNING! There was an error parsing the document
+
+
+```
 # Getting started with admin training for Microsoft Teams
 
 Use the training resources to educate yourself about Teams, teach others or run workshops. Check back here often for new content.
@@ -94,3 +98,5 @@ Use the training resources to educate yourself about Teams, teach others or run 
 ## Related topics
 
 [Live and on demand user training](https://adoption.microsoft.com/user-training/?filter=microsoft-teams)
+```
+
