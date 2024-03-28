@@ -46,7 +46,7 @@ You must use PowerShell to configure explicit recording consent for users or gro
 
 For cmdlets to enable explicit recording consent for audio conferencing, see [Manage explicit recording consent through PowerShell](meeting-recording.md#manage-explicit-recording-consent-through-powershell).
 
-To learn about blocking or allowing the downloads of channel meeting recordings, recording expiration, setting custom privacy policy URLs, and more, see [Teams meeting recording](meeting-recording.md).
+To learn about managing channel meeting recording downloads, recording expiration, setting custom privacy policy URLs, and more, see [Teams meeting recording](meeting-recording.md).
 
 ## Recording consent in action
 
