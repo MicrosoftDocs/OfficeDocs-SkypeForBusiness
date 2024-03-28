@@ -159,6 +159,10 @@ To enable **`-ExplicitRecordingConsent`** so that any meeting an organizer with 
 Set-CsTeamsMeetingPolicy -Identity <policy name> -ExplicitRecordingConsent Enabled
 ```
 
+> [!NOTE]
+> You can only use PowerShell to manage explicit recording consent for audio conferencing. To learn more, see [Explicit recording consent for audio conferencing](conferencing-recording-consent.md).
+
+
 ## Block or allow download of channel meeting recordings
 
 Using PowerShell, the `-ChannelRecordingDownload` parameter in [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) controls if channel members can download meeting recordings. This is done by controlling which folder recordings are stored in.
