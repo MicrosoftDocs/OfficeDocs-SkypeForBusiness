@@ -25,7 +25,7 @@ As an IT admin, you need to have full control over how your organization uses Mi
 
 That's why we're introducing a new unified settings and policy experience in Teams admin center in Spring 2024. This experience enables you to manage settings and policies for Teams from a single place, with a clear and consistent navigation, a rich and informative side panel, and a streamlined and powerful assignment capability. You'll be able to apply settings and policies to your entire organization, or to specific users and groups, with ease and confidence.
 
-# What is the new experience?
+## What is the new experience?
 
 In Teams admin center left navigation, you can find the new combined settings and policy experience under one tab: **Settings & policies**. This new experience has two main tabs: Org-wide default settings and Custom policies for users & groups.
 
@@ -37,13 +37,13 @@ We have made it easier for you to manage the org-wide settings for a feature, by
 
 We've improved the custom policy page by adding a three tab structure for a feature area. The tabs are edit policy - where you can customize the settings, Assigned group, and Assigned users that show the group policy assignments and direct user assignments for that specific custom policy.
 
-# How to use the new experience?
+## How to use the new experience?
 
 To use the new unified settings and policy experience, you need to opt in from the Teams admin center dashboard or from any of the existing settings or policy pages. You'll see a card or a banner that invites you to try the new experience, and you can Select it to switch to the new experience. You'll also see a guided tour and coach marks that help you to explore the new features and functionalities.
 
-:::image type="content" source="media/tac-1.png" " alt-text="The screenshot of Opt-in from Teams admin center dashboard":::
+![A screenshot of Opt-in from Teams admin center dashboard.](media/tac-1.png)
 
-![A screenshot ofOpt-in from existing Messaging policy page.](media/tac-2.png)
+![A screenshot of Opt-in from existing Messaging policy page.](media/tac-2.png)
 
 You can always opt out from the new experience and go back to the old one, if you prefer, by clicking on the banner at the top of the new experience.
 
