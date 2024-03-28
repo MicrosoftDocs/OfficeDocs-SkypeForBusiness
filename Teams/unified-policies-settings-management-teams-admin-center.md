@@ -15,11 +15,12 @@ appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn the unified policies and settings management in Teams admin center in Microsoft Teams.
+description: Learn the unified policies and settings management in Teams admin center in Microsoft Teams, a new way to configure and customize access to Teams features for your organization.
 f1keywords: 
   - ms.teamsadmincenter.bulkoperations.users.edit
   - ms.teamsadmincenter.bulkoperations.edit
 ---
+# Introducing the unified policies and settings management in Teams admin center
 
 As an IT admin, you need to have full control over how your organization uses Microsoft Teams. You need to be able to find, configure, and manage settings and policies for Teams features in a simple and intuitive way. You also need to be able to customize these settings and policies for specific users and groups, without having to deal with complex and disconnected workflows.
 
