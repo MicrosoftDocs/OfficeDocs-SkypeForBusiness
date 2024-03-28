@@ -22,7 +22,7 @@ appliesto:
 
 # How different technologies affect Microsoft Teams sign-in
 
-If you need to understand how technologies like single sign-on (SSO), modern authentication (MS), and multifactor authentication (MA) affect users' experience of sign-in, this article helps clarify what users and admins can expect to see. It also outlines the sign-in behavior for macOS, Android, and iOS devices, how sign-in works using multiple accounts, how to simplify the sign-in experience with domainless sign-in on shared and managed mobile devices, how to remove automatically filled credentials or "pre-fill" at the sign-in screen, and how to restrict sign-in.
+If you need to understand how technologies like single sign-on (SSO), modern authentication (MS), and multifactor authentication (MA) affect users' experience of sign-in, this article helps clarify what users and admins can expect to see. It also outlines the sign-in behavior for macOS, Android, and iOS devices, how sign-in works using multiple accounts, how to remove automatically filled credentials or "pre-fill" at the sign-in screen, how to restrict sign-in, and how to simplify the sign-in experience with domain-less sign-in on shared and managed mobile devices.
 
 Bookmark this article if your role involves knowing Microsoft Team's expected behaviors during sign-in.
 
@@ -182,9 +182,9 @@ If you're using Microsoft Intune, see [Manage collaboration experiences in Teams
 
 To apply the app configuration policy using Graph API, see [managedDeviceMobileAppConfiguration resource type](/graph/api/resources/intune-apps-manageddevicemobileappconfiguration?view=graph-rest-1.0).  
 
-## Enable domain-less sign in for your custom apps
+## Enable domain-less sign-in for your custom apps
 
-Domain-less sign in Teams relies on app configuration channel, which is supported by all major MDM providers. All third-party or custom LOB applications on Android and iOS can support domain-less sign in, with some additional work.  
+Domain-less sign in Teams relies on the app configuration channel, which is supported by all major MDM providers. All third-party or custom LOB applications on Android and iOS can support domain-less sign in, with some additional work.  
 
 Follow these steps to implement domain-less sign-in in your app:
 
@@ -196,7 +196,7 @@ Follow these steps to implement domain-less sign-in in your app:
 
         Learn more about how to [read and apply managed configurations](https://developer.android.com/work/managed-configurations#read-configurations) and [configure and test setup using TestDPC](https://github.com/android/enterprise-samples/tree/main/ManagedConfigurations#testing).
 
-1. Customize your sign-in experience to collect the username and domain_name (from step 2) to auto append or preconfigure on the screen. If you're using the Microsoft Authentication Library (MSAL), you can make the following call to acquire a token post to collect the username on your screen.
+1. Customize your sign-in experience to collect the username and domain_name (acquired as part of step 2) to auto append or preconfigure on the screen. If you're using the Microsoft Authentication Library (MSAL), you can make the following call to acquire a token post to collect the username on your screen.
 
     - iOS: [GitHub - AzureAD/microsoft-authentication-library-for-objc: Microsoft Authentication Library (MSAL) for iOS and macOS](https://github.com/AzureAD/microsoft-authentication-library-for-objc?tab=readme-ov-file#quick-sample)
     - Android: [https://github.com/AzureAD/microsoft-authentication-library-for-android/?tab=readme-ov-file#step-4-create-an-msal-publicclientapplication](https://github.com/AzureAD/microsoft-authentication-library-for-android/?tab=readme-ov-file#step-4-create-an-msal-publicclientapplication)
