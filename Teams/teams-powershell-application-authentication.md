@@ -82,7 +82,13 @@ The following examples show how to use Teams PowerShell Module with the Microsof
 
   Connect-MicrosoftTeams -AccessTokens @("$graphToken", "$teamsToken")
   ```
-  
+> [!Note]
+> For **GCC** and **GCC High** - use use `.us` instead of `.com` for both graph token scope and login URIs:
+>   * `https://graph.microsoft.us/.default`
+>   * `https://login.microsoftonline.us/$TenantID/oauth2/v2.0/token"`
+
+
+
 ## How does it work?
 
 Teams PowerShell Module fetches the app-based token using the application ID, tenant ID and certificate thumbprint. The application object provisioned inside Microsoft Entra ID has a Directory Role assigned to it, which is returned in the access token. The session's role-based access control (RBAC) is configured using the directory role information that's available in the token.
