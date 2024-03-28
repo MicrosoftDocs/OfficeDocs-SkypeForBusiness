@@ -23,7 +23,7 @@ f1keywords:
 
 As an IT admin, you need to have full control over how your organization uses Microsoft Teams. You need to be able to find, configure, and manage settings and policies for Teams features in a simple and intuitive way. You also need to be able to customize these settings and policies for specific users and groups, without having to deal with complex and disconnected workflows.
 
-That's why we are introducing a new unified settings and policy experience in Teams admin center in Spring 2024. This experience will enable you to manage settings and policies for Teams from a single place, with a clear and consistent navigation, a rich and informative side panel, and a streamlined and powerful assignment capability. You will be able to apply settings and policies to your entire organization, or to specific users and groups, with ease and confidence.
+That's why we're introducing a new unified settings and policy experience in Teams admin center in Spring 2024. This experience enables you to manage settings and policies for Teams from a single place, with a clear and consistent navigation, a rich and informative side panel, and a streamlined and powerful assignment capability. You'll be able to apply settings and policies to your entire organization, or to specific users and groups, with ease and confidence.
 
 # What is the new experience?
 
@@ -39,7 +39,7 @@ We've improved the custom policy page by adding a three tab structure for a feat
 
 # How to use the new experience?
 
-To use the new unified settings and policy experience, you need to opt-in from the Teams admin center dashboard or from any of the existing settings or policy pages. You will see a card or a banner that invites you to try the new experience, and you can Select it to switch to the new experience. You will also see a guided tour and coach marks that will help you to explore the new features and functionalities.
+To use the new unified settings and policy experience, you need to opt in from the Teams admin center dashboard or from any of the existing settings or policy pages. You'll see a card or a banner that invites you to try the new experience, and you can Select it to switch to the new experience. You'll also see a guided tour and coach marks that help you to explore the new features and functionalities.
 
 :::image type="content" source="/media/tac-1.png" " alt-text="The screenshot of Opt-in from Teams admin center dashboard":::
 
@@ -49,7 +49,7 @@ To use the new unified settings and policy experience, you need to opt-in from t
 
 ![A screenshot ofOpt-in from existing Messaging policy page.](/media/tac-2.png)
 
-You can always opt-out from the new experience and go back to the old one, if you prefer, by clicking on the banner at the top of the new experience.
+You can always opt out from the new experience and go back to the old one, if you prefer, by clicking on the banner at the top of the new experience.
 
 ![A screenshot of Opt-out from new “Settings & policies” home page](/media/tac-3.png)
 
@@ -81,4 +81,4 @@ To create and manage custom policies, you can follow these steps:
 
 1. Select Save to create or update the custom policy, or on Cancel to discard it.
 
-1. Select the “Assigned groups” or “Assigned users” tab to view or assign the custom policy to groups or individual users respectively.
+1. Select the **Assigned groups** or **Assigned users** tab to view or assign the custom policy to groups or individual users respectively.
