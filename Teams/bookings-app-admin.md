@@ -54,9 +54,7 @@ To learn more, see [Microsoft Bookings](/microsoft-365/bookings/bookings-overvie
     - Microsoft 365: A3, A5, E1, E3, E5, F1, F3, Business Basic, Business Standard, Business Premium, Teams Essentials, Teams Premium
 - All users of the Bookings app and all staff participating in meetings have a license that supports Teams meeting scheduling.
 
-## Availability of Bookings in Teams
-
-The Bookings app for Teams is a web experience. It can be found under [Apps in Teams](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link).
+To add the Bookings app to Teams, go to **Apps**, and then search for [Bookings](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b).
 
 ## Control access to Bookings within your organization
 
