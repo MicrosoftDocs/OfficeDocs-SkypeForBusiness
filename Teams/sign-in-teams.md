@@ -198,8 +198,8 @@ Follow these steps to implement domain-less sign-in in your app:
 
 1. Customize your sign-in experience to collect the username and pre-fill the acquired domain_name on the screen. If you're using the Microsoft Authentication Library (MSAL), you can make the following call to acquire a token post collecting the username on your screen.
 
-    - iOS: [GitHub - AzureAD/microsoft-authentication-library-for-objc: Microsoft Authentication Library (MSAL) for iOS and macOS](https://github.com/AzureAD/microsoft-authentication-library-for-objc?tab=readme-ov-file#quick-sample)
-    - Android: [https://github.com/AzureAD/microsoft-authentication-library-for-android/?tab=readme-ov-file#step-4-create-an-msal-publicclientapplication](https://github.com/AzureAD/microsoft-authentication-library-for-android/?tab=readme-ov-file#step-4-create-an-msal-publicclientapplication)
+    - iOS: [Microsoft Authentication Library for iOS and macOS](https://github.com/AzureAD/microsoft-authentication-library-for-objc?tab=readme-ov-file#quick-sample)
+    - Android: [Microsoft Authentication Library (MSAL) for Android](https://github.com/AzureAD/microsoft-authentication-library-for-android/?tab=readme-ov-file#step-4-create-an-msal-publicclientapplication)
 
 ## URLs and IP address ranges for Microsoft Teams
 
