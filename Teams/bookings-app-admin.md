@@ -24,7 +24,7 @@ ms.collection:
   - highpri
   - m365initiative-meetings
 ms.reviewer: pritikar
-ms.date: 
+ms.date: 04/01/2024
 description: Learn how to manage the Bookings app in Teams for users in your organization.
 ---
 
@@ -51,7 +51,7 @@ To learn more, see [Microsoft Bookings](/microsoft-365/bookings/bookings-overvie
 - Microsoft Bookings is turned on for the organization.
 - Users have an appropriate license. Microsoft Bookings is available in the following subscriptions:
     - Office 365: A3, A5, E1, E3, E5, F1, F3, G1, G3, and G5
-    - Microsoft 365: A3, A5, E1, E3, E5, F1, F3, Business Basic, Business Standard, Business Premium, Teams Essentials, Teams Premium
+    - Microsoft 365: A3, A5, E3, E5, F1, F3, Business Basic, Business Standard, Business Premium, Teams Essentials, Teams Premium
 - All users of the Bookings app and all staff participating in meetings have a license that supports Teams meeting scheduling.
 
 To add the Bookings app to Teams, go to **Apps**, and then search for [Bookings](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b).
