@@ -38,7 +38,7 @@ Customize appointment types and details, booking requirements, and manage staff 
 
 You can create and manage multiple booking pages, each with their own unique setup, to fit the scheduling needs of your organization.
 
-- [Personal bookings](/microsoft-365/bookings/bookings-overview#personal-bookings) lets you manage your own appointment time slots. You can set and share your availability with your customers, clients, or coworkers. After you create a personal booking page, you can share the link with others, who can then see your availability and schedule a time when you're free.
+- [Personal bookings](/microsoft-365/bookings/bookings-overview#personal-bookings) let you manage your own appointment time slots. You can set and share your availability with your customers, clients, or coworkers. After you create a personal booking page, you can share the link with others, who can then see your availability and schedule a time when you're free.
 - [Shared bookings](/microsoft-365/bookings/bookings-overview#shared-bookings) are booking pages that you create and manage for your team. They allow you to invite your team members so that your customers and clients can book time with you and your team.
 
 Every appointment booked as an online meeting creates a meeting link that people can use to join and meet virtually in Teams.
