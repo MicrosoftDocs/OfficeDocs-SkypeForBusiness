@@ -35,7 +35,7 @@ When someone is adding Microsoft Teams Rooms consoles to your organization, the 
 To create a one-time password, perform the following steps:
 
 1. Sign in to the Teams Rooms Pro Management portal.
-1. On the left navigation pane, select **Planning > Resource accounts**. The **Resource accounts** page appears.
+1. On the left navigation pane, select **Planning > Resource Accounts**. The **Resource Accounts** page appears.
 1. Select **Generate OTP** wizard on the command bar.
 
    The **Account selection** page appears.
@@ -50,9 +50,10 @@ To create a one-time password, perform the following steps:
 
    :::image type="content" source="../media//mtr-devices/configuration-screen.png" alt-text="Screenshot that shows the Configuration page." lightbox="../media/mtr-devices/configuration-screen.png":::
   
-1. Select **Automatically generate passwords for all selected accounts**. You'll select this option if you want to reset/delete the existing password for the resource accounts for which you're generating a one-time password.
-   OR
-1. Select **Upload sign in data from CSV file**. You'll select this option if you want to retain the existing password for the resource accounts in which you're generating a one-time password.
+1. Select if you would like to **Automatically generate passwords for all selected accounts** OR **Upload sign in data from CSV file**.
+
+    1. Select the **Automatically generate passwords for all selected accounts** option if you want to reset/delete the existing password for the resource accounts for which you're   generating a one-time password.
+    2. Select **Upload sign in data from CSV file** if you want to retain the existing password for the resource accounts in which you're generating a one-time password.
 
 1. Select **Next**. The **Review** page appears.
 
@@ -61,10 +62,9 @@ To create a one-time password, perform the following steps:
 1. Review the settings you have configured, and then select **Generate**.
 
    > [!NOTE]
-   > On the **Review** page, if you want to edit the **Auto generate passwords** setting, select the **Edit** icon next to **Configuration**. Then, select **Generate**.
+   > On the **Review** page, if you want to edit the **Auto generate passwords** setting, select the **Edit** icon next to **Configuration** or if you want to change the resource accounts for which you want to create a one-time password, select the **Edit** icon next to **Account selection**. Then, select **Generate**.
 
-   > [!NOTE]
-   > On the **Review** page, if you want to change the resource accounts for which you want to create a one-time password, select the **Edit** icon next to **Account selection**. Then, select **Generate**.
+1. Once you've generated the OTP you're presented with the option to download the OTPs with or without the resource account passwords so you can save this information and share it with whomever might be setting up your devices.
 
 ## Verify and approve/reject one-time password
 
@@ -73,7 +73,7 @@ You can verify and approve a one-time password that was entered by the setup per
 To verify and approve a one-time password, do the following:
 
 1. Sign in to the Teams Rooms Pro Management portal.
-1. On the left navigation pane, select **Planning > Resource accounts**. The **Resource accounts** page appears.
+1. On the left navigation pane, select **Planning > Resource Accounts**. The **Resource Accounts** page appears.
 1. Select a resource account that has the value **Awaiting OTP Approval**.
 
    :::image type="content" source="../media/mtr-devices/resource-account-provisioning-status.png" alt-text="Screenshot that shows the page on which you select a resource account that has awaiting one-time password approval as its provisioning status." lightbox="../media/mtr-devices/resource-account-provisioning-status.png":::
@@ -92,3 +92,15 @@ To verify and approve a one-time password, do the following:
    :::image type="content" source="../media/mtr-devices/select-reason-for-rejection.png" alt-text="Screenshot that shows the page on which you choose the reason for rejecting the OTP request." lightbox="../media/mtr-devices/select-reason-for-rejection.png":::
 
 1. Select **Submit**.
+
+## Modify the one-time passcode expiration or enable OTP auto approval
+
+By default the OTP is valid for 8 hours, however you can adjust the validity period of the OTP to be up to 2 weeks (336 hours).  You can also choose to automatically approve OTPs instead of needing to select the approve button as the IT admin.
+
+To change these settings:
+1. Sign in to the Teams Rooms Pro Management portal.
+2. In the left navigation pane, select **Planning > Resource Accounts**. The **Resource Accounts** page appears.
+3. Select **Preferences** on the command bar.
+4. Adjust the OTP expiration by selecting from the predefined hours or set a custom expiration (between 1 hour and 336 hours).
+5. You can also toggle **OTP Auto approval** on or off.
+6. Select **Save** when you're done to save your changes.

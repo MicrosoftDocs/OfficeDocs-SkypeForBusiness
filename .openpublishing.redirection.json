@@ -4786,6 +4786,21 @@
     "redirect_document_id": false
 },
 {
+  "source_path": "teams/manage-freemium.md",
+  "redirect_url": "/microsoftteams/user-access",
+  "redirect_document_id": false
+},
+{
+  "source_path": "teams/upgrade-freemium.md",
+  "redirect_url": "/microsoftteams/user-access",
+  "redirect_document_id": false
+},
+{
+  "source_path": "teams/teams-add-on-licensing/remove-assign-free-licenses.md",
+  "redirect_url": "/microsoftteams/user-access",
+  "redirect_document_id": false
+},
+{
   "source_path": "Skype/SfbHybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online.md",
   "redirect_url": "/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud",
   "redirect_document_id": false
