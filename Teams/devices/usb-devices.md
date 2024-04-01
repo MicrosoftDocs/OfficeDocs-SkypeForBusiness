@@ -79,13 +79,14 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 ## Certified devices
 
-*Table Updated March 2024*
+*Table Updated April 2024*
 
 > [!NOTE]
 > The date format is MM/DD/YYYY.
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Yealink              |UH35 Dual/Mono Teams Headset                               |3/28/2024       |Certified for Microsoft Teams                           |
 |Bang & Olufsen Cisco |950 MS Earbuds                                             |3/28/2024       |Certified for Microsoft Teams                           | 
 |Dell                 |WL7024 Headset                                             |3/28/2024       |Certified for Microsoft Teams                           |                                       
 |EPOS                 |IMPACT 760T                                                |2/13/2024       |Certified for Microsoft Teams                           |
