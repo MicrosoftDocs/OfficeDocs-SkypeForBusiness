@@ -4789,6 +4789,11 @@
     "source_path": "teams/new-teams-automatic-upgrade-announced.md",
     "redirect_url": "/microsoftteams/teams-classic-client-end-of-availability",
     "redirect_document_id": false
-} 
+},
+{
+  "source_path": "Skype/SfbHybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online.md",
+  "redirect_url": "/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud",
+  "redirect_document_id": false
+}
 ] 
 }
