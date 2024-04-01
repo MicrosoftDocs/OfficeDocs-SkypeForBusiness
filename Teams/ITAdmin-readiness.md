@@ -1,7 +1,7 @@
 ---
 title: Admin training resources - Microsoft Teams
 ms.reviewer: jhwang
-ms.date: 08/29/2017
+ms.date: 03/27/2024
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
@@ -9,16 +9,16 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
-  - M365-collaboration
+- M365-collaboration
 search.appverid: MET150
 f1.keywords: 
-  - CSH
+- CSH
 ms.custom: 
-  - ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
-  - seo-marvel-mar2020
+- ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
+- seo-marvel-mar2020
 description: Training videos, PowerPoint decks, tutorials, and other resources for admins on how to plan, deploy, and run Microsoft Teams.
 appliesto: 
-  - Microsoft Teams
+- Microsoft Teams
 ---
 # Getting started with admin training for Microsoft Teams
 
@@ -94,3 +94,5 @@ Use the training resources to educate yourself about Teams, teach others or run 
 ## Related topics
 
 [Live and on demand user training](https://adoption.microsoft.com/user-training/?filter=microsoft-teams)
+
+
