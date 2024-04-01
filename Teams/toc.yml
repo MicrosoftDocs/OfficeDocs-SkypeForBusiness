@@ -327,8 +327,6 @@ items:
           href: /microsoft-365/compliance/teams-workflow-in-advanced-ediscovery         
     - name: Privacy
       items: 
-        - name: Privacy and Microsoft Teams
-          href: privacy/teams-privacy.md
         - name: Location of data in Teams
           href: privacy/location-of-data-in-teams.md
         - name: Microsoft Teams feedback privacy
