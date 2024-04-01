@@ -26,19 +26,21 @@ appliesto:
 
 # Implement Quality of Service (QoS) in Microsoft Teams
 
-Quality of Service (QoS) in Microsoft Teams allows real-time network traffic that's sensitive to network delays (for example, voice or video streams) to "cut in line" in front of traffic that's less sensitive (like downloading a new app, where an extra second to download isn't a large deal). QoS uses Windows Group Policy Objects and Port-based Access Control Lists to identify and mark all packets in real-time streams. This helps your network to give voice, video, and screen share streams a dedicated portion of network bandwidth.
+Quality of Service (QoS) in Microsoft Teams allows you to prioritize real-time network traffic. For example, you can prioritize traffic that's sensitive to network delays, such as voice and video streams, over traffic that's less sensitive (like downloading a new app, where an extra second to download isn't that noticeable). 
+
+QoS uses Windows Group Policy Objects and port-based Access Control Lists (ACLs) to identify and mark all packets in real-time streams. This helps your network give voice, video, and screen share streams a dedicated portion of network bandwidth.
 
 If you support a large group of users who are experiencing any of the problems described in this article, then you probably need to implement QoS. A small business with few users might not need QoS, but even there it should be helpful.
 
 Without some form of QoS, you might see the following quality issues in voice and video:
 
-- Jitter – media packets arriving at different rates, which can result in missing words or syllables in calls
-- Packet loss – packets dropped, which can also result in lower voice quality and hard to understand speech
-- Delayed round-trip time (RTT) – media packets taking a long time to reach their destinations, which result in noticeable delays between two parties in a conversation and causes people to talk over each other
+- Jitter – Media packets arriving at different rates, which can result in missing words or syllables in calls.
+- Packet loss – Packets dropped, which can also result in lower voice quality and hard-to-understand speech.
+- Delayed round-trip time (RTT) – Media packets taking a long time to reach their destinations, which results in noticeable delays between two parties in a conversation and causes people to talk over each other.
 
-The least complex way to address these issues is to increase the size of the data connections, both internally and out to the internet. Since that is often cost-prohibitive, QoS provides a way to more effectively manage the resources you have instead of adding bandwidth. To address quality issues, we recommend that you first use QoS, then add bandwidth only where necessary.
+The least complex way to address these issues is to increase the size of the data connections, both internally and out to the internet, but this method is often cost-prohibitive. QoS enables you to manage the resources you have instead of adding bandwidth. To address quality issues, we recommend that you first use QoS, then add bandwidth only where necessary.
 
-For QoS to be effective, you must apply consistent QoS settings throughout your organization. Any part of the path that fails to support your QoS priorities can degrade the quality of calls, video, and screen sharing. This includes applying settings to all user PCs or devices, network switches, routers to the internet, and the Teams service.
+For QoS to be effective, you must apply consistent QoS settings throughout your organization. Any part of the path that fails to support your QoS priorities can degrade the quality of calls, video, and screen sharing. You need to apply settings to all user PCs or devices, network switches, routers to the internet, and the Teams service.
 
 _Figure 1. The relationship between an organization's networks and Microsoft 365 or Office 365 services_
 
@@ -46,7 +48,9 @@ _Figure 1. The relationship between an organization's networks and Microsoft 365
 
 ## QoS implementation checklist
 
-At a high level, do the following to implement QoS:
+To implement QoS, perform the following steps, which are described in more detail throughout this article.
+
+Note: If you are migrating QoS from Skype for Business Online or Skype for Business Server to Teams, see [Migrate to QoS](#migrate-qos-to-teamsigrate QoS to Teams).
 
 1. [Make sure your network is ready](#step-1-make-sure-your-network-is-ready).
 
