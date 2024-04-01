@@ -86,6 +86,8 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Bang & Olufsen Cisco |950 MS Earbuds                                             |3/28/2024       |Certified for Microsoft Teams                           | 
+|Dell                 |WL7024 Headset                                             |3/28/2024       |Certified for Microsoft Teams                           |                                       
 |EPOS                 |IMPACT 760T                                                |2/13/2024       |Certified for Microsoft Teams                           |
 |EPOS                 |IMPACT 730T                                                |2/13/2024       |Certified for Microsoft Teams                           | 
 |Yealink              |DeskVision A24 Monitor – Peripheral Mode                   |2/8/2024        |Certified for Microsoft Teams                           |
