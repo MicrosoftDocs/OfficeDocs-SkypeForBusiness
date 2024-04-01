@@ -50,11 +50,11 @@ At a high level, do the following to implement QoS:
 
 1. [Make sure your network is ready](#make-sure-your-network-is-ready).
 
-1. [Select a QoS implementation method](#select-a-qos-implementation-method).
+2. [Select a QoS implementation method](#select-a-qos-implementation-method).
 
-1. [Choose initial port ranges for each media type](#choose-initial-port-ranges-for-each-media-type).
+3. [Choose initial port ranges for each media type](#choose-initial-port-ranges-for-each-media-type).
 
-1. Implement QoS settings:
+4. [Implement QoS settings](#implment-qos-settings)
    1. On clients using a Group Policy Object (GPO) to [set client device port ranges and markings](QoS-in-Teams-clients.md).
    2. On routers (see the manufacturer documentation) or other network devices. This might include port-based Access Control Lists (ACLs) or simply defining the QoS queues and DSCP markings, or all of these.
 
@@ -64,6 +64,8 @@ At a high level, do the following to implement QoS:
    3. [Set how you want to handle media traffic for Teams meetings](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings).
 
 5. [Validate your QoS implementation](#validate-your-qos-implementation) by analyzing Teams traffic on the network.
+
+6. [Manage source ports](#manage-source-ports-in-the-teams-admin-centermanage-source-ports)
 
 As you prepare to implement QoS, keep the following guidelines in mind:
 
@@ -89,7 +91,7 @@ QoS only works as expected when implemented on all links between callers. If you
 
 In a global organization with managed links that span continents, we strongly recommend QoS because bandwidth for those links is limited in comparison to the LAN.
 
-## Introduction to QoS queues
+### Introduction to QoS queues
 
 To provide QoS, network devices must have a way to classify traffic and must be able to distinguish voice or video from other network traffic.
 
@@ -152,14 +154,31 @@ Be aware of the following when you use these settings:
 
 - If you later need to adjust the port ranges to improve user experience, the port ranges can't overlap and should be adjacent to each other.
 
-## Migrate QoS to Teams
+## Implment QoS settings
 
-If you've previously deployed Skype for Business Online, including QoS tagging and port ranges, and are now deploying. Teams, Teams will respect the existing configuration and will use the same port ranges and tagging as the Skype for Business client. In most cases, no additional configuration will be needed.
+Implement QoS setting for clients and network devices, and determine how you want to handle media traffic for meetings.
 
-> [!NOTE]
-> If you're using Application Name QoS tagging via Group Policy, you must add Teams.exe as the application name.
+- For information on setting client device port ranges and markings, see [Implment QoS in Teams clients](QoS-in-Teams-clients.md).
+
+- For information on implementing QoS for routers, see your manufacturer's documentation.
+
+- Setting QoS on network devices might include using port-based Access Control Lists (ACLs), defining the QoS queues and DSCP markings, or all of these.
+
+  > [!IMPORTANT]
+  > We recommend implementing these QoS policies using the client source ports and a source and destination IP address of “any.” This will catch both incoming and outgoing media traffic on the internal network.  
+
+- For information about handling media traffic for meetings, see [Media traffic for Teams meetings](meetings-real-time-media-traffic.md).
+
+
 
 ### Implement QoS in Teams on Windows using PowerShell
+
+To manage QoS network policies on Windows, use the following cmdlets:
+
+- [New-NetQosPolicy cmdlet](powershell/module/netqos/new-netqospolicy.md)
+- [Set-NetQosPolicy cmdlet](powershell/module/netqos/set-netqospolicy.md)
+- [Remove-NetQosPolicy cmdlet](powershell/module/netqos/remove-netqospolicy.md)
+
 
 **Set QoS for audio**
 
@@ -179,14 +198,17 @@ new-NetQosPolicy -Name "Teams Video" -AppPathNameMatchCondition "ms-teams.exe" -
 new-NetQosPolicy -Name "Teams Sharing" -AppPathNameMatchCondition "ms-teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50040 -IPSrcPortEndMatchCondition 50059 -DSCPAction 18 -NetworkProfile All
 ```
 
-## Managing source ports in the Teams admin center
+### Implement QoS for other devices
 
-In Teams, QoS source ports used by the different workloads should be actively managed, and adjusted as necessary. Referring to the table in [Choose initial port ranges for each media type](#choose-initial-port-ranges-for-each-media-type), the port ranges are adjustable, but the DSCP markings aren't configurable. Once you have implemented these settings, you might find that more or fewer ports are needed for a given media type. [Per-user call analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md) and [Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md) should be used in making a decision to adjust port ranges after Teams has been implemented, and periodically as needs change.
+For information about implementing QoS for Intune, Surface, iOS, Android, and Mac, see the following articles:
 
-> [!NOTE]
-> If you've already configured QoS based on source port ranges and DSCP markings for Skype for Business Online, the same configuration will apply to Teams and no further client or network changes to the mapping will be required, though you may have to [set the ranges used in Teams](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings) to match what was configured for Skype for Business Online.
+- [QoS for Surface Hub 2S](/surface-hub/surface-hub-2s-manage-intune)
 
-If you’ve previously deployed Skype for Business Server on-premises, you might need to re-examine your QoS policies. Adjust the policies to match port range settings you've verified provide a quality user experience for Teams.
+- [QoS for Surface Hub](/surface-hub/surface-hub-qos)
+
+- [QoS for iOS, Android, and Mac](./meeting-settings-in-teams.md?WT.mc_id=TeamsAdminCenterCSH#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)
+
+
 
 ## Validate your QoS implementation
 
@@ -194,15 +216,31 @@ For QoS to be effective, the DSCP value set by the GPO needs to be present at bo
 
 Preferably, you capture traffic at the network egress point. You can use port mirroring on a switch or router to help with this.
 
-## Implement QoS for other devices
+## Manage source ports in the Teams admin center
 
-Read these topics for information about implementing QoS for Intune, Surface, iOS, Android, and Mac
+For Teams, you should monitor and adjust the QoS source ports used by the different workloads  as necessary. After you've implemented these settings, more or fewer ports might be needed for a given media type. 
 
-- [QoS for Surface Hub 2S](/surface-hub/surface-hub-2s-manage-intune)
+For information about how to monitor port requirements, see [Choose initial port ranges for each media type](#choose-initial-port-ranges-for-each-media-type), [Per-user call analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md) and [Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md).
 
-- [QoS for Surface Hub](/surface-hub/surface-hub-qos)
+Note that you can adjust the port ranges, but you can't configure the DSCP markings. 
 
-- [QoS for iOS, Android, and Mac](./meeting-settings-in-teams.md?WT.mc_id=TeamsAdminCenterCSH#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)
+
+
+
+## Migrate QoS to Teams
+
+- **Migrate from Skype for Business Online** - If you've already configured QoS based on source port ranges and DSCP markings for Skype for Business Online, the same configuration will apply to Teams and no further client or network changes to the mapping will be required, though you may have to [set the ranges used in Teams](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings) to match what was configured for Skype for Business Online.
+
+  > [!NOTE]
+  > If you're using Application Name QoS tagging via Group Policy, you must add Teams.exe as the application name.
+
+- **Migrate from Skype for Business Server** - If you’ve previously deployed Skype for Business Server on-premises, you might need to re-examine your QoS policies. Adjust the policies to match port range settings you've verified provide a quality user experience for Teams.
+
+
+
+
+
+
 
 ## Related topics
 
