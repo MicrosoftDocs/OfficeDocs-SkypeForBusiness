@@ -48,24 +48,17 @@ _Figure 1. The relationship between an organization's networks and Microsoft 365
 
 At a high level, do the following to implement QoS:
 
-1. [Make sure your network is ready](#make-sure-your-network-is-ready).
+1. [Make sure your network is ready](#step-1-make-sure-your-network-is-ready).
 
-2. [Select a QoS implementation method](#select-a-qos-implementation-method).
+2. [Select a QoS implementation method](#step-2-select-a-qos-implementation-method).
 
-3. [Choose initial port ranges for each media type](#choose-initial-port-ranges-for-each-media-type).
+3. [Choose initial port ranges for each media type](#step-3-choose-initial-port-ranges-for-each-media-type).
 
-4. [Implement QoS settings](#implment-qos-settings)
-   1. On clients using a Group Policy Object (GPO) to [set client device port ranges and markings](QoS-in-Teams-clients.md).
-   2. On routers (see the manufacturer documentation) or other network devices. This might include port-based Access Control Lists (ACLs) or simply defining the QoS queues and DSCP markings, or all of these.
+4. [Implement QoS settings](#step-4-implment-qos-settings) for clients, routers, media traffic.
+   
+5. [Validate your QoS implementation](#step-5-validate-your-qos-implementation) by analyzing Teams traffic on the network.
 
-      > [!IMPORTANT]
-      > We recommend implementing these QoS policies using the client source ports and a source and destination IP address of “any.” This will catch both incoming and outgoing media traffic on the internal network.  
-
-   3. [Set how you want to handle media traffic for Teams meetings](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings).
-
-5. [Validate your QoS implementation](#validate-your-qos-implementation) by analyzing Teams traffic on the network.
-
-6. [Manage source ports](#manage-source-ports-in-the-teams-admin-centermanage-source-ports)
+6. [Manage source ports](#step-6-manage-source-ports-in-the-teams-admin-center)
 
 As you prepare to implement QoS, keep the following guidelines in mind:
 
@@ -79,7 +72,7 @@ As you prepare to implement QoS, keep the following guidelines in mind:
 
 For information about configuring firewall ports, go to [Office 365 URLs and IP ranges](office-365-urls-ip-address-ranges.md).
 
-## Make sure your network is ready
+## Step 1. Make sure your network is ready
 
 If you're considering a QoS implementation, you should already have determined your bandwidth requirements and other [network requirements](prepare-network.md).
   
@@ -105,7 +98,7 @@ _Figure 2. Examples of QoS queues_
 
 A simple analogy is that QoS creates virtual "carpool lanes" in your data network so some types of data never or rarely encounter a delay. Once you create those lanes, you can adjust their relative size and much more effectively manage the connection bandwidth you have, while still delivering business-grade experiences for your organization's users.
 
-## Select a QoS implementation method
+## Step 2. Select a QoS implementation method
 
 You could implement QoS via port-based tagging, using Access Control Lists (ACLs) on your network's routers. Port-based tagging is the most reliable method because it works in mixed Windows, Mac, and Linux environments and is the easiest to implement. Mobile clients don't provide a mechanism to mark traffic by using DSCP values, so they'll require this method.  
 
@@ -129,7 +122,7 @@ DSCP markings can be likened to postage stamps that indicate to postal workers h
 
 Once all devices in the network are using the same classifications, markings, and priorities, it's possible to reduce or eliminate delays, dropped packets, and jitter by changing the size of the port ranges assigned to the queues used for each traffic type. From the Teams perspective, the most important configuration step is the classification and marking of packets. However, for end-to-end QoS to be successful, you also need to carefully align the application's configuration with the underlying network configuration. Once QoS is fully implemented, ongoing management is a question of adjusting the port ranges assigned to each traffic type based on your organization's needs and actual usage.
 
-## Choose initial port ranges for each media type
+## Step 3. Choose initial port ranges for each media type
 
 The DSCP value tells a correspondingly configured network what priority to give a packet or stream, whether the DSCP mark is assigned by clients or the network itself based on ACL settings. Each media workload gets its own unique DSCP value (other services might allow workloads to share a DSCP marking, Teams doesn't) and a defined and separate port range used for each media type. Other environments might have an existing QoS strategy in place, which will help you determine the priority of network workloads.
 
@@ -154,7 +147,7 @@ Be aware of the following when you use these settings:
 
 - If you later need to adjust the port ranges to improve user experience, the port ranges can't overlap and should be adjacent to each other.
 
-## Implment QoS settings
+## Step 4. Implment QoS settings
 
 Implement QoS setting for clients and network devices, and determine how you want to handle media traffic for meetings.
 
@@ -170,13 +163,12 @@ Implement QoS setting for clients and network devices, and determine how you wan
 - For information about handling media traffic for meetings, see [Media traffic for Teams meetings](meetings-real-time-media-traffic.md).
 
 
-
 ### Implement QoS in Teams on Windows using PowerShell
 
 To manage QoS network policies on Windows, use the following cmdlets:
 
-- [New-NetQosPolicy cmdlet](powershell/module/netqos/new-netqospolicy.md)
-- [Set-NetQosPolicy cmdlet](powershell/module/netqos/set-netqospolicy.md)
+- [New-NetQosPolicy cmdlet](/powershell/module/netqos/new-netqospolicy.md)
+- [Set-NetQosPolicy cmdlet](/powershell/module/netqos/set-netqospolicy.md)
 - [Remove-NetQosPolicy cmdlet](powershell/module/netqos/remove-netqospolicy.md)
 
 
@@ -210,13 +202,13 @@ For information about implementing QoS for Intune, Surface, iOS, Android, and Ma
 
 
 
-## Validate your QoS implementation
+## Step 5. Validate your QoS implementation
 
 For QoS to be effective, the DSCP value set by the GPO needs to be present at both ends of a call. By analyzing the traffic generated by the Teams client, you can verify that the DSCP value isn’t changed or stripped out when the Teams workload traffic moves through the network.
 
 Preferably, you capture traffic at the network egress point. You can use port mirroring on a switch or router to help with this.
 
-## Manage source ports in the Teams admin center
+## Step 6. Manage source ports in the Teams admin center
 
 For Teams, you should monitor and adjust the QoS source ports used by the different workloads  as necessary. After you've implemented these settings, more or fewer ports might be needed for a given media type. 
 
