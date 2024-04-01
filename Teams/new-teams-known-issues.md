@@ -27,13 +27,11 @@ ms.localizationpriority: high
 - New Teams client isn't respecting the date time formats set in the OS. This issue affects both 12h/24h time formatting and date formatting in the product. A fix is pending; check back for updates.
 - The app will crash if users hit enter instead of clicking the *Create* button after entering the team name in the team creation wizard.
 - The calendar icon will show an error message for users not licensed with Exchange Online. A fix to hide the calendar icon for these users is expected soon.
-- Report a Problem is missing in the help menu for users in the public preview channel.
-- Custom Announcement Backgrounds are only available in the North American region. Pending availability of the full Designer backed AI capabilities in other regions, we're working to provide the option for users to upload their own images.
 - [Cross Cloud Guest Access (CCGA) accounts](https://techcommunity.microsoft.com/t5/microsoft-teams-support/cross-cloud-meeting-amp-cross-cloud-guest-access-between-ww/ba-p/3990829) aren't yet shown on the Web client. Until this feature is available, users can use CCGA meeting-join links or navigate directly to the cloud-specific URL in a new tab.
 - If using classic Teams for Web to open a [Cross Cloud Meeting (CCM)](https://techcommunity.microsoft.com/t5/microsoft-teams-support/cross-cloud-meeting-amp-cross-cloud-guest-access-between-ww/ba-p/3990829) link into a cloud where the user is opted into new Teams for web, the meeting join will fail. Until a fix is ready, users can navigate directly to the cloud-specific URL to join their meeting.
 - [A website doesn't load in the new Teams desktop](/microsoftteams/troubleshoot/tabs/websites-not-loaded-new-teams).
 - [The new Teams desktop app fails to render video](/microsoftteams/troubleshoot/meetings/new-teams-desktop-app-fail-render-video).
-- Collaborative Notes is only available in public clouds.
+- Collaborative Notes is only available in public clouds, and not in EDU (Academic SKUs).
 - Users may receive an error message when trying to open a document attached to a cross-post shared from a team where they're not a member. A fix is expected by mid-March.
 - Scheduling a Teams Live Event (TLE) redirects to the classic Teams web experience. This feature will continue to work even after the deprecation of classic Teams.
 - When editing a TLE on the web, users can't use the **Join** and **Chat** buttons. Selecting these buttons doesn't take the user to the join or chat experiences.

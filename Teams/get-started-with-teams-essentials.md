@@ -3,7 +3,7 @@ title: Microsoft Teams Essentials QuickStart guide for small businesses
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.date: 03/22/2024
+ms.date: 03/26/2024
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -88,9 +88,6 @@ The following table lists the major Microsoft Teams features available across pl
 
 <sup>2</sup> Teams Essentials (Microsoft Entra identity) through partner includes 2 GB Exchange mailbox and no archiving, allowing users to sync with third-party email providers.
 
-> [!IMPORTANT]
-> To get enhanced administration and entire full set of Teams features, you'll need to upgrade to the full version of Teams by purchasing an appropriate [Microsoft 365 or Office 365 subscription plan](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options) for your users. We recommend this as you'll have more flexibility to manage the way your organization collaborates.
-
 ## Administration limits and specifications for Microsoft Teams Essentials
 
 See [Microsoft Teams limits and specifications](/microsoftteams/limits-specifications-teams) to learn more about the limits, specifications, and other requirements that apply to Teams.
@@ -150,10 +147,6 @@ To connect an existing calendar solution with Teams Essentials (Microsoft Entra 
 #### How do I connect my current email and calendar with Teams Essentials (Microsoft Entra identity)?
 
 To get started, visit [**Connect Microsoft Teams Essentials (Microsoft Entra identity) to an existing email system with calendar**](connect-teams-essentials-to-email.md) for more information. You can connect an existing email system like Google Workspace to Microsoft Teams Essentials (Microsoft Entra identity) to stay connected across platforms with integrated calendars and sign in.
-
-#### Can I upgrade Teams Essentials bought directly through Microsoft's website to Microsoft 365?
-
-Upgrades from Teams Essentials to Microsoft 365 will be available soon.
 
 ## More information
 
