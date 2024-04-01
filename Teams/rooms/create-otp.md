@@ -99,8 +99,8 @@ By default the OTP is valid for 8 hours, however you can adjust the validity per
 
 To change these settings:
 1. Sign in to the Teams Rooms Pro Management portal.
-2. On the left navigation pane, select **Planning > Resource Accounts**. The **Resource Accounts** page appears.
+2. In the left navigation pane, select **Planning > Resource Accounts**. The **Resource Accounts** page appears.
 3. Select **Preferences** on the command bar.
 4. Adjust the OTP expiration by selecting from the predefined hours or set a custom expiration (between 1 hour and 336 hours).
-5. You can also toggle **OTP Auto approval** on or off from this menu
-6. Select **Save** when done to commit your changes
+5. You can also toggle **OTP Auto approval** on or off.
+6. Select **Save** when you're done to save your changes.
