@@ -104,7 +104,7 @@ A simple analogy is that QoS creates virtual "carpool lanes" in your data networ
 
 ## Step 2. Select a QoS implementation method
 
-You could implement QoS via port-based tagging, using Access Control Lists (ACLs) on your network's routers. Port-based tagging is the most reliable method because it works in mixed Windows, Mac, and Linux environments and is the easiest to implement. Mobile clients don't provide a mechanism to mark traffic by using DSCP values, so they'll require this method.  
+You can implement QoS by using port-based tagging, using Access Control Lists (ACLs) on your network's routers. Port-based tagging is the most reliable method because it works in mixed Windows, Mac, and Linux environments and is the easiest to implement. Mobile clients don't provide a mechanism to mark traffic by using DSCP values, so they'll require this method.  
 
 Using port-based tagging, your network's router examines an incoming packet, and if the packet arrived using a certain port or range of ports, it identifies it as a certain media type and puts it in the queue for that type, adding a predetermined [DSCP](https://tools.ietf.org/html/rfc2474) mark to the IP Packet header so other devices can recognize its traffic type and give it priority in their queue.
 
@@ -112,9 +112,9 @@ Although port-based tagging works across platforms, it only marks traffic at the
 
 ### Insert DSCP markers
 
-You could also implement QoS by using a Group Policy Object (GPO) to direct client devices to insert a DSCP marker in IP packet headers identifying it as particular type of traffic (for example, voice). Routers and other network devices can be configured to recognize this and put the traffic in a separate, higher-priority queue.
+You can also implement QoS by using a Group Policy Object (GPO) to direct client devices to insert a DSCP marker in IP packet headers identifying it as particular type of traffic (for example, voice). Routers and other network devices can be configured to recognize this and put the traffic in a separate, higher-priority queue.
 
-Although this scenario is entirely valid, it will only work for domain-joined Windows clients. Any device that isn't a domain-joined Windows client won't be enabled for DSCP tagging. Other clients, such as those running macOS, have hard-coded tags and will always tag traffic.
+Although this scenario is valid, it will only work for domain-joined Windows clients. Any device that isn't a domain-joined Windows client won't be enabled for DSCP tagging. Other clients, such as those running macOS, have hard-coded tags and will always tag traffic.
 
 On the plus side, controlling the DSCP marking via GPO ensures that all domain-joined computers receive the same settings and that only an administrator can manage them. Clients that can use GPO will be tagged on the originating device, and then configured network devices can recognize the real-time stream by the DSCP code and give it an appropriate priority.
 
@@ -139,7 +139,7 @@ _Recommended initial port ranges_
 |Audio| 50,000–50,019|TCP/UDP|46|Expedited Forwarding (EF)|
 |Video| 50,020–50,039|TCP/UDP|34|Assured Forwarding (AF41)|
 |Application/Screen Sharing| 50,040–50,059|TCP/UDP|18|Assured Forwarding (AF21)|
-||||||
+|||||
 
 Be aware of the following when you use these settings:
 
