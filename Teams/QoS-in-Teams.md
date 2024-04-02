@@ -171,9 +171,9 @@ Implement QoS setting for clients and network devices, and determine how you wan
 
 To manage QoS network policies on Windows, use the following cmdlets:
 
-- [New-NetQosPolicy cmdlet](/powershell/module/netqos/new-netqospolicy.md)
-- [Set-NetQosPolicy cmdlet](/powershell/module/netqos/set-netqospolicy.md)
-- [Remove-NetQosPolicy cmdlet](powershell/module/netqos/remove-netqospolicy.md)
+- [New-NetQosPolicy cmdlet](/powershell/module/netqos/new-netqospolicy)
+- [Set-NetQosPolicy cmdlet](/powershell/module/netqos/set-netqospolicy)
+- [Remove-NetQosPolicy cmdlet](/powershell/module/netqos/remove-netqospolicy)
 
 
 **Set QoS for audio**
@@ -216,7 +216,7 @@ Preferably, you capture traffic at the network egress point. You can use port mi
 
 For Teams, you should monitor and adjust the QoS source ports used by the different workloads  as necessary. After you've implemented these settings, more or fewer ports might be needed for a given media type. 
 
-For information about how to monitor port requirements, see [Choose initial port ranges for each media type](#choose-initial-port-ranges-for-each-media-type), [Per-user call analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md) and [Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md).
+For information about how to monitor port requirements, see [Choose initial port ranges for each media type](#step-3-choose-initial-port-ranges-for-each-media-type), [Per-user call analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md) and [Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md).
 
 Note that you can adjust the port ranges, but you can't configure the DSCP markings. 
 
