@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: jamp
-ms.date: 10/26/2023
+ms.date: 04/02/2024
 ms.topic: article
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
 ms.tgt.pltfrm: cloud
@@ -82,7 +82,7 @@ For example, the Duration (Minutes) dimension represents the call duration in se
 The \<sort order string> is used to control the sort order when presenting the data and can be used for filtering. For example, a filter on Duration (Minutes) < "065", would show streams with duration less than 2 minutes (The leading '0' is needed for the filter to work as expected). The actual value of the sort order string isn't significant.
 
 > [!NOTE]
-> You might notice ranges that seem to be invalid for a given dimension. An example is Wifi Signal Strength showing calls in the 082: [100 - 110) range when 100 is the maximum possible value. This range is due to how numbers are assigned to ranges in CQD's data model. If a whole number value is 99, it is counted in the 081: [90 - 100) range. If that value is 100, it is counted in the 082: [100 - 110) range. This doesn't indicate that there are Wifi Signal Strength values greater than 100% being reported.
+> You might notice ranges that seem to be invalid for a given dimension. An example is Wifi Signal Strength showing calls in the 082: [100 - 110) range when 100 is the maximum possible value. This range is due to how numbers are assigned to ranges in CQD's data model. If a whole number value is 99, it's counted in the 081: [90 - 100) range. If that value is 100, it's counted in the 082: [100 - 110) range. This doesn't indicate that there are Wifi Signal Strength values greater than 100% being reported.
 
 #### Enumeration strings
 
@@ -347,8 +347,8 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 | Second Speaker Initialization Failure | Boolean | Indicates that a failure occurred during the hardware initialization of the audio render device on the second endpoint. ||
 | First Speaker Connection Type | Enumeration string | The connection interface or type of the audio render device used on the first endpoint <br/> Possible values: USB, Wireless, Other ||
 | Second Speaker Connection Type | Enumeration string | The connection interface or type of the audio render device used on the second endpoint <br/> Possible values: USB, Wireless, Other ||
-| First Compute Device Name | String |	The detected system manufacturer and system model of the first endpoint. <br/> Example: microsoft corporation surface pro | &bull; System manufacturer and model were not detected.|
-| Second Compute Device Name	| String |The detected system manufacturer and system model of the second endpoint. <br/> Example: microsoft corporation surface pro | &bull; System manufacturer and model were not detected.|
+| First Compute Device Name | String |	The detected system manufacturer and system model of the first endpoint. <br/> Example: microsoft corporation surface pro | &bull; System manufacturer and model weren't detected.|
+| Second Compute Device Name	| String |The detected system manufacturer and system model of the second endpoint. <br/> Example: microsoft corporation surface pro | &bull; System manufacturer and model weren't detected.|
 | First Device Failure | Boolean | Indicates if an audio capture or render device failure is detected on the first endpoint. ||
 | Second Device Failure | Boolean | Indicates if an audio capture or render device failure is detected on the second endpoint. ||
 |**WiFi**||||
@@ -408,8 +408,8 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 | Second Network Delay Event Ratio  | Range (ratio)  | Fraction of the call that the second endpoint detected the network delay was significant enough to impact the ability to have real-time two-way communication. Values grouped by range. <br/> **Example value:** 016: [0.02 - 0.03)  | &bull; Indicates a non-audio stream <br/>&bull; The second endpoint didn't report data |
 | First Network Bandwidth Low Event Ratio  | Range (ratio)  | Fraction of the call that the first endpoint detected the available bandwidth or bandwidth policy was low enough to cause poor quality of the audio sent. Values grouped by range. <br/> **Example value:** 016: [0.02 - 0.03) | &bull; Stream was a non-audio stream <br/>&bull; The first endpoint didn't report data  |
 | Second Network Bandwidth Low Event Ratio  | Range (ratio)  | Fraction of the call that the second endpoint detected the available bandwidth or bandwidth policy was low enough to cause poor quality of the audio sent. Values grouped by range. <br/> **Example value:** 016: [0.02 - 0.03) | &bull; Indicates a non-audio stream <br/>&bull; The second endpoint didn't report data |
-| First Mic Glitch Rate| Number |Average glitches per 5 minutes for the microphone capture of the first endpoint. See [2.2.1.12.1 Child Elements](/openspecs/office_protocols/ms-qoe/56d41628-26d5-44c8-8f79-6bac4b0355a5) for more information. ||
-| Second Mic Glitch Rate|Number |Average glitches per 5 minutes for the microphone capture of the second endpoint. See [2.2.1.12.1 Child Elements](/openspecs/office_protocols/ms-qoe/56d41628-26d5-44c8-8f79-6bac4b0355a5) for more information. ||
+| First Mic Glitch Rate| Number |Average glitches per 5 minutes for the microphone capture of the first endpoint. For more information, see [2.2.1.12.1 Child Elements](/openspecs/office_protocols/ms-qoe/56d41628-26d5-44c8-8f79-6bac4b0355a5). ||
+| Second Mic Glitch Rate|Number |Average glitches per 5 minutes for the microphone capture of the second endpoint. For more information, see [2.2.1.12.1 Child Elements](/openspecs/office_protocols/ms-qoe/56d41628-26d5-44c8-8f79-6bac4b0355a5). ||
 | First Speaker Glitch Rate|Number of events|Average glitches per 5 minutes for the first loudspeaker rendering.| |
 | Second Speaker Glitch Rate|Number of events|Average glitches per 5 minutes for the second loudspeaker rendering.| |
 | First Send Mute Percent | Range (Percentage) | Percentage of the audio stream from the first endpoint where the client was muted.| &bull; Stream isn't an audio stream <br/> &bull; The first endpoint didn't report data|
@@ -713,9 +713,9 @@ Many Measurement values can also be used as filters. The following table lists t
 |Total Answer Seizure Ratio |Ratio |Ratio of calls with duration less than 5 seconds over the total number of calls. |
 |Total Short Call Percentage |Percentage |Percentage of total calls less than 1 minute long. |
 |Total Media Failure Percentage |Percentage |Percentage of all streams where either media path couldn't be established or didn't terminate normally. |
-|Media Failed Due To Firewall DPI Stream Count |Number of streams |Number of streams that failed to be established due to network equipment blocking access due to deep packet inspection not allowing Skype for Business traffic. These failures typically indicate a proxy, firewall or other network security device isn't correctly configured. These devices might be blocking access to the IP address and ports that are used by Skype for Business in Microsoft 365 or Office 365. |
-|Firewall DPI Media Failure Percentage |Percentage |Percentage of streams that failed to be established due to network equipment blocking access due to deep packet inspection not allowing Skype for Business traffic. These failures typically indicate a proxy, firewall or other network security device isn't correctly configured. These devices might be blocking access to the IP address and ports that are used by Skype for Business in Microsoft 365 or Office 365. |
-|Media Failed Due To Firewall IP Blocked Stream Count |Number of streams |Number of streams that failed to be established due to network equipment blocking access to Skype for Business servers. These failures typically indicate a proxy, firewall or other network security device isn't correctly configured. These devices might be blocking access to the IP address and ports that are used by Skype for Business in Microsoft 365 or Office 365. |
+|Media Failed Due To Firewall DPI Stream Count |Number of streams |Number of streams that failed to be established due to network equipment blocking access due to deep packet inspection not allowing Skype for Business traffic. These failures typically indicate a proxy, firewall, or other network security device isn't correctly configured. These devices might be blocking access to the IP address and ports that are used by Skype for Business in Microsoft 365 or Office 365. |
+|Firewall DPI Media Failure Percentage |Percentage |Percentage of streams that failed to be established due to network equipment blocking access due to deep packet inspection not allowing Skype for Business traffic. These failures typically indicate a proxy, firewall, or other network security device isn't correctly configured. These devices might be blocking access to the IP address and ports that are used by Skype for Business in Microsoft 365 or Office 365. |
+|Media Failed Due To Firewall IP Blocked Stream Count |Number of streams |Number of streams that failed to be established due to network equipment blocking access to Skype for Business servers. These failures typically indicate a proxy, firewall, or other network security device isn't correctly configured. These devices might be blocking access to the IP address and ports that are used by Skype for Business in Microsoft 365 or Office 365. |
 |Firewall IP Blocked Media Failure Percentage |Percentage |Percentage of streams that failed to be established because network equipment blocked access to Skype for Business servers. These failures typically indicate a proxy, firewall, or other network security device isn't correctly configured. These devices might be blocking access to the IP address and ports that are used by Skype for Business in Microsoft 365 or Office 365. |
 | Media Failed Due To Other Stream Count|Number of streams| Number of streams where media path couldn't be established between the endpoints due to an undetermined/unclassified reason.|
 | Other Media Failure Percentage|Percentage| Percentage of streams where media path couldn't be established between the endpoints due to an undetermined/unclassified reason. |
@@ -853,7 +853,7 @@ Many Measurement values can also be used as filters. The following table lists t
 | Avg Healer FEC Packet Used Ratio|Range (Ratio)|Average ratio of used FEC packets over total number of received FEC packets.|
 |Avg Round Trip |Milliseconds |Average of average network propagation round-trip time computed as specified in RFC3550 in milliseconds for streams. |
 |Avg Round Trip Max |Milliseconds |Average of maximum network propagation round-trip time computed as specified in RFC3550 in milliseconds for streams. |
- Avg Packet Utilization|Number of packets|Average number of Real-Time Transport Protocol (RTP) packets sent per second in the session.|
+|Avg Packet Utilization|Number of packets|Average number of Real-Time Transport Protocol (RTP) packets sent per second in the session.|
 |Avg Network Jitter |Milliseconds |   Average of network jitter computed over 20 second windows during the session. This metric is contained in the audio payload of the QoE. Stream types other than audio won't report a value for this measurement. |
 | Avg Network Jitter Max|Milliseconds |Average of maximum network jitter in milliseconds computed over 20 second windows during the session. This metric is contained in the audio payload of the QoE. Stream types other than audio won't report a value for this measurement. |
 | Avg Network Jitter Min|Milliseconds|Average of minimum network jitter values in milliseconds computed over 20 second windows during the session for streams. This metric is contained in the audio payload of the QoE. Stream types other than audio won't report a value for this measurement.|
@@ -922,7 +922,7 @@ Many Measurement values can also be used as filters. The following table lists t
 | Detected Inbound Network Problem True Count | Integer | Number of instances that there's high confidence that a First-to-Second media stream might be impacted due to the inbound network. |
 | Detected Inbound Network Problem False Count | Integer | Number of instances that there isn't high confidence that a First-to-Second media stream might be impacted due to the inbound network. |
 | Detected Inbound Network Problem Null Count | Integer | Number of instances that the Detected Inbound Network Problem model returned a null value. See Detected Inbound Network Problem dimension for explanation. |
-| Detected Inbound Network Problem Rate | Percentage | Percentage of streams for which there is high confidence that a First-to-Second media stream might be impacted due to the inbound network. |
+| Detected Inbound Network Problem Rate | Percentage | Percentage of streams for which there's high confidence that a First-to-Second media stream might be impacted due to the inbound network. |
 | Avg First Healed Data Ratio Value | Percentage (Decimal) | Percentage of the audio stream in which the audio healer on the first endpoint is invoked, averaged across the number of streams in a given row. High HDR indicates that the client expected audio but Teams didn't have any content to play back. High healer usage is experienced by end-users as choppy audio. This measurement isn't currently calculated for WebRTC-based clients. |
 | Avg Second Healed Data Ratio Value | Percentage (Decimal) | Percentage of the audio stream in which the audio healer on the second endpoint is invoked, averaged across the number of streams in a given row. High HDR indicates that the client expected audio but Teams didn't have any content to play back. High healer usage is experienced by end-users as choppy audio. This measurement isn't currently reported by WebRTC-based clients. |
 | Avg First Received Audio Seconds | Seconds (Decimal) | Amount of active audio received by the first endpoint in seconds, excluding silence. This measurement isn't currently reported by WebRTC based clients. |
