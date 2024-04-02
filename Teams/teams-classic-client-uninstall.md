@@ -96,7 +96,7 @@ You can learn more at [Uninstall an app with Intune for Windows](/mem/intune/app
 > If the administrator has changed policies to T2.1 Default within the 14-day period, then classic Teams will be retained. If the policy is changed after 14 days, classic Teams will need to be reinstalled by a user or an admin.
 
 - **How much network bandwidth is required for the new Teams update?**
-  The initial update is approximately 150 MB, with subsequent updates ranging from 15-30 MB. An admin can also choose to do an offline installation using the [bulk installer](new-teams-bulk-install-client.md). Subsequent updates should be 15-30MB, and the [MSIX app package updates](/windows/msix/desktop/managing-your-msix-deployment-update) article will have more details.
+  The initial update is approximately 150 MB, with subsequent updates ranging from 15-30 MB. This update is automatically downloaded and installed from the internet once per device (multi-user devices do not download the binaries for each user). An admin can also choose to do an offline installation using the [bulk installer](new-teams-bulk-install-client.md). Subsequent updates should be 15-30MB, and the [MSIX app package updates](/windows/msix/desktop/managing-your-msix-deployment-update) article will have more details.
 
 - **How can I remove all copies of classic Teams from a multi-user device without each user signing in?**
   Manual deletion is possible but not recommended as it may leave residual files.
