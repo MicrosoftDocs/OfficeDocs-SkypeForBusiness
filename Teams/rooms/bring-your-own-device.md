@@ -114,17 +114,16 @@ Once the devices get added to the specific room, the room's information will als
 
 To associate a device with a room, the following two methods are available:
 
-- **Use Import/Export function:** You can use this function to export the inventory list via an Excel file and construct Bring Your Own Device rooms.
+- **Use Import/Export function:** You can use this function to export the inventory list via an Excel file and construct Bring Your Own Device rooms. Importing devices is an additive function, meaning you do not have to specify every device you wish to manage in each import - only specify devices you would like to add or update.
 
-    1. In the **Devices** page, click **Export** to download the device inventory.
-    2. Open the Excel file and verify that it contains all the devices and room information.
-    3. In the Excel file, select the **PERIPHERALS** tab and fill out the Account or Display Name column for the devices listed.
-    4. Save the file after associating the device with the specific room information.
-    5. Go back to the Inventory Devices page and click **Import** to upload the modified file.
-    6. Verify that the device-room association is updated successfully.
-
-    > [!NOTE]
-    > In cases where the devices were not discovered or reported by Pro Management portal, admins can add those new devices using the import function. Device information such as the Product ID, Vendor ID, Serial Number, and Account information are required for the association to be done.
+    1. In the **Devices** page, click **Export** to download the device inventory. This provides you with a template to begin.
+    2. Open the Excel file and navigate to the **PERIPHERALS** tab.
+    3. Each row in this sheet is used to specify a device you would like to import.
+       3.1. The required fields are PID, VID, Serial Number, and either Account or Display name to specify which room this device should be associated to. All other fields are optional and can be filled at your discretion.
+       3.2. Only USB audio/video peripherals and displays (monitors or TVs) are supported currently.
+    5. Save the file.
+    6. Go back to the Inventory Devices page and click **Import** to upload the modified file.
+    7. Verify that the device-room association is updated successfully.
 
 - **Manually associate discovered devices using Pro Management UI:** 
 
@@ -137,7 +136,7 @@ To associate a device with a room, the following two methods are available:
 :::image type="content" source="../media/byod/device-discovery.png" alt-text="Screenshot of device room association." lightbox="../media/byod/device-discovery.png":::
 
 
-## Devices automatically discovered by the Pro Management Portal
+## Auto-Discovery
 
 Devices are automatically discovered using your users' Teams client to send device data to Pro Management Portal. When a user enters the prejoin screen of a meeting, any connected displays and USB audio/video peripherals are scanned and transmitted to the cloud. These devices populate your Devices tab within the Inventory navigation.
 
