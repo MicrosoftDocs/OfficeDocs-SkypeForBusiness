@@ -273,6 +273,18 @@ All the user settings and configurations are now stored in:
 
 Make sure these folders and files are persisted for proper Teams functioning.
 
+> [!NOTE]
+> It's critical that **all** the necessary directories and top folder structure under AppData\Local\Packages\MSTeams_8wekyb3d8bbwe are correctly set up as directories, not as files or reparse points:
+>
+> AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\AC
+> AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\AppData
+> AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache
+> AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalState
+> AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\RoamingState
+> AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\Settings
+> AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\SystemAppData
+> AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\TempState
+
 **TeamsSharedConfig** stores user configurations for the Teams app switcher toggle (and what should be the default app, the Classic or New Teams), and the Teams Meeting Add In for Outlook.
 
 The folder "meeting-addin" under TeamsSharedConfig shouldn't be persisted, as this could cause issues with the default meeting coordinates in the meeting templates inserted into Outlook.
