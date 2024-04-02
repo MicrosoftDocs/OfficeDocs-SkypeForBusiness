@@ -43,7 +43,7 @@ If the connection doesn't exist, you can add it in Teams meeting settings. This 
 > The organization that you're meeting with must also configure these settings for their organization.
 
 ## Prerequisites
-For the best meeting experiences across Microsoft clouds make sure your network is ready for Microsoft Teams.  [Prepare your organization's network for Microsoft Teams](https://learn.microsoft.com/en-us/microsoftteams/prepare-network#network-requirements) contains guidance on how to opimize your network for Teams.  Also ensure that the necessary DNS, IPs and Ports are enabled for the Microsoft cloud where your users will be collaborating.  The following table links to the endpoint definitions for each of the M365 cloud environments:
+For the best meeting experiences across Microsoft clouds make sure your network is ready for Microsoft Teams.  [Prepare your organization's network for Microsoft Teams](https://learn.microsoft.com/microsoftteams/prepare-network#network-requirements) contains guidance on how to opimize your network for Teams.  Also ensure that the necessary DNS, IPs and Ports are enabled for the Microsoft cloud where your users will be collaborating.  The following table links to the endpoint definitions for each of the M365 cloud environments:
 
 |Microsoft 365 Cloud Environment|Endpoints|
 |:--------------------------------|:------------------------------|
