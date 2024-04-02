@@ -1628,6 +1628,8 @@ items:
               href: scripts/powershell-script-security-groups-edu.md
         - name: Set up features for educators
           items:
+            - name: Set up AI content recommendations
+              href: institution-settings.md
             - name: Set up Supervised chats in Teams
               href: supervise-chats-edu.md
             - name: Set up Assignments in Teams
