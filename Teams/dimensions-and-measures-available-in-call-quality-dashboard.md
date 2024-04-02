@@ -444,8 +444,6 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 | Second Capture Dev Name| String | Name of the audio capture device used by the second endpoint. ||
 | First Render Dev Name| String | Name of the audio playback device used by the first endpoint. ||
 | Second Render Dev Name| String | Name of the audio playback device used by the second endpoint. ||
-| First Network Avg Loss Rate | Range (ratio) | ??? ||
-| Second Network Avg Loss Rate | Range (ratio) | ??? ||
 |**Measure**||||
 | ClassifiedPoorCall  | Boolean  | True if one or more streams in the call were classified as poor based on the metrics listed in [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md).   | &bull; The call didn't have sufficient metrics reported to be classified as good or poor   |
 | Video Poor Due To VideoPostFecplr  | Boolean  | True if the stream is classified as poor based on the Video Post FEC PLR metric threshold listed here: [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md). Is always False for non-video streams.   | &bull; The endpoint didn't report this data  <br/>&bull; The stream wasn't a video stream.  |
