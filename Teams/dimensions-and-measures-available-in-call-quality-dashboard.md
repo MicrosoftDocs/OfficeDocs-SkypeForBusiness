@@ -786,7 +786,7 @@ Many Measurement values can also be used as filters. The following table lists t
 |No Speaker Device Enumerated Failure Percentage |Percentage |Percentage of all audio streams in which no audio render devices were detected. |
 |Mic Is Silent Failure Count |Number of streams |Total number of audio streams in which no audio is detected from the microphone while unmuted. |
 |Mic Is Silent Failure Percentage |Percentage |Percentage of all audio streams in which no audio is detected from the microphone while unmuted. |
-|Audio Device Failure Count |Number of streams |Number of streams with either a mic or speaker failure. |N/A |
+|Audio Device Failure Count |Number of streams |Number of streams with either a mic or speaker failure. |
 |First Audio Device General Failure Rate |Percentage |Percentage of all audio streams with a general audio hardware failure on the first endpoint. |
 |Second Audio Device General Failure Rate |Percentage |Percentage of all audio streams with a general audio hardware failure on the second endpoint. |
 |First Mic Device Failure Rate |Percentage |Percentage of all audio stream in which an audio capture device failure is detected on the first endpoint. |
