@@ -2687,7 +2687,7 @@
     },
     {
       "source_path": "Teams/data-collection-practices.md",
-      "redirect_url": "/microsoftteams/privacy/teams-privacy",
+      "redirect_url": "/microsoftteams/privacy/location-of-data-in-teams",
       "redirect_document_id": false
     },
     {
@@ -4737,8 +4737,8 @@
   },
   {
     "source_path": "teams/teams-privacy.md",
-    "redirect_url": "/microsoftteams/privacy/teams-privacy",
-    "redirect_document_id": true
+    "redirect_url": "/microsoftteams/privacy/location-of-data-in-teams",
+    "redirect_document_id": false
   },
   {
     "source_path": "teams/location-of-data-in-teams.md",
@@ -4777,7 +4777,7 @@
  },
  {
     "source_path": "teams/privacy/index.md",
-    "redirect_url": "/microsoftteams/privacy/teams-privacy",
+    "redirect_url": "/microsoftteams/privacy/location-of-data-in-teams",
     "redirect_document_id": false
  },
  {
@@ -4786,8 +4786,28 @@
     "redirect_document_id": false
 },
 {
+  "source_path": "teams/manage-freemium.md",
+  "redirect_url": "/microsoftteams/user-access",
+  "redirect_document_id": false
+},
+{
+  "source_path": "teams/upgrade-freemium.md",
+  "redirect_url": "/microsoftteams/user-access",
+  "redirect_document_id": false
+},
+{
+  "source_path": "teams/teams-add-on-licensing/remove-assign-free-licenses.md",
+  "redirect_url": "/microsoftteams/user-access",
+  "redirect_document_id": false
+},
+{
   "source_path": "Skype/SfbHybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online.md",
   "redirect_url": "/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud",
+  "redirect_document_id": false
+},
+{
+  "source_path": "teams/privacy/teams-privacy.md",
+  "redirect_url": "/microsoftteams/privacy/location-of-data-in-teams",
   "redirect_document_id": false
 }
 ] 
