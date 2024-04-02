@@ -37,7 +37,7 @@ The Planner app in Microsoft Teams brings together the simplicity of [Microsoft 
 
 ## What you need to know about Planner
 
-Planner is available as an app and as a tab in a channel. The app shows a user's individual tasks and shared tasks.
+Planner is available as an app and as a tab in a channel. The app shows all a user's individual tasks and shared tasks.
 
 When a user opens the Planner app in Teams, they see:
 
@@ -45,7 +45,7 @@ When a user opens the Planner app in Teams, they see:
 - **My Tasks**: This section includes:
   - **Private Tasks**: A dedicated place for a user to quickly create tasks in a default place.
   - **Assigned to me**: All tasks that are assigned to the user from Teams meeting notes, Microsoft Loop, Planner, and Planner premium.
-  - **Flagged emails**: Emails the user flagged in Outlook show up as tasks here.
+  - **Flagged emails**: Emails the user flagged show up as tasks here.
 - **My Plans**: Shows all the user's To Do lists, basic plans, and premium plans.
 - **New plan**: Create a new personal or shared plan directly in the app.
 
@@ -87,9 +87,9 @@ To allow or block specific users in your organization from using Planner, make s
 
 App setup policies let you customize Teams to pin apps that are most important for your users.
 
-To pin the Planner app for your users, you can edit the global (Org-wide default) policy or create and assign a custom policy in app setup policy. To learn more, see [Use app setup policies to pin and auto install apps for users](teams-app-setup-policies.md). 
+To pin the Planner app for your users, you can edit the global (Org-wide default) policy or create and assign a custom policy in app setup policy. To learn more, see [Use app setup policies to pin and auto install apps for users](teams-app-setup-policies.md).
 
-For more information about the default app setup policy for users who are assigned an F license, see the [Tailored frontline app experience for frontline workers and managers](#tailored-frontline-app-experience-in-teams-for-frontline-workers-and-managers) section.
+For more information about the default app setup policy for users who are assigned an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline), see the [Tailored frontline app experience for frontline workers and managers](#tailored-frontline-app-experience-in-teams-for-frontline-workers-and-managers) section.
 
 #### Tailored frontline app experience in Teams for frontline workers and managers
 
@@ -130,7 +130,7 @@ For steps on how to set up your team targeting hierarchy, see [Set up your team 
 
 ## About the services
 
-The Planner app in Teams relies on several underlying services. The types of tasks that users are creating and editing impacts the available capabilities for extensibility, compliance, and governance.
+The Planner app in Teams relies on several underlying services. The types of tasks that users are creating and editing affect the available capabilities for extensibility, compliance, and governance.
 
 ### Private tasks and their attachments
 
@@ -142,13 +142,13 @@ For Power Automate support, see [Using Microsoft To Do with Power Automate](http
 
 ### Basic plans and the tasks in them
 
-These tasks and plans are stored in Azure and managed by the Planner service. Comments in Planner are stored in Exchange as email threads. [Learn more about the Planner service](office365/planner/planner-for-admins).
+These tasks and plans are stored in Azure and managed by the Planner service. Comments in Planner are stored in Exchange as email threads. See [Microsoft Planner for admins](/office365/planner/planner-for-admins) to learn more about the Planner service.
 
 For eDiscovery support for these types of tasks, see [Content stored in Exchange Online mailboxes for eDiscovery](/purview/ediscovery-what-is-stored-in-a-mailbox).
 
 Attachments on these types of tasks are stored in the SharePoint location for the group. For eDiscovery support of these attachments, see [Overview of Content search](/purview/ediscovery-content-search-overview).
 
-Planner tasks can be managed using the Microsoft Graph and the Power Automate connector. To learn more about these tools, go to:
+Planner tasks can be managed using Microsoft Graph and the Power Automate connector. To learn more about these tools, go to:
 
 - [Planner tasks and plans API overview](/graph/planner-concept-overview)
 - [Planner | Power Automate](https://powerautomate.microsoft.com/connectors/details/shared_planner/planner/)
@@ -157,11 +157,11 @@ Planner tasks can be managed using the Microsoft Graph and the Power Automate co
 
 Premium plans and tasks are stored in Dataverse and managed via the Project service. When a task is assigned to a user, it's also stored in the same Azure location as basic plans. For tasks in basic and premium plans, attachments are stored in the SharePoint location for the group.
 
-Learn about the Project service at [Project for the web get started guide for administrators](/project-for-the-web/project-for-the-web-get-started-guide-for-admins).
+See [Project for the web get started guide for administrators](/project-for-the-web/project-for-the-web-get-started-guide-for-admins) to learn more about the Project service.
 
-Learn more about managing the Power Platform at [Power Platform admin documentation](/power-platform/admin/).
+See the [Power Platform admin documentation](/power-platform/admin/) to learn more about managing the Power Platform.
 
-Support for programmability is available through our scheduling API. To learn more, see [Use Project schedule APIs to perform operations with Scheduling entities](/dynamics365/project-operations/project-management/schedule-api-preview).
+Support for programmability is available via our scheduling API. To learn more, see [Use Project schedule APIs to perform operations with Scheduling entities](/dynamics365/project-operations/project-management/schedule-api-preview).
 
 ## Give feedback or report an issue
   
