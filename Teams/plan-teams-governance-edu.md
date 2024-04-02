@@ -59,7 +59,7 @@ If you're sure you want to control who can create teams, see [Manage who can cre
 At the start of each semester or quarter, you'll need new teams. It might make sense to take an automated approach to create these teams automatically, populate them with the right users, and set the right permissions:
 
 - School Data Sync can create Microsoft 365 Groups for Exchange Online and SharePoint Online, class teams for Microsoft Teams and OneNote Class notebooks, school groups for Intune for Education, and rostering and Single Sign-On (SSO) integration for many other third-party applications. Learn more at [Overview of School Data Sync](/schooldatasync/overview-of-school-data-sync).
-- With PowerShell, you can create teams and channels, and configure settings automatically. For more information, see [Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps).
+- With PowerShell, you can create teams and channels, and configure settings automatically. For more information, see [Microsoft Teams PowerShell](/powershell/module/teams/).
 - You can use the Microsoft Graph API (currently in preview) to create, configure, clone, and archive teams. For more information, see [Use the Microsoft Graph API to work with Microsoft Teams](/graph/api/resources/teams-api-overview).
 
 > [!TIP]
@@ -96,7 +96,7 @@ The [Microsoft Graph API (preview)](/graph/api/resources/teams-api-overview) can
 - Delete the team.
 - Create a channel thread
 
-[PowerShell](/powershell/module/teams/?view=teams-ps) can do the following tasks:
+[PowerShell](/powershell/module/teams/) can do the following tasks:
 
 - Create a team.
 - Add members and owners.
@@ -105,7 +105,7 @@ The [Microsoft Graph API (preview)](/graph/api/resources/teams-api-overview) can
 - Delete the team.
 
 > [!TIP]
-> The Graph API and PowerShell cmdlets are constantly adding functionality. Make sure to check the [Microsoft Graph API (preview)](/graph/api/resources/teams-api-overview) and [PowerShell](/powershell/module/teams/?view=teams-ps) articles often for feature enhancements.  
+> The Graph API and PowerShell cmdlets are constantly adding functionality. Make sure to check the [Microsoft Graph API (preview)](/graph/api/resources/teams-api-overview) and [PowerShell](/powershell/module/teams/) articles often for feature enhancements.  
 
 ## Can I control what Teams features my faculty and students have access to?
 

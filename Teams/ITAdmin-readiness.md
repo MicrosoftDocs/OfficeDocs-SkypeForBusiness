@@ -1,7 +1,7 @@
 ---
 title: Admin training resources - Microsoft Teams
 ms.reviewer: jhwang
-ms.date: 08/29/2017
+ms.date: 03/27/2024
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
@@ -9,16 +9,16 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
-  - M365-collaboration
+- M365-collaboration
 search.appverid: MET150
 f1.keywords: 
-  - CSH
+- CSH
 ms.custom: 
-  - ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
-  - seo-marvel-mar2020
+- ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
+- seo-marvel-mar2020
 description: Training videos, PowerPoint decks, tutorials, and other resources for admins on how to plan, deploy, and run Microsoft Teams.
 appliesto: 
-  - Microsoft Teams
+- Microsoft Teams
 ---
 # Getting started with admin training for Microsoft Teams
 
@@ -61,6 +61,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Teams Phone Deployment playbook | | [Deck](https://aka.ms/teams-phone-deployment-playbook) |
 | Upgrade from Skype for Business to Teams | [Video 1: Introduction to Upgrade](https://aka.ms/teams-upgrade-intro)</br>[Video 2: Plan your upgrade](https://aka.ms/teams-upgrade-plan)</br>[Video 3: Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Video 4: Administrator experience](https://aka.ms/teams-upgrade-admin) | [Deck](https://aka.ms/teams-upgrade-deck)|
 | Windows desktop client | [Video](https://aka.ms/teams-clients) | [Deck](https://aka.ms/teams-clients-deck) |
+| Windows Defender Application Control for new Teams |  | [Deck](https://aka.ms/new-teams-WDAC) |
 
 <h2>Teams Rooms Foundations for IT & AV Pros</h2>
 
@@ -93,3 +94,5 @@ Use the training resources to educate yourself about Teams, teach others or run 
 ## Related topics
 
 [Live and on demand user training](https://adoption.microsoft.com/user-training/?filter=microsoft-teams)
+
+

@@ -131,9 +131,9 @@ By selecting **Save**, the meeting theme is automatically saved and applied to y
 
  To upload images, you must use the Teams admin center. You can manage meeting themes by using the following PowerShell cmdlets in Teams PowerShell:
 
-- [Set-CsTeamsMeetingBrandingPolicy](/powershell/module/skype/set-csteamsmeetingbrandingpolicy)
-- [Grant-CsTeamsMeetingBrandingPolicy](/powershell/module/skype/grant-csteamsmeetingbrandingpolicy)
-- [New-CsTeamsMeetingBrandingPolicy](/powershell/module/skype/new-csteamsmeetingbrandingpolicy)
+- [Set-CsTeamsMeetingBrandingPolicy](/powershell/module/teams/set-csteamsmeetingbrandingpolicy)
+- [Grant-CsTeamsMeetingBrandingPolicy](/powershell/module/teams/grant-csteamsmeetingbrandingpolicy)
+- [New-CsTeamsMeetingBrandingPolicy](/powershell/module/teams/new-csteamsmeetingbrandingpolicy)
 
 This example assigns a meeting theme policy called 'Policy Test' to a group named group@contoso.com.
 
