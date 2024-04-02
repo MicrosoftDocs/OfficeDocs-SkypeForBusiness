@@ -26,11 +26,11 @@ appliesto:
 
 # Implement Quality of Service (QoS) in Microsoft Teams
 
-Quality of Service (QoS) in Microsoft Teams allows you to prioritize real-time network traffic. For example, you can prioritize traffic that's sensitive to network delays, such as voice and video streams, over traffic that's less sensitive (like downloading a new app, where an extra second to download isn't that noticeable). 
+Quality of Service (QoS) in Microsoft Teams enables you to prioritize real-time network traffic that's sensitive to network delays over traffic that's less sensitive. For example, you'd prioritize voice and video streams over downloading a new app (where an extra second to download isn't that noticeable). 
 
 QoS uses Windows Group Policy Objects and port-based Access Control Lists (ACLs) to identify and mark all packets in real-time streams. This method ensures that voice, video, and screen share streams are allocated a dedicated portion of network bandwidth.
 
-If you support a large group of users who are experiencing any of the problems described in this article, then you should implement QoS. Depending on business requirements, a small business with few users might not need QoS, but should consider it if experiencing network delays.
+If you support a large group of users who are experiencing any of the problems described in this article, then you should implement QoS. A small business with few users might not need QoS, but should consider it if experiencing network delays.
 
 Without some form of QoS, you might see the following quality issues in voice and video:
 
@@ -38,7 +38,7 @@ Without some form of QoS, you might see the following quality issues in voice an
 - Packet loss – Packets dropped, which can also result in lower voice quality and hard-to-understand speech.
 - Delayed round-trip time (RTT) – Media packets taking a long time to reach their destinations, which results in noticeable delays between two parties in a conversation and causes people to talk over each other.
 
-The least complex way to address these issues is to increase the size of the data connections, both internally and out to the internet, but this method is often cost-prohibitive. QoS enables you to manage the resources you have instead of adding bandwidth. To address quality issues, we recommend that you first use QoS, then add bandwidth where necessary.
+The least complex way to address these issues is to increase the size of the data connections, both internally and out to the internet, but this method is often cost-prohibitive. QoS enables you to manage the resources you have instead of adding bandwidth. To address quality issues, we recommend that you use QoS first, then add bandwidth where necessary.
 
 For QoS to be effective, you must apply consistent QoS settings throughout your organization. Any part of the path that fails to support your QoS priorities can degrade the quality of calls, video, and screen sharing. You need to apply settings to all user PCs or devices, network switches, routers to the internet, and the Teams service.
 
@@ -48,7 +48,7 @@ _Figure 1. The relationship between an organization's networks and Microsoft 365
 
 ## QoS implementation checklist
 
-To implement QoS, perform the following steps, which are described in more detail throughout this article.
+The following checklist provides an overview of the steps you need to perform to implement QoS.  The steps are described in more detail throughout this article.
 
 Note: If you're migrating QoS from Skype for Business Online or Skype for Business Server to Teams, see [If you're migrating QoS](#if-youre-migrating-qos-to-teams).
 
@@ -67,14 +67,14 @@ Note: If you're migrating QoS from Skype for Business Online or Skype for Busine
 As you prepare to implement QoS, keep the following guidelines in mind:
 
 - The shortest path to Microsoft 365 is best.
-- Closing ports will only lead to quality degradation.
+- Closing ports leads to quality degradation.
 - Any obstacles in between, such as proxies, aren't recommended.
 - Limit the number of hops:
   - Client to network edge – 3 to 5 hops
   - ISP to Microsoft network edge – 3 hops
   - Microsoft network edge to final destination – irrelevant
 
-For information about configuring firewall ports, go to [Office 365 URLs and IP ranges](office-365-urls-ip-address-ranges.md).
+For information about configuring firewall ports, see [Office 365 URLs and IP ranges](office-365-urls-ip-address-ranges.md).
 
 ## Step 1. Make sure your network is ready
 
