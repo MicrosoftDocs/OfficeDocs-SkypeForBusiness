@@ -1,5 +1,5 @@
 ---
-title: Set how you want to handle real-time media traffic for Teams meetings
+title: Manage real-time media traffic for Teams meetings
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
@@ -26,7 +26,7 @@ ms.collection:
 description: Learn how to enable QoS markers and set port ranges for each type of media traffic in Teams meetings.
 ---
 
-# Set how you want to handle real-time media traffic for Teams meetings
+# Manage real-time media traffic for Teams meetings
 
 <a name="bknetwork"> </a>
 
