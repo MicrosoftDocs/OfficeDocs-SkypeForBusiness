@@ -36,8 +36,6 @@ Teams settings are used to control notification, tagging, email integration, and
 
 **Navigation:** Teams admin center > Teams > Teams settings
 
-:::image type="content" source="media/notifications-tac.png" alt-text="Screenshot of Teams notifications and feeds settings in the Teams admin center." lightbox="media/notifications-tac-expand.png":::
-
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Suggested feeds can appear in a user's activity feed|On|When **On**, suggested feeds can appear in a user's activity feed.|
@@ -75,8 +73,6 @@ Teams settings are used to control notification, tagging, email integration, and
 
 **Navigation:** Teams admin center > Teams > Teams settings
 
-:::image type="content" source="media/files-tac.png" alt-text="Screenshot of Teams cloud storage service files settings in the Teams admin center." lightbox="media/files-tac-expand.png":::
-
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Citrix files|On|When **On**, Citrix can be added as a cloud storage service in a team.|
@@ -92,8 +88,6 @@ Teams settings are used to control notification, tagging, email integration, and
 #### Organization
 
 **Navigation:** Teams admin center > Teams > Teams settings
-
-:::image type="content" source="media/organization-tac.png" alt-text="Screenshot of Teams organization settings in the Teams admin center." lightbox="media/organization-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -119,8 +113,6 @@ Teams settings are used to control notification, tagging, email integration, and
 
 **Navigation:** Teams admin center > Teams > Teams settings
 
-:::image type="content" source="media/search-by-name-tac.png" alt-text="Screenshot of Teams search by name settings in the Teams admin center." lightbox="media/search-by-name-tac-expand.png":::
-
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Scope directory search using an Exchange address book policy|Off|When **On**, hides the **Search teams** box and public teams listing in **Join or create a team** in Teams|
@@ -130,8 +122,6 @@ Teams settings are used to control notification, tagging, email integration, and
 [Limit who users can see when searching the directory in Teams](teams-scoped-directory-search.md)
 
 #### Safety and communications
-
-:::image type="content" source="media/safety-and-communications-tac.png" alt-text="Screenshot of Teams safety and communications settings in the Teams admin center." lightbox="media/safety-and-communications-tac-expand.png":::
 
 **Navigation:** Teams admin center > Teams > Teams settings
 
@@ -144,8 +134,6 @@ Teams settings are used to control notification, tagging, email integration, and
 [Supervised chats in Microsoft Teams](supervise-chats-edu.md)
 
 #### Shared channels
-
-:::image type="content" source="media/shared-channels-tac.png" alt-text="Screenshot of Teams shared channel settings in the Teams admin center." lightbox="media/shared-channels-tac-expand.png":::
 
 **Navigation:** Teams admin center > Teams > Teams settings
 
@@ -162,8 +150,6 @@ Teams settings are used to control notification, tagging, email integration, and
 **Navigation:** Teams admin center > Teams > Teams policies
 
 Teams policies are used to control what settings or features are available to users when they're using teams and channels.
-
-:::image type="content" source="media/teams-policies-tac.png" alt-text="Screenshot of Teams team policies in the Teams admin center." lightbox="media/teams-policies-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -362,8 +348,6 @@ Conference bridges let people dial into meetings using a phone. You can use the 
 
 Manage the audio conferencing toll and toll-free numbers to display in meeting invites that users in your org create.
 
-:::image type="content" source="media/audio-conferencing-tac.png" alt-text="Screenshot of Teams audio conferencing policies in the Teams admin center." lightbox="media/audio-conferencing-tac-expand.png":::
-
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Include toll-free numbers in meeting invites created by users of this policy|On|When **On**, any meetings users with this policy create include toll-free numbers.|
@@ -555,8 +539,6 @@ Meeting policies are used to control what features are available in meetings org
 
  Watermarks can be displayed in Teams meetings both for content shared on screen and for attendee video. For watermarks to be available in templates and sensitivity labels, and to the meeting organizer, they must be enabled. These settings require a Teams Premium license.
 
-:::image type="content" source="media/watermark-tac.png" alt-text="Screenshot of Teams meeting watermark policies in the Teams admin center." lightbox="media/watermark-tac-expand.png":::
-
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Watermark videos|On|This setting controls watermarks on attendee videos.|
@@ -600,8 +582,6 @@ Meeting settings allow you to customize meeting email invitations and configure 
 
 **Navigation:** Teams admin center > Meetings > Meeting settings
 
-:::image type="content" source="media/participants-tac.png" alt-text="Screenshot of Teams meeting settings for anonymous participants in the Teams admin center." lightbox="media/participants-tac-expand.png":::
-
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Anonymous users can join a meeting|On|This setting will be removed in the future. We recommend leaving this setting **On** and using the **Anonymous users can join a meeting** user level meeting policy control to allow or prevent anonymous meeting join instead.|
@@ -635,7 +615,6 @@ Meeting settings allow you to customize meeting email invitations and configure 
 
 **Navigation:** Teams admin center > Meetings > Meeting settings
 
-:::image type="content" source="media/email-invitation-tac.png" alt-text="Screenshot of Teams meeting settings for email invitations in the Teams admin center." lightbox="media/email-invitation-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -700,8 +679,6 @@ Teams live events settings let you control org-wide settings for all live events
 
 **Navigation:** Teams admin center > Meetings > Live event settings
 
-:::image type="content" source="media/support-url-tac.png" alt-text="Screenshot of Teams live events support URL setting in the Teams admin center." lightbox="media/support-url-tac-expand.png":::
-
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Custom support URL|(none)|URL for live event attendees to contact support during a live event.|
@@ -709,8 +686,6 @@ Teams live events settings let you control org-wide settings for all live events
 #### Video distribution providers
 
 **Navigation:** Teams admin center > Meetings > Live event settings
-
-:::image type="content" source="media/video-distribution-provider-tac.png" alt-text="Screenshot of Teams live events settings for video distribution providers in the Teams admin center." lightbox="media/video-distribution-provider-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
