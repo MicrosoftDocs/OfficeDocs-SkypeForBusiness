@@ -180,7 +180,7 @@ If IT administrators set restrictions for MSIX or deploy GPOs, it could prevent 
   :::image type="content" source="media/new-teams-troubleshooting-error-isntallation-org-policies.png" alt-text="error with org policies":::
 
 > [!IMPORTANT]
-> The 'side by side' method is only supported in persistent environments.
+> The 'side by side' method is only supported in persistent environments. Classic Teams 1.7.00.7956 or higher will suppress the app switcher toggle irrespective of the Teams Admin Center policy value when classic Teams is running in a non-persistent environment, where non-persistent is detected based on the installation folder of classic Teams MSI, C:\Program Files (x86).
 
 ## Classic Teams versus new Teams installers in VDI environments
 
@@ -223,7 +223,6 @@ Known limitations:
 
 - Classic Teams on Windows Server 2019 isn't displaying the app switcher toggle if Classic Teams version is lower than 1.6.00.33567
 - New Teams on Windows Server 2019 currently isn't compatible with FSLogix and fails to launch. See [FSLogix known issues](/fslogix/troubleshooting-known-issues) for more details.
-- New Teams MSIX installer isn't registering UC Typelib, causing Outlook presence bubbles to show as grey/unknown even if the virtual machine does have the Classic Teams client installed as well.
 
 ### Outlook presence integration with New Teams in Windows Server 2019
 
