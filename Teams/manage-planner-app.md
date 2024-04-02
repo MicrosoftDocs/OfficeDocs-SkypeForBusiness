@@ -28,7 +28,7 @@ ms.collection:
 
 ## Overview of Planner
 
-The Planner app in Microsoft Teams brings together the simplicity of [Microsoft To Do](https://todo.microsoft.com/tasks/), the collaboration of Microsoft Planner, and the power of Planner premium to help your users get work done more efficiently. Users can access Planner as an app on the left side of Teams and as a tab in a channel within individual teams.
+The Planner app in Microsoft Teams brings together the simplicity of [Microsoft To Do](https://todo.microsoft.com/tasks/), the collaboration of Microsoft Planner, and the power of premium plans (earlier Project) to help your users get work done more efficiently. Users can access Planner as an app on the left side of Teams and as a tab in a channel within individual teams.
 
 > [!NOTE]
 > Prior to March 2024, this app was named Tasks by Planner and To Do.
@@ -128,18 +128,40 @@ To enable task publishing in your organization, you have to first set up your te
 
 For steps on how to set up your team targeting hierarchy, see [Set up your team targeting hierarchy](set-up-your-team-hierarchy.md).
 
-## Power Automate and Graph API
+## About the services
 
-Planner supports Graph APIs for Planner and Power Automate for To Do. To learn more, see:
+The Planner app in Teams relies on several underlying services. The types of tasks that users are creating and editing impacts the available capabilities for extensibility, compliance, and governance.
+
+### Private tasks and their attachments
+
+These are stored in Microsoft Exchange.
+
+For eDiscovery support for these types of tasks, see [Content stored in Exchange Online mailboxes for eDiscovery](/purview/ediscovery-what-is-stored-in-a-mailbox) and [Review data storage and compliance in Microsoft To Do](https://support.microsoft.com/office/review-data-storage-and-compliance-in-microsoft-to-do-60c11889-b08b-4bfd-a7c0-1a28582b6161).
+
+For Power Automate support, see [Using Microsoft To Do with Power Automate](https://support.microsoft.com/office/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295).
+
+### Basic plans and the tasks in them
+
+These tasks and plans are stored in Azure and managed by the Planner service. Comments in Planner are stored in Exchange as email threads. [Learn more about the Planner service](office365/planner/planner-for-admins).
+
+For eDiscovery support for these types of tasks, see [Content stored in Exchange Online mailboxes for eDiscovery](/purview/ediscovery-what-is-stored-in-a-mailbox).
+
+Attachments on these types of tasks are stored in the SharePoint location for the group. For eDiscovery support of these attachments, see [Overview of Content search](/purview/ediscovery-content-search-overview).
+
+Planner tasks can be managed using the Microsoft Graph and the Power Automate connector. To learn more about these tools, go to:
 
 - [Planner tasks and plans API overview](/graph/planner-concept-overview)
-- [Using Microsoft To Do with Power Automate](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)
+- [Planner | Power Automate](https://powerautomate.microsoft.com/connectors/details/shared_planner/planner/)
 
-## Data location
+### Premium plans and the tasks in them
 
-For more information about where your Planner data is stored, see [Data residency for other Microsoft services](/microsoft-365/enterprise/m365-dr-workload-other#planner).
+Premium plans and tasks are stored in Dataverse and managed via the Project service. When a task is assigned to a user, it's also stored in the same Azure location as basic plans. For tasks in basic and premium plans, attachments are stored in the SharePoint location for the group.
 
-To Do uses Exchange Online for data storage. To learn more, see [Review data storage and compliance in Microsoft To Do](https://support.microsoft.com/office/review-data-storage-and-compliance-in-microsoft-to-do-60c11889-b08b-4bfd-a7c0-1a28582b6161).
+Learn about the Project service at [Project for the web get started guide for administrators](/project-for-the-web/project-for-the-web-get-started-guide-for-admins).
+
+Learn more about managing the Power Platform at [Power Platform admin documentation](/power-platform/admin/).
+
+Support for programmability is available through our scheduling API. To learn more, see [Use Project schedule APIs to perform operations with Scheduling entities](/dynamics365/project-operations/project-management/schedule-api-preview).
 
 ## Give feedback or report an issue
   
