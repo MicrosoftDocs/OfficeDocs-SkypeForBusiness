@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: mikedav
-ms.date: 11/28/2017
+ms.date: 04/02/2024
 ms.topic: article
 ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
 ms.tgt.pltfrm: cloud
@@ -39,6 +39,8 @@ This article assumes that you've already set up Call Analytics. If you haven't, 
 Call Analytics shows detailed information about Teams calls and meetings for each user in your Office 365 account. It includes information about devices, networks, connectivity, and call quality (any of these can be a factor in poor call or meeting quality). If you upload building, site, and tenant information, this information will also be shown for each call and meeting. Use Call Analytics to help you figure out why a user had a poor call or meeting experience.
 
 Call Analytics shows you each leg of a call or meeting - for example, from one participant to a second participant. By analyzing these details, a Teams admin can isolate problem areas and identify the root cause for poor quality.
+
+Real-Time Analytics lets admins troubleshoot scheduled meetings while they're in progress and for 72 hours after the meeting ends. After this time period, individual meeting troubleshooting is available for Teams administrators through Call Analytics. For more information, see [Use real-time telemetry to troubleshoot poor meeting quality](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md).
 
 As the Teams admin, you get full access to all Call Analytics data for each user. In addition, you can assign Microsoft Entra roles to support staff. To learn more about these roles, read [Give permission to support and helpdesk staff](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff). Don't miss [What does each Teams Support role do?](#what-does-each-teams-support-role-do) below.
 
@@ -103,7 +105,6 @@ For audio sessions that do have Quality of Experience (QoE) data, the following 
 |Call setup|Session|The error code Ms-diag 20-29 indicates the call setup failed. The user couldn't join the call or meeting.|
 |Audio network classified poor call|Session|Network quality issues (such as packet loss, jitter, NMOS degradation, RTT, or concealed ratio) were encountered.|
 |Device not functioning|Device|A device isn't functioning correctly. Device not functioning ratios are: <p> DeviceRenderNotFunctioningEventRatio >= 0.005 <br>  DeviceCaptureNotFunctioningEventRatio >= 0.005|
-||||
 
 ## Related topics
 
