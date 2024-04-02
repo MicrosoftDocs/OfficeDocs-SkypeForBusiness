@@ -107,9 +107,9 @@ You can learn more at [Uninstall an app with Intune for Windows](/mem/intune/app
 - **Are there any workarounds for the 14-day uninstallation timer?**
   No, this timer isn't configurable. Admins can use device management software, such as Intune, to directly uninstall classic Teams.
 
-## Open Items and Future Updates
+## Future updates
 
-This guide will be updated at a later time with additional information on:
+This article will be updated at a later time with additional information on:
 
 - Uninstalling classic Teams from macOS
 - VDI-specific guidance
