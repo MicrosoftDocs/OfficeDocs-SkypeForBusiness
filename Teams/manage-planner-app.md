@@ -28,7 +28,7 @@ ms.collection:
 
 ## Overview of Planner
 
-The Planner app in Microsoft Teams brings together the simplicity of [Microsoft To Do](https://todo.microsoft.com/tasks/), the collaboration of Microsoft Planner, and the power of premium plans (earlier Project) to help your users get work done more efficiently. Users can access Planner as an app on the left side of Teams and as a tab in a channel within individual teams.
+The Planner app in Microsoft Teams brings together the simplicity of [Microsoft To Do](https://todo.microsoft.com/tasks/), the collaboration of Microsoft Planner, and the power of premium plans (previously, Project) to help your users get work done more efficiently. Users can access Planner as an app on the left side of Teams and as a tab in a channel within individual teams.
 
 > [!NOTE]
 > Prior to March 2024, this app was named Tasks by Planner and To Do.
@@ -41,13 +41,13 @@ Planner is available as an app and as a tab in a channel. The app shows all a us
 
 When a user opens the Planner app in Teams, they see:
 
-- **My Day**: Shows tasks that are due today, along with any tasks that a user chooses to add to this view.
-- **My Tasks**: This section includes:
+- **My Day**: Includes tasks that are due today, along with any tasks a user chooses to add to this view.
+- **My Tasks**: This view includes:
   - **Private Tasks**: A dedicated place for a user to quickly create tasks in a default place.
-  - **Assigned to me**: All tasks that are assigned to the user from Teams meeting notes, Microsoft Loop, Planner, and Planner premium.
-  - **Flagged emails**: Emails the user flagged show up as tasks here.
+  - **Assigned to me**: Shows all tasks that are assigned to the user from Teams meeting notes, Microsoft Loop, Planner, and Planner premium.
+  - **Flagged emails**: Emails the user flagged in Outlook show up as tasks here.
 - **My Plans**: Shows all the user's To Do lists, basic plans, and premium plans.
-- **New plan**: Create a new personal or shared plan directly in the app.
+- **New plan**: Create new personal or shared plans directly in the app.
 
 > [!NOTE]
 > There's limited functionality when using the Planner app on Teams mobile. On mobile, users will only see plans that are added to a tab in a channel within a team.
@@ -56,6 +56,8 @@ Users can also use the Planner app to:
 
 - Create new personal or shared plans.
 - Get notifications about Planner tasks.
+
+To learn more about the end-user experience, see [Getting started with Planner in Teams](https://support.microsoft.com/en-us/office/getting-started-with-planner-in-teams-7a5e58f1-2cee-41b0-a41d-55d512c4a59c).
 
 For organizations who want to streamline task management for frontline workers, Planner also includes capabilities that enable you to target, publish, and track tasks at scale across your frontline workforce. For example, corporate and regional leadership can create and publish task lists targeted to relevant locations, such as specific retail stores, and track progress through real-time reports. Managers can assign tasks to their staff and direct activities within their locations, and frontline workers have a prioritized list of their assigned tasks on mobile or desktop. To enable [task publishing](#task-publishing), first set up a team targeting hierarchy for your organization, which defines how all teams in the hierarchy are related to each other.
 
