@@ -4,7 +4,7 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: jtremper
 ms.topic: article
-ms.date: 03/29/2024
+ms.date: 04/02/2024
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -14,15 +14,18 @@ ms.reviewer:
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Uninstalling classic Teams client from client machines.
+description: Uninstalling classic Teams client from client machines if the automatic uninstall doesn't work, or if an admin needs to do a manual removal after the end of availability for classic Teams client and the upgrade to new Teams client.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: high
 ---
 
-# Uninstalling Classic Microsoft Teams
+# Uninstalling classic Microsoft Teams
 
-After installing the new Teams client and setting the **New Teams Only** policy (or reaching the end of life period for classic Teams), the classic Teams client will attempt to be removed after 14 days. This removal will be attempted by Microsoft, but in some cases, due to permissions or other settings, the removal may fail. This article outlines the steps and considerations for IT administrators to uninstall the classic Teams client manually.
+After installing the new Teams client and setting the **New Teams Only** policy (or reaching the end of life period for classic Teams), there will be an attempt to remove classic Teams client application after 14 days. This removal will be attempted by Microsoft, but in some cases, due to permissions or other settings, the removal may fail. This article outlines the steps and considerations for IT administrators to uninstall the classic Teams client manually.
+
+> [!NOTE]
+> This article discusses removing the classic Teams client application. Users may also, depending on how the classic Teams client was installed, also have the Machine-Wide Installer to remove, and this will also appear as an application, but its removal isn't covered in this documentation. For more information, see [How the Microsoft Teams MSI file works](msi-deployment.md#how-the-microsoft-teams-msi-file-works).
 
 ## Understanding Your Deployment Scenario
 
@@ -33,12 +36,12 @@ Before proceeding with the uninstallation, you should try to identify how classi
    - **Action**: No immediate action required. classic Teams will attempt to be automatically uninstalled 14 days after the new Teams installation.
 
 2. **Commercial Version of Microsoft 365 Apps Installed**:
-   - In the tenant dashboard, classic Teams and the Teams Machine-Wide Installer are both present.
+   - In **Start** > **Settings** > **Apps**, classic Teams and the Teams Machine-Wide Installer are both present.
    - **Action**: No immediate action required. The new Teams installation will replace classic Teams, which will be removed after 14 days, and Microsoft 365 Apps will attempt to uninstall the Teams Machine-Wide Installer at a later point.
 
 3. **Admin-Deployed Teams Machine-Wide Installer Without Microsoft 365 Apps**:
    - Classic Teams was deployed machine-wide by an admin without using Microsoft 365 Apps (typically by deploying the Teams Machine-Wide Installer directly).
-   - **Action**: After new Teams is deployed, an attempt will be made to remove classic Teams after 14 days. If Microsoft 365 Apps is present, after new Teams is deployed, an attempt to remove the Teams Machine-Wide Installer will be made as well. Otherwise, admins must proactively uninstall the Teams Machine-Wide Installer using their existing deployment tools.
+   - **Action**: After new Teams is deployed, an attempt will be made to remove classic Teams after 14 days. If Microsoft 365 Apps is present, after new Teams is deployed, an attempt to remove the Teams Machine-Wide Installer will be made as well. Otherwise, admins must proactively uninstall the Teams Machine-Wide Installer using their existing deployment tools. See [Bulk install classic Teams using Windows Installer (MSI)](msi-deployment.md) for more information.
 
 > [!NOTE]
 > If your organization has the **New Teams as default** setting, which allows users to switch back, the uninstallation of classic Teams removes the switch option.
@@ -106,9 +109,7 @@ You can learn more at [Uninstall an app with Intune for Windows](/mem/intune/app
 
 ## Open Items and Future Updates
 
-This guide will be updated with additional information on:
+This guide will be updated at a later time with additional information on:
 
 - Uninstalling classic Teams from macOS
 - VDI-specific guidance
-- PowerShell scripts for automation
-- Detection mechanisms.
