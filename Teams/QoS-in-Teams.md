@@ -50,7 +50,7 @@ _Figure 1. The relationship between an organization's networks and Microsoft 365
 
 To implement QoS, perform the following steps, which are described in more detail throughout this article.
 
-Note: If you are migrating QoS from Skype for Business Online or Skype for Business Server to Teams, see [Migrate to QoS](#migrate-qos-to-teamsigrate QoS to Teams).
+Note: If you're migrating QoS from Skype for Business Online or Skype for Business Server to Teams, see [If you're migrating QoS](#if-youre-migrating-qos-to-teams).
 
 1. [Make sure your network is ready](#step-1-make-sure-your-network-is-ready).
 
@@ -223,7 +223,7 @@ Note that you can adjust the port ranges, but you can't configure the DSCP marki
 
 
 
-## Migrate QoS to Teams
+## If you're migrating QoS to Teams
 
 - **Migrate from Skype for Business Online** - If you've already configured QoS based on source port ranges and DSCP markings for Skype for Business Online, the same configuration will apply to Teams and no further client or network changes to the mapping will be required, though you may have to [set the ranges used in Teams](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings) to match what was configured for Skype for Business Online.
 
