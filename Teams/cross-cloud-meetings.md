@@ -42,6 +42,16 @@ If the connection doesn't exist, you can add it in Teams meeting settings. This 
 > [!IMPORTANT]
 > The organization that you're meeting with must also configure these settings for their organization.
 
+## Prerequisites
+For the best meeting experiences across Microsoft clouds make sure your network is ready for Microsoft Teams.  [Prepare your organization's network for Microsoft Teams](https://learn.microsoft.com/en-us/microsoftteams/prepare-network#network-requirements) contains guidance on how to opimize your network for Teams.  Also ensure that the necessary DNS, IPs and Ports are enabled for the Microsoft cloud where your users will be collaborating.  The following table links to the endpoint definitions for each of the M365 cloud environments:
+
+|Microsoft 365 Cloud Environment|Endpoints|
+|:--------------------------------|:------------------------------|
+|Commercial, GCC|[Worldwide endpoints](https://learn.microsoft.com/en-us/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide)|
+|GCC High|[U.S. Government GCC High endpoints](https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints?view=o365-worldwide)|
+|DoD|[U.S. Government DoD endpoints](https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints?view=o365-worldwide)|
+|China (21Vianet)|[Microsoft 365 operated by 21Vianet](https://learn.microsoft.com/en-us/microsoft-365/enterprise/urls-and-ip-address-ranges-21vianet?view=o365-worldwide)|
+
 ## Allow cross-tenant connections with other Microsoft 365 cloud environments
 
 If you're setting up a cross-cloud meeting connection with a tenant that's in a different Microsoft Azure cloud environment than yours, then you need to enable connections with that cloud before you set up the meeting connection itself.
