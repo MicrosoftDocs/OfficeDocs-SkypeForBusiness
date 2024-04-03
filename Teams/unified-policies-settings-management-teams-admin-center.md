@@ -57,7 +57,7 @@ You can always opt out from the new experience and go back to the old one, if yo
 To configure org-wide settings, you can follow these steps:
 
 1. Select the **Settings & policies** tab in the left navigation, and then on the **Org-wide settings tab**.![A screenshot of Org-wide default settings home page](media/org-wide-default-setting-homepage.jpg)
-1. *Figure 4: Org-wide default settings home page*
+*Figure 4: Org-wide default settings home page*
 
 1. Select the feature area that you want to configure, such as Meetings, Voice, Apps, etc.
 
