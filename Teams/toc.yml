@@ -105,6 +105,8 @@ items:
                   href: new-teams-known-issues.md
                 - name: Classic Teams client end of availability
                   href: teams-classic-client-end-of-availability.md
+                - name: Manually uninstall classic Teams client
+                  href: teams-classic-client-uninstall.md
                 - name: Usage report for new Teams client
                   href: new-teams-usage-report.md
             - name: Classic Teams clients
@@ -327,8 +329,6 @@ items:
           href: /microsoft-365/compliance/teams-workflow-in-advanced-ediscovery         
     - name: Privacy
       items: 
-        - name: Privacy and Microsoft Teams
-          href: privacy/teams-privacy.md
         - name: Location of data in Teams
           href: privacy/location-of-data-in-teams.md
         - name: Microsoft Teams feedback privacy
@@ -1630,6 +1630,8 @@ items:
               href: scripts/powershell-script-security-groups-edu.md
         - name: Set up features for educators
           items:
+            - name: Set up AI content recommendations
+              href: institution-settings.md
             - name: Set up Supervised chats in Teams
               href: supervise-chats-edu.md
             - name: Set up Assignments in Teams
@@ -1717,12 +1719,6 @@ items:
           href: teams-exploratory.md
         - name: Upgrade users from Teams Exploratory
           href: upgrade-from-teams-exploratory.md
-        - name: Manage Microsoft Teams Free (classic)
-          href: manage-freemium.md
-        - name: Upgrade Microsoft Teams Free (classic) to subscription version
-          href: upgrade-freemium.md
-        - name: Retire Microsoft Teams Free (classic)
-          href: teams-add-on-licensing/remove-assign-free-licenses.md
         - name: Microsoft Teams Shared Devices licensing
           href: teams-add-on-licensing/teams-shared-device-license.md
         - name: Microsoft Teams Phone Resource Account license
