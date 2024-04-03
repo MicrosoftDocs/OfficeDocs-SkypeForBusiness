@@ -193,7 +193,7 @@ This setting option enables admins to delete data for a specific user upon reque
 #### Inventory management permission
 This new inventory permission allows other users to view and manage the inventory management. IT Admins can create roles and grant other users' permission to access the inventory management and perform devices association with rooms.
 ## Verified Devices
-While BYOD for Microsoft Teams has been designed to work with any display device or USB audio-video peripheral, the following devices have been verified as producing accurate data for use in tracking usage for BYOD rooms.
+BYOD for Microsoft Teams has been designed to work with any display device or USB audio-video peripheral. The following are examples of devices that have been verified as producing accurate data for use in tracking usage for BYOD rooms.
 | **OEM** | **Model Name** |
 |---|---|
 | Poly	| R30 |
