@@ -62,7 +62,7 @@ Note: If you're migrating QoS from Skype for Business Online or Skype for Busine
    
 5. [Validate your QoS implementation](#step-5-validate-your-qos-implementation) by analyzing Teams traffic on the network.
 
-6. [Manage source ports](#step-6-manage-source-ports-in-the-teams-admin-center)
+6. [Manage source ports](#step-6-manage-source-ports)
 
 As you prepare to implement QoS, keep the following guidelines in mind:
 
