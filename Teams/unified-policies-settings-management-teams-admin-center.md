@@ -61,7 +61,7 @@ To configure org-wide settings, you can follow these steps:
 
 1. Select the feature area that you want to configure, such as Meetings, Voice, Apps, etc.
 
-    ![A screenshot of Org-wide default settings home page](media/org-wide-default-meeting-settings-page.jpg)
+    ![A screenshot of Org-wide default meeting settings page](media/org-wide-default-meeting-settings-page.jpg)
 *Figure 5: Org-wide default Meeting settings page*
 
 1. Find the setting that you want to change, and use the toggle, dropdown, or input field to change its value.
