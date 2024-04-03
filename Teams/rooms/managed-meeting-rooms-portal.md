@@ -72,7 +72,7 @@ The top-level summary shows at a glance the issues affecting your rooms, what yo
 Incidents are expected to be in one of two states:
 
 - **Need Action**: Action required by you to resolve the incident.
-- **System Investigating**: Under automatic investigation by the monitoring platform. Next steps will be provided if it cannot be automatically resolved.
+- **System Investigating**: Under automatic investigation by the monitoring platform. Next steps will be provided if it can't be automatically resolved.
 
 ### Reviewing incidents
 
@@ -91,7 +91,7 @@ A warning might transition to “**Important**” if not attended to for a while
 
 Incidents that are classified as **“Important”** in severity will affect the health status of a device. If there is at least one incident of **Severity = “Important”** associated with a device, it's classified as ***unhealthy*** device.
 
-Incidents classified as **“Warning”** severity do not affect the health status reported on a device. However, if a device has warning level incidents associated with it, then it would be shown with the health status of the device.
+Incidents classified as **“Warning”** severity don't affect the health status reported on a device. However, if a device has warning level incidents associated with it, then it would be shown with the health status of the device.
 
 
 Following are some of the types of incidents that you might see and the explanations for each type. For each type, the action associated with the incident will be more specific depending on the issue.
@@ -142,11 +142,11 @@ The top panel on the Rooms view provides a quick snapshot of how many of your de
 
 **Healthy / Unhealthy rooms**:
 
-Devices/peripherals which do not have any incidents of severity “Important” are meeting current criteria for health are marked as healthy. However, it doesn't imply that there is a room outage for every unhealthy device in the portal. The description and action part of the incident contains more specific details about the issue and potential impact on user experience.
+Devices/peripherals which don't have any incidents of severity “Important” are meeting current criteria for health are marked as healthy. However, it doesn't imply that there is a room outage for every unhealthy device in the portal. The description and action part of the incident contains more specific details about the issue and potential impact on user experience.
 
 **Disconnected device:**
 
-The Microsoft monitoring agent deployed is disconnected from Pro Management cloud services. We aren't receiving telemetry about the room and do not have latest health status. This may happen due to network issues, firewall policy changes or if there are changes made to the device image.
+The Microsoft monitoring agent deployed is disconnected from Pro Management cloud services. We aren't receiving telemetry about the room and don't have latest health status. This may happen due to network issues, firewall policy changes or if there are changes made to the device image.
 
 ## Room Detail: Status and Changes
 
@@ -157,7 +157,7 @@ The device *Status* tab provides a consolidated view of status of a device, all 
 To view all signals contained within a signal category, enable the Show all signals toggle button. Expansion arrows will appear next to category headings which can be clicked on to expand the accordion view.
 
 **Suppress/Unsuppress Ticket**
-When a room is enrolled, you are indicating that you want to receive notifications for changes in room telemetry. There are occasions when a particular device or peripheral is in a known state where you do not want tickets or notifications generated. Using the Suppress ticket functionality, will silence any notification about that particular signal. When you are ready for the service to monitor and notify you about that signal, simply unsuppress the individual signal.
+When a room is enrolled, you are indicating that you want to receive notifications for changes in room telemetry. There are occasions when a particular device or peripheral is in a known state where you don't want tickets or notifications generated. Using the Suppress ticket functionality, will silence any notification about that particular signal. When you are ready for the service to monitor and notify you about that signal, simply unsuppress the individual signal.
 
 **Active Ticket Category Expansion**
 Under each ticket category, any active or latest resolved ticket will be displayed along with the severity and when the ticket was last updated. By clicking on the expansion arrow, all tickets will appear with an active link to the ticket information.
