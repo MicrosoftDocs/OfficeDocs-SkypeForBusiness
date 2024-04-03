@@ -43,21 +43,21 @@ We've improved the custom policy page by adding a three tab structure for a feat
 
 To use the new unified settings and policy experience, you need to opt in from the Teams admin center dashboard or from any of the existing settings or policy pages. You'll see a card or a banner that invites you to try the new experience, and you can Select it to switch to the new experience. You'll also see a guided tour and coach marks that help you to explore the new features and functionalities.
 
-![A screenshot of Opt-in from Teams admin center dashboard.](media/tac-1.png)
+![A screenshot of Opt-in from Teams admin center dashboard.](media/Opt-in from Teams admin center dashboard.jpg)
 
-![A screenshot of Opt-in from existing Messaging policy page.](media/tac-2.png)
+![A screenshot of Opt-in from existing Messaging policy page.](media/opt-in from-existing-messaging-policy-page.jpg)
 
 You can always opt out from the new experience and go back to the old one, if you prefer, by clicking on the banner at the top of the new experience.
 
-![A screenshot of Opt-out from new “Settings & policies” home page](media/tac-3.png)
+![A screenshot of Opt-out from new “Settings & policies” home page](media/opt-out-from-new-settings-policies-homepage.jpg)
 
 To configure org-wide settings, you can follow these steps:
 
-1. Select the **Settings & policies** tab in the left navigation, and then on the Org-wide settings tab.![A screenshot of Org-wide default settings home page](media/tac-4.png)
+1. Select the **Settings & policies** tab in the left navigation, and then on the Org-wide settings tab.![A screenshot of Org-wide default settings home page](media/org-wide-default-setting-homepage.jpg)
 
 1. Select the feature area that you want to configure, such as Meetings, Voice, Apps, etc.
 
-    ![A screenshot of Org-wide default Meeting settings page](media/tac-5.png)
+    ![A screenshot of Org-wide default Meeting settings page](media/org-wide-default-meeting-page.jpg)
 
 1. Find the setting that you want to change, and use the toggle, dropdown, or input field to change its value.
 
@@ -69,13 +69,13 @@ To create and manage custom policies, you can follow these steps:
 
 1. Select the **Settings & policies** tab in the left nav, and then the **Custom policies for users & groups** tab.
 
-    ![A screenshot of Custom policies for users & groups home page](media/tac-6.png)
+    ![A screenshot of Custom policies for users & groups home page](media/customize-users-groups-policy-homepage.jpg)
 
 1. Select the feature area that you want to create or manage a custom policy for, such as Meetings, Voice, Apps, etc.
 
 1. Select the **+Add** button to create a new custom policy, or on the name of an existing custom policy to edit it.
 
-    ![A screenshot of Custom Meeting policy page](media/tac-7.png)
+    ![A screenshot of Custom Meeting policy page](media/custom-meeting-policy-page.jpg)
 
 1. Select Save to create or update the custom policy, or on Cancel to discard it.
 
