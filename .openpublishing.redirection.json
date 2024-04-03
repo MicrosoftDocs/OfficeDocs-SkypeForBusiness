@@ -4807,6 +4807,11 @@
   "redirect_document_id": false
 },
 {
+  "source_path": "teams/upgrade-freemium.md",
+  "redirect_url": "/microsoftteams/user-access",
+  "redirect_document_id": false
+},
+{
   "source_path": "teams/privacy/teams-privacy.md",
   "redirect_url": "/microsoftteams/privacy/location-of-data-in-teams",
   "redirect_document_id": false
