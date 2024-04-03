@@ -28,7 +28,7 @@ appliesto:
 
 Quality of Service (QoS) in Microsoft Teams enables you to prioritize real-time network traffic that's sensitive to network delays over traffic that's less sensitive. For example, you'd prioritize voice and video streams over downloading a new app (where an extra second to download isn't that noticeable). 
 
-QoS uses Windows Group Policy Objects and port-based Access Control Lists (ACLs) to identify and mark all packets in real-time streams. This method ensures that voice, video, and screen share streams receive a dedicated portion of network bandwidth.
+QoS uses Windows Group Policy Objects (GPOs) and port-based Access Control Lists (ACLs) to identify and mark all packets in real-time streams. This method ensures that voice, video, and screen share streams receive a dedicated portion of network bandwidth.
 
 If you support a large group of users who are experiencing any of the problems described in this article, then you should implement QoS. A small business with few users might not need QoS, but should consider it if experiencing network delays.
 
@@ -138,13 +138,15 @@ On the plus side, controlling the DSCP marking through a GPO ensures that all do
 
 We recommend using a combination of DSCP markings at client endpoints and port-based tagging ACLs on routers if possible. Using a GPO to catch the majority of clients, and also using port-based DSCP tagging will ensure that mobile, Mac, and other clients get QoS treatment (at least partially).
 
-Once all devices in the network are using the same classifications, markings, and priorities, it's possible to reduce or eliminate delays, dropped packets, and jitter by changing the size of the port ranges assigned to the queues used for each traffic type. From the Teams perspective, the most important configuration step is the classification and marking of packets. However, for end-to-end QoS to be successful, you also need to carefully align the application's configuration with the underlying network configuration. Once QoS is fully implemented, ongoing management is a question of adjusting the port ranges assigned to each traffic type based on your organization's needs and actual usage.
+Once all devices in the network are using the same classifications, markings, and priorities, it's possible to reduce or eliminate delays, dropped packets, and jitter by changing the size of the port ranges assigned to the queues used for each traffic type.
+
+From a Teams perspective, the most important configuration step is the classification and marking of packets. However, for end-to-end QoS to be successful, you also need to carefully align the application's configuration with the underlying network configuration. Once QoS is fully implemented, ongoing management is a question of adjusting the port ranges assigned to each traffic type based on your organization's needs and actual usage.
 
 ## Step 3. Choose initial port ranges for each media type
 
-The DSCP value tells a correspondingly configured network what priority to give a packet or stream, whether the DSCP mark is assigned by clients or the network itself based on ACL settings. Each media workload gets its own unique DSCP value (other services might allow workloads to share a DSCP marking, Teams doesn't) and a defined and separate port range used for each media type. Other environments might have an existing QoS strategy in place, which will help you determine the priority of network workloads.
+The DSCP value tells a correspondingly configured network what priority to give a packet or stream, whether the DSCP mark is assigned by clients or the network itself based on ACL settings. Each media workload gets its own unique DSCP value, and a defined and separate port range used for each media type. (While other services might allow workloads to share a DSCP marking, Teams does not.) Other environments might have an existing QoS strategy in place, which will help you determine the priority of network workloads.
 
-The relative size of the port ranges for different real-time streaming workloads sets the proportion of the total available bandwidth dedicated to that workload. To return to our earlier postal analogy: a letter with an "Air Mail" stamp might get taken within an hour to the nearest airport, while a small package marked "Bulk Mail" mark can wait for a day before traveling over land on a series of trucks.
+The relative size of the port ranges for different real-time streaming workloads sets the proportion of the total available bandwidth dedicated to that workload. Using a postal service analogy: a letter with an "Air Mail" stamp might get taken within an hour to the nearest airport, while a small package marked "Bulk Mail" mark can wait for a day before traveling over land on a series of trucks.
 
 _Recommended initial port ranges_
 
@@ -165,11 +167,11 @@ Be aware of the following when you use these settings:
 
 - If you later need to adjust the port ranges to improve user experience, the port ranges can't overlap and should be adjacent to each other.
 
-## Step 4. Implment QoS settings
+## Step 4. Implement QoS settings
 
 Implement QoS setting for clients and network devices, and determine how you want to handle media traffic for meetings.
 
-- For information on setting client device port ranges and markings, see [Implment QoS in Teams clients](QoS-in-Teams-clients.md).
+- For information on setting client device port ranges and markings, see [Implement QoS in Teams clients](QoS-in-Teams-clients.md).
 
 - For information on implementing QoS for routers, see your manufacturer's documentation.
 
