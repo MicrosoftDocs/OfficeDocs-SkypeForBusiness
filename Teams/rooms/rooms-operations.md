@@ -258,7 +258,7 @@ The console is now back in its normal operation mode. The following procedure re
 7. Restart the Teams Rooms device.
 8. Sign in and restart again, once the Teams Room's interface has appeared.
 
-### Changing the Teams Room console language or date & time format
+### Changing the Teams Rooms console language or date & time format
 
 1. Switch to Admin mode.
 2. Select the **Start** menu.
