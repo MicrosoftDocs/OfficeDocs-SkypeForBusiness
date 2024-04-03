@@ -4808,6 +4808,8 @@
 {
   "source_path": "Teams/teams-updates.md",
   "redirect_url": "Teams/teams-overview",
+},
+{
   "source_path": "teams/privacy/teams-privacy.md",
   "redirect_url": "/microsoftteams/privacy/location-of-data-in-teams",
   "redirect_document_id": false
