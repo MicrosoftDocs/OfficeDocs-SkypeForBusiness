@@ -28,7 +28,7 @@ appliesto:
 
 Quality of Service (QoS) in Microsoft Teams enables you to prioritize real-time network traffic that's sensitive to network delays over traffic that's less sensitive. For example, you'd prioritize voice and video streams over downloading a new app (where an extra second to download isn't that noticeable). 
 
-QoS uses Windows Group Policy Objects and port-based Access Control Lists (ACLs) to identify and mark all packets in real-time streams. This method ensures that voice, video, and screen share streams are allocated a dedicated portion of network bandwidth.
+QoS uses Windows Group Policy Objects and port-based Access Control Lists (ACLs) to identify and mark all packets in real-time streams. This method ensures that voice, video, and screen share streams receive a dedicated portion of network bandwidth.
 
 If you support a large group of users who are experiencing any of the problems described in this article, then you should implement QoS. A small business with few users might not need QoS, but should consider it if experiencing network delays.
 
@@ -76,19 +76,7 @@ As you prepare to implement QoS, keep the following guidelines in mind:
 
 For information about configuring firewall ports, see [Office 365 URLs and IP ranges](office-365-urls-ip-address-ranges.md).
 
-## Step 1. Make sure your network is ready
-
-If you're considering a QoS implementation, you should've already determined your [bandwidth and other network requirements](prepare-network.md).
-  
-Traffic congestion across a network greatly impacts media quality. A lack of bandwidth leads to performance degradation and a poor user experience. As Teams adoption and usage grows, use [reporting](/teams-analytics-and-reports/teams-reporting-reference.md), [per-user call analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md), and [Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md) to identify problems and then make adjustments using QoS and selective bandwidth additions.
-
-### VPN considerations
-
-QoS works as expected only when implemented on all links between callers. If you use QoS on an internal network, and a user signs in from a remote location, you can prioritize only within your internal, managed network. Although remote locations can receive a managed connection by implementing a virtual private network (VPN), a VPN inherently adds packet overhead and creates delays in real-time traffic. We recommend that you avoid running real-time communications traffic over a VPN.
-
-In a global organization with managed links that span continents, we recommend QoS because bandwidth for those links is limited in comparison to the LAN.
-
-### Introduction to QoS queues
+## Introduction to QoS queues
 
 To provide QoS, network devices must have a way to classify traffic and must be able to distinguish voice or video from other network traffic.
 
@@ -102,27 +90,53 @@ _Figure 2. Examples of QoS queues_
 
 A simple analogy is that QoS creates virtual "carpool lanes" in your data network so some types of data never or rarely encounter a delay. Once you create those lanes, you can adjust their relative size and much more effectively manage the connection bandwidth you have, while still delivering business-grade experiences for your organization's users.
 
+
+## Step 1. Make sure your network is ready
+
+If you're considering a QoS implementation, you should've already determined your [bandwidth and other network requirements](prepare-network.md).
+  
+Traffic congestion across a network greatly impacts media quality. A lack of bandwidth leads to performance degradation and a poor user experience. As Teams adoption and usage grows, use [reporting](/teams-analytics-and-reports/teams-reporting-reference.md), [per-user call analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md), and [Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md) to identify problems and then make adjustments using QoS and selective bandwidth additions.
+
+### VPN considerations
+
+QoS works as expected only when implemented on all links between callers. If you use QoS on an internal network, and a user signs in from a remote location, you can prioritize only within your internal, managed network. Although remote locations can receive a managed connection by implementing a virtual private network (VPN), a VPN inherently adds packet overhead and creates delays in real-time traffic. We recommend that you avoid running real-time communications traffic over a VPN.
+
+In a global organization with managed links that span continents, we recommend QoS because bandwidth for those links is limited in comparison to the LAN.
+
+
 ## Step 2. Select a QoS implementation method
 
-You can implement QoS through port-based tagging by using Access Control Lists (ACLs) on your network's routers. Port-based tagging is the most reliable method because it works in mixed Windows, Mac, and Linux environments and is the easiest to implement. Mobile clients don't provide a mechanism to mark traffic by using DSCP (Differentiated Services Code Point) values, so they'll require this method.  
+You can implement QoS by using the following methods:
 
-Using port-based tagging, if a packet arrives using a certain port or range of ports, your network's router identifies the packet as a certain media type. The router then puts the packet in the queue for that type, adding a predetermined [DSCP](https://tools.ietf.org/html/rfc2474) mark to the IP Packet header so other devices can recognize its traffic type and give it priority in their queue.
+- Port-based DSCP (Differentiated Services Code Point) tagging at router
+- Client inserts DSCP markers in IP packet headers
 
-Although port-based tagging works across platforms, it only marks traffic at the WAN edge (not all the way to the client machine) and creates management overhead. Refer to the documentation provided by the router manufacturer for instructions on implementing this method.
+Both of these methods are based on [DSCP](https://tools.ietf.org/html/rfc2474) markers. DSCP markers can be likened to postage stamps that indicate to postal workers how urgent the delivery is and how best to sort it for speedy delivery. Once you've configured your network to give priority to real-time media streams, lost packets and late packets should diminish greatly.
 
-### Insert DSCP markers
+### Port-based tagging at router
 
-You can also implement QoS by using a Group Policy Object (GPO) to direct client devices to insert a DSCP marker in IP packet headers identifying the packet as a particular type of traffic (for example, voice). You can configure routers and other network devices to recognize the DSCP marker, and put the traffic in a separate, higher-priority queue.
+Using port-based tagging, your network's router examines incoming packets to determine which ports are used. If the packet arrives using a certain port or range of ports, the router identifies the packet as a certain media type. The router then puts the packet in the queue for that type, adding a predetermined DSCP mark to the IP Packet header so other devices can recognize its traffic type and give it priority in their queue.
+
+You implement port-based tagging by using Access Control Lists (ACLs) on your network's routers.   For instructions on implementing port-based tagging, refer to your router manufacturer's documentation.
+
+Port-based tagging is the most reliable method because it works in mixed Windows, Mac, and Linux environments. It is also the easiest to implement. Although port-based tagging works across platforms, it only marks traffic at the WAN edge (not all the way to the client machine) and creates management overhead. 
+
+> [!NOTE]
+> You must use port-based tagging with mobile clients because they don't provide a mechanism to mark traffic by using DSCP values.
+
+### Client inserts DSCP markers 
+
+You can also implement QoS by requiring client devices to insert a DSCP marker in IP packet headers. You implement this method by using a [Group Policy Object (GPO)](QoS-in-Teams-clients.md).
+
+The DSCP markers identify the packet as a particular type of traffic (for example, voice). You can configure routers and other network devices to recognize the DSCP marker, and put the traffic in a separate, higher-priority queue.
 
 Although this scenario is valid, it works only for domain-joined Windows clients. Any device that isn't a domain-joined Windows client won't be enabled for DSCP tagging. Other clients, such as those running macOS, have hard-coded tags and will always tag traffic.
 
-On the plus side, controlling the DSCP marking via GPO ensures that all domain-joined computers receive the same settings and that only an administrator can manage them. Clients that can use GPO will be tagged on the originating device, and then configured network devices can recognize the real-time stream by the DSCP code and give it an appropriate priority.
+On the plus side, controlling the DSCP marking through a GPO ensures that all domain-joined computers receive the same settings and that only an administrator can manage them. Clients that can use GPO will be tagged on the originating device, and then configured network devices can recognize the real-time stream by the DSCP code and give it an appropriate priority.
 
 ### Best practice
 
-We recommend a combination of DSCP markings at the endpoint and port-based ACLs on routers, if possible. Using a GPO to catch the majority of clients, and also using port-based DSCP tagging will ensure that mobile, Mac, and other clients will still get QoS treatment (at least partially).
-
-DSCP markings can be likened to postage stamps that indicate to postal workers how urgent the delivery is and how best to sort it for speedy delivery. Once you've configured your network to give priority to real-time media streams, lost packets and late packets should diminish greatly.
+We recommend using a combination of DSCP markings at client endpoints and port-based tagging ACLs on routers if possible. Using a GPO to catch the majority of clients, and also using port-based DSCP tagging will ensure that mobile, Mac, and other clients get QoS treatment (at least partially).
 
 Once all devices in the network are using the same classifications, markings, and priorities, it's possible to reduce or eliminate delays, dropped packets, and jitter by changing the size of the port ranges assigned to the queues used for each traffic type. From the Teams perspective, the most important configuration step is the classification and marking of packets. However, for end-to-end QoS to be successful, you also need to carefully align the application's configuration with the underlying network configuration. Once QoS is fully implemented, ongoing management is a question of adjusting the port ranges assigned to each traffic type based on your organization's needs and actual usage.
 
@@ -212,18 +226,20 @@ For QoS to be effective, the DSCP value set by the GPO needs to be present at bo
 
 Preferably, you capture traffic at the network egress point. You can use port mirroring on a switch or router to help with this.
 
-## Step 6. Manage source ports in the Teams admin center
+## Step 6. Manage source ports 
 
-For Teams, you should monitor and adjust the QoS source ports used by the different workloads  as necessary. After you've implemented these settings, more or fewer ports might be needed for a given media type. 
+For Teams, after you've chosen initial port ranges for each media type ([see Step 3](#step-3-choose-initial-port-ranges-for-each-media-type)), you need to monitor and adjust the QoS source ports used by the different workloads as necessary. More or fewer ports might be needed for a given media type. 
 
-For information about how to monitor port requirements, see [Choose initial port ranges for each media type](#step-3-choose-initial-port-ranges-for-each-media-type), [Per-user call analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md) and [Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md).
+For information about how to monitor and manage ports, see the following:
+
+- [Per-user call analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+- [Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md).
 
 Note that you can adjust the port ranges, but you can't configure the DSCP markings. 
 
-
-
-
 ## If you're migrating QoS to Teams
+
+This section applies only if you're migrating QoS from Skype for Business.
 
 - **Migrate from Skype for Business Online** - If you've already configured QoS based on source port ranges and DSCP markings for Skype for Business Online, the same configuration will apply to Teams and no further client or network changes to the mapping will be required, though you may have to [set the ranges used in Teams](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings) to match what was configured for Skype for Business Online.
 
