@@ -89,7 +89,7 @@ A warning might transition to “**Important**” if not attended to for a while
 
 ## Health status of device and incidents
 
-Incidents that are classified as **“Important”** in severity will affect the health status of a device. If there is at least one incident of **Severity = “Important”** associated with a device, it's classified as ***unhealthy*** device.
+Incidents that are classified as **“Important”** in severity will affect the health status of a device. If there's at least one incident of **Severity = “Important”** associated with a device, it's classified as ***unhealthy*** device.
 
 Incidents classified as **“Warning”** severity don't affect the health status reported on a device. However, if a device has warning level incidents associated with it, then it would be shown with the health status of the device.
 
@@ -142,7 +142,7 @@ The top panel on the Rooms view provides a quick snapshot of how many of your de
 
 **Healthy / Unhealthy rooms**:
 
-Devices/peripherals which don't have any incidents of severity “Important” are meeting current criteria for health are marked as healthy. However, it doesn't imply that there is a room outage for every unhealthy device in the portal. The description and action part of the incident contains more specific details about the issue and potential impact on user experience.
+Devices/peripherals which don't have any incidents of severity “Important” are meeting current criteria for health are marked as healthy. However, it doesn't imply that there's a room outage for every unhealthy device in the portal. The description and action part of the incident contains more specific details about the issue and potential impact on user experience.
 
 **Disconnected device:**
 
@@ -151,13 +151,13 @@ The Microsoft monitoring agent deployed is disconnected from Pro Management clou
 ## Room Detail: Status and Changes
 
 **Room Details: Status**
-The device *Status* tab provides a consolidated view of status of a device, all the issues active for the device, the actions that are needed to resolve them, or that are ongoing. The Status tab also contains the breakdown of different components of health for the device under *Incidents tab*. If a device is disconnected, Status details will not be available.
+The device *Status* tab provides a consolidated view of status of a device, all the issues active for the device, the actions that are needed to resolve them, or that are ongoing. The Status tab also contains the breakdown of different components of health for the device under *Incidents tab*. If a device is disconnected, Status details won't be available.
 
 **Show all signals:**
 To view all signals contained within a signal category, enable the Show all signals toggle button. Expansion arrows will appear next to category headings which can be clicked on to expand the accordion view.
 
 **Suppress/Unsuppress Ticket**
-When a room is enrolled, you are indicating that you want to receive notifications for changes in room telemetry. There are occasions when a particular device or peripheral is in a known state where you don't want tickets or notifications generated. Using the Suppress ticket functionality, will silence any notification about that particular signal. When you are ready for the service to monitor and notify you about that signal, simply unsuppress the individual signal.
+When a room is enrolled, you're indicating that you want to receive notifications for changes in room telemetry. There are occasions when a particular device or peripheral is in a known state where you don't want tickets or notifications generated. Using the Suppress ticket functionality, will silence any notification about that particular signal. When you're ready for the service to monitor and notify you about that signal, simply unsuppress the individual signal.
 
 **Active Ticket Category Expansion**
 Under each ticket category, any active or latest resolved ticket will be displayed along with the severity and when the ticket was last updated. By clicking on the expansion arrow, all tickets will appear with an active link to the ticket information.
@@ -176,8 +176,8 @@ Active Ticket: Attachments
 There are occasions where your team will need additional information to augment their investigation of the issue. The attachment tab provides you with the ability to upload pictures, videos or logs that are requested.
 
 Active Ticket: History
-Each room signal has only one ticket number that is assigned to it on purpose. A room device or peripheral persists in a room and may have issues over time. By maintaining this information under a specific unique ticket id, all historic information is maintained and can be analyzed for patterns of behavior. The History UI provides a view of all tickets actions created and resolved for this signal.
+Each room signal has only one ticket number that is assigned to it on purpose. A room device or peripheral persists in a room and may have issues over time. By maintaining this information under a specific unique ticket ID, all historic information is maintained and can be analyzed for patterns of behavior. The History UI provides a view of all tickets actions created and resolved for this signal.
 
 FAQ
 How does dynamic tickets affect me and the operations of my rooms?  
-Customers will see the creation of smarter tickets and remediations that expand beyond just a binary signal ticket. For example, there can be as many as three displays in a Meeting Room (Display 1, Display 2 & the MTR touch panel display). However, there is only 1 (one) display signal that is either Healthy or Unhealthy. With the new dynamic tickets, we can now generate tickets unique to each display signal.
+Customers will see the creation of smarter tickets and remediations that expand beyond just a binary signal ticket. For example, there can be as many as three displays in a Meeting Room (Display 1, Display 2 & the MTR touch panel display). However, there's only 1 (one) display signal that is either Healthy or Unhealthy. With the new dynamic tickets, we can now generate tickets unique to each display signal.
