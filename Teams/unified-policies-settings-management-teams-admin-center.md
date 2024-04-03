@@ -56,7 +56,7 @@ You can always opt out from the new experience and go back to the old one, if yo
 
 To configure org-wide settings, you can follow these steps:
 
-1. Select the **Settings & policies** tab in the left navigation, and then on the Org-wide settings tab.![A screenshot of Org-wide default settings home page](media/org-wide-default-setting-homepage.jpg)
+1. Select the **Settings & policies** tab in the left navigation, and then on the **Org-wide settings tab**.![A screenshot of Org-wide default settings home page](media/org-wide-default-setting-homepage.jpg)
 1. *Figure 4: Org-wide default settings home page*
 
 1. Select the feature area that you want to configure, such as Meetings, Voice, Apps, etc.
@@ -66,9 +66,9 @@ To configure org-wide settings, you can follow these steps:
 
 1. Find the setting that you want to change, and use the toggle, dropdown, or input field to change its value.
 
-1. Select Save to apply the changes, or on Cancel to discard them.
+1. Select **Save** to apply the changes, or **Cancel** to discard them.
 
-1. Review the changes in the dialog box that appears, and Select Apply to confirm them, or on Cancel to go back.
+1. Review the changes in the dialog box that appears, and Select **Apply** to confirm them, or **Cancel** to go back.
 
 To create and manage custom policies, you can follow these steps:
 
@@ -84,6 +84,7 @@ To create and manage custom policies, you can follow these steps:
     ![A screenshot of Custom Meeting policy page](media/custom-meeting-policy-page.jpg)
 *Figure 7: Custom Meeting policy page*
 
-1. Select Save to create or update the custom policy, or on Cancel to discard it.
+1. Select **Save** to create or update the custom policy, or **Cancel** to discard it.
 
 1. Select the **Assigned groups** or **Assigned users** tab to view or assign the custom policy to groups or individual users respectively.
+
