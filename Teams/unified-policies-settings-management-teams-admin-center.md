@@ -23,7 +23,7 @@ f1keywords:
 
 # Introducing the unified policies and settings management in Teams admin center
 
-As an IT admin, you need to have full control over how your organization uses Microsoft Teams. You need to be able to find, configure, and manage settings and policies for Teams features in a simple and intuitive way. You also need to be able to customize these settings and policies for specific users and groups, without having to deal with complex and disconnected workflows.
+If you are a Microsoft Teams admin or a Global admin, chances are, you have been going to various places in Teams admin center, to set up live events, audio conferencings, meetings, and to manage policies. As an IT admin, you need to have full control over how your organization uses Microsoft Teams. You need to be able to find, configure, and manage settings and policies for Teams features in a simple and intuitive way. You also need to be able to customize these settings and policies for specific users and groups, without having to deal with complex and disconnected workflows.
 
 That's why we're introducing a new unified settings and policy experience in Teams admin center in Spring 2024. This experience enables you to manage settings and policies for Teams from a single place, with a clear and consistent navigation, a rich and informative side panel, and a streamlined and powerful assignment capability. You'll be able to apply settings and policies to your entire organization, or to specific users and groups, with ease and confidence.
 
