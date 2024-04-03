@@ -180,7 +180,7 @@ If IT administrators set restrictions for MSIX or deploy GPOs, it could prevent 
   :::image type="content" source="media/new-teams-troubleshooting-error-isntallation-org-policies.png" alt-text="error with org policies":::
 
 > [!IMPORTANT]
-> The 'side by side' method is only supported in persistent environments.
+> The 'side by side' method is only supported in persistent environments. Classic Teams 1.7.00.7956 or higher will suppress the app switcher toggle irrespective of the Teams Admin Center policy value when classic Teams is running in a non-persistent environment, where non-persistent is detected based on the installation folder of classic Teams MSI, C:\Program Files (x86).
 
 ## Classic Teams versus new Teams installers in VDI environments
 
@@ -223,7 +223,6 @@ Known limitations:
 
 - Classic Teams on Windows Server 2019 isn't displaying the app switcher toggle if Classic Teams version is lower than 1.6.00.33567
 - New Teams on Windows Server 2019 currently isn't compatible with FSLogix and fails to launch. See [FSLogix known issues](/fslogix/troubleshooting-known-issues) for more details.
-- New Teams MSIX installer isn't registering UC Typelib, causing Outlook presence bubbles to show as grey/unknown even if the virtual machine does have the Classic Teams client installed as well.
 
 ### Outlook presence integration with New Teams in Windows Server 2019
 
@@ -273,6 +272,18 @@ All the user settings and configurations are now stored in:
 - C:\Users\<username>\AppData\Local\Publishers\8wekyb3d8bbwe\TeamsSharedConfig\tma_settings.json
 
 Make sure these folders and files are persisted for proper Teams functioning.
+
+> [!NOTE]
+> It's critical that **all** the necessary directories and top folder structure under AppData\Local\Packages\MSTeams_8wekyb3d8bbwe are correctly set up as directories, not as files or reparse points:
+>
+> AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\AC
+> AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\AppData
+> AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache
+> AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalState
+> AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\RoamingState
+> AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\Settings
+> AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\SystemAppData
+> AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\TempState
 
 **TeamsSharedConfig** stores user configurations for the Teams app switcher toggle (and what should be the default app, the Classic or New Teams), and the Teams Meeting Add In for Outlook.
 
@@ -452,8 +463,9 @@ Learn more: [Manage accounts and organizations in Microsoft Teams](https://suppo
 
 ## Features currently not available in VDI with the new Teams
 
-- Screen sharing from chat for Azure Virtual Desktops/Windows 365.
-- Screen sharing from chat for Citrix.
+- Screen sharing from chat for Azure Virtual Desktops/Windows 365 (This issue is now fixed on RD Client 1.2.5105 and Redirector Service
+[1.50.2402.29001](/azure/virtual-desktop/whats-new-webrtc#updates-for-version-150240229001)).
+- Screen sharing from chat for Citrix when using Workspace app 2311 only.
 - The app switcher toggle isn't shown in new Teams if the virtual machine has the machine-wide classic Teams installed (MSI with ALLUSERS=1). **Note:** This issue is fixed on new Teams version 23320.3021.2567.4799 or higher.
 
 >[!Note]
