@@ -152,13 +152,19 @@ Planner tasks can be managed using Microsoft Graph and the Power Automate connec
 
 ### Premium plans and the tasks in them
 
-Premium plans and tasks are stored in Dataverse and managed via the Project service. When a task is assigned to a user, it's also stored in the same Azure location as basic plans. For tasks in basic and premium plans, attachments are stored in the SharePoint location for the group.
+Premium plans and tasks are stored in Dataverse and managed via the Project service. When a task is assigned to a user, it's also stored in the same Azure location as basic plans. Attachments are stored in the SharePoint location for the group.
 
 See [Project for the web get started guide for administrators](/project-for-the-web/project-for-the-web-get-started-guide-for-admins) to learn more about the Project service.
 
 See the [Power Platform admin documentation](/power-platform/admin/) to learn more about managing the Power Platform.
 
 Support for programmability is available via our scheduling API. To learn more, see [Use Project schedule APIs to perform operations with Scheduling entities](/dynamics365/project-operations/project-management/schedule-api-preview).
+
+## Licensing
+
+Users with a Microsoft 365 license are entitled to the Planner app. Users with a Planner premium license such as Planner Plan 1, Project Plan 3, or Project Plan 5, can use the premium capabilities in Planner. Users with a Microsoft 365 license can continue to collaborate on premium plans but won't be able to use the premium features without a premium license.
+
+See the [Project for the web service description](/office365/servicedescriptions/project-online-service-description/project-web-service-description) to learn more about the capabilities available across subscriptions.
 
 ## Give feedback or report an issue
   
