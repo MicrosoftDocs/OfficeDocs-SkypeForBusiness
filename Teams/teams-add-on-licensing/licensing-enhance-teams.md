@@ -70,6 +70,7 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Add organization branding to meeting lobbies |  | ✔️ |
 | Customize meeting backgrounds for your organization |  | ✔️ |
 | Customize Together mode scenes for your organization |  | ✔️ |
+| Add branding to meeting invites and meeting join launch pages |  | ✔️ |
 | Read live translated captions during meetings |  | ✔️ |
 | Manage what attendees see |  | ✔️ |
 | Use RTMP-In for meetings |  | ✔️ |
@@ -118,7 +119,8 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Broadcast town halls to 20k attendees |  | ✔️ |
 | Host up to 50 town halls simultaneously |  | ✔️ |
 | Town hall Q&A capacity of 20k attendees |  | ✔️ |
-| Microsoft eCDN for town halls\* |  | ✔️ |
+| Use Microsoft eCDN for town halls\* |  | ✔️ |
+| Choose an eCDN provider for town halls\* |  | ✔️ |
 | View Microsoft Town hall insights |  | ✔️ |
 | Town hall organizers can view engagement reports |  | ✔️ |
 | Edit town hall emails |  | ✔️ |
