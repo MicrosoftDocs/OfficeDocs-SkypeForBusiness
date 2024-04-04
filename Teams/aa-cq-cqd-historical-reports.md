@@ -96,7 +96,7 @@ If you want to control which Auto attendants, Call queues and Agents the user ca
 For more information, see [Plan for Auto attendant and Call queue authorized users](./aa-cq-authorized-users-plan.md).
 
 > [!NOTE]
-> If a user is assigned both a CQD role and a Voice Applications Policy, the CQD role will take precendence and the user will see all the Auto attendants, Call queues and Agents in the tenant.
+> If a user is assigned a CQD role and a Voice Applications Policy, the CQD role will take precendence and the user will see all the Auto attendants, Call queues and Agents in the tenant.
 
 ## V3.x.x desktop installation
 
