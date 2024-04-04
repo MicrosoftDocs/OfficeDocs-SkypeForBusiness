@@ -7,10 +7,13 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: meajam
 audience: ITPro
+ms.collection: privacy-teams
 hideEdit: true
 description: Learn about what content is used to provide intelligent recap and how intelligent recap uses AI
 ms.localizationpriority: medium
 ms.date: 11/08/2023
+appliesto: 
+  - Microsoft Teams
 ---
 
 # Data, privacy, and security for intelligent recap in Teams Premium
@@ -23,7 +26,7 @@ For an overview of intelligent recap, see [Meeting recap in Microsoft Teams](htt
 
 ## What content is used to provide intelligent recap and where is it stored?
 
-To use intelligent recap users must enable [meeting transcription](https://support.microsoft.com/office/dc1a8f23-2e20-4684-885e-2152e06a4a8b) and [recording](https://support.microsoft.com/office/34dfbe7f-b07d-4a27-b4c6-de62f1348c24), which admins can manage with [Recording & transcription meeting policies](../settings-policies-reference.md#related-topics-for-recording--transcription-policies) in the Teams admin center. For meetings that have both recording and transcript enabled, a copy of the transcript is stored in the meeting organizer’s Exchange Online account as well as a copy stored in OneDrive along with the recording. For meetings that only have transcript enabled, a copy of the transcript is stored in the organizer’s Exchange online account. For more information, see the following articles:
+To use intelligent recap users must enable [meeting transcription](https://support.microsoft.com/office/dc1a8f23-2e20-4684-885e-2152e06a4a8b) and [recording](https://support.microsoft.com/office/34dfbe7f-b07d-4a27-b4c6-de62f1348c24), which admins can manage with [Recording & transcription meeting policies](../settings-policies-reference.md#related-articles-for-recording--transcription-policies) in the Teams admin center. For meetings that have both recording and transcript enabled, a copy of the transcript is stored in the meeting organizer’s Exchange Online account as well as a copy stored in OneDrive along with the recording. For meetings that only have transcript enabled, a copy of the transcript is stored in the organizer’s Exchange online account. For more information, see the following articles:
 
 - [Configure transcription and captions for Teams meetings](../meeting-transcription-captions.md)
 - [Delete the transcript](https://support.microsoft.com/office/dc1a8f23-2e20-4684-885e-2152e06a4a8b#bkmk_delete)
@@ -47,7 +50,7 @@ Customer data isn‘t logged or used for any AI model training or testing.
 
 Intelligent recap automatically inherits your organization’s security, compliance, and privacy policies for Microsoft Teams.
 
-Intelligent recap abides by Microsoft’s commitments to data security and privacy in the enterprise. Data is managed in accordance with our current commitments, while the existing compliance boundaries and privacy protections make intelligent recap the AI solution you can trust. For more information, see [Privacy and Microsoft Teams](../teams-privacy.md) and [regional and country compliance information on the Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/regional-country-compliance).
+Intelligent recap abides by Microsoft’s commitments to data security and privacy in the enterprise. Data is managed in accordance with our current commitments, while the existing compliance boundaries and privacy protections make intelligent recap the AI solution you can trust. For more information, see [regional and country compliance information on the Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/regional-country-compliance).
 
 Intelligent recap also abides by Microsoft’s commitments to data residency in the enterprise. Data in Teams resides in the geographic region associated with your Microsoft 365 (or Office 365) organization. Intelligent recap is also [multi-geo](/microsoft-365/enterprise/microsoft-365-multi-geo) capable, for tenants that span multiple geographic locations. To review Microsoft’s data residency policy and documentation, see [Data Residency Overview and Definitions](/microsoft-365/enterprise/m365-dr-overview).
 

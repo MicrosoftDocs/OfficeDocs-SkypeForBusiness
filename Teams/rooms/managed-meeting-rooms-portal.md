@@ -3,19 +3,18 @@ title: Microsoft Teams Rooms Pro Management Portal
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: tonysmit
+ms.reviewer: kimmatlock
 ms.date: 10/27/2021
 ms.topic: article
-ms.tgt.pltfrm: cloud
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-audience: Admin
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
-  - Tier3
-appliesto: 
-  - Microsoft Teams
+  - Tier1
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Provide a view of the health of your meeting rooms.
@@ -35,11 +34,11 @@ The scope of the monitoring is
 - View of incidents
   - Top issues affecting your rooms
   - Actions required to restore rooms to healthy status
-- View of Microsoft Teams Room devices
+- View of Microsoft Teams Rooms devices
   - Snapshot of status at Microsoft Teams Rooms (MTR) device level
   - Basic history and details for every device
 
-**View of Microsoft Teams Room devices**
+**View of Microsoft Teams Rooms devices**
 
 - Snapshot of status at Microsoft Teams Rooms (MTR) device level
 - Basic history and details for every device
@@ -53,9 +52,9 @@ Here are frequently used terms in the portal.
 
 |Term |Meaning |
 | :- | :- |
-|**Monitoring Software** |Monitoring agent that is deployed in each of the Microsoft Teams Room devices. |
-|**App** |Microsoft Teams Room system app (regardless of whether it uses Skype for Business or Microsoft Teams as the collaboration service. |
-|**Room/Device** |The certified Microsoft Teams Room system device. |
+|**Monitoring Software** |Monitoring agent that is deployed in each of the Microsoft Teams Rooms devices. |
+|**App** |Microsoft Teams Rooms system app (regardless of whether it uses Skype for Business or Microsoft Teams as the collaboration service. |
+|**Room/Device** |The certified Microsoft Teams Rooms system device. |
 |**Unmonitored** | Microsoft monitoring software deployed as part of management services isn't able to connect to the cloud services. We aren't receiving telemetry about the device. |
 |<p>**Healthy /** </p><p>**Unhealthy** </p>|Abnormalities in device / peripheral. |
 |**Suppressed** |If a device is known to be in maintenance, and its alerts should be ignored, the device can be suppressed deliberately. |
@@ -73,7 +72,7 @@ The top-level summary shows at a glance the issues affecting your rooms, what yo
 Incidents are expected to be in one of two states:
 
 - **Need Action**: Action required by you to resolve the incident.
-- **System Investigating**: Under automatic investigation by the monitoring platform. Next steps will be provided if it cannot be automatically resolved.
+- **System Investigating**: Under automatic investigation by the monitoring platform. Next steps will be provided if it can't be automatically resolved.
 
 ### Reviewing incidents
 
@@ -90,9 +89,9 @@ A warning might transition to “**Important**” if not attended to for a while
 
 ## Health status of device and incidents
 
-Incidents that are classified as **“Important”** in severity will affect the health status of a device. If there is at least one incident of **Severity = “Important”** associated with a device, it's classified as ***unhealthy*** device.
+Incidents that are classified as **“Important”** in severity will affect the health status of a device. If there's at least one incident of **Severity = “Important”** associated with a device, it's classified as ***unhealthy*** device.
 
-Incidents classified as **“Warning”** severity do not affect the health status reported on a device. However, if a device has warning level incidents associated with it, then it would be shown with the health status of the device.
+Incidents classified as **“Warning”** severity don't affect the health status reported on a device. However, if a device has warning level incidents associated with it, then it would be shown with the health status of the device.
 
 
 Following are some of the types of incidents that you might see and the explanations for each type. For each type, the action associated with the incident will be more specific depending on the issue.
@@ -114,7 +113,7 @@ Following are some of the types of incidents that you might see and the explanat
 
 |Type |Explanation |
 | :- | :- |
-|**App version** |The version of the Microsoft Teams Room App running on the device isn't current. Stale versions are known causes to problems experienced by users. |
+|**App version** |The version of the Microsoft Teams Rooms App running on the device isn't current. Stale versions are known causes of problems experienced by users. |
 |**OS version** |The version of Windows operating system running in the meeting room is no longer recommended. |
 |**Network** |This will be removed as a type of warning in the near term due to additional work required after evaluation. |
 
@@ -143,22 +142,22 @@ The top panel on the Rooms view provides a quick snapshot of how many of your de
 
 **Healthy / Unhealthy rooms**:
 
-Devices/peripherals which do not have any incidents of severity “Important” are meeting current criteria for health are marked as healthy. However, it doesn't imply that there is a room outage for every unhealthy device in the portal. The description and action part of the incident contains more specific details about the issue and potential impact on user experience.
+Devices/peripherals which don't have any incidents of severity “Important” are meeting current criteria for health are marked as healthy. However, it doesn't imply that there's a room outage for every unhealthy device in the portal. The description and action part of the incident contains more specific details about the issue and potential impact on user experience.
 
 **Disconnected device:**
 
-The Microsoft monitoring agent deployed is disconnected from Pro Management cloud services. We aren't receiving telemetry about the room and do not have latest health status. This may happen due to network issues, firewall policy changes or if there are changes made to the device image.
+The Microsoft monitoring agent deployed is disconnected from Pro Management cloud services. We aren't receiving telemetry about the room and don't have latest health status. This may happen due to network issues, firewall policy changes or if there are changes made to the device image.
 
 ## Room Detail: Status and Changes
 
 **Room Details: Status**
-The device *Status* tab provides a consolidated view of status of a device, all the issues active for the device, the actions that are needed to resolve them, or that are ongoing. The Status tab also contains the breakdown of different components of health for the device under *Incidents tab*. If a device is disconnected, Status details will not be available.
+The device *Status* tab provides a consolidated view of status of a device, all the issues active for the device, the actions that are needed to resolve them, or that are ongoing. The Status tab also contains the breakdown of different components of health for the device under *Incidents tab*. If a device is disconnected, Status details won't be available.
 
 **Show all signals:**
 To view all signals contained within a signal category, enable the Show all signals toggle button. Expansion arrows will appear next to category headings which can be clicked on to expand the accordion view.
 
 **Suppress/Unsuppress Ticket**
-When a room is enrolled, you are indicating that you want to receive notifications for changes in room telemetry. There are occasions when a particular device or peripheral is in a known state where you do not want tickets or notifications generated. Using the Suppress ticket functionality, will silence any notification about that particular signal. When you are ready for the service to monitor and notify you about that signal, simply unsuppress the individual signal.
+When a room is enrolled, you're indicating that you want to receive notifications for changes in room telemetry. There are occasions when a particular device or peripheral is in a known state where you don't want tickets or notifications generated. Using the Suppress ticket functionality, will silence any notification about that particular signal. When you're ready for the service to monitor and notify you about that signal, unsuppress the individual signal.
 
 **Active Ticket Category Expansion**
 Under each ticket category, any active or latest resolved ticket will be displayed along with the severity and when the ticket was last updated. By clicking on the expansion arrow, all tickets will appear with an active link to the ticket information.
@@ -174,11 +173,11 @@ Active Ticket: Messages
 The messages UI is the primary communication tool to interact with your own team and monitor messages from the Pro Management bot.
 
 Active Ticket: Attachments
-There are occasions where your team will need additional information to augment their investigation of the issue. The attachment tab provides you with the ability to upload pictures, videos or logs that are requested.
+There are occasions where your team will need additional information to augment their investigation of the issue. The attachment tab provides you with the ability to upload pictures, videos, or logs that are requested.
 
 Active Ticket: History
-Each room signal has only one ticket number that is assigned to it on purpose. A room device or peripheral persists in a room and may have issues over time. By maintaining this information under a specific unique ticket id, all historic information is maintained and can be analyzed for patterns of behavior. The History UI provides a view of all tickets actions created and resolved for this signal.
+Each room signal has only one ticket number that is assigned to it on purpose. A room device or peripheral persists in a room and may have issues over time. By maintaining this information under a specific unique ticket ID, all historic information is maintained and can be analyzed for patterns of behavior. The History UI provides a view of all tickets actions created and resolved for this signal.
 
 FAQ
 How does dynamic tickets affect me and the operations of my rooms?  
-Customers will see the creation of smarter tickets and remediations that expand beyond just a binary signal ticket. For example, there can be as many as three displays in a Meeting Room (Display 1, Display 2 & the MTR touch panel display). However, there is only 1 (one) display signal that is either Healthy or Unhealthy. With the new dynamic tickets, we can now generate tickets unique to each display signal.
+Customers will see the creation of smarter tickets and remediations that expand beyond just a binary signal ticket. For example, there can be as many as three displays in a Meeting Room (Display 1, Display 2 & the MTR touch panel display). However, there's only 1 (one) display signal that is either Healthy or Unhealthy. With the new dynamic tickets, we can now generate tickets unique to each display signal.

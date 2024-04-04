@@ -1,46 +1,47 @@
 ---
-title: Multi-tenant customer management for partners
+title: Multitenant customer management for partners
 author: mstonysmith
 ms.author: tonysmit
-ms.date: 07/25/2022
+ms.date: 04/04/2024
 manager: pamgreen
 ms.reviewer: altsou
 ms.topic: article
-ms.tgt.pltfrm: cloud
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-audience: Admin
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
-  - Tier3
-appliesto: 
-  - Microsoft Teams
+  - Tier1
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Mult-tenant customer management for partners.
 f1keywords: 
 ---
 
-# Multi-tenant customer management for partners
+# Multitenant customer management for partners
 
-Multi-tenant management (MTM) in the Teams Rooms Pro Management service helps partner organizations manage multiple customers in one place, with their own domain credentials. Partner users will only see customer rooms that they are assigned to manage. It is possible to apply custom roles for each customer in the MTM portal, giving partner organizations granular control of permissions to the customer’s resources. 
+Multitenant management (MTM) in the Teams Rooms Pro Management service helps partner organizations manage multiple customers in one place with their own domain credentials. Partner users see only those customer rooms that they are assigned to manage. It is possible to apply custom roles for each customer in the MTM portal, giving partner organizations granular control of permissions to the customer’s resources.
 
 The MTM portal can be accessed through this [link](https://partner.rooms.microsoft.com/).
 
 > [!Note]
-> Partner organizations cannot manage their own rooms through the MTM portal. Those rooms can be managed in the **Teams Rooms** [Pro Management portal](https://portal.rooms.microsoft.com/). 
+> Partner organizations can't manage their own rooms through the MTM portal. Those rooms can be managed in the [Teams Rooms Pro Management portal](https://portal.rooms.microsoft.com/).
+
 ## Pre-requisites for managing your customers through the MTM experience
 
 Partners who meet specific eligibility criteria with a proven track record and the organizational capabilities to deploy, configure, and manage Microsoft Teams Rooms, including Surface Hub. Partners interested in learning more about the requirements for becoming a Microsoft Teams Rooms Partner can submit their request at https://aka.ms/MicrosoftTeamsRoomsPartnerInquiry.
 
 ## On-boarding customers
 
-To manage customers through the Teams Rooms Pro Management-MTM portal, a relationship must be established between the partner organization’s tenant and the customer through an invitation sent by the customer. 
+To manage customers through the Teams Rooms Pro Management-MTM portal, a relationship must be established between the partner organization’s tenant and the customer through an invitation sent by the customer.
 
 ## Tenant managers
 
 This built-in role is only configurable in the Teams Rooms Pro Management-MTM portal. This role allows you to assign a group of users that accept invitations, but are not involved with the management of customer rooms. In order to assign Tenant manager permissions in the Teams Rooms Pro Management-MTM portal, the assigning account must be set to be a Teams Rooms Pro Manager in the Teams Rooms Pro Management portal for customers.  Before attempting to set Tenant manager permissions, please ensure your account is appropriately configured in your Teams Rooms Pro management Customer portal.  This is not configurable from the Teams Rooms Pro Management-MTM portal.
+
 It is recommended to configure this role so designated Tenant managers can accept customer invitations and sub-delegate permissions to others in your organization. Otherwise, only users with the Teams Rooms Pro Manager role in your tenant will be able to accept invitations.
 
 **To configure tenant managers**
@@ -52,7 +53,6 @@ It is recommended to configure this role so designated Tenant managers can accep
 5.	Select the user or group.
 6.	Select **Add**.
 
-
 ### Invitation from the customer
 
 The partner should provide the domain name to customers. Only the Global admin, Teams Rooms Pro Manager, and Tenant managers roles can see and accept the invitation when they log in to the Teams Rooms Pro Management-MTM portal. 
@@ -60,15 +60,15 @@ The partner should provide the domain name to customers. Only the Global admin, 
 > [!Note]
 > Even though these roles can see invitations and high-level Tenant metadata, you will not see the customer’s data until you are assigned a role with that customer.
 
-Details on the customer invitation are outlined in [Multi-tenant management for Customers](multi-tenant-management-customer.md).
+Details on the customer invitation are outlined in [Multitenant management for Customers](Multi-tenant-management-customer.md).
 
 **To accept a pending invite**
 
 1. Log in to the Teams Rooms Pro Management-MTM portal as either a Global admin, Teams Rooms Pro Manager, or Tenant manager.
 1. Go to **Tenants**.
-1. Select the invitation showing with a status of “Pending”.
+1. Select the invitation that shows a “Pending” status.
 1. Review the invitation details.
-1. Assign users that will be the primary admins of this customer.
+1. Assign the users that will be part of the admins for the customer.
 1. Select **Accept** to establish the partner-customer relationship.
 
    Selecting **Deny** deletes the invitation.
@@ -77,7 +77,7 @@ Details on the customer invitation are outlined in [Multi-tenant management for 
    > There is no permanent association with the user that accepts the invitation.
 
    > [!Note]
-   > *If the invitation is accidentally denied the invitation, the customer must create a new invitation.* 
+   > If the invitation is accidentally denied the invitation, the customer must create a new invitation.
 
 **To review the configuration or add more primary admins for a tenant**
 
@@ -127,9 +127,6 @@ As a partner, you can create custom roles to suit your operational requirements.
 1. Select the customer from the dropdown menu for which you want to edit the partner role.
 1. Create a [custom role](rooms-pro-rbac.md#built-in-roles).
 
-
-
-
 |Feature|Permission|**MMR Admin**|**Site Lead**|**Site Tech**|**Primary admins**|
 | :- | :- | :- | :- | :- | :- |
 |Rooms|View| &#10004;|&#10004;|&#10004;|&#10004;|
@@ -162,7 +159,7 @@ With the delegated access feature, a partner does not gain any other privileges 
 
 Once the partner—customer relationship is established—as described in the “Onboarding customers” of this doc – the partner can view room data in the Teams Rooms Pro Management portal. This includes any data present in the Teams Rooms Pro Management portal but derived from other Microsoft products. For example, call quality reports in the Teams Rooms Pro Management portal are derived from Teams call quality data.
 
-Data resides in the customer’s tenant and is not copied to the partner’s tenant. 
+Data resides in the customer’s tenant and isn't copied to the partner’s tenant.
 
 The Teams Rooms Pro management MTM portal uses Microsoft Entra authentication to validate the login credentials of the partner. It is important to note that at this time, the customer’s authentication policies will not apply to the partner. For example, if the customer has a multi-factor authentication policy, it does not translate to the partner.
 
@@ -170,6 +167,7 @@ The customer can pull audit logs for the Teams Rooms Pro Management portal, whic
 
 > [!Note]
 > Microsoft Entra auditing and O365 auditing does not capture logs from the Teams Rooms Pro Management portal.
+
 ## Navigating the MTM portal
 
 The Teams Rooms Pro Management MTM portal has two interactive models to navigate between customer data:
@@ -179,7 +177,7 @@ The Teams Rooms Pro Management MTM portal has two interactive models to navigate
   > [!Note]
   > This view is only supported in the **Incidents** page when **Enable all tickets view** is toggled on.
   >
-  > ![Figure 1](../media/multi-tenant-management-partner-001.png)
+  > ![Figure 1](../media/Multi-tenant-management-partner-001.png)
 
  - Tenant switching where only data from the **Customer** selected in the dropdown list is displayed.
 
@@ -188,5 +186,8 @@ The Teams Rooms Pro Management MTM portal has two interactive models to navigate
 Due to technical, compliance, or other limitations, some features are not available in the Teams Rooms Pro management Multitenant Management portal.  These include:
 
   - ServiceNow API integration
-  - Room Planner
-
+- Standards/Room Planner
+- One Time Password
+- Remote Control
+- Bring Your Own Device (BYOD)
+- Windows Autopilot

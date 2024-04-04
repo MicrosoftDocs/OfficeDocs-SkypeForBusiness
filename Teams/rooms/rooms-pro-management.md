@@ -3,19 +3,18 @@ title: Microsoft Teams Rooms Pro management
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: 
-ms.date: 03/25/2020
+ms.reviewer: kimmatlock
+ms.date: 03/26/2024
 ms.topic: article
-ms.tgt.pltfrm: cloud
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-audience: Admin
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
-  - Tier3
-appliesto: 
-  - Microsoft Teams
+  - Tier1
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn about Microsoft Teams Rooms Pro management.
@@ -24,10 +23,9 @@ f1keywords:
 
 # Microsoft Teams Rooms Pro Management
 
-The Microsoft Teams Rooms Pro Management service is a cloud-based management solution that proactively monitors and updates Microsoft Teams Rooms devices and their peripherals. The Pro management solution is for organizations looking to optimize meeting room experience for end users and rapidly scale their footprint enabled by real-time monitoring and management for Microsoft Teams Rooms devices. 
+The Microsoft Teams Rooms Pro Management service is a cloud-based management solution that proactively monitors and updates Microsoft Teams Rooms devices and their peripherals. The Teams Rooms Pro management solution is for organizations looking to optimize meeting room experience for end users and rapidly scale their footprint enabled by real-time monitoring and management for Microsoft Teams Rooms devices. 
 
-The Microsoft Teams Rooms  Pro management monitoring solution is built on a strong foundation of Microsoft's expertise in software-enabled management of end points, and intelligent automation. 
-
+The Microsoft Teams Rooms Pro management monitoring solution is built on a strong foundation of Microsoft's expertise in software-enabled management of end points, and intelligent automation. 
 
 These are three key aspects of the service:  
 
@@ -50,8 +48,8 @@ Here's an overview of the capabilities of Microsoft Teams Rooms Pro management.
 
 |Capabilities  |Description  |
 |---------|---------|
-|**Room planning and rollout**   |Room planning capabilities that allow you to understand existing equipment and inform decisions on equipment standards for new room deployments. <br> Features include: setting MTR Standards, export plans, Room inventory tracking with a bulk export option that lists room devices, peripherals, makes, and models.        |
-|**Monitoring**  |Room health monitoring that detects problems with the room system or peripherals. <br> The service monitors applications, operating system, peripheral and firmware health.         |
+|**Room planning and rollout**   |Room planning capabilities that allow you to understand existing equipment and inform decisions on equipment standards for new room deployments. <br> Features include: setting MTR Standards, export plans, Room inventory tracking with a bulk export option that lists room devices, peripherals, makes, and models, and room resource account management.|
+|**Monitoring**  |Room health monitoring that detects problems with the room system or peripherals. <br>The service monitors applications, operating system, peripheral and firmware health.         |
 |**Troubleshooting and remediation**  |Automated diagnostics and auto-remediation where applicable.         |
 |**Update management**    |Automated configuration and delivery of the Microsoft Teams Rooms application based on preconfigured rings of deployment.         |
 |**Insights and recommendations**     |Insights into room health, usage, and equipment reliability.         |
@@ -63,7 +61,7 @@ Here's an overview of the capabilities of Microsoft Teams Rooms Pro management.
 
 ## Service prerequisites
 
-For the Microsoft Teams Rooms managed service to maintain service quality, enrolled rooms must be [Microsoft Teams Rooms supported devices](/microsoftteams/rooms/certified-hardware), and you must prepare your environment with all the [required Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges) fully allowed and reachable by meeting room devices. To learn more, see [Prepare your environment](rooms-prep.md) in the Microsoft Teams Rooms documentation.
+For the Microsoft Teams Rooms Pro management service to maintain service quality, enrolled rooms must be [Microsoft Teams Rooms supported devices](/microsoftteams/rooms/certified-hardware), and you must prepare your environment with all the [required Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges) fully allowed and reachable by meeting room devices. To learn more, see [Prepare your environment](rooms-prep.md) in the Microsoft Teams Rooms documentation.
 
 ## Supported regions
 
@@ -77,7 +75,7 @@ The Microsoft Teams Rooms Pro license is available in the following countries/re
    
 ## Data collection
 
-Microsoft Teams Rooms Pro management monitors devices, collects device data, and allows Microsoft to remotely access and manage room devices. The Microsoft Teams Rooms managed service doesn't access the live content of a meeting.
+Microsoft Teams Rooms Pro management monitors devices, collects device data, and allows Microsoft to remotely access and manage room devices. The Microsoft Teams Rooms Pro management service doesn't access the live content of a meeting.
 
 Data collected is specific to a room account, not an individual user. Incidental references to an individual user may be present in the activity log during use of the device. Collected data is processed by Microsoft in accordance with the [Microsoft Privacy Statement](https://aka.ms/privacy).  
 
