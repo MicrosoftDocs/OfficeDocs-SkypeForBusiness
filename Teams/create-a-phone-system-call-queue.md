@@ -140,6 +140,19 @@ Choose a [supported language](create-a-phone-system-call-queue-languages.md).
 
 This language is used for system-generated voice prompts and voicemail transcription, if you enable them.
 
+### Set the Service level threshold seconds
+
+> [!CAUTION]
+> This configuration option is currently only available through Powershell cmdlets and does not appear in Teams admin center. If this option is configured through Powershell, any changes to the Call queue through Teams admin cener will erase this setting.
+
+Service level measures the efficiency and responsiveness to incoming customer requests within a specific Service level threshold.
+
+Real-time service level metrics are shown in Queues app. Historical level metrics are not currently available.
+
+You can set the threshold to any value from 0 to 40 minutes (2,400 seconds).  The value must be less than the value set for [Call timeout](#call-timeout-set-how-to-handle-call-timeouts) 
+
+For more information, see [New-CsCallqueue/-ASDFASDFASDFAF](askdfaf) or [Set-CsCallqueue/-ASDFASDFASDF](asdfaf)
+
 After you select a language, select the **Next** button at the bottom of the **Add a Call queue** page.
 
 ## [Step 2: Greeting and music](#tab/greeting-music)
@@ -392,6 +405,15 @@ To **add a user** to the authorized users:
 > A maximum of 15 authorized users can be assigned to the Call queue.
 
 For more information, see [Set up authorized users](./aa-cq-authorized-users.md).
+
+### Hiding authorized users
+
+> [!CAUTION]
+> This configuration option is currently only available through Powershell cmdlets and does not appear in Teams admin center. If this option is configured through Powershell, any changes to the Call queue through Teams admin cener will erase this setting.
+
+Hidden authorized users are not visible to Queues app users.
+
+For more information, see [New-CsCallqueue/-HideAuthorizedUsers](/powershell/module/teams/new-cscallqueue?view=teams-ps#-hideauthorizedusers) or [Set-CsCallqueue/-HideAuthorizedUsers](/powershell/module/teams/set-cscallqueue?view=teams-ps#-hideauthorizedusers)
 
 Once you select your authorized users, select the **Submit** button at the bottom of the **Add a Call queue** page.
 
