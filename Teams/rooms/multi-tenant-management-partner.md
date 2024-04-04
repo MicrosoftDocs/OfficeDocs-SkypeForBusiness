@@ -190,7 +190,12 @@ The MTM portal has two interactive models to navigate between customer data:
 Due to technical, compliance, or other limitations, some features are not available in the Teams Rooms Pro Multitenant Management portal.  These include:
 
   - ServiceNow API integration
-- Room Planner
+- Standards/Room Planner
+
 - One Time Password
 - Remote Control
+
+- Bring Your Own Device (BYOD)
+
+- Windows Autopilot
 
