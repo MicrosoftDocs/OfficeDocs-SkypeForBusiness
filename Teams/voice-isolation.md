@@ -34,9 +34,15 @@ The voice isolation feature relies on the voice profile stored on the user's loc
 
 As an admin, you can control whether your users can use voice isolation in calls and meetings.
 
-To learn more the voice isolation setup and experience for your users, see [Voice isolation in Microsoft Teams calls and meetings](https://prod.support.services.microsoft.com/office/voice-isolation-in-microsoft-teams-calls-and-meetings-a9756ea9-4cec-44c4-aefb-6f5d17c89427).
+To learn more the voice isolation troubleshooting, setup, and experience for your users, see [Voice isolation in Microsoft Teams calls and meetings](https://prod.support.services.microsoft.com/office/voice-isolation-in-microsoft-teams-calls-and-meetings-a9756ea9-4cec-44c4-aefb-6f5d17c89427).
 
 To learn more about the storing or retention of voice profiles, see [PLACEHOLDER].
+
+## Prerequisites
+
+Verify that the following URL is included in your allow list:
+
+- https://aiinfrastructure.static.microsoft/public/aiinfrastructure/tsg_model_file/d1579e8339689379a218e26beea3825b68b9e75ec9dbb41aeb2be78510fead3c/model.gz
 
 ## Manage whether your users can use voice isolation
 
@@ -79,11 +85,6 @@ Set-CsTeamsMeetingPolicy -Identity <policy name> -EnrollUserOverride Disabled
 ```powershell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -VoiceIsolation Disabled
 ```
-
-If users in your tenant can't use this feature properly, it might be because the noise suppression model isn't downloaded properly. Verify that the following URL is included in your allow list:
-
-- https://aiinfrastructure.static.microsoft/public/aiinfrastructure/tsg_model_file/d1579e8339689379a218e26beea3825b68b9e75ec9dbb41aeb2be78510fead3c/model.gz
-
 
 ## Related topics
 
