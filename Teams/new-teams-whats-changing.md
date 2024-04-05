@@ -51,3 +51,4 @@ As we improved the client, the experience also improved to align with similar fe
 |Ability to sign out from the notification area at the far right of the taskbar (system tray). |No longer available.|
 |Adaptive Card-based tabs in personal app tabs.|No longer available.|
 |Whiteboard Tab automatically displayed in meeting tabs.|Using Recap tab from the calendar allows you to access the Whiteboard file shared in the meeting in the content section.|
+|Third-party and custom sign-in solutions using RunAs or undocumented hooks.|No longer available.|
