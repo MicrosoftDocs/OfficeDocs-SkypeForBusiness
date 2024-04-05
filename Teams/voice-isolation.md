@@ -80,6 +80,11 @@ Set-CsTeamsMeetingPolicy -Identity <policy name> -EnrollUserOverride Disabled
 Set-CsTeamsMeetingPolicy -Identity <policy name> -VoiceIsolation Disabled
 ```
 
+If users in your tenant can't use this feature properly, it might be because the noise suppression model isn't downloaded properly. Verify that the following URL is included in your allow list:
+
+- https://aiinfrastructure.static.microsoft/public/aiinfrastructure/tsg_model_file/d1579e8339689379a218e26beea3825b68b9e75ec9dbb41aeb2be78510fead3c/model.gz
+
+
 ## Related topics
 
 - [Plan for meetings with external participants in Microsoft Teams](plan-meetings-external-participants.md)
