@@ -82,7 +82,7 @@ Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
 
 ### Connect the SBC to the tenant
 
-To connect the SBC to the tenant, use the [New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) cmdlet. In a PowerShell session, type the following, and then press Enter:
+To connect the SBC to the tenant, use the [New-CsOnlinePSTNGateway](/powershell/module/teams/new-csonlinepstngateway) cmdlet. In a PowerShell session, type the following, and then press Enter:
 
 ```PowerShell
 New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxConcurrentSessions <Max Concurrent Sessions the SBC can handle> -Enabled $true
@@ -109,7 +109,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxCo
 
 - SIP OPTIONS pings MUST NOT exceed a frequency of one transaction every 60 seconds and MUST NOT be more or less frequent than one transaction every 180 seconds for each configured trunk for each endpoint.
 
-Here's an example. This example shows only the minimum required parameters. There are additional parameters that you can set with the [New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) cmdlet during the connection process. To learn more, see [SBC settings](#sbc-settings).
+Here's an example. This example shows only the minimum required parameters. There are additional parameters that you can set with the [New-CsOnlinePSTNGateway](/powershell/module/teams/new-csonlinepstngateway) cmdlet during the connection process. To learn more, see [SBC settings](#sbc-settings).
 
 ```PowerShell
 New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignalingPort 5067 -MaxConcurrentSessions 100 
@@ -138,7 +138,7 @@ To verify the connection:
  
 #### Check whether the SBC is on the list of paired SBCs
 
-After you connect the SBC, use the [Get-CsOnlinePSTNGateway](/powershell/module/skype/get-csonlinepstngateway) cmdlet to verify that the SBC is present in the list of paired SBCs. Type the following in a remote PowerShell session, and then press Enter:
+After you connect the SBC, use the [Get-CsOnlinePSTNGateway](/powershell/module/teams/get-csonlinepstngateway) cmdlet to verify that the SBC is present in the list of paired SBCs. Type the following in a remote PowerShell session, and then press Enter:
 
 ```PowerShell
 Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
@@ -170,7 +170,7 @@ To validate the pairing using incoming SIP options, use the SBC management inter
 
 ## SBC settings
 
-This table lists the options that you can set for the SBC in the Microsoft Teams admin center and by using the [New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) cmdlet.
+This table lists the options that you can set for the SBC in the Microsoft Teams admin center and by using the [New-CsOnlinePSTNGateway](/powershell/module/teams/new-csonlinepstngateway) cmdlet.
 
 |Required?|Teams admin center setting|PowerShell parameter|Description|Default|Possible values|Type and restrictions|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|

@@ -66,8 +66,8 @@ For more information, please refer to [Migration and interoperability Guidance f
 For more information about migrating from Calling Plans, see:
 
 - [Set up Calling Plans](/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
-- [Set-CsOnlineVoice User](/powershell/module/skype/Set-CsOnlineVoiceUser)
-- [Get-CsOnlineLisLocation](/powershell/module/skype/get-csonlinelislocation)  
+- [Set-CsOnlineVoice User](/powershell/module/teams/Set-CsOnlineVoiceUser)
+- [Get-CsOnlineLisLocation](/powershell/module/teams/get-csonlinelislocation)  
 
 It's recommended that you remove previously configured licensing plan information as follows:
 

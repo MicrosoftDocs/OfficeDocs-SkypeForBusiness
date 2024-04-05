@@ -2,24 +2,26 @@
 title: "Step 3 - Assign a meeting room license"
 ms.author: tonysmit
 author: mstonysmith
-f1.keywords:
-- Teams hybrid
-- remote work
-- Teams meetings
 manager: pamgreen
-ms.date: 07/08/2022
-audience: ITPro
-description: Assign a Teams Rooms Basic or Teams Rooms Pro license to a resource account.
+ms.reviewer: sohailta
+ms.date: 2/26/2024
 ms.topic: article
+audience: Admin
 ms.service: msteams
-ms.localizationpriority: high
+ms.subservice: itpro-rooms
+appliesto: 
+  - Microsoft Teams
 ms.collection:
 - m365solution-teamshybrid
 - m365solution-scenario
 - m365initiative-meetings
 - teams-rooms-devices
-ms.custom: 
-keywords: 
+ms.localizationpriority: high
+f1.keywords:
+- Teams hybrid
+- remote work
+- Teams meetings
+description: Assign a Teams Rooms Basic or Teams Rooms Pro license to a resource account.
 ---
 
 # Step 3 - Assign a meeting room license

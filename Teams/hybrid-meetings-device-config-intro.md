@@ -2,24 +2,26 @@
 title: "Step 5 - Overview"
 ms.author: tonysmit
 author: mstonysmith
-f1.keywords:
-- Teams hybrid
-- remote work
-- Teams meetings
 manager: pamgreen
-ms.date: 08/05/2022
-audience: ITPro
-description: Step through the complete process of setting up a new Teams Rooms device in your organization.
+ms.reviewer: sohailta
+ms.date: 02/25/2024
 ms.topic: article
+audience: Admin
 ms.service: msteams
-ms.localizationpriority: high
+ms.subservice: itpro-rooms
+appliesto: 
+  - Microsoft Teams
 ms.collection:
 - m365solution-teamshybrid
 - m365solution-scenario
 - m365initiative-meetings
 - teams-rooms-devices
-ms.custom: 
-keywords: 
+f1.keywords:
+- Teams hybrid
+- remote work
+- Teams meetings
+ms.localizationpriority: high
+description: Step through the complete process of setting up a new Teams Rooms device in your organization.
 ---
 
 # Overview
