@@ -123,7 +123,7 @@ Perform the following steps:
         - Select `Per Day` to retrieve an aggregated total for each day. 
     - **UTC Offset**: Select the UTC offset that represents the time zone the reports are presented in. Only valid when the **Report Level** is set to `Per Call`
 
-### Per Day vs Per Call 
+#### Per Day vs Per Call 
 
 Per Call reporting retrieves the individual call records for each Auto attendant, Call queue, and Agent, and makes them available in the Power BI client.  Per Call reporting also allows call records to be displayed in the local time zone selected by the user. For some customers, especially those using the CQD access role to control access, this may result in hitting the 200,000 record limit. In this case, the Per Day reporting option should be selected.
 
