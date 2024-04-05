@@ -8,7 +8,7 @@ ms.service: msteams
 ms.subservice: teams-apps
 ms.custom: intro-get-started
 audience: admin
-ms.date: 03/18/2024
+ms.date: 03/30/2024
 ms.collection: 
   - M365-collaboration
   - tier2
@@ -158,7 +158,7 @@ As an admin, you can [delete custom apps](teams-custom-app-policies-and-settings
 
 Blocked apps may still have access to data from the teams that the apps were added to. To turn off app data access, a Global Administrator, an Application Administrator, or a Cloud Application Administrator must [turn off user sign-in in the Microsoft Entra admin center](/azure/active-directory/manage-apps/disable-user-sign-in-portal?pivots=portal).
 
-## Manage org-wide app settings for Microsoft 365 Government  
+## Manage org-wide app settings for Microsoft 365 Government
 
 In a Microsoft 365 Government - GCC, GCCH and DoD deployment of Teams, all third-party apps are blocked by default. In GCC, you see the following note about managing third-party apps on the app permission policies page in the Microsoft Teams admin center.
 
@@ -180,6 +180,12 @@ Use org-wide app settings to control whether users can install third-party apps.
 1. Select **Save** for org-wide app settings to take effect.
 
 To allow third-party apps, either edit and use the Global (Org-wide default) policy or create and assign an admin-created policy.
+
+## Manage apps in Gallatin and Air-gapped cloud environments
+
+In Gallatin and air-gapped cloud environments, admins can get an overview of the Teams apps in Teams admin center on the Teams apps > Manage apps page.
+
+To view more details of an app, click an app's name to access the app details page. You can allow or block the app for your users.
 
 ## Support information for apps
 
