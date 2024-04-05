@@ -2,7 +2,7 @@
 title: Microsoft Teams Rooms Record an issue
 author: mstonysmith
 ms.author: tonysmit
-ms.date: 09/28/2022
+ms.date: 04/04/2024
 manager: pamgreen
 ms.reviewer: tonysmit
 ms.topic: article
