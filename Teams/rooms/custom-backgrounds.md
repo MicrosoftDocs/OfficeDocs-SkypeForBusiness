@@ -136,7 +136,7 @@ When you create a custom background:
 
 **16:9 - Dual front-of-room display dimensions**
 
-:::image type="content" source="../media/mtr-devices/dual-for-qr" alt-text="A custom background showing dual 16:9 front of room displays with element dimensions and a QR code." lightbox="../media/mtr-devices/dual-for-qr":::
+:::image type="content" source="../media/mtr-devices/dual-for-qr.png" alt-text="A custom background showing dual 16:9 front of room displays with element dimensions and a QR code." lightbox="../media/mtr-devices/dual-for-qr.png":::
 
 **21:9 - Single front-of-room display dimensions**
 
@@ -249,7 +249,7 @@ When you create a custom background, use the following guidelines:
 
 **16:9 - Single front-of-room display dimensions**
 
-:::image type="content" source="../media//mtr-devices/mtrw-for-qr-16x9.png.png" alt-text="A custom background showing a 16:9 front of room display with element dimensions with QR code." lightbox="../media/mtr-devices/mtrw-for-qr-16x9.png.png":::
+:::image type="content" source="../media//mtr-devices/mtrw-for-qr-16x9.png" alt-text="A custom background showing a 16:9 front of room display with element dimensions with QR code." lightbox="../media/mtr-devices/mtrw-for-qr-16x9.png":::
 
 **16:9 - Dual front-of-room display dimensions**
 
