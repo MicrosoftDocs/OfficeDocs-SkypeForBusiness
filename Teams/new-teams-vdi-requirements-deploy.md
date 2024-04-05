@@ -41,7 +41,7 @@ In addition, virtual machines must meet the minimum requirements listed here:
 
 |Requirement |Version|
 |:-----|:-----|
-|Windows|- Windows 10.0.19041 or higher </br>- Windows Server 2019 (10.0.17763) in public preview </br>- Windows Server 2022 (10.0.20348) or higher</br>- Windows Server 2016 is NOT supported. Plan upgrades.</br>- WebView2 framework required in Windows Server and Windows 10/11 Multi-User environments|
+|Windows|- Windows 10.0.19041 or higher </br>- Windows Server 2019 (10.0.17763) </br>- Windows Server 2022 (10.0.20348) or higher</br>- Windows Server 2016 is NOT supported. Plan upgrades.</br>- WebView2 framework required in Windows Server and Windows 10/11 Multi-User environments|
 |Webview2|Minimum version: 90.0.818.66. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise)|
 |Classic Teams app |Version 1.6.00.4472 or later to see the Try the new Teams toggle. Important: Classic Teams is only a requirement if you want users to be able to switch between classic Teams and new Teams. This prerequisite is optional if you only want your users to see the new Teams client. |
 |Settings |Turn on the **Show Notification Banners** setting in System > Notifications > Microsoft Teams to receive Teams Notifications. |
@@ -180,7 +180,7 @@ If IT administrators set restrictions for MSIX or deploy GPOs, it could prevent 
   :::image type="content" source="media/new-teams-troubleshooting-error-isntallation-org-policies.png" alt-text="error with org policies":::
 
 > [!IMPORTANT]
-> The 'side by side' method is only supported in persistent environments.
+> The 'side by side' method is only supported in persistent environments. Classic Teams 1.7.00.7956 or higher will suppress the app switcher toggle irrespective of the Teams Admin Center policy value when classic Teams is running in a non-persistent environment, where non-persistent is detected based on the installation folder of classic Teams MSI, C:\Program Files (x86).
 
 ## Classic Teams versus new Teams installers in VDI environments
 
@@ -223,7 +223,23 @@ Known limitations:
 
 - Classic Teams on Windows Server 2019 isn't displaying the app switcher toggle if Classic Teams version is lower than 1.6.00.33567
 - New Teams on Windows Server 2019 currently isn't compatible with FSLogix and fails to launch. See [FSLogix known issues](/fslogix/troubleshooting-known-issues) for more details.
-- New Teams MSIX installer isn't registering UC Typelib, causing Outlook presence bubbles to show as grey/unknown even if the virtual machine does have the Classic Teams client installed as well.
+
+### Outlook presence integration with New Teams in Windows Server 2019
+
+For Outlook to properly display presence status, the following steps are required on the golden image:
+
+1. Install machine-wide (ALLUSERS=1) the '[Windows 10 1809 and Windows Server 2019 KB5035849 240209_02051 Feature Preview.msi](https://statics.teams.cdn.office.net/evergreen-assets/DesktopClient/Windows%2010%201809%20and%20Windows%20Server%202019%20KB5035849%20240209_02051%20Feature%20Preview.msi)'.
+1. Open your Group Policy Editor. Navigate to Computer Configuration\Administrative Templates\KB5035849 240209_02051 Feature Preview\Windows 10, version 1809 and Windows Server 2019. Change the value of that Setting to **Enabled**.
+1. Install [KB5035849](https://support.microsoft.com/topic/march-12-2024-kb5035849-os-build-17763-5576-719f5f8d-51c6-43f0-a612-1c15802fed06) March 2024 cumulative update from the [Microsoft Update Catalog](https://www.catalog.update.microsoft.com/Search.aspx?q=2024-03%20Cumulative%20Update%20for%20Windows%20Server%202019%20for%20x64-based%20Systems%20(KB5035849)) or WSUS for Enterprises.
+1. Install machine-wide (ALLUSERS=1) the '[MSTeamsNativeUtility.msi](https://statics.teams.cdn.office.net/evergreen-assets/DesktopClient/MSTeamsNativeUtility.msi)'.
+1. Reboot the virtual machine.
+1. Install new Teams 24033.811.2738.2546 or higher, using Dism as described in the section above.
+
+> [!NOTE]
+> Steps 1, 2, 3, 4, and 5 are only required once. Subsequent golden image maintenances will not need these steps repeated.
+
+> [!IMPORTANT]
+> Outlook must be started **after** new Teams is launched for presence to be shown correctly.
 
 ## Remove new Teams for all users
 
@@ -252,10 +268,23 @@ Value: 1
 All the user settings and configurations are now stored in:
 
 - C:\Users\<username>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\
+- C:\Users\<username>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\Settings\settings.dat
 - C:\Users\<username>\AppData\Local\Publishers\8wekyb3d8bbwe\TeamsSharedConfig\app_switcher_settings.json
 - C:\Users\<username>\AppData\Local\Publishers\8wekyb3d8bbwe\TeamsSharedConfig\tma_settings.json
 
 Make sure these folders and files are persisted for proper Teams functioning.
+
+> [!NOTE]
+> It's critical that **all** the necessary directories and top folder structure under AppData\Local\Packages\MSTeams_8wekyb3d8bbwe are correctly set up as directories, not as files or reparse points:
+>
+> AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\AC
+> AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\AppData
+> AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache
+> AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalState
+> AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\RoamingState
+> AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\Settings
+> AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\SystemAppData
+> AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\TempState
 
 **TeamsSharedConfig** stores user configurations for the Teams app switcher toggle (and what should be the default app, the Classic or New Teams), and the Teams Meeting Add In for Outlook.
 
@@ -435,8 +464,9 @@ Learn more: [Manage accounts and organizations in Microsoft Teams](https://suppo
 
 ## Features currently not available in VDI with the new Teams
 
-- Screen sharing from chat for Azure Virtual Desktops/Windows 365.
-- Screen sharing from chat for Citrix.
+- Screen sharing from chat for Azure Virtual Desktops/Windows 365 (This issue is now fixed on RD Client 1.2.5105 and Redirector Service
+[1.50.2402.29001](/azure/virtual-desktop/whats-new-webrtc#updates-for-version-150240229001)).
+- Screen sharing from chat for Citrix when using Workspace app 2311 only.
 - The app switcher toggle isn't shown in new Teams if the virtual machine has the machine-wide classic Teams installed (MSI with ALLUSERS=1). **Note:** This issue is fixed on new Teams version 23320.3021.2567.4799 or higher.
 
 >[!Note]
@@ -486,4 +516,4 @@ The following features aren't supported in either classic Teams or new Teams.
 - Cross cloud anonymous join in Government Clouds (GCC, GCC High and DoD).
 - **Record video clip** doesn't capture screen share.
 - The call monitor (the small floating window after you minimize the main Teams window) doesn't display video or screen share.
-- Running new Teams simultaneously on a physical device and on a virtual desktop (connected from the same physical device).
+- Teams calls drop on a local machine if a user launches a virtual desktop from that local machine and logs into Teams (AVD/W365 and VMware only).
