@@ -77,7 +77,7 @@ Perform the following steps:
 
     Public Cloud Customers (Not supported but will work):
 
-1. The region where your tenant is located can be obtained by using the [Get-CsTenant](/powershell/module/skype/get-cstenant) cmdlet.
+1. The region where your tenant is located can be obtained by using the [Get-CsTenant](/powershell/module/teams/get-cstenant) cmdlet.
 
     ```powershell
     (Get-CsTenant).ServiceInstance

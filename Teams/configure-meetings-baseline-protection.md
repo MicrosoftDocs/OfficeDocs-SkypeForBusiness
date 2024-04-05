@@ -1,7 +1,7 @@
 ---
 title: Configure Teams meetings with baseline protection
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
@@ -66,7 +66,7 @@ To configure who can present
 
 In the *baseline* level of protection, we disable watermarks and end-to-end encryption by using a sensitivity label. This will prevent meeting organizers from using these features. Watermarks and end-to-end encryption are more applicable to sensitive meetings.
 
-End-to-end encryption and watermarks disable some other features such as meeting recording. Turning them off for the *baseline* level of protection can avert instances where meeting organizers use these features without realizing the limits they impose.
+End-to-end encryption and watermarks disable some other features such as PowerPoint Live. Turning them off for the *baseline* level of protection can avert instances where meeting organizers use these features without realizing the limits they impose.
 
 If you work in a highly regulated industry, you may want to keep these features available even in the *baseline* level of protection.
 
@@ -95,7 +95,7 @@ To create a sensitivity label
 1. Select **Next**.
 1. Complete the wizard with any additional settings you want to use, select **Create label**, and then select **Done**.
 
-Once you've created the label, you need to publish it to the users who will use it. For baseline protection, we make the label available to all users. You publish the label in the Microsoft Purview compliance portal, on the **Label policies** page under **Information protection**. If you have an existing policy that applies to all users, add this label to that policy. If you need to create a new policy, see [Publish sensitivity labels by creating a label policy](/compliance/create-sensitivity-labels#publish-sensitivity-labels-by-creating-a-label-policy).
+Once you've created the label, you need to publish it to the users who will use it. For baseline protection, we make the label available to all users. You publish the label in the Microsoft Purview compliance portal, on the **Label policies** page under **Information protection**. If you have an existing policy that applies to all users, add this label to that policy. If you need to create a new policy, see [Publish sensitivity labels by creating a label policy](/purview/create-sensitivity-labels#publish-sensitivity-labels-by-creating-a-label-policy).
 
 For additional information about using sensitivity labels with meetings, see [Use sensitivity labels to protect calendar items, Teams meetings and chat](/microsoft-365/compliance/sensitivity-labels-meetings).
 

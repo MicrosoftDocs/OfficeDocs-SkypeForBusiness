@@ -91,5 +91,4 @@ If you have a Skype for Business Server hybrid deployment and upgrade to Teams, 
 
 - [Getting started with your Microsoft Teams upgrade](upgrade-start-here.md)
 - [Skype for Business Online retirement](skype-for-business-online-retirement.md)
-- [Get-CsTeamsUpgradeStatus](/powershell/module/skype/get-csteamsupgradestatus?view=skype-ps&preserve-view=true)
 - [Teams Only mode considerations](teams-only-mode-considerations.md)

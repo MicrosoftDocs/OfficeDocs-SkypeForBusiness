@@ -17,9 +17,9 @@ appliesto:
 
 # Manage Teams with Microsoft Teams PowerShell
 
-This article shows you how to use Microsoft Teams PowerShell to manage Teams and Skype for Business.
+This article shows you how to use Microsoft Teams PowerShell to manage Teams.
 
-Use this guidance in conjunction with the [Microsoft Teams cmdlet reference](/powershell/teams/?view=teams-ps) and [Skype for Business cmdlet reference](/powershell/skype/intro?view=skype-ps).
+Use this guidance in conjunction with the [Microsoft Teams cmdlet reference](/powershell/teams/).
 
 To manage Teams in the Teams admin center, see [Manage Teams with Azure Cloud Shell](#manage-teams-with-azure-cloud-shell).
 
@@ -63,11 +63,7 @@ After you've completed these steps, you're ready to run Teams PowerShell command
 
 ## Manage policies via PowerShell
 
-> [!NOTE]
-> - Skype for Business Online Connector is consolidated into Teams PowerShell. Skype for Business Online cmdlets that apply to Teams are natively available in the Teams PowerShell module. Installation steps are available in the [Install Teams PowerShell](teams-powershell-install.md) article.
-> - The cmdlets will be available in your PowerShell session once you connect to Teams. For more information, please see [Manage Skype for Business Online with Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
-
-Find the cmdlets for managing policies in the [Skype for Business cmdlet module](/powershell/module/teams).
+Find the cmdlets for managing policies in the [Microsoft Teams cmdlet module](/powershell/module/teams).
 
 A policy is a group of settings that can be applied granularly to individual users. Each policy type has its own set of cmdlets for creating, viewing, deleting, and updating the policies themselves, and then assigning those policies to users. The general structure is:
 
@@ -94,7 +90,7 @@ Common parameters:
 
 ## Manage configurations via PowerShell
 
-Find the cmdlets for managing your configuration in the [Skype for Business cmdlet module](/powershell/module/skype).
+Find the cmdlets for managing your configuration in the [Microsoft Teams cmdlet module](/powershell/module/teams).
 
 Configurations are buckets of settings maintained in the service that can't be specified at a user level. Settings always apply across the whole organization. Your global configuration is the only effective configuration in your organization. Each configuration type comes with two primary cmdlets:
 
@@ -114,8 +110,6 @@ Read [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md) to 
 
 [Teams PowerShell Release Notes](teams-powershell-release-notes.md)
 
-[Teams cmdlet reference](/powershell/teams/?view=teams-ps)
-
-[Skype for Business cmdlet reference](/powershell/skype/intro?view=skype-ps)
+[Teams cmdlet reference](/powershell/teams/)
 
 [Use Teams admin roles to manage Teams](using-admin-roles.md)

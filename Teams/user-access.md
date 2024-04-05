@@ -7,22 +7,22 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
-  - M365-collaboration
-  - tier1
+- M365-collaboration
+- tier1
 ms.reviewer: ritikag
-ms.date: 08/11/2017
+ms.date: 03/26/2024
 search.appverid: MET150
 description: Learn how to manage user access to Teams by assigning or removing a Teams license to users in your organization. 
 f1.keywords:
 - CSH
 - ms.teamsadmincenter.signin.domainerror.nolicensedusers
 ms.custom:
-  - NewAdminCenter_Update
-  - seo-marvel-apr2020
-  - has-azure-ad-ps-ref
-  - azure-ad-ref-level-one-done
+- NewAdminCenter_Update
+- seo-marvel-apr2020
+- has-azure-ad-ps-ref
+- azure-ad-ref-level-one-done
 appliesto: 
-  - Microsoft Teams
+- Microsoft Teams
 ---
 
 # Manage user access to Teams
@@ -30,8 +30,6 @@ appliesto:
 [!INCLUDE [EEA Teams licensing notice](./includes/eea-teams-licensing.md)]
 
 You manage access to Teams at the user level by assigning or removing a Microsoft Teams product license. Except for joining Teams meetings anonymously, each user in your organization must have a Teams license before they can use Teams. You can assign a Teams license for new users when new user accounts are created or to users with existing accounts.
-
-By default, when a licensing plan (for example, Microsoft 365 Enterprise E3 or Microsoft 365 Business Premium) is assigned to a user, a Teams license is automatically assigned, and the user is enabled for Teams. You can disable or enable Teams for a user by removing or assigning a license at any time.
 
 Use messaging policies, managed from the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), to control what chat and channel messaging features are available to users in Teams. You can use the default policy or create one or more custom messaging policies for people in your organization. To learn more, read [Manage messaging policies in Teams](messaging-policies-in-teams.md).
 You manage Teams licenses in the Microsoft 365 admin center or by using PowerShell. You must be a Global admin or User management admin to manage licenses.

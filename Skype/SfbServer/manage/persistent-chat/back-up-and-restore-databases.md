@@ -32,9 +32,9 @@ There are two ways of backing up Persistent Chat data.
     
 - The **Export-CsPersistentChatData** cmdlet, which exports Persistent Chat data as a file
     
-Data that is created by using SQL Server backup requires significantly more disk space—possibly 20 times more—than that created by the **Export-CsPersistentChatData** cmdlet, but SQL Server backup is likely to be a procedure with which you are familiar.
+Data that is created by using SQL Server backup requires more disk space—possibly 20 times more—than that created by the **Export-CsPersistentChatData** cmdlet, but SQL Server backup is likely to be a procedure with which you're familiar.
   
-If you want to use SQL Server backup procedures, see your SQL documentation for more information. 
+For more information on how to use SQL Server backup procedures, see your SQL documentation.
   
 If you want to use the **Export-CsPersistentChatData** cmdlet, you can specify the command as follows:
   
@@ -48,7 +48,7 @@ or
 Export-CsPersistentChatData [-AsBytes <SwitchParameter>] <COMMON PARAMETERS>
 ```
 
-For example, the following command exports Persistent Chat data from the Persistent Chat database located on the server atl-sql-001.contoso.com; the exported data will be stored in the file C:\Logs\PersistentChatData.zip. Because the Level parameter was not specified, the command will do a full export of the Persistent Chat information:
+For example, the following command exports Persistent Chat data from the Persistent Chat database located on the server atl-sql-001.contoso.com; the exported data is stored in the file C:\Logs\PersistentChatData.zip. Because the Level parameter wasn't specified, the command does a full export of the Persistent Chat information:
   
 ```PowerShell
 Export-CsPersistentChatData -DBInstance "atl-sql-001.contoso.com\rtc" -FileName "C:\Logs\PersistentChatData.zip"
