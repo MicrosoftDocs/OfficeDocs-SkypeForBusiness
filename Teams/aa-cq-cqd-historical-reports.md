@@ -89,7 +89,7 @@ If you want to control which Auto attendants, Call queues and Agents the user ca
 
 For more information, see [Plan for Auto attendant and Call queue authorized users](./aa-cq-authorized-users-plan.md).
 
-> [TIP]
+> [!TIP]
 > Using the Voice Applications policy to control access is the recommended approach.  With the Voice Applications Policy and Authorized users it is possible to control the Auto attendants, Call queues, and Agents that a user can report on. If necessary, the policy still allows a user to report on all Auto attendants, Call queues, and Agents without the need to grant the user access to Teams Admin Center.
 
 2. CQD pipeline permission (legacy)
