@@ -83,17 +83,20 @@ When completed, you're able to [configure a scheduled refresh](/power-bi/connect
 
 Access to the historical reporting data is controlled by one of the following methods:
 
-1. CQD pipeline permission (legacy)
-
-If you want the user to report on **all** the Auto attendants, Call queues, and Agents in the tenant and you also want to grant the user access to Teams Admin Center to run other Usage reports, assign the user a CQD access role with both **View Reports** and **View EUII fields** set to **Yes**.
-
-For more information, see [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
-
-2. Voice Applications Policy permission
+1. Voice Applications Policy permission
 
 If you want to control which Auto attendants, Call queues and Agents the user can report on and don't want to provide any access to Teams Admin Center, create a Voice Applications Policy for the user that grants them access to historical reporting and assign them as an Authorized user to the appropriate Auto attendants and Call queues.
 
 For more information, see [Plan for Auto attendant and Call queue authorized users](./aa-cq-authorized-users-plan.md).
+
+> [TIP]
+> Using the Voice Applications policy to control access is the recommended approach.  With the Voice Applications Policy and Authorized users it is possible to control the Auto attendants, Call queues, and Agents that a user can report on. If necessary, the policy still allows a user to report on all Auto attendants, Call queues, and Agents without the need to grant the user access to Teams Admin Center.
+
+2. CQD pipeline permission (legacy)
+
+If you want the user to report on **all** the Auto attendants, Call queues, and Agents in the tenant and you also want to grant the user access to Teams Admin Center to run other Usage reports, assign the user a CQD access role with both **View Reports** and **View EUII fields** set to **Yes**.
+
+For more information, see [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
 
 > [!NOTE]
 > If a user is assigned a CQD role and a Voice Applications Policy, the CQD role will take precendence and the user will see all the Auto attendants, Call queues and Agents in the tenant.
@@ -117,10 +120,14 @@ Perform the following steps:
     - **DataSource**: Select the `api.interfaces.records.teams.microsoft.com` entry.
     - **Report Level**:
         - Select `Per Call` (default) to retrieve all the individual call records.
-        - Select `Per Day` to retrieve an aggregated total for each day. When `Per Day` is selected:
-          - Reporting is based on UTC
-          - UTC Offset is ignored
+        - Select `Per Day` to retrieve an aggregated total for each day. 
     - **UTC Offset**: Select the UTC offset that represents the time zone the reports are presented in. Only valid when the **Report Level** is set to `Per Call`
+
+### Per Day vs Per Call 
+
+Per Call reporting retrieves the individual call records for each Auto attendant, Call queue, and Agent, and makes them available in the Power BI client.  Per Call reporting also allows call records to be displayed in the local time zone selected by the user. For some customers, especially those using the CQD access role to control access, this may result in hitting the 200,000 record limit. In this case, the Per Day reporting option should be selected.
+
+Per Day reporting retrieves one daily summary record for each Auto attendant, Call queue, and Agent.  This results in fewer records being returned to the client, reducing the possibility of hitting the 200,000 record limit. Per Day reporting is based on a UTC-00:00 based day (00:00:00-23:59:59 UTC) only and any UTC offset supplied by the user is ignored.
 
 5. You're prompted to sign in with an account. Select **Organizational account**, and then select **Sign in**.
 
@@ -375,11 +382,6 @@ Increasing the maximum number of rows that can be returned results in longer exe
 1. Close the Power Query Editor window.
 1. Select **Yes** when prompted to apply the changes now. The report should automatically refresh.
 1. Save your report.
-
-## Per Day vs Per Call 
-
-Put some information here on the difference between each one and when to use one over the other.
-
 
 ## Customization
 
