@@ -44,6 +44,7 @@ Here are frequently used terms in the portal.
 
 |Term |Meaning |
 | :- | :- |
+
 |**Teams Rooms Pro Monitoring Software** |Monitoring agent that is deployed on each of the Microsoft Teams Room devices.|
 |**App** |Microsoft Teams Room system app|
 |**Room/Device** |The certified Microsoft Teams Room system device.|
@@ -81,7 +82,10 @@ A warning may transition to an **Important** status if the issue isn't resolved 
 
 ## Health status of device and incidents
 
+
 Incidents that are classified as either **Critical** or **Important** in severity will affect the health status of a device. If there is at least one incident of **Severity = **Important** associated with a device, it's classified as an ***unhealthy*** device.
+
+Incidents classified as **“Warning”** severity don't affect the health status reported on a device. However, if a device has warning level incidents associated with it, then it would be shown with the health status of the device.
 
 Incidents classified as a **Warning** or **Recommendation** severity don't affect the health status reported on a device. However, if a device has **Warning** level incidents associated with it, then it will be shown as a health status of the device.
 
@@ -104,7 +108,7 @@ The following are some of the types of incidents that you might see and the expl
 
 |Type |Explanation |
 | :- | :- |
-|**App version** |The version of the Microsoft Teams Room App running on the device isn't current. Stale versions are known causes to problems experienced by users. |
+|**App version** |The version of the Microsoft Teams Rooms App running on the device isn't current. Stale versions are known causes of problems experienced by users. |
 |**OS version** |The version of Windows operating system running in the meeting room is no longer recommended. |
 
 ## Responding to Incidents
@@ -139,13 +143,14 @@ For rooms that have the state of **Unmonitored**, it means that the Teams Rooms 
 ## Room Detail: Status and Changes
 
 **Room Details: Status**
+
 The device *Status* tab provides a consolidated view of the status of a device, all the issues active for the device, the actions that are needed to resolve them, or that are ongoing. The Status tab also contains the breakdown of different components of health for the device under *Incidents tab*. If a device is disconnected, Status details will not be available.
 
 **Show all signals:**
 To view all signals contained within a signal category, enable the **Show all signals** toggle button. Expansion arrows will appear next to category headings which can be clicked on to expand the accordion view for the underlying signals that make up that category.
 
 **Suppress/Unsuppress Ticket**
-When a room is enrolled, you are indicating that you want to receive notifications for changes in room telemetry. There are occasions when a particular device or peripheral is in a known state where you do not want tickets or notifications generated. Using the Suppress ticket functionality will silence any notification about that particular signal. When you are ready for the service to monitor and notify you about that signal, simply unsuppress the individual signal.
+When a room is enrolled, you're indicating that you want to receive notifications for changes in room telemetry. There are occasions when a particular device or peripheral is in a known state where you don't want tickets or notifications generated. Using the Suppress ticket functionality, will silence any notification about that particular signal. When you're ready for the service to monitor and notify you about that signal, unsuppress the individual signal.
 
 **Active Ticket Category Expansion**
 Under each ticket category, any active or latest resolved ticket will be displayed along with the severity and when the ticket was last updated. By selecting on the expansion arrow, all tickets will appear with an active link to the ticket information.
@@ -162,4 +167,3 @@ There are occasions where your team will need additional information to augment 
 
 **Active Ticket: History**
 Each room signal has only one ticket number that is assigned to it on purpose. A room device or peripheral persists in a room and may have issues over time. By maintaining this information under a specific unique ticket id, all historic information is maintained and can be analyzed for patterns of behavior. The History UI provides a view of all tickets actions created and resolved for this signal.
-

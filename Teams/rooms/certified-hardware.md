@@ -140,6 +140,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Current certification end date | Room size | Android OS version |
 |:-|:-|:-|:-|:-|
+| DTEN DCR200 Bar | `1.0.2` |  October 4, 2026 |  Small size room (4.5 m x 4.5 m) | 12 |
 | Cisco Room Kit EQX | `RoomOS11.15` | September 3, 2025 |  Large Meeting Room (4.5m x 8.5 m)| 11 |
 | Cisco Board Pro G2 55 | `RoomOS11.15` | September 3, 2025 |  Medium size room (4.5 m x 6 m) | 11 |
 | Cisco Board Pro G2 75 | `RoomOS11.15` | September 3, 2025 |  Medium size room (4.5 m x 6 m) | 11 |
@@ -155,7 +156,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Cisco Desk Pro | `RoomOS11.5` | September 3, 2025 | Focus Room | 11 |
 | Cisco Room Navigator | `RoomOS11.5` | October 4, 2026 | Compatible with Cisco Room Bar and Cisco Room Kit Pro | 12 |
 | DTEN D7X 75" | `1.2.8` |  October 4, 2026 |  Medium size room (4.5 m x 6 m) | 12 |
-| DTEN Mate Touch Console | `2.0.2.0` | Septmber 3, 2025 |  Compatible with DTEN D7X 55" and DTEN D7X 75" Meeting Board | 10 |
+| DTEN Mate Touch Console | `2.0.2.0` | Septmber 3, 2025 |  Compatible with DTEN DCR200 Bar, DTEN D7X 55" and DTEN D7X 75" Meeting Board | 10 |
 | DTEN D7X 55" | `1.2.2` | October 4, 2026 | Small meeting room (4.5 m x 4.5 m) | 12 |
 | EPOS Expand 5T | `1.2.22362.04` | September 3, 2025 | Small meeting room (4.5 m x 4.5 m) | 10 |
 | EPOS EXPAND Control Touch Console | `1.2.22250.08` | September 3, 2025 | Compatible with EPOS Expand 5T Collaboration Bar. | 10 |
