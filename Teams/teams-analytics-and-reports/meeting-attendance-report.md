@@ -77,7 +77,7 @@ As an admin, you control whether organizers can view and download the attendance
 
 ## Manage attendance report policies with PowerShell
 
-In PowerShell, you can use the **`-AllowEngagementReport`** parameter and [Set-CsTeamsMeetingPolicy cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy) to turn on attendance and engagement reports. This policy is on by default.
+In PowerShell, you can use the **`-AllowEngagementReport`** parameter and [Set-CsTeamsMeetingPolicy cmdlet](/powershell/module/teams/set-csteamsmeetingpolicy) to turn on attendance and engagement reports. This policy is on by default.
 
 To turn off attendance and engagement reports, use the following script:
 
@@ -107,4 +107,4 @@ Set-CsTeamsMeetingPolicy -Identity <policy name> -InfoShownInReportMode identity
 - [Plan for town halls](../plan-town-halls.md)
 - [Plan for meetings](../plan-meetings.md)
 - [Teams policies reference - Meeting policies](../settings-policies-reference.md#meeting-policies)
-- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
+- [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)

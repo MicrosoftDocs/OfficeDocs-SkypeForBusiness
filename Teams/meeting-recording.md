@@ -1,7 +1,7 @@
 ---
 title: Teams meeting recording
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
@@ -57,29 +57,33 @@ External participants can't record meetings except in the case of [Teams policy-
 
 You can use the Microsoft [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851) or PowerShell to set a Teams meeting policy to control whether users' meetings can be recorded. Both the meeting organizer and the recording initiator need to have recording permissions to record the meeting.
 
-Many users use meetings and calls interchangeably depending on their needs. We recommend you check your call recording policy settings as well. If the settings are different for meetings and calls, it may cause confusion for your users.
+Many users use meetings and calls interchangeably depending on their needs. We recommend that you check your call recording policy settings as well. If the settings are different for meetings and calls, it may cause confusion for your users.
 
 # [**Meeting policy**](#tab/meeting-policy)
 
-To allow or prevent meeting recordings
-1. In the Microsoft [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851), expand **Meetings**.
+To allow or prevent meeting recordings:
+
+1. In the Microsoft [Teams admin center](https://admin.teams.microsoft.com/), expand **Meetings**.
 1. Select **Meeting policies**.
 1. Select the policy that you want to edit.
 1. Turn **Meeting recording** On or Off.
 1. Select **Save**.
 
-With PowerShell, you configure the `-AllowCloudRecording` parameter in [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
+With PowerShell, you configure the `-AllowCloudRecording` parameter in [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy).
 
 # [**Calling policy**](#tab/calling-policy)
 
-To allow or prevent call recordings
+To allow or prevent call recordings:
+
 1. In the Microsoft [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851), expand **Voice**.
 1. Select **Calling policies**.
 1. Select the policy that you want to edit.
 1. Turn **Cloud recording for calling** On or Off.
 1. Select **Save**.
 
-With PowerShell, you configure the `-AllowCloudRecordingForCalls` parameter in [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
+With PowerShell, you configure the `-AllowCloudRecordingForCalls` parameter in [Set-CsTeamsCallingPolicy](/powershell/module/teams/set-csteamscallingpolicy).
+
+For more information on call recording, see [Configure call recording, transcription, and captions in Teams](call-recording-transcription-captions.md).
 
 ---
 
@@ -141,7 +145,7 @@ Follow these steps in the Teams admin center to turn explicit recording consent 
 
 Through PowerShell, you can manage explicit recording consent for users or groups in your organization:
 
-The **`-ExplicitRecordingConsent`** parameter in the [**CsTeamsMeetingPolicy**](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet controls whether meetings created by organizers with this assigned policy require participants to provide explicit consent for recordings.
+The **`-ExplicitRecordingConsent`** parameter in the [**CsTeamsMeetingPolicy**](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet controls whether meetings created by organizers with this assigned policy require participants to provide explicit consent for recordings.
 The following table shows the behaviors of the settings for the **`-ExplicitRecordingConsent`** parameter:
 
 |Setting value| Behavior|
@@ -157,7 +161,7 @@ Set-CsTeamsMeetingPolicy -Identity <policy name> -ExplicitRecordingConsent Enabl
 
 ## Block or allow download of channel meeting recordings
 
-Using PowerShell, the `-ChannelRecordingDownload` parameter in [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) controls if channel members can download meeting recordings. This is done by controlling which folder recordings are stored in.
+Using PowerShell, the `-ChannelRecordingDownload` parameter in [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) controls if channel members can download meeting recordings. This is done by controlling which folder recordings are stored in.
 
 The two values for this setting are:
 

@@ -26,8 +26,8 @@ tblPrincipalMeta contains the principals that have to be refreshed from Active D
 |prinID  <br/> |int, not null  <br/> |Principal ID.  <br/> |
 |prinAffiliationsDirty  <br/> |bit, not null  <br/> |True if principal affiliations have to be refreshed.  <br/> |
 |prinAttributesDirty  <br/> |bit, not null  <br/> |True if principal attributes have to be refreshed.  <br/> |
-|prinDeleted  <br/> |bit, not null  <br/> |True if the principal has been deleted.  <br/> |
-|tryCount  <br/> |int  <br/> |Number of attempts to refresh the principal from AD DS that have happened so far.  <br/> |
+|prinDeleted  <br/> |bit, not null  <br/> |True if the principal is deleted.  <br/> |
+|tryCount  <br/> |int  <br/> |Number of attempts to refresh the principal from AD DS that has happened so far.  <br/> |
 |lastTry  <br/> |datetime  <br/> |Time stamp from the latest attempt to refresh the principal. Can be null if no refresh has been attempted yet.  <br/> |
 |nextTry  <br/> |datetime  <br/> |Time stamp for the next scheduled refresh. Can be null if no further refresh has been scheduled.  <br/> |
    
