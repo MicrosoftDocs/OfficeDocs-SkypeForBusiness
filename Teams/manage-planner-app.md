@@ -54,7 +54,7 @@ Users can also use the Planner app to get notifications about Planner tasks. To 
 > [!NOTE]
 > There's limited functionality when using the Planner app on Teams mobile. On mobile, users will only see plans that are added to a tab in a channel within a team.
 
-For organizations who want to streamline task management for frontline workers, Planner also includes capabilities that enable you to target, publish, and track tasks at scale across your frontline workforce. For example, corporate and regional leadership can create and publish task lists targeted to relevant locations, such as specific retail stores, and track progress through real-time reports. Managers can assign tasks to their staff and direct activities within their locations, and frontline workers have a prioritized list of their assigned tasks on mobile or desktop. To enable [task publishing](#task-publishing), first set up a team targeting hierarchy for your organization, which defines how all teams in the hierarchy are related to each other.
+For organizations who want to streamline task management for frontline workers, Planner also includes capabilities to distribute and monitor tasks across frontline locations. See the [Frontline workers and managers](#frontline-workers-and-managers) section later in this article.
 
 ## Set up Planner
 
@@ -86,9 +86,11 @@ App setup policies let you customize Teams to pin apps that are most important f
 
 To pin the Planner app for your users, you can edit the global (Org-wide default) policy or create and assign a custom policy in app setup policy. To learn more, see [Use app setup policies to pin and auto install apps for users](teams-app-setup-policies.md).
 
-For more information about the default app setup policy for users who are assigned an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline), see the [Tailored frontline app experience for frontline workers and managers](#tailored-frontline-app-experience-in-teams-for-frontline-workers-and-managers) section.
+As described in the [Frontline workers and managers](#frontline-workers-and-managers) section in this article, there's a default app setup policy for users who are assigned an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline).
 
-#### Tailored frontline app experience in Teams for frontline workers and managers
+## Frontline workers and managers
+
+### Tailored frontline app experience in Teams
 
 The tailored frontline app experience in Teams pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline) assigned to them. This feature is enabled by default, giving your frontline workers an out-of-the-box experience tailored to reflect workloads used by frontline employees.
 
@@ -102,7 +104,7 @@ If you don't want a user to see **My Tasks**, you can hide it. To hide **My Task
 
 We don't recommend removing an Exchange Online license for information workers, but there might be some scenarios where you can hide **My Tasks** in this way, such as for frontline workers who don't depend on email.
 
-## Task publishing
+### Task publishing
 
 With task publishing, your organization can [publish task lists](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) targeted to specific locations (teams) across your organization to define and share a work plan to be completed at those locations.
 
@@ -111,15 +113,13 @@ With task publishing, your organization can [publish task lists](https://support
 - Frontline workers have a simple mobile experience to see tasks assigned to them. They can attach photos to show their work when appropriate and mark their tasks as completed.
 - Publishers and managers can view reports to see assignment and completion status of tasks at each level, including by location (team), task list, and individual task.
 
-Users create, manage, and publish task lists in the Planner app, by selecting the **My tasks & plans** dropdown menu, and then choosing **Publishing**. This menu only shows for a user if your organization [set up a team targeting hierarchy](#set-up-your-team-targeting-hierarchy) *and* the user is part of a team that's included in the hierarchy. The hierarchy determines whether the user can publish or receive task lists and view reporting for received lists.
+Users create, manage, and publish task lists by selecting the **My tasks & plans** dropdown menu in the Planner app, and then choosing **Publishing**. This menu only shows for a user if your organization [set up a team targeting hierarchy](#set-up-your-team-targeting-hierarchy) *and* the user is part of a team that's included in the hierarchy. The hierarchy determines whether the user can publish or receive task lists and view reporting for received lists.
 
 :::image type="content" source="media/manage-planner-app-publishing.png" alt-text="Screenshot of the My tasks & plans dropdown menu, showing the Publishing option":::
 
-### Example scenario
+See this short [task publishing video](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) with an example scenario.
 
-See this short [Task Publishing video](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) with an example scenario.
-
-### Set up your team targeting hierarchy
+#### Set up your team targeting hierarchy
 
 To enable task publishing in your organization, you have to first set up your team targeting schema in a .CSV file. The schema defines how all the teams in your hierarchy are related to each other and also defines the attributes that can be used to filter and select teams. After you create the schema, upload it to Teams to apply it to your organization. Members of the publishing team, such as the Retail Communications Manager in the example scenario, can then filter teams by hierarchy, attributes, or a combination of both to select the relevant teams that should receive the task lists, and then publish the task lists to those teams.
 
@@ -154,9 +154,9 @@ Planner tasks can be managed using Microsoft Graph and the Power Automate connec
 
 Premium plans and tasks are stored in Dataverse and managed via the Project service. When a task is assigned to a user, it's also stored in the same Azure location as basic plans. Attachments are stored in the SharePoint location for the group.
 
-See [Project for the web get started guide for administrators](/project-for-the-web/project-for-the-web-get-started-guide-for-admins) to learn more about the Project service.
+To learn more about the Project service, see [Project for the web get started guide for administrators](/project-for-the-web/project-for-the-web-get-started-guide-for-admins).
 
-See the [Power Platform admin documentation](/power-platform/admin/) to learn more about managing the Power Platform.
+To learn more about managing Power Platform, see the [Power Platform admin documentation](/power-platform/admin/).
 
 Support for programmability is available via our scheduling API. To learn more, see [Use Project schedule APIs to perform operations with Scheduling entities](/dynamics365/project-operations/project-management/schedule-api-preview).
 
@@ -168,4 +168,4 @@ See the [Project for the web service description](/office365/servicedescriptions
 
 ## Give feedback or report an issue
   
-To send us feedback or report an issue, select **Help** near the bottom of the left pane in Teams, and then select **Report a problem**. Select **Planner**, and then enter your feedback or details about the issue you're experiencing.
+To send us feedback or report an issue, select **Help** in the upper-right corner, select **Feedback**, and then enter your feedback or details about the issue you're experiencing.
