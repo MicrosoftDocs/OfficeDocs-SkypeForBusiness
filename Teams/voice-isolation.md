@@ -1,5 +1,5 @@
 ---
-title: Manage voice isolation for your users' Microsoft Teams meetings
+title: Manage voice isolation for your users' Microsoft Teams calls and meetings
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
