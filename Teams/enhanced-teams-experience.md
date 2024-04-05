@@ -48,6 +48,13 @@ The following sections describe the Teams Premium enhancements for:
 - [Premium events](#premium-events)
 - [Virtual Appointments](#advanced-virtual-appointments)
 
+For more information about Teams meetings and premium events in general, see the following articles:
+
+- [Meetings, webinars, and townhalls](overview-meetings-webinars-town-halls.md)
+- [Plan for Teams meetings](plan-meetings.md)
+- [Plan for Teams webinars](plan-webinars.md)
+- [Plan for Teams town halls](plan-town-halls.md)
+
 >[!Note]
 >We will continue to update this article. Check back often for links to new content.
 
@@ -67,8 +74,6 @@ Teams Premium provides additional ways to safeguard and monitor users' Teams exp
 
 - **Advanced collaboration analytics** - In the Teams admin center, Teams admins can view data on their users, teams, federated domains, channels, and guests concerning their external collaboration activity.
 
-- **Priority account chat controls** - Allow users to block chats from people inside your organization.
-
 | Feature/Task  | Documentation for administrators | Documentation for your end users
 | -------------------- | ----------- | ------------ |
 | Sensitivity labels | [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md) | |
@@ -79,7 +84,6 @@ Teams Premium provides additional ways to safeguard and monitor users' Teams exp
 | Manage what attendees see | No admin control. | [Manage what attendees see in Teams meetings](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|
 | Hide attendee names | [Allow meeting and webinar organizers to hide the names of attendees](hide-attendee-names.md) | |
 | Advanced collaboration analytics | [Advanced Collaboration Analytics for Microsoft Teams](advanced-collaboration-analytics.md) | No end-user controls. |
-| Priority account chat controls | [Allow users to block Microsoft Teams chat messages](block-incoming-chats.md) |  |
 
 ## Custom meetings
 
@@ -105,12 +109,19 @@ Teams Premium provides the following additional features for customizing meeting
 
 ## Premium events
 
+Premium events include town halls and webinars.
+
+- **[Town halls](#town-halls)** bring interactive video streaming to a new level. Town halls are meant for one-to-many communications where the presenters, organizers, and co-organizers are leading the interactions. The audience participation is primarily to view and react to the content being shared.
+
+- **[Webinars](#webinars)** provide a two-way interactive virtual event where the presenters deliver information to attendees. This format provides extra control for an organizer over the conversation and participants.
+
+The following sections describe Teams Premium feature enhancements for townhalls and webinars. For more information about planning for town halls, webinars, and meetings in general, see [Plan for town halls](plan-town-halls.md), [Plan for webinars](plan-webinars.md), and [Meetings, webinars, and town halls](overview-meetings-webinars-town-halls.md).
+
 ### Town halls
 
 Teams Premium provides the following features for an enhanced town hall experience:
 
 - **Custom emails** - Organizers and co-organizers can customize the town hall email templates sent to attendees.
-- **Custom town hall reminder email send times** - Town hall reminder emails are automatically sent to registrants an hour before the event starts. With Teams Premium, organizers can edit the send time to notify attendees sooner.
 - **Increased broadcast and Q&A capacity**- Organizers can broadcast their town halls to 20,000 attendees. All attendees can use Q&A to interact with presenters, organizers, and co-organizers.
 - **Increased languages for live translations**- Attendees have 10 language options for  live translated captions in town halls. These languages include:
 
