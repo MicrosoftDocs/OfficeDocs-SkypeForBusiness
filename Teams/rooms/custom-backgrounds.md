@@ -92,6 +92,8 @@ If you're not sure what the aspect ratio of your display is, check your display'
 
 > [!IMPORTANT]
 > Custom backgrounds with resolutions higher than the recommended resolution for a display may be center-cropped.
+
+<!-- @Henrika - give me explicit directions for each images that needs added or replaced using this XLM comment.  -->!
 >
 > :::image type="content" source="../media/front-of-room-16-9-center-crop.png" alt-text="A custom background showing a center crop in a larger image." lightbox="../media/front-of-room-16-9-center-crop-large.png":::
 >
