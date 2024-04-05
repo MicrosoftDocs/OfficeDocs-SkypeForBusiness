@@ -91,10 +91,6 @@ For organizers with this policy to have the default value for Copilot set to **O
 Set-CsTeamsMeetingPolicy -Identity <policy name> -Copilot Enabled
 ```
 
-If users in your tenant can't use this feature properly, it might be because the noise suppression model isn't downloaded properly. To confirm, please make sure the following URL is included in your allow list:
-
-- https://aiinfrastructure.static.microsoft/public/aiinfrastructure/tsg_model_file/d1579e8339689379a218e26beea3825b68b9e75ec9dbb41aeb2be78510fead3c/model.gz
-
 ## Related articles
 
 - [Microsoft Copilot for Microsoft 365 documentation](/microsoft-365-copilot)
