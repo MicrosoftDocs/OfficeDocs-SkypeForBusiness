@@ -42,7 +42,7 @@ The logs will be output as a ZIP file in c:\rigel.
 ### Managing Disk Space
 <a name="Space"> </a>
 
-Downloaded logs on the device can take up disk space. If logs are not regularly cleaned up, they can interfere with the normal functionality of the room. Teams Rooms deletes downloaded logs after 30 days. IT admins can override the log clean-up using the device registry setting.
+Downloaded logs on the device can take up disk space. If logs aren't regularly cleaned up, they can interfere with the normal functionality of the room. Teams Rooms deletes downloaded logs after 30 days. IT admins can override the log clean-up using the device registry setting.
 
 |Setting|Allows|
 |:-----|:-----|
@@ -109,11 +109,11 @@ This section covers system settings that Microsoft Teams Rooms depends on to fun
 
 Joining Teams Rooms to an Active Directory domain provides the following benefits:
 
-- Domain-joining Teams Rooms enables you to grant domain users and groups administrative rights. By doing so, you will not have to remember the local machine level administrator account password.
+- Domain-joining Teams Rooms enables you to grant domain users and groups administrative rights. By doing so, you won't have to remember the local machine level administrator account password.
 
 - You can deploy Windows Quality of Service configuration to Teams Rooms.
 
-When you join Teams Rooms to a domain, it is required that you create a separate Organizational Unit (OU), so that you can provide Group Policy Object (GPO) exclusions to the OU where all Teams Rooms objects reside. Disable all GPO inheritance so that unsupported Group Policy settings do not get applied to Teams Rooms. Create machine objects in the OU before joining Teams Rooms to the domain to assure that Group Policies applied to the default computers OU are not applied.
+When you join Teams Rooms to a domain, it's required that you create a separate Organizational Unit (OU), so that you can provide Group Policy Object (GPO) exclusions to the OU where all Teams Rooms objects reside. Disable all GPO inheritance so that unsupported Group Policy settings don't get applied to Teams Rooms. Create machine objects in the OU before joining Teams Rooms to the domain to assure that Group Policies applied to the default computers OU aren't applied.
 
 > [!NOTE]
 > Even if you create a separate OU and block inheritance, there are some group policies which could cause issues if they have No Override set. A Group Policy with No Override set beats an OU with Block Policy Inheritance set.
@@ -241,7 +241,7 @@ Some management functions, like manually installing a private CA certificate, re
 7. Perform the necessary administrative tasks.
 8. Restart the machine when you're finished.
     
-The console is now back in its normal operation mode. The following procedure requires you to attach a keyboard to the device if one is not already attached. 
+The console is now back in its normal operation mode. The following procedure requires you to attach a keyboard to the device if one isn't already attached. 
 
 ### Clearing the Teams Rooms on Windows Client Cache
 
@@ -258,7 +258,7 @@ The console is now back in its normal operation mode. The following procedure re
 7. Restart the Teams Rooms device.
 8. Sign in and restart again, once the Teams Room's interface has appeared.
 
-### Changing the Teams Room console language or date & time format
+### Changing the Teams Rooms console language or date & time format
 
 1. Switch to Admin mode.
 2. Select the **Start** menu.
