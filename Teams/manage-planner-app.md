@@ -164,7 +164,7 @@ Support for programmability is available via our scheduling API. To learn more, 
 
 Users with a Microsoft 365 license are entitled to the Planner app. Users with a Planner premium license such as Planner Plan 1, Project Plan 3, or Project Plan 5, can use the premium capabilities in Planner. Users with a Microsoft 365 license can continue to collaborate on premium plans but won't be able to use the premium features without a premium license.
 
-See the [Project for the web service description](/office365/servicedescriptions/project-online-service-description/project-web-service-description) to learn more about the capabilities available across subscriptions.
+See the [Project for the web service description](/office365/servicedescriptions/project-online-service-description/project-web-service-description) to learn more about the capabilities available across Microsoft 365 and Planner premium subscriptions.
 
 ## Give feedback or report an issue
   
