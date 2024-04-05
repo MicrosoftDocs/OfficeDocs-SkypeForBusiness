@@ -54,7 +54,7 @@ Users can also use the Planner app to get notifications about Planner tasks. To 
 > [!NOTE]
 > There's limited functionality when using the Planner app on Teams mobile. On mobile, users will only see plans that are added to a tab in a channel within a team.
 
-For organizations who want to streamline task management for frontline workers, Planner also includes capabilities to distribute and monitor tasks across frontline locations. See the [Frontline workers and managers](#frontline-workers-and-managers) section later in this article.
+For organizations who want to streamline task management for frontline workers, Planner also includes capabilities to distribute and monitor tasks across frontline locations. See the [Frontline workers and managers](#frontline-workers-and-managers) section of this article.
 
 ## Set up Planner
 
@@ -86,7 +86,7 @@ App setup policies let you customize Teams to pin apps that are most important f
 
 To pin the Planner app for your users, you can edit the global (Org-wide default) policy or create and assign a custom policy in app setup policy. To learn more, see [Use app setup policies to pin and auto install apps for users](teams-app-setup-policies.md).
 
-As described in the [Frontline workers and managers](#frontline-workers-and-managers) section in this article, there's a default app setup policy for users who are assigned an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline).
+As described in the [Frontline workers and managers](#frontline-workers-and-managers) section of this article, there's a default app setup policy for users who are assigned an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline).
 
 ## Frontline workers and managers
 
