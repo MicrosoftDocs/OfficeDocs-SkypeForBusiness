@@ -4,22 +4,22 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.date: 10/04/2023
-ms.topic: conceptual
-audience: ITPro
+ms.reviewer: sohailta
+ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-search.appverid: MET150
-ms.reviewer: sohailta
-description: A lookbook and guide for meeting room optimization with Teams Rooms solutions and devices.
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
-  - Tier1
   - teams-rooms-devices
+  - Tier1
 f1.keywords: 
   - NOCSH
 localization_priority: Normal
-appliesto: 
-  - Microsoft Teams
+search.appverid: MET150
+description: A lookbook and guide for meeting room optimization with Teams Rooms solutions and devices.
 ---
 
 # Meeting room guidance for Teams

@@ -116,7 +116,6 @@ Per-country regulatory requirements specify data retention of detailed call reco
 | :---: | :--- | :--- |
 | CA – Canada | 150 | 150 |
 | CH – Switzerland | 365 | 365 |
-| DE – Germany | 365 | 100 |
 | DK – Denmark | 365 | 365 |
 | FI – Finland | 365 | 365 |
 | FR – France | 365 | 365 |
@@ -126,7 +125,7 @@ Per-country regulatory requirements specify data retention of detailed call reco
 | NL – Netherlands | 180 | 180 |
 | NO – Norway | 150 | 150 |
 | SE – Sweden | 180 | 180 |
-| UK – United Kingdom | 450 | 450 |
+| GB – Great Britain | 450 | 450 |
 | All other countries | 365 | 150 |
 
 Note that these rules apply to the PSTN and Direct Routing reports in Tenant Admin Center, data export, and the PSTN and Direct Routing call logs available via Microsoft Graph. Data retention in other reports, such as Call Analytics and Call Quality Dashboard, may differ.
@@ -179,6 +178,7 @@ The first row of the CSV contains column names. All dates are UTC and in [ISO 86
 > | 21 | Capability | `nvarchar(32)` | The license used for the call |
 > | 22 | Operator | `nvarchar(32)` | Microsoft |
 > | 23 | Source of Call Duration | `nvarchar(32)` | Microsoft |
+> | 24 | Administrative Units | `uniqueidentifier` |  Collection of administrative units associated to a call. |
 
 ### Exported Direct Routing usage report
 
@@ -210,6 +210,8 @@ You can export data up to five months (150 days) from the current date unless co
 > | 20 | SBC FQDN | `nvarchar(64)` | Fully qualified domain name of the session border controller |
 > | 21 | Media bypass | `nvarchar(3)` | Yes/No. Indicates if the trunk was enabled for media bypass or not |
 > | 22 | Shared correlation ID | `uniqueidentifier` | Indicates that two or more calls are related |
+> | 23 | Administrative Units | `uniqueidentifier` |  Collection of administrative units associated to a call. |
+> | 24 | Transfer or Correlation ID | `uniqueidentifier` |  Indicates CorrelationId from call between Transferee and Transferor|
 
 
 ## Related topics

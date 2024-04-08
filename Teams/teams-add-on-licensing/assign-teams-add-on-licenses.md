@@ -18,7 +18,7 @@ search.appverid: MET150
 f1.keywords: 
   - NOCSH
 ms.reviewer: mikedav
-ms.date: 12/14/2018
+ms.date: 03/26/2024
 description: Learn how to assign Teams add-on licenses to users for capabilities like Audio Conferencing, Phone System, and Calling Plans.
 appliesto: 
   - Microsoft Teams
@@ -154,7 +154,7 @@ To learn more, see [View licenses and services with PowerShell](/office365/enter
 | Microsoft 365 Business | SPB|
 | Audio Conferencing | MCOMEETADV |
 | Audio Conferencing Pay Per Minute (pay as you go) Requires Communications Credits to be set up and enabled.* | MCOMEETACPEA |
-| Teams Phone Standard | MCOEV |
+| Teams Phone Standard and Teams Phone Standard for Frontline Workers | MCOEV |
 | Teams Phone with Calling Plan | MCOTEAMS_ESSENTIALS |
 | International Calling Plan | MCOPSTN2 |
 | Domestic Calling Plan (3000 minutes per user/month for US/PR/CA, 1200 minutes per user/month for EU countries/regions) | MCOPSTN1 |
@@ -169,7 +169,8 @@ To learn more, see [View licenses and services with PowerShell](/office365/enter
 | Microsoft Teams Rooms Pro without Audio Conferencing | Microsoft_Teams_Rooms_Pro_without_Audio_Conferencing |
 | Microsoft Teams Shared Devices | MCOCAP |
 | Microsoft Teams Premium | Microsoft_Teams_Premium |
-| Microsoft Teams EEA | Microsoft_Teams_EEA |
+| Microsoft Teams Enterprise EEA | Microsoft_Teams_EEA |
+| Microsoft Teams Enterprise | Microsoft_Teams_Enterprise |
 
 ## Related content
 

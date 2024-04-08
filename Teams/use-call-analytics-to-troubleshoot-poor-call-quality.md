@@ -54,7 +54,7 @@ To get additional information about a given session, including detailed media an
 
 This video shows the steps to view a user's meetings and call information.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53x2e?autoplay=false]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1c7Fp?autoplay=false]
 
 ## What does each Teams Support role do?
 

@@ -3,22 +3,22 @@ title: Plan your deployment for Teams phone devices and Displays
 ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
-ms.reviewer: tony.woodruff
+ms.reviewer: kponnus
 ms.date: 12/17/2021
-ms.topic: reference
+ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
 audience: Admin
 appliesto: 
   - Microsoft Teams
-f1.keywords: 
-  - NOCSH
-search.appverid: MET150
-description: This article provides an overview of the tasks and steps to deploy Teams phones and displays in your organization.
 ms.collection: 
   - teams-rooms-devices
   - Teams_ITAdmin_Devices
   - Tier1
+f1.keywords: 
+  - NOCSH
+search.appverid: MET150
+description: This article provides an overview of the tasks and steps to deploy Teams phones and displays in your organization.
 ---
 
 # Plan your deployment for Teams phone devices and Displays

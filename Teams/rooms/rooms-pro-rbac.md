@@ -4,18 +4,17 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: altsou
-ms.date: 03/25/2020
+ms.date: 04/04/2024
 ms.topic: article
-ms.tgt.pltfrm: cloud
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-audience: Admin
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
-  - Tier3
-appliesto: 
-  - Microsoft Teams
+  - Tier1
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn about role-based access control in the Microsoft Teams Rooms Pro Management Portal.
@@ -75,7 +74,7 @@ The following table summarizes what each role can do.
 |    |Modify        |&#10004;           |         ||
 ## Create a custom role
 
-If the built-in roles do not suit your organizational needs, you can create a role and configure its permissions as desired. To create a role, you must be a Global Administrator or Managed Service Administrator. 
+If the built-in roles do not suit your organizational needs, you can create a role and configure its permissions as desired. To create a role, you must be a Global Administrator or Teams Rooms Pro Manager role. 
 
 1. In the left navigation of the Microsoft Teams Rooms Pro Management portal, go to **Settings** > **Roles**.
 2. Select **Create role**.
@@ -88,7 +87,7 @@ If the built-in roles do not suit your organizational needs, you can create a ro
 
 ## Assign a role
 
-To assign roles, you must be a Global Administrator or Managed Service Administrator or have a role with role management permissions.
+To assign roles, you must be a Global Administrator or Teams Rooms Pro Manager role or have a role with role management permissions.
 
 1. In the left navigation of the Microsoft Teams Rooms Pro Management portal, expand **Settings** > **Roles**.
 

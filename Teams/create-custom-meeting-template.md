@@ -1,12 +1,12 @@
 ---
 title: IT admins - Create a custom meeting template in Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ralphmaamari
-ms.date: 06/23/2023
+ms.reviewer: janineco
+ms.date: 01/08/2024
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -25,7 +25,7 @@ description: Learn how Microsoft Teams administrators can create a custom meetin
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
-Microsoft Teams custom meeting templates (a Teams Premium feature) allow you to specify values for many of the meeting options available to meeting organizers. Templates can configure options that meeting organizers can change or can lock options so that meeting organizers can't change them. For more information about custom meeting templates, see [Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md).
+Microsoft Teams custom meeting templates (a Teams Premium feature) allow you to specify values for many of the meeting options available to meeting organizers. Templates can be used to configure options that meeting organizers can change or can be used to lock options so that meeting organizers can't change them. For more information about custom meeting templates, see [Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md).
 
 You can create up to 50 custom templates. See [Manage meeting templates in Microsoft Teams](manage-meeting-templates.md) for information on how to manage which templates are available to your users.
 
@@ -49,7 +49,7 @@ Use this procedure to create a custom meeting template in the Teams admin center
 To create a custom meeting template
 
 1. In the Teams admin center, expand **Meetings** and select **Meeting templates**.
-1. Select **Add**
+1. Select **Add**.
 1. Type a name and description for the template. Note that the name and description will truncate after 40 characters when viewed in Teams, but the full name and description are viewable on hover.
 1. Choose the options that you want to use for this template. (See the sections below for descriptions of each option.)
 1. To prevent the meeting organizer from changing an option, select the option and then select **lock**.
@@ -58,7 +58,7 @@ To create a custom meeting template
 
 Once the template has been created, it may take up to 24 hours to be available to your users.
 
-Note that if you change the options of an existing template, it will affect new meetings scheduled using that template as well as any meetings that have already been scheduled with that template.
+Note that if you change the options of an existing template, the changes affect new meetings scheduled using that template as well as any meetings that have already been scheduled with that template.
 
 #### Security
 
@@ -67,9 +67,10 @@ Note that if you change the options of an existing template, it will affect new 
 |Apply sensitivity label|Specifies the meeting sensitivity label to be used for the meeting. Note that the sensitivity label may override certain options in the template. Once you save the template, the label can't be changed in the template, but organizers can change the label if you leave the option unlocked.|
 |Who can bypass the lobby?|Specifies who can bypass the lobby and join the meeting directly.|
 |People dialing in can bypass the lobby|Specifies if people calling in by phone can bypass the lobby and join the meeting directly.|
-|End-to-end encryption|Specifies if the meeting uses end-to-end encryption. Recording and transcription won't work if this is on.|
+|End-to-end encryption|Specifies if the meeting uses end-to-end encryption. Recording and transcription don't work if this is on.|
 |Enable watermark for screenshare|Specifies if a watermark is overlaid on content that is shared on screen in the meeting.|
 |Enable watermark for video|Specifies if a watermark is overlaid on attendees' video feeds in the meeting.|
+|Restrict participants from copying or forwarding meeting chat messages|Prevents participants from copying or forwarding content in the meeting chat.|
 
 #### Audio & video
 

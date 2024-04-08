@@ -49,7 +49,7 @@ It's important to know that assigning a voice routing policy to a user doesn't e
 
 ### Use PowerShell
 
-See [New-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/new-csonlinevoiceroutingpolicy).
+See [New-CsOnlineVoiceRoutingPolicy](/powershell/module/teams/new-csonlinevoiceroutingpolicy).
 
 ## Edit a call routing policy
 
@@ -65,13 +65,13 @@ You can edit the global policy or any custom policies that you create.
 
 ### Use PowerShell
 
-See [Set-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/set-csonlinevoiceroutingpolicy).
+See [Set-CsOnlineVoiceRoutingPolicy](/powershell/module/teams/set-csonlinevoiceroutingpolicy).
 
 ## Assign a custom call routing policy to users
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-See also [Grant-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/grant-csonlinevoiceroutingpolicy).
+See also [Grant-CsOnlineVoiceRoutingPolicy](/powershell/module/teams/grant-csonlinevoiceroutingpolicy).
 
 ## Related articles
 
