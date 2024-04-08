@@ -67,8 +67,8 @@ Teams Rooms Pro management doesn't monitor or record audio, video, media, or mee
  
 |Category|Details|Reason for Query|
 | :- | :- | :- |
-|Ongoing data collection and management|IP Address, identity of the room account (Exchange, Skype for Business and/or Teams), Location coordinates, emails and communication within portal with Microsoft or software|Identify and connect to the system under management; identify, diagnose, and mitigate failures; track usage, analytics, and insights; query and repair connectivity status|
-|Ad hoc data collection and management|Event log information, user activity/Identity from the room user logged in log file along with diagnostics information, Windows system queries (Examples: List of USB devices, power state, etc.)|Identify, diagnose, and mitigate failures and for usage, analytics, and insights|
+|Ongoing data collection and management|IP Address, identity of the room account (Exchange, Skype for Business and/or Teams), Location coordinates, emails, and communication within portal with Microsoft or software|Identify and connect to the system under management; identify, diagnose, and mitigate failures; track usage, analytics, and insights; query and repair connectivity status|
+|Ad hoc data collection and management|Event log information, user activity/Identity from the room user logged in log file along with diagnostics information, Windows system queries (Examples: List of USB devices, power state, etc.)|Identify, diagnose, and mitigate failures and for usage, analytics, and insights.|
 
 Certain sensitive data in the Device Activity log is redacted out locally (not collected by Teams Rooms Pro management):
 
