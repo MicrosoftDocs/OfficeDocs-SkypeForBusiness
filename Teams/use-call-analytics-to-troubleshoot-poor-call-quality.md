@@ -38,13 +38,13 @@ This article assumes that you've already set up Call Analytics. If you haven't, 
 
 Call Analytics shows detailed information about Teams calls and meetings for each user in your Office 365 account. It includes information about devices, networks, connectivity, and call quality (any of these can be a factor in poor call or meeting quality). If you upload building, site, and tenant information, this information will also be shown for each call and meeting. Use Call Analytics to help you figure out why a user had a poor call or meeting experience.
 
-Call Analytics shows you each leg of a call or meeting - for example, from one participant to a second participant. By analyzing these details, a Teams admin can isolate problem areas and identify the root cause for poor quality.
+Call Analytics shows you each leg of a call or meeting - for example, from one participant to a second participant. By analyzing these details, a Teams admin can isolate problem areas and identify the root cause for poor quality. Call Analytics will not show information on users who do not fully join a call or meeting (e.g. a user enters the lobby but is not admitted) because no media sessions are created in those scenarios.
 
 As the Teams admin, you get full access to all Call Analytics data for each user. In addition, you can assign Microsoft Entra roles to support staff. To learn more about these roles, read [Give permission to support and helpdesk staff](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff). Don't miss [What does each Teams Support role do?](#what-does-each-teams-support-role-do) below.
 
 ## Where to find per-user Call Analytics
 
-To see all call information and data for a user, go to the [Teams admin center](https://admin.teams.microsoft.com). Under **Users**, select a user and then open the **Meetings & Calls** tab on the user's profile page. Here you'll find all calls and meetings that the user organized or participated in for the last 30 days.
+To see all call information and data for a user, go to the [Teams admin center](https://admin.teams.microsoft.com). Under **Users**, select a user and then open the **Meetings & Calls** tab on the user's profile page. Here you'll find all calls and meetings that the user organized or participated in for the last 30 days. Note that a call or meeting may not appear in this list if no media sessions were generated; for example, no users joined a scheduled meeting.
 
 ![Screenshot of all analytics user data.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
 
