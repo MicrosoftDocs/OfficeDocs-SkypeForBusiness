@@ -3,8 +3,8 @@ title: "Use Call Analytics to troubleshoot poor call quality"
 author: mkbond007
 ms.author: mabond
 manager: pamgreen
-ms.reviewer: mikedav
-ms.date: 11/28/2017
+ms.reviewer: jamp
+ms.date: 04/09/2024
 ms.topic: article
 ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
 ms.tgt.pltfrm: cloud
@@ -41,6 +41,8 @@ Call Analytics shows detailed information about Teams calls and meetings for eac
 
 Call Analytics shows you each leg of a call or meeting - for example, from one participant to a second participant. By analyzing these details, a Teams admin can isolate problem areas and identify the root cause for poor quality. Call Analytics doesn't show information on users who don't fully join a call or meeting. For example, if a user enters the lobby but isn't admitted, they won't be included as a participant.
 
+Real-Time Analytics lets admins troubleshoot scheduled meetings while they're in progress and for 72 hours after the meeting ends. After this time period, individual meeting troubleshooting is available for Teams administrators through Call Analytics. For more information, see [Use real-time telemetry to troubleshoot poor meeting quality](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md).
+
 As the Teams admin, you get full access to all Call Analytics data for each user. In addition, you can assign Microsoft Entra roles to support staff. To learn more about these roles, read [Give permission to support and helpdesk staff](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff). Don't miss [What does each Teams Support role do?](#what-does-each-teams-support-role-do) below.
 
 ## Where to find per-user Call Analytics
@@ -49,7 +51,7 @@ To see all call information and data for a user, go to the [Teams admin center](
 
 ![Screenshot of all analytics user data.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
 
-To get additional information about a given session, including detailed media and networking statistics, click a session to see the details.
+To get additional information about a given session, including detailed media and networking statistics, select a session to see the details.
 
 ![Screenshot of call analytics user session data.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
 
@@ -76,10 +78,9 @@ The following table tells you what per-user information is available for each co
 |**Meetings**|Participant names|Only the name of the user for whom the agent searched. Other participants identified as Internal User or External User.|All names shown.|
 ||Participant count|Number of participants.|Number of participants.|
 ||Session details|Session details shown with exceptions. Only the name of the user for whom the agent searched is shown. Other participants identified as Internal User or External User. Last four digits of telephone number obfuscated with asterisk symbols.|Session details shown. User names and session details shown. Last four digits of telephone number obfuscated with asterisk symbols.|
-||||
 
 > [!NOTE]
-> The information contained in both the Advanced tab's 'Other' section and the Debug tab contains telemetry and service diagnostic data meant to assist Microsoft support engineers. Without the context of the additional data available to support engineers, it may appear to be redundant, inaccurate, or confusing. While we make it available for advanced users who are looking for another level of detail in troubleshooting call issues, we don't recommend making judgments based on this data without Microsoft support.
+> The information contained in both the Advanced tab's 'Other' section and the Debug tab contains telemetry and service diagnostic data meant to assist Microsoft support engineers. Without the context of the additional data available to support engineers, it might appear to be redundant, inaccurate, or confusing. While we make it available for advanced users who are looking for another level of detail in troubleshooting call issues, we don't recommend making judgments based on this data without Microsoft support.
 
 ## Troubleshoot user call quality problems
 
@@ -95,17 +96,18 @@ The following table tells you what per-user information is available for each co
 
    In the session details for each call or meeting, minor issues appear in yellow. If something is yellow, it's outside of normal range, and it may be contributing to the problem, but it's unlikely to be the main cause of the problem. If something is red, it's a significant problem, and it's likely the main cause of the poor call quality for this session.
 
-In rare cases, Quality of Experience data isn't received for audio sessions. Often this is caused by a dropped call or when the connection with the client terminates. When this occurs, the session rating is **unavailable**.
+In rare cases, Quality of Experience (QoE) data isn't received for audio sessions. Often this is caused by a dropped call or when the connection with the client terminates. When this occurs, the session rating is **unavailable**.
 
-For audio sessions that do have Quality of Experience (QoE) data, the following table describes major issues that qualify a session as **poor**.
+For audio sessions that do have QoE data, the following table describes major issues that qualify a session as **poor**.
 
 |Issue|Area|Description|
 |---|---|---|
 |Call setup|Session|The error code Ms-diag 20-29 indicates the call setup failed. The user couldn't join the call or meeting.|
 |Audio network classified poor call|Session|Network quality issues (such as packet loss, jitter, NMOS degradation, RTT, or concealed ratio) were encountered.|
 |Device not functioning|Device|A device isn't functioning correctly. Device not functioning ratios are: <p> DeviceRenderNotFunctioningEventRatio >= 0.005 <br>  DeviceCaptureNotFunctioningEventRatio >= 0.005|
-||||
 
-## Related topics
+## Related articles
 
 [Set up per-user call analytics](set-up-call-analytics.md)
+
+[Use real-time telemetry to troubleshoot poor meeting quality](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md)
