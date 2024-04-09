@@ -26,7 +26,7 @@ description: Learn how to manage whether users can use voice isolation for IT Ad
 
 # Manage voice isolation for your users' Microsoft Teams calls and meetings
 
-**APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
+**APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls ✔️Calls
 
 Voice isolation reduces noise and uses the personalized deep voice quality enhancement artificial intelligence (AI) model to separate the user's voice from other sounds and voices in Microsoft Teams calls and meetings. This AI model uses the voice profile that a user registers as a signature and removes any sounds or voices during a call or meeting that don't match the signature.
 
