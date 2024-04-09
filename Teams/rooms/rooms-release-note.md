@@ -663,6 +663,7 @@ Introduced in this update:
 
 |Release  |Release date  |
 |---------|---------|
+|[1449/1.0.96.2024032804](#144910962024032804-april-2024) | April 2024 |
 |[1449/1.0.96.2024030101](#144910962024030101-march-2024) | March 2024 |
 |[1449/1.0.96.2024020802](#144910962024020802-february-2024) | February 2024 |
 |[1449/1.0.96.2023120901](#144910962023120901-february-2024) | February 2024 |
@@ -688,6 +689,12 @@ Introduced in this update:
 > There can be a delay between when features are released by Microsoft and when they become available on a device make and model. If an update isn't available on your device, check with your device manufacturer for information on when it might become available.
 
 Features with :::image type="icon" source="../media/mtr-pro-icon.png"::: are only available with Teams Rooms Pro license.
+
+### 1449/1.0.96.2024032804 (April 2024)
+
+Introduced in this update:
+
+- Bug fixes for issues with launching whiteboard and meeting join failures. 
 
 ### 1449/1.0.96.2024030101 (March 2024)
 
