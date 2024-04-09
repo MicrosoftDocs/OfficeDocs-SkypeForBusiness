@@ -28,10 +28,10 @@ ms.custom: seo-marvel-mar2020
 
 You can use the following Windows PowerShell cmdlets to set and assign policy settings for live events in Teams:
 
-- [Get-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/get-csteamsmeetingbroadcastpolicy)
-- [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy)
-- [New-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/new-csteamsmeetingbroadcastpolicy)
-- [Grant-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/grant-csteamsmeetingbroadcastpolicy)
+- [Get-CsTeamsMeetingBroadcastPolicy](/powershell/module/teams/get-csteamsmeetingbroadcastpolicy)
+- [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/teams/set-csteamsmeetingbroadcastpolicy)
+- [New-CsTeamsMeetingBroadcastPolicy](/powershell/module/teams/new-csteamsmeetingbroadcastpolicy)
+- [Grant-CsTeamsMeetingBroadcastPolicy](/powershell/module/teams/grant-csteamsmeetingbroadcastpolicy)
 - [New-CsGroupPolicyAssignment](/powershell/module/teams/new-csgrouppolicyassignment)
 
 Here are some examples.

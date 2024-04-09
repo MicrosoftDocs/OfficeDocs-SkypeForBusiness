@@ -230,20 +230,20 @@ Here are the steps to turn on external access for parents and guardians.
 
 Since all user-level external access policies have `EnableTeamsConsumerAccess` set to true by default, if you would like to adjust the `EnableTeamsConsumerAccess` setting for specific users, you can create/modify existing external access policies with adjusted settings and/or reassign users to new or existing policies using the following PowerShell cmdlets:
 
-- Create a new external access policy: [New-CsExternalAccessPolicy](/powershell/module/skype/new-csexternalaccesspolicy)
+- Create a new external access policy: [New-CsExternalAccessPolicy](/powershell/module/teams/new-csexternalaccesspolicy)
 
-- Customize an existing external access policy (including the 'Global' policy): [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy)
+- Customize an existing external access policy (including the 'Global' policy): [Set-CsExternalAccessPolicy](/powershell/module/teams/set-csexternalaccesspolicy)
 
 > [!NOTE]
 > The following subscription default policies cannot be modified: 'FederationAndPICDefault', 'FederationOnly', 'NoFederationAndPIC'. The 'FederationAndPICDefault' policy used to be assigned to all users by default, however new users are now assigned the 'Global' policy by default. If you need to change the policy settings for users who have these subscription default policies assigned, assign different policies with the correct settings to these users.
 
-- Assign an external access policy to a single user: [Grant-CsExternalAccessPolicy](/powershell/module/skype/grant-csexternalaccesspolicy)
+- Assign an external access policy to a single user: [Grant-CsExternalAccessPolicy](/powershell/module/teams/grant-csexternalaccesspolicy)
 
 - Assign a policy to a set of users: [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
 Once the user-level external access policies are set correctly for the users in your tenant, you can turn on the tenant-level setting (`AllowTeamsConsumer`) for the tenant using the following cmdlet:
 
-- Set the federation configuration settings for your tenant: [Set-CsTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration)
+- Set the federation configuration settings for your tenant: [Set-CsTenantFederationConfiguration](/powershell/module/teams/set-cstenantfederationconfiguration)
 
 
 
@@ -295,8 +295,8 @@ Messages sent to parents and guardians will be in plain text, without HTML, form
 
 ## More information
 
-- [CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy)
-- [CsTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration)
+- [CsExternalAccessPolicy](/powershell/module/teams/set-csexternalaccesspolicy)
+- [CsTenantFederationConfiguration](/powershell/module/teams/set-cstenantfederationconfiguration)
 
 
   

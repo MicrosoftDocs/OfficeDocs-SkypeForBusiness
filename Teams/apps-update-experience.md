@@ -92,7 +92,7 @@ For custom apps to update, after you upload the new version of the app to Teams,
 
 ## Considerations for app upgrades
 
-* If you pin or install an app, then it automatically updates to a new version if only user consent is required. When a new version is available in the Teams app store.
+* If you pin or install an app, then it automatically updates when a new version is available. However, it only updates automatically if only user consent is required.
 
 * If an app isn't updated for a user, then the user continues to use the older version of an app. If an app updates in one context but not in the other context for a user, then the user continues to use two different versions of the app.
 
