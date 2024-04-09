@@ -44,8 +44,6 @@ Call Analytics shows you each leg of a call or meeting - for example, from one p
 
 Real-Time Analytics lets admins troubleshoot scheduled meetings while they're in progress and for 72 hours after the meeting ends. After this time period, individual meeting troubleshooting is available for Teams administrators through Call Analytics. For more information, see [Use real-time telemetry to troubleshoot poor meeting quality](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md).
 
-Real-Time Analytics lets admins troubleshoot scheduled meetings while they're in progress and for 72 hours after the meeting ends. After this time period, individual meeting troubleshooting is available for Teams administrators through Call Analytics. For more information, see [Use real-time telemetry to troubleshoot poor meeting quality](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md).
-
 As the Teams admin, you get full access to all Call Analytics data for each user. In addition, you can assign Microsoft Entra roles to support staff. To learn more about these roles, read [Give permission to support and helpdesk staff](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff). Don't miss [What does each Teams Support role do?](#what-does-each-teams-support-role-do) below.
 
 ## Where to find per-user Call Analytics
