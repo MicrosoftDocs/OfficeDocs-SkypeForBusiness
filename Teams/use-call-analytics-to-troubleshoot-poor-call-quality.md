@@ -11,6 +11,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
   - M365-voice
+  - m365initiative-voice
   - Tier1
 search.appverid: MET150
 audience: Admin
@@ -44,7 +45,7 @@ As the Teams admin, you get full access to all Call Analytics data for each user
 
 ## Where to find per-user Call Analytics
 
-To see all call information and data for a user, go to the [Teams admin center](https://admin.teams.microsoft.com). Under **Users**, select a user and then open the **Meetings & Calls** tab on the user's profile page. Here you'll find all calls and meetings that the user organized or participated in for the last 30 days. A call or meeting won't appear in this list if no media sessions were generated; for example, no users joined a scheduled meeting.
+To see all call information and data for a user, go to the [Teams admin center](https://admin.teams.microsoft.com). Under **Users**, select a user and then open the **Meetings & Calls** tab on the user's profile page. Here you'll find all calls and meetings that the user organized or participated in for the last 30 days. A call or meeting won't appear in this list if no media sessions were generated. For example, if no users joined a scheduled meeting, that meeting will not appear on the list.
 
 ![Screenshot of all analytics user data.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
 
