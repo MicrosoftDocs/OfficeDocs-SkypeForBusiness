@@ -28,17 +28,15 @@ description: Learn how to manage whether users can use voice isolation for IT Ad
 
 **APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls ✔️Calls
 
-Voice isolation reduces noise and uses the personalized deep voice quality enhancement artificial intelligence (AI) model to separate the user's voice from other sounds and voices in Microsoft Teams calls and meetings. This AI model uses the voice profile that a user registers as a signature and removes any sounds or voices during a call or meeting that don't match the signature.
+Voice isolation reduces noise and uses the personalized deep voice quality enhancement artificial intelligence (AI) model to separate the user's voice from other sounds and voices in Microsoft Teams calls and meetings. As an admin, you can control whether your users can use voice isolation in calls and meetings.
 
-The voice isolation feature relies on the voice profile stored on the user's local device to enable this functionality. Your users' voice profiles are only used for the reason they gave their permission for. Microsoft doesn't use their voice profiles for anything else. To use the voice isolation feature, your users must have a voice profile. To learn about how your users can set up a voice isolation profile, see [Use Microsoft Teams Intelligent Speakers to identify in-room participants in a meeting transcription](https://support.microsoft.com/office/use-microsoft-teams-intelligent-speakers-to-identify-in-room-participants-in-a-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00#bkmk_setupvoiceprofile).
-
-As an admin, you can control whether your users can use voice isolation in calls and meetings.
+The voice isolation feature relies on the voice profile, stored on the user's local device, to remove any sounds or voices during a call or meeting that don't match the profile. Your users' voice profiles are only used for the reason they gave their permission for; Microsoft doesn't use their voice profiles for anything else. To use the voice isolation feature, your users must have a voice profile. To learn about how your users can set up a voice isolation profile, see [Use Microsoft Teams Intelligent Speakers to identify in-room participants in a meeting transcription](https://support.microsoft.com/office/use-microsoft-teams-intelligent-speakers-to-identify-in-room-participants-in-a-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00#bkmk_setupvoiceprofile).
 
 To learn more the voice isolation troubleshooting, setup, and experience for your users, see [Voice isolation in Microsoft Teams calls and meetings](https://prod.support.services.microsoft.com/office/voice-isolation-in-microsoft-teams-calls-and-meetings-a9756ea9-4cec-44c4-aefb-6f5d17c89427).
 
 ## Prerequisites
 
-Verify that the following URL is included in your allow list:
+Verify that the following URL is included in your allowlist:
 
 - https://aiinfrastructure.static.microsoft/public/aiinfrastructure/tsg_model_file/d1579e8339689379a218e26beea3825b68b9e75ec9dbb41aeb2be78510fead3c/model.gz
 
