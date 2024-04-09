@@ -41,11 +41,9 @@ General availability of New Teams for Web for Chrome and Microsoft Edge was anno
 
 ### Availability on Firefox and Safari browsers, and Linux
 
-|Date              |Availability                                                                                         |
-|:-----------------|:----------------------------------------------------------------------------------------------------|
-|1st Quarter, 2024 |<ul><li>New Teams for Web on Firefox browser on Windows, macOS, and Linux</li><li>New Teams for Web on Safari browser on macOS</li><li>Microsoft Edge and Chrome browsers with Progressive Web App (PWA) support on Linux</li></ul> |
-
-More-specific dates and details for Firefox, Safari, and PWA on Linux will be shared at a later date.
+|Date                           |Availability                                                                                         |
+|:------------------------------|:----------------------------------------------------------------------------------------------------|
+|April 1 through April 15, 2024 |<ul><li>New Teams for Web is currently rolling out to general audiences for these clients:</li><li>New Teams for Web on Firefox browser on Windows, macOS, and Linux</li><li>New Teams for Web on Safari browser on macOS</li><li>Microsoft Edge and Chrome browsers with Progressive Web App (PWA) support on Linux</li></ul> |
 
 ## How to try new Teams: App Switcher
 
