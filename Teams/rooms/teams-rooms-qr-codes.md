@@ -64,13 +64,13 @@ Like most Teams Rooms on Windows features, you can update the QR code settings o
 - To hide the QR code from your Teams Rooms on Windows home screen, you can add the following to your XML configuration profile:
 
 ```xml
-<RoomQRcodeEnabled>
+<RoomQRcodeEnabled>false</RoomQRcodeEnabled>
 ```
 
 - To disable room auto-accept for QR code meeting joins on your Teams Rooms on Windows, you can add the following to your XML configuration profile:
 
 ```xml
-<QRCodeAutoAcceptProximateMeetingInvitations>
+<QRCodeAutoAcceptProximateMeetingInvitations>false</QRCodeAutoAcceptProximateMeetingInvitations>
 ```
 
 #### Teams admin center (coming soon)
