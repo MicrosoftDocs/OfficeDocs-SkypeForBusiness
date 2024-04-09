@@ -131,7 +131,8 @@ Teams settings are used to control notification, tagging, email integration, and
 
 ##### Related articles for safety and communications
 
-[Supervised chats in Microsoft Teams](supervise-chats-edu.md)
+[Supervised chats for educational tenants](supervise-chats-edu.md)
+[Supervised chats for non-educational tenants](supervised-chat-non-edu.md)
 
 #### Shared channels
 
@@ -144,6 +145,7 @@ Teams settings are used to control notification, tagging, email integration, and
 ##### Related articles for shared channels
 
 [Shared channels in Microsoft Teams](shared-channels.md)
+[Collaborate with external participants in a shared channel](/microsoft-365/solutions/collaborate-teams-direct-connect)
 
 ### Teams policies
 
@@ -153,6 +155,7 @@ Teams policies are used to control what settings or features are available to us
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
+|Discover private teams|Off|When **On**, users can search for private teams. When they find a private team, they can request to join.|
 |Create private channels|On|When **On**, team owners and members can create private channels that contain a subset of team members.|
 |Create shared channels|On|When **On**, team owners can create shared channels for people within and outside the organization.|
 |Invite external users to shared channels|On|When **On**, owners of a shared channel can invite external people in other Microsoft Entra organizations to join the channel, if Microsoft Entra cross-tenant access settings are configured.|
@@ -163,7 +166,6 @@ Teams policies are used to control what settings or features are available to us
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
 |AllowOrgWideTeamCreation|None|Determines whether a user is allowed to create an org-wide team. Set this value to **True** to allow or **False** to prohibit. Read more on [how organization-wide teams in Microsoft Teams help everyone collaborate](create-an-org-wide-team.md).|
-|EnablePrivateTeamDiscovery|None|Determines whether a user is allowed to discover private teams in suggestions and search results. Set this value to **True** to allow or **False** to prohibit.|
 
 #### Related articles for Teams policies
 
