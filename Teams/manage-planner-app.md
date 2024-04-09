@@ -28,7 +28,7 @@ ms.collection:
 
 ## Overview of Planner
 
-The Planner app in Microsoft Teams brings together the simplicity of [Microsoft To Do](https://todo.microsoft.com/tasks/), the collaboration of Microsoft Planner, and the power of premium plans (previously, Project) to help your users get work done more efficiently. Users can access Planner as an app on the left side of Teams and as a tab in a channel within individual teams.
+The Planner app in Microsoft Teams brings together the simplicity of [Microsoft To Do](https://todo.microsoft.com/tasks/), the collaboration of Microsoft Planner, and the power of Project into a single experience to help your users get work done more efficiently. Users can access Planner as an app on the left side of Teams and as a tab in a channel within individual teams.
 
 > [!NOTE]
 > Prior to March 2024, this app was named Tasks by Planner and To Do.
