@@ -36,8 +36,6 @@ As an admin, you can control whether your users can use voice isolation in calls
 
 To learn more the voice isolation troubleshooting, setup, and experience for your users, see [Voice isolation in Microsoft Teams calls and meetings](https://prod.support.services.microsoft.com/office/voice-isolation-in-microsoft-teams-calls-and-meetings-a9756ea9-4cec-44c4-aefb-6f5d17c89427).
 
-To learn more about the storing or retention of voice profiles, see [PLACEHOLDER].
-
 ## Prerequisites
 
 Verify that the following URL is included in your allow list:
