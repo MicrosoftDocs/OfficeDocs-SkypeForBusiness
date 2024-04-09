@@ -3,7 +3,7 @@ title: "Use Call Analytics to troubleshoot poor call quality"
 author: mkbond007
 ms.author: mabond
 manager: pamgreen
-ms.reviewer: mikedav
+ms.reviewer: jamp
 ms.date: 04/02/2024
 ms.topic: article
 ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
@@ -12,6 +12,7 @@ ms.service: msteams
 ms.collection:
   - M365-voice
   - Tier1
+  - ContentFreshnessFY24
 search.appverid: MET150
 audience: Admin
 appliesto:
