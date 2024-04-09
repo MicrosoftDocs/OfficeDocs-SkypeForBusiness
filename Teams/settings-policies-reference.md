@@ -191,6 +191,8 @@ Template policies control what team templates users see when they create a new t
 - Hospital
 - Quality and Safety
 - Retail for Managers
+- Manage Volunteers
+- Frontline Collaboration
 
 #### Related articles for template policies
 
