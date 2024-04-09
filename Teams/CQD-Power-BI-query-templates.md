@@ -13,6 +13,7 @@ ms.collection:
   - m365initiative-voice
   - remotework
   - Tier1
+  - ContentFreshnessFY24
 search.appverid: MET150
 audience: Admin
 appliesto: 
