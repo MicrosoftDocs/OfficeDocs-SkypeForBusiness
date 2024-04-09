@@ -79,7 +79,7 @@ Uploaded images must adhere to the following parameters. You can upload:
 > [!NOTE]
 > Only end users with a Teams Premium license have these images in their background settings panel to use during meetings.
 
-### Add frosted glass background effect
+### Add a frosted glass background effect
 
 Frosted glass backgrounds blend the privacy of background blur with the personalization of your chosen image to create a polished background that looks like frosted glass windows.
 
