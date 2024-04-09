@@ -86,7 +86,7 @@ Teams Premium provides additional ways to safeguard and monitor users' Teams exp
 | Manage what attendees see | No admin control. | [Manage what attendees see in Teams meetings](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|
 | Hide attendee names | [Allow meeting and webinar organizers to hide the names of attendees](hide-attendee-names.md) |[Hide attendee names in Teams meetings and webinars](https://support.microsoft.com/office/hide-attendee-names-in-teams-meetings-and-webinars-00389c74-ee61-48b5-bad8-8295600085ed) |
 | Advanced collaboration analytics | [Advanced Collaboration Analytics for Microsoft Teams](advanced-collaboration-analytics.md) | No end-user controls. |
-| Real time telemetry and retention| [Advanced Collaboration Analytics for Microsoft Teams](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md) | No end-user controls. |
+| Real time telemetry and retention| [Use real time telemetry to troubleshoot poor meeting quality](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md) | No end-user controls. |
 
 ## Custom meetings
 
