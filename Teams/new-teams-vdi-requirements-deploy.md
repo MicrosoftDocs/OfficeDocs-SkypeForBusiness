@@ -400,6 +400,9 @@ These keys should be then deployed via additional sign in scripts or similar met
 
 :::image type="content" source="media/new-teams-vdi-meeting-addin.png" alt-text="new Teams meeting add in":::
 
+> [!NOTE]
+> These HKCU regkeys are not needed anymore if you're installing new Teams 24060.2623.2790.8046 or higher, as it bundles TeamsMeetingAddIn.msi version 1.24.05401, which has a fix for successful regkeys creation under HKCU.
+
 ### Troubleshooting new Teams and Outlook integration
 
 #### Symptoms
