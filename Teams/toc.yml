@@ -738,6 +738,8 @@ items:
               href: meeting-templates-sensitivity-labels-policies.md
         - name: Audio & video
           items:
+            - name: Manage voice isolation for your users' Microsoft Teams calls and meetings
+              href: voice-isolation.md
             - name: Audio and video policies
               href: meeting-policies-audio-and-video.md
             - name: Manage RTMP-In
