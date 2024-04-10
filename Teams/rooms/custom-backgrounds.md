@@ -124,9 +124,9 @@ When you create a custom background:
 - Place text, logos, or icons, in the middle of the screen so it isn't obscured by home screen elements.
 - Avoid placing text, logos, or icons, near these locations:
   - **Upper left corner** - Time and room information.
-    - **Size**: 310 x 190
+    - **Size**: up to 46% of the screen width, up to 42% of the screen height depending on the display settings
   - **Bottom left corner** - Tips.
-    - **Size**: 650 x 90
+    - **Size**: up to 46% of the screen width, up to 16% of the screen height depending on the display settings
   - **Right side** - Room calendar.
     - **Size**: up to 36% of the screen width, up to 72% of the screen height depending on the display settings
 
@@ -149,15 +149,15 @@ These guidelines are also available in a [custom theme template](#custom-backgro
 When you create a custom background, avoid placing text, logos, or icons, near these locations:
 
 - **Upper left corner** - Time and room information.
-  - **Size**: 310 x 160
+  - **Size**: 540 x 242 px
 - **Bottom left corner** - Tips.
-  - **Size**: 540 x 82
-- **Middle** - Action buttons.
-  - **Size**: 408 x 336
+  - **Size**: 540 x 82 px
+- **Middle** - User actions.
+  - **Size**: 408 x 336 px
 - **Right side** - Room calendar.
   - **Size**: up to 44% of the screen width, up to 80% of the screen height depending on the display settings
-- **Bottom right corner** - Help button.
-  - **Size**: 104 x 66
+- **Bottom right corner** - Help.
+  - **Size**: 56 x 56 px
 
 **16:9 - Touch console dimensions**
 
@@ -168,13 +168,13 @@ When you create a custom background, avoid placing text, logos, or icons, near t
 When you create a custom background, avoid placing text, logos, or icons, on these locations:
 
 - **Upper left corner** - Time and room information.
-  - **Size**: 310 x 190
+  - **Size**: up to 46% of the screen width, up to 42% of the screen height depending on the display settings
 - **Bottom left corner** - Tips.
-  - **Size**: 650 x 90
-- **Right side** - Action buttons and room calendar.
+  - **Size**: up to 46% of the screen width, up to 16% of the screen height depending on the display settings
+- **Right side** - User actions and room calendar.
   - **Size**: up to 43% of the screen width, up to 72% of the screen height depending on display settings
-- **Bottom right corner** - Help button.
-  - **Size**: 157 x 137
+- **Bottom right corner** - Help.
+  - **Size**: up to 3% of the screen width, up to 5% of the screen height depending on display settings
 
 **16:9 - Touch board display dimensions**
 
@@ -241,9 +241,9 @@ When you create a custom background, use the following guidelines:
 - Place text, logos, or icons, in the middle of the screen so it isn't obscured by home screen elements.
 - Avoid placing text, logos, or icons, near these locations:
   - **Upper left corner** - Time and room information.
-    - **Size**: 310 x 190
+    - **Size**: up to 46% of the screen width, up to 42% of the screen height depending on the display settings
   - **Bottom left corner** - Tips.
-    - **Size**: 650 x 90
+    - **Size**: up to 46% of the screen width, up to 16% of the screen height depending on the display settings
   - **Right side** - Room calendar.
     - **Size**: up to 36% of the screen width, up to 72% of the screen height depending on the display settings
 
@@ -264,13 +264,13 @@ When you create a custom background, use the following guidelines:
 When you create a custom background, avoid placing text, logos, or icons, near these locations:
 
 - **Upper left corner** - Time and room information.
-  - **Size**: 310 x 190
+  - **Size**: up to 46% of the screen width, up to 42% of the screen height depending on the display settings
 - **Bottom left corner** - Tips.
-  - **Size**: 650 x 90
-- **Right side** - Action buttons and room calendar.
+  - **Size**: up to 46% of the screen width, up to 16% of the screen height depending on the display settings
+- **Right side** - User actions and room calendar.
   - **Size**: up to 43% of the screen width, up to 72% of the screen height depending on display settings
-- **Bottom right corner** - Help button.
-  - **Size**: 157 x 137
+- **Bottom right corner** - Help.
+  - **Size**: up to 3% of the screen width, up to 5% of the screen height depending on display settings
 
 **16:9 - Touch board display dimensions**
 
