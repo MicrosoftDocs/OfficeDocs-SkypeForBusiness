@@ -107,4 +107,3 @@ To enable your users to join meetings using QR codes:
 > If your users are using an Android device with both work and personal profiles enabled, both the Teams app and the camera app and/or the code scanner app must be listed under the same profile. Otherwise, if they are in separate profiles, the camera app and/or the code scanner app is not able to correctly scan and transfer the information over to the Teams app. 
 > For more information about adding the Teams app and camera app and/or code scanner app to a work profile, see [Manage Android Enterprise system apps in Microsoft Intune](/mem/intune/apps/apps-ae-system).
 ## 
-
