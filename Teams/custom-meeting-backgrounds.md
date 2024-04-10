@@ -85,6 +85,8 @@ Frosted glass backgrounds blend the privacy of background blur with the personal
 
 To create this effect, upload a transparent PNG image as a custom background. Your image could be your company logo or a custom design. The frosted glass effect turns the transparent areas of your image into a blurred background, while the graphic remains as part of the background.
 
+:::image type="content" source="media/frosted-glass-small.png" alt-text="Screenshot of frosted glass background effect in a Teams meeting." lightbox="media/frosted-glass-expand.png":::
+
 ### Save custom background images
 
 You can find previews of your uploaded images in a new table under the **Meeting backgrounds** section. This table also displays the names and resolutions of your images. Once you confirm your choice of uploaded images, select the **Save** button below the preview table. Once you select save, your uploaded backgrounds are visible to your users with a Teams Premium license.
