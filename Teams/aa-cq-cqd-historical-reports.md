@@ -92,7 +92,16 @@ For more information, see [Plan for Auto attendant and Call queue authorized use
 > [!TIP]
 > Using the Voice Applications policy to control access is the recommended approach.  With the Voice Applications Policy and Authorized users it is possible to control which Auto attendants, Call queues, and Agents that a user can report on. If necessary, the policy still allows a user to report on all Auto attendants, Call queues, and Agents without the need to grant the user access to Teams Admin Center.
 
-*** insert powershell cmdlet reference ***
+To access this functionality an existing Voice Applications policy must be modified to enable the historical reporting permissions or, a new Voice Applications policy must be created with the historical reporting permissions enabled.  The historical reporting permissions can currently only be set through PowerShell and will be available in Teams admin center later this year. 
+
+For more information, see:
+
+|New Voice Applications policy           |Existing Voice Applications policy |
+|:---------------------------------------|:----------------------------------|
+| [New-CsTeamsVoiceApplicationsPolicy/-HistoricalAutoAttendantMetricsPermission](/powershell/module/teams/new-csteamsvoiceapplicationspolicy#-HistoricalAutoAttendantMetricsPermission)  | [Set-CsTeamsVoiceApplicationsPolicy/-HistoricalAutoAttendantMetricsPermission](/powershell/module/teams/set-csteamsvoiceapplicationspolicy#-HistoricalAutoAttendantMetricsPermission) |
+| [New-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/new-csteamsvoiceapplicationspolicy#-HistoricalCallQueueMetricsPermission)  | [Set-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/set-csteamsvoiceapplicationspolicy#-HistoricalCallQueueMetricsPermission) |
+| [New-CsTeamsVoiceApplicationsPolicy/--HistoricalAgentMetricsPermission](/powershell/module/teams/new-csteamsvoiceapplicationspolicy#--HistoricalAgentMetricsPermission)  | [Set-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/set-csteamsvoiceapplicationspolicy#--HistoricalAgentMetricsPermission) |
+
 
 2. CQD pipeline (legacy)
 
@@ -117,7 +126,7 @@ Perform the following steps:
 
 4. You're prompted to select the **DataSource**, **Report Level**, and **UTC Offset**.  
 
-   :::image type="content" source="media/aa-cq-historical-report-01-v314.png" alt-text="Screenshot showing the DataSource, Report Level, and UTC Offset selections.":::
+   :::image type="content" source="media/aa-cq-historical-report-01-v316.png" alt-text="Screenshot showing the DataSource, Report Level, and UTC Offset selections.":::
 
     - **DataSource**: Select the `api.interfaces.records.teams.microsoft.com` entry.
     - **Report Level**:
@@ -275,9 +284,33 @@ You have to refresh the report to see any new data.
 |Call Queue Agent Count                  |Whole number             |Summarize: Sum<br>Number of agents configured in the Call queue                          |
 |Call Queue Agent Opt In Count           |Whole number             |Summarize: Sum<br>Number of agents opted-in to the Call queue                            |
 |Call Queue Call Result                  |Text                     |See Call Queue Dimensions -> CallQueueCallResult                                         |
-|Call Queue Call Result Legend           |Text                     |Legend items for Call Queue Result                                                       |
+|Call Queue Call Result Legend           |Text                     |Legend items for Call Queue Result. Possible values:                                     |
+|                                        |                         |- Abandoned - the caller hung up before an agent could answer or before timeout occured  |
+|                                        |                         |- Agent Answered - the caller was answered by an agent                                   |
+|                                        |                         |- Overflowed - the call overflow exception occurred                                      |
+|                                        |                         |- Timed Out - the call timeout exception occurred                                        |
+|                                        |                         |- No Agents - the no agents exception occurred                                           |
+|                                        |                         |- Other - some other condition occurred                                                  |
 |Call Queue Target Type                  |Text                     |See Call Queue Dimensions -> CallQueueTargetType                                         |
-|Call Queue Target Type Legend           |Text                     |Legend items for Call Queue Target Type                                                  |
+|Call Queue Target Type Legend           |Text                     |Legend items for Call Queue Target Type. Possible values:                                |
+|                                        |                         |- Abandoned - the caller hung up before an agent could answer or before timeout occurred |
+|                                        |                         |- Agent Answered (Call) - the caller was answered by an agent                            |
+|                                        |                         |- Agent Answered (Callback) - the callback was answered by an agent                      |
+|                                        |                         |- Overflowed (Application) - the call overflow exception occurrec - call routed to another application   |
+|                                        |                         |- Overflowed (Disconnect) - the call overflow expection occurred - call disconnected     |
+|                                        |                         |- Overflowed (External) - the call overflow exception occurred - call was transferred externally |
+|                                        |                         |- Overflowed (User) - the call overflow exception occurred - call was transferred to a user in the tenant |
+|                                        |                         |- Overflowed (Voicemail) - the call overflow exception occurred - call was transferred to shared voicemail |
+|                                        |                         |- Timed Out (Application) - the call timeout exception occurred - call routed to another application |
+|                                        |                         |- Timed Out (Disconnect) - the call timeout exception occurred - call was disconnected   |
+|                                        |                         |- Timed Out (External) - the call timeout exception occurred - call was transferred externally |
+|                                        |                         |- Timed Out (User) - the call timeout exception occurred - call was transferred to a user in the tenant |
+|                                        |                         |- Timed Out (Voicemail) - the call timeout exception occurred - call was transferred to shared voicemail |
+|                                        |                         |- No Agents (Application) - the no agents exception occurred - call was routed to another application |
+|                                        |                         |- No Agents (Disconnect) - the no agents exception occurred - call was disconnected     |
+|                                        |                         |- No Agents (External) - the no agents exception occurred - call was transferred externally |
+|                                        |                         |- No Agents (User) - the no agents exception occurred - call was transferred to a user in the tenant |
+|                                        |                         |- No Agents (Voicemail) - the no agents exception occurred - call was transferred to shared voicemail |
 |Call Start Time Local                   |Date/time                |Call start time - Local (based on selected UTC Offset)                                   |
 |Call Start Time UTC                     |Date/time                |Call start time - UTC                                                                    |
 |ConferenceID                            |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
@@ -496,6 +529,7 @@ These dimensions are common to both Auto attendants and Call queues:
 | CallQueueAgentOptInCount<br>(Whole Number) |                         | Number of agents opted-in to Call queue    |
 | CallQueueCallResult<br>(Text)              |                         | Call queue call final state                |
 |                                            | agent_joined_conference | Call answered - conference mode CQ         |
+|                                            | callback_call_timed_out | Call back call has timed out               |
 |                                            | declined                |                                            |
 |                                            | disconnected            |                                            |
 |                                            | error                   |                                            |
@@ -503,7 +537,9 @@ These dimensions are common to both Auto attendants and Call queues:
 |                                            | invalid                 |                                            |
 |                                            | overflown               | Overflow condition met                     |
 |                                            | timed_out               | Timeout condition met                      |
+|                                            | no_agent                | No Agent condition met                     |
 |                                            | transferred_to_agent    | Call answered - transfer mode CQ           |
+|                                            | transferred_to_callback_caller | Callback call answered by agent     |
 | CallQueueDurationSeconds<br>(Real Number)  |                         | Call duration in the Call queue            |
 | CallQueueFinalStateAction<br>(Text)        |                         | Call queue final action                    |
 |                                            | disconnect              | time_out calls                             |
@@ -516,11 +552,11 @@ These dimensions are common to both Auto attendants and Call queues:
 | CallQueueId<br>(Text)                      |                         | Call queue GUID                            |
 | CallQueueIdentity<br>(Text)                |                         | Resource account URI the call arrived on   |
 | CallQueueTargetType<br>(Text)              |                         | Call redirection target                    |
-|                                            | ApplicationEndpoint     |                                            |
-|                                            | Mailbox                 |                                            |
+|                                            | ApplicationEndpoint     | Another voice applications                 |
+|                                            | Mailbox                 | Shared voicemail                           |
 |                                            | Other                   |                                            |
-|                                            | Phone                   |                                            |
-|                                            | User                    |                                            |
+|                                            | Phone                   | External transfer                          |
+|                                            | User                    | User in the tenant                         |
 | HasCQ<br>(Boolean)                         |                         | Is CQ involved in call                     |
 | TransferredFromCQId<br>(Text)              |                         | Call queue GUID call was transferred from  |
 | TransferredFromCallQueueIdentity<br>(Text) |                         | Resource account URI the call was transferred from |
@@ -738,7 +774,7 @@ Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx
 
 |Version  |Date Published     |Supported |Filename                                                    |Description                                                             |
 |:--------|:------------------|:---------|:-----------------------------------------------------------|:-----------------------------------------------------------------------|
-|3.1.6    |April XX, 2024     |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.6 |Support click2call, callback, authorized users, and some visuals changed due to deprecation |
+|3.1.6    |April 15, 2024     |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.6 |Support click2call, callback, authorized users, and some visuals changed due to deprecation |
 |3.1.5    |January 29, 2024   |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.5 |Corrected an error with the Per Day query logic for fAgentTimelineAnalytics and fAgentTimelineAnalyticsSummary  |
 |3.1.4    |January 24, 2024   |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.4 |Per day reporting for large volume customers, accessibility improvements for screen readers   |
 |3.1.3    |September 13, 2023 |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.3 |Accessibility improvements for screen readers   |
