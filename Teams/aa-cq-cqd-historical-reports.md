@@ -244,19 +244,7 @@ You have to refresh the report to see any new data.
 |AACallerActionCountAverage (Measure)    |Whole number             |Average of AACallerActionCount - zero instead of blank                                   |
 |AACallFlow                              |Text                     |See Auto Attendant dimensions -> AutoAttendantCallFlow                                   |
 |AACallResult                            |Text                     |See Auto Attendant dimensions -> AutoAttendantCallResult                                 |
-|AACallResultLegend                      |Text                     |Legend items for on AACallResult. Possible values are:                                   |
-|                                        |                         |<ul><li>Terminated (No Caller Action) - Call was disconnected - the caller didn't make any selections</li> |
-|                                        |                         |<li>Terminated (With Caller Action) - Call was disconnected - the caller made selections</li> |
-|                                        |                         |<li>Terminated (Disconnected) - Call was disconnected per the auto attendant configuration</li> |
-|                                        |                         |<li>Terminated (No Operator) - Call was disconnected as there was no operator to transfer the call to</li> |
-|                                        |                         |<li>Terminated (Transfer Failed) - Call was disconnected as the configured transfer failed</li> |
-|                                        |                         |<li>Transferred (AA) - Call was transferred to another Auto Attendant</li>               |
-|                                        |                         |<li>Transferred (CQ) - Call was transferred to a Call Queue</li>                         |
-|                                        |                         |<li>Transferred (Operator) - Call was transferred to the Operator</li>                   |
-|                                        |                         |<li>Transferred (Voicemail) - Call was transferred to Shared Voicemail</li>              |
-|                                        |                         |<li>Transferred (External) - Call was transferred to an External Number</li>             |
-|                                        |                         |<li>Transferred (User) - Call was transferred to a Person in the organization</li>       |
-|                                        |                         |<li>Other - Some other condition occurred</li></ul>                                      |
+|AACallResultLegend                      |Text                     |Legend items for on AACallResult. Possible values are:<br><ul><li>Terminated (No Caller Action) - Call was disconnected - the caller didn't make any selections</li><li>Terminated (With Caller Action) - Call was disconnected - the caller made selections</li><li>Terminated (Disconnected) - Call was disconnected per the auto attendant configuration</li><li>Terminated (No Operator) - Call was disconnected as there was no operator to transfer the call to</li><li>Terminated (Transfer Failed) - Call was disconnected as the configured transfer failed</li><li>Transferred (AA) - Call was transferred to another Auto Attendant</li><li>Transferred (CQ) - Call was transferred to a Call Queue</li><li>Transferred (Operator) - Call was transferred to the Operator</li><li>Transferred (Voicemail) - Call was transferred to Shared Voicemail</li><li>Transferred (External) - Call was transferred to an External Number</li><li>Transferred (User) - Call was transferred to a Person in the organization</li><li>Other - Some other condition occurred</li></ul>                                                          |
 |AAChainDuration                         |Decimal number           |Summarize: Sum<br>Duration of call in Auto Attendant                                     |
 |AAChainDurationAverage (Measure)        |Decimal number           |Average of AAChainDuration - zero instead of blank                                       |
 |AAChainIndex                            |Whole Number             |                                                                                         |
@@ -265,9 +253,7 @@ You have to refresh the report to see any new data.
 |AADirectorySearchMethod                 |Text                     |See Auto Attendant dimensions -> AutoAttendantDirectorySearchMethod                      |
 |AADirectorySearchMethodCountDTMF (Measure)  |Whole number         |Count of calls that used DTMF to search the directory - zero instead of blank            |
 |AADirectorySearchMethodCountVoice (Measure) |Whole number         |Count of calls that used Voice to search the directory - zero instead of blank           |
-|AADirectorySearchMethodLegend           |Text                     |Legend items for AADirectorySearchMethod. Possible values are:                           |
-|                                        |                         |<ul><li>DTMF - Caller used the telephone dial pad to search for the user's name</li>     |
-|                                        |                         |<li>Voice - Caller used voice input to search for the user's name</li></ul>              |
+|AADirectorySearchMethodLegend           |Text                     |Legend items for AADirectorySearchMethod. Possible values are:<br><ul><li>DTMF - Caller used the telephone dial pad to search for the user's name</li><li>Voice - Caller used voice input to search for the user's name</li></ul>                             |
 |AATransferAction                        |Text                     |See Auto Attendant Dimensions -> AutoAttendantTransferAction                             |
 |Call Duration Seconds                   |Whole number             |Call duration                                                                            |
 |Call End Time Local                     |Date/time                |Call end time - Local (based on selected UTC Offset)                                     |
