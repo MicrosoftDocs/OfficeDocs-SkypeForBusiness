@@ -53,7 +53,7 @@ After the user selects an action on their mobile device, by default, the room sy
 > For security reasons, if the user takes more than two minutes to select an action on mobile after scanning the QR code, the room auto-accept functionality will be disabled regardless of the setting value, and the user must manually accept the call on the room console or touch display. 
 ## Device configuration
 
-To change the configuration of the device, you can use XML settings for Teams Rooms on Windows, device settings for Teams Rooms on Android, or the Teams admin center for both Teams Rooms platforms:
+To change the configuration of the device, you can use XML configuration file for Teams Rooms on Windows, device settings for Teams Rooms on Android, or the Teams admin center for both Teams Rooms platforms:
 - You can disable the room QR code. When the feature is disabled, the QR code is not visible on the Teams Rooms home screen.
 - You can disable the room auto-accept functionality for any QR code meeting join scenario. When auto-accept for QR code is disabled, users must manually tap **Accept** on the room console or touch board for the room system to join the meeting.
 
