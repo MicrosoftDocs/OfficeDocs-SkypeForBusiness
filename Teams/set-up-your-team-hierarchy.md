@@ -27,7 +27,7 @@ Setting up a team targeting hierarchy allows your organization to publish conten
 
 Here's an example of how the hierarchy is represented in the Planner app in Teams. After a task list is created, members of the publishing team can then select the recipient teams to send (publish) the task list to. When selecting teams, the publishing team can filter by hierarchy, by attributes, or a combination of both.<br>
 
-:::image type="content" source="media/manage-tasks-app-publish-tasks.png" alt-text="Screenshot of task publishing" lightbox="media/manage-tasks-app-publish-tasks.png":::
+:::image type="content" source="media/manage-planner-app-publish-tasks.png" alt-text="Screenshot of task publishing" lightbox="media/manage-planner-app-publish-tasks.png":::
 
 The task publishing experience is available within the Planner app in Teams but is powered by Microsoft Planner. As a result, task publishing requires users to be assigned licenses that include Microsoft Planner.
 
