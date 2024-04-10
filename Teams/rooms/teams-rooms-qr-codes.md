@@ -49,6 +49,7 @@ If the user does not have the Teams mobile app, they will be directed to downloa
 
 > [!NOTE]
 > Only calendar events with an online Teams meeting link (happening now or scheduled to start within 10 minutes) is expected to appear under **Join with room**. 
+
 After the user selects an action on their mobile device, by default, the room system automatically accepts the meeting nudge and joins the meeting without additional user action. The user then enters the full meeting experience on Teams Rooms and the room companion mode experience on Teams mobile. You can disable the room auto-accept functionality for any QR code meeting join through [settings](#device-configuration).  
 
 > [!NOTE]
