@@ -136,9 +136,9 @@ Perform the following steps:
 
     #### Per Day vs Per Call 
 
-    Per Call reporting retrieves the individual call records for each Auto attendant, Call queue, and Agent, and makes them available in the Power BI client.  Per Call reporting also allows call records to be displayed in the local time zone selected by the user. For some customers, especially those using the CQD access role to control access, this may result in hitting the 200,000 record limit. In this case, the Per Day reporting option should be selected.
+    Per Call reporting retrieves the individual call records for each Auto attendant, Call queue, and Agent, and makes them available in the Power BI client.  Per Call reporting also allows call records to be displayed in the local time zone selected by the user. For some customers, especially those using the CQD access role to control access, this may result in hitting the 90,000 default or 200,000 per query record limit. In this case, the Per Day reporting option should be selected.
 
-    Per Day reporting retrieves one daily summary record for each Auto attendant, Call queue, and Agent.  This results in fewer records being returned to the client, reducing the possibility of hitting the 200,000 record limit. Per Day reporting is based on a UTC-00:00 based day (00:00:00-23:59:59 UTC) only and any UTC offset supplied by the user is ignored.
+    Per Day reporting retrieves one daily summary record for each Auto attendant, Call queue, and Agent.  This results in fewer records being returned to the client, reducing the possibility of hitting the 90,000 default or 200,000 per query record limit. Per Day reporting is based on a UTC-00:00 day (00:00:00-23:59:59 UTC) only and any UTC offset supplied by the user is ignored.
 
 5. You're prompted to sign in with an account. Select **Organizational account**, and then select **Sign in**.
 
@@ -285,7 +285,7 @@ You have to refresh the report to see any new data.
 |Call Queue Agent Opt In Count           |Whole number             |Summarize: Sum<br>Number of agents opted-in to the Call queue                            |
 |Call Queue Call Result                  |Text                     |See Call Queue Dimensions -> CallQueueCallResult                                         |
 |Call Queue Call Result Legend           |Text                     |Legend items for Call Queue Result. Possible values:                                     |
-|                                        |                         |- Abandoned - the caller hung up before an agent could answer or before timeout occured  |
+|                                        |                         |- Abandoned - the caller hung up before an agent could answer or before timeout occurred |
 |                                        |                         |- Agent Answered - the caller was answered by an agent                                   |
 |                                        |                         |- Overflowed - the call overflow exception occurred                                      |
 |                                        |                         |- Timed Out - the call timeout exception occurred                                        |
@@ -296,8 +296,8 @@ You have to refresh the report to see any new data.
 |                                        |                         |- Abandoned - the caller hung up before an agent could answer or before timeout occurred |
 |                                        |                         |- Agent Answered (Call) - the caller was answered by an agent                            |
 |                                        |                         |- Agent Answered (Callback) - the callback was answered by an agent                      |
-|                                        |                         |- Overflowed (Application) - the call overflow exception occurrec - call routed to another application   |
-|                                        |                         |- Overflowed (Disconnect) - the call overflow expection occurred - call disconnected     |
+|                                        |                         |- Overflowed (Application) - the call overflow exception occurred - call routed to another application   |
+|                                        |                         |- Overflowed (Disconnect) - the call overflow exception occurred - call disconnected     |
 |                                        |                         |- Overflowed (External) - the call overflow exception occurred - call was transferred externally |
 |                                        |                         |- Overflowed (User) - the call overflow exception occurred - call was transferred to a user in the tenant |
 |                                        |                         |- Overflowed (Voicemail) - the call overflow exception occurred - call was transferred to shared voicemail |
