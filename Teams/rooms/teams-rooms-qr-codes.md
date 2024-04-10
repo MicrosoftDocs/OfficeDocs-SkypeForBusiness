@@ -36,11 +36,8 @@ A QR code is displayed by default on the Teams Room home screen. To ensure secur
 
 
 Once a user scans the QR code with their mobile camera, they can select an action on their mobile device that they would like to perform with the room system. The user can choose from either:
-
 - Joining an ongoing meeting on their mobile calendar or any meeting that begins within 10 minutes, 
-
 - Starting an ad-hoc meeting, or 
-
 - Casting content from their mobile device to the front of room display. 
 
 Cross-tenant meetings are also supported when the Teams external access organization settings and user policies in the Teams admin center allow it. For more information, see [Organization settings and user policies for external access](/microsoftteams/trusted-organizations-external-meetings-chat?tabs=organization-settings&branch=main).
@@ -57,9 +54,7 @@ After the user selects an action on their mobile device, by default, the room sy
 ## Device configuration
 
 To change the configuration of the device, you can use XML settings for Teams Rooms on Windows, device settings for Teams Rooms on Android, or the Teams admin center for both Teams Rooms platforms:
-
 - You can disable the room QR code. When the feature is disabled, the QR code is not visible on the Teams Rooms home screen.
-
 - You can disable the room auto-accept functionality for any QR code meeting join scenario. When auto-accept for QR code is disabled, users must manually tap **Accept** on the room console or touch board for the room system to join the meeting.
 
 ### Teams Rooms on Windows
@@ -80,21 +75,16 @@ Like most Teams Rooms on Windows features, you can update the QR code settings o
 <QRCodeAutoAcceptProximateMeetingInvitations>false</QRCodeAutoAcceptProximateMeetingInvitations>
 ```
 
-#### Teams admin center (coming soon)
-
-You can also remotely change the configuration of your Teams Rooms on Windows through the Teams admin center: go to **Teams devices** > **Teams Rooms on Windows** > select device(s) > **Edit settings** > **Device** > **Show room QR code** > **Automatically accept proximity based meeting invitations**.
-
-### Teams Rooms on Android
-
 #### Device settings 
 
 - To hide the QR code from your Teams Rooms on Android home screen through on device settings, go to **Settings** > **Device settings** > **Teams Admin Settings** > **General** > turn off **Show room** **QR code.**
-
 - To disable room auto-accept for QR code meeting joins on your Teams Rooms on Android through on device settings, go to **Settings** > **Device settings** > **Teams Admin Settings** > **General** > **Show room** **QR code** > turn off **Automatically accept proximity-based meeting invitations.**
 
 #### Teams admin center (coming soon)
 
-You can also remotely change the configuration of your Teams Rooms on Android through the Teams admin center: go to **Teams devices** > **Teams Rooms on Android** > select **Configuration profiles** > **Add** or **Edit** > **Device settings** > **Show room QR code** > **Automatically accept proximity based meeting invitations**.
+You can also remotely change the configuration of your Teams Rooms devices through the Teams admin center: 
+- For Teams Rooms on Windows, go to **Teams devices** > **Teams Rooms on Windows** > select device(s) > **Edit settings** > **Device** > **Show room QR code** > **Automatically accept proximity based meeting invitations**.
+- For Teams Rooms on Android, go to **Teams devices** > **Teams Rooms on Android** > select **Configuration profiles** > **Add** or **Edit** > **Device settings** > **Show room QR code** > **Automatically accept proximity based meeting invitations**.
 
 ## Requirements
 
@@ -113,7 +103,8 @@ To enable your users to join meetings using QR codes:
    1. Android - version 1416/1.0.0.2024071301 or later
       
 > [!IMPORTANT]
-> Although there are many QR code scanner apps available, we recommend using the built-in camera app or code scanner app that are natively available on all iOS and Android devices. 
+> Although there are many QR code scanner apps available, we recommend using the built-in camera app or code scanner app that are natively available on all iOS and Android devices.
+
 > [!WARNING]
 > If your users are using an Android device with both work and personal profiles enabled, both the Teams app and the camera app and/or the code scanner app must be listed under the same profile. Otherwise, if they are in separate profiles, the camera app and/or the code scanner app is not able to correctly scan and transfer the information over to the Teams app. 
 > For more information about adding the Teams app and camera app and/or code scanner app to a work profile, see [Manage Android Enterprise system apps in Microsoft Intune](/mem/intune/apps/apps-ae-system).
