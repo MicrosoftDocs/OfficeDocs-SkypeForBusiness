@@ -34,7 +34,7 @@ description: Learn about how to use the updated Teams Auto Attendant & Call Queu
 
 This Power BI template provides three reports that allow organizations to report on the number of calls processed by Auto attendants and Call queues. It also provides agent performance insights.
 
-## V3.1.6 published on April XX, 2024
+## V3.1.6 published on April 15, 2024
 
 The Teams Auto Attendant & Call Queue Historical Report Power BI template provides the following three reports:
 
@@ -91,6 +91,8 @@ For more information, see [Plan for Auto attendant and Call queue authorized use
 
 > [!TIP]
 > Using the Voice Applications policy to control access is the recommended approach.  With the Voice Applications Policy and Authorized users it is possible to control which Auto attendants, Call queues, and Agents that a user can report on. If necessary, the policy still allows a user to report on all Auto attendants, Call queues, and Agents without the need to grant the user access to Teams Admin Center.
+
+*** insert powershell cmdlet reference ***
 
 2. CQD pipeline (legacy)
 
@@ -476,7 +478,8 @@ These dimensions are common to both Auto attendants and Call queues:
 |AutoAttendantDirectorySearchMethod<br>(Text)           |                               |Directory search method                                           |
 |                                                       |abs_search_dtmf                |Touch tone                                                        |
 |                                                       |abs_search_voice               |Voice                                                             |
-|AutoAttendantIdentity<br>(Text)                        |                               |Resource account URI the call arrived on                         |
+|AutoAttendantId<br>(Text)                              |                               |Auto Attendant GUID                                               |
+|AutoAttendantIdentity<br>(Text)                        |                               |Resource account URI the call arrived on                          |
 |AutoAttendantTransferAction<br>(Text)                  |                               |Call transfer target type                                         |
 |                                                       |AA                             |Transferred to an AA                                              |
 |                                                       |CQ                             |Transferred to a CQ                                               |
@@ -510,6 +513,7 @@ These dimensions are common to both Auto attendants and Call queues:
 |                                            | shared_voicemail        | Call was sent to shared voicemail          |
 |                                            | other                   |                                            |
 |                                            | voicemail               |                                            |
+| CallQueueId<br>(Text)                      |                         | Call queue GUID                            |
 | CallQueueIdentity<br>(Text)                |                         | Resource account URI the call arrived on   |
 | CallQueueTargetType<br>(Text)              |                         | Call redirection target                    |
 |                                            | ApplicationEndpoint     |                                            |
@@ -518,7 +522,8 @@ These dimensions are common to both Auto attendants and Call queues:
 |                                            | Phone                   |                                            |
 |                                            | User                    |                                            |
 | HasCQ<br>(Boolean)                         |                         | Is CQ involved in call                     |
-| TransferredFromCallQueueIdentity<br>(Text) |                         |                                            |
+| TransferredFromCQId<br>(Text)              |                         | Call queue GUID call was transferred from  |
+| TransferredFromCallQueueIdentity<br>(Text) |                         | Resource account URI the call was transferred from |
 
 ### Measurements
 
@@ -733,7 +738,7 @@ Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx
 
 |Version  |Date Published     |Supported |Filename                                                    |Description                                                             |
 |:--------|:------------------|:---------|:-----------------------------------------------------------|:-----------------------------------------------------------------------|
-|3.1.6    |April XX, 2024     |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.6 |Support click2call, authorized users, and some visuals changed due to deprecation |
+|3.1.6    |April XX, 2024     |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.6 |Support click2call, callback, authorized users, and some visuals changed due to deprecation |
 |3.1.5    |January 29, 2024   |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.5 |Corrected an error with the Per Day query logic for fAgentTimelineAnalytics and fAgentTimelineAnalyticsSummary  |
 |3.1.4    |January 24, 2024   |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.4 |Per day reporting for large volume customers, accessibility improvements for screen readers   |
 |3.1.3    |September 13, 2023 |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.3 |Accessibility improvements for screen readers   |
