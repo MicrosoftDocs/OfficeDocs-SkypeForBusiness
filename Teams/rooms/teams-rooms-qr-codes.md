@@ -57,9 +57,7 @@ To change the configuration of the device, you can use XML configuration file fo
 - You can disable the room QR code. When the feature is disabled, the QR code is not visible on the Teams Rooms home screen.
 - You can disable the room auto-accept functionality for any QR code meeting join scenario. When auto-accept for QR code is disabled, users must manually tap **Accept** on the room console or touch board for the room system to join the meeting.
 
-### Teams Rooms on Windows
-
-#### XML configuration file
+### XML configuration file
 
 Like most Teams Rooms on Windows features, you can update the QR code settings of your device with the Teams Rooms XML configuration file. The XML configuration file lets you remotely deploy configuration changes to one or more Teams Rooms on Windows devices in your organization. For more information, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](/microsoftteams/rooms/xml-config-file).
 
@@ -75,12 +73,12 @@ Like most Teams Rooms on Windows features, you can update the QR code settings o
 <QRCodeAutoAcceptProximateMeetingInvitations>false</QRCodeAutoAcceptProximateMeetingInvitations>
 ```
 
-#### Device settings 
+### Device settings 
 
 - To hide the QR code from your Teams Rooms on Android home screen through on device settings, go to **Settings** > **Device settings** > **Teams Admin Settings** > **General** > turn off **Show room** **QR code.**
 - To disable room auto-accept for QR code meeting joins on your Teams Rooms on Android through on device settings, go to **Settings** > **Device settings** > **Teams Admin Settings** > **General** > **Show room** **QR code** > turn off **Automatically accept proximity-based meeting invitations.**
 
-#### Teams admin center (coming soon)
+### Teams admin center (coming soon)
 
 You can also remotely change the configuration of your Teams Rooms devices through the Teams admin center: 
 - For Teams Rooms on Windows, go to **Teams devices** > **Teams Rooms on Windows** > select device(s) > **Edit settings** > **Device** > **Show room QR code** > **Automatically accept proximity based meeting invitations**.
