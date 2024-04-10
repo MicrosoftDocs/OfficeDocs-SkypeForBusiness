@@ -192,7 +192,7 @@ You have to refresh the report to see any new data.
 |3        |Call Queue Resource Accounts           |The Resource Accounts to be reported on. To see the calls for a specific Call queue, select all the resource accounts assigned to that Call queue. If the full Resource Account name is **cq_test@microsoft.com**, then this value is: **cq_test**<br>Default: All       |
 |4        |Quick Stats -> Incoming Calls          |A breakdown showing the total number of calls received between the start date/start hour and end date/end hour.<br><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.* |
 |5        |Quick Stats -> Average Wait Time (seconds)      |A breakdown showing the average call duration in the Call Queue before a caller is answered or they abandon. |
-|6        |Call Results                           |A breakdown showing the call treatment received by callers.<br><br>Call Results Legend Definitions:<br><ul><li>**Agent Answered** - Caller was answered by an agent</li><li>**Abandoned** - Caller disconnected before an agent answered or before Call Timeout occurred</li><li>**No Agent** - The No Agent exception handling condition occurred</li><li>**Overflowed** - The Call Overflow exception handling condition occurred</li><li>**Timed Out** - The Call Timeout exception handling occurred</li><li>**Other** - Some other condition occurred</li></ul><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.*   |
+|6        |Call Results                           |A breakdown showing the call treatment received by callers.<br><br>Call Results Legend Definitions:<br><ul><li>**Abandoned** - Caller disconnected before an agent answered or before Call Timeout occurred</li><li>**Agent Answered** - Caller was answered by an agent</li><li>**Overflowed** - The Call Overflow exception handling condition occurred</li><li>**Timed Out** - The Call Timeout exception handling occurred</li><li>**No Agent** - The No Agent exception handling condition occurred</li><li>**Other** - Some other condition occurred</li></ul><br>*TIP: Hover over any metric in this section to display a tooltip with the individual calls that make up the total.*   |
 |7        |Call Volume, Abandoned Calls, Agent Opt-in Count     |A breakdown showing the number of calls per hour and the maximum number of agents that were opted into the call queue at that time  |
 |8        |Average Session Length (seconds)       |A breakdown showing how long calls waited before each call result.<br><br><ul><li>**Agent Answered** - for calls answered by an agent</li><li>**Abandoned** - for calls abandoned before an agent answered or before Call Timeout occurred</li><li>**Overflowed (Disconnect)** - for calls where the Call Overflow exception handling occurred and the treatment was to disconnect</li><li>**Overflowed (Xferred)** - for calls where the Call Overflow exception handling occurred and the treatment was to transfer the caller externally</li><li>**Overflowed (Voicemail)** - for calls where the Call Overflow exception handling occurred and the treatment was to send the call to shared voicemail</li><li>**Timed Out (Disconnect)** - for calls where the Call Timeout exception handling occurred and the treatment was to disconnect</li><li>**Timed Out (Xferred)** - for calls where the Call Timeout exception handling occurred and the treatment was to transfer the caller externally</li><li>**Timed Out (Voicemail)** - for calls where the Call Timeout exception handling occurred and the treatment was to send the call to shared voicemail</li><li>**No Agents (Disconnect)** - for calls where the No Agents exception handling occurred and the treatment was to disconnect</li><li>**No Agents (Xferred)** - for calls where the No Agents exception handling occurred and the treatment was to transfer the caller externally</li><li>**No Agents (Voicemail)** - for calls where the No Agents exception handling occurred and the treatment was to send the call to shared voicemail</li><li>**Other** - for calls where some other condition occurred</li></ul> |
 |9        |Call Overflow/Timeout/No Agents Destinations |A breakdown of where the calls that received the Call Overflow, Call Timeout or No Agents exception handling treatment were sent |
@@ -244,7 +244,19 @@ You have to refresh the report to see any new data.
 |AACallerActionCountAverage (Measure)    |Whole number             |Average of AACallerActionCount - zero instead of blank                                   |
 |AACallFlow                              |Text                     |See Auto Attendant dimensions -> AutoAttendantCallFlow                                   |
 |AACallResult                            |Text                     |See Auto Attendant dimensions -> AutoAttendantCallResult                                 |
-|AACallResultLegend                      |Text                     |Legend items for on AACallResult                                                         |
+|AACallResultLegend                      |Text                     |Legend items for on AACallResult. Possible values are:                                   |
+|                                        |                         |<ul><li>Terminated (No Caller Action) - Call was disconnected - the caller didn't make any selections</li> |
+|                                        |                         |<li>Terminated (With Caller Action) - Call was disconnected - the caller made selections</li> |
+|                                        |                         |<li>Terminated (Disconnected) - Call was disconnected per the auto attendant configuration</li> |
+|                                        |                         |<li>Terminated (No Operator) - Call was disconnected as there was no operator to transfer the call to</li> |
+|                                        |                         |<li>Terminated (Transfer Failed) - Call was disconnected as the configured transfer failed</li> |
+|                                        |                         |<li>Transferred (AA) - Call was transferred to another Auto Attendant</li>               |
+|                                        |                         |<li>Transferred (CQ) - Call was transferred to a Call Queue</li>                         |
+|                                        |                         |<li>Transferred (Operator) - Call was transferred to the Operator</li>                   |
+|                                        |                         |<li>Transferred (Voicemail) - Call was transferred to Shared Voicemail</li>              |
+|                                        |                         |<li>Transferred (External) - Call was transferred to an External Number</li>             |
+|                                        |                         |<li>Transferred (User) - Call was transferred to a Person in the organization</li>       |
+|                                        |                         |<li>Other - Some other condition occurred</li></ul>                                      |
 |AAChainDuration                         |Decimal number           |Summarize: Sum<br>Duration of call in Auto Attendant                                     |
 |AAChainDurationAverage (Measure)        |Decimal number           |Average of AAChainDuration - zero instead of blank                                       |
 |AAChainIndex                            |Whole Number             |                                                                                         |
@@ -253,7 +265,9 @@ You have to refresh the report to see any new data.
 |AADirectorySearchMethod                 |Text                     |See Auto Attendant dimensions -> AutoAttendantDirectorySearchMethod                      |
 |AADirectorySearchMethodCountDTMF (Measure)  |Whole number         |Count of calls that used DTMF to search the directory - zero instead of blank            |
 |AADirectorySearchMethodCountVoice (Measure) |Whole number         |Count of calls that used Voice to search the directory - zero instead of blank           |
-|AADirectorySearchMethodLegend           |Text                     |Legend items for AADirectorySearchMethod                                                 |
+|AADirectorySearchMethodLegend           |Text                     |Legend items for AADirectorySearchMethod. Possible values are:                           |
+|                                        |                         |<ul><li>DTMF - Caller used the telephone dial pad to search for the user's name</li>     |
+|                                        |                         |<li>Voice - Caller used voice input to search for the user's name</li></ul>              |
 |AATransferAction                        |Text                     |See Auto Attendant Dimensions -> AutoAttendantTransferAction                             |
 |Call Duration Seconds                   |Whole number             |Call duration                                                                            |
 |Call End Time Local                     |Date/time                |Call end time - Local (based on selected UTC Offset)                                     |
@@ -285,32 +299,32 @@ You have to refresh the report to see any new data.
 |Call Queue Agent Opt In Count           |Whole number             |Summarize: Sum<br>Number of agents opted-in to the Call queue                            |
 |Call Queue Call Result                  |Text                     |See Call Queue Dimensions -> CallQueueCallResult                                         |
 |Call Queue Call Result Legend           |Text                     |Legend items for Call Queue Result. Possible values:                                     |
-|                                        |                         |- Abandoned - the caller hung up before an agent could answer or before timeout occurred |
-|                                        |                         |- Agent Answered - the caller was answered by an agent                                   |
-|                                        |                         |- Overflowed - the call overflow exception occurred                                      |
-|                                        |                         |- Timed Out - the call timeout exception occurred                                        |
-|                                        |                         |- No Agents - the no agents exception occurred                                           |
-|                                        |                         |- Other - some other condition occurred                                                  |
+|                                        |                         |<ul><li>Abandoned - the caller hung up before an agent could answer or before timeout occurred</li> |
+|                                        |                         |<li>Agent Answered - the caller was answered by an agent</li>                            |
+|                                        |                         |<li>Overflowed - the call overflow exception occurred</li>                               |
+|                                        |                         |<li>Timed Out - the call timeout exception occurred</li>                                 |
+|                                        |                         |<li>No Agents - the no agents exception occurred</li>                                    |
+|                                        |                         |<li>Other - some other condition occurred</li></ul>                                      |
 |Call Queue Target Type                  |Text                     |See Call Queue Dimensions -> CallQueueTargetType                                         |
 |Call Queue Target Type Legend           |Text                     |Legend items for Call Queue Target Type. Possible values:                                |
-|                                        |                         |- Abandoned - the caller hung up before an agent could answer or before timeout occurred |
-|                                        |                         |- Agent Answered (Call) - the caller was answered by an agent                            |
-|                                        |                         |- Agent Answered (Callback) - the callback was answered by an agent                      |
-|                                        |                         |- Overflowed (Application) - the call overflow exception occurred - call routed to another application   |
-|                                        |                         |- Overflowed (Disconnect) - the call overflow exception occurred - call disconnected     |
-|                                        |                         |- Overflowed (External) - the call overflow exception occurred - call was transferred externally |
-|                                        |                         |- Overflowed (User) - the call overflow exception occurred - call was transferred to a user in the tenant |
-|                                        |                         |- Overflowed (Voicemail) - the call overflow exception occurred - call was transferred to shared voicemail |
-|                                        |                         |- Timed Out (Application) - the call timeout exception occurred - call routed to another application |
-|                                        |                         |- Timed Out (Disconnect) - the call timeout exception occurred - call was disconnected   |
-|                                        |                         |- Timed Out (External) - the call timeout exception occurred - call was transferred externally |
-|                                        |                         |- Timed Out (User) - the call timeout exception occurred - call was transferred to a user in the tenant |
-|                                        |                         |- Timed Out (Voicemail) - the call timeout exception occurred - call was transferred to shared voicemail |
-|                                        |                         |- No Agents (Application) - the no agents exception occurred - call was routed to another application |
-|                                        |                         |- No Agents (Disconnect) - the no agents exception occurred - call was disconnected     |
-|                                        |                         |- No Agents (External) - the no agents exception occurred - call was transferred externally |
-|                                        |                         |- No Agents (User) - the no agents exception occurred - call was transferred to a user in the tenant |
-|                                        |                         |- No Agents (Voicemail) - the no agents exception occurred - call was transferred to shared voicemail |
+|                                        |                         |<ul><li>Abandoned - the caller hung up before an agent could answer or before timeout occurred</li> |
+|                                        |                         |<li>Agent Answered (Call) - the caller was answered by an agent</li>                     |
+|                                        |                         |<li>Agent Answered (Callback) - the callback was answered by an agent</li>               |
+|                                        |                         |<li>Overflowed (Application) - the call overflow exception occurred - call routed to another application</li> |
+|                                        |                         |<li>Overflowed (Disconnect) - the call overflow exception occurred - call disconnected</li> |
+|                                        |                         |<li>Overflowed (External) - the call overflow exception occurred - call was transferred externally</li> |
+|                                        |                         |<li>Overflowed (User) - the call overflow exception occurred - call was transferred to a user in the tenant</li> |
+|                                        |                         |<li>Overflowed (Voicemail) - the call overflow exception occurred - call was transferred to shared voicemail</li> |
+|                                        |                         |<li>Timed Out (Application) - the call timeout exception occurred - call routed to another application</li> |
+|                                        |                         |<li>Timed Out (Disconnect) - the call timeout exception occurred - call was disconnected</li>   |
+|                                        |                         |<li>Timed Out (External) - the call timeout exception occurred - call was transferred externally</li> |
+|                                        |                         |<li>Timed Out (User) - the call timeout exception occurred - call was transferred to a user in the tenant</li> |
+|                                        |                         |<li>Timed Out (Voicemail) - the call timeout exception occurred - call was transferred to shared voicemail</li> |
+|                                        |                         |<li>No Agents (Application) - the no agents exception occurred - call was routed to another application</li> |
+|                                        |                         |<li>No Agents (Disconnect) - the no agents exception occurred - call was disconnected</li>     |
+|                                        |                         |<li>No Agents (External) - the no agents exception occurred - call was transferred externally</li> |
+|                                        |                         |<li>No Agents (User) - the no agents exception occurred - call was transferred to a user in the tenant</li> |
+|                                        |                         |<li>No Agents (Voicemail) - the no agents exception occurred - call was transferred to shared voicemail</li></ul> |
 |Call Start Time Local                   |Date/time                |Call start time - Local (based on selected UTC Offset)                                   |
 |Call Start Time UTC                     |Date/time                |Call start time - UTC                                                                    |
 |ConferenceID                            |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
