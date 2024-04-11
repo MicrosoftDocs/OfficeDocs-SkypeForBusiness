@@ -22,7 +22,7 @@ ms.localizationpriority: medium
 description: 'Admins learn how to use and configure QR codes on Microsoft Teams Rooms on Windows and Microsoft Teams Rooms on Android to join a meeting. This is an alternative proximity join experience for easier ad-hoc usage of meeting rooms. '
 ---
 # Overview of QR codes on Teams Rooms (Windows and Android) to join meetings
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+**This is a preview or early release feature.**
 
 Both **Teams Rooms on Windows** and **Teams Rooms on Android** support a convenient way for room users to join meetings by simply scanning a QR code on the Teams Rooms home screen, making it easier for people to use meeting rooms ad-hoc. This serves as an alternative to proximity-based technologies like Bluetooth and streamlines the user experience by reducing the steps for users to join a meeting with the room system. This feature is available in all Teams Rooms licenses. 
 
