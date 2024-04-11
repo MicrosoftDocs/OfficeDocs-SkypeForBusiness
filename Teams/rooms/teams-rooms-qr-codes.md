@@ -1,5 +1,5 @@
 ---
-title: Join meetings using a QR code
+title: Join meetings on Teams Rooms using a QR code
 ms.author: tonysmit
 author: tonysmit
 manager: pamgreen
@@ -19,7 +19,7 @@ f1.keywords:
 - NOCSH
 search.appverid: MET150
 ms.localizationpriority: medium
-description: Learn how to use QR codes that are included on a Microsoft Teams Rooms for Windows console to join a meeting.
+description: 'Learn how to use QR codes on Microsoft Teams Rooms on Windows and Microsoft Teams Rooms on Android to join a meeting. This is an alternative proximity join experience for easier ad-hoc usage of rooms. '
 ---
 # Overview of QR codes on Microsoft Teams Rooms
 
