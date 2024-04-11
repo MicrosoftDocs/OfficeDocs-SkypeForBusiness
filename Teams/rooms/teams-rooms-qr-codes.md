@@ -19,30 +19,29 @@ f1.keywords:
 - NOCSH
 search.appverid: MET150
 ms.localizationpriority: medium
-description: Learn how to use QR codes on Microsoft Teams Rooms to join meetings.
+description: Learn how to use QR codes that are included on a Microsoft Teams Rooms for Windows console to join a meeting.
 ---
 # Overview of QR codes on Microsoft Teams Rooms
 
-Both Teams Rooms on Windows and Teams Rooms on Android support a convenient way to join meetings by simply scanning a QR code on the Teams Rooms home screen, making it easier for people to use meeting rooms ad-hoc. This serves as an alternative to proximity-based technologies like Bluetooth and streamlines the user experience by reducing the steps for users to join a meeting with the room system. This feature is available in all Teams Rooms licenses.
-
-
-![Teams Rooms home screen showing QR code.](media/teams-rooms-qr-codes/0011-min-(1).png)
-
+Both Teams Rooms on Windows and Teams Rooms on Android support a convenient way for room users to join meetings by simply scanning a QR code on the Teams Rooms home screen, making it easier for people to use meeting rooms ad-hoc. This serves as an alternative to proximity-based technologies like Bluetooth and streamlines the user experience by reducing the steps for users to join a meeting with the room system. This feature is available in all Teams Rooms licenses.
 
 A QR code is displayed by default on the Teams Room home screen. To ensure security, the QR code is refreshed every minute. You can hide the room QR code from the home screen by disabling the feature through [settings](#device-configuration).
 
-
-![Actions on the Teams mobile app that a user can take after scanning the QR code on a Teams Room device.](media/teams-rooms-qr-codes/444.png)
-
+![Teams Rooms home screen showing QR code.](media/teams-rooms-qr-codes/mtrhomeqr.png)
 
 Once a user scans the QR code with their mobile camera, they can select an action on their mobile device that they would like to perform with the room system. The user can choose from either:
+
 - Joining an ongoing meeting on their mobile calendar or any meeting that begins within 10 minutes, 
 - Starting an ad-hoc meeting, or 
 - Casting content from their mobile device to the front of room display. 
 
 Cross-tenant meetings are also supported when the Teams external access organization settings and user policies in the Teams admin center allow it. For more information, see [Organization settings and user policies for external access](/microsoftteams/trusted-organizations-external-meetings-chat?tabs=organization-settings&branch=main).
 
-If the user does not have the Teams mobile app, they will be directed to download it after scanning the QR code. 
+If the user doesn't have the Teams mobile app, they will be directed to download it after scanning the QR code. 
+
+![Actions on the Teams mobile app that a user can take after scanning the QR code on a Teams Room device.](media/teams-rooms-qr-codes/mobileqr.png)
+
+
 
 > [!NOTE]
 > Only calendar events with an online Teams meeting link (happening now or scheduled to start within 10 minutes) is expected to appear under **Join with room**. 
@@ -54,8 +53,9 @@ After the user selects an action on their mobile device, by default, the room sy
 ## Device configuration
 
 To change the configuration of the device, you can use XML configuration file for Teams Rooms on Windows, device settings for Teams Rooms on Android, or the Teams admin center for both Teams Rooms platforms:
-- You can disable the room QR code. When the feature is disabled, the QR code is not visible on the Teams Rooms home screen.
-- You can disable the room auto-accept functionality for any QR code meeting join scenario. When auto-accept for QR code is disabled, users must manually tap **Accept** on the room console or touch board for the room system to join the meeting.
+- You can disable the room QR code. When the feature is disabled, the QR code isn't visible on the Teams Rooms home screen.
+
+- You can disable the room auto-accept functionality for any QR code meeting join scenario. When auto-accept for QR code is disabled, users must manually select **Accept** on the room console or touch board for the room system to join the meeting.
 
 ### XML configuration file
 
@@ -94,16 +94,15 @@ To enable your users to join meetings using QR codes:
       
    1. Teams Rooms on Android - version 1449/1.0.96.2024040404 or later  
       
-1. Your users' mobile device must have the following app version installed:
+1. Your users' mobile devices must have the following app version installed:
 
    1. iOS - version 6.7.0 or later 
       
    1. Android - version 1416/1.0.0.2024071301 or later
       
 > [!IMPORTANT]
-> Although there are many QR code scanner apps available, we recommend using the built-in camera app or code scanner app that are natively available on all iOS and Android devices.
-
-> [!WARNING]
-> If your users are using an Android device with both work and personal profiles enabled, both the Teams app and the camera app and/or the code scanner app must be listed under the same profile. Otherwise, if they are in separate profiles, the camera app and/or the code scanner app is not able to correctly scan and transfer the information over to the Teams app. 
+> Although there are many QR code scanner apps available, we recommend using the built-in camera app or code scanner app that are natively available on all iOS and Android devices. 
+> If your users are using an Android device with both work and personal profiles enabled, both the Teams app and the camera app and/or the code scanner app must be listed under the same profile. Otherwise, if they are in separate profiles, the camera app and/or the code scanner app isn't able to correctly scan and transfer the information over to the Teams app. 
 > For more information about adding the Teams app and camera app and/or code scanner app to a work profile, see [Manage Android Enterprise system apps in Microsoft Intune](/mem/intune/apps/apps-ae-system).
-## 
+> [!WARNING]
+> If your Teams Rooms on Windows devices have existing custom backgrounds, your custom backgrounds may be impacted with this new UI element on the home screen. You can find updated home screen templates and custom background design guidelines at [Set up and manage Teams Rooms on Windows custom backgrounds.](/microsoftteams/rooms/custom-backgrounds?tabs=Enhanced) 
