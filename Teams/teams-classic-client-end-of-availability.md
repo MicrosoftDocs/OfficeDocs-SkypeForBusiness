@@ -4,7 +4,7 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: jtremper
 ms.topic: article
-ms.date: 02/28/2024
+ms.date: 04/15/2024
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -14,7 +14,7 @@ ms.reviewer:
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn about the end date for classic Teams client for various groups of Teams users.
+description: Learn about the end date for support and the end of availability for classic Teams client in regard to various groups of Teams users.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: high
@@ -24,7 +24,7 @@ ms.localizationpriority: high
 
 ## Overview
 
-After March 31 2024, a new Teams client will be rolled out, in stages, for users who are still on classic Teams. The roll out means installing the new Teams client for users who still have the classic Teams client, and uninstalling the classic Teams client 14 days after the installation of new Teams.
+A new Teams client is in the process of rolling out, in stages, for users who are still on classic Teams client. This rollout involves installing the new Teams client for users who still have the classic Teams client, and uninstalling the classic Teams client 14 days after the installation of new Teams. This article will discuss the timelines and details of end of support and end of availability for classic Teams client.
 
 ### Timeline updates
 
