@@ -19,7 +19,7 @@ f1.keywords:
 - NOCSH
 search.appverid: MET150
 ms.localizationpriority: medium
-description: 'Learn how to use QR codes on Microsoft Teams Rooms on Windows and Microsoft Teams Rooms on Android to join a meeting. This is an alternative proximity join experience for easier ad-hoc usage of rooms. '
+description: 'Admins learn how to use and configure QR codes on Microsoft Teams Rooms on Windows and Microsoft Teams Rooms on Android to join a meeting. This is an alternative proximity join experience for easier ad-hoc usage of meeting rooms. '
 ---
 # Overview of QR codes on Teams Rooms (Windows and Android) to join meetings
 
