@@ -36,7 +36,7 @@ Keep these points in mind:
 
 - You can dial out only if you join a meeting using Teams.
 - The meeting organizer either has audio conferencing enabled or uses online calling plans or direct routing to make calls to the Public Switched Telephone Network (PSTN).
-- The meeting organizer is [Granted an online dial out policy that enables dial out from conferencing enabled](/powershell/module/skype/grant-csdialoutpolicy).
+- The meeting organizer is [Granted an online dial out policy that enables dial out from conferencing enabled](/powershell/module/teams/grant-csdialoutpolicy).
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

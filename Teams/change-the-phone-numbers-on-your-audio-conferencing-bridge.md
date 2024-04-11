@@ -139,9 +139,9 @@ To find the Conference Bridge ID, run the following PowerShell: Get-CsOnlineDial
 
 ### Save time and automate
 
-To save time by automating this process, you can use the [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/Set-CsOnlineDialInConferencingUser) or the **Set-CsOnlineDialInConferencingUserDefaultNumber** cmdlets.
+To save time by automating this process, you can use the [Set-CsOnlineDialInConferencingUser](/powershell/module/teams/Set-CsOnlineDialInConferencingUser) or the **Set-CsOnlineDialInConferencingUserDefaultNumber** cmdlets.
 
-- Use the [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/Set-CsOnlineDialInConferencingUser) cmdlet to change the default toll or toll-free number for specific users.
+- Use the [Set-CsOnlineDialInConferencingUser](/powershell/module/teams/Set-CsOnlineDialInConferencingUser) cmdlet to change the default toll or toll-free number for specific users.
 
   - To change the default toll-free number for a user, run:
 

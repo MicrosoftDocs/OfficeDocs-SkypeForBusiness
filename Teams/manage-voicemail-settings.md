@@ -63,11 +63,11 @@ In the Teams admin center:
 
 You can also use PowerShell to manage voicemail settings as follows:
 
-- To manage Cloud Voicemail settings for individual users, use the  [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) cmdlet.
+- To manage Cloud Voicemail settings for individual users, use the  [Set-CsOnlineVoicemailUserSettings](/powershell/module/teams/set-csonlinevoicemailusersettings) cmdlet.
 
-- To view settings, use the [Get-CsOnlineVoicemailUserSettings](/powershell/module/skype/get-csonlinevoicemailusersettings) cmdlet.
+- To view settings, use the [Get-CsOnlineVoicemailUserSettings](/powershell/module/teams/get-csonlinevoicemailusersettings) cmdlet.
 
-- You can disable Cloud Voicemail for a user by using the [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) cmdlet and setting the VoicemailEnabled parameter to $false.
+- You can disable Cloud Voicemail for a user by using the [Set-CsOnlineVoicemailUserSettings](/powershell/module/teams/set-csonlinevoicemailusersettings) cmdlet and setting the VoicemailEnabled parameter to $false.
 
 ## Voicemail settings
 

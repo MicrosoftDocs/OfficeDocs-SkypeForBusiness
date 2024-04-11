@@ -64,23 +64,20 @@ Move-CsUser is available from an on-premises Skype for Business Server Managemen
 
 - Specify the user to move using the `Identity` parameter.
 - Specify the `-Target` parameter with the value “sipfed.online.lync.<span>com” (or similar value if your tenant is government cloud).
-- If you don't have one account with sufficient permissions in both on premises and the cloud service (Microsoft 365), use the `-credential` parameter to supply an account with sufficient permissions in Microsoft 365.
-- If the account with permissions in Microsoft 365 doesn't end in “onmicrosoft.<span>com”, you must specify the `-HostedMigrationOverrideUrl` parameter, with the correct value as described in [Required administrative credentials](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
+- You must have sufficient privileges in both the on-premises environment and the cloud service (Microsoft 365), as described in [Required administrative credentials](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
 - Make sure the computer running the on-premises administration tools is using the latest CU for your version of Skype for Business Server or Lync Server 2013, to ensure OAuth is used for authentication. 
 
 The following cmdlet sequence can be used to move a user to TeamsOnly, and assumes the Microsoft 365 credential is a separate account and supplied as input for the Get-Credential prompt. The behavior is the same whether `-MoveToTeams` switch is specified or not.
 
   ```powershell
   $cred=Get-Credential
-  $url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
-  Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $cred -HostedMigrationOverrideUrl $url
-  ```
+  Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $cred 
 
 > [!TIP]
 > As there are different circumstances requiring different parameters, the default command for most cases is:
 
 ```powershell
-Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -HostedMigrationOverrideUrl $url
+Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com
 ```
 
 ### Move to Teams using Skype for Business Server Control Panel

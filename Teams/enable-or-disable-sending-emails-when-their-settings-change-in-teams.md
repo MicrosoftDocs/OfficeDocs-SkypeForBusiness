@@ -75,7 +75,7 @@ You can also use the Microsoft Teams PowerShell module and run:
 Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
 ```
 
-You can use the [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings) to manage other settings for your organization, including email.
+You can use the [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/teams/set-csonlinedialinconferencingtenantsettings) to manage other settings for your organization, including email.
 
 For more information, see [Microsoft Teams PowerShell reference](/powershell/module/teams/).
 
