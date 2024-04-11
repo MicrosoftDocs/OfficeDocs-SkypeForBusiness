@@ -275,7 +275,7 @@ All the user settings and configurations are now stored in:
 Make sure these folders and files are persisted for proper Teams functioning.
 
 > [!NOTE]
-> It's critical that **all** the necessary directories and top folder structure under AppData\Local\Packages\MSTeams_8wekyb3d8bbwe are correctly set up as directories, not as files or reparse points:
+> It's critical that **all** the necessary directories and top folder structure under AppData\Local\Packages\MSTeams_8wekyb3d8bbwe are correctly set up as directories, not as files or reparse points, and roam with the user's profile:
 >
 > AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\AC
 > AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\AppData
@@ -369,7 +369,14 @@ msiexec.exe /i "C:\Program Files\WindowsApps\MSTeams_X.X.X.X_x64__8wekyb3d8bbwe\
 
 ```
 
-- TARGETDIR must be kept consistent across installs so that the Teams Meeting Add-in MSI can easily detect and clean up older versions. If multiple directories are used, then the installation may not behave as expected.
+- TARGETDIR must be kept consistent across installs so that the Teams Meeting Add-in MSI can easily detect and clean up older versions. If multiple directories are used, then the installation may not behave as expected. The exact version number can be extracted by running this command in PowerShell:
+  
+  ```powershell
+
+  Get-AppXPackage -Name "*msteams*" | Select-Object -ExpandProperty Version
+
+  ```
+  
 - **X.X.X.X** needs to be replaced by the New Teams version. Make sure there's a double underscore between the CPU architecture (x64) and the PublisherID (8wekyb3d8bbwe).
 - **version** must be replaced with the MSI file version, for example, 1.24.2203.0. The exact version number can be extracted by running this command in PowerShell:
 

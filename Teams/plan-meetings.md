@@ -138,6 +138,7 @@ Teams admins and organizers have different policies and settings to control the 
 |[Streaming](view-only-meeting-experience.md)|Can allow or prevent streaming experience for attendees over 1,000.|No control.|
 |[Meeting Theme(Teams Premium)](meeting-themes.md)|Can define meeting themes, including colors, images, and logo.|Can turn the admin-defined theme on or off.|
 |[Transcription and captions](meeting-transcription-captions.md)|Can allow or prevent transcription and closed captions for attendees.|Can enable captions.|
+|[Voice isolation](voice-isolation.md)|Can control whether users can use voice isolation in meetings and calls.|Can enable voice isolation.|
 |[Watermarks(Teams Premium)](watermark-meeting-content-video.md)|Can allow or prevent watermarks for attendee video and shared content|Can enforce watermarks if allowed by the admin|
 
 ## Related topics
