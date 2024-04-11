@@ -21,9 +21,9 @@ search.appverid: MET150
 ms.localizationpriority: medium
 description: 'Learn how to use QR codes on Microsoft Teams Rooms on Windows and Microsoft Teams Rooms on Android to join a meeting. This is an alternative proximity join experience for easier ad-hoc usage of rooms. '
 ---
-# Overview of QR codes on Microsoft Teams Rooms
+# Overview of QR codes on Teams Rooms (Windows and Android) to join meetings
 
-Both Teams Rooms on Windows and Teams Rooms on Android support a convenient way for room users to join meetings by simply scanning a QR code on the Teams Rooms home screen, making it easier for people to use meeting rooms ad-hoc. This serves as an alternative to proximity-based technologies like Bluetooth and streamlines the user experience by reducing the steps for users to join a meeting with the room system. This feature is available in all Teams Rooms licenses.
+Both **Teams Rooms on Windows** and **Teams Rooms on Android** support a convenient way for room users to join meetings by simply scanning a QR code on the Teams Rooms home screen, making it easier for people to use meeting rooms ad-hoc. This serves as an alternative to proximity-based technologies like Bluetooth and streamlines the user experience by reducing the steps for users to join a meeting with the room system. This feature is available in all Teams Rooms licenses. 
 
 A QR code is displayed by default on the Teams Room home screen. To ensure security, the QR code is refreshed every minute. You can hide the room QR code from the home screen by disabling the feature through [settings](#device-configuration).
 
@@ -48,14 +48,14 @@ After the user selects an action on their mobile device, by default, the room sy
 
 > [!NOTE]
 > For security reasons, if the user takes more than two minutes to select an action on mobile after scanning the QR code, the room auto-accept functionality will be disabled regardless of the setting value, and the user must manually accept the call on the room console or touch display. 
-## Device configuration
+## Device configuration for Teams Rooms
 
 To change the configuration of the device, you can use XML configuration file for Teams Rooms on Windows, device settings for Teams Rooms on Android, or the Teams admin center for both Teams Rooms platforms:
 - You can disable the room QR code. When the feature is disabled, the QR code isn't visible on the Teams Rooms home screen.
 
 1. You can disable the room auto-accept functionality for any QR code meeting join scenario. When auto-accept for QR code is disabled, users must manually select **Accept** on the room console or touch board for the room system to join the meeting.
 
-### XML configuration file
+### XML configuration file for Teams Rooms on Windows
 
 Like most Teams Rooms on Windows features, you can update the QR code settings of your device with the Teams Rooms XML configuration file. The XML configuration file lets you remotely deploy configuration changes to one or more Teams Rooms on Windows devices in your organization. For more information, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](/microsoftteams/rooms/xml-config-file).
 
@@ -71,7 +71,7 @@ To disable room auto-accept for QR code meeting joins on your Teams Rooms on Win
 <QRCodeAutoAcceptProximateMeetingInvitations>false</QRCodeAutoAcceptProximateMeetingInvitations>
 ```
 
-### Device settings 
+### Device settings for Teams Rooms on Android
 
 Like most Teams Rooms on Android features, you can update the QR code settings of your device directly on the device settings:
 
@@ -79,13 +79,13 @@ Like most Teams Rooms on Android features, you can update the QR code settings o
 
 1. To disable room auto-accept for QR code meeting joins on your Teams Rooms on Android through on device settings, go to **Settings** > **Device settings** > **Teams Admin Settings** > **General** > **Show room** **QR code** > turn off **Automatically accept proximity-based meeting invitations.**
 
-### Teams admin center (coming soon)
+### Teams admin center controls for Teams Rooms (coming soon)
 
 You can also remotely change the configuration of your Teams Rooms devices through the Teams admin center: 
 - For Teams Rooms on Windows, go to **Teams devices** > **Teams Rooms on Windows** > select device(s) > **Edit settings** > **Device** > **Show room QR code** > **Automatically accept proximity based meeting invitations**.
 1. For Teams Rooms on Android, go to **Teams devices** > **Teams Rooms on Android** > select **Configuration profiles** > **Add** or **Edit** > **Device settings** > **Show room QR code** > **Automatically accept proximity based meeting invitations**.
 
-## Requirements
+## Requirements for Teams Rooms and Teams mobile
 
 To enable your users to join meetings using QR codes:
 
