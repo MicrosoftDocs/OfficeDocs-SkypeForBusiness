@@ -6,7 +6,7 @@ manager: jtremper
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: asobhan, andfried
-ms.date: 
+ms.date: 04/11/2024
 search.appverid: MET150
 searchScope: 
   - Microsoft Teams
@@ -28,7 +28,7 @@ ms.collection:
 
 ## Overview of Planner
 
-The Planner app in Microsoft Teams brings together the simplicity of [Microsoft To Do](https://todo.microsoft.com/tasks/), the collaboration of Microsoft Planner, and the power of Project into a single experience to help your users get work done more efficiently. Users can access Planner as an app on the left side of Teams and as a tab in a channel within individual teams.
+The Planner app in Microsoft Teams brings together the simplicity of [Microsoft To Do](https://todo.microsoft.com/tasks/), the collaboration of Microsoft Planner, and the power of Project for the web into a single experience to help your users get work done more efficiently. Users can access Planner as an app on the left side of Teams and as a tab in a channel within individual teams.
 
 > [!NOTE]
 > Prior to March 2024, this app was named Tasks by Planner and To Do.
@@ -154,9 +154,9 @@ Planner tasks can be managed using Microsoft Graph and the Power Automate connec
 
 ### Premium plans and the tasks in them
 
-Premium plans and tasks are stored in Dataverse and managed via the Project service. When a task is assigned to a user, it's also stored in the same Azure location as basic plans. Attachments are stored in the SharePoint location for the group.
+Premium plans and tasks are stored in Dataverse and managed via the Project for the web service. When a task is assigned to a user, it's also stored in the same Azure location as basic plans. Attachments are stored in the SharePoint location for the group.
 
-To learn more about the Project service, see [Project for the web get started guide for administrators](/project-for-the-web/project-for-the-web-get-started-guide-for-admins).
+To learn more, see [Project for the web get started guide for administrators](/project-for-the-web/project-for-the-web-get-started-guide-for-admins).
 
 To learn more about managing Power Platform, see the [Power Platform admin documentation](/power-platform/admin/).
 
