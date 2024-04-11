@@ -520,17 +520,17 @@ These dimensions are common to both Auto attendants and Call queues:
 | CallQueueFinalStateAction<br>(Text)        |                         | Call queue final action                    |
 |                                            | disconnect              | time_out calls                             |
 |                                            | disconnect_with_busy    | overflown calls                            |
-|                                            | failed_to_accept_call   |                                            |
+|                                            | failed_to_accept_call   | Call queue could not accept the call       |
 |                                            | forward                 | Call was forwarded to a user or externally |
 |                                            | shared_voicemail        | Call was sent to shared voicemail          |
-|                                            | other                   |                                            |
-|                                            | voicemail               |                                            |
+|                                            | other                   | Some other condition occurred              |
+|                                            | voicemail               | Call was sent to personal voicemail        |
 | CallQueueId<br>(Text)                      |                         | Call queue GUID                            |
 | CallQueueIdentity<br>(Text)                |                         | Resource account URI the call arrived on   |
 | CallQueueTargetType<br>(Text)              |                         | Call redirection target                    |
 |                                            | ApplicationEndpoint     | Another voice applications                 |
 |                                            | Mailbox                 | Shared voicemail                           |
-|                                            | Other                   |                                            |
+|                                            | Other                   | Some other condition occurred              |
 |                                            | Phone                   | External transfer                          |
 |                                            | User                    | User in the tenant                         |
 | HasCQ<br>(Boolean)                         |                         | Is CQ involved in call                     |
