@@ -1,7 +1,7 @@
 ---
 title: "Audio Conferencing with Direct Routing, GCCH and DoD"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 07/12/2019

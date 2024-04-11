@@ -1,7 +1,7 @@
 ---
 title: See a list of users enabled for Audio Conferencing
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 02/21/2024
