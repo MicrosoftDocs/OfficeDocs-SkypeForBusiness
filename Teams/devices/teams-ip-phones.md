@@ -54,8 +54,6 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 | AudioCodes C470HD | `1.8.293`  |October 31, 2024  | 9 |
 | AudioCodes C435HD    | `1.12.33`     | October 31, 2024 | 9 |
 | AudioCodes C455HD    | `1.14.404`    | October 31, 2024 | 9 |
-| Crestron UC-P8, UC-P8-I, UC-P10, UC-P10-I | `1.0.0.80` |March 30, 2024 | 9 |
-| Crestron UC-2        |`1.0.1.46`     | March 30, 2024 | 9 |
 | Poly CCX350  | `8.0.1.4670`  | 	October 31, 2024 | 9 |
 | Poly CCX505  | `7.3.1.0811`  | 	October 31, 2024 | 9 |
 | Poly Trio C60, Trio C60 NR, Trio C60 ND | `5.9.3.6155` | October 31, 2024             | 9 |
