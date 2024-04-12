@@ -648,15 +648,13 @@ Any application that can access RESTful web services can use the VAAC API to ret
 
    If an access token isn't returned, check your credentials to make they have [sufficient permissions](#access-permissions).
 
-   **Need some stuff here for voice applications policy**
-
-11. Select **VAAC ConfigAPI Prod** and navigate to the **Params** tab.
+10. Select **VAAC ConfigAPI Prod** and navigate to the **Params** tab.
 
     - [Compress](#compress-the-json-query) the query as outlined
     - [URL encode](#url-encode-the-compressed-json-query) the compressed result as outlined
 
-12. Fill in your [query](#constructing-a-valid-query) string.
-13. Select **Send**.
+11. Fill in your [query](#constructing-a-valid-query) string.
+12. Select **Send**.
 
 ### Reading the result
 
