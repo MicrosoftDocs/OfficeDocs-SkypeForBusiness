@@ -89,9 +89,11 @@ In April, we'll have guidance on end of support policies for the classic Teams c
 
 ## User experience
 
+**Classic Teams will reach the end of support starting July 1, 2024.**
+
 ### What users will experience after March 31 2024
 
-Starting in March 2024, any classic Teams users who haven’t updated to new Teams will begin seeing an informational banner to remind them about the timeline for the Microsoft AutoUpdate. This banner will appear in the main Teams client window at the top of the page (underneath the main bar).
+Starting in March 2024, any classic Teams users who haven’t updated to new Teams will begin seeing an informational banner to remind them about the classic Teams end of support timeline. This banner will appear in the main Teams client window at the top of the page (underneath the main bar).
 
 :::image type="content" source="media/teams-client-eol-switch-banner.png" alt-text="Shows the banner in Teams client that reads 'Classic Teams won't be available. You'll be switched to the new Teams after availability ends. Switch now.' Switch now is a selectable link.":::
 
