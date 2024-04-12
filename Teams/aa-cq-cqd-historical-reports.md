@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
-ms.date: 01/30/2024
+ms.date: 04/15/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -83,20 +83,20 @@ When completed, you're able to [configure a scheduled refresh](/power-bi/connect
 
 Use one of the following methods to control access to the historical reports:
 
-1. Voice Applications Policy
+1. Voice applications policy
 
-If you want to control which Auto attendants, Call queues and Agents the user can report on and don't want to provide any access to Teams Admin Center, create a Voice Applications Policy for the user that grants them access to historical reporting and assign them as an Authorized user to the appropriate Auto attendants and Call queues.
+If you want to control which Auto attendants, Call queues and Agents the user can report on and don't want to provide any access to Teams admin center, create a voice applications policy for the user that grants them access to historical reporting and assign them as an Authorized user to the appropriate Auto attendants and Call queues.
 
 For more information, see [Plan for Auto attendant and Call queue authorized users](./aa-cq-authorized-users-plan.md).
 
 > [!TIP]
-> Using the Voice Applications policy to control access is the recommended approach.  With the Voice Applications Policy and Authorized users it is possible to control which Auto attendants, Call queues, and Agents that a user can report on. If necessary, the policy still allows a user to report on all Auto attendants, Call queues, and Agents without the need to grant the user access to Teams Admin Center.
+> Using the voice applications policy to control access is the recommended approach.  With the voice applications policy and Authorized users it is possible to control which Auto attendants, Call queues, and Agents that a user can report on. If necessary, the policy still allows a user to report on all Auto attendants, Call queues, and Agents without the need to grant the user access to Teams admin Center.
 
-To access this functionality an existing Voice Applications policy must be modified to enable the historical reporting permissions or, a new Voice Applications policy must be created with the historical reporting permissions enabled.  The historical reporting permissions can currently only be set through PowerShell and will be available in Teams admin center later this year. 
+To access this functionality an existing voice applications policy must be modified to enable the historical reporting permissions or, a new voice applications policy must be created with the historical reporting permissions enabled.  The historical reporting permissions can currently only be set through PowerShell and will be available in Teams admin center later this year. 
 
 For more information, see:
 
-|New Voice Applications policy           |Existing Voice Applications policy |
+|New voice applications policy           |Existing voice applications policy |
 |:---------------------------------------|:----------------------------------|
 | [New-CsTeamsVoiceApplicationsPolicy/-HistoricalAutoAttendantMetricsPermission](/powershell/module/teams/new-csteamsvoiceapplicationspolicy#-HistoricalAutoAttendantMetricsPermission)  | [Set-CsTeamsVoiceApplicationsPolicy/-HistoricalAutoAttendantMetricsPermission](/powershell/module/teams/set-csteamsvoiceapplicationspolicy#-HistoricalAutoAttendantMetricsPermission) |
 | [New-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/new-csteamsvoiceapplicationspolicy#-HistoricalCallQueueMetricsPermission)  | [Set-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/set-csteamsvoiceapplicationspolicy#-HistoricalCallQueueMetricsPermission) |
@@ -105,12 +105,12 @@ For more information, see:
 
 2. CQD pipeline (legacy)
 
-If you want the user to report on **all** the Auto attendants, Call queues, and Agents in the tenant and you also want to grant the user access to Teams Admin Center to run other Usage reports, assign the user a CQD access role with both **View Reports** and **View EUII fields** set to **Yes**.
+If you want the user to report on **all** the Auto attendants, Call queues, and Agents in the tenant and you also want to grant the user access to Teams admin center to run other Usage reports, assign the user a CQD access role with both **View Reports** and **View EUII fields** set to **Yes**.
 
 For more information, see [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
 
 > [!NOTE]
-> If a user is assigned a CQD role and a Voice Applications Policy, the CQD role will take precendence and the user will see all the Auto attendants, Call queues and Agents in the tenant.
+> If a user is assigned a CQD role and a voice applications policy, the CQD role will take precendence and the user will see all the Auto attendants, Call queues and Agents in the tenant.
 
 ## V3.x.x desktop installation
 
