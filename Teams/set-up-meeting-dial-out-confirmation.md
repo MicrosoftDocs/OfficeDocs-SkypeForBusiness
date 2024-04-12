@@ -1,7 +1,7 @@
 ---
 title: Set up meeting dial-out-confirmation for your users in Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 12/14/2023
@@ -29,7 +29,7 @@ This policy requires anyone who gets dial outs or Call me calls to accept the me
 ## Set up meeting dial-out confirmation for your users with PowerShell
 
 To enable this policy for all meetings in your organization, set
-the  **`-EnableDialOutJoinConfirmation`** parameter of the [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings) cmdlet to ```true```. To set this parameter, run the following command:
+the  **`-EnableDialOutJoinConfirmation`** parameter of the [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/teams/set-csonlinedialinconferencingtenantsettings) cmdlet to ```true```. To set this parameter, run the following command:
 
 ```PowerShell
 Set-CsOnlineDialInConferencingTenantSettings -EnableDialOutJoinConfirmation $true

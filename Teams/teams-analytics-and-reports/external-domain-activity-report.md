@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams external domain activity report
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 audience: Admin
 ms.topic: article
@@ -22,7 +22,7 @@ The external domain activity report in the Microsoft Teams admin center shows yo
 
 Note that if you have an explicit allowed domains list, this report may include domains not on your allow list. It is possible for users from an allowed organization to start a group chat with users from your organization and users from other organizations allowed by them, but not allowed by you. These domains will show up in your external domain activity report.
 
-## View the webinar usage report
+## View the usage report
 
 1. In the left navigation of the Microsoft Teams admin center, select **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **External domain activity**.
 1. Under **Date range**, select a predefined date range.

@@ -1,7 +1,7 @@
 ---
 title: Configure Operator Connect Conferencing
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 ms.date: 02/22/2024
 ms.topic: article
@@ -101,7 +101,7 @@ Using PowerShell, create your organization's new Audio Conferencing Routing poli
 
 ### Step 1: Add a new string to the Online PSTN Usage policy
 
-Read [Set-CsOnlinePstnUsage](/powershell/module/skype/set-csonlinepstnusage) for more information on using this cmdlet.
+Read [Set-CsOnlinePstnUsage](/powershell/module/teams/set-csonlinepstnusage) for more information on using this cmdlet.
 
 ```powershell
 Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
@@ -109,7 +109,7 @@ Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
 
 ### Step 2: Create a new Online Voice Route policy
 
-Read [Set-CsOnlineVoiceRoute](/powershell/module/skype/set-csonlinevoiceroute) for more information on using this cmdlet.
+Read [Set-CsOnlineVoiceRoute](/powershell/module/teams/set-csonlinevoiceroute) for more information on using this cmdlet.
 
 ```powershell
 New-CsOnlineVoiceRoute -Identity "International" -NumberPattern "\d+" -OnlinePstnUsages "International" -BridgeSourcePhoneNumber <an Operator Connect Conferencing number assigned to your Audio Conferencing bridge>

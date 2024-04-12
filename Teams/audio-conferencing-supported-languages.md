@@ -1,7 +1,7 @@
 ---
 title: "Audio Conferencing supported languages"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 02/22/2024
@@ -88,7 +88,7 @@ If you're looking for specific countries/regions that have phone numbers for Aud
   
 ## Want to know how to manage with Windows PowerShell?
 
-- To save time or automate this, you can use the [Get-CsOnlineDialInConferencingLanguagesSupported](/powershell/module/skype/Get-CsOnlineDialInConferencingLanguagesSupported) or [Set-CsOnlineDialInConferencingServiceNumber](/powershell/module/skype/Set-CsOnlineDialInConferencingServiceNumber) cmdlets.
+- To save time or automate this, you can use the [Get-CsOnlineDialInConferencingLanguagesSupported](/powershell/module/teams/Get-CsOnlineDialInConferencingLanguagesSupported) or [Set-CsOnlineDialInConferencingServiceNumber](/powershell/module/teams/Set-CsOnlineDialInConferencingServiceNumber) cmdlets.
 
 - Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 by using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these articles:
 

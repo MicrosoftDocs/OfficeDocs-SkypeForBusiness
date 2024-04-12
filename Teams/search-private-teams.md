@@ -1,7 +1,7 @@
 ---
 title: Allow users to search for private teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: serdars
 ms.reviewer: shubjain
 ms.date: 11/01/2023
