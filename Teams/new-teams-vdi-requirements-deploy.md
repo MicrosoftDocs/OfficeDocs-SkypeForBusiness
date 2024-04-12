@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.topic: article
-ms.date: 01/30/2024
+ms.date: 04/12/2024
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -32,7 +32,7 @@ The **classic Teams for VDI** will reach end of availability on **June 30th, 202
 After that date, users won't be able to use classic Teams but instead be prompted to switch to new Teams. We recommend you update to new Teams today.
 
 >[!Note]
->New Teams for VDI is now generally available for customers in public clouds and for the GCC government cloud. Other government clouds (GCC High, DOD) are currently not supported. Check back for updates.
+>New Teams for VDI is now generally available for customers in public clouds, GCC, GCC High and DoD government cloud.
 
 ## Requirements
 
