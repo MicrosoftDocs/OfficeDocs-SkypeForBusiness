@@ -1,7 +1,7 @@
 ---
 title: Audio Conferencing dial-out usage report
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 ms.reviewer: 
 ms.date: 11/16/2023

@@ -1,7 +1,7 @@
 --- 
 title: Manage anonymous participant access to Teams meetings, webinars, and town halls (IT admins)
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 ms.reviewer: 
 ms.date: 01/23/2024
 manager: pamgreen

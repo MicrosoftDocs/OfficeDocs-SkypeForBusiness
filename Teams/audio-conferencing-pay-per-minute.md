@@ -1,7 +1,7 @@
 ---
 title: "Audio Conferencing pay-per-minute"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 ms.reviewer: mikedav, oscarr
 ms.date: 02/21/2024
