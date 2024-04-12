@@ -1,7 +1,7 @@
 ---
 title: IT Admins - Manage external meetings and chat with people and organizations using Microsoft identities
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 ms.reviewer: nigolc
 ms.date: 06/01/2023
@@ -119,7 +119,7 @@ To block specific domains
 
 6. Click **Save**.
 
-By default, when you block domains, subdomains aren't blocked. For example, if you block contoso.com, marketing.contoso.com isn't blocked. If you want to block all subdomains, you can use the [Set-CsTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration) PowerShell cmdlet with the `-BlockAllSubdomains` parameter. For example:
+By default, when you block domains, subdomains aren't blocked. For example, if you block contoso.com, marketing.contoso.com isn't blocked. If you want to block all subdomains, you can use the [Set-CsTenantFederationConfiguration](/powershell/module/teams/set-cstenantfederationconfiguration) PowerShell cmdlet with the `-BlockAllSubdomains` parameter. For example:
 
 ```powershell
 Set-CsTenantFederationConfiguration -BlockAllSubdomains $True
@@ -220,7 +220,7 @@ To upload a completed template file
 
 ### Use PowerShell to restrict communication to the user profiles in extended directory
 
-You can also configure the **Restrict communication to the list of external user profiles added to extended directory** setting in PowerShell by using the [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy) cmdlet with the *RestrictTeamsConsumerAccessToExternalUserProfiles* parameter. For example:
+You can also configure the **Restrict communication to the list of external user profiles added to extended directory** setting in PowerShell by using the [Set-CsExternalAccessPolicy](/powershell/module/teams/set-csexternalaccesspolicy) cmdlet with the *RestrictTeamsConsumerAccessToExternalUserProfiles* parameter. For example:
 
 ```powershell
 Set-CsExternalAccessPolicy -Identity Global -RestrictTeamsConsumerAccessToExternalUserProfiles $true
@@ -248,7 +248,7 @@ To learn more about the ways that Teams users and Skype users can communicate, i
 
 ### Configure organization settings by using PowerShell
 
-Trusted organizations can be configured by using the [Set-CSTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration) cmdlet.
+Trusted organizations can be configured by using the [Set-CSTenantFederationConfiguration](/powershell/module/teams/set-cstenantfederationconfiguration) cmdlet.
 
 The following table shows the cmdlet parameters used for configuring trusted organizations.
 
@@ -259,7 +259,7 @@ The following table shows the cmdlet parameters used for configuring trusted org
 |Specify blocked domains|`-BlockedDomains`|
 |Block subdomains|`-BlockAllSubdomains`|
 
-Chat with Teams users not managed by an organization and Skype users can be configured by using the [Set-CSTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration) cmdlet.
+Chat with Teams users not managed by an organization and Skype users can be configured by using the [Set-CSTenantFederationConfiguration](/powershell/module/teams/set-cstenantfederationconfiguration) cmdlet.
 
 The following table shows the cmdlet parameters used for configuring chat with Skype and unmanaged Teams users.
 
@@ -279,7 +279,7 @@ For meeting organizers who aren't enabled for external access, meeting attendees
 
 ### Configure external access policies
 
-External access policies are configured by using [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy) cmdlet.
+External access policies are configured by using [Set-CsExternalAccessPolicy](/powershell/module/teams/set-csexternalaccesspolicy) cmdlet.
 
 The following table shows the cmdlet parameters used for configuring who can chat and meet with people outside your organization.
 

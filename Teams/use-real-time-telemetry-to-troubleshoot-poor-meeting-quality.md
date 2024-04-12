@@ -1,7 +1,7 @@
 ---
 title: Use real-time telemetry to troubleshoot poor meeting quality
-author: MikePlumleyMSFT
-ms.author: mikeplum
+author: jacktremper
+ms.author: jtremper
 manager: pamgreen
 ms.reviewer: vapati
 ms.date: 01/29/2024

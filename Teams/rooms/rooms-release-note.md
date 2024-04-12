@@ -2,20 +2,19 @@
 title: Release notes for Microsoft Teams Rooms
 ms.author: tonysmit
 author: mstonysmith
+manager: pamgreen
 ms.reviewer: sohailta
 ms.date: 11/01/2023
-manager: pamgreen
-audience: ITPro
 ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-f1.keywords: 
-  - NOCSH
-ms.localizationpriority: medium
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
-  - Tier3
+  - Tier1
 description: Admin can read the release notes for Microsoft Teams Rooms, which list cumulative improvements in Microsoft Teams Rooms.
 ms.custom: seo-marvel-apr2020
 ---
@@ -664,6 +663,8 @@ Introduced in this update:
 
 |Release  |Release date  |
 |---------|---------|
+|[1449/1.0.96.2024032804](#144910962024032804-april-2024) | April 2024 |
+|[1449/1.0.96.2024030101](#144910962024030101-march-2024) | March 2024 |
 |[1449/1.0.96.2024020802](#144910962024020802-february-2024) | February 2024 |
 |[1449/1.0.96.2023120901](#144910962023120901-february-2024) | February 2024 |
 |[1449/1.0.96.2023120801](#144910962023120801-december-2023) | December 2023 |
@@ -689,6 +690,18 @@ Introduced in this update:
 
 Features with :::image type="icon" source="../media/mtr-pro-icon.png"::: are only available with Teams Rooms Pro license.
 
+### 1449/1.0.96.2024032804 (April 2024)
+
+Introduced in this update:
+
+- Bug fixes for issues with launching whiteboard and meeting join failures. 
+
+### 1449/1.0.96.2024030101 (March 2024)
+
+Introduced in this update:
+
+- Bug fixes for app crashes and an issue with the device restart banner that does not auto dismiss.  
+
 ### 1449/1.0.96.2024020802 (February 2024)
 
 Introduced in this update:
@@ -698,7 +711,8 @@ Introduced in this update:
 - **Improved view switcher for Front of Room display controls**. The updated interface for the view switcher menu provides users with more control of the front of room display(s) during a meeting. Users can customize the views to show or hide the meeting chat. For Front Row, users can select which meeting component is displayed on the left and right panel. IT admins can configure the default number of panels and the default component showing on the panel(s) using the local device setting.
 - Support for Teams Premium security features including end-to-end encryption for meetings and sensitivity labels.
 - Fix for an experience regression in the Call app including support for P2P call and group call.
-- Reliability and other improvements. 
+- Reliability and other improvements.
+- Removal of Calling settings from the Teams admin settings on the device, including auto dial and auto answer. The latest device configuration prior to the setting removal still applies. Once a device is reset, the functonality is no longer available, just as it is for new devices. 
 
 <sup>1</sup> The Meeting ID and passcode feature fully rolls out in March 2024.  
   

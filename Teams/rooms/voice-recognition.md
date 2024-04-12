@@ -2,24 +2,22 @@
 title: Tenant Administration control for voice recognition (voice profile) in Teams Rooms
 author: mstonysmith
 ms.author: tonysmit
+manager: pamgreen
 ms.reviewer: parisataheri
 ms.date: 03/29/2021
-manager: pamgreen
 ms.topic: article
-audience: admin
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-search.appverid: MET150
-description: Learn about Tenant Administration control for voice recognition (voice profile) in Teams meeting rooms.
-ms.localizationpriority: medium
-f1.keywords: 
-  - NOCSH
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
   - Tier1
-appliesto: 
-  - Microsoft Teams
+search.appverid: MET150
+ms.localizationpriority: medium
+description: Learn about Tenant Administration control for voice recognition (voice profile) in Teams meeting rooms.
 ---
 
 # Manage voice recognition technology controls for an Intelligent Speaker
@@ -73,7 +71,7 @@ An Intelligent Speaker that is of a speakerphone design should be placed at leas
 
 ## Enable an Intelligent Speaker user recognition
 
-Voice profile data can be used in any meeting with an Intelligent Speaker. See [Teams meetings policies](../meetings-policies-recording-and-transcription.md#transcription) and the [PowerShell meeting cmdlets](/powershell/module/skype/set-csteamsmeetingpolicy) for information on the meeting settings.
+Voice profile data can be used in any meeting with an Intelligent Speaker. See [Teams meetings policies](../meetings-policies-recording-and-transcription.md#transcription) and the [PowerShell meeting cmdlets](/powershell/module/teams/set-csteamsmeetingpolicy) for information on the meeting settings.
 
 > [!NOTE]
 > If your voice profile isn't available under the *Recognition* tab in Settings and you aren't being attributed in transcriptions, re-enroll your Voice Profile.

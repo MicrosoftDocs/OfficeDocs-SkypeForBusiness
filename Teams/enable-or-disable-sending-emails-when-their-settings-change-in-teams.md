@@ -1,7 +1,7 @@
 ---
 title: "Email options when Audio Conferencing settings change"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 02/21/2024
@@ -75,7 +75,7 @@ You can also use the Microsoft Teams PowerShell module and run:
 Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
 ```
 
-You can use the [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings) to manage other settings for your organization, including email.
+You can use the [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/teams/set-csonlinedialinconferencingtenantsettings) to manage other settings for your organization, including email.
 
 For more information, see [Microsoft Teams PowerShell reference](/powershell/module/teams/).
 

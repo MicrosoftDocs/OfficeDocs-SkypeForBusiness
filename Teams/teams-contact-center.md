@@ -39,7 +39,7 @@ If you're an organization looking for an integrated contact center solution, see
 
 ## Next steps
 
-If you need to provide additional context and details, send a mail to [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com). If you are a vendor seeking to join the certification program, fill out the calling platform intake as the next step.
+If you need to provide additional context and details, send a mail to [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com). If you're a vendor seeking to join the certification program, fill out the calling platform intake as the next step.
 
 ### [Calling Platform Intake](https://aka.ms/CallingPlatformIntake)
 
@@ -78,6 +78,7 @@ The following providers offer contact center solutions that are integrated into 
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
 | `Puzzel` | https://www.puzzel.com/microsoft-teams                            |
 | `ROGER365.io` | https://www.roger365.io/contact-center-teams                         |
+| `Sikom` | http://www.sikom.de/microsoft-teams/                            |
 | `Solgari` | https://solgari.com/converse-for-teams/                       |
 | `Talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
 | `Tendfor` | https://www.tendfor.com                                                            |
@@ -96,8 +97,11 @@ The following providers offer contact center solutions that are integrated into 
 | `Intermedia` | https://www.intermedia.com/products/contact-center                          |
 | `IPDynamics` | https://www.ipdynamics.de/ |
 | `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
-| `Sikom` | http://www.sikom.de/microsoft-teams/                            |
 | `Unexus` | https://www.unexus.nl/en/solutions/unexus-connect/                |
 | `Vonage` |  https://www.vonage.com/contact-centers/integrations/microsoft-teams/                                 |
 
 This list will be updated as more solution providers join and meet the certification criteria.
+
+## Support boundaries
+
+Microsoft supports Contact Center solutions only from the certified partners. If there are issues, you must contact your Contact Center partner first. If needed, the Contact Center partner will bring the issue to Microsoft through internal channels. Microsoft may reject support cases where a non-certified Contact Center solution is used, or if investigation shows the issue is one that the partner can address.
