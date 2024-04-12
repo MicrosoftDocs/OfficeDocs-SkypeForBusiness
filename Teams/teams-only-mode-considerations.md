@@ -1,7 +1,7 @@
 ---
 title: Teams Only mode considerations
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: serdars
 ms.date: 01/09/2019
 ms.topic: conceptual
