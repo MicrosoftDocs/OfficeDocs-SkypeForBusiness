@@ -127,6 +127,7 @@ If users can't upgrade to the new Teams client on their compute, the new Teams w
 Here's a list of the banner messages you may experience: XXX
 
 |Scenario |End of service warning |End of service message |End of availability warning |End of availability message |
+|---------|-----------------------|-----------------------|----------------------------|----------------------------|
 |Unsupported operating systems (Windows 7, 8, 8.1) | | | | |
 |Unsupported OS users | | | | |
 |Windows 10 XXX | | | | |
@@ -134,7 +135,9 @@ Here's a list of the banner messages you may experience: XXX
 |Any install and launch issues | | | | |
 
 
+
 XXX WILL DELETE ONCE I KNOW I DON'T NEED
+
 |Condition for triggering the banner |Banner message |Further information |
 |------------------------------------|---------------|--------------------|
 |Classic Teams is being used or new Teams is installed |Classic Teams will be unsupported starting July 1, 2024. You’ll be switched to the new Teams after this date. Learn More. Switch now |         |
