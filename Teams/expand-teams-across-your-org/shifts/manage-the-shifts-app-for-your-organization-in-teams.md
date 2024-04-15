@@ -53,9 +53,9 @@ Shifts is available in all Enterprise SKUs where Teams is available.
 
 ## Location of Shifts data
 
-Shifts data is currently stored in Azure in data centers in Asia Pacific (APAC), the European Union (EU), and North America.
+Shifts data is stored in one of the following region geographies: Asia Pacific (APAC), European Union (EU), or United States. Additionally, Shifts offers data residency locally in Australia, Canada, France, Japan, and the United Kingdom.
 
-To learn more about Shifts data, including storage, retention, retrieval, and encryption of Shifts data, see [Shifts data FAQ](shifts-data-faq.md).
+To learn more about Shifts data, including data storage location, security and compliance, and access control, see [Shifts data FAQ](shifts-data-faq.md).
 
 ## Set up Shifts
 
