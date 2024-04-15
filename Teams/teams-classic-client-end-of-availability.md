@@ -24,7 +24,7 @@ ms.localizationpriority: high
 
 ## Overview
 
-A new Teams client is in the process of rolling out, in stages, for users who are still on classic Teams client. This rollout involves installing the new Teams client for users who still have the classic Teams client, and uninstalling the classic Teams client 14 days after the installation of new Teams. This article will discuss the timelines and details of end of support and end of availability for classic Teams client.
+A new Teams client is in the process of rolling out, in stages, for users who are still on classic Teams client. This rollout involves installing the new Teams client for users who still have the classic Teams client, with Microsoft attempting to uninstall the classic Teams client 14 days after the installation of new Teams. This article will discuss the timelines and details of end of support and end of availability for classic Teams client.
 
 ### Timeline updates
 
@@ -34,6 +34,9 @@ This rollout is going to differ based on your Teams Admin Center policy controls
 > These timelines don't apply to GCC, GCCH, and DoD. We cover this in a later section.
 
 **Native clients excluding VDI**:
+
+
+XXX TIMELINE SWAPS
 
 :::image type="content" source="media/teams-client-eoa-timeline.png" alt-text="A chart showing the timelines for classic Teams to new Teams.":::
 
@@ -51,9 +54,6 @@ For more information regarding VDI, please see [Upgrade to new Teams for Virtual
   - New Teams will be installed and become the default client. The toggle to return to classic Teams will still be available if needed.
   - In mid-May, any users remaining on classic Teams will be switched to new Teams, and the toggle to return to classic Teams will no longer be available. We'll attempt to uninstall classic Teams, currently after a period of 14 days.
 
-> [!IMPORTANT]
-> Classic Teams users who have encountered issues moving to new Teams or who don't meet the [prerequisites](new-teams-deploy-using-policies.md#prerequisites) to upgrade will still have access to the classic Teams client until July 01 2024 at the earliest. This gives admins more time to address any issues encountered during this process.
-
 ### Timeline for GCC, GCCH, DoD
 
 This rollout is going to differ based on your Teams Admin Center policy controls.
@@ -69,8 +69,6 @@ This rollout is going to differ based on your Teams Admin Center policy controls
   - New Teams becomes the default client. Beginning in late May, the new Teams client will become the default client for all active Teams users. Customers will receive the new Teams update. Users may still toggle back to the classic Teams client.
   - New Teams Only. Beginning mid-June all remaining classic Teams users will be updated to the new Teams client and the toggle switch will be removed. After this process completes, Microsoft will attempt to remove the classic Teams client.
 
-In April, we'll have guidance on end of support policies for the classic Teams client.
-
 #### DoD
 
 Starting in mid-July, Teams update policies you've applied in Teams Admin Center will no longer be honored and a Microsoft-controlled rollout will begin according to the following schedule.
@@ -85,8 +83,6 @@ Admin-managed tenants. Admins may choose to control their new Teams rollout by s
   - New Teams becomes the default client. Beginning in mid-July, the new Teams client will become the default client for all active Teams users. Customers will receive the new Teams update. Users may still toggle back to the classic Teams client.
   - New Teams Only. Beginning mid-August all remaining classic Teams users will be updated to the new Teams client and the toggle switch will be removed. After this process completes, Microsoft will attempt to remove the classic Teams client.
 
-In April, we'll have guidance on end of support policies for the classic Teams client.
-
 ## User experience
 
 **Classic Teams will reach the end of support starting July 1, 2024.**
@@ -99,15 +95,17 @@ Starting in March 2024, any classic Teams users who haven’t updated to new Tea
 UDATE IMAGE XXX
 :::image type="content" source="media/teams-client-eol-switch-banner.png" alt-text="Shows the banner in Teams client that reads 'Classic Teams won't be available. You'll be switched to the new Teams after availability ends. Switch now.' Switch now is a selectable link.":::
 
-Starting in June 2024, users will begin to see warning dialog messages informing about the end of support coming.
+Starting in June 2024, any user who's still on classic Teams due to configuration issues or an unsupported OS will begin to see warning dialog messages informing users about the upcoming end of support.
 
 
 IMAGE HERE XXX
 
 
-**On July 1 2024, classic Teams becomes unsupported**. Users still running classic clients will experience in-app dialog messages informing them that the client is no longer supported. These are dismissible but will reappear periodically.
+**On July 1 2024, classic Teams becomes unsupported**. Users still running classic Teams due to configuration issues or an unsupported OS will experience in-app dialog messages informing them that the client is no longer supported. These are dismissible but will reappear periodically.
 
-WHAT IS UNSUPPORTED XXX
+
+
+WHAT IS UNSUPPORTED XXX HEIDI WILL TALK TO CORBIN MEEK ABOUT THIS.
 
 ### Classic Teams End of availability
 
@@ -126,11 +124,13 @@ If users can't upgrade to the new Teams client on their compute, the new Teams w
 > [!NOTE]
 > You can dismiss this banner when it starts to appear, but the banner will reappear with each client launch.
 
-Here's a list of the banner messages you may experience:
+Here's a list of the banner messages you may experience: XXX
 
+
+IS THIS STILL REAL XXX I HAVE THE COPY IN THE ARTICLE WILL CHANGE EVERYWHERE
 |Condition for triggering the banner |Banner message |Further information |
 |------------------------------------|---------------|--------------------|
-|Classic Teams is being used or new Teams is installed |Classic Teams will soon be unavailable for use. You’ll be switched to the new Teams after this date. Learn More. Switch now |         |
+|Classic Teams is being used or new Teams is installed |Classic Teams will be unsupported starting July 1, 2024. You’ll be switched to the new Teams after this date. Learn More. Switch now |         |
 |Classic Teams is being used. new Teams isn't installed |Classic Teams  will soon be unavailable. Learn more Get the new Teams |         |
 |Microsoft can't update because of policy restrictions (Commercial) |Classic Teams will soon be unavailable for use, and we can't update to the new Teams due to org policy. For more info, contact your IT admin. Learn more |[Troubleshooting installation issues in the new Teams client](new-teams-troubleshooting-installation.md) |
 |If your Teams update policy is set to **Not enabled** |Classic Teams  will soon be unavailable for use. Contact your IT admin to switch to the new Teams. Learn more |[Classic Teams users to be updated to new Teams after March 31, 2024](new-teams-deploy-using-policies.md) |
@@ -138,6 +138,9 @@ Here's a list of the banner messages you may experience:
 Classic Teams will remain available to use as per defined in the above timelines. However, we highly encourage admins to update their users to new Teams, as new features are only being added to the new Teams client. Learn more in the [Upgrade to the new Teams using policies](new-teams-deploy-using-policies.md) article.
 
 If users are on an unsupported OS (including Win 10 LTSC), you’ll see a slightly different banner messaging:
+
+
+STILL TRUE? XXX CHANGE TO EOS WARNING, ADD EOS MODAL
 
 :::image type="content" source="media/teams-client-eol-requirements-banner.png" alt-text="Shows the banner in Teams client that reads 'Classic Teams won't be available for use after the end of the availability period. To use the new Teams, update your OS to meet requirements or contact your IT Admin.' the requirements link is a selectable link.":::
 
