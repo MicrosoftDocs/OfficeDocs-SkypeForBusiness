@@ -26,7 +26,7 @@ description: 'Admins learn how to use and configure QR codes on Microsoft Teams 
 
 Both **Teams Rooms on Windows** and **Teams Rooms on Android** support a convenient way for room users to join meetings by simply scanning a QR code on the Teams Rooms home screen, making it easier for people to use meeting rooms ad-hoc. This serves as an alternative to proximity-based technologies like Bluetooth and streamlines the user experience by reducing the steps for users to join a meeting with the room system. This feature is available in all Teams Rooms licenses. 
 
-A QR code is displayed by default on the Teams Room home screen. To ensure security, the QR code is refreshed every minute. You can hide the room QR code from the home screen by disabling the feature through [settings](#device-configuration).
+A QR code is displayed by default on the Teams Room home screen. To ensure security, the QR code is refreshed every minute. You can hide the room QR code from the home screen by disabling the feature through [settings](#device-configuration-for-teams-rooms).
 
 ![Teams Rooms home screen showing QR code.](media/teams-rooms-qr-codes/mtrhomeqr.png)
 
@@ -45,7 +45,7 @@ If the user doesn't have the Teams mobile app, they will be directed to download
 > [!NOTE]
 > Only calendar events with an online Teams meeting link (happening now or scheduled to start within 10 minutes) is expected to appear under **Join with room**. 
 
-After the user selects an action on their mobile device, by default, the room system automatically accepts the meeting nudge and joins the meeting without additional user action. The user then enters the full meeting experience on Teams Rooms and the room companion mode experience on Teams mobile. You can disable the room auto-accept functionality for any QR code meeting join through [settings](#device-configuration).  
+After the user selects an action on their mobile device, by default, the room system automatically accepts the meeting nudge and joins the meeting without additional user action. The user then enters the full meeting experience on Teams Rooms and the room companion mode experience on Teams mobile. You can disable the room auto-accept functionality for any QR code meeting join through [settings](#device-configuration-for-teams-rooms).  
 
 > [!NOTE]
 > For security reasons, if the user takes more than two minutes to select an action on mobile after scanning the QR code, the room auto-accept functionality will be disabled regardless of the setting value, and the user must manually accept the call on the room console or touch display. 
