@@ -32,7 +32,7 @@ The **classic Teams for VDI** will reach end of availability on **June 30th, 202
 After that date, users won't be able to use classic Teams but instead be prompted to switch to new Teams. We recommend you update to new Teams today.
 
 >[!Note]
->New Teams for VDI is now generally available for customers in public clouds and for the GCC government cloud. Other government clouds (GCC High, DOD) are currently not supported. Check back for updates.
+>New Teams for VDI is now generally available for customers in public clouds, GCC, GCC High and DoD government cloud.
 
 ## Requirements
 
@@ -275,7 +275,7 @@ All the user settings and configurations are now stored in:
 Make sure these folders and files are persisted for proper Teams functioning.
 
 > [!NOTE]
-> It's critical that **all** the necessary directories and top folder structure under AppData\Local\Packages\MSTeams_8wekyb3d8bbwe are correctly set up as directories, not as files or reparse points:
+> It's critical that **all** the necessary directories and top folder structure under AppData\Local\Packages\MSTeams_8wekyb3d8bbwe are correctly set up as directories, not as files or reparse points, and roam with the user's profile:
 >
 > AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\AC
 > AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\AppData
@@ -292,6 +292,7 @@ The folder "meeting-addin" under TeamsSharedConfig shouldn't be persisted, as th
 
 >[!Important]
 >Customers using FSLogix need to install hotfix [2.9.8784.63912](/fslogix/overview-release-notes#fslogix-2210-hotfix-3-29878463912) in order to guarantee proper integration with the new Teams client in VDI. The hotfix addresses the following issues:
+>
 >- In non-persistent multiuser environments, the new Teams can become unregistered for some users after a new Teams update
 >- During user sign out, new Teams client user data/cache located in %LocalAppData%\Packages\MSTeams_8wekyb3d8bbwe\LocalCache **was not saved** in the FSLogix Profile or ODFC containers.
 >
@@ -369,7 +370,14 @@ msiexec.exe /i "C:\Program Files\WindowsApps\MSTeams_X.X.X.X_x64__8wekyb3d8bbwe\
 ```
 
 - TARGETDIR must be kept consistent across installs so that the Teams Meeting Add-in MSI can easily detect and clean up older versions. If multiple directories are used, then the installation may not behave as expected.
-- **X.X.X.X** needs to be replaced by the New Teams version. Make sure there's a double underscore between the CPU architecture (x64) and the PublisherID (8wekyb3d8bbwe).
+- **X.X.X.X** needs to be replaced by the New Teams version. Make sure there's a double underscore between the CPU architecture (x64) and the PublisherID (8wekyb3d8bbwe). The exact version number can be extracted by running this command in PowerShell:
+  
+  ```powershell
+
+  Get-AppXPackage -Name "*msteams*" | Select-Object -ExpandProperty Version
+
+  ```
+  
 - **version** must be replaced with the MSI file version, for example, 1.24.2203.0. The exact version number can be extracted by running this command in PowerShell:
 
 ```powershell
@@ -398,6 +406,9 @@ If classic Teams is removed and only new Teams is being installed, the Teams Mee
 These keys should be then deployed via additional sign in scripts or similar methods:
 
 :::image type="content" source="media/new-teams-vdi-meeting-addin.png" alt-text="new Teams meeting add in":::
+
+> [!NOTE]
+> These HKCU regkeys are not needed anymore if you're installing new Teams 24060.2623.2790.8046 or higher, as it bundles TeamsMeetingAddIn.msi version 1.24.05401, which has a fix for successful regkeys creation under HKCU.
 
 ### Troubleshooting new Teams and Outlook integration
 
@@ -468,6 +479,7 @@ Learn more: [Manage accounts and organizations in Microsoft Teams](https://suppo
 [1.50.2402.29001](/azure/virtual-desktop/whats-new-webrtc#updates-for-version-150240229001)).
 - Screen sharing from chat for Citrix when using Workspace app 2311 only.
 - The app switcher toggle isn't shown in new Teams if the virtual machine has the machine-wide classic Teams installed (MSI with ALLUSERS=1). **Note:** This issue is fixed on new Teams version 23320.3021.2567.4799 or higher.
+- msteams_autostart.exe "The parameter is incorrect": In non-persistent environments that use FSLogix (any version) or Citrix Profile Manager profile containers, when new Teams attempts to autostart or a user tries to launch Teams from the Start menu, it throws the error: "The parameter is incorrect." The frequency and reproducibility of the error varies depending on the environment and especially the antivirus software being used (SentinelOne, Palo Alto, Trend Micro, Bitdefender, CrowdStrike, and so on.) and exclusions in place.
 
 >[!Note]
 >Microsoft is working on a solution and plan to remove these limitations soon.

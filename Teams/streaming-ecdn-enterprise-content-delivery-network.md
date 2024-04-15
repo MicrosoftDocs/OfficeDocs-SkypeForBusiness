@@ -103,8 +103,8 @@ Microsoft eCDN solution is the default for town hall organizers with a Teams Pre
 
 |Teams admin center policy option|Parameter value in PowerShell| Behavior|
 |---------|---------|---------------|
-|On|Enabled| **This is the default value.** Premium town hall organizers with this policy use the Microsoft eCDN.|
-|Off|Disabled| Premium town hall organizers with this policy use your chosen partner eCDN solution. These organizers might not be able use some future town hall features.|
+|On|$true| **This is the default value.** Premium town hall organizers with this policy use the Microsoft eCDN.|
+|Off|$false| Premium town hall organizers with this policy use your chosen partner eCDN solution. These organizers might not be able use some future town hall features.|
 
 ### Using the Teams admin center
 
@@ -124,7 +124,7 @@ To manage eCDN for Premium town halls, use the **`-UseMicrosoftECDN`** parameter
 To allow Premium town hall organizers to use a partner eCDN solution, use the following script:
 
 ```powershell
-Set-CsTeamsEventsPolicy -Identity <policy name> -UseMicrosoftECDN  Disabled
+Set-CsTeamsEventsPolicy -Identity <policy name> -UseMicrosoftECDN $false
 ```
 
 ## Configure Teams production type events through Teams and Yammer for your eCDN solution
