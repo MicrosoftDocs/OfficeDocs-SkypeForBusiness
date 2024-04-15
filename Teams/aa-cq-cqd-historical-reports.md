@@ -158,7 +158,7 @@ You have to refresh the report to see any new data.
 
 #### Interpret the report
 
-:::image type="content" source="media/aa-cq-historical-report-sample-aa-v316-new-explain.png" alt-text="Screenshot showing sample cloud auto attendant analytics report" lightbox="media/aa-cq-historical-report-sample-aa-v316-new-explain.png":::
+:::image type="content" source="media/aa-cq-historical-report-sample-aa-v316-new-explain.png" alt-text="Screenshot showing sample cloud auto attendant analytics report." lightbox="media/aa-cq-historical-report-sample-aa-v316-new-explain.png":::
 
 | Callout | Title | Description |
 |:-|:-|:-|
@@ -183,7 +183,7 @@ You have to refresh the report to see any new data.
 
 #### Interpret the report
 
-:::image type="content" source="media/aa-cq-historical-report-sample-cq-v316-new-explain.png" alt-text="Screenshot showing sample cloud call queue analytics report" lightbox="media/aa-cq-historical-report-sample-cq-v316-new-explain.png":::
+:::image type="content" source="media/aa-cq-historical-report-sample-cq-v316-new-explain.png" alt-text="Screenshot showing sample cloud call queue analytics report." lightbox="media/aa-cq-historical-report-sample-cq-v316-new-explain.png":::
 
 |Callout  |Title                                  |Description               |
 |:--------|:--------------------------------------|:-------------------------|
@@ -208,7 +208,7 @@ You have to refresh the report to see any new data.
 
 #### Interpret the report
 
-:::image type="content" source="media/aa-cq-historical-report-sample-at-v316-new-explain.png" alt-text="Screenshot showing sample cloud call queue agent timeline report" lightbox="media/aa-cq-historical-report-sample-at-v316-new-explain.png":::
+:::image type="content" source="media/aa-cq-historical-report-sample-at-v316-new-explain.png" alt-text="Screenshot showing sample cloud call queue agent timeline report." lightbox="media/aa-cq-historical-report-sample-at-v316-new-explain.png":::
 
 |Callout  |Title                                  |Description               |
 |:--------|:--------------------------------------|:-------------------------|
@@ -644,7 +644,7 @@ Any application that can access RESTful web services can use the VAAC API to ret
 
    An access token is returned.
 
-   :::image type="content" source="media/aa-cq-historical-report-postman-03.png" alt-text="Screenshot showing result with access token returned" lightbox="media/aa-cq-historical-report-postman-03.png":::
+   :::image type="content" source="media/aa-cq-historical-report-postman-03.png" alt-text="Screenshot showing result with access token returned." lightbox="media/aa-cq-historical-report-postman-03.png":::
 
    If an access token isn't returned, check your credentials to make they have [sufficient permissions](#access-permissions).
 
