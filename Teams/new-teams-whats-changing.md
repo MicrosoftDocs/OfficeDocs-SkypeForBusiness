@@ -31,7 +31,7 @@ As we improved the client, the experience also improved to align with similar fe
 |Contacts in chat|You no longer can access Contacts from Chat. Instead, use the new People app. Pin it to your left navigation pane by selecting  the **(...)** menu, right-click **People**, and then select Pin.|
 |Windows notifications| Teams notifications are now fully served from Teams and all notifications preferences are handled within Teams Settings.|
 |Ability to save messages and files in Teams|The Save feature is no longer available. However, classic Teams users can download their saved messages and files to a local folder that they can open in new Teams. Learn more: [Mark a message as saved in Microsoft Teams](https://support.microsoft.com/office/3f04cba4-7f80-42ca-9983-cd93676c7420)|
-|Teams Theme Setting|Consistent with other Office applications, Teams Theme setting follows the OS Theme by default. Users can change this default in **Teams Settings > Appearance and Accessibility.**|
+|Teams Theme Setting|Consistent with other Office applications, Teams Theme setting follows the OS Theme by default. Users can change this default in **Teams Settings > Appearance and Accessibility.** When a user signs out of Teams, any change to the default Theme won't be saved.|
 |Look up an organizational chart while in a 1:1 chat |Select a user’s avatar or profile photo anywhere in Teams and navigate to the organizational chart within the profile card.|
 |Settings dialog|Teams Settings is now an app accessed from the More options menu **(...)** in the title bar. |
 |General appearance changes|Colors, tooltip styles, and general appearance have been updated.|

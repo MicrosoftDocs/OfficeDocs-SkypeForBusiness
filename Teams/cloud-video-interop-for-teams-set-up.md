@@ -1,7 +1,7 @@
 ---
 title: Set up Cloud Video Interop for Microsoft Teams
-author: MikePlumleyMSFT
-ms.author: mikeplum
+author: jacktremper
+ms.author: jtremper
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
