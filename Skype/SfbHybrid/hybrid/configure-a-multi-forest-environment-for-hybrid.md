@@ -39,7 +39,7 @@ Multiple user forests are supported. Keep the following in mind:
 
 - Exchange Server can be deployed in one or more forests, which may or may not include the forest containing Skype for Business Server. Make sure you have applied the latest Cumulative Update.
 
-- For details on co-existence with Exchange Server, including support criteria and limitations in various combinations of on-premises and online, see [Feature support](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) in [Plan to integrate Skype for Business and Exchange](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
+- For details on coexistence with Exchange Server, including support criteria and limitations in various combinations of on-premises and online, see [Feature support](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) in [Plan to integrate Skype for Business and Exchange](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
 
 ## User homing considerations
 
@@ -57,7 +57,7 @@ If you have Exchange Server deployed in an another forest and Exchange provides 
 
 Assume Skype for Business Server is deployed in one forest (a resource forest), but provides functionality to users in one or more other forests (account forests). In this case, users in the other forests must be represented as disabled user objects in the forest where Skype for Business Server is deployed.
 
-You need to use an identity management product, such as Microsoft Identity Manager, to provision and synchronize the users from the account forests into the forest where Skype for Business Server is deployed. Users must be synchronized into the forest hosting Skype for Business Server as disabled user objects. Users cannot be synchronized as Active Directory contact objects, because Microsoft Entra Connect will not properly synchronize contacts into Microsoft Entra ID for use with Skype.
+You need to use an identity management product, such as Microsoft Identity Manager, to provision and synchronize the users from the account forests into the forest where Skype for Business Server is deployed. Users must be synchronized into the forest hosting Skype for Business Server as disabled user objects. Users can't be synchronized as Active Directory contact objects, because Microsoft Entra Connect won't properly synchronize contacts into Microsoft Entra ID for use with Skype.
   
 Regardless of any multi-forest configuration, the forest hosting Skype for Business Server can also provide functionality for any enabled users that exist in the same forest.
   
@@ -72,19 +72,19 @@ To get proper identity synchronization, the following attributes need to be sync
 
 The [chosen account link attribute](/azure/active-directory/hybrid/plan-connect-design-concepts) will be used as the Source Anchor. If you have a different and immutable attribute that you would prefer to use, you may do so; just be sure to edit the AD FS claims rule and select the attribute during the Microsoft Entra Connect configuration.
   
-Do not sync the UPNs between the forests. You need to use a unique UPN for each user forest, as you cannot use the same UPN across multiple forests. As a result, there are two possibilities:  to synchronize the UPN or to not synchronize. 
+Don't sync the UPNs between the forests. You need to use a unique UPN for each user forest, as you can't use the same UPN across multiple forests. As a result, there are two possibilities:  to synchronize the UPN or to not synchronize. 
   
-- If the unique UPN from each user forest was not synchronized to the associated disabled object in the resource forest, single sign-on (SSO) would be broken for at least the initial sign-in attempt (assuming the user selected the option to save password). In the Skype for Business client, we assume that the SIP/UPN values are the same. Because the SIP address in this scenario is user@company.com, but the UPN of the enabled object in the user forest is in fact user@contoso.company.com, the initial login attempt would fail and the user would be prompted to enter credentials. Upon entering their correct UPN, the authentication request would be completed against the domain controllers in the user forest, and sign-in would be successful.
+- If the unique UPN from each user forest wasn't synchronized to the associated disabled object in the resource forest, single sign-on (SSO) would be broken for at least the initial sign-in attempt (assuming the user selected the option to save password). In the Skype for Business client, we assume that the SIP/UPN values are the same. Because the SIP address in this scenario is user@company.com, but the UPN of the enabled object in the user forest is in fact user@contoso.company.com, the initial sign-in attempt would fail and the user would be prompted to enter credentials. Upon entering their correct UPN, the authentication request would be completed against the domain controllers in the user forest, and sign-in would be successful.
 
-- If the unique UPN from each user forest was synchronized to the associated disabled object in the resource forest, AD FS authentication would fail. The matching rule would find the UPN on the object in the resource forest, which was disabled and could not be used for authentication.
+- If the unique UPN from each user forest was synchronized to the associated disabled object in the resource forest, AD FS authentication would fail. The matching rule would find the UPN on the object in the resource forest, which was disabled and couldn't be used for authentication.
 
 ## Create a Microsoft 365 organization
 
-You will need to provision a Microsoft 365 organization to use with your deployment. For more information, please see [Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings](/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
+You'll need to provision a Microsoft 365 organization to use with your deployment. For more information, please see [Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings](/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
   
 ## Configure Active Directory Federation Services
 
-Once you have a tenant, you will need to configure Active Directory Federation Services (AD FS) in each of the user forests. This assumes you have a unique SIP and SMTP address and User Principal Name (UPN) for each forest. AD FS is optional and is used here to get single sign-on (SSO). DirSync with Password Sync is also supported and can also be used in place of AD FS.
+Once you have a tenant, you'll need to configure Active Directory Federation Services (AD FS) in each of the user forests. This assumes you have a unique SIP and SMTP address and User Principal Name (UPN) for each forest. AD FS is optional and is used here to get single sign-on (SSO). DirSync with Password Sync is also supported and can also be used in place of AD FS.
   
 Only deployments with matching SIP/SMTP and UPNs were tested. Not having matching SIP/SMTP/UPNs may result in reduced functionality, such as problems with Exchange integration and SSO.
   
@@ -108,7 +108,7 @@ Once deployed, you need to edit the claims rule to match the Source Anchor selec
 
 In resource forest topologies, it’s required that user attributes from both the resource forest and any account forests(s) are synchronized into Microsoft Entra ID. Microsoft recommends that Microsoft Entra Connect synchronize and merge user identities from *all* forests that have enabled user accounts and the forest that contains Skype for Business. For details see, [Configure Microsoft Entra Connect for Skype for Business and Teams](configure-azure-ad-connect.md).
 
-Note that Microsoft Entra Connect does not provide synchronization on premises between the account and resource forests. That must be configured by using Microsoft Identity Manager or a similar product, as described earlier.
+Note that Microsoft Entra Connect doesn't provide synchronization on premises between the account and resource forests. That must be configured by using Microsoft Identity Manager or a similar product, as described earlier.
   
 When finished and Microsoft Entra Connect is merging, if you look at an object in the metaverse, you should see something similar to the following:
   
@@ -145,7 +145,7 @@ Microsoft Entra Connect should be installed using the defaults, except for the f
 
 ## Configure hybrid connectivity for Skype for Business Server
 
-Follow the best practices for configuring Skype for Business hybrid. For more information information, see [Plan hybrid connectivity](plan-hybrid-connectivity.md) and [Configure hybrid connectivity](configure-hybrid-connectivity.md).
+Follow the best practices for configuring Skype for Business hybrid. For more information, see [Plan hybrid connectivity](plan-hybrid-connectivity.md) and [Configure hybrid connectivity](configure-hybrid-connectivity.md).
   
 ## Configure hybrid connectivity for Exchange Server
 

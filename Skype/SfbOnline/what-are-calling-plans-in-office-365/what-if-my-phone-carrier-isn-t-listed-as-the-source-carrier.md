@@ -29,11 +29,11 @@ description: "Learn what to do if your carrier isn't listed in Skype for Busines
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
 
-It's a little confusing when you see that the name of your carrier isn't listed. In most cases, if the service provider or carrier is different, chances are that the phone numbers you are transferring over are owned by a different service provider or carrier. There can be times when the service provider or carrier that is listed could be different from your current service provider because your current service provider may be working with a third-party service provider. 
+It's a little confusing when you see that the name of your carrier isn't listed. In most cases, if the service provider or carrier is different, chances are that the phone numbers you're transferring over are owned by a different service provider or carrier. There can be times when the service provider or carrier that is listed could be different from your current service provider because your current service provider may be working with a third-party service provider. 
   
 An example:
   
-- If you are porting number from Skype for Business as your carrier, you might see Level3 listed.
+- If you're porting number from Skype for Business as your carrier, you might see Level3 listed.
     
   **For complete step-by-step instructions, see [Transfer phone numbers to Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams).**
 
@@ -41,7 +41,7 @@ An example:
     > If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
   
-## Related topics
+## Related articles
 [Transferring phone numbers common questions](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
