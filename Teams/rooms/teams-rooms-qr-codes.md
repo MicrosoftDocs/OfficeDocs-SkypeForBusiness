@@ -106,5 +106,6 @@ To enable your users to join meetings using QR codes:
 > Although there are many QR code scanner apps available, we recommend using the built-in camera app or code scanner app that are natively available on all iOS and Android devices. 
 > If your users are using an Android device with both work and personal profiles enabled, both the Teams app and the camera app and/or the code scanner app must be listed under the same profile. Otherwise, if they are in separate profiles, the camera app and/or the code scanner app isn't able to correctly scan and transfer the information over to the Teams app. 
 > For more information about adding the Teams app and camera app and/or code scanner app to a work profile, see [Manage Android Enterprise system apps in Microsoft Intune](/mem/intune/apps/apps-ae-system).
+
 > [!WARNING]
 > If your Teams Rooms on Windows devices have existing custom backgrounds, your custom backgrounds may be impacted with this new element on the home screen. You can find the latest home screen templates and updated custom background design guidelines at [Set up and manage Teams Rooms on Windows custom backgrounds.](/microsoftteams/rooms/custom-backgrounds?tabs=Enhanced) 
