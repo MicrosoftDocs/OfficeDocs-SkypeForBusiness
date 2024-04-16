@@ -107,8 +107,8 @@ The following user types are auto consented for recording without any participan
 - Teams Rooms on Windows
 - Teams Rooms on Android
 - Third party video conferencing devices via Cloud Video Interop (CVI)
-- Third party video conferencing devices connecting via Direct Guest Join (DGJ).
-- Meeting participants dialing in using the Public Switched Telephone Network (PSTN) conferencing dial-in.
+- Third party video conferencing devices connecting via Direct Guest Join (DGJ)
+- Meeting participants dialing in using the Public Switched Telephone Network (PSTN) conferencing dial-in
 
 #### Supported endpoints
 
@@ -184,7 +184,7 @@ The expiration value is an integer for days that can be set as follows:
 
 - Minimum value: 1
 - Maximum value: 99999
-- -1 (PowerShell only) so the recordings never expire.
+- -1 (PowerShell only) so the recordings never expire
 
 > [!NOTE]
 > The maximum default expiration time for A1 users is 30 days.
