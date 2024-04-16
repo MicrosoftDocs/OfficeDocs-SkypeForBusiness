@@ -179,6 +179,11 @@ scenario are:
 
 - Recorder bot must run on a Windows VM in Azure
 
+- Recorder bot outbound firewall destination IP address must be open to the Azure public IP range.
+
+- Recorder bot inbound firewall source IP address must be open to the Azure public IP range.
+
+
 The Azure and Windows VM requirements only apply to the Teams Bot
 component, which means that a partner might implement the rest of the
 platform of their choice provided they can meet the relevant performance
