@@ -209,7 +209,7 @@ Users can manually delete their recordings before the expiration date unless the
 
 ### Deletion of recordings
 
-On the expiration date, the recording is moved into the recycle bin and the expiration date field is cleared. If a user recovers a recording from the recycle bin, the meeting expiration setting doesn't it again.
+On the expiration date, the recording is moved into the recycle bin and the expiration date field is cleared. If a user recovers a recording from the recycle bin, the meeting expiration setting doesn't delete it again.
 
 Usually, the recording is deleted within a day after the expiration date but in rare instances could take as long as five days. The file owner receives an email notification when the recording expires and is directed to the recycle bin if they want to recover the recording.
 
