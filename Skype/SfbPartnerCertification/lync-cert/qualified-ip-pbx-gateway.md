@@ -19,14 +19,14 @@ f1.keywords:
 ms.custom:
 - Lync Certification
 - Dn788945
-description: "Infrastructure qualifications including PSTN gateways and IP PBX products, along with the necessary firmware combinations, that are independently qualified for  Lync Server."
+description: "Infrastructure qualifications including PSTN gateways and IP PBX products, along with the necessary firmware combinations, that have been independently qualified for  Lync Server."
 ---
 
 # IP PBXs and Gateways
 
 ## Qualified IP PBXs & Gateways
 
-The following PSTN gateways, IP-PBX products, and relevant firmware combinations are independently qualified for use with Lync Server.
+The following PSTN gateways, IP-PBX products, and relevant firmware combinations have been independently qualified for use with Lync Server.
 
 We recommend that you visit the vendor's web site for the latest information.
 
@@ -108,7 +108,7 @@ We recommend that you visit the vendor's web site for the latest information.
                 <p>Known Limitations:</p>
                 <ol>
                     <li>Analog devices connected to FXS ports don't support hold/resume. To support hold/resume, the FXS port needs to be controlled by a Cisco PBX.</li>
-                    <li>No ringback is heard when call is forwarded from a Lync Endpoint to a PSTN Endpoint. This issue can be corrected by allowing 183 without SDP on the outbound dial-peers to Lync, but this results in no ring back on regular inbound calls.</li>
+                    <li>No ringback is heard when call is forwarded from a Lync Endpoint to a PSTN Endpoint. This issue can be corrected by allowing 183 without SDP on the outbound dial-peers to Lync, but this will result in no ring back on regular inbound calls.</li>
                 </ol>
             </td>
         </tr>
@@ -137,7 +137,7 @@ We recommend that you visit the vendor's web site for the latest information.
             <td rowspan="2"><a href=" https://ipecs.com">Ericsson-LG Enterprise</a></td>
             <td>IPECS IP-PBX</td>
             <td>IP-PBX</td>
-            <td>5.5 Bd</td>
+            <td>5.5Bd</td>
             <td> </td>
         </tr>
         <tr align="left" valign="top">
@@ -176,8 +176,8 @@ We recommend that you visit the vendor's web site for the latest information.
                 <p>Experius AS Notes:</p>
                 <ol>
                     <li>PBX is tested and is supported only with an AudioCodes Mediant 1000 Gateway v6.2</li>
-                    <li>When a user configures simul-ring to a PSTN IVR number, the calling party hears ring back not early media played from the IVR</li>
-                    <li>PBX doesn't support DNS load balancing</li>
+                    <li>When a user configures simul-ring to a PSTN IVR number, the calling party will hear ring back not early media played from the IVR</li>
+                    <li>PBX does'ot support DNS load balancing</li>
                     <li>PBX doesn't generate OPTIONS ping</li>
                 </ol>
                 <p>C2100 &amp; C20 Notes:</p>
@@ -243,7 +243,7 @@ We recommend that you visit the vendor's web site for the latest information.
                 </ol>
                 <p>Known Limitations:</p>
                 <ol>
-                    <li>Samsung PBX doesn't support DNS Load Balancing using the same FQDN for two IP addresses.</li>
+                    <li>DNS Load Balancing using the same FQDN for two IP addresses isn't supported by the Samsung PBX.</li>
                 </ol>
             </td>
         </tr>
@@ -262,19 +262,19 @@ We recommend that you visit the vendor's web site for the latest information.
             <td align ="center" valign="middle">&#x2714;</td>
         </tr>
         <tr align="left" valign="top">
-            <td>Vega 400 g</td>
+            <td>Vega 400g</td>
             <td>R100S044</td>
             <td>Basic Gateway</td>
             <td align ="center" valign="middle">&#x2714;</td>
         </tr>
         <tr align="left" valign="top">
-            <td>Vega 200 g</td>
+            <td>Vega 200g</td>
             <td>R100S044</td>
             <td>Basic Gateway</td>
             <td align ="center" valign="middle">&#x2714;</td>
         </tr>
         <tr align="left" valign="top">
-            <td>Vega 100 g</td>
+            <td>Vega 100g</td>
             <td>R100S044</td>
             <td>Basic Gateway</td>
             <td align ="center" valign="middle">&#x2714;</td>
