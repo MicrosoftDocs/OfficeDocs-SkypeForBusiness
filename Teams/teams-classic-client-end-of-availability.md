@@ -82,21 +82,18 @@ Admin-managed tenants. Admins may choose to control their new Teams rollout by s
 
 Starting in March 2024, any classic Teams users who haven’t updated to new Teams will begin seeing an informational banner to remind them about the classic Teams end of support timeline. This banner will appear in the main Teams client window at the top of the page (underneath the main bar).
 
-
-UDATE IMAGE XXX
-:::image type="content" source="media/teams-client-eol-switch-banner.png" alt-text="Shows the banner in Teams client that reads 'Classic Teams won't be available. You'll be switched to the new Teams after availability ends. Switch now.' Switch now is a selectable link.":::
+:::image type="content" source="media/teams-client-eol-switch-banner-prior.png" alt-text="Shows the banner in Teams client that reads 'Classic Teams will be unsupported starting July 1, 2024. You'll be switched to the new Teams at that time. Learn more.' Learn more is a selectable link.":::
 
 Starting in June 2024, any user who's still on classic Teams due to configuration issues or an unsupported OS will begin to see warning dialog messages informing users about the upcoming end of support.
 
+teams-client-eol-client-config-issues
 
-IMAGE HERE XXX
-
+:::image type="content" source="media/teams-client-eol-client-config-issues.png" alt-text="Shows the banner in Teams client that reads 'Classic Teams will be unsupported starting July 1, 2024. To use the new Teams, update your OS or contact your IT department. View minimum requirements.' View minimum requirements is a selectable link.":::
 
 **On July 1 2024, classic Teams becomes unsupported**. Users still running classic Teams due to configuration issues or an unsupported OS will experience in-app dialog messages informing them that the client is no longer supported. These are dismissible but will reappear periodically.
 
+XXX
 
-
-WHAT IS UNSUPPORTED XXX HEIDI WILL TALK TO CORBIN MEEK ABOUT THIS.
 
 ### Classic Teams End of availability
 
