@@ -32,7 +32,6 @@ ms.localizationpriority: high
 - [A website doesn't load in the new Teams desktop](/microsoftteams/troubleshoot/tabs/websites-not-loaded-new-teams).
 - [The new Teams desktop app fails to render video](/microsoftteams/troubleshoot/meetings/new-teams-desktop-app-fail-render-video).
 - Collaborative Notes is only available in public clouds, and not in EDU (Academic SKUs).
-- Users may receive an error message when trying to open a document attached to a cross-post shared from a team where they're not a member. A fix is expected by mid-March.
 - Scheduling a Teams Live Event (TLE) redirects to the classic Teams web experience. This feature will continue to work even after the deprecation of classic Teams.
 - When editing a TLE on the web, users can't use the **Join** and **Chat** buttons. Selecting these buttons doesn't take the user to the join or chat experiences.
 - When editing a TLE on the web, users can't use the **Manage live event resources** link at the bottom of the page. Selecting the link redirects the user to a different page. Resources for the event, can be found at the top of the page.
