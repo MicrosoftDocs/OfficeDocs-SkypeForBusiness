@@ -107,12 +107,12 @@ If users can't upgrade to the new Teams client on their compute, the new Teams w
 > [!NOTE]
 > You can dismiss this banner when it starts to appear, but the banner will reappear with each client launch.
 
-Here's a list of the banner messages you may experience: XXX
+Here's a list of the messages you may experience:
 
 |Scenario |End of service warning |End of service message |End of availability warning |End of availability message |
 |---------|-----------------------|-----------------------|----------------------------|----------------------------|
 |Unsupported operating systems (Windows 7, 8, 8.1) | | | | |
-|Unsupported OS users | | | | |
+|Unsupported OS users | |Classic Teams will be unsupported starting July 1, 2024. To use the new Teams, update your OS or contact your IT department. View minimum requirements | | |
 |Windows GPO policy blocked users | | | | |
 |Any install and launch issues | | | | |
 
