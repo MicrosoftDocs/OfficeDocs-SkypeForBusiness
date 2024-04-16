@@ -56,7 +56,7 @@ Teams settings are used to control notification, tagging, email integration, and
 
 ##### Related articles for tagging
 
-[Manage tags in Microsoft Teams](manage-tags.md)
+- [Manage tags in Microsoft Teams](manage-tags.md)
 
 #### Email integration
 
@@ -83,7 +83,7 @@ Teams settings are used to control notification, tagging, email integration, and
 
 ##### Related articles for files
 
-[Add a cloud storage service to Teams](https://support.microsoft.com/office/4e1e1a12-21ae-4616-b539-33d11e4cd68e)
+- [Add a cloud storage service to Teams](https://support.microsoft.com/office/4e1e1a12-21ae-4616-b539-33d11e4cd68e)
 
 #### Organization
 
@@ -95,7 +95,7 @@ Teams settings are used to control notification, tagging, email integration, and
 
 ##### Related articles for Organization
 
-[Use the Organization tab in Teams](https://support.microsoft.com/office/ff02568b-290a-46d6-ae7a-cda22f723894)
+- [Use the Organization tab in Teams](https://support.microsoft.com/office/ff02568b-290a-46d6-ae7a-cda22f723894)
 
 #### Devices
 
@@ -119,7 +119,7 @@ Teams settings are used to control notification, tagging, email integration, and
 
 ##### Related articles for search by name
 
-[Limit who users can see when searching the directory in Teams](teams-scoped-directory-search.md)
+- [Limit who users can see when searching the directory in Teams](teams-scoped-directory-search.md)
 
 #### Safety and communications
 
@@ -131,8 +131,8 @@ Teams settings are used to control notification, tagging, email integration, and
 
 ##### Related articles for safety and communications
 
-[Supervised chats for educational tenants](supervise-chats-edu.md)
-[Supervised chats for non-educational tenants](supervised-chat-non-edu.md)
+- [Supervised chats for educational tenants](supervise-chats-edu.md)
+- [Supervised chats for non-educational tenants](supervised-chat-non-edu.md)
 
 #### Shared channels
 
@@ -144,8 +144,8 @@ Teams settings are used to control notification, tagging, email integration, and
 
 ##### Related articles for shared channels
 
-[Shared channels in Microsoft Teams](shared-channels.md)
-[Collaborate with external participants in a shared channel](/microsoft-365/solutions/collaborate-teams-direct-connect)
+- [Shared channels in Microsoft Teams](shared-channels.md)
+- [Collaborate with external participants in a shared channel](/microsoft-365/solutions/collaborate-teams-direct-connect)
 
 ### Teams policies
 
@@ -170,6 +170,8 @@ Teams policies are used to control what settings or features are available to us
 #### Related articles for Teams policies
 
 - [Manage channel policies in Microsoft Teams](teams-policies.md)
+- [Private channels in Microsoft Teams](private-channels)
+- [Shared channels in Microsoft Teams](shared-channels.md)
 - [Set-CsTeamsChannelsPolicy](/powershell/module/teams/set-csteamschannelspolicy)
 
 ### Template policies
@@ -198,6 +200,7 @@ Template policies control what team templates users see when they create a new t
 
 - [Manage team templates in the admin center](templates-policies.md)
 - [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md)
+- [Create a custom team template in Microsoft Teams](create-a-team-template.md)
 - [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate)
 - [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist)
 
@@ -211,7 +214,7 @@ Update policies are used to manage Teams and Office preview users who can see pr
 
 |Setting | Default | Description |
 |:-----|:-----|:-----|
-Show Teams preview features|On for users in current channel (Preview)|Turns on Teams Public preview features for any user enrolled in Office Current Channel (Preview).|
+|Show Teams preview features|On for users in current channel (Preview)|Turns on Teams Public preview features for any user enrolled in Office Current Channel (Preview).|
 |Use new Teams client|Microsoft controlled| Allows Microsoft to: <br>- Control whether the "Try the new Teams" toggle switch is shown. <br>- Manage the installation of the new Teams client and determine default client behavior based on the rollout schedule.|
 
 You could set the preview policy using the PowerShell `Set-CsTeamsUpdateManagementPolicy` cmdlet with the `-AllowPublicPreview` parameter.
