@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "Teams/manage-tasks-app.md",
+      "redirect_url": "/microsoftteams/manage-planner-app",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "Teams/Office-365-custom-connectors.md",
       "redirect_url": "/microsoftteams/m365-custom-connectors",
       "redirect_document_id": false
