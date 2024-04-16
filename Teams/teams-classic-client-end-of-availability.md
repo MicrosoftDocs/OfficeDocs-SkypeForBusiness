@@ -112,7 +112,7 @@ Here's a list of the messages you may experience:
 |Scenario |End of service warning |End of service message |End of availability warning |End of availability message |
 |---------|-----------------------|-----------------------|----------------------------|----------------------------|
 |Unsupported operating systems (Windows 7, 8, 8.1) | | | | |
-|Unsupported OS users | |Classic Teams will be unsupported starting July 1, 2024. To use the new Teams, update your OS or contact your IT department. View minimum requirements | | |
+|Unsupported OS users |Classic Teams will soon be unsupported, and your OS needs to be updated to run the new Teams. Starting July 1, 2024, we'll no longer be supporting classic Teams. Update your OS or contact your IT department. View minimum requirements |Classic Teams will be unsupported starting July 1, 2024. To use the new Teams, update your OS or contact your IT department. View minimum requirements | | |
 |Windows GPO policy blocked users | | | | |
 |Any install and launch issues | | | | |
 
