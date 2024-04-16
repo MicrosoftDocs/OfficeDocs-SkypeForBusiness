@@ -18,10 +18,10 @@ ms.localizationpriority: medium
 appliesto: 
   - Microsoft Teams
 ms.collection: 
-  - M365-collaboration
-  - m365-frontline
-  - teams-1p-app-admin
-  - highpri
+- M365-collaboration
+- m365-frontline
+- teams-1p-app-admin
+- highpri
 ---
 
 # Manage the Planner app for your organization in Microsoft Teams
@@ -115,7 +115,7 @@ With task publishing, your organization can [publish task lists](https://support
 - Publishers and managers can view reports to see assignment and completion status of tasks at each level, including by location (team), task list, and individual task.
     :::image type="content" source="media/manage-planner-app-reporting.png" alt-text="Screenshot of task report." lightbox="media/manage-planner-app-reporting.png":::
 
-Users create, manage, and publish task lists by selecting the **My tasks & plans** dropdown menu in the Planner app, and then choosing **Publishing**. This menu only shows for a user if your organization [set up a team targeting hierarchy](#set-up-your-team-targeting-hierarchy) *and* the user is part of a team that's included in the hierarchy. The hierarchy determines whether the user can publish or receive task lists and view reporting for received lists.
+Users create, manage, and publish task lists by selecting the **My Tasks & Plans** dropdown menu in the Planner app, and then choosing **Publishing**. This menu only shows for a user if your organization [set up a team targeting hierarchy](#set-up-your-team-targeting-hierarchy) *and* the user is part of a team that's included in the hierarchy. The hierarchy determines whether the user can publish or receive task lists and view reporting for received lists.
 
 :::image type="content" source="media/manage-planner-app-publishing.png" alt-text="Screenshot of the My tasks & plans dropdown menu, showing the Publishing option.":::
 
