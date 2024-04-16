@@ -93,7 +93,7 @@ You can use the Teams admin center or PowerShell to manage whether meetings crea
 
 When the explicit recording policy is enabled, once the meeting recording starts, all participants are muted, with their cameras and content-share off. When a participant decides to unmute, turn on their camera, or share content, they’re prompted to respond 'Yes' or 'No' to consent to be included in the meeting recording. If an attendee responds 'No' to the prompt, they have a view-only meeting experience. View only attendees can't start recordings for any meetings that require explicit consent.
 
-The consent choice for each attendee is included in the attendance report. If the organizer disables the attendance report, the meeting can't be recorded. Attendees not in the attendance report—due to the admin policy or opting out—have a view-only meeting.
+The consent choice for each attendee is included in the attendance report. If the organizer disables the attendance report, the meeting can't be recorded. Attendees not in the attendance report—due to the admin policy or opting out—have a view-only meeting experience.
 
 Before enabling this policy, make sure you check your chosen policy for the attendance report. To learn more about the attendance report, see [Attendance report for meetings and webinars in Microsoft Teams.](teams-analytics-and-reports/meeting-attendance-report.md)
 
