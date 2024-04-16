@@ -140,6 +140,8 @@ If there isn't enough bandwidth for a meeting, participants see a message that i
 
 For meetings that need the highest-quality video experience, such as CEO board meetings and Teams live events, we recommend you set the bandwidth to 10 Mbps. Even when the maximum experience is set, Teams adapts to low-bandwidth conditions when certain network conditions are detected, depending on the scenario.
 
+The Media bit rate policy doesn't affect the Teams web client.
+
 ## Participants can use video effects
 
 <a name="bkvideofilters"> </a>
