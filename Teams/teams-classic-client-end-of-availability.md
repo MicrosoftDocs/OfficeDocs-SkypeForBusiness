@@ -33,16 +33,7 @@ This rollout is going to differ based on your Teams Admin Center policy controls
 > [!IMPORTANT]
 > These timelines don't apply to GCC, GCCH, and DoD. We cover this in a later section.
 
-**Native clients excluding VDI**:
-
-
-XXX TIMELINE SWAPS
-
-:::image type="content" source="media/teams-client-eoa-timeline.png" alt-text="A chart showing the timelines for classic Teams to new Teams.":::
-
-**VDI timeline**:
-
-:::image type="content" source="media/new-teams-vdi-timeline.png" alt-text="A chart showing the timelines for classic Teams to new Teams for VDI.":::
+:::image type="content" source="media/teams-client-eoa-timeline-complete.png" alt-text="A chart showing the timelines to move from classic Teams to new Teams.":::
 
 For more information regarding VDI, please see [Upgrade to new Teams for Virtualized Desktop Infrastructure (VDI)](new-teams-vdi-requirements-deploy.md).
 
@@ -130,7 +121,6 @@ Here's a list of the banner messages you may experience: XXX
 |---------|-----------------------|-----------------------|----------------------------|----------------------------|
 |Unsupported operating systems (Windows 7, 8, 8.1) | | | | |
 |Unsupported OS users | | | | |
-|Windows 10 XXX | | | | |
 |Windows GPO policy blocked users | | | | |
 |Any install and launch issues | | | | |
 
@@ -207,8 +197,8 @@ In the Teams admin center:
 
 - **The system requirements for the new Teams client:** [Prerequisites](new-teams-deploy-using-policies.md#prerequisites).
 - **When will admins see the new Teams Only policy in their tenant:** This is available in the Teams admin center now. Please see [Upgrade to the new Teams using policies](new-teams-deploy-using-policies.md).
-- **What will happen with the update policies:** The update policies may still appear, but they won’t be functional after March 31, 2024, except for VDI customers.
-- **When will classic Teams client stop being installed with M365 apps:** The installation of the classic Teams client will stop happening at the end of the availaibility period.
+- **What will happen with the update policies:** The update policies will apply only to VDI clients after March 31, 2024.
+- **When will classic Teams client stop being installed with M365 apps:** The installation of the classic Teams client will stop happening at the end of the availability period.
 - **Can I stop the classic Teams client from being uninstalled and what happens if a policy is set to prevent app uninstallation:** Yes, you can stop the classic Teams client from being uninstalled. If your configuration prevents uninstall, Microsoft won't attempt the uninstall again. You'll need to uninstall classic Teams after that point.
 - **Do I need to remove the old client:** Microsoft recommends that you remove the classic Teams client once a user is fully transitioned to new Teams. It's security best practice to not leave software that is no longer operational installed on a machine. Microsoft will attempt to remove the classic Teams client on your behalf, but if your configuration or policies are blocking or preventing this uninstall it's your responsibility to do this removal yourself.
 - **What can I do if users still need the classic Teams client:** You won’t be able to use classic Teams once availability ends. Until that date you'll still have a banner announcing the end of classic Teams at the top of your client. For more information review: [Features that are changing in the new Microsoft Teams](new-teams-whats-changing.md).
