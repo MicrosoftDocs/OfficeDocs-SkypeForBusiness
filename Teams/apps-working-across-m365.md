@@ -17,7 +17,7 @@ ms.reviewer: mhayrapetyan
 search.appverid: MET150
 f1keywords: 
   - ms.teamsadmincenter.manageapps.overview
-description: Learn how to manage Teams apps. Learn to allow or block apps, check org-level status and app properties, upload custom apps, and manage app settings.
+description: Learn how to manage Teams apps that work across Outlook and Microsoft 365.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: medium
