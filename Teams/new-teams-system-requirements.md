@@ -1,5 +1,5 @@
 ---
-title:  Minimum hardware requirements for new Teams client
+title:  System requirements for new Teams client
 ms.author: heidip
 author: MicrosoftHeidi
 manager: jtremper
@@ -14,17 +14,17 @@ ms.reviewer: daro
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Information about minimum hardware requirements for the new Teams client, what customers will need to be able to install and use the new Teams client.
+description: Information about the system requirements, minimum hardware requirements, for the new Teams client, what customers will need to be able to install and use the new Teams client.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: high
 ---
 
-# New Teams minimum hardware requirements
+# New Teams system requirements
 
 Microsoft Teams can be installed on PCs, Macs, and mobile devices, and can also be accessed via a web browser. Most end users can start using Teams by [installing the client](https://www.microsoft.com/microsoft-teams/download-app). After they install the new Teams client, all they need to do is sign in with their username and password.
 
-The new Teams client delivers up to two times faster app performance while using 50% less memory with the same minimum hardware requirements that classic Teams has.
+The new Teams client delivers up to two times faster app performance while using 50% less memory with the same system requirements that classic Teams has.
 
 ## New Teams for Windows PC desktop
 
