@@ -35,15 +35,11 @@ This rollout is going to differ based on your Teams Admin Center policy controls
 
 **Native clients excluding VDI**:
 
-
-
 :::image type="content" source="media/teams-client-eoa-timeline.png" alt-text="A chart showing the timelines for classic Teams to new Teams.":::
 
 **VDI timeline**:
 
 :::image type="content" source="media/new-teams-vdi-timeline.png" alt-text="A chart showing the timelines for classic Teams to new Teams for VDI.":::
-
-
 
 For more information regarding VDI, please see [Upgrade to new Teams for Virtualized Desktop Infrastructure (VDI)](new-teams-vdi-requirements-deploy.md).
 
@@ -55,7 +51,7 @@ For more information regarding VDI, please see [Upgrade to new Teams for Virtual
   - New Teams will be installed and become the default client. The toggle to return to classic Teams will still be available if needed.
   - In mid-May, any users remaining on classic Teams will be switched to new Teams, and the toggle to return to classic Teams will no longer be available. We'll attempt to uninstall classic Teams, currently after a period of 14 days.
 
-
+We now have additional information regarding the timeline for the end of service and end of availability for classic Teams client:
 
 :::image type="content" source="media/teams-client-eoa-timeline-complete.png" alt-text="A chart showing the timelines for the end of support for classic Teams and the end of availability of classic Teams.":::
 
