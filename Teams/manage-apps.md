@@ -8,7 +8,7 @@ ms.service: msteams
 ms.subservice: teams-apps
 ms.custom: intro-get-started
 audience: admin
-ms.date: 03/30/2024
+ms.date: 04/17/2024
 ms.collection: 
   - M365-collaboration
   - tier2
@@ -181,9 +181,9 @@ Use org-wide app settings to control whether users can install third-party apps.
 
 To allow third-party apps, either edit and use the Global (Org-wide default) policy or create and assign an admin-created policy.
 
-## Manage apps in Gallatin and Air-gapped cloud environments
+## Manage apps in 21Vianet and air-gapped cloud environments
 
-In Gallatin and air-gapped cloud environments, admins can get an overview of the Teams apps in Teams admin center on the Teams apps > Manage apps page.
+In Microsoft 365 operated by 21Vianet and air-gapped cloud environments, you get an overview of the apps on the Teams apps > Manage apps page.
 
 To view more details of an app, click an app's name to access the app details page. You can allow or block the app for your users.
 
