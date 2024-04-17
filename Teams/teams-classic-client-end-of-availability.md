@@ -33,7 +33,17 @@ This rollout is going to differ based on your Teams Admin Center policy controls
 > [!IMPORTANT]
 > These timelines don't apply to GCC, GCCH, and DoD. We cover this in a later section.
 
-:::image type="content" source="media/teams-client-eoa-timeline-complete.png" alt-text="A chart showing the timelines to move from classic Teams to new Teams.":::
+**Native clients excluding VDI**:
+
+
+
+:::image type="content" source="media/teams-client-eoa-timeline.png" alt-text="A chart showing the timelines for classic Teams to new Teams.":::
+
+**VDI timeline**:
+
+:::image type="content" source="media/new-teams-vdi-timeline.png" alt-text="A chart showing the timelines for classic Teams to new Teams for VDI.":::
+
+
 
 For more information regarding VDI, please see [Upgrade to new Teams for Virtualized Desktop Infrastructure (VDI)](new-teams-vdi-requirements-deploy.md).
 
@@ -44,6 +54,10 @@ For more information regarding VDI, please see [Upgrade to new Teams for Virtual
 - Admin-managed rollout: Admins can choose to control the new Teams rollout as outlined in [Upgrade to the new Teams using policies](new-teams-deploy-using-policies.md). These policies will no longer be honored at the start of April, apart from your VDI users, and the following changes will happen:
   - New Teams will be installed and become the default client. The toggle to return to classic Teams will still be available if needed.
   - In mid-May, any users remaining on classic Teams will be switched to new Teams, and the toggle to return to classic Teams will no longer be available. We'll attempt to uninstall classic Teams, currently after a period of 14 days.
+
+
+
+:::image type="content" source="media/teams-client-eoa-timeline-complete.png" alt-text="A chart showing the timelines for the end of support for classic Teams and the end of availability of classic Teams.":::
 
 ### Timeline for GCC, GCCH, DoD
 
