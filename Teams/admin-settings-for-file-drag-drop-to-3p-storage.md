@@ -77,10 +77,10 @@ The following behaviour occurs with mixed-mode admin settings:
 
 |NativeFileEntryPoints |DefaultFileUploadAppID |Expected behavior
 |---------|---------|---|
-|ODSP Enabled     |Enabled*       |Paperclip>Upload from device (**goes to ODSP**) Drag-Drop (**goes to the configured 3P app***)|
-|ODSP Enabled    |Not enabled      |Paperclip>Upload from device  (**goes to ODSP**) Drag-drop (**goes to ODSP**)|
-|ODSP Disabled    |Enabled*      |Paperclip (Attach) - Hidden Drag-Drop (**goes to the configured 3P app***)|
-|ODSP Disabled    |Not Enabled      |Paperclip (Attach) - Hidden Drag-Drop - (**no op**)|
+|ODSP Enabled     |Enabled*       |Paperclip>Upload from device (**goes to ODSP**)<br>Drag-Drop (**goes to the configured 3P app***)|
+|ODSP Enabled    |Not enabled      |Paperclip>Upload from device  (**goes to ODSP**)<br>Drag-drop (**goes to ODSP**)|
+|ODSP Disabled    |Enabled*      |Paperclip (Attach) - Hidden<br>Drag-Drop (**goes to the configured 3P app***)|
+|ODSP Disabled    |Not Enabled      |Paperclip (Attach) - Hidden<br>Drag-Drop - (**no op**)|
 
 > [!NOTE]
 > The policy will apply to both T1 and T2.1.
