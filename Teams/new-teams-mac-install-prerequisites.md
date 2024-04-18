@@ -62,7 +62,7 @@ For Monterey OS:
 2. Go to **Notifications & Focus** and under **Notifications**, select Microsoft Teams.
 3. Switch the **Allow notifications** toggle to turn on notifications.
 
-:::image type="content" source="media/new-teams-mac-notifications-monterrey.png" alt-text="new teams for mac notifications macOS Monterrey":::
+:::image type="content" source="media/new-teams-mac-notifications-monterey.png" alt-text="new teams for mac notifications macOS Monterey":::
 
 #### For macOS Ventura and Sonoma
 
