@@ -69,7 +69,7 @@ Set-CsTeamsFilesPolicy -Identity Global -DefaultFileUploadAppId  ""
 ## To update the policy user
 *Set-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Enabled*
 
-## To remove the policy user
+## To remove the policy for the complete list of users
 *Remove-CsTeamsFilesPolicy*
 
 ## Mixed code
