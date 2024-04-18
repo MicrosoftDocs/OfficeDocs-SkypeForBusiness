@@ -115,8 +115,8 @@ Files are always stored in SharePoint, which handles all the data rest policies 
 The following guidance explains how messaging data is stored:
 
 - Q&A content is searchable via eDiscovery at the user level.
-- If you have the Advanced Data Residency (ADR) add-on license, or Go-Locals, your message content is stored in the same region as their Teams Go-Local content.
-- Depending on your Viva Engage network location, if you don't have the ADR add-on license, your message data is stored in North America or EU by default.
+- Depending on your Viva Engage network location, if you don't have the Advanced Data Residency (ADR) add-on license, your message data is stored in North America or EU by default.
+- If you have the ADR add-on license, or Go-Locals, your message content is stored in the same region as their Teams Go-Local content.
 - Depending on your Viva Engage network location, message data, including message content is stored in North America or EU by default.
 - For orgs without an existing Viva Engage network, the Q&A Viva Engage network is created in the United States Viva Engage region. Your org's messages for Q&A are always stored in the US, unless they have the ADR add-on license.
 - Similar to OneNote tabs, removing the Q&A from a meeting doesn't delete the meeting data. Removing Q&A from the meeting only removes access to the data from the meeting. If your users add the Q&A tab back, they can see the meeting conversations again.
