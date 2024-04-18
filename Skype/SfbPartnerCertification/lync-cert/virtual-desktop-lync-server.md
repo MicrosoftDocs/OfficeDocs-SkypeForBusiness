@@ -28,7 +28,7 @@ The Virtual Desktop Infrastructure (VDI) Partner platforms and client hardware p
 
 ## About VDI
 
-With the release of Lync Server 2013, Microsoft has worked closely with multiple partners to bring enterprise-grade audio and video communication support using Lync to thin clients running in a Virtual Desktop Infrastructure (VDI) environment. This functionality works through a combination of the Lync rich client running in the datacenter along with a Lync VDI plug-in running in the local client hardware. The solution is extensible and designed to work on both VDI Partner platforms such as VMware and client hardware platforms such as Dell Wyse and HP.
+With the release of Lync Server 2013, Microsoft works closely with multiple partners to bring enterprise-grade audio and video communication support using Lync to thin clients running in a Virtual Desktop Infrastructure (VDI) environment. This functionality works through a combination of the Lync rich client running in the datacenter along with a Lync VDI plug-in running in the local client hardware. The solution is extensible and designed to work on both VDI Partner platforms such as VMware and client hardware platforms such as Dell Wyse and HP.
 
 ### Related resources
 
@@ -37,7 +37,8 @@ With the release of Lync Server 2013, Microsoft has worked closely with multiple
 [Troubleshooting the Lync VDI Plug-in](/previous-versions/office/lync-server-2013/lync-server-2013-troubleshooting-the-lync-vdi-plug-in) <!-- 2013 yet to migrate -->
 
 ## VDI environments
-The following table lists the VDI partners and their products that have been tested with the Lync 2013 VDI plug-in. 
+
+The following table lists the VDI partners and their products that are tested with the Lync 2013 VDI plug-in. 
 
 <table border="1" cellpadding="0" cellspacing="0" class="grid" width="100%">
     <colgroup>
@@ -67,7 +68,7 @@ The following table lists the VDI partners and their products that have been tes
         <tr>
             <td colspan="4" valign="top">
                 <p><a href="https://www.citrix.com/products/xendesktop/overview.html" title="https://www.citrix.com/products/xendesktop/overview.html">https://www.citrix.com/products/xendesktop/overview.html</a></p>
-                <p>Note: Citrix VDI solution for Lync Plugin is currently approved for use with Win7 client OS. Testing on Win8 and 8.1 is in progress. For the best experience, Microsoft recommends updating to the latest available Lync cumulative update.</p>
+                <p>Note: Citrix VDI solution for Lync Plugin is currently approved for use with Win 7 client OS. Testing on Win 8 and 8.1 is in progress. For the best experience, Microsoft recommends updating to the latest available Lync cumulative update.</p>
             </td>
         </tr>
         <tr>
@@ -80,7 +81,7 @@ The following table lists the VDI partners and their products that have been tes
         <tr>
             <td colspan="4" valign="top">
                 <p><a href="https://www.microsoft.com/itpro/windows">https://www.microsoft.com/itpro/windows</a></p>
-                <p></em> mstsc.exe only.  The Windows 8 App &quot;Remote Desktop&quot; is not supported</p>
+                <p></em> mstsc.exe only.  The Windows 8 App &quot;Remote Desktop&quot; isn't supported</p>
             </td>
         </tr>
         <tr>
@@ -114,11 +115,11 @@ The Lync 2013 VDI Plug-in is available in 32-bit and 64-bit versions and is supp
 
 ***Minimum system requirements***:
 
-- CPU: 1.5 GHz processor
+- CPU: 1.5-GHz processor
 - Memory: 2 gigabytes (GB) of RAM
 - Space required: 32 bit: ~700 MB, 64 bit: ~900 MB
 
-Clients which do not meet the preceding requirements are not supported by Microsoft.
+Clients, which don't meet the preceding requirements aren't supported by Microsoft.
 
 The specific VDI client terminals tested by the VDI client manufacturers and validated by Microsoft are as follows. 
 
@@ -130,5 +131,5 @@ The specific VDI client terminals tested by the VDI client manufacturers and val
 
 
 
-For additional information about specific thin clients, please contact the client hardware manufacturer.
+For additional information about specific thin clients, contact the client hardware manufacturer.
 
