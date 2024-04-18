@@ -50,7 +50,7 @@ Teams Rooms on Windows devices are configured out of the box to send no video si
 - [Liberty DL-UHDILC](https://secure.libertycable.com/product_details.php?pitem=DL-UHDILC)
 - [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad)
 
-If the displays aren't visible to the Windows PC when in their sleep state, Teams Rooms may report display disconnected alerts messages in Teams Admin Center and the Pro Management Portal and you may experience instability with your Teams Rooms devices. Windows believes the displays are physically disconnected. Consult your display manufacturer documentation for how to configure your displays in a way that keeps the HDMI sync with the Windows PC. If unsucessful, powered Extended Display Identification Data (EDID) emulators/minders can be used to mitigate the instability and prevent monitoring alerts, several options are listed:
+If the displays aren't visible to the Windows PC when in their sleep state, Teams Rooms may report display disconnected alerts messages in Teams Admin Center and the Pro Management Portal and you may experience instability with your Teams Rooms devices. Windows believes the displays are physically disconnected. Consult your display manufacturer documentation for how to configure your displays in a way that keeps the HDMI sync with the Windows PC. If unsuccessful, powered Extended Display Identification Data (EDID) emulators/minders can be used to mitigate the instability and prevent monitoring alerts, several options are listed:
 
 - [Extron EDID 101H 4K PLUS](https://www.extron.com/product/edid101h4kplus)
 - [StarTech EDID Emulator](https://www.startech.com/en-us/audio-video-products/vsedidhd)
@@ -85,7 +85,7 @@ If the basic reset doesn't resolve your issue, you may need to do a full factory
 ## Software updates
 <a name="SWupdate"> </a>
 
-By default, Microsoft Teams Rooms connects to Windows Update to retrieve operating system and USB peripheral device firmware updates, and installs them outside of configured business hours. For the Teams Rooms application your device connects to the Windows Store to get the latest version of the Microsoft Teams Rooms software. Before contacting Microsoft with support issues, be sure Microsoft Teams Rooms is loaded with the latest version of the app to ensure your device is in a supported state.
+By default, Microsoft Teams Rooms connects to Windows Update to retrieve operating system and USB peripheral device firmware updates, and installs them outside of configured business hours. For the Teams Rooms application, your device connects to the Windows Store to get the latest version of the Microsoft Teams Rooms software. Before contacting Microsoft with support issues, be sure Microsoft Teams Rooms is loaded with the latest version of the app to ensure your device is in a supported state.
 
 If you're trying to update a severely out of date Teams Rooms on Windows device, you can run this tool which that updates both the Windows operating system and Teams Rooms applications to the latest versions automatically: [Microsoft Teams Rooms Provisioning Tool](https://aka.ms/mtrp/mtrpprovisioningtool)
 
@@ -99,7 +99,7 @@ If you want to manage updates manually, you can acquire and run the latest MTR-U
 1. Hang up any ongoing calls, and return to the home screen.
 2. Select the Gear icon and bring up the menu (options are **Settings**, **Accessibility**, and **Restart Device** ).
 3. Select **Settings**.
-4. Enter the Administrator password. The Setup screen appears. If the device isn't domain-joined, the local administrative account (username "Admin") will be used by default. The default password for this account is 'sfb'. Change this password as soon as possible. If the machine is domain-joined, you can sign in with an appropriately privileged domain account.
+4. Enter the Administrator password. The Setup screen appears. If the device isn't domain-joined, the local administrative account (username "Admin") is used by default. The default password for this account is 'sfb'. Change this password as soon as possible. If the machine is domain-joined, you can sign in with an appropriately privileged domain account.
 5. Select **Windows Settings** in the left column.
 6. Log in to the desktop with your administrative credentials. You have the necessary privileges to manage the device.
 7. Perform the necessary administrative tasks.
@@ -109,7 +109,7 @@ The console is now back in its normal operation mode. The following procedure re
 
 ### Switching to Admin Mode and back when the Microsoft Teams Rooms app is frozen
 
-1. Press the Windows key five times in rapid succession. This brings you to the Windows logon screen. 
+1. Press the Windows key five times in rapid succession. To access the Windows logon screen. 
 2. Log in to the desktop with your administrative credentials.
 3. Perform the necessary administrative tasks.
 4. Restart the machine when you're finished.
@@ -176,7 +176,7 @@ Joining Teams Rooms to an Active Directory domain provides the following benefit
 
 - You can deploy Windows Quality of Service configuration to Teams Rooms.
 
-When you join Teams Rooms to a domain, you must create a separate Organizational Unit (OU), so that you can provide Group Policy Object (GPO) exclusions to the OU where all Teams Rooms objects reside. Disable all GPO inheritance so that unsupported Group Policy settings don't get applied to Teams Rooms. Create machine objects in the OU before joining Teams Rooms to the domain to assure that Group Policies applied to the default computers OU aren't applied.
+When you join Teams Rooms to a domain, you must create a separate Organizational Unit (OU), to provide Group Policy Object (GPO) exclusions to where all Teams Rooms objects reside. Disable all GPO inheritance so that unsupported Group Policy settings don't get applied to Teams Rooms. Create machine objects in the OU before joining Teams Rooms to the domain to assure that Group Policies applied to the default computers OU aren't applied.
 
 > [!NOTE]
 > Even if you create a separate OU and block inheritance, there are some group policies which could cause issues if they have No Override set. A Group Policy with No Override set beats an OU with Block Policy Inheritance set.
@@ -198,7 +198,7 @@ When joining Microsoft Teams Rooms to a domain, ensure that your group policies 
 |:-----|:-----|
 |HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (REG_SZ) 1 |Enables Microsoft Teams Rooms to boot up |
 |Power Management -\> On AC, turn off screen after 10 minutes <br/> Power Management -\> On AC, never put system to sleep |Enables Microsoft Teams Rooms to turn off attached displays and wake up automatically |
-|net accounts /maxpwage:unlimited <br/> Or equivalent means of disabling password expiration on the local account. Failure to do this configuration will eventually cause the Skype account to fail logon complaining about an expired password. This impacts all local accounts on the machine, and thus failure to set this configuration will also cause the administrative account on the box to eventually expire as well. |Enables Skype account to always log in |
+|net accounts /maxpwage:unlimited <br/> Or equivalent means of disabling password expiration on the local account. Failure to do this configuration will cause the Skype account to fail logon complaining about an expired password. This impacts all local accounts on the machine, and thus failure to set this configuration will cause the administrative account on the box to eventually expire as well. |Enables Skype account to always log in |
 
 > [!NOTE]
 > When Microsoft Teams Rooms is compatible with the next version of Windows 10 OS, Teams Rooms automatically updates to the next version through Windows Update. Microsoft Teams Rooms shouldn't be upgraded to the next release of Windows manually or via enabling Windows Update for Business (WUFB) group policies “Select the Windows readiness level for the updates you want to receive” and "Select when Preview Builds and Feature Updates are received" through GPO. Teams Rooms with these group policies enabled is known to run into issues with Windows OS updates.
@@ -239,7 +239,7 @@ To perform a management operation:
 1. Sign in to a PC with account credentials that have permission to run PowerShell commands on a Microsoft Teams Rooms device.
 2. Open a regular PowerShell command prompt on the PC.
 3. Copy the command text from the table and paste it at the prompt.
-4. Replace `<Device fqdn>` fields with FQDN values appropriate to your environment.
+4. Replace `<Device fqdn>` fields with fully qualified domain name (FQDN) values appropriate to your environment.
 5. Replace *\<path\>* with the file name and local path of the master SkypeSettings.xml configuration file (or Theme image).
  
 To Get Attached Devices
