@@ -29,7 +29,6 @@ To help Teams become an open platform, Teams admins can change the default stora
 
 This document explains policy names, syntax, and how tenants can change the default drag-drop storage destination to a 3P storage provider.
 
-
 ## Tenant level policy
 Admins can use a PowerShell command to set a default Teams app to handle drag-drop files.
 
@@ -43,7 +42,7 @@ Admins can use a PowerShell command to revert back for ODSP to handle drag-drop 
 Set-CsTeamsFilesPolicy -Identity Global -DefaultFileUploadAppId  ""
 ```
 
-### Identity (Global ??) 
+### Identity (Global ??)
  
 ### User side error conditions
 
@@ -75,7 +74,6 @@ Set-CsTeamsFilesPolicy -Identity Global -DefaultFileUploadAppId  ""
 
 ## Mixed code
 The following behaviour occurs with mixed-mode admin settings:
-
 
 |NativeFileEntryPoints |DefaultFileUploadAppID |Expected behavior
 |---------|---------|---|
