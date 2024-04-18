@@ -32,7 +32,7 @@ This functionality only works for select supported apps where an app developer h
 ## Tenant level policy
 Admins can use a PowerShell command to set a default Teams app to handle drag drop files.
 
-```
+``` PowerShell
 Set-CsTeamsFilesPolicy -Identity Global -DefaultFileUploadAppId  "<appId>"
 ```
  
