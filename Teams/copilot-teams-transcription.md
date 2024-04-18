@@ -79,7 +79,7 @@ The following table shows the behaviors of the settings for the **`-Copilot`** p
 |Teams admins center policy value |PowerShell setting value | Behavior|
 |---------|---------|---------------|
 |On|Enabled| When organizers with this policy create meetings and events, the default value for Copilot in their meeting options is **Only during the meeting**. Meeting organizers can change this value to **During and after the meeting**.  |
-|On only with transcription|EnabledWithTranscript| **This is the default value**. When organizers with this policy create meetings, the default value for Copilot in their meeting options is **During and after the meeting**. This option is enforced; organizers can't change this value.|
+|On only with retained transcript|EnabledWithTranscript| **This is the default value**. When organizers with this policy create meetings, the default value for Copilot in their meeting options is **During and after the meeting**. This option is enforced; organizers can't change this value.|
 
 ### Manage Copilot in the Teams admin center
 
@@ -87,7 +87,7 @@ The following table shows the behaviors of the settings for the **`-Copilot`** p
 2. Expand **Meetings** from the navigation pane.
 3. Under **Meetings**, select **Meeting Policies**.
 4. Either select an existing policy or create a new one.
-5. Select **On** or **On only with transcription** from the dropdown for the **Copilot** setting.
+5. Select **On** or **On only with retained transcript** from the dropdown for the **Copilot** setting.
 6. Select **Save**
 
 You can apply your Copilot meeting policies to groups or individual users. You can also add Copilot to your meeting templates. To learn how to apply Copilot meeting policies to meeting templates, see [IT admins - Create a custom meeting template in Microsoft Teams](create-custom-meeting-template.md).
