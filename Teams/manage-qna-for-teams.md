@@ -129,7 +129,7 @@ When you complete a data subject request through the Microsoft 365 Admin Center,
 
 For more information on data subject requests, see [Azure Data Subject Requests for the GDPR and CCPA](/compliance/regulatory/gdpr-dsr-Azure).
 
-For more information about GDPR, see the [GDPR section of the Microsoft Trust Center](/trust-center/privacy/gdpr-overview) and the [GDPR section of the Service Trust portal](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted).
+For more information about GDPR, see the [GDPR section of the Microsoft Trust Center](https://www.microsoft.com/trust-center/privacy/gdpr-overview) and the [GDPR section of the Service Trust portal](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted).
 
 ## Data lifecycle for Q&A in Teams
 
