@@ -43,14 +43,16 @@ If the user doesn't have the Teams iOS or Android mobile app, they will be direc
 ![Actions on the Teams mobile app that a user can take after scanning the QR code on a Teams Room device.](media/teams-rooms-qr-codes/mobileqr.png)
 
 > [!NOTE]
-> Only calendar events with an online Teams meeting link (happening now or scheduled to start within 10 minutes) is expected to appear under **Join with room**. After the user selects an action on their mobile device, by default, the room system automatically accepts the meeting nudge and joins the meeting without additional user action. The user then enters the full meeting experience on Teams Rooms and the room companion mode experience on Teams mobile. You can disable the room auto-accept functionality for any QR code meeting join through [settings](#device-configuration-for-teams-rooms).  
+> Only calendar events with an online Teams meeting link (happening now or scheduled to start within 10 minutes) is expected to appear under **Join with room**.
+
+After the user selects an action on their mobile device, by default, the room system automatically accepts the meeting nudge and joins the meeting without additional user action. The user then enters the full meeting experience on Teams Rooms and the room companion mode experience on Teams mobile. You can disable the room auto-accept functionality for any QR code meeting join through [settings](#device-configuration-for-teams-rooms).  
+
 > [!NOTE]
 > For security reasons, if the user takes more than two minutes to select an action on mobile after scanning the QR code, the room auto-accept functionality will be disabled regardless of the setting value, and the user must manually accept the call on the room console or touch display. 
 ## Device configuration for Teams Rooms
 
 To change the configuration of the device, you can use XML configuration file for Teams Rooms on Windows, device settings for Teams Rooms on Android, or the Teams admin center for both Teams Rooms platforms:
 - You can disable the room QR code. When the feature is disabled, the QR code isn't visible on the Teams Rooms home screen.
-
 - You can disable the room auto-accept functionality for any QR code meeting join scenario. When auto-accept for QR code is disabled, users must manually select **Accept** on the room console or touch board for the room system to join the meeting.
 
 ### XML configuration file for Teams Rooms on Windows
@@ -89,9 +91,9 @@ To enable your users to join meetings using QR codes:
 
 1. Your Teams Rooms devices must be running on the following app version:
 
-   1. Teams Rooms on Windows - version 5.0.12. or later
+   1. Teams Rooms on Windows - version 5.0.12 or later
       
-   1. Teams Rooms on Android - version 1449/1.0.96..2024041201 or later  
+   1. Teams Rooms on Android - version 1449/1.0.96.2024041201 or later  
       
 1. Your users' mobile devices must have the following app version installed:
 
@@ -103,6 +105,7 @@ To enable your users to join meetings using QR codes:
 > Although there are many QR code scanner apps available, we recommend using the built-in camera app or code scanner app that are natively available on all iOS and Android devices. 
 > If your users are using an Android device with both work and personal profiles enabled, both the Teams app and the camera app and/or the code scanner app must be listed under the same profile. Otherwise, if they are in separate profiles, the camera app and/or the code scanner app isn't able to correctly scan and transfer the information over to the Teams app. 
 > For more information about adding the Teams app and camera app and/or code scanner app to a work profile, see [Manage Android Enterprise system apps in Microsoft Intune](/mem/intune/apps/apps-ae-system).
+> 
 
 > [!WARNING]
 > If your Teams Rooms on Windows devices have existing custom backgrounds, your custom backgrounds may be impacted with this new element on the home screen. You can find the latest home screen templates and updated custom background design guidelines at [Set up and manage Teams Rooms on Windows custom backgrounds.](/microsoftteams/rooms/custom-backgrounds?tabs=Enhanced) 
