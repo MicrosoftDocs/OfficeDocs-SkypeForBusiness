@@ -1,7 +1,7 @@
 ---
 title: Start Audio Conference over the phone without a PIN in Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 02/22/2024
