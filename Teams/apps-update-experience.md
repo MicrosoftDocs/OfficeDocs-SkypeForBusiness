@@ -8,7 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
-ms.date: 10/18/2023
+ms.date: 04/17/2024
 ms.reviewer: shmundra
 ms.collection: 
   - M365-collaboration
@@ -51,7 +51,7 @@ When developers create a new version of an app, they can change the above values
 
 ## Update to new version by users and admins
 
-If an app update doesn't require consent, then it automatically updates. If consent is required, then Teams simplifies the app update experience by requesting user consent only once. When a user consents, Teams updates the app in the chats, channels, and meetings where the user is added. Users don't need to update the app separately in different contexts. Apps that are pinned or installed by the admin update without a need for user consent when a new version of the app is available in the Teams app store.
+If an app update doesn't require consent, then it automatically updates. If consent is required, then Teams simplifies the app update experience by requesting user consent only once. When a user consents, Teams updates the app in the chats, channels, and meetings where the user is added. Users don't need to update the app separately in different contexts. If you pin or install an app, then it updates to a new version without requiring user consent. An update happens when a new version of the app is available in the Teams app store or when you upload a new version of a custom app.
 
 To update their app, users must individually provide their consent. Admins can't consent on behalf of the users but can update an app manually.
 
@@ -92,7 +92,7 @@ For custom apps to update, after you upload the new version of the app to Teams,
 
 ## Considerations for app upgrades
 
-* If you pin or install an app, then it automatically updates when a new version is available. However, it only updates automatically if only user consent is required.
+* If you pin or install an app, then it automatically updates when a new version is available.
 
 * If an app isn't updated for a user, then the user continues to use the older version of an app. If an app updates in one context but not in the other context for a user, then the user continues to use two different versions of the app.
 

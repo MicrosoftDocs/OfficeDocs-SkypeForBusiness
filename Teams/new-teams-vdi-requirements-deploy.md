@@ -32,7 +32,7 @@ The **classic Teams for VDI** will reach end of availability on **June 30th, 202
 After that date, users won't be able to use classic Teams but instead be prompted to switch to new Teams. We recommend you update to new Teams today.
 
 >[!Note]
->New Teams for VDI is now generally available for customers in public clouds and for the GCC government cloud. Other government clouds (GCC High, DOD) are currently not supported. Check back for updates.
+>New Teams for VDI is now generally available for customers in public clouds, GCC, GCC High and DoD government cloud.
 
 ## Requirements
 
@@ -118,10 +118,10 @@ In addition, you must deploy the following registry key on the VDA for the new T
 - Key (REG_Multi_SZ): ProcessWhitelist
 - Value: msedgewebview2.exe
 
-If this registry key is missing, the new Teams client operates in nonoptimized mode (server-side rendering).
+If this registry key is missing, the new Teams client operates in nonoptimized mode (server-side rendering). This regkey is not needed anymore if you are using VDA 2402 ([check here](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams) for more details).
 
 >[!Note]
->Citrix Virtual Apps (also known as published apps) is currently not supported.
+>Citrix Virtual Apps (also known as published apps) is currently supported with VDA 2402 LTSR.
 
 For additional information, learn more at [Optimization for Microsoft Teams](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 

@@ -317,3 +317,6 @@ If you're a manufacturer and want to join the certification program, see [How to
 | Polycom             | Studio Soundbar                                           | 10/18/2019     | Certified for Microsoft Teams                          |
 | Yealink             | UVC30                                                     | 10/18/2019     | Certified for Microsoft Teams                          |
 | Jabra               | PanaCast                                                  | 08/14/2019     | Certified for Microsoft Teams                          |
+
+> [!NOTE]
+> Teams doesn't support button controls on connected certified peripherals if third-party collaboration and conferencing apps are running at the same time.
