@@ -27,7 +27,7 @@ To help Teams become an open platform, Teams admins can change the default stora
 
 - **For Teams app developers (3p)** The ability to use this capability for Teams apps using the Teams SDK.
 
-This functionality only works for select supported apps where app developers  used this capability for their Teams apps. This document explains policy names, syntax, and how tenants can change the default drag-drop storage destination to a 3P storage provider.
+This functionality only works for select supported apps where app developers used this capability for their Teams apps. This document explains policy names, syntax, and how tenants can change the default drag-drop storage destination to a 3P storage provider.
 
 ## Tenant level policy
 Admins can use a PowerShell command to set a default Teams app to handle drag-drop files.
@@ -44,7 +44,7 @@ Set-CsTeamsFilesPolicy -Identity Global -DefaultFileUploadAppId  ""
 
 ### Identity (Global ??)
  
-### User side error conditions
+### User side-error conditions
 
 - App not installed: “Default app set by your org admin is not installed.”
 
@@ -54,7 +54,7 @@ Set-CsTeamsFilesPolicy -Identity Global -DefaultFileUploadAppId  ""
 *Get-CsTeamsFilesPolicy*
 
 ## To enable or disable native file upload point
-*NativeFileEntryPoints : Disabled *
+*NativeFileEntryPoints : Disabled*
 
 ## To remove the policy for the complete list of users
 *Remove-CsTeamsFilesPolicy*
@@ -73,7 +73,7 @@ Set-CsTeamsFilesPolicy -Identity Global -DefaultFileUploadAppId  ""
 *Remove-CsTeamsFilesPolicy*
 
 ## Mixed code
-The following behaviour occurs with mixed-mode admin settings:
+The following behavior occurs with mixed-mode admin settings:
 
 |NativeFileEntryPoints |DefaultFileUploadAppID |Expected behavior
 |---------|---------|---|
@@ -86,13 +86,13 @@ The following behaviour occurs with mixed-mode admin settings:
 > The policy will apply to both T1 and T2.1.
 
 ## Out of scope
-Teams Mobile support for the *DefaultFileUploadAppId* policy is not applicable. Also note that image or media copy/paste is today treated as part of the Teams message payload and not a cloud file, and isn't impacted by this policy.
+Teams Mobile support for the *DefaultFileUploadAppId* policy isn't applicable. Also note that image or media copy and paste is today treated as part of the Teams message payload and not as a cloud file. The image or media copy and paste isn't impacted by this policy.
 
 ## Documentation for admins
 Admins should refer to the app description or the 3P app documentation for information about supporting this policy.
 
 - Have a list of supported apps and add to our official documentation.
-- Call out that it is an indicative list only with pointer on how we can add more apps to the list (for Box or Egnyte).
+- Call out that it's an indicative list only with a pointer on how we can add more apps to the list (for Box or Egnyte).
 - Reach out directly to App Developer if you're sure about this functionality.
 
 ##  Documentation for developers (like Box)
