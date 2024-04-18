@@ -41,14 +41,14 @@ To set up consoles by using a one-time password, perform the following steps:
 
    On selecting **Get started**, you might see a page that has a message stating that the device verification information couldn't be found. For information on how to troubleshoot this error, see [Device verification failure and troubleshooting](#device-verification-failure-and-troubleshooting).
 
-1. On the **End user agreement** page, select **Accept**. The **Set up Microsoft Teams Room account** page will appear.
+1. On the **End user agreement** page, select **Accept**. The **Set up Microsoft Teams Rooms account** page will appear.
 
    For information on how to get a one-time password from an IT administrator, see [Create a one-time password](create-otp.md#create-a-one-time-password).
 
    > [!NOTE]
    > If you don't have a one-time password, you can do the device setup manually. For more information, see [Set up consoles manually](#set-up-consoles-manually).
 
-1. On the **Set up Microsoft Teams Room account** page, put in the one-time password that was provided to you by the IT administrator, and then select **Continue**.
+1. On the **Set up Microsoft Teams Rooms account** page, put in the one-time password that was provided to you by the IT administrator, and then select **Continue**.
 
    The page displaying the sign-in status of the device appears.
 
@@ -68,7 +68,7 @@ To set up a Microsoft Teams Rooms console manually,  follow these steps:
 
 1. Repeat Steps 1 through 4 in [Set up consoles through one-time password](#set-up-consoles-using-a-one-time-password). 
 
-1. On the **Set up Microsoft Teams Room account** page, select **Manual setup**.
+1. On the **Set up Microsoft Teams Rooms account** page, select **Manual setup**.
 
    The **Account setup** page appears.
 
