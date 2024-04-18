@@ -59,7 +59,7 @@ For more information about limits, specifications, and other requirements that a
 
 ## Assign users to each role
 
-You can assign users to these roles in Microsoft Entra ID. To learn how to assign administrative roles to a user in Microsoft Entra ID, see [Assign user roles with Microsoft Entra ID](/entra/fundamentals/users-assign-role-azure-portal.md).
+You can assign users to these roles in Microsoft Entra ID. To learn how to assign administrative roles to a user in Microsoft Entra ID, see [Assign user roles with Microsoft Entra ID](/entra/fundamentals/users-assign-role-azure-portal).
 
 ## Cmdlets available for each role
 
