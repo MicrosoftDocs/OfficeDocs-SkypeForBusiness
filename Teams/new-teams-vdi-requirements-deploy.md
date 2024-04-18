@@ -118,10 +118,10 @@ In addition, you must deploy the following registry key on the VDA for the new T
 - Key (REG_Multi_SZ): ProcessWhitelist
 - Value: msedgewebview2.exe
 
-If this registry key is missing, the new Teams client operates in nonoptimized mode (server-side rendering).
+If this registry key is missing, the new Teams client operates in nonoptimized mode (server-side rendering). This regkey is not needed anymore if you are using VDA 2402 ([check here](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams) for more details).
 
 >[!Note]
->Citrix Virtual Apps (also known as published apps) is currently not supported.
+>Citrix Virtual Apps (also known as published apps) is currently supported with VDA 2402 LTSR.
 
 For additional information, learn more at [Optimization for Microsoft Teams](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
