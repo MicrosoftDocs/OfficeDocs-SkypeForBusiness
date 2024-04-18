@@ -42,7 +42,7 @@ Admins can use a PowerShell command to revert back for ODSP to handle drag-drop 
 Set-CsTeamsFilesPolicy -Identity Global -DefaultFileUploadAppId  ""
 ```
 
-### Identity (Global ??)
+- *Identity - Global??*
  
 ### User side-error conditions
 
