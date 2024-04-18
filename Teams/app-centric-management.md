@@ -13,7 +13,7 @@ ms.collection:
   - M365-collaboration
   - Tier1
 search.appverid: MET150
-ms.date: 03/18/2024
+ms.date: 04/17/2024
 ms.reviewer: mhayrapetyan
 description: Manage access to Teams apps using app centric management.
 f1.keywords:
@@ -135,7 +135,7 @@ When your tenant's admin center receives this feature, the following updates are
 
 * After you switch to this feature, you can't access, edit, or use permission policies.
 
-* [PowerShell cmdlets](/powershell/module/teams/?view=teams-ps&preserve-view=true) for permission policies aren't supported on tenants that switch to this feature. These cmdlets return the results but the results aren't applicable to tenants that use this feature. App permission policy PowerShell cmdlets are not supported if you use this feature.
+* [PowerShell cmdlets](/powershell/module/teams/?view=teams-ps&preserve-view=true) for permission policies aren't supported on tenants that migrate to this feature. App centric management feature replaces permission policies. While the cmdlet may seem to succeed, but the changes aren't applied to the tenant.
 
 ## Related article
 
