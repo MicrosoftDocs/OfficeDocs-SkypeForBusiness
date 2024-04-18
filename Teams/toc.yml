@@ -1362,6 +1362,8 @@ items:
                   href: rooms/meetings-with-SIP-H323-devices.md
                 - name: Manage custom backgrounds
                   href: rooms/custom-backgrounds.md
+                - name: Join meetings with QR codes
+                  href: rooms/teams-rooms-qr-codes.md
             - name: Find devices with unsupported licenses
               href: rooms/license-check.md
             - name: Use the recovery tool
