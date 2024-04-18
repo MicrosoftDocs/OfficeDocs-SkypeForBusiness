@@ -56,11 +56,21 @@ The new Teams ensures more efficient use of device resources. Whether you have u
 
 After installing the new client, if users don't choose to Allow Notifications with the initial macOS Alert about notifications settings, then users must turn on the **Allow Notifications** from system settings.
 
+For Monterey OS:
+
 1. Open macOS System Preferences.
-2. Go to **Notifications & Focus** and under **App Notifications**, select Microsoft Teams.
+2. Go to **Notifications & Focus** and under **Notifications**, select Microsoft Teams.
 3. Switch the **Allow notifications** toggle to turn on notifications.
 
-:::image type="content" source="media/new-teams-mac-notifications.png" alt-text="new teams for mac notifications":::
+:::image type="content" source="media/new-teams-mac-notifications-monterrey.png" alt-text="new teams for mac notifications macOS Monterrey":::
+
+#### For macOS Ventura and Sonoma
+
+1. Open macOS System Preferences.
+2. Go to **Notifications** and under **App Notifications**, select Microsoft Teams.
+3. Switch the **Allow notifications** toggle to turn on notifications.
+
+:::image type="content" source="media/new-teams-mac-notifications.png" alt-text="new teams for mac notifications macOS Ventura Sonoma":::
 
 ### Turn on Screen Sharing
 
@@ -70,14 +80,14 @@ For Monterey OS:
 
 1. Open macOS System Preferences.
 2. Go to Security & Privacy > Privacy tab > Screen Recording.
-3. Select the **+** sign to add Microsoft Teams (work Preview) to allow recording content of your screen.
+3. Select the **+** sign to add Microsoft Teams (work or school) to allow recording content of your screen.
 
- :::image type="content" source="media/new-teams-mac-security.png" alt-text="new teams mac security page":::
+:::image type="content" source="media/new-teams-mac-security.png" alt-text="new teams mac security page":::
 
-#### For macOS Ventura
+#### For macOS Ventura and Sonoma
 
 1. Go to Privacy & Security > Screen Recording.  
-2. Switch the toggle for Microsoft Teams (work preview) to Allow recording of the content of your screen.
+2. Switch the toggle for Microsoft Teams (work or school) to Allow recording of the content of your screen.
 
 :::image type="content" source="media/new-teams-mac-screen-recording.png" alt-text="new teams mac screen recording page":::
 
@@ -89,7 +99,7 @@ For Monterey OS:
 
 - If you’re not seeing the toggle for new Teams, make sure you have the minimum required versions for Mac and Teams:
 
-  - macOS Big Sur (11) or above, including macOS Monterey (12) and macOS Ventura (13) and
+  - macOS Monterey (12) or above
   - Microsoft Teams (work or school) version 1.6.00.12303 or higher.
 
 - After you've successfully switched to new Teams, if you can't find the toggle on the top left to switch between new Teams and Microsoft Teams (work or school), you can start the version you want by searching in Launchpad for Teams.
