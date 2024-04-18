@@ -52,26 +52,26 @@ Set-CsTeamsFilesPolicy -Identity Global -DefaultFileUploadAppId  ""
 - App does not support drag-drop: “Default app setup by your org admin doesn’t support file upload.” (May not be in our control. Use “Generic error”?)
 
 ## To check the status of a tenant
-- **Get-CsTeamsFilesPolicy**
+*Get-CsTeamsFilesPolicy*
 
 ## To enable or disable native file upload point
-- **Get-CsTeamsFilesPolicy**
+*Get-CsTeamsFilesPolicy*
 
 ## To remove the policy for the complete list of users
-- **Remove-CsTeamsFilesPolicy**
+*Remove-CsTeamsFilesPolicy*
 
 ## User-level policy
-- **New-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Disabled**
-- **Identity - UserPolicy**
+*New-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Disabled*
+- *Identity - UserPolicy*
 
 ## To grant a policy to user
-- **Grant-CsTeamsFilesPolicy  -identity "Mayur Kale" -PolicyName UserPolicy**
+*Grant-CsTeamsFilesPolicy  -identity "Mayur Kale" -PolicyName UserPolicy*
 
 ## To update the policy user
-- **Set-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Enabled**
+*Set-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Enabled*
 
 ## To remove the policy user
-- **Remove-CsTeamsFilesPolicy**
+*Remove-CsTeamsFilesPolicy*
 
 ## Mixed code
 The following behaviour occurs with mixed-mode admin settings:
