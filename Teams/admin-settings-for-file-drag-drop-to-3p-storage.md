@@ -50,29 +50,29 @@ Set-CsTeamsFilesPolicy -Identity Global -DefaultFileUploadAppId  ""
 
 - App does not support drag-drop: “Default app setup by your org admin doesn’t support file upload.” (May not be in our control. Use “Generic error”?)
 
-## To check the status of a tenant
+### To check the status of a tenant
 *Get-CsTeamsFilesPolicy*
 
-## To enable or disable native file upload point
+### To enable or disable native file upload point
 *NativeFileEntryPoints : Disabled*
 
-## To remove the policy for the complete list of users
+### To remove the policy for the complete list of users
 *Remove-CsTeamsFilesPolicy*
 
 ## User-level policy
 *New-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Disabled*
 - *Identity - UserPolicy*
 
-## To grant a policy to user
+### To grant a policy to user
 *Grant-CsTeamsFilesPolicy  -identity "Mayur Kale" -PolicyName UserPolicy*
 
-## To update the policy user
+### To update the policy user
 *Set-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Enabled*
 
-## To remove the policy for the complete list of users
+### To remove the policy for the complete list of users
 *Remove-CsTeamsFilesPolicy*
 
-## Mixed code
+### Mixed code
 The following behavior occurs with mixed-mode admin settings:
 
 |NativeFileEntryPoints |DefaultFileUploadAppID |Expected behavior
@@ -85,7 +85,7 @@ The following behavior occurs with mixed-mode admin settings:
 > [!NOTE]
 > The policy will apply to both T1 and T2.1.
 
-## Out of scope
+### Out of scope
 Teams Mobile support for the *DefaultFileUploadAppId* policy isn't applicable. Also note that image or media copy and paste is today treated as part of the Teams message payload and not as a cloud file. The image or media copy and paste isn't impacted by this policy.
 
 ## Documentation for admins
