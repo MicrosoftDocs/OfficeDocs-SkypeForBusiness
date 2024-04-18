@@ -94,10 +94,6 @@ Starting in March 2024, any classic Teams users who haven’t updated to new Tea
 
 :::image type="content" source="media/teams-client-eol-switch-banner-prior.png" alt-text="Shows the banner in Teams client that reads 'Classic Teams will be unsupported starting July 1, 2024. You'll be switched to the new Teams at that time. Learn more.' Learn more is a selectable link.":::
 
-Starting in June 2024, any user who's still on classic Teams due to configuration issues or an unsupported OS will begin to see warning banners informing users about the upcoming end of support.
-
-:::image type="content" source="media/teams-client-eol-client-config-issues.png" alt-text="Shows the banner in Teams client that reads 'Classic Teams will be unsupported starting July 1, 2024. To use the new Teams, update your OS or contact your IT department. View minimum requirements.' View minimum requirements is a selectable link.":::
-
 **On July 1, 2024, classic Teams becomes unsupported**. Users still running classic Teams due to configuration issues or an unsupported OS will experience in-app dialog messages informing them that the client is no longer supported. These are dismissible but will reappear periodically.
 
 :::image type="content" source="media/teams-client-unsupported-cannot-upgrade.png" alt-text="A screenshot of an in-app dialog banner explaining that the Teams classic client has reached the end of supportability, and this device couldn't be upgraded, with a link to 'Learn about installation issues' and two buttons. The first button says to 'Continue using classic Teams' and the second says 'Try new Teams on the web'.":::
