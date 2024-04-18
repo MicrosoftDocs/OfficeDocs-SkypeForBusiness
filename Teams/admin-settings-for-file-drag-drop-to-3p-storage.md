@@ -21,47 +21,48 @@ appliesto:
 
 # Admin settings for file drag-drop to 3P storage
 
-To help Teams become an open platform, Teams admins can change the default storage backend of Teams (for OneDrive and SharePoint) to a 3P storage provider app of their choice. This change allows the following:
+To help Teams become an open platform, Teams admins can change the default storage backend of Teams (for OneDrive and SharePoint) to a 3P storage-provider app of their choice. This change allows the following:
 
-- **For Teams admins** - The ability to change the default storage app for drag drop when uploading files on Teams desktop.
+- **For Teams admins** - The ability to change the default storage app for drag-drop when uploading files on the Teams desktop.
 
-- **For Teams app developers (3p)** The ability to use this capability for their Teams apps using Teams SDK.  
-This functionality only works for select supported apps where an app developer has used such capability for Teams app. This document explains policies names, syntaxes, and how Tenants can change the default Drag-drop storage destination to a 3P storage provider.  
+- **For Teams app developers (3p)** The ability to use this capability for Teams apps using the Teams SDK. This functionality only works for select supported apps where app developers have used this capability for their Teams apps.
+
+This document explains policy names, syntax, and how tenants can change the default drag-drop storage destination to a 3P storage provider.
 
 
 ## Tenant level policy
-Admins can use a PowerShell command to set a default Teams app to handle drag drop files.
+Admins can use a PowerShell command to set a default Teams app to handle drag-drop files.
 
 ``` PowerShell
 Set-CsTeamsFilesPolicy -Identity Global -DefaultFileUploadAppId  "<appId>"
 ```
  
-Admins can use a PowerShell command to revert back for ODSP to handle drag drop files.
+Admins can use a PowerShell command to revert back for ODSP to handle drag-drop files.
 
-```
+``` PowerShell
 Set-CsTeamsFilesPolicy -Identity Global -DefaultFileUploadAppId  ""
 ```
 
 ### Identity (Global ??) 
  
-### End user side error conditions
+### User side error conditions
 
 - App not installed: “Default app set by your org admin is not installed”
 
-- App does not support drag drop: “Default app setup by your org admin doesn’t support file upload.” (May not be in our control: Use “Generic error”?)
+- App does not support drag-drop: “Default app setup by your org admin doesn’t support file upload.” (May not be in our control: Use “Generic error”?)
 
 ## To check the status of a tenant
-Get-CsTeamsFilesPolicy 
+**Get-CsTeamsFilesPolicy**
 
 ## To enable or disable native file upload point
-Get-CsTeamsFilesPolicy 
+**Get-CsTeamsFilesPolicy**
 
 ## To remove the policy for the complete list of users
-Remove-CsTeamsFilesPolicy 
+**Remove-CsTeamsFilesPolicy**
 
-## User level policy
-New-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Disabled 
-• Identity - UserPolicy 
+## User-level policy
+New-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Disabled
+Identity - UserPolicy
 
 ## To grant a policy to user
 Grant-CsTeamsFilesPolicy  -identity "Mayur Kale" -PolicyName UserPolicy
@@ -78,10 +79,13 @@ Behaviour with mixed mode admin settings highlighted below:
 
 |NativeFileEntryPoints |DefaultFileUploadAppID |Expected behavior
 |---------|---------|---|
-|ODSP Enabled     |Enabled*       |Paperclip>Upload from device - Goes to ODSP Drag-Drop - Goes to the configured 3P app*|
-|ODSP Enabled    |Not enabled      |Paperclip>Upload from device - Goes to ODSP Drag-drop - Goes to ODSP|
-|ODSP Disabled    |Enabled*      |Paperclip (Attach) - Hidden Drag-Drop - Goes to the configured 3P app|
+|ODSP Enabled     |Enabled*       |Paperclip>Upload from device (**goes to ODSP**) Drag-Drop (**goes to the configured 3P app***)|
+|ODSP Enabled    |Not enabled      |Paperclip>Upload from device  (**goes to ODSP**) Drag-drop (**goes to ODSP**)|
+|ODSP Disabled    |Enabled*      |Paperclip (Attach) - Hidden Drag-Drop (**goes to the configured 3P app***)|
 |ODSP Disabled    |Not Enabled      |Paperclip (Attach) - Hidden Drag-Drop - No op|
+
+[!NOTE]
+The policy will apply to both T1 and T2.1.
 
 ## Out of scope
 Teams Mobile support for DefaultFileUploadAppId policy is not applicable. 
