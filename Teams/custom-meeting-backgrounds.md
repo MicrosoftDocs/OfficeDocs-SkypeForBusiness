@@ -3,7 +3,7 @@ title: IT Admins- Manage and create custom meeting backgrounds for Teams meeting
 author: wlibebe
 ms.author: wlibebe
 manager: pamgreen
-ms.date: 03/05/2024
+ms.date: 04/10/2024
 ms.reviewer: margidesai
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -74,9 +74,18 @@ Uploaded images must adhere to the following parameters. You can upload:
 - Images with a minimum dimension of 360 px X 360 px.
 - Images with a maximum dimension of 3840 px X 2160 px.
 - A maximum of 50 custom background images.
+- For frosted glass backgrounds: a transparent png image.
 
 > [!NOTE]
 > Only end users with a Teams Premium license have these images in their background settings panel to use during meetings.
+
+### Add a frosted glass background effect
+
+Frosted glass backgrounds blend the privacy of background blur with the personalization of your chosen image to create a polished background that looks like frosted glass windows.
+
+To create this effect, upload a transparent PNG image as a custom background. Your image could be your company logo or a custom design. The frosted glass effect turns the transparent areas of your image into a blurred background, while the graphic remains as part of the background.
+
+:::image type="content" source="media/frosted-glass-small.png" alt-text="Screenshot of frosted glass background effect in a Teams meeting." lightbox="media/frosted-glass-expand.png":::
 
 ### Save custom background images
 

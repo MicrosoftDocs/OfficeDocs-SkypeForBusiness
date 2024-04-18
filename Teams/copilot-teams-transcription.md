@@ -21,6 +21,7 @@ ms.collection:
   - m365initiative-meetings
   - highpri
   - Tier1
+  - teams-copilot
 description: Learn how to manage Copilot admin policies in the Teams admin center. Learn how to manage transcripts and transcription for Copilot Microsoft Teams meetings and events.
 ---
 
