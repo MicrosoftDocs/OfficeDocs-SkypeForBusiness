@@ -50,7 +50,7 @@ For more information regarding VDI, please see [Upgrade to new Teams for Virtual
 
 We now have additional information regarding the timeline for the end of service and end of availability for classic Teams client.
 
-- End of support: The end of our supporting classic Teams client. We will no longer provide updates (including security updates) or new features for the client, nor will we help resolve support issues with the classic Teams client.
+- End of support: The end of our supporting classic Teams client. We will no longer provide updates or new features for the client, nor will we help resolve support issues with the classic Teams client.
 - End of availability: The end of functionality for the classic Teams client. After this deadline, the client will stop working and users will no longer be able to do work in the classic Teams client.
 
 :::image type="content" source="media/teams-client-eoa-timeline-complete.png" alt-text="A chart showing the timelines for the end of support for classic Teams and the end of availability of classic Teams.":::
@@ -119,8 +119,8 @@ If users can't upgrade to the new Teams client on their device, the new Teams we
 
 Here's a list of the messages you may experience:
 
-|Scenario |End of service dialog |End of service banner |End of availability dialog |
-|---------|----------------------|----------------------|---------------------------|
+|Scenario |End of supportability dialog |End of supportability banner |End of availability dialog |
+|---------|-----------------------------|-----------------------------|---------------------------|
 |Unsupported operating system |Classic Teams will soon be unsupported, and your OS needs to be updated to run the new Teams. Starting July 1, 2024, we'll no longer be supporting classic Teams. Update your OS or contact your IT department. View minimum requirements |Classic Teams will be unsupported starting July 1, 2024. To use the new Teams, update your OS or contact your IT department. View minimum requirements |Classic Teams is no longer available, and your OS needs to be updated to run the new Teams. As of July 1, 2025, classic Teams is no longer available for use. Update your OS or talk to your IT department. To experience the new Teams, you can try it out on the web. View minimum requirements |
 |Windows GPO policy blocked users |Classic Teams will soon be unsupported, but due to org policy, we couldn't update you to the new Teams. Starting July 1, 2024, we'll no longer be supporting classic Teams. To update to the new Teams, contact your IT department. Learn about installation issues |Classic Teams will be unsupported starting July 1, 2024. We couldn't update to the new Teams due to org policy. Contact your IT department. Learn more |Classic Teams is no longer available, but due to org policy, we couldn't update you to the new Teams. As of July 1, 2025, classic Teams is no longer available for use. Contact your IT department for more info. To experience the new Teams, you can try it out on the web. Learn about installation issues |
 |Any install and launch issues |Classic Teams will soon be unsupported, and we couldn't update you to the new Teams. Starting July 1, 2024, we'll no longer be supporting classic Teams. To update to the new Teams, contact your IT department. Learn about installation issues |Classic Teams will be unsupported starting July 1, 2024. We couldn't update to the new Teams. Contact your IT department. Learn more |Classic Teams is no longer available, and we couldn't update you to the new Teams. As of July 1, 2025, classic Teams is no longer available for use. Contact your IT department for more info. To experience the new Teams, you can try it out on the web. Learn about installation issues |
