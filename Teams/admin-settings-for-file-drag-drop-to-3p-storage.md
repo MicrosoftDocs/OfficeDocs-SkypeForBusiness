@@ -21,11 +21,11 @@ appliesto:
 
 # Admin settings for file drag-drop to 3P storage
 
-To help Teams become an open platform, Teams admins can change the default storage backend of Teams (for OneDrive and SharePoint) to a 3P storage-provider app of their choice. This change allows the following:
+To help Teams become an open platform, Teams admins can change the default storage backend of Teams (for OneDrive and SharePoint) to a 3P storage-provider app of their choice. This change allows you to do the following:
 
 - **For Teams admins** - The ability to change the default storage app for drag-drop when uploading files on the Teams desktop.
 
-- **For Teams app developers (3p)** The ability to use this capability for Teams apps using the Teams SDK. This functionality only works for select supported apps where app developers have used this capability for their Teams apps.
+- **For Teams app developers (3p)** The ability to use this capability for Teams apps using the Teams SDK. This functionality only works for select supported apps where app developers  used this capability for their Teams apps.
 
 This document explains policy names, syntax, and how tenants can change the default drag-drop storage destination to a 3P storage provider.
 
@@ -33,13 +33,13 @@ This document explains policy names, syntax, and how tenants can change the defa
 ## Tenant level policy
 Admins can use a PowerShell command to set a default Teams app to handle drag-drop files.
 
-``` PowerShell
+``` powershell
 Set-CsTeamsFilesPolicy -Identity Global -DefaultFileUploadAppId  "<appId>"
 ```
  
 Admins can use a PowerShell command to revert back for ODSP to handle drag-drop files.
 
-``` PowerShell
+``` powershell
 Set-CsTeamsFilesPolicy -Identity Global -DefaultFileUploadAppId  ""
 ```
 
@@ -84,8 +84,8 @@ Behaviour with mixed mode admin settings highlighted below:
 |ODSP Disabled    |Enabled*      |Paperclip (Attach) - Hidden Drag-Drop (**goes to the configured 3P app***)|
 |ODSP Disabled    |Not Enabled      |Paperclip (Attach) - Hidden Drag-Drop - No op|
 
-[!NOTE]
-The policy will apply to both T1 and T2.1.
+> [!NOTE]
+> The policy will apply to both T1 and T2.1.
 
 ## Out of scope
 Teams Mobile support for DefaultFileUploadAppId policy is not applicable. 
