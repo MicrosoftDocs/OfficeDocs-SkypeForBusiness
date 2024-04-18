@@ -21,13 +21,15 @@ ms.localizationpriority: medium
 description: Learn about managing Microsoft Teams Rooms.
 ---
 
-# Microsoft Teams Rooms maintenance and operations
+# Microsoft Teams Rooms on Windows Maintenance and Operations
  
  
 Microsoft Teams Rooms is Microsoft's conferencing solution designed to transform your meeting room into a rich, collaborative experience. Users will enjoy its familiar Microsoft Teams interface and IT administrators will appreciate an easily deployed and managed Windows app. Microsoft Teams Rooms is designed to leverage existing equipment for ease of installation to bring Microsoft Teams into your meeting room. The below information provides support for managing and operating Teams Rooms on Windows devices.
     
 ## Collecting logs on Microsoft Teams Rooms
 <a name="Logs"> </a>
+
+To collect logs in the Pro Management Portal, go to **Rooms** and select the display name of the device you want logs for. In the actions panel, select "Log Collection" and select "Run". Once you confirm the desired logs, the logs will be ready for download in the Activity tab after a few minutes.
 
 To collect logs in Teams admin center, go to **Teams devices > Teams Rooms on Windows**. Select the display name of the device you want logs for. In the top panel, select "Download device logs." Once you confirm, the logs will be ready for download in the History tab after a few minutes.
 
@@ -39,68 +41,129 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 
 The logs will be output as a ZIP file in c:\rigel.
 
-### Managing Disk Space
-<a name="Space"> </a>
-
-Downloaded logs on the device can take up disk space. If logs aren't regularly cleaned up, they can interfere with the normal functionality of the room. Teams Rooms deletes downloaded logs after 30 days. IT admins can override the log clean-up using the device registry setting.
-
-|Setting|Allows|
-|:-----|:-----|
-|HKLM\SOFTWARE\Microsoft\PPI\SkypeSettings\LogCleanupAgeThreshold   |Cleans up logs after 30 days.   |
-
-## Front of Room display settings
+## Front of Room Display Configuration
 <a name="Display"> </a>
 
-Configure the settings of your Front of Room display(s) to support Consumer Electronics Control(CEC) or enable PC Mode.
-  
-If you desire a front of room display to automatically switch to Teams Rooms when it wakes from standby mode, certain conditions must be met. This feature is optional but supported by Microsoft Teams Rooms software, provided underlying hardware supports the feature. A consumer TV used as a front of room display needs to support the Consumer Electronics Control (CEC) feature of HDMI.  Depending on the dock or console selected (which might not support CEC, refer to manufacturer support documentation), a controller such as an [HD-RX-4K-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-4K-210-C-E) from Crestron, the [DL-UHDILC](https://secure.libertycable.com/product_details.php?pitem=DL-UHDILC) from Liberty, or [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) from Extron may be needed to enable the desired behavior.
+### Display Sleep/Wake Behavior
+Teams Rooms on Windows devices are configured out of the box to send no video signal after 10 minutes of inactivity. When this happens the Windows PC will stop sending video from it's video outputs and will send commands via Consumer Electronics Control (CEC) to power off displays. You will want to configure front of room displays to listen for CEC commands or enable PC mode on the display if available. If PC mode or CEC are not available, you may be able to have the displays automatically sleep/wake on an inactive/active HDMI video signal, consult your display OEM documentation for guidance. If the display does not support any of the mentioned functionality, you may be able to use a display controller to enable the desired behavior:
+- [Crestron HD-CTL-101](https://www.crestron.com/Products/Control-Hardware-Software/Hardware/Control-Modules/HD-CTL-101)
+- [Liberty DL-UHDILC](https://secure.libertycable.com/product_details.php?pitem=DL-UHDILC)
+- [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad)
 
-### Scale and resolution
+If the displays are not visible to the Windows PC when in their sleep state (Windows believes the displays have been physically disconnected), Teams Rooms may report display disconnected alerts messages in Teams Admin Center and the Pro Management Portal and you may experience instability with your Teams Rooms devices. Consult your display manufacturer documentation for how to configure your displays in a way that keeps the HDMI sync with the Windows PC. If this is not possible, powered EDID emulators/minders can be used to mitigate the instability and prevent monitoring alerts, several options are listed below:
 
-To get Teams Rooms designed experience, your Front of Room displays need to meet resolution and scale requirements.
+- [Extron EDID 101H 4K PLUS](https://www.extron.com/product/edid101h4kplus)
+- [StarTech EDID Emulator](https://www.startech.com/en-us/audio-video-products/vsedidhd)
+- [Crestron HD-CTL-101](https://www.crestron.com/Products/Control-Hardware-Software/Hardware/Control-Modules/HD-CTL-101)
 
-To set the scale and resolution of your Front of Rooms displays remotely, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).
+### Display Resolution & Scaling
 
-To set the scale and resolution manually in the Teams Rooms admin settings:
+Teams Rooms on Windows support many resolutions, you may find you need to specify the resolution and scale settings to meet your desired configuration.  This can be done remotely, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md) or it can be done manually with the below steps.
 
 1. On your Teams Room, switch to [admin mode](#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running).
-
 2. Select the start icon. Then **Settings > System > Display**.
-
 3. Go to **Scale and layout**, then **Change the size of text, apps, and other items**, and set the scaling to 100%.
-
-4. Set the display resolution to 1080p. If you have dual monitors, set the scale and resolution for both screens.
-
+4. Set the display resolution to as desired. If you have dual monitors, set the scale and resolution for both screens.
 5. Next, select the start icon and enter **Command prompt**. Select **Run as administrator**.
-
 6. Run the following command:
-
    ```powershell
    Powershell -ExecutionPolicy Unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentDisplayScaling.ps1 
    ```
-
 7. Restart the device.
-  
-## Microsoft Teams Rooms Reset (Factory Restore)
+
+
+## Microsoft Teams Rooms Reset & Factory Restore
 <a name="Reset"> </a>
 
-If Microsoft Teams Rooms isn't running well, performing a factory reset might help. To do this, use the [Microsoft Teams Rooms recovery tool](recovery-tool.md) and follow the factory restore instructions.
+### Simple Reset
+If Microsoft Teams Rooms isn't running well, performing a reset might help. To do this, open the Teams Rooms on Windows settings and select **Reset Device** this will clear the device credentials and return the Teams Rooms application to default settings.
 
-> [!NOTE]
-> There is a known issue where the Microsoft Teams Rooms can become unusable if the **Keep my files - Removes Apps and settings, but keeps your personal files** option is selected during the Windows Reset process. Do *not* use this option.
+### Factory Reset
+If the basic reset does not resolve your issue, you may need to do a full factory reset, to do this, we recommend using the recovery media available from your Teams Rooms on Windows OEM, however, you can also use the [Microsoft Teams Rooms recovery tool](recovery-tool.md) and follow the factory restore instructions.
 
-## Supported Remote Options
-<a name="RemoteOptions"> </a>
 
-The following table summarizes the possible remote operations and the methods you can use to accomplish them.
-  
-|Workgroup|Not domain joined|Domain joined|
-|:-----|:-----|:-----|
-|Restart   |Teams admin center  <br/> Remote desktop  <br/> Remote PowerShell   | <br/>Remote desktop (requires further configuration)  <br/> Remote PowerShell (requires further configuration)  <br/> Configuration Manager   |
-|Update OS   |Windows Update   |Windows Update  <br/> WSUS   |
-|App update   |Windows Store   |Windows Store  <br/> Configuration Manager   |
-|Account Config   |Teams admin center   |Teams admin center   |
-|Access logs   |Teams admin center  <br/> PowerShell   |Teams admin center <br/> PowerShell  |
+## Software updates
+<a name="SWupdate"> </a>
+
+By default, Microsoft Teams Rooms connects to Windows Update to retrieve operating system and USB peripheral device firmware updates, and installs them outside of configured business hours. For the Teams Rooms application your Teams Room device connects to the Windows Store to get the latest version of the Microsoft Teams Rooms software. Before contacting Microsoft with support issues, be sure Microsoft Teams Rooms is loaded with the latest version of the app to ensure your device is in a supported state.
+
+If you are trying to update a severly out of date Teams Rooms on Windows device, you can run this tool which will update both the Windows operating system and Teams Rooms applications to the latest versions automatically: [Microsoft Teams Rooms Provisioning Tool](https://aka.ms/mtrp/mtrpprovisioningtool)
+
+If you want to manage updates manually, you can acquire and run the latest MTR-Update script from [Manually update a Microsoft Teams Rooms device](/microsoftteams/rooms/manual-update).
+
+## Switching to Admin mode
+<a name="AdminMode"> </a>
+
+### Switching to Admin mode and back when the Microsoft Teams Rooms app is running
+
+1. Hang up any ongoing calls, and return to the home screen.
+2. Select the Gear icon and bring up the menu (options are **Settings**, **Accessibility**, and **Restart Device** ).
+3. Select **Settings**.
+4. Enter the Administrator password. The Setup screen will appear.  If the device isn't domain-joined, the local administrative account (username "Admin") will be used by default. The default password for this account is 'sfb'. Change this password as soon as possible. If the machine is domain-joined, you can sign in with an appropriately privileged domain account.
+5. Select **Windows Settings** in the left column.
+6. Log in to the desktop with your administrative credentials. You'll have the necessary privileges to manage the device.
+7. Perform the necessary administrative tasks.
+8. Restart the machine when you're finished.
+    
+The console is now back in its normal operation mode. The following procedure requires you to attach a keyboard to the device if one isn't already attached. 
+
+### Switching to Admin Mode and back when the Microsoft Teams Rooms app is frozen
+
+1. Press the Windows key five times in rapid succession. This will bring you to the Windows logon screen. 
+2. Log in to the desktop with your administrative credentials.
+3. Perform the necessary administrative tasks.
+4. Restart the machine when you're finished.
+
+    > [!NOTE]
+    > This method doesn't log the Skype user off or gracefully terminate the app, but you'd use it if the app wasn't responding and the other method wasn't available. 
+
+   The console restarts into its normal operation mode, running the Microsoft Teams Rooms app. You can remove the keyboard, if you attached one to complete this procedure.
+
+## Clearing the Teams Rooms on Windows Cache
+
+To clear cache using the Pro Management Portal, go to **Rooms** and select the display name of the device you want to clear the cache on. In the actions panel, select "Restart device-Clear cache", select "Run", check the "Delete Teams cache?" box, and select "Run".  Your Teams Room will clear it's cache and reboot.
+
+You can also perform this task directly on the device with these steps:
+
+1. Switch to Admin mode.
+2. Open Windows Explorer and follow the instructions for your app version:
+  A. If running Teams Rooms on Windows 4.19.82.0 or earlier:
+    1. Navigate to: `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalCache\Roaming\Microsoft\`
+    2. Delete the **Teams** folder.
+  B. If running Teams Rooms 5.0.0 or newer:
+    1. Navigate to: `C:\Users\Skype\AppData\Local\Packages\MSTeamsRooms_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams`
+    2. Delete everything inside the MSTeams folder.
+3. Restart the Teams Rooms device and allow it to return to the Teams Rooms interface.
+
+## Changing the Teams Rooms console language or date & time format
+
+1. Switch to Admin mode.
+2. Select the **Start** menu.
+3. Select the gear icon to launch the **Settings** app.
+4. Select **Time &amp; language** tab.
+5. Select **Language &amp; region**.
+6. Under Regional format, select **Recommended**.
+7. Under Preferred languages, select **Add a language**.
+8. Select the language you want to add.
+9. Select **Next**.
+10. Under Language preferences, check **Set as my Windows display language**.
+11. Select **Install**.
+12. Verify that the language you added is at the top of the Preferred languages list and has become the Windows display language.
+13. Optionally, if you want to remove any languages:
+   1. Select the three-dot menu next to the language you wish to remove.
+   1. Select **Remove**.
+14. Sign out.
+15. Sign back in to your admin account.
+16. Start an elevated command prompt.
+17. Run the following command:
+```PowerShell
+       powershell -executionpolicy unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentRegionAndLanguage.ps1
+```
+18. Restart the system.
+
+Your desired language is now applied to the Microsoft Teams Rooms app.
+
+
 
 ## Configuring Group Policy for Microsoft Teams Rooms
 <a name="GroupPolicy"> </a>
@@ -139,6 +202,15 @@ When joining Microsoft Teams Rooms to a domain, ensure that your group policies 
 
 > [!NOTE]
 > When Microsoft Teams Rooms is compatible with the next version of Windows 10 OS, Teams Rooms automatically updates to the next version through Windows Update. Microsoft Teams Rooms should not be upgraded to the next release of Windows 10 manually or via enabling Windows Update for Business (WUFB) group policies “Select the Windows readiness level for the updates you want to receive” and "Select when Preview Builds and Feature Updates are received" through GPO. Teams Rooms with these group policies enabled is known to run into issues with Windows 10 OS updates.
+
+### Managing Disk Space
+<a name="Space"> </a>
+
+Downloaded logs on the device can take up disk space. If logs aren't regularly cleaned up, they can interfere with the normal functionality of the room. Teams Rooms deletes downloaded logs after 30 days. IT admins can override the log clean-up using the device registry setting.
+
+|Setting|Allows|
+|:-----|:-----|
+|HKLM\SOFTWARE\Microsoft\PPI\SkypeSettings\LogCleanupAgeThreshold   |Cleans up logs after 30 days.   |
 
 ## Remote Management using PowerShell
 <a name="RemotePS"> </a>
@@ -215,96 +287,3 @@ $movefile = "<path>";
 $targetDevice = "\\<Device fqdn> \Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState\SkypeSettings.xml"; 
 Copy-Item $movefile $targetDevice 
 ```
-
-## Software updates
-<a name="SWupdate"> </a>
-
-By default, Microsoft Teams Rooms connects to Windows Update to retrieve operating system and USB peripheral device firmware updates, and installs them outside of configured business hours. You can configure business hours by signing into the administrator account and running the **Settings** app.
-  
-If you want to manage updates manually, and are unable to follow the normal procedure for [Microsoft Store for Business](https://businessstore.microsoft.com/store) to [Distribute offline apps](/microsoft-store/distribute-offline-apps), you can acquire and run the latest MTR-Update script from [Manually update a Microsoft Teams Rooms device](/microsoftteams/rooms/manual-update).
-
-By default, Microsoft Teams Rooms attempts to connect to the Windows Store to get the latest version of Microsoft Teams Rooms software. Therefore, Teams Rooms requires regular internet access. Before contacting Microsoft with support issues, be sure Microsoft Teams Rooms is loaded with the latest version of the app.
-
-## Admin mode and device management
-
-Some management functions, like manually installing a private CA certificate, require placing Teams Rooms in Admin mode. 
-  
-### Switching to Admin mode and back when the Microsoft Teams Rooms app is running
-<a name="AdminMode"> </a>
-
-1. Hang up any ongoing calls, and return to the home screen.
-2. Select the Gear icon and bring up the menu (options are **Settings**, **Accessibility**, and **Restart Device** ).
-3. Select **Settings**.
-4. Enter the Administrator password. The Setup screen will appear.  If the device isn't domain-joined, the local administrative account (username "Admin") will be used by default. The default password for this account is 'sfb'. Change this password as soon as possible. If the machine is domain-joined, you can sign in with an appropriately privileged domain account.
-5. Select **Windows Settings** in the left column.
-6. Log in to the desktop with your administrative credentials. You'll have the necessary privileges to manage the device.
-7. Perform the necessary administrative tasks.
-8. Restart the machine when you're finished.
-    
-The console is now back in its normal operation mode. The following procedure requires you to attach a keyboard to the device if one isn't already attached. 
-
-### Clearing the Teams Rooms on Windows Client Cache
-
-1. Plug in a physical keyboard to the Teams Rooms device.
-2. Press the **Windows** key five times in rapid succession. This will bring you to the Windows logon screen.
-3. Log in to the desktop with your administrative credentials.
-4. Sign the **Skype** user out of the account.
-   1. Open **Task Manager**.
-   1. Select the **Users** tab.
-   1. Right click the **Skype** user.
-   1. Select **Sign Off**.
-5. Navigate to `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalCache\Roaming\Microsoft\`
-6. Delete the **Teams** folder.
-7. Restart the Teams Rooms device.
-8. Sign in and restart again, once the Teams Room's interface has appeared.
-
-### Changing the Teams Rooms console language or date & time format
-
-1. Switch to Admin mode.
-2. Select the **Start** menu.
-3. Select the gear icon to launch the **Settings** app.
-4. Select **Time &amp; language** tab.
-5. Select **Language &amp; region**.
-6. Under Regional format, select **Recommended**.
-7. Under Preferred languages, select **Add a language**.
-8. Select the language you want to add.
-9. Select **Next**.
-10. Under Language preferences, check **Set as my Windows display language**.
-11. Select **Install**.
-12. Verify that the language you added is at the top of the Preferred languages list and has become the Windows display language.
-13. Optionally, if you want to remove any languages:
-   1. Select the three-dot menu next to the language you wish to remove.
-   1. Select **Remove**.
-14. Sign out.
-15. Sign back in to your admin account.
-16. Start an elevated command prompt.
-17. Run the following command:
-```PowerShell
-       powershell -executionpolicy unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentRegionAndLanguage.ps1
-```
-18. Restart the system.
-
-Your desired language is now applied to the Microsoft Teams Rooms app.
-
-   ### Switching to Admin Mode and back when the Microsoft Teams Rooms app crashes
-
-1. Press the Windows key five times in rapid succession. This will bring you to the Windows logon screen. 
-2. Log in to the desktop with your administrative credentials.
-3. Perform the necessary administrative tasks.
-4. Restart the machine when you're finished.
-
-    > [!NOTE]
-    > This method doesn't log the Skype user off or gracefully terminate the app, but you'd use it if the app wasn't responding and the other method wasn't available. 
-
-   The console restarts into its normal operation mode, running the Microsoft Teams Rooms app. You can remove the keyboard, if you attached one to complete this procedure.
-
-## Troubleshooting tips
-<a name="TS"> </a>
-
-- Meeting invitations might not appear when sent across domain boundaries (for example, between two companies). In such cases, IT admins should decide whether to allow external users to schedule a meeting. See the article for the Exchange PowerShell cmdlet [Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing), specifically the 'ProcessExternalMeetingMessages' parameter.
-- Microsoft Teams Rooms doesn't support Exchange AutoDiscover redirects via Exchange 2010.
-- In general, it's a good practice for IT admins to disable any audio endpoints they don't intend to use.
-- In the event that a mirror image is displayed in room preview, the IT admin can correct by cycling camera power or flipping the image orientation using the camera settings.
-- Loss of console touchscreen access has been known to occur. In such cases, the issue is sometimes resolved by restarting Teams Rooms.
-- Loss of local audio when connecting a PC to console via wired ingest has been known to occur. In such cases, restarting the PC can resolve the local audio playback issue.
-
