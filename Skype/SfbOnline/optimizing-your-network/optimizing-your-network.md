@@ -88,11 +88,11 @@ Here are some available resources that can help too:
 
 - [Network and migration planning for Microsoft 365 or Office 365](https://support.office.com/article/f5ee6c33-bcd7-4b0b-b0f8-dc1d9fb8d132)
 
-- [Office 365 Proxy Pac generator](https://gallery.technet.microsoft.com/Office-365-Proxy-Pac-60fb28f7)
+- [Office 365 Proxy Pac generator](/Office-365-Proxy-Pac-60fb28f7)
 
 - [Using WAN Optimization Controller or Traffic/Inspection devices with Microsoft 365 or Office 365](/office365/troubleshoot/miscellaneous/office-365-third-party-network-devices)
 
-- [Routing with ExpressRoute for Microsoft 365 or Office 365](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408)
+- [Routing with ExpressRoute for Microsoft 365 or Office 365](/azure/expressroute/using-expressroute-for-microsoft365)
 
 ## Bypass double encryption
 

@@ -36,7 +36,7 @@ You can maintain the same functionality you had with Skype for Business Online P
 
 ## Switching to Office 365 F1
 
-This option is ideal if you want to take advantage of the other functionality that Office 365 F1 has to offer. To learn more and get pricing info, see [Office 365 F1](https://products.office.com/business/office-365-f1).
+This option is ideal if you want to take advantage of the other functionality that Office 365 F1 has to offer. To learn more and get pricing info, see [Office 365 F1](https://www.microsoft.com/microsoft-365/enterprise/f1).
 
 
 ### How to switch 
