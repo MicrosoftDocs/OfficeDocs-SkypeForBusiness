@@ -45,12 +45,12 @@ The logs are output as a ZIP file in c:\rigel.
 <a name="Display"> </a>
 
 ### Display Sleep/Wake Behavior
-Teams Rooms on Windows devices are configured out of the box to send no video signal after 10 minutes of inactivity, the Windows PC will stop sending video from its video outputs and will send commands via Consumer Electronics Control (CEC) to power off displays. You need to configure front of room displays to listen for CEC commands or enable PC mode on the display if available. If PC mode or CEC is not available, you may be able to have the displays automatically sleep/wake on an inactive/active HDMI video signal, consult your display OEM documentation for guidance. If the display doesn't support any of the mentioned functionalities, you may be able to use a display controller to enable the desired behavior:
+Teams Rooms on Windows devices are configured out of the box to send no video signal after 10 minutes of inactivity, the Windows PC will stop sending video from its video outputs and will send commands via Consumer Electronics Control (CEC) to power off displays. You need to configure front of room displays to listen for CEC commands or enable PC mode on the display if available. If PC mode or CEC isn't available, you may be able to have the displays automatically sleep/wake on an inactive/active HDMI video signal, consult your display OEM documentation for guidance. If the display doesn't support any of the mentioned functionalities, you may be able to use a display controller to enable the desired behavior:
 - [Crestron HD-CTL-101](https://www.crestron.com/Products/Control-Hardware-Software/Hardware/Control-Modules/HD-CTL-101)
 - [Liberty DL-UHDILC](https://secure.libertycable.com/product_details.php?pitem=DL-UHDILC)
 - [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad)
 
-If the displays aren't visible to the Windows PC when in their sleep state, Teams Rooms may report display disconnected alerts messages in Teams Admin Center and the Pro Management Portal and you may experience instability with your Teams Rooms devices. Windows believes the displays have been physically disconnected. Consult your display manufacturer documentation for how to configure your displays in a way that keeps the HDMI sync with the Windows PC. If this isn't possible, powered EDID emulators/minders can be used to mitigate the instability and prevent monitoring alerts, several options are listed:
+If the displays aren't visible to the Windows PC when in their sleep state, Teams Rooms may report display disconnected alerts messages in Teams Admin Center and the Pro Management Portal and you may experience instability with your Teams Rooms devices. Windows believes the displays are physically disconnected. Consult your display manufacturer documentation for how to configure your displays in a way that keeps the HDMI sync with the Windows PC. If unsucessful, powered Extended Display Identification Data (EDID) emulators/minders can be used to mitigate the instability and prevent monitoring alerts, several options are listed:
 
 - [Extron EDID 101H 4K PLUS](https://www.extron.com/product/edid101h4kplus)
 - [StarTech EDID Emulator](https://www.startech.com/en-us/audio-video-products/vsedidhd)
@@ -76,7 +76,7 @@ Teams Rooms on Windows support many resolutions, you may find you need to specif
 <a name="Reset"> </a>
 
 ### Simple Reset
-If Microsoft Teams Rooms isn't running well, performing a reset might help. Open the Teams Rooms on Windows settings and select **Reset Device** this clears the device credentials and returns the Teams Rooms application to default settings.
+If Microsoft Teams Rooms isn't running well, performing a reset might help. Open the Teams Rooms on Windows settings and select **Reset Device** to clear the device credentials and return the Teams Rooms application to default settings.
 
 ### Factory Reset
 If the basic reset doesn't resolve your issue, you may need to do a full factory reset. We recommend using the recovery media available from your Teams Rooms on Windows OEM, however, you can also use the [Microsoft Teams Rooms recovery tool](recovery-tool.md) and follow the factory restore instructions.
@@ -101,7 +101,7 @@ If you want to manage updates manually, you can acquire and run the latest MTR-U
 3. Select **Settings**.
 4. Enter the Administrator password. The Setup screen appears. If the device isn't domain-joined, the local administrative account (username "Admin") will be used by default. The default password for this account is 'sfb'. Change this password as soon as possible. If the machine is domain-joined, you can sign in with an appropriately privileged domain account.
 5. Select **Windows Settings** in the left column.
-6. Log in to the desktop with your administrative credentials. You'll have the necessary privileges to manage the device.
+6. Log in to the desktop with your administrative credentials. You have the necessary privileges to manage the device.
 7. Perform the necessary administrative tasks.
 8. Restart the machine when you're finished.
  
@@ -148,7 +148,7 @@ You can also perform this task directly on the device with these steps:
 9. Select **Next**
 10. Under Language preferences, check **Set as my Windows display language**
 11. Select **Install**
-12. Verify that the language you added is at the top of the Preferred languages list and has become the Windows display language
+12. Verify that the language you added is at the top of the Preferred languages list and is the Windows display language
 13. Optionally, if you want to remove any languages:
  1. Select the three-dot menu next to the language you wish to remove
  1. Select **Remove**
@@ -172,20 +172,20 @@ This section covers system settings that Microsoft Teams Rooms depends on to fun
 
 Joining Teams Rooms to an Active Directory domain provides the following benefits:
 
-- Domain-joining Teams Rooms enables you to grant domain users and groups administrative rights. By doing so, you won't have to remember the local machine level administrator account password.
+- Domain-joining Teams Rooms enables you to grant domain users and groups administrative rights. By doing so, you don't need to remember the local machine level administrator account password.
 
 - You can deploy Windows Quality of Service configuration to Teams Rooms.
 
-When you join Teams Rooms to a domain, it's required to you create a separate Organizational Unit (OU), so that you can provide Group Policy Object (GPO) exclusions to the OU where all Teams Rooms objects reside. Disable all GPO inheritance so that unsupported Group Policy settings don't get applied to Teams Rooms. Create machine objects in the OU before joining Teams Rooms to the domain to assure that Group Policies applied to the default computers OU aren't applied.
+When you join Teams Rooms to a domain, you must create a separate Organizational Unit (OU), so that you can provide Group Policy Object (GPO) exclusions to the OU where all Teams Rooms objects reside. Disable all GPO inheritance so that unsupported Group Policy settings don't get applied to Teams Rooms. Create machine objects in the OU before joining Teams Rooms to the domain to assure that Group Policies applied to the default computers OU aren't applied.
 
 > [!NOTE]
 > Even if you create a separate OU and block inheritance, there are some group policies which could cause issues if they have No Override set. A Group Policy with No Override set beats an OU with Block Policy Inheritance set.
 
-Many organizations have the following GPOs, which affect Teams Rooms functionality. Ensure that you override or block the inheritance of these:
+Many organizations have the following GPOs, which affect Teams Rooms functionality. Ensure that you override or block the inheritance of:
 
 - Timeout of logon sessions (auto lockout)
 - Power management related policies
-- Requiring additional authentication steps
+- Requiring extra authentication steps
 - Denying access to local drives
 - Prompting users for slow network connections
 - Start a certain program at logon
@@ -198,7 +198,7 @@ When joining Microsoft Teams Rooms to a domain, ensure that your group policies 
 |:-----|:-----|
 |HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (REG_SZ) 1 |Enables Microsoft Teams Rooms to boot up |
 |Power Management -\> On AC, turn off screen after 10 minutes <br/> Power Management -\> On AC, never put system to sleep |Enables Microsoft Teams Rooms to turn off attached displays and wake up automatically |
-|net accounts /maxpwage:unlimited <br/> Or equivalent means of disabling password expiration on the local account. Failure to do this will eventually cause the Skype account to fail logon complaining about an expired password. This impacts all local accounts on the machine, and thus failure to set this will also cause the administrative account on the box to eventually expire as well. |Enables Skype account to always log in |
+|net accounts /maxpwage:unlimited <br/> Or equivalent means of disabling password expiration on the local account. Failure to do this configuration will eventually cause the Skype account to fail logon complaining about an expired password. This impacts all local accounts on the machine, and thus failure to set this configuration will also cause the administrative account on the box to eventually expire as well. |Enables Skype account to always log in |
 
 > [!NOTE]
 > When Microsoft Teams Rooms is compatible with the next version of Windows 10 OS, Teams Rooms automatically updates to the next version through Windows Update. Microsoft Teams Rooms shouldn't be upgraded to the next release of Windows manually or via enabling Windows Update for Business (WUFB) group policies “Select the Windows readiness level for the updates you want to receive” and "Select when Preview Builds and Feature Updates are received" through GPO. Teams Rooms with these group policies enabled is known to run into issues with Windows OS updates.
@@ -229,10 +229,10 @@ You can perform the following management operations remotely by using PowerShell
 
 For example, you can enable Remote PowerShell as follows:
  
-1. Sign in as Admin on a Microsoft Teams Rooms device.
-2. Open an elevated PowerShell command prompt.
+1. Sign in as Admin on a Microsoft Teams Rooms device
+2. Open an elevated PowerShell command prompt
 3. Enter the following command: `Enable-PSRemoting -SkipNetworkProfileCheck -Force`
-4. Open the Local Security Policy and add the *Administrators* security group to **Security Settings** > **Local Policies** > **User Rights Assignment** > **Access this computer from the network**.
+4. Open the Local Security Policy and add the *Administrators* security group to **Security Settings** > **Local Policies** > **User Rights Assignment** > **Access this computer from the network**
 
 To perform a management operation:
  
@@ -280,7 +280,7 @@ $session = new-pssession -ComputerName $targetDevice
 Copy-Item -Path $logFile.FullName -Destination .\ -FromSession $session; invoke-command {remove-item -force C:\Rigel\*.zip} -ComputerName $targetDevice
 ```
 
-Push an XML configuration file (or theme graphic)
+Push an XML configuration file (or theme graphic).
  
 ```XML
 $movefile = "<path>";
