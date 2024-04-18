@@ -68,7 +68,7 @@ You can use the **Recording & Transcription** section in the Teams admin center 
 |On|During and after the meeting| Once licensed users turn on transcription, they can select the Copilot button for use during, and after this meeting or event. |
 |Off|During and after the meeting| Licensed users can't interact with Copilot unless another participant with permission to transcribe turns on transcription for this meeting.|
 
-To learn more about managing transcription, see [Configure transcription and captions for Teams meetings](meeting-transcription-captions).
+To learn more about managing transcription, see [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md).
 
 ## Manage Copilot for your Teams users
 
