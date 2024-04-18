@@ -15,13 +15,13 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b6be29df-b882-4ba8-ba40-8062eb3bb14d
 ROBOTS: NOINDEX, NOFOLLOW
-description: "You will see this page if there is no Monitoring Server deployed in your infrastructure. This indicates that the minimum requirements for deploying Monitoring Server reports have not been met."
+description: "You see this page if there's no Monitoring Server deployed in your infrastructure. This indicates that the minimum requirements for deploying Monitoring Server reports haven't met."
 ---
 
 # SQL Server Reporting Services (Prerequisites Not Satisfied)
 
-You will see this page if there is no Monitoring Server deployed in your infrastructure. This indicates that the minimum requirements for deploying Monitoring Server reports have not been met.
+You see this page if there's no Monitoring Server deployed in your infrastructure. This indicates that the minimum requirements for deploying Monitoring Server reports haven't met.
 
-To resolve this issue, make sure that you have a Monitoring Server joined to the domain, that it is defined in Topology Builder, and that the topology has been published. SQL Server Reporting Services must also be available on the SQL Server, and installed as a feature into the Monitoring Server database on the SQL Server.
+To resolve the issue, ensure that you have a Monitoring Server joined to the domain that's defined in Topology Builder. The topology must be published. SQL Server Reporting Services must also be available on the SQL Server, and installed as a feature into the Monitoring Server database on the SQL Server.
 
 For details, see [Install Monitoring Reports in Skype for Business Server](../../../deploy/deploy-monitoring/install-monitoring-reports.md) and [Deploying Monitoring](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring).

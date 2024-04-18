@@ -12,12 +12,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
-description: "You may decide to use paired Front End pools to provide disaster recovery protection, but doing so is not a requirement."
+description: "You might decide to use paired Front End pools to provide disaster recovery protection, but doing so isn't a requirement."
 ---
 
 # Deploy paired Front End pools for disaster recovery in Skype for Business Server
  
-You may decide to use paired Front End pools to provide disaster recovery protection, but doing so is not a requirement.
+You might decide to use paired Front End pools to provide disaster recovery protection, but doing so isn't a requirement.
   
 You can easily deploy the disaster recovery topology of paired Front End pools using Topology Builder. 
   
@@ -25,19 +25,19 @@ You can easily deploy the disaster recovery topology of paired Front End pools u
 
 1. If the pools are new and not yet defined, use Topology Builder to create the pools.
     
-2. In Topology Builder, right-click one of the two pools, and then click **Edit Properties**.
+2. In Topology Builder, right-click one of the two pools, and then select **Edit Properties**.
     
-3. Click **Resiliency** in the left pane, and then select **Associated Backup Pool** in the right pane.
+3. Select **Resiliency** in the left pane, and then select **Associated Backup Pool** in the right pane.
     
-4. In the box below **Associated Backup Pool**, select the pool that you want to pair with this pool. Only existing pools that are not already paired with another pool will be available to select from.
+4. In the box below **Associated Backup Pool**, select the pool that you want to pair with this pool. Only existing pools that aren't already paired with another pool will be available to select from.
     
-5. Select **Automatic failover and failback for Voice**, and then click **OK**.
+5. Select **Automatic failover and failback for Voice**, and then select **OK**.
     
     When you view the details about this pool, the associated pool now appears in the right pane under **Resiliency**. 
     
 6. Use Topology Builder to publish the topology.
     
-7. If the two pools were not yet deployed, deploy them now and the configuration will be complete. You can skip the final steps in this procedure.
+7. If the two pools weren't yet deployed, deploy them now and the configuration will be complete. You can skip the final steps in this procedure.
     
     However, if the pools were already deployed before you defined the paired relationship, you must complete the following final steps.
     
@@ -67,7 +67,7 @@ You can easily deploy the disaster recovery topology of paired Front End pools u
     Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
     ```
 
-    Synchronizing the data may take some time. You can use the following cmdlets to check the status. Make sure that the status in both directions is in steady state.
+    Synchronizing the data might take some time. You can use the following cmdlets to check the status. Make sure that the status in both directions is in steady state.
     
     ```powershell
     Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
