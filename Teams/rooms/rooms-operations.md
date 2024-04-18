@@ -127,13 +127,13 @@ You can also perform this task directly on the device with these steps:
 
 1. Switch to Admin mode
 2. Open Windows Explorer and follow the instructions for your app version:
- A. If running Teams Rooms on Windows 4.19.82.0 or earlier:
- 1. Navigate to: `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalCache\Roaming\Microsoft\`
- 2. Delete the **Teams** folder
- B. If running Teams Rooms 5.0.0 or newer:
- 1. Navigate to: `C:\Users\Skype\AppData\Local\Packages\MSTeamsRooms_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams`
- 2. Delete everything inside the MSTeams folder
-3. Restart the Teams Rooms device and allow it to return to the Teams Rooms interface
+3. If running Teams Rooms on Windows 4.19.82.0 or earlier:
+4. Navigate to: `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalCache\Roaming\Microsoft\`
+5. Delete the **Teams** folder
+6. If running Teams Rooms 5.0.0 or newer:
+7. Navigate to: `C:\Users\Skype\AppData\Local\Packages\MSTeamsRooms_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams`
+8. Delete everything inside the MSTeams folder
+9. Restart the Teams Rooms device and allow it to return to the Teams Rooms interface
 
 ## Changing the Teams Rooms console language or date & time format
 
