@@ -23,11 +23,11 @@ appliesto:
 
 To help Teams become an open platform, Teams admins can change the default storage backend of Teams (for OneDrive and SharePoint) to a 3P storage-provider app of their choice. This change allows you to do the following:
 
-- **For Teams admins** - The ability to change the default storage app for drag-drop when uploading files on the Teams desktop.
+- **For Teams admins** The ability to change the default storage app for drag-drop when uploading files on the Teams desktop.
 
-- **For Teams app developers (3p)** The ability to use this capability for Teams apps using the Teams SDK. This functionality only works for select supported apps where app developers  used this capability for their Teams apps.
+- **For Teams app developers (3p)** The ability to use this capability for Teams apps using the Teams SDK.
 
-This document explains policy names, syntax, and how tenants can change the default drag-drop storage destination to a 3P storage provider.
+This functionality only works for select supported apps where app developers  used this capability for their Teams apps. This document explains policy names, syntax, and how tenants can change the default drag-drop storage destination to a 3P storage provider.
 
 ## Tenant level policy
 Admins can use a PowerShell command to set a default Teams app to handle drag-drop files.
@@ -35,7 +35,7 @@ Admins can use a PowerShell command to set a default Teams app to handle drag-dr
 ```powershell
 Set-CsTeamsFilesPolicy -Identity Global -DefaultFileUploadAppId  "<appId>"
 ```
- 
+
 Admins can use a PowerShell command to revert back for ODSP to handle drag-drop files.
 
 ```powershell
@@ -54,7 +54,7 @@ Set-CsTeamsFilesPolicy -Identity Global -DefaultFileUploadAppId  ""
 *Get-CsTeamsFilesPolicy*
 
 ## To enable or disable native file upload point
-*Get-CsTeamsFilesPolicy*
+*NativeFileEntryPoints : Disabled *
 
 ## To remove the policy for the complete list of users
 *Remove-CsTeamsFilesPolicy*
@@ -77,25 +77,25 @@ The following behaviour occurs with mixed-mode admin settings:
 
 |NativeFileEntryPoints |DefaultFileUploadAppID |Expected behavior
 |---------|---------|---|
-|ODSP Enabled     |Enabled*       |Paperclip>Upload from device (**goes to ODSP**)<br>Drag-Drop (**goes to the configured 3P app***)|
-|ODSP Enabled    |Not enabled      |Paperclip>Upload from device  (**goes to ODSP**)<br>Drag-drop (**goes to ODSP**)|
+|ODSP Enabled     |Enabled*       |Paperclip>Upload from device (goes to ODSP)<br>Drag-Drop (**goes to the configured 3P app***)|
+|ODSP Enabled    |Not enabled      |Paperclip>Upload from device  (goes to ODSP)<br>Drag-drop (goes to ODSP)|
 |ODSP Disabled    |Enabled*      |Paperclip (Attach) - Hidden<br>Drag-Drop (**goes to the configured 3P app***)|
-|ODSP Disabled    |Not Enabled      |Paperclip (Attach) - Hidden<br>Drag-Drop - (**no op**)|
+|ODSP Disabled    |Not Enabled      |Paperclip (Attach) - Hidden<br>Drag-Drop (**no op**)|
 
 > [!NOTE]
 > The policy will apply to both T1 and T2.1.
 
 ## Out of scope
-Teams Mobile support for the **DefaultFileUploadAppId** policy is not applicable. Also note that image or media copy/paste is today treated as part of the Teams message payload and not a cloud file, and isn't impacted by this policy.
+Teams Mobile support for the *DefaultFileUploadAppId* policy is not applicable. Also note that image or media copy/paste is today treated as part of the Teams message payload and not a cloud file, and isn't impacted by this policy.
 
-## For admins
+## Documentation for admins
 Admins should refer to the app description or the 3P app documentation for information about supporting this policy.
 
 - Have a list of supported apps and add to our official documentation.
 - Call out that it is an indicative list only with pointer on how we can add more apps to the list (for Box or Egnyte).
 - Reach out directly to App Developer if you're sure about this functionality.
 
-##  For developers (like Box)
+##  Documentation for developers (like Box)
 -	“DragAndDropFileCallback” support in Teams SDK.
 -	@microsoft/teams-js package - Teams | Microsoft Learn.
 -	Guidance to App Developers add this capability to their app description and publish in their documentation.
