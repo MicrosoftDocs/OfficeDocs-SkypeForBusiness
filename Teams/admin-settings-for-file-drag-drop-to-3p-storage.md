@@ -12,9 +12,7 @@ search.appverid:
 description: Learn how to change the default storage backend of Teams
 ms.localizationpriority: medium
 f1.keywords: 
-ms.collection: 
-  - M365-collaboration
-  - Teams_ITAdmin_Devices
+ms.collection:
 appliesto: 
   - Microsoft Teams
 ---
