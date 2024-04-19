@@ -9,7 +9,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: 
-description: Learn how to change the default storage backend of Teams
+description: Learn how to change the default storage backend of Teams.
 ms.localizationpriority: medium
 f1.keywords: 
 ms.collection:
@@ -40,11 +40,11 @@ Admins can use a PowerShell command to revert back for ODSP to handle drag-drop 
 Set-CsTeamsFilesPolicy -Identity Global -DefaultFileUploadAppId  ""
 ```
 
-- *Identity - Global??*
+- *Identity - Global?*
  
 ### User side-error conditions
 
-- App not installed: “Default app set by your org admin is not installed.”
+- App not installed: “Default app set by your org admin isn't installed.”
 
 - App does not support drag-drop: “Default app setup by your org admin doesn’t support file upload.” (May not be in our control. Use “Generic error”?)
 
@@ -84,7 +84,7 @@ The following behavior occurs with mixed-mode admin settings:
 > The policy will apply to both T1 and T2.1.
 
 ### Out of scope
-Teams Mobile support for the *DefaultFileUploadAppId* policy isn't applicable. Also note that image or media copy and paste is today treated as part of the Teams message payload and not as a cloud file. The image or media copy and paste isn't impacted by this policy.
+Teams Mobile support for the *DefaultFileUploadAppId* policy isn't applicable. Also note that image or media copy and paste is today treated as part of the Teams message payload and not as a cloud file. This policy doesn't impact the image or media copy and paste.
 
 ## Documentation for admins
 Admins should refer to the app description or the 3P app documentation for information about supporting this policy.
