@@ -1,10 +1,10 @@
 ---
 title: Admin settings for file drag-drop to 3P storage 
-author: HeidiPayne
-ms.author: ellisonj2024
-ms.reviewer: v-ellisonj
+author: MicrosoftHeidi
+ms.author: heidip
+ms.reviewer: heidip
 ms.date: 04/18/2024
-manager: v-midet
+manager: 
 ms.topic: article
 audience: admin
 ms.service: msteams
