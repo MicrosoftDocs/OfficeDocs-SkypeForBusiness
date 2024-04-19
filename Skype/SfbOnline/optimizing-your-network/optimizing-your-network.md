@@ -88,7 +88,7 @@ Here are some available resources that can help too:
 
 - [Network and migration planning for Microsoft 365 or Office 365](https://support.office.com/article/f5ee6c33-bcd7-4b0b-b0f8-dc1d9fb8d132)
 
-- [PAC file for routing of Microsoft 365 traffic](/microsoft-365/enterprise/managing-office-365-endpoints?view=o365-worldwide)
+- [PAC file for routing of Microsoft 365 traffic](/microsoft-365/enterprise/managing-office-365-endpoints#use-a-pac-file-for-direct-routing-of-vital-microsoft-365-traffic)
 
 - [Using WAN Optimization Controller or Traffic/Inspection devices with Microsoft 365 or Office 365](/office365/troubleshoot/miscellaneous/office-365-third-party-network-devices)
 
