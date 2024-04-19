@@ -100,6 +100,7 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Create a webinar wait list |  | ✔️ |
 | Webinar organizers can view engagement reports |  | ✔️ |
 | Manually approve registrants |  | ✔️ |
+**| Hide attendee names |  | ✔️ | <------could someone please advise if this is available for webinars?? There are forums online that suggest the feature is available but not indicated here.
 | View engagement reports |  | ✔️ |
 | Limit the day and time when people can register |  | ✔️ |
 | Use RTMP-In for webinars |  | ✔️ |
