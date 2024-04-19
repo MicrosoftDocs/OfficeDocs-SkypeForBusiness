@@ -20,7 +20,7 @@ description: "Deploy (install) an Always On Availability Group in your Skype for
  
 Deploy (install) an Always On Availability Group (AG) in your Skype for Business Server deployment.
   
-How you deploy an AG depends on whether you are deploying it in a new pool, an existing pool that uses mirroring, or an existing pool that currently has no high availability for the Back End database.
+How you deploy an AG depends on whether you're deploying it in a new pool, an existing pool that uses mirroring, or an existing pool that currently has no high availability for the Back End database.
   
 > [!NOTE]
 > Using an AG with a Persistent Chat Server role is not supported. 
@@ -38,19 +38,19 @@ How you deploy an AG depends on whether you are deploying it in a new pool, an e
     
    - Open Server Manager and click **Add roles and features**.
     
-   - Click **Next** until you reach the **Select features** box. Here, select the **Failover Clustering** check box.
+   - Select **Next** until you reach the **Select features** box. Here, select the **Failover Clustering** check box.
     
-   - In the **Add features that are required for Failover Clustering?** box, click **Add Features**.
+   - In the **Add features that are required for Failover Clustering?** box, select **Add Features**.
     
-   - Click **Install**.
+   - Select **Install**.
     
 2. Validate the cluster configuration.
     
-   - In Server Manager, click the **Tools** menu and then click **Failover Cluster Manager**.
+   - In Server Manager, select the **Tools** menu and then select **Failover Cluster Manager**.
     
-   - Under **Actions** on the right side of the screen, click **Validate Configuration**.
+   - Under **Actions** on the right side of the screen, select **Validate Configuration**.
     
-   - On the **Before You Begin** page, click **Next**.
+   - On the **Before You Begin** page, select **Next**.
     
    - Select the servers to add to the cluster, and then click **Run all tests**.
     
@@ -94,9 +94,9 @@ How you deploy an AG depends on whether you are deploying it in a new pool, an e
     
    - Open SQL Server Management Studio, and connect to the SQL Server instance.
     
-   - In Object Explorer, expand the **Always On High Availability** folder. Right-click the **Availability Groups** folder and click **New Availability Group Wizard**.
+   - In Object Explorer, expand the **Always On High Availability** folder. Right-click the **Availability Groups** folder and select **New Availability Group Wizard**.
     
-   - If the **Introduction** page appears, click **Next**.
+   - If the **Introduction** page appears, select **Next**.
     
    - In the **Specify Availability Group Name** page, type the name of the Availability group, and click **Next**.
     
