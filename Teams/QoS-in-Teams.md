@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: siunies
 ms.date: 04/12/2024
 audience: admin
-description: Learn about how to prepare your organization's network for Quality of Service (QoS) in Microsoft Teams.
+description: Learn how to prepare your organization's network for Quality of Service (QoS) in Microsoft Teams.
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -179,48 +179,23 @@ Implement QoS setting for clients and network devices, and determine how you wan
 
 - For information on implementing QoS for routers, see your manufacturer's documentation.
 
+- For information about enabling QoS in the Teams admin center, see [Configure QoS in the Teams admin center](meetings-real-time-media-traffic.md).
+
 - Setting QoS on network devices might include using port-based Access Control Lists (ACLs), defining the QoS queues and DSCP markings, or all of these.
 
   > [!IMPORTANT]
   > We recommend implementing these QoS policies using the client source ports and a source and destination IP address of “any.” This will catch both incoming and outgoing media traffic on the internal network.  
 
-- For information about handling media traffic for meetings, see [Media traffic for Teams meetings](meetings-real-time-media-traffic.md).
+How you implement QoS may differ dependig on the client:
 
+- For information about implementing QoS on Windows, see [Implement QoS in Teams clients](QoS-in-Teams-clients.md)
 
-### Manage QoS network policies on Windows using PowerShell
-
-To manage QoS network policies on Windows, use the following PowerShell cmdlets:
-
-- [New-NetQosPolicy cmdlet](/powershell/module/netqos/new-netqospolicy)
-- [Set-NetQosPolicy cmdlet](/powershell/module/netqos/set-netqospolicy)
-- [Remove-NetQosPolicy cmdlet](/powershell/module/netqos/remove-netqospolicy)
-
-
-**Set QoS for audio**
-
-```powershell
-new-NetQosPolicy -Name "Teams Audio" -AppPathNameMatchCondition "ms-teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50000 -IPSrcPortEndMatchCondition 50019 -DSCPAction 46 -NetworkProfile All
-```
-
-**Set QoS for video**
-
-```powershell
-new-NetQosPolicy -Name "Teams Video" -AppPathNameMatchCondition "ms-teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50020 -IPSrcPortEndMatchCondition 50039 -DSCPAction 34 -NetworkProfile All
-```
-
-**Set QoS for sharing**
-
-```powershell
-new-NetQosPolicy -Name "Teams Sharing" -AppPathNameMatchCondition "ms-teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50040 -IPSrcPortEndMatchCondition 50059 -DSCPAction 18 -NetworkProfile All
-```
-
-### Implement QoS for other devices
-
-For information about implementing QoS for Intune, Surface, iOS, Android, and Mac, see the following articles:
+- For information about implementing QoS for Surface Hub: see the following articles:
 
 - [QoS for Surface Hub 2S](/surface-hub/surface-hub-2s-manage-intune)
+- [Implement Quality of Service](/surface-hub/manage-settings-with-mdm-for-surface-hub?branch=main#implement-quality-of-service-qos)
 
-- [QoS for Surface Hub](/surface-hub/surface-hub-qos)
+For information about implementing QoS for iOS, Android, and Mac, see
 
 - [QoS for iOS, Android, and Mac](./meeting-settings-in-teams.md?WT.mc_id=TeamsAdminCenterCSH#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)
 
