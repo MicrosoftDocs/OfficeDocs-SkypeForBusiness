@@ -24,9 +24,9 @@ description: Reference article listing emergency numbers for countries.
 ms.custom: seo-marvel-mar2020
 ---
 
-# Emergency numbers for countriess
+# Emergency numbers for countries
 
-The following table lists emergency numbers for countries....
+The following table lists emergency numbers for countries.
 
 |Country Name (The full country name)|IsoCountryCode|Emergency Numbers (The list of emergency numbers that Microsoft will maintain)|Other special numbers (Note that this is NOT in scope of LocationPolicy, but included here for completeness)|Notes (Additional notes)|Source (Whether the list is provided by CELA or from existing LocationPolicy docs)|
 |---|---|---|---|---|---|
@@ -120,12 +120,5 @@ The following table lists emergency numbers for countries....
 
 
 
-
-
-
-
-
-
-TEST CHANGE...
 
 
