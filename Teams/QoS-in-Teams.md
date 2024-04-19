@@ -54,8 +54,6 @@ _Figure 1. The relationship between an organization's networks and Microsoft 365
 
 The following checklist provides an overview of the steps required to implement QoS. The steps are described in more detail throughout this article.
 
-Note: If you're migrating QoS from Skype for Business Server to Teams, see [If you're migrating QoS](#if-youre-migrating-qos-to-teams).
-
 1. [Make sure your network is ready](#step-1-make-sure-your-network-is-ready).
 
 2. [Select a QoS implementation method](#step-2-select-a-qos-implementation-method).
