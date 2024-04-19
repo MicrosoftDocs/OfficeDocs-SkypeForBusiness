@@ -2,9 +2,9 @@
 title: Admin settings for file drag-drop to 3P storage 
 author: MicrosoftHeidi
 ms.author: heidip
-ms.reviewer: heidip
+ms.reviewer: shkarri,sasood
 ms.date: 04/18/2024
-manager: 
+manager: heidip
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -27,7 +27,7 @@ To help Teams become an open platform, Teams admins can change the default stora
 
 This functionality only works for select supported apps where app developers used this capability for their Teams apps. This document explains policy names, syntax, and how tenants can change the default drag-drop storage destination to a 3P storage provider.
 
-## Tenant level policy
+## Tenant-level policy
 Admins can use a PowerShell command to set a default Teams app to handle drag-drop files.
 
 ```powershell
