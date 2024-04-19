@@ -48,3 +48,10 @@ Organizations may have different settings in their environment, such as antiviru
 - **Classic Teams Min app version**: Version 1.6.00.27573 or higher is required to deploy the in-app update to new Teams. Otherwise, the admin should review their deployment and use M365 apps or manually install new Teams though the [teamsbootstrapper](new-teams-bulk-install-client.md).
 - **Make sure all users have updated to new Teams**: As new Teams is deployed, track usage to validate intended users and systems are updated via the [Usage report for new Teams client](new-teams-usage-report.md).
 - **Review to make sure your deployments replace any classic Teams installation references**: This includes new machine images, device management configuration, scripts, old builds of M365 apps, and so on.
+
+## Learn more
+
+- [Upgrade to the new Teams using policies](new-teams-deploy-using-policies.md)
+- [Upgrade to new Microsoft Teams with Microsoft 365 Apps](new-teams-deploy-with-m365apps.md)
+- [New Teams for Mac - Overview and prerequisites](new-teams-mac-install-prerequisites.md)
+- [Upgrade to new Teams for Virtualized Desktop Infrastructure (VDI)](new-teams-vdi-requirements-deploy.md)
