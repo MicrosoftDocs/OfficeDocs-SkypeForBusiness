@@ -11,7 +11,7 @@ ms.subservice: teams-apps
 search.appverid: MET150
 description: Learn how apps in Microsoft Teams work for guests, external access users, and anonymous users.
 ms.localizationpriority: high
-ms.date: 07/29/2023
+ms.date: 04/19/2024
 f1.keywords:
 - NOCSH
 ms.collection: 
@@ -42,7 +42,7 @@ For a more detailed comparison between guest and external access users, see [com
 
 ### Add, update, and delete apps for guests
 
-Guests can't add, update, or delete apps into a shared context, such as a chat, channel, or meeting. Guests can do so in their personal scope using message extensions and direct links. Guests can't access the Teams app store from the Teams desktop app, but can access the store with a direct link.
+Guests can't add, update, or delete apps into a shared context, such as a chat, channel, or meeting. Guests can't access the Teams app store from the Teams client.
 
 ### Usage behavior and policy for guests
 
