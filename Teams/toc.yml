@@ -453,10 +453,12 @@ items:
               href: learn-more-about-site-upload.md
         - name: Quality of Service (QoS)
           items: 
-            - name: Set up QoS in Teams
+            - name: Implement QoS in Teams
               href: QoS-in-Teams.md
             - name: Set QoS on Windows clients
               href: QoS-in-Teams-clients.md
+            - name: Configure QoS in the Teams admin center
+              href: meetings-real-time-media-traffic.md
         - name: Real-time telemetry
           items: 
             - name: Use real-time telemetry to troubleshoot poor meeting quality
@@ -750,7 +752,7 @@ items:
               href: use-NDI-in-meetings.md
             - name: Cloud Video Interop
               href: cloud-video-interop.md
-            - name: Real-time media traffic
+            - name: Configure Quality of Service (QoS)
               href: meetings-real-time-media-traffic.md
             - name: Stream Teams meetings
               href: stream-teams-meetings.md
