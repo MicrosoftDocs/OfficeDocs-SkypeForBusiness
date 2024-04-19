@@ -25,12 +25,11 @@ ms.custom:
 
 # Implement Quality of Service (QoS) in Microsoft Teams desktop clients on Windows
 
-There are multiple methods that can be used to set the Differentiated Services Code Point (DSCP) markings for Teams desktop clients running on Windows. This article assumes you are using the default source port ranges as defined in the [Implement QoS in Teams](https://learn.microsoft.com/en-us/microsoftteams/qos-in-teams#step-3-choose-initial-port-ranges-for-each-media-type) article. If you have customized the source port ranges for your environment, you will need to adjust the following guidance to reflect the source ports being used.
+There are multiple methods that can be used to set the Differentiated Services Code Point (DSCP) markings for Teams desktop clients running on Windows. This article assumes you are using the default source port ranges as defined in the [Implement QoS in Teams](./qos-in-teams#step-3-choose-initial-port-ranges-for-each-media-type) article. If you have customized the source port ranges for your environment, you will need to adjust the following guidance to reflect the source ports being used.
 
-## [Intune](#tab/MicrosoftIntune)
 ## Configuring DSCP markings using Intune
 
-Microsoft Intune (and other Mobile Device Management (MDM) providers) utilize the eXtensible Markup Language (XML)-based Open Mobile Alliance-Device Management (OMA-DM) protocol for policy settings management. Windows implements OMA-DM XML via Configuration Service Providers (CSPs) - and for Quality of Service (QoS), the [NetworkQoSPolicy](https://learn.microsoft.com/en-us/windows/client-management/mdm/networkqospolicy-csp) CSP is leveraged.
+Microsoft Intune (and other Mobile Device Management (MDM) providers) utilizes the eXtensible Markup Language (XML)-based Open Mobile Alliance-Device Management (OMA-DM) protocol for policy settings management. Windows implements OMA-DM XML via Configuration Service Providers (CSPs) - and for Quality of Service (QoS), the [NetworkQoSPolicy](/windows/client-management/mdm/networkqospolicy-csp) CSP is leveraged.
 
 To create the device configuration policy for QoS for Teams clients on Windows:
 
@@ -55,34 +54,34 @@ To create the device configuration policy for QoS for Teams clients on Windows:
 
     *Table 1. Intune OMA-URI Settings for new Teams*
 
-    **Name**|**Description**|**OMA-URI**|**Data Type**|**Value** 
-    :-----:|:-----:|:-----:|:-----:|:-----:
-    Teams Audio: Application|New Teams executable name.|./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/AppPathNameMatchCondition|String|ms-teams.exe
-    Teams Audio: Ports|Audio source ports used by the Teams client.|./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/SourcePortMatchCondition|String|50000-50019
-    Teams Audio: DSCP Marking|Marking applied for audio (EF46)|./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/DSCPAction|Integer|46
-    Teams Video: Application|New Teams executable name.|./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsVideo/AppPathNameMatchCondition|String|ms-teams.exe
-    Teams Video: Ports|Video source ports used by the Teams client.|./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsVideo/SourcePortMatchCondition|String|50020-50039
-    Teams Video: DSCP Marking|Marking applied for video (AF41)|./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsVideo/DSCPAction|Integer|34
-    Teams Screenshare: Application|New Teams executable name.|./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsScreenshare/AppPathNameMatchCondition|String|ms-teams.exe
-    Teams Screenshare: Ports|Screen sharing ports used by the Teams client.|./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsScreenshare/SourcePortMatchCondition|String|50040-50059
-    Teams Screenshare: DSCP Marking|Marking applied for screen sharing (AF21)|./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsScreenshare/DSCPAction|Integer|18
+    |**Name**|**Description**|**OMA-URI**|**Data Type**|**Value** |
+    |:-----:|:-----:|:-----:|:-----:|:-----:|
+    |Teams Audio: Application|New Teams executable name.|./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/AppPathNameMatchCondition|String|ms-teams.exe|
+    |Teams Audio: Ports|Audio source ports used by the Teams client.|./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/SourcePortMatchCondition|String|50000-50019|
+    |Teams Audio: DSCP Marking|Marking applied for audio (EF46)|./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/DSCPAction|Integer|46|
+    |Teams Video: Application|New Teams executable name.|./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsVideo/AppPathNameMatchCondition|String|ms-teams.exe|
+    |Teams Video: Ports|Video source ports used by the Teams client.|./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsVideo/SourcePortMatchCondition|String|50020-50039|
+    |Teams Video: DSCP Marking|Marking applied for video (AF41)|./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsVideo/DSCPAction|Integer|34|
+    |Teams Screenshare: Application|New Teams executable name.|./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsScreenshare/AppPathNameMatchCondition|String|ms-teams.exe|
+    |Teams Screenshare: Ports|Screen sharing ports used by the Teams client.|./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsScreenshare/SourcePortMatchCondition|String|50040-50059|
+    |Teams Screenshare: DSCP Marking|Marking applied for screen sharing (AF21)|./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsScreenshare/DSCPAction|Integer|18|
  
 
     **For the classic Teams client, using the following table.**
     
     *Table 2. Intune OMA-URI Settings for classic Teams*
 
-    **Name**|**Description**|**OMA-URI**|**Data Type**|**Value**
-    :-----:|:-----:|:-----:|:-----:|:-----:
-    Classic Teams Audio: Application|Classic Teams executable name.|./Device/Vendor/MSFT/NetworkQoSPolicy/ClassicTeamsAudio/AppPathNameMatchCondition|String|teams.exe
-    Classic Teams Audio: Ports|Audio source ports used by the Teams client.|./Device/Vendor/MSFT/NetworkQoSPolicy/ClassicTeamsAudio/SourcePortMatchCondition|String|50000-50019
-    Classic Teams Audio: DSCP Marking|Marking applied for audio (EF46)|./Device/Vendor/MSFT/NetworkQoSPolicy/ClassicTeamsAudio/DSCPAction|Integer|46
-    Classic Teams Video: Application|Classic Teams executable name.|./Device/Vendor/MSFT/NetworkQoSPolicy/ClassicTeamsVideo/AppPathNameMatchCondition|String|teams.exe
-    Classic Teams Video: Ports|Video source ports used by the Teams client.|./Device/Vendor/MSFT/NetworkQoSPolicy/ClassicTeamsVideo/SourcePortMatchCondition|String|50020-50039
-    Classic Teams Video: DSCP Marking|Marking applied for video (AF41)|./Device/Vendor/MSFT/NetworkQoSPolicy/ClassicTeamsVideo/DSCPAction|Integer|34
-    Classic Teams Screenshare: Application|Classic Teams executable name.|./Device/Vendor/MSFT/NetworkQoSPolicy/ClassicTeamsScreenshare/AppPathNameMatchCondition|String|teams.exe
-    Classic Teams Screenshare: Ports|Screen sharing ports used by the Teams client.|./Device/Vendor/MSFT/NetworkQoSPolicy/ClassicTeamsScreenshare/SourcePortMatchCondition|String|50040-50059
-    Classic Teams Screenshare: DSCP Marking|Marking applied for screen sharing (AF21)|./Device/Vendor/MSFT/NetworkQoSPolicy/ClassicTeamsScreenshare/DSCPAction|Integer|18
+    |**Name**|**Description**|**OMA-URI**|**Data Type**|**Value**|
+    |:-----:|:-----:|:-----:|:-----:|:-----:|
+    |Classic Teams Audio: Application|Classic Teams executable name.|./Device/Vendor/MSFT/NetworkQoSPolicy/ClassicTeamsAudio/AppPathNameMatchCondition|String|teams.exe|
+    |Classic Teams Audio: Ports|Audio source ports used by the Teams client.|./Device/Vendor/MSFT/NetworkQoSPolicy/ClassicTeamsAudio/SourcePortMatchCondition|String|50000-50019|
+    |Classic Teams Audio: DSCP Marking|Marking applied for audio (EF46)|./Device/Vendor/MSFT/NetworkQoSPolicy/ClassicTeamsAudio/DSCPAction|Integer|46|
+    |Classic Teams Video: Application|Classic Teams executable name.|./Device/Vendor/MSFT/NetworkQoSPolicy/ClassicTeamsVideo/AppPathNameMatchCondition|String|teams.exe|
+    |Classic Teams Video: Ports|Video source ports used by the Teams client.|./Device/Vendor/MSFT/NetworkQoSPolicy/ClassicTeamsVideo/SourcePortMatchCondition|String|50020-50039|
+    |Classic Teams Video: DSCP Marking|Marking applied for video (AF41)|./Device/Vendor/MSFT/NetworkQoSPolicy/ClassicTeamsVideo/DSCPAction|Integer|34|
+    |Classic Teams Screenshare: Application|Classic Teams executable name.|./Device/Vendor/MSFT/NetworkQoSPolicy/ClassicTeamsScreenshare/AppPathNameMatchCondition|String|teams.exe|
+    |Classic Teams Screenshare: Ports|Screen sharing ports used by the Teams client.|./Device/Vendor/MSFT/NetworkQoSPolicy/ClassicTeamsScreenshare/SourcePortMatchCondition|String|50040-50059|
+    |Classic Teams Screenshare: DSCP Marking|Marking applied for screen sharing (AF21)|./Device/Vendor/MSFT/NetworkQoSPolicy/ClassicTeamsScreenshare/DSCPAction|Integer|18|
 
 9. Select **Next**
 10. In **Assignments** slect the group or groups that you want to target with this policy. The group membership must include Windows devices (and not user accounts) as this is a device policy.
@@ -92,10 +91,9 @@ To create the device configuration policy for QoS for Teams clients on Windows:
 14. In **Review + create** review the settings for accurate, and when finished select **Create**.
 
 
-## [PowerShell](#tab/PowerShell)
 ## Configuring DSCP markings using PowerShell commands
 
-Endpoint DSCP markings can be set in PowerShell using the [New-NetQosPolicy](https://learn.microsoft.com/en-us/powershell/module/netqos/new-netqospolicy?view=windowsserver2022-ps) command. In the examples below, there are two commands each for audio, video and application sharing - this reflects creating policies for both the new Teams client (ms-teams.exe) and classic Teams client (Teams.exe). You can combine these commands into a PowerShell script and distrbute to your desired endpoints. 
+Endpoint DSCP markings can be set in PowerShell using the [New-NetQosPolicy](/powershell/module/netqos/new-netqospolicy) command. In the examples below, there are two commands each for audio, video and application sharing - this reflects creating policies for both the new Teams client (ms-teams.exe) and classic Teams client (Teams.exe). You can combine these commands into a PowerShell script and distrbute to your desired endpoints. 
 
 **Set QoS for audio**
 
@@ -121,10 +119,9 @@ new-NetQosPolicy -Name "Classic Teams Sharing" -AppPathNameMatchCondition "Teams
 
 ```
 
-## [Group Policy](#tab/GPO)
 ## Configuring DSCP markings using Group Policy
 
-You can configure policy-based QoS settings within a Group Policy object (GPO). Three policies would need to be created - audio, video and application sharing.
+Policy-based QoS settings can be created within a Group Policy object (GPO). When creating the policies, you will need to create a separate policy for audio, video and application sharing.
 
 To create a QoS audio policy for domain-joined Windows computers, first log on to a computer on which Group Policy Management has been installed. Open Group Policy Management (click Start, point to Administrative Tools, and then click Group Policy Management), and then complete the following steps:
 
