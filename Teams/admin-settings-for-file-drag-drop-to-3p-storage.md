@@ -1,6 +1,6 @@
 ---
 title: Admin settings for file drag-drop to 3P storage 
-author: CarolynRowe
+author: HeidiPayne
 ms.author: ellisonj2024
 ms.reviewer: v-ellisonj
 ms.date: 04/18/2024
