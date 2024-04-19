@@ -29,9 +29,9 @@ On the main configuration screen, you can select **Refresh** to refresh and repo
   
 Two selections are available for policy creation and editing:
   
-1. **New**: Select to create a new policy. You must provide a site for the policy to apply to. You then configure the settings for the push notification. For **Push Notification Configuration**, you can only create policies for Sites that you create.
+1. **New**: Select to create a new policy. You must provide a site for the policy to apply to. You then configure the settings for the push notification. For **Push Notification Configuration**, you can only create policies for Sites that you're creating.
     
-2. **Edit**: Select a policy and click Edit to select an action from a drop-down. You can only edit sites that you have already created or edit the Global policy:
+2. **Edit**: Select a policy and select Edit to select an action from a drop-down. You can only edit sites that you create or edit the Global policy:
     
    - **Show details...**: Displays information about the currently selected policy. You are able to make changes to the existing policy.
     
