@@ -73,7 +73,7 @@ Set-CsTeamsFilesPolicy -Identity Global -DefaultFileUploadAppId  ""
 ### Mixed code
 The following behavior occurs with mixed-mode admin settings:
 
-|NativeFileEntryPoints |DefaultFileUploadAppID |Expected behavior
+|*NativeFileEntryPoints* |*DefaultFileUploadAppID* |Expected behavior
 |---------|---------|---|
 |ODSP Enabled     |Enabled*       |Paperclip>Upload from device (goes to ODSP)<br>Drag-Drop (**goes to the configured 3P app***)|
 |ODSP Enabled    |Not enabled      |Paperclip>Upload from device  (goes to ODSP)<br>Drag-drop (goes to ODSP)|
