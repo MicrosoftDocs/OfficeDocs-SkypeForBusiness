@@ -1,7 +1,7 @@
 ---
 title: Audio Conferencing Dial-Out/Call Me At minutes
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 ms.reviewer: mikedav, oscarr
 ms.date: 04/10/2019

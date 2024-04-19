@@ -212,6 +212,7 @@ Report any issues to your SBC vendor's support organization. When reporting the 
 ## Known issues
 
 - Because the SBA relies on authentication tokens that are valid for 24 hours and are renewed daily, the SBA can support outages for up to 24 hours from the last authentication. This means that if an outage occurs 20 hours after the last authentication token renewal, SBA will be operational only for the remaining 4 hours.
+- If the tenant is using Continuous Access Evaluation (CAE) tokens, SBA will be operational only for about 30 minutes, due to the nature of continuous access evaluation. An alternative would be to dissable CAE for the tenant.
 
 - When you add new Survivable Branch Appliances, it might take time before you can use them in Survivable Branch Appliance policies.
 

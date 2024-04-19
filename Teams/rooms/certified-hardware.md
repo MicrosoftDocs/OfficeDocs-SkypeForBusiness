@@ -131,7 +131,6 @@ The following devices are Certified under the Microsoft Teams Rooms on Windows C
 | [Yealink MVC S90](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvcs90) | Core i5 | 8 GB | 128 GB |
 | [Yealink MVC 960](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvc960) | Core i5 | 8 GB | 128 GB |
 
-
 ## [Teams Rooms for Android](#tab/Android)
 
 The following devices are certified under the Microsoft Teams Rooms on Android Certification Program:
@@ -140,6 +139,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Current certification end date | Room size | Android OS version |
 |:-|:-|:-|:-|:-|
+| Neat Bar Gen2 | `NFA1.20231116.0626 ` |  September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | DTEN DCR200 Bar | `1.0.2` |  October 4, 2026 |  Small size room (4.5 m x 4.5 m) | 12 |
 | Cisco Room Kit EQX | `RoomOS11.15` | September 3, 2025 |  Large Meeting Room (4.5m x 8.5 m)| 11 |
 | Cisco Board Pro G2 55 | `RoomOS11.15` | September 3, 2025 |  Medium size room (4.5 m x 6 m) | 11 |
@@ -165,12 +165,12 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Logitech Rally Bar Huddle  | `0.903.73` | September 3, 2025 | Focus room(3 m x 3 m) | 11 |
 | Logitech Tap IP | `1.6.565` | September 3, 2025 | Compatible with Logitech RoomMate, Rally Bar, and Rally Bar Mini | 10 |
 | Logitech Roommate | `1.4.71` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
-| Logitech Tap USB Touch Console | `1.2.982` | September 3, 2025 | Compatible with Logitech Rally Bar and Rally Bar Mini | 10 |
+| Logitech Tap USB Touch Console | `1.2.982` | September 3, 2025 | Compatible with Logitech Rally Bar, Rally Bar Mini and Roommate | 10 |
 | Logitech Rally Bar Mini | `1.2.982` | September 3, 2025 | Small Meeting Room (4.5 m x 4.5 m) | 10 |
 | Logitech Rally Bar | `1.2.788` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Neat Bar Pro | `NFD1.20220914.1210` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Neat Bar | `NFF1.20220914.1210` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
-| Neat Pad Touch Console | `NFA1.20230928.0108` | September 3, 2025 | Compatible with Neat Bar & Neat Bar Pro | 10 |
+| Neat Pad Touch Console | `NFA1.20230928.0108` | September 3, 2025 | Compatible with Neat Bar Gen 2, Neat Bar & Neat Bar Pro | 10 |
 | Neat Board | `NFC1.20220914.1210` | September 3, 2025 | Small Meeting Room (4.5 m x 4.5 m) | 10 |
 | Neat Board 50 |`NFH1.20230824.0001` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Poly Studio X30 | `4.0.0.100885` | September 3, 2025 | Small meeting room(4.5 m x 4.5 m) | 10 |
@@ -294,8 +294,8 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Yealink UVC84](https://www.yealink.com/product/camera-uvc84) | 262.410.0.10 |  |  |
 | [Yealink UVC86]( https://www.yealink.com/product/camera-uvc86) | 151.410.0.5 |  |  |
 | Yealink MSpeech | 136.410.0.19 |  |  |  | &#x2714; |
-| Shure Microflex Ecosystem:  [MXA910 Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910?variant=MXA910AL-60CM) or [MXA920 Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa920?variant=MXA920W-S) or [MXA901 Conferencing Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa901?variant=MXA901W-R) or [MXA902 Integrated Conferencing Ceiling Array](https://www.shure.com/products/microphones/mxa902?variant=MXA902W-S) or [MXA710 Linear Array Microphone](https://www.shure.com/products/microphones/mxa710?variant=MXA710AL-2FT%2520) or [MXA310 Table Array Microphone](https://www.shure.com/products/microphones/mxa310?variant=MXA310AL) + </br>Shure [IntelliMix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300?variant=P300-IMX) or [ANIUSB-MATRIX Network Interface](https://www.shure.com/products/mixers/aniusb-matrix?variant=ANIUSB-MATRIX) + </br>Shure [MXN5W-C Ceiling Speaker](https://www.shure.com/products/loudspeakers/mxn5?variant=MXN5W-C) | MXA910: FW 4.1, MXA920: FW 1.1.56, MXA901: FW 6.0.15.0, MXA902: FW 5.0.115, MXA710: FW 1.2.0, MXA310: FW 4.1, </br> P300: FW 4.1, ANIUSB-MATRIX: FW 4.7.21, </br> MXN5W-C: FW 1.0.4 |  |  |
-|Shure Microflex Ecosystem: [MXA910 Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910?variant=MXA910AL-60CM) or [MXA920 Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa920?variant=MXA920W-S) or [MXA901 Conferencing Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa901?variant=MXA901W-R) or [MXA902 Integrated Conferencing Ceiling Array](https://www.shure.com/products/microphones/mxa902?variant=MXA902W-S) or [MXA710 Linear Array Microphone](https://www.shure.com/products/microphones/mxa710?variant=MXA710AL-2FT%2520) or [MXA310 Table Array Microphone](https://www.shure.com/products/microphones/mxa310?variant=MXA310AL) + </br>[Shure IntelliMix Room Software DSP](https://www.shure.com/products/software/intellimix_room) on Crestron UC-C100-T with :::no-loc text="ASUSTeK"::: Computer INC 9934 Compute or Dell OptiPlex7080XE or on Lenovo ThinkSmart Core + </br>[Shure MXN5W-C Ceiling Speaker](https://www.shure.com/products/loudspeakers/mxn5?variant=MXN5W-C) | MXA910: FW 4.1, MXA920: FW 1.1.56, MXA901: FW 6.0.15.0, MXA902: FW 5.0.115, MXA710: FW 1.2.0, MXA310: FW 4.1, </br>MXN5W-C: FW 1.0.4 |  |  |
+| Shure Microflex Ecosystem<sup>1</sup>:  [MXA910 Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910?variant=MXA910AL-60CM) or [MXA920 Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa920?variant=MXA920W-S) or [MXA901 Conferencing Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa901?variant=MXA901W-R) or [MXA902 Integrated Conferencing Ceiling Array](https://www.shure.com/products/microphones/mxa902?variant=MXA902W-S) or [MXA710 Linear Array Microphone](https://www.shure.com/products/microphones/mxa710?variant=MXA710AL-2FT%2520) or [MXA310 Table Array Microphone](https://www.shure.com/products/microphones/mxa310?variant=MXA310AL) + </br>Shure [IntelliMix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300?variant=P300-IMX) or [ANIUSB-MATRIX Network Interface](https://www.shure.com/products/mixers/aniusb-matrix?variant=ANIUSB-MATRIX) + </br>Shure [MXN5W-C Ceiling Speaker](https://www.shure.com/products/loudspeakers/mxn5?variant=MXN5W-C) | MXA910: FW 4.1, MXA920: FW 1.1.56, MXA901: FW 6.0.15.0, MXA902: FW 5.0.115, MXA710: FW 1.2.0, MXA310: FW 4.1, </br> P300: FW 4.1, ANIUSB-MATRIX: FW 4.7.21, </br> MXN5W-C: FW 1.0.4 |  |  |
+|Shure Microflex Ecosystem<sup>1</sup>: [MXA910 Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910?variant=MXA910AL-60CM) or [MXA920 Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa920?variant=MXA920W-S) or [MXA901 Conferencing Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa901?variant=MXA901W-R) or [MXA902 Integrated Conferencing Ceiling Array](https://www.shure.com/products/microphones/mxa902?variant=MXA902W-S) or [MXA710 Linear Array Microphone](https://www.shure.com/products/microphones/mxa710?variant=MXA710AL-2FT%2520) or [MXA310 Table Array Microphone](https://www.shure.com/products/microphones/mxa310?variant=MXA310AL) + </br>[Shure IntelliMix Room Software DSP](https://www.shure.com/products/software/intellimix_room) on Crestron UC-C100-T with :::no-loc text="ASUSTeK"::: Computer INC 9934 Compute or Dell OptiPlex7080XE or on Lenovo ThinkSmart Core + </br>[Shure MXN5W-C Ceiling Speaker](https://www.shure.com/products/loudspeakers/mxn5?variant=MXN5W-C) | MXA910: FW 4.1, MXA920: FW 1.1.56, MXA901: FW 6.0.15.0, MXA902: FW 5.0.115, MXA710: FW 1.2.0, MXA310: FW 4.1, </br>MXN5W-C: FW 1.0.4 |  |  |
 | [Sennheiser TeamConnect Intelligent Speaker/TC ISP (T-Rock)](https://en-us.sennheiser.com/tcisp) | 1.0.6 |  |  |  | &#x2714; |
 | [Biamp Tesira Fore AVB VT4 Fixed audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br>[Sennheiser TeamConnect Ceiling 2 Microphone](https://sennheiser.com/tcc2)+ &Dagger;</br>[Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; | Biamp DSP: 3.12.0.15 </br> TCC2: 1.3.3 </br>EX-UBT: 3.12.0.15 |  |  |
 | [Biamp Tesira FORTÉ AVB VT4 Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+</br>[Biamp Parlé TCM-XA Ceiling Microphone](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br>[Biamp Desono C-IC6 ceiling mounted loudspeaker](https://www.biamp.com/products/tesira-speakers) | Audio FW version: 3.15 |  |  |
@@ -319,6 +319,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Yamaha YVC-1000MS](https://europe.yamaha.com/en/products/unified_communications/speakerphones/yvc-1000ms/index.html) | 1.0.0 |  |  |
 
 &Dagger; Customers may choose either the Dante interface or the network switch recommended by Biamp/Sennheiser for this bundle.
+<sup>1</sup> On a Teams Rooms device that is paired with a Shure microphone, the audio setting displayed on the device doesn't sync with the setting on the microphone in meetings that don't use Microsoft Teams.
 
 ### USB extenders
 
