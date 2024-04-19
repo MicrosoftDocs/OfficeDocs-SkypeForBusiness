@@ -83,8 +83,6 @@ To create the device configuration policy for QoS for Teams clients on Windows:
     Classic Teams Screenshare: Application|Classic Teams executable name.|./Device/Vendor/MSFT/NetworkQoSPolicy/ClassicTeamsScreenshare/AppPathNameMatchCondition|String|teams.exe
     Classic Teams Screenshare: Ports|Screen sharing ports used by the Teams client.|./Device/Vendor/MSFT/NetworkQoSPolicy/ClassicTeamsScreenshare/SourcePortMatchCondition|String|50040-50059
     Classic Teams Screenshare: DSCP Marking|Marking applied for screen sharing (AF21)|./Device/Vendor/MSFT/NetworkQoSPolicy/ClassicTeamsScreenshare/DSCPAction|Integer|18
-   
----
 
 9. Select **Next**
 10. In **Assignments** slect the group or groups that you want to target with this policy. The group membership must include Windows devices (and not user accounts) as this is a device policy.
