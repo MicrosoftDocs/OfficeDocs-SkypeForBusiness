@@ -43,12 +43,12 @@ Not all features available in new Microsoft Teams desktop clients are available 
 |Meetings and Calls|Manage call settings from "Settings and more"|Mic, speaker, or camera settings may be managed while  joining a meeting or within the Calls app, but these settings are not available on the Settings page|[Details](https://support.microsoft.com/office/manage-your-call-settings-in-microsoft-teams-456cb611-3477-496f-b31a-6ab752a7595f)|
 |Meetings and Calls|Automatically adjust mic sensitivity||[Details](https://support.microsoft.com/office/reduce-background-noise-in-microsoft-teams-meetings-1a9c6819-137d-4b3b-a1c8-4ab20b234c0d)|
 |Meetings and calls|Join on a second device||[Details](https://support.microsoft.com/office/join-a-microsoft-teams-meeting-on-a-second-device-c28e7407-183b-46ea-ab17-2212700e5f41)|
-|Meetings and Calls|Emergency call help desk integration and security desk conference mode||[Details](https://learn.microsoft.com/microsoftteams/manage-emergency-calling-policies)|
-|Meetings and Calls|Auto attendant and call-queue greetings management by delegated admins||[Details](https://learn.microsoft.com/microsoftteams/aa-cq-authorized-users)|
-|Meetings and Calls|Call queue: opt in or opt out by delegated admins, notification when call answered by another, reverse number lookup, manage call queue members||[Details](https://learn.microsoft.com/microsoftteams/answer-auto-attendant-and-call-queue-calls)|
+|Meetings and Calls|Emergency call help desk integration and security desk conference mode||[Details](manage-emergency-calling-policies.md)|
+|Meetings and Calls|Auto attendant and call-queue greetings management by delegated admins||[Details](aa-cq-authorized-users.md)|
+|Meetings and Calls|Call queue: opt in or opt out by delegated admins, notification when call answered by another, reverse number lookup, manage call queue members||[Details](answer-auto-attendant-and-call-queue-calls.md)|
 |Meetings and Calls|Merge two ongoing calls (PSTN)||[Details](https://support.microsoft.com/office/merge-calls-in-microsoft-teams-15fd64cf-1500-4143-b199-1bbda98fd695)|
-|Meetings and Calls|Survivable Branch Appliance (SBA) for Direct Routing||[Details](https://learn.microsoft.com/microsoftteams/direct-routing-survivable-branch-appliance)|
-|Meetings and Calls|End of call survey. Bandwidth indicator, User facing Diagnostics||[Details](https://learn.microsoft.com/azure/communication-services/concepts/voice-video-calling/manage-call-quality)|
+|Meetings and Calls|Survivable Branch Appliance (SBA) for Direct Routing||[Details](direct-routing-survivable-branch-appliance.md)|
+|Meetings and Calls|End of call survey. Bandwidth indicator, User facing Diagnostics||[Details](/azure/communication-services/concepts/voice-video-calling/manage-call-quality)|
 |Meetings and Calls|Give control and take back control when screen sharing?|Web users can still request, take, and return control from a user on a desktop client|[Details](https://support.microsoft.com/office/share-content-in-microsoft-teams-meetings-fcc2bf59-aecd-4481-8f99-ce55dd836ce8)|
 |Teams live events|Producing or presenting Teams live events, moderating Q&A||[Details](https://support.microsoft.com/office/produce-a-live-event-in-microsoft-teams-591bd694-121d-405c-b26d-730315e45a22)|
 |Town Hall|Presenting or organizing, joining as presenter or organizer|Includes joining town hall from Teams for Web if a presenter or organizer|[Details](https://support.microsoft.com/office/get-started-with-town-hall-in-microsoft-teams-33baf0c6-0283-4c15-9617-3013e8d4804f)|
