@@ -80,7 +80,7 @@ Starting in mid-July, Teams update policies you've applied in Teams Admin Center
   - New Teams becomes the default Client: Beginning in early May, the new Teams client will become the default client for Teams users. Customers will receive the new Teams update, unless disallowed by policy. Users may still toggle back to the classic Teams client.
 - Admin-managed rollout:
 New Teams only: Beginning in early June all remaining classic Teams users will be updated to the new Teams client and the toggle switch will be removed. After this process completes, Microsoft will attempt to remove the classic Teams client.
-Admin-managed tenants. Admins may choose to control their new Teams rollout by setting the Teams updates policy for their users as described in [Upgrade to the new Teams client using policies](new-teams-deploy-using-policies.md). Admins may control the Teams update policy until mid-July.
+Admin-managed tenants. Admins can control their new Teams rollout by setting the Teams updates policy for their users as described in [Upgrade to the new Teams client using policies](new-teams-deploy-using-policies.md). Admins may control the Teams update policy until mid-July.
   - New Teams becomes the default client. Beginning in mid-July, the new Teams client will become the default client for all active Teams users. Customers will receive the new Teams update. Users may still toggle back to the classic Teams client.
   - New Teams Only. Beginning mid-August all remaining classic Teams users will be updated to the new Teams client and the toggle switch will be removed. After this process completes, Microsoft will attempt to remove the classic Teams client after 14 days.
 
