@@ -6,7 +6,7 @@ manager: jtremper
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
-ms.date: 02/05/2020
+ms.date: 04/18/2024
 search.appverid: MET150
 description: Learn how to set up a team hierarchy in your organization to publish content to a large set of teams.
 audience: admin
@@ -15,7 +15,8 @@ appliesto:
   - Microsoft Teams
 ms.custom: chat-teams-channels-revamp
 ms.collection: 
-  - M365-collaboration
+- M365-collaboration
+- m365-frontline
 ---
 
 # Set up your team targeting hierarchy
@@ -35,9 +36,9 @@ The task publishing experience is available within the Planner app in Teams but 
 
 The following terms are important as you navigate hierarchies. Teams are referred to as **nodes**.
 
-* **Root nodes** are the topmost nodes in the hierarchy. In the example, Retail Communications is a root node.
-* **Parent nodes** and **child nodes** are terms that represent a relationship between two connected nodes. In the example, District 01 is a child node of Area 1.
-* Multiple levels of children are referred to as **descendants**. District 01, Store 01, Store 03, Store 07, District 02, and District 03 are all descendants of Area 1.
+* **Root nodes** are the topmost nodes in the hierarchy. In the example screenshot, Retail Communications is a root node.
+* **Parent nodes** and **child nodes** are terms that represent a relationship between two connected nodes. In the example screenshot, France is a child node of Europe.
+* Multiple levels of children are referred to as **descendants**. France, Store 17, Store 18, Germany, Store 19, Store 20, and UK are all descendants of Europe.
 * A node with no children is called a **leaf node**. They're at the bottom of a hierarchy.
 * **Recipient teams** are teams that have been selected to receive a specific set of content to be published. They must be leaf nodes.
 
