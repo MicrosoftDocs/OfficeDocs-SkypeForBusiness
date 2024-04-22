@@ -23,7 +23,7 @@ To help Teams become an open platform, Teams admins can change the default stora
 
 - **For Teams admins** The ability to change the default storage app for drag-drop when uploading files on the Teams desktop.
 
-- **For Teams app developers (3p)** The ability to use this capability for Teams apps using the Teams SDK.
+- **For Teams app developers (3P)** The ability to use this capability for Teams apps using the Teams SDK.
 
 This functionality only works for select supported apps where app developers used this capability for their Teams apps. This document explains policy names, syntax, and how tenants can change the default drag-drop storage destination to a 3P storage provider.
 
