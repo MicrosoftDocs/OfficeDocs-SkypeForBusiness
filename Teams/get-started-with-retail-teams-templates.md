@@ -61,7 +61,7 @@ Bring your retail employees together in one central experience to manage tasks, 
 > [!div class="mx-tdBreakAll"]
 >| Template type |TemplateId | Properties that come with this template |
 >| ------------------|-- |----------------------------------------------------- |
->| Manage a Store| `retailStore` |Channels: <ul><li>General<li>Shift Handoff</li><li>Store Readiness</li><li>Learning</li></ul> Apps: <ul><li>Approvals</li><li>Inspection</li><li>Lists<ul><li>Inventory list</li></ul></li><li>SharePoint Pages<ul><li>Our store</li></ul></li><li>Shifts</li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul>|
+>| Manage a Store| `retailStore` |Channels: <ul><li>General<li>Shift Handoff</li><li>Store Readiness</li><li>Learning</li></ul> Apps: <ul><li>Approvals</li><li>Inspection</li><li>Lists<ul><li>Inventory list</li></ul></li><li>SharePoint Pages<ul><li>Our store</li></ul></li><li>Shifts</li><li>Planner</li><li>Wiki</li></ul>|
 
 ### Retail for Managers*
 
@@ -70,7 +70,7 @@ Create a team for a set of managers to collaborate across stores or regions. For
 > [!div class="mx-tdBreakAll"]
 >| Template type| TemplateId | Properties that come with this template |
 >| ------------------|- |----------------------------------------------------- |
->| Retail for Managers| `retailManagerCollaboration` |Channels: <ul><li>General<li>Operations</li><li>Learning</li></ul> Apps: <ul><li>Approvals</li><li>Inspection</li><li>SharePoint Pages<ul><li>Our store</li></ul></li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul>|
+>| Retail for Managers| `retailManagerCollaboration` |Channels: <ul><li>General<li>Operations</li><li>Learning</li></ul> Apps: <ul><li>Approvals</li><li>Inspection</li><li>SharePoint Pages<ul><li>Our store</li></ul></li><li>Planner</li><li>Wiki</li></ul>|
 
 ## Use team templates with Microsoft Graph
 
