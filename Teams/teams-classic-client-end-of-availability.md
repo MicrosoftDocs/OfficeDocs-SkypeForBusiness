@@ -41,7 +41,7 @@ This rollout is going to differ based on your Teams Admin Center policy controls
 
 :::image type="content" source="media/new-teams-vdi-timeline.png" alt-text="A chart showing the timelines for classic Teams to new Teams for VDI.":::
 
-For more information regarding VDI, please see [Upgrade to new Teams for Virtualized Desktop Infrastructure (VDI)](new-teams-vdi-requirements-deploy.md).
+For more information regarding VDI, see [Upgrade to new Teams for Virtualized Desktop Infrastructure (VDI)](new-teams-vdi-requirements-deploy.md).
 
 - Microsoft-managed rollout: If you left the policy controls at their defaults state of Microsoft-controlled, we'll continue rolling out new Teams according to the schedule outlined above, with one update: We won't proceed with the uninstallation of the classic Teams client for 14 days.
 - Admin-managed rollout: Admins can choose to control the new Teams rollout as outlined in [Upgrade to the new Teams client using policies](new-teams-deploy-using-policies.md). These policies will no longer be honored at the start of April, apart from your VDI users, and the following changes will happen:
@@ -178,7 +178,7 @@ In the Teams admin center:
 ### Admins
 
 - **The system requirements for the new Teams client:** [Prerequisites](new-teams-deploy-using-policies.md#prerequisites).
-- **When will admins see the new Teams Only policy in their tenant:** This is available in the Teams admin center now. Please see [Upgrade to the new Teams using policies](new-teams-deploy-using-policies.md).
+- **When will admins see the new Teams Only policy in their tenant:** This is available in the Teams admin center now. See [Upgrade to the new Teams using policies](new-teams-deploy-using-policies.md).
 - **What will happen with the update policies:** The update policies will apply only to VDI clients after March 31, 2024.
 - **When will classic Teams client stop being installed with M365 apps:** The installation of the classic Teams client will stop happening at the end of the availability period.
 - **Can I stop the classic Teams client from being uninstalled and what happens if a policy is set to prevent app uninstallation:** Yes, you can stop the classic Teams client from being uninstalled. If your configuration prevents uninstall, Microsoft won't attempt the uninstall again. You'll need to uninstall classic Teams after that point.
