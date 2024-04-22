@@ -99,6 +99,6 @@ Admins should refer to the app description or the 3P app documentation for infor
 
 - [thirdPartyCloudStorage module](/javascript/api/@microsoft/teams-js/thirdpartycloudstorage)
 - [@microsoft/teams-js package](/javascript/api/@microsoft/teams-js)
-- 
+
 - @microsoft/teams-js package - Teams | Microsoft Learn.
 -	Guidance to App Developers add this capability to their app description and publish in their documentation.
