@@ -197,4 +197,4 @@ In the Teams admin center:
 
 ### VDI
 
-- **Will the earlier date apply to users on VDI devices:** No, the June 30, 2024 date applies to users on VDI devices.
+- **Will the earlier date apply to users on VDI devices:** No, the October 31, 2024 date applies to users on VDI devices.
