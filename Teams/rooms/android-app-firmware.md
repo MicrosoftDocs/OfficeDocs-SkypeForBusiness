@@ -159,6 +159,7 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 
 | Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
+| Neat Bar Gen2 | `NFE1.20240312.0005` | N/A | `1449/1.0.96.2024030101`| `5.0.6061.0` | `1.0.0.202310260109.product`| April 18, 2024|
 | Neat Bar | `NFB1.20240312.0005` | N/A | `1449/1.0.96.2024030101`| `5.0.6061.0` | `1.0.0.202310260109.product`| April 17, 2024|
 | Neat Bar Pro| `NFD1.20240312.0005` | N/A | `1449/1.0.96.2024030101`| `5.0.6061.0` | `1.0.0.202310260109.product`| April 17, 2024|
 | Neat Board | `NFC1.20240312.0005` |  N/A | `1449/1.0.96.2024030101`| `5.0.6061.0` | `1.0.0.202310260109.product`| April 17, 2024|

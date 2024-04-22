@@ -121,6 +121,10 @@ To only show the custom backgrounds that you upload, follow these steps:
 > [!NOTE]
 > You must set **Participants can use video effects** to **Off** or **Only background blur** to only show your custom backgrounds in your users' gallery.
 
+When custom backgrounds are required, users with this assigned policy can't view their own uploaded backgrounds. For your users to access and delete their personally uploaded images, they can navigate to the following file path and delete their images from there:  
+
+`C:\Users\{username}\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Backgrounds\Uploads`
+
 ## Apply a blur for users with no backgrounds
 
 You can use the Teams admin center to automatically apply a background blur to any users that aren't using any video effects or background images during meetings. Meeting and customization policies both control meeting backgrounds. However, customization policies take precedence over meeting policies; any settings you change in customization policies will also reflect in meeting policies.

@@ -100,7 +100,7 @@ For more information, see [Implement Quality of Service (QoS) in Microsoft Teams
 
 ### QoS with Microsoft Teams Rooms on Android devices
 
-For Teams Rooms on Android devices, you'll need to configure your Microsoft Teams tenant to insert QoS markings. Teams Rooms on Android devices honor this policy and apply the markings defined earlier in [Quality of Service (QoS) with Microsoft Teams Rooms](#quality-of-service-qos-with-microsoft-teams-rooms).
+For Teams Rooms on Android devices, you'll need to configure your Microsoft Teams tenant to insert QoS markings. Teams Rooms on Android devices honor this policy and apply the markings defined earlier in [Quality of Service (QoS) with Microsoft Teams Rooms](#quality-of-service-qos-with-microsoft-teams-rooms) with one exception, Application/screen sharing will use a DSCP value of 34 (AF41) aligned to video traffic.
 
 For instructions on how to configure your tenant to insert QoS markings, see [Teams settings and policies reference](../settings-policies-reference.md).
 
