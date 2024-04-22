@@ -97,6 +97,6 @@ Admins should refer to the app description or the 3P app documentation for infor
 
 -	“DragAndDropFileCallback” support in Teams SDK.
 - [thirdPartyCloudStorage module](/javascript/api/@microsoft/teams-js/thirdpartycloudstorage?)
-- [@microsoft/teams-js package](/javascript/api/@microsoft/teams-js/?view=msteams-client-js-latest)
+- [@microsoft/teams-js package](/javascript/api/@microsoft/teams-js/client-js-latest)
 -	@microsoft/teams-js package - Teams | Microsoft Learn.
 -	Guidance to App Developers add this capability to their app description and publish in their documentation.
