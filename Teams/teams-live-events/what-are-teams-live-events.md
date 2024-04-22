@@ -67,6 +67,11 @@ Teams provides the ability for the organizers to create an event with the approp
 
 ![the New live events screen.](../media/teams-live-events-schedule.png "Screen shot showing the New live event screen to create and schedule a new live event")
 
+> [!NOTE]
+> Until live events deprecation, scheduling a live event in Teams will be supported in web client, organizers will be prompted to open a web form when selecting live event for scheduling.
+> 
+![image](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/assets/147443779/81a28f57-1a13-4a85-99ed-848bbc536484)
+
 > [!IMPORTANT]
 > Teams won't let users schedule meetings or live events when they're offline or running with limited bandwidth.
 
