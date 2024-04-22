@@ -69,10 +69,9 @@ Teams provides the ability for the organizers to create an event with the approp
 
 > [!NOTE]
 > To schedule live events, organizers must use the Teams web client. When organizers are scheduling their live event, they’re prompted to open a web form.
+> :::image type="content" source="../media/tle-prompt-small.png" alt-text="Screenshot of Contoso Education's meeting theme featuring their brand logo, image, and colors." lightbox="../media/tle-prompt-expand.png":::
 > [!IMPORTANT]
 > Teams won't let users schedule meetings or live events when they're offline or running with limited bandwidth.
-
-:::image type="content" source="media/tle-prompt-small.png" alt-text="Screenshot of Contoso Education's meeting theme featuring their brand logo, image, and colors." lightbox="media/tle-prompt-expand.png":::
 
 ### Production
 
