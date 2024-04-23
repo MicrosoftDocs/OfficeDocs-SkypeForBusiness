@@ -43,10 +43,10 @@ As part of the deployment for the new Teams update, there are changes that need 
     - [Implement Quality of Service (QoS) in Microsoft Teams clients](QoS-in-Teams-clients.md)
     - [Configure QoS settings in the Teams admin center](meetings-real-time-media-traffic.md)
 - **Software blocks**: Any management software including [Antivirus](/microsoftteams/troubleshoot/teams-administration/include-exclude-teams-from-antivirus-dlp) or [AppLocker](applocker-in-teams.md) that references classic Teams should be updated to include new Teams. For third-party products, please refer to the manufacturer's documentation.
-- **Machine-wide deployment or multi-user devices**: Use [M365 apps](new-teams-deploy-with-m365apps.md) or [teamsbootstrapper](new-teams-bulk-install-client.md) to deploy new Teams machine-wide.
-- **Classic Teams minimum application version**: Version 1.6.00.27573 or higher is required to deploy the in-app update to new Teams. Otherwise, the admin should review their deployment and use M365 apps or manually install new Teams though the [teamsbootstrapper](new-teams-bulk-install-client.md).
+- **Machine-wide deployment or multi-user devices**: Use [Microsoft 365 apps](new-teams-deploy-with-m365apps.md) or [teamsbootstrapper](new-teams-bulk-install-client.md) to deploy new Teams machine-wide.
+- **Classic Teams minimum application version**: Version 1.6.00.27573 or higher is required to deploy the in-app update to new Teams. Otherwise, the admin should review their deployment and use Microsoft 365 apps or manually install new Teams though the [teamsbootstrapper](new-teams-bulk-install-client.md).
 - **Make sure all users have updated to new Teams**: As new Teams is deployed, track usage to validate that intended users and systems are updated via the [usage report for new Teams client](new-teams-usage-report.md).
-- **Review to make sure your deployments replace any classic Teams installation references**: This includes new machine images, device management configuration, scripts, old builds of M365 apps, documentation, nd so on.
+- **Review to make sure your deployments replace any classic Teams installation references**: This includes new machine images, device management configuration, scripts, old builds of Microsoft 365 apps, documentation, nd so on.
 
 ## Learn more
 
