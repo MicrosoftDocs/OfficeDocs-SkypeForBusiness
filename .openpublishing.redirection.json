@@ -4811,7 +4811,7 @@
   "redirect_document_id": false
 },
 {
-  "source_path": "teams/tutorial-audio-conferencing.yml",
+  "source_path": "Teams/tutorial-audio-conferencing.yml",
   "redirect_url": "/microsoftteams/audio-conferencing-in-office-365",
   "redirect_document_id": true
 },
