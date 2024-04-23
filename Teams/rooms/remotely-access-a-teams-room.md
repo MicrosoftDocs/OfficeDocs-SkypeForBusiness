@@ -37,7 +37,7 @@ Teams Rooms Pro Management has its own role-based access control which helps you
 
 See [Role Base access control in Teams Rooms Pro management portal](/rooms-pro-rbac).
 
-- **Requires tenant level opt-in to enable the feature** By default, remote access isn't enabled for your tenant. It must be enabled to assign role-based permissions. You will also need to provide acknowledgement that you are providing permission to enable this feature which will create an audit log record. Make sure that Microsoft Teams Rooms Pro Management Remote access follows {Microsoft privacy](https://privacy.microsoft.com/) policies.
+- **Requires tenant level opt-in to enable the feature** By default, remote access isn't enabled for your tenant. It must be enabled to assign role-based permissions. You will also need to provide acknowledgement that you are providing permission to enable this feature which will create an audit log record. Make sure that Microsoft Teams Rooms Pro Management Remote access follows [Microsoft privacy](https://privacy.microsoft.com/) policies.
 
 > [!Note]
 > Before you enable and configure remote access, consider your privacy and compliance requirements.
@@ -69,6 +69,34 @@ Before setting up remote access, verify the following prerequisites are met:
   - https://mmrprodemeapubsub.webpubsub.azure.com
   - https://mmrprodapacpubsub.webpubsub.azure.com
 
+## Limitations 
+Teams Rooms Pro management remote access has these limitations:
+
+- Not available in GCC, GCC-High or DoD tenants.
+- Not available in Teams Rooms multi-tenant management portal.
+- You can't establish a Teams Rooms Pro management session from one tenant to a different tenant.
+- Is only available in selected markets and localizationsed versions.
+
+## Supported platforms, browsers and devices
+
+- Windows 11 on Teams Rooms for Windows
+- Edge browser
+
+## Data and privacy
+
+Microsoft logs a small amount of session data to monitor the health of the remote access sessions. This data includes the following information: 
+
+- Start and end time of the session. This information is stored on Microsoft servers for 180 days.
+- Who accessed what device. This information is stored on Microsoft servers for 180 days.
+- Errors arising from remote access sessions themselves, such as unexpected disconnections. This information is stored on Microsoft servers for 180 days.
+- Teams Rooms Pro management remote access logs session details about the user accessing the Teams Rooms device. Microsoft can't access a session or view any actions or keystrokes that occur in the session.
+- A Teams Rooms Pro management remote access session cannot be established while the device is in a call.
+- When a Teams Rooms Pro management user accesses the device, a red-ring visual cue will be displayed on the device for anyone seeing the device in the room.
+- When a Teams Rooms Pro management user remotely accesses the device, audio will not be enabled.
+
+> [!Note]
+> There are't any additional Windows services required as an external dependency for remote access.
+
 ## Enable Remote Access
 
 By default, remote access is disabled. To enable remote access:
@@ -95,6 +123,46 @@ To remotely administer a Teams Rooms console:
 
 1. In the **Teams Rooms Pro management portal**, choose **Rooms**.
 2. Select the room device you want to remotely administer and then, in the **Rooms tab**, choose the **Remote Access tab**.
-3. Select **Start Session** to establish a secure connection to remotely access the device.
+3. Select **Start Session** to establish a secure connection to remotely access the console.
+    > [!Note]
+    > The console is in a monitored state within the Teams Rooms Pro Management portal and the console isn't in an active call.
+    - You will have several commands available to control the session:
+    - |**Command**|**Description**|
+      |:-----|:-----|
+      |Restart a device| N/A|
+      |Shortcut commands| N/A|
+      |Restart a session| **Enable (default)** it will automatically restart the device at the end of the session. **Disable** won't automatically restart the device at the end of the current session. The next session will reset the value to **Enable**.|
+      |Help|Links to this documentation.|
+      |Displays|MTR console, Front of Room Display 1, or Front of Room Display 2 (if available).|
+      |Enter full screen|Expand the modal window to enter full screen|
+      |End session|Terminates the session.|
+
+Users with view only access won't have the ability to interact with the Teams Rooms device but can use the commands listed above.
+
+For those who have modify access, you can interact with the console.
+
+## Security best practices for remote access
+
+|**Security best practice**|**More information**|
+|:-----|:-----|
+|Don't enter passwords for privileged accounts when remotely administering the device.|When accounts and passwords are required be careful with those account names and passwords.|
+|If you log off the Skype user during a remote access session and log on as a different user, ensure that you log off before you disconnect the remote access session. |If you don't log off in this scenario, the session remains open and visible in the room.|
+|Limit the Permitted Viewers list. |Local administrator rights aren't required for a user to be able to use remote control.|
+
+## Privacy information for Teams Rooms Pro Management remote access
+
+Microsoft Teams Rooms Pro Management Remote access follows [Microsoft privacy](https://privacy.microsoft.com/) policies. Specifically:
+
+- There is no active listening on the console.
+- No processing of passwords.
+- Just in Time (JIT) session enabled.
+
+Before you configure remote access, consider your privacy, security and compliance requirements.
 
 For more details on security, privacy, and audit reporting, see [Security and Privacy for Remote Access in Teams Rooms Pro Management](/microsoftteams/rooms/security-privacy).
+
+## Audit reporting
+Teams Rooms Pro managers can run an audit log to identify remote access sessions and users who have remote access permissions.  Log history is available under **Settings/General**.
+
+### Terms of use
+Microsoft reserves the right to update and modify this feature at any time without notice to you. The current licensing model allows unlimited number of sessions, however this could change in the future.  See [Microsoft Terms of Use](https://www.microsoft.com/legal/terms-of-use).
