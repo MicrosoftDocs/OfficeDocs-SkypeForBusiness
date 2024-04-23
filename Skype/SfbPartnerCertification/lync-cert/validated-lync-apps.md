@@ -19,11 +19,12 @@ f1.keywords:
 ms.custom:
 - Lync Certification
 - dn788946
-description: "Applications that have been validated as using Lync 2013 APIs."
+description: "Applications that are validated as using Lync 2013 APIs."
 ---
 
 # Validated Lync Applications
-The following applications have been validated as using Lync 2013 APIs. The independent software vendors have validated their solutions and sent results to Microsoft. They haven't necessarily been tested by third parties.
+
+The following applications are validated as using Lync 2013 APIs. The independent software vendors validate their solutions and sent results to Microsoft. They haven't necessarily been tested by third parties.
 
 
 ## Active Communications - ACS for Lync
@@ -38,7 +39,7 @@ Streamline organization-wide group email communications making them more meaning
 
 * * *
 
-Share live video and data between primary care physicians, specialists, and medical teams anywhere, at any time.
+Share live videos and data between primary care physicians, specialists, and medical teams anywhere, at any time.
 
 ## BluePosition Lync Search
 * * *
@@ -143,7 +144,7 @@ Integrate Lync quickly and easily into any existing Windows application along wi
 
 ## Ronco Verannounce
 * * *
-Page audible messages to Lync Clients and zoned overhead paging systems anywhere in the enterprise. Audible messages may be delivered on demand or on schedule.
+Page audible messages to Lync Clients and zoned overhead paging systems anywhere in the enterprise. Audible messages might be delivered on demand or on schedule.
 
 ## Saab SAFE
 * * *
@@ -163,7 +164,7 @@ Automate facilities management with Lync, including license plate recognition, r
 
 ## [Umojo Speech IVR](http://www.umojo.com/)
 * * *
-Provide a scalable web services platform for communications, integrated with virtually any modality. Support hybrid cloud and on-premise architectures.
+Provide a scalable web services platform for communications, integrated with virtually any modality. Support hybrid cloud and on-premises architectures.
 
 ## [Uncommon Solutions VisitorLink](http://www.visitorlink.com/)
 * * *

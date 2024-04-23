@@ -1,7 +1,7 @@
 ---
 title: "Complimentary dial-out period"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 ms.reviewer: mikedav, OscarR
 ms.date: 11/28/2017
