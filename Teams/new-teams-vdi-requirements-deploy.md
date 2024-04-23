@@ -137,8 +137,19 @@ To learn more on the latest requirements and instructions, including how to conf
 
 To deploy the new Microsoft Teams client to your organization, select one of the following options.
 
->[!Important]
+>[!IMPORTANT]
 >You must use the latest version of the bootstrapper.exe. If you have downloaded the .exe previously, verify you have the latest version by viewing **Properties > Details > Product version** on your version and compare it to the properties on the latest download.
+
+> [!NOTE]
+> Make sure you have these KBs in your system, as they address many [policy settings restricting download and installation](new-teams-troubleshooting-installation.md#policy-settings-restricting-download--install) of new Teams.
+>
+> 1. If using Windows 10 or 11, make sure you're installing [KB5031455](https://support.microsoft.com/topic/october-31-2023-kb5031455-os-builds-22621-2506-and-22631-2506-preview-6513c5ec-c5a2-4aaf-97f5-44c13d29e0d4), otherwise when GPO **AllowAllTrustedApps** is set to false and the issue mentioned in the “Features currently not available and known issues in VDI with the new Teams” section of this article can occur (New Teams fails to launch for users logging into non-persistent virtual desktops, or the app is **not** visible in the Start Menu.).
+> 2. If GPO **BlockNonAdminUserInstall** is set to true, users might face the issue mentioned in the “Features currently not available and known issues  in VDI with the new Teams” section can occur (New Teams fails to launch for users logging into non-persistent virtual desktops, or the app is NOT visible in the Start Menu).
+> Make sure you have the respective KB for your OS:
+>
+> - KB5035942 (Windows 11 version 22H2 and 23H2, all editions)
+> - KB5035941 (Windows 10 any version, all editions)
+> - [KB5036909](https://support.microsoft.com/topic/april-9-2024-kb5036909-os-build-20348-2402-36062ce9-f426-40c6-9fb9-ee5ab428da8c) (Windows Server 2022)
 
 ### Option 1: Uninstall the classic Teams client and install the new one
 
@@ -399,99 +410,35 @@ msiexec.exe /i "C:\Program Files\WindowsApps\MSTeams_23320.3021.2567.4799_x64__8
 ```
 
 ```powershell
-If
- (-not ([
-Security.Principal.WindowsPrincipal
-][
-Security.Principal.WindowsIdentity
-]::GetCurrent()).IsInRole([
-Security.Principal.WindowsBuiltInRole
-] 
-'Administrator'
-) ){
-
-  
-Write-Error
- 
-"Need to run as administrator. Exiting.."
-
-  
-exit
- 1
-
+If (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] 'Administrator') ){
+    Write-Error "Need to run as administrator. Exiting.."
+    exit 1
 }
 
 # Get Version of currently installed new Teams Package
-
-if
- (-not ($NewTeamsPackageVersion = (
-Get-AppxPackage
- -Name MSTeams).Version)) {
-
-Write-Host
-
-"New Teams Package not found. Please install new Teams from https://aka.ms/GetTeams
- ."
-
-exit
- 1
-
+if (-not ($NewTeamsPackageVersion = (Get-AppxPackage -Name MSTeams).Version)) {
+    Write-Host "New Teams Package not found. Please install new Teams from https://aka.ms/GetTeams ."
+    exit 1
 }
-
-Write-Host
-
-"Found new Teams Version: $NewTeamsPackageVersion"
+Write-Host "Found new Teams Version: $NewTeamsPackageVersion"
 
 # Get Teams Meeting Addin Version
-
-$TMAPath = 
-"{0}\WINDOWSAPPS\MSTEAMS_{1}_X64__8WEKYB3D8BBWE\MICROSOFTTEAMSMEETINGADDININSTALLER.MSI"
- -f $env:programfiles,$NewTeamsPackageVersion
-
-if
- (-not ($TMAVersion = (
-Get-AppLockerFileInformation
- -Path $TMAPath |
-Select-Object
- -ExpandProperty Publisher).BinaryVersion))
-
+$TMAPath = "{0}\WINDOWSAPPS\MSTEAMS_{1}_X64__8WEKYB3D8BBWE\MICROSOFTTEAMSMEETINGADDININSTALLER.MSI" -f $env:programfiles,$NewTeamsPackageVersion
+if (-not ($TMAVersion = (Get-AppLockerFileInformation -Path $TMAPath | Select-Object -ExpandProperty Publisher).BinaryVersion))
 {
-
-Write-Host
-
-"Teams Meeting Addin not found in $TMAPath."
-
-exit
- 1
-
+    Write-Host "Teams Meeting Addin not found in $TMAPath."
+    exit 1
 }
-
-Write-Host
-
-"Found Teams Meeting Addin Version: $TMAVersion"
+Write-Host "Found Teams Meeting Addin Version: $TMAVersion"
 
 # Install parameters
-
-$TargetDir = 
-"{0}\Microsoft\TeamsMeetingAddin\{1}\"
- -f ${env:ProgramFiles(x86)},$TMAVersion
-
-$params = 
-'/i "{0}" TARGETDIR="{1}" /qn ALLUSERS=1'
- -f $TMAPath, $TargetDir
+$TargetDir = "{0}\Microsoft\TeamsMeetingAddin\{1}\" -f ${env:ProgramFiles(x86)},$TMAVersion
+$params = '/i "{0}" TARGETDIR="{1}" /qn ALLUSERS=1' -f $TMAPath, $TargetDir
 
 # Start the install process
-
-write-host
-
-"executing msiexec.exe $params"
-
-Start-Process
- msiexec.exe -ArgumentList $params
-
-write-host
-
-"Please confirm install result in Windows Eventlog"
+write-host "executing msiexec.exe $params"
+Start-Process msiexec.exe -ArgumentList $params
+write-host "Please confirm install result in Windows Eventlog"
 ```
 
 After installation, restart Outlook and verify TMA is loading. Logs are located on %localappdata%\Temp\Microsoft\Teams\meeting-addin.
@@ -570,13 +517,17 @@ A guest is someone from outside an organization that a team owner invites to joi
 
 Learn more: [Manage accounts and organizations in Microsoft Teams](https://support.microsoft.com/office/manage-accounts-and-organizations-in-microsoft-teams-7b221128-6643-465c-a317-679e48cd2ce9)
 
-## Features currently not available in VDI with the new Teams
+## Features currently not available and known issues in VDI with the new Teams
 
 - Screen sharing from chat for Azure Virtual Desktops/Windows 365 (This issue is now fixed on RD Client 1.2.5105 and Redirector Service
 [1.50.2402.29001](/azure/virtual-desktop/whats-new-webrtc#updates-for-version-150240229001)).
 - Screen sharing from chat for Citrix when using Workspace app 2311 only.
 - The app switcher toggle isn't shown in new Teams if the virtual machine has the machine-wide classic Teams installed (MSI with ALLUSERS=1). **Note:** This issue is fixed on new Teams version 23320.3021.2567.4799 or higher.
 - msteams_autostart.exe "The parameter is incorrect": In non-persistent environments that use FSLogix (any version) or Citrix Profile Manager profile containers, when new Teams attempts to autostart or a user tries to launch Teams from the Start menu, it throws the error: "The parameter is incorrect." The frequency and reproducibility of the error varies depending on the environment and especially the antivirus software being used (SentinelOne, Palo Alto, Trend Micro, Bitdefender, CrowdStrike, and so on.) and exclusions in place.
+- New Teams fails to launch for users logging into non-persistent virtual desktops, or the app is **not** visible in the Start Menu.
+  - Admins don't experience this issue - after installing new Teams on the golden image they can launch it successfully.
+  - After sealing the golden image and deploying it at scale (with provisioning tools like Citrix MCS/PVS or VMware Instant-Clones), users log into the virtual machines and click on the new Teams icon, but aren't able to launch the app. The issue is caused by a failed registration of the MSIX package at the user level with different profile management software (FSLogix, Citrix CPM, Ivanti UEM, and so on), even though the staging of the package was successful (the OS stored the package’s contents on the disk in the %ProgramFiles%\WindowsApps directory). This issue can be confirmed by running Get-AppxPackage -name MsTeams for the affected users. Running this code will return an empty output.
+  - If Get-AppxPackage -name MsTeams -allusers is now run from an elevated powershell command window, the output shows that Teams is registered (see line PackageFullName) and the Status is **OK**.
 
 >[!Note]
 >Microsoft is working on a solution and plan to remove these limitations soon.
