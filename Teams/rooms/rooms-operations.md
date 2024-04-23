@@ -56,7 +56,7 @@ If the displays aren't visible to the Windows PC when in their sleep state, Team
 - [StarTech EDID Emulator](https://www.startech.com/en-us/audio-video-products/vsedidhd)
 - [Crestron HD-CTL-101](https://www.crestron.com/Products/Control-Hardware-Software/Hardware/Control-Modules/HD-CTL-101)
 
-### Display Resolution & Scaling
+### Display resolution and scaling
 
 Teams Rooms on Windows support many resolutions, you may find you need to specify the resolution and scale settings to meet your desired configuration. Resolution can be set remotely, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md) or manually with these steps:
 
