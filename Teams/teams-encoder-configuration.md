@@ -95,8 +95,11 @@ After you scheduled the live event using Teams or Viva Engage, and select the **
 ### Configuration tips
 
 - Whenever possible, use a hardwired internet connection.
-- When determining bandwidth requirements,  it's advisable to double the streaming bitrates. While doubling the streaming bitrates isn't a mandatory requirement, it helps mitigate network congestion.
+- When determining bandwidth requirements, it's advisable to double the streaming bitrates. While doubling the streaming bitrates isn't a mandatory requirement, it helps mitigate network congestion.
+
 - When using software-based encoders, close any unnecessary programs.
 - Don't change your encoder configuration after it starts pushing. It has negative effects on the event and can cause the event to be unstable. If you want to change encoder configurations before the event starts, you must disconnect using the producer controls in Teams and start setup again.
 - If the encoder is disconnected during the live event, reconnect it keeping the same timestamps of continuing process. Any discontinuity might cause audio or video issues on certain browsers and devices.
 - Give yourself ample time to set up your event. For high scale events, it's recommended to start the setup an hour before your event.
+- In the case whereby customers are utilizing vMix for live streaming, ensure FFmpeg version 6 is used.
+
