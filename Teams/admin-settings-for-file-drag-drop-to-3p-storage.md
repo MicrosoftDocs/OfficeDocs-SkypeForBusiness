@@ -76,7 +76,7 @@ The following behavior occurs with mixed-mode admin settings:
 |*NativeFileEntryPoints* |*DefaultFileUploadAppID* |Expected behavior
 |---------|---------|---|
 |Enabled     |Enabled*       |Paperclip>Upload from device (goes to OneDrive/SharePoint)<br>Drag-Drop (**goes to the configured 3P app***)|
-|Enabled    |Not enabled      |Paperclip>Upload from device  (goes to OneDrive/SharePoint)<br>Drag-drop (goes to ODSP)|
+|Enabled    |Not enabled      |Paperclip>Upload from device  (goes to OneDrive/SharePoint)<br>Drag-drop (goes to OneDrive/SharePoint)|
 |Not enabled    |Enabled*      |Paperclip (Attach) - Hidden<br>Drag-Drop (**goes to the configured 3P app***)|
 |Not enabled    |Not Enabled      |Paperclip (Attach) - Hidden<br>Drag-Drop (**no op**)|
 
