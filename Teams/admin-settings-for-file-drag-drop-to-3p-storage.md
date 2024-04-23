@@ -34,7 +34,7 @@ Admins can use a PowerShell command to set a default Teams app to handle drag-dr
 Set-CsTeamsFilesPolicy -Identity Global -DefaultFileUploadAppId  "<appId>"
 ```
 
-Admins can use a PowerShell command to revert back for ODSP to handle drag-drop files.
+Admins can use a PowerShell command to revert back for OneDrive and SharePoint to handle drag-drop files.
 
 ```powershell
 Set-CsTeamsFilesPolicy -Identity Global -DefaultFileUploadAppId  ""
