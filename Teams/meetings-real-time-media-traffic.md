@@ -42,18 +42,6 @@ This article is for administrators and IT professionals who are configuring Qual
 
 Note: If you enable QoS or change settings in the Microsoft Teams admin center for the Teams service, you'll also need to [apply matching settings to all user devices](QoS-in-Teams-clients.md) and all internal network devices to fully implement the changes to QoS in Teams.
 
-
-> [!IMPORTANT]
-> Apple-based systems: The only instance that we know of where Apple-based devices actually set the DSCP value is if all the following conditions are met:
->
-> - iOS
-> - WiFi network
-> - Cisco switches
-> - The network administrator has added the app to the approved list.
->
-> Android-based systems: There are no known limitations.
-
-
 ## Manage QoS markers in the Microsoft Teams admin center
 
 1. Go to the [Teams admin center](https://admin.teams.microsoft.com).
@@ -66,9 +54,6 @@ Note: If you enable QoS or change settings in the Microsoft Teams admin center f
 
         > [!IMPORTANT]
         > Enabling QoS is performed only on the endpoints for tagging packets leaving the client. We recommend applying matching QoS rules on all internal network devices for incoming traffic.
-
-        > [!NOTE]
-        > DSCP tagging is typically done via source ports. UDP traffic will route to Transport Relay with destination port of 3478 by default. If your company requires tagging on destination ports, contact support to enable communication to the Transport Relay with UDP ports 3479 (Audio), 3480 (Video), and 3481 (Sharing).
 
     - If you've enabled Quality of Service, you must manage your port settings. 
     
