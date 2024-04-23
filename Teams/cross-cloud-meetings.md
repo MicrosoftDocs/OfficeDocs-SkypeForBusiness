@@ -1,7 +1,7 @@
 ---
 title: Meet with people in other Microsoft 365 cloud environments
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
@@ -41,6 +41,16 @@ If the connection doesn't exist, you can add it in Teams meeting settings. This 
 
 > [!IMPORTANT]
 > The organization that you're meeting with must also configure these settings for their organization.
+
+## Prerequisites
+For the best meeting experiences across Microsoft clouds, make sure your network is ready for Microsoft Teams.  [Prepare your organization's network for Microsoft Teams](/microsoftteams/prepare-network#network-requirements) contains guidance on how to optimize your network for Teams.  Also ensure that the necessary DNS, IPs and Ports are enabled for each of the M365 clouds where your users are collaborating.  The following table links to the endpoint definitions for each of the M365 cloud environments:
+
+|Microsoft 365 Cloud Environment|Endpoints|
+|:--------------------------------|:------------------------------|
+|Commercial, GCC|[Worldwide endpoints](/microsoft-365/enterprise/urls-and-ip-address-ranges)|
+|GCC High|[U.S. Government GCC High endpoints](/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints)|
+|DoD|[U.S. Government DoD endpoints](/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints)|
+|China (21Vianet)|[Microsoft 365 operated by 21Vianet](/microsoft-365/enterprise/urls-and-ip-address-ranges-21vianet)|
 
 ## Allow cross-tenant connections with other Microsoft 365 cloud environments
 
