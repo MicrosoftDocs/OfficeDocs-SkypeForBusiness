@@ -4811,6 +4811,11 @@
   "redirect_document_id": false
 },
 {
+  "source_path": "teams/tutorial-audio-conferencing.yml",
+  "redirect_url": "teams/audio-conferencing-in-office-365.md",
+  "redirect_document_id": false
+},
+{
   "source_path": "teams/privacy/teams-privacy.md",
   "redirect_url": "/microsoftteams/privacy/location-of-data-in-teams",
   "redirect_document_id": false
