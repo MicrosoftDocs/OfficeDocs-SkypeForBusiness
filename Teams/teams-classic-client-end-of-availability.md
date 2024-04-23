@@ -39,6 +39,9 @@ This rollout is going to differ based on your Teams Admin Center policy controls
 
 **VDI timeline**:
 
+> [!IMPORTANT]
+> An updated VDI timeline will be published soon.
+
 :::image type="content" source="media/new-teams-vdi-timeline.png" alt-text="A chart showing the timelines for classic Teams to new Teams for VDI.":::
 
 For more information regarding VDI, see [Upgrade to new Teams for Virtualized Desktop Infrastructure (VDI)](new-teams-vdi-requirements-deploy.md).
