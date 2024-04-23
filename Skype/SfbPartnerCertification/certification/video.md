@@ -30,14 +30,14 @@ Microsoft tests and qualifies video teleconference systems (VTCs), and gateways 
 Always check if your Skype for Business version was tested to interoperate with the video systems.
 
 ## Video endpoints
-The tables that follow describe the features available for the 3rd party VTC as certified for Skype for Business. Here, we compare the capabilities of the VTC in Skype for Business interop mode to the capabilities of Skype Room Systems (Native Meeting Room Devices).
+The tables that follow describe the features available for the third party VTC as certified for Skype for Business. Here, we compare the capabilities of the VTC in Skype for Business interop mode to the capabilities of Skype Room Systems (Native Meeting Room Devices).
 
 #### General information
 
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Polycom RealPresence Group Series for Skype for Business|Skype Room Systems (Native Meeting Room Devices)|
 |:---------|:---------|:--------|
 |**Product type**| VTC |Room System|
-|**Description**  |3rd party endpoint running non-Skype for Business media stack, interoperating with Skype for Business |Purpose-build Windows UWP app, a native Skype for Business client for conference rooms (native Teams client coming soon)|
+|**Description**  |Third party endpoint running non-Skype for Business media stack, interoperating with Skype for Business |Purpose-build Windows UWP app, a native Skype for Business client for conference rooms (native Teams client coming soon)|
 |**Qualification date** |Jan 2019|December 2016 (first release)|
 |**Version Tested** |6.2.0|3.0.16.0 (current)|
 |**Skype version supported**|Skype for Business Server 2015 <br>Skype for Business Online|Skype for Business Server 2015 <br>Skype for Business Online|
@@ -49,8 +49,8 @@ The tables that follow describe the features available for the 3rd party VTC as 
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Polycom RealPresence Group Series for Skype for Business|Skype Room Systems (Native Meeting Room Devices)|
 |:--- |:--- |:---: |
 |Skype for Business UI|Partial \*| &#x2714; |
-|Configuration Settings|3rd party| &#x2714; |
-|Single touch meeting join|&#x2714;|&#x2714; |
+|Configuration Settings|Third party| &#x2714; |
+|Single touch meeting joins|&#x2714;|&#x2714; |
 |Viewing shared files or content uploaded in Skype meeting|         | &#x2714;|
 |Sharing content in Skype for Business meeting|         | &#x2714;|
 |Viewing shared Desktop in Skype for Business meeting|&#x2714;| &#x2714; |
@@ -59,7 +59,7 @@ The tables that follow describe the features available for the 3rd party VTC as 
 |Sharing from device in P2P call   |  \*\*       | &#x2714; |
 | | | |
 
-\* Skype for Business user experience with Group Series is limited to use of the Polycom RealPresence Touch Controller when Skype for Business mode is enabled. This experience is not present in the front of room view. Additionally, certain capabilities such as admitting attendees, locking spotlight, and promoting as presenter or demoting participants to attendee are not available on VTC.
+\* Skype for Business user experience with Group Series is limited to use of the Polycom RealPresence Touch Controller when Skype for Business mode is enabled. This experience isn't present in the front of room view. Additionally, certain capabilities such as admitting attendees, locking spotlight, and promoting as presenter or demoting participants to attendee aren't available on VTC.
 
 \*\*  Desktop sharing using RDP from a device sends content as video over the people channel. Polycom support for VBSS is currently planned for certification.
 
@@ -68,11 +68,11 @@ The tables that follow describe the features available for the 3rd party VTC as 
 
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Polycom RealPresence Group Series for Skype for Business|Skype Room Systems (Native Meeting Room Devices)|
 |:--- |:---: |:---: |
-|**OOB Experience** |3rd party |&#x2714; |
+|**OOB Experience** |Third party |&#x2714; |
 |**Skype for Business in-band provisioning**| |&#x2714; |
 |**Monitoring with OMS**| |&#x2714; |
 |**In-band update**| &#x2714;| &#x2714;|
-|**Management platform**|3rd party |Windows PC based (Group Policies, Configuration Manager, and others) |
+|**Management platform**|Third party |Windows PC based (Group Policies, Configuration Manager, and others) |
 | | | |
 
 #### Interop with Skype for Business
@@ -122,7 +122,7 @@ Desktop sharing using RDP from a device sends content as video over the people c
 |**Product Type** |Service |Server |
 |**Description** |Gateway |Gateway |
 |**Searchable from Lync Client** |No <sup>2</sup> |No |
-|**Join Skype Online Supported mMeeting types** |Online |Onprem |
+|**Join Skype Online Supported mMeeting types** |Online |On-premises |
 |**Point-to-Point Calls** |No <sup>2</sup> |Yes |
 |**VBSS based content sharing** | Yes |No <sup>3</sup> |
 |**RDP based content sharing** |Yes |Yes |
@@ -139,8 +139,8 @@ Desktop sharing using RDP from a device sends content as video over the people c
 |     | | |
 
   1. Cloud service based video interop solutions are updated frequently and don't have set version numbers. Instead of testing a specific version, cloud services have implemented real time telemetry and have live-site support process coordination with Microsoft.
-  2. Features supported for Online differ from those supported for On-premise. Video interop is focused on meeting join, and does not require VTCs to be authenticated or in any way registered to the service, as long as the meeting organizer is licensed for the service. For this reason, point-to-point calling and presence status for VTCs is not supported for online video interop.
+  2. Features supported for Online differ from those supported for On-premise. Video interop is focused on meeting join, and doesn't require VTCs to be authenticated or in any way registered to the service, as long as the meeting organizer is licensed for the service. For this reason, point-to-point calling and presence status for VTCs isn't supported for online video interop.
   3. Pexip support for VBSS is currently in tech preview state.
 
-If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
+If you're a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 

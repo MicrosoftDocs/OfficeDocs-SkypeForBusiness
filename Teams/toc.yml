@@ -85,6 +85,8 @@ items:
                   href: new-teams-desktop-admin.md
                 - name: Features that are changing in new Teams
                   href: new-teams-whats-changing.md
+                - name: Deployment checklist for new Teams
+                  href: new-teams-deployment-checklist.md
                 - name: Upgrade to the new Teams using policies               
                   href: new-teams-deploy-using-policies.md
                 - name: Bulk upgrade to the new Teams client
@@ -451,10 +453,12 @@ items:
               href: learn-more-about-site-upload.md
         - name: Quality of Service (QoS)
           items: 
-            - name: Set up QoS in Teams
+            - name: Implement QoS in Teams
               href: QoS-in-Teams.md
             - name: Set QoS on Windows clients
               href: QoS-in-Teams-clients.md
+            - name: Configure QoS in the Teams admin center
+              href: meetings-real-time-media-traffic.md
         - name: Real-time telemetry
           items: 
             - name: Use real-time telemetry to troubleshoot poor meeting quality
@@ -748,7 +752,7 @@ items:
               href: use-NDI-in-meetings.md
             - name: Cloud Video Interop
               href: cloud-video-interop.md
-            - name: Real-time media traffic
+            - name: Configure Quality of Service (QoS)
               href: meetings-real-time-media-traffic.md
             - name: Stream Teams meetings
               href: stream-teams-meetings.md
