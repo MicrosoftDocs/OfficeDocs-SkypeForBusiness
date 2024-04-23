@@ -42,6 +42,9 @@ Teams Premium is an add-on license that provides the following enhancements to T
 > [!IMPORTANT]
 > Now that Teams Premium has reached general availability, some features formerly available with Teams will only be available with a Teams Premium license.
 >
+> [!TIP]
+> As a companion to this article, we recommend using the [Teams Premium Advanced Deployment Guide](https://go.microsoft.com/fwlink/?linkid=2264339) when signed in to the Microsoft 365 admin center. This guide will customize your experience based on your environment. To review best practices without signing in and activating automated setup features, go to the [Microsoft 365 setup portal](https://go.microsoft.com/fwlink/?linkid=2263487).
+> 
 > For admins to be able to manage Teams Premium features, their tenant needs at least one user with an active [Teams Premium license](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams).
 
 The following sections describe the Teams Premium enhancements for:
