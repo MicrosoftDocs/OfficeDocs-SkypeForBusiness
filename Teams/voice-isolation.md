@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
 ms.reviewer: elaineho
-ms.date: 4/5/2024
+ms.date: 4/16/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -53,6 +53,10 @@ You must use both the **`-VoiceIsolation`** and **`-EnrollUserOverride`** parame
 |---------|---------------|
 |Enabled| Users with this policy can set the voice profile capture and enrollment through the **Recognition** tab in their Teams client settings.  |
 |Disabled| **This is the default value.** Users with this policy can't use or access the voice profile capture or enrollment.|
+
+> [!NOTE]
+> Enrollment is currently disabled in the following regions:
+> Austria, Belgium, China, France, Germany, Italy, Korea, Netherlands, Russia, Spain, and Sweden.
 
 Before you can run these cmdlets, you must be connected to Microsoft Teams PowerShell. For more information, see [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams).
 

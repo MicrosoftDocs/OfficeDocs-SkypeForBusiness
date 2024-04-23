@@ -118,10 +118,10 @@ In addition, you must deploy the following registry key on the VDA for the new T
 - Key (REG_Multi_SZ): ProcessWhitelist
 - Value: msedgewebview2.exe
 
-If this registry key is missing, the new Teams client operates in nonoptimized mode (server-side rendering).
+If this registry key is missing, the new Teams client operates in nonoptimized mode (server-side rendering). This regkey is not needed anymore if you are using VDA 2402 ([check here](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams) for more details).
 
 >[!Note]
->Citrix Virtual Apps (also known as published apps) is currently not supported.
+>Citrix Virtual Apps (also known as published apps) is currently supported with VDA 2402 LTSR.
 
 For additional information, learn more at [Optimization for Microsoft Teams](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
@@ -352,6 +352,7 @@ For Security articles related to TMA integration with the Outlook client, learn 
 All new Teams files that are installed on the computer are signed, so IT admins can use  [AppLocker](/microsoftteams/applocker-in-teams) / Code Integrity  / Windows Defender Application Guard policies configured to enforce that.
 
 - For New Teams per-user installations of TMA, the install folder is in AppData\Local\Microsoft\TeamsMeetingAddin
+- Starting from new Teams version 24060.2623.2790.8046, the TMA per-user install folder is changed to  AppData\Local\Microsoft\TeamsMeetingAdd-in (an additional '-')
 - Installation logs for TMA MSI are stored here: *AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Logs \tma_addin_msi.txt*
 
 >[!Note]
@@ -365,7 +366,7 @@ This error is caused by GPOs affecting Windows Installer. This includes [**Disab
 
 ```powershell
 
-msiexec.exe /i "C:\Program Files\WindowsApps\MSTeams_X.X.X.X_x64__8wekyb3d8bbwe\MicrosoftTeamsMeetingAddinInstaller.msi" ALLUSERS=1 /qn /norestart TARGETDIR="C:\Program Files (x86)\Microsoft\TeamsMeetingAddin\<version>\"
+msiexec.exe /i "C:\Program Files\WindowsApps\MSTeams_X.X.X.X_x64__8wekyb3d8bbwe\MicrosoftTeamsMeetingAddinInstaller.msi" ALLUSERS=1 /qn /norestart TARGETDIR="C:\Program Files (x86)\Microsoft\TeamsMeetingAdd-in\<version>\"
 
 ```
 
@@ -390,11 +391,43 @@ BinaryVersion
 
 ```
 
-**Example:**  The following is an example of the final command:
+**Example:** The following is are examples of the final command:
+
+```command prompt
+
+msiexec.exe /i "C:\Program Files\WindowsApps\MSTeams_23320.3021.2567.4799_x64__8wekyb3d8bbwe\MicrosoftTeamsMeetingAddinInstaller.msi" ALLUSERS=1 /qn /norestart TARGETDIR="C:\Program Files (x86)\Microsoft\TeamsMeetingAdd-in\1.24.2203.0\"
+```
 
 ```powershell
+If (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] 'Administrator') ){
+    Write-Error "Need to run as administrator. Exiting.."
+    exit 1
+}
 
-msiexec.exe /i "C:\Program Files\WindowsApps\MSTeams_23320.3021.2567.4799_x64__8wekyb3d8bbwe\MicrosoftTeamsMeetingAddinInstaller.msi" ALLUSERS=1 /qn /norestart TARGETDIR="C:\Program Files (x86)\Microsoft\TeamsMeetingAddin\1.24.2203.0\"
+# Get Version of currently installed new Teams Package
+if (-not ($NewTeamsPackageVersion = (Get-AppxPackage -Name MSTeams).Version)) {
+    Write-Host "New Teams Package not found. Please install new Teams from https://aka.ms/GetTeams ."
+    exit 1
+}
+Write-Host "Found new Teams Version: $NewTeamsPackageVersion"
+
+# Get Teams Meeting Addin Version
+$TMAPath = "{0}\WINDOWSAPPS\MSTEAMS_{1}_X64__8WEKYB3D8BBWE\MICROSOFTTEAMSMEETINGADDININSTALLER.MSI" -f $env:programfiles,$NewTeamsPackageVersion
+if (-not ($TMAVersion = (Get-AppLockerFileInformation -Path $TMAPath | Select-Object -ExpandProperty Publisher).BinaryVersion))
+{
+    Write-Host "Teams Meeting Addin not found in $TMAPath."
+    exit 1
+}
+Write-Host "Found Teams Meeting Addin Version: $TMAVersion"
+
+# Install parameters
+$TargetDir = "{0}\Microsoft\TeamsMeetingAddin\{1}\" -f ${env:ProgramFiles(x86)},$TMAVersion
+$params = '/i "{0}" TARGETDIR="{1}" /qn ALLUSERS=1' -f $TMAPath, $TargetDir
+
+# Start the install process
+write-host "executing msiexec.exe $params"
+Start-Process msiexec.exe -ArgumentList $params
+write-host "Please confirm install result in Windows Eventlog"
 ```
 
 After installation, restart Outlook and verify TMA is loading. Logs are located on %localappdata%\Temp\Microsoft\Teams\meeting-addin.
@@ -408,7 +441,7 @@ These keys should be then deployed via additional sign in scripts or similar met
 :::image type="content" source="media/new-teams-vdi-meeting-addin.png" alt-text="new Teams meeting add in":::
 
 > [!NOTE]
-> These HKCU regkeys are not needed anymore if you're installing new Teams 24060.2623.2790.8046 or higher, as it bundles TeamsMeetingAddIn.msi version 1.24.05401, which has a fix for successful regkeys creation under HKCU.
+> These HKCU regkeys are not needed anymore if you're installing new Teams 24060.2623.2790.8046 or higher, as it bundles TeamsMeetingAddIn.msi version 1.0.24054.1, which has a fix for successful regkeys creation under HKCU.
 
 ### Troubleshooting new Teams and Outlook integration
 

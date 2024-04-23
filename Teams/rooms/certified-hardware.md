@@ -139,6 +139,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Current certification end date | Room size | Android OS version |
 |:-|:-|:-|:-|:-|
+| Neat Bar Gen2 | `NFA1.20231116.0626 ` |  September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | DTEN DCR200 Bar | `1.0.2` |  October 4, 2026 |  Small size room (4.5 m x 4.5 m) | 12 |
 | Cisco Room Kit EQX | `RoomOS11.15` | September 3, 2025 |  Large Meeting Room (4.5m x 8.5 m)| 11 |
 | Cisco Board Pro G2 55 | `RoomOS11.15` | September 3, 2025 |  Medium size room (4.5 m x 6 m) | 11 |
@@ -169,7 +170,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Logitech Rally Bar | `1.2.788` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Neat Bar Pro | `NFD1.20220914.1210` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Neat Bar | `NFF1.20220914.1210` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
-| Neat Pad Touch Console | `NFA1.20230928.0108` | September 3, 2025 | Compatible with Neat Bar & Neat Bar Pro | 10 |
+| Neat Pad Touch Console | `NFA1.20230928.0108` | September 3, 2025 | Compatible with Neat Bar Gen 2, Neat Bar & Neat Bar Pro | 10 |
 | Neat Board | `NFC1.20220914.1210` | September 3, 2025 | Small Meeting Room (4.5 m x 4.5 m) | 10 |
 | Neat Board 50 |`NFH1.20230824.0001` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Poly Studio X30 | `4.0.0.100885` | September 3, 2025 | Small meeting room(4.5 m x 4.5 m) | 10 |
