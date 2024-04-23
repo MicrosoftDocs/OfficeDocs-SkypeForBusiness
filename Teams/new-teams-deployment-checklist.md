@@ -25,7 +25,7 @@ ms.localizationpriority: high
 
 As part of the deployment for the new Teams update, there are changes that need to be made to the executables, locations and installer package of the client. Organizations may have different settings in their environment, such as antivirus, network settings, QoS, and so on. Enterprises that have deployed classic Teams should review their configurations to account for the new Teams and make sure devices are on the latest OS update.
 
-- Location: New Teams uses different files [ms-teams.exe & ms-teamsupdate.exe] and is in: "Program Files\WindowsApps\MSTeams_[appversion]\".
+- Name and location: New Teams uses different files [ms-teams.exe & ms-teamsupdate.exe] and is located in: "Program Files\WindowsApps\MSTeams_[appversion]\".
 - MSIX Installer technology stays current with the newest OS patches. Customers who may have had installation problems before could resolve them with the latest OS updates.
 
 > [!NOTE]
