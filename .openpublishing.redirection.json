@@ -4812,7 +4812,7 @@
 },
 {
   "source_path": "teams/tutorial-audio-conferencing.yml",
-  "redirect_url": "teams/audio-conferencing-in-office-365.md",
+  "redirect_url": "teams/audio-conferencing-in-office-365",
   "redirect_document_id": false
 },
 {
