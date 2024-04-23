@@ -76,8 +76,7 @@ Details on the customer invitation are outlined in [Multitenant management for C
    > [!Note]
    > There is no permanent association with the user that accepts the invitation.
 
-   > [!Note]
-   > If the invitation is accidentally denied the invitation, the customer must then create a new invitation.
+   >
 
 **To review the configuration or add more primary admins for a tenant**
 

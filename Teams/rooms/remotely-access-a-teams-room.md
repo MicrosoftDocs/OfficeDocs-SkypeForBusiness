@@ -1,5 +1,5 @@
 ---
-title: Remote access to manage Teams rooms
+title: Remotely access a Teams Room on Windows console
 ms.author: tonysmit
 author: tonysmit
 manager: pamgreen
@@ -30,6 +30,31 @@ description: Set up remote access in Microsoft Teams Rooms Pro Management for tr
 This article provides guidance on setting up remote access in Microsoft Teams Rooms Pro Management portal that lets support staff securely troubleshoot hardware and software configuration issues on unattended Teams Rooms consoles.
 
 Remote access is available for all certified Windows based Teams Rooms sonoles running Windows 11.
+
+## Teams Rooms Pro Management Remote Access capabilities and requirements
+
+Teams Rooms Pro Management has its own role-based access control which helps you manage user access to room resource data in your organization. By assigning roles to your portal users, you can limit what they can see and change. Each role has a set of permissions that determines what users with that role can access and change within your organization.
+
+See [Role Base access control in Teams Rooms Pro management portal](rooms-pro-rbac).
+
+- **Requires tenant level opt-in to enable the feature** By default, remote access isn't enabled for your tenant. It must be enabled to assign role-based permissions. You will also need to provide acknowledgement that you are providing permission to enable this feature which will create an audit log record. Make sure that Microsoft Teams Rooms Pro Management Remote access follows {Microsoft privacy](https://privacy.microsoft.com/) policies.
+
+> [!Note]
+> Before you enable and configure remote access, consider your privacy and compliance requirements.
+
+- **Requires Teams Rooms Pro management custom role permissions** By default, Teams Pro management roles are n't enabled for remote access. If you choose to turn on remote access, you will need to apply the remote access permission to a custom role and assign users and rooms to have access to use this feature.  
+
+To create, edit, or assign custom roles, your account must have one of the following permissions:
+    - Global Administrator through Azure Active Directory (Azure AD)
+    - Teams Rooms Pro Manager through the Microsoft Teams Rooms Pro Management portal
+
+- Role-based access control (RBAC): Admins can set RBAC rules that determine the scope of a Teams Rooms Pro management users’ remote access, such as:
+    - **VIEW** The users who can remotely access the device but is limited to only viewing the device console and displays
+    - **MODIFY** The users will have full range of actions they can do while accessing Teams rooms devices. For example, who can interact with remote keyboard control.
+
+- **Requires Teams Rooms Pro management portal login** To use remote access, the Teams Room Pro management custom role user must sign into the Teams Rooms Pro management portal from your organization. You can't use remote access to access Teams Rooms devices outside of the Teams Rooms Pro management portal.  
+
+- **View details about past sessions** In the Teams Rooms Pro management portal, you can view audit logs that include details about who connected to the room device, on what device, and for how long.  
 
 ## Prerequisites
 
