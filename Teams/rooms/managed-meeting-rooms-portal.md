@@ -37,7 +37,7 @@ The scope of the monitoring is:
   - Basic history and details for every device.
 
 > [!Important]
-> Review [**Assign users to the Pro Manager Administrator role**](enrolling-mtrp-managed-service.md#assign-users-to-the-managed-service-administrator-role) and make sure that access to the portal is restricted based on your organizational needs.
+> Review [**Assign users to the Pro Manager Administrator role**](enrolling-mtrp-managed-service#assign-users-to-the-managed-service-administrator-role) and make sure that access to the portal is restricted based on your organizational needs.
 
 ## Terminology
 
