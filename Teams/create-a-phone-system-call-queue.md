@@ -325,8 +325,6 @@ Each exception allows you to **disconnect** the call or **redirect** it to any o
 For example, when **Overflow** occurs, you might send calls to a backup Call queue, but when **Timeout** or **No Agents** occurs, you might want the callers to leave a shared voicemail.
 
 > [!NOTE]
-> The **Voicemail (personal)** routing option sends calls to the user and not directly to their voicemail as indicated. This is being investigated by Support. As an alternative, setup a distribution list with the person being the only member and use the **Voicemail (shared)** option.
->
 > For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md?tabs=additional-resources) for number formatting.
 >
 > Don't include any special characters in the greeting message when redirecting to **Voicemail (shared)**.
