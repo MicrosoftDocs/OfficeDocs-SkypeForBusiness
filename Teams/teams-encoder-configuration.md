@@ -101,5 +101,5 @@ After you scheduled the live event using Teams or Viva Engage, and select the **
 - Don't change your encoder configuration after it starts pushing. It has negative effects on the event and can cause the event to be unstable. If you want to change encoder configurations before the event starts, you must disconnect using the producer controls in Teams and start setup again.
 - If the encoder is disconnected during the live event, reconnect it keeping the same timestamps of continuing process. Any discontinuity might cause audio or video issues on certain browsers and devices.
 - Give yourself ample time to set up your event. For high scale events, it's recommended to start the setup an hour before your event.
-- In the case whereby customers are utilizing vMix for live streaming, ensure FFmpeg version 6 is used.
+- For customers using the vMix encoder for RTMP-In, make sure to select the FFMPEG6 option from the Application drop-down menu in the vMix encoder settings.
 
