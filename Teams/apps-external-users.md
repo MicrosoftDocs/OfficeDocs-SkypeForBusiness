@@ -1,5 +1,5 @@
 ---
-title: Availability and use of Teams apps by different types of users
+title: Availability and use of Teams apps by different types of users from outside an organization
 author: ashishguptaiitb
 ms.author: guptaashish
 ms.reviewer: mhayrapetyan
@@ -11,7 +11,7 @@ ms.subservice: teams-apps
 search.appverid: MET150
 description: Learn how apps in Microsoft Teams work for guests, external access users, and anonymous users.
 ms.localizationpriority: high
-ms.date: 04/19/2024
+ms.date: 04/25/2024
 f1.keywords:
 - NOCSH
 ms.collection: 
@@ -42,7 +42,10 @@ For a more detailed comparison between guest and external access users, see [com
 
 ### Add, update, and delete apps for guests
 
-Guests can't add, update, or delete apps into a shared context, such as a chat, channel, or meeting. Guests can't access the Teams app store from the Teams client.
+* Guest users can add apps using deep-links shared with them by others.
+* Guest users can also use apps added by others in personal chats, group chats, and teams and channels.
+* Guests can't add, update, or delete apps into a shared context, such as a chat, channel, or meeting.
+* Guest users can't find and add apps from Teams app store, from the app flyout in the app bar, and from the in-context stores in Teams.
 
 ### Usage behavior and policy for guests
 
