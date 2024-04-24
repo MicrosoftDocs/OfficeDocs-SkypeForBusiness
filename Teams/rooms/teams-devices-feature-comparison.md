@@ -62,7 +62,7 @@ To help guide you as to what features are available on different platforms, you 
 | | Live reactions | Available | Available |
 | | PowerPoint Live | Available | Available |
 | | Live closed captions | Available | Available |
-| | Participate in breakout rooms| Available | Not available |
+| | Participate in breakout rooms | Available | Not available |
 | | Teams Premium meeting protection policies (watermark, E2E encryption for meetings, and sensitivity labels) | Available | Available |
 | | Start meeting recording and transcription | Not available | Not available |
 | | Teams Town Hall (Presenter role) | Not available | Not available |
@@ -74,21 +74,21 @@ To help guide you as to what features are available on different platforms, you 
 | | Microsoft Whiteboard outside a meeting (with touch display) | Not available | Available |
 | | Intelligent content capture (content camera) | Available | Available |
 | | Meeting Lock | Available | Available |
-| | Automatically disconnect if room is the only participant 5 minutes after meeting time ends | Available | Available|
+| | Automatically disconnect if room is the only participant 5 minutes after meeting time ends | Available | Available |
 | | Cloud IntelliFrame | Available | Not available |
 | | Multi-stream IntelliFrame | Available | Not available |
 | | Spatial Audio | Available | Not available |
 | | People Recognition  | Available | Not available |
-| | Intelligent Speaker| Available | Not available |
-| | Room Capacity Notifications | Available | Available|
+| | Intelligent Speaker | Available | Not available |
+| | Room Capacity Notifications | Available | Available |
 | | User accessible device language change | Available | Not available |
 | | Rate my call report | Available | Not available |
 | | Net promoter score (NPS) at meeting end| Available | Not available |
-| | Meeting controls on touch enabled front of room displays | Not available | Available|
+| | Meeting controls on touch enabled front of room displays | Not available | Available |
 | | Smart Camera Controls | Available | Available|
 | | Local pan tilt zoom (PTZ) controls | Not available | Not available |
 | | Remote Pan tilt zoom (PTZ) control for cameras with mechanical PTZ controls | Available | Available |
-| | Switch between multiple in-room cameras| Available | Available|
+| | Switch between multiple in-room cameras | Available | Available|
 | | Coordinated meetings | Available | Not available |
 | | Third party custom room control | Available | Not available |
 | | Companion mode | Available | Available |
@@ -98,7 +98,7 @@ To help guide you as to what features are available on different platforms, you 
 | **Front of Room Configurations** | Single Screen | Available | Available |
 | | Dual Screen | Available | Available |
 | | Touch board form factor (no console) | Available | Available |
-| | Front of Room (16:9) (1920x1080 or 3840x2160) | Available | Available | |
+| | Front of Room (16:9) (1920x1080 or 3840x2160) | Available | Available |
 | | Front of Room (21:9) (2560x1080 or 5120x2160) (Single Display Only) | Available | Not available |
 | **Security** | Secure mounting, security lock slot (Kensington lock), I/O ports access | Available | Available|
 | | Operating System | Windows 10 / Windows 11 | Android 9+ |
