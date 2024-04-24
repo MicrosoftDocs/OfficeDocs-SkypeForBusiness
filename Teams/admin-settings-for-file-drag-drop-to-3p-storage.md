@@ -25,7 +25,7 @@ To help Teams become an open platform, Teams admins can change the default stora
 
 - **For Teams app developers (3P)** The ability to use this capability for Teams apps using the Teams SDK.
 
-This functionality works only for Teams apps which have been built with the intent to support this configurability. This article explains policy names, syntax, and how tenants can change the default drag-drop storage destination to a 3P storage provider.
+This functionality works only for Teams apps, which have been built with the intent to support this configurability. This article explains policy names, syntax, and how tenants can change the default drag-drop storage destination to a 3P storage provider.
 
 ## Check the status of your tenant
 To view the current status of your tenant's Teams Files policy, use the *Get-CsTeamsFilesPolicy* Cmdlet:
@@ -48,7 +48,7 @@ Set-CsTeamsFilesPolicy -Identity Global -DefaultFileUploadAppId  ""
  To remove the Teams Files policy for your users, use the *Remove-CsTeamsFilesPolicy* Cmdlet:
 - *Remove-CsTeamsFilesPolicy -Identity Global*
 
-For more information on user-level policy changes, see [Turn off Teams Native File Upload policy](/microsoftteams/turn-off-teams-native-file-upload-policy)
+For more information on user-level policy changes, see [Turn off Teams Native File Upload policy](/microsoftteams/turn-off-teams-native-file-upload-policy).
 
 ### User side-error conditions
 A user side error could occur due to the following reasons:
@@ -77,7 +77,7 @@ Teams Mobile support for the *DefaultFileUploadAppId* policy isn't applicable. A
 ## Documentation for admins
 Admins should refer to the app description or 3P app documentation for information about App ID for this policy.
 
-- Currently, Box is the only supported app. Box should be contacted for its App ID.
+- Currently, Box is the only supported app. Contact Box for its App ID.
 - For new app support, contact your desired 3P storage provider for the compatible app.
 
 ## Documentation for developers (3P storage apps)
@@ -85,7 +85,7 @@ Admins should refer to the app description or 3P app documentation for informati
 - Use latest version of the Teams SDK.
 - The app manifest should have the first action as **Upload**.
 - 3P app to call thirdPartyCloudStorage API to get the drag-dropped files with the following parameters:
-  1. Concatenate two values to get the unique id/cache id:<br>**const uniqueIdForChats = replyToId + id** (i.e., thread id)<br>Note, if **replyToId** is **""** then the uniqueID will be **""+threadId**
+  1. Concatenate two values to get the unique id/cache id:<br>**const uniqueIdForChats = replyToId + id** (that is, thread id)<br>Note, if **replyToId** is **""** then the uniqueID will be **""+threadId**
   2. Callback: (files: FilesFor3PStorage[], error?: SdkError): void;**
 
 - For more API information, see [thirdPartyCloudStorage module](/javascript/api/@microsoft/teams-js/thirdpartycloudstorage).
