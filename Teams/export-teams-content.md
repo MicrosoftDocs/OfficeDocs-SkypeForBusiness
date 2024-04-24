@@ -89,6 +89,9 @@ Here are some examples on how you can use these export APIs:
 > [!NOTE]
 > The API returns response with next page link in case of multiple results. For getting next set of results, simply call GET on the url from @odata.nextlink. If @odata.nextlink is not present or null then all messages are retrieved.
 
+> [!NOTE]
+> The order of messages in the response is not guaranteed to be sorted by any datetime, such as createdDateTime nor lastModifiedDateTime.
+
 ## Prerequisites to access Teams Export APIs
 
 - Microsoft Teams APIs in Microsoft Graph that access sensitive data are considered protected APIs. You can call these APIs as long as the requirements for [accessing without a user](/graph/auth-v2-service) are met.
