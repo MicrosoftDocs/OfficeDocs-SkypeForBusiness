@@ -57,7 +57,7 @@ A user side error could occur due to the following reasons:
 - The configured app doesn't support drag-drop
 
 ### To remove the policy for the complete list of users
-*Remove-CsTeamsFilesPolicy*
+- *Remove-CsTeamsFilesPolicy*
 
 > [!NOTE]
 > To make this policy work, *NativeFileEntryPoints* should be disabled. For more information on making related changes, see [Turn off Teams Native File Upload policy](/microsoftteams/turn-off-teams-native-file-upload-policy).
