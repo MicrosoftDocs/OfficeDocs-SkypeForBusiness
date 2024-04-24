@@ -335,37 +335,37 @@ To help guide you as to what features are available on different platforms, you 
 | | Touch board form factor (no console) | Available | Available |
 | | Front of Room (16:9) (1920x1080 or 3840x2160) | Available | Available |
 | | Front of Room (21:9) (2560x1080 or 5120x2160) (Single Display Only) | Available | Not available |
-| **Security** | Secure mounting, security lock slot (Kensington lock), I/O ports access | Available | Available|
+| **Security** | Secure mounting, security lock slot (Kensington lock), I/O ports access | Available | Available |
 | | Operating System | Windows 10 / Windows 11 | Android 9+ |
-| | Kiosk mode | Available | Available|
+| | Kiosk mode | Available | Available |
 | | Microsoft Defender for Endpoint | Available | Not available |
-| **Management and administration** | Teams Admin Center | Available | Available|
+| **Management and administration** | Teams Admin Center | Available | Available |
 | | Pro Management Portal | Not available | Not available |
-| | Role-based access control | Available | Available|
+| | Role-based access control | Available | Available |
 | | Securely delegate management access to a partner | Available | Not available |
-| | Device inventory views | Available | Available|
-| | Overall device health monitoring | Available | Available|
+| | Device inventory views | Available | Available |
+| | Overall device health monitoring | Available | Available |
 | | Connected peripheral health monitoring | Available | Not available |
-| | Remote configuration (restart, settings, & log collection) | Available | Available|
+| | Remote configuration (restart, settings, & log collection) | Available | Available |
 | | Automatic Teams app updates | Available | Not available |
-| | Real-time and call quality analytics | Available | Available|
-| | Built-in backgrounds | Available | Available|
+| | Real-time and call quality analytics | Available | Available |
+| | Built-in backgrounds | Available | Available |
 | | Custom background | Available | Not available |
-| | Unauthenticated proxy support| Available | Available|
+| | Unauthenticated proxy support| Available | Available |
 | | Authenticated proxy support | Not available | Not available |
 
 ## Teams panels
 
 | &ensp; | Features | Availability| 
-|------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+|--------|----------|-------------|
 | **Meetings** | View meetings for next 24 hours | Available   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
 | | Hide meeting names | Available |
 | | Ad-hoc room reservation | Available |
-| | QR code reservation| Available |
+| | QR code reservation | Available |
 | | Extend existing room reservation | Available |
 | | Check in to meetings | Available |
 | | Check out of meetings | Available |
-| | Automatic room release if a user doesn't check in| Available |
+| | Automatic room release if a user doesn't check in | Available |
 | | Automatic check-in upon joining a Teams meeting | Available |
 | | Automatic check-in with paired occupancy sensor | Available |
 | | Check-in notifications | Available |
@@ -381,6 +381,6 @@ To help guide you as to what features are available on different platforms, you 
 | | Overall device health monitoring | Available | 
 | | Remote configuration (restart, settings, & log collection) | Available | 
 | | Automatic Teams app updates | Not available | 
-| | Unauthenticated proxy support| Available | 
+| | Unauthenticated proxy support | Available | 
 | | Authenticated proxy support | Not available | 
 
