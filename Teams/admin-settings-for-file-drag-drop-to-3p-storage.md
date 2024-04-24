@@ -81,4 +81,4 @@ Admins should refer to the app description or 3P app documentation for informati
   2. Callback: (files: FilesFor3PStorage[], error?: SdkError): void;**
 
 - For more API information, see [thirdPartyCloudStorage module](/javascript/api/@microsoft/teams-js/thirdpartycloudstorage).
-- For more information about the Teams SDK, see [@microsoft/teams-js package](/javascript/api/@microsoft/teams-js).
+- For more Teams SDK information, see [@microsoft/teams-js package](/javascript/api/@microsoft/teams-js).
