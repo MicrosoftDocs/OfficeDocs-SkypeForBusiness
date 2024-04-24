@@ -23,7 +23,7 @@ f1keywords:
 
 # Multitenant customer management for partners
 
-Multitenant management (MTM) in the Teams Rooms Pro Management helps partner organizations manage multiple customers in one place with their own domain credentials. Partner users will see only those customer rooms that they are assigned to manage. It's possible to apply custom roles for each customer in the MTM portal which will give partner organizations granular control of permissions to the customer’s resources.
+Multitenant management (MTM) in the Teams Rooms Pro Management helps partner organizations manage multiple customers in one place with their own domain credentials. Partner users will see only those customer rooms that they are assigned to manage. It's possible to apply custom roles for each customer in the MTM portal which will give partner organizations granular control of permissions to the customer’s resources. This feature is available in Commercial cloud and not yet available in GCC, GCC-H, or DoD clouds.
 
 The MTM portal can be accessed through this [link](https://partner.rooms.microsoft.com/).
 
