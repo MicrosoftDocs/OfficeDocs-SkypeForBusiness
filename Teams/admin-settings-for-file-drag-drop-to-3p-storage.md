@@ -68,6 +68,7 @@ Teams Mobile support for the *DefaultFileUploadAppId* policy isn't applicable. A
 Admins should refer to the app description or 3P app documentation for information about App ID for this policy.
 
 - Currently, Box is the only supported app. Contact Box for its App ID.
+
 - For new app support, contact your desired 3P storage provider for the compatible app.
 
 ## Documentation for developers (3P storage apps)
@@ -79,5 +80,4 @@ Admins should refer to the app description or 3P app documentation for informati
   2. Callback: (files: FilesFor3PStorage[], error?: SdkError): void;**
 
 - For more API information, see [thirdPartyCloudStorage module](/javascript/api/@microsoft/teams-js/thirdpartycloudstorage).
-
 - For more information about the Teams SDK, see [@microsoft/teams-js package](/javascript/api/@microsoft/teams-js).
