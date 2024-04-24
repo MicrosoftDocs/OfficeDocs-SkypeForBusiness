@@ -38,7 +38,7 @@ Admins can use the following PowerShell command to set a 3P cloud storage to han
 Set-CsTeamsFilesPolicy -Identity Global -DefaultFileUploadAppId  "<appId>"
 ```
 
-Admins can use following PowerShell command to revert this setting.
+Admins can use the following PowerShell command to revert this setting.
 
 ```powershell
 Set-CsTeamsFilesPolicy -Identity Global -DefaultFileUploadAppId  ""
