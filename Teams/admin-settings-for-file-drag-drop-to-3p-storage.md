@@ -83,9 +83,9 @@ Admins should refer to the app description or 3P app documentation for informati
 ## Documentation for developers (3P storage apps)
 
 - Use latest version of the Teams SDK.
-- The app manifest should have the first action as **Upload**.
+- The app manifest should have the first action as Upload.
 - The 3P app calls thirdPartyCloudStorage API to get the drag-dropped files with the following parameters:
-  1. Concatenate two values to get the unique id/cache id:<br>**const uniqueIdForChats = replyToId + id** (that is, thread id)<br>Note, if **replyToId** is **""** then the uniqueID is **""+threadId**
+  1. Concatenate two values to get the unique ID/cache ID:<br>**const uniqueIdForChats = replyToId + id** (that is, thread ID)<br>Note, if **replyToId** is **""** then the uniqueID is **""+threadId**
   2. Callback: (files: FilesFor3PStorage[], error?: SdkError): void;**
 
 - For more API information, see [thirdPartyCloudStorage module](/javascript/api/@microsoft/teams-js/thirdpartycloudstorage).
