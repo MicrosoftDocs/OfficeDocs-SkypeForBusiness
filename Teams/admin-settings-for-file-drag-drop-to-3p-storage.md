@@ -52,8 +52,8 @@ For more information on user-level policy changes, see [Turn off Teams Native Fi
 
 ### User side-error conditions
 A user side error could occur due to the following reasons:
-- App is configured but not installed
-- Configured app does not support drag-drop
+- The app is configured but not installed
+- The configured app does not support drag-drop
 
 ### To remove the policy for the complete list of users
 *Remove-CsTeamsFilesPolicy*
