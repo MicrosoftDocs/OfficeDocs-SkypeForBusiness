@@ -25,7 +25,7 @@ To help Teams become an open platform, Teams admins can change the default stora
 
 - **For Teams app developers (3P)** The ability to use this capability for Teams apps using the Teams SDK.
 
-This functionality works only for Teams apps, which have been built with the intent to support this configurability. This article explains policy names, syntax, and how tenants can change the default drag-drop storage destination to a 3P storage provider.
+This functionality works only for Teams apps built to support this configurability. This article explains policy names, syntax, and how tenants can change the default drag-drop storage destination to a 3P storage provider.
 
 ## Check the status of your tenant
 To view the current status of your tenant's Teams Files policy, use the *Get-CsTeamsFilesPolicy* Cmdlet:
