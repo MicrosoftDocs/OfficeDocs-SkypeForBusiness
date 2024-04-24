@@ -28,8 +28,7 @@ To help Teams become an open platform, Teams admins can change the default stora
 This functionality works only for Teams apps which have been built with the intent to support this configurability. This article explains policy names, syntax, and how tenants can change the default drag-drop storage destination to a 3P storage provider.
 
 ## Check the status of your tenant
-To view the current status of your tenant's Teams files policy, use the *Get-CsTeamsFilesPolicy* cmdlet:
-
+To view the current status of your tenant's Teams Files policy, use the *Get-CsTeamsFilesPolicy* Cmdlet:
 - *Get-CsTeamsFilesPolicy -Identity Global*
 
 ## Configure the 3P app
@@ -46,37 +45,15 @@ Set-CsTeamsFilesPolicy -Identity Global -DefaultFileUploadAppId  ""
 ```
 
 ## Remove the policy for your users
- To remove the Teams Files policy for your users, use the Remove-CsTeamsFilesPolicy cmdlet:
-
+ To remove the Teams Files policy for your users, use the *Remove-CsTeamsFilesPolicy* Cmdlet:
 - *Remove-CsTeamsFilesPolicy -Identity Global*
 
 For more information on user-level policy changes, see [Turn off Teams Native File Upload policy](/microsoftteams/turn-off-teams-native-file-upload-policy)
 
-
-
 ### User side-error conditions
-- App not installed: “Default app set by your org admin isn't installed.”
-
-- App does not support drag-drop: “Default app setup by your org admin doesn’t support file upload.” (May not be in our control. Use “Generic error”?)
-
-### To check the status of a tenant
-*Get-CsTeamsFilesPolicy*
-
-### To enable or disable native file upload point
-*NativeFileEntryPoints : Disabled*
-
-### To remove the policy for the complete list of users
-*Remove-CsTeamsFilesPolicy*
-
-## User-level policy
-*New-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Disabled*
-- *Identity - UserPolicy*
-
-### To grant a policy to user
-*Grant-CsTeamsFilesPolicy  -identity "Mayur Kale" -PolicyName UserPolicy*
-
-### To update the policy user
-*Set-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Enabled*
+A user side error could occur due to the following reasons:
+- App is configured but not installed
+- Configured app does not support drag-drop
 
 ### To remove the policy for the complete list of users
 *Remove-CsTeamsFilesPolicy*
@@ -92,24 +69,25 @@ The following behavior occurs with mixed-mode admin settings:
 |Not enabled    |Not Enabled      |Paperclip (Attach) - Hidden<br>Drag-Drop (**no op**)|
 
 > [!NOTE]
-> The policy will apply to both T1 and T2.1.
+> To make this policy work, *NativeFileEntryPoints* should be disabled. For more information on making related changes, see [Turn off Teams Native File Upload policy](/microsoftteams/turn-off-teams-native-file-upload-policy).
 
 ### Out of scope
 Teams Mobile support for the *DefaultFileUploadAppId* policy isn't applicable. Also note that image or media copy and paste is today treated as part of the Teams message payload and not as a cloud file. This policy doesn't impact the image or media copy and paste.
 
 ## Documentation for admins
-Admins should refer to the app description or the 3P app documentation for information about supporting this policy.
+Admins should refer to the app description or 3P app documentation for information about App ID for this policy.
 
-- Have a list of supported apps and add to our official documentation.
-- Call out that it's an indicative list only with a pointer on how we can add more apps to the list (for Box or Egnyte).
-- Reach out directly to App Developer if you're sure about this functionality.
+- Currently, Box is the only supported app. Box should be contacted for its App ID.
+- For new app support, contact your desired 3P storage provider for the compatible app.
 
-## Documentation for developers (like Box)
+## Documentation for developers (3P storage apps)
 
--	“DragAndDropFileCallback” support in Teams SDK.
+- Use latest version of the Teams SDK.
+- The app manifest should have the first action as **Upload**.
+- 3P app to call thirdPartyCloudStorage API to get the drag-dropped files with the following parameters:
+  1. Concatenate two values to get the unique id/cache id:<br>**const uniqueIdForChats = replyToId + id** (i.e., thread id)<br>Note, if **replyToId** is **""** then the uniqueID will be **""+threadId**
+  2. Callback: (files: FilesFor3PStorage[], error?: SdkError): void;**
 
-- [thirdPartyCloudStorage module](/javascript/api/@microsoft/teams-js/thirdpartycloudstorage)
-- [@microsoft/teams-js package](/javascript/api/@microsoft/teams-js)
+- For more API information, see [thirdPartyCloudStorage module](/javascript/api/@microsoft/teams-js/thirdpartycloudstorage).
 
-- @microsoft/teams-js package - Teams | Microsoft Learn.
--	Guidance to App Developers add this capability to their app description and publish in their documentation.
+- For more information about the Teams SDK, see [@microsoft/teams-js package](/javascript/api/@microsoft/teams-js).
