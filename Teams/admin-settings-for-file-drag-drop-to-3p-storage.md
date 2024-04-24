@@ -25,25 +25,36 @@ To help Teams become an open platform, Teams admins can change the default stora
 
 - **For Teams app developers (3P)** The ability to use this capability for Teams apps using the Teams SDK.
 
-This functionality only works for select supported apps where app developers used this capability for their Teams apps. This document explains policy names, syntax, and how tenants can change the default drag-drop storage destination to a 3P storage provider.
+This functionality works only for Teams apps which have been built with the intent to support this configurability. This article explains policy names, syntax, and how tenants can change the default drag-drop storage destination to a 3P storage provider.
 
-## Tenant-level policy
-Admins can use a PowerShell command to set a default Teams app to handle drag-drop files.
+## Check the status of your tenant
+To view the current status of your tenant's Teams files policy, use the *Get-CsTeamsFilesPolicy* cmdlet:
+
+- *Get-CsTeamsFilesPolicy -Identity Global*
+
+## Configure the 3P app
+Admins can use the following PowerShell command to set a 3P cloud storage to handle drag-drop files.
 
 ```powershell
 Set-CsTeamsFilesPolicy -Identity Global -DefaultFileUploadAppId  "<appId>"
 ```
 
-Admins can use a PowerShell command to revert back for OneDrive and SharePoint to handle drag-drop files.
+Admins can use following PowerShell command to revert this setting.
 
 ```powershell
 Set-CsTeamsFilesPolicy -Identity Global -DefaultFileUploadAppId  ""
 ```
 
-- *Identity - Global?*
- 
-### User side-error conditions
+## Remove the policy for your users
+ To remove the Teams Files policy for your users, use the Remove-CsTeamsFilesPolicy cmdlet:
 
+- *Remove-CsTeamsFilesPolicy -Identity Global*
+
+For more information on user-level policy changes, see [Turn off Teams Native File Upload policy](/microsoftteams/turn-off-teams-native-file-upload-policy)
+
+
+
+### User side-error conditions
 - App not installed: “Default app set by your org admin isn't installed.”
 
 - App does not support drag-drop: “Default app setup by your org admin doesn’t support file upload.” (May not be in our control. Use “Generic error”?)
