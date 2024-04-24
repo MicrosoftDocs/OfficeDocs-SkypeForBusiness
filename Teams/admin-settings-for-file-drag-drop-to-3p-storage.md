@@ -19,7 +19,7 @@ appliesto:
 
 # Admin settings for file drag-drop to 3P storage
 
-To help Teams become an open platform, Teams admins can change the default storage backend of Teams (for OneDrive and SharePoint) to a 3P storage-provider app of their choice. This change allows you to do the following:
+To help Teams become an open platform, Teams admins can change the default storage backend of Teams (for OneDrive and SharePoint) to a 3P storage-provider app of their choice. This change gives you:
 
 - **For Teams admins** The ability to change the default storage app for drag-drop when uploading files on the Teams desktop.
 
