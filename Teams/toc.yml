@@ -1596,7 +1596,7 @@ items:
         - name: Brand your organization's app store
           href: customize-your-app-store.md
         - name: Use apps as external user or guest
-          href: non-standard-users.md
+          href: apps-external-users.md
         - name: Update apps to the latest version
           href: apps-update-experience.md
         - name: Audit app management activities

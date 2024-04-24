@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "Teams/non-standard-users.md",
+      "redirect_url": "/microsoftteams/apps-external-users",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "Teams/manage-tasks-app.md",
       "redirect_url": "/microsoftteams/manage-planner-app",
       "redirect_document_id": true
