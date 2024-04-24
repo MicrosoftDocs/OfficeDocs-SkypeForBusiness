@@ -218,29 +218,29 @@ To help guide you as to what features are available on different platforms, you 
 | | Touch board form factor (no console) | Available | Available |
 | | Front of Room (16:9) (1920x1080 or 3840x2160) | Available | Available |
 | | Front of Room (21:9) (2560x1080 or 5120x2160) (Single Display Only) | Available | Not available |
-| **Security** | Secure mounting, security lock slot (Kensington lock), I/O ports access | Available | Available|
+| **Security** | Secure mounting, security lock slot (Kensington lock), I/O ports access | Available | Available |
 | | Operating System | Windows 10 / Windows 11 | Android 9+ |
-| | Kiosk mode | Available | Available|
+| | Kiosk mode | Available | Available |
 | | Microsoft Defender for Endpoint | Available | Not available |
-| **Management and administration** | Teams Admin Center | Available | Available|
-| | Pro Management Portal | Available | Available|
-| | Role-based access control | Available | Available|
+| **Management and administration** | Teams Admin Center | Available | Available |
+| | Pro Management Portal | Available | Available |
+| | Role-based access control | Available | Available |
 | | Securely delegate management access to a partner | Available | Not available |
-| | Device inventory views | Available | Available|
-| | Overall device health monitoring | Available | Available|
+| | Device inventory views | Available | Available |
+| | Overall device health monitoring | Available | Available |
 | | Connected peripheral health monitoring | Available | Not available |
-| | Remote configuration (restart, settings, & log collection) | Available | Available|
-| | Automatic Teams app updates | Available | Available|
-| | Real-time and call quality analytics | Available | Available|
-| | Built-in backgrounds | Available | Available|
+| | Remote configuration (restart, settings, & log collection) | Available | Available |
+| | Automatic Teams app updates | Available | Available |
+| | Real-time and call quality analytics | Available | Available |
+| | Built-in backgrounds | Available | Available |
 | | Custom background | Available | Not available |
-| | Unauthenticated proxy support| Available | Available|
+| | Unauthenticated proxy support| Available | Available |
 | | Authenticated proxy support | Not available | Not available |
 
 ## Teams panels
 
 | &ensp; | Features | Availability| 
-|------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+|--------|----------|-------------|
 | **Meetings** | View meetings for next 24 hours | Available   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
 | | Hide meeting names | Available |
 | | Ad-hoc room reservation | Available |
@@ -248,7 +248,7 @@ To help guide you as to what features are available on different platforms, you 
 | | Extend existing room reservation | Available |
 | | Check in to meetings | Available |
 | | Check out of meetings | Available |
-| | Automatic room release if a user doesn't check in| Available |
+| | Automatic room release if a user doesn't check in | Available |
 | | Automatic check-in upon joining a Teams meeting | Available |
 | | Automatic check-in with paired occupancy sensor | Available |
 | | Check-in notifications | Available |
@@ -263,8 +263,8 @@ To help guide you as to what features are available on different platforms, you 
 | | Securely delegate management access to a partner | Available | 
 | | Overall device health monitoring | Available | 
 | | Remote configuration (restart, settings, & log collection) | Available | 
-| | Automatic Teams app updates | Available | 
-| | Unauthenticated proxy support| Available | 
+| | Automatic Teams app updates | Available |
+| | Unauthenticated proxy support | Available | 
 | | Authenticated proxy support | Not available | 
 
 
@@ -273,67 +273,67 @@ To help guide you as to what features are available on different platforms, you 
 ## Teams Rooms
 
 | &ensp; | Features | Windows | Android |
-|--------|----------|---------|----------|
+|--------|----------|---------|---------|
 | **Meeting join** | One-touch-join | Available   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | Available  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
-| | Proximity join | Available | Available|
+| | Proximity join | Available | Available |
 | | QR code meeting join | Available | Not available |
-| | Meet now | Available | Available|
-| | Teams Meeting with ID | Available | Available|
+| | Meet now | Available | Available |
+| | Teams Meeting with ID | Available | Available |
 | | Direct guest join | BlueJeans: Available <br> Webex: Available<br> Zoom: Available| BlueJeans: Not available <br> Webex: Available<br> Zoom: Available |
 | | Direct guest join with ID | BlueJeans: Not available <br> Webex: Not available<br> Zoom: Available | BlueJeans: Not available <br> Webex: Not available<br> Zoom: Not available |
 | | SIP/H.323 calling | Available | Not available |
-| | PSTN calling | Available | Available|
-| | Admins can require meeting ID and passcode on meeting join | Available | Available|
+| | PSTN calling | Available | Available |
+| | Admins can require meeting ID and passcode on meeting join | Available | Available |
 | | Cross cloud meeting join (for example, Commercial > GCC or GCC High > GCC) | Available | Not available |
-| **Meeting engagement and collaboration** | Intuitive, purpose-built app experience| Available | Available|
-| | Video and content layouts (Front Row, Together Mode, Large Gallery, etc.) | Available | Available|
+| **Meeting engagement and collaboration** | Intuitive, purpose-built app experience| Available | Available |
+| | Video and content layouts (Front Row, Together Mode, Large Gallery, etc.) | Available | Available |
 | | Front Row unified background | Available | Not available |
-| | Configure default meeting layout | Available | Available|
-| | View chat in all layouts | Available | Available|
-| | Chat bubbles | Available | Available|
-| | Raise hand, lower all hands | Available | Available|
+| | Configure default meeting layout | Available | Available |
+| | View chat in all layouts | Available | Available |
+| | Chat bubbles | Available | Available |
+| | Raise hand, lower all hands | Available | Available |
 | | Pin multiple participants | Available | Not available |
-| | Spotlight multiple participants | Available | Available|
-| | Live reactions | Available | Available|
-| | PowerPoint Live | Available | Available|
-| | Live closed captions | Available | Available|
+| | Spotlight multiple participants | Available | Available |
+| | Live reactions | Available | Available |
+| | PowerPoint Live | Available | Available |
+| | Live closed captions | Available | Available |
 | | Participate in breakout rooms| Available | Not available |
-| | Teams Premium meeting protection policies (watermark, E2E encryption for meetings, and sensitivity labels) | Available | Available|
+| | Teams Premium meeting protection policies (watermark, E2E encryption for meetings, and sensitivity labels) | Available | Available |
 | | Start meeting recording and transcription | Not available | Not available |
 | | Teams Town Hall (Presenter role) | Not available | Not available |
 | | Teams Town Hall (Attendee role) | Not available | Not available |
 | | Teams Live Event (Presenter role) | Available | Not available |
 | | Teams Live Event (Attendee role) | Available | Not available |
 | | Overflow Meeting Join (1k+ meeting participants) | Available | Not available |
-| | Microsoft Whiteboard during Teams Meeting (with touch display) | Available | Available|
+| | Microsoft Whiteboard during Teams Meeting (with touch display) | Available | Available |
 | | Microsoft Whiteboard outside a meeting (with touch display)| Not available | Not available |
-| | Intelligent content capture (content camera) | Available | Available|
-| | Meeting Lock | Available | Available|
-| | Automatically disconnect if room is the only participant 5 minutes after meeting time ends | Available | Available|
+| | Intelligent content capture (content camera) | Available | Available |
+| | Meeting Lock | Available | Available |
+| | Automatically disconnect if room is the only participant 5 minutes after meeting time ends | Available | Available |
 | | Cloud IntelliFrame | Not available | Not available |
 | | Multi-stream IntelliFrame | Not available | Not available |
 | | Spatial Audio | Available | Not available |
 | | People Recognition | Not available | Not available |
-| | Intelligent Speaker| Not available | Not available |
+| | Intelligent Speaker | Not available | Not available |
 | | Room Capacity Notifications | Not available | Not available |
 | | User accessible device language change | Available | Not available |
-| | Rate my call report| Available | Not available |
+| | Rate my call report | Available | Not available |
 | | Net promoter score (NPS) at meeting end| Not available | Not available |
-| | Meeting controls on touch enabled front of room displays | Not available | Available|
-| | Smart Camera Controls | Available | Available|
+| | Meeting controls on touch enabled front of room displays | Not available | Available |
+| | Smart Camera Controls | Available | Available |
 | | Local pan tilt zoom (PTZ) controls | Not available | Not available |
 | | Remote Pan tilt zoom (PTZ) control for cameras with mechanical PTZ controls | Not available | Not available |
-| | Switch between multiple in-room cameras| Available | Available|
+| | Switch between multiple in-room cameras | Available | Available|
 | | Coordinated meetings | Available | Not available |
 | | Third party custom room control | Available | Not available |
-| | Companion mode | Available | Available|
-| | Automatically hide room video from in-room desktop participants | Not available | Available|
+| | Companion mode | Available | Available |
+| | Automatically hide room video from in-room desktop participants | Not available | Available |
 | | Room remote (Desktop & Mobile) | Not available | Not available |
-| | Teams Casting (Desktop & Mobile) | Available | Available|
-| **Front of Room Configurations** | Single Screen | Available | Available|
-| | Dual Screen | Available | Available|
-| | Touch board form factor (no console) | Available | Available|
-| | Front of Room (16:9) (1920x1080 or 3840x2160) | Available | Available| |
+| | Teams Casting (Desktop & Mobile) | Available | Available |
+| **Front of Room Configurations** | Single Screen | Available | Available |
+| | Dual Screen | Available | Available |
+| | Touch board form factor (no console) | Available | Available |
+| | Front of Room (16:9) (1920x1080 or 3840x2160) | Available | Available |
 | | Front of Room (21:9) (2560x1080 or 5120x2160) (Single Display Only) | Available | Not available |
 | **Security** | Secure mounting, security lock slot (Kensington lock), I/O ports access | Available | Available|
 | | Operating System | Windows 10 / Windows 11 | Android 9+ |
