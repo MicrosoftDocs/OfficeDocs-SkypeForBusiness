@@ -66,7 +66,7 @@ Details on the customer invitation are outlined in [Multitenant management for C
 
 1. Log in to the Teams Rooms Pro Management-MTM portal as either a Global admin, Teams Rooms Pro Manager, or Tenant manager.
 1. Go to **Tenants**.
-1. Select the invitation that shows a **Pendin** status.
+1. Select the invitation that shows a **Pending** status.
 1. Review the invitation details.
 1. Assign the users that will be part of the admins for the customer.
 1. Select **Accept** to establish the partner-customer relationship.
