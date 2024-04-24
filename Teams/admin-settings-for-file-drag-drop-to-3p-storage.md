@@ -58,16 +58,6 @@ A user side error could occur due to the following reasons:
 ### To remove the policy for the complete list of users
 *Remove-CsTeamsFilesPolicy*
 
-### Mixed mode
-The following behavior occurs with mixed-mode admin settings:
-
-|*NativeFileEntryPoints* |*DefaultFileUploadAppID* |Expected behavior
-|---------|---------|---|
-|Enabled     |Enabled*       |Paperclip>Upload from device (goes to OneDrive/SharePoint)<br>Drag-Drop (**goes to the configured 3P app***)|
-|Enabled    |Not enabled      |Paperclip>Upload from device  (goes to OneDrive/SharePoint)<br>Drag-drop (goes to OneDrive/SharePoint)|
-|Not enabled    |Enabled*      |Paperclip (Attach) - Hidden<br>Drag-Drop (**goes to the configured 3P app***)|
-|Not enabled    |Not Enabled      |Paperclip (Attach) - Hidden<br>Drag-Drop (**no op**)|
-
 > [!NOTE]
 > To make this policy work, *NativeFileEntryPoints* should be disabled. For more information on making related changes, see [Turn off Teams Native File Upload policy](/microsoftteams/turn-off-teams-native-file-upload-policy).
 
