@@ -123,6 +123,9 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 
 | Device model  | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
+| Logi Rallybar | `1.11.291` | N/A | `1449/1.0.96.2023120901` | `5.0.5484.0`| `1.0.0.202306202019.product` | Recalled|
+| Logi Rallybar Mini | `1.11.291` | N/A | `1449/1.0.96.2023120901` | `5.0.5484.0`| `1.0.0.202306202019.product` | Recalled|
+| Logi RoomMate | `1.11.232`   | N/A | `1449/1.0.96.2023120901` | `5.0.5484.0`| `1.0.0.202306202019.product` | Recalled|
 | Logi Rallybar | `1.11.254` | N/A | `1449/1.0.96.2023062301` | `5.0.5484.0`| `1.0.0.202306202019.product` | January 31, 2024|
 | Logi Rallybar Mini | `1.11.254` | N/A | `1449/1.0.96.2023062301` | `5.0.5484.0`| `1.0.0.202306202019.product` | January 31, 2024|
 | Logi RoomMate | `1.11.215`   | N/A | `1449/1.0.96.2023062301` | `5.0.5484.0`| `1.0.0.202306202019.product` | January 31, 2024|
