@@ -52,4 +52,4 @@ As we improved the client, the experience also improved to align with similar fe
 |Adaptive Card-based tabs in personal app tabs.|No longer available.|
 |Whiteboard Tab automatically displayed in meeting tabs.|Using Recap tab from the calendar allows you to access the Whiteboard file shared in the meeting in the content section.|
 |Third-party and custom sign-in solutions using RunAs or undocumented hooks.|No longer available.|
-|App name is Microsoft Teams (for work or school)|(In early May, 2024: App name becomes Microsoft Teams|
+|App name is Microsoft Teams (for work or school)|(In early May, 2024): App name becomes Microsoft Teams|
