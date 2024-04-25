@@ -38,6 +38,7 @@ ms.localizationpriority: high
 - The **Manage live event resources** link in the calendar invite doesn't work outside of Teams. Users must open the invite in Teams calendar to edit the session and access event resources.
 - If a user closes a TLE session on the web, the next time they open Teams on the web, Teams might try and relaunch the last TLE event the user was in.
 - The app will crash on startup with the error APPLICATION_FAULT_c06d007e_PvDSSource64.ax if the Pleora Technologies eBUS SDK is installed. Update to the latest version of the SDK or uninstall.
+- Town Halls do not yet support web users on Firefox or Safari browsers.
 
 ## Issues specifically for the new Microsoft Teams for Education
 
