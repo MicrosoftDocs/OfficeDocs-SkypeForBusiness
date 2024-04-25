@@ -67,7 +67,7 @@ Before setting up remote access, verify the following prerequisites are met:
 - Buy a Teams Rooms Pro license for the Teams Rooms console.
 - Verify the console is supported and is running Microsoft Teams Rooms on Windows. See [Teams Rooms Certified Devices](/microsoftteams/rooms/certified-hardware).
 - Install Microsoft Visual C++ 2015-2022 Redistributable (x64).
-- Prepare your organization's network for [Azure Communication Services](/azure/communication-services/concepts/network-prep)
+- Prepare your organization's network for [Azure Communication Services]([/azure/communication-services/concepts/network-prep](/azure/communication-services/concepts/voice-video-calling/network-requirements#firewall-configuration)
 - Add the following URLs to your network's allowed list:
   - https://mmrprodnoampubsub.webpubsub.azure.com
   - https://mmrprodemeapubsub.webpubsub.azure.com
