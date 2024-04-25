@@ -170,4 +170,4 @@ See the [Project for the web service description](/office365/servicedescriptions
 
 ## Give feedback or report an issue
   
-To send us feedback or report an issue, select **Help** in the upper-right corner, select **Feedback**, and then enter your feedback or details about the issue you're experiencing.
+To send us feedback or report an issue, select **More** in the upper-right corner of Planner, choose **Feedback**, and then enter your feedback or details about the issue you're experiencing.
