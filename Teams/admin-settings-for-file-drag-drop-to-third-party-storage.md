@@ -29,7 +29,10 @@ This functionality works only for Teams apps built to support this configurabili
 
 ## Check the status of your tenant
 To view the current status of your tenant's Teams Files policy, use the *Get-CsTeamsFilesPolicy* Cmdlet:
-- *Get-CsTeamsFilesPolicy -Identity Global*
+
+```powershell
+Get-CsTeamsFilesPolicy -Identity Global
+```
 
 ## Configure the third-party app
 Admins can use the following PowerShell command to set a third-party cloud storage to handle drag-drop files.
@@ -46,7 +49,10 @@ Set-CsTeamsFilesPolicy -Identity Global -DefaultFileUploadAppId  ""
 
 ## Remove the policy for your users
  To remove the Teams Files policy for your users, use the *Remove-CsTeamsFilesPolicy* Cmdlet:
-- *Remove-CsTeamsFilesPolicy -Identity Global*
+
+```powershell
+Remove-CsTeamsFilesPolicy -Identity Global
+```
 
 For more information on user-level policy changes, see [Turn off Teams Native File Upload policy](/microsoftteams/turn-off-teams-native-file-upload-policy).
 
