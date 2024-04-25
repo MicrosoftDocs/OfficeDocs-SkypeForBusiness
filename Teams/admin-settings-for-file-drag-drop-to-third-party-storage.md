@@ -63,6 +63,7 @@ A user side error could occur due to the following reasons:
 - The configured app doesn't support drag-drop
 
 ### To remove the policy for the complete list of users
+To remove the policy for the complete list of users, use the *Remove-CsTeamsFilesPolicy* Cmdlet:
 
 ```powershell
 Remove-CsTeamsFilesPolicy
