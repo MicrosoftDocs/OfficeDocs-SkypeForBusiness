@@ -39,7 +39,7 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
-|[5.0.19.0](#50190-4152024) | 4/15/2024 |
+|[5.0.111.0](#501110-4152024) | 4/24/2024 |
 |[4.19.82.0](#419820-1312024) | 1/31/2024 |
 |[4.19.57.0](#419570-11162023) | 11/16/2023 |
 |[4.18.44.0](#418440-9202023) | 9/20/2023 |
@@ -59,19 +59,17 @@ Teams Rooms app updates happen either via the Microsoft Store or via [manual upd
 
 Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: icon are available only with Teams Rooms Pro license.
 
-### 5.0.19.0 (4/15/2024)
+### 5.0.111.0 (4/24/2024)
 
 Introduced in this update:
 
 - **New Teams on Teams Rooms** - This update brings the New Teams available on Teams Desktop to MTR Windows. With the new Teams app now a part of Teams Rooms on Windows, all Teams Rooms devices can now utilize available resources to optimize room experience and rendering intelligent audio and video more reliably. New Teams app have parity of experiences, and in addition all new Teams rooms experiences are built on new Teams app.
 - **Zero Touch Deployment with Windows Autopilot and Pro Management Portal** :::image type="icon" source="../media/mtr-pro-icon.png":::. This update includes app support to enable the end-to-end deployment experience. To test this, please reach out to your Microsoft Account team to sign up for early access to the PMP Autologin preview
-- **Ability to change language on Microsoft Teams Rooms on Windows**. With this new feature, end users can change the language of the Microsoft Teams Rooms on the Microsoft Windows app. The language choices offered are the same as those that are offered in the Microsoft Teams desktop app. The user must restart after choosing a language from the drop-down menu for it to be applied. 
-- **Ultrasound for Proximity Join**. With ultrasound for proximity join, users can more accurately discover rooms to join a Teams meeting from. Ultrasound beacons advertise devices within the walls of the physical room, only allowing those present in the room to join and providing users a precise list of nearby room options. 
+- **Ability to change language on Microsoft Teams Rooms on Windows**. With this new feature, end users can change the language of the Microsoft Teams Rooms on the Microsoft Windows app. The language choices offered are the same as those that are offered in the Microsoft Teams desktop app. The language is reverted to the default language upon a restart.
 - **Skype for business deprecation**. Back with the release of app 4.19.57.0, we had announced the end of support for Skype for Business (Server and Online) on Microsoft Teams Rooms . With this update, we have retired the XML settings for SfB as well as ability to sign in or support to Skype for Business meetings. 
 - **Meeting Chat shown  by default in Gallery View for Teams Rooms on Windows**. Meeting Chat is now shown by default when joining a Teams meeting with Teams Rooms on Windows in Gallery View, making it easier to see incoming chat messages on the front of room display. IT Admins can configure the default chat experience for a room, and users can make in-meeting changes to show or hide the chat using the touch console. 
 - **Join meetings with a QR  code on Teams Rooms on Windows**. Users can quickly join meetings from a Teams Room by scanning a QR code on the Teams Room home screen using their mobile camera. The user will then enter the full meeting experience on Teams Room and the room companion mode experience on Teams mobile. The QR code can also be scanned to start an ad-hoc meeting or cast content from users’ mobile to the front of room display. If the user does not have the Teams mobile app, they will be directed to download it after scanning the QR code. IT admins can control the QR code feature via XML settings and the Teams admin center. This feature supports cross-tenant meetings when the organization settings and user policies allow it.
 - **4K display UI scaling  for Teams Rooms on Windows**. 4K-enabled displays, including front of room displays and touch boards, are natively supported on the Teams Rooms experience. Additional disclosure: 4K video is not supported.
-- **Breakout rooms support for Microsoft Teams Rooms on Windows**. With breakout room support, Teams Rooms on Windows can be added to a breakout room and moved in and out of the main room making it easy for breakout session coordination. 
 - **Improvements to Join with an ID**. Teams meetings continues to be the default option whilst the option to select joining Zoom meetings with an Id, and others to come, is visually more clear.
 - **Meeting ID and passcode to join on Teams Rooms on Windows**. IT Admins can configure and require a meeting ID and passcode to join a meeting on Teams Rooms on Windows to ensure one more level of security and privacy. This feature is available with Teams Rooms Pro license.
 - **End users can switch IntelliFrame on/off using Stage roster**.
