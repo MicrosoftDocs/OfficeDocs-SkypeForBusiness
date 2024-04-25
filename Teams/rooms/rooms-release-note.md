@@ -61,6 +61,8 @@ Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: ico
 
 ### 5.0.111.0 (4/24/2024)
 
+**This release is available for all Teams environments, however, GCC-High customers with this version installed will not see any of the below mentioned new features.**
+
 Introduced in this update:
 
 - **New Teams on Teams Rooms** - This update brings the New Teams available on Teams Desktop to MTR Windows. With the new Teams app now a part of Teams Rooms on Windows, all Teams Rooms devices can now utilize available resources to optimize room experience and rendering intelligent audio and video more reliably. New Teams app have parity of experiences, and in addition all new Teams rooms experiences are built on new Teams app.
@@ -73,6 +75,8 @@ Introduced in this update:
 - **Improvements to Join with an ID**. Teams meetings continues to be the default option whilst the option to select joining Zoom meetings with an Id, and others to come, is visually more clear.
 - **Meeting ID and passcode to join on Teams Rooms on Windows**. IT Admins can configure and require a meeting ID and passcode to join a meeting on Teams Rooms on Windows to ensure one more level of security and privacy. This feature is available with Teams Rooms Pro license.
 - **End users can switch IntelliFrame on/off using Stage roster**.
+
+Please note that some systems maybe missing the minimum version of the Edge WebView2 runtime. Until Edge Webview2 runtimeversion 110.0.1587.63 or higher is installed, these devices will be missing some features.
 
 
 ### 4.19.82.0 (1/31/2024)
