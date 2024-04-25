@@ -45,7 +45,7 @@ See [Role Base access control in Teams Rooms Pro management portal](/microsoftte
 > [!Note]
 > Before you enable and set up remote access, consider your privacy and compliance requirements.
 
-- **Requires Teams Rooms Pro management custom role permissions** By default, there aren't any Teams Pro management roles  enabled for remote access. If you do want to turn on remote access for someone, you'll need first create a custom role, add the remote access permission to this custom role, and then assign those users and rooms to that custom role.
+- **Requires Teams Rooms Pro management custom role permissions** By default, there aren't any Teams Pro management roles  enabled for remote access. If you do want to turn on remote access for someone, you need first create a custom role, add the remote access permission to this custom role, and then assign those users and rooms to that custom role.
 
 When you create, edit, or assign custom roles, the account must have one of the following permissions:
     - Global Administrator in Azure Active Directory (Azure AD)
@@ -67,7 +67,7 @@ Before setting up remote access, verify the following prerequisites are met:
 - Buy a Teams Rooms Pro license for the Teams Rooms console.
 - Verify the console is supported and is running Microsoft Teams Rooms on Windows. See [Teams Rooms Certified Devices](/microsoftteams/rooms/certified-hardware).
 - Install Microsoft Visual C++ 2015-2022 Redistributable (x64).
-- Prepare your organization's network for [Azure Communication Services]([/azure/communication-services/concepts/network-prep](/azure/communication-services/concepts/voice-video-calling/network-requirements#firewall-configuration)
+- Prepare your organization's network for [Azure Communication Services]([/azure/communication-services/concepts/network-prep](/azure/communication-services/concepts/voice-video-calling/network-requirements#firewall-configuration).
 - Add the following URLs to your network's allowed list:
   - https://mmrprodnoampubsub.webpubsub.azure.com
   - https://mmrprodemeapubsub.webpubsub.azure.com
@@ -121,7 +121,7 @@ By default, the Teams Rooms Pro Manager role doesn't have remote access permissi
 
 1. Sign in to the [Teams Rooms Pro Management portal](https://portal.rooms.microsoft.com/) with the same administrator privileges as that used to sign in to the Microsoft 365 admin center.
 2. In the **Teams Rooms Pro Management portal**, go to **Settings** > **Roles**.
-3. Create a custom role that grants remote access permissions to Pro management admin, site lead, and site technicians, and then add the rooms they will be accessing.
+3. Create a custom role that grants remote access permissions to Pro management admin, site lead, and site technicians, and then add the rooms they'll be accessing.
 4. Assign **Remote Access view** or **Remote Access modify** permissions to the same custom role.
 5. Create **Assignments** for specific users and consoles that will be using the remote access feature.
 6. Select **Finish** and **Save**.
@@ -156,7 +156,7 @@ To remotely administer a Teams Rooms console:
 
 |**Security best practice**|**More information**|
 |:-----|:-----|
-|When remotely administering the device, don't enter passwords for privileged accounts.|When accounts and passwords are sensitive, be very careful with those account names and passwords.|
+|When remotely administering the device, don't enter passwords for privileged accounts.|When accounts and passwords are sensitive, be careful with those account names and passwords.|
 |If you disconnect the Teams user that is signed in during a remote access session, ensure that you sign out before you disconnect the remote access session. |If you don't sign out in this scenario, the session remains open and visible in the room.|
 |Limit the Permitted Viewers list. |Local administrator rights aren't required for a user to be able to use remote control.|
 
