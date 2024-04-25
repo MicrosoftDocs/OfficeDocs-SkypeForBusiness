@@ -61,23 +61,23 @@ Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: ico
 
 ### 5.0.111.0 (4/24/2024)
 
-**This release is available for all Teams environments, however, GCC-High customers with this version installed will not see any of the below mentioned new features.**
+**This release is available for all Teams environments, however, GCC-High customers with this version installed won't see any of the below mentioned new features.**
 
 Introduced in this update:
 
 - **New Teams on Teams Rooms** - This update brings the New Teams available on Teams Desktop to Microsoft Teams Rooms on  Windows. With the new Teams app now a part of Teams Rooms on Windows, all Teams Rooms devices can now utilize available resources to optimize room experience and rendering intelligent audio and video more reliably. New Teams app have parity of experiences, and in addition all new Teams rooms experiences are built on new Teams app.
-- **Zero Touch Deployment with Windows Autopilot and Pro Management Portal** :::image type="icon" source="../media/mtr-pro-icon.png":::. This update includes app support to enable the end-to-end deployment experience. To test this, please reach out to your Microsoft Account team to sign up for early access to the PMP Autologin preview
-- **Ability to change language on Microsoft Teams Rooms on Windows**. With this new feature, end users can change the language of the Microsoft Teams Rooms on the Microsoft Windows app. The language choices offered are the same as those that are offered in the Microsoft Teams desktop app. The language is reverted to the default language upon a restart.
+- **Zero Touch Deployment with Windows Autopilot and Pro Management Portal** :::image type="icon" source="../media/mtr-pro-icon.png":::. This update includes app support to enable the end-to-end deployment experience. To test this, please reach out to your Microsoft account team to sign up for early access to the Teams Pro Management poral Autologin preview.
+- **Ability to change language on Microsoft Teams Rooms on Windows**. With this new feature, end users can change the language of the Microsoft Teams Rooms on the Microsoft Windows app. The language choices offered are the same as those that are offered in the Microsoft Teams desktop app. The language is reverted to the default language when it restarts.
 - **Skype for business deprecation**. Back with the release of app 4.19.57.0, we had announced the end of support for Skype for Business (Server and Online) on Microsoft Teams Rooms . With this update, we have retired the XML settings for SfB as well as ability to sign in or support to Skype for Business meetings. 
-- **Meeting Chat shown  by default in Gallery View for Teams Rooms on Windows**. Meeting Chat is now shown by default when joining a Teams meeting with Teams Rooms on Windows in Gallery View, making it easier to see incoming chat messages on the front of room display. IT Admins can configure the default chat experience for a room, and users can make in-meeting changes to show or hide the chat using the touch console. 
-- **Join meetings with a QR  code on Teams Rooms on Windows**. Users can quickly join meetings from a Teams Room by scanning a QR code on the Teams Room home screen using their mobile camera. The user will then enter the full meeting experience on Teams Room and the room companion mode experience on Teams mobile. The QR code can also be scanned to start an ad-hoc meeting or cast content from users’ mobile to the front of room display. If the user does not have the Teams mobile app, they will be directed to download it after scanning the QR code. IT admins can control the QR code feature via XML settings and the Teams admin center. This feature supports cross-tenant meetings when the organization settings and user policies allow it.
-- **4K display UI scaling  for Teams Rooms on Windows**. 4K-enabled displays, including front of room displays and touch boards, are natively supported on the Teams Rooms experience. Additional disclosure: 4K video is not supported.
-- **Improvements to Join with an ID**. Teams meetings continues to be the default option whilst the option to select joining Zoom meetings with an Id, and others to come, is visually more clear.
-- **Meeting ID and passcode to join on Teams Rooms on Windows**. IT Admins can configure and require a meeting ID and passcode to join a meeting on Teams Rooms on Windows to ensure one more level of security and privacy. This feature is available with Teams Rooms Pro license.
-- **End users can switch IntelliFrame on/off using Stage roster**.
-
-Please note that some systems maybe missing the minimum version of the Edge WebView2 runtime. Until Edge Webview2 runtimeversion 110.0.1587.63 or higher is installed, these devices will be missing some features.
-
+- **Meeting Chat shown by default in Gallery View for Teams Rooms on Windows**. Meeting Chat is now shown by default when joining a Teams meeting with Teams Rooms on Windows in Gallery View, making it easier to see incoming chat messages on the front of room display. Admins can configure the default chat experience for a room, and users can make in-meeting changes to show or hide the chat using the touch console. 
+- **Join meetings with a QR code on Teams Rooms on Windows**. Users can quickly join meetings from a Teams Room by scanning a QR code on the Teams Room home screen using their mobile phone camera. The user will then enter the full meeting experience on Teams Room and the room companion mode experience on Teams mobile. The QR code can also be scanned to start an ad-hoc meeting or cast content from users’ mobile to the front of room display. If the user doesn't have the Teams mobile app, they will be directed to download it after scanning the QR code. Admins can control the QR code feature via XML settings and the Teams admin center. This feature supports cross-tenant meetings when the organization settings and user policies allow it.
+- **4K display UI scaling for Teams Rooms on Windows**. 4K-enabled displays, including front of room displays and touch boards, are natively supported on the Teams Rooms experience. Note: 4K video isn't supported.
+- **Improvements to Join with an ID**. Teams meetings continues to be the default option while the option to select joining Zoom meetings with an ID, and others to come, is visually more clear.
+- **Meeting ID and passcode to join on Teams Rooms on Windows**. Admins can configure and require a meeting ID and passcode to join a meeting on Teams Rooms on Windows to ensure one more level of security and privacy. This feature is available with Teams Rooms Pro license.
+- **End users can switch IntelliFrame on or off using Stage roster**.
+  
+> [!IMPORTANT]
+> Please note that some systems maybe missing the minimum version of the Edge WebView2 runtime. Until Edge Webview2 runtimeversion 110.0.1587.63 or higher is installed, these devices will be missing some features.
 
 ### 4.19.82.0 (1/31/2024)
 
