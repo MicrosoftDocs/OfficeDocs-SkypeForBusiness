@@ -3,7 +3,7 @@ title: Deploy Teams phones, Teams displays, Teams panels, and Microsoft Teams Ro
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.date: 08/24/2020
+ms.date: 04/25/2024
 ms.reviewer: kponnus
 ms.topic: article
 ms.service: msteams
