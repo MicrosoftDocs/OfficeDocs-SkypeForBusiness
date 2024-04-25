@@ -1,5 +1,5 @@
 ---
-title: Admin settings for file drag-drop to 3P storage 
+title: Admin settings for file drag-drop to third-party storage 
 author: MicrosoftHeidi
 ms.author: heidip
 ms.reviewer: shkarri,sasood
@@ -17,22 +17,22 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Admin settings for file drag-drop to 3P storage
+# Admin settings for file drag-drop to third-party storage
 
-To help Teams become an open platform, Teams admins can change the default storage backend of Teams (for OneDrive and SharePoint) to a 3P storage-provider app of their choice. This change gives you:
+To help Teams become an open platform, Teams admins can change the default storage backend of Teams (for OneDrive and SharePoint) to a third-party storage-provider app of their choice. This change gives you:
 
 - **For Teams admins** The ability to change the default storage app for drag-drop when uploading files on the Teams desktop.
 
-- **For Teams app developers (3P)** The ability to use this capability for Teams apps using the Teams SDK.
+- **For Teams app developers (third party)** The ability to use this capability for Teams apps using the Teams SDK.
 
-This functionality works only for Teams apps built to support this configurability. This article explains policy names, syntax, and how tenants can change the default drag-drop storage destination to a 3P storage provider.
+This functionality works only for Teams apps built to support this configurability. This article explains policy names, syntax, and how tenants can change the default drag-drop storage destination to a third-party storage provider.
 
 ## Check the status of your tenant
 To view the current status of your tenant's Teams Files policy, use the *Get-CsTeamsFilesPolicy* Cmdlet:
 - *Get-CsTeamsFilesPolicy -Identity Global*
 
-## Configure the 3P app
-Admins can use the following PowerShell command to set a 3P cloud storage to handle drag-drop files.
+## Configure the third-party app
+Admins can use the following PowerShell command to set a third-party cloud storage to handle drag-drop files.
 
 ```powershell
 Set-CsTeamsFilesPolicy -Identity Global -DefaultFileUploadAppId  "<appId>"
@@ -66,17 +66,17 @@ A user side error could occur due to the following reasons:
 Teams Mobile support for the *DefaultFileUploadAppId* policy isn't applicable. Also note that image or media copy and paste is today treated as part of the Teams message payload and not as a cloud file. This policy doesn't impact the image or media copy and paste.
 
 ## Documentation for admins
-Admins should refer to the app description or 3P app documentation for information about App ID for this policy.
+Admins should refer to the app description or third-party app documentation for information about App ID for this policy.
 
 - Currently, Box is the only supported app. Contact Box for its App ID.
 
-- For new app support, contact your desired 3P storage provider for the compatible app.
+- For new app support, contact your desired third-party storage provider for the compatible app.
 
-## Documentation for developers (3P storage apps)
-
+## Documentation for developers (third-party storage apps)
+In order for Teams apps to support drag-drop:
 - Use the latest version of the Teams SDK.
 - The app manifest should have the first action as Upload.
-- The 3P app calls thirdPartyCloudStorage API to get the drag-dropped files with the following parameters:
+- The third-party app calls thirdPartyCloudStorage API to get the drag-dropped files with the following parameters:
   1. Concatenate two values to get the unique ID/cache ID:<br>**const uniqueIdForChats = replyToId + id** (that is, thread ID)<br>Note, if **replyToId** is **""** then the unique ID is **""+threadId**
   2. Callback: (files: FilesFor3PStorage[], error?: SdkError): void;**
 

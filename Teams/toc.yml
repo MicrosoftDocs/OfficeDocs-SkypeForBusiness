@@ -368,8 +368,8 @@ items:
           href: assign-policies-users-and-groups.md
         - name: Assign policy packages
           href: assign-policy-packages.md
-        - name: Admin settings for file drag-drop to 3P storage
-          href: admin-settings-for-file-drag-drop-to-3p-storage.md
+        - name: Admin settings for file drag-drop to third-party storage
+          href: admin-settings-for-file-drag-drop-to-third-party-storage.md
         - name: Manage feedback policies in Teams
           href: manage-feedback-policies-in-teams.md
         - name: Manage policy packages in Teams
