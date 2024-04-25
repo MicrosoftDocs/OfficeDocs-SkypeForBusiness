@@ -87,6 +87,7 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
   <SingleFoRDefaultContentLayout>1</SingleFoRDefaultContentLayout>
   <DefaultFoRExperience>0</DefaultFoRExperience>
   <ShowMeetingChat>true</ShowMeetingChat>
+  <OpenMeetingChatByDefault>true</OpenMeetingChatByDefault>
   <EnablePublicPreview>false</EnablePublicPreview>
   <NoiseSuppressionDefault>1</NoiseSuppressionDefault>
   <SendLogs>
@@ -133,7 +134,7 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
 ```
 
 If a variable value is of the wrong type, elements are out of order, elements are unclosed, or another error is found, the XML file is *badly formed*. While processing a badly formed XML file, settings found up to the point where the error occurs are applied, then the rest of the file is ignored. Any unknown elements in the XML are ignored. If a parameter is omitted, it remains unchanged on the device. If a parameter value is invalid, its prior value remains unchanged.
-  
+
 **XML elements**
 
 | Element | Type | Level | Usage |
