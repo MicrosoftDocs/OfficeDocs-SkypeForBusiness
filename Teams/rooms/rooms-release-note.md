@@ -663,6 +663,7 @@ Introduced in this update:
 
 |Release  |Release date  |
 |---------|---------|
+|[1449/1.0.96.2024042302](#144910962024042302-april-2024) | April 2024 |
 |[1449/1.0.96.2024032804](#144910962024032804-april-2024) | April 2024 |
 |[1449/1.0.96.2024030101](#144910962024030101-march-2024) | March 2024 |
 |[1449/1.0.96.2024020802](#144910962024020802-february-2024) | February 2024 |
@@ -689,6 +690,15 @@ Introduced in this update:
 > There can be a delay between when features are released by Microsoft and when they become available on a device make and model. If an update isn't available on your device, check with your device manufacturer for information on when it might become available.
 
 Features with :::image type="icon" source="../media/mtr-pro-icon.png"::: are only available with Teams Rooms Pro license.
+
+### 1449/1.0.96.2024042302 (April 2024)
+
+Introduced in this update:
+
+- **Home screen refresh**. The Teams Rooms on Android home screen matches the look and feel of Teams Rooms on Windows, enabling users to engage with a consistent Teams Rooms interface. The touch console features six action buttons and shows the room calendar on the right side of the home screen. If the Bluetooth beaconing setting is enabled, a room tip appears at the bottom left corner of the front-of-room display and touch console for user education.
+- **Join meetings with a QR code**. Users can quickly join upcoming meetings by scanning a QR code on the Teams Room home screen using a mobile camera. Users will then enter the room companion mode experience on Teams mobile and the full meeting experience on Teams Rooms. Users can also scan the QR code to start an ad-hoc meeting or cast content from mobile to the front-of-room display. If the user does not have the Teams mobile app, they will be directed to download it after scanning the QR code. Cross-tenant meetings are supported when the organization setting and user policies allow it. IT admins can control the feature from the device settings or the Teams admin center. [Learn more](https://learn.microsoft.com/en-us/microsoftteams/rooms/teams-rooms-qr-codes).
+- **4K local HDMI content sharing**. Users can consume HDMI content in 4K quality on Teams Rooms on Android devices that support 4K HDMI input when users project content to the front-of-room display without joining an online Teams meeting.
+- **Give feedback support**. The Help button includes a Give feedback option that lets users share their opinions and ideas about Teams Rooms on Android with Microsoft, just like users can do so on Teams desktop, web, mobile, and Teams Rooms on Window clients. This feedback is used to improve the Teams experience. IT admins can enable or disable this feature for users and manage other feedback policies using PowerShell. [Learn more](https://learn.microsoft.com/en-us/microsoftteams/manage-feedback-policies-in-teams).
 
 ### 1449/1.0.96.2024032804 (April 2024)
 
