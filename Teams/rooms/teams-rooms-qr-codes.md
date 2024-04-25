@@ -22,9 +22,8 @@ ms.localizationpriority: medium
 description: 'Admins learn how to use and configure QR codes on Microsoft Teams Rooms on Windows and Microsoft Teams Rooms on Android to join a meeting. This is an alternative proximity join experience for easier ad-hoc usage of meeting rooms. '
 ---
 # Overview of QR codes on Teams Rooms (Windows and Android) to join meetings
-**This is a preview or early release feature.**
 
-Both **Teams Rooms on Windows** and **Teams Rooms on Android** support a convenient way for room users to join meetings by simply scanning a QR code on the Teams Rooms home screen, making it easier for people to use meeting rooms ad-hoc. This serves as an alternative to proximity-based technologies like Bluetooth and streamlines the user experience by reducing the steps for users to join a meeting with the room system. This feature is available in all Teams Rooms licenses. 
+Both **Teams Rooms on Windows** and **Teams Rooms on Android** support a convenient way for room users to bring their meetings to the room by simply scanning a QR code on the Teams Rooms home screen to join meetings, making it easier for people to use meeting rooms ad-hoc. This serves as an alternative to proximity-based technologies like Bluetooth and streamlines the user experience by reducing the steps for users to join a meeting with the room system. This feature is available in all Teams Rooms licenses. 
 
 A QR code is displayed by default on the Teams Room home screen. To ensure security, the QR code is refreshed every minute. You can hide the room QR code from the home screen by disabling the feature through [settings](#device-configuration-for-teams-rooms).
 
@@ -92,9 +91,9 @@ To enable your users to join meetings using QR codes:
 
 1. Your Teams Rooms devices must be running on the following app version:
 
-   1. Teams Rooms on Windows - version 5.0.19 or later
+   1. Teams Rooms on Windows - version 5.0.111.0 or later
       
-   1. Teams Rooms on Android - version 1449/1.0.96.2024041904 or later  
+   1. Teams Rooms on Android - version 1449/1.0.96.2024042302 or later  
       
 1. Your users' mobile devices must have the following app version installed:
 
