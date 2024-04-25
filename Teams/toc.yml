@@ -1393,7 +1393,7 @@ items:
         - name: Signal settings
           href: rooms/signal-settings.md  
         - name: Remote access a Teams Room console
-          href: rooms/remotely-access-teams-room.md 
+          href: rooms/remotely-access-teams-rooms.md 
         - name: Managed updates
           href: rooms/update-management.md 
         - name: Configure ServiceNow
