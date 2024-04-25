@@ -325,7 +325,7 @@ Each exception allows you to **disconnect** the call or **redirect** it to any o
 For example, when **Overflow** occurs, you might send calls to a backup Call queue, but when **Timeout** or **No Agents** occurs, you might want the callers to leave a shared voicemail.
 
 > [!NOTE]
-> For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant?tabs=general-info#external-phone-number-transfers---technical-details) for number formatting.
+> For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](./create-a-phone-system-auto-attendant?tabs=general-info#external-phone-number-transfers---technical-details) for number formatting.
 > 
 > Don't include any special characters in the greeting message when redirecting to **Voicemail (shared)**.
 
