@@ -62,7 +62,7 @@ To help guide you as to what features are available on different platforms, you 
 | | Live reactions | Available | Available |
 | | PowerPoint Live | Available | Available |
 | | Live closed captions | Available | Available |
-| | Participate in breakout rooms | Available | Not available |
+| | Participate in breakout rooms | Not available | Not available |
 | | Teams Premium meeting protection policies (watermark, E2E encryption for meetings, and sensitivity labels) | Available | Available |
 | | Start meeting recording and transcription | Not available | Not available |
 | | Teams Town Hall (Presenter role) | Not available | Not available |
@@ -180,7 +180,7 @@ To help guide you as to what features are available on different platforms, you 
 | | Live reactions | Available | Available |
 | | PowerPoint Live | Available | Available |
 | | Live closed captions | Available | Available |
-| | Participate in breakout rooms| Available | Not available |
+| | Participate in breakout rooms | Not available | Not available |
 | | Teams Premium meeting protection policies (watermark, E2E encryption for meetings, and sensitivity labels) | Available | Not available |
 | | Start meeting recording and transcription | Not available | Not available |
 | | Teams Town Hall (Presenter role) | Not available | Not available |
@@ -297,7 +297,7 @@ To help guide you as to what features are available on different platforms, you 
 | | Live reactions | Available | Available |
 | | PowerPoint Live | Available | Available |
 | | Live closed captions | Available | Available |
-| | Participate in breakout rooms| Available | Not available |
+| | Participate in breakout rooms | Not available | Not available |
 | | Teams Premium meeting protection policies (watermark, E2E encryption for meetings, and sensitivity labels) | Available | Available |
 | | Start meeting recording and transcription | Not available | Not available |
 | | Teams Town Hall (Presenter role) | Not available | Not available |
