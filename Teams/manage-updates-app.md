@@ -138,5 +138,5 @@ From the Teams Updates app, users have access to create new updates and view upd
 Updates support the Power Automate connector **Updates App(Microsoft 365)**. Using this connector can help you automate your organization's workflow. [Learn more](https://powerautomate.microsoft.com/blog/automate-workflows-with-power-automate-connector-for-updates-in-microsoft-teams/).
 
 ## Give feedback or report an issue
-  
-To send us feedback or report an issue, select **Help** near the bottom of the left pane in Teams, and then select **Report a problem**. Select **Updates app**, and then enter your feedback or details about the issue you're experiencing.
+
+To send feedback or report an issue, select **Settings and more** (**…**) in Teams, and then choose **Help** > **Give feedback**. Enter your feedback or details about the issue you're experiencing. Indicate at the beginning of your feedback report that you're sending feedback about Updates so we can easily identify Updates issues.
