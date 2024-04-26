@@ -57,7 +57,7 @@ Praise uses Viva Insights to process and store data. See the [Personal insights 
 
 ## Give feedback or report an issue
 
-To send feedback, select the **Help** option at bottom of the Teams left navigation bar, and then select **Report a Problem**. Select **Other**, and then enter your feedback or details about the issue you're experiencing. Indicate at the beginning of your feedback report that you're sending feedback about "Praise" so we can easily identify Praise issues.
+To send feedback or report an issue, select **Settings and more** (**…**) in Teams, and then choose **Help** > **Give feedback**. Enter your feedback or details about the issue you're experiencing. Indicate at the beginning of your feedback report that you're sending feedback about Praise so we can easily identify Praise issues.
 
 ## Related articles
 

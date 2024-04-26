@@ -181,6 +181,6 @@ See [Microsoft Entra ID and data residency](/azure/active-directory/fundamentals
 
 ## Give feedback or report an issue
 
-To send feedback, select **Help** at bottom of the navigation bar in Teams, and then select **Report a Problem**. Select **Other**, and then enter your feedback or details about the issue you're experiencing. Indicate at the beginning of your feedback report that you're sending feedback about "Walkie Talkie" so we can easily identify Walkie Talkie issues.
+To send feedback or report an issue, go to **Settings** > **Help & feedback**, and then choose **Send feedback**. Enter your feedback or details about the issue you're experiencing. Indicate at the beginning of your feedback report that you're sending feedback about Walkie Talkie so we can easily identify Walkie Talkie issues.
 
 Users in your organization can attach logs while sharing feedback to Microsoft, if you enable the policy to [set whether users can send feedback about Teams to Microsoft](/microsoftteams/manage-feedback-policies-in-teams).
