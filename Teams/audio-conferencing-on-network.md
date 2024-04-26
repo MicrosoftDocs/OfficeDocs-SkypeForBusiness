@@ -1,7 +1,7 @@
 ---
 title: On-network Conferencing for Audio Conferencing
-ms.author: jtremper
-author: jacktremper
+ms.author: Jenz
+author: jenzamora
 manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 02/21/2024
@@ -9,6 +9,7 @@ ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 audience: admin
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 search.appverid: MET150
 ms.collection: 
   - m365initiative-meetings

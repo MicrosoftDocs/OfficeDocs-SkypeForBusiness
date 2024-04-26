@@ -1,7 +1,7 @@
 ---
 title: Email a user their Audio Conferencing information
-ms.author: jtremper
-author: jacktremper
+ms.author: jenz
+author: jenzamora
 manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 02/22/2024
@@ -9,6 +9,7 @@ ms.topic: article
 ms.assetid: 7440d3e2-1b49-4258-bd2c-79e9072f8c8d
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 ms.collection: 
   - M365-collaboration
   - m365initiative-meetings

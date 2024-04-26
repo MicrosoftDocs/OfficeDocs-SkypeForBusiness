@@ -2,11 +2,12 @@
 title: Outbound call restrictions - Audio Conferencing & PSTN calls
 ms.reviewer: 
 ms.date: 02/22/2024
-ms.author: jtremper
-author: jacktremper
+ms.author: jenz
+author: jenzamora
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 ms.tgt.pltfrm: cloud
 search.appverid: MET150
 ms.collection: 

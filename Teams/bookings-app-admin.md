@@ -112,7 +112,7 @@ To learn more, see [Set Mailbox](/powershell/module/exchange/mailboxes/set-mailb
 
 ## Give feedback or report an issue
 
-To send feedback, select the **Help** option at bottom of the Teams left navigation bar, and then select **Report a Problem**. Select **Other**, and then enter your feedback or details about the issue you're experiencing. Indicate at the beginning of your feedback report that you're sending feedback about "Bookings" so we can easily identify Bookings issues.
+To send us feedback or report an issue, select **Feedback**, choose an option, and then enter your feedback or details about the issue you're experiencing. When you're done, select **Submit**.
 
 ## See also
 

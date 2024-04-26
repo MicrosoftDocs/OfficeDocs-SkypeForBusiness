@@ -1,7 +1,7 @@
 ---
 title: Set the PIN length for Audio Conferencing meetings
-ms.author: jtremper
-author: jacktremper
+ms.author: jenz
+author: jenzamora
 manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 02/22/2024
@@ -9,6 +9,7 @@ ms.topic: article
 ms.assetid: b86d31c6-1543-478f-b8c6-4b71e708403a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
