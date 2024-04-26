@@ -46,7 +46,7 @@ You turn off or turn on this feature for your organization through a policy that
 - If you don’t want anonymous meeting participants to receive surveys, set the `FeedbackSurveyForAnonymousUsers` parameter to `Disabled`.
 
     > [!IMPORTANT]
-    > To turn off this feature, the value must be `Disabled`. Setting the value to `$disabled` won't work.
+    > To turn off this feature, the value must be set to `Disabled`. Setting the value to `$disabled` won't work.
 
 For example, to turn off feedback surveys for anonymous participants in Teams meetings (including virtual appointments), webinars, and town halls, run the following command:
 
