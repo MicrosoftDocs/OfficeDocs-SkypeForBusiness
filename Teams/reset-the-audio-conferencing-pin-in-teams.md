@@ -1,7 +1,7 @@
 ---
 title: "Reset the Audio Conferencing PIN in Microsoft Teams"
-ms.author: jtremper
-author: jacktremper
+ms.author: jenz
+author: jenzamora
 manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 02/21/2024
@@ -9,6 +9,7 @@ ms.topic: article
 ms.assetid: 67866a47-89c1-4593-8766-3a68777e2be6
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
