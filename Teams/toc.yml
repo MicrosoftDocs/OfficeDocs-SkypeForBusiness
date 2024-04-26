@@ -85,6 +85,8 @@ items:
                   href: new-teams-desktop-admin.md
                 - name: Features that are changing in new Teams
                   href: new-teams-whats-changing.md
+                - name: Deployment checklist for new Teams
+                  href: new-teams-deployment-checklist.md
                 - name: Upgrade to the new Teams using policies               
                   href: new-teams-deploy-using-policies.md
                 - name: Bulk upgrade to the new Teams client
@@ -1390,6 +1392,8 @@ items:
           href: rooms/managed-meeting-rooms-portal.md
         - name: Signal settings
           href: rooms/signal-settings.md  
+        - name: Remote access a Teams Room console
+          href: rooms/remotely-access-teams-rooms.md 
         - name: Managed updates
           href: rooms/update-management.md 
         - name: Configure ServiceNow
@@ -1594,7 +1598,7 @@ items:
         - name: Brand your organization's app store
           href: customize-your-app-store.md
         - name: Use apps as external user or guest
-          href: non-standard-users.md
+          href: apps-external-users.md
         - name: Update apps to the latest version
           href: apps-update-experience.md
         - name: Audit app management activities
