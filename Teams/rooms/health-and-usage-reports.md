@@ -153,7 +153,7 @@ Below the headline **Metrics** is a table of rooms with corresponding metrics. S
 |Scheduled meetings|Absolute number of meetings scheduled in the room.|
 |Total calls|Absolute number of calls with the room as a participant.|
 |Call performance|Percentage of calls with a "Good" rating. Each call is evaluated and receives a Good, Poor, Unknown rating. This metric is calculated from Good calls/Total calls.|
-|Video Utilization|percentage of time the video was on during the meeting. |
+|Video Utilization|Percentage of time the video was on during the meeting. |
 |Capacity|Maximum number of seats that the room can accommodate. |
 |Average people count.|Average number of individuals present in the room during the meeting.  This data is coming from OEM camera witch support people count such as:  Poly Studio E70 Video, Jabra PanaCast 50, Polycom Studio Video, AVer VC520 Pro2, AVer CAM550, Yealink UVC84 Camera, Poly Studio P15 Video, Poly Studio R30 Video, Yealink UVC86 Camera, Jabra PanaCast 50 Composite, Bose Videobar VB1, Poly Studio V52 Video, AVer VB342 Pro|
 
