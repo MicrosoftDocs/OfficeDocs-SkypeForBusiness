@@ -399,7 +399,7 @@ Once you select your authorized users, select the **Submit** button at the botto
 ## Extra functionality available through PowerShell cmdlets
 
 > [!CAUTION]
-> These configuration options are currently only available through PowerShell cmdlets and do not appear in Teams admin center. If these options are configured through PowerShell, any changes to the Call queue through Teams admin center will erase these settings.
+> These configuration options are currently only available through PowerShell cmdlets and they don't appear in Teams admin center. If these options are configured through PowerShell, any changes to the Call queue through Teams admin center will erase these settings.
 
 ### Additional messaging
 
@@ -424,7 +424,7 @@ For more information, see:
 
 ### Hiding authorized users
 
-Hidden authorized users are authorized users who should not appear on the list of supervisors for the agents who are members of a particular call queue.
+Hidden authorized users are authorized users who shouldn't appear on the list of supervisors for the agents who are members of a particular call queue.
 
 Note that hidden authorized users aren't visible to Queues app users.
 
