@@ -25,9 +25,9 @@ description: Learn how admins can manage and control voice and face enrollment i
 
 # Overview of voice and face enrollment
 
-Voice and face enrollment is a feature in Microsoft Teams that allows users to create a voice and face profile. Voice and face enrollment is used to improve the audio quality and user experience of Teams meetings and calls. This feature helps to reduce background noise and secondary speakers and provides speaker attribution and MIcrosoft CoPilot accuracy in meeting rooms equipped with Microsoft Teams Rooms devices. Admins and security teams can manage and control this feature and ensure for which user the enrollment and usage of the profile are turned on.
+Voice and face enrollment is a feature in Microsoft Teams that allows users to create a voice and face profile. Voice and face enrollment is used to improve the audio quality and user experience of Teams meetings and calls. This feature helps to reduce background noise and secondary speakers and provides speaker attribution and Microsoft CoPilot accuracy in meeting rooms equipped with Microsoft Teams Rooms devices. Admins and security teams can manage and control this feature and ensure for which user the enrollment and usage of the profile are turned on.
 
-Users have the option to unenroll their profile, even if the admin disables enrollment for them. Users can save their information by staying enrolled so they are in full control of their voice and face data. See [Create Recognition profiles for Microsoft IntelliFrame](https://support.microsoft.com/office/create-recognition-profiles-for-microsoft-intelliframe-f0084478-52a7-4c52-bcdc-9063ed0e0bc0).
+Users can unenroll their profile, even if the admin disables enrollment for them. Users can save their information by staying enrolled so they are in full control of their voice and face data. See [Create Recognition profiles for Microsoft IntelliFrame](https://support.microsoft.com/office/create-recognition-profiles-for-microsoft-intelliframe-f0084478-52a7-4c52-bcdc-9063ed0e0bc0).
 
 This article covers:
 
@@ -36,7 +36,7 @@ This article covers:
 - [Data retention](#data-retention): The duration that Microsoft Teams keeps the voice and face profiles of users.
 - [Admin settings](#admin-settings): Admins can turn on or off voice and face enrollment for specific users, groups of users, or the whole organization. They can configure the feature using the Teams Admin Center and PowerShell.
 - [Data export:](#data-export): Admins can export the voice and face profiles of users for backup or migration purposes
-- [Frequently asked questions](#frequently-asked-questions): Common questons and answers.
+- [Frequently asked questions](#frequently-asked-questions): Common questions and answers.
 
 By providing detailed information on how Microsoft Teams stores and handles user data, this article aims to ensure peace of mind and control for IT admins, security teams, and legal teams.
 
@@ -45,9 +45,9 @@ By providing detailed information on how Microsoft Teams stores and handles user
 
 ## Enrollment process
 
-As long as the policy turns on enrollment for users and they are already enrolled, they can update their Voice and Face profile using the Teams Desktop app to enhance it and make their experience even better.
+If the policy turns on enrollment for users and they're already enrolled, they can update their Voice and Face profile using the Teams Desktop app to make their experience even better.
 
-By default, recoginition in the Microsoft Teams app is turned on. Users will go to **Setting** > **Recognition** to enroll their voice frist, and then their face. Users must enroll their voice first before they can enroll their face. They can't however, only enroll their face. If a user remove their voice profile, their face profile is removed automatically along with it. However, if users remove their face profile, only their face profile is removed and their voice profile is still there.
+By default, recognition in the Microsoft Teams app is turned on. In the Teams app users go to **Setting** > **Recognition** to enroll their voice first, and then their face. Users must enroll their voice first before they can enroll their face. They can't however, only enroll their face. If a user removes their voice profile, their face profile is removed automatically along with it. However, if users remove their face profile, only their face profile is removed and their voice profile is still there.
 
 Users can delete their voice and face profile at any time using the Teams desktop app, even if the policy for enrollment was turned off.
 
@@ -91,25 +91,25 @@ The language of the Teams app that is installed determines the voice enrollment 
 
 When a user enrolls in voice and face enrollment, Microsoft Teams captures their voice and face data to create a unique profile that is associated with their identity. The profile consists of a set of biometric features that can be used to enhance the user's voice in Teams meetings and calls and recognize them in meeting rooms with their voice and face.
 
-The voice and face data for users is stored and processed in the same region as their Microsoft Teams data. For example, if a user's Teams data is stored in the European Union, their voice and face data will also be stored and processed in the European Union. This ensures compliance with data sovereignty and privacy regulations in different regions.
+The voice and face data for users is stored and processed in the same region as their Microsoft Teams data. For example, if a user's Teams data is stored in the European Union, their voice and face data is stored and processed in the European Union. This ensures compliance with data sovereignty and privacy regulations in different regions.
 
 The voice and face data for users is encrypted at rest and in transit, and is protected by Microsoft's security and privacy policies and practices. Microsoft doesn't access or share the voice and face data of users with any third parties, unless required by law or with the user's consent.
 
 ## Data retention
 
-When a user is enrolled in the feature and has an active Teams account, Microsoft keeps their voice and face profiles. Their voice and face profile is removed right away if they unenroll from the feature. Their voice and face profile is removed within 90 days if their Teams account is deleted. Admins can also remove the voice and face profiles of users manually, either one by one or in bulk, using theTeams Admin Center or PowerShell. Once it's removed, it can't be reversed.
+When a user is enrolled in the feature and has an active Teams account, Microsoft keeps their voice and face profiles. Their voice and face profile is removed right away if they unenroll from the feature. Their voice and face profile is removed within 90 days if their Teams account is deleted. Admins can also remove the voice and face profiles of users manually, either one by one or in bulk, using theTeams Admin Center or PowerShell. Once its removed, it can't be reversed.
 
 If users enroll their voice or face profile, they can always choose to unenroll it later, even if the current assigned admin policy doesn't let them enroll.
 
-A voice and face profile that isn't used for one year will be removed automatically. The user will have to enroll again if they want to use the features.
+A voice and face profile that isn't used for one year will be removed automatically. The user has to enroll again if they want to use the features.
 
 When a user also uses Voice Isolation, a local copy of the voice signature is stored encrypted in the users profile on the PC or device. This signature expires after 30 days and will be replaced with a new download.
 
-If users leave the organization, the customer data will be deleted accordingly with the customer's data retention policy.
+If users leave the organization, the customer data is deleted accordingly with the customer's data retention policy.
 
 ## Admin settings
 
-Admins can turn on or off voice and face enrollment for specific users, groups of users, or the whole organization, depending on their audio and user experience needs. By default, voice and face enrollment is turned on for all users in the organization, but admins can change this setting using the Teams Admin Center or PowerShell.
+Admins can turn on or off voice and face enrollment for specific users, groups of users, or the whole organization, depending on the user's needs. By default, voice and face enrollment is turned on for all users in the organization, but admins can change this setting using the Teams Admin Center or PowerShell.
 
 To enable or disable voice and face enrollment for the entire organization, admins can go to **Teams Admin Center > Meetings > Meeting policies > Global (Org-wide default) > Voice and face enrollment**, and toggle the switch on or off. Alternatively, they can use the following PowerShell cmdlet:
 
@@ -123,7 +123,7 @@ To enable or disable voice and face enrollment for specific users, admins can ei
 Grant-CsTeamsMeetingPolicy -Identity  -PolicyName  -AllowVoiceAndFaceEnrollment $true or $false
 ```
 
-Admins have the option to manage how voice and face profiles are used to turn off Voice Isolation for users to enhance noise and voice background reduction admins can switch off voice isolation with PowerShell in the meeting policy.
+Admins can manage how voice and face profiles are used to turn off Voice Isolation for users to enhance noise and voice background reduction admins can switch off voice isolation with PowerShell in the meeting policy.
 
   -VoiceIsolation
 
@@ -148,20 +148,20 @@ Export-CsTeamsVoiceAndFaceProfile -Identity  -Path
 
 ## Frequently asked questions
 
-**Question:** With regards to the user's voice enrollments, where do you store the data?  
+**Question:** With regard to the user's voice enrollments, where do you store the data?  
 **Answer:** Voice data is stored in the Office 365 trusted compliance store.
 
 **Question:** Can both users and admins control the data being saved?  
-**Answer:** Yes, both users and admins have control over the data being saved. Users will be able to unenroll their voice. If users need to access their data, they would need to contact their admin. Users have full control of when to remove the data, and when a user selects unenroll from the Teams app, the data will be deleted immediately.
+**Answer:** Yes, both users and admins have control over the data being saved. Users are able to unenroll their voice. If users need to access their data, they would need to contact their admin. Users have full control of when to remove the data, and when a user selects unenroll from the Teams app, the data will be immediately deleted.
 
 **Question:** For how long do you keep the data?  
-**Answer:** The retention policy is 1 year. User's data will be deleted if it isn't used for 1 year.
+**Answer:** The retention policy is one year. User's data will be deleted if it isn't used for one year.
 
 **Question:** How is GDPR compliance ensured?  
-**Answer:** We will take care of the GDPR compliance, based on tenant regions mapping.
+**Answer:** We'll take care of the GDPR compliance, based on tenant regions mapping.
 
 **Question:** How does data stored and processed for crossed tenants?  
 **Answer:** We don't support getting data cross-tenant. We only retrieve data for in their tenant only.
 
 **Question:** Can users of different regions join meetings from different countries? How do we treat their data?  
-**Answer:** Yes, we will span across the request across different coutries and regions.
+**Answer:** Yes, we'll span across the request across different countries and regions.
