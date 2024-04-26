@@ -66,8 +66,8 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
   <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
   <SfbMeetingEnabled>false</SfbMeetingEnabled>
   <IsTeamsDefaultClient>true</IsTeamsDefaultClient>
-  <RequirePasscodeForAllTeamsMeetings>false</RequirePasscodeForAllTeamsMeetings
-<RequirePasscodeForAllPrivateTeamsMeetings>false</RequirePasscodeForAllPrivateTeamsMeetings>
+  <RequirePasscodeForAllTeamsMeetings>false</RequirePasscodeForAllTeamsMeetings>
+  <RequirePasscodeForAllPrivateTeamsMeetings>false</RequirePasscodeForAllPrivateTeamsMeetings>
   <WebExMeetingsEnabled>true</WebExMeetingsEnabled>
   <ZoomMeetingsEnabled>true</ZoomMeetingsEnabled>
   <BlueJeansMeetingsEnabled>true</BlueJeansMeetingsEnabled>
@@ -154,11 +154,11 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | `<TeamsMeetingsEnabled>` | Boolean &#x2777; | First &#x2776; | Disabled by default. <br/> <br/> The XML file is considered badly formed if both `<SkypeMeetingsEnabled>` and`<TeamsMeetingsEnabled>` are disabled, but it's acceptable to have both settings enabled at the same time. |
 | `<SfbMeetingEnabled>` | Boolean &#x2777; | First &#x2776; | Disabled by default. |
 | `<IsTeamsDefaultClient>` | Boolean &#x2777; | First &#x2776; | Enabled by default. |
-| `<RequirePasscodeForAllTeamsMeetings>` | Boolean &#x2777; | First &#x2776; | Disabled by default. <br/> <br/> If true, users are required to enter the correct meeting id and passcode to join all Teams meetings scheduled in the room. |
-| `<RequirePasscodeForAllPrivateTeamsMeetings>` | Boolean &#x2777; | First &#x2776; | Disabled by default. <br/> <br/> If true, users are required to enter the correct meeting id and passcode to join all **private** Teams meetings scheduled in the room. |
+| `<RequirePasscodeForAllTeamsMeetings>` | Boolean &#x2777; | First &#x2776; | Disabled by default. <br/> <br/> If true, users are required to enter the correct meeting id and passcode to join all Teams meetings scheduled in the room with a Microsoft Teams Room Pro license.|
+| `<RequirePasscodeForAllPrivateTeamsMeetings>` | Boolean &#x2777; | First &#x2776; | Disabled by default. <br/> <br/> If true, users are required to enter the correct meeting id and passcode to join all **private** Teams meetings scheduled in the room with a Microsoft Teams Room Pro license.|
 | `<WebExMeetingsEnabled>` | Boolean &#x2777; | First &#x2776; | Disabled by default. <br/> <br/> If true, enables direct guest join experience for Cisco Webex meetings. |
-| `<ZoomMeetingsEnabled>` | Boolean &#x2777; | First &#x2776; | Disabled by default. <br/> <br/> If true, enabled direct guest join experience for Zoom meetings. |
-| `<BlueJeansMeetingsEnabled>` | Boolean &#x2777; | First &#x2776; | Disabled by default. <br/> <br/> If true, enabled direct guest join experience for BlueJeans meetings. |
+| `<ZoomMeetingsEnabled>` | Boolean &#x2777; | First &#x2776; | Disabled by default. <br/> <br/> If true, enables direct guest join experience for Zoom meetings. |
+| `<BlueJeansMeetingsEnabled>` | Boolean &#x2777; | First &#x2776; | Disabled by default. <br/> <br/> If true, enables direct guest join experience for BlueJeans meetings. |
 | `<UseCustomInfoForThirdPartyMeetings>` | Boolean &#x2777; | First &#x2776; | Disabled by default and uses conference room account info to join third party meetings. <br/> <br/> If this value is set to true, you must specify both `<CustomDisplayNameForThirdPartyMeetings>`, `<CustomDisplayEmailForThirdPartyMeetings>` must be specified. |
 | `<CustomDisplayNameForThirdPartyMeetings>` | String  &#x2778; | First &#x2776; | Specify guest name used to join third party meetings. Third party service will display this data in their experience and may store in their service. |
 | `<CustomDisplayEmailForThirdPartyMeetings>` | String  &#x2778; | First &#x2776; | Specify guest email used to join third party meetings. Third party service will display this data in their experience and may store in their service. |
@@ -190,9 +190,9 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | `<EnablePublicPreview>` | Boolean &#x2777; | First &#x2776; | Disabled by default. If true, public preview is enabled and end-users can access features in public preview on enabled Teams Rooms. See [Public preview for Microsoft Teams Rooms on Windows](../public-preview-doc-updates.md#public-preview-for-microsoft-teams-rooms-on-windows) for more information. |
 | `<NoiseSuppressionDefault>` | String | First &#x2776; | Controls noise suppression levels in Teams.<br><ul><li><b>0</b> Off. Use OEM-provided noise suppression only.</li><li><b>1</b> High. Suppresses all background noises (stationary and non-stationary) that aren't speech.</li></ul> |
 | `<SendLogs>` | Container | First &#x2776; |  |
-|`<SendFeedbackToPMP>`| Boolean ❷ | First ❶ |Disabled by default. If true, when a room user sends feedback through Report a Problem, each feedback creates an event in Teams Rooms Pro Management portal.|
+|`<SendFeedbackToPMP>`| Boolean ❷ | First ❶ |Disabled by default. If true, when a user sends feedback through Report a Problem from a room with a Microsoft Teams Room Pro license, each feedback creates an event in the Teams Rooms Pro Management portal.|
 | `<EmailAddressForLogsAndFeedback>` | String  &#x2778; |  | Sets an email address that receives logs and feedback submitted using Report a problem. |
-| `<SendLogsAndFeedback>` | Boolean &#x2777; |  | Allows logs to be sent with feedback submitted usingReport a problem. To ensure logs and feedback with larger sizes are delivered, adjust the message size restriction for your mailboxes on the Exchange admin center. |
+| `<SendLogsAndFeedback>` | Boolean &#x2777; |  | Allows logs to be sent with feedback submitted using Report a problem. To ensure logs and feedback with larger sizes are delivered, adjust the message size restriction for your mailboxes on the Exchange admin center. |
 | `<Devices>` | Container | First &#x2776; | The connected audio device names in the child elements are the same values listed in the Device Manager app. The configuration can contain a device that does not presently exist on the system, such as an A/V device not currently connected to the console. The configuration would be retained for the respective device. |
 | `<MicrophoneForCommunication>` | String  &#x2778; |  | Sets the microphone used as the recording device in a conference. |
 | `<SpeakerForCommunication>` | String  &#x2778; |  | Device to be used as speaker for the conference. This setting is used to set the speaker device used in a call. |
