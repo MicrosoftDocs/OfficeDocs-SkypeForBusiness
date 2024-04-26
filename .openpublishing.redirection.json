@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "Teams/non-standard-users.md",
+      "redirect_url": "/microsoftteams/apps-external-users",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "Teams/manage-tasks-app.md",
       "redirect_url": "/microsoftteams/manage-planner-app",
       "redirect_document_id": true
@@ -4808,6 +4813,11 @@
 {
   "source_path": "Skype/SfbHybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online.md",
   "redirect_url": "/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud",
+  "redirect_document_id": false
+},
+{
+  "source_path": "Teams/tutorial-audio-conferencing.yml",
+  "redirect_url": "/microsoftteams/audio-conferencing-in-office-365",
   "redirect_document_id": false
 },
 {
