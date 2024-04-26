@@ -159,8 +159,8 @@ Below the headline **Metrics** is a table of rooms with corresponding metrics. S
 
 Usage is calculated at the end of each day at midnight (00:00) local time of the meeting room device. Utilization is calculated based on the total booked meeting time for that day divided by 8 hours.
 
-> > [!NOTE]
-> > The metrics for Panels that aren't sharing an account with Microsoft Teams Rooms aren't showing yet in the usage report.  
+> [!NOTE]
+> The metrics for Panels that aren't sharing an account with Microsoft Teams Rooms aren't showing yet in the usage report.  
 
 ## Usage details of a room
 
