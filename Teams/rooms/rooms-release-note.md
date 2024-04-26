@@ -66,7 +66,7 @@ Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: ico
 Introduced in this update:
 
 - **New Teams on Teams Rooms** - This update brings the New Teams available on Teams Desktop to Microsoft Teams Rooms on  Windows. With the new Teams app now a part of Teams Rooms on Windows, all Teams Rooms devices can now utilize available resources to optimize room experience and rendering intelligent audio and video more reliably. The New Teams app has parity of experiences, and in addition all new Teams rooms experiences are built on new Teams app.
-- **Zero Touch Deployment with Windows Autopilot and Pro Management Portal** :::image type="icon" source="../media/mtr-pro-icon.png":::. This update includes app support to enable the end-to-end deployment experience. To test this, please reach out to your Microsoft account team to sign up for early access to the Teams Pro Management poral Autologin preview.
+- **Zero Touch Deployment with Windows Autopilot and Pro Management Portal** :::image type="icon" source="../media/mtr-pro-icon.png":::. This update includes app support to enable the end-to-end deployment experience. To test this, please reach out to your Microsoft account team to sign up for early access to the Teams Pro Management portal Autologin preview.
 - **Ability to change language on Microsoft Teams Rooms on Windows**. With this new feature, end users can change the language of the Microsoft Teams Rooms on the Microsoft Windows app. The language choices offered are the same as those that are offered in the Microsoft Teams desktop app. The language is reverted to the default language when it restarts.
 - **Skype for business deprecation**. Back with the release of app 4.19.57.0, we had announced the end of support for Skype for Business (Server and Online) on Microsoft Teams Rooms. With this update, we have retired the XML settings for SfB as well as ability to sign in or support to Skype for Business meetings. 
 - **Meeting Chat shown by default in Gallery View for Teams Rooms on Windows**. Meeting Chat is now shown by default when joining a Teams meeting with Teams Rooms on Windows in Gallery View, making it easier to see incoming chat messages on the front of room display. Admins can configure the default chat experience for a room, and users can make in-meeting changes to show or hide the chat using the touch console. 
@@ -684,7 +684,7 @@ Introduced in this update:
 
 |Release  |Release date  |
 |---------|---------|
-|[1449/1.0.96.2024042302](#144910962024042302-april-2024) | April 2024 |
+|[1449/1.0.96.2024042506](#144910962024042506-april-2024) | April 2024 |
 |[1449/1.0.96.2024032804](#144910962024032804-april-2024) | April 2024 |
 |[1449/1.0.96.2024030101](#144910962024030101-march-2024) | March 2024 |
 |[1449/1.0.96.2024020802](#144910962024020802-february-2024) | February 2024 |
@@ -712,7 +712,7 @@ Introduced in this update:
 
 Features with :::image type="icon" source="../media/mtr-pro-icon.png"::: are only available with Teams Rooms Pro license.
 
-### 1449/1.0.96.2024042302 (April 2024)
+### 1449/1.0.96.2024042506 (April 2024)
 
 Introduced in this update:
 
