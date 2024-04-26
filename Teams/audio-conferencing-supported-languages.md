@@ -36,52 +36,52 @@ When setting up Audio Conferencing in Microsoft 365 or Office 365, you can choos
   
 ## Currently supported languages
 
-|**Language**|**Country/Region**|**Culture ID**|
+| Language | Country/Region | Culture ID 
 |:-----|:-----|:-----|
-|Arabic  <br/> |Saudi Arabia  <br/> |ar-SA  <br/> |
-|Bulgarian  <br/> |Bulgaria  <br/> |bg-BG  <br/> |
-|Cantonese  <br/> |Hong Kong SAR  <br/> |zh-HK  <br/> |
-|Chinese (Simplified)  <br/> |China  <br/> |zh-CN  <br/> |
-|Chinese (Traditional)  <br/> |Taiwan  <br/> |zh-TW  <br/> |
-|Croatian  <br/> |Croatia  <br/> |hr-HR  <br/> |
-|Czech  <br/> |Czech Republic  <br/> |cs-CZ  <br/> |
-|Danish  <br/> |Denmark  <br/> |da-DK  <br/> |
-|Dutch  <br/> |Netherlands  <br/> |nl-NL  <br/> |
-|English  <br/> |Australia  <br/> |en-AU  <br/> |
-|English  <br/> |United Kingdom  <br/> |en-GB  <br/> |
-|English  <br/> |United States  <br/> |en-US  <br/> |
-|Estonian  <br/> |Estonia  <br/> |et-EE  <br/> |
-|Filipino  <br/> |Philippines  <br/> |fil-PH  <br/> |
-|Finnish  <br/> |Finland  <br/> |fi-FL  <br/> |
-|French  <br/> |Canada  <br/> |fr-CA  <br/> |
-|French  <br/> |France  <br/> |fr-FR  <br/> |
-|German  <br/> |Germany  <br/> |de-DE  <br/> |
-|Georgian  <br/> |Georgia  <br/> |ka-GE  <br/> |
-|Greek  <br/> |Greece  <br/> |el-GR  <br/> |
-|Hebrew  <br/> | Israel <br/> | he-IL <br/> |
-|Hindi  <br/> |India  <br/> |hi-IN  <br/> |
-|Hungarian  <br/> |Hungary  <br/> |hu-HU  <br/> |
-|Indonesian  <br/> |Indonesia  <br/> |id-ID  <br/> |
-|Italian  <br/> |Italy  <br/> | it-IT <br/> |
-|Japanese  <br/> |Japan  <br/> |ja-JP  <br/> |
-|Korean  <br/> |Korea  <br/> |ko-KR  <br/> |
-|Latvian  <br/> |Latvia  <br/> |lv-LV  <br/> |
-|Lithuanian  <br/> |Lithuania  <br/> |lt-LT  <br/> |
-|Malay  <br/> |Malaysia  <br/> |ms-MY  <br/> |
-|Norwegian (Bokmal)  <br/> |Norway  <br/> |nb-NO  <br/> |
-|Polish  <br/> |Poland  <br/> |pl-PL  <br/> |
-|Portuguese  <br/> |Brazil  <br/> |pt-BR  <br/> |
-|Portuguese  <br/> |Portugal  <br/> |pt-PT  <br/> |
-|Romanian  <br/> |Romania  <br/> |ro-RO  <br/> |
-|Russian  <br/> |Russia  <br/> |ru-RU  <br/> |
-|Slovak  <br/> |Slovakia  <br/> |sk-SK  <br/> |
-|Slovenian  <br/> |Slovenia  <br/> |sk-SK  <br/> |
-|Spanish  <br/> |Mexico  <br/> |es-MX  <br/> |
-|Spanish  <br/> |Spain  <br/> |es-ES  <br/> |
-|Swedish  <br/> |Sweden  <br/> |sv-SE  <br/> |
-|Thai  <br/> |Thailand  <br/> |th-TH  <br/> |
-|Turkish  <br/> |Türkiye  <br/> |tr-TR  <br/> |
-|Ukrainian  <br/> |Ukraine  <br/> |uk-UA  <br/> |
+|Arabic |Saudi Arabia |ar-SA |
+|Bulgarian |Bulgaria |bg-BG |
+|Cantonese |Hong Kong SAR |zh-HK |
+|Chinese (Simplified) |China |zh-CN |
+|Chinese (Traditional) |Taiwan |zh-TW |
+|Croatian |Croatia |hr-HR |
+|Czech |Czech Republic |cs-CZ |
+|Danish |Denmark |da-DK |
+|Dutch |Netherlands |nl-NL |
+|English |Australia |en-AU |
+|English |United Kingdom |en-GB |
+|English |United States |en-US |
+|Estonian |Estonia |et-EE |
+|Filipino |Philippines |fil-PH |
+|Finnish |Finland |fi-FL |
+|French |Canada |fr-CA |
+|French |France |fr-FR |
+|German |Germany |de-DE |
+|Georgian |Georgia |ka-GE |
+|Greek |Greece |el-GR |
+|Hebrew | Israel <br/> | he-IL <br/> |
+|Hindi |India |hi-IN |
+|Hungarian |Hungary |hu-HU |
+|Indonesian |Indonesia |id-ID |
+|Italian |Italy | it-IT <br/> |
+|Japanese |Japan |ja-JP |
+|Korean |Korea |ko-KR |
+|Latvian |Latvia |lv-LV |
+|Lithuanian |Lithuania |lt-LT |
+|Malay |Malaysia |ms-MY |
+|Norwegian (Bokmal) |Norway |nb-NO |
+|Polish |Poland |pl-PL |
+|Portuguese |Brazil |pt-BR |
+|Portuguese |Portugal |pt-PT |
+|Romanian |Romania |ro-RO |
+|Russian |Russia |ru-RU |
+|Slovak |Slovakia |sk-SK |
+|Slovenian |Slovenia |sk-SK |
+|Spanish |Mexico |es-MX |
+|Spanish |Spain |es-ES |
+|Swedish |Sweden |sv-SE |
+|Thai |Thailand |th-TH |
+|Turkish |Türkiye |tr-TR |
+|Ukrainian |Ukraine |uk-UA |
 
 If you're looking for countries/regions where you can purchase Audio Conferencing, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
