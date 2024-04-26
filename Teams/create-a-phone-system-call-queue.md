@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
-ms.date: 01/16/2024
+ms.date: 04/26/2024
 ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
@@ -424,7 +424,9 @@ For more information, see:
 
 ### Hiding authorized users
 
-Hidden authorized users aren't visible to Queues app users.
+Hidden authorized users are authorized users who should not appear on the list of supervisors for the agents who are members of a particular call queue.
+
+Note that hidden authorized users aren't visible to Queues app users.
 
 For more information, see:
 
