@@ -1,7 +1,7 @@
 ---
 title: "Enable users to record their name for a meeting"
-ms.author: wlibebe
-author: wlibebe
+ms.author: jenz
+author: jenzamora
 manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 12/14/2023
@@ -9,6 +9,7 @@ ms.topic: article
 ms.assetid: 1d649328-ada7-422d-a074-d6da4da36970
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
