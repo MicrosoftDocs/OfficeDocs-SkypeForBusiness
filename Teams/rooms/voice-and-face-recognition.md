@@ -125,7 +125,9 @@ Grant-CsTeamsMeetingPolicy -Identity  -PolicyName  -AllowVoiceAndFaceEnrollment 
 
 Admins can manage how voice and face profiles are used to turn off Voice Isolation for users to enhance noise and voice background reduction admins can switch off voice isolation with PowerShell in the meeting policy.
 
+```powershell
   -VoiceIsolation
+```
 
 Determines whether you provide support for your users to enable voice isolation in Teams meeting calls.
 
@@ -133,8 +135,8 @@ Possible values are: Enabled (default) \| Disabled
 
 To prevent recognition of users in meeting rooms, admins can turn off (default) face and voice identification on the Microsoft Teams room account in the meeting policy.
 
-  roomPeopleNameUserOverride = On | Off (default)
-  roomAttributeUserOverride = Attribute | Off (default)
+- roomPeopleNameUserOverride = On | Off (default)
+- roomAttributeUserOverride = Attribute | Off (default)
 
 ## Data export
 
