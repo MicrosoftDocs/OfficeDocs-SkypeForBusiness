@@ -66,6 +66,8 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
   <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
   <SfbMeetingEnabled>false</SfbMeetingEnabled>
   <IsTeamsDefaultClient>true</IsTeamsDefaultClient>
+  <RequirePasscodeForAllTeamsMeetings>false</RequirePasscodeForAllTeamsMeetings>
+  <RequirePasscodeForAllPrivateTeamsMeetings>false</RequirePasscodeForAllPrivateTeamsMeetings>
   <WebExMeetingsEnabled>true</WebExMeetingsEnabled>
   <ZoomMeetingsEnabled>true</ZoomMeetingsEnabled>
   <BlueJeansMeetingsEnabled>true</BlueJeansMeetingsEnabled>
@@ -93,7 +95,8 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
     <EmailAddressForLogsAndFeedback>username@microsoft.com</EmailAddressForLogsAndFeedback>
     <SendLogsAndFeedback>true</SendLogsAndFeedback>
   </SendLogs>
-  <Devices>
+ <SendFeedbackToPMP>true</SendFeedbackToPMP>
+ <Devices>
     <MicrophoneForCommunication>Device1</MicrophoneForCommunication>
     <SpeakerForCommunication>DeviceX</SpeakerForCommunication>
     <DefaultSpeaker>DeviceX</DefaultSpeaker>
@@ -151,6 +154,8 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | `<TeamsMeetingsEnabled>` | Boolean &#x2777; | First &#x2776; | Disabled by default. <br/> <br/> The XML file is considered badly formed if both `<SkypeMeetingsEnabled>` and`<TeamsMeetingsEnabled>` are disabled, but it's acceptable to have both settings enabled at the same time. |
 | `<SfbMeetingEnabled>` | Boolean &#x2777; | First &#x2776; | Disabled by default. |
 | `<IsTeamsDefaultClient>` | Boolean &#x2777; | First &#x2776; | Enabled by default. |
+| `<RequirePasscodeForAllTeamsMeetings>` | Boolean &#x2777; | First &#x2776; | Disabled by default. <br/> <br/> If true, users are required to enter the correct meeting id and passcode to join all Teams meetings in the room. |
+| `<RequirePasscodeForAllPrivateTeamsMeetings>` | Boolean &#x2777; | First &#x2776; | Disabled by default. <br/> <br/> If true, users are required to enter the correct meeting id and passcode to join private Teams meetings in the room. |
 | `<WebExMeetingsEnabled>` | Boolean &#x2777; | First &#x2776; | Disabled by default. <br/> <br/> If true, enables direct guest join experience for Cisco Webex meetings. |
 | `<ZoomMeetingsEnabled>` | Boolean &#x2777; | First &#x2776; | Disabled by default. <br/> <br/> If true, enabled direct guest join experience for Zoom meetings. |
 | `<BlueJeansMeetingsEnabled>` | Boolean &#x2777; | First &#x2776; | Disabled by default. <br/> <br/> If true, enabled direct guest join experience for BlueJeans meetings. |
