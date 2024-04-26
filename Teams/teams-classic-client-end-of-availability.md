@@ -35,6 +35,8 @@ This rollout is going to differ based on your Teams Admin Center policy controls
 
 **Native clients excluding VDI**:
 
+The end of support for the classic Teams client starts July 1, 2024. The end of availability for the classic Teams client starts July 1, 2025.
+
 :::image type="content" source="media/teams-client-eoa-timeline.png" alt-text="A chart showing the timelines for classic Teams to new Teams.":::
 
 **VDI timeline**:
