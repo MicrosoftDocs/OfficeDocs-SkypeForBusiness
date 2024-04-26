@@ -1,10 +1,10 @@
 ---
-title: Stream Teams meetings
+title: Live streaming Teams meetings
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.reviewer: 
-ms.date: 08/12/2021
+ms.reviewer: bryannyce
+ms.date: 04/26/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,7 +23,7 @@ ms.collection:
 description: Learn how to set up and manage streaming for your Teams meetings.
 ---
 
-# Stream Teams meetings
+# Live streaming Teams meetings
 
 Streaming allows your organization to expand your reach and gives meeting attendees more meeting options. When you enable streaming, organizers can stream meetings and webinars to external endpoints by providing a Real-Time Messaging Protocol (RTMP) URL and key to the built-in Custom Streaming app in Teams.
 
@@ -36,8 +36,6 @@ To turn on live streaming
 1. Under **Audio & video**, set **Live streaming** to **On**.
 1. Select **Save**.
 
-> [!IMPORTANT]
-> You have to turn on meeting registration before your organizers can stream webinars. For more information, see [Set up webinars](set-up-webinars.md).
 
 #### Set up streaming with PowerShell
 
