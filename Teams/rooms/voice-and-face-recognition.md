@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: pamgreen
 ms.reviewer: parisataheri  
-ms.date: 04/21/2024  
+ms.date: 04/26/2024  
 ms.topic: article
 audience: admin
 appliesto: 
@@ -25,11 +25,11 @@ ai-usage:
 description: Learn how admins can manage and control voice and face enrollment in Microsoft Teams to ensure data privacy and a better user experience.
 ---
 
-## Voice and face enrollment
+## Overview of voice and face enrollment
 
 Voice and face enrollment is a feature in Microsoft Teams that allows users to create a voice and face profile that can be used to improve the audio quality and user experience of Teams meetings and calls. This feature can help to reduce background noise and secondary speakers, as well as provide speaker attribution and CoPilot accuracy in meeting rooms that are equipped with Microsoft Teams Rooms devices. IT Admins and Security teams can manage and control this feature and ensure for which user the enrollment and usage of the profile are enabled.
 
-Users always have the option to unenroll their profile, even if the admin disables enrollment for them, to keep the user in full control of their voice and face data. See [Create Recognition profiles for Microsoft IntelliFrame](office/create-recognition-profiles-for-microsoft-intelliframe).
+Users always have the option to unenroll their profile, even if the admin disables enrollment for them, to keep the user in full control of their voice and face data. See [Create Recognition profiles for Microsoft IntelliFrame](/office/create-recognition-profiles-for-microsoft-intelliframe).
 
 In this article we will cover:
 
@@ -110,13 +110,13 @@ Admins can enable or disable voice and face enrollment for their organization or
 
 To enable or disable voice and face enrollment for the entire organization, IT Admins can go to **Teams Admin Center > Meetings > Meeting policies > Global (Org-wide default) > Voice and face enrollment**, and toggle the switch on or off. Alternatively, they can use the following PowerShell cmdlet:
 
-``` Powershell
+```Powershell
 Set-CsTeamsMeetingPolicy -Identity Global -AllowVoiceAndFaceEnrollment $true or $false
 ```
 
 To enable or disable voice and face enrollment for specific users, IT Admins can either assign a custom meeting policy to the users or use the following PowerShell cmdlet:
 
-``` Powershell
+```Powershell
 Grant-CsTeamsMeetingPolicy -Identity  -PolicyName  -AllowVoiceAndFaceEnrollment $true or $false
 ```
 
@@ -139,9 +139,10 @@ Admins (including TenantAdministrator, TeamsServiceAdministrator, and GlobalRead
 
 To export the voice and face profiles of users using the Teams Admin Center, admins can go to **Users > select the users > Voice and face enrollment > Export profiles**. Alternatively, they can use the following PowerShell cmdlet:
 
-``` Powershell
+```Powershell
 Export-CsTeamsVoiceAndFaceProfile -Identity  -Path 
 ```
+
 ## Frequently asked questions
 
 **Question:** With regards to the user's voice enrollments, where do you store the data?  
