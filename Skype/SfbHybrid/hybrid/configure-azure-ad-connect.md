@@ -44,7 +44,7 @@ Microsoft Entra Connect keeps your on-premises Active Directory continuously syn
 
 ### General requirements
 
-For an on-premises deployment of Skype for Business Server to co-exist with Teams, certain Active Directory attributes from the on-premises deployment must be synchronized into Microsoft Entra ID using Microsoft Entra Connect. Setup for Microsoft Entra Connect automatically configures the required attributes to be synchronized by default when it detects the presence of Skype for Business Server in your on-premises environment. These attributes include general identity attributes, such as user principal name, as well as attributes prefaced with "msRTCSIP," which are specific to Skype For Business Server. The full set of attributes is listed at [Microsoft Entra Connect Sync: Attributes synchronized to Microsoft Entra ID](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized#teams-and-skype-for-business-online).
+For an on-premises deployment of Skype for Business Server to coexist with Teams, certain Active Directory attributes from the on-premises deployment must be synchronized into Microsoft Entra ID using Microsoft Entra Connect. Setup for Microsoft Entra Connect automatically configures the required attributes to be synchronized by default when it detects the presence of Skype for Business Server in your on-premises environment. These attributes include general identity attributes, such as user principal name, and attributes prefaced with "msRTCSIP," which are specific to Skype For Business Server. The full set of attributes is listed at [Microsoft Entra Connect Sync: Attributes synchronized to Microsoft Entra ID](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized#teams-and-skype-for-business-online).
 
 If you choose to customize the synchronization settings in Microsoft Entra Connect, you must ensure that the following attributes are synchronized for user objects:
 </br>
@@ -58,7 +58,7 @@ If you choose to customize the synchronization settings in Microsoft Entra Conne
 
 </br>
 </br>
-In addition, if you are managing phone system attributes through your on-premises deployment, you must also synchronize the following attributes:
+In addition, if you're managing phone system attributes through your on-premises deployment, you must also synchronize the following attributes:
 
 |Attribute|Description|
 |:---|:---|
@@ -68,33 +68,33 @@ In addition, if you are managing phone system attributes through your on-premise
 |||
 
 </br>
-Microsoft recommends that you synchronize all forests that contain user identities as well as any forests that contain Skype for Business Server. If users’ identities exist across multiple forests, Microsoft Entra Connect should do the merge. When this guidance is followed, Microsoft Entra Connect will automatically synchronize the correct attributes, provided you do not modify either the Connectors or Sync Rules in Microsoft Entra Connect.
+Microsoft recommends that you synchronize all forests that contain user identities and any forests that contain Skype for Business Server. If users’ identities exist across multiple forests, Microsoft Entra Connect should do the merge. When this guidance is followed, Microsoft Entra Connect will automatically synchronize the correct attributes, provided you don't modify either the Connectors or Sync Rules in Microsoft Entra Connect.
   
-If you do not synchronize from all forests that contain user identities and the Skype for Business Server deployment, you must ensure the relevant identity and Skype for Business attributes are correctly populated into Microsoft Entra ID for any user using Teams or Skype for Business (whether on-premises or online). This will likely require additional on-premises directory synchronization. For more information, see [Microsoft Entra Connect Sync: Attributes synchronized to Microsoft Entra ID](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized).
+If you don't synchronize from all forests that contain user identities and the Skype for Business Server deployment, you must ensure the relevant identity and Skype for Business attributes are correctly populated into Microsoft Entra ID for any user using Teams or Skype for Business (whether on-premises or online). This will likely require more on-premises directory synchronization. For more information, see [Microsoft Entra Connect Sync: Attributes synchronized to Microsoft Entra ID](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized).
 
-It is the customer’s responsibility to ensure proper configuration for populating the attributes into Microsoft Entra ID. Keep the following in mind:
+It's the customer’s responsibility to ensure proper configuration for populating the attributes into Microsoft Entra ID. Keep the following in mind:
 
-- Using a non-standard configuration for synchronizing to Microsoft Entra ID is risky. Nonstandard configurations could cause data corruption in your online directory.
+- Using a nonstandard configuration for synchronizing to Microsoft Entra ID is risky. Nonstandard configurations could cause data corruption in your online directory.
 
 - As products evolve, Microsoft will continue to verify standard synchronization configurations in which all relevant forests are synchronized. Customers with custom synchronization configurations are responsible for ensuring their configurations deliver the correct attributes and values into Microsoft Entra ID.
 
-Whether you have one on-premises Active Directory forest or multiple forests, Microsoft Entra Connect can be used in a variety of supported topologies, as described in [Topologies for Microsoft Entra Connect](/azure/active-directory/hybrid/plan-connect-topologies). From the perspective of Skype for Business Server, there are three variations:
+Whether you have one on-premises Active Directory forest or multiple forests, Microsoft Entra Connect can be used in various supported topologies, as described in [Topologies for Microsoft Entra Connect](/azure/active-directory/hybrid/plan-connect-topologies). From the perspective of Skype for Business Server, there are three variations:
 
 1. A single forest, which contains authoritative user identities and hosts Skype for Business Server.
 
-2. Multiple forests, only one of which hosts Skype for Business Server, as well as one or more other forests that contain authoritative user identities (the account forests).
+2. Multiple forests, only one of which hosts Skype for Business Server, and one or more other forests that contain authoritative user identities (the account forests).
 
 3. Multiple deployments of Skype for Business Server in multiple forests. Provided certain requirements are met, organizations can consolidate these multiple deployments into a single Microsoft 365 organization.
 
 ### Single forest
 
-If user accounts and Skype for Business are all hosted in a single forest, you must ensure that Microsoft Entra Connect is configured to synchronize users from this forest into Microsoft Entra ID.  By default, the appropriate attributes will automatically be synchronized into Microsoft Entra ID. Customers are advised against modifying the built-in synchronization rules and/or connectors that manage the configuration (which is not possible from the installation wizard).  
+If user accounts and Skype for Business are all hosted in a single forest, you must ensure that Microsoft Entra Connect is configured to synchronize users from this forest into Microsoft Entra ID.  By default, the appropriate attributes will automatically be synchronized into Microsoft Entra ID. Customers are advised against modifying the built-in synchronization rules and/or connectors that manage the configuration (which isn't possible from the installation wizard).  
 
 ### Multiple forests with one Skype for Business deployment
 
 This scenario is often referred to as a resource forest topology. Users’ authoritative identities are hosted in one or more account forests, and Skype for Business is deployed in a separate resource forest (which itself may also host authoritative user identities). In general, Skype for Business users’ authoritative identities can be in the same forest as Skype for Business Server and/or in another forest, provided:
 
-- Users with authoritative identities from the account forest(s) are represented in the resource forest (where Skype for Business Server is deployed) as disabled user objects. The msRTCSIP-OriginatorSID attribute in the resource forest must match the SID in the account forest. For more details see [Configure a multi-forest environment for hybrid Skype for Business](configure-a-multi-forest-environment-for-hybrid.md).
+- Users with authoritative identities from the account forest(s) are represented in the resource forest (where Skype for Business Server is deployed) as disabled user objects. The msRTCSIP-OriginatorSID attribute in the resource forest must match the SID in the account forest. For more details, see [Configure a multi-forest environment for hybrid Skype for Business](configure-a-multi-forest-environment-for-hybrid.md).
 
 - The resource forest hosting Skype for Business Server trusts the account forest(s).  
 

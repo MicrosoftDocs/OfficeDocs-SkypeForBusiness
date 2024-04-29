@@ -15,14 +15,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d6ea5158-aaa0-4c2f-aeac-c0dfa1718d7c
 ROBOTS: NOINDEX, NOFOLLOW
-description: "To begin the installation, or to update an existing deployment of Skype for Business Server, click Install or Update Skype for Business Server. The steps in this section will install components specific to a given server role, based on the Topology Builder document. Before you begin this series of steps, you must define the deployment in Topology Builder. You must be logged into the computer that you are deploying as the local administrator and as a member of the Domain Admins group in the domain where the server is located. The computer must be joined to the domain prior to completing this step."
+description: "To begin the installation, or to update an existing deployment of Skype for Business Server, select Install, or Update Skype for Business Server. The steps in this section installs components specific to a given server role, based on the Topology Builder document. Before you begin this series of steps, you must define the deployment in Topology Builder. You must be logged into the computer that you're deploying as the local administrator and as a member of the Domain Admins group in the domain where the server is located. The computer must be joined to the domain before completing this step."
 ---
 
 # Install or Update Skype for Business Server System
 
-To begin the installation, or to update an existing deployment of Skype for Business Server, click **Install or Update Skype for Business Server**. The steps in this section will install components specific to a given server role, based on the Topology Builder document. Before you begin this series of steps, you must define the deployment in Topology Builder. You must be logged into the computer that you are deploying as the local administrator and as a member of the Domain Admins group in the domain where the server is located. The computer must be joined to the domain prior to completing this step.
+To begin the installation, or to update an existing deployment of Skype for Business Server, select **Install or Update Skype for Business Server**. The steps in this section install components specific to a given server role, based on the Topology Builder document. Before you begin this series of steps, you must define the deployment in Topology Builder. You must be logged into the computer that you're deploying as the local administrator and as a member of the Domain Admins group in the domain where the server is located. The computer must be joined to the domain prior to completing this step.
 
-If you are updating a currently deployed server, you must make the changes that you intend to make in Topology Builder.
+If you're updating a currently deployed server, you must make the changes that you intend to make in Topology Builder.
 
 ## See also
 
