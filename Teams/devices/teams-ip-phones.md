@@ -51,9 +51,9 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
-| AudioCodes C470HD | `1.8.293`  |October 31, 2024  | 9 |
-| AudioCodes C435HD    | `1.12.33`     | October 31, 2024 | 9 |
-| AudioCodes C455HD    | `1.14.404`    | October 31, 2024 | 9 |
+| AudioCodes C470HD | `2.1.87`  |October 4, 2026  | 12 |
+| AudioCodes C435HD    | `2.1.673`     | October 4, 2026 | 12 |
+| AudioCodes C455HD    | `2.1.638`    | October 4, 2026 | 12 |
 | Poly CCX350  | `8.0.1.4670`  | 	October 31, 2024 | 9 |
 | Poly CCX505  | `7.3.1.0811`  | 	October 31, 2024 | 9 |
 | Poly Trio C60, Trio C60 NR, Trio C60 ND | `5.9.3.6155` | October 31, 2024             | 9 |
