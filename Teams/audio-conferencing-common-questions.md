@@ -1,7 +1,7 @@
 ---
 title: "Audio Conferencing common questions"
-ms.author: jtremper
-author: jacktremper
+ms.author: jenz
+author: jenzamora
 manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 02/21/2024
@@ -10,6 +10,7 @@ ms.assetid: a90ea695-aabf-4f10-ae92-24b3f6b27c56
 ms.tgt.pltfrm: cloud
 audience: admin
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
@@ -70,11 +71,11 @@ For a current list of countries/regions, see [Phone numbers for Audio Conferenci
 
 The maximum length of time depends on who is in the meeting and the type of authentication they used to join the meeting.
   
-|**Meeting attendees**|**Meeting end time**|
+| Meeting attendees | Meeting end time |
 |:-----|:-----|
-|Users joined using the Teams app or dialed in to the meeting.  <br/> |The meeting ends if there are no changes to the attendee list after 24 hours.  <br/> |
-|All of the users are dialed in to the meeting but someone used a PIN to enter the meeting.  <br/> |The meeting ends after 24 hours.  <br/> |
-|All of the users are dialed in to the meeting but there wasn't anyone who used a PIN to enter the meeting.  <br/> | If anonymous users are allowed to start meetings, the meeting ends after four hours. If anonymous users aren't allowed to start meetings and all authenticated participants left the meeting, the meeting ends 90 minutes after the last authenticated participant left. <br/> |
+|Users joined using the Teams app or dialed in to the meeting.  <br/> |The meeting ends if there are no changes to the attendee list after 24 hours. |
+|All of the users are dialed in to the meeting but someone used a PIN to enter the meeting.  <br/> |The meeting ends after 24 hours. |
+|All of the users are dialed in to the meeting but there wasn't anyone who used a PIN to enter the meeting.  <br/> | If anonymous users are allowed to start meetings, the meeting ends after four hours. If anonymous users aren't allowed to start meetings and all authenticated participants left the meeting, the meeting ends 90 minutes after the last authenticated participant left. |
 
 ## How many total phone participants can I have in meetings?
 
