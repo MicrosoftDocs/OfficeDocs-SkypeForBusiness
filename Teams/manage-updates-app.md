@@ -111,7 +111,8 @@ The Updates app is available by default. You can disable the app in the Teams ad
   4. Select **Updates**.
 
   5. Select the toggle to disable the app for your organization.
-    [![Image of the toggle to enable or disable Updates.](media/toggle-updates.png)](media/toggle-updates.png#lightbox)
+
+     [![Image of the toggle to enable or disable Updates.](media/toggle-updates.png)](media/toggle-updates.png#lightbox)
 
 ## Pin Updates to Teams
 
