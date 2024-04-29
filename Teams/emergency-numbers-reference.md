@@ -28,7 +28,7 @@ ms.custom: seo-marvel-mar2020
 
 The following table lists emergency numbers for countries.
 
-|Country Name (The full country name)|IsoCountryCode|Emergency Numbers (The list of emergency numbers that Microsoft will maintain)|
+|Country|ISO Country Code|Emergency Numbers|
 |---|---|---|
 |Angola|AO|111<br>115<br>116|
 |Argentina|AR|109<br>911<br>100<br>101<br>106<br>107<br>128|
