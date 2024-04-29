@@ -93,7 +93,7 @@ To enable your users to join meetings using QR codes:
 
    1. Teams Rooms on Windows - version 5.0.111.0 or later
       
-   1. Teams Rooms on Android - version 1449/1.0.96.2024042302 or later  
+   1. Teams Rooms on Android - version 1449/1.0.96.2024042506 or later  
       
 1. Your users' mobile devices must have the following app version installed:
 
