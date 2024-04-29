@@ -1,11 +1,11 @@
 ---
 title: Manage the Approvals app in Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
+author: Lana-Chin
+ms.author: v-chinlana
 manager: jtremper
 ms.reviewer: corod
-ms.date: 05/11/2023
-ms.topic: how-to
+ms.date: 04/30/2024
+ms.topic: conceptual
 audience: admin
 ms.service: msteams
 searchScope:
@@ -54,7 +54,7 @@ To deploy the Approvals app, you need permission for the following items:
 
 - Administrator role in the target environment.
 
-- License for [Power Automate](/power-automate/get-started-approvals), Office 365, or Dynamics 365.
+- License for [Power Automate](/power-automate/get-started-approvals), Microsoft 365, or Dynamics 365.
 
 - License for Microsoft Forms is required for users to set up new approval templates.
 
@@ -69,7 +69,7 @@ Learn more about the [Approval workflow](/power-automate/modern-approvals).
 Approvals that are created from a template still store data in Microsoft Dataverse, such as their title, details, template ID, and more. Responses that are submitted on the approval request are stored in Forms. Learn more about [Data storage for Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
 
 >[!Note]
->If you delete the Form template on the Microsoft Forms site, it'll break your Approval template and users are unable to start the request. Users get an error "CDB TableNotFound" when trying to open an Approval template that is deleted on Microsoft Forms.
+>If you delete the Form template on the Microsoft Forms site, it'll break your Approval template and users are unable to start the request. Users get a "CDB TableNotFound" error when trying to open an Approval template that is deleted on Microsoft Forms.
 
 Org-scoped templates share the same lifetime of the tenant and team-scoped templates share the same lifetime of the team. So, permanently deleting the team deletes the related templates.
 
@@ -92,9 +92,9 @@ The Approvals Teams app lets you access the following features:
 - Send messages and notifications in a channel.
 
 - Access your team's information:
-  - team name
-  - channel list
-  - roster (team member's names and email addresses).
+  - Team name
+  - Channel list
+  - Roster (team member's names and email addresses)
 
 - Use the team's information to contact them.
 
@@ -116,14 +116,14 @@ The Approvals app is available by default. You can disable the app in the Teams 
   2. Go to **Teams apps** > **Manage apps**.
 
   3. Search for the Approvals app.
-
-     ![shows the Admin center navigation with Teams Apps > Manage Apps highlighted.](media/manage-approval-apps.png)
+  
+      :::image type="content" alt-text="The Manage apps page of the Teams admin center, showing the Approvals app." source="media/manage-approval-apps.png" lightbox="media/manage-approval-apps.png":::
 
   4. Select **Approvals**.
 
   5. Select the toggle to disable the app for your organization.
 
-     :::image type="content" alt-text="shows the details for the Approvals app." source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
+     :::image type="content" alt-text="Details for the Approvals app in the Teams admin center." source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
 
 ## Pin Approvals to Teams
 
@@ -139,15 +139,15 @@ To learn more, including how the experience works with app policies that you set
 
 App setup policies let you customize Teams to pin apps that are most important for your users in your users.
 
-To pin the Approvals app for your users, you can edit the global (Org-wide default) policy or create and assign a custom policy in app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
+To pin the Approvals app for your users, you can edit the global (Org-wide default) policy or create and assign a custom policy in app setup policy. To learn more, see [Use app setup policies to pin and auto install apps for users](teams-app-setup-policies.md).
 
 ## Retention policy
 
-Approvals created from the Approvals app are stored in the default Microsoft Dataverse environment, which doesn't support backups at this time. Learn more about how to [Back up and restore environments - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
+Approvals created from the Approvals app are stored in the default Microsoft Dataverse environment, which doesn't support backups at this time. Learn more about how to [Back up and restore environments - Power Platform](/power-platform/admin/backup-restore-environments).
 
-Admins can set custom retention policies for data stored within Dataverse tables. To learn more, see [Dataverse long term data retention overview (preview)](/power-apps/maker/data-platform/data-retention-overview).
+Admins can set custom retention policies for data stored within Dataverse tables. To learn more, see [Dataverse long term data retention overview](/power-apps/maker/data-platform/data-retention-overview).
 
-Data stored in Forms won't be deleted until the team owners clean it up from the **deleted forms** tab in the Microsoft Forms web app.
+Data stored in Forms won't be deleted until the team owners clean it up from the **Deleted forms** tab in the Microsoft Forms web app.
 
 ## Conditional Access policies
 
@@ -201,7 +201,7 @@ The Approvals app logs audit events within the Microsoft Purview compliance port
 
     - Viewed template
 
-For access to more auditing approvals within Power Automate, enable and configure auditing in the default environment for the primary approval entities Approval, Approval Request, and Approval Response. Create, update, and delete operations are auditable events for Approval records.
+For access to more auditing approvals within Power Automate, enable and configure auditing in the default environment for the primary approval entities: Approval, Approval Request, and Approval Response. Create, update, and delete operations are auditable events for Approval records.
 
 Learn more about [auditing data and user activity for security and compliance](/power-platform/admin/audit-data-user-activity) and [Microsoft Dataverse and model-driven apps activity logging](/power-platform/admin/enable-use-comprehensive-auditing).
 
@@ -236,7 +236,7 @@ Teachers and admins using Teams for education can use the [Parent App](https://a
 
 Admins can use the approvals app to view and approve or reject the request raised by schoolteachers to update the parent contact information accordingly. Once the admin approves this request, the new contact details will reflect in the parent app and allow teachers to communicate with the parent.
 
-### Frequently Asked Questions
+### Frequently asked questions
 
 #### Question: How does the teacher track the status of the approval request?
 
@@ -248,4 +248,4 @@ Once the admin has approved the request, new contact details should be available
 
 ## Give feedback or report an issue
   
-To send us feedback or report an issue, select **Help** near the bottom of the left pane in Teams, and then select **Report a problem**. Select **Approvals**, and then enter your feedback or details about the issue you're experiencing.
+To send us feedback or report an issue, select **Settings and more** (**…**) in Teams, and then choose **Help** > **Give feedback**. Enter your feedback or details about the issue you’re experiencing. Indicate you’re sending feedback about Approvals at the beginning of your report so we can easily identify Approvals app related issues.
