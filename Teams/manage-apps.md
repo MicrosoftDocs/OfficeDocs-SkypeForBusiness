@@ -161,7 +161,7 @@ As an admin, to prevent users from adding and using an app in Teams, you can do 
 * [Delete a custom app](teams-custom-app-policies-and-settings.md#delete-custom-apps-from-your-organizations-catalog) from your organization's store. You can't remove any app that is available in Teams app store.
 * You can't stop use of some [Core apps](apps-in-teams.md#types-of-teams-apps) provided by Microsoft that are critical for Teams to work.
 
-You can't remove or uninstall the apps that are currently added by users. Blocking the apps prevents users from using it.
+You can't remove or uninstall the apps that are currently added by users.
 
 Blocked apps may still have access to data from the teams that the apps were added to. To turn off app data access, a Global Administrator, an Application Administrator, or a Cloud Application Administrator must [turn off user sign-in in the Microsoft Entra admin center](/azure/active-directory/manage-apps/disable-user-sign-in-portal?pivots=portal).
 
