@@ -82,7 +82,7 @@ Direct Routing users must have the following licenses assigned in Microsoft 365:
 
 Direct Routing also supports users who are licensed for Microsoft Calling Plan. For more information, see [Direct Routing with Calling Plan and Operator Connect](#direct-routing-with-calling-plans-and-operator-connect).
 
-Note: Phone System Direct Routing is not supported in Islands mode.
+Note: Direct Routing is not supported in Islands mode.
 
 ### Audio Conferencing requirements and considerations
 
