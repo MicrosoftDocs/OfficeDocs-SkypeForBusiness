@@ -154,7 +154,14 @@ Auto install approved apps feature automatically adds approved apps in Teams cli
 
 ## Stop app usage and remove apps
 
-As an admin, you can [delete custom apps](teams-custom-app-policies-and-settings.md#delete-custom-apps-from-your-organizations-catalog) from your organization's store but can't remove the third-party apps that are available in the Teams store. To prevent app addition and usage by users, you can [block an app for everyone](#allow-or-block-apps) or [use permission policy](teams-app-permission-policies.md#create-an-app-permission-policy) to stop selected users from using an app. You can't remove or uninstall the apps that are currently added by users. Blocking the apps prevents users from using it.
+As an admin, to prevent users from adding and using an app in Teams, you can do one of the following:
+
+* For any type of apps, [block it for entire org](#allow-or-block-apps).
+* For any type of apps, prevent a few users from accessing the app by using either [permission policies](teams-app-permission-policies.md#create-an-app-permission-policy) or by using [app centric management](app-centric-management.md).
+* [Delete a custom app](teams-custom-app-policies-and-settings.md#delete-custom-apps-from-your-organizations-catalog) from your organization's store. You can't remove any app that is available in Teams app store.
+* You can't stop use of some [Core apps](apps-in-teams.md#types-of-teams-apps) provided by Microsoft that are critical for Teams to work.
+
+You can't remove or uninstall the apps that are currently added by users. Blocking the apps prevents users from using it.
 
 Blocked apps may still have access to data from the teams that the apps were added to. To turn off app data access, a Global Administrator, an Application Administrator, or a Cloud Application Administrator must [turn off user sign-in in the Microsoft Entra admin center](/azure/active-directory/manage-apps/disable-user-sign-in-portal?pivots=portal).
 
