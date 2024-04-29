@@ -71,7 +71,7 @@ To allow an app, you must do all of the following settings. To block an app, jus
 |:----------------------------------------------------------|:-----------|:-----------------------------------------------------------------------------------------------------------------------------------|
 | [Org-wide app settings](#manage-org-wide-app-settings)    | Org-level  | Use this setting to allow use of third-party apps in your org. You control the specific apps that are allowed and used.            |
 | Allow or block apps                                       | App-level  | Use this setting to allow a specific app in your org. You control which users can use a specific app and which users can use apps. |
-| [App permission policy](teams-app-permission-policies.md) | User-level | Use policies to allow all or allow specific users to use an app.                                                                   |
+| [App permission policy](teams-app-permission-policies.md) or [app centric management](app-centric-management.md) | User-level | Use policies to allow all or allow specific users to use an app.                                                                   |
 
 You allow or block specific apps on either the Manage apps page or in the app details page. Manage apps page displays all the available app and the current org-level app status. To allow or block an app, follow these steps:
 
