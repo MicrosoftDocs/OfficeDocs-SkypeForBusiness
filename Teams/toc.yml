@@ -1336,8 +1336,6 @@ items:
               items:
                 - name: Content cameras
                   href: rooms/content-camera.md
-                - name: Voice recognition controls for Intelligent speakers
-                  href: rooms/voice-recognition.md
             - name: Test environments
               items:
                 - name: Configure a custom-built console
@@ -1368,6 +1366,12 @@ items:
                   href: rooms/custom-backgrounds.md
                 - name: Join meetings with QR codes
                   href: rooms/teams-rooms-qr-codes.md
+            - name: Identification and enrollment
+              items:
+                - name: Voice and face recognition
+                  href: rooms/voice-and-face-recognition.md
+                - name: Voice recognition controls for Intelligent speakers
+                  href: rooms/voice-recognition.md
             - name: Find devices with unsupported licenses
               href: rooms/license-check.md
             - name: Use the recovery tool
@@ -1392,6 +1396,8 @@ items:
           href: rooms/managed-meeting-rooms-portal.md
         - name: Signal settings
           href: rooms/signal-settings.md  
+        - name: Remote access a Teams Room console
+          href: rooms/remotely-access-teams-rooms.md 
         - name: Managed updates
           href: rooms/update-management.md 
         - name: Configure ServiceNow
