@@ -32,7 +32,7 @@ Live streaming allows organizers in your org to expand their reach and provide a
 To learn more about how your organizers can use RTMP to live stream meetings and webinars, see [Broadcast audio and video from Teams with RTMP](https://support.microsoft.com/office/broadcast-audio-and-video-from-teams-with-rtmp-11d5707b-88bf-411c-aff1-f8d85cab58a0).
 
 > [!NOTE]
-> You can't stream live events.
+> Organizers can't stream live events.
 
 ## Manage live streaming for your users
 
