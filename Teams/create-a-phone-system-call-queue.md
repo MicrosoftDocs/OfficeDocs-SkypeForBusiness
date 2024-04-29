@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
-ms.date: 01/16/2024
+ms.date: 04/26/2024
 ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
@@ -43,6 +43,7 @@ Before you follow the procedures in this article, be sure you have read [Plan fo
 
 ## What's new for Call queues in the past six months
 
+- April 8 - Additional messaging options for call queue Overflow, Timeout, and No Agents exception routing in Teams admin center and [PowerShell cmdlets](#additional-messaging)
 - February 16 - [Support click-to-call web based calling](/azure/communication-services/quickstarts/voice-video-calling/get-started-teams-call-queue)
 
 ## Steps to create a Call queue
@@ -92,7 +93,7 @@ To add an existing resource account:
 1. On the **Resource accounts** pane, select the **Add** button.
 
 >[!NOTE]
-> Remember to assign a [Microsoft Teams Phone System Resource Account license](manage-resource-accounts.md#assign-a-license).
+> Remember to assign a [Microsoft Teams Phone Resource Account license](manage-resource-accounts.md#assign-a-license).
 
 Agents see the resource account name when they receive an incoming call.
 
@@ -112,7 +113,7 @@ Assign outbound caller ID numbers for the agents by specifying one or more resou
 > - An online voice routing policy (phone number assignment is optional when using Direct Routing)
 
 1. Under **Assign calling ID**, select the **Add** button.
-1. On the **Add accounts** pane, search for the resource account(s) you want to allow agents to use for outbound caller ID purposes.
+1. On the **Add accounts** pane, search for one or more resource accounts you want to allow agents to use for outbound caller ID purposes.
 1. Select the **Add** button next to the resource account with an assigned phone number.
 1. Select the **Add** button at the bottom of the pane.
 
@@ -130,7 +131,7 @@ If you don't have a resource account with an assigned phone number:
 
 After you create this new resource account for calling ID, you still need to:
 
-- Assign a [Microsoft Teams Phone System Resource Account license](manage-resource-accounts.md#assign-a-license).
+- Assign a [Microsoft Teams Phone Resource Account license](manage-resource-accounts.md#assign-a-license).
 - Assign a Microsoft Calling Plan license, assign an Operator Connect phone number, or assign an online voice routing policy for Direct Routing.
 - Assign the [phone number to the resource account](manage-resource-accounts.md#assign-a-phone-number), if you're using Microsoft Calling Plan.
 
@@ -149,7 +150,7 @@ After you select a language, select the **Next** button at the bottom of the **A
 Specify if you want to play a *greeting* to callers when they arrive in the queue.
 
 - If you select **Play an audio file**, you must upload an MP3, WAV, or WMA file containing the greeting that you want to play. See [Supported audio file formats](plan-auto-attendant-call-queue.md#supported-audio-file-formats).
-- If you select **Type a greeting message**, the system reads the text that you type (up to 1000 characters) when the Call queue answers a call.
+- If you select **Type a greeting message**, the system reads the text that you type (up to 1,000 characters) when the Call queue answers a call.
 
 >[!NOTE]
 > When using *Text to Speech*, the text must be entered in the selected language as the system doesn't perform translation.
@@ -230,7 +231,7 @@ To **add a group** to the queue:
 **Conference mode** reduces the amount of time it takes for a caller to be connected to an agent after the agent accepts the call. For conference mode to work, agents in the Call queue must use one of the following clients:
 
 - The latest version of the Microsoft Teams desktop client, Android app, or iOS app
-- Microsoft Teams Phone System version 1449/1.0.94.2020051601 or later
+- Microsoft Teams Phone version 1449/1.0.94.2020051601 or later
   
 Agents' Teams accounts must be set to TeamsOnly mode. Agents who don't meet the requirements aren't included in the call routing list. We recommend enabling conference mode for your Call queues if your agents are using compatible clients.
 
@@ -325,10 +326,8 @@ Each exception allows you to **disconnect** the call or **redirect** it to any o
 For example, when **Overflow** occurs, you might send calls to a backup Call queue, but when **Timeout** or **No Agents** occurs, you might want the callers to leave a shared voicemail.
 
 > [!NOTE]
-> The **Voicemail (personal)** routing option sends calls to the user and not directly to their voicemail as indicated. This is being investigated by Support. As an alternative, setup a distribution list with the person being the only member and use the **Voicemail (shared)** option.
->
-> For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md?tabs=additional-resources) for number formatting.
->
+> For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](./create-a-phone-system-auto-attendant.md?tabs=general-info#external-phone-number-transfers---technical-details) for number formatting.
+> 
 > Don't include any special characters in the greeting message when redirecting to **Voicemail (shared)**.
 
 ### Overflow: Set how to handle call overflow
@@ -367,7 +366,7 @@ This call exception handling option handles calls when no agents are opted into 
 >
 > If agents are logged in or opted in, then calls will be queued.
 
-Once you select your call overflow, call timeout and no agents handling options, select the **Next** button at the bottom of the **Add a Call queue** page.
+Once you select your call overflow, call timeout, and no agents handling options, select the **Next** button at the bottom of the **Add a Call queue** page.
 
 
 ## [Step 6: Authorized users](#tab/authorized-users)
@@ -397,6 +396,44 @@ Once you select your authorized users, select the **Submit** button at the botto
 
 ---
 
+## Extra functionality available through PowerShell cmdlets
+
+> [!CAUTION]
+> These configuration options are currently only available through PowerShell cmdlets and they don't appear in Teams admin center. If these options are configured through PowerShell, any changes to the Call queue through Teams admin center will erase these settings.
+
+### Additional messaging
+
+The Overflow, Call timeout and No Agents exception redirect options for **Person in organization** and **Voicemail personal** support additional prompting just like the other redirect options. 
+
+For more information, see:
+
+|New Call Queue                          |Existing Call Queue |
+|:---------------------------------------|:-------------------|
+| [New-CsCallqueue/-OverflowRedirectPersonTextToSpeechPrompt](/powershell/module/teams/new-cscallqueue#-OverflowRedirectPersonTextToSpeechPrompt)        | [Set-CsCallqueue/-OverflowRedirectPersonTextToSpeechPrompt](/powershell/module/teams/set-cscallqueue#-OverflowRedirectPersonTextToSpeechPrompt)        |
+| [New-CsCallqueue/-OverflowRedirectPersonAudioFilePrompt](/powershell/module/teams/new-cscallqueue#-OverflowRedirectPersonAudioFilePrompt)              | [Set-CsCallqueue/-OverflowRedirectPersonAudioFilePrompt](/powershell/module/teams/set-cscallqueue#-OverflowRedirectPersonAudioFilePrompt)              |
+| [New-CsCallqueue/-OverflowRedirectVoicemailTextToSpeechPrompt](/powershell/module/teams/new-cscallqueue#-OverflowRedirectVoicemailTextToSpeechPrompt)  | [Set-CsCallqueue/-OverflowRedirectVoicemailTextToSpeechPrompt](/powershell/module/teams/set-cscallqueue#-OverflowRedirectVoicemailTextToSpeechPrompt)  |
+| [New-CsCallqueue/-OverflowRedirectVoicemailAudioFilePrompt](/powershell/module/teams/new-cscallqueue#-OverflowRedirectVoicemailAudioFilePrompt)        | [Set-CsCallqueue/-OverflowRedirectVoicemailAudioFilePrompt](/powershell/module/teams/set-cscallqueue#-OverflowRedirectVoicemailAudioFilePrompt)        |
+| [New-CsCallqueue/-TimeoutRedirectPersonTextToSpeechPrompt](/powershell/module/teams/new-cscallqueue#-TimeoutRedirectPersonTextToSpeechPrompt)          | [Set-CsCallqueue/-TimeoutRedirectPersonTextToSpeechPrompt](/powershell/module/teams/set-cscallqueue#-TimeoutRedirectPersonTextToSpeechPrompt)          |
+| [New-CsCallqueue/-TimeoutRedirectPersonAudioFilePrompt](/powershell/module/teams/new-cscallqueue#-TimeoutRedirectPersonAudioFilePrompt)                | [Set-CsCallqueue/-TimeoutRedirectPersonAudioFilePrompt](/powershell/module/teams/set-cscallqueue#-TimeoutRedirectPersonAudioFilePrompt)                |
+| [New-CsCallqueue/-TimeoutRedirectVoicemailTextToSpeechPrompt](/powershell/module/teams/new-cscallqueue#-TimeoutRedirectVoicemailTextToSpeechPrompt)    | [Set-CsCallqueue/-TimeoutRedirectVoicemailTextToSpeechPrompt](/powershell/module/teams/set-cscallqueue#-TimeoutRedirectVoicemailTextToSpeechPrompt)    |
+| [New-CsCallqueue/-TimeoutRedirectVoicemailAudioFilePrompt](/powershell/module/teams/new-cscallqueue#-TimeoutRedirectVoicemailAudioFilePrompt)          | [Set-CsCallqueue/-TimeoutRedirectVoicemailAudioFilePrompt](/powershell/module/teams/set-cscallqueue#-TimeoutRedirectVoicemailAudioFilePrompt)          |
+| [New-CsCallqueue/-NoAgentRedirectPersonTextToSpeechPrompt](/powershell/module/teams/new-cscallqueue#-NoAgentRedirectPersonTextToSpeechPrompt)          | [Set-CsCallqueue/-NoAgentRedirectPersonTextToSpeechPrompt](/powershell/module/teams/set-cscallqueue#-NoAgentRedirectPersonTextToSpeechPrompt)          |
+| [New-CsCallqueue/-NotAgentRedirectPersonAudioFilePrompt](/powershell/module/teams/new-cscallqueue#-NoAgentRedirectPersonAudioFilePrompt)               | [Set-CsCallqueue/-NotAgentRedirectPersonAudioFilePrompt](/powershell/module/teams/set-cscallqueue#-NoAgentRedirectPersonAudioFilePrompt)               |
+| [New-CsCallqueue/-NoAgentRedirectVoicemailTextToSpeechPrompt](/powershell/module/teams/new-cscallqueue#-NoAgentRedirectVoicemailTextToSpeechPrompt)    | [Set-CsCallqueue/-NoAgentRedirectVoicemailTextToSpeechPrompt](/powershell/module/teams/set-cscallqueue#-NoAgentRedirectVoicemailTextToSpeechPrompt)    |
+| [New-CsCallqueue/-NoAgentRedirectVoicemailAudioFilePrompt](/powershell/module/teams/new-cscallqueue#-NoAgentRedirectVoicemailAudioFilePrompt)          | [Set-CsCallqueue/-NoAgentRedirectVoicemailAudioFilePrompt](/powershell/module/teams/set-cscallqueue#-NoAgentRedirectVoicemailAudioFilePrompt)          |
+
+### Hiding authorized users
+
+Hidden authorized users are authorized users who shouldn't appear on the list of supervisors for the agents who are members of a particular call queue.
+
+Note that hidden authorized users aren't visible to Queues app users.
+
+For more information, see:
+
+|New Call Queue                          |Existing Call Queue |
+|:---------------------------------------|:-------------------|
+| [New-CsCallqueue/-HideAuthorizedUsers](/powershell/module/teams/new-cscallqueue#-hideauthorizedusers) | [Set-CsCallqueue/-HideAuthorizedUsers](/powershell/module/teams/set-cscallqueue#-hideauthorizedusers) |
+
 ## Resources for complex scenarios
 
 ### Summary of recommended Call queue settings
@@ -409,6 +446,9 @@ The following settings are recommended:
 - **Agent alert time:** to a minimum of **20 seconds**
 
 ### Call queue feature compatibility
+
+> [!NOTE]
+> [Teams Phone Mobile](./operator-connect-mobile-plan.md) is not supported for Call queue agents.
 
 |Feature                          |Teams Desktop<sup>1</sup> |Teams Web | Teams Mobile<sup>2</sup> |Skype for Business |IP Phones | Standard Call Queues |Channel Based Call Queues | Comment |
 |:--------------------------------|:------------------------:|:--------:|:--------------:|:---:|:--------:|:--------------------:|:------------------------:|:--------|
@@ -446,7 +486,7 @@ The following settings are recommended:
 4. It's not possible to set the order the agents are presented with calls.
 5. Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that's enabled for Location-Based Routing.
     - For Call queue implementation with Location-Based Routing, see [Voice apps (Auto Attendant or Call Queue)](location-based-routing-plan.md).
-6. Microsoft Teams Phone System only.
+6. Microsoft Teams Phone only.
 7. Through the User Settings Portal page at [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
 8. Only standard channels are supported.
 9. Transferring calls between PSTN connectivity methods isn't supported.
@@ -489,7 +529,7 @@ If you're an administrator, you can use the following diagnostic tool to validat
 
 ## Related articles
 
-[Here's what you get with Microsoft Teams Phone System](here-s-what-you-get-with-phone-system.md).
+[Here's what you get with Microsoft Teams Phone](here-s-what-you-get-with-phone-system.md).
 
 [Getting service phone numbers](getting-service-phone-numbers.md).
 

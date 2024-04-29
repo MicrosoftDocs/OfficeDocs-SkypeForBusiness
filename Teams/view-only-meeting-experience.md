@@ -34,7 +34,7 @@ As an admin, you can decide if organizers with this policy have the view-only ex
 
 ## Teams view-only experience controls
 
-You enable the view-only experience using the [`Set-CsTeamsMeetingPolicy`](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet from the [SkypeForBusiness PowerShell module](/powershell/module/skype/) or at least version 2.0.0 of the [Microsoft Teams module](https://www.powershellgallery.com/packages/MicrosoftTeams).
+You enable the view-only experience using the [`Set-CsTeamsMeetingPolicy`](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet from the [SkypeForBusiness PowerShell module](/powershell/module/teams/) or at least version 2.0.0 of the [Microsoft Teams module](https://www.powershellgallery.com/packages/MicrosoftTeams).
 
 To enable the view-only experience, use the following PowerShell script:
 

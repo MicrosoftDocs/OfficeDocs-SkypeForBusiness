@@ -80,7 +80,7 @@ If inbound calling is required, you must associate this resource account with a 
 
 ## Step 4: Assign a location to the resource account for emergency calling
 
-You need the location ID to assign the location to a resource account. You can get the location ID by using the [Get-CsOnlineLisLocation](/powershell/module/skype/get-csonlinelislocation) PowerShell cmdlet.
+You need the location ID to assign the location to a resource account. You can get the location ID by using the [Get-CsOnlineLisLocation](/powershell/module/teams/get-csonlinelislocation) PowerShell cmdlet.
 
 To assign a location to a resource account number for Calling Plan, Operator Connect, and Direct Routing, use the [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) PowerShell cmdlet.
 
@@ -190,7 +190,7 @@ The routing of emergency calls is based on how a resource account is configured.
 > [!NOTE]
 > If Shared Calling for Calling Plans or Operator Connect is configured in the same Tenant with Direct Routing, site assigned emergency call routing polices cannot be used.
 
-For more information, see [Manage emergency call routing policies](manage-emergency-call-routing-policies.md) and [Set-CsOnlinePstnUsage](/powershell/module/skype/set-csonlinepstnusage).
+For more information, see [Manage emergency call routing policies](manage-emergency-call-routing-policies.md) and [Set-CsOnlinePstnUsage](/powershell/module/teams/set-csonlinepstnusage).
 
 ### Emergency callback number
 

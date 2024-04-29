@@ -39,6 +39,7 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|[5.0.111.0](#501110-4242024) | 4/24/2024 |
 |[4.19.82.0](#419820-1312024) | 1/31/2024 |
 |[4.19.57.0](#419570-11162023) | 11/16/2023 |
 |[4.18.44.0](#418440-9202023) | 9/20/2023 |
@@ -57,6 +58,26 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 Teams Rooms app updates happen either via the Microsoft Store or via [manual update](manual-update.md). Updates are applied to the Universal Windows Platform (UWP) application that is installed locally on the device.
 
 Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: icon are available only with Teams Rooms Pro license.
+
+### 5.0.111.0 (4/24/2024)
+
+**This release is available for all Teams environments, however, GCC-High customers with this version installed won't see any of the below mentioned new features.**
+
+Introduced in this update:
+
+- **New Teams on Teams Rooms** - This update brings the New Teams available on Teams Desktop to Microsoft Teams Rooms on  Windows. With the new Teams app now a part of Teams Rooms on Windows, all Teams Rooms devices can now utilize available resources to optimize room experience and rendering intelligent audio and video more reliably. The New Teams app has parity of experiences, and in addition all new Teams rooms experiences are built on new Teams app.
+- **Zero Touch Deployment with Windows Autopilot and Pro Management Portal** :::image type="icon" source="../media/mtr-pro-icon.png":::. This update includes app support to enable the end-to-end deployment experience. To test this, please reach out to your Microsoft account team to sign up for early access to the Teams Pro Management portal Autologin preview.
+- **Ability to change language on Microsoft Teams Rooms on Windows**. With this new feature, end users can change the language of the Microsoft Teams Rooms on the Microsoft Windows app. The language choices offered are the same as those that are offered in the Microsoft Teams desktop app. The language is reverted to the default language when it restarts.
+- **Skype for business deprecation**. Back with the release of app 4.19.57.0, we had announced the end of support for Skype for Business (Server and Online) on Microsoft Teams Rooms. With this update, we have retired the XML settings for SfB as well as ability to sign in or support to Skype for Business meetings. 
+- **Meeting Chat shown by default in Gallery View for Teams Rooms on Windows**. Meeting Chat is now shown by default when joining a Teams meeting with Teams Rooms on Windows in Gallery View, making it easier to see incoming chat messages on the front of room display. Admins can configure the default chat experience for a room, and users can make in-meeting changes to show or hide the chat using the touch console. 
+- **Join meetings with a QR code**. Users can quickly join upcoming meetings by scanning a QR code on the Teams Room home screen using a mobile camera. Users will then enter the room companion mode experience on Teams mobile and the full meeting experience on Teams Rooms. Users can also scan the QR code to start an ad-hoc meeting or cast content from mobile to the front-of-room display. If the user does not have the Teams mobile app, they will be directed to download it after scanning the QR code. Cross-tenant meetings are supported when the organization setting and user policies allow it. IT admins can control the feature from the XML settings or the Teams admin center. [Learn more](/microsoftteams/rooms/teams-rooms-qr-codes).
+- **4K display UI scaling for Teams Rooms on Windows**. 4K-enabled displays, including front of room displays and touch boards, are natively supported on the Teams Rooms experience. Note: 4K video isn't supported.
+- **Improvements to Join with an ID**. Teams meetings continues to be the default option while the option to select joining Zoom meetings with an ID, and others to come, is visually more clear.
+- **Meeting ID and passcode to join on Teams Rooms on Windows**. Admins can configure and require a meeting ID and passcode to join a meeting on Teams Rooms on Windows to ensure one more level of security and privacy. This feature is available with Teams Rooms Pro license.
+- **End users can switch IntelliFrame on or off using Stage roster**.
+  
+> [!IMPORTANT]
+> Please note that some systems maybe missing the minimum version of the Edge WebView2 runtime. Until Edge Webview2 runtimeversion 110.0.1587.63 or higher is installed, these devices will be missing some features.
 
 ### 4.19.82.0 (1/31/2024)
 
@@ -663,6 +684,9 @@ Introduced in this update:
 
 |Release  |Release date  |
 |---------|---------|
+|[1449/1.0.96.2024042506](#144910962024042506-april-2024) | April 2024 |
+|[1449/1.0.96.2024032804](#144910962024032804-april-2024) | April 2024 |
+|[1449/1.0.96.2024030101](#144910962024030101-march-2024) | March 2024 |
 |[1449/1.0.96.2024020802](#144910962024020802-february-2024) | February 2024 |
 |[1449/1.0.96.2023120901](#144910962023120901-february-2024) | February 2024 |
 |[1449/1.0.96.2023120801](#144910962023120801-december-2023) | December 2023 |
@@ -688,6 +712,28 @@ Introduced in this update:
 
 Features with :::image type="icon" source="../media/mtr-pro-icon.png"::: are only available with Teams Rooms Pro license.
 
+### 1449/1.0.96.2024042506 (April 2024)
+
+Introduced in this update:
+
+- **Home screen refresh**. The Teams Rooms on Android home screen matches the look and feel of Teams Rooms on Windows, enabling users to engage with a consistent Teams Rooms interface. The touch console features six action buttons and shows the room calendar on the right side of the home screen. If the Bluetooth beaconing setting is enabled, a room tip appears at the bottom left corner of the front-of-room display and touch console for user education.
+- **Join meetings with a QR code**. Users can quickly join upcoming meetings by scanning a QR code on the Teams Room home screen using a mobile camera. Users will then enter the room companion mode experience on Teams mobile and the full meeting experience on Teams Rooms. Users can also scan the QR code to start an ad-hoc meeting or cast content from mobile to the front-of-room display. If the user does not have the Teams mobile app, they will be directed to download it after scanning the QR code. Cross-tenant meetings are supported when the organization setting and user policies allow it. IT admins can control the feature from the device settings or the Teams admin center. [Learn more](/microsoftteams/rooms/teams-rooms-qr-codes).
+- **4K local HDMI content sharing**. Users can consume HDMI content in 4K quality on Teams Rooms on Android devices that support 4K HDMI input when users project content to the front-of-room display without joining an online Teams meeting.
+- **Give feedback support**. The Help button includes a Give feedback option that lets users share their opinions and ideas about Teams Rooms on Android with Microsoft, just like users can do so on Teams desktop, web, mobile, and Teams Rooms on Window clients. This feedback is used to improve the Teams experience. IT admins can enable or disable this feature for users and manage other feedback policies using PowerShell. [Learn more](/microsoftteams/manage-feedback-policies-in-teams).
+- Performance improvements in meetings including when users share HDMI content. 
+
+### 1449/1.0.96.2024032804 (April 2024)
+
+Introduced in this update:
+
+- Bug fixes for issues with launching whiteboard and meeting join failures. 
+
+### 1449/1.0.96.2024030101 (March 2024)
+
+Introduced in this update:
+
+- Bug fixes for app crashes and an issue with the device restart banner that does not auto dismiss.  
+
 ### 1449/1.0.96.2024020802 (February 2024)
 
 Introduced in this update:
@@ -698,7 +744,7 @@ Introduced in this update:
 - Support for Teams Premium security features including end-to-end encryption for meetings and sensitivity labels.
 - Fix for an experience regression in the Call app including support for P2P call and group call.
 - Reliability and other improvements.
-- Removal of Calling settings from the Teams admin settings on the device, including auto-answer. The latest device configuration prior to the setting removal still applies. Once a device is reset, the functonality is no longer available, just as it is for new devices. 
+- Removal of Calling settings from the Teams admin settings on the device, including auto dial and auto answer. The latest device configuration prior to the setting removal still applies. Once a device is reset, the functionality is no longer available, just as it is for new devices. 
 
 <sup>1</sup> The Meeting ID and passcode feature fully rolls out in March 2024.  
   

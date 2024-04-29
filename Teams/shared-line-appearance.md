@@ -126,6 +126,6 @@ Remove-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso
 
 [Configure Teams calling policy](/MicrosoftTeams/teams-calling-policy)
 
-[New-CsTeamsCallingPolicy](/powershell/module/skype/new-csteamscallingpolicy)
+[New-CsTeamsCallingPolicy](/powershell/module/teams/new-csteamscallingpolicy)
 
-[Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
+[Set-CsTeamsCallingPolicy](/powershell/module/teams/set-csteamscallingpolicy)

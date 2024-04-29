@@ -130,7 +130,7 @@ The most restrictive policy between the meeting organizer’s policy and the use
 
 #### Teams mobile clients
 
-For users on Teams mobile clients, the ability to share photos and videos during a meeting is also determined by the **IP video** or **IP video mode** setting. Depending on which policy setting takes precedence, the ability to share videos and photos won't be available. This doesn't affect screen sharing, which you configure using a separate [Screen sharing mode](meeting-policies-content-sharing.md#screen-sharing-mode) setting. Additionally, you can set a [Teams mobility policy](/powershell/module/skype/new-csteamsmobilitypolicy) to prevent mobile users from using IP video over a cellular connection, which means they must use a WiFi connection.
+For users on Teams mobile clients, the ability to share photos and videos during a meeting is also determined by the **IP video** or **IP video mode** setting. Depending on which policy setting takes precedence, the ability to share videos and photos won't be available. This doesn't affect screen sharing, which you configure using a separate [Screen sharing mode](meeting-policies-content-sharing.md#screen-sharing-mode) setting. Additionally, you can set a [Teams mobility policy](/powershell/module/teams/new-csteamsmobilitypolicy) to prevent mobile users from using IP video over a cellular connection, which means they must use a WiFi connection.
 
 ## Media bit rate (Kbps)
 
@@ -139,6 +139,8 @@ This is a per-user policy. This setting determines the media bit rate for audio,
 If there isn't enough bandwidth for a meeting, participants see a message that indicates poor network quality.
 
 For meetings that need the highest-quality video experience, such as CEO board meetings and Teams live events, we recommend you set the bandwidth to 10 Mbps. Even when the maximum experience is set, Teams adapts to low-bandwidth conditions when certain network conditions are detected, depending on the scenario.
+
+The Media bit rate policy doesn't affect the Teams web client.
 
 ## Participants can use video effects
 
@@ -153,7 +155,7 @@ This is a per-user policy. This setting controls whether users can customize the
 |**BlurandDefaultBackgrounds**|**Only background blur and default backgrounds**|User has the option to blur their video background or choose from the default set of images to use as their background.|
 |**AllFilters**|**All video effects**|User has the option to blur their video background, choose from the default set of images, or upload custom images to use as their background.|
 
-Use [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) or [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) with the *VideoFiltersMode* parameter to configure the values in PowerShell.
+Use [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) or [New-CsTeamsMeetingPolicy](/powershell/module/teams/new-csteamsmeetingpolicy) with the *VideoFiltersMode* parameter to configure the values in PowerShell.
 
 > [!NOTE]
 > Images uploaded by users aren't screened by Teams. When you use the **All video effects** setting, you should have internal organization policies to prevent users from uploading offensive or inappropriate images, or images your organization doesn't have rights to use for Teams meeting backgrounds.
@@ -166,7 +168,7 @@ Far end camera control is a policy that can be assigned to Teams Rooms resource 
 
 To use far end camera control, meeting participants will need to get the **PTZ Camera Controls** app.  See [Allow and block apps](manage-apps.md#allow-or-block-apps) to learn how to make the app available in your organization's app store.
 
-To specify who can use far end camera control in a meeting, create and assign a new policy to a Teams Rooms resource account using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet, or use [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) to modify an existing one. Set the `TeamsCameraFarEndPTZMode` parameter to one of the following values:
+To specify who can use far end camera control in a meeting, create and assign a new policy to a Teams Rooms resource account using the [New-CsTeamsMeetingPolicy](/powershell/module/teams/new-csteamsmeetingpolicy) cmdlet, or use [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) to modify an existing one. Set the `TeamsCameraFarEndPTZMode` parameter to one of the following values:
 
 |Setting value|Behavior|
 |---|---|

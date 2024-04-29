@@ -103,7 +103,7 @@ Set-CsTeamsCallingPolicy -Identity Global -AllowVoicemail AlwaysDisabled
 
 - If you set AllowVoicemail to UserOverride, calls are forwarded to voicemail based on the call forwarding and/or unanswered settings for a user. This is the default setting.
 
-For more information, see [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
+For more information, see [Set-CsTeamsCallingPolicy](/powershell/module/teams/set-csteamscallingpolicy).
 
 ## Set up Cloud Voicemail to work with on-premises users
 

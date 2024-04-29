@@ -63,7 +63,7 @@ Verify that you also have the following domains/ports:
 
 ## Manage whether organizers can use RTMP-In with PowerShell
 
-To manage whether organizers can use RTMP-In, use the **`-AllowedStreamingMediaInput`** parameter within the PowerShell [**CsTeamsMeetingPolicy**](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet.
+To manage whether organizers can use RTMP-In, use the **`-AllowedStreamingMediaInput`** parameter within the PowerShell [**CsTeamsMeetingPolicy**](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet.
 
 ### Enable RTMP-In
 

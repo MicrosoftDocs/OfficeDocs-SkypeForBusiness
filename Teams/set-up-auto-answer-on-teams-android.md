@@ -33,7 +33,7 @@ Use the following attributes to enable auto answer on Microsoft Teams Rooms on A
 
 ### 1. Turn on auto answer for incoming meeting invites
 
-You use **Set-CsTeamsCallingPolicy -AutoAnswerEnabledType** to turn on auto answer for incoming meeting invites. Auto answer is **turned off** by default. This policy only applies to incoming meeting invites and doesn't support other call types. Read [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy) for more information on the cmdlet.
+You use **Set-CsTeamsCallingPolicy -AutoAnswerEnabledType** to turn on auto answer for incoming meeting invites. Auto answer is **turned off** by default. This policy only applies to incoming meeting invites and doesn't support other call types. Read [Set-CsTeamsCallingPolicy](/powershell/module/teams/set-csteamscallingpolicy) for more information on the cmdlet.
 
 ```powershell
 Set-CsTeamsCallingPolicy -AutoAnswerEnabledType Enabled
@@ -41,7 +41,7 @@ Set-CsTeamsCallingPolicy -AutoAnswerEnabledType Enabled
 
 ### 2. Set the device sign-in mode
 
-You use **Set-CsTeamsIPPhonePolicy -SignInMode** to set the sign-in mode for the Teams video phone device to determine the behavior when signing into Teams. Read [Set-CsTeamsIPPhonePolicy](/powershell/module/skype/set-csteamsipphonepolicy) for more information on the cmdlet.
+You use **Set-CsTeamsIPPhonePolicy -SignInMode** to set the sign-in mode for the Teams video phone device to determine the behavior when signing into Teams. Read [Set-CsTeamsIPPhonePolicy](/powershell/module/teams/set-csteamsipphonepolicy) for more information on the cmdlet.
 
 There are three options for sign-in mode:
 
@@ -63,6 +63,6 @@ After enabling auto answer, users with administrative permissions can turn on th
 
 [Microsoft Support: Calls and devices](https://support.microsoft.com/office/calls-and-devices-4d96653e-6176-4978-98ab-2c19df137e43#ID0EBBD=Devices)
 
-[Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
+[Set-CsTeamsCallingPolicy](/powershell/module/teams/set-csteamscallingpolicy)
 
-[Set-CsTeamsIPPhonePolicy](/powershell/module/skype/set-csteamsipphonepolicy)
+[Set-CsTeamsIPPhonePolicy](/powershell/module/teams/set-csteamsipphonepolicy)

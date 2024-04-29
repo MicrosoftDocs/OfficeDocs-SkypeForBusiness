@@ -1,7 +1,7 @@
 ---
 title: "Complimentary dial-out period"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jenz
+author: jenzamora
 manager: pamgreen
 ms.reviewer: mikedav, OscarR
 ms.date: 11/28/2017
@@ -9,6 +9,7 @@ ms.topic: conceptual
 ms.assetid: dc6e95cd-51e8-49ca-bcd3-78dc9dae486a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 ms.collection: 
   - M365-collaboration
   - m365initiative-meetings

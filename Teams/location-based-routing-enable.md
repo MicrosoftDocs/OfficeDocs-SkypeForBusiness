@@ -86,7 +86,7 @@ To do this, turn on the **Prevent toll bypass and send calls through the PSTN** 
 
 ### Enable Location-Based Routing for users
 
-1. To set PSTN usages, use the [Set-CsOnlinePstnUsage](/powershell/module/skype/set-csonlinepstnusage) cmdlet. For multiple usages, separate each usage with a comma.
+1. To set PSTN usages, use the [Set-CsOnlinePstnUsage](/powershell/module/teams/set-csonlinepstnusage) cmdlet. For multiple usages, separate each usage with a comma.
 
     ```PowerShell
     Set-CsOnlinePstnUsage -Usage <usages> 
@@ -98,7 +98,7 @@ To do this, turn on the **Prevent toll bypass and send calls through the PSTN** 
     Set-CsOnlinePstnUsage -Usage "Long Distance", "Local", "Internal" 
     ```
 
-2. To create a voice routing policy to associate the user with the appropriate PSTN usage, use the [New-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/new-csonlinevoiceroutingpolicy) cmdlet.
+2. To create a voice routing policy to associate the user with the appropriate PSTN usage, use the [New-CsOnlineVoiceRoutingPolicy](/powershell/module/teams/new-csonlinevoiceroutingpolicy) cmdlet.
 
     ```PowerShell
     New-CsOnlineVoiceRoutingPolicy -Identity <voice routing policy ID> -Description <voice routing policy name> -OnlinePstnUsages <usages> 
@@ -124,7 +124,7 @@ To do this, turn on the **Prevent toll bypass and send calls through the PSTN** 
     |Online voice policy ID   |Delhi online voice routing policy   |Hyderabad online voice routing policy    |
     |Online PSTN usages  |Long Distance  |Long Distance, Local, Internal  |
 
-3. To associate online voice routing policies to users who require routing restrictions to be enforced, use the [Grant-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/grant-csonlinevoiceroutingpolicy) cmdlet.
+3. To associate online voice routing policies to users who require routing restrictions to be enforced, use the [Grant-CsOnlineVoiceRoutingPolicy](/powershell/module/teams/grant-csonlinevoiceroutingpolicy) cmdlet.
 
     ```PowerShell
     Grant-CsOnlineVoiceRoutingPolicy -Identity <User> -Tenant <TenantId>
@@ -132,7 +132,7 @@ To do this, turn on the **Prevent toll bypass and send calls through the PSTN** 
 
 ### Enable Location-Based Routing for network sites
 
-1. To enable Location-Based Routing and associate voice routing policies to your network sites that need to enforce routing restrictions, use the [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite) cmdlet.
+1. To enable Location-Based Routing and associate voice routing policies to your network sites that need to enforce routing restrictions, use the [Set-CsTenantNetworkSite](/powershell/module/teams/set-cstenantnetworksite) cmdlet.
 
     ```PowerShell
     Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
@@ -155,7 +155,7 @@ To do this, turn on the **Prevent toll bypass and send calls through the PSTN** 
 
 ### Enable Location-Based Routing for gateways
 
-1. To create a gateway configuration for each gateway or network site, use the [New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) cmdlet.
+1. To create a gateway configuration for each gateway or network site, use the [New-CsOnlinePSTNGateway](/powershell/module/teams/new-csonlinepstngateway) cmdlet.
 
     ```PowerShell
     New-CSOnlinePSTNGateway -Fqdn <FDQN registered for the SBC> -Identity <gateway configuration ID> -SipSignalingPort <listening port used> -Enabled $true 
@@ -171,7 +171,7 @@ To do this, turn on the **Prevent toll bypass and send calls through the PSTN** 
 
     For more information, see [Configure Direct Routing](direct-routing-configure.md).
 
-2. To enable Location-Based Routing for your gateways that need to enforce routing restrictions, use the [Set-CSOnlinePSTNGateway](/powershell/module/skype/set-csonlinepstngateway) cmdlet.
+2. To enable Location-Based Routing for your gateways that need to enforce routing restrictions, use the [Set-CSOnlinePSTNGateway](/powershell/module/teams/set-csonlinepstngateway) cmdlet.
 
     Enable Location-Based Routing to gateways that route calls to PSTN gateways that route calls to the PSTN, and associate the network site where the gateway is located.
 
@@ -204,7 +204,7 @@ To do this, turn on the **Prevent toll bypass and send calls through the PSTN** 
 
 To enforce Location-Based Routing for specific users, set up the users' voice policy to prevent PTSN toll bypass. 
 
-To enable Location-Based routing by preventing PSTN toll bypass, use the [Grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy) cmdlet.
+To enable Location-Based routing by preventing PSTN toll bypass, use the [Grant-CsTeamsCallingPolicy](/powershell/module/teams/grant-csteamscallingpolicy) cmdlet.
 
 ```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id> 

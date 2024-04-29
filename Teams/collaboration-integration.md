@@ -2,8 +2,8 @@
 title: Integrate custom collaboration applications with Microsoft 365
 ms.reviewer: daro
 ms.date: 09/27/2023
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 ms.topic: conceptual
 audience: admin

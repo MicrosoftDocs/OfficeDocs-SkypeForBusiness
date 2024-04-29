@@ -65,7 +65,7 @@ If you assigned an emergency calling policy to a network site and to a user and 
 
 ### Using PowerShell
 
-See [New-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/new-csteamsemergencycallingpolicy).
+See [New-CsTeamsEmergencyCallingPolicy](/powershell/module/teams/new-csteamsemergencycallingpolicy).
 
 ## Edit an emergency calling policy
 
@@ -79,13 +79,13 @@ You can edit the global policy or any custom policies that you create.
 
 ### Using PowerShell
 
-See [Set-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/set-csteamsemergencycallingpolicy).
+See [Set-CsTeamsEmergencyCallingPolicy](/powershell/module/teams/set-csteamsemergencycallingpolicy).
 
 ## Assign a custom emergency calling policy to users
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-See also [Grant-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/grant-csteamsemergencycallingpolicy).
+See also [Grant-CsTeamsEmergencyCallingPolicy](/powershell/module/teams/grant-csteamsemergencycallingpolicy).
 
 ## Assign a custom emergency calling policy to a network site
 
@@ -98,7 +98,7 @@ You can assign the global policy or any custom policies that you create.
 3. Under **Emergency calling policy**, select the policy, and then click **Save**.
 
 ### Using PowerShell
-Use the [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite) cmdlet to assign an emergency calling policy to a network site.
+Use the [Set-CsTenantNetworkSite](/powershell/module/teams/set-cstenantnetworksite) cmdlet to assign an emergency calling policy to a network site.
 
 The following example shows how to assign a policy called Contoso Emergency Calling Policy 1 to the Site1 site.
 

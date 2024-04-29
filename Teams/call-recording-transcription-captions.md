@@ -44,7 +44,7 @@ To allow or prevent *call recordings*:
 1. Turn **Cloud recording for calling** On or Off.
 1. Select **Save**.
 
-With PowerShell, you can configure the `-AllowCloudRecordingForCalls` parameter in [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
+With PowerShell, you can configure the `-AllowCloudRecordingForCalls` parameter in [Set-CsTeamsCallingPolicy](/powershell/module/teams/set-csteamscallingpolicy).
 
 To allow or prevent *meeting recordings*, see [Teams meeting recording](meeting-recording.md).
 
@@ -66,11 +66,11 @@ To turn on call transcription for users:
 
 With PowerShell, you can configure the `-AllowTranscriptionForCalling` parameter with the following cmdlets:
 
-- [Get-CsTeamsCallingPolicy](/powershell/module/skype/get-csteamscallingpolicy)
-- [New-CsTeamsCallingPolicy](/powershell/module/skype/new-csteamscallingpolicy)
-- [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
-- [Remove-CsTeamsCallingPolicy](/powershell/module/skype/remove-csteamscallingpolicy)
-- [Grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy)
+- [Get-CsTeamsCallingPolicy](/powershell/module/teams/get-csteamscallingpolicy)
+- [New-CsTeamsCallingPolicy](/powershell/module/teams/new-csteamscallingpolicy)
+- [Set-CsTeamsCallingPolicy](/powershell/module/teams/set-csteamscallingpolicy)
+- [Remove-CsTeamsCallingPolicy](/powershell/module/teams/remove-csteamscallingpolicy)
+- [Grant-CsTeamsCallingPolicy](/powershell/module/teams/grant-csteamscallingpolicy)
 
 For example, this script enables transcription for the global policy:
 
@@ -96,11 +96,11 @@ To turn on real-time captions for calls for users:
 
 With PowerShell, you configure the `-LiveCaptionsEnabledTypeForCalling` parameter with the following cmdlets:
 
-- [Get-CsTeamsCallingPolicy](/powershell/module/skype/get-csteamscallingpolicy)
-- [New-CsTeamsCallingPolicy](/powershell/module/skype/new-csteamscallingpolicy)
-- [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
-- [Remove-CsTeamsCallingPolicy](/powershell/module/skype/remove-csteamscallingpolicy)
-- [Grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy)
+- [Get-CsTeamsCallingPolicy](/powershell/module/teams/get-csteamscallingpolicy)
+- [New-CsTeamsCallingPolicy](/powershell/module/teams/new-csteamscallingpolicy)
+- [Set-CsTeamsCallingPolicy](/powershell/module/teams/set-csteamscallingpolicy)
+- [Remove-CsTeamsCallingPolicy](/powershell/module/teams/remove-csteamscallingpolicy)
+- [Grant-CsTeamsCallingPolicy](/powershell/module/teams/grant-csteamscallingpolicy)
 
 For example, this script allows the user to turn on real-time captions in the global policy:
 

@@ -80,7 +80,7 @@ For the best Meetings First experience, users should be enabled for [Exchange On
 
 At minimum, users must be [licensed for Teams](/microsoft-365/admin/manage/assign-licenses-to-users). In addition, they can be licensed for [Audio Conferencing](set-up-audio-conferencing-in-teams.md), if needed.
 
-We recommend you [grant **SfBOnly** or **SfBWithTeamsCollab**](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps&preserve-view=true) mode as tenant default at the time you license the users. This setting ensures that users wouldn't start using Teams on their own in the default **Islands** mode before launching Meetings First.
+We recommend you [grant **SfBOnly** or **SfBWithTeamsCollab**](/powershell/module/teams/grant-csteamsupgradepolicy) mode as tenant default at the time you license the users. This setting ensures that users wouldn't start using Teams on their own in the default **Islands** mode before launching Meetings First.
 
 Meetings First is supported on full desktop clients (Windows and Mac), on browser clients, and on mobile clients. It's also compatible with [Microsoft Teams Rooms](/microsoftteams/room-systems/). Better Together requires the full desktop client.
 
@@ -103,7 +103,7 @@ You might consider running a moderate scale production ready pilot at this stage
 
 Once you've licensed your users and prepared your organization for Teams meetings, it's time to enable your users for Meetings First. We've made it easy: one setting will do it all.
 
-All capabilities and user experiences in Meetings First--including the Teams client configuration and [auto-conformance](teams-client-experience-and-conformance-to-coexistence-modes.md) of the user experience, Meetings Migration Service, and Better Together capabilities--are configured by granting the user (or group of users, or tenant default) the [SfBWithTeamsCollabAndMeetings coexistence mode](setting-your-coexistence-and-upgrade-settings.md) either in the [Microsoft Teams admin center](manage-teams-in-modern-portal.md) or by using [PowerShell](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps&preserve-view=true).
+All capabilities and user experiences in Meetings First--including the Teams client configuration and [auto-conformance](teams-client-experience-and-conformance-to-coexistence-modes.md) of the user experience, Meetings Migration Service, and Better Together capabilities--are configured by granting the user (or group of users, or tenant default) the [SfBWithTeamsCollabAndMeetings coexistence mode](setting-your-coexistence-and-upgrade-settings.md) either in the [Microsoft Teams admin center](manage-teams-in-modern-portal.md) or by using [PowerShell](/powershell/module/teams/grant-csteamsupgradepolicy).
 
 ![Screenshot of the admin settings to enable Meetings First.](media/teams-meeting-admin-settings.png)
 

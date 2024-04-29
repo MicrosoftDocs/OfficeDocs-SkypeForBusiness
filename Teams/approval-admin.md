@@ -37,7 +37,7 @@ Users can pin the Approvals app to save it to the menu bar.
 
  ![shows the approvals app with the pin option.](media/approvalApp-pin.png)
 
-The first approval created from the Approvals app will trigger the provisioning of the Approval Solution in the default Microsoft Dataverse environment. Approvals created from the Approvals app are stored in the default Microsoft Dataverse environment.
+The first approval created from the Approvals app triggers the provisioning of the Approval solution in the default Microsoft Dataverse environment. Approvals created from the Approvals app are stored in the default Microsoft Dataverse environment.
 
 This article describes the Approvals app requirements and roles.
 
@@ -72,6 +72,8 @@ Approvals that are created from a template still store data in Microsoft Dataver
 >If you delete the Form template on the Microsoft Forms site, it'll break your Approval template and users are unable to start the request. Users get an error "CDB TableNotFound" when trying to open an Approval template that is deleted on Microsoft Forms.
 
 Org-scoped templates share the same lifetime of the tenant and team-scoped templates share the same lifetime of the team. So, permanently deleting the team deletes the related templates.
+
+Viva Amplify approvals don't interact with Forms. Approvals store their data in Dataverse tables in Power Platform.
 
 ## Approvals Teams app permissions
 
@@ -127,7 +129,7 @@ The Approvals app is available by default. You can disable the app in the Teams 
 
 ### Use the Tailored frontline app experience to pin Approvals and other apps to Teams
 
-The tailored frontline app experience in Teams pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Pinned apps include Approvals, Walkie Talkie, Tasks, and Shifts. By default, this feature is on, giving your frontline workers an out-of-the-box experience that's tailored to their needs.
+The tailored frontline app experience in Teams pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Pinned apps include Approvals, Walkie Talkie, Tasks, and Shifts. By default, this feature is on, giving your frontline workers an out-of-the-box experience tailored to their needs.
 
 The apps are pinned to the app bar—the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients—where users can quickly and easily access them.
 

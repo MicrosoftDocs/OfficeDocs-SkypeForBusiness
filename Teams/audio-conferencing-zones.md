@@ -1,13 +1,14 @@
 ---
 title: Country and region zones for Audio Conferencing
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jenz
+author: jenzamora
 manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 02/22/2024
 ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 ms.collection: 
   - M365-collaboration
   - m365initiative-meetings

@@ -70,15 +70,30 @@ You can also set the policy using the PowerShell `Set-CsTeamsUpdateManagementPol
 ## Enable Public preview
 
 To enable Public preview on a desktop or web client, perform the following tasks:
+> [!NOTE]  
+> This option is only available when **Show Teams preview features** is set to **Users can opt in** or [Custom app upload](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant#enable-custom-teams-apps-and-turn-on-custom-app-uploading) is enabled.
+
+# [New Teams client](#tab/new-teams-client)
+
+1. Select **Settings and more** (**...**) next to your user profile.
+1. Select **Settings** > **About Teams**.
+1. Under **Early access**, select the **Public preview** checkbox.
+
+Users who are in new Teams client will see early Access indicator under Settings -> About Teams
+
+
+# [Classic Teams](#tab/classic-teams)
 
 1. Select the three dots to the left of your profile to display the Teams menu.
 2. Select **About** > **Public preview**.
 3. Select **Switch to Public preview**.
 
-> [!NOTE]  
-> This option is only available when **Allow public preview** is set to **Enabled**.
+Users who are in the classic Teams will see **EA** next to their profile picture indicating that they have **E**arly **A**ccess to Teams features.
 
-### Public preview for Microsoft Teams Rooms on Windows
+---
+
+
+## Public preview for Microsoft Teams Rooms on Windows
 
 Public preview is turned off by default. When Public preview is turned on, users have access to features that are in public preview on enabled Teams Rooms. To turn on Public preview, add ```<EnablePublicPreview>True</EnablePublicPreview>``` to your XML configuration file. For more information about the XML file, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](/microsoftteams/rooms/xml-config-file).
 
@@ -86,11 +101,7 @@ We recommend enrolling 5-10 devices to public preview.
 
 All public preview features are announced at [Microsoft Teams Public preview - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview).
 
-### Public preview Indicator
 
-Users who are in the public preview will see **EA** next to their profile picture in classic Teams, indicating that they have **E**arly **A**ccess to Teams features (as shown in the following image).
-
-![Screenshot of the early-access icon.](media/early-access-screenshot.png)
 
 ## Related topics
 
