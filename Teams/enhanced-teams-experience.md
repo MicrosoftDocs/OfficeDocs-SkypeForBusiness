@@ -29,7 +29,7 @@ description: Learn about Microsoft Teams Premium for administrators and IT Profe
 ![Information icon](media/info.png) **Most of the features described in this article require a Teams Premium license.** A few features, for example, some webinar features, are available with other licenses as well. 
 
 ![Information icon](media/info.png)
-Teams Premium licenses are not a replacement for Teams licenses. Users must have both a Teams license and a Teams Premium license for Teams and Teams Premium features to work properly.  For details about feature availability and licensing, see [Teams Premium licensing](teams-add-on-licensing/licensing-enhance-teams.md).
+**Teams Premium licenses are not a replacement for Teams licenses.** Users must have both a Teams license and a Teams Premium license for Teams and Teams Premium features to work properly.  For details about feature availability and licensing, see [Teams Premium licensing](teams-add-on-licensing/licensing-enhance-teams.md).
 
 ![Information icon](media/info.png) Now that Teams Premium has reached general availability, some features formerly available with Teams will only be available with a Teams Premium license.
 
