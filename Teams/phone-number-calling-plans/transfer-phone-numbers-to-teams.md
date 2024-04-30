@@ -58,7 +58,7 @@ For more information about submitting the necessary forms, see [Manage phone num
 
 4. On the **Add account information** page, complete the following, and then select **Next**.
 
-    > [!IMPORTANT]
+    > [!NOTE]
     > The information displayed on this page is determined by the country or region and number type. Each country and region has different regulations on the information that's required to port numbers. What you see on this page may be different from what's described here.
 
     - **Order details**: 
@@ -82,19 +82,16 @@ For more information about submitting the necessary forms, see [Manage phone num
 
     If you haven't already downloaded and signed the LOA, do the following:
     
-    a. Select **Download the template** to download the LOA for your country or region. 
-    b. Print the LOA.
-    c. Have the LOA signed by the person who is authorized to make changes to the account.
+    a. Select **Download the template** to download the LOA for your country or region. <br>
+    b. Print the LOA.<br>
+    c. Have the LOA signed by the person who is authorized to make changes to the account.<br>
     d. Scan the signed LOA, and then select **Upload a signed Letter of Authorization** to upload it.
 
-    > [!NOTE]
-    > After you upload your LOA, submit your order. Just uploading the LOA isn't sufficient. You have to also submit the order for it be processed.
-    >
-    > For more information about LOAs to port/transfer existing phone numbers and additional documentation requirements, see [Manage phone numbers for Calling Plan](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
-    >
-    > To port/transfer more than 999 phone numbers or if you experience issues with the porting process in the Microsoft Teams admin center, you can [manually submit a port order](/microsoftteams/phone-number-calling-plans/manually-submit-port-order) to the TNS Service Desk for your region.
+7. Review your order details, and then select **Submit**. You must submit the order for it to e processed.
 
-7. Review your order details, and then select **Submit**.
+For more information about LOAs to port/transfer existing phone numbers and additional documentation requirements, see [Manage phone numbers for Calling Plan](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+    
+To port/transfer more than 999 phone numbers or if you experience issues with the porting process in the Microsoft Teams admin center, you can [manually submit a port order](/microsoftteams/phone-number-calling-plans/manually-submit-port-order) to the TNS Service Desk for your region.
 
 ## What happens next
 
