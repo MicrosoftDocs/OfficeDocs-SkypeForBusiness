@@ -1,7 +1,7 @@
 ---
 title: "Audio Conferencing pay-per-minute"
-ms.author: jtremper
-author: jacktremper
+ms.author: jenz
+author: jenzamora
 manager: pamgreen
 ms.reviewer: mikedav, oscarr
 ms.date: 02/21/2024
@@ -9,6 +9,7 @@ ms.topic: conceptual
 ms.assetid: d050c8c3-1cd2-45c8-8a6d-2e86e938f356
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 search.appverid: MET150
 ms.collection: 
   - m365initiative-meetings
