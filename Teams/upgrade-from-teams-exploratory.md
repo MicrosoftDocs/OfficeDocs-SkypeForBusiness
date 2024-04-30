@@ -6,7 +6,7 @@ manager: pamgreen
 ms.topic: reference
 audience: Admin
 ms.reviewer: 
-ms.date: 06/22/2021
+ms.date: 04/23/2024
 ms.service: msteams
 search.appverid: MET150
 ms.localizationpriority: high

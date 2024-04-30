@@ -1,12 +1,12 @@
 --- 
-title: Manage who can present and request control in Teams meetings
+title: Manage who can present and request control in Teams meetings and webinars
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
-ms.reviewer: 
-ms.date: 03/15/2021
+ms.reviewer: nakulm, bryannyce
+ms.date: 04/29/2024
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -23,69 +23,83 @@ ms.custom:
 description: Learn to manage who can present and take control in Teams meetings.
 ---
 
-# Manage who can present and request control in Teams meetings
+# Manage who can present and request control in Teams meetings and webinars
 
 **APPLIES TO:** ✔️Meetings ✔️Webinars ✖️Town halls
 
-You can use Teams meeting policies to control who can present in meetings and who can request control of the presentation while a meeting is underway.
+As an admin, you can manage who can present in meetings and webinars and whether participants and external participants can request control of the presentation.
 
-The settings described in this article are part of Teams meeting policies.
+## Manage who can present and request control
 
-To update a Teams meeting policy
+To manage who can present and request control, follow these steps:
+
 1. In the Teams admin center, expand **Meetings** and select **Meeting policies**.
-1. Select the policy that you want to edit.
-1. Scroll to the **Content sharing** section.
-1. Change the desired settings (described below) and select **Save**.
+2. Select the policy that you want to edit or create a new one.
+3. Navigate to the **Content sharing** section.
+4. Select your desired values for [**Who can present**](#manage-who-can-present), [**Participants can give or request control**](#participants-can-give-or-request-control), [**External participants can give or request control**](#external-participants-can-give-or-request-control) (described in the following sections).
+5. Select **Save**.
 
-## Manage who can present
+### Manage who can present
 
-This setting is a per-user policy that lets you change the default value of the **Who can present?** setting in **Meeting options** in the Teams client. The **Who can present** policy setting affects all meetings, including Meet Now meetings.
+**Who can present** lets organizers choose who can be presenters in a meeting or webinar. To learn more, see [Change participant settings for a Teams meeting](https://support.microsoft.com/office/53261366-dbd5-45f9-aae9-a70e6354f88e) and [Roles in a Teams meeting](https://support.microsoft.com/office/c16fa7d0-1666-4dde-8686-0a0bfe16e019).
 
-The **Who can present?** setting lets meeting organizers choose who can be presenters in a meeting. To learn more, see [Change participant settings for a Teams meeting](https://support.microsoft.com/office/53261366-dbd5-45f9-aae9-a70e6354f88e) and [Roles in a Teams meeting](https://support.microsoft.com/office/c16fa7d0-1666-4dde-8686-0a0bfe16e019).
+This setting is a per-user policy that and lets you choose the default value for the **Who can present** setting that organizers see in their Meeting options. The **Who can present** policy setting affects all meetings and webinars, including Meet Now meetings.
 
-To specify the default value of the **Who can present?** setting in Teams, set to one of the following settings in the **Who can present** policy:
+To specify the default value of the **Who can present** setting in Teams, select one of the following settings in the **Who can present** policy:
 
-- **Only organizers and co-organizers**: Only the meeting organizer can be a presenter and all meeting participants are designated as attendees. This parameter corresponds to the **Only organizers and co-organizers** setting in Teams.
-- **People in my organization and guests**: Authenticated users in the organization, including guests, can be presenters. This setting corresponds to the **People in my organization and guests** setting in Teams.
-- **Everyone**:  All meeting participants can be presenters. This is the default value. This setting corresponds to the **Everyone** setting in Teams.
+| Option | Behavior |
+|---|---|
+| Only organizers and co-organizers | Only the organizer and chosen co-organizers can present during the meeting or webinar. All the other  participants join the meeting or webinar as attendees. |
+| People in my org and guests | Authenticated users in your org, including guests, join the meeting or webinar as a presenter and can present. |
+| Everyone | **This is the default.**  Everyone attending the meeting or webinar joins as a presenter and can present. This setting corresponds to the **Everyone** setting in Teams.  |
 
-Keep in mind that after you set the default value, meeting organizers can still change this setting in Teams and choose who can present in the meetings that they schedule.
+After you set the default value, organizers can still change this setting through their Meeting options in Teams to choose who can present in their meetings and webinars.
 
-## Participants can give or request control
+### Participants can give or request control
 
-This setting is a per-user policy. This setting controls whether the user can give control of the shared desktop or window to other meeting participants. To give control, hover over the top of the screen.
+This setting is a per-user policy that controls whether users with this assigned policy can give, be given, or request control of the shared desktop or window. To give control, your users can hover over the top of the screen.
 
-> [!NOTE]
-> This setting also affects webinars.
+You can toggle this setting **On** or **Off** in the Teams admin center or manage this policy in PowerShell.
 
-If this setting is turned on for the user, the **Give Control** option is displayed in the top bar in a sharing session.
+When this assigned policy is **On** for a user, the **Give Control** option is displayed in the top bar during a sharing session.
 
-![Screenshot showing the Give Control option.](media/meeting-policies-give-control.png)
-
-If the setting is turned off for the user, the **Give Control** option isn't available.
-
-![Screenshot showing that the Give Control option is not available.](media/meeting-policies-give-control-not-available.png)
+When this assigned policy is **Off** for a user, the **Give Control** option isn't available.
 
 Let's look at the following example.
 
 | User | Meeting policy | Allow participant to give or request control |
 |---|---|---|
 | Daniela | Global | On |
-| Babek | Location1MeetingPolicy | Off |
+| Adele | Location1MeetingPolicy | Off |
 
-Daniela can give control of the shared desktop or window to other participants in a meeting organized by Babek. However, Babek can't give control to other participants.
-
-To use PowerShell to control who can give control or accept requests for control, use the AllowParticipantGiveRequestControl cmdlet.
+Daniela can give control of the shared desktop or window to other participants in a meeting or webinar Adele organizes. However, Adele can't give control to other participants.
 
 > [!NOTE]
-> To give and take control of shared content during sharing, both parties must be using the Teams desktop client. Control isn't supported when either party is running Teams in a browser. This is due to a technical limitation that we're planning to fix.
+> To give and take control of shared content during sharing, both users must be using the Teams desktop client. Control isn't supported when either user is using Teams in a browser.
 
-## External participants can give or request control
+#### PowerShell
 
-This setting is a per-user policy. Whether an organization has set this policy for a user doesn't control what external participants can do, regardless of what the meeting organizer has set. This parameter controls whether external participants can be given control or request control of the sharer's screen, depending on what the sharer has set within their organization's meeting policies.
+Use the **`-AllowExternalParticipantGiveRequestControl`** parameter within the PowerShell [**CsTeamsMeetingPolicy**](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet to control whether or not external participants can give, be given, and request control during meetings and webinars.
 
-> [!NOTE]
-> This setting also affects webinars.
+To allow users to give, be given, and request control during meetings and webinars, use the following script:
+
+```powershell
+Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowParticipantGiveRequestControl $True
+```
+
+To prevent users from giving, being given, and requesting control during meetings and webinars, use the following script, use the following script:
+
+```powershell
+Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowParticipantGiveRequestControl $False
+```
+
+### External participants can give or request control
+
+This setting is a per-user policy. This policy controls whether external participants can give, be given, or request control of the sharer's screen in meetings and webinars organizers with this policy create.
+
+You can toggle this setting **On** or **Off** in the Teams admin center or manage this policy in PowerShell.
+
+**External participants can give or request control**  doesn't control what external participants can do in meetings and webinars they attend. The organizer's **Who can present** and **Who can bypass the lobby** settings in their **Meeting options** determines what external participants can do in their meeting or webinar.
 
 External participants in Teams meetings can be categorized as follows:  
 
@@ -93,12 +107,28 @@ External participants in Teams meetings can be categorized as follows:
 - Guests
 - External access users
 
-Whether external access users can give control to other external participants while sharing is controlled by the **External participants can give or request control** setting in their organization. This setting must be turned on in both organizations for an external participant to take control in Teams meetings hosted by people in your organization.
+For external access users to give control to other external participants, both you and the other org's admin must have this policy set to **On**.
 
-To use PowerShell to control whether external participants can give control or accept requests for control, use the AllowExternalParticipantGiveRequestControl cmdlet.
+#### PowerShell
+
+Use the **`-AllowExternalParticipantGiveRequestControl`** parameter within the PowerShell [**CsTeamsMeetingPolicy**](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet to control whether or not external participants can give, be given, and request control during meetings and webinars.
+
+For external participants to give, be given, and request control in meetings and webinars organizers with this policy create, use the following script:
+
+```powershell
+Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowExternalParticipantGiveRequestControl $True
+```
+
+To prevent external participants from being given, giving, and requesting control in meetings and webinars organizers with this policy create, use the following script:
+
+```powershell
+Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowExternalParticipantGiveRequestControl $False
+```
 
 ## Related topics
 
 - [Teams policy reference - Meetings](settings-policies-reference.md)
 - [Assign policies to your users in Teams](policy-assignment-overview.md)
 - [Teams PowerShell overview](teams-powershell-overview.md)
+- [Plan meetings](plan-meetings.md)
+- [Plan webinars](plan-webinars.md)
