@@ -1,7 +1,7 @@
 ---
 title: Teams and Skype interoperability
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
@@ -88,7 +88,7 @@ In the Microsoft Teams admin center, go to **Users** > **External access**, and 
 ### Using PowerShell
 
 Do the following: 
-1. Use the [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy) cmdlet together with the ```EnablePublicCloudAccess``` parameter to control whether Teams users can communicate with Skype users. Setting the parameter to ```true``` allows Teams users to communicate with Skype users. You can use the ```EnablePublicCloudAudioVideoAccess``` parameter to enable/disable audio/video calls.
+1. Use the [Set-CsExternalAccessPolicy](/powershell/module/teams/set-csexternalaccesspolicy) cmdlet together with the ```EnablePublicCloudAccess``` parameter to control whether Teams users can communicate with Skype users. Setting the parameter to ```true``` allows Teams users to communicate with Skype users. You can use the ```EnablePublicCloudAudioVideoAccess``` parameter to enable/disable audio/video calls.
 
 2. Use the [Set-CsTenantPublicProvider](/powershell/module/skype/Set-CsTenantPublicProvider) cmdlet together with the ```Provider``` parameter set to ```"WindowsLive"``` so that Teams users can communicate with Skype users.
 

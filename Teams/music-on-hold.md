@@ -50,7 +50,7 @@ If a Teams user has a Teams calling policy with Music on Hold set to Disabled, t
 
 In addition to playing default music to callers, you can upload a custom audio file with music or other audio content and configure that audio file to be played to the caller. For example, a department or organization might want to play a custom announcement or custom music when external PSTN callers are put on hold.
 
-The configuration is done using call hold policies. You can upload one audio file per call hold policy instance and the audio file is played repeatedly to the caller. For supported audio formats and maximum file size, see [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile).
+The configuration is done using call hold policies. You can upload one audio file per call hold policy instance and the audio file is played repeatedly to the caller. For supported audio formats and maximum file size, see [Import-CsOnlineAudioFile](/powershell/module/teams/import-csonlineaudiofile).
 
 > [!NOTE]
 > You are responsible for independently clearing and securing all necessary rights and permissions to use any music or audio file with your Microsoft Teams service. This may include intellectual property and other rights in any music, sound effects, audio, brands, names, and other content in the audio file from all relevant rights holders. Holders can include artists, actors, performers, musicians, songwriters, composers, record labels, music publishers, unions, guilds, rights societies, collective management organizations, and any other parties who own, control or license the music copyrights, sound effects, audio and other intellectual property rights.
@@ -79,7 +79,7 @@ To configure a new call hold policy:
 
 To configure custom Music on Hold, use the PowerShell cmdlets New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy and Import/Get/Remove/Export-CsOnlineAudioFile in Teams PowerShell module 3.0.0 or later.
 
-For supported audio formats and maximum file size, see [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)
+For supported audio formats and maximum file size, see [Import-CsOnlineAudioFile](/powershell/module/teams/import-csonlineaudiofile)
 
 1. Ensure that the Teams user has Music on hold for PSTN callers set to Enabled in the Teams calling policy.
 
@@ -89,9 +89,9 @@ For supported audio formats and maximum file size, see [Import-CsOnlineAudioFile
 
 ### Upload the custom audio file
 
-The configuration of custom Music on Hold starts with uploading the audio file. You use the PowerShell cmdlet [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile) for this purpose.
+The configuration of custom Music on Hold starts with uploading the audio file. You use the PowerShell cmdlet [Import-CsOnlineAudioFile](/powershell/module/teams/import-csonlineaudiofile) for this purpose.
 
-An example of uploading an MP3 audio file using Windows PowerShell 5.1 is shown below. For other examples, see [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile).
+An example of uploading an MP3 audio file using Windows PowerShell 5.1 is shown below. For other examples, see [Import-CsOnlineAudioFile](/powershell/module/teams/import-csonlineaudiofile).
 
 ```PowerShell
 C:\> $content = [System.IO.File]::ReadAllBytes('C:\tmp\customMoH1.mp3')
@@ -149,22 +149,22 @@ The following table indicates which features on which clients and devices suppor
 
 - [Assign policies to users](policy-assignment-overview.md)
 
-- [Get-CsTeamsCallingPolicy](/powershell/module/skype/get-csteamscallingpolicy)
+- [Get-CsTeamsCallingPolicy](/powershell/module/teams/get-csteamscallingpolicy)
 
-- [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
+- [Set-CsTeamsCallingPolicy](/powershell/module/teams/set-csteamscallingpolicy)
 
-- [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)
+- [Import-CsOnlineAudioFile](/powershell/module/teams/import-csonlineaudiofile)
 
-- [Export-CsOnlineAudioFile](/powershell/module/skype/export-csonlineaudiofile)
+- [Export-CsOnlineAudioFile](/powershell/module/teams/export-csonlineaudiofile)
 
-- [Get-CsOnlineAudioFile](/powershell/module/skype/get-csonlineaudiofile)
+- [Get-CsOnlineAudioFile](/powershell/module/teams/get-csonlineaudiofile)
 
-- [Remove-CsOnlineAudioFile](/powershell/module/skype/remove-csonlineaudiofile)
+- [Remove-CsOnlineAudioFile](/powershell/module/teams/remove-csonlineaudiofile)
 
-- [New-CsTeamsCallHoldPolicy](/powershell/module/skype/new-csteamscallholdpolicy)
+- [New-CsTeamsCallHoldPolicy](/powershell/module/teams/new-csteamscallholdpolicy)
 
-- [Get-CsTeamsCallHoldPolicy](/powershell/module/skype/get-csteamscallholdpolicy)
+- [Get-CsTeamsCallHoldPolicy](/powershell/module/teams/get-csteamscallholdpolicy)
 
-- [Grant-CsTeamsCallHoldPolicy](/powershell/module/skype/grant-csteamscallholdpolicy)
+- [Grant-CsTeamsCallHoldPolicy](/powershell/module/teams/grant-csteamscallholdpolicy)
 
-- [Remove-CsTeamsCallHoldPolicy](/powershell/module/skype/remove-csteamscallholdpolicy)
+- [Remove-CsTeamsCallHoldPolicy](/powershell/module/teams/remove-csteamscallholdpolicy)

@@ -81,7 +81,7 @@ Use IP phone policies to control which features are available to Teams Displays.
 
 ### IP phone policies
 
-To configure other parameters, consider creating an [IP phone policy](/powershell/module/skype/new-csteamsipphonepolicy).
+To configure other parameters, consider creating an [IP phone policy](/powershell/module/teams/new-csteamsipphonepolicy).
 
 > [!Important]
 >

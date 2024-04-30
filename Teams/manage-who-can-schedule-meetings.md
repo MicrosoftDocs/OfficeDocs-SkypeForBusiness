@@ -36,7 +36,7 @@ The meeting scheduling policy settings are turned on by default. These settings 
 - **Meet now in channel meetings**: Controls whether a user can start an instant meeting in a channel.
 - **Outlook add in**: Controls whether a user can schedule a private meeting from Outlook.
 
-You can also use [Microsoft PowerShell](teams-powershell-overview.md) with the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet to update these meeting policy settings.
+You can also use [Microsoft PowerShell](teams-powershell-overview.md) with the [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet to update these meeting policy settings.
 
 > [!NOTE]
 > If the meeting was sent by a delegate, who was given permissions to send meeting invitations on behalf of another person, such as a manager, the meeting policy setting is applied to the person who granted permission (the manager).
@@ -104,4 +104,4 @@ If you turn off this setting, users are unable to schedule Teams meetings when t
 - [Use the Teams Meeting add-in in Outlook](outlook-add-in-authentication-policy-requirements.md)
 - [Assign policies to your users in Teams](policy-assignment-overview.md)
 - [Meetings, webinars, and live events](quick-start-meetings-live-events.md)
-- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
+- [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)

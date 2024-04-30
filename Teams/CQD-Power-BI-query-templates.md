@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: siunies
-ms.date: 03/06/2020
+ms.date: 04/09/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -13,6 +13,7 @@ ms.collection:
   - m365initiative-voice
   - remotework
   - Tier1
+  - ContentFreshnessFY24
 search.appverid: MET150
 audience: Admin
 appliesto: 
@@ -23,7 +24,7 @@ description: "Use Power BI to analyze CQD data for Microsoft Teams."
 
 # Use Power BI to analyze CQD data for Microsoft Teams
 
-The Quality of Experience (QER) template is now available in the [Power BI query templates for CQD download](https://www.microsoft.com/download/details.aspx?id=102291). The QER is a powerful reporting template that supercedes the original CQD Power BI query templates released in 2020. While the original templates will remain available for demonstration purposes, they are no longer supported or updated and we recommend customers switch to the QER template which will continue to receive updates. Note that this does not apply to the CQD Teams Auto Attendant & Call Queue Historical Report.
+The Quality of Experience (QER) template is now available in the [Power BI query templates for CQD download](https://www.microsoft.com/download/details.aspx?id=102291). The QER is a powerful reporting template that supersedes the original CQD Power BI query templates released in 2020. While the original templates will remain available for demonstration purposes, they're no longer supported or updated and we recommend customers switch to the QER template which will continue to receive updates. Note that this doesn't apply to the CQD Teams Auto Attendant & Call Queue Historical Report.
 
 For Call Quality Dashboard (CQD) reports in Teams, if you'd rather use Power BI to query and report your data, download our CQD Power BI templates. When you open the templates in Power BI, you'll be prompted to sign in with your CQD admin credentials. You can customize these query templates and distribute them to anyone in your organization who has a Power BI license and CQD admin permissions.
 
@@ -37,7 +38,7 @@ Make sure you have the right [CQD access role](turning-on-and-using-call-quality
 |QER MTR.pbit  | Part of the Microsoft Teams Optimized Experiences report package, this template is optimized for analyzing quality and reliability for Microsoft Teams Rooms (Windows & Android) deployments, and includes the following reports: <br><li>MTR Overview</li> <li>MTR Network</li> <li>MTR Device Health Details</li> <li>MTR Meeting Health Details</li>|
 |QER PS.pbit  | Part of the Microsoft Teams Optimized Experiences report package, this template is optimized for analyzing Microsoft Teams Phone System deployments, including those environments using Direct Routing, and includes the following reports: <br>Direct Routing Reports <li>SBC Overview</li> <li>SBC Details</li> <li>User Details by SBC</li> <br> Phone System Reports <li>PSTN Overview</li> <li>PSTN User Overview</li> <li>PSTN User Details</li> <li>PSTN Clients</li> <li>PSTN Devices</li>|
 |CQD Teams Auto Attendant & Call Queue Historical Report.pbit     |  This template provides the following three reports:</p><li>Auto Attendant – showing analytics for calls coming into your Auto Attendants.</li><li>Call Queue – showing analytics for calls coming into your Call Queues.</li><li>Agent Timeline – showing a timeline view of agents being active in Call Queue calls.</li><br>To learn more, read [Auto Attendant & Call Queue Historical Report](aa-cq-cqd-historical-reports.md). |
-|CQD Teams Utilization Report.pbit     | Shows how users in your organization are using Teams and how much. Make sure you upload the building data to maximize your reporting experience. To learn more, read [Use CQD Power BI report to view Microsoft Teams utilization](CQD-teams-utilization-report.md). |
+|CQD Teams Usage Report.pbit     | Shows how users in your organization are using Teams and how much. Make sure you upload the building data to maximize your reporting experience. To learn more, read [Use CQD Power BI report to view Microsoft Teams utilization](CQD-teams-utilization-report.md). |
 
 ## Legacy templates
 

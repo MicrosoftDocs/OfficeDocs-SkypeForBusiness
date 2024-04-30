@@ -71,7 +71,7 @@ An Intelligent Speaker that is of a speakerphone design should be placed at leas
 
 ## Enable an Intelligent Speaker user recognition
 
-Voice profile data can be used in any meeting with an Intelligent Speaker. See [Teams meetings policies](../meetings-policies-recording-and-transcription.md#transcription) and the [PowerShell meeting cmdlets](/powershell/module/skype/set-csteamsmeetingpolicy) for information on the meeting settings.
+Voice profile data can be used in any meeting with an Intelligent Speaker. See [Teams meetings policies](../meetings-policies-recording-and-transcription.md#transcription) and the [PowerShell meeting cmdlets](/powershell/module/teams/set-csteamsmeetingpolicy) for information on the meeting settings.
 
 > [!NOTE]
 > If your voice profile isn't available under the *Recognition* tab in Settings and you aren't being attributed in transcriptions, re-enroll your Voice Profile.

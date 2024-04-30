@@ -39,7 +39,7 @@ To set the default for meeting reactions in new meetings:
 1. Set **Reactions** to **On** or **Off**.
 1. Select **Save**.
 
-To configure the setting in PowerShell, use the **`-AllowMeetingReactions`** parameter within the PowerShell [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet.
+To configure the setting in PowerShell, use the **`-AllowMeetingReactions`** parameter within the PowerShell [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet.
 
 To turn off meeting reactions, use the following script:
 

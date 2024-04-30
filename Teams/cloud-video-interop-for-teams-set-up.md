@@ -1,7 +1,7 @@
 ---
 title: Set up Cloud Video Interop for Microsoft Teams
-author: MikePlumleyMSFT
-ms.author: mikeplum
+author: jacktremper
+ms.author: jtremper
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
@@ -57,24 +57,24 @@ The tenant key is the dial out to the partner service. In the following example,
 
 You'll need to execute the following cmdlets to provision the tenant key, and also enable select users or your whole organization to create meetings with video interop coordinates.
 
-- **[Get-CsTeamsVideoInteropServicepolicy](/powershell/module/skype/get-csteamsvideointeropservicepolicy):**
+- **[Get-CsTeamsVideoInteropServicepolicy](/powershell/module/teams/get-csteamsvideointeropservicepolicy):**
 Microsoft provides preconstructed policies for each of our supported partners that allow you to designate which partner(s) to use for cloud video interop.
 
     This cmdlet allows you to identify the preconstructed policies that you can use in your organization. You can assign this policy to one or more of your users using the Grant-CsTeamsVideoInteropServicePolicy cmdlet.
 
-- **[Grant-CsTeamsVideoInteropServicePolicy](/powershell/module/skype/grant-csteamsvideointeropservicepolicy):**
+- **[Grant-CsTeamsVideoInteropServicePolicy](/powershell/module/teams/grant-csteamsvideointeropservicepolicy):**
 The Grant-CsTeamsVideoInteropServicePolicy cmdlet allows you to assign a preconstructed policy for use in your organization or assign the policy to specific users.
 
-- **[New-CsVideoInteropServiceProvider](/powershell/module/skype/new-csvideointeropserviceprovider):**
+- **[New-CsVideoInteropServiceProvider](/powershell/module/teams/new-csvideointeropserviceprovider):**
 Use the New-CsVideoInteropServiceProvider to specify information about a supported CVI partner your organization would like to use.
 
-- **[Set-CsVideoInteropServiceProvider](/powershell/module/skype/set-csvideointeropserviceprovider):**
+- **[Set-CsVideoInteropServiceProvider](/powershell/module/teams/set-csvideointeropserviceprovider):**
 Use the Set-CsVideoInteropServiceProvider to update information about a supported CVI partner your organization uses.
 
-- **[Get-CsVideoInteropServiceProvider](/powershell/module/skype/get-csvideointeropserviceprovider):**
+- **[Get-CsVideoInteropServiceProvider](/powershell/module/teams/get-csvideointeropserviceprovider):**
 Get all of the providers that have been configured for use within the organization.
 
-- **[Remove-CsVideoInteropServiceProvider](/powershell/module/skype/remove-csvideointeropserviceprovider):**
+- **[Remove-CsVideoInteropServiceProvider](/powershell/module/teams/remove-csvideointeropserviceprovider):**
 Use Remove-CsVideoInteropServiceProvider to remove all provider information about a provider that your organization no longer uses.
 
 ## Consent

@@ -67,7 +67,7 @@ Teams on Windows provides downloadable MSI installers in [32-bit](https://teams.
 Teams requires .NET Framework 4.5 or later. If .NET Framework 4.5 or later isn't installed, the Teams installer will offer to install for you.
 
 > [!NOTE]
-> Teams isn't supported in [Windows Kiosk Mode](/windows/configuration/kiosk-prepare).
+> Teams isn't supported in [Assigned Access](/windows/configuration/assigned-access/overview) mode (formerly known as Windows Kiosk mode).
 
 The Windows client is deployed to the AppData folder located in the user’s profile. Deploying to the user’s local profile allows the client to be installed without requiring elevated permissions. The Windows client uses the following locations:
 
