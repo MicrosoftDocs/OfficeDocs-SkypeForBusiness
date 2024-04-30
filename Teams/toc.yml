@@ -102,7 +102,7 @@ items:
                 - name: Update to the new Teams for Web
                   href: new-teams-web.md                          
                 - name: Troubleshooting installation issues          
-                  href: new-teams-troubleshooting-installation.md                 
+                  href: /microsoftteams/troubleshoot/teams-administration/fix-new-teams-installation-issues
                 - name: Known issues in new Teams
                   href: new-teams-known-issues.md
                 - name: Classic Teams client end of availability
