@@ -82,16 +82,16 @@ For more information about submitting the necessary forms, see [Manage phone num
 
     If you haven't already downloaded and signed the LOA, do the following:
     
-    a. Select **Download the template** to download the LOA for your country or region. <br>
-    b. Print the LOA.<br>
-    c. Have the LOA signed by the person who is authorized to make changes to the account.<br>
-    d. Scan the signed LOA, and then select **Upload a signed Letter of Authorization** to upload it.
+    1. Select **Download the template** to download the LOA for your country or region. 
+    2. Print the LOA.
+    3. Have the LOA signed by the person who is authorized to make changes to the account.
+    4. Scan the signed LOA, and then select **Upload a signed Letter of Authorization** to upload it.
 
-7. Review your order details, and then select **Submit**. You must submit the order for it to e processed.
+7. Review your order details, and then select **Submit**. You must submit the order for it to be processed.
 
 For more information about LOAs to port/transfer existing phone numbers and additional documentation requirements, see [Manage phone numbers for Calling Plan](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
     
-To port/transfer more than 999 phone numbers or if you experience issues with the porting process in the Microsoft Teams admin center, you can [manually submit a port order](/microsoftteams/phone-number-calling-plans/manually-submit-port-order) to the TNS Service Desk for your region.
+To port/transfer more than 999 phone numbers, or if you experience issues with the porting process in the Microsoft Teams admin center, you can [manually submit a port order](/microsoftteams/phone-number-calling-plans/manually-submit-port-order) to the TNS Service Desk for your region.
 
 ## What happens next
 
