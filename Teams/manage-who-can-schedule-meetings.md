@@ -41,7 +41,7 @@ The meeting scheduling policy settings are all turned on by default. These setti
 
 To learn about meeting registration, see [Manage registration for Microsoft Teams meetings](set-up-meeting-registration.md).
 
-To learn  about managing the attendance and engagement report, see [Manage the attendance and engagement report for meetings and events in Microsoft Teams](/teams-analytics-and-reports/meeting-attendance-report).
+To learn  about managing the attendance and engagement report, see [Manage the attendance and engagement report for meetings and events in Microsoft Teams](/microsoftteams/teams-analytics-and-reports/meeting-attendance-report).
 
 ## Channel meetings
 
