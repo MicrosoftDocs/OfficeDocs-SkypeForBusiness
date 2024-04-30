@@ -1,5 +1,5 @@
 ---
-title: Configure transcription and captions for Teams meetings
+title: Admins- Manage transcription and captions for Teams meetings
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
@@ -22,13 +22,15 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Configure transcription and captions for Teams meetings
+# Admins- Manage transcription and captions for Teams meetings
 
 [!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
 **APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
 
 In Microsoft Teams meetings and events, there's an option for recordings to have automatic transcription. Transcription allows users to play back meeting recordings with closed captions and review important discussion items in the transcript. Transcription and captions help create inclusive content for viewers.
+
+As an admin, you can manage transcription and captions for users in your org.
 
 ## Transcription
 
