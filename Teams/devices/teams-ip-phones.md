@@ -47,7 +47,7 @@ Beyond the certification period, Microsoft is committed to make efforts to suppo
 
 The following devices are Certified under the Microsoft Teams phones Certification Program:
 
-> The certification end date for Audiocods and Poly Android 9 based Teams audio phones has been extended to October 31, 2024.
+> The certification end date for Poly Android 9 based Teams audio phones has been extended to October 31, 2024.
 
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
