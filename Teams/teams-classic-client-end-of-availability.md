@@ -35,6 +35,8 @@ This rollout is going to differ based on your Teams Admin Center policy controls
 
 **Native clients excluding VDI**:
 
+The end of support for the classic Teams client starts July 1, 2024. The end of availability for the classic Teams client starts July 1, 2025.
+
 :::image type="content" source="media/teams-client-eoa-timeline.png" alt-text="A chart showing the timelines for classic Teams to new Teams.":::
 
 **VDI timeline**:
@@ -95,7 +97,7 @@ Admin-managed tenants. Admins can control their new Teams rollout by setting the
 
 Starting in March 2024, any classic Teams users who haven’t updated to new Teams will begin seeing an informational banner to remind them about the classic Teams end of support timeline. This banner will appear in the main Teams client window at the top of the page (underneath the main bar).
 
-:::image type="content" source="media/teams-client-eol-switch-banner-prior.png" alt-text="Shows the banner in Teams client that reads 'Classic Teams will be unsupported starting July 1, 2024. You'll be switched to the new Teams at that time. Learn more.' Learn more is a selectable link.":::
+:::image type="content" source="media/teams-client-eol-switch-banner-prior.png" alt-text="Shows the banner at the top of the Teams client that reads 'Classic Teams will be unsupported starting July 1, 2024. You'll be switched to the new Teams at that time. Learn more.' Learn more is a selectable link.":::
 
 If we're unable to move you to new Teams, here's a list of the banner messages you may experience:
 

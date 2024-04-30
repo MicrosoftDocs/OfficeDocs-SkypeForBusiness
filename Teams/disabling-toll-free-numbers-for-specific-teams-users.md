@@ -1,13 +1,14 @@
 ---
 title: "Disabling toll-free numbers for specific Teams users"
-ms.author: jtremper
-author: jacktremper
+ms.author: jenz
+author: jenzamora
 manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 02/22/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration

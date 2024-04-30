@@ -109,11 +109,16 @@ We don't recommend removing an Exchange Online license for information workers, 
 With task publishing, your organization can [publish task lists](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) targeted to specific locations (teams) across your organization to define and share a work plan to be completed at those locations.
 
 - People on the publishing team, such as corporate or regional leadership, can create task lists and publish them to specific teams.
-    :::image type="content" source="media/manage-planner-app-publish-tasks.png" alt-text="Screenshot of task publishing." lightbox="media/manage-planner-app-publish-tasks.png":::
+
+  :::image type="content" source="media/manage-planner-app-publish-tasks.png" alt-text="Screenshot of task publishing." lightbox="media/manage-planner-app-publish-tasks.png":::
+
 - Managers on the recipient teams can review the published task lists and assign individual tasks to team members.
+
 - Frontline workers have a simple mobile experience to see tasks assigned to them. They can attach photos to show their work when appropriate and mark their tasks as completed.
+
 - Publishers and managers can view reports to see assignment and completion status of tasks at each level, including by location (team), task list, and individual task.
-    :::image type="content" source="media/manage-planner-app-reporting.png" alt-text="Screenshot of task report." lightbox="media/manage-planner-app-reporting.png":::
+
+  :::image type="content" source="media/manage-planner-app-reporting.png" alt-text="Screenshot of task report." lightbox="media/manage-planner-app-reporting.png":::
 
 Users create, manage, and publish task lists by selecting the **My Tasks & Plans** dropdown menu in the Planner app, and then choosing **Publishing**. This menu only shows for a user if your organization [set up a team targeting hierarchy](#set-up-your-team-targeting-hierarchy) *and* the user is part of a team that's included in the hierarchy. The hierarchy determines whether the user can publish or receive task lists and view reporting for received lists.
 
@@ -170,4 +175,4 @@ See the [Project for the web service description](/office365/servicedescriptions
 
 ## Give feedback or report an issue
   
-To send us feedback or report an issue, select **Help** in the upper-right corner, select **Feedback**, and then enter your feedback or details about the issue you're experiencing.
+To send us feedback or report an issue, select **More** in the upper-right corner, choose **Feedback**, and then enter your feedback or details about the issue you're experiencing.

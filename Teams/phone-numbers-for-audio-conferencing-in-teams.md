@@ -1,7 +1,7 @@
 ---
 title: Phone numbers for Audio Conferencing
-ms.author: jtremper
-author: jacktremper
+ms.author: jenz
+author: jenzamora
 manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 02/22/2024
@@ -9,6 +9,7 @@ ms.topic: conceptual
 ms.assetid: 95a08f84-04e5-4f72-88a8-d6472a7c89d7
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 search.appverid: MET150
 ms.collection: 
   - M365-voice
