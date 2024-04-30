@@ -4824,6 +4824,11 @@
   "source_path": "teams/privacy/teams-privacy.md",
   "redirect_url": "/microsoftteams/privacy/location-of-data-in-teams",
   "redirect_document_id": false
+},
+{
+  "source_path": "Teams/rooms/with-skype-for-business-server-2015.md",
+  "redirect_url": "/microsoftteams/rooms/create-resource-account",
+  "redirect_document_id": false
 }
 ] 
 }
