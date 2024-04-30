@@ -37,7 +37,7 @@ The meeting scheduling policy settings are all turned on by default. These setti
 - **Outlook add in**: Controls whether a user can schedule a private meeting from Outlook.
 
 > [!NOTE]
-> When a delegate, authorized to send meeting invitations for someone else, sends a meeting, the meeting policy applies to the person who granted the delegate permission.
+> When a delegate authorized to send meeting invitations for someone else sends a meeting, the meeting policy applies to the person who granted the delegate permission.
 
 To learn about meeting registration, see [Manage registration for Microsoft Teams meetings](set-up-meeting-registration.md).
 
