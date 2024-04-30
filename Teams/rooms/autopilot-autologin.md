@@ -12,7 +12,7 @@ audience: Admin
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
-  - Tier3
+  - Tier1
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
