@@ -221,7 +221,7 @@ You may have queries about admin settings or configuration, user flows and app f
 
 * App developers can provide their contact information that you can use to chat with them. It helps you quickly evaluate an app and get the needed information from the app developers before you adopt and rollout an app. Some examples of such information are compliance and certification details, data handling details, clarity on pricing plans for paid apps, and app configuration instructions. You can start a chat with app developers by selecting **Start a Teams chat** but only if the app developer provided their contact information. We recommend that you don't share personal and sensitive information in the chat.
 
-   :::image type="content" source="media/chat-with-app-dev.png" alt-text="Screenshot showing the option in the app details page that let's you chat with app developer." lightbox="media/chat-with-app-dev.png":::
+   :::image type="content" source="media/chat-with-app-dev.png" alt-text="Screenshot showing the option in the app details page that let's you chat with app developer." lightbox="media/chat-with-app-dev-large.png":::
 
 ## Related articles
 
