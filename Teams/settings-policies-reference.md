@@ -313,7 +313,7 @@ App setup policies control how apps are made available to a user with the Teams 
 #### Related articles for setup policies
 
 - [Use app setup policies to pin and auto-install apps in Teams](teams-app-setup-policies.md)
-- [Use of Teams apps for external attendees or guest from outside an organization](non-standard-users.md)
+- [Use of Teams apps for external attendees or guest from outside an organization](apps-external-users.md)
 - [Understand Microsoft Teams apps and their capabilities](apps-in-teams.md)
 
 ### Customize app store
@@ -497,7 +497,7 @@ Meeting policies are used to control what features are available in meetings org
 |Store recordings outside your country/region|Off|If you want to store meeting recordings outside of your country/region, turn on both this setting and **Meeting recording**. This setting isn't applicable to recordings stored in OneDrive or SharePoint.|
 |Transcription|Off|Controls whether captions and transcription features are available during playback of meeting recordings. The person who started the recording needs this setting turned on for these features to work with their recording.|
 |Live captions|Off, but organizers and co-organizers can turn them on|This setting is a per-user policy and applies during a meeting. This setting controls whether the **Turn on live captions** option is available for the user to turn on and turn off live captions in meetings that the user attends.|
-|Copilot|On with transcript|Controls the default value for Copilot in your organizers’ meeting options.|
+|Copilot|On only with retained transcript|Controls the default value for Copilot in your organizers’ meeting options.|
 
 **PowerShell-only recording & transcription policies**
 
