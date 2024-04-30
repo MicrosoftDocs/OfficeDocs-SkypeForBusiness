@@ -217,6 +217,12 @@ Administrators can rely on the teamsbootstrapper.exe [error code](/windows/win32
 
 Learn more here: [Common error codes](/windows/win32/appxpkg/troubleshooting#common-error-codes)
 
+|Teamsbootstrapper.exe common error codes |Further information |
+|-----------------------------------------|--------------------|
+|0x80070057                               |The bootstrapper command dosen't have the full path (avoid URIs using .\). Try the full path instead (for example, c:\temp\MSTeams-x64.msix). |
+|0x80070032                               |A probable error on the UNC path. Try copying the MSIX to a local folder instead. |
+|0x80004004                               |There might be a regkey 'maglevInstallationSource' left behind in regkey HKLM\Software\WoW6432Node\Microsoft\Office\Teams. Try deleting it and reattempting the install. |
+
 ## Installation instructions for Windows Server 2019
 
 For Windows Server 2019, the only supported installation method is:  
