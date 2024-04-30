@@ -14,7 +14,7 @@ ms.collection:
   - Teams_ITAdmin_Devices
   - Tier1
 ms.reviewer: divank
-ms.date: 07/26/2021
+ms.date: 04/29/2024
 ms.localizationpriority: medium
 description: Learn how to set the user interface on Teams Android devices.
 ---
