@@ -1426,6 +1426,8 @@ items:
       items:
         - name: Teams device store
           href: devices/device-store.md
+        - name: Teams certified devices
+          href: devices/teams-ip-phones.md
         - name: Deploy
           items:
             - name: Configure notifications for Mi push
@@ -1502,8 +1504,6 @@ items:
                     href: teams-device-health.md   
     - name: Reference
       items:
-        - name: Teams certified devices
-          href: devices/teams-ip-phones.md
         - name: Meeting room devices and solutions
           href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Plan phones and displays deployment
@@ -1513,9 +1513,7 @@ items:
         - name: Deploy Azure Monitor
           href: rooms/azure-monitor-deploy.md
         - name: Manage devices with Azure Monitor
-          href: rooms/azure-monitor-manage.md
-        - name: Resource accounts for Skype for Business Server
-          href: rooms/with-skype-for-business-server-2015.md           
+          href: rooms/azure-monitor-manage.md       
               
 - name: Manage apps in Teams
   items: 
