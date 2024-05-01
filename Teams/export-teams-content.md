@@ -7,7 +7,7 @@ ms.topic: reference
 audience: admin
 ms.service: msteams
 ms.date: 08/15/2023
-description: In this article, you will learn about how to export Teams content using the Microsoft Teams Export APIs.
+description: In this article, you learn about how to export Teams content using the Microsoft Teams Export APIs.
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
@@ -26,7 +26,7 @@ Teams Export APIs allow you to export 1:1, group chat, meeting chats, and channe
 
 Here are some examples on how you can use these export APIs:
 
-- **Example 1**: If you have enabled Microsoft Teams in your organization and want to export all the Microsoft Teams messages to date programmatically by passing the date range for a given user or team.
+- **Example 1**: If you enabled Microsoft Teams in your organization and want to export all the Microsoft Teams messages to date programmatically by passing the date range for a given user or team.
 
 - **Example 2**: If you want to programmatically export all user or team messages daily by providing a date range. Export APIs can retrieve all the messages created or updated during the given date range.
 
@@ -40,10 +40,10 @@ Here are some examples on how you can use these export APIs:
 - **Application Context**: To call Microsoft Graph, your app must acquire an access token from the Microsoft identity platform. The access token contains information about your app and the permissions it has for the resources and APIs available through Microsoft Graph. To get an access token, your app must be registered with the Microsoft identity platform and be authorized by either a user or an administrator for access to the Microsoft Graph resources it needs.
 
     If you are already familiar with integrating an app with the Microsoft identity platform to get tokens, see the [Next Steps](/graph/auth/auth-concepts#next-steps) section for information and samples specific to Microsoft Graph.
-- **Hybrid Environment:** Export APIs support messages sent by users who are provisioned on Hybrid Environment (on-premises Exchange and Teams). Any messages that are sent by users who are configured for hybrid environment will be accessible using Export APIs.
+- **Hybrid Environment:** Export APIs support messages sent by users who are provisioned on Hybrid Environment (on-premises Exchange and Teams). Any messages that are sent by users who are configured for hybrid environment are accessible using Export APIs.
 - **User Deleted Messages:** Messages that are deleted by users from the Teams client can be accessed using export APIs up to 21 days from the time of deletion.
 - **Message Attachments:** Export APIs include the links to the attachments that are sent as part of messages. Using Export APIs you can retrieve the files attached in the messages.
-- **Reactions:** Export APIs support reactions initiated by a user on a Teams message. Reactions currently supported are heart, angry, like, sad, surprised, and laugh. In addition to Reactions, Export API also supports Reaction Edit History which includes changes and updates made to a reaction on a message.
+- **Reactions:** Export APIs support reactions initiated by a user on a Teams message. Reactions currently supported are heart, angry, like, sad, surprised, and laugh. In addition to Reactions, Export API also supports Reaction Edit History, which includes changes and updates made to a reaction on a message.
 - **Shared Channel Messages:** Export APIs support capturing messages from a Shared Channel.
 - **Deleted Teams:** Export API supports [capturing messages from deleted Teams](/graph/api/deletedteam-getallmessages) and deleted standard, private, and shared channels.
 - **Chat Message Properties:** Refer to the [complete list of properties that Teams Export APIs support](/graph/api/resources/chatmessage#properties).
@@ -89,6 +89,9 @@ Here are some examples on how you can use these export APIs:
 > [!NOTE]
 > The API returns response with next page link in case of multiple results. For getting next set of results, simply call GET on the url from @odata.nextlink. If @odata.nextlink is not present or null then all messages are retrieved.
 
+> [!NOTE]
+> The order of messages in the response is not guaranteed to be sorted by any datetime, such as createdDateTime nor lastModifiedDateTime.
+
 ## Prerequisites to access Teams Export APIs
 
 - Microsoft Teams APIs in Microsoft Graph that access sensitive data are considered protected APIs. You can call these APIs as long as the requirements for [accessing without a user](/graph/auth-v2-service) are met.
@@ -122,7 +125,7 @@ Restricted to applications performing security and/or compliance functions, user
 
 ### General usage/Model B scenarios
 
-Available for all non-S+C related scenarios, there are no license requirements or seeded capacity. When consumption meters become available, app owners will be charged for all monthly API calls.
+Available for all non-S+C related scenarios, there are no license requirements or seeded capacity. When consumption meters become available, app owners are charged for all monthly API calls.
 
 The following partners are certified. Your company may choose to work with any combination of these partners within your enterprise.  
 
@@ -132,7 +135,7 @@ The following partners are certified. Your company may choose to work with any c
 |![logo-of-veeam](media/veeam.png) |[Microsoft Teams backup and recovery](https://www.veeam.com/backup-microsoft-office-365.html) |
 
 ### Next steps
-If you're a vendor seeking to join the certification program, fill out [this form](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRymC9dkiqEZFkLXIAijLzONUREtFR1JKR1lQVFJCVFc5QlJaS1FDWEhaSS4u) as the next step. If you need to provide additional context and details, mail to MS Teams Ecosystem Team (TeamsCategoryPartner@microsoft.com).
+If you're a vendor seeking to join the certification program, fill out [this form](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRymC9dkiqEZFkLXIAijLzONUREtFR1JKR1lQVFJCVFc5QlJaS1FDWEhaSS4u) as the next step. If you need to provide more context and details, mail to MS Teams Ecosystem Team (TeamsCategoryPartner@microsoft.com).
 
 ### Evaluation Mode (default)
 
