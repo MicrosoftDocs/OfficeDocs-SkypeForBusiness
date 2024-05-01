@@ -31,7 +31,7 @@ As we improved the client, the experience also improved to align with similar fe
 |Contacts in chat|You no longer can access Contacts from Chat. Instead, use the new People app. Pin it to your left navigation pane by selecting  the **(...)** menu, right-click **People**, and then select Pin.|
 |Windows notifications| Teams notifications are now fully served from Teams and all notifications preferences are handled within Teams Settings.|
 |Ability to save messages and files in Teams|The Save feature is no longer available. However, classic Teams users can download their saved messages and files to a local folder that they can open in new Teams. Learn more: [Mark a message as saved in Microsoft Teams](https://support.microsoft.com/office/3f04cba4-7f80-42ca-9983-cd93676c7420)|
-|Teams Theme Setting|Consistent with other Office applications, Teams Theme setting follows the OS Theme by default. Users can change this default in **Teams Settings > Appearance and Accessibility.**|
+|Teams Theme Setting|Consistent with other Office applications, Teams Theme setting follows the OS Theme by default. Users can change this default in **Teams Settings > Appearance and Accessibility.** When a user signs out of Teams, any change to the default Theme won't be saved.|
 |Look up an organizational chart while in a 1:1 chat |Select a user’s avatar or profile photo anywhere in Teams and navigate to the organizational chart within the profile card.|
 |Settings dialog|Teams Settings is now an app accessed from the More options menu **(...)** in the title bar. |
 |General appearance changes|Colors, tooltip styles, and general appearance have been updated.|
@@ -51,3 +51,6 @@ As we improved the client, the experience also improved to align with similar fe
 |Ability to sign out from the notification area at the far right of the taskbar (system tray). |No longer available.|
 |Adaptive Card-based tabs in personal app tabs.|No longer available.|
 |Whiteboard Tab automatically displayed in meeting tabs.|Using Recap tab from the calendar allows you to access the Whiteboard file shared in the meeting in the content section.|
+|Third-party and custom sign-in solutions using RunAs or undocumented hooks.|No longer available.|
+|App name is Microsoft Teams classic, except for Windows 11, where it's Microsoft Teams classic (work or school).|Microsoft Teams (work or school) app name is changing to Microsoft Teams.|
+|Presenter mode (standout) during PowerPoint Live sharing.|Presenter mode is no longer available. To use presenter modes, start a screen sharing session and choose one of the three available modes.|

@@ -23,7 +23,7 @@ description: "Create or modify a Call Park orbit range table in Skype for Busine
 
 Create or modify a Call Park orbit range table in Skype for Business Server Enterprise Voice.
 
-Call Park uses orbits for parking calls. Before users can park and retrieve calls, you must configure the Call Park orbit table. You need to specify the ranges of extension numbers (orbits) that your organization will reserve for parking calls and define the routing for those ranges by specifying which Call Park pool handles each range. When you define orbit ranges, the goal is to have enough orbits so that any one orbit is not reused too quickly, but not so many orbits that you limit the number of extensions available for users or other services. You can create multiple Call Park orbit ranges for each Skype for Business Server pool where the Call Park application is deployed. Each Call Park orbit range must have a globally unique name and a unique set of extensions.
+Call Park uses orbits for parking calls. Before users can park and retrieve calls, you must configure the Call Park orbit table. You need to specify the ranges of extension numbers (orbits) that your organization reserves for parking calls and define the routing for those ranges by specifying which Call Park pool handles each range. When you define orbit ranges, the goal is to have enough orbits so that any one orbit isn't reused too quickly, but not so many orbits that you limit the number of extensions available for users or other services. You can create multiple Call Park orbit ranges for each Skype for Business Server pool where the Call Park application is deployed. Each Call Park orbit range must have a globally unique name and a unique set of extensions.
 
 > [!IMPORTANT]
 > An orbit range typically encompasses 100 or fewer orbits. Each range can be much larger, as long as it is smaller than the maximum of 10,000 orbits per range and you have fewer than 50,000 orbits per pool. If a range is too small, the orbits are reused more quickly.
@@ -37,20 +37,20 @@ Use one of the following procedures to create or modify a call park orbit range.
 
 ### To use Skype for Business Server Control Panel to create or modify a range of numbers for parking calls
 
-1. Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role. For details, see **Delegate Setup Permissions**.
+1. Sign in the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role. For details, see **Delegate Setup Permissions**.
 
 2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.
 
-3. In the left navigation bar, click **Voice Features** and then click **Call Park**.
+3. In the left navigation bar, select **Voice Features** and then select **Call Park**.
 
 4. On the **Call Park** page, do one of the following:
 
-   - To create a new orbit range, click **New**. In **Name**, type an identifying name for this range of numbers.
+   - To create a new orbit range, select **New**. In **Name**, type an identifying name for this range of numbers.
 
      > [!NOTE]
      > After you commit the orbit range to the database, you cannot change this name.
 
-   - To modify an existing orbit range, type all or part of the name of the orbit range in the search field. In the resulting list of orbits, click the orbit you want, click **Edit**, and then click **Show details**.
+   - To modify an existing orbit range, type all or part of the name of the orbit range in the search field. In the resulting list of orbits, select the orbit you want, select **Edit**, and then select **Show details**.
 
 5. In the first **Number range** field, type the beginning number of the range of extensions for this call park orbit, and in the second **Number range** field, type the ending number of the range. Be aware:
 
@@ -58,21 +58,21 @@ Use one of the following procedures to create or modify a call park orbit range.
 
    - The value of the beginning number of the range must be the same length as the ending number of the range.
 
-   - The orbit range must be unique. This range cannot overlap with any other range.
+   - The orbit range must be unique. The orbit range can't overlap with any other range.
 
    - If the orbit range begins with the character \* or #, the range must be greater than 100.
 
-   - Valid values: Must match the regular expression string ([\\*|#]?[1-9]\d{0,7})|([1-9]\d{0,8}). This means the value must be a string beginning with either the character \* or # or a number 1 through 9 (the first character cannot be a zero). If the first character is \* or #, the following character must be a number 1 through 9 (it cannot be a zero). Subsequent characters can be any number 0 through 9 up to seven additional characters (for example, "#6000", "\*92000", "\*95551212", and "915551212"). If the first character is not \* or #, the first character must be a number 1 through 9 (it cannot be zero), followed by up to eight characters, each a number 0 through 9 (for example, "915551212", "41212", "300").
+   - Valid values: Must match the regular expression string ([\\*|#]?[1-9]\d{0,7})|([1-9]\d{0,8}). This means the value must be a string beginning with either the character \* or # or a number 1 through 9 (the first character can't be a zero). If the first character is \* or #, the following character must be a number 1 through 9 (it can't be a zero). Subsequent characters can be any number 0 through 9 up to seven extra characters (for example, "#6000", "\*92000", "\*95551212", and "915551212"). If the first character isn't \* or #, the first character must be a number 1 through 9 (it can't be zero), followed by up to eight characters, each a number 0 through 9 (for example, "915551212", "41212", "300").
 
-   - You should not have more than a total of 50,000 orbits per pool. Each orbit range typically encompasses 100 or fewer orbits, but it can be much larger as long as it includes fewer than 10,000 orbits. For example, instead of specifying a starting number of "7000000" and an ending number of "8000000," consider specifying a starting number of "7000000" and an ending number of "7000100."
+   - You shouldn't have more than a total of 50,000 orbits per pool. Each orbit range typically encompasses 100 or fewer orbits, but it can be larger as long as it includes fewer than 10,000 orbits. For example, instead of specifying a starting number of "7000000" and an ending number of "8000000," consider specifying a starting number of "7000000" and an ending number of "7000100."
 
-6. In **FQDN of destination server**, click the fully qualified domain name (FQDN) or service ID of the Application service that hosts the Call Park application. All calls parked to numbers within the range specified by the start number and end number in the orbit range will be routed to this server or pool.
+6. In **FQDN of destination server**, select the fully qualified domain name (FQDN) or service ID of the Application service that hosts the Call Park application. All calls parked to numbers within the range specified by the start number and end number in the orbit range is routed to this server or pool.
 
 7. Click **Commit**.
 
 ### To use Skype for Business Server Management Shell to create or modify a range of numbers for parking calls
 
-1. Log on to the computer where Skype for Business Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in **Delegate Setup Permissions**.
+1. Sign in the computer where Skype for Business Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in **Delegate Setup Permissions**.
 
 2. Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.
 
@@ -98,8 +98,8 @@ Use one of the following procedures to create or modify a call park orbit range.
 
 ## See also
 
-[New-CsCallParkOrbit](/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
+[New-CsCallParkOrbit](/powershell/module/skype/new-cscallparkorbit?view=skype-ps&preserve-view=true)
 
-[Set-CsCallParkOrbit](/powershell/module/skype/set-cscallparkorbit?view=skype-ps)
+[Set-CsCallParkOrbit](/powershell/module/skype/set-cscallparkorbit?view=skype-ps&preserve-view=true)
 
 [Delete a Call Park Orbit Range](/previous-versions/office/lync-server-2013/lync-server-2013-delete-a-call-park-orbit-range)

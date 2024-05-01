@@ -27,6 +27,9 @@ description: Learn how to enhance your Microsoft Teams experience with the Micro
 
 # Microsoft Teams Premium licensing
 
+> [!IMPORTANT]
+> Teams Premium licenses *are not* a replacement for Teams licenses. Users must have both a Teams license and a Teams Premium license for Teams and Teams Premium features to work properly. For more information on Teams Premium requirements, see [What are the requirements to purchase Teams Premium?](#what-are-the-requirements-to-purchase-teams-premium).
+
 Microsoft Teams Premium is a Teams add-on license that allows organizations with Microsoft 365 subscriptions to enhance their Teams experience with benefits like:
 
 - More personalized and intelligent meetings, webinars, and town halls.
@@ -70,6 +73,7 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Add organization branding to meeting lobbies |  | ✔️ |
 | Customize meeting backgrounds for your organization |  | ✔️ |
 | Customize Together mode scenes for your organization |  | ✔️ |
+| Add branding to meeting invites and meeting join launch pages |  | ✔️ |
 | Read live translated captions during meetings |  | ✔️ |
 | Manage what attendees see |  | ✔️ |
 | Use RTMP-In for meetings |  | ✔️ |
@@ -118,7 +122,8 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Broadcast town halls to 20k attendees |  | ✔️ |
 | Host up to 50 town halls simultaneously |  | ✔️ |
 | Town hall Q&A capacity of 20k attendees |  | ✔️ |
-| Microsoft eCDN for town halls\* |  | ✔️ |
+| Use Microsoft eCDN for town halls\* |  | ✔️ |
+| Choose an eCDN provider for town halls\* |  | ✔️ |
 | View Microsoft Town hall insights |  | ✔️ |
 | Town hall organizers can view engagement reports |  | ✔️ |
 | Edit town hall emails |  | ✔️ |
@@ -238,7 +243,7 @@ The **tenant requirement** is:
 The **user requirement** is:
 
 - An Office 365 or Microsoft 365 subscription and a Teams license.
-For new customers, Teams licenses must be purchased separately from Office 365/Microsoft 365 licenses, but both licenses are still required for Teams Premium.
+  - For new customers, Teams licenses must be purchased separately from Office 365/Microsoft 365 licenses, but both licenses are still required for Teams Premium.
 
 ### Can I acquire Teams Premium features without the Teams Premium license?
 

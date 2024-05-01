@@ -172,12 +172,16 @@ Microsoft Graph communications APIs and SDKs with Microsoft before
 submitting their solution for certification. This requirement ensures that all
 requirements of compliance recording integration are supported.
 
-Two specific requirements that are fundamental for compliance recording
-scenario are:
+Requirements that are fundamental for compliance recording
+scenario:
 
-- Recorder bot must be deployed in Azure
+- Recorder bot must be deployed in Azure.
 
-- Recorder bot must run on a Windows VM in Azure
+- Recorder bot must run on a Windows VM in Azure.
+
+- Recorder bot outbound firewall destination IP address must be open to the Azure public IP range.
+
+- Recorder bot inbound firewall source IP address must be open to the Azure public IP range.
 
 The Azure and Windows VM requirements only apply to the Teams Bot
 component, which means that a partner might implement the rest of the
