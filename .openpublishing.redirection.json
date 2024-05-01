@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "Teams/non-standard-users.md",
+      "redirect_url": "/microsoftteams/apps-external-users",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "Teams/manage-tasks-app.md",
       "redirect_url": "/microsoftteams/manage-planner-app",
       "redirect_document_id": true
@@ -4811,8 +4816,23 @@
   "redirect_document_id": false
 },
 {
+  "source_path": "Teams/tutorial-audio-conferencing.yml",
+  "redirect_url": "/microsoftteams/audio-conferencing-in-office-365",
+  "redirect_document_id": false
+},
+{
   "source_path": "teams/privacy/teams-privacy.md",
   "redirect_url": "/microsoftteams/privacy/location-of-data-in-teams",
+  "redirect_document_id": false
+},
+{
+  "source_path": "Teams/rooms/with-skype-for-business-server-2015.md",
+  "redirect_url": "/microsoftteams/rooms/create-resource-account",
+  "redirect_document_id": false
+},
+{
+  "source_path": "teams/new-teams-troubleshooting-installation.md",
+  "redirect_url": "/microsoftteams/troubleshoot/teams-administration/fix-new-teams-installation-issues",
   "redirect_document_id": false
 }
 ] 

@@ -242,5 +242,5 @@ Local settings that are automatically migrated when switching from classic Teams
 
 ## Related topics
 
-- [Troubleshooting installation issues in the new Teams client](new-teams-troubleshooting-installation.md)
+- [Troubleshooting installation issues in the new Teams client](/microsoftteams/troubleshoot/teams-administration/fix-new-teams-installation-issues)
 - [Upgrade to new Teams for Virtualized Desktop Infrastructure (VDI)](new-teams-vdi-requirements-deploy.md)
