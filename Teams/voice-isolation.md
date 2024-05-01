@@ -34,7 +34,7 @@ The voice isolation feature relies on the voice profile, stored on the user's lo
 
 To learn about enrollment, see [Overview of voice and face enrollment](/microsoftteams/rooms/voice-and-face-recognition).
 
-To learn more about the voice isolation troubleshooting, setup, and experience for your users, see [Voice isolation in Microsoft Teams calls and meetings](https://prod.support.services.microsoft.com/office/voice-isolation-in-microsoft-teams-calls-and-meetings-a9756ea9-4cec-44c4-aefb-6f5d17c89427).
+To learn more about voice isolation troubleshooting, setup, and the experience for your users, see [Voice isolation in Microsoft Teams calls and meetings](https://prod.support.services.microsoft.com/office/voice-isolation-in-microsoft-teams-calls-and-meetings-a9756ea9-4cec-44c4-aefb-6f5d17c89427).
 
 ## Prerequisites
 
