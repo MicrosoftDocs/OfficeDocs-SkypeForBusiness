@@ -40,10 +40,10 @@ Here are some examples on how you can use these export APIs:
 - **Application Context**: To call Microsoft Graph, your app must acquire an access token from the Microsoft identity platform. The access token contains information about your app and the permissions it has for the resources and APIs available through Microsoft Graph. To get an access token, your app must be registered with the Microsoft identity platform and be authorized by either a user or an administrator for access to the Microsoft Graph resources it needs.
 
     If you are already familiar with integrating an app with the Microsoft identity platform to get tokens, see the [Next Steps](/graph/auth/auth-concepts#next-steps) section for information and samples specific to Microsoft Graph.
-- **Hybrid Environment:** Export APIs support messages sent by users who are provisioned on Hybrid Environment (on-premises Exchange and Teams). Any messages that are sent by users who are configured for hybrid environment will be accessible using Export APIs.
+- **Hybrid Environment:** Export APIs support messages sent by users who are provisioned on Hybrid Environment (on-premises Exchange and Teams). Any messages that are sent by users who are configured for hybrid environment are accessible using Export APIs.
 - **User Deleted Messages:** Messages that are deleted by users from the Teams client can be accessed using export APIs up to 21 days from the time of deletion.
 - **Message Attachments:** Export APIs include the links to the attachments that are sent as part of messages. Using Export APIs you can retrieve the files attached in the messages.
-- **Reactions:** Export APIs support reactions initiated by a user on a Teams message. Reactions currently supported are heart, angry, like, sad, surprised, and laugh. In addition to Reactions, Export API also supports Reaction Edit History which includes changes and updates made to a reaction on a message.
+- **Reactions:** Export APIs support reactions initiated by a user on a Teams message. Reactions currently supported are heart, angry, like, sad, surprised, and laugh. In addition to Reactions, Export API also supports Reaction Edit History, which includes changes and updates made to a reaction on a message.
 - **Shared Channel Messages:** Export APIs support capturing messages from a Shared Channel.
 - **Deleted Teams:** Export API supports [capturing messages from deleted Teams](/graph/api/deletedteam-getallmessages) and deleted standard, private, and shared channels.
 - **Chat Message Properties:** Refer to the [complete list of properties that Teams Export APIs support](/graph/api/resources/chatmessage#properties).
@@ -125,7 +125,7 @@ Restricted to applications performing security and/or compliance functions, user
 
 ### General usage/Model B scenarios
 
-Available for all non-S+C related scenarios, there are no license requirements or seeded capacity. When consumption meters become available, app owners will be charged for all monthly API calls.
+Available for all non-S+C related scenarios, there are no license requirements or seeded capacity. When consumption meters become available, app owners are charged for all monthly API calls.
 
 The following partners are certified. Your company may choose to work with any combination of these partners within your enterprise.  
 
@@ -135,7 +135,7 @@ The following partners are certified. Your company may choose to work with any c
 |![logo-of-veeam](media/veeam.png) |[Microsoft Teams backup and recovery](https://www.veeam.com/backup-microsoft-office-365.html) |
 
 ### Next steps
-If you're a vendor seeking to join the certification program, fill out [this form](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRymC9dkiqEZFkLXIAijLzONUREtFR1JKR1lQVFJCVFc5QlJaS1FDWEhaSS4u) as the next step. If you need to provide additional context and details, mail to MS Teams Ecosystem Team (TeamsCategoryPartner@microsoft.com).
+If you're a vendor seeking to join the certification program, fill out [this form](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRymC9dkiqEZFkLXIAijLzONUREtFR1JKR1lQVFJCVFc5QlJaS1FDWEhaSS4u) as the next step. If you need to provide more context and details, mail to MS Teams Ecosystem Team (TeamsCategoryPartner@microsoft.com).
 
 ### Evaluation Mode (default)
 
