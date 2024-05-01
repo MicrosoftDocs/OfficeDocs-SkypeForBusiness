@@ -1486,19 +1486,18 @@ items:
               href: devices/manage-device-tags.md
             - name: Update your devices remotely
               href: devices/remote-update.md
+            - name: Feature management
               items:
-                  - name: Feature management
-                    items:
-                      - name: QoS on Teams devices
-                        href: devices/qos-on-teams-devices.md
-                      - name: USB audio and video devices
-                        href: devices/usb-devices.md
-                      - name: RealWear for Teams
-                        href: flw-realwear.md
-                      - name: Multi-Stream IntelliFrame
-                        href: devices/smartvision-admin.md
-                      - name: Cloud IntelliFrame
-                        href: devices/cloud-intelliframe.md
+                - name: QoS on Teams devices
+                  href: devices/qos-on-teams-devices.md
+                - name: USB audio and video devices
+                  href: devices/usb-devices.md
+                - name: RealWear for Teams
+                  href: flw-realwear.md
+                - name: Multi-Stream IntelliFrame
+                  href: devices/smartvision-admin.md
+                - name: Cloud IntelliFrame
+                  href: devices/cloud-intelliframe.md
         - name: Monitor
           items: 
             - name: Teams device health monitoring
