@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Premium - Overview for administrators
-author: DaniEASmith
-ms.author: danismith
+author: wlibebe
+ms.author: wlibebe
 manager: pamgreen
 ms.reviewer: spraveen, margidesai
 ms.date: 11/27/2023
@@ -26,10 +26,12 @@ description: Learn about Microsoft Teams Premium for administrators and IT Profe
 
 # Microsoft Teams Premium - Overview for administrators
 
-![Information icon](media/info.png) **Most of the features described in this article require Teams Premium.** A few features, for example, some webinar features, are available with other licenses as well. For details about feature availability and licensing, see [Teams Premium licensing](teams-add-on-licensing/licensing-enhance-teams.md).
+![Information icon](media/info.png) **Most of the features described in this article require a Teams Premium license.** A few features, for example, some webinar features, are available with other licenses as well. 
 
-> [!IMPORTANT]
-> Teams Premium licenses are not a replacement for Teams licenses. Users must have both a Teams license and a Teams Premium license for Teams and Teams Premium features to work properly.
+![Information icon](media/info.png)
+**Teams Premium licenses are not a replacement for Teams licenses.** Users must have both a Teams license and a Teams Premium license for Teams and Teams Premium features to work properly.  For details about feature availability and licensing, see [Teams Premium licensing](teams-add-on-licensing/licensing-enhance-teams.md).
+
+![Information icon](media/info.png) Now that Teams Premium has reached general availability, some features formerly available with Teams will only be available with a Teams Premium license.
 
 This article is for IT Pros and administrators who will be deploying and configuring Teams Premium features. The article provides a brief description of the features, with links to more detailed documentation.
 
@@ -39,10 +41,6 @@ Teams Premium is an add-on license that provides the following enhancements to T
 - Enhanced security and protection for meetings
 - Enhanced administrative and telemetry support
 
-> [!IMPORTANT]
-> Now that Teams Premium has reached general availability, some features formerly available with Teams will only be available with a Teams Premium license.
->
-> For admins to be able to manage Teams Premium features, their tenant needs at least one user with an active [Teams Premium license](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams).
 
 The following sections describe the Teams Premium enhancements for:
 
@@ -198,3 +196,6 @@ You can find additional resources here:
 - [Teams Premium deployment guide](https://aka.ms/TeamsPremiumDeployment)
 - [Teams Premium user guide](https://adoption.microsoft.com/files/microsoft-teams/Microsoft-Teams-Premium-user-guide.pptx)
 - [Microsoft Teams Premium blog](https://www.microsoft.com/en-us/microsoft-365/blog/2023/02/01/microsoft-teams-premium-cut-costs-and-add-ai-powered-productivity)
+
+> [!TIP]
+> As a companion to this article, we recommend using the [Teams Premium Advanced Deployment Guide](https://go.microsoft.com/fwlink/?linkid=2264339) when signed in to the Microsoft 365 admin center. This guide customizes your experience based on your environment. To review best practices without signing in and activating automated setup features, go to the [Microsoft 365 setup portal](https://go.microsoft.com/fwlink/?linkid=2263487).

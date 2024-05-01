@@ -1,13 +1,14 @@
 ---
 title: Audio Conferencing toll-free number policies
-ms.author: jtremper
-author: jacktremper
+ms.author: jenz
+author: jenzamora
 manager: pamgreen
 ms.reviewer: mshaikh
 ms.date: 02/21/2024
 ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 ms.collection: 
   - m365initiative-meetings
   - M365-collaboration

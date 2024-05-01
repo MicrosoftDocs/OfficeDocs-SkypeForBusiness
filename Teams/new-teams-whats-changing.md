@@ -52,3 +52,5 @@ As we improved the client, the experience also improved to align with similar fe
 |Adaptive Card-based tabs in personal app tabs.|No longer available.|
 |Whiteboard Tab automatically displayed in meeting tabs.|Using Recap tab from the calendar allows you to access the Whiteboard file shared in the meeting in the content section.|
 |Third-party and custom sign-in solutions using RunAs or undocumented hooks.|No longer available.|
+|App name is Microsoft Teams classic, except for Windows 11, where it's Microsoft Teams classic (work or school).|Microsoft Teams (work or school) app name is changing to Microsoft Teams.|
+|Presenter mode (standout) during PowerPoint Live sharing.|Presenter mode is no longer available. To use presenter modes, start a screen sharing session and choose one of the three available modes.|
