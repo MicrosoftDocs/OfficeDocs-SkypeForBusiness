@@ -117,3 +117,4 @@ For your specific PSTN connectivity setup, read the following considerations for
 - [Assign an emergency location for your user](assign-change-emergency-location-user.md)
 - [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md)
 - [Teams policies reference - Emergency policies](settings-policies-reference.md#emergency-policies)
+- [Emergency numbers country reference](emergency-numbers-reference.md)
