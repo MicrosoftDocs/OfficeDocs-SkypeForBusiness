@@ -74,7 +74,7 @@ For information on how your end users can turn on live translated captions, read
 
 ## Live captions
 
-Teams can detect was said in a meeting, webinar, or town hall and present real-time captions. If you turned on the new meeting experience, your users' captions include speaker attribution, so you see not only what's being said, but who's saying it and when.
+Teams can detect what was said in a meeting, webinar, or town hall and present real-time captions. If you turned on the new meeting experience, your users' captions include speaker attribution, so you see not only what's being said, but who's saying it and when.
 
 This setting is a per-user policy and applies during a meeting. This setting controls whether the **Turn on live captions** option is available for the user to turn on or turn off automatically generated live captions in meetings that the user attends. These captions aren't saved alongside the video file.
 
