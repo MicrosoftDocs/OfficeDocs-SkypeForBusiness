@@ -26,7 +26,7 @@ ms.custom: seo-marvel-mar2020
 
 # Emergency numbers for countries
 
-The following table lists emergency numbers for countries.
+The following table lists country, ISO country code, and the associated emergency numbers for that country.
 
 |Country|ISO Country Code|Emergency Numbers|
 |---|---|---|
