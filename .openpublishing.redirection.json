@@ -4829,6 +4829,11 @@
   "source_path": "Teams/rooms/with-skype-for-business-server-2015.md",
   "redirect_url": "/microsoftteams/rooms/create-resource-account",
   "redirect_document_id": false
+},
+{
+  "source_path": "teams/new-teams-troubleshooting-installation.md",
+  "redirect_url": "/microsoftteams/troubleshoot/teams-administration/fix-new-teams-installation-issues",
+  "redirect_document_id": false
 }
 ] 
 }
