@@ -85,6 +85,8 @@ items:
                   href: new-teams-desktop-admin.md
                 - name: Features that are changing in new Teams
                   href: new-teams-whats-changing.md
+                - name: Deployment checklist for new Teams
+                  href: new-teams-deployment-checklist.md
                 - name: Upgrade to the new Teams using policies               
                   href: new-teams-deploy-using-policies.md
                 - name: Bulk upgrade to the new Teams client
@@ -100,7 +102,7 @@ items:
                 - name: Update to the new Teams for Web
                   href: new-teams-web.md                          
                 - name: Troubleshooting installation issues          
-                  href: new-teams-troubleshooting-installation.md                 
+                  href: /microsoftteams/troubleshoot/teams-administration/fix-new-teams-installation-issues
                 - name: Known issues in new Teams
                   href: new-teams-known-issues.md
                 - name: Classic Teams client end of availability
@@ -451,10 +453,12 @@ items:
               href: learn-more-about-site-upload.md
         - name: Quality of Service (QoS)
           items: 
-            - name: Set up QoS in Teams
+            - name: Implement QoS in Teams
               href: QoS-in-Teams.md
             - name: Set QoS on Windows clients
               href: QoS-in-Teams-clients.md
+            - name: Configure QoS in the Teams admin center
+              href: meetings-real-time-media-traffic.md
         - name: Real-time telemetry
           items: 
             - name: Use real-time telemetry to troubleshoot poor meeting quality
@@ -748,7 +752,7 @@ items:
               href: use-NDI-in-meetings.md
             - name: Cloud Video Interop
               href: cloud-video-interop.md
-            - name: Real-time media traffic
+            - name: Configure Quality of Service (QoS)
               href: meetings-real-time-media-traffic.md
             - name: Stream Teams meetings
               href: stream-teams-meetings.md
@@ -1160,7 +1164,7 @@ items:
               href: getting-service-phone-numbers.md
             - name: How many phone numbers can you get?
               href: how-many-phone-numbers-can-you-get.md
-            - name: Transferring phone numbers
+            - name: Transfer phone numbers
               items: 
                 - name: What's a port order?
                   href: phone-number-calling-plans/port-order-overview.md
@@ -1332,8 +1336,6 @@ items:
               items:
                 - name: Content cameras
                   href: rooms/content-camera.md
-                - name: Voice recognition controls for Intelligent speakers
-                  href: rooms/voice-recognition.md
             - name: Test environments
               items:
                 - name: Configure a custom-built console
@@ -1364,6 +1366,12 @@ items:
                   href: rooms/custom-backgrounds.md
                 - name: Join meetings with QR codes
                   href: rooms/teams-rooms-qr-codes.md
+            - name: Identification and enrollment
+              items:
+                - name: Voice and face recognition
+                  href: rooms/voice-and-face-recognition.md
+                - name: Voice recognition controls for Intelligent speakers
+                  href: rooms/voice-recognition.md
             - name: Find devices with unsupported licenses
               href: rooms/license-check.md
             - name: Use the recovery tool
@@ -1388,6 +1396,8 @@ items:
           href: rooms/managed-meeting-rooms-portal.md
         - name: Signal settings
           href: rooms/signal-settings.md  
+        - name: Remote access a Teams Room console
+          href: rooms/remotely-access-teams-rooms.md 
         - name: Managed updates
           href: rooms/update-management.md 
         - name: Configure ServiceNow
@@ -1414,6 +1424,8 @@ items:
       items:
         - name: Teams device store
           href: devices/device-store.md
+        - name: Teams certified devices
+          href: devices/teams-ip-phones.md
         - name: Deploy
           items:
             - name: Configure notifications for Mi push
@@ -1490,8 +1502,6 @@ items:
                     href: teams-device-health.md   
     - name: Reference
       items:
-        - name: Teams certified devices
-          href: devices/teams-ip-phones.md
         - name: Meeting room devices and solutions
           href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Plan phones and displays deployment
@@ -1501,9 +1511,7 @@ items:
         - name: Deploy Azure Monitor
           href: rooms/azure-monitor-deploy.md
         - name: Manage devices with Azure Monitor
-          href: rooms/azure-monitor-manage.md
-        - name: Resource accounts for Skype for Business Server
-          href: rooms/with-skype-for-business-server-2015.md           
+          href: rooms/azure-monitor-manage.md       
               
 - name: Manage apps in Teams
   items: 
@@ -1592,7 +1600,7 @@ items:
         - name: Brand your organization's app store
           href: customize-your-app-store.md
         - name: Use apps as external user or guest
-          href: non-standard-users.md
+          href: apps-external-users.md
         - name: Update apps to the latest version
           href: apps-update-experience.md
         - name: Audit app management activities

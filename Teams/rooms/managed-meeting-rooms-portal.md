@@ -25,7 +25,7 @@ f1keywords:
 
 ## Overview
 
-The Teams Rooms Pro Management portal provides a view of the health of your meeting rooms and helps to facilitate your existing monitoring tools and practices.
+The Teams Rooms Pro Management portal provides a view of the health of your meeting rooms and helps to facilitate your existing monitoring tools and practices. This feature is only available in public or commercial cloud. It's not available in GCC, GCC-H, or DoD government clouds.
 
 The scope of the monitoring is:
 
@@ -37,7 +37,8 @@ The scope of the monitoring is:
   - Basic history and details for every device.
 
 > [!Important]
-> Review [**Assign users to the Pro Manager Administrator role**](enrolling-mtrp-managed-service.md#assign-users-to-the-managed-service-administrator-role) and make sure that access to the portal is restricted based on your organizaitonal needs.
+> Review [**Assign users to the Pro Manager Administrator role**](enrolling-mtrp-managed-service.md#assign-users-to-the-teams-rooms-pro-manager-role) and make sure that access to the portal is restricted based on your organizational needs.
+
 ## Terminology
 
 Here are frequently used terms in the portal.
