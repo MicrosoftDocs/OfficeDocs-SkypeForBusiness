@@ -225,8 +225,8 @@ Package Name|KB Number|Release Date|
 
 ### Lync Phone Edition updates
 
-| Package Name                                                                                                       | KB Number                                                      | Release Date |
-|:-------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|:-------------|
+| Package Name                         | KB Number    | Release Date |
+|:-------------------------------------|:-------------|:-------------|
 | Cumulative update for Lync Phone Edition for Aastra 6721ip and Aastra 6725ip telephone                             | [KB 4019527](https://support.microsoft.com/help/4019527) | April 2017   |
 | Cumulative update for Microsoft Lync Phone Edition for HP 4110 and HP 4120 telephones                              | [KB 4019528](https://support.microsoft.com/help/4019528) | April 2017   |
 | Cumulative update for Microsoft Lync Phone Edition for Polycom CX500, Polycom CX600, and Polycom CX3000 telephones | [KB 4019529](https://support.microsoft.com/help/4019529) | April 2017   |
