@@ -86,6 +86,7 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Logi                 |Zone 305 Headset                                           |4/30/2024       |Certified for Microsoft Teams                           |
 |Yealink              |UH35 Dual/Mono Teams Headset                               |3/28/2024       |Certified for Microsoft Teams                           |
 |Bang & Olufsen Cisco |950 MS Earbuds                                             |3/28/2024       |Certified for Microsoft Teams                           | 
 |Dell                 |WL7024 Headset                                             |3/28/2024       |Certified for Microsoft Teams                           |                                       
