@@ -222,9 +222,9 @@ Migrated recordings from Stream (Classic) don't come with an expiration set on t
 To update the Teams recording and transcription privacy policy URL with a custom link for users in and outside your org, you must use one of the following options:
 
 - The **`-LegalURL`** parameter within the [CsTeamsMeetingConfiguration](/powershell/module/skype/set-csteamsmeetingconfiguration) PowerShell cmdlet.
-- The Teams admin center through **Meeting settings** > **LegalURL**. For more information, see [Teams settings and policies reference](settings-policies-reference.md#email-invitation).
+- The Teams admin center through **Meeting settings** > **Privacy and Security URL**. For more information, see [Teams settings and policies reference](settings-policies-reference.md#email-invitation).
 
-If you don't enter a legal URL in Teams meeting settings or PowerShell, we display the Microsoft Entra ID's privacy policy. For more information on Microsoft Entra ID's privacy policy, see [Add your organization's privacy info using Microsoft Entra ID](/entra/fundamentals/properties-area). If there's no Microsoft Entra ID, we display the Microsoft Privacy policy.
+If you don't enter a Privacy and Security URL in Teams meeting settings or PowerShell, we display the Microsoft Entra ID's privacy policy. For more information on Microsoft Entra ID's privacy policy, see [Add your organization's privacy info using Microsoft Entra ID](/entra/fundamentals/properties-area). If there's no Microsoft Entra ID, we display the Microsoft Privacy policy.
 
 After you add your privacy policy URL, your URL replaces the default Teams meeting recording and transcription privacy statement.
 
