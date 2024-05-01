@@ -23,7 +23,7 @@ f1keywords:
 
 # Multitenant customer management for partners
 
-Multitenant management (MTM) in the Teams Rooms Pro Management helps partner organizations manage multiple customers in one place with their own domain credentials. Partner users will see only those customer rooms that they are assigned to manage. It's possible to apply custom roles for each customer in the MTM portal which will give partner organizations granular control of permissions to the customer’s resources.
+Multitenant management (MTM) in the Teams Rooms Pro Management helps partner organizations manage multiple customers in one place with their own domain credentials. Partner users will see only those customer rooms that they are assigned to manage. It's possible to apply custom roles for each customer in the MTM portal which will give partner organizations granular control of permissions to the customer’s resources. This feature is only available in public or commercial cloud. It's not available in GCC, GCC-H, or DoD government clouds.
 
 The MTM portal can be accessed through this [link](https://partner.rooms.microsoft.com/).
 
@@ -66,7 +66,7 @@ Details on the customer invitation are outlined in [Multitenant management for C
 
 1. Log in to the Teams Rooms Pro Management-MTM portal as either a Global admin, Teams Rooms Pro Manager, or Tenant manager.
 1. Go to **Tenants**.
-1. Select the invitation that shows a **Pendin** status.
+1. Select the invitation that shows a **Pending** status.
 1. Review the invitation details.
 1. Assign the users that will be part of the admins for the customer.
 1. Select **Accept** to establish the partner-customer relationship.
@@ -76,8 +76,7 @@ Details on the customer invitation are outlined in [Multitenant management for C
    > [!Note]
    > There is no permanent association with the user that accepts the invitation.
 
-   > [!Note]
-   > If the invitation is accidentally denied the invitation, the customer must then create a new invitation.
+   >
 
 **To review the configuration or add more primary admins for a tenant**
 
