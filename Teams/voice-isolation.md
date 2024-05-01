@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
 ms.reviewer: elaineho
-ms.date: 4/16/2024
+ms.date: 5/1/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -32,7 +32,9 @@ Voice isolation reduces noise and uses the personalized deep voice quality enhan
 
 The voice isolation feature relies on the voice profile, stored on the user's local device, to remove any sounds or voices during a call or meeting that don't match the profile. Your users' voice profiles are only used for the reason they gave their permission for; Microsoft doesn't use their voice profiles for anything else. To use the voice isolation feature, your users must have a voice profile. To learn about how your users can set up a voice isolation profile, see [Use Microsoft Teams Intelligent Speakers to identify in-room participants in a meeting transcription](https://support.microsoft.com/office/use-microsoft-teams-intelligent-speakers-to-identify-in-room-participants-in-a-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00#bkmk_setupvoiceprofile).
 
-To learn more the voice isolation troubleshooting, setup, and experience for your users, see [Voice isolation in Microsoft Teams calls and meetings](https://prod.support.services.microsoft.com/office/voice-isolation-in-microsoft-teams-calls-and-meetings-a9756ea9-4cec-44c4-aefb-6f5d17c89427).
+To learn about enrollment, see [Overview of voice and face enrollment](/microsoftteams/rooms/voice-and-face-recognition).
+
+To learn more about the voice isolation troubleshooting, setup, and experience for your users, see [Voice isolation in Microsoft Teams calls and meetings](https://prod.support.services.microsoft.com/office/voice-isolation-in-microsoft-teams-calls-and-meetings-a9756ea9-4cec-44c4-aefb-6f5d17c89427).
 
 ## Prerequisites
 
