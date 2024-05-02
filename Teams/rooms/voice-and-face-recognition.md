@@ -1,10 +1,10 @@
 ---
 title: Turning on or off voice and face enrollment
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 manager: pamgreen
 ms.reviewer: parisataheri  
-ms.date: 04/26/2024  
+ms.date: 05/02/2024  
 ms.topic: article
 audience: admin
 appliesto: 
