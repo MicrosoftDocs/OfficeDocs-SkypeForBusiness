@@ -1388,12 +1388,16 @@ items:
           href: rooms/enrolling-mtrp-managed-service.md
         - name: Enroll a device into Pro management
           href: rooms/enroll-a-device.md
-        - name: Bring Your Own Device Rooms in Pro Management portal
+        - name: Bring Your Own Device
           href: rooms/bring-your-own-device.md  
         - name: Create a one-time password
           href: rooms/create-otp.md
         - name: Role-based access control
           href: rooms/rooms-pro-rbac.md
+        - name: Booking desks
+          href: rooms/bookable-desks.md
+        - name: Connected peripheral information
+          href: rooms/get-information-connected-peripherals.md 
         - name: Monitoring and maintaining Rooms
           href: rooms/managed-meeting-rooms-portal.md
         - name: Signal settings
@@ -1517,8 +1521,7 @@ items:
         - name: Deploy Azure Monitor
           href: rooms/azure-monitor-deploy.md
         - name: Manage devices with Azure Monitor
-          href: rooms/azure-monitor-manage.md       
-              
+          href: rooms/azure-monitor-manage.md    
 - name: Manage apps in Teams
   items: 
     - name: Understand apps in Teams
