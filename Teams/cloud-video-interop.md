@@ -123,24 +123,22 @@ The tenant key is the dial out to the partner service. In the following example,
 You need to execute the following cmdlets to provision the tenant key, and also enable select users or your whole organization to create meetings with video interop coordinates.
 
 - **[Get-CsTeamsVideoInteropServicepolicy](/powershell/module/teams/get-csteamsvideointeropservicepolicy):**
-Microsoft provides preconstructed policies for each of our supported partners that allow you to designate which partners to use for CVI.
-
-    This cmdlet allows you to identify the preconstructed policies that you can use in your organization. You can assign this policy to one or more of your users using the Grant-CsTeamsVideoInteropServicePolicy cmdlet.
+Microsoft provides preconstructed policies for each of our supported partners that allow you to designate which partners to use for CVI. This cmdlet allows you to identify the preconstructed policies that you can use in your organization. You can assign this policy to one or more of your users using the Grant-CsTeamsVideoInteropServicePolicy cmdlet.
 
 - **[Grant-CsTeamsVideoInteropServicePolicy](/powershell/module/teams/grant-csteamsvideointeropservicepolicy):**
-The Grant-CsTeamsVideoInteropServicePolicy cmdlet allows you to assign a preconstructed policy for use in your organization or assign the policy to specific users.
+This cmdlet allows you to assign a preconstructed policy for use in your organization or assign the policy to specific users.
 
 - **[New-CsVideoInteropServiceProvider](/powershell/module/teams/new-csvideointeropserviceprovider):**
-Use the New-CsVideoInteropServiceProvider to specify information about a supported CVI partner your organization would like to use.
+Use this cmdlet to specify information about a supported CVI partner your organization would like to use.
 
 - **[Set-CsVideoInteropServiceProvider](/powershell/module/teams/set-csvideointeropserviceprovider):**
-Use the Set-CsVideoInteropServiceProvider to update information about a supported CVI partner your organization uses.
+Use this cmdlet to update information about a supported CVI partner your organization uses.
 
 - **[Get-CsVideoInteropServiceProvider](/powershell/module/teams/get-csvideointeropserviceprovider):**
-Get all of the providers that you configured for use within the organization.
+Use this cmdlet to get all of the providers that you configured for use within the organization.
 
 - **[Remove-CsVideoInteropServiceProvider](/powershell/module/teams/remove-csvideointeropserviceprovider):**
-Use Remove-CsVideoInteropServiceProvider to remove all provider information about a provider that your organization no longer uses.
+Use this cmdlet to remove all provider information about a provider that your organization no longer uses.
 
 ### 4. Consent
 
@@ -202,18 +200,6 @@ Reporting is also available directly from the partner administrative interface. 
 CVI is a partner-provided service. If you're experiencing issues, the first step is to connect a device that has the Teams Client installed. Next, connect it to the same segment as the CVI device that is causing problems.
 
 If Teams functions correctly on this segment, and you followed all the networking and configuration guidelines your partner provided, you should contact the partner for further troubleshooting.
-
-## PowerShell for CVI
-
-The following PowerShell cmdlets are available for you to (partially) automate the CVI deployment.
-
-- [**Get-CsTeamsVideoInteropServicePolicy**](/powershell/module/teams/get-csteamsvideointeropservicepolicy): Microsoft provides preconstructed policies for each of our supported partners that allow you to designate which partners to use for CVI.<br>This cmdlet allows you to identify the preconstructed policies that you can use in your organization. You can assign this policy to one or more of your users by using the Grant-CsTeamsVideoInteropServicePolicy cmdlet.
-
-- [**Grant-CsTeamsVideoInteropServicePolicy**](/powershell/module/teams/grant-csteamsvideointeropservicepolicy): This cmdlet allows you to assign a preconstructed policy for use in your organization or assign the policy to specific users.
-- [**New-CsVideoInteropServiceProvider**](/powershell/module/teams/new-csvideointeropserviceprovider): Use this cmdlet to specify information about a supported CVI partner that your organization would like to use.
-- [**Set-CsVideoInteropServiceProvider**](/powershell/module/teams/set-csvideointeropserviceprovider): Use this cmdlet to update information about a supported CVI partner that your organization uses.
-- [**Get-CsVideoInteropServiceProvider**](/powershell/module/teams/get-csvideointeropserviceprovider): Use this cmdlet to get all of the providers that you configured for use within the organization.
-- [**Remove-CsVideoInteropServiceProvider**](/powershell/module/teams/remove-csvideointeropserviceprovider): Use this cmdlet to remove all provider information about a provider that your organization no longer uses.
 
 ## CVI Release Notes
 
