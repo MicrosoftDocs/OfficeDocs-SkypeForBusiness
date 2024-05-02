@@ -1,5 +1,5 @@
 ---
-title: Cloud Video Interop for Microsoft Teams
+title: Manage and set up Cloud Video Interop for Microsoft Teams
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
@@ -7,11 +7,11 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-ms.reviewer: naforer
-ms.date: 01/10/2024
+ms.reviewer: adam.jacobs
+ms.date: 5/2/2024
 f1.keywords:
 - NOCSH
-description: Use Cloud Video Interop as an intermediate solution to allow third-party meeting room devices to join Microsoft Teams meetings.
+description: Use Cloud Video Interop(CVI) as an intermediate solution to allow third-party meeting room devices to join Microsoft Teams meetings. This article explains how you can plan and set up Cloud Video Interop(CVI) for users in your organization and has release notes.
 ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
@@ -25,40 +25,49 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Cloud Video Interop for Microsoft Teams
+# Manage and set up Cloud Video Interop for Microsoft Teams
 
-Cloud Video Interop (CVI) is a Microsoft Qualified third-party solution that enables third-party SIP and H.323 video room devices (VTCs) to join Microsoft Teams meetings.
+Cloud Video Interop (CVI) is a Microsoft Qualified third-party solution that enables third-party SIP and H.323 video room devices (VTCs) to join Microsoft Teams meetings. As an admin, you can set CVI for your org.
 
-With Microsoft Teams, you get rich online content collaboration in meetings that include audio, video, and content sharing. This can be enjoyed through the desktop and web client, as well as through many partner devices that integrate natively with Microsoft Teams. However, many customers have already invested in video communication devices, which can be expensive to upgrade. Cloud Video Interop provides an easy solution, which allows you to keep using your existing solutions until you're ready to upgrade.
+With Microsoft Teams, you get rich online content collaboration in meetings that include audio, video, and content sharing. This collaboration can be enjoyed through the desktop and web client, and through many partner devices that integrate natively with Microsoft Teams. However, many customers have already invested in video communication devices, which can be expensive to upgrade. CVI provides an easy solution, which allows you to keep using your existing solutions until you're ready to upgrade.
 
-With Cloud Video Interop, Microsoft Teams delivers a native meeting experience for all participants – in meeting rooms or inside of Teams clients.
+With CVI, Microsoft Teams delivers a native meeting experience for all participants – in meeting rooms or inside of Teams clients.
 
-### Is Cloud Video Interop for me?
+## Is CVI for me?
 
-Cloud Video Interop provides an intermediate service while you transition to a full native Microsoft Teams Solution, using Teams endpoints. The service provided should be part of your migration path.
+CVI provides an intermediate service while you transition to a full native Microsoft Teams Solution, using Teams endpoints. The service provided should be part of your migration path.
 
-Cloud Video Interop is intended for customers who meet the following criteria:
+CVI is intended for customers who meet the following criteria:
 
 - Have a large deployment of meeting room devices and personal video devices deployment (50+ devices) that aren't qualified for direct integration with Microsoft Teams
-- Are supported by one of our Cloud Video Interop partners
-- Want to retain the value of their investment in their current meeting room devices and personal video devices during the migration to a native Microsoft Teams solution
+- Are supported by one of our CVI partners
+- Want to retain the value of their investment in their current meeting room devices and personal video devices while transitioning to a Microsoft Teams solution.
 
-While Cloud Video Interop provides a great intermediate solution, we encourage our customers to look into our native Teams Meeting solutions, such as Teams Rooms Systems, for the long term.
+While CVI provides a great intermediate solution, we encourage our customers to look into our native Teams Meeting solutions, such as Teams Rooms Systems, for the long term.
 
 ### Office 365 US Government and third-party services
 
-Office 365 provides the ability to integrate third-party applications into SharePoint Online sites, Skype for Business, Teams, Office applications included in Microsoft 365 Apps for enterprise (such as Word, Excel, PowerPoint, and Outlook), and Outlook Web App. In addition, Office 365 supports integration with third-party service providers. These third-party applications and services might involve storing, transmitting, and processing your organization's customer data on
-third-party systems that are outside of the Office 365 infrastructure and therefore aren't covered by the Office 365 compliance and data protection commitments. **It is recommended that you review the privacy and compliance statements provided by the third parties when assessing the appropriate use of these services for your organization.**
+Office 365 allows you to integrate third-party applications into SharePoint Online sites, Skype for Business, Teams, Office applications included in Microsoft 365 Apps for enterprise (such as Word, Excel, PowerPoint, and Outlook), and Outlook Web App. In addition, Office 365 supports integration with third-party service providers. These third-party applications and services might involve storing, transmitting, and processing your organization's customer data on third-party systems. The Office 365 compliance and data protection commitments don't cover third-party systems outside of the Office 365 infrastructure. **It is recommended that you review the privacy and compliance statements provided by the third parties when assessing the appropriate use of these services for your organization.**
 
 > [!NOTE]
 > The Pexip Teams Connector must be hosted in the Arizona or Texas Azure regions for GCC High. The Virginia Azure region does not support the hosting of the Pexip Teams Connector for GCC High.
 
-## Partners Certified for Microsoft Teams
+## CVI overview
 
-The following partners have video interop solutions for Microsoft Teams. Your company may choose to work with any combination of these partners within your enterprise and choose the best support plan these partners offer for their CVI solution. 
+Our partners offer CVI, a third-party service to provide interoperability between existing video conferencing and personal video device solutions on premises, and Microsoft Teams.
+
+The solutions offered by our partners consist of components that can be deployed either fully cloud based or partially/fully on premises.
+
+The following diagram shows the high-level architecture of our partner solutions.
+
+![Diagram describing a Teams CVI partner solution.](media/teams-cloud-video-interop-partner-solution.png)
+
+### Partners Certified for Microsoft Teams
+
+The following partners have video interop solutions for Microsoft Teams. Your company might choose to work with any combination of these partners within your enterprise and choose the best support plan these partners offer for their CVI solution.
 
 > [!WARNING]
-> Microsoft has only certified CVI partners (within the table below), for video interoperability within Teams meetings. Granting other 3rd parties with Graph API permissions which provide similar capabilities is not supported by Microsoft.
+> Microsoft has only certified the CVI partners listed in the following table for video interoperability within Teams meetings. Microsoft doesn't support granting other 3rd parties with Graph API permissions which provide similar capabilities.
 
 |Partner|Partner solution|
 |----|---|
@@ -71,102 +80,156 @@ The following partners have video interop solutions for Microsoft Teams. Your co
 > [!NOTE]
 > Both BlueJeans and Poly (RealConnect Service) are no longer on-boarding additional customers, their respective services are now in maintenance only mode.
 
-## Cloud Video Interop Release Notes
+## Deploy CVI
 
-Microsoft continues to work with Cloud Video Interop (CVI) partners to make meetings between Microsoft Teams and other services more seamless for users. The table below details which features are available or planned.
-
-|Release Date| Feature Name|Feature Description|Microsoft Status|*BlueJeans|Cisco|Pexip|*Poly|
-| -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
-|CY22Q3|PowerPoint Notifications|CVI participants are notified when PowerPoint is being shared via Teams participants|Delivered to CVI Partners|Available|TBD|Available|TBD|
-|CY22Q4|CVI Telemetry|Enable identification of CVI calls within Call Quality Dashboard (CQD) metrics|Delivered to CVI Partners|TBD|Available|TBD|Available|
-|CY22Q4|Alignment of lobby between CVI and Teams meetings|Alignment of CVI Lobby with Teams Meeting Scheduling, specifically: "People who were invited" and "Only me and co-organizers", now ensures VTC is held in lobby even when VTC lobby bypass is configured. **Note:** *as a result of this change VTCs (used within Teams live events as a presenter) must be admitted via the lobby*|Delivered to CVI Partners|Available|Available|Available|Available|
-|CY22Q4|Support for Long Term Reference Frame (LTRF)|Improved support for video packet loss recovery within CVI|Delivered to CVI Partners|TBD|TBD|TBD|N/A|
-|CY22Q4|Support for Microsoft Teams Premium, "Watermark Feature"|Phase 1: Notification for Watermark-enabled meeting with both video and content blocked|Delivered to CVI Partners|TBD|TBD|N/A - will launch Phase 2|N/A - will launch Phase 2|
-|CY23Q1|Support for Microsoft Teams Premium, "Watermark Feature"|Phase 2: Full Watermark support, CVI Partners will create Watermark overlay with both video and content displayed. **Note:** *at this time Teams meetings only support Watermark for trusted VTCs i.e. Lobby Bypass must be enabled*|Delivered to CVI Partners|TBD|TBD|Planned|Available|
-|CY23Q2|SIP Guest Join|The ability to join Teams Meetings with VTCs when CVI coordinates aren't present within the invite|Delivered to CVI Partners|TBD|TBD|Available|TBD|
-|CY23Q3|Point-to-Point (P2P) calling between Teams Rooms on Windows and VTCs|Teams Rooms Pro calling feature which creates the ability to perform bi-directional calling between Teams Rooms on Windows and VTC devices|Delivered to CVI Partners|TBD|TBD|Available|TBD|
-
-*Both BlueJeans and Poly CVI solutions are in maintenance only mode, no new customers are being on-boarded.
-
-### Cloud Video Interop overview
-
-Cloud Video Interop is a third-party service that is offered by our partners to provide interoperability between existing video conferencing and personal video device solutions on premises, and Microsoft Teams.
-
-The solutions offered by our partners consist of components that can be deployed either fully cloud based or partially/fully on premises. 
-     
-The following diagram shows the high-level architecture of our partner solutions.
-
-![Diagram describing a Teams Cloud Video Interop partner solution.](media/teams-cloud-video-interop-partner-solution.png)
-
-
-## Deploy Cloud Video Interop
-
-When deploying a Cloud Video Interop solution, it's important to understand that you're deploying a partner solution. The general steps you should take to deploy Cloud Video Interop are listed in the following diagram.
+When deploying a CVI solution, it's important to understand that you're deploying a partner solution. You need to plan your deployment, get set up with provisioning details and partner tenant key, and consent to the video interop app in your organization. The general steps you should take to deploy CVI are listed in the following diagram.
 
 ![Diagram describing deploying CVI in your organization.](media/deploying-cvi.png)
 
-### Plan
+### 1. Plan
 
-During the plan phase, you should identify the devices that you won't replace with a native Teams device, and find a Cloud Video Interop partner that can support these devices.  
+During the plan phase, you should identify the devices that you won't replace with a native Teams device, and find a CVI partner that can support these devices.  
 
-It's also important to understand that you'll need a license for each user who will schedule meetings in which you want a Cloud Video Interop-enabled device to join. Note that exact licensing requirements can be obtained from the Cloud Video Interop partner. Ensure that this is clear before you start your deployment.
+It's also important to understand that you need a license for each user who schedules meetings in which you want a CVI-enabled device to join. Exact licensing requirements can be obtained from the CVI partner. Ensure that licensing is clear before you start your deployment.
 
-### Configure
+Follow these steps to plan for user based/concurrent/site wide enablement:
 
-The partner that you have chosen for your CVI deployment will provide you with a full deployment document that consists of all the steps needed to deploy successfully within your organization. This will include firewall ports and IP ranges, configuration changes for your devices, and other settings that need to change.
+- Pick a deployment model/hosted model for your use.
+- Select the license plan ideal for your organization.
+- Plan for capacity of VMs is you're hosting your video infrastructure.
 
-### Provision  
+### 2. Configure
 
-During the provision phase, you'll assign licenses to the appropriate users according to the partner configuration guide. You'll also need to go through the Azure Consent process to provide the partner access to your Teams environment. See [Permissions and consent in the Microsoft identity platform endpoint](/azure/active-directory/develop/v2-permissions-and-consent) for more information about the Azure consent process.
+The partner that you chose for your CVI deployment provides you with a full deployment document that consists of all the steps needed to deploy successfully within your organization. This document includes firewall ports and IP ranges, configuration changes for your devices, and other settings that need to change.
 
-### Schedule
+To configure CVI, follow these steps.
 
-After a user is enabled for Cloud Video Interop, any meeting scheduled using the Teams Meeting Add-in for Outlook, the Teams Client or Outlook Web Access (OWA) will have the appropriate additional information automatically added into the Teams meeting so that Cloud Video Interop-compatible devices can join these meetings.
+1. Obtain configuration info from your chosen partner/partners (tenant key, appIds...). You can use one or more video interop partners in your organization
 
-### Join
+2. Ensure that your network is configured correctly. Configure your standards-based video firewall for perimeter network traversal to support. For example:
+    - Cisco VCS-e
+    - Polycom RPAD
 
-Depending on the partner solution, there are several ways to join a Cloud Video Interop-enabled meeting. Exact meeting join scenarios will be provided by your Cloud Video Interop partner. We've listed some examples below:
+3. Configure integrated rooms with exchange and OTD. In most cases, additional relay would need to be set up and configured in your environment.
+
+### 3. Provision  
+
+During the provision phase, you assign licenses to the appropriate users according to the partner configuration guide. You must go through the Azure Consent process to provide the partner access to your Teams environment. For more information about the Azure consent process, see [Permissions and consent in the Microsoft identity platform endpoint](/azure/active-directory/develop/v2-permissions-and-consent).
+
+The tenant key is the dial out to the partner service. In the following example, 813878896@t.plcm.vc is the tenant key.
+
+![Tenant key example.](media/tenant-key-example.png)
+
+You need to execute the following cmdlets to provision the tenant key, and also enable select users or your whole organization to create meetings with video interop coordinates.
+
+- **[Get-CsTeamsVideoInteropServicepolicy](/powershell/module/teams/get-csteamsvideointeropservicepolicy):**
+Microsoft provides preconstructed policies for each of our supported partners that allow you to designate which partners to use for CVI.
+
+    This cmdlet allows you to identify the preconstructed policies that you can use in your organization. You can assign this policy to one or more of your users using the Grant-CsTeamsVideoInteropServicePolicy cmdlet.
+
+- **[Grant-CsTeamsVideoInteropServicePolicy](/powershell/module/teams/grant-csteamsvideointeropservicepolicy):**
+The Grant-CsTeamsVideoInteropServicePolicy cmdlet allows you to assign a preconstructed policy for use in your organization or assign the policy to specific users.
+
+- **[New-CsVideoInteropServiceProvider](/powershell/module/teams/new-csvideointeropserviceprovider):**
+Use the New-CsVideoInteropServiceProvider to specify information about a supported CVI partner your organization would like to use.
+
+- **[Set-CsVideoInteropServiceProvider](/powershell/module/teams/set-csvideointeropserviceprovider):**
+Use the Set-CsVideoInteropServiceProvider to update information about a supported CVI partner your organization uses.
+
+- **[Get-CsVideoInteropServiceProvider](/powershell/module/teams/get-csvideointeropserviceprovider):**
+Get all of the providers that you configured for use within the organization.
+
+- **[Remove-CsVideoInteropServiceProvider](/powershell/module/teams/remove-csvideointeropserviceprovider):**
+Use Remove-CsVideoInteropServiceProvider to remove all provider information about a provider that your organization no longer uses.
+
+## 4. Consent
+
+You must provide permission consent for the video teleconferencing devices (VTCs) to join your organizations meetings via the partner service. Your partner provides the consent link.
+
+|Name|Application Permission Short Description| Description|
+|---|---|---|
+|Calls.JoinGroupCall.All|Join Group Calls and Meetings as an app (preview)|Allows the app to join group calls and scheduled meetings in your organization, without a signed-in user.  The app is joined with the privileges of a directory user to meetings in your tenant.|
+|Calls.JoinGroupCallasGuest.All|Join Group Calls and Meetings as a guest|Allows the app to anonymously join group calls and scheduled meetings in your organization, without a signed-in user.  The app is joined as a guest to meetings in your tenant.|
+|Calls.AccessMedia.All|Access media streams in a call as an app (preview)|Allows the app to get direct access to media streams in a call, without a signed-in user.|
+|OnlineMeetings.Read.All|Read Online Meeting details (preview)|Allows the app to read Online Meeting details in your organization, without a signed-in user.|
+
+Once consent is completed, users enabled via the Grant cmdlet, or all users in the org if the tenant is enabled, automatically have VTC coordinates for Teams meetings they schedule. Any VTC can join these meetings through those coordinates.
+
+### 5. Schedule
+
+After you enable CVI for a user, any Teams meeting scheduled via the Teams Meeting Add-in for Outlook, Teams Client, or OWA include necessary details for compatible devices to join.
+
+Next, schedule Teams meeting with video interop coordinates. The enabled user can schedule teams meetings via:
+
+- [Teams Meeting add-in for Outlook](outlook-add-in-authentication-policy-requirements.md)
+- Teams client desktop and mobile
+
+### 6. Join
+
+Depending on the partner solution, there are several ways to join a CVI-enabled meeting. Your CVI partner provides exact meeting join scenarios. Here are a few example scenarios:
 
 - IVR (Interactive Voice Response) 
 
    - You can dial in to the partner's IVR using the tenantkey@domain.
-   - When you're in the partner IVR, you'll be prompted to enter the VTC conferenceId, which will then connect you to the Teams meeting.
+   - When you're in the partner IVR, you're prompted to enter the VTC conferenceId, which connects you to the Teams meeting.
       
 - Direct dial 
 
    - You can directly dial in to the Teams meeting without interacting with the partner's IVR by using the direct dial feature, using the full string of tenantkey.VTC ConferenceId@domain.
 - One-touch dial 
-   - If you have integrated the VTC room calendar, you can use the one-touch dial capabilities offered by your partner (without needing to type any dial string).
-            
-## Manage Cloud Video Interop
-   
-After Cloud Video Interop is deployed, you can manage the devices using the solutions provided by our partners. Each partner will provide you with an administrative interface that will include both license and device management. 
+   - If you integrated the VTC room calendar, you can use the one-touch dial capabilities offered by your partner (without needing to type any dial string).
+
+You can join Teams meetings with your VTC devices in the following ways:
+
+- IVR (Interactive voice Response)
+  - You can dial in to the partner's IVR using the tenantkey@domain.
+  - Once you are in the partner IVR, you're prompted to enter the VTC conferenceId, which connects you to the Teams meeting.
+- Direct dial
+  - You can dial into the Teams meeting without interacting with the partner's IVR by using the direct dial feature using the full string of tenantkey.VTC ConferenceId@domain.
+- One-touch dial
+  - If you have an integrated Teams room, you can use the one-touch dial capabilities offered by your partner (without needing to type any dial string).
+
+Finally, engage with Teams users in your meetings using audio, video, and content sharing.
+
+## Manage CVI
+
+After CVI is deployed, you can manage the devices using the solutions provided by our partners. Each partner provides you with an administrative interface that includes both license and device management.
 
 Reporting is also available directly from the partner administrative interface. For more information on reporting capabilities, contact the partner of your choice.
 
-### Troubleshooting Cloud Video Interop
-   
-Cloud Video Interop is a partner-provided service. If you're experiencing issues, the first step is to connect a device that has the Teams Client installed and connect it to the same segment as the Cloud Video Interop device that is causing problems. 
+### Troubleshoot CVI
 
-If Teams functions correctly on this segment, and you have also followed all the networking and configuration guidelines the partner has provided, you'll need to contact the partner for further troubleshooting. 
+CVI is a partner-provided service. If you're experiencing issues, the first step is to connect a device that has the Teams Client installed. Next, connect it to the same segment as the CVI device that is causing problems.
 
-## PowerShell for Cloud Video Interop
-   
+If Teams functions correctly on this segment, and you followed all the networking and configuration guidelines your partner provided, you should contact the partner for further troubleshooting.
 
-The following PowerShell cmdlets are available for you to (partially) automate the Cloud Video Interop deployment.
+## PowerShell for CVI
 
-- **Get-CsTeamsVideoInteropServicepolicy**: Microsoft provides preconstructed policies for each of our supported partners that allow you to designate which partner(s) to use for Cloud Video Interop.<br>This cmdlet allows you to identify the preconstructed policies that you can use in your organization. You can assign this policy to one or more of your users by leveraging the Grant-CsTeamsVideoInteropServicePolicy cmdlet.
-      
-- **Grant-CsTeamsVideoInteropServicePolicy**: This cmdlet allows you to assign a preconstructed policy for use in your organization or assign the policy to specific users.
-- **New-CsVideoInteropServiceProvider**: Use this cmdlet to specify information about a supported CVI partner that your organization would like to use.
-- **Set-CsVideoInteropServiceProvider**: Use this cmdlet to update information about a supported CVI partner that your organization uses.
-- **Get-CsVideoInteropServiceProvider**: Use this cmdlet to get all of the providers that have been configured for use within the organization.
-- **Remove-CsVideoInteropServiceProvider**: Use this cmdlet to remove all provider information about a provider that your organization no longer uses.
+The following PowerShell cmdlets are available for you to (partially) automate the CVI deployment.
 
+- [**Get-CsTeamsVideoInteropServicePolicy**](/teams/get-csteamsvideointeropservicepolicy): Microsoft provides preconstructed policies for each of our supported partners that allow you to designate which partners to use for CVI.<br>This cmdlet allows you to identify the preconstructed policies that you can use in your organization. You can assign this policy to one or more of your users by using the Grant-CsTeamsVideoInteropServicePolicy cmdlet.
 
+- [**Grant-CsTeamsVideoInteropServicePolicy**](/teams/grant-csteamsvideointeropservicepolicy): This cmdlet allows you to assign a preconstructed policy for use in your organization or assign the policy to specific users.
+- [**New-CsVideoInteropServiceProvider**](/teams/new-csvideointeropserviceprovider): Use this cmdlet to specify information about a supported CVI partner that your organization would like to use.
+- [**Set-CsVideoInteropServiceProvider**](/teams/set-csvideointeropserviceprovider): Use this cmdlet to update information about a supported CVI partner that your organization uses.
+- [**Get-CsVideoInteropServiceProvider**](/teams/get-csvideointeropserviceprovider): Use this cmdlet to get all of the providers that you configured for use within the organization.
+- [**Remove-CsVideoInteropServiceProvider**](/teams/remove-csvideointeropserviceprovider): Use this cmdlet to remove all provider information about a provider that your organization no longer uses.
 
+## CVI Release Notes
 
+Microsoft continues to work with CVI partners to make meetings between Microsoft Teams and other services more seamless for users. The table below details which features are available or planned.
 
+|Release Date| Feature Name|Feature Description|Microsoft Status|*BlueJeans|Cisco|Pexip|*Poly|
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+|CY22Q3|PowerPoint Notifications|CVI participants are notified when PowerPoint is being shared via Teams participants|Delivered to CVI Partners|Available|TBD|Available|TBD|
+|CY22Q4|CVI Telemetry|Enable identification of CVI calls within Call Quality Dashboard (CQD) metrics|Delivered to CVI Partners|TBD|Available|TBD|Available|
+|CY22Q4|Alignment of lobby between CVI and Teams meetings|Alignment of CVI Lobby with Teams Meeting Scheduling, specifically: "People who were invited" and "Only me and co-organizers," now ensures VTC is held in lobby even when VTC lobby bypass is configured. **Note:** *as a result of this change, VTCs (used within Teams live events as a presenter) must be admitted via the lobby*|Delivered to CVI Partners|Available|Available|Available|Available|
+|CY22Q4|Support for Long Term Reference Frame (LTRF)|Improved support for video packet loss recovery within CVI|Delivered to CVI Partners|TBD|TBD|TBD|N/A|
+|CY22Q4|Support for Microsoft Teams Premium, "Watermark Feature"|Phase 1: Notification for Watermark-enabled meeting with both video and content blocked|Delivered to CVI Partners|TBD|TBD|N/A - will launch Phase 2|N/A - will launch Phase 2|
+|CY23Q1|Support for Microsoft Teams Premium, "Watermark Feature"|Phase 2: Full Watermark support, CVI Partners will create Watermark overlay with both video and content displayed. **Note:** *at this time Teams meetings only support Watermark for trusted VTCs, i.e., Lobby Bypass must be enabled*|Delivered to CVI Partners|TBD|TBD|Planned|Available|
+|CY23Q2|SIP Guest Join|The ability to join Teams Meetings with VTCs when CVI coordinates aren't present within the invite|Delivered to CVI Partners|TBD|TBD|Available|TBD|
+|CY23Q3|Point-to-Point (P2P) calling between Teams Rooms on Windows and VTCs|Teams Rooms Pro calling feature, which creates the ability to perform bi-directional calling between Teams Rooms on Windows and VTC devices|Delivered to CVI Partners|TBD|TBD|Available|TBD|
 
+*Both BlueJeans and Poly CVI solutions are in maintenance only mode. No new customers are being on-boarded.
 
-
+## Related topics
