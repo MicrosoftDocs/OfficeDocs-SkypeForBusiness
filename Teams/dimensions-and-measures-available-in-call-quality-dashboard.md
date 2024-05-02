@@ -317,6 +317,14 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 | Second Recv AV Sync Distance Std Dev| Milliseconds | The standard deviation of the difference in audio/video sync delay for the second endpoint. Higher values are indicative of a larger variation of the offsync and can indicate burstier video transmission.||
 | Outbound Bit Rate Avg | Kilobits per second (Integer) | The average bit rate of the outbound audio stream in kbps. Must be used with Stream Direction. | &bull; The stream wasn't an audio stream.|
 | Network Score | Range (Decimal) | Network Score is a value computed from network round-trip time, packet loss, and jitter. It is a ranking of the network quality for a Teams call or stream in a single number, with higher values being better.||
+| First Web Network Receive Good Ratio | Range (Ratio) | Indicates how much of a stream's network receive quality was assessed as good on the first endpoint | &bull; Endpoint wasn't using the Teams Web client |
+| Second Web Network Receive Good Ratio | Range (Ratio) | Indicates how much of a stream's network receive quality was assessed as good on the second endpoint | &bull; Endpoint wasn't using the Teams Web client | 
+| First Web Network Receive Bad Ratio | Range (Ratio) | Indicates how much of a stream's network receive quality was assessed as bad on the first endpoint | &bull; Endpoint wasn't using the Teams Web client |
+| Second Web Network Receive Bad Ratio | Range (Ratio) | Indicates how much of a stream's network receive quality was assessed as bad on the second endpoint | &bull; Endpoint wasn't using the Teams Web client |
+| First Web Network Send Good Ratio | Range (Ratio) | Indicates how much of a stream's network send quality was assessed as good on the first endpoint | &bull; Endpoint wasn't using the Teams Web client |
+| Second Web Network Send Good Ratio | Range (Ratio) | Indicates how much of a stream's network send quality was assessed as good on the second endpoint | &bull; Endpoint wasn't using the Teams Web client |
+| First Web Network Send Bad Ratio | Range (Ratio) | Indicates how much of a stream's network send quality was assessed as bad on the first endpoint | &bull; Endpoint wasn't using the Teams Web client |
+| Second Web Network Send Bad Ratio | Range (Ratio) | Indicates how much of a stream's network send quality was assessed as bad on the second endpoint | &bull; Endpoint wasn't using the Teams Web client |
 |**Device**| |||
 | First Capture Dev  | String  | Name of the capture device used by the first endpoint. For: <br/> **Audio streams** = device used for the microphone <br/> **Video streams** = device used for the camera <br/> **Video-based-screen-sharing streams** = screen scraper <br/> **App sharing streams** = blank <br/> **Example value:** Headset Microphone (Microsoft LifeChat LX-6000)  | &bull; The endpoint didn't report the data <br/>&bull; The media path wasn't established <br/>&bull; The stream was video-based screen sharing or application sharing.  |
 | Second Capture Dev  | String  | Name of the capture device used by the second endpoint.  <br/> **Audio streams** = device used for the microphone <br/> **Video streams** = device used for the camera <br/> **Video-based-screen-sharing streams** = screen scraper <br/> **App sharing streams** = blank <br/> **Example value:** Headset Microphone (Microsoft LifeChat LX-6000) | <br/>&bull; The endpoint didn't report data <br/>&bull; Media path wasn't established <br/>&bull; The stream was video-based screen sharing or application sharing   |
@@ -372,6 +380,8 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 | First WiFi Battery Charge  | Range (percentage)  | Estimated remaining battery charge in percentage [0-99] reported by the first endpoint. Values grouped by range. 0 indicates that the device was plugged in. <br/> **Example value:** 081: [90 - 100) | &bull; WiFi wasn't used <br/>&bull; The charge value wasn't reported   |
 | Second WiFi Battery Charge  | Range (percentage)  | Estimated remaining battery charge in percentage [0-99] reported by the second endpoint. Values grouped by range. 0 indicates that the device was plugged in.  <br/> **Example value:** 081: [90 - 100) | &bull; WiFi wasn't used <br/>&bull; The charge value wasn't reported  |
 |**Metrics**||||
+| First Web Max Session Bandwidth | Range (Kbps) | Displays the lower of either the default bandwidth limit or the bandwidth limit set by tenant policy for the Teams web client on the first endpoint | &bull; Endpoint wasn't using the Teams Web client. |
+| Second Web Max Session Bandwidth | Range (Kbps) | Displays the lower of either the default bandwidth limit or the bandwidth limit set by tenant policy for the Teams web client on the second endpoint | &bull; Endpoint wasn't using the Teams Web client. |
 | Audio Degradation Avg  | Range (Mean opinion score 0-5) | Average Network Mean Opinion Score degradation for stream. Represents how much the network loss and jitter impact the quality of received audio. Not for use with SATIN or WebRTC/VDI. Values grouped by range. <br/> **Example value:** 015: [0.01 - 0.02) | &bull; The endpoint receiving the stream reported no network MOS degradation <br/>&bull; The stream isn't an audio stream.   |
 | Jitter  | Range (millisecond)  | Average jitter for stream in milliseconds. Values grouped by range. <br/> **Example value:** 065: [2 - 3)  | &bull; The endpoint receiving the stream reported no jitter data |
 | Jitter Max  | Range (millisecond)  | Maximum jitter for stream in milliseconds. Values grouped by range. <br/> **Example value:** 065: [2 - 3) | &bull; The endpoint receiving the stream reported no jitter data   |
@@ -431,6 +441,8 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 | Second System Memory Resource Usage Max|	Range (percentage)|	The maximum value of the system's overall memory usage measured for the second endpoint.||
 | First Process Memory Resource Usage Max	|Range (percentage)	|The maximum value of the memory usage by the Teams process measured for the first endpoint.||
 | Second Process Memory Resource Usage Max|	Range (percentage)|	The maximum value of the memory usage by the Teams process measured for the second endpoint.||
+| First Web Time Muted In Client | Range (milliseconds) | The amount of time in milliseconds the user was muted in the Teams web client on the first endpoint. | &bull; Endpoint wasn't using the Teams Web client. |
+| Second Web Time Muted In Client | Range (milliseconds) | The amount of time in milliseconds the user was muted in the Teams web client on the first endpoint. | &bull; Endpoint wasn't using the Teams Web client. |
 |**Audio**||||
 | Audio FEC Used  | Boolean  | True indicates that audio forward error correction (FEC) is used at some point during the call. False otherwise     | &bull; The stream wasn't an audio stream <br/>&bull; The endpoint sending the stream didn't report the data  |
 | First Audio Render Device In Use  | String  | Indicates which hardware device is used for playback of the audio stream on the first endpoint.  | <br/>&bull; The endpoint didn't report the data  |
@@ -548,6 +560,8 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 | Second Device Multiple Endpoints Event Count  | Range (ratio)  | Number of times during the call that the second endpoint detected multiple endpoints in the same room or acoustic environment. Values grouped by range. <br/> **Example value:** 016: [0.02 - 0.03)  | &bull; Indicates a non-audio stream <br/>&bull; The second endpoint didn't report data |
 | First Device Howling Event Count  | Range (ratio)  | Number of times during the call that the first endpoint detected two or more endpoints in the same room that caused poor quality audio in the form of howling or screeching audio. Values grouped by range. <br/> **Example value:** 016: [0.02 - 0.03)  | &bull; Stream was a non-audio stream <br/>&bull; The first endpoint didn't report data |
 | Second Device Howling Event Count  | Range (ratio)  | Number of times during the call that the second endpoint detected two or more endpoints in the same room or acoustic environment that caused poor quality audio in the form of howling or screeching audio. Values grouped by range. <br/> **Example value:** 016: [0.02 - 0.03)  | &bull; Indicates a non-audio stream <br/>&bull; The second endpoint didn't report data |
+| First Web Video Capture Device Failure Event Count | Integer | The number of times the video capture device reported a failure on the first Teams web client endpoint. | &bull; User wasn't using the Teams Web client. |
+| Second Web Video Capture Device Failure Event Count | Integer | The number of times the video capture device reported a failure on the second Teams web client endpoint. | &bull; User wasn't using the Teams Web client. |
 |**Call Diagnostic**||||
 | Error Report Sender  | String  | Indicates which endpoint sent the call error report for the stream. This report contains telemetry that might indicate call setup or call drop issues with the call. <br/> **Example value:** First | &bull; Indicates no call error report was received.  |
 | Is Media Error  | String  | Indicates if the call error report for the stream was a media level error or not. This report contains telemetry that might indicate call setup or call drop issues with the call.    | &bull; Indicates no call error report was received. |
@@ -595,6 +609,8 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 | Organizer UPN|String|The user principal name (UPN) of the meeting organizer's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| &bull; User doesn't have permissions to view EUII. <br/>&bull; Record is older than 28 days. |
 | Organizer Sip Uri|String|The Session Initiation Protocol (SIP) URI of the meeting organizer's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| &bull; Populated only for Skype for Business endpoints. <br/>&bull; User doesn't have permissions to view EUII. <br/>&bull; Record is older than 28 days.|
 | PII Scrubbed | Boolean | Indicates if the end-user identifiable information was scrubbed from the record. This happens automatically after a record is 28 days old. ||
+| First Is VPN Combined | Boolean | Indicates if Teams determined the first endpoint was connected to a VPN when it received the stream, combining several detection criteria | |
+| Second Is VPN Combined | Boolean | Indicates if Teams determined the second endpoint was connected to a VPN when it received the stream, combining several detection criteria | |
 |**Devices**||||
 | First Capture Device Form Factor|Enumeration string|The form factor of the audio capture device (microphone) on the first endpoint. | &bull; Not reported by the endpoint. |
 | Second Capture Device Form Factor|Enumeration string|The form factor of the audio capture device (microphone) on the first endpoint. | &bull; Not reported by the endpoint. |
@@ -617,6 +633,10 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 | Second Video Frame Rate Avg | Range (frames per second) | Average rate in frames-per-second of video on the second endpoint. | &bull; Stream isn't a video stream |
 | First Video Bit Rate Avg | Range (kbps) | Average bit rate in kilobytes-per-second of video on the first endpoint. | &bull; Stream isn't a video stream |
 | Second Video Bit Rate Avg | Range (kbps) | Average bit rate in kilobytes-per-second of video on the second endpoint. | &bull; Stream isn't a video stream |
+| First Time To First Frame | Range (seconds) | The number of seconds between the video subscription and the first frame of the stream received by the first endpoint. | &bull; Stream is not a video stream |
+| Second Time To First Frame | Range (seconds) | The number of seconds between the video subscription and the first frame of the stream received by the second endpoint. | &bull; Stream is not a video stream |
+| First Video Bitrate Max | Range (kbps) | The maximum inbound video bitrate as received by the first endpoint at any point of the call. | &bull; Stream is not a video stream|
+| Second Video Bitrate Max | Range (kbps) | The maximum inbound video bitrate as received by the second endpoint at any point of the call. | &bull; Stream is not a video stream|
 |**PSTN**||||
 |First PSTN Country Region|String|If FirstIsCaller is true, First PSTN Country Region is the caller's country. If it's false, then Second PSTN Country region is the caller's country.<br/>**Example:** US||
 |Second PSTN Country Region|String|If FirstIsCaller is false, Second PSTN Country Region is the caller's country. If it's true, then First PSTN Country region is the caller's country.<br/>**Example:** US||
@@ -796,6 +816,7 @@ Many Measurement values can also be used as filters. The following table lists t
 |Second Speaker Device Failure Rate |Percentage |Percentage of all audio stream in which an audio render device failure is detected on the second endpoint. |
 |Avg Call Duration |Seconds |Average duration of streams in seconds. |
 |Total Audio Stream Duration (Minutes) |Minutes |Total audio stream duration in minutes in the selected time range. |
+|Total Stream Duration (Minutes) | Minutes | The total duration of streams as measured in minutes based on the selected filters. Can be filtered to specific Media Types and Stream Directions for increased precision.|
 |First Feedback Rating Avg |User rating (1-5) |Average rating of streams reported by the user using the first endpoint. Calls are rated from 1-5 and the rating is applied to all streams of the call. |
 |Second Feedback Rating Avg |User rating (1-5) |Average rating of streams reported by the user using the second endpoint. Calls are rated from 1-5 and the rating is applied to all streams of the call. |
 |First Feedback Rating Count |Number of rated streams |Number of streams rated by the user using the first endpoint. Calls are rated from 1-5 and the rating is applied to all streams of the call. |
@@ -887,6 +908,22 @@ Many Measurement values can also be used as filters. The following table lists t
 | Avg Second Speaker Glitch Rate|Number of glitches|Average Second Speaker Glitch Rate (glitches per 5 minutes for the endpoint loudspeaker) for the stream. |
 | Avg First Send Mute Percent |Percentage|Average of the percentage of the audio stream that's muted from the first endpoint. |
 | Avg Second Send Mute Percent |Percentage|Average of the percentage of the audio stream that's muted from the second endpoint. |
+| Avg First System CPU Resource Usage Average | Percentage | The average of the system's average overall CPU usage measured for the first endpoint. |
+| Avg Second System CPU Resource Usage Average | Percentage | The average of the system's average overall CPU usage measured for the second endpoint. |
+| Avg First Process Memory Resource Usage Average | Percentage | The average of the average memory usage by the Teams process measured for the first endpoint. |
+| Avg Second Process Memory Resource Usage Average | Percentage | The average of the average memory usage by the Teams process measured for the second endpoint. |
+| Avg First System CPU Resource Usage Max | Percentage | The average of the maximum values of the system's overall CPU usage measured for the first endpoint. |
+| Avg Second System CPU Resource Usage Max | Percentage | The average of the maximum values of the system's overall CPU usage measured for the second endpoint. |
+| Avg First Process Memory Resource Usage Max | Percentage | The average of the maximum value of the memory usage by the Teams process measured for the first endpoint. |
+| Avg Second Process Memory Resource Usage Max | Percentage | The average of the maximum value of the memory usage by the Teams process measured for the second endpoint. |
+| Avg First System Memory Resource Usage Average | Percentage | The average of the system's average overall memory usage measured for the first endpoint. |
+| Avg Second System Memory Resource Usage Average | Percentage | The average of the system's average overall memory usage measured for the second endpoint. |
+| Avg First System Memory Resource Usage Max | Percentage | The average of maximum values of the system's overall memory usage measured for the first endpoint. |
+| Avg Second System Memory Resource Usage Max | Percentage | The average of maximum values of the system's overall memory usage measured for the second endpoint. |
+| Avg First Process CPU Resource Usage Average | Percentage | The average of the average CPU usage by the Teams process measured for the first endpoint. |
+| Avg Second Process CPU Resource Usage Average | Percentage | The average of the average CPU usage by the Teams process measured for the second endpoint. |
+| Avg First Process CPU Resource Usage Max | Percentage | The average of the maximum values of the CPU usage by the Teams process measured for the first endpoint. |
+| Avg Second Process CPU Resource Usage Max | Percentage | The average of the maximum values of the CPU usage by the Teams process measured for the second endpoint. |
 | First User Count|Number | Number of unique or distinct first endpoint users. Only available for the past 28 days of data. There's an up to 0.2% error for this measure. See note below for details.|
 | Second User Count|Number|Number of unique or distinct second endpoint users. Only available for the past 28 days of data. There's an up to 0.2% error for this measure. See note below for details.|
 | Avg First Device Glitches Event Ratio|Percentage|Average fraction of the calls that the first endpoint detected glitches or gaps in the media played or captured that caused poor quality of the media being sent or received.|
@@ -928,6 +965,18 @@ Many Measurement values can also be used as filters. The following table lists t
 | Avg Second Healed Data Ratio Value | Percentage (Decimal) | Percentage of the audio stream in which the audio healer on the second endpoint is invoked, averaged across the number of streams in a given row. High HDR indicates that the client expected audio but Teams didn't have any content to play back. High healer usage is experienced by end-users as choppy audio. This measurement isn't currently reported by WebRTC-based clients. |
 | Avg First Received Audio Seconds | Seconds (Decimal) | Amount of active audio received by the first endpoint in seconds, excluding silence. This measurement isn't currently reported by WebRTC based clients. |
 | Avg Second Received Audio Seconds | Seconds (Decimal) | Amount of active audio received by the second endpoint in seconds, excluding silence. This measurement isn't currently reported by WebRTC based clients. |
+| Avg First Roaming Count | Integer | Average of instances where the first endpoint performed a lightweight reconnect mid-call where signaling wasn't involved. For example, when an endpoint switches wireless access points on the same network. |
+| Avg Second Roaming Count | Integer | Average of instances where the second endpoint performed a lightweight reconnect mid-call where signaling wasn't involved. For example, when an endpoint switches wireless access points on the same network. |
+| Avg First Recv Avg Freeze Duration | Seconds | Average of the average duration in seconds of received video freeze events on the first endpoint. |
+| Avg Second Recv Avg Freeze Duration | Seconds | Average of the average duration in seconds of received video freeze events on the second endpoint. |
+| Avg First Recv AV Sync Distance Avg | Milliseconds | The average of the average difference between audio and video modality (video or VBSS) network delays in milliseconds for the first endpoint. A positive value would mean that audio arrived later than the video. |
+| Avg Second Recv AV Sync Distance Avg | Milliseconds | The average of the average difference between audio and video modality (video or VBSS) network delays in milliseconds for the second endpoint. A positive value would mean that audio arrived later than the video. |
+| Avg First Recv AV Sync Distance Max | Milliseconds | The average of the maximum difference value of how much video or VBSS is ahead of the audio for the first endpoint in milliseconds. |
+| Avg Second Recv AV Sync Distance Max | Milliseconds | The average of the maximum difference value of how much video or VBSS is ahead of the audio for the second endpoint in milliseconds. |
+| Avg First Recv AV Sync Distance Min | Milliseconds | The average of the minimum difference value of how much video or VBSS is ahead of the audio for the first endpoint in milliseconds. |
+| Avg Second Recv AV Sync Distance Min | Milliseconds | The average of the minimum difference value of how much video or VBSS is ahead of the audio for the second endpoint in milliseconds. |
+| Avg First Recv AV Sync Distance Std Dev | Milliseconds | The average of the standard deviation of the difference in audio/video sync delay for the first endpoint. Higher values are indicative of a larger variation of the offsync and can indicate burstier video transmission. |
+| Avg Second Recv AV Sync Distance Std Dev | Milliseconds | The average of the standard deviation of the difference in audio/video sync delay for the second endpoint. Higher values are indicative of a larger variation of the offsync and can indicate burstier video transmission. |
 | Avg First Input Noise Level | dBFS (Decimal) | The RMS noise level of the audio signal Teams receives from the first capture device as measured in dBFS. |
 | Avg Second Input Noise Level | dBFS (Decimal) | The RMS noise level of the audio signal Teams receives from the second capture device as measured in dBFS. |
 | Avg First Input Speech Level | dBFS (Decimal) |The RMS level of the speech detected in the audio signal Teams receives from the first capture device as measured in dBFS. |
