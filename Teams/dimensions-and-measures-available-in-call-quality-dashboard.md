@@ -617,8 +617,10 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 | Second Video Frame Rate Avg | Range (frames per second) | Average rate in frames-per-second of video on the second endpoint. | &bull; Stream isn't a video stream |
 | First Video Bit Rate Avg | Range (kbps) | Average bit rate in kilobytes-per-second of video on the first endpoint. | &bull; Stream isn't a video stream |
 | Second Video Bit Rate Avg | Range (kbps) | Average bit rate in kilobytes-per-second of video on the second endpoint. | &bull; Stream isn't a video stream |
-| First Video Bitrate Max | Range (Kbps) | The maximum inbound video bitrate as received by the first endpoint at any point of the call. | &bull; Stream is not a video stream|
-| Second Video Bitrate Max | Range (Kbps) | The maximum inbound video bitrate as received by the second endpoint at any point of the call. | &bull; Stream is not a video stream|
+| First Time To First Frame | Range (seconds) | The number of seconds between the video subscription and the first frame of the stream received by the first endpoint. | &bull; Stream is not a video stream |
+| Second Time To First Frame | Range (seconds) | The number of seconds between the video subscription and the first frame of the stream received by the second endpoint. | &bull; Stream is not a video stream |
+| First Video Bitrate Max | Range (kbps) | The maximum inbound video bitrate as received by the first endpoint at any point of the call. | &bull; Stream is not a video stream|
+| Second Video Bitrate Max | Range (kbps) | The maximum inbound video bitrate as received by the second endpoint at any point of the call. | &bull; Stream is not a video stream|
 |**PSTN**||||
 |First PSTN Country Region|String|If FirstIsCaller is true, First PSTN Country Region is the caller's country. If it's false, then Second PSTN Country region is the caller's country.<br/>**Example:** US||
 |Second PSTN Country Region|String|If FirstIsCaller is false, Second PSTN Country Region is the caller's country. If it's true, then First PSTN Country region is the caller's country.<br/>**Example:** US||
@@ -931,6 +933,18 @@ Many Measurement values can also be used as filters. The following table lists t
 | Avg Second Healed Data Ratio Value | Percentage (Decimal) | Percentage of the audio stream in which the audio healer on the second endpoint is invoked, averaged across the number of streams in a given row. High HDR indicates that the client expected audio but Teams didn't have any content to play back. High healer usage is experienced by end-users as choppy audio. This measurement isn't currently reported by WebRTC-based clients. |
 | Avg First Received Audio Seconds | Seconds (Decimal) | Amount of active audio received by the first endpoint in seconds, excluding silence. This measurement isn't currently reported by WebRTC based clients. |
 | Avg Second Received Audio Seconds | Seconds (Decimal) | Amount of active audio received by the second endpoint in seconds, excluding silence. This measurement isn't currently reported by WebRTC based clients. |
+| Avg First Roaming Count | Integer | Average of instances where the first endpoint performed a lightweight reconnect mid-call where signaling wasn't involved. For example, when an endpoint switches wireless access points on the same network. |
+| Avg Second Roaming Count | Integer | Average of instances where the second endpoint performed a lightweight reconnect mid-call where signaling wasn't involved. For example, when an endpoint switches wireless access points on the same network. |
+| Avg First Recv Avg Freeze Duration | Seconds | Average of the average duration in seconds of received video freeze events on the first endpoint. |
+| Avg Second Recv Avg Freeze Duration | Seconds | Average of the average duration in seconds of received video freeze events on the second endpoint. |
+| Avg First Recv AV Sync Distance Avg | Milliseconds | The average of the average difference between audio and video modality (video or VBSS) network delays in milliseconds for the first endpoint. A positive value would mean that audio arrived later than the video. |
+| Avg Second Recv AV Sync Distance Avg | Milliseconds | The average of the average difference between audio and video modality (video or VBSS) network delays in milliseconds for the second endpoint. A positive value would mean that audio arrived later than the video. |
+| Avg First Recv AV Sync Distance Max | Milliseconds | The average of the maximum difference value of how much video or VBSS is ahead of the audio for the first endpoint in milliseconds. |
+| Avg Second Recv AV Sync Distance Max | Milliseconds | The average of the maximum difference value of how much video or VBSS is ahead of the audio for the second endpoint in milliseconds. |
+| Avg First Recv AV Sync Distance Min | Milliseconds | The average of the minimum difference value of how much video or VBSS is ahead of the audio for the first endpoint in milliseconds. |
+| Avg Second Recv AV Sync Distance Min | Milliseconds | The average of the minimum difference value of how much video or VBSS is ahead of the audio for the second endpoint in milliseconds. |
+| Avg First Recv AV Sync Distance Std Dev | Milliseconds | The average of the standard deviation of the difference in audio/video sync delay for the first endpoint. Higher values are indicative of a larger variation of the offsync and can indicate burstier video transmission. |
+| Avg Second Recv AV Sync Distance Std Dev | Milliseconds | The average of the standard deviation of the difference in audio/video sync delay for the second endpoint. Higher values are indicative of a larger variation of the offsync and can indicate burstier video transmission. |
 | Avg First Input Noise Level | dBFS (Decimal) | The RMS noise level of the audio signal Teams receives from the first capture device as measured in dBFS. |
 | Avg Second Input Noise Level | dBFS (Decimal) | The RMS noise level of the audio signal Teams receives from the second capture device as measured in dBFS. |
 | Avg First Input Speech Level | dBFS (Decimal) |The RMS level of the speech detected in the audio signal Teams receives from the first capture device as measured in dBFS. |
