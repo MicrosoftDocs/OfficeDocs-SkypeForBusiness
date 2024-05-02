@@ -96,17 +96,15 @@ Follow these steps to plan for your deployment:
 
 ### 2. Configure
 
-The partner that you chose for your CVI deployment provides you with a full deployment document that consists of all the steps needed to deploy successfully within your organization. This document includes firewall ports and IP ranges, configuration changes for your devices, and other settings that need to change.
-
 To configure CVI, follow these steps.
 
-1. Obtain configuration info from your chosen partners (tenant key, appIds...). You can use one or more video interop partners in your organization.
+1. **Obtain configuration info from your chosen partners (tenant key, appIds...)**- You can use one or more video interop partners in your organization. The partner that you chose for your CVI deployment provides you with a full deployment document that consists of all the steps needed to deploy successfully within your organization. This document includes firewall ports and IP ranges, configuration changes for your devices, and other settings that need to change.
 
-2. Ensure that your network is configured correctly. Configure your standards-based video firewall for perimeter network traversal to support. For example:
+2. **Ensure that your network is configured correctly**- Configure your standards-based video firewall for perimeter network traversal to support. For example:
     - Cisco VCS-e
     - Polycom RPAD
 
-3. Configure integrated rooms with exchange and OTD. In most cases, additional relay would need to be set up and configured in your environment.
+3. **Configure integrated rooms with exchange and OTD**- In most cases, additional relay would need to be set up and configured in your environment.
 
 ### 3. Provision  
 
@@ -189,7 +187,7 @@ Microsoft continues to work with CVI partners to make meetings between Microsoft
 |CY22Q3|PowerPoint Notifications|CVI participants are notified when PowerPoint is being shared via Teams participants|Delivered to CVI Partners|Available|TBD|Available|TBD|
 |CY22Q4|CVI Telemetry|Enable identification of CVI calls within Call Quality Dashboard (CQD) metrics|Delivered to CVI Partners|TBD|Available|TBD|Available|
 |CY22Q4|Alignment of lobby between CVI and Teams meetings|Alignment of CVI Lobby with Teams Meeting Scheduling, specifically: "People who were invited" and "Only me and co-organizers," now ensures VTC is held in lobby even when VTC lobby bypass is configured. **Note:** *as a result of this change, VTCs (used within Teams live events as a presenter) must be admitted via the lobby*|Delivered to CVI Partners|Available|Available|Available|Available|
-|CY22Q4|Support for Long Term Reference Frame (LTRF)|Improved support for video packet loss recovery within CVI|Delivered to CVI Partners|TBD|TBD|TBD|N/A|
+|CY22Q4|Support for Long Term Reference Frame(LTRF)|Improved support for video packet loss recovery within CVI|Delivered to CVI Partners|TBD|TBD|TBD|N/A|
 |CY22Q4|Support for Microsoft Teams Premium, "Watermark Feature"|Phase 1: Notification for Watermark-enabled meeting with both video and content blocked|Delivered to CVI Partners|TBD|TBD|N/A - will launch Phase 2|N/A - will launch Phase 2|
 |CY23Q1|Support for Microsoft Teams Premium, "Watermark Feature"|Phase 2: Full Watermark support, CVI Partners will create Watermark overlay with both video and content displayed. **Note:** *at this time Teams meetings only support Watermark for trusted VTCs, i.e., Lobby Bypass must be enabled*|Delivered to CVI Partners|TBD|TBD|Planned|Available|
 |CY23Q2|SIP Guest Join|The ability to join Teams Meetings with VTCs when CVI coordinates aren't present within the invite|Delivered to CVI Partners|TBD|TBD|Available|TBD|
