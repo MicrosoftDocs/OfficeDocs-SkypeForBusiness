@@ -133,11 +133,9 @@ You must provide permission consent for the video teleconferencing devices (VTCs
 |Calls.AccessMedia.All|Access media streams in a call as an app (preview)|Allows the app to get direct access to media streams in a call, without a signed-in user.|
 |OnlineMeetings.Read.All|Read Online Meeting details (preview)|Allows the app to read Online Meeting details in your organization, without a signed-in user.|
 
-Once consent is completed, users enabled via the Grant cmdlet, or all users in the org if the tenant is enabled, automatically have VTC coordinates for Teams meetings they schedule. Any VTC can join these meetings through those coordinates.
-
 ### 5. Schedule
 
-After you enable CVI for a user, any Teams meeting scheduled via the Teams Meeting Add-in for Outlook, Teams Client, or OWA include necessary details for compatible devices to join.
+After you enable CVI for a user, any Teams meeting they schedule through the Teams Meeting Add-in for Outlook, Teams Client, or OWA include necessary details for compatible devices to join.
 
 Next, schedule Teams meeting with video interop coordinates. The enabled user can schedule teams meetings via:
 
