@@ -114,7 +114,7 @@ If users leave the organization, the customer data is deleted accordingly with t
 Admins can turn on or off voice and face enrollment for specific users, or groups using the [Team meeting policy](/powershell/module/teams/set-csteamsmeetingpolicy). By default, voice and face enrollment is disabled for all users in the organization, but admins can change this setting using PowerShell:
 
 ```Powershell
-Set-CsTeamsMeetingPolicy -Identity Global -
+Set-CsTeamsMeetingPolicy -Identity Global -AllowVoiceAndFaceEnrollment $true or $false
 ```
 
 To enable or disable voice and face enrollment for specific users, admins can either assign a custom meeting policy to the users or use the following PowerShell cmdlet:
