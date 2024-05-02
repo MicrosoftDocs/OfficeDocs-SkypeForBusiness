@@ -71,7 +71,7 @@ The following providers offer contact center solutions that are integrated into 
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `Genesys` | https://www.genesys.com/campaign/get-started-genesys-cloud-microsoft-teams                                      |
 | `Heedify` | https://heedify.io/call-center/                                                 |
-| `Intermedia` | https://www.intermedia.com/products/contact-center                          |
+| `Intermedia` | https://www.intermedia.com/integration/contact-center-for-microsoft-teams                       |
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
 | `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
