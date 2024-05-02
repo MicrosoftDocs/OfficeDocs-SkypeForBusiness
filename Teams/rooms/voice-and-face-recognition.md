@@ -120,7 +120,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -
 To enable or disable voice and face enrollment for specific users, admins can either assign a custom meeting policy to the users or use the following PowerShell cmdlet:
 
 ```Powershell
-Grant-CsTeamsMeetingPolicy -Identity  -PolicyName  -EnrollUserOverride $Enabled or $Disabled 
+Grant-CsTeamsMeetingPolicy -Identity -PolicyName -EnrollUserOverride $Enabled or $Disabled 
 ```
 
 Admins can manage how voice and face profiles are used to turn off Voice Isolation for users to enhance noise and voice background reduction admins can switch off voice isolation with PowerShell in the meeting policy.
