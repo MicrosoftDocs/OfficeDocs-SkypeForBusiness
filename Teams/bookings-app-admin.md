@@ -101,7 +101,7 @@ We recommend that you change the default domain before you create your Bookings 
 
 If you need to change the default domain after creating your Bookings mailbox, use PowerShell.
 
-```powerShell
+```powershell
 Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress business@domain.com -EmailAddresses business@domain.com
 ```
 

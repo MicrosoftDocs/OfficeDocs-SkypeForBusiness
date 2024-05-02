@@ -1,5 +1,5 @@
 ---
-title: Turning on or off voice and face enrollment
+title: Overview of voice and face enrollment
 ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
