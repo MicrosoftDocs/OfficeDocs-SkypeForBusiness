@@ -1,7 +1,7 @@
 ---  
 title: "Support article for Bookable Desks "  
-author: tonysmit
-ms.author: mstonysmith 
+author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: prashibadkur
 ms.date: 05/02/2024  
@@ -20,9 +20,8 @@ ms.custom: QuickDraft
 search.appverid: MET150  
 f1.keywords:
   - NOCSH  
+description: Helps admins set up Bookable Desks in their Microsoft Teams organization.
 ---  
-
-Help IT admins set up Bookable Desks in their Microsoft Teams tenant.
 
 # Bookable Desks in Microsoft Teams
 

@@ -1,7 +1,7 @@
 ---  
 title: Get information for connected peripherals
-author: tonysmit
-ms.author: mstonysmith 
+author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: prashibadkur
 ms.date: 05/02/2024  
@@ -22,6 +22,7 @@ f1.keywords:
   - NOCSH
 description: Learn how to gather information about connected devices in Microsoft Teams using PowerShell and upload the data to the Teams Pro Management portal for BYOD monitoring and reporting.
 ---  
+
 # Using PowerShell to Gather and Upload Teams BYOD Peripheral Data
 
 This article will guide you through the process of using a PowerShell script to gather information about connected devices (peripherals) in Microsoft Teams and then upload that information to the Microsoft Teams Pro Management portal for Bring Your Own Device (BYOD) monitoring and reporting.
