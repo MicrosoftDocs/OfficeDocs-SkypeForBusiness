@@ -44,7 +44,7 @@ If one or more of the following conditions are met and Packet Utilization is > 5
 ||||
 
 > [!NOTE]
-> The Audio Classifier above uses basic network performance telemetry to assess if the optimal conditions for good quality audio were present. If any one of the above thresholds are broken then the audio will be marked _Poor_, but this does not mean the audio stream was actually of poor quality, nor does it mean the user perceived a quality issue. The Teams media stack is built to withstand and correct for poor network conditions, and can mitigate considerable network performance degradation in excess of the thresholds above before a drop in quality is perceived by users. We recommend admins make every effort to build and configure their networks and Teams deployments for the best possible quality, and the above metrics are a useful guideline to assess performance of those networks. 
+> The Audio Classifier uses basic network performance telemetry to assess if the optimal conditions for good quality audio were present. If any one of the thresholds are broken then the audio will be marked _Poor_, but this does not mean the audio stream was actually of poor quality, nor does it mean the user perceived a quality issue. The Teams media stack is built to withstand and correct for poor network conditions, and can mitigate considerable network performance degradation in excess of the thresholds above before a drop in quality is perceived by users. We recommend admins make every effort to build and configure their networks and Teams deployments for the best possible quality, and the above metrics are a useful guideline to assess performance of those networks. 
 
 
 ### Video Classifier due to Freeze
@@ -53,8 +53,8 @@ The video stream is marked  _Good_ or _Poor_ based on the value of a classifier 
 
 |Step #|Metric|Scenario|Condition |Classification if Condition is True |Classification if Condition is False |Classification if Metric is Unavailable |Explanation |
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
-|1|Video Poor Due to Freeze Classifier |Is Server Pair is Client : Server|>0.246|_Poor_|_Good_|_Unclassified_|A Score between 0 and 1 that is generated based on a combination of user experience, freeze duration statistics and overall call experience |
-|2|Video Poor Due to Freeze Classifier |Is Server Pair is Client : Client|>0.524|_Poor_|_Good_|_Unclassified_|A Score between 0 and 1 that is generated based on a combination of user experience, freeze duration statistics and overall call experience |
+|1|Video Poor Due to Freeze Classifier |Is Server Pair is Client : Server|>0.246|_Poor_|_Good_|_Unclassified_|A Score between 0 and 1 that is generated based on a combination of user experience, freeze duration statistics, and overall call experience |
+|2|Video Poor Due to Freeze Classifier |Is Server Pair is Client : Client|>0.524|_Poor_|_Good_|_Unclassified_|A Score between 0 and 1 that is generated based on a combination of user experience, freeze duration statistics, and overall call experience |
 |  |  |  |  |  |  |  |
 
 ### Video Classifier
@@ -91,13 +91,13 @@ An application sharing stream is marked as _Poor_ if one or more of the followin
 
 ## Unclassified Streams
 
-In CQD, a stream is marked _Unclassified_ when Interactive Connectivity Establishment (ICE) connectivity fails or when all the metrics required to compute the stream classification are not reported.
+In CQD, a stream is marked _Unclassified_ when Interactive Connectivity Establishment (ICE) connectivity fails or when all the metrics required to compute the stream classification aren't reported.
 
 To check for ICE connectivity failures, examine the dimensions "First Connectivity Ice" and "Second Connectivity Ice" for a "FAILED" value. If either value indicates a failure, the stream is marked as _Unclassified_.
 
-If ICE connectivity succeeded for an _Unclassified_ stream, the stream is likely considered _Unclassified_ because key stream metrics were not reported. There are a few reasons these metrics may not be reported:
+If ICE connectivity succeeded for an _Unclassified_ stream, the stream is likely considered _Unclassified_ because key stream metrics weren't reported. There are a few reasons these metrics may not be reported:
 
-- **QoE reports were not received** — The metrics used for classification are reported in a QoE report sent at the end of a call. If this report is not produced (for example, because some third-party endpoints may not send QoE) or could not be sent (for example, because of a network outage), CQD is unable to classify the stream.
+- **QoE reports weren't received** — The metrics used for classification are reported in a QoE report sent at the end of a call. If this report isn't produced (for example, because some third-party endpoints may not send QoE) or could not be sent (for example, because of a network outage), CQD is unable to classify the stream.
 
   > [!TIP]
   > The "QoE Record Available" dimension can be used to determine whether a QoE report was received for a stream. Note that this dimension will have a value of "True" if a QoE report was received from either endpoint. A QoE report from both endpoints is required for the most accurate reporting of metrics.
