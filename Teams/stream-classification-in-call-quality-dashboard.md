@@ -43,6 +43,10 @@ If one or more of the following conditions are met and Packet Utilization is > 5
 |Jitter|ALL|> 30|Average jitter for stream in milliseconds.|
 ||||
 
+> [!NOTE]
+> The Audio Classifier above uses basic network performance telemetry to assess if the optimal conditions for good quality audio were present. If any one of the above thresholds are broken then the audio will be marked _Poor_, but this does not mean the audio stream was actually of poor quality, nor does it mean the user perceived a quality issue. The Teams media stack is built to withstand and correct for poor network conditions, and can mitigate considerable network performance degradation in excess of the thresholds above before a drop in quality is perceived by users. We recommend admins make every effort to build and configure their networks and Teams deployments for the best possible quality, and the above metrics are a useful guideline to assess performance of those networks. 
+
+
 ### Video Classifier due to Freeze
 
 The video stream is marked  _Good_ or _Poor_ based on the value of a classifier score generated to estimate that the end user experienced Frozen Video. This classifier is available for Microsoft Teams product only.
