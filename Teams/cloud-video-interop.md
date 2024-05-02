@@ -142,7 +142,7 @@ Get all of the providers that you configured for use within the organization.
 - **[Remove-CsVideoInteropServiceProvider](/powershell/module/teams/remove-csvideointeropserviceprovider):**
 Use Remove-CsVideoInteropServiceProvider to remove all provider information about a provider that your organization no longer uses.
 
-## 4. Consent
+### 4. Consent
 
 You must provide permission consent for the video teleconferencing devices (VTCs) to join your organizations meetings via the partner service. Your partner provides the consent link.
 
