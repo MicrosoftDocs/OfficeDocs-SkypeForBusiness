@@ -617,6 +617,8 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 | Second Video Frame Rate Avg | Range (frames per second) | Average rate in frames-per-second of video on the second endpoint. | &bull; Stream isn't a video stream |
 | First Video Bit Rate Avg | Range (kbps) | Average bit rate in kilobytes-per-second of video on the first endpoint. | &bull; Stream isn't a video stream |
 | Second Video Bit Rate Avg | Range (kbps) | Average bit rate in kilobytes-per-second of video on the second endpoint. | &bull; Stream isn't a video stream |
+| First Video Bitrate Max | Range (Kbps) | The maximum inbound video bitrate as received by the first endpoint at any point of the call. | &bull; Stream is not a video stream|
+| Second Video Bitrate Max | Range (Kbps) | The maximum inbound video bitrate as received by the second endpoint at any point of the call. | &bull; Stream is not a video stream|
 |**PSTN**||||
 |First PSTN Country Region|String|If FirstIsCaller is true, First PSTN Country Region is the caller's country. If it's false, then Second PSTN Country region is the caller's country.<br/>**Example:** US||
 |Second PSTN Country Region|String|If FirstIsCaller is false, Second PSTN Country Region is the caller's country. If it's true, then First PSTN Country region is the caller's country.<br/>**Example:** US||
