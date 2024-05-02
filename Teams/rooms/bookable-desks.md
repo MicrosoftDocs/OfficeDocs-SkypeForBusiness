@@ -25,7 +25,9 @@ description: Helps admins set up Bookable Desks in their Microsoft Teams organiz
 
 # Bookable Desks in Microsoft Teams
 
-This article will help guide you through the process of setting up Bookable Desks in Microsoft Teams. This includes creating desk pool accounts, identifying devices, and associating devices with desk pool accounts.
+[!INCLUDE [Preview feature](../includes/preview-feature.md)]
+
+This article helps guide you through the process of setting up Bookable Desks in Microsoft Teams. This includes creating desk pool accounts, identifying the devices you want included, and then linking those devices with desk pool accounts.
 
 ## 1. Create Desk Pool Accounts
 

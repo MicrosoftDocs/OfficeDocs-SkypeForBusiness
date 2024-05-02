@@ -25,19 +25,21 @@ description: Learn how to gather information about connected devices in Microsof
 
 # Using PowerShell to Gather and Upload Teams BYOD Peripheral Data
 
+[!INCLUDE [Preview feature](../includes/preview-feature.md)]
+
 This article will guide you through the process of using a PowerShell script to gather information about connected devices (peripherals) in Microsoft Teams and then upload that information to the Microsoft Teams Pro Management portal for Bring Your Own Device (BYOD) monitoring and reporting.
 
 ## Steps
 
-1.  Download the **Get-TeamsBYODRoomDevices.ps1** script from the provided location or by selecting the "Download zip" option from the source code page.
-2.  Unblock and extract the downloaded zip file. Move the **Get-TeamsBYODRoomDevices.ps1** script to your preferred location on your computer.
-3.  Open a new PowerShell window and navigate to the location where you moved the **Get-TeamsBYODRoomDevices.ps1** script.
-4.  Run the script by executing the following command in the PowerShell window:
+1. Download the **Get-TeamsBYODRoomDevices.ps1** script from the provided location or by selecting the "Download zip" option from the source code page.
+2. Unblock and extract the downloaded zip file. Move the **Get-TeamsBYODRoomDevices.ps1** script to your preferred location on your computer.
+3. Open a new PowerShell window and navigate to the location where you moved the **Get-TeamsBYODRoomDevices.ps1** script.
+4. Run the script by executing the following command in the PowerShell window:
+
    ```powershell
    \Get-TeamsBYODRoomDevices.ps1
    ```
-6.  Follow the prompts to guide you through the this process:
-
+6. Follow the prompts to guide you through the this process:
     - 1. Wait for the script to detect and gather information about the connected devices.
     - 2. Connect the external devices when prompted.
     - 3. Enter the required details such as User Principal Name (UPN), Display Name, and Grouping ID for data collection when prompted.
@@ -46,4 +48,4 @@ This article will guide you through the process of using a PowerShell script to 
     - 6. Review the exported data to ensure accuracy.
     - 7. When finished, type 'Y' when prompted to end the collection process.
 
-7.  Upload the **PERIPHERALS.csv** file to the Teams Pro Management Portal.
+7. Upload the **PERIPHERALS.csv** file to the Teams Pro Management Portal.
