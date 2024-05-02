@@ -7,8 +7,8 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-ms.reviewer: 
-ms.date: 09/19/2018
+ms.reviewer: adam.jacobs
+ms.date: 5/2/2024
 f1.keywords:
 - NOCSH
 description: This article explains how you can plan and set up Cloud Video Interop for users in your organization.
