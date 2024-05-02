@@ -796,6 +796,7 @@ Many Measurement values can also be used as filters. The following table lists t
 |Second Speaker Device Failure Rate |Percentage |Percentage of all audio stream in which an audio render device failure is detected on the second endpoint. |
 |Avg Call Duration |Seconds |Average duration of streams in seconds. |
 |Total Audio Stream Duration (Minutes) |Minutes |Total audio stream duration in minutes in the selected time range. |
+|Total Stream Duration (Minutes) | Minutes | The total duration of streams as measured in minutes based on the selected filters. Can be filtered to specific Media Types and Stream Directions for increased precision.|
 |First Feedback Rating Avg |User rating (1-5) |Average rating of streams reported by the user using the first endpoint. Calls are rated from 1-5 and the rating is applied to all streams of the call. |
 |Second Feedback Rating Avg |User rating (1-5) |Average rating of streams reported by the user using the second endpoint. Calls are rated from 1-5 and the rating is applied to all streams of the call. |
 |First Feedback Rating Count |Number of rated streams |Number of streams rated by the user using the first endpoint. Calls are rated from 1-5 and the rating is applied to all streams of the call. |
