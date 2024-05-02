@@ -892,6 +892,22 @@ Many Measurement values can also be used as filters. The following table lists t
 | Avg Second Speaker Glitch Rate|Number of glitches|Average Second Speaker Glitch Rate (glitches per 5 minutes for the endpoint loudspeaker) for the stream. |
 | Avg First Send Mute Percent |Percentage|Average of the percentage of the audio stream that's muted from the first endpoint. |
 | Avg Second Send Mute Percent |Percentage|Average of the percentage of the audio stream that's muted from the second endpoint. |
+| Avg First System CPU Resource Usage Average | Percentage | The average of the system's average overall CPU usage measured for the first endpoint. |
+| Avg Second System CPU Resource Usage Average | Percentage | The average of the system's average overall CPU usage measured for the second endpoint. |
+| Avg First Process Memory Resource Usage Average | Percentage | The average of the average memory usage by the Teams process measured for the first endpoint. |
+| Avg Second Process Memory Resource Usage Average | Percentage | The average of the average memory usage by the Teams process measured for the second endpoint. |
+| Avg First System CPU Resource Usage Max | Percentage | The average of the maximum values of the system's overall CPU usage measured for the first endpoint. |
+| Avg Second System CPU Resource Usage Max | Percentage | The average of the maximum values of the system's overall CPU usage measured for the second endpoint. |
+| Avg First Process Memory Resource Usage Max | Percentage | The average of the maximum value of the memory usage by the Teams process measured for the first endpoint. |
+| Avg Second Process Memory Resource Usage Max | Percentage | The average of the maximum value of the memory usage by the Teams process measured for the second endpoint. |
+| Avg First System Memory Resource Usage Average | Percentage | The average of the system's average overall memory usage measured for the first endpoint. |
+| Avg Second System Memory Resource Usage Average | Percentage | The average of the system's average overall memory usage measured for the second endpoint. |
+| Avg First System Memory Resource Usage Max | Percentage | The average of maximum values of the system's overall memory usage measured for the first endpoint. |
+| Avg Second System Memory Resource Usage Max | Percentage | The average of maximum values of the system's overall memory usage measured for the second endpoint. |
+| Avg First Process CPU Resource Usage Average | Percentage | The average of the average CPU usage by the Teams process measured for the first endpoint. |
+| Avg Second Process CPU Resource Usage Average | Percentage | The average of the average CPU usage by the Teams process measured for the second endpoint. |
+| Avg First Process CPU Resource Usage Max | Percentage | The average of the maximum values of the CPU usage by the Teams process measured for the first endpoint. |
+| Avg Second Process CPU Resource Usage Max | Percentage | The average of the maximum values of the CPU usage by the Teams process measured for the second endpoint. |
 | First User Count|Number | Number of unique or distinct first endpoint users. Only available for the past 28 days of data. There's an up to 0.2% error for this measure. See note below for details.|
 | Second User Count|Number|Number of unique or distinct second endpoint users. Only available for the past 28 days of data. There's an up to 0.2% error for this measure. See note below for details.|
 | Avg First Device Glitches Event Ratio|Percentage|Average fraction of the calls that the first endpoint detected glitches or gaps in the media played or captured that caused poor quality of the media being sent or received.|
