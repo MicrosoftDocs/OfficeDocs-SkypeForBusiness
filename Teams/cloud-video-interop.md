@@ -88,15 +88,11 @@ When deploying a CVI solution, it's important to understand that you're deployin
 
 ### 1. Plan
 
-During the plan phase, you should identify the devices that you won't replace with a native Teams device, and find a CVI partner that can support these devices.  
+Follow these steps to plan for your deployment:
 
-It's also important to understand that you need a license for each user who schedules meetings in which you want a CVI-enabled device to join. Exact licensing requirements can be obtained from the CVI partner. Ensure that licensing is clear before you start your deployment.
-
-Follow these steps to plan for user based/concurrent/site wide enablement:
-
-- Pick a deployment model/hosted model for your use.
-- Select the license plan ideal for your organization.
-- Plan for capacity of VMs is you're hosting your video infrastructure.
+1. **Pick a deployment model/hosted model for your use**- During the plan phase, you should identify the devices that you won't replace with a native Teams device, and find a CVI partner that can support these devices
+1. **Select the license plan ideal for your organization**-     You need a license for each user who schedules meetings in which you want a CVI-enabled device to join. You can get the exact licensing requirements from your CVI partner. Licensing must be clear before you start your deployment.
+1. **Plan for capacity of VMs is you're hosting your video infrastructure.** [PLACEHOLDER: Adam, not sure what you think of this point. Should we keep this here?]
 
 ### 2. Configure
 
@@ -104,7 +100,7 @@ The partner that you chose for your CVI deployment provides you with a full depl
 
 To configure CVI, follow these steps.
 
-1. Obtain configuration info from your chosen partner/partners (tenant key, appIds...). You can use one or more video interop partners in your organization
+1. Obtain configuration info from your chosen partners (tenant key, appIds...). You can use one or more video interop partners in your organization.
 
 2. Ensure that your network is configured correctly. Configure your standards-based video firewall for perimeter network traversal to support. For example:
     - Cisco VCS-e
@@ -146,26 +142,17 @@ Next, schedule Teams meeting with video interop coordinates. The enabled user ca
 
 Depending on the partner solution, there are several ways to join a CVI-enabled meeting. Your CVI partner provides exact meeting join scenarios. Here are a few example scenarios:
 
-- IVR (Interactive Voice Response) 
+- **IVR (Interactive Voice Response)**
 
-   - You can dial in to the partner's IVR using the tenantkey@domain.
-   - When you're in the partner IVR, you're prompted to enter the VTC conferenceId, which connects you to the Teams meeting.
-      
-- Direct dial 
-
-   - You can directly dial in to the Teams meeting without interacting with the partner's IVR by using the direct dial feature, using the full string of tenantkey.VTC ConferenceId@domain.
-- One-touch dial 
-   - If you integrated the VTC room calendar, you can use the one-touch dial capabilities offered by your partner (without needing to type any dial string).
-
-You can join Teams meetings with your VTC devices in the following ways:
-
-- IVR (Interactive voice Response)
   - You can dial in to the partner's IVR using the tenantkey@domain.
-  - Once you are in the partner IVR, you're prompted to enter the VTC conferenceId, which connects you to the Teams meeting.
-- Direct dial
-  - You can dial into the Teams meeting without interacting with the partner's IVR by using the direct dial feature using the full string of tenantkey.VTC ConferenceId@domain.
-- One-touch dial
-  - If you have an integrated Teams room, you can use the one-touch dial capabilities offered by your partner (without needing to type any dial string).
+  - When you're in the partner IVR, you're prompted to enter the VTC conferenceId, which connects you to the Teams meeting.
+
+- **Direct dial**
+
+  - You can directly dial in to the Teams meeting without interacting with the partner's IVR by using the direct dial feature, using the full string of tenantkey.VTC ConferenceId@domain.
+
+- **One-touch dial**
+  - If you integrated the VTC room calendar, you can use the one-touch dial capabilities offered by your partner (without needing to type any dial string).
 
 Finally, engage with Teams users in your meetings using audio, video, and content sharing.
 
