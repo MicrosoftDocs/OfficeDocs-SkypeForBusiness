@@ -1,10 +1,10 @@
 ---
 title: "Manage the usage of a phone number"
-author: wlibebe
-ms.author: wlibebe
-manager: serdars
+author: CarolynRowe
+ms.author: crowe
+manager: pamgreen
 ms.reviewer: garciadaniel
-ms.date: 08/22/2022
+ms.date: 01/29/2024
 ms.topic: article
 ms.assetid: 
 ms.tgt.pltfrm: cloud
@@ -13,6 +13,7 @@ ms.service: msteams
 search.appverid: 
 ms.collection: 
 - M365-voice
+- m365initiative-voice
 - Tier1
 appliesto:
   - Microsoft Teams
@@ -21,41 +22,57 @@ f1.keywords:
 - CSH
 ms.custom:
   - Calling Plans
-description: "Learn how to change the usage of a phone number to be used as either a Service number or a User number."
+description: "Learn how to change the usage of a phone number to be used as either a service number or a user number."
 ---
 
 # Manage the usage of a phone number
 
-You may need to change the usage of a phone number after it was acquired for or ported in to your organization. Phone number usage can be changed using the Teams admin center, whether it's a service or user number.
+You might want to change the usage of a phone number after it was acquired or ported into your organization. You can change the usage of user and service numbers by using the Teams admin center.
+
+There are three types of usages:
+
+- User number assigned directly to a user.
+- Service number assigned to an Auto attendant or Call queue.
+- Service number assigned to an Audio conferencing bridge.
+
+For more information about types of phone numbers, see [Manage phone numbers for your oranization](manage-phone-numbers-landing-page.md).
+
+Before changing the usage of a number:
+
+- Be sure you have the right licenses for the target type of number usage. For more information, see [How many numbers can you get](how-many-phone-numbers-can-you-get.md). 
+
+- Be aware that you can only assign toll-free numbers to voice apps (Auto attendants and Call queues) and Audio conferencing bridges.
 
 ## How to manage the usage of a phone number
 
 To change the usage of a phone number by using the Teams admin center:
 
-1. Open the Microsoft Teams Admin Center and log in with a Global admin or a Teams administrator account. This is usually the account you used to sign up for Microsoft 365.
+1. Open the Microsoft Teams admin center and log in with a Global admin or a Teams administrator account. This account is usually the one you used to sign up for Microsoft 365.
 
 2. In the left navigation, select **Voice** \> **Phone numbers**.
 
 3. On the **Phone numbers** page, choose an unassigned number in the list, and then select **Change usage**.
 
-      > [!NOTE]
-      > If you do not see a **Change usage** option, double check the following:
-      > - Make sure you're selecting an **unassigned** number before trying to change the usage of it, otherwise the option won't be visible. If the number is currently assigned, you need to [remove the phone number from a user](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user#remove-a-phone-number-from-a-user) or resource account first.
-      > - You must have more than one type of usage in the **Available usages** column. Otherwise, you will not be able to change the number type through the Teams Admin Center.
+   If you don't see a **Change usage** option, check the following:
 
-4. In the **Change usage** pane, open the list of Available usages for the phone number, and select on the intended option to select it.
+   - Make sure you're selecting an unassigned number before trying to change its usage. The value of the **Assignment status** column should be **Unassigned.** Otherwise, the option isn't visible. 
+   - If the number is currently assigned, you need to [remove the phone number from a user](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user#remove-a-phone-number-from-a-user) or resource account first. To unassign a number from a conference bridge, see [Change numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#steps-when-youre-unassigning-a-service-phone-number-for-a-conferencing-bridge).
+   - You must have more than one type of usage in the **Available usages** column. Otherwise, you can't change the number type through the Teams admin center.
 
-      > [!NOTE]
-      > The list will only display usages that are  available for the telephone number, depending on its number type (geographic, non-geographic, or toll-free) and supplier. You can quickly review the available usages for each phone number by setting the **Available usages** column in the Phone numbers table to visible.
+4. In the **Change usage** pane, open the list of available usages for the phone number, and then select the intended option.
 
-5. Click **Apply** to set the Licensed usage.
+   The list only displays usages that are available for the telephone number, depending on its number type (geographic, non-geographic, or toll-free) and supplier. You can quickly review the available usages for each phone number by setting the **Available usages** column in the Phone numbers table to visible.
+
+5. Select **Apply** to set the Licensed usage.
 
 ## Still need assistance?
 
-If you still need assistance, please contact the [TNS Service Desk](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk).
+If you still need assistance, contact the [TNS Service Desk](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk).
 
-## Related topics
+## Related articles
 
-[Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)
+[Manage phone numbers for your organization](manage-phone-numbers-landing-page.md)
 
-[Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
+[Manage phone numbers for users](assign-change-or-remove-a-phone-number-for-a-user.md)
+
+

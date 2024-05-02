@@ -2,8 +2,8 @@
 title: PSTN connectivity options
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
-ms.date: 07/08/2021
+manager: pamgreen
+ms.date: 08/10/2023
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -173,9 +173,9 @@ How you acquire and manage phone numbers differs depending on your PSTN connecti
 
 - For information about managing phone numbers for Calling Plan, see [Manage phone numbers for Calling Plans](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
-- For information about managing phone numbers with Operator Connect, see [Set up phone numbers with Operator Connect](operator-connect-configure.md#set-up-phone-numbers).
+- For information about managing phone numbers with Operator Connect, see [Manage phone numbers with Operator Connect](operator-connect-configure.md#set-up-phone-numbers).
 
-- For information about managing phone numbers with Teams Phone Mobile, see [Set up phone numbers with Teams Phone Mobile](operator-connect-mobile-configure.md#set-up-phone-numbers).
+- For information about managing phone numbers with Teams Phone Mobile, see [Manage phone numbers with Teams Phone Mobile](operator-connect-mobile-configure.md#step-2-manage-phone-numbers-and-assign-licenses).
 
 - For information about managing phone numbers for Direct Routing, see [Configure the phone number and enable enterprise voice](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
 

@@ -2,8 +2,8 @@
 ms.date: 11/28/2017
 title: "Troubleshooting Skype for Business Online sign-in errors for administrators"
 ms.reviewer: 
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: pamgreen
 manager: serdars
 ms.topic: article
 ms.assetid: cdd4801a-2fe1-4aab-bbb6-db5f95f972d1
@@ -36,8 +36,6 @@ To troubleshoot Skype for Business Online sign-in errors, start by eliminating t
 > [Follow resolution steps for a specific error (Enterprise only)](troubleshooting-sign-in-errors-for-admins.md#toc325626440)
 > 
 > [Add a firewall entry for msoidsvc.exe to your proxy server](troubleshooting-sign-in-errors-for-admins.md#add-a-firewall)
-> 
-> [Update DNS settings](troubleshooting-sign-in-errors-for-admins.md#update-dns-service)
 > 
 > [Install a third-party SSL certificate on your ADFS server](troubleshooting-sign-in-errors-for-admins.md#verify-upn-and)
 > 
@@ -81,7 +79,6 @@ If the user cannot sign in after you have tried the suggestions in the previous 
 |**Error message**|**Possible cause**|**Resolution**|
 |:-----|:-----|:-----|
 |Sign-in address not found  <br/> |Sign-in requests from the Microsoft Online Services Sign-On Assistant (msoidsvc.exe) are not going through your external firewall, or proxy server.  <br/> |[Add a firewall entry for msoidsvc.exe to your proxy server](troubleshooting-sign-in-errors-for-admins.md#add-a-firewall) <br/> |
-|Server is temporarily unavailable  <br/> |If your organization has a custom domain, the necessary Domain Name System (DNS) settings may be missing or incorrect.  <br/> |[Update DNS settings](troubleshooting-sign-in-errors-for-admins.md#update-dns-service) <br/> |
 |Server is temporarily unavailable  <br/> |If your organization is using single sign-on with Active Directory Federation Services (ADFS), you may have used a self-signed Secure Socket Layer (SSL) certificate rather than one from a third-party certification authority.  <br/> |[Install a third-party SSL certificate on your ADFS server](troubleshooting-sign-in-errors-for-admins.md#verify-upn-and) <br/> |
 |Problem acquiring a personal certificate that is required to sign in  <br/> |If you've already removed the cached server data used to sign in and the error continues to appear, the user's security credentials may be corrupted, or an RSA folder on the user's computer may be blocking authentication.  <br/> |[Update security credentials](troubleshooting-sign-in-errors-for-admins.md#update-security-credentials) <br/> |
 |A certificate trust dialog box appears when a user signs in for the first time.  <br/> |This dialog box appears if your Skype for Business server is not yet listed in the **TrustModelData** registry key. <br/> |[Modify TrustModelData registry keys](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry) <br/> |
@@ -112,21 +109,6 @@ To create an application entry for Msoidsvc.exe in Forefront TMG 2010, follow th
 |**msoidsvc** <br/> |DisableEx  <br/> |0  <br/> |
 
 For details, see the Microsoft Knowledge Base article 2409256, [You cannot connect to Skype for Business Online because an on-premises firewall blocks the connection](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2409256).
-
-### Update DNS settings
-<a name="update-dns-service"> </a>
-
-If your organization has a custom domain, this procedure is a possible fix for the following error message: **Server is temporarily unavailable**.
-
-- Contact your domain name registrar for information on how to add the following CNAME record to your domain:
-
-  - **DNS record type**: CNAME
-
-  - **Name**: sip
-
-  - **Value/Destination**: sipdir.online.lync.com
-
-For details, see the Microsoft Knowledge Base article 2566790, [Troubleshooting Skype for Business Online DNS configuration issues in Microsoft 365 or Office 365](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2566790).
 
 ### Install a third-party SSL certificate on your ADFS server
 <a name="verify-upn-and"> </a>
@@ -180,7 +162,7 @@ When a user signs in for the first time, they may receive a dialog box that cont
 - Create and deploy a GPO that appends your Skype for Business domain name—for example, domainName.contoso.com—to the current value of HKEY_LOCAL_MACHINE\\Software\\Policies\\Microsoft\\Communicator\\TrustModelData.
 
 > [!IMPORTANT]
->  You must *append*  your domain name to the existing value, not simply replace it.
+> You must *append*  your domain name to the existing value, not simply replace it.
 
 For details, see the Microsoft Knowledge Base article 2531068, [Skype for Business (Lync) cannot verify that the server is trusted for your sign-in address](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2531068).
 
@@ -193,9 +175,10 @@ To fix this issue, follow these steps:
 
 1. Update the **msRTCSIP-UserEnabled** attribute for all affected users to **TRUE**.
 
-2. Rerun the Microsoft Online Services Directory Synchronization Tool (DirSync). For details, see [AIntegrate your on-premises directories with Azure Active Directory](/azure/active-directory/hybrid/whatis-hybrid-identity).
+2. Rerun the Microsoft Online Services Directory Synchronization Tool (DirSync). For details, see [AIntegrate your on-premises directories with Microsoft Entra ID](/azure/active-directory/hybrid/whatis-hybrid-identity).
 
 To troubleshoot Skype for Business Online sign-in errors, start by eliminating the most common causes of sign-in difficulty. If necessary, you can then follow specific resolution steps based on the type of error. If the user still cannot sign in, collect additional information, and then seek additional help.
+
 ## Use the Microsoft Support troubleshooting guide
 <a name="toc325626447"> </a>
 
@@ -215,7 +198,7 @@ You may be asked to supply additional diagnostic information by installing the M
 To troubleshoot Skype for Business Online sign-in errors, start by eliminating the most common causes of sign-in difficulty. If necessary, you can then follow specific resolution steps based on the type of error. If the user still cannot sign in, collect additional information, and then seek additional help.
 
 ## Related topics
+
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)
-

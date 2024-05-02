@@ -2,13 +2,14 @@
 title: 'Contoso case study: Phone System for a multi-national corporation'
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.date: 06/17/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 ms.reviewer: jowrig
 search.appverid: MET150

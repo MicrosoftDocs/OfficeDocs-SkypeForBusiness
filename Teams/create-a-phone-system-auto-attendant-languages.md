@@ -2,7 +2,7 @@
 title: "Microsoft Teams auto attendant supported languages"
 author: DaniEASmith
 ms.author: danismith
-manager: serdars
+manager: pamgreen
 ms.reviewer: colongma
 ms.date: 02/05/2021
 ms.topic: article
@@ -12,6 +12,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - tier1
 audience: Admin
 appliesto: 
@@ -81,7 +82,7 @@ The auto attendant supports the following languages for Text to Speech (TTS) and
 |Spanish (Spain, International)          |Y                        |Y                                      |
 |Swedish (Sweden)                        |Y                        |N                                      |
 |Thai (Thailand)                         |Y                        |N                                      |
-|Turkish (Turkey)                        |Y                        |N                                      |
+|Turkish (Türkiye)                       |Y                        |N                                      |
 |Vietnamese (Vietnam)                    |Y                        |N                                      |
 |Welsh (United Kingdom)                  |Y                        |N                                      |
 

@@ -2,9 +2,9 @@
 title: "Configure media bypass with Direct Routing"
 ms.author: crowe
 author: CarolynRowe
-manager: serdars
+manager: pamgreen
 audience: ITPro
-ms.reviewer: NMuravlyannikov
+ms.reviewer: 
 ms.date: 03/06/2019
 ms.topic: article
 ms.service: msteams
@@ -12,22 +12,23 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 appliesto: 
   - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Learn how to configure media bypass with Phone System Direct Routing for Microsoft Teams by switching all users at once or implementing a phased approached (recommended).
+description: Learn how to configure media bypass with Direct Routing for Teams Phone.
 ms.custom: seo-marvel-apr2020
 ---
 
 # Configure media bypass with Direct Routing
 
-Before configuring media bypass with Direct Routing, be sure you have read [Plan for media bypass with Direct Routing](direct-routing-plan-media-bypass.md).
+Before configuring media bypass with Direct Routing, be sure you read [Plan for media bypass with Direct Routing](direct-routing-plan-media-bypass.md).
 
 To turn on media bypass, the following conditions must be met:
 
-1.    Make sure that your Session Border Controller (SBC) vendor of choice supports media bypass and provides instructions on how to configure bypass on the SBC. Please refer to the certification page to learn about SBCs, which ones support media bypass, and for instructions.
+1.    Make sure that your Session Border Controller (SBC) vendor of choice supports media bypass and provides instructions on how to configure bypass on the SBC. To learn about SBCs, which ones support media bypass, and for instructions, see the certification page.
 
 2.    You need to turn on media bypass on the trunk using the following command:  **Set-CSOnlinePSTNGateway -Identity <sbc_FQDN> -MediaBypass $true**.
 
@@ -38,25 +39,25 @@ To turn on media bypass, the following conditions must be met:
 
 You can switch all users at once or you can implement a phased approached (recommended).
 
-- **Switch all users at once.** If all conditions are met, you can turn bypass mode on. However, all your production users will be switched at the same time. Because you might experience some issues initially when you configure trunks and ports, your production user experience might be affected. 
+- **Switch all users at once.** If all conditions are met, you can turn on bypass mode. However, all your production users are switched at the same time. Because you might experience some issues initially when you configure trunks and ports, your production user experience might be affected. 
 
 - **Phased approach. (Recommended)**.  Create a new trunk for the same SBC (with a different port), test it, and change the online voice routing policy for the users to point to the new trunk. 
 
-  This is the recommended approach because it allows for a smoother transition and uninterrupted user experience. This approach requires configuration of the SBC, a new FQDN name, and configuration of the firewall. Note you will need to make sure that your certificate supports both trunks. In SAN, you need to have two names (**sbc1.contoso.com** and **sbc2.contoso.com**) or have a wildcard certificate.
+  This approach is recommended because it allows for a smoother transition and uninterrupted user experience. This approach requires configuration of the SBC, a new FQDN name, and configuration of the firewall. Note you'll need to make sure that your certificate supports both trunks. In SAN, you need to have two names (**sbc1.contoso.com** and **sbc2.contoso.com**) or have a wildcard certificate.
 
 ![Migrate from non-bypassed trunks to bypass-enabled trunks).](media/direct-routing-media-bypass-8.png)
 
 For instructions on how to configure the trunks and perform migration, see the documentation from your SBC vendor:
 
 - [AudioCodes deployment documentation](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
-- [Oracle deployment documentation](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
+- [Oracle deployment documentation](https://www.oracle.com/communications/partner-microsoft/)
 - [Ribbon Communications deployment documentation](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
 - [TE-Systems (anynode) deployment documentation](https://www.anynode.de/anynode-and-microsoft-teams/)
 
-For a list of Session Border Controllers (SBCs) certified for Direct Routing, see [List of Session Broder Controllers certified for Direct Routing](direct-routing-border-controllers.md).
+For a list of Session Border Controllers (SBCs) certified for Direct Routing, see [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).
 
 
 
-## Related topics
+## Related articles
 
 [Plan media bypass with Direct Routing](direct-routing-plan-media-bypass.md)

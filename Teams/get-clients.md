@@ -1,26 +1,26 @@
 ---
 title: Get clients for Microsoft Teams
-author: MikePlumleyMSFT
-ms.author: mikeplum
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
   - m365initiative-deployteams
-ms.reviewer: harij, rafarhi
-ms.date: 08/11/2017
+ms.reviewer: rafarhi
+ms.date: 10/13/2023
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn how to install the various clients available for Microsoft Teams on PCs, Macs, and mobile devices.
+description: Learn how to install the various clients available for classic Microsoft Teams on PCs, Macs, and mobile devices.
 f1.keywords:
 - CSH
 appliesto: 
   - Microsoft Teams
 ---
 
-# Get clients for Microsoft Teams
+# Get clients for classic Microsoft Teams
 
 > [!TIP]
 > **Want to install Teams on your PC, Mac, or mobile device?** Check out [Install the Teams client](https://go.microsoft.com/fwlink/?linkid=855754).
@@ -36,13 +36,13 @@ For information about each client's capabilities on different platforms, see [Te
 
 ## Desktop clients
 
->[!Note]
->The new Microsoft Teams desktop client is available in preview. The minimum system requirements are different. For more information, see [The new Microsoft Teams desktop client](new-teams-desktop-admin.md)
+>[!Important]
+>The new Microsoft Teams desktop client is now available. The system requirements are different. For more information, see [The new Microsoft Teams desktop client](new-teams-desktop-admin.md)
 
-The Teams desktop client is available as a standalone application and as part of [Microsoft 365 Apps for enterprise](/deployoffice/teams-install) for the following operating systems:
+The classic Teams desktop client is available as a standalone application and as part of [Microsoft 365 Apps for enterprise](/deployoffice/teams-install) for the following operating systems:
 
-- 32-bit and 64-bit versions of Windows (8.1 or later, excluding Windows 10 LTSC) 
-- ARM64 for Windows 10 on ARM 
+- 32-bit and 64-bit versions of Windows (8.1 or later, excluding Windows 10 LTSC)
+- ARM64 for Windows 10 on ARM
 - Windows Server (2012 R2 or later)
 - macOS
 - Chrome OS (For more information, see [How to use Microsoft Office on a Chromebook](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad))
@@ -67,7 +67,7 @@ Teams on Windows provides downloadable MSI installers in [32-bit](https://teams.
 Teams requires .NET Framework 4.5 or later. If .NET Framework 4.5 or later isn't installed, the Teams installer will offer to install for you.
 
 > [!NOTE]
-> Teams isn't supported in [Windows Kiosk Mode](/windows/configuration/kiosk-prepare).
+> Teams isn't supported in [Assigned Access](/windows/configuration/assigned-access/overview) mode (formerly known as Windows Kiosk mode).
 
 The Windows client is deployed to the AppData folder located in the user’s profile. Deploying to the user’s local profile allows the client to be installed without requiring elevated permissions. The Windows client uses the following locations:
 
@@ -81,7 +81,7 @@ The Windows client is deployed to the AppData folder located in the user’s pro
 
 When users initiate a call using the Teams client for the first time, they might notice a warning with the Windows firewall settings that ask for users to allow communication. Users might be instructed to ignore this message because the call will work even when the warning is dismissed.
 
-![Screenshot of a Windows Security Alert dialog.](media/Get_clients_for_Microsoft_Teams_image3.png)
+:::image type="content" alt-text="Screenshot of a Windows Security Alert dialog." source="media/Get_clients_for_Microsoft_Teams_image3.png":::
 
 > [!NOTE]
 > Windows Firewall configuration will be altered. Two inbound rules for teams.exe for both TCP and UDP protocols will be created with:
@@ -131,8 +131,9 @@ If you're in China, you can install Teams from the following app stores:
 
 - **Xiaomi** <https://aka.ms/TeamsXiaomi>
 - **Huawei** <https://aka.ms/TeamsHuawei>
+- **Vivo** <https://aka.ms/Teamsvivo>
 - **Oppo** Search for "Teams" in the Oppo store
-- **Baidu** <https://aka.ms/teams_baidu_direct_dl>
+- **Baidu** <https://aka.ms/TeamsBaidu>
 
 > [!NOTE]
 > When users install Teams from one of the China-based Android app stores and enable push notifications for Teams, Microsoft will provide Teams push notifications through a China-based push notification service.

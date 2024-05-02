@@ -1,8 +1,8 @@
 ---
 title: How Exchange and Microsoft Teams interact
-author: JoanneHendrickson 
-ms.author: jhendr 
-manager: serdars
+author: MicrosoftHeidi 
+ms.author: heidip 
+manager: jtremper
 ms.date: 08/10/2017
 ms.topic: conceptual
 audience: admin
@@ -21,7 +21,7 @@ appliesto:
 # How Exchange and Microsoft Teams interact
 
 > [!Tip]
-> Watch the following session to learn how Teams interacts with Azure Active Directory (AAD), Microsoft 365 Groups, Exchange, SharePoint and OneDrive for Business: [Foundations of Microsoft Teams](https://aka.ms/teams-foundations)
+> Watch the following session to learn how Teams interacts with Microsoft Entra ID, Microsoft 365 Groups, Exchange, SharePoint and OneDrive for Business: [Foundations of Microsoft Teams](https://aka.ms/teams-foundations)
 
 For the full Teams experience, every user should be enabled for Exchange Online, SharePoint Online, and Microsoft 365 Group creation.
 
@@ -29,12 +29,12 @@ Users' Exchange mailboxes can be hosted online or on-premises.
 
 Users hosted on Exchange Online or Exchange Dedicated vNext can use all the features of Teams. They can create and join teams and channels, create and view meetings, call and chat, modify user profile pictures (if the Outlook on the web mailbox policy allows them to do so), and add and configure connectors, tabs, and bots. For a more comprehensive list of available features, see the table below.
 
-Users hosted on Exchange Online Dedicated (Legacy) must be synchronized to Azure Active Directory on Microsoft 365 or Office 365. They can create and join teams and channels, add and configure tabs and bots, and make use of the chat and calling features. However, they cannot modify profile pictures, manage meetings, access outlook contacts, or manage connectors.
+Users hosted on Exchange Online Dedicated (Legacy) must be synchronized to Microsoft Entra ID on Microsoft 365 or Office 365. They can create and join teams and channels, add and configure tabs and bots, and make use of the chat and calling features. However, they cannot modify profile pictures, manage meetings, access outlook contacts, or manage connectors.
 
 > [!IMPORTANT]
 > For integration with on-premises, it's highly recommended that you have an Exchange full Classic Hybrid deployment with Exchange Server 2016 or later. Modern Hybrid support is limited to Free/Busy and will not provide calendar integration from Teams to mailboxes on-premises, for example. For more information about setting up a hybrid deployment, see [Exchange Server hybrid deployments](/exchange/exchange-hybrid).
 
-Users with mailboxes hosted on-premises must be synchronized to Azure Active Directory. They can make use of all the features in the above scenario, but additionally, they can manage meetings if the requirements listed on [Requirements for mailboxes hosted on-premises](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises) section are met.
+Users with mailboxes hosted on-premises must be synchronized to Microsoft Entra ID. They can make use of all the features in the above scenario, but additionally, they can manage meetings if the requirements listed on [Requirements for mailboxes hosted on-premises](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises) section are met.
 
 The following table provides a helpful quick reference to feature availability based on the Exchange environment.
 
@@ -44,8 +44,8 @@ The following table provides a helpful quick reference to feature availability b
 |--------------------------------------------------------------------|--------------------|--------------------|------------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------------|------------------------------|------------------------|------------------------|------------------------|
 | **Exchange Online**                                                | Yes <sup>1</sup>   | Yes <sup>1</sup>   | Yes              | Yes                   | Yes                               | Yes<sup>7</sup>             | Yes          | Yes             | Yes <sup>6</sup>        | Yes              | Yes                          | Yes                    | Yes                    | Yes                    
 | **Exchange Online Dedicated vNext**                                | Yes <sup>1</sup>   | Yes <sup>1</sup>   | Yes              | Yes                   | Yes                               | Yes<sup>7</sup>             | Yes          | Yes             | Yes <sup>6</sup>        | Yes              | Yes                          | Yes                    | Yes                    | Yes                    
-| **Exchange Online Dedicated – Legacy** (Sync to Azure AD required) | Yes <sup>1</sup>   | Yes <sup>1,2</sup> | Yes <sup>3</sup> | Yes                   | No                                | No                          | Yes          | Yes             | No                      | Yes <sup>4</sup> | Yes <sup>5</sup>             | Yes                    | Yes                    | Yes                    
-| **Exchange On-premises** (Sync to Azure AD)                        | Yes <sup>1,9</sup> | Yes <sup>1</sup>   | Yes <sup>3</sup> | Yes                   | Yes <sup>8</sup>                  | Yes<sup>10</sup>            | Yes          | Yes             | No                      | Yes <sup>4</sup> | Yes <sup>5</sup>             | Yes                    | Yes                    | No                      
+| **Exchange Online Dedicated – Legacy** (Sync to Microsoft Entra ID required) | Yes <sup>1</sup>   | Yes <sup>1,2</sup> | Yes <sup>3</sup> | Yes                   | No                                | No                          | Yes          | Yes             | No                      | Yes <sup>4</sup> | Yes <sup>5</sup>             | Yes                    | Yes                    | Yes                    
+| **Exchange On-premises** (Sync to Microsoft Entra ID)                        | Yes <sup>1,9</sup> | Yes <sup>1</sup>   | Yes <sup>3</sup> | Yes                   | Yes <sup>8</sup>                  | Yes<sup>10</sup>            | Yes          | Yes             | No                      | Yes <sup>4</sup> | Yes <sup>5</sup>             | Yes                    | Yes                    | No                      
 
 <sup>1</sup> eDiscovery and Legal Hold for compliance on channel messages is supported for all hosting options.
 
@@ -90,9 +90,9 @@ Microsoft Teams works with several Microsoft 365 and Office 365 services to prov
 
 If mailboxes are hosted on-premises, to create and view meetings, the following requirements must be met:
 
-- The required Teams license needs to be assigned for the Azure Active Directory synced user.
+- The required Teams license needs to be assigned for the Microsoft Entra ID synced user.
 
-- Users must be synchronized to Azure Active Directory. For information about how to use Azure AD Connect to synchronize with Azure Active Directory, see [Hybrid identity documentation](/azure/active-directory/hybrid/).
+- Users must be synchronized to Microsoft Entra ID. For information about how to use Microsoft Entra Connect to synchronize with Microsoft Entra ID, see [Hybrid identity documentation](/azure/active-directory/hybrid/).
 
 - Mailboxes are hosted in Exchange Server 2016 Cumulative Update 3 or later.
 
@@ -103,9 +103,9 @@ If mailboxes are hosted on-premises, to create and view meetings, the following 
   > [!NOTE]
   > Exchange trusts OAuth Token from Teams service which is known as EvoSTS. Step 1 should be enough, but just the EvoSTS; ACS is used for Free/Busy lookup in the calendar.
 
-- The checkbox for the Exchange Hybrid Deployment feature in Azure AD Connect is set. For more information, see [Exchange hybrid writeback](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized#exchange-hybrid-writeback).
+- The checkbox for the Exchange Hybrid Deployment feature in Microsoft Entra Connect is set. For more information, see [Exchange hybrid writeback](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized#exchange-hybrid-writeback).
 
-- For calendar app support and Teams Outlook Add-In for Mac, Exchange Web Service URLs must be configured as SPNs in Tenant Azure AD for the Exchange Service Principal. This step is done with Hybrid Configuration Wizard or following [manual steps for Hybrid Modern Authentication](/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad).
+- For calendar app support and Teams Outlook Add-In for Mac, Exchange Web Service URLs must be configured as SPNs in Tenant Microsoft Entra ID for the Exchange Service Principal. This step is done with Hybrid Configuration Wizard or following [manual steps for Hybrid Modern Authentication](/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad).
 
 To enable calendar delegation for these users:
 

@@ -2,8 +2,8 @@
 ms.date: 11/28/2017
 title: "Troubleshoot problems with Skype for Business Online"
 ms.reviewer: 
-ms.author: tonysmit
-author: tonysmit
+ms.author: serdars
+author: pamgreen
 manager: serdars
 ms.topic: article
 ms.assetid: dce3356e-83a3-4718-88e7-59885bbaa911

@@ -3,16 +3,19 @@ title: Configure Audio Conferencing settings - Microsoft Teams
 ms.reviewer: 
 description: Use these deployment resources to help you roll out audio conferencing as part of the meetings workload in Microsoft Teams.
 ms.topic: article
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
+ms.author: jenz
+author: jenzamora
+manager: pamgreen
 audience: admin
-ms.date: 01/28/2019
+ms.date: 2/21/2024
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - M365-collaboration
   - Tier1
+  - m365initiative-meetings
 ms.custom: 
   - seo-marvel-mar2020
 f1.keywords: 
@@ -24,23 +27,23 @@ appliesto:
 ---
 # Learn how to deploy audio conferencing in Microsoft Teams
 
-Audio Conferencing is the ability to join a Teams meeting from a regular phone and dial out from a meeting to a phone number. Be sure you've reviewed [Meetings rollout](deploy-meetings-microsoft-teams-landing-page.md) as part of rolling out Audio Conferencing in your organization.
+Audio Conferencing is the ability to join a Teams meeting from a regular phone and dial out from a meeting to a phone number. Be sure you review [Meetings rollout](deploy-meetings-microsoft-teams-landing-page.md) as part of rolling out Audio Conferencing in your organization.
 
 ## Audio Conferencing deployment decisions
 
-This article helps you decide whether to change any of the default Audio Conferencing settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups, starting with the core set of [changes you're more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs.
+This article helps you decide whether to change any of the default Audio Conferencing settings, based on your organization's profile and business requirements, then it walks you through each change. We split the settings into two groups, starting with the core set of [changes you're more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#other-deployment-decisions) you might want to configure, based on your organization's needs.
 
-You only need to set up Audio Conferencing for people who plan to schedule or lead meetings. Meeting attendees who dial in don't need any licenses assigned to them or any other setup. Dialing in (calling in) to meetings is very useful for users who are on the road and can't attend a meeting using the Teams app on their laptops or mobile devices.
+You only need to set up Audio Conferencing for people who plan to schedule or lead meetings. Meeting attendees who dial in don't need any licenses assigned to them or any other setup. Dialing in (calling in) to meetings is useful for users who are on the road and can't attend a meeting using the Teams app on their laptops or mobile devices.
 
 ## Audio Conferencing prerequisites
 
-Before you can roll out Audio Conferencing for Teams, consider the following:
+Before you can roll out Audio Conferencing for Teams, consider these questions:
 
 |Ask yourself|Action |
 |------------|-------|
 |Is Audio Conferencing available for my country/region?|To find out if Audio Conferencing is available for your country/region, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).|
-|Do my users have the proper licensing for Teams Audio Conferencing?|Audio Conferencing licenses are available as part of a Microsoft 365 or Office 365 E5 subscription or as an add-on service for a Microsoft 365 Business Standard, E1, or E3 subscription. <ul><li>To get and assign licenses, see [Assign or remove licenses for Microsoft 365 Apps for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).</li><li> To learn more, read [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md). </li><li>To see what cloud features are included in each plan, see the [License options based on your plan](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) articles.</li></ul>|
-|Do I need to purchase Communications Credits for the users who are assigned Audio Conferencing licenses?|To learn more, read [What are Communications Credits](what-are-communications-credits.md), then check out the [Communications Credits](#communications-credits) section below.|
+|Do my users have the proper licensing for Teams Audio Conferencing?|Audio Conferencing licenses are available as part of a Microsoft 365 or Office 365 E5 . Audio conferencing licenses are also available as an add-on service for a Microsoft 365 Business Standard, E1, or E3 subscription. <ul><li>To get and assign licenses, see [Assign or remove licenses for Microsoft 365 Apps for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).</li><li> To learn more, read [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md). </li><li>To see what cloud features are included in each plan, see the [License options based on your plan](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) articles.</li></ul>|
+|Do I need to purchase Communications Credits for the users who are assigned Audio Conferencing licenses?|To learn more, read [What are Communications Credits](what-are-communications-credits.md), then check out the [Communications Credits](#communications-credits) section.|
 |||
 
 ## Core deployment decisions
@@ -49,7 +52,7 @@ After you meet the Audio Conferencing prerequisites, complete the following task
 
 ### Teams administrators
 
-Teams provides a set of custom administrator roles that can be used to manage Teams for your organization. The roles provide various capabilities to administrators.
+Teams provides a set of custom administrator roles that can be used to manage Teams for your organization. The roles provide various capabilities for administrators.
 
 | Ask yourself | Action |
 |--------------|--------|
@@ -60,7 +63,7 @@ Teams provides a set of custom administrator roles that can be used to manage Te
 
 ### Conferencing bridges and phone numbers
 
-Conferencing bridges let people dial into meetings using a phone. You can use the default settings for a conferencing bridge or change the phone numbers (toll and toll-free) and other settings, such as the PIN or the languages that are used.
+Conferencing bridges let people dial into meetings using a phone. You can use the default settings for a conferencing bridge. You can also change the phone numbers (toll and toll-free) and other settings, such as the PIN or the languages that are used.
 
 See [Audio Conferencing](audio-conferencing-in-office-365.md) to learn more.
 
@@ -82,7 +85,7 @@ Teams Audio Conferencing lets you set up default and alternate languages for a c
 
 ### Conferencing bridge settings
 
-After setting up your conferencing bridge, including default and alternate languages, you should verify that the default settings such as entry/exit notifications and PIN length are the ones you want to use. If they're not, you can change them.
+After setting up your conferencing bridge and languages, verify that default settings, like entry/exit notifications and PIN length, suit your preferences. If they're not, you can change them.
 
 |Ask yourself|Action |
 |------------|-------|
@@ -110,13 +113,13 @@ To provide toll-free conference bridge phone numbers and to support conferencing
 |Do I want to configure an auto-recharge amount?|To configure an auto-recharge amount, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).|
 |||
 
-## Additional deployment decisions
+## Other deployment decisions
 
-You may want to change these settings, based on your organization's needs and configuration.
+You might want to change these settings, based on your organization's needs and configuration.
 
 ### Outbound calling restriction policies
 
-As an administrator, you can use outbound call controls to restrict the type of audio conferencing and end user PSTN calls that can be made by users in your organization.
+As an administrator, you can use outbound call controls to restrict the type of audio conferencing and end user Public Switched Telephone Network (PSTN) calls that users in your organization can make.
 
 |Ask yourself|Action |
 |------------|-------|
@@ -125,7 +128,7 @@ As an administrator, you can use outbound call controls to restrict the type of 
 
 ### Dial plans
 
-A dial plan, as part of Phone System in Microsoft 365 or Office 365, is a set of normalization rules that translate dialed phone numbers into an alternate format (typically E.164 format) for call authorization and call routing.
+A dial plan in Microsoft 365 or Office 365's Phone System is a set of normalization rules that translate dialed numbers into another format (typically E.164 format) for call authorization and routing.
 
 For more information about dial plans, see [What are dial plans?](what-are-dial-plans.md)
 
@@ -137,7 +140,7 @@ For more information about dial plans, see [What are dial plans?](what-are-dial-
 
 ### Troubleshoot meeting and call quality
 
-Teams gives you two ways to monitor and troubleshoot call quality problems: [Call Analytics and Call Quality Dashboard](monitor-call-quality-qos.md). Call Analytics shows detailed information about the devices, networks, and connectivity related to the specific calls and meetings for each user. Call Analytics is designed to help admins and helpdesk agents troubleshoot call quality problems with specific calls, whereas the Call Quality Dashboard is designed to help admins and network engineers optimize a network. Call Quality Dashboard shifts focus from specific users and instead looks at aggregate information for an entire Teams organization.
+Teams gives you two ways to monitor and troubleshoot call quality problems: [Call Analytics and Call Quality Dashboard](monitor-call-quality-qos.md). Call Analytics shows detailed information about the devices, networks, and connectivity related to the specific calls and meetings for each user. Call Analytics is designed to help admins and help desk agents troubleshoot call quality problems with specific calls. The Call Quality Dashboard is designed to help admins and network engineers optimize a network. Call Quality Dashboard shifts focus from specific users and instead looks at aggregate information for an entire Teams organization.
 
 |Ask yourself|Action |
 |------------|-------|
@@ -146,6 +149,6 @@ Teams gives you two ways to monitor and troubleshoot call quality problems: [Cal
 
 ## Next steps
 
-- [Drive adoption](adopt-microsoft-teams-landing-page.md) of audio conferencing in your organization.
+- [Drive adoption of audio conferencing in your organization](adopt-microsoft-teams-landing-page.md)
 - [Roll out cloud voice](cloud-voice-landing-page.md)
 - Include featured apps - such as Planner - in your initial Teams rollout. Add other [Teams apps](apps-in-teams.md) as you drive Teams adoption.

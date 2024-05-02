@@ -1,8 +1,8 @@
 ---
 title: Configure external meetings and chat with Skype for Business Server
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jtremper
+author: jacktremper
+manager: pamgreen
 ms.reviewer: nas, pbafna
 ms.date: 12/10/2018
 ms.topic: article

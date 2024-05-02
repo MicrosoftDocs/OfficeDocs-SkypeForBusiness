@@ -2,8 +2,8 @@
 ms.date: 11/28/2017
 title: "Turn on or off Skype for Business client feedback reporting"
 ms.reviewer: 
-ms.author: tonysmit
-author: tonysmit
+ms.author: serdars
+author: pamgreen
 manager: serdars
 ms.topic: article
 ms.assetid: 35562b48-1da1-4081-8a3a-033d0f1986b2

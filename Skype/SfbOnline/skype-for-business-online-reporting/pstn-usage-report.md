@@ -1,8 +1,8 @@
 ---
 ms.date: 11/28/2017
 title: "PSTN usage report"
-ms.author: tonysmit
-author: tonysmit
+ms.author: serdars
+author: pamgreen
 manager: serdars
 ms.reviewer: mikedav, wlooney
 ms.topic: article
@@ -131,8 +131,8 @@ Exported file contains additional fields that are not available in the online re
 > | 1 | Call ID | `nvarchar(64)` | Call identifier. Not guaranteed to be unique |
 > | 2 | Conference ID | `nvarchar(64)` | ID of the audio conference |
 > | 3 | User Location | `nvarchar(2)` | Country code of the user, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
-> | 4 | AAD ObjectId | `uniqueidentifier` | Calling user's ID in Azure Active Directory.<br/> This and other user info will be null/empty for bot call types (ucap_in, ucap_out) |
-> | 5 | UPN | `nvarchar(128)` | UserPrincipalName (sign in name) in Azure Active Directory.<br/>This is usually the same as user's SIP Address, and can be same as user's e-mail address |
+> | 4 | Microsoft Entra ObjectId | `uniqueidentifier` | Calling user's ID in Microsoft Entra ID.<br/> This and other user info will be null/empty for bot call types (ucap_in, ucap_out) |
+> | 5 | UPN | `nvarchar(128)` | UserPrincipalName (sign in name) in Microsoft Entra ID.<br/>This is usually the same as user's SIP Address, and can be same as user's e-mail address |
 > | 6 | User Display Name | `nvarchar(128)` | Display name of the user |
 > | 7 | Caller ID | `nvarchar(128)` | Number that received the call for inbound calls or the number dialed for outbound calls. [E.164](https://en.wikipedia.org/wiki/E.164) format |
 > | 8 | Call Type | `nvarchar(32)` | Whether the call was a PSTN outbound or inbound call and the type of call such as a call placed by a user or an audio conference |
@@ -171,4 +171,3 @@ Exported file contains additional fields that are not available in the online re
 [Activity Reports in the admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   
   
-

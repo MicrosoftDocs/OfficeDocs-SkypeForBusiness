@@ -1,7 +1,7 @@
 ---
 title: "Search-CcLog"
 ms.reviewer: 
-ms.author: crowe
+ms.author: serdars
 author: CarolynRowe
 manager: serdars
 ms.date: 3/20/2017

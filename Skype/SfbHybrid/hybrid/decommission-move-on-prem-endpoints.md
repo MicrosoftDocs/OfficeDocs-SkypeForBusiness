@@ -1,9 +1,9 @@
 ---
 ms.date: 04/03/2021
 title: Migrate hybrid application endpoints to the cloud
-ms.author: heidip
 author: MicrosoftHeidi
-manager: serdars
+ms.author: heidip
+manager: jtremper
 ms.reviewer: bjwhalen
 audience: ITPro
 f1.keywords:
@@ -14,6 +14,7 @@ ms.localizationpriority: medium
 ms.collection: 
 - Hybrid 
 - M365-voice
+- m365initiative-voice
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
@@ -35,7 +36,6 @@ This article describes how to move required hybrid application endpoints to the 
 
 - Step 4. [Remove your on-premises Skype for Business deployment](decommission-remove-on-prem.md).
 
-
 ## Migrate all required hybrid application endpoints from on-premises to online
 
 Before you can move these endpoints to online, you must ensure you have updated DNS records to point to Microsoft 365 for all sip domains used by the endpoints. After you update DNS to point to Microsoft 365, any existing hybrid application endpoints will no longer be discoverable until you complete this step. Since this step (creating online Resource Accounts) is not possible if DNS records point to on-premises you should plan to do both steps 2 and 3 in the same maintenance window. For more information, see [Disable your hybrid configuration](cloud-consolidation-disabling-hybrid.md).
@@ -45,6 +45,7 @@ Before you can move these endpoints to online, you must ensure you have updated 
    ```PowerShell
    Get-CsHybridApplicationEndpoint|select Sipaddress, DisplayName, ApplicationID, LineUri |Export-Csv -Path "c:\backup\HybridEndpoints.csv"
    ```
+
 2. Create and license new [Resource Accounts](/microsoftteams/manage-resource-accounts) in Microsoft 365 to replace the existing on-premises hybrid application endpoints.
 
 3. Associate the new Resource Accounts with the existing hybrid application endpoints.
@@ -54,6 +55,7 @@ Before you can move these endpoints to online, you must ensure you have updated 
    ```PowerShell
    Get-CsHybridApplicationEndpoint -Filter {LineURI -ne $null} | Set-CsHybridApplicationEndpoint -LineURI ""
    ```
+
 5. Because it's possible that phone numbers for these accounts were managed in Microsoft 365 instead of on-premises, run the following command in Teams PowerShell:
 
    ```PowerShell
@@ -76,6 +78,7 @@ Before you can move these endpoints to online, you must ensure you have updated 
    ```PowerShell
    Get-CsHybridApplicationEndpoint | Remove-CsHybridApplicationEndpoint
    ```
+
 You are now ready to [remove your on-premises Skype for Business deployment](decommission-remove-on-prem.md).
 
 ## See also
@@ -89,8 +92,3 @@ You are now ready to [remove your on-premises Skype for Business deployment](dec
 - [Remove your on-premises Skype for Business deployment](decommission-remove-on-prem.md)
 
 - [Create an auto attendant via cmdlets](/microsoftteams/create-a-phone-system-auto-attendant-via-cmdlets)
-
-
-
-
-

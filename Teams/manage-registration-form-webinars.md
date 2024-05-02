@@ -2,20 +2,23 @@
 title: Manage the registration form for webinars in Microsoft Teams
 author: wlibebe
 ms.author: wlibebe
-manager: serdars
+manager: pamgreen
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: justle
-ms.date: 07/31/2023
+ms.date: 08/16/2023
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 description: Learn how to manage the registration form for webinars in Microsoft Teams for admins. You can manage default questions, custom questions, and predefined questions.
 appliesto: 
   - Microsoft Teams
 ---
 # Manage the registration form for webinars
+
+**APPLIES TO:** ✖️Meetings ✔️Webinars ✖️Town halls
 
 ## Overview
 
@@ -41,9 +44,26 @@ There are three categories of questions on the registration form:
    - Multiple Choice
    - Checkbox
 
+## Use the Teams admin center to manage the registration form
+
+You can use the Teams admin center to manage the types of questions an organizer can require attendees to answer when registering for webinars in your organization.
+
+Follow these steps in the Teams admin center to manage the registration form:
+
+1. Open the Teams admin center.
+2. Select **Meetings** from the navigation pane.
+3. Under **Meetings**, select **Events Policies**.
+4. Either select an existing policy or create a new one.
+5. Use the dropdown for the **Allowed question types in registration form** setting to select your choice from the following options:
+
+   - Default only
+   - Default and predefined only
+   - All questions
+6. Select **Save**
+
 ## Use PowerShell to manage the registration form
 
-To manage the types of questions an organizer can require attendees to answer when registering for webinars, use the **`-AllowedQuestionTypesInRegistrationForm`** parameter in the **CsTeamsEventsPolicy** cmdlet.
+You can use PowerShell to manage the types of questions an organizer can require attendees to answer when registering for webinars. To manage the registration form questions, use the **`-AllowedQuestionTypesInRegistrationForm`** parameter in the **CsTeamsEventsPolicy** cmdlet.
 The following table shows the behaviors of the settings for the **`-AllowedQuestionTypesInRegistrationForm`** parameter:
 
 |Setting value | Behavior |

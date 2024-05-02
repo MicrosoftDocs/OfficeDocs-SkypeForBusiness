@@ -1,7 +1,7 @@
 ---
 title: "Get-CcCredential"
 ms.reviewer: 
-ms.author: crowe
+ms.author: serdars
 author: CarolynRowe
 manager: serdars
 ms.date: 8/8/2017
@@ -43,7 +43,7 @@ The Get-CcCredential cmdlet returns the credential information about the specifi
   
 The Get-CcCredential cmdlet returns an instance of the System.Management.Automation.PSCredential object. The password property of the return object is System.Security.SecureString.
   
-If you want to get the clear text of the domain administrator password, be sure the password is input by your current logon account on the host server, and then open a PowerShell console as administrator and run the below script:
+If you want to get the clear text of the domain administrator password, be sure the password is input by your current sign in account on the host server, and then open a PowerShell console as administrator and run the below script:
   
 ```powershell
 $cred = Get-CcCredential -AccountType DomainAdmin
@@ -59,12 +59,12 @@ Write-Host $text
 
 |**Parameter**|**Required**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| AccountType <br/> |Required  <br/> | System.String <br/> | AccountType value can be one of the following: <br/>  VmAdmin: the local administrator of Cloud Connector virtual machines. <br/>  DomainAdmin: Domain administrator of Cloud Connector virtual machine domain. <br/>  SafeModeAdmin: SafeModeAdmin of Cloud Connector virtual machine domain controller. <br/>  ExternalCert: Account of external certificate installed on the Edge Server. <br/>  TenantAdmin: Administrator of the O365 tenant. <br/> |
+| AccountType <br/> |Required  <br/> | System.String <br/> | AccountType value can be one of the following: <br/>  VmAdmin: the local administrator of Cloud Connector virtual machines. <br/>  DomainAdmin: Domain administrator of Cloud Connector virtual machine domain. <br/>  SafeModeAdmin: SafeModeAdmin of Cloud Connector virtual machine domain controller. <br/>  ExternalCert: Account of external certificate installed on the Microsoft Edge Server. <br/>  TenantAdmin: Administrator of the Microsoft 365 tenant. <br/> |
    
 ## Input Types
 <a name="InputTypes"> </a>
 
-None. The Get-CcCredential cmdlet does not accept pipelined input.
+None. The Get-CcCredential cmdlet doesn't accept pipelined input.
   
 ## Return Types
 <a name="ReturnTypes"> </a>

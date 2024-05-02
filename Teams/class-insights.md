@@ -1,12 +1,12 @@
 ---
 title: IT Admin Guide to Education Insights in Microsoft Teams
-author: DaniEASmith
-ms.author: danismith
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jacktremper
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: karsmith
+ms.reviewer: 
 ms.date: 07/01/2020
 description: An IT Admin guide to Insights in Microsoft Teams for Education.
 ms.localizationpriority: high

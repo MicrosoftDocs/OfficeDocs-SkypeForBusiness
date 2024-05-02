@@ -2,8 +2,8 @@
 ms.date: 11/28/2017
 title: "Turn on or off mobile phone notifications"
 ms.reviewer: 
-ms.author: tonysmit
-author: tonysmit
+ms.author: serdars
+author: pamgreen
 manager: serdars
 ms.topic: article
 ms.assetid: 2de47013-4f09-493c-abc5-372f56ad69e3

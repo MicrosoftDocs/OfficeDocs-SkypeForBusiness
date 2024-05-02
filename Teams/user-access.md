@@ -1,35 +1,37 @@
 ---
 title: Manage user access to Microsoft Teams
-manager: serdars
+manager: pamgreen
 author: DaniEASmith
 ms.author: danismith
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
-  - M365-collaboration
-  - tier1
+- M365-collaboration
+- tier1
 ms.reviewer: ritikag
-ms.date: 08/11/2017
+ms.date: 03/26/2024
 search.appverid: MET150
 description: Learn how to manage user access to Teams by assigning or removing a Teams license to users in your organization. 
 f1.keywords:
 - CSH
 - ms.teamsadmincenter.signin.domainerror.nolicensedusers
-ms.custom: 
-  - NewAdminCenter_Update
-  - seo-marvel-apr2020
+ms.custom:
+- NewAdminCenter_Update
+- seo-marvel-apr2020
+- has-azure-ad-ps-ref
+- azure-ad-ref-level-one-done
 appliesto: 
-  - Microsoft Teams
+- Microsoft Teams
 ---
 
 # Manage user access to Teams
 
+[!INCLUDE [EEA Teams licensing notice](./includes/eea-teams-licensing.md)]
+
 You manage access to Teams at the user level by assigning or removing a Microsoft Teams product license. Except for joining Teams meetings anonymously, each user in your organization must have a Teams license before they can use Teams. You can assign a Teams license for new users when new user accounts are created or to users with existing accounts.
 
-By default, when a licensing plan (for example, Microsoft 365 Enterprise E3 or Microsoft 365 Business Premium) is assigned to a user, a Teams license is automatically assigned, and the user is enabled for Teams. You can disable or enable Teams for a user by removing or assigning a license at any time.
-
-Use messaging policies, managed from the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Teams Admin Center</a>, to control what chat and channel messaging features are available to users in Teams. You can use the default policy or create one or more custom messaging policies for people in your organization. To learn more, read [Manage messaging policies in Teams](messaging-policies-in-teams.md).
+Use messaging policies, managed from the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), to control what chat and channel messaging features are available to users in Teams. You can use the default policy or create one or more custom messaging policies for people in your organization. To learn more, read [Manage messaging policies in Teams](messaging-policies-in-teams.md).
 You manage Teams licenses in the Microsoft 365 admin center or by using PowerShell. You must be a Global admin or User management admin to manage licenses.
 
 > [!NOTE]
@@ -44,7 +46,7 @@ Teams user-level licenses are managed directly through the Microsoft 365 admin c
 
 Use the Microsoft 365 admin center to manage Teams licenses for individual users or small sets of users at a time. You can manage Teams licenses on the **Licenses** page (for up to 20 users at a time) or **Active users** page. The method you choose depends on whether you want to manage product licenses for specific users or manage user licenses for specific products.
 
-If you need to manage Teams licenses for a large number of users, such as hundreds or thousands of users, [use PowerShell](#using-powershell) or [group-based licensing in Azure Active Directory (Azure AD)](/azure/active-directory/users-groups-roles/licensing-groups-assign). 
+If you need to manage Teams licenses for a large number of users, such as hundreds or thousands of users, [use PowerShell](#using-powershell) or [group-based licensing in Microsoft Entra ID](/azure/active-directory/users-groups-roles/licensing-groups-assign).
 
 ### Assign a Teams license
 
@@ -81,31 +83,30 @@ For detailed steps, see [Assign licenses to user accounts with PowerShell](/offi
 
 For detailed steps, see [Disable access to services with PowerShell](/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) and [Disable access to services while assigning user licenses](/office365/enterprise/powershell/disable-access-to-services-while-assigning-user-licenses).
 
-#### Example 
+#### Example
 
-The following is an example of how to use the [New-MsolLicenseOptions](/powershell/module/msonline/new-msollicenseoptions) and [Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense) cmdlets to disable Teams for users who have a specific licensing plan. For example, follow these steps to first disable Teams for all users who have a particular licensing plan. Then enable Teams for each individual user who should have access to Teams.
+The following is an example of how to use the [Set-MgUserLicense](/powershell/module/microsoft.graph.users.actions/set-mguserlicense) cmdlet to disable Teams for users who have a specific licensing plan. For example, follow these steps to first disable Teams for all users who have a particular licensing plan. Then enable Teams for each individual user who should have access to Teams.
 
 > [!IMPORTANT]
-> The [New-MsolLicenseOptions](/powershell/module/msonline/new-msollicenseoptions) cmdlet will enable all services that were previously disabled unless explicitly identified in your custom script. For example, if you want to leave both Exchange and Sway disabled while also disabling Teams, you'll need to include this in the script or both Exchange and Sway will be enabled for those users you identified.
+> The [Set-MgUserLicense](/powershell/module/microsoft.graph.users.actions/set-mguserlicense) cmdlet will enable all services that were previously disabled unless explicitly identified in your custom script. For example, if you want to leave both Exchange and Sway disabled while also disabling Teams, you'll need to include this in the script or both Exchange and Sway will be enabled for those users you identified.
 
 Run the following command to display all available licensing plans in your organization. To learn more, see [View licenses and services with PowerShell](/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell).
 
-
 ```powershell
-Get-MsolAccountSku
+Get-MgSubscribedSku
 ```
 
-Run the following commands, where \<CompanyName:License> is your organization name and the identifier for the licensing plan that you retrieved in the earlier step. For example, ContosoSchool:ENTERPRISEPACK_STUDENT.
+Run the following commands, where \<CompanyName:License> is your organization name and the identifier for the licensing plan that you retrieved in the earlier step. For example, `ContosoSchool:ENTERPRISEPACK_STUDENT`.
 
 ```powershell
-$acctSKU="<CompanyName:License>"
-$x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
+    $acctSKU="<CompanyName:License>"
+    $x = Set-MgUserLicense -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
 ```
 
 Run the following command to disable Teams for all users who have an active license for the licensing plan.
 
 ```powershell
-Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MsolUserLicense -LicenseOptions $x
+Get-MgUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MgUserLicense -LicenseOptions $x
 ```
 
 ## Related topics
@@ -115,4 +116,3 @@ Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acct
 - [View licenses and services with PowerShell](/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
 - [Product names and service plan identifiers for licensing](/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
 - [Education SKU reference](sku-reference-edu.md)
-

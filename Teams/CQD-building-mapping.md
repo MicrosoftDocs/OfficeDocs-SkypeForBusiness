@@ -1,8 +1,8 @@
 ---
 title: Create a building map for Call Quality Dashboard (CQD)
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
+author: mkbond007
+ms.author: mabond
+manager: pamgreen
 ms.reviewer: mikedav, siunies, gageames
 ms.date: 06/22/2020
 ms.topic: article
@@ -10,6 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 search.appverid: MET150
 audience: Admin

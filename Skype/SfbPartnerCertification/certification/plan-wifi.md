@@ -24,7 +24,7 @@ description: "Skype for Business certification program plans to test and certify
 
 
 # Planning for Optimal Skype for Business Experience over Wi-Fi
-In a mobile first, cloud first world, wireless is quickly becoming the basis of communications in the office, at home, and in public. **Skype for Business** provides a communication platform that helps you connect anywhere with the security, compliance, and control required in the enterprise environment. Moving to a wireless communications platform simplifies the infrastructure and reduces the overall cost. Successful enterprise wireless communication deployment requires careful planning following best practices, an understanding of the real-time communication workloads for audio and video, and appropriate QoS policy application.
+In a mobile first, cloud-first world, wireless is quickly becoming the basis of communications in the office, at home, and in public. **Skype for Business** provides a communication platform that helps you connect anywhere with the security, compliance, and control required in the enterprise environment. Moving to a wireless communications platform simplifies the infrastructure and reduces the overall cost. Successful enterprise wireless communication deployment requires careful planning following best practices, an understanding of the real-time communication workloads for audio and video, and appropriate QoS policy application.
 
 This page provides the collective information to help you plan an optimal Skype for Business experience in a wireless world.
 

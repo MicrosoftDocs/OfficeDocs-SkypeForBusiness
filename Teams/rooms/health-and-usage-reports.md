@@ -1,26 +1,26 @@
 ---
 title: Health and usage reports
-author: altsou
-ms.author: altsou
-manager: serdars
-ms.date: 04/07/2022
+author: mstonysmith
+ms.author: tonysmit
+manager: pamgreen
+ms.date: 02/28/2024
 ms.reviewer: altsou
 ms.topic: article
-ms.tgt.pltfrm: cloud
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-audience: Admin
-ms.collection: 
-  - M365-collaboration
-  - Teams_ITAdmin_MTRP
-  - Tier3
 appliesto: 
   - Microsoft Teams
+ms.collection: 
+  - M365-collaboration
+  - teams-rooms-devices
+  - Tier1
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Reporting node data for health and usage of reports
 f1keywords: 
 ---
+
 # Health and usage reports
 
 The reporting node contains data for the health and usage of your Microsoft Teams Rooms in the Pro Management portal. The **Overview** tab surfaces tenant-wide health trends of your rooms. The **Health** tab displays a list of rooms with their corresponding health data. Room usage based on calendar information and call quality data is visible under the **Usage** tab.
@@ -88,7 +88,7 @@ The ticket history graph shows a comparison of incidents assigned to you or Micr
 
 ### Health history
 
-This graph shows the average health (definition in Health section) for all the rooms in the tenant and the average health for all MTR Pro customers on a day-to-day basis. You can view the average health for up to 90 days.
+This graph shows the average health (definition in Health section) for all the rooms in the tenant and the average health for all Microsoft Teams Rooms Pro customers on a day-to-day basis. You can view the average health for up to 90 days.
 
 <!--!![A screenshot of rooms health and average health](../media/health-and-usage-010.png)-->
 
@@ -148,13 +148,19 @@ Below the headline **Metrics** is a table of rooms with corresponding metrics. S
 
 |Column|Description|
 |---|---|
-|Utilization|Percentage of time the room was booked during business hours in the selected period. Ex. Time period set to 7 days. 80% utilization over the means the room was booked for 32/40 hours|
+|Utilization|Percentage of time the room was booked during business hours (Max of 8hours/ per day) in the selected period.  Utilization= (total hours)/ (number of selected days set in the report * 8).   Ex: Time period set to 7 days in the report. The room was booked for 5 days during that period and the total hours= (8 * *5) =* 40 hours*. **In this case, utilization = (8 **** **5)/ (7 * 8) = 40/56= 71%**      |
 |Booked online|Of the booked meetings, the percentage of which were enabled with Teams. Ex. 10 meetings were booked. Of that, 8 had a Teams link. Booked Online = 80%|
-|Scheduled meetings|Absolute number of meetings scheduled in the room|
+|Scheduled meetings|Absolute number of meetings scheduled in the room.|
 |Total calls|Absolute number of calls with the room as a participant.|
-Call performance|Percentage of calls with a "Good" rating. Each call is evaluated and receives a Good, Poor, Unknown rating. This metric is calculated from Good calls/Total calls|
+|Call performance|Percentage of calls with a "Good" rating. Each call is evaluated and receives a Good, Poor, Unknown rating. This metric is calculated from Good calls/Total calls.|
+|Video Utilization|Percentage of time the video was on during the meeting. |
+|Capacity|Maximum number of seats that the room can accommodate. |
+|Average people count.|Average number of individuals present in the room during the meeting.  This data is coming from OEM camera witch support people count such as:  Poly Studio E70 Video, Jabra PanaCast 50, Polycom Studio Video, AVer VC520 Pro2, AVer CAM550, Yealink UVC84 Camera, Poly Studio P15 Video, Poly Studio R30 Video, Yealink UVC86 Camera, Jabra PanaCast 50 Composite, Bose Videobar VB1, Poly Studio V52 Video, AVer VB342 Pro|
 
 Usage is calculated at the end of each day at midnight (00:00) local time of the meeting room device. Utilization is calculated based on the total booked meeting time for that day divided by 8 hours.
+
+> [!NOTE]
+> The metrics for Panels that aren't sharing an account with Microsoft Teams Rooms aren't showing yet in the usage report.  
 
 ## Usage details of a room
 

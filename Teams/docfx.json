@@ -1,79 +1,80 @@
 {
-  "build": {
-    "content": [
-      {
-        "files": [
-          "**/*.md",
-          "**/**.yml"
+    "build": {
+        "content": [
+            {
+                "files": [
+                    "**/*.md",
+                    "**/**.yml"
+                ],
+                "exclude": [
+                    "**/obj/**",
+                    "**/includes/**",
+                    "README.md",
+                    "LICENSE",
+                    "LICENSE-CODE",
+                    "ThirdPartyNotices"
+                ]
+            }
         ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices"
-        ]
-      }
-    ],
-    "resource": [
-      {
-        "files": [
-          "**/*.png",
-          "**/*.jpg",
-          "**/*.gif",
-          "**/*.svg",
-          "**/*.pdf",
-          "**/*.vsdx",
-          "**/*.zip",
-          "**/*.pptx",
-          "**/*.psd",
-          "**/*.csv"
+        "resource": [
+            {
+                "files": [
+                    "**/*.png",
+                    "**/*.jpg",
+                    "**/*.gif",
+                    "**/*.svg",
+                    "**/*.pdf",
+                    "**/*.vsdx",
+                    "**/*.zip",
+                    "**/*.pptx",
+                    "**/*.psd",
+                    "**/*.csv"
+                ],
+                "exclude": [
+                    "**/obj/**",
+                    "**/includes/**"
+                ]
+            }
         ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**"
-        ]
-      }
-    ],
-    "overwrite": [],
-    "externalReference": [],
-    "globalMetadata": {
-      "searchScope": [
-        "Microsoft Teams"
-      ],
-      "breadcrumb_path": "/microsoftteams/breadcrumb/toc.json",
-      "uhfHeaderId": "MSDocsHeader-MicrosoftTeams",
-      "ms.suite": "office",
-      "titleSuffix": "Microsoft Teams",
-      "contributors_to_exclude": [
-        "daswifty",
-        "MikePlumleyMSFT",
-        "rjagiewich", 
-        "traya1", 
-        "rmca14", 
-        "claydetels19", 
-        "jborsecnik",
-        "tiburd",
-        "garycentric",
-        "beccarobins",
-        "dstrome"
-      ],
-      "feedback_system": "GitHub",
-      "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SkypeForBusiness",
-      "feedback_product_url": "https://aka.ms/TeamsFeedback",
-      "recommendations": true
-    },
-    "fileMetadata": {
-      "hideEdit": {
-        "country-and-region-availability-for-audio-conferencing-and-calling-plans/**/*.md": true
-      },
-      "recommendations": {
-      "country-and-region-availability-for-audio-conferencing-and-calling-plans/**/*.md": false
-      }
-    },
-    "template": [],
-    "dest": "OfficeDocs-MicrosoftTeams",
-    "markdownEngineName": "markdig"
-  }
+        "overwrite": [],
+        "externalReference": [],
+        "globalMetadata": {
+            "searchScope": [
+                "Microsoft Teams"
+            ],
+            "breadcrumb_path": "/microsoftteams/breadcrumb/toc.json",
+            "uhfHeaderId": "MSDocsHeader-MicrosoftTeams",
+            "ms.suite": "office",
+            "titleSuffix": "Microsoft Teams",
+            "contributors_to_exclude": [
+                "daswifty",
+                "MikePlumleyMSFT",
+                "dstrome2",
+                "rjagiewich",  
+                "American-Dipper",
+                "claydetels19", 
+                "jborsecnik",
+                "v-stchambers",
+                "shdyas",
+                "Stacyrch140",
+                "garycentric",
+                "dstrome",
+                "beccarobins"        
+            ],
+            "feedback_system": "Standard",
+            "feedback_product_url": "https://aka.ms/TeamsFeedback",
+            "recommendations": true
+        },
+        "fileMetadata": {
+            "hideEdit": {
+                "country-and-region-availability-for-audio-conferencing-and-calling-plans/**/*.md": true
+            },
+            "recommendations": {
+                "country-and-region-availability-for-audio-conferencing-and-calling-plans/**/*.md": false
+            }
+        },
+        "template": [],
+        "dest": "OfficeDocs-MicrosoftTeams",
+        "markdownEngineName": "markdig"
+    }
 }

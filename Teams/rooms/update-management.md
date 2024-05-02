@@ -1,21 +1,20 @@
 ---
 title: Microsoft Teams Rooms Pro Management update management
-author: altsou
-ms.author: altsou
-manager: serdars
-ms.reviewer: 
+author: mstonysmith
+ms.author: tonysmit
+manager: pamgreen
+ms.reviewer: sohailta
 ms.date: 10/27/2021
 ms.topic: article
-ms.tgt.pltfrm: cloud
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-audience: Admin
-ms.collection: 
-  - M365-collaboration
-  - Teams_ITAdmin_MTRP
-  - Tier3
 appliesto: 
   - Microsoft Teams
+ms.collection: 
+  - M365-collaboration
+  - teams-rooms-devices
+  - Tier1
 ms.localizationpriority: medium
 search.appverid: MET150
 description: proactive monitoring of your meeting rooms.

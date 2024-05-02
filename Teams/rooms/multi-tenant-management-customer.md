@@ -1,21 +1,20 @@
 ---
 title: Partner management for customers
-author: altsou
-ms.author: altsou
-manager: serdars
+author: mstonysmith
+ms.author: tonysmit
+manager: pamgreen
 ms.reviewer: altsou
-ms.date: 06/09/2022
+ms.date: 04/04/2024
 ms.topic: article
-ms.tgt.pltfrm: cloud
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-audience: Admin
-ms.collection: 
-  - M365-collaboration
-  - Teams_ITAdmin_MTRP
-  - Tier3
 appliesto: 
   - Microsoft Teams
+ms.collection: 
+  - M365-collaboration
+  - teams-rooms-devices
+  - Tier1
 ms.localizationpriority: medium
 search.appverid: MET150
 description: partner management for customers.
@@ -27,8 +26,8 @@ f1keywords:
 Partner management in the Teams Rooms Pro Management service enables customers to seamlessly delegate access and responsibilities to one or many partner organizations. Partners can only manage rooms that they are assigned to manage.
 
 ## On-boarding partners
-   Invite partners through the Pro Management portal to establish the relationship between your organization and the partner organization’s tenant.
-   
+   Invite partners through the Teams Rooms Pro Management portal to establish the relationship between your organization and the partner organization’s tenant.
+
 > [!NOTE]
 > The partner needs to satisfy the pre-requisites in [Multi-tenant Management for Partners](multi-tenant-management-partner.md).
 
@@ -38,7 +37,7 @@ Partner management in the Teams Rooms Pro Management service enables customers t
 
 **To initiate the invite** 
 
-1. Log in to the Teams Rooms Pro Management portal as a Managed service administrator.
+1. Log in to the Teams Rooms Pro Management portal as a Teams Rooms Pro Manager.
 1. Go to **Settings >** **Partners**, then select **Add partner.**
 1. Enter the domain name in the first row.
 1. Configure the number of days until the invitation expires by entering an integer from 1-30.
@@ -65,7 +64,7 @@ To manage users in the primary admin role, see [Multi-tenant Management for Part
 
 **To remove a partner**
 
-1. Log in to the Pro Management-Multi-tenant Management (MTM) portal as a Managed Service administrator.
+1. Log in to the Teams Rooms Pro Management-Multi-tenant Management (MTM) portal as a Teams Rooms Pro Manager.
 1. Navigate Go to **Settings > Partners.**
 1. Select the partner you wish to remove.
 1. In the customer detail pane, select **Remove partner.**
@@ -84,7 +83,7 @@ If you already sent an invitation to a partner and wish to delegate more rooms, 
 
 **To add new rooms to an existing partner**
 
-1. Log in to the Pro Management-MTM portal as a Managed Service administrator.
+1. Log in to the Teams Rooms Pro Management-MTM portal as a Teams Rooms Pro Manager.
 1. Go to **Settings > Roles.**
 1. Select  **Partner roles.** 
 1. Select the **Primary admin** role for the corresponding partner name.
@@ -97,7 +96,7 @@ If you already sent an invitation to a partner and wish to delegate more rooms, 
 
 ### Table 1
 
-|Feature|Permission|**Managed Service Admin**|**Site Lead**|**Site Tech**|**Partner admin**|
+|Feature|Permission|**Teams Rooms Pro Manager**|**Site Lead**|**Site Tech**|**Partner admin**|
 | :- | :- | :- | :- | :- | :- |
 |Rooms|View| &#10004;|&#10004;|&#10004;|&#10004;|
 ||Modify|&#10004;|&#10004;|&#10004;|&#10004;|
@@ -123,15 +122,15 @@ If you already sent an invitation to a partner and wish to delegate more rooms, 
 
 As the end customer, you retain control over access to your data and can completely remove a partner at any time. 
 
-With the delegated access feature, a partner does not gain any other privileges outside of the Pro Management portal. However, any data present in the Pro Management service derived from other Microsoft products is considered data in the service. As an example, while call quality reports are derived from Teams call quality data, any data in the Pro Management portal is in the permission scope. 
+With the delegated access feature, a partner does not gain any other privileges outside of the Teams Rooms Pro Management portal. However, any data present in the Teams Rooms Pro Management service derived from other Microsoft products is considered data in the service. As an example, while call quality reports are derived from Teams call quality data, any data in the Teams Rooms Pro Management portal is in the permission scope. 
 
-No permissions are granted to AAD or the Teams Admin Center or any other Microsoft product. Furthermore, partners do not have any access to view or modify rooms not defined in the invitation scope. 
+No permissions are granted to Microsoft Entra ID or the Teams Admin Center or any other Microsoft product. Furthermore, partners do not have any access to view or modify rooms not defined in the invitation scope. 
 
 Data resides in the customer’s tenant and is not copied to the partner’s tenant. 
 
-The MTM portal uses Azure AD authentication to validate the login credentials of the partner. Note that at this time, the customer’s authentication policies do not apply to the partner. For example, if the customer has a multi-factor authentication policy, it does not translate to the partner. 
+The MTM portal uses Microsoft Entra authentication to validate the login credentials of the partner. Note that at this time, the customer’s authentication policies do not apply to the partner. For example, if the customer has a multi-factor authentication policy, it does not translate to the partner. 
 
 To pull logs on partner activity, see [Auditing](multi-tenant-auditing.md). 
 
 > [!NOTE]
-> AAD auditing and O365 auditing do not capture logs from the Pro Management portal. 
+> Microsoft Entra auditing and O365 auditing do not capture logs from the Teams Rooms Pro Management portal. 

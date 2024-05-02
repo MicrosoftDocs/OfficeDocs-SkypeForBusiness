@@ -1,9 +1,9 @@
 ---
 title: Manage the Lists app for your organization
-author: lana-chin
-ms.author: v-chinlana
-manager: serdars
-ms.reviewer: anach,v-jasuk
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
+ms.reviewer: 
 ms.date: 06/14/2023
 ms.topic: how-to
 audience: admin
@@ -24,7 +24,6 @@ ms.collection:
   - m365initiative-lists
   - m365-frontline
   - teams-1p-app-admin
-  - tier2
   - highpri
 appliesto: 
   - Microsoft Teams

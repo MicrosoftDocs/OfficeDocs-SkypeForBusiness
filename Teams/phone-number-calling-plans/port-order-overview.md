@@ -2,7 +2,7 @@
 title: What's a port order?
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: mikedav, roykuntz, jastark
 ms.date: 11/28/2017
 ms.topic: article
@@ -36,9 +36,9 @@ Review the information in this article to get familiar with number porting. Afte
   
 ## What countries or regions support number porting?
 
-You can port or transfer phone numbers in all the supported countries or regions, but how you submit a port order request depend on the country or region where the phone numbers come from. For a list of  countries and regions that support number porting, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).  
+You can port numbers for all countries using the [porting wizard](transfer-phone-numbers-to-teams.md) in the Teams admin center. For a list of countries and regions that support number porting, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). In certain cases, the [Telephone Number Services (TNS) service desk](../contact-tns-service-desk.md) may reach out to you for additional information or to resolve any issues.
 
-Currently, [the porting wizard](transfer-phone-numbers-to-teams.md) in the Microsoft Teams admin center supports getting phone numbers for the United Kingdom, United States, and Canada. To get phone numbers for other countries and regions, you can [manually submit a port order](manually-submit-port-order.md).
+You can also [manually submit a port order](manually-submit-port-order.md) if you have a large port request or if you're unable to complete your request through the Teams admin center.
   
 ## What numbers can be transferred?
 
@@ -59,7 +59,7 @@ In general, you can transfer any phone number that's from a supported provider, 
 
     > [!NOTE]
     > Universal International Freephone Number (UIFN) can't be transferred to us.
-    > Porting availability for Toll-free phone numbers may vary by country and region. To find our more, please refer to your country or region specific documents to see available support for porting service. 
+    > Porting availability for Toll-free phone numbers may vary by country and region. To find our more, please refer to your country or region specific documents to see available support for porting service.
   
 - Service phone numbers such as those used for conference bridges, auto attendants, etc.
 
@@ -67,7 +67,7 @@ In general, you can transfer any phone number that's from a supported provider, 
 
 - VoIP phone numbers from a phone provider such as Vonage or RingCentral.
 
-- If you are porting hybrid phone numbers (migrating from Direct Routing or Operator Connect to Calling Plans) please contact the [Telephone Number Services Team](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md), make sure you include a note stating those are hybrid phone numbers.
+- If you are porting hybrid phone numbers (migrating from Direct Routing or Operator Connect to Calling Plans), contact the [TNS service desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) and include a note stating these phone numbers are hybrid.
 
 **You can't transfer:**
   
@@ -91,16 +91,16 @@ You need to have all the account information for your current carrier. The infor
   
 ## What are full-port and partial-port transfers?
 
-When you're porting phone numbers to Teams, you have the option to transfer all your numbers or some of them.
+When you're porting phone numbers to Teams, you can transfer all of your numbers or some of them.
   
 - **Full-port** This is when you transfer all of your numbers from your current service provider to Teams. When you're asked for the phone numbers you want to transfer, you *must include* the billing telephone number (BTN) along with all of the other phone numbers on your account.
 
     For example, let's say your BTN is  *+1 425-555-1234*  and you want to port all of your 25 phone numbers (*+1 425-555-1235 through 1259*). When you follow the instructions below to transfer your numbers, you would enter: **+14255551234 - +14255551259**.
 
-- **Partial-port** This is when you're only transferring some of your phone numbers from your current service provider to Teams. When you want to port some of the phone numbers tied to the same BTN, you ** *must not include* ** the BTN along with all of the other phone numbers on your account.
+- **Partial-port** This is when you're only transferring some of your phone numbers from your current service provider to Teams. When you want to port some of the phone numbers that are tied to the same BTN, you ** *must not include* ** the BTN along with all of the other phone numbers on your account.
 
     For example, let's say your BTN is  *+1 425-555-1234*  and you want to port only 5 of your 25 phone numbers (*+1 425-555-1235 through 1259*). When you follow the instructions below to transfer your numbers, you would enter: **+1 425 555 1235 - +1 425 555 1239**.
-    
+
 ## Can I submit a single number porting request for all of my numbers at one time?
 <a name="bkmk_type_1"> </a>
 
@@ -138,7 +138,7 @@ To check the status of your port order, in the left navigation of the Microsoft 
 ## Can user (subscriber) phone numbers be converted to service numbers?
 <a name="bkmk_type_1"> </a>
 
-Yes, they can. To do this, see [Manage the usage of a phone number](../manage-the-usage-of-a-phone-number.md).
+Yes, they can. To convert user phone numbers into service numbers, see [Manage the usage of a phone number](../manage-the-usage-of-a-phone-number.md).
 
 ## Can I port out my numbers from Teams to a different phone service provider or carrier?
 
@@ -148,7 +148,7 @@ To define your porting PIN, in the left navigation of the Microsoft Teams admin 
 
 When your new carrier contacts us with the porting request, we'll ask them to provide the PIN you defined.
 
-If you need further assitance setting up a PIN please contact the [Telephone Number Services Team](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
+If you need further assistance setting up a PIN, contact the [TNS service desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
 
 ## Common mistakes to watch out for
 <a name="bkmk_type_1"> </a>
@@ -157,7 +157,7 @@ Number porting is easy to do. Your order can get messed up, however, if there's 
   
 Here are the most common mistakes we see customers make when they port numbers. Save yourself a call to customer support and double-check for these errors.
   
-- Make sure the account information you give matches exactly what your phone carrier has on record. Mismatched information is the most common cause of errors and delay your port order. Verify the following is true:
+- Make sure the account information you give matches exactly what your phone carrier has on record. Mismatched information is the most common cause of errors and delays to your port order. Verify the following is true:
 
   - Name or person authorized to make changes to the account is correct.
 
@@ -181,4 +181,4 @@ Here are the most common mistakes we see customers make when they port numbers. 
 - [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Emergency calling terms and conditions](../emergency-calling-terms-and-conditions.md)
-- [Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+- [Emergency Calling disclaimer label](https://download.microsoft.com/download/9/9/0/990e24c1-eb49-4b52-9306-dbd4c864ed91/emergency-calling-label-(en-us)-(v.1.0).zip)

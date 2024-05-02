@@ -1,8 +1,8 @@
 ---
 title: Teams for Education Policy Wizard to easily apply policies for safe learning
-author: DaniEASmith
-ms.author: danismith
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jacktremper
 ms.reviewer: shajohri, angch
 ms.date: 03/09/2020
 ms.topic: article
@@ -190,7 +190,7 @@ Here's the policy areas and corresponding policy names covered by the wizard. To
 Here's a summary of the settings applied by the wizard for each policy area.
 
 > [!NOTE]
-> Only team owners can create shared channels.<br><br>Shared channels with other organizations requires configuration of [Azure AD B2B direct connect](/azure/active-directory/external-identities/b2b-direct-connect-overview) which is disabled by default. See [Collaborate with external participants in a channel](/microsoft-365/solutions/collaborate-teams-direct-connect) to enable this feature.
+> Only team owners can create shared channels.<br><br>Shared channels with other organizations requires configuration of [Microsoft Entra B2B direct connect](/azure/active-directory/external-identities/b2b-direct-connect-overview) which is disabled by default. See [Collaborate with external participants in a channel](/microsoft-365/solutions/collaborate-teams-direct-connect) to enable this feature.
 
 #### [**Students**](#tab/student-settings/)
 

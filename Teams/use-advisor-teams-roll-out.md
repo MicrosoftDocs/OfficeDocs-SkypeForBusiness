@@ -1,10 +1,10 @@
 ---
 title: Use Advisor for Teams to help you roll out Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
-ms.reviewer: pkrebs
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
+ms.reviewer: 
 ms.date: 10/11/2019
-manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.collection: 
@@ -97,7 +97,7 @@ The sections below describe each assessment, including whether something is a pr
 |Teams licenses     |This is a prerequisite - you **must have** Teams licenses in order to roll out Teams. Queries the Microsoft Graph to see whether you have Teams licenses (with at least one license available to assign). For more information, read [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).    |
 |Exchange Online licenses     |Whether you have an active subscription with available Exchange Online licenses. While Exchange isn't required for basic Teams functionality, integration with Exchange provides an optimal Teams experience. Queries the Microsoft Graph to analyze the subscriptions associated with your tenant and validate whether you have subscriptions with an eligible Exchange Online license (with at least one license available to assign). For more information, read [How Exchange and Teams interact](exchange-teams-interact.md).    |
 |SharePoint Online licenses     |Whether you have an active subscription with available SharePoint Online licenses. We recommend per-user SharePoint Online licenses to provide OneDrive for Business for file storage in chats. Queries the Microsoft Graph to see whether you have SharePoint Online licenses (with at least one license available to assign). For more information, read [How SharePoint Online and OneDrive for Business interact with Teams](./sharepoint-onedrive-interact.md).    |
-|Guest access enabled     |Whether [guest access](guest-access.md) is turned on. Guest access lets you invite external users to your join your teams. See [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team) to walk through turning on guest access in Teams; the checklist includes the required Azure AD configurations. |
+|Guest access enabled     |Whether [guest access](guest-access.md) is turned on. Guest access lets you invite external users to your join your teams. See [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team) to walk through turning on guest access in Teams; the checklist includes the required Microsoft Entra configurations. |
 |External access configured     |Whether [external access](manage-external-access.md) is turned on. By default, it's turned on, with open federation. |
 
 ### Assessments for chat, teams, channels, and apps
@@ -106,8 +106,8 @@ In addition to the [Assessment tests for all workloads](#assessment-tests-for-al
 
 |Assessment test  |What it tells you  |
 |---------|---------|
-|Microsoft 365 Group naming policy configured     |Whether naming standards have been configured for Microsoft 365 Groups. Microsoft 365 Groups naming policy enables your organization to apply a consistent naming strategy to user-created teams and also applies to other Groups workloads (including Outlook, SharePoint, Planner, and Viva Engage). This test queries Azure AD via the Microsoft Graph to check for the existence of naming policies that apply to Microsoft 365 Groups. For more information, read [Groups naming policy](/microsoft-365/admin/create-groups/groups-naming-policy).    |
-|Microsoft 365 Group Expiration Policy configured     |Whether a Group Expiration Policy has been defined for Microsoft 365 Groups. This enables your organization to automatically remove inactive Teams. It's turned off by default. This test queries Azure AD via the Microsoft Graph and reports whether the value has been modified from the default. For more information, read [Microsoft 365 group expiration policy](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy).    |
+|Microsoft 365 Group naming policy configured     |Whether naming standards have been configured for Microsoft 365 Groups. Microsoft 365 Groups naming policy enables your organization to apply a consistent naming strategy to user-created teams and also applies to other Groups workloads (including Outlook, SharePoint, Planner, and Viva Engage). This test queries Microsoft Entra ID via the Microsoft Graph to check for the existence of naming policies that apply to Microsoft 365 Groups. For more information, read [Groups naming policy](/microsoft-365/admin/create-groups/groups-naming-policy).    |
+|Microsoft 365 Group Expiration Policy configured     |Whether a Group Expiration Policy has been defined for Microsoft 365 Groups. This enables your organization to automatically remove inactive Teams. It's turned off by default. This test queries Microsoft Entra ID via the Microsoft Graph and reports whether the value has been modified from the default. For more information, read [Microsoft 365 group expiration policy](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy).    |
 
 ### Assessments for meetings and conferencing
 

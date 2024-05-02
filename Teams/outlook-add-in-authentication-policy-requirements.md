@@ -1,12 +1,12 @@
 ---
 title: Admin - authentication requirements and functionality of the Teams Meeting add-in in Outlook
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: wlibebe
+author: wlibebe
+manager: pamgreen
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: sonua
+ms.reviewer: 
 ms.date: 04/27/2023
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -72,7 +72,7 @@ The meeting coordinates (the Teams join link and dial-in numbers) will be added 
 FindTime is an add-in for Outlook that helps users reach consensus on a meeting time across companies. Once the meeting invitees have provided their preferred times, FindTime sends out the meeting invite on the user's behalf. If the **Online meeting** option is selected in FindTime, FindTime will schedule a Skype for Business or Microsoft Teams meeting. (FindTime will use whichever has been set by your organization as the default online meeting channel.)
 
 > [!NOTE]  
-> If you saved a Skype for Business setting in your [Findtime dashboard](https://findtime.microsoft.com/UserDashboard), FindTime will use that instead of Microsoft Teams. If you want to use Microsoft Teams, delete the Skype for Business setting in your dashboard.
+> If you saved a Skype for Business setting in your [Findtime dashboard](https://support.microsoft.com/office/findtime-organizer-dashboard-cfe12f76-d6f3-4af3-88a4-95f63b952721), FindTime will use that instead of Microsoft Teams. If you want to use Microsoft Teams, delete the Skype for Business setting in your dashboard.
 
 For more information, see [Schedule meetings with FindTime](https://support.office.com/article/scheduling-meetings-with-findtime-4dc806ed-fde3-4ea7-8c5e-b5d1fddab4a6).
 

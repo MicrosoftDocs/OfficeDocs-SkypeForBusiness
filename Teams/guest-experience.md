@@ -1,13 +1,13 @@
 ---
 title: Guest experience in Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jtremper
+author: jacktremper
+manager: pamgreen
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.reviewer: rafarhi
-ms.date: 10/20/2017
+ms.date: 09/26/2023
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -26,7 +26,7 @@ description: This article describes the Microsoft Teams functionality available 
 
 # Guest experience in Teams
 
-When a guest is invited to join a team, they receive a welcome email message. This message includes some information about the team and what to expect now that they're a member. The guest must accept the invitation by selecting **Open Microsoft Teams** in the email message before they can access the team and its channels.
+When a guest is invited to join a team, they receive a welcome email message. This message includes some information about the team and what to expect now that they're a member. The guest must accept the invitation before they can access the team and its channels. They can do this in the Teams client or by selecting **Open Microsoft Teams** in the email message.
 
 > [!NOTE]
 > After a guest is added to a team, it may take a few hours before they have access.
@@ -101,12 +101,12 @@ The following table shows the calling and meeting features available to guests, 
 <sup>1</sup> This feature will be available soon.
 
 > [!NOTE]
-> The **Guest user access restrictions** policy in Azure Active Directory (Azure AD) determines permissions for guests in your directory. There are three policy options.
+> The **Guest user access restrictions** policy in Microsoft Entra ID determines permissions for guests in your directory. There are three policy options.
 >  - The **Guest users have the same access as members (most inclusive)** setting means guests have the same access to directory data as regular users in your directory.
 >  - The **Guest users have limited access to properties and membership of directory objects** settings means that guests don't have permissions for certain directory tasks, such as enumerating users, groups, or other directory resources using Microsoft Graph.
 >  - The **Guest user access is restricted to properties and memberships of their own directory objects (most restrictive)** setting means guests can only access their own directory objects.
 >
->To learn more, see [What are the default user permissions in Azure Active Directory?](/azure/active-directory/fundamentals/users-default-permissions)
+>To learn more, see [What are the default user permissions in Microsoft Entra ID?](/azure/active-directory/fundamentals/users-default-permissions)
 
 ## Related topics
 

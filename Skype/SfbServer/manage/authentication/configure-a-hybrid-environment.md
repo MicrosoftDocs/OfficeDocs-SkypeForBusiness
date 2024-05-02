@@ -11,6 +11,9 @@ ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
+ms.custom:
+  - has-azure-ad-ps-ref
+  - azure-ad-ref-level-one-done
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 description: "Summary: Configure server-to-server authentication for a Skype for Business Server hybrid environment."
@@ -20,7 +23,7 @@ description: "Summary: Configure server-to-server authentication for a Skype for
 
 **Summary:** Configure server-to-server authentication for Skype for Business Server hybrid environment.
 
-In a hybrid configuration, some of your users are homed on an on-premises installation of Skype for Business Server while other users are homed on the Microsoft 365 or Office 365 version of Skype for Business Server. In order to configure server-to-server authentication in a hybrid environment, you must first configure your on-premises installation of Skype for Business Server to trust the authorization server. The initial step in this process can be carried out by running the following Skype for Business Server Management Shell script:
+In a hybrid configuration, some of your users are homed on an on-premises installation of Skype for Business Server. Other users are homed on the Microsoft 365 or Office 365 version of Skype for Business Server. In order to configure server-to-server authentication in a hybrid environment, you must first configure your on-premises installation of Skype for Business Server to trust the authorization server. The initial step in this process can be carried out by running the following Skype for Business Server Management Shell script:
 
 ```PowerShell
 $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
@@ -62,22 +65,24 @@ else
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 ```
 
-Keep in mind that the realm name for a tenant is typically different than the organization name; in fact, the realm name is almost always the same as the tenant ID. Because of that, the first line in the script is used to return the value of the TenantId property for the specified tenant (in this case, fabrikam.com) and then assign that name to the variable $TenantId:
+Keep in mind that the realm name for a tenant is typically different than the organization name; in fact, the realm name is almost always the same as the tenant ID. Because of that fact, the first line in the script is used to return the value of the TenantId property for the specified tenant (in this case, fabrikam.com) and then assign that name to the variable $TenantId:
 
 ```PowerShell
 $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
 ```
 
-To execute this script, you must have installed Skype for Business Online PowerShell module and connect to your tenant with this module. If you have not installed these cmdlets your script will fail because the Get-CsTenant cmdlet will not be available. After the script completes, you must then configure a trust relationship between Skype for Business Server and the authorization server, and a second trust relationship between Exchange 2013/2016 and the authorization server. This can only be done by using the Microsoft Online Services cmdlets.
+To execute this script, you must have installed Skype for Business Online PowerShell module and connect to your tenant with this module. If you haven't installed these cmdlets, your script will fail because the Get-CsTenant cmdlet will not be available. After the script completes, you must then configure a trust relationship between Skype for Business Server and the authorization server, and a second trust relationship between Exchange 2013/2016 and the authorization server. This can only be done by using the Microsoft Online Services cmdlets.
 
 > [!NOTE]
 > If you have not installed the Microsoft Online Services cmdlets, you will need to install it from the PowerShell repository with the cmdlet `install-module MSOnline`. Detailed information for installing and using the Microsoft Online Services Module can be found on the Microsoft 365 web site. These instructions will also tell you how to configure single sign-on, federation, and synchronization between Microsoft 365 or Office 365 and Active Directory. 
 
 
 
-After you have configured Microsoft 365 or Office 365, and after you have created Microsoft 365 or Office 365 service principals for Skype for Business Server and Exchange 2013, you will then need to register your credentials with these service principals. In order to do this, you must first obtain an X.509 Base64 certificate saved as a .CER file. This certificate will then be applied to the Microsoft 365 or Office 365 service principals.
+After you have configured Microsoft 365 or Office 365, and after you have created Microsoft 365 or Office 365 service principals for Skype for Business Server and Exchange 2013, you then need to register your credentials with these service principals. In order to register your credentials, you must first obtain an X.509 Base64 certificate saved as a .CER file. This certificate will then be applied to the Microsoft 365 or Office 365 service principals.
 
-When you have obtained the X.509 certificate, open PowerShell console and import the Microsoft Online Windows PowerShell module containing the cmdlets that can be used to manage service principals:
+[!INCLUDE [Azure AD PowerShell deprecation note](../../../../Teams/includes/aad-powershell-deprecation-note.md)]
+
+When you obtain the X.509 certificate, open PowerShell console and import the Microsoft Online Windows PowerShell module containing the cmdlets that can be used to manage service principals:
 
 ```PowerShell
 Import-Module MSOnline
@@ -160,4 +165,3 @@ $lyncSP = Get-MSOLServicePrincipal -AppPrincipalID 00000004-0000-0ff1-ce00-00000
 $lyncSP.ServicePrincipalNames.Add("00000004-0000-0ff1-ce00-000000000000/Pool1ExternalWebFQDN.contoso.com")
 Set-MSOLServicePrincipal -AppPrincipalID 00000004-0000-0ff1-ce00-000000000000 -ServicePrincipalNames $lyncSP.ServicePrincipalNames
 ```
-

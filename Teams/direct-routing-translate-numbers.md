@@ -4,7 +4,7 @@ ms.reviewer: filippse
 ms.date: 02/13/2020
 ms.author: crowe
 author: CarolynRowe
-manager: serdars
+manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: msteams
@@ -12,6 +12,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 appliesto: 
   - Microsoft Teams
@@ -40,9 +41,9 @@ You can use the Number Translation Rules policy to translate numbers for the fol
 
 The policy is applied at the SBC level. You can assign multiple translation rules to an SBC, which are applied in the order that they appear when you list them in PowerShell. You can also change the order of the rules in the policy.
 
-To create, modify, view, and delete number manipulation rules, use the [New-CsTeamsTranslationRule](/powershell/module/skype/new-csteamstranslationrule), [Set-CsTeamsTranslationRule](/powershell/module/skype/set-csteamstranslationrule), [Get-CsTeamsTranslationRule](/powershell/module/skype/get-csteamstranslationrule), and [Remove-CsTeamsTranslationRule](/powershell/module/skype/remove-csteamstranslationrule) cmdlets.
+To create, modify, view, and delete number manipulation rules, use the [New-CsTeamsTranslationRule](/powershell/module/teams/new-csteamstranslationrule), [Set-CsTeamsTranslationRule](/powershell/module/teams/set-csteamstranslationrule), [Get-CsTeamsTranslationRule](/powershell/module/teams/get-csteamstranslationrule), and [Remove-CsTeamsTranslationRule](/powershell/module/teams/remove-csteamstranslationrule) cmdlets.
 
-To assign, configure, and list number manipulation rules on SBCs, use the [New-CSOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) and [Set-CSOnlinePSTNGateway](/powershell/module/skype/set-csonlinepstngateway) cmdlets together with the InboundTeamsNumberTranslationRules, InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules, and OutboundPSTNNumberTranslationRules parameters.
+To assign, configure, and list number manipulation rules on SBCs, use the [New-CSOnlinePSTNGateway](/powershell/module/teams/new-csonlinepstngateway) and [Set-CSOnlinePSTNGateway](/powershell/module/teams/set-csonlinepstngateway) cmdlets together with the InboundTeamsNumberTranslationRules, InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules, and OutboundPSTNNumberTranslationRules parameters.
 
 > [!NOTE]
 > The maximum total number of translation rules is 400, maximum translation parameter name length is 100 symbols, maximum translation parameter pattern length is 1024 symbols, and maximum translation parameter translation length is 256 symbols.
@@ -63,7 +64,7 @@ The translation rules assigned to the SBC are summarized in the following table:
 |AddPlus1     |^(\d{10})$          |+1$1          |
 |AddE164SeattleAreaCode      |^(\d{4})$          | +1206555$1         |
 |AddSeattleAreaCode    |^(\d{4})$          | 425555$1         |
-|StripPlus1    |^\+1(\d{10})$          | $1         |
+|StripPlus1    |^\\+1(\d{10})$          | $1         |
 
 In the following examples, there are two users, Alice and Bob. Alice is a Teams user whose number is +1 206 555 0100. Bob is a PSTN user whose number is +1 425 555 0100.
 

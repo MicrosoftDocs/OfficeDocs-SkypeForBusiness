@@ -1,10 +1,10 @@
 ---
 title: Overview of teams and channels in Microsoft Teams
-author: MikePlumleyMSFT
-ms.author: mikeplum
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.reviewer: 
 ms.date: 07/18/2023
-manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.subservice: teams-chat
@@ -81,7 +81,7 @@ By default, all users have permissions to create a team. To modify this, see [As
 
 This video shows the steps to view and manage a user's team membership.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53x1L?autoplay=false]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1c55m?autoplay=false]
 
 ## Channel feature comparison
 

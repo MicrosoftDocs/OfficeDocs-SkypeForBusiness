@@ -1,14 +1,14 @@
 ---
 title: Sign out of Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 audience: Admin
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.reviewer: sbhatta
-ms.date: 07/20/2021
+ms.reviewer: 
+ms.date: 02/08/2024
 description: Learn how to sign out of Microsoft Teams.
 ms.custom: seo-marvel-apr2020
 ms.localizationpriority: high
@@ -22,51 +22,51 @@ appliesto:
 
 # Sign out of Microsoft Teams
 
-We recommend for users to remain signed in to the Microsoft Teams app to continue receiving chats, incoming calls, and other activities. We understand that, at times, users might want to sign out of the Teams application for several reasons:
+It's a good idea to remain signed in to Microsoft Teams to ensure you don't miss incoming calls, chat messages, meeting starts, and other notifications. The new Teams desktop app supports multiple accounts side-by-side, removing the need to sign out and sign back in. [Learn more about New Teams](/microsoftteams/new-teams-desktop-admin).
 
-- Because they're done using Teams for the day
-- They want to use a different account
-- Because they're on a device that they share with another person
+However, there are times where users might need to sign out of Teams, for example when they’re using a device that is shared with another person. Signing out should always be initiated by end-users, from inside the Teams app, and Microsoft recommends against using custom scripts that attempt to programmatically sign out users. Things are a bit different for [Shared Device Mode: Global sign-in and sign-out for Frontline](#shared-device-mode-global-sign-in-and-sign-out-for-frontline) which is described later in this article.
 
-For these reasons and others, Teams allows you to sign out of the app and end your session.
+## Sign out of Teams on the web
 
-## Account sharing between apps
+To sign out of Teams in a browser, users should select their profile picture at the top of the app, then select **Sign out**. They'll be signed out from all Microsoft 365 applications in a given browser profile. The next time they sign in to Teams or other Microsoft 365 applications, their username will be shown on the sign-in page. In most cases, they'll need to reenter their credentials, and can remove their account from the list by clicking “Forget”.  
 
-Modern operating systems allow sharing of accounts between different apps on a device. This single sign-on (SSO) design allows users to use multiple apps on their device without requiring them to sign in to every single app. Teams doesn't control this behavior, but it does take advantage of the convenience this design provides for the end-user experience.
+If this is a shared computer and you don’t want usernames to be visible to others, we recommend using browsers in InPrivate/Incognito mode.
 
-SSO has an important impact on sign out. When users sign out of Teams, the data associated with their account is removed from the Teams app, but other apps on the device could continue to have access to their account. It also means that users might not be prompted to reenter their credentials if they choose to sign back in to Teams with the same account.
+## Sign out of Teams on desktop (Windows or macOS)
 
-## Sign out of Teams on desktop
+To sign out of the Teams desktop app, users should select their profile picture at the top of the app, and then select **Sign out**. If multiple accounts were added, they'll need to sign out of each account individually.
 
-To sign out of the Teams desktop client or from the browser, select your profile picture at the top of the app, and then select **Sign out**.
+### Account sharing between apps
 
-For the desktop app, you can also right-click the app icon in the taskbar, and then select **Sign out**.
+Modern operating systems allow sharing of accounts between different apps on a device. This is referred to as single sign-on (SSO), and it’s designed to help users seamlessly navigate between different apps with the same account.  
+SSO has an important impact on sign out: when users sign out of the Teams desktop app, the data associated with their account is removed from the Teams app but the account itself isn’t removed from the device. Users will need  to reenter their credentials if they sign back in to Teams with the same account, but other apps on the device may continue to have access to their account. This means that signing out of Teams doesn't prevent other users from accessing the data associated with your account.
 
-If you have multiple accounts added, you'll need to sign out of each individual account. Once you've signed out of the accounts in Teams, you might need to enter your credentials again on the next launch of the app to access your account.
+### “This app only” mode on Windows
+
+On Windows, users may see an option to sign in to “this app only”. When this option is selected, and users later sign out of Teams, their account is removed from the PC. However, their username may continue to be shown on sign-in pages.
+
+![Screenshot: User interface of sign in to all apps with a link to only sign into this app only.](media/sign-in-to-all-apps.png)
+
+**Note:** when users select “this app only” when signing in to Teams, other apps on the PCs won’t be able to use this account. Practically, this means that links to files or websites clicked in Teams may not properly open in Microsoft 365 apps or in the browser, and users may be prompted to sign in again. In other words, “this app only” prevents SSO from working correctly between Windows, Teams and other applications, and as such isn't recommended when signing in to Teams.
+
+### Best practices for multiple users on a shared desktop device
+
+If a desktop computer is shared by different users, we recommend setting it up with separate accounts to sign in to Windows or macOS and training users to lock the computer when they walk away. This allows each user to enjoy SSO between apps in a given operating system session and keep their account and data separated from other users'.
+
+In cases where a single desktop computer is shared between multiple Frontline Workers, we recommend using Cloud PCs, as described here: [Frontline worker for Windows devices in Microsoft Intune](/mem/solutions/frontline-worker/frontline-worker-overview-windows).
 
 ## Sign out of Teams on mobile devices
 
-On mobile, you can sign out of Teams by going to the user icon, selecting **Settings**, and then selecting **Sign out**. Once signed out, you'll need to reenter their credentials the next time you launch the app.
+On mobile, users can sign out of Teams by tapping their profile icon, selecting **Settings**, and then **Sign out**. Once signed out, they'll need to reenter their credentials the next time they launch Teams.
 
-### Global sign-in and sign-out for Frontline workers
+## Shared Device Mode: Global sign-in and sign-out for Frontline
 
-Our improved sign-in experience on shared device provides a hassle free sign-in for Frontline Workers. Employees can pick a device from the shared device pool and do a single sign in to "make it theirs" for the duration of their shift. At the end of their shift, they should be able to perform sign out to globally sign out on the device. See [Sign out of Teams](/microsoftteams/sign-out-of-teams) to learn more. This will remove all of their personal and company information from the device so they can return the device to the device pool. To get this capability, the device must be set in shared mode. Make sure to end any active meeting or call on the device before signing out.
+Microsoft’s Shared Device Mode (SDM) allows mobile devices to be optimized for fast check-in/check-out by Frontline Workers. When a device is enabled for SDM, sign-out work differently on Teams.
 
-**Android**: To learn how to set up android devices in shared mode, see [How to use a shared device mode in Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
+With SDM, users can pick any device from a shared device pool and sign in as usual to "make it theirs" for the duration of their shift. At the end of the shift, they should tap on Sign out as usual, but with SDM a global sign-out will be initiated on the device, which should remove the user's  account and data from the device, so it can be returned to the device pool.
 
-**iOS**: Shared device mode support on iOS is in public preview. To set a device in shared mode on iOS, see [How to use shared device mode on iOS](/azure/active-directory/develop/msal-ios-shared-devices).
+**Android**: To learn how to set up android devices in Shared Device Mode, see [How to use a shared device mode in Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
 
-> [!NOTE]
-> This feature is in public preview. 
+**iOS**: To set up Shared Device Mode on iOS, see [How to use shared device mode on iOS](/azure/active-directory/develop/msal-ios-shared-devices).
 
-![Sign-out-section](media/signout.png)
-
-## Manual Cleanup
-
-While rare, it's possible that Teams might not be able to clean up after itself fully on sign-out. Based on user reports, the common causes include files being locked by a service running on the system but there could be other reasons dependent on an individual's device configurations or policies and user permissions applied to the device.
-
-One common manifestation of this problem is that Teams will try to automatically select an existing account to sign the user in. In situations like this, the user might want to manually clean up Teams' local cache. Learn more at [Sign in or remove an account from Teams](https://support.microsoft.com/office/sign-out-or-remove-an-account-from-teams-a6d76e69-e1dd-4bc4-8e5f-04ba48384487?ui=en-US&rs=en-US&ad=US).
-
-## Related topics
-
-[Sign in or remove an account from Teams](https://support.microsoft.com/office/sign-out-or-remove-an-account-from-teams-a6d76e69-e1dd-4bc4-8e5f-04ba48384487?ui=en-US&rs=en-US&ad=US)
+![Screenshot of Sign-out-section.](media/signout.png)

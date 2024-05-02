@@ -1,7 +1,7 @@
 ---
 ms.date: 02/21/2018
 title: "Disabling toll-free numbers for specific Skype for Business Online users"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr

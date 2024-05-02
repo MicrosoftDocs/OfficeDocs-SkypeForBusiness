@@ -2,8 +2,8 @@
 ms.date: 11/28/2017
 title: "Why can't I use the Skype for Business Online admin center right now?"
 ms.reviewer: 
-ms.author: tonysmit
-author: tonysmit
+ms.author: pamgreen
+author: pamgreen
 manager: serdars
 ms.topic: article
 ms.assetid: c182d564-1674-4491-b1d9-3e0cb657d4cc

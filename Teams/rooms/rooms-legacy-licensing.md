@@ -1,22 +1,21 @@
 ---
 title: Microsoft Teams Rooms legacy licenses
 ms.author: tonysmit
-author: tonysmit
-manager: serdars
+author: mstonysmith
+manager: pamgreen
 ms.reviewer: sohailta
-ms.date: 09/30/2022
+ms.date: 10/10/2023
 ms.topic: article
-ms.tgt.pltfrm: cloud
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-search.appverid: MET150
-ms.collection: 
-  - M365-collaboration
-  - Teams_ITAdmin_Rooms
-  - Tier1
-audience: Admin
 appliesto: 
   - Microsoft Teams
+ms.collection: 
+  - M365-collaboration
+  - teams-rooms-devices
+  - Tier1
+search.appverid: MET150
 ms.localizationpriority: medium
 f1.keywords: 
   - NOCSH
@@ -29,7 +28,7 @@ description: Learn about and compare the licenses previously available for diffe
 
 # Microsoft Teams Rooms legacy licenses
 
-This article is provided to customers who purchased Microsoft Teams Rooms Standard or Microsoft Teams Rooms Premium legacy licenses prior to September 6th, 2022. Teams Rooms Standard and Teams Rooms Premium legacy licenses are no longer available for purchase. If your legacy licenses are expiring soon, or if you need to purchase new licenses for your Teams Rooms devices, see [Microsoft Teams Rooms licenses](rooms-licensing.md).
+This article is provided to customers who purchased Microsoft Teams Rooms Standard or Microsoft Teams Rooms Premium legacy licenses prior to September 6th, 2022. Teams Rooms Standard and Teams Rooms Premium legacy licenses are no longer available for purchase. If your legacy licenses are expiring soon, or if you need to purchase new licenses for your Teams Rooms devices, see [Microsoft Teams Rooms licenses](rooms-licensing.md). 
 
 > [!IMPORTANT]
 > The information in this article is specific to the Teams Rooms Standard and Teams Rooms Premium legacy licenses and isn't applicable to the Teams Rooms Basic and Teams Rooms Pro licenses. For information about the Teams Rooms Basic and Teams Rooms Pro licenses, see [Microsoft Teams Rooms licenses](rooms-licensing.md).
@@ -44,7 +43,7 @@ The following licenses were available to customers who purchased Teams Rooms dev
 |Phone System|  &#x2714;|  &#x2714;|
 |Audio Conferencing|&#x2714; &sup1;|&#x2714; &sup1;|
 |Microsoft Intune|&#x2714;|&#x2714;|  
-|Azure Active Directory P1|&#x2714;|&#x2714;| 
+|Microsoft Entra ID P1|&#x2714;|&#x2714;| 
 |Worldwide Availability | &#x2714; &sup2;| &#x2714; &sup2;|
 |Channel Availability | EA, EAS, CSP, <br/>Web Direct | EA, EAS, CSP, <br/>Web Direct |
 |Managed Services | | &#x2714; &sup3;|

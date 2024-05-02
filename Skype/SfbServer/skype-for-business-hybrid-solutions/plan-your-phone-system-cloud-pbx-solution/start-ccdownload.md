@@ -1,7 +1,7 @@
 ---
 title: "Start-CcDownload"
 ms.reviewer: 
-ms.author: crowe
+ms.author: serdars
 author: CarolynRowe
 manager: serdars
 ms.date: 8/8/2017
@@ -55,20 +55,20 @@ Start-CcDownload -DownloadBitsOnly
 ## Detailed Description
 <a name="DetailedDescription"> </a>
 
-If there's a new version available in the download site, Start-CcDownload will download and install the msi file from the download site, and then download the Cloud Connector bits synchronously. If there is no new version of the msi file, Start-CcDownload will download the Cloud Connector bits only. If the Cloud Connector bits are already downloaded, Start-CcDownload does not execute.
+If there's a new version available in the download site, Start-CcDownload will download and install the msi file from the download site, and then download the Cloud Connector bits synchronously. If there's no new version of the msi file, Start-CcDownload will download the Cloud Connector bits only. If the Cloud Connector bits are already downloaded, Start-CcDownload doesn't execute.
   
 ## Parameters
 <a name="DetailedDescription"> </a>
 
 |**Parameter**|**Required**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-|DownloadUrlRoot  <br/> | Optional <br/> |System.String  <br/> | The full URL of a specific version of Cloud Connector in the private download site. Use this parameter with caution—be sure you are aware of which version of Cloud Connector you are downloading. <br/> |
+|DownloadUrlRoot  <br/> | Optional <br/> |System.String  <br/> | The full URL of a specific version of Cloud Connector in the private download site. Use this parameter with caution—be sure you're aware of which version of Cloud Connector you're downloading. <br/> |
 |DownloadBitsOnly  <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Skip the step to download and install MSI from download site, download the Cloud Connector bits only.  <br/> |
    
 ## Input Types
 <a name="InputTypes"> </a>
 
-None. The Start-CcDownload cmdlet does not accept pipelined input.
+None. The Start-CcDownload cmdlet doesn't accept pipelined input.
   
 ## Return Types
 <a name="ReturnTypes"> </a>

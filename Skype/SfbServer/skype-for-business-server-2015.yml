@@ -11,7 +11,7 @@ metadata:
   ms.topic: landing-page # Required
   ms.collection: collection # Optional; Remove if no collection is used.
   author: lanachin #Required; your GitHub user alias, with correct capitalization.
-  ms.author: v-lanac #Required; microsoft alias of author; optional team alias.
+  ms.author: serdars #Required; microsoft alias of author; optional team alias.
   ms.date: 06/23/2020 #Required; mm/dd/yyyy format.
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new

@@ -1,8 +1,8 @@
 ---
 title: Turn on inline message translation
-author: ChuckEdmonson
-ms.author: chucked
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.date: 06/21/2019
 audience: Admin
 ms.topic: article
@@ -35,7 +35,7 @@ Inline message translation is rolled out by default for your organization. You d
 
 You can use the messaging policy to turn off the inline message translation.
 
-Turn off the policy by using the [Set-CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) cmdlet. The policy takes a few minutes to apply. Users might need to sign out and sign back in to Teams.
+Turn off the policy by using the [Set-CsTeamsMessagingPolicy](/powershell/module/teams/set-csteamsmessagingpolicy) cmdlet. The policy takes a few minutes to apply. Users might need to sign out and sign back in to Teams.
 
 ## Use the Microsoft Teams admin center to turn off inline message translation
 

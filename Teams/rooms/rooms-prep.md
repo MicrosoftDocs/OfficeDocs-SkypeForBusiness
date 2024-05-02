@@ -1,90 +1,85 @@
 ---
 title: Prepare your Environment
 ms.author: tonysmit
-author: tonysmit
-ms.reviewer: sohailta
-ms.date: 02/23/2018
-manager: serdars
-audience: ITPro
-ms.topic: conceptual
+author: mstonysmith
+manager: pamgreen
+ms.reviewer: kimmatlock
+ms.date: 10/04/2023
+ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
+appliesto: 
+  - Microsoft Teams
+ms.collection: 
+  - M365-collaboration
+  - teams-rooms-devices
+  - Tier1
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-ms.collection: 
-  - M365-collaboration
-  - Teams_ITAdmin_Rooms
-  - Tier1
 description: Learn about how to prepare your infrastructure for deploying Microsoft Teams Rooms so that you can take advantage of all of the features.
 ms.custom: seo-marvel-apr2020
 ---
- 
+
 # Prepare your environment
 
 This section contains an overview of the steps required to prepare your environment so that you can use all of the features of Microsoft Teams Rooms.
   
-1. Prepare a resource account for each Microsoft Teams Rooms console. See [Deploy Microsoft Teams Rooms](rooms-deploy.md) for details.
+1. Prepare a resource account for each Microsoft Teams Rooms device. See [Deploy Microsoft Teams Rooms](rooms-deploy.md) for details
     
-2. Ensure that there's a working network/Internet connection for the device to use.
+2. Ensure that there's a working network/Internet connection for the device to use with access to all required URLs and IPs, further guidance can be found here: [Network Security](security.md#network-security)
   
 3. In order to improve your experience, Microsoft collects data. To allow Microsoft to collect data, allow these sites:
 
    - Telemetry client endpoint: `https://vortex.data.microsoft.com/`
    - Telemetry settings endpoint:` https://settings.data.microsoft.com/`
     
-### Create and test a resource account
+## Create and test a resource account
 
-A  *resource account*  is an account that the Microsoft Teams Rooms client uses to access features from Exchange, like calendar, and to connect to Microsoft Teams. See [Deploy Microsoft Teams Rooms](rooms-deploy.md) for details.
+A  *resource account*  is an account that the Microsoft Teams Rooms device uses to access features such as: Teams for Calling and Meetings and SharePoint for Whiteboards and PowerPoint files. See [Deploy Microsoft Teams Rooms](rooms-deploy.md) for details.
   
-### Check network availability
+## Confirm network configuration
 
-In order to function properly, Microsoft Teams Rooms  must have access to a network that meets these requirements:
+In order to function properly, Microsoft Teams Rooms devices must have access to a network that meets these requirements:
   
-- Access to your Active Directory or Azure Active Directory (Azure AD) instance, and Microsoft Exchange and Microsoft Teams.
+- Access to: Microsoft Teams, SharePoint/OneDrive, Pro Management Portal, Microsoft Store, Windows Update, Intune, Entra ID, & Microsoft Common destinations. Open required ports to the required destinations documented in [Teams Rooms Network Security](/microsoftteams/rooms/security?tabs=Windows#network-security)
 
-- Access to HTTP ports 80 and 443.
+- Review network bandwidth and quality of service (QoS) requirements: [QoS on Teams Devices](/microsoftteams/devices/qos-on-teams-devices)
 
-- TCP and UDP ports configured as described in [Port and protocol requirements for servers](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) for on-premises Skype for Business Server implementations, or [Microsoft 365 and Office 365 URLs and IP address ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) for Microsoft Teams.
+- If your organization utilizes a proxy, you need the proxy address or proxy autoconfiguration (PAC) file url
 
-If your network runs through a proxy, you need the proxy address or script information as well.
-    
-> [!IMPORTANT]
-> Microsoft Teams Rooms does not support proxy authentication as it may interfere with regular operations of the room. Ensure that Microsoft Teams Rooms have been exempted from proxy authentication before going into production.
+- If your organization utilizes certificates for network access, you need the certificates for a successful setup
+
 
 > [!IMPORTANT]
 > Be sure to use a network connection with enough bandwidth (we recommend 10 mbps up/down per Teams Room) to ensure your meetings perform well.
 
-> [!NOTE]
-> Software updates for Microsoft Teams Rooms are automatically downloaded from the Microsoft Store for Business. See [Prerequisites for Microsoft Store for Business and Education](/microsoft-store/prerequisites-microsoft-store-for-business) to verify that the room console will be able to access the store and self-update.
-  
+
 ### Certificates
 
-Your Microsoft Teams Rooms device uses certificates for Exchange Web Services, Microsoft Teams or Skype for Business, network usage, and authentication. If the related servers use public certificates, which is the case for online and some on-premises deployments, there should be no further action required on the part of the admin to install certificates. If, on the other hand, the certificate authority is a private CA then the device needs to trust that CA. This means having the CA + CA chain certificates installed on the device. Adding the device to the domain may perform this task automatically.
-  
-You'll install certificates the same way you would for any other Windows client.
+Your Microsoft Teams Rooms device uses certificates for Microsoft Teams, network usage, and authentication. If the related servers use public certificates, which is the case for online, there should be no further action required on the part of the admin to install certificates. If, on the other hand, the certificate authority is a private CA then the device needs to trust that CA. This means having the CA + CA chain certificates installed on the device. Certificates can be installed via Intune for your Teams Rooms devices or via OEM tooling.
 
-> [!IMPORTANT]
-> If your proxy server utilizes internally signed certificates, you must install the internal certificate chain, including the root CA, on the Microsoft Teams Rooms device.
-  
-> [!NOTE]
-> Certificates may be required in order to have Microsoft Teams Rooms use Skype for Business Server.
-  
+
 ### Proxy
 
-Microsoft Teams Rooms is designed to inherit Proxy settings from the Windows OS. Access the Windows OS in the following manner:
-  
-1. In the Microsoft Teams Rooms UI, select on the Settings gear icon where you'll be prompted for the local Administrator password on the device (the default password is **sfb**).
-2. Tap on **Settings** followed by tapping on the **Go to Windows** button and then tapping on the **go to Admin Sign In** button and then clicking the **Administrator** button (if the computer is domain joined choose **Other User,** then use .\admin as the user name).
-3. In the **Search Windows** box bottom left type in regedit (either long press the screen or right select and choose **Run as administrator**).
-4. Select on the HKEY_USERS folder (you'll see a list of machine user SIDs) ensure the root folder HKEY_USERS is selected.
-       
-5. Select on File and then choose **Load Hive.**
-6. Browse to the **C:\Users\Skype** folder and type in the File name box NTUSER.dat and press the open button
+> [!IMPORTANT]
+> Microsoft Teams Rooms does not support proxy authentication as it may interfere with regular operations of the room. Ensure that Microsoft Teams Rooms have been exempted from proxy authentication before going into production. If your proxy server utilizes internally signed certificates, you must install the internal certificate chain, including the root CA, on the Microsoft Teams Rooms device.
 
-7. You'll be prompted for a Key Name for your newly loaded Hive; type in Skype (you should now see the registry settings for the Skype User).
- 
+#### Proxy for Teams Rooms on Windows
+
+This guidance is for manual configuration. This can also be automated using Intune configurations on your devices ensure these configurations are consistent across a large scale deployment.
+
+##### Skype User Registry Hive
+
+1. In the Microsoft Teams Rooms UI, select on the Settings gear icon where you'll be prompted for the local Administrator password on the device (the default password is **sfb**)
+2. Tap on **Settings** followed by tapping on the **Go to Windows** button and then tapping on the **go to Admin Sign In** button and then clicking the **Administrator** button (if the computer is Entra ID joined choose **Other User,** then use .\admin as the user name)
+3. In the **Search Windows** box bottom left type in regedit (either long press the screen or right select and choose **Run as administrator**)
+4. Select on the HKEY_USERS folder (you'll see a list of machine user SIDs) ensure the root folder HKEY_USERS is selected
+5. Select on File and then choose **Load Hive**
+6. Browse to the **C:\Users\Skype** folder and type in the File name box NTUSER.dat and press the open button
+7. You'll be prompted for a Key Name for your newly loaded Hive; type in Skype (you should now see the registry settings for the Skype User)
 8. Open the Skype key and browse to HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings then ensure these settings are entered: 
     
     ```console
@@ -96,7 +91,7 @@ Microsoft Teams Rooms is designed to inherit Proxy settings from the Windows OS.
     
     If ProxyServer doesn't exist you may have to add this key as a string, change the xx.xx.xx.xx:8080 to the ip/host and port of your Proxy server.
  
-    If the customer is using a PAC file the configuration would look like the example below:
+    A completed configuration would look like this example:
 
      ```console
     [HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
@@ -105,35 +100,69 @@ Microsoft Teams Rooms is designed to inherit Proxy settings from the Windows OS.
     "AutoConfigURL"=http://contosoproxy.corp.net/proxy.pac
     ```
     
-9. Once you're finished making your changes highlight the Skype User key (root folder for Skype) and choose unload Hive from the Registry file menu (you'll be prompted for confirmation - select **Yes**).
+9. Once you're finished making your changes highlight the Skype User key (root folder for Skype) and choose unload Hive from the Registry file menu (you'll be prompted for confirmation - select **Yes**)
+10. You can now close the registry editor and reboot your Teams Room 
     
-10. You can now close the registry editor and type logoff into the Windows search box.
-    
-11. Back at the sign-in screen, choose the **Skype** user. If all the previous steps were successful, the Microsoft Teams Rooms device will sign-in successfully.
-    
-See the [Network Security](security.md#network-security) article for full details on FQDNs, ports, and IP address ranges required for Microsoft Teams Rooms.
-  
-### Admin group management
+##### Windows System Proxy
 
-If you choose to join a domain (Azure Active Directory or Active Directory), you can use Microsoft Endpoint Manager, Group Policy, or Local Computer Management to set a Security Group as local administrator just like you would for a Windows PC in your domain. Anyone who is a member of that security group can enter their credentials and unlock Settings.
+1. In the Microsoft Teams Rooms UI, select on the Settings gear icon where you'll be prompted for the local Administrator password on the device (the default password is **sfb**)
+2. Tap on **Settings** followed by tapping on the **Go to Windows** button and then tapping on the **go to Admin Sign In** button and then clicking the **Administrator** button (if the computer is Entra ID joined choose **Other User,** then use .\admin as the user name)
+3. In the **Search Windows** box bottom left type in 'Settings'
+4. Select 'Network & internet'
+5. Select 'Proxy'
+6. Configure your proxy IP or proxy PAC file
+7. Close Settings and reboot your Teams Room
+
+##### Pro Management Agent Proxy
+
+1. In the Microsoft Teams Rooms UI, select on the Settings gear icon where you'll be prompted for the local Administrator password on the device (the default password is **sfb**)
+2. Tap on **Settings** followed by tapping on the **Go to Windows** button and then tapping on the **go to Admin Sign In** button and then clicking the **Administrator** button (if the computer is Entra ID joined choose **Other User,** then use .\admin as the user name)
+3. In the Windows ***Search*** field (bottom-left section of the screen), enter **cmd** (either long press the screen or right select, and choose ***Run as administrator***).
+4. Run the following command (double quotes at end of command are important):
+
+   - If using single ***proxy server***: `bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL_PROXY <proxyserver>:<port> ""`
+
+     *Example:*
+
+     ```cmd
+     bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL_PROXY contosoproxy.corp.net:8080 ""
+     ```
+
+   - If using a ***pac*** file: `bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT <pac file url>`
+
+     *Example:*
+
+     ```cmd
+     bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT http://contosoproxy.corp.net/proxy.pac
+     ```
+
+#### Proxy on Teams Rooms on Android
+
+Proxy settings on Teams Rooms on Android vary by device manufacturer. Consult OEM documentation for how to best configure Teams Rooms on Android devices for a network with a proxy.
+
+## Admin group management
+
+If you choose to join a Teams Rooms on Windows device to a domain (Microsoft Entra ID or Active Directory), you can use Microsoft Intune, Group Policy, or Local Computer Management to set a Security Group as local administrator just like you would for a Windows PC in your domain. Anyone who is a member of that security group can enter their credentials and unlock Settings.
   
 > [!NOTE]
 > If your Microsoft Teams Rooms device loses trust with the domain (for example, if you remove the Microsoft Teams Rooms from the domain after it is domain joined), you won't be able to authenticate into the device and open up Settings. The workaround is to log in with the local Admin account. 
-  
-## Local accounts
 
-### Microsoft Teams Rooms Local User Account
+## Local accounts for Teams Rooms on Windows
+
+### Local 'Skype' User Account
 
 Teams Rooms includes a passwordless local account named "Skype". This account is used to sign in to Windows to launch the Teams Rooms app. It isn't supported to apply a password to this account. See [Microsoft Teams Rooms security](security.md) for more information.
   
-### "Admin" - Local Administrator Account
+### Local "Admin" User Account
 
-Microsoft Teams Rooms default password is set to "sfb". The Password can be changed locally via Admin mode or in the AutoUnattend.xml file (use the Windows System Image manager from ADK to make the change to the xml file).
-  
 > [!CAUTION]
 > Be sure to change the Microsoft Teams Rooms password as soon as possible. 
-  
-The Local admin password isn't included as a choice during Setup.
+
+Microsoft Teams Rooms default password is set to "sfb". The password can be changed in several ways:
+
+- Recommended: [Configuring LAPS on Teams Rooms on Windows](/microsoftteams/rooms/laps-authentication)
+- Intune: [Set-LocalUser](/powershell/module/microsoft.powershell.localaccounts/set-localuser?view=powershell-5.1#example-2-change-the-password-on-an-account)
+- Locally: [Change or reset your Windows password](https://support.microsoft.com/windows/change-or-reset-your-windows-password-8271d17c-9f9e-443f-835a-8318c8f68b9c)
 
 You can read more about the Admin account in the [Microsoft Teams Rooms security](security.md) article.
   
@@ -148,9 +177,7 @@ If you would like to rename the computer after joining it to a domain, use [Rena
 [Plan Microsoft Teams Rooms](rooms-plan.md)
 
 [Deploy Microsoft Teams Rooms](rooms-deploy.md)
-  
-[Configure a Microsoft Teams Rooms console](console.md)
-  
+
 [Manage Microsoft Teams Rooms](rooms-manage.md)
 
-[Prerequisites for Microsoft Store for Business and Education](/microsoft-store/prerequisites-microsoft-store-for-business)
+[Teams Rooms Security](/microsoftteams/rooms/security)

@@ -2,7 +2,7 @@
 title: Use healthcare team templates
 author: lana-chin
 ms.author: v-chinlana
-manager: serdars
+manager: jtremper
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
@@ -17,7 +17,6 @@ ms.collection:
   - M365-collaboration
   - microsoftcloud-healthcare
   - m365-frontline
-  - tier2
   - highpri
 appliesto: 
   - Microsoft Teams
@@ -56,7 +55,7 @@ Streamline healthcare communication and collaboration within a ward, pod, or dep
 >[!div class="mx-tdBreakAll"]
 >| Template type |TemplateId| Properties that come with this template |
 >| ------------------ |---|----------------------------------------------------- |
->| Patient Care |`healthcareWard` | Channels:<ul><li>General</li><li>Announcements</li><li>Huddles</li><li>Rounds</li><li>Staffing</li><li>Training</li></ul> Apps: <ul><li>Approvals</li><li>Bulletins</li><li>Inspection</li><li>Lists</li><li>Shifts</li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul>|
+>| Patient Care |`healthcareWard` | Channels:<ul><li>General</li><li>Announcements</li><li>Huddles</li><li>Rounds</li><li>Staffing</li><li>Training</li></ul> Apps: <ul><li>Approvals</li><li>Bulletins</li><li>Inspection</li><li>Lists</li><li>Shifts</li><li>Planner</li><li>Wiki</li></ul>|
 
 ### Hospital
 
@@ -65,7 +64,7 @@ Streamline communication and collaboration between multiple wards, pods, and dep
 >[!div class="mx-tdBreakAll"]
 >| Template type |TemplateId | Properties that come with this template |
 >| ------------------|-- |----------------------------------------------------- |
->|Hospital|`healthcareHospital`|Channels: <ul><li>General</li><li>Announcements</li><li>Compliance</li></li><li>Custodial</li><li>Human Resources</li><li>Pharmacy</li></ul>  Apps: <ul><li>Approvals</li><li>Bulletins</li><li>Employee ideas</li><li>Inspection</li><li>Lists</li><li>Shifts</li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul>|
+>|Hospital|`healthcareHospital`|Channels: <ul><li>General</li><li>Announcements</li><li>Compliance</li></li><li>Custodial</li><li>Human Resources</li><li>Pharmacy</li></ul>  Apps: <ul><li>Approvals</li><li>Bulletins</li><li>Employee ideas</li><li>Inspection</li><li>Lists</li><li>Shifts</li><li>Planner</li><li>Wiki</li></ul>|
 
 ## Use team templates with Microsoft Graph
 

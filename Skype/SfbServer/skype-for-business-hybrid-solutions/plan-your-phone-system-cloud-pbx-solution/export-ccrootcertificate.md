@@ -1,7 +1,7 @@
 ---
 title: "Export-CcRootCertificate"
 ms.reviewer: 
-ms.author: crowe
+ms.author: serdars
 author: CarolynRowe
 manager: serdars
 ms.date: 9/20/2017
@@ -37,19 +37,19 @@ Export-CcRootCertificate -Path "C:\test"
 ## Detailed Description
 <a name="DetailedDescription"> </a>
 
-The Export-CcRootCertificate cmdlet allows you to save the root and intermediate certificates to a file path. This can be useful in case of a disaster recovery scenario. 
+The Export-CcRootCertificate cmdlet allows you to save the root and intermediate certificates to a file path. This can be useful if there's a disaster recovery scenario. 
   
 ## Parameters
 <a name="DetailedDescription"> </a>
 
 |**Parameter**|**Required**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-|Path  <br/> |Required  <br/> |System.String  <br/> |File path where the certificate will be stored.  <br/> |
+|Path  <br/> |Required  <br/> |System.String  <br/> |File path where the certificate is stored.  <br/> |
    
 ## Input Types
 <a name="InputTypes"> </a>
 
-None. The Export-CcRootCertificate cmdlet does not accept pipelined input. 
+None. The Export-CcRootCertificate cmdlet doesn't accept pipelined input. 
   
 ## Return Types
 <a name="ReturnTypes"> </a>

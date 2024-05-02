@@ -1,8 +1,8 @@
 ---
 ms.date: 11/28/2017
 title: "Why am I having problems entering U.K. address information?"
-ms.author: tonysmit
-author: tonysmit
+ms.author: serdars
+author: pamgreen
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -33,7 +33,7 @@ Here are some reasons why you may be having problems getting your address or add
   
 ## What's wrong with the company name?
 
-If you are having a problem entering the company name, remember:
+If you're having a problem entering the company name, remember:
   
 - It can have letters, numbers, and the following special characters: , / - + . ' &amp; " _ 
     
@@ -46,7 +46,7 @@ If you are having a problem entering the company name, remember:
     
 ## What's wrong with the house number?
 
-If you are having a problem entering the house number, remember:
+If you're having a problem entering the house number, remember:
   
 - It can have letters, numbers, and the following special characters: - / [ ]
     
@@ -58,9 +58,9 @@ If you are having a problem entering the house number, remember:
     
 ## What's wrong with the house name?
 
-If you are having a problem entering the house name, remember:
+If you're having a problem entering the house name, remember:
   
-- It can have letters, numbers and the following special characters : , / - + . ' &amp; " _
+- It can have letters, numbers, and the following special characters : , / - + . ' &amp; " _
     
 - It has to be 50 characters or less.
     
@@ -68,9 +68,9 @@ If you are having a problem entering the house name, remember:
     
 ## What's wrong with the street name?
 
-If you are having a problem entering the street name, remember:
+If you're having a problem entering the street name, remember:
   
-- It can have letters, numbers, and the following special characters : , / - + . ' &amp; " _ 
+- It can have letters, numbers, and the following special characters: , / - + . ' &amp; " _ 
     
 - It has to be 50 characters or less.
     
@@ -78,9 +78,9 @@ If you are having a problem entering the street name, remember:
     
 ## What's wrong with the city or town?
 
-If you are having a problem entering the name of the city or town, remember:
+If you're having a problem entering the name of the city or town, remember:
   
-- It can have letters, numbers, and the following special characters : , / - + . ' &amp; " _
+- It can have letters, numbers, and the following special characters: , / - + . ' &amp; " _
     
 - It has to be 50 characters or less.
     
@@ -88,7 +88,7 @@ If you are having a problem entering the name of the city or town, remember:
     
 ## What's wrong with the postal code?
 
-If you are having a problem entering the postal code, remember:
+If you're having a problem entering the postal code, remember:
   
 - It can only have letters, numbers, or spaces.
     
@@ -116,7 +116,7 @@ If you are having a problem entering the postal code, remember:
 
 [Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online: Emergency Calling disclaimer label](https://download.microsoft.com/download/9/9/0/990e24c1-eb49-4b52-9306-dbd4c864ed91/emergency-calling-label-(en-us)-(v.1.0).zip)
 
   
  

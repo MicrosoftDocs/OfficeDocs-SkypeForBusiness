@@ -1,8 +1,8 @@
 ---
 title: Turn guest access in Microsoft Teams on or off
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jtremper
+author: jacktremper
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -28,10 +28,10 @@ description: Learn about how to turn on or turn off the guest access feature in 
 
 # Turn guest access in Microsoft Teams on or off
 
-This article describes how to configure guest access settings - including calls, meetings, and chat - in Teams. Guest access in Teams also requires configuring other settings in Microsoft 365, including settings in Azure AD, Microsoft 365 Groups, and SharePoint. If you're ready to start inviting guests to teams, read one of the following:
+This article describes how to configure guest access settings - including calls, meetings, and chat - in Teams. Guest access in Teams also requires configuring other settings in Microsoft 365, including settings in Microsoft Entra ID, Microsoft 365 Groups, and SharePoint. If you're ready to start inviting guests to teams, read one of the following:
 
 - To configure guest access for Teams for general use, see [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team).
-- To collaborate with a partner organization that uses Azure Active Directory and allow guests to self-enroll for team access, see [Create a B2B extranet with managed guests](/microsoft-365/solutions/b2b-extranet).
+- To collaborate with a partner organization that uses Microsoft Entra ID and allow guests to self-enroll for team access, see [Create a B2B extranet with managed guests](/microsoft-365/solutions/b2b-extranet).
 
 > [!NOTE]
 > If you just want to find, call, chat, and set up meetings with people in other organizations, use [external access](trusted-organizations-external-meetings-chat.md).
@@ -89,4 +89,4 @@ If you plan to leave guest access off, you may want to advise your team owners t
 
 [Block guests from a specific team](/microsoft-365/solutions/per-group-guest-access)
 
-[Set-CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)
+[Set-CsTeamsClientConfiguration](/powershell/module/teams/set-csteamsclientconfiguration)

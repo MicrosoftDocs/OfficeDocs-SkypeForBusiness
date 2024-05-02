@@ -1,21 +1,23 @@
 ---
 title: Teams Rooms meetings with SIP and H.323 devices
 ms.author: tonysmit
-author: tonysmit
-manager: serdars
-audience: ITPro
+author: mstonysmith
+manager: pamgreen
 ms.reviewer: naforer
-ms.date: 06/16/2023
-ms.topic: quickstart
+ms.date: 11/03/2023
+ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
+appliesto: 
+  - Microsoft Teams
+ms.collection: 
+  - M365-collaboration
+  - teams-rooms-devices
+  - Tier1
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
-ms.collection: 
-  - Tier1
-  - M365-collaboration
-  - Teams_ITAdmin_Rooms
 description: Learn about how to set up Teams Rooms to receive and place calls to and from approved SIP and H.323 devices.
 ---
 
@@ -35,7 +37,7 @@ If you have multiple Teams Rooms all with a Pro licenses deployed in your organi
 
 To enable your Teams Rooms on Windows to use SIP and H.323 dialing:
 
-1. The Teams Room account that is used to sign in to the device must have a Teams Room Pro license assigned.
+1. The Teams Rooms account that is used to sign in to the device must have a Teams Rooms Pro license assigned.
 2. You must have a signed agreement with one of the certified [Cloud Video Interop providers](../cloud-video-interop.md) (CVI) that offers this feature like for example, Poly and Pexip. Please reach out to your chosen CVI provider for more information.
 
 ## How to configure a Teams Room

@@ -1,15 +1,15 @@
 ---
-title: Sample script - Microsoft Teams firewall PowerShell script
-author: MikePlumleyMSFT
-ms.author: mikeplum
-manager: serdars
+title: Sample script - classic Microsoft Teams firewall PowerShell script
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
-ms.reviewer: harij, rafarhi
-ms.date: 01/28/2022
+ms.reviewer: rafarhi
+ms.date: 10/13/2023
 ms.localizationpriority: medium
 search.appverid: MET150
 description: A sample script that can be used to configure Windows to allow Teams connections through Windows Firewall.
@@ -19,7 +19,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Sample script - Microsoft Teams firewall PowerShell script
+# Sample script - classic Microsoft Teams firewall PowerShell script
 
 This sample script, which needs to run on client computers in the context of an elevated administrator account, will create a new inbound firewall rule for each user folder found in c:\users. When Teams finds this rule, it will prevent the Teams application from prompting users to create firewall rules when the users make their first call from Teams.
 

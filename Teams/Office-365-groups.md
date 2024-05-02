@@ -1,10 +1,10 @@
 ---
 title: Microsoft 365 Groups and Microsoft Teams
-ms.reviewer: kblevins
+ms.reviewer: rahulnayak
 ms.date: 08/10/2017
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jtremper
+author: jacktremper
+manager: pamgreen
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
@@ -22,7 +22,7 @@ description: Learn about how Microsoft 365 groups and group memberships work wit
 
 # Microsoft 365 Groups and Microsoft Teams
 
-Microsoft 365 Groups is the cross-application membership service in Microsoft 365. At a basic level, a Microsoft 365 group is an object in Azure Active Directory with a list of members and a coupling to related workloads including a SharePoint team site, shared Exchange mailbox, Planner, and OneNote notebook. You can add or remove people to the group just as you would any other group-based security object in Active Directory.
+Microsoft 365 Groups is the cross-application membership service in Microsoft 365. At a basic level, a Microsoft 365 group is an object in Microsoft Entra ID with a list of members and a coupling to related workloads including a SharePoint team site, shared Exchange mailbox, Planner, and OneNote notebook. You can add or remove people to the group just as you would any other group-based security object in Active Directory.
 
 ![Diagram showing Microsoft 365 Groups and related services.](/microsoft-365/media/microsoft-365-groups-hub-spoke.png?view=o365-worldwide)
 
@@ -40,7 +40,7 @@ When creating a Microsoft 365 group in the Teams admin center, Outlook, or Share
 
 If you remove a member of a team, they are removed from the Microsoft 365 group as well. Removal from the group immediately removes the team and channels from the Teams client. If you remove a person from a group using the Microsoft 365 admin center, they will no longer have access to the other collaborative aspects such as SharePoint Online document library, Viva Engage group, or shared OneNote. However, they will still have access to the team's chat functionality for approximately two hours.
 
-As a best practice for managing team members, add and remove them from Teams to ensure that permissions updates for other group-connected workloads occur quickly. If you add or remove team members outside of Teams (by using the Microsoft 365 admin center, Azure AD, or Exchange Online PowerShell), it can take up to 24 hours for changes to be reflected in Teams.
+As a best practice for managing team members, add and remove them from Teams to ensure that permissions updates for other group-connected workloads occur quickly. If you add or remove team members outside of Teams (by using the Microsoft 365 admin center, Microsoft Entra ID, or Exchange Online PowerShell), it can take up to 24 hours for changes to be reflected in Teams.
 
 ## Deleting groups and teams
 

@@ -1,8 +1,8 @@
 ---
 ms.date: 11/28/2017
 title: "What do you need to do after you have ported over your phone numbers?"
-ms.author: tonysmit
-author: tonysmit
+ms.author: pamgreen
+author: pamgreen
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -27,30 +27,27 @@ description: "See what you need to do next after you've ported your phone number
 
 # What do you need to do after you have ported over your phone numbers?
 
-[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-After you have submitted your port order, we will contact your carrier and work out the details with them. When the final transfer date has been set, we will notify you via email. However, while waiting on your carrier to accept the order, go ahead and create the required emergency addresses you will use with these numbers.
+After you have submitted your port order, we'll contact your carrier and work out the details with them. When the final transfer date has been set, we'll notify you via email. However, while waiting on your carrier to accept the order, go ahead and create the required emergency addresses you'll use with these numbers.
   
-- Learn more about [What are emergency locations, addresses and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
-    
+- Learn more about [emergency locations, addresses, and call routing](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
+
 - You can [Add or remove an emergency address for your organization](/MicrosoftTeams/add-change-remove-emergency-location-organization) if you need to.
-    
+
 - If your phone numbers already have an emergency address, [Add, change, or remove an emergency location for your organization](/MicrosoftTeams/add-change-remove-emergency-place-organization).
-    
-- [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)
+
+- Learn how to [Manage phone numbers for users](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
 
 > [!NOTE]
-> If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+> If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
-    
-## Related topics
+## Related articles
+
 [Transferring phone numbers common questions](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [Different kinds of phone numbers used for Calling Plans](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
 [Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
-
-  
-
+[Skype for Business Online: Emergency Calling disclaimer label](https://download.microsoft.com/download/9/9/0/990e24c1-eb49-4b52-9306-dbd4c864ed91/emergency-calling-label-(en-us)-(v.1.0).zip)

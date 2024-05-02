@@ -1,23 +1,27 @@
 ---
 title: "Step 7 - Configure calendar options"
 ms.author: tonysmit
-author: tonysmit
-f1.keywords:
-- Teams hybrid
-- remote work
-- Teams meetings
-manager: serdars
-ms.date: 07/08/2022
-audience: ITPro
-description: Configure how a resource account responds to meeting invites.
+author: mstonysmith
+manager: pamgreen
+ms.reviewer: sohailta
+ms.date: 2/26/2024
 ms.topic: article
+audience: Admin
 ms.service: msteams
-ms.localizationpriority: high
+ms.subservice: itpro-rooms
+appliesto: 
+  - Microsoft Teams
 ms.collection:
 - m365solution-teamshybrid
 - m365solution-scenario
-ms.custom: 
-keywords: 
+- m365initiative-meetings
+- teams-rooms-devices
+ms.localizationpriority: high
+f1.keywords:
+- Teams hybrid
+- remote work
+- Teams meetings 
+description: Configure how a resource account responds to meeting invites.
 ---
 
 # Step 7 - Configure calendar options

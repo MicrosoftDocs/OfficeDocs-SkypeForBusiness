@@ -1,7 +1,7 @@
 ---
 title: "Cloud Connector cmdlet reference"
 ms.reviewer: 
-ms.author: crowe
+ms.author: serdars
 author: CarolynRowe
 manager: serdars
 ms.date: 11/15/2017

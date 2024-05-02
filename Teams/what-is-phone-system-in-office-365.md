@@ -1,10 +1,10 @@
 ---
 title: "What is Teams Phone"
 ms.reviewer: roykuntz
-ms.date: 11/28/2017
+ms.date: 03/07/2024
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -29,7 +29,7 @@ description: "In this article, you'll learn about Microsoft Teams Phone System t
 
 # What is Teams Phone
 
-Microsoft Teams Phone is Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Microsoft 365 cloud with Microsoft Teams.
+This article is for administrators and IT professionals who are evaluating Microsoft Teams Phone--Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Microsoft 365 cloud.
 
 Teams Phone works with Teams clients and certified devices. Teams Phone allows you to replace your existing PBX system with a set of features directly delivered from Microsoft 365.
 
@@ -37,14 +37,17 @@ Calls between users in your organization are handled internally within Teams Pho
 
 For making external calls, Teams Phone provides add-on options for connecting to the PSTN. For more information about voice solutions and PSTN connectivity options, see [Plan your Teams voice solution](cloud-voice-landing-page.md) and [Connect to the PSTN](#connect-to-the-public-switched-telephone-network-pstn). 
 
+**Licenses and voice enablement** - To use Teams Phone features, your organization must have a Teams Phone license. For more information about licensing, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+
+Most features require you to assign the Teams Phone license and ensure that users are "voice enabled." To assign the license, use the [Set-CsPhoneNumberAssignment cmdlet](/powershell/module/teams/set-csphonenumberassignment) and set the **EnterpriseVoiceEnabled** parameter to $true. A few features, such as Auto attendant, do not require a user to be voice enabled (more about features in the next section).
+
 ## Teams Phone features
 
-With Teams Phone, users can use Teams to place and receive calls, transfer calls, and mute or unmute calls. Teams Phone users can click a name in their address book, and place Teams calls to that person. To place and receive calls, Teams Phone users can use their mobile devices, a headset with a laptop or PC, or one of many IP phones that work with Teams. 
+With Teams Phone, users in your organization can use Teams to place and receive calls, transfer calls, and mute or unmute calls. Teams Phone users can click a name in their address book, and place Teams calls to that person. To place and receive calls, Teams Phone users can use their mobile devices, a headset with a laptop or PC, or one of many IP phones that work with Teams. 
 
-Teams Phone administrators can manage calling options and settings from the same console used for messaging, collaboration, and so on.
+For more information about Teams Phone features, including which features require a user to be voice enabled, see [Teams Phone features](here-s-what-you-get-with-phone-system.md).
 
-For more information about Teams Phone features, see [Here's what you get with Teams Phone](here-s-what-you-get-with-phone-system.md).
-  
+You can manage calling options and settings by using the Teams admin center and by using PowerShell.
 
 ## Connect to the Public Switched Telephone Network (PSTN)
   

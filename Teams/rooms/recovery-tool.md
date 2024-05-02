@@ -1,17 +1,19 @@
 ---
 title: Use the Microsoft Teams Rooms recovery tool
 ms.author: tonysmit
-author: tonysmit
-manager: serdars
-ms.reviewer: sohailta
-ms.date: 04/17/2018
-audience: ITPro
+author: mstonysmith
+manager: pamgreen
+ms.reviewer: travis-snoozy
+ms.date: 11/02/2023
 ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier1
 f1.keywords: 
   - NOCSH
@@ -21,7 +23,7 @@ description: This article discusses how to use the recovery tool for Microsoft T
 
 # Use the Microsoft Teams Rooms recovery tool
 
-This article discusses how to use the recovery tool for Microsoft Teams Rooms, which you would use to bring an out of date system into a supported state. This tool should be applied when either the Microsoft Teams Rooms console shows a "system config out of date" error, or prior to performing a push button reset [factory restore](./rooms-operations.md#microsoft-teams-rooms-reset-factory-restore).
+This article discusses how to use the recovery tool for Microsoft Teams Rooms, which you would use to bring an out of date system into a supported state. This tool should be applied when either the Microsoft Teams Rooms console shows a "system config out of date" error, or prior to performing a push button reset [factory restore](./rooms-operations.md#microsoft-teams-rooms-reset--factory-restore).
 
 ## Prerequisites
 

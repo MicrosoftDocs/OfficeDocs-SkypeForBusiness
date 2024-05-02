@@ -1,25 +1,23 @@
 ---
 title: Tenant Administration control for voice recognition (voice profile) in Teams Rooms
-author: tonysmit
+author: mstonysmith
 ms.author: tonysmit
+manager: pamgreen
 ms.reviewer: parisataheri
-ms.date: 03/29/2021
-manager: serdars
+ms.date: 04/29/2024
 ms.topic: article
-audience: admin
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-search.appverid: MET150
-description: Learn about Tenant Administration control for voice recognition (voice profile) in Teams meeting rooms.
-ms.localizationpriority: medium
-f1.keywords: 
-  - NOCSH
-ms.collection: 
-  - M365-collaboration
-  - Teams_ITAdmin_Rooms
-  - Tier1
 appliesto: 
   - Microsoft Teams
+ms.collection: 
+  - M365-collaboration
+  - teams-rooms-devices
+  - Tier1
+search.appverid: MET150
+ms.localizationpriority: medium
+description: Learn about Tenant Administration control for voice recognition (voice profile) in Teams meeting rooms.
 ---
 
 # Manage voice recognition technology controls for an Intelligent Speaker
@@ -40,26 +38,23 @@ The following items are Intelligent Speaker requirements:
 - The meeting room should have a maximum of 10 people present in person.
 - The meeting room has an upload link of minimum 7 Mbps.
 
-Epos, Sennheiser, and Yealink intelligent speakers are supported.
+Epos, Jabra, Sennheiser, and Yealink Intelligent Speakers are supported.
 
 > [!NOTE]
 > Intelligent Speaker is available in all countries and regions. See [Supported locales](#supported-locales) for a list of the locales currently supported for biometric enrollment and in-meeting transcription.
 
 ## Set up an Intelligent Speaker
 
-An Intelligent Speaker connects directly using USB to the Teams Rooms console.
-
-> [!NOTE]
-> A Yealink Intelligent Speaker **must** be used with a Yealink console.
+An Intelligent Speaker connects directly using USB to the Teams Rooms console or compute module.
 
 > [!NOTE]
 > We don't support an Intelligent Speaker connected to Logitech Surface Pro Microsoft Teams Rooms. There is a known issue that Teams Rooms can't recognize the Intelligent Speaker through the dock.
 
-An Intelligent Speaker should be placed at least 8 inches (20 cm) away from walls and large objects, such as laptops. If the Intelligent Speaker USB cable isn't long enough for your setup, use cable extenders.
+An Intelligent Speaker that is of a speakerphone design should be placed at least 8 inches (20 cm) away from walls and large objects, such as laptops. If the Intelligent Speaker USB cable isn't long enough for your setup, use cable extenders.
 
 1. Sign in to the console as administrator.
 2. Set the Teams device settings to match the Intelligent Speaker microphone and speaker.
-   You can also do this through the TAC portal instead of at the room console.
+   You can also do this through the Microsoft Teams admin center (TAC) portal instead of at the room console.
 
    The diagram shows how the Intelligent Speaker is connected to the device if the device includes a data box.
 
@@ -71,10 +66,12 @@ An Intelligent Speaker should be placed at least 8 inches (20 cm) away from wall
 
 > [!NOTE]
 > EPOS and Yealink devices should have "EPOS" or "Yealink" prefix and contain "UAC2_RENDER" in the speaker name and "UAC2_TEAMS" in the microphone name. If you don't find these microphone and speaker names in the dropdown menu, restart the Intelligent Speaker device.
+>
+> The Jabra Panacast 50 connects directly to the Microsoft Teams Rooms compute module and not the center of table console. For the Jabra PanaCast 50, make sure you set the Playback Device Type to Microsoft Teams Rooms device. After restarting the Jabra PanaCast 50 you should see devices with "UAC2_RENDER" in the speaker name and "UAC2_TEAMS" in the microphone name.
 
 ## Enable an Intelligent Speaker user recognition
 
-Voice profile data can be used in any meeting with an Intelligent Speaker. See [Teams meetings policies](../meetings-policies-recording-and-transcription.md#transcription) and the [PowerShell meeting cmdlets](/powershell/module/skype/set-csteamsmeetingpolicy) for information on the meeting settings.
+Voice profile data can be used in any meeting with an Intelligent Speaker. See [Teams meetings policies](../meetings-policies-recording-and-transcription.md#transcription) and the [PowerShell meeting cmdlets](/powershell/module/teams/set-csteamsmeetingpolicy) for information on the meeting settings.
 
 > [!NOTE]
 > If your voice profile isn't available under the *Recognition* tab in Settings and you aren't being attributed in transcriptions, re-enroll your Voice Profile.
@@ -127,54 +124,54 @@ The following enrollment and in-meeting transcription locales are supported in a
 
 End-users can enroll their voices for recognition in the following locales:
 
-|**Language**|**Country/Region**|**Culture ID**|
+| Language | Country/Region | Culture ID |
 |:-----|:-----|:-----|
-|Arabic  <br/> |Saudi Arabia <br/> |ar-SA  <br/> |
-|Chinese  <br/> |China <br/> |zh-CN  <br/> |
-|Chinese  <br/> |Taiwan <br/> |zh-TW  <br/> |
-|Danish  <br/> |Denmark <br/> |da-DK  <br/> |
-|Dutch  <br/> |Netherlands <br/> |nl-NL  <br/> |
-|English  <br/> |Australia <br/> |en-AU  <br/> |
-|English  <br/> |Canada  <br/> |en-CA <br/> |
-|English  <br/> |India  <br/> |en-IN  <br/> |
-|English  <br/> |New Zealand  <br/> |en-NZ  <br/> |
-|English  <br/> |United Kingdom  <br/> |en-GB  <br/> |
-|English  <br/> |United States  <br/> |en-US  <br/> |
-|Finnish  <br/> |Finland  <br/> |fi-FI  <br/> |
-|French  <br/> |Canada <br/> |fr-CA  <br/> |
-|French  <br/> |France <br/> |fr-FR  <br/> |
-|Italian  <br/> |Italy <br/> |it-IT  <br/> |
-|Japanese  <br/> |Japan <br/> |ja-JP  <br/> |
-|Norwegian  <br/> |Norway <br/> |nb-NO  <br/> |
-|Polish  <br/> |Poland <br/> |pl-PL  <br/> |
-|Portuguese      <br/> |Brazil <br/> |pt-BR  <br/> |
-|Russian  <br/> |Russia <br/> |ru-RU  <br/> |
-|Swedish  <br/> |Sweden <br/> |sv-SE  <br/> |
-|Spanish  <br/> |Mexico  <br/> |es-MX  <br/> |
-|Spanish  <br/> |Spain  <br/> |es-ES  <br/> |
+|Arabic  |Saudi Arabia |ar-SA  |
+|Chinese  |China |zh-CN  |
+|Chinese  |Taiwan |zh-TW  |
+|Danish  |Denmark |da-DK  |
+|Dutch  |Netherlands |nl-NL  |
+|English  |Australia |en-AU  |
+|English  |Canada  |en-CA |
+|English  |India  |en-IN  |
+|English  |New Zealand  |en-NZ  |
+|English  |United Kingdom  |en-GB  |
+|English  |United States  |en-US  |
+|Finnish  |Finland  |fi-FI  |
+|French  |Canada |fr-CA  |
+|French  |France |fr-FR  |
+|Italian  |Italy |it-IT  |
+|Japanese  |Japan |ja-JP  |
+|Norwegian  |Norway |nb-NO  |
+|Polish  |Poland |pl-PL  |
+|Portuguese      |Brazil |pt-BR  |
+|Russian  |Russia |ru-RU  |
+|Swedish  |Sweden |sv-SE  |
+|Spanish  |Mexico  |es-MX  |
+|Spanish  |Spain  |es-ES  |
 
 ### In-meeting transcription locales
 
 Once an end-user enrolls, their voice can be recognized during meetings and identified in the transcription when the meeting is set to one of the following locales:
 
-|**Language**|**Country/Region**|**Culture ID**|
+| Language | Country/Region | Culture ID |
 |:-----|:-----|:-----|
-|Chinese (Simplified)  <br/> |China  <br/> |zh-CN  <br/> |
-|English  <br/> |Australia <br/> |en-AU  <br/> |
-|English  <br/> |Canada  <br/> |en-CA <br/> |
-|English  <br/> |India  <br/> |en-IN  <br/> |
-|English  <br/> |New Zealand  <br/> |en-NZ  <br/> |
-|English  <br/> |United Kingdom  <br/> |en-GB  <br/> |
-|English  <br/> |United States  <br/> |en-US  <br/> |
-|French  <br/> |Canada  <br/> |fr-CA  <br/> |
-|French  <br/> |France  <br/> |fr-FR  <br/> |
-|German  <br/> |Germany  <br/> |de-DE  <br/> |
-|Italian  <br/> |Italy  <br/> | it-IT <br/> |
-|Japanese  <br/> |Japan  <br/> |ja-JP  <br/> |
-|Korean  <br/> |Korea  <br/> |ko-KR  <br/> |
-|Portuguese  <br/> |Brazil  <br/> |pt-BR  <br/> |
-|Spanish  <br/> |Mexico  <br/> |es-MX  <br/> |
-|Spanish  <br/> |Spain  <br/> |es-ES  <br/> |
+|Chinese (Simplified)  |China  |zh-CN  |
+|English  |Australia |en-AU  |
+|English  |Canada  |en-CA |
+|English  |India  |en-IN  |
+|English  |New Zealand  |en-NZ  |
+|English  |United Kingdom  |en-GB  |
+|English  |United States  |en-US  |
+|French  |Canada  |fr-CA  |
+|French  |France  |fr-FR  |
+|German  |Germany  |de-DE  |
+|Italian  |Italy  | it-IT |
+|Japanese  |Japan  |ja-JP  |
+|Korean  |Korea  |ko-KR  |
+|Portuguese  |Brazil  |pt-BR  |
+|Spanish  |Mexico  |es-MX  |
+|Spanish  |Spain  |es-ES  |
 
 ## Related topics
 

@@ -2,7 +2,7 @@
 title: Supported rate centers and coverage for Calling Plans
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: davlick, julienp
 ms.date: 08/28/2020
 ms.topic: article
@@ -20,6 +20,7 @@ ms.custom:
 description: Lists the supported rate centers and coverage for Calling Plans.
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 ---
 
@@ -37,6 +38,6 @@ If you're getting new numbers and we don't have the numbers that you've requeste
 - [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-- [Getting phone numbers for your users](../getting-phone-numbers-for-your-users.md)
-- [Getting service phone numbers](../getting-service-phone-numbers.md)
+- [Get phone numbers for your users](../getting-phone-numbers-for-your-users.md)
+- [Get service phone numbers](../getting-service-phone-numbers.md)
 - [Transfer phone numbers to Teams](transfer-phone-numbers-to-teams.md)

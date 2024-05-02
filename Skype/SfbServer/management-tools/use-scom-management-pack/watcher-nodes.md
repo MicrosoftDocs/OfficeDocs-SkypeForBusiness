@@ -13,16 +13,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
-description: "Describes the process to install and configure watcher nodes for Skype for Business Server synthetic transactions."
+description: "Describes how to to install and configure watcher nodes for Skype for Business Server synthetic transactions."
 ---
 
-# Installing and configuring watcher nodes
+# Install and configure Skype for Business Server watcher nodes
  
 **Summary:** Install and configure watcher nodes for Skype for Business Server synthetic transactions.
   
 Watcher nodes are computers that periodically run Skype for Business Server synthetic transactions. Synthetic transactions are Windows PowerShell cmdlets that verify that key user scenarios, such as the ability to sign in or to exchange instant messages, are working as expected. For Skype for Business Server 2015, System Center Operations Manager can run the synthetic transactions shown in the following table, which includes three synthetic transaction types:
   
-- **Default** Synthetic transactions that a watcher node runs by default. When you create a new watcher node, you can specify which synthetic transactions that node will run. (That's the purpose of the Tests parameter used by the New-CsWatcherNodeConfiguration cmdlet.) If you don't use the Tests parameter when the watcher node is created, it will automatically run all the Default synthetic transactions and won't run any of the Non-default synthetic transactions. This means, for example, that the watcher node will be configured to run the Test-CsAddressBookService test, but won't be configured to run the Test-CsExumConnectivity test.
+- **Default** Synthetic transactions that a watcher node runs by default. When you create a new watcher node, you can specify which synthetic transactions that node run. (That's the purpose of the Tests parameter used by the New-CsWatcherNodeConfiguration cmdlet.) If you don't use the Tests parameter when the watcher node is created, it automatically runs all the Default synthetic transactions and doesn't run any of the Non-default synthetic transactions. This means, for example, that the watcher node will be configured to run the Test-CsAddressBookService test, but won't be configured to run the Test-CsExumConnectivity test.
     
 - **Non-default** Tests that watcher nodes don't run by default. (For details, see the description of the Default type.) However, the watcher node can be enabled to run any of the Non-default synthetic transactions. You can do this when you create the watcher node (by using the New-CsWatcherNodeConfiguration cmdlet), or anytime after the watcher node has been created. Note that many of the Non-default synthetic transactions require extra setup steps. For more details about these steps, see [Special Setup Instructions for Synthetic Transactions](test-users-and-settings.md#special_synthetictrans).
     
@@ -101,7 +101,7 @@ After the prerequisites are met, you can configure the watcher node by following
     
 ## Install the Skype for Business Server 2015 Core Files and the RTCLocal Database
 
-To install the Skype for Business Server 2015 core files on a computer, complete the following procedure. The RTCLocal database will automatically be installed when you install the core files. Note that you don't need to install SQL Server on the watcher nodes. SQL Server Express will be automatically installed.
+To install the Skype for Business Server 2015 core files on a computer, complete the following procedure. The RTCLocal database is automatically installed when you install the core files. Note that you don't need to install SQL Server on the watcher nodes. SQL Server Express will be automatically installed.
   
 To install the Skype for Business Server 2015 core files and the RTCLocal database:
   
@@ -119,7 +119,7 @@ Get-CsWatcherNodeConfiguration
   
 If your watcher node computer is located inside your perimeter network, you can run the following command to verify the installation of Skype for Business Server 2015:
   
-Get-CsPinPolicy You'll receive information similar to this, depending on the number of PIN policies configured for use in your organization:
+Get-CsPinPolicy You receive information similar to this, depending on the number of PIN policies configured for use in your organization:
   
 Identity : Global
   
@@ -146,7 +146,7 @@ To install the agent files, follow the procedures listed in [Configure the Skype
 ## Configure a Watcher Node to Run Synthetic Transactions
 <a name="enable_synthetic_trans"> </a>
 
-After the System Center Operations Manager agent files have been installed, you must configure the watcher node itself. The steps you take to do this will vary, depending on whether your watcher node computer is inside your perimeter network or outside your perimeter network. 
+After the System Center Operations Manager agent files are installed, you must configure the watcher node itself. The steps you take to do this vary depending on whether your watcher node computer is inside your perimeter network or outside your perimeter network. 
   
 When you configure a watcher node, you must also choose the type of authentication method to be employed by that node. Skype for Business Server 2015 enables you to choose one of two authentication methods: Trusted Server or Credential Authentication. The following table shows the differences between these two methods:
   
@@ -160,7 +160,7 @@ When you configure a watcher node, you must also choose the type of authenticati
 
 If your watcher node computer lies inside the perimeter network, using Trusted Server authentication can greatly reduce administration tasks by maintaining a single certificate, rather than using numerous user account passwords.
   
-To configure Trusted Server authentication, you must first create a trusted application pool to host the watcher node computer. After you've created the trusted application pool, you must then configure synthetic transactions on that watcher node to run as trusted applications.
+To configure Trusted Server authentication, you must first create a trusted application pool to host the watcher node computer. After you create the trusted application pool, you must then configure synthetic transactions on that watcher node to run as trusted applications.
   
 > [!NOTE]
 > A trusted application is an application that is given trusted status to run as part of Skype for Business Server 2015, but is not a built-in part of the product. Trusted status means that the application will not be challenged for authentication each time it runs.
@@ -190,7 +190,7 @@ When this command completes and the trusted application is created, you must the
 Enable-CsTopology
 ```
 
-The watcher node computer account requires the ability to query CMS for some synthetic transactions. To allow this ability, add the computer account of the watcher node to the RTCUniversalReadOnlyAdmins security group. Once AD replication has occurred, restart the computer.
+The watcher node computer account requires the ability to query CMS for some synthetic transactions. To allow this ability, add the computer account of the watcher node to the RTCUniversalReadOnlyAdmins security group. After AD replication, restart the computer.
   
 To verify that the new trusted application has been created, type the following at the Skype for Business Server Management Shell prompt:
   
@@ -212,7 +212,7 @@ To assign a Default certificate:
 > [!NOTE]
 > If the Run button is disabled, you may need to first click Run under Install Local Configuration Store. 
   
-Do one of the following:
+Do one of the following things:
   
 - If you already have a certificate that can be used as the Default certificate, click Default in the Certificate wizard, and then click Assign. Follow the steps in the Certificate Assignment wizard to assign that certificate.
     
@@ -248,7 +248,7 @@ TrustedServer mode can be used only with computers that lie inside the perimeter
 ## Configure a Watcher Node to Use Negotiate
 <a name="enable_synthetic_trans"> </a>
 
-If your watcher node computer lies outside the perimeter network then you must follow a slightly different procedure in order to configure that watcher node to run synthetic transactions: in particular, you should not create a trusted application pool or a trusted application. That means that you will need to complete the next two tasks.
+If your watcher node computer lies outside the perimeter network then you must follow a slightly different procedure in order to configure that watcher node to run synthetic transactions: in particular, you shouldn't create a trusted application pool or a trusted application. That means that you need to complete the next two tasks.
   
 ### Update Membership in the RTC Local Read-Only Administrators Group
 

@@ -2,9 +2,9 @@
 title: "Trunk failover on outbound calls"
 ms.author: crowe
 author: CarolynRowe
-manager: serdars
+manager: pamgreen
 audience: ITPro
-ms.reviewer: NMuravlyannikov
+ms.reviewer: 
 ms.date: 12/04/2018
 ms.topic: article
 ms.service: msteams
@@ -12,6 +12,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 appliesto: 
   - Microsoft Teams

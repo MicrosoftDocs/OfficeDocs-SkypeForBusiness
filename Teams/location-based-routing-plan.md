@@ -2,12 +2,12 @@
 title: Plan Location-Based Routing for Direct Routing
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: roykuntz
-ms.date: 03/15/2023
+ms.date: 01/29/2024
 search.appverid: MET150
 description: Learn how to plan Location-Based Routing for Teams Phone Direct Routing.
 ms.localizationpriority: medium
@@ -15,6 +15,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 appliesto: 
   - Microsoft Teams
@@ -156,6 +157,7 @@ Outbound PSTN calls are also allowed for users when all the following are true:
 | Office location​ | LBR enabled ​| LBR enabled ​| - | Allowed​ |
 | Remote location​ | LBR enabled ​| LBR enabled ​| - | Not allowed​ |
 | User at unknown site | - ​| LBR enabled ​| True | Allowed​ |
+| User at non-PSTN Gateway Site | - | LBR enabled | True | Allowed |
 
 **Decisions flows**
 
@@ -181,7 +183,9 @@ When a user enabled for Location-Based Routing transfers a call, the system will
 
 - For a 1:1 Teams VoIP call and transfer to PSTN: The transfer will be permitted if the user being transferred is able to make that PSTN call at their location using the same PSTN Gateway as the user transferring the call. 
 
-- For an incoming or outgoing PSTN call and transfer to another Teams user: The transfer will be permitted if the person receiving the transferred call is able to make or receive that PSTN call at their current location using the PSTN gateway used by the ongoing PSTN call.  
+- For an incoming or outgoing PSTN call and transfer to another Teams user: The transfer will be permitted if the person receiving the transferred call is able to make or receive that PSTN call at their current location using the PSTN gateway used by the ongoing PSTN call.
+
+When the GatewayLbrEnabledUserOverride flag is enabled, users can be allowed to connect from unknown or known site, even if it differs from the PSTN gateway's site.
 
 ## Media bypass requirement for Location-Based Routing
 
@@ -193,7 +197,7 @@ Direct Voice over IP (VoIP) must not be deployed with any telephony equipment in
 
 ## Location-Based Routing for conferencing
 
-A user who is enabled for Location-Based Routing but who does not have an audio conferencing license on a PSTN call isn't allowed to start a conference with another user or PSTN number. Connecting to auto attendants or call queues is allowed.
+A user who is enabled for Location-Based Routing but who does not have an audio conferencing license on a PSTN call isn't allowed to start a conference with another user or PSTN number. Connecting to auto attendants is allowed.
 
 If the user has an audio conferencing license, the user must start a conference with the relevant users and call the PSTN through the conference bridge to start a conference call. If the user is already on a 1:1 PSTN call, the *People* modality in the Teams client will be hidden, preventing the Teams LBR user from adding a participant or escalating the existing call to a conference.  In this scenario, the call must be ended. The Teams LBR user will then need to create a conference and use the conferencing bridge to dial out to the required PSTN numbers. 
 
@@ -205,15 +209,13 @@ On-network conferencing for Audio Conferencing must NOT be deployed with any tel
 
 A Location-Based Routing enabled user on a PSTN call is not allowed to merge that call with another call. The following are not supported: recording the PSTN call and compliance recording of the PSTN call.
 
-## Inbound calls through voice apps (Auto Attendant or Call Queue)
+## Inbound calls through Auto attendants
 
-Inbound PSTN calls from a Location-Based Routing enabled gateway are allowed to connect to an auto attendant or call queue. 
+Inbound PSTN calls from a Location-Based Routing enabled gateway are allowed to connect to an Auto attendant. (Calls to a Call queue are not supported.)
 
-Users enabled for Location-Based Routing are supported to receive inbound call transfers for these applications when they are located at the same site the inbound PSTN call originates from. To support Local Media Optimization and Media Bypass in these scenarios, Calls Queues must be configured for transfer mode (Conference Mode = OFF).
+Users enabled for Location-Based Routing can receive inbound call transfers from Auto attendants as long as the inbound PSTN call is using the same Location-Based Routing rules listed earlier. 
  
-Call forwarding and simultaneous ringing to users and PSTN is allowed for voice app transfers. Completing the call to the target is subject to the same Location-Based Routing rules listed earlier.  
- 
-Forwarding to voicemail is also allowed.  
+Call forwarding and simultaneous ringing to users and PSTN is allowed for Auto attendant transfers. Completing the call to the target is subject to the same Location-Based Routing rules listed earlier. Forwarding to voicemail is also allowed.  
 
 ## Delegation
 
@@ -254,7 +256,9 @@ Location-Based Routing doesn't apply to the following types of interactions. Loc
 
 - Call park or retrieval of PSTN calls through Call Park 
 
-- An on-premises Skype for Business user or a Skype for Business Online user calls a Teams user  
+- An on-premises Skype for Business user calls a Teams user  
+
+- Call queue support
 
 
 

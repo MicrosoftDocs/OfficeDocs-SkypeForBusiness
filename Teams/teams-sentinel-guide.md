@@ -78,7 +78,7 @@ OfficeActivity
 ```
 
 > [!TIP]
-> To learn more about External and Guest access types in Teams see [Communicate with users from other organizations](communicate-with-users-from-other-organizations.md), or the [Participant Types](teams-security-guide.md#participant-types) section in the Teams Security Guide.
+> To learn more about External and Guest access types in Teams see [Communicate with users from other organizations](communicate-with-users-from-other-organizations.md), or the [Participant Types](teams-security-guide.md) section in the Teams Security Guide.
 
 ### Who recently joined / Whose role changed
 
@@ -136,7 +136,7 @@ For more information, see the query in the [Microsoft Sentinel community git hub
 
 ### Expanding your threat hunting opportunities
 
-Combining queries from resources like Azure Active Directory (Azure AD), or other Office 365 workloads can be used with Teams queries. For example, combine the detection of suspicious patterns in Azure AD SigninLogs, and use that output while hunting for Team Owners.
+Combining queries from resources like Microsoft Entra ID, or other Office 365 workloads can be used with Teams queries. For example, combine the detection of suspicious patterns in Microsoft Entra SigninLogs, and use that output while hunting for Team Owners.
 
 ```Kusto
 let timeRange = 1d;
@@ -222,7 +222,7 @@ Watch for updates to the [parser](https://github.com/Azure/Azure-Sentinel/blob/m
 
 You should also join (and contribute to) the [Azure Sentinel community](https://github.com/Azure/Azure-Sentinel/wiki). We are actively looking for feedback on this article, so please use the feedback option below. Thank you & Happy hunting.
 
-[Registering your application in Azure AD](/skype-sdk/trusted-application-api/docs/registrationinazureactivedirectory)
+[Registering your application in Microsoft Entra ID](/skype-sdk/trusted-application-api/docs/registrationinazureactivedirectory)
 
 [Turn audit log search on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off)
 

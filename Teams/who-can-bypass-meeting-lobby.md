@@ -1,10 +1,10 @@
 --- 
 title: IT Admins - Control who can bypass the meeting lobby in Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
-ms.reviewer: rbronisevsky
+ms.author: wlibebe
+author: wlibebe
+ms.reviewer:
 ms.date: 05/19/2023
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -12,6 +12,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 f1.keywords:
@@ -20,6 +21,8 @@ description: Learn how admins can configure the meeting lobby in Microsoft Teams
 ---
 
 # IT Admins - Control who can bypass the meeting lobby in Microsoft Teams
+
+**APPLIES TO:** ✔️Meetings ✔️Webinars ✖️Town halls
 
 The Teams meeting lobby prevents certain types of participants from joining a meeting until a meeting organizer, co-organizer, or presenter admits them. When a participant goes to the lobby, organizers, co-organizers, and presenters are notified and can choose to admit them to the meeting or not.
 
@@ -118,8 +121,8 @@ By default, the **People dialing in can bypass the lobby** policy is **Off**, bu
 
 There are two types of people outside your organization who can join meetings as verified participants:
 
-- Guests - people who have an [Azure Active Directory (Azure AD) B2B collaboration account](/azure/active-directory/external-identities/what-is-b2b) in your organization
-- External access users - people who have Azure AD accounts in a trusted organization, as defined in Teams [external access](manage-external-access.md)
+- Guests - people who have an [Microsoft Entra B2B collaboration account](/azure/active-directory/external-identities/what-is-b2b) in your organization
+- External access users - people who have Microsoft Entra accounts in a trusted organization, as defined in Teams [external access](manage-external-access.md)
 
 If you want all verified meeting participants from outside your organization to wait in the lobby, you can set the Who can bypass the lobby policy to **People in my org** or **Only organizers and co-organizers** (as long as a guest isn't the organizer or co-organizer). If you want only people from trusted organizations (external access users) to wait in the lobby, you can choose **People in my org and guests**.
 
@@ -148,11 +151,11 @@ Note that with these settings, anonymous users and dial-in callers will still wa
 
 ## Set meeting policies by using PowerShell
 
-You can set the meeting policies described in this article by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) PowerShell cmdlet with the following parameters:
+You can set the meeting policies described in this article by using the [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) PowerShell cmdlet with the following parameters:
 
-- [-AllowAnonymousUsersToJoinMeeting](/powershell/module/skype/set-csteamsmeetingpolicy?#-allowanonymoususerstojoinmeeting) to control if anonymous users can join meetings
-- [-AllowPSTNUsersToBypassLobby](/powershell/module/skype/set-csteamsmeetingpolicy#-allowpstnuserstobypasslobby) to control if people dialing in by phone can bypass the lobby
-- [-AutoAdmittedUsers](/powershell/module/skype/set-csteamsmeetingpolicy?#-autoadmittedusers) to control who can bypass the lobby
+- [-AllowAnonymousUsersToJoinMeeting](/powershell/module/teams/set-csteamsmeetingpolicy?#-allowanonymoususerstojoinmeeting) to control if anonymous users can join meetings
+- [-AllowPSTNUsersToBypassLobby](/powershell/module/teams/set-csteamsmeetingpolicy#-allowpstnuserstobypasslobby) to control if people dialing in by phone can bypass the lobby
+- [-AutoAdmittedUsers](/powershell/module/teams/set-csteamsmeetingpolicy?#-autoadmittedusers) to control who can bypass the lobby
 
 ## Run the lobby diagnostic tool
 

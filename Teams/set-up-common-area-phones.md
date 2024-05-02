@@ -1,20 +1,23 @@
 ---
 title: Set up the common area phones for Microsoft Teams
-ms.author: danismith
-author: DaniEASmith
-manager: serdars
-ms.date: 1/28/2022
-ms.reviewer: kponnus
+ms.author: tonysmit
+author: mstonysmith
+manager: pamgreen
+ms.reviewer: kvijagan
+ms.date: 10/11/2023
 ms.topic: article
-ms.tgt.pltfrm: cloud
-ms.service: msteams
-search.appverid: MET150
-ms.collection: 
-  - M365-voice
-  - Tier1
 audience: Admin
+ms.service: msteams
+ms.subservice: itpro-rooms
 appliesto: 
   - Microsoft Teams
+ms.collection: 
+  - M365-collaboration
+  - teams-rooms-devices
+  - M365-voice
+  - m365initiative-voice
+  - Tier1
+search.appverid: MET150
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
@@ -48,7 +51,7 @@ First, you need to purchase a **Teams Shared Devices** license and make sure tha
 4. Enter the number of licenses you need, and select **Buy**.
 
 > [!NOTE]
-> If you’re using Intune in your environment and have conditional access rules that require device compliance, you’ll need to assign an **Azure Active Directory Premium Plan 1**, and **Intune** license to the device account for the common area phone.
+> If you’re using Intune in your environment and have conditional access rules that require device compliance, you’ll need to assign an **Microsoft Entra ID P1**, and **Intune** license to the device account for the common area phone.
 >
 > Common area phones can be impacted by conditional access rules and other identity configurations, like Multi-Factor Authentication. See [Authentication best practices for Teams Android devices](devices/authentication-best-practices-for-android-devices.md) to learn more.
 
@@ -92,13 +95,13 @@ Use policies to control which features are available to users on common area pho
 
 The Teams IP Phone policy can only be modified if the account signing into the phone is licensed with something other than a **Teams Shared Devices** license.  If licensed with a Microsoft 365 E3 or E5 subscription, or an Office 365 Enterprise E1, E3, or E5 subscription, you can modify the IP Phone policy.  If you're using a **Teams Rooms** license on your common area phone account, it will only let you use `MeetingRoomSignIn` mode. `MeetingRoomSignIn` mode isn't available on most common area phones. For more information about supported overrides for the phone interface, see [Set Microsoft Teams Android devices user interface](/microsoftteams/devices/teams-android-devices-user-interface#override-automatic-user-interface-detection).
 
-Using the Teams IP Phone policy, set the [SignInMode parameter](/powershell/module/skype/new-csteamsipphonepolicy#parameters) to `CommonAreaPhoneSignIn` to enable the common area phone experience on the Teams phone device.
+Using the Teams IP Phone policy, set the [SignInMode parameter](/powershell/module/teams/new-csteamsipphonepolicy#parameters) to `CommonAreaPhoneSignIn` to enable the common area phone experience on the Teams phone device.
 
-To configure other parameters, consider creating an [IP phone policy](/powershell/module/skype/new-csteamsipphonepolicy). For example, if a common area phone is used in a public area, set an IP phone policy to restrict searching your organization's Global Address Book and block hot-desking. To learn more, see [Set Teams Android devices user interface](/microsoftteams/devices/Teams-Android-devices-user-interface).
+To configure other parameters, consider creating an [IP phone policy](/powershell/module/teams/new-csteamsipphonepolicy). For example, if a common area phone is used in a public area, set an IP phone policy to restrict searching your organization's Global Address Book and block hot-desking. To learn more, see [Set Teams Android devices user interface](/microsoftteams/devices/Teams-Android-devices-user-interface).
 
 ### Calling policies
 
-Use calling policies to enable private calls, using call forwarding, or simultaneous ring on common area phones. To learn more, see [Calling and call-forwarding in Teams](teams-calling-policy.md).
+Use calling policies to enable private calls, using call forwarding, or simultaneous ring on common area phones. To learn more, see [Configure calling policies in Teams](teams-calling-policy.md).
 
 By default, call park isn't enabled for common area phones. You'll need to create a policy to enable it. To learn more, see [Call park and retrieve in Microsoft Teams](call-park-and-retrieve.md).
 
@@ -148,13 +151,13 @@ The following advanced calling features are available for supported Teams phone 
 
 - [Call park and retrieve](call-park-and-retrieve.md).
 - [Cloud-based voicemail through Exchange Online Plan 2](set-up-phone-system-voicemail.md).
-  - To disable cloud-based voicemail, see [Voicemail user settings using PowerShell](/powershell/module/skype/set-csonlinevoicemailusersettings).
+  - To disable cloud-based voicemail, see [Voicemail user settings using PowerShell](/powershell/module/teams/set-csonlinevoicemailusersettings).
 - [Call queues](create-a-phone-system-call-queue.md).
 - [Auto attendants](create-a-phone-system-auto-attendant.md).
-- [Group call pick-up](call-sharing-and-group-call-pickup.md).
-- [Forwarding rules](teams-calling-policy.md).
+- [Group call pickup](call-sharing-and-group-call-pickup.md).
+- [Forwarding rules](user-call-settings.md).
 
-To use these advanced calling features on supported Teams phone device models, you can turn on the **Advanced calling** toggle in the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851) or on your Teams phone device that is signed into your Teams Shared Devices account.
+To use these advanced calling features on a supported Teams phone device model, you can turn on the **Advanced calling** toggle in the [Teams admin center](https://admin.teams.microsoft.com/) or on your Teams phone device that is signed into your Teams Shared Devices account. Once you turn on advanced calling home screen experience on the phone, the device will update.
 
 Turning on advanced calling capabilities requires you to purchase hardware models that can support all required capabilities.
 
@@ -171,6 +174,27 @@ Turning on advanced calling capabilities requires you to purchase hardware model
 
 1. After signing into your Teams phone device, navigate to **Settings** > **Device settings** > **Admin only** > **Calling**.
 1. Find the **Advanced calling** toggle and turn it on.
+
+## Step 7 - Set up Hotline/PLAR on common area phones (optional)
+
+You can set up common area phones as hotline phones also known as PLAR (Private Line Auto Ringdown) phones. You can program this phone to autodial a pre-configured PSTN number or a directory contact when the phone handset is picked up.
+
+### Turn on Hotline in the Teams admin center
+
+1. Sign into the [Teams admin center](https://admin.teams.microsoft.com/dashboard) with a Microsoft 365 admin account.
+1. From the left navigation, select **Teams devices**, select **Phones** and then select the **Configuration profiles** tab.
+1. From the list, select the configuration profile assigned to your common area phone.
+1. Under the **Call settings** section, turn on the **Enable hotline** toggle and then select **Save**.
+
+ > [!NOTE]
+ > Verify the Advanced Calling setting is disabled when you are enabling the hotline setting in Teams admin center. Also verify the Team app version on the Android phone is version 1449/1.0.94.2023082303 or later.
+
+### Turn on Hotline from a Teams phone device
+
+1. Sign into your Teams phone device and select **Settings** > **Device settings** > **Admin only** > **Calling** > **Hotline**.
+1. Enter a contact or phone number to be autodialed.
+1. Enter the display name you want to show on the phone's home screen.
+1. Select **Save**.
 
 ## Next steps
 

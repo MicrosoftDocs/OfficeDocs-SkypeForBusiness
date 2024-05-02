@@ -1,17 +1,18 @@
 ---
 title: Outbound call restrictions - Audio Conferencing & PSTN calls
 ms.reviewer: 
-ms.date: 01/23/2018
-ms.author: heidip
-author: MicrosoftHeidi
-manager: serdars
+ms.date: 02/22/2024
+ms.author: jenz
+author: jenzamora
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 ms.tgt.pltfrm: cloud
 search.appverid: MET150
 ms.collection: 
-  - M365-voice
   - Tier1
+  - m365initiative-meetings
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -21,19 +22,19 @@ f1.keywords:
 ms.custom: 
   - Audio Conferencing
   - seo-marvel-mar2020
-description: "Administrators can control the type of audio conferencing and end-user PSTN calls that can be made by users."
+description: "Administrators can control the type of audio conferencing and end-user PSTN calls that users can make."
 ---
 
 # Outbound calling restriction policies for Audio Conferencing and user PSTN calls
 
-As an administrator, you can use outbound call controls to restrict the type of audio conferencing and end-user Public Switched Telephone Network (PSTN) calls that can be made by users in your organization.
+As an admin, you can use outbound call controls to restrict the types of audio conferencing and end-user Public Switched Telephone Network (PSTN) calls that users in your organization can make.
 
 Outbound call controls can be applied on a per-user basis or on a tenant basis and provide the following two controls to independently restrict each type of outbound calls. By default, both controls are set to allow international and domestic outbound calls.
 
 |Control|Description|Control options|
 |:-----|:-----|:-----|
 |Audio Conferencing PSTN calls|Restricts the type of outbound </br>calls that are allowed from within </br>meetings organized by a user.|Any destination (default)</br>In the same country or region as the organizer </br> [Zone A countries or regions](audio-conferencing-zones.md) only </br>Don't allow|
-|End-user PSTN calls|Restricts the type of calls </br>that can be made by a user.|International and Domestic (default)</br>Domestic</br>None|
+|End-user PSTN calls|Restricts the type of calls </br>that users can make.|International and Domestic (default)</br>Domestic</br>None|
 
 To find out which countries and regions are considered Zone A, see [Country and region zones for Audio Conferencing](audio-conferencing-zones.md).
 
@@ -57,7 +58,7 @@ To find out which countries and regions are considered Zone A, see [Country and 
 
 ### Using PowerShell
 
-Outbound call restrictions are controlled by a single policy called OnlineDialOutPolicy, which has a restriction attribute for each. The policy cannot be customized, rather there are pre-defined policy instances for each combination of the settings.
+A single policy called OnlineDialOutPolicy controls outbound call restrictions, which have a restriction attribute for each. The policy can't be customized, but there are pre-defined policy instances for each combination of settings.
 
 You can use the Get-CSOnlineDialOutPolicy cmdlet to view the outbound calling policies and use the following command for the setup.
 
@@ -73,7 +74,7 @@ Grant-CsDialoutPolicy -Identity <username> -PolicyName <policy name>
 Grant-CsDialoutPolicy -PolicyName <policy name>  -Global 
 ```
 
-All users of the tenant who don't have any dialout policy assigned will get this policy. Other users remain with their current policy.
+All users of the tenant who don't have any dial-out policy assigned get this policy. Other users remain with their current policy.
 
 **Check the current policy at the tenant level with the following cmdlet**.
 
@@ -89,9 +90,9 @@ The following table provides an overview of each policy.
 |Identity='tag:DialoutCPCDomesticPSTNInternational'  |    User in the conference can only dial out to   domestic numbers, and this user can make outbound calls to international and domestic numbers.    |
 |    Identity='tag:DialoutCPCDisabledPSTNInternational'    |    User in the conference can't dial out. This user can make outbound calls to international and domestic numbers.    |
 |    Identity='tag:DialoutCPCInternationalPSTNDomestic'    |    User in the conference can dial out to   international and domestic numbers, and this user can only make outbound calls to domestic PSTN number.    |
-|    Identity='tag:DialoutCPCInternationalPSTNDisabled'    |    User in the conference can dial out to   international and domestic numbers, and this user cannot make any outbound calls to PSTN number besides emergency numbers.    |
+|    Identity='tag:DialoutCPCInternationalPSTNDisabled'    |    User in the conference can dial out to   international and domestic numbers, and this user can't make any outbound calls to PSTN number besides emergency numbers.    |
 |    Identity='tag:DialoutCPCandPSTNDomestic'    |    User in the conference can only dial out to   domestic numbers, and this user can only make outbound call to domestic PSTN numbers.    |
-|    Identity='tag:DialoutCPCDomesticPSTNDisabled'    |    User in the conference can only dial out to   domestic numbers, and this user cannot make any outbound calls to PSTN number besides emergency numbers.    |
+|    Identity='tag:DialoutCPCDomesticPSTNDisabled'    |    User in the conference can only dial out to   domestic numbers, and this user can't make any outbound calls to PSTN number besides emergency numbers.    |
 |    Identity='tag:DialoutCPCDisabledPSTNDomestic'    |    User in the conference can't dial out, and this user can only make outbound call to domestic PSTN numbers.    |
 |    Identity='tag:DialoutCPCandPSTNDisabled'    |    User in the conference can't dial out, and this user can't make any outbound calls to PSTN number besides emergency numbers.    |
 |    Identity='tag:DialoutCPCZoneAPSTNInternational'    |    User in the conference can only dial out to [Zone A countries and regions](audio-conferencing-zones.md), and this user can make outbound calls to international and domestic numbers.    |

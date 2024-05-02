@@ -2,13 +2,14 @@
 title: Teams voice Contoso case study overview
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.date: 06/17/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - m365solution-voice
   - highpri
   - Tier1

@@ -1,21 +1,23 @@
 ---
 title: Remotely configure layout, scale, and resolution on Teams Rooms displays
 ms.author: tonysmit
-author: tonysmit
-ms.reviewer: sohailta
-ms.date: 01/24/2023
-manager: serdars
-audience: ITPro
+author: mstonysmith
+ms.reviewer: yoojinjung
+ms.date: 10/10/2023
+manager: pamgreen
 ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
+appliesto: 
+  - Microsoft Teams
+ms.collection: 
+  - M365-collaboration
+  - teams-rooms-devices
+  - Tier1
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
-ms.collection: 
-  - M365-collaboration
-  - Teams_ITAdmin_Rooms
-  - Tier1
 description: Remotely configure the scale, resolution, and default layout of displays on Microsoft Teams Rooms systems.
 ---
 
@@ -25,18 +27,32 @@ If you have multiple Teams Rooms systems deployed in your organizations, you can
 
 For more information about the Teams Rooms XML configuration file, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md).
 
-## Set default layout when you have a single display
+## Set default meeting layout for single display mode
 
-If you only have one front of room display, you can set the default layout that's used when a meeting starts. To set the default layout, add `SingleFoRDefaultContentLayout` to your XML configuration file with one of the two following options:
+If you only have one front of room display and the Dual monitor mode is turned OFF on Teams Admin Center or XML, you can set the default meeting layout that's used when a meeting starts. If you don't set a default meeting layout for a room, the default layout will be set to Gallery. To change the default meeting layout, add one of the two following options to your XML configuration file:
+- `<DefaultFoRExperience>1</DefaultFoRExperience>` Front Row
+- `<SingleFoRDefaultContentLayout>0</SingleFoRDefaultContentLayout>` Focus on content (you will see Gallery until someone shares content)
 
-- `0` Content only
-- `1` Content and people (default)
-
-For example, to default to the "content and people" layout, use the following:
+For example, to default to the Gallery (content and people) layout, use the following:
 
 ```xml
 <SingleFoRDefaultContentLayout>1</SingleFoRDefaultContentLayout>
+<DefaultFoRExperience>0</DefaultFoRExperience>
 ```
+
+End-users can switch from the default display layout using the view switcher during meetings.
+
+## Set default meeting layout for dual display mode
+
+If you have two front of room displays and the Dual monitor mode is turned ON on Teams Admin Center or XML, you can choose the default meeting layout between Gallery and Front Row. "Focus on content" is not available on dual display mode. If you don't set a default meeting layout for a room, the default layout will be set to Gallery. To see Front Row as the default layout, add `<DefaultFoRExperience>1</DefaultFoRExperience>` to your XML configuration file.
+
+For example, to default to the Gallery layout, use the following:
+
+```xml
+<DefaultFoRExperience>0</DefaultFoRExperience>
+```
+
+End-users can switch from the default display layout using the view switcher during meetings.
 
 ## Set front of room scale and resolution
 
@@ -74,3 +90,4 @@ To set the scale and resolution for your extended front of room display, add the
     <ExtendedFoRDisplayScaling>100</ExtendedFoRDisplayScaling> 
 </ExtendedFoRDisplay>  
 ```
+

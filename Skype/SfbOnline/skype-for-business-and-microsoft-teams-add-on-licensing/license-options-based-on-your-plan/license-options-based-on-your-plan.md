@@ -1,8 +1,8 @@
 ---
 ms.date: 11/28/2017
 title: "License options based on your plan"
-ms.author: tonysmit
-author: tonysmit
+ms.author: serdars
+author: pamgreen
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: article

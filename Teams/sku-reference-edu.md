@@ -1,9 +1,9 @@
 ---
 title: Education SKU reference
-author: DaniEASmith
-ms.author: danismith
-manager: serdars
-ms.reviewer: karsmith
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jacktremper
+ms.reviewer: 
 ms.date: 03/10/2020
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -32,7 +32,6 @@ Use this reference when using PowerShell to identify users in your organization 
 |---------|---------|---------|
 |Office 365 Education E3 for Faculty |ENTERPRISEPACK_FACULTY |e4fa3838-3d01-42df-aa28-5e0a4c68604b |
 |Office 365 A1 for Faculty |STANDARDWOFFPACK_FACULTY |94763226-9b3c-4e75-a931-5c89701abe66 |
-|Office 365 A1 Plus for Faculty |STANDARDWOFFPACK_IW_FACULTY |78e66a63-337a-4a9a-8959-41c6654dfb56 |
 |Office 365 A5 for Faculty |ENTERPRISEPREMIUM_FACULTY |a4585165-0533-458a-97e3-c400570268c4 |
 |Office 365 A5 without Audio Conferencing for faculty |ENTERPRISEPREMIUM_NOPSTNCONF_FACULTY |9a320620-ca3d-4705-a79d-27c135c96e05 |
 |Office 365 Education E1 for Faculty |STANDARDPACK_FACULTY |a19037fc-48b4-4d57-b079-ce44b7832473 |
@@ -67,10 +66,8 @@ Use this reference when using PowerShell to identify users in your organization 
 |Office 365 A5 without Audio Conferencing for Students use benefit |ENTERPRISEPREMIUM_NOPSTNCONF_STUUSEBNFT |bc86c9cd-3058-43ba-9972-141678675ac1 |
 |Office 365 Education for Homeschool for Students |STANDARDWOFFPACK_HOMESCHOOL_STU |afbb89a7-db5f-45fb-8af0-1bc5c5015709 |
 |Office 365 A1 for Students (for Device) |STANDARDWOFFPACK_STUDENT_DEVICE |160d609e-ab08-4fce-bc1c-ea13321942ac |
-|Office 365 A1 Plus for students     |STANDARDWOFFPACK_IW_STUDENT |e82ae690-a2d5-4d76-8d30-7c6e01e6022e |
 
 ## Related topics
 
 - [Assign policies to large sets of users in your school](batch-group-policy-assignment-edu.md)
-
 

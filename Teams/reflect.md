@@ -1,12 +1,12 @@
 ---
 title: IT Admin Guide to Reflect in Microsoft Teams
-author: DaniEASmith
-ms.author: danismith
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jacktremper
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: karsmith
+ms.reviewer: 
 ms.date: 04/27/2021
 description: An IT Admin guide to Reflect in Microsoft Teams for Education.
 ms.localizationpriority: high
@@ -63,7 +63,7 @@ If you have previously defined that each app needs to be allowed, please go to t
 > To have access to the Reflect app, you will need an A1, A3, or A5 license for Microsoft 365.
 
 > [!TIP]
-> For more details, read [how to allow an app or to add it to a class team](manage-apps.md#allow-and-block-apps).
+> For more details, read [how to allow an app or to add it to a class team](manage-apps.md#allow-or-block-apps).
 
 ## Where do educators find Reflect?
 Reflect is available by default in any Class or Staff team. To access the app, navigate to your desired team, then select the Reflect tab.

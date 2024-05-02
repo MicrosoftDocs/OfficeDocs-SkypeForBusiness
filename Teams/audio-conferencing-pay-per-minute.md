@@ -1,18 +1,20 @@
 ---
 title: "Audio Conferencing pay-per-minute"
-ms.author: heidip
-author: MicrosoftHeidi
-manager: serdars
+ms.author: jenz
+author: jenzamora
+manager: pamgreen
 ms.reviewer: mikedav, oscarr
-ms.date: 11/28/2017
+ms.date: 02/21/2024
 ms.topic: conceptual
 ms.assetid: d050c8c3-1cd2-45c8-8a6d-2e86e938f356
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 search.appverid: MET150
 ms.collection: 
-  - M365-voice
+  - m365initiative-meetings
   - M365-collaboration
+  - m365initiative-meetings
   - Tier1
 audience: Admin
 appliesto: 
@@ -33,11 +35,11 @@ In addition to the standard Audio Conferencing per-user license, Volume and Lice
 You can find out if your [country/region is supported](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) for Audio Conferencing.
 
 > [!NOTE]
-> Because this offer is only available to Volume and Licensing customers, you will need to work with your account representative to acquire these licenses.
+> Because this offer is only available to Volume and Licensing customers, you need to work with your account representative to acquire these licenses.
   
 ## Need some details?
 
-Whereas the Audio Conferencing per-user license offer includes dial-in usage and some dial-out usage, Audio Conferencing pay-per-minute **allows you to pay for all of your Audio Conferencing usage on a per-minute basis without paying for a per-user monthly license**. With this, all dial-in and dial-out calls will be charged on a per-minute basis, including:
+Whereas the Audio Conferencing per-user license offer includes dial-in usage and some dial-out usage, Audio Conferencing pay-per-minute **allows you to pay for all of your Audio Conferencing usage on a per-minute basis without paying for a per-user monthly license**. With this license, all dial-in and dial-out calls are charged on a per-minute basis, including:
   
 - Inbound calls to toll Audio Conferencing numbers of your organization.
 
@@ -54,9 +56,9 @@ To enable Audio Conferencing pay-per-minute for users in your organization, see 
 
 ## Why is it best for you?
 
-- Pay per-minute will only be charged on a per-minute basis for each inbound or outbound call placed by each attendee during a scheduled meeting (rates vary for toll or toll-free call and by destination) instead of using the Teams application in a mobile device or PC.
+- Pay per-minute are only charged on a per-minute basis for each inbound or outbound call placed by each attendee during a scheduled meeting (rates vary for toll or toll-free call and by destination) instead of using the Teams application in a mobile device or PC.
 
-- Capability to manage cost since admins can control to restrict the types of dial-outs (international and domestic) that can be done from the meetings of an organizer. See [Outbound calling restriction policies for Audio Conferencing and user PSTN calls](./outbound-calling-restriction-policies.md)
+- Capability to manage cost since admins can control to restrict the types of dial-outs (international and domestic) that can be done from the meetings of an organizer. See [Outbound calling restriction policies for Audio Conferencing and user PSTN calls](./outbound-calling-restriction-policies.md).
 
 - If you have Audio Conferencing pay-per-minute licenses, you don't have to assign Communications Credits licenses separately to each user specifically for Audio Conferencing usage (you might still need to assign them for other services).
 
@@ -64,11 +66,11 @@ To enable Audio Conferencing pay-per-minute for users in your organization, see 
 
 - More flexibility in pricing for customers who don't need all users on a subscription basis.
 
-- Enable Audio Conferencing pay-per-minute along with a monthly subscription of E5 or a standalone Audio Conferencing subscription, both services will continue to work the same way. Changes will have no effect on the operations of Audio Conferencing or Communications Credits.
+- Enable Audio Conferencing pay-per-minute along with a monthly subscription of E5 or a standalone Audio Conferencing subscription, both services continue to work the same way. Changes have no effect on the operations of Audio Conferencing or Communications Credits.
   
 ## Want to find out more about pricing?
 
- **Looking for prices?** See the following:
+ **Looking for prices?** See the following articles:
 
 - [Pricing for Audio Conferencing](https://www.microsoft.com/microsoft-teams/audio-conferencing)
 

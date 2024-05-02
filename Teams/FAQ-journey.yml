@@ -1,9 +1,9 @@
 ### YamlMime:FAQ
 metadata:
   title: Upgrading from Skype for Business to Teams FAQ
-  author: MikePlumleyMSFT
-  ms.author: mikeplum
-  manager: serdars
+  author: MicrosoftHeidi
+  ms.author: heidip
+  manager: jtremper
   ms.topic: faq
   ms.service: msteams
   audience: admin
@@ -156,7 +156,7 @@ sections:
           
       - question: What does this mean from a licensing perspective? How will customers pay for capabilities such as Audio Conferencing and calling in Teams?
         answer: |
-          Teams is available in Microsoft 365 and Office 365 suites. Capabilities that are premium workloads in Skype for Business Online today will continue to be premium workloads in Teams. Existing licensing investments made by customers carry forward to Teams. For example, if a customer has purchased Audio Conferencing standalone or as part of E5 with Skype for Business, Audio Conferencing will be enabled in Teams as it's available today.
+          Teams is available in most Microsoft 365 and Office 365 suites. Capabilities that are premium workloads in Skype for Business Online today will continue to be premium workloads in Teams. Existing licensing investments made by customers carry forward to Teams. For example, if a customer has purchased Audio Conferencing standalone or as part of E5 with Skype for Business, Audio Conferencing will be enabled in Teams as it's available today.
       
       - question: What is the guidance for customers already deployed on Phone System (Cloud PBX) in Skype for Business Online?
         answer: |

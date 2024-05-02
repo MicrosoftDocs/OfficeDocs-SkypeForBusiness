@@ -1,7 +1,7 @@
 ---
 title: "Deploy media bypass in Cloud Connector Edition"
 ms.reviewer: 
-ms.author: crowe
+ms.author: serdars
 author: CarolynRowe
 manager: serdars
 ms.date: 11/15/2017
@@ -15,7 +15,7 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom:
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
-description: "Read this topic to learn about steps to deploy media bypass with Cloud Connector Edition version 2.0 and later."
+description: "Read this article to learn about steps to deploy media bypass with Cloud Connector Edition version 2.0 and later."
 ---
 
 # Deploy media bypass in Cloud Connector Edition
@@ -23,7 +23,7 @@ description: "Read this topic to learn about steps to deploy media bypass with C
 > [!Important]
 > Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](/MicrosoftTeams/direct-routing-landing-page).
 
-Read this topic to learn about steps to deploy media bypass with Cloud Connector Edition version 2.0 and later. 
+Read this article to learn about steps to deploy media bypass with Cloud Connector Edition version 2.0 and later. 
   
 Media bypass allows a client to send media directly to the Public Switched Telephone Network (PSTN) next hop—a gateway or Session Border Controller (SBC)—and eliminate the Cloud Connector Edition component from the media path. See also [Plan for media bypass in Cloud Connector Edition](plan-for-media-bypass-in-cloud-connector-edition.md).
   
@@ -31,7 +31,7 @@ Media bypass allows a client to send media directly to the Public Switched Telep
 
 To enable media bypass, you must configure the DNS name of the media bypass web service and turn on media bypass in the tenant configuration. The media bypass web service deploys automatically on every Mediation Server. A tenant administrator must pick a name for a hybrid voice service (site), and this name should be from a SIP domain registered for hybrid voice. The service name should be the same across all Cloud Connector appliances and all PSTN sites regardless of the client location. The web service should only be available internally on the network.
   
-A tenant administrator must configure a DNS A record in the internal production Active Directory. If you have a complex multi-site environment, see the example in [Example: media bypass web site DNS records in complex multi-site environments](deploy-media-bypass-in-cloud-connector.md#Example). The DNS record should only resolve for internal network clients; it should not resolve for external network clients.
+A tenant administrator must configure a DNS A record in the internal production Active Directory. If you have a complex multi-site environment, see the example in [Example: media bypass web site DNS records in complex multi-site environments](deploy-media-bypass-in-cloud-connector.md#Example). The DNS record should only resolve for internal network clients; it shouldn't resolve for external network clients.
   
 After configuring DNS, connect to Skype for Business Online by using remote PowerShell with Skype for Business Administrator credentials. For more information, see [Set up your computer for Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md) .
   
@@ -43,7 +43,7 @@ $mediabypass = New-CsNetworkMediaBypassConfiguration -AlwaysBypass $true -Enable
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ```
 
-Enabling media bypass is a two-step process. The New-CsNetworkMedia cmdlet does not immediately save the new configuration; it only creates the settings in memory. The object created by this cmdlet must be saved to a variable, and then assigned to the MediaBypassSettings property of the network configuration. For more information, see [Example: media bypass web site DNS records in complex multi-site environments](deploy-media-bypass-in-cloud-connector.md#Example).
+Enabling media bypass is a two-step process. The New-CsNetworkMedia cmdlet doesn't immediately save the new configuration; it only creates the settings in memory. The object created by this cmdlet must be saved to a variable, and then assigned to the MediaBypassSettings property of the network configuration. For more information, see [Example: media bypass web site DNS records in complex multi-site environments](deploy-media-bypass-in-cloud-connector.md#Example).
   
 The replication between the on-premises and online components can take up to 24 hours, so Microsoft recommends that you run the necessary commands before enabling users.
   
@@ -90,7 +90,7 @@ $mediabypass = New-CsNetworkMediaBypassConfiguration  -Enabled $false
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ```
 
-After making the change, it could take some time for changes to replicate to all Cloud Connectors. To check the status of replication, run the following cmdlet in PowerShell on Cloud Connector Mediation servers: 
+Once you make the change, it could take some time for changes to replicate to all Cloud Connectors. To check the status of replication, run the following cmdlet in PowerShell on Cloud Connector Mediation servers: 
   
 ```powershell
 Get- CsNetworkConfiguration -LocalStore
@@ -113,7 +113,7 @@ An administrator will also need to remove the web addresses for media bypass fro
 ## Example: media bypass web site DNS records in complex multi-site environments
 <a name="Example"> </a>
 
-Clients will receive the web address of the media bypass web service from an internal DNS server. The name of the web service will be the same across all Cloud Connector appliances and Cloud Connector PSTN sites. In a complex multi-site environment, we recommend using the Windows 2016 DNS Policy for Geo-Location Based Traffic Management, so clients can be redirected to the web service which is local for their network. 
+Clients receive the web address of the media bypass web service from an internal DNS server. The name of the web service will be the same across all Cloud Connector appliances and Cloud Connector PSTN sites. In a complex multi-site environment, we recommend using the Windows 2016 DNS Policy for Geo-Location Based Traffic Management, so clients can be redirected to the web service, which is local for their network. 
   
 Fore more information about Windows 2016 DNS Policies, see [Use DNS Policy for Geo-Location Based Traffic Management with Primary Servers](/windows-server/networking/dns/deploy/primary-geo-location).
   

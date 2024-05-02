@@ -7,11 +7,11 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.subservice: teams-apps
-ms.date: 06/27/2023
+ms.date: 08/16/2023
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.reviewer: 
+ms.reviewer: mbmanoj
 search.appverid: 
 f1keywords: 
 description: Learn how to set Adobe Acrobat as a default PDF viewer to view and edit PDF files in Microsoft Teams.
@@ -61,7 +61,7 @@ To assign and make the Adobe Acrobat app available for all users, follow these s
 
 1. Select **Save**.
 
-1. Optionally, you can allow SSO with Microsoft Azure Active Directory identity if you own a license of Adobe Acrobat. We recommend configuring SSO using the instructions available at [Set up identity and single sign-on](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
+1. Optionally, you can allow SSO with Microsoft Entra identity if you own a license of Adobe Acrobat. We recommend configuring SSO using the instructions available at [Set up identity and single sign-on](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
 
 After you complete the configuration, Teams uses Adobe Acrobat app as the default file handler for PDF files.
 
@@ -80,4 +80,4 @@ Know the following information about this functionality:
 * If you face any issues to sign in to the Adobe Acrobat app in the Teams desktop client, then use [Teams in browser](https://teams.microsoft.com/) to sign in.
 * Sign-in to a free [Adobe account](https://acrobat.adobe.com/us/en/) to comment or annotate on the PDF files. The app in Teams can offer functionality such as annotating, organizing, compressing, and protecting PDF files. For a complete list of functionality and the prerequisites, see [Manage PDF files in Teams with Acrobat app](https://www.adobe.com/content/dam/dx-dc/pdf/ue/acrobat-msft-teams-feature-comp-ue.pdf).
 * When you collaborate on a PDF document, it's temporarily stored (for up to 24 hours) on the Adobe servers in the region in which you're located. This temporary storage is to facilitate transient processing. Your documents are encrypted end-to-end when being transferred from your local filesystem to the server and remain encrypted on the server as well. See [security for Acrobat](https://aka.ms/Adobe_Acrobat_Security).
-* Currently available for Commercial cloud instances only.
+* The feature is available only for the Commercial environments and not for GCC, GCC(H), and DoD environments.

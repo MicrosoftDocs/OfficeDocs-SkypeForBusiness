@@ -1,7 +1,7 @@
 ---
 title: Coexistence with Skype for Business
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: Serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -73,14 +73,14 @@ When creating a new conversation, the factors that determine how the thread is r
 - Whether the conversation is possible. If a user has a Skype for Business account homed on-premises, that user can't use the Teams client for in-tenant interoperability or for federation. That user can only use the Skype for Business client for interoperability and federation. Note that Teams to Teams communication is always possible in-tenant.
 
 ## Chat and call routing
-The tables below show which client in a given mode will receive a call from the originator (three leftmost columns). Which cient receives the call depends on the originator's mode, the client chosen, and where the Skype for Business account is homed (on-premises or online).
+The tables below show which client in a given mode will receive a call from the originator (three leftmost columns). Which client receives the call depends on the originator's mode, the client chosen, and where the Skype for Business account is homed (on-premises or online).
 
 In the tables that follow:
 
 - **Skype for Business*** represents any of the following modes: *SfBOnly*, *SfBWithTeamsCollab*, *SfBWithTeamsCollabAndMeetings*.
 - *Italic text* highlights an interop conversation.
 - **Not Possible** represents a situation in which the chat or call is not possible. The originator must use Skype for Business instead in these cases. This is one of the reasons why Microsoft's prescriptive guidance to on-premises and hybrid customers is to use a mode other than Islands (typically SfBWithTeamsCollab) as the starting point for their upgrade journey to Teams.
-
+- Islands users using Teams can initiate federated group chats.
 
 ### In-tenant routing for new chats or calls
 
@@ -125,7 +125,7 @@ The tables below capture routing of in-tenant chat and calls, and are valid for 
 
 The tables below capture routing of federated calls and chats, and are valid for new calls or chats. They describe which client will receive a new call or chat, if originated by a user on the left, to a federated target user on the right. In summary, if the conversation is possible as described above, messages sent to TeamsOnly users will always land in Teams; messages sent to Skype for Business mode users will always land in Skype for Business; messages sent to Islands users will always land in Skype for Business regardless of the client from which they were sent. 
 
-Routing for federated chats and calls differs from in-tenant routing in that Islands users will always receive a federated communication in Skype for Business. This is because the federated partner may not yet be using Teams. Routing to Skype for Business for any islands mode recipeint ensures messages will always be received.  Routing to Teams could potentially result in missed communication if the intended recipient does not use Teams. 
+Routing for federated chats and calls differs from in-tenant routing in that Islands users will always receive a federated communication in Skype for Business. This is because the federated partner might not yet be using Teams. Routing to Skype for Business for any islands mode recipient ensures messages will always be received.  Routing to Teams could potentially result in missed communication if the intended recipient does not use Teams. 
 
 #### Table 2a: federated new chat or call routing to a TeamsOnly mode recipient
 
@@ -150,7 +150,7 @@ Routing for federated chats and calls differs from in-tenant routing in that Isl
 |Skype for Business |Skype for Business| On-premises|&boxv;| Skype for Business|
 |||||
 
-#### Table 2c: federated new chat or call routing to a recipient in an Skype for Business mode
+#### Table 2c: federated new chat or call routing to a recipient in Skype for Business mode
 
 <br>
 
@@ -225,7 +225,7 @@ In order to align presence and reachability in pre-existing threads, the target'
 
 ### Federation and interop with Office 365 operated by 21Vianet
 
-Federation and interop between multi-tenant Office 365 and Office 365 operated by 21Vianet are supported when the multi-tenant Office 365 users are in Teams Only mode. In such a scenario, Skype for Business Online users in Office 365 operated by 21Vianet will be able to communicate with Teams Only users in multi-tenant Office 365 through chats and calls. The following table shows the supported scenarios in this configuration:
+Federation and interop between multitenant Office 365 and Office 365 operated by 21Vianet are supported when the multitenant Office 365 users are in Teams Only mode. In such a scenario, Skype for Business Online users in Office 365 operated by 21Vianet will be able to communicate with Teams Only users in multitenant Office 365 through chats and calls. The following table shows the supported scenarios in this configuration:
  
 |Scenario|Origin|Recipient|Supported?|
 |---|---|---|---|

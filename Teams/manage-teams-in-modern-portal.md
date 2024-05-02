@@ -1,13 +1,13 @@
 ---
 title: Manage teams in the Microsoft Teams admin center
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-ms.reviewer: islubin, jastark
+ms.reviewer: jastark
 ms.date: 06/12/2023
 ms.localizationpriority: medium
 f1.keywords:
@@ -17,6 +17,7 @@ ms.custom:
   - seo-marvel-apr2020
 ms.collection: 
   - M365-collaboration
+  - essentials-manage
 appliesto: 
   - Microsoft Teams
 description: Learn how to view or update the teams that your organization has set up for collaboration in the Microsoft Teams admin center.
@@ -47,7 +48,7 @@ The grid displays the following properties:
 - **Shared channels** - a count of the shared channels in the team.
 - **Team members** - a count of total users, including owners, members, and guests for the team.
 - **Owners** - a count of owners for this team.
-- **Guests** - a count of Azure Active Directory B2B guests who are members of this team.
+- **Guests** - a count of Microsoft Entra B2B guests who are members of this team.
 - **Privacy** - whether the team is public or private.
 - **Status** - the [Archived](https://support.office.com/article/dc161cfd-b328-440f-974b-5da5bd98b5a7) or Active status for this team.
 - **Description** - the description of the team.
@@ -63,7 +64,7 @@ To add a new team, click **Add**. In the **Add a new team** pane, give the team 
 
 This video shows the steps to create a new team and a channel for them.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53TXG?autoplay=false]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1c2ra?autoplay=false]
 
 ### Edit a team
 
@@ -71,7 +72,7 @@ To edit team-specific settings, select the team by clicking to the left of the t
 
 This video shows the steps to view and edit the details of an existing team.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53JpG?autoplay=false]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1c55e?autoplay=false]
 
 ### Archive a team
 

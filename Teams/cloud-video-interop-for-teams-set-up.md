@@ -1,20 +1,20 @@
 ---
 title: Set up Cloud Video Interop for Microsoft Teams
-author: CarolynRowe
-ms.author: crowe
-manager: serdars
+author: jacktremper
+ms.author: jtremper
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-ms.reviewer: srividhc
+ms.reviewer: 
 ms.date: 09/19/2018
 f1.keywords:
 - NOCSH
 description: This article explains how you can plan and set up Cloud Video Interop for users in your organization.
 ms.localizationpriority: medium
 ms.collection:
-  - M365-voice
+  - m365initiative-meetings
   - M365-collaboration
   - Tier1
 appliesto:
@@ -23,7 +23,7 @@ appliesto:
 
 # Set up Cloud Video Interop for Microsoft Teams
 
-After you have [chosen your Cloud Video Interop partner(s)](cloud-video-interop.md), you will need to plan your deployment, get set up with provisioning details and partner tenant key, and consent to the video interop app in your organization. The following diagram outlines the process.
+After you [choose your Cloud Video Interop partner(s)](cloud-video-interop.md), you'll need to plan your deployment, get set up with provisioning details and partner tenant key, and consent to the video interop app in your organization. The following diagram outlines the process.
 
 ![Deploying CVI in your organization.](media/deploying-cvi.png)
 
@@ -33,9 +33,9 @@ See [Cloud Video Interop for Microsoft Teams](cloud-video-interop.md) for inform
 
 To plan for user based/concurrent/site wide enablement:
 
-- Pick a deployment model/hosted model for your use
+- Pick a deployment model/hosted model for your use.
 - Select the license plan ideal for your organization.
-- Plan for capacity of VMs is you are hosting your video infrastructure.
+- Plan for capacity of VMs is you're hosting your video infrastructure.
 
 ## Configure
 
@@ -51,42 +51,42 @@ To configure Cloud Video Interop, follow these steps.
 
 ## Provision
 
-The tenant key will be the dial out to the partner service. In the following example, 813878896@t.plcm.vc is the tenant key.
+The tenant key is the dial out to the partner service. In the following example, 813878896@t.plcm.vc is the tenant key.
 
 ![Tenant key example.](media/tenant-key-example.png)
 
-You will need to execute the following cmdlets to provision the tenant key, and also enable select users or your whole organization to create meetings with video interop coordinates.
+You'll need to execute the following cmdlets to provision the tenant key, and also enable select users or your whole organization to create meetings with video interop coordinates.
 
-- **[Get-CsTeamsVideoInteropServicepolicy](/powershell/module/skype/get-csteamsvideointeropservicepolicy):**
-Microsoft provides pre-constructed policies for each of our supported partners that allow you to designate which partner(s) to use for cloud video interop.
+- **[Get-CsTeamsVideoInteropServicepolicy](/powershell/module/teams/get-csteamsvideointeropservicepolicy):**
+Microsoft provides preconstructed policies for each of our supported partners that allow you to designate which partner(s) to use for cloud video interop.
 
-    This cmdlet allows you to identify the pre-constructed policies that you can use in your organization. You can assign this policy to one or more of your users leveraging the Grant-CsTeamsVideoInteropServicePolicy cmdlet.
+    This cmdlet allows you to identify the preconstructed policies that you can use in your organization. You can assign this policy to one or more of your users using the Grant-CsTeamsVideoInteropServicePolicy cmdlet.
 
-- **[Grant-CsTeamsVideoInteropServicePolicy](/powershell/module/skype/grant-csteamsvideointeropservicepolicy):**
-The Grant-CsTeamsVideoInteropServicePolicy cmdlet allows you to assign a pre-constructed policy for use in your organization or assign the policy to specific users.
+- **[Grant-CsTeamsVideoInteropServicePolicy](/powershell/module/teams/grant-csteamsvideointeropservicepolicy):**
+The Grant-CsTeamsVideoInteropServicePolicy cmdlet allows you to assign a preconstructed policy for use in your organization or assign the policy to specific users.
 
-- **[New-CsVideoInteropServiceProvider](/powershell/module/skype/new-csvideointeropserviceprovider):**
+- **[New-CsVideoInteropServiceProvider](/powershell/module/teams/new-csvideointeropserviceprovider):**
 Use the New-CsVideoInteropServiceProvider to specify information about a supported CVI partner your organization would like to use.
 
-- **[Set-CsVideoInteropServiceProvider](/powershell/module/skype/set-csvideointeropserviceprovider):**
+- **[Set-CsVideoInteropServiceProvider](/powershell/module/teams/set-csvideointeropserviceprovider):**
 Use the Set-CsVideoInteropServiceProvider to update information about a supported CVI partner your organization uses.
 
-- **[Get-CsVideoInteropServiceProvider](/powershell/module/skype/get-csvideointeropserviceprovider):**
+- **[Get-CsVideoInteropServiceProvider](/powershell/module/teams/get-csvideointeropserviceprovider):**
 Get all of the providers that have been configured for use within the organization.
 
-- **[Remove-CsVideoInteropServiceProvider](/powershell/module/skype/remove-csvideointeropserviceprovider):**
+- **[Remove-CsVideoInteropServiceProvider](/powershell/module/teams/remove-csvideointeropserviceprovider):**
 Use Remove-CsVideoInteropServiceProvider to remove all provider information about a provider that your organization no longer uses.
 
 ## Consent
 
-You will need to provide permission consent for the video teleconferencing devices (VTCs) to join your organizations meetings via the partner service. This consent link will also be provided by your partner.
+You'll need to provide permission consent for the video teleconferencing devices (VTCs) to join your organizations meetings via the partner service. Your partner provides the consent link.
 
-When these steps are complete, the users who are individually enabled via the Grant cmdlet above, or all of the users in the organization if the tenant is enabled, will have VTC coordinates in all the Teams meetings that they schedule. Any VTC can join these meetings via those coordinates.
+When these steps are complete, the users who are individually enabled via the Grant cmdlet, or all of the users in the organization if the tenant is enabled, will have VTC coordinates in all the Teams meetings that they schedule. Any VTC can join these meetings via those coordinates.
 
 |Name|Application Permission Short Description| Description|
 |---|---|---|
-|Calls.JoinGroupCall.All|Join Group Calls and Meetings as an app (preview)|Allows the app to join group calls and scheduled meetings in your organization, without a signed-in user.  The app will be joined with the privileges of a directory user to meetings in your tenant.|
-|Calls.JoinGroupCallasGuest.All|Join Group Calls and Meetings as a guest|Allows the app to anonymously join group calls and scheduled meetings in your organization, without a signed-in user.  The app will be joined as a guest to meetings in your tenant.|
+|Calls.JoinGroupCall.All|Join Group Calls and Meetings as an app (preview)|Allows the app to join group calls and scheduled meetings in your organization, without a signed-in user.  The app is joined with the privileges of a directory user to meetings in your tenant.|
+|Calls.JoinGroupCallasGuest.All|Join Group Calls and Meetings as a guest|Allows the app to anonymously join group calls and scheduled meetings in your organization, without a signed-in user.  The app is joined as a guest to meetings in your tenant.|
 |Calls.AccessMedia.All|Access media streams in a call as an app (preview)|Allows the app to get direct access to media streams in a call, without a signed-in user.|
 |OnlineMeetings.Read.All|Read Online Meeting details (preview)|Allows the app to read Online Meeting details in your organization, without a signed-in user.|
 
@@ -103,9 +103,9 @@ You can join Teams meetings with your VTC devices in the following ways:
 
 - IVR (Interactive voice Response)
   - You can dial in to the partner's IVR using the tenantkey@domain.
-  - Once you are in the partner IVR, you will be prompted to enter the VTC conferenceId, which will then connect you to the Teams meeting.
+  - Once you are in the partner IVR, you're prompted to enter the VTC conferenceId, which connects you to the Teams meeting.
 - Direct dial
-  - You can directly dial into the Teams meeting without interacting with the partner's IVR by using the direct dial feature using the full string of tenantkey.VTC ConferenceId@domain.
+  - You can dial into the Teams meeting without interacting with the partner's IVR by using the direct dial feature using the full string of tenantkey.VTC ConferenceId@domain.
 - One-touch dial
   - If you have an integrated Teams room, you can use the one-touch dial capabilities offered by your partner (without needing to type any dial string).
 

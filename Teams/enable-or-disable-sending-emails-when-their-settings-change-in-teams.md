@@ -1,14 +1,15 @@
 ---
 title: "Email options when Audio Conferencing settings change"
-ms.author: heidip
-author: MicrosoftHeidi
-manager: serdars
+ms.author: jenz
+author: jenzamora
+manager: pamgreen
 ms.reviewer: oscarr
-ms.date: 08/14/2018
+ms.date: 02/21/2024
 ms.topic: article
 ms.assetid: 26ea19d3-e420-4fc1-baa3-2692d17e5e1d
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
@@ -26,17 +27,17 @@ description: "Learn how to enable or disable Microsoft Teams from sending emails
 
 # Enable or disable sending emails when Audio Conferencing settings change in Microsoft Teams
 
-Users are automatically notified by email when they are enabled for Audio Conferencing. There may be times, however, when you want to reduce the number of emails that are sent to Microsoft Teams users. In such cases, you can disable sending email.
+An email is sent to users when they're enabled for Audio Conferencing. There might be times when you want to reduce the number of emails that are sent to Microsoft Teams users. In these cases, you can disable sending emails.
   
-If you disable sending emails, Audio Conferencing emails won't be sent to your users, including emails for when users are enabled or disabled for audio conferencing, when their PIN is reset, and when the conference ID and the default conferencing phone number changes.
+If you disable sending emails, Audio Conferencing emails aren't sent to your users. Emails for when users are enabled or disabled for audio conferencing, when their PIN is reset, and when the conference ID and the default conferencing phone number changes aren't sent.
   
-Here is an example of the email that is sent to users when they are enabled for Audio Conferencing:
+Here's an example of the email that is sent to users when they're enabled for Audio Conferencing:
   
 ![Example of an Audio Conferencing email message.](media/teams-emails-sent-to-users-when-settings-change-image1.png)
   
 ## When are emails being sent to your users?
 
-- There are several emails that are sent to users in your organization after they are enabled for audio conferencing:
+- There are several emails that are sent to users in your organization after they're enabled for audio conferencing:
 
   - When an **Audio Conferencing** license is assigned to them.
 
@@ -58,11 +59,11 @@ You can use Microsoft Teams or Windows PowerShell to enable or disable email sen
 
 1. In the left navigation, go to **Meetings** > **Conference Bridges**.
 
-2. At the top of the **Conference Bridges** page, click **Bridge settings**.
+2. At the top of the **Conference Bridges** page, select **Bridge settings**.
 
 3. In the **Bridge settings** pane, enable or disable **Automatically send emails to users if their dial-in settings change**.
 
-4. Click **Save**.
+4. Select **Save**.
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -75,22 +76,22 @@ You can also use the Microsoft Teams PowerShell module and run:
 Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
 ```
 
-You can use the [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings) to manage other settings for your organization, including email.
+You can use the [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/teams/set-csonlinedialinconferencingtenantsettings) to manage other settings for your organization, including email.
 
-See the [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=teams-ps) for more information.
+For more information, see [Microsoft Teams PowerShell reference](/powershell/module/teams/).
 
 ## Want to know more about Windows PowerShell?
 
-Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
+Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these articles:
 
 - [Why you need to use Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
 - [Best ways to manage Office 365 with Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
-For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=teams-ps) for more information.
+For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](/powershell/module/teams).
 
 ## Related topics
 
-[Emails sent to users when their Audio Conferencing settings change](emails-sent-to-users-when-their-settings-change-in-teams.md)
+- [Emails sent to users when their Audio Conferencing settings change](emails-sent-to-users-when-their-settings-change-in-teams.md)
 
-[Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
+- [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)

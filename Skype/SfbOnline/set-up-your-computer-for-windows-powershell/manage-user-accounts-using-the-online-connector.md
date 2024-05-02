@@ -2,8 +2,8 @@
 ms.date: 11/28/2017
 title: "Manage user accounts using the Online Connector"
 ms.reviewer: 
-ms.author: tonysmit
-author: tonysmit
+ms.author: serdars
+author:  pamgreen
 manager: serdars
 ms.topic: article
 ms.assetid: a226b0d4-6359-42b8-808d-4b8ab3736d3b

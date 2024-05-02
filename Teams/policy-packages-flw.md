@@ -2,7 +2,7 @@
 title: Teams policy packages for frontline workers
 author: lana-chin
 ms.author: v-chinlana
-manager: serdars
+manager: jtremper
 ms.reviewer: 
 ms.date: 06/20/2019
 ms.topic: conceptual
@@ -11,7 +11,6 @@ audience: Admin
 ms.collection: 
   - M365-collaboration
   - m365-frontline
-  - tier2
   - highpri
 appliesto: 
   - Microsoft Teams
@@ -72,9 +71,6 @@ Keep in mind that you can also change the settings of policies in a package afte
 ### Assign
 
 Assign the policy package to users. If a user has a policy assigned, and then later you assign a different policy, the most recent assignment will take priority.
-
-> [!NOTE]
-> Each user will require the Advanced Communications add-on in order to receive a custom policy package assignment. For more information, see [Advanced Communications add-on for Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
 
 #### Assign a policy package to one or several users
 

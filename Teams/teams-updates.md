@@ -1,13 +1,13 @@
 ---
 title: Microsoft Teams content updates
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.date: 05/16/2019
-ms.reviewer: LolaJ
+ms.reviewer: 
 description: This topic is a list of Microsoft Teams help topics that have been updated recently, including links to the updated topics.
 ms.localizationpriority: medium
 search.appverid: MET150

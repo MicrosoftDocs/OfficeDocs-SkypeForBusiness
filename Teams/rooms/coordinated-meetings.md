@@ -1,17 +1,16 @@
 ---
 title: Set up coordinated meetings with Microsoft Teams Rooms and Surface Hub
 ms.author: tonysmit
-author: tonysmit
-ms.reviewer: rahulmi
-ms.date: 07/29/2020
-manager: serdars
-audience: ITPro
+author: mstonysmith
+manager: pamgreen
+ms.date: 11/02/2023
+audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-rooms
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier1
 f1.keywords: 
   - NOCSH
@@ -70,7 +69,6 @@ In a spreadsheet app, add rows for the following in the first column:
 | **Video default**      | Determines on which device the camera will be active when a meeting starts. For the best experience, we recommend that only the Teams Rooms device be set to `true` while all other devices are set to `false`.          |
 | **Video enabled**      | Determines whether participants in a meeting can toggle the camera on or off. You can set this to `true` on any other devices in the event participants want to share different video perspectives (such as if a participant is using the Surface Hub whiteboard). If you don't want participants to turn a camera on or off on a device, set this to `false`.<p> If **Video default** is set to `true`, this setting is ignored and participants can turn the camera on or off.         |
 | **Whiteboard default** | Determines whether the Teams Rooms device will display a whiteboard shared by one of the meeting participants. We recommend that you set this to `false` if you have a Surface Hub and `true` if you don't have one. This setting has no effect on Surface Hubs. Surface Hubs will always display a whiteboard shared by meeting participants.         |
-| **Whiteboard enabled** | Determines whether participants in a meeting can toggle the whiteboard on or off. If you don't want participants to turn the whiteboard on or off on a device, set this to `false`. <p>If **Whiteboard default** is set to `true`, this setting is ignored and participants can turn the whiteboard on or off.
 | **Trusted accounts**   | This is a comma-separated list of UPNs for each Teams Rooms device or Surface Hub that the device should accept meeting join requests from, or to which meeting join requests should be sent. |
 
 In subsequent columns, add each of your Teams Rooms on Windows devices and Surface Hubs. In each column, fill out the values that correspond to the experience you want for the meeting room. Here's an example with one Teams Rooms on Windows device and one Surface Hub:
@@ -91,7 +89,9 @@ In subsequent columns, add each of your Teams Rooms on Windows devices and Surfa
 | **Whiteboard default** | `false`         | `false`          |
 | **Trusted accounts**   | hub@contoso.com | room@contoso.com |
 
-## Step 4: Configure Teams Rooms on Windows device
+## Step 4: Configure Teams Rooms on Windows device or select Surface Hubs
+
+ - Applicable Surface Hubs: V2S running Microsoft Teams Rooms on Windows 11, V2S  with a Surface Hub 3 pack (cartridge), and V3
 
 You can either set up Coordinated Meetings on a Teams Rooms device using the device's touch screen or, if you need to set up many devices and want to do so from a central location, you can use an XML configuration file.
 
@@ -152,9 +152,11 @@ To set up Coordinated Meetings on a device, do the following:
 6. Restart the device. You can do this a couple ways:
 
     - **Remote PowerShell** You can run the Shutdown command on the device using Remote PowerShell. For more information, see [Remote Management using PowerShell](../rooms/rooms-operations.md).
-    - **Run Restart-Computer** You can run the `Restart-Computer` cmdlet on your local computer and specify the computer name of the device you want to restart. For more information, see [Restart-Computer](/powershell/module/microsoft.powershell.management/restart-computer?view=powershell-7).
+    - **Run Restart-Computer** You can run the `Restart-Computer` cmdlet on your local computer and specify the computer name of the device you want to restart. For more information, see [Restart-Computer](/powershell/module/microsoft.powershell.management/restart-computer).
 
 ## Step 5: Configure Surface Hub
+
+ - Applicable Surface Hubs: V1 and V2S running Windows Team Edition
 
 You can use Windows Configuration Designer to create a provisioning package that you can use to apply Coordinating Meetings settings to your Surface Hubs. You'll paste the XML file you created above into Windows Configuration Designer to create the provisioning package.
 

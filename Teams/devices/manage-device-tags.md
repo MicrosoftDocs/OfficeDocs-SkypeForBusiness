@@ -1,16 +1,18 @@
 ---
 title: Manage and filter Microsoft Teams device tags
-author: tonysmit
+author: mstonysmith
 ms.author: tonysmit
-manager: serdars
+manager: pamgreen
+ms.reviewer: ayerragangu
+ms.date: 05/01/2024
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
-audience: admin
-ms.reviewer: kelsawi
-ms.date: 07/20/2020
+audience: Admin
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
-  - M365-collaboration
+  - teams-rooms-devices
   - Teams_ITAdmin_Devices
   - Tier1
 f1.keywords: 
@@ -18,8 +20,6 @@ f1.keywords:
 description: Learn how to manage and filter tags on your Microsoft Teams devices.
 ms.localizationpriority: medium
 search.appverid: MET150
-appliesto: 
-  - Microsoft Teams
 ---
 
 # Manage Microsoft Teams device tags

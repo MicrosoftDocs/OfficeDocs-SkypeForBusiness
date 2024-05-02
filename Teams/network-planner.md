@@ -1,12 +1,12 @@
 ---
 title: Use the Network planner for Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.date: 06/24/2019
 ms.topic: article
 ms.service: msteams
-ms.reviewer: svemu
+ms.reviewer: 
 audience: admin
 description: Admin can learn how to use the Network Planner to determine network requirements for Microsoft Teams.
 ms.localizationpriority: medium
@@ -32,7 +32,7 @@ Network Planner is a new tool that is available in the Teams admin center. It ca
 
 Network planner allows you to:
 
-- Create representations of your organization using sites and Microsoft recommended personas (office workers, remote workers, and Teams room system).
+- Create representations of your organization using sites and Microsoft recommended personas (office workers, remote workers, and Teams Rooms System).
 
     > [!NOTE]
     > The recommended personas were developed based on data from Teams best use scenarios and typical usage patterns. However, you can create up to three custom personas in addition to the three recommended personas.
@@ -102,4 +102,4 @@ After you add all sites, you can create a report, as follows.
 
 ## Example scenario
 
-For an example of how to use the Network planner to set up a network plan and generate a report using these steps, download the [Network planner How-To PowerPoint deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) (English only).
+For an example of how to use the Network planner to set up a network plan and generate a report using these steps, download the [Network planner How-To PowerPoint deck](https://download.microsoft.com/download/e/e/9/ee9db569-fdcc-4e87-bbf8-215f7760bc53/network-planner-how-to.pptx) (English only).

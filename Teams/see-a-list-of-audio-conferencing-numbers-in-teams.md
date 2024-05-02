@@ -1,18 +1,19 @@
 ---
 title: See a list of Audio Conferencing numbers
-ms.author: heidip
-author: MicrosoftHeidi
-manager: serdars
+ms.author: jenz
+author: jenzamora
+manager: pamgreen
 ms.reviewer: oscarr
-ms.date: 08/15/2018
+ms.date: 12/14/2023
 ms.topic: article
 ms.assetid: 2d6b4ed4-e12b-4691-8405-fae720d69425
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 search.appverid: MET150
 ms.collection: 
-  - M365-voice
   - M365-collaboration
+  - m365initiative-meetings
   - Tier1
 audience: Admin
 appliesto: 
@@ -28,33 +29,26 @@ description: Learn how to look up the dial-in conferencing numbers that are avai
 
 # See a list of Audio Conferencing numbers in Microsoft Teams
 
-When you set up Audio Conferencing for Microsoft Teams users, you can view the phone numbers that are available to them for audio conferencing. This list will have all of the audio conferencing phone numbers that are available to your organization.
+When you set up Audio Conferencing for your Microsoft Teams users, you can see the phone numbers that are available to them for audio conferencing. This list has all the audio conferencing phone numbers that are available to your organization.
 
 **Looking for prices?** Review the **Audio Conferencing rates** section in [Audio Conferencing](https://www.microsoft.com/microsoft-teams/audio-conferencing).
   
-If there is only one phone number available in your organization, it will be used as the default number for all of your users. When multiple phone numbers are available, you can select the default phone number for each user. This default number will be included in Microsoft Teams meeting invitations.
+When there's only one phone number available in your organization, it serves as the default number for all of your users. When multiple phone numbers are available, you can select the default phone number for each user. The default number is included in Microsoft Teams meeting invitations.
   
-You can see [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites-in-teams.md) to change the dial-in phone number for a single user.
+To change the dial-in phone number for a single user, see [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites-in-teams.md).
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## To view your audio conferencing phone numbers
+## See your audio conferencing phone numbers in the Teams admin center
 
 Using the Microsoft Teams admin center:
 
 1. In the left navigation, go to **Meetings** > **Conference bridges**.
 2. View the phone numbers that are available for audio conferencing.
 
-- You can also view the location and primary language that will be used by the audio conferencing auto attendant.
+      - You can also see the location and primary language that the audio conferencing auto attendant uses.
 
-## Want to know more about Windows PowerShell?
+## Related topics
 
-Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 by using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
-
-- [Why you need to use Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
-
-- [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](/previous-versions//dn568025(v=technet.10))
-
-For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=teams-ps) for more information.
-  
+- [Change the settings for an audio conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md)

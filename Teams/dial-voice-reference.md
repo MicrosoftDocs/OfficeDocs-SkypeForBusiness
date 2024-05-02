@@ -1,16 +1,17 @@
 ---
 title: Auto attendant and Call queue dialing and voice recognition reference
-author: DaniEASmith
-ms.author: danismith
-manager: serdars
+author: mkbond007
+ms.author: mabond
+manager: pamgreen
 ms.reviewer: colongma
-ms.date: 09/22/2020
+ms.date: 12/05/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - tier1
 audience: Admin
 appliesto: 
@@ -19,21 +20,23 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
-ms.custom: 
+ms.custom:
   - ms.teamsadmincenter.autoattendants.overview
   - Phone System
   - seo-marvel-apr2020
+  - has-azure-ad-ps-ref
+  - azure-ad-ref-level-one-done
 description: Learn about the Auto attendant and Call queue dialing and voice recognition options in Teams.
 ---
 # Auto attendant and Call queue dialing and voice recognition reference
 
-Dial by Name or Extension is an Auto attendant feature that enables callers to reach Teams users in your organization. Using their voice or phone keypad callers can say or enter the full or partial name, or extension of the person they would like to reach. The Auto attendant will search the company directory, locate the person, and then transfer the caller to them.  Dial by Name or Dial by Extension are options you set up when you [configure the call flow settings in an Auto attendant](create-a-phone-system-auto-attendant.md?tabs=call-flow).
+Dial by Name or Extension is an Auto attendant feature that enables callers to reach Teams users in your organization. Using their voice or phone keypad callers can say or enter the full or partial name, or extension of the person they would like to reach. The Auto attendant searches the company directory, locate the person, and then transfer the caller to them.  Dial by Name or Dial by Extension are options you set up when you [configure the call flow settings in an Auto attendant](create-a-phone-system-auto-attendant.md?tabs=call-flow).
 
 ## Searching for users
 
-Teams users who can be reached by using Dial by Name **aren't required to have a phone number or have Calling Plans assigned to them, but they must be Enterprise Voice enabled for Skype for Business Server users**. For multi-national organizations, Dial by Name will find and transfer callers to Microsoft Teams users who are in different countries or regions.
+Teams users who can be reached by using Dial by Name **aren't required to have a phone number or have Calling Plans assigned to them, but they must be Enterprise Voice enabled for Skype for Business Server users**. For multi-national organizations, Dial by Name finds and transfers callers to Microsoft Teams users who are in different countries or regions.
 
-Teams users who can be reached by using Dial by Extension **aren't required to have a phone number or have Calling Plans assigned to them, but they must be Enterprise Voice enabled for Skype for Business Server users**. You will also need to have an appropriately configured dial plan for your users. For multi-national organizations, Dial by Extension will find and transfer callers to Microsoft Teams users who are in different countries or regions.
+Teams users who can be reached by using Dial by Extension **aren't required to have a phone number or have Calling Plans assigned to them, but they must be Enterprise Voice enabled for Skype for Business Server users**. You also need to have an appropriately configured dial plan for your users. For multi-national organizations, Dial by Extension finds and transfers callers to Microsoft Teams users who are in different countries or regions.
 
 Given the prerequisites involved, Dial by Name or Extension must be explicitly enabled when configuring an Auto attendant.
 
@@ -47,20 +50,20 @@ There is no limit on the number of Active Directory users Dial by Name and Dial 
 |Speech (voice input) |FirstName  <br/> LastName  <br/> FirstName + LastName  <br/> LastName + FirstName  | 80,000 users |
 
 > [!NOTE]
-> If you are using Dial by Name with speech recognition, but your organization's Active Directory is larger than 80,000 users and you haven't limited the scope of Dial by Name using [Dial Scope](create-a-phone-system-auto-attendant.md?tabs=dial-scope) feature, Dial by Name will still work for your callers using a phone keypad, and voice inputs will be available for all other scenarios. You can use the Dial Scope feature to narrow down the names that are reachable by changing the scope of Dial by Name for a particular Auto attendant.
+> If you're using Dial by Name with speech recognition, but your organization's Active Directory is larger than 80,000 users and you haven't limited the scope of Dial by Name using [Dial Scope](create-a-phone-system-auto-attendant.md?tabs=dial-scope) feature, Dial by Name still works for your callers using a phone keypad, and voice inputs are available for all other scenarios. You can use the Dial Scope feature to narrow down the names that are reachable by changing the scope of Dial by Name for a particular Auto attendant.
 
 ### Search Considerations
 
-Dial by Name searches the entire organization's directory first before applying any Dial Scope Include or Exclude lists that have been configured. If the initial search against the entire directory returns more than 100 users, the Dial Scope lists will not be applied, the search will fail, and the caller will be told that too many names were found.
+Dial by Name searches the entire organization's directory first before applying any Dial Scope Include or Exclude lists that are configured. If the initial search against the entire directory returns more than 100 users, the Dial Scope lists aren't applied, the search fails, and the caller is told that too many names were found.
 
 ## Dial by Name - Keypad (DTMF) entry
 
-People calling in can use Dial by Name to reach users by specifying either the full or partial name of the person they are trying to reach. There are various formats that can be used when the name is entered.
+People calling in can use Dial by Name to reach users by specifying either the full or partial name of the person they're trying to reach. There are various formats that can be used when the name is entered.
 
-When searching your organization's directory, people can use the '0' (zero) key to indicate a space between the first name and last or last name and first. When they are entering the name, they will be asked to terminate their keypad entry with the # key. For example, "After you enter the name of the person you are trying to reach, press #." If there are multiple names that are found, the person calling will be given a list of names to select from.
+When people search your organization's directory, they can use the '0' (zero) key to indicate a space between the first name and last or last name and first. When they're entering the name, they'll be asked to terminate their keypad entry with the # key. For example, "After you enter the name of the person you're trying to reach, press #." If there are multiple names that are found, the person calling is given a list of names to select from.
 
 > [!NOTE]
-> If more than 5 names remain after any Dial Scope Include or Exclude lists have been applied, the search will fail and the caller will be told that too many names were found.
+> If more than 5 names remain after any Dial Scope Include or Exclude lists are applied, the search fails and the caller is told that too many names were found.
   
 People can search for names in your organization using the following search formats on their phone keypad:
   
@@ -74,7 +77,7 @@ People can search for names in your organization using the following search form
 |FirsName + LastName |Partial |Amos0Mar# |Press 1 for Amos Marble  <br/> Press 2 for Amos Marcus |
 |LastName + FirstName |Partial |Mar0Am# |Press 1 for Amos Marble  <br/> Press 2 for Amos Marcus |
 
-There are several special characters that are used when searching for people using a phone keypad. For example, the person will be asked to use the pound key (#), while the zero (0) key is used for a space between names. Pressing the star key (*) will repeat the list of matching names to the person.
+There are several special characters that are used when searching for people using a phone keypad. For example, the person is asked to use the pound key (#), while the zero (0) key is used for a space between names. Pressing the star key (*) repeats the list of matching names to the person.
   
 |Special phone keypad character|What it means|
 |:-----|:-----|
@@ -84,14 +87,14 @@ There are several special characters that are used when searching for people usi
 
 ### Dial by Name - Name recognition with speech
 
-People can search for others in their organization with their voice (speech recognition). They can also reach anyone in Active Directory by saying the full or partial name of the person they are trying to locate. Using voice inputs can recognize names in various formats, including FirstName, LastName, FirstName + LastName, or LastName + FirstName.
+People can search for others in their organization with their voice (speech recognition). They can also reach anyone in Active Directory by saying the full or partial name of the person they're trying to locate. Using voice inputs can recognize names in various formats, including FirstName, LastName, FirstName + LastName, or LastName + FirstName.
   
 You can enable speech recognition for an Auto attendant, but phone keypad entry (DTMF) isn't disabled. Phone keypad entry can be used at any time even if speech recognition is enabled on the Auto attendant.
   
 As with phone keypad entry, if multiple names are found, the person calling hears a list of names to select from.
 
 > [!NOTE]
-> If more than 5 names remain after any Dial Scope Include or Exclude lists have been applied, the search will fail and the caller will be told that too many names were found.
+> If more than 5 names remain after any Dial Scope Include or Exclude lists are applied, the search fails and the caller is told that too many names were found.
   
 Callers can say names in the following formats:
   
@@ -109,11 +112,11 @@ Callers can say names in the following formats:
 
 ### Dial by Extension
 
-Users you want to make available for **Dial By Extension** need to have an extension specified as part of one of the following phone attributes defined in Active Directory (and synchronized via Azure AD Connect) or Azure Active Directory. (See [Add users individually or in bulk](/microsoft-365/admin/add-users/add-users) for more information.)
+Users you want to make available for **Dial By Extension** need to have an extension specified as part of one of the following phone attributes defined in Active Directory (and synchronized via Microsoft Entra Connect) or Microsoft Entra ID. For more information, see [Add users individually or in bulk](/microsoft-365/admin/add-users/add-users).
 
-- TelephoneNumber (AD and Azure AD)
+- TelephoneNumber (AD and Microsoft Entra ID)
 - HomePhone (AD)
-- Mobile (AD and Azure AD)
+- Mobile (AD and Microsoft Entra ID)
 - OtherTelephone (AD)
 
 The required format to enter the extension in the user phone number field can be one of the following formats:
@@ -122,15 +125,14 @@ The required format to enter the extension in the user phone number field can be
 - *+\<phone number>x\<extension>*
 - *x\<extension>*
 
-- Example 1: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678;ext=5678"
-- Example 2: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678x5678"
-- Example 3: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "x5678"
+- Example 1: Update-MgUser -UserId 'usern@domain.com' -MobilePhone '15555555678;ext=5678'
+- Example 2: Update-MgUser -UserId 'usern@domain.com' -MobilePhone '+15555555678x5678'
+- Example 3: Update-MgUser -UserId 'usern@domain.com' -MobilePhone 'x5678'
 
-You can set the extension in the [Microsoft 365 admin center](https://admin.microsoft.com/) or the [Azure Active Directory admin center](https://aad.portal.azure.com). It can take up to 12 hours before changes are available to Auto attendants and Call queues.
+You can set the extension in the [Microsoft 365 admin center](https://admin.microsoft.com/) or the [Microsoft Entra admin center](https://aad.portal.azure.com). It can take up to 12 hours before changes are available to Auto attendants and Call queues.
 
 > [!NOTE]
->  If using the TelephoneNumber field to define the extension, Microsoft recommends that you use the format *+\<phone number>;ext=\<extension>*. If the user is also assigned a Teams Phone Number, you should define both numbers the same way.
-
+> If using the TelephoneNumber field to define the extension, Microsoft recommends that you use the format *+\<phone number>;ext=\<extension>*. If the user is also assigned a Teams Phone Number, you should define both numbers the same way.
 
 ## Language support
 
@@ -156,7 +158,7 @@ The following voice commands are available for speech recognition:
 |Eight |Press 8.|
 |Nine  |Press 9.|
 
-## Related topics
+## Related articles
 
 [Getting service phone numbers for Skype for Business and Microsoft Teams](./getting-service-phone-numbers.md)
 

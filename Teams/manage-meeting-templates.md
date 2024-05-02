@@ -1,18 +1,19 @@
 ---
 title: Manage meeting templates in Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: wlibebe
+author: wlibebe
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ralphmaamari
-ms.date: 11/10/2022
+ms.reviewer: janineco
+ms.date: 12/11/2023
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection: 
   - m365solution-compliantmeetings
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 description: Learn how Microsoft Teams Administrators can specify which meeting templates are available to their users.
@@ -26,7 +27,7 @@ You can use meeting template policies in Microsoft Teams to determine which meet
 
 ## Specify which meeting templates are available to users
 
-By default, the **Global** policy allows users to see all available templates, including default templates and any custom templates that you've created. If you want to limit which templates are available for different people or groups, you can create policies specifying this.
+By default, the **Global (Org-wide default)** meeting template policy allows users to see all available templates, including default templates and any custom templates that you've created. If you want to limit which templates are available for different people or groups, you can create policies specifying this.
 
 To create a meeting template policy
 

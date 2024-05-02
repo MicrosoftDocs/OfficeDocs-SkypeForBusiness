@@ -1,24 +1,24 @@
 ---
 title: Plan for Microsoft Teams Rooms
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
+manager: pamgreen
 ms.reviewer: sohailta
-ms.date: 02/23/2018
-manager: serdars
-audience: ITPro
-ms.topic: conceptual
+ms.date: 10/04/2023
+ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
+appliesto: 
+  - Microsoft Teams
+ms.collection: 
+  - M365-collaboration
+  - teams-rooms-devices
+  - Tier1
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-ms.collection: 
-  - M365-collaboration
-  - m365initiative-meetings
-  - Teams_ITAdmin_Rooms
-  - Tier1
-  - highpri
 description: This article explains the relevant planning considerations for deploying Microsoft Teams Rooms, the next generation of Skype Room Systems.
 ---
 
@@ -73,7 +73,7 @@ Use the approach illustrated below to guide you through your deployment, and cus
 
 Begin with understanding what conference rooms you have and envisioning what would work best for you in the future, then move through selecting and procuring the equipment you need, readying your sites, configuring and deploying your service, managing change and user adoption, and developing operations and maintenance procedures.
 
-![Begin with understanding what you have and envisioning what would work best for you, then move through selecting and procuring the equipment you need, readying your sites, configuring and deploying your service, managing change and user adoption, and developing operations and maintenance procedures.](../media/room-systems-image2.png "Begin with understanding what you have and envisioning what would work best for you, then move through selecting and procuring the equipment you need, readying your sites, configuring and deploying your service, managing change and user adoption, and developing operations and maintenance procedures.")
+:::image type="content" alt-text="Begin with understanding what you have and envisioning what would work best for you, then move through selecting and procuring the equipment you need, readying your sites, configuring and deploying your service, managing change and user adoption, and developing operations and maintenance procedures." source="../media/room-systems-image2.png" lightbox="../media/room-systems-image2.png":::
 
 You might need to coordinate these activities across several teams. We provide a high-level view of the main activities that you should cover, and also suggestions for the teams who are typically involved in deploying and managing conference room systems, to help you decide who you need to work with.
 
@@ -86,7 +86,7 @@ You might need to coordinate these activities across several teams. We provide a
 | Site readiness             | Facilities / AV team / IT Project Team |             | [Site readiness](rooms-deploy.md#site-readiness) |
 | Service readiness          | IT Project Team                        |             | [Service readiness](rooms-deploy.md#service-readiness) |
 | Configuration              | IT Project Team                        |             | [Configuration and deployment](rooms-deploy.md#configuration-and-deployment) |
-| Deployment                 | Facilities / AV team / IT Project Team |             | [Deployment checklist](console.md#microsoft-teams-rooms-deployment-checklist) |
+| Deployment                 | Facilities / AV team / IT Project Team |             | [Deployment checklist](console.md) |
 | Adoption                   | Facilities / AV team / IT Project Team |             | [Adoption](#plan-for-adoption-and-change-management) |
 | Maintenance and operations | AV team / IT Project Team              |             | [Management overview](rooms-manage.md) |
 
@@ -117,7 +117,8 @@ For guidance for the type of system and peripheral devices by room type and size
 
 Based on the vendor you prefer, use the information provided in the requirements article to define your Microsoft Teams Rooms and supported peripheral device configuration per room type, and use this as a template for your deployment.
 
-**Pro Tip** - Some room types might not be applicable for your deployment.
+> [!TIP]
+> Some room types might not be applicable for your deployment.
 
 | &nbsp; | &nbsp; |
 |---|---|
@@ -133,7 +134,8 @@ _Sample Microsoft Teams Rooms deployment template for your organization_
 | Medium 18' by 20'  | 6&ndash;12       |                              |                    |                 |
 | Large 15' by 32'   | 12&ndash;16      |                              |                    |                 |
 
-**Pro Tip -** Now is a great time to start gathering information about the Microsoft Teams Rooms solution you've chosen.
+> [!TIP]
+> Now is a great time to start gathering information about the Microsoft Teams Rooms solution you've chosen.
 
 ### Wireless network considerations
 
@@ -146,7 +148,7 @@ Here are some examples of wireless network configuration best practices recommen
 
 - Deploy wireless equipment, such as access points and routers, that can handle and distribute the bandwidth load across all connected devices in the network.
 - As much as possible, use access points and routers from a single manufacturer to avoid further congesting the radio-spectrum.
-- Ensure wireless equipment is installed in a way that reduces or eliminates inference from objects and other equipment.
+- Ensure wireless equipment is installed in a way that reduces or eliminates interference from objects and other equipment.
 - Ensure the wireless network shows strong signal strength (Wi-Fi signal showing full bars is preferred) on Teams Rooms and other device screens.
 - Default to prioritizing 5 GHz coverage for devices to optimize for higher bandwidth.
 - Enable band steering to ensure that 5 GHz is always given more priority when sharing the same network name (SSID) as 2.4 GHz.
@@ -182,11 +184,11 @@ Many organizations have an AV team or partner who manages their conference rooms
 Consider which helpdesk queue you'll route Microsoft Teams Rooms-related calls to, and provide an FAQ to the helpdesk team so they can better understand how to use Microsoft Teams Rooms and the key troubleshooting steps they can take. A good starting point for this FAQ is the [user help](https://support.microsoft.com/office/microsoft-teams-rooms-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) and [Known issues](known-issues.md).
 
 > [!NOTE]
-> Microsoft Teams Rooms sign in to Microsoft Teams, Skype for Business Server 2019, or Skype for Business Server 2015 and may join meetings hosted by any of these services.
+> Microsoft Teams Rooms sign in to Microsoft Teams and allows joining meetings hosted by Microsoft Teams services. Microsoft Teams rooms may also connect to third party meeting services anonymously as guest, depending on your configuration of the device.
 >
-> Earlier platforms like Lync Server 2013 aren't supported by Microsoft Teams Rooms. Microsoft Teams Rooms is not supported in Microsoft 365 or Office 365 operated by 21Vianet, or DoD environments.
+> Skype for Business Server 2019, Skype for Business Server 2015 or earlier platforms like Lync Server 2013 aren't supported by Microsoft Teams Rooms. Microsoft Teams Rooms is not supported in Microsoft 365 or Office 365 operated by 21Vianet, or DoD environments.
 >
-> If you have an on-prem Exchange server, Microsoft Teams Rooms requires the use of Exchange Server 2013 SP1 or later.
+> If you have an on-prem Exchange server, Microsoft Teams Rooms requirements for connecting to Exchange can be found here: [https://learn.microsoft.com/en-us/microsoftteams/exchange-teams-interact](/microsoftteams/exchange-teams-interact)
 
 | &nbsp; | &nbsp; |
 |---|---|
@@ -198,3 +200,4 @@ Consider which helpdesk queue you'll route Microsoft Teams Rooms-related calls t
 Microsoft Teams Rooms systems introduce new capabilities to your users. It's important that you recognize that this will be a change for your users, and you should ensure your internal marketing campaign identifies the benefits the new system will have for your users and the key talking points leads can use to discuss with their teams.
 
 Consider scheduling show-and-tell events and poster drops at each site to inform your users of the new capabilities. You might also create in-room "quick start guides." Consider finding a meetings champion at each site who can help others get up to speed and start using the devices.
+

@@ -1,7 +1,7 @@
 ---
 ms.date: 04/04/2018
 title: "IP Relay in Canada - sign up"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, allancar

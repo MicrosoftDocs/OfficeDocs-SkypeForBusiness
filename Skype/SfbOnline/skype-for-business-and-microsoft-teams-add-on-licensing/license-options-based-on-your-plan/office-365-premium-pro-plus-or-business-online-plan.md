@@ -1,8 +1,8 @@
 ---
 ms.date: 03/16/2018
 title: "Microsoft 365 Apps for enterprise or Skype for Business Online Standalone Plan 2"
-ms.author: tonysmit
-author: tonysmit
+ms.author: serdars
+author: pamgreen
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: article

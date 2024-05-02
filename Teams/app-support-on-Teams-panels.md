@@ -1,28 +1,29 @@
 ---
 title: Microsoft Teams apps/Line of Business (LOB) app support on Teams panels
-author: tonysmit
+author: mstonysmith
 ms.author: tonysmit
-manager: serdars
-ms.date: 8/5/2021
-ms.topic: conceptual
-audience: ITPro
+manager: pamgreen
+ms.reviewer: eviegrimshaw
+ms.date: 2/27/2024
+ms.topic: article
+audience: Admin
 ms.service: msteams
-search.appverid: MET150
-ms.reviewer: 
-description: Describes the support for Teams apps/LOB apps.
+ms.subservice: itpro-rooms
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
-  - M365-voice
   - M365-collaboration
+  - teams-rooms-devices
   - Tier1
+search.appverid: MET150
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
-appliesto: 
-  - Microsoft Teams
+description: Describes the support for Teams apps/LOB apps.
 ---
 # Microsoft Teams apps/Line of Business (LOB) app support on Teams panels
 
-Teams panels is adding support for [Teams apps/Line of Business (LOB) apps](/microsoftteams/platform/overview). This will enable enterprises to add additional experiences on the panels to meet your organization's needs. This release supports static web content.
+Teams panels are adding support for [Teams apps/Line of Business (LOB) apps](/microsoftteams/platform/overview). This enables enterprises to add more experiences on the panels to meet your organization's needs. This release supports static web content.
 
 > [!IMPORTANT]
 > This feature is only available after updating your Teams panels device(s). You need to have the Teams app version 1449/1.0.97.2021070601 or newer to have app support within Teams panels.
@@ -31,17 +32,17 @@ Teams panels is adding support for [Teams apps/Line of Business (LOB) apps](/mic
 
 ![Screenshot of the Teams admin center showing which section will allow users to navigate to apps.](media/tac1update.png)
 
-*The Teams panels home screen includes app navigation options, outlined in the screenshot in red. Note that these are example icons and may not be available for use.*
+*The Teams panels home screen includes app navigation options, outlined in the screenshot in red. These are example icons and might not be available for use.*
 
 ![Screenshot of the app canvas where apps can be added.](media/appscreen.png)
 
-*When an end-user taps on one of the app icons, they will see the Teams app screen displayed in the previous screenshot. The gray rectangle in the screenshot is where apps are displayed on the Teams panel. The app bar is fixed and part of the Teams panels app.*
+*When an end-user taps on one of the app icons, they see the Teams app screen displayed in the previous screenshot. The gray rectangle in the screenshot is where apps are displayed on the Teams panel. The app bar is fixed and part of the Teams panels app.*
 
 ## Set up and manage Teams panels apps in Teams admin center
 
 Microsoft Teams apps bring key information, common tools, and trusted processes to where people gather, learn, and work. Teams apps work [through integrated capabilities](/microsoftteams/platform/concepts/capabilities-overview). Now, as an IT administrator, you have the choice of which apps to include in your organization's Teams panels device and customize permissions via the [Teams admin center](https://admin.teams.microsoft.com/).
 
-You can now use the Teams apps on Teams panels and customize the user experience based on your organization's needs. You can decide which web app your users can access and use and prioritize the app views. Some options, like the bot and messaging capabilities, are not supported at this time. Learn more about [the Teams apps](/microsoftteams/platform/overview) and [how to manage your devices in Microsoft Teams](/microsoftteams/devices/device-management).
+You can now use the Teams apps on Teams panels and customize the user experience based on your organization's needs. You can decide which web app your users can access and use and prioritize the app views. Some options, like the bot and messaging capabilities, aren't supported at this time. Learn more about [the Teams apps](/microsoftteams/platform/overview) and [how to manage your devices in Microsoft Teams](/microsoftteams/devices/device-management).
 
 ## Manage apps on Teams panels in Teams admin center
 
@@ -53,7 +54,7 @@ After setting up apps, you can use [app permission policies](/microsoftteams/tea
 
 ## Pin apps on Teams panels with app setup policies
 
-Since Teams offers the capability to display a wide range of apps, admins can decide on which apps are most essential for the organization and pin only these for the Teams panels **Home** screen for quick access. If there are more than five pinned apps or any unpinned apps, they will appear under the **More** screen. Microsoft recommends creating a custom policy in app setup policy specifically for Teams panels.
+Since Teams offers the capability to display a wide range of apps, admins can decide on which apps are most essential for the organization and pin only these for the Teams panels **Home** screen for quick access. If there are more than five pinned apps or any unpinned apps, they appear under the **More** screen. Microsoft recommends creating a custom policy in app setup policy specifically for Teams panels.
 
 ![User interface screenshot of the app setup policies page.](media/appsetup1.png)
 
@@ -61,7 +62,7 @@ To manage pinned apps displayed on the Teams panels, sign in to the Teams admin 
 
 ![Screenshot of pinned apps section within the user interface.](media/appsetup2.png)
 
-*Apps included in this image are only examples and may not be available for use.*
+*Apps included in this image are only examples and might not be available for use.*
 
 Microsoft recommends you turn off **Upload custom apps** and **User pinning** for the best Teams app experience on Teams panels.
 
@@ -87,7 +88,7 @@ After editing or assigning new policies in the Teams admin center, it can take u
 
 ### What is the ordering of the apps on the "More" screen?
 
-On the **More** apps page, the pinned apps will appear first. Then, any other installed apps will appear in alphabetical order.
+On the **More** apps page, the pinned apps appear first. Then, any other installed apps appear in alphabetical order.
 
 ### Why are bot apps not showing up on Teams panels?
 
@@ -95,13 +96,13 @@ Only static tabs web content is supported at this time.
 
 ### Why are native Teams apps, such as Calendar and Tasks, not appearing on Teams panels?
 
-Native Teams apps, such as Calendar and Tasks, are not shown on Teams panels.
+Native Teams apps, such as Calendar and Tasks, aren't shown on Teams panels.
 
 ### In the Teams admin center, under the setup policies section, what is the difference between installed apps and pinned apps?
 
 For Teams panels, Microsoft recommends using pinned apps, so the admin is able to select the desired app and rearrange its ordering.
 
-**Note:** Some apps do not support app pinning. Please contact the app developer to enable app pinning functionality.
+**Note:** Some apps don't support app pinning. Please contact the app developer to enable app pinning functionality.
 
 ### Why are other apps appearing in the "More" screen even though they are not part of the installed or pinned apps in the Teams app setup policy section?
 

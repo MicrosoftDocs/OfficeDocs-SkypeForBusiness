@@ -1,8 +1,8 @@
 ---
 ms.date: 03/16/2018
 title: "GOV, EDU, and non-profit organizations"
-ms.author: tonysmit
-author: tonysmit
+ms.author: pamgreen
+author: pamgreen
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: article

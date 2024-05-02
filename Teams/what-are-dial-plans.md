@@ -2,9 +2,9 @@
 title: "What are dial plans?"
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: mikedav, roykuntz
-ms.date: 11/28/2017
+ms.date: 09/27/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -24,7 +24,7 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.voice.dialplans.overview
   - Calling Plans
-description: "Learn what type of dial calling plans (PSTN Calling dial plans) are available with Teams and how to choose one for your organization.  "
+description: "Learn what type of dial calling plans (PSTN Calling dial plans) are available with Teams and how to choose one for your organization. "
 ---
 
 # What are dial plans?
@@ -39,7 +39,7 @@ See [Create and manage dial plans](create-and-manage-dial-plans.md) to create an
 
 A dial plan's scope determines the hierarchical level at which the dial plan can be applied. Clients get the appropriate dial plan through provisioning settings that are automatically provided when users sign in to Teams. As an admin, you can manage and assign dial plan scope levels by using the Microsoft Teams admin center or Remote PowerShell.
 
-In Teams, there are two types of dial plans: service-scoped and tenant-scoped (which is for your organization). A service-scoped dial plan is defined for every country or region where Phone System is available. Each user is automatically assigned the service country/region dial plan that matches the usage location assigned to the user. You can't change the service country/region dial plan, but you can create tenant scoped dial plans, which augment the service country/region dial plan. As clients are provisioned, they obtain an "effective dial plan," which is a combination of the service country/region dial plan and the appropriately scoped tenant dial plan. Therefore, it's not necessary to define all normalization rules in tenant dial plans as they might already exist in the service country/region dial plan.
+In Teams, there are two types of dial plans: service-scoped and tenant-scoped (which is for your organization). A service-scoped dial plan is defined for every country or region where Teams Phone is available. Each user is automatically assigned the service country/region dial plan that matches the usage location assigned to the user. You can't change the service country/region dial plan, but you can create tenant scoped dial plans, which augment the service country/region dial plan. As clients are provisioned, they obtain an "effective dial plan," which is a combination of the service country/region dial plan and the appropriately scoped tenant dial plan. Therefore, it's not necessary to define all normalization rules in tenant dial plans as they might already exist in the service country/region dial plan.
 
 Tenant dial plans can be further broken into two scopes - tenant-scope or user-scope. If a tenant defines and assigns a user-scoped dial plan, that user will be provisioned with an effective dial plan of the user's service country/region dial plan and the assigned user dial plan. If a tenant defines a tenant-scoped dial plan but doesn't assign a user-scoped dial plan, then that user will be provisioned with an effective dial plan of the user's service country/region dial plan and the tenant dial plan.
 
@@ -100,7 +100,10 @@ See [Create and manage dial plans](create-and-manage-dial-plans.md) to create yo
 
 Normalization rules define how phone numbers expressed in various formats are to be translated. The same number string may be interpreted and translated differently, depending on the locale from which it is dialed. Normalization rules may be necessary if users need to be able to dial abbreviated internal or external numbers.
 
-One or more normalization rules must be assigned to the dial plan. Normalization rules are matched from top to bottom, so the order in which they appear in a tenant dial plan is important. For example, if a tenant dial plan has 10 normalization rules, the dialed number matching logic will be tried starting with the first normalization rule, if there isn't a match then the second, and so forth. If a match is made, that rule is used and there is no effort to match any other rules that are defined. There can be a maximum of 50 normalization rules in a given tenant dial plan.
+One or more normalization rules must be assigned to the dial plan. Normalization rules are matched from top to bottom, so the order in which they appear in a tenant dial plan is important. For example, if a tenant dial plan has 10 normalization rules, the dialed number matching logic will be tried starting with the first normalization rule, if there isn't a match then the second, and so forth. If a match is made, that rule is used and there is no effort to match any other rules that are defined. 
+
+> [!NOTE]
+> Microsoft now enforces the rule that there can be no more than 50 normalization rules in a given dial plan.
 
 ### Determining the required normalization rules
 
@@ -161,4 +164,4 @@ The following table shows sample normalization rules that are written as .NET Fr
 
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
-[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Emergency Calling disclaimer label](https://download.microsoft.com/download/9/9/0/990e24c1-eb49-4b52-9306-dbd4c864ed91/emergency-calling-label-(en-us)-(v.1.0).zip)

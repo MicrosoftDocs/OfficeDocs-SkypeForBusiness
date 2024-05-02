@@ -1,10 +1,10 @@
 ---
 title: "Connect your Session Border Controller (SBC) to Direct Routing"
-ms.reviewer: fillipse
-ms.date: 02/13/2020
+ms.reviewer: 
+ms.date: 10/03/2023
 ms.author: crowe
 author: CarolynRowe
-manager: serdars
+manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: msteams
@@ -12,12 +12,13 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 appliesto: 
   - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: "Learn how to configure and connect your SBC to Teams Phone System Direct Routing."
+description: "Learn how to configure and connect your SBC to Teams Phone Direct Routing."
 ---
 
 # Connect your Session Border Controller (SBC) to Direct Routing
@@ -31,38 +32,36 @@ This article describes how to configure a Session Border Controller (SBC) and co
 
 For information on all the steps required to set up Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
 
-You can use the [Microsoft Teams admin center](#using-the-microsoft-teams-admin-center) or [PowerShell](#using-powershell) to configure and connect an SBC to Direct Routing.
+To configure and connect an SBC to Direct Routing, you can use the [Microsoft Teams admin center](#use-the-microsoft-teams-admin-center) or [PowerShell](#use-powershell) .
 
 > [!NOTE]
 > For GCC High and DoD clouds, you must use PowerShell. The option to connect the SBC is not available in the Teams admin center.
 
-## Using the Microsoft Teams admin center
+## Use the Microsoft Teams admin center
 
 1. In the left navigation, go to **Voice** > **Direct Routing**, and then click the **SBCs** tab.
 
 2. Click **Add**.
 
-3. Enter an FQDN for the SBC. <br><br>Make sure the domain name portion of the FQDN matches a domain that's registered in your tenant and keep in mind that the `*.onmicrosoft.com` domain name isn't supported for the SBC FQDN domain name. For example, if you have two domain names, `contoso.com` and `contoso.onmicrosoft.com`, use `sbc.contoso.com` as the SBC name. If using a subdomain, make sure this subdomain is also registered in your tenant. For example, if you want to use `sbc.service.contoso.com`, then `service.contoso.com` needs to be registered.
+3. Enter an FQDN for the SBC. <br><br>Make sure the domain name portion of the FQDN matches a domain that's registered in your tenant. Keep in mind that the `*.onmicrosoft.com` domain name isn't supported for the SBC FQDN domain name. For example, if you have two domain names, `contoso.com` and `contoso.onmicrosoft.com`, use `sbc.contoso.com` as the SBC name. If using a subdomain, make sure this subdomain is also registered in your tenant. For example, if you want to use `sbc.service.contoso.com`, then `service.contoso.com` needs to be registered.
 
-4. Configure the following settings for the SBC, based on your organization's needs. For details on each of these settings, see [SBC settings](#sbc-settings).
-
-    ![Screenshot of add SBC page in the Microsoft Teams admin center.](media/direct-routing-add-sbc.png)
+4. Configure the settings for the SBC, based on your organization's needs. For details on each of these settings, see [SBC settings](#sbc-settings).
 
 5. When you're done, click **Save**.
 
-## Using PowerShell
+## Use PowerShell
 
 To connect your SBC to Direct Routing, you'll need to:
 
-1. [Connect to Skype for Business Online by using PowerShell](#connect-to-skype-for-business-online-by-using-powershell).
+1. [Connect to Teams by using PowerShell](#connect-to-teams-by-using-powershell).
 
 2. [Connect the SBC to the tenant](#connect-the-sbc-to-the-tenant).
 
 3. [Verify the SBC connection](#verify-the-sbc-connection).
 
-### Connect to Skype for Business Online by using PowerShell
+### Connect to Teams by using PowerShell
 
-To pair the SBC to the Direct Routing interface, use a PowerShell session connected to the tenant. To open a PowerShell session, follow the steps outlined in [Set up your computer for Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+To pair the SBC to the Direct Routing interface, use a Teams PowerShell module session connected to the tenant. To open a PowerShell session, follow the steps outlined in [Set up your computer for Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
  
 After you establish a remote PowerShell session, verify that you can see the commands to manage the SBC. To verify the commands, type or copy and paste the following command in the PowerShell session, and then press Enter: 
 
@@ -83,27 +82,34 @@ Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
 
 ### Connect the SBC to the tenant
 
-To connect the SBC to the tenant, use the [New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) cmdlet. In a PowerShell session, type the following, and then press Enter:
+To connect the SBC to the tenant, use the [New-CsOnlinePSTNGateway](/powershell/module/teams/new-csonlinepstngateway) cmdlet. In a PowerShell session, type the following, and then press Enter:
 
 ```PowerShell
 New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxConcurrentSessions <Max Concurrent Sessions the SBC can handle> -Enabled $true
 ```
+#### Considerations
 
-  > [!NOTE]
-  > 1. We recommend that you set a maximum call limit in the SBC using information that can be found in the SBC documentation. The limit will trigger a notification if the SBC is at the capacity level.
-  > 2. You can only connect the SBC if the domain portion of its FQDN matches one of the domains registered in your tenant, except \*.onmicrosoft.com. Using \*.onmicrosoft.com domain names is not supported for the SBC FQDN name. For example, if you have two domain names, **contoso**.com and **contoso**.onmicrosoft.com, you can use sbc.contoso.com for the SBC name. If you try to connect the SBC with a name such as sbc.contoso.abc, the system won't let you, as the domain is not owned by this tenant.<br/>
-  > In addition to the domain registered in your tenant, it's important that there's a user with that domain and an assigned E3 or E5 license. If not, you'll receive the following error:<br/>
+ - Microsoft recommends that you set a maximum call limit in the SBC using information that can be found in the SBC documentation. The limit will trigger a notification if the SBC is at the capacity level.
+
+-  You can only connect the SBC if the domain portion of its FQDN matches one of the domains registered in your tenant, except \*.onmicrosoft.com. Using \*.onmicrosoft.com domain names is not supported for the SBC FQDN name. For example, if you have two domain names, **contoso**.com and **contoso**.onmicrosoft.com, you can use sbc.contoso.com for the SBC name. If you try to connect the SBC with a name such as sbc.contoso.abc, the system won't let you, as the domain is not owned by this tenant.
+
+   In addition to the domain registered in your tenant, it's important that there's a user with that domain and an assigned E3 or E5 license. If not, you'll receive the following error:<br/>
   `Can not use the "sbc.contoso.com" domain as it was not configured for this tenant`.
-  > 3. Multiple IPs mapped with the same FQDN on the SBC side are not supported.
-  > 4. To provide the best-in-class encryption to our customers, Microsoft will force TLS1.2 usage for the Direct Routing SIP interface.
-  > To avoid any service impact, ensure that your SBCs are configured to support TLS1.2 and can connect using one of the following cipher suites:
-  > TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 i.e. ECDHE-RSA-AES256-GCM-SHA384
-  > TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 i.e. ECDHE-RSA-AES128-GCM-SHA256
-  > TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 i.e. ECDHE-RSA-AES256-SHA384
-  > TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 i.e. ECDHE-RSA-AES128-SHA256
-  > 5. SIP OPTIONS pings MUST NOT exceed a frequency of one transaction every 60 seconds and MUST NOT be more or less frequent than one transaction every 180 seconds for each configured trunk for each endpoint.
 
-Here's an example:
+-  To assign a user with that domain, the configured authentication type of the domain must be "Managed".
+
+-  Multiple IPs mapped with the same FQDN on the SBC side are not supported.
+
+-  To provide the best-in-class encryption to our customers, Microsoft will force TLS1.2 usage for the Direct Routing SIP interface. To avoid any service impact, ensure that your SBCs are configured to support TLS1.2 and can connect using one of the following cipher suites:
+
+     - TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 i.e. ECDHE-RSA-AES256-GCM-SHA384
+     - TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 i.e. ECDHE-RSA-AES128-GCM-SHA256
+     - TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 i.e. ECDHE-RSA-AES256-SHA384
+     - TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 i.e. ECDHE-RSA-AES128-SHA256
+
+- SIP OPTIONS pings MUST NOT exceed a frequency of one transaction every 60 seconds and MUST NOT be more or less frequent than one transaction every 180 seconds for each configured trunk for each endpoint.
+
+Here's an example. This example shows only the minimum required parameters. There are additional parameters that you can set with the [New-CsOnlinePSTNGateway](/powershell/module/teams/new-csonlinepstngateway) cmdlet during the connection process. To learn more, see [SBC settings](#sbc-settings).
 
 ```PowerShell
 New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignalingPort 5067 -MaxConcurrentSessions 100 
@@ -122,9 +128,6 @@ SendSipOptions        : True
 MaxConcurrentSessions : 100 
 Enabled               : True   
 </pre>
-
-> [!NOTE]
-> This example shows only the minimum required parameters. There are additional parameters that you can set  with the [New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) cmdlet during the connection process. To learn more, see [SBC settings](#sbc-settings).
  
 ### Verify the SBC connection
 
@@ -135,7 +138,7 @@ To verify the connection:
  
 #### Check whether the SBC is on the list of paired SBCs
 
-After you connect the SBC, use the [Get-CsOnlinePSTNGateway](/powershell/module/skype/get-csonlinepstngateway) cmdlet to verify that the SBC is present in the list of paired SBCs. Type the following in a remote PowerShell session, and then press Enter:
+After you connect the SBC, use the [Get-CsOnlinePSTNGateway](/powershell/module/teams/get-csonlinepstngateway) cmdlet to verify that the SBC is present in the list of paired SBCs. Type the following in a remote PowerShell session, and then press Enter:
 
 ```PowerShell
 Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
@@ -149,8 +152,6 @@ Which returns:
 Identity              : sbc.contoso.com  
 Fqdn                  : sbc.contoso.com
 SipSignalingPort     : 5067
-CodecPriority         : SILKWB,SILKNB,PCMU,PCMA
-ExcludedCodecs        :  
 FailoverTimeSeconds   : 10
 ForwardCallHistory    : False
 ForwardPai            : False
@@ -165,11 +166,11 @@ To validate the pairing using outgoing SIP options, use the SBC management inter
 
 When Direct Routing sees incoming OPTIONS, it will start sending outgoing SIP Options messages to the SBC FQDN configured in the Contact header field in the incoming OPTIONS message. 
 
-To validate the pairing using incoming SIP options, use the SBC management interface and see that the SBC sends a reply to the OPTIONS messages coming in from Direct Routing and that the response code it sends is 200 OK.
+To validate the pairing using incoming SIP options, use the SBC management interface. Check to see that the SBC sends a reply to the OPTIONS messages coming in from Direct Routing, and that the response code it sends is 200 OK.
 
 ## SBC settings
 
-This table lists the options that you can set for the SBC in the Microsoft Teams admin center and by using the [New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) cmdlet.
+This table lists the options that you can set for the SBC in the Microsoft Teams admin center and by using the [New-CsOnlinePSTNGateway](/powershell/module/teams/new-csonlinepstngateway) cmdlet.
 
 |Required?|Teams admin center setting|PowerShell parameter|Description|Default|Possible values|Type and restrictions|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -182,9 +183,10 @@ This table lists the options that you can set for the SBC in the Microsoft Teams
 |No|**Concurrent call capacity**|MaxConcurrentSessions |When you set a value, the alerting system will notify you when the number of concurrent sessions is 90 percent or higher than this value. If you don't set a value, alerts aren't generated. However, the monitoring system will report the number of concurrent sessions every 24 hours. |Null|Null<br/>1 to 100,000 ||
 |No|**Failover response codes**|FailoverResponseCodes<br>|If Direct Routing receives any 4xx or 6xx SIP error code in response to an outgoing Invite, the call is considered completed by default. Outgoing means a call from a Teams client to the PSTN with traffic flow: Teams client -> Direct Routing -> SBC -> telephony network). When you specify a failover response code, this forces Direct Routing to try another SBC (if another SBC exists in the voice routing policy of the user) when it receives the specified codes if the SBC can't make a call because of network or other issues. To learn more, see [Failover of specific SIP codes received from the Session Border Controller (SBC)](direct-routing-trunk-failover-on-outbound-call.md).|408, 503, 504||Int|
 |No|**Failover times (seconds)**|FailoverTimeSeconds |When you set a value, outbound calls that aren't answered by the gateway within the time that you set are routed to the next available trunk. If there are no additional trunks, the call is automatically dropped. The default value is 10 seconds. In an organization with slow networks and gateway responses, this could potentially result in calls being dropped unnecessarily.|10|Number|Int|
-|No|**Preferred country or region for media traffic**|MediaRelayRoutingLocationOverride | Not applicable to Direct Routing. This parameter is reserved for use with managed carriers in Calling Plans |None|||
 |No|**SBC supports PIDF/LO for emergency calls**|PidfloSupported|Specify whether the SBC supports Presence Information Data Format Location Object (PIDF/LO) for emergency calls.||||
-|No| - |MediaBypass|This setting indicates whether the SBC supports media bypass and whether you want to use it for this SBC. |None|True<br/>False|Boolean|
+
+For information about Loction-Based Routing and media optimization settings, see [Plan for Location-Based Routing](location-based-routing-plan.md) and [Plan for media bypass with Direct Routing](direct-routing-plan-media-bypass.md).
+
 
 ## See also
 

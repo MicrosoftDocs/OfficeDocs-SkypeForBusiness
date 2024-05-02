@@ -1,23 +1,23 @@
 ---
 title: Configure ServiceNow for Teams Rooms
-author: altsou
-ms.author: altsou
-manager: serdars
+author: mstonysmith
+ms.author: tonysmit
+manager: pamgreen
 ms.reviewer: altsou
 ms.date: 08/25/2021
 ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-audience: Admin
 appliesto: 
   - Microsoft Teams
+ms.collection: 
+  - M365-collaboration
+  - teams-rooms-devices
+  - Tier1
 localization_priority: Normal
 description: Learn about configuring ServiceNow in the Teams Rooms Pro Management portal
 f1keywords: 
-ms.collection: 
-  - M365-collaboration
-  - Teams_ITAdmin_MTRP
-  - Tier3
 ---
 
 # Configure ServiceNow for Teams Rooms
@@ -32,6 +32,7 @@ This article describes the prerequisites and steps to configure your ServiceNow 
 ### Teams Rooms prerequisites
 
 - You must have an assigned Service Administrator role. For more information, see [Role-based access control with Microsoft Teams Rooms Pro Management](rooms-pro-rbac.md).
+- Please note that the ServiceNow API isn't currently available for GCC customers. We're reviewing solutions to enable this in government clouds. For integration with your ITSM workflow, it is recommended that customers consider using email notifications and your ITSM email ingest features.
 
 ### ServiceNow prerequisites
 
@@ -78,7 +79,7 @@ Once your test passes successfully, select **Submit** to save your changes. Once
 
 - **description**: The description field in ServiceNow is the first value in the conversation history of a ServiceNow incident. Description is equivalent to First message in the Teams Rooms Pro Management portal.
 
-- **assignment_group**: The assignment group field in ServiceNow is used to organize incidents. Assignment groups are equivalent to Room groups in the Teams Rooms Pro Management portal. By default, there is one room group, and more can be added. You decide how many groups there are and how to group your incidents. For example, you might choose to organize your incidents by location.
+- **assignment_group**: The assignment group field in ServiceNow is used to organize incidents. Assignment groups are equivalent to Room groups in the Teams Rooms Pro Management portal. By default, there's one room group, and more can be added. You decide how many groups there are and how to group your incidents. For example, you might choose to organize your incidents by location.
 
 - **severity**: The severity field in ServiceNow is used to organize incidents by priority. The values that designate priority are customizable. Severity is equivalent to the Ring field in the Teams Rooms Pro Management portal. To customize rings in the Teams Rooms Pro Management portal, go to **Updates** in the left navigation menu. Then go to the **Rings** tab and select **Add ring**.
 

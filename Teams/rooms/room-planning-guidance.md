@@ -1,26 +1,27 @@
 ---
 title: Meeting room guidance for Teams
-author: tonysmit
+author: mstonysmith
 ms.author: tonysmit
-manager: serdars
-ms.date: 2/2/2022
-ms.topic: conceptual
-audience: ITPro
+manager: pamgreen
+ms.date: 10/04/2023
+ms.reviewer: sohailta
+ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-search.appverid: MET150
-ms.reviewer: 
-description: A lookbook and guide for meeting room optimization with Teams Rooms solutions and devices.
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
-  - M365-voice
   - M365-collaboration
+  - teams-rooms-devices
   - Tier1
 f1.keywords: 
   - NOCSH
 localization_priority: Normal
-appliesto: 
-  - Microsoft Teams
+search.appverid: MET150
+description: A lookbook and guide for meeting room optimization with Teams Rooms solutions and devices.
 ---
+
 # Meeting room guidance for Teams
 
 This article is intended to guide users on how to optimize meeting spaces with Microsoft Teams Rooms solutions and devices. It includes information on Teams Rooms device and solution uses, layouts, and specifications.
@@ -29,11 +30,11 @@ This article is intended to guide users on how to optimize meeting spaces with M
 
 ## Overview
 
-Microsoft Teams Rooms solutions offer flexibility of purpose and even flexibility of movement throughout a space that traditional meeting rooms do not. For example, with Teams Rooms devices, users can enhance their collaboration with a digital whiteboard, and intelligent people-tracking cameras make sure every local participant can be seen no matter where they are in the room. Any type of space and any type of meeting can be optimized with Teams Rooms devices or Teams Rooms solutions.
+Microsoft Teams Rooms solutions offer flexibility of purpose and even flexibility of movement throughout a space that traditional meeting rooms don't. For example, with Teams Rooms devices, users can enhance their collaboration with a digital whiteboard, and intelligent people-tracking cameras make sure every local participant can be seen no matter where they are in the room. Any type of space and any type of meeting can be optimized with Teams Rooms devices or Teams Rooms solutions.
 
 ### Presentation-focused meetings
 
-Meet and present meetings are the first bucket, and this meeting is generally more formal. Audio-visual is a priority, and there is a focus on presenting content. The device is typically fixed, allowing users to remain seated while interacting with the device from a center-of-table console.
+Meet and present meetings are the first bucket, and this meeting is generally more formal. Audio-visual is a priority, and there's a focus on presenting content. The device is typically fixed, allowing users to remain seated while interacting with the device from a center-of-table console.
 
 Meet and present spaces prioritize presentation and discussion, which means the layout and technology must be optimized for content sharing and remote co-creation. Everyone needs to be involved in the discussion and must be able to see and interact with shared content.
 
@@ -49,7 +50,7 @@ The right space bridges users and the technology seamlessly and eliminates frict
 
 ### Presentation and co-creation-focused meetings
 
-Remember, both types of rooms can handle both types of experiences when needed. Rooms can also be designed to accommodate both easily by having technology for each use. The important thing to remember is that no matter what space you are equipping, from a private office to a lecture hall, it needs to be Teams enabled.
+Remember, both types of rooms can handle both types of experiences when needed. Rooms can also be designed to accommodate both easily by having technology for each use. The important thing to remember is that no matter what space you're equipping, from a private office to a lecture hall, it needs to be Teams enabled.
 
 **Combination presentation and co-creation space layouts:** A combination of use cases from other meeting scenarios can be combined to form multi-purpose rooms where presentation-focused meetings, as well as co-creation work, can be achieved with equal efficiency, often simultaneously.
 
@@ -67,7 +68,7 @@ It's understood that over the course of a deployment, there may need to be inter
 
 ### Using Teams to create the best possible meeting experience
 
-By having both Teams on all your personal devices and properly deployed Microsoft Teams Rooms in all your spaces, you will be able to facilitate the best possible meeting experience for every one of your users. As you plan to achieve the best possible experience, you will need to address all your spaces in terms of both technological deployment and end-user guidance and training.
+By having both Teams on all your personal devices and properly deployed Microsoft Teams Rooms in all your spaces, you'll be able to facilitate the best possible meeting experience for every one of your users. As you plan to achieve the best possible experience, you'll need to address all your spaces in terms of both technological deployment and end-user guidance and training.
 
 It's normal when planning for a large-scale, company-wide rollout for it to happen in stages with some rooms seeing technology added at different times, or even certain components being installed earlier than others (such as deploying Teams panels for scheduling in every room in a particular building while installing Teams Rooms solutions one floor or even room at a time).
 
@@ -85,13 +86,13 @@ You can start with this plan by addressing all your non-AV or non-collaboration-
 
 #### Better experience – Teams Rooms solutions and no personal devices
 
-If you install Teams Rooms solutions or if you already have rooms that have already been deployed with appropriate Teams Rooms devices for their respective spaces, then you are well on your way to having great meeting experiences.
+If you install Teams Rooms solutions or if you already have rooms that have already been deployed with appropriate Teams Rooms devices for their respective spaces, then you're well on your way to having great meeting experiences.
 
 *Audio:* Audio for these meeting spaces will be handled by the Teams Rooms solution and its Microsoft-certified audio devices.
 
 *Video:* Video in these spaces will be handled by the Teams Rooms solution and its Microsoft-certified cameras.
 
-*Engagement:* Your end users will be able to take advantage of the complete Teams Rooms experience for their meetings, ensuring that everyone can join meetings easily and have great and audio and video.
+*Engagement:* Your end users are able to take advantage of the complete Teams Rooms experience for their meetings, ensuring that everyone can join meetings easily and have great and audio and video.
 
 #### Best experience – Teams Rooms solutions used in conjunction with personal devices
 
@@ -99,7 +100,7 @@ Training your users to use technology in coordination leads to the most efficien
 
 *Audio:* Most meeting-room connectivity and audio-video work will be handled by the Teams Rooms solution, while individual users can join the same meeting with cameras on and audio off for a completely immersive experience.
 
-*Video:* Remote users will be able to see everyone take part in the meeting beyond just speaking and content sharing. A remote user can turn on personal video to gain a view from anywhere in the room with the ability to focus in on any participant.
+*Video:* Remote users are able to see everyone take part in the meeting beyond just speaking and content sharing. A remote user can turn on personal video to gain a view from anywhere in the room with the ability to focus in on any participant.
 
 *Engagement:* Chat can remain dynamic with all participants, local and remote, involved and engaged. Video sharing from both Teams Rooms and via individual cameras allows remote participants to feel engaged with everyone.
 
@@ -107,7 +108,7 @@ Using Teams on all devices ensures that local room users and remote users feel e
 
 ## Technology considerations
 
-The right audio and video technology choices will help users get the most out of their Microsoft Teams meetings.
+The right audio and video technology choices help users get the most out of their Microsoft Teams meetings.
 
 ### Audio
 
@@ -117,7 +118,7 @@ Audio considerations are critical to ensure both remote and in-room participants
 
 A single source of audio for a space is required to ensure that there are no audio issues in a meeting room.
 
-Pairing the right microphone and speakers for each space will give the best possible results for being heard clearly without distraction.
+Pairing the right microphone and speakers for each space give the best possible results for being heard clearly without distraction.
 
 - In shared spaces, the options expand, but the same principles remain: meeting participants need to be heard and hear others clearly.
 
@@ -129,7 +130,7 @@ Pairing the right microphone and speakers for each space will give the best poss
 
 ### Video
 
-Video is equally important as audio. Capturing physical, non-verbal communication like facial expressions or gestures is as important as the classroom or meeting content to ensure maximum engagement and understanding. Rooms need to be equipped with the appropriate size of display so that everyone can experience the meeting properly, whether in the room or remote. This is why rooms also need to have the right camera coverage and field of view (FOV) to effectively capture all the in-room meeting participants for those joining remotely.
+Video is equally important as audio. Capturing physical, nonverbal communication like facial expressions or gestures is as important as the classroom or meeting content to ensure maximum engagement and understanding. Rooms need to be equipped with the appropriate size of display so that everyone can experience the meeting properly, whether in the room or remote. This is why rooms also need to have the right camera coverage and field of view (FOV) to effectively capture all the in-room meeting participants for those joining remotely.
 
 *The right cameras for each space*:
 
@@ -155,13 +156,13 @@ The future of work will be fluid, dynamic, and powered by the cloud. Microsoft e
 
 Microsoft sees a future where meetings are immersive and spaces are designed around people. Our dynamic meeting views keep everyone connected to the content and each other: Formal presentations are paired with collaborative chats. Digital canvases unleash group creativity. Everyone can connect face to face wherever they are.
 
-The vision for the future of meetings is grounded in a simple belief: meetings should offer so much more than just a one-time transaction. Meetings will be designed for everyone, whether they're in the room or across the world.
+The vision for the future of meetings is grounded in a simple belief: meetings should offer so much more than just a one-time transaction. Meetings are designed for everyone, whether they're in the room or across the world.
 
 ## What is a Signature Teams Room?
 
-In Microsoft's hybrid workplace, the next generation of room standards are informed by the needs of both remote and in-room participants. A Signature Teams Room is designed to deliver an *elevated* hybrid meeting experience, fostering more natural and immersive connections while enabling everyone in the meeting to feel included, represented, and productive. The room follows a set of principles made real through a combination of Teams Rooms software and hardware capabilities and room configuration guidance.
+In Microsoft's hybrid workplace, the next generation of room standards are informed by the needs of both remote and in-room participants. A Signature Teams Rooms is designed to deliver an *elevated* hybrid meeting experience, fostering more natural and immersive connections while enabling everyone in the meeting to feel included, represented, and productive. The room follows a set of principles made real through a combination of Teams Rooms software and hardware capabilities and room configuration guidance.
 
-The concept for the Signature Teams Room is designed around two key goals that are supported by a set of experience principles.
+The concept for the Signature Teams Rooms is designed around two key goals that are supported by a set of experience principles.
 
 **Goal 1: Everyone in the meeting feels included, represented, and productive.**
 
@@ -179,23 +180,23 @@ Design principles:
 
 - Experiences are scaled for human connection, enabling interactions that feel like everyone is in the same room.
 
-A Signature Teams Room experience is all those components and ideas put together with no single feature defining the experience. The individual features and concepts found in our Signature Teams Rooms may also be deployed on their own.
+A Signature Teams Rooms experience is all those components and ideas put together with no single feature defining the experience. The individual features and concepts found in our Signature Teams Rooms may also be deployed on their own.
 
 Examples of specific feature deployment:
 
-- Take advantage of our new front row front-of-room display experience in all types of meeting spaces where there is a Microsoft Teams Rooms solution that supports it.
+- Take advantage of our new front row front-of-room display experience in all types of meeting spaces where there's a Microsoft Teams Rooms solution that supports it.
 
 - Implement curved tables and front-facing layouts with traditional Microsoft Teams Rooms experiences to promote better human connection in the room while maintaining continuity of experience across all meeting spaces.
 
 ## When should you deploy this room type?
 
-Signature Teams Rooms are not meant to be a replacement for all other meeting spaces inside your organization, but rather to act as a supplement to existing meeting spaces that utilize Microsoft Teams. They should be deployed strategically within your organization to the spaces and locations where face-to-face interactions with remote meeting participants will be most valued.
+Signature Teams Rooms aren't meant to be a replacement for all other meeting spaces inside your organization, but rather to act as a supplement to existing meeting spaces that utilize Microsoft Teams. They should be deployed strategically within your organization to the spaces and locations where face-to-face interactions with remote meeting participants will be most valued.
 
-Microsoft Teams Rooms will continue to deliver people-centric hybrid meeting experiences made available through software updates. However, there are hardware technologies and room configuration guidance that play a key role in optimizing some of the Signature Teams Room experiences. It's the combination of these components that comprise a Signature Teams Room. When evaluating how many Microsoft Teams Rooms you want to evolve to a Signature Teams Room, consider the following:
+Microsoft Teams Rooms will continue to deliver people-centric hybrid meeting experiences made available through software updates. However, there are hardware technologies and room configuration guidance that play a key role in optimizing some of the Signature Teams Rooms experiences. It's the combination of these components that comprise a Signature Teams Room. When evaluating how many Microsoft Teams Rooms you want to evolve to a Signature Teams Room, consider the following:
 
 - What hardware upgrades and/or investments would need to be made.
 
-- Most conference rooms are designed to maximize valuable square footage with a close relationship between room dimension and room capacity. A Signature Teams Room prioritizes the meeting experience above maximizing square footage. Not every organization can prioritize this way for every meeting space, as it could reduce the number of meeting rooms they can have.
+- Most conference rooms are designed to maximize valuable square footage with a close relationship between room dimension and room capacity. A Signature Teams Rooms prioritizes the meeting experience above maximizing square footage. Not every organization can prioritize this way for every meeting space, as it could reduce the number of meeting rooms they can have.
 
 ### Understanding this space
 
@@ -221,7 +222,7 @@ The layout features a curved table for in-person eye contact and orientation to 
 
 Using audio solutions certified for Microsoft Teams Rooms, people are able to hear and be heard clearly.
 
-In the future, Teams Rooms will support audio systems that utilize a concept called spatial audio. With spatial audio, sound emanates from the direction of the person speaking. For example, if a person located on the right side of the meeting gallery speaks, the audio will come from the speaker located closest to that location. This kind of immersive audio experience helps meetings more closely resemble an in-person conversation.
+Teams Rooms support audio systems that utilize a concept called spatial audio. With spatial audio, sound emanates from the direction of the person speaking. For example, if a person located on the right side of the meeting gallery speaks, the audio comes from the speaker located closest to that location. This kind of immersive audio experience helps meetings more closely resemble an in-person conversation.
 
 ### How does the camera work?
 
@@ -229,7 +230,7 @@ An ultrawide-angle camera is positioned at the front of the room below the displ
 
 The ultrawide-angle camera features intelligent tracking of meeting participants so they can be represented individually in a large view instead of as faces within a large image of the entire room.
 
-![Rendering of a Signature Teams Room from an overhead view.](../media/emr5.png)
+![Rendering of a Signature Teams Rooms from an overhead view.](../media/emr5.png)
 
 ### How do the front-of-room displays work?
 
@@ -241,13 +242,13 @@ To give people in the room a greater sense of connection to remote participants 
 
 Meeting content is surrounded by contextual fluid components like the agenda, tasks, and notes, which can be updated in real time, helping participants stay engaged and productive. Additionally, the meeting chat is brought clearly into view so that when joining a Teams meeting from a Teams Room, you can easily see and engage in the conversation in real time. In a Signature Teams Room, this content is displayed on a wide-aspect-ratio screen to maximize the size of meeting content and the number of participants that can be viewed simultaneously.
 
-This layout is supported across both single- and dual-display configurations. While the front row layout is especially impactful in a Signature Teams Room, front row can be used in any Teams Room running on Windows, regardless of the furniture and hardware configuration.
+This layout is supported across both single- and dual-display configurations. While the front row layout is especially impactful in a Signature Teams Room, front row can be used in any Teams Rooms running on Windows, regardless of the furniture and hardware configuration.
 
 ### How do you co-create content?
 
 In Microsoft Teams Rooms, users can take advantage of traditional, analog whiteboarding by using the intelligent capture feature. For a modernized experience where all participants can draw and ink together, Microsoft Whiteboard can be accessed using a touchscreen front-of-room display, companion devices like a PC, phone, or tablet, and through Microsoft Surface Hub.
 
-## Signature Teams Room design guidance
+## Signature Teams Rooms design guidance
 
 This section is intended to cover building a room from scratch.
 
@@ -255,13 +256,13 @@ This section is intended to cover building a room from scratch.
 
 #### Room size
 
-![Blueprint of a Signature Teams Room design.](../media/emr10.png)
+![Blueprint of a Signature Teams Rooms design.](../media/emr10.png)
 
 25 ft x 14 ft
 
 #### Room capacity
 
-This Signature Teams Room is optimized for between 6 - 8 people.
+This Signature Teams Rooms is optimized for between 6 - 8 people.
 
 #### Room furniture
 
@@ -275,7 +276,7 @@ Selecting a location for hardware is typically driven by the selection of Teams 
 
 For the initial deployments of Signature Teams Rooms within our Microsoft facilities, we have chosen to mount the Microsoft Teams Rooms compute and touch console at the table, with an integrated camera and soundbar device (with discrete left- and right-channel audio for spatial audio) mounted on specialized furniture, located below the displayed image as well as between the front-of-room projection and the table. It's important to keep the console within reach of participants without impeding their use of the table for personal devices and/or documents. For the display, a short-throw high-resolution projector is used.
 
-Most participants will choose to share content within this type of meeting room by joining the Teams meeting via a personal device. However, in-room local video presentation should also be made available at the table in an easily accessible manner for those who are unable to join the meeting call.
+Most participants choose to share content within this type of meeting room by joining the Teams meeting via a personal device. However, in-room local video presentation should also be made available at the table in an easily accessible manner for those who are unable to join the meeting call.
 
 #### Touch console placement
 
@@ -315,7 +316,7 @@ Overhead lights should be provided to illuminate the space evenly, with meeting 
 
 ### Microsoft Teams Rooms solution
 
-Signature Teams Rooms require the use of Microsoft Teams Rooms on Microsoft Windows.
+Signature Teams Rooms require the use of features that may only be available on certain platforms, consult the feature comparison document to ensure your desired functionality is available: [Teams Rooms Feature Comparison](/microsoftteams/rooms/teams-devices-feature-comparison).
 
 ### Cameras
 
@@ -331,7 +332,7 @@ The camera should be placed at the front of the room below the front-of-room pro
 
 #### Microphone options
 
-Front-of-room microphone arrays and tabletop and overhead microphones will work for this type of space.
+Front-of-room microphone arrays and tabletop and overhead microphones work for this type of space.
 
 #### Microphone placement
 
@@ -341,9 +342,7 @@ Microphone arrays need to be positioned to provide coverage for all meeting room
 
 #### Speaker options
 
-Front-of-room speaker arrays and overhead speakers will work for this type of space.
-
-Note: Spatial audio is not yet available and may require specific audio devices.
+Front-of-room speaker arrays and overhead speakers work for this type of space. To achieve the best spatial audio experience, use a device from the [Teams-certified stereo speakers](/microsoftteams/rooms/certified-hardware?tab=Peripherals&branch=main&tabs=Windows) list and make sure that the left and right speaker setup is correct. Spatial audio can be enabled using the following XML: `<IsSpatialAudioEnabled>true</IsSpatialAudioEnabled>`. Learn more at [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](/microsoftteams/rooms/xml-config-file).
 
 #### Speaker placement
 
@@ -375,7 +374,7 @@ Signature Teams Rooms, as with all other Microsoft Teams Rooms solutions, requir
 
 #### Display placement
 
-A Signature Teams Room requires that the display is placed in front of all the in-room meeting participants, directly opposite the table.
+A Signature Teams Rooms requires that the display is placed in front of all the in-room meeting participants, directly opposite the table.
 
 The horizontal center line of the display must be centered on the same center line as the table.
 
@@ -383,7 +382,7 @@ The vertical center line of the display must be no more than +/- 15 degrees offs
 
 #### Display count
 
-A Signature Teams Room requires that the display is either a single wide-aspect ratio display or a blended combination of displays that can achieve the effect of being a single display when seen by in-room meeting participants.
+A Signature Teams Rooms requires that the display is either a single wide-aspect ratio display or a blended combination of displays that can achieve the effect of being a single display when seen by in-room meeting participants.
 
 ### Co-create options
 
@@ -393,7 +392,7 @@ All Teams Rooms are able take advantage of Microsoft Whiteboard through an inter
 
 #### Traditional whiteboard
 
-All Teams Rooms on Windows can leverage traditional whiteboards in a Teams meeting by using the intelligent capture feature and a secondary content camera.
+All Teams Rooms on Windows can use traditional whiteboards in a Teams meeting by using the intelligent capture feature and a secondary content camera.
 
 ## Recommended products for this space
 
@@ -421,17 +420,17 @@ Other options:
 
 As shown:
 
-[Jabra Panacast 50](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/jabra-panacast-50-series/922)
+[:::no-loc text="Jabra Panacast"::: 50](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/jabra-panacast-50-series/922)
 
 Other options:
 
-- [Jabra PanaCast](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/jabra-panacast/353)
+- [:::no-loc text="Jabra Panacast":::](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/jabra-panacast/353)
 
 - [Yealink UVC30](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc30-room/409)
 
 - [Yealink UVC40](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc40/648)
 
-- [Bose Videobar VB1](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-videobar-vb1/809)
+- [:::no-loc text="Bose Videobar"::: VB1](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-videobar-vb1/809)
 
 - [Poly Studio](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-studio/206)
 
@@ -449,13 +448,13 @@ Other options:
 
 As shown:
 
-[Jabra Panacast 50](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/jabra-panacast-50-series/922)
+[:::no-loc text="Jabra Panacast"::: 50](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/jabra-panacast-50-series/922)
 
 Other options:
 
 - [Yealink UVC40](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc40/648)
 
-- [Bose Videobar VB1](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-videobar-vb1/809)
+- [:::no-loc text="Bose Videobar"::: VB1](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-videobar-vb1/809)
 
 - [Poly Studio](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-studio/206)
 
@@ -463,13 +462,13 @@ Other options:
 
 - [Lenovo ThinkSmart Bar XL](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
 
-- [Biamp Devio conference room hub with Parle Ceiling mic](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
+- [:::no-loc text="Biamp Devio"::: conference room hub with Parle Ceiling mic](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
 
-- [Biamp Devio conference room hub with Parle table mic](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
+- [:::no-loc text="Biamp Devio"::: conference room hub with Parle table mic](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
 
 - [Shure MXA710-4FT wall-mount audio system](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-mxa710-audio-systems/967)
 
-- [Nureva HDL300 audio conferencing system](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/nureva-hdl300-audio-conferencing-system/739)
+- [:::no-loc text="Nureva"::: HDL300 audio conferencing system](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/nureva-hdl300-audio-conferencing-system/739)
 
 - [QSC Meeting room audio: in--ceiling speakers](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/700)
 
@@ -491,17 +490,17 @@ Other options:
 
 ### Speakers
 
-- A certified speaker solution that will provide clear and intelligible audio to all the in-room meeting participants.
+- A certified speaker solution that provides clear and intelligible audio to all the in-room meeting participants.
 
 As shown:
 
-[Jabra Panacast 50](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/jabra-panacast-50-series/922)
+[:::no-loc text="Jabra Panacast"::: 50](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/jabra-panacast-50-series/922)
 
 Other options:
 
 - [Yealink UVC40](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc40/648)
 
-- [Bose Videobar VB1](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-videobar-vb1/809)
+- [:::no-loc text="Bose Videobar"::: VB1](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-videobar-vb1/809)
 
 - [Poly Studio](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-studio/206)
 
@@ -509,13 +508,13 @@ Other options:
 
 - [Lenovo ThinkSmart Bar XL](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
 
-- [Biamp Devio conference room hub with Parle Ceiling mic](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
+- [:::no-loc text="Biamp Devio"::: conference room hub with Parle Ceiling mic](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
 
-- [Biamp Devio conference room hub with Parle table mic](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
+- [:::no-loc text="Biamp Devio"::: conference room hub with Parle table mic](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
 
 - [Shure MXA710-4FT wall-mount audio system](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-mxa710-audio-systems/967)
 
-- [Nureva HDL300 audio conferencing system](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/nureva-hdl300-audio-conferencing-system/739)
+- [:::no-loc text="Nureva"::: HDL300 audio conferencing system](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/nureva-hdl300-audio-conferencing-system/739)
 
 - [QSC Meeting room audio: in--ceiling speakers](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/700)
 
@@ -537,12 +536,12 @@ Other options:
 
 ### Displays
 
-- A short-throw or ultra-short throw, high resolution and high brightness laser projector with automatic wake on sync and cooldown during sleep function. A low gain projector screen with ambient light rejecting properties will provide the best picture quality in bright rooms.
+- A short-throw or ultra-short throw, high resolution and high brightness laser projector with automatic wake on sync and cooldown during sleep function. A low-gain projector screen with ambient-light-rejecting properties provides the best picture quality in bright rooms.
 
 As shown:
 
 - [Epson EB-PU1007 Projector with ELPLX01S Ultra Short Throw lens](https://epson.com/For-Work/Projectors/Large-Venue/EB-PU1007B-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement/p/V11HA34820)
-- [Da-Lite UTB Contour Screen | HD Progressive 0.6 Screen | Cinemascope 138" Diagonal](https://www.legrandav.com/products/da-lite/screens/fixed_frame_screens/utb_contour)
+- [Da-Lite UTB Contour Screen | HD Progressive 0.6 Screen | :::no-loc text="Cinemascope"::: 138" Diagonal](https://www.legrandav.com/products/da-lite/screens/fixed_frame_screens/utb_contour)
 
 Other options:
 
@@ -564,10 +563,11 @@ Content cameras:
 
 - [Yealink UVC30 content camera](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc30-content-camera/647)
 
-- [Huddly Canvas](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/huddly-canvas/568)
+- [:::no-loc text="Huddly"::: Canvas](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/huddly-canvas/568)
 
 - [Logitech BRIO Content Camera Kit](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/logitech-brio-content-camera-kit/349)
 
 Interactive touch devices:
 
 [Microsoft Surface Hub 2S](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822?)
+

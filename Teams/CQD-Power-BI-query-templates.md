@@ -1,17 +1,19 @@
 ---
 title: "Use Power BI to analyze CQD data for Microsoft Teams"
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
+author: mkbond007
+ms.author: mabond
+manager: pamgreen
 ms.reviewer: siunies
-ms.date: 03/06/2020
+ms.date: 04/09/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - remotework
   - Tier1
+  - ContentFreshnessFY24
 search.appverid: MET150
 audience: Admin
 appliesto: 
@@ -22,7 +24,7 @@ description: "Use Power BI to analyze CQD data for Microsoft Teams."
 
 # Use Power BI to analyze CQD data for Microsoft Teams
 
-New in July 2022: The new Quality of Experience (QER) template has been added to the [Power BI query templates for CQD download](https://www.microsoft.com/download/details.aspx?id=102291). The QER is a powerful reporting template that supercedes the original CQD Power BI query templates released in 2020. While the original templates will remain available for demonstration purposes, they are no longer supported or updated and we recommend customers switch to the QER template which will continue to receive updates. Note that this does not apply to the CQD Teams Auto Attendant & Call Queue Historical Report.
+The Quality of Experience (QER) template is now available in the [Power BI query templates for CQD download](https://www.microsoft.com/download/details.aspx?id=102291). The QER is a powerful reporting template that supersedes the original CQD Power BI query templates released in 2020. While the original templates will remain available for demonstration purposes, they're no longer supported or updated and we recommend customers switch to the QER template which will continue to receive updates. Note that this doesn't apply to the CQD Teams Auto Attendant & Call Queue Historical Report.
 
 For Call Quality Dashboard (CQD) reports in Teams, if you'd rather use Power BI to query and report your data, download our CQD Power BI templates. When you open the templates in Power BI, you'll be prompted to sign in with your CQD admin credentials. You can customize these query templates and distribute them to anyone in your organization who has a Power BI license and CQD admin permissions.
 
@@ -32,11 +34,18 @@ Make sure you have the right [CQD access role](turning-on-and-using-call-quality
 
 |Pbit |Description |
 |:----------|:---------|
-|<strong>(New!)</strong> QER.pbit     |  The Quality of Experience Report (QER) template empowers customers to proactively identify issues that are impacting the Teams meeting and calling experience before they escalate. Reports are also provided to enable administrators to respond quickly to escalating issues and help answer the question, "What happened during the meeting?" <br>This template provides the following reports:</p><li>Search – enables searching by Meeting URL, Conference ID, Subnet, or UPN.</li><li>Meeting Health Details – detailed metrics for a single meeting.</li><li>User Health Details – detailed metrics for a single user.</li><li>Media Health – high level overview of Key Health Indicators (KHI) for overall tenant meeting and calling health.</li><li>Media Setup – analyze media setup failures.</li><li>Media Reliability – analyze media reliability issues.</li><li>Audio/Video/Sharing Health – review mid-level KHIs for audio, video, or sharing health.</li><li>Audio/Video/Sharing Health Details – review detailed metrics on audio, video, or sharing health.</li><li>VPN – review the impact of VPN on meeting health. (Estimated or Mapped VPN)</li><li>Top 10 Reports – identify problem areas in your tenant.</li><li>Dailies – review daily report of KHIs.</li><li>Usage – general meeting and calling usage.</li><li>User Feedback – review user survey feedback, also known as Rate My Call.</li><li>Transport – identify networks that are blocking UDP.</li><li>Devices – review the impact of devices.</li><li>Clients - review client focused metrics.</li><li>Building Data – review the building data file in CQD.</li><li>PSTN Health and User Details – two reports that provide a high level summary as well as individual user health for PSTN based calls.</li><li>Network Metrics – two reports that display raw network metric details for jitter, packet loss, and latency.</li> <br/> This template is provided on an as-is basis, and supercedes the deprecated templates as indicated below.|
+|QER.pbit     |  The Quality of Experience Report (QER) template empowers customers to proactively identify issues that are impacting the Teams meeting and calling experience before they escalate. Reports are also provided to enable administrators to respond quickly to escalating issues and help answer the question, "What happened during the meeting?" <br>This template provides the following reports:</p><li>Search – enables searching by Meeting URL, Conference ID, Subnet, or UPN.</li><li>Meeting Health Details – detailed metrics for a single meeting.</li><li>User Health Details – detailed metrics for a single user.</li><li>Media Health – high level overview of Key Health Indicators (KHI) for overall tenant meeting and calling health.</li><li>Media Setup – analyze media setup failures.</li><li>Media Reliability – analyze media reliability issues.</li><li>Audio/Video/Sharing Health – review mid-level KHIs for audio, video, or sharing health.</li><li>Audio/Video/Sharing Health Details – review detailed metrics on audio, video, or sharing health.</li><li>VPN – review the impact of VPN on meeting health. (Estimated or Mapped VPN)</li><li>Top 10 Reports – identify problem areas in your tenant.</li><li>Dailies – review daily report of KHIs.</li><li>Usage – general meeting and calling usage.</li><li>User Feedback – review user survey feedback, also known as Rate My Call.</li><li>Transport – identify networks that are blocking UDP.</li><li>Devices – review the impact of devices.</li><li>Clients - review client focused metrics.</li><li>Building Data – review the building data file in CQD.</li><li>PSTN Health and User Details – two reports that provide a high level summary as well as individual user health for PSTN based calls.</li><li>Network Metrics – two reports that display raw network metric details for jitter, packet loss, and latency.</li> <li>Teams Events Overview <b>NEW!</b>– high level overview of health for Teams Events.</li> <li> Event Health Details <b>NEW!</b>  – detailed metrics for a single Event, including network metrics for presenters as well as atendees.</li> <li>VDI Clients <b>NEW!</b> –  review VDI client focused metrics.</li> <li>New Teams Usage <b>NEW!</b> – review the media usage for the new Teams client.</li> <br/> This template is provided on an as-is basis, and supercedes the deprecated templates as indicated below.|
 |QER MTR.pbit  | Part of the Microsoft Teams Optimized Experiences report package, this template is optimized for analyzing quality and reliability for Microsoft Teams Rooms (Windows & Android) deployments, and includes the following reports: <br><li>MTR Overview</li> <li>MTR Network</li> <li>MTR Device Health Details</li> <li>MTR Meeting Health Details</li>|
 |QER PS.pbit  | Part of the Microsoft Teams Optimized Experiences report package, this template is optimized for analyzing Microsoft Teams Phone System deployments, including those environments using Direct Routing, and includes the following reports: <br>Direct Routing Reports <li>SBC Overview</li> <li>SBC Details</li> <li>User Details by SBC</li> <br> Phone System Reports <li>PSTN Overview</li> <li>PSTN User Overview</li> <li>PSTN User Details</li> <li>PSTN Clients</li> <li>PSTN Devices</li>|
 |CQD Teams Auto Attendant & Call Queue Historical Report.pbit     |  This template provides the following three reports:</p><li>Auto Attendant – showing analytics for calls coming into your Auto Attendants.</li><li>Call Queue – showing analytics for calls coming into your Call Queues.</li><li>Agent Timeline – showing a timeline view of agents being active in Call Queue calls.</li><br>To learn more, read [Auto Attendant & Call Queue Historical Report](aa-cq-cqd-historical-reports.md). |
-|CQD Teams Utilization Report.pbit     | Shows how users in your organization are using Teams and how much. Make sure you upload the building data to maximize your reporting experience. To learn more, read [Use CQD Power BI report to view Microsoft Teams utilization](CQD-teams-utilization-report.md). |
+|CQD Teams Usage Report.pbit     | Shows how users in your organization are using Teams and how much. Make sure you upload the building data to maximize your reporting experience. To learn more, read [Use CQD Power BI report to view Microsoft Teams utilization](CQD-teams-utilization-report.md). |
+
+## Legacy templates
+
+The following templates are deprecated and no longer maintained. We recommend moving to the newer Quality of Experience (QER) templates going forward.
+
+|Pbit |Description |
+|:----------|:---------|
 |CQD PSTN Direct Routing Report.pbit <br/> *(Deprecated)*    | Example template that provides insights specific for PSTN calls that go through Direct Routing. To learn more, read [Using the CQD PSTN Direct Routing Report](CQD-PSTN-report.md). |
 |CQD Helpdesk Report.pbit <br/> *(Deprecated)*     |Integrating building and EUII data, this template demonstrates how to build a report to enable drill through from a single user to find the upstream root cause of poor call quality for that user (for example, the user is in a building that's experiencing network problems). |
 |CQD Location Enhanced Report.pbit <br/> *(Deprecated)*     | This example template re-imagines the CQD SPD location reports. Includes 9 reports, providing Call Quality, Building WiFi, Reliability, and Rate My Call (RMC) information with additional drill-thrus by Building or by User. Make sure you upload the building data to maximize your reporting experience. |

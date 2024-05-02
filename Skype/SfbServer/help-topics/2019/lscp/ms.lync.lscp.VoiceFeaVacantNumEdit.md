@@ -15,7 +15,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 ROBOTS: NOINDEX, NOFOLLOW
-description: "Unassigned numbers are phone numbers that are valid for your organization but are not assigned to a user or a phone. The unassigned number table identifies how you want calls to unassigned numbers to be treated."
+description: "Unassigned numbers are phone numbers that are valid for your organization but aren't assigned to a user or a phone. The unassigned number table identifies how you want calls to unassigned numbers to be treated."
 ---
 
 # Unassigned Phone Number: Create New or Edit Existing
@@ -23,7 +23,7 @@ description: "Unassigned numbers are phone numbers that are valid for your organ
 > [!NOTE]
 > Exchange UM remains available in Skype for Business Server 2019 when you integrate Skype for Business 2019 with Exchange 2013 or Exchange 2016. Due to changes in support in Exchange 2019, Exchange UM integration is being de-emphasized in favor of Cloud Voicemail and Cloud Auto Attendant features.
 
-Unassigned numbers are phone numbers that are valid for your organization but are not assigned to a user or a phone. The unassigned number table identifies how you want calls to unassigned numbers to be treated.
+Unassigned numbers are phone numbers that are valid for your organization but aren't assigned to a user or a phone. The unassigned number table identifies how you want calls to unassigned numbers to be treated.
 
 > [!IMPORTANT]
 > When you are finished creating a new unassigned number range or editing an existing one, click **OK** to return to the **Unassigned Number** page that lists all the number ranges. The changes you made on the **New Unassigned Number Range** page or the **Edit Unassigned Number Rage** page are not committed to the database until you click **Commit all** on the **Unassigned Number** page.
@@ -32,7 +32,7 @@ Unassigned numbers are phone numbers that are valid for your organization but ar
 
 The following list describes the fields on the page.
 
-- **Name** Type a descriptive name that identifies the unassigned number range. After you save the range, this name cannot be changed.
+- **Name** Type a descriptive name that identifies the unassigned number range. After you save the range, this name can't be changed.
 
 - **Number range** In the first field, type the beginning number of the unassigned number range. In the second field, type the ending number of the range.
 
@@ -40,7 +40,7 @@ The following list describes the fields on the page.
 
   - If the beginning number of the range or the ending number of the range includes an extension number, both the beginning number and the ending number of the range must include an extension, and the extension number must be the same for both the beginning number and the ending number.
 
-  - The number must match the regular expression (`tel:`)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?. This means the number may begin with the string 'tel:'. If you don't specify that string, it will be automatically added for you, such as a plus sign (+), and a digit 1 through 9. The phone number can be up to 17 digits and may be followed by an extension in the format ;ext= followed by the extension number.
+  - The number must match the regular expression (`tel:`)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})? This means the number may begin with the string 'tel:'. If you don't specify that string, it will be automatically added for you, such as a plus sign (+), and a digit 1 through 9. The phone number can be up to 17 digits and may be followed by an extension in the format ;ext= followed by the extension number.
 
 - **Announcement service** Select **Announcement** to have the Announcement application handle the incoming call or **Exchange UM** to have an Exchange UM Auto Attendant handle the incoming call.
 

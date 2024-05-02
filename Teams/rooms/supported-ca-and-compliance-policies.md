@@ -1,20 +1,22 @@
 ---
 title: Supported Conditional Access and Intune device compliance policies for Microsoft Teams Rooms
 ms.author: tonysmit
-author: tonysmit
-ms.reviewer: kspiess
-ms.date: 02/28/2022
-manager: serdars
-audience: ITPro
-ms.topic: conceptual
+author: mstonysmith
+manager: pamgreen
+ms.reviewer: altsou
+ms.date: 11/13/2023
+ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-f1.keywords: 
-  - NOCSH
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier1
+f1.keywords:
+  - NOCSH
 description: Learn about supported and recommended Conditional Access and Intune device compliance policies for Microsoft Teams Rooms.
 ---
 
@@ -50,12 +52,27 @@ The following list includes the supported Conditional Access policies for Teams 
 | Block access                             | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                            |
 | Grant access                             | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                                    |
 | Require multi-factor authentication      | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Supported                                                                                                                                                            |
+| Require authentication strength      | Not supported   | Not Supported                                                                                                                                                                         | Not supported 
 | Require device to be marked as compliant | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                            |
-| Require Hybrid Azure AD joined device    | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                        |
+| Require Microsoft Entra hybrid joined device    | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                        |
 | Require approved client app              | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                        |
 | Require app protection policy            | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                        |
-| Require password change                  | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                        |
+| Require password change                  | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Not supported                       
+| **Sessions**                                | ---                                                                                                                                                                                  | ---                                                                                                                                                                                  | ---                      
+| Use app enforced restrictions      | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Not Supported                                                                                                                                                            |
+| Use Conditional Access App Control      | Not supported   | Not Supported                                                                                                                                                                         | Not supported 
+| Sign-in frequency | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                            |
+| Persistent browser session    | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                        |
+| Customize conditional access evaluation          | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                        |
+| Disable resiliency defaults          | Not supported                        | Not supported                                                                                                                                                 | Not supported 
+| Require token protection for sign-in sessions (Preview)         | Not supported                      | Not supported                                                                                                                                                   | Not supported 
 
+> [!NOTE]
+> Using Conditional Access policies with Sign-in frequency configured, will make all Teams Android devices periodicly sign out.  This is expected behavior.
+> 
+> [!NOTE]
+> Authentication Strength including but not limited to, FIDO2 Security keys, is not supported for use with Conditional Access policys that will affect all Teams Devices.
+> 
 > [!NOTE]
 > Skype for Business Online is retired and not supported. Skype for
 Business Online cloud app is not supported for device compliance based
@@ -130,9 +147,10 @@ their use with Teams Rooms.
 | Block apps from unknown sources                                                                                                         | Not supported | Only Teams admins install apps or OEM tools                                   |
 | Company Portal app runtime integrity                                                                                                    | Supported     |                                                                               |
 | Restricted apps                                                                                                                         | Not supported |                                                                               |
-| Block USB debugging on device                                                                                                           | Supported     |                                                                               |
+| Block USB debugging on device                                                                                                           | Not Supported | Not Applicable. ADB enablement is not allowed on production devices.  |
 | [**All Android devices*](/mem/intune/protect/compliance-policy-create-android#all-android-devices)                                      | --            | --                                                                            |
-| Maximum minutes of inactivity before password are required                                                                              | Not supported |                                                                               |
+| Maximum minutes of inactivity before password are required                                                                              | Not supported |             
+                                                                  |
 | Require a password to unlock mobile devices                                                                                             | Not supported |                                                                               |
 | [**Android 10 and later**](/mem/intune/protect/compliance-policy-create-android#android-10-and-later)                                   | --            | --                                                                            |
 | [**Android 9 and earlier or Samsung Knox**](/mem/intune/protect/compliance-policy-create-android#android-9-and-earlier-or-samsung-knox) | --            | --                                                                            |
@@ -163,7 +181,7 @@ Below is a table of device compliance settings and recommendations for their use
 | Block apps from unknown sources                                                                                                         | Not supported | Only Teams admins install apps or OEM tools                                   |
 | Company Portal app runtime integrity                                                                                                    | Supported     |                                                                               |
 | Restricted apps                                                                                                                         | Not supported |                                                                               |
-| Block USB debugging on device                                                                                                           | Supported     |                                                                               |
+| Block USB debugging on device                                                                                                           | Not Supported | Not Applicable. ADB enablement is not allowed on production devices.  |
 | [**All Android devices*](/mem/intune/protect/compliance-policy-create-android#all-android-devices)                                      | --            | --                                                                            |
 | Maximum minutes of inactivity before password are required                                                                              | Not supported |                                                                               |
 | Require a password to unlock mobile devices                                                                                             | Not supported |                                                                               |
@@ -198,7 +216,7 @@ Below is a table of device compliance settings and recommendations for their use
 | Block apps from unknown sources                                                                                                         | Not supported | Only Teams admins install apps or OEM tools                                   |
 | Company Portal app runtime integrity                                                                                                    | Supported     |                                                                               |
 | Restricted apps                                                                                                                         | Not supported |                                                                               |
-| Block USB debugging on device                                                                                                           | Supported     |                                                                               |
+| Block USB debugging on device                                                                                                           | Not Supported | Not Applicable. ADB enablement is not allowed on production devices.  |
 | [**All Android devices*](/mem/intune/protect/compliance-policy-create-android#all-android-devices)                                      | --            | --                                                                            |
 | Maximum minutes of inactivity before password are required                                                                              | Not supported |                                                                               |
 | Require a password to unlock mobile devices                                                                                             | Not supported |                                                                               |

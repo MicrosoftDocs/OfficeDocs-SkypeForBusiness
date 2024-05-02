@@ -1,18 +1,19 @@
 ---
 title: "Dialing out from a meeting so other people can join"
-ms.author: heidip
-author: MicrosoftHeidi
-manager: serdars
+ms.author: jenz
+author: jenzamora
+manager: pamgreen
 ms.reviewer: oscarr
-ms.date: 11/28/2017
+ms.date: 02/22/2024
 ms.topic: article
 ms.assetid: 3c2db9a5-3a19-4e19-b59e-8e5587f25d31
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 search.appverid: MET150
 ms.collection: 
-  - M365-voice
   - M365-collaboration
+  - m365initiative-meetings
   - Tier1
 audience: Admin
 appliesto: 
@@ -32,11 +33,11 @@ As the meeting organizer, you can dial out using the Teams app to let other peop
 
 When you dial out to someone, we recommend that you do so using their full phone numbers (including the country/region code - E.164 format).
   
-  Please note that:
+Keep these points in mind:
 
 - You can dial out only if you join a meeting using Teams.
-- The meeting organizer, has been enabled for audio conferencing, OR, in the case no audio conferencing license is assigned, is allowed to make calls to the public switched telephone network via online calling plans or direct routing.
-- The meeting organizer is [Granted an online dial out policy that enables dial out from conferencing enabled](/powershell/module/skype/grant-csdialoutpolicy?view=skype-ps)
+- The meeting organizer either has audio conferencing enabled or uses online calling plans or direct routing to make calls to the Public Switched Telephone Network (PSTN).
+- The meeting organizer is [Granted an online dial out policy that enables dial out from conferencing enabled](/powershell/module/teams/grant-csdialoutpolicy).
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -54,10 +55,10 @@ Dial-out is only available to some countries/regions. For complete list, see [Co
 
 ## Allow users to dial in
 
-If you are looking for instructions on how to let your users dial in to a Teams meeting, please see [Phone numbers for Audio Conferencing in Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md).
+If you're looking for instructions on how to let your users dial in to a Teams meeting, see [Phone numbers for Audio Conferencing in Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md).
 
 ## Want to know more about audio conferencing?
 
-[Try or purchase Audio Conferencing](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+- [Try or purchase Audio Conferencing](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 
-[Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)

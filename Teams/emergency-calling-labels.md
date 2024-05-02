@@ -2,8 +2,8 @@
 title: "Emergency calling disclaimer labels"
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
+manager: pamgreen
+ms.reviewer: mikedav, jastark, oscarr
 ms.date: 04/23/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 audience: Admin
 appliesto: 
@@ -22,15 +23,15 @@ f1.keywords:
 ms.custom: 
   - Calling Plans
   - seo-marvel-apr2020
-description: You can download and print these labels for emergency calling when you are using Calling Plans in Microsoft 365 or Office 365.
+description: You can download and print these labels for emergency calling when you're using Calling Plans in Microsoft 365.
 ---
 # Emergency Calling Labels
 
-These are emergency calling (911) disclaimer labels or stickers for use with Avery 5160 address labels (1" x 2 5/8") or can be sized if you want to use other types of labels.
+These labels are emergency calling (911) disclaimer labels or stickers for use with Avery 5160 address labels (1" x 2 5/8") or can be sized if you want to use other types of labels.
 
-[Click to download a .zip file for Emergency Calling labels (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true).
+[Select to download a .zip file for Emergency Calling labels (en-us)](https://download.microsoft.com/download/9/9/0/990e24c1-eb49-4b52-9306-dbd4c864ed91/emergency-calling-label-(en-us)-(v.1.0).zip).
 
-## Related topics
+## Related articles
 
 [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

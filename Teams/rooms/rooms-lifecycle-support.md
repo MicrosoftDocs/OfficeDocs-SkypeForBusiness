@@ -1,17 +1,19 @@
 ---
 title: Microsoft Teams Rooms app version support
 ms.author: tonysmit
-author: tonysmit
-ms.reviewer: sohailta
-ms.date: 05/30/2023
-manager: serdars
-audience: ITPro
+author: mstonysmith
+manager: pamgreen
+ms.reviewer: raginis
+ms.date: 10/04/2023
 ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
-  - Teams_ITAdmin_Rooms
+  - teams-rooms-devices
   - Tier1
 f1.keywords: 
   - NOCSH
@@ -29,7 +31,7 @@ The support structure for Teams Rooms is dynamic and depends on the availability
 All releases are listed in the [Microsoft Teams Rooms release notes](rooms-release-note.md).
 
 > [!IMPORTANT]
-> When installing a new device that came with an older version of the Teams room application, it is recommended to [manually update the application](manual-update.md) after setting the account, before downloading any Windows updates. This ensures correct OS version and Windows updates are installed on your device.  
+> When installing a new device that came with an older version of the Teams Rooms application, it is recommended to [manually update the application](manual-update.md) after setting the account, before downloading any Windows updates. This ensures correct OS version and Windows updates are installed on your device.  
 
 ## Windows release support
 

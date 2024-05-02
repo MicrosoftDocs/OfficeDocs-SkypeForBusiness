@@ -1,21 +1,23 @@
 ---
 title: Set up and manage Teams Rooms on Windows custom backgrounds
 ms.author: tonysmit
-author: tonysmit
-manager: serdars
-audience: ITPro
-ms.reviewer: sohailta
-ms.date: 05/30/2023
-ms.topic: quickstart
+author: mstonysmith
+manager: pamgreen
+ms.reviewer: henrikalim
+ms.date: 11/02/2023
+ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
+appliesto: 
+  - Microsoft Teams
+ms.collection: 
+  - M365-collaboration
+  - teams-rooms-devices
+  - Tier1
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
-ms.collection: 
-  - M365-collaboration
-  - Teams_ITAdmin_Rooms
-  - Tier1
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Learn how to set up custom backgrounds on Teams Rooms front-of-room and touch console displays.
@@ -45,7 +47,7 @@ To check which version of Teams is installed and which Teams Rooms license is ap
   1. Select the **Health** tab
   1. On the **Health** tab, go to the **Software health** section and find the version under **Teams App**
 
-Select the tab that corresponds to the version of Teams Rooms and the Teams Room license that applies to your device.
+Select the tab that corresponds to the version of Teams Rooms and the Teams Rooms license that applies to your device.
 
 | Teams Rooms version                                  | Teams Rooms Pro       | Teams Rooms Basic |
 |------------------------------------------------------|-----------------------|-------------------|
@@ -63,7 +65,7 @@ When you enable custom backgrounds, you need to provide custom backgrounds for y
 If you enable custom backgrounds and don't provide custom backgrounds for all of your front-of-room displays, all displays, including the touch console, default to `No Theme`.
 
 > [!NOTE]
-> If you've been using the `<CustomThemeImageUrl>` element to provide a single custom background image for your front-of-room displays, you can continue using it if it suits your needs. However, if you want to provide separate custom backgrounds for each front-of-room display, or if you want to configure a custom background on your touch console, you need to use the elements provided in this section.
+> If you've been using the `<CustomThemeImageUrl>` element to provide a single custom background image for your front-of-room displays, you can continue using it if it suits your needs. However, if you want to provide separate custom backgrounds for each front-of-room display, or replace your existing backgrounds with higher resolution images, or configure a custom background on your touch console, you need to use the elements provided in this section.
 >
 > For more information about using `<CustomThemeImageUrl>`, see [Standard backgrounds](/microsoftteams/rooms/custom-backgrounds?tabs=Standard).
 
@@ -76,12 +78,15 @@ Front-of-room displays and touch consoles have minimum supported custom backgrou
 The recommended custom background resolution for front-of-room displays and touch consoles depends on their aspect ratios. The following lists the aspect ratios supported by each display and the recommended resolution for each.
 
 - Single and dual front-of-room displays (per display)
-  - 16:9 displays - 1920 x 1080 (up to two 16:9 displays are supported)
-  - 21:9 displays - 2560 x 1080 (only one 21:9 display is supported)
-- Touch consoles
-  - 16:9 display - 1920 x 1080
-  - 16:10 display - 1280 x 800
-  - 3:2 display - 1920 x 800
+  - 16:9 displays - 1920 x 1080 or 3840 x 2160 for 4K-enabled displays (up to two 16:9 displays are supported)
+  - 21:9 displays - 2560 x 1080 or 3840 x 1645 for 4K-enabled displays (only one 21:9 display is supported)
+- Touch console displays
+  - 16:9 displays - 1920 x 1080 
+  - 16:10 displays - 1280 x 800
+  - 3:2 displays - 1920 x 800
+- Touch board displays
+  - 16:9 (4K-enabled displays) – 3840 x 2160
+  - 3:2 (4K-enabled displays) – 3840 x 2560
 
 If you're not sure what the aspect ratio of your display is, check your display's specifications.
 
@@ -101,14 +106,14 @@ The graphics and text you place on your custom backgrounds needs to follow conte
 - Content remains legible when placed in front of visual elements in the custom background
 - Content remains visible if a custom background is cropped
 
-The following guidelines apply for both front-of-room and touch console displays:
+The following guidelines apply for front-of-room, touch console, and touch board displays:
 
-- Use a darker background in the top and bottom left corners to ensure users can read the white of the clock, room information, and help text in those locations.
+- Use a darker background in the top and bottom left corners to ensure users can read the white of the clock, room information, and tips in those locations.
 - For the best experience, use a contrast ratio of 4.5:1 for small text and 3:1 for large text. Use an accessibility contrast checker on the Internet to input color values to see if their contrast ratio is acceptable.
 
 If you want to set up two front-of-room displays, both displays need to have an aspect ratio of 16:9. When you have two front-of-room displays, the right one is the "main" display while the left one is the "extended" display.
 
-Save the custom background image file in one of the following formats: `jpg`, `jpeg`, `png`, `bmp`. After you've created the image file, [deploy it to your Teams Rooms devices](#deploy-an-updated-custom-background).
+Save the custom background image file in one of the following formats: `jpg`, `jpeg`, and `png`. After you've created the image file, [deploy it to your Teams Rooms devices](#deploy-an-updated-custom-background).
 
 These guidelines are also available in a [custom theme template](#custom-background-template) that you can download.
 
@@ -119,57 +124,69 @@ When you create a custom background:
 - Place text, logos, or icons, in the middle of the screen so it isn't obscured by home screen elements.
 - Avoid placing text, logos, or icons, near these locations:
   - **Upper left corner** - Time and room information.
-    - **Size**: 280 x 130
-    - **Upper-left corner coordinates**: 96, 96
-  - **Bottom left corner** - Help information.
-    - **Size**: 500 x 40
-    - **Upper-left corner coordinates**: 96, 946
+    - **Size**: up to 46% of the screen width, up to 42% of the screen height depending on the display settings
+  - **Bottom left corner** - Tips.
+    - **Size**: up to 46% of the screen width, up to 16% of the screen height depending on the display settings
   - **Right side** - Room calendar.
-    - **Size**: 512 x 585
-    - 16:9 displays
-      - **Upper-left corner (single display) coordinates**: 1312, 248
-      - **Upper-left corner (dual display) coordinates**: 3232, 248
-    - 21:9 displays
-      - **Upper-left corner coordinates**: 1912, 248
-  
+    - **Size**: up to 36% of the screen width, up to 72% of the screen height depending on the display settings
+
 **16:9 - Single front-of-room display dimensions**
 
-:::image type="content" source="../media/front-of-room-16-9-single-dimensions.png" alt-text="A custom background showing a 16:9 front of room display with element dimensions." lightbox="../media/front-of-room-16-9-single-dimensions-large.png":::
+:::image type="content" source="../media/mtr-devices/mtrw-for-qr-16x9.png" alt-text="A custom background showing a 16:9 front of room display with element dimensions and a QR code." lightbox="../media/mtr-devices/mtrw-for-qr-16x9.png":::
 
 **16:9 - Dual front-of-room display dimensions**
 
-:::image type="content" source="../media/front-of-room-16-9-dual-display-dimensions.png" alt-text="A custom background showing dual 16:9 front of room displays with element dimensions." lightbox="../media/front-of-room-16-9-dual-display-dimensions-large.png":::
+:::image type="content" source="../media/mtr-devices/dual-for-qr.png" alt-text="A custom background showing dual 16:9 front of room displays with element dimensions and a QR code." lightbox="../media/mtr-devices/dual-for-qr.png":::
 
 **21:9 - Single front-of-room display dimensions**
 
-:::image type="content" source="../media/front-of-room-21-9-dimensions.png" alt-text="Custom background showing a 21:9 front of room display with element dimensions." lightbox="../media/front-of-room-21-9-dimensions-large.png":::
+:::image type="content" source="../media/mtr-devices/mtrw-for-qr-21x9.png" alt-text="Custom background showing a 21:9 front of room display with element dimensions and a QR code." lightbox="../media/mtr-devices/mtrw-for-qr-21x9.png":::
 
 These guidelines are also available in a [custom theme template](#custom-background-template) that you can download.
 
-#### Touch console display
+#### Touch console displays
 
 When you create a custom background, avoid placing text, logos, or icons, near these locations:
 
 - **Upper left corner** - Time and room information.
-  - **Size**: 260 x 104
-  - **Upper-left corner coordinates**: 48, 48
-- **Bottom left corner** - Cortana.
-  - **Size**: 400 x 48
-  - **Upper-left corner coordinates**: 56, 616
-- **Middle** - Action buttons.
-  - **Size**: 408 x 336
-  - **Upper-left corner coordinates**: 156, 221
+  - **Size**: 540 x 242 px
+- **Bottom left corner** - Tips.
+  - **Size**: 540 x 82 px
+- **Middle** - User actions.
+  - **Size**: 408 x 336 px
 - **Right side** - Room calendar.
-  - **Size**: 512 x 631
-  - **Upper-left corner coordinates**: 720, 48
+  - **Size**: up to 44% of the screen width, up to 80% of the screen height depending on the display settings
+- **Bottom right corner** - Help.
+  - **Size**: 56 x 56 px
 
 **16:9 - Touch console dimensions**
 
-:::image type="content" source="../media/console-16-9-dimensions.png" alt-text="A custom background showing a 16:9 touch console display with element dimensions." lightbox="../media/console-16-9-dimensions-large.png":::
+:::image type="content" source="../media/mtr-devices/mtrw-console-qr.png" alt-text="A custom background showing a 16:9 touch console display with element dimensions with QR code." lightbox="../media/mtr-devices/mtrw-console-qr.png":::
+
+#### Touch board displays
+
+When you create a custom background, avoid placing text, logos, or icons, on these locations:
+
+- **Upper left corner** - Time and room information.
+  - **Size**: up to 46% of the screen width, up to 42% of the screen height depending on the display settings
+- **Bottom left corner** - Tips.
+  - **Size**: up to 46% of the screen width, up to 16% of the screen height depending on the display settings
+- **Right side** - User actions and room calendar.
+  - **Size**: up to 43% of the screen width, up to 72% of the screen height depending on display settings
+- **Bottom right corner** - Help.
+  - **Size**: up to 3% of the screen width, up to 5% of the screen height depending on display settings
+
+**16:9 - Touch board display dimensions**
+
+:::image type="content" source="../media/mtr-devices/mtrw-touchboard-qr-16x9.png" alt-text="A custom background showing a 16:9 touch board display with element dimensions with QR code." lightbox="../media/mtr-devices/mtrw-touchboard-qr-16x9.png":::
+
+**3:2 - Touch board display dimensions**
+
+:::image type="content" source="../media/mtr-devices/mtrw-touchboard-qr-3x2.png" alt-text="A custom background showing a 3:2 touch board display with element dimensions with QR code." lightbox="../media/mtr-devices/mtrw-touchboard-qr-3x2.png":::
 
 ### Custom background template
 
-To create custom backgrounds that meet the guidelines in the previous sections, you can download the [Microsoft Teams Rooms Theme Template](https://www.microsoft.com/download/details.aspx?id=105251). 
+To create custom backgrounds that meet the guidelines in the previous sections, you can download the [Microsoft Teams Rooms Theme Template](https://www.microsoft.com/en-us/download/details.aspx?id=105251).
 
 The template is a .PSD file that can be opened by apps such as Adobe Photoshop or Paint.NET (a plug-in may be required). The template provides assets and guidelines to help you place text and graphics in your custom backgrounds that won't be obscured by on-screen elements.
 
@@ -184,12 +201,12 @@ To tell Teams to use custom backgrounds and which files to use, you need to add 
 > [!NOTE]
 > If the `<CustomThemeImageUrl>` element is also included in the XML configuration file, the following elements override the value provided in that element.
 
-| Element                                | Description                                                                           | Required?                                                                                                                                                       |
-|----------------------------------------|---------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Element | Description | Required? |
+|---------|-------------|-----------|
 | `<ThemeName>`                          | Set to `Custom` to use custom backgrounds.                                            | **Yes**, if `<Theming>` element is provided.                                                                                                                    |
-| `<CustomBackgroundMainFoRDisplay>`     | Filename of main/right custom background. <br>eg., `ContosoBackground-Right-FoR.jpg`   | If `<ThemeName>` is set to:<br><ul><li> `Custom` - **Yes**</li><li>Other value - **No**</li></ul>                                                                 |
-| `<CustomBackgroundExtendedFoRDisplay>` | Filename of extended/left custom background. <br>eg., `ContosoBackground-Left-FoR.jpg` | **Yes**, if both of the following are true:<br><ul><li>`<ThemeName>` is set to `Custom`.</li><li>`<DualScreenMode>` is set to `true`.</li></ul> |
-| `<CustomBackgroundConsole>`            | Filename of touch console background. <br>eg., `ContosoBackground-Console.jpg`         | **No**                                                                                                                                                          |
+| `<CustomBackgroundMainFoRDisplay>`     | Filename of main/right custom background. <br>e.g., `ContosoBackground-Right-FoR.jpg`   | If `<ThemeName>` is set to:<br><ul><li> `Custom` - **Yes**</li><li>Other value - **No**</li></ul>                                                                 |
+| `<CustomBackgroundExtendedFoRDisplay>` | Filename of extended/left custom background. <br>e.g., `ContosoBackground-Left-FoR.jpg` | **Yes**, if both of the following are true:<br><ul><li>`<ThemeName>` is set to `Custom`.</li><li>`<DualScreenMode>` is set to `true`.</li></ul> |
+| `<CustomBackgroundConsole>`            | Filename of touch console background. <br>e.g., `ContosoBackground-Console.jpg`         | **No**                                                                                                                                                          |
 
 Here's an example XML snippet showing background images being provided for both right and left front-of-room displays and the touch console display:
 
@@ -217,43 +234,63 @@ Custom backgrounds are supported on 16:9 and 21:9 displays. The guidelines diffe
 
 If you want to have dual front-of-room displays, they both need to be 16:9 displays. Two 21:9 displays or mixing 16:9 and 21:9 displays isn't supported. If you're not sure if your display is 16:9 or 21:9, check your display's specifications.
 
-**16:9 - Single front-of-room display dimensions**
-:::image type="content" source="../media/front-of-room-16-9-single-dimensions.png" alt-text="Custom background showing a single 16:9 front of room display with element dimensions." lightbox="../media/front-of-room-16-9-single-dimensions-large.png":::
-
-**16:9 - Dual front-of-room display dimensions**
-:::image type="content" source="../media/front-of-room-16-9-spanned-dimensions.png" alt-text="Custom background showing dual 16:9 front of room displays with element dimensions." lightbox="../media/front-of-room-16-9-spanned-dimensions-large.png":::
-
-**21:9 - Single front-of-room display dimensions**
-:::image type="content" source="../media/front-of-room-21-9-dimensions.png" alt-text="Custom background showing a single 21:9 front of room display with element dimensions." lightbox="../media/front-of-room-21-9-dimensions-large.png":::
+#### Front-of-room displays
 
 When you create a custom background, use the following guidelines:
 
 - Place text, logos, or icons, in the middle of the screen so it isn't obscured by home screen elements.
 - Avoid placing text, logos, or icons, near these locations:
   - **Upper left corner** - Time and room information.
-    - **Size**: 280 x 130
-    - **Upper-left corner coordinates**: 96, 96
-  - **Bottom left corner** - Help information.
-    - **Size**: 500 x 40
-    - **Upper-left corner coordinates**: 96, 946
+    - **Size**: up to 46% of the screen width, up to 42% of the screen height depending on the display settings
+  - **Bottom left corner** - Tips.
+    - **Size**: up to 46% of the screen width, up to 16% of the screen height depending on the display settings
   - **Right side** - Room calendar.
-    - **Size**: 512 x 585
-    - 16:9 displays
-      - **Upper-left corner (single display) coordinates**: 1312, 248
-      - **Upper-left corner (dual display) coordinates**: 3232, 248
-    - 21:9 displays
-      - **Upper-left corner coordinates**: 1912, 248
-  
-- Use a darker background in the top and bottom left corners to ensure users can read the white of the clock, room information, and help text in those locations.
-- For the best experience, use a contrast ratio of 4.5:1 for small text and 3:1 for large text. Use an accessibility contrast checker on the Internet to input color values to see if their contrast ratio is acceptable.
+    - **Size**: up to 36% of the screen width, up to 72% of the screen height depending on the display settings
 
-Save the custom background image file in one of the following formats: `jpg`, `jpeg`, `png`, `bmp`.
+**16:9 - Single front-of-room display dimensions**
+
+:::image type="content" source="../media//mtr-devices/mtrw-for-qr-16x9.png" alt-text="A custom background showing a 16:9 front of room display with element dimensions with QR code." lightbox="../media/mtr-devices/mtrw-for-qr-16x9.png":::
+
+**16:9 - Dual front-of-room display dimensions**
+
+:::image type="content" source="../media/mtr-devices/dual-for-qr.png" alt-text="A custom background showing dual 16:9 front of room displays with element dimensions with QR code." lightbox="../media/mtr-devices/dual-for-qr.png":::
+
+**21:9 - Single front-of-room display dimensions**
+
+:::image type="content" source="../media/mtr-devices/mtrw-for-qr-21x9.png" alt-text="Custom background showing a 21:9 front of room display with element dimensions with QR code." lightbox="../media/mtr-devices/mtrw-for-qr-21x9.png":::
+
+#### Touch board displays
+
+When you create a custom background, avoid placing text, logos, or icons, near these locations:
+
+- **Upper left corner** - Time and room information.
+  - **Size**: up to 46% of the screen width, up to 42% of the screen height depending on the display settings
+- **Bottom left corner** - Tips.
+  - **Size**: up to 46% of the screen width, up to 16% of the screen height depending on the display settings
+- **Right side** - User actions and room calendar.
+  - **Size**: up to 43% of the screen width, up to 72% of the screen height depending on display settings
+- **Bottom right corner** - Help.
+  - **Size**: up to 3% of the screen width, up to 5% of the screen height depending on display settings
+
+**16:9 - Touch board display dimensions**
+
+:::image type="content" source="../media/mtr-devices/mtrw-touchboard-qr-16x9.png" alt-text="A custom background showing a 16:9 touch board display with element dimensions with a QR code." lightbox="../media/mtr-devices/mtrw-touchboard-qr-16x9.png":::
+
+**3:2 - Touch board display dimensions**
+
+:::image type="content" source="../media/mtr-devices/mtrw-touchboard-qr-3x2.png" alt-text="A custom background showing a 3:2 touch board display with element dimensions with a QR code." lightbox="../media/mtr-devices/mtrw-touchboard-qr-3x2.png":::
+
+### Custom background template
+
+To create custom backgrounds that meet the guidelines in the previous sections, you can download the [Microsoft Teams Rooms Theme Template](https://www.microsoft.com/en-us/download/details.aspx?id=105251).
+
+The template is a .PSD file that can be opened by apps such as Adobe Photoshop or Paint.NET (a plug-in may be required). The template provides assets and guidelines to help you place text and graphics in your custom backgrounds that won't be obscured by on-screen elements.
 
 ### Teams Rooms 4.16 without refreshed home screen and earlier versions of Teams Rooms
 
 The custom theme image file must be placed in the `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` folder. Enter the file name and extension in the `<CustomThemeImageUrl>` variable.
 
-The image file should be exactly 3840 x 1080 pixels and must be one of the following file formats: `jpg`, `jpeg`, `png`, and `bmp`. If your organization wants a custom image, a graphic designer can use the Custom Theme Photoshop Template. It contains further detail on where various user interface elements are relative to the rest of a theme image and what areas appear on consoles and displays.
+The image file should be exactly 3840 x 1080 pixels and must be one of the following file formats: `jpg`, `jpeg`, and `png`. If your organization wants a custom image, a graphic designer can use the Custom Theme Photoshop Template. It contains further detail on where various user interface elements are relative to the rest of a theme image and what areas appear on consoles and displays.
 
 The XML configuration file must be updated at device startup to recognize the theme image. Once the new XML file is processed and deleted, the theme graphic file is deleted from the directory.
 

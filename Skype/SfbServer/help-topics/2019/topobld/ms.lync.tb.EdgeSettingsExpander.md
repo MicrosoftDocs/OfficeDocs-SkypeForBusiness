@@ -15,12 +15,12 @@ ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
-description: "To edit the settings for an existing single or multiple server Edge pool, you are presented with the following sections:"
+description: "To edit the settings for an existing single or multiple server Microsoft Edge pool, you're presented with the following sections:"
 ---
 
 # Edge Settings Expander
 
-To edit the settings for an existing single or multiple server Edge pool, you are presented with the following sections:
+To edit the settings for an existing single or multiple server Edge pool, you're presented with the following sections:
 
 - General settings
 
@@ -33,13 +33,13 @@ To edit the settings for an existing single or multiple server Edge pool, you ar
 
 Internal pool fully qualified domain name (FQDN) of the Edge Server pool. Edit the FQDN of the pool to change this setting.
 
-Select the check box **Enable federation for this Edge pool (Port 5061)** if you will set up federation with a Skype for Business Server 2015 server.
+Select the check box **Enable federation for this Edge pool (Port 5061)** if you set up federation with a Skype for Business Server 2015 server.
 
 Specify the port number for **Internal Configuration Replication Port (HTTPS)**.
 
 ## Next hop selection settings
 
-To set or modify the **Next hop pool** that the Edge Servers will use to communicate to the internal infrastructure, select a Director, Director pool, Front End Server, or Front End Server pool from the drop-down list box. Only Directors or Front Ends that have been configured in Topology Builder will appear for selection.
+To set or modify the **Next hop pool** that the Edge Servers use to communicate to the internal infrastructure, select a Director, Director pool, Front End Server, or Front End Server pool from the drop-down list box. Only Directors or Front Ends that have been configured in Topology Builder appears for selection.
 
 ## Edge Server configuration
 

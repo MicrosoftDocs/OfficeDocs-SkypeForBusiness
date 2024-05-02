@@ -1,8 +1,8 @@
 ---
 title: PowerShell script sample - Create security groups for educators and students in your school
-author: DaniEASmith
-ms.author: danismith
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jacktremper
 ms.topic: article
 ms.reviewer: angch
 ms.date: 07/22/2020
@@ -18,7 +18,10 @@ ms.collection:
   - tier1
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-mar2020
+ms.custom:
+  - seo-marvel-mar2020
+  - has-azure-ad-ps-ref
+  - azure-ad-ref-level-one-done
 ---
 
 # PowerShell script sample - Create security groups for educators and students in your school
@@ -41,6 +44,8 @@ You'll need to run this script regularly to keep the security groups fresh and u
 ## Before you start
 
 Download and install the [Skype for Business Online PowerShell module](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell), and then restart your computer if prompted.
+
+[!INCLUDE [Azure AD PowerShell deprecation note](../includes/aad-powershell-deprecation-note.md)]
 
 To lean more, see [Manage Skype for Business Online with Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) and [Teams PowerShell overview](../teams-powershell-overview.md).
 

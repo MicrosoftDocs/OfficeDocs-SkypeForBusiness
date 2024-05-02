@@ -1,8 +1,8 @@
 ---
 title: Microsoft Teams IT architecture and voice solutions posters
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.date: 04/16/2019
 audience: ITPro
 ms.topic: landing-page
@@ -21,13 +21,13 @@ description: "Summary: Learn about the logical architecture of productivity serv
 
 # Microsoft Teams IT architecture and voice solutions posters
 
-## Teams as part of Microsoft 365
+## Teams interactions with Microsoft 365 services
 
-Teams is central to the logical architecture of productivity services in Microsoft 365 - including data governance, security, and compliance capabilities. 
+Teams interacts with multiple services in Microsoft 365 - including data governance, security, and compliance capabilities. 
 
-This series of illustrations provides a view into the logical architecture of productivity services for enterprise architects, leading with Teams.
+This series of illustrations provides a view into the logical architecture of productivity services for enterprise architects.
 
-[![Thumb image for Teams logical architecture poster.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/public/Enterprise/downloads/msft-teams-logical-architecture-thumb.png)](https://raw.githubusercontent.com/MicrosoftDocs/OfficeDocs-Enterprise/public/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf)  <br/>[PDF](https://raw.githubusercontent.com/MicrosoftDocs/OfficeDocs-Enterprise/public/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf) | [Visio](https://raw.githubusercontent.com/MicrosoftDocs/OfficeDocs-Enterprise/public/Enterprise/downloads/msft-m365-teams-logical-architecture.vsdx)
+[![Thumb image for Teams logical architecture poster.](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/public/Enterprise/downloads/msft-teams-logical-architecture-thumb.png)](https://download.microsoft.com/download/8/c/2/8c2d4d29-a6dd-4d98-92e9-be496f1681df/msft-m365-teams-logical-architecture.pdf)  <br/>[PDF](https://download.microsoft.com/download/8/c/2/8c2d4d29-a6dd-4d98-92e9-be496f1681df/msft-m365-teams-logical-architecture.pdf) | [Visio](https://download.microsoft.com/download/e/2/c/e2cbb5c3-df64-45b2-b367-75b99c914c49/msft-m365-teams-logical-architecture.vsdx)
 
 ## Groups in Microsoft 365
 

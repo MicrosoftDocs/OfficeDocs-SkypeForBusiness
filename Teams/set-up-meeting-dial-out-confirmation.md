@@ -1,32 +1,36 @@
 ---
 title: Set up meeting dial-out-confirmation for your users in Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
+ms.author: jenz
+author: jenzamora
+manager: pamgreen
 ms.reviewer: oscarr
-ms.date: 09/26/2019
-manager: serdars
+ms.date: 12/14/2023
 ms.topic: article
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 audience: admin
 search.appverid: MET150
 description: Learn how to set up Teams to request a dial-out confirmation to prevent voicemail systems from connecting to meetings when the called person is unable to answer the call.
 ms.localizationpriority: medium
 ms.collection: 
-  - M365-voice
   - Tier1
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 ---
 
 # Set up meeting dial-out confirmation for your users in Microsoft Teams
 
-Meeting dial outs and Call me calls are useful ways to invite participants to join a meeting and for existing participants to join a meeting using a traditional or mobile phone. However, when the called person is unable to answer the call and the call is answered by a voicemail system, the voicemail system is connected to the meeting. Participants will be able to listen to it until it’s removed from the meeting.
+Sending meeting invitations through dial outs and Call me calls are useful ways to invite participants to join a meeting, allowing both new and existing participants to join using either a traditional or a mobile phone. However, when the person who is called doesn't pick up and a voicemail system answers the call instead, the voicemail system joins the meeting. In this scenario, the participants listen to the voicemail until it's removed from the meeting.
 
-To prevent voicemail systems from connecting to meetings when a meeting dial out is sent to a phone number and the called person is unable to answer the call, you can set up Teams to request a confirmation from the called person for them to join the meeting. If the called person can’t answer the call and the call is answered by a voicemail system, the voicemail system won‘t be connected to the meeting because it won’t provide a confirmation to join it.
+You can configure Teams to request a confirmation from the called person to join the meeting when a meeting dial out goes to a phone number and the person who is called can't answer the call. This way, you can prevent voicemail systems from connecting to meetings. When the voicemail system answers a call, the voicemail system doesn't connect to the meeting because it can't provide a confirmation to join.
 
-When this capability is enabled, people that receive a dial out or Call me call must confirm that they want to join the meeting by either pressing 1 on their traditional or mobile phone or saying "Okay". The confirmation will prevent the user's voicemail message from joining the meeting.
+This policy requires anyone who gets dial outs or Call me calls to accept the meeting invitation by pressing 1 on their phone keypad or saying "Okay." The confirmation prevents the user's voicemail message from joining the meeting.
 
-To enable this capability for all meetings in your organization, set the ```EnableDialOutJoinConfirmation``` parameter of the [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) cmdlet to ```true```. To set this parameter, run the following command:
+## Set up meeting dial-out confirmation for your users with PowerShell
+
+To enable this policy for all meetings in your organization, set
+the  **`-EnableDialOutJoinConfirmation`** parameter of the [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/teams/set-csonlinedialinconferencingtenantsettings) cmdlet to ```true```. To set this parameter, run the following command:
 
 ```PowerShell
 Set-CsOnlineDialInConferencingTenantSettings -EnableDialOutJoinConfirmation $true

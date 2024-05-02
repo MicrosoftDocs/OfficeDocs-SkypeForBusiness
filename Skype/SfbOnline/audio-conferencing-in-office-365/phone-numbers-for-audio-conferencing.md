@@ -1,7 +1,7 @@
 ---
 ms.date: 11/28/2017
 title: "Phone numbers for Audio Conferencing in Skype for Business Online"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr

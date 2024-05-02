@@ -4,7 +4,7 @@ ms.author: cabailey
 author: cabailey
 manager: laurawi
 ms.reviewer: shubjain
-ms.date: 10/15/2019
+ms.date: 03/26/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -24,17 +24,17 @@ description: Learn how to use sensitivity labels to protect your teams in Micros
 
 # Sensitivity labels for Microsoft Teams
 
-[Sensitivity labels](/microsoft-365/compliance/sensitivity-labels) allow Teams admins to protect and regulate access to sensitive organizational content created during collaboration within teams. After you configure sensitivity labels with their associated policies in the [Microsoft Purview compliance portal](/microsoft-365/compliance/go-to-the-securitycompliance-center), these labels can be applied to teams in your organization.
+[Sensitivity labels](/microsoft-365/compliance/sensitivity-labels) allow Teams admins to protect and regulate access to sensitive organizational content created during collaboration within teams. After you configure sensitivity labels with their associated policies in the [Microsoft Purview portal](/purview/purview-portal) or the [Microsoft Purview compliance portal](/purview/purview-compliance-portal), these labels can be applied to teams in your organization.
 
 Sensitivity labels are currently unsupported in class teams for customers using Teams Education SKUs. To learn more about licensing, see [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
 
 ## What's the difference between sensitivity labels and Teams classification?
 
-Sensitivity labels are different from Teams classification, also known as Azure AD group classification. Classifications are text strings that can be associated with a Microsoft 365 group but don't have any actual policies associated with them. You use classification as metadata and then must use other methods such as internal tools and scripts, to enforce policies.
+Sensitivity labels are different from Teams classification, also known as Microsoft Entra group classification. Classifications are text strings that can be associated with a Microsoft 365 group but don't have any actual policies associated with them. You use classification as metadata and then must use other methods such as internal tools and scripts, to enforce policies.
 
-The benefit of using sensitivity labels is that their policies are automatically enforced end-to-end through a combination of the Microsoft 365 Groups platform, the Microsoft Purview compliance portal, and Teams services. Sensitivity labels provide powerful infrastructure support for securing your organization's sensitive data and ensuring compliance with your internal policies or regulations.
+The benefit of using sensitivity labels is that their policies are automatically enforced end-to-end through a combination of the Microsoft 365 Groups platform, the Microsoft Purview portal or compliance portal, and Teams services. Sensitivity labels provide powerful infrastructure support for securing your organization's sensitive data and ensuring compliance with your internal policies or regulations.
 
-If you currently use Teams classification, see the following documentation for more information and instructions how to convert these values to sensitivity labels: [Classic Azure AD group classification](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#classic-azure-ad-group-classification).
+If you currently use Teams classification, see the following documentation for more information and instructions how to convert these values to sensitivity labels: [Classic Microsoft Entra group classification](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#classic-azure-ad-group-classification).
 
 ## Example scenarios for sensitivity labels
 
@@ -71,8 +71,7 @@ You can use sensitivity labels to control guest access to your teams. Teams crea
 
 ## Microsoft Teams admin center
 
-You can apply sensitivity labels when you create or edit a team in the Microsoft Teams admin center. 
-Sensitivity labels are also visible in team properties and in the **Classification** column on the **Manage teams** page of the Microsoft Teams admin center.
+You can apply sensitivity labels when you create or edit a team in the Microsoft Teams admin center. Sensitivity labels are also visible in team properties and in the **Classification** column on the **Manage teams** page of the Microsoft Teams admin center.
 
 ## Limitations
 
@@ -90,6 +89,6 @@ Before you use sensitivity labels for Teams, be aware of the following limitatio
 
 ## How to create and configure sensitivity labels for Teams
 
-Use the instructions from the Microsoft Purview documentation to create and configure sensitivity labels for Teams: 
+Use the full documentation from Microsoft Purview for information about more settings for Teams that you can apply with a sensitivity label, and how to create and configure these labels: 
 
 - [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).

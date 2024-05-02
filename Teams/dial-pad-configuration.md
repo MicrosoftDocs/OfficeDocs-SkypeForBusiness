@@ -2,15 +2,16 @@
 title: Teams dial pad configuration
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
-ms.reviewer: bjwhalen
-ms.date: 06/24/2020
+manager: pamgreen
+ms.reviewer: cbland
+ms.date: 11/29/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
   - M365-voice
+  - m365initiative-voice
   - Tier1
 audience: Admin
 appliesto:
@@ -23,19 +24,22 @@ description: "Learn about how to configure the dial pad in the Teams client so t
 
 # Dial pad configuration
 
-In the Teams client, the dial pad enables users to access Public Switched Telephone Network (PSTN) functionality. The dial pad is available for users with a Phone System license, provided they're configured properly. The following criteria are all required for the dial pad to show:
+In the Teams client, the dial pad enables users to access Public Switched Telephone Network (PSTN) functionality. The dial pad is available for users with a Teams Phone license, provided they're configured properly. The following criteria are all required for the dial pad to show:
 
-- User has an enabled Phone System ("MCOEV") license
+- User has an enabled Teams Phone ("MCOEV") license
 - User has Microsoft Calling Plan, Operator Connect, or is enabled for Direct Routing
 - User has Enterprise Voice enabled
 - User is homed online and not in Skype for Business on premises
 - User has Teams Calling Policy enabled
 
-The following sections describe how to use PowerShell to check the criteria. In most cases, you need to look at various properties in the output of the Get-CsOnlineUser cmdlet. Examples assume $user is either the UPN or sip address of the user.
+> [!NOTE]
+> If Shared Calling is available in your tenant and you've users who are homed online and enabled for Enterprise Voice, the dial pad shows in Teams for those users. For more information, see [Plan for Shared Calling](shared-calling-plan.md).
 
-## User has an enabled Phone System ("MCOEV") license
+The following sections describe how to use PowerShell to check the criteria. In most cases, you need to look at various properties in the output of the [Get-CsOnlineUser](/powershell/module/teams/get-csonlineuser) cmdlet. Examples assume $user is either the UPN (UserPrincipalName) or SIP address of the user.
 
-Make sure that the assigned plan for the user shows the **CapabilityStatus attribute set to Enabled** and the **Capability set to MCOEV** (Phone System license). You might see MCOEV, MCOEV1, and so on. All are acceptable--as long as the Capability starts with MCOEV.
+## User has an enabled Teams Phone ("MCOEV") license
+
+Make sure that the assigned plan for the user shows the **CapabilityStatus attribute set to Enabled** and the **Capability set to MCOEV** (Teams Phone license). You might see MCOEV, MCOEV1, and so on. All are acceptable--as long as the Capability starts with MCOEV. For more information on the Teams Phone license, see [Microsoft Teams add-on licensing](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses).
 
 To check that the attributes are set correctly, use the following command:
 
@@ -118,7 +122,7 @@ EnterpriseVoiceEnabled
 
 ## User is homed online and not in Skype for Business on premises
 
-To ensure the user is homed online and not in Skype for Business on premises, the RegistrarPool must not be null and the HostingProvider must contain a value that starts with "sipfed.online."  To check the values, use the following command:
+To ensure the user is homed online and not in Skype for Business on premises, the RegistrarPool must not be null and the HostingProvider must contain a value that starts with "sipfed.online." To check the values, use the following command:
 
 ```PowerShell
 Get-CsOnlineUser -Identity $user|Select RegistrarPool, HostingProvider
@@ -134,7 +138,7 @@ sippoolbn10M02.infra.lync.com sipfed.online.lync.com
 
 ## User has Teams Calling Policy enabled
 
-The user's effective TeamsCallingPolicy must have AllowPrivateCalling set to true.  By default, users inherit the global policy, which has AllowPrivateCallingPolicy set to true by default.
+The user's effective TeamsCallingPolicy must have AllowPrivateCalling set to true. By default, users inherit the global policy, which has AllowPrivateCallingPolicy set to true by default.
 
 To get the TeamsCallingPolicy for a user and to check that AllowPrivateCalling is set to true, use the following command:
 
@@ -161,9 +165,9 @@ MusicOnHoldEnabledType     : Enabled
 
 ## Additional notes
 
-- You may need to restart the Teams client after making any of these configuration changes.
+- You might need to restart the Teams client after making any of these configuration changes.
 
-- If you recently updated any of the above criteria, you may need to wait a few hours for the client to receive the new settings.
+- If you recently updated any of the above criteria, you might need to wait a few hours for the client to receive the new settings.
 
 - If you still don't see the dial pad, check if there's a provisioning error by using the following command:
 
@@ -172,3 +176,12 @@ MusicOnHoldEnabledType     : Enabled
   ```
 
 - If it's been more than 24 hours and you're still seeing problems, contact Support.
+
+## Related articles
+
+- [Microsoft Teams add-on licensing](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses)
+- [Get-CsOnlineUser](/powershell/module/teams/get-csonlineuser)
+- [Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment)
+- [Plan for Shared Calling](shared-calling-plan.md)
+- [PSTN connectivity options](pstn-connectivity.md)
+- [Plan your Teams voice solution](cloud-voice-landing-page.md)

@@ -2,8 +2,8 @@
 ms.date: 11/28/2017
 title: "This Skype for Business Online feature isn't enabled"
 ms.reviewer: 
-ms.author: tonysmit
-author: tonysmit
+ms.author: pamgreen
+author: pamgreen
 manager: serdars
 ms.topic: article
 ms.assetid: e95a7d09-0c45-4b95-956e-f099b7b0e659

@@ -1,10 +1,10 @@
 ---
 title: View your policy assignments in the Activity log in the Microsoft Teams admin center
-ms.author: mabond
-author: mkbond007
+author: MicrosoftHeidi
+ms.author: heidip
 ms.reviewer: jastark
 ms.date: 05/21/2020
-manager: serdars
+manager: jtremper
 ms.topic: article
 ms.service: msteams
 audience: admin

@@ -1,7 +1,7 @@
 ---
 ms.date: 11/28/2017
 title: "Enable users to record their name when they join a meeting in Skype for Business Online"
-ms.author: tonysmit
+ms.author: serdars
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr

@@ -1,27 +1,32 @@
 ---
 title: Deploy Microsoft Teams Rooms monitoring with Azure Monitor
 ms.author: tonysmit
-author: tonysmit
-ms.reviewer: Turgayo
-ms.date: 02/23/2018
-manager: serdars
-audience: ITPro
-ms.topic: quickstart
+author: mstonysmith
+manager: pamgreen
+ms.reviewer: tjaved
+ms.date: 10/10/2023
+ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
+appliesto: 
+  - Microsoft Teams
+ms.collection: 
+  - M365-collaboration
+  - teams-rooms-devices
+  - Tier1
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
-ms.collection: 
-  - M365-collaboration
-  - Teams_ITAdmin_Rooms
-  - Tier1
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: This article discusses how to deploy monitoring of Microsoft Teams Rooms in an integrated, end-to-end manner using Azure Monitor.
 ms.custom: seo-marvel-mar2020
 ---
 
 # Deploy :::no-loc text="Microsoft Teams Rooms"::: monitoring with :::no-loc text="Azure Monitor":::
+
+> [!IMPORTANT]
+> This feature is being deprecated and being replaced by functionality found in the Teams admin center and Teams Rooms Pro Management portal. See [Overview of the Teams Rooms Pro Management portal](../rooms/rooms-pro-management.md) for more information.
 
 This article discusses how to set up and deploy integrated, end-to-end monitoring of :::no-loc text="Microsoft Teams Rooms"::: devices by using :::no-loc text="Azure Monitor":::.
 
@@ -31,7 +36,7 @@ You can configure :::no-loc text="Log Analytics"::: within :::no-loc text="Azure
 
 By following this guide, you can use a dashboard like the following example to get detailed status reporting for device availability, application and hardware health, and :::no-loc text="Microsoft Teams Rooms"::: application and operating system version distribution.
 
-![Screenshot of sample Log Analytics view for Microsoft Teams Rooms.](../media/Deploy-Azure-Monitor-1.png "Sample Log Analytics view for Microsoft Teams Rooms")
+:::image type="content" alt-text="Screenshot of sample Log Analytics view for Microsoft Teams Rooms." source="../media/Deploy-Azure-Monitor-1.png" lightbox="../media/Deploy-Azure-Monitor-1.png":::
 
 At a high level, you need to perform the following tasks:
 
@@ -66,7 +71,7 @@ You need to configure :::no-loc text="Log Analytics"::: to collect the logs requ
 
 To configure :::no-loc text="Log Analytics"::: to collect the :::no-loc text="Microsoft Teams Rooms"::: events, see [:::no-loc text="Windows"::: event log data sources in :::no-loc text="Azure Monitor":::](/azure/azure-monitor/platform/data-sources-windows-events)
 
-![Screenshot of event log settings.](../media/Deploy-Azure-Monitor-2.png "Event log settings")
+:::image type="content" alt-text="Screenshot of event log settings." source="../media/Deploy-Azure-Monitor-2.png" lightbox="../media/Deploy-Azure-Monitor-2.png":::
 
 > [!IMPORTANT]
 > Configure :::no-loc text="Windows"::: Event Log settings and enter **:::no-loc text="Skype Room System":::** as event log name, and then select the **Error**, **Warning**, and **Information** check boxes.
@@ -132,7 +137,7 @@ To extract your custom fields out of the captured event logs, follow these steps
 > 
 **Table 1**
 
-| **JSON field**                   | **:::no-loc text="Log Analytics"::: custom field** | **Event ID** | **Query to use with the extraction**                   |
+|   JSON field                     | :::no-loc text="Log Analytics"::: custom field | Event ID | Query to use with the extraction           |
 |:---------------------------------|:-------------------------------|:-------------|:-------------------------------------------------------|
 | Description                      | SRSEventDescription         | **2000**     | Event \| where Source == "SRS-App" and EventID == 2000 |
 | ResourceState                    | SRSResourceState            | **2000**     | Event \| where Source == "SRS-App" and EventID == 2000 |
@@ -350,8 +355,9 @@ Configure an alert rule that checks for :::no-loc text="Microsoft Teams Rooms"::
 
 3. Select **Add condition** and then **Custom log search**
 
-4.  Enter the following query to the Search query text box.<br>
-    ```
+4.  Enter the following query to the Search query text box.
+
+    ```kusto
     Event
     | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h)
     | summarize arg_max(TimeGenerated, *) by Computer
@@ -390,13 +396,13 @@ Configure an alert rule that checks for :::no-loc text="Microsoft Teams Rooms"::
 
 Repeat the same procedure but use the following query to list devices that have encountered application issues within the last hour.
 
- ```
- Event
- | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h)
- | summarize arg_max(TimeGenerated, *) by Computer
- | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF
- | sort by TimeGenerated desc
- ```
+```kusto
+Event
+| where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h)
+| summarize arg_max(TimeGenerated, *) by Computer
+| project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF
+| sort by TimeGenerated desc
+```
 
 Now you've completed defining alerts. You can define additional alerts by using the examples above.
 

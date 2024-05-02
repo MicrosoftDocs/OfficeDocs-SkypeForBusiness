@@ -8,7 +8,7 @@ manager: prkosh
 audience: admin
 ms.subservice: teams-apps
 ms.service: msteams
-ms.date: 06/27/2023
+ms.date: 12/22/2023
 ms.collection: 
   - M365-collaboration
 f1.keywords:
@@ -32,7 +32,7 @@ Microsoft 365 app compliance program checks and audits an app against controls t
 Before an app developer can submit their app to Microsoft, the developer is required to undergo a verification. A developer verifies their identity using their Microsoft Partner Network (MPN) account and associates this MPN account with their app registration. Publisher verification helps admins and users understand the authenticity of application developers. Publisher verification provides the following benefits:
 
 * Increased transparency and risk reduction for customers - this capability helps customers understand which apps being used in their organizations are published by developers they trust.
-* Improved branding - a `verified` badge appears on the Azure Active Directory consent prompt, Enterprise Apps page, and other user interfaces used by users and admins.
+* Improved branding - a `verified` badge appears on the Microsoft Entra consent prompt, Enterprise Apps page, and other user interfaces used by users and admins.
 * Smoother enterprise adoption - admins can configure user consent policies, with publisher verification status as a primary policy criteria.
 
 ## Publisher attestation
@@ -51,7 +51,7 @@ Admins can quickly check for Published attested apps in three different ways.
 
   :::image type="content" source="media/attested-app-tac1.png" alt-text="In Teams admin center, Publisher attested icon is displayed on all attested apps.":::
 
-* In Teams admin center, before you [grant permissions to the app](app-permissions-admin-center.md), a blue checkmark in front of the app name indicates it's a publisher attested app. All Microsoft 365 apps also go through publisher attestation, so a blue checkmark displays for Microsoft 365 apps as well.
+* In Teams admin center, before you [grant consent to app permissions](manage-consent-app-permissions.md), a blue checkmark in front of the app name indicates it's a publisher attested app. All Microsoft 365 apps also go through publisher attestation, so a blue checkmark displays for Microsoft 365 apps as well.
 
    :::image type="content" source="media/attested-app-tac2.png" alt-text="In Teams admin center, on the dialog to grant permissions, the blue checkmark indicates publisher attested app.":::
 
@@ -84,7 +84,7 @@ Administrators can quickly check for Microsoft 365 certified apps in the followi
 
   :::image type="content" source="media/m365cert-app-details-banner.png" alt-text="View Microsoft 365 certification information in the app banner when managing a specific app in Teams admin center":::
 
-* In Teams admin center, before you [grant permissions to the app](app-permissions-admin-center.md), a blue checkmark in front of the app name indicates it's a publisher attested app. All Microsoft 365 apps also go through publisher attestation, so a blue checkmark displays for Microsoft 365 apps as well.
+* In Teams admin center, before you [grant consent to app permissions](manage-consent-app-permissions.md), a blue checkmark in front of the app name indicates it's a publisher attested app. All Microsoft 365 apps also go through publisher attestation, so a blue checkmark displays for Microsoft 365 apps as well.
 
    :::image type="content" source="media/attested-app-tac2.png" alt-text="In Teams admin center, on the dialog to grant permissions, admins can check the blue checkmark to be assured that the app is Microsoft 365 certified":::
 
@@ -127,4 +127,5 @@ In Teams admin center, each app page links to the privacy statement and terms of
 
 ## Related articles
 
-* [View app permissions and grant admin consent](app-permissions-admin-center.md).
+* [View and understand app permissions](app-permissions.md).
+* [Grant consent to app permissions](manage-consent-app-permissions.md).

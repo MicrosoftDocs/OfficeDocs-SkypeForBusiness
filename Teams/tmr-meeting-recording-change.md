@@ -1,10 +1,10 @@
 ---
 title: Use OneDrive for Business and SharePoint for meeting recordings
-ms.author: mikeplum
-author: MikePlumleyMSFT
-ms.reviewer: debhag
+ms.author: wlibebe
+author: wlibebe
+ms.reviewer: 
 ms.date: 09/01/2020
-manager: serdars
+manager: pamgreen
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -86,7 +86,7 @@ The meeting recording option is a setting at the Teams policy level. The followi
    Connect-MicrosoftTeams -Credential $credential
    ```
 
-5. Use [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) to set a Teams Meeting Policy to transition from the Stream storage to OneDrive for Business and SharePoint.
+5. Use [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) to set a Teams Meeting Policy to transition from the Stream storage to OneDrive for Business and SharePoint.
 
    ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"

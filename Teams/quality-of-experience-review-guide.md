@@ -2,10 +2,10 @@
 title: Use CQD to manage call and meeting quality in Microsoft Teams 
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
-ms.reviewer: vkorlep, siunies, gageames
+ms.reviewer: siunies, gageames
 ms.date: 04/09/2018
 audience: admin
 description: Learn how to analyze and manage real-time media performance in Microsoft Teams by using the Call Quality Dashboard (CQD).
@@ -100,8 +100,6 @@ To accelerate your assessment, [two curated CQD templates](https://aka.ms/qertem
 ### Intended audience
 
 This article is intended to be used by partner and customer stakeholders with roles such as Collaboration Lead/Architect, Consultant, Change Management/Adoption Specialist, Support/Help Desk Lead, Network Lead, Desktop Lead, and IT Admin.
-
-This article is also intended to be used by the designated quality champion(s). For more information, see [the Quality Champion role](4-envision-plan-my-service-management.md#the-quality-champion-role).
 
 
 ## What is quality?
@@ -286,14 +284,13 @@ Use the Call Quality Dashboard (CQD) to gain insight into the quality of calls m
 CQD, although useful for analyzing trends and subnets, doesn't always provide a specific cause for a given scenario. It's important to understand this and set the correct expectation when using CQD:
 
 -   CQD won't provide the root cause for every scenario
--   CQD won't contain Phone System or Audio Conferencing streams
 -   CQD will call out areas for further investigation based on trends
 
 ### CQD reports overview
 
 Use the drop-down menu at the top of the screen to open a report. For a list of the data provided in each report, read [Data available in CQD reports](CQD-data-and-reports.md#data-available-in-cqd-reports).
 
-New in January 2020: [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Customizable Power BI templates you can use to analyze and report your CQD data.
+New in January 2020: [Download Power BI query templates for CQD](https://download.microsoft.com/download/f/b/f/fbf2527c-f392-410e-aeb6-1a02ac1b5dd1/CQD-Power-BI-query-templates.zip). Customizable Power BI templates you can use to analyze and report your CQD data.
 
 
 ### Teams vs. Skype for Business

@@ -2,8 +2,8 @@
 title: Configure Operator Connect
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
-ms.date: 09/30/2021
+manager: pamgreen
+ms.date: 08/10/2023
 ms.topic: article
 ms.service: msteams 
 audience: admin
@@ -170,7 +170,7 @@ Once your operator completes the order, they'll upload numbers to your tenant. Y
 
 ### Assign numbers
 
-For information on how to assign phone numbers to your users, see [Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md).
+For information on how to assign phone numbers to your users, see [Manage phone numbers for users](assign-change-or-remove-a-phone-number-for-a-user.md).
 
 ## Manage your operators
 
@@ -193,4 +193,7 @@ To release phone numbers from the Teams admin center, go to the **Phone numbers*
 
 ## Related topics
 
+- ## Related articles
+
+- [Plan Operator Connect](operator-connect-plan.md)
 - [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md)

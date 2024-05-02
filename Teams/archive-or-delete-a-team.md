@@ -1,13 +1,13 @@
 ---
 title: Archive or delete a team in Microsoft Teams
-manager: serdars
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
-ms.reviewer: jastark
-ms.date: 04/12/2019
+ms.reviewer: divyasrirk
+ms.date: 11/30/2023
 search.appverid: MET150
 description: In this article, you will learn about how to archive or permanently delete a team in Microsoft Teams.
 ms.localizationpriority: medium
@@ -17,6 +17,8 @@ ms.custom:
   - NewAdminCenter_Update
   - seo-marvel-apr2020
   - chat-teams-channels-revamp
+  - has-azure-ad-ps-ref
+  - azure-ad-ref-level-one-done
 ms.collection:
   - M365-collaboration
 appliesto:
@@ -53,7 +55,8 @@ Follow these steps to make an archived team active again.
 
 1. In the admin center, select **Teams**.
 2. Select a team by clicking the team name.
-3. Select **Restore**. The team's status will change to **Active**. Note that it will not be moved back inside **Your teams** automatically.
+3. Select **Restore**. It might take some time for the team's status to change back to **Active**. Note that it will not be moved back inside **Your teams** automatically.
+
 
 ## Delete a team
 
@@ -70,31 +73,29 @@ Follow these steps to restore a deleted team by restoring the Microsoft 365 grou
 
 By default, a deleted Microsoft 365 group is retained for 30 days. This 30-day period is called "soft-delete" because you can restore the group. To learn more, see [Restore a deleted Group](/microsoft-365/admin/create-groups/restore-deleted-group).
 
-### Install the AzureADPreview module
+For more information on restoring a deleted team from Teams Admin Center, see [Manage teams in the Microsoft Teams admin center](manage-teams-in-modern-portal.md).
+
+### Install the Microsoft Graph PowerShell module
 
 1. Open Windows PowerShell as an admin.
-2. If you have an earlier version of the AzureADPreview module installed or the AzureAD module installed, uninstall it by running one of the following:
+2. If you have an earlier version of the Microsoft Graph PowerShell module installed, update it by running the following:
 
     ```PowerShell
-    Uninstall-Module AzureADPreview
+    Update-Module Microsoft.Graph
     ```
 
-    ```PowerShell
-    Uninstall-Module AzureAD
-    ```
-
-3. Install the latest version of the AzureADPreview module by running the following:
+3. To install afresh, run the following:
 
     ```PowerShell
-    Install-Module AzureADPreview
+    Install-Module Microsoft.Graph
     ```
 
 ### Restore the deleted Microsoft 365 group
 
-1. Connect to Azure AD by running the following:
+1. Connect to Microsoft Entra ID by running the following:
 
     ```PowerShell
-    Connect-AzureAD
+    Connect-MgGraph -Scopes 'GroupMember.Read.All, Group.ReadWrite.All' 
     ```
 
     When you're prompted, sign in using your admin account and password.
@@ -102,23 +103,24 @@ By default, a deleted Microsoft 365 group is retained for 30 days. This 30-day p
 1. Run the following to display a list of all soft-deleted Microsoft 365 groups that are still within the 30-day retention period. Use the **-All $True** parameter if you have many groups.
 
     ```PowerShell
-    Get-AzureADMSDeletedGroup
+    Get-MgDirectoryDeletedItem -DirectoryObjectId [Id]
     ```
 
 1. Find the group that you want to restore, and then make a note of the `Id`.
 1. Run the following to restore the group, where `[Id]` is the group ID.
 
     ```PowerShell
-    Restore-AzureADMSDeletedDirectoryObject -Id [Id]
+    Restore-MgDirectoryDeletedItem -DirectoryObjectId [Id]
     ```
 
 1. Run the following to verify the group was successfully restored, where `[Id]` is the group ID.
 
     ```PowerShell
-    Get-AzureADGroup -ObjectId [Id]
+    Get-MgGroup -GroupId [Id]
     ```
 
     It can take up to 24 hours for the restore process to complete, after which the team and content associated with the team, including tabs and channels, is displayed in Teams.
+
 
 ## Related topics
 

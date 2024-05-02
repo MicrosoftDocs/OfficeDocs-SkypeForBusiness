@@ -2,20 +2,21 @@
 title: Direct Routing SBA
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
-ms.date: 12/08/2020
+manager: pamgreen
+ms.date: 03/24/2024
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
-ms.reviewer: crowe
+ms.reviewer: filippse
 search.appverid: MET150
 f1.keywords: 
   - NOCSH
   - ms.teamsadmincenter.directrouting.overview
-description: Learn more about Direct Routing, such as configuration, necessary core deployment decisions, and voice routing considerations.
+description: Learn more about Direct Routing Survivable Branch Appliance (SBA).
 ms.custom: 
   - seo-marvel-apr2020
   - seo-marvel-jun2020
@@ -25,18 +26,17 @@ appliesto:
 
 # Survivable Branch Appliance (SBA) for Direct Routing
 
+Occasionally, a customer site using Direct Routing to connect to Microsoft Teams Phone may experience an internet outage.
 
-Occasionally, a customer site using Direct Routing to connect to Microsoft Phone System may experience an internet outage.
+Assume that the customer site--called a branch--temporarily can't connect to the Microsoft cloud through Direct Routing. However, the intranet inside the branch is still fully functional, and users can connect to the Session Border Controller (SBC) that is providing PSTN connectivity.
 
-Assume that the customer site--called a branch--temporarily cannot connect to the Microsoft cloud through Direct Routing. However, the intranet inside the branch is still fully functional and users can connect to the Session Border Controller (SBC) that is providing PSTN connectivity.
-
-This article describes how to use a Survivable Branch Appliance (SBA) to enable Microsoft Phone System to continue to make and receive Public Switched Telephone Network (PSTN) calls in the case of an outage.
+This article describes how to use a Survivable Branch Appliance (SBA) to enable Teams Phone to continue to make and receive Public Switched Telephone Network (PSTN) calls in the case of an outage.
 
 ## Prerequisites
 
-The SBA is distributable code provided by Microsoft to SBC vendors who then embed code into their firmware or distribute it separately to have SBA run on a separate VM or hardware. 
+The SBA is distributable code provided by Microsoft to SBC vendors who then embed code into their firmware or distribute it separately to have the SBA run on a separate VM or hardware. 
 
-To get the latest Session Border Controller firmware with the embedded Survivable Branch Appliance,  contact your SBC vendor. In addition, the following is required:
+To get the latest Session Border Controller firmware with the embedded Survivable Branch Appliance, contact your SBC vendor. In addition, the following is required:
 
 - The SBC needs to be configured for Media Bypass to ensure that the Microsoft Teams client in the branch site can have media flowing directly with the SBC. 
 
@@ -52,22 +52,26 @@ To get the latest Session Border Controller firmware with the embedded Survivabl
 The SBA feature is supported on the following Microsoft Teams clients: 
 
 - Microsoft Teams Windows desktop 
-
 - Microsoft Teams macOS desktop
 - Teams for Mobile 
 - Teams Phones
 
 ## How it works
 
-During an internet outage, the Teams client should switch to the SBA automatically, and ongoing calls should continue with no interruptions. No action is required from the user. As soon as the Teams client detects that the internet is up and any outgoing calls are finished, the client will fall back to normal operation mode and connect to other Teams services. The SBA will upload collected Call Data Records to the cloud and call history will be updated so that this information is available for review by the tenant administrator. 
+The SBA checks TCP connectivity (ping) with sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com, and sip3.pstnhub.microsoft.com. If there is connectivity with at least one of these addresses, a network outage is not declared. When connectivity to all three addresses is lost, the SBA detects a network outage and will initiate. SP addresses are within Microsoft IP ranges, which should be preconfigured during Direct Routing setup. Customers do not need to add extra rules on the Firewall.
+During an internet outage, the Teams client switches to the SBA automatically, and ongoing calls continue with no interruptions. No action is required from the user. As soon as the Teams client detects that the internet is up, and any outgoing calls are finished, the client falls back to normal operation mode, and connects to other Teams services. The SBA uploads collected Call Data Records to the cloud. Call history is updated for review by the tenant administrator. 
 
 When the Microsoft Teams client is in offline mode, the following calling-related functionality is available: 
 
-- Making PSTN calls via local SBA/SBC with media flowing through the SBC.
-
-- Receiving PSTN calls via local SBA/SBC with media flowing through the SBC. 
-
-- Hold and Resume of PSTN calls.
+- Making PSTN calls through the local SBA/SBC with media flowing through the SBC.
+- Receiving PSTN calls through the local SBA/SBC with media flowing through the SBC.
+- Hold and resume of PSTN calls.
+- Blind transfer.
+- Call forwarding to single phone number or Teams user.
+- Unanswered call forwarding to single phone number or Teams user.
+- Redirect of incoming PSTN call to a Call queue or Auto attendant number to a local agent.
+- VoIP Fallback. If VoIP call cannot be initiated and receiving party has a PSTN number, PSTN call will be attempted
+- VoIP calls between local users. If both users are registered behind the same SBA, a VoIP call can be initiated instead of PSTN call,  and the SBA will fully support it.
 
 ## Configuration
 
@@ -76,15 +80,15 @@ For the SBA feature to work, the Teams client needs to know which SBAs are avail
 1. Create the SBAs.
 2. Create the Teams branch survivability policy.
 3. Assign the policy to users.
-4. Register an application for the SBA with Azure Active Directory.
+4. Register an application for the SBA with Microsoft Entra ID.
 
 All configuration is done by using Teams PowerShell cmdlets. (The Teams admin center does not yet support the Direct Routing SBA feature.) 
 
-(For information on configuring the SBC, with links to SBC vendor documentation, see Session Border Controller configuration at the end of this article.)
+For information on configuring the SBC, with links to SBC vendor documentation, see Session Border Controller configuration at the end of this article.
 
 ### Create the SBAs
 
-To create the SBAs, you will use the New-CsTeamsSurvivableBranchAppliance cmdlet. This cmdlet has the following parameters:
+To create the SBAs, use the New-CsTeamsSurvivableBranchAppliance cmdlet. This cmdlet has the following parameters:
 
 | Parameter| Description |
 | :------------|:-------|
@@ -106,7 +110,7 @@ Description : SBA 1
 
 ### Create the Teams Branch Survivability Policy 
 
-To create a policy, you use the New-CsTeamsSurvivableBranchAppliancePolicy cmdlet. This cmdlet has the following parameters. Note that the policy can contain one or more SBAs.
+To create a policy, use the New-CsTeamsSurvivableBranchAppliancePolicy cmdlet. This cmdlet has the following parameters. Note that the policy can contain one or more SBAs.
 
 | Parameter| Description |
 | :------------|:-------|
@@ -131,7 +135,7 @@ Set-CsTeamsSurvivableBranchAppliancePolicy -Identity CPH -BranchApplianceFqdns @
 
 ### Assign a policy to a user
 
-To assign the policy to individual users, you will use the Grant-CsTeamsSurvivableBranchAppliancePolicy cmdlet. This cmdlet has the following parameters:
+To assign the policy to individual users, use the Grant-CsTeamsSurvivableBranchAppliancePolicy cmdlet. This cmdlet has the following parameters:
 
 | Parameter| Description |
 | :------------|:-------|
@@ -151,13 +155,15 @@ You can remove a policy from a user by granting the $Null policy as shown in the
 C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity user@contoso.com 
 ```
 
-### Register an application for the SBA with Azure Active Directory
+<a name='register-an-application-for-the-sba-with-azure-active-directory'></a>
 
-To allow different SBAs used within your tenant to read required data from Microsoft 365, you need to register an application for the SBA with Azure Active Directory. 
+### Register an application for the SBA with Microsoft Entra ID
+
+To allow different SBAs used within your tenant to read required data from Microsoft 365, you need to register an application for the SBA with Microsoft Entra ID. 
 
 For more information about application registration, see the following:
 
-- [Develop line-of-business apps for Azure Active Directory](/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
+- [Develop line-of-business apps for Microsoft Entra ID](/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
 
 - [Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app).  
 
@@ -205,13 +211,14 @@ Report any issues to your SBC vendor's support organization. When reporting the 
 
 ## Known issues
 
-- As SBA relies on authentication tokens that are valid for 24 hours and are renewed daily, presently SBA can support outages for up to 24 hours from the last authentication. This means that if an outage occurs 20 hours after the last authentication token renewal, SBA will be operational only for the remaining 4 hours.
+- Because the SBA relies on authentication tokens that are valid for 24 hours and are renewed daily, the SBA can support outages for up to 24 hours from the last authentication. This means that if an outage occurs 20 hours after the last authentication token renewal, SBA will be operational only for the remaining 4 hours.
+- If the tenant is using Continuous Access Evaluation (CAE) tokens, SBA will be operational only for about 30 minutes, due to the nature of continuous access evaluation. An alternative would be to dissable CAE for the tenant.
 
-- When you add new Survivable Branch Appliances, it might take some time before you can use them in Survivable Branch Appliance policies.
+- When you add new Survivable Branch Appliances, it might take time before you can use them in Survivable Branch Appliance policies.
 
-- When you assign a Survivable Branch Appliance policy to a user, it might take some time before the SBA is shown in the output of Get-CsOnlineUser. 
+- When you assign a Survivable Branch Appliance policy to a user, it might take time before the SBA is shown in the output of Get-CsOnlineUser. 
 
-- Reverse number lookup against Azure AD Contacts is not performed. 
+- Reverse number lookup against Microsoft Entra ID Contacts is not performed. 
 
 - The SBA does not support call forwarding settings. 
 

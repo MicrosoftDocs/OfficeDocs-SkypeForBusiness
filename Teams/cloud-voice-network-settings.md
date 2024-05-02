@@ -2,10 +2,10 @@
 title: Network settings for cloud voice features
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.topic: conceptual
 ms.reviewer: roykuntz
-ms.date: 11/12/2019
+ms.date: 12/08/2023
 ms.service: msteams
 audience: admin
 search.appverid: MET150
@@ -29,12 +29,14 @@ Learn about network regions, network sites, network subnets, and trusted IP addr
 
 This article gives you an overview of the network settings that are common to Location-Based Routing and dynamic emergency calling. Depending on the cloud voice feature and capability that you're deploying, you configure some or all these settings. For steps on how to configure these settings, see [Manage your network topology for cloud features in Teams](manage-your-network-topology.md).
 
+Note that it can take some time (up to four hours) for some changes to network settings (such as a new address, network identifier, and so on) to propagate and be available to Teams clients.
+
 > [!NOTE]
 > Any feature-specific requirements for network settings are documented in the configuration topics for that feature.
 
 ## Network region
 
-A network region contains a collection of network sites. It interconnects various parts of a network across multiple geographic areas. For example, if your organization has many sites located in India, you may choose to designate "India" as a network region. Each network site must be associated with a network region.
+A network region contains a collection of network sites. It interconnects various parts of a network across multiple geographic areas. For example, if your organization has many sites located in India, you can choose to designate "India" as a network region. Each network site must be associated with a network region.
 
 The same network regions are shared by Location-Based Routing for Direct Routing and enhanced emergency services. If you already created network regions for one feature, you don't have to create new network regions for the other feature.
 
@@ -50,7 +52,7 @@ Each subnet must be associated with a specific network site. A client's location
 
 Subnet information is used to determine the network site on which an endpoint is located when a new session is initiated. When the location of each party in a session is known, the cloud voice feature can apply that information to determine how to handle call setup or routing.
 
-For each network site, work with your network admin to determine which IP subnets are assigned to each network site. For example, the New York site in the North America region can be assigned the following IP subnets: 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24. If Bob, who usually works in Detroit, travels to the New York office for training, turns on his computer and connects to the network, his computer will get an IP address in one of the four ranges that are allocated for New York, for example, 172.29.80.103.
+For each network site, work with your network admin to determine which IP subnets are assigned to each network site. For example, the New York site in the North America region can be assigned the following IP subnets: 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24. If Bob, who usually works in Detroit, travels to the New York office for training, turns on his computer and connects to the network, his computer gets an IP address in one of the four ranges that are allocated for New York, for example, 172.29.80.103.
 
 ## Trusted IP address
 
@@ -60,5 +62,5 @@ If the user's external IP address matches an IP address that's in the trusted IP
 
 If the user's external IP address doesn't match an IP address that's in the trusted IP address list, the endpoint is classified as being at an unknown location.
 
-> [!Important]
+> [!IMPORTANT]
 > Network configuration setting lookups are not supported with cloud proxy service deployments that modify the source IP addresses from Teams clients.

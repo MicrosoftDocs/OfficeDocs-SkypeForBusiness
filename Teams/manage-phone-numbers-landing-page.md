@@ -2,9 +2,9 @@
 title: "Manage phone numbers for your organization"
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: davlick, roykuntz, jenstr
-ms.date: 07/28/2021
+ms.date: 08/10/2023
 ms.topic: conceptual
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
@@ -52,7 +52,7 @@ How you acquire and manage telephone numbers differs depending on your Public Sw
 
 - For information about managing telephone numbers for Operator Connect, see [Set up telephone numbers with Operator Connect](operator-connect-configure.md#set-up-phone-numbers).
 
-- For information about managing telephone numbers for Teams Phone Mobile, see [Set up telephone numbers with Teams Phone Mobile](operator-connect-mobile-configure.md#set-up-phone-numbers).
+- For information about managing telephone numbers for Teams Phone Mobile, see [Set up telephone numbers with Teams Phone Mobile](operator-connect-mobile-configure.md#step-2-manage-phone-numbers-and-assign-licenses).
 
 - For information about managing telephone numbers for Direct Routing, see [Configure the telephone number and enable enterprise voice](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
 
@@ -103,7 +103,7 @@ your on-premises Active Directory is most likely synchronizing with Microsoft 36
 
 If the Direct Routing phone number is managed on the user or resource account in the on-premises Active Directory, the msRTCSIP-Line parameter on the account contains a value. You can use a tool such as ADSI Edit to view the msRTCSIP-Line parameter for a user or resource account that has a Direct Routing phone number assigned in on-premises Active Directory.   
 
-After this parameter is automatically synchronized to the user or resource account in Microsoft 365 through the directory synchronization process (Azure AD Connect), you can view the phone number by looking at the OnPremLineURi parameter in the output from the [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser) cmdlet.
+After this parameter is automatically synchronized to the user or resource account in Microsoft 365 through the directory synchronization process (Microsoft Entra Connect), you can view the phone number by looking at the OnPremLineURi parameter in the output from the [Get-CsOnlineUser](/powershell/module/teams/get-csonlineuser) cmdlet.
 
 | Where | Parameter | Value |
 | :------------| :-------| :---------|

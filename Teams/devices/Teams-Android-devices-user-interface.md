@@ -1,28 +1,29 @@
 ---
 title: Set Microsoft Teams Android devices user interface
 ms.author: tonysmit
-author: tonysmit
-manager: serdars
-audience: ITPro
-appliesto: 
-  - Microsoft Teams
-ms.reviewer: 
-ms.date: 07/26/2021
+author: mstonysmith
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
-ms.localizationpriority: medium
+audience: Admin
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
-  - M365-collaboration
+  - teams-rooms-devices
   - Teams_ITAdmin_Devices
   - Tier1
+ms.reviewer: divank
+ms.date: 04/29/2024
+ms.localizationpriority: medium
 description: Learn how to set the user interface on Teams Android devices.
 ---
-# Set Microsoft Teams Android devices user interface
+
+# Set Microsoft Teams Phone device user interface
 
 Microsoft Teams Android devices can display a specific user interface based on the type of license assigned to the signed-in account. You can override this behavior and control which interface is shown. This article details how the default user interface is chosen and how you can change the interface using a Powershell policy.
 
-There are three types of user interfaces on Teams Android devices:
+There are three types of user interfaces on Teams Phone devices:
 
 1. User
 2. Common Area
@@ -44,25 +45,23 @@ In this image, the user account has been assigned a [Microsoft Teams Shared Devi
 
 :::image type="content" source="../media/teams-android-devices-cap1.jpg" alt-text="Common area phone interface.":::
 
+Optionally, you can enable [Advanced Calling](/microsoftteams/set-up-common-area-phones) interface or [Hotline (Private Line Auto Ringdown)](/microsoftteams/set-up-common-area-phones) interface on common area phones. 
+
 ## Meeting interface
 
 This image shows a user account with a [Microsoft Teams Rooms license](/MicrosoftTeams/rooms/rooms-licensing) assigned. Teams Rooms licenses are meant to be used in meeting rooms or shared spaces, so the user interface changes to make it easy to join a meeting by showing the calendar view:
 
 :::image type="content" source="../media/teams-android-devices-meeting.jpg" alt-text="Meeting interface.":::
 
-> [!NOTE]
-> Changing the user interface doesn't affect your ability to use other licensed features. For example, even though the Team Rooms license's default view is the calendar view, you can still make and receive Public Switch Telephone Network (PSTN) phone calls if the account is correctly licensed and configured.
-
 > [!IMPORTANT]
 > There are other elements of the interface that change. For example, to prevent end-users from signing out of a common area phone or meeting room device, the "Sign out" option on these devices is moved to a part of the settings menu that requires administrator permissions to access.
 
 ## Override automatic user interface detection
 
-In some cases, you may choose to assign a license to an account that doesn't match its intended use. For example, you may assign a user license to an account meant to sign in to Teams Rooms on Android. By default, you would see the end-user interface instead of the meeting room interface. To override the default interface, create a new [Teams IP Phone Policy](/powershell/module/skype/new-csteamsipphonepolicy) and apply to it to that account.
+In some cases, you may choose to assign a license to an account that doesn't match its intended use. For example, you may assign a user license to an account meant to sign in to Teams Rooms on Android. By default, you would see the end-user interface instead of the meeting room interface. To override the default interface, create a new [Teams IP Phone Policy](/powershell/module/teams/new-csteamsipphonepolicy) and apply to it to that account.  
 
 > [!NOTE]
-> The license assigned to the user account must have at least the same license entitlements as the desired user interface. The **Microsoft Teams Shared Devices** license only allows the common area phone user interface. The **Teams Rooms** license allows meeting room and common area phone user interfaces. An E3 or E5 license supports all sign-in modes.
-
+> The license assigned to the user account must have at least the same license entitlements as the desired user interface. The **Microsoft Teams Shared Devices** license only allows the common area phone user interface. The **Teams Rooms** license only allows meeting room interfaces. An E3 or E5 license supports all sign-in modes. Learn more about [deploying Teams Phone devices](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/how-to-deploy-teams-phone-devices/ba-p/3994979). 
 The following is an example of how to override automatic license detection. In this example, assume that a meeting room resource account named conf-adams@contoso.com has been assigned an E3 license. When this account is signed-in, you want users to see the meeting room user interface.
 
 ### Create a new policy and assign to user

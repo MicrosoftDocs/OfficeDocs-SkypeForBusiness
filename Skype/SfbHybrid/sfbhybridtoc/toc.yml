@@ -5,7 +5,7 @@
     - name: Configure hybrid connectivity
       href: ../hybrid/configure-hybrid-connectivity.md
       items: 
-        - name: Configure Azure AD Connect for hybrid environments
+        - name: Configure Microsoft Entra Connect for hybrid environments
           href: ../hybrid/configure-azure-ad-connect.md
         - name: Configure Skype for Business hybrid
           href: ../hybrid/configure-federation-with-skype-for-business-online.md
@@ -44,7 +44,7 @@
       items: 
         - name: Update the edge certificate
           href: ../hybrid/cloud-consolidation-edge-certificates.md
-        - name: Update AAD Connect to include more than one forest
+        - name: Update Microsoft Entra Connect to include more than one forest
           href: ../hybrid/cloud-consolidation-aad-connect.md
     - name: Integration with Exchange and SharePoint
       href: ../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md

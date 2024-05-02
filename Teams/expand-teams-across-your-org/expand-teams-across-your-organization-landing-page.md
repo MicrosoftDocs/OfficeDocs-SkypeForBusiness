@@ -4,15 +4,15 @@ description: Learn about the resources available for building on the standard Te
 ms.topic: conceptual
 author: lana-chin
 ms.author: v-chinlana
-manager: serdars
-ms.date: 10/30/2018
+manager: jtremper
+ms.date: 10/4/2023
 audience: admin
 f1.keywords:
 - NOCSH
 ms.service: msteams
 ms.collection: 
-  - M365-collaboration
-  - tier2
+  - m365-collaboration
+  - m365-frontline
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
@@ -21,7 +21,7 @@ ms.custom: seo-marvel-apr2020
 
 # Expand Microsoft Teams across your organization
 
-These resources build on the standard Teams deployment guidance and are designed to help you get the most out of Teams for specific organization types. If you haven't deployed Teams yet, see the recommended path to Teams in [How to roll out Microsoft Teams](../deploy-overview.md).
+These resources build on the standard Teams deployment guidance and are designed to help you get the most out of Teams for specific organization types. If you haven't deployed Teams yet, see the recommended path to Teams in [Teams deployment overview](../deploy-overview.md).
 
 Find out what you can do with Teams for:
 

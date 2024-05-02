@@ -4,7 +4,7 @@ ms.reviewer:
 ms.date: 06/04/2018
 ms.author: crowe
 author: CarolynRowe
-manager: serdars
+manager: pamgreen
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
@@ -12,6 +12,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
   - M365-voice
+  - m365initiative-voice
   - Tier1
 appliesto:
   - Microsoft Teams
@@ -28,7 +29,7 @@ ms.custom: seo-marvel-mar2020
 This article applies to environments in which you have all of the following:
 
 - Skype for Business Server or Lync Server 2013
-- An Microsoft 365 or Office 365 organization
+- A Microsoft 365 or Office 365 organization
 - Hybrid connectivity configured between the Skype for Business Server and Skype for Business Online or Microsoft Teams tenant
 - Users who are enabled to make and receive Public Switched Telephone Network (PSTN) calls to and from the client
 
@@ -59,10 +60,10 @@ A Skype for Business hybrid environment with PSTN connectivity provides flexibil
 |On premises AD|Online|Skype for Business|Hybrid Voice Connectivity|Yes|
 |On premises AD|Online|Microsoft Teams|Direct Routing|Yes|
 |**Unsupported combinations**|||||
-|Azure AD|On premises/online|Skype for Business/Microsoft Teams|Enterprise Voice/Hybrid Voice Connectivity/Direct Routing|No, user object MUST be created in on-premises AD first|
+|Microsoft Entra ID|On premises/online|Skype for Business/Microsoft Teams|Enterprise Voice/Hybrid Voice Connectivity/Direct Routing|No, user object MUST be created in on-premises AD first|
 |On premises AD|On premises|Microsoft Teams|Enterprise Voice/Hybrid Voice Connectivity/Direct Routing|No, Microsoft Teams client is not supported with on-premises Skype for Business|
 |On premises AD|Online|Skype for Business|Direct Routing|No, Direct Routing is not supported with Skype for Business client|
 
 ### Supportability statement for the hybrid environment with PSTN
 
-For all users, the user object **must** be created in the on-premises AD and synchronized to the Azure AD using the Azure AD Connect tool. Enabling users for Teams/Skype for Business **is not supported** if the user object is created directly in the Azure AD in a hybrid configuration. For new users, such as a new hire, who will be enabled directly for Teams, the user must be enabled for Skype for Business using on premises Skype for Business management tools. Creating users in online Skype for Business or Teams without first enabling them in on-premises pool with Enterprise Voice **is not supported**. For more information on this, look into [Plan Phone System with on-premises PSTN connectivity in Skype for Business Server](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity).
+For all users, the user object **must** be created in the on-premises AD and synchronized to the Microsoft Entra ID using the Microsoft Entra Connect tool. Enabling users for Teams/Skype for Business **is not supported** if the user object is created directly in the Microsoft Entra ID in a hybrid configuration. For new users, such as a new hire, who will be enabled directly for Teams, the user must be enabled for Skype for Business using on premises Skype for Business management tools. Creating users in online Skype for Business or Teams without first enabling them in on-premises pool with Enterprise Voice **is not supported**. For more information on this, look into [Plan Phone System with on-premises PSTN connectivity in Skype for Business Server](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity).

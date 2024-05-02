@@ -1,19 +1,20 @@
 ---
 title: "Enable users to record their name for a meeting"
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jenz
+author: jenzamora
+manager: pamgreen
 ms.reviewer: oscarr
-ms.date: 08/14/2018
+ms.date: 12/14/2023
 ms.topic: article
 ms.assetid: 1d649328-ada7-422d-a074-d6da4da36970
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 search.appverid: MET150
 ms.collection: 
-  - M365-voice
   - M365-collaboration
   - Tier1
+  - m365initiative-meetings
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -28,33 +29,33 @@ description: "Learn how to enable or disable whether your users can record their
 
 # Enable users to record their name when they join a meeting in Microsoft Teams
 
-When you are setting up Audio Conferencing in Microsoft 365 or Office 365, you will receive phone numbers and what is called an audio conferencing bridge. A conferencing bridge can contain one or more phone numbers that can be a dedicated or shared phone number.
-  
-The conferencing bridge answers a call for a user who is dialing in to a meeting using a phone. The conferencing bridge answers the caller with voice prompts from an auto attendant, and then, depending on their settings, can play notifications, ask callers to record their name, and set up the PIN security for meeting organizers. PINs are given to meeting organizers to allow them to start a meeting. However, you can set it up so a PIN isn't required to start a meeting.
+When you set up Audio Conferencing in Microsoft 365 or Office 365, you get phone numbers for your users through an audio conferencing bridge. A conferencing bridge can have one or more phone numbers that are included at the bottom of the meeting invite. These phone numbers allow users to join Microsoft Teams meetings by dialing in.
 
-## Set whether callers should record their name
+As an admin, you can manage whether callers who dial in can record their name before joining a meeting.
+
+## Manage whether callers can record their name in the Teams admin center
 
 Using the Microsoft Teams admin center:
 
-1. In the left navigation, go to **Meetings** > **Conference Bridges**.
+1. Navigate to **Meetings** > **Conference Bridges**.
 
-2. At the top of the **Conference Bridges** page, click **Bridge settings**.
+2. At the top of the **Conference Bridges** page, select **Bridge settings**.
 
 3. Enable or disable **Meeting entry and exit notifications**.
 
-4. If enabling notifications, choose **Names or phone numbers** under **Entry/exit announcement type**, and then turn on **Ask callers to record their name before joining a meeting.**
+4. If enabling entry and exit notifications, choose **Names or phone numbers** for **Entry/exit announcement type**, and then toggle **Ask callers to record their name before joining a meeting** to **On**.
 
-5. Click **Save**.
+5. Select **Save**.
 
-> [!Note]
+> [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## Want to know more about Windows PowerShell?
+## Turn on or off entry and exit announcements with PowerShell
 
-Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
+To turn entry and exit announcements on or off with PowerShell, use the **`-EnableNameRecording`** parameter within the PowerShell CsOnlineDialInConferencingTenantSettings cmdlet.
 
-- [Why you need to use Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+For CsOnlineDialInConferencingBridge script examples, see [Set-CsOnlineDialInConferencingBridge](/powershell/module/teams/Set-csonlinedialinconferencingtenantsettings).
 
-- [Best ways to manage Office 365 with Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+## Related topics
 
-For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=teams-ps) for more information.
+- [Change the settings for an audio conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md)

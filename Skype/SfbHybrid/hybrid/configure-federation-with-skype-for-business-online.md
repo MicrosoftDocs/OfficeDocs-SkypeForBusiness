@@ -2,9 +2,9 @@
 ms.date: 03/17/2018
 title: "Configure Skype for Business hybrid"
 ms.reviewer: 
-ms.author: heidip
 author: MicrosoftHeidi
-manager: serdars
+ms.author: heidip
+manager: jtremper
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -14,6 +14,7 @@ ms.localizationpriority: medium
 ms.collection: 
 - Hybrid 
 - M365-voice
+- m365initiative-voice
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
@@ -31,7 +32,7 @@ To configure Skype for Business hybrid, you need to:
 - [Configure your on-premises environment to trust Teams and enable shared SIP address space](#configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-teams).
 - [Enable shared SIP address space in your Teams organization](#enable-shared-sip-address-space-in-your-organization).
 
-If you have Exchange on-premises, you may want to configure OAuth between your Exchange on-premises and online environments. For more information, see  [Manage server-to-server authentication in Skype for Business Server](../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md) and [Plan to integrate Skype for Business and Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support). 
+If you have Exchange on-premises, you may want to configure OAuth between your Exchange on-premises and online environments. For more information, see  [Manage server-to-server authentication in Skype for Business Server](../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md) and [Plan to integrate Skype for Business and Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support).
   
 ## Configure your on-premises Edge service to federate with Teams
 
@@ -46,7 +47,6 @@ If '-EnablePartnerDiscovery' value is set to $True, Skype for Business Server wi
 > [!NOTE]
 > For more details about enabling federation between users of your on-premises Skype for Business deployment and users of a Microsoft 365 organization, see [Configuring federation support for a Microsoft 365 customer in Skype for Business Server](../../SfbServer/manage/federation-and-external-access/federation-support/configuring-federation-support.md).
 
-
 ## Configure your on-premises environment to enable shared SIP address space with Teams
 
 You must also configure your on-premises environment to trust Teams and enable shared SIP address space. This configuration means Teams can potentially host user accounts for the same set of SIP domains as your on-premises environment, and messages can be routed between users hosted on premises and online. You configuring a hosting provider with ProxyFqdn=sipfed.online.lync.com as described below.
@@ -57,13 +57,13 @@ First, check if you already have a hosting provider with ProxyFqdn=sipfed.online
 Get-CsHostingProvider | ?{ $_.ProxyFqdn -eq "sipfed.online.lync.com" } | Remove-CsHostingProvider
 ```
 
-Then create a new hosting provider by using the New-CsHostingProvider cmdlet as follows: 
+Then create a new hosting provider by using the New-CsHostingProvider cmdlet as follows:
 
 ```PowerShell
 New-CsHostingProvider -Identity Office365 -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root 
 ```
 
- ## Enable shared SIP address space in your organization
+## Enable shared SIP address space in your organization
   
 In addition to the change you made in your on-premises deployment, you'll need to make the corresponding change in your Teams organization to enabled shared SIP address space with your on-premises deployment.  
 
@@ -79,6 +79,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 To establish a remote PowerShell session with Teams, you first need to install the [Teams PowerShell module](/microsoftteams/teams-powershell-install). The Teams PowerShell module replaces the Skype for Busines Online Connector module, which has been retired.
   
 After you install the module, you can establish a remote session with the following cmdlets:
+
    ```powershell
    # When using Teams PowerShell Module
 
@@ -89,9 +90,6 @@ After you install the module, you can establish a remote session with the follow
 
 For more information about how to establish a remote PowerShell session with Teams, and how to use the Teams PowerShell module, see [Set up your computer for Windows PowerShell](../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
-
-
 ## See also
 
 [New-CsHostingProvider](/powershell/module/skype/new-cshostingprovider?view=skype-ps)
-

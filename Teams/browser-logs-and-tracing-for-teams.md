@@ -3,7 +3,8 @@ title: Browser logs and tracing for Teams
 author: wlibebe
 ms.author: wlibebe
 manager: serdars
-ms.date: 06/21/2021
+ms.reviewer: xiashi
+ms.date: 10/10/2023
 audience: admin
 ms.topic: troubleshooting
 ms.service: msteams
@@ -16,17 +17,17 @@ appliesto:
 ---
 # Browser logs and tracing for Teams
 
-For some categories of errors, Microsoft Support might require you to collect a browser trace. This information can provide important details about the state of the Teams client when the error occurs. This article describes how to collect browser and WebRTC logs for Teams.
+For some categories of errors, Microsoft Support might require you to collect a browser trace. A browser trace can provide important details about the state of the Teams client when the error occurs. This article describes how to collect browser and WebRTC logs for Teams.
 
 ## Browser logs
 
-Before you start the browser trace, make sure that you’re signed in to Teams. It's important to do this before you start the trace so that the trace doesn't contain sensitive sign-in information.
+Before you start the browser trace, make sure that you’re signed in to Teams. It's important to sign in before you start the trace so the trace doesn't contain sensitive sign-in information.
 
-After you’re signed in, select one of the following links, as appropriate for your browser, and follow the provided steps. 
+After you’ve signed in, select one of the following links, as appropriate for your browser, and follow the provided steps.
 
--   [Chrome & Edge (Chromium)](/azure/azure-portal/capture-browser-trace#google-chrome-and-microsoft-edge-chromium?preserve-view=true#resolution)
+-   [Chrome & Microsoft Edge (Chromium)](/azure/azure-portal/capture-browser-trace#google-chrome-and-microsoft-edge-chromium?preserve-view=true#resolution)
 
--   [Edge](/azure/azure-portal/capture-browser-trace#microsoft-edge-edgehtml?preserve-view=true#resolution)
+-   [Microsoft Edge](/azure/azure-portal/capture-browser-trace#microsoft-edge-edgehtml?preserve-view=true#resolution)
 
 -   [Safari](/azure/azure-portal/capture-browser-trace#apple-safari?preserve-view=true#resolution)
 
@@ -37,15 +38,15 @@ After you’re signed in, select one of the following links, as appropriate for 
   
 ## WebRTC logs in browsers
 
-WebRTC logs can assist Microsoft Support by providing connection details for audio and video calls. Follow the steps to access the WebRTC logs in Edge (Chromium) or Chrome:
+WebRTC logs can assist Microsoft Support by providing connection details for audio and video calls. Follow the steps to access the WebRTC logs in Microsoft Edge (Chromium) or Chrome:
   
 1. Open a new tab and go to one of the following URLs:
-    - Edge (Chromium): `edge://webrtc-internals/`
+    - Microsoft Edge (Chromium): `edge://webrtc-internals/`
     - Chrome: `chrome://webrtc-internals/`
   
 2. Open the Teams Web application and reproduce the problem.
   
-3. Go back to the tab that was accessed in step 1 and you will see at least two tabs:
+3. Go back to the tab that was accessed in step 1 and you'll see at least two tabs:
     - GetUserMedia Requests
     - `https://teams.microsoft.com/url`
 

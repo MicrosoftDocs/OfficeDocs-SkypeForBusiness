@@ -1,24 +1,24 @@
 ---
 title: Admin training resources - Microsoft Teams
 ms.reviewer: jhwang
-ms.date: 08/29/2017
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.date: 03/27/2024
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
-  - M365-collaboration
+- M365-collaboration
 search.appverid: MET150
 f1.keywords: 
-  - CSH
+- CSH
 ms.custom: 
-  - ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
-  - seo-marvel-mar2020
+- ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
+- seo-marvel-mar2020
 description: Training videos, PowerPoint decks, tutorials, and other resources for admins on how to plan, deploy, and run Microsoft Teams.
 appliesto: 
-  - Microsoft Teams
+- Microsoft Teams
 ---
 # Getting started with admin training for Microsoft Teams
 
@@ -46,7 +46,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Apps - Managing and deploying |  | [Deck](https://aka.ms/managing-deploying-apps-deck) |
 | Audio conferencing |  | [Deck](https://aka.ms/teams-audio-conferencing-deck) |
 | Call quality overview | | [Deck](https://aka.ms/teams-quality-deck) |
-| Direct routing | [Video 1: Planning for Direct Routing in Teams](https://aka.ms/teams-dr-plan)<br>[Video 2: Configuring and Managing Direct Routing in Teams](https://aka.ms/teams-dr-config)<br>[Video 3: Migrating to Direct Routing in Teams](https://aka.ms/teams-dr-migrate)  | [Deck](https://aka.ms/teams-direct-routing-deck) |
+| Direct Routing | [Video 1: Planning for Direct Routing in Teams](https://aka.ms/teams-dr-plan)<br>[Video 2: Configuring and Managing Direct Routing in Teams](https://aka.ms/teams-dr-config)<br>[Video 3: Migrating to Direct Routing in Teams](https://aka.ms/teams-dr-migrate)  | [Deck](https://aka.ms/teams-direct-routing-deck) |
 | Dynamic emergency calling | [Video](https://aka.ms/teams-dec) |  [Deck](https://aka.ms/teams-dec-deck) |
 | Governance, management, and lifecycle | [Video](https://aka.ms/teams-governance) | [Deck](https://aka.ms/teams-governance-deck) |
 | Live events | [Video](https://aka.ms/teams-live-events-session) | [Deck](https://aka.ms/teams-live-events-deck) |
@@ -59,8 +59,11 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | SIP gateway enablement and migration | | [Deck](https://aka.ms/SIP-gateway-enablement-migration-playbook) |
 | Teams Devices Deployment playbook | | [Deck](https://aka.ms/teams-devices-deployment-playbook) |
 | Teams Phone Deployment playbook | | [Deck](https://aka.ms/teams-phone-deployment-playbook) |
+| Teams Phone for Frontline Workers Deployment playbook | | [Deck](https://aka.ms/teams-phone-FLW-deployment-playbook) |
+| Teams Phone Service Reliability and Survivability playbook | | [Deck](https://aka.ms/teams-phone-service-reliability-playbook) |
 | Upgrade from Skype for Business to Teams | [Video 1: Introduction to Upgrade](https://aka.ms/teams-upgrade-intro)</br>[Video 2: Plan your upgrade](https://aka.ms/teams-upgrade-plan)</br>[Video 3: Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Video 4: Administrator experience](https://aka.ms/teams-upgrade-admin) | [Deck](https://aka.ms/teams-upgrade-deck)|
 | Windows desktop client | [Video](https://aka.ms/teams-clients) | [Deck](https://aka.ms/teams-clients-deck) |
+| Windows Defender Application Control for new Teams |  | [Deck](https://aka.ms/new-teams-WDAC) |
 
 <h2>Teams Rooms Foundations for IT & AV Pros</h2>
 
@@ -90,30 +93,8 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Module 5: Microsoft Teams Rooms and Microsoft Teams Panels |[Deck](https://aka.ms/TeamsAndroidModule5)|
 | Module 6: Adoption and troubleshooting |[Deck](https://aka.ms/TeamsAndroidModule6)|
 
-<h2>Interactive guides</h2>
+## Related topics
 
-| Title                                                                       | Abstract                                                                                                                                                                                                               |  Link to the Guide                             |
-|-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| Identity, Access management & Threat Protection for Teams                   | Learn how to use Microsoft admin centers and PowerShell to configure access and identity policies and Enable Office 365 Advanced Threat Protection for Teams                                                            | [Teams security guide](https://aka.ms/teamsesecurityinteractiveguide)         |
-| Microsoft Purview Data loss prevention (DLP) Policies for Microsoft Teams                     | Learn how to add Microsoft Teams to an existing DLP policy, and how create a new policy, whether based on a template or fully customized to your organization's data protection needs.                        | [Teams DLP guide](https://aka.ms/teamsdlpguide)         |
-| Managing Compliance in Teams                                                | Use the Microsoft 365 Security, Microsoft 365 Compliance, and Microsoft Teams admin centers, as well as Windows PowerShell to manage and configure an Office 365 organization's Microsoft Teams policies and settings. | [Managing compliance in Teams guide](https://aka.ms/complianceinteamsinteractiveguide)      |
-| Teams Advisor: Deploying chats, teams, channels and apps in Microsoft Teams | Learn how to use Teams advisor to assess your environment and build a plan for deploying chats, teams, channels, and apps.                                                                                         |  [Teams Advisor guide](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
-| Streamlining Teams administration with PowerShell and dynamic groups        | Convert an Office 365 group from static membership to dynamic and use Windows PowerShell to assign a new App permission policy to all members.                                                                         |  [Streamlining Teams administration guide](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
-| Managing Teams and Guest Access in the Microsoft Teams admin center         | Learn how to configure and manage Microsoft Teams and guest access for your organization.                                                                                                                              | [Managing Teams and guest access guide](https://aka.ms/TeamsandGuestAccessInteractiveGuide)    |
-| Configure Teams Phone System: Auto Attendant & Call Queue                   | Step through the process of creating and deploying a Call Queue and Auto Attendant as part of Microsoft Teams calling using the Microsoft Teams admin center.                                                          |  [Configure Teams phone system guide](https://aka.ms/TeamsPhoneInteractiveGuide)             |
-| Configure Direct Routing: connecting SBCs and voice routing                 | Use Microsoft Teams Phone System Direct Routing to integrate with your existing telephony infrastructure.                                                                                                              | [Configure direct routing guide](https://aka.ms/DirectRoutingInteractiveGuide)          |
-| Configure Governance in Microsoft Teams                                     | Learn how to create a Teams messaging retention policy for your organization and how to archive, delete, and restore individual Teams                                                                                   |  [Configure governance in Microsoft Teams guide](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
-| Configuring Microsoft Teams for Firstline Workers                           | Learn how to configure and deploy the right Microsoft Teams environment for your Firstline Workforce.                                                                                                                  | [Configuring Microsoft Teams for Firstline Workers guide](https://aka.ms/ConfigFLWInteractiveGuide)              |
-| Identity for the frontline workforce: Empower IT, managers, and frontline workers                    | Learn how to integrate Microsoft Teams with existing HR systems, configure lightweight delegated identity management, and configure simplified sign-in and seamless transitions for those using shared devices.                                                                                                                  | [Frontline worker identity guide](https://aka.ms/FLWIdentityIG)              |
+[Live and on demand user training](https://adoption.microsoft.com/user-training/?filter=microsoft-teams)
 
 
-<h2>Quick start guides</h2>
-
-- [Quick start: Teams for Education admins](teams-quick-start-edu.yml)
-- [Quick start: Configuring Calling Plans in Teams](configuring-teams-calling-quickstartguide.md)
-
-<h2>Tutorials</h2>
-
-- [Tutorial: Meetings in Teams](tutorial-meetings-in-teams.yml)
-- [Tutorial: Audio Conferencing in Teams](tutorial-audio-conferencing.yml)
-- [Tutorial: Understand calling in Teams](tutorial-calling-in-teams.yml)

@@ -2,9 +2,9 @@
 title: Manage call routing policies for Direct Routing
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.reviewer: filippse
-ms.date: 03/04/2020
+ms.date: 11/17/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -13,6 +13,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
 - M365-voice
+- m365initiative-voice
 - Tier1
 appliesto: 
 - Microsoft Teams
@@ -33,46 +34,46 @@ It's important to know that assigning a voice routing policy to a user doesn't e
 
 ## Create a custom call routing policy
 
-### Using the Microsoft Teams admin center
+### Use the Microsoft Teams admin center
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Voice routing policies**, and then click **Add**.<br>
+1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Voice routing policies**, and then select **Add**.<br>
 
 2. Enter a name and description for the policy.
 
-3. Under **PSTN usage records**, click **Add PSTN usage**, and then select the records that you want to add. If you need to create a new PSTN usage record, click **Add**.
+3. Under **PSTN usage records**, select **Add PSTN usage**, and then select the records that you want to add. If you need to create a new PSTN usage record, select **Add**.
 
 4. If you added multiple PSTN usage records, arrange them in the order that you want.
-5. When you're done, click **Apply**.
+5. When you're done, select **Apply**.
 
-6. Click **Save**.
+6. Select **Save**.
 
-### Using PowerShell
+### Use PowerShell
 
-See [New-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/new-csonlinevoiceroutingpolicy).
+See [New-CsOnlineVoiceRoutingPolicy](/powershell/module/teams/new-csonlinevoiceroutingpolicy).
 
 ## Edit a call routing policy
 
-### Using the Microsoft Teams admin center
+### Use the Microsoft Teams admin center
 
 You can edit the global policy or any custom policies that you create.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Voice routing policies**.
 
-2. Select the policy by clicking to the left of the policy name, and then click **Edit**.
+2. Select the policy by clicking to the left of the policy name, and then select **Edit**.
 
-3. Click **Add/remove PSTN usage records**, make the changes that you want, and then click **Save**.
+3. Select **Add/remove PSTN usage records**, make the changes that you want, and then select **Save**.
 
-### Using PowerShell
+### Use PowerShell
 
-See [Set-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/set-csonlinevoiceroutingpolicy).
+See [Set-CsOnlineVoiceRoutingPolicy](/powershell/module/teams/set-csonlinevoiceroutingpolicy).
 
 ## Assign a custom call routing policy to users
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-See also [Grant-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/grant-csonlinevoiceroutingpolicy).
+See also [Grant-CsOnlineVoiceRoutingPolicy](/powershell/module/teams/grant-csonlinevoiceroutingpolicy).
 
-## Related topics
+## Related articles
 
 [Teams PowerShell overview](teams-powershell-overview.md)
 

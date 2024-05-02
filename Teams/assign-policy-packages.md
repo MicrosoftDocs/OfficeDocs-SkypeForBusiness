@@ -1,10 +1,10 @@
 ---
 title: Assign policy packages to users and groups
-author: mkbond007
-ms.author: mabond
-ms.reviewer: tomkau, saragava, ritikag, jastark
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
+ms.reviewer: tomkau, ritikag, jastark
 ms.date: 03/10/2021
-manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -24,9 +24,6 @@ f1keywords:
 # Assign policy packages to users and groups
 
 This article reviews the different ways to assign policy packages to users and groups in Microsoft Teams. Before reading, be sure you've read [Assign policies in Teams - getting started](policy-assignment-overview.md).
-
-> [!NOTE]
-> Each user will require the Advanced Communications add-on in order to receive a custom policy package assignment. For more information, see [Advanced Communications add-on for Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
 
 ## Assign a policy package to users
 

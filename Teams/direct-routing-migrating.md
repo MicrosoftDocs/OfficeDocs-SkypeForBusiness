@@ -4,14 +4,18 @@ ms.reviewer:
 ms.date: 06/04/2018
 ms.author: crowe
 author: CarolynRowe
-manager: serdars
+manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
+ms.custom:
+  - has-azure-ad-ps-ref
+  - azure-ad-ref-level-one-done
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 appliesto: 
   - Microsoft Teams
@@ -22,24 +26,23 @@ description: "Learn what is needed to migrate to Direct Routing from a Skype for
 
 # Migrate to Direct Routing
 
-This article describes what is needed to migrate to Direct Routing from a Skype for Business Online and Microsoft Teams configuration perspective. This article covers migrating from the following: 
- 
-- Phone System with Calling Plans (for Teams and Skype for Business Online) 
-- Phone System with on-premises PSTN Connectivity in Skype for Business Server (for Skype for Business Online)  
-- Phone System with on-premises PSTN Connectivity by using the Cloud Connector Edition (for Skype for Business Online)
+This article describes what is needed to migrate to Direct Routing from a Skype for Business Online and Microsoft Teams configuration perspective. This article covers migrating from the following:
 
+- Teams Phone with Calling Plans (for Teams and Skype for Business Online)
+- Teams Phone with on-premises PSTN Connectivity in Skype for Business Server (for Skype for Business Online)  
+- Teams Phone with on-premises PSTN Connectivity by using the Cloud Connector Edition (for Skype for Business Online)
 
 In addition to these configuration steps, configuration is also required on the Session Border Controller (SBC) to route the calls to the new route. That is outside the scope of this document. For more information, see your SBC vendor documentation.  
 
-## User provisioning end-state for various PSTN connectivity options 
+## User provisioning end-state for various PSTN connectivity options
 
-The following table shows the end-state for a user provisioned for the selected PSTN connectivity options with Phone System. Only attributes relevant for voice are shown.
+The following table shows the end-state for a user provisioned for the selected PSTN connectivity options with Teams Phone. Only attributes relevant for voice are shown.
 
-|User object attributes |Phone System with Calling Plans|Phone System with on-premises PSTN connectivity via Skype for Business Server|Phone System with on-premises PSTN connectivity via Cloud Connector|Phone System with on-premises PSTN connectivity via Direct Routing|
+|User object attributes |Teams Phone with Calling Plans|Teams Phone with on-premises PSTN connectivity via Skype for Business Server|Teams Phone with on-premises PSTN connectivity via Cloud Connector|Teams Phone with on-premises PSTN connectivity via Direct Routing|
 |---|---|---|---|---|
 |Client|Skype for Business or Teams |Skype for Business |Skype for Business |Teams|
-|Licenses|Skype Business Online</br>Plan 2</br></br>MCOProfessional or MCOSTANDARD)</br></br></br>Phone System (MCOEV)</br></br></br>Calling Plans</br>Teams|Skype Business Online Plan 2 (MCOProfessional or MCOSTANDARD)</br></br></br>Phone System (MCOEV)|Skype Business Online Plan 2 (MCOProfessional or MCOSTANDARD)</br></br></br>Phone System (MCOEV)|Skype Business Online Plan 2 (MCOProfessional or MCOSTANDARD</br></br></br>Phone System (MCOEV)</br></br>Teams|
-OnPremLineURI |N/A|The phone number  must be synced from the on-premises AD. |The phone number can be managed either in on-premises Active Directory or in Azure Active Directory.|The phone number can be managed either in on-premises Active Directory or in Azure Active Directory. However, if the organization has on-premises Skype for Business, the number must be synced from the on-premises Active Directory.|
+|Licenses|Skype Business Online</br>Plan 2</br></br>(MCOProfessional or MCOSTANDARD)</br></br></br>Teams Phone (MCOEV)</br></br></br>Calling Plans</br>Teams|Skype Business Online Plan 2 (MCOProfessional or MCOSTANDARD)</br></br></br>Teams Phone (MCOEV)|Skype Business Online Plan 2 (MCOProfessional or MCOSTANDARD)</br></br></br>Teams Phone (MCOEV)|Skype Business Online Plan 2 (MCOProfessional or MCOSTANDARD)</br></br></br>Teams Phone (MCOEV)</br></br>Teams|
+OnPremLineURI |N/A|The phone number  must be synced from the on-premises AD. |The phone number can be managed either in on-premises Active Directory or in Microsoft Entra ID.|The phone number can be managed either in on-premises Active Directory or in Microsoft Entra ID. However, if the organization has on-premises Skype for Business, the number must be synced from the on-premises Active Directory.|
 |LineURI|PSTN Calling phone number|Set automatically from the OnPremLineURI parameter|Set automatically from the OnPremLineURI parameter|Set automatically from the OnPremLineURI parameter|
 |EnterpriseVoiceEnabled|True|True|True|True|
 |HostedVoiceMail |True|True|True|True|
@@ -63,52 +66,52 @@ For more information, please refer to [Migration and interoperability Guidance f
 For more information about migrating from Calling Plans, see:
 
 - [Set up Calling Plans](/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
-- [Set-CsOnlineVoice User](/powershell/module/skype/Set-CsOnlineVoiceUser?view=skype-ps)
-- [Get-CsOnlineLisLocation](/powershell/module/skype/get-csonlinelislocation?view=skype-ps)  
- 
- 
-It is recommended that you remove previously configured licensing plan information as follows:
- 
+- [Set-CsOnlineVoice User](/powershell/module/teams/Set-CsOnlineVoiceUser)
+- [Get-CsOnlineLisLocation](/powershell/module/teams/get-csonlinelislocation)  
+
+It's recommended that you remove previously configured licensing plan information as follows:
+
 ```powershell
 $companyname = “contoso” 
 $lic1 = $companyname + “:MCOPSTN1” 
 $lic2 = $companyname + “:MCOPSTN2” 
-Set-MsolUserLicense -UserPrincipalName <UPN> -RemoveLicenses $lic1 
-Set-MsolUserLicense -UserPrincipalName <UPN> -RemoveLicenses $lic2 
+Set-MgUserLicense -UserId '11111111-0000-aaaa-bbbb-222222222222' -RemoveLicenses @($lic1) 
+Set-MgUserLicense -UserId '11111111-0000-aaaa-bbbb-222222222222' -RemoveLicenses @($lic2) 
 ```
-## Migrating from Office 365 Phone System with on-premises PSTN connectivity in Skype for Business Server
 
-For more information about migrating from Phone System with on-premises PSTN connectivity in Skype for Business Server, see the following:
+## Migrating from Office 365 Teams Phone with on-premises PSTN connectivity in Skype for Business Server
+
+For more information about migrating from Teams Phone with on-premises PSTN connectivity in Skype for Business Server, see the following:
 
 - [Planning](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
-- [Deploying](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system) 
+- [Deploying](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system)
 
-It is recommended that you remove previously configured voice routing information as follows:
+It's recommended that you remove previously configured voice routing information as follows:
 
 ```PowerShell
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 ```
+
 > [!NOTE]
-> If a global CsVoiceRoutingPolicy is configured, it is recommended that you remove any PSTN usages associated with this global policy. 
+> If a global CsVoiceRoutingPolicy is configured, it's recommended that you remove any PSTN usages associated with this global policy.
 
-## Migrating from Office 365 Phone System with on-premises PSTN connectivity via Cloud Connector Edition 
+## Migrating from Office 365 Teams Phone with on-premises PSTN connectivity via Cloud Connector Edition
 
-> [!Important]
+> [!IMPORTANT]
 > Cloud Connector Edition will retire July 31, 2021 along with Skype for Business Online. Once your organization has upgraded to Teams, learn how to connect your on-premises telephony network to Teams using [Direct Routing](direct-routing-landing-page.md).
 
-For more information about migrating from Phone System with on-premises PSTN connectivity via Cloud Connector, see the following:
+For more information about migrating from Teams Phone with on-premises PSTN connectivity via Cloud Connector, see the following:
 
 - [Planning](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)  
 - [Deploying](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system)
-- [User configuration](/powershell/module/skype/set-csuserpstnsettings?view=skype-ps) 
+- [User configuration](/powershell/module/skype/set-csuserpstnsettings)
 
-It is recommended that you remove previously configured voice routing information as follows:
- 
+It's recommended that you remove previously configured voice routing information as follows:
+
 ```PowerShell
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 Set-CsUserPstnSettings -Identity <UPN> -AllowInternationalCalls $false -HybridPSTNSite $null 
 ```
-
 
 ## Related links
 

@@ -1,35 +1,32 @@
 ---
 title: Audit logging in the MTR Pro Portal
-author: altsou
-ms.author: altsou
-manager: serdars
+author: mstonysmith
+ms.author: tonysmit
+manager: pamgreen
 ms.reviewer: altsou
-ms.date: 11/30/2021
+ms.date: 04/04/2024
 ms.topic: article
-ms.tgt.pltfrm: cloud
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-audience: Admin
-ms.collection: 
-  - M365-collaboration
-  - Teams_ITAdmin_MTRP
-  - Tier3
 appliesto: 
   - Microsoft Teams
+ms.collection: 
+  - M365-collaboration
+  - teams-rooms-devices
+  - Tier1
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Audit logging for the MTR Pro Portal.
 f1keywords: 
 ---
 
+# Audit logging in the Teams Rooms Pro management portal
 
-# Audit logging in the MTR Pro Portal
-
-Audit logs from the MTR Pro Portal let you search for audit records for activities performed by users and admins. This feature is enabled by default. Only the Managed Service Administrator has permission to export and then view the logs.
+Audit logs from the Teams Rooms Pro management portal let you search for audit records for activities performed by users and admins. This feature is enabled by default. Only Teams Rooms Pro Managers have permission to export and then view the logs.
 
 > [!NOTE]
-> Actions performed in the MTR Pro Portal are not logged in Microsoft 365 or Office 365 auditing 
-
+> Actions performed in the Teams Rooms Pro management portal are not logged in Microsoft 365 or Office 365 auditing.
 ## Exporting logs
 
 When you export all results for an audit log search, the raw data from the unified audit log is copied to a comma-separated value (CSV) file that is downloaded to your local computer. 

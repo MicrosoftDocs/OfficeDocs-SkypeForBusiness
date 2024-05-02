@@ -1,7 +1,7 @@
 ---
 title: "Exit-CcUpdate"
 ms.reviewer: 
-ms.author: crowe
+ms.author: serdars
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
@@ -43,14 +43,14 @@ Exit-CcUpdate
 ## Detailed Description
 <a name="DetailedDescription"> </a>
 
-If you have appliances that you have put in maintenance mode by specifying the Enter-CcUpdate cmdlet, the Exit-CcUpdate cmdlet will put these back into production mode. 
+If you have appliances that are put in maintenance mode by specifying the Enter-CcUpdate cmdlet, the Exit-CcUpdate cmdlet puts these back into production mode. 
   
 For more information about putting appliances in maintenance mode, see Enter-CcUpdate.
   
 ## Input Types
 <a name="InputTypes"> </a>
 
-None. The Exit-CcUpdate cmdlet does not accept pipelined input.
+None. The Exit-CcUpdate cmdlet doesn't accept pipelined input.
   
 ## Return Types
 <a name="ReturnTypes"> </a>

@@ -1,7 +1,7 @@
 ---
 title: Add and update reporting labels
-author: tonysmit
-ms.author: tonysmit
+author: mkbond007
+ms.author: mabond
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -41,7 +41,7 @@ The report labels and locations data you provide is a single data structure – 
 3. In the **Upload data** pane, click **Select a file**, and then browse to and upload your edited .csv or .tsv file.
 4. Click **Upload**.
 
-You can download a sample template [here](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true).
+You can download a sample template [here](https://download.microsoft.com/download/0/b/9/0b9c1610-d421-489a-a3f9-d1ae703c9f1b/locations-template.zip).
 
 Use the following example to help create your data file.
 

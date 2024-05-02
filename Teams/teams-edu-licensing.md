@@ -1,12 +1,12 @@
 ---
 title: 'Assign Microsoft Teams licenses for education'
-author: DaniEASmith
-ms.author: danismith
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jacktremper
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: karsmith
+ms.reviewer: 
 ms.date: 03/05/2020
 description: Learn how to assign licenses for Microsoft Teams for Education.
 ms.localizationpriority: high

@@ -1,8 +1,8 @@
 ---
 title: "Install Power BI Connector to use CQD query templates"
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
+author: mkbond007
+ms.author: mabond
+manager: pamgreen
 ms.reviewer: siunies
 ms.date: 03/06/2020
 ms.topic: article
@@ -10,6 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 search.appverid: MET150
 audience: Admin
@@ -126,7 +127,7 @@ Not all Power BI functionality is support by the Microsoft Call Quality connecto
 
 5. **Relative Data Filtering –** Is supported in the Microsoft Call Quality connector, but only with the *Start Time* and *End Time* dimensions. Although the *Date* dimension may be the obvious choice for relative date filtering, *Date* isn't stored as a date time object and thus doesn't support relative date filtering in Power BI.
 
-6. **Measurement Only Queries -** Aren't supported at this time in the Microsoft Call Quality connector. When creating a visualization with three or more measurements and no dimensions, the column data will be transposed. Always include at least one dimension (for exampe, Month Year) in your visualizations. 
+6. **Dimension Only or Measurement Only Queries -** Aren't supported at this time in the Microsoft Call Quality connector. When creating a visualization with three or more measurements and no dimensions, or three or more dimensions and no measurements, the column data will be transposed. Always include at least one dimension (for example, Month Year) and one measurement (for example, Total Call Count) in your visualizations. 
 
 7. **Government Community Cloud (GCC, GCC-High, and DoD) Support –** For customers in Government cloud environments, the Microsoft Call Quality connector will work when using Power BI Desktop only. The Microsoft Call Quality connector isn't presently compatible with the Power BI service for Government cloud customers. Additionally, an appropriate Power BI US Government license is required for government cloud. For more information on licensing, please see the latest guidance for [Power BI for US government customers](/power-bi/enterprise/service-govus-overview#buy-a-power-bi-pro-subscription-for-government-customers).
 

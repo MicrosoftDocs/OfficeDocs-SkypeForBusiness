@@ -1,16 +1,18 @@
 ---
 title: Hot desking Teams displays
-author: tonysmit
+author: mstonysmith
 ms.author: tonysmit
-manager: serdars
+manager: pamgreen
+ms.reviewer: prashibadkur
+ms.date: 07/05/2023
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
-audience: admin
-ms.reviewer: prashibadkur
-ms.date: 07/05/2023
+audience: Admin
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
-  - M365-collaboration
+  - teams-rooms-devices
   - Teams_ITAdmin_Devices
   - Tier1
 f1.keywords: 
@@ -18,8 +20,6 @@ f1.keywords:
 description: Learn how to set up and deploy hot desking for Teams Displays.
 ms.localizationpriority: medium
 search.appverid: MET150
-appliesto: 
-  - Microsoft Teams
 ---
 
 # Deploy hot desking for Teams Displays
@@ -42,7 +42,7 @@ First, you need to purchase a  **Teams Shared Devices**  license and make sure t
 
 > [!NOTE]
 >
->If you're using Intune in your environment and have conditional access rules that require device compliance, you'll need to assign an  **Azure Active Directory Premium Plan 1** , and  **Intune**  license to the device account for the Teams Display.
+>If you're using Intune in your environment and have conditional access rules that require device compliance, you'll need to assign a **Microsoft Entra ID P1** , and  **Intune**  license to the device account for the Teams Display.
 
 Teams Displays can be impacted by conditional access rules and other identity configurations, like Multi-Factor Authentication (MFA). See [**Authentication best practices for Teams Android devices**](./authentication-best-practices-for-android-devices.md) to learn more.
 
@@ -81,7 +81,7 @@ Use IP phone policies to control which features are available to Teams Displays.
 
 ### IP phone policies
 
-To configure other parameters, consider creating an [IP phone policy](/powershell/module/skype/new-csteamsipphonepolicy).
+To configure other parameters, consider creating an [IP phone policy](/powershell/module/teams/new-csteamsipphonepolicy).
 
 > [!Important]
 >

@@ -1,8 +1,8 @@
 ---
 title: Admin setup of Parents in Teams for Education
-author: DaniEASmith
-ms.author: danismith
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jacktremper
 ms.topic: reference
 ms.service: msteams
 audience: admin
@@ -62,9 +62,17 @@ The Parents Connection allows educators and guardians to chat, email, and call u
 >
 > For more information on Teams calling licensing, see [Teams add-on licensing options](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
+## Turn on the Parents app in the Teams admin center
+
+The Parents app is turned off by default, so class team owners won't see it in their class teams until it's allowed through the Teams admin center. The Parents app is turned on in the Teams admin center using [Allow apps blocked by developers](manage-apps.md#allow-or-block-apps).
+
+At any time, the app can be turned off at the tenant level using [Allow and block apps](manage-apps.md#allow-or-block-apps) in the Teams admin center. If it's turned off at the tenant level, it will be blocked for all users, even if user-level permissions are turned on.
+
+The Parents app can also be turned off at the user level using [Manage app permission policies in Microsoft Teams](teams-app-permission-policies.md).
+
 ## Requirements
 
-You need to use Microsoft Graph or School Data Sync (SDS) to populate each student's parent and guardian related contact information.
+You need to use Microsoft Graph or School Data Sync (SDS) to populate each student's parent and guardian related contact information. If your school doesn't use SDS, you can allow teachers to manually update students’ parent contact information.  
 
 ### Graph API
 
@@ -94,6 +102,59 @@ If guardian is removed from a *Student's* records, any existing chats involving 
   - To view a sample set of the CSV files, see the [Minimum Required Attributes GitHub files](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes).
   - If you want to automate pulling in the CSV files after the initial sync, read our [CSV File Sync Automation document](/schooldatasync/csv-file-sync-automation).
   - For help with setting up your SDS data sync, reach out to [our customer success team](https://www.microsoft.com/fasttrack?rtc=1) or [open a support ticket](https://edusupport.microsoft.com/support?product_id=data_sync).
+
+### Manually Update Parent Contact Information 
+
+Schools can allow teachers to update manually the parent contact information corresponding to each child.  
+
+1. The teacher opens the parent app for the class inside the class team. 
+
+1. The teacher can add or edit existing parent contact details. To view the educator flow, see [Communicate with guardians in Microsoft Teams](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e). 
+
+1. Once the request is submitted, it is sent to admins for approval. For more information about Approvals app, see [What is Approvals?](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3) and [Manage the Approvals app in Microsoft Teams](approval-admin.md). 
+
+1. Global admins and Teams admins are eligible to approve these requests. To check for admin roles, visit [Azure portal](https://ms.portal.azure.com/#view/Microsoft_AAD_IAM/AllRolesBlade). Search for the administrative role you want to check. Select Assignments from the Manage menu to view who are the admins. 
+
+1. Once the admin approves the request, the teacher can start communicating with parents using the newly updated contact details.
+
+Both SDS and manually supplied parent information are stored in the substrate eventually. However, before the parent data approval request submitted by the educator is approved, in the interim, the data will be stored in Approval’s store (Dataverse). 
+
+If your school uses both SDS and manual ingestion, you may want to note the following points: 
+
+1. Manually updated information for parent contact details doesn't update the SDS contact information. It also doesn't update or tamper with the information stored in the SIS your school is using. 
+
+1. If there's a change in the parent contact details in SDS and is also updated manually, the latest change is considered and stored in the final data storage of the substrate. 
+
+1. If a class teacher or class student is deleted, the parent contact information is **not deleted automatically**. To delete the contact information for parent, see [Delete student information from the Dataverse](#delete-student-information-from-the-dataverse). If a teacher leaves the school, the teacher's pending requests will still persist and can be approved or rejected by the admins. 
+
+#### Delete student information from the Dataverse
+
+To delete student data stored in the Dataverse:
+
+1. Sign in to [https://make.powerapps.com](https://make.powerapps.com).
+
+1. In the left panel, navigate to **Tables** under **Data**.
+
+    :::image type="content" source="media/delete-data-verse/delete-student-1.png" alt-text="Screenshot of selecting tables from Power Automate." lightbox="media/delete-data-verse/delete-student-1.png":::
+
+1. Under **Tables**, select the **All** tab, and then select the **Approval** table.
+
+    :::image type="content" source="media/delete-data-verse/delete-student-2.png" alt-text="Screenshot of Tables view." lightbox="media/delete-data-verse/delete-student-2.png"::: 
+
+1. In the **Approvals** table, add the **Partner Id Hash** column.
+
+    :::image type="content" source="media/delete-data-verse/delete-student-3.png" alt-text="Screenshot of Approvals table." lightbox="media/delete-data-verse/delete-student-3.png":::
+
+1. Select the **Partner Id Hash** dropdown and select **Filter by**.
+1. In the **Filter by window**, enter **student object ID** in the field, and select **Apply**.
+
+    :::image type="content" source="media/delete-data-verse/delete-student-4.png" alt-text="Screenshot of student id column." lightbox="media/delete-data-verse/delete-student-4.png":::
+
+1. From the displayed list, select the rows of student data to be deleted.
+
+    :::image type="content" source="media/delete-data-verse/delete-student-5.png" alt-text="Screenshot of displayed data." lightbox="media/delete-data-verse/delete-student-5.png":::
+
+For more questions, see [aka.ms/parentFeedback](https://aka.ms/parentFeedback).
 
 ### Teams admin center policies
 
@@ -169,28 +230,22 @@ Here are the steps to turn on external access for parents and guardians.
 
 Since all user-level external access policies have `EnableTeamsConsumerAccess` set to true by default, if you would like to adjust the `EnableTeamsConsumerAccess` setting for specific users, you can create/modify existing external access policies with adjusted settings and/or reassign users to new or existing policies using the following PowerShell cmdlets:
 
-- Create a new external access policy: [New-CsExternalAccessPolicy](/powershell/module/skype/new-csexternalaccesspolicy)
+- Create a new external access policy: [New-CsExternalAccessPolicy](/powershell/module/teams/new-csexternalaccesspolicy)
 
-- Customize an existing external access policy (including the 'Global' policy): [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy)
+- Customize an existing external access policy (including the 'Global' policy): [Set-CsExternalAccessPolicy](/powershell/module/teams/set-csexternalaccesspolicy)
 
 > [!NOTE]
 > The following subscription default policies cannot be modified: 'FederationAndPICDefault', 'FederationOnly', 'NoFederationAndPIC'. The 'FederationAndPICDefault' policy used to be assigned to all users by default, however new users are now assigned the 'Global' policy by default. If you need to change the policy settings for users who have these subscription default policies assigned, assign different policies with the correct settings to these users.
 
-- Assign an external access policy to a single user: [Grant-CsExternalAccessPolicy](/powershell/module/skype/grant-csexternalaccesspolicy)
+- Assign an external access policy to a single user: [Grant-CsExternalAccessPolicy](/powershell/module/teams/grant-csexternalaccesspolicy)
 
 - Assign a policy to a set of users: [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
 Once the user-level external access policies are set correctly for the users in your tenant, you can turn on the tenant-level setting (`AllowTeamsConsumer`) for the tenant using the following cmdlet:
 
-- Set the federation configuration settings for your tenant: [Set-CsTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration)
+- Set the federation configuration settings for your tenant: [Set-CsTenantFederationConfiguration](/powershell/module/teams/set-cstenantfederationconfiguration)
 
-## Turn on the Parents app in the Teams admin center
 
-The Parents app is turned off by default, so class team owners won't see it in their class teams until it's allowed through the Teams admin center. The Parents app is turned on in the Teams admin center using [Allow apps blocked by developers](manage-apps.md#allow-and-block-apps).
-
-At any time, the app can be turned off at the tenant level using [Allow and block apps](manage-apps.md#allow-and-block-apps) in the Teams admin center. If it's turned off at the tenant level, it will be blocked for all users, even if user-level permissions are turned on.
-
-The Parents app can also be turned off at the user level using [Manage app permission policies in Microsoft Teams](teams-app-permission-policies.md).
 
 ## Set a preferred invitation channel
 
@@ -240,5 +295,8 @@ Messages sent to parents and guardians will be in plain text, without HTML, form
 
 ## More information
 
-- [CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy)
-- [CsTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration)
+- [CsExternalAccessPolicy](/powershell/module/teams/set-csexternalaccesspolicy)
+- [CsTenantFederationConfiguration](/powershell/module/teams/set-cstenantfederationconfiguration)
+
+
+  

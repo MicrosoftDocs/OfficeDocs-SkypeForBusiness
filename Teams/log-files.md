@@ -1,9 +1,9 @@
 ---
 title: Configure log files for monitoring and troubleshooting in Teams
 ms.reviewer: tejeshs
-author: CarolynRowe
-ms.author: crowe
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.date: 05/06/2021
 audience: admin
 ms.topic: troubleshooting
@@ -117,6 +117,11 @@ Media logging is turned on by default for computers if your CPU is:
 Otherwise, it is turned off by default. There are two ways to log diagnostic data for Teams meetings:
 - Admin configuration - you can manage Media logs for your end users
 - End user configuration - your end users can turn on Media logs
+
+> [!NOTE]
+> Media logs are not available on WebRTC-based platforms (Teams Browser clients and Classic Teams for VDI with optimized media). 
+> Please see [Browser logs and tracing for Teams](/microsoftteams/browser-logs-and-tracing-for-teams) for instructions on gathering additional WebRTC logs on Browser clients.
+> Please contact your VDI provider for instructions on gathering WebRTC logs when using [Teams for VDI](/microsoftteams/teams-for-vdi).
 
 ### Admin configuration
 

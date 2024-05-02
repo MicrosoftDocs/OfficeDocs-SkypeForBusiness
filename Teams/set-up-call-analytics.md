@@ -1,9 +1,9 @@
 ---
 title: "Set up call analytics for Microsoft Teams"
-author: CarolynRowe
-ms.author: crowe
-manager: serdars
-ms.reviewer: mikedav, vkorlep
+author: mkbond007
+ms.author: mabond
+manager: pamgreen
+ms.reviewer: mikedav
 ms.date: 11/28/2017
 ms.topic: article
 ms.assetid: fbf7247a-84ae-46cc-9204-2c45b1c734cd
@@ -11,6 +11,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 search.appverid: MET150
 audience: Admin
@@ -36,13 +37,13 @@ When you're ready to start using per-user call analytics, read [Use per-user cal
   
 ## Give permission to support and helpdesk staff
 
-As the Teams admin, you have full access to call analytics information for all users. We've created some specialized Azure Active Directory roles that you can assign to support staff and helpdesk agents so they can also access per-user call analytics (without having access to the rest of the Teams admin center). Assign the **Teams communications support specialist** role to users who should have a limited view of per-user call analytics (Tier 1 support). Assign the **Teams communications support engineer** role to users who need full access to per-user call analytics (Tier 2 support). Neither role has access to the rest of the Teams admin center.
+As the Teams admin, you have full access to call analytics information for all users. We've created some specialized Microsoft Entra roles that you can assign to support staff and helpdesk agents so they can also access per-user call analytics (without having access to the rest of the Teams admin center). Assign the **Teams communications support specialist** role to users who should have a limited view of per-user call analytics (Tier 1 support). Assign the **Teams communications support engineer** role to users who need full access to per-user call analytics (Tier 2 support). Neither role has access to the rest of the Teams admin center.
 
 To learn what each of these roles does, read [What does each Teams Support role do](use-call-analytics-to-troubleshoot-poor-call-quality.md#what-does-each-teams-support-role-do)?
 
-For more information about Teams admin roles, see [Use Teams admin roles to manage Teams](using-admin-roles.md). To learn how to assign admin roles in Azure Active Directory, see [View and assign roles in Azure Active Directory](/Azure/active-directory/users-groups-roles/directory-manage-roles-portal).
+For more information about Teams admin roles, see [Use Teams admin roles to manage Teams](using-admin-roles.md). To learn how to assign admin roles in Microsoft Entra ID, see [View and assign roles in Microsoft Entra ID](/Azure/active-directory/users-groups-roles/directory-manage-roles-portal).
 
-To learn how to assign administrative roles in Azure Active Directory, see [View and assign roles in Azure Active Directory](/azure/active-directory/users-groups-roles/directory-manage-roles-portal).
+To learn how to assign administrative roles in Microsoft Entra ID, see [View and assign roles in Microsoft Entra ID](/azure/active-directory/users-groups-roles/directory-manage-roles-portal).
 
 ## Upload a .tsv or .csv file to add building, site, and tenant information
 

@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 04/12/2022
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: anwara
+ms.reviewer: 
 audience: admin
 description: An overview of Microsoft Teams security and compliance features including privacy and encryption, auditing and reporting, and more.
 ms.localizationpriority: medium
@@ -15,6 +15,8 @@ ms.collection:
   - M365-collaboration
   - remotework
   - purview-compliance
+  - essentials-security
+  - essentials-compliance
 f1.keywords:
   - CSH
 ms.custom: 
@@ -77,7 +79,7 @@ Secure Score helps organizations:
 
 Microsoft Teams relies heavily on Exchange Online, SharePoint, and Skype for Business Online for core productivity scenarios, like meetings, calendars, interop chats, and file sharing. Conditional access policies that are set for these cloud apps apply to Microsoft Teams when a user directly signs in to Microsoft Teams - on any client.
 
-Microsoft Teams is supported separately as a cloud app in Azure Active Directory conditional access policies. Conditional access policies that are set for the Microsoft Teams cloud app apply to Microsoft Teams when a user signs in. However, without the correct policies on other apps like Exchange Online and SharePoint, users may still be able to access those resources directly. For more information about setting up a conditional access policy in the Azure portal, see [Azure Active Directory Quickstart](/azure/active-directory/active-directory-conditional-access-azure-portal-get-started).
+Microsoft Teams is supported separately as a cloud app in Microsoft Entra Conditional Access policies. Conditional access policies that are set for the Microsoft Teams cloud app apply to Microsoft Teams when a user signs in. However, without the correct policies on other apps like Exchange Online and SharePoint, users may still be able to access those resources directly. For more information about setting up a conditional access policy in the Azure portal, see [Microsoft Entra Quickstart](/azure/active-directory/active-directory-conditional-access-azure-portal-get-started).
 
 Microsoft Teams desktop clients for Windows and Mac support modern authentication. Modern authentication brings sign-in based on the Azure Active Directory Authentication Library (ADAL) to Microsoft Office client applications across platforms.
 
@@ -114,7 +116,7 @@ Using Customer Key at the tenant level, Customer Key encrypts:
 - Teams media messages (images, code snippets, videos, and wiki images)
 - Teams call and meeting recordings stored in Teams storage
 - Teams chat notifications
-- Teams chat suggestions by Cortana
+- Teams chat suggestions
 - Teams status messages
 
 For more information, see [Overview of Customer Key at the tenant level](/microsoft-365/compliance/customer-key-tenant-level) and read the Microsoft Teams blog that covers [Customer Key support for Microsoft Teams now in Public Preview](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893). 
@@ -174,11 +176,11 @@ At Microsoft, protecting your data is our highest priority. To learn about our p
 
 The following figure indicates the ingestion flow of Teams data to both Exchange and SharePoint for Teams Files and Messages.
 
-![Diagram of the workflow of Teams data to Exchange and SharePoint.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
+:::image type="content" alt-text="Diagram of the workflow of Teams data to Exchange and SharePoint." source="media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png" lightbox="media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png":::
 
 The following figure indicates the ingestion flow of Teams Meetings and calling data to Exchange.
 
-![Diagram of the workflow of Teams Meetings and calling data to Exchange.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1a.png)
+:::image type="content" alt-text="Diagram of the workflow of Teams Meetings and calling data to Exchange." source="media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1a.png" lightbox="media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1a.png":::
 
 > [!IMPORTANT]
 > There can be up to a 24-hour delay to discover Teams content.
@@ -194,11 +196,11 @@ For information on determining the licensing needs to implement features for sec
 
 ## Location of data in Teams
 
-Data in Teams resides in the geographic region associated with your Microsoft 365 or Office 365 organization. To see what regions are supported currently, please review [Location of data in Microsoft Teams](location-of-data-in-teams.md).
+Data in Teams resides in the geographic region associated with your Microsoft 365 or Office 365 organization. To see what regions are supported currently, please review [Location of data in Microsoft Teams](privacy/location-of-data-in-teams.md).
 
 If you need to see which region houses data for your tenant, go to the [Microsoft 365 admin center](https://portal.office.com/adminportal/home) > **Settings** > **Organization profile**. Scroll down to **Data location**.
 
-![Screenshot of Data location table including Teams in the admin center.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
+:::image type="content" alt-text="Screenshot of Data location table including Teams in the admin center." source="media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png":::
 
 ## Compliance standards
 

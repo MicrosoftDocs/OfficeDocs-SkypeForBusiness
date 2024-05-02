@@ -2,9 +2,9 @@
 ms.date: 03/20/2018
 title: Plan Cloud Voicemail service for on-premises users| PBX Skype for Business Server 2019 
 ms.reviewer: 
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 audience: ITPro
 f1.keywords:
 - NOCSH

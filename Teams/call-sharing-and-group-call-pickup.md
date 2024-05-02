@@ -1,9 +1,9 @@
 ---
 title: "Call sharing and group call pickup"
-author: CarolynRowe
-ms.author: crowe
-manager: serdars
-ms.date: 02/19/2019
+author: mkbond007
+ms.author: mabond
+manager: pamgreen
+ms.date: 12/12/2023
 ms.reviewer: jenstr
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 audience: Admin
 appliesto: 
@@ -37,7 +38,7 @@ Group call pickup is less disruptive to recipients than other forms of call shar
 
 ## License required
 
-Users must be assigned a Microsoft Teams Phone System license to set up and use call sharing and group call pickup. For additional details on the licensing model, see [Here's what you get with Phone System](/MicrosoftTeams/here-s-what-you-get-with-phone-system).
+Users must be assigned a Microsoft Teams Phone license to set up and use call sharing and group call pickup. For additional details on the licensing model, see [Here's what you get with Teams Phone](/MicrosoftTeams/here-s-what-you-get-with-phone-system).
 
 ## Limitations
 
@@ -47,13 +48,32 @@ Note that mobile devices will only get notified if they're set for banner and ri
 
 ## Enable the use of group call pickup
 
-You enable call groups by configuring the **TeamsCallingPolicy AllowCallGroups** setting for a user. You can use Teams admin center or PowerShell. When enabled, the user can configure their call groups in the Teams client. 
+You enable call groups by configuring the **TeamsCallingPolicy AllowCallGroups** setting for a user. You can use Teams admin center or PowerShell. When enabled, the user can configure their call groups in the Teams client.
 
-Important: When you turn off call groups for users, you must clean up the call group relationships for users in the Teams admin center to avoid incorrect call routing. 
+> [!IMPORTANT]
+> When you turn off call groups for users, you must clean up the call group relationships for users in the Teams admin center to avoid incorrect call routing.
 
 ## Use Teams admin center
 
-To configure group call pickup for users by using Teams admin center, see [Configure call settings for your users](/MicrosoftTeams/user-call-settings).
+You can use the Teams admin center to configure group call pickup for your users.
+
+To configure immediate call forward settings:
+
+1. In the Teams admin center, go to **Users** > **Manage users** and select a user.
+
+1. On the user details page, go to the **Voice** tab.
+
+1. Under **Call answering rules**, you can select either:
+    - **Ring user's devices** and select **Group call pickup** from the **Also allow** dropdown
+    - **Be immediately forwarded** and select **Group call pickup** from the **Call forward type** dropdown
+
+1. Select **Manage call group** and select **Add people** to add the appropriate users to the call group.
+
+1. For each user in the call group, select the type of notification that the user will see when they get an incoming call. **Ring** is the default notification type.
+
+1. From the dropdown, select the appropriate call group order.
+
+1. Select **Save**.
 
 ## Use PowerShell
 
@@ -63,7 +83,7 @@ To configure call groups for users, use the following Teams PowerShell Module cm
 
 - [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings)
 
-### Examples
+### PowerShell examples
 
 The following example creates a call group for user1@contoso.com with the members user2@contoso.com and user3@contoso.com, and
 sets immediate call forwarding to the call group for user1@contoso.com:
@@ -84,12 +104,12 @@ $cgt.Remove("sip:user6@contoso.com")
 Set-CsUserCallingSettings -Identity user1@contoso.com -CallGroupOrder $ucs.CallGroupOrder -CallGroupTargets $cgt
 ```
 
-## More information
+## Related articles
 
-[Call forwarding and simultaneous ring in Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)
+[Call forwarding and simultaneous ring in Teams](https://support.office.com/article/a88da9e8-1343-4d3c-9bda-4b9615e4183e)
 
-[Teams calling policy](/MicrosoftTeams/teams-calling-policy)
+[Configure calling policies](/MicrosoftTeams/teams-calling-policy)
 
-[New-CsTeamsCallingPolicy](/powershell/module/skype/new-csteamscallingpolicy)
+[New-CsTeamsCallingPolicy](/powershell/module/teams/new-csteamscallingpolicy)
 
-[Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
+[Set-CsTeamsCallingPolicy](/powershell/module/teams/set-csteamscallingpolicy)

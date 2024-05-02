@@ -3,7 +3,7 @@ title: Security guide for Microsoft Teams overview
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
-ms.date: 07/25/2023
+ms.date: 10/30/2023
 ms.topic: reference
 ms.service: msteams
 audience: admin
@@ -16,6 +16,7 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - remotework
+  - essentials-security
 ms.custom: 
 - Security
 appliesto: 
@@ -90,24 +91,39 @@ Spim is unsolicited commercial instant messages or presence subscription request
 
 A virus is a unit of code whose purpose is to reproduce more, similar code units. To work, a virus needs a host, such as a file, email, or program. Like a virus, a worm is a unit of code that reproduces more, similar code units, but that unlike a virus doesn't need a host. Viruses and worms primarily show up during file transfers between clients or when URLs are sent from other users. If a virus is on your computer, it can, for example, use your identity and send instant messages on your behalf. Standard client security best practices such as periodically scanning for viruses can mitigate this issue.
 
+## Phishing attempts
+
+Phishing attacks in Teams are costly monetarily and to peace of mind. These attacks operate by means of tricking users into revealing information such as passwords, codes, credit card numbers, and other critical information, through fake website links, and attachments that appear innocuous but can download dangerous software on click. Because many of these attacks target users, even high value targets with a lot of access, they can be pervasive. However, there are anti-phishing strategies for both Teams administrators and users.
+
+- [There are security Best Practices for Teams that everyone should know about and use](/MicrosoftTeams/teams-security-best-practices-for-safer-messaging)
+    - [Users can learn how to spot and protect themselves from phishing](https://support.microsoft.com/en-us/windows/protect-yourself-from-phishing-0c7ea947-ba98-3bd9-7184-430e1f860a44)
+ 
+- If a user in your organization received a phishing message from an external sender, tenant admins can [remove this message from the user's view by using the graph API 'RemoveAllAccessForUser'](security-remove-external-chat.md).
+
+- [Microsoft Defender for Office 365 also secures Teams](/microsoft-365/security/office-365-security/mdo-support-teams-about)
+    - [Attack Simulation helps admins train Teams users and protect the vulnerable](/microsoft-365/security/office-365-security/attack-simulation-training-teams)
+    - [And there is suspicious message reporting available for Teams users](/microsoft-365/security/office-365-security/submissions-teams)
+
 ## Security Framework for Teams
 
 Teams endorses security ideas like Zero Trust, and principles of Least Privilege access. This section gives an overview of fundamental elements that form a security framework for Microsoft Teams.
 
 Core elements are:
 
-- Azure Active Directory (Azure AD), which provides a single trusted back-end repository for user accounts. User profile information is stored in Azure AD through the actions of Microsoft Graph.
+- Microsoft Entra ID, which provides a single trusted back-end repository for user accounts. User profile information is stored in Microsoft Entra ID through the actions of Microsoft Graph.
   - There may be multiple tokens issued which you may see if tracing your network traffic. Including Skype tokens you might see in traces while looking at chat and audio traffic.
-- Transport Layer Security (TLS) encrypts the channel in motion. Authentication takes place using either mutual TLS (MTLS), based on certificates, or using Service-to-Service authentication based on Azure AD.
+- Transport Layer Security (TLS) encrypts the channel in motion. Authentication takes place using either mutual TLS (MTLS), based on certificates, or using Service-to-Service authentication based on Microsoft Entra ID.
 - Point-to-point audio, video, and application sharing streams are encrypted and integrity checked using Secure Real-Time Transport Protocol (SRTP).
 - You will see OAuth traffic in your trace, particularly around token exchanges and negotiating permissions while switching between tabs in Teams, for example to move from Posts to Files. For an example of the OAuth flow for tabs, [see this document](/microsoftteams/platform/tabs/how-to/authentication/auth-flow-tab).
 - Teams uses industry-standard protocols for user authentication, wherever possible.
 
 The next sections discuss some of these core technologies.
 
-### Azure Active Directory
+<a name='azure-active-directory'></a>
 
-Azure Active Directory functions as the directory service for Microsoft 365 and Office 365. It stores all user and application directory information and policy assignments.
+### Microsoft Entra ID
+
+Microsoft Entra ID functions as the directory service for Microsoft 365 and Office 365. It stores all user and application directory information and policy assignments.
 
 ### Traffic Encryption in Teams
 
@@ -163,20 +179,20 @@ Teams uses FIPS compliant algorithms for encryption key exchanges. For more info
 
 ### User and Client Authentication
 
-A trusted user is one whose credentials have been authenticated by Azure AD in Microsoft 365 or Office 365.
+A trusted user is one whose credentials have been authenticated by Microsoft Entra ID in Microsoft 365 or Office 365.
 
 Authentication is the provision of user credentials to a trusted server or service. Teams uses the following authentication protocols, depending on the status and location of the user.
 
 - **Modern Authentication (MA)** is the Microsoft implementation of OAUTH 2.0 for client to server communication. It enables security features such as multifactor authentication and Conditional Access. To use MA, both the online tenant and the clients need to be enabled for MA. The Teams clients across PC and mobile, and the web client, [all support MA](./sign-in-teams.md).
 
 > [!NOTE]
-> If you want more information on Azure AD authentication and authorization methods, this article's Introduction and 'Authentication basics in Azure AD' sections will help.
+> If you want more information on Microsoft Entra authentication and authorization methods, this article's Introduction and 'Authentication basics in Microsoft Entra ID' sections will help.
 
-Teams authentication is accomplished through Azure AD and OAuth. The process of authentication can be simplified to:
+Teams authentication is accomplished through Microsoft Entra ID and OAuth. The process of authentication can be simplified to:
 
 - User sign in > token issuance > next request use issued token.
 
-Requests from client to server are authenticated and authorized by Azure AD with the use of OAuth. Users with valid credentials issued by a federated partner are trusted and pass through the same process as native users. However, further restrictions can be put into place by administrators.
+Requests from client to server are authenticated and authorized by Microsoft Entra ID with the use of OAuth. Users with valid credentials issued by a federated partner are trusted and pass through the same process as native users. However, further restrictions can be put into place by administrators.
 
 For media authentication, the ICE and TURN protocols also use the Digest challenge as described in the IETF TURN RFC.
 
@@ -198,93 +214,53 @@ Federation provides your organization with the ability to communicate with other
 
 ## Addressing threats to Teams Meetings
 
-There are two options to control who arrives in Teams meetings and who will have access to the information you present, and two articles to learn more on the topic.
+Enterprise users can create and join real-time meetings and invite external users who don't have a Microsoft Entra ID, Microsoft 365, or Office 365 account, to participate in these meetings.
 
-1. For Organizers: [Using the lobby in Microsoft Teams meetings](https://support.microsoft.com/office/using-the-lobby-in-microsoft-teams-meetings-eaf70322-d771-4043-b595-b40794bac057)
-2. For IT Admins: [Control who can bypass the meeting lobby in Microsoft Teams](who-can-bypass-meeting-lobby.md)
+Letting external users participate in Teams meetings can be useful, but also brings up some security risks. To address these risks, Teams uses these safeguards:
 
-Teams provides the capability for enterprise users to create and join real-time meetings. Enterprise users can also invite external users who don't have an Azure AD, Microsoft 365, or Office 365 account to participate in these meetings. Users who are employed by external partners with a secure and authenticated identity can also join meetings and, if promoted to do so, can act as presenters. Anonymous users can't create or join a meeting as a presenter, but they can be promoted to presenter after they join.
+**Before the meeting:**
 
-For Anonymous users to be able to join Teams meetings, the Participants meetings setting in the Teams Admin Center must be toggled on.
+1. Decide which **external participant types** will be allowed to join your meetings:
 
-> [!NOTE]
-> The term *anonymous users* means users that are not authenticated to the organizations tenant. In this context all external users are considered anonymous. Authenticated users include tenant users and Guest users of the tenant.
+    - [Anonymous access](/microsoftteams/anonymous-users-in-meetings) allows for meeting join of (1) unauthenticated users that are not signed in Team (typically joining through the meeting link in browser) **and** (2) authenticated users from external tenants that don’t have established External access with the organizer and your org.
 
-Enabling external users to participate in Teams meetings can be useful, but entails some security risks. To address these risks, Teams uses the following safeguards:
+    - Through [External access](/microsoftteams/trusted-organizations-external-meetings-chat?tabs=organization-settings) you can decide which authenticated external users and organizations will be able to join your meetings with more privileges. These users are considered to belong to trusted organizations.
 
-- Participant roles determine meeting control privileges.
-- Participant types allow you to limit access to specific meetings.
-- Scheduling meetings is restricted to users who have an AAD account and a Teams license.
-- Anonymous, that is, unauthenticated, users who want to join a dial-in conference, dial one of the conference access numbers. If the "Always allow callers to bypass the lobby" setting is turned *On* then they also need to wait until a presenter or authenticated user joins the meeting.
-
-  > [!CAUTION]
-  > See [Control who can bypass the meeting lobby in Microsoft Teams](who-can-bypass-meeting-lobby.md) for details.
-
-It's also possible for an organizer to configure settings to let Dial-in callers be the first person in a meeting. This setting is configured in the Audio Conferencing settings for users and would apply to all meetings scheduled by the user.
+    - [Guest access](/microsoftteams/guest-access) allows you create guest accounts for people outside of your org to have access to teams, documents in channels, resources, chats, and applications while maintaining control over your corporate data.
 
 > [!NOTE]
-> For more information on Guest and External Access in Teams, see this [article](./communicate-with-users-from-other-organizations.md). It covers what features guest or external users can expect to see and use when they login to Teams. <p> If you're recording meetings and want to see a permissions matrix around accessing the content, consult [this article](./tmr-meeting-recording-change.md) and its matrix.
+> Users and orgs that don’t have external access with your org will be considered anonymous. In case you’ve blocked anonymous join they won’t be able to join your meetings.
+>
+> External access needs to be enabled bi-directionally, both organizations need to allow for mutual External access.
+>
 
-### Roles in a Teams meeting
-
-Meeting participants fall into groups, each with its own privileges and restrictions. For details on this topic see:
-
-[Roles in Microsoft Teams meetings](https://support.microsoft.com/office/roles-in-microsoft-teams-meetings-c16fa7d0-1666-4dde-8686-0a0bfe16e019)
+> [!NOTE]
+> For more information on Guest and External Access in Teams, see [this article](/microsoftteams/communicate-with-users-from-other-organizations). It covers what features guest or external users can expect to see and use when they login to Teams.
 
 
-For information on anonymous and external users see:
+2. Decide who can join the meeting directly and who will need to wait in the Lobby to be admitted by Organizer, co-organizer or authenticated users with Presenter meeting role:
 
-[Manage anonymous participant access to Teams meetings (IT admins)](anonymous-users-in-meetings.md)
+    - [IT Admin’s controls](/microsoftteams/who-can-bypass-meeting-lobby)
+    - [Organizer’s controls](https://support.microsoft.com/office/using-the-lobby-in-microsoft-teams-meetings-eaf70322-d771-4043-b595-b40794bac057)
 
-[Plan for meetings with external participants in Microsoft Teams](plan-meetings-external-participants.md)
+3. Decide if anonymous users and dial-in callers can start a meeting before users from your org, users from trusted org and users with guest access joins the call.
 
-### Participant types
+> [!NOTE]
+> Scheduling meetings is restricted to authenticated users from your org or users with guest access to your org.
 
-Meeting participants are also categorized by location and credentials. You can use both of these characteristics to decide which users can have access to specific meetings. Users can be divided broadly into the following categories:
+**During the meeting:**
 
-- **Users that belong to the tenant**. These users have a credential in Azure Active Directory for the tenant.
+1. Assign specific **participant meeting roles** to determine meeting control privileges. Meeting participants fall into groups, each with its own privileges and restrictions, [outlined here](https://support.microsoft.com/en-gb/office/roles-in-microsoft-teams-meetings-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
 
-    *People in my organization* – These users have a credential in Azure Active Directory for the tenant. *People in my organization* includes invited Guest accounts.
+> [!NOTE]
+> If you're recording meetings and want to see a permissions matrix around accessing the content, consult [this article](/microsoftteams/tmr-meeting-recording-change) and its matrix.
 
-    *Remote users* – These users are joining from outside the corporate network. They can include employees who are working at home or on the road, and others, such as employees of trusted vendors, who have been granted enterprise credentials for their terms of service. Remote users can create and join meetings and act as presenters.
+**Modify while the meeting is running:**
 
-- **Users that don't belong to the tenant**. These users do not have credentials in Azure AD for the tenant.
+- You can [modify the meeting options](https://support.microsoft.com/en-us/office/meeting-options-in-microsoft-teams-53261366-dbd5-45f9-aae9-a70e6354f88e#bkmk_change_meeting_options) while a meeting is on-going. The change, when it's saved, will be noticeable in the running meeting within seconds. It also affects any future occurrences of the meeting. For details on how to assign these roles, [read this article](https://support.microsoft.com/en-us/office/meeting-options-in-microsoft-teams-53261366-dbd5-45f9-aae9-a70e6354f88e#bkmk_change_meeting_options).
 
-    *Trusted org users* - Users from trusted organizations (as configured in [External access](trusted-organizations-external-meetings-chat.md)) have valid credentials with other Microsoft 365 organizations and are therefore treated as authenticated by Teams, but are still external to the meeting organizer tenant. Users from trusted organizations can join meetings and be promoted to presenters after they have joined the meeting, but they can't create meetings in your organization.
-
-    *[Anonymous Users](anonymous-users-in-meetings.md)* - Anonymous users do not have an Active Directory identity or their identity is not from trusted organizations.
-
-Many meetings involve external users. Those same customers also want reassurance about the identity of external users before allowing those users to join a meeting. The next section describes how Teams limits meeting access to those user types that have been explicitly allowed, and requires all user types to present appropriate *credentials* when entering a meeting.
-
-### Participant admittance
-
-> [!CAUTION]
-> If you do not want Anonymous users to join a meeting, you need to ensure the **Anonymous users can join a meeting** is set to **Off** for the organizer's meeting policy.
-
-In Teams, anonymous users can be transferred to a waiting area called the lobby. Presenters can then either *admit* these users into the meeting or *reject* them. When these users are transferred to the lobby, the presenter and attendees are notified, and the anonymous users must then wait until they are either accepted or rejected, or their connection times out.
-
-By default, participants dialing in from the PSTN go directly to the meeting once an authenticated user joins the meeting, but this option can be changed to force dial-in participants to go to the lobby.
-
-Meeting organizers control whether participants can join a meeting without waiting in the lobby. Each meeting can be set up to enable access using any one of the following methods:
-
-The defaults are:
-
-- *People in my Organization* - Everyone external to the organization will wait in the lobby until admitted.
-- *People in my organization, trusted organizations, and guests* - Authenticated users within the organization, including guest users and users from trusted organizations, join the meeting directly without waiting in the lobby. Anonymous users wait in the lobby.
-- *Everyone* - All meeting participants bypass the lobby once an authenticated user has joined the meeting.
-
-### Presenter capabilities
-
-Meeting organizers control whether participants can present during a meeting. Each meeting can be set up to limit presenters to any one of the following options:
-
-- *People in my organization* - All in tenant users, including guests, can present
-- *People in my organization and trusted organizations* - All in tenant users, including guests, can present and external users from Teams and Skype for Business domains that are in the external access allowlist can present.  
-- *Everyone* - All meeting participants are presenters.
-
-### Modify while meeting is running
-
-You can modify the meeting options while a meeting is on-going. The change, when saved, will be noticeable in the running meeting within seconds. It also affects any future occurrences of the meeting.
-
+> [!NOTE]
+> Changes in Teams admin settings can take up to 24 hours.
 ## Related topics
 
 [Top 12 tasks for security teams to support working from home](/microsoft-365/security/top-security-tasks-for-remote-work)
@@ -294,4 +270,3 @@ You can modify the meeting options while a meeting is on-going. The change, when
 [Optimize Microsoft 365 or Office 365 connectivity for remote users using VPN split tunneling](/Office365/Enterprise/office-365-vpn-split-tunnel)
 
 - [Implementing VPN split tunneling](/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
-

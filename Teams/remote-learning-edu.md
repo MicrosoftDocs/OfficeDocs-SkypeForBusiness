@@ -1,12 +1,12 @@
 ---
 title: Get started with Microsoft Teams for remote learning
-author: DaniEASmith
-ms.author: danismith
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jacktremper
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: karsmith, lakuan
+ms.reviewer: lakuan
 ms.date: 03/03/2020
 description: Remote learning startup guidance for Microsoft Teams for EDU.
 ms.localizationpriority: high
@@ -144,7 +144,7 @@ SDS can import data from any system of record and has built-in connectors to man
 
 SDS creates teams in two steps:
 
-1. SDS creates a Microsoft 365 group in Azure Active Directory (Azure AD).
+1. SDS creates a Microsoft 365 group in Microsoft Entra ID.
 2. SDS automatically turns that group into a team.
 
 The second step of creating teams is optional in SDS. An admin may not want to automatically create teams depending on deployment time and the number of unused teams that may result. Instead, see the [Educator-led team creation method](#educator-led-team-creation-from-microsoft-365-class-groups).  
@@ -200,7 +200,7 @@ You can also use the [Microsoft Graph API to create, configure, clone, and archi
 
 - Gives IT admins control over class creation.
 - Option to create early educator access teams or immediate student access to teams.
-- [Syncs student membership changes to Azure AD group](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true).
+- [Syncs student membership changes to Microsoft Entra group](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true).
 
 #### Considerations for PowerShell scripts
 
@@ -209,7 +209,7 @@ You can also use the [Microsoft Graph API to create, configure, clone, and archi
 - Membership changes aren't synced with SIS.
 
 > [!NOTE]
-> Class teams require hidden group membership so only educators and students within the class can see the members of that class. To create an Microsoft 365 class group, see [Create a class team](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true) to meet the privacy requirements.
+> Class teams require hidden group membership so only educators and students within the class can see the members of that class. To create a Microsoft 365 class group, see [Create a class team](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true) to meet the privacy requirements.
 
 ### Manual team creation
 

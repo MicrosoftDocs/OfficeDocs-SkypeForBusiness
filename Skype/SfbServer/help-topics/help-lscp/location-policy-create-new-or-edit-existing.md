@@ -14,23 +14,23 @@ ms.custom:
 ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
-description: "You can configure Location policies to determine whether Enhanced 9-1-1 (E9-1-1) is enabled and how it is used, as well as how location information is used for users and contacts."
+description: "You can configure Location policies to determine whether Enhanced 9-1-1 (E9-1-1) is enabled and how it's used, as well as how location information is used for users and contacts."
 ---
 
 # Location Policy: Create New or Edit Existing
 
-You can configure Location policies to determine whether Enhanced 9-1-1 (E9-1-1) is enabled and how it is used, as well as how location information is used for users and contacts.
+You can configure Location policies to determine whether Enhanced 9-1-1 (E9-1-1) is enabled and how it's used, as well as how location information is used for users and contacts.
 
 ## UI Reference
 
 The following list describes the fields on the page.
 
-- **Scope** Identifies the scope of the location policy that you are creating or modifying: global, site, or user.
+- **Scope** Identifies the scope of the location policy that you create or modify: global, site, or user.
 
-- **Name** Each location policy requires a name. Global and site location policies are named by default, and the name cannot be changed. For user location policies, use a descriptive name that identifies the user or group of users.
+- **Name** Each location policy requires a name. Global and site location policies are named by default, and the name can't be changed. For user location policies, use a descriptive name that identifies the user or group of users.
 
     > [!NOTE]
-    > After you save the location policy, the name cannot be changed.
+    > After you save the location policy, the name can't be changed.
 
 - **Enable Enhanced 9-1-1 (E9-1-1)** Select this check box to enable E9-1-1 for users who are assigned this location policy.
 
@@ -38,13 +38,13 @@ The following list describes the fields on the page.
 
   - **Required** Select this option if users are to be prompted for location information when their client registers at a new location. Users can dismiss the prompt without entering location information.
 
-  - **Not required** Select this option if users are not to be prompted for location information.
+  - **Not required** Select this option if users aren't to be prompted for location information.
 
-  - **Disclaimer** Select this option if users are to be prompted for location information, but will see a disclaimer message if they decline the prompt without entering the information. Users can complete an emergency call but no other calls until they enter the location information.
+  - **Disclaimer** Select this option if users are to be prompted for location information, but see a disclaimer message if they decline the prompt without entering the information. Users can complete an emergency call but no other calls until they enter the location information.
 
 - **Use location for E9-1-1 only** Select this check box if location information is to be used only for emergency calls.
 
-- **PSTN usage** Select the public switched telephone network (PSTN) usage that will be used to determine which voice route will be used for routing emergency calls from clients that use this profile. The route associated with this usage should point to a SIP trunk dedicated to emergency calls or to an Emergency Location Identification Number (ELIN) gateway that routes emergency calls to the nearest Public Safety Answering Point (PSAP). Options are **Internal**, **Local**, or **Long distance**.
+- **PSTN usage** Select the public switched telephone network (PSTN) usage that is used to determine which voice route is used for routing emergency calls from clients that use this profile. The route associated with this usage should point to a SIP trunk dedicated to emergency calls or to an Emergency Location Identification Number (ELIN) gateway that routes emergency calls to the nearest Public Safety Answering Point (PSAP). Options are **Internal**, **Local**, or **Long distance**.
 
 - **E9-1-1 dial number** Specify the number that is dialed to reach emergency services.
 

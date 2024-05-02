@@ -2,9 +2,10 @@
 title: Manage the Shifts app for your organization
 author: lana-chin
 ms.author: v-chinlana
-manager: serdars
-ms.date: 09/26/2018
+manager: jtremper
+ms.date: 11/22/2023
 ms.topic: conceptual
+ms.reviewer: imarquesgil
 audience: admin
 ms.service: msteams
 search.appverid: MET150
@@ -22,10 +23,10 @@ ms.collection:
   - microsoftcloud-retail
   - m365-frontline
   - teams-1p-app-admin
-  - tier2
   - highpri
 appliesto: 
   - Microsoft Teams
+  - Microsoft 365 for frontline workers
 ms.custom: seo-marvel-mar2020
 ---
 
@@ -33,12 +34,12 @@ ms.custom: seo-marvel-mar2020
 
 ## Overview of Shifts
 
-The Shifts app in Microsoft Teams keeps frontline workers connected and in sync. It's built mobile first for fast and effective time management and communication for teams. Shifts let frontline workers and their managers use their mobile devices to manage schedules and keep in touch.
+The Shifts app in Microsoft Teams keeps frontline workers connected and in sync. It's built mobile first for fast and effective time management and communication for teams. Frontline workers and their managers can use their mobile devices to manage schedules and keep in touch.
 
-- Managers create, update, and manage shift schedules for teams. They can send messages to one person ("there's a spill on the floor") or the entire team ("the regional GM is arriving in 20 minutes"). They can also send policy documents, news bulletins, and videos.
+- Managers create, update, and manage shift schedules for their teams. They can send messages to one person ("there's a spill on the floor") or the entire team ("the regional GM is arriving in 20 minutes"). They can also send policy documents, news bulletins, and videos.
 - Employees view their upcoming shifts, see who else is scheduled for the day, request to swap or offer a shift, and request time off.
 
-It's important to know that Shifts currently don't support guests. This means that guests on a team can't be added to or use shift schedules when Guest access is turned on in Teams.
+It's important to know that Shifts currently doesn't support guests. This means that guests on a team can't be added to or use shift schedules when Guest access is turned on in Teams.
 
 > [!Note]
 > For details about Shifts capabilities on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
@@ -52,9 +53,9 @@ Shifts is available in all Enterprise SKUs where Teams is available.
 
 ## Location of Shifts data
 
-Shifts data is currently stored in Azure in data centers in Asia Pacific (APAC), the European Union (EU), and North America. For more information about where data is stored, see [Where is my data](https://o365datacentermap.azurewebsites.net/)?
+Shifts data is stored in one of the following region geographies: Asia Pacific (APAC), European Union (EU), or United States. Additionally, Shifts offers data residency locally in Australia, Canada, France, Japan, and the United Kingdom.
 
-To learn more about Shifts data, including storage, retention, retrieval, and encryption of Shifts data, see [Shifts data FAQ](shifts-data-faq.md).
+To learn more about Shifts data, including data storage location, security and compliance, and access control, see [Shifts data FAQ](shifts-data-faq.md).
 
 ## Set up Shifts
 
@@ -62,7 +63,7 @@ To learn more about Shifts data, including storage, retention, retrieval, and en
 
 Shifts is enabled by default for all Teams users in your organization. You can turn off or turn on the app at the org level on the [Manage apps](../../manage-apps.md) page in the Microsoft Teams admin center.
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
+1. In the left navigation of the Teams admin center, go to **Teams apps** > **Manage apps**.
 2. In the list of apps, search for the Shifts app, select it, and then switch the **Status** toggle to **Blocked** or **Allowed**.
 
 ### Enable or disable Shifts for specific users in your organization
@@ -87,7 +88,7 @@ You can create a [custom policy in app setup policy](../../teams-app-setup-polic
 
 A [policy package](../../manage-policy-packages.md) in Teams is a collection of predefined policies and policy settings that you can assign to users who have similar roles in your organization. The set of policies in the Frontline Worker and Frontline Manager policy packages include an app setup policy that pins the Shifts app and other apps that support communication and collaboration activities for that role.
 
-We recommend using the Frontline Worker and Frontline Manager policy packages as they simplify, streamline, and help provide consistency when managing policies for your frontline workforce.
+We recommend using the Frontline Worker and Frontline Manager policy packages as they simplify, streamline, and help provide consistency when managing policies for your frontline workforce. To learn more, see [Teams policy packages for frontline workers](../../policy-packages-flw.md).
 
 ### Enable shift-based tags in Teams
 
@@ -104,16 +105,15 @@ You can turn the feature on or off in the Microsoft Teams admin center. To learn
 
 You can search the audit log to view Shifts activity in your organization.  To learn more about how to search the audit log and to see a list of [Shifts activities](../../audit-log-events.md#shifts-in-teams-activities) that are logged in the audit log, see [Search the audit log for events in Teams](../../audit-log-events.md).
 
-Before you can search the audit log, you have to first turn on auditing in the [Security & Compliance Center](https://protection.office.com). To learn more, see [Turn audit log search on or off](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014). Keep in mind that audit data is only available from the point at which you turned on auditing.
+Before you can search the audit log, you have to first turn on auditing in the Microsoft Purview compliance portal. To learn more, see [Turn audit log search on or off](https://support.office.com/article/turn-office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014). Keep in mind that audit data is only available from the point at which you turned on auditing.
 
 ## Give feedback or report an issue
 
-To send feedback, select the **Help** option at bottom of the Teams left navigation bar, and then select **Report a Problem**. Select **Other**, and then enter your feedback or details about the issue you're experiencing. Indicate at the beginning of your feedback report that you're sending feedback about "Shifts" so we can easily identify Shifts issues.
+To send feedback or report an issue, select **Settings and more** (**…**) in Teams, and then choose **Help** > **Give feedback**. Enter your feedback or details about the issue you're experiencing. Indicate at the beginning of your feedback report that you're sending feedback about Shifts so we can easily identify Shifts issues.
 
 ## Related articles
 
 - [Shifts for Teams](/microsoft-365/frontline/shifts-for-teams-landing-page)
-- [Shifts data FAQ](shifts-data-faq.md)
 - [Shifts connectors](/microsoft-365/frontline/shifts-connectors)
 - [Shifts Help for frontline workers](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 - [Assign policies to your users in Teams](../../policy-assignment-overview.md)

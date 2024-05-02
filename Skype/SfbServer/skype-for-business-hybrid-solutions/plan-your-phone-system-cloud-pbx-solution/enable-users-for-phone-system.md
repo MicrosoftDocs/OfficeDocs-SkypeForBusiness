@@ -1,7 +1,7 @@
 ---
 title: "Enable users for Phone System with on-premises PSTN connectivity in Skype for Business Server"
 ms.reviewer: 
-ms.author: crowe
+ms.author: serdars
 author: CarolynRowe
 manager: serdars
 ms.date: 1/27/2018
@@ -38,7 +38,7 @@ This topic describes how to enable users for Phone System with on-premises PSTN 
 
 Before moving your users to Skype for Business Online, it is recommended that you enable your users on premises in Skype for Business Server or Lync Server 2013, and then move them online. For more information, see [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json) and the special considerations section of [Enable the users for Enterprise Voice on premises](enable-the-users-for-enterprise-voice-on-premises.md) (performed while the users are homed on-premises). 
   
-All users must be created in Active Directory on premises and synchronized to Microsoft 365 or Office 365 using the supported version of Azure AD Connector. You cannot enable users for Phone System in Office 365 who were created directly in Azure AD. If you want to enable Phone System with on-premises PSTN connectivity for a user who was created in Azure AD, you'll need to create a new account for that user in your on-premises AD, configure the account on-premises, and then synchronize the account using a supported version of the Azure AD Connector tool. 
+All users must be created in Active Directory on premises and synchronized to Microsoft 365 or Office 365 using the supported version of Microsoft Entra Connector. You cannot enable users for Phone System in Office 365 who were created directly in Microsoft Entra ID. If you want to enable Phone System with on-premises PSTN connectivity for a user who was created in Microsoft Entra ID, you'll need to create a new account for that user in your on-premises AD, configure the account on-premises, and then synchronize the account using a supported version of the Microsoft Entra Connector tool. 
   
 Enabling a user for Phone System with on-premises PSTN connectivity and then moving them to Skype for Business Online requires the following steps:
   
@@ -47,7 +47,5 @@ Enabling a user for Phone System with on-premises PSTN connectivity and then mov
 - [Assign a Voice Routing Policy](assign-a-voice-routing-policy.md) (performed while the users are homed on-premises).
     
 - [Synchronize users to the cloud and assign licenses](../../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json) (performed using Office 365).
-    
-- [Move on-premises users to Skype for Business Online](../../../SfbHybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online.md) (performed using Windows PowerShell on-premises, but using your Office 365 administrator credentials).
     
 - [Enable users for Enterprise Voice online and Phone System Voicemail](enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md) (performed using Remote PowerShell.

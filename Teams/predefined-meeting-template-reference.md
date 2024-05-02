@@ -1,12 +1,12 @@
 ---
-title: Predefined meeting templates included with Microsoft Teams Premium
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+title: Predefined meeting templates in Microsoft Teams
+ms.author: jtremper
+author: jacktremper
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ralphmaamari
-ms.date: 04/10/2023
+ms.reviewer: janineco
+ms.date: 12/08/2023
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
@@ -17,67 +17,80 @@ ms.collection:
   - Tier2
 appliesto: 
   - Microsoft Teams
-description: See a list of meeting templates and their settings included with Microsoft Teams Premium.
+description: See a list of Microsoft Teams meeting templates and their settings.
 ---
 
-# Predefined meeting templates included with Microsoft Teams Premium
+# Predefined meeting templates in Microsoft Teams
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
-The following predefined [meeting templates](custom-meeting-templates-overview.md) are included with Teams Premium. The options in each of these templates can be changed to meet your requirements, or you can [create your own templates](create-custom-meeting-template.md).
+The following predefined meeting templates are available in Teams. You can determine which of these templates are available to your users by using [meeting template policies](manage-meeting-templates.md). 
 
-<!---
-Template
-|Option|Default value|Visibility|Lock status|
-|:-----|:------------|:---------|:----------|
-|***Security***||||
-|Apply sensitivity label||||
-|Lobby||||
-|People calling in by phone can bypass the lobby||||
-|Enable meeting end-to-end encryption||||
-|Enable watermark for screenshare||||
-|Enable watermark for video||||
-|***Audio and video***||||
-|Enable mic for attendees||||
-|Enable camera for attendees||||
-|***Recording and transcription***||||
-|Record meetings automatically||||
-|Who can record meetings||||
-|***Roles***||||
-|Notify when callers join and leave||||
-|***Meeting engagement***||||
-|Allow meeting chat||||
-|Allow reactions||||
-|Enable Q&A||||
-|Manage what attendees see||||
---->
+If your organization has Teams Premium, you can edit these templates (if noted below) or [create your own meeting templates](create-custom-meeting-template.md). You can also configure Teams Premium settings in editable templates and meeting organizers with a Teams Premium license can use those settings in their meetings.
 
 ## Virtual appointment
+
+The Virtual appointment meeting template comes with the following options. You can't edit this template.
 
 |Option|Default value|Visibility|Lock status|
 |:-----|:------------|:---------|:----------|
 |***Security***||||
 |Apply sensitivity label|None|Visible|Unlocked|
-|Lobby|Everyone|Visible|Unlocked|
-|People calling in by phone can bypass the lobby|Off|Visible|Unlocked|
-|Enable meeting end-to-end encryption|Off|Visible|Unlocked|
+|Who can bypass the lobby|Everyone|Visible|Unlocked|
+|People dialing in can bypass the lobby|Off|Visible|Unlocked|
+|End-to-end encryption|Off|Visible|Unlocked|
 |Enable watermark for screenshare|Off|Visible|Unlocked|
 |Enable watermark for video|Off|Visible|Unlocked|
+|Restrict participants from copying or forwarding meeting chat messages|Off|Visible|Unlocked|
 |***Audio and video***||||
-|Enable mic for attendees|On|Visible|Unlocked|
-|Enable camera for attendees|On|Visible|Unlocked|
+|Allow mic for attendees|On|Visible|Unlocked|
+|Allow camera for attendees|On|Visible|Unlocked|
 |***Recording and transcription***||||
 |Record meetings automatically|Off|Visible|Unlocked|
 |Who can record meetings|Only organizers and co-organizers|Visible|Unlocked|
+|Copilot|On with transcript|Visible|Unlocked|
 |***Roles***||||
-|Notify when callers join and leave|Off|Visible|Unlocked|
+|Announce when people dialing in join and leave|Off|Visible|Unlocked|
 |***Meeting engagement***||||
 |Allow meeting chat|On during the meeting only|Visible|Unlocked|
 |Allow reactions|Off|Visible|Unlocked|
 |Enable Q&A|Off|Visible|Unlocked|
 |Manage what attendees see|Off|Visible|Unlocked|
 
+To learn more, see [Manage the Virtual appointment meeting template in Teams](virtual-appointment-meeting-template.md).
+
+## Controlled-content meeting
+
+The controlled-content meeting template comes with the following options. You can edit this template if your organization has Teams Premium.
+
+|Option|Default value|Visibility|Lock status|
+|:-----|:------------|:---------|:----------|
+|***Security***||||
+|Apply sensitivity label|None|Visible|Unlocked|
+|Who can bypass the lobby|People in my org and guests|Visible|Unlocked|
+|People dialing in can bypass the lobby|Off|Visible|Unlocked|
+|End-to-end encryption|Off|Visible|Unlocked|
+|Enable watermark for screenshare|Off|Visible|Unlocked|
+|Enable watermark for video|Off|Visible|Unlocked|
+|Restrict participants from copying or forwarding meeting chat messages|Off|Visible|Unlocked|
+|***Audio and video***||||
+|Allow mic for attendees|On|Visible|Unlocked|
+|Allow camera for attendees|On|Visible|Unlocked|
+|***Recording and transcription***||||
+|Record meetings automatically|Off|Visible|Unlocked|
+|Who can record meetings|Only organizers and co-organizers|Visible|Unlocked|
+|Copilot|On with transcript|Visible|Unlocked|
+|***Roles***||||
+|Announce when people dialing in join and leave|Off|Visible|Unlocked|
+|***Meeting engagement***||||
+|Allow meeting chat|On|Visible|Unlocked|
+|Allow reactions|Off|Visible|Unlocked|
+|Enable Q&A|Off|Visible|Unlocked|
+|Manage what attendees see|Off|Visible|Unlocked|
+
 ## Related topics
+
+[Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md)
 
 [Use Teams meeting templates, sensitivity labels, and admin policies together](meeting-templates-sensitivity-labels-policies.md)
 

@@ -1,21 +1,23 @@
 ---
 title: Find Teams Rooms devices with unsupported licenses 
 ms.author: tonysmit
-author: tonysmit
-manager: serdars
-audience: ITPro
-ms.reviewer: sohailta
-ms.date: 03/18/2023
-ms.topic: quickstart
+author: mstonysmith
+manager: pamgreen
+ms.reviewer: kspiess
+ms.date: 11/02/2023
+ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
+appliesto: 
+  - Microsoft Teams
+ms.collection: 
+  - M365-collaboration
+  - teams-rooms-devices
+  - Tier1
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
-ms.collection: 
-  - Tier1
-  - M365-collaboration
-  - Teams_ITAdmin_Rooms
 description: Learn how to find Teams Rooms devices with unsupported licenses.
 ---
 

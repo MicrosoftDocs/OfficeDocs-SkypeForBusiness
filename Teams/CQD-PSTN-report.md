@@ -1,15 +1,16 @@
 ---
 title: "Using the CQD PSTN Direct Routing report"
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
-ms.reviewer: siunies, fan.fan
+author: CarolynRowe
+ms.author: crowe
+manager: pamgreen
+ms.reviewer: siunies
 ms.date: 03/06/2020
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 search.appverid: MET150
 audience: Admin
@@ -20,6 +21,9 @@ description: "Use the Microsoft Teams Call Quality Dashboard (CQD)) PSTN Direct 
 ---
 
 # Using the CQD PSTN Direct Routing report
+
+> [!WARNING]
+> The CQD PSTN Direct Routing Report template is deprecated and no longer maintained. Please refer to the Quality of Experience Report (QER) templates going forward.
 
 The Microsoft Teams Call Quality Dashboard (CQD) PSTN Direct Routing report is available in our downloadable [Power BI query templates for CQD](https://www.microsoft.com/download/details.aspx?id=102291). 
 
@@ -58,7 +62,7 @@ The CQD PSTN Direct Routing Report has four sections:
 ## PSTN Overview
 
 The CQD PSTN Direct Routing Report provides the following information related to overall health of the service for the past 180 days.
-![Screenshot: PSTN CQD report.](media/CQD-PSTN-report1.png)
+![Screenshot of the summary PSTN health reports.](media/CQD-PSTN-report1.png)
 
 For example, if you are interested in the overall usage and health about all inbound calls going through SBC abc.bca.adatum.biz with US as the internal country/region:
 
@@ -86,7 +90,7 @@ This page provides service usage trends per day and user feedback breakdown by g
 
   - **User Feedback –** "Rate My Call" score comes from the user. 3-5 is considered as a good call. 1-2 is considered as a bad call.
 
-![Screenshot: PSTN CQD report.](media/CQD-PSTN-report2.png)
+![Screenshot of the service usage trends report.](media/CQD-PSTN-report2.png)
 
 For example:
 
@@ -108,15 +112,15 @@ This is the same metric that appears on the Overall Health dashboard. You can ch
 
   - **Number of calls affected** – The total number of calls got affected during the selected time range.
 
-> ![Screenshot: PSTN CQD report.](media/CQD-PSTN-report3.png)
+> ![Screenshot showing the Network Effectiveness Ratio metric.](media/CQD-PSTN-report3.png)
 > 
 For example:
 
-![Screenshot: PSTN CQD report.](media/CQD-PSTN-report4.png)
+![Screenshot showing a dip in Network Effectiveness Ratio and how to filter on a specific date.](media/CQD-PSTN-report4.png)
 
 If Daily NER has a dip on 02/05/2020, you can click on the date and other charts will zoom to that specific date.
 
-![Screenshot: PSTN CQD report.](media/CQD-PSTN-report5.png)
+![Screenshot showing the NER hourly data in the health report.](media/CQD-PSTN-report5.png)
 
 From the NER Good Percentage Hourly Trend, you can find the dip happens around 21:00. Then click again to zoom to hour 21 and check Effected Call Details to see how many calls failed in that hour and what are the call end reasons. You can start with self-trouble shooting on any SBC problems or report to Service Desk if the problem is not related to SBC.
 
@@ -130,13 +134,13 @@ All network parameters are measured from the Direct Routing interface to the Ses
 
   - **Latency** - (Also known as round trip time) is the length of time it takes for a signal to be sent plus the length of time it takes for the acknowledgment of that signal to be received. This time delay consists of the propagation times between the two points of a signal.
 
-> ![Screenshot: PSTN CQD report.](media/CQD-PSTN-report6.png)
+> ![Screenshot showing the network parameters view in the health report.](media/CQD-PSTN-report6.png)
 
 For example:
 
 If you see a spike on any of the four charts (Latency, Jitter, Package Loss Rate, Post Dial Delay) for a specific date, for example, Latency on 02/14/2020, click on the date point. And the hourly trend chart at the bottom will refresh to show the hourly number. You can check the SBCs or raise a ticket with MS Service Desk.
 
-![Screenshot: PSTN CQD report.](media/CQD-PSTN-report7.png)
+![Screenshot showing a hourly view of network quality metrics.](media/CQD-PSTN-report7.png)
 
 
 

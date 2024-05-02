@@ -2,10 +2,13 @@
 title: Assign Teams add-on licenses to users
 author: DaniEASmith
 ms.author: danismith
-manager: serdars
+manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+ms.custom:
+  - has-azure-ad-ps-ref
+  - azure-ad-ref-level-one-done
 ms.collection: 
   - M365-collaboration
   - m365initiative-meetings
@@ -15,7 +18,7 @@ search.appverid: MET150
 f1.keywords: 
   - NOCSH
 ms.reviewer: mikedav
-ms.date: 12/14/2018
+ms.date: 03/26/2024
 description: Learn how to assign Teams add-on licenses to users for capabilities like Audio Conferencing, Phone System, and Calling Plans.
 appliesto: 
   - Microsoft Teams
@@ -52,7 +55,7 @@ You assign licenses on the **Licenses** page (for up to 20 users at a time) or t
 
 For step-by-step instructions, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
 
-If you need to assign licenses for a large number of users, such as hundreds or thousands of users, use PowerShell or [group-based licensing in Azure Active Directory (Azure AD)](/azure/active-directory/users-groups-roles/licensing-groups-assign).
+If you need to assign licenses for a large number of users, such as hundreds or thousands of users, use PowerShell or [group-based licensing in Microsoft Entra ID](/azure/active-directory/users-groups-roles/licensing-groups-assign).
 
 ## Using PowerShell
 
@@ -62,60 +65,78 @@ Use PowerShell to assign licenses to users in bulk. To learn more, see [Assign l
 
 Here's an example of how to use a script to assign licenses to your users.
 
-1. [Install the Microsoft Azure Active Directory Module for Windows PowerShell](/powershell/azure/active-directory/install-msonlinev1).
+1. [Install the Microsoft Graph PowerShell Module](/powershell/microsoftgraph/installation).
 2. At the Windows PowerShell command prompt, run the following script to assign licenses to your users, where `CompanyName:License` is your organization name and the identifier for the license that you want to assign. For example, `litwareinc:MCOMEETADV`.
 
     The identifier is different than the friendly name of the license. For example, the identifier for Audio Conferencing is `MCOMEETADV`. To learn more, see [Product names and SKU identifiers for licensing](#product-names-and-sku-identifiers-for-licensing).
 
-    ```powershell
-    #Create a text file with a single column that lists the user principal names (UPNs) of users to assign licenses to. The MSOL service uses the UPN to license user accounts.
-    #Example of text file:''
-    #user1@domain.com
-    #user2@domain.com
-
-    #Import Module
-    ipmo MSOnline
-
-    #Authenticate to MSOLservice
-    Connect-MSOLService
-    #File prompt to select the userlist txt file
+```powershell
+    # Create a text file with a single column that lists the user principal names (UPNs) of users to assign licenses to. The MSOL service uses the UPN to license user accounts.
+    # Example of text file:
+    # user1@domain.com
+    # user2@domain.com
+    
+    # Import Module
+    Import-Module Microsoft.Graph.Users.Actions
+    
+    # Authenticate to Microsoft Graph
+    Connect-MgGraph
+    
+    # File prompt to select the userlist txt file
     [System.Reflection.Assembly]::LoadWithPartialName("System.windows.forms") | Out-Null
-      $OFD = New-Object System.Windows.Forms.OpenFileDialog
-      $OFD.filter = "text files (*.*)| *.txt"
-      $OFD.ShowDialog() | Out-Null
-      $OFD.filename
-
+        $OFD = New-Object System.Windows.Forms.OpenFileDialog
+        $OFD.filter = "text files (*.*)| *.txt"
+        $OFD.ShowDialog() | Out-Null
+        $OFD.filename
+    
     If ($OFD.filename -eq '')
     {
     Write-Host "You did not choose a file. Try again" -ForegroundColor White -BackgroundColor Red
     }
-
-    #Create a variable of all users
+    
+    # Create a variable of all users
     $users = Get-Content $OFD.filename
+    
+    # License each user in the $users variable
+      $EmsSku = Get-MgSubscribedSku -All | Where SkuPartNumber -eq ''
+      $addLicenses = @(
+      @{SkuId = $EmsSku.SkuId}
+      )
 
-    #License each user in the $users variable
-    foreach ($user in $users)
-        {
-        Write-host "Assigning License: $user"
-        Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "<CompanyName:License>" -ErrorAction SilentlyContinue
-        Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "<CompanyName:License>" -ErrorAction SilentlyContinue
-        }
-    ```
+      foreach ($user in $users){
+      Write-host "Assigning License: $user"
+      Set-MgUserLicense -UserId $user -AddLicenses $addLicenses -ErrorAction SilentlyContinue
+      }
+```
 
-    For example, to assign Microsoft 365 Enterprise E1 and Audio Conferencing licenses, use the following syntax in the script:
+  For example, to assign Microsoft 365 Enterprise E1 and Audio Conferencing licenses, use the following syntax in the script:
 
-      ```powershell
-      Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:ENTERPRISEPACK" -ErrorAction SilentlyContinue
-      Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:MCOMEETADV" -ErrorAction SilentlyContinue
-      ```
+```powershell
+    Connect-Graph -Scopes User.ReadWrite.All, Organization.Read.All
 
-    To assign a Teams Phone with Calling Plan license, use the following syntax in the script:
+    $EmsSku = Get-MgSubscribedSku -All | Where SkuPartNumber -eq 'ENTERPRISEPACK'
+    $FlowSku = Get-MgSubscribedSku -All | Where SkuPartNumber -eq 'MCOMEETADV'
+    $addLicenses = @(
+    @{SkuId = $EmsSku.SkuId},
+    @{SkuId = $FlowSku.SkuId}
+    )
 
-      ```powershell
-      Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:MCOTEAMS_ESSENTIALS" -ErrorAction SilentlyContinue
-      ```
+    Set-MgUserLicense -UserId $user -AddLicenses $addLicenses -RemoveLicenses @()
+```
+
+  To assign a Teams Phone with Calling Plan license, use the following syntax in the script:
+
+  ```powershell
+      Connect-Graph -Scopes User.ReadWrite.All, Organization.Read.All
+
+      $EmsSku = Get-MgSubscribedSku -All | Where SkuPartNumber -eq 'MCOTEAMS_ESSENTIALS'
+
+      Set-MgUserLicense -UserId $user -AddLicenses @() -RemoveLicenses @()
+  ```
 
 ## Product names and SKU identifiers for licensing
+
+[!INCLUDE [EEA Teams licensing notice](../includes/eea-teams-licensing.md)]
 
 Here's a partial list of product names and their corresponding SKU part names that you can reference when you use PowerShell to manage licenses in Teams.
 
@@ -133,7 +154,7 @@ To learn more, see [View licenses and services with PowerShell](/office365/enter
 | Microsoft 365 Business | SPB|
 | Audio Conferencing | MCOMEETADV |
 | Audio Conferencing Pay Per Minute (pay as you go) Requires Communications Credits to be set up and enabled.* | MCOMEETACPEA |
-| Teams Phone Standard | MCOEV |
+| Teams Phone Standard and Teams Phone Standard for Frontline Workers | MCOEV |
 | Teams Phone with Calling Plan | MCOTEAMS_ESSENTIALS |
 | International Calling Plan | MCOPSTN2 |
 | Domestic Calling Plan (3000 minutes per user/month for US/PR/CA, 1200 minutes per user/month for EU countries/regions) | MCOPSTN1 |
@@ -148,6 +169,8 @@ To learn more, see [View licenses and services with PowerShell](/office365/enter
 | Microsoft Teams Rooms Pro without Audio Conferencing | Microsoft_Teams_Rooms_Pro_without_Audio_Conferencing |
 | Microsoft Teams Shared Devices | MCOCAP |
 | Microsoft Teams Premium | Microsoft_Teams_Premium |
+| Microsoft Teams Enterprise EEA | Microsoft_Teams_EEA |
+| Microsoft Teams Enterprise | Microsoft_Teams_Enterprise |
 
 ## Related content
 

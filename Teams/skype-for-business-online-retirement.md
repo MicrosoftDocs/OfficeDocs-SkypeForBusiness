@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Online retirement
-author: MikePlumleyMSFT
-ms.author: mikeplum
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
@@ -24,7 +24,7 @@ ms.custom: seo-marvel-apr2020
 
 # Skype for Business Online retirement
 
-On July 31, 2021, Microsoft retired Skype for Business Online. This retirement was announced in July 2019 to give customers two years advance notice to plan their upgrades to Microsoft Teams. Teams is the core app for communication and collaboration in Microsoft 365. With Skype for Business Online being retired, Microsoft wants to ensure customers have the required information and resources to plan and execute a successful upgrade to Teams.  The Skype consumer service isn't affected by this retirement. For background on why Skype for Business Online was retired, see [FAQ—Upgrading from Skype for Business to Microsoft Teams](FAQ-journey.yml).
+On July 31, 2021, Microsoft retired Skype for Business Online. This retirement was announced in July 2019 to give customers two years advance notice to plan their upgrades to Microsoft Teams. With Skype for Business Online being retired, Microsoft wants to ensure customers have the required information and resources to plan and execute a successful upgrade to Teams.  The Skype consumer service isn't affected by this retirement. For background on why Skype for Business Online was retired, see [FAQ—Upgrading from Skype for Business to Microsoft Teams](FAQ-journey.yml).
 
 Microsoft will begin decommissioning the Skype for Business Online infrastructure on or after June 30, 2022. In addition, beginning in October 2022, Microsoft will begin decommissioning aspects of that infrastructure specific to hybrid organizations. This article contains guidance for organizations with TeamsOnly users that were upgraded from any version of Skype for Business.
 
@@ -47,7 +47,7 @@ Users in TeamsOnly mode receive incoming chats and calls in Teams, and also sche
 
 ## Guidance for Organizations with on-premises deployments of Skype for Business Server
 
- - When creating new users in your on-premises Active Directory environment, if these users will be synchronized to Azure AD and you intend to license them for Teams, then *before assigning these users the license*, **you must first enable them in your on-premises Skype for Business deployment and ensure the change has synchronized to the cloud via Azure AD connect**.  You can verify the change has fully synced to the cloud using Get-CsOnlineUser. The change has synchronized if the user's HostingProvider= "SRV:".  It should not be "sipfed.online.lync.com".   
+ - When creating new users in your on-premises Active Directory environment, if these users will be synchronized to Microsoft Entra ID and you intend to license them for Teams, then *before assigning these users the license*, **you must first enable them in your on-premises Skype for Business deployment and ensure the change has synchronized to the cloud via Microsoft Entra Connect**.  You can verify the change has fully synced to the cloud using Get-CsOnlineUser. The change has synchronized if the user's HostingProvider= "SRV:".  It should not be "sipfed.online.lync.com".   
 
  - Be aware that TeamsOnly users will need to anonymously join Skype for Business meetings once Microsoft removes the legacy Skype for Business Online infrastructure for hybrid organizations, beginning in October 2022.  For details, see [What To Expect Post Retirement](#what-to-expect-post-retirement). As an alternative, you can ensure meetings scheduled by all users (whether on-premises or Teams Only) in your organization are Teams meetings, which enables authenticated meeting join for any user in the organization (subject to policy configuration). To achieve this, take the following actions:
    - For any users that are assigned either **Skype for Business Only** or **Skype for Business with Teams Collaboration** modes, change the coexistence mode to **Skype for Business with Teams Collaboration and Meetings**.  This mode offers the same functionality as the other two, except new meetings scheduled by the user will be Teams meetings instead of Skype for Business meetings. When you assign this mode directly to a user (as opposed to at the tenant level), it will by default also automatically convert any Skype for Business meetings to Teams meetings organized by that user.

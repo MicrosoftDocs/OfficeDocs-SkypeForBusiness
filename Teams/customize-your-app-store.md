@@ -4,7 +4,7 @@ author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.reviewer: prem
-ms.date: 06/27/2023
+ms.date: 12/15/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -35,9 +35,9 @@ You can customize the store in the Teams admin center by accessing **Teams apps*
 
 You can upload your organization's logo. The logo you select appears in the Teams client in **Apps** > **Built for your org** page.
 
-When you select the **Choose a picture** option, you can upload the file of your choice. The logo must be 240 x 60 pixels in dimension or it is scaled to that size. The file size limit is 5 MB. The supported formats are .svg, .png, and .jpg.
+When you select the **Choose a picture** option, you can upload the file of your choice. The logo must be 240 x 60 pixels in dimension or scaled to that size. The file size limit is 5 MB. The supported formats are .svg, .png, and .jpg.
 
-The logo displays in the top, right corner of the tenant app catalog in the Teams store.
+The logo displays in the top, right corner of the app catalog in the Teams store.
 
 ## Customize the background color
 
@@ -45,15 +45,15 @@ The logo displays in the top, right corner of the tenant app catalog in the Team
 <a name="custombackground"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Make sure that the background has enough contrast with the text so the users can read the text clearly. The background will appear in the Teams client in **Apps** > **Built for your org** header.
+Make sure that the background has enough contrast with the text so the users can read the text clearly. The background appears in the Teams client in **Apps** > **Built for your org** header.
 
 Your options are:
 
 * Use Teams client default background theme
-* Choose a picture. When you select the background picture, you can upload the file of your choice. The background should be 1212 x 100 pixels, or it's scaled to that size. It should be no larger than 5 MB. The supported formats are .svg, .png, and .jpg.
+* Choose a picture. When you select the background picture, you can upload the file of your choice. The background must be 1212 x 100 pixels, or it's scaled to that size. The file size of the image must be less than 5 MB. The supported formats are .svg, .png, and .jpg.
 * Choose a custom background. When you select **Choose a custom color**, a color chooser opens. Select the color that you want by adjusting the scale of the color chooser.
 
-The background image or color is used as the background for the top banner in the Teams tenant app catalog.
+The background image or color is used as the background for the top banner in the Teams app catalog.
 
 ## Customize the text color of your name
 
@@ -69,12 +69,4 @@ When you select **Choose a custom color**, a color chooser opens. Select the col
 
 ## Complete the customization of your team apps store
 
-When you've finished customizing your apps store, select **Save** to save your changes.
-To preview your changes, select **Preview apps store** to see a representation of your customized apps store.
-
-:::image type="content" source="media/PowerAppsInStore650w.png" alt-text="Screenshot showing an example of a customized apps store.":::
-
-<!--- confirm:
-> [!NOTE]
-> The representation might vary from the final version of your customized apps store because some default colors are based on your users' version of Teams client.
---->
+When you customize the apps store appearance, select **Preview** to see a representation of your customized apps store. Select **Save** to save your changes.

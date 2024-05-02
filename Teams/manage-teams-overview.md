@@ -1,20 +1,20 @@
 ---
 title: Manage and monitor Teams
-author: CarolynRowe
-ms.author: crowe
-manager: serdars
-ms.date: 2/1/2021
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
+ms.date: 10/06/2023
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-collaboration
+  - essentials-manage
 search.appverid: MET150
 f1.keywords:
 ms.custom: 
 ms.reviewer: 
 description: Roadmap to articles about how to manage and monitor Teams.
-
 appliesto: 
   - Microsoft Teams
 ---
@@ -29,8 +29,6 @@ This article provides a roadmap to the content you'll need to successfully manag
 
 - [The Teams admin center](manage-teams-in-modern-portal.md). Read this article to understand how to use the Teams admin center for managing Teams.  
 
-- [Manage Teams during the transition to the new admin center](manage-teams-skypeforbusiness-admin-center.md). Read this article to understand how to transition from the Skype for Business admin center to the new Teams admin center. 
-
 - [Communicate with users from other organizations](communicate-with-users-from-other-organizations.md). Read this article to understand the differences between guest and external access and what functionality is available with both. Additional articles in this section describe how to manage guest and external access.
 
 - [Manage policies](policy-assignment-overview.md). Read this article to understand how to define and assign policies to manage users, permissions, and Teams functionality.
@@ -39,15 +37,10 @@ This article provides a roadmap to the content you'll need to successfully manag
 
 - [Reports in the Teams admin center](teams-analytics-and-reports/teams-reporting-reference.md) and [Reports in the Microsoft 365 admin center](teams-activity-reports.md). Read these articles to understand what reports are available, and how to use these reports to monitor Teams usage and service health.
 
-- [Operate your service](teams-analytics-and-reports/teams-reporting-reference.md) and [Enhance your service](upgrade-enhance-my-service.md). Read these articles for guidelines and roadmaps for how to operate and enhance your Teams service.
-
-Some manage topics remain under the relevant workload sections. For more information, see the overview articles for the following:
+See the following references for overviews of the major features in Teams:
 
 - [Chat, teams, channels](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
-- [Meetings and Audio Conferencing](deploy-meetings-microsoft-teams-landing-page.md)
+- [Overview of meetings, webinars, and town halls](overview-meetings-webinars-town-halls.md)
+- [Audio Conferencing in Microsoft Teams](audio-conferencing-in-office-365.md)
 - [Voice](cloud-voice-landing-page.md)
 - [Overview of Teams apps](apps-in-teams.md)
-
-
-### Related topics
-

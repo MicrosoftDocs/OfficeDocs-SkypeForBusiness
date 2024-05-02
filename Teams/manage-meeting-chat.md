@@ -2,17 +2,18 @@
 title: Manage chat in Teams meetings
 ms.author: wlibebe
 author: wlibebe
-manager: serdars
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: heiris
-ms.date: 08/01/2023
+ms.date: 10/12/2023
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
   - Tier2
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 f1.keywords:
@@ -24,12 +25,16 @@ description: Learn to manage meeting chat in Teams meetings and manage meeting c
 
 # Manage chat in Microsoft Teams meetings
 
+**APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
+
 ## Overview
 
 In Microsoft Teams, meeting chat allows participants to exchange messages to each other before, during, and after meetings. As an admin you can control:
 
 - Whether participants in your users' meetings can read and write chat messages
 - Whether users in your organization can use chat when they're participants in Teams meetings hosted by other organizations where there isn’t a two-way trust relationship
+
+For town halls, only presenters, organizers, and co-organizers can use chat with each other.
 
 ## Manage chat messages for your organization's Teams meetings
 
@@ -60,11 +65,11 @@ Use these steps to manage meeting chat:
 
 You can manage meeting chat for your users by using the following PowerShell cmdlets in Teams PowerShell:
 
-- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
-- [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy)
-- [Grant-CsTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy)
-- [Get-CsTeamsMeetingPolicy](/powershell/module/skype/get-csteamsmeetingpolicy)
-- [Remove-CsTeamsMeetingPolicy](/powershell/module/skype/remove-csteamsmeetingpolicy)
+- [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)
+- [New-CsTeamsMeetingPolicy](/powershell/module/teams/new-csteamsmeetingpolicy)
+- [Grant-CsTeamsMeetingPolicy](/powershell/module/teams/grant-csteamsmeetingpolicy)
+- [Get-CsTeamsMeetingPolicy](/powershell/module/teams/get-csteamsmeetingpolicy)
+- [Remove-CsTeamsMeetingPolicy](/powershell/module/teams/remove-csteamsmeetingpolicy)
 
 The **`-MeetingChatEnabledType`** parameter controls the availability of meeting chat with the following settings:
 
@@ -85,11 +90,7 @@ Set-CsTeamsMeetingPolicy -Identity <policy name> -MeetingChatEnabledType Enabled
 ```
 
 To disable meeting chat for everyone with an assigned policy, run the following script:
-To disable meeting chat for everyone with an assigned policy, run the following script:
 
-```PowerShell
-Set-CsTeamsMeetingPolicy -Identity <policy name> -MeetingChatEnabledType Disabled
-```
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -MeetingChatEnabledType Disabled
 ```
@@ -121,11 +122,11 @@ If you'd like to choose whether users in your organization can use chat in Teams
 
 You can manage chat in Teams meetings hosted by other organizations by using the following PowerShell cmdlets in Teams PowerShell:
 
-- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
-- [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy)
-- [Grant-CsTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy)
-- [Get-CsTeamsMeetingPolicy](/powershell/module/skype/get-csteamsmeetingpolicy)
-- [Remove-CsTeamsMeetingPolicy](/powershell/module/skype/remove-csteamsmeetingpolicy)
+- [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)
+- [New-CsTeamsMeetingPolicy](/powershell/module/teams/new-csteamsmeetingpolicy)
+- [Grant-CsTeamsMeetingPolicy](/powershell/module/teams/grant-csteamsmeetingpolicy)
+- [Get-CsTeamsMeetingPolicy](/powershell/module/teams/get-csteamsmeetingpolicy)
+- [Remove-CsTeamsMeetingPolicy](/powershell/module/teams/remove-csteamsmeetingpolicy)
 
 The **`-AllowExternalNonTrustedMeetingChat`** parameter controls the availability of meeting chat for your users when they attend external meetings.  This parameter uses the following settings:
 

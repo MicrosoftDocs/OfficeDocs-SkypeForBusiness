@@ -1,8 +1,8 @@
 ---
 title: PowerShell script sample - Create & assign messaging policy
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.topic: article
 ms.reviewer: ritikag
 ms.date: 09/11/2018
@@ -26,7 +26,7 @@ Use this PowerShell script to create a messaging policy in Microsoft Teams and a
 
 For more information about using this PowerShell script, see [Quick start - Teams for Education](../teams-quick-start-edu.yml).
 
-This script uses the [Grant-CsTeamsMessagingPolicy](/powershell/module/skype/grant-csteamsmessagingpolicy) cmdlet which is in the Skype for Business Online PowerShell module. See [Teams PowerShell overview](../teams-powershell-overview.md) to learn more about managing Teams using PowerShell.
+This script uses the [Grant-CsTeamsMessagingPolicy](/powershell/module/teams/grant-csteamsmessagingpolicy) cmdlet which is in the Skype for Business Online PowerShell module. See [Teams PowerShell overview](../teams-powershell-overview.md) to learn more about managing Teams using PowerShell.
 
 
 ## Before you start

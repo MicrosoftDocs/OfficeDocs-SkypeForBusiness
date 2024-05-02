@@ -1,8 +1,8 @@
 ---
 title: Microsoft Teams chat experience when communicating with people outside the organization
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: jtremper
+author: jacktremper
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 audience: admin

@@ -1,18 +1,19 @@
 ---
 title: Manage the meeting presentation experience for sensitive Teams meetings
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: serdars
+ms.author: wlibebe
+author: wlibebe
+manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
-ms.date: 10/07/2022
+ms.date: 12/11/2023
 audience: admin
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection: 
   - m365solution-compliantmeetings
+  - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
 description: Learn about admin options for managing who can present, how content is shared, and how attendees collaborate in sensitive Teams meetings.
@@ -28,9 +29,9 @@ Using Teams admin policies, sensitivity labels, and templates, you can control a
 - How content is shared and what collaboration tools are available
 - Attendee video, audio, and reactions
 
-Meeting organizers can specify many of theses settings when they create the meeting, but you can enforce specific options for different users and groups in your organization by using admin policies, or different types or meetings by using sensitivity labels and templates. This can help you meet your compliance needs for different types of meetings and meetings where sensitive information is being shared.
+Meeting organizers can specify many of theses settings when they create the meeting, but you can enforce specific options for different users and groups in your organization by using admin policies, or for different types or meetings by using sensitivity labels and templates. This can help you meet your compliance needs for different types of meetings and meetings where sensitive information is being shared.
 
-> [!Note]
+> [!NOTE]
 > Meeting settings in sensitivity labels and custom meeting templates require Teams Premium.
 
 ## Manage who can present
@@ -50,12 +51,12 @@ By using these controls, you can limit who is able to share content on screen in
 The Teams admin meeting policy **Who can present** has the following options:
 
 - Only organizers and co-organizers
-- People in my organization and guests
+- People in my org and guests
 - Everyone
 
-This setting does not enforce the value, but rather specifies the default for new meetings created by users. Users can override this setting and choose any of the other options unless a specific value is enforced by a sensitivity label.
+This setting doesn't enforce the value, but rather specifies the default for new meetings created by users. Users can override this setting and choose any of the other options unless a specific value is enforced by a sensitivity label.
 
-The default value of **Everyone** allows anyone to present in a meeting by default. If you have compliance requirements in your organization around who can present in meetings, consider changing this value to **People in my organization and guests** or **Only organizers and co-organizers** to provide a more secure default for users.
+The default value of **Everyone** allows anyone to present in a meeting by default. If you have compliance requirements in your organization around who can present in meetings, consider changing this value to **People in my org and guests** or **Only organizers and co-organizers** to provide a more secure default for users.
 
 To set the **Who can present** policy
 
@@ -67,11 +68,11 @@ To set the **Who can present** policy
 
 1. Select **Save**.
 
-### Manage who can present with sensitivity labels
+### Manage who can present by using sensitivity labels
 
 Meeting organizers can choose from the following options for who can present in a meeting:
 
-- People in my organization and guests
+- People in my org and guests
 - Only me and co-organizers
 - Specific people
 - Everyone
@@ -84,9 +85,9 @@ You can restrict this setting by using a sensitivity label. For sensitive or hig
 
 By default, meeting participants can give control of their shared screen to another participant in the meeting. This is controlled by two Teams admin meeting policies:
 
-- **Participants can give or request control** - This setting determines if meeting participants can give control of their shared screen to another participant or request control from another participant. It is **On** by default.
+- **Participants can give or request control** - This setting determines whether the user with this policy can give control of their shared desktop or window to other meeting participants. It's **On** by default.
 
-- **External participants can give or request control** - This setting determines an external participant can be given control of a shared screen. It is **Off** by default.
+- **External participants can give or request control** - This setting determines a guest or anonymous participant can be given control of an internal user's shared screen. It's **Off** by default.
 
 Depending on the compliance requirements of your organization, you can change these settings for some or all of your users.
 
@@ -112,12 +113,12 @@ The following table shows settings that can help manage what content and video i
 
 |Setting|Admin policy|Sensitivity label|Template|Meeting organizer|
 |:------|:----------:|:---------------:|:------:|:---------------:|
-|Screen sharing mode|Yes|No|No|No|
+|Screen sharing|Yes|No|No|No|
 |Manage what attendees see|No|No|Yes|Yes|
 
-**Screen sharing mode** is a teams admin policy. With this policy, you can control if meeting attendees can share their entire screen or only a single application. Sharing the entire screen can be convenient, but it can increase the chances of accidentally sharing inappropriate information such as an email or open document. Consider if you want to restrict sharing to a single application for users or departments that often present sensitive information. You can also turn off screen sharing entirely with this policy. For more information, see [Configure desktop sharing in Microsoft Teams](/microsoftteams/configure-desktop-sharing).
+**Screen sharing** is a teams admin policy. With this policy, you can control if meeting attendees can share their entire screen or only a single application. Sharing the entire screen can be convenient, but it can increase the chances of accidentally sharing inappropriate information such as an email or open document. Consider if you want to restrict sharing to a single application for users or departments that often present sensitive information. You can also turn off screen sharing entirely with this policy. For more information, see [Manage meeting policies for content sharing](meeting-policies-content-sharing.md).
 
-**Manage what attendees see** is an option available to meeting organizers that can also be set by using a template. When this option is enabled, meeting organizers can control what content is shared on screen and who's video is visible. Organizers must intentionally bring shared content and video on screen before attendees can see it. This can help minimize the risk of sharing inappropriate content in a meeting. Consider if you want to enable or enforce this experience for sensitive meetings by using a meeting template.
+**Manage what attendees see** is an option available to meeting organizers that can also be set by using a template. When this option is enabled, meeting organizers can control what content is shared on screen and who's video is visible. Organizers must intentionally bring shared content and video on screen before attendees can see it. This can help minimize the risk of sharing inappropriate content in a meeting. Consider if you want to enable or enforce this experience for sensitive meetings by using a meeting template. For more information, see [Manage what attendees see in Teams meetings](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16).
 
 ## Manage presentation tools
 
@@ -129,13 +130,13 @@ Teams offers several presentation tools that allow for interactive participation
 |Whiteboard|Yes|No|No|No|
 |Shared notes|Yes|No|No|No|
 
-Each of these features can be managed through admin policies, but not through templates or sensitivity labels, nor by the meeting organizer. As such, they can be applied to users or groups, but not to specific meetings. For more information, see [Meeting policy settings - Content sharing](/microsoftteams/meeting-policies-content-sharing).
+Each of these features can be managed through admin policies, but not through templates or sensitivity labels, nor by the meeting organizer. As such, they can be applied to users or groups, but not to specific meetings. For more information, see [Meeting policy settings - Content sharing](meeting-policies-content-sharing.md).
 
 If you have meetings where sensitive information is being shared, you may want to disable Whiteboard and shared notes to avoid having sensitive information added to them.
 
 PowerPoint Live allows attendees to navigate forward and back in a PowerPoint presentation being shared on screen. This may allow attendees to see sensitive information before it's presented by the organizer.
 
-Consider if there are users or groups in your organization who should not use these features to avoid sharing sensitive information.
+Consider if there are users or groups in your organization who shouldn't use these features to avoid sharing sensitive information.
 
 ## Manage how meeting attendees interact
 

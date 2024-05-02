@@ -1,36 +1,37 @@
 ---
-title: "Teams Phone System Direct Routing: Definitions and RFC standards"
+title: "Teams Phone Direct Routing: Definitions and RFC standards"
 author: CarolynRowe
 ms.author: crowe
-manager: serdars
+manager: pamgreen
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 ms.reviewer: nmurav
 search.appverid: MET150
 f1.keywords: 
   - NOCSH
-description: How Microsoft Phone System Direct Routing implements RFC standard protocols.
+description: How Teams Phone Direct Routing implements RFC standard protocols.
 appliesto: 
   - Microsoft Teams
 ---
 
 # Direct Routing - definitions and RFC standards
 
-This article describes how Microsoft Phone System Direct Routing implements RFC standard protocols. This article is intended for voice administrators who are responsible for configuring the connection between the on-premises Session Border Controller (SBC) and the Session Initiation Protocol (SIP) proxy service.
+This article describes how Teams Phone Direct Routing implements RFC-standard protocols. This article is intended for voice administrators who are responsible for configuring the connection between the on-premises Session Border Controller (SBC) and the Session Initiation Protocol (SIP) proxy service.
 
 The customer SBC interfaces with the following components in the Microsoft Teams backend: 
 
-- **The SIP proxy** for signaling. This is the Internet-facing component of Direct Routing that handles SIP (TLS) connections between the SBCs and Direct Routing.
+- **The SIP proxy** for signaling. This component is the Internet-facing component of Direct Routing that handles SIP (TLS) connections between the SBCs and Direct Routing.
 
-- **The media processors** for media. This is the Internet-facing component of Direct Routing that handles media traffic. This component uses SRTP and SRTCP protocols.
+- **The media processors** for media. This component is the Internet-facing component of Direct Routing that handles media traffic. This component uses SRTP and SRTCP protocols.
 
 
-For more information about Direct Routing, see [Phone System Direct Routing](direct-routing-landing-page.md).
+For more information about Direct Routing, see [Teams Phone Direct Routing](direct-routing-landing-page.md).
 
 For more information about how Direct Routing implements the SIP protocol, see [Direct Routing - SIP protocol](direct-routing-protocols-sip.md).
 
@@ -54,11 +55,11 @@ The following standards are applicable to devices that support only non-media by
 
 ### Standards applicable to devices that support media bypass mode
 
-In addition to the standards listed as applicable to non-bypass mode, the following standards are used for media bypass mode:
+In addition to the standards listed as applicable to nonbypass mode, the following standards are used for media bypass mode:
 
 - [RFC 5245 Interactive Connectivity Establishment (ICE) for media bypass](https://tools.ietf.org/html/rfc5245).  The SBC must support the following:
   - ICE Lite - the Teams clients are full ICE clients
-  - [ICE Restarts](https://tools.ietf.org/html/rfc5245#section-9.1.1.1). See more on ICE restarts use case and examples in ICE Restart:  Media bypass call transferred to an endpoint which does not support media bypass   
+  - [ICE Restarts](https://tools.ietf.org/html/rfc5245#section-9.1.1.1). See more on ICE restarts use case and examples in ICE Restart:  Media bypass call transferred to an endpoint that doesn't support media bypass   
 - [RFC RFC 5589 Session Initiation Protocol (SIP) Call Control – Transfer](https://tools.ietf.org/html/rfc5589). 
 - [RFC 3960 Early Media and Ringing Tone Generation in the Session Initiation Protocol (SIP)](https://tools.ietf.org/html/rfc3960), see sections 3.1, Forking, and 3.2, Ringing Tone Generation 
 - [RFC 5389 Session Traversal Utilities for NAT (STUN)](https://tools.ietf.org/html/rfc5389)
@@ -68,21 +69,21 @@ In addition to the standards listed as applicable to non-bypass mode, the follow
 
 - [RFC 6442, Location Conveyance for the Session Initiation Protocol](https://tools.ietf.org/html/rfc6442)
 
-### Deviations from the RFC's
+### Deviations from the RFCs
 
 The following table lists the sections of the RFC(s) in which Microsoft's implementation of the SIP or media stack deviates from the standard:
 
 | RFC and sections | Description | Deviation |
 | :---------------------  |:---------------------- |:-----------------------|
-| [RFC 6337, section 5.3 Hold and Resume of Media](https://tools.ietf.org/html/rfc6337#section-5.3) | RFC allows using “a=inactive”, “a=sendonly”, a=recvonly” to place a call on hold. |The SIP proxy only supports “a=inactive” and does not understand if the SBC sends “a=sendonly” or “a=recvonly”.
-| [RFC 6337, section 5.4 Behavior on Receiving SDP with c=0.0.0.0](https://tools.ietf.org/html/rfc6337#section-5.4) | [RFC3264](https://tools.ietf.org/html/rfc3264) requires that an agent is capable of receiving SDP with a connection address of 0.0.0.0, in which case it means that neither  RTP nor RTCP should be sent to the peer. | The SIP proxy does not support this option. |
-| [RFC 3261, section 25 Augmented BNF for the SIP Protocol](https://tools.ietf.org/html/rfc3261#section-25.1) | '#' character should be sent as '%23'| The SIP proxy sends the '#' character in a Request-URI un-escaped. |
+| [RFC 6337, section 5.3 Hold and Resume of Media](https://tools.ietf.org/html/rfc6337#section-5.3) | RFC allows using “a=inactive”, “a=sendonly”, a=recvonly” to place a call on hold. |The SIP proxy only supports “a=inactive” and doesn't understand if the SBC sends “a=sendonly” or “a=recvonly”.
+| [RFC 6337, section 5.4 Behavior on Receiving SDP with c=0.0.0.0](https://tools.ietf.org/html/rfc6337#section-5.4) | [RFC3264](https://tools.ietf.org/html/rfc3264) requires that an agent is capable of receiving SDP with a connection address of 0.0.0.0, in which case it means that neither RTP nor RTCP should be sent to the peer. | The SIP proxy doesn't support this option. |
+| [RFC 3261, section 25 Augmented BNF for the SIP Protocol](https://tools.ietf.org/html/rfc3261#section-25.1) | '#' character should be sent as '%23'| The SIP proxy sends the '#' character in a Request-URI unescaped. |
 
 ## TCP/TLS transport considerations
 
 When sending a SIP request (new or in-dialogue), Microsoft SIP Proxy may open a new TCP/TLS connection or reuse an existing connection if one exists.  
 
-- There are a maximum of two TCP/TLS connections per remote FQDN/IP, per each SIP proxy virtual machine. Before sending a SIP request, SIP proxy checks for active TCP connections with the target SBC/Trunk FQDN’s resolved IP address. If two connections exist, they're re-used. If two connections don't exist, a new connection is opened.  
+- There are a maximum of two TCP/TLS connections per remote FQDN/IP, per each SIP proxy virtual machine. Before sending a SIP request, SIP proxy checks for active TCP connections with the target SBC/Trunk FQDN’s resolved IP address. If two connections exist, they're reused. If two connections don't exist, a new connection is opened.  
 
   - This logic is per SIP proxy virtual machine.  
 
@@ -107,21 +108,21 @@ When sending a SIP request (new or in-dialogue), Microsoft SIP Proxy may open a 
 
   - The keep-alive doesn't reset the TCP idle timer.
 
-  - CRLF keep-alive sent by the supplier SBC will reset the TCP idle timer.
+  - CRLF keep-alive sent by the supplier SBC resets the TCP idle timer.
 
-- Due to the aliasing constraint mentioned above, the supplier SBC must not use in-dialogue SIP requests for resetting the timer on connections created by SIP Proxy outbound to the supplier SBC. 
+- Due to the aliasing constraint mentioned previously, the supplier SBC must not use in-dialogue SIP requests for resetting the timer on connections created by SIP Proxy outbound to the supplier SBC. 
 
-- After two minutes of idling, (FIN, ACK) is transmitted to the upplier SBC by SIP Proxy within approximately 10 to 20 seconds. 
+- After two minutes of idling, (FIN, ACK) is transmitted to the supplier SBC by SIP Proxy within approximately 10 to 20 seconds. 
 
 ### Notes
 
-- It is recommended that the SBC actively re-uses connections, like SIP proxy. This method saves time, which is needed for TCP and TLS connections. 
+- It's recommended that the SBC actively reuses connections, like SIP proxy. This method saves time, which is needed for TCP and TLS connections. 
 
 - The SBC should renew the connection at least once per hour. 
 
 - When a new SBC’s certificate is uploaded, the SBC must renew all connections. 
 
-- When domain configurations are updated, it is recommended that the SBC’s connections are renewed. Otherwise, a new configuration will be applied after the internal SIP proxy cache is renewed – up to four hours. 
+- When domain configurations are updated, it's recommended that the SBC’s connections are renewed. Otherwise, a new configuration will be applied after the internal SIP proxy cache is renewed – up to four hours. 
 
  
 ## Operational modes
@@ -132,8 +133,8 @@ There are two operational modes for Direct Routing:
 
 - **With media bypass** in which all RTP media flows between the Teams endpoints and the SBC. 
 
-Note that SIP traffic always flows via the SIP proxy. 
+SIP traffic always flows through the SIP proxy. 
 
 ## DTMF
 
-In-band DTMF is not supported by media stack.
+In-band DTMF isn't supported by media stack.
