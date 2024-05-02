@@ -54,7 +54,7 @@ Office 365 allows you to integrate third-party applications into SharePoint Onli
 
 ## CVI overview
 
-Our partners offer CVI, a third-party service to provide interoperability between existing video conferencing and personal video device solutions on premises, and Microsoft Teams.
+Our partners offer CVI, a third-party service that provides interoperability between existing video conferencing and personal video device solutions on premises, and Microsoft Teams.
 
 The solutions offered by our partners consist of components that can be deployed either fully cloud based or partially/fully on premises.
 
@@ -112,6 +112,8 @@ During the provision phase, you assign licenses to the appropriate users accordi
 
 The tenant key is the dial out to the partner service. In the following example, 813878896@t.plcm.vc is the tenant key.
 
+[PLACEHOLDER: Adam, do we need this screenshot/example?]
+
 ![Tenant key example.](media/tenant-key-example.png)
 
 To learn about PowerShell cmdlets you can use, see the [Powershell for CVI](#powershell-for-cvi) section in this article.
@@ -122,8 +124,8 @@ You must provide permission consent for the video teleconferencing devices (VTCs
 
 |Name|Application Permission Short Description| Description|
 |---|---|---|
-|Calls.JoinGroupCall.All|Join Group Calls and Meetings as an app (preview)|Allows the app to join group calls and scheduled meetings in your organization, without a signed-in user.  The app is joined with the privileges of a directory user to meetings in your tenant.|
-|Calls.JoinGroupCallasGuest.All|Join Group Calls and Meetings as a guest|Allows the app to anonymously join group calls and scheduled meetings in your organization, without a signed-in user.  The app is joined as a guest to meetings in your tenant.|
+|Calls.JoinGroupCall.All|Join Group Calls and Meetings as an app (preview)|Allows the app to join group calls and scheduled meetings in your organization, without a signed-in user. The app is joined with the privileges of a directory user to meetings in your tenant.|
+|Calls.JoinGroupCallasGuest.All|Join Group Calls and Meetings as a guest|Allows the app to anonymously join group calls and scheduled meetings in your organization, without a signed-in user. The app is joined as a guest to meetings in your tenant.|
 |Calls.AccessMedia.All|Access media streams in a call as an app (preview)|Allows the app to get direct access to media streams in a call, without a signed-in user.|
 |OnlineMeetings.Read.All|Read Online Meeting details (preview)|Allows the app to read Online Meeting details in your organization, without a signed-in user.|
 
@@ -134,7 +136,7 @@ After you enable CVI for a user, any Teams meeting they schedule through the Tea
 Next, schedule Teams meeting with video interop coordinates. The enabled user can schedule teams meetings via:
 
 - [Teams Meeting add-in for Outlook](outlook-add-in-authentication-policy-requirements.md)
-- Teams client desktop and mobile
+- [Teams client desktop and mobile](new-teams-desktop-admin.md)
 
 ### 6. Join
 
@@ -151,8 +153,6 @@ Depending on the partner solution, there are several ways to join a CVI-enabled 
 
 - **One-touch dial**
   - If you integrated the VTC room calendar, you can use the one-touch dial capabilities offered by your partner (without needing to type any dial string).
-
-Finally, engage with Teams users in your meetings using audio, video, and content sharing.
 
 ## Manage CVI
 
