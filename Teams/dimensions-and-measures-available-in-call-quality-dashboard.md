@@ -595,6 +595,8 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 | Organizer UPN|String|The user principal name (UPN) of the meeting organizer's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| &bull; User doesn't have permissions to view EUII. <br/>&bull; Record is older than 28 days. |
 | Organizer Sip Uri|String|The Session Initiation Protocol (SIP) URI of the meeting organizer's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| &bull; Populated only for Skype for Business endpoints. <br/>&bull; User doesn't have permissions to view EUII. <br/>&bull; Record is older than 28 days.|
 | PII Scrubbed | Boolean | Indicates if the end-user identifiable information was scrubbed from the record. This happens automatically after a record is 28 days old. ||
+| First Is VPN Combined | Boolean | Indicates if Teams determined the first endpoint was connected to a VPN when it received the stream, combining several detection criteria | |
+| Second Is VPN Combined | Boolean | Indicates if Teams determined the second endpoint was connected to a VPN when it received the stream, combining several detection criteria | |
 |**Devices**||||
 | First Capture Device Form Factor|Enumeration string|The form factor of the audio capture device (microphone) on the first endpoint. | &bull; Not reported by the endpoint. |
 | Second Capture Device Form Factor|Enumeration string|The form factor of the audio capture device (microphone) on the first endpoint. | &bull; Not reported by the endpoint. |
