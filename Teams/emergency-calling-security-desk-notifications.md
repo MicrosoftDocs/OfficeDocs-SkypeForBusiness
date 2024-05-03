@@ -17,8 +17,7 @@ audience: Admin
 appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
-description: ""Learn how to configure security desk notifications for emergency calling.
-
+description: Learn how to configure security desk notifications for emergency calling.
 ---
 
 # Configure security desk notifications
