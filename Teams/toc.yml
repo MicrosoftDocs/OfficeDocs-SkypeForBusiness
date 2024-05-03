@@ -1222,6 +1222,8 @@ items:
             href: considerations-direct-routing.md
         - name: Configure dynamic emergency calling
           href: configure-dynamic-emergency-calling.md
+        - name: Configure security desk notifications
+          href: emergency-calling-security-desk-notifications
         - name: Emergency addresses for remote locations
           href: emergency-calling-dispatchable-location.md
         - name: Manage emergency addresses
