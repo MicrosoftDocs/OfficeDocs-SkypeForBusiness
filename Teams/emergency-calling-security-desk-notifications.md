@@ -32,7 +32,7 @@ During an emergency call, a security desk is conferenced into the call, and the 
 
 You can also configure extended notification settings per emergency number. For example, you can specify how a call to the emergency test number 933 is handled without notifying the security desk.
 
-## Configure security desk notification
+## Configure security desk notifications
 
 You configure security desk notifications by using emergency calling policies, which you can set by using the Teams admin center or PowerShell.
 
@@ -48,7 +48,7 @@ To configure security desk notifications with PowerShell, use the  [Set-CsTeamsE
 Set-CsTeamsEmergencyCallingPolicy -Identity "TestECP" -NotificationGroup "123@contoso.com;567@contoso.com"
 ```
 
-An emergency calling policy can be granted to a Teams user account, assigned to a network site, or both. When a Teams client starts or changes a network connection, Teams performs a lookup of the network site where the client is located:
+You can grant an emergency calling policy to a Teams user account, assign to a network site, or both. When a Teams client starts or changes a network connection, Teams performs a lookup of the network site where the client is located:
 
 - If an emergency calling policy is associated with a network site, then the site policy is used to configure security desk notification.
 
@@ -75,12 +75,12 @@ When an emergency call is made to any defined emergency number except 993, the g
 
 To configure the extended notifications example by using the Teams admin center:
 
-**ADD INSTRUCTIONS**
+**ADD INSTRUCTIONS** or link to manage emergency policies article?
 
 ### Use Powershell
 
 To configure the extended notifications example 
-by using the  [Set-CsTeamsEmergencyCallingPolicy](/powershell/module/teams/set-csteamsemergencycallingpolicy) cmdlet:
+by using the [Set-CsTeamsEmergencyCallingPolicy](/powershell/module/teams/set-csteamsemergencycallingpolicy) cmdlet:
 
 ```powershell
 $en1 = New-CsTeamsEmergencyCallingExtendedNotification -EmergencyDialString "933"  

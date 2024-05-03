@@ -88,7 +88,7 @@ You can configure who's notified during an emergency call, and how they are noti
 
 You can also configure extended notification settings per emergency number. For example, you can specify how a call to the emergency test number 933 is handled without notifying the security desk.
 
-For more information about configuring security desk notifications, see [Configure security desk notificaitons](emergency-calling-security-desk-notifications.md).
+For more information about configuring security desk notifications, see [Configure security desk notifications](emergency-calling-security-desk-notifications.md).
 
 
 ## Create a custom emergency service disclaimer
