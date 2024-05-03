@@ -21,71 +21,204 @@ description: Learn about how to migrate Android devices to AOSP
 
 # Overview of migrating Android devices
 
-## Customer Intent for this Article: The customer is seeking guidance on how to successfully migrate Microsoft Teams Android devices from Device Administrator to Android AOSP management.
-Article:
+> [!NOTE] 
+> This article has been published ahead of the firmware which supports the migration to AOSP Management, this is intentional to allow organizations time to prepare their environment.  A message center post will be sent to your organization when the AOSP Management firmware is available, but these are steps to take now in preparation.
 
-## Successful AOSP Migration for Microsoft Teams Android Devices
 
-This document will guide both Teams and Intune admins through the necessary steps to handle the upcoming mandatory AOSP migration for Microsoft Teams Android devices. The migration process includes setting up enrollment profiles, creating AOSP policies, and applying firmware upgrades.
+This document describes how IT administrators can prepare their Teams Android Device environment for a migration from Android Device Administrator to the new mobile device enrollment (MDM) method created by Intune called Android Open Source Project (AOSP) Management. This new MDM enrollment method will replace the legacy Device Administrator enrollment method and serve as the basis for new features and functionality. For this migration to be successful organization IT administrators have specific actions they need to take which are all covered in this article.
 
-### 1. Prerequisites
+This article covers multiple topics:
 
-To migrate from Device Administrator to Android AOSP management, ensure you have the following:
+- Setting up new AOSP Management Enrollment Profiles
 
-- An active Microsoft Intune tenant.
-- A Teams Android device that supports Intune AOSP.
+- AOSP Management Configuration & Compliance Policies
 
-If your organization does not use Intune for Teams Android devices, you only need to take the firmware upgrade through Teams Admin Center. In this case, Teams Android devices will not leverage AOSP management.
+- Deploying AOSP Management capable device firmware
 
-### 2. Set up enrollment profiles
+## __Setting up new AOSP Management Enrollment Profiles__
 
-Follow the instructions in [Set up Android (AOSP) device management in Intune for corporate-owned user-associated devices](https://docs.microsoft.com/en-us/mem/intune/enrollment/android-aosp-enroll) to enroll the device in Intune. The enrollment process includes:
+In order for Teams Android Devices to enroll in AOSP Management, an enrollment profile must be created.
 
-1. Creating a Corporate-owned, User-associated enrollment profile.
-2.  Marking "For Microsoft Teams devices" as "Enabled".
-3.  Saving the profile.
+### __Prerequisites__
 
-Note: The enrollment to Intune will happen automatically when the device updates to AOSP. Ensure there are no existing enrollment profiles when creating a new one.
+To migrate from Android Device Administrator to Android AOSP management, you must have:
 
-### 3. Create AOSP policies
+- Teams Android Devices deployed today which are enrolled using Device Administrator
 
-Automatic policy migration is not available due to differences between Device Administrator and AOSP policies. IT administrators will need to create new AOSP policies for their Microsoft Teams Android devices that are migrating. AOSP policy creation should be done before taking the firmware update to ensure that devices work as intended after migration.
+- Teams Android Device which will be supported with AOSP Management (Any devices not listed, will not be supported on AOSP Management: [Click Here](/microsoftteams/devices/teams-ip-phones))
 
-There are two types of AOSP policies for Teams Android devices:
+- Intune Admin privileges in your Microsoft 365 environment
 
-- Compliance settings: [Android (AOSP) compliance settings in Microsoft Intune](https://docs.microsoft.com/en-us/mem/intune/protect/compliance-policy-create-android-aosp)
-- Device restriction settings: [Device restriction settings for Android (AOSP) in Microsoft Intune](https://docs.microsoft.com/en-us/mem/intune/configuration/device-restrictions-android-aosp)
+> [!NOTE]
+> If your organization does not enroll your Teams Android devices in Intune (typically by disabling the Intune license on your resource accounts) then there is no need to set up an enrollment profile or create AOSP Management policies. Just upgrade your devices to the AOSP Management capable firmware at release to stay on current firmware but no Intune configuration is required.
+### __Setup AOSP Management Enrollment Profiles__
 
-#### 3.1 Supported AOSP policies
+These steps are specific to Teams Android devices, for non-Teams devices or for more information, please refer to the Intune guidance for setting up profiles: [Set up Android (AOSP) device management in Intune for corporate-owned user-associated devices - Microsoft Intune | Microsoft Learn](/mem/intune/enrollment/android-aosp-corporate-owned-user-associated-enroll)
 
-Teams Android devices migrating to AOSP will initially support the following AOSP policies:
+When creating an enrollment profile, ensure it does not conflict with any existing enrollment profiles.
 
-- Compliance settings:
+1. Login to the Intune Management Console with an account with Intune administrator permissions: [https://intune.microsoft.com/](https://intune.microsoft.com/)
 
-- - Device Health: Rooted devices
-  - Device Properties: Minimum OS version
-  - Device Properties: Maximum OS version
-  - System Security: Encryption - require encryption of data storage on the device
+1. Select __Devices__
 
-- Device restriction settings:
+1. Select __Enrollment__
 
-- - Block screen capture
+1. Select __Android__
 
-Other AOSP policies will not apply to Teams Android devices initially on migration. In future updates, additional AOSP policies will be supported and can be leveraged for Teams Android devices.
+1. Under Enrollment Profiles, select __Corporate-owned, user-associated devices__
 
-#### 3.2 Teams' settings
+1. Select __Create profile__
 
-Teams' settings configured on a device through Teams Admin Center will not be affected by the migration to AOSP and will persist after migration.
+1. Use the following for profile configuration:
 
-### 4. Firmware update
+   1. Name: give the profile a name we suggest “AOSP – Teams Devices”
+   
+   1. Description: Provide a description so others in the organization know what this enrollment profile is for, we suggest “This AOSP Management enrollment profile is to allow Teams Android Devices to enroll in Intune”
+   
+   1. Token expiration date: leave this blank
+   
+   1. Wi-Fi: select Not configured
+   
+   1. For Microsoft Teams devices: select Enabled
+   
+      ![AOSP Enrollment Profile Example](media/android-migration-guide/aosp-enrollment-profile-example.png)
+      
+1. Select __Next__
 
-After setting up your enrollment profiles and creating your AOSP policies, your devices are ready to go through migration to AOSP. The firmware update will be available in Teams Admin Center as a manual update to be applied to devices. Follow these steps to update a device:
+1. Review the profile and select __Create__
 
-1.  Select a device and select "Update".
-2.  Under the "Manual updates" section, you should see a new firmware available.
-3.  Select the firmware and choose to update it immediately, or schedule a preferred time and then update.
-4.  Check the "History" of the device to confirm the update is complete.
-5.  After a successful update, "Microsoft Intune" and "Authenticator" will be listed under the "Software health" section in device details. "Company portal" will no longer be listed.
-6.  Ensure the device is online during the entire process. If the update fails, check the network state and configuration and try again. If the update is failing repeatedly, contact Microsoft Support.
+The enrollment profile has been created successfully and now the environment is ready to enroll devices.
 
-On completion of the firmware update, the device should remain signed in (if it was already signed in) and should properly enroll into Intune. Once this process is complete, the device is ready to be used!
+## __AOSP Management Configuration & Compliance Policies__
+
+Teams Android Devices enrolled with AOSP Management support Intune configuration policies and Intune compliance policies which you may wish to use on your Teams Devices. These steps are not required for functionality but may offer desired functionality.
+
+### AOSP Management Configuration Policies
+
+Currently, the only supported configuration policy for Teams Android Devices enrolled with AOSP Management is the Device Restrictions profile and only the “block screen capture” restriction inside of that profile. Support for more configuration policies are planned in the future and will be updated here.
+
+### Creating a AOSP Management Configuration Policy
+
+These steps are specific to Teams Android devices, for non-Teams devices or for more information, please refer to the Intune guidance for setting up profiles: [Device restriction settings for Android (AOSP) in Microsoft Intune | Microsoft Learn](/mem/intune/configuration/device-restrictions-android-aosp)
+
+1. Login to the Intune Management Console with an account with Intune administrator permissions: [https://intune.microsoft.com/](https://intune.microsoft.com/)
+
+1. Select __Devices__
+
+1. Select __Configuration__
+
+1. Select __Create__ > __New Policy__
+
+1. Under Platform select __Android (AOSP)__
+
+1. Under Profile type select __Device Restrictions__
+
+1. Select __Create__
+
+1. Provide a name & description for the policy
+
+1. Select __Next__
+
+1. Under General set __Block screen capture__ to __Yes__
+
+1. Select __Next__
+
+1. Assign this profile to all devices or a Entra ID group of devices
+
+1. Select __Next__
+
+1. Select __Create__
+
+### AOSP Management Compliance Policies
+
+There is a limited set of supported compliance policies for Teams Android Devices enrolled with AOSP Management more are planned in the future:
+
+- Device Health: Rooted devices (Block)
+
+- Device Properties: Minimum OS version
+
+- Device Properties: Maximum OS version
+
+- System Security: Require encryption of data storage on device
+
+### Creating a AOSP Management Compliance Policy
+
+These steps are specific to Teams Android devices, for non-Teams devices or for more information, please refer to the Intune guidance for setting up profiles:  [Android (AOSP) compliance settings in Microsoft Intune | Microsoft Learn](/mem/intune/protect/compliance-policy-create-android-aosp)
+
+1. Login to the Intune Management Console with an account with Intune administrator permissions: [https://intune.microsoft.com/](https://intune.microsoft.com/)
+
+1. Select __Devices__
+
+1. Select __Compliance__
+
+1. Select __Create policy__
+
+1. Under Platform select __Android (AOSP)__
+
+1. Select __Create__
+
+1. Provide a name & description for the policy
+
+1. Select __Next__
+
+1. Enable the desired compliance settings from the supported list
+
+1. Select __Next__
+
+1. Select __Next__
+
+1. Assign this profile to all devices or a Entra ID group of devices
+
+1. Select __Next__
+
+1. Select __Create__
+
+## __Deploying AOSP Management capable device firmware__
+
+> [!NOTE]
+> This section may not be appliable yet if new AOSP Management capable firmware has not been made available for your devices. You will want to complete the enrollment profile creation prior to following these steps.
+### Updating devices
+
+During the second half of 2024, new Team Android Device firmware will be released which will support the migration to AOSP Management for currently deployed devices as well as any new Teams Device deployments. When the firmware update is made available from Teams Admin Center, it will be available as a manual update to allow time to migrate slowly. These steps will provide the guidance for how to update your devices through Teams Admin Center:
+
+1. Login to Teams Admin Center with an account with Teams device administrator permissions: [https://admin.teams.microsoft.com/](https://admin.teams.microsoft.com/)
+
+1. Select __Teams__ __devices__
+
+1. Select the desired device type
+
+1. Select the display name of the device you wish to update
+
+1. Select __Update software__
+
+1. Open __Manual updates__
+
+1. Select the new firmware update, you can choose to update immediately or during a maintenance window
+
+   ![AOSP firmware Upgrade](media/android-migration-guide/aosp-firmware-upgrade.png)
+   
+1. Select __Update__
+
+1. Allow time for your device to update
+
+1. Once updated your device should automatically sign back into Teams and function normally
+
+### Confirming the AOSP Management update has been applied
+
+1. Login to Teams Admin Center with an account with Teams device administrator permissions: [https://admin.teams.microsoft.com/](https://admin.teams.microsoft.com/)
+
+1. Select __Teams__ __devices__
+
+1. Select the desired device type
+
+1. Select the display name of the device you wish to update
+
+1. Select __History__ tab
+
+1. Look for a recent Software update action and confirm the status is successful
+
+1. Once successful, select the __Health__ tab
+
+1. A “Microsoft Intune App” and “Authenticator App” should be listed under software type and “Up to date” this confirms that the device is now running an AOSP Management capable firmware
+   ![AOSP Upgrade Complete](media/android-migration-guide/aosp-upgrade-complete.png)
+   
