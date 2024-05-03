@@ -78,8 +78,6 @@ Teams Mobile support for the *DefaultFileUploadAppId* policy isn't applicable. A
 ## Documentation for admins
 Admins should refer to the app description or third-party app documentation for information about App ID for this policy.
 
-- Currently, Box and Egnyte are the only supported apps. Contact Box and Egnyte for their App IDs.
-
 - For new app support, contact your desired third-party storage provider for the compatible app.
 
 ## Documentation for developers (third-party storage apps)
