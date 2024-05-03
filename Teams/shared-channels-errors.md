@@ -1,7 +1,7 @@
 ---
 title: Shared channels errors in Microsoft Teams
-author: MikePlumleyMSFT
-ms.author: mikeplum
+author: jacktremper
+ms.author: jtremper
 manager: pamgreen
 ms.reviewer: jasonlewis
 ms.date: 01/17/2024

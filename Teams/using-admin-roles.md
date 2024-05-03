@@ -3,7 +3,7 @@ title: Use Microsoft Teams administrator roles to manage Teams
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.date: 09/19/2018
+ms.date: 04/17/2024
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -45,6 +45,7 @@ To follow along, you must be an admin. The instructions for getting the permissi
 | Teams Communications Support Engineer   | Troubleshoot communications issues within Teams by using **advanced** tools. | View user profile page and troubleshoot user call quality problems using advanced troubleshooting toolset.<sup>2</sup> <br><br> Access, monitor, and troubleshoot tenant's call quality and reliability using data exposed in Call Quality Dashboard (CQD) down to the users who are impacted by poor call quality. |
 | Teams Communications Support Specialist | Troubleshoot communications issues within Teams by using **basic** tools.    | Access user profile page for troubleshooting calls in Call Analytics. Can only view user information for the specific user being searched for.<sup>2</sup> <br><br> Access, monitor, and troubleshoot tenant's call quality and reliability using data exposed in Call Quality Dashboard (CQD). |
 | Teams Device Administrator              | Manage devices configured for use with the Teams service.                    | Manage device configuration and updates, review device health and status of connected peripherals, set up and apply configuration profiles, and restart devices.<p>The Teams Device Administrator role doesn't provide access to call quality data or call analytics. To view call quality data or call analytics, you need to be assigned the Teams Communications Administrator role. |
+| Teams Telephony Administrator | Manage Telephony features in Teams services | Manage voice and telephony, including calling policies, phone number management and assignment, and voice applications. <br><br>Access to Public Switched Telephone Network (PSTN) usage reports from Teams admin center. <br><br>View user profile page. <br><br>Create and manage support tickets in Azure and the Microsoft 365 admin center. |
 
 <sup>1</sup> [PowerShell - Microsoft Teams module](https://www.powershellgallery.com/packages/MicrosoftTeams/) <br>
 <sup>2</sup> [Microsoft Teams admin center](./manage-teams-skypeforbusiness-admin-center.md)
@@ -58,7 +59,7 @@ For more information about limits, specifications, and other requirements that a
 
 ## Assign users to each role
 
-You can assign users to these roles in Microsoft Entra ID. To learn how to assign administrative roles to a user in Microsoft Entra ID, see [Assign a user to administrator roles in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).
+You can assign users to these roles in Microsoft Entra ID. To learn how to assign administrative roles to a user in Microsoft Entra ID, see [Assign user roles with Microsoft Entra ID](/entra/fundamentals/users-assign-role-azure-portal).
 
 ## Cmdlets available for each role
 
