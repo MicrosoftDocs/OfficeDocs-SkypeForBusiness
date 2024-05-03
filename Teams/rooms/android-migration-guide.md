@@ -19,7 +19,7 @@ ms.localizationpriority: medium
 description: Learn about how to migrate Android devices to AOSP
 ---
 
-# Overview of migrating Android devices
+# Migrating Teams Android Devices to AOSP Management from Device Administrator
 
 > [!NOTE] 
 > This article has been published ahead of the firmware which supports the migration to AOSP Management, this is intentional to allow organizations time to prepare their environment.  A message center post will be sent to your organization when the AOSP Management firmware is available, but these are steps to take now in preparation.
