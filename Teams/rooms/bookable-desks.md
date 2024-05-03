@@ -31,7 +31,7 @@ This article helps guide you through the process of setting up Bookable Desks in
 
 ## 1. Create Desk Pool Accounts
 
-Desk pool accounts are slightly different from room accounts. A desk pool can be reserved multiple times by different users at the same time, up to a defined capacity. However, rooms can only be reserved once at a specific time. Since this experience is only supported for groups of desks, you will need to create desk pool accounts. Creating a desk pool is similar to configuring a room. For detailed step-by-step instructions, refer to [How to create and book a desk pool - Exchange \| Microsoft Learn](/learn/modules/create-book-desk-pool-exchange/).
+Desk pool accounts are slightly different from room accounts. A desk pool can be reserved multiple times by different users at the same time, up to a defined capacity. However, rooms can only be reserved once at a specific time. Since this experience is only supported for groups of desks, you will need to create desk pool accounts. Creating a desk pool is similar to configuring a room. For detailed step-by-step instructions, refer to [How to create and book a desk pool - Exchange \| Microsoft Learn](/exchange/troubleshoot/outlook-issues/create-book-workspace-outlook).
 
 ## 2. Get device details
 
