@@ -1551,9 +1551,9 @@ items:
           href: manage-virtual-appointments-app.md
         - name: Manage the Walkie Talkie app
           href: walkie-talkie.md
-    - name: Manage third-party apps
+    - name: Manage partner apps
       items:
-        - name: Understand third-party apps
+        - name: Understand partner apps
           href: overview-third-party-apps.md
         - name: Know about app testing and validation by Microsoft
           href: overview-of-app-validation.md
