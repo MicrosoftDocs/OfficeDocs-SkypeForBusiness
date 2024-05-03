@@ -100,7 +100,7 @@ During an emergency call, a security desk is conferenced into the call, and the 
 
 ## Extended notifications
 
-You specify default notification settings using the Teams emergency calling policy. By using the extended notification parameter, you can add specific extended notification settings to the policy per defined emergency number.  
+You specify default notification settings using the Teams emergency calling policy. You can add specific extended notification settings to the policy per defined emergency number.  
 
 For example, extended notifications allow you to have appropriate settings for both the emergency number 911 and for the test emergency number 933. With this added functionality, you can avoid notifying your security desk for test emergency calls. 
 
@@ -111,6 +111,8 @@ The following example describes how to create default emergency call notificatio
 2. Then, create a second emergency calling policy called Default911. This policy specifies that the alert@contoso.com group is notified of an emergency call through a conference call.  The external PSTN number +14255551234 is brought into the conference call and the extended notification is added.  
 
 With this emergency calling policy, when an emergency call is made to any defined emergency number except 993, the group is notified via a conference call with the external PSTN participant. When an emergency call is made to the test emergency number 933, no notifications are generated. 
+
+**ADD TAC INSTRUCTIONS**
 
 ```powershell
 $en1 = New-CsTeamsEmergencyCallingExtendedNotification -EmergencyDialString "933"  
