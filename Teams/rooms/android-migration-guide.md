@@ -81,8 +81,8 @@ When creating an enrollment profile, ensure it does not conflict with any existi
    1. Wi-Fi: select Not configured
    
    1. For Microsoft Teams devices: select Enabled
-   
-      ![AOSP Enrollment Profile Example](media/android-migration-guide/aosp-enrollment-profile-example.png)
+      
+      ![AOSP Enrollment Profile](media/android-migration-guide/aosp-enrollment-profile.png)
       
 1. Select __Next__
 
@@ -195,8 +195,6 @@ During the second half of 2024, new Team Android Device firmware will be release
 1. Open __Manual updates__
 
 1. Select the new firmware update, you can choose to update immediately or during a maintenance window
-
-   ![AOSP firmware Upgrade](media/android-migration-guide/aosp-firmware-upgrade.png)
    
 1. Select __Update__
 
