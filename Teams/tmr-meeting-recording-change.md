@@ -27,11 +27,11 @@ When users in your org record Teams meetings, they're stored in OneDrive and Sha
 
 ## Recording storage
 
+By default, all recording files go to the OneDrive account of the user who selected **Record**. For channel meetings, the recording always goes to the SharePoint site of the channel. As an admin, you can't change where the recording is stored.
+
 For **non-Channel meetings**, the recording is stored in a folder named **Recordings** that's at the top level of the OneDrive that belongs to the person who started the meeting recording. For example, *recorder's OneDrive*/**Recordings**.
 
-For **Channel meetings**, the recording is stored in the Teams site documentation library in a folder named **Recordings**. For example: *Teams name - Channel name*/**Documents**/**Recordings**.
-
-By default, all recording files go to the OneDrive account of the user who selected **Record**. For channel meetings, the recording always goes to the SharePoint site of the channel. As an admin, you can't change where the recording is stored.
+For **Channel meetings**, the the recording is stored in the Teams site documentation library in a folder named **Recordings**. For example: *Teams name - Channel name*/**Documents**/**Recordings**.
 
 If the user doesn't have OneDrive or SharePoint, or the storage quota is full, the recording lands in our temporary storage location where it stays for 21 days. During that time, the organizer must download the recording. If not downloaded within 21 days, the recording is deleted.
 
