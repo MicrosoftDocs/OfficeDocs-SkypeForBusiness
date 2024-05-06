@@ -23,7 +23,7 @@ appliesto:
 
 # Use OneDrive and SharePoint for meeting recordings
 
-When users in your org record Teams meetings, they're stored in OneDrive and SharePoint. This article, made for admins, helps you understand recording storage and permissions.
+When users in your org record Teams meetings, they're stored in OneDrive and SharePoint. This article, made for admins, helps you understand recording storage and permissions for OneDrive and Sharepoint.
 
 ## Permissions or role-based access
 
