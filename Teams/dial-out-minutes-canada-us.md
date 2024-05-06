@@ -1,10 +1,11 @@
 ---
 title: Office 365 Audio Conferencing Extended Dial-out Minutes to US and Canada
-ms.author: jtremper
-author: jacktremper
+ms.author: jenz
+author: jenzamora
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 ms.reviewer: 
 ms.date: 02/21/2024
 audience: admin
