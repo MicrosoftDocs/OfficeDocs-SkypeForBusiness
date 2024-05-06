@@ -1,7 +1,7 @@
 ---
 title: Use Autopilot and Autologin to easily deploy Microsoft Teams Rooms consoles
-author: tonysmit
-ms.author: mstonysmith
+author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.date: 03/20/2024
 ms.topic: article
