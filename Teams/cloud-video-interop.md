@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 ms.reviewer: adam.jacobs
-ms.date: 5/2/2024
+ms.date: 5/6/2024
 f1.keywords:
 - NOCSH
 description: Use Cloud Video Interop(CVI) as an intermediate solution to allow third-party meeting room devices to join Microsoft Teams meetings. This article explains how you can plan and set up Cloud Video Interop(CVI) for users in your organization and has release notes.
@@ -92,7 +92,7 @@ Follow these steps to plan for your deployment:
 
 1. **Pick a deployment model/hosted model for your use**- During the plan phase, you should identify the devices that you won't replace with a native Teams device, and find a CVI partner that can support these devices
 1. **Select the license plan ideal for your organization**-     You need a license for each user who schedules meetings in which you want a CVI-enabled device to join. You can get the exact licensing requirements from your CVI partner. Licensing must be clear before you start your deployment.
-1. **Plan for capacity of VMs is you're hosting your video infrastructure.** [PLACEHOLDER: Adam, not sure what you think of this point. Should we keep this here?]
+1. **If you're self-hosting your video interop infrastructure, plan for capacity of VMs.**
 
 ### 2. Configure
 
@@ -114,7 +114,7 @@ The tenant key is the dial out to the partner service. In the following example,
 
 [PLACEHOLDER: Adam, do we need this screenshot/example?]
 
-![Tenant key example.](media/tenant-key-example.png)
+:::image type="content" source="media/cvi-ui-small.png" alt-text="Example of the tenant key." lightbox="media/cvi-ui-expand.png":::
 
 To learn about PowerShell cmdlets you can use, see the [Powershell for CVI](#powershell-for-cvi) section in this article.
 
