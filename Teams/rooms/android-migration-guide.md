@@ -76,13 +76,13 @@ When creating an enrollment profile, ensure it does not conflict with any existi
    
    1. Description: Provide a description so others in the organization know what this enrollment profile is for, we suggest “This AOSP Management enrollment profile is to allow Teams Android Devices to enroll in Intune”
    
-   1. Token expiration date: leave this blank
-   
+   1. Token expiration date: leave this blank (current enrollment profiles are limited to a 90-day expiration, the Intune team is working to extend this and we will update this documentation once that change is made. Until then, please select 90 days in the future and plan to renew)
+      
    1. Wi-Fi: select Not configured
    
    1. For Microsoft Teams devices: select Enabled
-      
-      ![AOSP Enrollment Profile](media/android-migration-guide/aosp-enrollment-profile.png)
+   
+      ![AOSP Enrollment Profile Example](media/android-migration-guide/aosp-enrollment-profile-example.png)
       
 1. Select __Next__
 
@@ -195,6 +195,8 @@ During the second half of 2024, new Team Android Device firmware will be release
 1. Open __Manual updates__
 
 1. Select the new firmware update, you can choose to update immediately or during a maintenance window
+
+   ![AOSP firmware Upgrade](media/android-migration-guide/aosp-firmware-upgrade.png)
    
 1. Select __Update__
 
