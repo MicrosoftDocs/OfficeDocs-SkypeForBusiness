@@ -42,7 +42,7 @@ The end of support for the classic Teams client starts July 1, 2024. The end of 
 **VDI timeline**:
 
 > [!IMPORTANT]
-> An updated VDI timeline will be published soon.
+> An updated VDI timeline for GCCH/DOD will be published soon.
 
 :::image type="content" source="media/new-teams-vdi-timeline.png" alt-text="A chart showing the timelines for classic Teams to new Teams for VDI.":::
 
