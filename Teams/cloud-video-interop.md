@@ -35,7 +35,7 @@ With CVI, Microsoft Teams delivers a native meeting experience for all participa
 
 ## Is CVI for me?
 
-CVI provides an intermediate service while you transition to a full native Microsoft Teams Solution, using Teams endpoints. The service provided should be part of your migration path.
+CVI uses Teams endpoints to provide an intermediate service while you transition to a full native Microsoft Teams Solution. The service provided should be part of your migration path.
 
 CVI is intended for customers who meet the following criteria:
 
@@ -47,7 +47,7 @@ While CVI provides a great intermediate solution, we encourage our customers to 
 
 ### Office 365 US Government and third-party services
 
-Office 365 allows you to integrate third-party applications into SharePoint Online sites, Skype for Business, Teams, Office applications included in Microsoft 365 Apps for enterprise (such as Word, Excel, PowerPoint, and Outlook), and Outlook Web App. In addition, Office 365 supports integration with third-party service providers. These third-party applications and services might involve storing, transmitting, and processing your organization's customer data on third-party systems. The Office 365 compliance and data protection commitments don't cover third-party systems outside of the Office 365 infrastructure. **It is recommended that you review the privacy and compliance statements provided by the third parties when assessing the appropriate use of these services for your organization.**
+Office 365 allows you to integrate third-party apps into SharePoint Online sites, Skype for Business, Teams, Office apps included in Microsoft 365 Apps for enterprise (such as Word, Excel, PowerPoint, and Outlook), and Outlook Web App. In addition, Office 365 supports integration with third-party service providers. These third-party apps and services might involve storing, transmitting, and processing your organization's customer data on third-party systems. The Office 365 compliance and data protection commitments don't cover third-party systems outside of the Office 365 infrastructure. **You should review the privacy and compliance statements from the third parties when assessing the appropriate use of these services for your organization.**
 
 > [!NOTE]
 > The Pexip Teams Connector must be hosted in the Arizona or Texas Azure regions for GCC High. The Virginia Azure region does not support the hosting of the Pexip Teams Connector for GCC High.
@@ -60,7 +60,7 @@ The solutions offered by our partners consist of components that can be deployed
 
 The following diagram shows the high-level architecture of our partner solutions.
 
-![Diagram describing a Teams CVI partner solution.](media/teams-cloud-video-interop-partner-solution.png)
+:::image type="content" source="media/teams-cloud-video-interop-partner-solution.png" alt-text="Diagram describing a Teams CVI partner solution.":::
 
 ### Partners Certified for Microsoft Teams
 
@@ -84,13 +84,13 @@ The following partners have video interop solutions for Microsoft Teams. Your co
 
 When deploying a CVI solution, it's important to understand that you're deploying a partner solution. You need to plan your deployment, get set up with provisioning details and partner tenant key, and consent to the video interop app in your organization. The general steps you should take to deploy CVI are listed in the following diagram.
 
-![Diagram describing deploying CVI in your organization.](media/deploying-cvi.png)
+:::image type="content" source="media/deploying-cvi.png" alt-text="Diagram describing deploying CVI in your organization which is outlined in the following steps.":::
 
 ### 1. Plan
 
 Follow these steps to plan for your deployment:
 
-1. **Pick a deployment model/hosted model for your use**- During the plan phase, you should identify the devices that you won't replace with a native Teams device, and find a CVI partner that can support these devices
+1. **Pick a deployment model/hosted model for your use**- During the plan phase, you should identify the devices that you aren't replacing with a native Teams device, and find a CVI partner that can support these devices.
 1. **Select the license plan ideal for your organization**-     You need a license for each user who schedules meetings in which you want a CVI-enabled device to join. You can get the exact licensing requirements from your CVI partner. Licensing must be clear before you start your deployment.
 1. **If you're self-hosting your video interop infrastructure, plan for capacity of VMs.**
 
@@ -110,9 +110,7 @@ To configure CVI, follow these steps.
 
 During the provision phase, you assign licenses to the appropriate users according to the partner configuration guide. You must go through the Azure Consent process to provide the partner access to your Teams environment. For more information about the Azure consent process, see [Permissions and consent in the Microsoft identity platform endpoint](/azure/active-directory/develop/v2-permissions-and-consent).
 
-The tenant key is the dial out to the partner service. In the following example, 813878896@t.plcm.vc is the tenant key.
-
-[PLACEHOLDER: Adam, do we need this screenshot/example?]
+The tenant key is the dial out to the partner service. In the following example, 'teams@rtcdevices.com' is the tenant key.
 
 :::image type="content" source="media/cvi-ui-small.png" alt-text="Example of the tenant key." lightbox="media/cvi-ui-expand.png":::
 
@@ -156,7 +154,7 @@ Depending on the partner solution, there are several ways to join a CVI-enabled 
 
 ## Manage CVI
 
-After CVI is deployed, you can manage the devices using the solutions provided by our partners. Each partner provides you with an administrative interface that includes both license and device management.
+After CVI is deployed, you can manage the devices using our partners' solutions. Each partner provides you with an administrative interface that includes both license and device management.
 
 Reporting is also available directly from the partner administrative interface. For more information on reporting capabilities, contact the partner of your choice.
 
@@ -196,3 +194,5 @@ Microsoft continues to work with CVI partners to make meetings between Microsoft
 *Both BlueJeans and Poly CVI solutions are in maintenance only mode. No new customers are being on-boarded.
 
 ## Related topics
+
+- [Microsoft Teams Rooms](/microsoftteams/rooms/)
