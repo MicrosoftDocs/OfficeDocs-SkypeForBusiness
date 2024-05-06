@@ -27,7 +27,7 @@ This article describes the requirements and limitations of using the new Microso
 
 ## Important announcement for classic Teams for VDI
 
-The **classic Teams for VDI** will reach end of availability on **June 30th, 2024**. For more information, see: [**End of availability for classic Teams client**](/MicrosoftTeams/teams-classic-client-end-of-availability)
+The **classic Teams for VDI** will reach end of service on **October 1, 2024**, and end of availability on **July 1, 2025**. For more information, see: [**End of availability for classic Teams client**](/MicrosoftTeams/teams-classic-client-end-of-availability)
 
 After that date, users won't be able to use classic Teams but instead be prompted to switch to new Teams. We recommend you update to new Teams today.
 
@@ -141,7 +141,7 @@ To deploy the new Microsoft Teams client to your organization, select one of the
 >You must use the latest version of the bootstrapper.exe. If you have downloaded the .exe previously, verify you have the latest version by viewing **Properties > Details > Product version** on your version and compare it to the properties on the latest download.
 
 > [!NOTE]
-> Make sure you have these KBs in your system, as they address many [policy settings restricting download and installation](new-teams-troubleshooting-installation.md#policy-settings-restricting-download--install) of new Teams.
+> Make sure you have these KBs in your system, as they address many [policy settings restricting download and installation](/microsoftteams/troubleshoot/teams-administration/fix-new-teams-installation-issues#policy-settings-restricting-download--install) of new Teams.
 >
 > 1. If using Windows 10 or 11, make sure you're installing the appropriate KB patch [Windows 10: October 26, 2023 - KB5031445 (OS Build 19045.3636)](https://support.microsoft.com/topic/october-26-2023-kb5031445-os-build-19045-3636-preview-03f350cb-57f9-45e6-bfd7-438895d3c7fa) or [Windows 11: October 26, 2023 - KB5031445 (OS Build 22621.2506)](https://support.microsoft.com/topic/october-31-2023-kb5031455-os-builds-22621-2506-and-22631-2506-preview-6513c5ec-c5a2-4aaf-97f5-44c13d29e0d4). Otherwise, when GPO **AllowAllTrustedApps** is set to false and the issue mentioned in the “Features currently not available and known issues in VDI with the new Teams” section of this article can occur (New Teams fails to launch for users logging into non-persistent virtual desktops, or the app is **not** visible in the Start Menu.).
 > 2. If GPO **BlockNonAdminUserInstall** is set to true, users might face the issue mentioned in the “Features currently not available and known issues  in VDI with the new Teams” section can occur (New Teams fails to launch for users logging into non-persistent virtual desktops, or the app is NOT visible in the Start Menu).
@@ -184,11 +184,11 @@ Admins can also use a local teams MSIX to provision new Teams. This option minim
 Let the user switch between them by using the toggle on the top left of the Teams UI.
 You can control who sees the toggle by configuring the Teams Admin Center policy **Teams update policy**.
 
-If the toggle is being used for the new Teams client rollout, admins must make sure that the VDI environments meet the minimum requirements described here: [Troubleshooting installation issues in the new Teams client](new-teams-troubleshooting-installation.md).
+If the toggle is being used for the new Teams client rollout, admins must make sure that the VDI environments meet the minimum requirements described here: [Troubleshooting installation issues in the new Teams client](/microsoftteams/troubleshoot/teams-administration/fix-new-teams-installation-issues).
 
 If IT administrators set restrictions for MSIX or deploy GPOs, it could prevent users from downloading and installing the app. If restrictions are in place, the user could see errors like this:
 
-  :::image type="content" source="media/new-teams-troubleshooting-error-isntallation-org-policies.png" alt-text="error with org policies":::
+  :::image type="content" source="media/new-teams-troubleshooting-error-isntallation-org-policies.png" alt-text="error with org policies.":::
 
 > [!IMPORTANT]
 > The 'side by side' method is only supported in persistent environments. Classic Teams 1.7.00.7956 or higher will suppress the app switcher toggle irrespective of the Teams Admin Center policy value when classic Teams is running in a non-persistent environment, where non-persistent is detected based on the installation folder of classic Teams MSI, C:\Program Files (x86).
