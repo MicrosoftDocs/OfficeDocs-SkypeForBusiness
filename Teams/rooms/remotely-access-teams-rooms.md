@@ -1,7 +1,7 @@
 ---
 title: Remotely access a Teams Room on Windows console
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmit
 manager: pamgreen
 ms.reviewer: kimmatlock
 ms.date: 4/23/2024
