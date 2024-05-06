@@ -4833,7 +4833,7 @@
 {
 "source_path": "Teams/cloud-video-interop-for-teams-set-up.md",
 "redirect_url": "microsoftteams/cloud-video-interop",
-"redirect_document_id": true
+"redirect_document_id": false
 },
 {
   "source_path": "teams/new-teams-troubleshooting-installation.md",
