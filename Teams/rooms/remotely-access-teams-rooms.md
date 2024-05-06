@@ -20,8 +20,6 @@ f1.keywords:
 search.appverid: MET150
 ms.localizationpriority: medium
 ms.custom: QuickDraft  
-ai-usage:  
-- ai-assisted  
 description: Set up remote access in Microsoft Teams Rooms Pro Management for troubleshooting and managing Teams Rooms consoles devices.
 ---
 
