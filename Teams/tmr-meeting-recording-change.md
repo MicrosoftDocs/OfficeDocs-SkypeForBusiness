@@ -23,7 +23,40 @@ appliesto:
 
 # Use OneDrive and SharePoint for meeting recordings
 
-When users in your org record Teams meetings, they're stored in OneDrive and SharePoint. This article, made for admins, helps you understand recording storage and permissions for OneDrive and Sharepoint.
+When users in your org record Teams meetings, they're stored in OneDrive and SharePoint. The video plays on the video player of OneDrive or SharePoint depending on where your users access the file. This article helps you, as an admin, understand recording storage and permissions for OneDrive and Sharepoint.
+
+## Recording storage
+
+For **non-Channel meetings**, the recording is stored in a folder named **Recordings** that's at the top level of the OneDrive that belongs to the person who started the meeting recording. For example, *recorder's OneDrive*/**Recordings**.
+
+For **Channel meetings**, the recording is stored in the Teams site documentation library in a folder named **Recordings**. For example: *Teams name - Channel name*/**Documents**/**Recordings**.
+
+By default, all recording files go to the OneDrive account of the user who selected **Record**. For channel meetings, the recording always goes to the SharePoint site of the channel. As an admin, you can't change where the recording is stored.
+
+If the user doesn't have OneDrive or SharePoint, or the storage quota is full, the recording lands in our temporary storage location where it stays for 21 days. During that time, the organizer must download the recording. If not downloaded within 21 days, the recording is deleted.
+
+Since videos are just like any other file in OneDrive and SharePoint, handling ownership and retention after an employee leaves follows the normal [OneDrive and SharePoint process](/onedrive/retention-and-deletion).
+
+To learn how to apply retention labels to Teams meeting recordings, see [How to auto-apply a retention label](/microsoft-365/compliance/apply-retention-labels-automatically).
+
+## Viewing permissions
+
+For **non-Channel meetings**, all meeting invitees, except for external participants, automatically get a personally shared link. The meeting organizer or the person who started the meeting recording must explicitly add external participants to the shared list.
+
+For **Channel meetings**, permissions are inherited from the owners and members list in the channel.
+
+## Recording quotas
+
+Teams meeting recording files live in OneDrive and SharePoint and are included in your quota for those services. To learn more, see
+[SharePoint quota](/sharepoint/sites/plan-site-maintenance-and-management#quotas), [Sharepoint limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits), and [OneDrive quota](/onedrive/set-default-storage-space).
+
+## Managing captions
+
+Captions help create inclusive content for viewers of all abilities. Closed captions for Teams meeting recordings are available during playback only if the user had transcription turned on at the time of recording. Admins must turn on transcription to ensure their users can record meetings with transcription. To learn more about enabling transcription for your users, see [Admins- Manage transcription and captions for Teams meetings](meeting-transcription-captions.md).
+
+As an owner, you can hide captions on the meeting recording, although the meeting transcript is available on Teams unless you delete it there.
+
+Closed captions are supported for Teams meeting recordings for 60 days from when the meeting is recorded. Closed captions aren't fully supported if the Teams Meeting Recording is moved or copied from its original location on OneDrive or SharePoint.
 
 ## Permissions or role-based access
 
@@ -43,65 +76,7 @@ When users in your org record Teams meetings, they're stored in OneDrive and Sha
 |Adhoc/Scheduled meeting with external participants|Other meeting member   |Member who clicked on Record                                  |Member who clicked on Record has full rights to the recording. Organizer has edit rights and can share. <br /><br /> All other members of the meeting from the same tenant as the organizer have read access. <br /><br />All other external participants have no access, and the Organizer must share it to them.|
 |Channel meeting                            |Channel Member         |Teams SharePoint location for that channel. **Note**: Channel meeting recording upload to SharePoint isn't supported for IP-based restrictions. We recommend using [Azure conditional access](/azure/active-directory/conditional-access/overview). |Member who clicked on Record has edit rights to the recording. <br /> <br />Every other member’s permissions are based on the Channel SharePoint permissions.|
 
-## Frequently asked questions
+## Related topics
 
-**Where will the meeting recording be stored?**
-
-- For non-Channel meetings, the recording is stored in a folder named **Recordings** that's at the top level of the OneDrive that belongs to the person who started the meeting recording. Example:
-
-  *recorder's OneDrive*/**Recordings**
-
-- For Channel meetings, the recording is stored in the Teams site documentation library in a folder named **Recordings**. Example:
-
-  *Teams name - Channel name*/**Documents**/**Recordings**
-
-**When Stream files (such as recordings) are stored in SharePoint/OneDrive, how is it decided where they go? Does the admin have the ability to change where it goes?**
-
-By default, all recording files go to the OneDrive account of the user who selected **Record**. For channel meetings, the recording always goes to the SharePoint site of the channel. The admin can't change where the recording is stored.
-
-**How do I handle recordings from former employees?**
-
-Since videos are just like any other file in OneDrive and SharePoint, handling ownership and retention after an employee leaves follows the normal [OneDrive and SharePoint process](/onedrive/retention-and-deletion).
-
-**Who has the permissions to view the meeting recording?**
-
-- For non-Channel meetings, all meeting invitees, except for external participants, automatically get a personally shared link. The meeting organizer or the person who started the meeting recording must explicitly add external participants to the shared list.
-
-- For Channel meetings, permissions are inherited from the owners and members list in the channel.
-
-> [!NOTE]
-> You'll not get an email when the recording finishes saving, but the recording will appear in the meeting chat once it’s finished. This will happen much quicker than it did in Stream previously.
-
-**How can I manage captions?**
-
-Closed captions for Teams meeting recordings are available during playback only if the user had transcription turned on at the time of recording. Admins must [turn on recording transcription](meetings-policies-recording-and-transcription.md#transcription) to ensure their users can record meetings with transcription.
-
-Captions help create inclusive content for viewers of all abilities. As an owner, you can hide captions on the meeting recording, although the meeting transcript is available on Teams unless you delete it there.
-
-Closed captions are supported for Teams meeting recordings for 60 days from when the meeting is recorded.
-
-Closed captions aren't fully supported if the Teams Meeting Recording is moved or copied from its original location on OneDrive or SharePoint.
-
-> [!NOTE]
-> There will be English-only closed captions (meeting transcription is not yet available in GCC).
-
-**What are the quotas?**
-
-Teams meeting recording files live in OneDrive and SharePoint and are included in your quota for those services. To learn more, see
-[SharePoint quota](/sharepoint/sites/plan-site-maintenance-and-management#quotas), [OneDrive](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits), and [OneDrive quota](/onedrive/set-default-storage-space).
-
-**How can I play a Teams meeting recording?**
-
-Your video plays on the video player of OneDrive or SharePoint depending on where you access the file.
-
-**How do I apply a retention label to Microsoft Teams meeting recordings?**
-
-See [How to autoapply a retention label](/microsoft-365/compliance/apply-retention-labels-automatically).
-
-**How do I assign policies to my users in Microsoft Teams and which policies take precedence?**
-
-See [Which policy takes precedence?](./policy-assignment-overview.md#which-policy-takes-precedence).
-
-**Where does the recording go if the user doesn't have OneDrive or SharePoint, or the storage quota is full?**
-
-The recording lands in our temporary storage location where it stays for 21 days. During that time, the organizer must download the recording. If not downloaded within 21 days, the recording is deleted.
+- [Which policy takes precedence?](./policy-assignment-overview.md#which-policy-takes-precedence)
+- [Teams meeting recording](meeting-recording.md)
