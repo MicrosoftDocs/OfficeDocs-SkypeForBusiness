@@ -76,8 +76,8 @@ When creating an enrollment profile, ensure it does not conflict with any existi
    
    1. Description: Provide a description so others in the organization know what this enrollment profile is for, we suggest “This AOSP Management enrollment profile is to allow Teams Android Devices to enroll in Intune”
    
-   1. Token expiration date: leave this blank
-   
+   1. Token expiration date: leave this blank (current enrollment profiles are limited to a 90-day expiration, the Intune team is working to extend this and we will update this documentation once that change is made. Until then, please select 90 days in the future and plan to renew)
+      
    1. Wi-Fi: select Not configured
    
    1. For Microsoft Teams devices: select Enabled
