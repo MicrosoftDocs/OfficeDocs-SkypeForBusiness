@@ -39,8 +39,8 @@ CVI provides an intermediate service while you transition to a full native Micro
 
 CVI is intended for customers who meet the following criteria:
 
-- Have a large deployment of meeting room devices and personal video devices deployment (50+ devices) that aren't qualified for direct integration with Microsoft Teams
-- Are supported by one of our CVI partners
+- Have a large deployment of meeting room devices and personal video devices deployment (50+ devices) that aren't qualified for direct integration with Microsoft Teams.
+- Are supported by one of our CVI partners.
 - Want to retain the value of their investment in their current meeting room devices and personal video devices while transitioning to a Microsoft Teams solution.
 
 While CVI provides a great intermediate solution, we encourage our customers to look into our native Teams Meeting solutions, such as Teams Rooms Systems, for the long term.
@@ -116,9 +116,9 @@ The tenant key is the dial out to the partner service. In the following example,
 
 :::image type="content" source="media/cvi-ui-small.png" alt-text="Example of the tenant key." lightbox="media/cvi-ui-expand.png":::
 
-To learn about PowerShell cmdlets you can use, see the [Powershell for CVI](#powershell-for-cvi) section in this article.
+To learn about PowerShell cmdlets you can use, see the [PowerShell for CVI](#powershell-for-cvi) section in this article.
 
-### 4. Consent
+#### 3.1. Consent
 
 You must provide permission consent for the video teleconferencing devices (VTCs) to join your organizations meetings via the partner service. Your partner provides the consent link.
 
@@ -129,7 +129,7 @@ You must provide permission consent for the video teleconferencing devices (VTCs
 |Calls.AccessMedia.All|Access media streams in a call as an app (preview)|Allows the app to get direct access to media streams in a call, without a signed-in user.|
 |OnlineMeetings.Read.All|Read Online Meeting details (preview)|Allows the app to read Online Meeting details in your organization, without a signed-in user.|
 
-### 5. Schedule
+### 4. Schedule
 
 After you enable CVI for a user, any Teams meeting they schedule through the Teams Meeting Add-in for Outlook, Teams Client, or OWA include necessary details for compatible devices to join.
 
@@ -138,7 +138,7 @@ Next, schedule Teams meeting with video interop coordinates. The enabled user ca
 - [Teams Meeting add-in for Outlook](outlook-add-in-authentication-policy-requirements.md)
 - [Teams client desktop and mobile](new-teams-desktop-admin.md)
 
-### 6. Join
+### 5. Join
 
 Depending on the partner solution, there are several ways to join a CVI-enabled meeting. Your CVI partner provides exact meeting join scenarios. Here are a few example scenarios:
 
