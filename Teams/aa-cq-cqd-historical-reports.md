@@ -34,26 +34,15 @@ description: Learn about how to use the updated Teams Auto Attendant & Call Queu
 
 This Power BI template provides three reports that allow organizations to report on the number of calls processed by Auto attendants and Call queues. It also provides agent performance insights.
 
-## V3.1.6 published on April 15, 2024
+## V3.1.7 published on July 15, 2024
 
 The Teams Auto Attendant & Call Queue Historical Report Power BI template provides the following three reports:
 
-- The Auto Attendant report shows analytics for calls coming into your Auto attendants.
-  - [Original](media/aa-cq-historical-report-sample-aa-v310-orig.png)
-  - [New (as of v3.1.0)](media/aa-cq-historical-report-sample-aa-v316-new.png)
-
-- The Call Queue report shows analytics for calls coming into your Call queues.
-  - [Original](media/aa-cq-historical-report-sample-cq-v310-orig.png)
-  - [New (as of v3.1.0)](media/aa-cq-historical-report-sample-cq-v316-new.png)
-
-- The Agent Timeline report shows a timeline view of agents being active in Call queue calls.
-  - [Original](media/aa-cq-historical-report-sample-at-v310-orig.png)
-  - [New (as of v3.1.0)](media/aa-cq-historical-report-sample-at-v316-new.png)
+- The [Auto Attendant](media/aa-cq-historical-report-sample-aa-v316-new.png) report shows analytics for calls coming into your Auto attendants.
+- The [Call Queue](media/aa-cq-historical-report-sample-cq-v316-new.png) report shows analytics for calls coming into your Call queues.
+- The [Agent Timeline](media/aa-cq-historical-report-sample-at-v316-new.png) report shows a timeline view of agents being active in Call queue calls.
 
 These reports use data from the Voice Applications Analytics Collector (VAAC) service.
-
-> [!NOTE]
-> The `Original` reports will be removed from the Power BI template in July 2024.
 
 ## V3.x.x prerequisites
 
@@ -85,12 +74,12 @@ Use one of the following methods to control access to the historical reports:
 
 1. Voice applications policy
 
-If you want to control which Auto attendants, Call queues and Agents the user can report on and don't want to provide any access to Teams admin center, create a voice applications policy for the user that grants them access to historical reporting and assign them as an Authorized user to the appropriate Auto attendants and Call queues.
+If you want to control which Auto attendants, Call queues and Agents the users can report without provinding access to Teams admin center, create a voice applications policy that grants them access to historical reporting and assign them as an Authorized user to the appropriate Auto attendants and Call queues.
 
 For more information, see [Plan for Auto attendant and Call queue authorized users](./aa-cq-authorized-users-plan.md).
 
 > [!TIP]
-> Using the voice applications policy to control access is the recommended approach.  With the voice applications policy and Authorized users it is possible to control which Auto attendants, Call queues, and Agents that a user can report on. If necessary, the policy still allows a user to report on all Auto attendants, Call queues, and Agents without the need to grant the user access to Teams admin Center.
+> Using the voice applications policy to control access is the recommended approach.  With the voice applications policy and Authorized users it is possible to control which Auto attendants, Call queues, and Agents a user can report on. If necessary, the policy still allows a user to report on all Auto attendants, Call queues, and Agents without providing access to Teams admin Center.
 
 To access this functionality an existing voice applications policy must be modified to enable the historical reporting permissions or, a new voice applications policy must be created with the historical reporting permissions enabled.  The historical reporting permissions can currently only be set through PowerShell and will be available in Teams admin center later this year. 
 
@@ -105,12 +94,12 @@ For more information, see:
 
 2. CQD pipeline (legacy)
 
-If you want the user to report on **all** the Auto attendants, Call queues, and Agents in the tenant and you also want to grant the user access to Teams admin center to run other Usage reports, assign the user a CQD access role with both **View Reports** and **View EUII fields** set to **Yes**.
+If you want the user to report on **all** the Auto attendants, Call queues, and Agents in the tenant and you want to grant the user access to Teams admin center to run other Usage reports, assign the user a CQD access role with both **View Reports** and **View EUII fields** set to **Yes**.
 
 For more information, see [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
 
 > [!NOTE]
-> If a user is assigned a CQD role and a voice applications policy, the CQD role will take precendence and the user will see all the Auto attendants, Call queues and Agents in the tenant.
+> If a user is assigned a CQD access role and a voice applications policy, the CQD role will take precendence and the user will see all the Auto attendants, Call queues and Agents in the tenant.
 
 ## V3.x.x desktop installation
 
@@ -118,11 +107,11 @@ The following steps assume the Power BI Desktop client is installed on your comp
 
 Perform the following steps:
 
-1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.1.6.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
+1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.1.7.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
 
 2. Open the zip file.
 
-3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.1.6.pbit` template file. Power BI Desktop should launch.
+3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.1.7.pbit` template file. Power BI Desktop should launch.
 
 4. You're prompted to select the **DataSource**, **Report Level**, and **UTC Offset**.  
 
@@ -748,9 +737,10 @@ Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx
 
 |Version  |Date Published     |Supported |Filename                                                    |Description                                                             |
 |:--------|:------------------|:---------|:-----------------------------------------------------------|:-----------------------------------------------------------------------|
-|3.1.6    |April 15, 2024     |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.6 |Support click2call, callback, authorized users, and some visuals changed due to deprecation |
-|3.1.5    |January 29, 2024   |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.5 |Corrected an error with the Per Day query logic for fAgentTimelineAnalytics and fAgentTimelineAnalyticsSummary  |
-|3.1.4    |January 24, 2024   |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.4 |Per day reporting for large volume customers, accessibility improvements for screen readers   |
+|3.1.7    |July 15, 2024      |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.7 |Improved support for authorized users, removed original reporting templates |
+|3.1.6    |April 15, 2024     |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.6 |Support click2call, callback, authorized users, and some visuals changed due to deprecation |
+|3.1.5    |January 29, 2024   |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.5 |Corrected an error with the Per Day query logic for fAgentTimelineAnalytics and fAgentTimelineAnalyticsSummary  |
+|3.1.4    |January 24, 2024   |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.4 |Per day reporting for large volume customers, accessibility improvements for screen readers   |
 |3.1.3    |September 13, 2023 |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.3 |Accessibility improvements for screen readers   |
 |3.1.2    |July 21, 2023      |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.2 |Support any time zone offset, added detail call pop-up on Auto Attendant & Call Queue, No Agents support    |
 |3.1.1    |May 11, 2023       |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.1 |Corrected an error with the Date, Agent, and Call Queue slicers          |
