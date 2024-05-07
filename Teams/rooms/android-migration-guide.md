@@ -68,7 +68,7 @@ When creating an enrollment profile, verify it doesn't conflict with any enrollm
    - **Wi-Fi** Select **Not configured**.
    - **Microsoft Teams devices** Select **Enabled**.
 
-   ![AOSP Enrollment Profile Example](media/android-migration-guide/aosp-enrollment-profile-example.png)
+   ![AOSP Enrollment Profile Example](media/android-migration-guide/aosp-enrollment-profile.png)
 
 6. Select **Next**.
 7. Review the profile and then select **Create**.
@@ -135,11 +135,8 @@ These steps provide the guidance for how to update your devices through Teams Ad
 3. Select the desired device type.
 4. Select the display name of the device you wish to update.
 5. Select **Update software**.
-6. Open **Manual updates_**.
+6. Open **Manual updates**.
 7. Select the new firmware update, then you can choose to **update immediately** or **during a maintenance window**.
-
-   ![AOSP firmware Upgrade](media/android-migration-guide/aosp-firmware-upgrade.png)
-
 8. Select **Update**.
 9. Allow time for your device to update.
 
@@ -148,7 +145,7 @@ Once the device updates, it should automatically sign back in to Teams and funct
 ### Confirming the AOSP Management update is installed
 
 1. Log in to Microsoft Teams admin center with an account with Teams device administrator permissions: [https://admin.teams.microsoft.com/](https://admin.teams.microsoft.com/).
-2. Select **Teams_**, then select **Devices**.
+2. Select **Teams**, then select **Devices**.
 3. Select the desired device type.
 4. Select the display name of the device you wish to update.
 5. Select **History**.
