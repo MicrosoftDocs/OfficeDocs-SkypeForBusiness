@@ -1,10 +1,10 @@
 ---
 title: Remotely access a Teams Room on Windows console
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 manager: pamgreen
 ms.reviewer: kimmatlock
-ms.date: 4/23/2024
+ms.date: 5/06/2024
 ms.topic: article
 audience: admin
 appliesto:
@@ -20,8 +20,6 @@ f1.keywords:
 search.appverid: MET150
 ms.localizationpriority: medium
 ms.custom: QuickDraft  
-ai-usage:  
-- ai-assisted  
 description: Set up remote access in Microsoft Teams Rooms Pro Management for troubleshooting and managing Teams Rooms consoles devices.
 ---
 
@@ -103,8 +101,7 @@ The Teams Rooms Pro Management portal then logs a small amount of data. This dat
 - It logs when a Teams Rooms Pro management user remotely accesses the device. However, audio isn't enabled.
 
 > [!Note]
-> There are nbo additional Windows services required for the remote access feature.
-
+> There are no additional Windows services required for the remote access feature.
 ## Enable remote access
 
 By default, remote access is disabled. To enable remote access:
@@ -149,7 +146,7 @@ To remotely administer a Teams Rooms console:
     |Enter full screen|Expand the modal window to enter full screen|
     |End session|Terminates the session.|
 
-  > [!NIMPORTANT]
+> [!NIMPORTANT]
   > Users with view only access permission can use these commands. However, they won't have the ability to interact with the Teams Rooms console or save any changes. For those users that have modify access permissions, they can interact with the console and save any changes.
 
 ## Security best practices for remote access
