@@ -52,7 +52,7 @@ As an admin, you can manage how users in your org use Copilot for Teams meetings
 > Copilot for Teams meetings isn’t available in end-to-end encrypted meetings. For more information on end-to-end encryption, see [Require end-to-end encryption for sensitive Teams meetings](end-to-end-encrypted-meetings.md).
 
 > [!NOTE]
-> Copilot isn’t available for GCC, GCC High, DoD, and EDU.
+> Copilot isn’t available for GCC, GCC High, and DoD.
 
 ## Prerequisites
 

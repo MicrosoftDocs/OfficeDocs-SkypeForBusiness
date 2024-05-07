@@ -102,7 +102,7 @@ items:
                 - name: Update to the new Teams for Web
                   href: new-teams-web.md                          
                 - name: Troubleshooting installation issues          
-                  href: new-teams-troubleshooting-installation.md                 
+                  href: /microsoftteams/troubleshoot/teams-administration/fix-new-teams-installation-issues
                 - name: Known issues in new Teams
                   href: new-teams-known-issues.md
                 - name: Classic Teams client end of availability
@@ -1164,7 +1164,7 @@ items:
               href: getting-service-phone-numbers.md
             - name: How many phone numbers can you get?
               href: how-many-phone-numbers-can-you-get.md
-            - name: Transferring phone numbers
+            - name: Transfer phone numbers
               items: 
                 - name: What's a port order?
                   href: phone-number-calling-plans/port-order-overview.md
@@ -1265,6 +1265,8 @@ items:
               href: set-up-communications-credits-for-your-organization.md
             - name: Add funds and manage Communications Credits
               href: add-funds-and-manage-communications-credits.md
+        - name: Emergency numbers country reference
+          href: emergency-numbers-reference.md
         - name: Microsoft Teams call flows
           href: microsoft-teams-online-call-flows.md
         - name: Contact Center integrations
@@ -1424,33 +1426,59 @@ items:
       items:
         - name: Teams device store
           href: devices/device-store.md
-        - name: Deploy
+        - name: Teams certified devices
+          href: devices/teams-ip-phones.md
+        - name: Phones for Teams
+          href: devices/phones-for-teams.md
+        - name: Teams displays
           items:
-            - name: Configure notifications for Mi push
-              href: devices/xiaomi-push-notifications.md
-            - name: Deploy Teams phones and Teams displays using Intune
-              href: devices/phones-displays-deploy.md
+            - name: Overview
+              href: devices/teams-displays.md
             - name: Hot desking Teams Displays
               href: devices/hot-desking-teams-displays.md
+        - name: Teams panels
+          items: 
+            - name: Overview
+              href: devices/overview-teams-panels.md
+            - name: Plan
+              href: devices/teams-panels.md
+            - name: Manage
+              items:
+                - name: Feature management
+                  items:
+                    - name: Use Teams panels
+                      href: devices/use-teams-panels.md
+                    - name: App support on Teams panels  
+                      href: app-support-on-Teams-panels.md
+                    - name: Check-in and room release 
+                      href: devices/check-in-and-room-release.md
+                    - name: Reserve rooms with a QR code
+                      href: devices/reserving-rooms-with-a-qr-code.md
+        - name: SIP gateways
+          items:
+            - name: Plan for SIP Gateway
+              href: sip-gateway-plan.md
+            - name: Configure SIP Gateway
+              href: sip-gateway-configure.md
+        - name: Deploy
+          items:
+            - name: Plan phones and displays deployment
+              href: devices/plan-device-deployment.md
             - name: Set up common area phones
               href: set-up-common-area-phones.md
             - name: Set up a common area mobile phones
               href: devices/common-area-mobile-phones.md
-            - name: SIP Gateway
-              items:
-                - name: Plan for SIP Gateway
-                  href: sip-gateway-plan.md
-                - name: Configure SIP Gateway
-                  href: sip-gateway-configure.md
             - name: Set up auto answer for Teams Android devices
               href: set-up-auto-answer-on-teams-android.md
             - name: Remote provisioning and sign-in
               href: devices/remote-provision-remote-login.md
             - name: Remote sign in and sign out
               href: devices/remote-sign-in-and-sign-out.md
+            - name: Deploy Teams phones and Teams displays using Intune
+              href: devices/phones-displays-deploy.md
             - name: Authentication best practices for Android devices
               href: devices/authentication-best-practices-for-android-devices.md          
-        - name: Manage and monitor
+        - name: Manage
           items:
             - name: Manage your devices in Teams
               href: devices/device-management.md
@@ -1460,60 +1488,36 @@ items:
               href: devices/manage-device-tags.md
             - name: Update your devices remotely
               href: devices/remote-update.md
-            - name: Phones for Teams
-              href: devices/phones-for-teams.md
-            - name: Teams displays
-              href: devices/teams-displays.md
-            - name: Teams panels
-              items: 
-                  - name: Overview
-                    href: devices/overview-teams-panels.md
-                  - name: Plan
-                    href: devices/teams-panels.md
-                  - name: Manage
-                    items:
-                    - name: Feature management
-                      items:
-                      - name: Use Teams panels
-                        href: devices/use-teams-panels.md
-                      - name: App support on Teams panels  
-                        href: app-support-on-Teams-panels.md
-                      - name: Check-in and room release 
-                        href: devices/check-in-and-room-release.md
-                      - name: Reserve rooms with a QR code
-                        href: devices/reserving-rooms-with-a-qr-code.md
-            - name: QoS on Teams devices
-              href: devices/qos-on-teams-devices.md
-            - name: USB audio and video devices
-              href: devices/usb-devices.md
-            - name: RealWear for Teams
-              href: flw-realwear.md
-            - name: Multi-Stream IntelliFrame
-              href: devices/smartvision-admin.md
-            - name: Cloud IntelliFrame
-              href: devices/cloud-intelliframe.md
-            - name: Monitoring
-              items: 
-                  - name: Teams device health monitoring
-                    href: alerts/device-health-status.md 
-                  - name: Teams devices and peripherals
-                    href: teams-device-health.md   
+            - name: Feature management
+              items:
+                - name: QoS on Teams devices
+                  href: devices/qos-on-teams-devices.md
+                - name: USB audio and video devices
+                  href: devices/usb-devices.md
+                - name: RealWear for Teams
+                  href: flw-realwear.md
+                - name: Multi-Stream IntelliFrame
+                  href: devices/smartvision-admin.md
+                - name: Cloud IntelliFrame
+                  href: devices/cloud-intelliframe.md
+        - name: Monitor
+          items: 
+            - name: Teams device health monitoring
+              href: alerts/device-health-status.md
+            - name: Teams devices and peripherals
+              href: teams-device-health.md
     - name: Reference
       items:
-        - name: Teams certified devices
-          href: devices/teams-ip-phones.md
         - name: Meeting room devices and solutions
           href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-        - name: Plan phones and displays deployment
-          href: devices/plan-device-deployment.md
+        - name: Configure notifications for Mi push
+          href: devices/xiaomi-push-notifications.md
         - name: Plan management with Azure Monitor
           href: rooms/azure-monitor-plan.md
         - name: Deploy Azure Monitor
           href: rooms/azure-monitor-deploy.md
         - name: Manage devices with Azure Monitor
-          href: rooms/azure-monitor-manage.md
-        - name: Resource accounts for Skype for Business Server
-          href: rooms/with-skype-for-business-server-2015.md           
+          href: rooms/azure-monitor-manage.md       
               
 - name: Manage apps in Teams
   items: 
