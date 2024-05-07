@@ -18,7 +18,7 @@ ms.collection:
   - Tier2
 f1.keywords: 
   - NOCSH
-localization_priority: Normal
+ms.localizationpriority: Medium
 description: A guide comparing the Teams devices for shared spaces features between Windows and Android.
 ---
 
