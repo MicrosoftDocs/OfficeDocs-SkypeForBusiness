@@ -16,10 +16,10 @@ ms.collection:
 f1.keywords:
   - NOCSH
 ms.localizationpriority: medium
-description: Learn about how to migrate Android devices to AOSP Device Management.
+description: Learn about how to migrate Teams Android devices to AOSP Device Management.
 ---
 
-# Migrating Teams Android Devices to AOSP Management from Device Administrator
+# Migrating Teams Android Devices to AOSP Device Management from Device Administrator
 
 > [!IMPORTANT] 
 > This article is being published ahead of the firmware update which supports the migration to Android Open Source Project (AOSP) Management. Publishing this article early allows organizations the time to prepare their environment to migrate from Android Device Administrator to the new mobile device enrollment (MDM) method created by Intune called Android Open Source Project (AOSP) Management. A message center post will be sent to your organization when the AOSP Management firmware is available.
