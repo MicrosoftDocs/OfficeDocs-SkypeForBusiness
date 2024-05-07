@@ -63,22 +63,23 @@ Set-CsTeamsEmergencyCallingPolicy -Identity "TestECP" -NotificationGroup "123@co
 
 ## Configure extended notifications
 
-Extended notifications allow you to specify additional emergency numbers. For example, you can specify settings for the emergency number 911 and for the test emergency number 933. With this functionality, you can avoid notifying your security desk for test emergency calls. 
+Extended notifications allow you to specify additional emergency numbers. For example, you can specify settings for the emergency number 911 and for the test emergency number 933. With this functionality, you can avoid notifying your security desk for test emergency calls.  
 
-You can add extended notification settings to the policy per defined emergency number. For example:
+You can add extended notification settings to the policy per defined emergency number. For example purposes, assume you want to create an emergency calling policy called Default911 that also includes an extended notification setting.  
 
-1. Create an emergency calling policy called Default911. This policy specifies that the alert@contoso.com group is notified of an emergency call through a conference call. The external PSTN number +14255551234 is brought into the conference call and the extended notification is added.  
+- The policy specifies that the security group alert@contoso.com is notified of an emergency call through a conference call. The external PSTN number +14255551234 is brought into the conference call.  
 
-2. Create the extended notification for the test emergency number 933. If you are using Calling Plan or Operator Connect, this emergency number is predefined. If you are using Direct Routing, you need to define the number in the emergency call routing policy. 
+- The policy includes an extended notificatiom for the test emergency number 933. If you are using Calling Plan or Operator Connect, this emergency number is predefined. If you are using Direct Routing, you need to define the number in the emergency call routing policy. A notification is sent to Testalert@contoso.com, but not to the actual security desk.  
 
-When an emergency call is made to any defined emergency number except 933, the group is notified via a conference call with the external PSTN participant. When an emergency call is made to the test emergency number 933, no notifications are generated. 
-
-For example:
 
 | Emergency dial string | Notification groups | Number to dial | Notification mode |
 | :------------| :-------| :-------| :-------|
-| 911 |   alert@contoso.com  |  | Send notifiction only |
-| 933 | 123@contoso.com;567@contoso.com | 14255551234 | Conference in but are muted|
+| 911 |   alert@contoso.com  | 14255551234 | Conference in but are muted |
+| 933 | Testalert@contoso.com |  | Send notification only |
+
+- You can have more than one notification group per number.
+
+- You can only enter a number to dial when the notification mode is NOT "Send notification only".  
 
 
 ### Use the Teams admin center
@@ -86,11 +87,6 @@ For example:
 To configure the extended notifications example by using the Teams admin center, go to **Voice > Emergency policies**, select the **Calling policies** tab, and then select **Add**.  
 
 For each emergency number, specify the **Emergency dial string**, the associated **Notification Groups**, the **Number to dial for emergency notifications**, and the **Notification mode**.
-
-- You can have more than one notification group per number.
-
-- You can only enter a number to dial when the notification mode is NOT "Send notification only".  
-
 
 
 ### Use Powershell
