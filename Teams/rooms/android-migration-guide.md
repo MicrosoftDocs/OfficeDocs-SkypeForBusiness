@@ -68,7 +68,7 @@ When creating an enrollment profile, verify it doesn't conflict with any enrollm
    - **Wi-Fi** Select **Not configured**.
    - **Microsoft Teams devices** Select **Enabled**.
 
-   ![AOSP Enrollment Profile Example](media/android-migration-guide/aosp-enrollment-profile.png)
+   ![Screenshot of AOSP enrollment profile.](media/android-migration-guide/aosp-enrollment-profile.png)
 
 6. Select **Next**.
 7. Review the profile and then select **Create**.
@@ -154,4 +154,4 @@ Once the device updates, it should automatically sign back in to Teams and funct
 
 A 'Microsoft Intune App' and 'Authenticator App' should be listed under software type and **Up to date** this message confirms that the device is now running an AOSP Management capable firmware.
 
-   ![AOSP Upgrade Complete](media/android-migration-guide/aosp-upgrade-complete.png)
+   ![Screenshot of AOSP upgrade complete.](media/android-migration-guide/aosp-upgrade-complete.png)
