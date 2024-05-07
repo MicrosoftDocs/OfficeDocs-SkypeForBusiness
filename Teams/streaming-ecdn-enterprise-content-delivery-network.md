@@ -14,7 +14,7 @@ ms.reviewer: gaurav.chawla
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-localization_priority: medium
+ms.localizationpriority: medium
 appliesto: 
   - Microsoft Teams
 ms.custom:
