@@ -35,7 +35,7 @@ The new Teams client delivers up to two times faster app performance while usi
 |Hard disk              |3.0 GB of available disk space.                                                            |
 |Display                |1024 x 768 or higher resolution.                                                           |
 |Graphics hardware      |Graphics hardware acceleration requires DirectX 9 or later, with WDDM 2.0 or higher for Windows 10 (or WDDM 1.3 or higher for Windows 10 Fall Creators Update). |
-|Operating system       |Windows 10 version 10.0.19041 or higher (excluding Windows 10 LTSC for Teams desktop app<sup>1</sup>). |
+|Operating system       |Windows 10 version 10.0.19041 or higher (excluding Windows LTSC versions for Teams desktop app<sup>1</sup>). |
 |Webview2               |Update to the most current version. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise). |
 |Video                  |USB 2.0 video camera.                                                                      |
 |Devices                |Standard laptop camera, microphone, and speakers.                                          |
