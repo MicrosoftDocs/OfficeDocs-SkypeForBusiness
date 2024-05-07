@@ -15,7 +15,7 @@ ms.collection:
   - M365-collaboration
   - teams-rooms-devices
   - Tier1
-localization_priority: Normal
+ms.localizationpriority: Medium
 description: Learn about configuring ServiceNow in the Teams Rooms Pro Management portal
 f1keywords: 
 ---
