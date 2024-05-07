@@ -34,19 +34,7 @@ You can also configure extended notification settings per emergency number. For 
 
 ## Configure security desk notifications
 
-You configure security desk notifications by using emergency calling policies, which you can set by using the Teams admin center or PowerShell.
-
-### Use Teams admin center
-
-To configure security desk notifications by using the Teams admin center, see [Manage emergency calling policies](manage-emergency-calling-policies.md).
-
-### Use PowerShell
-
-To configure security desk notifications with PowerShell, use the  [Set-CsTeamsEmergencyCallingPolicy](/powershell/module/teams/set-csteamsemergencycallingpolicy) cmdlet. The following example modifies an existing policy instance with identity TestECP.
-
-``` PowerShell
-Set-CsTeamsEmergencyCallingPolicy -Identity "TestECP" -NotificationGroup "123@contoso.com;567@contoso.com"
-```
+You configure security desk notifications by using emergency calling policies, which you can set by using the Teams admin center or by using PowerShell.
 
 You can grant an emergency calling policy to a Teams user account, assign to a network site, or both. When a Teams client starts or changes a network connection, Teams performs a lookup of the network site where the client is located:
 
@@ -57,25 +45,54 @@ You can grant an emergency calling policy to a Teams user account, assign to a n
 - If the Teams client is unable to obtain an emergency calling policy, then the user isn't enabled for security desk notification.
 
 
+### Use Teams admin center
+
+To configure security desk notifications by using the Teams admin center, go to **Voice > Emergency policies**, select the **Calling policies** tab, and then select **Add**.  
+
+For complete information on using the Teams admin center, see [Manage emergency calling policies](manage-emergency-calling-policies.md).  
+
+### Use PowerShell
+
+To configure security desk notifications by using PowerShell, use the  [Set-CsTeamsEmergencyCallingPolicy](/powershell/module/teams/set-csteamsemergencycallingpolicy) cmdlet. 
+
+The following example modifies an existing policy instance with identity TestECP and specifies the notification groups 123@contoso.com and 567@contoso.com:
+
+``` PowerShell
+Set-CsTeamsEmergencyCallingPolicy -Identity "TestECP" -NotificationGroup "123@contoso.com;567@contoso.com"
+```
+
 ## Configure extended notifications
 
-Extended notifications allow you to specify settings for both the emergency number 911 and for the test emergency number 933. With this functionality, you can avoid notifying your security desk for test emergency calls. 
+Extended notifications allow you to specify additional emergency numbers. For example, you can specify settings for the emergency number 911 and for the test emergency number 933. With this functionality, you can avoid notifying your security desk for test emergency calls. 
 
-You specify default notification settings using the Teams emergency calling policy. You can add specific extended notification settings to the policy per defined emergency number.  
+You can add extended notification settings to the policy per defined emergency number. For example, you might:
 
-The examples in this section describe how to create default emergency call notification settings for both 911 emergency calls and 933 emergency test calls:
-
-1. Create the extended notification for the test emergency number 933 with no settings for notification. If you are using Calling Plan or Operator Connect, this emergency number is predefined. If you are using Direct Routing, you need to define the number in the emergency call routing policy. 
+1. Create the extended notification for the test emergency number 933. If you are using Calling Plan or Operator Connect, this emergency number is predefined. If you are using Direct Routing, you need to define the number in the emergency call routing policy. 
 
 2. Create a second emergency calling policy called Default911. This policy specifies that the alert@contoso.com group is notified of an emergency call through a conference call. The external PSTN number +14255551234 is brought into the conference call and the extended notification is added.  
 
-When an emergency call is made to any defined emergency number except 993, the group is notified via a conference call with the external PSTN participant. When an emergency call is made to the test emergency number 933, no notifications are generated. 
+When an emergency call is made to any defined emergency number except 933, the group is notified via a conference call with the external PSTN participant. When an emergency call is made to the test emergency number 933, no notifications are generated. 
+
+For example:
+
+123@contoso.com;567@contoso.com 
+
+| Emergency dial string | Notification groups | Number to dial | Notification mode |
+| :------------| :-------| :-------| :-------|
+| 933 | 123@contoso.com;567@contoso.com | 14255551234 | Conference in but are muted|
+| 911 |   alert@contoso.com  |  | Send notifiction only |
 
 ### Use the Teams admin center
 
-To configure the extended notifications example by using the Teams admin center:
+To configure the extended notifications example by using the Teams admin center, go to **Voice > Emergency policies**, select the **Calling policies** tab, and then select **Add**.  
 
-**ADD INSTRUCTIONS** or link to manage emergency policies article?
+For each emergency number, specify the **Emergency dial string**, the associated **Notification Groups**, the **Number to dial for emergency notifications**, and the **Notification mode**.
+
+- You can have more than one notification group per number.
+
+- You can only enter a number to dial when the notification mode is NOT "Send notification only".  
+
+
 
 ### Use Powershell
 
