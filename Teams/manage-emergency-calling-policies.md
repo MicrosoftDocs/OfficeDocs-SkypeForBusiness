@@ -37,7 +37,7 @@ For users, you can use the global (Org-wide default) policy or create and assign
 
 If you assigned an emergency calling policy to a network site and to a user and if that user is at that network site, the policy that's assigned to the network site overrides the policy that's assigned to the user.
 
-For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md) and [Configure security desk notifications](security-desk-notifications.md).
+For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md) and [Configure security desk notifications](emergency-calling-security-desk-notifications.md).
 
 ## Create a custom emergency calling policy
 
@@ -120,7 +120,7 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emerg
 
 - [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
 
-- [Configure security desk notifications](security-desk-notifications.md)
+- [Configure security desk notifications](emergency-calling-security-desk-notifications.md)
 
 - [Manage emergency call routing policies in Teams](manage-emergency-call-routing-policies.md)
 
