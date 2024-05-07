@@ -46,7 +46,7 @@ To migrate from Android Device Administrator to Android AOSP management, you mus
 
 - Teams Android Devices deployed today which are enrolled using Device Administrator
 
-- Teams Android Device which will be supported with AOSP Management (Any devices not listed, will not be supported on AOSP Management: [Click Here](/microsoftteams/devices/teams-ip-phones))
+- Teams Android Device which will be supported with AOSP Management (Any devices not listed, won't be supported on AOSP Management: [Click Here](/microsoftteams/devices/teams-ip-phones))
 
 - Intune Admin privileges in your Microsoft 365 environment
 
@@ -56,7 +56,7 @@ To migrate from Android Device Administrator to Android AOSP management, you mus
 
 These steps are specific to Teams Android devices, for non-Teams devices or for more information, please refer to the Intune guidance for setting up profiles: [Set up Android (AOSP) device management in Intune for corporate-owned user-associated devices - Microsoft Intune | Microsoft Learn](/mem/intune/enrollment/android-aosp-corporate-owned-user-associated-enroll)
 
-When creating an enrollment profile, ensure it does not conflict with any existing enrollment profiles.
+When creating an enrollment profile, ensure it doesn't conflict with any existing enrollment profiles.
 
 1. Login to the Intune Management Console with an account with Intune administrator permissions: [https://intune.microsoft.com/](https://intune.microsoft.com/)
 
@@ -92,7 +92,7 @@ The enrollment profile has been created successfully and now the environment is 
 
 ## __AOSP Management Configuration & Compliance Policies__
 
-Teams Android Devices enrolled with AOSP Management support Intune configuration policies and Intune compliance policies which you may wish to use on your Teams Devices. These steps are not required for functionality but may offer desired functionality.
+Teams Android Devices enrolled with AOSP Management support Intune configuration policies and Intune compliance policies which you may wish to use on your Teams Devices. These steps aren't required for functionality but may offer desired functionality.
 
 ### AOSP Management Configuration Policies
 
