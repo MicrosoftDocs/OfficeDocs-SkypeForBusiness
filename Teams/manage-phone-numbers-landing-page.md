@@ -19,7 +19,7 @@ audience: Admin
 appliesto: 
   - Skype for Business
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: Medium
 f1.keywords:
 - CSH
 ms.custom: 

@@ -18,7 +18,7 @@ ms.collection:
   - Tier2
 f1.keywords: 
   - NOCSH
-localization_priority: Normal
+ms.localizationpriority: Medium
 description: A guide comparing the Teams devices for shared spaces features between Windows and Android.
 ---
 
@@ -41,7 +41,7 @@ To help guide you as to what features are available on different platforms, you 
 |--------|----------|---------|---------|
 | **Meeting join** | One-touch-join | Available   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | Available  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
 | | Proximity join | Available | Available|
-| | QR code meeting join | Available | Not available |
+| | QR code meeting join | Available | Available |
 | | Meet now | Available | Available |
 | | Teams Meeting with ID | Available | Available |
 | | Direct guest join | BlueJeans: Available <br> Webex: Available<br> Zoom: Available| BlueJeans: Not available <br> Webex: Available<br> Zoom: Available |
@@ -87,12 +87,12 @@ To help guide you as to what features are available on different platforms, you 
 | | Meeting controls on touch enabled front of room displays | Not available | Available |
 | | Smart Camera Controls | Available | Available|
 | | Local pan tilt zoom (PTZ) controls | Not available | Not available |
-| | Remote Pan tilt zoom (PTZ) control for cameras with mechanical PTZ controls | Available | Available |
+| | Remote Pan tilt zoom (PTZ) control | Available | Available |
 | | Switch between multiple in-room cameras | Available | Available|
 | | Coordinated meetings | Available | Not available |
 | | Third party custom room control | Available | Not available |
 | | Companion mode | Available | Available |
-| | Automatically hide room video from in-room desktop participants | Available | Available|
+| | Automatically hide room video from in-room desktop participants | Available | Available |
 | | Room remote (Desktop & Mobile) | Available | Available |
 | | Teams Casting (Desktop & Mobile) | Available | Available |
 | **Front of Room Configurations** | Single Screen | Available | Available |
@@ -159,7 +159,7 @@ To help guide you as to what features are available on different platforms, you 
 |--------|----------|---------|---------|
 | **Meeting join** | One-touch-join | Available   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | Available  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
 | | Proximity join | Available | Available|
-| | QR code meeting join | Available | Not available |
+| | QR code meeting join | Available | Available |
 | | Meet now | Available | Available |
 | | Teams Meeting with ID | Available | Available |
 | | Direct guest join | BlueJeans: Available <br> Webex: Available<br> Zoom: Available| BlueJeans: Not available <br> Webex: Available<br> Zoom: Available |
@@ -205,7 +205,7 @@ To help guide you as to what features are available on different platforms, you 
 | | Meeting controls on touch enabled front of room displays | Not available | Available |
 | | Smart Camera Controls | Available | Available |
 | | Local pan tilt zoom (PTZ) controls | Not available | Not available |
-| | Remote Pan tilt zoom (PTZ) control for cameras with mechanical PTZ controls | Available | Available |
+| | Remote Pan tilt zoom (PTZ) control | Available | Available |
 | | Switch between multiple in-room cameras| Available | Available |
 | | Coordinated meetings | Available | Not available |
 | | Third party custom room control | Available | Not available |
@@ -322,12 +322,12 @@ To help guide you as to what features are available on different platforms, you 
 | | Meeting controls on touch enabled front of room displays | Not available | Available |
 | | Smart Camera Controls | Available | Available |
 | | Local pan tilt zoom (PTZ) controls | Not available | Not available |
-| | Remote Pan tilt zoom (PTZ) control for cameras with mechanical PTZ controls | Not available | Not available |
+| | Remote Pan tilt zoom (PTZ) control | Available | Available |
 | | Switch between multiple in-room cameras | Available | Available|
 | | Coordinated meetings | Available | Not available |
 | | Third party custom room control | Available | Not available |
 | | Companion mode | Available | Available |
-| | Automatically hide room video from in-room desktop participants | Not available | Available |
+| | Automatically hide room video from in-room desktop participants | Available | Not available |
 | | Room remote (Desktop & Mobile) | Not available | Not available |
 | | Teams Casting (Desktop & Mobile) | Available | Available |
 | **Front of Room Configurations** | Single Screen | Available | Available |

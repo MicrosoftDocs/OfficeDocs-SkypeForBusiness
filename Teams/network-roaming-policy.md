@@ -11,7 +11,7 @@ ms.service: msteams
 audience: Admin
 appliesto: 
   - Microsoft Teams
-localization_priority: Priority
+ms.localizationpriority: Priority
 search.appverid: MET150
  
 ms.custom: 
