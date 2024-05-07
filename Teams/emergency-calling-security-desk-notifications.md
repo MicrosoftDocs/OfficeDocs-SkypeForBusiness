@@ -65,22 +65,21 @@ Set-CsTeamsEmergencyCallingPolicy -Identity "TestECP" -NotificationGroup "123@co
 
 Extended notifications allow you to specify additional emergency numbers. For example, you can specify settings for the emergency number 911 and for the test emergency number 933. With this functionality, you can avoid notifying your security desk for test emergency calls. 
 
-You can add extended notification settings to the policy per defined emergency number. For example, you might:
+You can add extended notification settings to the policy per defined emergency number. For example:
 
-1. Create the extended notification for the test emergency number 933. If you are using Calling Plan or Operator Connect, this emergency number is predefined. If you are using Direct Routing, you need to define the number in the emergency call routing policy. 
+1. Create an emergency calling policy called Default911. This policy specifies that the alert@contoso.com group is notified of an emergency call through a conference call. The external PSTN number +14255551234 is brought into the conference call and the extended notification is added.  
 
-2. Create a second emergency calling policy called Default911. This policy specifies that the alert@contoso.com group is notified of an emergency call through a conference call. The external PSTN number +14255551234 is brought into the conference call and the extended notification is added.  
+2. Create the extended notification for the test emergency number 933. If you are using Calling Plan or Operator Connect, this emergency number is predefined. If you are using Direct Routing, you need to define the number in the emergency call routing policy. 
 
 When an emergency call is made to any defined emergency number except 933, the group is notified via a conference call with the external PSTN participant. When an emergency call is made to the test emergency number 933, no notifications are generated. 
 
 For example:
 
-123@contoso.com;567@contoso.com 
-
 | Emergency dial string | Notification groups | Number to dial | Notification mode |
 | :------------| :-------| :-------| :-------|
-| 933 | 123@contoso.com;567@contoso.com | 14255551234 | Conference in but are muted|
 | 911 |   alert@contoso.com  |  | Send notifiction only |
+| 933 | 123@contoso.com;567@contoso.com | 14255551234 | Conference in but are muted|
+
 
 ### Use the Teams admin center
 
