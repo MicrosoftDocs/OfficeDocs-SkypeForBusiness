@@ -58,7 +58,7 @@ These steps are specific to Teams Android devices, for non-Teams devices or for 
 
 When creating an enrollment profile, ensure it doesn't conflict with any existing enrollment profiles.
 
-1. Login to the Intune Management Console with an account with Intune administrator permissions: [https://intune.microsoft.com/](https://intune.microsoft.com/)
+1. Sign in to the Intune Management Console with an account with Intune administrator permissions: [https://intune.microsoft.com/](https://intune.microsoft.com/)
 
 1. Select __Devices__
 
@@ -102,7 +102,7 @@ Currently, the only supported configuration policy for Teams Android Devices enr
 
 These steps are specific to Teams Android devices, for non-Teams devices or for more information, please refer to the Intune guidance for setting up profiles: [Device restriction settings for Android (AOSP) in Microsoft Intune | Microsoft Learn](/mem/intune/configuration/device-restrictions-android-aosp)
 
-1. Login to the Intune Management Console with an account with Intune administrator permissions: [https://intune.microsoft.com/](https://intune.microsoft.com/)
+1. Sign in to the Intune Management Console with an account with Intune administrator permissions: [https://intune.microsoft.com/](https://intune.microsoft.com/)
 
 1. Select __Devices__
 
@@ -146,7 +146,7 @@ There's a limited set of supported compliance policies for Teams Android Devices
 
 These steps are specific to Teams Android devices, for non-Teams devices or for more information, please refer to the Intune guidance for setting up profiles:  [Android (AOSP) compliance settings in Microsoft Intune | Microsoft Learn](/mem/intune/protect/compliance-policy-create-android-aosp)
 
-1. Login to the Intune Management Console with an account with Intune administrator permissions: [https://intune.microsoft.com/](https://intune.microsoft.com/)
+1. Sign in to the Intune Management Console with an account with Intune administrator permissions: [https://intune.microsoft.com/](https://intune.microsoft.com/)
 
 1. Select __Devices__
 
@@ -182,7 +182,7 @@ These steps are specific to Teams Android devices, for non-Teams devices or for 
 
 During the second half of 2024, new Team Android Device firmware will be released which will support the migration to AOSP Management for currently deployed devices as well as any new Teams Device deployments. When the firmware update is made available from Teams Admin Center, it will be available as a manual update to allow time to migrate slowly. These steps will provide the guidance for how to update your devices through Teams Admin Center:
 
-1. Login to Teams Admin Center with an account with Teams device administrator permissions: [https://admin.teams.microsoft.com/](https://admin.teams.microsoft.com/)
+1. Sign in to Teams Admin Center with an account with Teams device administrator permissions: [https://admin.teams.microsoft.com/](https://admin.teams.microsoft.com/)
 
 1. Select __Teams__ __devices__
 
@@ -206,7 +206,7 @@ During the second half of 2024, new Team Android Device firmware will be release
 
 ### Confirming the AOSP Management update has been applied
 
-1. Login to Teams Admin Center with an account with Teams device administrator permissions: [https://admin.teams.microsoft.com/](https://admin.teams.microsoft.com/)
+1. Sign in to Teams Admin Center with an account with Teams device administrator permissions: [https://admin.teams.microsoft.com/](https://admin.teams.microsoft.com/)
 
 1. Select __Teams__ __devices__
 
