@@ -65,18 +65,18 @@ Set-CsTeamsEmergencyCallingPolicy -Identity "TestECP" -NotificationGroup "123@co
 
 ## Configure extended notifications
 
-Extended notifications allow you to specify additional emergency numbers. For example, you can specify settings for the emergency number 911 and for the test emergency number 933. With this functionality, you can avoid notifying your security desk for test emergency calls.  
+With extended notifications, you can configure specific notification settings for each defined emergency number. For example, you can specify settings for the emergency number 911 and for the test emergency number 933. With this functionality, you can avoid notifying your security desk for test emergency calls.  
 
-You can add extended notification settings to the policy per defined emergency number. For this example policy, assume you want to create an emergency calling policy called Default911 that also includes an extended notification setting for the test number 933. For each emergency number, you'll set values for **Emergency dial string**, **Notification groups**, **Number to dial**, and **Notification mode**.    
+For this example, assume you want to create an emergency calling policy called Default911 that also includes an extended notification setting for the test number 933. For each emergency number, you'll set values for **Emergency dial string**, **Notification groups**, **Number to dial**, and **Notification mode**.    
 
 - The policy specifies that the security group alert@contoso.com is notified of a 911 emergency call through a conference call. The external PSTN number +14255551234 is brought into the conference call.  
 
-- The policy includes an extended notification for the test emergency number 933.  A notification is sent to Testalert@contoso.com, but not to the actual security desk.  
+- You define an extended notification for the test emergency number 933. Because this is a test emergency number, no notifications are sent to the security desk.  
 
 | Emergency dial string | Notification groups | Number to dial | Notification mode |
 | :------------| :-------| :-------| :-------|
 | 911 |   alert@contoso.com  | 14255551234 | Conference in but are muted |
-| 933 | Testalert@contoso.com |  | Send notification only |
+| 933 |  |  | None |
 
 - You can have more than one notification group per number.
 
