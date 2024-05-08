@@ -49,6 +49,8 @@ You can grant an emergency calling policy to a Teams user account, assign to a n
 
 To configure security desk notifications by using the Teams admin center, go to **Voice > Emergency policies**, select the **Calling policies** tab, and then select **Add**.  
 
+For each emergency number, specify the **Emergency dial string**, the associated **Notification Groups**, the **Number to dial for emergency notifications**, and the **Notification mode**.
+
 For more information about using the Teams admin center, see [Manage emergency calling policies](manage-emergency-calling-policies.md).  
 
 ### Use PowerShell
