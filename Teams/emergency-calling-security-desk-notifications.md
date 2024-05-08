@@ -65,14 +65,11 @@ Set-CsTeamsEmergencyCallingPolicy -Identity "TestECP" -NotificationGroup "123@co
 
 Extended notifications allow you to specify additional emergency numbers. For example, you can specify settings for the emergency number 911 and for the test emergency number 933. With this functionality, you can avoid notifying your security desk for test emergency calls.  
 
-You can add extended notification settings to the policy per defined emergency number. For example purposes, assume you want to create an emergency calling policy called Default911 that also includes an extended notification setting for the test number 933.  
+You can add extended notification settings to the policy per defined emergency number. For this example policy, assume you want to create an emergency calling policy called Default911 that also includes an extended notification setting for the test number 933. For each emergency number, you'll set values for **Emergency dial string**, **Notification groups**, **Number to dial**, and **Notification mode**.    
 
 - The policy specifies that the security group alert@contoso.com is notified of a 911 emergency call through a conference call. The external PSTN number +14255551234 is brought into the conference call.  
 
 - The policy includes an extended notification for the test emergency number 933.  A notification is sent to Testalert@contoso.com, but not to the actual security desk.  
-
-Note: If you are using Calling Plan or Operator Connect, the emergency numbers are predefined (in our example, 911 and 933). If you're using Direct Routing, you need to define the numbers in an emergency call routing policy for Direct Routing. For more information, see [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md).
-
 
 | Emergency dial string | Notification groups | Number to dial | Notification mode |
 | :------------| :-------| :-------| :-------|
@@ -81,7 +78,11 @@ Note: If you are using Calling Plan or Operator Connect, the emergency numbers a
 
 - You can have more than one notification group per number.
 
-- You can only enter a number to dial when the notification mode is NOT "Send notification only".  
+- You can only enter a number to dial when the notification mode is NOT "Send notification only". 
+
+
+> [!NOTE] 
+> If you're using Calling Plan or Operator Connect, the emergency numbers are predefined (in our example, 911 and 933). If you're using Direct Routing, you need to define the numbers in an emergency call routing policy for Direct Routing. For more information, see [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md).
 
 
 ### Use the Teams admin center
