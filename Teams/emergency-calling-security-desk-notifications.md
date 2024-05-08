@@ -34,7 +34,7 @@ You can also configure extended notification settings per emergency number. For 
 
 ## Configure security desk notifications
 
-You configure security desk notifications by using emergency calling policies, which you can set by using the Teams admin center or by using PowerShell.
+You configure security desk notifications by using emergency calling policies, which you set by using the Teams admin center or by using PowerShell.
 
 You can grant an emergency calling policy to a Teams user account, assign to a network site, or both. When a Teams client starts or changes a network connection, Teams performs a lookup of the network site where the client is located:
 
@@ -49,7 +49,7 @@ You can grant an emergency calling policy to a Teams user account, assign to a n
 
 To configure security desk notifications by using the Teams admin center, go to **Voice > Emergency policies**, select the **Calling policies** tab, and then select **Add**.  
 
-For complete information on using the Teams admin center, see [Manage emergency calling policies](manage-emergency-calling-policies.md).  
+For more information about using the Teams admin center, see [Manage emergency calling policies](manage-emergency-calling-policies.md).  
 
 ### Use PowerShell
 
@@ -65,11 +65,13 @@ Set-CsTeamsEmergencyCallingPolicy -Identity "TestECP" -NotificationGroup "123@co
 
 Extended notifications allow you to specify additional emergency numbers. For example, you can specify settings for the emergency number 911 and for the test emergency number 933. With this functionality, you can avoid notifying your security desk for test emergency calls.  
 
-You can add extended notification settings to the policy per defined emergency number. For example purposes, assume you want to create an emergency calling policy called Default911 that also includes an extended notification setting.  
+You can add extended notification settings to the policy per defined emergency number. For example purposes, assume you want to create an emergency calling policy called Default911 that also includes an extended notification setting for the test number 933.  
 
-- The policy specifies that the security group alert@contoso.com is notified of an emergency call through a conference call. The external PSTN number +14255551234 is brought into the conference call.  
+- The policy specifies that the security group alert@contoso.com is notified of a 911 emergency call through a conference call. The external PSTN number +14255551234 is brought into the conference call.  
 
-- The policy includes an extended notificatiom for the test emergency number 933. If you are using Calling Plan or Operator Connect, this emergency number is predefined. If you are using Direct Routing, you need to define the number in the emergency call routing policy. A notification is sent to Testalert@contoso.com, but not to the actual security desk.  
+- The policy includes an extended notification for the test emergency number 933.  A notification is sent to Testalert@contoso.com, but not to the actual security desk.  
+
+Note: If you are using Calling Plan or Operator Connect, the emergency numbers are predefined (in our example, 911 and 933). If you're using Direct Routing, you need to define the numbers in an emergency call routing policy for Direct Routing. For more information, see [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md).
 
 
 | Emergency dial string | Notification groups | Number to dial | Notification mode |
@@ -87,6 +89,8 @@ You can add extended notification settings to the policy per defined emergency n
 To configure the extended notifications example by using the Teams admin center, go to **Voice > Emergency policies**, select the **Calling policies** tab, and then select **Add**.  
 
 For each emergency number, specify the **Emergency dial string**, the associated **Notification Groups**, the **Number to dial for emergency notifications**, and the **Notification mode**.
+
+For more information about using the Teams admin center, see [Manage emergency calling policies](manage-emergency-calling-policies.md).  
 
 
 ### Use Powershell
