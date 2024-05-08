@@ -44,14 +44,14 @@ Introduction about hubs and existing governance controls:
 * Development becomes easier as devs build once and use everywhere. App governance becomes easier as you can evaluate once and deploy everywhere.
 * Such apps are available in store and as custom apps. However, till now, you manage the same app separately,
 
-* In the Integrated apps page in Microsoft 365 Admin Center has governance controls for Outlook and the Microsoft 365 App surfaces.
-* In the Manage apps page in Teams Admin Center has governance control for Teams client.
+* In the Integrated apps page in Microsoft 365 Admin Center, it has governance controls for Outlook and the Microsoft 365 App surfaces.
+* In the Manage apps page in Teams Admin Center, it has governance control for apps for Teams client.
 
 ## What is unified app management
 
-We will soon introduce unified app management feature that will allow you to manage your apps from just one of the admin centers. Your intent and desired impact will synchronize across the admin centers to ensure that you don't have to use two different UIs to manage the same app for two different surfaces.
+We will soon introduce unified app management feature that will allow you to manage your apps from just one of the admin centers. Your intent and desired impact synchronizes across the admin centers to ensure that you don't have to use two different UIs to manage the same app for two different surfaces.
 
-We will consolidate the management of these apps and ensure that the apps are consistently available across all the supported clients.
+We shall consolidate the management of these apps and ensure that the apps are consistently available across all the supported clients.
 
 Describe integrated apps section in MAC portal?
 
@@ -67,9 +67,9 @@ Link to [Message Center post 393931](https://www.microsoft.com/microsoft-365/roa
 - Shall we provide a before-after comparison in a table?
 --->
 
-* App catalog enhancements: Apps will start showing hosts where they are available: Teams, Outlook, or the Microsoft 365 app.
-* Organization-wide settings: App availability default settings will now apply to apps used in Teams, Outlook, and Microsoft 365 app.
-* App deployment: Apps deployed from the Integrated apps page in Microsoft 365 admin center will be preinstalled in all applicable hosts for the app. Unlike app preinstallation in the Teams App setup policy, app deployment will provide access to the preinstalled apps, similar to deploying the app for Outlook and the Microsoft 365. (See more [TODO: reference to MC post on app deployment in Teams]) - Lisa will take care of this
+* App catalog enhancements: Catalog displays the hosts (Teams, Outlook, or the Microsoft 365), where the apps are available.
+* Organization-wide settings: App availability default settings will apply to apps used in Teams, Outlook, and Microsoft 365 app.
+* App deployment: Apps deployed from the Integrated apps page in Microsoft 365 admin center are preinstalled in all applicable hosts for the app. Unlike app preinstallation in the Teams App setup policy, app deployment will provide access to the preinstalled apps, similar to deploying the app for Outlook and the Microsoft 365. (See more [TODO: reference to MC post on app deployment in Teams]) - Lisa will take care of this
 * App availability: Managing individual app availability will apply to all applicable app hosts.
 * App block/unblock: Blocking or unblocking apps will apply to all applicable app hosts.
 * Unification of existing app settings: The unification of settings will happen automatically in three major phases. Unification changes cannot be rolled back.
