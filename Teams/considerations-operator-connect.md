@@ -22,11 +22,7 @@ ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
-  - ms.teamsadmincenter.locations.emergencyaddresses.overview
-  - ms.lync.lac.AddressAndLocation
-  - Calling Plans
-  - Direct Routing
-description: "Learn about emergency calling, including information about emergency addresses, emergency call routing, and dynamic emergency calling."
+description: "Learn about considerations for emergency calling with Teams Phone Operator Connect."
 ---
 
 # Considerations for Operator Connect

@@ -19,14 +19,9 @@ audience: Admin
 appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
-f1.keywords:
-- CSH
 ms.custom:
-  - ms.teamsadmincenter.locations.emergencyaddresses.overview
-  - ms.lync.lac.AddressAndLocation
-  - Calling Plans
   - Direct Routing
-description: "Learn about considerations to take into account with emergency calling for Direct Routing, including dynamic emergency calling and emergency call routing."
+description: "Learn about considerations for emergency calling with Teams Phone Direct Routing."
 ---
 
 # Considerations for Direct Routing
