@@ -67,7 +67,7 @@ Set-CsTeamsEmergencyCallingPolicy -Identity "TestECP" -NotificationGroup "123@co
 
 With extended notifications, you can configure specific notification settings for each defined emergency number. For example, you can specify settings for the emergency number 911 and for the test emergency number 933. With this functionality, you can avoid notifying your security desk for test emergency calls.  
 
-For this example, assume you want to create an emergency calling policy called Default911 that also includes an extended notification setting for the test number 933. For each emergency number, you'll set values for **Emergency dial string**, **Notification groups**, **Number to dial**, and **Notification mode**.    
+For this example, assume you want to create an emergency calling policy called Default911 and also specify an extended notification setting for the test number 933. For each emergency number, you'll set values for **Emergency dial string**, **Notification groups**, **Number to dial**, and **Notification mode**.    
 
 - The policy specifies that the security group alert@contoso.com is notified of a 911 emergency call through a conference call. The external PSTN number +14255551234 is brought into the conference call.  
 
