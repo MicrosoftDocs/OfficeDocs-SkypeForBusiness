@@ -92,4 +92,5 @@ Set-CsTeamsEventsPolicy -Identity <policy name> -AllowedQuestionTypesInRegistrat
 
 ## Related articles
 
+- [Issues that affect Teams webinars](/microsoftteams/troubleshoot/meetings/issues-with-webinars)
 - [Set up webinars](set-up-webinars.md)
