@@ -80,5 +80,6 @@ To learn more about `-AllowEmailEditing`, see the following cmdlet topics:
 
 ## Related articles
 
+- [Issues that affect Teams webinars](/microsoftteams/troubleshoot/meetings/issues-with-webinars)
 - [Set up webinars](set-up-webinars.md)
 - [Set up town halls](set-up-town-halls.md)
