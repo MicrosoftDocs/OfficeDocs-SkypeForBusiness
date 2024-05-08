@@ -1477,7 +1477,9 @@ items:
             - name: Deploy Teams phones and Teams displays using Intune
               href: devices/phones-displays-deploy.md
             - name: Authentication best practices for Android devices
-              href: devices/authentication-best-practices-for-android-devices.md          
+              href: devices/authentication-best-practices-for-android-devices.md
+            - name: AOSP device management 
+              href: rooms/android-migration-guide.md
         - name: Manage
           items:
             - name: Manage your devices in Teams
