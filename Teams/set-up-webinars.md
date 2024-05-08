@@ -22,7 +22,7 @@ ms.collection:
   - m365initiative-meetings
   - highpri
   - Tier1
-description: Learn how to set up webinars and manage who can shcedule webinars for IT Admins in Teams.
+description: Learn how to set up webinars and manage who can schedule webinars for IT Admins in Teams.
 ---
 
 # Manage who can schedule webinars in Microsoft Teams
