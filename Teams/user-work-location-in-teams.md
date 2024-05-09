@@ -44,7 +44,7 @@ Work location states can be set as a recurring schedule in an Outlook calendar. 
 
 ## User experience with location details in Teams
 
-Users can learn about where co-workers are working on a given day from the profile-card details. Profile cards make it easier for others in your organization to quickly get an overview of your online status, your next available time to meet, your work hours, the local time, and work location (office or remote).
+Users can learn about where co-workers are working on a given day from the profile-card details. [Profile cards](https://support.microsoft.com/en-us/office/profile-cards-in-microsoft-365-e80f931f-5fc4-4a59-ba6e-c1e35a85b501) make it easier for others in your organization to quickly get an overview of your online status, your next available time to meet, your work hours, the local time, and work location (office or remote).
 
 People you interact with in a group chat will also have location details displayed in the list view. See how to learn about other’s work location details
 
