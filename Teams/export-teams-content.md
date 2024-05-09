@@ -39,7 +39,7 @@ Here are some examples on how you can use these export APIs:
 - **Bulk Export of Teams Message:** Teams Export APIs support up to 200 RPS Per App Per tenant and 600 RPS for an Application, with these limits you should be able to bulk export of Teams messages.
 - **Application Context**: To call Microsoft Graph, your app must acquire an access token from the Microsoft identity platform. The access token contains information about your app and the permissions it has for the resources and APIs available through Microsoft Graph. To get an access token, your app must be registered with the Microsoft identity platform and be authorized by either a user or an administrator for access to the Microsoft Graph resources it needs.
 
-    If you are already familiar with integrating an app with the Microsoft identity platform to get tokens, see the [Next Steps](/graph/auth/auth-concepts#next-steps) section for information and samples specific to Microsoft Graph.
+    If you're already familiar with integrating an app with the Microsoft identity platform to get tokens, see the [Next Steps](/graph/auth/auth-concepts#next-steps) section for information and samples specific to Microsoft Graph.
 - **Hybrid Environment:** Export APIs support messages sent by users who are provisioned on Hybrid Environment (on-premises Exchange and Teams). Any messages that are sent by users who are configured for hybrid environment are accessible using Export APIs.
 - **User Deleted Messages:** Messages that are deleted by users from the Teams client can be accessed using export APIs up to 21 days from the time of deletion.
 - **Message Attachments:** Export APIs include the links to the attachments that are sent as part of messages. Using Export APIs you can retrieve the files attached in the messages.
@@ -48,10 +48,13 @@ Here are some examples on how you can use these export APIs:
 - **Deleted Teams:** Export API supports [capturing messages from deleted Teams](/graph/api/deletedteam-getallmessages) and deleted standard, private, and shared channels.
 - **Chat Message Properties:** Refer to the [complete list of properties that Teams Export APIs support](/graph/api/resources/chatmessage#properties).
 - **Control Messages:** Export API supports capturing control messages in addition to the user generated messages. Control Messages are system generated messages that appear on the Teams client and carry important information such as "User A added User B to the chat and shared all chat history" along with the timestamp. System messages enable the caller to have insights about events that happened in a team, a channel, or a chat. Currently Export API supports the [Add Member and Remove Member event for chats, teams and standard channels](/graph/system-messages#supported-system-message-events).
+- **(Beta) Edited History:** Provided that [your tenant is setup with Teams Retention Policy](/purview/create-retention-policies?tabs=teams-retention), Export API supports capturing messages' edited history for [individual & group chat](/graph/api/chat-getallretainedmessages), and [posts, comments in Public & Shared channels](/graph/api/channel-getallretainedmessages).
 
-## What is not supported by the Teams Export APIs?
+    To learn more about Teams Retention policy, see the [Manage retention policies for Microsoft Teams](/microsoftteams/retention-policies) for further details.
 
-- **Teams Copilot Interactions & Microsoft 365 Chat:** Export API does not support user to Copilot interaction messages and Microsoft 365 chat messages sent by the bot.
+## What isn't supported by the Teams Export APIs?
+
+- **Teams Copilot Interactions & Microsoft 365 Chat:** Export API doesn't support user to Copilot interaction messages and Microsoft 365 chat messages sent by the bot.
 
 ## How to access Teams Export APIs
 
@@ -87,10 +90,10 @@ Here are some examples on how you can use these export APIs:
   ```
 
 > [!NOTE]
-> The API returns response with next page link in case of multiple results. For getting next set of results, simply call GET on the url from @odata.nextlink. If @odata.nextlink is not present or null then all messages are retrieved.
+> The API returns response with next page link in case of multiple results. For getting next set of results, simply call GET on the url from @odata.nextlink. If @odata.nextlink isn't present or null then all messages are retrieved.
 
 > [!NOTE]
-> The order of messages in the response is not guaranteed to be sorted by any datetime, such as createdDateTime nor lastModifiedDateTime.
+> The order of messages in the response isn't guaranteed to be sorted by any datetime, such as createdDateTime nor lastModifiedDateTime.
 
 ## Prerequisites to access Teams Export APIs
 
@@ -297,9 +300,9 @@ No model declaration enables access to APIs with limited usage per each requesti
 
    - Transcript content, by default, will be in VTT format. But, using an Accept header value of `application/vnd.openxmlformats-officedocument.wordprocessingml.document`, DOCX format can also be obtained.
 
-   - The average size of the transcript content itself in JSON/VTT format is about 300 KB, based on averages we are seeing for meetings that are in range of 30 mins – 60 mins. 
+   - The average size of the transcript content itself in JSON/VTT format is about 300 KB, based on averages we're seeing for meetings that are in range of 30 mins – 60 mins. 
 
-   - Results are not guaranteed to be sorted by `createdDateTime`. However, in the case where multiple recordings are present for a single meeting, they will share the same `meetingId` value. Additionally, the entries for the multiple recordings will be correctly sequenced for the meeting in question. 
+   - Results aren't guaranteed to be sorted by `createdDateTime`. However, in the case where multiple recordings are present for a single meeting, they will share the same `meetingId` value. Additionally, the entries for the multiple recordings will be correctly sequenced for the meeting in question. 
 
    - Results are guaranteed to be present only after the associated meeting recordings are available. In other words, no additional polling for availability is required by the caller. 
 
