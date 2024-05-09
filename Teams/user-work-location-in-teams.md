@@ -44,7 +44,7 @@ Work location states can be set as a recurring schedule in an Outlook calendar. 
 
 ## User experience with location details in Teams
 
-Users can learn about where co-workers are working on a given day from the profile-card details. [Profile cards](https://support.microsoft.com/en-us/office/profile-cards-in-microsoft-365-e80f931f-5fc4-4a59-ba6e-c1e35a85b501) make it easier for others in your organization to quickly get an overview of your online status, your next available time to meet, your work hours, the local time, and work location (office or remote).
+Users can learn about where co-workers are working on a given day from the profile-card details. [Profile cards](https://support.microsoft.com/en-us/office/profile-cards-in-microsoft-365-e80f931f-5fc4-4a59-ba6e-c1e35a85b501) make it easier for others in your organization to quickly get an overview of your online status, your next available time to meet, your work hours, the local time, and your work location (office or remote).
 
 People you interact with in a group chat will also have location details displayed in the list view. See how to learn about other’s work location details
 
@@ -52,7 +52,7 @@ Users who are using chat from the same location as the chat recipient will see d
 
 ## User settings to edit location sharing
 
-By default, setting the user work location is an opt-in experience. By setting up work locations, users enable anyone in their organization to view this information. If a user wants to set different sharing controls on a work location, see how to update privacy settings in Outlook mailbox settings.
+By default, setting the user work location is an opt-in experience. By setting up work locations, users enable anyone in their organization to view this information. Users can set different sharing controls for each work location. For more information, see [Access your Account Privacy Settings](https://support.microsoft.com/en-us/office/access-your-account-privacy-settings-3e7bc183-bf52-4fd0-8e6b-78978f7f121b).
 
 ## See also
 
