@@ -132,11 +132,11 @@ You can use [Teams app permission policies](teams-app-permission-policies.md) to
 
 ## Security
 
-From the Teams Updates app, users have access to create new updates and view updates that they sent and received. Users can't view the Updates that are submitted by others unless they're a viewer of the update or update request.
+From the Teams Updates app, users can create new updates and view updates that they sent and received. Users can't view the updates submitted by others unless they're a viewer of the update or update request.
 
 ## Power Automate connector
 
-Updates support the Power Automate connector **Updates App(Microsoft 365)**. Using this connector can help you automate your organization's workflow. [Learn more](https://powerautomate.microsoft.com/blog/automate-workflows-with-power-automate-connector-for-updates-in-microsoft-teams/).
+Updates supports the Power Automate connector, **Updates App (Microsoft 365)**. Using this connector can help you automate your organization's workflows. [Learn more](https://powerautomate.microsoft.com/blog/automate-workflows-with-power-automate-connector-for-updates-in-microsoft-teams/).
 
 ## Give feedback or report an issue
 
