@@ -20,63 +20,64 @@ ms.localizationpriority: medium
 description: Learn about Tenant Administration control for voice recognition (voice profile) in Teams meeting rooms.
 ---
 
-# Manage voice recognition technology controls for an Intelligent Speaker
+## Manage voice recognition technology controls for an Intelligent Speaker
 
-An Intelligent Speaker uses voice profile information to recognize who said what in live transcription. When a Microsoft Teams Rooms on Windows meeting room is equipped with an Intelligent Speaker, live transcription can be used during the meeting. This article explains how you, a tenant admin, control the voice profiling that's used for voice recognition to generate live transcription. You can control to what degree the organization is using voice recognition and the following features:
+This article provides guidance on how tenant admins can enable Teams Rooms for voice recognition and live transcription. As a tenant admin, you have the ability to adjust the extent to which your organization utilizes voice recognition and Intelligent Speakers capabilities.
 
-- Edit the speaker's name in transcripts.
-- Change the speaker of a single utterance in the transcript or change the speaker in all the utterances in the transcript (but not on future transcripts).
-- Change the speaker identification for the people who are listed in the meeting.
-- Remove the identification of one or more utterances identified as that speaker, on every transcript.
+ 
 
-## Review Intelligent Speaker requirements
+## Optimizing Transcription Precision with Intelligent Speakers
 
-An Intelligent Speaker includes a special seven-microphone array. The system uses voice profile information to identify voices of up to 10 people in meeting rooms.
+By activating Intelligent Speaker for your Microsoft Teams Rooms, the meeting transcript will be able to not only distinguish between different speakers in the room, but also identify them and attribute them to the correct person. This enables critical use cases for Copilot as well as intelligent recap.
 
-The following items are Intelligent Speaker requirements:
+Speaker recognition is currently enabled by intelligent speakers certified for Teams. Certified intelligent speakers are designed with multiple microphones to provide high-quality audio, maximizing accuracy in recognition and transcription and boasting an industry-leading reduction of what is referred to as “word error rate.”
 
-- The meeting room should have a maximum of 10 people present in person.
-- The meeting room has an upload link of minimum 7 Mbps.
+That said, we get it – intelligent speaker [certified Hardware](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-rooms-and-devices-microsoft-ignite-2023/ba-p/3975581) are not yet in every Teams Room. That is why we extend to existing hardware. While we're delighted to extend the capability of speaker recognition to more rooms, it's important to note that the quality may not match that of an intelligent speaker certified device. So, it's essential to evaluate the advantages of incorporating an intelligent speaker, particularly in crucial spaces where attaining the highest quality transcription and attribution is vital.
 
-Epos, Jabra, Sennheiser, and Yealink Intelligent Speakers are supported.
+ 
+
+## Maintain your identity in meetings optimized for Copilot and meeting recap
+
+The most essential input for Copilot in Teams is the identity of each speaker. Copilot needs a meeting transcript, with attribution for every speaker, to deliver meeting summaries, insights, and action items. In a hybrid meeting, without speaker recognition, the video and audio feed for people in the room would be attributed to the space (e.g., Conference Room 1), not the individuals speaking, making it difficult to query individuals’ contributions, summarize everyone’s perspectives, and tackle those to-do items.
+
+Teams Rooms devices use advanced technology called speaker recognition to analyze the distinct vocal characteristics of each speaker, such as pitch, tone, and speaking style, to create a voiceprint for each participant, akin to a fingerprint for their voice.
+
+With speaker recognition, [Teams Rooms](https://www.microsoft.com/en-us/microsoft-teams/microsoft-teams-rooms"https://www.microsoft.com/en-us/microsoft-teams/microsoft-teams-rooms") can identify speakers during live transcription in shared meeting rooms, ensuring clear and precise voice capture for every participant. This allows you to effortlessly track who said what during the meeting through intelligent meeting recap and Copilot.
+
+To enable speaker recognition for your employees, you can set up a voice profile in minutes using the Teams Desktop app. Each person gets a unique voice signature, stored securely in your organization's tenant in Microsoft Cloud to assure that every contribution is accurately captured in every meeting, enabling Copilot and intelligent meeting recap – and helping you drive your work forward.
+
+![User's image](media/voice-recognition/image.png)
+
+## Requirements and recommendations:
+
+- Teams Rooms on Windows
+
+- To ensure best precision for the transcript, we suggest limiting the number of in person attendees to a maximum of 10 people.
+
+- People to be identified in the room, need to be enrolled with their voice profile and have been invited to the scheduled meeting.
+
+- The current limitation for people invited with voice profile is currently 20
+
+- To support high-quality audio and video during meetings, we recommend that the meeting room has an upload speed of at least 7 Mbps.
+
+> [!NOTE]
+> We are extending intelligent speaker to work with all certified microphones, and you can try this out as part of our Public Preview program for Teams Rooms with version 5.0.111.0 or later.
+# 
 
 > [!NOTE]
 > Intelligent Speaker is available in all countries and regions. See [Supported locales](#supported-locales) for a list of the locales currently supported for biometric enrollment and in-meeting transcription.
+> ## Enable an Intelligent Speaker user recognition
 
-## Set up an Intelligent Speaker
+Voice profile data can be used in any meeting with an Intelligent Speaker. See [Teams meetings policies](/microsoftteams/rooms/voice-and-face-recognition) and the [PowerShell meeting cmdlets](/microsoftteams/teams-powershell-overview) for information on the meeting settings.
 
-An Intelligent Speaker connects directly using USB to the Teams Rooms console or compute module.
 
-> [!NOTE]
-> We don't support an Intelligent Speaker connected to Logitech Surface Pro Microsoft Teams Rooms. There is a known issue that Teams Rooms can't recognize the Intelligent Speaker through the dock.
+```powershell
 
-An Intelligent Speaker that is of a speakerphone design should be placed at least 8 inches (20 cm) away from walls and large objects, such as laptops. If the Intelligent Speaker USB cable isn't long enough for your setup, use cable extenders.
-
-1. Sign in to the console as administrator.
-2. Set the Teams device settings to match the Intelligent Speaker microphone and speaker.
-   You can also do this through the Microsoft Teams admin center (TAC) portal instead of at the room console.
-
-   The diagram shows how the Intelligent Speaker is connected to the device if the device includes a data box.
-
-   ![The Intelligent Speaker setup with the speaker, the power and data box.One line goes to the USB port of the console, and the other line goes to power.](../media/intelligent-speakers1.png)
-
-   The diagram shows how the Intelligent Speaker is connected to the device if the device doesn't include a data box.
-
-   ![The Intelligent Speaker setup with the speaker connecting directly to the console.](../media/intelligent-speakers2.png)
-
-> [!NOTE]
-> EPOS and Yealink devices should have "EPOS" or "Yealink" prefix and contain "UAC2_RENDER" in the speaker name and "UAC2_TEAMS" in the microphone name. If you don't find these microphone and speaker names in the dropdown menu, restart the Intelligent Speaker device.
->
-> The Jabra Panacast 50 connects directly to the Microsoft Teams Rooms compute module and not the center of table console. For the Jabra PanaCast 50, make sure you set the Playback Device Type to Microsoft Teams Rooms device. After restarting the Jabra PanaCast 50 you should see devices with "UAC2_RENDER" in the speaker name and "UAC2_TEAMS" in the microphone name.
-
-## Enable an Intelligent Speaker user recognition
-
-Voice profile data can be used in any meeting with an Intelligent Speaker. See [Teams meetings policies](../meetings-policies-recording-and-transcription.md#transcription) and the [PowerShell meeting cmdlets](/powershell/module/teams/set-csteamsmeetingpolicy) for information on the meeting settings.
+Set-CsTeamsMeetingPolicy -Identity PolicyName -roomAttributeUserOverride Attribute -AllowTranscription $true
+```
 
 > [!NOTE]
 > If your voice profile isn't available under the *Recognition* tab in Settings and you aren't being attributed in transcriptions, re-enroll your Voice Profile.
-
-The voice profile data of the user is created when the policy is set to distinguish or a non-meeting invitee walks in during the meeting. The voice profile data is dismissed at the end of the meeting.
 
 The following are the required policies to set an Intelligent Speaker and user recognition.
 
@@ -89,66 +90,10 @@ The following are the required policies to set an Intelligent Speaker and user r
 
 In the Teams admin center, set the **Transcription** policy. Settings are **Off** by default.
 
-![the admin center with meeting policies highlighted and Allow transcription selected.](../media/allow-transcription1.png)
-  
 > [!NOTE]
-> After a policy is assigned, they can take up to 48 hours to take effect. To get the policy to take effect sooner, accounts must be signed out and signed back in.
-
-## Frequently asked questions (FAQ)
-
-**Where is the voice profile data stored?**
-
-Voice profile data is stored in Office 365 cloud with user content.
-
-**What is the retention timeline and policy?**
-
-General retention policy is stated in the [Data retention overview](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview). In addition, a user's voice profile data will be deleted after 1 year if the user isn't invited to any meetings with an Intelligent Speaker within that 1-year period. Data isn't used in any meetings for existing employees. If an employee has left the company, voice profile data is considered user content and is treated as such per Office 365 data retention policy described in the [Data retention overview](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
-
-**Is voice profile data used across Microsoft services?**
-
-No, voice profile data is only used for the purpose for which the user has provided consent. Microsoft will not use the voice profile data except within Teams voice recognition scenarios.
-
-**Is my voice profile data used when I join a meeting in another organization?**
-
-No only in meetings organized by a user in your organization.
-
-**How can I export my voice profile?**
-
-Your IT admin can export your audio data at any time.
-
-## Supported locales
+> After a policy is assigned, they can take up to 48 hours to take effect. To get the policy to take effect sooner, accounts must be signed out and signed back in.## Supported locales
 
 The following enrollment and in-meeting transcription locales are supported in all countries and regions.
-
-### Enrollment locales
-
-End-users can enroll their voices for recognition in the following locales:
-
-| Language | Country/Region | Culture ID |
-|:-----|:-----|:-----|
-|Arabic  |Saudi Arabia |ar-SA  |
-|Chinese  |China |zh-CN  |
-|Chinese  |Taiwan |zh-TW  |
-|Danish  |Denmark |da-DK  |
-|Dutch  |Netherlands |nl-NL  |
-|English  |Australia |en-AU  |
-|English  |Canada  |en-CA |
-|English  |India  |en-IN  |
-|English  |New Zealand  |en-NZ  |
-|English  |United Kingdom  |en-GB  |
-|English  |United States  |en-US  |
-|Finnish  |Finland  |fi-FI  |
-|French  |Canada |fr-CA  |
-|French  |France |fr-FR  |
-|Italian  |Italy |it-IT  |
-|Japanese  |Japan |ja-JP  |
-|Norwegian  |Norway |nb-NO  |
-|Polish  |Poland |pl-PL  |
-|Portuguese      |Brazil |pt-BR  |
-|Russian  |Russia |ru-RU  |
-|Swedish  |Sweden |sv-SE  |
-|Spanish  |Mexico  |es-MX  |
-|Spanish  |Spain  |es-ES  |
 
 ### In-meeting transcription locales
 
@@ -172,6 +117,10 @@ Once an end-user enrolls, their voice can be recognized during meetings and iden
 |Portuguese  |Brazil  |pt-BR  |
 |Spanish  |Mexico  |es-MX  |
 |Spanish  |Spain  |es-ES  |
+
+## Frequently asked questions (FAQ)
+
+Please review the [face and voice enrollment](/microsoftteams/rooms/voice-and-face-recognition) document if you have more questions regarding voice profile data usage and storage
 
 ## Related topics
 
