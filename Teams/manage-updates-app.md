@@ -31,17 +31,15 @@ ms.custom:
 
 The Updates app in Microsoft Teams provides a centralized place for members of your organization to create, review, and submit updates. By creating update requests, you can use the Updates app to keep track of anything your organization needs. Updates is available for both desktop and mobile.
 
-In Teams, users can get the Updates app from the Teams app store. They'll see all of the update requests they need to submit on the **Submit** page. You can share the [Get started in Updates article](https://support.microsoft.com/office/get-started-in-updates-c03a079e-e660-42dc-817b-ca4cfd602e5a) with your users to help them get comfortable using Updates.
+In Teams, users can get the Updates app from the Teams app store. They'll see all the update requests they need to submit on the **Submit** page. You can share the [Get started in Updates article](https://support.microsoft.com/office/get-started-in-updates-c03a079e-e660-42dc-817b-ca4cfd602e5a) with your users to help them get comfortable using Updates.
 
-[![Image of the Submit page in Teams for desktop.](media/updates-submit-small.png)](media/updates-submit.png#lightbox)
-
-Users can view updates that they assigned on the **Review** page.
-
-[![Image of the Review page in Teams for desktop.](media/updates-home-small.png)](media/updates-home.png#lightbox)
+:::image type="content" source="media/manage-updates-app.png" alt-text="Image of the Updates app on Teams desktop and mobile" lightbox="media/manage-updates-app.png":::
 
 When a user is assigned an update request, it shows up in their Teams activity feed. Users can also view all their current update requests and previous submissions in the Updates app. In addition, anyone can create and send out update requests.
 
 Updates comes with both out-of-the-box templates for common business scenarios and the option to create your own requests. Anyone can create an update request for new types of updates and ask others to submit updates to sync their work status.
+
+:::image type="content" source="media/manage-updates-app-templates.png" alt-text="Screenshot of templates available in the Updates app." lightobx="media/manage-updates-app-templates.png":::
 
 ## Example scenario
 
