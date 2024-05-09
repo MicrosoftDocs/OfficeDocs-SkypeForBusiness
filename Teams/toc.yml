@@ -588,6 +588,8 @@ items:
           href: messaging-policies-in-teams.md
         - name: User presence in Teams
           href: presence-admins.md
+        - name: User work location in Teams
+          href: user-work-location-in-teams.md
         - name: Supervised chat for non-educational tenants
           href: supervised-chat-non-edu.md
 
