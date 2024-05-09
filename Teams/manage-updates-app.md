@@ -33,13 +33,13 @@ The Updates app in Microsoft Teams provides a centralized place for members of y
 
 In Teams, users can get the Updates app from the Teams app store. They'll see all the update requests they need to submit on the **Submit** page. You can share the [Get started in Updates article](https://support.microsoft.com/office/get-started-in-updates-c03a079e-e660-42dc-817b-ca4cfd602e5a) with your users to help them get comfortable using Updates.
 
-:::image type="content" source="media/manage-updates-app.png" alt-text="Image of the Updates app on Teams desktop and mobile" lightbox="media/manage-updates-app.png":::
+:::image type="content" source="media/manage-updates-home.png" alt-text="Image of the Updates app on Teams desktop and mobile" lightbox="media/manage-updates-home.png":::
 
 When a user is assigned an update request, it shows up in their Teams activity feed. Users can also view all their current update requests and previous submissions in the Updates app. In addition, anyone can create and send out update requests.
 
 Updates comes with both out-of-the-box templates for common business scenarios and the option to create your own requests. Anyone can create an update request for new types of updates and ask others to submit updates to sync their work status.
 
-:::image type="content" source="media/manage-updates-app-templates.png" alt-text="Screenshot of templates available in the Updates app." lightbox="media/manage-updates-app-templates.png":::
+:::image type="content" source="media/manage-updates-templates.png" alt-text="Screenshot of templates available in the Updates app." lightbox="media/manage-updates-templates.png":::
 
 ## Example scenario
 
@@ -98,17 +98,13 @@ The Updates Teams app lets you access the following features:
 
 The Updates app is available by default. You can disable the app in the Teams admin center.
 
-  1. Sign in to the Teams admin center.
+  1. In the left navigation of the Teams admin center, go to **Teams apps** > **Manage apps**.
 
-  2. Go to **Teams apps** > **Manage apps**.
-
-  3. Search for the Updates app.
+  1. Search for, and then select the Updates app.
 
      [![Screenshot of the Admin center navigation with Teams Apps > Manage Apps highlighted.](media/manage-updates-small.png)](media/manage-updates.png#lightbox)
 
-  4. Select **Updates**.
-
-  5. Select the toggle to disable the app for your organization.
+  1. Select the toggle to disable the app for your organization.
 
      [![Image of the toggle to enable or disable Updates.](media/toggle-updates.png)](media/toggle-updates.png#lightbox)
 
