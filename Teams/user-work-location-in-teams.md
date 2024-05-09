@@ -35,7 +35,7 @@ Work location is part of a user's profile in Microsoft Teams (and throughout Mic
 |Working from office with building details |[icon string]<br> Building (Add building)|
 
 > [!Note]
-> Setting building details requires the tenant admin to add building directory details. Once added, users can set work location buildings for the day. For more information, see [Manage floor plans](manage-floorplans/).
+> Setting building details requires the tenant admin to add building directory details. Once added, users can set work location buildings for the day. For more information, see [Manage floor plans](manage-floorplans.md).
 
 Work location states can be set as a recurring schedule in Outlook calendar. If a user is setting up recurring work hours and location schedules, it will automatically be set in Teams for those periods of time. Whenever something comes up, users can update plans in Outlook or Teams. Any changes are reflected in both the apps.
 
