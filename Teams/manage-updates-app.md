@@ -39,7 +39,7 @@ When a user is assigned an update request, it shows up in their Teams activity f
 
 Updates comes with both out-of-the-box templates for common business scenarios and the option to create your own requests. Anyone can create an update request for new types of updates and ask others to submit updates to sync their work status.
 
-:::image type="content" source="media/manage-updates-app-templates.png" alt-text="Screenshot of templates available in the Updates app." lightobx="media/manage-updates-app-templates.png":::
+:::image type="content" source="media/manage-updates-app-templates.png" alt-text="Screenshot of templates available in the Updates app." lightbox="media/manage-updates-app-templates.png":::
 
 ## Example scenario
 
