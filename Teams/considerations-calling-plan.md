@@ -26,7 +26,7 @@ description: "Learn about emergency calling considerations for Microsoft Calling
 
 # Considerations for Calling Plans
 
-This article describes emergency calling considerations for Microsoft Calling Plan users. Before reading this article, make sure you've read emergency calling concepts and definitions in [Plan and manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
+This article describes emergency calling considerations for Microsoft Calling Plan users. Before reading this article, see emergency calling concepts and definitions in [Plan and manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
 
 To find out if Microsoft Calling Plans are the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md) and [Microsoft Calling Plans for Teams](calling-plans-for-office-365.md).
 
@@ -38,7 +38,7 @@ When the location is associated to the telephone number depends on the country/r
 
 - In the United States and Canada, an emergency location is required when a number is assigned to a user.
 
-- For other countries/regions&mdash;such as in Europe, the Middle East, and Africa (EMEA)&mdash;an emergency location is required when you get the phone number from Microsoft 365, or when it's transferred from another service provider or carrier.
+- For other countries/regions&mdash;such as in Europe, the Middle East, and Africa (EMEA)&mdash;an emergency location is required when you get the phone number from Microsoft 365, or when the number is transferred from another service provider or carrier.
 
 ## Dynamic emergency calling for Calling Plans
 
@@ -58,11 +58,11 @@ For more information, see [Plan and configure dynamic emergency calling](configu
 
 When a Calling Plan user dials an emergency number, how the call is routed to the PSAP depends on the following:
 
-- Whether the emergency address is dynamically determined by the Teams client.
+- Whether the emergency address is dynamically determined by the Teams client
 
-- Whether the emergency address is the registered address associated with the user's phone number.
+- Whether the emergency address is the registered address associated with the user's phone number
 
-- The emergency calling network of that country/region.
+- The emergency calling network of that country/region
 
 For example:
 
@@ -70,9 +70,9 @@ For example:
 
 - If a Teams client is located at a tenant-defined dynamic emergency location, emergency calls from that client are automatically routed to the PSAP serving that geographic location.
 
-- If a Teams client is not located at a tenant-defined dynamic emergency location, emergency calls from that client are screened by a national call center to determine the location of the caller before transferring the call to the PSAP serving that geographic location.
+- If a Teams client isn't located at a tenant-defined dynamic emergency location, emergency calls from that client are screened by a national call center to determine the location of the caller before transferring the call to the PSAP serving that geographic location.
 
-- If an emergency caller is unable to update their emergency location to the screening center, the call will be transferred to the PSAP serving the caller's registered address.
+- If an emergency caller is unable to update their emergency location to the screening center, the call is transferred to the PSAP serving the caller's registered address.
 
 **In Canada, Ireland, and the United Kingdom**, emergency calls are first screened to determine the current location of the user before connecting the call to the appropriate dispatch center.
 

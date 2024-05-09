@@ -25,7 +25,7 @@ description: "Learn about emergency calling considerations for Teams Phone Mobil
 
 # Considerations for Teams Phone Mobile
 
-This article describes considerations for emergency calling for Teams Phone Mobile users. Before reading this article, make sure you've read emergency calling concepts and definitions in [Plan and manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
+This article describes considerations for emergency calling for Teams Phone Mobile users. Before reading this article, see emergency calling concepts and definitions in [Plan and manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
 
 To find out if Teams Phone Mobile is the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md) and [Plan for Teams Phone Mobile](operator-connect-mobile-plan.md).
 
@@ -47,7 +47,7 @@ Dynamic location for routing emergency calls is supported in the United States a
 
 - If a Teams client for a United States user doesn't dynamically acquire an emergency address within the United States, then the registered emergency address is used to help screen and route the call. However, the call is screened to determine if an updated address is required before connecting the caller to the appropriate PSAP.
 
-Dynamic location for routing emergency calls is supported in Canada the same as in the United States with the following exceptions: all emergency calls will be screened nationally before being transferred to the PSAP.
+Dynamic location for routing emergency calls is supported in Canada the same as in the United States with the following exceptions: all emergency calls are screened nationally before being transferred to the PSAP.
 
 For more information, see [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).
 
@@ -55,11 +55,11 @@ For more information, see [Plan and configure dynamic emergency calling](configu
 
 When a Teams Phone Mobile user dials an emergency number using a Microsoft Teams client, how the call is routed to the PSAP depends on the following:
 
-- Whether the emergency address is dynamically determined by the Teams client.
+- Whether the emergency address is dynamically determined by the Teams client
 
-- Whether the emergency address is the registered address associated with the user's phone number.
+- Whether the emergency address is the registered address associated with the user's phone number
 
-- The emergency calling network of that country/region.
+- The emergency calling network of that country/region
 
 - In the United States and Canada, dynamic routing is part of the carrier's service. You don't need to procure this service from another service provider.
 
@@ -74,7 +74,7 @@ When a Teams Phone Mobile user dials an emergency number using a Microsoft Teams
 
 Your mobile operator manages all emergency calls made through your SIM-Enabled Smartphone’s native dialer and may use multiple technologies to approximate emergency location for assistance like geographic coordinates or which cell towers are handling the call, and so on. For more information, contact your operator.
 
-## Related topics
+## Related articles
 
 - [Plan and manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Manage emergency calling policies](manage-emergency-calling-policies.md)
