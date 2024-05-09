@@ -40,7 +40,7 @@ Work location is part of a user's profile in Microsoft Teams (and throughout Mic
 Work location states can be set as a recurring schedule in Outlook calendar. If a user is setting up recurring work hours and location schedules, it will automatically be set in Teams for those periods of time. Whenever something comes up, users can update plans in Outlook or Teams. Any changes are reflected in both the apps.
 
 > [!NOTE]
-> For users who have their mailbox hosted on-prem, adding work location building details experience would be limited.
+> For users who have their mailbox hosted on-premises, adding work location building details experience would be limited.
 
 ## User experience with location details in Teams
 
@@ -56,4 +56,9 @@ By default, setting the user work location is an opt-in experience. By setting u
 
 ## See also
 
-3 links
+[Set your work location in Microsoft Teams](https://support.microsoft.com/en-us/office/set-your-work-location-in-microsoft-teams-6c14a0f5-3cd6-427d-b1d2-aa0365aebf88)
+
+[Show your hybrid-work location, availability to meet, work hours, and more](https://support.microsoft.com/en-us/office/show-your-hybrid-work-location-availability-to-meet-work-hours-and-more-c861198d-f82e-41d7-88ec-c2e716be5ede)
+
+[User presence in Teams](presence-admins.md)
+
