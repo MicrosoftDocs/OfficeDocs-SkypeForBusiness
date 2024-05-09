@@ -29,7 +29,7 @@ Work location is part of a user's profile in Microsoft Teams (and throughout Mic
 ## Work location states in Teams
 
 |Options |Representation |
-|-----|-----|
+|---|---|
 |Working remotely |[icon string]<br>House (Remote)|
 |Working from office |[icon string]<br>Building (Office) |
 |Working from office with building details |[icon string]<br>Building (Add building)|
