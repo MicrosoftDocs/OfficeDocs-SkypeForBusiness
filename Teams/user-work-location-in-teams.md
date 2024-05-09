@@ -24,9 +24,9 @@ appliesto:
 
 # User work location in Teams
 
-Work location is part of a user's profile in Microsoft Teams (and throughout Microsoft 365). Users can set up work locations for the day in Microsoft Teams and therefore sharing visibility of which days they are in the office or working from home, making it easier to coordinate in-person meetings. By default, anyone in the organization using Teams can see (in nearly real time) locations set by others.
+Work location is part of a user's profile in Microsoft Teams (and throughout Microsoft 365). Users can set up work locations for the day in Microsoft Teams and share visibility for the days they're in the office or working from home, making it easier to coordinate in-person meetings. By default, anyone in the organization using Teams can see (in nearly real time) locations set by others.
 
-## Work location states Teams
+## Work location states in Teams
 
 |Options |Representation |
 |-----|-----|
@@ -35,24 +35,24 @@ Work location is part of a user's profile in Microsoft Teams (and throughout Mic
 |Working from office with building details |[icon string]<br>Building (Add building)|
 
 > [!Note]
-> Setting building details requires the tenant admin to add building directory details. Once added, users can set work location buildings for the day. For more information, see [Manage floor plans](/microsoftsearch/manage-floorplans).
+> Setting building details requires the tenant admin to add building directory details. Once added, users can set their work-location buildings for the day. For more information, see [Manage floor plans](/microsoftsearch/manage-floorplans).
 
-Work location states can be set as a recurring schedule in Outlook calendar. If a user is setting up recurring work hours and location schedules, it will automatically be set in Teams for those periods of time. Whenever something comes up, users can update plans in Outlook or Teams. Any changes are reflected in both the apps.
+Work location states can be set as a recurring schedule in an Outlook calendar. If a user is setting up recurring work hours and location schedules, it will automatically be set in Teams for those periods of time. Whenever changes come up in a user's schedule, they can update plans in Outlook or Teams. Any changes are reflected in both apps.
 
 > [!NOTE]
-> For users who have their mailbox hosted on-premises, adding work location building details experience would be limited.
+> For users who have their mailbox hosted on-premises, when they add work-location building details the experience would be limited.
 
 ## User experience with location details in Teams
 
-Users can learn about where others are working from on a given day by learning from the profile card details. Profile card makes it easier for people in your organization to quickly get an overview of your online status, the next available time to meet, work hours, local time, and work location (office or remote).
+Users can learn about where co-workers are working on a given day from the profile-card details. Profile cards make it easier for others in your organization to quickly get an overview of your online status, your next available time to meet, your work hours, the local time, and work location (office or remote).
 
 People you interact with in a group chat will also have location details displayed in the list view. See how to learn about other’s work location details
 
-Users who are working from the same office as the chat recipient will have nearby indicating details displayed on the top header area of the chat message window.
+Users who are using chat from the same location as the chat recipient will see details displayed on the top header area of the chat message window.
 
 ## User settings to edit location sharing
 
-By default, setting the user work location is an opt-in experience. By setting up work locations, users enable anyone in the organization to view this information. If the user chooses to set different sharing controls on a work location, see how to update privacy settings in Outlook mailbox settings.
+By default, setting the user work location is an opt-in experience. By setting up work locations, users enable anyone in their organization to view this information. If a user wants to set different sharing controls on a work location, see how to update privacy settings in Outlook mailbox settings.
 
 ## See also
 
@@ -61,4 +61,3 @@ By default, setting the user work location is an opt-in experience. By setting u
 [Show your hybrid-work location, availability to meet, work hours, and more](https://support.microsoft.com/en-us/office/show-your-hybrid-work-location-availability-to-meet-work-hours-and-more-c861198d-f82e-41d7-88ec-c2e716be5ede)
 
 [User presence in Teams](presence-admins.md)
-
