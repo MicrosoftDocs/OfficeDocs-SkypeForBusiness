@@ -30,7 +30,7 @@ Not all features available in new Microsoft Teams desktop clients are available 
 |Meetings and Calls|Speaker Coach||[Details](https://support.microsoft.com/office/preview-speaker-coach-in-microsoft-teams-meetings-30f50d15-5f62-4e09-b3bf-cadeb806386a)|
 |Meetings and Calls|Background effects in meetings including custom backgrounds, video backgrounds, and decorate|Background blur and default backgrounds are supported|[Details](https://support.microsoft.com/office/change-your-background-in-microsoft-teams-meetings-f77a2381-443a-499d-825e-509a140f4780)|
 |Meetings and Calls|Green screen support||[Details](https://support.microsoft.com/office/using-green-screen-in-microsoft-teams-9a16d77d-2668-4d14-a1ca-fdac7067c88a)|
-|Meetings and Calls|Filters including video effect filters, soft focus, and adjust brightness|Background blur and non-custom backgrounds are supported|[Details](https://support.microsoft.com/office/apply-video-filters-in-microsoft-teams-meetings-c04a1326-7f63-4170-a4f7-0778520af465)|
+|Meetings and Calls|Filters including video effect filters, soft focus, and adjust brightness|Background blur and default backgrounds are supported|[Details](https://support.microsoft.com/office/apply-video-filters-in-microsoft-teams-meetings-c04a1326-7f63-4170-a4f7-0778520af465)|
 |Meetings and Calls|Avatars for Microsoft Teams||[Details](https://support.microsoft.com/office/join-a-meeting-as-an-avatar-in-microsoft-teams-5384e7b7-30c7-4bcb-8065-0c9e830cc8ad)|
 |Meetings and Calls|Spatial Audio||[Details](https://support.microsoft.com/office/spatial-audio-in-microsoft-teams-meetings-547b5f81-1825-4ee1-a1cf-f02e12db4fdb)|
 |Meetings and Calls|Voice isolation||[Details](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&searchterms=125387)|
