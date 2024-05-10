@@ -116,8 +116,9 @@ The extended notification settings are:
 
 | Emergency dial string | Notification groups | Notification dial out number | Notification mode |
 | :------------| :-------| :-------| :-------|
-| 933 |   |  |  |
 | 911 | alert@contoso.com | 12345 | Conference unmuted| 
+| 933 |   |  |  |
+
 
 
 
