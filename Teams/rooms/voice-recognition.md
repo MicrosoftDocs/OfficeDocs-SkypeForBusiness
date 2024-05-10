@@ -40,7 +40,7 @@ The most essential input for Copilot in Teams is the identity of each speaker. C
 
 Teams Rooms devices use advanced technology called speaker recognition to analyze the distinct vocal characteristics of each speaker, such as pitch, tone, and speaking style, to create a voiceprint for each participant, akin to a fingerprint for their voice.
 
-With speaker recognition, [Teams Rooms](/microsoft-teams/microsoft-teams-rooms) can identify speakers during live transcription in shared meeting rooms, ensuring clear and precise voice capture for every participant. This allows you to effortlessly track who said what during the meeting through intelligent meeting recap and Copilot.
+With speaker recognition, [Teams Rooms](/microsoft-teams/rooms) can identify speakers during live transcription in shared meeting rooms, ensuring clear and precise voice capture for every participant. This allows you to effortlessly track who said what during the meeting through intelligent meeting recap and Copilot.
 
 To enable speaker recognition for your employees, you can set up a voice profile in minutes using the Teams Desktop app. Each person gets a unique voice signature, stored securely in your organization's tenant in the Microsoft Cloud to assure that every contribution is accurately captured in every meeting, enabling Copilot and intelligent meeting recap – and helping you drive your work forward.
 
