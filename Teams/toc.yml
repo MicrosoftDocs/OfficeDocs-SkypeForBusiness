@@ -109,6 +109,8 @@ items:
                   href: teams-classic-client-end-of-availability.md
                 - name: Manually uninstall classic Teams client
                   href: teams-classic-client-uninstall.md
+                - name: Feature differences between desktop and Teams for Web
+                  href: new-teams-desktop-client-features.md
                 - name: Usage report for new Teams client
                   href: new-teams-usage-report.md
             - name: Classic Teams clients
