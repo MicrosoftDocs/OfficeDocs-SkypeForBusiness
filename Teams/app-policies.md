@@ -34,6 +34,7 @@ As an alternate, you can use [app centric management](app-centric-management.md)
 
 > [!IMPORTANT]
 > If your organization is moved to app centric management feature to manage access to apps, see [Manage access to Teams apps using app centric management](app-centric-management.md). Permission policies will no longer apply and you may see this message on the policy page.
+> 
 > :::image type="content" source="media/acm-policy-page.png" alt-text="Screenshot showing the permissions policy change for organization that are using app centric management.":::
 
 With app permission policies, Teams admin control what apps are available to each user in their organization. You can allow a few apps for all users, you can allow a few apps for a specific group of users, or you can allow specific apps for specific users. App permission policies work in tandem with Org-wide app settings and allow or block status of each individual app.
