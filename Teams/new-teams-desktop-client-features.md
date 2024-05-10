@@ -13,7 +13,7 @@ ms.reviewer: sburkman
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn about the features available in the new Teams client for desktop that are not available in the web client.
+description: Learn about the features available in the new Teams client for desktop that aren't available in the web client.
 ms.localizationpriority: high
 ---
 
@@ -25,7 +25,7 @@ Not all features available in new Microsoft Teams desktop clients are available 
 |:-----|:-----|:-----|:-----|
 |Availability|Desktop-wide idle detection|Teams for Web sets status for users based on activity within the browser tab, not activity across the desktop while Teams for Web is in the background|[Details](https://support.microsoft.com/office/change-your-status-in-microsoft-teams-ce36ed14-6bc9-4775-a33e-6629ba4ff78e)|
 |Chat|Open chat or post in a new window||[Details](https://support.microsoft.com/office/open-a-chat-in-a-new-window-in-microsoft-teams-cff95cb0-34af-423f-8f69-fe9106973790)|
-|Meetings and Calls|Max gallery sizes in Meetings|<ul><li>Microsoft Edge and Chrome: no gallery sizes greater than 9 in meetings</li> <li>Safari and Firefox: no gallery sizes greater than 4 in meetings</li></ul>|[Details](https://support.microsoft.com/office/using-video-in-microsoft-teams-3647fc29-7b92-4c26-8c2d-8a596904cdae)|
+|Meetings and Calls|Max gallery sizes in Meetings|<ul><li>Microsoft Edge and Chrome: no gallery sizes greater than nine in meetings</li> <li>Safari and Firefox: no gallery sizes greater than four in meetings</li></ul>|[Details](https://support.microsoft.com/office/using-video-in-microsoft-teams-3647fc29-7b92-4c26-8c2d-8a596904cdae)|
 |Meetings and Calls|Immersive spaces||[Details](https://support.microsoft.com/office/get-started-with-immersive-spaces-in-microsoft-teams-4a6182f8-0f43-4c24-bb66-ef229fa221d8)|
 |Meetings and Calls|Speaker Coach||[Details](https://support.microsoft.com/office/preview-speaker-coach-in-microsoft-teams-meetings-30f50d15-5f62-4e09-b3bf-cadeb806386a)|
 |Meetings and Calls|Background effects in meetings including custom backgrounds, video backgrounds, and decorate|Background blur and non-custom backgrounds are supported|[Details](https://support.microsoft.com/office/change-your-background-in-microsoft-teams-meetings-f77a2381-443a-499d-825e-509a140f4780)|
@@ -39,7 +39,7 @@ Not all features available in new Microsoft Teams desktop clients are available 
 |Meetings and Calls|Advanced screen sharing features including presenter modes and annotate (Whiteboard)||[Details](https://support.microsoft.com/office/engage-your-audience-with-presenter-modes-in-microsoft-teams-a3599bcb-bb35-4e9c-8dbb-72775eb91e04)|
 |Meetings and Calls|Share content from camera||[Details](https://support.microsoft.com/office/share-whiteboards-and-documents-using-your-camera-in-microsoft-teams-meetings-905b52e3-bcd7-45c5-84cc-03992d7fc84f)|
 |Meetings and Calls|End-to-end encryption for Teams meetings||[Details](https://support.microsoft.com/office/use-end-to-end-encryption-for-teams-meetings-a8326d15-d187-49c4-ac99-14c17dbd617c)|
-|Meetings and Calls|Manage call settings from "Settings and more"|Mic, speaker, or camera settings may be managed while  joining a meeting or within the Calls app, but these settings are not available on the Settings page|[Details](https://support.microsoft.com/office/manage-your-call-settings-in-microsoft-teams-456cb611-3477-496f-b31a-6ab752a7595f)|
+|Meetings and Calls|Manage call settings from "Settings and more"|Mic, speaker, or camera settings may be managed while  joining a meeting or within the Calls app, but these settings aren't available on the Settings page|[Details](https://support.microsoft.com/office/manage-your-call-settings-in-microsoft-teams-456cb611-3477-496f-b31a-6ab752a7595f)|
 |Meetings and Calls|Automatically adjust mic sensitivity||[Details](https://support.microsoft.com/office/reduce-background-noise-in-microsoft-teams-meetings-1a9c6819-137d-4b3b-a1c8-4ab20b234c0d)|
 |Meetings and calls|Join on a second device||[Details](https://support.microsoft.com/office/join-a-microsoft-teams-meeting-on-a-second-device-c28e7407-183b-46ea-ab17-2212700e5f41)|
 |Meetings and Calls|Emergency call help desk integration and security desk conference mode||[Details](manage-emergency-calling-policies.md)|
