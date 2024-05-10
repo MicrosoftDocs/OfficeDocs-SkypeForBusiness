@@ -116,6 +116,7 @@ Set-CsTeamsEventsPolicy -Identity <policy name> -AllowedTownhallTypesForRecordin
 
 ## Related articles
 
+- [Issues that affect Teams webinars](/microsoftteams/troubleshoot/meetings/issues-with-webinars)
 - [Plan for webinars](plan-webinars.md)
 - [Plan for town halls](plan-town-halls.md)
 - [Set-CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy)
