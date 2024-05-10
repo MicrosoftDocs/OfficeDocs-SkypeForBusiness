@@ -25,7 +25,7 @@ ms.localizationpriority: medium
 # Manage apps that work across Teams, Outlook, and Microsoft 365
 
 > [!IMPORTANT]
-> This feature is **not** available in the admin centers yet. For information on availability, see Message Center post [MC688930](). This feature will only be available for organizations that are using [App Centric Management](app-centric-management.md) feature.
+> This feature is **not** available in the admin centers yet. For information on availability, see Message Center post [MC688930](https://lynx.office.net/messagecenter/MC688930). This feature will only be available for organizations that are using [App Centric Management](app-centric-management.md) feature.
 
 <!---
 - Is the feature available now or after 60d?
@@ -34,8 +34,6 @@ ms.localizationpriority: medium
 - ACM migration wizard docs
 - TAC deploy docs
 - consider adding icons or visuals in the tables for yes or no.
-
-
 --->
 
 Introduction about hubs and existing governance controls:
@@ -74,7 +72,7 @@ Link to [Message Center post 393931](https://www.microsoft.com/microsoft-365/roa
 * App block/unblock: Blocking or unblocking apps apply to all applicable app hosts.
 * Unification of existing app settings: The unification of settings happen automatically in three major phases. Unification changes can't be rolled back.
 
-Without this feature, controls to manage Teams apps that work in Outlook and the Microsoft 365 app are available between the [Integrated apps](asdasda) page in the Microsoft 365 admin center and the [Manage apps](asd) page in Teams admin center. This sometimes resulted in different settings for the same app in the two admin centers. With Unified App Management, we'll be consolidating app catalog management into a single platform. You'll be able to manage apps on the Integrated apps page in the Microsoft 365 admin center or in the Teams admin center, and any changes made in either admin centers synchronizes.
+Without this feature, controls to manage Teams apps that work in Outlook and the Microsoft 365 app are available between the [Integrated apps](https://admin.microsoft.com/Adminportal/Home#/Settings/IntegratedApps) page in the Microsoft 365 admin center and the [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page in Teams admin center. This sometimes resulted in different settings for the same app in the two admin centers. With Unified App Management, we'll be consolidating app catalog management into a single platform. You'll be able to manage apps on the Integrated apps page in the Microsoft 365 admin center or in the Teams admin center, and any changes made in either admin centers synchronizes.
 
 ## Outcomes of admin actions across admin centers
 
@@ -146,3 +144,4 @@ This rollout happens automatically by the specified date with no admin action re
 ## Related articles
 
 * [Integrated apps](/microsoft-365/admin/manage/teams-apps-work-on-outlook-and-m365)
+* [Get started with Integrated apps](/microsoft-365/admin/manage/test-and-deploy-microsoft-365-apps)
