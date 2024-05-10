@@ -88,7 +88,7 @@ For this example, assume you want to create an emergency calling policy called D
 
 **ROY - EXAMPLE 1**
 
-In this example, you configure the emergency calling policy, ECP1, with full security desk configuration and extended notifications with 933 set to null.  
+In this example, you configure the emergency calling policy, ECP1, with full security desk configuration, and extended notifications with 933 set to null.  
 
 **ECP1**
 - Notification group: alert@contoso.com
@@ -96,7 +96,7 @@ In this example, you configure the emergency calling policy, ECP1, with full sec
 - Notification Mode - Conference Unmuted
 - External Lookup Mode - On
 
-The extended notification setting looks like:
+The extended notification setting is:
 
 | Emergency dial string | Notification groups | Notification dial out number | Notification mode |
 | :------------| :-------| :-------| :-------|
@@ -104,13 +104,15 @@ The extended notification setting looks like:
 
 **ROY EXAMPLE 2**
 
-In this example, you configure the emergency calling policy, ECP2, with both 911 and 933 configured in the extended notification settings:
+In this example, you configure the emergency calling policy, ECP2, with mostly null values. You configure both 911 and 933 in the extended notification settings:
 
 **ECP2**
 - Notification Group - null
 - Notification Dial Out Number - null
 - Notification Mode - null
 - External Lookup Mode - On
+
+The extended notification settings are:
 
 | Emergency dial string | Notification groups | Notification dial out number | Notification mode |
 | :------------| :-------| :-------| :-------|
