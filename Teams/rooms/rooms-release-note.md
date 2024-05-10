@@ -75,7 +75,9 @@ Introduced in this update:
 - **Improvements to Join with an ID**. Teams meetings continues to be the default option while the option to select joining Zoom meetings with an ID, and others to come, is visually more clear.
 - **Meeting ID and passcode to join on Teams Rooms on Windows**. Admins can configure and require a meeting ID and passcode to join a meeting on Teams Rooms on Windows to ensure one more level of security and privacy. This feature is available with Teams Rooms Pro license.
 - **End users can switch IntelliFrame on or off using Stage roster**.
-  
+
+- **Intelligent Speakers for All Rooms and Devices:** With this update, users can now enjoy enhanced productivity in any meeting space, regardless of the type of mic connected to Teams Room. Support to identify who said what during meetings, providing live attributed transcriptions. This helps Microsoft Copilot and AI notes to keep track of important information. This feature is now in public preview on Microsoft Teams Rooms on Windows.
+
 > [!IMPORTANT]
 > Please note that some systems maybe missing the minimum version of the Edge WebView2 runtime. Until Edge Webview2 runtimeversion 110.0.1587.63 or higher is installed, these devices will be missing some features.
 
