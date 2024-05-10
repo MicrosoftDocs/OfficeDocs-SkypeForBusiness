@@ -313,7 +313,7 @@ App setup policies control how apps are made available to a user with the Teams 
 #### Related articles for setup policies
 
 - [Use app setup policies to pin and auto-install apps in Teams](teams-app-setup-policies.md)
-- [Use of Teams apps for external attendees or guest from outside an organization](non-standard-users.md)
+- [Use of Teams apps for external attendees or guest from outside an organization](apps-external-users.md)
 - [Understand Microsoft Teams apps and their capabilities](apps-in-teams.md)
 
 ### Customize app store
@@ -635,12 +635,12 @@ Meeting settings allow you to customize meeting email invitations and configure 
 
 **Navigation:** Teams admin center > Meetings > Meeting settings
 
-:::image type="content" source="media/email-invitation-tac.png" alt-text="Screenshot of Teams meeting settings for email invitations in the Teams admin center." lightbox="media/email-invitation-tac-expand.png":::
+:::image type="content" source="media/email-inv-tac-small.png" alt-text="Screenshot of Teams meeting settings for email invitations in the Teams admin center." lightbox="media/email-inv-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Logo URL|(none)|The URL where your organization's logo is stored. Displayed in meeting invites.|
-|Legal URL|(none)|The URL for your organization's legal site. Displayed in meeting invites.|
+|Privacy and security URL|(none)|The URL for your organization's legal site. Displayed in meeting invites.|
 |Help URL|(none)|The URL for your organization's help or support site. Displayed in meeting invites.|
 |Footer|(none)|Footer text to be included in meeting invitations. Displayed in meeting invites.|
 

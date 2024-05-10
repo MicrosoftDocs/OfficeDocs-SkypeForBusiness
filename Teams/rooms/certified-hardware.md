@@ -139,7 +139,6 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Current certification end date | Room size | Android OS version |
 |:-|:-|:-|:-|:-|
-| Poly G62 | `PolyOS 4.1.5` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Neat Bar Gen2 | `NFA1.20231116.0626 ` |  September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | DTEN DCR200 Bar | `1.0.2` |  October 4, 2026 |  Small size room (4.5 m x 4.5 m) | 12 |
 | Cisco Room Kit EQX | `RoomOS11.15` | September 3, 2025 |  Large Meeting Room (4.5m x 8.5 m)| 11 |
@@ -179,7 +178,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Poly Studio X70 | `4.0.0-376092` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Poly G7500 | `4.0.0.376092` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Poly TC8 | `4.1.0.211075` | September 3, 2025 | Compatible with Poly Studio X30, Poly Studio X50, Poly Studio X70 and Poly G7500 | 11 |
-| Poly TC10 | `4.1.0-211075` | September 3, 2025 |Compatible with Poly Studio X30, Poly Studio X50, Poly Studio X70, Poly Studio X52, Poly G7500 and Poly Studio G62| 11 |
+| Poly TC10 | `4.1.0-211075` | September 3, 2025 |Compatible with Poly Studio X30, Poly Studio X50, Poly Studio X70, Poly Studio X52 and Poly G7500| 11 |
 | Poly Studio X52 | `4.1.0.382110` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Poly G7500 + Shure Large Room Kit | `4.0.1` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Yealink DeskVision A24 | `156.15.0.29` | September 3, 2025 | Phone room (2 m x 2 m) | 10 |
@@ -206,6 +205,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Aver CAM 570](https://www.averusa.com/products/conference-camera/cam570) | 0.0.8100.98 |  |  | 
 | [Aver CAM 520 Pro](https://www.averusa.com/products/conference-camera/cam520pro) | 0.0.1000.73 |  |  |
 | [Aver CAM 520 Pro 2](https://www.averusa.com/products/conference-camera/cam520pro2) | 0.0.7200.3 |  |  |
+| [Aver CAM 520 Pro 3](https://www.averusa.com/products/conference-camera/cam520pro3) | 0.0.9601.09 |  |  |
 | [Aver CAM 130](https://www.averusa.com/products/conference-camera/cam130) | 0.0.7450.02 | &#x2714; |  |
 | [Aver Fone540](https://www.averusa.com/products/vc-accessories/fone540) | 0.0.7002.17 |  |  |
 | Aver VB130 Camera Soundbar | 0.0.7300.71 |  |  |
@@ -221,6 +221,9 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Biamp Parlé ABC 2500 & Parlé ABC 2500a Conferencing Audio Bars](https://www.biamp.com/products/product-families/parle/conferencing-bars) | 1.3.0 |  |  |
 | [:::no-loc text="Crestron Huddly"::: IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400) | 1.02.09.33901 |  |  |
 | Crestron 1Beyond- Crestron Automate VX Plus: [Automate VX Plus (IV-SAM-VXN-1B)](https://www.crestron.com/Products/Workspace-Solutions/Intelligent-Video/1-Beyond-Intelligent-Video/IV-SAM-VXN-1B), [INOGENI (SDI2USB3) converter](https://inogeni.com/product/sdi2usb3/), [AutoTracker (IV-CAMA3-20) presenter tracking camera](https://www.crestron.com/Products/Workspace-Solutions/Intelligent-Video/1-Beyond-Intelligent-Video/IV-CAMA3-20-N-W-1B), [Optical PTZ (IV-CAMPTZ) camera](https://www.crestron.com/Products/Workspace-Solutions/Intelligent-Video/1-Beyond-Intelligent-Video/IV-CAMPTZ-12-W-1B) | Automate VX Plus: Version 5.11.8580.20169 </br> INOGENI SDI1USB3: Version 8.39 </br> IV-CAMA30: Version 5.1.82 </br> IV-CAMPTZ: Version 3.1.20 |  |  |
+| [Crestron 1 Beyond p20 PTZ camera (IV-CAM-P20)](https://www.crestron.com/Products/Workspace-Solutions/Intelligent-Video/1-Beyond-Intelligent-Video/IV-CAM-P20-B) | 1.0.19 |  |  |
+| [Crestron 1 Beyond i12 PTZ camera (IV-CAM-I12)](https://www.crestron.com/Products/Workspace-Solutions/Intelligent-Video/1-Beyond-Intelligent-Video/IV-CAM-I12-B) | 1.0.22 |  |  |
+| [Crestron Flex Hub](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Conferencing-Audio/UC-AUDIO-HUB-DR1) + [Crestron Flex Pods](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Conferencing-Audio/UC-AUDIO-POD-B-DR1) | 1.13.0113 |  |  |
 | HP Presence See Camera | 1.0.23.0 |  |  |
 | [:::no-loc text="Huddly"::: Canvas](https://www.huddly.com/conference-cameras/canvas/) | 1.3.25 | &#x2714; |  |
 | [Huddly Crew AI-directed multi-camera system](https://www.huddly.com/conference-cameras/crew/) | 1.5.19 |  |  |
