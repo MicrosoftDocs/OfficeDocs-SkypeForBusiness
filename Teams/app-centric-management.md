@@ -30,7 +30,7 @@ ms.custom: seo-marvel-apr2020
 > All organizations don't have app centric management (ACM) feature available. If you were not using custom permission policies, we migrated your org to use this feature. If you are using custom permission policies then you will soon be able to migrate to ACM feature on your own.
 >
 > If you see policies on the [permission policies page](https://admin.teams.microsoft.com/policies/app-permission), continue to [use app permission policies](teams-app-permission-policies.md) to control user access to apps.
-> If the ACM feature is available in your org, you will see the following on policy page.
+> If the ACM feature is available in your org, you will see the following message on the policy page.
 >
 > :::image type="content" source="media/acm-policy-page.png" alt-text="Screenshot showing the permissions policy change for organization that are using app centric management.":::
 
