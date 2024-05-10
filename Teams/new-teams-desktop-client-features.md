@@ -13,7 +13,7 @@ ms.reviewer: sburkman
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn about the features available in the new Teams client for desktop that aren't available in the web client.
+description: Learn about the features differences between the new Teams client for desktop and the Teams web client, what is available in the desktop client and unavailable in the web client.
 ms.localizationpriority: high
 ---
 
@@ -50,7 +50,7 @@ Not all features available in new Microsoft Teams desktop clients are available 
 |Meetings and Calls|End of call survey, Bandwidth indicator, User facing Diagnostics||[Details](/azure/communication-services/concepts/voice-video-calling/manage-call-quality)|
 |Meetings and Calls|Give and take screen sharing control||[Details](https://support.microsoft.com/office/share-content-in-microsoft-teams-meetings-fcc2bf59-aecd-4481-8f99-ce55dd836ce8)|
 |Teams live events|Producing or presenting Teams live events, moderating Q&A||[Details](https://support.microsoft.com/office/produce-a-live-event-in-microsoft-teams-591bd694-121d-405c-b26d-730315e45a22)|
-|Town Hall|Presenting or organizing, joining as presenter or organizer|Includes joining town hall from Teams for Web if a presenter or organizer|[Details](https://support.microsoft.com/office/get-started-with-town-hall-in-microsoft-teams-33baf0c6-0283-4c15-9617-3013e8d4804f)|
+|Town Hall|Presenting or organizing, joining as presenter or organizer|Includes joining town hall from Teams for Web if you're a presenter or organizer|[Details](https://support.microsoft.com/office/get-started-with-town-hall-in-microsoft-teams-33baf0c6-0283-4c15-9617-3013e8d4804f)|
 |Multi-tenant Organization|Multi-tenant multi-account support|Teams for Web supports easy switching to guest tenants, but side-by-side multitasking, cross-tenant notifications, and other multi-tenant organization (MTO) capabilities aren't available|[Details](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/announcing-more-seamless-collaboration-in-microsoft-teams-for/ba-p/3901092)|
 |Multi-tenant Organization|Add or delete documents in channels while on a guest tenant||[Details](https://support.microsoft.com/office/first-things-to-know-about-files-in-microsoft-teams-4c1b6c25-3794-49f9-93aa-bf6fdc211299)|
 |Teams Room|Cast to nearby Teams Room||[Details](https://support.microsoft.com/office/cast-content-from-your-desktop-to-a-microsoft-teams-room-6d62cdbb-3da2-4bb9-80bd-9cf1098beb3d)|
