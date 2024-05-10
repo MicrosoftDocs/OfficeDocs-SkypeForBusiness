@@ -25,10 +25,13 @@ description: Update Microsoft Teams phones, Teams panels, and Teams Rooms on And
 
 Using Teams admin center, you can update your Teams devices, including Teams phones, Teams panels, and Teams Rooms that run on Android remotely. The following software components on your device can be updated from within Teams admin center:
 
-- Teams app software
-- Device firmware software
+- **Teams app** - available for Manual and Automatic updates
 
-Updates for these components happen automatically by default. However, you can update them manually as well. When you're applying updates manually, they can be applied immediately or scheduled to be updated on a future date and time that you set.
+- **Device firmware** - available for Manual and Automatic updates
+
+- **Company Portal app** - available for Manual updates only
+
+Updates for Teams app and device firmware happen automatically by default. However, you can update them manually as well. When you're applying updates manually, they can be applied immediately or scheduled to be updated on a future date and time that you set.
 
 ## Software versions on Teams admin center
 
@@ -101,6 +104,8 @@ If you want to configure the Maintenance window for a device, do the following s
   
 Automatic updates, when they happen, utilize the Maintenance window configured for the device, that is, the **Time window** on the selected days for **Update frequency**. Maintenance window can also be utilized for scheduling manual updates. 
 
+Option to configure maintenance window isn't available in GCC-High and DoD.
+
 > [!NOTE]
 > If an update operation is unable to start execution within the maintenance window it is scheduled for, it is cancelled and rescheduled for the next available maintenance window.
 
@@ -162,9 +167,15 @@ This video shows how to update Teams devices.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fxbK?autoplay=false]
 
-## Teams app updates for paired devices
+## App updates for paired devices
 
-The Teams app updates for paired Microsoft Teams Rooms running Android and their paired touch consoles happen in sync to ensure a streamlined experience. This is applicable for both automatic and manual updates.
+The app updates for paired Microsoft Teams Rooms running Android and their paired touch consoles happen in sync to ensure a streamlined experience. This is applicable for the following software components -
+
+- Teams app
+
+- Company Portal app
+
+This is applicable for both automatic and manual updates.
 
 **For manual updates** - Whenever an update is being done for Microsoft Teams Rooms running Android or a Touch console, the paired device will also be updated. If an update is being scheduled for later, it will be scheduled for the same time on the paired device.
 
