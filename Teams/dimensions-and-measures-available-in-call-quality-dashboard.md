@@ -633,8 +633,8 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 | Second Video Frame Rate Avg | Range (frames per second) | Average rate in frames-per-second of video on the second endpoint. | &bull; Stream isn't a video stream |
 | First Video Bit Rate Avg | Range (kbps) | Average bit rate in kilobytes-per-second of video on the first endpoint. | &bull; Stream isn't a video stream |
 | Second Video Bit Rate Avg | Range (kbps) | Average bit rate in kilobytes-per-second of video on the second endpoint. | &bull; Stream isn't a video stream |
-| First Time To First Frame | Range (seconds) | The number of seconds between the video subscription and the first frame of the stream received by the first endpoint. | &bull; Stream is not a video stream |
-| Second Time To First Frame | Range (seconds) | The number of seconds between the video subscription and the first frame of the stream received by the second endpoint. | &bull; Stream is not a video stream |
+| First Time To First Frame | Range (milliseconds) | The number of milliseconds between the video subscription and the first frame of the stream received by the first endpoint. | &bull; Stream is not a video stream |
+| Second Time To First Frame | Range (milliseconds) | The number of milliseconds between the video subscription and the first frame of the stream received by the second endpoint. | &bull; Stream is not a video stream |
 | First Video Bitrate Max | Range (kbps) | The maximum inbound video bitrate as received by the first endpoint at any point of the call. | &bull; Stream is not a video stream|
 | Second Video Bitrate Max | Range (kbps) | The maximum inbound video bitrate as received by the second endpoint at any point of the call. | &bull; Stream is not a video stream|
 |**PSTN**||||
