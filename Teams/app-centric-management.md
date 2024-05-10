@@ -62,7 +62,7 @@ The method to allow users access to an app changes with this functionality. In t
 
 To assign users or groups to an app, follow these steps:
 
-1. In Teams admin center, go to the [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page, search for the required app, and select the app name to open its app details page.
+1. In Teams admin center, go to the [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page, search for the required app, and select the app name to open its app details page. You can't create assignments to apps in bulk.
 
 1. Select the **Assignments** tab.
 
@@ -139,6 +139,8 @@ When your tenant's admin center receives this feature, the following updates are
 ## Considerations and limitations
 
 * After you switch to this feature, you can't access, edit, or use permission policies.
+
+* You can't create assignments to apps in bulk.
 
 * [PowerShell cmdlets](/powershell/module/teams/?view=teams-ps&preserve-view=true) for permission policies aren't supported on tenants that migrate to this feature. App centric management feature replaces permission policies. While the cmdlet may seem to succeed, but the changes aren't applied to the tenant.
 
