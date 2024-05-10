@@ -522,7 +522,7 @@ items:
         - name: Walkie Talkie usage and performance report
           href: teams-analytics-and-reports/walkie-talkie-usage-report.md
         - name: SMS notifications usage report
-          href: /microsoft-365/frontline//sms-notifications-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+          href: /microsoft-365/frontline/sms-notifications-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Usage report for new Teams client
           href: new-teams-usage-report.md
 
@@ -1477,7 +1477,9 @@ items:
             - name: Deploy Teams phones and Teams displays using Intune
               href: devices/phones-displays-deploy.md
             - name: Authentication best practices for Android devices
-              href: devices/authentication-best-practices-for-android-devices.md          
+              href: devices/authentication-best-practices-for-android-devices.md
+            - name: AOSP device management 
+              href: rooms/android-migration-guide.md
         - name: Manage
           items:
             - name: Manage your devices in Teams
@@ -1551,9 +1553,9 @@ items:
           href: manage-virtual-appointments-app.md
         - name: Manage the Walkie Talkie app
           href: walkie-talkie.md
-    - name: Manage third-party apps
+    - name: Manage partner apps
       items:
-        - name: Understand third-party apps
+        - name: Understand partner apps
           href: overview-third-party-apps.md
         - name: Know about app testing and validation by Microsoft
           href: overview-of-app-validation.md
