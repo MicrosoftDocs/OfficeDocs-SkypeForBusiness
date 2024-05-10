@@ -32,7 +32,7 @@ When you have activated Intelligent Speaker for your Microsoft Teams Rooms, the 
 
 Speaker recognition is enabled by intelligent speakers certified for Teams. Certified intelligent speakers are designed with multiple microphones to provide high-quality audio, maximizing accuracy in recognition, transcription, and boasting an industry-leading reduction of what is referred to as 'word error rate'.
 
-That said, we get it – intelligent speaker [certified Hardware](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-rooms-and-devices-microsoft-ignite-2023/ba-p/3975581) aren't available yet in every Teams Room. That is why we're extending this feature to existing hardware. While we're delighted to extend the capability of speaker recognition to more rooms, it's important to note the quality may not match that of an intelligent speaker certified device. So, it's essential to evaluate the advantages of incorporating an intelligent speaker, especially in crucial spaces where attaining the highest quality transcription and attribution is vital.
+That said, we get it – [intelligent speaker certified Hardware](/microsoftteams/rooms/certified-hardware?tabs=Devices) aren't available yet in every Teams Room. That is why we're extending this feature to existing hardware. While we're delighted to extend the capability of speaker recognition to more rooms, it's important to note the quality may not match that of an intelligent speaker certified device. So, it's essential to evaluate the advantages of incorporating an intelligent speaker, especially in crucial spaces where attaining the highest quality transcription and attribution is vital.
 
 ## Maintain your identity in meetings optimized for Copilot and meeting recap
 
