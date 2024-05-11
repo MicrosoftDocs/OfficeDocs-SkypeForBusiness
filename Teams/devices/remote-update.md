@@ -118,12 +118,12 @@ If you want to check which software versions are currently rolling out for your 
 3. Refer to the widget titled **Software auto-updates** to determine the number of active update paths.
 4. On this widget, select **View details**. A dialogue box opens showing the list of active update paths with the following details:
 
-- Device model and manufacturer
-  - Current version and new version
-  - Number of eligible devices
-  - Active phase
-  - Devices assigned to this update phase are being currently updated. Any device from a previous phase that isn't updated yet will also be included.
-  - Software component name
+   - Device model and manufacturer
+   - Current version and new version
+   - Number of eligible devices
+   - Active phase
+   - Devices assigned to this update phase are being currently updated. Any device from a previous phase that isn't updated yet will also be included.
+   - Software component name
 
 > [!NOTE]
 > The new version may not always be the latest available version. Devices running older versions may be updated in a step-wise approach, until they reach the latest version.
