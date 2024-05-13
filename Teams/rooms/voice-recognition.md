@@ -80,7 +80,7 @@ In the Teams admin center, set the **Transcription** policy. Settings are **Off*
 > [!NOTE]
 > After a policy is assigned, they can take up to 48 hours to take effect. To get the policy to take effect sooner, accounts must be signed out and signed back in.
 
-The following enrollment and in-meeting transcription locales are supported in all countries and regions.
+The following in-meeting transcription locales are supported in all countries and regions.
 
 ### In-meeting transcription locales
 
