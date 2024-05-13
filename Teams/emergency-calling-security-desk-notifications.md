@@ -90,6 +90,7 @@ The settings are:
 | default | alert.contoso.com | 14255551234 | Conferenced in and are unmuted |
 | 933 |   |  | None |
 
+<br>
 
 **Example 2.** In this example, ECP2, you configure the emergency calling policy with mostly null values. You configure both 911 and 933 in the extended notification settings:
 
