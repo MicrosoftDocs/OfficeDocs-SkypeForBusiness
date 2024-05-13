@@ -44,7 +44,7 @@ With speaker recognition, [Teams Rooms](/microsoftteams/rooms) can identify s
 
 To enable speaker recognition for your employees, you can set up a voice profile in minutes using the Teams Desktop app. Each person gets a unique voice signature, stored securely in your organization's tenant in the Microsoft Cloud to assure that every contribution is accurately captured in every meeting, enabling Copilot and intelligent meeting recap – and helping you drive your work forward.
 
-:::image type="content" source="../media/voice-recognition/image.png" alt-text="Screenshot showing a meeting in progress." lightbox="../media/voice-recognition/image.png":::
+:::image type="content" source="../rooms/media/voice-recognition/image.png" alt-text="Screenshot showing a meeting in progress." lightbox="../rooms/media/voice-recognition/image.png":::
 
 ## Requirements and recommendations
 
