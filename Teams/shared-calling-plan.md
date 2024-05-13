@@ -35,7 +35,7 @@ Let's start with some definitions that you'll need to know for Shared Calling:
 
 | Term | Definition |
 |----------|-----------|
-|Auto attendant|Directs a caller to an appropriate person or department based on the caller's input to the provided menu options--for example, dial by name or dial by extension. The Auto attendant phone number used is specified by the resource account associated with the Auto attendant.<br><br>For more information about using Auto attendants, see [Plan for Auto attendants](plan-auto-attendant-call-queue.md) and [Set up Auto attendants](create-a-phone-system-auto-attendant.md).|
+|Auto attendant|Directs a caller to an appropriate person or department based on the caller's input to the provided menu options--for example, dial by name. The Auto attendant phone number used is specified by the resource account associated with the Auto attendant.<br><br>For more information about using Auto attendants, see [Plan for Auto attendants](plan-auto-attendant-call-queue.md) and [Set up Auto attendants](create-a-phone-system-auto-attendant.md).|
 |Inbound calls|An incoming call that comes from a PSTN to a user in your organization. When a Shared Calling user receives an inbound PSTN call, the call connects to the Auto attendant.|
 |Outbound calls|An outgoing call by a user in your organization to a PSTN. When a Shared Calling user makes an outbound call to the PSTN, the recipients see the caller ID of the Auto attendant.|
 
