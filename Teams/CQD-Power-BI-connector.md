@@ -44,6 +44,8 @@ The process for installing a custom connector and adjusting security to enable u
 
 If a new version of the Microsoft Call Quality connector is released, replace the old connector file in the *Custom Connectors* directory with the new file.
 
+Customers in Government cloud environments (GCC, GCC-H, DoD) will need to [install the connector](/power-bi/connect-data/service-gateway-custom-connectors) with an [on-premesis data gateway](/power-bi/connect-data/service-gateway-onprem) for compatibility with PowerBI Service. Without using an on-premesis gateway, Government cloud customers will only be able to use the Microsoft Call Quality connector in PowerBI Desktop.
+
 ## Setup
 
 To build a report and run queries, you'll first need to connect to the CQD data source. Follow the steps below in order to connect:
@@ -129,7 +131,7 @@ Not all Power BI functionality is support by the Microsoft Call Quality connecto
 
 6. **Dimension Only or Measurement Only Queries -** Aren't supported at this time in the Microsoft Call Quality connector. When creating a visualization with three or more measurements and no dimensions, or three or more dimensions and no measurements, the column data will be transposed. Always include at least one dimension (for example, Month Year) and one measurement (for example, Total Call Count) in your visualizations. 
 
-7. **Government Community Cloud (GCC, GCC-High, and DoD) Support –** For customers in Government cloud environments, the Microsoft Call Quality connector requires an [on-premesis data gateway](https://learn.microsoft.com/en-us/power-bi/connect-data/service-gateway-onprem) in order to publish to PowerBI Server. Additionally, an appropriate Power BI US Government license is required for government cloud. For more information on licensing, please see the latest guidance for [Power BI for US government customers](/power-bi/enterprise/service-govus-overview#buy-a-power-bi-pro-subscription-for-government-customers).
+7. **Government Community Cloud (GCC, GCC-High, and DoD) Support –** For customers in Government cloud environments, the Microsoft Call Quality connector can be used with an [on-premesis data gateway](/power-bi/connect-data/service-gateway-onprem) for compatibility with PowerBI service. Simply follow the guide for [installing custom connectors with an on-premesis data gateway](/power-bi/connect-data/service-gateway-custom-connectors) using the latest version of the Microsoft Call Quality connector to enable access. Additionally, an appropriate Power BI US Government license is required for government cloud. For more information on licensing, please see the latest guidance for [Power BI for US government customers](/power-bi/enterprise/service-govus-overview#buy-a-power-bi-pro-subscription-for-government-customers).
 
 Most of these issues are either restrictions to DirectQuery connector design in Power BI or fundamental to the design of the CQD data model.
 
