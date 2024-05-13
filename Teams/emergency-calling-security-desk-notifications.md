@@ -69,13 +69,13 @@ With extended notifications, you can configure specific notification settings fo
 
 - For each emergency number, you'll set values for **Emergency dial string**, **Notification groups**, **Number to dial for emergency notification**, and **Notification mode**.    
 
-- You define an extended notification for the test emergency number 933. Because this is a test emergency number, no notifications are sent to the security desk.  
+- You can define an extended notification for the test emergency number 933. Because this is a test emergency number, no notifications are sent to the security desk.  
 
 - You can have more than one notification group per number.
 
 - You can only enter a number to dial when the notification mode is NOT "Send notification only". 
 
-**Example 1.** In the following example, ECP1, the default emergency dial string is set with full security desk configuration, and extended notifications with 933 are set to null.  
+**Example 1.** In the following example, ECP1, the default emergency dial string is set with full security desk configuration. Extended notifications for the test emergency number, 933, are set to null.  
 
 **ECP1**
 - Notification group: alert@contoso.com
@@ -92,7 +92,7 @@ The settings are:
 
 <br>
 
-**Example 2.** In this example, ECP2, you configure the emergency calling policy with mostly null values. You configure both 911 and 933 in the extended notification settings:
+**Example 2.** In this example, ECP2, you configure the emergency calling policy with mostly null values. You configure both 911 and 933 in the extended notification settings. Extended notifications for the test emergency number, 933, are set to null.  
 
 **ECP2**
 - Notification Group - null
@@ -105,7 +105,7 @@ The settings are:
 | Emergency dial string | Notification groups | Notification dial out number | Notification mode |
 | :------------| :-------| :-------| :-------|
 | 911 | alert@contoso.com | 14255551234 | Conferenced in and are unmuted | 
-| 933 |   |  |  |
+| 933 |   |  | None |
 
 
 
