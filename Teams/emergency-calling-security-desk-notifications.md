@@ -65,46 +65,33 @@ Set-CsTeamsEmergencyCallingPolicy -Identity "TestECP" -NotificationGroup "123@co
 
 ## Configure extended notifications
 
-With extended notifications, you can configure specific notification settings for each defined emergency number. For example, you can specify settings for the emergency number 911 and for the test emergency number 933. With this functionality, you can avoid notifying your security desk for test emergency calls.  
+With extended notifications, you can configure specific notification settings for each emergency number. For example, you can specify settings for the emergency number 911 and for the test emergency number 933. With this functionality, you can avoid notifying your security desk for test emergency calls.  
 
-
-**REWRITE THIS SECTION AFTER WE AGREE ON EXAMPLES - SEE ROY EXAMPLES FOLLOWING**
-
-For this example, assume you want to create an emergency calling policy called Default911 and also specify an extended notification setting for the test number 933. For each emergency number, you'll set values for **Emergency dial string**, **Notification groups**, **Number to dial**, and **Notification mode**.    
-
-- The policy specifies that the security group alert@contoso.com is notified of a 911 emergency call through a conference call. The external PSTN number +14255551234 is brought into the conference call.  
+- For each emergency number, you'll set values for **Emergency dial string**, **Notification groups**, **Number to dial for emergency notification**, and **Notification mode**.    
 
 - You define an extended notification for the test emergency number 933. Because this is a test emergency number, no notifications are sent to the security desk.  
-
-| Emergency dial string | Notification groups | Number to dial | Notification mode |
-| :------------| :-------| :-------| :-------|
-| 911 |   alert@contoso.com  | 14255551234 | Conference in but are muted |
-| 933 |  |  | None |
 
 - You can have more than one notification group per number.
 
 - You can only enter a number to dial when the notification mode is NOT "Send notification only". 
 
-
-**ROY - EXAMPLE 1**
-
-In this example, you configure the emergency calling policy, ECP1, with full security desk configuration, and extended notifications with 933 set to null.  
+**Example 1.** In the following example, ECP1, the default emergency dial string is set with full security desk configuration, and extended notifications with 933 are set to null.  
 
 **ECP1**
 - Notification group: alert@contoso.com
-- Notification Dial Out Number - 123456
-- Notification Mode - Conference Unmuted
+- Notification Dial Out Number - 14255551234
+- Notification Mode - Conferenced in and are unmuted
 - External Lookup Mode - On
 
-The extended notification setting is:
+The settings are: 
 
-| Emergency dial string | Notification groups | Notification dial out number | Notification mode |
+| Emergency dial string | Notification groups | Number to dial for emergency notifications | Notification mode |
 | :------------| :-------| :-------| :-------|
-| 933 |   |  |  |
+| default | alert.contoso.com | 14255551234 | Conferenced in and are unmuted |
+| 933 |   |  | None |
 
-**ROY EXAMPLE 2**
 
-In this example, you configure the emergency calling policy, ECP2, with mostly null values. You configure both 911 and 933 in the extended notification settings:
+**Example 2.** In this example, ECP2, you configure the emergency calling policy with mostly null values. You configure both 911 and 933 in the extended notification settings:
 
 **ECP2**
 - Notification Group - null
@@ -112,11 +99,11 @@ In this example, you configure the emergency calling policy, ECP2, with mostly n
 - Notification Mode - null
 - External Lookup Mode - On
 
-The extended notification settings are:
+The settings are:
 
 | Emergency dial string | Notification groups | Notification dial out number | Notification mode |
 | :------------| :-------| :-------| :-------|
-| 911 | alert@contoso.com | 12345 | Conference unmuted| 
+| 911 | alert@contoso.com | 14255551234 | Conferenced in and are unmuted | 
 | 933 |   |  |  |
 
 
