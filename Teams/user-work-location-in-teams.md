@@ -35,7 +35,7 @@ Work location is part of a user's profile in Microsoft Teams (and throughout Mic
 |Working from office with building details |![add building icon](./media/work-location-add-building-update.png)|
 
 > [!Note]
-> Setting building details requires the tenant admin to add building directory details. Once added, users can set their work-location buildings for the day. For more information, see [Manage floor plans](/microsoftsearch/manage-floorplans).
+> Setting building details requires the tenant admin to add building directory details. Once added, users can set their work-location buildings for the day. For more information, see [Opt in to the Microsoft Places Public Preview Program](/deployoffice/places/opt-in-places-preview).
 
 Work location states can be set as a recurring schedule in an Outlook calendar. If a user is setting up recurring work hours and location schedules, it will automatically be set in Teams for those periods of time. Whenever changes come up in a user's schedule, they can update plans in Outlook or Teams. Any changes are reflected in both apps.
 
@@ -56,7 +56,7 @@ By default, setting the user work location is an opt-in experience. By setting u
 
 ## Related topics
 
-[Set your work location in Microsoft Teams](https://support.microsoft.com/en-us/office/set-your-work-location-in-microsoft-teams-6c14a0f5-3cd6-427d-b1d2-aa0365aebf88)
+[Set your work hours and location in Outlook](https://support.microsoft.com/en-us/office/set-your-work-hours-and-location-in-outlook-af2fddf9-249e-4710-9c95-5911edfd76f6#:~:text=Set%20work%20hours%20and%20location%20from%20Settings)
 
 [Show your hybrid-work location, availability to meet, work hours, and more](https://support.microsoft.com/en-us/office/show-your-hybrid-work-location-availability-to-meet-work-hours-and-more-c861198d-f82e-41d7-88ec-c2e716be5ede)
 
