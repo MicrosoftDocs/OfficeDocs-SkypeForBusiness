@@ -76,7 +76,7 @@ Once setup is complete, you should see the names of several hundred dimensions a
 
 2. Determine which dimensions and measures (denoted by an aggregation symbol by their name) you wish to use for your query, then manually select them and drag them onto the black visualization. Alternately, drag them onto the *Values* field beneath the visualization options.
 
-    !Visualizations query in the Power BI Connector.](media/CQD-power-bi-connector4-resize2.png)
+    ![Visualizations query in the Power BI Connector.](media/CQD-power-bi-connector4-resize2.png)
 
     > [!IMPORTANT]
     > Call Quality Dashboard requires a measure for any query to run. Failure to add a measure to a query will cause that query to fail.
