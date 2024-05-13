@@ -3,7 +3,7 @@ title: Update Microsoft Teams devices remotely
 ms.author: tonysmit
 author: mstonysmith
 ms.reviewer: anusharma
-ms.date: 10/04/2023
+ms.date: 05/13/2024
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
@@ -61,10 +61,10 @@ Assigning devices to an automatic update phase is a Teams Rooms Pro feature for 
 
 Automatic updates of Teams devices using the Teams admin center isn't available in GCC High and DoD. Organizations in GCC High and DoD can, however, [manually update Teams devices](#manually-update-remote-devices) using the Teams admin center.
 
-  > [!NOTE]
-  > Some devices don't support automatic updates yet. Applying automatic update settings on devices that don't support automatic updates won't have any effect on those devices. For questions about whether your device will support automatic updates, contact your device manufacturer.
-  > 
-  > Updates are applied on weekends and outside typical business hours to avoid disruptions. Devices within a phase will be updated gradually over a few weeks rather than all at once. To choose the automatic update phase for your devices, do the following steps:
+> [!NOTE]
+> Some devices don't support automatic updates yet. Applying automatic update settings on devices that don't support automatic updates won't have any effect on those devices. For questions about whether your device will support automatic updates, contact your device manufacturer.  
+Devices within a phase will be updated gradually over a few weeks rather than all at once. To choose the automatic update phase for your devices, do the following steps:
+
 1. Sign in to Microsoft Teams admin center by going to https://admin.teams.microsoft.com.
 2. Navigate to **Teams devices** and then select **Phones**, **Displays**, **Panels**, or **Teams Rooms on Android**.  
 3. Select one or more devices and then select **Update**.
