@@ -32,7 +32,7 @@ Work location is part of a user's profile in Microsoft Teams (and throughout Mic
 |---|---|
 |Working remotely |![house icon](./media/work-location-remote.png)|
 |Working from office |![building icon](./media/work-location-office.png) |
-|Working from office with building details |![house icon](./media/work-location-add-building.png)|
+|Working from office with building details |![add building icon](./media/work-location-add-building.png)|
 
 > [!Note]
 > Setting building details requires the tenant admin to add building directory details. Once added, users can set their work-location buildings for the day. For more information, see [Manage floor plans](/microsoftsearch/manage-floorplans).
