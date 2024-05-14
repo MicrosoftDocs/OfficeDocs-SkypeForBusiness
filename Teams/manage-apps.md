@@ -205,6 +205,8 @@ You may have queries about admin settings or configuration, user flows and app f
   * Testing of all apps as part of its [app validation program](overview-of-app-validation.md) to ensure that all apps work as advertised. If apps don't work as suggested in the app listing, then we contact app developers to request either an update to the app. If app developers don't make the requested updates after a few reminders, we proactively remove the apps from Teams.
   * Certification to apps using [Microsoft 365 app compliance program](overview-of-app-certification.md) ensures that apps are compliant with the industry-standard frameworks.
 
+### Developer provided app information, support, and documentation
+
 * App developers provide customer support, updates to the apps, security and compliance information, bug fixes, and so on. The app security and compliance information are available in the admin center in app details page as mentioned above. App developers publish app updates, bug fixes, and vulnerability fixes as per their business requirements, issue severity, and service agreements. For direct support requests and inquiry about app updates, contact the app developer at their website address available at the following two places:
 
   * **App details** page of the app in [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page in Teams admin center.
@@ -216,6 +218,10 @@ You may have queries about admin settings or configuration, user flows and app f
     :::image type="content" source="media/appsource-help-link.png" alt-text="Screenshot that shows help and support link for a Teams app in AppSource.":::
 
 * **Privacy and data access considerations**: In the terms of use and privacy policy of any app, the app developer discloses what data their app uses and how it's handled. This information is available on app developer's website and you can access the URLs in the app details page in Teams admin center. Many app developers choose to undergo the Microsoft 365 app compliance program. The program checks and audits an app against controls that are derived from leading industry-standard frameworks. The detailed information about each such app is available at [Teams Apps Security and Compliance](/microsoft-365-app-certification/teams/teams-apps).
+
+* App developers can provide their contact information that you can use to chat with them. It helps you quickly evaluate an app and get the needed information from the app developers before you adopt and rollout an app. Some examples of such information are compliance and certification details, data handling details, clarity on pricing plans for paid apps, and app configuration instructions. You can start a chat with app developers by selecting **Start a Teams chat** but only if the app developer provided their contact information. We recommend that you don't share personal and sensitive information in the chat.
+
+   :::image type="content" source="media/chat-with-app-dev.png" alt-text="Screenshot showing the option in the app details page that let's you chat with app developer." lightbox="media/chat-with-app-dev-large.png":::
 
 ## Related articles
 
