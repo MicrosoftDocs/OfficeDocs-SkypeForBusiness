@@ -132,7 +132,7 @@ by using the [New-CsTeamsEmergencyCallingPolicy](/powershell/module/teams/new-cs
 
 ```powershell
 $en1 = New-CsTeamsEmergencyCallingExtendedNotification -EmergencyDialString "933"
-New-CsTeamsEmergencyCallingPolicy -Identity ECP1 -Description "Test ECP1" -NotificationGroup "alert@contoso.com" -NotificationDialOutNumber "+14255551234" -NotificationMode ConferenceUnMuted -ExtendedNotifications @{add=$en1}
+New-CsTeamsEmergencyCallingPolicy -Identity ECP1 -Description "Test ECP1" -NotificationGroup "alert@contoso.com" -NotificationDialOutNumber "+14255551234" -NotificationMode ConferenceUnMuted -ExternalLocationLookupMode Enabled -ExtendedNotifications @{add=$en1}
 ```
 
 
@@ -141,7 +141,7 @@ New-CsTeamsEmergencyCallingPolicy -Identity ECP1 -Description "Test ECP1" -Notif
 ```powershell
 $en1 = New-CsTeamsEmergencyCallingExtendedNotification -EmergencyDialString "911" -NotificationGroup "alert@contoso.com" -NotificationDialOutNumber "+14255551234" -NotificationMode ConferenceUnMuted
 $en2 = New-CsTeamsEmergencyCallingExtendedNotification -EmergencyDialString "933"
-New-CsTeamsEmergencyCallingPolicy -Identity ECP2 -Description "Test ECP2" -ExtendedNotifications @{add=$en1,$en2}
+New-CsTeamsEmergencyCallingPolicy -Identity ECP2 -Description "Test ECP2" -ExternalLocationLookupMode Enabled -ExtendedNotifications @{add=$en1,$en2}
 ```
 
 
