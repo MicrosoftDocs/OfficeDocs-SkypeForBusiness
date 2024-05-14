@@ -8,7 +8,7 @@ manager: prkosh
 audience: admin
 ms.subservice: teams-apps
 ms.service: msteams
-ms.date: 12/22/2023
+ms.date: 05/08/2024
 ms.collection: 
   - M365-collaboration
 f1.keywords:
@@ -19,7 +19,7 @@ appliesto:
   - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 ---
-# Know about apps that undergo app compliance program for security, data handling, and privacy
+# Know about app compliance program for security, data handling, and privacy
 
 Microsoft 365 app compliance program checks and audits an app against controls that are derived from leading industry-standard frameworks. The program demonstrates that strong security and compliance practices are in place to protect customer data. The program has the following phases:
 
