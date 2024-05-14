@@ -87,7 +87,7 @@ The settings are:
 
 | Emergency dial string | Notification groups | Number to dial for emergency notifications | Notification mode |
 | :------------| :-------| :-------| :-------|
-| default | alert.contoso.com | 14255551234 | Conferenced in and are unmuted |
+| default | alert@contoso.com | 14255551234 | Conferenced in and are unmuted |
 | 933 |   |  | None |
 
 <br>
@@ -125,14 +125,26 @@ For more information about using the Teams admin center, see [Manage emergency c
 
 ### Use Powershell
 
-To configure the extended notifications example 
-by using the [Set-CsTeamsEmergencyCallingPolicy](/powershell/module/teams/set-csteamsemergencycallingpolicy) cmdlet:
+To configure the extended notifications
+by using the [New-CsTeamsEmergencyCallingPolicy](/powershell/module/teams/new-csteamsemergencycallingpolicy) cmdlet, see the following examples:
+
+**ECP1 example**
 
 ```powershell
-$en1 = New-CsTeamsEmergencyCallingExtendedNotification -EmergencyDialString "933"  
-
-New-CsTeamsEmergencyCallingPolicy -Identity Default911 -Description "Default Emergency notification" -NotificationGroup "alert@contoso.com" -NotificationDialOutNumber "+14255551234" -NotificationMode ConferenceMuted -ExtendedNotifications @{add=$en1} 
+$en1 = New-CsTeamsEmergencyCallingExtendedNotification -EmergencyDialString "933"
+New-CsTeamsEmergencyCallingPolicy -Identity ECP1 -Description "Test ECP1" -NotificationGroup "alert@contoso.com" -NotificationDialOutNumber "+14255551234" -NotificationMode ConferenceUnMuted -ExtendedNotifications @{add=$en1}
 ```
+
+
+**ECP2 example**
+
+```powershell
+$en1 = New-CsTeamsEmergencyCallingExtendedNotification -EmergencyDialString "911" -NotificationGroup "alert@contoso.com" -NotificationDialOutNumber "+14255551234" -NotificationMode ConferenceUnMuted
+$en2 = New-CsTeamsEmergencyCallingExtendedNotification -EmergencyDialString "933"
+New-CsTeamsEmergencyCallingPolicy -Identity ECP2 -Description "Test ECP2" -ExtendedNotifications @{add=$en1,$en2}
+```
+
+
 
 ## Related topics
 
