@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.topic: article
-ms.date: 01/30/2024
+ms.date: 05/09/2024
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -27,7 +27,7 @@ This article describes the requirements and limitations of using the new Microso
 
 ## Important announcement for classic Teams for VDI
 
-The **classic Teams for VDI** will reach end of service on **October 1, 2024**, and end of availability on **July 1, 2025**. For more information, see: [**End of availability for classic Teams client**](/MicrosoftTeams/teams-classic-client-end-of-availability)
+The **classic Teams for VDI** will reach end of support on **October 1, 2024**, and end of availability on **July 1, 2025**. For more information, see: [**End of availability for classic Teams client**](/MicrosoftTeams/teams-classic-client-end-of-availability)
 
 After that date, users won't be able to use classic Teams but instead be prompted to switch to new Teams. We recommend you update to new Teams today.
 
@@ -536,8 +536,17 @@ Learn more: [Manage accounts and organizations in Microsoft Teams](https://suppo
 - msteams_autostart.exe "The parameter is incorrect": In non-persistent environments that use FSLogix (any version) or Citrix Profile Manager profile containers, when new Teams attempts to autostart or a user tries to launch Teams from the Start menu, it throws the error: "The parameter is incorrect." The frequency and reproducibility of the error varies depending on the environment and especially the antivirus software being used (SentinelOne, Palo Alto, Trend Micro, Bitdefender, CrowdStrike, and so on.) and exclusions in place.
 - New Teams fails to launch for users logging into non-persistent virtual desktops, or the app is **not** visible in the Start Menu.
   - Admins don't experience this issue - after installing new Teams on the golden image they can launch it successfully.
-  - After sealing the golden image and deploying it at scale (with provisioning tools like Citrix MCS/PVS or VMware Instant-Clones), users log into the virtual machines and click on the new Teams icon, but aren't able to launch the app. The issue is caused by a failed registration of the MSIX package at the user level with different profile management software (FSLogix, Citrix CPM, Ivanti UEM, and so on), even though the staging of the package was successful (the OS stored the package’s contents on the disk in the %ProgramFiles%\WindowsApps directory). This issue can be confirmed by running Get-AppxPackage -name MsTeams for the affected users. Running this code will return an empty output.
+  - After sealing the golden image and deploying it at scale (with provisioning tools like Citrix MCS/PVS or VMware Instant-Clones), users log into the virtual machines and click on the new Teams icon, but aren't able to launch the app. The issue is caused by a failed registration of the MSIX package at the user level with different profile management software (FSLogix, Citrix CPM 2308 or 2311 **but not on 2402**, Ivanti UEM, and so on), even though the staging of the package was successful (the OS stored the package’s contents on the disk in the %ProgramFiles%\WindowsApps directory). This issue can be confirmed by running Get-AppxPackage -name MsTeams for the affected users. Running this code will return an empty output.
   - If Get-AppxPackage -name MsTeams -allusers is now run from an elevated powershell command window, the output shows that Teams is registered (see line PackageFullName) and the Status is **OK**.
+  - Teams meetings can't be launched when selecting a link from Outlook. There's an authentication prompt (Access to '{tenant}' tenant is denied) when users attempt to join an **external** meeting. This has been fixed on New Teams 24091.214.2846.1452.
+  - The PowerShell window shows after New Teams is provisioned. If the virtual machine's OS has the right KB fixes (see [Deploy the new Microsoft Teams client](#deploy-the-new-microsoft-teams-client), the second bullet in the Notes section), then Admins can delete this registry key and the Powershell window won't show anymore:
+
+  ```powershell
+  Location: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run"
+  Name: TeamsProvisionRunKey
+  ```
+
+  The regkey was added by the teamsbootstrapper.exe version 1.0.2407104 as a workaround for environments lacking those KB fixes.
 
 >[!Note]
 >Microsoft is working on a solution and plan to remove these limitations soon.
@@ -586,4 +595,4 @@ The following features aren't supported in either classic Teams or new Teams.
 - Cross cloud anonymous join in Government Clouds (GCC, GCC High and DoD).
 - **Record video clip** doesn't capture screen share.
 - The call monitor (the small floating window after you minimize the main Teams window) doesn't display video or screen share.
-- Teams calls drop on a local machine if a user launches a virtual desktop from that local machine and logs into Teams (AVD/W365 and VMware only).
+- Teams calls drop on a local machine that has an HID peripheral connected if a user launches a virtual desktop from that local machine and logs into Teams (AVD/W365 and VMware only).
