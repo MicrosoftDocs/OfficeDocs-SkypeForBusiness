@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
 ms.reviewer: sohailta
-ms.date: 11/01/2023
+ms.date: 05/14/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -77,6 +77,8 @@ Introduced in this update:
 - **End users can switch IntelliFrame on or off using Stage roster**.
 
 - **Intelligent Speakers for All Rooms and Devices:** With this update, users can now enjoy enhanced productivity in any meeting space, regardless of the type of mic connected to Teams Room. Support to identify who said what during meetings, providing live attributed transcriptions. This helps Microsoft Copilot and AI notes to keep track of important information. This feature is now in public preview on Microsoft Teams Rooms on Windows.
+
+- **Integration between Report a Problem and Pro Portal Management:** Admins can configure for easier tracking, via SendFeedbackToPMP XML setting, that when a user sends feedback through Report a Problem from a room with a Microsoft Teams Pro license, each feedback creates an event in the Teams Rooms Pro Management portal. 
 
 > [!IMPORTANT]
 > Please note that some systems maybe missing the minimum version of the Edge WebView2 runtime. Until Edge Webview2 runtimeversion 110.0.1587.63 or higher is installed, these devices will be missing some features.
