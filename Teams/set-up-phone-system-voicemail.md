@@ -35,7 +35,7 @@ Cloud Voicemail deposits voicemail messages in a user's Exchange mailbox. Cloud 
 
 ## Cloud Voicemail provisioning
 
-For Teams users, Cloud Voicemail is automatically set up and provisioned. *A Microsoft Teams Phone license is not required for Cloud Voicemail.*
+For Teams users, Cloud Voicemail is automatically set up and provisioned. *A Microsoft Teams Phone license isn't required for Cloud Voicemail.*
 
 Provisioning for Teams users isn't the same as it was for Skype for Business Online users. For Skype for Business Online users, Cloud Voicemail was automatically set up and provisioned when the users were assigned a Teams Phone license and their accounts were enabled for Enterprise Voice by the provisioning system.
 
@@ -91,7 +91,7 @@ To configure Cloud Voicemail routing:
 
 In PowerShell, use the Set-CsTeamsCallingPolicy cmdlet with the AllowVoicemail parameter.
 
-In the following example, this script turns off the the ability for users to route inbound calls to voicemail for the Global (default) Teams Calling Policy instance:
+In the following example, this script turns off the ability for users to route inbound calls to voicemail for the Global (default) Teams Calling Policy instance:
 
 ```powershell
 Set-CsTeamsCallingPolicy -Identity Global -AllowVoicemail AlwaysDisabled
@@ -137,7 +137,7 @@ To create the auto-labeling policy to apply a sensitivity label to voicemail, se
 
 - For **Choose locations where you want to apply the label**, select **Locations: Exchange for all users**.
 
-- For  **Set up common or advanced rules**,  select **Advanced rules**.
+- For  **Set up common or advanced rules**, select **Advanced rules**.
 
 - Exchange rules:
   - Conditions:
