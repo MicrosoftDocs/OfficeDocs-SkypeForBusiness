@@ -42,7 +42,9 @@ The end of support for the classic Teams client starts July 1, 2024. The end of 
 **VDI timeline**:
 
 > [!IMPORTANT]
-> An updated VDI timeline will be published soon.
+> An updated VDI timeline for GCCH/DOD will be published soon.
+
+The end of support for the classic Teams client in VDI starts October 1, 2024. The end of availability for the classic Teams client in VDI starts July 1, 2025.
 
 :::image type="content" source="media/new-teams-vdi-timeline.png" alt-text="A chart showing the timelines for classic Teams to new Teams for VDI.":::
 
@@ -53,7 +55,7 @@ For more information regarding VDI, see [Upgrade to new Teams for Virtualized De
   - New Teams will be installed and become the default client. The toggle to return to classic Teams will still be available if needed.
   - In mid-May, any users remaining on classic Teams will be switched to new Teams, and the toggle to return to classic Teams will no longer be available. We'll attempt to uninstall classic Teams after 14 days.
 
-We now have additional information regarding the timeline for the end of service and end of availability for classic Teams client.
+We now have additional information regarding the timeline for the end of support and end of availability for classic Teams client.
 
 - End of support: The end of our supporting classic Teams client. We will no longer provide updates or new features for the client, nor will we help resolve support issues with the classic Teams client.
 - End of availability: The end of functionality for the classic Teams client. After this deadline, the client will stop working and users will no longer be able to do work in the classic Teams client.
@@ -202,4 +204,4 @@ In the Teams admin center:
 
 ### VDI
 
-- **Will the earlier date apply to users on VDI devices:** No, the June 30 2024 date applies to users on VDI devices.
+- **Will the earlier date apply to users on VDI devices:** No, the October 1 2024 date applies to users on VDI devices.
