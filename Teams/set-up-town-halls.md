@@ -81,7 +81,7 @@ Set-CsTeamsEventsPolicy -Identity <policy name> -EventAccessType EveryoneInCompa
 ```
 
 > [!NOTE]
-> The EveryoneInCompanyExcludingGuests setting allows only in org attendees to join town halls created by organizers with this policy. In org attendees include guests in town halls.
+> The EveryoneInCompanyExcludingGuests setting allows only in org attendees to join town halls created by organizers with this policy. In org attendees include guests in town halls (but not in webinars).
 
 ## Related topics
 

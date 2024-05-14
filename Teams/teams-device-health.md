@@ -19,7 +19,7 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: This article will guide you in managing the health of Teams devices, devices that have Microsoft Teams installed on them.
-localization_priority: Normal
+ms.localizationpriority: Medium
 ---
 
 # Manage the health of Teams devices
