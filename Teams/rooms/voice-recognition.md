@@ -30,7 +30,7 @@ This article provides guidance on how admins can enable Teams Rooms for voice re
 
 When you have activated Intelligent Speaker for your Microsoft Teams Rooms, the meeting transcript is able to not only distinguish between different speakers in the room, but also identify them and attribute them to the correct person. Intelligent Speaker enables critical use cases for Copilot and intelligent recap.
 
-Speaker recognition is enabled by intelligent speakers certified for Teams. Certified intelligent speakers are designed with multiple microphones to provide high-quality audio, maximizing accuracy in recognition, transcription, and boasting an industry-leading reduction of what is referred to as 'word error rate'.
+Speaker recognition is enabled by intelligent speakers certified for Teams. Certified intelligent speakers are designed with multiple microphones to provide high-quality audio, maximize accuracy in recognition and transcription, and boast an industry-leading reduction of what is referred to as 'word error rate'.
 
 That said, we get it – [intelligent speaker certified Hardware](/microsoftteams/rooms/certified-hardware?tabs=Devices) aren't available yet in every Teams Room. That is why we're extending this feature to existing hardware. While we're delighted to extend the capability of speaker recognition to more rooms, it's important to note the quality may not match that of an intelligent speaker certified device. So, it's essential to evaluate the advantages of incorporating an intelligent speaker, especially in crucial spaces where attaining the highest quality transcription and attribution is vital.
 
