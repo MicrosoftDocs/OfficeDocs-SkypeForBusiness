@@ -42,8 +42,8 @@ Most unexpected failures arise from changes in the base image with uncertain his
 
 Following simple readiness checks is recommended:  
 
-- **Base Image**: The base image must be from the specific OEM. If the device has been rebuilt in the past and shows unexpected failures or behaviors on common tasks, the base image must be restored. We can provide assistance but can't remotely rebuild the room device, so you'll need a local site technician.  
-- **Base OS, Edition:** The base OS and edition must match the requirements of Microsoft Teams Rooms devices. If this is not so, it must be corrected as part of onboarding. Microsoft Teams Rooms requires the Windows IoT Enterprise or Windows Enterprise SKUs under Semi-Annual Channel servicing options. Consult the official [Microsoft Teams Rooms guidance](rooms-lifecycle-support.md#windows-release-support) for more information.
+- **Base Image**: The base image must be from the specific OEM. If the device has been rebuilt in the past and shows unexpected failures or behaviors on common tasks, the base image must be restored. We can provide assistance but can't remotely rebuild the room device, so you need a local site technician.  
+- **Base OS, Edition:** The base OS and edition must match the requirements of Microsoft Teams Rooms devices. If this isn't so, it must be corrected as part of onboarding. Microsoft Teams Rooms requires the Windows IoT Enterprise or Windows Enterprise SKUs under Semi-Annual Channel servicing options. Consult the official [Microsoft Teams Rooms guidance](rooms-lifecycle-support.md#windows-release-support) for more information.
 
 ## Readiness checks
 
@@ -69,7 +69,7 @@ There are two primary ways how updates are managed:
 
 If you choose to be automatically managed, then no action is needed for the updates on your part. However, you should review the current portfolio of updates supported by the Pro Management service. The portfolio is constantly getting new additions, and it is our priority to cover the most frequent and impactful updates to ensure your room stability. Check the current list (under the “Update Management” section of this doc) to plan any extra change management needed for your organization.  
 
-**Recommendation:** Do not install updates that are covered by the Pro Management service on any managed device on your own.
+**Recommendation:** Don't install updates that are covered by the Pro Management service on any managed device on your own.
 
 ### Ring validation
 
@@ -116,7 +116,7 @@ Any update can be in one of the following states:
 | Completed | An update has completed progression through all your configured rings and successfully installed on all applicable rooms.|
 | Deprecated | An update has been deactivated. Further deployment is halted. This is typical because the update has been superseded by a new version. |
 | Paused | An update is in a paused state. |
-| Not Required | The update is either not yet evaluated for the room or does not apply to the room. |
+| Not Required | The update is either not yet evaluated for the room or doesn't apply to the room. |
 
 ### Rooms  
 
@@ -126,10 +126,10 @@ The Rooms tab shows all the rooms in your tenant and to which ring they belong.
 
 To configure which ring a room should belong to:  
 
-1. Click on the room to bring up the detailed view.  
-1. Under **Ring**, click **Change**.  
+1. Select on the room to bring up the detailed view.  
+1. Under **Ring**, select **Change**.  
 1. Select the Ring to which the room should belong.  
-1. Click **Assign**.  
+1. Select **Assign**.  
 
 The detailed room view displays the relevant updates and their status under the **Updates** node.  
 
@@ -141,7 +141,7 @@ Rings are used to reduce the risk of issues derived from the deployment of the f
 
 The **Rings** tab lists  all the rings in your tenant. There are three preconfigured rings:  
 
-- **Staging**: Assign rooms to the Staging ring, which is your testbed. All new updates will roll out here first. Generally, you will want to ensure that your staging ring represents rooms with the diversity of device types in your environment. If there are certain types of rooms with an uncommon configuration or a history of seeing issues, please consider representing them in Staging.
+- **Staging**: Assign rooms to the Staging ring, which is your testbed. All new updates roll out here first. Generally, you'll want to ensure that your staging ring represents rooms with the diversity of device types in your environment. If there are certain types of rooms with an uncommon configuration or a history of seeing issues, please consider representing them in Staging.
 
 - **General**: By default, all rooms are placed in this ring. Most of the room devices being used across the enterprise fall into this category. 
 
@@ -149,26 +149,26 @@ The **Rings** tab lists  all the rings in your tenant. There are three preconfig
 
 ### Specifying rollout timeline
 
-Updates cannot exceed 60 days to complete across all rings.  
+Updates can't exceed 60 days to complete across all rings.  
 
 |Parameter |Explanation |
 |:- |:- |
 |Deferment Period|Once an update starts with the first ring, the deferment period is the delay in days before the update is initiated on this ring.|
-|Rollout duration|<p>Once the update commences on this ring, this is the time to deploy in this ring. For example, if the duration is 5 days, it will deploy over 5 days to the rooms in this ring once the update starts on this ring.|
+|Rollout duration|<p>Once the update commences on this ring, this is the time to deploy in this ring. For example, if the duration is five days, it deploys over five days to the rooms in this ring once the update starts on this ring.|
 |Test Period|The number of days to test/validate the update in a ring once applied to the ring. The test period starts after the rollout is completed, and once complete, the update moves to the next ring.|
 |Completion Time|The “Completion time” column indicates the total number of days (rollout duration + test period) for this ring to complete.|
-|Total Time|At the bottom is the “Total” row that indicates how long an update will take to complete from the first to the last ring.|
+|Total Time|At the bottom is the “Total” row that indicates how long an update takes to complete from the first to the last ring.|
 
 ### Creating Custom Rings
 
 1. Navigate to the **Rings** tab.  
-1. Click **Add ring**.  
-1. Specify the order in which this ring will receive the update, where 1 is first, and 9 is last.  
+1. Select **Add ring**.  
+1. Specify the order in which this ring receives the update, where 1 is first, and 9 is last.  
 1. Give this ring a name.  
 1. Provide a description if desired.  
-1. Specify the number of days the update will roll out in this ring.  
+1. Specify the number of days the update rolls out in this ring.  
 1. Specify the test period.  
-1. Click **Submit**.  
+1. Select **Submit**.  
 
 > [!NOTE]
 > The “Days set by other rings” is the total number of days an update will take to complete across all rings. The “Remaining days” indicates the maximum days for *this* ring to complete. The sum of “Rollout duration in days” and “Test period in days” cannot exceed this amount.  
@@ -176,15 +176,15 @@ Updates cannot exceed 60 days to complete across all rings.
 **Edit a ring**
 
 1. Navigate to the **Rings** tab.
-1. Click on the ring to delete.  
-1. Click **Edit ring**.  
+1. Select on the ring to delete.  
+1. Select **Edit ring**.  
 1. Edit the number of days of rollout and testing, as necessary.
 
 **Delete a ring**
 
 1. Navigate to the **Rings** tab.  
-1. Click on the ring to delete.  
-1. Click **Delete ring**.  
+1. Select on the ring to delete.  
+1. Select **Delete ring**.  
 
 > [!NOTE]
 > The default rings cannot be deleted.  
@@ -194,30 +194,30 @@ Updates cannot exceed 60 days to complete across all rings.
 Moving rooms from one ring to another is possible in two ways:
 
 1. Navigate to the **Rings** tab.  
-1. Click on the ring that you want to move rooms from  
-1. Click **Move rooms**.  
+1. Select on the ring that you want to move rooms from  
+1. Select **Move rooms**.  
 1. Select the rooms that you want to move in the **List of Rooms**.  
-1. Choose the Target ring, which the selected rooms will move to in the dropdown.  
-1. Click **Move rooms**.  
+1. Choose the Target ring, which the selected rooms move to in the dropdown.  
+1. Select **Move rooms**.  
 
 **Or**
 
 1. Open the room details for the room you wish to move (either through Incidents, Rooms, or Updates -> Rooms).
-1. Click the **Updates** tab.  
-1. Under **Assigned Ring**, click **Change**.
+1. Select the **Updates** tab.  
+1. Under **Assigned Ring**, select **Change**.
 1. From the dropdown, select the new ring.  
-1. Click **Assign**.
+1. Select **Assign**.
 
 ## Automated updates: Visibility and control
 
-Automated updates in Pro Management orchestrates updates throughout your organization. However, you have the visibility and control to intervene if needed. Here are the ways: 
+Automated updates in Pro Management orchestrate updates throughout your organization. However, you have the visibility and control to intervene if needed. Here are the ways: 
 
 - In the event of an update failure, a ticket is automatically generated for tracking. 
-- If you see an update causing issues, you can pause the update with the **Pause** button. Hitting the Pause button will prompt creation of a Record an issue ticket for your team to investigate.
+- If you see an update causing issues, you can pause the update with the **Pause** button. Hitting the Pause button prompts creation of a Record an issue ticket for your team to investigate.
 - If you see an update has failed in a room and you have corrected a plausible reason such as network disconnect, you can retry the update with **Retry all failed** button.  
 - There may be urgent situations when you may decide to make an update available earlier. In this case, you can use the **Force updates** button. When using the Force Update option, you have the choice to force the update immediately or when next the room is available.  
 
 > [!NOTE]
 > **We do not recommend “Force Updates”** as a general update management strategy, as you may encounter known issues with those updates.
 
-- Further, to ensure good change management practices, we will log every force update internally in the service. In the future, we expect to make that visible to you as well.
+- Further, to ensure good change management practices, we log every force update internally in the service. In the future, we expect to make that visible to you as well.
