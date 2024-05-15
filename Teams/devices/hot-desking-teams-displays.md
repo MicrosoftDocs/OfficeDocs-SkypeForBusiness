@@ -56,7 +56,7 @@ If you're deploying more than one Teams Display at once, learn how to create res
 
 1. In the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), go to **Resources** > **Rooms & Equipment** > **Add a resource**.
 2. Select **Room** as the resource type.
-3. Enter an email like "Building5hotdesk1", then select a domain like "Contoso.com".
+3. Enter an email like `Building5hotdesk1`, then select a domain like "Contoso.com".
 4. Enter a location such as "Building 5 – first Floor HotDesk 1".
 5. Select **Save**.
 
