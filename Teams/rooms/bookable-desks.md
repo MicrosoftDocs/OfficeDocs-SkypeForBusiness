@@ -74,7 +74,7 @@ To ensure seamless end-to-end user experience, devices and peripherals such as m
 
 You can use a custom script to get device details from desks to locate devices correctly and ensure they're mapped to the corresponding desk pool accounts. The PowerShell script located [here](https://www.microsoft.com/en-us/download/details.aspx?id=106063) must be ran with administrator permissions.
 
-For detailed step-by-stepinstructions, see [Get information for connected peripherals](get-peripheral-information.md). After uploading information on the devices and peripherals, you then use the Teams Pro Management portal to confirm if the devices are correctly associated with the desk pools.
+For detailed step-by-stepinstructions, see [Get information for connected peripherals](/get-peripheral-information.md). After uploading information on the devices and peripherals, you then use the Teams Pro Management portal to confirm if the devices are correctly associated with the desk pools.
 
 ### Manually collecting device and peripheral information
 
