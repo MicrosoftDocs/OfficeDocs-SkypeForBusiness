@@ -1396,10 +1396,10 @@ items:
           href: rooms/create-otp.md
         - name: Role-based access control
           href: rooms/rooms-pro-rbac.md
-        - name: Booking desks
+        - name: Bookable Desks
           href: rooms/bookable-desks.md
         - name: Connected peripheral information
-          href: rooms/get-information-connected-peripherals.md 
+          href: rooms/get-peripheral-information.md 
         - name: Monitoring and maintaining Rooms
           href: rooms/managed-meeting-rooms-portal.md
         - name: Signal settings
