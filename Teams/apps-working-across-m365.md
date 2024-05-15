@@ -80,12 +80,12 @@ Unification rules are the same for Microsoft, third-party apps, and custom apps.
 
 Organization-wide app settings:
 
-| Teams admin center                                         | Microsoft 365 admin center              | Unification outcome                     |
-|------------------------------------------------------------|-----------------------------------------|-----------------------------------------|
-| Let users install and use available apps by default is On  | All users can install apps on their own | All users can install apps on their own |
-| Let users install and use available apps by default is Off | Only admins can install apps for users  | Only admins can install apps for users  |
-| Let users install and use available apps by default: Off   | All users can install apps on their own | All users can install apps on their own  |
-| Let users install and use available apps by default: On    | Only admins can install apps for users in the organization   | All uses can install apps on their own  |
+| Teams admin center                                         | Microsoft 365 admin center                                 | Unification outcome                     |
+|------------------------------------------------------------|------------------------------------------------------------|-----------------------------------------|
+| Let users install and use available apps by default is On  | All users can install apps on their own                    | All users can install apps on their own |
+| Let users install and use available apps by default is Off | Only admins can install apps for users                     | Only admins can install apps for users  |
+| Let users install and use available apps by default: Off   | All users can install apps on their own                    | All users can install apps on their own |
+| Let users install and use available apps by default: On    | Only admins can install apps for users in the organization | All uses can install apps on their own  |
 
 Allow or block setting applied to the individual app.
 
@@ -98,32 +98,32 @@ Allow or block setting applied to the individual app.
 
 Available To setting applied to the individual app.
 
-| Teams admin center      | Microsoft 365 admin center | Unification outcome     |
-|-------------------------|----------------------------|-------------------------|
-| No one                  | No one                     | No one                  |
-| No one                  | Everyone                   | Everyone                |
-| No one                  | Specific users & groups    | Specific users & groups |
-| Specific users & groups | Specific users & groups    | Specific users & groups |
+| Teams admin center                                  | Microsoft 365 admin center                           | Unification outcome                                         |
+|-----------------------------------------------------|------------------------------------------------------|-------------------------------------------------------------|
+| No one                                              | No one                                               | No one                                                      |
+| No one                                              | Everyone                                             | Everyone                                                    |
+| No one                                              | Specific users & groups                              | Specific users & groups                                     |
+| Specific users & groups                             | Specific users & groups                              | Specific users & groups                                     |
 | Specific users & groups (example: Marketing, Legal) | Specific users & groups (example: Marketing, Design) | Specific users & groups (example: Legal, Design, Marketing) |
-| Specific users & groups | No one | Specific users & groups |
-| Everyone | Everyone | Everyone |
-| Everyone | No one | Everyone |
-| Everyone | Specific users & groups | Everyone |
+| Specific users & groups                             | No one                                               | Specific users & groups                                     |
+| Everyone                                            | Everyone                                             | Everyone                                                    |
+| Everyone                                            | No one                                               | Everyone                                                    |
+| Everyone                                            | Specific users & groups                              | Everyone                                                    |
 
 Deployed to setting applied to the individual app:
 
-| Teams admin center | Microsoft 365 admin center | Unification outcome |
-|--------------------|----------------------------|---------------------|
-| No one | No one | No one |
-| No one | Specific users & groups | Specific users & groups |
-| No one | Everyone | Everyone |
-| Specific users & groups | No one | Specific users & groups |
+| Teams admin center                                  | Microsoft 365 admin center                           | Unification outcome                                         |
+|-----------------------------------------------------|------------------------------------------------------|-------------------------------------------------------------|
+| No one                                              | No one                                               | No one                                                      |
+| No one                                              | Specific users & groups                              | Specific users & groups                                     |
+| No one                                              | Everyone                                             | Everyone                                                    |
+| Specific users & groups                             | No one                                               | Specific users & groups                                     |
 | Specific users & groups (example: Marketing, Legal) | Specific users & groups (example: Marketing, Design) | Specific users & groups (example: Legal, Design, Marketing) |
-| Specific users & groups | Everyone | Everyone |
-| Everyone | No one | Everyone |
-| Everyone | Specific users & groups  | Everyone |
-| Everyone | Everyone | Everyone |
-| Everyone | No state (default is `None`) | Everyone |
+| Specific users & groups                             | Everyone                                             | Everyone                                                    |
+| Everyone                                            | No one                                               | Everyone                                                    |
+| Everyone                                            | Specific users & groups                              | Everyone                                                    |
+| Everyone                                            | Everyone                                             | Everyone                                                    |
+| Everyone                                            | No state (default is `None`)                         | Everyone                                                    |
 
 ## How to prepare for the upcoming migration
 
