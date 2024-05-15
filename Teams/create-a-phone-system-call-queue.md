@@ -155,7 +155,7 @@ Specify if you want to play a *greeting* to callers when they arrive in the queu
 >[!NOTE]
 > When using *Text to Speech*, the text must be entered in the selected language as the system doesn't perform translation.
 >
-> All words will be pronouced in the selected language.
+> All words will be pronounced in the selected language.
 
 Teams provides default music to callers while they're *on hold in a queue*.
 
@@ -177,7 +177,7 @@ Review the [prerequisites for adding agents to a Call queue](plan-auto-attendant
 
 You can add up to 200 agents via a Teams channel. You must be a member of the team or the creator or owner of the channel to add a channel to the queue.
 
-To [use a Teams channel to manage the queue](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e):
+[Using a Teams channel to manage the queue](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e):
 
 1. Select the **Choose a team** radio button and select **Add a channel**.
 1. Search for the team that you want to use, select it, and select **Add**.
@@ -273,7 +273,7 @@ Choose from these options:
 
 - **Round robin** balances the routing of incoming calls so that each call agent gets the same number of calls from the queue.
 
-- **Longest idle** routes each call to the agent who has idled the longest time. An agent is considered idle if their presence state is *Available*. Agents who aren't available don't receive calls until they change their presence to *Available*.
+- **Longest idle** routes each call to the agent who has been idle the longest. An agent is considered idle if their presence state is *Available*. Agents who aren't available don't receive calls until they change their presence to *Available*.
 
 > [!TIP]
 > Setting the **Routing Method** to **Round robin** or **Longest idle** is the recommended setting.
@@ -329,6 +329,8 @@ For example, when **Overflow** occurs, you might send calls to a backup Call que
 > For external transfers, see [Prerequisites](./plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](./create-a-phone-system-auto-attendant.md?tabs=general-info#external-phone-number-transfers---technical-details) for number formatting.
 > 
 > Don't include any special characters in the greeting message when redirecting to **Voicemail (shared)**.
+> 
+> The Overflow, Call timeout and No Agents exception redirect options for **Person in organization** and **Voicemail personal** support additional prompting. For more information, see [Additional messaging](#additional-messaging)
 
 ### Overflow: Set how to handle call overflow
 
