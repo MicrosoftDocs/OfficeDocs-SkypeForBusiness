@@ -87,7 +87,7 @@ To set up an Auto attendant, in the [Teams admin center](https://admin.teams.mic
    > [!IMPORTANT]
    > When using *Text to Speech*, the text must be entered in the selected language as the system doesn't perform translation.
    >
-   > All words are pronouced in the selected language.
+   > All words are pronounced in the selected language.
 
 1. Choose if you want to enable voice inputs. When enabled, the name of every menu option becomes a speech-recognition keyword. For example, callers can say "One" to select the menu option mapped to key 1, or they can say "Sales" to select the menu option named "Sales." If you choose a language in Step 4 that doesn't support voice inputs, this option isn't available.
 
