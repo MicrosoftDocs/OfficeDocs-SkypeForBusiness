@@ -22,8 +22,8 @@ f1.keywords:
   - NOCSH  
 description: Helps admins set up Bookable Desks for their Microsoft Teams organization.
 ---
-  
-# Setting up Bookable Desks in Microsoft Teams
+
+  # Setting up Bookable Desks in Microsoft Teams
 
 This article helps guide you through the process of setting up Bookable Desks in Microsoft Teams. This includes creating desk pool accounts, searching for and identifying the devices you want included, and then linking those devices with desk pool accounts.
 
@@ -31,11 +31,11 @@ Bookable Desks is the name of this feature on Microsoft Teams that utilizes Exch
 
 ## Bookable Desks in Microsoft Teams
 
-When end users are working in a hybrid work environment or need a landing place in a building to work for the day, they'll need to be able to book or reserve a space to get work done. Bookable Desks are the feature that can be used to make this easy. After you set up Bookable Desks in Teams, an end user can use the new Teams desktop app on Windows or a Mac to reserve a workspace in the location and in time zone of their choosing.
+When end users are working in a hybrid work environment or need a landing place in a building to work for the day, they'll need to be able to book or reserve a space to get work done. Bookable Desks is the feature that can be used to make this easy. After you set up Bookable Desks in Teams, an end user can use the new Teams desktop app on Windows or a Mac to reserve a workspace.
 
-The Bookable Desk feature lets end users book time in advance or walk up to shared desks to reserve them when they plug in or get notified when they get there about an existing booking if they have Teams app running on their Windows or Mac PC. After they plug in to a Bookable Desk, it will detect monitors, webcams, docking stations, and other peripherals that are connected to the Bookable Desk.
+The Bookable Desk feature lets end users walk up to shared desks to reserve them when they plug in or book in advance and get notified when they get there about an existing booking if they have Teams app running on their Windows or Mac PC. 
 
-For admins, using the Microsoft Teams Rooms Pro Management portal provides the manageability including the ability to discover devices, make them visible in the inventory, and to track usage.
+For admins, the Microsoft Teams Rooms Pro Management portal provides the manageability including the ability to discover devices, and make them visible in the inventory.
 
 ## Overview of steps  
 
@@ -70,15 +70,15 @@ There are two ways that you can collect device and peripheral information - usin
 
 ### Using the PowerShell script to collect device and peripheral information
 
-To ensure seamless end-to-end user experience, devices and peripherals such as monitors, web cameras, and docking stations attached to the physical desks need to be associated or linked to a desk pool account you created earlier. To do this, you need to identify devices based on unique information such as product ID, vendor ID, serial number, model, and the manufacturer.
+To ensure seamless end-to-end user experience, devices and peripherals such as monitors attached to the physical desks need to be associated or linked to a desk pool account you created earlier. To do this, you need to identify devices based on unique information such as product ID, vendor ID, serial number, model, and the manufacturer.
 
 You can use a custom script to get device details from desks to locate devices correctly and ensure they're mapped to the corresponding desk pool accounts. The PowerShell script located [here](https://www.microsoft.com/en-us/download/details.aspx?id=106063) must be ran with administrator permissions.
 
-For detailed step-by-stepinstructions, see [Get information for connected peripherals](../rooms/get-peripheral-information.md). After uploading information on the devices and peripherals, you then use the Teams Pro Management portal to confirm if the devices are correctly associated with the desk pools.
+For detailed step-by-step instructions, see [Get information for connected peripherals](../rooms/get-peripheral-information.md). After uploading information on the devices and peripherals, you then use the Teams Pro Management portal to confirm if the devices are correctly associated with the desk pools.
 
-### Manually collecting device and peripheral information
+### Collecting device and peripheral information through auto discovery
 
-You can manually import information by getting the device information and then associate it to a correspond desk pool account using the Microsoft Teams Pro Management portal.
+You can use the auto discovery feature to get the device information and then associate it to a correspond desk pool account using the Microsoft Teams Pro Management portal.
 
 1. Sign in and open the [Microsoft Teams Pro Management portal](https://portal.rooms.microsoft.com/) > **Inventory** in the left navigation.
 
