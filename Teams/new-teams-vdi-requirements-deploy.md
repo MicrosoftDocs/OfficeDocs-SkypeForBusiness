@@ -318,6 +318,8 @@ The folder "meeting-addin" under TeamsSharedConfig shouldn't be persisted, as th
 >- New Microsoft Teams wouldn't on-demand register during sign-in when using the ODFC container.
 >- New Microsoft Teams wouldn't on-demand register during profile creation and wouldn't register during future sign-ins, despite being installed.
 >- User-based Group Policy settings would persist in the user's profile after the policy setting was removed or set to disabled.
+>
+>*Note:* Customers using Profile and ODFC or just ODFC containers, will still need to add the setting ‘IncludeTeams’ for the new Teams user data/cache to be preserved.
 
 >[!Note]
 >[Folder Redirection or Roaming User Profiles](/windows-server/storage/folder-redirection/folder-redirection-rup-overview) aren't supported with the new Teams client in VDI environments since they can't roam folders in AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams. Customers can continue to use Folder Redirection or Roaming User Profiles with a complementary product, such as FSLogix, Citrix Profile Manager, VMware, and DEM, that can roam the Appdata\Local folders above.
