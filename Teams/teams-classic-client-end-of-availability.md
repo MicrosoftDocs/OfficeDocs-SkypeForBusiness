@@ -135,7 +135,7 @@ Once classic Teams isn't available for you, you're going to see a dialog similar
 
 :::image type="content" source="media/teams-client-eol-notification-box.png" alt-text="Teams dialog box that appears after classic Teams no longer works, if you're unable to be updated to the new Teams client. The notification box has a link to requirements and a button that takes you to Teams on the web.":::
 
-Classic Teams users who've encountered issues moving to new Teams or who don't meet the [prerequisites](new-teams-deploy-using-policies.md#prerequisites) to upgrade will still have access to the classic Teams client until July 01, 2025. This timeframe gives admins more time to address any issues encountered during this process. We do ask that users update their OS and address any other issues to continue using the Teams client after this time, as new features are only being added to the new Teams client.
+Classic Teams users who've had issues moving to new Teams or who don't meet the [prerequisites](new-teams-deploy-using-policies.md#prerequisites) to upgrade will still have access to the classic Teams client until July 01, 2025. This timeframe gives admins more time to address any issues. We ask that users update their OS and address any other issues to continue using the Teams client after this time, as new features are only being added to the new Teams client.
 
 ## Admin experience
 
