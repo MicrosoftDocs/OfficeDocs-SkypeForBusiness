@@ -107,7 +107,7 @@ If we're unable to move you to new Teams, here's a list of the banner messages y
 
 #### Unsupported OS
 
-- Starting October 23, 2024, classic Teams won't be available on Windows 7, 8, and 8.1. If you use classic Teams on these systems, you'll see warning messages starting in August. On October 23, 2024, you won't be able to use the classic Teams app anymore. If you can't update your Windows to a [supported browser](new-teams-web.md#prerequisites), you can use the new Teams web app in your browser instead. You'll get messages in the app that classic Teams is going away, but you can switch to the new web app.
+- Starting October 23, 2024, classic Teams won't be available on Windows 7, 8, and 8.1. If you use classic Teams on these systems, you'll see warning messages starting in August. On October 23, 2024, you won't be able to use the classic Teams app anymore. If you can't update your Windows to a [supported browser](new-teams-web.md#prerequisites), you can use the new Teams web app in a supported browser instead.
 - Starting July 1, 2025, classic Teams will stop working on Windows 10, macOS older than Big Sur (11), LTSC, or for users with configuration issues. You'll see the in-app messages about classic Teams going away and you won't be able to use the classic Teams app after that date.
 
 Users who can't upgrade to the new Teams client on their device can use the new Teams web app will be on [supported browsers](new-teams-web.md#prerequisites) instead.
@@ -135,7 +135,7 @@ Once classic Teams isn't available for you, you're going to see a dialog similar
 
 :::image type="content" source="media/teams-client-eol-notification-box.png" alt-text="Teams dialog box that appears after classic Teams no longer works, if you're unable to be updated to the new Teams client. The notification box has a link to requirements and a button that takes you to Teams on the web.":::
 
-Classic Teams users who've had issues moving to new Teams or who don't meet the [prerequisites](new-teams-deploy-using-policies.md#prerequisites) to upgrade will still have access to the classic Teams client until July 01, 2025. This timeframe gives admins more time to address any issues. We ask that users update their OS and address any other issues to continue using the Teams client after this time, as new features are only being added to the new Teams client.
+Classic Teams users who've had issues moving to new Teams or who don't meet the [prerequisites](new-teams-deploy-using-policies.md#prerequisites) to upgrade will still have access to the classic Teams client until availability ends. After this time, users who can't upgrade on their devices can use the new Teams web app on a [supported browser](new-teams-web.md#prerequisites) instead.
 
 ## Admin experience
 
