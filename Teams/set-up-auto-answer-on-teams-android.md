@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: kponnus
 ms.date: 01/04/2022
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: Medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
