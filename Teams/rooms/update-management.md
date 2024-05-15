@@ -17,46 +17,49 @@ ms.collection:
   - Tier1
 ms.localizationpriority: medium
 search.appverid: MET150
-description: proactive monitoring of your meeting rooms.
+description: Proactive monitoring of your meeting rooms.
 f1keywords: 
 ---
 
+# Update management
 
-# Update management 
 A modern meeting room is equipped with a Microsoft Teams Rooms device and other peripherals such as a camera, microphone, or speaker, and potentially more devices to create an inclusive and effective meeting experience. Equipment from different kinds of OEMs provides the exact organizational experience desired; however, they must be maintained with software and firmware on an ongoing basis.  
 
-Microsoft Teams Rooms Pro Management provides the assurance that each room in your organization will be maintained at recommended levels to deliver a room that is always ready and works properly. Microsoft's goal is to reduce complexity and legwork for your operational staff with intelligence and automation. Troubleshooting or diagnostics is performed as quickly as possible. 
+Microsoft Teams Rooms Pro Management provides the assurance that each room in your organization is maintained== to deliver a Teams Room that is always ready. Microsoft's goal is to reduce complexity and legwork for your operational staff with intelligence and automation. Troubleshooting or diagnostics is performed as quickly as possible.
 
-## Transitioning a device to Pro Management 
+## Transitioning a device to Pro Management
+
 Room devices onboarding to Pro Management usually have a change management history and practice that is different from our guidance.  
 
 - To  benefit from Pro Management, you must transition change management for all updates under Pro Management portfolio.
-- Multiple sources of change management  impact incident SLAs as there is a discovery and remediation that will restart anew if an incident happens in the room.
+- Multiple sources of change management  impact incident Service Level Agreements (SLAs) as there's a discovery and remediation that will restart anew if an incident happens in the room.
 - Microsoft has implemented controls and checks to implement policies that may differ from one organization to another, and the ability to intervene in exceptional situations.
-- Eventually, the room devices will be updated to common standards, except for exceptions due to issues with a specific hardware installation.  
+- Eventually, the room devices are updated to common standards, except for exceptions due to issues with a specific hardware installation.  
 
-## Transitioning devices: Basic readiness checks 
+## Transitioning devices: Basic readiness checks
+
 Most unexpected failures arise from changes in the base image with uncertain history of change management. 
 
 Following simple readiness checks is recommended:  
 
-- **Base Image**: The base image must be from the specific OEM. If the device has been rebuilt in the past and shows unexpected failures or behaviors on common tasks, the base image must be restored. We can provide assistance but cannot remotely rebuild the room device, so you will need a local site technician.  
-- **Base OS, Edition:** The base OS and edition must match the requirements of Microsoft Teams Rooms devices. If this is not so, it must be corrected as part of onboarding. Microsoft Teams Rooms requires the Windows IoT Enterprise or Windows Enterprise SKUs under Semi-Annual Channel servicing options. Consult the official [MTR guidance](rooms-lifecycle-support.md#windows-release-support) for more information.
+- **Base Image**: The base image must be from the specific OEM. If the device has been rebuilt in the past and shows unexpected failures or behaviors on common tasks, the base image must be restored. We can provide assistance but can't remotely rebuild the room device, so you'll need a local site technician.  
+- **Base OS, Edition:** The base OS and edition must match the requirements of Microsoft Teams Rooms devices. If this is not so, it must be corrected as part of onboarding. Microsoft Teams Rooms requires the Windows IoT Enterprise or Windows Enterprise SKUs under Semi-Annual Channel servicing options. Consult the official [Microsoft Teams Rooms guidance](rooms-lifecycle-support.md#windows-release-support) for more information.
 
 ## Readiness checks
 
-There are a few pre-requisites for receiving updates through the Pro Management service: 
+There are a few prerequisites for receiving updates through the Pro Management service:
 
 |Software |Guidance |
 |:- |:- |
-|Logitech Sync Services  |Should be installed and running on the Logitech meeting room devices. Required Sync services will be installed automatically from Windows Updates unless blocked. The full Sync package can also be installed. |
+|Logitech Sync Services  |Should be installed and running on the Logitech meeting room devices. Required Sync services are installed automatically from Windows Updates unless blocked. The full Sync package can also be installed. |
 |Windows OS updates |Should be kept enabled and not redirected to WSUS, nor blocked from a networking perspective. Neither GPO nor MDM policies should be used to manage OS updates. |
 |Microsoft Store updates   |Should be turned off. Managed Services will turn off Store updates if found on. |
 |Anti-Virus Software |If you are running AV software on these devices, you should ensure that AV has exclusions in place for Teams and Skype dlls. See [How to include or exclude Teams from antivirus or DLP applications](/microsoftteams/troubleshoot/teams-administration/include-exclude-teams-from-antivirus-dlp) for more details. |
 |Additional Software |Additional software such as third-party remote desktop viewing, etc. should be reviewed with Managed Services to rule out side-effects. |
-|Additional Change Management|Can interfere with covered updates, and` should not be introduced. |
+|Additional Change Management|Can interfere with covered updates, and` shouldn't be introduced. |
 
 ## Managed updates – How it works 
+
 There are two primary ways how updates are managed:  
 
 - **Automatically managed**: Updates are installed in your room device based on Pro Management assessment. No intervention is required for the updates managed in our portfolio.
@@ -64,30 +67,34 @@ There are two primary ways how updates are managed:
 
 ### Automatically managed
 
-If you choose to be automatically managed, then no action is needed for the updates on your part. However, you should review the current portfolio of updates supported by the Pro Management service. The portfolio is constantly getting new additions, and it is our priority to cover the most frequent and impactful updates to ensure your room stability. Check the current list (under the “Update Management” section of this doc) to plan any additional change management needed for your organization.  
+If you choose to be automatically managed, then no action is needed for the updates on your part. However, you should review the current portfolio of updates supported by the Pro Management service. The portfolio is constantly getting new additions, and it is our priority to cover the most frequent and impactful updates to ensure your room stability. Check the current list (under the “Update Management” section of this doc) to plan any extra change management needed for your organization.  
 
-**Recommendation:** Do not install updates that are covered by the Pro Management service on any managed device on your own. 
+**Recommendation:** Do not install updates that are covered by the Pro Management service on any managed device on your own.
 
 ### Ring validation
 
-When choosing ring validation, review the following sections on how rings work in the Pro Management portal and the options available to customize it for your organization. Even with ring validation, attempts are made to ensure that rooms are not past due on recommended updates. Depending on the situation, a room might receive “catch up” updates to ensure it complies with Microsoft recommendations.  
+When choosing ring validation, review the following sections on how rings work in the Pro Management portal and the options available to customize it for your organization. Even with ring validation, attempts are made to ensure that rooms aren't past due on recommended updates. Depending on the situation, a room might receive “catch up” updates to ensure it complies with Microsoft recommendations.  
 
- Check for announcements on the portal home page and within the Pro Management documentation as new types of software and firmware become available in the portfolio. 
+ Check for announcements on the portal home page and within the Pro Management documentation as new types of software and firmware become available in the portfolio.
 
-### Scheduling 
-Updates are scheduled for rooms based on the equipment in the room and if they are not meeting recommended standards for applicable software and firmware. 
+### Scheduling
 
-- To help our customers meet change management requirements, update deployment start on **Wednesdays** in the staging ring. If a critical update is required, this schedule will be bypassed and the update released as soon as it’s available. 
+Updates are scheduled for rooms based on the equipment in the room and if they aren't meeting recommended standards for applicable software and firmware.
+
+- To help our customers meet change management requirements, update deployment start on **Wednesdays** in the staging ring. If a critical update is required, this schedule is bypassed and the update released as soon as it’s available.
 - Updates are sequenced based on the need in a particular room. 
-- If you have setup rings to validate the updates, the update will progress through the ring order. 
-- A new update can supersede an update that is queued up if it is determined that room stability will improve, based on your situation.  
-- Updates are typically applied during our nightly maintenance window – which is room local time **12:00am – 5:00am** to avoid any kind of interruptions. 
+- If you have setup rings to validate the updates, the update progresses through the ring order. 
+- A new update can supersede an update that is queued up if it's determined that room stability improves, based on your situation.  
+- Updates are typically applied during our nightly maintenance window – which is room local time **12:00am – 5:00am** to avoid any kind of interruptions.
 
-## Microsoft Teams Rooms app update lifecycle policy 
-The MTR engineering team’s support policy states that all support ends after the twelve (12) month lifecycle for a version has expired or if more than two updates have been released since then. Then, customers must update to a supported version. Please reference [Microsoft Teams Rooms app version support - Microsoft Teams | Microsoft Docs](rooms-lifecycle-support.md) for detailed service description. 
+## Microsoft Teams Rooms app update lifecycle policy
+
+The MTR engineering team’s support policy states that all support ends after the 12 (12) month lifecycle for a version has expired or if more than two updates have been released since then. Then, customers must update to a supported version. Reference [Microsoft Teams Rooms app version support - Microsoft Teams | Microsoft Docs](rooms-lifecycle-support.md) for detailed service description.
+
 
 ## Update Management experience walk-through  
-To view updates, log in to the Pro Management portal and navigate to the Updates page.
+
+To view updates, sign in to the Pro Management portal and navigate to the Updates page.
 
 The Updates pane displays a high-level overview of update management for your rooms with the following tabs:
 
@@ -103,8 +110,8 @@ Any update can be in one of the following states:
 
 | Status | Description |
 |:- |:- |
-| Scheduled | An update is scheduled for the rooms in a given ring. Please keep in mind that an update will only show Scheduled after the progression hits the ring the room is in. For example, if a new update is in the Staging ring, it would only show Scheduled for rooms in the Staging ring.<br></br><p> Other rings will have a “Not required” status until the update progresses to that ring.</p> |
-| In progress | An update is in progress, and individual rings show status. This state shows the overall ring status, and therefore if an update applies to a single room in the Staging ring in your tenant, the update will have an “In Progress” state until the Executive ring is reached. |
+| Scheduled | An update is scheduled for the rooms in a given ring. Please keep in mind that an update will only show Scheduled after the progression hits the ring the room is in. For example, if a new update is in the Staging ring, it would only show Scheduled for rooms in the Staging ring.<br></br><p> Other rings have a “Not required” status until the update progresses to that ring.</p> |
+| In progress | An update is in progress, and individual rings show status. This state shows the overall ring status, and therefore if an update applies to a single room in the Staging ring in your tenant, the update has an “In Progress” state until the Executive ring is reached. |
 | Completed with failures | An update has completed progression through all your configured rings and failed in at least one room. |
 | Completed | An update has completed progression through all your configured rings and successfully installed on all applicable rooms.|
 | Deprecated | An update has been deactivated. Further deployment is halted. This is typical because the update has been superseded by a new version. |
