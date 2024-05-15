@@ -3,7 +3,7 @@ title: Plan your deployment for Teams phone devices and Displays
 ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
-ms.reviewer: kponnus
+ms.reviewer: vijagan
 ms.date: 12/17/2021
 ms.topic: article
 ms.service: msteams

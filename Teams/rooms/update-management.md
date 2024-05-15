@@ -3,8 +3,8 @@ title: Microsoft Teams Rooms Pro Management update management
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: sohailta
-ms.date: 10/27/2021
+ms.reviewer: kimmatlock
+ms.date: 05/15/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
