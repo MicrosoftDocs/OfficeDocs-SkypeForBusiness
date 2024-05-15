@@ -447,9 +447,6 @@ For more information, see:
 
 ### Call queue feature compatibility
 
-> [!NOTE]
-> [Teams Phone Mobile](./operator-connect-mobile-plan.md) is not supported for Call queue agents.
-
 |Feature                          |Teams Desktop<sup>1</sup> |Teams Web | Teams Mobile App<sup>2</sup> |Teams Phone Mobile<sup>3</sup> |Skype for Business |IP Phones | Standard Call Queues |Channel Based Call Queues | Comment      |
 |:--------------------------------|:------------------------:|:--------:|:----------------------------:|:-----------------------------:|:-----------------:|:--------:|:--------------------:|:------------------------:|:-------------|
 |**Agent Routing Methods**        |                          |          |                              |                               |                   |          |                      |                          |              |
