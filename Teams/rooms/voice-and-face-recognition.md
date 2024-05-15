@@ -25,7 +25,7 @@ description: Learn how admins can manage and control voice and face enrollment i
 
 # Overview of voice and face enrollment
 
-Voice and face enrollment is a feature in Microsoft Teams that allows users to create a voice and face profile. Voice and face enrollment is used to improve the audio quality and user experience of Teams meetings and calls. This feature helps to reduce background noise and secondary speakers and provides speaker attribution and Microsoft CoPilot accuracy in meeting rooms equipped with Microsoft Teams Rooms devices. Admins and security teams can manage and control this feature and ensure for which user the enrollment and usage of the profile are turned on.
+Voice and face enrollment is a feature in Microsoft Teams that allows users to create a voice and face profile. Voice and face enrollment is used to improve the audio quality and user experience of Teams meetings and calls. This feature helps to reduce background noise and secondary speakers and provides speaker attribution and Microsoft Copilot accuracy in meeting rooms equipped with Microsoft Teams Rooms devices. Admins and security teams can manage and control this feature and ensure for which user the enrollment and usage of the profile are turned on.
 
 Users can unenroll their profile, even if the admin disables enrollment for them. Users can save their information by staying enrolled so they are in full control of their voice and face data. See [Create Recognition profiles for Microsoft IntelliFrame](https://support.microsoft.com/office/create-recognition-profiles-for-microsoft-intelliframe-f0084478-52a7-4c52-bcdc-9063ed0e0bc0).
 
