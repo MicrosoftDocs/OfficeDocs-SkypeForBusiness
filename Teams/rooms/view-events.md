@@ -40,7 +40,7 @@ Events represent activity of the past like issues that occurred briefly, changes
 
 |**Event type**|**Source**|**Description**|
 |-----|-----|-----|
-|Poor call detected|Call record|Call analytics detected a poor quality call. [Defined here](stream-classification-in-call-quality-dashboard.md)|
+|Poor call detected|Call record|Call analytics detected a poor quality call. [Defined here](/microsoftteams/stream-classification-in-call-quality-dashboard#classifier-definitions)|
 
 **Flag as unhealthy**
 
