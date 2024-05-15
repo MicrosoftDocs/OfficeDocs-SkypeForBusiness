@@ -450,32 +450,32 @@ For more information, see:
 > [!NOTE]
 > [Teams Phone Mobile](./operator-connect-mobile-plan.md) is not supported for Call queue agents.
 
-|Feature                          |Teams Desktop<sup>1</sup> |Teams Web | Teams Mobile App<sup>2</sup> |Teams Phone Mobile<sup>3> |Skype for Business |IP Phones | Standard Call Queues |Channel Based Call Queues | Comment      |
-|:--------------------------------|:------------------------:|:--------:|:----------------------------:|:------------------------:|:-----------------:|:--------:|:--------------------:|:------------------------:|:-------------|
-|**Agent Routing Methods**        |                          |          |                              |                          |                   |          |                      |                          |              |
-|Attendant Routing                |Y                         |Y         |Y                             |                          |Y                  |Y         |Y                     |Y                         |*Default*     |
-|Longest Idle<sup>4</sup>         |Y                         |Y         |Y                             |                          |N                  |Y         |Y                     |Y                         |*Recommended* |
-|Round Robin                      |Y                         |Y         |Y                             |                          |Y                  |Y         |Y                     |Y                         |*Recommended* |
-|Serial                           |Y                         |Y         |Y                             |                          |Y                  |Y         |Y<sup>5</sup>         |Y<sup>5</sup>             |              |
-|**Agent Routing Options**        |                          |          |                              |                          |                   |          |                      |                          |              |
-|Presence Based Routing<sup>4</sup>|Y                        |Y         |Y                             |                          |N                  |Y         |Y                     |Y                         |*Default*     |
-|Agents can opt out               |Y                         |Y         |Y                             |                          |Y<sup>8</sup>      |Y<sup>8</sup>|Y                  |Y                         |*Default*     |
-|**Transfer Modes**               |                          |          |                              |                          |                   |          |                      |                          |              |
-|Conference Mode<sup>6</sup>      |Y                         |Y         |Y                             |                          |N                  |Y<sup>7</sup>|Y                  |Y                         |*Default*     |
-|Transfer Mode                    |Y                         |Y         |Y                             |                          |Y                  |Y         |Y                     |Y                         |              |
-|**Collaborative Calling**        |                          |          |                              |                          |                   |          |                      |                          |              |
-|Channel Based Queues             |Y                         |N         |N                             |                          |N                  |N         |N/A                   |Y<sup>9</sup>             |              |
-|**Dynamic caller ID**            |                          |          |                              |                          |                   |          |                      |                          |              |
-|Standard Call queue              |Y                         |Y         |Y                             |                          |N                  |N         |Y                     |N/A                       |              |
-|Channel based Call queue         |Y                         |N/A       |N/A                           |                          |N/A                |N/A       |N/A                   |Y                         |              |
-|**PSTN Connectivity Methods**    |                          |          |                              |                          |                   |          |                      |                          |See Note 10   |
-|Calling Plans                    |Y                         |Y         |Y                             |                          |Y                  |Y         |Y                     |Y                         |              |
-|Direct Routing                   |Y                         |Y         |Y                             |                          |N                  |Y         |Y<sup>7</sup>         |Y                         |              |
-|Operator Connect                 |Y                         |Y         |Y                             |                          |                   |Y         |Y<sup>7</sup>         |Y                         |              |
-|**Miscellaneous**                |                          |          |                              |                          |                   |          |                      |                          |              |
-|Call toast shows Resource Account Name |Y                   |N         |Y                             |                          |Y                  |          |Y                     |Y                         |              |
-|[Compliance recording](teams-recording-policy.md) | N/A     |N/A       |N/A                           |                          |N/A                |N/A       |N/A                   |N                         |              |
-|Click-to-call                    | Y                        |N         |N                             |                          |N                  |N         |Y                     |Y                         |              |
+|Feature                          |Teams Desktop<sup>1</sup> |Teams Web | Teams Mobile App<sup>2</sup> |Teams Phone Mobile<sup>3</sup> |Skype for Business |IP Phones | Standard Call Queues |Channel Based Call Queues | Comment      |
+|:--------------------------------|:------------------------:|:--------:|:----------------------------:|:-----------------------------:|:-----------------:|:--------:|:--------------------:|:------------------------:|:-------------|
+|**Agent Routing Methods**        |                          |          |                              |                               |                   |          |                      |                          |              |
+|Attendant Routing                |Y                         |Y         |Y                             |Y                              |Y                  |Y         |Y                     |Y                         |*Default*     |
+|Longest Idle<sup>4</sup>         |Y                         |Y         |Y                             |Y                              |N                  |Y         |Y                     |Y                         |*Recommended* |
+|Round Robin                      |Y                         |Y         |Y                             |Y                              |Y                  |Y         |Y                     |Y                         |*Recommended* |
+|Serial                           |Y                         |Y         |Y                             |Y                              |Y                  |Y         |Y<sup>5</sup>         |Y<sup>5</sup>             |              |
+|**Agent Routing Options**        |                          |          |                              |                               |                   |          |                      |                          |              |
+|Presence Based Routing<sup>4</sup>|Y                        |Y         |Y                             |Y<sup>11</sup>                 |N                  |Y         |Y                     |Y                         |*Default*     |
+|Agents can opt out               |Y                         |Y         |Y                             |Y<sup>11</sup>                 |Y<sup>8</sup>      |Y<sup>8</sup>|Y                  |Y                         |*Default*     |
+|**Transfer Modes**               |                          |          |                              |                               |                   |          |                      |                          |              |
+|Conference Mode<sup>6</sup>      |Y                         |Y         |Y                             |Y                              |N                  |Y<sup>7</sup>|Y                  |Y                         |*Default*     |
+|Transfer Mode                    |Y                         |Y         |Y                             |Y                              |Y                  |Y         |Y                     |Y                         |              |
+|**Collaborative Calling**        |                          |          |                              |                               |                   |          |                      |                          |              |
+|Channel Based Queues             |Y                         |N         |N                             |N                              |N                  |N         |N/A                   |Y<sup>9</sup>             |              |
+|**Dynamic caller ID**            |                          |          |                              |                               |                   |          |                      |                          |              |
+|Standard Call queue              |Y                         |Y         |Y                             |N                              |N                  |N         |Y                     |N/A                       |              |
+|Channel based Call queue         |Y                         |N/A       |N/A                           |N                              |N/A                |N/A       |N/A                   |Y                         |              |
+|**PSTN Connectivity Methods**    |                          |          |                              |                               |                   |          |                      |                          |See Note 10   |
+|Calling Plans                    |Y                         |Y         |Y                             |Y                              |Y                  |Y         |Y                     |Y                         |              |
+|Direct Routing                   |Y                         |Y         |Y                             |Y                              |N                  |Y         |Y<sup>7</sup>         |Y                         |              |
+|Operator Connect                 |Y                         |Y         |Y                             |Y                              |                   |Y         |Y<sup>7</sup>         |Y                         |              |
+|**Miscellaneous**                |                          |          |                              |                               |                   |          |                      |                          |              |
+|Call toast shows Resource Account Name |Y                   |N         |Y                             |N                              |Y                  |          |Y                     |Y                         |              |
+|[Compliance recording](teams-recording-policy.md) | N/A     |N/A       |N/A                           |N/A                            |N/A                |N/A       |N/A                   |N                         |              |
+|Click-to-call                    | Y                        |N         |N                             |N                              |N                  |N         |Y                     |Y                         |              |
 
 
 #### Notes
@@ -493,6 +493,7 @@ For more information, see:
     - DOD: [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
 9. Only standard channels are supported.
 10. Transferring calls between PSTN connectivity methods isn't supported.
+11. Performed through Team Phone Mobile app or see #8.
 
 ### Supported clients
 
