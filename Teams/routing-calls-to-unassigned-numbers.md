@@ -17,7 +17,7 @@ ms.collection:
 audience: Admin
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: Medium
 f1.keywords: 
   - CSH
 ms.custom: 
