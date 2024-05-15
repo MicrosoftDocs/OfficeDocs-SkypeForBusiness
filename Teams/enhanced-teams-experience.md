@@ -136,7 +136,7 @@ The following sections describe Teams Premium feature enhancements for town hall
 
 ### Town halls
 
-Teams Premium provides more ways to elevate your Teams town halls with the following key features:
+Teams Premium provides more ways to elevate Teams town halls in your org with the following key features:
 
 - **Custom emails** - Organizers and co-organizers can customize the town hall email templates sent to attendees.
 - **Increased broadcast and Q&A capacity**- Organizers can broadcast their town halls to 20,000 attendees. All attendees can use Q&A to interact with presenters, organizers, and co-organizers.
@@ -154,7 +154,7 @@ Teams Premium provides more ways to elevate your Teams town halls with the follo
   - Russian (ru-ru)
 
 - **Microsoft eCDN** - Optimize network performance for video streaming within an enterprise network. Microsoft eCDN allows millions of enterprise users around the world to communicate face-to-face efficiently and reliably.
-- **Real time monitoring of the attendee experience** - Admins can use the analytics dashboard to troubleshoot the attendee experience during live town halls.
+- **Real time monitoring of the attendee experience** - Admins can use the eCDN analytics dashboard to troubleshoot the attendee experience during live town halls.
 - **Town hall insights** - Town hall organizers can troubleshoot town halls while they're live.
 
 | Feature/Task | Can admins turn this feature on/off? |Documentation for admins| Documentation for your end users |
@@ -162,7 +162,7 @@ Teams Premium provides more ways to elevate your Teams town halls with the follo
 | Custom emails | Yes | [Manage email communications](manage-email-communications.md) |[Schedule a town hall in Microsoft Teams](https://support.microsoft.com/office/schedule-a-town-hall-in-microsoft-teams-d493b5cc-9f61-4dac-8027-d837dafb7a4c#bkmk_town_hall_invites) |
 | Live translated captions | Yes |[Configure transcription and captions for Teams meetings](meeting-transcription-captions.md)|[Use live captions in Microsoft Teams meetings](https://support.microsoft.com/office/use-live-captions-in-microsoft-teams-meetings-4be2d304-f675-4b57-8347-cbd000a21260) |
 | Microsoft eCDN |Yes |[How to enable Microsoft eCDN](/ecdn/how-to/enable-microsoft-ecdn-for-your-tenant)|No end user control |
-| Real time monitoring of the attendee experience | No, contact support for assistance. |[Analytics](/ecdn/technical-documentation/analytics)|No end user control |
+| Real time monitoring of the attendee experience | No, contact support for assistance. |[eCDN Analytics](/ecdn/technical-documentation/analytics)|No end user control |
 | Town hall insights | No, contact support for assistance. | No admin control|[Town hall insights in Microsoft Teams](https://support.microsoft.com/office/town-hall-insights-in-microsoft-teams-def99575-61bf-4ea2-ad0e-c6e75dce7741) |
 
 ### Webinars
