@@ -38,14 +38,9 @@ Events represent activity of the past like issues that occurred briefly, changes
 
 **Types of events**
 
-  ------------------------------------------------------------------------
-  Event type               Source                Description
-  ------------------------ --------------------- -------------------------
-  Poor call detected.       Call record         Call analytics detected a
-                                                 poor quality call (Learn
-                                                 more).
-
-  ------------------------------------------------------------------------
+|**Event type**|**Source**|**Description**|
+|-----|-----|-----|
+|Poor call detected|Call record|Call analytics detected a poor quality call. [Defined here](stream-classification-in-call-quality-dashboard.md)|
 
 **Flag as unhealthy**
 
