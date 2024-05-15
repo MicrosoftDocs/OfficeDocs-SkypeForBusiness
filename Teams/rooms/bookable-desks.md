@@ -80,7 +80,7 @@ For detailed step-by-stepinstructions, see [Get information for connected periph
 
 You can manually import information by getting the device information and then associate it to a correspond desk pool account using the Microsoft Teams Pro Management portal.
 
-1. Open [Microsoft Teams Pro Management portal](https://portal.rooms.microsoft.com/) > **Inventory** in the left navigation.
+1. Sign in and open the [Microsoft Teams Pro Management portal](https://portal.rooms.microsoft.com/) > **Inventory** in the left navigation.
 
 Devices are automatically discovered using your users' Teams app to send device data to the Teams Pro Management Portal. When five users plug in to device on a desk any connected displays and USB audio/video peripherals are scanned and transmitted to the cloud. These devices populate the **Devices** tab within the **Inventory** section.
 
