@@ -482,7 +482,7 @@ For more information, see:
 
 1. Microsoft Teams Windows client, Microsoft Teams Mac Client, Microsoft Teams on Virtualized Desktop Infrastructure.
 2. Microsoft Teams iPhone app, Microsoft Teams Android app.
-3. Teams Phone Mobile Native Dialer
+3. Teams Phone Mobile Cellular Phone Dialer.
 4. Selecting *Longest Idle* for the agent routing method automatically enables Presence based routing.
 5. It's not possible to set the order the agents are presented with calls when using a group or channel for membership.
 6. Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that's enabled for Location-Based Routing.
