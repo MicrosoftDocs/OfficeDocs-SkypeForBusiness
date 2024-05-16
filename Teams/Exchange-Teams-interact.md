@@ -3,7 +3,7 @@ title: How Exchange and Microsoft Teams interact
 author: MicrosoftHeidi 
 ms.author: heidip 
 manager: jtremper
-ms.date: 08/10/2017
+ms.date: 10/24/2023
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
@@ -20,7 +20,7 @@ appliesto:
 
 # How Exchange and Microsoft Teams interact
 
-> [!Tip]
+> [!TIP]
 > Watch the following session to learn how Teams interacts with Microsoft Entra ID, Microsoft 365 Groups, Exchange, SharePoint and OneDrive for Business: [Foundations of Microsoft Teams](https://aka.ms/teams-foundations)
 
 For the full Teams experience, every user should be enabled for Exchange Online, SharePoint Online, and Microsoft 365 Group creation.
@@ -40,12 +40,12 @@ The following table provides a helpful quick reference to feature availability b
 
 **Actions supported:**
 
-| User's mailbox is hosted in:                                       | eDiscovery         | Legal&nbsp;Hold    | Retention        | Team and Channel mgmt | Create and view meetings in Teams | Modify user profile picture | Call History | Manage Contacts | Access Outlook contacts | Voicemail        | Add and configure connectors | Add and configure tabs | Add and configure bots | Modify Out of Office settings |
-|--------------------------------------------------------------------|--------------------|--------------------|------------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------------|------------------------------|------------------------|------------------------|------------------------|
-| **Exchange Online**                                                | Yes <sup>1</sup>   | Yes <sup>1</sup>   | Yes              | Yes                   | Yes                               | Yes<sup>7</sup>             | Yes          | Yes             | Yes <sup>6</sup>        | Yes              | Yes                          | Yes                    | Yes                    | Yes                    
-| **Exchange Online Dedicated vNext**                                | Yes <sup>1</sup>   | Yes <sup>1</sup>   | Yes              | Yes                   | Yes                               | Yes<sup>7</sup>             | Yes          | Yes             | Yes <sup>6</sup>        | Yes              | Yes                          | Yes                    | Yes                    | Yes                    
-| **Exchange Online Dedicated – Legacy** (Sync to Microsoft Entra ID required) | Yes <sup>1</sup>   | Yes <sup>1,2</sup> | Yes <sup>3</sup> | Yes                   | No                                | No                          | Yes          | Yes             | No                      | Yes <sup>4</sup> | Yes <sup>5</sup>             | Yes                    | Yes                    | Yes                    
-| **Exchange On-premises** (Sync to Microsoft Entra ID)                        | Yes <sup>1,9</sup> | Yes <sup>1</sup>   | Yes <sup>3</sup> | Yes                   | Yes <sup>8</sup>                  | Yes<sup>10</sup>            | Yes          | Yes             | No                      | Yes <sup>4</sup> | Yes <sup>5</sup>             | Yes                    | Yes                    | No                      
+|User's mailbox is hosted in: |eDiscovery |Legal Hold |Retention |Team and Channel management |Create and view meetings in Teams |Modify user profile picture |Call History |Manage Contacts |Access Outlook contacts |Voicemail |Add and configure connectors |Add and configure tabs |Add and configure bots |Modify Out of Office settings |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|**Exchange Online**|Yes <sup>1</sup>|Yes <sup>1</sup>|Yes|Yes|Yes|Yes<sup>7</sup>|Yes|Yes|Yes <sup>6</sup>|Yes|Yes|Yes|Yes|Yes|
+|**Exchange Online Dedicated vNext**|Yes <sup>1</sup>|Yes <sup>1</sup>|Yes|Yes|Yes|Yes<sup>7</sup>|Yes|Yes|Yes <sup>6</sup>|Yes|Yes|Yes|Yes|Yes|
+|**Exchange Online Dedicated – Legacy** (Sync to Microsoft Entra ID required)|Yes <sup>1</sup>|Yes <sup>1,2</sup>|Yes <sup>3</sup>|Yes|No|No|Yes|Yes|No|Yes <sup>4</sup>|Yes <sup>5</sup>|Yes|Yes|Yes|
+|**Exchange On-premises** (Sync to Microsoft Entra ID)|Yes <sup>1,9</sup>|Yes <sup>1</sup>|Yes <sup>3</sup>|Yes|Yes <sup>8</sup>|Yes<sup>10</sup>|Yes|Yes|No|Yes <sup>4</sup>|Yes <sup>5</sup>|Yes|Yes|No|
 
 <sup>1</sup> eDiscovery and Legal Hold for compliance on channel messages is supported for all hosting options.
 
@@ -68,6 +68,7 @@ The following table provides a helpful quick reference to feature availability b
 <sup>10</sup> On-premises users can use Teams to update their profile picture even if the `SetPhotoEnabled` Outlook on the Web mailbox policy is set to `false`.
  > [!NOTE]
  > Setting Out of Office (OOF) via the Teams client is currently not supported for users whose mailboxes are hosted on-premises; these users should perform this action via the Outlook client.
+
 ## Requirements to get the most out of Microsoft Teams
 
 Microsoft Teams works with several Microsoft 365 and Office 365 services to provide users with rich experience. To support this experience, you need to enable certain features or services and assign licenses.
@@ -110,7 +111,7 @@ If mailboxes are hosted on-premises, to create and view meetings, the following 
 To enable calendar delegation for these users:
 
 - You must also complete steps as described in [Configure Integration and OAuth between Skype for Business Online and Exchange Server](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); these steps will provide the Teams scheduling application the required permissions to confirm delegate permissions.
- 
+
   > [!NOTE]
   > Step 2 includes role assignment for ArchiveApplication, which is not required for delegation.
 
