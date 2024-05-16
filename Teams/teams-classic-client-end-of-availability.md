@@ -51,11 +51,11 @@ The end of support for the classic Teams client in VDI starts October 1, 2024. T
 For more information regarding VDI, see [Upgrade to new Teams for Virtualized Desktop Infrastructure (VDI)](new-teams-vdi-requirements-deploy.md).
 
 - **Microsoft-managed rollout**: If Teams policy was set to be Microsoft-controlled, new Teams is being rolled out according to the outlined schedule. We'll attempt to uninstall classic Teams after 14 days.
-- **Admin-managed rollout**: Until the start of April, admins could choose to control the new Teams rollout as outlined in [Upgrade to the new Teams client using policies](new-teams-deploy-using-policies.md). Apart from your VDI users, this has ended, and the following is now true:
-- New Teams is installed and becomes the default client. The toggle to return to classic Teams is still available if needed.
-- In mid-May, any users remaining on classic Teams will be switched to new Teams, and the toggle to return to classic Teams won't be available. We'll attempt to uninstall classic Teams after 14 days.
+- **Admin-managed rollout**: Until the start of April, admins could choose to control the new Teams rollout as outlined in [Upgrade to the new Teams client using policies](new-teams-deploy-using-policies.md). Apart from your VDI users, this period has ended, and admins will now see the following behaviors:
+  - New Teams is installed and becomes the default client. The toggle to return to classic Teams is still available if needed.
+  - In mid-May, any users remaining on classic Teams will be switched to new Teams, and the toggle to return to classic Teams won't be available. We'll attempt to uninstall classic Teams after 14 days.
 
-The important timeline concepts to remember going forward are:
+These are the important timeline concepts to keep in mind going forward:
 
 - **End of support**: The end of our supporting classic Teams client. We'll no longer provide updates or new features for the client, nor will we help resolve support issues with the classic Teams client.
 - **End of availability**: The end of functionality for the classic Teams client. After this deadline, the client will stop working and users will no longer be able to do work in the classic Teams client.
@@ -152,6 +152,6 @@ Microsoft highly recommends that admins who want more control or a more gradual 
 In the Teams admin center:
 
 - **Microsoft-managed rollout**: If Teams policy was set to be Microsoft-controlled, new Teams is being rolled out according to the outlined schedule. We'll attempt to uninstall classic Teams after 14 days.
-- **Admin-managed rollout**: Until the start of April, admins could choose to control the new Teams rollout as outlined in [Upgrade to the new Teams client using policies](new-teams-deploy-using-policies.md). Apart from your VDI users, this has ended, and the following is now true:
-- New Teams is installed and becomes the default client. The toggle to return to classic Teams is still available if needed.
-- In mid-May, any users remaining on classic Teams will be switched to new Teams, and the toggle to return to classic Teams won't be available. We'll attempt to uninstall classic Teams after 14 days.
+- **Admin-managed rollout**: Until the start of April, admins could choose to control the new Teams rollout as outlined in [Upgrade to the new Teams client using policies](new-teams-deploy-using-policies.md). Apart from your VDI users, this period has ended, and the following is now true:
+  - New Teams is installed and becomes the default client. The toggle to return to classic Teams is still available if needed.
+  - In mid-May, any users remaining on classic Teams will be switched to new Teams, and the toggle to return to classic Teams won't be available. We'll attempt to uninstall classic Teams after 14 days.
