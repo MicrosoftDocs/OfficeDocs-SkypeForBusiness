@@ -41,10 +41,10 @@ For admins, the Microsoft Teams Rooms Pro Management portal provides the managea
 
 To set up and use Bookable Desks in your organization, you must perform these tasks:
 
-Step 1: Verify the prerequisites are met.
-Step 2: Create desk pool accounts.
-Step 3: Collect information on peripheral devices on individual desks.
-Step 4: Test end-user experience.
+- Step 1: Verify the prerequisites are met.
+- Step 2: Create desk pool accounts.
+- Step 3: Collect information on peripheral devices on individual desks.
+- Step 4: Test end-user experience.
 
 ## Step 1 - Verify the prerequisites are met
 
