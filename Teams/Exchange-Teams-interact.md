@@ -57,7 +57,7 @@ The following table provides a helpful quick reference to feature availability b
 
 <sup>5</sup> If one of the owners of a team can add connectors, everyone else in that team will be able to do so, irrespective of whether their mailbox is homed on-premises or online.
 
-<sup>6</sup> Only contacts in default contacts folder. Access to other contacts folders or sub-folders is not supported.
+<sup>6</sup> Only contacts in default contacts folder. Access to other contacts folders or subfolders is not supported.
 
 <sup>7</sup> Teams honors the [Outlook on the web mailbox policy](/powershell/module/exchange/client-access/set-owamailboxpolicy) setting that's configured by tenant admins to control whether users can change their profile picture. If the **-SetPhotoEnabled** setting is turned off in the policy, users cannot add, change, or remove their profile picture, so the profile picture won't be synced to teams if the admin changes the photo.
 
@@ -115,7 +115,7 @@ To enable calendar delegation for these users:
   > [!NOTE]
   > Step 2 includes role assignment for ArchiveApplication, which is not required for delegation.
 
-- The Teams Scheduling add-in for Outlook requires Exchange 2013 CU19 or later when scheduling a meeting on behalf of someone else. This is to support the unauthenticated discovery of the mailbox by our service to check delegate permissions against the delegator mailbox. The delegate and delegator location could be Exchange 2013 or later, or Exchange online, but Autodiscover must resolve to Exchange 2013 CU19 or later.
+- The Teams Scheduling add-in for Outlook requires Exchange 2013 CU19 or later when scheduling a meeting on behalf of someone else. This requirement is needed to support the unauthenticated discovery of the mailbox by our service to check delegate permissions against the delegator mailbox. The delegate and delegator location could be Exchange 2013 or later, or Exchange online, but Autodiscover must resolve to Exchange 2013 CU19 or later.
 
 ## Additional considerations
 
