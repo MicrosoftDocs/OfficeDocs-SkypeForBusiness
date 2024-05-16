@@ -44,17 +44,19 @@ You can manage access to apps for individual users, supported groups, or everyon
 
 Previously, when using permission policies, you determined access to apps using the following three settings:
 
-* Org-wide setting for third-party apps. It applies at an org-level and controls if all third-party apps are available for every user or not.
-* App status. It applies at an app-level and controls if it's available to any user or not.
-* Permission policy. It applies at a user-level and controls if a specific user is permitted to use an app or not.
+* Org-wide setting for third-party apps: It applies at an org-level and controls if all third-party apps are available for every user or not.
+* App status: It applies at an app-level as allow or block and controls if it's available to any user or not.
+* Permission policy: It applies at a user-level and controls if a specific user is permitted to use an app or not.
 
 App centric management feature simplifies these settings. Each app contains its access definition using a list of users and groups that you assign to the app. It lets you manage each app individually based on your user's needs and organization's compliance and risk posture.
 
 When using this functionality, you determine access to apps using one of the following options for each app:
 
-* **Everyone in the organization**.
-* **Specific users or groups**: Only the users and groups that you select can use the app. The supported group types are security groups, Microsoft 365 groups, dynamic user membership groups, nested groups, and the distribution lists.
-* **No one**.
+| New option | What is the app availability | How does it map with previous settings |
+|------------|------------------------------|----------------------------------------|
+| `Everyone in the organization` | Available to all org users | Same effect as allowing an app and permission policy allowing all users to use it. |
+| `Specific users or groups` | Only the users and groups that you select can use the app. The supported group types are security groups, Microsoft 365 groups, dynamic user membership groups, nested groups, and the distribution lists. | Same as using policy to restrict use of app to selected users or groups. |
+| `No one` | Not available to any user | Same as a blocked app. |
 
 The method to allow users access to an app changes with this functionality. In the past, to allow access to a user, you'd add the app as an allowed app in a policy and assign that policy to the user. Using this functionality, you just modify the app assignments of an app to let selected users use it. Also, you don't have to create multiple policies for different combinations across allowed apps and permitted users.
 
@@ -77,11 +79,11 @@ To assign users or groups to an app, follow these steps:
     :::image type="content" source="media/acm-remove-access.png" alt-text="Screenshot showing how to remove an existing app assignment from the app details page." lightbox="media/acm-remove-access-large.png":::
 
 > [!NOTE]
-> You can view and modify the assignments of a blocked app but your assignments take effect only when you [allow the app](manage-apps.md#allow-or-block-apps).
+> The apps that you blocked previously, show as unblocked now but assigned to `No one` in the `Available to` column on the Manage apps page. It means that no org user can use the app.
 
 ## How app config is preserved and available settings for apps
 
-In addition to allowing or blocking apps and creating app assignments, you can also control the default app assignments of any new apps. You can control the default app assignments for each app type. For new organizations, the default setting is set to let users install apps by default. For existing organizations, [old settings are mapped to new access settings](#mapping-between-old-permission-policies-and-new-app-assignments).
+In addition to creating app assignments, you can also control the default app assignments of any new apps. You can control the default app assignments for each app type. For new organizations, the default setting is set to let users install apps by default. For existing organizations, [old settings are mapped to new access settings](#mapping-between-old-permission-policies-and-new-app-assignments).
 
 To change this default setting, access [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page, select **Actions** > **Org-wide app settings**, and modify the required settings.
 
@@ -143,6 +145,8 @@ When your tenant's admin center receives this feature, the following updates are
 * You can't create assignments to apps in bulk.
 
 * [PowerShell cmdlets](/powershell/module/teams/?view=teams-ps&preserve-view=true) for permission policies aren't supported on tenants that migrate to this feature. App centric management feature replaces permission policies. While the cmdlet may seem to succeed, but the changes aren't applied to the tenant.
+
+* The apps that you blocked previously, show as unblocked now but assigned to `No one` in the `Available to` column on the Manage apps page. It means that no org user can use the app.
 
 ## Related article
 
