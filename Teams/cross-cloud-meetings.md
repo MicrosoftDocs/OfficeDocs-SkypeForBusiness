@@ -95,15 +95,15 @@ Edit a cross-cloud meeting connection
 1. Under **Cross-cloud** meetings, select the tenant you want to update, and then select **Edit**.
 1. Update the connection settings that you want to change, and then select **Save**.
 
-## Multi-Factor Authentication
+## Multi-Factor Authentication (MFA)
 When setting up the cross-cloud meeting connection it is important to consider the impact security policies may have on users attempting to join a cross-cloud meeting.  When the tenant hosting a cross-cloud meeting has an Entra Conditional Access Policy configured to enforce Multi-Factor Authentication users may be blocked from signing in to the meeting with error AADSTS90072.
 
 To resolve this error either:
-1. (Recommended) Trust the incoming Multi-Factor Authentication from the user's home tenant as a part of the cross-cloud trust following the instructions here: [To change inbound trust settings for MFA and device claims](/entra/external-id/cross-tenant-access-settings-b2b-collaboration#to-change-inbound-trust-settings-for-mfa-and-device-claims)
+- (Recommended) Trust the incoming Multi-Factor Authentication from the user's home tenant as a part of the cross-cloud trust following the instructions here: [To change inbound trust settings for MFA and device claims](/entra/external-id/cross-tenant-access-settings-b2b-collaboration#to-change-inbound-trust-settings-for-mfa-and-device-claims).  This trust only impacts the specific tenant configured in cross tenant access settings and makes it possible for the user to satisfy the meeting host's MFA requirements utilizing their own home tenant MFA process.
    
-or
+or, if the user's home tenant does not have MFA enabled,
 
-2. Modify the Conditional Access Policy that is enforcing Multi-Factor Authentication to exclude 'Other External Users' following the instructions here: [Assigning Conditional Access policies to external user types](/entra/external-id/authentication-conditional-access#conditional-access-for-external-users)
+- Modify the Conditional Access Policy that is enforcing Multi-Factor Authentication to exclude 'Other External Users' following the instructions here: [Assigning Conditional Access policies to external user types](/entra/external-id/authentication-conditional-access#conditional-access-for-external-users).  **Note**: This option impacts all external users accessing the meeting host tenant, not limited to cross-cloud authenticated meetings and is not configurable on a per-tenant basis.
 
 ## Related topics
 
