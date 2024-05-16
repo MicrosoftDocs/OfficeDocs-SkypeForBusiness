@@ -103,7 +103,7 @@ To resolve this error either:
    
 or, if the user's home tenant does not have MFA enabled,
 
-- Modify the Conditional Access Policy that is enforcing Multi-Factor Authentication to exclude 'Other External Users' following the instructions here: [Assigning Conditional Access policies to external user types](/entra/external-id/authentication-conditional-access#conditional-access-for-external-users).  **Note**: This option impacts all external users accessing the meeting host tenant, not limited to cross-cloud authenticated meetings and is not configurable on a per-tenant basis.
+- Modify the Conditional Access Policy that is enforcing Multi-Factor Authentication to exclude 'Other External Users' following the instructions here: [Assigning Conditional Access policies to external user types](/entra/external-id/authentication-conditional-access#conditional-access-for-external-users).  **Note**: This option is not limited to impacting cross-cloud authenticated meeting users and is not configurable on a per-tenant basis.  Review the definition of 'Other External Users' in the provided link to evaluate the impact to your tenant's external users.
 
 ## Related topics
 
