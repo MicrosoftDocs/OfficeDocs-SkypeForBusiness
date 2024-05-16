@@ -32,7 +32,7 @@ Don't miss our Welcome to Teams for the Teams admin video (just over 3 minutes):
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
 
-If you're looking for end user Teams Help, click **Help** on the left side of the app, or go to the [Microsoft Teams help center](https://support.office.com/teams). For training, go to [Microsoft Teams Training](training-microsoft-teams-landing-page.md). 
+If you're looking for end user Teams Help, click **Help** on the left side of the app, or go to the [Microsoft Teams help center](https://support.office.com/teams). For training, go to [Microsoft Teams Training](training-microsoft-teams-landing-page.md).
 
 > [!IMPORTANT]
 > For details about Teams feature availability and licensing, see [Teams add-on licensing options](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
@@ -42,6 +42,7 @@ If you're looking for end user Teams Help, click **Help** on the left side of th
 Teams is built on Microsoft 365 groups, Microsoft Graph, and the same enterprise-level security, compliance, and manageability as the rest of Microsoft 365. Teams leverages identities stored in Microsoft Entra ID.
 
 When you create a team, here's what gets created:
+
 - A new [Microsoft 365 group](office-365-groups.md)
 - A [SharePoint](sharepoint-onedrive-interact.md) site and document library to store team files
 - An [Exchange Online](exchange-teams-interact.md) shared mailbox and calendar
@@ -67,7 +68,7 @@ To learn more:
 - [Manage Teams in the Teams admin center](manage-teams-in-modern-portal.md)
 - [Manage Teams features in your Microsoft 365](enable-features-office-365.md)
 
-To stay on top of what's coming for Teams and all other Microsoft 365 products and services in your organization, be sure to check [Message center](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) and the [Teams roadmap](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams). You'll get announcements about new and updated features, planned changes, and issues to help keep you informed and prepared. 
+To stay on top of what's coming for Teams and all other Microsoft 365 products and services in your organization, be sure to check [Message center](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) and the [Teams roadmap](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams). You'll get announcements about new and updated features, planned changes, and issues to help keep you informed and prepared.
 
 ## Teamwork
 
