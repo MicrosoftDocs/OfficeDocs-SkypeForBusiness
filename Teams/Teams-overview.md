@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: serdars
-ms.date: 06/05/2023
+ms.date: 05/16/2024
 description: Find the right path to rolling out Microsoft Teams in your organization. Learn about the Teams infrastructure and using Teams with Microsoft 365 or Office 365.
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -50,7 +50,7 @@ When you create a team, here's what gets created:
 
 When you create a team from an existing group, that group's membership, site, mailbox, and notebook are surfaced in Teams.
 
-To customize and extend Teams, add third-party apps using [app management tasks](apps-in-teams.md). With Teams, you can include people from outside your organization by [adding them as a guest](guest-access.md) to a team or channel. Teams offers a robust [development platform](/microsoftteams/platform) so you can build the teamwork hub you need for your organization.
+To customize and extend Teams, add third-party apps using [app management tasks](apps-in-teams.md). With Teams, you can include people from outside your organization by adding them as a guest or an external user, depending on [what you need](communicate-with-users-from-other-organizations.md). Teams offers a robust [development platform](/microsoftteams/platform) so you can build the teamwork hub you need for your organization.
 
 > [!TIP]
 > For a deep dive into Teams architecture, watch the videos on the [Teams Platform Academy](https://aka.ms/TeamsPlatformAcademy).
@@ -71,9 +71,9 @@ To stay on top of what's coming for Teams and all other Microsoft 365 products a
 
 ## Teamwork
 
-Every team is different; there's no one-size-fits-all approach to collaboration. When deciding which apps and services to use, think about the work your organization does and the types of conversations your teams need to have.
+Every team is different; there's no one-size-fits-all approach to collaboration. When deciding which apps and services to use, think about the work your organization does and the types of conversations your teams need to have:
 
-- **Teams**, as the hub for teamwork, is where people - including people outside your organization - can actively connect and collaborate in real time to get things done. Have a conversation right where the work is happening, whether coauthoring a document, having a meeting, or working together in other apps and services. Teams is the place to have informal chats, iterate quickly on a project, work with team files, and collaborate on shared deliverables. 
+- **Teams**, as the hub for teamwork, is where people--including people outside your organization--can actively connect and collaborate in real time to get things done. Have a conversation right where the work is happening, whether coauthoring a document, having a meeting, or working together in other apps and services. Teams is the place to have informal chats, iterate quickly on a project, work with team files, and collaborate on shared deliverables.
 
 - **Outlook** for collaborating in the familiar environment of email and in a more formal, structured manner or when targeted and direct communication is required.
 
@@ -83,7 +83,7 @@ Every team is different; there's no one-size-fits-all approach to collaboration.
 
 - **Viva Engage** to connect people across the organization. Drive company-wide initiatives, share best practices, and build communities around common topics of interest or areas of practice. Crowdsource ideas to foster open discussions with people across the company.
 
-- **Office apps** are all the familiar tools that people know and use regularly, including Word, Excel, PowerPoint, and OneNote. 
+- **Office apps** are all the familiar tools that people know and use regularly, including Word, Excel, PowerPoint, and OneNote.
 
 ## Related topics
 
