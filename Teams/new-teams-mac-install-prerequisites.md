@@ -15,7 +15,7 @@ ms.reviewer: smylavarapu
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn about installing and meeting prerequisites for the new Microsoft Teams desktop client for the Mac
+description: Learn about installing and meeting prerequisites for the new Microsoft Teams desktop client for the Mac.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: high
