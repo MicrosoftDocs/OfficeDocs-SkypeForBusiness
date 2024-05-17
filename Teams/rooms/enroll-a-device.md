@@ -61,7 +61,7 @@ Follow these procedures to set up your hardware before attempting the enrollment
      bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT http://contosoproxy.corp.net/proxy.pac
      ```
 
-### 
+
 
 ## Performing operations as the Admin user of the Teams Rooms device
 
