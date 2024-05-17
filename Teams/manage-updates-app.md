@@ -33,7 +33,7 @@ The Updates app in Microsoft Teams provides a centralized place for members of y
 
 In Teams, users can get the Updates app from the Teams app store. They'll see all the update requests they need to submit on the **Submit** page. You can share the [Get started in Updates article](https://support.microsoft.com/office/get-started-in-updates-c03a079e-e660-42dc-817b-ca4cfd602e5a) with your users to help them get comfortable using Updates.
 
-:::image type="content" source="media/manage-updates-home.png" alt-text="Screenshot of the Updates app on Teams desktop and mobile." lightbox="media/manage-updates-home.png":::
+:::image type="content" source="media/manage-updates-home.png" alt-text="Image of the Updates app on Teams desktop and mobile." lightbox="media/manage-updates-home.png":::
 
 When a user is assigned an update request, it shows up in their Teams activity feed. Users can also view all their current update requests and previous submissions in the Updates app. In addition, anyone can create and send out update requests.
 
@@ -41,21 +41,27 @@ Updates comes with both out-of-the-box templates for common business scenarios a
 
 :::image type="content" source="media/manage-updates-templates.png" alt-text="Screenshot of templates available in the Updates app." lightbox="media/manage-updates-templates.png":::
 
+:::image type="content" source="media/manage-updates-request.png" alt-text="Screenshot of creating an update request using the Weekly update template." lightbox="media/manage-updates-request.png":::
+
+:::image type="content" source="media/manage-updates-submitters.png" alt-text="Screenshot of the Needing your updates section of the Updates app homepage." lightbox="media/manage-updates-request.png":::
+
+:::image type="content" source="media/manage-updates-submitters.png" alt-text="Screenshot of the Needing your updates section of the Updates app homepage." lightbox="media/manage-updates-request.png":::
+
 ## Example scenario
 
 Employees at a clothing store are responsible for opening and closing the store every day. Every morning, the shift leader fills out the Store opening update. In this update, they describe any issues with the previous night's closing, answer questions about the cleanliness of the store, and report any supplies that need replenished. Submitting an update lets them communicate their needs for the store and any problems quickly and efficiently. Daily updates also give the store associates an opportunity to highlight what's going well.
 
 At the store's manufacturing facilities, employees perform safety checks with Updates using mobile devices.
 
-![Image of the Weekly safety walkthrough template on a mobile device.](media/updates-mobile.png)
+:::image type="content" source="media/updates-mobile.png" alt-text="Image of the Weekly safety walkthrough template on a mobile device.":::
 
 Meanwhile, a team of remote workers is updating the store's website. They're spread across time zones, so daily stand-up meetings aren't convenient. Instead, each of the team members submits daily Updates reports on their progress to the team leader.
 
 [Download the Updates lookbook](https://go.microsoft.com/fwlink/?linkid=2197649) to see more examples of what you can do with Updates.
 
-## Required permissions and licenses
+## Prerequisites
 
-You need permission for the following items to deploy Updates:
+Here are the prerequisites for deploying Updates:
 
 - Permissions to create a Microsoft Dataverse database.
 
@@ -63,7 +69,7 @@ You need permission for the following items to deploy Updates:
 
 - Administrator role in your target environment.
 
-- License for Power Automate, Office 365, or Dynamics 365.
+- License for Power Automate, Microsoft 365, or Dynamics 365.
 
 ## Storage with Microsoft Dataverse
 
