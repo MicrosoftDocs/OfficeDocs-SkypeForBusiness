@@ -36,8 +36,8 @@ This rollout is going to differ based on your Teams Admin Center policy controls
 > [!IMPORTANT]
 > Admins should know that they can always move forward in the steps to new Teams Only from any other point in the rollout schedule, but they can't move backwards in the steps from where they currently are. Some examples:
 >
-> - If a customer's currently in classic Teams default mode, they can go to new Teams default mode, or new Teams Only, by assigning those policy states. However, they can't move back to the AdminDisabled state.
-> - If a customer's currently in new Teams default mode, they can move forward to new Teams Only by assigning that policy state. In this case, they couldn't move back to classic Teams default or AdminDisabled.
+> - If a customer is currently in classic Teams default mode, they can go to new Teams default mode, or new Teams Only, by assigning those policy states. However, they can't move back to the AdminDisabled state.
+> - If a customer is currently in new Teams default mode, they can move forward to new Teams Only by assigning that policy state. In this case, they couldn't move back to classic Teams default or AdminDisabled.
 
 **Native clients excluding VDI**:
 
