@@ -33,7 +33,7 @@ Once the Teams Rooms Pro Management agent is successfully installed and connecte
 >
 > If your Windows-based Teams Rooms devices are running version 4.16 or earlier, you must still follow the steps below to enroll those devices.
 
-Both automatic and manual deployment requires onboarding Microsoft Teams Rooms devices to the Microsoft Teams Rooms Pro Management portal. The monitoring service agent is for use with certified Microsoft Teams Rooms (MTR) systems and peripherals.
+Both automatic and manual deployment require onboarding Microsoft Teams Rooms devices to the Microsoft Teams Rooms Pro Management portal. The monitoring service agent is for use with certified Microsoft Teams Rooms (MTR) systems and peripherals.
 
 ## Prerequisites
 
