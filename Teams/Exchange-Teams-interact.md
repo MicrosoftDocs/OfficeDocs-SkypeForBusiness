@@ -27,9 +27,28 @@ For the full Teams experience, every user should be enabled for Exchange Online,
 
 Users' Exchange mailboxes can be hosted online or on-premises.
 
-Users hosted on Exchange Online or Exchange Dedicated vNext can use all the features of Teams. They can create and join teams and channels, create and view meetings, call and chat, modify user profile pictures (if the Outlook on the web mailbox policy allows them to do so), and add and configure connectors, tabs, and bots. For a more comprehensive list of available features, see the table below.
+Users hosted on Exchange Online or Exchange Dedicated vNext can use all the features of Teams. They can
 
-Users hosted on Exchange Online Dedicated (Legacy) must be synchronized to Microsoft Entra ID on Microsoft 365 or Office 365. They can create and join teams and channels, add and configure tabs and bots, and make use of the chat and calling features. However, they cannot modify profile pictures, manage meetings, access outlook contacts, or manage connectors.
+- Create and join teams and channels
+- Create and view meetings
+- Call and chat
+- Modify user profile pictures (if the Outlook on the web mailbox policy allows them to do so)
+- Add and configure connectors, tabs, and bots
+
+For a more comprehensive list of available features, see the table below.
+
+Users hosted on Exchange Online Dedicated (Legacy) must be synchronized to Microsoft Entra ID on Microsoft 365 or Office 365. They can:
+
+- Create and join teams and channels
+- Add and configure tabs and bots
+- Make use of the chat and calling features
+
+However, they can't:
+
+- Modify profile pictures
+- Manage meetings
+- Access outlook contacts
+- Manage connectors
 
 > [!IMPORTANT]
 > For integration with on-premises, it's highly recommended that you have an Exchange full Classic Hybrid deployment with Exchange Server 2016 or later. Modern Hybrid support is limited to Free/Busy and will not provide calendar integration from Teams to mailboxes on-premises, for example. For more information about setting up a hybrid deployment, see [Exchange Server hybrid deployments](/exchange/exchange-hybrid).
