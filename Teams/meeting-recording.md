@@ -159,6 +159,12 @@ To enable **`-ExplicitRecordingConsent`** so that any meeting an organizer with 
 Set-CsTeamsMeetingPolicy -Identity <policy name> -ExplicitRecordingConsent Enabled
 ```
 
+### Viewing consent data
+
+There are two ways for you to view consent data. The first way is in the [Teams meeting attendance and engagement report](/microsoftteams/teams-analytics-and-reports/meeting-attendance-report). The second is with the **Added information about meeting participants** filter in the Teams meeting audit logs in Purview. Consent data is in the audit logs regardless of your policy that manages the attendance and engagement report or your users' option for tracking attendance. To learn more about audit logs in Purview, see [Audit log activities](/purview/audit-log-activities#microsoft-teams-activities).
+
+:::image type="content" source="media/audit-rec-small.png" alt-text="Screenshot of Teams meeting audit logs in Purview that show consent data." lightbox="media/audit-rec-expand.png":::
+
 ## Block or allow download of channel meeting recordings
 
 In PowerShell, the `-ChannelRecordingDownload` parameter in [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) controls if channel members can download meeting recordings. This is done by controlling which folder recordings are stored in.

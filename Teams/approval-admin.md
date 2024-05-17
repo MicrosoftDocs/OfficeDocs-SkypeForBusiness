@@ -44,9 +44,9 @@ This article describes the Approvals app requirements and roles.
 > [!NOTE]
 > This feature hasn't been released to Government Community Cloud High (GCCH) and Department of Defense (DOD) users yet.
 
-## Required permissions and licenses
+## Prerequisites
 
-To deploy the Approvals app, you need permission for the following items:
+Here are the prerequisites for deploying the Approvals app:
 
 - Permissions to create a Microsoft Dataverse database.
 
@@ -98,7 +98,9 @@ The Approvals Teams app lets you access the following features:
 
 - Use the team's information to contact them.
 
-Approval Template Permissions
+To learn more, see the [Permissions tab](https://admin.teams.microsoft.com/policies/manage-apps/7c316234-ded0-4f95-8a83-8453d0876592/permission) for the Approvals app in the Teams admin center.
+
+Approval template permissions
 
 - All team owners can create an approval template for teams that they own.
 
