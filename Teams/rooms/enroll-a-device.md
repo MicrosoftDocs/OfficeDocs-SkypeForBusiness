@@ -27,7 +27,7 @@ f1keywords:
 
 Instead of performing the steps in this article, the Teams Rooms Pro Management agent will be automatically downloaded and installed onto the Windows-based Teams Rooms devices as part of the Teams Rooms app update. This improvement simplifies the agent deployment and device enrollment tasks for IT admins, reducing their workload.
 
-Once the Teams Rooms Pro Management agent is successfully installed and connected, devices with the Teams Rooms Pro license will be automatically enrolled and visible in the Teams Rooms Pro Management portal. There may be additional user actions depending on your use of proxies.
+Once the Teams Rooms Pro Management agent is successfully installed and connected, devices with the Teams Rooms Pro license will be automatically enrolled and visible in the Teams Rooms Pro Management portal. There may be additional user actions depending on your use of proxies or other network restrictions.
 
 > [!IMPORTANT]
 >
