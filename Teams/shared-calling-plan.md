@@ -43,7 +43,7 @@ With Shared Calling, instead of assigning a phone number to every user, you use 
 
 To set up Shared Calling, you need to perform the following steps. These steps are described in detail in [Configure Shared Calling](shared-calling-setup.md).
 
-1. Assign Teams Phone licenses and enable users for voice.
+1. Assign Teams Phone licenses and enable users for voice. Don't assign a phone number to any Shared Calling enabled user.
 
 1. Assign number to resource account for inbound and outbound calling.
 
