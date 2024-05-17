@@ -41,15 +41,15 @@ Updates comes with both out-of-the-box templates for common business scenarios a
 
 Anyone can create an update request and ask others to submit updates to sync their work status. They can also add people as Viewers to review the update submissions.
 
-:::image type="content" source="media/manage-updates-request.png" alt-text="Screenshot of creating an update request using the Weekly update template." lightbox="media/manage-updates-request.png":::
+:::image type="content" source="media/manage-updates-request.png" alt-text="Screenshot of creating an update request." lightbox="media/manage-updates-request.png":::
 
-When a user is assigned an update request, they get a notification in their Teams activity feed. They can see the requests assigned to them on the **Needing your updates** section of the homepage on desktop and on the **Submit** tabe on mobile.
+When a user is assigned an update request, they get a notification in their Teams activity feed. They can see the requests assigned to them on the **Needing your updates** section of the homepage on desktop and on the **Submit** tab on mobile.
 
-:::image type="content" source="media/manage-updates-submitters.png" alt-text="Screenshot of the Needing your updates section of the Updates app homepage on desktop." lightbox="media/manage-updates-request.png":::
+:::image type="content" source="media/manage-updates-submitters.png" alt-text="Screenshot of the Needing your updates section of the Updates app homepage on desktop." lightbox="media/manage-updates-submitters.png":::
 
 Viewers can review update submissions on the **Review updates** section of the homepage on desktop and on the **Review** tab on mobile.
 
-:::image type="content" source="media/manage-updates-viewers.png" alt-text="Screenshot of the Review updates section of the Updates app homepage on desktop." lightbox="media/manage-updates-request.png":::
+:::image type="content" source="media/manage-updates-viewers.png" alt-text="Screenshot of the Review updates section of the Updates app homepage on desktop." lightbox="media/manage-updates-viewers.png":::
 
 ## Example scenario
 
