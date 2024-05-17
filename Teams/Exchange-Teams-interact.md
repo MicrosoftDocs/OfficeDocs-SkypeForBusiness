@@ -35,7 +35,7 @@ Users hosted on Exchange Online or Exchange Dedicated vNext can use all the feat
 - Modify user profile pictures (if the Outlook on the web mailbox policy allows them to do so)
 - Add and configure connectors, tabs, and bots
 
-For a more comprehensive list of available features, see the table below.
+For a more comprehensive list of available features, see the **Actions supported** table in this article.
 
 Users hosted on Exchange Online Dedicated (Legacy) must be synchronized to Microsoft Entra ID on Microsoft 365 or Office 365. They can:
 
