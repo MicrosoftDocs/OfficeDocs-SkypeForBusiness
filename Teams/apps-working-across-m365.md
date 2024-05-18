@@ -8,7 +8,7 @@ ms.service: msteams
 ms.subservice: teams-apps
 ms.custom: intro-get-started
 audience: admin
-ms.date: 05/12/2024
+ms.date: 05/17/2024
 ms.collection: 
   - M365-collaboration
   - tier2
@@ -25,10 +25,9 @@ ms.localizationpriority: medium
 # Manage apps that work across Teams, Outlook, and Microsoft 365
 
 > [!IMPORTANT]
-> This feature is **not** available in the admin centers yet. For information on availability, see Message Center post [MC688930](https://lynx.office.net/messagecenter/MC688930). This feature will only be available for organizations that are using [App Centric Management](app-centric-management.md) feature.
+> This feature is **not** available in the admin centers yet. For information on availability, see Message Center post [MC688930](https://lynx.office.net/messagecenter/MC688930) and [Microsoft 365 Roadmap 393931](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=393931). This feature works only if you use [app centric management](app-centric-management.md) feature in your organization.
 
 <!---
-- Is the feature available now or after 60d?
 - Expand on what are hosts. Where to find applicable hosts? - the `Supported on` column on Manage apps page lists the icons of the supported surfaces.
 - Explain that admins can't manage apps specific to a host
 - ACM migration wizard docs
@@ -72,7 +71,24 @@ Link to [Message Center post 393931](https://www.microsoft.com/microsoft-365/roa
 * App block/unblock: Blocking or unblocking apps apply to all applicable app hosts.
 * Unification of existing app settings: The unification of settings happen automatically in three major phases. Unification changes can't be rolled back.
 
-Without this feature, controls to manage Teams apps that work in Outlook and the Microsoft 365 app are available between the [Integrated apps](https://admin.microsoft.com/Adminportal/Home#/Settings/IntegratedApps) page in the Microsoft 365 admin center and the [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page in Teams admin center. This sometimes resulted in different settings for the same app in the two admin centers. With Unified App Management, we'll be consolidating app catalog management into a single platform. You'll be able to manage apps on the Integrated apps page in the Microsoft 365 admin center or in the Teams admin center, and any changes made in either admin centers synchronizes.
+Without this feature, controls to manage Teams apps that work in Outlook and the Microsoft 365 app are available between the [Integrated apps](https://admin.microsoft.com/Adminportal/Home#/Settings/IntegratedApps) page in the Microsoft 365 admin center and the [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page in Teams admin center. This sometimes resulted in different settings for the same app and admin confusion. With unified app management, admins can manage the apps in the applicable admin center and the update synchronizes across all surfaces.
+
+
+
+
+
+
+## Identify apps that work on multiple hosts
+
+Some apps are Teams only and other apps work across multiple. To identify the hubs in which your app works, do one of the following:
+
+* In Teams admin center, on the Manage apps page, see the icons in the **Supported on** column. Each icon represents the applicable host for each app.
+
+   :::image type="content" source="media/tac-supported-column.png" alt-text="Screenshot showing the column that displays icons of supported Microsoft 365 products for each app." lightbox="media/tac-supported-column-large.png":::
+
+* In Microsoft 365 admin center, open the [**Integrated apps**](tbd) > **Available apps**. Locate the product icons.
+
+   :::image type="content" source="media/tac-supported-column.png" alt-text="Screenshot showing the column that displays icons of supported Microsoft 365 products for each app." lightbox="media/tac-supported-column-large.png":::
 
 ## Outcomes of admin actions across admin centers
 
@@ -133,7 +149,7 @@ This rollout happens automatically by the specified date with no admin action re
 
 ## Next steps
 
-* In a few weeks, we'll unify the controls across the portals to make it easy for you to manage apps across all surfaces. The apps will then be consistently available across all supported clients. For more information, see [Message Center post MC688930](tbd).
+* In a few weeks, we'll unify the controls across the portals to make it easy for you to manage apps across all surfaces. The apps will then be consistently available across all supported clients. For more information, see [Message Center post MC688930](https://admin.microsoft.com/Adminportal/Home#/MessageCenter/:/messages/MC688930).
 
 * However, this new feature is available only if you've [migrated to ACM](app-centric-management.md#migrate).
 
