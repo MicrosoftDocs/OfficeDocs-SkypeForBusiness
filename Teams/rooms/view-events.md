@@ -1,10 +1,10 @@
 ---
 title: Viewing Microsoft Teams Rooms events
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 manager: pamgreen
-ms.reviewer: altsou
-ms.date: 03/28/2024
+ms.reviewer: kimmatlock
+ms.date: 05/20/2024
 ms.topic: article
 audience: admin
 appliesto:
