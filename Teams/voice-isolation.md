@@ -74,7 +74,7 @@ Set-CsTeamsMeetingPolicy -Identity <policy name> -VoiceIsolation Enabled
 
 ### Prevent users from using voice isolation
 
-To prevent users with this policy from using voice isolation, use both of the following scripts:
+To prevent users with this policy from using voice isolation, use the following scripts:
 
 ```powershell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -VoiceIsolation Disabled
