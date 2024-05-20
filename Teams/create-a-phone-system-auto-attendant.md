@@ -238,7 +238,7 @@ Once you've added resource accounts, select **Next**.
 
 ## Step 5: Authorized users
 
-**Authorized users** specifies the users who are authorized to make changes to this Auto attendant.  The capabilities that the users have is determined based on the [Teams voice applications policy](./manage-voice-applications-policies.md) that is assigned to the user.
+**Authorized users** specifies the users who are authorized to make changes to this Auto attendant.  The capabilities that the users have are determined based on the [Teams voice applications policy](./manage-voice-applications-policies.md) that is assigned to the user.
 
 To **add a user** to the authorized users:
 
