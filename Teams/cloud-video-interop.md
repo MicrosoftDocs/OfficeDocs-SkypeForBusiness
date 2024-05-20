@@ -122,10 +122,10 @@ You must provide permission consent for the video teleconferencing devices (VTCs
 
 |Name|Application Permission Short Description| Description|
 |---|---|---|
-|Calls.JoinGroupCall.All|Join Group Calls and Meetings as an app (preview)|Allows the app to join group calls and scheduled meetings in your organization, without a signed-in user. The app is joined with the privileges of a directory user to meetings in your tenant.|
+|Calls.JoinGroupCall.All|Join Group Calls and Meetings as an app|Allows the app to join group calls and scheduled meetings in your organization, without a signed-in user. The app is joined with the privileges of a directory user to meetings in your tenant.|
 |Calls.JoinGroupCallasGuest.All|Join Group Calls and Meetings as a guest|Allows the app to anonymously join group calls and scheduled meetings in your organization, without a signed-in user. The app is joined as a guest to meetings in your tenant.|
-|Calls.AccessMedia.All|Access media streams in a call as an app (preview)|Allows the app to get direct access to media streams in a call, without a signed-in user.|
-|OnlineMeetings.Read.All|Read Online Meeting details (preview)|Allows the app to read Online Meeting details in your organization, without a signed-in user.|
+|Calls.AccessMedia.All|Access media streams in a call as an app|Allows the app to get direct access to media streams in a call, without a signed-in user.|
+|OnlineMeetings.Read.All|Read Online Meeting details|Allows the app to read Online Meeting details in your organization, without a signed-in user.|
 
 ### 4. Schedule
 
@@ -190,6 +190,7 @@ Microsoft continues to work with CVI partners to make meetings between Microsoft
 |CY23Q1|Support for Microsoft Teams Premium, "Watermark Feature"|Phase 2: Full Watermark support, CVI Partners will create Watermark overlay with both video and content displayed. **Note:** *at this time Teams meetings only support Watermark for trusted VTCs, i.e., Lobby Bypass must be enabled*|Delivered to CVI Partners|TBD|TBD|Planned|Available|
 |CY23Q2|SIP Guest Join|The ability to join Teams Meetings with VTCs when CVI coordinates aren't present within the invite|Delivered to CVI Partners|TBD|TBD|Available|TBD|
 |CY23Q3|Point-to-Point (P2P) calling between Teams Rooms on Windows and VTCs|Teams Rooms Pro calling feature, which creates the ability to perform bi-directional calling between Teams Rooms on Windows and VTC devices|Delivered to CVI Partners|TBD|TBD|Available|TBD|
+|CY24Q2|Support for Microsoft Teams video retransmission (RTX)|Microsoft Teams now supports video retransmission or RTX. This video packet loss mechanism provides additional media resiliency for call legs between a CVI partner media bot and the Teams calling infrastructure|Delivered to CVI Partners|Available|Available|Available|Available|
 
 *Both BlueJeans and Poly CVI solutions are in maintenance only mode. No new customers are being on-boarded.
 
