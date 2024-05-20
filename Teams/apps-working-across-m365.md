@@ -8,7 +8,7 @@ ms.service: msteams
 ms.subservice: teams-apps
 ms.custom: intro-get-started
 audience: admin
-ms.date: 05/17/2024
+ms.date: 05/21/2024
 ms.collection: 
   - M365-collaboration
   - tier2
@@ -34,30 +34,25 @@ ms.localizationpriority: medium
 
 ## What is unified app management
 
-App developers can create apps that work in not just Teams but also in Outlook and in Microsoft 365 App. App governance becomes easier as you can evaluate an app once and deploy everywhere. Such apps are available in app store and as custom apps. Till now, you manage the same app separately in the following two place:
+App developers can create apps that work in not just Microsoft Teams but also in Microsoft Outlook and in Microsoft 365 App. Such apps are available in app store and as custom apps. You can evaluate an app once and deploy it everywhere if it meets your org requirements. To make app governance easier, we are introducing unified app management feature.
 
-* In the Integrated apps page in Microsoft 365 Admin Center, it has governance controls for Outlook and the Microsoft 365 App surfaces. For more information, see [integrated apps](/microsoft-365/admin/manage/test-and-deploy-microsoft-365-apps). The changes made here affect only Teams apps in Outlook and the Microsoft 365 app.
-* In the Manage apps page in Teams Admin Center, it has governance control for apps for Teams client. The changes you make in the Teams admin center, impact apps in only Teams.
+Till now, you manage the same app separately in the following two place that can lead to potentially conflicting settings for the same app and some admin confusion.
+
+* In the Integrated apps page in Microsoft 365 Admin Center. It has governance controls for Outlook and the Microsoft 365 App surfaces. For more information, see [integrated apps](/microsoft-365/admin/manage/test-and-deploy-microsoft-365-apps). The changes made here affect only Teams apps in Outlook and the Microsoft 365 app.
+* In the Manage apps page in Teams Admin Center. It has governance control for apps for Teams client. The changes you make in the Teams admin center, impact apps in only Teams.
 
 We shall introduce a functionality that allows you to easily manage your app availability across supported clients in a consistent way. Your intent and desired outcomes synchronize across the admin centers to ensure. You don't have to use two different admin center UIs to manage the same app.
 
 > [!IMPORTANT]
-> The feature is available only if you've [migrated to ACM](app-centric-management.md#migrate).
+> The feature is available only if you've [migrated to app centric management](app-centric-management.md#migrate). If your org is using permission policies to manage access to apps, then the unification of admin settings doesn't happen in your org.
 
 ## Understand the impact on your organization
 
-<!--- 
-- Shall we provide a before-after comparison in a table?
---->
-
-* App catalog enhancements: Catalog displays the hosts (Teams, Outlook, or the Microsoft 365), where the apps are available.
+* App catalog: The app catalog now displays the hosts as Teams, Outlook, or the Microsoft 365. Without this feature, you can't quick find out the supported hosts.
 * Organization-wide settings: App availability default settings apply to apps used in Teams, Outlook, and Microsoft 365 app.
-* App deployment: Apps deployed from the Integrated apps page in Microsoft 365 admin center are preinstalled in all applicable hosts for the app. Unlike app installation in the Teams App setup policy, app deployment provides access to the previously installed apps, similar to deploying the app for Outlook and the Microsoft 365. (See more [TODO: reference to MC post on app deployment in Teams])
-* App availability: Managing individual app availability applies to all applicable app hosts.
-* App block/unblock: Blocking or unblocking apps apply to all applicable app hosts.
-* Unification of existing app settings: The unification of settings happen automatically in three major phases. Unification changes can't be rolled back.
-
-Without this feature, controls to manage Teams apps that work in Outlook and the Microsoft 365 app are available between the [Integrated apps](https://admin.microsoft.com/Adminportal/Home#/Settings/IntegratedApps) page in the Microsoft 365 admin center and the [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page in Teams admin center. This sometimes resulted in different settings for the same app and admin confusion. With unified app management, admins can manage the apps in the applicable admin center and the update synchronizes across all surfaces.
+* App deployment: Apps deployed from the Integrated apps page in Microsoft 365 admin center are preinstalled in all applicable hosts for the app. Unlike app installation in the Teams app setup policy, app deployment provides access to the previously installed apps, similar to deploying the app for Outlook and the Microsoft 365.
+* App availability: You can manage the availability of individual apps for its applicable app hosts. Blocking or allowing apps apply to all applicable app hosts.
+* Existing app settings: The unification of settings happen automatically. The changes can't be undone. See [how to prepare](#how-to-prepare-for-the-upcoming-migration).
 
 ## Identify apps that work on multiple hosts
 
@@ -69,7 +64,7 @@ Some apps are Teams only and other apps work across multiple. To identify the hu
 
 * In Microsoft 365 admin center, open the [**Integrated apps**](https://admin.microsoft.com/Adminportal/Home#/Settings/IntegratedApps) > **Available apps**. Locate the product icons.
 
-   :::image type="content" source="media/integrated-apps-filter.png" alt-text="Screenshot showing the column that displays icons of supported Microsoft 365 products for each app." lightbox="media/integrated-apps-filter-large.png":::
+   :::image type="content" source="media/integrated-apps-filter.png" alt-text="Screenshot showing the option to filter the list of apps based on host product." lightbox="media/integrated-apps-filter-large.png":::
 
 ## Outcomes of admin actions across admin centers
 
