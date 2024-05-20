@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 ms.date: 04/04/2024
 manager: pamgreen
-ms.reviewer: tonysmit
+ms.reviewer: kimmatlock
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -14,7 +14,7 @@ appliesto:
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
-  - Tier3
+  - Tier1
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Partners or Customers can manually open an incident through "Record an issue" to ensure accurate reporting of Room health in the Pro Management portal.

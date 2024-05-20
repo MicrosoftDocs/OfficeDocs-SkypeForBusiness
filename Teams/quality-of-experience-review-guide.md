@@ -6,19 +6,21 @@ manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: siunies, gageames
-ms.date: 04/09/2018
+ms.date: 05/06/2024
 audience: admin
 description: Learn how to analyze and manage real-time media performance in Microsoft Teams by using the Call Quality Dashboard (CQD).
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
+  - ContentFreshnessFY24
+  - m365initiative-voice
 f1.keywords:
 - NOCSH
 appliesto: 
   - Microsoft Teams
 ms.custom: 
-  - seo-marvel-mar2020
+  - seo-marvel-mar2020 
 ---
 
 #  Use CQD to manage call and meeting quality in Microsoft Teams 
@@ -120,10 +122,12 @@ Service metrics consist of specific client-based metrics. During each call, the 
 
 The poor stream rate (PSR) represents the organization's overall percentage of streams that have poor quality. This metric is meant to highlight areas where your organization can concentrate effort to have the strongest impact toward reducing this value and improving the user experience, which is why [managed networks](#managed-versus-unmanaged-networks) are the primary focus when looking at PSR. External users are important too, but investigation differs on an organizational basis. Consider providing best practices for external users, and investigate external calls independently from the overall organization.
 
-The actual measurement in CQD varies by workload, but for the purposes of this article, we focus primarily on the _Audio Poor Percentage_ measurement. PSR is made up of the five network metric averages described in the following table. For a stream to be classified as poor, only one metric needs to exceed the defined threshold. CQD provides the "Poor Due To..." measurements to better understand what condition caused the stream to be classified as poor. To learn more, read [Stream classification in CQD](stream-classification-in-call-quality-dashboard.md).
+The actual measurement in CQD varies by workload, but for the purposes of this article, we focus primarily on the _Audio Poor Percentage_ measurement. PSR is made up of the three network metric averages described in the following table. For a stream to be classified as poor, a stream must exceed a packet utilization of 500, and only one metric needs to exceed the defined threshold. CQD provides the "Poor Due To..." measurements to better understand what condition caused the stream to be classified as poor. To learn more, read [Stream classification in CQD](stream-classification-in-call-quality-dashboard.md).
 
 > [!Note]
 > CQD provides the "Poor due to..." measurements to better understand what condition caused the stream to be classified as poor.
+>
+> Although the audio will be marked Poor if any one of the thresholds are broken, this does not mean the audio stream was actually of poor quality, nor does it mean the user perceived a quality issue. The Teams media stack is built to withstand and correct for poor network conditions, and can mitigate considerable network performance degradation in excess of the thresholds above before a drop in quality is perceived by users.
 
 
 ##### Audio poor quality metrics

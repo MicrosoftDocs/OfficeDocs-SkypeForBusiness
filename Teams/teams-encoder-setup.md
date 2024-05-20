@@ -15,7 +15,7 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: This article discusses encoder-based RTMP setup for Microsoft Teams streaming events.
-localization_priority: medium
+ms.localizationpriority: medium
 appliesto: 
   - Microsoft Teams
 ms.custom:

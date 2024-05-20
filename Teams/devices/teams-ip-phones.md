@@ -47,13 +47,14 @@ Beyond the certification period, Microsoft is committed to make efforts to suppo
 
 The following devices are Certified under the Microsoft Teams phones Certification Program:
 
-> The certification end date for Audiocods and Poly Android 9 based Teams audio phones has been extended to October 31, 2024.
+> The certification end date for Poly Android 9 based Teams audio phones has been extended to October 31, 2024.
 
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
-| AudioCodes C470HD | `1.8.293`  |October 31, 2024  | 9 |
-| AudioCodes C435HD    | `1.12.33`     | October 31, 2024 | 9 |
-| AudioCodes C455HD    | `1.14.404`    | October 31, 2024 | 9 |
+| AudioCodes Exp Module supported on C455HD-DBW| 2.1.638| October 4, 2026 | N/A |
+| AudioCodes C470HD | `2.1.87`  |October 4, 2026  | 12 |
+| AudioCodes C435HD    | `2.1.673`     | October 4, 2026 | 12 |
+| AudioCodes C455HD    | `2.1.638`    | October 4, 2026 | 12 |
 | Poly CCX350  | `8.0.1.4670`  | 	October 31, 2024 | 9 |
 | Poly CCX505  | `7.3.1.0811`  | 	October 31, 2024 | 9 |
 | Poly Trio C60, Trio C60 NR, Trio C60 ND | `5.9.3.6155` | October 31, 2024             | 9 |
@@ -237,6 +238,7 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 #### <b> Audiocodes </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications  | Release date|
 |:----------------|:-------------------|:----------------------------|:---------------------------------------------------------------|:----------------------------|
+| RX Panel | `2.4.55` | N/A| Teams client: `1449/1.0.97.2024010401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202402202353.product`| May 16, 2024|
 | RX Panel | `2.2.808` | N/A| Teams client: `1449/1.0.97.2023111003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| February 27, 2024|
 | RX Panel | `2.2.311` | N/A| Teams client: `1449/1.0.97.2023080401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| October 16, 2023|
 
@@ -259,6 +261,8 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 #### <b> Logitech </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications  | Release date|
 |:----------------|:-------------------|:----------------------------|:--------------------------------------------------------------------|:--------------------------------|
+| DockFlex | `1.12.146`| N/A| Teams client: `1449/1.0.97.2024010401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| May 16, 2024|
+| TAP Scheduler | `1.12.181`| N/A| Teams client: `1449/1.0.97.2024010401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| May 16, 2024|
 | DockFlex | `1.10.225`| N/A| Teams client: `1449/1.0.97.2023080401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| February 19, 2024|
 | TAP Scheduler | `1.11.205`| N/A| Teams client: `1449/1.0.97.2023111003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| February 19, 2024|
 | TAP Scheduler | `1.10.129`| N/A| Teams client: `1449/1.0.97.2023080401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| November 30, 2023|

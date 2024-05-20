@@ -83,8 +83,6 @@ You can also use PowerShell to manage voicemail settings as follows:
 
   - **Oof Greeting Follow Automatic Replies Enabled** -  specifies whether to play out-of-office greeting in voicemail deposit scenario when user set automatic replies in Outlook.
 
-  - **Oof Greeting Follow Calendar Enabled** - specifies whether to play out-of-office greeting in voicemail deposit scenario when user set out-of-office in calendar.
-
   - **Default Oof Greeting Prompt Overwrite** -  specifies the text-to-speech greeting that is played in case the user is out-of-office and hasn't recorded an out-of-office  greeting.
 
 - **Call answering rule** - This setting specifies the call answering rule. The rule can be:

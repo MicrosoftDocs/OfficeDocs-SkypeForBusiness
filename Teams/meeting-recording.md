@@ -159,6 +159,12 @@ To enable **`-ExplicitRecordingConsent`** so that any meeting an organizer with 
 Set-CsTeamsMeetingPolicy -Identity <policy name> -ExplicitRecordingConsent Enabled
 ```
 
+### Viewing consent data
+
+There are two ways for you to view consent data. The first way is in the [Teams meeting attendance and engagement report](/microsoftteams/teams-analytics-and-reports/meeting-attendance-report). The second is with the **Added information about meeting participants** filter in the Teams meeting audit logs in Purview. Consent data is in the audit logs regardless of your policy that manages the attendance and engagement report or your users' option for tracking attendance. To learn more about audit logs in Purview, see [Audit log activities](/purview/audit-log-activities#microsoft-teams-activities).
+
+:::image type="content" source="media/audit-rec-small.png" alt-text="Screenshot of Teams meeting audit logs in Purview that show consent data." lightbox="media/audit-rec-expand.png":::
+
 ## Block or allow download of channel meeting recordings
 
 In PowerShell, the `-ChannelRecordingDownload` parameter in [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) controls if channel members can download meeting recordings. This is done by controlling which folder recordings are stored in.
@@ -222,9 +228,9 @@ Migrated recordings from Stream (Classic) don't come with an expiration set on t
 To update the Teams recording and transcription privacy policy URL with a custom link for users in and outside your org, you must use one of the following options:
 
 - The **`-LegalURL`** parameter within the [CsTeamsMeetingConfiguration](/powershell/module/skype/set-csteamsmeetingconfiguration) PowerShell cmdlet.
-- The Teams admin center through **Meeting settings** > **LegalURL**. For more information, see [Teams settings and policies reference](settings-policies-reference.md#email-invitation).
+- The Teams admin center through **Meeting settings** > **Privacy and Security URL**. For more information, see [Teams settings and policies reference](settings-policies-reference.md#email-invitation).
 
-If you don't enter a legal URL in Teams meeting settings or PowerShell, we display the Microsoft Entra ID's privacy policy. For more information on Microsoft Entra ID's privacy policy, see [Add your organization's privacy info using Microsoft Entra ID](/entra/fundamentals/properties-area). If there's no Microsoft Entra ID, we display the Microsoft Privacy policy.
+If you don't enter a privacy and security URL in Teams meeting settings or PowerShell, we display the Microsoft Entra ID's privacy policy. For more information on Microsoft Entra ID's privacy policy, see [Add your organization's privacy info using Microsoft Entra ID](/entra/fundamentals/properties-area). If there's no Microsoft Entra ID, we display the Microsoft Privacy policy.
 
 After you add your privacy policy URL, your URL replaces the default Teams meeting recording and transcription privacy statement.
 

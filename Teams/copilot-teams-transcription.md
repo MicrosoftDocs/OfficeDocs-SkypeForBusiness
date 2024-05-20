@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
 ms.reviewer: elederman
-ms.date: 4/18/2024
+ms.date: 4/19/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -22,6 +22,7 @@ ms.collection:
   - highpri
   - Tier1
   - teams-copilot
+  - magic-ai-copilot
 description: Learn how to manage Copilot admin policies in the Teams admin center. Learn how to manage transcripts and transcription for Copilot Microsoft Teams meetings and events.
 ---
 
@@ -29,9 +30,9 @@ description: Learn how to manage Copilot admin policies in the Teams admin cente
 
 **APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
 
-Copilot for Microsoft Teams meetings and events is an artificial intelligence (AI) tool that can capture important conversation points. Each meeting and webinar participant with a Copilot license can ask prompts that are only visible to them. Participants and organizers can learn things like who said what and where people agree or disagree. Copilot can also recommend follow-up tasks, all in real time during a meeting. Organizers, co-organizers, presenters can use Copilot during town hall events.
+Copilot for Microsoft Teams meetings and events is an artificial intelligence (AI) tool that can capture important conversation points. Each meeting and webinar participant with a Copilot license can ask prompts that are only visible to them. Participants and organizers can learn things like who said what and where people agree or disagree. Copilot can also recommend follow-up tasks, all in real time during a meeting. Organizers, co-organizers, and presenters can use Copilot during town hall events.
 
-There are two ways for users in your organization to use Copilot in meetings:
+There are two ways for users in your organization to use Copilot in meetings and events:
 
 **1. During and after the meeting**<br>
 
@@ -51,7 +52,7 @@ As an admin, you can manage how users in your org use Copilot for Teams meetings
 > Copilot for Teams meetings isn’t available in end-to-end encrypted meetings. For more information on end-to-end encryption, see [Require end-to-end encryption for sensitive Teams meetings](end-to-end-encrypted-meetings.md).
 
 > [!NOTE]
-> Copilot isn’t available for GCC, GCC High, DoD, and EDU.
+> Copilot isn’t available for GCC, GCC High, and DoD.
 
 ## Prerequisites
 
