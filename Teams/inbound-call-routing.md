@@ -6,7 +6,7 @@ manager: pamgreen
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: roykuntz
-ms.date: 05/20/2024
+ms.date: 05/17/2024
 audience: admin
 search.appverid: MET150
 description: Learn how to route inbound PSTN & federated calls in Microsoft Teams.
