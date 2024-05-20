@@ -72,6 +72,12 @@ Configure setting via Teams Admin Center.
    |New Teams as default </br>Rollout for the feature began in early August  2023 | Use this value to make new Teams the default version. Users can switch back to classic Teams using the toggle.|
    |New Teams only (Rolling out mid-February 2024) |Use this value to make new Teams the default version and uninstall classic Teams after a fourteen-day period. Users don't have the option to switch back to classic Teams.|
 
+> [!IMPORTANT]
+> Admins should know that they can always move forward in the steps to new Teams Only from any other point in the rollout schedule, but they can't move backwards in the steps from where they currently are. Some examples:
+>
+> - If a customer is currently in classic Teams default mode, they can go to new Teams default mode, or new Teams Only, by assigning those policy states. However, they can't move back to the AdminDisabled state.
+> - If a customer is currently in new Teams default mode, they can move forward to new Teams Only by assigning that policy state. In this case, they couldn't move back to classic Teams default or AdminDisabled.
+
 In addition to PowerShell, you can also use Teams Admin Center to manage the visibility of the toggle on a per-user basis.
 
 1. Sign in to the [Microsoft Teams admin center](https://admin.teams.microsoft.com).
