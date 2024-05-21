@@ -129,13 +129,11 @@ If your school uses both SDS and manual ingestion, you may want to note the foll
 
 ### Disable manual update of parent contact information 
 
-If your school doesn't want to give educators the capability to manually update parent information, you can disable the same using the following steps: 
-
-An educator can add or update the parents data via manual ingestion using an admin setting `UpdateParentInformation`. The default value for the setting is enabled. However, to disable the setting, the tenant admin should install the latest TPM version > [6.1.0](https://www.powershellgallery.com/packages/MicrosoftTeams/6.1.0).
-
+If your school doesn't want to give educators the capability to manually update parent information, you can disable the same using the following steps.<br> 
+An educator can add or update the parents data via manual ingestion using an admin setting `UpdateParentInformation`. The default value for the setting is enabled. However, to disable the setting, the tenant admin should install the latest TPM version > [6.1.0](https://www.powershellgallery.com/packages/MicrosoftTeams/6.1.0).<br>
 Once the latest TPM version is installed,  
 1. Check if the setting is enabled for you or not, by following these [steps](/powershell/module/teams/get-csteamseducationconfiguration).<br>
-Note the value of the Identity property. It is required when you update the setting. 
+Note the value of the 'Identity' property. It is required when you update the setting. 
 
 2. To update the setting on behalf of your tenant, use this [link](/powershell/module/teams/set-csteamseducationconfiguration) and follow the examples of `UpdateParentInformation` setting.
 
