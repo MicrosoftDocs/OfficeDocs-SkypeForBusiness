@@ -33,6 +33,9 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 
 | Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
+| Audiocodes RXV81 | `2.4.55` | N/A| `1449/1.0.96.2024032804` | `5.0.5484.0`|  `1.0.0.202402202353.product` | May 20, 2024|
+| Audiocodes RX-Pad | `2.4.55` | N/A | `1449/1.0.96.2024032804` | `5.0.5484.0`| `1.0.0.202402202353.product` | May 20, 2024|
+| Audiocodes RXV200 | `2.4.55` | N/A | `1449/1.0.96.2024032804` | `5.0.5484.0`| `1.0.0.202402202353.product` | May 20, 2024|
 | Audiocodes RXV81 | `2.2.808` | N/A| `1449/1.0.97.2023062301` | `5.0.5484.0`|  `1.0.0.202310260109.product` | March 1, 2024|
 | Audiocodes RX-Pad | `2.2.808` | N/A | `1449/1.0.97.2023062301` | `5.0.5484.0`| `1.0.0.202310260109.product` | March 1, 2024|
 | Audiocodes RXV200 | `2.2.808` | N/A | `1449/1.0.97.2023062301` | `5.0.5484.0`| `1.0.0.202310260109.product` | March 1, 2024|
@@ -126,6 +129,8 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 
 | Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
+| Jabra Panacast 50 VBS | `2.8.0-15` |  N/A|  `1449/1.0.96.2024020802` | `5.0.5484.0` | `1.0.0.202402202353.product` | May 20, 2024|
+| Jabra Panacast 50 TC | `2.8.0-15` | N/A | `1449/1.0.96.2024020802` | `5.0.5484.0` | `1.0.0.202402202353.product` | May 20, 2024|
 | Jabra Panacast 50 VBS | `1.17.4-1` |  N/A|  `1449/1.0.96.2023062301` | `5.0.5484.0` | `1.0.0.202306202019.product` | January 30, 2024|
 | Jabra Panacast 50 TC | `1.17.4-1` | N/A | `1449/1.0.96.2023062301` | `5.0.5484.0` | `1.0.0.202306202019.product` | January 30, 2024|
 
@@ -134,6 +139,11 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 
 | Device model  | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
+| Logi Rallybar | `1.12.252` | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | May 15, 2024|
+| Logi Rallybar Mini | `1.12.252` | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | May 15, 2024|
+| Logi RoomMate | `1.12.236`   | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | May 15, 2024|
+| Logi Rallybar Huddle | `1.12.132`   | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | May 15, 2024|
+| Logi TAP IP  | `1.12.183`|  N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | May 15, 2024|
 | Logi Rallybar | `1.11.291` | N/A | `1449/1.0.96.2023120901` | `5.0.5484.0`| `1.0.0.202306202019.product` | Recalled|
 | Logi Rallybar Mini | `1.11.291` | N/A | `1449/1.0.96.2023120901` | `5.0.5484.0`| `1.0.0.202306202019.product` | Recalled|
 | Logi RoomMate | `1.11.232`   | N/A | `1449/1.0.96.2023120901` | `5.0.5484.0`| `1.0.0.202306202019.product` | Recalled|
