@@ -4,7 +4,7 @@ author: lana-chin
 ms.author: v-chinlana
 manager: jtremper
 ms.reviewer: diyu
-ms.date: 02/01/2024
+ms.date: 05/21/2024
 ms.topic: how-to
 audience: admin
 ms.service: msteams
@@ -35,7 +35,7 @@ In Teams, users can get the Updates app from the Teams app store. You can share 
 
 :::image type="content" source="media/manage-updates-home.png" alt-text="Image of the Updates app on Teams desktop and mobile." lightbox="media/manage-updates-home.png":::
 
-Updates comes with both out-of-the-box templates for common business scenarios and the option to create your own requests.
+Updates comes with out-of-the-box templates for common business scenarios and the option to create your own requests.
 
 :::image type="content" source="media/manage-updates-templates.png" alt-text="Screenshot of templates available in the Updates app." lightbox="media/manage-updates-templates.png":::
 
