@@ -3,8 +3,8 @@ title: Viewing Microsoft Teams Rooms events
 ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
-ms.reviewer: altsou
-ms.date: 03/28/2024
+ms.reviewer: kimmatlock
+ms.date: 05/20/2024
 ms.topic: article
 audience: admin
 appliesto:
@@ -38,11 +38,14 @@ Events represent activity of the past like issues that occurred briefly, changes
 
 **Types of events**
 
-|**Event type**|**Source**|**Description**|
-|-----|-----|-----|
-|Poor call detected|Call record|Call analytics detected a poor quality call. [Defined here](/microsoftteams/stream-classification-in-call-quality-dashboard#classifier-definitions)|
+|Event Type|Source|Description|
+| -------- | -------- | -------- |
+|Event Type|Source|Description|
+|Poor Call Detected|Call Record |Call analytics detected poor call quality.  |
+|Report an Issue|Teams Room|When a user in a Teams Room reports an issue from the Teams Rooms device, an end user report feedback event is created in the Teams Rooms Pro Management portal Events feed. This event gives managers the data they need to address the feedback or open a support case with specific logs generated when the user submitted the feedback. Logs will remain on the device for 30 days.  The feature is enabled through the Skype XML setting \<SendFeedbacktoPMP\>True\</SendFeedbacktoPMP\>|
 
-**Flag as unhealthy**
+  ------------------------------------------------------------------------
+  **Flag as unhealthy**
 
 While events are meant to be informative, it's possible to elevate one or more events into a support ticket which will in turn mark the Teams Rooms as unhealthy. This feature is useful if a pattern of events is perceived as problematic and requires further troubleshooting.
 
