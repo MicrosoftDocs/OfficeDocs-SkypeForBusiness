@@ -27,13 +27,9 @@ description: Learn about Microsoft add-on licenses for Microsoft Teams and the c
 
 # Microsoft Teams add-on licenses
 
-## Which capabilities can I get with add-on licenses?
+Add-on licenses give you the flexibility to add capabilities for those users in your organization who need them. For example, you might want to add an Audio Conferencing license so that users can dial in to meetings using their phones. Or, your organization might decide to deploy Teams Phone with PSTN connectivity. This article describes the add-on licenses to Teams.  
 
-Add-on licenses are licenses for specific Microsoft Teams capabilities. They give you the flexibility to add capabilities only for users in your organization who need them. To add a capability, buy one add-on license for each user who will use it.
-
-The add-on licensing options available to you depend on the Microsoft Teams plan you have. To see which voice calling and audio conferencing options are available to you, see the [Which Microsoft capabilities are available with my plan?](#which-microsoft-capabilities-are-available-with-my-plan) section of this article.
-
-Here's a list of Teams add-on licenses and their capabilities that you can add to your Teams subscription.
+The add-on licensing options available to you depend on the Microsoft Teams plan you have. The following table provides an overview of Teams add-on licenses that you can add to your Teams subscription. Typically, you buy one add-on license for each user who will use it.
 
 |License|Description|
 |-------|-----------|
@@ -42,28 +38,28 @@ Here's a list of Teams add-on licenses and their capabilities that you can add t
 | **Teams Phone Standard** |[Teams Phone](../what-is-phone-system-in-office-365.md) is a hosted telephone service that gives you call control and Private Branch Exchange (PBX) capabilities. Teams Phone Standard licenses give you all Teams Phone capabilities like cloud voicemail, call park, call forwarding, auto attendants, call queues, call transfer, and caller ID. <br/> <br/>To learn more about Teams Phone, see [Teams Phone features](../here-s-what-you-get-with-phone-system.md). |
 | **Microsoft Teams Calling Plans** | If your users need to call phone numbers outside your organization, you can purchase [Microsoft Teams Calling Plans](../calling-plans-for-office-365.md) to connect to PSTN phone numbers with Microsoft as your PSTN provider. There are Domestic Calling Plans, International Calling Plans, and Pay-As-You-Go Calling Plans. <br/> <br/> To find out whether Teams Calling Plans is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). |
 | **Communication Credits** | Communication Credits provide a monthly pool of minutes that can be used for PSTN phone calls, if all your Calling Plan minutes get used before the beginning of the next month. If you want toll-free numbers for Audio Conferencing, auto attendants, or call queues, you'll need to [set up Communications Credits](../set-up-communications-credits-for-your-organization.md). |
-| **Audio Conferencing** | Sometimes people in your organization will need to use a phone to call in to a Teams meeting instead of their computer. [Set up Audio Conferencing](../set-up-audio-conferencing-in-teams.md) for users who schedule or lead meetings with attendees who need to call in using a phone. <br/> <br/>To find out whether Audio Conferencing is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). For pricing info, see [Pricing for Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=799762).  <br/> <br/>Organizations can now use a third-party operator for their Audio Conferencing numbers. For more information, see [Plan for Operator Connect Conferencing](../operator-connect-conferencing-plan.md). |
+| **Audio Conferencing** | Sometimes people in your organization will need to use a phone instead of their computer to call in to a Teams meeting. The Audio Conferencing license enables you to set up PSTN conferencing for meetings. Note that Audio Conferencing does not require a Teams Phone license. For users who schedule or lead meetings with attendees who need to call in using a phone, you'll need to [set up Audio Conferencing](../set-up-audio-conferencing-in-teams.md) . <br/> <br/>To find out whether Audio Conferencing is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). For pricing info, see [Pricing for Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=799762).  <br/> <br/>Organizations can now use a third-party operator for their Audio Conferencing numbers. For more information, see [Plan for Operator Connect Conferencing](../operator-connect-conferencing-plan.md). |
 | **Microsoft Teams Rooms** | Microsoft Teams Rooms is an additional Microsoft Teams product that brings video, audio, and content sharing to conference rooms. <br/> <br/>Teams Rooms Basic is a free license for up to 25 rooms that delivers core meeting and management functionality for all Teams Rooms devices. <br/> <br/>Teams Rooms Pro brings enhanced meeting experiences and advanced management and security to help you operate your devices at scale and enable inclusive hybrid meetings. <br/> <br/>For more information, see [Teams Meeting Room Licensing](../rooms/rooms-licensing.md). |
 | **Microsoft Teams Shared Devices** | Many organizations require flexible workplace solutions as they shift to hybrid work scenarios. The Microsoft Teams Shared Devices license is designed to support hybrid work by allowing offices to designate devices as shared devices, including common area phones, Teams displays for hot-desks, and Teams panels for meeting spaces. For more information, see [Microsoft Teams Shared Devices licensing](teams-shared-device-license.md). |
 
-## Which Microsoft capabilities are available with my plan?
 
-Most Microsoft 365 plans allow Teams users to make peer-to-peer calls within your organization using VoIP technology. However, you may want to add different licenses for setting up Teams Phone PBX capabilities and connecting to the PSTN for external calling.
 [!INCLUDE [EEA Teams licensing notice](../includes/eea-teams-licensing.md)]
 
-### Teams Phone with PSTN connectivity
+## Teams Phone with PSTN connectivity
+
+Most Microsoft 365 plans allow Teams users to make peer-to-peer calls within your organization using VoIP technology. However, you may want to add different licenses for setting up Teams Phone PBX capabilities and connecting to the PSTN for external calling.
 
 Teams Phone requires a separate add-on license. For users to make and receive external calls using the PSTN, you'll need to choose a PSTN connectivity option as well. Some PSTN connectivity options require an additional license.
 
-- Teams Phone with Calling Plans - available as a license bundle or as separate licenses:  one for Teams Phone plus an additional Calling Plan license
+- **Teams Phone with Calling Plans** - available as a license bundle or as separate licenses:  one for Teams Phone plus an additional Calling Plan license
 
-- Teams Phone with Operator Connect - 
+- **Teams Phone with Operator Connect** - 
 
-- Teams Phone with Operator Connect for India - 
+- **Teams Phone with Operator Connect for India** - 
 
-- Teams Phone Mobile - 
+- **Teams Phone Mobile** - 
 
-- Direct Routing - 
+- **Direct Routing** - 
 
 The following table...   
 
