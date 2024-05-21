@@ -128,7 +128,7 @@ Schools can allow teachers to update manually the parent contact information cor
     2. Go to [All roles - Microsoft Azure](https://portal.azure.com/#view/Microsoft_AAD_IAM/AllRolesBlade). 
     3. Search for **Global Administrator** or **Teams Administrator**. 
     4. Click the role and select the **Active assignments** tab. A list of all users assigned with the role is displayed.     
-    5. Navigate to the [Users - Microsoft Azure](https://portal.azure.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers) tab and check for all users individually. If any user is disabled, enable them. 
+    5. Navigate to [Users - Microsoft Azure](https://portal.azure.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers) and check for all users individually. If any user is disabled, enable them. 
 
 1. Once the admin approves the request, the teacher can start communicating with parents using the newly updated contact details.
 
