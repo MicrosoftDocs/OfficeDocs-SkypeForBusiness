@@ -38,8 +38,8 @@ Here's a list of Teams add-on licenses and their capabilities that you can add t
 |License|Description|
 |-------|-----------|
 | **Microsoft Teams Premium** | Microsoft Teams Premium is a Teams add-on license that allows organizations with Microsoft 365 subscriptions and Teams licenses to enhance their Teams experience with benefits like more personalized and intelligent meetings, enhanced meeting protection, and advanced management and reporting capabilities. For more information about the Teams Premium add-on license, see [Microsoft Teams Premium licensing](licensing-enhance-teams.md). |
-| **Teams Phone with Calling Plan bundle** | The Teams Phone with Calling Plan license bundles Teams Phone System's PBX capabilities and a Domestic Calling Plan for PSTN connectivity. |
-| **Teams Phone Standard** |[Teams Phone System](../what-is-phone-system-in-office-365.md) is a hosted telephone service that gives you call control and Private Branch Exchange (PBX) capabilities. Teams Phone Standard licenses give you all Teams Phone System capabilities like cloud voicemail, call park, call forwarding, auto attendants, call queues, call transfer, and caller ID. <br/> <br/>To learn more about Phone System, see [Here's what you get with Teams Phone System](../here-s-what-you-get-with-phone-system.md). |
+| **Teams Phone with Calling Plan bundle** | The Teams Phone with Calling Plan license bundles Teams Phone PBX capabilities and a Domestic Calling Plan for  connectivity to the Public Switched Telephone Network (PSTN). |
+| **Teams Phone Standard** |[Teams Phone](../what-is-phone-system-in-office-365.md) is a hosted telephone service that gives you call control and Private Branch Exchange (PBX) capabilities. Teams Phone Standard licenses give you all Teams Phone capabilities like cloud voicemail, call park, call forwarding, auto attendants, call queues, call transfer, and caller ID. <br/> <br/>To learn more about Teams Phone, see [Teams Phone features](../here-s-what-you-get-with-phone-system.md). |
 | **Microsoft Teams Calling Plans** | If your users need to call phone numbers outside your organization, you can purchase [Microsoft Teams Calling Plans](../calling-plans-for-office-365.md) to connect to PSTN phone numbers with Microsoft as your PSTN provider. There are Domestic Calling Plans, International Calling Plans, and Pay-As-You-Go Calling Plans. <br/> <br/> To find out whether Teams Calling Plans is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). |
 | **Communication Credits** | Communication Credits provide a monthly pool of minutes that can be used for PSTN phone calls, if all your Calling Plan minutes get used before the beginning of the next month. If you want toll-free numbers for Audio Conferencing, auto attendants, or call queues, you'll need to [set up Communications Credits](../set-up-communications-credits-for-your-organization.md). |
 | **Audio Conferencing** | Sometimes people in your organization will need to use a phone to call in to a Teams meeting instead of their computer. [Set up Audio Conferencing](../set-up-audio-conferencing-in-teams.md) for users who schedule or lead meetings with attendees who need to call in using a phone. <br/> <br/>To find out whether Audio Conferencing is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). For pricing info, see [Pricing for Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=799762).  <br/> <br/>Organizations can now use a third-party operator for their Audio Conferencing numbers. For more information, see [Plan for Operator Connect Conferencing](../operator-connect-conferencing-plan.md). |
@@ -48,19 +48,30 @@ Here's a list of Teams add-on licenses and their capabilities that you can add t
 
 ## Which Microsoft capabilities are available with my plan?
 
-Most Microsoft 365 plans allow Teams users to make peer-to-peer calls within your organization using VoIP technology. However, you may want to add on different licenses for capabilities like making calls to PSTN numbers or setting up a PBX.
+Most Microsoft 365 plans allow Teams users to make peer-to-peer calls within your organization using VoIP technology. However, you may want to add on different licenses for capabilities like setting up a PBX and PSTN connectivity for external calling.
 
 [!INCLUDE [EEA Teams licensing notice](../includes/eea-teams-licensing.md)]
 
 ### Voice and PSTN connectivity
 
-For users to make outbound calls using the PSTN, they need all the following requirements:
+For users to make and receive external calls using the PSTN, they need the following:
 
-1. Teams
-1. PBX capabilities
-1. PSTN connectivity
+- Teams Phone, which provides PBX capabilities
+- PSTN connectivity
 
 You have three options to acquire Teams, set up PBX capabilities, and connect to the PSTN.
+
+- Teams Phone with Microsoft Calling Plans
+- Teams Phone with another PSTN connectivity option
+
+
+| License | Description | Connect to the PSTN |
+| ------- | ------------- | ------------------- |
+| **For Business subscribers:**<br/> - Teams Essentials with Microsoft Entra ID<br/> - Microsoft 365 Business Basic, Standard, or Premium <br/><br/> **For Enterprise subscribers:**<br/> - Microsoft 365 E3 (no Teams) plus Teams Enterprise<br/> - Microsoft 365 E3 EEA (no Teams) plus Teams EEA<br/> - Microsoft 365 E3<sup>1</sup><br/> - Office 365 E1/E3 (no Teams) plus Teams Enterprise<br/> - Office 365 E1/E3 EEA (no Teams) plus Teams EEA<br/> - Office 365 E1/E3<sup>1</sup><br/> - Teams Enterprise<br/> - Teams EEA<br/><br/> **For Frontline subscribers:**<br/> - Microsoft 365 F1/F3<br/> - Office 365 F3<sup>2</sup><br/><br/> **For other subscribers:**<br/> - Microsoft 365 A3<br/> - Office 365 A1<br/> - Microsoft 365 G3 | This option gives you Teams Phone PBX capabilities and a Microsoft Domestic Calling Plan. <br> <br>If you want all phone number management and billing to be handled by Microsoft, choose one of these options. <br><br> But check to see if the [Teams Phone with Calling Plan license is available in your region](/microsoftteams/calling-plan-overview).|
+|   
+
+
+
 
 | Options | Acquire Teams | Set up PBX capabilities | Connect to the PSTN |
 | ------- | ------------- | ----------------------- | ------------------- |
