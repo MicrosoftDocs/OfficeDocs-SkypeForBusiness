@@ -18,7 +18,7 @@ ms.collection:
 search.appverid: MET150
 f1.keywords: 
   - NOCSH
-localization_priority: Normal
+ms.localizationpriority: Medium
 description: Best practices on shared android device management in Teams. This features Conditional Access, password policy, multifactor authentication advice and more.
 ---
 

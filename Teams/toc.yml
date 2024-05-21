@@ -109,6 +109,8 @@ items:
                   href: teams-classic-client-end-of-availability.md
                 - name: Manually uninstall classic Teams client
                   href: teams-classic-client-uninstall.md
+                - name: Feature differences between desktop and Teams for Web
+                  href: new-teams-desktop-client-features.md
                 - name: Usage report for new Teams client
                   href: new-teams-usage-report.md
             - name: Classic Teams clients
@@ -522,7 +524,7 @@ items:
         - name: Walkie Talkie usage and performance report
           href: teams-analytics-and-reports/walkie-talkie-usage-report.md
         - name: SMS notifications usage report
-          href: /microsoft-365/frontline//sms-notifications-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+          href: /microsoft-365/frontline/sms-notifications-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Usage report for new Teams client
           href: new-teams-usage-report.md
 
@@ -588,6 +590,8 @@ items:
           href: messaging-policies-in-teams.md
         - name: User presence in Teams
           href: presence-admins.md
+        - name: User work location in Teams
+          href: user-work-location-in-teams.md
         - name: Supervised chat for non-educational tenants
           href: supervised-chat-non-edu.md
 
@@ -1222,6 +1226,8 @@ items:
             href: considerations-direct-routing.md
         - name: Configure dynamic emergency calling
           href: configure-dynamic-emergency-calling.md
+        - name: Configure security desk notifications
+          href: emergency-calling-security-desk-notifications.md
         - name: Emergency addresses for remote locations
           href: emergency-calling-dispatchable-location.md
         - name: Manage emergency addresses
@@ -1265,6 +1271,8 @@ items:
               href: set-up-communications-credits-for-your-organization.md
             - name: Add funds and manage Communications Credits
               href: add-funds-and-manage-communications-credits.md
+        - name: Emergency numbers country reference
+          href: emergency-numbers-reference.md
         - name: Microsoft Teams call flows
           href: microsoft-teams-online-call-flows.md
         - name: Contact Center integrations
@@ -1386,12 +1394,16 @@ items:
           href: rooms/enrolling-mtrp-managed-service.md
         - name: Enroll a device into Pro management
           href: rooms/enroll-a-device.md
-        - name: Bring Your Own Device Rooms in Pro Management portal
+        - name: Bring Your Own Device
           href: rooms/bring-your-own-device.md  
         - name: Create a one-time password
           href: rooms/create-otp.md
         - name: Role-based access control
           href: rooms/rooms-pro-rbac.md
+        - name: Bookable Desks
+          href: rooms/bookable-desks.md
+        - name: Connected peripheral information
+          href: rooms/get-peripheral-information.md 
         - name: Monitoring and maintaining Rooms
           href: rooms/managed-meeting-rooms-portal.md
         - name: Signal settings
@@ -1426,33 +1438,59 @@ items:
           href: devices/device-store.md
         - name: Teams certified devices
           href: devices/teams-ip-phones.md
-        - name: Deploy
+        - name: Phones for Teams
+          href: devices/phones-for-teams.md
+        - name: Teams displays
           items:
-            - name: Configure notifications for Mi push
-              href: devices/xiaomi-push-notifications.md
-            - name: Deploy Teams phones and Teams displays using Intune
-              href: devices/phones-displays-deploy.md
+            - name: Overview
+              href: devices/teams-displays.md
             - name: Hot desking Teams Displays
               href: devices/hot-desking-teams-displays.md
+        - name: Teams panels
+          items: 
+            - name: Overview
+              href: devices/overview-teams-panels.md
+            - name: Plan
+              href: devices/teams-panels.md
+            - name: Manage
+              items:
+                - name: Feature management
+                  items:
+                    - name: Use Teams panels
+                      href: devices/use-teams-panels.md
+                    - name: App support on Teams panels  
+                      href: app-support-on-Teams-panels.md
+                    - name: Check-in and room release 
+                      href: devices/check-in-and-room-release.md
+                    - name: Reserve rooms with a QR code
+                      href: devices/reserving-rooms-with-a-qr-code.md
+        - name: SIP gateways
+          items:
+            - name: Plan for SIP Gateway
+              href: sip-gateway-plan.md
+            - name: Configure SIP Gateway
+              href: sip-gateway-configure.md
+        - name: Deploy
+          items:
+            - name: Plan phones and displays deployment
+              href: devices/plan-device-deployment.md
             - name: Set up common area phones
               href: set-up-common-area-phones.md
             - name: Set up a common area mobile phones
               href: devices/common-area-mobile-phones.md
-            - name: SIP Gateway
-              items:
-                - name: Plan for SIP Gateway
-                  href: sip-gateway-plan.md
-                - name: Configure SIP Gateway
-                  href: sip-gateway-configure.md
             - name: Set up auto answer for Teams Android devices
               href: set-up-auto-answer-on-teams-android.md
             - name: Remote provisioning and sign-in
               href: devices/remote-provision-remote-login.md
             - name: Remote sign in and sign out
               href: devices/remote-sign-in-and-sign-out.md
+            - name: Deploy Teams phones and Teams displays using Intune
+              href: devices/phones-displays-deploy.md
             - name: Authentication best practices for Android devices
-              href: devices/authentication-best-practices-for-android-devices.md          
-        - name: Manage and monitor
+              href: devices/authentication-best-practices-for-android-devices.md
+            - name: AOSP device management 
+              href: rooms/android-migration-guide.md
+        - name: Manage
           items:
             - name: Manage your devices in Teams
               href: devices/device-management.md
@@ -1462,57 +1500,36 @@ items:
               href: devices/manage-device-tags.md
             - name: Update your devices remotely
               href: devices/remote-update.md
-            - name: Phones for Teams
-              href: devices/phones-for-teams.md
-            - name: Teams displays
-              href: devices/teams-displays.md
-            - name: Teams panels
-              items: 
-                  - name: Overview
-                    href: devices/overview-teams-panels.md
-                  - name: Plan
-                    href: devices/teams-panels.md
-                  - name: Manage
-                    items:
-                    - name: Feature management
-                      items:
-                      - name: Use Teams panels
-                        href: devices/use-teams-panels.md
-                      - name: App support on Teams panels  
-                        href: app-support-on-Teams-panels.md
-                      - name: Check-in and room release 
-                        href: devices/check-in-and-room-release.md
-                      - name: Reserve rooms with a QR code
-                        href: devices/reserving-rooms-with-a-qr-code.md
-            - name: QoS on Teams devices
-              href: devices/qos-on-teams-devices.md
-            - name: USB audio and video devices
-              href: devices/usb-devices.md
-            - name: RealWear for Teams
-              href: flw-realwear.md
-            - name: Multi-Stream IntelliFrame
-              href: devices/smartvision-admin.md
-            - name: Cloud IntelliFrame
-              href: devices/cloud-intelliframe.md
-            - name: Monitoring
-              items: 
-                  - name: Teams device health monitoring
-                    href: alerts/device-health-status.md 
-                  - name: Teams devices and peripherals
-                    href: teams-device-health.md   
+            - name: Feature management
+              items:
+                - name: QoS on Teams devices
+                  href: devices/qos-on-teams-devices.md
+                - name: USB audio and video devices
+                  href: devices/usb-devices.md
+                - name: RealWear for Teams
+                  href: flw-realwear.md
+                - name: Multi-Stream IntelliFrame
+                  href: devices/smartvision-admin.md
+                - name: Cloud IntelliFrame
+                  href: devices/cloud-intelliframe.md
+        - name: Monitor
+          items: 
+            - name: Teams device health monitoring
+              href: alerts/device-health-status.md
+            - name: Teams devices and peripherals
+              href: teams-device-health.md
     - name: Reference
       items:
         - name: Meeting room devices and solutions
           href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-        - name: Plan phones and displays deployment
-          href: devices/plan-device-deployment.md
+        - name: Configure notifications for Mi push
+          href: devices/xiaomi-push-notifications.md
         - name: Plan management with Azure Monitor
           href: rooms/azure-monitor-plan.md
         - name: Deploy Azure Monitor
           href: rooms/azure-monitor-deploy.md
         - name: Manage devices with Azure Monitor
-          href: rooms/azure-monitor-manage.md       
-              
+          href: rooms/azure-monitor-manage.md    
 - name: Manage apps in Teams
   items: 
     - name: Understand apps in Teams
@@ -1545,9 +1562,9 @@ items:
           href: manage-virtual-appointments-app.md
         - name: Manage the Walkie Talkie app
           href: walkie-talkie.md
-    - name: Manage third-party apps
+    - name: Manage partner apps
       items:
-        - name: Understand third-party apps
+        - name: Understand partner apps
           href: overview-third-party-apps.md
         - name: Know about app testing and validation by Microsoft
           href: overview-of-app-validation.md
