@@ -79,7 +79,7 @@ To migrate, follow these steps:
 
    :::image type="content" source="media/acm-start-prompt.png" alt-text="Screenshot showing the policy page with prompt to migrate to app centric management.":::
 
-1. On the **Set up migration** page, select policies that you want to migrate. The page displays all the policies that have users assigned to them. Select **Next**. Unselected policies can’t be migrated later. It takes some time for policies information to load.
+1. Select policies that you want to migrate. The page displays all the policies that have users assigned to them. Select **Next**. Unselected policies can’t be migrated later.
 
     :::image type="content" source="media/acm-migration-select-policies.png" alt-text="Screenshot showing the app centric management migration UI to select policies."  lightbox="media/acm-migration-select-policies-large.png":::
 
