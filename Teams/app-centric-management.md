@@ -44,7 +44,7 @@ You can manage access to apps for individual users, supported groups, or everyon
 
 Previously, when using permission policies, you determined access to apps using the following three settings:
 
-* Org-wide setting for third party apps: It applies at an org-level and controls if all third party apps are available for every user or not.
+* Org-wide app setting for third party apps: It applies at an org-level and controls if all third party apps are available for every user or not.
 * App status: It applies at an app-level as allow or block and controls if it's available to any user or not.
 * Permission policy: It applies at a user-level and controls if a specific user is permitted to use an app or not.
 
@@ -103,6 +103,8 @@ To migrate, follow these steps:
 
 During migration, you can save or draft the migration progress using the **Finish later** option. Also, you can cancel and delete the saved draft using the **Reset all changes** option.
 
+After migration, your blocked apps continue to remain unavailable to users. Such apps show as unblocked now but are assigned to `No one` in the `Available to` column on the Manage apps page. It means that org user can't use the app, just as you intended before.
+
 ## Add or modify app availability for users
 
 To assign users or groups to an app, follow these steps:
@@ -124,7 +126,7 @@ To assign users or groups to an app, follow these steps:
 > [!NOTE]
 > The apps that you blocked previously, show as unblocked now but assigned to `No one` in the `Available to` column on the Manage apps page. It means that no org user can use the app.
 
-## How app config is preserved and available settings for apps
+## How app availability is preserved and what are the settings for apps
 
 In addition to creating app assignments, you can also control the default app assignments of any new apps. You can control the default app assignments for each app type. For new organizations, the default setting is set to let users install apps by default. For existing organizations, [old settings are mapped to new access settings](#mapping-between-old-permission-policies-and-new-app-assignments).
 
@@ -169,8 +171,8 @@ When your tenant's admin center receives this feature, the following updates are
 |------------------------------------------------|------------------------------------------------|
 |  Global permission policy for Microsoft apps was `Allow all` or Global permission policy for Microsoft apps was `Block an app(s), allow all others`  |  `Allow users install available apps by default` for Microsoft apps is set to on |
 |  Global permission policy for Microsoft apps was `Block all` or Global permission policy for Microsoft apps was `Allow app(s), Block all others` | `Allow users install available apps by default` for Microsoft apps is set to off |
-|  Third party app setting in the Org-wide app settings was set to on; New third party app setting in the org-wide setting was set to on; Global permission policy for third party apps was `Allow all`; or Global permission policy for third party apps was `Block an app(s), allow all others`  |  `Allow users install available apps by default` for third party apps is set to on |
-|  third party app setting in the Org-wide app settings was set to off; New third party app setting in the org-wide setting was set to off; Global permission policy for third party apps was `Block all`; or Global permission policy for third party apps was `Allow app(s), Block all others` | `Allow users install available apps by default` for third party apps is set to off |
+|  Third party app setting in the Org-wide app settings was set to on; New third party app setting in the org-wide app setting was set to on; Global permission policy for third party apps was `Allow all`; or Global permission policy for third party apps was `Block an app(s), allow all others`  |  `Allow users install available apps by default` for third party apps is set to on |
+|  third party app setting in the Org-wide app settings was set to off; New third party app setting in the org-wide app setting was set to off; Global permission policy for third party apps was `Block all`; or Global permission policy for third party apps was `Allow app(s), Block all others` | `Allow users install available apps by default` for third party apps is set to off |
 |  Global permission policy for Custom apps was `Allow all` or Global permission policy for Custom apps was `Block an app(s), allow all others` | `Allow users install available apps by default` for custom apps is set to on |
 |  Global permission policy for custom apps was `Block all` or Global permission policy for custom apps was `Allow app(s), Block all others` | `Allow users install available apps by default` for custom apps is set to off |
 
@@ -183,13 +185,13 @@ When your tenant's admin center receives this feature, the following updates are
 
 ## Considerations and limitations
 
+* After migration, your blocked apps continue to remain unavailable to users. Such apps show as unblocked now but are assigned to `No one` in the `Available to` column on the Manage apps page. It means that no org user can use the app as you intended before.
+
 * After you switch to this feature, you can't access, edit, or use permission policies. Once your organization migrates, you can't revert the migration.
 
 * You can't create assignments to apps in bulk.
 
-* [PowerShell cmdlets](/powershell/module/teams/?view=teams-ps&preserve-view=true) for permission policies aren't supported in organizations that migrate to this feature. App centric management feature replaces permission policies. While the cmdlet seem to succeed, but the changes aren't applied to your org.
-
-* The apps that you blocked previously, show as unblocked now but assigned to `No one` in the `Available to` column on the Manage apps page. It means that no org user can use the app.
+* [PowerShell cmdlets](/powershell/module/teams/?view=teams-ps&preserve-view=true) for permission policies aren't supported in organizations that migrate to this feature. App centric management feature replaces permission policies. While the cmdlet seems to succeed, but the changes aren't applied to your org.
 
 * App availability to nested groups isn't supported in Teams admin center. If you assign an app to a nested group, the app is only available to the direct descendants.
 
