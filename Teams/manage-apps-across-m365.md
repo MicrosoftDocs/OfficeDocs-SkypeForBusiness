@@ -27,11 +27,6 @@ ms.localizationpriority: medium
 > [!IMPORTANT]
 > This feature is **not** available in the admin centers yet. For information on availability, see Message Center post [MC688930](https://lynx.office.net/messagecenter/MC688930) and [Microsoft 365 Roadmap 393931](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=393931). This feature works only if you use [app centric management](app-centric-management.md) feature in your organization.
 
-<!---
-- ACM migration wizard docs
-- TAC deploy docs
---->
-
 ## What is unified app management
 
 App developers can create apps that work in not just Microsoft Teams but also in Microsoft Outlook and in Microsoft 365 App. Such apps are available in app store and as custom apps. You can evaluate an app once and deploy it everywhere if it meets your org requirements. To make app governance easier, we're introducing unified app management feature.
@@ -44,7 +39,7 @@ Until now, you manage the same app separately in the following two place that ca
 We'll introduce a functionality that allows you to easily manage your app availability across supported clients in a consistent way. Your intent and desired outcomes synchronize across the admin centers to ensure. You don't have to use two different admin center UIs to manage the same app.
 
 > [!IMPORTANT]
-> The feature is available only if you've [migrated to app centric management](app-centric-management.md#migrate). If your org is using permission policies to manage access to apps, then the unification of admin settings doesn't happen in your org.
+> The feature is available only if you use [app centric management](app-centric-management.md) functionality to manage access to apps. If your org uses permission policies, then the unification of admin settings doesn't happen in your org.
 
 ## Understand the impact on your organization
 
