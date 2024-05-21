@@ -105,7 +105,7 @@ If guardian is removed from a *Student's* records, any existing chats involving 
 
 ### Manually Update Parent Contact Information 
 
-Schools can allow teachers to update manually the parent contact information corresponding to each child.  
+Schools can allow teachers to update manually the parent contact information corresponding to each child. This feature is enabled by default. However, no teacher’s request goes through unless an admin 'approves' it. If your school doesn't want to use this feature, you can disable it using [PowerShell](#disable-manual-update-of-parent-contact-information).     
 
 1. The teacher opens the parent app for the class inside the class team. 
 
@@ -126,6 +126,19 @@ If your school uses both SDS and manual ingestion, you may want to note the foll
 1. If there's a change in the parent contact details in SDS and is also updated manually, the latest change is considered and stored in the final data storage of the substrate. 
 
 1. If a class teacher or class student is deleted, the parent contact information is **not deleted automatically**. To delete the contact information for parent, see [Delete student information from the Dataverse](#delete-student-information-from-the-dataverse). If a teacher leaves the school, the teacher's pending requests will still persist and can be approved or rejected by the admins. 
+
+### Disable manual update of parent contact information 
+
+If your school doesn't want to give educators the capability to manually update parent information, you can disable the same using the following steps: 
+
+An educator can add or update the parents data via manual ingestion using an admin setting `UpdateParentInformation`. The default value for the setting is enabled. However, to disable the setting, the tenant admin should install the latest TPM version > [6.1.0](https://www.powershellgallery.com/packages/MicrosoftTeams/6.1.0).
+
+Once the latest TPM version is installed,  
+1. Check if the setting is enabled for you or not, by following these [steps](/powershell/module/teams/get-csteamseducationconfiguration).<br>
+Note the value of the Identity property. It is required when you update the setting. 
+
+2. To update the setting on behalf of your tenant, use this [link](/powershell/module/teams/set-csteamseducationconfiguration) and follow the examples of `UpdateParentInformation` setting.
+
 
 #### Delete student information from the Dataverse
 
