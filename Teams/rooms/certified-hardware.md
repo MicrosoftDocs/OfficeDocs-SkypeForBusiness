@@ -170,8 +170,8 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Logitech Rally Bar | `1.2.788` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Neat Bar Pro | `NFD1.20220914.1210` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Neat Bar | `NFF1.20220914.1210` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
-| Neat Pad Touch Console | `NFA1.20230928.0108` | September 3, 2025 | Compatible with Neat Bar Gen 2, Neat Bar & Neat Bar Pro | 10 |
-| Neat Board | `NFC1.20220914.1210` | September 3, 2025 | Small Meeting Room (4.5 m x 4.5 m) | 10 |
+| Neat Pad Touch Console | `NFA1.20240312.0503` | September 3, 2025 | Compatible with Neat Bar Gen 2, Neat Bar, Neat Bar Pro & Neat Board | 10 |
+| Neat Board | `NFC1.20240312.0005` | September 3, 2025 | Small Meeting Room (4.5 m x 4.5 m) | 10 |
 | Neat Board 50 |`NFH1.20230824.0001` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Poly Studio X30 | `4.0.0.100885` | September 3, 2025 | Small meeting room(4.5 m x 4.5 m) | 10 |
 | Poly Studio X50 | `4.0.0.100885` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
@@ -222,6 +222,8 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [:::no-loc text="Crestron Huddly"::: IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400) | 1.02.09.33901 |  |  |
 | Crestron 1Beyond- Crestron Automate VX Plus: [Automate VX Plus (IV-SAM-VXN-1B)](https://www.crestron.com/Products/Workspace-Solutions/Intelligent-Video/1-Beyond-Intelligent-Video/IV-SAM-VXN-1B), [INOGENI (SDI2USB3) converter](https://inogeni.com/product/sdi2usb3/), [AutoTracker (IV-CAMA3-20) presenter tracking camera](https://www.crestron.com/Products/Workspace-Solutions/Intelligent-Video/1-Beyond-Intelligent-Video/IV-CAMA3-20-N-W-1B), [Optical PTZ (IV-CAMPTZ) camera](https://www.crestron.com/Products/Workspace-Solutions/Intelligent-Video/1-Beyond-Intelligent-Video/IV-CAMPTZ-12-W-1B) | Automate VX Plus: Version 5.11.8580.20169 </br> INOGENI SDI1USB3: Version 8.39 </br> IV-CAMA30: Version 5.1.82 </br> IV-CAMPTZ: Version 3.1.20 |  |  |
 | [Crestron 1 Beyond p20 PTZ camera (IV-CAM-P20)](https://www.crestron.com/Products/Workspace-Solutions/Intelligent-Video/1-Beyond-Intelligent-Video/IV-CAM-P20-B) | 1.0.19 |  |  |
+| [Crestron 1 Beyond p12 PTZ camera (IV-CAM-P12)](https://www.crestron.com/Products/Workspace-Solutions/Intelligent-Video/1-Beyond-Intelligent-Video/IV-CAM-P12-B) | 1.0.19 |  |  |
+| [Crestron 1 Beyond i20 PTZ camera (IV-CAM-I20)](https://www.crestron.com/Products/Workspace-Solutions/Intelligent-Video/1-Beyond-Intelligent-Video/IV-CAM-I20-B) | 1.0.22 |  |  |
 | [Crestron 1 Beyond i12 PTZ camera (IV-CAM-I12)](https://www.crestron.com/Products/Workspace-Solutions/Intelligent-Video/1-Beyond-Intelligent-Video/IV-CAM-I12-B) | 1.0.22 |  |  |
 | [Crestron Flex Hub](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Conferencing-Audio/UC-AUDIO-HUB-DR1) + [Crestron Flex Pods](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Conferencing-Audio/UC-AUDIO-POD-B-DR1) | 1.13.0113 |  |  |
 | HP Presence See Camera | 1.0.23.0 |  |  |
