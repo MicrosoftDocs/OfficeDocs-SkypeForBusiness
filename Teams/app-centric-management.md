@@ -97,9 +97,11 @@ To migrate, follow these steps:
 
     :::image type="content" source="media/acm-verify-per-app.png" alt-text="Screenshot showing the option to verify available of for each user and users who receive a particular app."  lightbox="media/acm-verify-per-app-large.png":::
 
-1. On the final review UI, you can see the policies you selected and the Org-wide settings. Org-wide settings are available after migration. Select **Start migration** and follow the prompts.
+1. On the final review UI, you can see the policies you selected and the Org-wide app settings. Org-wide app settings are available after migration. Select **Start migration** and follow the prompts.
 
-    :::image type="content" source="media/acm-migration-review.png" alt-text="Screenshot showing ":::
+    :::image type="content" source="media/acm-migration-review.png" alt-text="Screenshot showing the last UI to review all settings.":::
+
+During migration, you can save or draft the migration progress using the **Finish later** option. Also, you can cancel and delete the saved draft using the **Reset all changes** option.
 
 ## Add or modify app availability for users
 
