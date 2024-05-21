@@ -44,7 +44,7 @@ You can manage access to apps for individual users, supported groups, or everyon
 
 Previously, when using permission policies, you determined access to apps using the following three settings:
 
-* Org-wide setting for third-party apps: It applies at an org-level and controls if all third-party apps are available for every user or not.
+* Org-wide setting for third party apps: It applies at an org-level and controls if all third party apps are available for every user or not.
 * App status: It applies at an app-level as allow or block and controls if it's available to any user or not.
 * Permission policy: It applies at a user-level and controls if a specific user is permitted to use an app or not.
 
@@ -54,13 +54,54 @@ When using this functionality, you determine access to apps using one of the fol
 
 | New option | What is the app availability | How does it map with previous settings |
 |------------|------------------------------|----------------------------------------|
-| `Everyone in the organization` | Available to all org users | Same effect as allowing an app and permission policy allowing all users to use it. |
+| `Everyone` | Available to all org users | Same effect as allowing an app and permission policy allowing all users to use it. |
 | `Specific users or groups` | Only the users and groups that you select can use the app. The supported group types are security groups, Microsoft 365 groups, dynamic user membership groups, nested groups, and the distribution lists. | Same as using policy to restrict use of app to selected users or groups. |
 | `No one` | Not available to any user | Same as a blocked app. |
 
 The method to allow users access to an app changes with this functionality. In the past, to allow access to a user, you'd add the app as an allowed app in a policy and assign that policy to the user. Using this functionality, you just modify the app assignments of an app to let selected users use it. Also, you don't have to create multiple policies for different combinations across allowed apps and permitted users.
 
-## Add or modify app assignments
+## Migrate to app centric management
+
+Previously, we automatically migrated organizations that weren't using any custom policies. Admins can do an on-demand migration if they're using custom policies. Understand the difference between the two types of migration.
+
+| Considerations      | Assisted migration        | Automatic migration                     |
+|---------------------|---------------------------|-----------------------------------------|
+| Who does it         | Administrator             | Microsoft                               |
+| Requirement         | Org uses custom policies  | Org uses only the default global policy |
+| Nature of migration | Guided UI in admin center | Automatic, without admin intervention   |
+| Existing app access | No change                 | No change                               |
+
+To migrate, follow these steps:
+
+1. Log into Teams admin center and access Teams apps > [Permission policies](https://admin.teams.microsoft.com/policies/app-permission) page.
+
+1. Select **Get started**.
+
+   :::image type="content" source="media/acm-start-prompt.png" alt-text="Screenshot showing the policy page with prompt to migrate to app centric management.":::
+
+1. On the **Set up migration** page, select policies that you want to migrate. The page displays all the policies that have users assigned to them. Select **Next**. Unselected policies can’t be migrated later. It takes some time for policies information to load.
+
+    :::image type="content" source="media/acm-migration-select-policies.png" alt-text="Screenshot showing the app centric management migration UI to select policies."  lightbox="media/acm-migration-select-policies-large.png":::
+
+1. Verify the app availability for the users on the next page. In the following three tabs, it shows a list of apps from your Org-wide app settings and the app permission policies that you choose to migrate.
+
+   * Available to everyone: List of apps allowed for everyone in your organization.
+   * Available to specific users and groups: List of apps that are selectively allowed for at least one org user or a supported group.
+   * Available to no one: List of apps that nobody in the org can use.
+
+1. In each tab, you can modify the app availability to one of the [three assignment types](#how-is-app-centric-management-different-than-permission-policy), if necessary. If an app is allowed for users or group, it must be assigned to one or more user or group before you can proceed.
+
+    :::image type="content" source="media/acm-migration-availability.png" alt-text="Screenshot showing three tabs during migration that help you review and modify the app availability.":::
+
+1. You can validate the changes on a per-app or a per-user basis. Select a tab and type the name of the app or the user.
+
+    :::image type="content" source="media/acm-verify-per-app.png" alt-text="Screenshot showing the option to verify available of for each user and users who receive a particular app."  lightbox="media/acm-verify-per-app-large.png":::
+
+1. On the final review UI, you can see the policies you selected and the Org-wide settings. Org-wide settings are available after migration. Select **Start migration** and follow the prompts.
+
+    :::image type="content" source="media/acm-migration-review.png" alt-text="Screenshot showing ":::
+
+## Add or modify app availability for users
 
 To assign users or groups to an app, follow these steps:
 
@@ -126,8 +167,8 @@ When your tenant's admin center receives this feature, the following updates are
 |------------------------------------------------|------------------------------------------------|
 |  Global permission policy for Microsoft apps was `Allow all` or Global permission policy for Microsoft apps was `Block an app(s), allow all others`  |  `Allow users install available apps by default` for Microsoft apps is set to on |
 |  Global permission policy for Microsoft apps was `Block all` or Global permission policy for Microsoft apps was `Allow app(s), Block all others` | `Allow users install available apps by default` for Microsoft apps is set to off |
-|  Third party app setting in the Org-wide app settings was set to on; New third-party app setting in the org-wide setting was set to on; Global permission policy for third party apps was `Allow all`; or Global permission policy for third party apps was `Block an app(s), allow all others`  |  `Allow users install available apps by default` for third party apps is set to on |
-|  Third party app setting in the Org-wide app settings was set to off; New third-party app setting in the org-wide setting was set to off; Global permission policy for third party apps was `Block all`; or Global permission policy for third party apps was `Allow app(s), Block all others` | `Allow users install available apps by default` for third party apps is set to off |
+|  Third party app setting in the Org-wide app settings was set to on; New third party app setting in the org-wide setting was set to on; Global permission policy for third party apps was `Allow all`; or Global permission policy for third party apps was `Block an app(s), allow all others`  |  `Allow users install available apps by default` for third party apps is set to on |
+|  third party app setting in the Org-wide app settings was set to off; New third party app setting in the org-wide setting was set to off; Global permission policy for third party apps was `Block all`; or Global permission policy for third party apps was `Allow app(s), Block all others` | `Allow users install available apps by default` for third party apps is set to off |
 |  Global permission policy for Custom apps was `Allow all` or Global permission policy for Custom apps was `Block an app(s), allow all others` | `Allow users install available apps by default` for custom apps is set to on |
 |  Global permission policy for custom apps was `Block all` or Global permission policy for custom apps was `Allow app(s), Block all others` | `Allow users install available apps by default` for custom apps is set to off |
 
@@ -140,13 +181,15 @@ When your tenant's admin center receives this feature, the following updates are
 
 ## Considerations and limitations
 
-* After you switch to this feature, you can't access, edit, or use permission policies.
+* After you switch to this feature, you can't access, edit, or use permission policies. Once your organization migrates, you can't revert the migration.
 
 * You can't create assignments to apps in bulk.
 
-* [PowerShell cmdlets](/powershell/module/teams/?view=teams-ps&preserve-view=true) for permission policies aren't supported on tenants that migrate to this feature. App centric management feature replaces permission policies. While the cmdlet may seem to succeed, but the changes aren't applied to the tenant.
+* [PowerShell cmdlets](/powershell/module/teams/?view=teams-ps&preserve-view=true) for permission policies aren't supported in organizations that migrate to this feature. App centric management feature replaces permission policies. While the cmdlet seem to succeed, but the changes aren't applied to your org.
 
 * The apps that you blocked previously, show as unblocked now but assigned to `No one` in the `Available to` column on the Manage apps page. It means that no org user can use the app.
+
+* App availability to nested groups isn't supported in Teams admin center. If you assign an app to a nested group, the app is only available to the direct descendants.
 
 ## Related article
 
