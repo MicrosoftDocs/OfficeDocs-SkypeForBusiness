@@ -115,6 +115,21 @@ Schools can allow teachers to update manually the parent contact information cor
 
 1. Global admins and Teams admins are eligible to approve these requests. To check for admin roles, visit [Azure portal](https://ms.portal.azure.com/#view/Microsoft_AAD_IAM/AllRolesBlade). Search for the administrative role you want to check. Select Assignments from the Manage menu to view who are the admins. 
 
+    > [!NOTE]
+    > For an approval request to be created, not just one user, but **all** the Global admins and Teams admins in the tenant should be enabled. For enabled users, you can see the screenshot below. 
+
+    :::image type="content" source="media/enabled-users.png" alt-text="Screenshot of enabled users.":::
+  
+    For more details on the power automate side see [Enable or disable application users.](/power-apps/developer/data-platform/use-single-tenant-server-server-authentication#enable-or-disable-application-users)  
+
+    Use the following steps to enable the Global/Teams administrator:
+
+    1. Open [Azure portal](https://portal.azure.com/). 
+    2. Go to [All roles - Microsoft Azure](https://portal.azure.com/#view/Microsoft_AAD_IAM/AllRolesBlade). 
+    3. Search for **Global Administrator** or **Teams Administrator**. 
+    4. Click the role and select the **Active assignments** tab. A list of all users assigned with the role is displayed.     
+    5. Navigate to the [Users - Microsoft Azure](https://portal.azure.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers) tab and check for all users individually. If any user is disabled, enable them. 
+
 1. Once the admin approves the request, the teacher can start communicating with parents using the newly updated contact details.
 
 Both SDS and manually supplied parent information are stored in the substrate eventually. However, before the parent data approval request submitted by the educator is approved, in the interim, the data will be stored in Approval’s store (Dataverse). 
