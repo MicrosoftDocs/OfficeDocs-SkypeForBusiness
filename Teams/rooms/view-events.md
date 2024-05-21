@@ -41,7 +41,7 @@ Events represent activity of the past like issues that occurred briefly, changes
 |Event Type|Source|Description|
 | -------- | -------- | -------- |
 |Event Type|Source|Description|
-|Poor Call Detected|Call Record |Call analytics detected a poor call quality.  |
+|Poor Call Detected|Call Record |Call analytics detected poor call quality.  |
 |Report an Issue|Teams Room|When a user in a Teams Room reports an issue from the Teams Rooms device, an end user report feedback event is created in the Teams Rooms Pro Management portal Events feed. This event gives managers the data they need to address the feedback or open a support case with specific logs generated when the user submitted the feedback. Logs will remain on the device for 30 days.  The feature is enabled through the Skype XML setting \<SendFeedbacktoPMP\>True\</SendFeedbacktoPMP\>|
 
   ------------------------------------------------------------------------
