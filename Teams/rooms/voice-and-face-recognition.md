@@ -114,19 +114,19 @@ If users leave the organization, the customer data is deleted accordingly with t
 Admins can turn on or off voice and face enrollment for specific users, or groups using the [Team meeting policy](/powershell/module/teams/set-csteamsmeetingpolicy). By default, voice and face enrollment is disabled for all users in the organization, but admins can change this setting using PowerShell:
 
 ```Powershell
-Set-CsTeamsMeetingPolicy -Identity Global -EnrollUserOverride $Enabled or $Disabled 
+Set-CsTeamsMeetingPolicy -Identity Global -EnrollUserOverride Enabled or Disabled 
 ```
 
 To enable or disable voice and face enrollment for specific users, admins can either assign a custom meeting policy to the users or use the following PowerShell cmdlet:
 
 ```Powershell
-Grant-CsTeamsMeetingPolicy -Identity -PolicyName -EnrollUserOverride $Enabled or $Disabled 
+Grant-CsTeamsMeetingPolicy -Identity -PolicyName -EnrollUserOverride Enabled or Disabled 
 ```
 
 Admins can manage how voice and face profiles are used to turn off Voice Isolation for users to enhance noise and voice background reduction admins can switch off voice isolation with PowerShell in the meeting policy.
 
 ```powershell
-  -VoiceIsolation $Enabled or $Disabled
+  -VoiceIsolation Enabled or Disabled
 ```
 
 To prevent recognition of users in meeting rooms, admins can turn off (default) face and voice identification on the Microsoft Teams room account in the meeting policy.

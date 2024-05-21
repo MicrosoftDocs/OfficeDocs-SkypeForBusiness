@@ -109,6 +109,8 @@ items:
                   href: teams-classic-client-end-of-availability.md
                 - name: Manually uninstall classic Teams client
                   href: teams-classic-client-uninstall.md
+                - name: Feature differences between desktop and Teams for Web
+                  href: new-teams-desktop-client-features.md
                 - name: Usage report for new Teams client
                   href: new-teams-usage-report.md
             - name: Classic Teams clients
@@ -522,7 +524,7 @@ items:
         - name: Walkie Talkie usage and performance report
           href: teams-analytics-and-reports/walkie-talkie-usage-report.md
         - name: SMS notifications usage report
-          href: /microsoft-365/frontline//sms-notifications-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+          href: /microsoft-365/frontline/sms-notifications-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Usage report for new Teams client
           href: new-teams-usage-report.md
 
@@ -588,6 +590,8 @@ items:
           href: messaging-policies-in-teams.md
         - name: User presence in Teams
           href: presence-admins.md
+        - name: User work location in Teams
+          href: user-work-location-in-teams.md
         - name: Supervised chat for non-educational tenants
           href: supervised-chat-non-edu.md
 
@@ -1222,6 +1226,8 @@ items:
             href: considerations-direct-routing.md
         - name: Configure dynamic emergency calling
           href: configure-dynamic-emergency-calling.md
+        - name: Configure security desk notifications
+          href: emergency-calling-security-desk-notifications.md
         - name: Emergency addresses for remote locations
           href: emergency-calling-dispatchable-location.md
         - name: Manage emergency addresses
@@ -1388,12 +1394,16 @@ items:
           href: rooms/enrolling-mtrp-managed-service.md
         - name: Enroll a device into Pro management
           href: rooms/enroll-a-device.md
-        - name: Bring Your Own Device Rooms in Pro Management portal
+        - name: Bring Your Own Device
           href: rooms/bring-your-own-device.md  
         - name: Create a one-time password
           href: rooms/create-otp.md
         - name: Role-based access control
           href: rooms/rooms-pro-rbac.md
+        - name: Bookable Desks
+          href: rooms/bookable-desks.md
+        - name: Connected peripheral information
+          href: rooms/get-peripheral-information.md 
         - name: Monitoring and maintaining Rooms
           href: rooms/managed-meeting-rooms-portal.md
         - name: Signal settings
@@ -1477,7 +1487,9 @@ items:
             - name: Deploy Teams phones and Teams displays using Intune
               href: devices/phones-displays-deploy.md
             - name: Authentication best practices for Android devices
-              href: devices/authentication-best-practices-for-android-devices.md          
+              href: devices/authentication-best-practices-for-android-devices.md
+            - name: AOSP device management 
+              href: rooms/android-migration-guide.md
         - name: Manage
           items:
             - name: Manage your devices in Teams
@@ -1517,8 +1529,7 @@ items:
         - name: Deploy Azure Monitor
           href: rooms/azure-monitor-deploy.md
         - name: Manage devices with Azure Monitor
-          href: rooms/azure-monitor-manage.md       
-              
+          href: rooms/azure-monitor-manage.md    
 - name: Manage apps in Teams
   items: 
     - name: Understand apps in Teams
@@ -1551,9 +1562,9 @@ items:
           href: manage-virtual-appointments-app.md
         - name: Manage the Walkie Talkie app
           href: walkie-talkie.md
-    - name: Manage third-party apps
+    - name: Manage partner apps
       items:
-        - name: Understand third-party apps
+        - name: Understand partner apps
           href: overview-third-party-apps.md
         - name: Know about app testing and validation by Microsoft
           href: overview-of-app-validation.md

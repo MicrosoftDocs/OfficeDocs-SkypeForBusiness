@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.topic: article
-ms.date: 01/30/2024
+ms.date: 05/09/2024
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -27,7 +27,7 @@ This article describes the requirements and limitations of using the new Microso
 
 ## Important announcement for classic Teams for VDI
 
-The **classic Teams for VDI** will reach end of service on **October 1, 2024**, and end of availability on **July 1, 2025**. For more information, see: [**End of availability for classic Teams client**](/MicrosoftTeams/teams-classic-client-end-of-availability)
+The **classic Teams for VDI** will reach end of support on **October 1, 2024**, and end of availability on **July 1, 2025**. For more information, see: [**End of availability for classic Teams client**](/MicrosoftTeams/teams-classic-client-end-of-availability)
 
 After that date, users won't be able to use classic Teams but instead be prompted to switch to new Teams. We recommend you update to new Teams today.
 
@@ -239,7 +239,7 @@ Computer Configuration > Administrative Templates > Windows Components > App Pac
 Known limitations:
 
 - Classic Teams on Windows Server 2019 isn't displaying the app switcher toggle if Classic Teams version is lower than 1.6.00.33567
-- New Teams on Windows Server 2019 currently isn't compatible with FSLogix and fails to launch. See [FSLogix known issues](/fslogix/troubleshooting-known-issues) for more details.
+- New Teams on Windows Server 2019 needs [FSLogix 2210 HotFix 4](/fslogix/overview-release-notes#fslogix-2210-hotfix-4-29888427471).
 
 ### Outlook presence integration with New Teams in Windows Server 2019
 
@@ -308,10 +308,16 @@ Make sure these folders and files are persisted for proper Teams functioning.
 The folder "meeting-addin" under TeamsSharedConfig shouldn't be persisted, as this could cause issues with the default meeting coordinates in the meeting templates inserted into Outlook.
 
 >[!Important]
->Customers using FSLogix need to install hotfix [2.9.8784.63912](/fslogix/overview-release-notes#fslogix-2210-hotfix-3-29878463912) in order to guarantee proper integration with the new Teams client in VDI. The hotfix addresses the following issues:
+>Microsoft recommends FSLogix 2210 HotFix 4 ([2.9.8884.27471](/fslogix/overview-release-notes#fslogix-2210-hotfix-4-29888427471)) in order to guarantee proper integration with the new Teams client in VDI. The following issues have been addressed on that release:
 >
->- In non-persistent multiuser environments, the new Teams can become unregistered for some users after a new Teams update
->- During user sign out, new Teams client user data/cache located in %LocalAppData%\Packages\MSTeams_8wekyb3d8bbwe\LocalCache **was not saved** in the FSLogix Profile or ODFC containers.
+>- Windows Server 2019 would sometimes fail to query the provisioned AppX applications for the user during sign-out.
+>- MSIX folders that should not be backed](/fslogix/troubleshooting-appx-issues#non-roamable-folders-not-backed-up) up would be removed during sign-out instead of only removing the contents of those folders.
+>- New Microsoft Teams crashes or fails to start in Windows Server 2019.
+>- New Microsoft Teams would display an error during launch with **The parameter is incorrect**.
+>- New Microsoft Teams would display an error during launch with **Invalid function**.
+>- New Microsoft Teams wouldn't on-demand register during sign-in when using the ODFC container.
+>- New Microsoft Teams wouldn't on-demand register during profile creation and wouldn't register during future sign-ins, despite being installed.
+>- User-based Group Policy settings would persist in the user's profile after the policy setting was removed or set to disabled.
 >
 >*Note:* Customers using Profile and ODFC or just ODFC containers, will still need to add the setting ‘IncludeTeams’ for the new Teams user data/cache to be preserved.
 
@@ -458,7 +464,7 @@ These keys should be then deployed via additional sign in scripts or similar met
 :::image type="content" source="media/new-teams-vdi-meeting-addin.png" alt-text="new Teams meeting add in":::
 
 > [!NOTE]
-> These HKCU regkeys are not needed anymore if you're installing new Teams 24060.2623.2790.8046 or higher, as it bundles TeamsMeetingAddIn.msi version 1.0.24054.1, which has a fix for successful regkeys creation under HKCU.
+> These HKCU regkeys aren't needed anymore if you're installing TeamsMeetingAddIn.msi version 1.0.24054.1 (which is bundled with new Teams 24060.2623.2790.8046 or higher) using the msiexec command previously mentioned in this article, with the ALLUSERS=1 parameter. Version 1.0.24054.1 has a fix for equivalent regkeys creation, but under HKLM\SOFTWARE\Microsoft\Office\Outlook\Addins\TeamsAddin.FastConnect.
 
 ### Troubleshooting new Teams and Outlook integration
 
@@ -532,12 +538,21 @@ Learn more: [Manage accounts and organizations in Microsoft Teams](https://suppo
 - Screen sharing from chat for Azure Virtual Desktops/Windows 365 (This issue is now fixed on RD Client 1.2.5105 and Redirector Service
 [1.50.2402.29001](/azure/virtual-desktop/whats-new-webrtc#updates-for-version-150240229001)).
 - Screen sharing from chat for Citrix when using Workspace app 2311 only.
-- The app switcher toggle isn't shown in new Teams if the virtual machine has the machine-wide classic Teams installed (MSI with ALLUSERS=1). **Note:** This issue is fixed on new Teams version 23320.3021.2567.4799 or higher.
-- msteams_autostart.exe "The parameter is incorrect": In non-persistent environments that use FSLogix (any version) or Citrix Profile Manager profile containers, when new Teams attempts to autostart or a user tries to launch Teams from the Start menu, it throws the error: "The parameter is incorrect." The frequency and reproducibility of the error varies depending on the environment and especially the antivirus software being used (SentinelOne, Palo Alto, Trend Micro, Bitdefender, CrowdStrike, and so on.) and exclusions in place.
+- msteams_autostart.exe "The parameter is incorrect": In non-persistent environments that use FSLogix (any version prior to 2210 HotFix 4) or Citrix Profile Manager profile containers, when new Teams attempts to autostart or a user tries to launch Teams from the Start menu, it throws the error: "The parameter is incorrect." The frequency and reproducibility of the error varies depending on the environment and especially the antivirus software being used (SentinelOne, Palo Alto, Trend Micro, Bitdefender, CrowdStrike, and so on.) and exclusions in place. This issue is now fixed on FSLogix 2210 HotFix 4. Customers facing this issue with Citrix Profile Manager are encouraged to contact Citrix directly.
 - New Teams fails to launch for users logging into non-persistent virtual desktops, or the app is **not** visible in the Start Menu.
   - Admins don't experience this issue - after installing new Teams on the golden image they can launch it successfully.
-  - After sealing the golden image and deploying it at scale (with provisioning tools like Citrix MCS/PVS or VMware Instant-Clones), users log into the virtual machines and click on the new Teams icon, but aren't able to launch the app. The issue is caused by a failed registration of the MSIX package at the user level with different profile management software (FSLogix, Citrix CPM, Ivanti UEM, and so on), even though the staging of the package was successful (the OS stored the package’s contents on the disk in the %ProgramFiles%\WindowsApps directory). This issue can be confirmed by running Get-AppxPackage -name MsTeams for the affected users. Running this code will return an empty output.
+  - After sealing the golden image and deploying it at scale (with provisioning tools like Citrix MCS/PVS or VMware Instant-Clones), users log into the virtual machines and click on the new Teams icon, but aren't able to launch the app. The issue is caused by a failed registration of the MSIX package at the user level with different profile management software (FSLogix prior to 2210 HotFix 4, Citrix CPM 2308 or 2311 **but not on 2402**, Ivanti UEM, and so on), even though the staging of the package was successful (the OS stored the package’s contents on the disk in the %ProgramFiles%\WindowsApps directory). This issue can be confirmed by running Get-AppxPackage -name MsTeams for the affected users. Running this code will return an empty output.
   - If Get-AppxPackage -name MsTeams -allusers is now run from an elevated powershell command window, the output shows that Teams is registered (see line PackageFullName) and the Status is **OK**.
+  - This issue has been fixed in FSLogix 2210 HotFix 4.
+- Teams meetings can't be launched when selecting a link from Outlook. There's an authentication prompt (Access to '{tenant}' tenant is denied) when users attempt to join an **external** meeting. This has been fixed on New Teams 24091.214.2846.1452.
+- The PowerShell window shows after New Teams is provisioned. If the virtual machine's OS has the right KB fixes (see [Deploy the new Microsoft Teams client](#deploy-the-new-microsoft-teams-client), the second bullet in the Notes section), then Admins can delete this registry key and the Powershell window won't show anymore:
+
+ ```powershell
+ Location: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run"
+ Name: TeamsProvisionRunKey
+ ```
+
+ The regkey was added by the teamsbootstrapper.exe version 1.0.2407104 as a workaround for environments lacking those KB fixes.
 
 >[!Note]
 >Microsoft is working on a solution and plan to remove these limitations soon.
@@ -586,4 +601,4 @@ The following features aren't supported in either classic Teams or new Teams.
 - Cross cloud anonymous join in Government Clouds (GCC, GCC High and DoD).
 - **Record video clip** doesn't capture screen share.
 - The call monitor (the small floating window after you minimize the main Teams window) doesn't display video or screen share.
-- Teams calls drop on a local machine if a user launches a virtual desktop from that local machine and logs into Teams (AVD/W365 and VMware only).
+- Teams calls drop on a local machine that has an HID peripheral connected if a user launches a virtual desktop from that local machine and logs into Teams (AVD/W365 and VMware only).

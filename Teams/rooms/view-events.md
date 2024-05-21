@@ -1,7 +1,7 @@
 ---
 title: Viewing Microsoft Teams Rooms events
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 manager: pamgreen
 ms.reviewer: altsou
 ms.date: 03/28/2024
@@ -38,14 +38,9 @@ Events represent activity of the past like issues that occurred briefly, changes
 
 **Types of events**
 
-  ------------------------------------------------------------------------
-  Event type               Source                Description
-  ------------------------ --------------------- -------------------------
-  Poor call detected.       Call record         Call analytics detected a
-                                                 poor quality call (Learn
-                                                 more).
-
-  ------------------------------------------------------------------------
+|**Event type**|**Source**|**Description**|
+|-----|-----|-----|
+|Poor call detected|Call record|Call analytics detected a poor quality call. [Defined here](/microsoftteams/stream-classification-in-call-quality-dashboard#classifier-definitions)|
 
 **Flag as unhealthy**
 

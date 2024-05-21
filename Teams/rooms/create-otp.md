@@ -1,7 +1,7 @@
 ---
 title: Create a one-time password
 ms.author: tonysmit
-author: tonysmit
+author: mstonysmith
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
