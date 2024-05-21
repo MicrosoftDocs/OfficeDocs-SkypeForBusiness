@@ -116,7 +116,7 @@ Callers can say names in the following formats:
 
 Users you want to make available for **Dial By Extension** need to have an extension specified as part of one of the following phone attributes defined in Active Directory (and synchronized via Microsoft Entra Connect) or Microsoft Entra ID. For more information, see [Add users individually or in bulk](/microsoft-365/admin/add-users/add-users).
 
-- TelephoneNumber (AD and Microsoft Entra ID)
+- TelephoneNumber (AD) or BusinessPhone (Microsoft Entra ID)
 - HomePhone (AD)
 - Mobile (AD and Microsoft Entra ID)
 - OtherTelephone (AD)
