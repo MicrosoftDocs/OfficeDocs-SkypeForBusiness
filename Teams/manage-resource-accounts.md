@@ -3,7 +3,7 @@ title: Manage resource accounts for service numbers
 author: mkbond007
 ms.author: mabond
 manager: pamgreen
-ms.reviewer: roykuntz
+ms.reviewer: roykuntz, jastark
 ms.date: 05/21/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
