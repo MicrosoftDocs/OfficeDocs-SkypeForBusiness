@@ -54,7 +54,9 @@ There is no limit on the number of Active Directory users Dial by Name and Dial 
 
 ### Search Considerations
 
-Dial by Name searches the entire organization's directory first before applying any Dial Scope Include or Exclude lists that are configured. If the initial search against the entire directory returns more than 100 users, the Dial Scope lists aren't applied, the search fails, and the caller is told that too many names were found.
+As of late May 2024, Auto Attendant search is a part of the main Address Book search of Microsoft. Exchange Address Book settings affect searches performed via the Auto Attendant service. For example, if some users in your Address Book settings have the property `-HiddenFromAddressListsEnabled = true`, then Auto Attendant search will not return these users. This is similar to the Address Book search experience in Exchange, Teams, and other products. For more information about hiding users from the Address Book, see [Manage address lists in Exchange Online](/exchange/address-books/address-lists/manage-address-lists#hide-recipients-from-address-lists).
+
+Dial by Name searches the entire organization's directory first before it applies any Dial Scope Include or Exclude lists you've configured. If the initial search against the entire directory returns more than 100 users, the Dial Scope lists aren't applied, the search fails, and the caller is told that too many names were found.
 
 ## Dial by Name - Keypad (DTMF) entry
 
