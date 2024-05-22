@@ -149,7 +149,7 @@ To assign Audio Conferencing with Direct Routing for GCC High or DoD licenses to
 
 To see the list of Audio Conferencing numbers of your organization, go to [See a list of Audio Conferencing numbers in Microsoft Teams](see-a-list-of-audio-conferencing-numbers-in-teams.md).
 
-### Step 7: (Optional) Set auto attendant languages for the Audio Conferencing dial-in numbers of you organization
+### Step 7: (Optional) Set auto attendant languages for the Audio Conferencing dial-in numbers of your organization
 
 To change the languages of the Audio Conferencing dial-in numbers of your organization, see [Set auto attendant languages for Audio Conferencing in Microsoft Teams](set-auto-attendant-languages-for-audio-conferencing-in-teams.md).
 
