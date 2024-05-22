@@ -1,10 +1,7 @@
 ---
-title: Microsoft Teams Premium - Overview for administrators
+title: Microsoft Teams Premium - Overview for admins
 author: wlibebe
 ms.author: wlibebe
-title: Microsoft Teams Premium - Overview for admins
-author: DaniEASmith
-ms.author: danismith
 manager: pamgreen
 ms.reviewer: spraveen, margidesai
 ms.date: 05/22/2024
@@ -36,6 +33,8 @@ Teams Premium is an add-on license that provides the following enhancements to T
 - Enhanced meeting experiences for your end users
 - Enhanced security and protection for meetings
 - Enhanced administrative and telemetry support
+
+Teams Premium licenses aren't a replacement for Teams licenses. Users must have both a Teams license and a Teams Premium license for Teams and Teams Premium features to work properly. For details about feature availability and licensing, see Teams Premium licensing.
 
 This article, written for IT Pros and admins who are deploying and configuring Teams Premium, describes the available features and provides links to more detailed documentation.
 
@@ -135,7 +134,6 @@ Teams Premium offers advanced features to enhance your town halls and webinars.
 
 - **[Webinars](#webinars)** provide a two-way interactive virtual event where the presenters deliver information to attendees. This format provides extra control for an organizer over the conversation and participants.
 
-The following sections describe Teams Premium feature enhancements for town halls and webinars. For more information about planning for town halls, webinars, and meetings in general, see [Plan for town halls](plan-town-halls.md), [Plan for webinars](plan-webinars.md), and [Meetings, webinars, and town halls](overview-meetings-webinars-town-halls.md).
 The following sections describe Teams Premium feature enhancements for town halls and webinars. For more information about planning for town halls, webinars, and meetings in general, see [Plan for town halls](plan-town-halls.md), [Plan for webinars](plan-webinars.md), and [Meetings, webinars, and town halls](overview-meetings-webinars-town-halls.md).
 
 ### Town halls
