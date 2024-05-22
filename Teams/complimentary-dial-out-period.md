@@ -39,7 +39,7 @@ The complimentary dial-out is only available in Russia, South Korea, and Taiwan,
 
 ### Complimentary dial out details
 
-For Audio Conferencing customers in Russia, South Korea, and Taiwan, we provide an additional complimentary benefit related to dial out from meetings that licensed Audio Conferencing users create. During this complimentary , Microsoft allows meeting organizers or authorized attendees, as defined in meeting policy settings, to make dial-out calls from within the meeting to non-premium phone numbers in the 44 [Zone A countries and regions](audio-conferencing-zones.md). This benefit is applicable to Audio Conferencing monthly subscription licenses and doesn't extend to Audio Conferencing pay-per-minute licenses.
+For Audio Conferencing customers in Russia, South Korea, and Taiwan, we provide an additional complimentary benefit related to dial out from meetings that licensed Audio Conferencing users create. During this complimentary, Microsoft allows meeting organizers or authorized attendees, as defined in meeting policy settings, to make dial-out calls from within the meeting to non-premium phone numbers in the 44 [Zone A countries and regions](audio-conferencing-zones.md). This benefit is applicable to Audio Conferencing monthly subscription licenses and doesn't extend to Audio Conferencing pay-per-minute licenses.
 
 In addition, there's a 900-minute limit during the complimentary dial out as such:
 
