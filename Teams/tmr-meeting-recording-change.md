@@ -60,7 +60,7 @@ Teams meeting recording files live in OneDrive and SharePoint and are included i
 
 ## Managing captions
 
-Captions help create inclusive content for viewers of all abilities. Closed captions for Teams meeting recordings are available during playback only if the user had transcription turned on at the time of recording. Admins must turn on transcription to ensure their users can record meetings with transcription. To learn more about enabling transcription for your users, see [Admins- Manage transcription and captions for Teams meetings](meeting-transcription-captions.md).
+Captions help create inclusive content for viewers of all abilities. Closed captions for Teams meeting recordings are available during playback only if the user had transcription turned on at the time of recording. You must enable transcription to allow your users to record meetings with transcription. To learn more about enabling transcription for your users, see [Admins- Manage transcription and captions for Teams meetings](meeting-transcription-captions.md).
 
 As an owner, you can hide captions on the meeting recording, although the meeting transcript is available on Teams unless you delete it there.
 
