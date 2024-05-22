@@ -801,7 +801,7 @@ You can use the following PowerShell parameters to manage Virtual appointments f
 - [Set-CsTeamsVirtualAppointmentsPolicy](/powershell/module/teams/set-csteamsvirtualappointmentspolicy)
 - [Grant-CsTeamsVirtualAppointmentsPolicy](/powershell/module/teams/grant-csteamsvirtualappointmentspolicy)
 - [Get-CsTeamsVirtualAppointmentsPolicy](/powershell/module/teams/get-csteamsvirtualappointmentspolicy)
-- [Remove-CsTeamsVirtualAppointmentsPolicy](/powershell/module/teams/removes-csteamsvirtualappointmentspolicy)
+- [Remove-CsTeamsVirtualAppointmentsPolicy](/powershell/module/teams/remove-csteamsvirtualappointmentspolicy)
 
 ### Meeting template policies
 
