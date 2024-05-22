@@ -437,6 +437,8 @@ Meeting policies are used to control what features are available in meetings org
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
 |StreamingAttendeeMode|Enabled|This setting enables view-only mode for meetings that exceed the capacity of the main meeting. Read more about [Teams view-only meeting experience](view-only-meeting-experience.md).|
+|LimitPresenterRolePermissions|False|Reduces presenter role permissions for your tenant. To learn more, see [Limit presenter role permissions for your org](presenter-role-reduction.md).|
+|FeedbackSurveyforAnonymousUsers|Enabled|Determines if anonymous participants receive surveys to provide feedback about their meeting experience. To learn more, see [Manage feedback surveys for anonymous participants in Microsoft Teams meetings](meeting-surveys-anonymous-participants.md).|
 |AttendeeIdentityMasking|Enabled|This setting controls whether meeting and webinar organizers can hide the names and photos of attendees from other attendees in the stage, roster, and chat. For more information, see [Allow meeting and webinar organizers to hide the names of attendees](hide-attendee-names.md).|
 
 ##### Related articles for meeting engagement policies
@@ -533,6 +535,7 @@ Meeting policies are used to control what features are available in meetings org
 |AllowBreakoutRooms|True|This setting enables the Breakout Rooms functionality.|
 |PreferredMeetingProviderForIslandsMode|TeamsAndSfb|Determines the Outlook meeting add-in availability to users on Islands mode. With the default value of `TeamsAndSfb`, users see both the Skype for Business and Teams add-ins. If you set this value to `Teams`, the Skype for Business add-in is removed and only the Teams add-in is shown.|
 |TeamsCameraFarEndPTZMode|Disabled|Read more about how to to configure [Far end camera control (FECC) for pan tilt zoom (PTZ) cameras](meeting-policies-audio-and-video.md#far-end-camera-control-fecc-for-pan-tilt-zoom-ptz-cameras).|
+|VoiceIsolation|Enabled|Controls whether users with this policy can use voice isolation in Teams calls and meetings. To learn more, see [Manage voice isolation for your users' Microsoft Teams calls and meetings](voice-isolation.md).|
 
 ##### Related articles for audio & video meeting policies
 
@@ -622,8 +625,6 @@ Meeting settings allow you to customize meeting email invitations and configure 
 #### Email invitation
 
 **Navigation:** Teams admin center > Meetings > Meeting settings
-
-:::image type="content" source="media/email-inv-tac-small.png" alt-text="Screenshot of Teams meeting settings for email invitations in the Teams admin center." lightbox="media/email-inv-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -819,7 +820,7 @@ Choose who can attend events and customize registration options for webinars.
 
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
-|EventAccessType|None|This setting controls whether your organizers can publish public or in org webinars and town halls.|
+|EventAccessType|None|This setting controls whether your organizers can publish public or in org webinars and town halls.To learn more, see [Manage who can schedule town halls in Microsoft Teams](set-up-town-halls.md) and [Manage who can schedule webinars in Microsoft Teams](set-up-webinars.md).|
 
 ##### Related articles for events policies
 
