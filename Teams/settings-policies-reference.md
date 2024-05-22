@@ -786,7 +786,7 @@ Meeting templates can be used to create meetings that are available to users wit
 - [Require a watermark for sensitive Teams meetings](watermark-meeting-content-video.md)
 - [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
 
-### Virtual appointments
+### Virtual appointments 
 
 You can use the following PowerShell parameters to manage Virtual appointments for your users.
 
