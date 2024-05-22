@@ -1,13 +1,14 @@
 ---
 title: Audio Conferencing Dial-Out/Call Me At minutes
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jenz
+author: jenzamora
 manager: pamgreen
 ms.reviewer: mikedav, oscarr
 ms.date: 04/10/2019
 ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 search.appverid: MET150
 ms.collection: 
   - m365initiative-meetings

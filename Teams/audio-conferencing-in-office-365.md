@@ -1,7 +1,7 @@
 ---
 title: Audio Conferencing in Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jenz
+author: jenzamora
 manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 2/21/2024
@@ -9,6 +9,7 @@ ms.topic: conceptual
 ms.assetid: a5a696c3-d321-4e61-9aad-e3a87041196e
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 ms.collection: 
   - m365initiative-meetings
   - M365-collaboration

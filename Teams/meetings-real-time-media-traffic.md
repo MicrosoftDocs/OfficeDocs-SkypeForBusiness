@@ -1,10 +1,10 @@
 ---
-title: Set how you want to handle real-time media traffic for Teams meetings
-ms.author: wlibebe
-author: wlibebe
+title: Configure QoS settings in the Teams admin center 
+ms.author: crowe
+author: CarolynRowe
 manager: pamgreen
 ms.reviewer: siunies
-ms.date: 11/16/2023
+ms.date: 04/18/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -26,23 +26,21 @@ ms.collection:
 description: Learn how to enable QoS markers and set port ranges for each type of media traffic in Teams meetings.
 ---
 
-# Set how you want to handle real-time media traffic for Teams meetings
+# Configure Quality of Service (QoS) settings in the Teams admin center
 
 <a name="bknetwork"> </a>
 
-If you're using Quality of Service (QoS) to prioritize network traffic, you can enable QoS markers and set port ranges for each type of media traffic. Setting port ranges for different traffic types is only one step in handling real-time media; see [Quality of Service (QoS) in Teams](qos-in-teams.md) for more detail.
+This article is for administrators and IT professionals who are configuring Quality of Service for Microsoft Teams. This article describes how to enable QoS in the Teams admin center.
 
-> [!IMPORTANT]
-> Apple-based systems: The only instance that we know of where Apple-based devices actually set the DSCP value is if all the following conditions are met:
->
-> - iOS.
-> - WiFi network.
-> - Cisco switches.
-> - The network administrator has added the app to the approved list.
->
-> Android-based systems: There are no known limitations.
->
-> If you enable QoS or change settings in the Microsoft Teams admin center for the Teams service, you'll also need to [apply matching settings to all user devices](QoS-in-Teams-clients.md) and all internal network devices to fully implement the changes to QoS in Teams.
+**Before reading this article, be sure to read [Implement Quality of Service in Microsoft Teams](qos-in-teams.md)**, which describes everything you need to know to successfully use QoS with Microsoft Teams:
+
+- QoS concepts, such as QoS queues, DSCP, DSCP markers and tagging, and so on
+- Network readiness considerations
+- Choosing a QoS implementation method
+- Choosing port ranges
+- Validating your implementation
+
+Note: If you enable QoS or change settings in the Microsoft Teams admin center for the Teams service, you'll also need to [apply matching settings to all user devices](QoS-in-Teams-clients.md) and all internal network devices to fully implement the changes to QoS in Teams.
 
 ## Manage QoS markers in the Microsoft Teams admin center
 
@@ -52,34 +50,20 @@ If you're using Quality of Service (QoS) to prioritize network traffic, you can 
 
     ![Screenshot of the network settings for meetings in the admin center.](media/meeting-settings-network.png "Screenshot of the network settings for Teams meetings in the Microsoft Teams admin center")
 
-    - To allow DSCP markings to be used for QoS, turn on **Quality of Service (QoS) markers for real-time media traffic**. You only have the option of using markers or not; you can't set custom markers for each traffic type. See [Select a QoS implementation method](QoS-in-Teams.md#select-a-qos-implementation-method) for more on DSCP markers.
+    - To enable QoS, turn on **Quality of Service (QoS) markers for real-time media traffic**. You can specify whether or not to use markers, but you can't set custom markers for each traffic type. For more information about DSCP markers, see [Select a QoS implementation method](QoS-in-Teams.md#step-2-select-a-qos-implementation-method).
 
         > [!IMPORTANT]
-        > Note that enabling QoS is only performed on the endpoints for tagging packets leaving the client. We still recommend applying matching QoS rules on all internal network devices for incoming traffic.
+        > Enabling QoS is performed only on the endpoints for tagging packets leaving the client. We recommend applying matching QoS rules on all internal network devices for incoming traffic.
 
-        > [!NOTE]
-        > DSCP tagging is typically done via Source Ports and UDP traffic will route to Transport Relay with destination port of 3478 by default. If your company requires tagging on destination ports, please contact support to enable communication to the Transport Relay with UDP ports 3479 (Audio), 3480 (Video), and 3481 (Sharing).
-    - To specify port ranges, next to **Select a port range for each type of real-time media traffic**, select  **Specify port ranges**, and then enter the starting and ending ports for audio, video, and screen sharing. Selecting this option is required to implement QoS.
-        > [!Note]
-        > If **Quality of Service (QoS) markers for real-time media traffic** is on, then you have to manage your port settings. They aren't managed automatically.
+    - If you've enabled Quality of Service, you must manage your port settings. 
+    
+      To specify port ranges, next to **Select a port range for each type of real-time media traffic**, select  **Specify port ranges**, and then enter the starting and ending ports for audio, video, and screen sharing. 
+      
+      Selecting a port range that is too narrow will lead to dropped calls and poor call quality. For more information about choosing port ranges, see [Choose initial port ranges](qos-in-teams.md#step-3-choose-initial-port-ranges-for-each-media-type).
 
-        > [!IMPORTANT]
-        > If you select **Automatically use any available ports**, available ports between 1024 and 65535 are used. Use this option only when not implementing QoS.
-        >
-        > Selecting a port range that is too narrow will lead to dropped calls and poor call quality. The following recommendations should be a bare minimum.
+      The port ranges you assign can't overlap and should be adjacent to each other.
 
-If you're unsure what port ranges to use in your environment, the following settings are a good starting point. To learn more, read [Implement Quality of Service (QoS) in Microsoft Teams](QoS-in-Teams.md). These are the required DSCP markings and the suggested corresponding media port ranges used by both Teams and ExpressRoute.
+      > [!IMPORTANT]
+      > Do not select **Automatically use any available ports** unless you aren't implementing QoS. If you select this option, available ports between 1024 and 65535 are used. 
 
-### Port ranges and DSCP markings
-
-Media traffic type| Client source port range \* |Protocol|DSCP value|DSCP class|
-|:---             |:---                         |:---    |:---      |:---      |
-|Audio            | 50,000–50,019               |TCP/UDP |46        |Expedited Forwarding (EF)|
-|Video            | 50,020–50,039               |TCP/UDP |34        |Assured Forwarding (AF41)|
-|Application/Screen Sharing| 50,040–50,059      |TCP/UDP |18        |Assured Forwarding (AF21)|
-| | | | |
-
-> [!NOTE]
-> The port ranges you assign can't overlap and should be adjacent to each other.
-
-After using QoS for a while, you'll have usage information on the demand for each of these three workloads, and you can choose what changes to make based on your specific needs. [Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md) can help you make those changes.
+After using QoS for a while, you can use use [Call Quality Dashboard](cqd-what-is-call-quality-dashboard.md) to determine if changes are required to your QoS configuration.  

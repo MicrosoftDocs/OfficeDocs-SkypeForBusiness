@@ -111,7 +111,7 @@ Admins can also use a local teams MSIX to provision new Teams. This option minim
 To deploy this installer to a group of computers, or your entire organization, follow these steps:
 
 1. [Download the .exe installer](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409). If you have downloaded this file previously confirm you have the latest version by comparing the properties on each file.
-2. Use [Intune](/mem/intune/fundamentals/what-is-intune), [Microsoft Endpoint Configuration Manager](/configmgr/core/understand/introduction), [Group Policy](/troubleshoot/windows-server/group-policy/use-group-policy-to-install-software), or third-party distribution software, to distribute the installer to your target computers.
+2. Use [Intune](/mem/intune/apps/apps-add-office365), [Microsoft Endpoint Configuration Manager](/configmgr/core/understand/introduction), [Group Policy](/troubleshoot/windows-server/group-policy/use-group-policy-to-install-software), or third-party distribution software, to distribute the installer to your target computers.
 3. Run the installer on each computer.
 
 ##### Gov cloud updates for PC and Mac

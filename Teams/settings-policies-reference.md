@@ -119,7 +119,7 @@ Teams settings are used to control notification, tagging, email integration, and
 
 ##### Related articles for search by name
 
-[Limit who users can see when searching the directory in Teams](teams-scoped-directory-search.md)
+- [Limit who users can see when searching the directory in Teams](teams-scoped-directory-search.md)
 
 #### Safety and communications
 
@@ -131,7 +131,8 @@ Teams settings are used to control notification, tagging, email integration, and
 
 ##### Related articles for safety and communications
 
-[Supervised chats in Microsoft Teams](supervise-chats-edu.md)
+- [Supervised chats for educational tenants](supervise-chats-edu.md)
+- [Supervised chats for non-educational tenants](supervised-chat-non-edu.md)
 
 #### Shared channels
 
@@ -143,7 +144,8 @@ Teams settings are used to control notification, tagging, email integration, and
 
 ##### Related articles for shared channels
 
-[Shared channels in Microsoft Teams](shared-channels.md)
+- [Shared channels in Microsoft Teams](shared-channels.md)
+- [Collaborate with external participants in a shared channel](/microsoft-365/solutions/collaborate-teams-direct-connect)
 
 ### Teams policies
 
@@ -153,6 +155,7 @@ Teams policies are used to control what settings or features are available to us
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
+|Discover private teams|Off|When **On**, users can search for private teams. When they find a private team, they can request to join.|
 |Create private channels|On|When **On**, team owners and members can create private channels that contain a subset of team members.|
 |Create shared channels|On|When **On**, team owners can create shared channels for people within and outside the organization.|
 |Invite external users to shared channels|On|When **On**, owners of a shared channel can invite external people in other Microsoft Entra organizations to join the channel, if Microsoft Entra cross-tenant access settings are configured.|
@@ -163,11 +166,12 @@ Teams policies are used to control what settings or features are available to us
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
 |AllowOrgWideTeamCreation|None|Determines whether a user is allowed to create an org-wide team. Set this value to **True** to allow or **False** to prohibit. Read more on [how organization-wide teams in Microsoft Teams help everyone collaborate](create-an-org-wide-team.md).|
-|EnablePrivateTeamDiscovery|None|Determines whether a user is allowed to discover private teams in suggestions and search results. Set this value to **True** to allow or **False** to prohibit.|
 
 #### Related articles for Teams policies
 
 - [Manage channel policies in Microsoft Teams](teams-policies.md)
+- [Private channels in Microsoft Teams](private-channels)
+- [Shared channels in Microsoft Teams](shared-channels.md)
 - [Set-CsTeamsChannelsPolicy](/powershell/module/teams/set-csteamschannelspolicy)
 
 ### Template policies
@@ -189,11 +193,14 @@ Template policies control what team templates users see when they create a new t
 - Hospital
 - Quality and Safety
 - Retail for Managers
+- Manage Volunteers
+- Frontline Collaboration
 
 #### Related articles for template policies
 
 - [Manage team templates in the admin center](templates-policies.md)
 - [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md)
+- [Create a custom team template in Microsoft Teams](create-a-team-template.md)
 - [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate)
 - [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist)
 
@@ -207,7 +214,7 @@ Update policies are used to manage Teams and Office preview users who can see pr
 
 |Setting | Default | Description |
 |:-----|:-----|:-----|
-Show Teams preview features|On for users in current channel (Preview)|Turns on Teams Public preview features for any user enrolled in Office Current Channel (Preview).|
+|Show Teams preview features|On for users in current channel (Preview)|Turns on Teams Public preview features for any user enrolled in Office Current Channel (Preview).|
 |Use new Teams client|Microsoft controlled| Allows Microsoft to: <br>- Control whether the "Try the new Teams" toggle switch is shown. <br>- Manage the installation of the new Teams client and determine default client behavior based on the rollout schedule.|
 
 You could set the preview policy using the PowerShell `Set-CsTeamsUpdateManagementPolicy` cmdlet with the `-AllowPublicPreview` parameter.
@@ -299,7 +306,7 @@ App setup policies control how apps are made available to a user with the Teams 
 #### Related articles for setup policies
 
 - [Use app setup policies to pin and auto-install apps in Teams](teams-app-setup-policies.md)
-- [Use of Teams apps for external attendees or guest from outside an organization](non-standard-users.md)
+- [Use of Teams apps for external attendees or guest from outside an organization](apps-external-users.md)
 - [Understand Microsoft Teams apps and their capabilities](apps-in-teams.md)
 
 ### Customize app store
@@ -314,7 +321,7 @@ The defaults for all the customization options use Teams app default backgrounds
 
 #### Related articles for customize store
 
-- [Customize your organization's app store in Microsoft Teams](customize-your-app-store.md)
+[Customize your organization's app store in Microsoft Teams](customize-your-app-store.md)
 
 ## Meetings
 
@@ -354,7 +361,7 @@ Manage the audio conferencing toll and toll-free numbers to display in meeting i
 
 #### Related articles for audio conferencing
 
-- [Audio Conferencing policy settings for toll and toll-free numbers](audio-conferencing-toll-free-numbers-policy.md)
+[Audio Conferencing policy settings for toll and toll-free numbers](audio-conferencing-toll-free-numbers-policy.md)
 
 ### Meeting policies
 
@@ -384,7 +391,7 @@ Meeting policies are used to control what features are available in meetings org
 - [Manage who can start instant meetings and schedule meetings](manage-who-can-schedule-meetings.md)
 - [Meetings, webinars, and live events](quick-start-meetings-live-events.md)
 - [Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report)
-- [the Teams Meeting add-in in Outlook](Teams-add-in-for-Outlook.md)
+- [Teams Meeting add-in in Outlook](Teams-add-in-for-Outlook.md)
 
 #### Meeting join & lobby
 
@@ -420,7 +427,7 @@ Meeting policies are used to control what features are available in meetings org
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Meeting chat|On for everyone|Controls which meeting attendees can participate in the meeting chat. When turned off for anonymous participants, they can't read the chat or post messages. Read more about how to [Manage chat in Microsoft Teams meetings](manage-meeting-chat.md)|
+|Meeting chat|On for everyone|Controls which meeting attendees can participate in the meeting chat. When turned off for anonymous participants, they can't read the chat or post messages. Read more about how to [Manage chat in Microsoft Teams meetings](manage-meeting-chat.md).|
 |External meeting chat|On|When this setting is turned on, users in your org can read or write chat messages in Teams meetings that organizations you don't have a trusted relationship with host.|
 |Q&A|On|When **On**, organizers can enable a question and answer experience for their meetings. Read more on [Q&A in Teams Meetings](manage-qna-for-teams.md).|
 |Reactions|On|This setting controls whether users can use live reactions such as Like, Love, Applause, Laugh, and Surprise in Teams meetings.|
@@ -430,13 +437,13 @@ Meeting policies are used to control what features are available in meetings org
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
 |StreamingAttendeeMode|Enabled|This setting enables view-only mode for meetings that exceed the capacity of the main meeting. Read more about [Teams view-only meeting experience](view-only-meeting-experience.md).|
-|AttendeeIdentityMasking|Enabled|This setting controls whether meeting and webinar organizers can hide the names and photos of attendees from other attendees in the stage, roster, and chat. [Allow meeting and webinar organizers to hide the names of attendees](hide-attendee-names.md).|
 |LimitPresenterRolePermissions|False|Reduces presenter role permissions for your tenant. To learn more, see [Limit presenter role permissions for your org](presenter-role-reduction.md).|
 |FeedbackSurveyforAnonymousUsers|Enabled|Determines if anonymous participants receive surveys to provide feedback about their meeting experience. To learn more, see [Manage feedback surveys for anonymous participants in Microsoft Teams meetings](meeting-surveys-anonymous-participants.md).|
+|AttendeeIdentityMasking|Enabled|This setting controls whether meeting and webinar organizers can hide the names and photos of attendees from other attendees in the stage, roster, and chat. For more information, see [Allow meeting and webinar organizers to hide the names of attendees](hide-attendee-names.md).|
 
 ##### Related articles for meeting engagement policies
 
-- [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)
+[Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)
 
 #### Content sharing
 
@@ -483,7 +490,7 @@ Meeting policies are used to control what features are available in meetings org
 |Store recordings outside your country/region|Off|If you want to store meeting recordings outside of your country/region, turn on both this setting and **Meeting recording**. This setting isn't applicable to recordings stored in OneDrive or SharePoint.|
 |Transcription|Off|Controls whether captions and transcription features are available during playback of meeting recordings. The person who started the recording needs this setting turned on for these features to work with their recording.|
 |Live captions|Off, but organizers and co-organizers can turn them on|This setting is a per-user policy and applies during a meeting. This setting controls whether the **Turn on live captions** option is available for the user to turn on and turn off live captions in meetings that the user attends.|
-|Copilot|On with transcript|Controls the default value for Copilot in your organizers’ meeting options.|
+|Copilot|On only with retained transcript|Controls the default value for Copilot in your organizers’ meeting options.|
 
 **PowerShell-only recording & transcription policies**
 
@@ -602,9 +609,9 @@ Meeting settings allow you to customize meeting email invitations and configure 
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Microsoft Azure Government|Off if your tenant isn't in this cloud| When **On**, you can allow meetings between your organization and an organization in Microsoft Azure Government.|
-|Microsoft Azure China|Off if your tenant isn't in this cloud| When **On**, you can allow meetings between your organization and an organization in Microsoft Azure China.|
-|Microsoft Azure Commercial|Off if your tenant isn't in this cloud| When **On**, you can allow meetings between your organization and an organization in Microsoft Azure Commercial.|
+|Microsoft Azure Government|Off (if your tenant isn't in this cloud)| When **On**, you can allow meetings between your organization and an organization in Microsoft Azure Government.|
+|Microsoft Azure China|Off (if your tenant isn't in this cloud)| When **On**, you can allow meetings between your organization and an organization in Microsoft Azure China.|
+|Microsoft Azure Commercial|Off (if your tenant isn't in this cloud)| When **On**, you can allow meetings between your organization and an organization in Microsoft Azure Commercial.|
 |Add with tenant ID |None|Add the tenant ID of the organization you want to connect to.|
 |Add with tenant FQDN |None|Add the tenant FQDN of the organization you want to connect to.|
 |Inbound connections|Off|When **On**, users from another organization in a different cloud environment can join meetings hosted by your organization.|
@@ -612,7 +619,8 @@ Meeting settings allow you to customize meeting email invitations and configure 
 
 ##### Related articles for cross-cloud meetings
 
-[Meet with people in other Microsoft 365 cloud environments](cross-cloud-meetings.md)
+- [Meet with people in other Microsoft 365 cloud environments](cross-cloud-meetings.md)
+- [Configure Microsoft cloud settings for B2B collaboration](/entra/external-id/cross-cloud-settings)
 
 #### Email invitation
 

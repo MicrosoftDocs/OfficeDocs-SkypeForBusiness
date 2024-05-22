@@ -58,7 +58,6 @@ The URL Preview service automatically generates a preview snippet and attaches u
 ## Related articles
 
 - [Overview of policy controls for Teams](policy-control-overview.md)
-- [Privacy and Microsoft Teams](teams-privacy.md)
 - [Overview of optional connected experiences in Office](/deployoffice/privacy/optional-connected-experiences)
 - [Required service data for Office](/deployoffice/privacy/required-service-data)
 - [Account Privacy Settings](https://support.microsoft.com/office/3e7bc183-bf52-4fd0-8e6b-78978f7f121b)

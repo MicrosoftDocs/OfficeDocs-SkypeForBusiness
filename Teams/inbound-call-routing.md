@@ -5,8 +5,8 @@ ms.author: mabond
 manager: pamgreen
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: jenstr
-ms.date: 06/28/2023
+ms.reviewer: roykuntz, jastark
+ms.date: 05/17/2024
 audience: admin
 search.appverid: MET150
 description: Learn how to route inbound PSTN & federated calls in Microsoft Teams.
@@ -15,6 +15,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - Tier1
+  - ContentFreshnessFY24
 f1.keywords:
 - CSH
 ms.custom: 
@@ -37,7 +38,7 @@ Calls that come from the PSTN or are federated can be routed in the following wa
 - **Use default settings** The call is routed using your default inbound call routing settings. This is the default setting for PSTN and federated calls.
 - **Use unanswered settings** The call is routed according to the unanswered call forwarding settings set for that user.
 - **Send to voicemail** The call is routed directly to voicemail and isn't shown to the user. If the called user doesn't have voicemail enabled, the call will be disconnected. For more information on voicemail, see [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
-- **Let users decide** (PSTN calls only) The call is routed as **Use default settings**.
+- **Let users decide** (PSTN calls only) Users can determine their PSTN call routing choice from call settings in the Teams app.
 
 For information on busy options, see [Configure busy options](#configure-busy-options).
 
