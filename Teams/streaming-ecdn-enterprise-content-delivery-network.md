@@ -14,7 +14,7 @@ ms.reviewer: gaurav.chawla
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-localization_priority: medium
+ms.localizationpriority: medium
 appliesto: 
   - Microsoft Teams
 ms.custom:
@@ -103,8 +103,8 @@ Microsoft eCDN solution is the default for town hall organizers with a Teams Pre
 
 |Teams admin center policy option|Parameter value in PowerShell| Behavior|
 |---------|---------|---------------|
-|On|Enabled| **This is the default value.** Premium town hall organizers with this policy use the Microsoft eCDN.|
-|Off|Disabled| Premium town hall organizers with this policy use your chosen partner eCDN solution. These organizers might not be able use some future town hall features.|
+|On|$true| **This is the default value.** Premium town hall organizers with this policy use the Microsoft eCDN.|
+|Off|$false| Premium town hall organizers with this policy use your chosen partner eCDN solution. These organizers might not be able use some future town hall features.|
 
 ### Using the Teams admin center
 
@@ -124,7 +124,7 @@ To manage eCDN for Premium town halls, use the **`-UseMicrosoftECDN`** parameter
 To allow Premium town hall organizers to use a partner eCDN solution, use the following script:
 
 ```powershell
-Set-CsTeamsEventsPolicy -Identity <policy name> -UseMicrosoftECDN  Disabled
+Set-CsTeamsEventsPolicy -Identity <policy name> -UseMicrosoftECDN $false
 ```
 
 ## Configure Teams production type events through Teams and Yammer for your eCDN solution
@@ -210,6 +210,6 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName ramp -SdnRuntimeConfiguration "{Configuration provided by RAMP}"
 ```
 
-For more information, see [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps&preserve-view=true).
+For more information, see [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/teams/set-csteamsmeetingbroadcastconfiguration).
 > [!NOTE]
 > Your chosen eCDN solution is subject to the selected 3rd party provider’s terms of service and privacy policy, which will govern your use of the eCDN provider’s solution. Your use of the eCDN provider’s solution will not be subject to the Microsoft volume licensing terms or Online Services Terms. If you don't agree to the 3rd party provider’s terms, then don't enable the eCDN solution in Microsoft Teams.

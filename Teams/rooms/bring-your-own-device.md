@@ -1,6 +1,6 @@
 ---
 title: Bring Your Own Device Rooms in Pro Management Portal
-author: tonysmit
+author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.date: 01/29/2024
@@ -12,7 +12,7 @@ audience: Admin
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
-  - Tier3
+  - Tier1
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium

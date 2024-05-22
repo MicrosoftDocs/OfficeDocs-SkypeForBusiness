@@ -48,7 +48,7 @@ Policies are implemented in one of the following ways:
 
 This video shows the steps to create and assign a custom meeting policy to a user (or users).
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53Wv0?autoplay=false]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1c7DS?autoplay=false]
 
 ## Edit a meeting or event policy
 
@@ -64,7 +64,7 @@ You can edit the global policy and any custom policies that you create.
 
 This video shows the steps to edit an organizational-wide default meeting policy.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53MoG?autoplay=false]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1ca7L?autoplay=false]
 
 ## Assign a meeting or event policy to users
 

@@ -54,14 +54,13 @@ To move a user to on-premises using Move-CsUser:
 - Specify the user to move using the Identity parameter.
 - Specify the -Target parameter with the fully qualified domain name of the desired on-premises pool that will host the user.
 - If you don't have one account with sufficient permissions in both on-premises and the cloud service (Microsoft 365), use the -credential parameter to supply an account with sufficient permissions in Microsoft 365.
-- If the account with permissions in Microsoft 365 doesn't end in “on.microsoft.com”, you must specify the -HostedMigrationOverrideUrl parameter, with the correct value as described in [Required administrative credentials](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
+- You must have sufficient privileges in both the on-premises environment and the cloud service (Microsoft 365), as described in [Required administrative credentials](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
 
 The following cmdlet sequence can be used to move a user to Skype for Business Server, and assumes the Microsoft 365 credential is a separate account and supplied as input for the Get-Credential prompt.
 
 ```PowerShell
 $cred=Get-Credential
-$url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
-Move-CsUser -Identity username@contoso.com -Target pool.corp.contoso.com -Credential $cred -HostedMigrationOverrideUrl $url
+Move-CsUser -Identity username@contoso.com -Target pool.corp.contoso.com -Credential $cred
 ```
 
 ### Move users with the Skype for Business Server Control Panel

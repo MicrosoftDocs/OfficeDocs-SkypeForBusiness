@@ -2,13 +2,13 @@
 title: Know about apps in Microsoft Teams
 description: Learn about apps and decide what apps to allow in Teams based on your organization's profile and business requirements.
 ms.topic: conceptual
-author: ashishguptaiitb
+author: lkueter
 ms.author: guptaashish
 manager: prkosh
 audience: admin
 ms.service: msteams
 ms.subservice: teams-apps
-ms.date: 06/27/2023
+ms.date: 05/03/2024
 ms.reviewer: mhayrapetyan
 ms.collection: 
   - M365-collaboration
@@ -28,9 +28,9 @@ Apps in Teams help users bring together their workplace tools and services and c
 
 * Users using a pinned Calendar app in Teams to collaborate quickly with others
 * An app with bots functionality informing users of the quality of a web service in a Teams channel
-* An app to share and assign tasks to various users in a channel.
+* An app to share and assign tasks to various users in a channel
 
-Microsoft Teams apps are just like web-based SaaS apps that don't need to be deployed locally, work only in the scope that's allowed, and reads the specified organization data only after an admin's consent. Adding an app to Teams client by your users doesn't require any installation, say of a binary file. This article helps you understand the types of apps and where from your users access those apps.
+Microsoft Teams apps are just like web-based SaaS apps that don't need to be deployed locally, work only in the allowed scope, and reads the specified organization data only after an admin's consent. Adding an app to Teams client by your users doesn't require any installation, say of a binary file. This article helps you understand the types of apps and where from your users access those apps.
 
 As an admin, you set an app governance process that balances wide-ranging requirements of users along with your organization's IT policies, standards, and risk-profiles.
 
@@ -42,7 +42,7 @@ The different types of apps that your users can use in Teams are:
 
 * [Core apps that are part of Teams](#core-apps).
 * Other [apps created by Microsoft](#apps-created-by-microsoft).
-* [Third-party apps](#third-party-apps-created-by-independent-app-developers) created by partners (validated by Microsoft).
+* [Partner apps](#partner-apps-created-by-independent-app-developers) created by partners (validated by Microsoft).
 * [Custom apps](#custom-apps-created-within-an-organization-for-internal-use) created by your own organization.
 
 > [!NOTE]
@@ -60,15 +60,15 @@ Microsoft provides [these apps](#list-of-apps-created-by-microsoft) to improve p
 
 :::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Screenshot showing a list of Microsoft apps in Teams admin center." lightbox="media/microsoft-apps-in-tac2.png":::
 
-### Third-party apps created by independent app developers
+### Partner apps created by independent app developers
 
-In addition to Microsoft-provided apps, you can use third-party apps. Microsoft rigorously validates the functionality and security of all of these apps. Elaborate manual and automated tests are executed before making these apps available in Teams store and many tests continue at a regular cadence even after an app is published live. To understand the benefits of app validation, see [validation of third-party apps](overview-of-app-validation.md). Some of the apps subscribe to the [Microsoft compliance program](overview-of-app-certification.md) to undergo multiple tiers of further checks beyond validation. See an [Overview of third-party apps](overview-third-party-apps.md).
+In addition to Microsoft-provided apps, you can use partner apps. Microsoft rigorously validates the functionality and security of all of these apps. Elaborate manual and automated tests are executed before making these apps available in Teams store, and many tests continue at a regular cadence even after an app is published live. To understand the benefits of app validation, see [validation of partner apps](overview-of-app-validation.md). Some of the apps subscribe to the [Microsoft compliance program](overview-of-app-certification.md) to undergo multiple tiers of further checks beyond validation. See an [Overview of partner apps](overview-third-party-apps.md).
 
-:::image type="content" source="media/3p-apps-in-teams.png" alt-text="Screenshot of an example of third-party apps in the Teams store.":::
+:::image type="content" source="media/3p-apps-in-teams.png" alt-text="Screenshot of an example of partner apps in the Teams store.":::
 
 ### Custom apps created within an organization for internal use
 
-Apps created by developers in your organization are called custom apps (or Line of Business apps). Your organization may commission the creation of custom apps for org-specific requirements. You have the control to allow or block such apps for entire organization or for specific users. Developers in your organization can build custom low-code solutions by using Teams integration with [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions).
+Apps created by developers in your organization are called custom apps (or Line of Business apps). Your organization might commission the creation of custom apps for org-specific requirements. You have the control to allow or block such apps for entire organization or for specific users. Developers in your organization can build custom low-code solutions by using Teams integration with [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions).
 
 After an admin allows the use of custom apps, users can find such apps by selecting **Built for your org** in the left navigation of Teams store.
 
@@ -105,7 +105,7 @@ A user can add and use an app only when an admin allows the app and the app is m
 
 ## Teams apps that work across Microsoft 365
 
-App developers can enhance their Microsoft Teams apps to work in Outlook and in Microsoft 365 App (formerly known as Office.com). Developers can create such apps either as a third-party app available on the Store or a custom app created for a specific organization. The users can then use the same app in Teams, in Microsoft Outlook and Microsoft 365 App.
+App developers can enhance their Microsoft Teams apps to work in Outlook and in Microsoft 365 App (formerly known as Office.com). Developers can create such apps either as a partner app available on the Store or a custom app created for a specific organization. The users can then use the same app in Teams, in Microsoft Outlook and Microsoft 365 App.
 
 To know more about governing such apps, see [Integrated apps in Microsoft 365 admin center](/microsoft-365/admin/manage/test-and-deploy-microsoft-365-apps?view=o365-worldwide&preserve-view=true).
 
@@ -163,7 +163,7 @@ The following apps are provided by Microsoft and are generally available:
 * Inspection
 * Issue reporting
 * Lists
-* M365 Chat
+* Microsoft 365 Chat
 * Mesh
 * Power Virtual Agents
 * Milestones

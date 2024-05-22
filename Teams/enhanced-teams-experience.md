@@ -1,4 +1,7 @@
 ---
+title: Microsoft Teams Premium - Overview for administrators
+author: wlibebe
+ms.author: wlibebe
 title: Microsoft Teams Premium - Overview for admins
 author: DaniEASmith
 ms.author: danismith
@@ -133,6 +136,7 @@ Teams Premium offers advanced features to enhance your town halls and webinars.
 - **[Webinars](#webinars)** provide a two-way interactive virtual event where the presenters deliver information to attendees. This format provides extra control for an organizer over the conversation and participants.
 
 The following sections describe Teams Premium feature enhancements for town halls and webinars. For more information about planning for town halls, webinars, and meetings in general, see [Plan for town halls](plan-town-halls.md), [Plan for webinars](plan-webinars.md), and [Meetings, webinars, and town halls](overview-meetings-webinars-town-halls.md).
+The following sections describe Teams Premium feature enhancements for town halls and webinars. For more information about planning for town halls, webinars, and meetings in general, see [Plan for town halls](plan-town-halls.md), [Plan for webinars](plan-webinars.md), and [Meetings, webinars, and town halls](overview-meetings-webinars-town-halls.md).
 
 ### Town halls
 
@@ -234,3 +238,6 @@ You can find more resources here:
 - [Teams Premium deployment guide](https://aka.ms/TeamsPremiumDeployment)
 - [Teams Premium user guide](https://adoption.microsoft.com/files/microsoft-teams/Microsoft-Teams-Premium-user-guide.pptx)
 - [Microsoft Teams Premium blog](https://www.microsoft.com/en-us/microsoft-365/blog/2023/02/01/microsoft-teams-premium-cut-costs-and-add-ai-powered-productivity)
+
+> [!TIP]
+> As a companion to this article, we recommend using the [Teams Premium Advanced Deployment Guide](https://go.microsoft.com/fwlink/?linkid=2264339) when signed in to the Microsoft 365 admin center. This guide customizes your experience based on your environment. To review best practices without signing in and activating automated setup features, go to the [Microsoft 365 setup portal](https://go.microsoft.com/fwlink/?linkid=2263487).

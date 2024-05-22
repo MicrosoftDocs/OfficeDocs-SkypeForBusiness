@@ -37,7 +37,7 @@ For information about each client's capabilities on different platforms, see [Te
 ## Desktop clients
 
 >[!Important]
->The new Microsoft Teams desktop client is now available. The system requirements are different. For more information, see [The new Microsoft Teams desktop client](new-teams-desktop-admin.md)
+>The new Microsoft Teams desktop client is now available. The system requirements are different. For more information, see [The new Microsoft Teams desktop client](new-teams-desktop-admin.md).
 
 The classic Teams desktop client is available as a standalone application and as part of [Microsoft 365 Apps for enterprise](/deployoffice/teams-install) for the following operating systems:
 
@@ -67,7 +67,7 @@ Teams on Windows provides downloadable MSI installers in [32-bit](https://teams.
 Teams requires .NET Framework 4.5 or later. If .NET Framework 4.5 or later isn't installed, the Teams installer will offer to install for you.
 
 > [!NOTE]
-> Teams isn't supported in [Windows Kiosk Mode](/windows/configuration/kiosk-prepare).
+> Teams isn't supported in [Assigned Access](/windows/configuration/assigned-access/overview) mode (formerly known as Windows Kiosk mode).
 
 The Windows client is deployed to the AppData folder located in the user’s profile. Deploying to the user’s local profile allows the client to be installed without requiring elevated permissions. The Windows client uses the following locations:
 
@@ -85,6 +85,7 @@ When users initiate a call using the Teams client for the first time, they might
 
 > [!NOTE]
 > Windows Firewall configuration will be altered. Two inbound rules for teams.exe for both TCP and UDP protocols will be created with:
+
 > - Allow action, in case the user is a local administrator and selects **Allow access** only.
 > - Block action, if the user isn't a local administrator and, in any case, when the prompt is dismissed by selecting **Cancel**.
 
@@ -137,7 +138,7 @@ If you're in China, you can install Teams from the following app stores:
 
 > [!NOTE]
 > When users install Teams from one of the China-based Android app stores and enable push notifications for Teams, Microsoft will provide Teams push notifications through a China-based push notification service.
->Currently, Microsoft supports push notifications in Xiaomi phones. Hence, you must enable the push notifications in the Xiaomi phones. For information on how to do it, see [How to make Teams push notifications work in your Xiaomi phone?](devices/xiaomi-push-notifications.md#how-to-make-teams-push-notifications-work-in-your-xiaomi-phone). 
+>Currently, Microsoft supports push notifications in Xiaomi phones and OPPO phones. As a result, you must enable the push notifications in Xiaomi phones and OPPO phones. For detailed information on how to configure Xiaomi phones, see [How to make Teams push notifications work in your Xiaomi phone?](devices/xiaomi-push-notifications.md#how-to-make-teams-push-notifications-work-in-your-xiaomi-phone).
 
 ## Browser client
 

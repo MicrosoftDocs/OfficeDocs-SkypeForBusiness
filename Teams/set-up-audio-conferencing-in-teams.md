@@ -1,7 +1,7 @@
 ---
 title: "Set up Audio Conferencing for Microsoft Teams"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jenz
+author: jenzamora
 manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 02/21/2024
@@ -9,6 +9,7 @@ ms.topic: article
 ms.assetid: d01954f1-4f37-4cf5-a636-20039e5c59e9
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration

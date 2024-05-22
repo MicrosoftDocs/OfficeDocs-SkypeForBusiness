@@ -52,6 +52,7 @@ The following table shows which features are available in meetings, webinars, an
 |[Hide attendee names](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5)|Premium|Premium|✖️|
 |[Interactive participants](view-only-meeting-experience.md)|1,000|1,000|✖️|
 |[Language interpretation](https://support.microsoft.com/office/use-language-interpretation-in-microsoft-teams-meetings-b9fdde0f-1896-48ba-8540-efc99f5f4b2e)|✔️|✔️|✖️|
+|[Limit presenter role permissions](presenter-role-reduction.md)|✔️|✔️|✔️|
 |[Live captions](meeting-transcription-captions.md)|✔️|✔️|✔️|
 |[Live transcriptions](https://support.microsoft.com/office/view-live-transcription-in-microsoft-teams-meetings-dc1a8f23-2e20-4684-885e-2152e06a4a8b)|✔️|✔️|✔️|
 |[Lobby](who-can-bypass-meeting-lobby.md)|✔️|✔️|✖️|
@@ -59,7 +60,7 @@ The following table shows which features are available in meetings, webinars, an
 |[Meeting chat](manage-meeting-chat.md)|✔️|✔️|For organizers, co-organizers, and presenters only.|
 |[Meeting themes](meeting-themes.md)|Premium|✖️|✖️|
 |[Organizers and co-organizers can use video effects](https://support.microsoft.com/office/apply-video-filters-in-microsoft-teams-meetings-c04a1326-7f63-4170-a4f7-0778520af465)|✔️|✔️|✔️|
-|[Outlook add-in](https://support.microsoft.com/office/schedule-a-microsoft-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)|✔️|✖️|✖️|
+|[Outlook add-in](https://support.microsoft.com/office/schedule-a-microsoft-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)|✔️|✔️|✔️|
 |[Participants can give or request control](meeting-who-present-request-control.md)|✔️|✔️|✖️|
 |[PowerPoint Live](https://support.microsoft.com/office/present-from-powerpoint-live-in-microsoft-teams-28b20e74-7165-499c-9bd4-0ad975d448ad)|✔️|✔️|✖️|
 |[Q&A](manage-qna-for-teams.md)|✔️|✔️|✔️|
@@ -73,6 +74,7 @@ The following table shows which features are available in meetings, webinars, an
 |[Speaker coach](meeting-speaker-coach.md)|✔️|✔️|For organizers and co-organizers.|
 |[View-only experience](view-only-meeting-experience.md)|10,000<sup>1</sup>|✖️|✖️|
 |[VOD](manage-vod-publishing.md)|✖️|✔️|✔️|
+|[Voice isolation](voice-isolation.md)|✔️|✔️|✔️|
 |[Watermarks](watermark-meeting-content-video.md)|Premium|✖️|✖️|
 |[Whiteboard](meeting-policies-content-sharing.md)|✔️|✔️|✖️|
 

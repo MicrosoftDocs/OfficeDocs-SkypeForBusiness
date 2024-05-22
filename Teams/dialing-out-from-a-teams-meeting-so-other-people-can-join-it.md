@@ -1,7 +1,7 @@
 ---
 title: "Dialing out from a meeting so other people can join"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jenz
+author: jenzamora
 manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 02/22/2024
@@ -9,6 +9,7 @@ ms.topic: article
 ms.assetid: 3c2db9a5-3a19-4e19-b59e-8e5587f25d31
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
@@ -36,7 +37,7 @@ Keep these points in mind:
 
 - You can dial out only if you join a meeting using Teams.
 - The meeting organizer either has audio conferencing enabled or uses online calling plans or direct routing to make calls to the Public Switched Telephone Network (PSTN).
-- The meeting organizer is [Granted an online dial out policy that enables dial out from conferencing enabled](/powershell/module/skype/grant-csdialoutpolicy).
+- The meeting organizer is [Granted an online dial out policy that enables dial out from conferencing enabled](/powershell/module/teams/grant-csdialoutpolicy).
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

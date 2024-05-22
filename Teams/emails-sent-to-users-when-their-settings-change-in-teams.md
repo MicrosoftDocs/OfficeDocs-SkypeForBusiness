@@ -1,7 +1,7 @@
 ---
 title: "Emails sent to users when their settings change"
-ms.author: wlibebe
-author: wlibebe
+ms.author: jenz
+author: jenzamora
 manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 02/21/2024
@@ -9,6 +9,7 @@ ms.topic: article
 ms.assetid: 1b46da6d-f93a-4cc0-9ae8-af765935b007
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
@@ -104,7 +105,7 @@ You can also use the Microsoft Teams PowerShell module and run:
 Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
 ```
 
-You can use the [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings) to manage other settings for your organization, including email.
+You can use the [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/teams/set-csonlinedialinconferencingtenantsettings) to manage other settings for your organization, including email.
 
 For more information, see [Microsoft Teams PowerShell reference](/powershell/module/teams/).
 

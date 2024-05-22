@@ -97,7 +97,7 @@ To configure watermarking for meetings
 
 1. Select **Save**.
 
-You can also enable or disable watermarks by using PowerShell. Use the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet with the `-AllowWatermarkForCameraVideo` and `-AllowWatermarkForScreenSharing` parameters.
+You can also enable or disable watermarks by using PowerShell. Use the [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet with the `-AllowWatermarkForCameraVideo` and `-AllowWatermarkForScreenSharing` parameters.
 
 For example:
 

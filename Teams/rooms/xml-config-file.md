@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
 ms.reviewer: sohailta
-ms.date: 05/24/2023
+ms.date: 05/13/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -66,6 +66,8 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
   <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
   <SfbMeetingEnabled>false</SfbMeetingEnabled>
   <IsTeamsDefaultClient>true</IsTeamsDefaultClient>
+  <RequirePasscodeForAllTeamsMeetings>false</RequirePasscodeForAllTeamsMeetings>
+  <RequirePasscodeForAllPrivateTeamsMeetings>false</RequirePasscodeForAllPrivateTeamsMeetings>
   <WebExMeetingsEnabled>true</WebExMeetingsEnabled>
   <ZoomMeetingsEnabled>true</ZoomMeetingsEnabled>
   <BlueJeansMeetingsEnabled>true</BlueJeansMeetingsEnabled>
@@ -75,6 +77,8 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
   <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
   <AutoAcceptProximateMeetingInvitations>true</AutoAcceptProximateMeetingInvitations>
   <AllowRoomRemoteEnabled>true</AllowRoomRemoteEnabled>
+  <RoomQRcodeEnabled>true</RoomQRcodeEnabled>
+  <QRCodeAutoAcceptProximateMeetingInvitations>true</QRCodeAutoAcceptProximateMeetingInvitations>
   <DualScreenMode>false</DualScreenMode>
   <DuplicateIngestDefault>true</DuplicateIngestDefault>
   <DisableTeamsAudioSharing>false</DisableTeamsAudioSharing>
@@ -85,13 +89,15 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
   <SingleFoRDefaultContentLayout>1</SingleFoRDefaultContentLayout>
   <DefaultFoRExperience>0</DefaultFoRExperience>
   <ShowMeetingChat>true</ShowMeetingChat>
+  <OpenMeetingChatByDefault>true</OpenMeetingChatByDefault>
   <EnablePublicPreview>false</EnablePublicPreview>
   <NoiseSuppressionDefault>1</NoiseSuppressionDefault>
   <SendLogs>
     <EmailAddressForLogsAndFeedback>username@microsoft.com</EmailAddressForLogsAndFeedback>
     <SendLogsAndFeedback>true</SendLogsAndFeedback>
   </SendLogs>
-  <Devices>
+ <SendFeedbackToPMP>true</SendFeedbackToPMP>
+ <Devices>
     <MicrophoneForCommunication>Device1</MicrophoneForCommunication>
     <SpeakerForCommunication>DeviceX</SpeakerForCommunication>
     <DefaultSpeaker>DeviceX</DefaultSpeaker>
@@ -131,7 +137,7 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
 ```
 
 If a variable value is of the wrong type, elements are out of order, elements are unclosed, or another error is found, the XML file is *badly formed*. While processing a badly formed XML file, settings found up to the point where the error occurs are applied, then the rest of the file is ignored. Any unknown elements in the XML are ignored. If a parameter is omitted, it remains unchanged on the device. If a parameter value is invalid, its prior value remains unchanged.
-  
+
 **XML elements**
 
 | Element | Type | Level | Usage |
@@ -149,39 +155,45 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | `<TeamsMeetingsEnabled>` | Boolean &#x2777; | First &#x2776; | Disabled by default. <br/> <br/> The XML file is considered badly formed if both `<SkypeMeetingsEnabled>` and`<TeamsMeetingsEnabled>` are disabled, but it's acceptable to have both settings enabled at the same time. |
 | `<SfbMeetingEnabled>` | Boolean &#x2777; | First &#x2776; | Disabled by default. |
 | `<IsTeamsDefaultClient>` | Boolean &#x2777; | First &#x2776; | Enabled by default. |
+| `<RequirePasscodeForAllTeamsMeetings>` | Boolean &#x2777; | First &#x2776; | Disabled by default. <br/> <br/> If true, users are required to enter the correct meeting id and passcode to join all Teams meetings scheduled in the room with a Microsoft Teams Room Pro license.|
+| `<RequirePasscodeForAllPrivateTeamsMeetings>` | Boolean &#x2777; | First &#x2776; | Disabled by default. <br/> <br/> If true, users are required to enter the correct meeting id and passcode to join all **private** Teams meetings scheduled in the room with a Microsoft Teams Room Pro license.|
 | `<WebExMeetingsEnabled>` | Boolean &#x2777; | First &#x2776; | Disabled by default. <br/> <br/> If true, enables direct guest join experience for Cisco Webex meetings. |
-| `<ZoomMeetingsEnabled>` | Boolean &#x2777; | First &#x2776; | Disabled by default. <br/> <br/> If true, enabled direct guest join experience for Zoom meetings. |
-| `<BlueJeansMeetingsEnabled>` | Boolean &#x2777; | First &#x2776; | Disabled by default. <br/> <br/> If true, enabled direct guest join experience for BlueJeans meetings. |
+| `<ZoomMeetingsEnabled>` | Boolean &#x2777; | First &#x2776; | Disabled by default. <br/> <br/> If true, enables direct guest join experience for Zoom meetings. |
+| `<BlueJeansMeetingsEnabled>` | Boolean &#x2777; | First &#x2776; | Disabled by default. <br/> <br/> If true, enables direct guest join experience for BlueJeans meetings. |
 | `<UseCustomInfoForThirdPartyMeetings>` | Boolean &#x2777; | First &#x2776; | Disabled by default and uses conference room account info to join third party meetings. <br/> <br/> If this value is set to true, you must specify both `<CustomDisplayNameForThirdPartyMeetings>`, `<CustomDisplayEmailForThirdPartyMeetings>` must be specified. |
 | `<CustomDisplayNameForThirdPartyMeetings>` | String  &#x2778; | First &#x2776; | Specify guest name used to join third party meetings. Third party service will display this data in their experience and may store in their service. |
 | `<CustomDisplayEmailForThirdPartyMeetings>` | String  &#x2778; | First &#x2776; | Specify guest email used to join third party meetings. Third party service will display this data in their experience and may store in their service. |
 | `<BluetoothAdvertisementEnabled>` | Boolean &#x2777; | First &#x2776; | Enabled by default. |
 | `<AutoAcceptProximateMeetingInvitations>` | Boolean &#x2777; | First &#x2776; | If true, proximity based meeting invitations via Bluetooth are automatically accepted. Enabled by default. |
 | `<AllowRoomRemoteEnabled>` | Boolean &#x2777; | First &#x2776; | If true, room remote connections are allowed. Enabled by default. |
+| `<RoomQRcodeEnabled>` | Boolean &#x2777; | First &#x2776; | If true, a QR code is shown on the home screen. Users can scan the QR code to quickly join meetings with the room system. Enabled by default. For more information, see [Join meetings with QR codes](/microsoftteams/rooms/teams-rooms-qr-codes).|
+| `<QRCodeAutoAcceptProximateMeetingInvitations>` | Boolean &#x2777; | First &#x2776; | If true, proximity based meeting invitations via QR code are automatically accepted. Enabled by default. For more information, see [Join meetings with QR codes](/microsoftteams/rooms/teams-rooms-qr-codes).|
 | `<AutoExitMeetingEnabled>` | Boolean &#x2777; | First &#x2776; | If true, device will automatically leave the meeting if it is the last participant remaining in the meeting.  Disabled by default. |
 | `<DualScreenMode>` | Boolean &#x2777; | First &#x2776; | If true, dual screen mode is enabled. Otherwise the device uses single screen mode. |
 | `<DuplicateIngestDefault>` | Boolean &#x2777; | First &#x2776; | If true, content is shown on both screens in dual screen mode, when out of meeting. |
 | `<DisableTeamsAudioSharing>` | Boolean &#x2777; | First &#x2776; | Set to true to disable HDMI audio sharing to meeting participants in Teams meeting. The default is false. |
-| `<EnableCloudIntelliFrame>` | Boolean &#x2777; | First &#x2776; | Enabled by default. If true, Cloud IntelliFrame will be enabled for the Team Room.|
+| `<EnableCloudIntelliframe>` | Boolean &#x2777; | First &#x2776; | Enabled by default. If true, Cloud IntelliFrame will be enabled for the Team Room.|
 | `<EnableRoomCapacityNotification>` | Boolean &#x2777; | First &#x2776; | Enabled by default to provide warnings to in room participants that the room has reached capacity (this requires the room capacity be set in Exchange and a camera capable of people counting). Set to false if you wish to disable these warnings. |
 | `<FrontRowEnabled>` | Boolean &#x2777; | First &#x2776; | Enabled by default. If false, Front Row is disabled. For more information, see [Set front row as the default layout](manage-front-row.md).|
 | `<FrontRowVideoSize>` | String |  | Lets you set the size of Front Row to provide more or less space for remote participant video and shared content. Possible values are `small`, `medium`, and `large`. The default value is `medium`. For more information, see [Set front row as the default layout](manage-front-row.md). |
 | `<FrontRowPanelDefaults>` | String | | Lets you configure the position of the raise hand and chat components in the meeting panels to the left and right of meeting content on front-of-room displays.<br> <br>To manually configure the position of the raise hand and chat components, specify the numeric values of the component that should be shown in the left and right panels respectively, separated by a comma (for example, `3,1`).  Panels using the same component will be ignored except for <b>1</b> Hide the panel.<ul><li><b>1</b> Hide the panel.  </li><li><b>2</b> Show meeting chat.</li><li><b>3</b> Show raised hand list.</li></ul><br>If `FrontRowPanelDefaults` isn't specified in dual display mode, the raise hand component is shown in the left panel and chat component is shown in the right panel. In single display mode, the left panel isn't displayed by default for front-of-room displays narrower than 21:9.|
 | `<DefaultFoRExperience>` | Boolean &#x2777; | First &#x2776; | Gallery View by default. Put 1 to change the default layout from Gallery View to Front Row. For more information, see [Set front row as the default layout](manage-front-row.md). |
 | `<EnableResolutionAndScalingSetting>` | Boolean &#x2777; | First &#x2776; | By default it is disabled. If you want to change your Front of Room's resolution and scaling, set it to true. If true, the display resolution and scale setting will be applied. This setting will affect both the Main FoR and Extended FoR once this setting is enabled. For more information, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).|
-| `<MainFoRDisplay>` | Container | First &#x2776; | Use this container if your device is using single display mode.<br><br>In dual display mode, Main Front of Room (FoR) is a screen with the self-preview video (in meeting). `<MainFoRDisplayResolution>` and `<MainFoRDisplayScaling>` have to be set together at a time. If you only use either `<MainFoRDisplayResolution>` or `<MainFoRDisplayScaling>`, it will be ignored. For more information, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).|
-| `<MainFoRDisplayResolution>` | String |  | Input numeric value of Width, Height (e.g. 1920,1080). It will be ignored if your FoR does not support it. For more information, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).|
+| `<MainFoRDisplay>` | Container | First &#x2776; | Use this container if your device is using single display mode.<br><br>In dual display mode, the Main Front of Room (FoR) display is the screen where the room calendar is shown. This screen is meant to be installed on the right side.  `<MainFoRDisplayResolution>` and `<MainFoRDisplayScaling>` must be set together at the same time. If you only use either `<MainFoRDisplayResolution>` or `<MainFoRDisplayScaling>`, it will be ignored. For more information, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).|
+| `<MainFoRDisplayResolution>` | String |  | Input numeric value of Width, Height (e.g. 1920,1080 or 3840,2160). It will be ignored if your FoR does not support it. For more information, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).|
 | `<MainFoRDisplayScaling>` | Number |  | Input numeric value of scaling. Valid values are 100 (recommended), 125, 150, 175, 200, 225, 250, 300, 350, 400, 450, and 500. If you input 500 and your FoR supports up to 300, it will be set to 300. For more information, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).|
-| `<ExtendedFoRDisplay>` | Container | First &#x2776; | In dual display mode, Extended Front of Room (FoR) is a screen where you see shared content (in meeting).  `<ExtendedFoRDisplayResolution>` and `<ExtendedFoRDisplayScaling>` have to be set together at a time. If you only use either `<ExtendedFoRDisplayResolution>` or `<ExtendedFoRDisplayScaling>`, it will be ignored. For more information, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).|
-| `<ExtendedFoRDisplayResolution>` | String |  | Input numeric value of Width, Height (for example: 1920,1080). A value will be ignored if your FoR does not support it. For more information, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).|
+| `<ExtendedFoRDisplay>` | Container | First &#x2776; | In dual display mode, the Extended Front of Room (FoR) display is the screen where the date, time, and room information is displayed. This screen is meant to be installed on the left side.  `<ExtendedFoRDisplayResolution>` and `<ExtendedFoRDisplayScaling>` must be set together at the same time. If you only use either `<ExtendedFoRDisplayResolution>` or `<ExtendedFoRDisplayScaling>`, it will be ignored. For more information, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).|
+| `<ExtendedFoRDisplayResolution>` | String |  | Input numeric value of Width, Height (e.g. 1920,1080 or 3840,2160). A value will be ignored if your FoR does not support it. For more information, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).|
 | `<ExtendedFoRDisplayScaling>` | Number |  | Input numeric value of scaling. Valid values are 100 (recommended), 125, 150, 175, 200, 225, 250, 300, 350, 400, 450, and 500. If you input 500 and your FoR supports up to 300, it will be set to 300. For more information, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).|
 | `<SingleFoRDefaultContentLayout>` | String |  | In single display mode, you can set the default layout between Content+people and Content only:<br><ul><li><b>0</b> Content only</li><li><b>1</b> Content+people (default)</li></ul><br> For more information, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).|
-| `<ShowMeetingChat>` | Boolean &#x2777; | First &#x2776; | Enabled by default. If disabled, meeting chat isn't shown in any meeting layout on the Teams Rooms device. |
+| `<ShowMeetingChat>` | Boolean &#x2777; | First &#x2776; |Enabled by default. If disabled, meeting chat functionality (including chat bubbles and chat selection) isn't available in any meeting layout on the Teams Rooms device. |
+|`<OpenMeetingChatByDefault>`| Boolean ❷ | First ❶ |Enabled by default. If disabled, chat panel will not show by default in meetings using Gallery view.|
 | `<EnablePublicPreview>` | Boolean &#x2777; | First &#x2776; | Disabled by default. If true, public preview is enabled and end-users can access features in public preview on enabled Teams Rooms. See [Public preview for Microsoft Teams Rooms on Windows](../public-preview-doc-updates.md#public-preview-for-microsoft-teams-rooms-on-windows) for more information. |
 | `<NoiseSuppressionDefault>` | String | First &#x2776; | Controls noise suppression levels in Teams.<br><ul><li><b>0</b> Off. Use OEM-provided noise suppression only.</li><li><b>1</b> High. Suppresses all background noises (stationary and non-stationary) that aren't speech.</li></ul> |
 | `<SendLogs>` | Container | First &#x2776; |  |
+|`<SendFeedbackToPMP>`| Boolean ❷ | First ❶ |Enabled by default. If true, when a user sends feedback through Report a Problem from a room with a Microsoft Teams Room Pro license, each feedback creates an event in the Teams Rooms Pro Management portal.|
 | `<EmailAddressForLogsAndFeedback>` | String  &#x2778; |  | Sets an email address that receives logs and feedback submitted using Report a problem. |
-| `<SendLogsAndFeedback>` | Boolean &#x2777; |  | Allows logs to be sent with feedback submitted usingReport a problem. To ensure logs and feedback with larger sizes are delivered, adjust the message size restriction for your mailboxes on the Exchange admin center. |
+| `<SendLogsAndFeedback>` | Boolean &#x2777; |  | Allows logs to be sent with feedback submitted using Report a problem. To ensure logs and feedback with larger sizes are delivered, adjust the message size restriction for your mailboxes on the Exchange admin center. |
 | `<Devices>` | Container | First &#x2776; | The connected audio device names in the child elements are the same values listed in the Device Manager app. The configuration can contain a device that does not presently exist on the system, such as an A/V device not currently connected to the console. The configuration would be retained for the respective device. |
 | `<MicrophoneForCommunication>` | String  &#x2778; |  | Sets the microphone used as the recording device in a conference. |
 | `<SpeakerForCommunication>` | String  &#x2778; |  | Device to be used as speaker for the conference. This setting is used to set the speaker device used in a call. |
@@ -204,6 +216,7 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | `<Video>` | Boolean &#x2777; |  | Controls video configuration on a Teams Rooms device. This element has two attributes:<br><ul><li><b>default</b> Determines on which device the camera will be active when a meeting starts. For the best experience, we recommend that only the Teams Rooms device be set to `true` while all other devices are set to `false`.</li><li><b>enabled</b> Determines whether participants in a meeting can toggle the camera on or off. You can set this to `true` on any other devices in the event participants want to share different video perspectives (such as if a participant is using the Surface Hub whiteboard). If you don't want participants to turn a camera on or off on a device, set this to `false`.<p> If **Video default** is set to `true`, the **Video enabled** setting is ignored and participants can turn the camera on or off.</li></ul> |
 | `<Whiteboard>` | Boolean &#x2777; |  | Controls whiteboard configuration on a Teams Rooms device. This element has two attributes:<br><ul><li><b>default</b> Determines on which device the whiteboard will be active when a meeting starts. For the best experience, we recommend that the Teams Rooms device be set to `false` and that you use the whiteboard on a Surface Hub.</li><li><b>enabled</b> Determines whether participants in a meeting can toggle the whiteboard on or off. If you don't want participants to turn the whiteboard on or off on a device, set this to `false`.<p> If **Whiteboard default** is set to `true`, the **Whiteboard enabled** setting is ignored and participants can turn the whiteboard on or off.</li></ul> |
 | `<EnableDeviceEndToEndEncryption>` | Boolean &#x2777; |  | Default is `false`. Specify `true` to enable end-to-end encryption for one-to-one Teams calls. Both caller and recipient need to have end-to-end encryption enabled for this to work. |
+| `<RoomLanguageSwitchEnabled>` | Boolean &#x2777; |  | Default is `false`. Specify `true` to enable end users to change language. |
 | `<SplitVideoLayoutsDisabled>` | Boolean &#x2777; |  | Default is `false`. This setting is only applicable to dual-display rooms. Specify `true` to disable splitting video gallery across both screens. This will also disable Front row layout, and any settings associated with Front row layout. |
 
 &#x2776; All of the first-level elements are optional. If a first-level element is omitted, all of its child parameters remain unchanged on the device.

@@ -58,11 +58,11 @@ Follow these steps to edit an existing calling policy.
 
 To create, modify, retrieve, assign, and remove calling policies, use the following cmdlets:
 
-- [New-CsTeamsCallingPolicy](/powershell/module/skype/new-csteamscallingpolicy)
-- [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
-- [Get-CsTeamsCallingPolicy](/powershell/module/skype/get-csteamscallingpolicy)
-- [Grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy)
-- [Remove-CsTeamsCallingPolicy](/powershell/module/skype/remove-csteamscallingpolicy)
+- [New-CsTeamsCallingPolicy](/powershell/module/teams/new-csteamscallingpolicy)
+- [Set-CsTeamsCallingPolicy](/powershell/module/teams/set-csteamscallingpolicy)
+- [Get-CsTeamsCallingPolicy](/powershell/module/teams/get-csteamscallingpolicy)
+- [Grant-CsTeamsCallingPolicy](/powershell/module/teams/grant-csteamscallingpolicy)
+- [Remove-CsTeamsCallingPolicy](/powershell/module/teams/remove-csteamscallingpolicy)
 
 ## Calling policy settings
 

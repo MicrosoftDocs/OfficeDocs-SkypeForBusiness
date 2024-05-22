@@ -5,8 +5,8 @@ ms.author: mabond
 manager: pamgreen
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: jenstr
-ms.date: 06/28/2023
+ms.reviewer: roykuntz, jastark
+ms.date: 05/17/2024
 audience: admin
 search.appverid: MET150
 description: Learn how to route inbound PSTN & federated calls in Microsoft Teams.
@@ -15,6 +15,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - Tier1
+  - ContentFreshnessFY24
 f1.keywords:
 - CSH
 ms.custom: 
@@ -37,7 +38,7 @@ Calls that come from the PSTN or are federated can be routed in the following wa
 - **Use default settings** The call is routed using your default inbound call routing settings. This is the default setting for PSTN and federated calls.
 - **Use unanswered settings** The call is routed according to the unanswered call forwarding settings set for that user.
 - **Send to voicemail** The call is routed directly to voicemail and isn't shown to the user. If the called user doesn't have voicemail enabled, the call will be disconnected. For more information on voicemail, see [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
-- **Let users decide** (PSTN calls only) The call is routed as **Use default settings**.
+- **Let users decide** (PSTN calls only) Users can determine their PSTN call routing choice from call settings in the Teams app.
 
 For information on busy options, see [Configure busy options](#configure-busy-options).
 
@@ -67,7 +68,7 @@ For example, this script sets `-InboundPstnCallRoutingTreatment` to route inboun
 Set-CsTeamsCallingPolicy -Identity Global -InboundPstnCallRoutingTreatment Unanswered
 ```
 
-For more information, see [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
+For more information, see [Set-CsTeamsCallingPolicy](/powershell/module/teams/set-csteamscallingpolicy).
 
 ## Routing for federated calls
 
@@ -95,7 +96,7 @@ For example, this script sets `-InboundFederatedCallRoutingTreatment` to route i
 Set-CsTeamsCallingPolicy -Identity Global -InboundFederatedCallRoutingTreatment Voicemail
 ```
 
-For more information, see [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
+For more information, see [Set-CsTeamsCallingPolicy](/powershell/module/teams/set-csteamscallingpolicy).
 
 ## Open apps in browser for incoming PSTN calls
 
@@ -105,7 +106,7 @@ If turned on, a link to the app needs to be given in the **URL to open apps in b
 
 ![Screenshot of Open apps in browser for incoming PSTN calls policy setting.](media/teams-open-apps-in-browser-pstn.png)
 
-This setting can also be configured using PowerShell with the `-PopoutForIncomingPstnCalls`and `-PopoutAppPathForIncomingPstnCalls` parameters in [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
+This setting can also be configured using PowerShell with the `-PopoutForIncomingPstnCalls`and `-PopoutAppPathForIncomingPstnCalls` parameters in [Set-CsTeamsCallingPolicy](/powershell/module/teams/set-csteamscallingpolicy).
 
 ## Configure busy options
 
@@ -128,7 +129,7 @@ This setting can also be configured using PowerShell with the `-PopoutForIncomin
 
 ### Using PowerShell
 
-With PowerShell, you can configure the `-BusyOnBusyEnabledType` parameter with [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
+With PowerShell, you can configure the `-BusyOnBusyEnabledType` parameter with [Set-CsTeamsCallingPolicy](/powershell/module/teams/set-csteamscallingpolicy).
 
 For example, this script allows users to choose their busy options for users in the global policy instance:
 
@@ -142,11 +143,11 @@ This example sets the busy options to the user's unanswered settings for users i
 Set-CsTeamsCallingPolicy -Identity Global -BusyOnBusyEnabledType Unanswered
 ```
 
-For more information, see [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
+For more information, see [Set-CsTeamsCallingPolicy](/powershell/module/teams/set-csteamscallingpolicy).
 
 ## Related articles
 
-[Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
+[Set-CsTeamsCallingPolicy](/powershell/module/teams/set-csteamscallingpolicy)
 
 [Configure calling policies in Microsoft Teams](teams-calling-policy.md)
 

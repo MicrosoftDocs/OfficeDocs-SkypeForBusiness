@@ -2,9 +2,9 @@
 title: Microsoft Teams Rooms Record an issue
 author: mstonysmith
 ms.author: tonysmit
-ms.date: 09/28/2022
+ms.date: 04/04/2024
 manager: pamgreen
-ms.reviewer: tonysmit
+ms.reviewer: kimmatlock
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -14,7 +14,7 @@ appliesto:
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
-  - Tier3
+  - Tier1
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Partners or Customers can manually open an incident through "Record an issue" to ensure accurate reporting of Room health in the Pro Management portal.
@@ -22,7 +22,7 @@ description: Partners or Customers can manually open an incident through "Record
 
 # Record an issue ticket
 
-For any type of issue that MTR Pro did not flag, customers or partners on behalf of customers can use the Record an issue feature. This is intended to facilitate tracking of issues with your **internal or partner** support. 
+For any type of issue that Teams Rooms Pro management service did not flag, customers or partners on behalf of customers can use the Record an issue feature. This is intended to facilitate tracking of issues with your **internal or partner** support.  
 
 > [!NOTE]
 > Microsoft does not monitor Record an issue tickets. If the issue requires further assistance, see this article on how to [Get support for Microsoft Teams Rooms Pro Management](https://aka.ms/mtrp/openingTickets).
