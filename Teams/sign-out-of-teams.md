@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: 
-ms.date: 07/20/2021
+ms.date: 02/08/2024
 description: Learn how to sign out of Microsoft Teams.
 ms.custom: seo-marvel-apr2020
 ms.localizationpriority: high

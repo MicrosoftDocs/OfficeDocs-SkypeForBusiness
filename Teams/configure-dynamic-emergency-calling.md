@@ -94,7 +94,7 @@ The following clients are currently supported.  Check back often to see updates 
 > - Teams Rooms on Android (OEM specific configuration may be required)
 
 > [!NOTE]
-> Dynamic emergency calling, including security desk notification, isn't supported on the Teams web client. To prevent users from using the Teams web client to call PSTN numbers, you can set a Teams calling policy and turn off the **Allow web PSTN calling** setting. To learn more, see [Calling policies in Teams](teams-calling-policy.md) and [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
+> Dynamic emergency calling, including security desk notification, isn't supported on the Teams web client. To prevent users from using the Teams web client to call PSTN numbers, you can set a Teams calling policy and turn off the **Web PSTN calling** setting. To learn more, see [Calling policies in Teams](teams-calling-policy.md) and [Set-CsTeamsCallingPolicy](/powershell/module/teams/set-csteamscallingpolicy).
 
 ## Assign emergency addresses
 
@@ -187,10 +187,10 @@ In the Teams admin center, you can add or upload subnet, Wi-Fi access point, swi
 
 Use the following cmdlets to add ports, switches, subnets, and WAPs to the LIS.
 
-- [Get](/powershell/module/skype/get-csonlinelissubnet), [Set](/powershell/module/skype/set-csonlinelissubnet), [Remove](/powershell/module/skype/remove-csonlinelissubnet) -CsOnlineLisSubnet
-- [Get](/powershell/module/skype/get-csonlinelisport), [Set](/powershell/module/skype/set-csonlinelisport), [Remove](/powershell/module/skype/remove-csonlinelisport) -CsOnlineLisPort
-- [Get](/powershell/module/skype/get-csonlineliswirelessaccesspoint), [Set](/powershell/module/skype/set-csonlineliswirelessaccesspoint), [Remove](/powershell/module/skype/remove-csonlineliswirelessaccesspoint) -CsOnlineLisWirelessAccessPoint
-- [Get](/powershell/module/skype/get-csonlinelisswitch), [Set](/powershell/module/skype/set-csonlinelisswitch), [Remove](/powershell/module/skype/remove-csonlinelisswitch) -CsOnlineLisSwitch
+- [Get](/powershell/module/teams/get-csonlinelissubnet), [Set](/powershell/module/teams/set-csonlinelissubnet), [Remove](/powershell/module/teams/remove-csonlinelissubnet) -CsOnlineLisSubnet
+- [Get](/powershell/module/teams/get-csonlinelisport), [Set](/powershell/module/teams/set-csonlinelisport), [Remove](/powershell/module/teams/remove-csonlinelisport) -CsOnlineLisPort
+- [Get](/powershell/module/teams/get-csonlineliswirelessaccesspoint), [Set](/powershell/module/teams/set-csonlineliswirelessaccesspoint), [Remove](/powershell/module/teams/remove-csonlineliswirelessaccesspoint) -CsOnlineLisWirelessAccessPoint
+- [Get](/powershell/module/teams/get-csonlinelisswitch), [Set](/powershell/module/teams/set-csonlinelisswitch), [Remove](/powershell/module/teams/remove-csonlinelisswitch) -CsOnlineLisSwitch
 
 >[!Important]
 >If subnets are being used as part of network sites, they must be redefined in the Location Information Service to render dynamic locations.
@@ -270,3 +270,4 @@ The following table shows support for dynamic emergency calling in the governmen
 - [Assign or change an emergency location for your user](assign-change-emergency-location-user.md)
 - [Network settings for cloud voice features](cloud-voice-network-settings.md)
 - [Manage your network topology for cloud voice features](manage-your-network-topology.md)
+- [Emergency numbers country reference](emergency-numbers-reference.md)

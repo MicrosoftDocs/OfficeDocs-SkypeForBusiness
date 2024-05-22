@@ -1,7 +1,7 @@
 ---
 title: Encoder setup for streaming in Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
@@ -15,7 +15,7 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: This article discusses encoder-based RTMP setup for Microsoft Teams streaming events.
-localization_priority: medium
+ms.localizationpriority: medium
 appliesto: 
   - Microsoft Teams
 ms.custom:
@@ -50,7 +50,7 @@ Microsoft has validated the video encoders for live streaming with Teams in the 
 |Blackmagic Web Presenter HD            |[Blackmagic Web Presenter](https://www.blackmagicdesign.com/products/blackmagicwebpresenter) |Hardware|✔️|
 |Blackmagic ATEM Mini with streaming engine               |[Blackmagic ATEM Mini with streaming engine](https://www.blackmagicdesign.com/products/atemmini) |Hardware||
 |BrandLive                              |[BrandLive](https://www.brandlive.com/) |Service||
-|Epiphan video Pearl Mini               |[Epiphan video Pearl Mini](https://www.epiphan.com/products/pearl-mini/) |Hardware||
+|Epiphan video Pearl Nano               |[Epiphan video Pearl Nano](https://www.epiphan.com/products/pearl-nano/) |Hardware||
 |FFmpeg                                 |[FFmpeg](https://ffmpeg.org/) |Software|✔️|
 |Haivision                              |[Haivision Makito X4](https://www.haivision.com/microsoft/stream) |Hardware|✔️|
 |Live Arena AI Producer                 |[Live Arena AI Producer](https://www.livearena.com/) |Service||

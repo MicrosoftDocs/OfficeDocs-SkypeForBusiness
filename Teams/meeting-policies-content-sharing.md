@@ -1,7 +1,7 @@
 ---
 title: Manage meeting policies for content sharing
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
@@ -43,14 +43,14 @@ To change a content sharing setting
 
 #### Use PowerShell to configure content sharing
 
-You can also use the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet to control the content sharing settings. Set the following parameters:
+You can also use the [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet to control the content sharing settings. Set the following parameters:
 
 - ScreenSharingMode
 - AllowPowerPointSharing
 - AllowWhiteboard
 - AllowSharedNotes
 
-[Learn more about using the csTeamsMeetingPolicy cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy).
+[Learn more about using the csTeamsMeetingPolicy cmdlet](/powershell/module/teams/set-csteamsmeetingpolicy).
 
 ## Screen sharing mode
 

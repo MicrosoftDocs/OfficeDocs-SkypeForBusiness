@@ -2,9 +2,9 @@
 title:  Prevent users from joining external Microsoft Teams meetings
 ms.author: wlibebe
 author: wlibebe
-manager: serdars
+manager: pamgreen
 ms.reviewer: vivekmo
-ms.date: 2/6/2024
+ms.date: 5/8/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -53,7 +53,7 @@ You can manage the types of meetings your users can join through the Teams admin
 
 ### Prevent users from joining external meetings using the Teams admin center
 
-Follow these steps in the Teams admin center to turn town halls on or off:
+Follow these steps in the Teams admin center to manage the types of meetings your users can join:
 
 1. Open the Teams admin center.
 2. Select **Meetings** from the navigation pane.
@@ -65,13 +65,13 @@ Follow these steps in the Teams admin center to turn town halls on or off:
 
 ### Prevent users from joining external meetings using PowerShell
 
-You can use the **`-ExternalMeetingJoin`** parameter within the PowerShell [**CsTeamsMeetingPolicy**](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet to manage the types of external meetings your users can join.
+You can use the **`-ExternalMeetingJoin`** parameter within the PowerShell [**CsTeamsMeetingPolicy**](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet to manage the types of external meetings your users can join.
 
 Before you can run these cmdlets, you must be connected to Microsoft Teams PowerShell. For more information, see [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams).
 
 For more information on PowerShell cmdlets for Teams meetings, see the [Related topics](#related-topics) section.
 
-For users to only join meetings that are in org or hosted by orgs that you have a trusted relationship with, run the following script, use the following script:
+For users to only join meetings that are in org or hosted by orgs that you have a trusted relationship with, use the following script:
 
 ```powershell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -ExternalMeetingJoin  EnabledForTrustedOrgs
@@ -89,8 +89,8 @@ Set-CsTeamsMeetingPolicy -Identity <policy name> -ExternalMeetingJoin  Disabled
 - [Plan for meetings](plan-meetings.md)
 - [Meetings, webinars, and live events overview](quick-start-meetings-live-events.md)
 - [Feature comparison](meeting-webinar-town-hall-feature-comparison.md)
-- [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy)
-- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
-- [Grant-CsTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy)
-- [Get-CsTeamsMeetingPolicy](/powershell/module/skype/get-csteamsmeetingpolicy)
-- [Remove-CsTeamsMeetingPolicy](/powershell/module/skype/remove-csteamsmeetingpolicy)
+- [New-CsTeamsMeetingPolicy](/powershell/module/teams/new-csteamsmeetingpolicy)
+- [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)
+- [Grant-CsTeamsMeetingPolicy](/powershell/module/teams/grant-csteamsmeetingpolicy)
+- [Get-CsTeamsMeetingPolicy](/powershell/module/teams/get-csteamsmeetingpolicy)
+- [Remove-CsTeamsMeetingPolicy](/powershell/module/teams/remove-csteamsmeetingpolicy)

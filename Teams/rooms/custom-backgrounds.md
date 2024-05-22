@@ -3,19 +3,21 @@ title: Set up and manage Teams Rooms on Windows custom backgrounds
 ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
-audience: ITPro
 ms.reviewer: henrikalim
 ms.date: 11/02/2023
-ms.topic: quickstart
+ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-f1.keywords: 
-  - NOCSH
-ms.localizationpriority: medium
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
   - Tier1
+f1.keywords: 
+  - NOCSH
+ms.localizationpriority: medium
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Learn how to set up custom backgrounds on Teams Rooms front-of-room and touch console displays.
@@ -122,23 +124,23 @@ When you create a custom background:
 - Place text, logos, or icons, in the middle of the screen so it isn't obscured by home screen elements.
 - Avoid placing text, logos, or icons, near these locations:
   - **Upper left corner** - Time and room information.
-    - **Size**: 310 x 190
+    - **Size**: up to 46% of the screen width, up to 42% of the screen height depending on the display settings
   - **Bottom left corner** - Tips.
-    - **Size**: 650 x 90
+    - **Size**: up to 46% of the screen width, up to 16% of the screen height depending on the display settings
   - **Right side** - Room calendar.
     - **Size**: up to 36% of the screen width, up to 72% of the screen height depending on the display settings
-  
+
 **16:9 - Single front-of-room display dimensions**
 
-:::image type="content" source="../media/front-of-room-16-9-single-dimensions.png" alt-text="A custom background showing a 16:9 front of room display with element dimensions." lightbox="../media/front-of-room-16-9-single-dimensions.png":::
+:::image type="content" source="../media/mtr-devices/mtrw-for-qr-16x9.png" alt-text="A custom background showing a 16:9 front of room display with element dimensions and a QR code." lightbox="../media/mtr-devices/mtrw-for-qr-16x9.png":::
 
 **16:9 - Dual front-of-room display dimensions**
 
-:::image type="content" source="../media/front-of-room-16-9-dual-display-dimensions.png" alt-text="A custom background showing dual 16:9 front of room displays with element dimensions." lightbox="../media/front-of-room-16-9-dual-display-dimensions.png":::
+:::image type="content" source="../media/mtr-devices/dual-for-qr.png" alt-text="A custom background showing dual 16:9 front of room displays with element dimensions and a QR code." lightbox="../media/mtr-devices/dual-for-qr.png":::
 
 **21:9 - Single front-of-room display dimensions**
 
-:::image type="content" source="../media/front-of-room-21-9-dimensions.png" alt-text="Custom background showing a 21:9 front of room display with element dimensions." lightbox="../media/front-of-room-21-9-dimensions.png":::
+:::image type="content" source="../media/mtr-devices/mtrw-for-qr-21x9.png" alt-text="Custom background showing a 21:9 front of room display with element dimensions and a QR code." lightbox="../media/mtr-devices/mtrw-for-qr-21x9.png":::
 
 These guidelines are also available in a [custom theme template](#custom-background-template) that you can download.
 
@@ -147,40 +149,40 @@ These guidelines are also available in a [custom theme template](#custom-backgro
 When you create a custom background, avoid placing text, logos, or icons, near these locations:
 
 - **Upper left corner** - Time and room information.
-  - **Size**: 310 x 160
+  - **Size**: 540 x 242 px
 - **Bottom left corner** - Tips.
-  - **Size**: 540 x 82
-- **Middle** - Action buttons.
-  - **Size**: 408 x 336
+  - **Size**: 540 x 82 px
+- **Middle** - User actions.
+  - **Size**: 408 x 336 px
 - **Right side** - Room calendar.
   - **Size**: up to 44% of the screen width, up to 80% of the screen height depending on the display settings
-- **Bottom right corner** - Help button.
-  - **Size**: 104 x 66
+- **Bottom right corner** - Help.
+  - **Size**: 56 x 56 px
 
 **16:9 - Touch console dimensions**
 
-:::image type="content" source="../media/console-16-9-dimensions.png" alt-text="A custom background showing a 16:9 touch console display with element dimensions." lightbox="../media/console-16-9-dimensions.png":::
+:::image type="content" source="../media/mtr-devices/mtrw-console-qr.png" alt-text="A custom background showing a 16:9 touch console display with element dimensions with QR code." lightbox="../media/mtr-devices/mtrw-console-qr.png":::
 
 #### Touch board displays
 
 When you create a custom background, avoid placing text, logos, or icons, on these locations:
 
 - **Upper left corner** - Time and room information.
-  - **Size**: 310 x 190
+  - **Size**: up to 46% of the screen width, up to 42% of the screen height depending on the display settings
 - **Bottom left corner** - Tips.
-  - **Size**: 650 x 90
-- **Right side** - Action buttons and room calendar.
+  - **Size**: up to 46% of the screen width, up to 16% of the screen height depending on the display settings
+- **Right side** - User actions and room calendar.
   - **Size**: up to 43% of the screen width, up to 72% of the screen height depending on display settings
-- **Bottom right corner** - Help button.
-  - **Size**: 157 x 137
+- **Bottom right corner** - Help.
+  - **Size**: up to 3% of the screen width, up to 5% of the screen height depending on display settings
 
 **16:9 - Touch board display dimensions**
 
-:::image type="content" source="../media/touch-board-16-9-display-dimensions.png" alt-text="A custom background showing a 16:9 touch board display with element dimensions." lightbox="../media/touch-board-16-9-display-dimensions.png":::
+:::image type="content" source="../media/mtr-devices/mtrw-touchboard-qr-16x9.png" alt-text="A custom background showing a 16:9 touch board display with element dimensions with QR code." lightbox="../media/mtr-devices/mtrw-touchboard-qr-16x9.png":::
 
 **3:2 - Touch board display dimensions**
 
-:::image type="content" source="../media/touch-board-3-2-display-dimensions.png" alt-text="A custom background showing a 3:2 touch board display with element dimensions." lightbox="../media/touch-board-3-2-display-dimensions.png":::
+:::image type="content" source="../media/mtr-devices/mtrw-touchboard-qr-3x2.png" alt-text="A custom background showing a 3:2 touch board display with element dimensions with QR code." lightbox="../media/mtr-devices/mtrw-touchboard-qr-3x2.png":::
 
 ### Custom background template
 
@@ -239,44 +241,44 @@ When you create a custom background, use the following guidelines:
 - Place text, logos, or icons, in the middle of the screen so it isn't obscured by home screen elements.
 - Avoid placing text, logos, or icons, near these locations:
   - **Upper left corner** - Time and room information.
-    - **Size**: 310 x 190
+    - **Size**: up to 46% of the screen width, up to 42% of the screen height depending on the display settings
   - **Bottom left corner** - Tips.
-    - **Size**: 650 x 90
+    - **Size**: up to 46% of the screen width, up to 16% of the screen height depending on the display settings
   - **Right side** - Room calendar.
     - **Size**: up to 36% of the screen width, up to 72% of the screen height depending on the display settings
 
 **16:9 - Single front-of-room display dimensions**
 
-:::image type="content" source="../media/front-of-room-16-9-single-dimensions.png" alt-text="A custom background showing a 16:9 front of room display with element dimensions." lightbox="../media/front-of-room-16-9-single-dimensions.png":::
+:::image type="content" source="../media//mtr-devices/mtrw-for-qr-16x9.png" alt-text="A custom background showing a 16:9 front of room display with element dimensions with QR code." lightbox="../media/mtr-devices/mtrw-for-qr-16x9.png":::
 
 **16:9 - Dual front-of-room display dimensions**
 
-:::image type="content" source="../media/front-of-room-16-9-dual-display-dimensions.png" alt-text="A custom background showing dual 16:9 front of room displays with element dimensions." lightbox="../media/front-of-room-16-9-dual-display-dimensions.png":::
+:::image type="content" source="../media/mtr-devices/dual-for-qr.png" alt-text="A custom background showing dual 16:9 front of room displays with element dimensions with QR code." lightbox="../media/mtr-devices/dual-for-qr.png":::
 
 **21:9 - Single front-of-room display dimensions**
 
-:::image type="content" source="../media/front-of-room-21-9-dimensions.png" alt-text="Custom background showing a 21:9 front of room display with element dimensions." lightbox="../media/front-of-room-21-9-dimensions.png":::
+:::image type="content" source="../media/mtr-devices/mtrw-for-qr-21x9.png" alt-text="Custom background showing a 21:9 front of room display with element dimensions with QR code." lightbox="../media/mtr-devices/mtrw-for-qr-21x9.png":::
 
 #### Touch board displays
 
 When you create a custom background, avoid placing text, logos, or icons, near these locations:
 
 - **Upper left corner** - Time and room information.
-  - **Size**: 310 x 190
+  - **Size**: up to 46% of the screen width, up to 42% of the screen height depending on the display settings
 - **Bottom left corner** - Tips.
-  - **Size**: 650 x 90
-- **Right side** - Action buttons and room calendar.
+  - **Size**: up to 46% of the screen width, up to 16% of the screen height depending on the display settings
+- **Right side** - User actions and room calendar.
   - **Size**: up to 43% of the screen width, up to 72% of the screen height depending on display settings
-- **Bottom right corner** - Help button.
-  - **Size**: 157 x 137
+- **Bottom right corner** - Help.
+  - **Size**: up to 3% of the screen width, up to 5% of the screen height depending on display settings
 
 **16:9 - Touch board display dimensions**
 
-:::image type="content" source="../media/touch-board-16-9-display-dimensions.png" alt-text="A custom background showing a 16:9 touch board display with element dimensions." lightbox="../media/touch-board-16-9-display-dimensions.png":::
+:::image type="content" source="../media/mtr-devices/mtrw-touchboard-qr-16x9.png" alt-text="A custom background showing a 16:9 touch board display with element dimensions with a QR code." lightbox="../media/mtr-devices/mtrw-touchboard-qr-16x9.png":::
 
 **3:2 - Touch board display dimensions**
 
-:::image type="content" source="../media/touch-board-3-2-display-dimensions.png" alt-text="A custom background showing a 3:2 touch board display with element dimensions." lightbox="../media/touch-board-3-2-display-dimensions.png":::
+:::image type="content" source="../media/mtr-devices/mtrw-touchboard-qr-3x2.png" alt-text="A custom background showing a 3:2 touch board display with element dimensions with a QR code." lightbox="../media/mtr-devices/mtrw-touchboard-qr-3x2.png":::
 
 ### Custom background template
 

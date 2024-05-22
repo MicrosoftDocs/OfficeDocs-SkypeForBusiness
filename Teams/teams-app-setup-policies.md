@@ -118,11 +118,11 @@ To add apps for your users using an app setup policy, follow these steps:
 
 Developers can create bots as part of [Microsoft Bot Framework](https://dev.botframework.com/). Developers can incorporate these bots in a Teams app for use in Teams or developers can share these bots as independent bots that users can use anywhere else, including in Teams client. As an admin, you not only govern Teams apps that contain bots but you can also let your users use independent bots.
 
-| Bot scenario and admin center settings                                                                         | Works in Teams classic | Works in [new Teams](new-teams-desktop-admin.md) |
-|:---------------------------------------------------------------------------------------------------------------|:-----------------------|:-------------------------------------------------|
-| Independent bot and custom app upload isn't allowed.                                                           | Yes                    | No                                               |
-| Independent bot and [custom app upload is allowed](teams-custom-app-policies-and-settings.md).                 | Yes                    | Yes                                              |
-| Bot is part of a Teams app and admin [allows the app](manage-apps.md#allow-or-block-apps) in the organization. | Yes                    | Yes                                              |
+Teams classic and in [new Teams](new-teams-desktop-admin.md) support the following bot scenarios based on the admin center settings:
+
+* Independent bots don't work if custom app upload isn't allowed.
+* Independent bots work if [custom app upload is allowed](teams-custom-app-policies-and-settings.md).
+* Any bot that is a part of a Teams app works if admin [allows the app](manage-apps.md#allow-or-block-apps) in the organization.
 
 :::image type="content" source="media/use-bots-setup-policy.png" alt-text="Flowchart showing a decision making flow for admins to know how they can allow their users to use independent bots." lightbox="media/use-bots-setup-policy-large.png":::
 

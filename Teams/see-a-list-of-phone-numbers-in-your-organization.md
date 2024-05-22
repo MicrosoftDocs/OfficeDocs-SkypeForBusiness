@@ -87,7 +87,7 @@ To see a list of all telephone numbers that you have for your organization, use 
 Get-CsPhoneNumberAssignment | ft TelephoneNumber,ActivationState,NumberType
 ```
 
-To see all of the telephone numbers that are assigned to users, use the [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser) cmdlet. For example, to see all users with a telephone number assigned, run the following command:
+To see all of the telephone numbers that are assigned to users, use the [Get-CsOnlineUser](/powershell/module/teams/get-csonlineuser) cmdlet. For example, to see all users with a telephone number assigned, run the following command:
 
 ```PowerShell
 Get-CsOnlineUser | Where-Object  { $_.LineURI -notlike $null } | ft DisplayName,UserPrincipalName,LineURI
@@ -106,4 +106,4 @@ Get-CsOnlineUser | Where-Object  { $_.LineURI -notlike $null } | ft DisplayName,
 
 [Get-CsPhoneNumberAssignment](/powershell/module/teams/get-csphonenumberassignment)
   
-[Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser)
+[Get-CsOnlineUser](/powershell/module/teams/get-csonlineuser)

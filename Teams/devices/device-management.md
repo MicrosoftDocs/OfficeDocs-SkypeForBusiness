@@ -3,13 +3,16 @@ title: Manage devices in Microsoft Teams
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
+ms.reviewer: kimmatlock
+ms.date: 08/25/2023
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
-audience: admin
-ms.reviewer: kimmatlock
-ms.date: 08/25/2023
+audience: Admin
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
+  - teams-rooms-devices
   - M365-collaboration
   - m365initiative-deployteams
   - Teams_ITAdmin_Devices
@@ -22,8 +25,6 @@ ms.custom:
 description: Manage devices used with Microsoft Teams in your organization.
 ms.localizationpriority: medium
 search.appverid: MET150
-appliesto: 
-  - Microsoft Teams
 ---
 
 # Manage devices in Teams 

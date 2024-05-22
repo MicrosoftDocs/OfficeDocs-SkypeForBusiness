@@ -24,11 +24,14 @@ ms.localizationpriority: high
 
 You can upgrade to the new Teams client to your organization by setting policies in either the Teams Admin Center or by using PowerShell.
 
+> [!TIP]
+>As a companion to this article, we recommend using the [Microsoft Teams Setup Guide](https://go.microsoft.com/fwlink/?linkid=2270034) when signed in to the Microsoft 365 admin center. This guide will customize your experience based on your environment. To review best practices without signing in and activating automated setup features, go to the [Microsoft 365 setup portal](https://go.microsoft.com/fwlink/?linkid=2270204).
+
 ## Prerequisites
 
 |Requirement|Version|
 |:----------|:------|
-|Windows| Windows 10 version 10.0.19041 or higher (excluding Windows 10 LTSC for Teams desktop app)|
+|Windows| Windows 10 version 10.0.19041 or higher (excluding Windows 10 LTSC for Teams desktop app). Users of Windows N SKU need to enable [Media Feature Pack for Windows 10/11 N](https://support.microsoft.com/windows/media-feature-pack-for-windows-10-11-n-september-2022-78cfeea5-c7d9-4aa8-b38f-ee4df1392009#:~:text=Here%E2%80%99s%20how%20to%20install%20the%20Media%20Feature%20Pack%3A,select%20Settings%20%3E%20Apps%20%3E%20Optional%20features.%20)|
 |Webview2|Update to the most current version. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise)|
 |Teams app|Version 1.6.00.4472 to see the *Try the new Teams* toggle.</br></br>If you are at a lower version, select the overflow menu **(…) > Check for updates > Update**. Then restart your app.|
 |Office |Microsoft 365 Apps or Office LTSC 2021 Learn more: [Office versions and connectivity to Microsoft 365 services](/deployoffice/endofsupport/microsoft-365-services-connectivity)|
@@ -48,7 +51,7 @@ You can upgrade to the new Teams client to your organization by setting policies
 Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-history-microsoft365-apps-by-date#supported-versions).
 
 > [!NOTE]
-> The end of availability for classic Teams client is March 31 2024 for most people, with some exceptions ending on June 30 2024. For more information see [End of availability for classic Teams client](teams-classic-client-end-of-availability.md).
+> The end of availability for classic Teams client is June 30 2024. For more information see [End of availability for classic Teams client](teams-classic-client-end-of-availability.md).
 
 ## Set the policies to upgrade to the new Teams client
 
@@ -70,7 +73,13 @@ Configure setting via Teams Admin Center.
    |Classic Teams as default|Use this value to have classic Teams the default version. The new Teams toggle switch displays to let users opt into the new Teams and switch back if needed. **Note:** This option was previously called *Users can choose*.|
    |Microsoft controlled| Default. The value lets Microsoft control whether the new Teams toggle switch is shown or not based on product readiness|
    |New Teams as default </br>Rollout for the feature began in early August  2023 | Use this value to make new Teams the default version. Users can switch back to classic Teams using the toggle.|
-   |New Teams only (Rolling out mid-February 2024) |Use this value to make new Teams the default version and uninstall classic Teams. Users don't have the option to switch back to classic Teams.|
+   |New Teams only (Rolling out mid-February 2024) |Use this value to make new Teams the default version and uninstall classic Teams after a fourteen-day period. Users don't have the option to switch back to classic Teams.|
+
+> [!IMPORTANT]
+> Admins should know that they can always move forward in the steps to new Teams Only from any other point in the rollout schedule, but they can't move backwards in the steps from where they currently are. Some examples:
+>
+> - If a customer is currently in classic Teams default mode, they can go to new Teams default mode, or new Teams Only, by assigning those policy states. However, they can't move back to the AdminDisabled state.
+> - If a customer is currently in new Teams default mode, they can move forward to new Teams Only by assigning that policy state. In this case, they couldn't move back to classic Teams default or AdminDisabled.
 
 In addition to PowerShell, you can also use Teams Admin Center to manage the visibility of the toggle on a per-user basis.
 
@@ -211,7 +220,7 @@ teamsbootstrapper.exe -x -m
 
 #### User settings migration
 
-End user settings are automatically migrated from classic Teams to new Teams during the intial switch.  
+End user settings are automatically migrated from classic Teams to new Teams during the initial switch.  
 
 >[!Note]
 >Settings are only migrated once, the first time a user updates to new Teams. After that, no incremental migrations of setting changes will occur if the user switches back and forth between classic and new Teams.
@@ -242,5 +251,5 @@ Local settings that are automatically migrated when switching from classic Teams
 
 ## Related topics
 
-- [Troubleshooting installation issues in the new Teams client](new-teams-troubleshooting-installation.md)
+- [Troubleshooting installation issues in the new Teams client](/microsoftteams/troubleshoot/teams-administration/fix-new-teams-installation-issues)
 - [Upgrade to new Teams for Virtualized Desktop Infrastructure (VDI)](new-teams-vdi-requirements-deploy.md)

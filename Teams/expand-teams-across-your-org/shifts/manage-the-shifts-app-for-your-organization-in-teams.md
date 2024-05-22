@@ -26,6 +26,7 @@ ms.collection:
   - highpri
 appliesto: 
   - Microsoft Teams
+  - Microsoft 365 for frontline workers
 ms.custom: seo-marvel-mar2020
 ---
 
@@ -52,9 +53,9 @@ Shifts is available in all Enterprise SKUs where Teams is available.
 
 ## Location of Shifts data
 
-Shifts data is currently stored in Azure in data centers in Asia Pacific (APAC), the European Union (EU), and North America.
+Shifts data is stored in one of the following region geographies: Asia Pacific (APAC), European Union (EU), or United States. Additionally, Shifts offers data residency locally in Australia, Canada, France, Japan, and the United Kingdom.
 
-To learn more about Shifts data, including storage, retention, retrieval, and encryption of Shifts data, see [Shifts data FAQ](shifts-data-faq.md).
+To learn more about Shifts data, including data storage location, security and compliance, and access control, see [Shifts data FAQ](shifts-data-faq.md).
 
 ## Set up Shifts
 
@@ -108,7 +109,7 @@ Before you can search the audit log, you have to first turn on auditing in the M
 
 ## Give feedback or report an issue
 
-To send feedback, in **Teams**, go to **Help** > **Report a Problem**. Select **Other**, and then enter your feedback or details about the issue you're experiencing. Indicate at the beginning of your feedback report that you're sending feedback about "Shifts" so we can easily identify Shifts issues.
+To send feedback or report an issue, select **Settings and more** (**…**) in Teams, and then choose **Help** > **Give feedback**. Enter your feedback or details about the issue you're experiencing. Indicate at the beginning of your feedback report that you're sending feedback about Shifts so we can easily identify Shifts issues.
 
 ## Related articles
 

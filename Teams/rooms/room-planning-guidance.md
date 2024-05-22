@@ -4,22 +4,22 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.date: 10/04/2023
-ms.topic: conceptual
-audience: ITPro
+ms.reviewer: sohailta
+ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-search.appverid: MET150
-ms.reviewer: sohailta
-description: A lookbook and guide for meeting room optimization with Teams Rooms solutions and devices.
-ms.collection: 
-  - M365-collaboration
-  - Tier1
-  - teams-rooms-devices
-f1.keywords: 
-  - NOCSH
-localization_priority: Normal
 appliesto: 
   - Microsoft Teams
+ms.collection: 
+  - M365-collaboration
+  - teams-rooms-devices
+  - Tier1
+f1.keywords: 
+  - NOCSH
+ms.localizationpriority: Medium
+search.appverid: MET150
+description: A lookbook and guide for meeting room optimization with Teams Rooms solutions and devices.
 ---
 
 # Meeting room guidance for Teams
@@ -316,7 +316,7 @@ Overhead lights should be provided to illuminate the space evenly, with meeting 
 
 ### Microsoft Teams Rooms solution
 
-Signature Teams Rooms require the use of Microsoft Teams Rooms on Microsoft Windows.
+Signature Teams Rooms require the use of features that may only be available on certain platforms, consult the feature comparison document to ensure your desired functionality is available: [Teams Rooms Feature Comparison](/microsoftteams/rooms/teams-devices-feature-comparison).
 
 ### Cameras
 

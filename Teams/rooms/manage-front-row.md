@@ -5,17 +5,19 @@ author: mstonysmith
 ms.reviewer: yoojinjung
 ms.date: 10/10/2023
 manager: pamgreen
-audience: ITPro
 ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-f1.keywords: 
-  - NOCSH
-ms.localizationpriority: medium
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
   - Tier1
+f1.keywords: 
+  - NOCSH
+ms.localizationpriority: medium
 description: Remotely configure the front row layout on Microsoft Teams Rooms systems.
 ---
 

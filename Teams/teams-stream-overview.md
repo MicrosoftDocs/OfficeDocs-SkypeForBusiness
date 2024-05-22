@@ -1,7 +1,7 @@
 ---
 title: Live events in Microsoft Teams overview
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
@@ -15,7 +15,7 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: This article gives an overview of encoder-based RTMP configuration for Microsoft Teams streaming events.
-localization_priority: Normal
+ms.localizationpriority: Medium
 appliesto: 
   - Microsoft Teams
 ms.custom:

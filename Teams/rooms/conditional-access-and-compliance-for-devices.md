@@ -2,19 +2,21 @@
 title: Conditional Access and compliance best practices for Microsoft Teams Rooms
 ms.author: tonysmit
 author: mstonysmith
+manager: pamgreen
 ms.reviewer: tjaved
 ms.date: 11/02/2023
-manager: pamgreen
-audience: ITPro
-ms.topic: conceptual
+ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-f1.keywords: 
-  - NOCSH
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
   - Tier1
+f1.keywords: 
+  - NOCSH
 description: Learn about recommended Conditional Access and Intune device compliance policies and best practices for Microsoft Teams Rooms.
 ---
 

@@ -13,15 +13,14 @@ searchScope:
   - Microsoft Cloud for Healthcare
   - Microsoft Cloud for Retail
 audience: admin
-description: Learn how to manage the Virtual Appointments app for users in your organization.
+description: Learn how to manage the Virtual Appointments app which provides business-to-customer engagements, including scheduling, analytics, and management options.
 ms.localizationpriority: medium
-MS.collection: 
-  - Teams_ITAdmin_Help
-  - M365-collaboration
-  - m365-frontline
-  - teams-1p-app-admin
-  - highpri
-  - m365-virtual-appointments
+ms.collection: 
+- M365-collaboration
+- m365-frontline
+- teams-1p-app-admin
+- highpri
+- m365-virtual-appointments
 appliesto: 
   - Microsoft Teams
 ---
@@ -141,8 +140,8 @@ To pin the Virtual Appointments app for your users, you can edit the global (Org
 See [Terms of service](/legal/microsoft-365/virtual-appointments-app-terms-of-service).
 
 ## Give feedback or report an issue
-  
-To send us feedback or report an issue, select **Help** near the bottom of the left pane in Teams, and then select **Report a problem**. Select **Virtual Visits**, and then enter your feedback or details about the issue you're experiencing.
+
+To send us feedback or report an issue, select **Settings and more** (**…**) in Teams, and then choose **Help** > **Give feedback**. Enter your feedback or details about the issue you're experiencing. Indicate at the beginning of your feedback report that you're sending feedback about the Virtual Appointments app so we can easily identify Virtual Appointments issues.
 
 ## Related articles
 

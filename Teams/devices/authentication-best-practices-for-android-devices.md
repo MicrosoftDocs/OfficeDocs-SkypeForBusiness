@@ -3,23 +3,23 @@ title: Authentication best practices for Microsoft Teams shared device managemen
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
+ms.reviewer: tjaved
 ms.date: 11/02/2023
-ms.topic: conceptual
-audience: ITPro
+ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
-search.appverid: MET150
-ms.reviewer: tjaved
-description: Best practices on shared android device management in Teams. This features Conditional Access, password policy, multifactor authentication advice and more.
-ms.collection: 
-  - M365-collaboration
-  - Teams_ITAdmin_Devices
-  - Tier1
-f1.keywords: 
-  - NOCSH
-localization_priority: Normal
+audience: Admin
 appliesto: 
   - Microsoft Teams
+ms.collection: 
+  - teams-rooms-devices
+  - Teams_ITAdmin_Devices
+  - Tier1
+search.appverid: MET150
+f1.keywords: 
+  - NOCSH
+ms.localizationpriority: Medium
+description: Best practices on shared android device management in Teams. This features Conditional Access, password policy, multifactor authentication advice and more.
 ---
 
 # Authentication best practices for Teams shared device management on Android devices

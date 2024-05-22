@@ -5,15 +5,15 @@ author: mstonysmith
 ms.reviewer: divank
 ms.date: 11/04/2023
 manager: pamgreen
-audience: ITPro
+audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-rooms
-ms.collection: 
+ms.collection:
   - M365-collaboration
   - teams-rooms-devices
   - Tier3
-f1.keywords: 
+f1.keywords:
   - NOCSH
 ms.localizationpriority: medium
 hideEdit: true
@@ -21,283 +21,342 @@ description: Learn about supported Microsoft Teams Rooms on Android app and firm
 ms.custom: seo-marvel-apr2020
 ---
 
-# Microsoft Teams Rooms on Android app and firmware versions
+# Product release information for Microsoft Teams Rooms on Android
 
-The following are the latest Teams Rooms on Android app and firmware versions.
+For information about the latest Teams app releases, see [What's new in Microsoft Teams Devices, Teams Rooms on Android](/microsoftteams/rooms/rooms-release-note?tabs=Android).
 
-## App versions
+The following are the latest firmware versions released via Microsoft Teams Admin Center.
 
-| Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
-|:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-| 2023 Update #2B1  | Feb 07, 2023 |`1449/1.0.96.2023120901`| `5.0.5484.0` | `1.0.0.202306202019.product version code : 486` |
-| 2023 Update #2B1  | Dec 14, 2023 |`1449/1.0.96.2023120801`| `5.0.6061.0` | `1.0.0.202306202019.product version code : 486` |
-| 2023 Update #2A  | Oct 04, 2023 |`1449/1.0.96.2023090601`| `5.0.5954.0` | `1.0.0.202306202019.product version code : 486` |
-| 2023 Update #2  | June 28, 2023 |`1449/1.0.96.2023062301`| `5.0.5484.0` | `1.0.0.202301162118.product version code : 413` |
-| 2023 Update #1C  | June 12, 2023 |`1449/1.0.96.2023060802`| `5.0.5484.0` | `1.0.0.202209060820.product version code : 382` |
-| 2023 Update #1B  | May 05, 2023 |`1449/1.0.96.2023050203`| `5.0.5484.0` | `1.0.0.202209060820.product version code : 382` |
-| 2023 Update #1A  | April 17, 2023 |`1449/1.0.96.2023041207`| `5.0.5484.0` | `1.0.0.202209060820.product version code : 382` |
-| 2023 Update #1  | Mar 23, 2023 |`1449/1.0.96.2023031201`| `5.0.5484.0` | `1.0.0.202209060820.product version code : 382` |
-| 2022 Update #3  | Dec 13, 2022 |`1449/1.0.96.2022120503`| `5.0.5484.0` | `1.0.0.202205230848.product version code : 361` |
-| 2022 Update #2B  | Sep 15, 2022 |`1449/1.0.96.2022090606`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
-| 2022 Update #2A  | August 8, 2022 |`1449/1.0.96.2022072103`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
-| 2022 Update #2  | May 25, 2022 |`1449/1.0.96.2022051102`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
-| 2022 Update #1  | February 24, 2022 |`1449/1.0.96.2022011305`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
-| 2021 Update #2A | July 15, 2021  |`1449/1.0.96.2021070803`|  `5.0.5088.0` |  `1.0.0.202104280345.product version code: 262` |
-| 2021 Update #2 | June 28, 2021  |`1449/1.0.96.2021051904`|  `5.0.5088.0` |  `1.0.0.202104280345.product version code: 262` |
-| 2021 Update #1A  |May 12, 2021  |`1449/1.0.96.2021042903` |`5.0.4927.0`     |`1.0.0.202010121132.product version code: 223` |
-| 2021 Update #1  |April 5, 2021  |`1449/1.0.96.2021032002`  |`5.0.4927.0`     |`1.0.0.202010121132.product version code: 223` |
-| 2020 Update #3  |November 24, 2020  |`1449/1.0.94.2020102101`  |`5.0.4927.0`     |`1.0.0.202006290446.product version code: 216` |
-| 2020 Update #2  | August 24, 2020| `1449/1.0.94.2020062501`    | `5.0.4771.0`    | `1.0.0.202005060552.product version code: 212`|
-| 2020 Update #1  | May 13, 2020 | `.040901`                     | `.4715`                  | `.210`                |
+## Firmware versions released to Public cloud
 
-## Firmware versions
+#### Audiocodes
 
-When you install a new firmware version on your device, you can determine the corresponding Microsoft Teams app, Company Portal, and Admin Agent, versions that are installed by finding the product release in the **Included product release** column. Then look up the product release in the **App versions** table above.
+| Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date |
+|:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
+| Audiocodes RXV81 | `2.4.55` | N/A| `1449/1.0.96.2024032804` | `5.0.5484.0`|  `1.0.0.202402202353.product` | May 20, 2024|
+| Audiocodes RX-Pad | `2.4.55` | N/A | `1449/1.0.96.2024032804` | `5.0.5484.0`| `1.0.0.202402202353.product` | May 20, 2024|
+| Audiocodes RXV200 | `2.4.55` | N/A | `1449/1.0.96.2024032804` | `5.0.5484.0`| `1.0.0.202402202353.product` | May 20, 2024|
+| Audiocodes RXV81 | `2.2.808` | N/A| `1449/1.0.97.2023062301` | `5.0.5484.0`|  `1.0.0.202310260109.product` | March 1, 2024|
+| Audiocodes RX-Pad | `2.2.808` | N/A | `1449/1.0.97.2023062301` | `5.0.5484.0`| `1.0.0.202310260109.product` | March 1, 2024|
+| Audiocodes RXV200 | `2.2.808` | N/A | `1449/1.0.97.2023062301` | `5.0.5484.0`| `1.0.0.202310260109.product` | March 1, 2024|
+| Audiocodes RXV81 | `2.2.335` | N/A| `1449/1.0.97.2023062301` | `5.0.5484.0`|  `1.0.0.202306202019.product` | November 9, 2023|
+| Audiocodes RX-Pad | `2.2.335` | N/A | `1449/1.0.97.2023062301` | `5.0.5484.0`| `1.0.0.202306202019.product` | November 9, 2023|
+| Audiocodes RXV200 | `2.2.335` | N/A | `1449/1.0.97.2023062301` | `5.0.5484.0`| `1.0.0.202306202019.product` | November 9, 2023|
+| Audiocodes RXV81 | `2.2.311` |  N/A | `1449/1.0.97.2023062301` | `5.0.5484.0`| `1.0.0.202306202019.product` | October 17, 2023|
+| Audiocodes RX-Pad | `2.2.311` |  N/A | `1449/1.0.97.2023062301` | `5.0.5484.0`| `1.0.0.202306202019.product` | October 17, 2023|
+| Audiocodes RXV81 | `2.0.369` |  N/A | `1449/1.0.97.2023062301` | `5.0.5484.0`| `1.0.0.202305022347.product` | July 24, 2023|
+| Audiocodes RX-Pad | `2.0.369` |  N/A | `1449/1.0.97.2023062301` | `5.0.5484.0`| `1.0.0.202305022347.product` | July 24, 2023|
+| Audiocodes RXV81 | `2.0.268` | N/A |`1449/1.0.96.2023041207`| `5.0.5484.0`| `1.0.0.202301162118.product` | May 30, 2023 |
 
-| Device model  | Firmware version | Included product release |
-|:--------------|:-----------------|:-------------------------|
-| DTEN D7X 75" |`1.5.5.4`   | 2023 Update #1C |
-| DTEN D7X 55" |`1.5.5.4`   | 2023 Update #1C |
-| DTEN Mate Touch Console | `2.1.1.1` | 2023 Update #1C |
-| Yealink CTP18 | `137.320.0.50`   | 2023 Update #2B1  |
-| Yealink MeetingBoard 65" | `155.15.0.65` | 2023 Update #2B1 |
-| Yealink MeetingBoard 86" | `155.15.0.65` | 2023 Update #2B1 |
-| Logi Rallybar | `1.11.254`   | 2023 Update #2 |
-| Logi Rallybar Mini | `1.11.254`   | 2023 Update #2  |
-| Logi RoomMate | `1.11.215`   | 2023 Update #2  |
-| Logi Rallybar Huddle | `1.11.166`   | 2023 Update #2  |
-| Logi Console  | `1.11.202`| 2023 Update #2  |
-| Jabra Panacast 50 VBS | `1.17.4-1` | 2023 Update #2 |
-| Jabra Panacast 50 TC | `1.17.4-1` | 2023 Update #2 |
-| Cisco Board Pro 55 | `11.11.1.10` | 2023 Update #2B1 |
-| Cisco Board Pro 75 | `11.11.1.10` | 2023 Update #2B1 |
-| Cisco Room Bar | `11.11.1.10` | 2023 Update #2B1 |
-| Cisco Room Kit Pro | `11.11.1.10` | 2023 Update #2B1 |
-| Cisco Desk Pro | `11.11.1.10` | 2023 Update #2B1 |
-| Cisco Room Bar Pro | `11.11.1.10` | 2023 Update #2B1 |
-| Cisco Room Kit EQ | `11.11.1.10` | 2023 Update #2B1 |
-| Cisco Navigator | `11.11.1.10` | 2023 Update #2B1 |
-| Neat Bar | `NFB1.20230928.0015` | 2023 Update #2B1 |
-| Neat Bar Pro| `NFD1.20230928.0015` | 2023 Update #2B1 |
-| Neat Board | `NFC1.20230928.0015	` |  2023 Update #2B1 |
-| Neat Board 50 | `NFC1.20230928.0015	` |  2023 Update #2B1 |
-| Neat Pad touch console | `NFA1.20230928.0116`  |  2023 Update #2B1 |
-| Cisco Board Pro 55 | `11.10.1.9` | 2023 Update #2B1 |
-| Cisco Board Pro 75 | `11.10.1.9` | 2023 Update #2B1 |
-| Cisco Room Bar | `11.10.1.9` | 2023 Update #2B1 |
-| Cisco Room Kit Pro | `11.10.1.9` | 2023 Update #2B1 |
-| Cisco Desk Pro | `11.10.1.9` | 2023 Update #2B1 |
-| Cisco Room Bar Pro | `11.10.1.9` | 2023 Update #2B1 |
-| Cisco Room Kit EQ | `11.10.1.9` | 2023 Update #2B1 |
-| Cisco Navigator | `11.10.1.9` | 2023 Update #2B1 |
-| Yealink MeetingBar A10 | `278.320.0.32`   | 2023 Update #2B1  |
-| Yealink MeetingBar A20 | `133.320.0.35`   | 2023 Update #2B1  |
-| Yealink MeetingBar A30 | `133.320.0.35`   | 2023 Update #2B1  |
-| Yealink CTP18 | `137.320.0.40`   | 2023 Update #2B1  |
-| Yealink MeetingBoard 65" | `155.15.0.59` | 2023 Update #2B1 |
-| Yealink MeetingBoard 86" | `155.15.0.59` | 2023 Update #2B1 |
-| Poly Studio X52 | `4.1.2-388101` | 2023 Update #2B1 |
-| Poly TC10 | `4.1.2-211367` | 2023 Update #2B1 |
-| Poly Studio X30 | `4.1.2-388101` | 2023 Update #2B1 |
-| Poly Studio X50 | `4.1.2-388101` | 2023 Update #2B1 |
-| Poly Studio X70 | `4.1.2-388101` | 2023 Update #2B1 |
-| Poly Studio G7500 | `4.1.2-388101` | 2023 Update #2B1 |
-| Poly TC8 | `4.1.2-211367` | 2023 Update #2B1 |
-| DTEN D7X 75" |`1.4.5.2`   | 2023 Update #1C |
-| DTEN Mate Touch Console | `2.0.3.0` | 2023 Update #1C |
-| Logi Rallybar | `1.10.409`   | 2023 Update #2 |
-| Logi Rallybar Mini | `1.10.409`   | 2023 Update #2  |
-| Logi RoomMate | `1.10.175`   | 2023 Update #2  |
-| Logi Rallybar Huddle | `1.10.277`   | 2023 Update #2  |
-| Logi Console  | `1.10.129`    | 2023 Update #2  |
-| Audiocodes RXV81 | `2.2.335` | 2023 Update #2 |
-| Audiocodes RX-Pad | `2.2.335` | 2023 Update #2 |
-| Audiocodes RXV81 | `2.2.311` | 2023 Update #2 |
-| Audiocodes RX-Pad | `2.2.311` | 2023 Update #2 |
-| Neat Bar | `NFB1.20230504.0021` | 2023 Update #2A |
-| Neat Bar Pro| `NFD1.20230504.0029` | 2023 Update #2A |
-| Neat Board | `NFC1.20230504.0021` |  2023 Update #2A |
-| Neat Pad touch console | `NFA1.20230504.0204`  |  2023 Update #2A |
-| Poly Studio X52 | `4.1.0_00.180034` | 2023 Update #2A |
-| Poly TC10 | `4.1.0.211230` | 2023 Update #2A |
-| Poly Studio X30 | `4.1.0_00.180034` | 2023 Update #2A |
-| Poly Studio X50 | `4.1.0_00.180034` | 2023 Update #2A |
-| Poly Studio X70 | `4.1.0_00.180034` | 2023 Update #2A |
-| Poly Studio G7500 | `4.1.0_00.180034` | 2023 Update #2A |
-| Poly TC8 | `4.1.0.211230` | 2023 Update #2A |
-|Yealink DeskVisionA24 | `156.15.0.32` | 2023 Update #2|
-| Neat Bar Pro| `NFD1.20230504.0027` | 2023 Update #2 |
-| Logi Rallybar | `1.10.369`   | 2023 Update #2 |
-| Logi Rallybar Mini | `1.10.369`   | 2023 Update #2  |
-| Logi RoomMate | `1.10.137`   | 2023 Update #2  |
-| Logi Console  | `1.10.121`    | 2023 Update #2  |
-| DTEN_MATE | `2.0.2.0` | 2023 Update #1C |
-| Poly Studio X52 | `4.1.0.382263` | 2023 Update #2 |
-| Poly TC10 | `4.1.0.211200` | 2023 Update #2 |
-| Poly Studio X30 | `4.1.0.382263` | 2023 Update #2 |
-| Poly Studio X50 | `4.1.0.382263` | 2023 Update #2 |
-| Poly Studio X70 | `4.1.0.382263` | 2023 Update #2 |
-| Poly Studio G7500 | `4.1.0.382263` | 2023 Update #2 |
-| Poly TC8 | `4.1.0.211200` | 2023 Update #2 |
-| Neat Bar | `NFB1.20230504.0019` | 2023 Update #2 |
-| Neat Bar Pro| `NFD1.20230504.0025` | 2023 Update #2 |
-| Neat Board | `NFC1.20230504.0019` |  2023 Update #2 |
-| Neat Pad touch console | `NFA1.20230504.0202`  |  2023 Update #2 |
-| DTEN D7X 55" |`1.4.3.3`   | 2023 Update #1C |
-| Logi Rallybar | `1.9.571`   | 2023 Update #2 |
-| Logi Rallybar Mini | `1.9.571`   | 2023 Update #2  |
-| Logi RoomMate | `1.9.372`   | 2023 Update #2  |
-| Logi Rallybar Huddle | `1.10.264`   | 2023 Update #2  |
-| Logi Console  | `1.9.504`    | 2023 Update #2  |
-| EPOS EXPAND Vision 5T |`v1.7.23199.02`   | 2023 Update #2 |
-| EPOS EXPAND Vision 3T |`v1.7.23195.03`   | 2023 Update #2 |
-| EPOS EXPAND Control 3C |`v1.7.23198.05`   | 2023 Update #2 |
-| Audiocodes RXV81 | `2.0.369` | 2023 Update #2 |
-| Audiocodes RX-Pad | `2.0.369` | 2023 Update #2 |
-| Cisco Board Pro 55 | `11.5.2.5` | 2023 Update #2 |
-| Cisco Board Pro 75 | `11.5.2.5` | 2023 Update #2 |
-| Cisco Room Bar | `11.5.2.5` | 2023 Update #2 |
-| Cisco Room Kit Pro | `11.5.2.5` | 2023 Update #2 |
-| Cisco Desk Pro | `11.5.2.5` | 2023 Update #2 |
-| Cisco Room Bar Pro | `11.5.2.5` | 2023 Update #2 |
-| Cisco Room Kit EQ | `11.5.2.5` | 2023 Update #2 |
-| Poly Studio X52 | `4.1.0.382189` | 2023 Update #1B |
-| Poly TC10 | `4.1.0.211109` | 2023 Update #1B |
-| EPOS EXPAND Vision 5T |`v1.4.23139.07`   | 2023 Update #1A |
-| EPOS EXPAND Control 3C |`v1.4.23139.06`   | 2023 Update #1A |
-| Logi Rallybar | `1.9.544`   | 2023 Update #1A  |
-| Logi Rallybar Mini | `1.9.544`   | 2023 Update #1A  |
-| Logi RoomMate | `1.9.359`   | 2023 Update #1A  |
-| Logi Console  | `1.9.393`    | 2023 Update #1A  |
-| Poly Studio X30 | `4.0.2.384012` | 2023 Update #1 |
-| Poly Studio X50 | `4.0.2.384012` | 2023 Update #1 |
-| Poly Studio X70 | `4.0.2.384012` | 2023 Update #1 |
-| Poly Studio G7500 | `4.0.2.384012` | 2023 Update #1 |
-| Poly TC8 | `4.0.2.211096` | 2023 Update #1 |
-| Yealink MeetingBar A10 | `278.320.0.17`   | 2023 Update #1B  |
-| Yealink MeetingBar A20 | `133.320.0.18`   | 2023 Update #1B  |
-| Yealink MeetingBar A30 | `133.320.0.18`   | 2023 Update #1B  |
-| Yealink CTP18 | `137.320.0.29`   | 2023 Update #1B  |
-| Audiocodes RXV81 | `2.0.268` | 2023 Update #1A |
-| Poly Studio X30 | `4.0.1.380048` | 2023 Update #1 |
-| Poly Studio X50 | `4.0.1.380048` | 2023 Update #1 |
-| Poly Studio X70 | `4.0.1.380048` | 2023 Update #1 |
-| Poly Studio G7500 | `4.0.1.380048` | 2023 Update #1 |
-| Poly TC8 | `4.0.1.211044` | 2023 Update #1 |
-| D7X55 - Meeting board | `1.2.7.0` | 2022 Update #3 |
-| Yealink MeetingBoard 65" | `155.15.0.37` | 2022 Update #3 |
-| Yealink MeetingBoard 86" | `155.15.0.37` | 2022 Update #3 |
-| Neat Bar | `NFB1.20221128.0011` | 2022 Update #3 |
-| Neat Bar Pro| `NFD1.20221128.0011` | 2022 Update #3 |
-| Neat Board | `NFC1.20221128.0011` |  2022 Update #3 |
-| Neat Pad touch console | `NFA1.20221128.0007`  |  2022 Update #3 |
-| Logi Rallybar | `1.8.714`   | 2023 Update #1  |
-| Logi Rallybar Mini | `1.8.714`   | 2023 Update #1  |
-| Logi RoomMate | `1.8.575`   | 2023 Update #1  |
-| Logi Console  | `1.8.558`    | 2023 Update #1  |
-| Cisco Board Pro 55 | `11.3.1.16` | 2022 Update #3A |
-| Cisco Board Pro 75 | `11.3.1.16` | 2022 Update #3A |
-| Poly Studio X30 | `4.0.0-376092` | 2022 Update #3 |
-| Poly Studio X50 | `4.0.0-376092` | 2022 Update #3 |
-| Poly Studio X70 | `4.0.0-376092` | 2022 Update #3 |
-| Poly Studio G7500 | `4.0.0-376092` | 2022 Update #3 |
-| Poly Studio X30 | `3.14.1.374010` | 2022 Update #2B |
-| Poly Studio X50 | `3.14.1.374010` | 2022 Update #2B |
-| Yealink MeetingBar A20 | `133.320.0.8`   | 2022 Update #3  |
-| Yealink MeetingBar A30 | `133.320.0.8`   | 2022 Update #3  |
-| Yealink CTP18 | `133.320.0.10`   | 2022 Update #3  |
-| Neat Bar | `NFB1.20221128.0009` | 2022 Update #3 |
-| Neat Bar Pro| `NFD1.20221128.0009` | 2022 Update #3 |
-| Neat Board | `NFC1.20221128.0009` |  2022 Update #3 |
-| Neat Pad touch console | `NFA1.20221128.0005`  |  2022 Update #3 |
-| Yealink MeetingBoard 86" | `155.15.0.17` | 2022 Update #2B |
-| Neat Bar | `NFB1.20220914.1215` | 2022 Update #2B |
-| Neat Bar Pro| `NFD1.20220914.1215` | 2022 Update #2B |
-| Neat Board | `NFC1.20220914.1215` |  2022 Update #2B |
-| Neat Pad touch console | `NFA1.20220914.1215`  |  2022 Update #2B |
-| Logi Rallybar | `1.8.295`   | 2022 Update #2B  |
-| Logi Rallybar Mini | `1.8.295`   | 2022 Update #2B  |
-| Logi RoomMate | `1.8.536`   | 2022 Update #2B  |
-| Logi Rallybar  | `1.8.290`     | 2022 Update #2B  |
-| Logi Rallybar Mini  | `1.8.290`     | 2022 Update #2B  |
-| Logi Console  | `1.8.177`    | 2022 Update #2B  |
-| Logi Rallybar  | `1.7.300`     | 2022 Update #2B  |
-| Logi Rallybar Mini  | `1.7.300`     | 2022 Update #2B  |
-| Logi RoomMate  | `1.7.202`   | 2022 Update #2B  |
-| Logi Console  | `1.7.200`    | 2022 Update #2B  |
-| EPOS EXPAND Vision 3T |`1.5.22242.02`   | 2022 Update U2A |
-| Yealink MeetingBoard 65" | `155.15.0.17`   | 2022 Update #2B  |
-| Yealink MeetingBoard 65" | `155.15.0.10`   | 2022 Update #2A  |
-| Poly Studio X30 | `3.13.0.368067` | 2022 Update #2A   |
-| Poly Studio X50 | `3.13.0.368067` | 2022 Update #2A |
-| Poly TC8        | `3.13.0.210799`          | 2022 Update #2A   |
-| Yealink MeetingBar A20 | `133.310.0.44`   | 2022 Update #2B  |
-| Yealink MeetingBar A30 | `133.310.0.44`   | 2022 Update #2B  |
-| Yealink CTP18 | `137.310.0.12`   | 2022 Update #2B  |
-| Yealink MeetingBar A20 | `133.310.0.25`   | 2022 Update #2A  |
-| Yealink MeetingBar A30 | `133.310.0.25`   | 2022 Update #2A  |
-| Yealink CTP18 | `137.15.0.80`   | 2022 Update #2A  |
-| AudioCodes RXV80 | `1.16.191` | 2022 Update #2A   |
-| Poly Studio X30 | `3.14.1.374010` | 2022 Update #2B   |
-| Poly Studio X50 | `3.14.1.374010` | 2022 Update #2B  |
-| Poly Studio X30 | `3.12.0.366027` | 2022 Update #1   |
-| Poly Studio X50 | `3.12.0.366027` | 2022 Update #1  |
-| Logi Rallybar    | `1.6.552`         | 2022 Update #2    |
-| Logi Rallybar Mini | `1.6.552`       | 2022 Update #2   |
-| Neat Bar | `NFB1.20220512.2200` | 2022 Update #2 |
-| Neat Pad touch console | `NFA1.20220512.2158`  |  2022 Update #2 |
-| Neat Board | `NFC1.20220512.2200` |  2022 Update #2 |
-| Yealink MeetingBar A20 | `133.15.0.95`   | 2022 Update #2  |
-| Yealink MeetingBar A30 | `133.15.0.95`   | 2022 Update #2  |
-| Yealink CTP18 | `137.15.0.53`     | 2022 Update #2    |
-| Yealink VC210 + VC210 | `118.15.0.69`     | 2022 Update #2    |
-| Logi Tap Device  |  `1.5.705`   | 2022 Update #1    |
-| Poly Studio X30 | `3.11.0.364021`          | 2022 Update #1    |
-| Poly Studio X50 | `3.11.0.364021`          | 2022 Update #1    |
-| Logi Roommate |   `1.6.290`   | 2022 Update #1    |
-| Logi Rallybar Mini   |   `1.6.272`   | 2022 Update #1  |
-| Logi Rallybar    |   `1.6.272`   | 2022 Update #1   |
-| Logi Roommate |   `1.5.705`   | 2022 Update #1    |
-| Logi Rallybar Mini   |   `1.5.705`   | 2022 Update #1    |
-| Logi Rallybar    |   `1.5.705`   | 2022 Update #1    |
-| EPOS EXPAND Vision 3T |`1.2.4.22042.05`   | 2022 Update #1 |
-| AudioCodes RXV80 | `1.16.164`   | 2022 Update #1 |
-| Yealink VC210 | `118.15.0.65`   | 2022 Update #1    |
-| Yealink MeetingBar A20 | `133.15.0.80`   | 2022 Update #1   |
-| Yealink MeetingBar A30 | `133.15.0.80`   | 2022 Update #1   |
-| Yealink CTP18 | `137.15.0.49`    | 2022 Update #1   |
-| Poly Studio X30 | `3.9.0` | 2021 Update #2F   |
-| Poly Studio X50 | `3.9.0` | 2021 Update #2F   |
-| Poly TC8        | `3.9.0`          | 2021 Update #2F   |
-| Poly Studio X30 | `3.8.0`          | 2021 Update #2    |
-| Poly Studio X50 | `3.8.0`          | 2021 Update #2    |
-| Poly TC8        | `3.8.0`          | 2021 Update #2    |
-| Logi Rallybar    | `1.3.538`         | 2021 Update #2B    |
-| Logi Rallybar Mini | `1.3.538`       | 2021 Update #2B    |
-| Logi Rallybar    | `1.4.228`         | 2021 Update #2B    |
-| Logi Rallybar Mini | `1.4.228`       | 2021 Update #2B    |
-| Poly Studio X30 | `3.7.0`          | 2021 Update #2A    |
-| Poly Studio X50 | `3.7.0`          | 2021 Update #2A    |
-| Poly TC8        | `3.7.0`          | 2021 Update #2A    |
-| Poly Studio X30 | `3.6.0.350035`  | 2021 Update #2A    |
-| Poly Studio X50 | `3.6.0.350035`  | 2021 Update #2A    |
-| Poly TC8 | `3.6.0.210534`  | 2021 Update #2A    |
-| EPOS EXPAND Vision 3T |`1.2.2.21182.10`   | 2021 Update #2 |
-| AudioCodes RXV80 |`1.13.361`   | 2021 Update #2 |
-| Yealink VC210 |`118.15.0.54`   | 2021 Update #2    |
-| Yealink MeetingBar A20 | `133.15.0.60`     | 2021 Update #2    |
-| Yealink MeetingBar A30 | `133.15.0.60`    | 2021 Update #2    |
-| Yealink CTP18 | `137.15.0.37`    | 2021 Update #2    |
-| Poly Studio X30 | `3.5.0.344025`          | 2021 Update #2    |
-| Poly Studio X50 | `3.5.0.344025`        | 2021 Update #2    |
-| Poly TC8 | `3.5.0.210489`         | 2021 Update #2    |
-| Poly Studio X30 | `3.3.2.286154`          | 2021 Update #1    |
-| Poly Studio X50 | `3.3.2.286154`          | 2021 Update #1    |
-| Poly TC8 | `3.3.2.286154`                 | 2021 Update #1    |
-| Yealink VC210 |`118.15.0.47`     | 2021 Update #1    |
-| Yealink MeetingBar A20 | `133.15.0.54`     | 2021 Update #1    |
-| Yealink MeetingBar A30 | `133.15.0.54`     | 2021 Update #1    |
-| Yealink CTP18 | `137.15.0.30`     | 2021 Update #1    |
-| Yealink VC210 + CP900 | `118.15.0.42`     | 2020 Update #3    |
-| Poly Studio X30 | `3.2.3.280012`          | 2020 Update #3    |
-| Poly Studio X50 | `3.2.3.280012`          | 2020 Update #3    |
+#### Cisco
+
+| Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date |
+|:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
+| Cisco Board Pro 55 | `11.15.1.6` | N/A | `1449/1.0.96.2024020802` | `5.0.6061.0` | `1.0.0.202310260109.product` | May 2, 2024|
+| Cisco Board Pro 75 | `11.15.1.6` |  N/A | `1449/1.0.96.2024020802` | `5.0.6061.0` | `1.0.0.202310260109.product` |  May 2, 2024|
+| Cisco Room Bar | `11.15.1.6` |  N/A | `1449/1.0.96.2024020802` | `5.0.6061.0` | `1.0.0.202310260109.product` |  May 2, 2024|
+| Cisco Room Kit Pro | `11.15.1.6` | N/A | `1449/1.0.96.2024020802` | `5.0.6061.0` | `1.0.0.202310260109.product`| May 2, 2024|
+| Cisco Desk Pro | `11.15.1.6` |  N/A | `1449/1.0.96.2024020802` | `5.0.6061.0` | `1.0.0.202310260109.product` | May 2, 2024|
+| Cisco Room Bar Pro | `11.15.1.6` |  N/A | `1449/1.0.96.2024020802` | `5.0.6061.0` | `1.0.0.202310260109.product` | May 2, 2024|
+| Cisco Room Kit EQ | `11.15.1.6` |  N/A | `1449/1.0.96.2024020802` | `5.0.6061.0` | `1.0.0.202310260109.product` | May 2, 2024|
+| Cisco Navigator | `11.15.1.6` | N/A | `1449/1.0.96.2024020802` | `5.0.6061.0` | `1.0.0.202310260109.product` | May 2, 2024|
+| Cisco Board Pro 55 | `11.14.1.5` | N/A | `1449/1.0.96.2024020802` | `5.0.6061.0` | `1.0.0.202310260109.product` | April 01, 2024|
+| Cisco Board Pro 75 | `11.14.1.5` |  N/A | `1449/1.0.96.2024020802` | `5.0.6061.0` | `1.0.0.202310260109.product` |  April 01, 2024|
+| Cisco Room Bar | `11.14.1.5` |  N/A | `1449/1.0.96.2024020802` | `5.0.6061.0` | `1.0.0.202310260109.product` |  April 01, 2024|
+| Cisco Room Kit Pro | `11.14.1.5` | N/A | `1449/1.0.96.2024020802` | `5.0.6061.0` | `1.0.0.202310260109.product`| April 01, 2024|
+| Cisco Desk Pro | `11.14.1.5` |  N/A | `1449/1.0.96.2024020802` | `5.0.6061.0` | `1.0.0.202310260109.product` | April 01, 2024|
+| Cisco Room Bar Pro | `11.14.1.5` |  N/A | `1449/1.0.96.2024020802` | `5.0.6061.0` | `1.0.0.202310260109.product` | April 01, 2024|
+| Cisco Room Kit EQ | `11.14.1.5` |  N/A | `1449/1.0.96.2024020802` | `5.0.6061.0` | `1.0.0.202310260109.product` | April 01, 2024|
+| Cisco Navigator | `11.14.1.5` | N/A | `1449/1.0.96.2024020802` | `5.0.6061.0` | `1.0.0.202310260109.product` | April 01, 2024|
+| Cisco Board Pro 55 | `11.11.1.10` | N/A | `1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202310260109.product` | January 25, 2024|
+| Cisco Board Pro 75 | `11.11.1.10` |  N/A | `1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202310260109.product` |  January 25, 2024|
+| Cisco Room Bar | `11.11.1.10` |  N/A | `1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202310260109.product` |  January 25, 2024|
+| Cisco Room Kit Pro | `11.11.1.10` | N/A | `1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202310260109.product`| January 25, 2024|
+| Cisco Desk Pro | `11.11.1.10` |  N/A | `1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202310260109.product` | January 25, 2024|
+| Cisco Room Bar Pro | `11.11.1.10` |  N/A | `1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202310260109.product` | January 25, 2024|
+| Cisco Room Kit EQ | `11.11.1.10` |  N/A | `1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202310260109.product` | January 25, 2024|
+| Cisco Navigator | `11.11.1.10` | N/A | `1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202310260109.product` | January 25, 2024|
+| Cisco Board Pro 55 | `11.10.1.9` | `11.5.2.5` | `1449/1.0.96.2023111001` | `5.0.6061.0`| `1.0.0.202306202019.product` | December 14, 2023|
+| Cisco Board Pro 75 | `11.10.1.9` | `11.5.2.5` | `1449/1.0.96.2023111001` | `5.0.6061.0`| `1.0.0.202306202019.product` | December 14, 2023|
+| Cisco Room Bar | `11.10.1.9` | `11.5.2.5` | `1449/1.0.96.2023111001` | `5.0.6061.0`| `1.0.0.202306202019.product` | December 14, 2023|
+| Cisco Room Kit Pro | `11.10.1.9` | `11.5.2.5` | `1449/1.0.96.2023111001` | `5.0.6061.0`| `1.0.0.202306202019.product` | December 14, 2023|
+| Cisco Desk Pro | `11.10.1.9` | `11.5.2.5` | `1449/1.0.96.2023111001` | `5.0.6061.0`| `1.0.0.202306202019.product` | December 14, 2023|
+| Cisco Room Bar Pro | `11.10.1.9` | `11.5.2.5` | `1449/1.0.96.2023111001` | `5.0.6061.0`| `1.0.0.202306202019.product` | December 14, 2023|
+| Cisco Room Kit EQ | `11.10.1.9` | `11.5.2.5` | `1449/1.0.96.2023111001` | `5.0.6061.0`| `1.0.0.202306202019.product` | December 14, 2023|
+| Cisco Navigator | `11.10.1.9` | `11.5.2.5` | `1449/1.0.96.2023111001` | `5.0.6061.0`| `1.0.0.202306202019.product` | December 14, 2023|
+| Cisco Board Pro 55 | `11.5.2.5` | N/A | `1449/1.0.96.2023062301`| `5.0.5882.0` | `1.0.0.202305022347.product`| July 5, 2023 |
+| Cisco Board Pro 75 | `11.5.2.5` | N/A | `1449/1.0.96.2023062301`| `5.0.5882.0` | `1.0.0.202305022347.product`| July 5, 2023 |
+| Cisco Room Bar | `11.5.2.5` | N/A | `1449/1.0.96.2023062301`| `5.0.5882.0` | `1.0.0.202305022347.product`| July 5, 2023 |
+| Cisco Room Kit Pro | `11.5.2.5` | N/A | `1449/1.0.96.2023062301`| `5.0.5882.0` | `1.0.0.202305022347.product`| July 5, 2023 |
+| Cisco Desk Pro | `11.5.2.5` | N/A | `1449/1.0.96.2023062301`| `5.0.5882.0` | `1.0.0.202305022347.product`| July 5, 2023 |
+| Cisco Room Bar Pro | `11.5.2.5` | N/A | `1449/1.0.96.2023062301`| `5.0.5882.0` | `1.0.0.202305022347.product`| July 5, 2023 |
+| Cisco Room Kit EQ | `11.5.2.5` | N/A | `1449/1.0.96.2023062301`| `5.0.5882.0` | `1.0.0.202305022347.product`| July 5, 2023 |
+| Cisco Board Pro 55 | `11.3.1.16` | N/A | `1449/1.0.96.2023010302` | `5.0.5484.0` | `1.0.0.202209060820.product` | March 30, 2023 |
+| Cisco Board Pro 75 | `11.3.1.16` | N/A | `1449/1.0.96.2023010302` | `5.0.5484.0` | `1.0.0.202209060820.product` | March 30, 2023 |
+
+
+#### DTEN
+
+| Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date |
+|:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
+| DTEN D7X 75" |`1.5.7.2` | N/A| `1449/1.0.96.2023060802` | `5.0.5484.0`| `1.0.0.202305022347.product`| May 2, 2024|
+| DTEN D7X 55" |`1.5.7.2`   | N/A| `1449/1.0.96.2023060802` | `5.0.5484.0`| `1.0.0.202305022347.product`| May 2, 2024|
+| DTEN Mate Touch Console | `2.1.4.3` | N/A| `1449/1.0.96.2023060802` | `5.0.5484.0`| `1.0.0.202305022347.product`| May 2, 2024|
+| DTEN D7X 75" |`1.5.5.4` | N/A| `1449/1.0.96.2023060802` | `5.0.5484.0`| `1.0.0.202305022347.product`| February 8, 2024|
+| DTEN D7X 55" |`1.5.5.4`   | N/A| `1449/1.0.96.2023060802` | `5.0.5484.0`| `1.0.0.202305022347.product`| February 8, 2024|
+| DTEN Mate Touch Console | `2.1.1.1` | N/A| `1449/1.0.96.2023060802` | `5.0.5484.0`| `1.0.0.202305022347.product`| February 8, 2024|
+| DTEN D7X 75" |`1.4.5.2`   |N/A| `1449/1.0.96.2023060802` | `5.0.5484.0`| `1.0.0.202305022347.product`| December 7, 2023|
+| DTEN Mate Touch Console | `2.0.3.0` |N/A| `1449/1.0.96.2023060802` | `5.0.5484.0`| `1.0.0.202305022347.product`| December 7, 2023|
+| DTEN Mate Touch Console | `2.0.2.0` |N/A| `1449/1.0.96.2023060802` | `5.0.5484.0`| `1.0.0.202305022347.product`| September 14, 2023|
+| DTEN D7X 55" |`1.4.3.3`   | N/A| `1449/1.0.96.2023060802` | `5.0.5484.0`| `1.0.0.202305022347.product`| September 14, 2023|
+| DTEN D7X 55"| `1.2.7.0` | N/A | `1449/1.0.96.2022120503`| `5.0.5484.0` | `1.0.0.202301162118.product`|  April 18, 2023|
+
+#### EPOS
+
+| Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date |
+|:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
+| EPOS EXPAND Vision 5T |`v1.9.23365.01`| N/A |  `1449/1.0.96.2023062301`| `5.0.5484.0` | `1.0.0.202310260109.product`| February 20, 2024|
+| EPOS EXPAND Vision 3T |`v1.9.24003.01`| N/A |  `1449/1.0.96.2023062301`| `5.0.5484.0` | `1.0.0.202310260109.product`| February 22, 2024|
+| EPOS EXPAND Control 3C |`v1.9.23365.01`| N/A |  `1449/1.0.96.2023062301`| `5.0.5484.0` | `1.0.0.202310260109.product`| February 8, 2024|
+| EPOS EXPAND Vision 5T |`v1.7.23199.02`| N/A |  `1449/1.0.96.2023062301`| `5.0.5484.0` | `1.0.0.202305022347.product`| July 31, 2023|
+| EPOS EXPAND Vision 3T |`v1.7.23195.03`| N/A |  `1449/1.0.96.2023062301`| `5.0.5484.0` | `1.0.0.202305022347.product`| July 31, 2023|
+| EPOS EXPAND Control 3C |`v1.7.23198.05`| N/A |  `1449/1.0.96.2023062301`| `5.0.5484.0` | `1.0.0.202305022347.product`| July 31, 2023|
+| EPOS EXPAND Vision 5T |`v1.4.23139.07` | N/A | `1449/1.0.96.2023041207`| `5.0.5484.0` | `1.0.0.202205230848.product` | June 23, 2023|
+| EPOS EXPAND Control 3C |`v1.4.23139.06`| N/A | `1449/1.0.96.2023041207`| `5.0.5484.0` | `1.0.0.202205230848.product` | June 23, 2023|
+
+
+#### Jabra
+
+| Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date |
+|:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
+| Jabra Panacast 50 VBS | `2.8.0-15` |  N/A|  `1449/1.0.96.2024020802` | `5.0.5484.0` | `1.0.0.202402202353.product` | May 20, 2024|
+| Jabra Panacast 50 TC | `2.8.0-15` | N/A | `1449/1.0.96.2024020802` | `5.0.5484.0` | `1.0.0.202402202353.product` | May 20, 2024|
+| Jabra Panacast 50 VBS | `1.17.4-1` |  N/A|  `1449/1.0.96.2023062301` | `5.0.5484.0` | `1.0.0.202306202019.product` | January 30, 2024|
+| Jabra Panacast 50 TC | `1.17.4-1` | N/A | `1449/1.0.96.2023062301` | `5.0.5484.0` | `1.0.0.202306202019.product` | January 30, 2024|
+
+
+#### Logitech
+
+| Device model  | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date |
+|:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
+| Logi Rallybar | `1.12.252` | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | May 15, 2024|
+| Logi Rallybar Mini | `1.12.252` | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | May 15, 2024|
+| Logi RoomMate | `1.12.236`   | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | May 15, 2024|
+| Logi Rallybar Huddle | `1.12.132`   | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | May 15, 2024|
+| Logi TAP IP  | `1.12.183`|  N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | May 15, 2024|
+| Logi Rallybar | `1.11.291` | N/A | `1449/1.0.96.2023120901` | `5.0.5484.0`| `1.0.0.202306202019.product` | Recalled|
+| Logi Rallybar Mini | `1.11.291` | N/A | `1449/1.0.96.2023120901` | `5.0.5484.0`| `1.0.0.202306202019.product` | Recalled|
+| Logi RoomMate | `1.11.232`   | N/A | `1449/1.0.96.2023120901` | `5.0.5484.0`| `1.0.0.202306202019.product` | Recalled|
+| Logi Rallybar | `1.11.254` | N/A | `1449/1.0.96.2023062301` | `5.0.5484.0`| `1.0.0.202306202019.product` | January 31, 2024|
+| Logi Rallybar Mini | `1.11.254` | N/A | `1449/1.0.96.2023062301` | `5.0.5484.0`| `1.0.0.202306202019.product` | January 31, 2024|
+| Logi RoomMate | `1.11.215`   | N/A | `1449/1.0.96.2023062301` | `5.0.5484.0`| `1.0.0.202306202019.product` | January 31, 2024|
+| Logi Rallybar Huddle | `1.11.166`   | N/A | `1449/1.0.96.2023062301` | `5.0.5484.0`| `1.0.0.202306202019.product` | January 31, 2024|
+| Logi TAP IP  | `1.11.202`|  N/A | `1449/1.0.96.2023062301` | `5.0.5484.0`| `1.0.0.202306202019.product` | January 31, 2024|
+| Logi Rallybar | `1.10.409`   |N/A | `1449/1.0.96.2023062301` | `5.0.5484.0`| `1.0.0.202306202019.product` | December 6, 2023|
+| Logi Rallybar Mini | `1.10.409`   | N/A | `1449/1.0.96.2023062301` | `5.0.5484.0`| `1.0.0.202306202019.product` | December 6, 2023|
+| Logi RoomMate | `1.10.175`   |  N/A | `1449/1.0.96.2023062301` | `5.0.5484.0`| `1.0.0.202306202019.product` | December 6, 2023|
+| Logi Rallybar Huddle | `1.10.277`   |  N/A | `1449/1.0.96.2023062301` | `5.0.5484.0`| `1.0.0.202306202019.product` | December 6, 2023|
+| Logi TAP IP  | `1.10.129`    |  N/A | `1449/1.0.96.2023062301` | `5.0.5484.0`| `1.0.0.202306202019.product` | December 6, 2023|
+| Logi Rallybar | `1.10.369`   | N/A | `1449/1.0.96.2023062301` | `5.0.5484.0`| `1.0.0.202305022347.product` | September 15, 2023|
+| Logi Rallybar Mini | `1.10.369`   | N/A | `1449/1.0.96.2023062301` | `5.0.5484.0`| `1.0.0.202305022347.product` | September 15, 2023|
+| Logi RoomMate | `1.10.137`   | N/A | `1449/1.0.96.2023062301` | `5.0.5484.0`| `1.0.0.202305022347.product` | September 15, 2023|
+| Logi TAP IP  | `1.10.121`    |N/A | `1449/1.0.96.2023062301` | `5.0.5484.0`| `1.0.0.202305022347.product` | September 15, 2023|
+| Logi Rallybar | `1.9.571`   |N/A | `1449/1.0.96.2023062301` | `5.0.5484.0`| `1.0.0.202305022347.product` | August 3, 2023|
+| Logi Rallybar Mini | `1.9.571`   | N/A | `1449/1.0.96.2023062301` | `5.0.5484.0`| `1.0.0.202305022347.product` | August 3, 2023|
+| Logi RoomMate | `1.9.372`   | N/A | `1449/1.0.96.2023062301` | `5.0.5484.0`| `1.0.0.202305022347.product` | August 3, 2023|
+| Logi Rallybar Huddle | `1.10.264`   | N/A | `1449/1.0.96.2023062301` | `5.0.5484.0`| `1.0.0.202305022347.product` | August 3, 2023|
+| Logi TAP IP  | `1.9.504`    | N/A | `1449/1.0.96.2023062301` | `5.0.5484.0`| `1.0.0.202305022347.product` | August 3, 2023|
+| Logi Rallybar | `1.9.544`   | N/A | `1449/1.0.96.2023041207` |`5.0.5484.0`| `1.0.0.202305022347.product` | June 28, 2023|
+| Logi Rallybar Mini | `1.9.544`   | N/A | `1449/1.0.96.2023041207` |`5.0.5484.0`| `1.0.0.202305022347.product` | June 28, 2023|
+| Logi RoomMate | `1.9.359`   |N/A | `1449/1.0.96.2023041207` |`5.0.5484.0`| `1.0.0.202305022347.product` | June 28, 2023|
+| Logi TAP IP  | `1.9.393`    | N/A | `1449/1.0.96.2023041207` |`5.0.5484.0`| `1.0.0.202305022347.product` | June 28, 2023|
+| Logi Rallybar | `1.8.714`   | N/A | `1449/1.0.96.2023031201` | `5.0.5484.0` |`1.0.0.202301162118.product`| April 6, 2023|
+| Logi Rallybar Mini | `1.8.714`   | N/A | `1449/1.0.96.2023031201` | `5.0.5484.0` |`1.0.0.202301162118.product`| April 6, 2023|
+| Logi RoomMate | `1.8.575`   | N/A | `1449/1.0.96.2023031201` | `5.0.5484.0` |`1.0.0.202301162118.product`| April 6, 2023|
+| Logi TAP IP  | `1.8.558`    | N/A | `1449/1.0.96.2023031201` | `5.0.5484.0` |`1.0.0.202301162118.product`| April 6, 2023|
+| Logi Rallybar | `1.8.295`   | N/A | `1449/1.0.96.2022090606` | `5.0.5484.0` | `1.0.0.202209060820.product`| February 26, 2023|
+| Logi Rallybar Mini | `1.8.295` | N/A | `1449/1.0.96.2022090606` | `5.0.5484.0` |`1.0.0.202209060820.product`| February 26, 2023|
+| Logi RoomMate | `1.8.536`   | N/A | `1449/1.0.96.2022090606` | `5.0.5484.0` |`1.0.0.202209060820.product`| February 26, 2023|
+
+
+#### Neat
+
+| Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date |
+|:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
+| Neat Bar Gen2 | `NFE1.20240312.0005` | N/A | `1449/1.0.96.2024030101`| `5.0.6061.0` | `1.0.0.202310260109.product`| April 18, 2024|
+| Neat Bar | `NFB1.20240312.0005` | N/A | `1449/1.0.96.2024030101`| `5.0.6061.0` | `1.0.0.202310260109.product`| April 17, 2024|
+| Neat Bar Pro| `NFD1.20240312.0005` | N/A | `1449/1.0.96.2024030101`| `5.0.6061.0` | `1.0.0.202310260109.product`| April 17, 2024|
+| Neat Board | `NFC1.20240312.0005` |  N/A | `1449/1.0.96.2024030101`| `5.0.6061.0` | `1.0.0.202310260109.product`| April 17, 2024|
+| Neat Board 50 | `NFH1.20240312.0005` |  N/A | `1449/1.0.96.2024030101`| `5.0.6061.0` | `1.0.0.202310260109.product`| April 17, 2024|
+| Neat Pad touch console | `NFA1.20240312.0503`  | N/A | `1449/1.0.96.2024030101`| `5.0.6061.0` | `1.0.0.202310260109.product`| April 17, 2024|
+| Neat Bar | `NFB1.20240120.0007` | N/A | `1449/1.0.96.2023120801`| `5.0.6061.0` | `1.0.0.202310260109.product`| February 21, 2024|
+| Neat Bar Pro| `NFD1.20240120.0009` | N/A | `1449/1.0.96.2023120801`| `5.0.6061.0` | `1.0.0.202310260109.product`| February 21, 2024|
+| Neat Board | `NFC1.20240120.0007` |  N/A | `1449/1.0.96.2023120801`| `5.0.6061.0` | `1.0.0.202310260109.product`| February 21, 2024|
+| Neat Board 50 | `NFH1.20240120.0009` |  N/A | `1449/1.0.96.2023120801`| `5.0.6061.0` | `1.0.0.202310260109.product`| February 21, 2024|
+| Neat Pad touch console | `NFA1.20240120.0109`  | N/A | `1449/1.0.96.2023120801`| `5.0.6061.0` | `1.0.0.202310260109.product`| February 21, 2024|
+| Neat Bar | `NFB1.20230928.0015` | `NFB1.20230504.0019` |`1449/1.0.96.2023120801` | `5.0.6061.0`| `1.0.0.202306202019.product`| January 10, 2024|
+| Neat Bar Pro| `NFD1.20230928.0015` | `NFD1.20230504.0025`| `1449/1.0.96.2023120801` | `5.0.6061.0`| `1.0.0.202306202019.product`| January 10, 2024|
+| Neat Board | `NFC1.20230928.0015` | `NFC1.20230504.0019` | `1449/1.0.96.2023120801` | `5.0.6061.0`| `1.0.0.202306202019.product`| January 10, 2024|
+| Neat Board 50 | `NFH1.20230928.0015` |  N/A | `1449/1.0.96.2023120801` | `5.0.6061.0`| `1.0.0.202306202019.product`| January 10, 2024|
+| Neat Pad touch console | `NFA1.20230928.0116`  |  `NFA1.20230504.0202` | `1449/1.0.96.2023120801` | `5.0.6061.0`| `1.0.0.202306202019.product`| January 10, 2024|
+| Neat Bar Pro| `NFD1.20230504.0027` | N/A | `1449/1.0.96.2023062301` | `5.0.5484.0` |  `1.0.0.202306202019.product`| September 26, 2023|
+| Neat Bar | `NFB1.20230504.0019` | N/A | `1449/1.0.96.2023062301`| `5.0.5484.0` |  `1.0.0.202306202019.product` | August 11, 2023 |
+| Neat Bar Pro| `NFD1.20230504.0025` |  N/A | `1449/1.0.96.2023062301`| `5.0.5484.0` |  `1.0.0.202306202019.product` | August 11, 2023 |
+| Neat Board | `NFC1.20230504.0019` |   N/A | `1449/1.0.96.2023062301`| `5.0.5484.0` |  `1.0.0.202306202019.product` | August 11, 2023 |
+| Neat Pad touch console | `NFA1.20230504.0202`  |   N/A | `1449/1.0.96.2023062301`| `5.0.5484.0` |  `1.0.0.202306202019.product` | August 11, 2023 |
+| Neat Bar | `NFB1.20221128.0011` | N/A |  `1449/1.0.96.2022120503` | `5.0.5484.0` | `1.0.0.202209060820.product`| April 3, 2023 |
+| Neat Bar Pro| `NFD1.20221128.0011` | N/A |  `1449/1.0.96.2022120503` | `5.0.5484.0` | `1.0.0.202209060820.product`| April 3, 2023 |
+| Neat Board | `NFC1.20221128.0011` | N/A |  `1449/1.0.96.2022120503` | `5.0.5484.0` | `1.0.0.202209060820.product`| April 3, 2023 |
+| Neat Pad touch console| `NFA1.20221128.0007` | N/A | `1449/1.0.96.2022120503` | `5.0.5484.0` | `1.0.0.202209060820.product`| April 3, 2023 |
+| Neat Bar | `NFB1.20221128.0009` | N/A | `1449/1.0.96.2022120503` | `5.0.5484.0` | `1.0.0.202209060820.product`| February 16, 2023 |
+| Neat Bar Pro| `NFD1.20221128.0009` | N/A | `1449/1.0.96.2022120503` | `5.0.5484.0` | `1.0.0.202209060820.product`| February 16, 2023 |
+| Neat Board | `NFC1.20221128.0009` | N/A | `1449/1.0.96.2022120503` | `5.0.5484.0` | `1.0.0.202209060820.product`| February 16, 2023 |
+| Neat Pad touch console | `NFA1.20221128.0005` | N/A | `1449/1.0.96.2022120503` | `5.0.5484.0` | `1.0.0.202209060820.product`| February 16, 2023 |
+
+
+#### HP | Poly
+
+| Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date |
+|:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
+| Poly Studio X30 | `4.2.0-396113` | `4.1.0_00.180034`| `1449/1.0.96.2024020802`| `5.0.6061.0` | `1.0.0.202310260109.product`| May 2, 2024|
+| Poly Studio X50 | `4.2.0-396113` | `4.1.0_00.180034`| `1449/1.0.96.2024020802`| `5.0.6061.0` | `1.0.0.202310260109.product`| May 2, 2024|
+| Poly Studio X52 | `4.2.0-396113` |`4.1.0.382189` |`1449/1.0.96.2024020802`| `5.0.6061.0` | `1.0.0.202310260109.product`| May 2, 2024|
+| Poly Studio X70 | `4.2.0-396113` | `4.1.0_00.180034`| `1449/1.0.96.2024020802`| `5.0.6061.0` | `1.0.0.202310260109.product`| May 2, 2024|
+| Poly Studio G7500 | `4.2.0-396113` | `4.1.0_00.180034`| `1449/1.0.96.2024020802`| `5.0.6061.0` | `1.0.0.202310260109.product`| May 2, 2024|
+| Poly TC8 | `6.0.0-211616` | N/A | `1449/1.0.96.2024020802`| `5.0.6061.0` | `1.0.0.202310260109.product`| May 2, 2024|
+| Poly TC10 | `6.0.0-211616` | N/A | `1449/1.0.96.2024020802`| `5.0.6061.0` | `1.0.0.202310260109.product`| May 2, 2024|
+| Poly Studio X30 | `4.1.3.394009` | `4.1.0_00.180034`| `1449/1.0.96.2023120801`| `5.0.6061.0` | `1.0.0.202310260109.product`| February 13, 2024|
+| Poly Studio X50 | `4.1.3.394009` | `4.1.0_00.180034`| `1449/1.0.96.2023120801`| `5.0.6061.0` | `1.0.0.202310260109.product`| February 13, 2024|
+| Poly Studio X52 | `4.1.3.394009` |`4.1.0.382189` |`1449/1.0.96.2023120801`| `5.0.6061.0` | `1.0.0.202310260109.product`| February 13, 2024|
+| Poly Studio X70 | `4.1.3.394009` | `4.1.0_00.180034`| `1449/1.0.96.2023120801`| `5.0.6061.0` | `1.0.0.202310260109.product`| February 13, 2024|
+| Poly Studio G7500 | `4.1.3.394009` | `4.1.0_00.180034`| `1449/1.0.96.2023120801`| `5.0.6061.0` | `1.0.0.202310260109.product`| February 13, 2024|
+| Poly TC8 | `4.1.3.211457` | N/A | `1449/1.0.96.2023120801`| `5.0.6061.0` | `1.0.0.202310260109.product`| February 13, 2024|
+| Poly TC10 | `4.1.3.211457` | N/A | `1449/1.0.96.2023120801`| `5.0.6061.0` | `1.0.0.202310260109.product`| February 13, 2024|
+| Poly Studio X30 | `4.1.2-388101` |`4.1.0_00.180034` | `1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202310260109.product`| December 14, 2023|
+| Poly Studio X50 | `4.1.2-388101` |`4.1.0_00.180034` | `1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202310260109.product`| December 14, 2023|
+| Poly Studio X52 | `4.1.2-388101` | `4.1.0.382189` |`1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202310260109.product`| December 14, 2023|
+| Poly Studio X70 | `4.1.2-388101` | `4.1.0_00.180034` |`1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202310260109.product`| December 14, 2023|
+| Poly Studio G7500 | `4.1.2-388101` | `4.1.0_00.180034` | `1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202310260109.product`| December 14, 2023|
+| Poly TC8 | `4.1.2-211367` | N/A |`1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202310260109.product`| December 14, 2023|
+| Poly TC10 | `4.1.2-211367` | N/A|`1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202310260109.product`| December 14, 2023|
+| Poly Studio X30 | `4.1.0_00.180034` | `4.1.0.382263` | `1449/1.0.96.2023090601` | `5.0.5954.0` | `1.0.0.202306202019.product` | October 5, 2023|
+| Poly Studio X50 | `4.1.0_00.180034` | `4.1.0.382263` | `1449/1.0.96.2023090601` | `5.0.5954.0` | `1.0.0.202306202019.product` | October 5, 2023|
+| Poly Studio X52 | `4.1.0_00.180034` | N/A | `1449/1.0.96.2023090601` | `5.0.5954.0` | `1.0.0.202306202019.product` | October 5, 2023|
+| Poly Studio X70 | `4.1.0_00.180034` | `4.1.0.382263` | `1449/1.0.96.2023090601` | `5.0.5954.0` | `1.0.0.202306202019.product` | October 5, 2023|
+| Poly Studio G7500 | `4.1.0_00.180034` | `4.1.0.382263` | `1449/1.0.96.2023090601` | `5.0.5954.0` | `1.0.0.202306202019.product` | October 5, 2023|
+| Poly TC8 | `4.1.0.211230` | N/A | `1449/1.0.96.2023090601` | `5.0.5954.0` | `1.0.0.202306202019.product` | October 5, 2023|
+| Poly TC10 | `4.1.0.211230` | N/A | `1449/1.0.96.2023090601` | `5.0.5954.0` | `1.0.0.202306202019.product` | October 5, 2023|
+| Poly Studio X30 | `4.1.0.382263` | `3.14.1.374010` | `1449/1.0.96.2023062301` | `5.0.5484.0` | `1.0.0.202306202019.product` | August 28, 2023|
+| Poly Studio X50 | `4.1.0.382263` | `3.14.1.374010` | `1449/1.0.96.2023062301` | `5.0.5484.0` | `1.0.0.202306202019.product` | August 28, 2023|
+| Poly Studio X52 | `4.1.0.382263` | N/A | `1449/1.0.96.2023062301` | `5.0.5484.0` | `1.0.0.202306202019.product` | August 28, 2023|
+| Poly Studio X70 | `4.1.0.382263` | `3.14.1.374010` | `1449/1.0.96.2023062301` | `5.0.5484.0` | `1.0.0.202306202019.product` | August 28, 2023|
+| Poly Studio G7500 | `4.1.0.382263` | `3.14.1.374010` | `1449/1.0.96.2023062301` | `5.0.5484.0` | `1.0.0.202306202019.product` | August 28, 2023|
+| Poly TC8 | `4.1.0.211200` |  N/A | `1449/1.0.96.2023062301` | `5.0.5484.0` | `1.0.0.202306202019.product` | August 28, 2023|
+| Poly TC10 | `4.1.0.211200` | N/A | `1449/1.0.96.2023062301` | `5.0.5484.0` | `1.0.0.202306202019.product` | August 28, 2023|
+| Poly Studio X52 | `4.1.0.382189` | N/A |`1449/1.0.96.2023062301`| `5.0.5882.0` | `1.0.0.202305022347.product` | July 3, 2023 |
+| Poly TC10 | `4.1.0.211109` | N/A |`1449/1.0.96.2023062301`| `5.0.5882.0` | `1.0.0.202305022347.product` | July 3, 2023 |
+| Poly Studio X30 | `4.0.2.384012` | `3.14.1.374010` |`1449/1.0.96.2023031201` | `5.0.5484.0` | `1.0.0.202301162118.product` | June 16, 2023 |
+| Poly Studio X50 | `4.0.2.384012` |  `3.14.1.374010` | `1449/1.0.96.2023031201` | `5.0.5484.0` | `1.0.0.202301162118.product` | June 16, 2023 |
+| Poly Studio X70 | `4.0.2.384012` | N/A |  `1449/1.0.96.2023031201` | `5.0.5484.0` | `1.0.0.202301162118.product` | June 16, 2023 |
+| Poly Studio G7500 | `4.0.2.384012` | N/A |`1449/1.0.96.2023031201` | `5.0.5484.0` | `1.0.0.202301162118.product` | June 16, 2023 |
+| Poly TC8 | `4.0.2.211096` | N/A | `1449/1.0.96.2023031201` | `5.0.5484.0` | `1.0.0.202301162118.product` | June 16, 2023 |
+| Poly Studio X30 | `4.0.1.380048` | `3.14.1.374010` | `1449/1.0.96.2023031201` | `5.0.5484.0` | `1.0.0.202301162118.product` | May 3, 2023 |
+| Poly Studio X50 | `4.0.1.380048` | `3.14.1.374010` | `1449/1.0.96.2023031201` | `5.0.5484.0` | `1.0.0.202301162118.product` | May 3, 2023 |
+| Poly Studio X70 | `4.0.1.380048` | N/A |  `1449/1.0.96.2023031201` | `5.0.5484.0` | `1.0.0.202301162118.product` | May 3, 2023 |
+| Poly Studio G7500 | `4.0.1.380048` | N/A |  `1449/1.0.96.2023031201` | `5.0.5484.0` | `1.0.0.202301162118.product` | May 3, 2023 |
+| Poly TC8 | `4.0.1.211044` | N/A |  `1449/1.0.96.2023031201` | `5.0.5484.0` | `1.0.0.202301162118.product` | May 3, 2023 |
+| Poly Studio X30 | `4.0.0-376092` | N/A | `1449/1.0.96.2022120503` | `5.0.5484.0`| `1.0.0.202209060820.product` | March 23, 2023 |
+| Poly Studio X50 | `4.0.0-376092` | N/A | `1449/1.0.96.2022120503` | `5.0.5484.0`| `1.0.0.202209060820.product` | March 23, 2023 |
+| Poly Studio X70 | `4.0.0-376092` |  N/A | `1449/1.0.96.2022120503` | `5.0.5484.0`| `1.0.0.202209060820.product` | March 23, 2023 |
+| Poly Studio G7500 | `4.0.0-376092` |  N/A | `1449/1.0.96.2022120503` | `5.0.5484.0`| `1.0.0.202209060820.product` | March 23, 2023 |
+| Poly TC8 | `4.0.0.210993` |  N/A | `1449/1.0.96.2022120503` | `5.0.5484.0`| `1.0.0.202209060820.product` | March 23, 2023 |
+
+#### Yealink
+| Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date |
+|:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
+| Yealink MeetingBar A10 | `278.320.0.36` | N/A | `1449/1.0.96.2023111001`| `5.0.6061.0` | `1.0.0.202306202019.product` | February 15, 2024 |
+| Yealink MeetingBar A20 | `133.320.0.39` | N/A | `1449/1.0.96.2023111001`| `5.0.6061.0` | `1.0.0.202306202019.product` | February 15, 2024 |
+| Yealink MeetingBar A30 | `133.320.0.39` | N/A | `1449/1.0.96.2023111001`| `5.0.6061.0` | `1.0.0.202306202019.product` | February 15, 2024 |
+| Yealink MeetingBoard 65" | `155.15.0.65` | N/A | `1449/1.0.96.2023111001`| `5.0.6061.0` | `1.0.0.202306202019.product` | February 7, 2024 |
+| Yealink MeetingBoard 86" | `155.15.0.65` |N/A | `1449/1.0.96.2023111001`| `5.0.6061.0` | `1.0.0.202306202019.product` | February 7, 2024 |
+| Yealink CTP18 | `137.320.0.50`   | N/A | `1449/1.0.96.2023111001`| `5.0.6061.0` | `1.0.0.202306202019.product` | February 15, 2024 |
+| Yealink MeetingBar A10 | `278.320.0.32` | `278.320.0.17` | `1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202306202019.product` | December 14, 2023 |
+| Yealink MeetingBar A20 | `133.320.0.35` | `133.320.0.18` | `1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202306202019.product` | December 14, 2023 |
+| Yealink MeetingBar A30 | `133.320.0.35` | `133.320.0.18` | `1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202306202019.product` | December 14, 2023 |
+| Yealink MeetingBoard 65" | `155.15.0.59` | `155.15.0.46` | `1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202306202019.product` | December 14, 2023 |
+| Yealink MeetingBoard 86" | `155.15.0.59` | `155.15.0.46` | `1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202306202019.product` | December 14, 2023 |
+| Yealink CTP18 | `137.320.0.40` | `137.320.0.29` | `1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202306202019.product` | December 14, 2023 |
+| Yealink DeskVisionA24 | `156.15.0.32` | N/A | `1449/1.0.96.2023062301`| `5.0.5484.0` | `1.0.0.202306202019.product`| September 20, 2023|
+| Yealink MeetingBoard 65" | `155.15.0.37` | N/A | `1449/1.0.96.2022120503` | `5.0.5484.0`| `1.0.0.202209060820.product` | March 31, 2023 |
+| Yealink MeetingBoard 86" | `155.15.0.37` | N/A | `1449/1.0.96.2022120503` | `5.0.5484.0`| `1.0.0.202209060820.product` | March 31, 2023 |
+| Yealink MeetingBar A20 | `133.320.0.8` | N/A |  `1449/1.0.96.2022120503` | `5.0.5484.0`| `1.0.0.202209060820.product` | February 22, 2023 |
+| Yealink MeetingBar A30 | `133.320.0.8` | N/A |  `1449/1.0.96.2022120503` | `5.0.5484.0`| `1.0.0.202209060820.product` | February 22, 2023 |
+| Yealink CTP18 | `133.320.0.10` | N/A |  `1449/1.0.96.2022120503` | `5.0.5484.0`| `1.0.0.202209060820.product` | February 22, 2023 |
+
+
+
+## Firmware versions released to Federal clouds
+
+#### Cisco
+
+| Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date | Cloud |
+|:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|:----------------------------------|
+| Cisco Board Pro 55 | `11.11.1.10` | N/A | `1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202310260109.product` | January 25, 2024| GCCH|
+| Cisco Board Pro 75 | `11.11.1.10` |  N/A | `1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202310260109.product` |  January 25, 2024| GCCH|
+| Cisco Room Bar | `11.11.1.10` |  N/A | `1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202310260109.product` |  January 25, 2024| GCCH|
+| Cisco Room Kit Pro | `11.11.1.10` | N/A | `1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202310260109.product`| January 25, 2024| GCCH|
+| Cisco Desk Pro | `11.11.1.10` |  N/A | `1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202310260109.product` | January 25, 2024| GCCH|
+| Cisco Room Bar Pro | `11.11.1.10` |  N/A | `1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202310260109.product` | January 25, 2024| GCCH|
+| Cisco Room Kit EQ | `11.11.1.10` |  N/A | `1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202310260109.product` | January 25, 2024| GCCH|
+| Cisco Navigator | `11.11.1.10` | N/A | `1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202310260109.product` | January 25, 2024| GCCH|
+
+#### Logitech
+
+| Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date | Cloud|
+|:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|:-----------------|
+| Logi RoomMate | `1.11.215`   | N/A | `1449/1.0.96.2023062301` | `5.0.5484.0`| `1.0.0.202306202019.product` | February 20, 2024| GCCH|
+| Logi TAP IP  | `1.11.202`|  N/A | `1449/1.0.96.2023062301` | `5.0.5484.0`| `1.0.0.202306202019.product` | February 20, 2024| GCCH|
+| Logi RoomMate | `1.10.175`   |  N/A | `1449/1.0.96.2023062301` | `5.0.5484.0`| `1.0.0.202306202019.product` | February 2, 2023| GCCH|
+| Logi TAP IP  | `1.10.129`    |  N/A | `1449/1.0.96.2023062301` | `5.0.5484.0`| `1.0.0.202306202019.product` | February 2, 2023| GCCH|
+
+#### HP | Poly
+
+| Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date | Cloud |
+|:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|:---------------------------------|
+| Poly Studio X30 | `4.2.0-396113` | `4.1.0_00.180034`| `1449/1.0.96.2024020802`| `5.0.6061.0` | `1.0.0.202310260109.product`| May 7, 2024| GCCH |
+| Poly Studio X50 | `4.2.0-396113` | `4.1.0_00.180034`| `1449/1.0.96.2024020802`| `5.0.6061.0` | `1.0.0.202310260109.product`| May 7, 2024| GCCH |
+| Poly Studio X52 | `4.2.0-396113` |`4.1.0.382189` |`1449/1.0.96.2024020802`| `5.0.6061.0` | `1.0.0.202310260109.product`| May 7, 2024| GCCH |
+| Poly Studio X70 | `4.2.0-396113` | `4.1.0_00.180034`| `1449/1.0.96.2024020802`| `5.0.6061.0` | `1.0.0.202310260109.product`| May 7, 2024| GCCH |
+| Poly Studio G7500 | `4.2.0-396113` | `4.1.0_00.180034`| `1449/1.0.96.2024020802`| `5.0.6061.0` | `1.0.0.202310260109.product`| May 7, 2024| GCCH |
+| Poly TC8 | `6.0.0-211616` | N/A | `1449/1.0.96.2024020802`| `5.0.6061.0` | `1.0.0.202310260109.product`| May 7, 2024| GCCH |
+| Poly TC10 | `6.0.0-211616` | N/A | `1449/1.0.96.2024020802`| `5.0.6061.0` | `1.0.0.202310260109.product`| May 7, 2024| GCCH |
+| Poly Studio X30 | `4.1.3.394009` | `4.1.0_00.180034`| `1449/1.0.96.2023120801`| `5.0.6061.0` | `1.0.0.202310260109.product`| February 27, 2024| GCCH |
+| Poly Studio X50 | `4.1.3.394009` | `4.1.0_00.180034`| `1449/1.0.96.2023120801`| `5.0.6061.0` | `1.0.0.202310260109.product`| February 27, 2024| GCCH |
+| Poly Studio X52 | `4.1.3.394009` |`4.1.0.382189` |`1449/1.0.96.2023120801`| `5.0.6061.0` | `1.0.0.202310260109.product`| February 27, 2024| GCCH |
+| Poly Studio X70 | `4.1.3.394009` | `4.1.0_00.180034`| `1449/1.0.96.2023120801`| `5.0.6061.0` | `1.0.0.202310260109.product`| February 27, 2024| GCCH |
+| Poly Studio G7500 | `4.1.3.394009` | `4.1.0_00.180034`| `1449/1.0.96.2023120801`| `5.0.6061.0` | `1.0.0.202310260109.product`| February 27, 2024| GCCH |
+| Poly TC8 | `4.1.3.211457` | N/A | `1449/1.0.96.2023120801`| `5.0.6061.0` | `1.0.0.202310260109.product`| February 27, 2024| GCCH |
+| Poly TC10 | `4.1.3.211457` | N/A | `1449/1.0.96.2023120801`| `5.0.6061.0` | `1.0.0.202310260109.product`| February 27, 2024| GCCH |
+| Poly Studio X30 | `4.1.2-388101` |`4.1.0_00.180034` | `1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202310260109.product`| January 23, 2024| GCCH |
+| Poly Studio X50 | `4.1.2-388101` |`4.1.0_00.180034` | `1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202310260109.product`| January 23, 2024| GCCH |
+| Poly Studio X52 | `4.1.2-388101` | `4.1.0.382189` |`1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202310260109.product`|January 23, 2024| GCCH |
+| Poly Studio X70 | `4.1.2-388101` | `4.1.0_00.180034` |`1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202310260109.product`| January 23, 2024| GCCH |
+| Poly Studio G7500 | `4.1.2-388101` | `4.1.0_00.180034` | `1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202310260109.product`|January 23, 2024| GCCH |
+| Poly TC8 | `4.1.2-211367` | N/A |`1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202310260109.product`| January 23, 2024| GCCH |
+| Poly TC10 | `4.1.2-211367` | N/A|`1449/1.0.96.2023111001` | `5.0.6061.0` | `1.0.0.202310260109.product`| January 23, 2024| GCCH |
+| Poly Studio X30 | `4.0.2.384012` | `3.14.1.374010` | `5.0.5484.0` | `1449/1.0.96.2023031201`| `1.0.0.202301162118.product` | June 16, 2023 | GCCH |
+| Poly Studio X50 | `4.0.2.384012` |  `3.14.1.374010` | `5.0.5484.0` | `1449/1.0.96.2023031201`| `1.0.0.202301162118.product` | June 16, 2023 | GCCH |
+| Poly Studio X70 | `4.0.2.384012` | N/A |  `5.0.5484.0` | `1449/1.0.96.2023031201`| `1.0.0.202301162118.product` | June 16, 2023 | GCCH |
+| Poly Studio G7500 | `4.0.2.384012` | N/A | `5.0.5484.0` | `1449/1.0.96.2023031201`| `1.0.0.202301162118.product` | June 16, 2023 | GCCH |
+| Poly TC8 | `4.0.2.211096` | N/A | `5.0.5484.0` | `1449/1.0.96.2023031201`| `1.0.0.202301162118.product` | June 16, 2023 | GCCH |
+
+#### Neat
+
+| Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date | Cloud |
+|:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|:---------------------------------|
+| Neat Bar Gen2 | `NFE1.20240312.0005` | N/A | `1449/1.0.96.2024032804`| `5.0.6061.0` | `1.0.0.202310260109.product`| April 30, 2024| GCCH |
+| Neat Bar | `NFB1.20240312.0005` | N/A | `1449/1.0.96.2024032804`| `5.0.6061.0` | `1.0.0.202310260109.product`| April 30, 2024| GCCH |
+| Neat Bar Pro| `NFD1.20240312.0005` | N/A | `1449/1.0.96.2024032804`| `5.0.6061.0` | `1.0.0.202310260109.product`| April 30, 2024| GCCH |
+| Neat Board | `NFC1.20240312.0005` |  N/A | `1449/1.0.96.2024032804`| `5.0.6061.0` | `1.0.0.202310260109.product`| April 30, 2024| GCCH |
+| Neat Board 50 | `NFH1.20240312.0005` |  N/A | `1449/1.0.96.2024032804`| `5.0.6061.0` | `1.0.0.202310260109.product`| April 30, 2024| GCCH |
+| Neat Pad touch console | `NFA1.20240312.0503`  | N/A | `1449/1.0.96.2024032804`| `5.0.6061.0` | `1.0.0.202310260109.product`| April 30, 2024| GCCH |
