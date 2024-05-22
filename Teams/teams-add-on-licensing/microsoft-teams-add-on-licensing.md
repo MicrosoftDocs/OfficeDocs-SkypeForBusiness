@@ -27,7 +27,10 @@ description: Learn about Microsoft add-on licenses for Microsoft Teams and the c
 
 # Microsoft Teams add-on licenses
 
-Add-on licenses let you add capabilities for those users in your organization who need them. The add-on licenses available to you depend on the Microsoft Teams plan you have.  Typically, you buy one add-on license for each user who will use it.  **TRUE?**
+Before reading this article, see [Manage user access to Teams](user-access.me) for information about Teams licenses.  
+**AGREE THIS NEEDS A NEW TITLE!**
+
+This article is about Teams add-on licenses, which let you add capabilities for those users in your organization who need them. The add-on licenses available to you depend on the Microsoft Teams plan you have.  Typically, you buy one add-on license for each user who will use it.  **TRUE?**
 
 ## Overview of add-on licenses
 
@@ -127,12 +130,6 @@ For more information about Microsoft plans according to your organization type:
 - [Guidance for educational institutions](https://www.microsoft.com/education/buy-license/microsoft365)
 - [Plans for governments and governmental agencies](https://www.microsoft.com/microsoft-365/government/)
 - [Plans for nonprofit organizations](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing)
-
-See also:
-
-- [Assign Teams add-on licenses](assign-teams-add-on-licenses.md)
-- [Manage user access to Teams](../user-access.md)
-- [Teams service description](/office365/servicedescriptions/teams-service-description)
 
 
 ## Contact support
