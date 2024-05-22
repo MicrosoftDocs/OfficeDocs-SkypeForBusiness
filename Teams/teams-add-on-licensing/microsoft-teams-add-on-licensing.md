@@ -27,11 +27,11 @@ description: Learn about Microsoft add-on licenses for Microsoft Teams and the c
 
 # Microsoft Teams add-on licenses
 
-Add-on licenses let you add capabilities for those users in your organization who need them. For example, you might want to add an Audio Conferencing license so that users can dial in to meetings using their phones. Or, your organization might decide to deploy Teams Phone, which provides PBX functionality, with an additional option for connecting to the Public Switched Telephone Network (PSTN) for external calling. 
+Add-on licenses let you add capabilities for those users in your organization who need them. The add-on licenses available to you depend on the Microsoft Teams plan you have.  Typically, you buy one add-on license for each user who will use it.  **TRUE?**
 
-The add-on licenses available to you depend on the Microsoft Teams plan you have. The following table provides an overview of Teams add-on licenses that you can add to your Teams subscription. Typically, you buy one add-on license for each user who will use it.  **TRUE?**
+## Overview of add-on licenses
 
-## Overview of all add-on licenses
+The following table provides an overview of the add-on licenses that you can add to your Teams subscription. For example, you might want to add an Audio Conferencing license so that users can dial in to meetings using their phones. Or, your organization might decide to deploy Teams Phone, which provides PBX functionality, with an additional option for connecting to the Public Switched Telephone Network (PSTN) for external calling. 
 
 |License|Description|
 |-------|-----------|
@@ -47,7 +47,7 @@ The add-on licenses available to you depend on the Microsoft Teams plan you have
 
 [!INCLUDE [EEA Teams licensing notice](../includes/eea-teams-licensing.md)]
 
-## Audio Conferencing
+## Audio Conferencing license
 
 The Audio Conferencing license enables people in your organization to use a phone instead of their computer to call in to a Teams meeting--also called PSTN conferencing for meetings.
 
@@ -57,7 +57,7 @@ For users who schedule or lead meetings with attendees who need to call in using
 
 You can also choose to use a third-party operator for your Audio Conferencing numbers if your current operator is part of the Microsoft Operator Connect program. For more information, see [Plan for Operator Connect Conferencing](../operator-connect-conferencing-plan.md).
 
-## Teams Phone with PSTN connectivity options
+## Teams Phone with PSTN connectivity license options
 
 Most Microsoft 365 plans allow Teams users to make peer-to-peer calls within your organization using VoIP technology. However, you may want to add different licenses for setting up Teams Phone PBX capabilities and connecting to the PSTN for external calling. 
 
@@ -65,12 +65,12 @@ Teams Phone requires a separate add-on license. For users to make and receive ex
 
 This article introduces the various Teams Phone license options. For detailed information about Teams Phone PBX features, see [Teams Phone features](../here-s-what-you-get-with-phone-system.md). For information about which voice solution is best for your organization, see [Plan your voice solution](cloud-voice-landing-page.md) and [PSTN connectivity options](pstn-connectivity.md).
 
-- **Teams Phone with Calling Plans** - Available as a Teams Phone with Calling Plan bundle or as separate licenses: one for Teams Phone plus an additional Calling Plan license. There are Domestic Calling Plans, International Calling Plans, and Pay-As-You-Go Calling Plans. <br/> <br/> To find out whether Teams Calling Plans is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+- **Teams Phone with Calling Plans** - Available as a Teams Phone with Calling Plan bundle or as separate licenses: one for Teams Phone plus an additional Calling Plan license. There are Domestic Calling Plans, International Calling Plans, and Pay-As-You-Go Calling Plans. To find out whether Teams Calling Plans is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-- **Teams Phone with Operator Connect** - Requires Teams Phone license. See [Plan for Operator Connect](operator-connect-plan.md).
-- **Teams Phone with Operator Connect for India** - Requires licenses from your chosen PSTN carrier in India. For more information, see [Plan Operator Connect for India](operator-connect-plan-india.md).
-- **Teams Phone Mobile** - Requires Teams Phone and Teams Phone Mobile licenses. For more information, see [Plan for Teams Phone Mobile](operator-connect-plan-mobile.md).
-- **Direct Routing** - Requires a Teams Phone license.  See [Plan for Direct Routing](direct-routing-plan.md).
+- **Teams Phone with Operator Connect** - Requires Teams Phone license. See [Plan for Operator Connect](../operator-connect-plan.md).
+- **Teams Phone with Operator Connect for India** - Requires licenses from your chosen PSTN carrier in India. For more information, see [Plan Operator Connect for India](../operator-connect-plan-india.md).
+- **Teams Phone Mobile** - Requires Teams Phone and Teams Phone Mobile licenses. For more information, see [Plan for Teams Phone Mobile](../operator-connect-plan-mobile.md).
+- **Direct Routing** - Requires a Teams Phone license.  See [Plan for Direct Routing](../direct-routing-plan.md).
 - **Shared Calling** - 
 
 The following table...   
