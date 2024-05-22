@@ -536,6 +536,7 @@ Meeting policies are used to control what features are available in meetings org
 |PreferredMeetingProviderForIslandsMode|TeamsAndSfb|Determines the Outlook meeting add-in availability to users on Islands mode. With the default value of `TeamsAndSfb`, users see both the Skype for Business and Teams add-ins. If you set this value to `Teams`, the Skype for Business add-in is removed and only the Teams add-in is shown.|
 |TeamsCameraFarEndPTZMode|Disabled|Read more about how to to configure [Far end camera control (FECC) for pan tilt zoom (PTZ) cameras](meeting-policies-audio-and-video.md#far-end-camera-control-fecc-for-pan-tilt-zoom-ptz-cameras).|
 |VoiceIsolation|Enabled|Controls whether users with this policy can use voice isolation in Teams calls and meetings. To learn more, see [Manage voice isolation for your users' Microsoft Teams calls and meetings](voice-isolation.md).|
+|EnrollUserOverride|Enabled|Controls whether users with this policy can set the voice profile capture and enrollment through the Recognition tab in their Teams client settings. To learn more, see [Overview of voice and face enrollment](/microsoftteams/rooms/voice-and-face-recognition).|
 
 ##### Related articles for audio & video meeting policies
 
