@@ -34,15 +34,15 @@ ms.custom:
 
 ## Overview of Lists
 
-The Lists app in Microsoft Teams helps users in your organization track information, organize work, and manage workflows. With Lists, users can track data such as issues, assets, routines, contacts, inventory, incidents, loans, patients, and more using customizable views, rules, and alerts to keep everyone on the team in sync.
+The Lists app in Microsoft Teams helps users in your organization track information, organize work, and manage workflows. Users can track data such as issues, assets, routines, contacts, inventory, incidents, loans, patients, and more using customizable views, rules, and alerts to keep everyone on the team in sync.
 
 In Teams, users access Lists as a tab in a channel. Select **+** to open the tab gallery and add a new Lists app tab instance to a channel to get started.
 
-![Lists app in tab gallery.](media/lists-tab.png)
+:::image type="content" source="media/lists-tab.png" alt-text="The Lists app in the tab gallery in Teams." lightbox="media/lists-tab.png":::
 
 Users can create new lists or pin existing lists from within the same team or from a different SharePoint site that they have access to. New lists can be created from scratch, from built-in templates, based on the structure of an existing list, or by importing data from an Excel workbook. The Lists app is available in Teams desktop, web, and mobile clients.
 
-![how to create a list in the Lists app.](media/lists-create-list.png)
+:::image type="content" source="media/lists-create-list.png" alt-text="The Lists app added as a tab in a channel, showing options for creating a new list." lightbox="media/lists-create-list.png":::
 
 ## Templates
 
@@ -86,7 +86,7 @@ Guests can't create or delete a list. They can add list items to existing lists,
 
 ### Lists and the SharePoint app
 
-If users in your organization created lists using the SharePoint app, those lists will be automatically moved to Lists without any action needed from the user. To get the best and richest lists integration experience in Teams, use the Lists app and pin your existing lists.
+If users in your organization created lists using the SharePoint app, those lists are automatically moved to Lists without any action needed from the user. To get the best and richest lists integration experience in Teams, use the Lists app and pin your existing lists.
 
 ## Set up Lists
 
