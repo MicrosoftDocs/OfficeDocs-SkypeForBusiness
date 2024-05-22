@@ -73,6 +73,9 @@ This article introduces the various Teams Phone license options. For detailed in
 - **Direct Routing** - Requires a Teams Phone license.  See [Plan for Direct Routing](../direct-routing-plan.md).
 - **Shared Calling** - 
 
+
+
+
 The following table...   
 
 
@@ -82,6 +85,17 @@ The following table...
 | **For Business subscribers:**<br/> - Teams Essentials with Microsoft Entra ID<br/> - Microsoft 365 Business Basic, Standard, or Premium <br/><br/> **For Enterprise subscribers:**<br/> - Microsoft 365 E3 (no Teams) plus Teams Enterprise<br/> - Microsoft 365 E3 EEA (no Teams) plus Teams EEA<br/> - Microsoft 365 E3<sup>1</sup><br/> - Office 365 E1/E3 (no Teams) plus Teams Enterprise<br/> - Office 365 E1/E3 EEA (no Teams) plus Teams EEA<br/> - Office 365 E1/E3<sup>1</sup><br/> - Teams Enterprise<br/> - Teams EEA<br/><br/> **For Frontline subscribers:**<br/> - Microsoft 365 F1/F3<br/> - Office 365 F3<sup>2</sup><br/><br/> **For other subscribers:**<br/> - Microsoft 365 A3<br/> - Office 365 A1<br/> - Microsoft 365 G3 |   | Teams Phone with Calling Plans also includes domestic calling minutes.<br/><br/> You can purchase additional domestic minutes and international minutes.<br/><br/> To view your Calling Plans options, see [Microsoft Calling Plans for Teams](/microsoftteams/calling-plans-for-office-365). |
 | **Teams Phone with separate PSTN connectivity option** | These options give you Teams Phone, but you still need to connect to the PSTN. <br/><br/> Choose whether you want Microsoft or a third-party provider to handle your phone number management and billing. |  If available in your region, you can choose a Microsoft Calling Plan license.<br><br> Or you can choose one of the other PSTN connectivity options: Operator Connect, Operator Connect for India, Teams Phone Mobile, Direct Routing | 
 | **For Business subscribers:**<br/> - Teams Essentials with Microsoft Entra ID<br/> - Microsoft 365 Business Basic, Standard, or Premium <br/><br/> **For Enterprise subscribers:**<br/> - Microsoft 365 E3 (no Teams) plus Teams Enterprise<br/> - Microsoft 365 E3 EEA (no Teams) plus Teams EEA<br/> - Microsoft 365 E3<sup>1</sup><br/> - Office 365 E1/E3 (no Teams) plus Teams Enterprise<br/> - Office 365 E1/E3 EEA (no Teams) plus Teams EEA<br/> - Office 365 E1/E3<sup>1</sup><br/> - Teams Enterprise<br/> - Teams EEA<br/><br/> **For Frontline subscribers:**<br/> - Microsoft 365 F1/F3<br/> - Office 365 F3<sup>2</sup><br/><br/> **For other subscribers:**<br/> - Microsoft 365 A3<br/> - Office 365 A1<br/> - Microsoft 365 G3 |  |  |
+
+### Teams Phone for Frontline Workers
+
+To access the **Teams Phone for Frontline Workers** license, your tenant must also be licensed with Microsoft 365 Frontline Worker or Office 365 Frontline Worker licenses.
+
+Microsoft 365 and Office 365 Frontline Worker licenses can only be assigned to users who meet *one or more* of the following requirements:
+
+- The user uses a primary device with a single screen smaller than 10.9".
+- The user shares their primary work device with other licensed Microsoft 365 or Office 365 Frontline Worker licensed users, during or across shifts.
+- Other licensed Microsoft Frontline Worker users must also use the device as their primary work device.
+- Any software or services accessed from the shared device requires the devices or users to be assigned a user license that includes use of those software or services.
 
 
 **ORIGINAL TABLE** FOLLOWING... 
@@ -97,18 +111,7 @@ The following table...
 
 *<sup>2</sup> Office 365 F3 is available for purchase by new customers through Cloud Solution Providers (CSPs) only.*
 
-#### Purchase the Teams Phone Standard for Frontline Workers license
-
-To access the **Teams Phone for Frontline Workers** license, your tenant must also be licensed with Microsoft 365 Frontline Worker or Office 365 Frontline Worker licenses.
-
-Also, Microsoft 365 and Office 365 Frontline Worker licenses can only be assigned to users who meet *one or more* of the following requirements:
-
-- The user uses a primary device with a single screen smaller than 10.9".
-- The user shares their primary work device with other licensed Microsoft 365 or Office 365 Frontline Worker licensed users, during or across shifts.
-  - Other licensed Microsoft Frontline Worker users must also use the device as their primary work device.
-  - Any software or services accessed from the shared device requires the devices or users to be assigned a user license that includes use of those software or services.
-
-## Buy, assign, and unassign licenses from users
+## Manage add-on licenses
 
 For instructions on how to buy licenses in the Microsoft 365 admin center, see [Buy or remove licenses](/microsoft-365/commerce/licenses/buy-licenses).
 
@@ -116,21 +119,22 @@ After you've purchased licenses, you'll need to assign them to your users. For m
 
 You have two ways to remove users' access to certain products: unassign product licenses from specific users or unassign user licenses from a specific product. For instructions on how to unassign licenses, see [Unassign licenses from users](/microsoft-365/admin/manage/remove-licenses-from-users).
 
-## More guidance on Microsoft plans
+## More information
 
-Learn more about Microsoft plans and get guidance according to your organization type:
+For more information about Microsoft plans according to your organization type:
 
 - [Plans for enterprise organizations](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans)
 - [Guidance for educational institutions](https://www.microsoft.com/education/buy-license/microsoft365)
 - [Plans for governments and governmental agencies](https://www.microsoft.com/microsoft-365/government/)
 - [Plans for nonprofit organizations](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing)
 
-## Need help?
-
-Need to talk to someone about the add-on options? [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
-
-## Related content
+See also:
 
 - [Assign Teams add-on licenses](assign-teams-add-on-licenses.md)
 - [Manage user access to Teams](../user-access.md)
 - [Teams service description](/office365/servicedescriptions/teams-service-description)
+
+
+## Contact support
+
+Need to talk to someone about the add-on options? [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
