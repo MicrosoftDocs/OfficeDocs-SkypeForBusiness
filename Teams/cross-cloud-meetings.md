@@ -1,7 +1,7 @@
 ---
 title: Meet with people in other Microsoft 365 cloud environments
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
@@ -12,7 +12,7 @@ ms.collection:
   - M365-collaboration
   - m365initiative-externalcollab
 ms.reviewer: dacarrol
-ms.date: 09/29/2023
+ms.date: 02/15/2024
 search.appverid: MET150
 ms.localizationpriority: medium
 f1.keywords:
@@ -28,22 +28,29 @@ There are three options for users to join meetings between your organization and
 - [Authenticated access using a guest account](/microsoft-365/solutions/collaborate-guests-cross-cloud)
 - [Anonymous access](anonymous-users-in-meetings.md)
 
-This article covers authenticated meeting access using a cross-cloud meeting connection. This is similar to in-cloud meetings using [external access](trusted-organizations-external-meetings-chat.md) in that participants can join meetings as authenticated participants without requiring guest accounts in the other organization. (Cross-cloud meetings don't require external access to be configured.)
+This article covers authenticated meeting access using a cross-cloud meeting connection. This is similar to in-cloud meetings using [external access](trusted-organizations-external-meetings-chat.md) in that participants can join meetings as authenticated participants without requiring guest accounts in the other organization. (Cross-cloud meetings don't require external access to be configured.) Users who are invited as a guest can't join meetings using a cross-cloud authenticated meeting connection and must join using their guest account.
 
 With cross-cloud meeting connections, you can allow or prevent meetings between your organization and an organization in another cloud. Cross-cloud meeting connections use organizational relationships defined in [cross-tenant access settings in Microsoft Entra ID](/azure/active-directory/external-identities/cross-tenant-access-settings-b2b-collaboration).
 
-If a cross-tenant connection between organizations already exists in Microsoft Entra cross-tenant access settings, it will appear in meeting settings in the Teams admin center. You can edit this connection to choose if meetings are allowed between the two tenants.
+If a cross-tenant connection between organizations already exists in Microsoft Entra cross-tenant access settings, it appears in meeting settings in the Teams admin center. You can edit this connection to choose if meetings are allowed between the two tenants.
 
-If the connection doesn't exist, you can add it in Teams meeting settings. This will add a new organization in the cross-tenant access settings in Microsoft Entra ID using the [default settings that you've defined for inbound and outbound access and tenant restrictions](/azure/active-directory/external-identities/cross-tenant-access-settings-b2b-collaboration#configure-default-settings). (This will enable B2B collaboration with the other organization if the defaults allow it.)
-
-> [!NOTE]
-> Cross-cloud meetings between Microsoft 365 China (21Vianet) and other Microsoft 365 cloud environments is in preview.
+If the connection doesn't exist, you can add it in Teams meeting settings. This adds a new organization in the cross-tenant access settings in Microsoft Entra ID using the [default settings that you've defined for inbound and outbound access and tenant restrictions](/azure/active-directory/external-identities/cross-tenant-access-settings-b2b-collaboration#configure-default-settings). (This enables B2B collaboration with the other organization if the defaults allow it.)
 
 > [!NOTE]
 > VDI clients aren't supported for cross-cloud meetings.
 
 > [!IMPORTANT]
 > The organization that you're meeting with must also configure these settings for their organization.
+
+## Prerequisites
+For the best meeting experiences across Microsoft clouds, make sure your network is ready for Microsoft Teams.  [Prepare your organization's network for Microsoft Teams](/microsoftteams/prepare-network#network-requirements) contains guidance on how to optimize your network for Teams.  Also ensure that the necessary DNS, IPs and Ports are enabled for each of the M365 clouds where your users are collaborating.  The following table links to the endpoint definitions for each of the M365 cloud environments:
+
+|Microsoft 365 Cloud Environment|Endpoints|
+|:--------------------------------|:------------------------------|
+|Commercial, GCC|[Worldwide endpoints](/microsoft-365/enterprise/urls-and-ip-address-ranges)|
+|GCC High|[U.S. Government GCC High endpoints](/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints)|
+|DoD|[U.S. Government DoD endpoints](/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints)|
+|China (21Vianet)|[Microsoft 365 operated by 21Vianet](/microsoft-365/enterprise/urls-and-ip-address-ranges-21vianet)|
 
 ## Allow cross-tenant connections with other Microsoft 365 cloud environments
 
@@ -66,9 +73,9 @@ If you're setting up a cross-cloud meeting connection with a tenant in a differe
 
 ## Add a new cross-cloud meeting connection
 
-To create a new cross-cloud meeting connection, you need the tenant ID or the fully qualified domain name for the organization that you want to meet with. Note that meetings between tenants in Microsoft Azure Government (Microsoft 365 GCC High and DoD) can't create a cross-cloud meeting connection with tenants in Microsoft Azure China.
+To create a new cross-cloud meeting connection, you need the tenant ID or the fully qualified domain name for the organization that you want to meet with. Meetings between tenants in Microsoft Azure Government (Microsoft 365 GCC High and DoD) can't create a cross-cloud meeting connection with tenants in Microsoft Azure China.
 
-Add a cross-cloud meeting connection
+### Add a cross-cloud meeting connection
 
 1. In the Teams admin center, expand **Meetings**, and then select **Meeting settings**.
 1. Under **Cross-cloud meetings**, select **Add**.
@@ -77,7 +84,7 @@ Add a cross-cloud meeting connection
 1. If you want to allow users in your organization to attend meetings in the other organization, set **Outbound connections** to **On**.
 
     ![Screenshot of cross-cloud meetings settings in the Teams admin center.](media/cross-cloud-meetings-settings.png)
-
+   
 ## Edit a cross-cloud meeting connection
 
 To edit a cross-cloud meeting connection, you need the tenant ID or the fully qualified domain name for the organization that you want to meet with. The list of tenants in meeting settings shows the tenant ID, but you can use the **Lookup** option to search by fully qualified domain name and find the correct tenant ID in the list.

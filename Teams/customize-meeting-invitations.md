@@ -1,7 +1,7 @@
 ---
 title: Customize meeting invitations (IT admins)
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.reviewer: 
 ms.date: 11/13/2023
@@ -29,6 +29,9 @@ description: Learn how to customize Teams meeting invitations for your organizat
 # Customize meeting invitations (IT admins)
 
 You can customize Teams meeting invitations to meet your organization's needs. You can add your organization's logo and include helpful information, such as links to your support website and legal disclaimer, and a text-only footer.
+
+> [!NOTE]
+> Logos added to a meeting theme override the logos you upload to meeting invitations. To learn more about meeting themes, see [Create and manage meeting themes for Teams meetings](meeting-themes.md).
 
 ## Tips for creating a logo for meeting invitations
 

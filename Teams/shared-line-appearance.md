@@ -69,7 +69,7 @@ Circular delegation configuration isn't permitted. If the delegated users also h
 
 ## Enable delegation and shared line appearance
 
-You enable delegation by using the **TeamsCallingPolicy AllowDelegation** setting. You can use Teams admin center or Teams PowerShell.
+You enable delegation by using the **TeamsCallingPolicy AllowDelegation** setting. You can use Teams admin center or Teams PowerShell. This setting is turned on by default.
 
 When enabled, the end user can configure their delegation relationships directly in Teams.
 
@@ -78,7 +78,15 @@ When enabled, the end user can configure their delegation relationships directly
 
 ## Use Teams admin center
 
-To configure delegation and shared line appearance by using Teams admin center, see [Configure call forwarding and delegation settings](/MicrosoftTeams/user-call-settings).
+To configure delegation and shared line appearance:
+
+1. In the navigation menu of the Microsoft Teams admin center, select **Voice** > **Calling policies**.
+
+1. Choose the policy you would like to update or select **Add** to create a new policy.
+
+1. Toggle **Delegation for inbound and outbound calls** on.  
+
+1. Select **Save**.
 
 ## Use PowerShell
 
@@ -116,8 +124,8 @@ Remove-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso
 
 [Share a phone line with a delegate](https://support.office.com/article/16307929-a51f-43fc-8323-3b1bf115e5a8)
 
-[Teams calling policy](/MicrosoftTeams/teams-calling-policy)
+[Configure Teams calling policy](/MicrosoftTeams/teams-calling-policy)
 
-[New-CsTeamsCallingPolicy](/powershell/module/skype/new-csteamscallingpolicy)
+[New-CsTeamsCallingPolicy](/powershell/module/teams/new-csteamscallingpolicy)
 
-[Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
+[Set-CsTeamsCallingPolicy](/powershell/module/teams/set-csteamscallingpolicy)

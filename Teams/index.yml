@@ -54,7 +54,7 @@ productDirectory:
     # Card
     - title: Prepare for end user adoption 
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: https://learn.microsoft.com/office/media/icons/users-people.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/users-group.svg
       summary: Get your users on board and share scenarios for success.
       url: ./adopt-microsoft-teams-landing-page.md
     # Card
@@ -90,7 +90,7 @@ tools:
     # Card
     - title: Learn for IT Pros and admins
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: https://learn.microsoft.com/office/media/icons/administrator.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/administrator-teams.svg
       url: /training/teams/
     # Card
     - title: Microsoft Teams & Microsoft 365 Developer platform

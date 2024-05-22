@@ -1,7 +1,7 @@
 ---
 title: Bring Your Own Device Rooms in Pro Management Portal
-author: v-mathavale
-ms.author: v-mathavale
+author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.date: 01/29/2024
 ms.topic: article
@@ -12,7 +12,7 @@ audience: Admin
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
-  - Tier3
+  - Tier1
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: medium
@@ -29,9 +29,9 @@ Bring Your Own Device rooms are identified as rooms with no Microsoft Teams Room
 2. In the left navigation menu, select **Planning** and go to **Inventory**.
 
 > [!NOTE]
-> For the devices to be captured in Pro Management Portal as Bring Your Own Devices, user needs to plug in the device in the room and join a meeting. We will need at least five unique users to report the device.
-
-## Inventory page
+> For the devices to be captured in Pro Management Portal as Bring Your Own Devices, users need to plug the device into the laptop in the room and join a meeting. We require at least five unique users to report the devices, which will then be displayed in the Pro Management Portal as shared devices.
+> 
+> Devices such as speaker, microphone, camera, display, etc can be plugged into a laptop and captured as shared devices in a BYOD room. ## Inventory page.
 
 In the **Inventory** page, you'll find an overview of all the rooms within your organization. You can explore your organization's inventory and devices and you can find rooms based on specific groups (country, city, buildings) or by utilizing the search function.
 
@@ -84,11 +84,15 @@ When you select a specific room, you'll see a new pane with two different pages,
 
 ### Device view
 
-:::image type="content" source="../media/byod/inventory-devices-asso.png" alt-text="Screenshot of Device page." lightbox="../media/byod/inventory-devices-asso.png":::
+:::image type="content" source="../media/byod/device-view-latest.png" alt-text="Screenshot of Device view." lightbox="../media/byod/device-view-latest.png":::
 
 The Device page offers a comprehensive overview of device and room insights.
 
-The Devices tab displays a table with device information. Select the device to view more details.
+The **Devices** tab displays a table with device information. The devices are reported as grouped, which means if they are plugged in together, they are displayed as a group with the first device name as the primary device shown in the main device table.<br>
+The **Number of devices** column shows the number of devices in the group. <br>
+Select the device to view more details.<br> 
+
+In the **Device group details** panel that opens up, a table displays all the devices in the group, allowing you to associate them with the specific room at once.
 
 | **Column** | **Description** |
 | --- | --- |
@@ -101,8 +105,10 @@ The Devices tab displays a table with device information. Select the device to v
 
 When you select a specific device associated with a room, a new page opens up displaying the following two tabs:
 
-- **Configuration**: This page displays information about the device and room, including device serial number, product and vendor ID, manufacturer, and model. It also displays room details like name, capacity, city, state, building, and license type.
-- **Usage details**: This page shows the room's usage report data for the selected period and can be accessible only with a Teams Shared Device license assigned to the room.
+- **Configuration**: This page displays information about the devices in the group including device serial number, product and vendor ID. 
+Under the device information, the call-to-action button labeled "**add a device to a room**" can be used to initiate the devices and room association. 
+Once the devices get added to the specific room, the room's information will also be displayed such as the room's name, capacity, location and license type.
+- **Usage details**: This page shows the room's usage report data for the selected period and can be accessible with a Teams Shared Device license assigned to the room resource account.
 
 ### To add a device to the room
 
@@ -121,13 +127,13 @@ To associate a device with a room, the following two methods are available:
     > In cases where the devices were not discovered or reported by Pro Management portal, admins can add those new devices using the import function. Device information such as the Product ID, Vendor ID, Serial Number, and Account information are required for the association to be done.
 
 - **Manually associate discovered devices using Pro Management UI:** 
-    
-    1. Go to the device table.
-    1. Select the specific device with the **Need Action** banner. 
-    1. Click **Add a room to this device**.
-    1. Select the desired room from the list to associate the device with.
-    1. Click **Save**.
 
+  1. Go to the device table.
+  1. Select the specific device group with the **Need Action** banner. 
+  1. Click **Add a room to this device**.
+  1. Select the desired room from the list to associate the devices with.
+  1. Click **Save**.
+    
 :::image type="content" source="../media/byod/device-discovery.png" alt-text="Screenshot of device room association." lightbox="../media/byod/device-discovery.png":::
 
 
@@ -177,9 +183,12 @@ To see the call utilization view for each room, select the specific Bring Your O
 
 > [!NOTE]
 > Only rooms with Teams Shared Devices or Pro licenses and which are associated with their peripherals are shown in the Bring Your Own Device usage report. 
->
-> Great news! for this first release, customers can utilize the Bring Your Own Device usage data without an additional Teams shared device license.  
-
-
-
-
+> > Great news! for this first release, customers can utilize the Bring Your Own Device usage data without an additional Teams shared device license until April 8th, 2024. 
+> ## Settings 
+#### BYOD Rooms and Desk management
+This setting option is located under the "General" tab and controls if peripheral data from BYOD and desk is sent to Microsoft. This feature is currently enabled by default, but admins have the option to disable it with this function. 
+#### Delete device data.
+This setting option enables admins to delete data for a specific user upon request. With the search function, IT Admins can be able to search for the name of the specific user and delete all related data. 
+## Access Control
+#### Inventory management permission
+This new inventory permission allows other users to view and manage the inventory management. IT Admins can create roles and grant other users' permission to access the inventory management and perform devices association with rooms.

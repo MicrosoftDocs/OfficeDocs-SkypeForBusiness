@@ -1,7 +1,7 @@
 ---
 title: Configure Teams meetings with protection for highly sensitive data
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams

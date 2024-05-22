@@ -1,7 +1,7 @@
 ---
 title: Broadcast meeting content
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: wlibebe
+author: wlibebe
 ms.reviewer: 
 ms.date: 07/28/2020
 manager: pamgreen
