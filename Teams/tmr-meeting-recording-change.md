@@ -32,13 +32,13 @@ To learn about blocking the download of Teams meeting recording files from Share
 
 **As an admin, you can't change where recording are stored.**
 
-For **webinars and meetings**, all recording files are automatically saved to the organizer's OneDrive **Recordings** folder, even if the organizer didn't attend the meeting. This applies to auto-recorded, recurring, meet now, and meetings that delegates create. Co-organizers can edit the recording files.
+For **webinars and meetings**, all recording files are automatically saved to the organizer's OneDrive **Recordings** folder, even if the organizer didn't attend the meeting. This process applies to autorecorded, recurring, meet now, and meetings that delegates create. Co-organizers can edit the recording files.
 
 For **Channel meetings**, the recording is stored in the Teams site documentation library in a folder named **Recordings**. For example: *Teams name - Channel name*/**Documents**/**Recordings**.
 
 For **shared accounts** and **Microsoft Teams Rooms meet now meetings**, the recording goes to the shared account's OneDrive, and if there's no OneDrive, it gets temporarily stored to async media storage. To learn more about Microsoft Teams Rooms meet now meetings, see [Microsoft Teams Rooms (Windows)](https://support.microsoft.com/office/microsoft-teams-rooms-windows-e667f40e-5aab-40c1-bd68-611fe0002ba2). For details on shared accounts, see [Sharing accounts with Microsoft Entra ID](/entra/identity/users/users-sharing-accounts).
 
-Videos are just like any other file in OneDrive and SharePoint, so handling ownership and retention after an employee leaves follows the normal [OneDrive and SharePoint process](/onedrive/retention-and-deletion).
+Videos are just like any other file in OneDrive and SharePoint. Handling ownership and retention after an employee leaves follows the normal [OneDrive and SharePoint process](/onedrive/retention-and-deletion).
 
 To learn how to apply retention labels to Teams meeting recordings, see [How to auto-apply a retention label](/microsoft-365/compliance/apply-retention-labels-automatically).
 
