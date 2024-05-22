@@ -34,7 +34,7 @@ In Microsoft Teams, users can record their Teams meetings, webinars, and town ha
 
 When a meeting is recorded:
 
-- It gets uploaded to OneDrive (private meetings) or SharePoint (channel meetings)
+- It gets uploaded to OneDrive (private meetings) or SharePoint (channel meetings). To learn more about recordings in OneDrive and SharePoint, see [Teams meeting recording storage and permissions in OneDrive and SharePoint](tmr-meeting-recording-change.md).
 - People invited to the meeting have permissions to the recording (guests and external attendees can view the recording only if the recording is explicitly shared with them)
 - Microsoft Purview compliance features apply to the meeting recording files the same as with other files.
 - It's linked in the chat for the meeting
