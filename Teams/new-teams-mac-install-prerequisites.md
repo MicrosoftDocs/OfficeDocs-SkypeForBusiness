@@ -64,7 +64,7 @@ After installing the new client, if users don't choose to Allow Notifications wi
 
 :::image type="content" source="media/new-teams-mac-notifications-monterey.png" alt-text="new teams for mac notifications macOS Monterey":::
 
-##### System notofication for macOS Ventura and Sonoma
+##### System notification for macOS Ventura and Sonoma
 
 1. Open macOS System Preferences.
 2. Go to **Notifications** and under **App Notifications**, select Microsoft Teams.
