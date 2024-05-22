@@ -37,22 +37,9 @@ The following table describes how different roles in Teams interact with this po
 
 |User role| Policy effect|
 |---------|---------------|
-|Trusted org participants and guests| When this policy is set to **Anyone** or **or Only people in trusted orgs and guests**, these users in your org can share content in meetings that trusted organizations (as defined in External access) host. When set to **Specific orgs**, users can share content in meetings that organizations you choose in this policy host.<br><br> When this policy is set to No other orgs, these users in your org can't share content in externally hosted Teams meetings while using your org’s accounts. However, your users can still share content in external meetings as anonymous if they aren’t logged in to Teams.|
+|Trusted org participants and guests| When this policy is set to **Anyone** or **or Only people in trusted orgs and guests**, these users in your org can share content in meetings that trusted organizations (as defined in External access) host. <br><br> When this policy is set to **No other orgs**, these users in your org can't share content in externally hosted Teams meetings while using your org’s accounts. However, your users can still share content in external meetings as anonymous if they aren’t logged in to Teams.|
 |Anonymous| This policy doesn't prevent users from sharing content in external meetings anonymously if they’re not signed into Teams.|
 
-### Supported and unsupported meeting types
-
-This feature doesn’t support the following meeting types:
-
-- [Microsoft Teams free meetings](https://www.microsoft.com/microsoft-teams/free)
-
-This feature supports the following meeting types:
-
-- Shared Channel meetings
-- Private or Public channel meetings
-- Meetings scheduled through Graph
-- Group Calls/1:1 calls
-- Meet now
 
 ## Manage the types of meetings your users can share content in
 
@@ -62,7 +49,6 @@ You can use the Teams admin center or the **`-ContentSharingInExternalMeetings`*
 |---------|---------|---------------|
 |Any org | EnabledForAnyone |**This is the default value.** Users with this assigned policy can share content when attending meetings that any org hosts. |
 |Trusted orgs and guests | EnabledForTrustedOrgs |Users with this assigned policy can only share content when attending meetings that trusted orgs and guests(defined in your External access policy) host.|
-|Specific orgs | | Users with this assigned policy can only share content when attending meetings that specific orgs you choose in this policy host.|
 |No other orgs | Disabled | Users with this assigned policy can’t share content when attending any external meetings.|
 
 ### Prevent users from sharing content in external meetings in the Teams admin center
@@ -74,11 +60,7 @@ Follow these steps in the Teams admin center to manage the types of meetings you
 3. Under **Meetings**, select **Events Policies**.
 4. Either select an existing policy or create a new one.
 5. Navigate to the **Content sharing** section.
-6. Set **Participants can share content in external meetings hosted by** to your chosen value of either **Any org**, **Trusted orgs and guests**, **Specific orgs**, or **No other orgs**.
-
-      - 1. If you select **Specific orgs**, select the **Add Domains** button to open a panel. In the panel, enter the domain names for organizations that are allowed to host meetings where users with this policy can share content. This policy takes precedence over your [external access policies](trusted-organizations-external-meetings-chat.md).
-      - 2. After you enter the domain name, select the **‘Add *[domain name]* as a domain** dropdown.
-      - 3. Select **Done**
+6. Set **Participants can share content in external meetings hosted by** to your chosen value of either **Any org**, **Trusted orgs and guests**, or **No other orgs**.
 7. Select **Save**
 
 ### Prevent users from sharing content in external meetings using PowerShell
@@ -96,6 +78,20 @@ For users with this policy to only share content in meetings that trusted orgs a
 ```powershell
 Set-CsTeamsEventsPolicy -Identity <policy name> -ContentSharingInExternalMeetings EnabledForTrustedOrgs
 ```
+
+### Supported and unsupported meeting types
+
+This feature doesn’t support the following meeting types:
+
+- [Microsoft Teams free meetings](https://www.microsoft.com/microsoft-teams/free)
+
+This feature supports the following meeting types:
+
+- Shared Channel meetings
+- Private or Public channel meetings
+- Meetings scheduled through Graph
+- Group Calls/1:1 calls
+- Meet now
 
 ## Related articles
 
