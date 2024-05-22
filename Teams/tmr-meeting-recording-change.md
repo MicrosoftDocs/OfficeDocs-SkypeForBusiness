@@ -23,7 +23,7 @@ appliesto:
 
 # Teams meeting recording storage and permissions in OneDrive and SharePoint
 
-When users in your org record Teams meetings, they're stored in OneDrive and SharePoint. Depending on where your users access the file, the recording plays on the video player in OneDrive or SharePoint.
+When users in your org record Teams meetings, they're stored in either OneDrive and SharePoint. Depending on where your users access the file, the recording plays on the video player in OneDrive or SharePoint.
 
 This article helps you, as an admin, understand recording storage and permissions for OneDrive and Sharepoint.
 
@@ -33,7 +33,7 @@ To learn about blocking the download of Teams meeting recording files from Share
 
 ## Recording storage
 
-**As an admin, you can't change where recording are stored.**
+**As an admin, you can't change where recordings are stored.**
 
 For **webinars and meetings**, all recording files are automatically saved to the organizer's OneDrive **Recordings** folder, even if the organizer didn't attend the meeting. This process applies to autorecorded, recurring, meet now, and meetings that delegates create. Co-organizers can edit the recording files.
 
