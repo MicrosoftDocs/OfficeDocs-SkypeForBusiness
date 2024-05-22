@@ -203,6 +203,7 @@ Template policies control what team templates users see when they create a new t
 - [Create a custom team template in Microsoft Teams](create-a-team-template.md)
 - [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate)
 - [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist)
+- [Manage the Virtual appointment meeting template in Microsoft Teams](virtual-appointment-meeting-template.md)
 
 ### Teams update policies
 
@@ -509,6 +510,7 @@ Meeting policies are used to control what features are available in meetings org
 - [Teams meeting recording](meeting-recording.md)
 - [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)
+- [Customize meeting invitations (IT admins)](customize-meeting-invitations.md)
 
 #### Audio & video
 
@@ -784,6 +786,23 @@ Meeting templates can be used to create meetings that are available to users wit
 - [Require a watermark for sensitive Teams meetings](watermark-meeting-content-video.md)
 - [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
 
+### Virtual appointments
+
+You can use the following PowerShell parameters to manage Virtual appointments for your users.
+
+| Parameter | Default | Description |
+|:-----|:-----|:-----|
+|EnableSMSNotifications|True|Controls whether your users can choose to send SMS text notifications to external guests in meetings that they schedule using a virtual appointment template meeting. To learn more, see [Manage the Virtual appointment meeting template in Microsoft Teams](virtual-appointment-meeting-template.md).|
+
+#### Related articles for Virtual appointments
+
+- [Manage the Virtual appointment meeting template in Microsoft Teams](virtual-appointment-meeting-template.md)
+- [New-CsTeamsVirtualAppointmentsPolicy](/powershell/module/teams/new-csteamsvirtualappointmentspolicy)
+- [Set-CsTeamsVirtualAppointmentsPolicy](/powershell/module/teams/set-csteamsvirtualappointmentspolicy)
+- [Grant-CsTeamsVirtualAppointmentsPolicy](/powershell/module/teams/grant-csteamsvirtualappointmentspolicy)
+- [Get-CsTeamsVirtualAppointmentsPolicy](/powershell/module/teams/get-csteamsvirtualappointmentspolicy)
+- [Remove-CsTeamsVirtualAppointmentsPolicy](/powershell/module/teams/removes-csteamsvirtualappointmentspolicy)
+
 ### Meeting template policies
 
 **Navigation:** Teams admin center > Meetings > Meeting template policies
@@ -816,6 +835,7 @@ Choose who can attend events and customize registration options for webinars.
 |Webinar registration form questions|Custom, standard, required|When **On**, organizers require attendees to answer custom, standard, and required questions when registering for webinars.|
 |Allowed webinar types for recording|Public|When **On**, organizers can publish any webinar recordings.|
 |Allowed town hall types for recording|Public|When **On**, organizers can publish any town hall recordings.|
+|Use Microsoft eCDN|On|Controls whether your users use the Microsoft eCDN or one of our partner providers. To learn more, see [Enterprise content delivery networks for streaming Microsoft Teams events](streaming-ecdn-enterprise-content-delivery-network.md#manage-the-ecdn-solution-for-premium-town-halls).|
 
 #### PowerShell-only events policies
 
