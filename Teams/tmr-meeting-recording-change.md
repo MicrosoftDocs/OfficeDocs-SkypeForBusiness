@@ -33,11 +33,9 @@ By default, all recording files go to the OneDrive account of the user who selec
 
 For **non-Channel meetings**, the recording is stored in a folder named **Recordings** that's at the top level of the OneDrive that belongs to the person who started the meeting recording. For example, *recorder's OneDrive*/**Recordings**.
 
-For **Channel meetings**, the the recording is stored in the Teams site documentation library in a folder named **Recordings**. For example: *Teams name - Channel name*/**Documents**/**Recordings**.
+For **Channel meetings**, the recording is stored in the Teams site documentation library in a folder named **Recordings**. For example: *Teams name - Channel name*/**Documents**/**Recordings**.
 
-If a Teams meeting recording fails to successfully upload to OneDrive, a "The recording ended unexpectedly" error message appears. The recording is instead temporarily saved to async media storage. Once stored in async media storage, no retry attempts are made to automatically upload the recording to OneDrive/SharePoint or Stream.
-
-If the user doesn't have OneDrive or SharePoint, or the storage quota is full, the recording stays in async media storage for 21 days. During that time, the organizer must download the recording. If not downloaded within 21 days, the recording is deleted.
+If a Teams meeting recording fails to successfully upload to OneDrive because the user doesn't have OneDrive or SharePoint, or the storage quota is full, a "The recording ended unexpectedly" error message appears. The recording is instead temporarily saved to async media storage. Once the recording is in async media storage, no retry attempts are made to automatically upload the recording to OneDrive or SharePoint. During that time, the organizer must download the recording. If not downloaded within 21 days, the recording is deleted.
 
 Since videos are just like any other file in OneDrive and SharePoint, handling ownership and retention after an employee leaves follows the normal [OneDrive and SharePoint process](/onedrive/retention-and-deletion).
 
