@@ -1,6 +1,7 @@
 ---
 title: Prevent users from sharing content in external Teams meetings
 ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 audience: Admin
 ms.topic: article
