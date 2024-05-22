@@ -3,7 +3,7 @@ title: Use OneDrive and SharePoint for meeting recordings
 ms.author: wlibebe
 author: wlibebe
 ms.reviewer: yudma, yujin1, ritikag
-ms.date: 5/6/2024
+ms.date: 5/22/2024
 manager: pamgreen
 ms.topic: article
 audience: admin
@@ -23,23 +23,28 @@ appliesto:
 
 # Use OneDrive and SharePoint for meeting recordings
 
-When users in your org record Teams meetings, they're stored in OneDrive and SharePoint. The video plays on the video player of OneDrive or SharePoint depending on where your users access the file. This article helps you, as an admin, understand recording storage and permissions for OneDrive and Sharepoint.
+When users in your org record Teams meetings, they're stored in OneDrive and SharePoint. The video plays on the video player of OneDrive or SharePoint depending on where your users access the file.
+This article helps you, as an admin, understand recording storage and permissions for OneDrive and Sharepoint.
 
 To learn about blocking the download of Teams meeting recording files from SharePoint or OneDrive, see [Block the download of Teams meeting recording files from SharePoint or OneDrive](block-download-meeting-recording.md).
 
 ## Recording storage
 
-By default, all recording files go to the OneDrive account of the user who selected **Record**. For channel meetings, the recording always goes to the SharePoint site of the channel. **As an admin, you can't change where the recording is stored.**
+**As an admin, you can't change where recording are stored.**
 
-For **non-Channel meetings**, the recording is stored in a folder named **Recordings** that's at the top level of the OneDrive that belongs to the person who started the meeting recording. For example, *recorder's OneDrive*/**Recordings**.
+For **webinars and meetings**, all recording files are automatically saved to the organizer's OneDrive **Recordings** folder, even if the organizer didn't attend the meeting. This applies to auto-recorded, recurring, meet now, and meetings that delegates create. Co-organizers can edit the recording files.
 
 For **Channel meetings**, the recording is stored in the Teams site documentation library in a folder named **Recordings**. For example: *Teams name - Channel name*/**Documents**/**Recordings**.
 
-If a Teams meeting recording fails to successfully upload to OneDrive because the user doesn't have OneDrive or SharePoint, or the storage quota is full, a "The recording ended unexpectedly" error message appears. The recording is instead temporarily saved to async media storage. Once the recording is in async media storage, no retry attempts are made to automatically upload the recording to OneDrive or SharePoint. During that time, the organizer must download the recording. If not downloaded within 21 days, the recording is deleted.
+For **shared accounts** and **Microsoft Teams Rooms meet now meetings**, the recording goes to the shared account's OneDrive, and if there's no OneDrive, it gets temporarily stored to async media storage. To learn more about Microsoft Teams Rooms meet now meetings, see [Microsoft Teams Rooms (Windows)](https://support.microsoft.com/office/microsoft-teams-rooms-windows-e667f40e-5aab-40c1-bd68-611fe0002ba2). For details on shared accounts, see [Sharing accounts with Microsoft Entra ID](/entra/identity/users/users-sharing-accounts).
 
-Since videos are just like any other file in OneDrive and SharePoint, handling ownership and retention after an employee leaves follows the normal [OneDrive and SharePoint process](/onedrive/retention-and-deletion).
+Videos are just like any other file in OneDrive and SharePoint, so handling ownership and retention after an employee leaves follows the normal [OneDrive and SharePoint process](/onedrive/retention-and-deletion).
 
 To learn how to apply retention labels to Teams meeting recordings, see [How to auto-apply a retention label](/microsoft-365/compliance/apply-retention-labels-automatically).
+
+### Async media storage
+
+If a Teams meeting recording fails to successfully upload to OneDrive because the user doesn't have OneDrive or SharePoint, or the storage quota is full, a "The recording ended unexpectedly" error message appears. The recording is instead temporarily saved to async media storage. Once the recording is in async media storage, no retry attempts are made to automatically upload the recording to OneDrive or SharePoint. During that time, the organizer must download the recording. If not downloaded within 21 days, the recording is deleted.
 
 ## Viewing permissions
 
