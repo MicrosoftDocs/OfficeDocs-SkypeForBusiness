@@ -1,5 +1,5 @@
 ---
-title: Use OneDrive and SharePoint for meeting recordings
+title: Teams meeting recording storage and permissions in OneDrive and SharePoint
 ms.author: wlibebe
 author: wlibebe
 ms.reviewer: yudma, yujin1, ritikag
@@ -21,11 +21,13 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Use OneDrive and SharePoint for meeting recordings
+# Teams meeting recording storage and permissions in OneDrive and SharePoint
 
 When users in your org record Teams meetings, they're stored in OneDrive and SharePoint. Depending on where your users access the file, the recording plays on the video player in OneDrive or SharePoint.
 
 This article helps you, as an admin, understand recording storage and permissions for OneDrive and Sharepoint.
+
+To understand your recording policies, see [Teams meeting recording](meeting-recording.md).
 
 To learn about blocking the download of Teams meeting recording files from SharePoint or OneDrive, see [Block the download of Teams meeting recording files from SharePoint or OneDrive](block-download-meeting-recording.md).
 
