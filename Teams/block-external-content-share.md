@@ -75,14 +75,14 @@ Follow these steps in the Teams admin center to manage the types of meetings you
 5. Navigate to the **Content sharing** section.
 6. Set **Participants can share content in external meetings hosted by** to your chosen value of either **Any org**, **Trusted orgs and guests**, **Specific orgs**, or **No other orgs**.
 
-      - 1. If you select **Specific orgs**, select the **Add Domains** button to open a panel. In the panel, enter the domain names for orgs that can host meetings where users with this policy are allowed to share content in. This policy takes precedence over your [external access policies](trusted-organizations-external-meetings-chat.md).
+      - 1. If you select **Specific orgs**, select the **Add Domains** button to open a panel. In the panel, enter the domain names for organizations that are allowed to host meetings where users with this policy can share content. This policy takes precedence over your [external access policies](trusted-organizations-external-meetings-chat.md).
       - 2. After you enter the domain name, select the **‘Add *[domain name]* as a domain** dropdown.
       - 3. Select **Done**
 7. Select **Save**
 
 ### Prevent users from sharing content in external meetings using PowerShell
 
-You can use PowerShell to manage the types of questions an organizer can require attendees to answer when registering for webinars. To manage the registration form questions, use the **`-ContentSharingInExternalMeetings`** parameter in the **CsTeamsEventsPolicy** cmdlet.
+You can use the **`-ContentSharingInExternalMeetings`** parameter in the **CsTeamsEventsPolicy** cmdlet to manage which external meetings your users can share content in.
 
 To prevent users with this policy from sharing content in any external meetings, use the following script:
 
