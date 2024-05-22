@@ -120,7 +120,7 @@ Schools can allow teachers to update manually the parent contact information cor
 
     :::image type="content" source="media/enabled-users.png" alt-text="Screenshot of enabled users.":::
   
-    For more details on the power automate side see [Enable or disable application users.](/power-apps/developer/data-platform/use-single-tenant-server-server-authentication#enable-or-disable-application-users)  
+    For more details on the power automate side, see [Enable or disable application users.](/power-apps/developer/data-platform/use-single-tenant-server-server-authentication#enable-or-disable-application-users)  
 
     Use the following steps to enable the Global/Teams administrator:
 
