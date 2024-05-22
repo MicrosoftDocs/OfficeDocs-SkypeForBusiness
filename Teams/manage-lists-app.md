@@ -65,15 +65,15 @@ Before moving to Teams, mail carriers had to go back to the post office to compl
 
 ### Lists is available in every team and channel
 
-Lists is pre-installed for all Teams users and is available directly in the tab gallery of every team and channel. This means that users don't have to go to the Teams app store to install it.
+Lists is preinstalled for all Teams users and is available directly in the tab gallery of every team and channel. This means that users don't have to go to the Teams app store to install it.
 
 ### Lists and SharePoint
 
-Lists data is stored in the SharePoint Online team site. To learn more about how SharePoint Online interacts with Teams, see [How SharePoint Online and OneDrive for Business interact with Teams](SharePoint-OneDrive-interact.md).
+Lists data is stored in the SharePoint Online team site. To learn more about how SharePoint Online interacts with Teams, see [Overview of Teams and SharePoint integration](/sharepoint/teams-connected-sites).
 
-Permissions set in SharePoint apply to lists created in the Lists app. By default, lists inherit permissions from the site to which they belong. These permissions govern the types of actions that users can do, such as whether they can create or edit lists. To learn more, see [Permission levels in SharePoint](/sharepoint/understanding-permission-levels) and [User permissions and permission levels in SharePoint Server](/sharepoint/sites/user-permissions-and-permission-levels).
+Permissions set in SharePoint apply to lists created in the Lists app. By default, lists inherit permissions from the site to which they belong. These permissions govern the types of actions that users can do, such as whether they can create or edit lists. To learn more, see [Permission levels in SharePoint](/sharepoint/understanding-permission-levels) and [On-premises SharePoint Server user permissions and permission levels](/sharepoint/sites/user-permissions-and-permission-levels).
 
-In certain scenarios, you may want to restrict what actions users can do in lists. For example, a person on a team edits a list view, which changes it for all team members, and you want to allow only the team owner or certain team members to edit list views. To learn more, see [Customize permissions for a SharePoint list or library](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013).
+In certain scenarios, you might want to restrict what actions users can do in lists. For example, a person on a team edits a list view, which changes it for all team members, and you want to allow only the team owner or certain team members to edit list views. To learn more, see [Customize permissions for a SharePoint list or library](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013).
 
 > [!NOTE]
 > At this point, owner and member permissions in a team aren't linked in any way to permissions in the team site that govern the behavior of lists or the Lists App. However, based on customer feedback and usage, this will be considered for a future iteration of the product.  
@@ -102,15 +102,15 @@ Lists is enabled by default for all Teams users in your organization. You can tu
 
 ### Enable or disable Lists for specific users in your organization
 
-To allow or block specific users in your organization from using Lists, make sure Lists is turned on for your organization on the [Manage apps](manage-apps.md) page, and then create a custom policy for app permissions and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
+To allow or block specific users in your organization from using Lists, make sure Lists is turned on for your organization on the [Manage apps](manage-apps.md) page, and then create a custom policy for app permissions and assign it to those users. To learn more, see [Use app permission policies to control user access to apps](teams-app-permission-policies.md).
 
 ## Search the audit log for list events
 
-Lists are enabled with enterprise level auditing so you can search for lists and list item events in the audit log in the Security & Compliance Center. To learn more, see [Search the audit log in the Security & Compliance Center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
+Lists are enabled with enterprise level auditing so you can search for lists and list item events in the audit log in the Microsoft Purview portal or the Microsoft Purview compliance portal. To learn more, see [Search the audit log](/purview/audit-search).
 
-For a list of audit events that are relevant to the Lists app in Teams, see [SharePoint list activities](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities).
+For a list of audit events that are relevant to the Lists app in Teams, see [SharePoint list activities](/purview/audit-log-activities#sharepoint-list-activities).
 
-Before you can search the audit log, you have to first turn on auditing in the [Security & Compliance Center](https://protection.office.com). Keep in mind that audit data is only available from the point at which you turned on auditing.
+Before you can search the audit log, you have to first turn on auditing in the Microsoft Purview portal or the Microsoft Purview compliance portal. Keep in mind that audit data is only available from the point at which you turned on auditing.
 
 ## Power Automate, Power Apps, and Graph API
 
@@ -118,14 +118,12 @@ Lists supports [Power Automate](/power-automate/flow-types) for workflows and [P
 
 ## Lists data
 
-The Lists app is based on SharePoint and Lists data is stored in the SharePoint Online team site. See [Data Residency for SharePoint Online and OneDrive for Business](/microsoft-365/enterprise/m365-dr-workload-spo?view=o365-worldwide) for more information.
+The Lists app is based on SharePoint and Lists data is stored in the SharePoint Online team site. For more information, see [Data Residency for SharePoint Online and OneDrive](/microsoft-365/enterprise/m365-dr-workload-spo).
 
 ## Give feedback or report an issue
   
-To send us feedback or report an issue, select **Help** near the bottom of the left pane in Teams, and then select **Report a problem**. Select **Lists**, and then enter your feedback or details about the issue you're experiencing.
+To send us feedback or report an issue, select **Settings and more** (**…**) in Teams, and then choose **Help** > **Give feedback**. Enter your feedback or details about the issue you're experiencing. Indicate at the beginning of your feedback report that you're sending feedback about Lists so we can easily identify Lists issues.
 
 ## Related articles
 
 - [Lists help documentation](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Lists)
-
-
