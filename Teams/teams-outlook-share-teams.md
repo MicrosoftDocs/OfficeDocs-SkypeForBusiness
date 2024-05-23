@@ -33,6 +33,9 @@ Share to Teams uses the same transport mechanism as when a user emails a channel
 
 The Outlook add-in for Share to Teams uses requirement set 1.7, as detailed in [Outlook add-ins documentation](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook) and [Outlook add-in API requirement set 1.7](/javascript/api/requirement-sets/outlook/requirement-set-1.7/outlook-requirement-set-1.7), which include details on Outlook add-ins, environment requirements for Outlook add-ins, and the specific Outlook clients that are supported with requirement set 1.7.
 
+> [!NOTE]
+> Share to Teams isn't available for Government Community Cloud (GCC) High and Department of Defense (DOD) environments.
+
 ## Enabling or disabling Share to Teams
 
 The Outlook add-in for Share to Teams can be selectively disabled or enabled on a per-user basis using the following PowerShell cmdlets.

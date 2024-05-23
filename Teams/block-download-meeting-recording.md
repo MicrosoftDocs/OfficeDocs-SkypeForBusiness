@@ -33,7 +33,7 @@ This policy applies to new meeting recordings across the entire organization. Yo
 
 After the policy is turned on, any new Teams meeting recording files created by Teams and saved in SharePoint and OneDrive are blocked from download.
 
-Because this policy affects meeting recordings stored in OneDrive and SharePoint, you must be a SharePoint Administrator to configure it.
+Because this policy affects meeting recordings stored in OneDrive and SharePoint, you must be a SharePoint Administrator to configure it. To learn more about meeting recording in OneDrive and SharePoint, see [Use OneDrive and SharePoint for meeting recordings](tmr-meeting-recording-change.md).
 
 Note that this policy doesn't apply to manually uploaded meeting recording files.  
 
