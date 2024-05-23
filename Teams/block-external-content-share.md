@@ -13,7 +13,7 @@ ms.collection:
   - M365-collaboration
   - m365initiative-meetings
   - Tier1
-description: Learn how to manage the registration form for webinars in Microsoft Teams for admins. You can manage default questions, custom questions, and predefined questions.
+description: Learn how to control whether users in your org with a Teams Premium license can share content when attending external Teams meetings.
 appliesto: 
   - Microsoft Teams
 ---
