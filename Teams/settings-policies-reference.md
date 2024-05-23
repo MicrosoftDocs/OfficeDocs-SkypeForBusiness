@@ -208,6 +208,7 @@ Template policies control what team templates users see when they create a new t
 - [Create a custom team template in Microsoft Teams](create-a-team-template.md)
 - [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate)
 - [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist)
+- [Manage the Virtual appointment meeting template in Microsoft Teams](virtual-appointment-meeting-template.md)
 
 ### Teams update policies
 
@@ -270,16 +271,20 @@ Teams upgrade settings let you set up your upgrade experience from Skype for Bus
 
 ### Permission policies
 
-**Navigation:** Teams admin center > Teams apps > Manage apps
+**Navigation:** Teams admin center > Teams apps > Permission policies
 
-Control which apps are available to install for people in your organization by allowing and blocking apps. You can also upload, approve, and publish custom apps made specifically for your organization to the app store. After managing apps on this page, use an app setup policy to pre-install apps for your users.
-:::image type="content" source="media/edit-availability-small.png" alt-text="Screenshot of Teams manage app settings in the Teams admin center." lightbox="media/edit-availability-expand.png":::
+App permission policies control which apps you want to make available to Teams users in your organization.
 
-Each app category includes the following options for installation permissions:
+All organizations don't have app centric management (ACM) feature available. If you weren't using custom permission policies, we migrated your org to use this feature. If you are using custom permission policies then you will soon be able to migrate to ACM feature on your own. If you see policies on the permission policies page, continue to use app permission policies to control user access to apps.
 
-- **Everyone**- Everyone can install and use this app, including people in my org, guests, and external users.
-- **Specific users or groups**- Only selected users and groups can install and use this app.
-- **No one**- Nobody can install or use this app.
+:::image type="content" source="media/permission-policies-tac.png" alt-text="Screenshot of Teams app permission policies in the Teams admin center." lightbox="media/permission-policies-tac-expand.png":::
+
+The types of apps to permission are divided into three categories - Microsoft apps, Third-party apps, and Custom apps. Each app category includes the following options for permissions:
+
+- **Allow all apps** - Users can install and use any app published by your organization in the Teams app store.
+- **Allow specific apps and block all others** - Allow specific apps you want to allow from the Teams app store and all other apps would be blocked.
+- **Block specific apps and allow all others** - Add which apps you want to block from the Teams app store and all the other apps would be allowed.
+- **Block all apps** - Users can't install apps that are published by your organization in the Teams app store.
 
 #### Related articles for permission policies
 
@@ -530,6 +535,7 @@ Meeting policies are used to control what features are available in meetings org
 - [Teams meeting recording](meeting-recording.md)
 - [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)
+- [Customize meeting invitations (IT admins)](customize-meeting-invitations.md)
 
 #### Audio & video
 
@@ -557,6 +563,7 @@ Meeting policies are used to control what features are available in meetings org
 |PreferredMeetingProviderForIslandsMode|TeamsAndSfb|Determines the Outlook meeting add-in availability to users on Islands mode. With the default value of `TeamsAndSfb`, users see both the Skype for Business and Teams add-ins. If you set this value to `Teams`, the Skype for Business add-in is removed and only the Teams add-in is shown.|
 |TeamsCameraFarEndPTZMode|Disabled|Read more about how to to configure [Far end camera control (FECC) for pan tilt zoom (PTZ) cameras](meeting-policies-audio-and-video.md#far-end-camera-control-fecc-for-pan-tilt-zoom-ptz-cameras).|
 |VoiceIsolation|Enabled|Controls whether users with this policy can use voice isolation in Teams calls and meetings. To learn more, see [Manage voice isolation for your users' Microsoft Teams calls and meetings](voice-isolation.md).|
+|EnrollUserOverride|Enabled|Controls whether users with this policy can set the voice profile capture and enrollment through the Recognition tab in their Teams client settings. To learn more, see [Overview of voice and face enrollment](/microsoftteams/rooms/voice-and-face-recognition).|
 
 ##### Related articles for audio & video meeting policies
 
@@ -791,6 +798,23 @@ Meeting templates can be used to create meetings that are available to users wit
 - [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
 - [Sensitivity labels for Microsoft Teams](sensitivity-labels.md)
 - [Manage chat for sensitive Teams meetings](manage-chat-sensitive-meetings.md)
+
+### Virtual appointments
+
+You can use the following PowerShell parameters to manage Virtual appointments for your users.
+
+| Parameter | Default | Description |
+|:-----|:-----|:-----|
+|EnableSMSNotifications|True|Controls whether your users can choose to send SMS text notifications to external guests in meetings that they schedule using a virtual appointment template meeting. To learn more, see [Manage the Virtual appointment meeting template in Microsoft Teams](virtual-appointment-meeting-template.md).|
+
+#### Related articles for Virtual appointments
+
+- [Manage the Virtual appointment meeting template in Microsoft Teams](virtual-appointment-meeting-template.md)
+- [New-CsTeamsVirtualAppointmentsPolicy](/powershell/module/teams/new-csteamsvirtualappointmentspolicy)
+- [Set-CsTeamsVirtualAppointmentsPolicy](/powershell/module/teams/set-csteamsvirtualappointmentspolicy)
+- [Grant-CsTeamsVirtualAppointmentsPolicy](/powershell/module/teams/grant-csteamsvirtualappointmentspolicy)
+- [Get-CsTeamsVirtualAppointmentsPolicy](/powershell/module/teams/get-csteamsvirtualappointmentspolicy)
+- [Remove-CsTeamsVirtualAppointmentsPolicy](/powershell/module/teams/remove-csteamsvirtualappointmentspolicy)
 
 ### Meeting template policies
 
