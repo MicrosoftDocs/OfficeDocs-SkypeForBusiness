@@ -271,16 +271,20 @@ Teams upgrade settings let you set up your upgrade experience from Skype for Bus
 
 ### Permission policies
 
-**Navigation:** Teams admin center > Teams apps > Manage apps
+**Navigation:** Teams admin center > Teams apps > Permission policies
 
-Control which apps are available to install for people in your organization by allowing and blocking apps. You can also upload, approve, and publish custom apps made specifically for your organization to the app store. After managing apps on this page, use an app setup policy to pre-install apps for your users.
-:::image type="content" source="media/edit-availability-small.png" alt-text="Screenshot of Teams manage app settings in the Teams admin center." lightbox="media/edit-availability-expand.png":::
+App permission policies control which apps you want to make available to Teams users in your organization.
 
-Each app category includes the following options for installation permissions:
+All organizations don't have app centric management (ACM) feature available. If you weren't using custom permission policies, we migrated your org to use this feature. If you are using custom permission policies then you will soon be able to migrate to ACM feature on your own. If you see policies on the permission policies page, continue to use app permission policies to control user access to apps.
 
-- **Everyone**- Everyone can install and use this app, including people in my org, guests, and external users.
-- **Specific users or groups**- Only selected users and groups can install and use this app.
-- **No one**- Nobody can install or use this app.
+:::image type="content" source="media/permission-policies-tac.png" alt-text="Screenshot of Teams app permission policies in the Teams admin center." lightbox="media/permission-policies-tac-expand.png":::
+
+The types of apps to permission are divided into three categories - Microsoft apps, Third-party apps, and Custom apps. Each app category includes the following options for permissions:
+
+- **Allow all apps** - Users can install and use any app published by your organization in the Teams app store.
+- **Allow specific apps and block all others** - Allow specific apps you want to allow from the Teams app store and all other apps would be blocked.
+- **Block specific apps and allow all others** - Add which apps you want to block from the Teams app store and all the other apps would be allowed.
+- **Block all apps** - Users can't install apps that are published by your organization in the Teams app store.
 
 #### Related articles for permission policies
 
