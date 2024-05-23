@@ -40,7 +40,7 @@ To learn more about the end-user experience, see [Get started with Teams Walkie 
 
 ## License requirements
 
-Walkie Talkie is included in all paid licenses of Teams in [Microsoft 365 and Office 365 subscriptions](/office365/servicedescriptions/teams-service-description). For more information about getting Teams, check out [How do I get Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+Walkie Talkie is included in all paid licenses of Teams.
 
 ## Prepare your network
 
