@@ -25,7 +25,7 @@ appliesto:
 
 ## Overview
 
-If you enabled content sharing for users in your org, they can present a screen, window, or app in Microsoft Teams meetings. When users from your org attend external meetings, they can share content if the organizer of that meeting set **Who can present** to **Everyone** or **Specific people**. However, you might want to prevent some of your users sharing sensitive information when attending external meetings. As an admin, you can control whether users in your org with a Teams Premium license can share content when attending external Teams meetings.
+If you enabled content sharing for users in your org, they can present a screen, window, or app in Microsoft Teams meetings. When users from your org attend external meetings, they can share content if the organizer of that meeting set **Who can present** to **Everyone** or **Specific people**. However, you might want to prevent some of your users from sharing sensitive information when attending external meetings. As an admin, you can control whether users in your org with a Teams Premium license can share content when attending external Teams meetings.
 
 ## Manage the types of meetings your users can share content in
 
