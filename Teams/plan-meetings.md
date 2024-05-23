@@ -129,6 +129,7 @@ Teams admins and organizers have different policies and settings to control the 
 |[Manage what attendees see(Teams Premium)](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|No control.|Can decide whose avatars or video feeds to spotlight during the town hall.|
 |[Meeting join and lobby](who-can-bypass-meeting-lobby.md)|Can set the defaults for new meetings.|Can choose meeting join and lobby settings for each meeting.|
 |[Prevent users from joining external meetings](external-meeting-join.md)|Can control which types of Microsoft Teams meetings your users can join.|No control.|
+|[Prevent users from sharing content in external meetings](block-external-content-share.md)|Can control which types of external Microsoft Teams meetings your users share content in.|No control.|
 |[Q&A](manage-qna-for-teams.md)|Can manage if organizers can use Q&A in meetings.|Can decide if Q&A is available for their meetings if allowed by admins.|
 |[Reactions and hand raise](manage-reactions-meetings.md)| Manage whether reactions and hand raise can be used in meetings created by organizers with this policy. |Can control whether reactions and hand raise can be used in their meetings. |
 |[Recording](meeting-recording.md)|Can allow or prevent meeting recording and set recording expiration time.|If the admin enables recording, organizers can set who can record (Teams Premium) and automatic recording.|
