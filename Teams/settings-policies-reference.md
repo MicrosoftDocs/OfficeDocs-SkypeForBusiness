@@ -461,6 +461,7 @@ Meeting policies are used to control what features are available in meetings org
 |Collaborative annotations|On|When **On**, participants can collaborate while sharing their screen during a Teams meeting.|
 |Shared notes|On|When **On**, attendees can create shared meeting notes through the meeting details.|
 |Organizer can restrict participants from copying or forwarding meeting chat messages|On|When this setting is on, meeting organizers can turn off message copying and forwarding, which includes using keyboard shortcuts, right click, or the more actions menu to copy or forward messages.|
+|Participants can share content in external meetings hosted by|Any org|When this is set to **Any org**, your users with a Teams premium license can share content when attending any external meeting. When set to **Trusted orgs and guests**, these users can only share content when attending external meetings that orgs with domains specified on the External access page host.|
 
 **PowerShell-only content sharing policies**
 
