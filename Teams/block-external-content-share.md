@@ -56,7 +56,7 @@ Follow these steps in the Teams admin center to manage the types of meetings you
 
 1. Open the Teams admin center.
 2. Expand **Meetings** from the navigation pane.
-3. Under **Meetings**, select **Events Policies**.
+3. Under **Meetings**, select **Meeting Policies**.
 4. Either select an existing policy or create a new one.
 5. Navigate to the **Content sharing** section.
 6. Set **Participants can share content in external meetings hosted by** to your chosen value of either **Any org**, **Trusted orgs and guests**, or **No other orgs**.
@@ -64,18 +64,18 @@ Follow these steps in the Teams admin center to manage the types of meetings you
 
 ### Prevent users from sharing content in external meetings using PowerShell
 
-You can use the **`-ContentSharingInExternalMeetings`** parameter in the **CsTeamsEventsPolicy** cmdlet to manage which external meetings your users can share content in.
+You can use the **`-ContentSharingInExternalMeetings`** parameter in the [**CsTeamsMeetingPolicy**](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet to manage which external meetings your users can share content in.
 
 To prevent users with this policy from sharing content in any external meetings, use the following script:
 
 ```powershell
-Set-CsTeamsEventsPolicy -Identity <policy name> -ContentSharingInExternalMeetings Disabled
+Set-CsTeamsMeetingPolicy -Identity <policy name> -ContentSharingInExternalMeetings Disabled
 ```
 
 For users with this policy to only share content in meetings that trusted orgs and guests host, use the following script:
 
 ```powershell
-Set-CsTeamsEventsPolicy -Identity <policy name> -ContentSharingInExternalMeetings EnabledForTrustedOrgs
+Set-CsTeamsMeetingPolicy -Identity <policy name> -ContentSharingInExternalMeetings EnabledForTrustedOrgs
 ```
 
 ### Supported and unsupported meeting types
