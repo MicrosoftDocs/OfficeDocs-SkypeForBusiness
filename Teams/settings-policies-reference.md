@@ -275,6 +275,12 @@ Teams upgrade settings let you set up your upgrade experience from Skype for Bus
 Control which apps are available to install for people in your organization by allowing and blocking apps. You can also upload, approve, and publish custom apps made specifically for your organization to the app store. After managing apps on this page, use an app setup policy to pre-install apps for your users.
 :::image type="content" source="media/edit-availability-small.png" alt-text="Screenshot of Teams manage app settings in the Teams admin center." lightbox="media/edit-availability-expand.png":::
 
+Each app category includes the following options for installation permissions:
+
+- **Everyone**- Everyone can install and use this app, including people in my org, guests, and external users.
+- **Specific users or groups**- Only selected users and groups can install and use this app.
+- **No one**- Nobody can install or use this app.
+
 #### Related articles for permission policies
 
 - [Use app permission policies to control user access to apps](teams-app-permission-policies.md)
