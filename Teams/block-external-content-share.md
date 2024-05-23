@@ -87,7 +87,7 @@ This feature doesn’t support the following meeting types and platforms:
 - Classic Teams
 - TFL and TFW meeting federation
 
-This policy doesn't prevent your users from sharing content in external meetings anonymously if they’re not signed into Teams.
+This policy doesn't prevent your users from sharing content in external meetings anonymously when they aren't signed into Teams.
 
 ## Related articles
 
