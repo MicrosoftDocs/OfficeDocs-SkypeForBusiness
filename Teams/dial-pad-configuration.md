@@ -31,10 +31,7 @@ In the Teams client, the dial pad enables users to access Public Switched Teleph
 - User has Enterprise Voice enabled
 - User has Allow Private Calling enabled in Teams Calling Policy
 
-To successfully place a call using the dial pad, the user must have one of the following:  Microsoft Calling Plan, Operator Connect, is enabled for Direct Routing, or is able to use Shared Calling.
-
-> [!NOTE]
-> If Shared Calling is available in your tenant and you have users who are homed online and enabled for Enterprise Voice, the dial pad shows in Teams for those users. For more information, see [Plan for Shared Calling](shared-calling-plan.md).
+To successfully place a call using the dial pad, the user must have one of the following:  Microsoft Calling Plan, Operator Connect, is enabled for Direct Routing, or is able to use Shared Calling. If Shared Calling is available in your tenant and you have users who are homed online and enabled for Enterprise Voice, the dial pad shows in Teams for those users. For more information, see [Plan for Shared Calling](shared-calling-plan.md).
 
 The following sections describe how to use PowerShell to check the criteria. In most cases, you need to look at various properties in the output of the [Get-CsOnlineUser](/powershell/module/teams/get-csonlineuser) cmdlet. Examples assume $user is either the UPN (UserPrincipalName) or SIP address of the user.
 
