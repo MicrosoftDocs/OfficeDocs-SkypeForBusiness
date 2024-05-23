@@ -25,7 +25,7 @@ appliesto:
 
 ## Overview
 
-If you enabled content sharing for users in your org, they can present a screen, window, or app in Microsoft Teams meetings. When users from your org attend external meetings, they can share content if the organizer of that meeting set **Who can present** to **Everyone** or **Specific people**. However, you might want to prevent some of your users from sharing content when attending external meetings. As an admin, you can control whether users in your org with a Teams Premium license can share content when attending external Teams meetings.
+If you enabled content sharing for users in your org, they can present a screen, window, or app in Microsoft Teams meetings. When users from your org attend external meetings, they can share content if the organizer of that meeting set **Who can present** to **Everyone** or **Specific people**. However, you might want to prevent some of your users sharing sensitive information when attending external meetings. As an admin, you can control whether users in your org with a Teams Premium license can share content when attending external Teams meetings.
 
 ## Manage the types of meetings your users can share content in
 
@@ -34,7 +34,7 @@ You can use the Teams admin center or the **`-ContentSharingInExternalMeetings`*
 |Teams admin center policy option|PowerShell value| Behavior |
 |---------|---------|---------------|
 |Any org | EnabledForAnyone |**This is the default value.** Users with this assigned policy can share content when attending meetings that any org hosts. |
-|Trusted orgs and guests | EnabledForTrustedOrgs |Users with this assigned policy can only share content when attending meetings that trusted orgs and guests(defined in your [External access policy](trusted-organizations-external-meetings-chat.md)) host.|
+|Trusted orgs and guests | EnabledForTrustedOrgs |Users with this assigned policy can only share content when attending meetings that trusted orgs and guests that you defined in your [External access policy](trusted-organizations-external-meetings-chat.md) host.|
 |No other orgs | Disabled | Users with this assigned policy can’t share content when attending any external meetings.|
 
 ### Prevent users from sharing content in external meetings in the Teams admin center
@@ -65,19 +65,27 @@ For users with this policy to only share content in meetings that trusted orgs a
 Set-CsTeamsMeetingPolicy -Identity <policy name> -ContentSharingInExternalMeetings EnabledForTrustedOrgs
 ```
 
-### Supported and unsupported meeting types
+### Supported and unsupported meeting types and platforms
 
-This feature doesn’t support the following meeting types:
+This feature supports the following meeting types and platforms:
+
+- Meetings scheduled through Outlook and Teams calendar
+- Desktop T2.1 (Windows and Mac)
+- Mobile (Android and iOS)
+- Web
+- VDI 2.0
+
+This feature doesn’t support the following meeting types and platforms:
 
 - [Microsoft Teams free meetings](https://www.microsoft.com/microsoft-teams/free)
-
-This feature supports the following meeting types:
-
-- Shared Channel meetings
+- Shared channel meetings
 - Private or Public channel meetings
 - Meetings scheduled through Graph
 - Group Calls/1:1 calls
 - Meet now
+- MTR [Windows, Surface Hub, Android], CVI, VDI 1.0
+- Classic Teams
+- TFL and TFW meeting federation
 
 This policy doesn't prevent your users from sharing content in external meetings anonymously if they’re not signed into Teams.
 
