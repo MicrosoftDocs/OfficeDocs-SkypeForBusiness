@@ -1542,9 +1542,9 @@ items:
       items:
         - name: Manage the Admin app
           href: manage-admin-app.md
-        - name: Manage the avatars app
+        - name: Manage the Avatars app
           href: meeting-avatars.md
-        - name: Manage the immersive spaces app
+        - name: Manage the Mesh app
           href: meeting-immersive-spaces.md
         - name: Manage the Bookings app
           href: bookings-app-admin.md
