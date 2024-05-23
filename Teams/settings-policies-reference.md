@@ -174,7 +174,7 @@ Teams policies are used to control what settings or features are available to us
 #### Related articles for Teams policies
 
 - [Manage channel policies in Microsoft Teams](teams-policies.md)
-- [Private channels in Microsoft Teams](private-channels)
+- [Private channels in Microsoft Teams](private-channels.md)
 - [Shared channels in Microsoft Teams](shared-channels.md)
 - [Set-CsTeamsChannelsPolicy](/powershell/module/teams/set-csteamschannelspolicy)
 - [Collaborate with external participants in a shared channel (IT Admins)](/microsoft-365/solutions/collaborate-teams-direct-connect)
