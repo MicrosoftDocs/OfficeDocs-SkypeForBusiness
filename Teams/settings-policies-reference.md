@@ -448,7 +448,7 @@ Meeting policies are used to control what features are available in meetings org
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
 
-:::image type="content" source="media/content-sharing-tac.png" alt-text="Screenshot of Teams meeting content sharing policies in the Teams admin center." lightbox="media/content-sharing-tac-expand.png":::
+:::image type="content" source="media/cont-share-small.png" alt-text="Screenshot of Teams meeting content sharing policies in the Teams admin center." lightbox="media/cont-share-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
