@@ -94,3 +94,5 @@ This policy doesn't prevent your users from sharing content in external meetings
 - [Manage meeting policies for content sharing](meeting-policies-content-sharing.md)
 - [Prevent users from joining external Microsoft Teams meetings](external-meeting-join.md)
 - [Manage chat in Teams meetings](manage-meeting-chat.md#manage-chat-messages-in-teams-meetings-hosted-by-other-organizations-that-you-dont-have-a-trusted-relationship-with)
+- [Manage meeting policies for content sharing](meeting-policies-content-sharing.md)
+- [Manage chat in Microsoft Teams meetings](manage-meeting-chat.md#manage-chat-messages-in-teams-meetings-hosted-by-other-organizations-that-you-dont-have-a-trusted-relationship-with)
