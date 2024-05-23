@@ -38,7 +38,7 @@ To learn more about the end-user experience, see [Get started with Teams Walkie 
 > [!NOTE]
 > Walkie Talkie currently is not available in China.
 
-## License requirements
+## Licensing
 
 Walkie Talkie is included in all paid licenses of Teams.
 
