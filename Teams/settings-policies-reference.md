@@ -991,8 +991,8 @@ Caller ID policies are used to change or block the Caller ID (also called a Call
 |Block incoming caller ID|Off|Turn on this setting to block the caller ID of incoming calls from being displayed.|
 |Override the caller ID policy|Off|Turn on this setting to let users override the settings in the policy regarding displaying their number to callees or not. Users can then choose whether or not to display their caller ID.|
 |Calling Party Name|(Blank)|The name of the person or entity that is displayed on the receiving end of a Teams call. Read more about [Calling Party Name](more-about-calling-line-ID-and-calling-party-name.md).|
-|Replace the caller ID with|User's number|Set the caller ID to be displayed for users as **User's number**, **Service number**, or **Anonymous**|
-|Replace the caller ID with this resource account/service number|(Choose a resource account/service number)|Choose a resource account or service number to replace the caller ID of users. This option is available if you selected ***Resource account** or **Service number** in **Replace the caller ID with**.|
+|Replace the caller ID with|User's number|Set the caller ID to be displayed for users as **User's number**, **Anonymous**, or **Resource account**|
+|Replace the caller ID with this resource account|(Choose a resource account)|Choose a resource account to replace the caller ID of users. This option is available if you selected ***Resource account** in **Replace the caller ID with**.|
 
 #### Related articles for Caller ID policies
 
@@ -1005,6 +1005,10 @@ Caller ID policies are used to change or block the Caller ID (also called a Call
 
 **Navigation:** Teams admin center > Voice > Emergency policies
 
+#### Calling policies
+
+**Navigation:** Emergency policies > Calling policies
+
 Emergency calling policies are used to control how users in your organization can use dynamic emergency calling features.
 
 :::image type="content" source="media/teams-policies-emergency-calling.png" alt-text="Screenshot of Teams emergency calling policies.":::
@@ -1013,10 +1017,15 @@ Emergency calling policies are used to control how users in your organization ca
 |:-----|:-----|:-----|
 |External location lookup mode|Off|Turn on this setting to allow your end users to configure their emergency address when they're working from a network location outside of the corporate network. Read more about [emergency addresses for remote locations](emergency-calling-dispatchable-location.md) and how to [add, change, or remove an emergency location](add-change-remove-emergency-location-organization.md) or [place for an emergency location](add-change-remove-emergency-place-organization.md) for your organization.|
 |Notification mode|(Blank)|This setting controls the type of notification sent to a security desk or team when someone calls emergency services. You can set it to just send a notification to them, or if they can, join an emergency call muted or unmuted.|
-|Emergency service disclaimer|(Blank)|Text that displays in a banner to remind your end users to confirm their emergency location.|
-|Numbers to dial for emergency calls notifications|(Blank)|If you selected either of the **Conference in muted** options for **Notification mode**, you can enter a PSTN phone number of a user or group to call and join the emergency call.|
+|Emergency service disclaimer|(Blank)|Text that displays in a banner to remind your end users to confirm their emergency location. This setting appears if you choose a Notification mode other than **None**.|
+|Number to dial for emergency calls notifications|(Blank)|If you selected either of the **Conference in muted** options for **Notification mode**, you can enter a PSTN phone number of a user or group to call and join the emergency call.|
 |Users and groups for emergency calls notifications|(Blank)|Search for and select one or more users or groups, such as your organization's security desk, to notify when an emergency call is made. The notification can be sent to email addresses of users, distribution groups, and security groups. A maximum of 50 users can be notified.|
-|Dynamic emergency calling|Off|If you turn on this setting, users assigned to the policy can use emergency call routing features when they move from one location to another. This setting is found under **Emergency policies** > **Call routing policies**. Read more about [how to plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).|
+
+#### Call routing policies
+
+**Navigation**: Emergency policies > Call routing policies
+
+|Dynamic emergency calling|Off|If you turn on this setting, users assigned to the policy can use emergency call routing features when they move from one location to another. Read more about [how to plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).|
 
 #### Related articles for emergency policies
 
@@ -1027,6 +1036,39 @@ Emergency calling policies are used to control how users in your organization ca
 - [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 - [Set-CsTeamsEmergencyCallingPolicy](/powershell/module/teams/set-csteamsemergencycallingpolicy)
 - [Set-CsTeamsEmergencyCallRoutingPolicy](/powershell/module/teams/set-csteamsemergencycallroutingpolicy)
+
+### Mobility policies
+
+**Navigation:** Teams admin center > Voice > Mobility policies
+
+Mobility policies control the Teams Phone Mobile features that are available to users in Teams.
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Select a mobile dialer|Microsoft Teams|This setting manages a user's incoming calling policies. The options are **Microsoft Teams**, **Native Dialer**, or **User Controlled**.|
+
+#### Related articles for mobility policies
+
+- [Configure Teams Phone Mobile](operator-connect-mobile-configure.md)
+- [Plan for Teams Phone Mobile](operator-connect-mobile-plan.md)
+- [Set-CsTeamsMobilityPolicy](/powershell/module/teams/set-csteamsmobilitypolicy)
+
+### Shared calling policies
+
+**Navigation:** Teams admin center > Voice > Shared calling policies
+
+Shared calling policies control the ability for users to have inbound and outbound calling transit through an auto attendant instead of having an assigned phone number.
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Resource account|None|This setting controls the resource account that is used for shared calling.|
+|Emergency callback number|(Blank)|This setting controls the callback number that is used for emergency calls.|
+
+#### Related articles for shared calling policies
+
+- [Plan for Shared Calling](shared-calling-plan.md)
+- [Configure Shared Calling](shared-calling-setup.md)
+- [Shared Calling scenario](shared-calling-scenario.md)
 
 ### Voice routing policies
 
@@ -1072,6 +1114,10 @@ Voicemail policies control the available features for the voicemail service in T
 - [Change the default language for voicemail](change-the-default-language-for-greetings-and-emails.md)
 - [Set-CsOnlineVoicemailPolicy](/powershell/module/teams/set-csonlinevoicemailpolicy)
 - [Set up Cloud Voicemail](set-up-phone-system-voicemail.md)
+
+### Voice applications policies
+
+**Navigation:** Teams admin center > Voice > Voice applications policies
 
 ## Enhanced encryption policies
 
