@@ -817,6 +817,7 @@ Choose who can attend events and customize registration options for webinars.
 |Webinar registration form questions|Custom, standard, required|When **On**, organizers require attendees to answer custom, standard, and required questions when registering for webinars.|
 |Allowed webinar types for recording|Public|When **On**, organizers can publish any webinar recordings.|
 |Allowed town hall types for recording|Public|When **On**, organizers can publish any town hall recordings.|
+|Use Microsoft eCDN|On|When **On**, organizers use the Microsoft eCDN for Premium town halls.When **Off**, organizers use the eCDN provider set in **Live event policies**.|
 
 #### PowerShell-only events policies
 
@@ -828,6 +829,7 @@ Choose who can attend events and customize registration options for webinars.
 
 - [Plan for town halls](plan-town-halls.md)
 - [Plan for webinars](plan-webinars.md)
+- [Enterprise content delivery networks for streaming Microsoft Teams events](streaming-ecdn-enterprise-content-delivery-network.md#configure-your-ecdn-solution)
 
 ## Messaging policies
 
