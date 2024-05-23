@@ -27,19 +27,6 @@ appliesto:
 
 If you enabled content sharing for users in your org, they can present a screen, window, or app in Microsoft Teams meetings. When users from your org attend external meetings, they can share content if the organizer of that meeting set **Who can present** to **Everyone** or **Specific people**. However, you might want to prevent some of your users from sharing content when attending external meetings. As an admin, you can control whether users in your org with a Teams Premium license can share content when attending external Teams meetings.
 
-To learn more about content sharing policies, see [Manage meeting policies for content sharing](meeting-policies-content-sharing.md).
-
-To prevent your users from joining external Teams meetings, see [Prevent users from joining external Microsoft Teams meetings](external-meeting-join.md).
-
-To manage chat for your users in external meetings, see [Manage chat in Teams meetings](manage-meeting-chat.md#manage-chat-messages-in-teams-meetings-hosted-by-other-organizations-that-you-dont-have-a-trusted-relationship-with).
-
-The following table describes how different roles in Teams interact with this policy:
-
-|User role| Policy effect|
-|---------|---------------|
-|Trusted org participants and guests| When this policy is set to **Anyone** or **Trusted orgs and guests**, these users in your org can share content in meetings that trusted organizations (as defined in [External access](trusted-organizations-external-meetings-chat.md)) host. <br><br> When this policy is set to **No other orgs**, these users in your org can't share content in externally hosted Teams meetings while using your org’s accounts. However, your users can still share content in external meetings as anonymous if they aren’t logged in to Teams.|
-|Anonymous| This policy doesn't prevent your users from sharing content in external meetings anonymously if they’re not signed into Teams.|
-
 ## Manage the types of meetings your users can share content in
 
 You can use the Teams admin center or the **`-ContentSharingInExternalMeetings`** parameter in PowerShell to manage the types of meetings your users can share content in.
@@ -91,6 +78,8 @@ This feature supports the following meeting types:
 - Meetings scheduled through Graph
 - Group Calls/1:1 calls
 - Meet now
+
+This policy doesn't prevent your users from sharing content in external meetings anonymously if they’re not signed into Teams.
 
 ## Related articles
 
