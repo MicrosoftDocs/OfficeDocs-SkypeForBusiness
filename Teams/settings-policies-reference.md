@@ -174,7 +174,7 @@ Teams policies are used to control what settings or features are available to us
 #### Related articles for Teams policies
 
 - [Manage channel policies in Microsoft Teams](teams-policies.md)
-- [Private channels in Microsoft Teams](private-channels)
+- [Private channels in Microsoft Teams](private-channels.md)
 - [Shared channels in Microsoft Teams](shared-channels.md)
 - [Set-CsTeamsChannelsPolicy](/powershell/module/teams/set-csteamschannelspolicy)
 - [Collaborate with external participants in a shared channel (IT Admins)](/microsoft-365/solutions/collaborate-teams-direct-connect)
@@ -274,6 +274,12 @@ Teams upgrade settings let you set up your upgrade experience from Skype for Bus
 
 Control which apps are available to install for people in your organization by allowing and blocking apps. You can also upload, approve, and publish custom apps made specifically for your organization to the app store. After managing apps on this page, use an app setup policy to pre-install apps for your users.
 :::image type="content" source="media/edit-availability-small.png" alt-text="Screenshot of Teams manage app settings in the Teams admin center." lightbox="media/edit-availability-expand.png":::
+
+Each app category includes the following options for installation permissions:
+
+- **Everyone**- Everyone can install and use this app, including people in my org, guests, and external users.
+- **Specific users or groups**- Only selected users and groups can install and use this app.
+- **No one**- Nobody can install or use this app.
 
 #### Related articles for permission policies
 
@@ -448,7 +454,7 @@ Meeting policies are used to control what features are available in meetings org
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
 
-:::image type="content" source="media/content-sharing-tac.png" alt-text="Screenshot of Teams meeting content sharing policies in the Teams admin center." lightbox="media/content-sharing-tac-expand.png":::
+:::image type="content" source="media/cont-share-small.png" alt-text="Screenshot of Teams meeting content sharing policies in the Teams admin center." lightbox="media/cont-share-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -461,6 +467,7 @@ Meeting policies are used to control what features are available in meetings org
 |Collaborative annotations|On|When **On**, participants can collaborate while sharing their screen during a Teams meeting.|
 |Shared notes|On|When **On**, attendees can create shared meeting notes through the meeting details.|
 |Organizer can restrict participants from copying or forwarding meeting chat messages|On|When this setting is on, meeting organizers can turn off message copying and forwarding, which includes using keyboard shortcuts, right click, or the more actions menu to copy or forward messages.|
+|Participants can share content in external meetings hosted by|Any org|When this is set to **Any org**, your users with a Teams premium license can share content when attending any external meeting. When set to **Trusted orgs and guests**, these users can only share content when attending external meetings that orgs with domains specified on the External access page host.|
 
 **PowerShell-only content sharing policies**
 
@@ -817,6 +824,7 @@ Choose who can attend events and customize registration options for webinars.
 |Webinar registration form questions|Custom, standard, required|When **On**, organizers require attendees to answer custom, standard, and required questions when registering for webinars.|
 |Allowed webinar types for recording|Public|When **On**, organizers can publish any webinar recordings.|
 |Allowed town hall types for recording|Public|When **On**, organizers can publish any town hall recordings.|
+|Use Microsoft eCDN|On|When **On**, organizers use the Microsoft eCDN for Premium town halls.When **Off**, organizers use the eCDN provider set in **Live event policies**.|
 
 #### PowerShell-only events policies
 
@@ -828,6 +836,7 @@ Choose who can attend events and customize registration options for webinars.
 
 - [Plan for town halls](plan-town-halls.md)
 - [Plan for webinars](plan-webinars.md)
+- [Enterprise content delivery networks for streaming Microsoft Teams events](streaming-ecdn-enterprise-content-delivery-network.md#configure-your-ecdn-solution)
 
 ## Messaging policies
 
