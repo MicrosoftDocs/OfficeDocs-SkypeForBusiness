@@ -158,6 +158,7 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Prevent copy/paste in meeting chats |  | ✔️ |
 | Assign Microsoft Purview Information Protection sensitivity labels for meetings\* |  | ✔️ |
 | Custom user policy packages |  | ✔️ |
+| Prevent users from sharing content in external Teams meetings |  | ✔️ |
 
 \* *This feature is only available to Teams Premium users with a Microsoft 365 E5, E5 Compliance, F5 Compliance, or F5 Security + Compliance subscription. For more information on licensing requirements, see [What are the requirements to purchase Teams Premium?](#what-are-the-requirements-to-purchase-teams-premium)*
 
