@@ -1025,6 +1025,8 @@ Emergency calling policies are used to control how users in your organization ca
 
 **Navigation**: Emergency policies > Call routing policies
 
+| Setting | Default | Description |
+|:-----|:-----|:-----|
 |Dynamic emergency calling|Off|If you turn on this setting, users assigned to the policy can use emergency call routing features when they move from one location to another. Read more about [how to plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).|
 
 #### Related articles for emergency policies
