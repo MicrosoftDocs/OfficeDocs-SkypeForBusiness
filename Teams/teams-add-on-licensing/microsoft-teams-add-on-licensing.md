@@ -88,17 +88,34 @@ The following table...
 
 
 **MK's TABLE SUGGESTIONS**
+
 **Version 1**
 
 | License options | Subscription type | Licenses |
 | --------------- | ----------------- | ----------- |
-| **Teams Phone with Microsoft Calling Plan bundle**| | |
-| | **For Business subscribers:**| - Teams Essentials with Microsoft Entra ID<br/> - Microsoft 365 Business Basic, Standard, or Premium|
+| **Teams Phone with Microsoft Calling Plan bundle**| **Business**| - Teams Essentials with Microsoft Entra ID<br/> - Microsoft 365 Business Basic, Standard, or Premium|
+| | **Enterprise** | - Microsoft 365 E3 (no Teams) plus Teams Enterprise<br/> - Microsoft 365 E3 EEA (no Teams) plus Teams EEA<br/> - Microsoft 365 E3<sup>1</sup><br/> - Office 365 E1/E3 (no Teams) plus Teams Enterprise<br/> - Office 365 E1/E3 EEA (no Teams) plus Teams EEA<br/> - Office 365 E1/E3<sup>1</sup><br/> - Teams Enterprise<br/> - Teams EEA |
+| | **Frontline** | - Microsoft 365 F1/F3<br/> - Office 365 F3<sup>2</sup> |
+| | **Other**| - Microsoft 365 A3<br/> - Office 365 A1<br/> - Microsoft 365 G3 |
+| **Teams Phone with separate PSTN connectivity option**| **Business**| - Teams Essentials with Microsoft Entra ID<br/> - Microsoft 365 Business Basic, Standard, or Premium|
+| | **Enterprise** | - Microsoft 365 E3 (no Teams) plus Teams Enterprise<br/> - Microsoft 365 E3 EEA (no Teams) plus Teams EEA<br/> - Microsoft 365 E3<sup>1</sup><br/> - Office 365 E1/E3 (no Teams) plus Teams Enterprise<br/> - Office 365 E1/E3 EEA (no Teams) plus Teams EEA<br/> - Office 365 E1/E3<sup>1</sup><br/> - Teams Enterprise<br/> - Teams EEA |
+| | **Frontline** | - Microsoft 365 F1/F3<br/> - Office 365 F3<sup>2</sup> |
+| | **Other**| - Microsoft 365 A3<br/> - Office 365 A1<br/> - Microsoft 365 G3 |
+
+**Version 2**
+
+| License options |                   | Licenses    |
+| --------------- | ----------------- | ----------- |
+| **Teams Phone with Microsoft Calling Plan bundle**| **For Business subscribers**| - Teams Essentials with Microsoft Entra ID<br/> - Microsoft 365 Business Basic, Standard, or Premium|
+| | **For Enterprise subscribers:** | - Microsoft 365 E3 (no Teams) plus Teams Enterprise<br/> - Microsoft 365 E3 EEA (no Teams) plus Teams EEA<br/> - Microsoft 365 E3<sup>1</sup><br/> - Office 365 E1/E3 (no Teams) plus Teams Enterprise<br/> - Office 365 E1/E3 EEA (no Teams) plus Teams EEA<br/> - Office 365 E1/E3<sup>1</sup><br/> - Teams Enterprise<br/> - Teams EEA |
+| | **For Frontline subscribers:** | - Microsoft 365 F1/F3<br/> - Office 365 F3<sup>2</sup> |
+| | **For other subscribers**| - Microsoft 365 A3<br/> - Office 365 A1<br/> - Microsoft 365 G3 |
+| **Teams Phone with separate PSTN connectivity option**| **For Business subscribers:**| - Teams Essentials with Microsoft Entra ID<br/> - Microsoft 365 Business Basic, Standard, or Premium|
 | | **For Enterprise subscribers:** | - Microsoft 365 E3 (no Teams) plus Teams Enterprise<br/> - Microsoft 365 E3 EEA (no Teams) plus Teams EEA<br/> - Microsoft 365 E3<sup>1</sup><br/> - Office 365 E1/E3 (no Teams) plus Teams Enterprise<br/> - Office 365 E1/E3 EEA (no Teams) plus Teams EEA<br/> - Office 365 E1/E3<sup>1</sup><br/> - Teams Enterprise<br/> - Teams EEA |
 | | **For Frontline subscribers:** | - Microsoft 365 F1/F3<br/> - Office 365 F3<sup>2</sup> |
 | | **For other subscribers:**| - Microsoft 365 A3<br/> - Office 365 A1<br/> - Microsoft 365 G3 |
 
-**Version 2**
+**Version 3**
 
 | License options |                   | Description | Notes |
 | --------------- | ----------------- | ----------- | ----- |
@@ -108,7 +125,7 @@ The following table...
 | | **For Frontline subscribers:** | - Microsoft 365 F1/F3<br/> - Office 365 F3<sup>2</sup> | |
 | | **For other subscribers:**| - Microsoft 365 A3<br/> - Office 365 A1<br/> - Microsoft 365 G3 | |
 
-**Version 3**
+**Version 4**
 
 **bullet list suggestion of options**
 
@@ -133,7 +150,7 @@ After you have chosen your licensing option, you can select the appropriate lice
 | **Frontline** | - Microsoft 365 F1/F3<br/> - Office 365 F3<sup>2</sup> |
 | **Other** | - Microsoft 365 A3<br/> - Office 365 A1<br/> - Microsoft 365 G3 |
 
-**Version 4**
+**Version 5**
 
 After you have chosen your licensing option, you can select the appropriate license based on your subscription type.
 
