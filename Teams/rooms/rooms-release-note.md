@@ -65,7 +65,7 @@ Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: ico
 This update contains essential bug fixes and performance improvements:
 - Fixed an issue where Webview 2 runtime was failing to installing after updating to app update 5.0.111.0, thereby not getting the new features released in that update. 
 - Fixed an issue where Teams Rooms app might not fill the display when the display was reconnected and the scaling settings with Console was not synced.
-- Fixed an issue where a blank screen was displayed upon applying a custom theme
+- Fixed an issue where a blank screen was displayed upon applying a custom theme.
 - Fixed an issue where Screen sharing from a video teleconferencing device to a Teams Rooms for Windows device doesn't work.
 - Fixed an issue where some devices failed to setup after a reset by using Zero touch Deployment with Windows Autopilot.
 - The ability to change language is now enabled by default. Admins can turn off this feature by setting the Room language setting to 'False'.  [Please visit](/microsoftteams/rooms/xml-config-file) to learn more.
