@@ -134,7 +134,7 @@ To assign users or groups to an app, follow these steps:
 
 ## Default settings for app availability
 
-In addition to defining the availability of an app, you can also control the default app availability of any new apps. You can control the it for each type of app. For new organizations, the default setting is set to let users install apps by default. For existing organizations, [old settings are mapped to new access settings](#mapping-between-old-permission-policies-and-new-app-availability).
+In addition to defining the availability of an app, you can also control the default app availability of any new apps. You can control it for each type of app. For new organizations, the default setting is set to let users install apps by default. For existing organizations, [old settings are mapped to new access settings](#mapping-between-old-permission-policies-and-new-app-availability).
 
 To change this default setting, access [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page, select **Actions** > **Org-wide app settings**, and modify the required settings.
 
