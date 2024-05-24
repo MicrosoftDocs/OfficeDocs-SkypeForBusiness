@@ -91,7 +91,7 @@ The following table...
 
 **Version 1**
 
-| License options | Subscription type | Licenses |
+| License options | Subscription type | Teams subscription |
 | --------------- | ----------------- | ----------- |
 | **Teams Phone with Microsoft Calling Plan bundle**| **Business**| - Teams Essentials with Microsoft Entra ID<br/> - Microsoft 365 Business Basic, Standard, or Premium|
 | | **Enterprise** | - Microsoft 365 E3 (no Teams) plus Teams Enterprise<br/> - Microsoft 365 E3 EEA (no Teams) plus Teams EEA<br/> - Microsoft 365 E3<sup>1</sup><br/> - Office 365 E1/E3 (no Teams) plus Teams Enterprise<br/> - Office 365 E1/E3 EEA (no Teams) plus Teams EEA<br/> - Office 365 E1/E3<sup>1</sup><br/> - Teams Enterprise<br/> - Teams EEA |
@@ -104,7 +104,7 @@ The following table...
 
 **Version 2**
 
-| License options |                   | Licenses    |
+| License options |                   | Teams subscription |
 | --------------- | ----------------- | ----------- |
 | **Teams Phone with Microsoft Calling Plan bundle**| **For Business subscribers**| - Teams Essentials with Microsoft Entra ID<br/> - Microsoft 365 Business Basic, Standard, or Premium|
 | | **For Enterprise subscribers:** | - Microsoft 365 E3 (no Teams) plus Teams Enterprise<br/> - Microsoft 365 E3 EEA (no Teams) plus Teams EEA<br/> - Microsoft 365 E3<sup>1</sup><br/> - Office 365 E1/E3 (no Teams) plus Teams Enterprise<br/> - Office 365 E1/E3 EEA (no Teams) plus Teams EEA<br/> - Office 365 E1/E3<sup>1</sup><br/> - Teams Enterprise<br/> - Teams EEA |
@@ -134,27 +134,29 @@ Choose between these two licensing options:
 - **Teams Phone with Microsoft Calling Plan bundle [BUNDLE OR OPTION, KEEP CONSISTENT?]** - These license options provide both Teams Phone PBX capabilities and a Microsoft Domestic Calling Plan with Microsoft as your PSTN carrier. If you want all phone number management and billing to be handled by Microsoft, choose one of these options. Teams Phone with Calling Plans also includes domestic calling minutes. You can purchase additional domestic minutes and international minutes. To view your Calling Plans options, see [Microsoft Calling Plans for Teams](/microsoftteams/calling-plans-for-office-365).
 - **Teams Phone with separate PSTN connectivity option** - These options give you Teams Phone, but you still need to connect to the PSTN. Choose whether you want Microsoft or a third-party provider to handle your phone number management and billing. If available in your region, you can choose a Microsoft Calling Plan license. Or you can choose one of the other PSTN connectivity options: Operator Connect, Operator Connect for India, Teams Phone Mobile, Direct Routing.
 
-**table suggestion of options**
+**Table suggestion of options**
 
 | License options | Description | Notes |
 | --------------- | ----------- | ----- |
 |**Teams Phone with Microsoft Calling Plan bundle**|These license options provide both Teams Phone PBX capabilities and a Microsoft Domestic Calling Plan with Microsoft as your PSTN carrier. | If you want all phone number management and billing to be handled by Microsoft, choose one of these options.<br/><br/>Teams Phone with Calling Plans also includes domestic calling minutes.<br/><br/> You can purchase additional domestic minutes and international minutes.<br/><br/> To view your Calling Plans options, see [Microsoft Calling Plans for Teams](/microsoftteams/calling-plans-for-office-365).|
 |**Teams Phone with separate PSTN connectivity option**|These options give you Teams Phone, but you still need to connect to the PSTN. Choose whether you want Microsoft or a third-party provider to handle your phone number management and billing. |  If available in your region, you can choose a Microsoft Calling Plan license.<br><br> Or you can choose one of the other PSTN connectivity options: Operator Connect, Operator Connect for India, Teams Phone Mobile, Direct Routing |
 
-After you have chosen your licensing option, you can select the appropriate license based on your subscription type.
+After you have chosen your licensing option, you can select the appropriate Teams subscription based on your subscriber type.
 
-|  Subscriber type | License options |
+|  Subscriber type | Teams subscription |
 | ---------------- | --------------- |
 | **Business** | - Teams Essentials with Microsoft Entra ID<br/> - Microsoft 365 Business Basic, Standard, or Premium |
 | **Enterprise** | - Microsoft 365 E3 (no Teams) plus Teams Enterprise<br/> - Microsoft 365 E3 EEA (no Teams) plus Teams EEA<br/> - Microsoft 365 E3<sup>1</sup><br/> - Office 365 E1/E3 (no Teams) plus Teams Enterprise<br/> - Office 365 E1/E3 EEA (no Teams) plus Teams EEA<br/> - Office 365 E1/E3<sup>1</sup><br/> - Teams Enterprise<br/> - Teams EEA |
 | **Frontline** | - Microsoft 365 F1/F3<br/> - Office 365 F3<sup>2</sup> |
 | **Other** | - Microsoft 365 A3<br/> - Office 365 A1<br/> - Microsoft 365 G3 |
 
+
+
 **Version 5**
 
-After you have chosen your licensing option, you can select the appropriate license based on your subscription type.
+After you have chosen your licensing option, you can select the appropriate Teams subscription based on your subscriber type.
 
-| License | Business subscribers | Enterprise subscribers | Frontline subscribers | Other subscribers |
+| Teams subscription | Business subscribers | Enterprise subscribers | Frontline subscribers | Other subscribers |
 | :------ | :------------------: | :--------------------: | :-------------------: | :---------------: |
 | Teams Essentials with Microsoft Entra ID |✔️||||
 | Microsoft 365 Business Basic, Standard, or Premium |✔️||||
@@ -174,7 +176,7 @@ After you have chosen your licensing option, you can select the appropriate lice
 
 Or option 2 with checks and x's:
 
-| License | Business subscribers | Enterprise subscribers | Frontline subscribers | Other subscribers |
+| Teams subscription | Business subscribers | Enterprise subscribers | Frontline subscribers | Other subscribers |
 | :------ | :------------------: | :--------------------: | :-------------------: | :---------------: |
 | Teams Essentials with Microsoft Entra ID |✔️|✖️|✖️|✖️|
 | Microsoft 365 Business Basic, Standard, or Premium |✔️|✖️|✖️|✖️|
@@ -191,6 +193,19 @@ Or option 2 with checks and x's:
 | Microsoft 365 A3|✖️|✖️|✖️|✔️|
 | Office 365 A1|✖️|✖️|✖️|✔️|
 | Microsoft 365 G3|✖️|✖️|✖️|✔️|
+
+
+**Version 6 - closer to the original**
+
+| Options | Teams subscription | License | PSTN carrier |
+| ------- | ------------------ | ------- | ------------ |
+| **Teams Phone with Microsoft Calling Plan** | **For Business subscribers:**<br/> - Teams Essentials with Microsoft Entra ID<br/> - Microsoft 365 Business Basic, Standard, or Premium <br/><br/> **For Enterprise subscribers:**<br/> - Microsoft 365 E3 (no Teams) plus Teams Enterprise<br/> - Microsoft 365 E3 EEA (no Teams) plus Teams EEA<br/> - Microsoft 365 E3<sup>1</sup><br/> - Office 365 E1/E3 (no Teams) plus Teams Enterprise<br/> - Office 365 E1/E3 EEA (no Teams) plus Teams EEA<br/> - Office 365 E1/E3<sup>1</sup><br/> - Teams Enterprise<br/> - Teams EEA<br/><br/> **For Frontline subscribers:**<br/> - Microsoft 365 F1/F3<br/> - Office 365 F3<sup>2</sup><br/><br/> **For other subscribers:**<br/> - Microsoft 365 A3<br/> - Office 365 A1<br/> - Microsoft 365 G3 | Buy *Teams Phone with Calling Plans* licenses. | Included with Microsoft Calling Plan |
+| **Teams Phone with separate PSTN connectivity option** | **For Business subscribers:**<br/> - Teams Essentials with Microsoft Entra ID<br/> - Microsoft 365 Business Basic, Standard, or Premium <br/><br/> **For Enterprise subscribers:**<br/> - Microsoft 365 E3 (no Teams) plus Teams Enterprise<br/> - Microsoft 365 E3 EEA (no Teams) plus Teams EEA<br/> - Microsoft 365 E3<sup>1</sup><br/> - Office 365 E1/E3 (no Teams) plus Teams Enterprise<br/> - Office 365 E1/E3 EEA (no Teams) plus Teams EEA<br/> - Office 365 E1/E3<sup>1</sup><br/> - Teams Enterprise<br/> - Teams EEA<br/><br/> **For Frontline subscribers:**<br/> - Microsoft 365 F1/F3<br/> - Office 365 F3<sup>2</sup><br/><br/> **For other subscribers:**<br/> - Microsoft 365 A3<br/> - Office 365 A1<br/> - Microsoft 365 G3 | Buy *Teams Phone Standard* licenses.<br/><br/> If you're adding Teams Phone to an F1/F3 plan, buy *Teams Phone Standard for Frontline Workers*. | Buy a Microsoft standalone calling plan or choose a third-party PSTN carrier. |
+| **Teams Phone with separate PSTN connectivity with the most security and compliance features found in the highest tiers of Microsoft 365 and Office 365 subscriptions.** | **For Enterprise subscribers:**<br/> - Microsoft 365 E5 (no Teams) plus Teams Enterprise<br/> - Microsoft 365 E5 EEA (no Teams) plus Teams EEA<br/> - Microsoft 365 E5<sup>1</sup><br/> - Office 365 E5 (no Teams) plus Teams Enterprise<br/> - Office 365 E5 EEA (no Teams) plus Teams EEA<br/> - Office 365 E5<sup>1</sup><br/><br/> **For Frontline subscribers:**<br/> - Microsoft 365 F1/F3 plus Microsoft 365 F5 Security + Compliance<br/><br/> **For other subscribers:** - Microsoft 365 A5<br/> - Office 365 A5<br/> - Microsoft 365 G5 | Microsoft 365 and Office 365 E5, A5, and G5 plans include *Teams Phone Standard*.<br/><br/> If you're adding Teams Phone to an F1/F3 plan, buy *Teams Phone Standard for Frontline Workers*. | Buy a Microsoft standalone calling plan or choose a third-party PSTN carrier. |
+
+*<sup>1</sup> Microsoft 365 E3/E5 and Office 365 E1/E3/E5 suites that include Teams are no longer available for purchase by new customers.*
+
+*<sup>2</sup> Office 365 F3 is available for purchase by new customers through Cloud Solution Providers (CSPs) only.*
 
 ### Teams Phone for Frontline Workers
 
