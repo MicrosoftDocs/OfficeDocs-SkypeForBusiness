@@ -39,6 +39,7 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|[5.0.230.0](#502300-5232024) | 5/23/2024 |
 |[5.0.111.0](#501110-4242024) | 4/24/2024 |
 |[4.19.82.0](#419820-1312024) | 1/31/2024 |
 |[4.19.57.0](#419570-11162023) | 11/16/2023 |
@@ -59,6 +60,17 @@ Teams Rooms app updates happen either via the Microsoft Store or via [manual upd
 
 Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: icon are available only with Teams Rooms Pro license.
 
+### 5.0.230.0 (5/23/2024)
+
+This update contains essential bug fixes and performance improvements:
+- Fixed an issue where Webview 2 runtime was failing to installing after updating to app update 5.0.111.0, thereby not getting the new features released in that update. 
+- Fixed an issue where Teams Rooms app might not fill the display when the display was reconnected and the scaling settings with Console was not synced.
+- Fixed an issue where a blank screen was displayed upon applying a custom theme
+- Fixed an issue where Screen sharing from a video teleconferencing device to a Teams Rooms for Windows device doesn't work.
+- Fixed an issue where some devices failed to setup after a reset by using Zero touch Deployment with Windows Autopilot.
+- The ability to change language is now enabled by default. Admins can turn off this feature by setting the Room language setting to 'False'.  [Please visit](/microsoftteams/rooms/xml-config-file) to learn more.
+
+  
 ### 5.0.111.0 (4/24/2024)
 
 **This release is available for all Teams environments, however, GCC-High customers with this version installed won't see any of the below mentioned new features.**
