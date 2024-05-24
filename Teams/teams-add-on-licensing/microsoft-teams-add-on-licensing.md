@@ -155,6 +155,26 @@ After you have chosen your licensing option, you can select the appropriate lice
 | Office 365 A1||||✔️|
 | Microsoft 365 G3||||✔️|
 
+Or option 2 with checks and x's:
+
+| License | Business subscribers | Enterprise subscribers | Frontline subscribers | Other subscribers |
+| ------- | -------------------- | ---------------------- | --------------------- | ----------------- |
+| Teams Essentials with Microsoft Entra ID |✔️|✖️|✖️|✖️|
+| Microsoft 365 Business Basic, Standard, or Premium |✔️|✖️|✖️|✖️|
+| Microsoft 365 E3 (no Teams) plus Teams Enterprise|✖️|✔️|✖️|✖️|
+| Microsoft 365 E3 EEA (no Teams) plus Teams EEA|✖️|✔️|✖️|✖️|
+| Microsoft 365 E3<sup>1</sup>|✖️|✔️|✖️|✖️|
+| Office 365 E1/E3 (no Teams) plus Teams Enterprise|✖️|✔️|✖️|✖️|
+| Office 365 E1/E3 EEA (no Teams) plus Teams EEA|✖️|✔️|✖️|✖️|
+| Office 365 E1/E3<sup>1</sup>|✖️|✔️|✖️|✖️|
+| Teams Enterprise|✖️|✔️|✖️|✖️|
+| Teams EEA|✖️|✔️|✖️|✖️|
+| Microsoft 365 F1/F3|✖️|✖️|✔️|✖️|
+| Office 365 F3<sup>2</sup>|✖️|✖️|✔️|✖️|
+| Microsoft 365 A3|✖️|✖️|✖️|✔️|
+| Office 365 A1|✖️|✖️|✖️|✔️|
+| Microsoft 365 G3|✖️|✖️|✖️|✔️|
+
 ### Teams Phone for Frontline Workers
 
 To access the **Teams Phone for Frontline Workers** license, your tenant must also be licensed with Microsoft 365 Frontline Worker or Office 365 Frontline Worker licenses.
