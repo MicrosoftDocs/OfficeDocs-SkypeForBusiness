@@ -1121,29 +1121,36 @@ Voicemail policies control the available features for the voicemail service in T
 
 **Navigation:** Teams admin center > Voice > Voice applications policies
 
+Authorized users specifies the users who are authorized to make changes to an Auto attendant or Call queue. The capabilities that the users have are based on the Teams voice applications policy that's assigned to the user.
+
 #### Auto attendants
+
+Control what changes *authorized users* can make in auto attendants they're assigned to.
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Business hours greeting|||
-|After hours greeting|||
-|Holiday greeting|||
+|Business hours greeting|Off|When this setting is turned **On**, authorized users can update the business hours greeting for an auto attendant.|
+|After hours greeting|Off|When this setting is turned **On**, authorized users can update the after hours greeting for an auto attendant.|
+|Holiday greeting|Off|When this setting is turned **On**, authorized users can update the holiday greeting for an auto attendant.|
 
 #### Call queues
 
+Control what changes *authorized users* can make in call queues they're assigned to.
+
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Welcome greeting|||
-|Music on Hold|||
-|Shared voicemail greeting for call overflow|||
-|Shared voicemail greeting for call timeout|||
-|Shared voicemail greeting for no agents|||
+|Welcome greeting|Off|When this setting is turned **On**, authorized users can update the welcome greeting for a call queue.|
+|Music on Hold|Off|When this setting is turned **On**, authorized users can update music on hold for a call queue.|
+|Shared voicemail greeting for call overflow|Off|When this setting is turned **On**, authorized users can update the shared voicemail greeting for a call overflow for a call queue.|
+|Shared voicemail greeting for call timeout|Off|When this setting is turned **On**, authorized users can update the shared voicemail greeting for call timeout for a call queue.|
+|Shared voicemail greeting for no agents|Off|When this setting is turned **On**, authorized users can update the shared voicemail greeting for no agents for a call queue.|
 
 #### Related articles for voice applications policies
 
 - [Plan for Teams Auto attendants and Call queues](plan-auto-attendant-call-queue.md)
 - [Set up a Microsoft Teams Auto attendant](create-a-phone-system-auto-attendant.md)
 - [Set up a Call queue in Microsoft Teams](create-a-phone-system-call-queue.md)
+- [PowerShell cmdlet reference for Auto attendants and Call queues](call-queue-auto-attendant-cmdlets.md)
 
 ## Enhanced encryption policies
 
