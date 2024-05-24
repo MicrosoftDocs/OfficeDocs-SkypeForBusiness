@@ -71,7 +71,7 @@ To allow an app, you must do all of the following settings. To block an app, jus
 |:----------------------------------------------------------|:-----------|:-----------------------------------------------------------------------------------------------------------------------------------|
 | [Org-wide app settings](#manage-org-wide-app-settings)    | Org-level  | Use this setting to allow use of third-party apps in your org. You control the specific apps that are allowed and used.            |
 | Allow or block apps                                       | App-level  | Use this setting to allow a specific app in your org. You control which users can use a specific app and which users can use apps. |
-| [App permission policy](teams-app-permission-policies.md) | User-level | Use policies to allow all or allow specific users to use an app.                                                                   |
+| [App permission policy](teams-app-permission-policies.md) or [app centric management](app-centric-management.md) | User-level | Use policies to allow all or allow specific users to use an app.                                                                   |
 
 You allow or block specific apps on either the Manage apps page or in the app details page. Manage apps page displays all the available app and the current org-level app status. To allow or block an app, follow these steps:
 
@@ -154,7 +154,14 @@ Auto install approved apps feature automatically adds approved apps in Teams cli
 
 ## Stop app usage and remove apps
 
-As an admin, you can [delete custom apps](teams-custom-app-policies-and-settings.md#delete-custom-apps-from-your-organizations-catalog) from your organization's store but can't remove the third-party apps that are available in the Teams store. To prevent app addition and usage by users, you can [block an app for everyone](#allow-or-block-apps) or [use permission policy](teams-app-permission-policies.md#create-an-app-permission-policy) to stop selected users from using an app. You can't remove or uninstall the apps that are currently added by users. Blocking the apps prevents users from using it.
+As an admin, to prevent users from adding and using an app in Teams, you can do one of the following:
+
+* For any type of apps, [block it for entire org](#allow-or-block-apps).
+* For any type of apps, prevent a few users from accessing the app by using either [permission policies](teams-app-permission-policies.md#create-an-app-permission-policy) or by using [app centric management](app-centric-management.md).
+* [Delete a custom app](teams-custom-app-policies-and-settings.md#delete-custom-apps-from-your-organizations-catalog) from your organization's store. You can't remove any app that is available in Teams app store.
+* You can't stop use of some [Core apps](apps-in-teams.md#types-of-teams-apps) provided by Microsoft that are critical for Teams to work.
+
+You can't remove or uninstall the apps that are currently added by users.
 
 Blocked apps may still have access to data from the teams that the apps were added to. To turn off app data access, a Global Administrator, an Application Administrator, or a Cloud Application Administrator must [turn off user sign-in in the Microsoft Entra admin center](/azure/active-directory/manage-apps/disable-user-sign-in-portal?pivots=portal).
 
@@ -198,6 +205,8 @@ You may have queries about admin settings or configuration, user flows and app f
   * Testing of all apps as part of its [app validation program](overview-of-app-validation.md) to ensure that all apps work as advertised. If apps don't work as suggested in the app listing, then we contact app developers to request either an update to the app. If app developers don't make the requested updates after a few reminders, we proactively remove the apps from Teams.
   * Certification to apps using [Microsoft 365 app compliance program](overview-of-app-certification.md) ensures that apps are compliant with the industry-standard frameworks.
 
+### Developer provided app information, support, and documentation
+
 * App developers provide customer support, updates to the apps, security and compliance information, bug fixes, and so on. The app security and compliance information are available in the admin center in app details page as mentioned above. App developers publish app updates, bug fixes, and vulnerability fixes as per their business requirements, issue severity, and service agreements. For direct support requests and inquiry about app updates, contact the app developer at their website address available at the following two places:
 
   * **App details** page of the app in [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page in Teams admin center.
@@ -209,6 +218,10 @@ You may have queries about admin settings or configuration, user flows and app f
     :::image type="content" source="media/appsource-help-link.png" alt-text="Screenshot that shows help and support link for a Teams app in AppSource.":::
 
 * **Privacy and data access considerations**: In the terms of use and privacy policy of any app, the app developer discloses what data their app uses and how it's handled. This information is available on app developer's website and you can access the URLs in the app details page in Teams admin center. Many app developers choose to undergo the Microsoft 365 app compliance program. The program checks and audits an app against controls that are derived from leading industry-standard frameworks. The detailed information about each such app is available at [Teams Apps Security and Compliance](/microsoft-365-app-certification/teams/teams-apps).
+
+* App developers can provide their contact information that you can use to chat with them. It helps you quickly evaluate an app and get the needed information from the app developers before you adopt and rollout an app. Some examples of such information are compliance and certification details, data handling details, clarity on pricing plans for paid apps, and app configuration instructions. You can start a chat with app developers by selecting **Start a Teams chat** but only if the app developer provided their contact information. We recommend that you don't share personal and sensitive information in the chat.
+
+   :::image type="content" source="media/chat-with-app-dev.png" alt-text="Screenshot showing the option in the app details page that let's you chat with app developer." lightbox="media/chat-with-app-dev-large.png":::
 
 ## Related articles
 

@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
 ms.reviewer: vivekmo
-ms.date: 2/6/2024
+ms.date: 5/8/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -53,7 +53,7 @@ You can manage the types of meetings your users can join through the Teams admin
 
 ### Prevent users from joining external meetings using the Teams admin center
 
-Follow these steps in the Teams admin center to turn town halls on or off:
+Follow these steps in the Teams admin center to manage the types of meetings your users can join:
 
 1. Open the Teams admin center.
 2. Select **Meetings** from the navigation pane.

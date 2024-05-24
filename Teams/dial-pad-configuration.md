@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: pamgreen
 ms.reviewer: cbland
-ms.date: 11/29/2023
+ms.date: 05/21/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -27,13 +27,11 @@ description: "Learn about how to configure the dial pad in the Teams client so t
 In the Teams client, the dial pad enables users to access Public Switched Telephone Network (PSTN) functionality. The dial pad is available for users with a Teams Phone license, provided they're configured properly. The following criteria are all required for the dial pad to show:
 
 - User has an enabled Teams Phone ("MCOEV") license
-- User has Microsoft Calling Plan, Operator Connect, or is enabled for Direct Routing
-- User has Enterprise Voice enabled
 - User is homed online and not in Skype for Business on premises
-- User has Teams Calling Policy enabled
+- User has Enterprise Voice enabled
+- User has Allow Private Calling enabled in Teams Calling Policy
 
-> [!NOTE]
-> If Shared Calling is available in your tenant and you've users who are homed online and enabled for Enterprise Voice, the dial pad shows in Teams for those users. For more information, see [Plan for Shared Calling](shared-calling-plan.md).
+To successfully place a call using the dial pad, the user must have one of the following:  Microsoft Calling Plan, Operator Connect, is enabled for Direct Routing, or is able to use Shared Calling. For more information about Shared Calling, see [Plan for Shared Calling](shared-calling-plan.md).
 
 The following sections describe how to use PowerShell to check the criteria. In most cases, you need to look at various properties in the output of the [Get-CsOnlineUser](/powershell/module/teams/get-csonlineuser) cmdlet. Examples assume $user is either the UPN (UserPrincipalName) or SIP address of the user.
 
@@ -56,7 +54,7 @@ AssignedTimestamp   Capability      CapabilityStatus ServiceInstance            
 07-02-2020 12:28:48 Teams           Enabled          TeamspaceAPI/NA001                       57ff2da0-773e-42df-b2af-...
 ```
 
-## User has Microsoft Calling Plan, Operator Connect OR is enabled for Direct Routing
+## User has Microsoft Calling Plan or is enabled for Direct Routing
 
 **If the user has Microsoft Calling Plan**, make sure that the **CapabilityStatus attribute is set to Enabled**, and that the **Capability is set to MCOPSTN**. You might see MCOPSTN1, MCOPSTN2, and so on. All are acceptable--as long as the Capability starts with MCOPSTN.
 
@@ -74,20 +72,6 @@ AssignedTimestamp   Capability      CapabilityStatus ServiceInstance            
 07-02-2020 12:28:48 MCOEV           Enabled          MicrosoftCommunicationsOnline/NOAM-4A-S7 4828c8ec-dc2e-4779-b502-...
 07-02-2020 12:28:48 MCOPSTN2        Enabled          MicrosoftCommunicationsOnline/NOAM-4A-S7 5a10155d-f5c1-411a-a8ec-...
 07-02-2020 12:28:48 Teams           Enabled          TeamspaceAPI/NA001                       57ff2da0-773e-42df-b2af-...
-```
-
-**If the user is enabled for Operator Connect**, the user must have a non-null value for TeamsCarrierEmergencyCallRoutingPolicy. To check the attribute, use the following command:
-
-```PowerShell
-Get-CsOnlineUser -Identity $user|Select TeamsCarrierEmergencyCallRoutingPolicy
-```
-
-The output should have a non-null value, for example:
-
-```PowerShell
-TeamsCarrierEmergencyCallRoutingPolicy
---------------------------------------
-Synergy_98d1a5cb-d3e6-4306-885e-69a95f2da5c3
 ```
 
 **If the user is enabled for Direct Routing**, the user must be assigned a non-null value for OnlineVoiceRoutingPolicy. To check the attribute, use the following command:

@@ -4,7 +4,7 @@ author: lana-chin
 ms.author: v-chinlana
 manager: jtremper
 ms.reviewer: diyu
-ms.date: 02/01/2024
+ms.date: 05/21/2024
 ms.topic: how-to
 audience: admin
 ms.service: msteams
@@ -31,17 +31,25 @@ ms.custom:
 
 The Updates app in Microsoft Teams provides a centralized place for members of your organization to create, review, and submit updates. By creating update requests, you can use the Updates app to keep track of anything your organization needs. Updates is available for both desktop and mobile.
 
-In Teams, users can get the Updates app from the Teams app store. They'll see all of the update requests they need to submit on the **Submit** page. You can share the [Get started in Updates article](https://support.microsoft.com/office/get-started-in-updates-c03a079e-e660-42dc-817b-ca4cfd602e5a) with your users to help them get comfortable using Updates.
+In Teams, users can get the Updates app from the Teams app store. You can share the [Get started in Updates article](https://support.microsoft.com/office/get-started-in-updates-c03a079e-e660-42dc-817b-ca4cfd602e5a) with your users to help them get comfortable using Updates.
 
-[![Image of the Submit page in Teams for desktop.](media/updates-submit-small.png)](media/updates-submit.png#lightbox)
+:::image type="content" source="media/manage-updates-home.png" alt-text="Image of the Updates app on Teams desktop and mobile." lightbox="media/manage-updates-home.png":::
 
-Users can view updates that they assigned on the **Review** page.
+Updates comes with out-of-the-box templates for common business scenarios and the option to create your own requests.
 
-[![Image of the Review page in Teams for desktop.](media/updates-home-small.png)](media/updates-home.png#lightbox)
+:::image type="content" source="media/manage-updates-templates.png" alt-text="Screenshot of templates available in the Updates app." lightbox="media/manage-updates-templates.png":::
 
-When a user is assigned an update request, it shows up in their Teams activity feed. Users can also view all their current update requests and previous submissions in the Updates app. In addition, anyone can create and send out update requests.
+Anyone can create an update request and ask others to submit updates to sync their work status. They can also add people as Viewers to review the update submissions.
 
-Updates comes with both out-of-the-box templates for common business scenarios and the option to create your own requests. Anyone can create an update request for new types of updates and ask others to submit updates to sync their work status.
+:::image type="content" source="media/manage-updates-request.png" alt-text="Screenshot of creating an update request." lightbox="media/manage-updates-request.png":::
+
+When a user is assigned an update request, they get a notification in their Teams activity feed. They can see the requests assigned to them on the **Needing your updates** section of the homepage on desktop and on the **Submit** tab on mobile.
+
+:::image type="content" source="media/manage-updates-submitters.png" alt-text="Screenshot of the Needing your updates section of the Updates app homepage on desktop." lightbox="media/manage-updates-submitters.png":::
+
+Viewers can review update submissions on the **Review updates** section of the homepage on desktop and on the **Review** tab on mobile.
+
+:::image type="content" source="media/manage-updates-viewers.png" alt-text="Screenshot of the Review updates section of the Updates app homepage on desktop." lightbox="media/manage-updates-viewers.png":::
 
 ## Example scenario
 
@@ -49,15 +57,15 @@ Employees at a clothing store are responsible for opening and closing the store 
 
 At the store's manufacturing facilities, employees perform safety checks with Updates using mobile devices.
 
-![Image of the Weekly safety walkthrough template on a mobile device.](media/updates-mobile.png)
+:::image type="content" source="media/updates-mobile.png" alt-text="Image of the Weekly safety walkthrough template on a mobile device.":::
 
 Meanwhile, a team of remote workers is updating the store's website. They're spread across time zones, so daily stand-up meetings aren't convenient. Instead, each of the team members submits daily Updates reports on their progress to the team leader.
 
 [Download the Updates lookbook](https://go.microsoft.com/fwlink/?linkid=2197649) to see more examples of what you can do with Updates.
 
-## Required permissions and licenses
+## Prerequisites
 
-You need permission for the following items to deploy Updates:
+Here are the prerequisites for deploying Updates:
 
 - Permissions to create a Microsoft Dataverse database.
 
@@ -65,7 +73,7 @@ You need permission for the following items to deploy Updates:
 
 - Administrator role in your target environment.
 
-- License for Power Automate, Office 365, or Dynamics 365.
+- License for Power Automate, Microsoft 365, or Dynamics 365.
 
 ## Storage with Microsoft Dataverse
 
@@ -100,18 +108,15 @@ The Updates Teams app lets you access the following features:
 
 The Updates app is available by default. You can disable the app in the Teams admin center.
 
-  1. Sign in to the Teams admin center.
+  1. In the left navigation of the Teams admin center, go to **Teams apps** > **Manage apps**.
 
-  2. Go to **Teams apps** > **Manage apps**.
-
-  3. Search for the Updates app.
+  1. Search for, and then select the Updates app.
 
      [![Screenshot of the Admin center navigation with Teams Apps > Manage Apps highlighted.](media/manage-updates-small.png)](media/manage-updates.png#lightbox)
 
-  4. Select **Updates**.
+  1. Select the toggle to disable the app for your organization.
 
-  5. Select the toggle to disable the app for your organization.
-    [![Image of the toggle to enable or disable Updates.](media/toggle-updates.png)](media/toggle-updates.png#lightbox)
+     [![Image of the toggle to enable or disable Updates.](media/toggle-updates.png)](media/toggle-updates.png#lightbox)
 
 ## Pin Updates to Teams
 
@@ -131,11 +136,11 @@ You can use [Teams app permission policies](teams-app-permission-policies.md) to
 
 ## Security
 
-From the Teams Updates app, users have access to create new updates and view updates that they sent and received. Users can't view the Updates that are submitted by others unless they're a viewer of the update or update request.
+From the Teams Updates app, users can create new updates and view updates that they sent and received. Users can't view the updates submitted by others unless they're a viewer of the update or update request.
 
 ## Power Automate connector
 
-Updates support the Power Automate connector **Updates App(Microsoft 365)**. Using this connector can help you automate your organization's workflow. [Learn more](https://powerautomate.microsoft.com/blog/automate-workflows-with-power-automate-connector-for-updates-in-microsoft-teams/).
+Updates supports the Power Automate connector, **Updates App (Microsoft 365)**. Using this connector can help you automate your organization's workflows. [Learn more](https://powerautomate.microsoft.com/blog/automate-workflows-with-power-automate-connector-for-updates-in-microsoft-teams/).
 
 ## Give feedback or report an issue
 
