@@ -147,7 +147,7 @@ Currently, data is collected from the following areas in class teams:
 > Most of the collected data shows up in Insights within a few minutes. Attendance in class meetings (meetings associated with one of the class channels) appears a few hours after the end of the meeting, usually up to 24 hours later.
 
 > [!NOTE]
-> Data collected in Education Insights is kept until either the IT Admin turns off the [Education Analytics toggle](#turn-sds-for-insights-on-or-off) or the Office subscription for the tenant ends. Turning off specific features in Teams does not delete historic data.
+> Data collected in Education Insights is kept until either the IT Admin turns off the Education Analytics toggle or the Office subscription for the tenant ends. Turning off specific features in Teams does not delete historic data.
 
 ### Privacy and security
 
