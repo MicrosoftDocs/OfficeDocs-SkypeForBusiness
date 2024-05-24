@@ -155,7 +155,7 @@ After you have chosen your licensing option, you can select the appropriate lice
 After you have chosen your licensing option, you can select the appropriate license based on your subscription type.
 
 | License | Business subscribers | Enterprise subscribers | Frontline subscribers | Other subscribers |
-| ------- | -------------------- | ---------------------- | --------------------- | ----------------- |
+| :------ | :------------------: | :--------------------: | :-------------------: | :---------------: |
 | Teams Essentials with Microsoft Entra ID |✔️||||
 | Microsoft 365 Business Basic, Standard, or Premium |✔️||||
 | Microsoft 365 E3 (no Teams) plus Teams Enterprise||✔️|||
@@ -175,7 +175,7 @@ After you have chosen your licensing option, you can select the appropriate lice
 Or option 2 with checks and x's:
 
 | License | Business subscribers | Enterprise subscribers | Frontline subscribers | Other subscribers |
-| ------- | -------------------- | ---------------------- | --------------------- | ----------------- |
+| :------ | :------------------: | :--------------------: | :-------------------: | :---------------: |
 | Teams Essentials with Microsoft Entra ID |✔️|✖️|✖️|✖️|
 | Microsoft 365 Business Basic, Standard, or Premium |✔️|✖️|✖️|✖️|
 | Microsoft 365 E3 (no Teams) plus Teams Enterprise|✖️|✔️|✖️|✖️|
