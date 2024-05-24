@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: 
-ms.date: 04/24/2023
+ms.date: 05/24/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -1120,6 +1120,30 @@ Voicemail policies control the available features for the voicemail service in T
 ### Voice applications policies
 
 **Navigation:** Teams admin center > Voice > Voice applications policies
+
+#### Auto attendants
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Business hours greeting|||
+|After hours greeting|||
+|Holiday greeting|||
+
+#### Call queues
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Welcome greeting|||
+|Music on Hold|||
+|Shared voicemail greeting for call overflow|||
+|Shared voicemail greeting for call timeout|||
+|Shared voicemail greeting for no agents|||
+
+#### Related articles for voice applications policies
+
+- [Plan for Teams Auto attendants and Call queues](plan-auto-attendant-call-queue.md)
+- [Set up a Microsoft Teams Auto attendant](create-a-phone-system-auto-attendant.md)
+- [Set up a Call queue in Microsoft Teams](create-a-phone-system-call-queue.md)
 
 ## Enhanced encryption policies
 
