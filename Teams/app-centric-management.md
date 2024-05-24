@@ -73,7 +73,7 @@ Previously, we automatically migrated organizations that weren't using any custo
 
 To migrate, follow these steps:
 
-1. We strongly recommend that you prepare for the migration. To do so, take inventory of the apps that you have in the custom permission policies amd identify the groups that can represent the current app permissions policy assignments. During the migration, you're required to provide the users and groups for these apps as the existing app permission policy assignments aren't carried forward in their current state.
+1. We strongly recommend that you prepare for the migration. To do so, take inventory of the apps that you have in the custom permission policies and identify the groups that can represent the current app permissions policy assignments. During the migration, you're required to provide the users and groups for these apps as the existing app permission policy assignments aren't carried forward in their current state.
 
 1. Log into Teams admin center and access Teams apps > [Permission policies](https://admin.teams.microsoft.com/policies/app-permission) page and select **Get started**.
 
