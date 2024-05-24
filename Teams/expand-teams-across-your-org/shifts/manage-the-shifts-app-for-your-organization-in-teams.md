@@ -44,9 +44,9 @@ It's important to know that Shifts currently doesn't support guests. This means 
 > [!Note]
 > For details about Shifts capabilities on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
-## Availability of Shifts
+## Licensing
 
-Shifts is available in all Enterprise SKUs where Teams is available.
+Users must have a Teams license to use Shifts.
 
 > [!NOTE]
 > Shifts is available in Government Community Cloud (GCC) environments, but not in GCC High or DoD environments.
@@ -74,7 +74,7 @@ To allow or block specific users in your organization from using Shifts, make su
 
 #### Use the Tailored frontline app experience to pin Shifts and other apps to Teams
 
-The tailored frontline app experience in Teams pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Pinned apps include Shifts, Walkie Talkie, Tasks, and Approvals. By default, this feature is on, giving your frontline workers an out-of-the-box experience that’s tailored to their needs.
+The tailored frontline app experience in Teams pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Pinned apps include Shifts, Walkie Talkie, Tasks, and Approvals. By default, this feature is on, giving your frontline workers an out-of-the-box experience tailored to their needs.
 
 The apps are pinned to the app bar—the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients—where users can quickly and easily access them.
 
@@ -103,7 +103,7 @@ You can turn the feature on or off in the Microsoft Teams admin center. To learn
 
 ## Search the audit log for Shifts events
 
-You can search the audit log to view Shifts activity in your organization.  To learn more about how to search the audit log and to see a list of [Shifts activities](../../audit-log-events.md#shifts-in-teams-activities) that are logged in the audit log, see [Search the audit log for events in Teams](../../audit-log-events.md).
+You can search the audit log to view Shifts activity in your organization. To learn more about how to search the audit log and to see a list of [Shifts activities](../../audit-log-events.md#shifts-in-teams-activities) that are logged in the audit log, see [Search the audit log for events in Teams](../../audit-log-events.md).
 
 Before you can search the audit log, you have to first turn on auditing in the Microsoft Purview compliance portal. To learn more, see [Turn audit log search on or off](https://support.office.com/article/turn-office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014). Keep in mind that audit data is only available from the point at which you turned on auditing.
 
