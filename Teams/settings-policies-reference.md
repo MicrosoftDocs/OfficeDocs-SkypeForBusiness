@@ -908,7 +908,7 @@ Messaging policies are used to control what chat and channel messaging features 
 
 Calling policies are used to control what calling features are available to people in Teams.
 
-:::image type="content" source="media/teams-calling-policies-small.png" alt-text="Screenshot of Teams calling policies." lightbox="media/teams-calling-policies.png":::
+:::image type="content" source="media/tac-calling-small.png" alt-text="Screenshot of Teams calling policies." lightbox="media/tac-calling-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
