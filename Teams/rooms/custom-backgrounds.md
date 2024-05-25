@@ -68,7 +68,7 @@ When you enable custom backgrounds, you must provide custom backgrounds for all 
 > If you've been using the `<CustomThemeImageUrl>` element to provide a single custom background image for your front-of-room displays, you can continue using it if it suits your needs. However, if you want to provide separate custom backgrounds for each front-of-room display, or replace your existing backgrounds with higher resolution images, or configure a custom background on your touch console, you need to use the elements provided in this section.
 > For more information about using `<CustomThemeImageUrl>`, see [Standard backgrounds](/microsoftteams/rooms/custom-backgrounds?tabs=Standard).
 
-### Minimum resolutions
+### Supported resolutions
 
 Front-of-room displays and touch consoles have **minimum** supported custom background **resolutions**:
 
