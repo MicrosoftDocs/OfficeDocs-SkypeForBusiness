@@ -105,12 +105,11 @@ The custom background image file must be in one of the following formats: `JPG`,
 
 Follow the best practices listed in this section to ensure the following:
 - Content doesn't collide with on-screen elements
-- Content is visible to meeting attendees further away from the displays
 - Content remains legible when placed in front of visual elements in the custom background
 - Content remains visible if a custom background is cropped
 
 The following guidelines apply for front-of-room, touch console, and touch board displays:
-- Use a darker background in the top and bottom left corners to ensure users can read the white of the clock, room information, and tips in those locations.
+- Use a darker background on the top and bottom left corners to ensure users can read the clock, room information, and tips in those locations in white.
 - For the best experience, use a contrast ratio of 4.5:1 for small text and 3:1 for large text. Use an accessibility contrast checker on the Internet to input color values to see if their contrast ratio is acceptable.
 - Place text, logos, or icons, in the middle of the screen so it isn't blocked by home screen elements. 
 
@@ -190,11 +189,11 @@ The template is a .PSD file that can be opened by apps such as Adobe Photoshop o
 
 ### Deploy updated custom backgrounds
 
-After you've created backgrounds for each of your displays:
+After you've created backgrounds:
 
 1. Save them with unique and descriptive filenames. For example, `ContosoBackground-Right-FoR.jpg` (main/right display), `ContosoBackground-Left-FoR.jpg` (extended/left display), and `ContosoBackground-Console.jpg` (touch console display).
 1. Copy them to the `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` folder on your Teams Rooms device. You can use a USB drive or remotely connect to the network share of your device to copy the file.
-1. To tell the Teams Rooms on Windows app to use custom backgrounds and which files to use, you need to add the `<Theming>` element to your XML configuration file. Within the `<Theming>` element, you need to provide the elements in the table below.
+1. To tell the Teams Rooms on Windows app to use custom backgrounds and which files to use, you must add the `<Theming>` element to your XML configuration file. Within the `<Theming>` element, you need to provide the elements in the table below.
 
 > [!NOTE]
 > If the `<CustomThemeImageUrl>` element is also included in the XML configuration file, the following elements override the value provided in that element.
@@ -206,7 +205,7 @@ After you've created backgrounds for each of your displays:
 | `<CustomBackgroundExtendedFoRDisplay>` | Filename of extended/left custom background. <br>e.g., `ContosoBackground-Left-FoR.jpg` | **Yes**, if both of the following are true:<br><ul><li>`<ThemeName>` is set to `Custom`.</li><li>`<DualScreenMode>` is set to `true`.</li></ul> |
 | `<CustomBackgroundConsole>`            | Filename of touch console background. <br>e.g., `ContosoBackground-Console.jpg`         | **No**                                                                                                                                                          |
 
-Here's an example XML snippet showing background images being provided for both right and left front-of-room displays and the touch console display:
+Here's an example XML snippet showing background images being provided for dual front-of-room displays and the touch console:
 
 ```xml
 <Theming> 
