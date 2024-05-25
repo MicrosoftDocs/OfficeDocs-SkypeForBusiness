@@ -66,7 +66,8 @@ When you enable custom backgrounds, you must provide custom backgrounds for all 
 
 > [!TIP]
 > If you've been using the `<CustomThemeImageUrl>` element to provide a single custom background image for your front-of-room displays, you can continue using it if it suits your needs. However, if you want to provide separate custom backgrounds for each front-of-room display, or replace your existing backgrounds with higher resolution images, or configure a custom background on your touch console, you need to use the elements provided in this section.
-> > For more information about using `<CustomThemeImageUrl>`, see [Standard backgrounds](/microsoftteams/rooms/custom-backgrounds?tabs=Standard).
+> For more information about using `<CustomThemeImageUrl>`, see [Standard backgrounds](/microsoftteams/rooms/custom-backgrounds?tabs=Standard).
+
 ### Minimum resolutions
 
 Front-of-room displays and touch consoles have **minimum** supported custom background **resolutions**:
@@ -98,10 +99,12 @@ If you're not sure what the aspect ratio of your display is, check your display'
 > Custom backgrounds with resolutions or aspect ratios higher than the recommended resolution for a display may be center-cropped.
 > 
 > :::image type="content" source="../media/front-of-room-16-9-center-crop.png" alt-text="A custom background showing a center crop in a larger image." lightbox="../media/front-of-room-16-9-center-crop-large.png":::
-> > Custom backgrounds with resolutions or aspect ratios lower than the recommended resolution but higher than the minimum supported resolution are scaled to fill the frame of the display and are then center-cropped. The original aspect ratio of the custom background is maintained.
+>
+> Custom backgrounds with resolutions or aspect ratios lower than the recommended resolution but higher than the minimum supported resolution are scaled to fill the frame of the display and are then center-cropped. The original aspect ratio of the custom background is maintained.
+
 ### Supported formats 
 
-The custom background image file you upload must have one of the following formats: `JPG`, `JPEG`, and `PNG`.  
+The custom background image file must be in one of the following formats: `JPG`, `JPEG`, and `PNG`.  
 
 ### Custom background content guidelines
 
@@ -121,6 +124,7 @@ The following guidelines apply for front-of-room, touch console, and touch board
 
 > [!TIP]
 > Download the [custom theme template](#custom-background-template) to help design your custom background images. 
+
 #### Front-of-room displays
 
 When you create a custom background, avoid placing text, logos, or icons, near these locations:
@@ -197,9 +201,7 @@ The template is a .PSD file that can be opened by apps such as Adobe Photoshop o
 After you've created backgrounds for each of your displays:
 
 1. Save them with unique and descriptive filenames. For example, `ContosoBackground-Right-FoR.jpg` (main/right display), `ContosoBackground-Left-FoR.jpg` (extended/left display), and `ContosoBackground-Console.jpg` (touch console display).
-
 1. Copy them to the `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` folder on your Teams Rooms device. You can use a USB drive or remotely connect to the network share of your device to copy the file.
-
 1. To tell the Teams Rooms on Windows app to use custom backgrounds and which files to use, you need to add the `<Theming>` element to your XML configuration file. Within the `<Theming>` element, you need to provide the elements in the table below.
 
 > [!NOTE]
