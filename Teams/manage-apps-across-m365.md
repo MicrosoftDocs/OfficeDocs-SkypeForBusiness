@@ -33,7 +33,7 @@ App developers can create apps that work  not only in Microsoft Teams but also i
 
 * Integrated apps page in Microsoft 365 Admin Center. The app management settings made here affect only apps in Outlook and the Microsoft 365 app. For more information, see [integrated apps](/microsoft-365/admin/manage/test-and-deploy-microsoft-365-apps).
 
-* Manage apps page in Teams Admin Center. IIt manages apps for Teams client. The changes you make in the Teams admin center, impact apps in only Teams.
+* Manage apps page in Teams Admin Center. It manages apps for Teams client. The changes you make in the Teams admin center, impact apps in only Teams.
 
 Unified app management consolidates app catalog management into a single platform. You can manage apps on the Integrated apps page in the Microsoft 365 admin center or in the Teams admin center. Changes made in either admin center synchronize.
 
@@ -42,7 +42,7 @@ Unified app management consolidates app catalog management into a single platfor
 
 ## Understand the impact on your organization
 
-* App catalog: Apps start showing the hosts where those are available as Teams, Outlook, or Microsoft 365 app.
+* App catalog: Apps start showing the hosts where the apps are available as Teams, Outlook, or Microsoft 365 app.
 
 * Organization-wide settings: Default settings for app availability will apply to apps used in Teams, Outlook, and Microsoft 365 app.
 
