@@ -23,6 +23,49 @@ f1keywords: NOCSH
 
 # Proximity Join
 
+## Overview
+
+Proximity Join is a feature that enables you to nudge your Microsoft Teams Rooms into a Teams meeting from your Teams app on desktop or mobile. It does not require the room to be invited to the meeting prior to nudging it into the meeting. This feature uses wireless technologies that can be individually enabled or disabled depending on the requirements of the environment:
+
+1. [Bluetooth](#bluetooth)
+
+1. [Ultrasonic sound (Ultrasound)](#ultrasonic-sound-ultrasound)
+
+## Admin Controls
+
+Admins have the ability to configure each Microsoft Teams Room to emit either Bluetooth, ultrasound, or both depending on device capability. 
+
+### XML configuration file for Teams Rooms on Windows
+
+Like most Teams Rooms on Windows features, you can update the settings of your device with the Teams Rooms XML configuration file. The XML configuration file lets you remotely deploy configuration changes to one or more Teams Rooms on Windows devices in your organization. For more information, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](/microsoftteams/rooms/xml-config-file).
+
+
+|Element|Type|Level|Usage|
+| -------- | -------- | -------- | -------- |
+|<BluetoothAdvertisementEnabled>|Boolean ❷|First ❶|Enabled by default.|
+|<AutoAcceptProximateMeetingInvitations>|Boolean ❷|First ❶|If true, proximity based meeting invitations via Bluetooth are automatically accepted. Enabled by default.|
+|<UltrasoundAdvertisementEnabled>|Boolean ❷|First ❶|Enabled by default.|
+|<UltrasoundAutoAcceptProximateMeetingInvitations>|Boolean ❷|First ❶|If true, proximity based meeting invitations via Bluetooth are automatically accepted. Enabled by default.|
+| <UltrasoundSpeaker> | ? | ? | ? |
+| <UltrasoundSpeakerVolume> | ? | ? | ? |
+
+
+Pro Management Portal
+
+Teams Rooms App Settings
+
+## Bluetooth
+
+Supported devices
+
+## Ultrasound
+
+Supported devices:
+
+___
+
+# Proximity Join
+
 Proximity Join is a feature that enables you to nudge your meeting room into a Microsoft Teams Rooms so that your meeting room can sync with Microsoft Teams Rooms. Your personal device, for example, your desktop or mobile phone, detects Microsoft Teams Rooms through a wireless signal.
 
 The Proximity Join feature provides you with the following advantages:
@@ -81,8 +124,7 @@ Using the Proximity Join feature, perform the following steps from the TEAMS app
 1. Select your meeting room once it's listed, and select **Join**.
    > [!WARNING]
    > Double-check that the meeting room you've selected is the one you are in, so as to avoid disruptions and security leaks.
-
-   The Microsoft Teams Rooms should now be in your meeting room.
+      The Microsoft Teams Rooms should now be in your meeting room.
 
 ## Bluetooth
 
