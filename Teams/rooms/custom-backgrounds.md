@@ -119,7 +119,7 @@ The following guidelines apply for front-of-room, touch console, and touch board
 - Place text, logos, or icons, in the middle of the screen so it isn't blocked by home screen elements. 
 
 > [!TIP]
-> Use the [custom theme template](#custom-background-template) to in designing your custom background images. 
+> Use the [custom background template](#custom-background-template) in designing your custom background images. 
 
 #### Front-of-room displays
 
