@@ -690,6 +690,8 @@ items:
               href: manage-meeting-chat.md
             - name: Prevent users from joining external meetings
               href: external-meeting-join.md
+            - name: Prevent users from sharing content in external meetings
+              href: block-external-content-share.md
             - name: Manage reactions
               href: manage-reactions-meetings.md
             - name: Set up the Call me feature for your users
