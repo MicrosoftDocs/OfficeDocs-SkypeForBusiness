@@ -1,7 +1,7 @@
 ---
 title: "Change the settings for an Audio Conferencing bridge"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jenz
+author: jenzamora
 manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 12/13/2023
@@ -9,6 +9,7 @@ ms.topic: article
 ms.assetid: 783fad3f-b77c-422b-b91f-7c8b0af324fb
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 search.appverid: MET150
 ms.collection: 
   - m365initiative-meetings
@@ -70,9 +71,9 @@ When a user dials in to a meeting using a phone, the conferencing bridge answers
 
 To manage audio conferencing bridges with PowerShell, use the **`-CsOnlineDialInConferencingBridge`** cmdlet.
 
-For **`-CsOnlineDialInConferencingBridge`** script examples, see [Set-CsOnlineDialInConferencingBridge](/powershell/module/skype/Set-CsOnlineDialInConferencingBridge).
+For **`-CsOnlineDialInConferencingBridge`** script examples, see [Set-CsOnlineDialInConferencingBridge](/powershell/module/teams/Set-CsOnlineDialInConferencingBridge).
 
-To manage entry and exit announcements through PowerShell, see [Set-CsOnlineDialInConferencingBridge](/powershell/module/skype/Set-csonlinedialinconferencingtenantsettings).
+To manage entry and exit announcements through PowerShell, see [Set-CsOnlineDialInConferencingBridge](/powershell/module/teams/Set-csonlinedialinconferencingtenantsettings).
 
 ## Related articles
 

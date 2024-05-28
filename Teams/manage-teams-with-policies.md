@@ -15,6 +15,7 @@ appliesto:
   - Microsoft Teams
 ms.collection: 
   - M365-collaboration
+  - essentials-manage
 ---
 
 # Manage Teams with policies

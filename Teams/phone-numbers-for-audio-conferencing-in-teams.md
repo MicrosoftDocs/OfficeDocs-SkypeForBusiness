@@ -1,14 +1,15 @@
 ---
 title: Phone numbers for Audio Conferencing
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jenz
+author: jenzamora
 manager: pamgreen
 ms.reviewer: oscarr
-ms.date: 11/28/2017
+ms.date: 02/22/2024
 ms.topic: conceptual
 ms.assetid: 95a08f84-04e5-4f72-88a8-d6472a7c89d7
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 search.appverid: MET150
 ms.collection: 
   - M365-voice
@@ -25,12 +26,12 @@ ms.custom:
   - Audio Conferencing
   - LIL_Placement
   - seo-marvel-mar2020
-description: "Learn what countries and regions have dial-in conferencing numbers, and how they are automatically assigned."
+description: "Learn which countries and regions have dial-in conferencing numbers, and how they're automatically assigned."
 ---
 
 # Phone numbers for Audio Conferencing in Microsoft Teams
 
-When you are setting up **Audio Conferencing** for Microsoft Teams, dial-in phone numbers are automatically assigned to your organization. To see the phone numbers that are assigned to your audio conferencing bridge, in the Microsoft Teams admin center, go to  **Meetings** > **Conference bridges**. For more information, go to [See a list of Audio Conferencing numbers](see-a-list-of-audio-conferencing-numbers-in-teams.md).
+When you're setting up **Audio Conferencing** for Microsoft Teams, dial-in phone numbers are automatically assigned to your organization. To see the phone numbers that are assigned to your audio conferencing bridge, in the Microsoft Teams admin center, go to  **Meetings** > **Conference bridges**. For more information, go to [See a list of Audio Conferencing numbers](see-a-list-of-audio-conferencing-numbers-in-teams.md).
 
 ## Audio Conferencing coverage and pricing
 
@@ -42,17 +43,17 @@ To manage phone numbers that are included When a Microsoft Teams user schedules 
 
 ## Dial-in phone numbers set on an audio conferencing bridge
 
-There are two types of audio conferencing phone numbers that can be assigned to your conferencing bridge: **Shared** and **Dedicated**. Both types of these numbers can be used by any caller to join audio meetings that are being held in your organization.
+There are two types of audio conferencing phone numbers that can be assigned to your conferencing bridge: **Shared** and **Dedicated**. Any caller can use both types of these numbers to join audio meetings that are being held in your organization.
 
 - **Dedicated phone numbers** are those phone numbers that are only available to users within your organization. You can change the languages that are used when someone calls in to one of these numbers.
 
 - **Shared phone numbers** are those phone numbers that can be shared with other Microsoft 365 or Office 365. You can't change the languages that are used when someone calls in to one of these numbers.
 
-While the default audio conferencing number that is assigned to an organizer is only included in the meeting invite, a caller can use any of the phone numbers that are assigned to your conferencing bridge to join a meeting. The list of phone numbers that can be used to join a meeting is available using the **Find a local number** link that is included on every meeting invite.
+The organizer's default audio conferencing number is included in the meeting invite, but callers can use any assigned phone number to join the meeting. The list of phone numbers that can be used to join a meeting is available using the **Find a local number** link that is included on every meeting invite.
 
 ## Automatically assigned audio conferencing phone numbers
 
-Shared audio conferencing phone numbers are automatically assigned to organizations when they're enabled for audio conferencing. When the phone numbers are assigned, a phone number is assigned as the default phone number of the conferencing bridge. The phone number assigned as the default number of the bridge will be one from the country/region of the organization.
+Shared audio conferencing phone numbers are automatically assigned to organizations when they're enabled for audio conferencing. When the phone numbers are assigned, a phone number is assigned as the default phone number of the conferencing bridge. The phone number assigned as the default number of the bridge is one from the country/region of the organization.
 
 To see a list of those countries/regions that have phone numbers automatically assigned to organizations, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
@@ -72,4 +73,4 @@ To see a list of those countries/regions that have phone numbers automatically a
 
 ## Related topics
 
-[Try or purchase Audio Conferencing in Microsoft 365 or Office 365](/skypeforbusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+- [Try or purchase Audio Conferencing in Microsoft 365 or Office 365](/skypeforbusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

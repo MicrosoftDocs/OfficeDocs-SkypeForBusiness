@@ -13,16 +13,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
-description: "Summary: Read this topic to learn how to deploy Statistics Manager for Skype for Business Server."
+description: "Summary: Read this article to learn how to deploy Statistics Manager for Skype for Business Server."
 ---
 
 # Deploy Statistics Manager for Skype for Business Server
 
-**Summary:** Read this topic to learn how to deploy Statistics Manager for Skype for Business Server.
+**Summary:** Read this article to learn how to deploy Statistics Manager for Skype for Business Server.
 
  Statistics Manager for Skype for Business Server is a powerful tool that allows you to view Skype for Business Server health and performance data in real time. You can poll performance data across hundreds of servers every few seconds, and view the results instantly on the Statistics Manager Website.
 
-Before you attempt to install Statistics Manager, be sure you are familiar with the software, networking, and hardware requirements. For more information, see [Plan for Statistics Manager for Skype for Business Server](plan.md).
+Before you attempt to install Statistics Manager, be sure you're familiar with the software, networking, and hardware requirements. For more information, see [Plan for Statistics Manager for Skype for Business Server](plan.md).
 
 > [!NOTE]
 > If you are upgrading from a previous version of Statistics Manager, see [Upgrade Statistics Manager for Skype for Business Server](upgrade.md).
@@ -53,46 +53,46 @@ To deploy Statistics Manager, follow these steps:
 
 4. Install an Agent on each Skype for Business Server machine you wish to monitor.
 
-5. Import the topology for the servers you are monitoring.
+5. Import the topology for the servers you're monitoring.
 
 > [!NOTE]
 > Redis, the Listener service, and the Website must all be installed on the same host machine. Be sure the host machine does not have Skype for Business Server installed.
 
 ### Prepare the Listener host machine
 
-To prepare the host machine, you will need to install the Redis in-memory caching system, and ensure that a valid certificate is on the machine. Microsoft recommends that you install the latest stable build of Redis 3.0. Statistics Manager version 2.0 was tested with Redis 3.2.100.
+To prepare the host machine, you need to install the Redis in-memory caching system, and ensure that a valid certificate is on the machine. Microsoft recommends that you install the latest stable build of Redis 3.0. Statistics Manager version 2.0 was tested with Redis 3.2.100.
 
 1. Download Redis from the following site: [https://github.com/MSOpenTech/redis](https://github.com/MSOpenTech/redis).
 
     Unsigned installers can be downloaded from [https://github.com/MSOpenTech/redis/releases](https://github.com/MSOpenTech/redis/releases)
 
-    Signed binaries are available through popular package managers: [Nuget](https://www.nuget.org/packages/Redis-64/) and [Choclatey](https://chocolatey.org/packages/redis-64).
+    Signed binaries are available through popular package managers: [NuGet](https://www.nuget.org/packages/Redis-64/) and [Choclatey](https://chocolatey.org/packages/redis-64).
 
    - Run the provided msi and follow the prompts.
 
-   - Do not check the box to add a firewall rule.
+   - Don't check the box to add a firewall rule.
 
 2. The Listener service requires a certificate. Microsoft strongly recommends that you have a certificate signed by a trusted certificate authority.
 
     If you want to use a self-signed certificate--for testing purposes in a lab, for example--see [Create a self-signed certificate](deploy.md#BKMK_SelfCert).
 
-    The Agent uses certificate thumbprint verification (instead of chain verification). It will not do full certificate validation because it is possible to use self-signed certificates.
+    The Agent uses certificate thumbprint verification (instead of chain verification). It will not do full certificate validation because it's possible to use self-signed certificates.
 
 ### Install the Listener service
 
 Install the Listener service on the host machine by running the StatsManPerfAgentListener.msi and specifying the following:
 
-1. Review the License Agreement, and if you agree, select **I accept the terms in the license agreement**, and then click **Next**.
+1. Review the License Agreement, and if you agree, select **I accept the terms in the license agreement**, and then select **Next**.
 
 2. On the next page, specify the following information:
 
    - **Service Password:** This password is used by the remote Agents to authenticate to the Listener service.
 
-   - **Service Port:** This HTTPS port number is used by the Listener to communicate with the Agents. During installation, this port will be allowed through the local firewall, a URL ACL will be created, and an SSL cert will be bound to this port. The default is 8443.
+   - **Service Port:** This HTTPS port number is used by the Listener to communicate with the Agents. During installation, this port is allowed through the local firewall, a URL ACL is created, and an SSL cert is bound to this port. The default is 8443.
 
    - **Certificate Thumbprint:** This certificate is used by the Listener to encrypt the HTTPS protocol. Network Service must have read access to the private key.
 
-     Click the **Select...** button to choose the thumbprint.
+     Click **Select...** button to choose the thumbprint.
 
      You can find the Certificate thumbprint by using Certificate Manager or by using the following PowerShell command:
 
@@ -100,11 +100,11 @@ Install the Listener service on the host machine by running the StatsManPerfAgen
       Get-ChildItem -path cert:\LocalMachine\My
       ```
 
-   - **Install Dir:** This directory is where the binaries will be installed. You may change it from the default by using the **Browse...** button.
+   - **Install Dir:** This directory is where the binaries will be installed. You might change it from the default by using the **Browse...** button.
 
-   - **AppData Dir:** This directory is where where the Logs folder and other data will be stored. You may change it from the default. It will not be deleted on uninstall.
+   - **AppData Dir:** This directory is where the Logs folder and other data are stored. You might change it from the default. It will not be deleted on uninstall.
 
-3. Click **Install**.
+3. Select **Install**.
 
 To validate the installation, perform the following steps:
 
@@ -114,7 +114,7 @@ To validate the installation, perform the following steps:
 
 2. To ensure the Listener has installed properly, look for the following:
 
-   - If the healthcheck page shows up, the Listener installation was successful.
+   - If the health check page shows up, the Listener installation was successful.
 
    - If the KnownServerCount is 1 or higher,  the connection to Redis is established.
 
@@ -128,9 +128,9 @@ Install the Website on the host machine by running the StatsManWebSite.msi (incl
 
 2. On the next page, specify the following information:
 
-   - **Service Port:** This TCP port is where the web site will listen. You can change it later by using IIS manager binding. During installation, this port will be allowed through the local firewall.
+   - **Service Port:** This TCP port is where the web site listens. You can change it later by using IIS manager binding. During installation, this port is allowed through the local firewall.
 
-   - **Install Dir:** This directory is where the binaries will be installed. You may change it from the default by using the **Browse...** button.
+   - **Install Dir:** This directory is where the binaries is installed. You may change it from the default by using the **Browse...** button.
 
    - **AppData Dir:** This directory is where the Logs folder and other data will be stored. You may change it from the default. It will not be deleted on uninstall.
 
@@ -158,15 +158,15 @@ Install an Agent on each Skype for Business Server that you wish to monitor by r
 
      You can use a NETBIOS name or a FQDN. You can use the name that is also specified as the **Subject** or **Subject Alternative Names** of the certificate on the Listener service, but this isn't a requirement.
 
-   - **Service Thumbprint:** This SS: certificate is used by the Listener. The Agent will use this thumbprint to authenticate to the Listener. It will not do full certificate validation because it is possible to use self-signed certificates.
+   - **Service Thumbprint:** This SS: certificate is used by the Listener. The Agent will use this thumbprint to authenticate to the Listener. It will not do full certificate validation because it's possible to use self-signed certificates.
 
-   - **Install Dir:** This directory is where the binaries will be installed. You may change it from the default by using the **Browse...** button.
+   - **Install Dir:** This directory is where the binaries will be installed. You might change it from the default by using the **Browse...** button.
 
-   - **AppData Dir:** This directory is where the Logs folder and the encrypted password.txt file will be stored. You may thanks change it from the default. It will not be deleted on uninstall.
+   - **AppData Dir:** This directory is where the Logs folder and the encrypted password.txt file are stored. You might thanks change it from the default. It will not be deleted on uninstall.
 
-3. Click **Install**.
+3. Select **Install**.
 
-If you are installing an Agent on numerous machines, you will probably want to do this in unattended mode. For example:
+If you're installing an Agent on numerous machines, you'll probably want to do this in unattended mode. For example:
 
 ```console
 msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> SERVICE_PASSWORD=<password> SERVICE_URI=https://<hostname>:<servicePort>/[INSTALLDIR=<directory>][DIR_STATSMANAPPDATA=<directory>]

@@ -29,18 +29,18 @@ description: Learn about the data and reports available in Microsoft Call Qualit
 
 # Data and reports in Call Quality Dashboard (CQD)
 
-Microsoft Call Quality Dashboard (CQD) uses a near-real-time (NRT) data feed. Call records are available in CQD within 30 minutes of the end of a call. Call records from the NRT pipeline are only available for a few months before they are removed from the data set.
+Microsoft Call Quality Dashboard (CQD) uses a near-real-time (NRT) data feed. Call records are available in CQD within 30 minutes of the end of a call and remain in CQD for 12 months, except for EUII fields which are removed after 28 days.
 
-## Many ways to access CQD data
+## Many ways to access call quality data
 
-You can access CQD data by several different avenues. Pick the one that best meets your needs:
+You can access call quality data by several different avenues. Pick the one that best meets your needs:
 
 |&nbsp;|&nbsp;|
 |---|---|
-|Teams admin center [(https://admin.teams.microsoft.com)](https://admin.teams.microsoft.com)|CQD data is included on the **Users** page in the Teams admin center, showing the most common data you need in an easy-to-read format. You can't customize CQD data that you find under **Users**.|
+|Teams admin center [(https://admin.teams.microsoft.com)](https://admin.teams.microsoft.com)|Call quality data is included on the **Users** page in the Teams admin center, showing the most common data you need in an easy-to-read format. You can't customize the data that you find under **Users**.|
 |CQD portal [(https://cqd.teams.microsoft.com)](https://cqd.teams.microsoft.com)|Robust summary and detailed reports that meet most needs, with drill-through filtering. You can also customize reports in the CQD portal. <br><br>Get two [CQD report templates](#import-the-cqd-report-templates) to help you analyze data in the CQD portal.|
 |Power BI|Use direct queries to view your CQD data in Power BI using [customizable Power BI templates](CQD-Power-BI-query-templates.md). [Download Power BI query templates for CQD](https://www.microsoft.com/download/details.aspx?id=102291).<br><br>You can also [use the REST API to access CQD data](/skypeforbusiness/management-tools/call-quality-dashboard/data-api) through Power BI. Use this method if you want to download your CQD data so you can work on it offline. The benefit of using this method is better performance, especially useful for large data sets that bog down in Power BI when you're online.|
-|Graph API|Access call quality data yourself using the [Graph API](/graph/api/resources/callrecords-api-overview). This is the most complex method, but it gives you the most control and flexibility in analyzing your call quality data. For example, if you need to join it with other data for your organization, you can use the Graph API to create a data model and incorporate call quality data.|
+|Graph API|Access raw call quality data yourself using the [Graph API](/graph/api/resources/callrecords-api-overview). This is the most complex method, but it gives you the most control and flexibility in analyzing your call quality data. For example, if you need to join it with other data for your organization, you can use the Graph API to create a data model and incorporate call quality data. Please note that CallRecords Graph API may not contain all of the fields that are available in CQD and naming conventions may differ between the two products. |
 
 ## Import the CQD report templates
 
@@ -243,7 +243,7 @@ We recommend that you upload your tenant, building, and location data so CQD can
 
 ## Create custom detailed reports
 
-If the default CQD reports don't meet your needs, use these instructions to create a custom report. Or (as of January 2020) [Use Power BI for CQD reports](cqd-power-bi-query-templates.md)instead.
+If the default CQD reports don't meet your needs, use these instructions to create a custom report. Or [Use Power BI for CQD reports](cqd-power-bi-query-templates.md) instead.
 
 From the pull-down list of reports at the top of the screen displayed at login \(the **Summary Reports** screen\) Select **Detailed Reports**  and then **New**. Click **Edit** in a report to see the Query Editor. Each report is backed by a query into the cube. A report is a visualization of the data returned by its query. The Query Editor helps you edit these queries and the display options of the report.
 

@@ -4,19 +4,19 @@ ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
 ms.reviewer: eviegrimshaw
-ms.date: 4/21/2023
+ms.date: 4/21/2024
+ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
 audience: Admin
 appliesto: 
   - Microsoft Teams
+ms.collection: 
+  - teams-rooms-devices
+  - Teams_ITAdmin_Devices
+  - Tier1
 f1.keywords: 
   - NOCSH
-ms.collection: 
-  - Teams_ITAdmin_Devices
-  - teams-rooms-devices
-  - Tier1
-ms.topic: reference
 search.appverid: MET150
 description: This article provides guidance on how to enable check-in and room release Teams panels devices.
 ---

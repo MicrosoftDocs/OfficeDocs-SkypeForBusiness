@@ -5,10 +5,12 @@ author: mstonysmith
 manager: pamgreen
 ms.reviewer: naforer
 ms.date: 08/22/2023
-audience: ITPro
 ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
@@ -48,7 +50,7 @@ The following sections show you how to complete each of these steps.
 
 ## Step 1: Allow calendar invite processing for third-party meetings
 
-The first thing you need to do to enable a one-touch join experience from Team Rooms is set the calendar processing rules for the device's Exchange Online room mailbox. The room mailbox needs to allow external meetings and keep the message body and subject so it can see the URL needed to join the third-party meeting. To set these room mailbox options using the [Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing.) cmdlet, do the following:
+The first thing you need to do to enable a one-touch join experience from Team Rooms is set the calendar processing rules for the device's Exchange Online room mailbox. The room mailbox needs to allow external meetings and keep the message body and subject so it can see the URL needed to join the third-party meeting. To set these room mailbox options using the [Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing) cmdlet, do the following:
 
 1. Connect to Exchange Online PowerShell. For more information, see [Connect to Exchange Online PowerShell with Basic authentication](/powershell/exchange/connect-to-exchange-online-powershell) or [Connect to Exchange Online PowerShell using multi-factor authentication](/powershell/exchange/mfa-connect-to-exchange-online-powershell), depending on your authentication method.
 

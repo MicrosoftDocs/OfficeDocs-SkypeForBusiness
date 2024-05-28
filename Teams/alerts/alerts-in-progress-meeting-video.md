@@ -1,10 +1,10 @@
 ---
 title: Alerts for in-progress meeting video quality issues
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 ms.reviewer: vapati
-ms.date: 07/30/2023
+ms.date: 01/30/2024
 ms.topic: article
 ms.service: msteams
 audience: Admin
@@ -26,11 +26,13 @@ description: Learn how to set up alerts for video quality issues detected in in-
 
 [!INCLUDE[Teams Premium ECM](../includes/teams-premium-ecm.md)]
 
-You can set up alerts for in-progress meeting video issues and be informed immediately when the users you specify experience issues. This feature requires Teams Premium.
+You can set up alerts for in-progress meeting video issues and be informed immediately when the users you specify experience issues.
 
 Notifications are available for source freeze count, loss recovery attempt rate, and video encoder hardware failure. You can set the threshold for each of these as well as the frequency of notification.
 
 Notifications can  be sent to a Teams channel or a web hook URL.
+
+To be monitored, meeting attendees must have a Teams Premium or Teams Rooms Pro license.
 
 ## Set up alerts for video quality issues
 

@@ -4,10 +4,10 @@
 # So if a pull request only touches javascript files, only these owners
 # will be requested to review.
 
-/Skype/SfbServer/ @lanachin
-/Skype/SfBServer2019/ @lanachin
-/Skype/SfbOnline/ @lanachin
+/Skype/SfbServer/ @pamgreen-msft
+/Skype/SfBServer2019/ @pamgreen-msft
+/Skype/SfbOnline/ @pamgreen-msft
 /Skype/SfbPartnerCertification/ @mikeplum
 /Skype/Hub/ @samanro
 /Teams/ @tonysmit @chuckedmonson @serdarsoysal @microsoftheidi @carolynrowe @mikeplum
-/Lync/ @lanachin
+/Lync/ @pamgreen-msft

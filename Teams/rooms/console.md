@@ -3,19 +3,21 @@ title: Build a Microsoft Teams Rooms image
 ms.author: tonysmit
 author: mstonysmith
 ms.reviewer: Travis-Snoozy
-ms.date: 08/22/2023
 manager: pamgreen
-audience: ITPro
-ms.topic: quickstart
+ms.date: 08/22/2023
+ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-f1.keywords: 
-  - NOCSH
-ms.localizationpriority: medium
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
   - Tier1
+f1.keywords: 
+  - NOCSH
+ms.localizationpriority: medium
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: This article describes how to create and apply Microsoft Teams Rooms installation media.
@@ -54,7 +56,6 @@ You should only perform these steps if the necessary Microsoft Teams and Exchang
 Surface Pro devices require one of the following docking station options:
 
 - [Logitech SmartDock](https://www.logitech.com/assets/64799/smartdockdatasheetweb.pdf)
-- [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
 - [Polycom MSR Series](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
 ## Prepare the installation media

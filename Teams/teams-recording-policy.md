@@ -1,13 +1,13 @@
 ---
 title: Introduction to Teams Policy-based Recording for Calling & Meetings
-author: MikePlumleyMSFT
-ms.author: mikeplum
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.date: 05/11/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: kkodali
+ms.reviewer: romanf
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn about Teams Policy-based Recording for Calling & Meetings
@@ -27,27 +27,20 @@ appliesto:
 
 # Introduction to Teams policy-based recording for callings & meetings
 
-Policy-based recording enables organizations that adopt Microsoft Teams for calling
-and meetings to stipulate, using an administrative policy, when calls and
-online meetings should be automatically recorded and captured for
-subsequent processing and retention as required by relevant corporate or
-regulatory policy.
+Policy-based recording allows orgs with Microsoft Teams for calling and meetings to decide when calls and meetings should automatically be recorded through an admin policy. Orgs can also decide when calls and meetings should be captured for
+subsequent processing and retention as required by relevant corporate or regulatory policy.
 
-Teams has been enhanced to support integration of
-third-party recording solutions, including the platform
-functionality, user experiences, and administrative interfaces needed to
+Teams is enhanced to support the integration of
+partner recording solutions. These enhancements cover platform
+functionality, user experiences, and  administrative interfaces needed to
 provide an end-to-end solution for configuring, managing, recording,
-storing, and analyzing Teams communications. Enhancements include communications platform APIs and events for recording, which provides:
+storing, and analyzing Teams communications. The enhancements include communications platform APIs and events for recording, which provides:
 
-- Seamless, high-quality media capture across devices and all
-    supported endpoints for audio, video, screen share, and chat.
+- Seamless, high-quality media capture across devices, and all supported endpoints for audio, video, screen share, and chat.
 
-- Support for interaction capture between Teams users and supported
-    calling endpoints (Teams, Teams Mobile, Skype for Business, PSTN)
+- Support for interaction capture between Teams users and supported calling endpoints (Teams, Teams Mobile, Skype for Business, PSTN).
 
-- New administrative policies for compliance recording, including
-    integration with existing Teams administrative calling and
-    meeting tools and policies
+- New administrative policies for compliance recording, including integration with existing Teams administrative calling and meeting tools and policies.
 
 Compliance Recording can be enabled on Microsoft 365 A3/A5/E3/E5/Business Premium, Office 365 A3/A5/E3/E5 users, Teams Rooms license, or Microsoft Teams Shared Devices license.
 
@@ -68,9 +61,7 @@ Organizational, and Lawful Intercept, as shown in the image:
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing the interaction recording what and why.](media/recording-taxonomy.png "The image shows the recording categories.")
 
-Each of the categories entails different requirements for how recordings
-are initiated, what is recorded, where recordings are stored, who is
-notified, who controls access, and how retention is handled.
+Each category has different requirements. The requirements vary for how recordings are initiated, what is recorded, where recordings are stored, who is notified, who controls access, and how retention is handled.
 
 | Type                   | Convenience (Regular Teams Recording) | Org - Regulated (Compliance Recording) |
 | ---------------------- | ------------------ | --------------- |
@@ -83,17 +74,13 @@ notified, who controls access, and how retention is handled.
 
 Teams provides various capabilities for
 [convenient](./meeting-recording.md)
-and functional recording of meetings and live events. Organizational
-recording means enabling organizations that adopt Teams for calling and
-meetings to stipulate, by way of an administrative policy, when calls and online
-meetings should be automatically recorded and captured for subsequent
-processing and retention as required by relevant corporate or regulatory
-policy. Users under this policy will be aware that their digital
-interactions with Teams are being recorded but will not be able to
-disable the recording and will not have access to the recording once the
-interaction is complete. The recording becomes part of the
-organizational archive available to compliance and legal personnel for
-eDiscovery, legal hold, and other corporate retention uses.
+and functional recording of meetings and live events.
+Organizational recording is allowing orgs with Microsoft Teams for calling and meetings to decide through an admin policy when calls and meetings should automatically be recorded. Orgs also decide when calls and meetings should be captured for
+subsequent processing and retention as required by relevant corporate or regulatory policy.
+
+Users with this assigned policy know that their digital
+interactions with Teams are being recorded. They also know that they can't
+disable the recording and don't have access to the recording once the interaction is complete. The recording becomes part of the organizational archive. This archive is available to compliance and legal personnel for eDiscovery, legal hold, and other corporate retention uses.
 
 ## Example user needs
 
@@ -127,10 +114,10 @@ eDiscovery, legal hold, and other corporate retention uses.
 <li><p>Collect all Teams communications in the manner required to meet compliance obligations in appropriate regional boundaries.</p></li>
 <li><p>Search for interactions based on communication-related metadata or interaction content. Common examples include:</p>
 <ul>
-<li><p><strong>Metadata</strong> - Participants, time, direction, dialed number, origin number, Custom business data</p></li>
-<li><p><strong>Content</strong> – Transcription, sentiment, phonetics, related interactions</p></li>
+<li><p><strong>Metadata</strong> - Participants, time, direction, dialed number, origin number, Custom business data.</p></li>
+<li><p><strong>Content</strong> – Transcription, sentiment, phonetics, related interactions.</p></li>
 </ul></li>
-<li><p>Analyze and interact with collected communications, including the ability to monitor interactions as they are being collected.</p></li>
+<li><p>Analyze and interact with collected communications, including the ability to monitor interactions as they're being collected.</p></li>
 <li><p>Ensure security of collected communications and prevent tampering at all stages.</p></li>
 </ul></td>
 </tr>
@@ -176,36 +163,35 @@ Graph documentation on the specific APIs can be found here for
 and
 [incomingContext](/graph/api/resources/incomingcontext).
 
-The exact implementation of the recorder service will vary by partner
-but must be designed to support multiple recorders in order to achieve
-high availability and geographical distribution of deployment to reduce
+The exact implementation of the recorder service varies by partner, but must be designed to support multiple recorders. This requirement is necessary to achieve high availability and geographical distribution of deployment to reduce
 latency from Teams to the recorder. In addition, it is expected that
 Recorders themselves be designed with resiliency and redundancy in mind.
 
 Partners must confirm the minimum required release version of the
 Microsoft Graph communications APIs and SDKs with Microsoft before
-submitting their solution for certification to ensure that all
+submitting their solution for certification. This requirement ensures that all
 requirements of compliance recording integration are supported.
 
-Two specific requirements that are fundamental for compliance recording
-scenario are:
+Requirements that are fundamental for compliance recording
+scenario:
 
-- Recorder bot must be deployed in Azure
+- Recorder bot must be deployed in Azure.
 
-- Recorder bot must run on a Windows VM in Azure
+- Recorder bot must run on a Windows VM in Azure.
+
+- Recorder bot outbound firewall destination IP address must be open to the Azure public IP range.
+
+- Recorder bot inbound firewall source IP address must be open to the Azure public IP range.
 
 The Azure and Windows VM requirements only apply to the Teams Bot
-component, which means that a partner may implement the rest of the
+component, which means that a partner might implement the rest of the
 platform of their choice provided they can meet the relevant performance
 and functional requirements for compliance recording.
 
 ## Compliance recording policy assignment and provisioning
 
-IT Administrators can determine which users are to be recorded and which
-recorder will be used for each user, by creating and assigning
-compliance recording policies. Recorders are automatically invited to
-participate in conversations based on the configuration of these
-policies when a communication interaction takes place. Compliance
+Through creating and assigning compliance recording policies, IT Administrators can determine which users are to be recorded and which recorder is used for each user. Recorders are automatically invited to participate in conversations based on the configuration of these policies when a communication interaction takes place.
+Compliance
 recording policies are managed using [Microsoft
 PowerShell](./teams-powershell-overview.md)
 and can be applied at the tenant, per-user, and security group level for each
@@ -251,7 +237,7 @@ policies](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group).
    -ComplianceRecordingApplications @(New-CsTeamsComplianceRecordingApplication -Id 5069aae5-c451-4983-9e57-9455ced220b7 -Parent TestComplianceRecordingPolicy)
    ```
 
-   See [Set-CsTeamsComplianceRecordingPolicy](/powershell/module/skype/set-csteamscompliancerecordingpolicy).
+   See [Set-CsTeamsComplianceRecordingPolicy](/powershell/module/teams/set-csteamscompliancerecordingpolicy).
 
 3. Assign the Compliance Recording policy to a user.
 
@@ -259,7 +245,7 @@ policies](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group).
    PS C:\> Grant-CsTeamsComplianceRecordingPolicy -Identity testuser@contoso.onmicrosoft.com -PolicyName TestComplianceRecordingPolicy
    ```
 
-   See [Grant-CsTeamsComplianceRecordingPolicy](/powershell/module/skype/grant-csteamscompliancerecordingpolicy).
+   See [Grant-CsTeamsComplianceRecordingPolicy](/powershell/module/teams/grant-csteamscompliancerecordingpolicy).
 
    ```powershell
    PS C:\> Get-CsOnlineUser testuser@contoso.onmicrosoft.com | select SipAddress, TenantId, TeamsComplianceRecordingPolicy | fl
@@ -276,7 +262,7 @@ Support for notifications is enabled using the Teams client experiences. The exp
 **Teams clients - visual notice**
 - Desktop/web
 - Mobile (iOS/Android)
-- Teams phones
+- Teams Phones
 - Teams rooms
 
 **Other endpoints - audio notice**
@@ -291,9 +277,9 @@ Support for notifications is enabled using the Teams client experiences. The exp
 
 ## Compliance recording for Teams certification programs
 
-In addition to publishing publicly available APIs allowing partners to develop and integrate CCaaS solutions with Teams, we have developed the compliance recording for Microsoft Teams certification program to provide customers with the assurance that each participating partner's solution has been tested and verified to provide the quality, compatibility, and reliability they expect from Microsoft solutions.  
+In addition to publishing publicly available APIs allowing partners to develop and integrate CCaaS solutions with Teams, we developed the compliance recording for Microsoft Teams certification program. This program provides customers with the assurance that each participating partner's solution is tested and verified. Customers can be assured that partners provide the quality, compatibility, and reliability they expect from Microsoft solutions.
 
-The following partners have certified their solution for Microsoft Teams.<br/><br/>
+The following partners certify their solution for Microsoft Teams.<br/><br/>
 
 |Partner|Solution website |
 |:--|:--|
@@ -317,17 +303,21 @@ The following partners are in the process of certifying their solution for Micro
 
 |Partner|Solution website |
 |:--|:--|
+|Cloud World Wide Services |[https://recordia.net/microsoft-teams-call-recording/](https://recordia.net/microsoft-teams-call-recording/) |
 |GuardRec |[https://www.guardrec.com/en/teams-compliance-recording/](https://www.guardrec.com/en/teams-compliance-recording/) |
 |Landis Technologies |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
-|Redwood Technologies |[https://www.contentguru.com/en-gb/solutions/needs/compliance-recording-MS-Teams/](https://www.contentguru.com/en-gb/solutions/needs/compliance-recording-MS-Teams/) |
+|Redwood Technologies |[https://www.contentguru.com/en-gb/solutions/needs/compliance-recording-ms-teams/](https://www.contentguru.com/en-gb/solutions/needs/compliance-recording-ms-teams/) |
 
+This list gets updated as more partners join and meet the certification criteria.
 
-This list will be updated as more partners join and meet the certification criteria.
+## Support boundaries
 
+Microsoft supports Compliance Recording solutions only from the certified partners. If there are issues, you must contact your Compliance Recording partner first. If needed, the Compliance Recording partner will bring the issue to Microsoft through internal channels. Microsoft may reject support cases where a non-certified Compliance Recording solution is used, or if investigation shows the issue is one that the partner can address.
 
 ## Next steps
 
-If you need to provide additional context and details, send a mail to [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com).If you are a vendor seeking to join the certification program, fill out the calling platform intake as the next step.
+If you need to provide more context and details, send a mail to [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com). If you're a vendor seeking to join the certification program, fill out the calling platform intake as the next step.
+
 
 ### [Calling Platform Intake](https://aka.ms/CallingPlatformIntake)

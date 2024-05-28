@@ -26,7 +26,7 @@ Call Park number ranges define the temporary numbers where parked calls are held
 
 The following list describes the fields on the page.
 
-- **Name** Type a descriptive name that identifies the number range. After you save the number range, this name cannot be changed.
+- **Name** Type a descriptive name that identifies the number range. After you save the number range, this name can't be changed.
 
 - **Number range** In the first field, type the beginning number of the number range. In the second field, type the ending number of the number range.
 
@@ -34,14 +34,14 @@ The following list describes the fields on the page.
 
   - The value of the beginning number of the range must be the same length as the ending number of the range.
 
-  - The number range must be unique. This range cannot overlap with any other range.
+  - The number range must be unique. This range can't overlap with any other range.
 
   - If the number range begins with the character \* or #, the range must be greater than 100.
 
-  - Valid values: Must match the regular expression string ([\\*|#]?[1-9]\d{0,7})|([1-9]\d{0,8}). This means the value must be a string beginning with either the character \* or # or a number 1 through 9 (the first character cannot be a zero). If the first character is \* or #, the following character must be a number 1 through 9 (it cannot be a zero). Subsequent characters can be any number 0 through 9 up to seven additional characters (for example, "#6000", "\*92000", "\*95551212", and "915551212"). If the first character is not \* or #, the first character must be a number 1 through 9 (it cannot be zero), followed by up to eight characters, each a number 0 through 9 (for example: 915551212;41212;300).
+  - Valid values: Must match the regular expression string ([\\*|#]?[1-9]\d{0,7})|([1-9]\d{0,8}). This means the value must be a string beginning with either the character \* or # or a number 1 through 9 (the first character ,can't be a zero). If the first character is \* or #, the following character must be a number 1 through 9 (it can't be a zero). Subsequent characters can be any number 0 through 9 up to seven other characters (for example, "#6000", "\*92000", "\*95551212", and "915551212"). If the first character isn't \* or #, the first character must be a number 1 through 9 (it can't be zero), followed by up to eight characters, each a number 0 through 9 (for example: 915551212;41212;300).
 
-  - You should not have more than a total of 50,000 numbers per pool. Each number range typically encompasses 100 or fewer numbers, but it can be much larger as long as it includes fewer than 10,000 numbers. For example, instead of specifying a starting number of "7000000" and an ending number of "8000000," consider specifying a starting number of "7000000" and an ending number of "7000100."
+  - You shouldn't have more than a total of 50,000 numbers per pool. Each number range typically encompasses 100 or fewer numbers, but it can be larger as long as it includes fewer than 10,000 numbers. For example, instead of specifying a starting number of "7000000" and an ending number of "8000000," consider specifying a starting number of "7000000" and an ending number of "7000100."
 
-- **FQDN of destination server** Select the fully qualified domain name (FQDN) or service ID of the Application service that hosts the Call Park application. All calls parked to numbers within the range specified by the start number and end number in the number range will be routed to this server or pool.
+- **FQDN of destination server** Select the fully qualified domain name (FQDN) or service ID of the Application service that hosts the Call Park application. All calls parked to numbers within the range specified by the start number and end number in the number range is routed to this server or pool.
 
 For details about Call Park features and capabilities, see [Plan for Call Park in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/call-park.md). For details about working with Call Park number ranges, see [Configure Phone Number Extensions for Parking Calls](/previous-versions/office/lync-server-2013/lync-server-2013-configure-phone-number-extensions-for-parking-calls).
