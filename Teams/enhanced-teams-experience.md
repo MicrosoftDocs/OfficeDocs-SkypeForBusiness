@@ -75,7 +75,7 @@ Teams Premium provides more ways to safeguard and monitor users' Teams experienc
 
 - **Manage what attendees see** - Meeting organizers can decide whose avatars or video feeds to spotlight during a Teams meeting while others are hidden from view.
 
-- **Prevent users from sharing content in external Teams meetings**- Control whether users in your org with a Teams Premium license can share content when attending external Teams meetings.
+- **Prevent users from sharing content in external Teams meetings** - Control whether users in your org with a Teams Premium license can share content when attending external Teams meetings.
 
 - **Screen sharing quality alerts** - Set up alerts for in-progress meeting screen sharing issues and get notified immediately when your specified users experience issues.
 
