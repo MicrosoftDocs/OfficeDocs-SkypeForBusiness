@@ -78,8 +78,6 @@ This feature supports the following meeting types and platforms:
 This feature doesn’t support the following meeting types and platforms:
 
 - [Microsoft Teams free meetings](https://www.microsoft.com/microsoft-teams/free)
-- Shared channel meetings
-- Private or Public channel meetings
 - Meetings scheduled through Graph
 - Group Calls/1:1 calls
 - Meet now
