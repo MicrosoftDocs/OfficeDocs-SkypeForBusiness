@@ -144,8 +144,6 @@ When you create a custom background, avoid placing text, logos, or icons, near t
 
 :::image type="content" source="../media/mtr-devices/mtrw-for-qr-21x9.png" alt-text="Custom background showing a 21:9 front of room display with element dimensions and a QR code." lightbox="../media/mtr-devices/mtrw-for-qr-21x9.png":::
 
-These guidelines are also available in a [custom theme template](#custom-background-template) that you can download.
-
 #### Touch console displays
 
 When you create a custom background, avoid placing text, logos, or icons, near these locations:
