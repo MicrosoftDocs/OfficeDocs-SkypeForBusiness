@@ -46,7 +46,7 @@ Unified app management consolidates app catalog management into a single platfor
 
 * Organization-wide settings: Default settings for app availability will apply to apps used in Teams, Outlook, and Microsoft 365 app.
 
-* App installs: Apps deployed from the Integrated apps page in Microsoft 365 admin center will be preinstalled in all applicable hosts for the app. Unlike app installation in the Teams app setup policy, new app installs will provide access to the previously installed apps. The behavior is similar to deploying the app for Outlook and Microsoft 365 app. For more information, see [Microsoft 365 roadmap 394274](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=394274) and [Message Center post MC795355](https://admin.microsoft.com/?ref=MessageCenter/:/messages/MC795355).
+* App installs: Apps deployed from the Integrated apps page in Microsoft 365 admin center will be preinstalled in all applicable hosts for the app. Unlike app installation in the Teams app setup policy, new app installs will provide access to the previously installed apps. The behavior is similar to deploying the app for Outlook and Microsoft 365 app. For more information, see [Microsoft 365 roadmap 394274](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=394274) and [Message Center post MC795355](https://admin.microsoft.com/?ref=MessageCenter/:/messages/MC795355).
 
 * App availability: Managing app availability applies to all the applicable hosts.
 
@@ -54,7 +54,7 @@ Unified app management consolidates app catalog management into a single platfor
 
 * Consolidation of the existing app settings: All existing settings are unified between Integrated apps and Manage apps pages across both the admin centers. To know the merge rules that decide the impact, see [outcomes of settings across admin centers](#outcomes-of-admin-actions-across-admin-centers). In the admin centers, we'll provide an on-demand report for you to understand the impact of these changes in your org.
 
-* Existing app settings: The unification of settings happens automatically. The changes can't be undone. See [how to prepare](#how-to-prepare-for-the-upcoming-migration).
+* Existing app settings: The unification of settings happens automatically. The changes can't be undone.
 
 ## Outcomes of admin actions across admin centers
 
