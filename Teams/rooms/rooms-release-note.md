@@ -62,8 +62,10 @@ Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: ico
 
 ### 5.0.230.0 (5/23/2024)
 
+**This release is available for all Teams environments, however, GCC-High customers with this version installed won't see new features released from the previous update 5.0.111.0.**
+
 This update contains essential bug fixes and performance improvements:
-- Fixed an issue where Webview 2 runtime was failing to installing after updating to app update 5.0.111.0, thereby not getting the new features released in that update. 
+- Fixed an issue where Webview 2 runtime was failing to install after updating to app 5.0.111.0, thereby not getting the new features released in that update. 
 - Fixed an issue where Teams Rooms app might not fill the display when the display was reconnected and the scaling settings with Console was not synced.
 - Fixed an issue where a blank screen was displayed upon applying a custom theme.
 - Fixed an issue where Screen sharing from a video teleconferencing device to a Teams Rooms for Windows device doesn't work.
