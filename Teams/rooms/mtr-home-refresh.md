@@ -63,7 +63,7 @@ Teams Rooms devices by default show the subject and organizer name for each meet
 
 Exchange Calendar Settings
 
-Review Exchange calendar processing settings for your room mailboxes: [Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing?view=exchange-ps) We've outlined important elements to check as well:
+Review Exchange calendar processing settings for your room mailboxes: [Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing) We've outlined important elements to check as well:
 
 - RemovePrivateProperty - If this is set to "true" devices will show the meeting subject and organizer name regardless of if meeting is set to private
 
@@ -84,10 +84,43 @@ Teams Rooms on Windows allows you to hide the calendar on your front-of-room dis
 <RemoveFoRCalendar>true</RemoveFoRCalendar> 
 ```
 
-- **Custom backgrounds** - A calendar component has been added to the front-of-room display with the refreshed home screen to ensure that the room schedule is easily visible. If you have a custom background that has logos or information that users need to see, we recommend that you [update your background based on the latest guidelines ](#custom-background-guidelines)or that you [remove the calendar from the front-of-room display](#hide-front-of-room-calendar-display).
-## Custom background guidelines
+## Console Buttons
 
-For custom background guidelines, see [Set up and manage Teams Rooms on Windows custom backgrounds](custom-backgrounds.md).
+### Meet Now
+
+All Teams Rooms devices include meet now functionality which automatically launches the Teams Rooms device into an ad-hoc Teams meeting
+
+### Call
+
+All Teams Rooms devices include "call" functionality, which allows end users to manually call an individual participant in the organization or a federated Teams user
+
+### Share
+
+aaa
+
+### Join with an ID
+
+aaa
+
+### Whiteboard
+
+aaa
+
+### Room Controls
+
+aaa
+
+### Accessibility
+
+aaa
+
+### Language
+
+aaa
+
+## Custom backgrounds
+
+Teams Rooms on Windows devices support custom backgrounds, see [Set up and manage Teams Rooms on Windows custom backgrounds](custom-backgrounds.md).
 
 ## Updating Teams Rooms device configuration
 
