@@ -140,7 +140,15 @@ Teams Rooms offer an option for end user to be able to enter the Teams Meeting I
 
 ### Whiteboard
 
-aaa
+Teams Rooms devices offer a way to start an ad-hoc Microsoft whiteboard for in person interactive meetings.
+
+Teams Rooms on Windows
+
+This functionality is only available on all-in-one Teams Rooms on Windows devices.
+
+Teams Rooms on Android
+
+All Teams Rooms on Android devices support starting a Whiteboard from the home screen.  To change this setting, open Teams Admin Settings > Meetings and toggle "Allow room to initiate whiteboarding" as desired.
 
 ### Room Controls
 
