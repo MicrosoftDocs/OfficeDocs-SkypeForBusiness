@@ -121,7 +121,7 @@ If you have a frontline worker subscription, buy a Teams Phone Standard for Fron
 
 ### Summary of Teams Phone license options
 
-The following table summarizes license options and subscription types for Teams Phone.   
+The following table summarizes license options for Teams Phone.   
 
 **MK's TABLE SUGGESTIONS**
 
