@@ -25,8 +25,12 @@ The Mesh app, which enables immersive spaces in Teams, is enabled by default in 
 
 To set up immersive spaces in Teams, you should:
 
-- [Verify URLs, endpoints, and ports](#verify-endpoints-and-ports) are properly set up.
-- [Create or edit app permission policy](#create-or-edit-app-permission-policy) to block specific people from accessing the app.
+1. [Verify URLs, endpoints, and ports](#verify-endpoints-and-ports) are properly set up.
+
+1. Manage user access to the Mesh app using one of the following options:
+    1. [Use app centric management for immersive spaces in Teams](#use-app-centric-management-for-immersive-spaces-in-teams)
+    1. [Use app permission policies for immersive spaces in Teams](#use-app-permission-policies-for-immersive-spaces-in-teams)
+    1. [Use service plans in the Microsoft 365 Admin Center to allow immersive spaces for Teams](#use-service-plans-in-the-microsoft-365-admin-center-to-allow-immersive-spaces-for-teams)
 
 ## What is an immersive space?
 
@@ -113,6 +117,20 @@ The **Mesh app is by default allowed in the Teams admin center**. If you want to
 > Users may need to restart Teams for the App setup policy to take effect.
 
 Now users in Teams should be able to join an immersive space in Microsoft Teams.
+
+## Use service plans in the Microsoft 365 Admin Center to allow immersive spaces for Teams
+
+1. Sign into [Microsoft 365 Admin Center](https://admin.microsoft.com/) with an admin account with at least Global, License, or User level permissions and open the left navigation panel to the Users section.
+
+1. Select the user(s) or user group(s) and go to **Licenses and apps** to manage the active licenses and service plans.
+
+1. Ensure that you enabled the appropriate licenses for Immersive spaces for Teams.
+
+For more guidance for assigning licenses in Microsoft 365, see:
+
+[Assign or unassign licenses for users in the Microsoft 365 admin center - Microsoft 365 admin | Microsoft Learn](/microsoft-365/admin/manage/assign-licenses-to-users).
+
+For more complex and larger group license management, you can do [Assign licenses to a group - Microsoft Entra ID | Microsoft Learn](/entra/identity/users/licensing-groups-assign).
 
 ## Next steps for immersive spaces
 

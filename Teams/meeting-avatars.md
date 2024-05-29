@@ -24,10 +24,13 @@ The Avatars app is enabled by default for all organizations.
 
 As an admin, you can control whether avatars for Teams is available in your organization and who can use Avatars using [Teams Admin Center](manage-apps.md) policies, Microsoft 365 service plans, or [App centric management](app-centric-management.md) of Teams apps.
 
-Setting up the avatars for Teams app involves the following steps:
+To set up avatars in Teams, you should:
 
 1. [Allow endpoints](#allow-endpoints).
-1. [Allow the Avatars for Teams app in your organization](#allow-the-avatars-for-teams-app-in-your-organization).
+1. Manage user access to the Avatars app using one of the following options:
+    1. [Use app centric management for Avatars in Teams](#use-app-centric-management-for-avatars-in-teams)
+    1. [Manage Avatars in the Teams admin center](#manage-avatars-in-the-teams-admin-center)
+    1. [Use service plans in the Microsoft 365 Admin Center to allow the Avatars app](#use-service-plans-in-the-microsoft-365-admin-center-to-allow-the-avatars-app)
 1. (Optional) [Block the Avatars for Teams app for specific users or groups](#block-the-avatars-for-teams-app-for-specific-users-or-groups).
 
 > [!NOTE]
@@ -73,7 +76,7 @@ When you start using this functionality, we retain your existing app access that
 
   :::image type="content" source="media/avatars-allowed.png" alt-text="Toggle showing the Avatars app stateset to Allowed.":::
 
-### Create or edit a setup policy to preinstall the Avatars for Teams app for users
+### Create or edit a setup policy to preinstall the Avatars app for users
 
 1. In the [Teams admin center](https://admin.teams.microsoft.com/policies/manage-apps), go to **Teams apps** > **Setup policies**.
 1. Select the policy you want to edit, such as **Global (Org-wide default)** or **Add** a policy. If you add a new policy, make sure to give it a descriptive name.
@@ -97,7 +100,7 @@ Now users can see the Avatars app when they search through their apps, be able t
 
 :::image type="content" source="media/avatars-app-pinning.png" alt-text="Setup policy showing the user pinning toggle set to On and the installed Avatar app." lightbox="media/avatars-app-pinning-large.png":::
 
-### Block the Avatars in the Teams Admin Center
+### Block Avatars app in the Teams Admin Center
 
 Blocking users is important when you don't want certain users to access the avatars for Teams app. You can also block users if there's a report of an inappropriate avatar that violates company policy and needs to be disabled.
 
