@@ -30,10 +30,10 @@ Microsoft Teams Rooms include modern home screen design that includes a calendar
 Teams Rooms devices communicate with Exchange aligned to the same method Teams desktop, web, and mobile clients utilize.  To ensure that meetings appear correctly on your Teams Rooms clients, see [How Exchange and Microsoft Teams interact](../Exchange-Teams-interact.md).
 
 > [!WARNING]
-> Only on-premises Exchange servers with Hybrid Configuration and AutoDiscover v2 published externally is supported on the new Teams Rooms on Windows home screen experience, which is consistent with how other Teams clients connect with Exchange. If you're using Teams Rooms with an on-premises Exchange server, we recommend that you review how on-premises mailboxes work with Teams to avoid any disruption on your calendar experience, [Microsoft Teams and on-premises mailboxes](https://techcommunity.microsoft.com/t5/microsoft-teams-community-blog/microsoft-teams-and-on-premises-mailboxes-part-1-how-do-teams/ba-p/2229851)
+> Only on-premises Exchange servers with Hybrid Configuration and AutoDiscover v2 published externally are supported on Teams Rooms on Windows. which is consistent with how other Teams clients connect with Exchange. If you're using Teams Rooms with an on-premises Exchange server, we recommend that you review how on-premises mailboxes work with Teams: [Microsoft Teams and on-premises mailboxes](https://techcommunity.microsoft.com/t5/microsoft-teams-community-blog/microsoft-teams-and-on-premises-mailboxes-part-1-how-do-teams/ba-p/2229851)
 ### Calendar Entry Join Buttons
 
-Teams Rooms devices read Exchange calendar entries and will automatically generate "Join" buttons for end users to be able to one touch join into Teams meetings. This functionality can also be enabled for third-party meeting platforms following this guidance: [Join third-party meetings](/microsoftteams/rooms/third-party-join)
+Teams Rooms devices read Exchange calendar entries and will automatically generate "Join" buttons for end users to to one touch join into Teams meetings. This functionality can also be enabled for third-party meeting platforms following this guidance: [Join third-party meetings](/microsoftteams/rooms/third-party-join)
 
 If you wish to restrict the one touch join experience on Teams meetings, Teams Rooms offer controls to require users to enter the Teams Meeting ID and Passcode after a user selects the "Join" button adding further security to your Teams Rooms, this can be achieved by applying this configuration:
 
@@ -61,9 +61,9 @@ On the device, open Teams Admin Settings > Meetings and toggle "Require passcode
 
 Teams Rooms devices by default show the subject and organizer name for each meeting on the room calendar except those calendar invites which have been marked as private. The meeting body is not accessible on a Teams Room device to ensure data privacy and security.
 
-Exchange Calendar Settings
+#### Exchange Calendar Settings
 
-Review Exchange calendar processing settings for your room mailboxes: [Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing) We've outlined important elements to check as well:
+Based on your organizations desired configuration you may want to review Exchange calendar processing settings for your room mailboxes: [Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing) We've outlined important elements to check as well:
 
 - RemovePrivateProperty - If this is set to "true" devices will show the meeting subject and organizer name regardless of if meeting is set to private
 
@@ -71,9 +71,18 @@ Review Exchange calendar processing settings for your room mailboxes: [Set-Calen
 
 - DeleteSubject - If this is set to "true" the meeting subject will not be visible on Teams Rooms devices
 
-Teams Rooms on Windows
+#### Teams Rooms on Windows
 
-Teams Rooms on Android
+On a Teams Rooms on Windows device, open Settings > Meetings and toggle "Show meeting names" to Off to hide meeting names. This can also be modified using an XML configuration file with a value of 1 to hide the meeting names:
+
+
+```xml
+<HideMeetingName>1</HideMeetingName>
+```
+
+#### Teams Rooms on Android
+
+On the device, open Teams Admin Settings > Meetings and toggle "Show meeting names" to Off to hide meeting names on the Teams Room device.
 
 ### Hide the calendar from the front-of-room display
 
@@ -88,17 +97,17 @@ Teams Rooms on Windows allows you to hide the calendar on your front-of-room dis
 
 ### Meet Now
 
-All Teams Rooms devices include meet now functionality which automatically launches the Teams Rooms device into an ad-hoc Teams meeting
+All Teams Rooms devices include meet now functionality which automatically launches the Teams Rooms device into an ad-hoc Teams meeting.  Lean more about Meet Now here: [Start an instant meeting in Microsoft Teams](https://support.microsoft.com/office/start-an-instant-meeting-in-microsoft-teams-ff95e53f-8231-4739-87fa-00b9723f4ef5)
 
 ### Call
 
 #### Calling a Teams User
 
-All Teams Rooms devices include "call" functionality, which allows end users to manually call an individual participant in the organization or a federated Teams user
+All Teams Rooms devices include "call" functionality, which allows end users to manually call an individual participant in the organization or a federated Teams users.
 
 #### PSTN
 
-Teams Rooms support PSTN calling just like a Teams user. The Teams Rooms Pro licensing includes the Phone System functionality, but you'll need to add a calling plan, Operator Connect or direct routing configuration to your Teams Rooms account for the PSTN functionality to work. You can learn more here: [Teams PSTN connectivity](/microsoftteams/pstn-connectivity)
+Teams Rooms support PSTN calling just like a Teams user. The Teams Rooms Pro licensing includes the Phone System functionality, but you'll need to add a calling plan, Operator Connect, or direct routing configuration to your Teams Rooms account for the PSTN functionality to work. You can learn more here: [Teams PSTN connectivity](/microsoftteams/pstn-connectivity)
 
 #### SIP/H.323 Calling
 
