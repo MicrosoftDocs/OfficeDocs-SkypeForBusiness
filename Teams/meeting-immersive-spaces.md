@@ -1,5 +1,5 @@
 ---
-title: Set up immersive spaces for Teams
+title: Manage the Mesh app in Microsoft Teams
 ms.author: tmilligan
 author: typride
 manager: tyadams
@@ -19,7 +19,7 @@ description: Learn how to set up immersive spaces for teams.
 ---
 
 
-# Set up immersive spaces in Teams
+# Manage the Mesh app in Microsoft Teams
 
 The Mesh app, which enables immersive spaces in Teams, is enabled by default in the Teams Admin Center. This allows users to change the [View in a Teams meeting to an immersive space](https://support.microsoft.com/en-us/office/get-started-with-immersive-spaces-in-microsoft-teams-4a6182f8-0f43-4c24-bb66-ef229fa221d8). However, unlike other apps in Teams, users don't need to search for or pin it in. Instead, they only access an immersive space in the View menu in any Microsoft Teams meeting.
 
@@ -78,9 +78,9 @@ In addition to the endpoints above, Mesh also requires the following outgoing po
 
 - UDP ports 3478-3481
 
-Mesh traffic uses IP addresses in the AzureCloud service tag.
-
-For more information about service tags, see the [Virtual network service tags](/azure/virtual-network/service-tags-overview).
+> [!IMPORTANT]
+>Mesh traffic uses IP addresses in the AzureCloud service tag.
+>For more information about service tags, see the [Virtual network service tags](/azure/virtual-network/service-tags-overview).
 
 ## Use app centric management for immersive spaces in Teams
 

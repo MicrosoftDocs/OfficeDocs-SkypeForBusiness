@@ -3,19 +3,21 @@ title: Deploy Microsoft Teams Rooms
 ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
-audience: ITPro
 ms.reviewer: kimmatlock
 ms.date: 08/29/2023
-ms.topic: quickstart
+ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-f1.keywords: 
-  - NOCSH
-ms.localizationpriority: medium
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
   - Tier1
+f1.keywords: 
+  - NOCSH
+ms.localizationpriority: medium
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Read this article to learn about how to deploy Microsoft Teams Rooms, including the deployment phases.
@@ -39,7 +41,7 @@ While the ordered devices are being delivered to your organization, work with yo
 
 You can find out more about these dependencies in the planning guidance links below:
 
-- [Check network availability](rooms-prep.md#check-network-availability)
+- [Check network availability](rooms-prep.md#confirm-network-configuration)
 - [Certificates](rooms-prep.md#certificates)
 - [Proxy](rooms-prep.md#proxy)
 

@@ -123,7 +123,7 @@ When you're setting up Communications Credits, you'll need to investigate call u
     > Even if you have users who are assigned an **Enterprise E5** license, it's still recommended that you do this.
 
     > [!TIP]
-    > You can use [Powershell](/powershell/module/skype/?view=skype-ps&preserve-view=true) to assign licenses and apps to multiple users with one command.
+    > You can use [Powershell](/powershell/module/teams/) to assign licenses and apps to multiple users with one command.
   
 ## For more information
 

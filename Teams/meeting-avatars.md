@@ -1,5 +1,5 @@
 ---
-title: Set up avatars for Microsoft Teams 
+title: Manage the Avatars app for Microsoft Teams 
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
@@ -18,7 +18,7 @@ ms.collection:
 description: Learn how to set up the avatars for Microsoft Teams app.
 ---
 
-# Set up avatars for Microsoft Teams
+# Manage the Avatars app in Microsoft Teams
 
 The Mesh app, which enables immersive spaces in Teams, is enabled by default in the Teams Admin Center. 
 

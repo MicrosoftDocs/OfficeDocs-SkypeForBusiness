@@ -39,7 +39,7 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 - **Voicemail** - the voice mailbox associated with a Microsoft 365 group that you specify. You can choose if you want voicemail transcriptions and the "Please leave a message after the tone." system prompt.
   - In Microsoft 365 admin center, enable **Let people outside the organization email this team** for the Microsoft 365 group that you specify.
 - **External phone number** - any phone number. See [external transfer technical details](create-a-phone-system-auto-attendant.md?tabs=general-info#external-phone-number-transfers---technical-details).
-- **Announcement (Audio file)** - Play an audio file. A recorded announcement message you upload that's saved as audio in .WAV, .MP3, or .WMA format. The recording can be no larger than 5 MB. The system plays the announcement, and then returns to the Auto attendant menu.
+- **Announcement (Audio file)** - Play an audio file. The system plays the announcement, and then returns to the Auto attendant menu. See [Supported audio file formats](plan-auto-attendant-call-queue.md#supported-audio-file-formats).
 - **Announcement (Typed)** - Type in a message. Text you want the system to read. You can enter up to 1000 characters. The system plays the announcement, and then returns to the Auto attendant menu.
 
 > [!NOTE]
@@ -54,7 +54,7 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 
 ## What's new for Auto attendants in the past six months
 
-- January 26 - Public Preview: [Support click-to-call web based calling](/azure/communication-services/quickstarts/voice-video-calling/get-started-teams-auto-attendant)
+- February 16 - [Support click-to-call web based calling](/azure/communication-services/quickstarts/voice-video-calling/get-started-teams-auto-attendant)
 
 ## Steps to create an Auto attendant
 
@@ -87,7 +87,7 @@ To set up an Auto attendant, in the [Teams admin center](https://admin.teams.mic
    > [!IMPORTANT]
    > When using *Text to Speech*, the text must be entered in the selected language as the system doesn't perform translation.
    >
-   > All words are pronouced in the selected language.
+   > All words are pronounced in the selected language.
 
 1. Choose if you want to enable voice inputs. When enabled, the name of every menu option becomes a speech-recognition keyword. For example, callers can say "One" to select the menu option mapped to key 1, or they can say "Sales" to select the menu option named "Sales." If you choose a language in Step 4 that doesn't support voice inputs, this option isn't available.
 
@@ -238,7 +238,7 @@ Once you've added resource accounts, select **Next**.
 
 ## Step 5: Authorized users
 
-**Authorized users** specifies the users who are authorized to make changes to this Auto attendant.  The capabilities that the users have is determined based on the [Teams voice applications policy](./manage-voice-applications-policies.md) that is assigned to the user.
+**Authorized users** specifies the users who are authorized to make changes to this Auto attendant.  The capabilities that the users have are determined based on the [Teams voice applications policy](./manage-voice-applications-policies.md) that is assigned to the user.
 
 To **add a user** to the authorized users:
 

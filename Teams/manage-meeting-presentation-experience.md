@@ -1,7 +1,7 @@
 ---
 title: Manage the meeting presentation experience for sensitive Teams meetings
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
@@ -31,7 +31,7 @@ Using Teams admin policies, sensitivity labels, and templates, you can control a
 
 Meeting organizers can specify many of theses settings when they create the meeting, but you can enforce specific options for different users and groups in your organization by using admin policies, or for different types or meetings by using sensitivity labels and templates. This can help you meet your compliance needs for different types of meetings and meetings where sensitive information is being shared.
 
-> [!Note]
+> [!NOTE]
 > Meeting settings in sensitivity labels and custom meeting templates require Teams Premium.
 
 ## Manage who can present
@@ -118,7 +118,7 @@ The following table shows settings that can help manage what content and video i
 
 **Screen sharing** is a teams admin policy. With this policy, you can control if meeting attendees can share their entire screen or only a single application. Sharing the entire screen can be convenient, but it can increase the chances of accidentally sharing inappropriate information such as an email or open document. Consider if you want to restrict sharing to a single application for users or departments that often present sensitive information. You can also turn off screen sharing entirely with this policy. For more information, see [Manage meeting policies for content sharing](meeting-policies-content-sharing.md).
 
-**Manage what attendees see** is an option available to meeting organizers that can also be set by using a template. When this option is enabled, meeting organizers can control what content is shared on screen and who's video is visible. Organizers must intentionally bring shared content and video on screen before attendees can see it. This can help minimize the risk of sharing inappropriate content in a meeting. Consider if you want to enable or enforce this experience for sensitive meetings by using a meeting template.
+**Manage what attendees see** is an option available to meeting organizers that can also be set by using a template. When this option is enabled, meeting organizers can control what content is shared on screen and who's video is visible. Organizers must intentionally bring shared content and video on screen before attendees can see it. This can help minimize the risk of sharing inappropriate content in a meeting. Consider if you want to enable or enforce this experience for sensitive meetings by using a meeting template. For more information, see [Manage what attendees see in Teams meetings](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16).
 
 ## Manage presentation tools
 

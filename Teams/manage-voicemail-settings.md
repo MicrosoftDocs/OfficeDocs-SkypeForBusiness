@@ -63,11 +63,11 @@ In the Teams admin center:
 
 You can also use PowerShell to manage voicemail settings as follows:
 
-- To manage Cloud Voicemail settings for individual users, use the  [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) cmdlet.
+- To manage Cloud Voicemail settings for individual users, use the  [Set-CsOnlineVoicemailUserSettings](/powershell/module/teams/set-csonlinevoicemailusersettings) cmdlet.
 
-- To view settings, use the [Get-CsOnlineVoicemailUserSettings](/powershell/module/skype/get-csonlinevoicemailusersettings) cmdlet.
+- To view settings, use the [Get-CsOnlineVoicemailUserSettings](/powershell/module/teams/get-csonlinevoicemailusersettings) cmdlet.
 
-- You can disable Cloud Voicemail for a user by using the [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) cmdlet and setting the VoicemailEnabled parameter to $false.
+- You can disable Cloud Voicemail for a user by using the [Set-CsOnlineVoicemailUserSettings](/powershell/module/teams/set-csonlinevoicemailusersettings) cmdlet and setting the VoicemailEnabled parameter to $false.
 
 ## Voicemail settings
 
@@ -82,8 +82,6 @@ You can also use PowerShell to manage voicemail settings as follows:
   - **Oof Greeting Enabled** - specifies whether the out-of-office greeting is played in voicemail deposit scenario, no matter Outlook settings.
 
   - **Oof Greeting Follow Automatic Replies Enabled** -  specifies whether to play out-of-office greeting in voicemail deposit scenario when user set automatic replies in Outlook.
-
-  - **Oof Greeting Follow Calendar Enabled** - specifies whether to play out-of-office greeting in voicemail deposit scenario when user set out-of-office in calendar.
 
   - **Default Oof Greeting Prompt Overwrite** -  specifies the text-to-speech greeting that is played in case the user is out-of-office and hasn't recorded an out-of-office  greeting.
 

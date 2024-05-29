@@ -51,12 +51,9 @@ If your organization no longer has any users hosted in on-premises Skype for Bus
 
 In each domain where you find any of the following records, update them as follows:
 
-|Record type|Name|TTL|Priority|Weight|Port|Value|
-|---|---|---|---|---|---|---|
-|SRV|_sipfederationtls._tcp|3600|100|1|5061|sipfed.online.lync.com|
-|SRV|_sip._tls|3600|100|1|443|sipdir.online.lync.com|
-|CNAME|lyncdiscover|3600|N/A|N/A|N/A|webdir.online.lync.com|
-|CNAME|sip|3600|N/A|N/A|N/A|sipdir.online.lync.com|
+|Record type |Name                   |TTL  |Priority|Weight|Port |Value                  |
+|------------|-----------------------|-----|--------|------|-----|-----------------------|
+|SRV         |_sipfederationtls._tcp |3600 |100     |1     |5061 |sipfed.online.lync.com |
 
 In addition, CNAME records for meet or dialin (if present) can be deleted. Finally, any DNS records for Skype for Business in your internal network should be removed.
 

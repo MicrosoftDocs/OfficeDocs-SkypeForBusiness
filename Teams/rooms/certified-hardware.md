@@ -2,20 +2,22 @@
 title: Teams Rooms certified systems and peripherals
 author: mstonysmith
 ms.author: tonysmit
+manager: pamgreen
 ms.reviewer: sohailta
 ms.date: 11/13/2023
-manager: pamgreen
-audience: ITPro
 ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-f1.keywords: 
-  - NOCSH
-ms.localizationpriority: medium
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
   - Tier3
+f1.keywords: 
+  - NOCSH
+ms.localizationpriority: medium
 ms.custom: 
   - seo-marvel-mar2020
 hideEdit: true
@@ -99,6 +101,8 @@ The following devices are Certified under the Microsoft Teams Rooms on Windows C
 | [Microsoft Surface Hub 3 85"](https://www.microsoft.com/surface/business/surface-hub-3) | Core i5 | 32 GB | 512 GB |
 | [Microsoft Surface Hub 2S 50" upgraded with the Surface Hub 3 Pack](https://www.microsoft.com/d/surface-hub-3-pack-for-business/8mf5qhhn1t4g) | Core i5 | 32 GB | 512 GB |
 | [Microsoft Surface Hub 2S 85" upgraded with the Surface Hub 3 Pack](https://www.microsoft.com/d/surface-hub-3-pack-for-business/8mf5qhhn1t4g) | Core i5 | 32 GB | 512 GB |
+| [Microsoft Surface Hub 2S 50" migrated to run the Teams Rooms on Windows experience](https://aka.ms/migrate-surface-hub-2s) | Core i5 | 8 GB | 128 GB |
+| [Microsoft Surface Hub 2S 85" migrated to run the Teams Rooms on Windows experience](https://aka.ms/migrate-surface-hub-2s) | Core i5 | 8 GB | 128 GB |
 | [Poly G10-T with Lenovo ThinkSmart Tiny](https://www.poly.com/us/en/products/video-conferencing/g/g10) | Core i5 | 8 GB | 128 GB |
 | [Poly G40-T Kit with Poly Studio USB, with Lenovo](https://www.poly.com/us/en/support/products/video-conferencing/poly-room-solutions/g40) | Core i5 | 8 GB | 128 GB |
 | [Poly G85-T Kit with Poly Eagle Eye Director II, with Lenovo](https://www.poly.com/us/en/support/products/video-conferencing/poly-room-solutions/g85) | Core i5 | 8 GB | 128 GB |
@@ -127,7 +131,6 @@ The following devices are Certified under the Microsoft Teams Rooms on Windows C
 | [Yealink MVC S90](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvcs90) | Core i5 | 8 GB | 128 GB |
 | [Yealink MVC 960](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvc960) | Core i5 | 8 GB | 128 GB |
 
-
 ## [Teams Rooms for Android](#tab/Android)
 
 The following devices are certified under the Microsoft Teams Rooms on Android Certification Program:
@@ -136,42 +139,40 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Current certification end date | Room size | Android OS version |
 |:-|:-|:-|:-|:-|
+| Neat Bar Gen2 | `NFA1.20231116.0626 ` |  September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
+| DTEN DCR200 Bar | `1.0.2` |  October 4, 2026 |  Small size room (4.5 m x 4.5 m) | 12 |
+| Cisco Room Kit EQX | `RoomOS11.15` | September 3, 2025 |  Large Meeting Room (4.5m x 8.5 m)| 11 |
+| Cisco Board Pro G2 55 | `RoomOS11.15` | September 3, 2025 |  Medium size room (4.5 m x 6 m) | 11 |
+| Cisco Board Pro G2 75 | `RoomOS11.15` | September 3, 2025 |  Medium size room (4.5 m x 6 m) | 11 |
 | AudioCodes RXV200 | `2.2.335` | September 3, 2025 |  Focus room(3 m x 3 m) | 10 |
+| Audiocodes RXPad Touch console | `2.0.282` | October 4, 2026 | Compatible with Audiocodes RXV81 and RXV200 Collaboration bars. | 12 |
+| Audiocodes RXV81 Collaboration Bar | `2.0.0` | October 4, 2026 | Small meeting room (4.5 m x 4.5 m) | 12 |
 | Cisco Room Bar Pro | `RoomOS11.9` | September 3, 2025 |  Medium size room (4.5 m x 6 m) | 11 |
-| DTEN D7X 75" | `1.2.8` |  October 4, 2026 |  Medium size room (4.5 m x 6 m) | 12 |
-| DTEN_MATE | `2.0.2.0` | Septmber 3, 2024 |  Compatible with DTEN D7X 55" and DTEN D7X 75" Meeting Board | 10 |
-| Logitech Rally Bar Huddle  | `0.903.73` | September 3, 2025 | Focus room(3 m x 3 m) | 11 |
-| Yealink DeskVision A24 | `156.15.0.29` | September 3, 2025 | Phone room (2 m x 2 m) | 10 |
-| Jabra Panacast 50 VBS | `1.1.0-1` | September 3, 2024 | Medium size room (4.5 m x 6 m) | 10 |
-| Jabra Panacast 50 TC | `1.1.0-1` | September 3, 2024 | Compatible with Jabra Panacas 50 VBS | 10 |
+| Cisco Board Pro 55 | `11.3.1.13` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 11 |
+| Cisco Board Pro 75 | `11.3.1.13` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 11 |
 | Cisco Room Kit EQ | `RoomOS11.5` | September 3, 2025 | Large rooms (4.5 m x 8.5 m) | 11 |
 | Cisco Room Kit Pro | `RoomOS11.5` | September 3, 2025 | Large rooms (4.5 m x 8.5 m) | 11 |
 | Cisco Room Bar | `RoomOS11.5` | September 3, 2025 | Small Meeting Room (4.5 m x 4.5 m) | 11 |
 | Cisco Desk Pro | `RoomOS11.5` | September 3, 2025 | Focus Room | 11 |
 | Cisco Room Navigator | `RoomOS11.5` | October 4, 2026 | Compatible with Cisco Room Bar and Cisco Room Kit Pro | 12 |
-| Audiocodes RXPad Touch console | `2.0.282` | October 4, 2026 | Compatible with Audiocodes RXV81 and RXV200 Collaboration bars. | 12 |
-| Yealink CTP18 touch console | `137.320.0.29` | September 3, 2024 | Compatible with Yealink MeetingBar A20 and Yealink MeetingBar A30 | 10 |
-| Audiocodes RXV81 Collaboration Bar | `2.0.0` | October 4, 2026 | Small meeting room (4.5 m x 4.5 m) | 12 |
+| DTEN D7X 75" | `1.2.8` |  October 4, 2026 |  Medium size room (4.5 m x 6 m) | 12 |
+| DTEN Mate Touch Console | `2.0.2.0` | Septmber 3, 2025 |  Compatible with DTEN DCR200 Bar, DTEN D7X 55" and DTEN D7X 75" Meeting Board | 10 |
 | DTEN D7X 55" | `1.2.2` | October 4, 2026 | Small meeting room (4.5 m x 4.5 m) | 12 |
-| Cisco Board Pro 55 | `11.3.1.13` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 11 |
-| Cisco Board Pro 75 | `11.3.1.13` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 11 |
 | EPOS Expand 5T | `1.2.22362.04` | September 3, 2025 | Small meeting room (4.5 m x 4.5 m) | 10 |
-| EXPAND Control Touch Console | `1.2.22250.08` | September 3, 2024 | Compatible with EPOS Expand 5T Collaboration Bar. | 10 |
-| Yealink MeetingBar A10 | `278.15.0.6` | September 3, 2025 | Small meeting room (4.5 m x 4.5 m) | 11 |
-| Logitech Tap IP with RoomMate | `1.6.565` | September 3, 2024 | Compatible with Logitech RoomMate, Rally Bar, and Rally Bar Mini | 10 |
-| Yealink MeetingBoard 86" | `155.15.0.10` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
-| Yealink MeetingBoard 65" | `155.15.0.6` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
-| Yealink MeetingBar A20 | `133.15.0.108` | September 3, 2025 | Small meeting room(4.5 m x 4.5 m) | 10 |
-| Yealink MeetingBar A30 | `133.15.0.108` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
-| Neat Bar Pro | `NFD1.20220914.1210` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
-| Neat Bar | `NFF1.20220914.1210` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
-| Neat Pad Touch Console | `NFA1.20230928.0108` | September 3, 2024 | Compatible with Neat Bar, Neat Bar Pro and Neat Bar Gen2| 10 |
-| Neat Board | `NFC1.20220914.1210` | September 3, 2025 | Small Meeting Room (4.5 m x 4.5 m) | 10 |
-| Neat Board 50 |`NFH1.20230824.0001` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
+| EPOS EXPAND Control Touch Console | `1.2.22250.08` | September 3, 2025 | Compatible with EPOS Expand 5T Collaboration Bar. | 10 |
+| :::no-loc text="Jabra"::: :::no-loc text="Panacast"::: 50 VBS | `1.1.0-1` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
+| :::no-loc text="Jabra"::: :::no-loc text="Panacast"::: 50 Touch Console | `1.1.0-1` | September 3, 2025 | Compatible with :::no-loc text="Jabra"::: :::no-loc text="Panacast"::: 50 VBS | 10 |
+| Logitech Rally Bar Huddle  | `0.903.73` | September 3, 2025 | Focus room(3 m x 3 m) | 11 |
+| Logitech Tap IP | `1.6.565` | September 3, 2025 | Compatible with Logitech RoomMate, Rally Bar, and Rally Bar Mini | 10 |
 | Logitech Roommate | `1.4.71` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
-| Logitech Tap Device | `1.2.982` | September 3, 2024 | Compatible with Logitech Rally Bar and Rally Bar Mini | 10 |
+| Logitech Tap USB Touch Console | `1.2.982` | September 3, 2025 | Compatible with Logitech Rally Bar, Rally Bar Mini and Roommate | 10 |
 | Logitech Rally Bar Mini | `1.2.982` | September 3, 2025 | Small Meeting Room (4.5 m x 4.5 m) | 10 |
 | Logitech Rally Bar | `1.2.788` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
+| Neat Bar Pro | `NFD1.20220914.1210` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
+| Neat Bar | `NFF1.20220914.1210` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
+| Neat Pad Touch Console | `NFA1.20230928.0108` | September 3, 2025 | Compatible with Neat Bar Gen 2, Neat Bar, Neat Bar Pro & Neat Board | 10 |
+| Neat Board | `NFC1.20220914.1210` | September 3, 2025 | Small Meeting Room (4.5 m x 4.5 m) | 10 |
+| Neat Board 50 |`NFH1.20230824.0001` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Poly Studio X30 | `4.0.0.100885` | September 3, 2025 | Small meeting room(4.5 m x 4.5 m) | 10 |
 | Poly Studio X50 | `4.0.0.100885` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Poly Studio X70 | `4.0.0-376092` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
@@ -180,6 +181,13 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Poly TC10 | `4.1.0-211075` | September 3, 2025 |Compatible with Poly Studio X30, Poly Studio X50, Poly Studio X70, Poly Studio X52 and Poly G7500| 11 |
 | Poly Studio X52 | `4.1.0.382110` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Poly G7500 + Shure Large Room Kit | `4.0.1` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
+| Yealink DeskVision A24 | `156.15.0.29` | September 3, 2025 | Phone room (2 m x 2 m) | 10 |
+| Yealink CTP18 touch console | `137.320.0.29` | September 3, 2025 | Compatible with Yealink MeetingBar A20 and Yealink MeetingBar A30 | 10 |
+| Yealink MeetingBar A10 | `278.15.0.6` | September 3, 2025 | Small meeting room (4.5 m x 4.5 m) | 11 |
+| Yealink MeetingBar A20 | `133.15.0.108` | September 3, 2025 | Small meeting room(4.5 m x 4.5 m) | 10 |
+| Yealink MeetingBar A30 | `133.15.0.108` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
+| Yealink MeetingBoard 86" | `155.15.0.10` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
+| Yealink MeetingBoard 65" | `155.15.0.6` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 
 ## [Rooms devices for Windows](#tab/Devices)
 
@@ -197,6 +205,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Aver CAM 570](https://www.averusa.com/products/conference-camera/cam570) | 0.0.8100.98 |  |  | 
 | [Aver CAM 520 Pro](https://www.averusa.com/products/conference-camera/cam520pro) | 0.0.1000.73 |  |  |
 | [Aver CAM 520 Pro 2](https://www.averusa.com/products/conference-camera/cam520pro2) | 0.0.7200.3 |  |  |
+| [Aver CAM 520 Pro 3](https://www.averusa.com/products/conference-camera/cam520pro3) | 0.0.9601.09 |  |  |
 | [Aver CAM 130](https://www.averusa.com/products/conference-camera/cam130) | 0.0.7450.02 | &#x2714; |  |
 | [Aver Fone540](https://www.averusa.com/products/vc-accessories/fone540) | 0.0.7002.17 |  |  |
 | Aver VB130 Camera Soundbar | 0.0.7300.71 |  |  |
@@ -211,7 +220,12 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Biamp Parlé VBC 2500 & Parlé VBC 2500a Conferencing Video Bars](https://www.biamp.com/products/product-families/parle/conferencing-bars) | 1.3.0 |  |  |
 | [Biamp Parlé ABC 2500 & Parlé ABC 2500a Conferencing Audio Bars](https://www.biamp.com/products/product-families/parle/conferencing-bars) | 1.3.0 |  |  |
 | [:::no-loc text="Crestron Huddly"::: IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400) | 1.02.09.33901 |  |  |
-| Crestron 1Beyond- Crestron Automate VX Plus: [Automate VX Plus (IV-SAM-VXN-1B)](https://www.crestron.com/Products/Workspace-Solutions/Intelligent-Video/1-Beyond-Intelligent-Video/IV-SAM-VXN-1B), [INOGENI (SDI2USB3) converter](https://inogeni.com/product/sdi2usb3/), [AutoTracker (IV-CAMA3-20) presenter tracking camera](https://www.crestron.com/Products/Workspace-Solutions/Intelligent-Video/1-Beyond-Intelligent-Video/IV-CAMA3-20-N-W-1B), [Optical PTZ (IV-CAMPTZ) camera](https://www.crestron.com/Products/Workspace-Solutions/Intelligent-Video/1-Beyond-Intelligent-Video/IV-CAMPTZ-12-W-1B) | Automate VX Plus: Version 5.11.8580.20169 </br> INOGENI SDI1USB3: Version 8.39 </br> IV-CAMA30: Version 5.1.82 </br> IV-CAMPTZ: Version 3.1.20 |  |  |
+| Crestron 1Beyond- Crestron Automate VX Plus: [Automate VX Plus (IV-SAM-VXN-1B)](https://www.crestron.com/Products/Workspace-Solutions/Intelligent-Video/1-Beyond-Intelligent-Video/IV-SAM-VXN-1B), [INOGENI (SDI2USB3) converter](https://inogeni.com/product/sdi2usb3/), [AutoTracker (IV-CAMA3-20) presenter tracking camera](https://www.crestron.com/Products/Workspace-Solutions/Intelligent-Video/1-Beyond-Intelligent-Video/IV-CAMA3-20-N-W-1B), [Optical PTZ (IV-CAMPTZ) camera](https://www.crestron.com/Products/Workspace-Solutions/Intelligent-Video/1-Beyond-Intelligent-Video/IV-CAMPTZ-12-W-1B) | Automate VX Plus: Version 5.11.8580.20169 </br> INOGENI SDI2USB3: Version 8.39 </br> IV-CAMA30: Version 5.1.82 </br> IV-CAMPTZ: Version 3.1.20 |  |  |
+| [Crestron 1 Beyond p20 PTZ camera (IV-CAM-P20)](https://www.crestron.com/Products/Workspace-Solutions/Intelligent-Video/1-Beyond-Intelligent-Video/IV-CAM-P20-B) | 1.0.19 |  |  |
+| [Crestron 1 Beyond p12 PTZ camera (IV-CAM-P12)](https://www.crestron.com/Products/Workspace-Solutions/Intelligent-Video/1-Beyond-Intelligent-Video/IV-CAM-P12-B) | 1.0.19 |  |  |
+| [Crestron 1 Beyond i20 PTZ camera (IV-CAM-I20)](https://www.crestron.com/Products/Workspace-Solutions/Intelligent-Video/1-Beyond-Intelligent-Video/IV-CAM-I20-B) | 1.0.22 |  |  |
+| [Crestron 1 Beyond i12 PTZ camera (IV-CAM-I12)](https://www.crestron.com/Products/Workspace-Solutions/Intelligent-Video/1-Beyond-Intelligent-Video/IV-CAM-I12-B) | 1.0.22 |  |  |
+| [Crestron Flex Hub](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Conferencing-Audio/UC-AUDIO-HUB-DR1) + [Crestron Flex Pods](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Conferencing-Audio/UC-AUDIO-POD-B-DR1) | 1.13.0113 |  |  |
 | HP Presence See Camera | 1.0.23.0 |  |  |
 | [:::no-loc text="Huddly"::: Canvas](https://www.huddly.com/conference-cameras/canvas/) | 1.3.25 | &#x2714; |  |
 | [Huddly Crew AI-directed multi-camera system](https://www.huddly.com/conference-cameras/crew/) | 1.5.19 |  |  |
@@ -253,10 +267,11 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Nureva HDL310](https://www.nureva.com/audio-conferencing/hdl310) | 1.5.0.0 |  |  |
 | [Nureva HDL410](https://www.nureva.com/audio-conferencing/hdl410) | 1.5.243554 |  |  |
 | [Panasonic 360 degree camera speakerphone PressIT360](https://panasonic.net/cns/prodisplays/products/ty-csp1/) | 0.0.7904.54 |  |  |
+| [Pansonic AW-UE4 camera](https://pro-av.panasonic.net/products/aw-ue4/) | 02.03 |  |  |
 | [Poly Eagle Eye Cube Camera](https://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.html) | 1.2.0 |  |  |
 | [Polycom EagleEye IV](https://www.poly.com/us/en/products/video-conferencing/eagleeye/eagleeye-iv) | 1.0.0 |  |  |
 | [Polycom CX5100](https://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.md) | 1.2.0.70232 |  |  |
-| [Polycom Eagle Eye Director II](https://www.poly.com/us/en/support/products/video-conferencing/enterprise-cameras/eagleeye-director-ii) | 2.1.0.10 |  |  |
+| [Polycom Eagle Eye Director II](https://www.poly.com/us/en/products/video-conferencing/eagleeye/eagleeye-director-ii) | 2.1.0.10 |  |  |
 | [Polycom Studio Soundbar](https://www.polycom.com/hd-video-conferencing/room-video-systems/polycom-studio.html) | 1.1.2.000570 |  |  |
 | [Poly Sync 40](https://www.poly.com/us/en/products/phones/sync/sync-40) | 0.0.94.1461 |  |  |
 | [Poly Sync 60](https://www.poly.com/us/en/products/phones/sync/sync-60) | 0.0.150.1671 |  |  |
@@ -278,15 +293,15 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [:::no-loc text="Jabra"::: 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710) | 1.8.0 |  |  |
 | [:::no-loc text="Jabra"::: 810](http://www.jabra.com/supportpages/jabra-speak-810) | 1.2.23 |  |  |
 | [Yealink CP900](https://www.yealink.com/products_150.html) | 100.20.0.29 |  |  |
-| [Yealink SmartVision 60](https://www.yealink.com/en/product-detail/smartvision60) | 279.410.0.74 |  |  |
+| [Yealink SmartVision 60](https://www.yealink.com/en/product-detail/smartvision60) | 279.410.0.74 |  | &#x2714; |  | &#x2714; |
 | [Yealink UVC30](https://www.yealink.com/product/microsoft-teams-room-system-uvc30) | 105.420.0.11 | &#x2714; |  |
 | [Yealink UVC34 All-in-one video bar](https://www.yealink.com/product/usb-videobar-uvc34) | 265.410.0.9 |  |  |
 | [Yealink UVC40 All-in-one Video bar](https://www.yealink.com/product/usb-videobar-uvc40) | 128.410.0.10 |  |  |
 | [Yealink UVC84](https://www.yealink.com/product/camera-uvc84) | 262.410.0.10 |  |  |
 | [Yealink UVC86]( https://www.yealink.com/product/camera-uvc86) | 151.410.0.5 |  |  |
 | Yealink MSpeech | 136.410.0.19 |  |  |  | &#x2714; |
-| Shure Microflex Ecosystem:  [MXA910 Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910?variant=MXA910AL-60CM) or [MXA920 Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa920?variant=MXA920W-S) or [MXA901 Conferencing Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa901?variant=MXA901W-R) or [MXA902 Integrated Conferencing Ceiling Array](https://www.shure.com/products/microphones/mxa902?variant=MXA902W-S) or [MXA710 Linear Array Microphone](https://www.shure.com/products/microphones/mxa710?variant=MXA710AL-2FT%2520) or [MXA310 Table Array Microphone](https://www.shure.com/products/microphones/mxa310?variant=MXA310AL) + </br>Shure [IntelliMix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300?variant=P300-IMX) or [ANIUSB-MATRIX Network Interface](https://www.shure.com/products/mixers/aniusb-matrix?variant=ANIUSB-MATRIX) + </br>Shure [MXN5W-C Ceiling Speaker](https://www.shure.com/products/loudspeakers/mxn5?variant=MXN5W-C) | MXA910: FW 4.1, MXA920: FW 1.1.56, MXA901: FW 6.0.15.0, MXA902: FW 5.0.115, MXA710: FW 1.2.0, MXA310: FW 4.1, </br> P300: FW 4.1, ANIUSB-MATRIX: FW 4.7.21, </br> MXN5W-C: FW 1.0.4 |  |  |
-|Shure Microflex Ecosystem: [MXA910 Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910?variant=MXA910AL-60CM) or [MXA920 Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa920?variant=MXA920W-S) or [MXA901 Conferencing Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa901?variant=MXA901W-R) or [MXA902 Integrated Conferencing Ceiling Array](https://www.shure.com/products/microphones/mxa902?variant=MXA902W-S) or [MXA710 Linear Array Microphone](https://www.shure.com/products/microphones/mxa710?variant=MXA710AL-2FT%2520) or [MXA310 Table Array Microphone](https://www.shure.com/products/microphones/mxa310?variant=MXA310AL) + </br>[Shure IntelliMix Room Software DSP](https://www.shure.com/products/software/intellimix_room) on Crestron UC-C100-T with :::no-loc text="ASUSTeK"::: Computer INC 9934 Compute or Dell OptiPlex7080XE or on Lenovo ThinkSmart Core + </br>[Shure MXN5W-C Ceiling Speaker](https://www.shure.com/products/loudspeakers/mxn5?variant=MXN5W-C) | MXA910: FW 4.1, MXA920: FW 1.1.56, MXA901: FW 6.0.15.0, MXA902: FW 5.0.115, MXA710: FW 1.2.0, MXA310: FW 4.1, </br>MXN5W-C: FW 1.0.4 |  |  |
+| Shure Microflex Ecosystem<sup>1</sup>:  [MXA910 Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910?variant=MXA910AL-60CM) or [MXA920 Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa920?variant=MXA920W-S) or [MXA901 Conferencing Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa901?variant=MXA901W-R) or [MXA902 Integrated Conferencing Ceiling Array](https://www.shure.com/products/microphones/mxa902?variant=MXA902W-S) or [MXA710 Linear Array Microphone](https://www.shure.com/products/microphones/mxa710?variant=MXA710AL-2FT%2520) or [MXA310 Table Array Microphone](https://www.shure.com/products/microphones/mxa310?variant=MXA310AL) + </br>Shure [IntelliMix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300?variant=P300-IMX) or [ANIUSB-MATRIX Network Interface](https://www.shure.com/products/mixers/aniusb-matrix?variant=ANIUSB-MATRIX) + </br>Shure [MXN5W-C Ceiling Speaker](https://www.shure.com/products/loudspeakers/mxn5?variant=MXN5W-C) | MXA910: FW 4.1, MXA920: FW 1.1.56, MXA901: FW 6.0.15.0, MXA902: FW 5.0.115, MXA710: FW 1.2.0, MXA310: FW 4.1, </br> P300: FW 4.1, ANIUSB-MATRIX: FW 4.7.21, </br> MXN5W-C: FW 1.0.4 |  |  |
+|Shure Microflex Ecosystem<sup>1</sup>: [MXA910 Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910?variant=MXA910AL-60CM) or [MXA920 Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa920?variant=MXA920W-S) or [MXA901 Conferencing Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa901?variant=MXA901W-R) or [MXA902 Integrated Conferencing Ceiling Array](https://www.shure.com/products/microphones/mxa902?variant=MXA902W-S) or [MXA710 Linear Array Microphone](https://www.shure.com/products/microphones/mxa710?variant=MXA710AL-2FT%2520) or [MXA310 Table Array Microphone](https://www.shure.com/products/microphones/mxa310?variant=MXA310AL) + </br>[Shure IntelliMix Room Software DSP](https://www.shure.com/products/software/intellimix_room) on Crestron UC-C100-T with :::no-loc text="ASUSTeK"::: Computer INC 9934 Compute or Dell OptiPlex7080XE or on Lenovo ThinkSmart Core + </br>[Shure MXN5W-C Ceiling Speaker](https://www.shure.com/products/loudspeakers/mxn5?variant=MXN5W-C) | MXA910: FW 4.1, MXA920: FW 1.1.56, MXA901: FW 6.0.15.0, MXA902: FW 5.0.115, MXA710: FW 1.2.0, MXA310: FW 4.1, </br>MXN5W-C: FW 1.0.4 |  |  |
 | [Sennheiser TeamConnect Intelligent Speaker/TC ISP (T-Rock)](https://en-us.sennheiser.com/tcisp) | 1.0.6 |  |  |  | &#x2714; |
 | [Biamp Tesira Fore AVB VT4 Fixed audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br>[Sennheiser TeamConnect Ceiling 2 Microphone](https://sennheiser.com/tcc2)+ &Dagger;</br>[Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; | Biamp DSP: 3.12.0.15 </br> TCC2: 1.3.3 </br>EX-UBT: 3.12.0.15 |  |  |
 | [Biamp Tesira FORTÉ AVB VT4 Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+</br>[Biamp Parlé TCM-XA Ceiling Microphone](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br>[Biamp Desono C-IC6 ceiling mounted loudspeaker](https://www.biamp.com/products/tesira-speakers) | Audio FW version: 3.15 |  |  |
@@ -310,6 +325,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Yamaha YVC-1000MS](https://europe.yamaha.com/en/products/unified_communications/speakerphones/yvc-1000ms/index.html) | 1.0.0 |  |  |
 
 &Dagger; Customers may choose either the Dante interface or the network switch recommended by Biamp/Sennheiser for this bundle.
+<sup>1</sup> On a Teams Rooms device that is paired with a Shure microphone, the audio setting displayed on the device doesn't sync with the setting on the microphone in meetings that don't use Microsoft Teams.
 
 ### USB extenders
 

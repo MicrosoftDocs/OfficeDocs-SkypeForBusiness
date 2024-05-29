@@ -1,7 +1,7 @@
 ---
 title: Manage meeting policies for content sharing
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
@@ -43,14 +43,14 @@ To change a content sharing setting
 
 #### Use PowerShell to configure content sharing
 
-You can also use the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet to control the content sharing settings. Set the following parameters:
+You can also use the [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet to control the content sharing settings. Set the following parameters:
 
 - ScreenSharingMode
 - AllowPowerPointSharing
 - AllowWhiteboard
 - AllowSharedNotes
 
-[Learn more about using the csTeamsMeetingPolicy cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy).
+[Learn more about using the csTeamsMeetingPolicy cmdlet](/powershell/module/teams/set-csteamsmeetingpolicy).
 
 ## Screen sharing mode
 
@@ -61,6 +61,20 @@ This setting is a per-user policy. The setting controls whether a user can share
 |**Entire screen**    | Full desktop sharing and application sharing are allowed in the meeting. |
 |**Single application**   | Application sharing is allowed in the meeting. If your users are using Teams in a web browser and are assigned this value, this setting functions as **Not enabled**.  |
 |**Not enabled**     |Screen sharing and application sharing turned off in the meeting.       |
+
+## Live Share
+
+Users can edit a document from within the Teams meeting window. This allows real time coauthoring in the context of a meeting.
+
+You can turn this feature on or off in the Teams admin center through **Meetings** > **Meeting policies** > **Live Share**.
+
+You can also configure the setting by using PowerShell:
+
+- **Policy name**: CSTeamsMeetingPolicy
+
+- **Setting name**: AllowDocumentCollaboration
+
+- **Setting type**: true/false
 
 ### PowerPoint Live
 
@@ -104,7 +118,7 @@ For information for your end users about how to use Whiteboard, see [Use Whitebo
 
 Before trying to use Microsoft Whiteboard, make sure that the Whiteboard app is installed on your Surface Hub device. If Whiteboard isn't installed, on the Surface Hub device, go to the Microsoft Store app, and get [Microsoft Whiteboard](https://www.microsoft.com/p/microsoft-whiteboard/9mspc6mp8fm4?activetab=pivot:overviewtab). For more information, see [Enable Microsoft Whiteboard on Surface Hub](https://support.office.com/article/enable-microsoft-whiteboard-on-surface-hub-b5df4539-f735-42ff-b22a-0f5e21be7627).
 
-#### Annotations
+#### Collaborative Annotations
 
 When whiteboard is enabled, users can use annotations, a feature that allows participants to collaborate while sharing their screen in a Teams meeting. If Whiteboard isn't enabled, users don't have access to annotations.
 
@@ -140,7 +154,7 @@ Let's look at the following example.
 
 Daniela can take notes in Amanda's meetings and Amanda can't take notes in any meetings.
 
-## Related topics
+## Related articles
 
 [Teams policy reference - Content sharing](settings-policies-reference.md#content-sharing)
 

@@ -109,4 +109,3 @@ Now you're ready to manage Microsoft Teams using Microsoft Teams PowerShell. See
 
 [Microsoft Teams cmdlet reference](/powershell/teams/)
 
-[Skype for Business cmdlet reference](/powershell/skype/intro)

@@ -3,13 +3,16 @@ title: Set up an Android mobile phone as a common area phone
 ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
+ms.reviewer: vijagan
+ms.date: 08/25/2023
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
-ms.reviewer: vijagan
-ms.date: 08/25/2023
-audience: admin
+audience: Admin
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
+  - teams-rooms-devices
   - M365-collaboration
   - Teams_ITAdmin_Devices
   - Tier1
@@ -24,7 +27,7 @@ description: Learn how to set up common area Android phones
 
 # Set up an Android mobile phone as a common area phone
 
-A Teams Android mobile app singed in with an account tied to **Microsoft Teams Shared Device** license is used as a shared device by frontline workers to make and receive calls as part of their daily work using Teams.
+A Teams Android mobile app signed in with an account tied to **Microsoft Teams Shared Device** license is used as a shared device by frontline workers to make and receive calls as part of their daily work using Teams.
 
   > [!IMPORTANT]
   > To use this feature you must have version 1.0.0.2023143401 (2023143401) or later installed on the Android mobile phone. 

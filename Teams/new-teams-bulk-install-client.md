@@ -61,7 +61,6 @@ For new Teams to be successfully installed, computers must meet the minimum requ
 |Office |Microsoft 365 Apps or Office LTSC 2021 Learn more: [Office versions and connectivity to Microsoft 365 services](/deployoffice/endofsupport/microsoft-365-services-connectivity)|
 |Settings|Turn on the "Show Notification Banners" setting in **System > Notifications > Microsoft Teams** to receive Teams Notifications.|
 |Webview2|Update to the most current version. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise)|
-|App sideloading enabled|Ensure that sideloading is enabled on every computer you install on.  Learn more: [Sideload line of business (LOB) apps in Windows client devices](/windows/application-management/sideload-apps-in-windows-10)
 |Delivery optimization (DO)|DO powers Teams automatic updates, which are required as part of the [Servicing Agreement](/microsoftteams/new-teams-automatic-upgrade-announced#servicing-agreement).</br></br>Overview: [What is Delivery Optimization?](/windows/deployment/do/waas-delivery-optimization)</br></br>Recommended settings: [Set up Delivery Optimization](/windows/deployment/do/waas-delivery-optimization-setup#recommended-delivery-optimization-settings)<br></br>**Note:** Download Mode 100 (Bypass) isn't supported.|
 
 >[!Note]
@@ -112,18 +111,35 @@ Admins can also use a local teams MSIX to provision new Teams. This option minim
 To deploy this installer to a group of computers, or your entire organization, follow these steps:
 
 1. [Download the .exe installer](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409). If you have downloaded this file previously confirm you have the latest version by comparing the properties on each file.
-2. Use [Intune](/mem/intune/fundamentals/what-is-intune), [Microsoft Endpoint Configuration Manager](/configmgr/core/understand/introduction), [Group Policy](/troubleshoot/windows-server/group-policy/use-group-policy-to-install-software), or third-party distribution software, to distribute the installer to your target computers.
+2. Use [Intune](/mem/intune/apps/apps-add-office365), [Microsoft Endpoint Configuration Manager](/configmgr/core/understand/introduction), [Group Policy](/troubleshoot/windows-server/group-policy/use-group-policy-to-install-software), or third-party distribution software, to distribute the installer to your target computers.
 3. Run the installer on each computer.
 
-> [!NOTE]
-> If the customer tenant is on the GCCH, DoD, or Gallatin, the customer may need to set the initial cloud endpoint through the registry key listed. Setting the endpoint with the registry key restricts teams to connecting to the correct cloud endpoint for pre-sign-in connectivity with Teams, as shown in the following:
->
-> ```console
-> HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams
-> Value = CloudType
-> value type = DWORD
->   1 = Commercial, 2 = GCC, 3 = GCCH, 4 = DOD, 7 = Gallatin
-> ```
+##### Gov cloud updates for PC and Mac
+
+###### PC update
+
+If the customer tenant is on the GCCH, DoD, or Gallatin, the customer may need to set the initial cloud endpoint through the registry key listed below. Setting the endpoint with the registry key restricts teams to connecting to the correct cloud endpoint for pre-sign-in connectivity with Teams, as shown in the following:
+
+```console
+HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams
+Value = CloudType
+value type = DWORD
+  1 = Commercial, 2 = GCC, 3 = GCCH, 4 = DOD, 7 = Gallatin
+```
+
+###### Mac update
+
+If the customer tenant is on the GCCH, DoD, or Gallatin, the customer may need to set the initial cloud endpoint through the .plist configuration key listed below. Setting the endpoint with the .plist configuration restricts teams to connecting to the correct cloud endpoint for pre-sign-in connectivity with Teams, as shown in the following:
+
+```console
+Domain: com.microsoft.teams2
+Key: CloudType
+Data Type: Int
+Value: {Enter number associated with the cloud}
+  1 = Commercial, 2 = GCC, 3 = GCCH, 4 = DOD, 7 = Gallatin
+```
+
+The .plist configuration can be propagated to managed devices using Intune as described in [Add preference file settings to macOS devices in Microsoft Intune](/mem/intune/configuration/preference-file-settings-macos).
 
 ## Step 2: Set new Teams as the default
 
@@ -166,5 +182,5 @@ After new Teams is deployed to your target computers, users will sign in as usua
 **Option 2:** Users can directly launch new Teams:
 
 1. In Windows, select **Start** **> new Microsoft Teams**.
-2. Select "Yes" at the confirmation prompt screen. 
+2. Select "Yes" at the confirmation prompt screen.
 3. Once confirmed, the new Teams launches and is the default version.

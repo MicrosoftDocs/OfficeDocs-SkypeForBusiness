@@ -3,7 +3,7 @@ title: Plan for Teams Phone Mobile
 author: CarolynRowe
 ms.author: crowe
 manager: pamgreen
-ms.date: 08/10/2023
+ms.date: 02/14/2024
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -25,15 +25,17 @@ appliesto:
 
 # Plan for Teams Phone Mobile
 
+This article is for administrators and IT professionals who are evaluating Teams Phone Mobile. This article describes Teams Phone Mobile benefits and requirements.
+
+Teams Phone Mobile is another option for providing Public Switched Telephone Network (PSTN) connectivity with Microsoft Teams Phone. With Teams Phone Mobile, a user’s SIM-enabled phone number is also their Teams phone number. The users in your organization can use a single phone number in Microsoft Teams across both their mobile service and desk lines, and seamlessly transition between networks and devices.
+
 For a list of operators participating in the Microsoft Teams Phone Mobile program and the countries or regions where their service is available, see [Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/teams-phone-mobile).
 
-Teams Phone Mobile is another option for providing Public Switched Telephone Network (PSTN) connectivity with Microsoft Teams and Phone System. With Teams Phone Mobile, a user’s SIM-enabled phone number is also their Teams phone number. Users can use a single phone number in Microsoft Teams across both their mobile service and desk lines, and seamlessly transition between networks and devices.
-
-Teams Phone Mobile can play a key role in your organization's strategy to enable a truly mobile workforce, providing more flexible and efficient mobile-centric user experiences along with enterprise-grade security and compliance settings.
+Teams Phone Mobile can play a key role in your organization's strategy to enable a mobile workforce, providing more flexible and efficient mobile-centric user experiences along with enterprise-grade security and compliance settings.
 
 You might consider a combination of voice services. For example, you might choose Teams Phone Mobile for your sales and field organizations that require mobile support, but another solution for your onsite call center organization that relies on desk phones. For more information about Teams voice solutions and PSTN connectivity options, see [Plan your Teams voice solution](cloud-voice-landing-page.md) and [PSTN connectivity options](pstn-connectivity.md). 
 
-This article describes Teams Phone Mobile benefits and requirements. Teams Phone Mobile might be the right solution for your organization if:
+ Teams Phone Mobile might be the right solution for your organization if:
 
 -	You want to use a primary company-owned, SIM-enabled mobile number for Teams Phone as a single number solution.
 
@@ -42,7 +44,6 @@ This article describes Teams Phone Mobile benefits and requirements. Teams Phone
 -	You want to find a new operator to enable calling in Teams.
 
 If you decide Teams Phone Mobile is the right solution for your organization, after reading this article, see [Configure Teams Phone Mobile](operator-connect-mobile-configure.md).
-
 
 
 ## Benefits
@@ -63,7 +64,7 @@ If your existing operator is a participant in the Teams Phone Mobile program, th
 
 ## Features
 
-Teams Phone Mobile users can leverage existing [Phone System features](here-s-what-you-get-with-phone-system.md), as well as the following:
+Teams Phone Mobile users can leverage existing [Teams Phone features](here-s-what-you-get-with-phone-system.md), as well as the following:
 
 - **SIM-enabled phone number calling with Teams**. Users can make and receive calls from their smartphone’s native dialer or Teams endpoints using a single business owned SIM-enabled mobile number. When users make an outbound call from their Smartphone’s native dialer or any Teams endpoint, they can show either their mobile or a company service number. Incoming calls ring the smartphone native dialer and simultaneously ring active Teams clients.
 
@@ -85,11 +86,11 @@ Teams Phone Mobile users can leverage existing [Phone System features](here-s-wh
 
 - **Ability to select whether incoming calls ring the native dialer or the Teams app** on the SIM-enabled mobile device.
 
-## Requirements
+## Licenses and requirements
 
-Ensure your organization has eligible Microsoft 365 services:
+Ensure your organization has the following Microsoft 365 services:
 
-- Teams Phone System SKU or E5 with Teams
+- Teams Phone SKU or E5 with Teams
 - Teams Phone Mobile add-on SKU
 
 To enable phone number assignments with Teams Phone Mobile, make sure your users:
@@ -101,3 +102,14 @@ To enable phone number assignments with Teams Phone Mobile, make sure your users
 - Are in TeamsOnly mode. Users must be in TeamsOnly mode, but your entire organization does not. To learn more, see [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 
+## Related articles
+
+For administrators:
+
+- [Configure Teams Phone Mobile](operator-connect-mobile-configure.md)
+- [Manage phone numbers for Teams Phone Mobile](operator-connect-mobile-configure-numbers.md)
+
+For users in your organization:
+
+- [Get started with Teams Phone Mobile](https://prod.support.services.microsoft.com/en-us/office/getting-started-with-teams-phone-mobile-c37a6764-6c4f-4685-a26f-b84c12a71697)
+- [Manage call settings in Teams Phone Mobile](https://prod.support.services.microsoft.com/en-us/office/manage-call-settings-in-microsoft-teams-phone-mobile-dbe4098a-198f-4101-b769-ecf0da9b33e2)

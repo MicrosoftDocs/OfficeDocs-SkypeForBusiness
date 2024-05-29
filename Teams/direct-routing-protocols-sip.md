@@ -217,7 +217,7 @@ The following schema shows an example of the bypass call flow.
 > The media candidates can come from different endpoints. 
 
 > [!div class="mx-imgBorder"]
-> ![Diagram showing multiple endpoints ringing with provisional answer.](media/direct-routing-protocols-3.png)
+> ![Diagram showing media bypass flow.](media/direct-routing-protocols-3.png)
 
 ## Replaces option
 
@@ -263,7 +263,7 @@ If the SBC indicated that the Refer method isn't supported, the SIP proxy acts a
 The Refer request that comes from the client is terminated on the SIP proxy. The Refer request from the client is shown as “Call transfer to Dave” in the following diagram.  For more information, see section 7.1 of [RFC 3892](https://www.ietf.org/rfc/rfc3892.txt). 
 
 > [!div class="mx-imgBorder"]
-> ![Diagram showing multiple endpoints ringing with provisional answer.](media/direct-routing-protocols-4.png)
+> ![Diagram showing a refer request coming from the client, Bob, to Dave.](media/direct-routing-protocols-4.png)
 
 ### SIP proxy send the Refer to the SBC and acts as a Transferor
 
@@ -304,7 +304,7 @@ The REFERRED-BY header is a SIP URI with transferor MRI encoded in it and transf
 The size of the Refer Header can be up to 400 symbols in this case. The SBC must support handling Refer messages with size up to 400 symbols.
 
 > [!div class="mx-imgBorder"]
-> ![Diagram showing multiple endpoints ringing with provisional answer.](media/direct-routing-protocols-5.png)
+> ![Diagram showing the refer-to process.](media/direct-routing-protocols-5.png)
 
 ## Call forwarding
 

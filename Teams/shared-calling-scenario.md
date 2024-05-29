@@ -1,6 +1,6 @@
 ---
 title: "Shared Calling scenario"
-ms.reviewer: jenstr
+ms.reviewer: roykuntz
 ms.date: 09/20/2023
 author: mkbond007
 ms.author: mabond
