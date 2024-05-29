@@ -35,7 +35,7 @@ Note that if you have an explicit allowed domains list, this report may include 
 |Item |Description  |
 |--------|-------------|
 |Domain name|The domain of the trusted organization.|
-|People in my org|The number of users that have communicated with the organization through meetings or chat during the selected time range.|
+|People in my org|The number of users that have communicated with the organization through chat during the selected time range.|
 
 ## Related topics
 
