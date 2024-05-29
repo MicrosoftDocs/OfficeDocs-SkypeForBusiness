@@ -82,12 +82,19 @@ Mesh traffic uses IP addresses in the AzureCloud service tag.
 
 For more information about service tags, see the [Virtual network service tags](/azure/virtual-network/service-tags-overview).
 
-## Disallow or allow the app
+## Use app centric management for immersive spaces in Teams
+
+> [!IMPORTANT]
+> App centric management of Teams apps is a new feature. For more info on this rollout see [Use app centric management to manage apps | Microsoft Learn](app-centric-management.md).
+
+App centric management functionality introduces a new way to control how you control access to Teams apps for users and groups. It replaces app permission policies. This functionality lets you specify which users and groups can use each app and you can control it on a per-app basis.
+
+When you start using this functionality, we retain your existing app access that you defined using permission policies. Users continue to have access to only those apps that you allow for them.
+
+## Use app permission policies for immersive spaces in Teams
 
 > [!IMPORTANT]
 > If you disallow or allow the Mesh app, the UI entry point for Immersive space will still be visible for up-to 24 hours.
-
-## Create or edit app permission policy
 
 The **Mesh app is by default allowed in the Teams admin center**. If you want to allow or block the app for specific user groups, create or edit an app permission policy so that selected groups are allowed or blocked from the Mesh app.
 

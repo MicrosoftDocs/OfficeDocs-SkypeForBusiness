@@ -20,24 +20,36 @@ description: Learn how to set up the avatars for Microsoft Teams app.
 
 # Set up avatars for Microsoft Teams
 
+The Mesh app, which enables immersive spaces in Teams, is enabled by default in the Teams Admin Center. 
+
 Avatars for Microsoft Teams lets your users connect with presence in Teams without having to turn on their cameras. Your users can represent themselves the way they want to show by choosing the avatar that fits their specific meeting. To learn more about avatars in Microsoft Teams, see how to [Join a meeting as an avatar](https://support.microsoft.com/office/5384e7b7-30c7-4bcb-8065-0c9e830cc8ad).
+
 > [!NOTE]
 > The Avatars for Teams app has minimum and recommended hardware requirements. For more information, see [Hardware requirements for Microsoft Teams](hardware-requirements-for-the-teams-app.md).
 >
 > Teams users can access this feature if they have one of the following licenses: Teams Essentials, Microsoft 365 Business Basic, Microsoft 365 Business Standard, Microsoft 365 Business Premium, Microsoft 365 E3/E5, and Office 365 E1/E3/E5.
 
-As an admin, you can control whether Avatars for Teams is available in your organization and who can use them using policies. Setup and permissions policies allow or block the avatars for Teams app in your organization. Policies control whether an app is available to users, automatically pinned in their Teams client, or blocked from use. By default, the **Global (Org-wide default)** policy is applied to all users in your organization. However, you can create more policies for subsets of your users, such as executives, sales, manufacturing, and so on.
+As an admin, you can control whether Avatars for Teams is available in your organization and who can use Avatars using [Teams Admin Center](manage-apps.md) policies, M365 service plans, or [App centric management](app-centric-management.md) of Teams apps.
 
 Setting up the avatars for Teams app involves the following steps:
 
-1. [Allow the avatars for Teams app in your organization](#allow-the-avatars-for-teams-app-in-your-organization).
 1. [Ensure endpoints are allowed](#allow-endpoints).
+1. [Allow the avatars for Teams app in your organization](#allow-the-avatars-for-teams-app-in-your-organization).
 1. (Optional) [Block the avatars for Teams app for specific users or groups](#block-the-avatars-for-teams-app-for-specific-users-or-groups).
 
-After you complete these steps, the avatars for Teams app will be available to users in your organization.
-
 > [!NOTE]
->Users currently need to manually install and pin the avatars for Teams app. For more information, see [Use app setup policies to pin and auto-install apps for users](/microsoftteams/teams-app-setup-policies).
+> Users currently need to manually install and pin the avatars for Teams app. For more information, see [Use app setup policies to pin and auto-install apps for users](/microsoftteams/teams-app-setup-policies).
+
+## Allow endpoints
+
+To ensure the avatars for Teams app works properly, access to the following endpoints must be allowed by your firewall or proxy server. All endpoints need to allow traffic on TCP ports 80 and 443.
+
+- `*.microsoft.com`
+- `*.office.com`
+- `*.office.net`
+
+If these endpoints aren't properly allowed, you may run into issues when running the avatars for Teams app. 
+
 
 ## Allow the avatars for Teams app in your organization
 
@@ -72,16 +84,6 @@ If you created a new app setup policy, remember to assign it the users you want 
 Now users will see the avatars for Teams app when they search through their apps, be able to pin it. If you add the avatars for Teams app to the **Pinned apps** list, the app will automatically be pinned for users.
 
 :::image type="content" source="media/avatars-app-pinning.png" alt-text="Setup policy showing the user pinning toggle set to On and the installed Avatar app." lightbox="media/avatars-app-pinning-large.png":::
-
-## Allow endpoints
-
-To ensure the avatars for Teams app works properly, access to the following endpoints must be allowed by your firewall or proxy server. All endpoints need to allow traffic on TCP ports 80 and 443.
-
-- `*.microsoft.com`
-- `*.office.com`
-- `*.office.net`
-
-If these endpoints aren't properly allowed, you may run into issues when running the avatars for Teams app. 
 
 ## Block the avatars for Teams app for specific users or groups
 
