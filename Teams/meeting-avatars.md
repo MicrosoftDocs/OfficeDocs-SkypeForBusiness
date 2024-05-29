@@ -53,7 +53,7 @@ To ensure the avatars for Teams app works properly, access to the following endp
 - `*.office.com`
 - `*.office.net`
 
-If these endpoints aren't properly allowed, you may run into issues when running the Avatars for Teams app.
+If these endpoints aren't properly allowed, you will run into issues when running the Avatars for Teams app.
 
 ## Use app centric management for Avatars in Teams
 
@@ -96,7 +96,7 @@ If you created a new app setup policy, remember to assign it the users you want 
 1. Set **User pinning** to **On**.
 1. **[Optional]** In the **Setup** policy page, go to **Pinned apps**, and **Add** the avatars for Teams app.
 
-Now users can see the Avatars app when they search through their apps, be able to pin it. If you add the avatars for Teams app to the **Pinned apps** list, the app will automatically be pinned for users.
+Now users can see the Avatars app when they search through their apps, be able to pin it. If you add the avatars for Teams app to the **Pinned apps** list, the app will be pinned for users.
 
 :::image type="content" source="media/avatars-app-pinning.png" alt-text="Setup policy showing the user pinning toggle set to On and the installed Avatar app." lightbox="media/avatars-app-pinning-large.png":::
 
@@ -135,13 +135,13 @@ Global or User admins can view, export, or remove a user's avatar profile from w
 1. Search for and select a user.
 1. At the bottom of their user profile, you'll see their avatar(s).
 1. Select **Export profiles** to generate a JSON file of the user's avatar configurations (up-to three).
-1. Select **Remove profile** for a specific avatar profile you wish to remove entirely. The avatar profile you removed will not be visible to the user.
+1. Select **Remove profile** for a specific avatar profile you wish to remove entirely. The avatar profile you removed won't be visible to the user.
 
 ## Use service plans in the Microsoft 365 Admin Center to allow the Avatars app
 
 1. Sign into [Microsoft 365 Admin Center](https://admin.microsoft.com/) with an admin account with at least Global, License, or User level permissions and open the left navigation panel to the Users section.
 
-1. Select the user(s) or user group(s) and go to **Licenses and apps** to manage the active licenses and service plans.
+1. Select the user or user group and go to **Licenses and apps** to manage the active licenses and service plans.
 
 1. Ensure that you enabled the appropriate licenses for Avatars for Teams.
 
