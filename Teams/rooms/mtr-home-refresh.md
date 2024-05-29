@@ -21,11 +21,54 @@ ms.localizationpriority: medium
 description: Learn about the improvements to the Microsoft Teams Rooms on Windows home screen design.
 ---
 
-# Microsoft Teams Rooms on Windows home screen design refresh
+# Microsoft Teams Rooms home screen design and features
 
-Microsoft Teams Rooms on Windows version 4.17 and later includes a refreshed home screen design that adds a calendar to front-of-room displays, quick access to more commonly used actions on consoles, additional built-in background options, and better consistency with other Teams devices.
+Microsoft Teams Rooms include modern home screen design that includes a calendar on the console and front-of-room displays, quick access to more commonly used actions on the console, built-in background options, and a consistent look and feel to other Teams devices.
 
-To ensure you get the best home screen experience, check the following:
+## Teams Room Calendar
+
+Teams Rooms devices communicate with Exchange aligned to the same method Teams desktop, web, and mobile clients utilize.  To ensure that meetings appear correctly on your Teams Rooms clients, see [How Exchange and Microsoft Teams interact](../Exchange-Teams-interact.md).
+
+> [!WARNING]
+> Only on-premises Exchange servers with Hybrid Configuration and AutoDiscover v2 published externally is supported on the new Teams Rooms on Windows home screen experience, which is consistent with how other Teams clients connect with Exchange. If you're using Teams Rooms with an on-premises Exchange server, we recommend that you review how on-premises mailboxes work with Teams to avoid any disruption on your calendar experience, [Microsoft Teams and on-premises mailboxes](https://techcommunity.microsoft.com/t5/microsoft-teams-community-blog/microsoft-teams-and-on-premises-mailboxes-part-1-how-do-teams/ba-p/2229851)
+### Calendar Entry Join Buttons
+
+Teams Rooms devices read Exchange calendar entries and will automatically generate "Join" buttons for end users to be able to one touch join into Teams meetings. This functionality can also be enabled for third-party meeting platforms following this guidance: [Join third-party meetings](microsoftteams/rooms/mtr-home-refresh)
+
+If you wish to restrict the one touch join experience on Teams meetings, Teams Rooms offer controls to require users to enter the Teams Meeting ID and Passcode after a user selects the "Join" button adding further security to your Teams Rooms, this can be achieved by applying this configuration:
+
+#### Teams Rooms on Windows
+
+Require the Meeting ID and Passcode for all Teams Meetings
+
+
+```xml
+<RequirePasscodeForAllTeamsMeetings>true</RequirePasscodeForAllTeamsMeetings> 
+```
+
+Require the Meeting ID and Passcode for Teams Meetings marked as Private in Outlook
+
+
+```xml
+<RquirePasscodeForAllPrivateTeamsMeetings>true</RequirePasscodeForAllPrivateTeamsMeetings> 
+```
+
+#### Teams Rooms on Android
+
+On the device, open Teams Admin Settings > Meetings and toggle "Require passcode for all meetings" to On to require users to enter the Teams Meeting passcode on all Teams Meeting "Join" button presses.
+
+### Calendar entry details
+
+Teams Rooms devices by default show the subject and organizer name for each meeting on the room calendar except those calendar invites which have been marked as private. The meeting body is not accessible on a Teams Room device to ensure data privacy and security.
+
+### Hide the calendar from the front-of-room display
+
+Teams Rooms on Windows allows you to hide the calendar on your front-of-room display, add the following to your XML configuration file to do so:
+
+
+```xml
+<RemoveFoRCalendar>true</RemoveFoRCalendar> 
+```
 
 - **Integrated Exchange calendar** - The refreshed home screen changes how the calendar on Teams Rooms devices communicates with Exchange. The new method aligns with Teams desktop, web, and mobile clients. Make sure meetings that appear in Outlook or Outlook on the web are correctly reflected in your Teams clients. For information about Exchange and Teams, see [How Exchange and Microsoft Teams interact](../Exchange-Teams-interact.md).
 
@@ -42,13 +85,5 @@ For custom background guidelines, see [Set up and manage Teams Rooms on Windows 
 
 To apply the configuration changes included in this article to your Teams Rooms for Windows devices, you need to use the Teams Rooms XML configuration file. The XML configuration file lets you remotely deploy configuration changes to one or more Teams Rooms devices in your organization. For more information, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md).
 
-### Hide front-of-room calendar display
-
-To hide the calendar on your front-of-room display, add the following to your XML configuration file:
-
-
-```xml
-<RemoveFoRCalendar>true</RemoveFoRCalendar> 
-```
-
+### 
 
