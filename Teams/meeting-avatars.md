@@ -22,16 +22,16 @@ description: Learn how to set up the avatars for Microsoft Teams app.
 
 The Avatars app is enabled by default for all organizations.
 
-As an admin, you can control whether Avatars for Teams is available in your organization and who can use Avatars using [Teams Admin Center](manage-apps.md) policies, M365 service plans, or [App centric management](app-centric-management.md) of Teams apps.
+As an admin, you can control whether avatars for Teams is available in your organization and who can use Avatars using [Teams Admin Center](manage-apps.md) policies, Microsoft 365 service plans, or [App centric management](app-centric-management.md) of Teams apps.
 
 Setting up the avatars for Teams app involves the following steps:
 
-1. [Ensure endpoints are allowed](#allow-endpoints).
-1. [Allow the avatars for Teams app in your organization](#allow-the-avatars-for-teams-app-in-your-organization).
-1. (Optional) [Block the avatars for Teams app for specific users or groups](#block-the-avatars-for-teams-app-for-specific-users-or-groups).
+1. [Allow endpoints](#allow-endpoints).
+1. [Allow the Avatars for Teams app in your organization](#allow-the-avatars-for-teams-app-in-your-organization).
+1. (Optional) [Block the Avatars for Teams app for specific users or groups](#block-the-avatars-for-teams-app-for-specific-users-or-groups).
 
 > [!NOTE]
-> Users currently need to manually install and pin the avatars for Teams app. For more information, see [Use app setup policies to pin and auto-install apps for users](/microsoftteams/teams-app-setup-policies).
+> Users currently need to manually install and pin the Avatars app. For more information, see [Use app setup policies to pin and auto-install apps for users](/microsoftteams/teams-app-setup-policies).
 
 > [!NOTE]
 > The Avatars for Teams app has minimum and recommended hardware requirements. For more information, see [Hardware requirements for Microsoft Teams](hardware-requirements-for-the-teams-app.md).
@@ -40,17 +40,17 @@ Setting up the avatars for Teams app involves the following steps:
 
 ## What is the Avatars app?
 
-Avatars for Microsoft Teams lets your users connect with presence in Teams without having to turn on their cameras. Your users can represent themselves the way they want to show by choosing the avatar that fits their specific meeting. To learn more about avatars in Microsoft Teams, see how to [Join a meeting as an avatar](https://support.microsoft.com/office/5384e7b7-30c7-4bcb-8065-0c9e830cc8ad).
+The Avatars for Microsoft Teams app lets your users connect with presence in Teams without having to turn on their cameras. Your users can represent themselves the way they want to show by choosing the avatar that fits their specific meeting. To learn more about using avatars in Microsoft Teams, see how to [Join a meeting as an avatar](https://support.microsoft.com/office/5384e7b7-30c7-4bcb-8065-0c9e830cc8ad).
 
 ## Allow endpoints
 
-To ensure the avatars for Teams app works properly, access to the following endpoints must be allowed by your firewall or proxy server. All endpoints need to allow traffic on TCP ports 80 and 443.
+To ensure the avatars for Teams app works properly, access to the following endpoints must be allowed through your firewall or proxy server. All endpoints need to allow traffic on TCP ports 80 and 443.
 
 - `*.microsoft.com`
 - `*.office.com`
 - `*.office.net`
 
-If these endpoints aren't properly allowed, you may run into issues when running the avatars for Teams app.
+If these endpoints aren't properly allowed, you may run into issues when running the Avatars for Teams app.
 
 ## Use app centric management for Avatars in Teams
 
@@ -71,9 +71,9 @@ When you start using this functionality, we retain your existing app access that
 1. In the [Teams admin center](https://admin.teams.microsoft.com/policies/manage-apps), in the left-navigation bar, go to **Teams apps** > **Manage apps**.
 1. In the **Search by name** text box, search for and select **Avatars** and then select **Allowed**.
 
-  :::image type="content" source="media/avatars-allowed.png" alt-text="Toggle showing the Avatars app state set to Allowed.":::
+  :::image type="content" source="media/avatars-allowed.png" alt-text="Toggle showing the Avatars app stateset to Allowed.":::
 
-### Create or edit a setup policy to pre-install the avatars for Teams app for users
+### Create or edit a setup policy to preinstall the Avatars for Teams app for users
 
 1. In the [Teams admin center](https://admin.teams.microsoft.com/policies/manage-apps), go to **Teams apps** > **Setup policies**.
 1. Select the policy you want to edit, such as **Global (Org-wide default)** or **Add** a policy. If you add a new policy, make sure to give it a descriptive name.
@@ -93,17 +93,17 @@ If you created a new app setup policy, remember to assign it the users you want 
 1. Set **User pinning** to **On**.
 1. **[Optional]** In the **Setup** policy page, go to **Pinned apps**, and **Add** the avatars for Teams app.
 
-Now users will see the avatars for Teams app when they search through their apps, be able to pin it. If you add the avatars for Teams app to the **Pinned apps** list, the app will automatically be pinned for users.
+Now users can see the Avatars app when they search through their apps, be able to pin it. If you add the avatars for Teams app to the **Pinned apps** list, the app will automatically be pinned for users.
 
 :::image type="content" source="media/avatars-app-pinning.png" alt-text="Setup policy showing the user pinning toggle set to On and the installed Avatar app." lightbox="media/avatars-app-pinning-large.png":::
 
-### Block the Avatars for Teams app in the Teams Admin Center
+### Block the Avatars in the Teams Admin Center
 
 Blocking users is important when you don't want certain users to access the avatars for Teams app. You can also block users if there's a report of an inappropriate avatar that violates company policy and needs to be disabled.
 
 If you want to block the avatars for Teams app available from a set of users, you need to add it to the app permissions policy assigned to those users.
 
-### Create a policy to block the avatars for Teams app for specific users
+### Create a policy to block the Avatars app for specific users
 
 1. In the [Teams admin center](https://admin.teams.microsoft.com/policies/manage-apps), go to **Teams apps** > **Permission policies**.
 1. In **App permissions policies**, select **Add**.
@@ -130,31 +130,30 @@ Global or User admins can view, export, or remove a user's avatar profile from w
 
 1. Select **Manage users** in the left nav.
 1. Search for and select a user.
-1. At the bottom of their user profile, you will see their avatar(s).
+1. At the bottom of their user profile, you'll see their avatar(s).
 1. Select **Export profiles** to generate a JSON file of the user's avatar configurations (up-to three).
 1. Select **Remove profile** for a specific avatar profile you wish to remove entirely. The avatar profile you removed will not be visible to the user.
 
-## Use service plans in the M365 Admin Center to allow the Avatars app
+## Use service plans in the Microsoft 365 Admin Center to allow the Avatars app
 
-1. Sign into [M365 Admin Center](https://admin.microsoft.com/) with an admin account with at least Global, License, or User level permissions and open the left navigation panel to the Users section.
+1. Sign into [Microsoft 365 Admin Center](https://admin.microsoft.com/) with an admin account with at least Global, License, or User level permissions and open the left navigation panel to the Users section.
 
 1. Select the user(s) or user group(s) and go to **Licenses and apps** to manage the active licenses and service plans.
 
-1. Ensure that you have enabled the appropriate licenses for Avatars for Teams.
+1. Ensure that you enabled the appropriate licenses for Avatars for Teams.
 
-For additional guidance for assigning licenses in M365, see:
+For more guidance for assigning licenses in Microsoft 365, see:
 
 [Assign or unassign licenses for users in the Microsoft 365 admin center - Microsoft 365 admin | Microsoft Learn](/microsoft-365/admin/manage/assign-licenses-to-users).
 
 For more complex and larger group license management, you can do [Assign licenses to a group - Microsoft Entra ID | Microsoft Learn](/entra/identity/users/licensing-groups-assign).
 
-
 ## Where avatars can be used
 
 Avatars for Teams can be used in any Teams meeting that includes the option to use a real-world camera.
 
-Guests invited to meetings will only be able to use avatars for Teams if the app is enabled on their tenant for their account.
+Guests invited to meetings can only to use avatars for Teams if the app is enabled on their tenant for their account.
 
-If you are invited to a meeting outside your tenant, you will be able to use avatars for Teams if it's enabled on your tenant for your account.
+If you're invited to a meeting outside your tenant, you'll be able to use avatars for Teams if enabled on your tenant for your account.
 
 To learn how to use avatars in Teams, see [Join a meeting as an avatar in Microsoft Teams](https://support.microsoft.com/office/5384e7b7-30c7-4bcb-8065-0c9e830cc8ad).
