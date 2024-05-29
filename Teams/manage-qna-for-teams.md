@@ -106,6 +106,7 @@ eDiscovery for Q&A works the same as eDiscovery for any other Viva Engage conten
 - When you perform eDiscovery, you can determine whether messages were generated in Viva Engage or through Q&A in Teams. In the File Metadata section, you can find that information in the Item Class field.
 - If your organization uses the Q&A, powered by Viva Engage, the content Q&A generates is considered Viva Engage content and is discoverable. For more information about eDiscovery in Microsoft 365 apps, see [eDiscovery solutions in Microsoft 365.](/microsoft-365/compliance/ediscovery)
 - If the meeting organizer enables anonymous posting, the questions attendees post are ingested into the organizer’s mailbox for eDiscovery.
+- When external participants (users from an external organization using external access) from a different Microsoft 365 tenant, or guests join a Teams meeting that is hosted in your Microsoft 365 tenant, any questions they post into Q&A will be ingested within your Microsoft 365 tenant.
 
 ## Data Storage
 
