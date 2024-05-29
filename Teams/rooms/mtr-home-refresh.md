@@ -30,7 +30,7 @@ Microsoft Teams Rooms include modern home screen design that includes a calendar
 Teams Rooms devices communicate with Exchange aligned to the same method Teams desktop, web, and mobile clients utilize.  To ensure that meetings appear correctly on your Teams Rooms clients, see [How Exchange and Microsoft Teams interact](../Exchange-Teams-interact.md).
 
 > [!WARNING]
-> Only on-premises Exchange servers with Hybrid Configuration and AutoDiscover v2 published externally are supported on Teams Rooms on Windows. which is consistent with how other Teams clients connect with Exchange. If you're using Teams Rooms with an on-premises Exchange server, we recommend that you review how on-premises mailboxes work with Teams: [Microsoft Teams and on-premises mailboxes](https://techcommunity.microsoft.com/t5/microsoft-teams-community-blog/microsoft-teams-and-on-premises-mailboxes-part-1-how-do-teams/ba-p/2229851)
+> Only on-premises Exchange servers with Hybrid Configuration and AutoDiscover v2 published externally are supported which is consistent with how other Teams clients connect with Exchange. If you're using Teams Rooms with an on-premises Exchange server, we recommend that you review how on-premises mailboxes work with Teams: [Microsoft Teams and on-premises mailboxes](https://techcommunity.microsoft.com/t5/microsoft-teams-community-blog/microsoft-teams-and-on-premises-mailboxes-part-1-how-do-teams/ba-p/2229851)
 ### Calendar Entry Join Buttons
 
 Teams Rooms devices read Exchange calendar entries and will automatically generate "Join" buttons for end users to to one touch join into Teams meetings. This functionality can also be enabled for third-party meeting platforms following this guidance: [Join third-party meetings](/microsoftteams/rooms/third-party-join)
@@ -97,13 +97,13 @@ Teams Rooms on Windows allows you to hide the calendar on your front-of-room dis
 
 ### Meet Now
 
-All Teams Rooms devices include meet now functionality which automatically launches the Teams Rooms device into an ad-hoc Teams meeting.  Lean more about Meet Now here: [Start an instant meeting in Microsoft Teams](https://support.microsoft.com/office/start-an-instant-meeting-in-microsoft-teams-ff95e53f-8231-4739-87fa-00b9723f4ef5)
+All Teams Rooms devices include Meet Now functionality which automatically launches the Teams Rooms device into an ad-hoc Teams meeting.  Lean more about Meet Now here: [Start an instant meeting in Microsoft Teams](https://support.microsoft.com/office/start-an-instant-meeting-in-microsoft-teams-ff95e53f-8231-4739-87fa-00b9723f4ef5)
 
 ### Call
 
 #### Calling a Teams User
 
-All Teams Rooms devices include "call" functionality, which allows end users to manually call an individual participant in the organization or a federated Teams users.
+All Teams Rooms devices include Call functionality, which allows end users to call an individual participant in the organization or a federated Teams users.
 
 #### PSTN
 
@@ -136,7 +136,7 @@ On the device, open Teams Admin Settings > Meetings and toggle "Include Audio" a
 
 ### Join with an ID
 
-Teams Rooms offer an option for end user to be able to enter the Teams Meeting ID and Passcode to be able to join a meeting.  If third party meetings are enabled on the device, they may also have the ability to join by ID into a third party meeting platform.
+Teams Rooms offer an option for end user to be able to enter the Teams Meeting ID and Passcode to be able to join a meeting.  If third party meetings are enabled on the device, you may also have the ability to join by ID into a third-party meeting platform.
 
 ### Whiteboard
 
@@ -158,7 +158,9 @@ Teams Rooms on Windows devices by default allow end users to change the language
 
 #### Report a Problem
 
-Repprt a Problem is.....
+If your Teams Room device has a preview build or if your Teams Room account is in a preview ring, you will see a report a problem button to allow bug submissions to Microsoft.
+
+Outside of preview, Teams Rooms on Windows devices have report a problem enabled by default so that when a user in a Microsoft Teams Room reports an issue, a feedback event is created in the Teams Rooms Pro Management portal. This event gives device managers the data they need to address the feedback or open a support case with logs from the room. This can also be enabled by adding an email address in Settings > Device, in this case when an issue is reported an email will be generated to the configured email address with the user feedback
 
 #### Give Feedback
 
