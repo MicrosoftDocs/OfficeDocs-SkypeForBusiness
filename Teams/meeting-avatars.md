@@ -60,10 +60,6 @@ If these endpoints aren't properly allowed, you will run into issues when runnin
 > [!IMPORTANT]
 > App centric management of Teams apps is a new feature. For more info on this rollout see [Use app centric management to manage apps | Microsoft Learn](app-centric-management.md).
 
-App centric management functionality introduces a new way to control how you control access to Teams apps for users and groups. It replaces app permission policies. This functionality lets you specify which users and groups can use each app and you can control it on a per-app basis.
-
-When you start using this functionality, we retain your existing app access that you defined using permission policies. Users continue to have access to only those apps that you allow for them.
-
 ## Manage Avatars in the Teams admin center
 
 > [!NOTE]
