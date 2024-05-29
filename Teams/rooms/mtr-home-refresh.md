@@ -92,7 +92,17 @@ All Teams Rooms devices include meet now functionality which automatically launc
 
 ### Call
 
+#### Calling a Teams User
+
 All Teams Rooms devices include "call" functionality, which allows end users to manually call an individual participant in the organization or a federated Teams user
+
+#### PSTN
+
+Teams Rooms support PSTN calling just like a Teams user. The Teams Rooms Pro licensing includes the Phone System functionality, but you'll need to add a calling plan, Operator Connect or direct routing configuration to your Teams Rooms account for the PSTN functionality to work. You can learn more here: [Teams PSTN connectivity](/microsoftteams/pstn-connectivity)
+
+#### SIP/H.323 Calling
+
+Teams Rooms on Windows devices support making a SIP/H.323 call, guidance can be found here: [Meetings with SIP and H.323 devices](/microsoftteams/rooms/meetings-with-sip-h323-devices)
 
 ### Share
 
@@ -118,11 +128,25 @@ aaa
 
 aaa
 
+### ?
+
+#### Report a Problem
+
+Repprt a Problem is.....
+
+#### Give Feedback
+
+Give Feedback is enabled on all Teams Rooms devices by default, but it is controlable by the Teams feedback policies outlined here: [Manage Feedback Policies](/microsoftteams/manage-feedback-policies-in-teams)
+
+## QR Codes for Meeting Join
+
+Teams Rooms devices offer QR codes on the console and front-of-room screens which allow users an easy path to join a Microsoft Teams Meeting, see[ Join meeting with QR codes](/microsoftteams/rooms/teams-rooms-qr-codes) for more information.
+
 ## Custom backgrounds
 
 Teams Rooms on Windows devices support custom backgrounds, see [Set up and manage Teams Rooms on Windows custom backgrounds](custom-backgrounds.md).
 
-## Updating Teams Rooms device configuration
+## Updating Teams Rooms on Windows device configuration
 
 To apply the configuration changes included in this article to your Teams Rooms for Windows devices, you need to use the Teams Rooms XML configuration file. The XML configuration file lets you remotely deploy configuration changes to one or more Teams Rooms devices in your organization. For more information, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md).
 
