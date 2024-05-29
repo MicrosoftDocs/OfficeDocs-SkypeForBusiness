@@ -31,7 +31,7 @@ If you have users who aren't heavy users of the Public Switched Telephone Networ
 
 Note: Shared Calling is currently available in public clouds only.
 
-Let's start with some definitions that you'll need to know for Shared Calling:
+Let's start with some definitions that you need to know for Shared Calling:
 
 | Term | Definition |
 |----------|-----------|
@@ -43,7 +43,7 @@ With Shared Calling, instead of assigning a phone number to every user, you use 
 
 To set up Shared Calling, you need to perform the following steps. These steps are described in detail in [Configure Shared Calling](shared-calling-setup.md).
 
-1. Assign Teams Phone licenses and enable users for voice.
+1. Assign Teams Phone licenses and enable users for voice. Don't assign a phone number to any Shared Calling enabled user.
 
 1. Assign number to resource account for inbound and outbound calling.
 
@@ -51,7 +51,7 @@ To set up Shared Calling, you need to perform the following steps. These steps a
 
 1. Assign a location to the resource account for emergency calling.
 
-1. If you're using a resource account with Calling Plan service number, assign Pay-As-You-Go Calling Plan to the resource account. Communication Credits may  be required if your tenant doesn't have the New commerce experience calling subscriptions, or you don't want to post pay for calls.
+1. If you're using a resource account with Calling Plan service number, assign Pay-As-You-Go Calling Plan to the resource account. Communication Credits might be required if your tenant doesn't have the New commerce experience calling subscriptions, or you don't want to post pay for calls.
 
 1. Create voice routing policy without PSTN usages.
 
@@ -63,7 +63,7 @@ To set up Shared Calling, you need to perform the following steps. These steps a
 
 Shared Calling can be configured with the Teams admin center and PowerShell. You must have Teams PowerShell Module version 5.5.0 or higher to use the new [TeamsSharedCallingRoutingPolicy](/powershell/module/teams/set-csteamssharedcallingroutingpolicy) cmdlets. You can use these cmdlets to create and manage Shared Calling policies.
 
-## Related topics
+## Related articles
 
 - [Configure Shared Calling](shared-calling-setup.md)
 - [Shared Calling example scenario](shared-calling-scenario.md)

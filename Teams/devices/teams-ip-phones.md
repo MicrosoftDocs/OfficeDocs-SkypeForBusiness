@@ -51,6 +51,10 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
+| Yealink MP58 E2 | `176.15.0.16 `|August 27, 2027   | 13|
+| Yealink MP56 E2 | `176.15.0.16 `|August 27, 2027   | 13|
+| Yealink MP54 E2 | `176.15.0.16 `|August 27, 2027   | 13|
+| Yealink MP52 E2 | `176.15.0.16 `|August 27, 2027   | 13|
 | AudioCodes Exp Module supported on C455HD-DBW| 2.1.638| October 4, 2026 | N/A |
 | AudioCodes C470HD | `2.1.87`  |October 4, 2026  | 12 |
 | AudioCodes C435HD    | `2.1.673`     | October 4, 2026 | 12 |

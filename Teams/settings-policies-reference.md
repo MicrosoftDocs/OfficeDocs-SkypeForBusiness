@@ -468,13 +468,16 @@ Meeting policies are used to control what features are available in meetings org
 |Whiteboard|On|Controls whether a user can share the Whiteboard in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer. Read more on [how to manage the Whiteboard in Microsoft Teams](manage-whiteboard.md).|
 |Collaborative annotations|On|When **On**, participants can collaborate while sharing their screen during a Teams meeting.|
 |Shared notes|On|When **On**, attendees can create shared meeting notes through the meeting details.|
+|Live Share|On|When **On**, users can edit a document from within the Teams meeting window, thereby enabling real-time coauthoring in the meeting.|
 |Organizer can restrict participants from copying or forwarding meeting chat messages|On|When this setting is on, meeting organizers can turn off message copying and forwarding, which includes using keyboard shortcuts, right click, or the more actions menu to copy or forward messages.|
+
 
 **PowerShell-only content sharing policies**
 
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
 |AllowMeetingCoach|True|This setting lets users turn on Speaker Coach during a Teams meeting. Read more on [how to turn Speaker Coach on or off](meeting-speaker-coach.md).|
+|AllowDocumentCollaboration|True/False|This setting lets users edit a document from within the Teams meeting window, thereby enabling real-time coauthoring in the meeting.|
 
 ##### Related articles for content sharing policies
 

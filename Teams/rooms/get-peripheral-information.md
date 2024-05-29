@@ -43,26 +43,23 @@ When you run the PowerShell script, the data is exported to a CSV file that can 
    ```powershell
    \Get-TeamsBYODRoomDevices.ps1
    ```
+   
+1. The script prompts will guide you through the process:
 
-2. The script prompts will guide you through the process:
+   - Wait for the script to detect and gather information about the connected devices.
+   - Connect the external devices when prompted.
+   - Enter the required details such as User Principal Name (UPN), Display Name, and Grouping ID for data collection when prompted.
+   - Provide the folder path where the PERIPHERALS.csv file will be saved when prompted.
+   - The script will process the discovered peripheral data and export it to the specified file path.
+      
+1. Review the exported data to ensure accuracy. 
+1. When finished, enter 'Y' when prompted to end the collection process.
+1. Open the CSV created on the set area path and notice the device details collected including Account, Display Name, Product ID, Vendor ID, Serial Number, Peripheral Name, Peripheral Type and Group ID. 
 
-    - Wait for the script to detect and gather information about the connected devices.
-    - Connect the external devices when prompted.
-    - Enter the required details such as User Principal Name (UPN), Display Name, and Grouping ID for data collection when prompted.
-    - Provide the folder path where the PERIPHERALS.csv file will be saved when prompted.
-    - The script will process the discovered peripheral data and export it to the specified file path.
+   > [!NOTE]
+   > Group ID is a way to still 'group them' for later assignment if while individually collecting the peripheral data you do not know the UPN or Display Name for the group of peripherals being collected. This is because Teams Pro Management portal won't have any understanding of Group ID, it is more for keep the peripherals grouped in the output CSV so an account plus the display name could be assigned to each at a later time.
+1. Save the CSV file in .XLSX format. 
 
-3. Review the exported data to ensure accuracy. 
-4. When finished, enter 'Y' when prompted to end the collection process.
-5. Open the CSV created on the set area path and notice the device details collected including Account, Display Name, Product ID, Vendor ID, Serial Number, Peripheral Name, Peripheral Type and Group ID.
+1. Sign in and open the [Microsoft Teams Pro Management portal](https://portal.rooms.microsoft.com/), in the **Devices** page, select __Import__ to add the device inventory to upload the file you modified.
 
-    > [!NOTE]
-    > Group ID is a way to still 'group them' for later assignment if while individually collecting the peripheral data you do not know the UPN or Display Name for the group of peripherals being collected. This is because Teams Pro Management portal won't have any understanding of Group ID, it is more for keep the peripherals grouped in the output CSV so an account plus the display name could be assigned to each at a later time.
-
-6. Copy the data from this Excel.  
-7. Sign in and open the [Microsoft Teams Pro Management portal](https://portal.rooms.microsoft.com/), in the **Devices** page, select **Export** to download the device inventory.
-8. Open the Excel file and verify that it contains all the devices and room information.
-9. In the Excel file, select the **PERIPHERALS** tab and paste the device information copied in Step 6.
-10. Save the file after pasting that information.
-11. Go back to the **Inventory** > **Devices** page and select **Import** to upload the file you modified.
-12. Verify that the device and desk association is updated successfully in the Teams Pro Management portal.
+1. Verify that the device and desk association is updated successfully in the Teams Pro Management portal.
