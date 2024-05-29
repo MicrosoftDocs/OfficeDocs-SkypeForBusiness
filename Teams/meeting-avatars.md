@@ -31,7 +31,7 @@ To set up avatars in Teams, you should:
     1. [Use app centric management for Avatars in Teams](#use-app-centric-management-for-avatars-in-teams)
     1. [Manage Avatars in the Teams admin center](#manage-avatars-in-the-teams-admin-center)
     1. [Use service plans in the Microsoft 365 Admin Center to allow the Avatars app](#use-service-plans-in-the-microsoft-365-admin-center-to-allow-the-avatars-app)
-1. (Optional) [Block the Avatars for Teams app for specific users or groups](#block-the-avatars-for-teams-app-for-specific-users-or-groups).
+1. (Optional) [Block Avatars app in the Teams Admin Center](#block-avatars-app-in-the-teams-admin-center)
 
 > [!NOTE]
 > Users currently need to manually install and pin the Avatars app. For more information, see [Use app setup policies to pin and auto-install apps for users](/microsoftteams/teams-app-setup-policies).
