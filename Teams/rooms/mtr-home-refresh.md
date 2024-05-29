@@ -115,7 +115,24 @@ Teams Rooms on Windows devices support making a SIP/H.323 call, guidance can be 
 
 ### Share
 
-aaa
+Teams Rooms devices automatically share the audio & video output of a connected HDMI ingest device to the front-of-room screens outside of a meeting as well as automatically share as content into a call during a meeting.
+
+#### Teams Rooms on Windows
+
+On a Teams Rooms on Windows device you can disable automatic sharing into a Teams Meeting but you cannot disable automatic sharing onto the front of room display. To disable automatic sharing into a meeting, open Settings > Meetings and toggle "Automatic screen sharing" to Off. This can also be modified using an XML configuration file with a value of 0 to disable automatic sharing.
+
+Likewise, Teams Rooms on Windows supports XML configuration to disable HDMI ingest audio and an option to disable sending the HDMI ingest to multiple front-of-room screens if multiple screens are connected.
+
+
+```xml
+<AutoScreenShare>0</AutoScreenShare>
+<DuplicateIngestDefault>false</DuplicateIngestDefault>
+<DisableTeamsAudioSharing>true</DisableTeamsAudioSharing>
+```
+
+#### Teams Rooms on Android
+
+On the device, open Teams Admin Settings > Meetings and toggle "Include Audio" and/or "Automatically share to the room display" to Off as desired.
 
 ### Join with an ID
 
@@ -145,7 +162,7 @@ Repprt a Problem is.....
 
 #### Give Feedback
 
-Give Feedback is enabled on all Teams Rooms devices by default, but it is controlable by the Teams feedback policies outlined here: [Manage Feedback Policies](/microsoftteams/manage-feedback-policies-in-teams)
+Give Feedback is enabled on all Teams Rooms devices by default, but it is controllable by the Teams feedback policies outlined here: [Manage Feedback Policies](/microsoftteams/manage-feedback-policies-in-teams)
 
 ## QR Codes for Meeting Join
 
