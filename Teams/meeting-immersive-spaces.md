@@ -5,7 +5,7 @@ author: typride
 manager: tyadams
 audience: ITPro
 ms.reviewer: sekerawa
-ms.date: 09/28/2023
+ms.date: 05/29/24
 ms.topic: quickstart
 ms.service: msteams
 search.appverid: MET150
