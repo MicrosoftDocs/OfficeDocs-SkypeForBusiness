@@ -1,24 +1,24 @@
 ---
-title: Microsoft Teams Rooms home screen design refresh
+title: Microsoft Teams Rooms home screen design and features
 ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
 ms.reviewer: henrikalim
-ms.date: 10/04/2023
+ms.date: 05/28/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
 appliesto: 
-  - Microsoft Teams
+- Microsoft Teams
 ms.collection: 
-  - M365-collaboration
-  - teams-rooms-devices
-  - Tier1
+- M365-collaboration
+- teams-rooms-devices
+- Tier1
 f1.keywords: 
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
-description: Learn about the improvements to the Microsoft Teams Rooms on Windows home screen design.
+description: Learn about the Microsoft Teams Rooms home screen design and features.
 ---
 
 # Microsoft Teams Rooms home screen design and features
