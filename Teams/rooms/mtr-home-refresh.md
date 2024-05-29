@@ -61,6 +61,20 @@ On the device, open Teams Admin Settings > Meetings and toggle "Require passcode
 
 Teams Rooms devices by default show the subject and organizer name for each meeting on the room calendar except those calendar invites which have been marked as private. The meeting body is not accessible on a Teams Room device to ensure data privacy and security.
 
+Exchange Calendar Settings
+
+Review Exchange calendar processing settings for your room mailboxes: [Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing?view=exchange-ps) We've outlined important elements to check as well:
+
+- RemovePrivateProperty - If this is set to "true" devices will show the meeting subject and organizer name regardless of if meeting is set to private
+
+- DeleteComments - If this is set to "true" devices may not be able to show join buttons for third-party meetings
+
+- DeleteSubject - If this is set to "true" the meeting subject will not be visible on Teams Rooms devices
+
+Teams Rooms on Windows
+
+Teams Rooms on Android
+
 ### Hide the calendar from the front-of-room display
 
 Teams Rooms on Windows allows you to hide the calendar on your front-of-room display, add the following to your XML configuration file to do so:
@@ -70,13 +84,7 @@ Teams Rooms on Windows allows you to hide the calendar on your front-of-room dis
 <RemoveFoRCalendar>true</RemoveFoRCalendar> 
 ```
 
-- **Integrated Exchange calendar** - The refreshed home screen changes how the calendar on Teams Rooms devices communicates with Exchange. The new method aligns with Teams desktop, web, and mobile clients. Make sure meetings that appear in Outlook or Outlook on the web are correctly reflected in your Teams clients. For information about Exchange and Teams, see [How Exchange and Microsoft Teams interact](../Exchange-Teams-interact.md).
-
-  > [!WARNING]
-  > Only on-premises Exchange servers with Hybrid Configuration and AutoDiscover v2 published externally is supported on the new Teams Rooms on Windows home screen experience, which is consistent with how other Teams clients connect with Exchange. If you're using Teams Rooms with an on-premises Exchange server, we recommend that you review how on-premises mailboxes work with Teams to avoid any disruption on your calendar experience, [Microsoft Teams and on-premises mailboxes](https://techcommunity.microsoft.com/t5/microsoft-teams-community-blog/microsoft-teams-and-on-premises-mailboxes-part-1-how-do-teams/ba-p/2229851)
-
 - **Custom backgrounds** - A calendar component has been added to the front-of-room display with the refreshed home screen to ensure that the room schedule is easily visible. If you have a custom background that has logos or information that users need to see, we recommend that you [update your background based on the latest guidelines ](#custom-background-guidelines)or that you [remove the calendar from the front-of-room display](#hide-front-of-room-calendar-display).
-
 ## Custom background guidelines
 
 For custom background guidelines, see [Set up and manage Teams Rooms on Windows custom backgrounds](custom-backgrounds.md).
