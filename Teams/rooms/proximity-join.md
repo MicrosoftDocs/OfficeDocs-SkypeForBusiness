@@ -23,6 +23,112 @@ f1keywords: NOCSH
 
 # Proximity Join
 
+## Overview
+
+Proximity Join is a feature that enables you to nudge your Microsoft Teams Rooms into a Teams meeting from your Teams app on desktop or mobile. It does not require the room to be invited to the meeting prior to nudging it into the meeting. This feature uses wireless technologies that can be individually enabled or disabled depending on the requirements of the environment:
+
+1. [Bluetooth](#bluetooth)
+
+1. [Ultrasonic sound (Ultrasound)](#ultrasonic-sound-ultrasound)
+
+### How to use
+
+*update for mobile vs desktop
+
+1. Ensure IT admins have correctly configured the Microsoft Teams Rooms correctly. See [Admin Controls](#Admin-Controls)
+
+1. On your personal device, ensure Bluetooth is enabled for Bluetooth, and the microphone is not muted or disabled for ultrasound
+
+1. Join an existing meeting or start a new one on your Teams app
+
+1. In pre-join, click Room Audio. If you don’t immediately see the room you are in, wait for 5-10 seconds
+
+   1. Warning: the UI may indicate no rooms were found while it is still searching
+      
+1. Select the room you are in and click join
+
+   1. Warning: double check the room you have selected is the one you are in to avoid disruptions and security leaks
+      
+1. The Microsoft Teams Room should now be in the meeting
+
+## Admin Controls
+
+Admins have the ability to configure each Microsoft Teams Room to emit either Bluetooth, ultrasound, or both depending on device capability. 
+
+### XML configuration file for Teams Rooms on Windows
+
+Like most Teams Rooms on Windows features, you can update the settings of your device with the Teams Rooms XML configuration file. The XML configuration file lets you remotely deploy configuration changes to one or more Teams Rooms on Windows devices in your organization. For more information, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](/microsoftteams/rooms/xml-config-file).
+
+
+|Element|Type|Level|Usage|
+| -------- | -------- | -------- | -------- |
+|<BluetoothAdvertisementEnabled>|Boolean ❷|First ❶|Enabled by default.|
+|<AutoAcceptProximateMeetingInvitations>|Boolean ❷|First ❶|If true, proximity based meeting invitations via Bluetooth are automatically accepted. Enabled by default.|
+|<UltrasoundAdvertisementEnabled>|Boolean ❷|First ❶|Enabled by default.|
+|<UltrasoundAutoAcceptProximateMeetingInvitations>|Boolean ❷|First ❶|If true, proximity based meeting invitations via Bluetooth are automatically accepted. Enabled by default.|
+| <UltrasoundSpeaker> | ? | ? | Device name (string) is the acceptable value. No default value. If empty, MTR will use console speaker provided it's a supported speaker |
+| <UltrasoundSpeakerVolume> | ? | ? | Value can be from 0 to 100, default value is 0 |
+
+
+Pro Management Portal
+
+Teams Rooms App Settings
+
+## Bluetooth
+
+Bluetooth is a short range wireless technology that compatible devices can communicate over. This signal can penetrate through walls. The signal is not paused when Microsoft Teams Room is in a meeting. Rooms appearing in the list of discovered rooms via Bluetooth are sorted by signal strength in descending order.
+
+Supported devices
+
+## Ultrasound
+
+Proximity Join via ultrasound works by emitting an ultrasonic (19.5 kHz - 21.5 kHz) signal not usually audible to humans. It is more secure and accurate than Bluetooth because at reasonable volume will not penetrate through walls. The signal is paused when the Microsoft Teams Room is either in a meeting or HDMI ingest is active. 
+> [!CAUTION]
+> Some younger people and animals with sensitive hearing may be able to hear it. In our testing, this sound hasn't been distressing, but take note if young people or animals are in your meeting room environment. We recommend that younger people and animals are not present in the meeting room environments. If the beacon can be heard outside of the space for which it is intended to represent, speak to your admin. While Microsoft works with partners to ensure volume levels are adequately capped, your admin may have overridden the volume for ultrasound emission on a console or audio peripheral.
+
+Supported devices:
+
+- Microsoft Teams Rooms on Windows with a dedicated ultrasonic speaker
+
+- Desktop - Teams on Windows
+
+- Desktop - Teams on MacOS
+
+## FAQ
+
+Q: Is Proximity Join secure?
+
+Yes. We're aware that meetings can have confidential data, and that bad actors may attempt to join meetings they aren't physically present for. The proximity beaconing technology was built with security in mind, and contains various safeguards to mitigate risks.
+
+Q: Why did the Microsoft Teams Rooms not automatically accept the call/why did it ring?
+
+1. In some cases, your admin may have turned off auto-accept for security reasons. Contact hour administrator.
+1. In other cases, if the beacon is missing certain required security data due to distance, signal strength, or data loss, the Microsoft Teams Rooms may require a manual accept to ensure your meeting stays secure.
+
+Q: Why is my video not showing up on the room display?
+
+To increase comfort and reduce distraction, the Microsoft Teams Rooms will hide your personal camera display in the grid after a proximity join.
+
+Q: Why is the Microsoft Teams Rooms that is in the room with me not at the top of the list?
+
+1. Bluetooth signals penetrate walls; hence, it may be the case that a Microsoft Teams Rooms in a room adjacent to you or above/below you is actually physically closer to your device than the Microsoft Teams Rooms in your meeting room. This scenario is especially likely in the following circumstances:
+   1. If your room is large and the Microsoft Teams Rooms is on the other side of it.
+   1. In floor arrangements where meeting rooms are built back to back.
+   1. In setups where the MTR is physically located outside the room (in a server room or equipment closet).
+1. Bluetooth signals are also subject to wireless interference. Something may be interfering with the wireless signal of the Microsoft Teams Rooms in your room, causing it’s signal to be weaker than expected.
+
+Q: Does Proximity Join work across tenants?
+
+Yes, Proximity Join works across tenants, though this provision is currently bugged. A workaround is required to get this provision to work. To allow your personal device to resolve the identity of a Microsoft Teams Rooms external to your O365 tenant, you must first search for the name or email address of the Microsoft Teams Rooms device in Teams and send it a chat message. Microsoft is working on addressing this issue; so, a workaround will no longer be required.
+
+Q: What is TeamsCast?
+
+TeamsCast is a feature that uses Proximity Join to nudge a Microsoft Teams Rooms into a meeting, immediately followed by an automatic content share. Most issues with TeamsCast fall under the umbrella of Proximity Join, and the guidance in this article can be cross-applied.
+
+___
+
+# Proximity Join
+
 Proximity Join is a feature that enables you to nudge your meeting room into a Microsoft Teams Rooms so that your meeting room can sync with Microsoft Teams Rooms. Your personal device, for example, your desktop or mobile phone, detects Microsoft Teams Rooms through a wireless signal.
 
 The Proximity Join feature provides you with the following advantages:
@@ -81,8 +187,7 @@ Using the Proximity Join feature, perform the following steps from the TEAMS app
 1. Select your meeting room once it's listed, and select **Join**.
    > [!WARNING]
    > Double-check that the meeting room you've selected is the one you are in, so as to avoid disruptions and security leaks.
-
-   The Microsoft Teams Rooms should now be in your meeting room.
+      The Microsoft Teams Rooms should now be in your meeting room.
 
 ## Bluetooth
 
