@@ -101,7 +101,7 @@ When setting up the cross-cloud meeting connection, it's important to consider t
 To resolve this error either:
 - (Recommended) Trust the incoming Multi-Factor Authentication from the user's home tenant as a part of the cross-cloud trust following the instructions here: [To change inbound trust settings for MFA and device claims](/entra/external-id/cross-tenant-access-settings-b2b-collaboration#to-change-inbound-trust-settings-for-mfa-and-device-claims). This trust only impacts the specific tenant configured in cross tenant access settings and makes it possible for the user to satisfy the meeting host's MFA requirements utilizing their own home tenant MFA process.
    
-or, if the user's home tenant doesn't have MFA enabled:
+Or, if the user's home tenant doesn't have MFA enabled:
 
 - Modify the Conditional Access Policy that's enforcing Multi-Factor Authentication to exclude 'Other External Users' following the instructions here: [Assigning Conditional Access policies to external user types](/entra/external-id/authentication-conditional-access#conditional-access-for-external-users). **Note**: This option isn't limited to impacting cross-cloud authenticated meeting users and isn't configurable on a per-tenant basis. Review the definition of 'Other External Users' in the provided link to evaluate the impact to your tenant's external users.
 
