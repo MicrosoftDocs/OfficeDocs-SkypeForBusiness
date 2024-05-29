@@ -1,11 +1,11 @@
 ---
 title: Manage the Avatars app for Microsoft Teams 
 author: MicrosoftHeidi
-ms.author: heidip
-manager: jtremper
+ms.author: tmilligan
+manager: tyadams
 audience: ITPro
 ms.reviewer: sekerawa
-ms.date: 06/26/2023
+ms.date: 05/29/2024
 ms.topic: quickstart
 ms.service: msteams
 search.appverid: MET150
