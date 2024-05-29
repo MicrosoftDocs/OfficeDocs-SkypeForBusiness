@@ -1744,7 +1744,7 @@ items:
 
     - name: Licensing
       items: 
-        - name: Manage user access to Teams
+        - name: Manage Teams licenses
           href: user-access.md
         - name: Microsoft Teams Premium licensing
           href: teams-add-on-licensing/licensing-enhance-teams.md

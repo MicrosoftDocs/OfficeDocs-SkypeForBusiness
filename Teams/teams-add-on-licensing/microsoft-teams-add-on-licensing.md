@@ -27,12 +27,22 @@ description: Learn about Microsoft add-on licenses for Microsoft Teams and the c
 
 # Microsoft Teams add-on licenses
 
-Before reading this article, see [Manage user access to Teams](user-access.md) for information about Teams licenses.  
-**AGREE THIS NEEDS A NEW TITLE!**
+This article is about Teams add-on licenses, which let you add capabilities for those users in your organization who need them. The add-on licenses available to you depend on the Microsoft Teams plan you have.  
 
-This article is about Teams add-on licenses, which let you add capabilities for those users in your organization who need them. The add-on licenses available to you depend on the Microsoft Teams plan you have.  Typically, you buy one add-on license for each user who will use it.  **TRUE?**
+Before reading this article, see [Manage Teams licenses](user-access.md) for information about Teams licenses.  
 
-## Overview of add-on licenses
+This article contains the following sections:
+
+- [Overview of all add-on licenses](#overview-of-add-on-licenses) - An overview of all Teams add-on licenses with links to more information where applicable.
+- [Audio Conferencing licenses](#audio-conferencing-licenses) - Describes add-on licenses for Audio conferencing with links to more information where applicable.
+- [Teams Phone with PSTN connectivity licenses](#teams-phone-with-pstn-connectivity-licenses) - Describes add-on licenses for Teams Phone and PSTN connectivity options.
+- [Manage add-on licenses](#manage-add-on-licenses) - Links to information for purchasing add-on licenses, and for assigning licenses to users.
+- [More information](#more-information)
+- [Contact support](#contact-support)
+
+
+
+## Overview of all add-on licenses
 
 The following table provides an overview of the add-on licenses that you can add to your Teams subscription. For example, you might want to add an Audio Conferencing license so that users can dial in to meetings using their phones. Or, your organization might decide to deploy Teams Phone, which provides PBX functionality, with an additional option for connecting to the Public Switched Telephone Network (PSTN) for external calling.
 
@@ -49,7 +59,7 @@ The following table provides an overview of the add-on licenses that you can add
 
 [!INCLUDE [EEA Teams licensing notice](../includes/eea-teams-licensing.md)]
 
-## Audio Conferencing license
+## Audio Conferencing licenses
 
 The Audio Conferencing license enables people in your organization to use a phone instead of their computer to call in to a Teams meeting--also called PSTN conferencing for meetings.
 
@@ -59,7 +69,7 @@ For users who schedule or lead meetings with attendees who need to call in using
 
 You can also choose to use a third-party operator for your Audio Conferencing numbers if your current operator is part of the Microsoft Operator Connect program. For more information, see [Plan for Operator Connect Conferencing](../operator-connect-conferencing-plan.md).
 
-## Teams Phone with PSTN connectivity license options
+## Teams Phone with PSTN connectivity licenses
 
 Most Microsoft 365 plans allow Teams users to make peer-to-peer calls within your organization using VoIP technology. However, you may want to add different licenses for setting up Teams Phone PBX capabilities and connecting to the PSTN for external calling.
 

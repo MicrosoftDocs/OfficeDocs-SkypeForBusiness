@@ -25,7 +25,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Manage user access to Teams
+# Manage Teams licenses
 
 [!INCLUDE [EEA Teams licensing notice](./includes/eea-teams-licensing.md)]
 
