@@ -51,8 +51,8 @@ The following table provides an overview of the add-on licenses that you can add
 | **Microsoft Teams Premium** | Microsoft Teams Premium is an add-on license that allows organizations with Microsoft 365 subscriptions and Teams licenses to enhance their Teams experience with added benefits, such as personalized and intelligent meetings, enhanced meeting protection, and advanced management and reporting capabilities. <br/> <br/>For more information about the Teams Premium add-on license, see [Microsoft Teams Premium licensing](licensing-enhance-teams.md). |
 | **Audio Conferencing** | Audio Conferencing enables people in your organization to use a phone instead of their computer to call in to a Teams meeting. <br/><br/>Note that Audio Conferencing does not require a Teams Phone license. <br/><br/>[Audio Conferencing licenses](#audio-conferencing-licenses) are described in more detail later in this article. |
 | **Teams Phone Standard** | [Teams Phone](../what-is-phone-system-in-office-365.md) is a hosted telephone service that gives you call control and Private Branch Exchange (PBX) capabilities. The Teams Phone Standard license give you all Teams Phone capabilities like cloud voicemail, call park, call forwarding, auto attendants, call queues, call transfer, and caller ID. <br/><br/>If your users need to call phone numbers outside your organization, you can choose from several options for connecting to the Publich Switched Telephone Network (PSTN), including choosing Microsoft as your PSTN carrier. [Teams Phone and PSTN connectivity options](#teams-phone-with-pstn-connectivity-licenses) are described in more detail later in this article. |
-| **Microsoft Teams Calling Plans** | Is an add-on option to Teams Phone for making calls to the PSTN. With this option, Microsoft is your PSTN carrier.  If you already have Teams Phone and if available in your country/region, you can purchase [Microsoft Teams Calling Plans](../calling-plans-for-office-365.md) to connect to PSTN phone numbers. With this option, Microsoft is your PSTN provider. <br/><br/>[Calling Plan options](#teams-phone-with-microsoft-calling-plans) are described in more detail later in this article. |
-| **Teams Phone with Calling Plan bundle** | The Teams Phone with Calling Plan bundle provides both Teams Phone and a Microsoft Calling Plan for connectivity to the Public Switched Telephone Network (PSTN).  <br/><br/>[Calling Plan options](#teams-phone-with-microsoft-calling-plans) are described in more detail later in this article.|
+| **Microsoft Teams Calling Plans** | Is an add-on option to Teams Phone for making calls to the PSTN. With this option, Microsoft is your PSTN carrier. If you already have Teams Phone and if [available in your country/region]([Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)), you can purchase [Microsoft Teams Calling Plans](../calling-plans-for-office-365.md) to connect to PSTN phone numbers. With this option, Microsoft is your PSTN provider. <br/><br/>[Calling Plan options](#teams-phone-with-microsoft-calling-plans) are described in more detail later in this article. |
+| **Teams Phone with Calling Plan bundle** | The Teams Phone with Calling Plan bundle provides both Teams Phone and a Microsoft Calling Plan for connectivity to the Public Switched Telephone Network (PSTN). With this option, Microsoft is your PSTN provider. <br/><br/>[Calling Plan options](#teams-phone-with-microsoft-calling-plans) are described in more detail later in this article.|
 | **Communication Credits** | Communication Credits provide a monthly pool of minutes that can be used for PSTN phone calls. For example, if all your Calling Plan minutes get used before the beginning of the next month, or if you want toll-free numbers for Audio Conferencing, Auto attendants, or Call queues. For more information, see [set up Communications Credits](../set-up-communications-credits-for-your-organization.md). |
 | **Microsoft Teams Rooms** | Microsoft Teams Rooms is an additional Microsoft Teams product that brings video, audio, and content sharing to conference rooms. <br/> <br/>Teams Rooms Basic is a free license for up to 25 rooms that delivers core meeting and management functionality for all Teams Rooms devices. <br/> <br/>Teams Rooms Pro brings enhanced meeting experiences and advanced management and security to help you operate your devices at scale and enable inclusive hybrid meetings. <br/> <br/>For more information, see [Teams Meeting Room Licensing](../rooms/rooms-licensing.md). |
 | **Microsoft Teams Shared Devices** | Many organizations require flexible workplace solutions as they shift to hybrid work scenarios. The Microsoft Teams Shared Devices license is designed to support hybrid work by allowing offices to designate devices as shared devices, including common area phones, Teams displays for hot-desks, and Teams panels for meeting spaces. For more information, see [Microsoft Teams Shared Devices licensing](teams-shared-device-license.md). |
@@ -83,20 +83,14 @@ For Teams Phone only, buy a *Teams Phone Standard* license.  For PSTN connectivi
 
 ### Teams Phone with Microsoft Calling Plans
 
-Teams Phone with Calling Plans is available as a Teams Phone with Calling Plan bundle or as separate licenses: one for Teams Phone plus an additional Calling Plan license. There are Domestic Calling Plans, International Calling Plans, and Pay-As-You-Go Calling Plans. To find out whether Teams Calling Plans is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Teams Phone with Calling Plans is available as:
 
-If you already have *Teams Phone Standard* license and want Microsoft to act as your PSTN carrier, choose one of the following licenses:
+- A Teams Phone with Calling Plan bundle 
+- A Teams Phone Standard license with a separate Calling Plan license 
 
-- If available in your region, you can choose a *Microsoft Teams Calling Plans* license.
+There are Domestic Calling Plans, International Calling Plans, and Pay-As-You-Go Calling Plans. To find out whether Teams Calling Plans is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-- If you have a frontline worker subscription, buy a *Teams Phone Standard for Frontline Workers* license. To access the **Teams Phone for Frontline Workers** license, your tenant must also be licensed with Microsoft 365 Frontline Worker or Office 365 Frontline Worker licenses. Frontline Worker licenses can be assigned only to users who meet *one or more* of the following requirements:
-
-**DO WE NEED ALL THIS INFO?  OR IS IT DUPLICATED SOMEHWERE ELSE AND WE SHOULD LINK TO IT?**
-
- - Uses a primary device with a single screen smaller than 10.9".
- - Shares a primary work device with other licensed Frontline Worker licensed users, during or across shifts.
- - Other licensed Frontline Worker users also use the device as their primary work device.
- - Any software or services accessed from the shared device requires the devices or users to be assigned a user license that includes use of those software or services.
+- 
 
 ### Teams Phone with a separate PSTN connectivity option
 
@@ -108,6 +102,18 @@ If you don't have Microsoft Calling Plans available in your region or if you wan
 - **Direct Routing** - Lets you connect a supported, customer-provided Session Border Controller (SBC) to Microsoft Teams Phone. Direct Routing requires a Teams Phone license. For more information, see [Plan for Direct Routing](../direct-routing-plan.md).
 - **Shared Calling** - Uses the phone number of a resource account associated with an Auto attendant for inbound and outbound PSTN calls. Share Calling requires a Teams Phone license. For more information, see [Plan for Shared Calling](../shared-calling-plan.md).
 
+### Teams Phone Standard with Frontline Worker
+
+If you have a frontline worker subscription, buy a Teams Phone Standard for Frontline Workers license. To access the **Teams Phone for Frontline Workers** license, your tenant must also be licensed with Microsoft 365 Frontline Worker or Office 365 Frontline Worker licenses. Frontline Worker licenses can be assigned only to users who meet *one or more* of the following requirements:
+
+ - Uses a primary device with a single screen smaller than 10.9".
+ - Shares a primary work device with other licensed Frontline Worker licensed users, during or across shifts.
+ - Other licensed Frontline Worker users also use the device as their primary work device.
+ - Any software or services accessed from the shared device requires the devices or users to be assigned a user license that includes use of those software or services.
+
+ For more information about, see [Understand frontline worker user types and licensing](microsoft-365/frontline/flw-licensing-option).
+
+### Summary of Teams Phone license options
 
 The following table summarizes license options and subscription types for Teams Phone.   
 
