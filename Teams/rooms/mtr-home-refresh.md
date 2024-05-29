@@ -33,7 +33,7 @@ Teams Rooms devices communicate with Exchange aligned to the same method Teams d
 > Only on-premises Exchange servers with Hybrid Configuration and AutoDiscover v2 published externally is supported on the new Teams Rooms on Windows home screen experience, which is consistent with how other Teams clients connect with Exchange. If you're using Teams Rooms with an on-premises Exchange server, we recommend that you review how on-premises mailboxes work with Teams to avoid any disruption on your calendar experience, [Microsoft Teams and on-premises mailboxes](https://techcommunity.microsoft.com/t5/microsoft-teams-community-blog/microsoft-teams-and-on-premises-mailboxes-part-1-how-do-teams/ba-p/2229851)
 ### Calendar Entry Join Buttons
 
-Teams Rooms devices read Exchange calendar entries and will automatically generate "Join" buttons for end users to be able to one touch join into Teams meetings. This functionality can also be enabled for third-party meeting platforms following this guidance: [Join third-party meetings](microsoftteams/rooms/mtr-home-refresh)
+Teams Rooms devices read Exchange calendar entries and will automatically generate "Join" buttons for end users to be able to one touch join into Teams meetings. This functionality can also be enabled for third-party meeting platforms following this guidance: [Join third-party meetings](/microsoftteams/rooms/third-party-join)
 
 If you wish to restrict the one touch join experience on Teams meetings, Teams Rooms offer controls to require users to enter the Teams Meeting ID and Passcode after a user selects the "Join" button adding further security to your Teams Rooms, this can be achieved by applying this configuration:
 
