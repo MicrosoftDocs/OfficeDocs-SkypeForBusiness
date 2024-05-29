@@ -136,7 +136,7 @@ On the device, open Teams Admin Settings > Meetings and toggle "Include Audio" a
 
 ### Join with an ID
 
-aaa
+Teams Rooms offer an option for end user to be able to enter the Teams Meeting ID and Passcode to be able to join a meeting.  If third party meetings are enabled on the device, they may also have the ability to join by ID into a third party meeting platform.
 
 ### Whiteboard
 
@@ -144,15 +144,15 @@ aaa
 
 ### Room Controls
 
-aaa
+Teams Rooms on Windows devices offer an extensibility option referred to as "Room Controls". Consult your Teams Rooms manufacturer or your AV partner if you wish to add extensibility controls for: lights/blinds, cameras, or custom video routing. These room controls are directly supported by your Teams Room manufacturer or AV partner.
 
 ### Accessibility
 
-aaa
+Teams Rooms on Windows devices offer an accessibility button which allows end user to enable/disable a high contrast screen mode making the Teams Rooms user interface more accessible.
 
 ### Language
 
-aaa
+Teams Rooms on Windows devices by default allow end users to change the language of the Microsoft Teams Rooms on the Microsoft Windows app. The language choices offered are the same as those that are offered in the Microsoft Teams desktop app. Once the language has been changed on the device, the device will continue using that language until a restart occurs (this restart could be triggered by a user or during the device maintenance reboot).
 
 ### ?
 
@@ -162,7 +162,7 @@ Repprt a Problem is.....
 
 #### Give Feedback
 
-Give Feedback is enabled on all Teams Rooms devices by default, but it is controllable by the Teams feedback policies outlined here: [Manage Feedback Policies](/microsoftteams/manage-feedback-policies-in-teams)
+Give Feedback is enabled on all Teams Rooms devices by default, Users can fill out Give feedback to send any comments or suggestions about Teams Rooms to Microsoft. We will use this feedback to improve the Teams experience. Data sent through Give feedback is considered as Support Data under your Microsoft 365 or Office 365 agreement, including information that would otherwise be considered Customer Data or Personal Data. This functionality is controllable by the Teams feedback policies outlined here: [Manage Feedback Policies](/microsoftteams/manage-feedback-policies-in-teams)
 
 ## QR Codes for Meeting Join
 
