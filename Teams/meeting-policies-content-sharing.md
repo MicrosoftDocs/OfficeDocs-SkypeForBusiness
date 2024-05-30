@@ -110,7 +110,7 @@ Before trying to use Microsoft Whiteboard, make sure that the Whiteboard app is 
 
 ### Collaborative annotations
 
-To you enable **Collaborative annotations**, a per-user policy, you must first enable **Whiteboard**. When you **Collaborative annotations** enable for users with an assigned policy, these users can use annotations, a feature that allows participants to collaborate while sharing their screen in a Teams meeting. If **Whiteboard** or **Collaborative annotations** are disabled, users don't have access to annotations.
+To enable **Collaborative annotations**, a per-user policy, you must first enable **Whiteboard**. When you **Collaborative annotations** enable for users with an assigned policy, these users can use annotations, a feature that allows participants to collaborate while sharing their screen in a Teams meeting. If **Whiteboard** or **Collaborative annotations** are disabled, users don't have access to annotations.
 
 To enable **Collaborative Annotations** using PowerShell, set the **`-AllowCollaborativeAnnotations`** parameter to $true from [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy):
 
