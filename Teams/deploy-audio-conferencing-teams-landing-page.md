@@ -158,11 +158,11 @@ You might want to change Audio Conferencing settings based on your organization'
 Teams provides several tools to monitor and manage call quality. For more information, see [Manage call quality](monitor-call-quality-qos.md).
 
 
-## Next steps
+## Related articles
 
-- [Drive adoption of Audio Conferencing in your organization](adopt-microsoft-teams-landing-page.md)
-- [Roll out cloud voice](cloud-voice-landing-page.md)
-- Include featured apps - such as Planner - in your initial Teams rollout. Add other [Teams apps](apps-in-teams.md) as you drive Teams adoption.
+- [Set up Audio Conferencing](set-up-audio-conferencing-in-teams.md)
+
+
 
 
 
