@@ -31,7 +31,7 @@ This article is for administrators and IT professionals who are evaluating Audio
 
 Audio Conferencing enables users to join a Teams meeting from a phone using a Public Switched Telephone Network (PSTN) phone number. Audio Conferencing is sometimes called dial-in conferencing or PSTN conferencing. Audio Conferencing allows up to 1,000 phone attendees.
 
-Audio Conferencing requires an additional Teams add-on license for each person in your organization who is going to schedule/host an Audio Conferencing meeting. (Audio Conferencing does not require a Teams Phone license.) For more information, see [Audio Conferencing prerequisites](#audio-conferencing-prerequisites).   **ADD LINK TO ADD-ON LICENSING AFTER IT'S UPDATED**
+Audio Conferencing requires an additional Teams add-on license for each person in your organization who is going to schedule/host an Audio Conferencing meeting. For more information, see [Audio Conferencing prerequisites](#audio-conferencing-prerequisites). (Audio Conferencing does not require a Teams Phone license.)   **ADD LINK TO ADD-ON LICENSING AFTER IT'S UPDATED**
 
 This article describes Audio Conferencing concepts and scenarios, and helps you decide whether to change any of the default Audio Conferencing settings, based on your organization's profile and business requirements.  When you're ready to deploy Audio Conferencing, see [Set up Audio Conferencing](set-up-audio-conferencing-in-teams.md).
 
@@ -72,9 +72,11 @@ For pricing info, see [Pricing for Audio Conferencing](https://go.microsoft.com/
 
 ## Audio Conferencing bridges
 
-When you're setting up Audio Conferencing for Teams, you get an audio conferencing bridge. A conferencing bridge can contain one or more phone numbers. The phone number you set is included on the meeting invites for Teams apps. You can [change the phone numbers on your conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md), and you can also [change other audio conferencing bridge settings](change-the-settings-for-an-audio-conferencing-bridge.md).
+When you're setting up Audio Conferencing for Teams, you get an Audio Conferencing bridge. A conferencing bridge can contain one or more phone numbers. The phone number you set is included on the meeting invites for Teams apps. You can [change the phone numbers on your conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md), and you can also [change other Audio Conferencing bridge settings](change-the-settings-for-an-audio-conferencing-bridge.md).
 
-The audio conferencing bridge answers a call for people who are dialing in to a meeting using a phone. It answers the caller with voice prompts from an Auto attendant, and then, depending on your settings, can play notifications and ask callers to record their name. **Microsoft bridge settings** allow you to change the settings for meeting notifications and the meeting join experience, and set the length of the PINs that are used by meeting organizers [in Microsoft Teams](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md). Meeting organizers use PINs to start meetings if they can't join the meeting using the Teams app.
+The Audio Conferencing bridge answers a call for people who are dialing in to a meeting using a phone. It answers the caller with voice prompts from an Auto attendant, and then, depending on your settings, can play notifications and ask callers to record their name.
+
+Microsoft bridge settings allow you to change the settings for meeting notifications and the meeting join experience, and set the length of the PINs that are used by meeting organizers [in Microsoft Teams](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md). Meeting organizers use PINs to start meetings if they can't join the meeting using the Teams app.
 
 You can use the default settings for a conferencing bridge. You can also change the phone numbers (toll and toll-free) and other settings, such as the PIN or the languages that are used.
 
@@ -82,7 +84,7 @@ You can use the default settings for a conferencing bridge. You can also change 
 |------------|-------|
 |Do I need to add new conferencing bridge numbers?| To add new numbers, see [Getting service phone numbers](./getting-service-phone-numbers.md).|
 |Will I need to modify the bridge settings?|To modify the bridge settings, see [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md).|
-|Do I need to port numbers to use with audio conferencing?|To learn about porting phone numbers, read [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).|
+|Do I need to port numbers to use with Audio Conferencing?|To learn about porting phone numbers, read [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).|
 |||
 
 
@@ -95,7 +97,7 @@ There are two types of service phone numbers that can be assigned to your confer
 
 With Audio Conferencing, your users can use toll and toll-free service phone numbers to dial in to meetings. Toll numbers are automatically assigned as shared Audio Conferencing numbers to organizations when they're enabled for Audio Conferencing.
 
-The default audio conferencing number assigned to an organizer is included only in the meeting invite. However, a caller can use any of the phone numbers assigned to your conferencing bridge to join a meeting. You can find the list of phone numbers available for joining a meeting using the **Find a local number** link included on every meeting invite.
+The default Audio Conferencing number assigned to an organizer is included only in the meeting invite. However, a caller can use any of the phone numbers assigned to your conferencing bridge to join a meeting. You can find the list of phone numbers available for joining a meeting using the **Find a local number** link included on every meeting invite.
 
 For more information, see [Phone numbers for Audio Conferencing in Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md).
 
@@ -104,7 +106,9 @@ Toll-free phone numbers are available, but only in some countries/regions. To se
 
 #### Dedicated phone numbers
   
-Dedicated phone numbers are service numbers that are only available to users within your organization.Dedicated toll and toll-free service numbers can be assigned to your organization from other cities. You can change the languages that are used when someone calls in to one of these numbers.
+Dedicated phone numbers are service numbers that are only available to users within your organization.  Dedicated toll and toll-free service numbers can be assigned to your organization from other cities. 
+
+You can change the languages that are used when someone calls in to a dedicated number. For more information, see [Set auto attendant languages for Audio Conferencing in Microsoft Teams](set-auto-attendant-languages-for-audio-conferencing-in-teams.md).
 
 You can get dedicated toll and toll-free phone numbers for your conferencing bridges in one of three ways:
 
@@ -129,15 +133,10 @@ The shared phone number assigned as the default number of the bridge is a number
 > Due to limited availability of toll phone numbers in Venezuela, Indonesia, and United Arab Emirates (UAE), organizations from these countries/regions won't have an Audio Conferencing toll number automatically assigned to them. Toll-free numbers from these locations are available depending on available inventory.
 
 To see a list of those countries/regions that have phone numbers automatically assigned to organizations, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
-  
-
-### Default and alternate languages for Audio Conferencing bridges
-
-Audio Conferencing lets you set up default and alternate languages for a conferencing bridge. For more information, see [Set auto attendant languages for Audio Conferencing in Microsoft Teams](set-auto-attendant-languages-for-audio-conferencing-in-teams.md).
 
 ## Dial-in phone number settings for users who lead meetings
 
-After you create your Audio Conferencing bridge, you need to set the toll and/or toll-free numbers that users who lead meetings will use. For more information, see [Assign dial-in phone numbers for users who lead meetings](set-up-audio-conferencing-in-teams.md#step-7-assign-dial-in-phone-numbers-for-users-who-lead-meetings). 
+After you create your Audio Conferencing bridge, you need to set the toll and/or toll-free numbers that users who lead meetings will use. For more information, see [Set up Audio Conferencing](set-up-audio-conferencing-in-teams.md#step-7-assign-dial-in-phone-numbers-for-users-who-lead-meetings). 
 
 ## Communications Credits
 
@@ -150,31 +149,13 @@ To provide toll-free conference bridge phone numbers and to support conferencing
 |Do I want to configure an auto-recharge amount?|To configure an auto-recharge amount, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).|
 |||
 
-## Other deployment decisions
+## Manage Audio Conferencing
 
-You might want to change these settings based on your organization's needs and configuration.
+You might want to change Audio Conferencing settings based on your organization's needs and configuration. For exmple, you can change settings for the service, the bridge, your users, and for specific meetings. For more information, see the Manage section of the Audio Conferencing articles. 
 
-### Outbound calling restriction policies
+## Meeting and call quality
 
-You can use outbound call controls to restrict the type of Audio Conferencing and Public Switched Telephone Network (PSTN) calls that users in your organization can make. For more information, see [Outbound calling restriction policies for Audio Conferencing and user PSTN calls](outbound-calling-restriction-policies.md).
-
-### Dial plans
-
-**DOES THIS APPLY TO AUDIO CONFERENCING?**  OR NUKE THIS SECTION ALTOGETHER?
-
-A dial plan in Teams Phone is a set of normalization rules that translate dialed numbers into another format (typically E.164 format) for call authorization and routing.
-
-For more information about dial plans, see [What are dial plans?](what-are-dial-plans.md)
-
-|Ask yourself|Action |
-|------------|-------|
-|Does my organization need a customized dial plan?|To help determine if you need a custom dial plan, see [Planning for tenant dial plans](what-are-dial-plans.md#planning-for-tenant-dial-plans). |
-|Which users require a customized dial plan, and which tenant dial plan should be assigned to each user?|To add users to a customized dial plan using PowerShell, see [Create and manage dial plans](create-and-manage-dial-plans.md).|
-|||
-
-### Troubleshoot meeting and call quality
-
-Teams gives you two ways to monitor and troubleshoot call quality problems: [Call Analytics and Call Quality Dashboard](monitor-call-quality-qos.md). Call Analytics shows detailed information about the devices, networks, and connectivity related to the specific calls and meetings for each user. Call Analytics is designed to help admins and help desk agents troubleshoot call quality problems with specific calls. The Call Quality Dashboard is designed to help admins and network engineers optimize a network. Call Quality Dashboard shifts focus from specific users and instead looks at aggregate information for an entire Teams organization.
+Teams provides several tools to monitor and manage call quality. For more information, see [Manage call quality](monitor-call-quality-qos.md).
 
 
 ## Next steps
