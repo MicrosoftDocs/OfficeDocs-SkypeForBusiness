@@ -937,7 +937,7 @@ items:
               href: audio-conferencing-zones.md
             - name: Country and region availability for Audio Conferencing
               href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-            - name: Audio Conferencing Complimentary Dial Out Period
+            - name: Audio Conferencing Complimentary Dial Out
               href: complimentary-dial-out-period.md
 
 - name: Voice - Teams Phone and PSTN connectivity
