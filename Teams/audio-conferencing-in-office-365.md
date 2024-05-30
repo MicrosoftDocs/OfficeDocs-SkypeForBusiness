@@ -105,7 +105,7 @@ Dedicated audio conferencing phone numbers are service numbers that you can get 
 
 ## How do you set it up?
 
-After you decide to set up Audio Conferencing for your users, see [Set up Audio Conferencing for Microsoft Teams](set-up-audio-conferencing-in-teams.md) for the steps you need to follow.
+After you decide to set up Audio Conferencing for your users, see [Plan for Audio Conferending](eploy-audio-conferencing-teams-landing-page.md) and [Set up Audio Conferencing for Microsoft Teams](set-up-audio-conferencing-in-teams.md).
 
 ## Related topics
 
