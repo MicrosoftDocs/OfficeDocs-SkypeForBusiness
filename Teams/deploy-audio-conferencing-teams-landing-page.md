@@ -55,15 +55,6 @@ For more information, see [Dial out from a Teams meeting so other people can joi
 
 
 
-## Audio Conferencing numbers and pricing
-
-With Audio Conferencing, your users can use toll and toll-free phone numbers to dial in to meetings. Toll (service) numbers are automatically assigned as shared Audio Conferencing numbers to organizations when they're enabled for Audio Conferencing. Dedicated toll and toll-free numbers can be assigned to your organization from other cities.
-
-Toll-free phone numbers (service numbers) are available, but only in some countries/regions. To see what is available in your country or region, see [Country and region availability for Audio Conferencing](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
-
-For pricing info, see [Pricing for Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=799762&clcid=0x409).
-
-
 
 ## Audio Conferencing prerequisites
 
@@ -75,6 +66,8 @@ Before you can roll out Audio Conferencing for Teams, consider these questions:
 |Do my users have the proper licensing for Audio Conferencing?|Audio Conferencing licenses are available as part of a Microsoft 365 or Office 365 E5 . Audio conferencing licenses are also available as an add-on service for a Microsoft 365 Business Standard, E1, or E3 subscription. <ul><li>To get and assign licenses, see [Assign or remove licenses for Microsoft 365 Apps for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).</li><li> To learn more, read [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md). </li><li>To see what cloud features are included in each plan, see the [License options based on your plan](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) articles.</li></ul>|
 |Do I need to purchase Communications Credits for the users who are assigned Audio Conferencing licenses?|To learn more, read [What are Communications Credits](what-are-communications-credits.md), then check out the [Communications Credits](#communications-credits) section.|
 |||
+
+For pricing info, see [Pricing for Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=799762&clcid=0x409).
 
 
 ## Audio Conferencing bridges
@@ -95,18 +88,23 @@ You can use the default settings for a conferencing bridge. You can also change 
 
 ### Phone numbers for Audio Conferencing bridges
 
-There are two types of phone numbers that can be assigned to your conferencing bridge: 
+There are two types of service phone numbers that can be assigned to your conferencing bridge: 
 
-- [**Dedicated numbers**](#dedicated-phone-numbers) available only to users with your organization
-- [**Shared numbers**](#shared-phone-numbers) that can be shared wiht users in other Microsoft 365 organizations
+- [**Dedicated numbers**](#dedicated-phone-numbers) available only to users with your organization.
+- [**Shared numbers**](#shared-phone-numbers) that can be shared with users in other Microsoft 365 organizations.
+
+With Audio Conferencing, your users can use toll and toll-free service phone numbers to dial in to meetings. Toll numbers are automatically assigned as shared Audio Conferencing numbers to organizations when they're enabled for Audio Conferencing.
 
 The default audio conferencing number assigned to an organizer is included only in the meeting invite. However, a caller can use any of the phone numbers assigned to your conferencing bridge to join a meeting. You can find the list of phone numbers available for joining a meeting using the **Find a local number** link included on every meeting invite.
 
 For more information, see [Phone numbers for Audio Conferencing in Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md).
 
+
+Toll-free phone numbers are available, but only in some countries/regions. To see what is available in your country or region, see [Country and region availability for Audio Conferencing](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+
 #### Dedicated phone numbers
   
-Dedicated phone numbers are service numbers that are only available to users within your organization. You can change the languages that are used when someone calls in to one of these numbers.
+Dedicated phone numbers are service numbers that are only available to users within your organization.Dedicated toll and toll-free service numbers can be assigned to your organization from other cities. You can change the languages that are used when someone calls in to one of these numbers.
 
 You can get dedicated toll and toll-free phone numbers for your conferencing bridges in one of three ways:
 
@@ -120,9 +118,9 @@ You can get dedicated toll and toll-free phone numbers for your conferencing bri
 
 #### Shared phone numbers
   
-Shared phone numbers are those phone numbers that can be shared with other Microsoft 365 organizations. You can't change the languages that are used when someone calls in to one of these numbers.
+Shared phone numbers are service phone numbers that can be shared with other Microsoft 365 organizations. Toll numbers are automatically assigned as shared Audio Conferencing numbers to organizations when they're enabled for Audio Conferencing. You can't change the languages that are used when someone calls in to one of these numbers.
 
-Shared phone numbers are automatically assigned to organizations when they're enabled for Audio Conferencing. When the phone numbers are assigned, a phone number is assigned as the default phone number of the conferencing bridge. The phone number assigned as the default number of the bridge is one from the country/region of the organization.
+The shared phone number assigned as the default number of the bridge is a number from the country/region of the organization.
 
 > [!NOTE]
 > The country or region location of your organization can be found by signing in to the **Microsoft 365 admin center** and looking under **Organization Profile**.
