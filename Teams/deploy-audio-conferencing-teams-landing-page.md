@@ -33,7 +33,7 @@ Audio Conferencing enables users to join a Teams meeting from a phone using a Pu
 
 Audio Conferencing requires an additional Teams add-on license for each person in your organization who is going to schedule/host an Audio Conferencing meeting. For more information, see [Audio Conferencing prerequisites](#audio-conferencing-prerequisites). (Audio Conferencing does not require a Teams Phone license.)   **ADD LINK TO ADD-ON LICENSING AFTER IT'S UPDATED**
 
-This article describes Audio Conferencing concepts, scenarios, and prerequisites. After reading this article, for step-by-step instructions for how to deploy Audio Conferencing, see [Set up Audio Conferencing](set-up-audio-conferencing-in-teams.md).
+This article describes Audio Conferencing concepts, scenarios, and prerequisites. After reading this article, for step-by-step instructions on how to deploy Audio Conferencing, see [Set up Audio Conferencing](set-up-audio-conferencing-in-teams.md).
 
 
 ## Audio Conferencing scenarios
@@ -72,11 +72,12 @@ For pricing info, see [Pricing for Audio Conferencing](https://go.microsoft.com/
 
 ## Audio Conferencing bridges
 
-When you're setting up Audio Conferencing for Teams, you get an Audio Conferencing bridge. A conferencing bridge can contain one or more phone numbers. The phone number you set is included on the meeting invites for Teams apps. You can [change the phone numbers on your conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md), and you can also [change other Audio Conferencing bridge settings](change-the-settings-for-an-audio-conferencing-bridge.md).
+When you set up Audio Conferencing for Teams, you get an audio conferencing bridge. The bridge answers the call for users who are dialing in to the meeting using a phone. The bridge answers the caller with voice prompts from an auto attendant, and then, depending on your settings, can play notifications and ask callers to record their name.
 
-The Audio Conferencing bridge answers a call for people who are dialing in to a meeting using a phone. It answers the caller with voice prompts from an Auto attendant, and then, depending on your settings, can play notifications and ask callers to record their name.
+A conferencing bridge can contain one or more phone numbers. The phone number you set is included on the meeting invites for Teams apps. You can [change the phone numbers (toll and toll free) on your conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md). 
 
-You can use the default settings for a conferencing bridge. You can also change the phone numbers (toll and toll-free) and other settings, such as the PIN or the languages that are used. Meeting organizers use PINs to start meetings if they can't join the meeting using the Teams app. For more information, see the Manage section of the Audio Conferencing articles. 
+You can use the default settings for a conferencing bridge, or change settings, such as the PIN. Meeting organizers use PINs to start meetings if they can't join the meeting using the Teams app. For more information, see [Settings for Audio Conferencing bridges](change-the-settings-for-an-audio-conferencing-bridge.md).
+
 
 |Ask yourself|Action |
 |------------|-------|
