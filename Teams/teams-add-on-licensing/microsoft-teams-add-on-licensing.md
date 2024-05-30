@@ -117,7 +117,7 @@ If you have a frontline worker subscription, buy a Teams Phone Standard for Fron
  - Other licensed Frontline Worker users also use the device as their primary work device.
  - Any software or services accessed from the shared device requires the devices or users to be assigned a user license that includes use of those software or services.
 
- For more information about, see [Understand frontline worker user types and licensing](/microsoft-365/frontline/flw-licensing-option).
+ For more information about frontline workers, see [Understand frontline worker user types and licensing](/microsoft-365/frontline/flw-licensing-option).
 
 ### Summary of Teams Phone license options
 
