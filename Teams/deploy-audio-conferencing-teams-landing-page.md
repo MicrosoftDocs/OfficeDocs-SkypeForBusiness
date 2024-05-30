@@ -33,7 +33,7 @@ Audio Conferencing enables users to join a Teams meeting from a phone using a Pu
 
 Audio Conferencing requires an additional Teams add-on license for each person in your organization who is going to schedule/host an Audio Conferencing meeting. For more information, see [Audio Conferencing prerequisites](#audio-conferencing-prerequisites). (Audio Conferencing does not require a Teams Phone license.)   **ADD LINK TO ADD-ON LICENSING AFTER IT'S UPDATED**
 
-This article describes Audio Conferencing concepts and scenarios, and helps you decide whether to change any of the default Audio Conferencing settings, based on your organization's profile and business requirements.  When you're ready to deploy Audio Conferencing, see [Set up Audio Conferencing](set-up-audio-conferencing-in-teams.md).
+This article describes Audio Conferencing concepts, scenarios, and prerequisites. After reading this article, for step-by-step instructions for how to deploy Audio Conferencing, see [Set up Audio Conferencing](set-up-audio-conferencing-in-teams.md).
 
 
 ## Audio Conferencing scenarios
@@ -76,9 +76,7 @@ When you're setting up Audio Conferencing for Teams, you get an Audio Conferenci
 
 The Audio Conferencing bridge answers a call for people who are dialing in to a meeting using a phone. It answers the caller with voice prompts from an Auto attendant, and then, depending on your settings, can play notifications and ask callers to record their name.
 
-Microsoft bridge settings allow you to change the settings for meeting notifications and the meeting join experience, and set the length of the PINs that are used by meeting organizers [in Microsoft Teams](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md). Meeting organizers use PINs to start meetings if they can't join the meeting using the Teams app.
-
-You can use the default settings for a conferencing bridge. You can also change the phone numbers (toll and toll-free) and other settings, such as the PIN or the languages that are used.
+You can use the default settings for a conferencing bridge. You can also change the phone numbers (toll and toll-free) and other settings, such as the PIN or the languages that are used. Meeting organizers use PINs to start meetings if they can't join the meeting using the Teams app. For more information, see the Manage section of the Audio Conferencing articles. 
 
 |Ask yourself|Action |
 |------------|-------|
@@ -86,6 +84,8 @@ You can use the default settings for a conferencing bridge. You can also change 
 |Will I need to modify the bridge settings?|To modify the bridge settings, see [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md).|
 |Do I need to port numbers to use with Audio Conferencing?|To learn about porting phone numbers, read [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).|
 |||
+
+
 
 
 ### Phone numbers for Audio Conferencing bridges
@@ -134,9 +134,6 @@ The shared phone number assigned as the default number of the bridge is a number
 
 To see a list of those countries/regions that have phone numbers automatically assigned to organizations, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-## Dial-in phone number settings for users who lead meetings
-
-After you create your Audio Conferencing bridge, you need to set the toll and/or toll-free numbers that users who lead meetings will use. For more information, see [Set up Audio Conferencing](set-up-audio-conferencing-in-teams.md#step-7-assign-dial-in-phone-numbers-for-users-who-lead-meetings). 
 
 ## Communications Credits
 
