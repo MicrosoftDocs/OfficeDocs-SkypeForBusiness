@@ -93,12 +93,9 @@ You can use the Teams admin center or PowerShell to manage whether meetings crea
 
 When the explicit recording policy is enabled, once the meeting recording starts, all participants are muted, with their cameras and content-share off. When a participant decides to unmute, turn on their camera, or share content, they’re prompted to respond 'Yes' or 'No' to consent to be included in the meeting recording. If an attendee responds 'No' to the prompt, they have a view-only meeting experience. View only attendees can't start recordings for any meetings that require explicit consent.
 
-The consent choice for each attendee is included in the attendance report. If the organizer disables the attendance report, the meeting can't be recorded. Attendees not in the attendance report—due to the admin policy or opting out—have a view-only meeting experience.
+The consent choice for each attendee is included in the attendance report. Attendees not in the attendance report—due to the admin policy or opting out—have a view-only meeting experience. When the attendance report is disabled, organizers and co-organizers don't see consent info, but as an admin, you can still see consent info in the audit logs.
 
 Before enabling this policy, make sure you check your chosen policy for the attendance report. To learn more about the attendance report, see [Attendance report for meetings and webinars in Microsoft Teams.](teams-analytics-and-reports/meeting-attendance-report.md)
-
-> [!NOTE]
-> The explicit recording consent policy doesn't apply to meetings started with transcription only and without recording.
 
 ### Supported and unsupported endpoints
 
@@ -279,3 +276,5 @@ You can use the following diagnostic tool to validate that the meeting recording
 - [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md)
 
 - [Roles in a Teams meeting](https://support.microsoft.com/office/c16fa7d0-1666-4dde-8686-0a0bfe16e019)
+- [Block the download of Teams meeting recording files from SharePoint or OneDrive](block-download-meeting-recording.md)
+- [Use OneDrive and SharePoint for meeting recordings](tmr-meeting-recording-change.md)
