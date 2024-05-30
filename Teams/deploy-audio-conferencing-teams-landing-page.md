@@ -123,7 +123,9 @@ You can get dedicated toll and toll-free phone numbers for your conferencing bri
 
 #### Shared phone numbers
   
-Shared phone numbers are service phone numbers that can be shared with other Microsoft 365 organizations. Toll numbers are automatically assigned as shared Audio Conferencing numbers to organizations when they're enabled for Audio Conferencing. You can't change the languages that are used when someone calls in to one of these numbers.
+Shared phone numbers are service phone numbers that can be shared with other Microsoft 365 organizations. Toll numbers are automatically assigned as shared Audio Conferencing numbers to organizations when they're enabled for Audio Conferencing. 
+
+You can't change the languages that are used when someone calls in to a shared number.
 
 The shared phone number assigned as the default number of the bridge is a number from the country/region of the organization.
 
