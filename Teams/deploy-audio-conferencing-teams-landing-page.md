@@ -1,5 +1,5 @@
 ---
-title: Deploy Audio Conferencing in Microsoft Teams
+title: Plan for Audio Conferencing in Microsoft Teams
 ms.reviewer: 
 description: Use these deployment resources to help you roll out Audio Conferencing for Microsoft Teams meetings.
 ms.topic: article
@@ -25,7 +25,7 @@ search.appverid: MET150
 appliesto: 
   - Microsoft Teams
 ---
-# Deploy Audio Conferencing in Microsoft Teams
+# Plan for Audio Conferencing in Microsoft Teams
 
 Audio Conferencing enables users to join a Teams meeting from a phone using a Public Switched Telephone (PSTN) phone number. Audio Conferencing is sometimes called dial-in conferencing or PSTN conferening. 
 
