@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: 
-ms.date: 07/01/2020
+ms.date: 05/29/2024
 description: An IT Admin guide to Insights in Microsoft Teams for Education.
 ms.localizationpriority: high
 search.appverid: MET150
@@ -147,7 +147,7 @@ Currently, data is collected from the following areas in class teams:
 > Most of the collected data shows up in Insights within a few minutes. Attendance in class meetings (meetings associated with one of the class channels) appears a few hours after the end of the meeting, usually up to 24 hours later.
 
 > [!NOTE]
-> Data collected in Education Insights is kept until either the IT Admin turns off the [Education Analytics toggle](#turn-sds-for-insights-on-or-off) or the Office subscription for the tenant ends. Turning off specific features in Teams does not delete historic data.
+> Data collected in Education Insights is kept until either the IT Admin turns off the Education Analytics toggle or the Office subscription for the tenant ends. Turning off specific features in Teams does not delete historic data.
 
 ### Privacy and security
 
@@ -191,16 +191,6 @@ Insights has been designed to support both students and educators in the digital
 
 To access Insights, users must have an A1, A3, or A5 faculty license for Microsoft 365.
 
-## Student Information System (SIS) integration
-
-The more data is fed into Insights, the better educators can support their students, and education leaders can support the educators.
-
-To provide organization-level Insights, we must use [School Data Sync (SDS)](/SchoolDataSync) to connect to the Student Information System (SIS) so that Insights has the hierarchical structure of the educational system mapped correctly.
-
-Viewing class-level Insights as the class educator *doesn't* require this because we use Teams' class structure and permissions.
-
-To learn more, read [**Sync Student Information System (SIS) data with Education Insights**](education-insights-sis-data-sync.md).
-
 ## Manage permissions
 
 As an IT admin you can provide permissions for education leaders, district leaders, school principals, head teachers, counselors, heads of learning areas, program directors, social workers, and psychologists. Educators are *automatically* given permission when they own a class team.
@@ -241,14 +231,6 @@ By default, Insights is turned on, which allows analytics of students' activitie
 
 There are two places where you can control *Education Insights*. Both options have the same result. For customers that have transitioned from *SDS (Classic)* to *SDS for provisioning*, only the Teams client option is available.
 
-#### Turn on and off Insights from the SDS admin center
-
-1. Open the [SDS Admin Center](https://sds.microsoft.com/).
-1. Go to **Settings** > **Manage Education Insights**.
-1. Adjust the **Collect activity data for Insights** toggle to on or off.
-
-![Screenshot of the SDS admin center toggles to turn Insights off and on.](media/manage-insights-toggles.png)
-
 #### Turn on and off Insights from the Teams client
 
 1. If you don’t have the *Education Insights* personal app pinned, follow [these instructions](class-insights.md#education-leaders) to add it.
@@ -268,12 +250,6 @@ Turning on this toggle won't collect any extra data other than the data already 
 
 There are two places where you can control *Advanced inferences*. Both options have the same result. For customers that have transitioned from *SDS (Classic)* to *SDS for provisioning*, only the Teams client option is available.  
 
-#### Turn on and off Advanced inferences from the SDS admin center
-
-1. Open the [SDS admin center](https://sds.microsoft.com/).
-1. Go to **Settings** > **Manage Education Insights**.
-1. Adjust the **Allow advanced inferences** toggle to on or off.
-
 #### Turn on and off Advanced inferences from the Teams client
 
 1. If you don’t have the *Education Insights* personal app pinned, follow [these instructions](class-insights.md#education-leaders) to add it.
@@ -282,16 +258,6 @@ There are two places where you can control *Advanced inferences*. Both options h
 
 > [!NOTE]
 > This toggle depends on the **Collect activity data for Insights** toggle. Turning off **Collect activity data for Insights** will also turn off the **Allow advanced inferences** toggle.
-
-### Turn SDS for Insights on or off
-
-School Data Sync (SDS) helps automate the import and synchronization of the Student Information System (SIS) data with Teams.
-
-The use of Insights *doesn't* require the use of SDS. However, you may choose to opt out from Insights at any time.
-
-- To turn off Insights use of School Data Sync, follow the instruction in [Disabling SDS for Insights](/schooldatasync/how-to-deploy-sds-for-insights#disabling-sds-for-insights).
-
-- To turn it back on, follow the instructions in [How to deploy SDS for Insights](/schooldatasync/how-to-deploy-sds-for-insights).
 
 ### How to delete user data from Education insights
 
@@ -321,12 +287,6 @@ There's no ability to limit the data set or time window of the deletion.
 If it's a *new* tenant and you've *never* seen data in Insights, check that your tenant is **verified as an education tenant** to access Insights. Contact your Microsoft account manager and ask them to check that the tenant is configured correctly.
 
 If you don't have an account manager, open a ticket. Go to the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal/) > **Support** > **New Service Request**.  In the title of the ticket, write: "Need assistance with education verification".
-
-Also, verify that data collection for Insights is enabled. While it's on by default, IT Admin may have turned it off and therefore deleted all the data held by Insights.
-
-To verify this, open the [SDS Admin Center](https://sds.microsoft.com) and go to **Settings** > **Manage Education Insights**. Check the status of 'Collect activity data for Insights'.
-
-If it's turned off, turn it back on.  Insights starts to collect data, but it may take up to 24 hours to see it in the reports.
 
 ### Why don't educators see meeting data?
 
