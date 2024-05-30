@@ -36,7 +36,7 @@ Clients are available for PC, Mac, and mobile, which provides features on device
 > [!NOTE]
 > For details about Teams phone systems on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
-**Licenses and voice enablement** - To use Teams Phone features, your organization must have a Teams Phone license. For more information about licensing, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+**Licenses and voice enablement** - To use Teams Phone features, your organization must have a Teams Phone license. For more information about licensing, including Teams Phone Standard and Teams Phone Standard for Frontline Workers, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 Most features require you to assign the Teams Phone license and ensure that users are "voice enabled." To assign the license, use the [Set-CsPhoneNumberAssignment cmdlet](/powershell/module/teams/set-csphonenumberassignment) and set the **EnterpriseVoiceEnabled** parameter to $true. A few features, such as Auto attendant, do not require a user to be voice enabled. Exceptions are called out in the table below.
   
@@ -82,10 +82,6 @@ The following capabilities are not yet available in GCC High and DoD Clouds.
 - [Transfer to voicemail mid call](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0)
 - Call phone number from search bar
 - Microsoft Entra ID reverse number lookup
-
-## Access the Teams Phone for Frontline Worker license
-
-To access the **Teams Phone Standard for Frontline Workers** license, your tenant must meet several requirements first. To learn what these requirements are, see [Purchase the Teams Phone Standard for Frontline Workers license](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md#purchase-the-teams-phone-standard-for-frontline-workers-license).
 
 ## Related articles
 
