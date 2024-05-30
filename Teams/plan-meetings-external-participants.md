@@ -1,8 +1,8 @@
 ---
 ms.date: 07/01/2023
 title: Plan for meetings with external participants in Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 ms.topic: conceptual
 ms.service: msteams
@@ -33,15 +33,15 @@ How external participants can attend meetings depends on a combination of your T
 There are three types of external participants who can attend meetings hosted by your organization:
 
 - **Guests** - people who are logged in to Teams in your organization using a guest account. Guests appear with "(Guest)" appended to their name in meetings.
-- **People from trusted organizations** - people who are logged in to Teams in other Microsoft 365 organizations that you have a two-way trust relationship with. People from trusted organizations appear with "(External)" appended to their name in meetings.
-- **Anonymous** - people whose identity can't be verified. They may be logged in to an organization without a two-way trust relationship or they may not have an account. Anonymous participants appear with "(Unverified)" appended to their name in meetings.
+- **People from trusted organizations** - people who are logged in to Teams in other Microsoft 365 organizations that you have a mutual trust relationship with. People from trusted organizations appear with "(External)" appended to their name in meetings.
+- **Anonymous** - people whose identity can't be verified. They may be logged in to an organization without a mutual trust relationship or they may not have an account. Anonymous participants appear with "(Unverified)" appended to their name in meetings.
 
 ## Meeting with verified external participants
 
 A *verified* external meeting participant is one that is logged in to Teams in Microsoft 365 in way that you trust. There are two types of verified external meeting participants:
 
 - **Guests** - people who are logged in to Teams with a [guest account](guest-access.md) in your directory. Guests can be anyone with an email address, including people from other Microsoft 365 organizations.
-- **People from trusted organizations** - people in other Microsoft 365 organizations with which you have configured a two-way trust relationship in [external access](trusted-organizations-external-meetings-chat.md) and who have the required user-level external access permissions
+- **People from trusted organizations** - people in other Microsoft 365 organizations with which you have configured a trust relationship in [external access](trusted-organizations-external-meetings-chat.md) and who have the required user-level external access permissions
 
 External participants who are not verified in one of these two ways are considered *[anonymous](#meetings-with-anonymous-participants)*.
 

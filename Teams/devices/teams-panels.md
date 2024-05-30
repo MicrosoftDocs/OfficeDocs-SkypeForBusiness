@@ -1,10 +1,10 @@
 ---
-title: Microsoft Teams panels
+title: Plan for Teams panels
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: eviegrimshaw
-ms.date: 02/15/2021
+ms.date: 03/14/2024
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
@@ -19,7 +19,7 @@ f1.keywords:
   - NOCSH
 search.appverid: MET150
 ms.localizationpriority: medium
-description: This article provides an overview of and features supported by Microsoft Teams panels.
+description: This article provides the information required when you are planning to deploy and manage Microsoft Teams panels.
 ---
 
 # Microsoft Teams panels

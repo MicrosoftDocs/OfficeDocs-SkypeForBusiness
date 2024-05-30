@@ -42,20 +42,19 @@ A SIP gateway lets compatible SIP devices connect seamlessly to Teams for callin
 - **Message waiting indicator:** SIP device users can receive notifications that alert them when they have new voicemail messages.
 - **Sign-in and sign-out:** SIP devices users can sign in and sign out of Teams on the device.
 - **Dual-tone multi-frequency:** SIP device users can press number keys to provide input during interactive voice response calls.
-- **Teams meetings:** A user's SIP device can join Teams meetings by dialing into the meeting using a phone number. A meeting participants can add a internal and external guests to a meeting by dialing out to user's phone number or can add them by using the 'Request to Join' button.
+- **Teams meetings:** A user's SIP device can join Teams meetings by dialing into the meeting using a phone number. A meeting participant can add an internal and external guest to a meeting by dialing out to user's phone number or can add them by using the 'Request to Join' button.
 - **Call transfers:** SIP device users can transfer calls. SIP Gateway supports both blind and consultative transfers.
-- **Local call forwarding:** A user can set forwarding rules (always, on timeout, and busy) for the device. If the device is connected to the SIP Gateway, then the call will be sent to the calls enpoint based on the rule that the user has set. To make local call forwarding work, the admin must set the `AllowCallRedirect` attribute in `Set-CsTeamsCallingPolicy` to `Enabled`.
+- **Local call forwarding:** A user can set forwarding rules (always, on timeout, and busy) for the device. If the device is connected to the SIP Gateway, then the call will be sent to the calls endpoint based on the rule that the user has set. To make local call forwarding work, the admin must set the `AllowCallRedirect` attribute in `Set-CsTeamsCallingPolicy` to `Enabled`.
 - **Off board stale devices:** A SIP gateway supports auto offboarding of stale devices provisioned for a tenant. Paired (signed-in) devices will be off boarded if not connected for 30 days, and unpaired (signed-out) devices after 14 days. A device that has been off boarded can be onboarded again after a factory reset.
 - **Set DND from SIP devices:** You can use your SIP device for setting and fetching your Teams Do Not Disturb (DND) status. To set the DND status for your Teams account from your SIP device, dial the feature code \*30\* on the SIP device. To reset your Teams DND status, dial \*31\* from the SIP device. Dialing \*31\* clears the user-configured presence status, in this case DND.
-- **Call Queues and voice apps support:** Customers can use SIP devices as call queue agents with some restrictions, for instance, SIP Gateway doesn't publish presence for devices hence presence based routing is not supported.
-
+- **Call Queues and voice apps support:** Customers can use SIP devices as call queue agents with some restrictions, for instance, SIP Gateway doesn't publish presence for devices hence presence based routing isn't supported.
 
 ## Requirements to use SIP Gateway
 
 Teams users must have a phone number with PSTN calling enabled to use SIP Gateway.
 
 > [!NOTE]
-> SIP Gateway is now available for government community cloud (GCC) environment. It is not yet available for GCC High and DoD.
+> SIP Gateway is now available for government community cloud (GCC) environment. It isn't yet available for GCC High and DoD.
 
 >[!note]
 >SIP Gateway Feature Codes:
@@ -72,12 +71,11 @@ Teams users must have a phone number with PSTN calling enabled to use SIP Gatewa
 > Voicemail -
 > \*99\* - Check voicemail
 
-
 ### Hardware, software, and licenses
 
 If you have a 3PIP or SIP device, you must have the following:
 
-- [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software)
+- [Microsoft Teams](https://www.microsoft.com/microsoft-teams/group-chat-software)
 - Skype for Business Online (Plan 2)
   - *Skype for Business Online (Plan 2)* isn't a standalone license that can be purchased.
 - [Microsoft Phone System](what-is-phone-system-in-office-365.md)
@@ -87,7 +85,6 @@ If you have a 3PIP or SIP device, you must have the following:
 
 |Vendor    |Model      |Minimum firmware version|Approved firmware version|Remarks|Links|
 |----------|-----------|------------|-----------|------------|------------|
-
 |**Cisco** |           |            |           |Devices running enterprise firmware must be converted to multiplatform firmware. Read the guide at the right to learn how.|[Cisco firmware conversion guide](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-7800-series/guide-c07-742786.html)|
 |          |8832<sup>1</sup>       |11.3.5MPP   |12-0-1MPP  |   |   |
 |          |6821<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
@@ -273,10 +270,11 @@ If you have a 3PIP or SIP device, you must have the following:
 |**Snom**|       |     |              |                |   |
 |          |D717          |10.1.141.13     |10.1.141.13 |IP Phone   |   |
 |          |D735          |10.1.141.13     |10.1.141.13 |IP Phone   |   |
+
 <sup>1</sup> Device supports dynamic emergency calling (E911) with SIP Gateway.
 
 > [!NOTE]
-> Compatible Cisco SIP IP phones support dynamic location discovery over LLDP only. 
+> Compatible Cisco SIP IP phones support dynamic location discovery over LLDP only.
 
 > [!NOTE]
 > Customers can use AudioCodes OVOC and Poly Lens to manage device side configuration of their AudioCodes 400 series and Poly VVX/Trio devices respectively.
@@ -307,13 +305,12 @@ If you have a 3PIP or SIP device, you must have the following:
 
 > [!NOTE]
 > Customers should contact their Tango Extend Reseller for support queries related to Tango Extend eSIM endpoints. Help and Support information are provided in the Tango Extend Teams App.
-> 
-> **Emergency Calling** - Emergency calling is supported from the Tango Extend eSIM and this uses the Teams number. Teams is not notified of emergency calls made from the eSIM but will receive returned calls towards the Teams number.
+>
+> **Emergency Calling** - Emergency calling is supported from the Tango Extend eSIM and this uses the Teams number. Teams isn't notified of emergency calls made from the eSIM but will receive returned calls towards the Teams number.
 >
 > **Tango Extend Supported Features** - Sign-in/out using Tango Extend Teams App with Teams policy sync, Make/receive calls with hold/resume and DTMF, dial-in to meeting, request to join, voicemail and MWI, Teams DND and Call Forwarding.
 >
 > **Currently Unsupported Features** - Sign-out / sign-in currently creates redundant (signed out) entries for the eSIM endpoint in Teams Admin Center.
 > Remote Sign-in from TAC is currently not supported by Tango Extend.
 > Teams mobile client – If users have both Tango Extend eSIM and Teams mobile client on their phones, then inbound calls will prioritize the Teams mobile client.
-> Call transfer – where presented by mobile dialler menu option this is not supported by Tango Extend.
- 
+> Call transfer – where presented by mobile dialler menu option this isn't supported by Tango Extend.

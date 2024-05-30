@@ -1,7 +1,7 @@
 ---
 title: Shared channels in Microsoft Teams
-author: MikePlumleyMSFT
-ms.author: mikeplum
+author: jacktremper
+ms.author: jtremper
 manager: pamgreen
 ms.reviewer: jasonlewis
 ms.date: 08/15/2023

@@ -3,6 +3,8 @@ title: Set Microsoft Teams Android devices user interface
 ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
+ms.reviewer: divank
+ms.date: 04/29/2024
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
@@ -13,8 +15,6 @@ ms.collection:
   - teams-rooms-devices
   - Teams_ITAdmin_Devices
   - Tier1
-ms.reviewer: divank
-ms.date: 07/26/2021
 ms.localizationpriority: medium
 description: Learn how to set the user interface on Teams Android devices.
 ---
@@ -58,7 +58,7 @@ This image shows a user account with a [Microsoft Teams Rooms license](/Microsof
 
 ## Override automatic user interface detection
 
-In some cases, you may choose to assign a license to an account that doesn't match its intended use. For example, you may assign a user license to an account meant to sign in to Teams Rooms on Android. By default, you would see the end-user interface instead of the meeting room interface. To override the default interface, create a new [Teams IP Phone Policy](/powershell/module/skype/new-csteamsipphonepolicy) and apply to it to that account.  
+In some cases, you may choose to assign a license to an account that doesn't match its intended use. For example, you may assign a user license to an account meant to sign in to Teams Rooms on Android. By default, you would see the end-user interface instead of the meeting room interface. To override the default interface, create a new [Teams IP Phone Policy](/powershell/module/teams/new-csteamsipphonepolicy) and apply to it to that account.  
 
 > [!NOTE]
 > The license assigned to the user account must have at least the same license entitlements as the desired user interface. The **Microsoft Teams Shared Devices** license only allows the common area phone user interface. The **Teams Rooms** license only allows meeting room interfaces. An E3 or E5 license supports all sign-in modes. Learn more about [deploying Teams Phone devices](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/how-to-deploy-teams-phone-devices/ba-p/3994979). 

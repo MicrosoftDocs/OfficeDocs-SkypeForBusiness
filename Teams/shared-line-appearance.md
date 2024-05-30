@@ -42,7 +42,7 @@ When a delegate makes an outbound PSTN call on behalf of a delegator, the delega
 Managers and delegates must have a Teams Phone license. Managers must have a phone number assigned, PSTN connectivity, and a required license for PSTN connectivity: Calling Plan, Operator Connect, or Direct Routing. The shared line experience is part of delegation and is included with Teams Phone. For more information on licensing, see [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
 
 > [!NOTE]
-> A delegate without a phone number assigned must be EnterpriseVoiceEnabled using the Teams PowerShell cmdlet Set-CsPhoneNumberAssignment -Identity \<user\> -EnterpriseVoiceEnabled $true, see [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment).
+> A delegate without a phone number assigned must be EnterpriseVoiceEnabled using the Teams PowerShell cmdlet Set-CsPhoneNumberAssignment -Identity \<user\> -EnterpriseVoiceEnabled $true, see [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment). If a Dial Pad shows in the Calls App of the Delegate, they are correctly configured for Enterprise Voice.  
 
 ## Shared line appearance feature availability
 
@@ -126,6 +126,6 @@ Remove-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso
 
 [Configure Teams calling policy](/MicrosoftTeams/teams-calling-policy)
 
-[New-CsTeamsCallingPolicy](/powershell/module/skype/new-csteamscallingpolicy)
+[New-CsTeamsCallingPolicy](/powershell/module/teams/new-csteamscallingpolicy)
 
-[Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
+[Set-CsTeamsCallingPolicy](/powershell/module/teams/set-csteamscallingpolicy)

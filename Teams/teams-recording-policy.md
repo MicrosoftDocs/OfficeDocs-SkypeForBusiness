@@ -1,7 +1,7 @@
 ---
 title: Introduction to Teams Policy-based Recording for Calling & Meetings
-author: MikePlumleyMSFT
-ms.author: mikeplum
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.date: 05/11/2020
 audience: Admin
@@ -172,12 +172,16 @@ Microsoft Graph communications APIs and SDKs with Microsoft before
 submitting their solution for certification. This requirement ensures that all
 requirements of compliance recording integration are supported.
 
-Two specific requirements that are fundamental for compliance recording
-scenario are:
+Requirements that are fundamental for compliance recording
+scenario:
 
-- Recorder bot must be deployed in Azure
+- Recorder bot must be deployed in Azure.
 
-- Recorder bot must run on a Windows VM in Azure
+- Recorder bot must run on a Windows VM in Azure.
+
+- Recorder bot outbound firewall destination IP address must be open to the Azure public IP range.
+
+- Recorder bot inbound firewall source IP address must be open to the Azure public IP range.
 
 The Azure and Windows VM requirements only apply to the Teams Bot
 component, which means that a partner might implement the rest of the
@@ -233,7 +237,7 @@ policies](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group).
    -ComplianceRecordingApplications @(New-CsTeamsComplianceRecordingApplication -Id 5069aae5-c451-4983-9e57-9455ced220b7 -Parent TestComplianceRecordingPolicy)
    ```
 
-   See [Set-CsTeamsComplianceRecordingPolicy](/powershell/module/skype/set-csteamscompliancerecordingpolicy).
+   See [Set-CsTeamsComplianceRecordingPolicy](/powershell/module/teams/set-csteamscompliancerecordingpolicy).
 
 3. Assign the Compliance Recording policy to a user.
 
@@ -241,7 +245,7 @@ policies](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group).
    PS C:\> Grant-CsTeamsComplianceRecordingPolicy -Identity testuser@contoso.onmicrosoft.com -PolicyName TestComplianceRecordingPolicy
    ```
 
-   See [Grant-CsTeamsComplianceRecordingPolicy](/powershell/module/skype/grant-csteamscompliancerecordingpolicy).
+   See [Grant-CsTeamsComplianceRecordingPolicy](/powershell/module/teams/grant-csteamscompliancerecordingpolicy).
 
    ```powershell
    PS C:\> Get-CsOnlineUser testuser@contoso.onmicrosoft.com | select SipAddress, TenantId, TeamsComplianceRecordingPolicy | fl
@@ -309,7 +313,7 @@ This list gets updated as more partners join and meet the certification criteria
 
 ## Support boundaries
 
-Microsoft only supports Compliance Recording solutions from the certified partners. If there are issues, you must contact your Compliance Recording partner first. If needed, the Compliance Recording partner will bring the issue to Microsoft through internal channels. Microsoft may reject support cases where a non-certified Compliance Recording solution is used, or if investigation shows the issue is one that the partner can address.
+Microsoft supports Compliance Recording solutions only from the certified partners. If there are issues, you must contact your Compliance Recording partner first. If needed, the Compliance Recording partner will bring the issue to Microsoft through internal channels. Microsoft may reject support cases where a non-certified Compliance Recording solution is used, or if investigation shows the issue is one that the partner can address.
 
 ## Next steps
 

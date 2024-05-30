@@ -1,12 +1,12 @@
 ---
 title: Manage RTMP-In for Teams meetings, webinars, and town halls
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: srajay
-ms.date: 04/20/2023
+ms.date: 03/5/2024
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -33,7 +33,7 @@ RTMP-In allows meeting, webinar, and town hall organizers to produce their meeti
 > [!NOTE]
 > RTMP-In is a Teams Premium feature for all meeting and event formats, except town halls.
 
-As an admin, you must enable RTMP-In for the organizer. Organizers with an enabled RTMP-In policy can choose the option in their Meeting options and can access the RTMP link and key they need to start streaming from the encoder.
+As an admin, you can enable RTMP-In for meeting and event organizers. Organizers with this enabled policy can access the RTMP link and key needed to start streaming from the encoder through their **Meeting options**.
 
 The incoming RTMP feed must deliver:  
 
@@ -44,8 +44,9 @@ The incoming RTMP feed must deliver:
 
 ## RTMP ingest endpoints
 
-As part of the network connectivity principles, ensure that the Microsoft 365 endpoints are reachable as defined in
-[Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges). In addition, ensure you also have the following domains/ports:
+As part of the network connectivity principles, make sure that the Microsoft 365 endpoints are reachable as defined in
+[Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges).
+Verify that you also have the following domains/ports:
 
 **Domains**: *.rtmpingest.mcr.teams.microsoft.com<br>
 **Ports**: 1935/1936 (for RTMP/RTMPS)
@@ -53,7 +54,7 @@ As part of the network connectivity principles, ensure that the Microsoft 365 en
 ## Manage whether organizers can use RTMP-In with the Teams admin center
 
 1. Open the Teams admin center.
-2. Select **Meetings** from the navigation pane.
+2. Expand **Meetings** from the navigation pane.
 3. Under **Meetings**, select **Meeting Policies**.
 4. Either select an existing policy or create a new one.
 5. Navigate to the **Audio & Video section**.
@@ -62,7 +63,7 @@ As part of the network connectivity principles, ensure that the Microsoft 365 en
 
 ## Manage whether organizers can use RTMP-In with PowerShell
 
-To manage whether organizers can use RTMP-In, use the **`-AllowedStreamingMediaInput`** parameter within the PowerShell [**CsTeamsMeetingPolicy**](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet.
+To manage whether organizers can use RTMP-In, use the **`-AllowedStreamingMediaInput`** parameter within the PowerShell [**CsTeamsMeetingPolicy**](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet.
 
 ### Enable RTMP-In
 
@@ -90,8 +91,8 @@ Get-CsTeamsMeetingPolicy -Identity <policy name>|fl AllowedStreamingMediaInput
 
 ## Related topics
 
-[Teams policies reference](settings-policies-reference.md#audio--video)
+- [Teams policies reference](settings-policies-reference.md#audio--video)
 
-[Teams PowerShell overview](teams-powershell-overview.md)
+- [Teams PowerShell overview](teams-powershell-overview.md)
 
-[Assign policies to your users in Teams](policy-assignment-overview.md)
+- [Assign policies to your users in Teams](policy-assignment-overview.md)

@@ -31,8 +31,6 @@ If your admin has given you the ability to use optional connected experiences in
 
 GIPHY is a cloud-backed service that lets you use GIFs in your Teams chats. If you're in **Teams** > **GIF** > **Search**, the search terms are sent to GIPHY. These experiences, if allowed by your admin and after you choose to use them, are subject to the [GIPHY Privacy Policy](https://support.giphy.com/hc/articles/360032872931-GIPHY-Privacy-Policy) and [Terms of Service](https://support.giphy.com/hc/articles/360020027752-GIPHY-User-Terms-of-Service).
 
-:::image type="content" source="../media/giphy-menu.png" alt-text="This is a menu showing the Giphy selection button and textbox for typing information in to retrieve a Giphy image or images.":::
-
 ## Ratings and reviews for Teams apps
 
 Ratings and reviews allow Teams users to provide feedback about their experience with using a Teams app. Reviews are anonymous unless the user chooses otherwise. All Teams users can view these ratings and reviews on the details page for the app. Users are only allowed to provide ratings and reviews for apps they’ve installed and only for apps that are publicly available from Microsoft or other companies. The ratings are powered by Microsoft AppSource and are shown on the app’s page on the [AppSource website](https://appsource.microsoft.com/). AppSource is provided under the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement) and the [Microsoft Commercial Marketplace Terms of Use](/legal/marketplace/marketplace-terms).
@@ -47,11 +45,9 @@ The Teams app link previews service generates a preview snippet of the app's ada
 
 ## Teams device store checkout  
 
-Teams device store is in the Teams admin center and it enables discovery and purchase of Teams certified devices. To enable checkout, the Teams device store shares basic user and company information, including user email address, user GUIDs and tenant GUIDs, with UnifiedCommunications.com. This experience, if allowed by the **Allow the use of additional optional connected experiences in Office** policy setting, is subject to the terms of service and privacy statement of UnifiedCommunications.com.
+Teams device store is available in the Teams admin center and Teams App. It enables discovery and purchase of Teams certified devices. To enable checkout, the Teams device store shares basic user and company information, including user email address, user GUIDs, and tenant GUIDs, with UnifiedCommunications.com. This experience, if allowed by the **Allow the use of additional optional connected experiences in Office** policy setting, is subject to the terms of service and privacy statement of UnifiedCommunications.com.
 
-:::image type="content" source="../media/teams-device-store-buttons.png" alt-text="A screenshot of a portion of the Teams device store page with Checkout options provided by UnifiedCommunications.com, a third-party company that enables device purchasing from the Teams admin center.":::
-
-To learn more about Teams device store, check out: [Purchase devices in the Teams device store](../devices/device-store.md)
+To learn more about Teams device store, see [Purchase devices in the Teams device store](../devices/device-store.md).
 
 ## URL Preview service
 
@@ -62,7 +58,6 @@ The URL Preview service automatically generates a preview snippet and attaches u
 ## Related articles
 
 - [Overview of policy controls for Teams](policy-control-overview.md)
-- [Privacy and Microsoft Teams](teams-privacy.md)
 - [Overview of optional connected experiences in Office](/deployoffice/privacy/optional-connected-experiences)
 - [Required service data for Office](/deployoffice/privacy/required-service-data)
 - [Account Privacy Settings](https://support.microsoft.com/office/3e7bc183-bf52-4fd0-8e6b-78978f7f121b)

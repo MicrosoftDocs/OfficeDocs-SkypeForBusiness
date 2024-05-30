@@ -4,7 +4,7 @@ author: lana-chin
 ms.author: v-chinlana
 manager: jtremper
 audience: admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: 
 ms.date: 02/09/2024
@@ -41,4 +41,4 @@ Centralize communication, access to resources, and plant operations with your te
 >[!div class="mx-tdBreakAll"]
 >|Template type|TemplateId| Properties that come with this template |
 >| ------------------|-- |----------------------------------------------------- |
->|Quality and safety|`com.microsoft.teams.template.QualitySafety` |Channels: <ul><li>General</li><li>Leadership</li><li>Maintenance</li><li>Production Line 1</li><li>Production Line 2</li><li>Production Line 3</li><li>Health and Safety</li><li>Training</li><li>Fun Stuff</li></ul> Apps: <ul><li>Approvals</li><li>Inspection</li><li>Issue reporting</li><li>Shifts</li> <li>Tasks by Planner and To Do</li> <li>Wiki</li> </ul>|
+>|Quality and safety|`com.microsoft.teams.template.QualitySafety` |Channels: <ul><li>General</li><li>Leadership</li><li>Maintenance</li><li>Production Line 1</li><li>Production Line 2</li><li>Production Line 3</li><li>Health and Safety</li><li>Training</li><li>Fun Stuff</li></ul> Apps: <ul><li>Approvals</li><li>Inspection</li><li>Issue reporting</li><li>Shifts</li> <li>Planner</li> <li>Wiki</li> </ul>|
