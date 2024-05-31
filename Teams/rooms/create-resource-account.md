@@ -44,10 +44,10 @@ Depending on your environment, you need one or more roles to create resource acc
 
 | Environment | Required Roles |
 |-----|-----|
-|Microsoft Entra ID  <br/> |Global Administrator or User Administrator  <br/> |
-|Active Directory  <br/> |Active Directory Enterprise Admins, Domain Admins, or have delegated rights to create users. Microsoft Entra Connect Sync rights.  <br/> |
-|Exchange Online  <br/> |Global Administrator or Exchange Administrator   <br/> |
-|Exchange Server  <br/> |Exchange Organization Management or Recipient Management   <br/> |
+|Microsoft Entra ID |Global Administrator or User Administrator |
+|Active Directory |Active Directory Enterprise Admins, Domain Admins, or have delegated rights to create users. Microsoft Entra Connect Sync rights. |
+|Exchange Online |Global Administrator or Exchange Administrator  |
+|Exchange Server |Exchange Organization Management or Recipient Management  |
 
 > [!IMPORTANT]
 > If you're creating resource accounts for Teams Rooms, the resource account's UPN must match the SMTP address of the resource account.
