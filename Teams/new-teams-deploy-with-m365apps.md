@@ -45,6 +45,9 @@ The date when the new Teams starts being installed with Microsoft 365 Apps depen
 |Enterprise|Monthly Enterprise Channel and Semi-Annual Enterprise Channel (Preview)|November 2023|
 |Enterprise|Semi-Annual Enterprise Channel|December 2023|
 
+This information when new Teams will be included in Semi-Annual Enterprise Channel (SAEC) is incorrect based on testing.
+SAEC still includes classic Teams as of a week ago. SAEC (Preview) does include new Teams.
+
 ## Prerequisites for target computers
 
 For new Teams to be successfully installed, computers must meet the minimum requirements listed here.
