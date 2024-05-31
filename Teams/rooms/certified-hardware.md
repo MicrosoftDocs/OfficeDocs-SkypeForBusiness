@@ -103,6 +103,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Windows C
 | [Microsoft Surface Hub 2S 85" upgraded with the Surface Hub 3 Pack](https://www.microsoft.com/d/surface-hub-3-pack-for-business/8mf5qhhn1t4g) | Core i5 | 32 GB | 512 GB |
 | [Microsoft Surface Hub 2S 50" migrated to run the Teams Rooms on Windows experience](https://aka.ms/migrate-surface-hub-2s) | Core i5 | 8 GB | 128 GB |
 | [Microsoft Surface Hub 2S 85" migrated to run the Teams Rooms on Windows experience](https://aka.ms/migrate-surface-hub-2s) | Core i5 | 8 GB | 128 GB |
+| Poly Studio G9 Plus with TC10 | Core i7 | 16 GB | 256 GB |
 | [Poly G10-T with Lenovo ThinkSmart Tiny](https://www.poly.com/us/en/products/video-conferencing/g/g10) | Core i5 | 8 GB | 128 GB |
 | [Poly G40-T Kit with Poly Studio USB, with Lenovo](https://www.poly.com/us/en/support/products/video-conferencing/poly-room-solutions/g40) | Core i5 | 8 GB | 128 GB |
 | [Poly G85-T Kit with Poly Eagle Eye Director II, with Lenovo](https://www.poly.com/us/en/support/products/video-conferencing/poly-room-solutions/g85) | Core i5 | 8 GB | 128 GB |
