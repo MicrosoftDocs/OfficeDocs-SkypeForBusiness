@@ -4,7 +4,7 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: jtremper
 ms.topic: article
-ms.date: 02/28/2024
+ms.date: 05/31/2024
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -22,7 +22,6 @@ ms.localizationpriority: high
 ---
 # Known issues for new Microsoft Teams
 
-- PowerPoint Live Standout isn't yet available.
 - Language-aware spell checking is currently not available in the new Teams. The team is focusing on this issue with a high priority. Check back for updates.
 - New Teams client isn't respecting the date time formats set in the OS. This issue affects both 12h/24h time formatting and date formatting in the product. A fix is pending; check back for updates.
 - The app will crash if users hit enter instead of clicking the *Create* button after entering the team name in the team creation wizard.
@@ -44,7 +43,7 @@ ms.localizationpriority: high
 
 > [!NOTE]
 > Issues in the first section of this article also may affect EDU. If your issue isn't on either list, file a support ticket at: [**aka.ms/EduSupport**](https://aka.ms/edusupport).
->  
+>
 > The desktop clients will be updated as issues are fixed and functionality added. Check back here for the latest information.
 
 We currently have no EDU-specific features, but this may change.
