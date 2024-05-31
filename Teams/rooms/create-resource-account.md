@@ -42,7 +42,7 @@ Every resource account is unique to a single Microsoft Teams Rooms installation 
 
 Depending on your environment, you need one or more roles to create resource accounts.
 
-|**Environment**|**Required Roles**|
+| Environment | Required Roles |
 |-----|-----|
 |Microsoft Entra ID  <br/> |Global Administrator or User Administrator  <br/> |
 |Active Directory  <br/> |Active Directory Enterprise Admins, Domain Admins, or have delegated rights to create users. Microsoft Entra Connect Sync rights.  <br/> |
