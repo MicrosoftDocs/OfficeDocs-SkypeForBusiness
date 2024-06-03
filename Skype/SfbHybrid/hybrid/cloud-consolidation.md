@@ -90,13 +90,13 @@ The diagrams below show the configuration at various key points during this proc
 
 - Both organizations sync via Microsoft Entra Connect, so Microsoft Entra ID now has all users from both on-premises deployments.
 - All users homed on-premises.  
-- Skype for Business Hybrid is *not* yet configured.
+- Skype for Business Hybrid isn't* yet configured.
 - If users in either deployment use Teams, they won’t be able to federate with each other (or any organization), nor will they have interoperability with any Skype for Business users. While in this stage, Microsoft recommends using Teams for Channels only.<br><br>
     ![Figure A diagram.](../media/cloudconsolidationfiga.png)
 
 ##### Figure B
 
-- AcquiredCompany.<span>com is a [disabled](/powershell/module/skype/disable-csonlinesipdomain) online SIP domain. All users are on-premises. If they use Teams, they do not have federation or interoperability. While in this stage, Microsoft recommends using Teams for Channels only.
+- AcquiredCompany.<span>com is a [disabled](/powershell/module/skype/disable-csonlinesipdomain) online SIP domain. All users are on-premises. If they use Teams, they don't have federation or interoperability. While in this stage, Microsoft recommends using Teams for Channels only.
 - Skype for Business Hybrid has been enabled for one of the on-premises organizations.
 - Some users in the hybrid organization have been moved to the cloud and are Teams Only(user A as indicated by purple shading). These users Teams Only users have full interoperability and federation support with any other Skype for Business users.
 
@@ -127,7 +127,7 @@ The steps in the canonical example above assume that the organization starts wit
 - Multiple federated on-premises organizations that are already syncing multiple Skype for Business forest into a single Microsoft Entra tenant. Such an organization resembles the hypothetical organization in Figure A, which has completed steps 1-6 and should start at step 7.
 - A hybrid organization that federates with one or more other pure on-premises organizations, none of which sync to Microsoft Entra ID. Such an organization would resemble the hypothetical organization in **Figure E**, shown below.
   - This organization is similar to Figure B, which has completed steps 1-9, except:
-        - Its non-hybrid Skype for Business deployments are *NOT* yet syncing to Microsoft Entra ID.
+        - Its nonhybrid Skype for Business deployments are *NOT* yet syncing to Microsoft Entra ID.
         -  Online SIP domains aren't yet disabled.
   - These organizations should either:
         - Complete migration of the existing hybrid organization and enter the above sequence at step 10.  OR,
@@ -143,7 +143,7 @@ The steps in the canonical example above assume that the organization starts wit
 
 - There must be at most one Microsoft 365 organization involved. Consolidation in scenarios with more than one organization isn't supported.
 - Only one on-premises Skype for Business forest can be in hybrid mode (shared SIP address space) at a time. All other on-premises Skype for Business forests must remain purely on-premises and should be federated with each other and the Microsoft 365 organization.
-- Prior to being migrated to the cloud, there is an asymmetric experience for users in this deployment, because not all users in online are represented on-premises.
+- Prior to being migrated to the cloud, there's an asymmetric experience for users in this deployment, because not all users in online are represented on-premises.
   - The experience can be summed up as follows:
     - Any user homed online will interact with on-premises users in the hybrid environment as if the user is hybrid.
     - On-premises users in the hybrid deployment will interact with online users who are represented in their on-premises directory as if they were hybrid.
@@ -154,10 +154,10 @@ The steps in the canonical example above assume that the organization starts wit
       - Call forwarding doesn't work between federated domains.
       - Call transfer scenarios are more limited.
       - Throttling may be applied to federated traffic.
-- Given this experience, support for calling functionality in cross-premises scenarios between an on-premises user and a cloud user that isn't in the on-premises directory is limited to peer to peer only.
+- Given this experience, support for calling functionality in cross-premises scenarios between an on-premises user and a cloud user that isn't in the on-premises directory is limited to peer only.
   - Call forwarding, transfer, call queues, etc. between these users isn't supported.
-  - These non-supported calling scenarios will still appear enabled, but in many cases they will fail in unpredictable ways.
-  - In **[Figure D](#figure-d)** above, user E is on-premises, and calls with users A, B, or C will be supported only as peer to peer. (Calls with user D would not have support limitations.)  However, after the on-premises user E is moved to the cloud, this restriction no longer applies.
+  - These nonsupported calling scenarios will still appear enabled, but in many cases they'll fail in unpredictable ways.
+  - In **[Figure D](#figure-d)** above, user E is on-premises, and calls with users A, B, or C will be supported only as peer to peer. (Calls with user D wouldn't have support limitations.)  However, after the on-premises user E is moved to the cloud, this restriction no longer applies.
 - If you have more than one deployment of Skype for Business Server 2019 in your environment, only one of those deployments can be configured to use Organizational Auto Attendant, since that feature requires Skype for Business Server hybrid configuration.
 - The order of some of the previous steps can be adjusted. The key requirement is that if all of these are true:
   - More than one on-premises Skype for Business forest syncing to a single Microsoft 365 tenant in Microsoft Entra ID.
@@ -181,7 +181,7 @@ When you move users from on premises to the cloud in a hybrid environment, these
         - SfBWithTeamsCollabAndMeetings
         - SfBOnly
   - You can grant tenant-wide policy by using this command:<br>`Grant-CsTeamsUpgradePolicy -PolicyName SfBWithTeamsCollab -Global`
-  - Note: You must do this step at a tenant-wide level because policy cannot be assigned to individual users who don't have a SIP address in the online directory. While you have disabled online SIP domains for your pure on-premises deployment(s), users in those domains won’t have SIP addresses in the online directory by design. Hence, the only way to apply policy to those on-premises users is by assigning at the tenant level. In the hybrid deployment, users will have a SIP address in the online directory so they can be explicitly assigned a policy if it’s desired that they have a different value than the tenant global policy.
+  - Note: You must do this step at a tenant-wide level because policy can't be assigned to individual users who don't have a SIP address in the online directory. While you have disabled online SIP domains for your pure on-premises deployment(s), users in those domains won’t have SIP addresses in the online directory by design. Hence, the only way to apply policy to those on-premises users is by assigning at the tenant level. In the hybrid deployment, users will have a SIP address in the online directory so they can be explicitly assigned a policy if it’s desired that they have a different value than the tenant global policy.
 
 ## See also
 
