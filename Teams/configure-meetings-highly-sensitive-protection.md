@@ -1,7 +1,7 @@
 ---
 title: Configure Teams meetings with protection for highly sensitive data
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
@@ -34,7 +34,7 @@ For the *highly sensitive* level of protection, we'll look at two different scen
 
 #### Highly sensitive meetings
 
-For highly sensitive meetings, we'll restrict who can bypass the lobby, who can present, when participants can chat, and we'll block copying from the meeting chat. We'll also enable end-to-end encryption and watermarking for shared video and content. Because we're using watermarks, meeting recording will be disabled.
+For highly sensitive meetings, we'll restrict who can bypass the lobby, who can present, when participants can chat, and we'll block copying from the meeting chat. We'll also enable end-to-end encryption and watermarking for shared video and content.
 
 The following table describes which actions we'll restrict for highly sensitive meetings and where those options are configured.
 
@@ -49,10 +49,10 @@ The following table describes which actions we'll restrict for highly sensitive 
 |Meeting chat|**In-meeting only**|Template|Yes|
 |People dialing in can bypass the lobby|**Off**|Label|Yes|
 |Prevent copying chat content to clipboard|**On**|Label|Yes|
-|Record meetings automatically|(Disabled due to watermarking and encryption)|N/A|N/A|
+|Record meetings automatically|**Off**|Template|Yes|
 |Who can bypass the lobby?|**Only organizers and co-organizers**|Label|Yes|
 |Who can present|**Only organizers and co-organizers**|Label|Yes|
-|Who can record|(Disabled due to watermarking and encryption)|N/A|N/A|
+|Who can record|**Only organizers and co-organizers**|Template|No|
 
 Options that are listed as enforced are enforced by the sensitivity label or meeting template. Options that are not enforced can be changed by the meeting organizer.
 
@@ -75,10 +75,10 @@ The following table describes which actions we'll restrict for highly sensitive 
 |Meeting chat|**Off**|Template|Yes|
 |People dialing in can bypass the lobby|**Off**|Label|Yes|
 |Prevent copying chat content to clipboard|**On**|Label|Yes|
-|Record meetings automatically|(Disabled due to watermarking and encryption)|N/A|N/A|
+|Record meetings automatically|**Off**|Template|Yes|
 |Who can bypass the lobby?|**Only organizers and co-organizers**|Label|Yes|
 |Who can present|**Only organizers and co-organizers**|Label|Yes|
-|Who can record|(Disabled due to watermarking and encryption)|N/A|N/A|
+|Who can record|**Only organizers and co-organizers**|Template|No|
 
 Options that are listed as enforced are enforced by the sensitivity label or meeting template. Options that are not enforced can be changed by the meeting organizer.
 
@@ -88,10 +88,6 @@ Watch this video for a walkthrough of the procedures described in this article.
 <br>
 <br>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1bXYL]
-
-## Options for recording meetings
-
-For the *highly sensitive* level of protection, we use watermarking and end-to-end encryption for both meetings and presentations. However, using these features prevents recording the meeting. If you have a need to record highly sensitive meetings, we recommend not configuring watermarks and end-to-end encryption as part of the sensitivity label. They can still be used by meeting organizers for meetings they don't need to record.
 
 ## Presentation options for highly sensitive meetings
 
@@ -145,7 +141,7 @@ To create a sensitivity label
 1. Select **Next**.
 1. Complete the wizard with any additional settings you want to use, select **Create label**, and then select **Done**.
 
-Once you've created the label, you need to publish it to the users who will use it. For highly sensitive protection, we make the label available to all users. You publish the label in the Microsoft Purview compliance portal, on the **Label policies** page under **Information protection**. If you have an existing policy that applies to all users, add this label to that policy. If you need to create a new policy, see [Publish sensitivity labels by creating a label policy](/compliance/create-sensitivity-labels#publish-sensitivity-labels-by-creating-a-label-policy).
+Once you've created the label, you need to publish it to the users who will use it. For highly sensitive protection, we make the label available to all users. You publish the label in the Microsoft Purview compliance portal, on the **Label policies** page under **Information protection**. If you have an existing policy that applies to all users, add this label to that policy. If you need to create a new policy, see [Publish sensitivity labels by creating a label policy](/purview/create-sensitivity-labels#publish-sensitivity-labels-by-creating-a-label-policy).
 
 For additional information about using sensitivity labels with meetings, see [Use sensitivity labels to protect calendar items, Teams meetings and chat](/microsoft-365/compliance/sensitivity-labels-meetings).
 
@@ -169,6 +165,8 @@ To create a meeting template for highly sensitive meetings
 1. Type a name and description for the template.
 1. In the **Apply sensitivity label** section, choose the label you created above.
 1. Select **Apply sensitivity label**, and then select **Lock**.
+1. Set **Record meetings automatically** to **Off** and then select the option and select **Lock**.
+1. Set **Who can record** to **Only organizers and co-organizers**.
 1. Set **Meeting chat** to **In-meeting only** and then select the option and select **Lock**.
 1. Set **Manage what attendees see** to **On** and then select the option and select **Lock**.
 1. Change any additional options if desired.
@@ -187,6 +185,8 @@ To create a meeting template for highly sensitive presentations
 1. Select **Apply sensitivity label**, and then select **Lock**.
 1. Set **Allow mic for attendees** to **Off** and then select the option and select **Lock**.
 1. Set **Allow camera for attendees** to **Off** and then select the option and select **Lock**.
+1. Set **Record meetings automatically** to **Off** and then select the option and select **Lock**.
+1. Set **Who can record** to **Only organizers and co-organizers**.
 1. Set **Meeting chat** to **Off** and then select the option and select **Lock**.
 1. Set **Manage what attendees see** to **On** and then select the option and select **Lock**.
 1. Change any additional options if desired.

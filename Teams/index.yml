@@ -15,6 +15,9 @@ metadata:
   ms.author: samanro #Required; microsoft alias of author; optional team alias.
   ms.date: 06/15/2023 #Required; mm/dd/yyyy format.
   ms.localizationpriority: high
+  ms.collection:
+  - M365-Teams-ITPro #Required; collection slug assigned to your service by ACOM.
+  - essentials-navigation 
   ms.custom: 
   - seo-marvel-apr2020
   - intro-hub-or-landing
@@ -51,7 +54,7 @@ productDirectory:
     # Card
     - title: Prepare for end user adoption 
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: https://learn.microsoft.com/office/media/icons/users-people.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/users-group.svg
       summary: Get your users on board and share scenarios for success.
       url: ./adopt-microsoft-teams-landing-page.md
     # Card
@@ -87,7 +90,7 @@ tools:
     # Card
     - title: Learn for IT Pros and admins
       # imageSrc should be square in ratio with no whitespace
-      imageSrc: https://learn.microsoft.com/office/media/icons/administrator.svg
+      imageSrc: https://learn.microsoft.com/office/media/icons/administrator-teams.svg
       url: /training/teams/
     # Card
     - title: Microsoft Teams & Microsoft 365 Developer platform

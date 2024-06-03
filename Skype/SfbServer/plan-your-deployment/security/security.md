@@ -11,7 +11,8 @@ ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-ms.collection: IT_Skype16
+ms.collection:
+- essentials-security
 ms.assetid: cbc800db-35f6-45c0-b9f6-d8cee0c7e922
 description: "Skype for Business Server security content."
 ---

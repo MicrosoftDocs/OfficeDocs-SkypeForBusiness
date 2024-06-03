@@ -25,9 +25,6 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 # Configure network settings for Location-Based Routing
 
-> [!NOTE]
-> Operator Connect for India is a preview release. Content is subject to change. Check back for updates.
-
 This article describes how to configure network settings for Location-Based Routing. This article applies to Direct Routing and Operator Connect for India.
 
 - **If you have Direct Routing,** see [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md) to review other steps you'll need to take before you configure network settings.

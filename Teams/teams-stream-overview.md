@@ -1,7 +1,7 @@
 ---
-title: Overview of the encoder for streaming in Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+title: Live events in Microsoft Teams overview
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
@@ -9,27 +9,27 @@ audience: admin
 ms.collection: 
   - M365-collaboration
   - m365initiative-meetings
-ms.reviewer: asteele
-ms.date: 09/20/2022
+ms.reviewer: christi.balaki
+ms.date: 01/16/2024
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: This article gives an overview of encoder-based RTMP configuration for Microsoft Teams streaming events.
-localization_priority: Normal
+ms.localizationpriority: Medium
 appliesto: 
   - Microsoft Teams
 ms.custom:
 ---
-# Live streaming events in Microsoft Teams
+# Live events in Microsoft Teams overview
 
 > [!NOTE]
-> Teams live events will be deprecated on September 30, 2024. We recommend that you use town halls instead. For details, see [Plan for Teams town halls](/microsoftteams/plan-town-halls).
+> Teams Live Events will no longer be deprecated on September 30, 2024, as previously announced. While we still recommend that customers upgrade to [Teams town hall](plan-town-halls.md) when ready to take advantage of new features and experiences, Live Events users can now schedule events beyond September 2024. For more information, please read our [recent blog post](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/extension-for-teams-live-events-retirement/ba-p/4148352).
 
-You can create live events using Microsoft Teams across your organization. You can schedule, produce, and deliver live events for various scenarios such as company-wide events, leadership updates, and more. Live streaming events enable producers to curate and control the content that's broadcast to an audience.
+You can create live events using Microsoft Teams across your organization. You can schedule, produce, and deliver live events for various scenarios such as company-wide events, leadership updates, and more. Live streaming events enable producers to curate and control the content that is broadcast to an audience.
 
 You can create, schedule, and run live events using a single bitrate RTMP or RTMPS stream from an encoder – we take care of all the transcoding for adaptive bitrate delivery to your viewers.
 
-Just like any other video in Teams, you can make the live event open to your entire company or limit the access to specific groups. This provides an end-to-end creation and viewing experience inside of Teams.
+Just like any other video in Teams, you can make the live event open to your entire company or limit the access to specific groups. Managing the event access type provides an end-to-end creation and viewing experience inside of Teams.
 
 After the event, the video will be available on demand with intelligent features including:
 
@@ -38,7 +38,7 @@ After the event, the video will be available on demand with intelligent features
 
 ## Live events in Microsoft 365
 
-You can create a live steaming event in Teams or Viva Engage, wherever your audience, team, or community resides. Attendees can watch the event in high-definition (HD) video and submit questions through a moderated Q&A experience. Seamless integration across Microsoft 365 means that you can use Teams to deliver highly produced, studio-quality events.
+You can create live events in Teams or Viva Engage, wherever your audience, team, or community resides. Attendees can watch the event in high-definition (HD) video and submit questions through a moderated Q&A experience. Seamless integration across Microsoft 365 means that you can use Teams to deliver highly produced, studio-quality events.
 
 ## Get started
 
@@ -61,13 +61,13 @@ The following are capabilities of live streaming events:
 |Operation                                            |Limits                                                               |
 |-----------------------------------------------------|---------------------------------------------------------------------|
 |Create live events in Teams (with external encoder)  |Enterprise (E1, E3, E5), Education (A3, A5)                          |
-|Watch live event                                     |Viewers with permissions to view the event and a valid Teams license (unless the event is public, then a license to view is not required) |
+|Watch live event                                     |Viewers with permissions to view the event and a valid Teams license (unless the event is public, then a license to view isn't required) |
 |Maximum resolution                                   |720p                                                                 |
-|Maximum concurrent live events (in pre-live or live) |15                                                                   |
-|Active concurrent viewers                            |10000                                                                |
-|Maximum length of live event                         |4 hours                                                              |
+|Maximum concurrent live events (in prelive or live) |15<sup>1</sup>                                                                   |
+|Active concurrent viewers                            |10000<sup>1</sup>                                                                |
+|Maximum length of live event                         |4 hours <sup>1</sup>                                                             |
 |Partner network caching support                      |Hive, Kollective, Riverbed, Ramp, Microsoft                          |
-|Other network caching support                        |May work, but isn't supported                                        |
+|Other network caching support                        |Might work, but isn't supported                                        |
 |Attendee DVR controls                                |Pause, playback speed (2x catch up, 1x at live), seek                |
 |Real-time captions                                   |708 caption pass-through from encoder                                |
 |Automatic speech-to-text and captions                |Processed after the event                                            |
@@ -76,4 +76,6 @@ The following are capabilities of live streaming events:
 |On-demand viewing on live event (after event)        |Automatic transition for live to on-demand for immediate viewing and indexing in Teams |
 |Downloadable recording                               |Processed and available after the live event by owners               |
 
-Live events in Teams is a highly available service and you can expect good performance at scale. In the unlikely scenario that results in failover being required, live events using external encoding won't have redundancy and aren't recoverable.
+<sup>1</sup> The limits that are set might be changed. Check [Limits and specifications for Teams](limits-specifications-teams.md).<br/>
+
+Teams live events is a highly available service and you can expect good performance at scale. In the unlikely scenario that results in failover being required, live events using external encoding don't have redundancy and aren't recoverable.

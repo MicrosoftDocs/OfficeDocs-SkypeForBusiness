@@ -1,10 +1,10 @@
 ---
 title: Shared channels errors in Microsoft Teams
-author: MikePlumleyMSFT
-ms.author: mikeplum
+author: jacktremper
+ms.author: jtremper
 manager: pamgreen
 ms.reviewer: jasonlewis
-ms.date: 07/12/2022
+ms.date: 01/17/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -60,6 +60,8 @@ To check the inbound settings for your organization
 1. If you made changes, select **Save** and close the **Inbound access settings** blade.
 
 If users continue to see the error, check with the organization that they're collaborating with. That organization's outbound settings may disallow sharing with your organization. For information about setting up shared channels between organizations, see [Collaborate with external participants in a shared channel](/microsoft-365/solutions/collaborate-teams-direct-connect).
+
+You can specify an internal help link that appears as part of this error message. The link can go to your internal documentation about how to request shared channel for your organization. For more information, see [Specify a link to your internal process for requesting new external organizations](/microsoft-365/solutions/collaborate-teams-direct-connect#specify-a-link-to-your-internal-process-for-requesting-new-external-organizations).
 
 ## We couldn't find any matches. Make sure the email address is correct, or talk to your admin
 

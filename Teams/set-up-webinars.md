@@ -1,5 +1,6 @@
 ---
-title: Admin- Set up webinars
+title: Manage who can schedule webinars in Microsoft Teams
+
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
@@ -21,10 +22,10 @@ ms.collection:
   - m365initiative-meetings
   - highpri
   - Tier1
-description: Learn how to set up and manage webinar policies for IT Admins in Teams.
+description: Learn how to set up webinars and manage who can schedule webinars for IT Admins in Teams.
 ---
 
-# Admin- Set up webinars in Microsoft Teams
+# Manage who can schedule webinars in Microsoft Teams
 
 **APPLIES TO:** ✖️Meetings ✔️Webinars ✖️Town halls
 
@@ -105,6 +106,7 @@ Set-CsTeamsEventsPolicy -Identity <policy name> -EventAccessType Everyone
 
 ## Related articles
 
+- [Issues that affect Teams webinars](/microsoftteams/troubleshoot/meetings/issues-with-webinars)
 - [Plan for webinars](plan-webinars.md)
 - [Manage the registration form for webinars](manage-registration-form-webinars.md)
 - [Manage email communications for webinars](manage-email-communications.md)

@@ -16,13 +16,13 @@ ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: "Describes how to to install and configure watcher nodes for Skype for Business Server synthetic transactions."
 ---
 
-# Install and configure watcher nodes for Skype for Business Server synthetic transactions
+# Install and configure Skype for Business Server watcher nodes
  
 **Summary:** Install and configure watcher nodes for Skype for Business Server synthetic transactions.
   
 Watcher nodes are computers that periodically run Skype for Business Server synthetic transactions. Synthetic transactions are Windows PowerShell cmdlets that verify that key user scenarios, such as the ability to sign in or to exchange instant messages, are working as expected. For Skype for Business Server 2015, System Center Operations Manager can run the synthetic transactions shown in the following table, which includes three synthetic transaction types:
   
-- **Default** Synthetic transactions that a watcher node runs by default. When you create a new watcher node, you can specify which synthetic transactions that node will run. (That's the purpose of the Tests parameter used by the New-CsWatcherNodeConfiguration cmdlet.) If you don't use the Tests parameter when the watcher node is created, it automatically runs all the Default synthetic transactions and doesn't run any of the Non-default synthetic transactions. This means, for example, that the watcher node will be configured to run the Test-CsAddressBookService test, but won't be configured to run the Test-CsExumConnectivity test.
+- **Default** Synthetic transactions that a watcher node runs by default. When you create a new watcher node, you can specify which synthetic transactions that node run. (That's the purpose of the Tests parameter used by the New-CsWatcherNodeConfiguration cmdlet.) If you don't use the Tests parameter when the watcher node is created, it automatically runs all the Default synthetic transactions and doesn't run any of the Non-default synthetic transactions. This means, for example, that the watcher node will be configured to run the Test-CsAddressBookService test, but won't be configured to run the Test-CsExumConnectivity test.
     
 - **Non-default** Tests that watcher nodes don't run by default. (For details, see the description of the Default type.) However, the watcher node can be enabled to run any of the Non-default synthetic transactions. You can do this when you create the watcher node (by using the New-CsWatcherNodeConfiguration cmdlet), or anytime after the watcher node has been created. Note that many of the Non-default synthetic transactions require extra setup steps. For more details about these steps, see [Special Setup Instructions for Synthetic Transactions](test-users-and-settings.md#special_synthetictrans).
     

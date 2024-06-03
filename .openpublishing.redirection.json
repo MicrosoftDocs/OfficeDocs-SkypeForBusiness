@@ -1,6 +1,26 @@
 {
   "redirections": [
     {
+      "source_path": "Teams/non-standard-users.md",
+      "redirect_url": "/microsoftteams/apps-external-users",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Teams/manage-tasks-app.md",
+      "redirect_url": "/microsoftteams/manage-planner-app",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Teams/Office-365-custom-connectors.md",
+      "redirect_url": "/microsoftteams/m365-custom-connectors",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/app-permissions-admin-center.md",
+      "redirect_url": "/microsoftteams/manage-consent-app-permissions",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Teams/upload-custom-apps.md",
       "redirect_url": "/microsoftteams/teams-custom-app-policies-and-settings",
       "redirect_document_id": false
@@ -2677,8 +2697,8 @@
     },
     {
       "source_path": "Teams/data-collection-practices.md",
-      "redirect_url": "/microsoftteams/teams-privacy",
-      "redirect_document_id": true
+      "redirect_url": "/microsoftteams/privacy/location-of-data-in-teams",
+      "redirect_document_id": false
     },
     {
       "source_path": "Teams/upgrade-automated.md",
@@ -4711,9 +4731,114 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "Teams/service-health.md",
+    "redirect_url": "/microsoft-365/enterprise/view-service-health",
+    "redirect_document_id": false
+  },
+  {
     "source_path": "Teams/unsupported-browsers.md",
     "redirect_url": "https://support.microsoft.com/office/daafdd3c-ac7a-4855-871b-9113bad15907",
     "redirect_document_id": false
-  }
- ] 
+  },
+  {
+    "source_path": "Teams/teams-add-on-licensing/advanced-communications.md",
+    "redirect_url": "/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "teams/teams-privacy.md",
+    "redirect_url": "/microsoftteams/privacy/location-of-data-in-teams",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "teams/location-of-data-in-teams.md",
+    "redirect_url": "/microsoftteams/privacy/location-of-data-in-teams",
+    "redirect_document_id": true
+  },
+  {
+    "source_path": "teams/teams-privacy-feedback.md",
+    "redirect_url": "/microsoftteams/privacy/teams-privacy-feedback",
+    "redirect_document_id": true
+  },
+  {
+    "source_path": "teams/policy-control-overview.md",
+    "redirect_url": "/microsoftteams/privacy/policy-control-overview",
+    "redirect_document_id": true
+  },
+  {
+    "source_path": "teams/policy-control-diagnostic-data-desktop.md",
+    "redirect_url": "/microsoftteams/privacy/policy-control-diagnostic-data-desktop",
+    "redirect_document_id": true
+ },
+ {
+  "source_path": "teams/policy-control-diagnostic-data-mobile.md",
+  "redirect_url": "/microsoftteams/privacy/policy-control-diagnostic-data-mobile",
+  "redirect_document_id": true
+},
+ {
+    "source_path": "teams/teams-privacy-oce-overview.md",
+    "redirect_url": "/microsoftteams/privacy/teams-privacy-oce-overview",
+    "redirect_document_id": true
+ },
+ {
+    "source_path": "teams/operator-connect-data-transfer.md",
+    "redirect_url": "/microsoftteams/privacy/operator-connect-data-transfer",
+    "redirect_document_id": true
+ },
+ {
+    "source_path": "teams/privacy/index.md",
+    "redirect_url": "/microsoftteams/privacy/location-of-data-in-teams",
+    "redirect_document_id": false
+ },
+ {
+    "source_path": "teams/new-teams-automatic-upgrade-announced.md",
+    "redirect_url": "/microsoftteams/teams-classic-client-end-of-availability",
+    "redirect_document_id": false
+},
+{
+  "source_path": "teams/manage-freemium.md",
+  "redirect_url": "/microsoftteams/user-access",
+  "redirect_document_id": false
+},
+{
+  "source_path": "teams/upgrade-freemium.md",
+  "redirect_url": "/microsoftteams/user-access",
+  "redirect_document_id": false
+},
+{
+  "source_path": "teams/teams-add-on-licensing/remove-assign-free-licenses.md",
+  "redirect_url": "/microsoftteams/user-access",
+  "redirect_document_id": false
+},
+{
+  "source_path": "Skype/SfbHybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online.md",
+  "redirect_url": "/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud",
+  "redirect_document_id": false
+},
+{
+  "source_path": "Teams/tutorial-audio-conferencing.yml",
+  "redirect_url": "/microsoftteams/audio-conferencing-in-office-365",
+  "redirect_document_id": false
+},
+{
+  "source_path": "teams/privacy/teams-privacy.md",
+  "redirect_url": "/microsoftteams/privacy/location-of-data-in-teams",
+  "redirect_document_id": false
+},
+{
+  "source_path": "Teams/rooms/with-skype-for-business-server-2015.md",
+  "redirect_url": "/microsoftteams/rooms/create-resource-account",
+  "redirect_document_id": false
+},
+{
+"source_path": "Teams/cloud-video-interop-for-teams-set-up.md",
+"redirect_url": "/microsoftteams/cloud-video-interop",
+"redirect_document_id": true
+},
+{
+  "source_path": "teams/new-teams-troubleshooting-installation.md",
+  "redirect_url": "/microsoftteams/troubleshoot/teams-administration/fix-new-teams-installation-issues",
+  "redirect_document_id": false
+}
+] 
 }

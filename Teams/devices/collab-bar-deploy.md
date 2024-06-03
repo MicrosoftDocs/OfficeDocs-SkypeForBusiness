@@ -3,20 +3,22 @@ title: Deploy Microsoft Teams Rooms on Android
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-audience: ITPro
 ms.reviewer: tjaved
 ms.date: 11/04/2023
-ms.topic: quickstart
+ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
-f1.keywords: 
-  - NOCSH
-ms.localizationpriority: medium
+audience: Admin
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
+  - teams-rooms-devices
   - M365-collaboration
   - Teams_ITAdmin_Devices
   - Tier1
-ms.custom: 
+f1.keywords: 
+  - NOCSH
+ms.localizationpriority: medium
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Read this article to learn about deploying Microsoft Teams Rooms on Android.
 ---

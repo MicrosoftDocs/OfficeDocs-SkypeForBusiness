@@ -3,20 +3,20 @@ title: How to use Microsoft Teams panels devices
 ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
-ms.reviewer: weizxue
-ms.date: 02/18/2021
-ms.topic: reference
+ms.reviewer: eviegrimshaw
+ms.date: 03/19/2024
+ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
 audience: Admin
 appliesto: 
   - Microsoft Teams
-f1.keywords: 
-  - NOCSH
 ms.collection: 
   - teams-rooms-devices
   - Teams_ITAdmin_Devices
   - Tier1
+f1.keywords: 
+  - NOCSH
 search.appverid: MET150
 ms.localizationpriority: medium
 description: This article provides guidance on how to use Teams panels devices.
@@ -122,7 +122,7 @@ The right tile on the Home screen now appears in purple and displays the **Reser
     :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Home screen showing that meeting space is reserved for an ad hoc meeting.":::
 
     > [!NOTE]
-    > If the meeting space is a Microsoft Teams Room, you can _join_ this Teams meeting with the in-room Microsoft Teams Rooms or Surface Hub devices.
+    > If the meeting space is a Microsoft Teams Rooms, you can _join_ this Teams meeting with the in-room Microsoft Teams Rooms or Surface Hub devices.
 
 ### View or update a device setting
 

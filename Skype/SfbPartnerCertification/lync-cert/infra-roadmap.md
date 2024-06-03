@@ -7,7 +7,7 @@ manager: serdars
 ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: lync
-ms.prod: lync-server-2013 
+ms.service: lync-server-2013
 ms.collection: Lync
 audience: Admin
 appliesto:

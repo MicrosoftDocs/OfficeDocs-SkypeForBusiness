@@ -22,7 +22,7 @@ description: "Information about the Skype for Business Server Feature Overview p
  
 Skype for Business Server 2015 Planning Tool
   
-You can use the **Central Sites** page of the Planning Tool to design the Skype for Business Server deployment. You can create two either a centralized or distributed deployment. A centralized deployment only has one central site, which homes all Skype for Business users in your organization. A distributed deployment has more than one central site. If you deploy Skype for Business Server at multiple central sites, then you will enter the number of users at each central site in the Planning Tool.
+You can use the **Central Sites** page of the Planning Tool to design the Skype for Business Server deployment. You can create two either a centralized or distributed deployment. A centralized deployment only has one central site, which homes all Skype for Business users in your organization. A distributed deployment has more than one central site. If you deploy Skype for Business Server at multiple central sites, then you enter the number of users at each central site in the Planning Tool.
   
 To complete the definition of the central site, you first need to provide the following information:
   
@@ -34,7 +34,7 @@ To complete the definition of the central site, you first need to provide the fo
     
 ## UI Elements
 
-The remaining elements have either been populated with the answers you provided to the questions presented in the **Get Started** wizard, or, if you skipped the wizard, automatically populated by the planning tool.
+The remaining elements are populated with the answers you provided to the questions presented in the **Get Started** wizard, or, if you skipped the wizard, automatically populated by the planning tool.
   
 ### Online Collaboration
 
@@ -58,7 +58,7 @@ The remaining elements have either been populated with the answers you provided 
     
 - **Persistent Chat**
     
-    Persistent Chat enables multiple users to participate in conversations in which they post and access content about specific topics, including text, links, and files. Although users can communicate in real time during a session, the content of each session is persistent, which means it continues to be available after a session ends.
+    Persistent Chat enables multiple users to participate in conversations in which they post and access content about specific articles, including text, links, and files. Although users can communicate in real time during a session, the content of each session is persistent, which means it continues to be available after a session ends.
     
 ### Users
 
@@ -90,11 +90,11 @@ The remaining elements have either been populated with the answers you provided 
   
 - **Enterprise Voice**
     
-    Enterprise voice is Microsft's software-powered VoIP solution. Enterprise voice enables users to use Skype for Business to place a phone call from their computer.
+    Enterprise voice is Microsoft's software-powered VoIP solution. Enterprise voice enables users to use Skype for Business to place a phone call from their computer.
     
 - **Exchange Unified Messaging**
     
-    Exchange Unified Messaging (UM) combines voice mail and email into a single messaging infrastructure. Skype for Business Server 2015 uses Exchange UM to provide call answering, subscriber access, call notification, and auto attendant services. If you use these services, you will need to integrate Exchange UM and Skype for Business Server in a shared Active Directory topology.
+    Exchange Unified Messaging (UM) combines voice mail and email into a single messaging infrastructure. Skype for Business Server 2015 uses Exchange UM to provide call answering, subscriber access, call notification, and auto attendant services. If you use these services, you'll need to integrate Exchange UM and Skype for Business Server in a shared Active Directory topology.
     
 ### Additional Deployment Options
 
@@ -130,7 +130,7 @@ The remaining elements have either been populated with the answers you provided 
     
 - **Device Update Web service**
     
-    The Device Update Web service provides an automated way to update all devices, such as Skype for Business for Windows Phone, that are deployed outside of your organization.
+    The Device Update Web service provides an automated way to update all devices, such as Skype for Business for Windows Phone that are deployed outside of your organization.
     
 ### Server Applications
 
@@ -154,7 +154,7 @@ The remaining elements have either been populated with the answers you provided 
     
 - **Conferencing Announcement**
     
-    Conferencing Announcement application produces tones that signal when users enter or leave a conference, as well as notifications to phone users when they are muted or unmuted.
+    Conferencing Announcement application produces tones that signal when users enter or leave a conference, as well as notifications to phone users when they're muted or unmuted.
     
 - **Call Admission Control**
     

@@ -1,7 +1,7 @@
 ---
 title: Plan for Teams webinars
 ms.reviewer: justle
-ms.date: 12/6/2023
+ms.date: 1/16/2024
 ms.topic: article
 ms.author: wlibebe
 author: wlibebe
@@ -98,9 +98,12 @@ Teams admins and organizers have different policies and settings to control the 
 |[Chat](manage-meeting-chat.md)|Can manage whether organizers, presenters, and co-organizers, and attendees can read and write chat messages.|Can manage whether chat is available for their webinars.|
 |[Collaboration features](meeting-policies-content-sharing.md)|Can control the availability of PowerPoint Live, whiteboard, and shared notes.|No control.|
 |[Content sharing](meeting-who-present-request-control.md)|Can control sharing mode and who can request control and can set a default for who can present.|Can control who can present.|
+|[Copilot](copilot-teams-transcription.md)|Can control the default value for Copilot in organizers’ meeting options.|Can control whether Copilot can be used with or without transcription during their webinars. Attendees can use Copilot during webinars if they have a Copilot license.|
 |[Email communications (Teams Premium)](manage-email-communications.md)|Can control if event organizers and co-organizers can edit email templates for their webinars.|Can edit email templates  before they're sent out.|
 |[External presenters](https://support.microsoft.com/office/schedule-a-webinar-in-microsoft-teams-0719a9bd-07a0-47fd-8415-6c576860f36a)|No control.|Can invite presenters from outside  of your organization. External presenters have a unique join link to join the webinar without waiting in the lobby.|
 |[Green room](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5)|No control.|Can choose if green room is used for a webinar.|
+|[Hide attendee names (Teams Premium)](hide-attendee-names.md) |Can control whether organizers with a Premium license can hide the names and photos of attendees from other attendees in the stage, roster, and chat. | Can hide attendee names during webinars to protect identities and privacy. |
+|[Limit presenter role permissions](presenter-role-reduction.md) |Can limit presenter role permissions for the tenant. |No control.|
 |[Live translated transcription (Teams Premium)](meeting-transcription-captions.md) |Can control whether organizers with a Premium license can have live translated transcription for their webinars. |Can enable live translated transcription for themselves; attendees can always turn on live translated transcription. |
 |[Manage what attendees see (Teams Premium)](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|No control|Can decide whose avatars or video feeds to spotlight during a Teams meeting. Others are hidden from view.|
 |[Manage who can schedule webinars](set-up-webinars.md)|Can disable webinars for users and groups, control which organizers can schedule webinars,  and decide whether organizers can schedule public webinars.|Can schedule webinars if allowed by admin.|
@@ -112,9 +115,10 @@ Teams admins and organizers have different policies and settings to control the 
 |[RTMP-in (Premium)](meetings-rtmp-in.md)| Can allow or disable RTMP-in for organizers. | Can produce their Teams webinar directly from an external hardware or software-based encoder using Real-Time Messaging Protocol (RTMP).|
 |[Theming](https://support.microsoft.com/office/customize-a-webinar-in-microsoft-teams-20491c28-863f-479b-8f61-85046d124f10) |No control.|Can customize their webinar's theme.|
 |[Transcription and captions](meeting-transcription-captions.md)|Can allow or prevent transcription and closed captions for attendees.|Can enable captions.|
-[VOD publishing](manage-vod-publishing.md) |Can manage the types of recordings organizers can publish. |Can publish and modify webinar recordings. |
+|[VOD publishing](manage-vod-publishing.md) |Can manage the types of recordings organizers can publish. |Can publish and modify webinar recordings. |
+|[Voice isolation](voice-isolation.md)|Can control whether users can use voice isolation in webinars.|Can enable voice isolation.|
 |[Webinar join and lobby](who-can-bypass-meeting-lobby.md)|Can set the defaults for new meetings and webinars.|Can choose meeting join and lobby settings for each webinar.|
-|[Webinar usage report](/teams-analytics-and-reports/teams-webinar-usage-report.md)|View activity and usage trends for all webinars created in your organization.|No control.|
+|[Webinar usage report](/microsoftteams/teams-analytics-and-reports/teams-webinar-usage-report)|View activity and usage trends for all webinars created in your organization.|No control.|
 
 ## Need help with your webinar?
 

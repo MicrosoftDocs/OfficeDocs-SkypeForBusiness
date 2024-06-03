@@ -6,17 +6,16 @@ manager: pamgreen
 ms.reviewer: kspiess
 ms.date: 08/1/2023
 ms.topic: article
-ms.tgt.pltfrm: cloud
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-search.appverid: MET150
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
   - Tier1
-audience: Admin
-appliesto: 
-  - Microsoft Teams
+search.appverid: MET150
 ms.localizationpriority: medium
 f1.keywords: 
   - NOCSH
@@ -90,6 +89,9 @@ If your organization has an Enterprise Agreement, you can continue using your ex
 For information about legacy licenses, see [Microsoft Teams Rooms legacy licenses](rooms-legacy-licensing.md).
 
 <sup>*</sup>Microsoft Service engineers will no longer serve as intermediaries to incident response starting October 1, 2022.
+
+> [!TIP]
+> As a companion to this article, we recommend using the [Microsoft Teams Rooms automated setup guide](https://go.microsoft.com/fwlink/?linkid=2224463) when signed in to the Microsoft 365 admin center. This guide will customize your experience based on your environment. To review best practices without signing in and activating automated setup features, go to the [Microsoft 365 setup portal](https://go.microsoft.com/fwlink/?linkid=2223356).
 
 ## Teams Rooms Basic and Teams Rooms Pro feature comparison
 
