@@ -1,7 +1,7 @@
 ---
 title: Require a watermark for sensitive Teams meetings
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
@@ -53,8 +53,6 @@ The following table shows where watermarks are configured:
 
 When a watermark is being used in a meeting, the following features are turned off:
 
-- Meeting recording, including automatic recording and who can record
-
 - Large gallery
 
 - Together mode
@@ -72,6 +70,12 @@ Watermarks can be useful for protecting confidential information shared in meeti
 Since watermarks are designed to reduce the chances that confidential information will be exfiltrated, using them in meetings where all the participants have direct access to the content being shared may not add to security.
 
 For information about using watermarks with other meeting features to help protect confidential information in meetings, see [Configure Teams meetings with protection for highly sensitive data](/microsoftteams/configure-meetings-highly-sensitive-protection).
+
+## Meeting recordings
+
+If a meeting with a watermark is recorded, the watermark is applied at playback time by Microsoft Stream. Viewers of the recording see their own email address as a watermark on the video. If the recording file is edited or moved, the watermark won't be available at playback time.
+
+By default, download of the meeting recording (.mp4) file is disabled for recordings of meetings with a watermark. However, the person who recorded the meeting can change that permission. Downloaded .mp4 files don't contain a watermark.
 
 ## Configure watermarks
 
@@ -93,7 +97,7 @@ To configure watermarking for meetings
 
 1. Select **Save**.
 
-You can also enable or disable watermarks by using PowerShell. Use the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet with the `-AllowWatermarkForCameraVideo` and `-AllowWatermarkForScreenSharing` parameters.
+You can also enable or disable watermarks by using PowerShell. Use the [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet with the `-AllowWatermarkForCameraVideo` and `-AllowWatermarkForScreenSharing` parameters.
 
 For example:
 

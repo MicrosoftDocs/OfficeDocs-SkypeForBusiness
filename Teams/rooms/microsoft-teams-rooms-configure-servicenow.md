@@ -4,20 +4,20 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: altsou
-ms.date: 08/25/2021
+ms.date: 05/15/2024
 ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-audience: Admin
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
-description: Learn about configuring ServiceNow in the Teams Rooms Pro Management portal
-f1keywords: 
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
-  - Tier3
+  - Tier1
+ms.localizationpriority: Medium
+description: Learn about configuring ServiceNow in the Teams Rooms Pro Management portal
+f1keywords: 
 ---
 
 # Configure ServiceNow for Teams Rooms

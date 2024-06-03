@@ -15,6 +15,7 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
   - m365initiative-deployteams
+  - essentials-get-started
 appliesto: 
   - Microsoft Teams
 ---

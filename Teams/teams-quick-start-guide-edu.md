@@ -1,11 +1,10 @@
 ---
 title: Quick start - Set up Microsoft Teams for Education
 description: IT administrators at education institutions can use this quick start guide to deploy Microsoft Teams for Education across their organization.
-author: DaniEASmith
-ms.author: danismith
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jacktremper
 audience: admin
-level: Intermediate
 displayType: one-column
 ms.date: 08/30/2018
 ms.reviewer: 
@@ -176,7 +175,7 @@ View [Keeping students safe while using Teams for distance learning](https://sup
 1. See whether any of the available policies in your tenants suit your requirements by running Get-CsTeamsMessagingPolicy.
 2. If not, create a new policy by running New-CsTeamsMessagingPolicy -Identity &lt;policy name&gt; -&lt;parameter name&gt; -&lt;parameter value&gt;.
 
-For more information, see [Set-CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)
+For more information, see [Set-CsTeamsMessagingPolicy](/powershell/module/teams/set-csteamsmessagingpolicy)
 
 #### Sample script
 

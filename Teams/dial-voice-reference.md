@@ -30,19 +30,19 @@ description: Learn about the Auto attendant and Call queue dialing and voice rec
 ---
 # Auto attendant and Call queue dialing and voice recognition reference
 
-Dial by Name or Extension is an Auto attendant feature that enables callers to reach Teams users in your organization. Using their voice or phone keypad callers can say or enter the full or partial name, or extension of the person they would like to reach. The Auto attendant searches the company directory, locate the person, and then transfer the caller to them.  Dial by Name or Dial by Extension are options you set up when you [configure the call flow settings in an Auto attendant](create-a-phone-system-auto-attendant.md?tabs=call-flow).
+Dial by Name or Extension is an Auto attendant feature that enables callers to reach Teams users in your organization. Using their voice or phone keypad callers can say or enter the full or partial name, or extension of the person they would like to reach. The Auto attendant searches the company directory, locates the person, and then transfers the caller to them. Dial by Name or Dial by Extension are options you set up when you [configure the call flow settings in an Auto attendant](create-a-phone-system-auto-attendant.md?tabs=call-flow).
 
 ## Searching for users
 
 Teams users who can be reached by using Dial by Name **aren't required to have a phone number or have Calling Plans assigned to them, but they must be Enterprise Voice enabled for Skype for Business Server users**. For multi-national organizations, Dial by Name finds and transfers callers to Microsoft Teams users who are in different countries or regions.
 
-Teams users who can be reached by using Dial by Extension **aren't required to have a phone number or have Calling Plans assigned to them, but they must be Enterprise Voice enabled for Skype for Business Server users**. You also need to have an appropriately configured dial plan for your users. For multi-national organizations, Dial by Extension finds and transfers callers to Microsoft Teams users who are in different countries or regions.
+Teams users who can be reached by using Dial by Extension **aren't required to have a phone number or have Calling Plans assigned to them, but they must be Enterprise Voice enabled for Skype for Business Server users**. You also need to have an appropriately configured dial plan for your users. For multi-national organizations, Dial by Extension finds and transfers callers to Microsoft Teams users who are in different countries or regions. Teams Assigned Phone number, LineURI, isn't supported for Auto attendant Dial by Extension.
 
 Given the prerequisites involved, Dial by Name or Extension must be explicitly enabled when configuring an Auto attendant.
 
 ### Maximum directory size
 
-There is no limit on the number of Active Directory users Dial by Name and Dial by Extension can support when a caller searches for a specific person. A caller can enter partial or full names (FirstName + LastName, and also LastName + FirstName), but needs the full extension number. The maximum name list size that a single Auto attendant can support using speech recognition is 80,000 users.
+There isn't a limit on the number of Active Directory users Dial by Name and Dial by Extension can support when a caller searches for a specific person. A caller can enter partial or full names (FirstName + LastName, and also LastName + FirstName), but needs the full extension number. The maximum name list size that a single Auto attendant can support using speech recognition is 80,000 users.
   
 |Input type|Search format|Maximum number of users in an organization|
 |:-----|:-----|:-----|
@@ -54,13 +54,15 @@ There is no limit on the number of Active Directory users Dial by Name and Dial 
 
 ### Search Considerations
 
-Dial by Name searches the entire organization's directory first before applying any Dial Scope Include or Exclude lists that are configured. If the initial search against the entire directory returns more than 100 users, the Dial Scope lists aren't applied, the search fails, and the caller is told that too many names were found.
+As of late May 2024, Auto attendant search is a part of the main Address Book search of Microsoft. Exchange Address Book settings affect searches performed via the Auto attendant service. For example, if some users in your Address Book settings have the property `-HiddenFromAddressListsEnabled = $true`, then Auto attendant search won't return these users. This is similar to the Address Book search experience in Exchange, Teams, and other products. For more information about hiding users from the Address Book, see [Manage address lists in Exchange Online](/exchange/address-books/address-lists/manage-address-lists#hide-recipients-from-address-lists).
+
+Dial by Name searches the entire organization's directory first before it applies any Dial Scope Include or Exclude lists you configure. If the initial search against the entire directory returns more than 100 users, the Dial Scope lists aren't applied, the search fails, and the caller is told that too many names were found.
 
 ## Dial by Name - Keypad (DTMF) entry
 
 People calling in can use Dial by Name to reach users by specifying either the full or partial name of the person they're trying to reach. There are various formats that can be used when the name is entered.
 
-When people search your organization's directory, they can use the '0' (zero) key to indicate a space between the first name and last or last name and first. When they're entering the name, they'll be asked to terminate their keypad entry with the # key. For example, "After you enter the name of the person you're trying to reach, press #." If there are multiple names that are found, the person calling is given a list of names to select from.
+When people search your organization's directory, they can use the '0' (zero) key to indicate a space between the first name and last name or last name and first name. When they enter a name, they're asked to terminate their keypad entry with the # key. For example, "After you enter the name of the person you're trying to reach, press #." If there are multiple names that are found, the person calling is given a list of names to select from.
 
 > [!NOTE]
 > If more than 5 names remain after any Dial Scope Include or Exclude lists are applied, the search fails and the caller is told that too many names were found.
@@ -114,7 +116,7 @@ Callers can say names in the following formats:
 
 Users you want to make available for **Dial By Extension** need to have an extension specified as part of one of the following phone attributes defined in Active Directory (and synchronized via Microsoft Entra Connect) or Microsoft Entra ID. For more information, see [Add users individually or in bulk](/microsoft-365/admin/add-users/add-users).
 
-- TelephoneNumber (AD and Microsoft Entra ID)
+- TelephoneNumber (AD) or BusinessPhone (Microsoft Entra ID)
 - HomePhone (AD)
 - Mobile (AD and Microsoft Entra ID)
 - OtherTelephone (AD)

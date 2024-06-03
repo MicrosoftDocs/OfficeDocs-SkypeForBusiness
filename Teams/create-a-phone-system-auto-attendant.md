@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
-ms.date: 08/30/2023
+ms.date: 01/31/2024
 ms.topic: article
 ms.assetid: 6fc2687c-0abf-43b8-aa54-7c3b2a84b67c
 ms.tgt.pltfrm: cloud
@@ -29,7 +29,7 @@ description: Learn how to set up and manage Auto attendants in Microsoft Teams.
 
 Auto attendants let people call your organization and navigate a menu system to speak to the right department, Call queue, person, or an operator. You can create Auto attendants for your organization with the Microsoft Teams admin center or with PowerShell.
 
-Be sure you have read [Plan for Teams Auto attendants and Call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started) before you follow the procedures in this article.
+Be sure you've read [Plan for Teams Auto attendants and Call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started) before you follow the procedures in this article.
 
 Auto attendants can redirect calls, based on callers' input, to one of the following destinations:
 
@@ -39,7 +39,7 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 - **Voicemail** - the voice mailbox associated with a Microsoft 365 group that you specify. You can choose if you want voicemail transcriptions and the "Please leave a message after the tone." system prompt.
   - In Microsoft 365 admin center, enable **Let people outside the organization email this team** for the Microsoft 365 group that you specify.
 - **External phone number** - any phone number. See [external transfer technical details](create-a-phone-system-auto-attendant.md?tabs=general-info#external-phone-number-transfers---technical-details).
-- **Announcement (Audio file)** - Play an audio file. A recorded announcement message you upload that's saved as audio in .WAV, .MP3, or .WMA format. The recording can be no larger than 5 MB. The system plays the announcement, and then returns to the Auto attendant menu.
+- **Announcement (Audio file)** - Play an audio file. The system plays the announcement, and then returns to the Auto attendant menu. See [Supported audio file formats](plan-auto-attendant-call-queue.md#supported-audio-file-formats).
 - **Announcement (Typed)** - Type in a message. Text you want the system to read. You can enter up to 1000 characters. The system plays the announcement, and then returns to the Auto attendant menu.
 
 > [!NOTE]
@@ -48,14 +48,13 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 >[!IMPORTANT]
 > While defining an **Operator** is optional, it's recommended.  Auto attendants redirect calls to the operator if there is an error in the Auto attendant configuration due to a user or shared voicemail account being deleted or if the caller doesn't make any selection after listening to the menu three consecutive times.
 >
-> If an operator isn't defined, the Auto attendant will drop the call.
+> If an operator isn't defined, the Auto attendant drops the call.
 >
 > In addition to defining an operator, the operator needs to be one of the configured menu choices.
 
 ## What's new for Auto attendants in the past six months
 
-- June 26 - **Holidays** - holiday sets now support up to 50 date ranges.
-- May 01 - **Authorized users** - authorized users can now update Auto attendant business, after hours, and holiday greetings.
+- February 16 - [Support click-to-call web based calling](/azure/communication-services/quickstarts/voice-video-calling/get-started-teams-auto-attendant)
 
 ## Steps to create an Auto attendant
 
@@ -75,20 +74,22 @@ The steps outlined in the article create Auto attendants using the Teams admin c
 
 ## Step 1: Set the Auto attendant's general information
 
-To set up an Auto attendant, in the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851), expand **Voice**, select **Auto attendants**, and then select **Add**.
+To set up an Auto attendant, in the [Teams admin center](https://admin.teams.microsoft.com/), expand **Voice**, select **Auto attendants**, and then select **Add**.
 
 1. Type a name for the Auto attendant in the box at the top.
 
-2. To designate an operator, specify the destination for calls to the operator. This designation is optional but recommended. Set the **Operator** option to allow callers to break out of the menus and speak to a designated person.
+1. To designate an operator, specify the destination for calls to the operator. This designation is optional but recommended. Set the **Operator** option to allow callers to break out of the menus and speak to a designated person.
 
-3. Specify the time zone for this Auto attendant. The time zone is used for calculating business hours if you [create a separate call flow for after hours](?tabs=after-hours).
+1. Specify the time zone for this Auto attendant. The time zone is used for calculating business hours if you [create a separate call flow for after hours](?tabs=after-hours).
 
-4. Specify a [supported language](create-a-phone-system-auto-attendant-languages.md) for this Auto attendant. This language is used for system-generated voice prompts.
+1. Specify a [supported language](create-a-phone-system-auto-attendant-languages.md) for this Auto attendant. This language is used for system-generated voice prompts.
 
-5. Choose if you want to enable voice inputs. When enabled, the name of every menu option becomes a speech-recognition keyword. For example, callers can say "One" to select the menu option mapped to key 1, or they can say "Sales" to select the menu option named "Sales."
+   > [!IMPORTANT]
+   > When using *Text to Speech*, the text must be entered in the selected language as the system doesn't perform translation.
+   >
+   > All words are pronounced in the selected language.
 
-   > [!NOTE]
-   > If you choose a language in Step 4 that doesn't support voice inputs this option will be disabled.
+1. Choose if you want to enable voice inputs. When enabled, the name of every menu option becomes a speech-recognition keyword. For example, callers can say "One" to select the menu option mapped to key 1, or they can say "Sales" to select the menu option named "Sales." If you choose a language in Step 4 that doesn't support voice inputs, this option isn't available.
 
 Once you've set your Auto attendant's general info, select **Next**.
 
@@ -103,9 +104,6 @@ Once you've set your Auto attendant's general info, select **Next**.
 - If you select **Play an audio file** you can use the **Upload file** button to upload a recorded greeting message saved as audio in .WAV, .MP3, or .WMA format. The recording can be no larger than 5 MB.
 
 - If you select **Type a greeting message**, the system reads the text that you enter (up to 1000 characters) when the Auto attendant answers a call.
-
->[!NOTE]
-> When using *Text to Speech*, the text must be entered in the language selected for the Auto attendant. The system doesn't perform translation.
 
 ### Route the call
 
@@ -166,8 +164,6 @@ Once you've added your after hours call flow, select **Next**.
 
 ## Step 2.3: Set up call flows for holidays (optional)
 
-*New* - holiday sets now support up to 50 date ranges.
-
 Your Auto attendant can have a call flow for each [Holiday you've set up](set-up-holidays-in-teams.md). You can add up to 20 holiday sets to each Auto attendant. Each holiday set can contain up to 50 unique date ranges. Holiday dates must be unique across all holiday sets being added to the Auto attendant.
 
 1. On the Holiday call settings page, select **Add**.
@@ -206,21 +202,43 @@ Once you've selected your **Dial scope** options, select **Next**.
 
 ## [Step 4: Resource accounts](#tab/resource-accounts)
 
-## Step 4: Set up resource accounts (optional)
+## Step 4: Assign resource accounts
 
-All Auto attendants must have an associated resource account.  First-level Auto attendants need at least one resource account that has an associated service number. If you wish, you can assign several resource accounts to an Auto attendant, each with a separate service number.
+All Auto attendants must have an associated resource account. All resource accounts must be assigned a [Microsoft Teams Phone Resource Account license](teams-add-on-licensing/virtual-user.md). If you wish, you can assign several resource accounts to an Auto attendant. 
 
-To add a resource account, select **Add account** and search for the account that you want to add. Select **Add**, and then select **Add**.
+### Add an existing resource account
 
-Once you've added resource accounts, select **Next**.
+To add an existing resource account:
+
+1. Under Resource accounts, select the **Add** button to add a resource account for this Call queue.
+1. On the **Add accounts** pane, search for the resource account to add.
+1. Select the **Add** button next to the resource account you want to assign to this Call queue.
+1. At the bottom of the pane, select the **Add** button.
+
+### Create a new resource account:
+
+1. Under Resource accounts, select the **Add** button to add a resource account for this Call queue.
+1. On the Add accounts pane, search for any set of letters to pull up the results dropdown.
+1. Select the **Add a resource account** button at the bottom of the results.
+1. On the Add resource account pane:
+  1. Type in a descriptive Display name. Agents see this name when a call is presented to them.
+  1. Type in a descriptive Username for the resource account.
+  1. Select the **Resource account type** dropdown and select **Call queue**.
+  1. At the bottom of the pane, select the **Save** button.
+1. On the Resource accounts pane, select the **Add** button.
+
+>[!NOTE]
+> Remember to assign a [Microsoft Teams Phone System Resource Account license](manage-resource-accounts.md#assign-a-license).
 
 For more information, see [Manage Teams resource accounts](manage-resource-accounts.md).
+
+Once you've added resource accounts, select **Next**.
 
 ## [Step 5: Authorized users](#tab/authorized-users)
 
 ## Step 5: Authorized users
 
-**Authorized users** specifies the users who are authorized to make changes to this Auto attendant.  The capabilities that the users have will be determined based on the [Teams voice applications policy](./manage-voice-applications-policies.md) that is assigned to the user.
+**Authorized users** specifies the users who are authorized to make changes to this Auto attendant.  The capabilities that the users have are determined based on the [Teams voice applications policy](./manage-voice-applications-policies.md) that is assigned to the user.
 
 To **add a user** to the authorized users:
 
@@ -264,18 +282,20 @@ In a Skype for Business hybrid environment, to transfer an Auto attendant call t
 
 If you're an administrator, you can use the following diagnostic tool to validate that an Auto attendant is able to receive calls:
 
-1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center.
+1. Select **Run Tests**, which populates the diagnostic in the Microsoft 365 Admin Center.
 
    > [!div class="nextstepaction"]
    > [Run Tests: Teams Auto Attendant](https://aka.ms/TeamsAADiag)
 
-2. In the Run diagnostic pane, enter the Resource Account in the **Username or Email** field, and then select **Run Tests**.
+1. In the Run diagnostic pane, enter the Resource Account in the **Username or Email** field, and then select **Run Tests**.
 
-3. The tests will identify tenant, policy, or resource account configurations that are preventing the Auto attendant from receiving calls and will also provide steps to fix any problems identified.
+1. The tests identify tenant, policy, or resource account configurations that are preventing the Auto attendant from receiving calls and also provide steps to fix any problems identified.
 
 ## Related articles
 
 [Here's what you get with Teams Phone](./here-s-what-you-get-with-phone-system.md)
+
+[Routing calls with Auto attendants and Call queues](plan-your-call-routing-flow.md)
 
 [Getting service phone numbers](./getting-service-phone-numbers.md)
 

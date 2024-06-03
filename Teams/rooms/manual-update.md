@@ -3,21 +3,21 @@ title: Manually update a Microsoft Teams Rooms device
 ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
-audience: ITPro
-appliesto: 
-  - Microsoft Teams
 ms.reviewer: tavis-snoozy
 ms.date: 08/29/2023
 ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
-f1.keywords: 
-  - NOCSH
-ms.localizationpriority: medium
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
   - Tier1
+f1.keywords: 
+  - NOCSH
+ms.localizationpriority: medium
 description: Learn how to manually update your Microsoft Teams Rooms device to the latest version.
 ---
 
@@ -47,7 +47,7 @@ After the offline app update script is downloaded, transfer the file to the Team
 
 ## Step 2: Run the script to update the Teams Rooms app
 
-The offline app update script needs to be run from an elevated command prompt while the Skype user (the user under which the app runs) is still signed in. For more information about how to log into an admin account to use the elevated command prompt while the Skype user is still logged in, see [Switching to Admin Mode and back when the Microsoft Teams Rooms app crashes](rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes).
+The offline app update script needs to be run from an elevated command prompt while the Skype user (the user under which the app runs) is still signed in. For more information about how to log into an admin account to use the elevated command prompt while the Skype user is still logged in, see [Switching to Admin Mode and back when the Microsoft Teams Rooms app crashes](rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-frozen).
 
 Do the following to run the script from an elevated command prompt:
 

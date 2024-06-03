@@ -1,7 +1,7 @@
 ---
 title: Use guest access and external access to collaborate with people outside your organization
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 ms.reviewer: vinbel, luises
 ms.date: 03/31/2023
@@ -14,6 +14,7 @@ ms.collection:
 - M365-collaboration
 - m365initiative-externalcollab
 - Tier2
+- essentials-manage
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -60,11 +61,7 @@ If you need to have meetings with people outside your organization who aren't pa
 
 Guests are added to your organization's Microsoft Entra ID as B2B collaboration users. They must sign in to Teams using their guest account. If the normally use Teams with another Microsoft 365 organization, they need to switch organizations in Teams to interact with your organization.
 
-Guest access is available to the following tenants:
-
-- Across and between Commercial and GCC
-- Between GCC High only
-- Between DOD only
+Guest access is available between Microsoft 365 cloud environments (such as commercial and GCC) by using cross-cloud guest access. For more information, see [Collaborate with guests from other Microsoft 365 cloud environments](/microsoft-365/solutions/collaborate-guests-cross-cloud).
 
 To configure guest access for Teams, see [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team).
 

@@ -16,20 +16,15 @@ ms.reviewer: roykuntz
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-- ms.teamsadmincenter.directrouting.overview
 description: Learn more about Operator Connect for India, such as requirements and planning for deployment.
 ms.custom: 
  - seo-marvel-apr2020
  - seo-marvel-jun2020
 appliesto: 
   - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Plan Operator Connect for India
-
-> [!NOTE]
-> Operator Connect for India is a preview release. Content is subject to change. Check back for updates.
 
 Operator Connect for India is another option for providing Public Switched Telephone Network (PSTN) connectivity with Teams Phone. Operator Connect for India has been designed to address the telephony regulatory issues specific to India.  
 
@@ -39,11 +34,11 @@ After reading this article, you'll also want to read:
 
 - [Configure Operator Connect for India](operator-connect-india-configure.md)
 - [Plan and configure Location-Based Routing for Operator Connect for India](location-based-routing-india-plan.md)
-- [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings-india.md)
+- [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
 
 With Operator Connect for India:
 
-- **You'll need to acquire the appropriate Teams license from a licensed telecom operator in India (that is, your carrier).** This requirement must be met whether or not you have an existing Teams Phone license. For example, if you have a phone license included with an E5 license, you'll still need to purchase a license from your India operator.  
+- **You'll need to acquire the appropriate license from a licensed telecom operator in India (that is, your carrier).** This requirement must be met whether or not you have an existing Teams Phone license. For example, if you have a phone license included with an E5 license, you'll still need to purchase a license from your India operator.  
 
 - Support for Other Service Provider (OSP) with international telephone numbers is pending. (OSP deployments are typically used for call centers.)
 
@@ -85,6 +80,6 @@ For technical support, contact the customer support of your operator first. If n
 
 - [Configure Operator Connect for India](operator-connect-india-configure.md)
 - [Plan and configure Location-Based Routing for Operator Connect for India](location-based-routing-india-plan.md)
-- [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings-india.md)
+- [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
 
 

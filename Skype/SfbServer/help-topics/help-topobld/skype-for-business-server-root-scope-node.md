@@ -21,11 +21,11 @@ description: "The Lync Server node lists the central sites in your topology. You
  
 The **Lync Server** node lists the central sites in your topology. You can perform the following actions:
   
-- **New Central Site**. Starts the Define New Central Site wizard, which you use to add a new central site to the topology.
+- **New Central Site**. Starts the Defined New Central Site wizard, which you use to add a new central site to the topology.
     
 - **Edit Properties**. Enables you to edit settings that affect your whole topology, such as supported Session Initiation Protocol (SIP) domains and simple URLs.
     
-- **New Topology**. Enables you to start creating a new topology for your deployment. This option is useful when you are planning your deployment, before you have installed your servers. Do not click this option if you have already used your current topology to install your deployment.
+- **New Topology**. Enables you to start creating a new topology for your deployment. This option is useful when you're planning your deployment, before you install your servers. Don't select this option if you have already used your current topology to install your deployment.
     
 - **Open Topology**. Opens a topology file that you have saved.
     

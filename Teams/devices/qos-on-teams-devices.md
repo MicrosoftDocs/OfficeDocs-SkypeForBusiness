@@ -3,21 +3,20 @@ title: Quality of service (QoS) configuration on Teams Rooms devices
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
+ms.reviewer: mattslomka
 ms.date: 09/01/2023
 ms.topic: article
-ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: itpro-devices
 audience: Admin
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
-  - M365-collaboration
   - teams-rooms-devices
   - Teams_ITAdmin_Devices
   - Tier1
 f1.keywords: 
   - NOCSH
-appliesto: 
-  - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn about the key considerations for deploying Teams Rooms.
@@ -29,11 +28,11 @@ Deploying one or many Microsoft Teams Rooms devices requires planning. One of th
 
 This article explains:
 
-1. [How much bandwidth a Teams Room device will consume?](#how-much-bandwidth-will-a-microsoft-teams-rooms-device-use)
+1. [How much bandwidth a Teams Rooms device will consume?](#how-much-bandwidth-will-a-microsoft-teams-rooms-device-use)
 1. [How to control that bandwidth usage?](#how-do-i-control-microsoft-teams-rooms-bandwidth-usage)
 1. [How to ensure your devices are optimized with the right quality of service (QoS) configuration to align to your organizations requirements?](#quality-of-service-qos-with-microsoft-teams-rooms)
 
-Wired network connectivity is recommended for Microsoft Teams Room devices. If wireless network connectivity is the only option, see best practice guidance [here](../rooms/rooms-plan.md).
+Wired network connectivity is recommended for Microsoft Teams Rooms devices. If wireless network connectivity is the only option, see best practice guidance [here](../rooms/rooms-plan.md).
 
 ## How much bandwidth will a Microsoft Teams Rooms device use?
 
@@ -101,7 +100,7 @@ For more information, see [Implement Quality of Service (QoS) in Microsoft Teams
 
 ### QoS with Microsoft Teams Rooms on Android devices
 
-For Teams Rooms on Android devices, you'll need to configure your Microsoft Teams tenant to insert QoS markings. Teams Rooms on Android devices honor this policy and apply the markings defined earlier in [Quality of Service (QoS) with Microsoft Teams Rooms](#quality-of-service-qos-with-microsoft-teams-rooms).
+For Teams Rooms on Android devices, you'll need to configure your Microsoft Teams tenant to insert QoS markings. Teams Rooms on Android devices honor this policy and apply the markings defined earlier in [Quality of Service (QoS) with Microsoft Teams Rooms](#quality-of-service-qos-with-microsoft-teams-rooms) with one exception, Application/screen sharing will use a DSCP value of 34 (AF41) aligned to video traffic.
 
 For instructions on how to configure your tenant to insert QoS markings, see [Teams settings and policies reference](../settings-policies-reference.md).
 

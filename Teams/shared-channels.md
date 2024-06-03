@@ -1,7 +1,7 @@
 ---
 title: Shared channels in Microsoft Teams
-author: MikePlumleyMSFT
-ms.author: mikeplum
+author: jacktremper
+ms.author: jtremper
 manager: pamgreen
 ms.reviewer: jasonlewis
 ms.date: 08/15/2023
@@ -193,7 +193,7 @@ All the actions performed for [existing audit events](/microsoft-365/compliance/
 
 ## Supported apps in shared channels
 
-For information about how to prepare your app for shared channels, see [How to open your app to cross-organizational collaboration with Microsoft Teams Connect](https://mybuild.microsoft.com/sessions/4d84d73c-08de-4f56-990b-2a73b2037df1).
+For information about how to prepare your app for shared channels, see [Microsoft Teams Connect shared channels](/microsoftteams/platform/concepts/build-and-test/shared-channels).
 
 The following apps are supported for use in shared channels. 
 

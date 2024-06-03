@@ -14,23 +14,23 @@ ms.custom:
 ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
-description: "To Request, Assign, Remove, or View certificates, you use the Certificate Wizard. You must be logged in as a member of the RTCUniversalServerAdmins group. To request a certificate from a public certification authority (CA), you do not need any additional group memberships. To request a certificate from your organization's public key infrastructure (PKI), you need to confirm what additional—if any—group memberships you will need. During the Request task, you can enter alternate credentials that will be used to request the certificate from your PKI's issuing CA."
+description: "To Request, Assign, Remove, or View certificates, you use the Certificate Wizard. You must be logged in as a member of the RTCUniversalServerAdmins group. To request a certificate from a public certification authority (CA), you don't need any other group memberships. To request a certificate from your organization's public key infrastructure (PKI), you need to confirm what additional—if any—group memberships you need. During the Request task, you can enter alternate credentials that are used to request the certificate from your PKI's issuing CA."
 ---
 
 # Certificate Wizard
  
-To **Request**, **Assign**, **Remove**, or **View** certificates, you use the Certificate Wizard. You must be logged in as a member of the RTCUniversalServerAdmins group. To request a certificate from a public certification authority (CA), you do not need any additional group memberships. To request a certificate from your organization's public key infrastructure (PKI), you need to confirm what additional—if any—group memberships you will need. During the Request task, you can enter alternate credentials that will be used to request the certificate from your PKI's issuing CA.
+To **Request**, **Assign**, **Remove**, or **View** certificates, you use the Certificate Wizard. You must be logged in as a member of the RTCUniversalServerAdmins group. To request a certificate from a public certification authority (CA), you don't need any other group memberships. To request a certificate from your organization's public key infrastructure (PKI), you need to confirm what additional—if any—group memberships you need. During the Request task, you can enter alternate credentials that are used to request the certificate from your PKI's issuing CA.
   
-To request a new certificate, click **Request**.
+To request a new certificate, select **Request**.
   
-To assign a certificate that has not been assigned yet, click **Assign**.
+To assign a certificate that isn't assigned yet, select **Assign**.
   
-To remove a certificate that you have previously assigned, click **Remove**.
+To remove a certificate that you previously assigned, select **Remove**.
   
 > [!NOTE]
 > The **Remove** button will be available only if a certificate has been previously assigned. If the **Remove** button is unavailable (dimmed), there is no certificate assigned.
   
-To view an assigned certificate, click **View**.
+To view an assigned certificate, select **View**.
   
 > [!NOTE]
 > The **View** button will be available only if a certificate has been previously assigned. If the **View** button is greyed out, there is no certificate assigned.

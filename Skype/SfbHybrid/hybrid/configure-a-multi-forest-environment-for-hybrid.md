@@ -72,7 +72,7 @@ To get proper identity synchronization, the following attributes need to be sync
 
 The [chosen account link attribute](/azure/active-directory/hybrid/plan-connect-design-concepts) will be used as the Source Anchor. If you have a different and immutable attribute that you would prefer to use, you may do so; just be sure to edit the AD FS claims rule and select the attribute during the Microsoft Entra Connect configuration.
   
-Do not sync the UPNs between the forests. You need to use a unique UPN for each user forest, as you cannot use the same UPN across multiple forests. As a result, there are two possibilities:  to synchronize the UPN or to not synchronize. 
+Don't sync the UPNs between the forests. You need to use a unique UPN for each user forest, as you can't use the same UPN across multiple forests. As a result, there are two possibilities:  to synchronize the UPN or to not synchronize. 
   
 - If the unique UPN from each user forest wasn't synchronized to the associated disabled object in the resource forest, single sign-on (SSO) would be broken for at least the initial sign-in attempt (assuming the user selected the option to save password). In the Skype for Business client, we assume that the SIP/UPN values are the same. Because the SIP address in this scenario is user@company.com, but the UPN of the enabled object in the user forest is in fact user@contoso.company.com, the initial sign-in attempt would fail and the user would be prompted to enter credentials. Upon entering their correct UPN, the authentication request would be completed against the domain controllers in the user forest, and sign-in would be successful.
 
@@ -145,7 +145,7 @@ Microsoft Entra Connect should be installed using the defaults, except for the f
 
 ## Configure hybrid connectivity for Skype for Business Server
 
-Follow the best practices for configuring Skype for Business hybrid. For more information information, see [Plan hybrid connectivity](plan-hybrid-connectivity.md) and [Configure hybrid connectivity](configure-hybrid-connectivity.md).
+Follow the best practices for configuring Skype for Business hybrid. For more information, see [Plan hybrid connectivity](plan-hybrid-connectivity.md) and [Configure hybrid connectivity](configure-hybrid-connectivity.md).
   
 ## Configure hybrid connectivity for Exchange Server
 

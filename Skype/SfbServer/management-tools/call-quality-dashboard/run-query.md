@@ -33,9 +33,9 @@ Run Query operation provides the ability to run a query on the cube based on spe
 
  **URI Parameters** - None.
 
- **Request Headers** - No additional headers.
+ **Request Headers** - No extra headers.
 
- **Request Body** - Here is a sample request payload in JSON. It contains dimensions, filters, and measurement required for a query.
+ **Request Body** - Here's a sample request payload in JSON. It contains dimensions, filters, and measurement required for a query.
 
 ```json
 {
@@ -70,21 +70,21 @@ Run Query operation provides the ability to run a query on the cube based on spe
 }
 ```
 
- *Filters*  - A list of filter expressions to be applied such that the resulting data set will reflect only the subset of the data that are of interest.
+ *Filters*  - A list of filter expressions to be applied such that the resulting data set reflects only the subset of the data that are of interest.
 
- *Dimensions*  - A list of dimensions that will be used for aggregating the data. At least one dimension is required but multiple dimensions may be specified to obtain additional level of sub-aggregations.
+ *Dimensions*  - A list of dimensions that are used for aggregating the data. At least one dimension is required but multiple dimensions might be specified to obtain extra level of subaggregations.
 
- *Measurements*  - A list of measurements, also known as facts, that are the desired metrics to be aggregated based on the dimensions you specified.
+ *Measurements*  - A list of measurements, also known as facts are the desired metrics to be aggregated based on the dimensions you specified.
 
- *Trend*  - Additional control instructions to customize the result data.
+ *Trend*  - Other control instructions to customize the result data.
 
  **Response** - The response includes an HTTP status code and a set of response headers.
 
  **Status Code** - A successful operation returns status code 200 (OK).
 
- **Response Headers** - No additional headers.
+ **Response Headers** - No extra headers.
 
- **Response Body** - Below is a sample response payload in JSON. It contains a data table which contains the data, also it will contain a meta data, which shows query execution time and whether or not the data is from the cache.
+ **Response Body** - Below is a sample response payload in JSON. It contains a data table, which contains the data, also contains a meta data, which shows query execution time and whether or not the data is from the cache.
 
 ```json
 {
@@ -121,7 +121,7 @@ Run Query operation provides the ability to run a query on the cube based on spe
 
  *Execution Time*  - The total time it took for the server to return the data. This may or may not involve cache.
 
- *Data Result*  - The result of the query. It is a two-dimensional array containing all permutations of the dimensions' members, and each element containing the dimensions' member names as well as the aggregated values of the specified Measurements.
+ *Data Result*  - The result of the query. It's a two-dimensional array containing all permutations of the dimensions' members, and each element containing the dimensions' member names and the aggregated values of the specified Measurements.
 
  *Result is From Cache*  - For diagnostics. Indicates whether the result came from the cache or from the QoE Cube.
 

@@ -51,7 +51,7 @@ To activate a phone number in Microsoft 365 in Belgium, France, Germany, Ireland
 
 ### Using PowerShell
 
-See [New-CsOnlineLisCivicAddress](/powershell/module/skype/new-csonlineliscivicaddress).
+See [New-CsOnlineLisCivicAddress](/powershell/module/teams/new-csonlineliscivicaddress).
 
 ### Required information for Microsoft Calling Plans
 
@@ -90,7 +90,7 @@ You can only update the address information for an emergency location if the add
 
 ### Using PowerShell
 
-See [Set-CsOnlineLisCivicAddress](/powershell/module/skype/set-csonlineliscivicaddress).
+See [Set-CsOnlineLisCivicAddress](/powershell/module/teams/set-csonlineliscivicaddress).
 
 ## Remove an emergency location
 
@@ -105,7 +105,7 @@ You can remove a location only if no users or phone numbers are assigned to it. 
 
 ### Using PowerShell
 
-See [Remove-CsOnlineLisCivicAddress](/powershell/module/skype/remove-csonlineliscivicaddress).
+See [Remove-CsOnlineLisCivicAddress](/powershell/module/teams/remove-csonlineliscivicaddress).
 
 ## Assign an emergency location
 

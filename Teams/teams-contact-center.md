@@ -39,7 +39,7 @@ If you're an organization looking for an integrated contact center solution, see
 
 ## Next steps
 
-If you need to provide additional context and details, send a mail to [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com). If you are a vendor seeking to join the certification program, fill out the calling platform intake as the next step.
+If you need to provide additional context and details, send a mail to [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com). If you're a vendor seeking to join the certification program, fill out the calling platform intake as the next step.
 
 ### [Calling Platform Intake](https://aka.ms/CallingPlatformIntake)
 
@@ -60,6 +60,8 @@ The following providers offer contact center solutions that are integrated into 
 | `Anywhere365` | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
 | `Audiocodes` | https://www.audiocodes.com/solutions-products/voiceai/voca-conversational-interaction-center                                   |
 | `Avaya` | https://www.avaya.com/en/enterprise-cloud/                           |
+| `Bright Pattern` | https://www.brightpattern.com/                              |
+| `CentrePal` | https://www.centrepal.com/                                 |
 | `Cisco` | https://www.cisco.com/c/en/us/products/contact-center/webex-contact-center/index.html                                |
 | `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
@@ -69,14 +71,16 @@ The following providers offer contact center solutions that are integrated into 
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `Genesys` | https://www.genesys.com/campaign/get-started-genesys-cloud-microsoft-teams                                      |
 | `Heedify` | https://heedify.io/call-center/                                                 |
+| `Intermedia` | https://www.intermedia.com/integration/contact-center-for-microsoft-teams                       |
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
 | `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
 | `Netcall` | https://www.netcall.com/platform/contact-centre/  |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
-| `Puzzel` | https://www.puzzel.com/microsoft-teams                            |
+| `Puzzel` | https://www.puzzel.com/                            |
 | `ROGER365.io` | https://www.roger365.io/contact-center-teams                         |
-| `Solgari` | https://solgari.com/converse-for-teams/                       |
+| `Sikom` | https://sikom.cx/microsoft-teams-en                            |
+| `Solgari` | https://solgari.com/                       |
 | `Talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
 | `Tendfor` | https://www.tendfor.com                                                            |
 | `Ultatel` | https://www.ultatel.com/microsoft-teams-contact-center/                     |
@@ -86,18 +90,18 @@ The following providers offer contact center solutions that are integrated into 
 
 |  Solution Provider                                                                                                                               |  Solution website                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `Bright Pattern` | https://www.brightpattern.com/                              |
-| `CentrePal` | https://www.centrepal.com/                                 |
 | `Cirrus` | https://www.cirrusresponse.com/cloud-contact-centre/microsoft-teams/ |
 | `Evolve IP` | https://www.evolveip.net/contact-center   |
 | `FrontStage` | https://www.frontstage.cc                                                                                        |
 | `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                                  |
 | `Imagicle` | https://www.imagicle.com/en/integration/microsoft-teams/                                                                                        |
-| `Intermedia` | https://www.intermedia.com/products/contact-center                          |
 | `IPDynamics` | https://www.ipdynamics.de/ |
 | `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
-| `Sikom` | http://www.sikom.de/microsoft-teams/                            |
 | `Unexus` | https://www.unexus.nl/en/solutions/unexus-connect/                |
 | `Vonage` |  https://www.vonage.com/contact-centers/integrations/microsoft-teams/                                 |
 
 This list will be updated as more solution providers join and meet the certification criteria.
+
+## Support boundaries
+
+Microsoft supports Contact Center solutions only from the certified partners. If there are issues, you must contact your Contact Center partner first. If needed, the Contact Center partner will bring the issue to Microsoft through internal channels. Microsoft may reject support cases where a non-certified Contact Center solution is used, or if investigation shows the issue is one that the partner can address.

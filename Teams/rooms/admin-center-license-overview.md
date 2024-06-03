@@ -6,17 +6,16 @@ manager: pamgreen
 ms.reviewer: ayerragangu
 ms.date: 11/02/2023
 ms.topic: article
-ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: itpro-rooms
-search.appverid: MET150
-ms.collection: 
-  - M365-collaboration
-  - teams-rooms-devices
-  - Tier1
 audience: Admin
 appliesto: 
   - Microsoft Teams
+ms.collection: 
+  - teams-rooms-devices
+  - Teams_ITAdmin_Devices
+  - Tier1
+search.appverid: MET150
 ms.localizationpriority: medium
 f1.keywords: 
   - NOCSH

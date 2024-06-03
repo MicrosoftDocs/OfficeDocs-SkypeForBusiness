@@ -1,5 +1,5 @@
 ---
-ms.date: 03/17/2018
+ms.date: 01/04/2024
 title: "Provisioning Skype Room System accounts in Microsoft 365 and Office 365"
 ms.author: serdars
 author: SerdarSoysal
@@ -13,6 +13,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.custom:
   - has-azure-ad-ps-ref
+  - azure-ad-ref-level-one-done
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: "Read this topic to learn about provisioning Skype Room System accounts in Microsoft 365 or Office 365."
 ---
@@ -47,9 +48,9 @@ For the Skype Room account, the following licensing is required:
     
 - To entitle the room with the Enterprise Voice capability so the room can be enabled with a phone number, a Skype for Business Online Plan 2 with the Phone System license or Office 365 E5 is required (1).
     
-- If you need dial-in capabilities from a meeting, you will need an audio conferencing and Phone System license.  If you need dial-out capabilities from a meeting, you will need a domestic or domestic and international Calling Plan. 
+- If you need dial-in capabilities from a meeting, you'll need an audio conferencing and Phone System license.  If you need dial-out capabilities from a meeting, you'll need a domestic or domestic and international Calling Plan. 
     
-- An Exchange Online license is not required for the Skype Room account because the account should be configured as a resource mailbox account.
+- An Exchange Online license isn't required for the Skype Room account because the account should be configured as a resource mailbox account.
     
 ## Provisioning overview
 
@@ -93,13 +94,13 @@ After creating the mailbox, you can use the Set-CalendarProcessing cmdlet in Exc
 
 Now you can assign a Skype for Business Online (Plan 2) or Skype for Business Online (Plan 3) license by using the Microsoft 365 administrative portal as described in [Assign or remove licenses for Microsoft 365 for business](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) or in [Skype for Business add-on licensing](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7). 
   
-After you assign a license for Skype for Business Online, you will be able to log in and validate that the account is active using any Skype for Business client.
+After you assign a license for Skype for Business Online, you'll be able to sign in and validate that the account is active using any Skype for Business client.
   
 ## Skype for Business Online provisioning
 
-After a resource room mailbox account has been created and enabled as shown previously, and you have licensed the account for Skype For Business Online the account will synchronize from the Exchange Online forest to Skype for Business Online forest by using the Windows Azure Active Directory forest. The following steps are required to provision the Skype Room System account in the Skype for Business Online pool. These steps are the same for both an existing resource mailbox account or a newly created account (confrm1 or confrm2), because once they are enabled in Exchange Online, both of these accounts will be synchronized to Skype for Business Online in the same way:
+After a resource room mailbox account has been created and enabled as shown previously, and you have licensed the account for Skype For Business Online the account will synchronize from the Exchange Online forest to Skype for Business Online forest by using the Windows Azure Active Directory forest. The following steps are required to provision the Skype Room System account in the Skype for Business Online pool. These steps are the same for both an existing resource mailbox account or a newly created account (confrm1 or confrm2), because once they're enabled in Exchange Online, both of these accounts will be synchronized to Skype for Business Online in the same way:
   
-1. Create a Remote PowerShell session. Note that you will need to download [Teams PowerShell module](/microsoftteams/teams-powershell-install).
+1. Create a Remote PowerShell session. You'll need to download [Teams PowerShell module](/microsoftteams/teams-powershell-install).
     
   ```powershell
   # When using Teams PowerShell Module
@@ -109,13 +110,13 @@ After a resource room mailbox account has been created and enabled as shown prev
    Connect-MicrosoftTeams -Credential $credential
   ```
 
-2. To enable an Skype Room System account for Skype for Business, run the following command:
+2. To enable a Skype Room System account for Skype for Business, run the following command:
     
    ```powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
-    You can obtain the RegistrarPool address where your Skype for Business users are homed from one of your existing accounts by using the following command to returns this property:
+    You can obtain the RegistrarPool address where your Skype for Business users are homed from one of your existing accounts by using the following command to return this property:
     
    ```powershell
    Get-CsOnlineUser -Identity 'alice@contoso.onmicrosoft.com'| fl *registrarpool*
@@ -128,20 +129,24 @@ After a resource room mailbox account has been created and enabled as shown prev
 
 In Microsoft 365 or Office 365, the default password expiration policy for all of your user accounts is 90 days unless you configure a different password expiration policy. For Skype Room System accounts, you can select the Password never expires setting with the following steps.
   
-1. Create a Windows Azure Active Directory session by using your tenant global administrator credentials.
+1. Create a Windows Azure Active Directory session by using your tenant global administrator credentials. For information on more options, see [additional authentication methods](/powershell/microsoftgraph/authentication-commands).
     
     ```powershell
-    $cred=Get-Credential admin@$org
-    Connect-MsolService -Credential $cred
+    $clientId = "your-app-client-id"
+    $tenantId = "your-tenant-id"
+    $ClientSecretCredential = Get-Credential -Credential $clientId
+    # Enter client_secret in the password prompt
+    Connect-MgGraph -TenantId $tenantId -ClientSecretCredential $ClientSecretCredential
     ```
 
 2. Set the Password never expires setting for the Skype Room System room account created previously by using the following command:
     
    ```powershell
-   Set-MsolUser -UserPrincipalName confrm1@skypelrs.onmicrosoft.com -PasswordNeverExpires $true
+    Connect-MgGraph -Scopes "User.ReadWrite"
+   	Update-MgUser -UserId '11111111-0000-aaaa-bbbb-222222222222' -PasswordPolicies "DisablePasswordExpiration"
    ```
 
-For more information, see [Set up your computer for Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+For more information, see [Set up your computer for Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
   
 ## Validate
 

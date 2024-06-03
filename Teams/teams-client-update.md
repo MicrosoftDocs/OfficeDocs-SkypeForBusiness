@@ -1,7 +1,7 @@
 ---
 title: Teams updates
-author: JoanneHendrickson
-ms.author: jhendr
+author: MicrosoftHeidi
+ms.author: heidip
 manager: jtremper
 ms.topic: article
 ms.service: msteams

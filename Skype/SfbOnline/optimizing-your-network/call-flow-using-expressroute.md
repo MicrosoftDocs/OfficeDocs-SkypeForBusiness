@@ -33,7 +33,7 @@ If you're deploying Skype for Business Online as part of Microsoft 365 or Office
 
 ## Call flow overview
 
-This document describes the network segments that can carry data for these call flows and helps you to understand which traffic remains local to your network compared to the traffic that travels over the Internet or through ExpressRoute. Knowing which traffic uses ExpressRoute helps you to assess the benefits that your company receives by using ExpressRoute, and helps you understand the ExpressRoute deployment guidance to validate and troubleshoot your deployment once you decide to use ExpressRoute.
+This document describes the network segments that can carry data for these call flows and helps you to understand which traffic will remain local to your network compared to the traffic that will travel over the Internet or through ExpressRoute. Knowing which traffic uses ExpressRoute will help you to assess the benefits that your company will receive by using ExpressRoute, and help you understand the ExpressRoute deployment guidance to validate and troubleshoot your deployment once you've decided to use ExpressRoute.
 
 The call flows described here can be impacted by various factors that are under your control, including firewall rules, NAT configuration, proxies, and router configuration. This document assumes that the recommended settings have been applied. These recommended settings are described in:
 
@@ -75,11 +75,11 @@ The network traffic for Skype for Business Online falls into two broad categorie
 
  **Real-time media** is data encapsulated within RTP (Real-time Transport Protocol) and supports audio, video, application sharing, and file transfer workloads. In general, media traffic is highly latency sensitive, so you would want this traffic to take the most direct path possible, and to use UDP as the transport layer protocol because using TCP introduces higher latency.
 
- **Signaling** is the communication link between the client and server, or other clients that are used to control activities (for example, when a call is initiated), and deliver IMs. Most signaling traffic uses the SIP protocol, though some clients use HTTP-based REST interfaces. To make it simple, we are considering a variety signaling that may travel over HTTP and HTTPS or TLS connections in this type of traffic. It's important to understand that this traffic is much less sensitive to latency, but may cause service outages or call timeouts if latency between the endpoints exceed several seconds.
+ **Signaling** is the communication link between the client and server, or other clients that are used to control activities (for example, when a call is initiated), and deliver IMs. Most signaling traffic uses the SIP protocol, though some clients use HTTP-based REST interfaces. To make it simple, we're considering a variety signaling that may travel over HTTP and HTTPS or TLS connections in this type of traffic. It's important to understand that this traffic is much less sensitive to latency, but may cause service outages or call timeouts if latency between the endpoints exceeds several seconds.
 
-The destinations for this traffic are found in [Office 365 URLs and IP address ranges](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) for all Microsoft 365 or Office 365 services. For each URL, it indicates whether that portion of traffic may traverse the ExpressRoute for Microsoft 365 or Office 365. For diagrams that show that the Internet is still used for some traffic when ExpressRoute is enabled, please see [Azure ExpressRoute for Office 365](https://support.office.com/article/6d2534a2-c19c-4a99-be5e-33a0cee5d3bd). It is important to understand that even URLs that are listed as being routable over ExpressRoute are also routable over the Internet. This means that in some scenarios, the determination about whether the Internet or ExpressRoute will be used depends on location of client and configuration of proxy servers and firewalls. It is also important to understand that since not all URLs associated with Microsoft 365 or Office 365 are able to use ExpressRoute, an Internet connection is required even if you purchase ExpressRoute from an ExpressRoute partner.
+The destinations for this traffic are found in [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges) for all Microsoft 365 or Office 365 services. For each URL, it indicates whether that portion of traffic may traverse the ExpressRoute for Microsoft 365 or Office 365. For diagrams that show that the Internet is still used for some traffic when ExpressRoute is enabled, see [Azure ExpressRoute for Office 365](https://support.office.com/article/6d2534a2-c19c-4a99-be5e-33a0cee5d3bd). It's important to understand that even URLs that are listed as being routable over ExpressRoute are also routable over the Internet. This means that in some scenarios, the determination about whether the Internet or ExpressRoute will be used depends on location of client and configuration of proxy servers and firewalls. It's also important to understand that since not all URLs associated with Microsoft 365 or Office 365 are able to use ExpressRoute, an Internet connection is required even if you purchase ExpressRoute from an ExpressRoute partner.
 
-Traffic that can only be sent over the Internet includes common Internet dependencies, such as Certificate Revocation Lists (CRLs), DNS lookups and name resolution, URLs for shared Microsoft 365 or Office 365 services, such as for the Microsoft 365 admin center, and some non-real-time communication features of Skype for Business Online, such as telemetry and federation for interoperability with Skype consumer, as well media that is streamed for Skype Meeting Broadcast. To help you make decisions, see [Routing with ExpressRoute for Office 365](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408) for more considerations when you are planning your network routing.
+Traffic that can only be sent over the Internet includes common Internet dependencies, such as Certificate Revocation Lists (CRLs), DNS lookups and name resolution, URLs for shared Microsoft 365 or Office 365 services, such as for the Microsoft 365 admin center, and some non-real-time communication features of Skype for Business Online, such as telemetry and federation for interoperability with Skype consumer, as well media that is streamed for Skype Meeting Broadcast. To help you make decisions, see [Routing with ExpressRoute for Office 365](/azure/expressroute/using-expressroute-for-microsoft365) for more considerations when you're planning your network routing.
 
 ## Principles for call flows with Skype for Business
 
@@ -89,11 +89,11 @@ Before we get into the details of specific call flow scenarios, there are six ge
 
 2. Media traffic sent from a client to a hosted conference always goes to the server where the conference is hosted. This may be an on-premises server within a datacenter that you manage or an Online server within the cloud. However, an Edge server is always used for media flow for Online conferences.
 
-3. Media traffic for peer-to-peer calls take the most direct route that is available. The preferred route is direct to the remote peer (client), but if that route isn't available due to firewall blocking the traffic or something like that, then one or more Edge servers will relay traffic.
+3. Media traffic for peer-to-peer calls takes the most direct route that is available. The preferred route is direct to the remote peer (client), but if that route isn't available due to firewall blocking the traffic or something like that, then one or more Edge servers will relay traffic.
 
 4. Signaling traffic always goes to the server where the user is homed, either Online or on-premises. An Edge server will be used if the Front End server can't be connected to directly.
 
-5. Users joining a conference hosted Online will always use an Edge server (or two if required due to client firewall configurations).
+5. Users joining a conference hosted Online will always use an Edge server (or two if necessary due to client firewall configurations).
 
 6. Users joining a conference hosted on-premises will typically not use an Edge server if connecting from within the same network that contains the on-premises deployment, and will use either one or two Edge servers when connecting from outside of your network.
 
@@ -117,7 +117,7 @@ To help you apply the general principals about the Skype for Business call flows
 ### Peer-to-peer call for Microsoft 365 or Office 365 user from within customer network
 <a name="bk_Figure2"> </a>
 
-For peer-to-peer calls, media traffic always takes the most direct route to its destination. However, the signaling traffic goes to a Microsoft 365 or Office 365 datacenter where the Online user is homed. Since both users are on the same WAN and nothing prevents the clients from communicating directly, the media flows directly between them. Signaling traffic, for both users traverses the ExpressRoute connection that is destined for each organization's datacenter. To show you the call flow in this scenario, see this.
+For peer-to-peer calls, media traffic always takes the most direct route to its destination. However, the signaling traffic goes to a Microsoft 365 or Office 365 datacenter where the Online user is homed. Since both users are on the same WAN and nothing prevents the clients from communicating directly, the media flows directly between them. Signaling traffic, for both users traverse the ExpressRoute connection that is destined for each organization's datacenter. To show you the call flow in this scenario, see this.
 
  **Peer-to-peer call flow**
 
@@ -174,7 +174,7 @@ Using the [Skype for Business Online Cloud Connector Edition](https://aka.ms/Clo
 
 Skype Meeting Broadcast is a special use case, which consists of a two-part meeting with each part having different network transport profiles. The first part, and the one that is most important from a network performance point of view, is the inner meeting. This is the real-time portion of the meeting that includes one or more client endpoints connecting to the conferencing server in the cloud. Data transmitted using this portion of the meeting is exactly like the example above, with a user joining an Online conference.
 
-What makes Skype Meeting Broadcast unique is that the meeting is distributed to a large number of conference attendees using a broadcast streaming service. This broadcast streaming service isn't routable over ExpressRoute, but instead uses the Internet with the optional support of Content Delivery Network (CDN) services. It is helpful to recognize that the broadcast streaming is a unidirectional media flow because the attendees listen but don't talk and supports buffering, so it is much less sensitive to network performance issues such as latency, packet loss, and jitter. Instead of optimizing broadcast traffic for these issues, it is optimized for bandwidth utilization because there is potentially a very large number of attendees receiving the streamed media.
+What makes Skype Meeting Broadcast unique is that the meeting is distributed to a large number of conference attendees using a broadcast streaming service. This broadcast streaming service isn't routable over ExpressRoute, but instead uses the Internet with the optional support of Content Delivery Network (CDN) services. It's helpful to recognize that the broadcast streaming is a unidirectional media flow because the attendees listen but don't talk and supports buffering, so it's much less sensitive to network performance issues such as latency, packet loss, and jitter. Instead of optimizing broadcast traffic for these issues, it's optimized for bandwidth utilization because there's potentially a very large number of attendees receiving the streamed media.
 
  **Skype Meeting Broadcast with users from customer network**
 
@@ -182,13 +182,13 @@ What makes Skype Meeting Broadcast unique is that the meeting is distributed to 
 
 ## Call flow patterns by deployment type
 
-With the common call flow examples above, and an understanding of the general principles that control traffic patterns, the tables below provide a summary of the traffic patterns for a large combination of deployment and usage scenarios. These tables do not capture all possible combinations of call flows, but should help you to further understand the general principles of call flow.
+With the common call flow examples above, and an understanding of the general principles that control traffic patterns, the tables below provide a summary of the traffic patterns for a large combination of deployment and usage scenarios. These tables don't capture all possible combinations of call flows, but should help you to further understand the general principles of call flow.
 
 Data is transmitted and is listed as being local to the organization; it doesn't leave the customer network, Internet, or ExpressRoute. The patterns listed below are based on the most common network settings, such as firewalls, federation, and Internet, and assume that all organizations involved in multi-party or federated flows have ExpressRoute. In practice, having different settings could result in different traffic patterns than those that are listed below.
 
 ### Call flows for Skype for Business Online
 
-Skype for Business Online usage scenarios involve users who are homed Online, and may be calling from either your internal network or the Internet. On-premises servers aren't part of these scenarios, so all conferencing or PSTN related media will flow to the cloud, and the Online users Edge server will also be in the cloud.
+Skype for Business Online usage scenarios involves users who are homed Online, and may be calling from either your internal network or the Internet. On-premises servers aren't part of these scenarios, so all conferencing or PSTN related media will flow to the cloud, and the Online users Edge server will also be in the cloud.
 
  **Call flow summary for Skype for Business Online**
 
@@ -232,7 +232,7 @@ Users that will connect to Cloud Connector Edition are all homed Online. This me
 |PSTN call  <br/> |Online user on your network using Cloud Connector Edition.  <br/> |local  <br/> |local  <br/> |[PSTN call using Skype for Business Cloud Connector Edition](call-flow-using-expressroute.md#bk_Figure6) <br/> ||
 |PSTN call  <br/> |Online user using the internet using Cloud Connector Edition.  <br/> |Internet  <br/> |Internet  <br/> |Combination of [On-premises Edge server with Microsoft 365 or Office 365 hosted conferences](call-flow-using-expressroute.md#bk_Figure5) and [PSTN call using Skype for Business Cloud Connector Edition](call-flow-using-expressroute.md#bk_Figure6).  <br/> |Internet users will connect via the Edge server that is included in Cloud Connector, and Cloud Connector will connect to the PSTN network.  <br/> |
 
-## Related topics
+## Related articles
 
 [ExpressRoute documentation](/azure/expressroute/)
 

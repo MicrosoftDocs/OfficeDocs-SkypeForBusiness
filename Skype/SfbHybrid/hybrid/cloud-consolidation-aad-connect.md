@@ -31,9 +31,9 @@ description: "This appendix includes detailed steps for updating Microsoft Entra
 
 Microsoft Entra Connect supports [syncing from multiple forests](/azure/active-directory/connect/active-directory-aadconnect-topologies). It supports only one instance of Microsoft Entra Connect syncing to Microsoft Entra ID. In cases where Microsoft Entra ID is already installed in one forest, the existing instance of Microsoft Entra Connect must be updated to sync from the other forest.
 
- - If all identities are represented only once across both forests (that is, if you have not made any mail-enabled contacts), then you can rerun the Microsoft Entra Connect wizard, choose “Customize synchronization options,” and then on the **Connect Your Directories** page, enter the name of the other forest and credentials.<br><br>
+ - If all identities are represented only once across both forests (that is, you haven’t made any mail-enabled contacts), then you can rerun the Microsoft Entra Connect wizard, choose “Customize synchronization options,” and then on the **Connect Your Directories** page, enter the name of the other forest and credentials.<br><br>
  ![The Connect your directories page.](../media/cloud-consolidation-connect-your-directories.png)
- - If users exist in more than one directory, and you're merging the data, you'll need to uninstall Microsoft Entra Connect and reinstall it. You need to reinstall because the cross-forest join rules condition can only be configured during the first install. You can do it on the following page:<br><br>
+ - If users can exist in more than one directory, and you’ll be merging the data, you'll need to uninstall Microsoft Entra Connect and reinstall it. You need to take this action because the cross-forest join rules condition can only be configured during the first install. This is done on the following page:<br><br>
  ![The Uniquely identifying your users page.](../media/cloud-consolidation-uniquely-identifying-your-users.png)
 
 

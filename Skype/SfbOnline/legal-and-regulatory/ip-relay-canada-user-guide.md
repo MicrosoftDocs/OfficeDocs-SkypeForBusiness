@@ -29,7 +29,7 @@ description: "How to use an IP Relay account for Canada."
 Description of the IP Message Relay service from Microsoft:
 
 ## Scenario A
-If a hearing- or voice-impaired person wishes to contact a nonimpaired individual, they “chat” via a special web-based client to an agent called a Call Taker.
+If a hearing- or voice-impaired person wishes to contact a nonimpaired individual, they "chat" via a special web-based client to an agent called a Call Taker.
 
 The Call Taker then communicates with the hearing- or voice-impaired person via the chat session and contacts the nonimpaired person through the telephone network anywhere in Canada or the United States, as required.
 
@@ -43,7 +43,7 @@ Should the hearing- or voice-impaired person are not online in the chat program,
 ## Scenario C
 If an hearing- or voice-impaired person requires emergency assistance, they might select the appropriate button:  911 – Police / 911 – Fire / 911 – Ambulance.
 
-This sends an emergency notification to the Northern IP Relay operators, who will then access the 911 account designed for this purpose. Once the Call Taker has confirmed their address, they'll contact the appropriate PSAP and stay on the line for as long as required.
+This will send an emergency notification to the Northern IP Relay operators, who will then access the 911 account designed for this purpose. Once the Call Taker has confirmed his or her address, they'll contact the appropriate PSAP and stay on the line for as long as required.
 
 ## How to place a Text chat to Voice call
 
@@ -64,11 +64,11 @@ Once logged in, you'll see instructions displayed on the left side of your scree
 - You must be logged in to the IP Message Relay portal to receive calls or chats.
 
 ### How to place a 911 call:
-If you experience an emergency, you might select the appropriate emergency button located at the bottom of your screen (as shown below).
+If you experience an emergency, you may select the appropriate emergency button located at the bottom of your screen.
 
 ![Emergency buttons.](../images/ip-relay-emergency-buttons.png)
 
-The IP Message Relay Operator contacts 911, confirms your address and translates it  to various emergency centers until it's no longer required, and the appropriate department has been dispatched to your location.
+The IP Message Relay Operator will contact 911, confirm your address, and translate with various emergency centers until he or she's no longer required, and the appropriate department has been dispatched to your location.
 
 > [!WARNING]
 > Please do not test this service, as the appropriate agency will be contacted and possibly dispatched even if you indicate it is simply a test, and you may be charged a false dispatch fee from the emergency agency.

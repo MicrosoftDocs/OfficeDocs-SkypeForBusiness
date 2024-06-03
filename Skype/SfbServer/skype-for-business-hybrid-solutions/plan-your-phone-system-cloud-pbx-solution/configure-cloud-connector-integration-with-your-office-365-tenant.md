@@ -4,7 +4,7 @@ ms.reviewer:
 ms.author: serdars
 author: CarolynRowe
 manager: serdars
-ms.date: 2/15/2018
+ms.date: 01/05/2023
 audience: ITPro
 ms.topic: conceptual
 ms.service: skype-for-business-server
@@ -15,6 +15,7 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom:
   - has-azure-ad-ps-ref
+  - azure-ad-ref-level-one-done
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: "Learn how to configure Cloud Connector integration with your Microsoft 365 or Office 365 organization."
 ---
@@ -30,7 +31,7 @@ Once the Skype for Business Cloud Connector Edition installation is complete, pe
   
 ## Configure firewall settings
 
-Configure the firewall settings for your internal and external firewall settings for you perimeter network to open the required ports as described in [Ports and protocols](plan-skype-for-business-cloud-connector-edition.md#BKMB_Ports) in [Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md).
+Configure the firewall settings for your internal and external firewall settings for your perimeter network to open the required ports as described in [Ports and protocols](plan-skype-for-business-cloud-connector-edition.md#BKMB_Ports) in [Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md).
   
 ## Set up Public Switched Telephone Network (PSTN) gateways
 
@@ -100,7 +101,7 @@ If you are using TLS between Mediation Servers and gateways, you will need to co
     
 ## Set up your users
 
-Log in to the Microsoft 365 admin center, add the users that will be enabled for online voice services, and assign an E5 license or Phone System add-on to the E3 license to these users. For information about adding users, see [Add users to Microsoft 365 for business](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
+Log in to the Microsoft 365 admin center, add the users that will be enabled for online voice services, and assign an E5 license or Phone System add on to the E3 license to these users. For information about adding users, see [Add users to Microsoft 365 for business](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
   
 ## Enable users for Phone System voice and voicemail services
  
@@ -168,7 +169,7 @@ When a P2P call is escalated to a PSTN conference, the Skype for Business Online
     
     Use the default SIP domain of Cloud Connector (the first SIP domain in the .ini file) as the user domain.
     
-    Please note that license assignment is only required for the user propagation into the Skype for Business online directory. Assign a Microsoft 365 or Office 365 license (such as E5) to the account you create, allow up to one hour for the changes to propagate,verify the user accounts has been provisioned correctly to the Skype for Business online directory by running following cmdlet, then remove the license from this account.
+    Please note that license assignment is only required for the user propagation into the Skype for Business online directory. Assign a Microsoft 365 or Office 365 license (such as E5) to the account you create, allow up to one hour for the changes to propagate, verify the user accounts have been provisioned correctly to the Skype for Business online directory by running following cmdlet, then remove the license from this account.
     ```powershell
    Get-CsOnlineUser -Identity <UserPrincipalName>
    ```
@@ -176,7 +177,7 @@ When a P2P call is escalated to a PSTN conference, the Skype for Business Online
 2. Start a tenant Microsoft Entra ID remote PowerShell session using your global or user admin credentials, and then run the following cmdlet to set the department for the Microsoft Entra user account configured in step 1 to "HybridMediationServer":
 
    ```powershell
-   Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
+   Update-MgUser -UserId <UserPrincipalName> -Department "HybridMediationServer"
    ```
 
 3. Start a tenant Skype for Business remote PowerShell session using your Skype for Business tenant admin credentials, and then run the following cmdlet to set the Mediation Server and Edge Server FQDN to that user account, replacing \<DisplayName\> with the Display Name of the user for the account you created in step 1:
@@ -187,8 +188,8 @@ When a P2P call is escalated to a PSTN conference, the Skype for Business Online
 
     For Identity, use the Display Name of the user account you created for this Mediation Server.
     
-    For  *MediationServerFQDN*  , use the internal FQDN defined for your Mediation Server.
+    For  *MediationServerFQDN*, use the internal FQDN defined for your Mediation Server.
     
-    For  *EdgeServerExternalFQDN*  , use the external FQDN defined for Edge Server Access Proxy. If there are multiple Cloud Connector PSTN sites, choose the Edge Server Access Proxy FQDN assigned to the site where the Mediation Server is located.
+    For  *EdgeServerExternalFQDN*, use the external FQDN defined for Edge Server Access Proxy. If there are multiple Cloud Connector PSTN sites, choose the Edge Server Access Proxy FQDN assigned to the site where the Mediation Server is located.
     
 4. If there are multiple Cloud Connector Mediation Servers (multiple-site, HA), please repeat the previous steps for each of them.

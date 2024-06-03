@@ -53,31 +53,31 @@ Register-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 ## Detailed Description
 <a name="DetailedDescription"> </a>
 
-You must provide the tenant admin account name and password. Use the account you have created for Cloud Connector online management. 
+You must provide the tenant admin account name and password. Use the account you created for Cloud Connector online management. 
   
 In release 1.4.2 and earlier, follow the instructions to provide the external certificate password, safe mode admin password, domain admin password, and VM admin password. 
   
 In release 2.0 and later, follow the instructions to provide the external certificate password, CceService password and CABackupFile password.
   
-At the end of registration, restart the Cloud Connector management service and log on to the services as CceService account.
+At the end of registration, restart the Cloud Connector management service and sign-in the services as CceService account.
   
-SiteName combined with the Edge Server external FQDN in the CloudConnector.ini file is considered a PSTN site identity. If neither the SiteName nor the Edge Server external FQDN has been used to register a site, a new site will be created for this appliance in an online tenant configuration. If a PSTN site identity is found, a PSTN site will use this identity and the appliance will be registered to this PSTN site. 
+SiteName combined with the Microsoft Edge Server external FQDN in the CloudConnector.ini file is considered a PSTN site identity. If neither the SiteName nor the Microsoft Edge Server external FQDN is used to register a site, a new site is created for this appliance in an online tenant configuration. If a PSTN site identity is found, a PSTN site uses this identity and the appliance is registered to this PSTN site. 
   
-In the following situation, the cmdlet will fail and indicate that Site1 is already registered: 
+In the following situation, the cmdlet fails and indicates that Site1 is already registered: 
   
-- SiteName is Site1 and the Edge Server external FQDN is edgserver1.contoso.com. 
+- SiteName is Site1 and the Microsoft Edge Server external FQDN is edgserver1.contoso.com. 
     
-- A PSTN site whose SiteName is Site1 and Edge Server external FQDN is edgserver.contoso.com.
+- A PSTN site whose SiteName is Site1 and Microsoft Edge Server external FQDN is edgserver.contoso.com.
     
-- A PSTN site whose SiteName is NewSite and Edge Server external FQDN is edgserver1.contoso.com has been registered. 
+- A PSTN site whose SiteName is NewSite and Microsoft Edge Server external FQDN is edgserver1.contoso.com is registered.
     
-ApplianceName combined with the Mediation Server FQDN in CloudConnector.ini file is considered an Appliance Identity. If neither the ApplianceName nor the Mediation Server FQDN has been used to register an appliance, a new appliance will be created in the online tenant configuration. If the appliance is already registered, the cmdlet will fail.
+ApplianceName combined with the Mediation Server FQDN in CloudConnector.ini file is considered an Appliance Identity. If the ApplianceName nor the Mediation Server FQDN has been used to register an appliance, a new appliance is created in the online tenant configuration. If the appliance is already registered, the cmdlet fails.
   
-In the following situation, the cmdlet will fail and indicate that the appliance is already registered: 
+In the following situation, the cmdlet fails and indicates that the appliance is already registered: 
   
 - ApplianceName is Appliance1 and Mediation server FQDN is ms1.vdomain.com.
     
-- In the current PSTN site, if an appliance whose name Appliance1 and Mediation Server FQDN is ms.vdomain.com or an appliance whose name NewAppliance and Mediation server FQDN is ms1.vdomain.com has been registered.
+- In the current PSTN site, if an appliance whose name Appliance1 and Mediation Server FQDN are ms.vdomain.com or an appliance whose name NewAppliance and Mediation server FQDN are ms1.vdomain.com is registered.
     
 ## Parameters
 <a name="DetailedDescription"> </a>

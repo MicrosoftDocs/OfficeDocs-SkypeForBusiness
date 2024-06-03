@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams analytics and reporting
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 audience: Admin
 ms.topic: conceptual
@@ -57,13 +57,14 @@ We're continually improving the Teams reporting experience and adding features a
 |[Teams PSTN blocked users report](pstn-blocked-users-report.md)   |Yes|Yes|No|No|  Display name<br>Phone number<br>Reason<br>Action type<br>Action date and time   |
 |[Teams PSTN minute pools report](pstn-minute-pools-report.md) |Yes|Yes|No|No|  Country or region<br>Capability (license) <br>Total minutes<br>Minutes used<br>Minutes available|
 |[Teams PSTN usage report - Calling Plans](pstn-usage-report.md#calling-plans)|Yes|Yes|No|No|  Time stamp<br>User name<br>Phone number<br>Call type <br>Called to<br>To country or region <br>Called from <br>From country or region<br>Charge<br>Currency<br>Duration<br>Domestic/International<br>Call ID<br>Number type<br>Country or region<br>Conference ID<br>Capability (license)|
-|[Teams PSTN usage report - Direct Routing](pstn-usage-report.md#direct-routing)  |Yes|Yes|No|No|  Time stamp<br>Display name<br>SIP address<br>Phone number <br>Call type<br>Called to<br>Start time<br>Invite time<br>Failure time<br>End time<br>Duration<br>Number type<br>Media bypass<br>SBC FQDN<br>Azure region<br>Event type<br>Final SIP code<br>Final Microsoft subcode<br>Final SIP phrase<br>Correlation ID  |
+|[Teams PSTN usage report - Direct Routing](pstn-usage-report.md#direct-routing)  |Yes|Yes|Yes|Yes|  Time stamp<br>Display name<br>SIP address<br>Phone number <br>Call type<br>Called to<br>Start time<br>Invite time<br>Failure time<br>End time<br>Duration<br>Number type<br>Media bypass<br>SBC FQDN<br>Azure region<br>Event type<br>Final SIP code<br>Final Microsoft subcode<br>Final SIP phrase<br>Correlation ID  |
 |[Teams information protection license report](information-protection-license-report.md)  |Yes|Yes|No|No| <br>Whether users have valid licenses to push their messages via change notifications</br><br>Total number of change notification events triggered by a user<br><br>What apps are listening to org-wide change notification events<br>|
 |[Teams Virtual Appointments usage report](/microsoft-365/frontline/virtual-appointments-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)|Yes|Yes|No|No| Number of virtual appointments<br>Number of Bookings appointments<br>Number of Teams Electronic Health Records (EHR)-integrated appointments<br>Average duration of an appointment<br>Average lobby wait time of attendees<br>Start time<br>Meeting ID<br>Lobby wait time<br>Duration<br>Status<br>Product type<br>Attendees<br>Department<br>SMS sent<br>Whether the appointment used an advanced Virtual Appointments capability|
 |[Teams Advanced Virtual Appointments activity report](/microsoft-365/frontline/advanced-virtual-appointments-activity-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) |Yes|Yes|No|No|Number of users using advanced Virtual Appointments capabilities<br>Number of users who use SMS text notifications<br>Number of users who conduct on-demand appointments<br>Number of users who use the queue|
 |[Teams EHR connector Virtual Appointments report](/microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) |Yes|Yes|No|No| Start time<br>Duration<br>Primary (name of meeting organizer)<br>Primary's email (email of meeting organizer)<br>Department<br>Attendants<br>Lobby wait time<br>Whether the appointment is within the allocation limit|
 |[Walkie Talkie usage and performance report](walkie-talkie-usage-report.md) |Yes|Yes|No|No| Metrics include the number of push-to-talk (PTT) transmissions made and received, channel activity, transmission duration, and device and participant details.|
 |[SMS notifications usage report](/microsoft-365/frontline/sms-notifications-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) |Yes|No|No|No| Sent time <br> Sent from <br> SMS notification type <br> Product type <br> Status |
+|[New Teams usage report](../new-teams-usage-report.md)|Yes|Yes|No|No|An overview of the Teams client desktops in your organization|
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## Make the user specific data anonymous
@@ -71,7 +72,7 @@ We're continually improving the Teams reporting experience and adding features a
 To make the identifiable information in usage reports anonymous, you have to be a Global administrator. The Global administrator can hide identifiable information (using MD5 hashes) such as display name, group name, email, and Microsoft Entra user ID in the report and its export.
 
 1. In Microsoft 365 admin center, go to the **Settings** \> **Org Settings**, and under **Services** tab, choose **Reports**.
-    
+
 2. Select **Reports**, and then choose to **Display concealed user, group, and site names in all reports**. This setting gets applied both to the usage reports in Microsoft 365 admin center as well as Teams admin center.
   
 3. Select **Save changes**.

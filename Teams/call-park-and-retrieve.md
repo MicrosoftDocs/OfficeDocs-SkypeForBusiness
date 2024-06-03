@@ -85,11 +85,11 @@ To assign a call park policy to a group:
 
 To manage call park and retrieve policies by using PowerShell, use the following Teams PowerShell Module cmdlets:
 
-- [New-CsTeamsCallParkPolicy](/powershell/module/skype/new-csteamscallparkpolicy)
-- [Set-CsTeamsCallParkPolicy](/powershell/module/skype/set-csteamscallparkpolicy)
-- [Get-CsTeamsCallParkPolicy](/powershell/module/skype/get-csteamscallparkpolicy)
-- [Remove-CsTeamsCallParkPolicy](/powershell/module/skype/remove-csteamscallparkpolicy)
-- [Grant-CsTeamsCallParkPolicy](/powershell/module/skype/grant-csteamscallparkpolicy)
+- [New-CsTeamsCallParkPolicy](/powershell/module/teams/new-csteamscallparkpolicy)
+- [Set-CsTeamsCallParkPolicy](/powershell/module/teams/set-csteamscallparkpolicy)
+- [Get-CsTeamsCallParkPolicy](/powershell/module/teams/get-csteamscallparkpolicy)
+- [Remove-CsTeamsCallParkPolicy](/powershell/module/teams/remove-csteamscallparkpolicy)
+- [Grant-CsTeamsCallParkPolicy](/powershell/module/teams/grant-csteamscallparkpolicy)
 
 ### PowerShell examples
 
@@ -129,6 +129,6 @@ PS C:\> Remove-CsTeamsCallParkPolicy -Identity "SalesPolicy"
 
 [Park a call in Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
 
-[Set-CsTeamsCallParkPolicy](/powershell/module/skype/set-csteamscallparkpolicy)
+[Set-CsTeamsCallParkPolicy](/powershell/module/teams/set-csteamscallparkpolicy)
 
 [Assign policies to your users in Teams](policy-assignment-overview.md)
