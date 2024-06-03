@@ -31,38 +31,38 @@ description: "Find out what you should know about PINs and how to reset them in 
 > [!Note]
 > For information about resetting Audio Conferencing PINs in Microsoft Teams, see [Reset the Audio Conferencing PIN in Microsoft Teams](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams).
 
-A PIN is a code made up of numbers that is created for each Skype for Business user who is enabled for audio conferencing. Audio conferencing PINs are used by meeting organizers to identify that they are the meeting organizer and allow them to start a meeting over the phone. If they use the Skype for Business app to start the meeting, a PIN isn't required. If users forget their PIN and they can't find it in the email that was sent to them when they were enabled for audio conferencing, an administrator can reset their PIN, or they can reset their own PIN.
+A PIN is a code made up of numbers that is created for each Skype for Business user who is enabled for audio conferencing. Audio conferencing PINs are used by meeting organizers to identify that they're the meeting organizer and allow them to start a meeting over the phone. If they use the Skype for Business app to start the meeting, a PIN isn't required. If users forget their PIN and they can't find it in the email that was sent to them when they were enabled for audio conferencing, an administrator can reset their PIN, or they can reset their own PIN.
   
-Meetings can be started when an authenticated user joins using the Skype for Business app or when the organizer joins with his or her PIN over the phone. When a meeting requires a PIN to start, users who join over the phone will be placed in the lobby and will listen to music on hold until the meeting starts. If the organizer of a meeting doesn't require a PIN to start the meeting over the phone, then callers won't be asked to provide a PIN when they join the meeting.
+Meetings can be started when an authenticated user joins using the Skype for Business app or when the organizer joins with their PIN over the phone. When a meeting requires a PIN to start, users who join over the phone are placed in the lobby and listen to music on hold until the meeting starts. If the organizer of a meeting doesn't require a PIN to start the meeting over the phone, then callers won't be asked to provide a PIN when they join the meeting.
   
 ## Reset a user's PIN
 
 1. Sign in with your work or school account.
     
-2. Go to the admin center > **Skype for Business**, and in the left navigation, click **Audio conferencing**.
+2. Go to the admin center > **Skype for Business**, and in the left navigation, select **Audio conferencing**.
     
 3. Click on **Users**, select the user that you want to reset the PIN for.
     
-4. In the Action pane, under **PIN**, click **Reset**.
+4. In the Action pane, under **PIN**, select **Reset**.
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
    
-## Have a user reset his or her own PIN
+## Have a user reset their own PIN
 
 A user can reset a PIN by using the **Reset PIN** option on the **Dial-in Conferencing** page. This page can be accessed in one of three ways:
 
 * In a browser, go to [https://mysettings.lync.com/pstncalling](https://mysettings.lync.com/pstncalling).
-* In Skype for Business, click the **Show Menu** arrow next to **Options**, and then click **Tools** > **Dial-in Conference Settings**.
-* In Skype for Business, click **Options**, click **Call Forwarding** in the left menu, and then in the **More Call Settings** section, click **Edit settings online**. 
+* In Skype for Business, click the **Show Menu** arrow next to **Options**, and then select **Tools** > **Dial-in Conference Settings**.
+* In Skype for Business, click **Options**, select **Call Forwarding** in the left menu, and then in the **More Call Settings** section, click **Edit settings online**. 
 
 ## What else should you know about PINs?
 
 - For security purposes, the PIN is only shown to an administrator on one time, when the PIN is reset. After the PIN is reset by an administrator, the PIN will be listed as *********** in the **Skype for Business admin center** and in the results when they use Get-CsCsOnlineDialInConfencingUser in Windows PowerShell.
     
-- Automatically sending emails to users is enabled by default, and users will receive an email with their PIN when they're enabled for audio conferencing or when the PIN is reset. But if you have disabled automatically sending emails, a PIN reset email won't be sent to a user and you will have to manually send the PIN information to the user.
+- Automatically sending emails to users is enabled by default, and users receive an email with their PIN when they're enabled for audio conferencing or when the PIN is reset. But if you have disabled automatically sending emails, a PIN reset email won't be sent to a user and you'll have to manually send the PIN information to the user.
     
-- When a meeting starts, all of the users in the lobby will automatically join it. For example, if two participants try to join a meeting before it has been started, they will be put in the lobby and will listen to music on hold, and when the meeting organizer joins using his PIN via phone, the meeting will start and the participants in the lobby will join the meeting.
+- When a meeting starts, all of the users in the lobby automatically join it. For example, if two participants try to join a meeting before it has been started, they will be put in the lobby and will listen to music on hold, and when the meeting organizer joins using his PIN via phone, the meeting will start and the participants in the lobby will join the meeting.
     
 - The default setting is to not allow a meeting to be started by anonymous callers.
     

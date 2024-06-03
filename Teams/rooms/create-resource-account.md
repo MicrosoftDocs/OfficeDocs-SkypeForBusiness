@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
 ms.reviewer: sohailta
-ms.date: 08/03/2023
+ms.date: 05/31/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -42,12 +42,12 @@ Every resource account is unique to a single Microsoft Teams Rooms installation 
 
 Depending on your environment, you need one or more roles to create resource accounts.
 
-|**Environment**|**Required Roles**|
+| Environment | Required Roles |
 |-----|-----|
-|Microsoft Entra ID  <br/> |Global Administrator or User Administrator  <br/> |
-|Active Directory  <br/> |Active Directory Enterprise Admins, Domain Admins, or have delegated rights to create users. Microsoft Entra Connect Sync rights.  <br/> |
-|Exchange Online  <br/> |Global Administrator or Exchange Administrator   <br/> |
-|Exchange Server  <br/> |Exchange Organization Management or Recipient Management   <br/> |
+|Microsoft Entra ID |Global Administrator or User Administrator |
+|Active Directory |Active Directory Enterprise Admins, Domain Admins, or have delegated rights to create users. Microsoft Entra Connect Sync rights. |
+|Exchange Online |Global Administrator or Exchange Administrator  |
+|Exchange Server |Exchange Organization Management or Recipient Management  |
 
 > [!IMPORTANT]
 > If you're creating resource accounts for Teams Rooms, the resource account's UPN must match the SMTP address of the resource account.
