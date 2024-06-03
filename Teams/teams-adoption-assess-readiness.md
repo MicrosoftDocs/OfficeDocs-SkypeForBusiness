@@ -60,13 +60,13 @@ Early adopters share certain traits no matter what size or industry your organiz
 - Willing to share their observations and learnings with the group
 - Are risk takers; that is, they're willing to try something to see if it works
 
-Use a form in Microsoft 365 or Office 365 to allow these individuals to opt into your early adopter program for Teams. Depending on the size and complexity of your organization, you may choose to enable some or all of these individuals for your experimentation phase. In this program, they are agreeing to actively participate in your experimentation phase and provide regular feedback to the project team. Avoid having individuals who simply want to test drive new technology. Let them know that by giving this active feedback, they are helping to craft the outcome of your project. You will use this list of people in [Phase 2 - experiment](teams-adoption-phase2-experiment.md).
+Use a form in Microsoft 365 or Office 365 to allow these individuals to opt into your early adopter program for Teams. Depending on the size and complexity of your organization, you may choose to enable some or all of these individuals for your experimentation phase. In this program, they're agreeing to actively participate in your experimentation phase and provide regular feedback to the project team. Avoid having individuals who simply want to test drive new technology. Let them know that by giving this active feedback, they're helping to craft the outcome of your project. You'll use this list of people in [Phase 2 - experiment](teams-adoption-phase2-experiment.md).
 
 Our Early Adopter Program Guide is a helpful resource for kicking off this program in your environment.  
  
 ## Assess your organization's readiness for change
 
-Change is a human process that has nothing to do with technology. There is behavioral psychology and neuroscience that educates us about the natural resistance to change. To make change acceptable, it's critical to anticipate the needs of your users, express your understanding of their situation, and create solutions that improve that situation. Even in doing so you will encounter natural resistance to change.  
+Change is a human process that has nothing to do with technology. There's behavioral psychology and neuroscience that educates us about the natural resistance to change. To make change acceptable, it's critical to anticipate the needs of your users, express your understanding of their situation, and create solutions that improve that situation. Even in doing so you'll encounter natural resistance to change.  
 
 ![Graph illustrating resistance to change.](media/teams-adoption-resistance.png)
 
