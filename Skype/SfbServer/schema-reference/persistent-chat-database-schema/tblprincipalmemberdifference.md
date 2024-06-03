@@ -12,12 +12,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 0b94f555-6888-4fe0-a048-4660a2513276
-description: "tblPrincipalMemberDifference contains group membership changes (both added and removed members) that have not yet been processed by the later Active Directory Domain Services Sync steps."
+description: "tblPrincipalMemberDifference contains group membership changes (both added and removed members) that haven't yet been processed by the later Active Directory Domain Services Sync steps."
 ---
 
 # tblPrincipalMemberDifference
  
-tblPrincipalMemberDifference contains group membership changes (both added and removed members) that have not yet been processed by the later Active Directory Domain Services Sync steps.
+tblPrincipalMemberDifference contains group membership changes (both added and removed members) that haven't yet been processed by the later Active Directory Domain Services Sync steps.
   
 **Columns**
 

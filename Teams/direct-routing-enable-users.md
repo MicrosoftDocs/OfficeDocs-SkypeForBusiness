@@ -140,7 +140,7 @@ The account general information will now show the assigned phone number and Dire
     Microsoft recommends, but doesn't require, that the phone number is configured as a full E.164 phone number with country code. You can configure phone numbers with extensions. These extensions will be used to look up users when the lookup against the base number returns more than one result. This functionality allows companies to configure phone numbers with the same base number and unique extensions. For lookup to be successful, the invite must include the full number with extension as follows:
     
     ```PowerShell
-    To: <sip:+14255388701;ext=1001@sbc1.adatum.biz
+    Invite: <sip:+14255388701;ext=1001@sbc1.adatum.biz
     ```
 
 

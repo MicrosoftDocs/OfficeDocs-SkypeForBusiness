@@ -13,6 +13,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.custom:
   - has-azure-ad-ps-ref
+  - azure-ad-ref-level-one-done
 ms.collection: IT_Skype16
 description: "Helper script to configure SFB 2019 control panel authentication with Microsoft 365 or Office 365 via OAuth protocol."
 ---
@@ -24,6 +25,8 @@ Following are the authentication related helper scripts for Modern Admin Control
 ## Configure MACP authentication with Microsoft 365 or Office 365
 
 This script should be run after installing Skype for Business Server 2019 Cumulative Update 1 or later, as part of the set-up for the new Control Panel. 
+
+[!INCLUDE [Azure AD PowerShell deprecation note](../../Teams/includes/aad-powershell-deprecation-note.md)]
 
 ```powershell
 <#

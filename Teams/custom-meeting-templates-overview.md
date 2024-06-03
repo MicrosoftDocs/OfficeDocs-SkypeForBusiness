@@ -1,7 +1,7 @@
 ---
 title: Overview of custom meeting templates in Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
@@ -36,6 +36,7 @@ The following meeting options can be controlled by using a meeting template:
 |Lobby|Specifies who can bypass the lobby and join the meeting directly.|
 |End-to-end encryption|Specifies if the meeting is encrypted.|
 |Watermarks|Specifies if watermarks are used for camera feeds and content that is shared on screen in the meeting.|
+|Restrict participants from copying or forwarding meeting chat messages|Prevents participants from copying or forwarding content in the meeting chat.|
 |*Audio & video*||
 |Allow mic and camera for attendees|Specifies if attendees can unmute and use their camera.|
 |*Recording & transcription*||
@@ -68,6 +69,7 @@ Templates have the option of specifying a sensitivity label. Labels can also be 
 - Apply a watermark to shared content
 - End-to-end encryption
 - Meeting chat
+- Prevent copying chat content to clipboard
 - Record meetings automatically
 - Who can bypass the lobby?
 - Who can present

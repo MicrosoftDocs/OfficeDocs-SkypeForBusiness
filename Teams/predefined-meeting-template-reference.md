@@ -1,7 +1,7 @@
 ---
 title: Predefined meeting templates in Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
@@ -41,6 +41,7 @@ The Virtual appointment meeting template comes with the following options. You c
 |End-to-end encryption|Off|Visible|Unlocked|
 |Enable watermark for screenshare|Off|Visible|Unlocked|
 |Enable watermark for video|Off|Visible|Unlocked|
+|Restrict participants from copying or forwarding meeting chat messages|Off|Visible|Unlocked|
 |***Audio and video***||||
 |Allow mic for attendees|On|Visible|Unlocked|
 |Allow camera for attendees|On|Visible|Unlocked|
@@ -71,6 +72,7 @@ The controlled-content meeting template comes with the following options. You ca
 |End-to-end encryption|Off|Visible|Unlocked|
 |Enable watermark for screenshare|Off|Visible|Unlocked|
 |Enable watermark for video|Off|Visible|Unlocked|
+|Restrict participants from copying or forwarding meeting chat messages|Off|Visible|Unlocked|
 |***Audio and video***||||
 |Allow mic for attendees|On|Visible|Unlocked|
 |Allow camera for attendees|On|Visible|Unlocked|

@@ -41,7 +41,7 @@ Remove-CcCertificationAuthorityFile
 ## Input Types
 <a name="InputTypes"> </a>
 
-None. The Remove-CcCertificationAuthorityFile cmdlet does not accept pipelined input.
+None. The Remove-CcCertificationAuthorityFile cmdlet doesn't accept pipelined input.
   
 ## Return Types
 <a name="ReturnTypes"> </a>

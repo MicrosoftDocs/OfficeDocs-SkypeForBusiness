@@ -2,13 +2,15 @@
 title: Microsoft Teams Rooms app version support
 ms.author: tonysmit
 author: mstonysmith
+manager: pamgreen
 ms.reviewer: raginis
 ms.date: 10/04/2023
-manager: pamgreen
-audience: ITPro
 ms.topic: article
+audience: Admin
 ms.service: msteams
 ms.subservice: itpro-rooms
+appliesto: 
+  - Microsoft Teams
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices

@@ -23,13 +23,13 @@ description: "The main high availability scheme for most server roles in Skype f
  
 The main high availability scheme for most server roles in Skype for Business Server is based on server redundancy via pooling. If a server running a certain server role fails, the other servers in the pool running the same role take the load of that server.
   
-Skype for Business Server requires at least two Front End Servers in order to enable high availability. The Planning Tool uses the following criteria to determine if it will add extra servers in order to support high availability:
+Skype for Business Server requires at least two Front End Servers in order to enable high availability. The Planning Tool uses the following criteria to determine if it adds extra servers in order to support high availability:
   
-- If the deployment contains two or more Front End Servers, the Planning Tool does not add an extra server.
+- If the deployment contains two or more Front End Servers, the Planning Tool doesn't add an extra server.
     
-- If the deployment contains Edge Server, an additional server is added. 
+- If the deployment contains Microsoft Edge Server, an extra server is added. 
     
-- If the deployment contains Persistent Chat, the planning tool will add an extra server, but not increase the pool number. For example, if the deployment already contains four servers, the Planning Tool will suggest adding an additional server (for a total of five servers) but will maintain a single pool. 
+- If the deployment contains Persistent Chat, the planning tool adds an extra server, but not increase the pool number. For example, if the deployment already contains four servers, the Planning Tool will suggest adding an additional server (for a total of five servers) but will maintain a single pool. 
 
     > [!NOTE] 
     > Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Skype for Business to Microsoft Teams upgrade](/MicrosoftTeams/upgrade-start-here). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015. 

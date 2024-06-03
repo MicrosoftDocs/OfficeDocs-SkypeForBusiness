@@ -32,15 +32,15 @@ Get User returns a user record from the repository.
    
  **URI Parameters** - None.
   
- **Request Headers** - No additional headers.
+ **Request Headers** - No extra headers.
   
  **Request Body** - None.
   
  **Response** - The response includes an HTTP status code and a set of response headers.
   
- **Status Code** - A successful operation returns status code 200 (OK). If a specified user ID is not found, it returns status code 404 (Not Found).
+ **Status Code** - A successful operation returns status code 200 (OK). If a specified user ID isn't found, it returns status code 404 (Not Found).
   
- **Response Headers** - No additional headers.
+ **Response Headers** - No extra headers.
   
  **Response Body** - Below is a sample response payload in JSON.
   
@@ -54,7 +54,7 @@ Get User returns a user record from the repository.
 
  *userId*  - ID of the user.
   
- *loginName*  - External user identification for regular users. If Windows Authentication is used for authenticating users, then this may be a FQDN of the user.
+ *loginName*  - External user identification for regular users. If Windows Authentication is used for authenticating users, then this might be an FQDN of the user.
   
  *defaultItemId*  - ID of the default Item for this user. The default Item is the top-most Item that is associated to the user. All other Items this user owns can be navigated from the default Item.
   

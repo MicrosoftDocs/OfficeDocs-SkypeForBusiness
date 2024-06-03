@@ -2,24 +2,26 @@
 title: "Create an inclusive Teams meeting experience for all participants"
 ms.author: tonysmit
 author: mstonysmith
-f1.keywords:
-- Teams hybrid
-- remote work
-- Teams meetings
 manager: pamgreen
-ms.date: 07/08/2022
-audience: ITPro
-description: Find out how to use Teams to create an inclusive meeting experience for your hybrid work force.
+ms.reviewer: sohailta
+ms.date: 2/26/2024
 ms.topic: article
+audience: Admin
 ms.service: msteams
-ms.localizationpriority: high
+ms.subservice: itpro-rooms
+appliesto: 
+  - Microsoft Teams
 ms.collection:
 - m365solution-teamshybrid
 - m365solution-scenario
 - m365initiative-meetings
 - teams-rooms-devices
-ms.custom: 
-keywords: 
+f1.keywords:
+- Teams hybrid
+- remote work
+- Teams meetings
+ms.localizationpriority: high
+description: Find out how to use Teams to create an inclusive meeting experience for your hybrid work force.
 ---
 
 # Create an inclusive Teams meeting experience for all participants

@@ -2,24 +2,26 @@
 title: "Step 2 - Create a resource account"
 ms.author: tonysmit
 author: mstonysmith
-f1.keywords:
-- Teams hybrid
-- remote work
-- Teams meetings
 manager: pamgreen
-ms.date: 07/08/2022
-audience: ITPro
-description: Create a resource account for use with Teams Rooms devices.
+ms.reviewer: sohailta
+ms.date: 2/26/2024
 ms.topic: article
+audience: Admin
 ms.service: msteams
-ms.localizationpriority: high
+ms.subservice: itpro-rooms
+appliesto: 
+  - Microsoft Teams
 ms.collection:
 - m365solution-teamshybrid
 - m365solution-scenario
 - m365initiative-meetings
 - teams-rooms-devices
-ms.custom: 
-keywords: 
+ms.localizationpriority: high
+f1.keywords:
+- Teams hybrid
+- remote work
+- Teams meetings
+description: Create a resource account for use with Teams Rooms devices.
 ---
 
 # Step 2 - Create a resource account

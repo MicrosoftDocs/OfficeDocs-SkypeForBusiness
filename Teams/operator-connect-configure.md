@@ -193,4 +193,7 @@ To release phone numbers from the Teams admin center, go to the **Phone numbers*
 
 ## Related topics
 
+- ## Related articles
+
+- [Plan Operator Connect](operator-connect-plan.md)
 - [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md)

@@ -4,7 +4,7 @@ author: DaniEASmith
 ms.author: danismith
 manager: pamgreen
 ms.reviewer: mikedav
-ms.date: 07/07/2023
+ms.date: 03/26/2024
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
@@ -31,13 +31,13 @@ description: Learn about Microsoft add-on licenses for Microsoft Teams and the c
 
 Add-on licenses are licenses for specific Microsoft Teams capabilities. They give you the flexibility to add capabilities only for users in your organization who need them. To add a capability, buy one add-on license for each user who will use it.
 
-The add-on licensing options available to you depend on the Microsoft 365 plan you have. To see which voice calling and audio conferencing options are available to you, see the [Which Microsoft capabilities are available with my plan?](#which-microsoft-capabilities-are-available-with-my-plan) section of this article.
+The add-on licensing options available to you depend on the Microsoft Teams plan you have. To see which voice calling and audio conferencing options are available to you, see the [Which Microsoft capabilities are available with my plan?](#which-microsoft-capabilities-are-available-with-my-plan) section of this article.
 
 Here's a list of Teams add-on licenses and their capabilities that you can add to your Teams subscription.
 
 |License|Description|
 |-------|-----------|
-| **Microsoft Teams Premium** | Microsoft Teams Premium is a Teams add-on license that allows organizations with Microsoft 365 subscriptions to enhance their Teams experience with benefits like more personalized and intelligent meetings, enhanced meeting protection, and advanced management and reporting capabilities. For more information about the Teams Premium add-on license, see [Microsoft Teams Premium licensing](licensing-enhance-teams.md). |
+| **Microsoft Teams Premium** | Microsoft Teams Premium is a Teams add-on license that allows organizations with Microsoft 365 subscriptions and Teams licenses to enhance their Teams experience with benefits like more personalized and intelligent meetings, enhanced meeting protection, and advanced management and reporting capabilities. For more information about the Teams Premium add-on license, see [Microsoft Teams Premium licensing](licensing-enhance-teams.md). |
 | **Teams Phone with Calling Plan bundle** | The Teams Phone with Calling Plan license bundles Teams Phone System's PBX capabilities and a Domestic Calling Plan for PSTN connectivity. |
 | **Teams Phone Standard** |[Teams Phone System](../what-is-phone-system-in-office-365.md) is a hosted telephone service that gives you call control and Private Branch Exchange (PBX) capabilities. Teams Phone Standard licenses give you all Teams Phone System capabilities like cloud voicemail, call park, call forwarding, auto attendants, call queues, call transfer, and caller ID. <br/> <br/>To learn more about Phone System, see [Here's what you get with Teams Phone System](../here-s-what-you-get-with-phone-system.md). |
 | **Microsoft Teams Calling Plans** | If your users need to call phone numbers outside your organization, you can purchase [Microsoft Teams Calling Plans](../calling-plans-for-office-365.md) to connect to PSTN phone numbers with Microsoft as your PSTN provider. There are Domestic Calling Plans, International Calling Plans, and Pay-As-You-Go Calling Plans. <br/> <br/> To find out whether Teams Calling Plans is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). |
@@ -54,54 +54,42 @@ Most Microsoft 365 plans allow Teams users to make peer-to-peer calls within you
 
 ### Voice and PSTN connectivity
 
-Whether you're a small business, enterprise organization, educational institution, government agency, or nonprofit, you have three ways to get Teams Phone System and PSTN connectivity:
+For users to make outbound calls using the PSTN, they need all the following requirements:
 
-- Buy a Teams Essentials with Microsoft Entra ID, Microsoft 365 Business, E1/E3, A1/A3, F1/F3, or G1/G3 plan and then buy **Teams Phone with Calling Plan** bundle licenses.
-  - This model will give you Teams Phone System PBX capabilities and a Microsoft Domestic Calling Plan.
-  - Choose this setup if you want all phone number management and billing to be handled by Microsoft.
-  - Check to see if the [Teams Phone with Calling Plan bundle license is available in your region](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+1. Teams
+1. PBX capabilities
+1. PSTN connectivity
 
-- Buy a Teams Essentials with Microsoft Entra ID, Microsoft 365 Business, E1/E3, A1/A3, F1/F3, or G1/G3 plan, buy **Teams Phone Standard** licenses, and buy a Microsoft standalone calling plan or choose a third-party PSTN carrier.
-  - This model will give you Teams Phone System, but you'll still need to connect to the PSTN.
-  - To view all your PSTN connectivity options, see [PSTN connectivity options](../pstn-connectivity.md).
-  - To learn about all voice solutions, see [Plan your Teams voice solution](../cloud-voice-landing-page.md).
+You have three options to acquire Teams, set up PBX capabilities, and connect to the PSTN.
 
-- Buy an E5/A5/G5 plan and buy **Microsoft Calling Plans** or connect to a third-party PSTN connectivity provider.
-  - Most Microsoft 365 E5, A5, and G5 plans include Teams Phone System, but organizations still need to choose a [PSTN connectivity option](../pstn-connectivity.md).
+| Options | Acquire Teams | Set up PBX capabilities | Connect to the PSTN |
+| ------- | ------------- | ----------------------- | ------------------- |
+| This option gives you Teams Phone PBX capabilities and a Microsoft Domestic Calling Plan. <br/><br/> Choose this setup if you want all phone number management and billing to be handled by Microsoft. <br/><br/> Check to see if the [Teams Phone with Calling Plan license is available in your region](/microsoftteams/calling-plan-overview). | **For Business subscribers:**<br/> - Teams Essentials with Microsoft Entra ID<br/> - Microsoft 365 Business Basic, Standard, or Premium <br/><br/> **For Enterprise subscribers:**<br/> - Microsoft 365 E3 (no Teams) plus Teams Enterprise<br/> - Microsoft 365 E3 EEA (no Teams) plus Teams EEA<br/> - Microsoft 365 E3<sup>1</sup><br/> - Office 365 E1/E3 (no Teams) plus Teams Enterprise<br/> - Office 365 E1/E3 EEA (no Teams) plus Teams EEA<br/> - Office 365 E1/E3<sup>1</sup><br/> - Teams Enterprise<br/> - Teams EEA<br/><br/> **For Frontline subscribers:**<br/> - Microsoft 365 F1/F3<br/> - Office 365 F3<sup>2</sup><br/><br/> **For other subscribers:**<br/> - Microsoft 365 A3<br/> - Office 365 A1<br/> - Microsoft 365 G3 | Buy *Teams Phone with Calling Plans*, which includes Teams Phone PBX capabilities. | *Teams Phone with Calling Plans* also includes domestic calling minutes.<br/><br/> You can purchase additional domestic minutes and international minutes.<br/><br/> To view your Calling Plans options, see [Microsoft Calling Plans for Teams](/microsoftteams/calling-plans-for-office-365). |
+| This option gives you Teams Phone, but you still need to connect to the PSTN.<br/><br/> Choose whether you want Microsoft or a third-party provider to handle your phone number management and billing.<br/><br/> To learn about all voice solutions, see [Plan your Teams voice solution](/microsoftteams/cloud-voice-landing-page). | **For Business subscribers:**<br/> - Teams Essentials with Microsoft Entra ID<br/> - Microsoft 365 Business Basic, Standard, or Premium <br/><br/> **For Enterprise subscribers:**<br/> - Microsoft 365 E3 (no Teams) plus Teams Enterprise<br/> - Microsoft 365 E3 EEA (no Teams) plus Teams EEA<br/> - Microsoft 365 E3<sup>1</sup><br/> - Office 365 E1/E3 (no Teams) plus Teams Enterprise<br/> - Office 365 E1/E3 EEA (no Teams) plus Teams EEA<br/> - Office 365 E1/E3<sup>1</sup><br/> - Teams Enterprise<br/> - Teams EEA<br/><br/> **For Frontline subscribers:**<br/> - Microsoft 365 F1/F3<br/> - Office 365 F3<sup>2</sup><br/><br/> **For other subscribers:**<br/> - Microsoft 365 A3<br/> - Office 365 A1<br/> - Microsoft 365 G3 | Buy *Teams Phone Standard* licenses.<br/><br/> If you're adding Teams Phone to an F1/F3 plan, buy *Teams Phone Standard for Frontline Workers*. | Buy a Microsoft standalone calling plan or choose a third-party PSTN carrier.<br/><br/> To view all your PSTN connectivity options, see [PSTN connectivity options](/microsoftteams/pstn-connectivity). |
+| This option gives your organization the most security and compliance features found in the highest tiers of Microsoft 365 and Office 365 subscriptions. | **For Enterprise subscribers:**<br/> - Microsoft 365 E5 (no Teams) plus Teams Enterprise<br/> - Microsoft 365 E5 EEA (no Teams) plus Teams EEA<br/> - Microsoft 365 E5<sup>1</sup><br/> - Office 365 E5 (no Teams) plus Teams Enterprise<br/> - Office 365 E5 EEA (no Teams) plus Teams EEA<br/> - Office 365 E5<sup>1</sup><br/><br/> **For Frontline subscribers:**<br/> - Microsoft 365 F1/F3 plus Microsoft 365 F5 Security + Compliance<br/><br/> **For other subscribers:** - Microsoft 365 A5<br/> - Office 365 A5<br/> - Microsoft 365 G5 | Microsoft 365 and Office 365 E5, A5, and G5 plans include *Teams Phone Standard*.<br/><br/> If you're adding Teams Phone to an F1/F3 plan, buy *Teams Phone Standard for Frontline Workers*. | Buy a Microsoft standalone calling plan or choose a third-party PSTN carrier.<br/><br/> To view all your PSTN connectivity options, see [PSTN connectivity options](/microsoftteams/pstn-connectivity). |
 
-Here's a summary of which Microsoft voice and calling licenses to purchase, based on Microsoft 365 plan:
+*<sup>1</sup> Microsoft 365 E3/E5 and Office 365 E1/E3/E5 suites that include Teams are no longer available for purchase by new customers.*
 
-<table>
-<thead>
-<tr class="header">
-<th><strong>Base plan</strong></th>
-<th><strong>Want Microsoft as your PSTN carrier</strong></th>
-<th><strong>Want to use a third-party PSTN carrier</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Teams Essentials (Microsoft Entra ID) <br/> <br/>Any Microsoft 365 plan that includes Teams <br/> </td>
-<td>Teams Phone with Calling Plan bundle licenses <br/> <br/>or <br/> <br/>Teams Phone Standard licenses <br/> plus <br/>Domestic Calling Plan, International Calling Plan, or Pay-As-You-Go Calling Plan licenses <br/> </td>
-<td>Teams Phone Standard licenses <br/> </td>
-</tr>
-<tr>
-<td>Microsoft 365 E5/A5/G5 plans</td>
-<td>Domestic Calling Plan, International Calling Plan, or Pay-As-You-Go Calling Plan licenses <br/> </td>
-<td></td>
-</tr>
-</tbody>
-</table>
+*<sup>2</sup> Office 365 F3 is available for purchase by new customers through Cloud Solution Providers (CSPs) only.*
+
+#### Purchase the Teams Phone Standard for Frontline Workers license
+
+To access the **Teams Phone for Frontline Workers** license, your tenant must also be licensed with Microsoft 365 Frontline Worker or Office 365 Frontline Worker licenses.
+
+Also, Microsoft 365 and Office 365 Frontline Worker licenses can only be assigned to users who meet *one or more* of the following requirements:
+
+- The user uses a primary device with a single screen smaller than 10.9".
+- The user shares their primary work device with other licensed Microsoft 365 or Office 365 Frontline Worker licensed users, during or across shifts.
+  - Other licensed Microsoft Frontline Worker users must also use the device as their primary work device.
+  - Any software or services accessed from the shared device requires the devices or users to be assigned a user license that includes use of those software or services.
+
+## Buy, assign, and unassign licenses from users
 
 For instructions on how to buy licenses in the Microsoft 365 admin center, see [Buy or remove licenses](/microsoft-365/commerce/licenses/buy-licenses).
 
 After you've purchased licenses, you'll need to assign them to your users. For more information, see [Assign Teams add-on licenses](assign-teams-add-on-licenses.md).
 
-## Unassign licenses from users
-
-You have two ways to remove users' access to certain products: unassign product licenses from specific users or unassign user licenses from a specific product.
-
-For instructions on how to unassign licenses, see [Unassign licenses from users](/microsoft-365/admin/manage/remove-licenses-from-users).
+You have two ways to remove users' access to certain products: unassign product licenses from specific users or unassign user licenses from a specific product. For instructions on how to unassign licenses, see [Unassign licenses from users](/microsoft-365/admin/manage/remove-licenses-from-users).
 
 ## More guidance on Microsoft plans
 

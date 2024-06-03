@@ -22,6 +22,6 @@ The IPAddress table maps IP addresses to the unique IP address identifiers used 
 |**Column**|**Data Type**|**Key/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
 |**IPAddressKey** <br/> |int  <br/> |Primary  <br/> |Unique identifier for the specified IP address.  <br/> |
-|**IPAddress** <br/> |varchar(50)  <br/> |Unique  <br/> |Unique IP address (for example, 189.168.1.1) that maps to the IpAddressKey. This may be either an IPv4 or an IPv6 address.  <br/> |
+|**IPAddress** <br/> |varchar(50)  <br/> |Unique  <br/> |Unique IP address (for example, 189.168.1.1) that maps to the IpAddressKey. This address might be either an IPv4 or an IPv6 address.  <br/> |
    
 
