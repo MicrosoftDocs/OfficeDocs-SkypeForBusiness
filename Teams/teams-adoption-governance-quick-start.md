@@ -10,7 +10,7 @@ ms.reviewer: karuanag
 ms.date: 10/26/2018
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Quick start that covers the key decisions you will need to make for phase 2 of your Microsoft Teams adoption plan.
+description: Quick start that covers the key decisions you need to make for phase 2 of your Microsoft Teams adoption plan.
 f1.keywords:
 - CSH
 ms.custom: 
@@ -25,7 +25,7 @@ appliesto:
 
 # Governance quick start for Microsoft Teams
 
-The following activities will happen simultaneously, and they may involve all or part of your key team. As a best practice, defer large-scale governance and security conversations for after you have completed your initial experimentation with Teams. It is important to understand how governance decisions may impact the end-user experience and will simplify the decisions you will need to make at that later date. For this phase there are some decisions that need to be made. To successfully make them you will first need to answer the following questions:
+The following activities happen simultaneously, and they might involve all or part of your key team. As a best practice, defer large-scale governance and security conversations for after you complete your initial experimentation with Teams. It's important to understand how governance decisions might impact the end-user experience and will simplify the decisions you need to make at that later date. For this phase there are some decisions that need to be made. To successfully make them you first need to answer the following questions:
 
 - Which stakeholder from your earlier assessment is a good candidate to participate in this limited business onboarding?
 - Has this individual (or group of individuals) suggested use cases that would be good candidates for this phase?  
@@ -39,11 +39,11 @@ Make the following decisions (at this point, these decisions apply only to Phase
 
 ### Decision 1: Who can create teams 
 
-For the purposes of this phase you can restrict who is able to create teams to the early adopter population in addition to your core project team. This will allow your early adopters to create additional teams if needed. Monitoring this behavior will give you key information for your broad deployment.
+For the purposes of this phase you can restrict who is able to create teams to the early adopter population in addition to your core project team. This allows your early adopters to create other teams if needed. Monitoring this behavior gives you the key information for your broad deployment.
 
 ### Decision 2: Teams naming conventions 
 
-You will likely want to implement some naming conventions for your broad deployment of Teams, and check for duplicate names. In Phase 2 we suggest that you implement a manual naming convention for your initial projects only. The best practice for this is to conduct an interactive onboarding with the early adopter project team and allow them to select their own name. This will give you insight into how employees think about their work and will be essential in creating a larger scale naming convention at a later time. (Additional information on the elements of an interactive onboarding will appear later in this guide.)
+You'll likely want to implement some naming conventions for your broad deployment of Teams, and check for duplicate names. In Phase 2 we suggest that you implement a manual naming convention for your initial projects only. The best practice for this is to conduct an interactive onboarding with the early adopter project team and allow them to select their own name. This gives you insight into how employees think about their work and will be essential in creating a larger scale naming convention at a later time. (Additional information on the elements of an interactive onboarding appears later in this guide.)
 
 ### Decision 3: Guest access
 
