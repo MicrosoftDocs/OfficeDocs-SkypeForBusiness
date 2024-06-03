@@ -50,11 +50,11 @@ Eavesdropping can occur when an attacker gains access to the data path in a netw
   
 The default recommendation and setting for traffic within Skype for Business Server is to use mutual TLS (MTLS) between trusted servers and TLS from client to server. This protective measure would make an attack difficult or impossible to achieve within the time period in which a given conversation occurs. TLS authenticates all parties and encrypts all traffic. This doesn't prevent eavesdropping, but the attacker can't read the traffic unless the encryption is broken.
   
-The Traversal Using Relay NAT (TURN) protocol doen't mandate the traffic to be encrypted and the information that it's sending is protected by message integrity. Although it's open to eavesdropping, the information it's sending (that is, the IP addresses and port) can be extracted directly by looking at the source and destination addresses of the packets. The A/V Microsoft Edge service ensures that the data is valid by checking the Message Integrity of the message by using the key derived from a few items, including a TURN password, which is never sent in clear text. If Secure Real Time Protocol (SRTP) is used, media traffic is also encrypted.
+The Traversal Using Relay NAT (TURN) protocol doesn't mandate the traffic to be encrypted and the information that it's sending is protected by message integrity. Although it's open to eavesdropping, the information it's sending (that is, the IP addresses and port) can be extracted directly by looking at the source and destination addresses of the packets. The A/V Microsoft Edge service ensures that the data is valid by checking the Message Integrity of the message by using the key derived from a few items, including a TURN password, which is never sent in clear text. If Secure Real Time Protocol (SRTP) is used, media traffic is also encrypted.
   
-## Identity Spoofing (IP Address and Caller Id Spoofing)
+## Identity Spoofing (IP Address and Caller ID Spoofing)
 
-Identity Spoofing occurs when the attacker determines and uses a phone number of a valid user (caller id) or an IP address of a network, computer, or network component without being authorized to do so. A successful attack allows the attacker to operate as if the attacker is the entity normally identified by the phone number (caller id) or the IP address.
+Identity Spoofing occurs when the attacker determines and uses a phone number of a valid user (caller ID) or an IP address of a network, computer, or network component without being authorized to do so. A successful attack allows the attacker to operate as if the attacker is the entity normally identified by the phone number (caller ID) or the IP address.
 
 Within the context of Skype for Business Server, IP Address Spoofing comes into play only if an administrator is doing both of the following:
   
@@ -64,7 +64,7 @@ Within the context of Skype for Business Server, IP Address Spoofing comes into 
     
 This is less of a problem for Transport Layer Security (TLS) connections, as TLS authenticates all parties and encrypts all traffic. Using TLS prevents an attacker from performing IP address spoofing on a specific connection (for example, mutual TLS connections). But an attacker could still spoof the address of the DNS server that Skype for Business Server uses. However, because authentication in Skype for Business is performed with certificates, an attacker wouldn't have a valid certificate required to spoof one of the parties in the communication.
 
-On the other hand, Caller Id Spoofing comes into play when you have established a SIP trunk between a provider, PSTN gateway or another PBX system and Skype for Business Server. In these cases, Skype for Business Server doesn't offer any protection to prevent against caller id spoofing. This means that a Skype for Business user can receive a call from the SIP trunk with a spoofed caller id displaying the phone number or display name (if reverse number lookup applies) of another Skype for Business user. Protection to this should be applied on the provider side, PSTN or PBX gateway.
+On the other hand, Caller ID Spoofing comes into play when you have established a SIP trunk between a provider, PSTN gateway or another PBX system and Skype for Business Server. In these cases, Skype for Business Server doesn't offer any protection to prevent against caller ID spoofing. This means that a Skype for Business user can receive a call from the SIP trunk with a spoofed caller ID displaying the phone number or display name (if reverse number lookup applies) of another Skype for Business user. Protection to this should be applied on the provider side, PSTN, or PBX gateway.
   
 ## Man-in-the-Middle Attack
 
@@ -80,7 +80,7 @@ Spim is unsolicited commercial instant messages or presence subscription request
   
 ## Viruses and Worms
 
-A virus is a unit of code whose purpose is to reproduce other, similar code units. To work, a virus needs a host, such as a file, email, or program. Aworm is a unit of code whose purpose is to reproduce additional, similar code units, but it doesn't need a host. Viruses and worms primarily show up during file transfers between clients or when URLs are sent from other users. If a virus is on your computer, it can, for example, use your identity and send instant messages on your behalf.
+A virus is a unit of code whose purpose is to reproduce other, similar code units. To work, a virus needs a host, such as a file, email, or program. A worm is a unit of code whose purpose is to reproduce additional, similar code units, but it doesn't need a host. Viruses and worms primarily show up during file transfers between clients or when URLs are sent from other users. If a virus is on your computer, it can, for example, use your identity and send instant messages on your behalf.
   
 ## Personally Identifiable Information
 

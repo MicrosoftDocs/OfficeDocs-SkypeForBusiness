@@ -16,12 +16,12 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
-description: "Summary: Configure your non-server requirements for Skype for Business Server 2015. There are various things you want configured before doing your deployment, including Active Directory, DNS, Certs and Fileshares."
+description: "Summary: Configure your nonserver requirements for Skype for Business Server 2015. There are various things you want configured before doing your deployment, including Active Directory, DNS, Certs, and Fileshares."
 ---
 
 # Environmental requirements for Skype for Business Server 2015
  
-**Summary:** Configure your non-server requirements for Skype for Business Server 2015. There are various things you'll want configured before doing your deployment, including Active Directory, DNS, Certs and Fileshares.
+**Summary:** Configure your nonserver requirements for Skype for Business Server 2015. There are various things you'll want configured before doing your deployment, including Active Directory, DNS, Certs, and Fileshares.
   
 What is an environmental requirement for Skype for Business Server 2015? We put everything that's not directly server related into this article, so you don't have to do as much clicking around. If you're looking for Server Prerequisites, you can check out the [Server requirements for Skype for Business Server 2015](server-requirements.md) doc. [Networking Planning](../../plan-your-deployment/network-requirements/network-requirements.md) is also documented separately. Otherwise, this is what we've got in this article:
   
@@ -149,7 +149,7 @@ Clearly, if your AD infrastructure is in-place moving to this topology might not
   
 A resource forest topology is also supported; it's where a forest is dedicated to running your server applications, like Microsoft Exchange Server and Skype for Business Server 2015. This resource forests also hosts a synchronized representation of active user objects, but no logon-enabled user accounts. So the resource forest is a shared services environment for other forests in which user objects reside, and they have a forest-level trust relationship with the resource forest.
   
-Note that Exchange Server can be deployed in the same resource forest as Skype for Business Server or in a different forest.
+Exchange Server can be deployed in the same resource forest as Skype for Business Server or in a different forest.
   
 To deploy Skype for Business Server 2015 in this type of topology, you'd create one disabled user object in the resource forest for each user account in the user forests (if Microsoft Exchange Server is already in the environment, this might be done for you). Then you need a directory synchronization tool (like Forefront Identity Manager, or FIM) to manage user accounts through their life cycle.
   
@@ -207,7 +207,7 @@ And it's important to remember that any name in DNS is identical to the computer
   
 This seems like it would be logical for any computer already joined to a domain, but if you have an Edge Server that's not joined to your domain, it may have a default of a short name, with no domain suffix. Make sure that's not the case, either in DNS or on the Edge Server, or any Skype for Business Server 2015 server or pool, for that matter.
   
-And definitely don't use Unicode characters or underscores. Standard characters (which are A-Z, a-z, 0-9, and hyphens) are the ones that are going to be supported by external DNS and public Certificate Authorities (you'll need to assign FQDNs to the SN in the certificate, don't forget), so you'll spare yourself a lot of grief if you name with this in mind.
+And definitely don't use Unicode characters or underscores. Standard characters (which are A-Z, a-z, 0-9, and hyphens) are the ones that are going to be supported by external DNS and public Certificate Authorities (you'll need to assign FQDNs to the SN in the certificate, don't forget), so you'll spare yourself many grief if you name with this in mind.
   
 For further reading on DNS requirements for Networking, check out the [Networking](../../plan-your-deployment/network-requirements/network-requirements.md) section of our Planning documentation.
   
@@ -236,11 +236,11 @@ So certificate planning's a must. Now, let's look at a list of some of the thing
     
 - All server certificates must contain a CRL Distribution Point (CDP).
     
-- All certificates must be signed using a signing algorithm supported by the operating system. Skype for Business Server 2015 supports the SHA-1 and SHA-2 suite of digest sizes (224, 256, 384 and 512-bit), and meets or exceeds the operating system requirements.
+- All certificates must be signed using a signing algorithm supported by the operating system. Skype for Business Server 2015 supports the SHA-1 and SHA-2 suite of digest sizes (224, 256, 384-bit and 512-bit), and meets or exceeds the operating system requirements.
     
-- Auto-enrollment is supported for internal servers running Skype for Business Server 2015.
+- Autoenrollment is supported for internal servers running Skype for Business Server 2015.
     
-- Auto-enrollment is not supported for Skype for Business Server 2015 Edge Servers.
+- Autoenrollment isn't supported for Skype for Business Server 2015 Edge Servers.
     
 - When you submit a web-based certificate request to a Windows Server 2003 CA, you must submit it from a computer running either Windows Server 2003 with SP2 or Windows XP.
     
@@ -257,7 +257,7 @@ So certificate planning's a must. Now, let's look at a list of some of the thing
     
 - The default digest, or hash signing, algorithm is RSA. The ECDH_P256, ECDH_P384, and ECDH_P521 algorithms are also supported.
     
-So that's a lot to think about, and definitely, there's a variety of comfort levels with requesting certificates from a CA. We'll give you some further guidance below to make your planning as painless as possible.
+So that's a lot to think about, and definitely, there's various comfort levels with requesting certificates from a CA. We'll give you some further guidance below to make your planning as painless as possible.
   
 ### Certificates for your internal servers
 
@@ -267,7 +267,7 @@ You're also going to need certificates when Skype for Business Server 2015 commu
   
 Skype for Business Server 2015 also includes support for (without requiring) certificates signed using the SHA-256 cryptographic hash function. To support external access using SHA-256, the external certificate needs to be issued by a public CA using SHA-256.
   
-To try and keep things straightforward, we've put the certificate requirements for Standard Edition servers, Front End pools, and other roles, into the following tables, with the fictional contoso.com being used for examples (you'll probably be using something else for your environment). These are all standard web server certificates, with private keys that are non-exportable. Some additional things to note:
+To try to keep things straightforward, we've put the certificate requirements for Standard Edition servers, Front End pools, and other roles, into the following tables, with the fictional contoso.com being used for examples (you'll probably be using something else for your environment). These are all standard web server certificates, with private keys that are nonexportable. Some more things to note:
   
 - Server enhanced key usage (EKU) is automatically configured when you use the certificate wizard to request certificates.
     
@@ -279,7 +279,7 @@ Certificates for Standard Edition servers:
   
 |**Certificate**|**Subject name/Common name**|**Subject alternative name**|**Example**|**Comments**|
 |:-----|:-----|:-----|:-----|:-----|
-|Default  <br/> |FQDN of the pool  <br/> |FQDN of the pool and FQDN of the server  <br/> If you have multiple SIP domains and have enabled automatic client configuration, the certificate wizard detects and adds each supported SIP domain FQDNs.  <br/> If this pool is the auto-logon server for clients and strict Domain Name System (DNS) matching is required in group policy, you also need entries for sip.sipdomain (for each SIP domain you have).  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com  <br/> If this pool is the auto-logon server for clients and strict DNS matching is required in group policy, you also need SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |On Standard Edition server, the server FQDN is the same as the pool FQDN.  <br/> The wizard detects any SIP domains you specified during setup and automatically adds them as subject alternative names.  <br/> You can also use this certificate for Server-to-Server Authentication.  <br/> |
+|Default  <br/> |FQDN of the pool  <br/> |FQDN of the pool and FQDN of the server  <br/> If you have multiple SIP domains and have enabled automatic client configuration, the certificate wizard detects and adds each supported SIP domain FQDNs.  <br/> If this pool is the autologon server for clients and strict Domain Name System (DNS) matching is required in group policy, you also need entries for sip.sipdomain (for each SIP domain you have).  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com  <br/> If this pool is the autologon server for clients and strict DNS matching is required in group policy, you also need SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |On Standard Edition server, the server FQDN is the same as the pool FQDN.  <br/> The wizard detects any SIP domains you specified during setup and automatically adds them as subject alternative names.  <br/> You can also use this certificate for Server-to-Server Authentication.  <br/> |
 |Web internal  <br/> |FQDN of the server  <br/> |Each of the following:  <br/> • Internal web FQDN (which is the same as the FQDN of the server)  <br/> AND  <br/> • Meet simple URLs  <br/> • Dial-in simple URL  <br/> • Admin simple URL  <br/> OR  <br/> • A wildcard entry for the simple URLs  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Using a wildcard certificate:  <br/> SN=se01.contoso.com; SAN=se01.contoso.com; SAN=\*.contoso.com  <br/> |You can't override the Internal web FQDN in Topology Builder.  <br/> If you have multiple Meet simple URLs, you've got to include all of them as SANs.  <br/> Wildcard entries are supported for the simple URL entries.  <br/> |
 |Web external  <br/> |FQDN of the server  <br/> |Each of the following:  <br/> • External web FQDN  <br/> AND  <br/> • Dial-in simple URL  <br/> • Meet simple URLs per SIP domain  <br/> OR  <br/> • A wildcard entry for the simple URLs  <br/> |SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Using a wildcard certificate:  <br/> SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=\*.contoso.com  <br/> |If you have multiple Meet simple URLs, you've got to include all of them as subject alternative names.  <br/> Wildcard entries are supported for the simple URL entries.  <br/> |
    
@@ -287,7 +287,7 @@ Certificates for Front End Servers in an Enterprise Edition Front End pool:
   
 |**Certificate**|**Subject name/Common name**|**Subject alternative name**|**Example**|**Comments**|
 |:-----|:-----|:-----|:-----|:-----|
-|Default  <br/> |FQDN of the pool  <br/> |FQDN of the pool and FQDN of the server  <br/> If you have multiple SIP domains and have enabled automatic client configuration, the certificate wizard detects and adds each supported SIP domain FQDNs.  <br/> If this pool is the auto-logon server for clients and strict Domain Name System (DNS) matching is required in group policy, you also need entries for sip.sipdomain (for each SIP domain you have).  <br/> |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com  <br/> If this pool is the auto-logon server for clients and strict DNS matching is required in group policy, you also need SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |The wizard detects any SIP domains you specified during setup and automatically adds them to the subject alternative name.  <br/> You can also use this certificate for Server-to-Server Authentication.  <br/> |
+|Default  <br/> |FQDN of the pool  <br/> |FQDN of the pool and FQDN of the server  <br/> If you have multiple SIP domains and have enabled automatic client configuration, the certificate wizard detects and adds each supported SIP domain FQDNs.  <br/> If this pool is the autologon server for clients and strict Domain Name System (DNS) matching is required in group policy, you also need entries for sip.sipdomain (for each SIP domain you have).  <br/> |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com  <br/> If this pool is the autologon server for clients and strict DNS matching is required in group policy, you also need SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |The wizard detects any SIP domains you specified during setup and automatically adds them to the subject alternative name.  <br/> You can also use this certificate for Server-to-Server Authentication.  <br/> |
 |Web internal  <br/> |FQDN of the pool  <br/> |Each of the following:  <br/> • Internal web FQDN (which is NOT the same as the FQDN of the server)  <br/> • Server FQDN  <br/> • Skype for Business pool FQDN  <br/> AND  <br/> • Meet simple URLs  <br/> • Dial-in simple URL  <br/> • Admin simple URL  <br/> OR  <br/> • A wildcard entry for the simple URLs  <br/> |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Using a wildcard certificate:  <br/> SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=\*.contoso.com  <br/> |If you have multiple Meet simple URLs, you've got to include all of them as subject alternative names.  <br/> Wildcard entries are supported for the simple URL entries.  <br/> |
 |Web external  <br/> |FQDN of the pool  <br/> |Each of the following:  <br/> • External web FQDN  <br/> AND  <br/> • Dial-in simple URL  <br/> • Admin simple URL  <br/> OR  <br/> • A wildcard entry for the simple URLs  <br/> |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Using a wildcard certificate:  <br/> SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=\*.contoso.com  <br/> |If you have multiple Meet simple URLs, you've got to include all of them as subject alternative names.  <br/> Wildcard entries are supported for the simple URL entries.  <br/> |
    
@@ -295,7 +295,7 @@ Certificates for the Director:
   
 |**Certificate**|**Subject name/Common name**|**Subject alternative name**|**Example**|
 |:-----|:-----|:-----|:-----|
-|Default  <br/> |Director pool  <br/> |FQDN of the Director, FQDN of the Director pool.  <br/> If this pool is the auto-logon server for clients and strict DNS matching's required in group policy, you'll also need entries for sip.sipdomain (for each SIP domain you have).  <br/> |pool.contoso.com; SAN=dir01.contoso.com  <br/> If this Director pool is the auto-logon server for clients and strict DNS matching is required in group policy, you also need SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |
+|Default  <br/> |Director pool  <br/> |FQDN of the Director, FQDN of the Director pool.  <br/> If this pool is the autologon server for clients and strict DNS matching's required in group policy, you'll also need entries for sip.sipdomain (for each SIP domain you have).  <br/> |pool.contoso.com; SAN=dir01.contoso.com  <br/> If this Director pool is the autologon server for clients and strict DNS matching is required in group policy, you also need SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |
 |Web internal  <br/> |FQDN of the server  <br/> |Each of the following:  <br/> • Internal web FQDN (which is the same as the FQDN of the server)  <br/> • Server FQDN  <br/> • Skype for Business pool FQDN  <br/> AND  <br/> • Meet simple URLs  <br/> • Dial-in simple URL  <br/> • Admin simple URL  <br/> OR  <br/> • A wildcard entry for the simple URLs  <br/> |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Using a wildcard certificate:  <br/> SN=dir01.contoso.com; SAN=dir01.contoso.com SAN=\*.contoso.com  <br/> |
 |Web external  <br/> |FQDN of the server  <br/> |Each of the following:  <br/> • External web FQDN  <br/> AND  <br/> • Meet simple URLs per SIP domain  <br/> • Dial-in simple URL  <br/> OR  <br/> • A wildcard entry for the simple URLs  <br/> |The Director external web FQDN must be different from the Front End pool or Front End Server.  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Using a wildcard certificate:  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=\*.contoso.com  <br/> |
    
@@ -335,9 +335,9 @@ Which certs? You'll need SAN names for automatic discovery on the certificates h
     
 We'll list the specifics in each table below.
   
-Now, this is where a little pre-planning is good, but sometimes you've deployed Skype for Business Server 2015 without intending to deploy mobility, and that comes up down the line when you already have certificates in your environment. Reissuing them via an internal CA is typically pretty easy, but with public certificates from a public CA, that can be a little more expensive.
+Now, this is where a little preplanning is good, but sometimes you've deployed Skype for Business Server 2015 without intending to deploy mobility, and that comes up down the line when you already have certificates in your environment. Reissuing them via an internal CA is typically easy, but with public certificates from a public CA that can be a little more expensive.
   
-If that's what you're looking at, and if you have a lot of SIP domains (which would make adding SANS more expensive), you can configure your reverse proxy to use HTTP for the initial Autodiscover Service request, instead of using HTTPS (which is the default configuration). The Planning for Mobility topic has more info on this.
+If that's what you're looking at, and if you have many SIP domains (which would make adding SANS more expensive), you can configure your reverse proxy to use HTTP for the initial Autodiscover Service request, instead of using HTTPS (which is the default configuration). The Planning for Mobility article has more info on this.
   
 Director pool and Front End pool certificate requirements:
   
@@ -364,7 +364,7 @@ This SAN needs to be assigned to the certificate that's assigned to the SSL List
 
 Skype for Business Server 2015 is able to use the same file share for all file storage. You do need to keep the following in mind:
   
-- A file share needs to be on either direct attached storage (DAS) or a storage area network (SAN), and this includes the Distributed File System (DFS) as well as a redundant array of independent disks (RAID) for file stores. For further reading on DFS for Windows Server 2012, check out [this DFS page](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)).
+- A file share needs to be on either direct attached storage (DAS) or a storage area network (SAN), and this includes the Distributed File System (DFS) and a redundant array of independent disks (RAID) for file stores. For further reading on DFS for Windows Server 2012, check out [this DFS page](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)).
     
 - We recommend a shared cluster for the file share. If you're using one, you should cluster Windows Server 2012 or Windows Server 2012 R2. Windows Server 2008 R2 is acceptable as well. Why the latest Windows? Older versions may not have the right permissions to enable all features. You can use Cluster Administrator to create the file shares, and this [How to create file shares on a cluster](https://support.microsoft.com/help/224967/how-to-create-file-shares-on-a-cluster) article will help you with those details.
     
