@@ -26,7 +26,7 @@ description: "Learn common causes for Skype for Business Online sign-errors and 
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-To troubleshoot Skype for Business Online sign-in errors, start by eliminating the most common causes of sign-in difficulty. If necessary, you can then follow specific resolution steps based on the type of error. If the user still cannot sign in, collect additional information, and then seek additional help.
+To troubleshoot Skype for Business Online sign-in errors, start by eliminating the most common causes of sign-in difficulty. If necessary, you can then follow specific resolution steps based on the type of error. If the user still can't sign in, collect more information, and then seek extra help.
 
 ## What do you want to do?
 <a name="top"> </a>
@@ -52,7 +52,7 @@ To troubleshoot Skype for Business Online sign-in errors, start by eliminating t
 ## Check for common causes of Skype for Business Online sign-in errors
 <a name="toc323194094"> </a>
 
-Most sign-in issues can be traced to a small number of causes, and many of these are easy to correct. The table below lists some common causes of sign-in errors and some steps you or the users can take to resolve them.
+Most sign-in issues can be traced to a few causes, and many of these are easy to correct. The table below lists some common causes of sign-in errors and some steps you or the users can take to resolve them.
 
 
 | **Possible Cause**                                                                                                                                                    | **Resolution**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
@@ -74,7 +74,7 @@ To troubleshoot Skype for Business Online sign-in errors, start by eliminating t
 > [!IMPORTANT]
 >  These instructions are intended primarily for Microsoft Office 365 Plan E customers. If you are an Office 365 Plan P customer, continue to the following section, [Collect more information and seek additional help](troubleshooting-sign-in-errors-for-admins.md#collect-more-information).
 
-If the user cannot sign in after you have tried the suggestions in the previous section, then you can do additional troubleshooting based on the type of error. The table below lists the most common error messages and possible causes. Following the table are detailed procedures to address each issue.
+If the user can't sign in after you have tried the suggestions in the previous section, then you can do additional troubleshooting based on the type of error. The table below lists the most common error messages and possible causes. Following the table are detailed procedures to address each issue.
 
 |**Error message**|**Possible cause**|**Resolution**|
 |:-----|:-----|:-----|

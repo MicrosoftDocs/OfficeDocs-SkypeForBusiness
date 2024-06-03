@@ -39,7 +39,7 @@ As you might expect, there are some preparations to make before you begin deploy
 <a name="Hardware"> </a>
 
 Now that you have your topology down (and if you don't, you can check out the [Topology Basics for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md) article), it's time to think about servers. Skype for Business Server 2015 servers require 64-bit hardware. Our recommendations for hardware are below. These aren't requirements, but they reflect the requirements necessary for optimal performance. We have capacity planning documentation that will help you determine if you need more than this, depending on your circumstances.
-  
+
 Recommended hardware for Front End Servers, Back End Servers, Standard Edition servers, and Persistent Chat Servers:
   
 |Hardware component|Recommended|
@@ -57,11 +57,12 @@ Recommended hardware for Edge Servers, standalone Mediation Servers, Video Inter
 |Memory   |16 gigabytes.   |
 |Disk   |EITHER:  <br/> • 4 or more 10,000 RPM hard disk drives with at least 72-GB free disk space (the disks should be in a 2x RAID 1 configuration).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to 4 10000-RPM mechanical disk drives.   |
 |Network   |1 dual-port network adapter, 1 Gbps or higher (2 network adapters can be used, but they need to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Video Interop Servers and Directors. <br/> Edge servers will require two network interfaces that are dual-port network adapters, 1 Gbps or higher (or two paired network adapters, for a total of four, each pair being teamed with a single MAC address and a single IP address, for a total of two pairs).  <br/> On standalone Mediation Servers the installation of extra network interface cards (NICs) to allow the configuration of a specific PSTN IP address is supported.   |
+
    
 ## Operating systems for Skype for Business Server 2015
 <a name="OS"> </a>
 
-Once you have the hardware in place, you'll need to install operating systems (OS). These are the OS that will allow you to install and successfully use Skype for Business Server 2015.
+Once you have the hardware in place, you need to install operating systems (OS). These are the OS that  allows you to install and successfully use Skype for Business Server 2015.
   
 |&nbsp;|&nbsp;|
 |:-----|:-----|
@@ -77,18 +78,19 @@ If it's not on this list, it won't work properly, please don't try it for new in
 > [!NOTE]
 > You may have noticed Windows Server 2008 R2 isn't on this list. That's because we recommend Windows Server 2012 R2 for all new servers to be used for SFB. You should only be using Windows Server 2008 R2 when you have existing servers with Lync Server 2013 already installed, and you're intending to do an in-place upgrade of them. Windows Server 2008 R2 reached the end of the mainstream support lifecycle on 1/13/2015 and will reach the end of its support lifecycle on 1/14/2020.
   
-In addition to the latest service pack, you'll want to ensure the following updates are installed where relevant to you:
+In addition to the latest service pack, you want to ensure the following updates are installed where relevant to you:
   
 - For Windows Server 2012, KB article 2858668 should be installed before an upgrade. [Get it here](https://support.microsoft.com/kb/2858668/).
     
-- If you have Windows Server 2012 R2, please install KB article 2982006 before upgrading. [It's found here](https://support.microsoft.com/kb/2982006/).
+- If you have Windows Server 2012 R2, install KB article 2982006 before upgrading. [It's found here](https://support.microsoft.com/kb/2982006/).
     
-- If you're upgrading on a Windows Server 2008 R2 box (see the Note above), then you'll want to install KB article 2533623 first. [It's at this link](https://support.microsoft.com/kb/2533623/).
+- If you're upgrading on a Windows Server 2008 R2 box (see the Note above), then you want to install KB article 2533623 first. [It's at this link](https://support.microsoft.com/kb/2533623/).
     
 ## Back end databases that will work with Skype for Business Server 2015
 <a name="DBs"> </a>
 
 When installing Skype for Business Server 2015 Standard Edition, as part of the installation process, SQL Server 2014 Express (64-bit edition) is automatically installed. Skype for Business 2015 Standard Edition now also supports SQL Server 2019 Express (64-bit edition). This is achieved by either:
+
 
 - Running an in place upgrade of SQL Express on existing installation of Skype for Business 2015 Standard Edition, or
 
@@ -121,8 +123,9 @@ Archiving isn't a defined server role, you don't need to install a separate serv
 Archiving uses the Skype for Business Server file storage for temporary storage of meeting content files, so you don't set up a separate file store for archiving.
     
 Microsoft Message Queuing isn't required.
-    
+
 You'll need to set up the infrastructure for archiving storage. This includes choosing either Exchange or Archiving storage using SQL Server.   Skype for Business Server Archiving infrastructure requirements is the same as for deployment of Skype for Business Server. For details, see [Requirements for your Skype for Business environment](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md). 
+
   
 > [!NOTE]
 > To support users who are not homed on Exchange servers, or if you do not want to use the Microsoft Exchange integration option, you must deploy archiving storage using a 64-bit SQL Server database. 
@@ -177,6 +180,7 @@ If you need to read up more on SQL Mirroring, we have a Back End Server high ava
 ## Software that should be installed before a Skype for Business Server 2015 deployment
 <a name="Software"> </a>
 
+
 There are some things you're going to need to install or configure for any server running Skype for Business Server 2015, and they're listed below. After that are other requirements for specific server roles.
 
   
@@ -184,8 +188,8 @@ There are some things you're going to need to install or configure for any serve
   
 |Software/Role|Details|
 |:-----|:-----|
-|Windows PowerShell 3.0   |All Skype for Business Server servers need Windows PowerShell 3.0 installed.  <br/> • If you're doing the installation on Windows Server 2012 or Windows Server 2012 R2, you're set, because it's already there.  <br/> • If you're doing an upgrade on Windows Server 2008 R2, you can download the [Windows Management Framework 3.0](https://www.microsoft.com/download/details.aspx?id=34595) to get it. <br/> **Tip:** Once you have the correct PowerShell on there, confirm that it's BuildVersion 6.2.9200.0 or later by going to the PowerShell prompt and typing `$PSVersionTable`. This should bring up the information you need.   |
-|Microsoft .NET Framework   |WCF services is a **Feature** that's installed as a Windows feature, under **Server Manager**, no downloads needed. <br/> • You need to make sure, when you install this feature, or if it's already installed and you're checking on it, that the **HTTP Activation** option is also checked and installed, as follows: <br/> ![Screenshot showing HTTP Activation option under the .NET Framework 4.5 Features.](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> Don't worry if you get an additional pop-up saying some other things need to be installed for HTTP Activation to be installed. That's normal, click OK and go ahead. If you don't get this pop-up, then assume those things are already installed, and go ahead.  <br/> Microsoft .NET Framework is usually installed when Windows Server 2012 R2 or Windows Server 2016 are installed. Skype for Business Server works with the following Microsoft .NET Framework versions:  <br/> • .NET 3.5  <br/> • .NET 4.5  <br/> • .NET 4.6.x  <br/> • .NET 4.7.1 (for Skype for Business Server CU 5 or later releases)  <br/> • .NET 4.7.2 (for Skype for Business Server CU 6 or later releases)  <br/>  • .NET 4.8 (for Skype for Business Server CU 9 or later releases) <br/>  .NET Framework 3.5 will likely be installed by default on your Windows Server 2008 R2 machine (definitely check to be sure before you upgrade), but it actually won't be on your Windows Server 2012/Windows Server 2012 R2 servers (for new installations). To add it in, you'll need access to your installation drive or media (the place your Windows Server was installed from, or where the install files are now). Then go ahead and install it as a feature from Server Manager, and point to the installation media (specifically the **\sources\sxs** folder) when asked for it, and continue on to install it.  |
+|Windows PowerShell 3.0   |All Skype for Business Server servers needs Windows PowerShell 3.0 installed.  <br/> • If you're doing the installation on Windows Server 2012 or Windows Server 2012 R2, you're set, because it's already there.  <br/> • If you're doing an upgrade on Windows Server 2008 R2, you can download the [Windows Management Framework 3.0](https://www.microsoft.com/download/details.aspx?id=34595) to get it. <br/> **Tip:** Once you have the correct PowerShell on there, confirm that it's BuildVersion 6.2.9200.0 or later by going to the PowerShell prompt and typing `$PSVersionTable`. This should bring up the information you need.   |
+|Microsoft .NET Framework   |WCF services are a **Feature** that's installed as a Windows feature, under **Server Manager**, no downloads needed. <br/> • You need to make sure, when you install this feature, or if it's already installed and you're checking on it, that the **HTTP Activation** option is also checked and installed, as follows: <br/> ![Screenshot showing HTTP Activation option under the .NET Framework 4.5 Features.](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> Don't worry if you get an additional pop-up saying some other things need to be installed for HTTP Activation to be installed. That's normal, select OK and go ahead. If you don't get this pop-up, then assume those things are already installed, and go ahead.  <br/> Microsoft .NET Framework is installed when Windows Server 2012 R2 or Windows Server 2016 are installed. Skype for Business Server works with the following Microsoft .NET Framework versions:  <br/> • .NET 3.5  <br/> • .NET 4.5  <br/> • .NET 4.6.x  <br/> • .NET 4.7.1 (for Skype for Business Server CU 5 or later releases)  <br/> • .NET 4.7.2 (for Skype for Business Server CU 6 or later releases)  <br/>  • .NET 4.8 (for Skype for Business Server CU 9 or later releases) <br/>  .NET Framework 3.5 will likely be installed by default on your Windows Server 2008 R2 machine (definitely check to be sure before you upgrade), but it actually won't be on your Windows Server 2012/Windows Server 2012 R2 servers (for new installations). To add it in, you'll need access to your installation drive or media (the place your Windows Server was installed from, or where the install files are now). Then go ahead and install it as a feature from Server Manager, and point to the installation media (specifically the **\sources\sxs** folder) when asked for it, and continue on to install it.  |
 |Media Foundation   |For Windows Server 2016, Windows Server 2012 and Windows Server 2012 R2 the Windows Media Format Runtime installs with Microsoft Media Foundation.  <br/> All Front End Servers and Standard Edition servers used for conferencing require Windows Media Format Runtime to run the Windows Media Audio (.wma) files that the Call Park, Announcement, and Response Group applications play for announcements and music.   |
 |Windows Identity Foundation  <br/> |We need Windows Identity Foundation 3.5 to support server-to-server authentication scenarios for Skype for Business Server 2015.  <br/> • For Windows Server 2012 and Windows Server 2012 R2, there's no need to download anything. Open **Server Manager**, and go to the **Add Roles and Features Wizard**. **Windows Identity Foundation 3.5** is listed under the **Features** section. If it's checked, you're good. Otherwise select it and click Next to reach the **Install** button.  |
 |Remote Server Administration Tools   |Role Administration Tools: AD DS and AD LDS tools   |
