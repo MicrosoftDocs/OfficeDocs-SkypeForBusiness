@@ -69,22 +69,27 @@ For users who schedule or lead meetings with attendees who need to call in using
 
 You can also choose to use a third-party operator for your Audio Conferencing numbers if your current operator is part of the Microsoft Operator Connect program. For more information, see [Plan for Operator Connect Conferencing](../operator-connect-conferencing-plan.md).
 
-The following table displays Audio Conferencing license options...   
+The following table displays Audio Conferencing license options...
 **MK TO ADD AUDIO CONFERENCING TABLE**
 
 | License | Description |
 | ------- | ----------- |
-| **Standard Audio Conferencing License** | Includes toll phone numbers to dial in meetings for all supported countries, toll phone minutes for all supported countries, and 60 outbound minutes per user per month to Zone A countries. These minutes are pooled at the tenant level, so if there's one tenant with multiple Audio Conferencing users, the minutes are shared among all users.|
+| **Standard Audio Conferencing License** | Includes toll phone numbers to dial in meetings for all supported countries, toll phone minutes for all supported countries, Operator Connect Conferencing, and 60 outbound minutes per user per month to [Zone A countries](../audio-conferencing-zones.md). These minutes are pooled at the tenant level, so if there's one tenant with multiple Audio Conferencing users, the minutes are shared among all users.|
 | **Free Audio Conferencing License** | For outbound calls to the United States and Canada only. With this exception, this license includes the same capabilities as the *Standard Audio Conferencing License* plus toll-free phone numbers and toll-free minutes. |
 
 After the 60 minutes of outbound minutes to Zone A countries have been used, your Audio Conferencing users won't be able to make calls or dial out from online Audio Conferencing meetings.
 
-You can purchase additional licenses to have more minutes to dial out to non-Zone A countries (any updates re Zones??). The additional licenses are:
+You can purchase additional licenses and assign them to your users so that they can dial out to non-Zone A countries **(any updates re Zones??)** using the following options:
 
-- *Communication Credits* - Pre-paid budget to support outgoing minutes. Dial out and pay per minute once your users have exhausted your monthly minute allotment.
-- *Pay-As-You-Go* - Dial out and pay per minute for all outgoing calls. (More info needed re Pay-As-You-Go)
+- *Communication Credits* - Pre-paid budget to support outgoing minutes. Dial out and **pay per minute (?)** once your users have exhausted your monthly minute allotment.
+- For more information on Communication Credits, see:
+  - [What are Communication Credits](../what-are-communications-credits.md).
+  - [Set up Communication Credits for your organization](../set-up-communications-credits-for-your-organization.md).
+  - [Add funds and manage Communications Credits](../add-funds-and-manage-communications-credits.md).
+- ***Pay-As-You-Go * - Dial out and pay per minute for all outgoing calls. (More info needed re Pay-As-You-Go - is this the same as the Pay-As-You-Go Calling Plan mentioned below? Is then a Teams Phone Standard license required)**
 
-**which licenses don't include Teams?**
+The following table displays which Teams subscription to purchase based on your Audio Conferencing license choice.
+**which licenses don't include Teams? are there ANY differences between Standard AC and Free AC license for subscription types? If not, can just list Subscription type/Teams subscription**
 
 | License options | Subscription type | Teams subscription |
 | --------------- | ----------------- | ----------- |
@@ -99,28 +104,24 @@ You can purchase additional licenses to have more minutes to dial out to non-Zon
 
 Most Microsoft 365 plans allow Teams users to make peer-to-peer calls within your organization using VoIP technology. However, you may want to add licenses for setting up Teams Phone PBX capabilities and connecting to the PSTN for external calling.
 
-Teams Phone requires a separate add-on license. For Teams Phone only, buy a Teams Phone Standard license. For users to make and receive external calls using the PSTN, you'll need to choose a PSTN connectivity option as well. 
+Teams Phone requires a separate add-on license. For Teams Phone only, buy a Teams Phone Standard license. For users to make and receive external calls using the PSTN, you'll need to choose a PSTN connectivity option as well.
 
-For PSTN connectivity, there are multiple options, including 
+For PSTN connectivity, there are multiple options, including:
 
-- Choosing Microsoft as your PSTN carrier by purchasing a [Microsoft Calling Plan license](#teams-phone-with-microsoft-calling-plans). 
+- Choosing Microsoft as your PSTN carrier by purchasing a [Microsoft Calling Plan license](#teams-phone-with-microsoft-calling-plans).
 
-- [Choosing a separate PSTN carrier](#teams-phone-with-a-separate-pstn-connectivity-option). 
-
+- [Choosing a separate PSTN carrier](#teams-phone-with-a-separate-pstn-connectivity-option).
 
 This section describes Teams Phone license options. Some PSTN connectivity options require an additional license; some do not. For detailed information about Teams Phone PBX features, see [Teams Phone features](../here-s-what-you-get-with-phone-system.md). For information about which voice solution is best for your organization, see [Plan your voice solution](../cloud-voice-landing-page.md) and [PSTN connectivity options](../pstn-connectivity.md).
-
-
 
 ### Teams Phone with Microsoft Calling Plans
 
 Teams Phone with Calling Plans is available as:
 
-- A Teams Phone with Calling Plan bundle 
-- A Teams Phone Standard license with a separate Calling Plan license 
+- A Teams Phone with Calling Plan bundle
+- A Teams Phone Standard license with a separate Calling Plan license
 
 There are Domestic Calling Plans, International Calling Plans, and Pay-As-You-Go Calling Plans. To find out whether Teams Calling Plans is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
-
 
 ### Teams Phone with a separate PSTN connectivity option
 
@@ -136,16 +137,16 @@ If you don't have Microsoft Calling Plans available in your region or if you wan
 
 If you have a frontline worker subscription, buy a Teams Phone Standard for Frontline Workers license. To access the **Teams Phone for Frontline Workers** license, your tenant must also be licensed with Microsoft 365 Frontline Worker or Office 365 Frontline Worker licenses. Frontline Worker licenses can be assigned only to users who meet *one or more* of the following requirements:
 
- - Uses a primary device with a single screen smaller than 10.9".
- - Shares a primary work device with other licensed Frontline Worker licensed users, during or across shifts.
- - Other licensed Frontline Worker users also use the device as their primary work device.
- - Any software or services accessed from the shared device requires the devices or users to be assigned a user license that includes use of those software or services.
+- Uses a primary device with a single screen smaller than 10.9".
+- Shares a primary work device with other licensed Frontline Worker licensed users, during or across shifts.
+- Other licensed Frontline Worker users also use the device as their primary work device.
+- Any software or services accessed from the shared device requires the devices or users to be assigned a user license that includes use of those software or services.
 
  For more information about frontline workers, see [Understand frontline worker user types and licensing](/microsoft-365/frontline/flw-licensing-option).
 
 ### Summary of Teams Phone license options
 
-The following table summarizes license options for Teams Phone.   
+The following table summarizes license options for Teams Phone.
 
 **MK's TABLE SUGGESTIONS**
 
