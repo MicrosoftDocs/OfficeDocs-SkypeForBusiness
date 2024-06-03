@@ -69,24 +69,20 @@ For users who schedule or lead meetings with attendees who need to call in using
 
 You can also choose to use a third-party operator for your Audio Conferencing numbers if your current operator is part of the Microsoft Operator Connect program. For more information, see [Plan for Operator Connect Conferencing](../operator-connect-conferencing-plan.md).
 
-The following table...   **MK TO ADD AUDIO CONFERENCING TABLE**
+The following table displays Audio Conferencing license options...   
+**MK TO ADD AUDIO CONFERENCING TABLE**
 
-**MK WILL FORM INFO INTO TABLE**
+| License | Description |
+| ------- | ----------- |
+| **Standard Audio Conferencing License** | Includes toll phone numbers to dial in meetings for all supported countries, toll phone minutes for all supported countries, and 60 outbound minutes per user per month to Zone A countries. These minutes are pooled at the tenant level, so if there's one tenant with multiple Audio Conferencing users, the minutes are shared among all users.|
+| **Free Audio Conferencing License** | For outbound calls to the United States and Canada only. With this exception, this license includes the same capabilities as the *Standard Audio Conferencing License* plus toll-free phone numbers and toll-free minutes. |
 
-The *Standard Audio Conferencing license* includes the following capabilities:
+After the 60 minutes of outbound minutes to Zone A countries have been used, your Audio Conferencing users won't be able to make calls or dial out from online Audio Conferencing meetings.
 
-- Toll phone numbers to dial in meetings for all supported countries
-- Toll phone minutes for all supported countries
-- Outbound minutes to Zone A countries (check re Zones)
-  - 60 minutes per user per month
-  - These minutes are pooled at the tenant level, so if there's one tenant with multiple Audio Conferencing users, the minutes are shared among all users.
-  - After this 60 minutes has been used, your Audio Conferencing users won't be able to make calls or dial out from online Audio Conferencing meetings.
-  - You can purchase additional licenses to have more minutes to dial out to non-Zone A countries (any updates re Zones??). The additional licenses are:
-    - *Communication Credits* - Pre-paid budget to support outgoing minutes. Dial out and pay per minute once your users have exhausted your monthly minute allotment.
-    - *Pay-As-You-Go* - Dial out and pay per minute for all outgoing calls. (More info needed re Pay-As-You-Go)
+You can purchase additional licenses to have more minutes to dial out to non-Zone A countries (any updates re Zones??). The additional licenses are:
 
-The *Free Audio Conferencing license* is for outbound calls to the United States and Canada only. With this exception, this license includes the same capabilities as the *Standard Audio Conferencing License*.
-
+- *Communication Credits* - Pre-paid budget to support outgoing minutes. Dial out and pay per minute once your users have exhausted your monthly minute allotment.
+- *Pay-As-You-Go* - Dial out and pay per minute for all outgoing calls. (More info needed re Pay-As-You-Go)
 
 **which licenses don't include Teams?**
 
