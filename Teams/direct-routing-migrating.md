@@ -11,6 +11,7 @@ ms.service: msteams
 ms.localizationpriority: medium
 ms.custom:
   - has-azure-ad-ps-ref
+  - azure-ad-ref-level-one-done
 search.appverid: MET150
 ms.collection: 
   - M365-voice
@@ -65,8 +66,8 @@ For more information, please refer to [Migration and interoperability Guidance f
 For more information about migrating from Calling Plans, see:
 
 - [Set up Calling Plans](/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
-- [Set-CsOnlineVoice User](/powershell/module/skype/Set-CsOnlineVoiceUser)
-- [Get-CsOnlineLisLocation](/powershell/module/skype/get-csonlinelislocation)  
+- [Set-CsOnlineVoice User](/powershell/module/teams/Set-CsOnlineVoiceUser)
+- [Get-CsOnlineLisLocation](/powershell/module/teams/get-csonlinelislocation)  
 
 It's recommended that you remove previously configured licensing plan information as follows:
 
@@ -74,8 +75,8 @@ It's recommended that you remove previously configured licensing plan informatio
 $companyname = “contoso” 
 $lic1 = $companyname + “:MCOPSTN1” 
 $lic2 = $companyname + “:MCOPSTN2” 
-Set-MsolUserLicense -UserPrincipalName <UPN> -RemoveLicenses $lic1 
-Set-MsolUserLicense -UserPrincipalName <UPN> -RemoveLicenses $lic2 
+Set-MgUserLicense -UserId '11111111-0000-aaaa-bbbb-222222222222' -RemoveLicenses @($lic1) 
+Set-MgUserLicense -UserId '11111111-0000-aaaa-bbbb-222222222222' -RemoveLicenses @($lic2) 
 ```
 
 ## Migrating from Office 365 Teams Phone with on-premises PSTN connectivity in Skype for Business Server

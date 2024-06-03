@@ -1,7 +1,7 @@
 ---
 title: Advanced collaboration analytics for Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 ms.reviewer: izzychun, charup
 ms.date: 11/10/2023
@@ -28,7 +28,7 @@ Advanced collaboration analytics gives you visibility into your organization’s
 
 Reports only show users and teams owned by your organization, but the counts could include activities in cross-tenant collaborations. Reports include chat events (1:1, group, and meeting) initiated by your users and by people outside your organization. Reports include channel events from Teams channels in your organization, but not channel events that your users participate in that are hosted by other organizations.
 
-Advanced collaboration analytics requires Teams Premium.
+Advanced collaboration analytics requires a Teams Premium license for each user you want to receive insights about. Note that it takes 30 days after licenses are purchased for the data to be available. 
 
 ## View the collaboration activity dashboard
 

@@ -1,6 +1,6 @@
 ---
 ms.date: 03/16/2018
-title: "Office 365 Enterprise, E1, E3, and E4 plans"
+title: "Office 365 Enterprise, E1, E3, and E4 plan"
 ms.author: serdars
 author: pamgreen
 manager: serdars

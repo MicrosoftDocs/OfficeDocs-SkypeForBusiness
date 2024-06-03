@@ -31,7 +31,7 @@ description: "See what you need to do next after you've ported your phone number
 
 After you have submitted your port order, we'll contact your carrier and work out the details with them. When the final transfer date has been set, we'll notify you via email. However, while waiting on your carrier to accept the order, go ahead and create the required emergency addresses you'll use with these numbers.
   
-- Learn more about [emergency locations, addresses and call routing](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
+- Learn more about [emergency locations, addresses, and call routing](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
 
 - You can [Add or remove an emergency address for your organization](/MicrosoftTeams/add-change-remove-emergency-location-organization) if you need to.
 

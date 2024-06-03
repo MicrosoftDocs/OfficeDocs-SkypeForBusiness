@@ -50,7 +50,7 @@ Note that mobile devices will only get notified if they're set for banner and ri
 
 You enable call groups by configuring the **TeamsCallingPolicy AllowCallGroups** setting for a user. You can use Teams admin center or PowerShell. When enabled, the user can configure their call groups in the Teams client.
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > When you turn off call groups for users, you must clean up the call group relationships for users in the Teams admin center to avoid incorrect call routing.
 
 ## Use Teams admin center
@@ -106,10 +106,10 @@ Set-CsUserCallingSettings -Identity user1@contoso.com -CallGroupOrder $ucs.CallG
 
 ## Related articles
 
-[Call forwarding and simultaneous ring in Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)
+[Call forwarding and simultaneous ring in Teams](https://support.office.com/article/a88da9e8-1343-4d3c-9bda-4b9615e4183e)
 
-[Teams calling policy](/MicrosoftTeams/teams-calling-policy)
+[Configure calling policies](/MicrosoftTeams/teams-calling-policy)
 
-[New-CsTeamsCallingPolicy](/powershell/module/skype/new-csteamscallingpolicy)
+[New-CsTeamsCallingPolicy](/powershell/module/teams/new-csteamscallingpolicy)
 
-[Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
+[Set-CsTeamsCallingPolicy](/powershell/module/teams/set-csteamscallingpolicy)

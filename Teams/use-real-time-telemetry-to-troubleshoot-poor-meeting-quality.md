@@ -1,10 +1,10 @@
 ---
-title: "Use real-time telemetry to troubleshoot poor meeting quality"
-author: MikePlumleyMSFT
-ms.author: mikeplum
+title: Use real-time telemetry to troubleshoot poor meeting quality
+author: jacktremper
+ms.author: jtremper
 manager: pamgreen
-ms.reviewer: mikedav
-ms.date: 09/24/2021
+ms.reviewer: vapati
+ms.date: 01/29/2024
 ms.topic: article
 ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
 ms.tgt.pltfrm: cloud
@@ -38,6 +38,8 @@ For more information on Teams admin roles, see [Use Microsoft Teams administrato
 
 Real-Time Analytics lets IT admins look at their important users’ scheduled meetings and see audio, video, content sharing, and network-related issues. As an admin, you can use this telemetry to investigate these issues during meetings and troubleshoot in real time.
 
+Real-Time Analytics is available in Commercial, GCC, and GCC High.
+
 You can also set up alerts for audio issues as they occur in in-progress meetings. For more information, see [Alerts for in-progress meeting audio quality issues](alerts/alerts-in-progress-meeting-audio.md).
 
 ## What is Real-Time Analytics?
@@ -50,13 +52,11 @@ As a Teams admin, you get full access to all real-time telemetry data for each u
 
 ## Where to find per-user real-time troubleshooting telemetry
 
-To see all meeting information and data for a user, go to the [Teams admin center](https://admin.teams.microsoft.com). Under **Users** > **Manage users**, select a user, and open the **Meetings & calls** tab on the user's profile page. Under **Recent meetings**, you'll see a list of meetings the user has attended within the past 24 hours *for which real-time telemetry is available*, including any in progress meetings. If the meeting isn't in progress or doesn't have real-time telemetry data, it will show up in **Past meetings**.
+To see all meeting information and data for a user, go to the [Teams admin center](https://admin.teams.microsoft.com). Under **Users** > **Manage users**, select a user, and open the **Meetings & calls** tab on the user's profile page. Under **Recent meetings**, there is a list of meetings the user attended within the past 24 hours for which real-time telemetry is available, including any in progress meetings. If the meeting isn't in progress or doesn't have real-time telemetry data, it's listed under **Past meetings**.
+
+Real-time telemetry is gathered automatically for all users who have a Teams Premium license and is retained for seven days. For users who don't have a Teams Premium license, real-time telemetry is only gathered when you access the in-progress meeting in the Teams admin center and is retained for 24 hours.
 
 :::image type="content" alt-text="Screenshot of recent meetings table." source="media/recent-meetings.png" lightbox="media/recent-meetings.png":::
-
-> [!NOTE]
-> For a meeting to show up under "Recent Meetings", a Teams admin must have clicked on the meeting in Real-Time Analytics while the meeting was in progress to begin the flow of real-time client telemetry.
-
 
 To get additional information about participants of a meeting that's in progress, including their device, network, and audio statistics, find the meeting in **Recent meetings** and select the link under the **Participants** column.
 
@@ -71,8 +71,8 @@ To look at the telemetry of a given user for an in-progress meeting, including i
 ### Device information
 | Name | Description | Possible reasons for blank values|
 |:---|:---|:---|
-| Audio capture device | Name of the audio capture device (eg: microphone) in use | System might not have a name associated with the device (eg: Remote Desktop or Virtual machine 'Remote audio' device)  |
-| Audio render device | Name of the audio render device (eg: speakers or headphones) in use | System might not have a name associated with the device (eg: Remote Desktop or Virtual machine 'Remote audio' device)  |
+| Audio capture device | Name of the audio capture device (for example, microphone) in use | System might not have a name associated with the device (for example, Remote Desktop or Virtual machine 'Remote audio' device)  |
+| Audio render device | Name of the audio render device (for example, speakers or headphones) in use | System might not have a name associated with the device (for example, Remote Desktop or Virtual machine 'Remote audio' device)  |
 | Video capture device | Name of the video capture device in use | User isn't sending video from the endpoint being monitored |
 
 ### Connectivity information
@@ -117,7 +117,7 @@ User signals identify when a user is actively participating in the call, isn't s
 |Resolution |Pixels | Information only |The resolution of the video being sent. Outbound video resolution is dynamic, based on the highest requirement from an endpoint in the meeting. A client capable of 1920 x 1080 video will only send 640 x 360 video if no clients are displaying that user's video in a frame larger than 640 x 360 |
 | Source Freeze Count | Count | Less than 2 | The number of times the camera didn’t generate a new frame for more than one second at a stretch. For video, this metric is typically indicative of an issue with the device generating content at the asked format. |
 | Loss Recovery Attempt Rate | Count | Less than 21 | Indicates the number of times there was a request to recover from network loss causing video to freeze. This value is typically caused by packet loss on the network and can result in short to long freezes depending on the nature of loss. Mitigating the source of network loss should improve quality. |
-| Video Encoder Hardware Failure | Boolean | False | This flag indicates that there has been an error raised from the hardware encoding component. Typically, Teams handles video encoder errors by falling back to software encoding, but software encoding can result in degraded performance if the endpoint doesn’t have sufficient processing power. |
+| Video Encoder Hardware Failure | Boolean | False | This flag indicates that there was an error from the hardware encoding component. Typically, Teams handles video encoder errors by falling back to software encoding, but software encoding can result in degraded performance if the endpoint doesn’t have sufficient processing power. |
 
 
 
@@ -131,7 +131,7 @@ User signals identify when a user is actively participating in the call, isn't s
 |Codec |String | Information only |Displays the codec and rendering mode of the VBSS stream. (Example: H264 SW HW indicates an H264 VBSS stream using both software and hardware rendering.)|
 |Resolution |Pixels | Information only |The resolution of the VBSS stream being sent and received. |
 | Normalized Freeze Duration | Milliseconds per minute| Less than 25 | This metric is the rate of video freezing that is observed on the receiver side and is represented in milliseconds of freeze per minute of active video. Loss-free networks should have a value of 0. Video freeze is typically caused by network loss. Larger percentages of loss or short, high bursts of loss may lead to higher normalized freeze. |
-| Harmonic Frame Rate Average | Frames per second (FPS) | Greater than 0.15 | The harmonic average of the incoming video framerate. This typically represents the regularity of the incoming frames along with the rate of frames. A low value can stem from jitter in the incoming frames, freezes, burst arrivals, and low FPS itself. These are typically related to network issues, but -- although rare -- can also be caused by devices not producing consistent output framerates.|
+| Harmonic Frame Rate Average | Frames per second (FPS) | Greater than 0.15 | The harmonic average of the incoming video framerate. This typically represents the regularity of the incoming frames along with the rate of frames. A low value can stem from jitter in the incoming frames, freezes, burst arrivals, and low FPS itself. These are typically related to network issues, but (rarely) can also be caused by devices not producing consistent output framerates.|
 | Audio / Video Sync | Milliseconds | Between -900 ms to 900 ms | This metric indicates the audio / video sync in milliseconds. The sync value is calculated as (audioDelay – videoDelay). A positive value indicates audio is behind while a negative value indicates video is behind. Audio video sync issues may be caused by various factors, most common of which include bad capture devices and network issues delaying one modality more than the other. |
 | Loss Recovery Attempt Rate | Count | Less than 21 | Indicates the number of times there was a request to recover from network loss causing video to freeze. This metric is typically caused by packet loss on the network and can result in short to long freezes depending on the nature of loss. Mitigating the source of network loss should improve quality. |
 | Source Freeze Count | Count | Less than 75 | The number of times the outbound screen share didn’t generate a new frame for more than one second at a stretch. For screen sharing, this value can potentially relate to permissions of screen capture, and can also result from performance issues causing glitches while capturing screen content. |
@@ -145,17 +145,17 @@ User signals identify when a user is actively participating in the call, isn't s
 | Battery level | Charging or Percentage | Greater than 10% | Where an endpoint includes a battery as a power source, this metric indicates the percentage of the battery remaining or if the device is plugged in and charging. |
 
 
-## Client platforms supported for real-time telemetry
+## Client platforms that support real-time telemetry
 
 - Windows
 - macOS
 - Android
 - iOS
+- Teams web client (including VDI 1.0 and VDI 2.0)
 
-> [!NOTE]
-> Teams Web client (including VDI) does not support delivery of telemetry in real time.
+Real-time telemetry isn't available in older versions of Teams. If no telemetry is available, try updating your client.
 
-## Teams devices with support for real-time telemetry
+## Teams devices that support real-time telemetry
 
 - Teams displays
 - Teams phone
@@ -165,16 +165,12 @@ User signals identify when a user is actively participating in the call, isn't s
 > [!NOTE]
 > Devices that joined the meeting using Cloud Video Interop (CVI) solutions are not supported in Real-Time Analytics.
 
-
 ## Limitations
 
-- Real-time telemetry subscription isn't automatic for all meetings and must be started by a Teams admin while the meeting is in progress.
-- Real-time telemetry will only be available for a meeting's supported endpoints from the point at which the admin first clicked the in-progress meeting in Real-Time Analytics.
 - Real-time telemetry is only available for scheduled meetings and Meet Now. For PSTN, 1:1 calls, and group calls, real-time telemetry isn't available.
-- Real-time telemetry is only available for presenters of scheduled live event. It's currently not available for live event attendees.
-- Real-time telemetry data is available for a meeting under **Recent meetings** for 24 hours after the meeting has ended. After 24 hours, you can't access the data and the meeting moves to **Past meetings**. If a meeting is longer than 3 hours, real-time telemetry will only be available for the *last 3 hours*.
-- Telemetry isn't available in real time when using older versions of Teams. If no telemetry is available, try updating your client.
+- Real-time telemetry is only available for presenters of live events. It's not available for live event attendees.
 - If external participants or anonymous users join a meeting, their display name will show as **unavailable** to retain cross-tenant privacy.
+- If a meeting is longer than 3 hours, real-time telemetry will only be available for the *last 3 hours*.
 
 ## Related topics
 

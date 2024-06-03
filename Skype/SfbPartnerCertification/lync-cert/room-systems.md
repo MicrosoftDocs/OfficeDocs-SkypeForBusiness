@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Lync Certification
 - dn788944
-description: "Read about the qualified Lync Room System products have been tested and are optimized for Lync."
+description: "Read about the qualified Lync Room System products are tested and are optimized for Lync."
 ---
 
 #  Lync Room Systems
 
-Lync Room Systems are designed to extend the Lync meeting experience to the conference room. A Lync Room System includes all the required hardware and Lync Room System Edition software. The hardware includes, at a minimum, one or two large touch-enabled displays, high definition video cameras and microphones, and a console in the conference room that enables participation without a laptop or desktop from within the meeting room. These products have been tested and are optimized for Lync.
+Lync Room Systems are designed to extend the Lync meeting experience to the conference room. A Lync Room System includes all the required hardware and Lync Room System Edition software. The hardware includes, at a minimum, one or two large touch-enabled displays, high definition video cameras and microphones, and a console in the conference room that enables participation without a laptop or desktop from within the meeting room. These products are tested and are optimized for Lync.
 
 > [!NOTE]
 > We recommend that you visit each vendor's website for the latest information regarding product specifications, country/region support, and documentation including release notes and known issues. Please contact the vendor for more information about these products.
@@ -86,7 +86,7 @@ Lync Room Systems are designed to extend the Lync meeting experience to the conf
         <tr align="left" valign="top">
             <td>CX8000 360 (with CX5100) Single or Dual Display</td>
             <td>September 2014</td>
-            <td>Crestron RL2 console <br />Front of room camera - Logitech C930e webcam <br />Crestron Speaker <br />Crestron 10 inch Touch Screen Polycom CX5100 <br />Display options include: <br />Sharp 80 inch, 70 inch, and 60 inch Interactive LED display, LG 55 inch multi-touch display (55WT30MS-B)</td>
+            <td>Crestron RL2 console <br />Front of room camera - Logitech C930e webcam <br />Crestron Speaker <br />Crestron 10 inch Touch Screen Polycom CX5100 <br />Display options include: <br />Sharp 80 inch, 70 inch, and 60-inch Interactive LED display, LG 55-inch multi-touch display (55WT30MS-B)</td>
             <td>Microsoft Lync Room Edition Software Crestron V1.00.11.066</td>
             <td>Lync Server 2013, Lync Online</td>
         </tr>

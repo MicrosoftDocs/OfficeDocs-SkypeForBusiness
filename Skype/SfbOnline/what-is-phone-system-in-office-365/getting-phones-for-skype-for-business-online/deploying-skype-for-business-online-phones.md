@@ -21,7 +21,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Phone System
-description: "Learn the deployment steps to get the correct firmware, update it if needed, assign licenses, and configure settings for Skype for Business online phones"
+description: "Learn the deployment steps to get the correct firmware, update it if needed, assign licenses, and configure settings for Skype for Business online phones."
 ---
 # Deploying Skype for Business Online phones
 
@@ -29,7 +29,7 @@ description: "Learn the deployment steps to get the correct firmware, update it 
 
 This deployment guide helps you to deploy Skype for Business Online for IP phones.
   
-In all types of businesses, having a phone number allows users to make and get voice calls, and it's an important requirement to do business. Users who have phone numbers are able to make voice calls across all Skype for Business devices including IP phones, PCs, and mobile devices. You can learn more about Skype for Business IP phones by reading [Getting phones for Skype for Business Online](getting-phones-for-skype-for-business-online.md).
+In all types of businesses, having a phone number allows users to make and get voice calls, and it's an important requirement to do business. Users who have phone numbers will be able to make voice calls across all Skype for Business devices including IP phones, PCs, and mobile devices. You can learn more about Skype for Business IP phones by reading [Getting phones for Skype for Business Online](getting-phones-for-skype-for-business-online.md).
   
 ## Deployment steps for IP phones
 
@@ -47,7 +47,7 @@ Before you get started, it's a good idea to download the phone manufacturer's ad
 
 A Skype for Business Online supported phone and firmware is compatible for Skype for Business Server as well, but the opposite isn't always true. To make sure you're buying or provisioning a supported phone and firmware, see [Getting phones for Skype for Business Online](getting-phones-for-skype-for-business-online.md).
   
-### Step 3 - Checking that the right firmware is installed and update the firmware if required
+### Step 3 - Checking that the right firmware is installed and update the firmware if necessary
 
 Check the firmware version on your phones. For:
   
@@ -93,7 +93,7 @@ You can set up the most commonly used phone options and policies using Skype for
 
 To enable users to successfully sign in to a Skype for Business Online phone and make calls, you need to make sure users are assigned the correct licenses. At a minimum, you'll need to assign a Phone System license and a Calling Plan. For additional information, you can see [Skype for Business and Microsoft Teams add-on licensing](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) and [Assign Skype for Business and Microsoft Teams licenses](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
   
-You can find out more about Calling Plans by reading [Phone System and Calling Plans](/microsoftteams/calling-plan-landing-page)
+You can find out more about Calling Plans by reading [Phone System and Calling Plans.](/microsoftteams/calling-plan-landing-page)
   
 - **Sign-in options** that are available for Online users are:
     
@@ -157,7 +157,7 @@ You can find out more about Calling Plans by reading [Phone System and Calling P
     
      ![Screen shot showing credential options.](../../images/8415028b-7924-4747-b639-052d9b0b961e.png)
   
-    When the following page is displayed, it is safe to close the browser.
+    When the following page is displayed, it's safe to close the browser.
     
      ![Screen shot showing confirmation message.](../../images/1a873201-52fc-4a63-b7b5-e82bbd031fd2.png)
   
@@ -181,9 +181,9 @@ You can find out more about Calling Plans by reading [Phone System and Calling P
    
 - **Phone features** The feature set may vary slightly based on the IP phone partner. For the complete feature set and for more information on the features for each phone manufacturer, see [Getting phones for Skype for Business Online](getting-phones-for-skype-for-business-online.md).
     
-- **Phone-Lock** is a recently introduced feature in Skype for Business certified phones that is used to secure a phone. If enabled, users will be asked to create a PIN upon successful authentication. Once created, phones will lock when the idle-timeout that you define expires, a user manually locks their phone, or they sync their phone-lock with their PC lock using Phone Pairing. If the phone-lock PIN is entered wrong several times, the phone will either sign the user out or require an administrator's code to unlock the phone, but this will vary depending on the phone partner. The user's PIN should be between 6 and 15 digits.
+- **Phone-Lock** is a recently introduced feature in Skype for Business certified phones that is used to secure a phone. If enabled, users will be asked to create a PIN upon successful authentication. Once created, phones will lock when the idle-timeout that you define expires, a user manually locks their phone, or they sync their phone-lock with their PC lock using Phone Pairing. If the phone-lock PIN is entered wrong several times, the phone will either sign out the user or require an administrator's code to unlock the phone, but this will vary depending on the phone partner. The user's PIN should be between 6 and 15 digits.
     
-    You can disable Phone-Lock for your organization (which is enabled by default), change the idle-timeout, and choose whether users can make phone calls while they are locked or not using inband-settings. See [Set-CsUCPhoneConfiguration](/powershell/module/skype/set-csucphoneconfiguration) for more details on those settings.
+    You can disable Phone-Lock for your organization (which is enabled by default), change the idle-timeout, and choose whether users can make phone calls while they're locked or not using inband-settings. See [Set-CsUCPhoneConfiguration](/powershell/module/skype/set-csucphoneconfiguration) for more details on those settings.
     
 ## Step 7 (optional) - If you have device pairing and Better Together over Ethernet (BToE)
 <a name="BK_BTOE"> </a>
@@ -204,7 +204,7 @@ BToE can be configured to operate in two modes:  *Auto*  (default) and *Manual* 
     
      ![Screen shot showing connection to a PC.](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
   
-2. Download and install the latest BToE software from the manufacturer website from the links below. For a better user experience, you can distribute and install the BToE software using an admin distribution solution such as Microsoft Endpoint Configuration Manager. For help using Configuration Manager, See [Packages and programs in Configuration Manager](/configmgr/apps/deploy-use/packages-and-programs).
+2. Download and install the latest BToE software from the manufacturer website from the links below. For a better user experience, you can distribute and install the BToE software using an admin distribution solution such as Microsoft Endpoint Configuration Manager. For help with using Configuration Manager, See [Packages and programs in Configuration Manager](/configmgr/apps/deploy-use/packages-and-programs).
     
    - [Polycom BToE Software Download site](https://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
     
@@ -217,10 +217,10 @@ BToE can be configured to operate in two modes:  *Auto*  (default) and *Manual* 
 > [!NOTE]
 > BToE isn't currently supported on Mac and VDI platforms. 
   
-## Related topics
+## Related articles
 [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
-[Here's what you get with Phone System](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[Here's what you get with Phone System.](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 

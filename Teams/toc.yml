@@ -81,10 +81,12 @@ items:
           items: 
             - name: New Teams client
               items:
-                - name: Overview & rollout schedule for Windows client
+                - name: Overview & rollout schedule for new Teams
                   href: new-teams-desktop-admin.md
                 - name: Features that are changing in new Teams
                   href: new-teams-whats-changing.md
+                - name: Deployment checklist for new Teams
+                  href: new-teams-deployment-checklist.md
                 - name: Upgrade to the new Teams using policies               
                   href: new-teams-deploy-using-policies.md
                 - name: Bulk upgrade to the new Teams client
@@ -100,11 +102,17 @@ items:
                 - name: Update to the new Teams for Web
                   href: new-teams-web.md                          
                 - name: Troubleshooting installation issues          
-                  href: new-teams-troubleshooting-installation.md                 
+                  href: /microsoftteams/troubleshoot/teams-administration/fix-new-teams-installation-issues
                 - name: Known issues in new Teams
                   href: new-teams-known-issues.md
-                - name: Automatic update announcement
-                  href: new-teams-automatic-upgrade-announced.md                  
+                - name: Classic Teams client end of availability
+                  href: teams-classic-client-end-of-availability.md
+                - name: Manually uninstall classic Teams client
+                  href: teams-classic-client-uninstall.md
+                - name: Feature differences between desktop and Teams for Web
+                  href: new-teams-desktop-client-features.md
+                - name: Usage report for new Teams client
+                  href: new-teams-usage-report.md
             - name: Classic Teams clients
               items:
                 - name: Get the classic Teams clients
@@ -325,22 +333,20 @@ items:
           href: /microsoft-365/compliance/teams-workflow-in-advanced-ediscovery         
     - name: Privacy
       items: 
-        - name: Privacy and Microsoft Teams
-          href: teams-privacy.md
         - name: Location of data in Teams
-          href: location-of-data-in-teams.md
+          href: privacy/location-of-data-in-teams.md
         - name: Microsoft Teams feedback privacy
-          href: teams-privacy-feedback.md
+          href: privacy/teams-privacy-feedback.md
         - name: Policy control overview
-          href: policy-control-overview.md
+          href: privacy/policy-control-overview.md
         - name: Mobile diagnostic data
-          href: policy-control-diagnostic-data-mobile.md
+          href: privacy/policy-control-diagnostic-data-mobile.md
         - name: Desktop client diagnostic data
-          href: policy-control-diagnostic-data-desktop.md
+          href: privacy/policy-control-diagnostic-data-desktop.md
         - name: Optional connected experiences
-          href: teams-privacy-oce-overview.md
+          href: privacy/teams-privacy-oce-overview.md
         - name: Operator Connect data transfer
-          href: operator-connect-data-transfer.md
+          href: privacy/operator-connect-data-transfer.md
         - name: Intelligent recap
           href: privacy/intelligent-recap.md
 
@@ -364,6 +370,8 @@ items:
           href: assign-policies-users-and-groups.md
         - name: Assign policy packages
           href: assign-policy-packages.md
+        - name: Admin settings for file drag-drop to third-party storage
+          href: admin-settings-for-file-drag-drop-to-third-party-storage.md
         - name: Manage feedback policies in Teams
           href: manage-feedback-policies-in-teams.md
         - name: Manage policy packages in Teams
@@ -449,10 +457,12 @@ items:
               href: learn-more-about-site-upload.md
         - name: Quality of Service (QoS)
           items: 
-            - name: Set up QoS in Teams
+            - name: Implement QoS in Teams
               href: QoS-in-Teams.md
             - name: Set QoS on Windows clients
               href: QoS-in-Teams-clients.md
+            - name: Configure QoS in the Teams admin center
+              href: meetings-real-time-media-traffic.md
         - name: Real-time telemetry
           items: 
             - name: Use real-time telemetry to troubleshoot poor meeting quality
@@ -485,6 +495,8 @@ items:
           href: advanced-collaboration-analytics.md
         - name: Teams user activity report
           href: /microsoft-365/admin/activity-reports/microsoft-teams-user-activity-preview?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: External domain activity report
+          href: teams-analytics-and-reports/external-domain-activity-report.md
         - name: Teams app usage report
           href: teams-analytics-and-reports/app-usage-report.md
         - name: Teams device usage report
@@ -514,7 +526,10 @@ items:
         - name: Walkie Talkie usage and performance report
           href: teams-analytics-and-reports/walkie-talkie-usage-report.md
         - name: SMS notifications usage report
-          href: /microsoft-365/frontline//sms-notifications-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+          href: /microsoft-365/frontline/sms-notifications-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: Usage report for new Teams client
+          href: new-teams-usage-report.md
+
               
     - name: Log files, service health, and support
       items:
@@ -522,8 +537,6 @@ items:
           href: log-files.md
         - name: Browser logs and tracing for Teams
           href: browser-logs-and-tracing-for-teams.md
-        - name: Verify service health for Teams
-          href: service-health.md
         - name: How to look up your support PIN
           href: support-pin.md
 
@@ -556,12 +569,14 @@ items:
           - name: Create people manager teams
             href: create-manager-directs-teams.md
            
-      - name: Managing teams
+      - name: Manage teams
         items:
           - name: Manage teams and policies
             href: manage-teams-with-policies.md
           - name: Team expiration and renewal
             href: team-expiration-renewal.md
+          - name: Private team discovery
+            href: search-private-teams.md
           - name: Archive or delete a team
             href: archive-or-delete-a-team.md
           - name: Migrate from Slack to Teams
@@ -577,6 +592,8 @@ items:
           href: messaging-policies-in-teams.md
         - name: User presence in Teams
           href: presence-admins.md
+        - name: User work location in Teams
+          href: user-work-location-in-teams.md
         - name: Supervised chat for non-educational tenants
           href: supervised-chat-non-edu.md
 
@@ -641,6 +658,8 @@ items:
               href: manage-who-can-schedule-meetings.md
             - name: Manage who can schedule webinars
               href: set-up-webinars.md
+            - name: Limit presenter role permissions
+              href: presenter-role-reduction.md
             - name: Manage VOD publishing permissions for webinars and town halls 
               href: manage-vod-publishing.md
             - name: Manage email communications for webinars and town halls
@@ -663,24 +682,28 @@ items:
               href: set-up-meeting-registration.md
         - name: Attendee experience
           items: 
+            - name: Manage Copilot for Teams
+              href: copilot-teams-transcription.md
             - name: Manage Q&A
               href: manage-qna-for-teams.md
             - name: Manage meeting chat
               href: manage-meeting-chat.md
+            - name: Prevent users from joining external meetings
+              href: external-meeting-join.md
+            - name: Prevent users from sharing content in external meetings
+              href: block-external-content-share.md
             - name: Manage reactions
               href: manage-reactions-meetings.md
-            - name: Enable users to record their name when they join a meeting
-              href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-            - name: Turn on or off entry and exit announcements for meetings
-              href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
-            - name: Emails sent to users when their settings change
-              href: emails-sent-to-users-when-their-settings-change-in-teams.md
             - name: Set up the Call me feature for your users
               href: set-up-the-call-me-feature-for-your-users.md
             - name: View-only meeting experience
               href: view-only-meeting-experience.md
             - name: Meeting invitations
               href: customize-meeting-invitations.md
+            - name: Privacy statement in meeting join experience
+              href: meeting-privacy-statement.md
+            - name: Manage feedback surveys for anonymous participants
+              href: meeting-surveys-anonymous-participants.md
         - name: Standardized meetings
           items: 
             - name: Custom meetings overview
@@ -727,6 +750,8 @@ items:
               href: meeting-templates-sensitivity-labels-policies.md
         - name: Audio & video
           items:
+            - name: Manage voice isolation for your users' Microsoft Teams calls and meetings
+              href: voice-isolation.md
             - name: Audio and video policies
               href: meeting-policies-audio-and-video.md
             - name: Manage RTMP-In
@@ -735,7 +760,7 @@ items:
               href: use-NDI-in-meetings.md
             - name: Cloud Video Interop
               href: cloud-video-interop.md
-            - name: Real-time media traffic
+            - name: Configure Quality of Service (QoS)
               href: meetings-real-time-media-traffic.md
             - name: Stream Teams meetings
               href: stream-teams-meetings.md
@@ -749,6 +774,8 @@ items:
               href: meeting-transcription-captions.md
             - name: Use OneDrive and SharePoint or Stream for meeting recordings
               href: tmr-meeting-recording-change.md
+            - name: Delete Exchange Online and OneDrive transcript files for Teams meetings
+              href: delete-exchange-online-transcripts.md
         - name: Integration
           items:
             - name: eCDN
@@ -759,7 +786,7 @@ items:
               href: configure-skype-meetings-app-to-work-with-teams.md 
             - name: Set up Teams meeting add-on for Google Workspace
               href: google-workspace-addon-teams.md
-            - name: Island mode
+            - name: Islands mode
               href: meeting-provider-islands-mode.md
 
         - name: Create a Teams hybrid meeting experience
@@ -802,6 +829,8 @@ items:
           href: teams-live-events/what-are-teams-live-events.md
         - name: Plan for Teams live events
           href: teams-live-events/plan-for-teams-live-events.md
+        - name: Live events overview
+          href: teams-stream-overview.md
         - name: Set up for Teams live events
           href: teams-live-events/set-up-for-teams-live-events.md
         - name: Use PowerShell to set Teams live events policies
@@ -810,8 +839,6 @@ items:
           href: teams-live-events/configure-teams-live-events.md
         - name: Live events recording policies
           href: teams-live-events/live-events-recording-policies.md
-        - name: Streaming overview
-          href: teams-stream-overview.md
         - name: Configuration
           href: teams-encoder-configuration.md
         - name: Troubleshooting
@@ -910,7 +937,7 @@ items:
               href: audio-conferencing-zones.md
             - name: Country and region availability for Audio Conferencing
               href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-            - name: Audio Conferencing Complimentary Dial Out Period
+            - name: Audio Conferencing Complimentary Dial Out
               href: complimentary-dial-out-period.md
 
 - name: Voice - Teams Phone and PSTN connectivity
@@ -925,6 +952,62 @@ items:
           href: here-s-what-you-get-with-phone-system.md
         - name: Set up Teams Phone
           href: setting-up-your-phone-system.md
+        - name: Configure calling policies
+          href: teams-calling-policy.md
+        - name: Caller ID
+          items: 
+            - name: Manage caller ID for users
+              href: caller-id-policies.md
+            - name: More about Calling Line ID and Calling Party Name
+              href: more-about-calling-line-id-and-calling-party-name.md
+        - name: Manage inbound calls
+          items:
+            - name: Route inbound calls
+              href: inbound-call-routing.md
+            - name: Block inbound calls
+              href: block-inbound-calls.md
+            - name: Configure spam filtering
+              href: configure-call-spam-filtering.md
+            - name: Configure call forwarding and delegation settings
+              href: user-call-settings.md
+            - name: Configure call park and retrieve
+              href: call-park-and-retrieve.md
+            - name: Configure call sharing and group call pickup
+              href: call-sharing-and-group-call-pickup.md
+            - name: Configure Music on Hold
+              href: music-on-hold.md
+            - name: Configure private line
+              href: private-line.md
+        - name: Auto attendants and Call queues
+          items: 
+            - name: Plan Auto attendants and Call queues
+              href: plan-auto-attendant-call-queue.md
+            - name: Routing calls with Auto attendants and Call queues
+              href: plan-your-call-routing-flow.md
+            - name: Set up Auto attendants
+              href: create-a-phone-system-auto-attendant.md
+            - name: Set up Call queues
+              href: create-a-phone-system-call-queue.md
+            - name: Authorized users
+              items:
+                - name: Plan for authorized users
+                  href: aa-cq-authorized-users-plan.md
+                - name: Set up authorized users
+                  href: aa-cq-authorized-users.md
+                - name: Manage voice applications policies
+                  href: manage-voice-applications-policies.md
+            - name: Manage Teams resource accounts
+              href: manage-resource-accounts.md
+            - name: Set up holidays
+              href: set-up-holidays-in-teams.md
+            - name: Answer Auto attendant and Call queue calls directly from Teams
+              href: answer-auto-attendant-and-call-queue-calls.md
+            - name: Reports - Historical
+              href: aa-cq-cqd-historical-reports.md
+            - name: PowerShell cmdlet reference for Auto attendants and Call queues
+              href: call-queue-auto-attendant-cmdlets.md
+            - name: Dial and voice reference
+              href: dial-voice-reference.md
         - name: Voicemail
           items: 
             - name: Manage Cloud Voicemail
@@ -937,56 +1020,13 @@ items:
               href: change-the-default-language-for-greetings-and-emails.md
             - name: Languages for voicemail greetings and messages
               href: languages-for-voicemail-greetings-and-messages.md
-        - name: Caller ID
-          items: 
-            - name: Manage caller ID for users
-              href: caller-id-policies.md
-            - name: More about Calling Line ID and Calling Party Name
-              href: more-about-calling-line-id-and-calling-party-name.md
-        - name: Auto attendants and Call queues
-          items: 
-            - name: Plan Auto attendants and Call queues
-              href: plan-auto-attendant-call-queue.md
-            - name: Routing calls with Auto attendants and Call queues
-              href: plan-your-call-routing-flow.md
-            - name: Set up Auto attendants
-              href: create-a-phone-system-auto-attendant.md
-            - name: Set up Call queues
-              href: create-a-phone-system-call-queue.md
-            - name: Set up authorized users
-              href: aa-cq-authorized-users.md
-            - name: Manage voice applications policies
-              href: manage-voice-applications-policies.md
-            - name: Manage Teams resource accounts
-              href: manage-resource-accounts.md
-            - name: Set up holidays
-              href: set-up-holidays-in-teams.md
-            - name: Answer Auto attendant and Call queue calls directly from Teams
-              href: answer-auto-attendant-and-call-queue-calls.md
-            - name: Reports
-              href: aa-cq-cqd-historical-reports.md
-            - name: PowerShell cmdlet reference for Auto attendants and Call queues
-              href: call-queue-auto-attendant-cmdlets.md
-            - name: Dial and voice reference
-              href: dial-voice-reference.md
-        - name: Routing inbound calls
-          href: inbound-call-routing.md
-        - name: Block inbound calls
-          href: block-inbound-calls.md
-        - name: Configure call forwarding and delegation settings
-          href: user-call-settings.md
-        - name: Call park and retrieve
-          href: call-park-and-retrieve.md
-        - name: Call sharing and group call pickup
-          href: call-sharing-and-group-call-pickup.md
-        - name: Configure calling policies
-          href: teams-calling-policy.md
         - name: Shared line appearance
           href: shared-line-appearance.md
         - name: Dial pad configuration
           href: dial-pad-configuration.md
-        - name: Music on Hold
-          href: music-on-hold.md
+        - name: Call recording, transcription, and captions
+          href: call-recording-transcription-captions.md
+        
 
     - name: PSTN connectivity options
       items:
@@ -1006,12 +1046,24 @@ items:
               href: operator-connect-plan.md
             - name: Configure Operator Connect
               href: operator-connect-configure.md
+        - name: Operator Connect for India
+          items: 
+            - name: Plan for Operator Connect for India
+              href: operator-connect-india-plan.md
+            - name: Configure Operator Connect for India
+              href: operator-connect-india-configure.md
+            - name: Location-Based Routing for Operator Connect for India
+              href: location-based-routing-india-plan.md
+            - name: Configure network settings for Location-Based Routing
+              href: location-based-routing-configure-network-settings.md
         - name: Teams Phone Mobile
           items:
             - name: Plan for Teams Phone Mobile
               href: operator-connect-mobile-plan.md
             - name: Configure Teams Phone Mobile
               href: operator-connect-mobile-configure.md
+            - name: Manage phone numbers for Teams Phone Mobile
+              href: operator-connect-mobile-configure-numbers.md
         - name: Direct Routing
           items: 
             - name: What's new
@@ -1120,7 +1172,7 @@ items:
               href: getting-service-phone-numbers.md
             - name: How many phone numbers can you get?
               href: how-many-phone-numbers-can-you-get.md
-            - name: Transferring phone numbers
+            - name: Transfer phone numbers
               items: 
                 - name: What's a port order?
                   href: phone-number-calling-plans/port-order-overview.md
@@ -1137,8 +1189,8 @@ items:
           href: operator-connect-configure.md#set-up-phone-numbers
 
         - name: Manage phone numbers for Teams Phone Mobile
-          href: operator-connect-mobile-configure.md#set-up-phone-numbers
-          
+          href: operator-connect-mobile-configure.md#step-2-manage-phone-numbers-and-assign-licenses
+
         - name: Manage phone numbers for Direct Routing
           href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
         - name: Licensing and phone number management
@@ -1178,6 +1230,8 @@ items:
             href: considerations-direct-routing.md
         - name: Configure dynamic emergency calling
           href: configure-dynamic-emergency-calling.md
+        - name: Configure security desk notifications
+          href: emergency-calling-security-desk-notifications.md
         - name: Emergency addresses for remote locations
           href: emergency-calling-dispatchable-location.md
         - name: Manage emergency addresses
@@ -1213,214 +1267,6 @@ items:
       items: 
         - name: Voice policies reference
           href: settings-policies-reference.md#voice
-        - name: Country phone number management
-          items: 
-            - name: Phone number management for Australia
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md
-            - name: Phone number management for Austria
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-austria.md
-            - name: Phone number management for Belgium
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md
-            - name: Phone number management for Canada
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md
-            - name: Phone number management for Croatia
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-croatia.md
-            - name: Phone number management for the Czech Republic
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-czech-republic.md
-            - name: Phone number management for Denmark
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md
-            - name: Phone number management for Estonia
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-estonia.md
-            - name: Phone number management for Finland
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-finland.md
-            - name: Phone number management for France
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-france.md
-            - name: Phone number management for Germany
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md
-            - name: Phone number management for Hong Kong
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-hong-kong.md
-            - name: Phone number management for Hungary
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-hungary.md
-            - name: Phone number management for Ireland
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md
-            - name: Phone number management for Italy
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md
-            - name: Phone number management for Japan
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md
-            - name: Phone number management for Latvia
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-latvia.md
-            - name: Phone number management for Lithuania
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-lithuania.md
-            - name: Phone number management for Luxembourg
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-luxembourg.md
-            - name: Phone number management for Mexico
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-mexico.md
-            - name: Phone number management for New Zealand
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-new-zealand.md
-            - name: Phone number management for Norway
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-norway.md
-            - name: Phone number management for Poland
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-poland.md
-            - name: Phone number management for Portugal
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-portugal.md
-            - name: Phone number management for Romania
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-romania.md
-            - name: Phone number management for Singapore
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-singapore.md
-            - name: Phone number management for Slovakia
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-slovakia.md
-            - name: Phone number management for Slovenia
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-slovenia.md
-            - name: Phone number management for South Africa
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-south-africa.md
-            - name: Phone number management for Spain
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md
-            - name: Phone number management for the Netherlands
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md
-            - name: Phone number management for Sweden
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-sweden.md
-            - name: Phone number management for Switzerland
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland.md
-            - name: Phone number management for the United Kingdom
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md
-            - name: Phone number management for the United States
-              href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md
-            - name: Contact the TNS Service Desk
-              href: manage-phone-numbers-for-your-organization/contact-tns-service-desk.md
-        - name: Toll-free dialing limitations and restrictions
-          items: 
-            - name: Overview
-              href: toll-free-dialing-limitations-and-restrictions.md
-            - name: Argentina
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md
-            - name: Australia
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md
-            - name: Austria
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-austria.md
-            - name: Belarus
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md
-            - name: Belgium
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md
-            - name: Belize
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md
-            - name: Bosnia & Herzegovina
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md
-            - name: Brazil
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md
-            - name: Brunei
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md
-            - name: Bulgaria
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md
-            - name: Chile
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md
-            - name: China (North)
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md
-            - name: China (South)
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md
-            - name: Colombia
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-columbia.md
-            - name: Croatia
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-croatia.md
-            - name: Cyprus
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-cyprus.md
-            - name: Denmark
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-denmark.md
-            - name: Ecuador
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ecuador.md
-            - name: Egypt
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-egypt.md
-            - name: Estonia
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-estonia.md
-            - name: Finland
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-finland.md
-            - name: France
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-france.md
-            - name: Germany
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany.md
-            - name: Honduras
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras.md
-            - name: Hong Kong SAR
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md
-            - name: Hungary
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary.md
-            - name: India
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-india.md
-            - name: Indonesia
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md
-            - name: Ireland
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ireland.md
-            - name: Israel
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-israel.md
-            - name: Italy
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-italy.md
-            - name: Japan
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-japan.md
-            - name: Kenya
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-kenya.md
-            - name: Luxembourg
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-luxembourg.md
-            - name: Malaysia
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-malaysia.md
-            - name: Mexico
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-mexico.md
-            - name: Moldova
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-moldova.md
-            - name: Monaco
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-monaco.md
-            - name: Netherlands
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-netherlands.md
-            - name: Panama
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-panama.md
-            - name: Paraguay
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-paraguay.md
-            - name: Peru
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-peru.md
-            - name: Philippines
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-philippines.md
-            - name: Poland
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-poland.md
-            - name: Portugal
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-portugal.md
-            - name: Qatar
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-qatar.md
-            - name: Romania
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-romania.md
-            - name: Saudi Arabia
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-saudi-arabia.md
-            - name: Serbia
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-serbia.md
-            - name: Singapore
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-singapore.md
-            - name: Slovakia
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovakia.md
-            - name: Slovenia
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovenia.md
-            - name: South Africa
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-africa.md
-            - name: South Korea
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea.md
-            - name: Spain
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md
-            - name: Sweden
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden.md
-            - name: Switzerland
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-switzerland.md
-            - name: Taiwan
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan.md
-            - name: Thailand
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand.md
-            - name: Türkiye
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md
-            - name: United Arab Emirates (UAE)
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates.md
-            - name: United Kingdom
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k.md
-            - name: Uruguay
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-uruguay.md
-            - name: Venezuela
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md
-            - name: Vietnam
-              href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md
         - name: Manage Communications Credits
           items: 
             - name: What are Communications Credits?
@@ -1429,6 +1275,8 @@ items:
               href: set-up-communications-credits-for-your-organization.md
             - name: Add funds and manage Communications Credits
               href: add-funds-and-manage-communications-credits.md
+        - name: Emergency numbers country reference
+          href: emergency-numbers-reference.md
         - name: Microsoft Teams call flows
           href: microsoft-teams-online-call-flows.md
         - name: Contact Center integrations
@@ -1456,7 +1304,7 @@ items:
                   href: rooms/rooms-lifecycle-support.md
                 - name: Android app and firmware versions
                   href: rooms/android-app-firmware.md
-                - name: Teams Rooms Windows and Android comparison
+                - name: Teams Rooms and devices feature comparison
                   href: rooms/teams-devices-feature-comparison.md
             - name: Licensing
               items:
@@ -1474,10 +1322,16 @@ items:
               href: rooms/rooms-deploy.md
             - name: Prepare your environment
               href: rooms/rooms-prep.md
+            - name: AutoPilot and Autologin
+              href: rooms/autopilot-autologin.md
             - name: Create resource accounts 
               href: rooms/create-resource-account.md
+            - name: Set up using one-time passwords 
+              href: rooms/first-time-setup.md
             - name: Authentication
               items:
+              - name: Deploy LAPs
+                href: rooms/laps-authentication.md
               - name: Configure authentication
                 href: rooms/rooms-authentication.md
               - name: Best practices for Conditional Access and Intune compliance
@@ -1494,8 +1348,6 @@ items:
               items:
                 - name: Content cameras
                   href: rooms/content-camera.md
-                - name: Voice recognition controls for Intelligent speakers
-                  href: rooms/voice-recognition.md
             - name: Test environments
               items:
                 - name: Configure a custom-built console
@@ -1522,8 +1374,16 @@ items:
                   href: rooms/third-party-join.md
                 - name: Meetings with SIP and H.323 devices
                   href: rooms/meetings-with-SIP-H323-devices.md
-                - name: Manage custom backgrounds
+                - name: Manage custom backgrounds on Windows
                   href: rooms/custom-backgrounds.md
+                - name: Join meetings with QR codes
+                  href: rooms/teams-rooms-qr-codes.md
+            - name: Identification and enrollment
+              items:
+                - name: Voice and face recognition
+                  href: rooms/voice-and-face-recognition.md
+                - name: Voice recognition controls for Intelligent speakers
+                  href: rooms/voice-recognition.md
             - name: Find devices with unsupported licenses
               href: rooms/license-check.md
             - name: Use the recovery tool
@@ -1538,10 +1398,22 @@ items:
           href: rooms/enrolling-mtrp-managed-service.md
         - name: Enroll a device into Pro management
           href: rooms/enroll-a-device.md
+        - name: Bring Your Own Device
+          href: rooms/bring-your-own-device.md  
+        - name: Create a one-time password
+          href: rooms/create-otp.md
         - name: Role-based access control
           href: rooms/rooms-pro-rbac.md
+        - name: Bookable Desks
+          href: rooms/bookable-desks.md
+        - name: Connected peripheral information
+          href: rooms/get-peripheral-information.md 
         - name: Monitoring and maintaining Rooms
           href: rooms/managed-meeting-rooms-portal.md
+        - name: Signal settings
+          href: rooms/signal-settings.md  
+        - name: Remote access a Teams Room console
+          href: rooms/remotely-access-teams-rooms.md 
         - name: Managed updates
           href: rooms/update-management.md 
         - name: Configure ServiceNow
@@ -1554,6 +1426,8 @@ items:
           href: rooms/multi-tenant-management-customer.md
         - name: Audit logs for Rooms activities
           href: rooms/multi-tenant-auditing.md
+        - name: Viewing events
+          href: rooms/view-events.md
         - name: Health and usage reports
           href: rooms/health-and-usage-reports.md
         - name: Standards and Rooms Planner 
@@ -1566,33 +1440,61 @@ items:
       items:
         - name: Teams device store
           href: devices/device-store.md
-        - name: Deploy
+        - name: Teams certified devices
+          href: devices/teams-ip-phones.md
+        - name: Phones for Teams
+          href: devices/phones-for-teams.md
+        - name: Teams displays
           items:
-            - name: Configure notifications for Mi push
-              href: devices/xiaomi-push-notifications.md
-            - name: Deploy Teams phones and Teams displays using Intune
-              href: devices/phones-displays-deploy.md
+            - name: Overview
+              href: devices/teams-displays.md
             - name: Hot desking Teams Displays
               href: devices/hot-desking-teams-displays.md
+        - name: Teams panels
+          items: 
+            - name: Overview
+              href: devices/overview-teams-panels.md
+            - name: Plan
+              href: devices/teams-panels.md
+            - name: Manage
+              items:
+                - name: Feature management
+                  items:
+                    - name: Use Teams panels
+                      href: devices/use-teams-panels.md
+                    - name: App support on Teams panels  
+                      href: app-support-on-Teams-panels.md
+                    - name: Check-in and room release 
+                      href: devices/check-in-and-room-release.md
+                    - name: Reserve rooms with a QR code
+                      href: devices/reserving-rooms-with-a-qr-code.md
+        - name: SIP gateways
+          items:
+            - name: Plan for SIP Gateway
+              href: sip-gateway-plan.md
+            - name: Configure SIP Gateway
+              href: sip-gateway-configure.md
+        - name: Deploy
+          items:
+            - name: Plan phones and displays deployment
+              href: devices/plan-device-deployment.md
             - name: Set up common area phones
               href: set-up-common-area-phones.md
             - name: Set up a common area mobile phones
               href: devices/common-area-mobile-phones.md
-            - name: SIP Gateway
-              items:
-                - name: Plan for SIP Gateway
-                  href: sip-gateway-plan.md
-                - name: Configure SIP Gateway
-                  href: sip-gateway-configure.md
             - name: Set up auto answer for Teams Android devices
               href: set-up-auto-answer-on-teams-android.md
             - name: Remote provisioning and sign-in
               href: devices/remote-provision-remote-login.md
             - name: Remote sign in and sign out
               href: devices/remote-sign-in-and-sign-out.md
+            - name: Deploy Teams phones and Teams displays using Intune
+              href: devices/phones-displays-deploy.md
             - name: Authentication best practices for Android devices
-              href: devices/authentication-best-practices-for-android-devices.md          
-        - name: Manage and monitor
+              href: devices/authentication-best-practices-for-android-devices.md
+            - name: AOSP device management 
+              href: rooms/android-migration-guide.md
+        - name: Manage
           items:
             - name: Manage your devices in Teams
               href: devices/device-management.md
@@ -1602,57 +1504,36 @@ items:
               href: devices/manage-device-tags.md
             - name: Update your devices remotely
               href: devices/remote-update.md
-            - name: Phones for Teams
-              href: devices/phones-for-teams.md
-            - name: Teams displays
-              href: devices/teams-displays.md
-            - name: Teams panels
-              items: 
-                  - name: Teams panels
-                    href: devices/teams-panels.md
-                  - name: Use Teams panels
-                    href: devices/use-teams-panels.md
-                  - name: App support on Teams panels  
-                    href: app-support-on-Teams-panels.md
-                  - name: Check-in and room release 
-                    href: devices/check-in-and-room-release.md
-                  - name: Reserve rooms with a QR code
-                    href: devices/reserving-rooms-with-a-qr-code.md
-            - name: Deploy Teams phones and Teams displays using Intune
-              href: devices/phones-displays-deploy.md
-            - name: QoS on Teams devices
-              href: devices/qos-on-teams-devices.md
-            - name: USB audio and video devices
-              href: devices/usb-devices.md
-            - name: RealWear for Teams
-              href: flw-realwear.md
-            - name: SmartVision
-              href: devices/smartvision-admin.md
-            - name: Cloud IntelliFrame
-              href: devices/cloud-intelliframe.md
-            - name: Monitoring
-              items: 
-                  - name: Teams device health monitoring
-                    href: alerts/device-health-status.md 
-                  - name: Teams devices and peripherals
-                    href: teams-device-health.md   
+            - name: Feature management
+              items:
+                - name: QoS on Teams devices
+                  href: devices/qos-on-teams-devices.md
+                - name: USB audio and video devices
+                  href: devices/usb-devices.md
+                - name: RealWear for Teams
+                  href: flw-realwear.md
+                - name: Multi-Stream IntelliFrame
+                  href: devices/smartvision-admin.md
+                - name: Cloud IntelliFrame
+                  href: devices/cloud-intelliframe.md
+        - name: Monitor
+          items: 
+            - name: Teams device health monitoring
+              href: alerts/device-health-status.md
+            - name: Teams devices and peripherals
+              href: teams-device-health.md
     - name: Reference
       items:
-        - name: Teams certified devices
-          href: devices/teams-ip-phones.md
         - name: Meeting room devices and solutions
           href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-        - name: Plan phones and displays deployment
-          href: devices/plan-device-deployment.md
+        - name: Configure notifications for Mi push
+          href: devices/xiaomi-push-notifications.md
         - name: Plan management with Azure Monitor
           href: rooms/azure-monitor-plan.md
         - name: Deploy Azure Monitor
           href: rooms/azure-monitor-deploy.md
         - name: Manage devices with Azure Monitor
-          href: rooms/azure-monitor-manage.md
-        - name: Resource accounts for Skype for Business Server
-          href: rooms/with-skype-for-business-server-2015.md           
-              
+          href: rooms/azure-monitor-manage.md    
 - name: Manage apps in Teams
   items: 
     - name: Understand apps in Teams
@@ -1661,16 +1542,16 @@ items:
       items:
         - name: Manage the Admin app
           href: manage-admin-app.md
-        - name: Manage the avatars app
+        - name: Manage the Avatars app
           href: meeting-avatars.md
-        - name: Manage the immersive spaces app
+        - name: Manage the Mesh app
           href: meeting-immersive-spaces.md
         - name: Manage the Bookings app
           href: bookings-app-admin.md
         - name: Manage the Lists app 
           href: manage-lists-app.md
-        - name: Manage the Tasks app
-          href: manage-tasks-app.md
+        - name: Manage the Planner app
+          href: manage-planner-app.md
         - name: Manage the Praise app
           href: manage-praise-app.md
         - name: Manage the Approvals app
@@ -1685,9 +1566,9 @@ items:
           href: manage-virtual-appointments-app.md
         - name: Manage the Walkie Talkie app
           href: walkie-talkie.md
-    - name: Manage third-party apps
+    - name: Manage partner apps
       items:
-        - name: Understand third-party apps
+        - name: Understand partner apps
           href: overview-third-party-apps.md
         - name: Know about app testing and validation by Microsoft
           href: overview-of-app-validation.md
@@ -1702,7 +1583,7 @@ items:
         - name: Set Adobe Acrobat as default PDF viewer
           href: adobe-acrobat-pdf-viewer-teams.md
         - name: Manage M365 connectors and custom connectors
-          href: Office-365-custom-connectors.md
+          href: m365-custom-connectors.md
         - name: Auto install approved apps
           href: auto-install-approved-apps.md
 
@@ -1729,18 +1610,20 @@ items:
             href: teams-app-setup-policies.md
         - name: App centric management
           href: app-centric-management.md
+        - name: Manage apps across Microsoft 365
+          href: manage-apps-across-m365.md
         - name: Tailor Teams apps for your frontline workers
           href: /microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-        - name: Understand app permissions and access to resources
+        - name: View and understand app permissions
           href: app-permissions.md
-        - name: Grant admin consent to an app on behalf of users
-          href: app-permissions-admin-center.md
+        - name: Grant and manage consent to permissions
+          href: manage-consent-app-permissions.md
         - name: Manage resource-specific consent to access team's data
           href: resource-specific-consent.md
         - name: Brand your organization's app store
           href: customize-your-app-store.md
         - name: Use apps as external user or guest
-          href: non-standard-users.md
+          href: apps-external-users.md
         - name: Update apps to the latest version
           href: apps-update-experience.md
         - name: Audit app management activities
@@ -1784,6 +1667,8 @@ items:
               href: scripts/powershell-script-security-groups-edu.md
         - name: Set up features for educators
           items:
+            - name: Set up AI content recommendations
+              href: institution-settings.md
             - name: Set up Supervised chats in Teams
               href: supervise-chats-edu.md
             - name: Set up Assignments in Teams
@@ -1871,16 +1756,8 @@ items:
           href: teams-exploratory.md
         - name: Upgrade users from Teams Exploratory
           href: upgrade-from-teams-exploratory.md
-        - name: Manage Microsoft Teams Free (classic)
-          href: manage-freemium.md
-        - name: Upgrade Microsoft Teams Free (classic) to subscription version
-          href: upgrade-freemium.md
-        - name: Retire Microsoft Teams Free (classic)
-          href: teams-add-on-licensing/remove-assign-free-licenses.md
         - name: Microsoft Teams Shared Devices licensing
           href: teams-add-on-licensing/teams-shared-device-license.md
-        - name: Advanced Communications
-          href: teams-add-on-licensing/advanced-communications.md
         - name: Microsoft Teams Phone Resource Account license
           href: teams-add-on-licensing/virtual-user.md
         - name: Get started with Teams Essentials 
@@ -1937,6 +1814,217 @@ items:
       href: /microsoftteams/platform
     - name: Teams content updates
       href: teams-updates.md
+
+    - name: Country phone number management
+      items: 
+        - name: Phone number management for Australia
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md
+        - name: Phone number management for Austria
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-austria.md
+        - name: Phone number management for Belgium
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md
+        - name: Phone number management for Canada
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md
+        - name: Phone number management for the Czech Republic
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-czech-republic.md
+        - name: Phone number management for Denmark
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md
+        - name: Phone number management for Estonia
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-estonia.md
+        - name: Phone number management for Finland
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-finland.md
+        - name: Phone number management for France
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-france.md
+        - name: Phone number management for Germany
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md
+        - name: Phone number management for Hong Kong SAR
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-hong-kong.md
+        - name: Phone number management for Hungary
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-hungary.md
+        - name: Phone number management for Ireland
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md
+        - name: Phone number management for Italy
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md
+        - name: Phone number management for Japan
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md
+        - name: Phone number management for Latvia
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-latvia.md
+        - name: Phone number management for Lithuania
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-lithuania.md
+        - name: Phone number management for Luxembourg
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-luxembourg.md
+        - name: Phone number management for Mexico
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-mexico.md
+        - name: Phone number management for New Zealand
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-new-zealand.md
+        - name: Phone number management for Norway
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-norway.md
+        - name: Phone number management for Poland
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-poland.md
+        - name: Phone number management for Portugal
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-portugal.md
+        - name: Phone number management for Romania
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-romania.md
+        - name: Phone number management for Singapore
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-singapore.md
+        - name: Phone number management for Slovakia
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-slovakia.md
+        - name: Phone number management for Slovenia
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-slovenia.md
+        - name: Phone number management for South Africa
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-south-africa.md
+        - name: Phone number management for Spain
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md
+        - name: Phone number management for the Netherlands
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md
+        - name: Phone number management for Sweden
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-sweden.md
+        - name: Phone number management for Switzerland
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland.md
+        - name: Phone number management for the United Kingdom
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md
+        - name: Phone number management for the United States
+          href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md
+        - name: Contact the TNS Service Desk
+          href: manage-phone-numbers-for-your-organization/contact-tns-service-desk.md
+
+
+    - name: Toll-free dialing limitations and restrictions
+      items: 
+        - name: Overview
+          href: toll-free-dialing-limitations-and-restrictions.md
+        - name: Argentina
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md
+        - name: Australia
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md
+        - name: Austria
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-austria.md
+        - name: Belarus
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md
+        - name: Belgium
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md
+        - name: Belize
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md
+        - name: Bosnia & Herzegovina
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md
+        - name: Brazil
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md
+        - name: Brunei
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md
+        - name: Bulgaria
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md
+        - name: Chile
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md
+        - name: China (North)
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md
+        - name: China (South)
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md
+        - name: Colombia
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-columbia.md
+        - name: Croatia
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-croatia.md
+        - name: Cyprus
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-cyprus.md
+        - name: Denmark
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-denmark.md
+        - name: Ecuador
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ecuador.md
+        - name: Egypt
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-egypt.md
+        - name: Estonia
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-estonia.md
+        - name: Finland
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-finland.md
+        - name: France
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-france.md
+        - name: Germany
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany.md
+        - name: Honduras
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras.md
+        - name: Hong Kong SAR
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md
+        - name: Hungary
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary.md
+        - name: India
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-india.md
+        - name: Indonesia
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md
+        - name: Ireland
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ireland.md
+        - name: Israel
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-israel.md
+        - name: Italy
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-italy.md
+        - name: Japan
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-japan.md
+        - name: Kenya
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-kenya.md
+        - name: Luxembourg
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-luxembourg.md
+        - name: Malaysia
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-malaysia.md
+        - name: Mexico
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-mexico.md
+        - name: Moldova
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-moldova.md
+        - name: Monaco
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-monaco.md
+        - name: Netherlands
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-netherlands.md
+        - name: Panama
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-panama.md
+        - name: Paraguay
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-paraguay.md
+        - name: Peru
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-peru.md
+        - name: Philippines
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-philippines.md
+        - name: Poland
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-poland.md
+        - name: Portugal
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-portugal.md
+        - name: Qatar
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-qatar.md
+        - name: Romania
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-romania.md
+        - name: Saudi Arabia
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-saudi-arabia.md
+        - name: Serbia
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-serbia.md
+        - name: Singapore
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-singapore.md
+        - name: Slovakia
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovakia.md
+        - name: Slovenia
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovenia.md
+        - name: South Africa
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-africa.md
+        - name: South Korea
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea.md
+        - name: Spain
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md
+        - name: Sweden
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden.md
+        - name: Switzerland
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-switzerland.md
+        - name: Taiwan
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan.md
+        - name: Thailand
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand.md
+        - name: Türkiye
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md
+        - name: United Arab Emirates (UAE)
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates.md
+        - name: United Kingdom
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k.md
+        - name: Uruguay
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-uruguay.md
+        - name: Venezuela
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md
+        - name: Vietnam
+          href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md
+
+
     - name: Country and region availability for Audio Conferencing and Calling Plans
       items: 
         - name: Overview
@@ -2167,6 +2255,8 @@ items:
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela.md
         - name: Vietnam
           href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md
+   
+   
     - name: Accessibility and conformance
       items: 
         - name: Accessibility guidance for Teams

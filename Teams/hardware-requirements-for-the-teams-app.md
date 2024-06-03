@@ -2,8 +2,8 @@
 title: Hardware requirements for Microsoft Teams
 ms.reviewer: microthk, sthurlow
 ms.date: 05/08/2018
-ms.author: jhendr
-author: JoanneHendrickson
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 audience: Admin
 ms.topic: reference
@@ -40,8 +40,8 @@ All of the requirements in the following sections apply to both the Microsoft Te
 |.NET version    |  Requires .NET 4.5 CLR or later       |
 |Video    |  USB 2.0 video camera       |
 |Devices    |   Standard laptop camera, microphone, and speakers    |
-|Video calls and meetings|<ul><li>Requires two-core processor. For higher video/screen share resolution and frame rate, a four-core processor or better is recommended.</li> <li>Background video effects require Windows 10 or a processor with AVX2 instruction set.</li> <li>See [Hardware decoder and encoder driver recommendations](hardware-decoders-and-encoders.md) for a list of unsupported decoders and encoders.</li><li>Joining a meeting using proximity detection in Microsoft Teams Rooms requires Bluetooth LE. Bluetooth LE on Windows requires Bluetooth to be enabled on the client device and requires the 64-bit version of the Teams client. This feature is not available on 32-bit Teams clients.</li></ul> |
-|Teams live events | If you are producing a Teams live event, we recommend using a computer that has a Core i5 Kaby Lake processor, 4.0-GB RAM (or higher), and hardware encoder. See [Hardware decoder and encoder driver recommendations](hardware-decoders-and-encoders.md) for a list of **unsupported** decoders and encoders. |
+|Video calls and meetings|<ul><li>Requires two-core processor. For higher video/screen share resolution and frame rate, a four-core processor or better is recommended.</li> <li>Background video effects require Windows 10 or a processor with AVX2 instruction set.</li> <li>See [Hardware decoder and encoder driver recommendations](hardware-decoders-and-encoders.md) for a list of unsupported decoders and encoders.</li><li>Joining a meeting using proximity detection in Microsoft Teams Rooms requires Bluetooth LE. Bluetooth LE on Windows requires Bluetooth to be enabled on the client device and requires the 64-bit version of the Teams client. This feature isn't available on 32-bit Teams clients.</li></ul> |
+|Teams live events | If you're producing a Teams live event, we recommend using a computer that has a Core i5 Kaby Lake processor, 4.0-GB RAM (or higher), and hardware encoder. See [Hardware decoder and encoder driver recommendations](hardware-decoders-and-encoders.md) for a list of **unsupported** decoders and encoders. |
 | Avatars for Teams app | For the best experiencing using the avatars for Teams app, we recommend a computer that has a four core CPU with at least 8GB of RAM.|
 
 ## Hardware requirements for Teams on a Mac
@@ -55,7 +55,7 @@ All of the requirements in the following sections apply to both the Microsoft Te
 |Operating system  |    One of the three most recent versions of macOS. You can find information about the latest macOS versions, and how to upgrade your version of macOS, [here](https://support.apple.com/en-us/HT201260). For example, when a new version of macOS is released, the new version and the two immediately preceding it become the supported versions.      |
 |Video  |    Compatible webcam     |
 |Voice    |  Compatible microphone and speakers, headset with microphone, or equivalent device       |
-|Video calls and meetings | <ul><li>Requires two-core processor. For higher video/screen share resolution and frame rate, a four-core processor or better is recommended. </li><li>Joining a meeting using proximity detection in a Microsoft Teams Room requires Bluetooth LE. Bluetooth LE requires Bluetooth to be enabled on the client device.</li></ul>
+|Video calls and meetings | <ul><li>Requires two-core processor. For higher video/screen share resolution and frame rate, a four-core processor or better is recommended. </li><li>Joining a meeting using proximity detection in Microsoft Teams Rooms requires Bluetooth LE. Bluetooth LE requires Bluetooth to be enabled on the client device.</li></ul>
 |
 
 ## Hardware requirements for Teams on Linux

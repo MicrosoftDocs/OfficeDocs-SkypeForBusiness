@@ -15,14 +15,14 @@ ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 ROBOTS: NOINDEX, NOFOLLOW
-description: "You select the databases that you want to create for your deployment. By default, the database will be created on the defined SQL Server in the defined site, and will automatically deploy and configure the database files based on the SQL Server you are placing the databases on."
+description: "You select the databases that you want to create for your deployment. By default, the database is created on the defined SQL Server in the defined site, and will automatically deploy and configure the database files based on the SQL Server you place the databases on."
 ---
 
 # Install and Create Databases
 
-You select the databases that you want to create for your deployment. By default, the database will be created on the defined SQL Server in the defined site, and will automatically deploy and configure the database files based on the SQL Server you are placing the databases on.
+You select the databases that you want to create for your deployment. By default, the database will be created on the defined SQL Server in the defined site, and will automatically deploy and configure the database files based on the SQL Server you place the databases on.
 
- **Select the databases you want to create**: Select the checkbox of any databases that you intend to deploy and configure. Select the check box of any or all databases that you will deploy.
+ **Select the databases you want to create**: Select the checkbox of any databases that you intend to deploy and configure. Select the check box of any or all databases that you deploy.
 
 > [!CAUTION]
 > The SQL Server must already have been configured for the instance (if any) and firewall ports must be opened to accommodate the instance that you are deploying the databases to. For details, see [Configure SQL Server](/previous-versions/office/lync-server-2013/lync-server-2013-configure-sql-server-for-lync-server)

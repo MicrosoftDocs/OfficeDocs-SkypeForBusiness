@@ -67,7 +67,7 @@ The following table lists the VDI partners and their products that are tested wi
         <tr>
             <td colspan="4" valign="top">
                 <p><a href="https://www.citrix.com/products/xendesktop/overview.html" title="https://www.citrix.com/products/xendesktop/overview.html">https://www.citrix.com/products/xendesktop/overview.html</a></p>
-                <p>Note: Citrix VDI solution for Lync Plugin is currently approved for use with Win7 client OS. Testing on Win8 and 8.1 is in progress. For the best experience, Microsoft recommends updating to the latest available Lync cumulative update.</p>
+                <p>Note: Citrix VDI solution for Lync Plugin is currently approved for use with Win 7 client OS. Testing on Win 8 and 8.1 is in progress. For the best experience, Microsoft recommends updating to the latest available Lync cumulative update.</p>
             </td>
         </tr>
         <tr>
@@ -114,7 +114,7 @@ The Lync 2013 VDI Plug-in is available in 32-bit and 64-bit versions and is supp
 
 ***Minimum system requirements***:
 
-- CPU: 1.5 GHz processor
+- CPU: 1.5-GHz processor
 - Memory: 2 gigabytes (GB) of RAM
 - Space required: 32 bit: ~700 MB, 64 bit: ~900 MB
 
@@ -130,5 +130,5 @@ The specific VDI client terminals tested by the VDI client manufacturers and val
 
 
 
-For additional information about specific thin clients, please contact the client hardware manufacturer.
+For additional information about specific thin clients, contact the client hardware manufacturer.
 

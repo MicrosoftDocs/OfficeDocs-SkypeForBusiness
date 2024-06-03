@@ -13,14 +13,14 @@ f1.keywords:
 ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
-description: "Descripbes the Skype for Business Server 2015 planning tool."
+description: "Describes the Skype for Business Server 2015 planning tool."
 ---
 
 # Feature Overview planning tool
  
 Skype for Business Server 2015 Planning Tool
   
-You can use the **Central Sites** page of the Planning Tool to design the Skype for Business Server deployment. You can create two either a centralized or distributed deployment. A centralized deployment only has one central site, which homes all Skype for Business users in your organization. A distributed deployment has more than one central site. If you deploy Skype for Business Server at multiple central sites, then you will enter the number of users at each central site in the Planning Tool.
+You can use the **Central Sites** page of the Planning Tool to design the Skype for Business Server deployment. You can create two either a centralized or distributed deployment. A centralized deployment only has one central site, which homes all Skype for Business users in your organization. A distributed deployment has more than one central site. If you deploy Skype for Business Server at multiple central sites, then you enter the number of users at each central site in the Planning Tool.
   
 To complete the definition of the central site, you first need to provide the following information:
   
@@ -35,7 +35,7 @@ To complete the definition of the central site, you first need to provide the fo
 
 ## UI Elements
 
-The remaining elements have either been populated with the answers you provided to the questions presented in the **Get Started** wizard, or, if you skipped the wizard, automatically populated by the planning tool.
+The remaining elements are populated with the answers you provided to the questions presented in the **Get Started** wizard, or, if you skipped the wizard, automatically populated by the planning tool.
   
 ### Online Collaboration
 
@@ -43,7 +43,7 @@ The remaining elements have either been populated with the answers you provided 
   
 - **IM and Presence**
     
-    Instant Messaging (IM) enables users to communicate with each other in real time on their computers using text-based messages. Both two-party and multiparty IM sessions are supported. Presence provides information to users about the status of others on the network. A user's presence status provides information to help others determine whether the user is online and how to best contact the user. For example, a user who is in a meeting is best contacted by email.
+    Instant Messaging (IM) enables users to communicate with each other in real time on their computers using text-based messages. Both two-party and multiparty IM sessions are supported. Presence provides information to users about the status of others on the network. A user's presence status provides information to help others determine whether the user is online and how to best contact the user. For example, a user who is in a meeting is contacted by email.
     
 - **Audio and Video Conferencing**
     
@@ -59,7 +59,7 @@ The remaining elements have either been populated with the answers you provided 
     
 - **Persistent Chat**
     
-    Persistent Chat enables multiple users to participate in conversations in which they post and access content about specific topics, including text, links, and files. Although users can communicate in real time during a session, the content of each session is persistent, which means it continues to be available after a session ends.
+    Persistent Chat enables multiple users to participate in conversations in which they post and access content about specific articles, including text, links, and files. Although users can communicate in real time during a session, the content of each session is persistent, which means it continues to be available after a session ends.
     
 ### Users
 
@@ -75,14 +75,14 @@ The remaining elements have either been populated with the answers you provided 
     
 - **Federation with XMPP-based service provider**
     
-    Skype for Business Server 2015 introduces a fully integrated XMPP proxy (deployed on the Edge Servers) and an XMPP gateway deployed on your Front End Servers. You can deploy Adding and configuring the XMPP proxy and XMPP gateway will allow your Skype for Business Server 2015 users to add contacts from XMPP-based partners for instant messaging (IM) and presence.
+    Skype for Business Server 2015 introduces a fully integrated XMPP proxy (deployed on the Edge Servers) and an XMPP gateway deployed on your Front End Servers. You can deploy Adding and configuring the XMPP proxy and XMPP gateway allows your Skype for Business Server 2015 users to add contacts from XMPP-based partners for instant messaging (IM) and presence.
 
 > [!NOTE]
-> XMPP Gateways and proxies are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019. See [Migrating XMPP federation](../../../SfBServer2019/migration/migrating-xmpp-federation.md) for more information.
+> XMPP Gateways and proxies are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019. For more information, see [Migrating XMPP federation](../../../SfBServer2019/migration/migrating-xmpp-federation.md).
     
 - **Mobility**
     
-    When you deploy the Skype for Business Server 2015 Mobility Service, users can use supported Apple iOS, Android, Windows Phone, or Nokia mobile devices to perform such activities as sending and receiving instant messages, viewing contacts, and viewing presence.
+    When you deploy the Skype for Business Server 2015 Mobility Service, users can use supported Apple iOS, Android, Windows Phone, or Nokia mobile devices for performing such activities as sending and receiving instant messages, viewing contacts, and viewing presence.
     
 - **W15 Exchange mailbox**
     
@@ -94,11 +94,11 @@ The remaining elements have either been populated with the answers you provided 
   
 - **Enterprise Voice**
     
-    Enterprise voice is Microsft's software-powered VoIP solution. Enterprise voice enables users to use Skype for Business to place a phone call from their computer.
+    Enterprise voice is Microsoft's software-powered VoIP solution. Enterprise voice enables users to use Skype for Business to place a phone call from their computer.
     
 - **Exchange Unified Messaging**
     
-    Exchange Unified Messaging (UM) combines voice mail and email into a single messaging infrastructure. Skype for Business Server 2015 uses Exchange UM to provide call answering, subscriber access, call notification, and auto attendant services. If you use these services, you will need to integrate Exchange UM and Skype for Business Server in a shared Active Directory topology.
+    Exchange Unified Messaging (UM) combines voice mail and email into a single messaging infrastructure. Skype for Business Server 2015 uses Exchange UM to provide call answering, subscriber access, call notification, and auto attendant services. If you use these services, you need to integrate Exchange UM and Skype for Business Server in a shared Active Directory topology.
     
 ### Additional Deployment Options
 

@@ -49,8 +49,8 @@ The tables that follow describe the features available for the third party VTC a
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Polycom RealPresence Group Series for Skype for Business|Skype Room Systems (Native Meeting Room Devices)|
 |:--- |:--- |:---: |
 |Skype for Business UI|Partial \*| &#x2714; |
-|Configuration Settings|3rd party| &#x2714; |
-|Single touch meeting join|&#x2714;|&#x2714; |
+|Configuration Settings|Third party| &#x2714; |
+|Single touch meeting joins|&#x2714;|&#x2714; |
 |Viewing shared files or content uploaded in Skype meeting|         | &#x2714;|
 |Sharing content in Skype for Business meeting|         | &#x2714;|
 |Viewing shared Desktop in Skype for Business meeting|&#x2714;| &#x2714; |
@@ -68,11 +68,11 @@ The tables that follow describe the features available for the third party VTC a
 
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Polycom RealPresence Group Series for Skype for Business|Skype Room Systems (Native Meeting Room Devices)|
 |:--- |:---: |:---: |
-|**OOB Experience** |3rd party |&#x2714; |
+|**OOB Experience** |Third party |&#x2714; |
 |**Skype for Business in-band provisioning**| |&#x2714; |
 |**Monitoring with OMS**| |&#x2714; |
 |**In-band update**| &#x2714;| &#x2714;|
-|**Management platform**|3rd party |Windows PC based (Group Policies, Configuration Manager, and others) |
+|**Management platform**|Third party |Windows PC based (Group Policies, Configuration Manager, and others) |
 | | | |
 
 #### Interop with Skype for Business
@@ -122,7 +122,7 @@ Desktop sharing using RDP from a device sends content as video over the people c
 |**Product Type** |Service |Server |
 |**Description** |Gateway |Gateway |
 |**Searchable from Lync Client** |No <sup>2</sup> |No |
-|**Join Skype Online Supported mMeeting types** |Online |Onprem |
+|**Join Skype Online Supported mMeeting types** |Online |On-premises |
 |**Point-to-Point Calls** |No <sup>2</sup> |Yes |
 |**VBSS based content sharing** | Yes |No <sup>3</sup> |
 |**RDP based content sharing** |Yes |Yes |

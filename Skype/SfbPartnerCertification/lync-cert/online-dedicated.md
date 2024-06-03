@@ -28,7 +28,7 @@ Customers deployed with Lync Online Dedicated have Lync running in data centers 
 
 Lync Online Dedicated offers interoperability with customer's on-premises session border controllers and provides connectivity with IP telephony service providers for SIP trunking.
 
-It's recommended that you visit the vendor's web site for the latest information regarding protocol, capacity, country/region support and documentation including a Quick Start Guide, release notes and any known issues.
+It's recommended that you visit the vendor's web site for the latest information regarding protocol, capacity, country/region support and documentation including a Quick Start Guide, release notes, and any known issues.
 
 ## USB audio and video devices
 
@@ -44,7 +44,7 @@ All meeting room devices that are "Qualified for Lync" are supported in Lync Onl
 
 ## Video infrastructure
 
-Video infrastructure provides interoperability and connectivity capabilities between a customer's datacenter and the Microsoft Online Dedicated environment. Listed below are the video infrastructure products along with the necessary firmware combinations that are supported with Lync Online Dedicated.
+Video infrastructure provides interoperability and connectivity capabilities between a customer's datacenter and the Microsoft Online Dedicated environment. The following table lists the video infrastructure products along with the necessary firmware combinations that are supported with Lync Online Dedicated.
 
 | Manufacturer |Product | Device type |
 |:---  |  :--- |  :---  |
@@ -54,7 +54,7 @@ Radvision| SCOPIA Video Gateway for Microsoft Lync| Gateway|
 | | | |
 
 ## SIP trunking
-SIP trunking enables connectivity to the public switched telephony network (PSTN) directly over SIP. SIP trunking services are offerings from IP telephony service provider partners that offer PSTN origination, termination and emergency services using the SIP protocol. All SIP Trunking providers qualified for Lync Server 2013 are supported in Lync Online Dedicated. For additional information about qualified SIP trunk carriers and devices, see [Services qualified for Lync](sip-trunking-services.md).
+SIP trunking enables connectivity to the public switched telephony network (PSTN) directly over SIP. SIP trunking services are offerings from IP telephony service provider partners that offer PSTN origination, termination, and emergency services using the SIP protocol. All SIP Trunking providers qualified for Lync Server 2013 are supported in Lync Online Dedicated. For more information about qualified SIP trunk carriers and devices, see [Services qualified for Lync](sip-trunking-services.md).
 
 ## Session border controllers
 

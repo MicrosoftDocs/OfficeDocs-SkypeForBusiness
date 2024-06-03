@@ -40,7 +40,7 @@ Skype for Business Online qualifies and supports desktop phones for users who wa
   
 Microsoft is partnering and working closely with Polycom, Yealink, and AudioCodes to develop and certify a wide variety of devices through the Partner IP Phone Program (PIP) for the Phone System.
   
-When ordering new phones for Skype for Business, it's important to buy phones with the *right product ID*. These product IDs ensure that the phones you receive have the Skype for Business Online qualified version already installed.
+When ordering new phones for Skype for Business, it's important to buy phones with the *right product ID*. These product IDs will ensure that the phones you receive have the Skype for Business Online qualified version already installed.
   
 |Phone Partner  |Skype for Business specific product ID  |
 |:-----|:-----|
@@ -48,11 +48,11 @@ When ordering new phones for Skype for Business, it's important to buy phones wi
 |Yealink   |SIP-TXXG Skype for Business Edition   |
 |AudioCodes   |UCXXXHDEG (SfB)   |
    
-For more details on Polycom phones, see [Poly Documentation Library](https://documents.polycom.com/category/voice).
+For more information on Polycom phones, see [Poly Documentation Library](https://documents.polycom.com/category/voice).
   
-For more details on Yealink phones, see [Skype for Business IP Phones](http://www.yealink.com/products_list_10.html#filter2).
+For more information on Yealink phones, see [Skype for Business IP Phones](http://www.yealink.com/products_list_10.html#filter2).
   
-For more details on AudioCodes phones, see [Skype for Business IP Phones](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions).
+For more information on AudioCodes phones, see [Skype for Business IP Phones](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions).
   
 > [!NOTE]
 > Lync Phone Edition is supported with Skype for Business Online, but not with Microsoft Teams. Mainstream support for the LPE platform ended by April/10/2014, with extended support until April/11/2023 to align with the product support lifecycle of Lync Server 2013. See [Microsoft Product Lifecycle](https://support.microsoft.com/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO) for details on the LPE lifecycle. LPE CAP models aren't supported with Skype for Business Online.

@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: pamgreen
 ms.reviewer: roykuntz
-ms.date: 08/22/2019
+ms.date: 01/22/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -30,7 +30,9 @@ This article describes Microsoft's support for 911 emergency calling location in
 
 This article includes information about Microsoft's compliance with the RAY BAUM’S Act for Multi Line Telephone Systems (MLTS). The RAY BAUM'S Act extends the Kari’s Law requirements, which went into effect in early 2021. For more information about the RAY BAUM'S Act and Kari's Law, see [Dispatchable Location for 911 Calls](https://www.fcc.gov/911-dispatchable-location) and [Multi-line Telephone Systems – Kari’s Law and RAY BAUM’S Act 911 Direct Dialing, Notification, and Dispatchable Location Requirements](https://www.fcc.gov/mlts-911-requirements). 
 
-Users working at home can now set their own emergency addresses if applicable. This article describes how you can configure user policies so that your end users can set their emergency addresses.
+This article is for administrators and IT professionals. It describes how you can configure user policies so that the users in your organization can set their own emergency addresses if applicable. For information about how your users can enable location services, see [Enable location services](https://support.microsoft.com/en-us/office/work-from-home-emergency-911-enable-location-services-583dd649-87fc-4b23-aed6-f4e2279297f9?storagetype=live).
+
+Various device management applications can also enable location sharing. Enabling location sharing to Teams varies by operating systems. 
 
 Although this information applies to emergency 911 calling in the United States, user-entered locations will be conveyed to the screening center in Canada as well.
 

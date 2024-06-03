@@ -20,7 +20,7 @@ f1.keywords:
 - NOCSH
 ms.custom: 
   - ms.teamsadmincenter.meetingpolicies.participantandguests
-description: Learn to manage meeting chat in Teams meetings and manage meeting chat in unfederated Teams meetings hosted by other organizations that you don’t have a two-way trust relationship with.
+description: Learn to manage meeting chat in Teams meetings and manage meeting chat in unfederated Teams meetings hosted by other organizations that you don’t have a trusted relationship with.
 ---
 
 # Manage chat in Microsoft Teams meetings
@@ -32,7 +32,7 @@ description: Learn to manage meeting chat in Teams meetings and manage meeting c
 In Microsoft Teams, meeting chat allows participants to exchange messages to each other before, during, and after meetings. As an admin you can control:
 
 - Whether participants in your users' meetings can read and write chat messages
-- Whether users in your organization can use chat when they're participants in Teams meetings hosted by other organizations where there isn’t a two-way trust relationship
+- Whether users in your organization can use chat when they're participants in Teams meetings hosted by other organizations where there isn’t a trusted relationship.
 
 For town halls, only presenters, organizers, and co-organizers can use chat with each other.
 
@@ -65,11 +65,11 @@ Use these steps to manage meeting chat:
 
 You can manage meeting chat for your users by using the following PowerShell cmdlets in Teams PowerShell:
 
-- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
-- [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy)
-- [Grant-CsTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy)
-- [Get-CsTeamsMeetingPolicy](/powershell/module/skype/get-csteamsmeetingpolicy)
-- [Remove-CsTeamsMeetingPolicy](/powershell/module/skype/remove-csteamsmeetingpolicy)
+- [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)
+- [New-CsTeamsMeetingPolicy](/powershell/module/teams/new-csteamsmeetingpolicy)
+- [Grant-CsTeamsMeetingPolicy](/powershell/module/teams/grant-csteamsmeetingpolicy)
+- [Get-CsTeamsMeetingPolicy](/powershell/module/teams/get-csteamsmeetingpolicy)
+- [Remove-CsTeamsMeetingPolicy](/powershell/module/teams/remove-csteamsmeetingpolicy)
 
 The **`-MeetingChatEnabledType`** parameter controls the availability of meeting chat with the following settings:
 
@@ -77,34 +77,34 @@ The **`-MeetingChatEnabledType`** parameter controls the availability of meeting
 - **EnabledExceptAnonymous** to be **"On for everyone but anonymous users"**
 - **Disabled** to be **"Off for everyone"**
 
-To allow meeting chat to be on for everyone with an assigned policy, run the following script:
+To allow meeting chat to be on for everyone with this assigned policy, run the following script:
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -MeetingChatEnabledType Enabled
 ```
 
-To allow meeting chat to be on for everyone but anonymous users with an assigned policy, run the following script:
+To allow meeting chat to be on for everyone but anonymous users with this assigned policy, run the following script:
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -MeetingChatEnabledType EnabledExceptAnonymous
 ```
 
-To disable meeting chat for everyone with an assigned policy, run the following script:
+To disable meeting chat for everyone with this assigned policy, run the following script:
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -MeetingChatEnabledType Disabled
 ```
 
-Information about chat for your end users can be found in [Chat in a Teams meeting](https://support.microsoft.com/office/64e2cb91-8a11-4781-94ea-fbb23f2b922f).
+To learn more about chat for your end users, see [Chat in a Teams meeting](https://support.microsoft.com/office/64e2cb91-8a11-4781-94ea-fbb23f2b922f).
 
-## Manage chat messages in Teams meetings hosted by other organizations that you don’t have a two-way trust relationship with
+## Manage chat messages in Teams meetings hosted by other organizations that you don’t have a trusted relationship with
 
-The **Chat in external meetings** setting controls whether users in your organization can use chat when they're participants in Teams meetings hosted by other organizations where there isn’t a two-way trust relationship configured in [external access](trusted-organizations-external-meetings-chat.md). (In such a case, your users are considered anonymous by the other organization.) This setting is a per-user and per-participant policy.
+The **Chat in external meetings** setting controls whether users in your organization can use chat when they're participants in Teams meetings hosted by other organizations where there isn’t a trusted relationship configured in [external access](trusted-organizations-external-meetings-chat.md). (In such a case, your users are considered anonymous by the other organization.) This setting is a per-user and per-participant policy.
 
 |Setting value |Behavior  |
 |---------|---------|
-|**On**  | **This is the default value.** Users in your organization can read and write meeting chat messages in Teams meetings hosted by other organizations that you don’t have a two-way trust relationship with. You must also set [**Meeting chat**](manage-meeting-chat.md) to **On for everyone** and the meeting organizer must set [**Allow meeting chat**](https://support.microsoft.com/office/participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e) to either **Enabled** or **In meeting only**. |
-|**Off** | Users in your organization can't read or write meeting chat messages in Teams meetings hosted by other organizations that you don’t have a two-way trust relationship with.  |
+|**On**  | **This is the default value.** Users in your organization can read and write meeting chat messages in Teams meetings hosted by other organizations that you don’t have a trusted relationship with. You must also set [**Meeting chat**](manage-meeting-chat.md) to **On for everyone** and the meeting organizer must set [**Allow meeting chat**](https://support.microsoft.com/office/participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e) to either **Enabled** or **In meeting only**. |
+|**Off** | Users in your organization can't read or write meeting chat messages in Teams meetings hosted by other organizations that you don’t have a trusted relationship with.  |
 
 Use the Teams admin center or PowerShell to manage whether users in your organization can use chat messages in Teams meetings hosted by other organizations.
 
@@ -122,11 +122,11 @@ If you'd like to choose whether users in your organization can use chat in Teams
 
 You can manage chat in Teams meetings hosted by other organizations by using the following PowerShell cmdlets in Teams PowerShell:
 
-- [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
-- [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy)
-- [Grant-CsTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy)
-- [Get-CsTeamsMeetingPolicy](/powershell/module/skype/get-csteamsmeetingpolicy)
-- [Remove-CsTeamsMeetingPolicy](/powershell/module/skype/remove-csteamsmeetingpolicy)
+- [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)
+- [New-CsTeamsMeetingPolicy](/powershell/module/teams/new-csteamsmeetingpolicy)
+- [Grant-CsTeamsMeetingPolicy](/powershell/module/teams/grant-csteamsmeetingpolicy)
+- [Get-CsTeamsMeetingPolicy](/powershell/module/teams/get-csteamsmeetingpolicy)
+- [Remove-CsTeamsMeetingPolicy](/powershell/module/teams/remove-csteamsmeetingpolicy)
 
 The **`-AllowExternalNonTrustedMeetingChat`** parameter controls the availability of meeting chat for your users when they attend external meetings.  This parameter uses the following settings:
 

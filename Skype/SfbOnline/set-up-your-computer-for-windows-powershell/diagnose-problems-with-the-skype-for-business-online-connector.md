@@ -38,7 +38,7 @@ This article provides information that helps you diagnose and resolve problems t
       
 - [Sign in failed for the user](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKLogonFailed)
     
-- [The user does not have permission to manage this tenant](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKUserPermission)
+- [The user doesn't have permission to manage this tenant](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKUserPermission)
     
 - [Ability to connect to tenant has been disabled in Skype for Business Online](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKAbilityConnect)
     
@@ -49,7 +49,7 @@ This article provides information that helps you diagnose and resolve problems t
 ## Import-Module error caused by Windows PowerShell execution policy
 <a name="BKMKPowerShellExecutionPolicy"> </a>
 
-The PowerShell execution policy helps to determine which configuration files can be loaded into the PowerShell console, and which scripts a user can run from that console. At a minimum, the Skype for Business Online Connector module, can't be imported unless the execution policy is set to RemoteSigned. If it hasn't, then you receive the following error message when you attempt to import the module:
+The PowerShell execution policy helps to determine which configuration files can be loaded into the PowerShell console, and which scripts a user can run from that console. At a minimum, the Skype for Business Online Connector module can't be imported unless the execution policy has been set to RemoteSigned. If it hasn't, then you'll receive the following error message when you attempt to import the module:
   
 - **Error**: <em>Import-Module: File C:\\Program Files\\Common Files\\Microsoft Lync Server 2013\\Modules\\LyncOnlineConnector\\LyncOnlineConnectorStartup.psm1 can't be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at https://go.microsoft.com/fwlink/?LinkID=135170.</em>
 
@@ -71,7 +71,7 @@ The Skype for Business Online Connector module can be run only under Windows Pow
 ## Modern authentication fails when WinRM Basic authentication has been disabled
 <a name="BKMKWinRMBasicAuth"> </a>
 
-The latest version of the Skype for Business Online Connector module uses modern authentication, but the underlying Windows Remote Management (WinRM) client must be configured to allow Basic authentication.  Modern authentication uses bearer tokens, which are passed in the *Authorization: Bearer* header. Windows PowerShell, upon which Skype for Business PowerShell is built, doesn't allow for manipulation of this header.  Instead, Skype for Business PowerShell uses the *Authorization: Basic* header to pass the bearer token.
+The latest version of the Skype for Business Online Connector module uses modern authentication, but the underlying Windows Remote Management (WinRM) client must be configured to allow Basic authentication. Modern authentication uses bearer tokens, which are usually passed in the *Authorization: Bearer* header. Windows PowerShell, upon which Skype for Business PowerShell is built, doesn't allow for manipulation of this header.  Instead, Skype for Business PowerShell uses the *Authorization: Basic* header to pass the bearer token.
 
 See [Download and install Windows PowerShell](./download-and-install-windows-powershell-5-1.md) for instructions on how to enable WinRM for Basic authentication.
 
@@ -101,17 +101,17 @@ There are typically three reasons why your connection attempt might fail with th
 ## Logon failed for the user
 <a name="BKMKLogonFailed"> </a>
 
-When you attempt to make a remote connection to Skype for Business Online, you must supply the user name and password of a valid Skype for Business Online user account. If you do not, logon will fail along with an error message similar to this message:
+When you attempt to make a remote connection to Skype for Business Online, you must supply the user name and password of a valid Skype for Business Online user account. If you don't, logon will fail along with an error message similar to this message:
 
 - **Error**: *Get-CsWebTicket : Logon failed for the user 'kenmyer@litwareinc.com'. Create a new PSCredential object, making sure that you have used the correct user name and password.*
 
 - **Resolution**: If you think that you're using a valid user account and that you have the correct password, try logging on again. If that fails, use the same credentials and try to sign in at [https://login.microsoftonline.com/](https://login.microsoftonline.com/). If you're unable to sign in there, contact Microsoft Support. 
 
   
-## The user does not have permission to manage this tenant
+## The user doesn't have permission to manage this tenant
 <a name="BKMKUserPermission"> </a>
 
-You can't make a remote PowerShell connection toSkype for Business Online unless you are a member of the Tenant Administrators group. If you aren't, your connection attempt will fail, and you receive the following error message:
+You can't make a remote PowerShell connection toSkype for Business Online unless you're a member of the Tenant Administrators group. If you aren't, your connection attempt will fail, and you'll receive the following error message:
 
 - **Error**: *New-PSSession: [admin.vdomain.com] Processing data from remote server admin.vdomain.com failed with the following error message: The user 'user@foo.com' doesn't have permission to manage this tenant. Permissions can be granted by assigning the user to the appropriate RBAC role. For more information, see the [Remote Troubleshooting](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting ).*
 
@@ -120,7 +120,7 @@ You can't make a remote PowerShell connection toSkype for Business Online unless
 ## Ability to connect to tenant has been disabled in Skype for Business Online
 <a name="BKMKAbilityConnect"> </a>
 
-To use PowerShell to manage Skype for Business Online, the EnableRemotePowerShellAccess property of your tenant PowerShell policy must be set to  `True`. If it isn't, your connection fails, and you receive the following error message:
+To use PowerShell to manage Skype for Business Online, the EnableRemotePowerShellAccess property of your tenant PowerShell policy must be set to  `True`. If it isn't, your connection will fail, and you'll receive the following error message:
 
 - **Error**: *New-PSSession: [admin.vdomain.com] Processing data from remote server admin.vdomain.com failed with the following error message: The ability to connect to this tenant by using a remote PowerShell session has been disabled. Contact Lync Help to check Tenant PowerShell Policy of this tenant. For more information, see the [Remote Troubleshooting](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting ).*
 
@@ -133,7 +133,7 @@ Each administrator is allowed a maximum of three simultaneous remote connections
 
 - **Error**: *New-PSSession: [admin.vdomain.com] Connecting to remote server admin.vdomain.com failed with the following error message: The WS-Management service can't process the request. The maximum number of concurrent shells for this user has been exceeded. Close existing shells or raise the quota for this user. For more information, see the [Remote Troubleshooting](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting ).*
 
-- **Resolution**: The only way to resolve this issue is to close one or more of the previous connections. When you're finished with a Skype for Business Online session, we recommend that you use the **Remove-PSSession** cmdlet to terminate the session. This helps you to prevent this issue.
+- **Resolution**: The only way to resolve this issue is to close one or more of the previous connections. When you're finished with a Skype for Business Online session, we recommend that you use the **Remove-PSSession** cmdlet to terminate the session. This will help you to prevent this issue.
   
 ## The maximum number of concurrent shells for this tenant in Skype for Business Online has been exceeded
 <a name="BKMKMaxNumberShellsTenant"> </a>
@@ -142,10 +142,10 @@ Although each administrator is allowed to have as many as three simultaneous con
   
 - **Error**: *New-PSSession: [admin.vdomain.com] Connecting to remote server admin.vdomain.com failed with the following error message: The WS-Management service can't process the request. The maximum number of concurrent shells for this tenant has been exceeded. Close existing shells or raise the quota for this tenant. For more information, see the [Remote Troubleshooting](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting ).*
 
-- **Resolution**: The only way to resolve this issue is to close one or more of the previous connections. When you're finished with a Skype for Business Online session, we recommend that you use the **Remove-PSSession** cmdlet to terminate that session. This helps you to prevent this issue.  
+- **Resolution**: The only way to resolve this issue is to close one or more of the previous connections. When you're finished with a Skype for Business Online session, we recommend that you use the **Remove-PSSession** cmdlet to terminate that session. This will help you to prevent this issue.  
  
 ## Related articles
-[Set up your computer for skype for business online management using Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+[Set up your computer for skype for business online management using Windows PowerShell.](set-up-your-computer-for-windows-powershell.md)
 
   
 

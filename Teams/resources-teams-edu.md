@@ -1,8 +1,8 @@
 ---
 title: "Share Teams adoption resources"
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jacktremper
 ms.topic: reference
 ms.service: msteams
 audience: admin

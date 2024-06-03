@@ -1,26 +1,26 @@
 ---
 title: Guest access in Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: rafarhi
-ms.date: 08/21/2023
+ms.date: 02/13/2024
 audience: admin
 search.appverid: MET150
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 
-  - ms.teamsadmincenter.orgwidesettings.guestaccess.overview
-  - chat-teams-channels-revamp
+- ms.teamsadmincenter.orgwidesettings.guestaccess.overview
+- chat-teams-channels-revamp
 ms.collection: 
-  - Teams_ITAdmin_GuestAccess
-  - M365-collaboration
-  - m365initiative-externalcollab
+- Teams_ITAdmin_GuestAccess
+- M365-collaboration
+- m365initiative-externalcollab
 appliesto: 
-  - Microsoft Teams
+- Microsoft Teams
 description: Guest access in Microsoft Teams allows teams in your organization to collaborate with people outside your organization by granting them access to teams and channels.
 ---
 
@@ -78,9 +78,6 @@ See [Set up secure collaboration with Microsoft 365 and Microsoft Teams](/micros
 Guest access can be used with all Microsoft 365 Business Standard, Microsoft 365 Enterprise, and Microsoft 365 Education subscriptions. No additional Microsoft 365 license is necessary. The [billing model for Microsoft Entra External ID](/azure/active-directory/b2b/licensing-guidance) applies to guests in Microsoft 365. Only people from outside your organization can be invited as guests.
 
 Guests are subject to  [Microsoft 365 or Office 365](/office365/servicedescriptions/office-365-service-descriptions-technet-library) and [Microsoft Entra ID](/office365/servicedescriptions/azure-active-directory) service limits.
-
-> [!NOTE]
-> Converting a guest account into a Microsoft Entra member account or converting a Microsoft Entra member account into a guest is not supported by Teams.
 
 ## Diagnosing issues with Guest Access
 

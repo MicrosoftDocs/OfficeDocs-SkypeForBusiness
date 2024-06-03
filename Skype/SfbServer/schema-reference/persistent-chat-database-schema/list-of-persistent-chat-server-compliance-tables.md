@@ -23,9 +23,9 @@ The Persistent Chat compliance database schema consists of the following tables.
 
 |**Table**|**Description**|
 |:-----|:-----|
-|[tblComplianceData](tblcompliancedata.md) <br/> |Contains the compliance events that have not yet been processed by the configured adapter.  <br/> This table includes Persistent Chat-related events, such as chat messages and file downloads. (Participant events are tracked by the tblComplianceParticipant table.)  <br/> (The servers that processed the events in this table are listed in the tblComplianceFanout table.)  <br/> |
+|[tblComplianceData](tblcompliancedata.md) <br/> |Contains the compliance events that haven't yet been processed by the configured adapter.  <br/> This table includes Persistent Chat-related events, such as chat messages and file downloads. (Participant events are tracked by the tblComplianceParticipant table.)  <br/> (The servers that processed the events in this table are listed in the tblComplianceFanout table.)  <br/> |
 |[tblComplianceFanout](tblcompliancefanout.md) <br/> |Contains the servers that processed a compliance event. This table is tightly coupled with the tblComplianceData table.  <br/> |
-|[tblComplianceParticipant](tblcomplianceparticipant.md) <br/> |Contains current participants per chat service and per server. It is maintained based on join and part compliance events received from the Persistent Chat service.  <br/> |
+|[tblComplianceParticipant](tblcomplianceparticipant.md) <br/> |Contains current participants per chat service and per server. It's maintained based on join and part compliance events received from the Persistent Chat service.  <br/> |
 |[tblComplianceState](tblcompliancestate.md) <br/> |Contains pool-wide compliance state information.  <br/> |
    
 

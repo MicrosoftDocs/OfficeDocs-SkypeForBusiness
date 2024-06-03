@@ -33,7 +33,7 @@ It's a little confusing when you see that the name of your carrier isn't listed.
   
 An example:
   
-- If you're porting number from Skype for Business as your carrier, you might see Level 3 listed.
+- If you're porting number from Skype for Business as your carrier, you might see Level3 listed.
     
   **For complete step-by-step instructions, see [Transfer phone numbers to Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams).**
 

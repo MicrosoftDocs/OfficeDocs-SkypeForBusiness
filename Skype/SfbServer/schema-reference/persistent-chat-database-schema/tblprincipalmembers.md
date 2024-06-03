@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 9a3e24cf-6ef7-4b82-99fc-50ba41800b6f
-description: "tblPrincipalMembers contains principal memberships."
+description: "tblPrincipalMembers contain principal memberships."
 ---
 
 # tblPrincipalMembers
  
-tblPrincipalMembers contains principal memberships.
+tblPrincipalMembers contain principal memberships.
   
 **Columns**
 
 |**Column**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |prinID  <br/> |int, not null  <br/> |Principal ID.  <br/> |
-|memberADPath  <br/> |nvarchar (384), not null  <br/> |Distinguished name of a member. A member does not have to be a principal (in tblPrincipal table).  <br/> |
+|memberADPath  <br/> |nvarchar (384), not null  <br/> |Distinguished name of a member. A member doesn't have to be a principal (in tblPrincipal table).  <br/> |
    
 **Keys**
 

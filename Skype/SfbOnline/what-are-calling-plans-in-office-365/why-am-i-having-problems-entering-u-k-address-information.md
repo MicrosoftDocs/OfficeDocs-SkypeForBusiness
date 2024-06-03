@@ -60,7 +60,7 @@ If you're having a problem entering the house number, remember:
 
 If you're having a problem entering the house name, remember:
   
-- It can have letters, numbers and the following special characters: , / - +. ' &amp; " _
+- It can have letters, numbers, and the following special characters : , / - + . ' &amp; " _
     
 - It has to be 50 characters or less.
     
@@ -78,9 +78,9 @@ If you're having a problem entering the street name, remember:
     
 ## What's wrong with the city or town?
 
-If you are having a problem entering the name of the city or town, remember:
+If you're having a problem entering the name of the city or town, remember:
   
-- It can have letters, numbers, and the following special characters : , / - + . ' &amp; " _
+- It can have letters, numbers, and the following special characters: , / - + . ' &amp; " _
     
 - It has to be 50 characters or less.
     
@@ -88,7 +88,7 @@ If you are having a problem entering the name of the city or town, remember:
     
 ## What's wrong with the postal code?
 
-If you are having a problem entering the postal code, remember:
+If you're having a problem entering the postal code, remember:
   
 - It can only have letters, numbers, or spaces.
     

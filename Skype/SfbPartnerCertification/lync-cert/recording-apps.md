@@ -19,7 +19,7 @@ f1.keywords:
 ms.custom:
 - Lync Certification
 - dn788946
-description: "The Lync qualification program helps ensure that qualified recording applications meet customer expectations for specific scenarios"
+description: "The Lync qualification program helps ensure that qualified recording applications meet customer expectations for specific scenarios."
 ---
 
 # Qualified Microsoft Lync recording applications
@@ -43,7 +43,7 @@ Recording applications allow for the recording, storage, and retrieval of commun
 
 [AudioCodes](http://audiocodes.com)
 
-***SmartTAP*** is a secure call recording solution enabling the recording of key business interactions within the enterprise and branch locations. It's suitable for customers of all sizes. A fully IP centric application utilizing open standard protocols like SIP, HTTP, and SNMP, SmartTAP is flexible for single, multi-site and global deployments. Easily record any Lync call type including but not limited to mobile, remote, internal, PSTN and conference calls.
+***SmartTAP*** is a secure call recording solution enabling the recording of key business interactions within the enterprise and branch locations. It's suitable for customers of all sizes. A fully IP centric application utilizing open standard protocols like SIP, HTTP, and SNMP, SmartTAP is flexible for single, multi-site, and global deployments. Easily record any Lync call type including but not limited to mobile, remote, internal, PSTN, and conference calls.
 
 The easy and intuitive HTML interface reduces training time and makes it easy to deploy. SmartTAP complements Lync by offering a wide range of features that further enhance the recording experience, including agent scoring, live monitoring of conversations, LDAP integration, agent and supervisor notes, email, and downloading of conversations.
 
@@ -57,7 +57,7 @@ SmartTAP is ideal for companies in financial services, trading, manufacturing, m
 
 [Enghouse Interactive](http://telrex.com)
 
-***CallRex Call Recording*** is an enterprise-ready call recording solution for Microsoft Lync. Leveraging the rich history of CallRex software expertise and unique Lync features, CallRex Call Recording offers companies a flexible, yet affordable, call recording and live monitoring software solution. Using CallRex software, companies can capture critical inbound and outbound calls that come through Microsoft Lync clients along with any other device managed through the Lync Server. Even the interactions for those who work remotely on network controlled mobile devices can be recorded.
+***CallRex Call Recording*** is an enterprise-ready call recording solution for Microsoft Lync. Using the rich history of CallRex software expertise and unique Lync features, CallRex Call Recording offers companies a flexible, yet affordable, call recording and live monitoring software solution. Using CallRex software, companies can capture critical inbound and outbound calls that come through Microsoft Lync clients along with any other device managed through the Lync Server. Even the interactions for those who work remotely on network controlled mobile devices can be recorded.
 
 Multiple integration options are available, including: passive server-side recording, passive client-side recording, and active Lync Conference-based recording. CallRex software also includes native Real-Time Audio support.
 
@@ -69,7 +69,7 @@ Multiple integration options are available, including: passive server-side recor
 
 [Geomant](http://geomant.com)
 
-Part of Geomant's portfolio of Lync solutions, the ***Geomant Call Recorder*** allows regulated and customer-focused organisations to record inbound and outbound Lync voice conversations.
+Part of Geomant's portfolio of Lync solutions, the ***Geomant Call Recorder*** allows regulated and customer-focused organizations to record inbound and outbound Lync voice conversations.
 
 Complementary to Geomant's contact center solution, Contact Expert, Geomant's Lync Call Recorder is a passive, network based, solution, which has no impact on the call experience. Recording takes place centrally, with call recordings and associated data securely stored for subsequent access.
 
@@ -84,7 +84,7 @@ Geomant's solution can be deployed in almost any Lync architecture.
 
 [NICE](http://nice.com)
 
-NICE Interaction Management offers call centers, remote branches and back offices reliable and resilient call recording with the ability to capture, store and maintain customer phone, chat and email interactions in the form of voice, text and screen activity.
+NICE Interaction Management offers call centers, remote branches, and back offices reliable and resilient call recording with the ability to capture, store and maintain customer phone, chat and email interactions in the form of voice, text, and screen activity.
 
 Flexible recording rules and call archiving allow for tailoring call capture and storage activities according to company requirements. Its scalable architecture enables easy adaptation to growing recording capacity needs. NICE Interaction Management provides comprehensive redundancy and disaster recovery capabilities for business continuity. To ensure data security it offers end-to-end media encryption, authentication and server hardening.
 
@@ -109,11 +109,11 @@ NICE Trading Recording (NTR) combines trading floor and back office recording to
 
 [Numonix](http://numonix.co)
 
-***RECITE by Numonix*** is a secure call recording and quality management system that makes traditional contact center tools available to any Microsoft Lync environment. Through decades of recording experience, Numonix has designed RECITE to be scalable from smaller single sites with as little as five users to large multi-site enterprise deployments. At the core of the RECITE Suite is our RECITE Capture recording module that is designed to capture and encrypt all Lync media which can then be stored and accessed through virtualized, centralized or distributed deployment models.
+***RECITE by Numonix*** is a secure call recording and quality management system that makes traditional contact center tools available to any Microsoft Lync environment. Through decades of recording experience, Numonix designes RECITE to be scalable from smaller single sites with as little as five users to large multi-site enterprise deployments. At the core of the RECITE Suite is our RECITE Capture recording module that is designed to capture and encrypt all Lync media, which can then be stored and accessed through virtualized, centralized, or distributed deployment models.
 
-Through our simple to use, web interface users can search, playback and review any Lync interaction whether it be internal, external, mobile, conference, PSTN or remote. With built in support for all Lync codec types and a media capture model that does not require port mirroring or consumption of valuable Lync conferencing resources, RECITE is the most well rounded and cost effective Enterprise Lync Recording offering on the market.
+Through our simple to use, web interface users can search, playback, and review any Lync interaction whether it be internal, external, mobile, conference, PSTN or remote. With built-in support for all Lync codec types and a media capture model that doesn't require port mirroring or consumption of valuable Lync conferencing resources, RECITE is the most well rounded and cost effective Enterprise Lync Recording offering on the market.
 
-Need to evaluate and analyze your Lync interactions, add real-time comments to calls or create customized training programs; our quality assurance software modules, RECITE Q and RECITE Client offer the latest agent evaluation features together with desktop screen capture.
+Need to evaluate and analyze your Lync interactions, add real-time comments to calls, or create customized training programs; our quality assurance software modules, RECITE Q, and RECITE Client offer the latest agent evaluation features together with desktop screen capture.
 
 ## Oracle Communications Interactive Session Recorder
 * * *
@@ -138,7 +138,7 @@ Service providers and enterprises deploy it in compliance and quality assurance 
 
 A user-friendly and intuitive voice and data recording software solution that is suitable for companies and organizations of all sizes, ***Red Box Quantify Recording Suite*** can be tailored to meet precise customer requirements with a wide range of functionality including quality management, PCI compliance, call management and billing, event reconstruction and audio analytics.
 
-The Red Box Quantify recording solution can record any required internal Lync audio conversation, external Lync audio conversation or Lync Messaging to help organizations to gain competitive advantage by delivering a wide range of business and operational benefits, increasing productivity, and reducing costs.
+The Red Box Quantify recording solution can record any required internal Lync audio conversation, external Lync audio conversation, or Lync Messaging to help organizations to gain competitive advantage by delivering a wide range of business and operational benefits, increase productivity, and reduce costs.
 
 ## Verba Recording System
 * * *
@@ -148,13 +148,13 @@ The Red Box Quantify recording solution can record any required internal Lync au
 
 [Verba](http://verba.com)
 
-***Verba*** is a leader in professional call recording and quality management solutions for unified communications. The enterprise-grade Verba Recording System is the first server-side Lync compatible solution that records voice, video, instant messages and screen video in a single platform.
+***Verba*** is a leader in professional call recording and quality management solutions for unified communications. The enterprise-grade Verba Recording System is the first server-side Lync compatible solution that records voice, video, instant messages, and screen video in a single platform.
 
 For compliance environments, calls are recorded and encrypted in the network. For contact centers, an integrated quality assurance system lets managers continuously review service quality, visualize trends, plan training and provide feedback to agents.
 
-A wide range of distributed, centralized and virtualized deployment options ensure Verba fits any environment from single-server systems to multi-site Lync clusters. All Lync conversations are recorded including internal, remote, PSTN and federated calls. Active Directly synchronization and single-sign on integration are included as standard.
+A wide range of distributed, centralized, and virtualized deployment options ensure Verba fits any environment from single-server systems to multi-site Lync clusters. All Lync conversations are recorded including internal, remote, PSTN, and federated calls. Active Directly synchronization and single-sign on integration are included as standard.
 
-Lync conversations flow through Microsoft Lync server components only, which means no group conversation setup, no increased call connection times, no impact on Lync user experience.
+Lync conversations flow through Microsoft Lync server components only, which means no group conversation setup, no increased call connection times, no effect on Lync user experience.
 
 ## Viases Recorder for Lync
 * * *
