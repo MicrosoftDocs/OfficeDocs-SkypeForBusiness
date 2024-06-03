@@ -12,12 +12,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
-description: "Read this topic to learn how to deploy Skype Room System in a hybrid environment."
+description: "Read this article to learn how to deploy Skype Room System in a hybrid environment."
 ---
 
 # Skype Room System hybrid deployments
 
-Read this topic to learn how to deploy Skype Room System in a hybrid environment.
+Read this article to learn how to deploy Skype Room System in a hybrid environment.
   
 ## Hybrid deployments
 
@@ -31,22 +31,22 @@ For illustrative purpose, we use LyncSample.com for the on-premises domain and L
    New-Mailbox -room -name "LRS Test 5" -RoomMailboxPassword (ConvertTo-SecureString <password> -AsPlainText -Force) -EnableRoomMailboxAccount $true 
    ```
 
-    You can verify OWA connectivity using lrstest5@LyncSample.ccsctp.net to log in.
+    You can verify OWA connectivity using lrstest5@LyncSample.ccsctp.net to sign in.
     
 2. In the Microsoft 365 or Office 365 Exchange admin center, add an e-mail address lrstest5@LyncSample.com (on-prem domain) and set it as the reply address.
     
 3. Create an on-prem Active Directory user lrstest5@LyncSample.com, set the e-mail address to lrstest5@LyncSample.com, and set the target address to lrstest5@LyncSample.com.
     
-4. Trigger directory synchronization, and, after synchronization is complete, verify that users merge in Microsoft Entra ID and that you are not able to change properties in recipient's resources in the Microsoft 365 or Office 365 Exchange admin center.
+4. Trigger directory synchronization, and, after synchronization is complete, verify that users merge in Microsoft Entra ID and that you aren't able to change properties in recipient's resources in the Microsoft 365 or Office 365 Exchange admin center.
     
 5. Verify OWA connectivity using lrstest5@LyncSample.com. (Earlier, you verified OWA connectivity using the online domain.)
     
-    After creating the mailbox, you can use Set-CalendarProcessing on the Exchange Online Management Shell to configure the mailbox. Refer to steps 3 through 6 under Single Forest On-prem Deployments for more details.
+    After creating the mailbox, you can use Set-CalendarProcessing on the Exchange Online Management Shell to configure the mailbox. For more information, refer to steps 3 through 6 under Single Forest On-prem Deployments.
     
    > [!NOTE]
    > If you have a hybrid environment with Exchange Server and Exchange Online, go to the Exchange Management Shell and Enable-RemoteMailbox lrstest5@LyncSample.com -RemoteRoutingAddress lrstest5@LyncSample.mail.ccsctp.net -Room. Then trigger Directory Synchronization. 
   
-    If you want to host the Skype Room System mailbox in Exchange Online, these Exchange Management Shell steps are not required and you can proceed to step 6.
+    If you want to host the Skype Room System mailbox in Exchange Online, these Exchange Management Shell steps aren't required and you can proceed to step 6.
     
 6. Enable the Skype Room System account for Skype for Business by running the following cmdlet on Skype for Business Management Shell:
     
