@@ -1,9 +1,9 @@
 ---
-title: Manage Q&A in Teams meetings, webinars, and town halls
+title: Manage Q&A in Teams meetings and events
 author: wlibebe
 ms.author: wlibebe
 ms.reviewer: sameer.sitaram
-ms.date: 06/13/2022
+ms.date: 4/18/2024
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
@@ -15,101 +15,98 @@ ms.collection:
 audience: Admin
 appliesto: 
   - Microsoft Teams
-description: Learn about how IT Admins can set up, use, and manage Q&A in Q&A for Teams meetings, webinars, and town halls for a structured approach to gathering questions, organizing discussions, deleting individual messages, using available languages, and understanding the data lifecycle as well as data retention and deletion policies.
+description: Learn about how IT Admins can set up, use, and manage Q&A in Q&A for Teams meetings, webinars, and town halls. Learn about Q&A, a structured approach to gathering questions snd organizing discussions. Learn how to delete individual Q&A   messages. Learn about using available languages for Q&A. Understand the data lifecycle and data retention and deletion policies for Q&A.
 ---
-# Manage Q&A in Teams meetings, webinars, and town halls
+# Manage Q&A in Teams meetings and events
 
 **APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
 
-Q&A allows presenters to take questions from attendees and answer them in real time. This feature is best suited for large, structured meetings – like Town Halls, Webinars, All Hands, and trainings. This is a per-organizer setting.
+Q&A allows presenters, organizers, and co-organizers to take questions from attendees and answer them in real time. This feature is best suited for large, structured meetings and events– like town halls, webinars, all hands, and trainings. The Q&A policy is a per-organizer setting.
 
-This article describes how to manage Q&A and user-level policies, which dictate whether an organizer can enable Q&A in their meetings.
+Your organization might have requirements to limit which organizers can use Q&A. As an admin, you can control whether an organizer can enable Q&A in their meetings and events.
+
+To learn more about Q&A for your users, see [Q&A in Microsoft Teams meetings](https://support.microsoft.com/office/q-a-in-microsoft-teams-meetings-f3c84c72-57c3-4b6d-aea5-67b11face787).
 
 > [!NOTE]
-> This setting also affects webinars.
+> Q&A isn't available for GCC and GCCH.
 
 ## Prerequisites
 
-- Verify that you haven’t blocked access to [Viva Engage’s IPs and URLs.](/microsoft-365/enterprise/urls-and-ip-address-ranges)
-- To allow users in your organization to add Q&A to Teams meetings, you need to confirm that sign-ins for the Office 365 Viva Engage service are enabled in Microsoft Entra ID. 
-Follow the steps below to confirm that sign-ins are enabled:
+- Verify that access to [Viva Engage’s IPs and URLs](/microsoft-365/enterprise/urls-and-ip-address-ranges) isn't blocked.
+- To allow users in your organization to add Q&A to Teams meetings and events, you must confirm that sign-ins for the Office 365 Viva Engage service are enabled in Microsoft Entra ID.
+Follow these steps to confirm that sign-ins are enabled:
   - Go to the **Microsoft Entra admin center** > **All services** > **Enterprise Applications** > **Office 365 Viva Engage** > **Properties**.
   - For the **Enabled for users to sign-in?** option, select **Yes** if necessary.
 
-## Who can use Q&A
+When you enable Q&A, organizers can turn on Q&A in their Meeting options when creating or updating meetings and events. Through Teams and Outlook meeting options, organizers can also remove Q&A from meetings where it was previously added to prevent attendees from using the feature.
 
-Q&A can be used by the following user types:
+## Manage Q&A
 
-- Regular user — A user with Microsoft 365 credentials in your tenant.
-- External access user — A user with Microsoft 365 credentials to a different tenant.
-- Guest — Any guests you add to your Microsoft Teams, SharePoint, or Microsoft Entra ID.
+### Teams admin center
 
-> [!NOTE]
-> Q&A is not available in GCC.
+Follow these steps to control which organizers can use Q&A in their meetings and events:
 
-When admins enable Q&A, users with the [organizer role](https://aka.ms/GetQnA) can turn on Q&A when creating or updating meetings. Through Teams and Outlook meeting options, organizers can also remove Q&A from meetings where it was previously added to stop attendees from using the feature.
-> [!NOTE]
-> Q&A will not be available to View Only Attendees who join past the meeting capacity.
+1. Open the Teams admin center.
+2. Expand **Meetings** from the navigation pane.
+3. Under **Meetings**, select **Meeting policies**.
+4. Either select an existing policy or create a new one.
+5. Navigate to the **Meeting Engagement** section and toggle **Q&A** **On** or **Off**.
+6. Select **Save**.
+7. Assign the policy to specific Microsoft 365 groups, users, or subscriptions that you want to allow or prevent from setting up Q&A.
 
-## Use the Teams admin center to manage Q&A
+### PowerShell
 
-Your organization might have requirements to limit which organizers can turn on Q&A. You can use the Teams admin center to manage which organizers can turn on Q&A in large meetings.
-Follow these steps to control which organizers can use Q&A:
+To manage whether organizers can use Q&A in their meetings and events, use the **`-QnAEngagementMode`** parameter within the PowerShell [**CsTeamsMeetingPolicy**](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet.
 
-1. In the Teams admin center, go to **Meetings** > [**Meeting Policies**](/meeting-policies-participants-and-guests)
-2. Select an existing policy or create a new one and give it a name such as “No Q&A for these organizers”
-3. Scroll to the section called **Meeting engagement**, select disable for the **“Question & Answer experience”** setting, and save the policy
-4. Assign the policy to specific Microsoft 365 groups, end-users, or subscriptions that you want to prevent from setting up Q&A
-
-## Use PowerShell to manage Q&A
-
-Your organization might have requirements to limit which organizers can turn on Q&A. You can use PowerShell to manage which organizers can turn on Q&A in large meetings.
-
-Example PowerShell command to Enable Q&A:
+To allow organizers with this policy to use Q&A in meetings and events they create, use the following script:
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -QnAEngagementMode Enabled
+```
+
+To prevent organizers with this policy from using Q&A in meetings and events they create, use the following script:
+
+```PowerShell
+Set-CsTeamsMeetingPolicy -Identity Global -QnAEngagementMode Disabled
 ```
 
 ## Delete an individual message from Q&A in Teams
 
 To delete a question or answer posted in the Q&A application, follow these steps:
 
-1. Log in to the Exchange Admin Center as a Global Administrator.
-2. Go to **Recipients** > **Mailboxes** and search by name for the user who organized the meeting.
-3. Select the meeting organizer and click on **Manage mailbox delegation**. In the **Read and manage** section, select **Edit** > **Add permissions**.
-4. Add yourself as a delegate of the meeting organizer and select Save.
+1. Sign in to the Exchange Admin Center as a Global Administrator.
+2. Go to **Recipients** > **Mailboxes** and search by name for the user who organized the meeting or event.
+3. Select the organizer and select **Manage mailbox delegation**. In the **Read and manage** section, select **Edit** > **Add permissions**.
+4. Add yourself as a delegate of the meeting organizer and select **Save**.
 5. Open Outlook Calendar in the Outlook Web App (not desktop) and select **Add calendar** and then **Add from directory**.
-6. Search for the meeting organizer and add their calendar to **My calendars**. Meetings for the selected user will now be shown on your calendar.
-7. In your calendar, find the meeting you want to delete content for, open the meeting record, and select **Chat with participants**. Selecting chat with participants will open the meeting chat in Teams.
-8. Navigate to the Q&A application in the Teams app bar.
-9. Find any questions or answers you want to delete and select Delete.
+6. Search for the meeting organizer and add their calendar to **My calendars**. Meetings for the selected user are now shown on your calendar.
+7. In your calendar, find the meeting you want to delete content for, open the meeting record, and select **Chat with participants**. Selecting chat with participants opens the meeting chat in Teams.
+8. Navigate to the **Q&A** application in the Teams app bar.
+9. Find any questions or answers you want to delete and select **Delete**.
 10. Once you’re finished deleting content, go back to the Exchange Admin Center and remove yourself as a delegate of the meeting organizer.
 
-> [!NOTE]
-> If you delete a question before removing the answers, the first answer to the question will become the question.
->
-> To avoid this, follow these steps in order:
->
-> 1. Identify the question you’d like to delete
-> 2. Delete the answers to the question
-> 3. Delete the question
+If you delete a question before removing the answers, the first answer to the question becomes the question. To avoid this scenario, follow these steps in order:
 
-## Available languages for Viva Engage versus Teams
+1. Identify the question you’d like to delete
+2. Delete the answers to the question
+3. Delete the question
 
-The Q&A will default to the user’s language for Teams. When there’s a difference in the languages available for Teams versus Viva Engage, the following language defaults will occur:
+## Available languages for Viva Engage vs Teams
 
-- Nearest Primary Language—Viva Engage will default to the nearest primary language, if available. For example, Viva Engage doesn’t provide a French Canadian (fr-CA) version, so it will display content in French (fr-FR) instead.
-- Unsupported Language—If the language isn't provided by Viva Engage at all, Viva Engage will default to US English (en-US).
+Q&A defaults to the user’s language for Teams. When there’s a difference in the languages available for Teams versus Viva Engage, the following language defaults occur:
+
+- **Nearest Primary Language**—Viva Engage defaults to the nearest primary language, if available. For example, Viva Engage doesn’t have a French Canadian (fr-CA) version, so it displays content in French (fr-FR) instead.
+- **Unsupported Language**—If Viva engage doesn't support the language at all, Viva Engage defaults to US English (en-US).
 
 ## eDiscovery
 
-eDiscovery for Q&A will work the same as eDiscovery for any other Viva Engage content.
+eDiscovery for Q&A works the same as eDiscovery for any other Viva Engage content.
 
-- If you use Q&A in your tenant’s Teams application, this content will be available in eDiscovery regardless of the configuration or existence of your Viva Engage network. To use eDiscovery for standard Viva Engage content, your Viva Engage network needs to be in [Native Mode](/viva/engage/configure-your-yammer-network/overview-native-mode).
+- If you use Q&A in your tenant’s Teams application, this content is available in eDiscovery regardless of the configuration or existence of your Viva Engage network. To use eDiscovery for standard Viva Engage content, your Viva Engage network needs to be in [Native Mode](/viva/engage/overview-native-mode).
 - When you perform eDiscovery, you can determine whether messages were generated in Viva Engage or through Q&A in Teams. In the File Metadata section, you can find that information in the Item Class field.
-- If your organization uses the Q&A, powered by Viva Engage, the content generated by Q&A is considered Viva Engage content and will be discoverable. For more information about eDiscovery in Microsoft 365 apps, see [eDiscovery solutions in Microsoft 365.](/microsoft-365/compliance/ediscovery)
-- If the meeting organizer enables anonymous posting, the questions attendees post will be ingested into the organizer’s mailbox for eDiscovery.
+- If your organization uses the Q&A, powered by Viva Engage, the content Q&A generates is considered Viva Engage content and is discoverable. For more information about eDiscovery in Microsoft 365 apps, see [eDiscovery solutions in Microsoft 365.](/microsoft-365/compliance/ediscovery)
+- If the meeting organizer enables anonymous posting, the questions attendees post are ingested into the organizer’s mailbox for eDiscovery.
+- When external participants (users from an external organization using external access) from a different Microsoft 365 tenant, or guests join a Teams meeting that is hosted in your Microsoft 365 tenant, any questions they post into Q&A are ingested within your Microsoft 365 tenant.
 
 ## Data Storage
 
@@ -119,58 +116,35 @@ Files are always stored in SharePoint, which handles all the data rest policies 
 The following guidance explains how messaging data is stored:
 
 - Q&A content is searchable via eDiscovery at the user level.
-- Message data (which includes message content) will be stored in North America or EU by default (depending on the customer’s Viva Engage network location).
-- For tenants that don’t have an existing Viva Engage network, the Q&A Viva Engage network will be created in the United States Viva Engage region. Your organization's messages for Q&A will always be stored in the US.
-- Similar to OneNote tabs, removing the Q&A from a meeting doesn't delete the meeting data. Removing Q&A from the meeting only removes access to the data from the meeting. If you add the Q&A tab back, you'll see all the meeting conversations again.
+- Depending on your Viva Engage network location, if you don't have the Advanced Data Residency (ADR) add-on license, your message data is stored in North America or EU by default.
+- If you have the ADR add-on license, or Go-Locals, your message content is stored in the same region as their Teams Go-Local content.
+- Depending on your Viva Engage network location, message data, including message content is stored in North America or EU by default.
+- For orgs without an existing Viva Engage network, the Q&A Viva Engage network is created in the United States Viva Engage region. Your org's messages for Q&A are always stored in the US, unless they have the ADR add-on license.
+- Similar to OneNote tabs, removing the Q&A from a meeting doesn't delete the meeting data. Removing Q&A from the meeting only removes access to the data from the meeting. If your users add the Q&A tab back, they can see the meeting conversations again.
 
-## GDPR for Q&A in Teams
+For details on the Advanced Data Residency (ADR) add-on license, see [Advanced Data Residency in Microsoft 365](/microsoft-365/enterprise/advanced-data-residency).
 
-When you complete a Data Subject Request through the Microsoft 365 Admin Center, it automatically removes users’ contact information from all their content in the Q&A.
+## Data subject requests and Q&A
+
+When you complete a data subject request through the Microsoft 365 Admin Center, it automatically removes users’ contact information from all their content in the Q&A.
+
+For more information on data subject requests, see [Azure Data Subject Requests for the GDPR and CCPA](/compliance/regulatory/gdpr-dsr-Azure).
+
+For more information about GDPR, see the [GDPR section of the Microsoft Trust Center](https://www.microsoft.com/trust-center/privacy/gdpr-overview) and the [GDPR section of the Service Trust portal](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted).
 
 ## Data lifecycle for Q&A in Teams
 
-The lifecycle of data generated by Q&A in Teams depends on your Viva Engage Data Retention settings in the Microsoft Purview compliance portal. If you hard delete all users in the meeting who received a copy of the Q&A messages in their substrate shard via Microsoft Entra ID, Viva Engage will delete its copy of the Q&A content for that meeting within 30 days of user deletion.
+The lifecycle of data generated by Q&A in Teams depends on your Viva Engage Data Retention settings in the Microsoft Purview compliance portal. If you hard delete all users in the meeting who received a copy of the Q&A messages in their substrate shard via Microsoft Entra ID, Viva Engage deletes its copy of the Q&A content for that meeting within 30 days of user deletion.
 
 ## Retention and deletion
 
 Retention of content follows the retention policies set for Viva Engage – regardless of whether you have different policies set for Viva Engage and Teams.
 
 > [!NOTE]
-> If your Viva Engage Network is not in Native Mode, the policies created here will apply only to Q&A data. In Native Mode, all Viva Engage users are in Microsoft Entra ID, all groups are Microsoft 365 groups, and all files are stored in SharePoint Online.
+> If your Viva Engage Network isn't in Native Mode, the policies created here apply only to Q&A data. In Native Mode, all Viva Engage users are in Microsoft Entra ID, all groups are Microsoft 365 groups, and all files are stored in SharePoint Online.
 
-## FAQ
+## Related topics
 
-**Q: How do I export Q&A content?**
-
-**A:** Q&A content is stored in the Microsoft Purview compliance portal and accessed through eDiscovery. Future iterations will include a meeting highlights report and export functionality for meeting organizers.
-
-**Q: Does Q&A support Microsoft 365 Multi-Geo capabilities?**
-
-**A:** Q&A doesn't currently support Microsoft 365 Multi-Geo capabilities. Q&A data will be stored in North America or EU by default (depending on the customer’s Viva Engage network location).
-
-**Q: Where can I learn more about structured meetings?**
-
-**A:** Follow these [best practices](/MicrosoftTeams/quick-start-meetings-live-events) for hosting successful large meetings in Microsoft Teams.
-
-**Q: What is the difference between setting up Q&A through the Teams App store versus using Meeting Options?**
-
-**A:** We've simplified enabling Q&A through Meeting Options. Beginning August 2022, the Q&A app in the Teams app store will no longer be supported, so Q&A must only be enabled through Meeting Options. If you are the organizer for meetings where Q&A was enabled through the Teams app store, please remove the Q&A app, and instead only enable through Meeting Options.
-
-**Q: Why am I seeing two Q&A icons in my meeting?**
-
-**A:** You’re seeing two Q&A icons in your meeting because Q&A was also enabled through Meeting Options. Please remove the Q&A app that was added through the Teams App Store using the instructions below. Please do this for all your meetings where you had previously added Q&A through the Teams app store.
-
-**How to remove the Q&A app that was added from the Teams app store.**
-
-1. On Teams Desktop, join the meeting where you previously added Q&A.
-
-2. Within the top panel, select the second occurrence of the Q&A icon in the Teams Meeting window – this is the Q&A experience that was added through the Teams App Store.
-
-3. With the selected Q&A tab open, click on the ellipses and click “Remove”. This will remove the Q&A experience that was added through the Teams app store.
-
-4. Click “Remove” to permanently remove the Q&A experience that was added via the Teams app store.
-
-> [!NOTE]
-> Only the Q&A app added added via the Teams app store will have an ellipsis to remove the Q&A app. The Q&A experience enabled via Meeting Options will not have an ellipsis and can’t be removed from here.
-
-That’s it! Now there’s only one Q&A experience – powered by Meeting Options. The Q&A app added via the Teams app store is removed.
+- [Plan for meetings](plan-meetings.md)
+- [Plan for webinars](plan-webinars.md)
+- [Plan for town halls](plan-town-halls.md)

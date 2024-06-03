@@ -11,7 +11,8 @@ ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-ms.collection: IT_Skype16
+ms.collection:
+- essentials-security
 ms.assetid: bf2a3b8f-73c6-47e1-8c9e-ca1dc1a502bf
 description: "Skype for Business Server includes several security features, including server-to-server authentication, role-based access control, and centralized storage of configuration data."
 ---

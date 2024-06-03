@@ -1,8 +1,8 @@
 ---
 title: Block access to SharePoint for specific users
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.reviewer: Nigolc
 ms.date: 07/23/2020
 ms.topic: article

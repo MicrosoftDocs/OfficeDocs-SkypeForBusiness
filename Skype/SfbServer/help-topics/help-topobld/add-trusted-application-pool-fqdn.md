@@ -21,11 +21,11 @@ description: "To define a Trusted Applications pool fully qualified domain name 
  
 To define a Trusted Applications pool fully qualified domain name (FQDN), specify the following:
   
-An FQDN of the server or pool of servers that will host the trusted applications.
+An FQDN of the server or pool of servers that host the trusted applications.
   
-Select **Multiple computer pool** if you are deploying a pool of servers for the trusted applications from load balancing and high availability, or select **Single computer pool** if you do not need load balancing or high availability.
+Select **Multiple computer pool** if you're deploying a pool of servers for the trusted applications from load balancing and high availability, or select **Single computer pool** if you don't need load balancing or high availability.
   
 > [!IMPORTANT]
 > A single Trusted Applications Server cannot be converted to a pool of servers later. If you think you may need a pool in the future, you can deploy a multiple server pool containing a single computer now, and add servers when needed. 
   
-For details about Trusted Applications pools, see [New-CsTrustedApplicationPool](/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps).
+For details about Trusted Applications pools, see [New-CsTrustedApplicationPool](/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps&preserve-view=true).

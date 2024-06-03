@@ -77,13 +77,12 @@ Firewall IP addresses and ports for Microsoft Teams media |For more information,
 Direct Routing users must have the following licenses assigned in Microsoft 365: 
 
 - Teams Phone 
-- Microsoft Teams + Skype for Business Plan 2, if included in licensing
+- Microsoft Teams 
 - Audio Conferencing. For information about when an Audio Conferencing license is required, see [Audio Conferencing considerations](#audio-conferencing-requirements-and-considerations).
 
-> [!NOTE]
-> Skype for Business Plan should not be removed from any licensing agreement where it is included. 
-
 Direct Routing also supports users who are licensed for Microsoft Calling Plan. For more information, see [Direct Routing with Calling Plan and Operator Connect](#direct-routing-with-calling-plans-and-operator-connect).
+
+Note: Direct Routing is not supported in Islands mode.
 
 ### Audio Conferencing requirements and considerations
 
@@ -367,5 +366,4 @@ Microsoft only supports Teams Phone with Direct Routing when used with certified
 ## See also
 
 - [Configure Direct Routing](direct-routing-configure.md)
-- [Diagnose issues with Direct Routing](/troubleshoot/phone-system/direct-routing/diagnose-direct-routing-issues.md)
 - Video session: [Direct Routing in Microsoft Teams](https://aka.ms/teams-direct-routing).

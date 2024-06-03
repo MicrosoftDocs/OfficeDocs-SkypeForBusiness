@@ -1,7 +1,7 @@
 ---
 title: Advanced collaboration analytics for Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 ms.reviewer: izzychun, charup
 ms.date: 11/10/2023

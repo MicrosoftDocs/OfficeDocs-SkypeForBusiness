@@ -48,15 +48,15 @@ To configure immediate call forward settings:
 
 3. Under **Call answering rules**, select **Be immediately forwarded**, and select the appropriate call forward type and destination.
 
-To configure simultaneous ringing, on the same page select **Ring the user's devices**. In the **Also allow** drop-down, select the appropriate simultaneous ringing setting.
+    - To configure simultaneous ringing, on the same page select **Ring the user's devices**. In the **Also allow** drop-down, select the appropriate simultaneous ringing setting. **Call forwarding and simultaneous ringing to people in organization** or **Call forwarding and simultaneous ringing to external phone numbers** in **Voice** > **Calling policies** must be turned on for this call forward type and destination to be available. These settings are on by default.
 
-To configure unanswered settings, on the same page select the appropriate setting in the **If unanswered** drop-down. In the **Ring for this many seconds before redirecting** drop-down, specify the number of seconds to wait.
+    - To configure unanswered settings, on the same page select the appropriate setting in the **If unanswered** drop-down. In the **Ring for this many seconds before redirecting** drop-down, specify the number of seconds to wait.
 
 The configuration of call delegation and group call pickup is integrated into the call forward and unanswered settings by selecting the appropriate type. For example, to configure calls to also ring the user's delegates, on the same page select **Call delegation** under **Also allow**. Then add the appropriate delegates by selecting **Add people** and selecting **Save**. For more information, see [Call sharing and group call pickup](call-sharing-and-group-call-pickup.md).
 
 This video shows the steps to view and edit the voice settings for a user.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE546F7?autoplay=false]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1c7JR?autoplay=false]
 
 ## Use PowerShell
 

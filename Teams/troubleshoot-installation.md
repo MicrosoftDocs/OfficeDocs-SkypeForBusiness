@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.reviewer: 
-ms.date: 10/23/2019
+ms.date: 10/13/2023
 ms.topic: article
 ms.service: msteams
 audience: Admin
@@ -24,8 +24,7 @@ description: Learn how to troubleshoot installation and update issues for the Te
 This article provides guidance for how to diagnose and troubleshoot installation and update issues for the Teams desktop client app running on Windows. For additional troubleshooting information, see [Teams troubleshooting](/MicrosoftTeams/troubleshoot/teams).
 
 [!Important]
->This article applies only to classic Microsoft Teams. For new Teams, see:  [Troubleshooting installation issues in the new Teams client](new-teams-troubleshooting-installation.md)
-
+>This article applies only to classic Microsoft Teams. For new Teams, see: [Troubleshooting installation issues in the new Teams client](/microsoftteams/troubleshoot/teams-administration/fix-new-teams-installation-issues)
 
 ## Check whether Teams is updated successfully
 

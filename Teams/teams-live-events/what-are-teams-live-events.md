@@ -1,7 +1,7 @@
 ---
 title: What are Microsoft Teams live events?
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.topic: conceptual
 ms.service: msteams
@@ -29,7 +29,7 @@ ms.localizationpriority: medium
 # What are Microsoft Teams live events
 
 > [!NOTE]
-> Teams live events will be deprecated on September 30, 2024. We recommend that you use town halls instead. For details, see [Plan for Teams town halls](/microsoftteams/plan-town-halls).
+> Teams Live Events will no longer be deprecated on September 30, 2024, as previously announced. While we still recommend that customers upgrade to [Teams town hall](../plan-town-halls.md) when ready to take advantage of new features and experiences, Live Events users can now schedule events beyond September 2024. For more information, please read our recent [blog post](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/extension-for-teams-live-events-retirement/ba-p/4148352).
 
 With Teams lives events, users in your organization can broadcast video and meeting content to large online audiences.
 
@@ -67,12 +67,17 @@ Teams provides the ability for the organizers to create an event with the approp
 
 ![the New live events screen.](../media/teams-live-events-schedule.png "Screen shot showing the New live event screen to create and schedule a new live event")
 
+> [!NOTE]
+> To schedule live events, organizers must use the Teams web client. When organizers are scheduling their live event, they’re prompted to open a web form.
+> :::image type="content" source="../media/tle-prompt-small.png" alt-text="Screenshot of Contoso Education's meeting theme featuring their brand logo, image, and colors." lightbox="../media/tle-prompt-expand.png":::
 > [!IMPORTANT]
 > Teams won't let users schedule meetings or live events when they're offline or running with limited bandwidth.
 
 ### Production
 
 The video input is the foundation of the live event and it can vary from a single webcam to a multi-camera professional video production. The live events in Microsoft 365 support a spectrum of production scenarios, include an event produced in Teams using a webcam or an event produced in an external app or device. You can choose these options depending on their project requirements and budget. There are two ways to produce events:
+
+
 
 - **Teams**: This production method allows users to produce their live events in Teams using their webcam or using A/V input from Teams room systems. This option is the best and quickest option if you want to use the audio and video devices connected to the PC or are inviting remote presenters to participate in the event. This option allows users to easily use their webcams and share their screen as input in the event.
 

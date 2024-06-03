@@ -3,7 +3,7 @@ title: Direct Routing support for media bypass
 author: CarolynRowe
 ms.author: crowe
 manager: pamgreen
-ms.date: 01/28/2019
+ms.date: 01/22/2024
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -97,6 +97,10 @@ The Teams endpoints are the Caller for this scenario and are the Controlling End
 Note: If the SBC sends a provisional answer (183), the SBC must be ready to receive connectivity check requests and potentially complete the nominations  before it sends the 200OK. If checks and/or nominations are completed before the 200OK is received, checks and/or nominations won't be performed again after 200OK is received. The SBC must not change ICE candidates, password, and ufrag (username fragment) between 183 and 200.
 
 To support early media, the SBC may start streaming the media to the peer ICE candidate, with the highest priority based on received connectivity checks, even before nominations are completed by Teams endpoint. The SBC should expect media from Teams on any candidate until nominations are completed. Once a candidate is nominated, the SBC must reset to the right context to send and receive media packets.
+
+### Handling M lines in SDP 
+
+In some calling scenarios, other media modalities may be offered in a call to the PSTN. For example, m=video if a Teams video call is forwarded to the PSTN. If the customer SBC is configured with media bypass, then these lines won't be removed by the service, and need to be handled by the SBC following RFC3264: For each non “m=audio” line in the offer, the SBC must include a corresponding “m=” line in the answer, and the port number in this line should be set to zero, effectively rejecting all non-audio streams. 
 
 ## SRTP support requirements
 

@@ -1,5 +1,5 @@
 ---
-title: Set up immersive spaces for Teams
+title: Manage the Mesh app in Microsoft Teams
 ms.author: tmilligan
 author: typride
 manager: tyadams
@@ -19,7 +19,7 @@ description: Learn how to set up immersive spaces for teams.
 ---
 
 
-# Set up immersive spaces in Teams
+# Manage the Mesh app in Microsoft Teams
 
 The Mesh app, which enables immersive spaces in Teams, is enabled by default in the Teams Admin Center. This allows users to change the [View in a Teams meeting to an immersive space](https://support.microsoft.com/en-us/office/get-started-with-immersive-spaces-in-microsoft-teams-4a6182f8-0f43-4c24-bb66-ef229fa221d8). However, unlike other apps in Teams, users don't need to search for or pin it in. Instead, they only access an immersive space in the View menu in any Microsoft Teams meeting.
 
@@ -32,7 +32,9 @@ To set up immersive spaces in Teams, you should:
 
 Connect in a 3D immersive space, helping hybrid meetings feel more like face-to-face connections. With just one click, you can easily connect with your team in a pre-built immersive space right from a Teams meeting.
 
-:::image type="content" alt-text="Immersive spaces view selector in Teams View menu." source="media/meeting-immersive-spaces-view-selector.png" lightbox="media/meeting-immersive-spaces-view-selector.png":::
+In a Microsoft Teams meeting, select **View** > **Immersive space (3D)**.
+
+:::image type="content" source="media/meeting-immersive-spaces-view-selector-v2.png" alt-text="Screenshot of mmersive spaces view selector in Teams View menu.":::
 
 Use your avatar and join with a Meta Quest VR device to bring even more richness to the experience.  To learn more, [set up avatars for Microsoft Teams](meeting-avatars.md).
 
@@ -76,9 +78,9 @@ In addition to the endpoints above, Mesh also requires the following outgoing po
 
 - UDP ports 3478-3481
 
-Mesh traffic uses IP addresses in the AzureCloud service tag.
-
-For more information about service tags, see the [Virtual network service tags](/azure/virtual-network/service-tags-overview).
+> [!IMPORTANT]
+>Mesh traffic uses IP addresses in the AzureCloud service tag.
+>For more information about service tags, see the [Virtual network service tags](/azure/virtual-network/service-tags-overview).
 
 ## Disallow or allow the app
 
@@ -87,7 +89,7 @@ For more information about service tags, see the [Virtual network service tags](
 
 ## Create or edit app permission policy
 
-The Mesh app is by default allowed in the Teams admin center. If you want to allow or block the app for specific user groups, create or edit an app permission policy so that selected groups are allowed or blocked from the Mesh app.
+The **Mesh app is by default allowed in the Teams admin center**. If you want to allow or block the app for specific user groups, create or edit an app permission policy so that selected groups are allowed or blocked from the Mesh app.
 
 > [!NOTE]
 > It may be more complicated if the tenant already has different app permission policies for users or groups.

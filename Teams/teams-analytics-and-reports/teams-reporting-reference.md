@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams analytics and reporting
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 audience: Admin
 ms.topic: conceptual
@@ -64,6 +64,7 @@ We're continually improving the Teams reporting experience and adding features a
 |[Teams EHR connector Virtual Appointments report](/microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) |Yes|Yes|No|No| Start time<br>Duration<br>Primary (name of meeting organizer)<br>Primary's email (email of meeting organizer)<br>Department<br>Attendants<br>Lobby wait time<br>Whether the appointment is within the allocation limit|
 |[Walkie Talkie usage and performance report](walkie-talkie-usage-report.md) |Yes|Yes|No|No| Metrics include the number of push-to-talk (PTT) transmissions made and received, channel activity, transmission duration, and device and participant details.|
 |[SMS notifications usage report](/microsoft-365/frontline/sms-notifications-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) |Yes|No|No|No| Sent time <br> Sent from <br> SMS notification type <br> Product type <br> Status |
+|[New Teams usage report](../new-teams-usage-report.md)|Yes|Yes|No|No|An overview of the Teams client desktops in your organization|
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## Make the user specific data anonymous
@@ -71,7 +72,7 @@ We're continually improving the Teams reporting experience and adding features a
 To make the identifiable information in usage reports anonymous, you have to be a Global administrator. The Global administrator can hide identifiable information (using MD5 hashes) such as display name, group name, email, and Microsoft Entra user ID in the report and its export.
 
 1. In Microsoft 365 admin center, go to the **Settings** \> **Org Settings**, and under **Services** tab, choose **Reports**.
-    
+
 2. Select **Reports**, and then choose to **Display concealed user, group, and site names in all reports**. This setting gets applied both to the usage reports in Microsoft 365 admin center as well as Teams admin center.
   
 3. Select **Save changes**.

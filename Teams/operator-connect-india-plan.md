@@ -38,7 +38,7 @@ After reading this article, you'll also want to read:
 
 With Operator Connect for India:
 
-- **You'll need to acquire the appropriate Teams license from a licensed telecom operator in India (that is, your carrier).** This requirement must be met whether or not you have an existing Teams Phone license. For example, if you have a phone license included with an E5 license, you'll still need to purchase a license from your India operator.  
+- **You'll need to acquire the appropriate license from a licensed telecom operator in India (that is, your carrier).** This requirement must be met whether or not you have an existing Teams Phone license. For example, if you have a phone license included with an E5 license, you'll still need to purchase a license from your India operator.  
 
 - Support for Other Service Provider (OSP) with international telephone numbers is pending. (OSP deployments are typically used for call centers.)
 

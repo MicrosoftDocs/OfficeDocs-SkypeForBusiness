@@ -101,7 +101,7 @@ Users who participate in conversations that are part of the chat list in Teams m
 
 <sup>1</sup> If you have more than 20 people in a chat, the following chat features are turned off: Outlook automatic replies and Teams status messages; typing indicator; video and audio calling; sharing; read receipts. The "Set Delivery Options" button (!) is also removed when private group chats contain more than 20 members.
 
-<sup>2</sup> Only 200 members at a time can be added to a group chat. For more information, see [Error when sending messages to a group chat in Teams: Failed to send](/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat).
+<sup>2</sup> Only 200 members can be added to a group chat at the same time. 
 
 <sup>3</sup> If the number of attachments exceeds this limit, you'll see an error message.
 
@@ -175,7 +175,7 @@ For more information, see [Meetings, webinars, and live events](/microsoftteams/
 ## Live Events
   
 > [!NOTE]
-> Teams live events will be deprecated on September 30, 2024. We recommend that you use town halls instead. For details, see [Plan for Teams town halls](plan-town-halls.md).
+> Teams Live Events will no longer be deprecated on September 30, 2024, as previously announced. While we still recommend that customers upgrade to [Teams town hall](plan-town-halls.md) when ready to take advantage of new features and experiences, Live Events users can now schedule events beyond September 2024. For more information, please read our recent [blog post](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/extension-for-teams-live-events-retirement/ba-p/4148352).
 
 Live events are structured meetings that enable your organization to schedule and produce events that stream to large online audiences—up to 20,000 people. With live events, the audience interaction is a managed Q&A experience.
 

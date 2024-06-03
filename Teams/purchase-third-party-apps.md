@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
-ms.date: 06/27/2023
+ms.date: 02/12/2024
 ms.collection: 
   - M365-collaboration
 search.appverid: MET150
@@ -36,7 +36,7 @@ To purchase apps in Teams admin center, follow these steps:
 
 1. Search for the app that you want by its name. To check if the app offers a paid SaaS subscription, see the **Licenses** column. Each app has one of the following values:
     * **Purchase**: The app offers a SaaS subscription and is available to purchase.
-    * **Purchased**: The app offers a SaaS subscription and you've purchased licenses for it.
+    * **Purchased**: The app offers a paid SaaS subscription and you have the licenses for the app.
     * **- -**: The app doesn't offer a SaaS subscription.
 
 1. Select **Purchase** to go to the **Plans and pricing** tab of the app details page. You can review the plans and pricing information available in admin center. You can select **Learn more** link to go to the app's page on [AppSource](https://appsource.microsoft.com/).
@@ -56,12 +56,12 @@ To purchase apps in Teams admin center, follow these steps:
 
 1. Select **Set up** to activate your subscription on the app developer's website. If you don't set up your subscription after your purchase, you can do it later by selecting **Manage subscriptions**.
 
-After you've purchased the SaaS offer associated with the Teams app, you can view the following purchase details on the **Plans and subscriptions** tab of the app details page.
+After you purchase the SaaS offer associated with a Teams app, you can view the following purchase details on the **Plans and subscriptions** tab of the app details page.
 
 * **License activation date**: Date on which your license was activated.
-* **Licenses**: Number of licenses you purchased.
+* **Licenses**: Number of licenses you have.
 
-Select **Manage subscriptions** to view and manage the licenses you purchased.
+Select **Manage subscriptions** to view and manage the licenses you already have.
 
 Global Administrators can view the subscriptions purchased by anyone in the organization, but they can only add more licenses, remove licenses, and cancel subscriptions for purchases made by anyone in their billing account. Teams Administrators can perform the same actions for purchases made by them.
 
@@ -74,7 +74,7 @@ Global Administrators can view the subscriptions purchased by anyone in the orga
 ### Invoice billing
 
 * Invoice billing is available as a payment option for some transactions.
-* A credit review is required the first time you use invoice billing, which can take up to 24 to 48 hours for approval. Invoice billing won't be available until the credit check is complete. You can place your order with a credit card or try again later after your credit review is approved.
+* A credit review is required the first time you use invoice billing, which can take up to 24 to 48 hours for approval. Invoice billing isn't available until the credit check is complete. You can place your order with a credit card or try again later after your credit review is approved.
 * Invoice billing is only available for Global admins or an admin with both Teams service admin and Billing admin permissions.
 * Invoice billing isn't available when purchasing a plan with a 30-day free trial.
 
@@ -109,7 +109,7 @@ For more information for third-party app developers, see [Create a SaaS offer](/
 
 ## Manage app licenses in Teams admin center
 
-Microsoft Teams lets admins manage licenses for SaaS app offers thereby enabling admins to easily buy, assign, track, and remove SaaS app licenses purchased in Teams. It helps utilizing the available resources effectively.
+Microsoft Teams lets admins manage licenses for SaaS app offers. It enables admins to easily buy, assign, track, and remove SaaS app licenses purchased in Teams. It helps utilizing the available resources effectively.
 
 As an administrator, it's important to understand how licenses work and how to manage them effectively. For apps that are purchased with a set number of subscription licenses, you have to ensure that these licenses are being utilized properly.
 
@@ -123,7 +123,8 @@ You can perform the following tasks to manage the licenses:
 You can assign a license to one or more users in your tenant. To view and assign the licenses for an app:
 
 1. Sign in to the Teams admin center and go to **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
-1. Select the app of your choice to view the licenses. The app details page shows the number of licenses available for the app on the **Licenses** tab.
+
+1. To view the licenses, select an app. The app details page shows the number of licenses available for the app on the **Licenses** tab.
 
    :::image type="content" source="media/purchased-licenses.png" alt-text="Screenshot that shows the purchased licenses of an app."  lightbox="media/purchased-licenses1.png":::
 
@@ -147,9 +148,13 @@ To manage licenses across multiple users who are part of the same team, you can 
 
 1. Search and select the team, and select **Assign**.
 
-After you have assigned licenses to the users or team, you can view the list of assigned users. This list allows you to view who has been assigned licenses and which licenses are assigned.
+After you assign licenses to the users or team, you can view the list of assigned users. This list allows you to view a mapping of licenses and assigned users.
 
    :::image type="content" source="media/remove-licenses.png" alt-text="Screenshot that shows list of assigned users to remove the licenses." lightbox="media/remove-licenses1.png":::
+
+## Disable app purchases in Teams admin center
+
+To prevent users from purchasing third-party apps, you can disable purchases using the MSCommerce PowerShell module. You can view a list of applicable apps and whether self-service purchase is enabled or disabled, using `AllowSelfServicePurchase` parameter. For more information, see [Use AllowSelfServicePurchase to disable Teams app purchases](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell?view=o365-worldwide). The change applies to all users in your organization.
 
 ## Related articles
 

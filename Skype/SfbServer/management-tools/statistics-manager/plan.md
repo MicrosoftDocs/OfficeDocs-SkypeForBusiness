@@ -13,20 +13,20 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
-description: "Summary: Read this topic to learn about Statistics Manager for Skype for Business Server."
+description: "Summary: Read this article to learn about Statistics Manager for Skype for Business Server."
 ---
 
 # Plan for Statistics Manager for Skype for Business Server
 
-**Summary:** Read this topic to learn about Statistics Manager for Skype for Business Server.
+**Summary:** Read this article to learn about Statistics Manager for Skype for Business Server.
 
  Statistics Manager for Skype for Business Server is a powerful tool that allows you to view Skype for Business Server health and performance data in real time. You can poll performance data across hundreds of servers every few seconds, and view the results instantly on the Statistics Manager Website.
 
 You can use Statistics Manager to identify ongoing performance issues, view the results of a planned change to your environment, track resolution of outages, and much more. Out of the box, Statistics Manager is configured with Key Health Indicator (KHI) thresholds, and can be customized to suit your deployment's unique needs.
 
-You can deploy Statistics Manager in an on-premises deployment in which a single server hosts all of the server-side Statistics Manager components. For more information about deploying Statistics Manager, see [Deploy Statistics Manager for Skype for Business Server](deploy.md). If you already have an existing deployment of Statistics Manager, but you have not yet upgraded to Release 2.0, see [What's new in Release 2.0](plan.md#BKMK_WhatsNew) and [Upgrade Statistics Manager for Skype for Business Server](upgrade.md).
+You can deploy Statistics Manager in an on-premises deployment in which a single server hosts all of the server-side Statistics Manager components. For more information about deploying Statistics Manager, see [Deploy Statistics Manager for Skype for Business Server](deploy.md). If you already have an existing deployment of Statistics Manager, but you haven't yet upgraded to Release 2.0, see [What's new in Release 2.0](plan.md#BKMK_WhatsNew) and [Upgrade Statistics Manager for Skype for Business Server](upgrade.md).
 
-This topic contains the following sections:
+This article contains the following sections:
 
 - [Features and capabilities](plan.md#BKMK_Features)
 
@@ -45,9 +45,9 @@ This topic contains the following sections:
 
 Statistics Manager allows you to:
 
-- View raw data for all servers in real time. (Data is sampled at a very high rate and sent to the website in less than one second.)
+- View raw data for all servers in real time. (Data is sampled at a high rate and sent to the website in less than one second.)
 
-- View data that is aggregated for a specific role; for example, Front End Server, Mediation Server, Edge Server, and so on.
+- View data that is aggregated for a specific role; for example, Front End Server, Mediation Server, Microsoft Edge Server, and so on.
 
 - Drill down to view data for specific sites, specific pools within the site, and then specific servers within the pool.
 
@@ -63,7 +63,7 @@ Statistics Manager allows you to:
 
 - Compare data across multiple populations or servers.
 
-- View latent counter reports to identify agents that are not reporting current data to the dashboard service.
+- View latent counter reports to identify agents that aren't reporting current data to the dashboard service.
 
 - Save a particular instance of chart data to a file.
 
@@ -80,21 +80,21 @@ Statistics Manager allows you to:
 
 The following describes what's new in Release 2.0. If you have an existing deployment of Statistics Manager and you've not yet upgraded, see [Upgrade Statistics Manager for Skype for Business Server](upgrade.md).
 
-- Scenario views have been added for Edge Media, Fabric Health, Pool Failover and Registration scenarios.
+- Scenario views are added for Microsoft Edge Media, Fabric Health, Pool Failover and Registration scenarios.
 
-- Many new counters have been added for SQL servers, more Skype for Business usage counters, and so on.
+- Many new counters are added for SQL servers, more Skype for Business usage counters, and so on.
 
-- Watcher node integration for the Statistics Manager Agent - if the Agent is installed on a watcher node, it will report synthetic transaction statistics as counters back to Statistics Manager.
+- Watcher node integration for the Statistics Manager Agent - if the Agent is installed on a watcher node, it reports synthetic transaction statistics as counters back to Statistics Manager.
 
 - Numerous reliability and performance improvements.
 
-To verify the version of the Statistics Manager Website you are running:
+To verify the version of the Statistics Manager Website you're running:
 
 - In File Explorer, open (default directory) C:\Program Files\Skype for Business Server StatsMan WebSite\bin
 
 - Right click on StatsManHubWebSite.dll and view its properties
 
-- The product version will be shown in the Description details.
+- The product version is shown in the Description details.
 
 ## Components
 <a name="BKMK_Components"> </a>
@@ -123,7 +123,7 @@ The following diagram shows an on-premises deployment, in which the Statistics M
 ## Requirements
 <a name="BKMK_Requirements"> </a>
 
-You will need to consider the following software, networking, and hardware requirements before you deploy Statistics Manager.
+You'll need to consider the following software, networking, and hardware requirements before you deploy Statistics Manager.
 
 ### Software requirements
 
@@ -153,7 +153,7 @@ During installation, firewall ports for the Listener and the Website are automat
 
 ### Hardware requirements
 
-In an on-premises deployment, in which a single server hosts all of the server-side Statistics Manager components, a server with 16 GB of RAM and 4 CPU's should be able to support about 150 samples per second on average. To determine how many counters/agents you can support, use the following calculation:
+In an on-premises deployment, in which a single server hosts all of the server-side Statistics Manager components, a server with 16 GB of RAM and 4 CPUs should be able to support about 150 samples per second on average. To determine how many counters/agents you can support, use the following calculation:
 
 100 servers \*80 counters \* 1 sample per minute from each agent / 60 seconds = ~ 133 samples per second.
 

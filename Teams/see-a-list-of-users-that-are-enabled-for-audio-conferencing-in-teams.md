@@ -1,14 +1,15 @@
 ---
 title: See a list of users enabled for Audio Conferencing
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jenz
+author: jenzamora
 manager: pamgreen
 ms.reviewer: oscarr
-ms.date: 08/15/2018
+ms.date: 02/21/2024
 ms.topic: article
 ms.assetid: bd0cd155-4c6d-424d-a2c9-af7974a2d34c
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
@@ -28,14 +29,14 @@ description: "Learn how to view a list of users in your organization that are en
 
 # See a list of users that are enabled for Audio Conferencing in Microsoft Teams
 
-After you have enabled Microsoft Teams users in your organization for Audio Conferencing, you can view the list of those users who have been enabled.
+After you enable Microsoft Teams users in your organization for Audio Conferencing, you can view the list of those users who are enabled.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## Viewing a list of users
 
-- In the Microsoft Teams admin center, in the left navigation, click **Users**.
+- In the Microsoft Teams admin center, in the left navigation, select **Users**.
 
 ## What else should I know?
 
@@ -43,7 +44,7 @@ After you have enabled Microsoft Teams users in your organization for Audio Conf
 
 - When you select a single user, you can view the default phone number assigned to the user and any other relevant audio conferencing settings.
 
-- You can use the search button to search for an individual user in the list.
+- Use the search button to search for an individual user in the list.
 
 ## Run a Self-diagnostics tool
 
@@ -52,7 +53,7 @@ Microsoft 365 admin users have access to diagnostics that can be run within the 
 > [!NOTE]
 >This feature isn't available for Microsoft 365 Government, Microsoft 365 operated by 21Vianet, or Microsoft 365 Germany.
 
-Select Run Tests, as follows. This will populate the diagnostic in the Microsoft 365 Admin Center.
+Select Run Tests, as follows to populate the diagnostic in the Microsoft 365 Admin Center.
 >> [!div class="nextstepaction"]
 >> [Run Tests: Teams Conference](https://aka.ms/TeasConfDiag)
 
@@ -66,8 +67,8 @@ Windows PowerShell is all about managing users and what users are allowed or not
 
 - [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
-For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=teams-ps&preserve-view=true) for more information.
+For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](/powershell/module/teams/).
 
 ## Related topics
 
-[Try or purchase Audio Conferencing in Microsoft 365 or Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+- [Try or purchase Audio Conferencing in Microsoft 365 or Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

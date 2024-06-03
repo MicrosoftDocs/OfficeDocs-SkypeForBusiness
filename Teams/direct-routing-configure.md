@@ -31,12 +31,12 @@ Direct Routing enables you to connect your on-premises telephony infrastructure 
 
 For information about whether Direct Routing is the right solution for your organization, see [PSTN connectivity options](pstn-connectivity.md). For information about prerequisites and planning your deployment, see [Plan Direct Routing](direct-routing-plan.md).
 
-To complete the steps explained in this article, administrators need some familiarity with PowerShell cmdlets. For more information about using PowerShell, see [Set up your computer for Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
+To complete the steps explained in this article, administrators need some familiarity with PowerShell cmdlets. For more information about using PowerShell, see [Set up your computer for Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
 Before you perform the steps in these articles, Microsoft recommends that you confirm that your SBC has already been configured as recommended by your SBC vendor:
 
 - [AudioCodes deployment documentation](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
-- [Oracle deployment documentation](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
+- [Oracle deployment documentation](https://www.oracle.com/communications/partner-microsoft/)
 - [Ribbon Communications deployment documentation](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
 - [TE-Systems (anynode) deployment documentation](https://www.anynode.de/anynode-and-microsoft-teams/)
 - [Metaswitch deployment documentation](https://www.metaswitch.com/products/core-network/perimeta-sbc)

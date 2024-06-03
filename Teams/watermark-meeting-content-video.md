@@ -1,7 +1,7 @@
 ---
 title: Require a watermark for sensitive Teams meetings
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
@@ -39,7 +39,7 @@ The following participants have an audio-only experience when a watermark is in 
 - [Direct Guest Join on Microsoft Teams Rooms devices](/microsoftteams/rooms/third-party-join)
 - [Cloud Video Interop (CVI)](cloud-video-interop.md). Check with your CVI partner for watermark support information.
 
-> [!Note]
+> [!NOTE]
 > Meeting settings in sensitivity labels, custom meeting templates, and watermarks require Teams Premium.
 
 Meeting watermarks are enabled in the Teams admin center. They can then be added by the meeting organizer (the organizer must have a Teams Premium license) or enforced by a template or sensitivity label.
@@ -52,8 +52,6 @@ The following table shows where watermarks are configured:
 |Apply a watermark to everyone's video feed|Yes|Yes|Yes|Yes|
 
 When a watermark is being used in a meeting, the following features are turned off:
-
-- Meeting recording, including automatic recording and who can record
 
 - Large gallery
 
@@ -73,13 +71,19 @@ Since watermarks are designed to reduce the chances that confidential informatio
 
 For information about using watermarks with other meeting features to help protect confidential information in meetings, see [Configure Teams meetings with protection for highly sensitive data](/microsoftteams/configure-meetings-highly-sensitive-protection).
 
+## Meeting recordings
+
+If a meeting with a watermark is recorded, the watermark is applied at playback time by Microsoft Stream. Viewers of the recording see their own email address as a watermark on the video. If the recording file is edited or moved, the watermark won't be available at playback time.
+
+By default, download of the meeting recording (.mp4) file is disabled for recordings of meetings with a watermark. However, the person who recorded the meeting can change that permission. Downloaded .mp4 files don't contain a watermark.
+
 ## Configure watermarks
 
 For watermarks to be available to the meeting organizer, they must be enabled in the Teams admin center. (Watermarks are enabled by default.) Note that sensitivity labels can enforce watermarks even if they're turned off for the meeting organizer in the Teams admin meeting policy.
 
 To configure watermarking for meetings
 
-1. In the Teams admin center, expand **Meetings** and select **Meeting policies**.
+1. In the Teams admin center, expand **Meetings** and select **Meeting policies** > **Content Protection**.
 
 1. Select the policy you want to update.
 
@@ -87,13 +91,11 @@ To configure watermarking for meetings
 
 1. To configure watermark on content shared on screen in a meeting, set **Watermark shared content** to **On** or **Off**.
 
-    :::image type="content" alt-text="Screenshot of Teams admin policy for watermarks" source="media/watermark-admin-policy.png":::
-
 1. To set the watermark pattern or transparency, or see a preview, select **Edit settings**. Select **Apply** if you make changes.
 
 1. Select **Save**.
 
-You can also enable or disable watermarks by using PowerShell. Use the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet with the `-AllowWatermarkForCameraVideo` and `-AllowWatermarkForScreenSharing` parameters.
+You can also enable or disable watermarks by using PowerShell. Use the [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet with the `-AllowWatermarkForCameraVideo` and `-AllowWatermarkForScreenSharing` parameters.
 
 For example:
 

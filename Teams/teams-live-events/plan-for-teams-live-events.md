@@ -1,13 +1,13 @@
 ---
 title: Plan for live events in Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: 
-ms.date: 09/11/2018
+ms.reviewer: christi.balaki
+ms.date: 01/16/2024
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -18,7 +18,7 @@ ms.collection:
 - enabler-strategic
 - highpri
 search.appverid: MET150
-description: In this article, you'll learn about the factors to consider before you set up live events in Microsoft Teams.
+description: In this article, learn about the factors to consider before you set up live events in Microsoft Teams.
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-apr2020
@@ -27,7 +27,7 @@ ms.custom: seo-marvel-apr2020
 # Plan for live events in Microsoft Teams
 
 > [!NOTE]
-> Teams live events will be deprecated on September 30, 2024. We recommend that you use town halls instead. For details, see [Plan for Teams town halls](/microsoftteams/plan-town-halls).
+> Teams Live Events will no longer be deprecated on September 30, 2024, as previously announced. While we still recommend that customers upgrade to [Teams town hall](../plan-town-halls.md) when ready to take advantage of new features and experiences, Live Events users can now schedule events beyond September 2024. For more information, please read our recent [blog post](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/extension-for-teams-live-events-retirement/ba-p/4148352).
 
 When you're planning Teams live events to hold large meetings in your organization, there are several factors that you need to consider before starting the setup.
 
@@ -51,7 +51,7 @@ Here are the licenses that must be assigned to organize, produce or present a Te
 > [!NOTE]
 > At this time there aren't any Microsoft 365 Small Business plans that can be used to create and hold Teams live events.
 
-It's important to know that a Microsoft 365 or Office 365 license is required to participate in a live event as an authenticated user, but this requirement depends on the production method used:
+To participate in a live event as an authenticated user, a Microsoft 365 or Office 365 license is required. This requirement depends on the production method used:  
 
 - **For events produced in Teams or using a Teams Powered Encoder**  The user must be assigned a Teams license.
 
@@ -79,7 +79,7 @@ For a guest to present in a live event, do the following tasks:
 2. Have the user accept the guest invitation and join the team.
 3. [Schedule the live event and add the guest to your event group](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
-As a best practice, we recommend that you create a channel for producers and presenters of the live event so they can chat and share information before the event. Guests who don't have Microsoft 365 credentials won't see the Calendar in Teams. To make it easy for them to join the event, producers can post the event link to the channel. Presenters can then open Teams, go to the channel, and then select the link to join the event.
+As a best practice, we recommend that you create a channel for producers and presenters of the live event so they can chat and share information before the event. Guests who don't have Microsoft 365 credentials don't see the Calendar in Teams. To make it easy for them to join the event, producers can post the event link to the channel. Presenters can then open Teams, go to the channel, and then select the link to join the event.
 
 ## Who can watch live events
 
@@ -134,7 +134,7 @@ The following table highlights core capabilities and features offered in live ev
 |Captions in live event recordings |&#x2714; |&#x2714; |
 |Attendee DVR controls (pause, rewind) |&#x2714; |&#x2714; |
 |Microsoft eCDN |&#x2714; |&#x2714; |
-|Partner eCDN Support |&#x2714; (Kollective, Hive, Ramp, Riverbed) |&#x2714; (Hive, Kollective, Ramp, Riverbed) |
+|Partner eCDN Support |&#x2714; (Hive, Kollective, Ramp, Riverbed) |&#x2714; (Hive, Kollective, Ramp, Riverbed) |
 |Post-broadcast attendance report for Producers |&#x2714; |&#x274C; |
 |Audience Sentiment Analysis – Live voting & polls |&#x274C; |&#x274C; |
 
@@ -166,6 +166,7 @@ You can use Teams live events in multiple regions across the world. The followin
 - India
 - Japan
 - Norway
+- Poland
 - Singapore
 - South Africa
 - South Korea
@@ -175,7 +176,7 @@ You can use Teams live events in multiple regions across the world. The followin
 
 **Exclusions and considerations**
 
-- **Data location:** Teams data locations, outside of the ones listed above, aren't currently supported.
+- **Data location:** Teams data locations, outside of the ones listed, aren't currently supported.
 
 ## Next steps
 
