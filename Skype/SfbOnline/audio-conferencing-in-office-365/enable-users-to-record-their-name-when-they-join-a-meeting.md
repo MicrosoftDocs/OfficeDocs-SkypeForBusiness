@@ -31,7 +31,7 @@ description: "Learn how to enable or disable whether your users can record their
 > [!Note]
 > If you want to allow users to record their names in Teams, see [Enable users to record their name when they join a meeting in Microsoft Teams](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams).
 
-When you are setting up Audio Conferencing in Microsoft 365 or Office 365, you will receive phone numbers and what is called an audio conferencing bridge. A conferencing bridge can contain one or more phone numbers that can be a dedicated or shared phone number.
+When you're setting up Audio Conferencing in Microsoft 365 or Office 365, you'll receive phone numbers and what is called an audio conferencing bridge. A conferencing bridge can contain one or more phone numbers that can be a dedicated or shared phone number.
   
 The conferencing bridge answers a call for a user who is dialing in to a meeting using a phone. The conferencing bridge answers the caller with voice prompts from an auto attendant, and then, depending on their settings, can play notifications, ask callers to record their name, and set up the PIN security for meeting organizers. PINs are given to meeting organizers to allow them to start a meeting. However, you can set it up so a PIN isn't required to start a meeting.
 
@@ -41,7 +41,7 @@ The conferencing bridge answers a call for a user who is dialing in to a meeting
     
 2. Under **Meeting join experience**, see the check box labeled **Enable meeting entry and exit notifications to be turned on**.
     
-   - **Selected** Callers will be asked to record their name before they enter the meeting. This is selected by default.
+   - **Selected** Callers are asked to record their name before they enter the meeting. This is selected by default.
     
    - **Cleared** Callers won't be asked to record their name before they enter the meeting.
     
