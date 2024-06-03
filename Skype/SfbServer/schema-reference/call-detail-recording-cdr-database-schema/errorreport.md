@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: ae0287b4-e8ca-4f8c-84ef-502897dcaa2a
-description: "The ErrorReport table stores information about errors that have occurred. Each record is one error occurrence. The errors are captured either by the CDR agent running on the front-end server or sent from the client."
+description: "The ErrorReport table stores information about errors that have occurred. Each record is one error occurrence. The error is captured either by the CDR agent running on the front-end server or sent from the client."
 ---
 
 # ErrorReport table in Skype for Business Server 2015
  
-The ErrorReport table stores information about errors that have occurred. Each record is one error occurrence. The errors are captured either by the CDR agent running on the front-end server or sent from the client.
+The ErrorReport table stores information about errors that have occurred. Each record is one error occurrence. The error is captured either by the CDR agent running on the front-end server or sent from the client.
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
 |**ErrorTime** <br/> |datetime  <br/> |Primary  <br/> |Date and time the error occurred.  <br/> |
-|**ErrorReportSeq** <br/> |int  <br/> |Primary  <br/> |ID number to identify the error report. Used in conjunction with **ErrorTime** to uniquely identify an error report. <br/> |
-|**ErrorId** <br/> |int  <br/> |Foreign  <br/> |Unique ID of the error type. See the [ErrorDef table in Skype for Business Server 2015](errordef.md) for more information. <br/> |
-|**FromUserId** <br/> |int  <br/> |Foreign  <br/> |User who originated the request that caused the error. See the [Users table](users.md) for more information. <br/> |
-|**ToUserId** <br/> |int  <br/> |Foreign  <br/> |Destination user for the request that caused the error. See the [Users table](users.md) for more information. <br/> |
-|**ConferenceUriId** <br/> |int  <br/> |Foreign  <br/> |Conference URI related to the error. See the [ConferenceUris table in Skype for Business Server 2015](conferenceuris.md) for more information. Typically, if ConferenceUriId is not null, then either FromUserId or ToUserId will be null. <br/> |
+|**ErrorReportSeq** <br/> |int  <br/> |Primary  <br/> |ID number to identify the error report. Used with **ErrorTime** to uniquely identify an error report. <br/> |
+|**ErrorId** <br/> |int  <br/> |Foreign  <br/> |Unique ID of the error type. For more information, see the [ErrorDef table in Skype for Business Server 2015](errordef.md). <br/> |
+|**FromUserId** <br/> |int  <br/> |Foreign  <br/> |User who originated the request that caused the error. For more information, see the [Users table](users.md). <br/> |
+|**ToUserId** <br/> |int  <br/> |Foreign  <br/> |Destination user for the request that caused the error. For more information, see the [Users table](users.md). <br/> |
+|**ConferenceUriId** <br/> |int  <br/> |Foreign  <br/> |Conference URI related to the error. For more information, see the [ConferenceUris table in Skype for Business Server 2015](conferenceuris.md). Typically, if ConferenceUriId isn't null, then either FromUserId or ToUserId is null. <br/> |
 |**SessionIdTime** <br/> |datetime  <br/> |Foreign  <br/> |Used in conjunction with **SessionIdSeq** to uniquely identify a session. See the [Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Foreign  <br/> |ID number to identify the session. Used in conjunction with **SessionIdTime** to uniquely identify a session. See the [Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. <br/> |
 |**SourceId** <br/> |int  <br/> |Foreign  <br/> |Server that sent the error report (if the report is being sent from a server component). See the [Servers table](servers.md) for more information. <br/> This field was introduced in Microsoft Lync Server 2013.  <br/> |
