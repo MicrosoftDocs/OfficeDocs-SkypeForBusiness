@@ -12,12 +12,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 1a7b2e59-082e-4188-98ae-48ae9bd3494a
-description: "The Media view stores information about one media type used in a peer-to-peer session. One session would be represented by multiple records in the table, if more than one media type is used. This view was introduced in Microsoft Lync Server 2013."
+description: "The Media view stores information about one media types used in a peer-to-peer session. One session is represented by multiple records in the table, if more than one media type is used. This view was introduced in Microsoft Lync Server 2013."
 ---
 
 # Media view
  
-The Media view stores information about one media type used in a peer-to-peer session. One session would be represented by multiple records in the table, if more than one media type is used. This view was introduced in Microsoft Lync Server 2013.
+The Media view stores information about one media types used in a peer-to-peer session. One session is represented by multiple records in the table, if more than one media type is used. This view was introduced in Microsoft Lync Server 2013.
   
 > [!NOTE]
 > The Media view should not be used to calculate the media duration for a session. This view contains the signaling details of media exchange in a session. Media exchange is done by the INVITE request, and StartTime indicates the time that the INVITE was sent out. The invite time does not necessarily mean the media start time, because media starts only after the session is accepted. 
