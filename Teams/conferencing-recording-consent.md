@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
 ms.reviewer: simonibssa
-ms.date: 04/04/2024
+ms.date: 6/3/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -28,9 +28,9 @@ description: Learn how to manage Explicit recording consent for Audio Conferenci
 
 # Explicit recording consent for Audio Conferencing
 
-Explicit recording consent for Microsoft Teams Audio Conferencing lets you, as an admin, control whether meetings created by organizers with this policy can require participants to explicitly consent to being recorded. When the explicit recording policy is enabled, all participants are muted once the meeting recording starts.  
+Explicit recording consent for Microsoft Teams Audio Conferencing lets you, as an admin, control whether meetings created by organizers with this policy can require participants to explicitly consent to being recorded.
 
-When a participant decides to unmute, they’re prompted to provide consent. Participants can consent to be recorded by selecting controls on their dial pad.  
+When the explicit recording policy is enabled, all participants are muted once the meeting recording starts. Once a participant decides to unmute, they’re prompted to provide consent. To consent to be recorded, participants can select controls on their dial pad.
 
 ## Recording types
 
@@ -42,11 +42,9 @@ Explicit recording consent includes two recording types:
 
 ## Configure explicit recording consent for Audio Conferencing
 
-You must use PowerShell to configure explicit recording consent for users or groups in your organization. You must have PowerShell installed on your machine to manage this policy. For instructions on installing PowerShell on Windows, Mac, or Linux for the first time, see [Install PowerShell on Windows, Linux, and macOS - PowerShell](/powershell/scripting/install/installing-powershell).
+You must use PowerShell to configure explicit recording consent for users or groups in your organization. PowerShell must be installed on your machine to manage this policy. For instructions on installing PowerShell on Windows, Mac, or Linux for the first time, see [Install PowerShell on Windows, Linux, and macOS - PowerShell](/powershell/scripting/install/installing-powershell).
 
 For cmdlets to enable explicit recording consent for Audio Conferencing, see [Manage explicit recording consent through PowerShell](meeting-recording.md#manage-explicit-recording-consent-through-powershell).
-
-To learn about managing channel meeting recording downloads, recording expiration, setting custom privacy policy URLs, and more, see [Teams meeting recording](meeting-recording.md).
 
 ## Recording consent dial pad controls
 
