@@ -35,13 +35,14 @@ For performance reasons the **Skype for Business admin center**displays the firs
 
 1. Select the first 1,000 users—or everyone returned by your filter or search—by checking the box next to **Display name** at the top of the list.
     
-2. Click **Edit**![Edit.](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
+2. Select **Edit**![Edit.](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
     
 You can change the number of users shown on each page with the control at the bottom of the list:
   
 ![Users page navigation for changing the amount of users on the page.](../images/7d8ba24e-e3e8-4ff8-92f7-98ac143aab6d.png)
   
-## Related topics
+## Related articles
+
 [Set up Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md)
