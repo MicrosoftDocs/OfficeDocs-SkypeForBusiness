@@ -1,11 +1,12 @@
 ---
 title: Plan for Operator Connect Conferencing
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jenz
+author: jenzamora
 manager: pamgreen
-ms.date: 10/28/2021
+ms.date: 02/22/2024
 ms.topic: article
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 audience: admin
 ms.collection: 
   - M365-voice
@@ -28,7 +29,7 @@ appliesto:
 
 # Plan for Operator Connect Conferencing
 
-Microsoft Audio Conferencing provides the ability to dial into a conference and dial out from a conference using Public Switched Telephone Network (PSTN) phone numbers.  Participants join Microsoft Teams meetings using an audio-only conferencing bridge.
+Microsoft Audio Conferencing allows users to dial into a conference and dial out from a conference using Public Switched Telephone Network (PSTN) phone numbers. Participants join Microsoft Teams meetings using an audio-only conferencing bridge.
 
 With Operator Connect Conferencing capabilities, organizations can use phone numbers from a third-party operator to join Microsoft Teams meetings. If your current operator is part of the Microsoft Operator Connect program, you can add phone numbers from your operator to your Audio Conferencing bridge and use them to join meetings.
 
@@ -96,7 +97,7 @@ For more information, see [**Configure Operator Connect Conferencing**](operator
 >[!Note]
 >Meeting participants don't require an Audio Conferencing Standard Subscription license or an Operator Connect Conferencing license to join a meeting organized by a user with Operator Connect Conferencing capabilities.
 
-With Operator Connect Conferencing, Microsoft bills your organization according to the type of Audio Conferencing license used by your organization, Microsoft Audio Conferencing or Operator Connect Conferencing, and the use of any phone numbers provided by Microsoft.
+With Operator Connect Conferencing, Microsoft bills your organization based on the type of Audio Conferencing license and the use of provided phone numbers.
 
 Your operator bills your organization for the use of Operator Connect Conferencing numbers they provide.
 

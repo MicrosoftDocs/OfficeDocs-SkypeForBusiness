@@ -3,12 +3,13 @@ title: Use Microsoft Teams administrator roles to manage Teams
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.date: 09/19/2018
+ms.date: 04/17/2024
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
   - M365-collaboration
+  - essentials-manage
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -33,9 +34,6 @@ Using Microsoft Entra ID, you can designate administrators who need different le
 
 There are several Teams admin roles available: Teams administrator, Teams communications administrator, Teams communications support specialist, Teams communications support engineer, and Teams Device Administrator. Review the following table to understand what each role can do and which tools the admin can use in the Microsoft Teams admin center and PowerShell.
 
-> [!NOTE]
-> Skype for Business Online Admins can manage both **Teams** and **Skype for Business Online** app policies through PowerShell.
-
 To follow along, you must be an admin. The instructions for getting the permissions are in this article.
 
 <!-- add Global admin role? -->
@@ -47,8 +45,9 @@ To follow along, you must be an admin. The instructions for getting the permissi
 | Teams Communications Support Engineer   | Troubleshoot communications issues within Teams by using **advanced** tools. | View user profile page and troubleshoot user call quality problems using advanced troubleshooting toolset.<sup>2</sup> <br><br> Access, monitor, and troubleshoot tenant's call quality and reliability using data exposed in Call Quality Dashboard (CQD) down to the users who are impacted by poor call quality. |
 | Teams Communications Support Specialist | Troubleshoot communications issues within Teams by using **basic** tools.    | Access user profile page for troubleshooting calls in Call Analytics. Can only view user information for the specific user being searched for.<sup>2</sup> <br><br> Access, monitor, and troubleshoot tenant's call quality and reliability using data exposed in Call Quality Dashboard (CQD). |
 | Teams Device Administrator              | Manage devices configured for use with the Teams service.                    | Manage device configuration and updates, review device health and status of connected peripherals, set up and apply configuration profiles, and restart devices.<p>The Teams Device Administrator role doesn't provide access to call quality data or call analytics. To view call quality data or call analytics, you need to be assigned the Teams Communications Administrator role. |
+| Teams Telephony Administrator | Manage Telephony features in Teams services | Manage voice and telephony, including calling policies, phone number management and assignment, and voice applications. <br><br>Access to Public Switched Telephone Network (PSTN) usage reports from Teams admin center. <br><br>View user profile page. <br><br>Create and manage support tickets in Azure and the Microsoft 365 admin center. |
 
-<sup>1</sup> [PowerShell - Microsoft Teams module](https://www.powershellgallery.com/packages/MicrosoftTeams/) (The public release 1.1.6 or later is integrated with Skype for Business Online Connector.)<br>
+<sup>1</sup> [PowerShell - Microsoft Teams module](https://www.powershellgallery.com/packages/MicrosoftTeams/) <br>
 <sup>2</sup> [Microsoft Teams admin center](./manage-teams-skypeforbusiness-admin-center.md)
 <sup>3</sup> Teams administrator account must have a valid Teams license.
 <!-- <sup>3</sup> Microsoft Entra admin center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
@@ -60,11 +59,11 @@ For more information about limits, specifications, and other requirements that a
 
 ## Assign users to each role
 
-You can assign users to these roles in Microsoft Entra ID. To learn how to assign administrative roles to a user in Microsoft Entra ID, see [Assign a user to administrator roles in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).
+You can assign users to these roles in Microsoft Entra ID. To learn how to assign administrative roles to a user in Microsoft Entra ID, see [Assign user roles with Microsoft Entra ID](/entra/fundamentals/users-assign-role-azure-portal).
 
 ## Cmdlets available for each role
 
-Most of the PowerShell tools for these admin roles live in the Teams PowerShell module, and it's important to note that some of the cmdlets that these admin roles have access to control shared settings that are also used for Skype for Business Online. 
+Most of the PowerShell tools for these admin roles live in the Teams PowerShell module. 
 
 To view the full list of cmdlets:
 

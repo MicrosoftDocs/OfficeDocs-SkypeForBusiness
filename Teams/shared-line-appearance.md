@@ -1,10 +1,10 @@
 ---
 title: "Shared line appearance in Microsoft Teams"
-author: CarolynRowe
-ms.author: crowe
+author: mkbond007
+ms.author: mabond
 manager: pamgreen
 ms.date: 02/19/2019
-ms.reviewer: jenstr
+ms.reviewer: roykuntz, guptaashish
 ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -42,21 +42,21 @@ When a delegate makes an outbound PSTN call on behalf of a delegator, the delega
 Managers and delegates must have a Teams Phone license. Managers must have a phone number assigned, PSTN connectivity, and a required license for PSTN connectivity: Calling Plan, Operator Connect, or Direct Routing. The shared line experience is part of delegation and is included with Teams Phone. For more information on licensing, see [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
 
 > [!NOTE]
-> A delegate without a phone number assigned must be EnterpriseVoiceEnabled using the Teams PowerShell cmdlet Set-CsPhoneNumberAssignment -Identity \<user\> -EnterpriseVoiceEnabled $true, see [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment).
+> A delegate without a phone number assigned must be EnterpriseVoiceEnabled using the Teams PowerShell cmdlet Set-CsPhoneNumberAssignment -Identity \<user\> -EnterpriseVoiceEnabled $true, see [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment). If a Dial Pad shows in the Calls App of the Delegate, they are correctly configured for Enterprise Voice.  
 
 ## Shared line appearance feature availability
 
-Shared line appearance is currently supported by the following apps and devices.
+The following apps and devices currently support shared line appearance:
 
-| Capability | Teams Desktop | Teams Mac App | Teams Web App (Edge) |Teams mobile iOS/Android App | Teams IP phone |
-|------------|---------------|---------------|----------------------|-----------------------------|----------------|
-| Set up delegation | Yes | Yes | Yes | No | Yes |
+| Capability | Teams Desktop | Teams Mac App | Teams Web App (Edge) | Teams mobile iOS/Android App | Teams IP phone |
+|--|--|--|--|--|--|
+| Set up delegation | Yes | Yes | Yes | Yes | Yes |
 | Receive calls on behalf of another | Yes | Yes | Yes | Yes | Yes |
 | Call a phone number on behalf of another | Yes | Yes | Yes | Yes | Yes |
 | Call a Teams user on behalf of another | Yes | Yes | Yes | Yes | Yes |
-| See the delegate view of shared lines | Yes | Yes | Yes | No | Yes |
+| See the delegate view of shared lines | Yes | Yes | Yes | Yes | Yes |
 | See the delegate view of manager's call activities | Yes | Yes | Yes | No | Yes |
-| See the manager view of delegates | Yes | Yes | Yes | No | Yes |
+| See the manager view of delegates | Yes | Yes | Yes | Yes | Yes |
 | Delegate or manager can hold or resume | Yes | Yes | Yes | No | Yes |
 
 ## Limitations
@@ -69,7 +69,7 @@ Circular delegation configuration isn't permitted. If the delegated users also h
 
 ## Enable delegation and shared line appearance
 
-You enable delegation by using the **TeamsCallingPolicy AllowDelegation** setting. You can use Teams admin center or Teams PowerShell.
+You enable delegation by using the **TeamsCallingPolicy AllowDelegation** setting. You can use Teams admin center or Teams PowerShell. This setting is turned on by default.
 
 When enabled, the end user can configure their delegation relationships directly in Teams.
 
@@ -78,7 +78,15 @@ When enabled, the end user can configure their delegation relationships directly
 
 ## Use Teams admin center
 
-To configure delegation and shared line appearance by using Teams admin center, see [Configure call forwarding and delegation settings](/MicrosoftTeams/user-call-settings).
+To configure delegation and shared line appearance:
+
+1. In the navigation menu of the Microsoft Teams admin center, select **Voice** > **Calling policies**.
+
+1. Choose the policy you would like to update or select **Add** to create a new policy.
+
+1. Toggle **Delegation for inbound and outbound calls** on.  
+
+1. Select **Save**.
 
 ## Use PowerShell
 
@@ -114,10 +122,10 @@ Remove-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso
 
 ## More information
 
-[Share a phone line with a delegate](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)
+[Share a phone line with a delegate](https://support.office.com/article/16307929-a51f-43fc-8323-3b1bf115e5a8)
 
-[Teams calling policy](/MicrosoftTeams/teams-calling-policy)
+[Configure Teams calling policy](/MicrosoftTeams/teams-calling-policy)
 
-[New-CsTeamsCallingPolicy](/powershell/module/skype/new-csteamscallingpolicy)
+[New-CsTeamsCallingPolicy](/powershell/module/teams/new-csteamscallingpolicy)
 
-[Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
+[Set-CsTeamsCallingPolicy](/powershell/module/teams/set-csteamscallingpolicy)

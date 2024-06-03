@@ -23,7 +23,7 @@ description: "Skype for Business Server Planning Tool"
  
 Skype for Business Server Planning Tool
   
-You can use the **Central Sites** page of the Planning Tool to design the Skype for Business Server deployment. You can create two either a centralized or distributed deployment. A centralized deployment only has one central site, which homes all Skype for Business users in your organization. A distributed deployment has more than one central site. If you deploy Skype for Business Server at multiple central sites, then you will enter the number of users at each central site in the Planning Tool.
+You can use the **Central Sites** page of the Planning Tool to design the Skype for Business Server deployment. You can create two either a centralized or distributed deployment. A centralized deployment only has one central site, which homes all Skype for Business users in your organization. A distributed deployment has more than one central site. If you deploy Skype for Business Server at multiple central sites, then you enter the number of users at each central site in the Planning Tool.
   
 To complete the definition of the central site, you first need to provide the following information:
   
@@ -59,7 +59,7 @@ The remaining elements have either been populated with the answers you provided 
     
 - **Persistent Chat**
     
-    Persistent Chat enables multiple users to participate in conversations in which they post and access content about specific topics, including text, links, and files. Although users can communicate in real time during a session, the content of each session is persistent, which means it continues to be available after a session ends.
+    Persistent Chat enables multiple users to participate in conversations in which they post and access content about specific articles, including text, links, and files. Although users can communicate in real time during a session, the content of each session is persistent, which means it continues to be available after a session ends.
 
     > [!NOTE] 
     > Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Skype for Business to Microsoft Teams upgrade](/MicrosoftTeams/upgrade-start-here). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.
@@ -78,7 +78,7 @@ The remaining elements have either been populated with the answers you provided 
     
 - **Federation with XMPP-based service provider**
     
-    Skype for Business Server 2015 introduced a fully integrated XMPP proxy (deployed on the Edge Servers) and an XMPP gateway deployed on your Front End Servers. You can deploy Adding and configuring the XMPP proxy and XMPP gateway will allow your Skype for Business Server users to add contacts from XMPP-based partners for instant messaging (IM) and presence.
+    Skype for Business Server 2015 introduced a fully integrated XMPP proxy (deployed on the Microsoft Edge Servers) and an XMPP gateway deployed on your Front End Servers. You can deploy Adding and configuring the XMPP proxy and XMPP gateway allows your Skype for Business Server users to add contacts from XMPP-based partners for instant messaging (IM) and presence.
     
 - **Mobility**
     

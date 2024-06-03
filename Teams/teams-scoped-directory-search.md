@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
-ms.date: 10/05/2018
+ms.date: 02/23/2024
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
@@ -38,13 +38,18 @@ If using either option, you must turn on search by name in the Teams admin cente
 
 We recommend using information barriers if your organization meets the [required licenses and permissions](/microsoft-365/compliance/information-barriers#required-licenses-and-permissions).
 
-To turn on search by name
+> [!NOTE]
+> Information barriers V1 and address book policies are automatically respected for people search in all people search entry points in new Teams client when configured. There's no need to enable this setting to hide users in search.
+
+To turn on search by name:
 
 1. In the Microsoft Teams admin center, select **Teams** > **Teams settings**.
 
 1. Under **Search by name**, next to **Scope directory search using an Exchange address book policy**, turn the toggle **On**.
 
-> [!Note]
+> [!NOTE]
 > It may take a few hours for this change to take effect.
-> 
+>
 > Turning on search by name hides the **Search teams** box and public teams listing in **Join or create a team** in Teams. It will also disable joining a team by typing `/join` in the command box at the top of Teams.
+
+When **Scope directory search using an Exchange address book** policy is turned on, all accounts that are marked as hidden in Exchange won't show up in Teams searches.

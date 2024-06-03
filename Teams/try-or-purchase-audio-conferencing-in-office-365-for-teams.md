@@ -1,14 +1,15 @@
 ---
 title: Try or purchase Audio Conferencing in Microsoft 365 for Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jenz
+author: jenzamora
 manager: pamgreen
 ms.reviewer: oscarr
-ms.date: 11/28/2017
+ms.date: 02/21/2024
 ms.topic: article
 ms.assetid: d080bb8c-3465-47bb-ad2b-9428f1a3fd24
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
@@ -24,12 +25,12 @@ ms.custom:
   - Audio Conferencing
   - ms.lync.lac.CpcGettingStarted
   - seo-marvel-mar2020
-description: See how to try or purchase Audio Conferencing (PSTN conferencing) licenses for Microsoft 365 or Office 365 to set up conference calls that people can dial in to. 
+description: Learn how to try or purchase Audio Conferencing (PSTN conferencing) licenses for Microsoft 365 or Office 365 to set up conference calls that people can dial in to. 
 ---
 
 # Try or purchase Audio Conferencing in Microsoft 365 for Microsoft Teams
 
-Sometimes people in your organization will need to use a phone to call in to a meeting. Microsoft Teams includes the Audio Conferencing feature for just this situation! People can call in to Microsoft Teams meetings using a phone, instead of using the Microsoft Teams app on a mobile device or PC.
+Sometimes people in your organization need to use a phone to call in to a meeting. Microsoft Teams includes the Audio Conferencing feature for just this situation! People can call in to Microsoft Teams meetings using a phone, instead of using the Microsoft Teams app on a mobile device or PC.
 
 You only need to set up audio conferencing for people who plan to schedule or lead meetings. Meeting attendees who call in to the meeting don't need any licenses assigned to them and don't need other setup.
 
@@ -41,7 +42,7 @@ You must be a [global administrator or billing administrator](https://support.of
 
 ### To buy and assign user Audio Conferencing licenses
 
-1. Find out if **Audio Conferencing** is available in your country/region. [Countries and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+1. Find out if **Audio Conferencing** is available in your country/region. [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
 2. Get your **Audio Conferencing** licenses. If you want to:
 
@@ -55,11 +56,11 @@ You must be a [global administrator or billing administrator](https://support.of
 
 ### To buy and assign pay-per-minute Audio Conferencing licenses
 
-If you're a Volume and Licensing customer, you can get pay-per-minute Audio Conferencing licenses. For additional information on pay-per-minute Audio Conferencing licenses, see [Audio Conferencing pay-per-minute](audio-conferencing-pay-per-minute.md).
+If you're a Volume and Licensing customer, you can get pay-per-minute Audio Conferencing licenses. For more information on pay-per-minute Audio Conferencing licenses, see [Audio Conferencing pay-per-minute](audio-conferencing-pay-per-minute.md).
   
 1. Find out if **Audio Conferencing** is available in your country/region. [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-2. Get your **Audio Conferencing** licenses. To acquire pay-per-minute licenses, please contact your account representative.
+2. Get your **Audio Conferencing** licenses. To acquire pay-per-minute licenses, contact your account representative.
 
 3. [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md) for your organization. To set up Communications Credits, see [What are Communications Credits?](what-are-communications-credits.md)
 
@@ -73,17 +74,17 @@ If you're a Volume and Licensing customer, you can get pay-per-minute Audio Conf
 
 ## Step 2: Set the audio conferencing provider for people who lead or schedule meetings
 
-When you assign an **Audio Conferencing** license to people in your organization who don't have Teams integrated with a 3rd party audio conferencing provider, they are all set up and ready to go! (You don't have to set their audio conferencing provider.)
+When you assign an **Audio Conferencing** license to people in your organization who don't have Teams integrated with a third party audio conferencing provider, they're all set up and ready to go! (You don't have to set their audio conferencing provider.)
 
-If you have users enabled with a 3rd party audio conferencing provider, you must change the provider of those users to Microsoft. To change the provider for a user, see [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+If you have users enabled with a third party audio conferencing provider, you must change the provider of those users to Microsoft. To change the provider for a user, see [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
 ## Step 3: Other admin tasks
 
-The following steps are **optional**, but a lot of admins like to do them:
+Many admins like to do these **optional** steps:
 
-1. [Customize meeting invitations](meeting-settings-in-teams.md#customize-meeting-invitations). The dial-in numbers that are set for the user will be automatically added to the meeting invitations that are sent to attendees. However, you can add your own help and legal links, a text message, and small company graphic.
+1. [Customize meeting invitations](meeting-settings-in-teams.md#customize-meeting-invitations). The dial-in numbers that are set for the user are automatically added to the meeting invitations that are sent to attendees. However, you can add your own help and legal links, a text message, and small company graphic.
 
-2. [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites-in-teams.md). This is the phone number that will show up in the meeting that is scheduled by a user.
+2. [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites-in-teams.md). This number is the phone number that shows up in the meeting a user schedules.
 
 3. [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing-in-teams.md) that the Audio Conferencing auto attendant uses to greet a caller when they dial in to an audio conferencing phone number. This step only applies if you're using Microsoft as your audio conferencing provider.
 
@@ -94,8 +95,8 @@ The following steps are **optional**, but a lot of admins like to do them:
 
 ## Related topics
 
-[Enable Teams in your organization](office-365-set-up.md)
+- [Enable Teams in your organization](office-365-set-up.md)
 
-[Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing-in-teams.md)
+- [Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing-in-teams.md)
 
-[Set options for online meetings and conference calls](https://support.office.com/article/DCD1CA39-0C1F-466C-9573-F04138FEF5E2)
+- [Set options for online meetings and conference calls](https://support.office.com/article/DCD1CA39-0C1F-466C-9573-F04138FEF5E2)

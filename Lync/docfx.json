@@ -1,113 +1,112 @@
 {
-  "build": {
-    "content": [
-      {
-        "files": [
-          "**/*.md",
-          "**/*.yml"
+    "build": {
+        "content": [
+            {
+                "files": [
+                    "**/*.md",
+                    "**/*.yml"
+                ],
+                "src": "Hub",
+                "dest": ".",
+                "exclude": [
+                    "**/obj/**",
+                    "**/includes/**",
+                    "_themes/**",
+                    "_themes.pdf/**",
+                    "README.md",
+                    "LICENSE",
+                    "LICENSE-CODE",
+                    "ThirdPartyNotices"
+                ]
+            },
+            {
+                "files": [
+                    "**/*.md",
+                    "**/*.yml"
+                ],
+                "src": "LyncServer",
+                "dest": ".",
+                "exclude": [
+                    "**/obj/**",
+                    "**/includes/**",
+                    "_themes/**",
+                    "_themes.pdf/**",
+                    "README.md",
+                    "LICENSE",
+                    "LICENSE-CODE",
+                    "ThirdPartyNotices"
+                ]
+            },
+            {
+                "files": [
+                    "**/*.md",
+                    "**/*.yml"
+                ],
+                "src": "LyncTools",
+                "dest": ".",
+                "exclude": [
+                    "**/obj/**",
+                    "**/includes/**",
+                    "_themes/**",
+                    "_themes.pdf/**",
+                    "README.md",
+                    "LICENSE",
+                    "LICENSE-CODE",
+                    "ThirdPartyNotices"
+                ]
+            }
         ],
-        "src": "Hub",
-        "dest": ".",
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "_themes/**",
-          "_themes.pdf/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices"
-        ]
-      },
-      {
-        "files": [
-          "**/*.md",
-          "**/*.yml"
+        "resource": [
+            {
+                "files": [
+                    "**/*.png",
+                    "**/*.jpg",
+                    "**/*.gif",
+                    "**/*.svg",
+                    "**/*.csv"
+                ],
+                "exclude": [
+                    "**/obj/**",
+                    "**/includes/**",
+                    "_themes/**",
+                    "_themes.pdf/**"
+                ]
+            }
         ],
-        "src": "LyncServer",
-        "dest": ".",
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "_themes/**",
-          "_themes.pdf/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices"
-        ]
-      },
-      {
-        "files": [
-          "**/*.md",
-          "**/*.yml"
-        ],
-        "src": "LyncTools",
-        "dest": ".",
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "_themes/**",
-          "_themes.pdf/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices"
-        ]
-      }
-    ],
-    "resource": [
-      {
-        "files": [
-          "**/*.png",
-          "**/*.jpg",
-          "**/*.gif",
-          "**/*.svg",
-          "**/*.csv"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "_themes/**",
-          "_themes.pdf/**"
-        ]
-      }
-    ],
-    "overwrite": [],
-    "externalReference": [],
-    "globalMetadata": {
-      "ms.service": "lync-server-2013",
-      "breadcrumb_path": "/LyncServer/breadcrumb/toc.json",
-      "extendBreadcrumb": true,
-      "uhfHeaderId": "MSDocsHeader-M365-IT",
-      "searchScope": [
-        "Lync Server"
-      ],
-      "contributors_to_exclude": [
-        "dstrome",
-        "rjagiewich", 
-        "traya1", 
-        "rmca14", 
-        "claydetels19", 
-        "jborsecnik",
-        "tiburd",
-        "garycentric",
-        "beccarobins",
-        "Stacyrch140",
-        "v-stsavell",
-        "American-Dipper"
-      ],
-      "feedback_system": "None",
-      "hideEdit": true,
-      "ms.topic": "conceptual",
-      "audience": "ITPro",
-      "ms.collection": "LyncServer",
-      "ms.manager": "serdars",
-      "titleSuffix": "Lync Server"
-    },
-    "fileMetadata": {},
-    "template": [],
-    "dest": "OfficeDocs-LyncServer",
-    "markdownEngineName": "markdig"
-  }
+        "overwrite": [],
+        "externalReference": [],
+        "globalMetadata": {
+            "ms.service": "lync-server-2013",
+            "breadcrumb_path": "/LyncServer/breadcrumb/toc.json",
+            "extendBreadcrumb": true,
+            "uhfHeaderId": "MSDocsHeader-M365-IT",
+            "searchScope": [
+                "Lync Server"
+            ],
+            "contributors_to_exclude": [
+                "dstrome2",
+                "rjagiewich",  
+                "American-Dipper",
+                "claydetels19", 
+                "jborsecnik",
+                "v-stchambers",
+                "shdyas",
+                "Stacyrch140",
+                "garycentric",
+                "dstrome",
+                "beccarobins"        
+            ],
+            "feedback_system": "None",
+            "hideEdit": true,
+            "ms.topic": "conceptual",
+            "audience": "ITPro",
+            "ms.collection": "LyncServer",
+            "ms.manager": "serdars",
+            "titleSuffix": "Lync Server"
+        },
+        "fileMetadata": {},
+        "template": [],
+        "dest": "OfficeDocs-LyncServer",
+        "markdownEngineName": "markdig"
+    }
 }

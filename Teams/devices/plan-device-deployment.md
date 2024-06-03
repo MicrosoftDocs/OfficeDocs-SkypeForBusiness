@@ -1,53 +1,53 @@
 ---
-title: Plan your deployment for Teams phone devices and Displays
+title: Plan your deployment for Teams Phone devices and Displays
 ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
-ms.reviewer: tony.woodruff
+ms.reviewer: vijagan
 ms.date: 12/17/2021
-ms.topic: reference
+ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
 audience: Admin
 appliesto: 
   - Microsoft Teams
-f1.keywords: 
-  - NOCSH
-search.appverid: MET150
-description: This article provides an overview of the tasks and steps to deploy Teams phones and displays in your organization.
 ms.collection: 
   - teams-rooms-devices
   - Teams_ITAdmin_Devices
   - Tier1
+f1.keywords: 
+  - NOCSH
+search.appverid: MET150
+description: This article provides an overview of the tasks and steps to deploy Teams Phones and displays in your organization.
 ---
 
-# Plan your deployment for Teams phone devices and Displays
+# Plan your deployment for Teams Phone devices and Displays
 
-A successful deployment of Teams phone devices and Teams Displays starts with planning. This article will take you through the tasks and steps to deploy these devices in your organization. It also provides guidance on devices usage, licensing, integrating with your environment, touchpoints, and management.
+A successful deployment of Teams Phone devices and Teams Displays starts with planning. This article takes you through the tasks and steps to deploy these devices in your organization. It also provides guidance on devices usage, licensing, integrating with your environment, touchpoints, and management.
 
 > [!TIP]
 > [The Microsoft 365 Adoption Hub](https://adoption.microsoft.com/) is a great place to get started on your adoption journey with Microsoft Teams.
 
 ## Task 1: What are your deployment objectives?
 
-Planning the rollout of Teams phones and Displays in your organization starts with your deployment goals. Teams devices support hybrid work in meeting rooms, offices, and other functional spaces. You'll need to determine where these devices will be used and by whom.
+Planning the rollout of Teams Phones and Displays in your organization starts with your deployment goals. Teams devices support hybrid work in meeting rooms, offices, and other functional spaces. You need to determine where these devices will be used and by whom.
 
 ### Objective: Identify your device personas
 
-Teams phones and Displays will fit one of two personas: 
+Teams Phones and Displays fit one of two personas:
 
 - Personal devices
 - Shared space devices
 
-Personal and shared devices have different roles and uses. 
+Personal and shared devices have different roles and uses.
 
-**Personal devices:** 
+**Personal devices:**
 
-- Typically assigned to one user, signed in with that user's account, and enabled with a Teams feature license to access the service.
+- Assigned to one user, signed in with that user's account, and enabled with a Teams feature license to access the service.
 - Think of personal devices as having a one-to-one relationship, with one device per one user.
 - Can be paired with the Teams desktop client and use features like Better Together
 - May connect to a headset, wired or wireless
-- Additional features on personal devices include hot-desking and Home Screen. 
+- Additional features on personal devices include hot-desking and Home Screen.
 
 **Shared space devices:**
 
@@ -60,19 +60,19 @@ Personal and shared devices have different roles and uses.
 
 ### Objective: How many personal and shared space devices do you need?
 
-Now that you've identified your device personas, you need to determine which certified devices you want to use and how many of them you need. To help you make this decision, consider the following questions: 
+Now that you identified your device personas, you need to determine which certified devices you want to use and how many of them you need. To help you make this decision, consider the following questions: 
 
 - How many personal devices are required and who will have one?
 - How many rooms or spaces require shared devices? Will every space have the same type of device? 
 - Will your devices need to meet specific requirements?
     - Examples include screen size, form factor, and manufacturer or model? For a list of certified phones and displays, see [Microsoft Teams certified devices](teams-ip-phones.md).
--  Do you need Teams phones or Teams displays? For a list of features supported by Teams phones, see [Phones for Microsoft Teams](phones-for-teams.md#features-supported-by-teams-phones). For a list of features supported by Teams displays, see [Microsoft Teams displays](teams-displays.md#features-supported-by-teams-displays).
+-  Do you need Teams Phones or Teams displays? For a list of features supported by Teams Phones, see [Phones for Microsoft Teams](phones-for-teams.md#features-supported-by-teams-phones). For a list of features supported by Teams displays, see [Microsoft Teams displays](teams-displays.md#features-supported-by-teams-displays).
 - Do you have enough devices for new users, or a process for new orders and delivery?
 - Will you have spare devices available for maintenance or if a device experiences hardware issues? Being able to swap a device quickly prevents disruptions in user experience.
 
 ## Task 2: What are your licensing requirements? 
 
-Now you know how many devices you need, the next step is to determine how many licenses are needed. Teams phones and displays require licenses to access Microsoft Teams and Microsoft 365.
+Now you know how many devices you need, the next step is to determine how many licenses are needed. Teams Phones and displays require licenses to access Microsoft Teams and Microsoft 365.
 
 Shared and personal devices need different licensing. For personal devices, licenses assigned to user accounts can be used. Shared devices need licenses specific to their function. For phones and displays, the applicable license is [the Microsoft Teams Shared Devices license](/microsoftteams/teams-add-on-licensing/teams-shared-device-license).
 
@@ -96,11 +96,11 @@ Microsoft Entra Conditional Access policies are additional requirements that mus
 
 As you plan your deployment
 
-- Review existing Conditional Access policies that could affect your Teams phones and displays. You can do this in the Microsoft Entra Admin Center using the [What If tool](/azure/active-directory/conditional-access/what-if-tool) and [Sign-in logs](/azure/active-directory/reports-monitoring/concept-sign-ins)
+- Review existing Conditional Access policies that could affect your Teams Phones and displays. You can do this in the Microsoft Entra Admin Center using the [What If tool](/azure/active-directory/conditional-access/what-if-tool) and [Sign-in logs](/azure/active-directory/reports-monitoring/concept-sign-ins)
 
 - Plan for new rules if needed
 
-- Use Conditional Access features like device filters to apply rules to Teams phones and displays.
+- Use Conditional Access features like device filters to apply rules to Teams Phones and displays.
 
 >[!NOTE]
 >There are some Conditional Access policies that Android devices don't support. For guidance and best practices, see Android devices, see [Authentication best practices for Teams Android devices](authentication-best-practices-for-android-devices.md).
@@ -112,7 +112,7 @@ As you plan your deployment
 Teams Phone devices and displays require access to the internet to connect to Teams and function as intended. To get your network ready for deployment, consider the following:
 
 - Does your network infrastructure have enough capacity? Consider switch ports, wireless access points, and other coverage.
-- If you use VLANs and DHCP, are your scopes sized accordingly?
+- If you use VLANs and DHCP, be your scopes sized accordingly?
 - Evaluate and test network paths from where devices are deployed to Microsoft 365. 
 - Open the required firewall ports and URLs for Microsoft 365 as per guidance.
 - Review and test E911 requirements and configuration for location accuracy and compliance. 
@@ -120,9 +120,9 @@ Teams Phone devices and displays require access to the internet to connect to Te
 
 ### Objective: Physical considerations
 
-Consider the physical spaces that your Teams phones and displays will be used in.
+Consider the physical spaces that your Teams Phones and displays are used in.
 
-Key aspects include
+Key aspects include.
 
 - **Power:** Do you have enough electrical outlets? If the device needs an external power source, how close can you position it to an outlet?
 - **Device placement:** Where will your device physically be? Review desk stands, wall mounts, and other accessories from the original equipment manufacturer (OEM).
@@ -131,26 +131,26 @@ Key aspects include
 
 ### Task 5: How will you manage deployed devices?
 
-Teams phones and displays are managed from two to three Microsoft 365 portals and their respective PowerShell modules: 
+Teams Phones and displays are managed from two to three Microsoft 365 portals and their respective PowerShell modules: 
 
 <a name='azure-active-directory-admin-center'></a>
 
 #### Microsoft Entra Admin Center
 
-Use the Microsoft Entra Admin Center to manage
+Use the Microsoft Entra Admin Center to manage.
 
-- All identity-related tasks for Teams phones and displays
+- All identity-related tasks for Teams Phones and displays
 - Conditional Access policies 
 - Password resets
 
 #### Teams Admin Center
 
-Use the Teams Admin Center to manage
+Use the Teams Admin Center to manage.
 
 - [Device settings for Teams](../business-voice/manage-devices.md)
 - [Configuration profiles](device-management.md#use-configuration-profiles-in-teams)
 - [Device tagging](manage-device-tags.md)
-- [Remote sign-in and sign-out](remote-sign-in-and-sign-out.md)
+- [Remote sign-in and sign out](remote-sign-in-and-sign-out.md)
 - Call analytics  
 - Firmware
 - Troubleshooting and downloading logs

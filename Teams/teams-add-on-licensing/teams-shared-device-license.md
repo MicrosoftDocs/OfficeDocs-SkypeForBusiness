@@ -39,6 +39,10 @@ The **Microsoft Teams Shared Devices** license includes the following service pl
 - Microsoft Entra ID P1
 - Exchange Online Plan (Cloud-based voicemail capabilities only.)
 
+> [!IMPORTANT]
+>
+> You can't use an account that only has the Teams Shared Device license assigned to sign in to Teams using the desktop or web clients.
+
 ## Teams Shared Devices license availability
 
 The **Teams Shared Devices** license is available to purchase worldwide to commercial, public sector, GCC, GCC High, and DoD tenants.

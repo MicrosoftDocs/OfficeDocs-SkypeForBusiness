@@ -24,21 +24,21 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Phone System
-description: "Learn about the features, availability, and how to plan and set up Microsoft Teams Phone System for your business. "
+description: "Learn about the features, availability, and how to plan and set up Microsoft Teams Phone System for your business."
 ---
 
 # Teams Phone features
 
-This article describes Microsoft Teams Phone features. For more information about using Teams Phone as your Private Branch Exchange (PBX) replacement, and options for connecting to the Public Switched Telephone Network (PSTN), see [What is Teams Phone](what-is-phone-system-in-office-365.md).
+This article describes Microsoft Teams Phone features. For more information about using Teams Phone as your Private Branch Exchange (PBX) replacement, and options for connecting to the Public Switched Telephone Network (PSTN), see [What is Teams Phone](what-is-phone-system-in-office-365.md). This article is for administrators and IT professionals.
 
 Clients are available for PC, Mac, and mobile, which provides features on devices from tablets and mobile phones to PCs and desktop IP phones. For more information, see [Get clients for Microsoft Teams](get-clients.md).
 
 > [!NOTE]
 > For details about Teams phone systems on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
-To use Teams Phone features, your organization must have a Teams Phone license. For more information about licensing, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+**Licenses and voice enablement** - To use Teams Phone features, your organization must have a Teams Phone license. For more information about licensing, including Teams Phone Standard and Teams Phone Standard for Frontline Workers, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-Be aware that most features require you to assign the Teams Phone license and ensure that users are "voice enabled." To assign the license, use the [Set-CsPhoneNumberAssignment cmdlet](/powershell/module/teams/set-csphonenumberassignment) and set the **EnterpriseVoiceEnabled** parameter to $true. A few features, such as cloud auto attendant, do not require a user to be voice enabled. Exceptions are called out in the table below.
+Most features require you to assign the Teams Phone license and ensure that users are "voice enabled." To assign the license, use the [Set-CsPhoneNumberAssignment cmdlet](/powershell/module/teams/set-csphonenumberassignment) and set the **EnterpriseVoiceEnabled** parameter to $true. A few features, such as Auto attendant, do not require a user to be voice enabled. Exceptions are called out in the table below.
   
 ## Teams Phone features
 
@@ -50,10 +50,10 @@ Teams Phone provides the following features.
 |[Cloud call queues](create-a-phone-system-call-queue.md) <br> |Lets you configure how call queues are managed for your organization: for example, set up greetings and music on hold, search for the next available call agent to handle the call, and so on.  <br/> Note that users *do* need to be voice enabled to receive calls from a call queue.|
 |[Music on hold](music-on-hold.md) | Plays default music defined by the service or custom music uploaded by the tenant administrator when an external call from the Public Switched Telephone Network (PSTN) is placed on hold. This feature works for one-to-one PSTN-to-Teams calls in addition to calls made to a call queue. This feature provides on-hold notification parity with other platforms. |
 |Call answer/initiate (by name and number)   |Lets users answer inbound calls with a touch, and place outbound calls either by dialing the full phone number or by clicking a name in the client.   |
-|[Call forwarding options and simultaneous ring](https://support.office.com/article/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)  |Lets users set up forwarding rules so calls can go with them anywhere, or calls can be forwarded to colleagues or to voicemail.   |
+|[Call forwarding options and simultaneous ring](user-call-settings.md)  |Lets users set up forwarding rules so calls can go with them anywhere, or calls can be forwarded to colleagues or to voicemail.   |
 |[Call sharing and group call pickup](call-sharing-and-group-call-pickup.md)  | Lets users share incoming calls with colleagues so that the colleagues can answer calls that occur while the user is unavailable. Less disruptive to recipients than other forms of call sharing (such as call forwarding or simultaneous ringing) because users can configure how they want to be notified of an incoming shared call. |
-|[Transfer a call and consultative transfer](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0)  |Lets users transfers calls to another person. Or, if they need to leave their office but want to continue the conversation, they can transfer the calls from their PC or IP phone to their cell phone.  <br/> Note that users *do not* need to be voice enabled to receive transferred calls from another user. |
-|[Transfer to voicemail mid call*](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0)  | Lets users transfer to voicemail during a call. |
+|[Transfer a call and consultative transfer](https://support.office.com/article/b7f40f14-e083-46b9-b739-68038c8f73a0)  |Lets users transfers calls to another person. Or, if they need to leave their office but want to continue the conversation, they can transfer the calls from their PC or IP phone to their cell phone.  <br/> Note that users *do not* need to be voice enabled to receive transferred calls from another user. |
+|[Transfer to voicemail mid call*](https://support.office.com/article/b7f40f14-e083-46b9-b739-68038c8f73a0)  | Lets users transfer to voicemail during a call. |
 |[Call park and retrieve](call-park-and-retrieve.md)   | Lets users place a call on hold in the Teams service in the cloud. When a call is parked, the service generates a unique code for call retrieval. The user who parked the call or someone else can then use that code and a supported app or device to retrieve the call.  |
 |Call phone number from search   | Lets users place a call from the search box by using the /call command and specifying a name or a number.  |
 |[Caller ID](how-can-caller-id-be-used-in-your-organization.md)   |Calls from inside the company display a detailed caller ID that pulls information from the corporate directory, showing picture ID and job title instead of just a phone number. For calls from external phone numbers, the caller ID as provided by the phone service provider is displayed. If the external phone numbers are secondary numbers in the corporate directory, then the information from the corporate directory will be displayed.   |
@@ -67,7 +67,7 @@ Teams Phone provides the following features.
 |[Secondary ringer](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)  | Users with multiple speaker devices connected to their PC can choose to set a secondary device to ring in addition to their default speaker. For example, a user with a headset connected to the PC and desk speakers can choose to have both headset and desk speakers ring when a call comes in so that they don’t miss a call.  |
 |[Distinctive ring alerts](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) (Teams only) |Lets users choose separate ringtones for  normal calls, forwarded calls, and delegated calls so they can distinguish the type of call.   |
 |[Shared Line Appearance](shared-line-appearance.md)  | Lets users share their phone line so that another user can make and receive calls on their behalf.|
-|[Busy on Busy](teams-calling-policy.md) (Teams only)  | A calling policy that lets you configure how incoming calls are handled when a user is: <ul><li>in a call </li><li>in a conference</li><li>has a call placed on hold. </li></ul> The caller will receive one of the following responses: <ul><li>hear a busy signal when the callee is on the phone</li> <li>will be routed accordingly to the user's unanswered settings. One option lets the caller leave a voicemail for the user who is already on a call.</li></ul> The callee gets a missed call notification but isn't able to answer incoming calls. This feature is disabled by default, but can be turned on by the tenant admin.|
+|[Busy on Busy](inbound-call-routing.md) (Teams only)  | A calling policy that lets you configure how incoming calls are handled when a user is: <ul><li>in a call </li><li>in a conference</li><li>has a call placed on hold. </li></ul> The caller will receive one of the following responses: <ul><li>hear a busy signal when the callee is on the phone</li> <li>will be routed accordingly to the user's unanswered settings. One option lets the caller leave a voicemail for the user who is already on a call.</li></ul> The callee gets a missed call notification but isn't able to answer incoming calls. This feature is disabled by default, but can be turned on by the tenant admin.|
 |[Call blocking](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US)  | Lets users add (PSTN) phone numbers to a blocked list so that the next call from that number is blocked from ringing the user.|
 |[Common area phones](set-up-common-area-phones.md)  | A common area phone is typically placed in an area like a lobby or conference room making it available to multiple people. Common area phones are set up as devices rather than users, and can automatically sign into a network.|
 |[Media bypass support](direct-routing-plan-media-bypass.md) (for Teams Direct Routing only)  | For better performance, media is kept between the Session Border Controller (SBC) and the client instead of sending it through  Teams Phone. |
@@ -76,7 +76,7 @@ Teams Phone provides the following features.
 ## Availability in GCC High and DoD clouds
 <a name="bkmk_setup"> </a>
 
-The following capabilities are not yet available in GCC High and DoD Clouds. 
+The following capabilities are not yet available in GCC High and DoD Clouds.
 
 - [Call settings for secondary ringer, voicemail, and enhanced delegation](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)
 - [Transfer to voicemail mid call](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0)

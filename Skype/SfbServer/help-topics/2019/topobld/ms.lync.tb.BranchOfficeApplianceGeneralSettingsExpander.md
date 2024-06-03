@@ -15,12 +15,12 @@ ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 ROBOTS: NOINDEX, NOFOLLOW
-description: "To edit the settings for an existing Survivable Branch Appliance or Survivable Branch Server, you are presented with the following sections:"
+description: "To edit the settings for an existing Survivable Branch Appliance or Survivable Branch Server, you're presented with the following sections:"
 ---
 
 # Branch Office Appliance General Settings Expander
 
-To edit the settings for an existing Survivable Branch Appliance or Survivable Branch Server, you are presented with the following sections:
+To edit the settings for an existing Survivable Branch Appliance or Survivable Branch Server, you're presented with the following sections:
 
 - General settings
 
@@ -29,22 +29,22 @@ To edit the settings for an existing Survivable Branch Appliance or Survivable B
 - Mediation Server settings
 
 
-For a Survivable Branch Appliance or Survivable Branch Server, you are presented with the following:
+For a Survivable Branch Appliance or Survivable Branch Server, you're presented with the following:
 
 ### General settings
 
 The fully qualified domain name (FQDN) of the Survivable Branch Appliance or Survivable Branch Server. Edit the FQDN of the server to change the value. You must have a Domain Name System (DNS) host (A) record that coincides with the new value.
 
-You can select to **Use all configured IP addresses** or to **Limit service usage to selected IP addresses**. If you select to **Limit the service to defined IP addresses**, you will define the primary IP address that the server will use for all communications, except for the public switched telephone network (PSTN) gateway. You define a separate IP address for PSTN usage.
+You can select to **Use all configured IP addresses** or to **Limit service usage to selected IP addresses**. If you select to **Limit the service to defined IP addresses**, you define the primary IP address that the server uses for all communications, except for the public switched telephone network (PSTN) gateway. You define a separate IP address for PSTN usage.
 
 In **Associations**, you can edit or specify the following:
 
-- Associate Archiving Server enables you to select to associate an Archiving Server with the Survivable Branch Appliance or Survivable Branch Server. You can select from an already defined Archiving Server by selecting the server from the drop-down list, or click **New** to specify a new Archiving Server.
+- Associate Archiving Server enables you to select to associate an Archiving Server with the Survivable Branch Appliance or Survivable Branch Server. You can select from an already defined Archiving Server by selecting the server from the drop-down list, or select **New** to specify a new Archiving Server.
 
     > [!IMPORTANT]
     > Before publishing the newly defined topology, the server that you specify must exist and must be joined to the domain.
 
-- Associate Monitoring Server allows you to select to associate a Monitoring Server with the Survivable Branch Appliance or Survivable Branch Server. You can select from an already defined Monitoring Server by selecting the server from the drop-down list, or click **New** to specify a new Monitoring Server.
+- Associate Monitoring Server allows you to select to associate a Monitoring Server with the Survivable Branch Appliance or Survivable Branch Server. You can select from an already defined Monitoring Server by selecting the server from the drop-down list, or select **New** to specify a new Monitoring Server.
 
 - Associate Edge pool enables you to select to associate an Edge Server or pool with the Survivable Branch Appliance or Survivable Branch Server. You can select from an already defined Edge Server or pool by selecting the server from the drop-down list, or click **New** to specify a new Edge Server or pool.
 

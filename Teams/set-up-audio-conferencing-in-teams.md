@@ -1,14 +1,15 @@
 ---
 title: "Set up Audio Conferencing for Microsoft Teams"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jenz
+author: jenzamora
 manager: pamgreen
 ms.reviewer: oscarr
-ms.date: 11/28/2017
+ms.date: 02/21/2024
 ms.topic: article
 ms.assetid: d01954f1-4f37-4cf5-a636-20039e5c59e9
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
@@ -40,13 +41,13 @@ For frequently asked questions about Audio Conferencing, see [Audio Conferencing
   
 ## Step 1: Find out if Audio Conferencing is available in your country/region
 
-Go to [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) and select your country or region to get availability information about Audio Conferencing, as well as information about Phone System, Calling Plans, toll and toll-free numbers, and Communications Credits.
+Go to [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) and select your country/ region to get availability information about Audio Conferencing. You can also get information about Phone System, Calling Plans, toll and toll-free numbers, and Communications Credits.
 
 ## Step 2: Get and assign licenses
 
-1. For Audio Conferencing, you need a license for each user who will set up dial-in meetings. To learn which licenses you need to buy for Audio Conferencing and how much they'll cost, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+1. For Audio Conferencing, you need a license for each user who sets up dial-in meetings. To learn which licenses you need to buy for Audio Conferencing and how much they cost, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-2. After you buy the Audio Conferencing licenses, you need to assign them to those people in your organization who are going to schedule or lead meetings. See [Assign licenses to users in Microsoft 365 or Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) you purchased to the people in your organization who are going to schedule or lead meetings.
+2. After you buy the Audio Conferencing licenses, you need to assign them to those people in your organization who are going to schedule or lead meetings. For more information, see [Assign licenses to users in Microsoft 365 or Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
 
 3. We also recommend that you assign Communications Credits licenses (they don’t cost anything) to the same people you assigned licenses to in the previous step. To learn how to set up Communications Credits, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).
 
@@ -59,9 +60,9 @@ For Audio Conferencing, you can’t use phone numbers for users; you need to get
   
 - **Use the Microsoft Teams admin center**. For some countries/regions, you can get service numbers for your conferencing bridges using the Microsoft Teams admin center. See [Getting service phone numbers](./getting-service-phone-numbers.md).
 
-- **Port your existing service numbers**. To port or transfer existing numbers from your current service provider or phone carrier to Microsoft 365 or Office 365. You can see [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) or [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) for more information to help you do this.  
+- **Port your existing service numbers**. To port or transfer existing numbers from your current service provider or phone carrier to Microsoft 365 or Office 365. For more information, see [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) or [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
   
-- **Use a request form for new numbers**. Sometimes (depending on your country/region) you won't be able to get your new service numbers using the Microsoft Teams admin center, or you might need specific phone numbers or area codes. If so, you need to download a form and send it back to us. See [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) for more information.
+- **Use a request form for new numbers**. Sometimes (depending on your country/region) you can't get your new service numbers using the Microsoft Teams admin center, or you might need specific phone numbers or area codes. If so, you need to download a form and send it back to us. For more information, see[Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 ## Step 4: Assign a service number to the conferencing bridge
 
@@ -72,9 +73,9 @@ Follow these steps to assign a new phone number to your audio conferencing bridg
  **Using the Microsoft Teams admin center**:
 
  1. From the Home, go to **Voice** > **Phone numbers**.
- 2. Select the phone number, and click **Assign**.
+ 2. Select the phone number, and select **Assign**.
 
-For more details, see [Change the phone numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
+For more information, see [Change the phone numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
 
 ## Step 5: Set the default and alternate languages for a conferencing bridge
 
@@ -83,18 +84,18 @@ Next, you want to [Set auto attendant languages for Audio Conferencing in Micros
  **Using the Microsoft Teams admin center**:
 
 1. From the Home, go to **Meetings** > **Conference bridges**.
-2. Select the conferencing bridge phone number, click **Edit**, and then choose the default language.
+2. Select the conferencing bridge phone number, select **Edit**, and then choose the default language.
 
 ## Step 6: Set your conferencing bridge settings
 
-After setting up your conferencing bridge, verify that the default settings such as entry/exit notifications and PIN length are the ones you want to use; if they're not, you can change them.
+After setting up your conferencing bridge and languages, verify that default settings, like entry/exit notifications and PIN length, suit your preferences. If they're not, you can change them.
 
  **Using the Microsoft Teams admin center**:
 
 1. From the Home, go to **Meetings** > **Conference bridges**.
-2. Select **Bridge settings**. This opens the **Bridge settings** pane.
+2. Select **Bridge settings** to open the **Bridge settings** pane.
 
-For more details, see [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md).
+For more information, see [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md).
 
 ## Step 7: Assign dial-in phone numbers for users who lead meetings
 

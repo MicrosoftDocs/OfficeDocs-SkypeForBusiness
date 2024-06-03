@@ -8,7 +8,7 @@ ms.service: msteams
 ms.subservice: teams-apps
 ms.custom: intro-get-started
 audience: admin
-ms.date: 11/23/2023
+ms.date: 04/17/2024
 ms.collection: 
   - M365-collaboration
   - tier2
@@ -32,6 +32,9 @@ To use Teams admin center, you must have a Global Administrator or Teams Adminis
 
 App developers [extend Microsoft Copilot](/microsoft-365-copilot/extensibility/) for Microsoft 365 by creating plugins, for example, Microsoft Teams message extension or a Power Platform connector. These plugins increase user productivity across daily tasks and workflows. Admins manage plugins for Copilot in the [Integrated apps](/microsoft-365/admin/manage/manage-plugins-for-copilot-in-integrated-apps) section of the Microsoft 365 admin center.
 
+> [!NOTE]
+> You can only view and manage apps that are deployed in the same release channel as your tenant is. For example, if your tenant is in the general release channel then you can't manage apps that are deployed in the private or public preview channels. This isn't an issue for apps that are released to the general release channel.
+
 ## App management use cases and the available interfaces
 
 The options to accomplish most of app management use cases are available in Teams admin center. In addition, some options are available in other portals or different pages in the Teams admin center.
@@ -46,7 +49,7 @@ App management tasks that are supported in admin center are in the table below.
 | You can develop and upload custom apps as app packages and make them available in your organization's app store. | Org-wide app settings in [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) | [Manage policy setting for custom apps](teams-custom-app-policies-and-settings.md) |
 | You can customize the Teams app store with your organization's logo, custom background, or color. | [Customize store](https://admin.teams.microsoft.com/policies/customize-appstore) | [Customize your organization's app store](customize-your-app-store.md) |
 | The Teams app usage report provides information about which apps in use, active users, and other app usage information. | [Usage reports](https://admin.teams.microsoft.com/analytics/reports) | [Teams app usage report](teams-analytics-and-reports/app-usage-report.md) |
-| Your users can add apps when they host meetings or chats with guests. They can also use apps shared by guests when they join meetings or chats hosted externally. The data policies of the hosting user's organization, and the data sharing practices of any third-party apps shared by that user's organization, are applied. | [External access](https://admin.teams.microsoft.com/company-wide-settings/external-communications) | [App behavior depending on types of users](non-standard-users.md) |
+| Your users can add apps when they host meetings or chats with guests. They can also use apps shared by guests when they join meetings or chats hosted externally. The data policies of the hosting user's organization, and the data sharing practices of any third-party apps shared by that user's organization, are applied. | [External access](https://admin.teams.microsoft.com/company-wide-settings/external-communications) | [App behavior depending on types of users](apps-external-users.md) |
 | With guest access, you can provide access to applications and other Teams functionality to people outside your organization, while maintaining control over your corporate data. | [Guest access](https://admin.teams.microsoft.com/company-wide-settings/guest-configuration) | [Guest access in Teams](guest-access.md) |
 | Teams update policies are used to manage Teams and Office preview users who can see prerelease or preview features in the Teams app. | [Teams update policies](https://admin.teams.microsoft.com/policies/updatemanagement) | [Teams public preview](public-preview-doc-updates.md) |
 
@@ -64,16 +67,16 @@ As an admin, you control access to all [types of apps](apps-in-teams.md#types-of
 
 To allow an app, you must do all of the following settings. To block an app, just use any one of these settings.
 
-| Method | Scope | Use case |
-|:-------|:------|:---------|
-| [Org-wide app settings](#manage-org-wide-app-settings) | Org-level | Use this setting to allow use of third-party apps in your org. You control the specific apps that are allowed and used. |
-| Allow or block apps | App-level | Use this setting to allow a specific app in your org. You control which users can use a specific app and which users can use apps. |
-| [App permission policy](teams-app-permission-policies.md) | User-level | Use policies to allow all or allow specific users to use an app. |
+| Method                                                    | Scope      | Use case                                                                                                                           |
+|:----------------------------------------------------------|:-----------|:-----------------------------------------------------------------------------------------------------------------------------------|
+| [Org-wide app settings](#manage-org-wide-app-settings)    | Org-level  | Use this setting to allow use of third-party apps in your org. You control the specific apps that are allowed and used.            |
+| Allow or block apps                                       | App-level  | Use this setting to allow a specific app in your org. You control which users can use a specific app and which users can use apps. |
+| [App permission policy](teams-app-permission-policies.md) or [app centric management](app-centric-management.md) | User-level | Use policies to allow all or allow specific users to use an app.                                                                   |
 
 You allow or block specific apps on either the Manage apps page or in the app details page. Manage apps page displays all the available app and the current org-level app status. To allow or block an app, follow these steps:
 
 1. Sign in to the Teams admin center and access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
-1. Select **Org-wide app settings** and allow the use of third-party apps.
+
 1. Select the app on the **Manage apps** page and select **Allow** or **Block** option.
 
    :::image type="content" source="media/allow-block-option-tac.png" alt-text="Screenshot showing the option to allow or block an app in the Manage apps page.":::
@@ -82,9 +85,15 @@ You allow or block specific apps on either the Manage apps page or in the app de
 
    :::image type="content" source="media/allow-block-option-app-details.png" alt-text="Screenshot showing the option to allow or block an app in the app details page.":::
 
+If you use [manage access by apps feature](app-centric-management.md), the block option is available in the **Actions** menu.
+
+:::image type="content" source="media/acm-block-app.png" alt-text="Screenshot showing how to block access to an app from the Actions menu when you use manage access by app feature.":::
+
 To allow an app for specific users, see [app permission policies](teams-app-permission-policies.md).
 
-When a developer publishes an app to the Teams store, some apps may need an admin to configure the app. Before an admin allows such an app, it shows as `Blocked by publisher` in the admin center. After following the publisher's guidance to set up the app, you can make it available to users by allowing it.
+When a developer publishes an app to the Teams store, some apps may need an admin to configure the app. Before an admin allows such an app, it shows as `Blocked by publisher` in the admin center. Before you allow it for users, follow the publisher's guidance to configure the app.
+
+To block all third-party apps, open the **Org-wide app settings** on the [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page and disallow the use of third-party apps. If you use [manage access by apps feature](app-centric-management.md), you can also block the [apps created by Microsoft](apps-in-teams.md#apps-created-by-microsoft).
 
 > [!NOTE]
 > From within the Teams client, your users can request you to allow the apps that aren't available for them. You receive notifications and can allow the app. For details, see [view and manage user requests](user-requests-approve-apps.md).
@@ -137,27 +146,32 @@ Use org-wide app settings to control whether users with an [F license](https://w
 
 1. Select **Save**. The settings take effect after a few hours.
 
-Admin center settings may allow your users to collaborate with users from other organizations. To understand how apps work with external users in meetings, see [Teams apps for external attendees](non-standard-users.md).
+Admin center settings may allow your users to collaborate with users from other organizations. To understand how apps work with external users in meetings, see [Teams apps for external attendees](apps-external-users.md).
 
 ## Auto install approved apps based on admin approval
 
 Auto install approved apps feature automatically adds approved apps in Teams client of the permitted users. The functionality respects all admin governance controls and only installs apps that the users use outside Teams. It reduces manual intervention to add an app and improves user productivity by preventing context-switching. To know more about the feature, see [Auto install approved apps in Teams](auto-install-approved-apps.md).
 
-## Stop app usage and remove app
+## Stop app usage and remove apps
 
-As an admin, you can [delete custom apps](teams-custom-app-policies-and-settings.md#delete-custom-apps-from-your-organizations-catalog) from your organization's store but can't remove the third-party apps that are available in the Teams store. To prevent app addition and usage by users, you can [block an app for everyone](#allow-or-block-apps) or [use permission policy](teams-app-permission-policies.md#create-an-app-permission-policy) to stop selected users from using an app. You can't remove or uninstall the apps that are currently added by users. Blocking the apps prevents users from using it.
+As an admin, to prevent users from adding and using an app in Teams, you can do one of the following:
+
+* For any type of apps, [block it for entire org](#allow-or-block-apps).
+* For any type of apps, prevent a few users from accessing the app by using either [permission policies](teams-app-permission-policies.md#create-an-app-permission-policy) or by using [app centric management](app-centric-management.md).
+* [Delete a custom app](teams-custom-app-policies-and-settings.md#delete-custom-apps-from-your-organizations-catalog) from your organization's store. You can't remove any app that is available in Teams app store.
+* You can't stop use of some [Core apps](apps-in-teams.md#types-of-teams-apps) provided by Microsoft that are critical for Teams to work.
+
+You can't remove or uninstall the apps that are currently added by users.
 
 Blocked apps may still have access to data from the teams that the apps were added to. To turn off app data access, a Global Administrator, an Application Administrator, or a Cloud Application Administrator must [turn off user sign-in in the Microsoft Entra admin center](/azure/active-directory/manage-apps/disable-user-sign-in-portal?pivots=portal).
 
-## Manage org-wide app settings for Microsoft 365 Government  
+## Manage org-wide app settings for Microsoft 365 Government
 
-In a Microsoft 365 Government - GCC, GCCH and DoD deployment of Teams, all third-party apps are blocked by default. In GCCH and DOD clouds, the third-party apps aren't available. Additionally, in GCC, you see the following note about managing third-party apps on the app permission policies page in the Microsoft Teams admin center.
+In a Microsoft 365 Government - GCC, GCCH and DoD deployment of Teams, all third-party apps are blocked by default. In GCC, you see the following note about managing third-party apps on the app permission policies page in the Microsoft Teams admin center.
 
 :::image type="content" source="media/app-permission-policies-gcc.png" alt-text="Screenshot of app permission policy in GCCH and DoD." lightbox="media/app-permission-policies-gcc.png":::
 
 Use org-wide app settings to control whether users can install third-party apps. Org-wide app settings govern the behavior for all users and override any other app permission policies assigned to users.
-
-### For GCC clouds
 
 1. On the **Teams Apps** > **Manage apps** page, select **Org-wide app settings**. You can then configure the settings you want in the panel.
 
@@ -172,17 +186,13 @@ Use org-wide app settings to control whether users can install third-party apps.
 
 1. Select **Save** for org-wide app settings to take effect.
 
-To allow third-party apps, either edit and use the global (Org-wide default) policy or create and assign an admin-created policy.
+To allow third-party apps, either edit and use the Global (Org-wide default) policy or create and assign an admin-created policy.
 
-### For GCCH and DoD clouds
+## Manage apps in 21Vianet and air-gapped cloud environments
 
-1. Sign in to the Teams admin center and access **Teams Apps** > **Permission policies**. In GCCH environment, access [https://admin.gov.teams.microsoft.us](https://admin.gov.teams.microsoft.us/) and in DoD environment, access [https://admin.dod.teams.microsoft.us](https://admin.dod.teams.microsoft.us/).
+In Microsoft 365 operated by 21Vianet and air-gapped cloud environments, you get an overview of the apps on the Teams apps > Manage apps page.
 
-1. Select **Org-wide app settings**. Under **Blocked apps**, add the apps you want to block across your organization. All third-party apps are added to this list by default. A blocked app isn't available to any user, regardless of app policies.
-
-   :::image type="content" source="media/app-permission-policies-gcch-dod-org-wide.png" alt-text="Screenshot of org-wide app settings in GCCH and DoD.":::
-
-1. Select **Save** for org-wide app settings to take effect.
+To view more details of an app, click an app's name to access the app details page. You can allow or block the app for your users.
 
 ## Support information for apps
 
@@ -194,6 +204,8 @@ You may have queries about admin settings or configuration, user flows and app f
   * For Publisher Attested and Microsoft 365 certified apps, Microsoft provides the [security and compliance information of apps](overview-of-app-certification.md).
   * Testing of all apps as part of its [app validation program](overview-of-app-validation.md) to ensure that all apps work as advertised. If apps don't work as suggested in the app listing, then we contact app developers to request either an update to the app. If app developers don't make the requested updates after a few reminders, we proactively remove the apps from Teams.
   * Certification to apps using [Microsoft 365 app compliance program](overview-of-app-certification.md) ensures that apps are compliant with the industry-standard frameworks.
+
+### Developer provided app information, support, and documentation
 
 * App developers provide customer support, updates to the apps, security and compliance information, bug fixes, and so on. The app security and compliance information are available in the admin center in app details page as mentioned above. App developers publish app updates, bug fixes, and vulnerability fixes as per their business requirements, issue severity, and service agreements. For direct support requests and inquiry about app updates, contact the app developer at their website address available at the following two places:
 
@@ -207,8 +219,13 @@ You may have queries about admin settings or configuration, user flows and app f
 
 * **Privacy and data access considerations**: In the terms of use and privacy policy of any app, the app developer discloses what data their app uses and how it's handled. This information is available on app developer's website and you can access the URLs in the app details page in Teams admin center. Many app developers choose to undergo the Microsoft 365 app compliance program. The program checks and audits an app against controls that are derived from leading industry-standard frameworks. The detailed information about each such app is available at [Teams Apps Security and Compliance](/microsoft-365-app-certification/teams/teams-apps).
 
-## Related article
+* App developers can provide their contact information that you can use to chat with them. It helps you quickly evaluate an app and get the needed information from the app developers before you adopt and rollout an app. Some examples of such information are compliance and certification details, data handling details, clarity on pricing plans for paid apps, and app configuration instructions. You can start a chat with app developers by selecting **Start a Teams chat** but only if the app developer provided their contact information. We recommend that you don't share personal and sensitive information in the chat.
+
+   :::image type="content" source="media/chat-with-app-dev.png" alt-text="Screenshot showing the option in the app details page that let's you chat with app developer." lightbox="media/chat-with-app-dev-large.png":::
+
+## Related articles
 
 * [Manage user requests to allow apps](user-requests-approve-apps.md)
 * [Auto install approved apps in Teams](auto-install-approved-apps.md)
 * [Install and pin apps via setup policies](teams-app-setup-policies.md)
+* [Overview of policies to govern apps](app-policies.md).
