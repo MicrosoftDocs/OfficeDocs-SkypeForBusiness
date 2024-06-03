@@ -2,8 +2,8 @@
 title: Microsoft 365 Groups and Microsoft Teams
 ms.reviewer: rahulnayak
 ms.date: 08/10/2017
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 ms.topic: conceptual
 audience: admin

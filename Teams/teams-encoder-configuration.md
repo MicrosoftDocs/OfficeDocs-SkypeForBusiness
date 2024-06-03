@@ -15,7 +15,7 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: This article discusses encoder-based RTMP configuration for Microsoft Teams streaming events.
-localization_priority: medium
+ms.localizationpriority: medium
 appliesto: 
   - Microsoft Teams
 ms.custom:
@@ -24,7 +24,7 @@ ms.custom:
 # Configuring encoders for live event streaming in Microsoft Teams
 
 > [!NOTE]
-> Teams live events will be deprecated on September 30, 2024. We recommend that you use town halls instead. For details, see [Plan for Teams town halls](/microsoftteams/plan-town-halls).
+> Teams Live Events will no longer be deprecated on September 30, 2024, as previously announced. While we still recommend that customers upgrade to [Teams town hall](plan-town-halls.md) when ready to take advantage of new features and experiences, Live Events users can now schedule events beyond September 2024. For more information, please read our recent [blog post](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/extension-for-teams-live-events-retirement/ba-p/4148352).
 
 Teams accepts live feeds from various different encoders that output RTMP or RTMPS. Each encoder is different, so make sure to follow the guidelines for the encoder configurations when sending to Teams.
 
@@ -95,8 +95,11 @@ After you scheduled the live event using Teams or Viva Engage, and select the **
 ### Configuration tips
 
 - Whenever possible, use a hardwired internet connection.
-- When determining bandwidth requirements,  it's advisable to double the streaming bitrates. While doubling the streaming bitrates isn't a mandatory requirement, it helps mitigate network congestion.
+- When determining bandwidth requirements, it's advisable to double the streaming bitrates. While doubling the streaming bitrates isn't a mandatory requirement, it helps mitigate network congestion.
+
 - When using software-based encoders, close any unnecessary programs.
 - Don't change your encoder configuration after it starts pushing. It has negative effects on the event and can cause the event to be unstable. If you want to change encoder configurations before the event starts, you must disconnect using the producer controls in Teams and start setup again.
 - If the encoder is disconnected during the live event, reconnect it keeping the same timestamps of continuing process. Any discontinuity might cause audio or video issues on certain browsers and devices.
 - Give yourself ample time to set up your event. For high scale events, it's recommended to start the setup an hour before your event.
+- For customers using the vMix encoder for RTMP-In, make sure to select the FFMPEG6 option from the **Application** drop-down menu in the vMix encoder settings.
+

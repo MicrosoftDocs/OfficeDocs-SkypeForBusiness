@@ -73,7 +73,7 @@ When managing the event access type for town halls to decide whether organizers 
 
 ## Premium town halls and live events
 
-Live events will be deprecated on September 30, 2024. If you've been using live events for your organization, you might want to understand the differences and similarities between live events, town halls, and Premium town halls. With a Teams premium license, your users have access to extended town hall capabilities. The following table is a comparison of live events, town hall, and Premium town hall features:
+If you've been using live events for your organization, you might want to understand the differences and similarities between live events, town halls, and Premium town halls. With a Teams premium license, your users have access to extended town hall capabilities. The following table is a comparison of live events, town hall, and Premium town hall features:
 
 |Capability|Live Events|Town halls|Premium town halls|
 |:------| :---: | :---: | :---: |
@@ -155,6 +155,7 @@ Teams admins and organizers have different policies and settings to control the 
 |[Town hall usage report](teams-analytics-and-reports/teams-town-hall-usage-report.md)|View activity and usage trends for all town halls created in your organization.| No control. |
 |[Transcription and captions](meeting-transcription-captions.md)|Can allow or prevent transcription and closed captions for attendees.| Only AI generated captions are currently available. |
 |[VOD publishing](manage-vod-publishing.md) |Can manage the types of recordings organizers can publish. |Can publish and modify town hall recordings. |
+|[Voice isolation](voice-isolation.md)|Can control whether users can use voice isolation in town halls.|Can enable voice isolation.|
 
 ## Need help with your town hall?
 
