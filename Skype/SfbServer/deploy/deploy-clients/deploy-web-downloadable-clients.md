@@ -19,7 +19,7 @@ description: "Summary: Deploy the Skype for Business Web App and Skype Meetings 
 
 **Summary:** Deploy the Skype for Business 2015 Web App and Skype Meetings App used with Skype for Business Server.
 
-Skype for Business Web App is an Internet Information Services (IIS) web client that is installed on the server running Skype for Business Server and by default it is deployed on demand to meeting users who do not already have the Skype for Business client. These meeting users are more often than not connecting from outside your network. Whenever a user clicks a meeting URL but does not have the Skype for Business client installed, the user is presented with the option to join the meeting by using the latest version of Skype for Business Web App, Skype Meetings App, or Skype for Business for Mac.
+Skype for Business Web App is an Internet Information Services (IIS) web client that is installed on the server running Skype for Business Server. By default it's deployed on demand to meeting users who don't already have the Skype for Business client. These meeting users are more often than not connecting from outside your network. Whenever a user select a meeting URL but doesn't have the Skype for Business client installed, the user is presented with the option to join the meeting by using the latest version of Skype for Business Web App, Skype Meetings App, or Skype for Business for Mac.
 
 The voice, video, and sharing features in Skype for Business Web App require a Microsoft ActiveX control that is used as a plugin by the user's browser. You can either install the ActiveX control in advance or allow users to install it when prompted, which happens the first time they use Skype for Business Web App or the first time they access a feature that requires the ActiveX control.
 
@@ -29,24 +29,24 @@ The voice, video, and sharing features in Skype for Business Web App require a M
 ## Enable Multi-Factor Authentication for Skype for Business Web App
 <a name="MFA"> </a>
 
-Skype for Business Web App,  Skype Meetings App, and Skype for Business for Mac support multi-factor authentication. In addition to user name and password, you can require additional authentication methods, such as smart cards or PINs, to authenticate users who are joining from external networks when they sign in to Skype for Business meetings. You can enable multi-factor authentication by deploying Active Directory Federation Service (AD FS) federation server and enabling passive authentication in Skype for Business Server. After AD FS is configured, external users who attempt to join Skype for Business meetings are presented with an AD FS multi-factor authentication webpage that contains the user name and password challenge along with any additional authentication methods that you have configured.
+Skype for Business Web App,  Skype Meetings App, and Skype for Business for Mac support multifactor authentication. In addition to user name and password, you can require other authentication methods, such as smart cards or PINs, to authenticate users who are joining from external networks when they sign in to Skype for Business meetings. You can enable multifactor authentication by deploying Active Directory Federation Service (AD FS) federation server and enabling passive authentication in Skype for Business Server. After AD FS is configured, external users who attempt to join Skype for Business meetings are presented with an AD FS multifactor authentication webpage that contains the user name and password challenge along with any other authentication methods that you configure.
 
 > [!IMPORTANT]
 > The following are important considerations if you plan to configure AD FS for multi-factor authentication:
 
-- Multi-factor ADFS authentication works if the meeting participant and organizer are both in the same organization or are both from an AD FS federated organization. Multi-factor ADFS authentication does not work for Lync federated users because the Lync server web infrastructure does not currently support it.
+- Multi-factor ADFS authentication works if the meeting participant and organizer are both in the same organization or are both from an AD FS federated organization. Multi-factor ADFS authentication doesn't work for Lync federated users because the Lync server web infrastructure doesn't currently support it.
 
-- If you use hardware load balancers, enable cookie persistence on the load balancers so that all requests from the Skype for Business Web App or Meetings App clients are handled by the same Front End Server.
+- If you use hardware load balancers, enable cookie persistence on the load balancers so that all requests from the Skype for Business Web App or Meetings App clients is handled by the same Front End Server.
 
 - When you establish a relying party trust between Skype for Business Server and AD FS servers, assign a token life that is long enough to span the maximum length of your Skype for Business meetings. Typically, a token life of 240 minutes is sufficient.
 
-- This configuration does not apply to Lync mobile clients.
+- This configuration doesn't apply to Lync mobile clients.
 
 ### Configure Multi-Factor Authentication
 
 1. Install an AD FS federation server role. For details, see the [Active Directory Federation Services 2.0 Deployment Guide](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd807092(v=ws.10))
 
-2. Create certificates for AD FS. For more information, see ["Federation server certificates"](/previous-versions/azure/azure-services/jj205462(v=azure.100)) section of the Plan for and deploy AD FS for use with single sign-on topic.
+2. Create certificates for AD FS. For more information, see ["Federation server certificates"](/previous-versions/azure/azure-services/jj205462(v=azure.100)) section of the Plan for and deploy AD FS for use with single sign-on article.
 
 3. From the Windows PowerShell command-line interface, run the following command:
 
@@ -71,7 +71,7 @@ Skype for Business Web App,  Skype Meetings App, and Skype for Business for Mac 
 ## Disable BranchCache
 <a name="MFA"> </a>
 
-The BranchCache feature in Windows 7 and Windows Server 2008 R2 can interfere with Skype for Business Web App web components. To prevent issues for Skype for Business Web App users, make sure that BranchCache is not enabled.
+The BranchCache feature in Windows 7 and Windows Server 2008 R2 can interfere with Skype for Business Web App web components. To prevent issues for Skype for Business Web App users, make sure that BranchCache isn't enabled.
 
 For details about disabling BranchCache, see the [BranchCache Deployment Guide](/windows-server/networking/branchcache/deploy/branchcache-deployment-guide).
 
@@ -83,17 +83,17 @@ You can use the Test-CsUcwaConference cmdlet to verify that a pair of test users
 ## Troubleshooting Plug-in Installation on Windows Server 2008 R2
 <a name="MFA"> </a>
 
-If installation of the plug-in fails on a computer running Windows Server 2008 R2, you may need to modify the Internet Explorer security setting or the DisableMSI registry key setting.
+If installation of the plug-in fails on a computer running Windows Server 2008 R2, you might need to modify the Internet Explorer security setting or the DisableMSI registry key setting.
 
 ### Modify the security setting in Internet Explorer
 
 1. Open Internet Explorer.
 
-2. Click **Tools**, click **Internet Options**, and then click **Advanced**.
+2. Select **Tools**, select **Internet Options**, and then select **Advanced**.
 
 3. Scroll down to the **Security** section.
 
-4. Clear **Do not save encrypted pages to disk**, and then click **OK**.
+4. Clear **Do not save encrypted pages to disk**, and then select **OK**.
 
     > [!NOTE]
     > If selected, this setting will also cause an error when trying to download an attachment from Skype for Business Web App.
@@ -102,7 +102,7 @@ If installation of the plug-in fails on a computer running Windows Server 2008 R
 
 ### Modify the DisableMSI Registry setting
 
-1. Click **Start**, and then click **Run**.
+1. Select **Start**, and then select **Run**.
 
 2. To access the Registry Editor, type **regedit**.
 
@@ -115,7 +115,7 @@ If installation of the plug-in fails on a computer running Windows Server 2008 R
 ## Enable Skype Meetings App to replace Skype for Business Web App (Optional, Skype for Business Server 2015 only)
 <a name="SMA_Enable"> </a>
 
-This procedure is optional, and applies to Skype for Business Server 2015 CU5 and later. If you do not use it, external users will continue to join meetings using Skype for Business Web App.
+This procedure is optional, and applies to Skype for Business Server 2015 CU5 and later. If you don't use it, external users continue to join meetings using Skype for Business Web App.
 
 ### Enable simplified meeting join and Skype Meetings App
 

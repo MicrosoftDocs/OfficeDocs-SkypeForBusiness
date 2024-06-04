@@ -51,11 +51,11 @@ Setup and configurations that haven't followed the setup steps found in the docu
 
 ### Network Segments
 
-Before we can explain the call flow, we need to define some terms that will help you understand the network segments and types of media that are used in Skype for Business Online.
+Before we can explain the call flow, we need to define some terms that helps you understand the network segments and types of media that are used in Skype for Business Online.
 
 The call flow diagrams below show you four different network segments, each of which are managed by different organizations (your internal network, your network service provider, and their Internet peering partners, and Microsoft) that have different performance characteristics. For guidelines on network performance targets, refer to [Media Quality and Network Connectivity Performance in Skype for Business Online](media-quality-and-network-connectivity-performance.md).
 
-Below you can see each network segment that we will be talking about.
+Below you can see each network segment that we'll be talking about.
 
 ![Call Flow Network Segments.](../images/25689bf2-4753-4bea-b8d7-88dc8b6d2e2a.png)
 

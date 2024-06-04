@@ -279,9 +279,9 @@ If you're migrating from Skype for Business on VDI to Teams on VDI, besides the 
 - Per-platform policy to disable some AV features in VDI
 - Give and take control when app sharing
 
-### Teams on Chrome browser versus Teams desktop app for VDI
+### Teams on Web versus Teams desktop app for VDI
 
-Teams on Chrome browser doesn't provide a replacement for the Teams desktop app for VDI with AV optimization. The chat and collaboration experience works as expected. When media is needed, there are some experiences that might not meet user expectations on the Chrome browser:
+Teams on Web isn't a supported replacement for the Teams desktop app for VDI. Though the chat and collaboration experience may work as expected, there are some experiences that might not meet user expectations on the unsupported web client when media is needed:
 
 - The audio and video streaming experience might not be optimal. Users might experience delays or reduced quality.
 - Device settings aren't available in browser settings.
