@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
 ms.reviewer: henrikalim
-ms.date: 05/28/2024
+ms.date: 06/04/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -173,6 +173,4 @@ Teams Rooms on Windows devices also support custom backgrounds, see [Set up and 
 ## Teams Rooms on Windows XML Configuration
 
 To apply the configuration changes included in this article to your Teams Rooms for Windows devices, you need to use the Teams Rooms XML configuration file. The XML configuration file lets you remotely deploy configuration changes to one or more Teams Rooms devices in your organization. For more information, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md).
-
-### 
 
