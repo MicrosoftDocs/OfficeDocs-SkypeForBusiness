@@ -23,7 +23,7 @@ description: This article provides guidance on how to enable check-in and room r
 ---
 # Check-in and room release on Microsoft Teams panels
 
-When check-in and room release are enabled, users must check in at the room they reserved at the start of the meeting. They can do so on Teams panels using the 'Check in' button or, when Teams panels share a resource account with Teams Rooms, they can do so by joining a meeting on Teams Room. If a user doesn't check in within a set amount of time after the meeting start time, the meeting room declines the meeting invite, sends a cancellation message to the meeting organizer, and the room becomes available for others to reserve.## Requirements
+When check-in and room release are enabled, users must check in at the room they reserved at the start of the meeting. They can do so on Teams panels using the 'Check in' button or, when Teams panels share a resource account with Teams Rooms, they can do so by joining a meeting on Teams Room. If a user doesn't check in within a set amount of time after the meeting start time, the meeting room declines the meeting invite, sends a cancellation message to the meeting organizer, and the room becomes available for others to reserve.
 
 This feature can be used in a standalone Teams panel deployment or on a Teams panel that is sharing an account with Teams rooms. For rooms with multiple panels, check-in and room release will only work if the panel devices are all on app version 1449/1.0.97.2024050205 or later. For additional functionalities like check-in notifications, you can also pair Teams panels with Teams Rooms on Android with app version 1449/1.0.96.2022011305 or later.
 
@@ -43,9 +43,9 @@ Check-in and room release is off by default. To turn it on,
 
 In addition, you can use configuration profiles to apply this feature to a set of devices. For more information, see [Use configuration profiles in Teams](device-management.md#use-configuration-profiles-in-teams).
 
-Finally, for devices on app version 1449/1.0.97.2024050205 or later, you can also edit this setting through Powershell using the [Set-CalendarProcessing cmdle](/powershell/module/exchange/set-calendarprocessing?view=exchange-ps)t. 
+Finally, for devices on app version 1449/1.0.97.2024050205 or later, you can also edit this setting through Powershell using the [Set-CalendarProcessing cmdlet](/powershell/module/exchange/set-calendarprocessing?branch=main&branchFallbackFrom=pr-en-us-14644&view=exchange-ps). 
 
-__Note:__ It is strongly recommended to change this setting through any of the methods listed only during a 48-hour period where there are no meetings so that the change can sync to the backend.
+__Note:__ For devices on app version 1449/1.0.97.2024050205 or later, it is strongly recommended to change this setting through any of the methods listed only during a 48-hour period where there are no meetings so that the change can sync to the backend.
 
 ## Turn on check-in notifications
 
