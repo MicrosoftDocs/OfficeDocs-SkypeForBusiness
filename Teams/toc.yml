@@ -633,7 +633,7 @@ items:
         - name: Manage team template policies
           href: templates-policies.md
 
-- name: Meetings and audio conferencing
+- name: Meetings and Audio Conferencing
   items: 
     
     - name: Meetings, webinars, and town halls
@@ -843,7 +843,7 @@ items:
           href: teams-encoder-configuration.md
         - name: Troubleshooting
           href: teams-stream-troubleshooting.md
-    - name: Audio conferencing
+    - name: Audio Conferencing
       items: 
         - name: Audio Conferencing in Microsoft 365
           href: audio-conferencing-in-office-365.md
@@ -863,7 +863,7 @@ items:
               href: set-up-audio-conferencing-in-teams.md
         - name: Manage
           items:
-            - name: Manage your audio conferencing service
+            - name: Manage your Audio Conferencing service
               items:
                 - name: Extended dial-out minutes for US and Canada
                   href: dial-out-minutes-canada-us.md
@@ -871,7 +871,7 @@ items:
                   href: audio-conferencing-subscription-dial-out.md
                 - name: Audio Conferencing pay-per-minute
                   href: audio-conferencing-pay-per-minute.md
-            - name: Manage your audio conferencing bridge
+            - name: Manage your Audio Conferencing bridge
               items: 
                 - name: Change the phone numbers on your Audio Conferencing bridge
                   href: change-the-phone-numbers-on-your-audio-conferencing-bridge.md
@@ -907,7 +907,7 @@ items:
                   href: outbound-calling-restriction-policies.md
                 - name: Send an email to a user with their Audio Conferencing information
                   href: send-an-email-to-a-user-with-their-dial-in-information-in-teams.md
-            - name: Manage meetings settings for audio conferencing
+            - name: Manage meetings settings for Audio Conferencing
               items: 
                 - name: Dialing out from a meeting so other people can join it
                   href: dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md

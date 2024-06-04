@@ -29,7 +29,7 @@ description: Lists the country and regions for Audio Conferencing Zone A.
 
 The following countries and regions are included in the Standard Audio Conferencing license. These countries and regions are described as in Zone A.  **IS THIS AN ACCURATE DESCRIPTION?  UPDATE IF NECESSARY**  For information about Audio Conferencing availability in all countries and regions, see [Country and region availability for Audio Conferencing](calling-plan-overview.md).
 
-**Zone A**
+**Zone A countries and regions**
 
 - Australia
 - Austria
