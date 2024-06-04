@@ -95,20 +95,20 @@ When the explicit consent policy is enabled, once a user either starts the meeti
 
 The consent choice for each attendee is included in the attendance report. Attendees not in the attendance report—due to the admin policy or opting out— are required to provide consent. When the attendance report is disabled or attendees aren't in the attendance report, organizers and co-organizers don't see consent data, but as an admin, you can still see consent data in the audit logs.
 
-### Manage explicit recording consent
+### Manage explicit consent
 
-You can use the Teams admin center or the **`-ExplicitRecordingConsent`** parameter in the [**CsTeamsMeetingPolicy**](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet to manage recording consent.
+You can use the Teams admin center or the **`-ExplicitRecordingConsent`** parameter in the [**CsTeamsMeetingPolicy**](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet to manage explicit consent.
 
-The following table shows the behaviors of the settings for recording consent:
+The following table shows the behaviors of the settings for explicit consent:
 
 |Teams admin center value|PowerShell value| Behavior|
 |---------|---------------|---------------|
 |On|Enabled| For organizers with this policy, all their meetings require participants to provide explicit consent to be recorded.|
 |Off|Disabled| **This setting is the default value.** For organizers with this policy, participants aren't asked for explicit consent to be recorded. All participants are included in recordings from these organizers' meetings.|
 
-#### Manage explicit recording consent in the Teams admin center
+#### Manage explicit consent in the Teams admin center
 
-Follow these steps in the Teams admin center to turn explicit recording consent on or off for users or groups in your organization:
+Follow these steps in the Teams admin center to turn explicit consent on or off for users or groups in your organization:
 
 1. Open the Teams admin center.
 2. Expand **Meetings** from the navigation pane.
@@ -118,9 +118,9 @@ Follow these steps in the Teams admin center to turn explicit recording consent 
 6. Toggle the **Require participant agreement for recording** setting **On** or **Off**.
 7. Select Save.
 
-#### Manage explicit recording consent through PowerShell
+#### Manage explicit consent through PowerShell
 
-Through PowerShell, you can manage explicit recording consent for users or groups in your organization. The **`-ExplicitRecordingConsent`** parameter also controls recording consent for Audio Conferencing. To learn about explicit consent for Audio Conferencing, see [Explicit recording consent for Audio Conferencing](conferencing-recording-consent.md).
+Through PowerShell, you can manage explicit consent for users or groups in your organization. The **`-ExplicitRecordingConsent`** parameter also controls recording consent for Audio Conferencing. To learn about explicit consent for Audio Conferencing, see [Explicit recording consent for Audio Conferencing](conferencing-recording-consent.md).
 
 To require participants to give their explicit consent to be recorded or transcribed in any meeting that organizers with this policy create, use the following script:
 
