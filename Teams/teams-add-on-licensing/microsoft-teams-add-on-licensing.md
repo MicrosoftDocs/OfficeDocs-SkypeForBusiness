@@ -73,8 +73,8 @@ The following table displays Audio Conferencing license options.
 
 | License | Description |
 | ------- | ----------- |
-| **Standard Audio Conferencing License** | Includes:<br/> - Toll phone numbers to dial in meetings for all supported countries<br/> - Toll phone minutes for all supported countries<br/> - Operator Connect Conferencing<br/> - 60 outbound minutes per user per month to [Zone A countries](../audio-conferencing-zones.md). These minutes are pooled at the tenant level, so if there's one tenant with multiple Audio Conferencing users, the minutes are shared among all users. |
-| **Free Audio Conferencing License** | For outbound calls to the United States and Canada only. With this exception, this license includes the same capabilities as the *Standard Audio Conferencing License* plus toll-free phone numbers and toll-free minutes. |
+| **Standard Audio Conferencing License** | This license includes:<br/> - Toll phone numbers to dial in meetings for all supported countries.<br/> - Toll phone minutes for all supported countries.<br/> - Operator Connect Conferencing.<br/> - 60 outbound minutes per user per month to [Zone A countries](../audio-conferencing-zones.md). These minutes are pooled at the tenant level, so if there's one tenant with multiple Audio Conferencing users, the minutes are shared among all users. |
+| **Free Audio Conferencing License** | For outbound calls to the United States and Canada only. With this exception, this license includes:<br/> - The same capabilities as the *Standard Audio Conferencing License*.<br/> - Toll-free phone numbers. <br/> - Toll-free minutes. |
 
 After the 60 minutes of outbound minutes to Zone A countries have been used, your Audio Conferencing users won't be able to make calls or dial out from online Audio Conferencing meetings.
 
@@ -85,7 +85,7 @@ You can purchase additional licenses and assign them to your users so that they 
   - [What are Communication Credits](../what-are-communications-credits.md).
   - [Set up Communication Credits for your organization](../set-up-communications-credits-for-your-organization.md).
   - [Add funds and manage Communications Credits](../add-funds-and-manage-communications-credits.md).
-- ***Pay-As-You-Go * - Dial out and pay per minute for all outgoing calls. (More info needed re Pay-As-You-Go - is this the same as the Pay-As-You-Go Calling Plan mentioned below? Is then a Teams Phone Standard license required)**
+- ***Pay-As-You-Go* - Dial out and pay per minute for all outgoing calls. (More info needed re Pay-As-You-Go - is this the same as the Pay-As-You-Go Calling Plan mentioned below? Is then a Teams Phone Standard license required)**
 
 If you select either an E1 or E3 subscription, you need to purchase a separate Audio Conferencing license. An Audio Conferencing license is already included in the E5 subscription.
 
