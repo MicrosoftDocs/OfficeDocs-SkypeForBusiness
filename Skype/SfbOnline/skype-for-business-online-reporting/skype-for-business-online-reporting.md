@@ -28,7 +28,7 @@ description: "Use this reference guide to learn about Skype for Business Online 
 
 As an administrator for your organization, it would be handy to have a complete list of all of the different reports available in Skype for Business Online. This is includes all of the different reports and the information that you can get with each report.
   
-To access the Skype for Business Online reports, log on to the Microsoft 365 admin center using your user account and password. The account you use to log on must be assigned either assigned either the Global admin role, or delegate Skype for Business Service Administrator role in order to view the reports.
+To access the Skype for Business Online reports, log on to the Microsoft 365 admin center using your user account and password. The account you use to log on must be assigned either assigned the Skype for Business Service Administrator role in order to view the reports.
   
 > [!NOTE]
 > To verify permissions, in the admin center > **Users** > **Active users**. Click the display name of the user and then click **Edit** and one the account properties page, click **Roles**

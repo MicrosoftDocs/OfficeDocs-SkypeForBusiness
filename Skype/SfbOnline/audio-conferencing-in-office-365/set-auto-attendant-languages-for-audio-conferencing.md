@@ -43,7 +43,7 @@ Choose one primary language and up to four secondary languages. The primary lang
   
 ## Set the conferencing auto attendant languages
 
-You must be a [global admin](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) or [Skype for Business admin](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) to perform this step.
+You must be a [Skype for Business admin](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) to perform this step.
     
 1. In the **Skype for Business admin center**, in the left navigation, go to **Legacy portal**. Once in the legacy portal, select **Audio conferencing**, and then select **Microsoft bridge**.
     
