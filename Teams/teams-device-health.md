@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
 ms.reviewer: snchatur
-ms.date: 08/17/2021
+ms.date: 05/15/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -19,7 +19,7 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: This article will guide you in managing the health of Teams devices, devices that have Microsoft Teams installed on them.
-localization_priority: Normal
+ms.localizationpriority: Medium
 ---
 
 # Manage the health of Teams devices

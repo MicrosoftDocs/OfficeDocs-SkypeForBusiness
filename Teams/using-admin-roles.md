@@ -3,8 +3,8 @@ title: Use Microsoft Teams administrator roles to manage Teams
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.date: 09/19/2018
-ms.topic: article
+ms.date: 04/17/2024
+ms.topic: concept-article
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -59,7 +59,7 @@ For more information about limits, specifications, and other requirements that a
 
 ## Assign users to each role
 
-You can assign users to these roles in Microsoft Entra ID. To learn how to assign administrative roles to a user in Microsoft Entra ID, see [Assign a user to administrator roles in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).
+You can assign users to these roles in Microsoft Entra ID. To learn how to assign administrative roles to a user in Microsoft Entra ID, see [Assign user roles with Microsoft Entra ID](/entra/fundamentals/users-assign-role-azure-portal).
 
 ## Cmdlets available for each role
 

@@ -162,7 +162,7 @@ You as an admin can delete custom apps from your organization's store. On the ap
 
 This table summarizes the custom app settings and how the settings work together. The combined effect controls who in your organization can upload custom apps to Teams.
 
-| Org-wide setting for custom app upload | Team-level custom app setting | User-level custom app settings via app setup policy | Effect |
+| Org-wide app setting for custom app upload | Team-level custom app setting | User-level custom app settings via app setup policy | Effect |
 |---------------------------------------------|-------------------------------|-------------------------------------------------|--------|
 | Off    | Off    | Off     | Upload custom apps option is unavailable in your organization. Users can submit custom apps for admin approval. |
 | Off     | Off     | On        |Upload custom apps option is unavailable in your organization. Users can submit custom apps for admin approval. |
@@ -187,9 +187,9 @@ Consider a scenario where you want to allow only team owners to upload custom ap
 * Turn off the **Allow members to upload custom apps** for every team to which you want to restrict access.
 * Create and assign a custom policy in app setup policy in admin center with the **Upload custom apps** setting turned on and assign the policy to the team owners.
 
-## Custom apps in Gallatin and air-gapped cloud environments
+## Custom apps in 21Vianet and air-gapped cloud environments
 
-You can [upload custom apps](#upload-a-custom-app-using-teams-admin-center) in these cloud environments by the Teams apps > Manage apps page. Also, you can [update your existing custom app](#update-a-custom-app-to-a-new-version) from the app details page.
+You can [upload custom apps](#upload-a-custom-app-using-teams-admin-center) in Microsoft 365 operated by 21Vianet and air-gapped cloud environments by using the Teams apps > Manage apps page. Also, you can [update your existing custom app](#update-a-custom-app-to-a-new-version) from the app details page.
 
 ## Related article
 

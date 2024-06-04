@@ -313,7 +313,7 @@ App setup policies control how apps are made available to a user with the Teams 
 #### Related articles for setup policies
 
 - [Use app setup policies to pin and auto-install apps in Teams](teams-app-setup-policies.md)
-- [Use of Teams apps for external attendees or guest from outside an organization](non-standard-users.md)
+- [Use of Teams apps for external attendees or guest from outside an organization](apps-external-users.md)
 - [Understand Microsoft Teams apps and their capabilities](apps-in-teams.md)
 
 ### Customize app store
@@ -468,13 +468,16 @@ Meeting policies are used to control what features are available in meetings org
 |Whiteboard|On|Controls whether a user can share the Whiteboard in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer. Read more on [how to manage the Whiteboard in Microsoft Teams](manage-whiteboard.md).|
 |Collaborative annotations|On|When **On**, participants can collaborate while sharing their screen during a Teams meeting.|
 |Shared notes|On|When **On**, attendees can create shared meeting notes through the meeting details.|
+|Live Share|On|When **On**, users can edit a document from within the Teams meeting window, thereby enabling real-time coauthoring in the meeting.|
 |Organizer can restrict participants from copying or forwarding meeting chat messages|On|When this setting is on, meeting organizers can turn off message copying and forwarding, which includes using keyboard shortcuts, right click, or the more actions menu to copy or forward messages.|
+
 
 **PowerShell-only content sharing policies**
 
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
 |AllowMeetingCoach|True|This setting lets users turn on Speaker Coach during a Teams meeting. Read more on [how to turn Speaker Coach on or off](meeting-speaker-coach.md).|
+|AllowDocumentCollaboration|True/False|This setting lets users edit a document from within the Teams meeting window, thereby enabling real-time coauthoring in the meeting.|
 
 ##### Related articles for content sharing policies
 
@@ -497,7 +500,7 @@ Meeting policies are used to control what features are available in meetings org
 |Store recordings outside your country/region|Off|If you want to store meeting recordings outside of your country/region, turn on both this setting and **Meeting recording**. This setting isn't applicable to recordings stored in OneDrive or SharePoint.|
 |Transcription|Off|Controls whether captions and transcription features are available during playback of meeting recordings. The person who started the recording needs this setting turned on for these features to work with their recording.|
 |Live captions|Off, but organizers and co-organizers can turn them on|This setting is a per-user policy and applies during a meeting. This setting controls whether the **Turn on live captions** option is available for the user to turn on and turn off live captions in meetings that the user attends.|
-|Copilot|On with transcript|Controls the default value for Copilot in your organizers’ meeting options.|
+|Copilot|On only with retained transcript|Controls the default value for Copilot in your organizers’ meeting options.|
 
 **PowerShell-only recording & transcription policies**
 
@@ -635,12 +638,12 @@ Meeting settings allow you to customize meeting email invitations and configure 
 
 **Navigation:** Teams admin center > Meetings > Meeting settings
 
-:::image type="content" source="media/email-invitation-tac.png" alt-text="Screenshot of Teams meeting settings for email invitations in the Teams admin center." lightbox="media/email-invitation-tac-expand.png":::
+:::image type="content" source="media/email-inv-tac-small.png" alt-text="Screenshot of Teams meeting settings for email invitations in the Teams admin center." lightbox="media/email-inv-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Logo URL|(none)|The URL where your organization's logo is stored. Displayed in meeting invites.|
-|Legal URL|(none)|The URL for your organization's legal site. Displayed in meeting invites.|
+|Privacy and security URL|(none)|The URL for your organization's legal site. Displayed in meeting invites.|
 |Help URL|(none)|The URL for your organization's help or support site. Displayed in meeting invites.|
 |Footer|(none)|Footer text to be included in meeting invitations. Displayed in meeting invites.|
 

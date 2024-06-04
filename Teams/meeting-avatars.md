@@ -1,5 +1,5 @@
 ---
-title: Set up avatars for Microsoft Teams 
+title: Manage the Avatars app for Microsoft Teams 
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
@@ -18,7 +18,7 @@ ms.collection:
 description: Learn how to set up the avatars for Microsoft Teams app.
 ---
 
-# Set up avatars for Microsoft Teams
+# Manage the Avatars app in Microsoft Teams
 
 Avatars for Microsoft Teams lets your users connect with presence in Teams without having to turn on their cameras. Your users can represent themselves the way they want to show by choosing the avatar that fits their specific meeting. To learn more about avatars in Microsoft Teams, see how to [Join a meeting as an avatar](https://support.microsoft.com/office/5384e7b7-30c7-4bcb-8065-0c9e830cc8ad).
 > [!NOTE]

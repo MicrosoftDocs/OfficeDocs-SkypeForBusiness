@@ -1,7 +1,7 @@
 ---
 title: Start Audio Conference over the phone without a PIN in Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jenz
+author: jenzamora
 manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 02/22/2024
@@ -9,6 +9,7 @@ ms.topic: article
 ms.assetid: d5b1f775-d7ed-4d30-853a-1d49f81e8fde
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
@@ -73,7 +74,7 @@ For more information, see [Microsoft Teams PowerShell reference](/powershell/mod
 
 ## Want to know more about Windows PowerShell?
 
-Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 by using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
+Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 by using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these articles:
 
 - [Why you need to use Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
@@ -81,6 +82,6 @@ Windows PowerShell is all about managing users and what users are allowed or not
 
 For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](/powershell/module/teams).
   
-## Related topics
+## Related articles
 
 - [Try or purchase Audio Conferencing in Microsoft 365 for Microsoft Teams](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
