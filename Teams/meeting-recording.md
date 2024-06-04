@@ -95,35 +95,6 @@ When the explicit consent policy is enabled, once a user either starts the meeti
 
 The consent choice for each attendee is included in the attendance report. Attendees not in the attendance report—due to the admin policy or opting out— are required to provide consent. When the attendance report is disabled or attendees aren't in the attendance report, organizers and co-organizers don't see consent data, but as an admin, you can still see consent data in the audit logs.
 
-### Supported and unsupported endpoints
-
-The following user types are auto consented for recording and transcription without any participant interaction. They get a consent notification, and their consent data is logged as 'not applicable' or 'auto consent':
-
-- Teams Rooms on Windows
-- Teams Rooms on Android
-- Third party video conferencing devices via Cloud Video Interop (CVI)
-- Third party video conferencing devices connecting via Direct Guest Join (DGJ)
-
-#### Supported endpoints
-
-Explicit recording consent is supported on the following endpoints:
-
-- Teams native Windows
-- Teams native Mac
-- Teams Web
-- Mobile Teams (Android and iOS)
-- Meeting participants dialing in using Audio Conferencing
-
-#### Unsupported endpoints
-
-In meetings requiring explicit consent, users joining from unsupported endpoints have the view only experience. Explicit recording consent isn’t supported on the following endpoints, along with any endpoints not listed under supported endpoints:
-
-- Teams Phone devices (including audio conferencing phone devices)
-- Teams Displays
-- VDI
-- CarPlay
-- Old version native clients
-
 ### Manage explicit recording consent
 
 You can use the Teams admin center or the **`-ExplicitRecordingConsent`** parameter in the [**CsTeamsMeetingPolicy**](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet to manage recording consent.
@@ -149,9 +120,9 @@ Follow these steps in the Teams admin center to turn explicit recording consent 
 
 #### Manage explicit recording consent through PowerShell
 
-Through PowerShell, you can manage explicit recording consent for users or groups in your organization. The **`-ExplicitRecordingConsent`** parameter also controls recording consent for Audio Conferencing. To learn about explicit recording consent for Audio Conferencing, see [Explicit recording consent for Audio Conferencing](conferencing-recording-consent.md).
+Through PowerShell, you can manage explicit recording consent for users or groups in your organization. The **`-ExplicitRecordingConsent`** parameter also controls recording consent for Audio Conferencing. To learn about explicit consent for Audio Conferencing, see [Explicit recording consent for Audio Conferencing](conferencing-recording-consent.md).
 
-To enable **`-ExplicitRecordingConsent`** so that any meeting an organizer with this policy creates requires participants to give explicit consent to be recorded, run the following script:
+To require participants to give their explicit consent to be recorded or transcribed in any meeting that organizers with this policy create, use the following script:
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -ExplicitRecordingConsent Enabled
@@ -162,6 +133,37 @@ Set-CsTeamsMeetingPolicy -Identity <policy name> -ExplicitRecordingConsent Enabl
 There are two ways for you to view consent data. The first way is in the [Teams meeting attendance and engagement report](/microsoftteams/teams-analytics-and-reports/meeting-attendance-report). The second is with the **Added information about meeting participants** filter in the Teams meeting audit logs in Purview. Consent data is in the audit logs regardless of your policy that manages the attendance and engagement report or your users' option for tracking attendance. To learn more about audit logs in Purview, see [Audit log activities](/purview/audit-log-activities#microsoft-teams-activities).
 
 :::image type="content" source="media/audit-rec-small.png" alt-text="Screenshot of Teams meeting audit logs in Purview that show consent data." lightbox="media/audit-rec-expand.png":::
+
+### Supported and unsupported endpoints and platforms
+
+#### Auto consent endpoints and platforms
+
+The following user types are auto consented for recording and transcription without any participant interaction. They get a consent notification, and their consent data is logged as 'not applicable' or 'auto consent':
+
+- Teams Rooms on Windows
+- Teams Rooms on Android
+- Third party video conferencing devices via Cloud Video Interop (CVI)
+- Third party video conferencing devices connecting via Direct Guest Join (DGJ)
+
+#### Supported endpoints and platforms
+
+Explicit consent is supported on the following endpoints:
+
+- Teams native Windows
+- Teams native Mac
+- Teams Web
+- Mobile Teams (Android and iOS)
+- Meeting participants dialing in using [Audio Conferencing](conferencing-recording-consent.md)
+
+#### Unsupported endpoints and platforms
+
+In meetings requiring explicit consent, users joining from unsupported endpoints have the view-only experience. Explicit consent isn’t supported on the following endpoints, along with any endpoints not listed under supported endpoints:
+
+- Teams Phone devices (including audio conferencing phone devices)
+- Teams Displays
+- VDI
+- CarPlay
+- Old version native clients
 
 ## Block or allow download of channel meeting recordings
 
