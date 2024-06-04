@@ -48,6 +48,7 @@ The following sections in this article describe the Teams Premium enhancements f
 - [Premium events](#premium-events)
 - [Virtual Appointments](#advanced-virtual-appointments)
 - [Intelligent meeting features](#intelligent-meeting-features)
+- [Custom 3D Immersive Mesh Experiences](#custom-3d-immersive-mesh-experiences)
 
 For more general information about Teams meetings and premium events, see the following articles:
 
@@ -228,6 +229,22 @@ Teams Premium provides the following key AI-powered meetings features:
 | Live translated transcription | Yes |  [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md) | [View live transcription in Microsoft Teams meetings](https://support.microsoft.com/office/view-live-transcription-in-microsoft-teams-meetings-dc1a8f23-2e20-4684-885e-2152e06a4a8b)|
 
 <sup>1</sup>If you toggle the **Transcription** and **Recording** settings to **Off** in your **Meeting policies**, intelligent meeting recap isn't available for users with this policy.
+
+## Custom 3D Immersive Mesh Experiences
+
+With a Teams Premium license, your users can host customized single or multi-room mixed-reality events in the Mesh app for up to 200 attendees.
+
+Teams Premium provides custom 3D Immersive Mesh Experiences capabilities, such as:
+
+- **Create custom experiences using the Mesh toolkit**- Your users can build imaginative settings, add 3D models, and develop activities for visitors.
+- **Interact with engaging and dynamic environments**- Your users can join other custom immersive events that are synchronized across all attendees simultaneously.
+- **Add event objects**- Your users can add event objects like playing a video, displaying images, and showing a screenshare simultaneously.
+- **Spatial audio**- Spatial audio provides directionality and distance to interactions in Mesh, so event attendees can have multiple small group discussions to occur in the same place.
+
+| Feature/Task  | Can admins turn this feature on/off? | Documentation for admins |Documentation for end users |
+| -------------------- | ----------- | ----------- |----------- |
+| Set up Mesh | Yes, use [App centric management](app-centric-management.md) to allow or prevent users from using this feature.| [Configure Microsoft Mesh](/mesh/setup/content/setup-m365-mesh)<br>[Preparing your organization for Mesh](/mesh/setup/content/preparing-your-organization) | No end user control.|
+| Create your event | Yes| No admin control. |[Overview of Mesh events](/mesh/events-guide/events-overview) |
 
 ## More resources
 
