@@ -8,7 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.subservice: teams-apps
 ms.service: msteams
 audience: Admin
-ms.date: 01/10/2024
+ms.date: 06/05/2024
 ms.reviewer: mhayrapetyan
 ms.collection: 
   - M365-collaboration
@@ -100,19 +100,17 @@ Users can add apps on their own if the [app permission policy](teams-app-permiss
 
 To add apps for your users using an app setup policy, follow these steps:
 
-1. Sign in to Teams admin center and access **Teams apps** > **[Setup policies](https://admin.teams.microsoft.com/policies/app-setup)**.
+1. Sign in to Teams admin center, access **Teams apps** > **[Setup policies](https://admin.teams.microsoft.com/policies/app-setup)**, and Select **Add**.
 
-1. Select **Add**.
-
-1. Provide a name and description for the policy.
+1. Provide a name and description of the policy.
 
 1. Under **Installed apps**, select **Add apps**.
 
-1. In the **Add installed apps** pane, search the apps that you want to add for users. You can also filter apps by app permission policy.
+1. In the **Add installed apps** pane, search the apps that you want to add in the Teams client of the allowed users.
+
+   :::image type="content" source="media/admin-installed-apps.png" alt-text="Screenshot showing how admins can auto-install apps using app setup policy." lightbox="media/admin-installed-apps-large.png":::
 
 1. Select **Add**.
-
-:::image type="content" source="media/install-apps-in-meeting.png" alt-text="Screenshot showing an example of a list of apps that are installed using app setup policy.":::
 
 ## Use app setup policy to allow independent bots
 
@@ -198,7 +196,7 @@ When you unassign policies in bulk, you're removing policy assignments that were
 
 * You can't add custom apps with configurable tabs using app setup policies.
 
-* Users can't remove an app if an admin adds it.
+* Users can't remove an app from their client if an admin adds it. The `Uninstall` option for an app in the app bar is not available.
 
 * Users can unpin an app that is pinned via app setup policy if user pinning is allowed in the policy.
 
@@ -208,8 +206,6 @@ When you unassign policies in bulk, you're removing policy assignments that were
 
 * The user pinning setting is available in the Teams admin center in Microsoft 365 Government Community Cloud (GCC) environments (GCC, GCC High, and DoD), but it has no effect.
 
-* In Teams for Education, the [Assignments app](expand-teams-across-your-org/assignments-in-teams.md) is pinned by default even though it isn't listed in the Global policy.
-
 * There's no limit on the maximum number of pinned apps that you can add to a policy. However, at least two apps must be pinned to the Teams mobile client (iOS and Android). If a policy has fewer than two apps, the mobile client doesn't reflect the policy settings. Instead, the mobile client continues to use the existing configuration.
 
 * After you edit or assign a policy, it can take a few hours for changes to take effect. Also, the rollback takes a few hours to take effect if you choose to roll back the policy application.
@@ -218,7 +214,9 @@ When you unassign policies in bulk, you're removing policy assignments that were
 
 * Not all apps can be pinned to Teams through an app setup policy. Some apps don't support this functionality. To find apps that can be pinned, search for the app in the **Add pinned apps** pane. Tabs that have a personal scope (static tabs) and bots can be pinned to the Teams desktop client and these apps are available in the **Add pinned apps** pane. While the Teams app store lists all Teams apps, the **Add pinned apps** pane includes only apps that can be pinned to Teams through a policy.
 
-* In Teams for Education, the Calling app isn't available. When you create a new custom policy in the app setup policy, the Calling app is displayed in the list of apps. However, the app isn't pinned to Teams clients and Teams for Education users can't see the Calls app in Teams.
+* In Teams for Education, the [Assignments app](expand-teams-across-your-org/assignments-in-teams.md) is pinned by default even though it isn't listed in the Global policy.
+
+* In Teams for Education, the `Calling` app isn't available. When you create a new custom policy in the app setup policy, the `Calling` app is displayed in the list of apps. However, Teams for Education users can't see the `Calls` app in Teams client as it is not pinned.
 
 ## Related article
 
