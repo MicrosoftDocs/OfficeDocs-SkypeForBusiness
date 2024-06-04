@@ -69,17 +69,16 @@ For users who schedule or lead meetings with attendees who need to call in using
 
 You can also choose to use a third-party operator for your Audio Conferencing numbers if your current operator is part of the Microsoft Operator Connect program. For more information, see [Plan for Operator Connect Conferencing](../operator-connect-conferencing-plan.md).
 
-The following table displays Audio Conferencing license options...
-**MK TO ADD AUDIO CONFERENCING TABLE**
+The following table displays Audio Conferencing license options.
 
 | License | Description |
 | ------- | ----------- |
-| **Standard Audio Conferencing License** | Includes toll phone numbers to dial in meetings for all supported countries, toll phone minutes for all supported countries, Operator Connect Conferencing, and 60 outbound minutes per user per month to [Zone A countries](../audio-conferencing-zones.md). These minutes are pooled at the tenant level, so if there's one tenant with multiple Audio Conferencing users, the minutes are shared among all users.|
+| **Standard Audio Conferencing License** | Includes:<br/> - Toll phone numbers to dial in meetings for all supported countries<br/> - Toll phone minutes for all supported countries<br/> - Operator Connect Conferencing<br/> - 60 outbound minutes per user per month to [Zone A countries](../audio-conferencing-zones.md). These minutes are pooled at the tenant level, so if there's one tenant with multiple Audio Conferencing users, the minutes are shared among all users. |
 | **Free Audio Conferencing License** | For outbound calls to the United States and Canada only. With this exception, this license includes the same capabilities as the *Standard Audio Conferencing License* plus toll-free phone numbers and toll-free minutes. |
 
 After the 60 minutes of outbound minutes to Zone A countries have been used, your Audio Conferencing users won't be able to make calls or dial out from online Audio Conferencing meetings.
 
-You can purchase additional licenses and assign them to your users so that they can dial out to non-Zone A countries **(any updates re Zones??)** using the following options:
+You can purchase additional licenses and assign them to your users so that they can dial out to non-Zone A countries using the following options:
 
 - *Communication Credits* - Pre-paid budget to support outgoing minutes. Dial out and **pay per minute (?)** once your users have exhausted your monthly minute allotment.
 - For more information on Communication Credits, see:
@@ -88,17 +87,18 @@ You can purchase additional licenses and assign them to your users so that they 
   - [Add funds and manage Communications Credits](../add-funds-and-manage-communications-credits.md).
 - ***Pay-As-You-Go * - Dial out and pay per minute for all outgoing calls. (More info needed re Pay-As-You-Go - is this the same as the Pay-As-You-Go Calling Plan mentioned below? Is then a Teams Phone Standard license required)**
 
-The following table displays which Teams subscription to purchase based on your Audio Conferencing license choice.
-**which licenses don't include Teams? are there ANY differences between Standard AC and Free AC license for subscription types? If not, can just list Subscription type/Teams subscription**
+If you select either an E1 or E3 subscription, you need to purchase a separate Audio Conferencing license. An Audio Conferencing license is already included in the E5 subscription.
 
-| License options | Subscription type | Teams subscription |
+The following table displays which subscription to purchase based on your Audio Conferencing license choice and your subscription audience.
+
+| License options | Subscription type | Subscription |
 | --------------- | ----------------- | ----------- |
-|**Standard Audio Conferencing License**|**Enterprise**| - Office 365 E1 plus Teams Phone Standard<br/> - Office 365 E3 plus Teams Phone Standard<br/> - Office 365 E5|
-||**Frontline**| - Microsoft 365 F1 plus Teams Phone Standard<br/> - Microsoft 365 F3 plus Teams Phone Standard<br/> - Office 365 F3 plus Teams Phone Standard|
-||**Other**| - Office 365 A1 plus Teams Phone Standard<br/> - Microsoft 365 A3 plus Teams Phone Standard<br/> - Microsoft G3 plus Teams Phone Standard|
-|**Free Audio Conferencing License**|**Enterprise**| - Office 365 E1 plus Teams Phone Standard<br/> - Office 365 E3 plus Teams Phone Standard<br/> - Office 365 E5|
-||**Frontline**| - Microsoft 365 F1 plus Teams Phone Standard<br/> - Microsoft 365 F3 plus Teams Phone Standard<br/> - Office 365 F3 plus Teams Phone Standard|
-||**Other**| - Office 365 A1 plus Teams Phone Standard<br/> - Microsoft 365 A3 plus Teams Phone Standard<br/> - Microsoft G3 plus Teams Phone Standard|
+|**Standard Audio Conferencing License**|**Enterprise**| - Office 365 E1<br/> - Office 365 E3<br/> - Office 365 E5|
+||**Frontline**| - Microsoft 365 F1<br/> - Microsoft 365 F3<br/> - Office 365 F3|
+||**Other**| - Office 365 A1<br/> - Microsoft 365 A3<br/> - Microsoft G3|
+|**Free Audio Conferencing License**|**Enterprise**| - Office 365 E1<br/> - Office 365 E3<br/> - Office 365 E5|
+||**Frontline**| - Microsoft 365 F1<br/> - Microsoft 365 F3<br/> - Office 365 F3|
+||**Other**| - Office 365 A1<br/> - Microsoft 365 A3<br/> - Microsoft G3|
 
 ## Teams Phone with PSTN connectivity licenses
 
