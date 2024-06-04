@@ -929,15 +929,15 @@ items:
               href: operator-connect-conferencing-configure.md
         - name: Reference
           items: 
-            - name: Audio Conferencing supported languages
+            - name: Supported languages for Audio Conferencing
               href: audio-conferencing-supported-languages.md
             - name: Phone numbers for Audio Conferencing
               href: phone-numbers-for-audio-conferencing-in-teams.md
-            - name: Country and region zones for Audio Conferencing
+            - name: Countries and regions in Zone A (standard licensing)
               href: audio-conferencing-zones.md
-            - name: Country and region availability for Audio Conferencing
+            - name: Country and region availability reference 
               href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-            - name: Audio Conferencing Complimentary Dial Out Period
+            - name: Complimentary Dial Out Period for Audio Conferencing
               href: complimentary-dial-out-period.md
 
 - name: Voice - Teams Phone and PSTN connectivity
