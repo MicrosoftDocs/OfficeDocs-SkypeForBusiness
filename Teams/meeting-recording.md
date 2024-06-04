@@ -87,25 +87,22 @@ For more information on call recording, see [Configure call recording, transcrip
 
 ---
 
-## Require participant agreement for recording
+## Require participant agreement for recording and transcription
 
-You can use the Teams admin center or PowerShell to manage whether meetings created by organizers with this assigned policy can require participants to provide explicit consent to be recorded.
+You can use the Teams admin center or PowerShell to manage whether meetings created by organizers with this assigned policy can require participants to provide explicit consent to be recorded and transcribed.
 
-When the explicit recording policy is enabled, once the meeting recording starts, all participants are muted, with their cameras and content-share off. When a participant decides to unmute, turn on their camera, or share content, they’re prompted to respond 'Yes' or 'No' to consent to be included in the meeting recording. If an attendee responds 'No' to the prompt, they have a view-only meeting experience. View only attendees can't start recordings for any meetings that require explicit consent.
+When the explicit consent policy is enabled, once a user either starts the meeting recording, transcription, or both, all participants are muted, with their cameras and content-share off. When a participant decides to unmute, turn on their camera, or share content, they’re prompted to respond 'Yes' or 'No' to consent to be included in the meeting recording and transcription. If an attendee responds 'No' to the prompt, they have a view-only meeting experience. View-only attendees can't start recording or transcription for any meetings that require explicit consent.
 
-The consent choice for each attendee is included in the attendance report. Attendees not in the attendance report—due to the admin policy or opting out—have a view-only meeting experience. When the attendance report is disabled, organizers and co-organizers don't see consent info, but as an admin, you can still see consent info in the audit logs.
-
-Before enabling this policy, make sure you check your chosen policy for the attendance report. To learn more about the attendance report, see [Attendance report for meetings and webinars in Microsoft Teams](teams-analytics-and-reports/meeting-attendance-report.md).
+The consent choice for each attendee is included in the attendance report. Attendees not in the attendance report—due to the admin policy or opting out— are required to provide consent. When the attendance report is disabled or attendees aren't in the attendance report, organizers and co-organizers don't see consent data, but as an admin, you can still see consent data in the audit logs.
 
 ### Supported and unsupported endpoints
 
-The following user types are auto consented for recording without any participant interaction. They get a recording notification, and their consent data is logged as 'not applicable' or 'auto consent':
+The following user types are auto consented for recording and transcription without any participant interaction. They get a consent notification, and their consent data is logged as 'not applicable' or 'auto consent':
 
 - Teams Rooms on Windows
 - Teams Rooms on Android
 - Third party video conferencing devices via Cloud Video Interop (CVI)
 - Third party video conferencing devices connecting via Direct Guest Join (DGJ)
-- Meeting participants dialing in using the Public Switched Telephone Network (PSTN) conferencing dial-in
 
 #### Supported endpoints
 
@@ -115,6 +112,7 @@ Explicit recording consent is supported on the following endpoints:
 - Teams native Mac
 - Teams Web
 - Mobile Teams (Android and iOS)
+- Meeting participants dialing in using Audio Conferencing
 
 #### Unsupported endpoints
 
