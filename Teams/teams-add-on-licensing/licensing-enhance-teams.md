@@ -124,7 +124,7 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Turn on third party or Microsoft eCDN for town halls | ✔️ |  |
 | Use RTMP-In for town halls | ✔️ |  |
 | Town hall Q&A capacity of 10k attendees | ✔️ |  |
-| View live translated captions in six languages | ✔️ |  |
+| Organizers can pre-select six languages for live translated captions | ✔️ |  |
 | Broadcast town halls to 20k attendees |  | ✔️ |
 | Host up to 50 town halls simultaneously |  | ✔️ |
 | Town hall Q&A capacity of 20k attendees |  | ✔️ |
@@ -133,7 +133,7 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | View Microsoft Town hall insights |  | ✔️ |
 | Town hall organizers can view engagement reports |  | ✔️ |
 | Edit town hall emails |  | ✔️ |
-| View live translated captions in 10 languages |  | ✔️ |
+| Organizers can pre-select 10 languages for live translated captions |  | ✔️ |
 
 \* *To take advantage of eCDN for all attendees, either a Teams Premium or standalone eCDN license is required. eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN licensing, see [Microsoft eCDN](https://www.microsoft.com/en-us/microsoft-teams/ecdn).*
 
