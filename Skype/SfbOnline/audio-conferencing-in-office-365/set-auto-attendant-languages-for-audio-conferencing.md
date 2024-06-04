@@ -21,7 +21,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: "See how to select the audio conferencing auto attendant languages for a audio conferencing number in Skype for Business Online."
+description: "See how to select the audio conferencing auto attendant languages for an audio conferencing number in Skype for Business Online."
 ---
 
 # Set auto attendant languages for Audio Conferencing in Skype for Business Online
@@ -56,7 +56,7 @@ You must be a [Skype for Business admin](https://support.office.com/article/da58
   
 4. Click **Save**.
     
-## Want else should I know?
+## What else should I know?
 
 - To see the list of supported languages for Audio Conferencing, see [Audio Conferencing supported languages](/MicrosoftTeams/audio-conferencing-supported-languages).
     
