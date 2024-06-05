@@ -71,7 +71,7 @@ For pricing information, see [Pricing for Audio Conferencing](https://go.microso
 
 ## Audio Conferencing bridges
 
-When you set up Audio Conferencing for Teams meetings, you get an Audio Conferencing bridge. The bridge answers the call for users who are dialing in to the meeting using a phone. The bridge answers the caller with voice prompts from an Auto attendant, and then, depending on your settings, can play notifications and ask callers to record their name.  
+When you set up Audio Conferencing for Teams meetings, you get an Audio Conferencing bridge. The bridge answers the call for users who are dialing in to the meeting using a phone. The bridge answers the caller with voice prompts from an Auto attendant, and then, depending on your settings, can play notifications, ask callers to record their name, and so on.  
 
 A conferencing bridge can contain one or more *service* phone numbers. A service phone number is a number assigned to a service, such as Audio Conferencing, rather than to an individual user. The phone number you set is included on the meeting invites for Teams apps. 
 
@@ -83,7 +83,7 @@ In addition to the phone numbers already assigned to your conferencing bridge, y
 | Do I need to add new conferencing bridge numbers?| To add new numbers, see [Get service phone numbers](./getting-service-phone-numbers.md).|
 | Will I need to modify the bridge settings?|To modify the bridge settings, see [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md).|
 | Do I need to port numbers to use with Audio Conferencing?| To learn about porting phone numbers, read [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).|
-||
+
 
 There are numerous settings that you can manage for your conferencing bridge, service, and users. You can use the default settings or change settings. For example, you might want to change the PIN that meeting organizers use to start meetings if they can't join the meeting using the Teams app. You might want to manage entry and exit announcement for meetings.  There are also numerous settings for managing Audio Conferencing for individual users. For more information, see the Manage section of the Audio Conferencing articles and [Manage settings for users](manage-the-audio-conferencing-settings-for-a-user-in-teams.md).
 
