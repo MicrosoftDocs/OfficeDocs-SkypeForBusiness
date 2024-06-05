@@ -152,10 +152,6 @@ To provide toll-free conference bridge phone numbers and to support conferencing
 |Do I want to configure an auto-recharge amount?|To configure an auto-recharge amount, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).|
 
 
-## Manage Audio Conferencing
-
-You might want to change Audio Conferencing settings based on your organization's needs and configuration. For exmple, you can change settings for the service, the bridge, your users, and for specific meetings. For more information, see the Manage section of the Audio Conferencing articles. 
-
 ## Meeting and call quality
 
 Teams provides several tools to monitor and manage call quality. For more information, see [Manage call quality](monitor-call-quality-qos.md).
