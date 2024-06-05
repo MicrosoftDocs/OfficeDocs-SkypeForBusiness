@@ -46,7 +46,7 @@ Previously, when using permission policies, you determined access to apps using 
 
 * Org-wide app setting for third party apps: It applies at an org-level and controls if all third party apps are available for every user or not.
 * App status: It applies at an app-level as allow or block and controls if it's available to any user or not.
-* Permission policy: It applies at a user-level and controls if a specific user is permitted to use an app or not.
+* Permission policy: It applies at a user-level and controls if a specific user is allowed to use an app or not.
 
 App centric management feature simplifies these settings. Each app contains its access definition using a list of users and groups that you assign to the app. It lets you manage each app individually based on your user's needs and organization's compliance and risk posture.
 
@@ -58,7 +58,7 @@ When using this functionality, you determine access to apps using one of the fol
 | `Specific users or groups` | Only the users and groups that you select can use the app. The supported group types are security groups, Microsoft 365 groups, dynamic user membership groups, nested groups, and the distribution lists. | Same as using a custom app permission policy to restrict the use of app to selected users or groups. |
 | `No one` | Not available to any user | Same as a blocked app. |
 
-The method to allow users access to an app changes with this functionality. In the past, to allow access to a user, you'd add the app as an allowed app in a policy and assign that policy to the user. Using this functionality, you just modify the availability of an app to let selected users use it. Also, you don't have to create multiple policies for different combinations across allowed apps and permitted users.
+The method to allow users access to an app changes with this functionality. In the past, to allow access to a user, you'd add the app as an allowed app in a policy and assign that policy to the user. Using this functionality, you just modify the availability of an app to let selected users use it. Also, you don't have to create multiple policies for different combinations of apps and allowed users.
 
 ## Migrate to app centric management
 

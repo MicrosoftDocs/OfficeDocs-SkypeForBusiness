@@ -150,7 +150,7 @@ Admin center settings may allow your users to collaborate with users from other 
 
 ## Auto install approved apps based on admin approval
 
-Auto install approved apps feature automatically adds approved apps in Teams client of the permitted users. The functionality respects all admin governance controls and only installs apps that the users use outside Teams. It reduces manual intervention to add an app and improves user productivity by preventing context-switching. To know more about the feature, see [Auto install approved apps in Teams](auto-install-approved-apps.md).
+Auto install approved apps feature automatically adds approved apps in Teams client of the allowed users. The functionality respects all admin governance controls, so it is made available only for the users who you allow to use the app. Also, the feature installs only those apps that a users uses outside Teams. It reduces manual intervention to add an app and improves user productivity by preventing context-switching. To know more about the feature, see [Auto install approved apps in Teams](auto-install-approved-apps.md).
 
 ## Stop app usage and remove apps
 

@@ -41,12 +41,13 @@ The following built-in app setup policies are available in the Microsoft Teams a
 
 ## Pin apps
 
-Using app pinning functionality, you can highlight apps that users need the most; make such apps available for users instantly; and make it available in the use's context. App pinning promotes ease of access and improves app adoption in your organization. Admins can pin apps and they can allow users to pin apps. If an admin pins an app, the app is added and pinned in the Teams client for the permitted users only. Pinning feature respects other governance controls such as permission policies. Pinned apps aren't available to users who aren't permitted to use the app.
+Using app pinning functionality, you can highlight apps that users need the most; make such apps available for users instantly; and make it available in the use's context. App pinning promotes ease of access and improves app adoption in your organization. Admins can pin apps and they can allow users to pin apps. If an admin pins an app, the app is added and pinned in the Teams client of the allowed users only. Pinning respects other governance controls and apps aren't available to users who aren't allowed to use the app.
+
 You can pin apps in the following UIs for the users:
 
-* **App bar**: When an app is pinned in the app bar in the Teams client, users can easily access it and use it.
-* **Message extension**: When an app is pinned as a messaging extension, users can quickly use it when composing their messages.
-* **Meeting extension**: When an app is pinned as a meeting extension, the meeting attendees can view it without leaving the meeting and quickly collaborate using the app. The functionality to pin apps in meetings is available only in Teams classic and not in the [new Teams client](new-teams-desktop-admin.md). The in-meeting bar displays only two apps and the rest of the apps, if added, display under the More option.
+* **App bar**: Users can easily access it and use it.
+* **Message extension**: Users can quickly use it when composing their messages.
+* **Meeting extension**: Meeting attendees can view it without leaving the meeting and quickly collaborate using the app. The functionality to pin apps in meetings is available only in Teams classic and not in the [new Teams client](new-teams-desktop-admin.md). The in-meeting bar displays only two apps and the rest of the apps, if added, display under the **More** option.
 
 > [!NOTE]
 > Pinning apps in meetings is a Preview feature. To use Preview features in your organization, see [Microsoft Teams Public preview](public-preview-doc-updates.md).
