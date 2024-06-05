@@ -85,7 +85,9 @@ In addition to the phone numbers already assigned to your conferencing bridge, y
 | Do I need to port numbers to use with Audio Conferencing?| To learn about porting phone numbers, read [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).|
 
 
-There are numerous settings that you can manage for your conferencing bridge, service, and users. You can use the default settings or change settings. For example, you might want to change the PIN that meeting organizers use to start meetings if they can't join the meeting using the Teams app. You might want to manage entry and exit announcement for meetings.  There are also numerous settings for managing Audio Conferencing for individual users. For more information, see the Manage section of the Audio Conferencing articles and [Manage settings for users](manage-the-audio-conferencing-settings-for-a-user-in-teams.md).
+There are numerous settings that you can manage for your conferencing bridge and for your users. You can use the default settings or change settings. 
+
+For example, you might want to change the PIN that meeting organizers use to start meetings if they can't join the meeting using the Teams app. You might want to manage entry and exit announcements for meetings. You might want to manage settings for users, such as notify users of setting changes, or disable toll-free numbers for users. For more information, see the Manage section of the Audio Conferencing articles and [Manage settings for users](manage-the-audio-conferencing-settings-for-a-user-in-teams.md).
 
 
 ### Phone numbers for Audio Conferencing bridges
