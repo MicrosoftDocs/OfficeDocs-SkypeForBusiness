@@ -21,6 +21,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "teams/manage-freemium.md",
+       "redirect_url": "/microsoftteams/user-access",
+       "redirect_document_id": false
+    },
+    {
       "source_path": "Teams/upload-custom-apps.md",
       "redirect_url": "/microsoftteams/teams-custom-app-policies-and-settings",
       "redirect_document_id": false
