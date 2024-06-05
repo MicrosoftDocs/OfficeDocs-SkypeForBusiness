@@ -65,7 +65,7 @@ Microsoft Teams PowerShell module is currently supported for use with Windows Po
 
 ## Offline Installation
 
-In some environments, it's not possible to connect to the PowerShell Gallery. In those situations, please follow these [manual installation steps](https://aka.ms/psgallery-manualdownload).
+In some environments, it's not possible to connect to the PowerShell Gallery. In those situations, follow these [manual installation steps](https://aka.ms/psgallery-manualdownload).
 
 ## Sign in
 
@@ -88,7 +88,7 @@ Update-Module MicrosoftTeams
 
 ## Uninstall Teams PowerShell
 
-To uninstall Microsoft Teams PowerShell, open a new PowerShell command prompt and run the following:
+To uninstall Microsoft Teams PowerShell, open a new PowerShell session and use the below method:
 
 ```powershell
 Uninstall-Module MicrosoftTeams
