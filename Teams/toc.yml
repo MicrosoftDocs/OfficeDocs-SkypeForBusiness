@@ -846,7 +846,7 @@ items:
     - name: Audio Conferencing
       items: 
         - name: Plan your deployment
-          href: deploy-audio-conferencing-teams-landing-page.md
+          href: audio-conferencing-in-office-365.md
         - name: Audio Conferencing common questions
           href: audio-conferencing-common-questions.md
         - name: Try or purchase Audio Conferencing in Microsoft 365
