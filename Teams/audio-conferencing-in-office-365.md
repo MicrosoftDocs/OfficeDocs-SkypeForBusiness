@@ -73,7 +73,7 @@ For pricing information, see [Pricing for Audio Conferencing](https://go.microso
 
 When you set up Audio Conferencing for Teams meetings, you get an Audio Conferencing bridge. The bridge answers the call for users who are dialing in to the meeting using a phone. The bridge answers the caller with voice prompts from an Auto attendant, and then, depending on your settings, can play notifications, ask callers to record their name, and so on.  
 
-A conferencing bridge can contain one or more *service* phone numbers. A service phone number is a number assigned to a service, such as Audio Conferencing, rather than to an individual user. The phone number you set is included on the meeting invites for Teams apps. 
+A conferencing bridge can contain one or more *service* phone numbers. A service phone number is a number assigned to a service, such as Audio Conferencing, rather than to an individual user. The phone number you set is included on the meeting invites for Teams. 
 
 In addition to the phone numbers already assigned to your conferencing bridge, you can get additional service numbers (toll and toll-free) from other locations. You can assign these numbers to the conferencing bridge so you can expand coverage for your users. For more information, see [Manage phone numbers for your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md). 
 
