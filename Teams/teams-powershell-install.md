@@ -94,7 +94,7 @@ To uninstall Microsoft Teams PowerShell, open a new PowerShell command prompt an
 Uninstall-Module MicrosoftTeams
 
 # Uninstall all versions of the module
-Uninstall-Module MicrosoftTeams -Allversions
+Uninstall-Module MicrosoftTeams -AllVersions
 ```
 
 ## Next Steps
