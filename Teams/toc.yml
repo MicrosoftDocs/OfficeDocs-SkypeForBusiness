@@ -908,7 +908,9 @@ items:
                 - name: Send an email to a user with their Audio Conferencing information
                   href: send-an-email-to-a-user-with-their-dial-in-information-in-teams.md
             - name: Manage meetings settings for audio conferencing
-              items: 
+              items:
+                - name: Explicit recording consent for audio conferencing 
+                  href: conferencing-recording-consent.md
                 - name: Dialing out from a meeting so other people can join it
                   href: dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md
                 - name: Turn on or off entry and exit announcements for meetings
