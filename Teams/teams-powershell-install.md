@@ -31,7 +31,7 @@ $PSVersionTable.PSVersion
 
 We recommend that you use the  Install-Module cmdlet to install the Microsoft Teams PowerShell module.
 
-If PowerShell Gallery (PSGallery) isn't configured as a trusted repository for **PowerShellGet**, the first time you use the PSGallery you'll see the following message:
+If PowerShell Gallery (PSGallery) isn't configured as a trusted repository for **PowerShellGet**, the first time you use the PSGallery you see the following message:
 
 ```console
 Untrusted repository
