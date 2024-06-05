@@ -32,7 +32,9 @@ This article is for administrators and IT professionals who are evaluating Audio
 
 Audio Conferencing enables users to join a Teams meeting from a phone using a Public Switched Telephone Network (PSTN) phone number. Audio Conferencing is sometimes called dial-in conferencing or PSTN conferencing. 
 
-Audio Conferencing requires an additional Teams add-on license for each person in your organization who is going to schedule/host an Audio Conferencing meeting. Meeting attendees who dial in don't need any licenses assigned to them. For more information, see [Audio Conferencing add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md). (Note that Audio Conferencing doesn't require a Teams Phone license.)   **MK UPDATING LICENSING DOC. ADD LINK TO AUDIO CONFERENCING SECTION WHEN PUBLISHED LIVE.**
+Audio Conferencing requires an additional Teams add-on license for each person in your organization who is going to schedule/host an Audio Conferencing meeting. Meeting attendees who dial in don't need any additional licenses assigned to them. For more information, see [Audio Conferencing add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md). (Note that Audio Conferencing doesn't require a Teams Phone license.)  
+
+**MK UPDATING LICENSING DOC. ADD LINK TO AUDIO CONFERENCING SECTION WHEN PUBLISHED LIVE.**
 
 This article describes Audio Conferencing concepts, scenarios, and prerequisites. After reading this article, for step-by-step instructions on how to set up Audio Conferencing, see [Set up Audio Conferencing](set-up-audio-conferencing-in-teams.md).
 
@@ -48,7 +50,7 @@ Calling in (dialing in) to meetings is useful for users who are on the road and 
 - People can join a meeting "hands free" using Bluetooth devices.
 - People find it's easier and more convenient for their situation.
 
-You only need to set up Audio Conferencing for people who plan to schedule or lead meetings. 
+You only need to set up Audio Conferencing for people who plan to schedule or lead meetings. You don't need to set up Audio Conferencing for attendees. 
 
 After attendees join the meeting, they can also dial out and invite other callers into a Teams meeting.
 For more information, see [Dial out from a Teams meeting so other people can join it](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md).
@@ -94,8 +96,8 @@ For example, you might want to change the PIN that meeting organizers use to sta
 
 With Audio Conferencing, your users can use toll and toll-free servive numbers to dial in to meetings. 
 
-- With toll numbers, invitees pay when calling the number
-- With toll-free numbers, invitees don't pay when calling the number
+- With toll numbers, invitees pay when calling the number.
+- With toll-free numbers, invitees don't pay when calling the number.
 
 Toll-free phone numbers are available, but only in some countries/regions. To see what is available in your country or region, see [Country and region availability for Audio Conferencing](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
@@ -106,7 +108,7 @@ In addition to toll and toll-free, phone numbers can be **dedicated** or **share
 
 - [**Shared numbers**](#shared-phone-numbers) are numbers that can be shared with users in *other* Microsoft 365 organizations. You *cannot* change the languages that are used when a user calls in to a shared number.
 
-The default Audio Conferencing number assigned to an organizer is included only in the meeting invite. However, a caller can use any of the phone numbers assigned to your conferencing bridge to join a meeting. Users can find the list of phone numbers available for joining a meeting using the **Find a local number** link included on every meeting invite.
+The default Audio Conferencing number assigned to a meeting organizer is included in the meeting invite. However, a caller can use any of the phone numbers assigned to your conferencing bridge to join a meeting. Users can find the list of phone numbers available for joining a meeting using the **Find a local number** link included on every meeting invite.
 
 For more information, see [Phone numbers for Audio Conferencing in Teams meetings](phone-numbers-for-audio-conferencing-in-teams.md).
 
@@ -119,7 +121,7 @@ You can change the languages that are used when someone calls in to a dedicated 
 
 You can get dedicated toll and toll-free phone numbers for your conferencing bridges in one of three ways:
 
-- **Use the Teams admin center.** For some countries/regions, you can get numbers for your conference bridges using the Teams admin center. See [Getting service phone numbers](./getting-service-phone-numbers.md).
+- **Use the Teams admin center.** For some countries/regions, you can get numbers for your conference bridges using the Teams admin center. See [Get service phone numbers](./getting-service-phone-numbers.md).
 
 - **Port your existing numbers.** You can port or transfer existing numbers from your current service provider or phone carrier to Microsoft 365. for more information on porting existing numbers, see [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) or [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
   
@@ -131,7 +133,7 @@ You can get dedicated toll and toll-free phone numbers for your conferencing bri
   
 Shared Audio Conferencing phone numbers are service numbers that can be shared with other Microsoft 365 organizations. Shared numbers are automatically assigned to organizations when they're enabled for Audio Conferencing. You can't change the languages that are used when someone calls in to a shared number.
 
-When you assign shared phone numbers, one number is assigned as the default number of the conferencing bridge. The default number must be from the country/region of the organization. The country or region location of the organization can be found by signing in to the **Microsoft 365 admin center** and looking under **Organization Profile**.
+When you assign shared phone numbers, you assign one number as the default number of the conferencing bridge. The default number must be from the country/region of the organization. The country or region location of the organization can be found by signing in to the **Microsoft 365 admin center** and looking under **Organization Profile**.
 
 For most countries and regions, shared numbers are automatically assigned as toll numbers. However, there are exceptions as noted below.
 
@@ -145,7 +147,7 @@ To see which countries/regions have phone numbers automatically assigned to orga
 
 ## Communications Credits
 
-To provide toll-free conference bridge phone numbers and to support conferencing dial-out to international phone numbers, you must set up Communications Credits for your organization. To learn more about Communications Credits, see [What are Communications Credits?](what-are-communications-credits.md).
+To provide toll-free conference bridge phone numbers, and to support conferencing dial-out to international phone numbers, you must set up Communications Credits for your organization. For more information, see [What are Communications Credits?](what-are-communications-credits.md).
 
 |Ask yourself|Action |
 |------------|-------|
