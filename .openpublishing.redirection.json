@@ -4756,6 +4756,11 @@
     "redirect_document_id": true
   },
   {
+    "source_path": "teams/teams-privacy.md",
+    "redirect_url": "/microsoftteams/privacy/location-of-data-in-teams",
+    "redirect_document_id": false
+  },
+  {
     "source_path": "teams/policy-control-overview.md",
     "redirect_url": "/microsoftteams/privacy/policy-control-overview",
     "redirect_document_id": true
