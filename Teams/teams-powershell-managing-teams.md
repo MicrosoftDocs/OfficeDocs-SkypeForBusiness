@@ -65,7 +65,7 @@ Find the cmdlets for managing policies in the [Microsoft Teams cmdlet module](/p
 
 A policy is a group of settings that can be applied granularly to individual users. Each policy type has its own set of cmdlets for creating, viewing, deleting, and updating the policies themselves, and then assigning those policies to users. The general structure is:
 
-- **GET** commands (for example, ``Get-CsTeamsMeetingPolicy``): Returns the policy documents that are available for you to assign in your organization, including the policies created by Microsoft for you to use as well as the custom policies you’ve created.
+- **GET** commands (for example, ``Get-CsTeamsMeetingPolicy``): Returns the policy documents that are available for you to assign in your organization, including the policies created by Microsoft for you to use and the custom policies you’ve created.
   - To find only the custom policies you’ve created in your organization, use ``-Filter "tag:*"``.
 
 - **NEW** commands (for example, ``New-CsTeamsMeetingPolicy``): Creates new policies for your organization to assign to users in your organization. Not all policies support the creation of custom policies. Often this is to ensure that the policies you use in your organization have a supported combination of settings.
