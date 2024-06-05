@@ -80,7 +80,7 @@ In certain scenarios, you might want to restrict what actions users can do in li
 
 ### Limitations
 
-With Lists, users get a desktop, web, and mobile experience. It's important to know that users can't create new lists or pin existing lists using Lists on the Teams mobile client. To view or edit a list on the Teams mobile client, a list must first be created or added using Lists on the Teams desktop or web client.
+With Lists, users get a desktop, web, and mobile experience. It's important to know that users can't create new lists or pin existing lists using Lists on the Teams mobile client. To view or edit a list on the Teams mobile client, a list must first be created or added using Lists in the Teams desktop or web client.
 
 Guests can't create or delete a list. They can add list items to existing lists, start new conversations about list items, and reply to existing conversations about list items.
 
@@ -106,7 +106,7 @@ To allow or block specific users in your organization from using Lists, make sur
 
 ## Search the audit log for list events
 
-Lists are enabled with enterprise level auditing so you can search for lists and list item events in the audit log in the Microsoft Purview portal or the Microsoft Purview compliance portal. To learn more, see [Search the audit log](/purview/audit-search).
+Lists are enabled with enterprise level auditing. You can search for lists and list item events in the audit log in the Microsoft Purview portal or the Microsoft Purview compliance portal. To learn more, see [Search the audit log](/purview/audit-search).
 
 For a list of audit events that are relevant to the Lists app in Teams, see [SharePoint list activities](/purview/audit-log-activities#sharepoint-list-activities).
 
@@ -126,4 +126,4 @@ To send us feedback or report an issue, select **Settings and more** (**…**) i
 
 ## Related articles
 
-- [Lists help documentation](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Lists)
+- [Lists help documentation](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)
