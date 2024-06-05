@@ -90,7 +90,7 @@ There are numerous settings that you can manage for your conferencing bridge, se
 
 ### Phone numbers for Audio Conferencing bridges
 
-With Audio Conferencing, your users can use toll and toll-free phone numbers to dial in to meetings. 
+With Audio Conferencing, your users can use toll and toll-free servive numbers to dial in to meetings. 
 
 - With toll numbers, invitees pay when calling the number
 - With toll-free numbers, invitees don't pay when calling the number
@@ -127,11 +127,11 @@ You can get dedicated toll and toll-free phone numbers for your conferencing bri
 
 #### Shared phone numbers
   
-Shared Audio Conferencing phone numbers are service numbers that can be shared with other Microsoft 365 organizations. Shared numbers are automatically assigned to organizations when they're enabled for audio conferencing. You can't change the languages that are used when someone calls in to a shared number.
+Shared Audio Conferencing phone numbers are service numbers that can be shared with other Microsoft 365 organizations. Shared numbers are automatically assigned to organizations when they're enabled for Audio Conferencing. You can't change the languages that are used when someone calls in to a shared number.
 
-When the phone numbers are assigned, a phone number is assigned as the default phone number of the conferencing bridge. The phone number assigned as the default number of the bridge is one from the country/region of the organization.  The country or region location of the organization can be found by signing in to the **Microsoft 365 admin center** and looking under **Organization Profile**.
+When you assign shared phone numbers, one number is assigned as the default number of the conferencing bridge. The default number must be from the country/region of the organization. The country or region location of the organization can be found by signing in to the **Microsoft 365 admin center** and looking under **Organization Profile**.
 
-For most countries and regions, toll numbers are automatically assigned as shared numbers to these other organizations.  
+For most countries and regions, toll numbers are automatically assigned as shared numbers to other organizations.  
 
 > [!IMPORTANT]
 > Due to limited availability of toll phone numbers in Venezuela, Indonesia, and United Arab Emirates (UAE), organizations from these countries/regions won't have an Audio Conferencing toll number automatically assigned to them. Toll-free numbers from these locations are available depending on available inventory.
