@@ -30,7 +30,7 @@ appliesto:
 
 This article is for administrators and IT professionals who are evaluating Audio Conferencing for Teams meetings. 
 
-Audio Conferencing enables users to join a Teams meeting from a phone using a Public Switched Telephone Network (PSTN) phone number. Audio Conferencing is sometimes called dial-in conferencing or PSTN conferencing. Audio Conferencing allows up to 1,000 phone attendees.  **NUKE LAST SENTENCE? LEAVE LIMITS TO LIMITS DOC?**
+Audio Conferencing enables users to join a Teams meeting from a phone using a Public Switched Telephone Network (PSTN) phone number. Audio Conferencing is sometimes called dial-in conferencing or PSTN conferencing. 
 
 Audio Conferencing requires an additional Teams add-on license for each person in your organization who is going to schedule/host an Audio Conferencing meeting. Meeting attendees who dial in don't need any licenses assigned to them. For more information, see [Audio Conferencing add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md). (Note that Audio Conferencing doesn't require a Teams Phone license.)   **MK UPDATING LICENSING DOC. ADD LINK TO AUDIO CONFERENCING SECTION WHEN PUBLISHED LIVE.**
 
