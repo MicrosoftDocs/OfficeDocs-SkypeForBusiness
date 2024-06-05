@@ -100,9 +100,11 @@ items:
                 - name: Update to the new Teams for Education
                   href: new-teams-education.md
                 - name: Update to the new Teams for Web
-                  href: new-teams-web.md                          
-                - name: Troubleshooting installation issues          
+                  href: new-teams-web.md
+                - name: Troubleshooting installation issues
                   href: /microsoftteams/troubleshoot/teams-administration/fix-new-teams-installation-issues
+                - name: Troubleshooting launch issues
+                  href: /microsoftteams/troubleshoot/teams-administration/resolve-new-teams-launch-issues
                 - name: Known issues in new Teams
                   href: new-teams-known-issues.md
                 - name: Classic Teams client end of availability
