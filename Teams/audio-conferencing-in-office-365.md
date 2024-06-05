@@ -131,12 +131,14 @@ Shared Audio Conferencing phone numbers are service numbers that can be shared w
 
 When you assign shared phone numbers, one number is assigned as the default number of the conferencing bridge. The default number must be from the country/region of the organization. The country or region location of the organization can be found by signing in to the **Microsoft 365 admin center** and looking under **Organization Profile**.
 
-For most countries and regions, toll numbers are automatically assigned as shared numbers to other organizations.  
+For most countries and regions, shared numbers are automatically assigned as toll numbers. However, there are exceptions as noted below.
 
-> [!IMPORTANT]
+> [!NOTE]
 > Due to limited availability of toll phone numbers in Venezuela, Indonesia, and United Arab Emirates (UAE), organizations from these countries/regions won't have an Audio Conferencing toll number automatically assigned to them. Toll-free numbers from these locations are available depending on available inventory.
 
 To see which countries/regions have phone numbers automatically assigned to organizations, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+
+**NOTE: I GOT CONFUSED ABOUT WHETHER ALL SHARED NUMBERS ARE TOLL NUMBERS. OUR DOCS SAY DIFFERENT THINGS. ARE SHARED NUMBERS ALWAYS TOLL NUMBERS?  EXCEPT FOR A FEW OUTLIER COUNTRIES?**
 
 
 ## Communications Credits
