@@ -1,5 +1,5 @@
 ---
-title: Plan for Audio Conferencing for Teams Meetings
+title: Plan for Audio Conferencing for Teams meetings
 ms.reviewer: 
 description: 
 ms.topic: article
