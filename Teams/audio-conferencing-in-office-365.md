@@ -32,7 +32,7 @@ This article is for administrators and IT professionals who are evaluating Audio
 
 Audio Conferencing enables users to join a Teams meeting from a phone using a Public Switched Telephone Network (PSTN) phone number. Audio Conferencing is sometimes called dial-in conferencing or PSTN conferencing. Audio Conferencing allows up to 1,000 phone attendees.  **NUKE LAST SENTENCE? LEAVE LIMITS TO LIMITS DOC?**
 
-Audio Conferencing requires an additional Teams add-on license for each person in your organization who is going to schedule/host an Audio Conferencing meeting. For more information, see [Audio Conferencing add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md). (Audio Conferencing does not require a Teams Phone license.)   **MK UPDATING LICENSING DOC. ADD LINK TO AUDIO CONFERENCING SECTION WHEN PUBLISHED LIVE.**
+Audio Conferencing requires an additional Teams add-on license for each person in your organization who is going to schedule/host an Audio Conferencing meeting. Meeting attendees who dial in don't need any licenses assigned to them. For more information, see [Audio Conferencing add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md). (Note that Audio Conferencing doesn't require a Teams Phone license.)   **MK UPDATING LICENSING DOC. ADD LINK TO AUDIO CONFERENCING SECTION WHEN PUBLISHED LIVE.**
 
 This article describes Audio Conferencing concepts, scenarios, and prerequisites. After reading this article, for step-by-step instructions on how to set up Audio Conferencing, see [Set up Audio Conferencing](set-up-audio-conferencing-in-teams.md).
 
@@ -48,7 +48,7 @@ Calling in (dialing in) to meetings is useful for users who are on the road and 
 - People can join a meeting "hands free" using Bluetooth devices.
 - People find it's easier and more convenient for their situation.
 
-You only need to set up Audio Conferencing for people who plan to schedule or lead meetings. Meeting attendees who dial in don't need any licenses assigned to them or other setup.
+You only need to set up Audio Conferencing for people who plan to schedule or lead meetings. 
 
 After attendees join the meeting, they can also dial out and invite other callers into a Teams meeting.
 For more information, see [Dial out from a Teams meeting so other people can join it](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md).
