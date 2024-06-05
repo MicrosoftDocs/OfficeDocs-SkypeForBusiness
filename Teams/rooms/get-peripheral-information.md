@@ -58,7 +58,7 @@ When you run the PowerShell script, the data is exported to a CSV file that can 
 
    > [!NOTE]
    > Group ID is a way to still 'group them' for later assignment if while individually collecting the peripheral data you do not know the UPN or Display Name for the group of peripherals being collected. This is because Teams Pro Management portal won't have any understanding of Group ID, it is more for keep the peripherals grouped in the output CSV so an account plus the display name could be assigned to each at a later time.
-1. Save the CSV file in .XLSX format. Verify that the sheet is titled 'PERIPHERALS'. 
+1. Save the CSV file in .XLSX format. Verify that the sheet is titled 'PERIPHERALS'. If sensitivity labels are enabled in your tenant, verify that the Excel file has a label of non-business, public, or general.  
 
 1. Sign in and open the [Microsoft Teams Pro Management portal](https://portal.rooms.microsoft.com/), in the **Devices** page, select __Import__ to add the device inventory to upload the file you modified.
 
