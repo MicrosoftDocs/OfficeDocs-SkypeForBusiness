@@ -4844,9 +4844,8 @@
   "source_path": "teams/new-teams-troubleshooting-installation.md",
   "redirect_url": "/microsoftteams/troubleshoot/teams-administration/fix-new-teams-installation-issues",
   "redirect_document_id": false
-}
- },
- {
+},
+{
     "source_path": "teams/manage-freemium.md",
     "redirect_url": "/microsoftteams/user-access",
     "redirect_document_id": false
