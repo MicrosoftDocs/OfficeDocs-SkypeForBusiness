@@ -56,14 +56,15 @@ For more information, see [Dial out from a Teams meeting so other people can joi
 
 ## Audio Conferencing prerequisites
 
-Before you can roll out Audio Conferencing for Teams, consider these questions:
+Before you can roll out Audio Conferencing for Teams meetings, consider these questions:
 
 | Ask yourself | Action |
 | :------------| :-------|
 | Is Audio Conferencing available in my country/region?| To find out if Audio Conferencing is available in your country/region, see [Country and region availability for Audio Conferencing](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).|
 | Do my users have the proper licensing for Audio Conferencing? | **INCLUDE LICENSE INFO HERE? OR LINK TO SECTION IN LICENSING DOC?** Audio Conferencing licenses are available as part of a Microsoft 365 or Office 365 E5 plan. Audio conferencing licenses are also available as an add-on service for a Microsoft 365 Business Standard, E1, or E3 subscription. <ul><li> To get and assign licenses, see [Assign or remove licenses for Microsoft 365 Apps for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).</li><li> To learn more, read [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).|
 | Do I need to purchase Communications Credits for the users who are assigned Audio Conferencing licenses?| To learn more, read [What are Communications Credits](what-are-communications-credits.md), then check out the [Communications Credits](#communications-credits) section.|
-||
+|
+
 
 For pricing info, see [Pricing for Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=799762&clcid=0x409).
 
