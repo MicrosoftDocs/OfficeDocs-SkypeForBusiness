@@ -69,7 +69,7 @@ The following table shows how each option for the **Who can bypass the lobby** p
 
 ## Choose who can bypass the lobby in meetings hosted by your organization
 
-You can manage the lobby settings and policies in the Teams admin center. See the following sections for guidance on which setting to choose for different circumstances. For information about how meeting policies work, see [Manage meeting policies in Microsoft Teams](/microsoftteams/meeting-policies-overview).
+You can manage lobby settings and policies in the Teams admin center. See the following sections for guidance on which setting to choose for different circumstances. For information about how meeting policies work, see [Manage meeting policies in Microsoft Teams](/microsoftteams/meeting-policies-overview).
 
 > [!IMPORTANT]
 > Meeting organizers can change the default values that you choose for the **People dialing in can bypass the lobby** and **Who can bypass the lobby** settings via Meeting Options. If you need to enforce these settings to a particular value, you can use a meeting template or sensitivity label (Teams Premium required).  For more information, see [Configure the Microsoft Teams meeting lobby for sensitive meetings](configure-lobby-sensitive-meetings.md).
