@@ -26,7 +26,7 @@ description: "How to sigh up for an IP Relay account for Canada."
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-To get an IP Relay account set up for Canada, please complete the information in noted below and send it in email to [ptn@microsoft.com](mailto:ptn@microsoft.com).
+To get an IP Relay account set up for Canada, complete the information noted below and send it in email to [ptn@microsoft.com](mailto:ptn@microsoft.com).
 
 - First & Last Name:
 
@@ -55,7 +55,7 @@ To get an IP Relay account set up for Canada, please complete the information in
 > [!NOTE]
 > The email address above will receive messages left for you if you are not online when someone calls for you via IP Relay. 
 
-Once your account is ready (within 24 working hours), we will email you back with the User Name and Password. 
+Once your account is ready (within 24 working hours), we'll email you back with the User Name and Password. 
 
 Next, see the [IP Relay in Canada - user guide](ip-relay-canada-user-guide.md) to get started. 
 

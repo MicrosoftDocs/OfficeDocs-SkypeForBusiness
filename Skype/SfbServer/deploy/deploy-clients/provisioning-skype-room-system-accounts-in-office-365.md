@@ -15,12 +15,12 @@ ms.custom:
   - has-azure-ad-ps-ref
   - azure-ad-ref-level-one-done
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
-description: "Read this topic to learn about provisioning Skype Room System accounts in Microsoft 365 or Office 365."
+description: "Read this article to learn about provisioning Skype Room System accounts in Microsoft 365 or Office 365."
 ---
 
 # Provisioning Skype Room System accounts in Microsoft 365 and Office 365
  
-Read this topic to learn about provisioning Skype Room System accounts in Microsoft 365 or Office 365.
+Read this article to learn about provisioning Skype Room System accounts in Microsoft 365 or Office 365.
   
 The following section covers Skype Room System account provisioning.
   
@@ -40,7 +40,7 @@ Your online tenant must meet the following requirements:
     
   - Skype for Business Online Remote PowerShell access
     
-  - Windows Azure Active Directory module for Windows PowerShell to access Microsoft 365 or Office 365 directory access
+  - Microsoft Azure Active Directory module for Windows PowerShell to access Microsoft 365 or Office 365 directory access
     
 For the Skype Room account, the following licensing is required:
   
@@ -48,7 +48,7 @@ For the Skype Room account, the following licensing is required:
     
 - To entitle the room with the Enterprise Voice capability so the room can be enabled with a phone number, a Skype for Business Online Plan 2 with the Phone System license or Office 365 E5 is required (1).
     
-- If you need dial-in capabilities from a meeting, you'll need an audio conferencing and Phone System license.  If you need dial-out capabilities from a meeting, you'll need a domestic or domestic and international Calling Plan. 
+- If you need dial-in capabilities from a meeting, you need an audio conferencing and Phone System license.  If you need dial-out capabilities from a meeting, you'll need a domestic or domestic and international Calling Plan. 
     
 - An Exchange Online license isn't required for the Skype Room account because the account should be configured as a resource mailbox account.
     
@@ -129,7 +129,7 @@ After a resource room mailbox account has been created and enabled as shown prev
 
 In Microsoft 365 or Office 365, the default password expiration policy for all of your user accounts is 90 days unless you configure a different password expiration policy. For Skype Room System accounts, you can select the Password never expires setting with the following steps.
   
-1. Create a Windows Azure Active Directory session by using your tenant global administrator credentials. For information on more options, see [additional authentication methods](/powershell/microsoftgraph/authentication-commands).
+1. Create a Windows Azure Active Directory session. For information on more options, see [additional authentication methods](/powershell/microsoftgraph/authentication-commands).
     
     ```powershell
     $clientId = "your-app-client-id"
