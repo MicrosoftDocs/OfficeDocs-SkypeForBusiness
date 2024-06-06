@@ -44,7 +44,7 @@ Explicit recording consent includes two recording types:
 
 You must use PowerShell to configure explicit recording consent for users or groups in your organization. PowerShell must be installed on your machine to manage this policy. For instructions on installing PowerShell on Windows, Mac, or Linux for the first time, see [Install PowerShell on Windows, Linux, and macOS - PowerShell](/powershell/scripting/install/installing-powershell).
 
-For scripts to enable explicit recording consent for Audio Conferencing, see [Manage explicit recording consent through PowerShell](meeting-recording.md#manage-explicit-recording-consent-through-powershell).
+For scripts to enable explicit recording consent for Audio Conferencing, see [Manage explicit recording consent through PowerShell](meeting-recording.md#manage-explicit-consent-through-powershell).
 
 ## Recording consent dial pad controls
 
