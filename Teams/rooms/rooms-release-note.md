@@ -61,9 +61,9 @@ Teams Rooms app updates happen either via the Microsoft Store or via [manual upd
 
 Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: icon are available only with Teams Rooms Pro license.
 
-### 5.0.305.0 (6/3/2024) - Manual update only
+### 5.0.305.0 (6/3/2024) 
 
-This update brings the new features released in updates 5.0.111.0 and 5.0.230.0 to GCC-High customers. 
+**This is a manual update only.** This update brings the new features released in updates 5.0.111.0 and 5.0.230.0 to GCC-High customers. 
 
 ### 5.0.230.0 (5/23/2024)
 
