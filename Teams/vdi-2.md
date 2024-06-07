@@ -130,4 +130,118 @@ Get-AppxPackage Microsoft.Teams.SlimCore*
 > Microsoft stores up to ten versions of SlimCoreVdi for compatibility purposes, and in case the user accesses different VDI environments (such as persistent, where new Teams auto-updates itself, and non-persistent, where new Teams auto-updates are disabled).
 
 
+If you're optimized, you'll see MsTeamsVdi.exe running on your endpoint in process explorer for AVD/W365, and in XXX for Citrix.
+
+If you enable the bottom pane and switch to the DLL tab, you can also see the Plugin being loaded. This is a useful troubleshooting step in case you're not getting optimized with VDI 2.0.
+
+XXX WHAT DoeS OPTIMIZED EVEN MEAN? EVEN WITH SCREENS, WHAA
+
+
+## Networking considerations
+
+> [!NOTE]
+> MsTeamsVdi.exe is the process that makes all the TCP/UDP network connections to the Teams relays/conference servers or other peers.
+>
+> SlimCore MSIX manifest will add the following rules to the Firewall:
+> `<Rule  Direction="in" IPProtocol="TCP"  Profile="all" />`
+> `<Rule Direction="in" IPProtocol="UDP" Profile="all" />`
+
+Make sure the user’s device has network connectivity (UDP and TCP) to endpoint ID 11, 12, 47 and 127 described in [Microsoft 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams).
+
+|ID  |Category          |ER  |Addresses    |Ports                       |Notes |
+|----|------------------|----|-------------|----------------------------|------|
+|11  |Optimize required |Yes |13.107.64.0/18, 52.112.0.0/14, 52.122.0.0/15, 2603:1063::/38 |UDP: 3478, 3479, 3480, 3481 |Media Processors and Transport Relay 3478 (STUN), 347 (Audio), 3480 (Video), 3481 (Screenshare) |
+|12  |Allow required    |Yes |`*.lync.com`, `*.teams.microsoft.com`, `teams.microsoft.com` 13.107.64.0/18, 52.112.0.0/14, 52.122.0.0/15, 52.238.119.141/32, 52.244.160.207/32, 2603:1027::/48, 2603:1037::/48, 2603:1047::/48, 2603:1057::/48, 2603:1063::/38, 2620:1ec:6::/48, 2620:1ec:40::/42 |TCP: 443, 80                |      |
+|47  |Default required  |No  |*.office.net |TCP: 443, 80                |Used for SlimCore downloads and background effects |
+|127 |Default required  |No  |*.skype.com  |TCP: 443, 80                |      |
+
+
+XXXX ARCHITECTURE/TOPOLOGY SCREEN THAT NEEDS TO BE WRITTEN OUT FOR ACCESSIBILITY AND SEO
+There are numbers on the diagram in the word doc, so I know there's a narrative somewhere for this. We also can't use the diagram, the colors don't work.
+
+### Types of traffic handled by SlimCore on the endpoint
+
+1. Teams media flows connectivity is implemented using standard IETF Interactive Connectivity Establishment (ICE) for STUN and TURN procedures.
+1. Real-time media. Data encapsulated within Real-time Transport Protocol (RTP) that supports audio, video, and screen sharing workloads. In general, media traffic is highly latency sensitive. This traffic must take the most direct path possible and use UDP versus TCP as the transport layer protocol, which is the best transport for interactive real-time media from a quality perspective.
+  a. Note that as a last resort, media can use TCP/IP and also be tunneled within the HTTP protocol, but it isn't recommended due to bad quality implications.
+  b. RTP flow is secured using SRTP, in which only the payload is encrypted.
+1. Signaling. The communication link between the endpoint and Teams servers, or other clients, that's used to control activities (for example, when a call is initiated). Most signaling traffic uses the HTTPS-based REST interfaces, though in some scenarios (for example, the connection between Microsoft 365 and a Session Border Controller) it uses SIP protocol. It's important to understand that this traffic is much less sensitive to latency but may cause service outages or call timeouts if latency between the endpoints exceeds several seconds.
+
+### Bandwidth consumption
+
+Teams is designed to give the best audio, video, and content sharing experience regardless of your network conditions. When bandwidth is insufficient, Teams prioritizes audio quality over video quality. Where bandwidth isn't limited, Teams optimizes media quality, including high-fidelity audio, up to 1080p video resolution, and up to 30fps (frames per second) for video and content. To learn more, read [Bandwidth requirements](prepare-network.md#bandwidth-requirements)
+
+### Quality of services (QoS)
+
+Implement QoS settings for endpoints and network devices and determine how you want to handle media traffic for calling and meetings.
+
+- As a prerequisite, enable QoS globally in the Teams Admin Center. See [Configure QoS in the Teams admin center](meetings-real-time-media-traffic.md) for details on enabling the **Insert Quality of Service (QoS) markers for real-time media traffic** settings.
+
+  Recommended initial port ranges:
+
+  |Media traffic type    |Client source port range |Protocol |DSCP value |DSCP class                |
+  |----------------------|-------------------------|---------|-----------|--------------------------|
+  |Audio                 |50,000 - 50,019          |TCP/UDP  |46         |Expedited Forwarding (EF) |
+  |Video                 |50,020 - 50,039          |TCP/UDP  |34         |Assured Forwarding (AF41) |
+  |App or screen sharing |50,040 = 50,059          |TCP/UDP  |18         |Assured Forwarding (AF41) |
+- For information on configuring DSCP markings for Windows endpoints, see [Implement QoS in Teams clients](QoS-in-Teams-clients.md).
+  > [!NOTE]
+  > Any endpoint-based marking must be applied to MsTeamsVdi.exe, the process that handles all multimedia offloading on the user’s device.
+- For information on implementing QoS for routers, see your manufacturer's documentation.
+- Setting QoS on network devices might include some or all of:
+  - using port-based Access Control Lists (ACLs)
+  - defining the QoS queues
+  - defining DSCP markings
+
+> [!IMPORTANT]
+> We recommend implementing these QoS policies using the endpoint source ports and a source and destination IP address of "any". This will catch both incoming and outgoing media traffic on the internal network.
+
+### Technologies that aren't recommended with Microsoft Teams in VDI
+
+1. **VPN network**. It isn't recommended for media traffic.
+1. Packet shapers. Any kind of packet sniffer, packet inspection, proxies, or packet shaper devices aren't recommended for Teams media traffic and may degrade quality significantly.
+
+|Feature                           |Available                                                       |
+|----------------------------------|----------------------------------------------------------------|
+|1080p                             |Yes                                                             |
+|Hardware acceleration on endpoint |Yes                                                             |
+|Gallery View 3x3 and 7x7          |Yes                                                             |
+|Quality of Service                |Yes                                                             |
+|Noise suppression                 |Yes                                                             |
+|HID                               |Yes                                                             |
+|Presenter mode                    |Yes                                                             |
+|Teams Premium                     |Yes</br>(Pending: Watermark, Townhalls, Decorate my Background) |
+|User-uploaded background effect   |Coming soon                                                     |
+|Zoom +/-                          |Coming soon                                                     |
+
+> [!NOTE]
+> Check the VDI Vendor-specific versions required for any VDI 1.0 feature listed in this table.
+>
+> - [AVD/W365](/azure/virtual-desktop/teams-supported-features#version-requirements)
+> - [Citrix](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html#feature-matrix-and-version-support)
+> - [VMware](https://kb.omnissa.com/s/article/86475)
+
+## Slimcore user profile on the endpoint
+
+The new solution for VDI stores user-specific data on the endpoint in the following locations, depending on your vendor:
+
+- `C:\users\<user>\AppData\Roaming\Microsoft\TeamsVDI\avd-default-<cloudname>\`
+- `C:\users\<user>\AppData\Roaming\Microsoft\TeamsVDI\citrix-default-<cloudname>\`
+
+Logs, configurations and AI/ML-models (used in noise suppression, bandwidth estimation, etc.) are saved in this location. If these folders are purged after a user logoff (for example, locked-down thin clients without roaming profiles), MsTeamsVdi.exe will recreate them and download the user-specific configuration (about 6MB of data).
+
+### SlimCore installation and upgrade process in locked down Thin Client environments (optional)
+
+By default, the MsTeamsPlugin will automatically download and install the right SlimCore media engine version without user or Admin intervention. But customers on restricted network environments in the branch office can opt for an alternative SlimCore distribution process, without requiring the endpoint be able to fetch slimcore packages using https from Microsoft’s public CDN.
+
+> [!IMPORTANT]
+> If you must chose this method, you must guarantee that:
+>
+> 1. Teams auto-update is disabled in the virtual desktop.
+> 2. The SlimCore packages are pre-provisioned to the endpoint’s local storage or network share before you upgrade new Teams in the virtual desktop. Any newer Teams version will request a matching new version of SlimCore and if the plugin can't find it, the user will be in fallback mode (server-side rendering).
+>
+> This is because new Teams and SlimCore versions must match.
+
+#### Configuration steps
+
 
