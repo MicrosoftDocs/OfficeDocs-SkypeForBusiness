@@ -102,8 +102,12 @@ For more information, see:
 | [New-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/new-csteamsvoiceapplicationspolicy#-HistoricalCallQueueMetricsPermission)  | [Set-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/set-csteamsvoiceapplicationspolicy#-HistoricalCallQueueMetricsPermission) |
 | [New-CsTeamsVoiceApplicationsPolicy/--HistoricalAgentMetricsPermission](/powershell/module/teams/new-csteamsvoiceapplicationspolicy#--HistoricalAgentMetricsPermission)  | [Set-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/set-csteamsvoiceapplicationspolicy#--HistoricalAgentMetricsPermission) |
 
+[!NOTE]
+1. Users with their computer desktop country, region or regional format set to English (United States) may encounter an error when running the report if the authorized user is only authorized for either Auto Attedant or Call Queue reporting.  Configure an authorized user for both Auto Attendant and Call Queue reporting and assign the authorized user to at least one Auto Attendant and Call queue.  This problem will be fixed with the next release of the Power BI templates.
+2. Users will encounter an error if the voice applications policy assigned to them only enables the historical reporting options. Configuring the voice applications policy to assign one other auto attendant or call queue function (ex: modify greeting) will bypass the issue.
 
-2. CQD pipeline (legacy)
+
+3. CQD pipeline (legacy)
 
 If you want the user to report on **all** the Auto attendants, Call queues, and Agents in the tenant and you also want to grant the user access to Teams admin center to run other Usage reports, assign the user a CQD access role with both **View Reports** and **View EUII fields** set to **Yes**.
 
