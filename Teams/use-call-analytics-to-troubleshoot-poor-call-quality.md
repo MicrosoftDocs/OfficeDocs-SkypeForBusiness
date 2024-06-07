@@ -105,6 +105,12 @@ For audio sessions that do have Quality of Experience (QoE) data, the following 
 |Device not functioning|Device|A device isn't functioning correctly. Device not functioning ratios are: <p> DeviceRenderNotFunctioningEventRatio >= 0.005 <br>  DeviceCaptureNotFunctioningEventRatio >= 0.005|
 ||||
 
+## Limitations
+
+- Call Analytics does not support streaming attendees for Teams Live Events or town hall meetings.
+- If external participants or anonymous users join a meeting, their display name will show as **Anonymous** to retain cross-tenant privacy.
+- If an organization's users join a federated meeting but did not initiate the meeting, that organization will only see details for their own users in Call Analytics. The organization that initiated a federated meeting will see all participants.
+
 ## Related topics
 
 [Set up per-user call analytics](set-up-call-analytics.md)
