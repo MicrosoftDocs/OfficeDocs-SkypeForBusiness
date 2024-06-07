@@ -244,4 +244,46 @@ By default, the MsTeamsPlugin will automatically download and install the right 
 
 #### Configuration steps
 
+1. On the user’s endpoint (thin client/fat client), you must create the following regkey:
+  a. Location for Citrix: HKLM\SOFTWARE\WOW6432Node\Microsoft\Teams\MsTeamsPlugin
+  b. Location for AVD/W365: HKLM\SOFTWARE\Microsoft\Teams\MsTeamsPlugin
+  c. Name: MsixUrlBase
+  d. Type: REG_SZ
+  e. Data: Either local storage or network storage UNC path, such as file://C:/Temp or file://ComputerName/SharedFolder.
+  The regkey will define the Base URL.
+2. Additionally, admins must download the exact SlimCore MSIX Package version from Microsoft’s CDN that matches the new Teams version you are planning to deploy in the future: [https://res.cdn.office.net/ic3-1/slimcorevdi/2024.4.1.9/Microsoft.Teams.SlimCoreVdi.win-x64.msix](https://res.cdn.office.net/ic3-1/slimcorevdi/2024.4.1.9/Microsoft.Teams.SlimCoreVdi.win-x64.msix).
+  
+  > [!IMPORTANT]
+  > The MSIX package needs to match the architecture or bitness of the Citrix Workspace app (x86 only) or Remote Desktop or Windows App clients: `Microsoft.Teams.SlimCoreVdi.<platform>-<architecture>.msix`.
 
+3. Place the MSIX in a specific folder with the version within the location specified in the registry key, in order to preserve the structure. For example, C:\Temp\2024.4.1.9\Microsoft.Teams.SlimCoreVdi.win-x86.msix or //ComputerName/SharedFolder/2024.4.1.9/.
+  
+  > [!NOTE]
+  > If the Plugin can't find a SlimCore MSIX package in the local or network storage, it automatically attempts to download it from the Microsoft public CDN as a fallback.
+
+#### Known issues XXX IS THIS SUPPOSED TO BE IN THE KNOWN ISSUES DOC? IS THERE RESOLUTION
+
+If trying to join a meeting right after launching new Teams (for example, clicking on a Teams deep link in Outlook without having new Teams running), the call might drop.
+
+#### Citrix virtual channel allow list
+
+The [Virtual channel allow list](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/secure/virtual-channel-security#adding-virtual-channels-to-the-allow-list) policy setting in CVAD enables the use of an allow list that specifies which virtual channels are allowed to be opened in an ICA session. When enabled, all processes except the Citrix built-in virtual channels must be stated. As a result, additional entries are required for the new Teams client to be able to connect to the client-side plugin (MsTeamsPluginCitrix.dll).
+
+With Citrix Virtual Apps and Desktops 2203 or later, the Virtual channel allow list is **enabled by default**. These default settings will deny access to the new Teams custom virtual channels as the allow list **doesn't** include the new Teams main process name.
+
+The new Teams client requires three custom virtual channels to function: MSTEAMS, MSTEAM1 and MSTEAM2. These are accessed by ms-teams.exe. You can use wildcards to whitelist the ms-teams.exe executable and custom virtual channel:
+
+- MSTEAMS,C:\Program Files\WindowsApps\MSTeams*8wekyb3d8bbwe\ms-teams.exe
+- MSTEAM1,C:\Program Files\WindowsApps\MSTeams*8wekyb3d8bbwe\ms-teams.exe
+- MSTEAM2,C:\Program Files\WindowsApps\MSTeams*8wekyb3d8bbwe\ms-teams.exe
+
+1. Wildcard support is available in:
+  a. VDA 2206 CR
+  b. VDA 2203 LTSR from CU2 onwards
+2. The VDA machines must be rebooted for the policy to take effect
+
+#### Citrix App Protection and Microsoft Teams compatibility
+
+Users who have App Protection enabled can still share their screen and apps while optimized with VDI 2.0. This requires VDA version 2402 or higher, and CWA for Windows 2309.1 or higher. Users on versions lower than those will end up sharing a black screen instead when the App Protection module is installed and enabled.
+
+#### Troubleshooting
