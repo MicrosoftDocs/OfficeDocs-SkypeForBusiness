@@ -4746,11 +4746,6 @@
     "redirect_document_id": false
   },
   {
-    "source_path": "teams/teams-privacy.md",
-    "redirect_url": "/microsoftteams/privacy/location-of-data-in-teams",
-    "redirect_document_id": false
-  },
-  {
     "source_path": "teams/location-of-data-in-teams.md",
     "redirect_url": "/microsoftteams/privacy/location-of-data-in-teams",
     "redirect_document_id": true
@@ -4759,6 +4754,11 @@
     "source_path": "teams/teams-privacy-feedback.md",
     "redirect_url": "/microsoftteams/privacy/teams-privacy-feedback",
     "redirect_document_id": true
+  },
+  {
+    "source_path": "teams/teams-privacy.md",
+    "redirect_url": "/microsoftteams/Teams-overview",
+    "redirect_document_id": false
   },
   {
     "source_path": "teams/policy-control-overview.md",
@@ -4794,14 +4794,34 @@
     "source_path": "teams/new-teams-automatic-upgrade-announced.md",
     "redirect_url": "/microsoftteams/teams-classic-client-end-of-availability",
     "redirect_document_id": false
+},
+{
+  "source_path": "teams/upgrade-freemium.md",
+  "redirect_url": "/microsoftteams/user-access",
+  "redirect_document_id": false
+},
+{
+  "source_path": "Teams/teams-updates.md",
+  "redirect_url": "/Teams/teams-overview",
+  "redirect_document_id": false
  },
- {
+{
+  "source_path": "teams/privacy/teams-privacy.md",
+  "redirect_url": "/microsoftteams/privacy/location-of-data-in-teams",
+  "redirect_document_id": false
+},
+{
+  "source_path": "Teams/rooms/with-skype-for-business-server-2015.md",
+  "redirect_url": "/microsoftteams/rooms/create-resource-account",
+  "redirect_document_id": false
+},
+{
+"source_path": "Teams/cloud-video-interop-for-teams-set-up.md",
+"redirect_url": "/microsoftteams/cloud-video-interop",
+"redirect_document_id": true
+},
+{
     "source_path": "teams/manage-freemium.md",
-    "redirect_url": "/microsoftteams/user-access",
-    "redirect_document_id": false
-  },
-  {
-    "source_path": "teams/upgrade-freemium.md",
     "redirect_url": "/microsoftteams/user-access",
     "redirect_document_id": false
   },
@@ -4819,21 +4839,6 @@
     "source_path": "Teams/tutorial-audio-conferencing.yml",
     "redirect_url": "/microsoftteams/audio-conferencing-in-office-365",
     "redirect_document_id": false
-  },
-  {
-    "source_path": "teams/privacy/teams-privacy.md",
-    "redirect_url": "/microsoftteams/privacy/location-of-data-in-teams",
-    "redirect_document_id": false
-  },
-  {
-    "source_path": "Teams/rooms/with-skype-for-business-server-2015.md",
-    "redirect_url": "/microsoftteams/rooms/create-resource-account",
-    "redirect_document_id": false
-  },
-  {
-    "source_path": "Teams/cloud-video-interop-for-teams-set-up.md",
-    "redirect_url": "/microsoftteams/cloud-video-interop",
-    "redirect_document_id": true
   },
   {
     "source_path": "teams/new-teams-troubleshooting-installation.md",
