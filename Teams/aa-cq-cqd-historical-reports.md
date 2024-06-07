@@ -104,7 +104,7 @@ For more information, see:
 
 > [!NOTE]
 > 1. Users with their computer desktop country, region or regional format set to English (United States) may encounter an error when running the report if the authorized user is only authorizedf for either Auto Attedant or Call Queue reporting.  Configure an authorized user for both Auto Attendant and Call Queue reporting and assign the authorized user to at least one Auto Attendant and Call queue.  This problem will be fixed with the next release of the Power BI templates.
-> 2. Users will encounter an error if the voice applications policy assigned to them only enables the historical reporting options. Configuring the voice applications policy to assign one other auto attendant or call queue function (ex: modify greeting) will bypass the issue.
+> 2. Users will encounter an error if the voice applications policy assigned to them enables the historical reporting options only. Configuring the voice applications policy to assign one other auto attendant or call queue function (ex: modify greeting) will bypass the issue.
 
 
 3. CQD pipeline (legacy)
