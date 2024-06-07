@@ -74,6 +74,8 @@ This feature supports the following meeting types and platforms:
 - Mobile (Android and iOS)
 - Web
 - VDI 2.0
+- Shared channel meetings
+- Private or public channel meetings
 
 This feature doesn’t support the following meeting types and platforms:
 

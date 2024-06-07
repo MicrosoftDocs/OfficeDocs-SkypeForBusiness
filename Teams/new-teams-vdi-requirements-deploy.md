@@ -236,6 +236,9 @@ Make sure sideloading is enabled, and that WebView2 is installed. See 'Requireme
 The /SkipLicense command is needed because the MSIX package isn't considered a "Store Package" (since it wasn't downloaded from the store). Therefore, for the Dism installation command to succeed, you need to enable this policy as well during installation time:
 Computer Configuration > Administrative Templates > Windows Components > App Package Deployment > **Allow all trusted apps to install**.
 
+> [!IMPORTANT]
+> `AllowAllTrustedApps` must be enabled after the new Teams package is successfully staged in the golden image. Otherwise, the registration of the package to each user (which happens only on login) will fail and users wont be able to launch the app.
+
 Known limitations:
 
 - Classic Teams on Windows Server 2019 isn't displaying the app switcher toggle if Classic Teams version is lower than 1.6.00.33567
@@ -311,7 +314,7 @@ The folder "meeting-addin" under TeamsSharedConfig shouldn't be persisted, as th
 >Microsoft recommends FSLogix 2210 HotFix 4 ([2.9.8884.27471](/fslogix/overview-release-notes#fslogix-2210-hotfix-4-29888427471)) in order to guarantee proper integration with the new Teams client in VDI. The following issues have been addressed on that release:
 >
 >- Windows Server 2019 would sometimes fail to query the provisioned AppX applications for the user during sign-out.
->- MSIX folders that should not be backed](/fslogix/troubleshooting-appx-issues#non-roamable-folders-not-backed-up) up would be removed during sign-out instead of only removing the contents of those folders.
+>- [MSIX folders that should not be backed](/fslogix/troubleshooting-appx-issues#non-roamable-folders-not-backed-up) up would be removed during sign-out instead of only removing the contents of those folders.
 >- New Microsoft Teams crashes or fails to start in Windows Server 2019.
 >- New Microsoft Teams would display an error during launch with **The parameter is incorrect**.
 >- New Microsoft Teams would display an error during launch with **Invalid function**.
@@ -322,7 +325,7 @@ The folder "meeting-addin" under TeamsSharedConfig shouldn't be persisted, as th
 >*Note:* Customers using Profile and ODFC or just ODFC containers, will still need to add the setting ‘IncludeTeams’ for the new Teams user data/cache to be preserved.
 
 >[!Note]
->[Folder Redirection or Roaming User Profiles](/windows-server/storage/folder-redirection/folder-redirection-rup-overview) aren't supported with the new Teams client in VDI environments since they can't roam folders in AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams. Customers can continue to use Folder Redirection or Roaming User Profiles with a complementary product, such as FSLogix, Citrix Profile Manager, VMware, and DEM, that can roam the Appdata\Local folders above.
+>[Folder Redirection or Roaming User Profiles](/windows-server/storage/folder-redirection/folder-redirection-rup-overview) aren't supported with the new Teams client in VDI environments since they can't roam folders in AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams. Customers can continue to use Folder Redirection or Roaming User Profiles with a complementary product, such as FSLogix, Citrix Profile Manager, and VMware DEM, that can roam the Appdata\Local folders above.
 
 ### Folder exclusions
 
