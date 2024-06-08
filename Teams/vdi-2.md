@@ -287,3 +287,25 @@ The new Teams client requires three custom virtual channels to function: MSTEAMS
 Users who have App Protection enabled can still share their screen and apps while optimized with VDI 2.0. This requires VDA version 2402 or higher, and CWA for Windows 2309.1 or higher. Users on versions lower than those will end up sharing a black screen instead when the App Protection module is installed and enabled.
 
 #### Troubleshooting
+
+- Not optimized with VDI 2.0 and instead you see:</br>“AVD Media Optimized”</br>“Citrix HDX Optimized”
+  - Error Codes 2000 (“No Plugin”) and 2001 (“Virtual Channel not available”) are the most likely causes.
+  
+  1. Make sure your ‘Virtual Channel Allow list’ is properly configured to allow MSTEAMS, MSTEAM1, MSTEAM2.
+  2. Make sure the endpoint has the plugin, and is loaded by the VDI Client (see the media optimization section), with Process Explorer XXX WHERE IS THE MEDIA OPTIMIZATION SECTION WE HAVE NOTHING CALLED THAT:
+    a. Run [process explorer](/sysinternals/downloads/process-explorer).
+    b. Enable the bottom pane and switch to the DLL tab.
+    c. On AVD, look for the msrdc.exe process and ensure the MsTeamsPluginAvd.dll is loaded.
+    d. On Citrix, look for the wfica32.exe process and ensure the MsTeamsPluginCitrix.dll is loaded.
+  3. Restart the new Teams app. It requires a restart to transition from VDI 1.0 to VDI 2.0 mode, when VDI2 is detected for the first time.
+  4. If the problem persists, check Event Viewer in the VM for **Microsoft Teams VDI**-related errors (new Teams 24123.X.X.X or higher).
+
+- Not optimized with VDI 2.0 and instead you see:</br>“AVD SlimCore Media Not Connected”</br>“Citrix SlimCore Media Not Connected”
+  - Check the section “Troubleshooting SlimCoreVdi MSIX deployment errors (15xxx)”.
+
+## New Teams logs for VDI
+
+Teams logs can be collected by pressing Ctrl+Alt+Shift+1 while running Teams on VM. This produces a ZIP folder in the Downloads folder. Inside the PROD-WebLogs-*.zip file, look for the Core folder.
+
+- vdi_debug.txt is the main file for VDI related information.
+- diagnostics-logs.txt could be on weblogs\user(..).
