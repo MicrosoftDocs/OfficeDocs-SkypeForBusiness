@@ -309,3 +309,23 @@ Teams logs can be collected by pressing Ctrl+Alt+Shift+1 while running Teams on 
 
 - vdi_debug.txt is the main file for VDI related information.
 - diagnostics-logs.txt could be on weblogs\user(..).
+- If there's a connection error, the error code can be found from the log line containing "loadErrc" and "deployErrc". The code logged here needs to be mapped using the table below.
+
+## Using Event Viewer on the VM for troubleshooting
+
+Every connect/disconnect event gets logged in the Event Viewer running on the Virtual Machine. The Event Viewer can also display client-side related errors. Error codes can be found in the [New Teams logs for VDI](#new-teams-logs-for-vdi) section.
+
+## Troubleshooting Plugin deployment errors
+
+Diagnostic information can be found in the detailed event logs on the user’s device. After install, MsTeamsPluginCitrix.dll is written into CWA folder. Only for the Citrix platform, the following keys on the Endpoint (not VM) are created:
+
+|Key |Key type |Key name |Key value |
+|---------|---------|---------|---------|
+|HKLM\SOFTWARE\WOW6432Node\Citrix\ICA Client\Engine\Configuration\Advanced\Modules\ICA 3.0 |String |VirtualDriverEx |MicrosoftTeamsVDI |
+|HKLM\SOFTWARE\WOW6432Node\Citrix\ICAClient\Engine\Configuration\Advanced\Modules\MicrosoftTeamsVDI |String |DriverNameWin32 |MsTeamsPluginCitrix.dll |
+
+To debug installations, you can enable installer logging, but then you must use msiexec manually, and pass correct flags. For example, if the plugin isn't currently installed, it can be installed with logs like this: msiexec.exe /i MsTeamsPluginCitrix.msi /l*vx installer.log.txt.
+
+## Troubleshooting SlimCoreVdi MSIX deployment errors
+
+## Log collection
