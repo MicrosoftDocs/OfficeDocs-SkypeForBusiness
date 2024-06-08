@@ -28,7 +28,6 @@ ms.localizationpriority: high
 - [The new Teams desktop app fails to render video](/microsoftteams/troubleshoot/meetings/new-teams-desktop-app-fail-render-video).
 - Collaborative Notes is only available in public clouds, and not in EDU (Academic SKUs).
 - The app crashes on startup with the error APPLICATION_FAULT_c06d007e_PvDSSource64.ax if the Pleora Technologies eBUS SDK is installed. Update to the latest version of the SDK or uninstall.
-- Town Halls don't yet support web users on Firefox or Safari browsers.
 
 ## Issues specifically for the new Microsoft Teams for Education
 
