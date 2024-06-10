@@ -1,13 +1,14 @@
 ---
 title: Mask phone numbers in Microsoft Teams meetings
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jenz
+author: jenzamora
 manager: pamgreen
 ms.reviewer: moakram
 ms.date: 02/22/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 audience: Admin
 ms.collection: 
   - M365-collaboration

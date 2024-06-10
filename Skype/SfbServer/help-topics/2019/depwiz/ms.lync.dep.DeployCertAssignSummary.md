@@ -15,12 +15,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e9478bf4-4e1a-46a2-bf76-3ff08a193523
 ROBOTS: NOINDEX, NOFOLLOW
-description: "Before the certificate assignment is finished, you are presented with a Certificate Assignment Summary that lists the details of the certificate that will be assigned. Review the information to be sure that the subject name and the subject alternative names are correct. When you have finished reviewing the certificate summary, click Next."
+description: "Before the certificate assignment is finished, you're presented with a Certificate Assignment Summary that lists the details of the certificate that is assigned. Review the information to be sure that the subject name and the subject alternative names are correct. When you finish reviewing the certificate summary, select Next."
 ---
 
 # Certificate Assignment (Summary)
  
-Before the certificate assignment is finished, you are presented with a **Certificate Assignment Summary** that lists the details of the certificate that will be assigned. Review the information to be sure that the subject name and the subject alternative names are correct. When you have finished reviewing the certificate summary, click **Next**.
+Before the certificate assignment is finished, you're presented with a **Certificate Assignment Summary** that lists the details of the certificate that is assigned. Review the information to be sure that the subject name and the subject alternative names are correct. When you finish reviewing the certificate summary, select **Next**.
   
 
 

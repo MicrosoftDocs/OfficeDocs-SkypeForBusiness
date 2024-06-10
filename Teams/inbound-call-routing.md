@@ -5,8 +5,8 @@ ms.author: mabond
 manager: pamgreen
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: jenstr
-ms.date: 06/28/2023
+ms.reviewer: roykuntz, jastark
+ms.date: 05/17/2024
 audience: admin
 search.appverid: MET150
 description: Learn how to route inbound PSTN & federated calls in Microsoft Teams.
@@ -15,6 +15,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - Tier1
+  - ContentFreshnessFY24
 f1.keywords:
 - CSH
 ms.custom: 

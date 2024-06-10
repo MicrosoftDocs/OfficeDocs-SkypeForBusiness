@@ -1,7 +1,7 @@
 ---
 title: IT Admins - Manage external meetings and chat with people and organizations using Microsoft identities
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 ms.reviewer: nigolc
 ms.date: 06/01/2023
@@ -40,7 +40,7 @@ Users in your organization can accept or block incoming chats from people outsid
 Note that these people from outside your organization won't have access to your teams, sites, or other Microsoft 365 resources. If you want them to have access to your teams and channels, see [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team) and [Collaborate with external participants in a shared channel](/microsoft-365/solutions/collaborate-teams-direct-connect).
 
 > [!NOTE]
-> Your users can add apps when they host meetings or chats with people outside your organization. They can also use apps shared by external users when they join meetings or chats hosted externally. The data policies of the hosting user's organization, as well as the data sharing practices of any third-party apps shared by that user's organization, are applied. [Learn more about use of apps by people outside your organization](non-standard-users.md).
+> Your users can add apps when they host meetings or chats with people outside your organization. They can also use apps shared by external users when they join meetings or chats hosted externally. The data policies of the hosting user's organization, as well as the data sharing practices of any third-party apps shared by that user's organization, are applied. [Learn more about use of apps by people outside your organization](apps-external-users.md).
 
 ##### Related settings
 

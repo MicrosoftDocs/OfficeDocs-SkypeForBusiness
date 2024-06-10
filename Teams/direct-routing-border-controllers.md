@@ -96,7 +96,7 @@ Note that we're not accepting new nominations for certification until further no
 |[Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|vSBC 2.16|&#10004;|||||
 |[Cataleya](https://cataleya.com/orchidplatforms/)|Orchid Link|&#10004;||3.1|||
 |[ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|Teams SBC|&#10004;|&#10004;|1.6|||
-|[Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|Atos Unify OpenScape Session Border Controller|&#10004;|&#10004;|V10R2.2.0|||
+|[Mitel](https://unify.com/en/solutions/voice-platforms/session-border-controller)|Unify OpenScape Session Border Controller|&#10004;|&#10004;|V10R2.2.0 or higher|||
 |[Sansay Inc.](https://www.sansay.com/solutions/microsoft-teams/)|vmVSXi|&#10004;|&#10004;|10.5.1.354-vm-S-x64|&#10004;||
 |[Enghouse Networks](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|Dialogic BorderNet SBC|&#10004;|&#10004;|3.9.x|||
 |[Patton Electronics Co.](https://www.patton.com/microsoft/)|Patton SmartNode eSBC|&#10004;||3.19.x|||

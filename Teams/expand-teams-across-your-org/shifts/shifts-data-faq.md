@@ -14,7 +14,7 @@ searchScope:
 description: Get answers to frequently asked questions about Shifts data, including data storage location, security and compliance, and access control.
 f1.keywords: 
   - NOCSH
-localization_priority: Normal
+ms.localizationpriority: Medium
 ms.collection: 
   - M365-collaboration
   - microsoftcloud-healthcare
