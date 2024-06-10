@@ -219,7 +219,7 @@ Learn more here: [Common error codes](/windows/win32/appxpkg/troubleshooting#com
 
 |Teamsbootstrapper.exe common error codes |Further information |
 |-----------------------------------------|--------------------|
-|0x80070057                               |The bootstrapper command dosen't have the full path (avoid URIs using .\). Try the full path instead (for example, c:\temp\MSTeams-x64.msix). |
+|0x80070057                               |The bootstrapper command doesn't have the full path (avoid URIs using .\). Try the full path instead (for example, c:\temp\MSTeams-x64.msix). |
 |0x80070032                               |A probable error on the UNC path. Try copying the MSIX to a local folder instead. |
 |0x80004004                               |There might be a regkey 'maglevInstallationSource' left behind in regkey HKLM\Software\WoW6432Node\Microsoft\Office\Teams. Try deleting it and reattempting the install. |
 
@@ -417,7 +417,7 @@ BinaryVersion
 
 ```
 
-**Example:** The following is are examples of the final command:
+**Example:** The following are examples of the final command:
 
 ```command prompt
 
