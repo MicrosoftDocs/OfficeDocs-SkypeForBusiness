@@ -47,7 +47,7 @@ Skype for Business users homed on premises can have Exchange homed on premises o
   
 ## Configure forest trusts
 
-In a resource forest topology, the resource forests hosting Skype for Business Server must trust each account forest that contains users' accounts that will access it.
+In a resource forest topology, the resource forests hosting Skype for Business Server must trust each account forest that contains users' accounts that access it.
 
 If you have multiple user forests, to enable cross-forest authentication, it's important that Name Suffix Routing is enabled for each of these forest trusts. For instructions, see [Managing Forest Trusts](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772440(v=ws.11)).
 
@@ -94,9 +94,9 @@ Unless you use a unique SIP/SMTP/UPN for users from each forest, you can still r
 
 - Two-way trusts between resource/user forests with AD FS farm deployed only in resource forest, all users share common SIP/SMTP domain but unique UPN for each user forest.
 
-By placing an AD FS farm in each user forest and using a unique SIP/SMTP/UPN for each forest, we resolve both issues. Only the accounts in that specific user forest would be searched and matched during authentication attempts. This will help provide a more seamless authentication process.
+By placing an AD FS farm in each user forest and using a unique SIP/SMTP/UPN for each forest, we resolve both issues. Only the accounts in that specific user forest would be searched and matched during authentication attempts. This helps provide a more seamless authentication process.
   
-This deployment will be a standard deployment of the Windows Server 2012 R2 AD FS and should be working before continuing. For instructions, see [How to Install AD FS 2012 R2 for Microsoft 365](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx).
+This deployment is a standard deployment of the Windows Server 2012 R2 AD FS and should be working before continuing. For instructions, see [How to Install AD FS 2012 R2 for Microsoft 365](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx).
   
 Once deployed, you need to edit the claims rule to match the Source Anchor selected earlier. In the AD FS MMC, under Relying Party Trusts, right-click **Microsoft 365 Identity Platform** or **Microsoft Office 365 Identity Platform**, and then select **Edit Claim Rules**. Edit the first rule, and change ObjectSID to **employeeNumber**.
   
@@ -106,7 +106,7 @@ Once deployed, you need to edit the claims rule to match the Source Anchor selec
 
 ## Configure Microsoft Entra Connect
 
-In resource forest topologies, it’s required that user attributes from both the resource forest and any account forests(s) are synchronized into Microsoft Entra ID. Microsoft recommends that Microsoft Entra Connect synchronize and merge user identities from *all* forests that have enabled user accounts and the forest that contains Skype for Business. For details see, [Configure Microsoft Entra Connect for Skype for Business and Teams](configure-azure-ad-connect.md).
+In resource forest topologies, it is required that user attributes from both the resource forest and any account forests(s) are synchronized into Microsoft Entra ID. Microsoft recommends that Microsoft Entra Connect synchronize and merge user identities from *all* forests that have enabled user accounts and the forest that contains Skype for Business. For details see, [Configure Microsoft Entra Connect for Skype for Business and Teams](configure-azure-ad-connect.md).
 
 Note that Microsoft Entra Connect doesn't provide synchronization on premises between the account and resource forests. That must be configured by using Microsoft Identity Manager or a similar product, as described earlier.
   

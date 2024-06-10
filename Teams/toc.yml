@@ -100,9 +100,11 @@ items:
                 - name: Update to the new Teams for Education
                   href: new-teams-education.md
                 - name: Update to the new Teams for Web
-                  href: new-teams-web.md                          
-                - name: Troubleshooting installation issues          
+                  href: new-teams-web.md
+                - name: Troubleshooting installation issues
                   href: /microsoftteams/troubleshoot/teams-administration/fix-new-teams-installation-issues
+                - name: Troubleshooting launch issues
+                  href: /microsoftteams/troubleshoot/teams-administration/resolve-new-teams-launch-issues
                 - name: Known issues in new Teams
                   href: new-teams-known-issues.md
                 - name: Classic Teams client end of availability
@@ -908,7 +910,9 @@ items:
                 - name: Send an email to a user with their Audio Conferencing information
                   href: send-an-email-to-a-user-with-their-dial-in-information-in-teams.md
             - name: Manage meetings settings for audio conferencing
-              items: 
+              items:
+                - name: Explicit recording consent for audio conferencing 
+                  href: conferencing-recording-consent.md
                 - name: Dialing out from a meeting so other people can join it
                   href: dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md
                 - name: Turn on or off entry and exit announcements for meetings
@@ -937,7 +941,7 @@ items:
               href: audio-conferencing-zones.md
             - name: Country and region availability for Audio Conferencing
               href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-            - name: Audio Conferencing Complimentary Dial Out Period
+            - name: Audio Conferencing Complimentary Dial Out
               href: complimentary-dial-out-period.md
 
 - name: Voice - Teams Phone and PSTN connectivity
@@ -1812,9 +1816,7 @@ items:
           href: /powershell/module/teams
     - name: Developer documentation for Teams
       href: /microsoftteams/platform
-    - name: Teams content updates
-      href: teams-updates.md
-
+    
     - name: Country phone number management
       items: 
         - name: Phone number management for Australia

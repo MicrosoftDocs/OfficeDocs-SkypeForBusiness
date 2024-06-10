@@ -26,10 +26,10 @@ search.appverid: MET150
 
 Teams Displays are used in a shared area with hot desks, or private work areas such as phone booths or other type of private rooms. This article helps you to deploy and configure Teams Displays in hot desking mode. Hot desking lets users reserve, sign-in, collaborate with other people, and then end their session securely.
 
-Hot desking requires two types of accounts:
+Hot-desking requires two types of accounts:
 
-- **Resource account** - used by the Teams Display for the hot desking experience and booking the space.
-- **User account** - used by the user who's booked the Teams Display to sign in to access their account and settings.
+- **Resource account** - used by the Teams Display for the hot-desking experience and booking the space.
+- **User account** - used by the user who booked the Teams Display to sign in to access their account and settings.
 
 ## Step 1 – Buy the licenses
 
