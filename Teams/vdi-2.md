@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.topic: article
-ms.date: 06/07/2024
+ms.date: 06/15/2024
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -39,8 +39,8 @@ VDI 2.0 is a new architecture for optimizing the delivery of multimedia workload
 |------------|----------------|
 |New Teams   |24124.2315.2911.3357                                                                                      |
 |AVD/W365    |Windows App: 1.3.252</br>Remote Desktop Client: 1.2.5405.0                                                |
-|Citrix      |VDA: 2203 LTSR CU2 or 2212 CR</br>Citrix Workspace app: 2203 LTSR (any CU), 2402 LTSR or 2302 CR          |
-|Endpoint    |Windows 10 1809 (SlimCore minimum requirement)</br>GPOs must not block MSIX installations (see Step 3 on the section below, Sideloading must be enabled)</br>Minimum CPU: Intel Celeron (or equivalent) @ 1.10GHz, 4 Cores, Minimum RAM: 4GB |
+|Citrix      |VDA: 2203 LTSR CU2 or 2212 CR</br>Citrix Workspace app: 2203 LTSR (any CU), 2402 LTSR, or 2302 CR          |
+|Endpoint    |Windows 10 1809 (SlimCore minimum requirement)</br>GPOs must not block MSIX installations (sideloading must be enabled)</br>Minimum CPU: Intel Celeron (or equivalent) @ 1.10 GHz, 4 Cores, Minimum RAM: 4 GB |
 
 ## Optimizing with new VDI solution for Teams
 
@@ -79,7 +79,7 @@ The plugin MSI automatically detects the CWA installation folder and places MsTe
 
 ### SlimCore MSIX staging and registration on the endpoint
 
-This step is silently executed by the plugin, without user or admin intervention. The staging and registration relies on the App Readiness Service (ARS) on the endpoint. It's possible that the MSIX package installation is blocked by registry keys set by a Group Policy or a third-party tool. For a complete list of applicable registry keys, see [How Group Policy works with packaged apps - MSIX](/windows/msix/group-policy-msix).
+The plugin silently executes this step, without user or admin intervention. The staging and registration relies on the App Readiness Service (ARS) on the endpoint. It's possible that the MSIX package installation is blocked by registry keys set by a Group Policy or a third-party tool. For a complete list of applicable registry keys, see [How Group Policy works with packaged apps - MSIX](/windows/msix/group-policy-msix).
 
 The following registry keys could block new media engine MSIX package installation:
 
@@ -100,7 +100,7 @@ These three registry keys can be found at either of the following locations on t
 - HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock
 - HKLM\SOFTWARE\Policies\Microsoft\Windows\Appx
 
-Some policies might change these registry keys and block app installation in your organization because of a restrictive policy that was set by the admins. Some of the known GPO policies that could prevent installation include:
+Some policies might change these registry keys and block app installation in your organization because the admins set a restrictive policy. Some of the known GPO policies that could prevent installation include:
 
 - Prevent non-admin users from installing packaged Windows apps.
 - Allow all trusted apps to install (disabled).
@@ -112,13 +112,13 @@ Once you meet all the minimum requirements, launching new Teams for the first ti
 > [!IMPORTANT]
 > For first run experiences, two app restarts are required to get into VDI 2.0 mode.
 
-You can check in the Teams client that you have VDI 2.0 by going to the elipsis (three dots ...) on the top bar, then selecting Settings > About. The Teams and client versions are listed there.
+You can check in the Teams client that you have VDI 2.0 by going to the ellipsis (three dots ...) on the top bar, then selecting Settings > About. The Teams and client versions are listed there.
 
 The plugin (MsTeamsPluginAvd.dll or MsTeamsPluginCitrix.dll) is responsible for eventually downloading the media engine, and SlimCore, which is an MSIX package. It installs silently without admin privileges or reboots in (example, exact path varies):
 
 `C:\Program Files\WindowsApps\Microsoft.Teams.SlimCoreVdi.win-x64.2024.15_2024.15.1.5_x64__8wekyb3d8bbwe`
 
-The remote desktop client downloads the x64 or x86 SlimCore package, and the Citrix CWA will download an x86 package. This folder is locked down, so users don't have access to it. Admins can take ownership by modifying ACLs, though this isn't recommended. Instead, use PowerShell to list the MSIX apps in the endpoint:
+The remote desktop client downloads the x64 or x86 SlimCore package, and the Citrix CWA downloads an x86 package. This folder is locked down, so users don't have access to it. Admins can take ownership by modifying ACLs, though this action isn't recommended. Instead, use PowerShell to list the MSIX apps in the endpoint:
 
 ```powershell
 PowerShellCopy
@@ -130,9 +130,9 @@ Get-AppxPackage Microsoft.Teams.SlimCore*
 > Microsoft stores up to ten versions of SlimCoreVdi for compatibility purposes, and in case the user accesses different VDI environments (such as persistent, where new Teams auto-updates itself, and non-persistent, where new Teams auto-updates are disabled).
 
 
-If you're optimized, you'll see MsTeamsVdi.exe running on your endpoint in process explorer for AVD/W365, and in XXX for Citrix.
+If you're optimized, you can see MsTeamsVdi.exe running on your endpoint in process explorer for AVD/W365, and in XXX for Citrix.
 
-If you enable the bottom pane and switch to the DLL tab, you can also see the Plugin being loaded. This is a useful troubleshooting step in case you're not getting optimized with VDI 2.0.
+If you enable the bottom pane and switch to the DLL tab, you can also see the Plugin being loaded. This action is a useful troubleshooting step in case you're not getting optimized with VDI 2.0.
 
 XXX WHAT DoeS OPTIMIZED EVEN MEAN? EVEN WITH SCREENS, WHAA
 
@@ -157,19 +157,19 @@ Make sure the user’s device has network connectivity (UDP and TCP) to endpoint
 
 
 XXXX ARCHITECTURE/TOPOLOGY SCREEN THAT NEEDS TO BE WRITTEN OUT FOR ACCESSIBILITY AND SEO
-There are numbers on the diagram in the word doc, so I know there's a narrative somewhere for this. We also can't use the diagram, the colors don't work.
+There are numbers on the diagram in the word doc, so I know there's a narrative somewhere for this screenshot. We also can't use the diagram and the colors don't work.
 
 ### Types of traffic handled by SlimCore on the endpoint
 
 1. Teams media flows connectivity is implemented using standard IETF Interactive Connectivity Establishment (ICE) for STUN and TURN procedures.
 1. Real-time media. Data encapsulated within Real-time Transport Protocol (RTP) that supports audio, video, and screen sharing workloads. In general, media traffic is highly latency sensitive. This traffic must take the most direct path possible and use UDP versus TCP as the transport layer protocol, which is the best transport for interactive real-time media from a quality perspective.
-  a. Note that as a last resort, media can use TCP/IP and also be tunneled within the HTTP protocol, but it isn't recommended due to bad quality implications.
+  a. As a last resort, media can use TCP/IP and also be tunneled within the HTTP protocol, but it isn't recommended due to bad quality implications.
   b. RTP flow is secured using SRTP, in which only the payload is encrypted.
 1. Signaling. The communication link between the endpoint and Teams servers, or other clients, that's used to control activities (for example, when a call is initiated). Most signaling traffic uses the HTTPS-based REST interfaces, though in some scenarios (for example, the connection between Microsoft 365 and a Session Border Controller) it uses SIP protocol. It's important to understand that this traffic is much less sensitive to latency but may cause service outages or call timeouts if latency between the endpoints exceeds several seconds.
 
 ### Bandwidth consumption
 
-Teams is designed to give the best audio, video, and content sharing experience regardless of your network conditions. When bandwidth is insufficient, Teams prioritizes audio quality over video quality. Where bandwidth isn't limited, Teams optimizes media quality, including high-fidelity audio, up to 1080p video resolution, and up to 30fps (frames per second) for video and content. To learn more, read [Bandwidth requirements](prepare-network.md#bandwidth-requirements)
+Teams is designed to give the best audio, video, and content sharing experience regardless of your network conditions. When bandwidth is insufficient, Teams prioritizes audio quality over video quality. Where bandwidth isn't limited, Teams optimizes media quality, including high-fidelity audio, up to 1080p video resolution, and up to 30 fps (frames per second) for video and content. To learn more, read [Bandwidth requirements](prepare-network.md#bandwidth-requirements)
 
 ### Quality of services (QoS)
 
@@ -228,11 +228,11 @@ The new solution for VDI stores user-specific data on the endpoint in the follow
 - `C:\users\<user>\AppData\Roaming\Microsoft\TeamsVDI\avd-default-<cloudname>\`
 - `C:\users\<user>\AppData\Roaming\Microsoft\TeamsVDI\citrix-default-<cloudname>\`
 
-Logs, configurations and AI/ML-models (used in noise suppression, bandwidth estimation, etc.) are saved in this location. If these folders are purged after a user logoff (for example, locked-down thin clients without roaming profiles), MsTeamsVdi.exe will recreate them and download the user-specific configuration (about 6MB of data).
+Logs, configurations, and AI or ML models (used in noise suppression, bandwidth estimation, etc.) are saved in this location. If these folders are purged after a user signs out (for example, locked-down thin clients without roaming profiles), MsTeamsVdi.exe will recreate them and download the user-specific configuration (about 6 MB of data).
 
 ### SlimCore installation and upgrade process in locked down Thin Client environments (optional)
 
-By default, the MsTeamsPlugin will automatically download and install the right SlimCore media engine version without user or Admin intervention. But customers on restricted network environments in the branch office can opt for an alternative SlimCore distribution process, without requiring the endpoint be able to fetch slimcore packages using https from Microsoft’s public CDN.
+By default, the MsTeamsPlugin automatically downloads and installs the right SlimCore media engine version without user or Admin intervention. But customers on restricted network environments in the branch office can opt for an alternative SlimCore distribution process, without requiring the endpoint be able to fetch slimcore packages using https from Microsoft’s public CDN.
 
 > [!IMPORTANT]
 > If you must chose this method, you must guarantee that:
@@ -250,13 +250,13 @@ By default, the MsTeamsPlugin will automatically download and install the right 
   c. Name: MsixUrlBase
   d. Type: REG_SZ
   e. Data: Either local storage or network storage UNC path, such as file://C:/Temp or file://ComputerName/SharedFolder.
-  The regkey will define the Base URL.
-2. Additionally, admins must download the exact SlimCore MSIX Package version from Microsoft’s CDN that matches the new Teams version you are planning to deploy in the future: [https://res.cdn.office.net/ic3-1/slimcorevdi/2024.4.1.9/Microsoft.Teams.SlimCoreVdi.win-x64.msix](https://res.cdn.office.net/ic3-1/slimcorevdi/2024.4.1.9/Microsoft.Teams.SlimCoreVdi.win-x64.msix).
-  
+  The regkey defines the Base URL.
+2. Additionally, admins must download the exact SlimCore MSIX Package version from Microsoft’s CDN that matches the new Teams version you're planning to deploy in the future: [https://res.cdn.office.net/ic3-1/slimcorevdi/2024.4.1.9/Microsoft.Teams.SlimCoreVdi.win-x64.msix](https://res.cdn.office.net/ic3-1/slimcorevdi/2024.4.1.9/Microsoft.Teams.SlimCoreVdi.win-x64.msix).
+
   > [!IMPORTANT]
   > The MSIX package needs to match the architecture or bitness of the Citrix Workspace app (x86 only) or Remote Desktop or Windows App clients: `Microsoft.Teams.SlimCoreVdi.<platform>-<architecture>.msix`.
 
-3. Place the MSIX in a specific folder with the version within the location specified in the registry key, in order to preserve the structure. For example, C:\Temp\2024.4.1.9\Microsoft.Teams.SlimCoreVdi.win-x86.msix or //ComputerName/SharedFolder/2024.4.1.9/.
+3. Place the MSIX in a specific folder with the version within the location specified in the registry key, to preserve the structure. For example, C:\Temp\2024.4.1.9\Microsoft.Teams.SlimCoreVdi.win-x86.msix or //ComputerName/SharedFolder/2024.4.1.9/.
   
   > [!NOTE]
   > If the Plugin can't find a SlimCore MSIX package in the local or network storage, it automatically attempts to download it from the Microsoft public CDN as a fallback.
@@ -267,11 +267,11 @@ If trying to join a meeting right after launching new Teams (for example, clicki
 
 #### Citrix virtual channel allow list
 
-The [Virtual channel allow list](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/secure/virtual-channel-security#adding-virtual-channels-to-the-allow-list) policy setting in CVAD enables the use of an allow list that specifies which virtual channels are allowed to be opened in an ICA session. When enabled, all processes except the Citrix built-in virtual channels must be stated. As a result, additional entries are required for the new Teams client to be able to connect to the client-side plugin (MsTeamsPluginCitrix.dll).
+The [Virtual channel allow list](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/secure/virtual-channel-security#adding-virtual-channels-to-the-allow-list) policy setting in CVAD enables the use of an allow list that specifies which virtual channels are allowed to be opened in an ICA session. When enabled, all processes except the Citrix built-in virtual channels must be stated. As a result, more entries are required for the new Teams client to be able to connect to the client-side plugin (MsTeamsPluginCitrix.dll).
 
-With Citrix Virtual Apps and Desktops 2203 or later, the Virtual channel allow list is **enabled by default**. These default settings will deny access to the new Teams custom virtual channels as the allow list **doesn't** include the new Teams main process name.
+With Citrix Virtual Apps and Desktops 2203 or later, the virtual channel allow list is **enabled by default**. These default settings deny access to the new Teams custom virtual channels as the allow list **doesn't** include the new Teams main process name.
 
-The new Teams client requires three custom virtual channels to function: MSTEAMS, MSTEAM1 and MSTEAM2. These are accessed by ms-teams.exe. You can use wildcards to whitelist the ms-teams.exe executable and custom virtual channel:
+The new Teams client requires three custom virtual channels to function: MSTEAMS, MSTEAM1 and MSTEAM2. These channels are accessed by ms-teams.exe. You can use wildcards to allow the ms-teams.exe executable and custom virtual channel:
 
 - MSTEAMS,C:\Program Files\WindowsApps\MSTeams*8wekyb3d8bbwe\ms-teams.exe
 - MSTEAM1,C:\Program Files\WindowsApps\MSTeams*8wekyb3d8bbwe\ms-teams.exe
@@ -284,12 +284,12 @@ The new Teams client requires three custom virtual channels to function: MSTEAMS
 
 #### Citrix App Protection and Microsoft Teams compatibility
 
-Users who have App Protection enabled can still share their screen and apps while optimized with VDI 2.0. This requires VDA version 2402 or higher, and CWA for Windows 2309.1 or higher. Users on versions lower than those will end up sharing a black screen instead when the App Protection module is installed and enabled.
+Users who have App Protection enabled can still share their screen and apps while optimized with VDI 2.0. Sharing requires VDA version 2402 or higher, and CWA for Windows 2309.1 or higher. Users on lower versions will end up sharing a black screen instead when the App Protection module is installed and enabled.
 
 #### Troubleshooting
 
-- Not optimized with VDI 2.0 and instead you see:</br>“AVD Media Optimized”</br>“Citrix HDX Optimized”
-  - Error Codes 2000 (“No Plugin”) and 2001 (“Virtual Channel not available”) are the most likely causes.
+- Not optimized with VDI 2.0 and instead you see:</br>"AVD Media Optimized"</br>"Citrix HDX Optimized"
+  - Error Codes 2000 (“No Plugin”) and 2001 ("Virtual Channel not available") are the most likely causes.
   
   1. Make sure your ‘Virtual Channel Allow list’ is properly configured to allow MSTEAMS, MSTEAM1, MSTEAM2.
   2. Make sure the endpoint has the plugin, and is loaded by the VDI Client (see the media optimization section), with Process Explorer XXX WHERE IS THE MEDIA OPTIMIZATION SECTION WE HAVE NOTHING CALLED THAT:
@@ -305,11 +305,11 @@ Users who have App Protection enabled can still share their screen and apps whil
 
 ## New Teams logs for VDI
 
-Teams logs can be collected by pressing Ctrl+Alt+Shift+1 while running Teams on VM. This produces a ZIP folder in the Downloads folder. Inside the PROD-WebLogs-*.zip file, look for the Core folder.
+Teams logs can be collected by selecting Ctrl+Alt+Shift+1 while running Teams on VM. This action produces a ZIP folder in the Downloads folder. Inside the PROD-WebLogs-*.zip file, look for the Core folder.
 
 - vdi_debug.txt is the main file for VDI related information.
 - diagnostics-logs.txt could be on weblogs\user(..).
-- If there's a connection error, the error code can be found from the log line containing "loadErrc" and "deployErrc". The code logged here needs to be mapped using the table below.
+- If there's a connection error, the error code can be found from the log line containing "loadErrc" and "deployErrc". The code logged here needs to be mapped using the following table.
 
 ## Using Event Viewer on the VM for troubleshooting
 
@@ -329,3 +329,11 @@ To debug installations, you can enable installer logging, but then you must use 
 ## Troubleshooting SlimCoreVdi MSIX deployment errors
 
 ## Log collection
+
+Logging can be found in the following locations:
+
+- On the client:
+  - `AppData\Roaming\Microsoft\TeamsVDI\<vdi_vendor>-default-<cloudname>\skylib`
+  - `AppData\Roaming\Microsoft\TeamsVDI\<vdi_vendor>-default-<cloudname>\media-stack`
+- On the Server:
+  - `AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Logs\skylib`
