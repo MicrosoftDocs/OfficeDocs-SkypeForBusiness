@@ -171,7 +171,7 @@ Real-time telemetry isn't available in older versions of Teams. If no telemetry 
 - Real-time telemetry is only available for presenters of live events. It's not available for live event attendees.
 - If external participants or anonymous users join a meeting, their display name will show as **unavailable** to retain cross-tenant privacy.
 - If a meeting is longer than 3 hours, real-time telemetry will only be available for the *last 3 hours*.
-- If an organization's users join a federated meeting but did not initiate the meeting, that organization will only see details for their own users in Real-time telemetry. The organization that initiated a federated meeting will see all participants.
+- If an organization's users join a federated meeting but did not organize the meeting, that organization will only see details for their own users in Real-time telemetry. The organization that organized a federated meeting will see all participants.
 
 ## Related topics
 
