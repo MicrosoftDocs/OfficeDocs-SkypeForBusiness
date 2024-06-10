@@ -69,7 +69,6 @@ Here’s a complete table of the permissions that presenters have when you restr
 |Admit people from the lobby  | Yes| Yes|
 |Change app settings  | Yes| Yes|
 |Manage what attendees see <sup>1</sup>| Yes| Yes|
-|Mute other participants  | Yes| Yes|
 |Participate in meeting chat  | Yes| Yes|
 |Privately view a PowerPoint file shared by someone else  | Yes| Yes|
 |Share content  | Yes| Yes|
