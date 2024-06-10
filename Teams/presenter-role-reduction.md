@@ -64,6 +64,7 @@ Here’s a complete table of the permissions that presenters have when you restr
 |Enable individual or all attendee mics/cameras   | Yes| **No**|
 |Lower hands | Yes| **No**|
 |Remove participants| Yes| **No**|
+|Mute other participants  | Yes| **No**|
 |Add or remove an app  | Yes| Yes|
 |Admit people from the lobby  | Yes| Yes|
 |Change app settings  | Yes| Yes|
