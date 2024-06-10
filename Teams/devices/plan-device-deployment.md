@@ -56,7 +56,7 @@ Personal and shared devices have different roles and uses.
 - Deployed in shared spaces like meeting rooms, reception areas, or manufacturing floors. 
 - Their user interfaces (UI) are specific to their function, such as common area phone UI, or meeting room UI depend upon the function and placement of the shared device.
 - Require configuration and optional hardening to ensure settings aren't changed, or to prevent the account from signing out. 
-- Additional features on shared space devices include search on common area phones and hot-desking with idle timeout
+- Other features on shared space devices include search on common area phones and hot-desking with idle timeout
 
 ### Objective: How many personal and shared space devices do you need?
 
@@ -92,7 +92,7 @@ Identities enable devices to access Microsoft 365 services, and they should make
 
 ### Objective: Review Conditional Access policies
 
-Microsoft Entra Conditional Access policies are additional requirements that must be met before a device can be signed in.
+Microsoft Entra Conditional Access policies are other requirements that must be met before a device can be signed in.
 
 As you plan your deployment
 

@@ -100,9 +100,11 @@ items:
                 - name: Update to the new Teams for Education
                   href: new-teams-education.md
                 - name: Update to the new Teams for Web
-                  href: new-teams-web.md                          
-                - name: Troubleshooting installation issues          
+                  href: new-teams-web.md
+                - name: Troubleshooting installation issues
                   href: /microsoftteams/troubleshoot/teams-administration/fix-new-teams-installation-issues
+                - name: Troubleshooting launch issues
+                  href: /microsoftteams/troubleshoot/teams-administration/resolve-new-teams-launch-issues
                 - name: Known issues in new Teams
                   href: new-teams-known-issues.md
                 - name: Classic Teams client end of availability
@@ -370,6 +372,8 @@ items:
           href: assign-policies-users-and-groups.md
         - name: Assign policy packages
           href: assign-policy-packages.md
+        - name: Admin settings for file drag-drop to third-party storage
+          href: admin-settings-for-file-drag-drop-to-third-party-storage.md
         - name: Manage feedback policies in Teams
           href: manage-feedback-policies-in-teams.md
         - name: Manage policy packages in Teams
@@ -688,6 +692,8 @@ items:
               href: manage-meeting-chat.md
             - name: Prevent users from joining external meetings
               href: external-meeting-join.md
+            - name: Prevent users from sharing content in external meetings
+              href: block-external-content-share.md
             - name: Manage reactions
               href: manage-reactions-meetings.md
             - name: Set up the Call me feature for your users
@@ -904,7 +910,9 @@ items:
                 - name: Send an email to a user with their Audio Conferencing information
                   href: send-an-email-to-a-user-with-their-dial-in-information-in-teams.md
             - name: Manage meetings settings for audio conferencing
-              items: 
+              items:
+                - name: Explicit recording consent for audio conferencing 
+                  href: conferencing-recording-consent.md
                 - name: Dialing out from a meeting so other people can join it
                   href: dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md
                 - name: Turn on or off entry and exit announcements for meetings
@@ -933,7 +941,7 @@ items:
               href: audio-conferencing-zones.md
             - name: Country and region availability for Audio Conferencing
               href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-            - name: Audio Conferencing Complimentary Dial Out Period
+            - name: Audio Conferencing Complimentary Dial Out
               href: complimentary-dial-out-period.md
 
 - name: Voice - Teams Phone and PSTN connectivity
@@ -1370,7 +1378,7 @@ items:
                   href: rooms/third-party-join.md
                 - name: Meetings with SIP and H.323 devices
                   href: rooms/meetings-with-SIP-H323-devices.md
-                - name: Manage custom backgrounds
+                - name: Manage custom backgrounds on Windows
                   href: rooms/custom-backgrounds.md
                 - name: Join meetings with QR codes
                   href: rooms/teams-rooms-qr-codes.md
@@ -1538,9 +1546,9 @@ items:
       items:
         - name: Manage the Admin app
           href: manage-admin-app.md
-        - name: Manage the avatars app
+        - name: Manage the Avatars app
           href: meeting-avatars.md
-        - name: Manage the immersive spaces app
+        - name: Manage the Mesh app
           href: meeting-immersive-spaces.md
         - name: Manage the Bookings app
           href: bookings-app-admin.md
@@ -1606,6 +1614,8 @@ items:
             href: teams-app-setup-policies.md
         - name: App centric management
           href: app-centric-management.md
+        - name: Manage apps across Microsoft 365
+          href: manage-apps-across-m365.md
         - name: Tailor Teams apps for your frontline workers
           href: /microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: View and understand app permissions
@@ -1806,9 +1816,7 @@ items:
           href: /powershell/module/teams
     - name: Developer documentation for Teams
       href: /microsoftteams/platform
-    - name: Teams content updates
-      href: teams-updates.md
-
+    
     - name: Country phone number management
       items: 
         - name: Phone number management for Australia

@@ -88,8 +88,6 @@ Every team is different; there's no one-size-fits-all approach to collaboration.
 
 ## Related topics
 
-[Microsoft Teams content updates](teams-updates.md)
-
 [Teams Troubleshooting](/MicrosoftTeams/troubleshoot/teams)
 
 [What's new in Teams](https://support.office.com/article/d7092a6d-c896-424c-b362-a472d5f105de)
