@@ -21,11 +21,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "teams/manage-freemium.md",
-       "redirect_url": "/microsoftteams/user-access",
-       "redirect_document_id": false
-    },
-    {
       "source_path": "Teams/upload-custom-apps.md",
       "redirect_url": "/microsoftteams/teams-custom-app-policies-and-settings",
       "redirect_document_id": false
@@ -4801,18 +4796,8 @@
     "redirect_document_id": false
 },
 {
-  "source_path": "teams/upgrade-freemium.md",
-  "redirect_url": "/microsoftteams/user-access",
-  "redirect_document_id": false
-},
-{
   "source_path": "Teams/teams-updates.md",
   "redirect_url": "/Teams/teams-overview",
-  "redirect_document_id": false
- },
- {
-  "source_path": "Teams/teams-updates.md",
-  "redirect_url": "Teams/index.yml",
   "redirect_document_id": false
  },
  {
@@ -4830,12 +4815,7 @@
   "redirect_url": "/microsoftteams/privacy/location-of-data-in-teams",
   "redirect_document_id": false
  },
-{
-  "source_path": "Teams/tutorial-audio-conferencing.yml",
-  "redirect_url": "/microsoftteams/audio-conferencing-in-office-365",
-  "redirect_document_id": false
-},
-{
+ {
   "source_path": "Teams/rooms/with-skype-for-business-server-2015.md",
   "redirect_url": "/microsoftteams/rooms/create-resource-account",
   "redirect_document_id": false
@@ -4847,11 +4827,6 @@
 },
 {
     "source_path": "teams/manage-freemium.md",
-    "redirect_url": "/microsoftteams/user-access",
-    "redirect_document_id": false
-  },
-  {
-    "source_path": "teams/teams-add-on-licensing/remove-assign-free-licenses.md",
     "redirect_url": "/microsoftteams/user-access",
     "redirect_document_id": false
   },
