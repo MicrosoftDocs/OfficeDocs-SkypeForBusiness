@@ -50,7 +50,7 @@ Follow these steps in the Teams admin center to manage the email communications 
 2. Select **Meetings** from the navigation pane.
 3. Under **Meetings**, select **Events Policies**.
 4. Either select an existing policy or create a new one.
-5. Toggle the **Allow email editing** setting **On** or **Off**.
+5. Toggle the **Customize event emails** setting **On** or **Off**.
 6. Select **Save**
 
 ## Manage email communications for webinars and town halls with PowerShell
