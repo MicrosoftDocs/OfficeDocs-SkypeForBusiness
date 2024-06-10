@@ -23,7 +23,7 @@ In reference to the [announcement](https://blogs.technet.microsoft.com/exchange/
 
 ExchUMO is deployed by customers for voicemail, auto attendant, Call Queue, and fax integration services. Microsoft plans to help customers migrate to Phone System services that already support thousands of customers on Skype for Business Online and Microsoft Teams.
 
-Voicemail is primarily a Microsoft-driven migration; admin involvement and/or investment might be required for a subset of customers. Auto attendant is an admin-driven migration; you will need to re-create the existing ExchUMO auto attendant trees in the Cloud Auto Attendant cloud service. Customers who consume any of the ExchUMO features with a third-party PBX will not be migrated to Skype cloud services because they do not support third-party PBX systems. A retirement plan for third-party support was announced in [this blog](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853), and customers in this deployment model can migrate their users to one of Microsoft’s Unified Communications platforms/services or acquire a third-party voicemail and/or auto attendant solution for these users. Fax integration is not supported in the cloud-based services; customers will need to migrate to a third-party solution.
+Voicemail is primarily a Microsoft-driven migration; admin involvement and/or investment might be required for a subset of customers. Auto attendant is an admin-driven migration; you need to re-create the existing ExchUMO auto attendant trees in the Cloud Auto Attendant cloud service. Customers who consume any of the ExchUMO features with a third-party PBX won't be migrated to Skype cloud services because they don't support partner PBX systems. A retirement plan for partner support was announced in [this blog](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853), and customers in this deployment model can migrate their users to one of Microsoft’s Unified Communications platforms/services or acquire a third-party voicemail and/or auto attendant solution for these users. Fax integration isn't supported in the cloud-based services; customers need to migrate to a partner solution.
 
 ## Who is affected?
 
@@ -41,13 +41,13 @@ Learn more about the user and admin experience impact in [User experience impact
 
 ## Migration plan overview
 
-Microsoft has identified various customer deployments that are consuming features from ExchUMO and will be helping customers migrate based on the following plan.
+Microsoft identifies various customer deployments that are consuming features from ExchUMO and helps customers migrate based on the following plan.
 
 |Customer group |Timeline  |Details  |
 |---------|---------|---------|
-|Customers who are ready to migrate<br><br>Features to migrate:<br><ul><li>Voicemail</ul>   |   March — May 2019  |Examples:<ul><li>	Customers with simple voicemail deployment and usage<li>Customers that have all requirements established for Microsoft to execute the migration<ul>|
-|Customers with prerequisites<br><br>Features to migrate:<br><ul><li>Voicemail<li>Auto attendant<li>Call Queue</ul> |  May — December 2019 |Examples: <br><ul><li>Hybrid configuration is not  complete<li>Hybrid PSTN numbers are not set up</ul>|
-|Customers who require admin involvement & customer investment<br><br>Features to migrate:<ul><li>voicemail<li>Auto attendant<li>Call Queues<li>Fax integration</ul>| By February 2020  | Examples: <br><ul><li>ExchUMO service is consumed by third party PBX<li>Customers with PSTN Subscriber Access requirements<li>Customers on SFB 2010 (not-supported)<li>Fax integration</ul> |
+|Customers who are ready to migrate<br><br>Features to migrate:<br><ul><li>Voicemail</ul>   |   March—May 2019  |Examples:<ul><li>	Customers with simple voicemail deployment and usage<li>Customers that have all requirements established for Microsoft to execute the migration<ul>|
+|Customers with prerequisites<br><br>Features to migrate:<br><ul><li>Voicemail<li>Auto attendant<li>Call Queue</ul> |  May—December 2019 |Examples: <br><ul><li>Hybrid configuration isn't  complete<li>Hybrid PSTN numbers aren't set up</ul>|
+|Customers who require admin involvement & customer investment<br><br>Features to migrate:<ul><li>voicemail<li>Auto attendant<li>Call Queues<li>Fax integration</ul>| By February 2020  | Examples: <br><ul><li>ExchUMO service consumes third party PBX<li>Customers with PSTN Subscriber Access requirements<li>Customers on SFB 2010 (not-supported)<li>Fax integration</ul> |
 
 ## Voicemail migration guidelines
 
@@ -94,11 +94,11 @@ When you choose a managed migration, you will not receive a pre-migration 30-day
 
 To opt in for a planned migration, send an email request from your administrator's email address to [cvm@microsoft.com](mailto:cvm@microsoft.com) with the following information:
 
-- Preferred date (Tuesdays): migration waves are executed every Tuesday. Please select a date on a Tuesday that is not beyond 12/3/2019.
+- Preferred date (Tuesdays): migration waves are executed every Tuesday. Please select a date on a Tuesday that is not beyond December 3, 2019.
  
 - Tenant ID: 32 characters number in this format 0046728c-688a-4472-a38f-098fec60ac6x. You can find your tenant ID in the Microsoft 365 admin portal under Microsoft Entra ID, or using the following PowerShell cmdlet: `Get-CsTenant | Select ObjectId`
 
-You will receive an email confirmation once your tenant is successfully migrated.
+You'll receive an email confirmation once your tenant is successfully migrated.
 
 ## Auto attendant migration guidelines
 
@@ -177,7 +177,7 @@ We strongly advise that you start the setup of your new auto attendants early to
 | VM | Tenant-Admin Features | Voicemail policy    |   | Y | Y    |
 | VM | Tenant-Admin Features | Web portal administration   |  | CY19   | Y    |
 | VM | Tenant-Admin Features | PowerShell   |  | Y | Y    |
-| UM | User Features | Message Waiting Indicator (MWI) on Skype for Business certified phones   |May be provided by phone partner  | No | Yes    |
+| UM | User Features | Message Waiting Indicator (MWI) on Skype for Business certified phones   |Might be provided by phone partner  | No | Yes    |
 | AA | Service Features | AA support 3rd-party PBX    |  | N | Y    |
 | AA | Service Features | Support Skype for Business Server   |  | Y | Y    |
 | AA | Service Features | Support Microsoft Teams|  | Y | N    |
@@ -205,14 +205,14 @@ We strongly advise that you start the setup of your new auto attendants early to
 
 To validate that your users have been migrated to Cloud Voicemail, leave a voicemail to a user and check the message body in Outlook. Cloud Voicemail messages have a footer that reads:
 
-"Thank you for using Transcription! If you don't see a transcript above, it's because the audio quality was not clear enough to transcribe."
+"Thank you for using Transcription! If you don't see a transcript above, it's because the audio quality wasn't clear enough to transcribe."
 
 When testing voicemail functionality after your users have been migrated, make sure to consider the following scenarios:
 
 - Validate voicemail access across all endpoint types in your organization, such as apps and IP phones.
 - Validate with sample users that the configured personalized greetings are played to callers.
-- If your organization has a legal or compliance requirement to disable transcription for users, make sure it is disabled post migration. For more details, see [Set up Cloud Voicemail](/microsoftteams/set-up-phone-system-voicemail).
-- If you have previously configured Exchange VM policies and rules, make sure they are effective.
+- If your organization has a legal or compliance requirement to disable transcription for users, make sure it's disabled post migration. For more information, see [Set up Cloud Voicemail](/microsoftteams/set-up-phone-system-voicemail).
+- If you have previously configured Exchange VM policies and rules, make sure they're effective.
 - Familiarize yourself with the Cloud Voicemail service PowerShell cmdlets for changing user settings.  
 
 ### User experience impact
@@ -225,15 +225,15 @@ The following is an overview of end-user voicemail migration experience.
 |Email notification | No change<br>No email is sent to users notifying them about voicemail account activation/migration. |
 |Access to previous messages | No change<br>Users have access to their previous voicemail messages in all supported endpoints. |
 |Receiving VM in outlook, SFB Apps| No change<br>Users continue to receive their voicemail messages in all supported endpoints. |
-|Transcription | Enhanced<br>CVM transcription has a much higher accuracy rate and supported languages than ExchUMO. |
+|Transcription | Enhanced<br>CVM transcription has a higher accuracy rate and supported languages than ExchUMO. |
 |User setting | New experience<br>Users are able to change their preferences from a User Setting Portal (USP). Users can access their USP from a hyperlink in their voicemail email, or the User-Settings button on their SFB client; https://aka.ms/vmsettings.
- |Features| Please see the feature-set comparison for details. |
+ |Features| See the feature-set comparison for details. |
 |Outlook rules for VM messages | No change<br>Previously created rules will apply to CVM messages after migration.
  |
 
 ### User management and provisioning in CVM
 
-New Skype for Business users will be automatically provisioned for Cloud voicemail when created. No additional admin work or license is required to provision new voicemail users. See [Set up Cloud Voicemail](/microsoftteams/set-up-phone-system-voicemail) to learn about policy management for existing and new users.
+New Skype for Business users will be automatically provisioned for Cloud voicemail when created. No other admin work or license is required to provision new voicemail users. See [Set up Cloud Voicemail](/microsoftteams/set-up-phone-system-voicemail) to learn about policy management for existing and new users.
 
 ### Admin Auto Attendant management experience
 
@@ -243,7 +243,7 @@ To learn more about auto attendants, see [Set up a Cloud auto attendant](/micros
 
 #### Greeting inconsistencies
 
-Subscriber access might continue to work for your tenant until the service is completely retired, even after all your users have been migrated to Cloud Voicemail. To avoid user confusion and an inconsistent experience, disable the subscriber access since the greetings change after migration. To do that, remove the EXUM contact for each subscriber access line using `Get-CsExUmContact | ?{$_.IsSubscriberAccess -eq $true} | Remove-CsExUmContact`.
+Subscriber access might continue to work for your tenant until the service is retired, even after all your users are migrated to Cloud Voicemail. To avoid user confusion and an inconsistent experience, disable the subscriber access since the greetings change after migration. To do that, remove the EXUM contact for each subscriber access line using `Get-CsExUmContact | ?{$_.IsSubscriberAccess -eq $true} | Remove-CsExUmContact`.
 
 #### Auto Attendant Call Transfer to PSTN
 
@@ -251,18 +251,18 @@ To transfer an auto attendant call to an external PSTN phone number via Skype fo
 
 #### Shared mailbox is still accessible
 
-A shared mailbox configured using Exchange UM Online continues to receive messages after the migration to CVM and be accessible to users via Outlook. However, access to change the greeting messages of these mailboxes will not be available once migrated to CVM. Customers with shared mailboxes that are used to capture auto attendant callers should leverage the Auto Attendants and Call Queues Shared Mailbox capabilities once released (ETA October 2019).
+A shared mailbox configured using Exchange UM Online continues to receive messages after the migration to CVM and be accessible to users via Outlook. However, access to change the greeting messages of these mailboxes won't be available once migrated to CVM. Customers with shared mailboxes that are used to capture auto attendant callers should use the Auto Attendants and Call Queues Shared Mailbox capabilities once released (ETA October 2019).
   
 #### "Username is not using Skype for Business" banner displays
 
 The CVM service is based on the Microsoft Teams infrastructure, and calls from a Skype for Business client might cause an information banner to display on the client that reads:
-"Username is not using Skype for Business. For a richer experience, switch to Teams or start a Skype meeting."
+"Username isn't using Skype for Business. For a richer experience, switch to Teams or start a Skype meeting."
 Make sure to update your users' Skype for Business client to the latest C2R client update to prevent this banner from appearing.
   
 #### "Set Up Voice Mail" takes you to OWA
 
-Clicking **Set Up Voice Mail** from the client will continue taking Skype for Business Server 2015/2013 customers to the Office Web Access (OWA) portal page after migration to CVM. All settings have been removed from the Voicemail tab in OWA and a banner will display with a redirect link to take users to the CVM user settings portal.
+Clicking **Set Up Voice Mail** from the client will continue taking Skype for Business Server 2015/2013 customers to the Office Web Access (OWA) portal page after migration to CVM. All settings are removed from the Voicemail tab in OWA and a banner displays with a redirect link to take users to the CVM user settings portal.
 
 #### Changing greeting remotely
 
-PSTN subscriber access is not supported in CVM. For users that need to change their greeting remotely, a "Change your greeting" menu option has been added to the voicemail IVR service for mobile clients. Users can call this service by pressing and holding the "1" key on the mobile client dial-pad.
+PSTN subscriber access isn't supported in CVM. For users that need to change their greeting remotely, a "Change your greeting" menu option has been added to the voicemail IVR service for mobile clients. Users can call this service by pressing and holding the "1" key on the mobile client dial-pad.

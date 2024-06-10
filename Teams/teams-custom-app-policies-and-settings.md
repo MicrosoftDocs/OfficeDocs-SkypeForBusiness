@@ -162,7 +162,7 @@ You as an admin can delete custom apps from your organization's store. On the ap
 
 This table summarizes the custom app settings and how the settings work together. The combined effect controls who in your organization can upload custom apps to Teams.
 
-| Org-wide setting for custom app upload | Team-level custom app setting | User-level custom app settings via app setup policy | Effect |
+| Org-wide app setting for custom app upload | Team-level custom app setting | User-level custom app settings via app setup policy | Effect |
 |---------------------------------------------|-------------------------------|-------------------------------------------------|--------|
 | Off    | Off    | Off     | Upload custom apps option is unavailable in your organization. Users can submit custom apps for admin approval. |
 | Off     | Off     | On        |Upload custom apps option is unavailable in your organization. Users can submit custom apps for admin approval. |

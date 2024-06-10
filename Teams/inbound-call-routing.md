@@ -5,7 +5,7 @@ ms.author: mabond
 manager: pamgreen
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: roykuntz
+ms.reviewer: roykuntz, jastark
 ms.date: 05/17/2024
 audience: admin
 search.appverid: MET150

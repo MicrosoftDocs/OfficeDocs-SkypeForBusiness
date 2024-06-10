@@ -3,8 +3,7 @@ title: Overview of teams and channels in Microsoft Teams
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.reviewer: 
-ms.date: 07/18/2023
+ms.date: 05/22/2024
 ms.topic: conceptual
 ms.service: msteams
 ms.subservice: teams-chat
@@ -15,17 +14,17 @@ ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 
-  - ms.teamsadmincenter.dashboard.helparticle.msteamsfiles
-  - ms.teamsadmincenter.dashboard.helparticle.teamsandchannels
-  - ms.teamsadmincenter.teamschannel.overview
-  - ms.teamsadmincenter.teamssettings.overview
-  - okr_smb
-  - intro-overview
-  - chat-teams-channels-revamp
+- ms.teamsadmincenter.dashboard.helparticle.msteamsfiles
+- ms.teamsadmincenter.dashboard.helparticle.teamsandchannels
+- ms.teamsadmincenter.teamschannel.overview
+- ms.teamsadmincenter.teamssettings.overview
+- okr_smb
+- intro-overview
+- chat-teams-channels-revamp
 ms.collection: 
-  - M365-collaboration
+- M365-collaboration
 appliesto: 
-  - Microsoft Teams
+- Microsoft Teams
 ---
 
 # Overview of teams and channels in Microsoft Teams

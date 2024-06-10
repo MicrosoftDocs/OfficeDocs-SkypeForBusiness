@@ -31,7 +31,7 @@ description: "Learn how to change the Skype for Business settings for individual
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!IMPORTANT]
-> The Microsoft Teams admin center has replaced the Skype for Business admin center (Legacy portal). All settings for managing Skype for Business are now in the Teams admin center. You must be assigned the [Microsoft Entra admin role](/azure/active-directory/roles/permissions-reference) of Global admin or Skype for Business admin to manage Skype for Business features in the Teams admin center. To learn more, see [Manage Skype for Business settings in the Microsoft Teams admin center](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
+> The Microsoft Teams admin center has replaced the Skype for Business admin center (Legacy portal). All settings for managing Skype for Business are now in the Teams admin center. You must be assigned the [Microsoft Entra admin role](/azure/active-directory/roles/permissions-reference) Skype for Business admin to manage Skype for Business features in the Teams admin center. To learn more, see [Manage Skype for Business settings in the Microsoft Teams admin center](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
 
 This article explains how admins configure Skype for Business for a small number of users. To do these steps in bulk, we've included links to the Windows PowerShell cmdlets you can use.
   
@@ -92,7 +92,7 @@ To configure these settings in bulk, use PowerShell. See [Set up your computer f
 ## Edit audio conferencing settings for one user
 <a name="__toc314837483"> </a>
 
-1. Choose **Users**, select the user whose audio conferencing settings you wan to edit, ,and then choose **Edit** ![Edit.](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
+1. Choose **Users**, select the user whose audio conferencing settings you want to edit, and then choose **Edit** ![Edit.](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
     
 2. Choose **Audio conferencing**, select your audio conferencing provider, type or change the requested information, and then click **Save**.
     
