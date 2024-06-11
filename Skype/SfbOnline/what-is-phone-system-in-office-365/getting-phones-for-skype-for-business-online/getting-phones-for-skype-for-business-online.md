@@ -102,7 +102,7 @@ For full device features and capabilities, check the manufacturer user guides.
 |QoE   |Yes   |Yes   |Yes   |No  |
 |Log Upload  <br/> <br/> **Note:** Currently, all logs are uploaded to the Microsoft Support team only; customer access to phone logs aren't yet available.           |Yes   |Yes   |Yes   |Yes   |
 |Modern Authentication   |Yes   |Yes   |Yes   |No   |
-|Multiple Emergency Number   |Yes   |No   |No   |Yes   |
+|Multiple Emergency Numbers   |Yes   |No   |No   |Yes   |
 |Exchange Calendar Integration*   |Yes   |Yes   |Yes   |Yes  <br/> <br/> **Note:** Requires PC tethering           |
 |Presence Integration   |Yes   |Yes   |Yes   |Yes   |
 |Corporate Directory   |Yes   |Yes   |Yes   |Yes   |
@@ -117,7 +117,7 @@ For full device features and capabilities, check the manufacturer user guides.
 ## What else should you know?
 For step-by-step setup instructions, see [Deploying Skype for Business Online phones](deploying-skype-for-business-online-phones.md).
 
-## Related topics
+## Related articles
 [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Here's what you get with Phone System](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
