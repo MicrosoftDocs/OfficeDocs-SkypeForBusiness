@@ -75,9 +75,15 @@ You can also choose to use a third-party operator for your Audio Conferencing nu
 
 | Subscription type | Subscription |
 | ----------------- | ----------- |
-|**Enterprise**| - Office 365 E1<br/> - Office 365 E3<br/> - Office 365 E5|
-|**Frontline**| - Microsoft 365 F1<br/> - Microsoft 365 F3<br/> - Office 365 F3|
-|**Other**| - Office 365 A1<br/> - Microsoft 365 A3<br/> - Microsoft G3|
+|**Enterprise**| - Office 365 E1<sup>1</sup><br/> - Office 365 E3<sup>1</sup><br/> - Office 365 E5<sup>1,3</sup>|
+|**Frontline**| - Microsoft 365 F1<br/> - Microsoft 365 F3<br/> - Office 365 F3<sup>2</sup>|
+|**Other**| - Office 365 A1<br/> - Microsoft 365 A3<br/> - Microsoft 365 G3|
+
+*<sup>1</sup> Microsoft 365 E3/E5 and Office 365 E1/E3/E5 suites that include Teams are no longer available for purchase by new customers.*
+
+*<sup>2</sup> Office 365 F3 is available for purchase by new customers through Cloud Solution Providers (CSPs) only.*
+
+*<sup>3</sup> This Teams subscription plan gives your organization the most security and compliance features found in the highest tiers of Microsoft 365 and Office 365 subscriptions.*
 
 The following table displays Audio Conferencing license options.
 
