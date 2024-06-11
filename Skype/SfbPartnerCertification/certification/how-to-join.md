@@ -26,7 +26,7 @@ description: "Information on how to join the Skype for Business Certification Pr
 
 ## Requirements and available programs
 
-Some programs already have sufficient partners to achieve our current product and market reach needs and are not seeking new partners. The table that follows indicates the programs that are currently seeking partners, and will be updated periodically as needs change.
+Some programs already have sufficient partners to achieve our current product and market reach needs and aren't seeking new partners. The table that follows indicates the programs that are currently seeking partners, and will be updated periodically as needs change.
 
 Vendors interested in submitting their products for the **Certified for Microsoft Teams** program must have:
 
@@ -42,18 +42,18 @@ Vendors interested in submitting their products for the **Certified for Microsof
 
 Vendors that meet the general requirements for partners above may follow the process outlined here to request admission:
 
-1. Confirm that the program that you are seeking to join is seeking new partners by reviewing the table below.
+1. Confirm that the program that you're seeking to join is seeking new partners by reviewing the table below.
 
-2. Email the alias listed in the table. You must clearly indicate which program you are seeking to join. Responses will be assessed and if further information is needed, candidates will be contacted for a more comprehensive discussion under NDA.
+2. Email the alias listed in the table. You must clearly indicate which program you're seeking to join. Responses are assessed and if further information is needed, candidates are contacted for a more comprehensive discussion under NDA.
 
-   Vendors that meet the full requirements for the program will be provided detailed program information (specifications and policies), provided there is capacity in the program at the time. Program **Terms and Conditions** will be made available for acceptance when these requirements are fulfilled.
+   Vendors that meet the full requirements for the program will be provided detailed program information (specifications and policies), provided there's capacity in the program at the time. Program **Terms and Conditions** are made available for acceptance when these requirements are fulfilled.
 
 3. Sign the terms and agreements.</br></br>
    Signing the terms and agreements completes the partner onboarding process and allows the partner to submit products for testing and certification according to the program guidelines.
 
 ## Current programs
 
-Programs that are not listed below are currently closed.
+Programs that aren't listed below are currently closed.
 
 <table border="1" cellpadding="1" cellspacing="" class="grid">
         <colgroup>
