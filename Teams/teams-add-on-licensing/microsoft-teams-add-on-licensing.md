@@ -69,15 +69,12 @@ For users who schedule or lead meetings with attendees who need to call in using
 
 You can also choose to use a third-party operator for your Audio Conferencing numbers if your current operator is part of the Microsoft Operator Connect program. For more information, see [Plan for Operator Connect Conferencing](../operator-connect-conferencing-plan.md).
 
-After purchasing an Microsoft 365 or Office 365 subscription, you might still need to buy a separate Audio Conferencing license. If you select either a Microsoft 365 or Office 365 E1 or E3 subscription, you need to purchase a separate Audio Conferencing license. An Audio Conferencing license is already included in the E5 subscription.
+**After purchasing an Microsoft 365 or Office 365 subscription, if you select either a Microsoft 365 or Office 365 E1 or E3 subscription, you will still need to buy a separate Audio Conferencing license. An Audio Conferencing license is already included in the E5 subscription. (what about Frontline or Other license subscriptions?)**
 
-The following table displays which Microsoft 365 or Office 365 subscription to purchase based on your subscription audience.
+**The following table displays which Microsoft 365 or Office 365 subscription to purchase based on your subscription audience.**
 
 | Subscription type | Subscription |
 | ----------------- | ----------- |
-|**Enterprise**| - Office 365 E1<br/> - Office 365 E3<br/> - Office 365 E5|
-|**Frontline**| - Microsoft 365 F1<br/> - Microsoft 365 F3<br/> - Office 365 F3|
-|**Other**| - Office 365 A1<br/> - Microsoft 365 A3<br/> - Microsoft G3|
 |**Enterprise**| - Office 365 E1<br/> - Office 365 E3<br/> - Office 365 E5|
 |**Frontline**| - Microsoft 365 F1<br/> - Microsoft 365 F3<br/> - Office 365 F3|
 |**Other**| - Office 365 A1<br/> - Microsoft 365 A3<br/> - Microsoft G3|
@@ -100,7 +97,6 @@ You can purchase additional licenses and assign them to your users so that they 
 - *Pay-As-You-Go* - Dial out and pay per user per minute for all outgoing calls.
 - *Pay per minute* - Pay for all of your Audio Conferencing usage on a per-minute basis without paying for a per-user monthly license. This option is only available to Volume and Licensing customers. For more information see,
 [Audio Conferencing pay-per-minute](../audio-conferencing-pay-per-minute.md).
-
 
 ## Teams Phone with PSTN connectivity licenses
 
