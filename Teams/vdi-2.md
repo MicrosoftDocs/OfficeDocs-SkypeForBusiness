@@ -1,5 +1,5 @@
 ---
-title:  Teams for Virtualized Desktop Infrastructure (VDI) 2.0
+title:  New VDI solution for Teams
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
@@ -20,9 +20,9 @@ appliesto:
 ms.localizationpriority: high
 ---
 
-# Teams for VDI 2.0
+# New VDI solution for Teams
 
-VDI 2.0 is a new architecture for optimizing the delivery of multimedia workloads in virtual desktops.
+New VDI solution for Teams is a new architecture for optimizing the delivery of multimedia workloads in virtual desktops.
 
 ## Components
 
