@@ -28,7 +28,7 @@ appliesto:
 
 You're now armed with a great project team and critical information about your organization, and you're ready to experiment with Teams. We recommend experimenting with 2 to 3 real world projects within a group that is led by a stakeholder with whom you have a positive relationship and in whose organization there are a sufficient number of early adopters to provide meaningful feedback. Whether your organization is large or small, we recommend completing this phase to gain insight into how Teams can improve your collaboration beyond using its chat and file storage features.  
 
-You must complete the following steps in this phase:
+You'll complete the following steps in this phase:
 
 1. [Create your champions program](teams-adoption-create-champions-program.md).
 2. [Complete your governance quick start](teams-adoption-governance-quick-start.md).

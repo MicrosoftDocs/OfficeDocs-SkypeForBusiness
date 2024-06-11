@@ -140,6 +140,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Current certification end date | Room size | Android OS version |
 |:-|:-|:-|:-|:-|
+| Poly G62 | `PolyOS 4.1.5` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Neat Bar Gen2 | `NFA1.20231116.0626 ` |  September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | DTEN DCR200 Bar | `1.0.2` |  October 4, 2026 |  Small size room (4.5 m x 4.5 m) | 12 |
 | Cisco Room Kit EQX | `RoomOS11.15` | September 3, 2025 |  Large Meeting Room (4.5m x 8.5 m)| 11 |
@@ -179,7 +180,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Poly Studio X70 | `4.0.0-376092` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Poly G7500 | `4.0.0.376092` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Poly TC8 | `4.1.0.211075` | September 3, 2025 | Compatible with Poly Studio X30, Poly Studio X50, Poly Studio X70 and Poly G7500 | 11 |
-| Poly TC10 | `4.1.0-211075` | September 3, 2025 |Compatible with Poly Studio X30, Poly Studio X50, Poly Studio X70, Poly Studio X52 and Poly G7500| 11 |
+| Poly TC10 | `4.1.0-211075` | September 3, 2025 |Compatible with Poly Studio X30, Poly Studio X50, Poly Studio X70, Poly Studio X52, Poly G7500 and Poly Studio G62| 11 |
 | Poly Studio X52 | `4.1.0.382110` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Poly G7500 + Shure Large Room Kit | `4.0.1` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Yealink DeskVision A24 | `156.15.0.29` | September 3, 2025 | Phone room (2 m x 2 m) | 10 |
@@ -262,6 +263,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Logitech Scribe](https://www.logitech.com/products/video-conferencing/room-solutions/scribe.960-001332.html) | 1.1.1 | &#x2714; |  |
 | [MAXHUB UC S07 Videoconferencing Camera](https://www.maxhub.com/en/s07/) | Audio firmware version: V0.0.0.5476 </br> Video firmware version: V100-20230726-175602 |  |  |
 | MAXHUB UC W31 4K USB Camera | Video firmware version: 100-20230731-104934 |  |  |
+| MAXHUB UC BM35 | 0.0.02457 |  |  |
 | [Microsoft Surface Hub Smart Camera](https://www.microsoft.com/d/surface-hub-smart-camera/8n983ctks176) | FW: 1.8.1 |  |  |
 | [Microsoft Surface Hub 2 Camera](https://www.microsoft.com/d/surface-hub-2-camera/8tzgfl7z18ph) | FW: 24.712.159 |  |  |
 | [Nureva HDL300](https://www.nureva.com/audio-conferencing/hdl300) | 2.3.6 |  |  |
