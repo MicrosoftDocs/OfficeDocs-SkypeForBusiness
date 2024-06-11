@@ -49,16 +49,6 @@ The browser must be configured to allow third-party cookies for some third-party
 >[!Note]
 >New Teams for Web isn't supported in VDI environments, so performance and reliability may be negatively impacted if used in VDI.
 
-## Features currently not available
-
-The following notable features aren't available on new Teams or classic Teams clients:
-
-- Simultaneous availability and notifications across multiple accounts and tenants.
-- Popout windows for chat and channel content.
-- Avatars and video background effects, except for background blur.
-
-New Teams for Web supports the same features available on classic Teams for Web with the exception of the changes listed in [Features that are changing in the new Microsoft Teams](new-teams-whats-changing.md).
-
 ## Features not currently available
 
 New Teams for Web offers near feature parity with the new Desktop client thanks to a new, cross-client infrastructure.

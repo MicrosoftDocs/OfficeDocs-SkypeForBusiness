@@ -3,7 +3,7 @@ title: Manage teams in the Microsoft Teams admin center
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 audience: admin
 search.appverid: MET150

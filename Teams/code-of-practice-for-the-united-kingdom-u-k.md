@@ -46,7 +46,7 @@ Online: Sign in to the Microsoft 365 admin center and submit a service request b
 
 Normal business hours are Monday through Friday, from 9:00 am to 5:00 pm.
 
-You may be able to answer some of your questions by visiting the [Skype for Business website](https://go.microsoft.com/fwlink/?LinkID=820709&amp;clcid=0x809).
+You might be able to answer some of your questions by visiting the [Skype for Business website](https://go.microsoft.com/fwlink/?LinkID=820709&amp;clcid=0x809).
 
 ## 3. Complaints and dispute resolution
 
@@ -126,11 +126,11 @@ All Service Providers must register with PhonepayPlus, which is an independent o
 
 ### Service provider contact information
 
-To find contact information for a Service Provider, you can use PhonepayPlus' #NumberChecker tool at [Submit an online enquiry](https://psauthority.org.uk/For-Consumers/Contact-Us). If you believe that you were wrongfully charged for a Premium Rate Service, you should contact the Service Provider directly.
+To find contact information for a Service Provider, you can use PhonepayPlus' #NumberChecker tool at [Submit an online enquiry](https://psauthority.org.uk/For-Consumers/Contact-Us). If you believe that you are wrongfully charged for a Premium Rate Service, you should contact the Service Provider directly.
 
 ### Complaints
 
-If you wish to file a complaint about a Service Provider with PhonepayPlus, you may, free of charge, submit an enquiry either online or by phone:
+If you wish to file a complaint about a Service Provider with PhonepayPlus, you might, free of charge, submit an enquiry either online or by phone:
 
 - Phone: 0300 30 300 20 (9:30 am - 5 pm Monday to Friday)
 

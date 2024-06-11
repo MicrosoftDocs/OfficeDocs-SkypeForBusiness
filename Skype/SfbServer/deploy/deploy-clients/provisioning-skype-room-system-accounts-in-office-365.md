@@ -129,7 +129,7 @@ After a resource room mailbox account has been created and enabled as shown prev
 
 In Microsoft 365 or Office 365, the default password expiration policy for all of your user accounts is 90 days unless you configure a different password expiration policy. For Skype Room System accounts, you can select the Password never expires setting with the following steps.
   
-1. Create a Windows Azure Active Directory session by using your tenant global administrator credentials. For information on more options, see [additional authentication methods](/powershell/microsoftgraph/authentication-commands).
+1. Create a Windows Azure Active Directory session. For information on more options, see [additional authentication methods](/powershell/microsoftgraph/authentication-commands).
     
     ```powershell
     $clientId = "your-app-client-id"
