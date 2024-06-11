@@ -12,18 +12,18 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
-description: "Summary: Learn how to welcome users to dial-in conferencing in Skype for Business Server."
+description: "Summary: Learn how to welcome users to dial in conferencing in Skype for Business Server."
 ---
 
 # Send welcome email to dial-in users in Skype for Business Server
  
-**Summary:** Learn how to welcome users to dial-in conferencing in Skype for Business Server.
+**Summary:** Learn how to welcome users to dial in conferencing in Skype for Business Server.
   
-After you configure dial-in conferencing and test to verify that it is functioning properly, you should set initial personal identification numbers (PINs) for users and notify users about the availability of the feature. You can include introductory instructions such as the initial PIN and the link to the Dial-in Conferencing Settings web page. 
+After you configure dial-in conferencing and test to verify that it's functioning properly, you should set initial personal identification numbers (PINs) for users and notify users about the availability of the feature. You can include introductory instructions such as the initial PIN and the link to the Dial-in Conferencing Settings web page. 
   
-Typically, you use the **Set-CsClientPin** cmdlet to reset PINs, but you can use the procedure in this topic if you want to send an introductory welcome email with the PIN information. If you do not want to send the email, you can use **Set-CsClientPin** instead.
+Typically, you use the **Set-CsClientPin** cmdlet to reset PINs, but you can use the procedure in this article if you want to send an introductory welcome email with the PIN information. If you don't want to send the email, you can use **Set-CsClientPin** instead.
   
-You can use the **Set-CsPinSendCAWelcomeMail** script to set the PIN and send a welcome email to a single user. By default, the script does not reset a PIN if it is already set, but you can use the Force parameter to force reset a PIN. The email message is sent using Simple Mail Transfer Protocol (SMTP).
+You can use the **Set-CsPinSendCAWelcomeMail** script to set the PIN and send a welcome email to a single user. By default, the script doesn't reset a PIN if it's already set, but you can use the Force parameter to force reset a PIN. The email message is sent using Simple Mail Transfer Protocol (SMTP).
   
 You can create a script that runs the **Set-CsPinSendCAWelcomeMail** script iteratively to set PINs and send email to a group of users. You can modify the email template (that is, the CAWelcomeEmailTemplate.html file) to add more links to intranet pages or modify the email text.
   
@@ -31,9 +31,9 @@ You can create a script that runs the **Set-CsPinSendCAWelcomeMail** script iter
 
 ## Set an initial PIN and send welcome email
 
-1. Log on as a member of the RTCUniversalServerAdmins group.
+1. Sign in as a member of the RTCUniversalServerAdmins group.
     
-2. Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.
+2. Start the Skype for Business Server Management Shell: Select **Start**, select **All Programs**, select **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.
     
 3. Run the following at the command prompt:
     
