@@ -34,7 +34,7 @@ This article is part of the Technical Readiness stage of your upgrade journey, a
 
 Teams uses multiple Microsoft 365 and Office 365 services, and is therefore dependent on the correct implementation and operation of these services. These services include—but aren't limited to—SharePoint Online, Exchange Online, and OneDrive for Business.
 
-Although not all services are required, we highly recommend that you implement all of them. If you choose not to implement certain services, it will affect the functionality that Teams can offer your organization. For example, though you don't have to implement SharePoint Online, Teams does rely on SharePoint Online for certain functionality such as file sharing in group conversations, so not implementing this service will reduce the functionality offered through the client.
+Although not all services are required, we highly recommend that you implement all of them. If you choose not to implement certain services, it affects the functionality that Teams can offer your organization. For example, though you don't have to implement SharePoint Online, Teams does rely on SharePoint Online for certain functionality such as file sharing in group conversations, so not implementing this service reduces the functionality offered through the client.
 
 See the following articles to learn about prerequisites and how Teams interacts with other technologies:
 
@@ -56,6 +56,6 @@ See the following articles to learn about prerequisites and how Teams interacts 
 
 - To ensure all network requirements have been met before rolling out Teams, see [Prepare your organization's network for Microsoft Teams](prepare-network.md).
 
-- If you are currently using Skype for Business Online Connector to manage your services, you will need to move to the Teams PowerShell module and update your existing PowerShell scripts. See [Move from Skype for Business Online Connector to the Teams PowerShell module](teams-powershell-move-from-sfbo.md) for more information.
+- If you're currently using Skype for Business Online Connector to manage your services, you  need to move to the Teams PowerShell module and update your existing PowerShell scripts. See [Move from Skype for Business Online Connector to the Teams PowerShell module](teams-powershell-move-from-sfbo.md) for more information.
 
 After you've verified that your environment meets all applicable prerequisites, [evaluate your current environment for Teams](upgrade-plan-journey-evaluate-environment.md).
