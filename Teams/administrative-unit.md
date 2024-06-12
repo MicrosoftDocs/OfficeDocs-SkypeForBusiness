@@ -1,7 +1,7 @@
 ---
 title: Manage devices with administrative units
-author: CarolynRowe
-ms.author: crowe
+author: mstonysmith
+ms.author: tonysmit
 ms.reviewer: 
 ms.date: 07/14/2021
 manager: pamgreen
