@@ -265,6 +265,8 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 #### <b> Logitech </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications  | Release date|
 |:----------------|:-------------------|:----------------------------|:--------------------------------------------------------------------|:--------------------------------|
+| DockFlex | `1.12.149`| N/A| Teams client: `1449/1.0.97.2024040202` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| June 6, 2024|
+| TAP Scheduler | `1.12.708`| N/A| Teams client: `1449/1.0.97.2024040202` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| June 6, 2024|
 | DockFlex | `1.12.146`| N/A| Teams client: `1449/1.0.97.2024010401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| May 16, 2024|
 | TAP Scheduler | `1.12.181`| N/A| Teams client: `1449/1.0.97.2024010401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| May 16, 2024|
 | DockFlex | `1.10.225`| N/A| Teams client: `1449/1.0.97.2023080401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| February 19, 2024|
