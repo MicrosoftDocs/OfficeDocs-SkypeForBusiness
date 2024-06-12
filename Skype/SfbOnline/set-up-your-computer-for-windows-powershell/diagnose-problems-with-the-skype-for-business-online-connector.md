@@ -62,7 +62,7 @@ The PowerShell execution policy helps to determine which configuration files can
 ## Import-Module Error caused by incorrect version of Windows PowerShell
 <a name="BKMKIncorrectVersion"> </a>
 
-The Skype for Business Online Connector module can be run only under Windows PowerShell 3.0. If you try to import the module under a previous version of PowerShell, the import process will fail with an error message similar to this message:
+The Skype for Business Online Connector module can be run only under Windows PowerShell 3.0. If you try to import the module under a previous version of PowerShell, the import process fails with an error message similar to this message:
   
   - **Error**: *Import-Module: The version of the loaded PowerShell is '2.0'. The module 'D:\\Program Files\\Common Files\\Microsoft Lync Server 2013\\Modules\\LyncOnlineConnector\\LyncOnlineConnector.psd1' requires a minimum PowerShell version of '3.0' to execute. Verify the installation of the PowerShell and try again.*
 
@@ -115,7 +115,7 @@ You can't make a remote PowerShell connection toSkype for Business Online unless
 
 - **Error**: *New-PSSession: [admin.vdomain.com] Processing data from remote server admin.vdomain.com failed with the following error message: The user 'user@foo.com' doesn't have permission to manage this tenant. Permissions can be granted by assigning the user to the appropriate RBAC role. For more information, see the [Remote Troubleshooting](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting ).*
 
-- **Resolution**: If you think that you are, or are supposed to be, a member of the Tenant Administrators group, you'll need to contact Microsoft Support.
+- **Resolution**: If you think that you are, or are supposed to be, a member of the Tenant Administrators group, you need to contact Microsoft Support.
   
 ## Ability to connect to tenant has been disabled in Skype for Business Online
 <a name="BKMKAbilityConnect"> </a>
@@ -124,7 +124,7 @@ To use PowerShell to manage Skype for Business Online, the EnableRemotePowerShel
 
 - **Error**: *New-PSSession: [admin.vdomain.com] Processing data from remote server admin.vdomain.com failed with the following error message: The ability to connect to this tenant by using a remote PowerShell session has been disabled. Contact Lync Help to check Tenant PowerShell Policy of this tenant. For more information, see the [Remote Troubleshooting](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting ).*
 
-- **Resolution**: If you see this error message, you'll need to contact Microsoft Support and get remote PowerShell access enabled.
+- **Resolution**: If you see this error message, you need to contact Microsoft Support and get remote PowerShell access enabled.
   
 ## The maximum number of concurrent shells for this user in Skype for Business Online has been exceeded
 <a name="BKMKMaxNumberShellsUser"> </a>
@@ -138,7 +138,7 @@ Each administrator is allowed a maximum of three simultaneous remote connections
 ## The maximum number of concurrent shells for this tenant in Skype for Business Online has been exceeded
 <a name="BKMKMaxNumberShellsTenant"> </a>
 
-Although each administrator is allowed to have as many as three simultaneous connections to a Skype for Business Online tenant, no single tenant is allowed to have more than 20 simultaneous connections. For example, six administrators might each have three open sessions. If a fourth administrator tries to make more than two connections (resulting in a total of 21 simultaneous connections), this attempt will fail, with the following error message:
+Although each administrator is allowed to have as many as three simultaneous connections to a Skype for Business Online tenant, no single tenant is allowed to have more than 20 simultaneous connections. For example, six administrators might each have three open sessions. If a fourth administrator tries to make more than two connections (resulting in a total of 21 simultaneous connections), this attempt fails, with the following error message:
   
 - **Error**: *New-PSSession: [admin.vdomain.com] Connecting to remote server admin.vdomain.com failed with the following error message: The WS-Management service can't process the request. The maximum number of concurrent shells for this tenant has been exceeded. Close existing shells or raise the quota for this tenant. For more information, see the [Remote Troubleshooting](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting ).*
 

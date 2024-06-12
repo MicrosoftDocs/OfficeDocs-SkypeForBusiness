@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
-ms.date: 04/15/2024
+ms.date: 06/10/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -12,6 +12,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - Tier1
+  - ContentFreshnessFY24
 search.appverid: MET150
 audience: Admin
 appliesto: 
@@ -102,8 +103,12 @@ For more information, see:
 | [New-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/new-csteamsvoiceapplicationspolicy#-HistoricalCallQueueMetricsPermission)  | [Set-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/set-csteamsvoiceapplicationspolicy#-HistoricalCallQueueMetricsPermission) |
 | [New-CsTeamsVoiceApplicationsPolicy/--HistoricalAgentMetricsPermission](/powershell/module/teams/new-csteamsvoiceapplicationspolicy#--HistoricalAgentMetricsPermission)  | [Set-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/set-csteamsvoiceapplicationspolicy#--HistoricalAgentMetricsPermission) |
 
+> [!NOTE]
+> 1. Users with their computer desktop country, region or regional format set to English (United States) might encounter an error when running the report if the authorized user is only authorized for either Auto Attedant or Call Queue reporting.  Configure an authorized user for both Auto Attendant and Call Queue reporting and assign the authorized user to at least one Auto Attendant and Call queue.  This problem will be fixed with the next release of the Power BI templates.
+> 2. Users will encounter an error if the voice applications policy assigned to them enables the historical reporting options only. Configuring the voice applications policy to assign one other auto attendant or call queue function (ex: modify greeting) will bypass the issue.
 
-2. CQD pipeline (legacy)
+
+3. CQD pipeline (legacy)
 
 If you want the user to report on **all** the Auto attendants, Call queues, and Agents in the tenant and you also want to grant the user access to Teams admin center to run other Usage reports, assign the user a CQD access role with both **View Reports** and **View EUII fields** set to **Yes**.
 
@@ -136,7 +141,7 @@ Perform the following steps:
 
     #### Per Day vs Per Call 
 
-    Per Call reporting retrieves the individual call records for each Auto attendant, Call queue, and Agent, and makes them available in the Power BI client.  Per Call reporting also allows call records to be displayed in the local time zone selected by the user. For some customers, especially those using the CQD access role to control access, this may result in hitting the 90,000 default or 200,000 per query record limit. In this case, the Per Day reporting option should be selected.
+    Per Call reporting retrieves the individual call records for each Auto attendant, Call queue, and Agent, and makes them available in the Power BI client.  Per Call reporting also allows call records to be displayed in the local time zone selected by the user. For some customers, especially those using the CQD access role to control access, this might result in hitting the 90,000 default or 200,000 per query record limit. In this case, the Per Day reporting option should be selected.
 
     Per Day reporting retrieves one daily summary record for each Auto attendant, Call queue, and Agent.  This results in fewer records being returned to the client, reducing the possibility of hitting the 90,000 default or 200,000 per query record limit. Per Day reporting is based on a UTC-00:00 day (00:00:00-23:59:59 UTC) only and any UTC offset supplied by the user is ignored.
 
@@ -309,7 +314,7 @@ You have to refresh the report to see any new data.
 |Average Call Queue Duration (Sec) (Measure)        |Whole number  |Average of Average Call Queue Duration (Sec) - zero instead of blank                     |
 |Call Count                              |Whole number             |Summarize: Sum<br>Number of calls                                                        |
 |Call Queue Call Result                  |Text                     |See [Call Queue Dimensions -> CallQueueCallResult](#call-queue-dimensions)               |
-|Call Queue Call Result Legend           |Text                     |Legend items for Call Queue Call Result. Possible values:<br><ul><li>**Abandoned** - the caller hung up before an agent could answer or before timeout occurred</li><li>**Agent Answered (Call)** - the caller was answered by an agent</li><li>**Agent Answered (Callback)** - the callback was answered by an agent</li><li>**Overflowed (Disconnect)** - the call overflow exception occurred - call disconnected</li><li>**Overflowed (Xferred)** - the call overflow exception occurred - call was transferred externally</li><li>**Overflowed (Voicemail)** - the call overflow exception occurred - call was transferred to shared voicemail</li><li>**Timed Out (Callback)** - the callback has timed out - callback did not occur</li><li>**Timed Out (Disconnect)** - the call timeout exception occurred - call was disconnected</li><li>**Timed Out (Xferred)** - the call timeout exception occurred - call was transferred externally</li><li>**Timed Out (Voicemail)** - the call timeout exception occurred - call was transferred to shared voicemail</li><li>**No Agents (Disconnect)** - the no agents exception occurred - call was disconnected</li><li>**No Agents (Xferred)** - the no agents exception occurred - call was transferred externally</li><li>**No Agents (Voicemail)** - the no agents exception occurred - call was transferred to shared voicemail</li></ul> |
+|Call Queue Call Result Legend           |Text                     |Legend items for Call Queue Call Result. Possible values:<br><ul><li>**Abandoned** - the caller hung up before an agent could answer or before timeout occurred</li><li>**Agent Answered (Call)** - the caller was answered by an agent</li><li>**Agent Answered (Callback)** - the callback was answered by an agent</li><li>**Overflowed (Disconnect)** - the call overflow exception occurred - call disconnected</li><li>**Overflowed (Xferred)** - the call overflow exception occurred - call was transferred externally</li><li>**Overflowed (Voicemail)** - the call overflow exception occurred - call was transferred to shared voicemail</li><li>**Timed Out (Callback)** - the callback has timed out - callback didn't occur</li><li>**Timed Out (Disconnect)** - the call timeout exception occurred - call was disconnected</li><li>**Timed Out (Xferred)** - the call timeout exception occurred - call was transferred externally</li><li>**Timed Out (Voicemail)** - the call timeout exception occurred - call was transferred to shared voicemail</li><li>**No Agents (Disconnect)** - the no agents exception occurred - call was disconnected</li><li>**No Agents (Xferred)** - the no agents exception occurred - call was transferred externally</li><li>**No Agents (Voicemail)** - the no agents exception occurred - call was transferred to shared voicemail</li></ul> |
 |Call Queue Final State Action           |Text                     |See [Call Queue Dimensions -> CallQueueFinalStateAction](#call-queue-dimensions)         |
 |CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value is: **cq_test** |
 |CQHour                                  |Number                   |Hour that the call took place in                                                         |
@@ -385,7 +390,7 @@ Increasing the limit results in longer execution and response times.
 
 ## Report Execution Time Limits
 
-Increasing the maximum number of rows that can be returned results in longer execution and response times meaning the report may time out before the data can be returned.  The report execution time can be increased by modifying the report as follows:
+Increasing the maximum number of rows that can be returned results in longer execution and response times meaning the report might time out before the data can be returned.  The report execution time can be increased by modifying the report as follows:
 
 1. Select on the **Transform data** in the ribbon bar to open the Power Query Editor.
 1. Select on **ReportExecutionMinutes** on the left-hand side.
@@ -520,7 +525,7 @@ These dimensions are common to both Auto attendants and Call queues:
 | CallQueueFinalStateAction<br>(Text)        |                         | Call queue final action                    |
 |                                            | disconnect              | time_out calls                             |
 |                                            | disconnect_with_busy    | overflown calls                            |
-|                                            | failed_to_accept_call   | Call queue could not accept the call       |
+|                                            | failed_to_accept_call   | Call queue couldn't accept the call       |
 |                                            | forward                 | Call was forwarded to a Person in the organization or externally |
 |                                            | shared_voicemail        | Call was sent to shared voicemail          |
 |                                            | other                   | Some other condition occurred              |
