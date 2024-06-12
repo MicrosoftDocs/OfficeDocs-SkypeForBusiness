@@ -75,11 +75,9 @@ The following partners have video interop solutions for Microsoft Teams. Your co
 |![The logo representing Cisco CVI.](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Cisco Webex Video Integration for Microsoft Teams</a> |
 |![The logo representing HP Poly CloudConnect.](media/hppoly.png) | <a href="https://aka.ms/PolyCloudConnect" target="_blank">HP Poly CloudConnect</a> |
 |![The logo representing Poly RealConnect.](media/polycom.png) | <a href="https://aka.ms/PolyRealConnect" target="_blank">Poly RealConnect Service</a> |
-|![The logo representing BlueJeans Gateway.](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">BlueJeans Gateway for Microsoft Teams</a> |
 
 > [!NOTE]
-> Both BlueJeans and Poly (RealConnect Service) are no longer on-boarding additional customers, their respective services are now in maintenance only mode.
-
+> Poly (RealConnect Service) is no longer on-boarding additional customers, their respective services are now in maintenance only mode.
 ## Deploy CVI
 
 When deploying a CVI solution, it's important to understand that you're deploying a partner solution. You need to plan your deployment, get set up with provisioning details and partner tenant key, and consent to the video interop app in your organization. The general steps you should take to deploy CVI are listed in the following diagram.
@@ -192,7 +190,7 @@ Microsoft continues to work with CVI partners to make meetings between Microsoft
 |CY23Q3|Point-to-Point (P2P) calling between Teams Rooms on Windows and VTCs|Teams Rooms Pro calling feature, which creates the ability to perform bi-directional calling between Teams Rooms on Windows and VTC devices|Delivered to CVI Partners|TBD|TBD|Available|TBD|
 |CY24Q2|Support for Microsoft Teams video retransmission (RTX)|Microsoft Teams now supports video retransmission or RTX. This video packet loss mechanism provides additional media resiliency for Teams call legs|Delivered to CVI Partners|Available|Available|Available|Available|
 
-*Both BlueJeans and Poly CVI solutions are in maintenance only mode. No new customers are being on-boarded.
+*Poly (RealConnect Service) is in maintenance only mode. No new customers are being on-boarded.
 
 ## Related topics
 
