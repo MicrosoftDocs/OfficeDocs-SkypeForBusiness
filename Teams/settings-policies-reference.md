@@ -279,7 +279,7 @@ Teams upgrade settings let you set up your upgrade experience from Skype for Bus
 
 App permission policies control which apps you want to make available to Teams users in your organization.
 
-All organizations don't have app centric management (ACM) feature available. If you weren't using custom permission policies, we migrated your org to use this feature. If you are using custom permission policies then you will soon be able to migrate to ACM feature on your own. If you see policies on the permission policies page, continue to use app permission policies to control user access to apps.
+All organizations don't have app centric management (ACM) feature available. If you weren't using custom permission policies, we migrated your org to use this feature. If you're using custom permission policies, then you'll soon be able to migrate to ACM feature on your own. If you see policies on the permission policies page, continue to use app permission policies to control user access to apps.
 
 :::image type="content" source="media/permission-policies-tac.png" alt-text="Screenshot of Teams app permission policies in the Teams admin center." lightbox="media/permission-policies-tac-expand.png":::
 
@@ -417,7 +417,7 @@ Meeting policies are used to control what features are available in meetings org
 |Anonymous users and dial-in callers can start a meeting|Off|When this setting is turned on, anonymous users and dial-in callers can start a meeting without someone in attendance. When this setting is off, they must wait in the lobby until someone in your organization, a guest, or a user from a trusted organization starts the meeting. This setting only works if **Anonymous users can join a meeting** is turned on in both the org-wide meeting settings and in this meeting policy and **Who can bypass the lobby** is set to **Everyone**.|
 |Who can bypass the lobby|People in my org and guests|Controls who can join a meeting directly and who must wait in the lobby until they're admitted. This setting controls the default value of who can bypass the lobby in Meeting options; organizers and co-organizers can change this setting when they set up Teams meetings.|
 |People dialing in can bypass the lobby|Off|Controls whether people who dial in by phone join the meeting directly or wait in the lobby, regardless of the **Who can bypass the lobby** setting. When this setting is turned off, dial-in callers must wait in the lobby until they're admitted. This setting controls the default value for Meeting options; organizers and co-organizers can change this setting when they set up Teams meetings.|
-|People can join external meetings hosted by|Anyone| Control which types of external Microsoft Teams meetings users in your org can joins.|
+|People can join external meetings hosted by|Anyone| This setting controls which types of external Microsoft Teams meetings users in your org can join.|
 
 **PowerShell-only meeting join & lobby policies**
 
@@ -475,10 +475,9 @@ Meeting policies are used to control what features are available in meetings org
 |Whiteboard|On|Controls whether a user can share the Whiteboard in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer. Read more on [how to manage the Whiteboard in Microsoft Teams](manage-whiteboard.md).|
 |Collaborative annotations|On|When **On**, participants can collaborate while sharing their screen during a Teams meeting.|
 |Shared notes|On|When **On**, attendees can create shared meeting notes through the meeting details.|
-|Live Share|On|When **On**, users can edit a document from within the Teams meeting window, thereby enabling real-time coauthoring in the meeting.|
+|Live Share|On|When **On**, users can edit a document from within the Teams meeting window, which enables real-time coauthoring in the meeting.|
 |Organizer can restrict participants from copying or forwarding meeting chat messages|On|When this setting is on, meeting organizers can turn off message copying and forwarding, which includes using keyboard shortcuts, right click, or the more actions menu to copy or forward messages.|
-|Participants can share content in external meetings hosted by|Any org|When this is set to **Any org**, your users with a Teams premium license can share content when attending any external meeting. When set to **Trusted orgs and guests**, these users can only share content when attending external meetings that orgs with domains specified on the External access page host.|
-
+|Participants can share content in external meetings hosted by|Any org|When this setting is set to **Any org**, your users with a Teams premium license can share content when attending any external meeting. When set to **Trusted orgs and guests**, these users can only share content when attending external meetings that orgs with domains specified on the External access page host.|
 
 **PowerShell-only content sharing policies**
 
@@ -855,7 +854,7 @@ Choose who can attend events and customize registration options for webinars.
 |Webinar registration form questions|Custom, standard, required|When **On**, organizers require attendees to answer custom, standard, and required questions when registering for webinars.|
 |Allowed webinar types for recording|Public|When **On**, organizers can publish any webinar recordings.|
 |Allowed town hall types for recording|Public|When **On**, organizers can publish any town hall recordings.|
-|Use Microsoft eCDN|On|When **On**, organizers use the Microsoft eCDN for Premium town halls.When **Off**, organizers use the eCDN provider set in **Live event policies**.|
+|Use Microsoft eCDN|On|When **On**, organizers use the Microsoft eCDN for Premium town halls. When **Off**, organizers use the eCDN provider set in **Live event policies**.|
 
 #### PowerShell-only events policies
 
@@ -1128,7 +1127,7 @@ Voicemail policies control the available features for the voicemail service in T
 
 **Navigation:** Teams admin center > Voice > Voice applications policies
 
-Authorized users specifies the users who are authorized to make changes to an Auto attendant or Call queue. The capabilities that the users have are based on the Teams voice applications policy that's assigned to the user.
+Authorized users are users who are authorized to make changes to an Auto attendant or Call queue. The capabilities that the users have are based on the Teams voice applications policy that's assigned to the user.
 
 #### Auto attendants
 
