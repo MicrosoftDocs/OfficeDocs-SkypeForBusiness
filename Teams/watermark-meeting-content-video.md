@@ -107,8 +107,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowWatermarkForScreenSharing $True
 
 ## Related topics
 
-[Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
+- [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
 
-[Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
+- [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
 
-[Teams policies reference - Watermark](settings-policies-reference.md#watermark)
+- [Teams policies reference - Watermark](settings-policies-reference.md#content-protection)
