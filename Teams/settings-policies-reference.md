@@ -3,14 +3,18 @@ title: Teams settings and policies reference
 author: mkbond007
 ms.author: mabond
 manager: pamgreen
-ms.reviewer: 
-ms.date: 05/24/2024
+ms.reviewer: mabond
+ms.date: 06/12/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
   - Tier1
+  - m365initiative-voice
+  - m365initiative-meetings
+  - teams-rooms-devices
+  - ContentFreshnessFY24
 f1.keywords: 
   - NOCSH
 appliesto: 
