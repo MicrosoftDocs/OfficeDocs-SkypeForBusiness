@@ -1056,7 +1056,7 @@ Mobility policies control the Teams Phone Mobile features that are available to 
 
 - [Configure Teams Phone Mobile](operator-connect-mobile-configure.md)
 - [Plan for Teams Phone Mobile](operator-connect-mobile-plan.md)
-- [New-CsTeamsMobilityPolicy](/powershell/module/teams/new-csteamsmobilitypolicy)
+- [Set-CsTeamsMobilityPolicy](/powershell/module/teams/set-csteamsmobilitypolicy)
 
 ### Shared calling policies
 
