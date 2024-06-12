@@ -8,7 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
-ms.date: 04/17/2024
+ms.date: 06/05/2024
 ms.reviewer: shmundra
 ms.collection: 
   - M365-collaboration
@@ -23,7 +23,7 @@ description: Learn how third-party and custom apps get updated in Teams to a new
 
 # Role of an admin to upgrade Teams apps to a newer version
 
-When you install an app for the first time, it may require consent of an admin depending on the permissions that the app needs. When a new version of an installed app is made available in the store, then one of the following scenarios occurs:
+When you install an app for the first time, it may require consent of an admin depending on the permissions that the app needs. When a new version of an app in use is made available, then the following app update scenarios can occur:
 
 * If there are changes in app permissions or [some selected functionality](#conditions-when-an-app-update-requires-consent), then the app update requires consent from the app user.
 * If the updated version of the app doesn't require new permissions and has only basic functionality changes, then it updates automatically.
@@ -35,7 +35,7 @@ As a Teams administrator, you can update Teams apps to help the users get the la
 
 ## Conditions when an app update requires consent
 
-Apps update on their own if there's no change in functionality or request for organization's data. When one or more of the following changes are made to an app, it doesn't update on its own. Users must provide consent when they use the app after the update is made available.
+Apps update on their own if there's no change in functionality or request for organization's data. When one or more of the following changes are made to an app, it doesn't update on its own, unless an admin installed or pinned it. However, users may receive a notification to update an app if their consent is required and the app doesn't auto-update. Users can provide consent by selecting [`Update` option displayed in Teams](#update-to-new-version-by-users-and-admins).
 
 * Add a bot or change the ID of the bot using the `botId` property.
 * Change the `isNotificationOnly` property of an existing bot that changes the bot's notifications.

@@ -21,10 +21,10 @@ The FocusJoinsAndLeaves view stores information about join and leave information
   
 |**Column**|**Data Type**|**Details**|
 |:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |Time of conference instance. Used in conjunction with SessionIdSeq to uniquely identify a conference instance. See the [Conferences table in Skype for Business Server 2015](conferences.md) for more information. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |ID number to identify the conference instance. Used in conjunction with SessionIdTime to uniquely identify a conference instance. See the [Conferences table in Skype for Business Server 2015](conferences.md) for more information. <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |Time of conference instance. Used with SessionIdSeq to uniquely identify a conference instance. For more information, see the [Conferences table in Skype for Business Server 2015](conferences.md). <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |ID number to identify the conference instance. Used with SessionIdTime to uniquely identify a conference instance. For more information, see the [Conferences table in Skype for Business Server 2015](conferences.md). <br/> |
 |**UserUri** <br/> |nvarchar(450)  <br/> |URI of the user whose conference join/leave information was captured.  <br/> |
-|**UserUriType** <br/> |nvarchar(256)  <br/> |Type of URI of the user whose conference join/leave information was captured. See the [UriTypes table](uritypes.md) for more information. <br/> |
+|**UserUriType** <br/> |nvarchar(256)  <br/> |Type of URI of the user whose conference join/leave information was captured. For more information, see the [UriTypes table](uritypes.md). <br/> |
 |**UserTenant** <br/> |nvarchar(256)  <br/> |Tenant of the user whose conference join/leave information was captured. See the [Tenants table](tenants.md) for more information. <br/> |
 |**UserEndpointId** <br/> |uniqueidentifier  <br/> |Unique identifier of the user whose conference join/leave information was captured.  <br/> |
 |**UserClientVersion** <br/> |nvarchar(256)  <br/> |Version of client used by the user whose conference join/leave information was captured.  <br/> |
