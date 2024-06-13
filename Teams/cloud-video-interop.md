@@ -152,11 +152,11 @@ Depending on the partner solution, there are several ways to join a CVI-enabled 
 
 ## SIP Guest Join
 
-SIP Guest Join (SGJ) is a new CVI capability, *offered by specific CVI partners. This feature provides the facility to utilize your existing CVI subscription for meetings which have been scheduled by external organizations, this was previously not possible due to:
+SIP Guest Join (SGJ) is a new CVI capability, *offered by specific CVI partners. This feature provides the facility to utilize your existing CVI subscription for meetings which have been scheduled by external orgs, this was previously not possible due to:
 
-1. The CVI partner application was not located or consented to within the external organization
+1. The CVI partner application wasn't located or consented to within the external organization
 
-1. The Teams meeting initiation would not contain CVI join coordinates
+1. The Teams meeting initiation wouldn't contain CVI join coordinates
 
 Due to the absence of CVI join coordinates within the external organization's Teams meeting invitations, it is required that One Touch Join calendaring be configured for VTCs enabled for SGJ. Once the Teams meeting invitation is parsed by the CVI partner calendaring solution, their respective services will join the external meeting as a guest. **There is no lobby bypass capability for SGJ-enabled meetings**.
 
