@@ -110,7 +110,7 @@ After migration, your blocked apps continue to remain unavailable to users. Such
 
 ## Add or modify app availability for users
 
-To assign users or groups to an app, follow these steps:
+To let users add and use an app, you must assign users or groups to an app. It takes up to 24 hours for the changes to take effect. The apps that you blocked previously, show as unblocked now but are assigned to `No one` in the `Available to` column on the Manage apps page. It means that no org user can use the app.
 
 1. In Teams admin center, go to the [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page, search for the required app, and select the app name to open its app details page. You can't assign apps in bulk.
 
@@ -125,9 +125,6 @@ To assign users or groups to an app, follow these steps:
 1. To remove one or more users or groups from an app, select the rows and select **Remove**.
 
     :::image type="content" source="media/acm-remove-access.png" alt-text="Screenshot showing how to remove the existing availability of an app from the app details page." lightbox="media/acm-remove-access-large.png":::
-
-> [!NOTE]
-> The apps that you blocked previously, show as unblocked now but assigned to `No one` in the `Available to` column on the Manage apps page. It means that no org user can use the app.
 
 ## Default settings for app availability
 
