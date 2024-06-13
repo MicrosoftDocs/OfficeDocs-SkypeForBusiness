@@ -109,7 +109,7 @@ For audio sessions that do have QoE data, the following table describes major is
 
 ## Limitations
 
-- Call Analytics does not support streaming attendees for Teams Live Events or town hall meetings.
+- Call Analytics does not support view-only (streaming) attendees for Teams Live Events or town hall meetings.
 - If an organization's users join a federated meeting but did not organize the meeting, that organization will only see details for their own users in Call Analytics. The organization that organized a federated meeting will see all participants.
 
 ## Related articles
