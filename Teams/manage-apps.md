@@ -59,7 +59,7 @@ App management tasks that are supported on other portals are in the table below.
 |:-------------------------|:----------------------|:--------------|
 | Manage licenses and subscriptions of third-party apps in Microsoft 365 admin center | [Microsoft 365 admin center](https://admin.microsoft.com/#/licenses) | [Manage third-party app subscriptions](/microsoft-365/commerce/manage-saas-apps) |
 | Audit Teams app events on Microsoft Purview compliance portal. | [Audit](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Teams activities](audit-app-management-activities.md) |
-| Applications can be granted permissions to your organization and its data by three methods: an admin consents to the application for all users, a user grants consent to the application, or an admin integrating an application and enabling self-service access or assigning users directly to the application. Verify the Graph permissions for apps. Verify the permissions that users provided or that the admins delegated. | [Microsoft Entra admin center](https://aad.portal.azure.com/) | [Review permissions granted to applications](/azure/active-directory/manage-apps/manage-application-permissions) |
+| Applications can be granted permissions to your organization and its data by three methods: an admin consents to the application for all users, a user grants consent to the application, or an admin integrating an application and enabling self-service access or assigning users directly to the application. Verify the Microsoft Graph permissions for apps. Verify the permissions that users provided or that the admins delegated. | [Microsoft Entra admin center](https://aad.portal.azure.com/) | [Review permissions granted to applications](/azure/active-directory/manage-apps/manage-application-permissions) |
 
 ## Allow or block apps
 
@@ -105,11 +105,11 @@ As an admin, you use one of the following methods to define access to apps for y
 * [App permission policies](teams-app-permission-policies.md) if you use policy-based method to define app access.
 * App assignment if you use [app centric management](app-centric-management.md) to define app access.
 
-## Simplify app rollout and adoption based on organization needs
+## Simplify app rollout and adoption based on your organization needs
 
-As an admin you can't just allow apps and authorize users to use the apps, you can also make app rollout and app adoption much smoother for the admin team and for your organization's users. To facilitate friction-free app rollout and adoption, Teams provides conceptual guidance and suggestions to app developers so that [developers can enable admins to drive adoption](/microsoftteams/platform/promote-app-adoption#understand-how-you-can-drive-app-adoption). Also, Teams admin center provides various features that help you evaluate apps, allow apps, auto-install apps, pin apps for users, and so on.
+As an admin you can't just allow apps and authorize users to use the apps, you can also make app roll out and app adoption smoother for the admin team and for your organization's users. To facilitate friction-free app rollout and adoption, Teams provides conceptual guidance and suggestions to app developers so that [developers can enable admins to drive adoption](/microsoftteams/platform/promote-app-adoption#understand-how-you-can-drive-app-adoption). Also, Teams admin center provides various features that help you evaluate apps, allow apps, auto-install apps, pin apps for users, and so on.
 
-We recommend a few approaches below that can cater to your organization’s need and the recommendations are based on the following guiding principles:
+We recommend a few approaches that can cater to your organization’s need and the recommendations are based on the following guiding principles:
 
 * Respect and support IT and security requirements around app permissions, access, and availability across all options.
 * Improve app adoption so that the authorized users can use the app in Teams as soon as the app is required and continue their work efficiently.
@@ -119,7 +119,7 @@ We recommend a few approaches below that can cater to your organization’s need
 |:----------|:--------------|:-------|:---------|:------------------------------------------------------------|
 | Priority apps that are a must-see and must-use for a department or the org. | [Install and pin apps](teams-app-setup-policies.md) using setup policy applied to users. | App icon shows in [app bar](teams-app-setup-policies.md#pin-apps) for authorized users. | High visibility, faster adoption, and longer retention by users. No actions needed for end-users. | All apps |
 | Apps that are good-to-have for a department or the org | [Install apps](teams-app-setup-policies.md) via setup policy but don't pin it. | App shows at the bottom of or in the overflow of the [app bar](teams-app-setup-policies.md#pin-apps). | Reduced barrier to add app for users and doesn't change their app bar. | All apps |
-| Priority apps for a team | Include the [apps in a custom team template](create-a-team-template.md). | Apps show in the header of the team that's created using this template. | Reduced barrier to add app for users and doesn't change their app bar but applicable only for a team. | Microsoft apps |
+| Priority apps for a team | Include the [apps in a custom team template](create-a-team-template.md). | Apps show in the header of any team that uses the template. | Reduced barrier to add app for users and doesn't change their app bar but applicable only for a team. | Microsoft apps |
 | Apps already in use outside Teams, for example web apps | Automatically install the apps using [Auto install approved apps feature](auto-install-approved-apps.md). | If users use the app outside of Teams, it gets added to their Teams client and shows in the app bar. Permissions or data access doesn't change from admin perspective. | Align with the user intent to use the app in Teams or outside Teams without no extra user action required. | Applicable for only [these apps](auto-install-approved-apps.md#apps-requiring-setup-before-deployment-to-users) |
 
 ## Manage org-wide app settings
@@ -135,7 +135,7 @@ Use org-wide app settings to control whether users with an [F license](https://w
     This feature is available for F licenses. Other license types will be supported in the future.
 1. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps in your organization:
 
-    * **Allow third-party apps**: This setting controls whether users can use third-party apps. If you turn off this setting, your users won't be able to install or use any third-party apps and the app status of these apps is displayed as **Blocked org-wide** in the table.
+    * **Allow third-party apps**: This setting controls whether users can use third-party apps. If you turn off this setting, your users can't add or use any third-party apps. App status of these apps shows as **Blocked org-wide**.
 
         > [!NOTE]
         > When **Allow third-party apps** is off, [outgoing webhooks](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) are still enabled for all users, but you can control them at the user level by allowing or blocking the Outgoing Webhook app through [app permission policies](teams-app-permission-policies.md).
@@ -150,7 +150,7 @@ Admin center settings may allow your users to collaborate with users from other 
 
 ## Auto install approved apps based on admin approval
 
-Auto install approved apps feature automatically adds approved apps in Teams client of the allowed users. The functionality respects all admin governance controls, so it is made available only for the users who you allow to use the app. Also, the feature installs only those apps that a users uses outside Teams. It reduces manual intervention to add an app and improves user productivity by preventing context-switching. To know more about the feature, see [Auto install approved apps in Teams](auto-install-approved-apps.md).
+Auto install approved apps feature automatically adds approved apps in Teams client of the allowed users. The functionality respects all admin governance controls, so it's made available only for the users who you allow to use the app. Also, the feature installs only those apps that a user uses outside Teams. It reduces manual intervention to add an app and improves user productivity by preventing context-switching. To know more about the feature, see [Auto install approved apps in Teams](auto-install-approved-apps.md).
 
 ## Stop app usage and remove apps
 
@@ -161,7 +161,7 @@ As an admin, to prevent users from adding and using an app in Teams, you can do 
 * [Delete a custom app](teams-custom-app-policies-and-settings.md#delete-custom-apps-from-your-organizations-catalog) from your organization's store. You can't remove any app that is available in Teams app store.
 * You can't stop use of some [Core apps](apps-in-teams.md#types-of-teams-apps) provided by Microsoft that are critical for Teams to work.
 
-You can't remove or uninstall the apps that are currently added by users.
+You can't remove or uninstall the apps that users add in their Teams.
 
 Blocked apps may still have access to data from the teams that the apps were added to. To turn off app data access, a Global Administrator, an Application Administrator, or a Cloud Application Administrator must [turn off user sign-in in the Microsoft Entra admin center](/azure/active-directory/manage-apps/disable-user-sign-in-portal?pivots=portal).
 
@@ -217,11 +217,11 @@ You may have queries about admin settings or configuration, user flows and app f
 
     :::image type="content" source="media/appsource-help-link.png" alt-text="Screenshot that shows help and support link for a Teams app in AppSource.":::
 
-* **Privacy and data access considerations**: In the terms of use and privacy policy of any app, the app developer discloses what data their app uses and how it's handled. This information is available on app developer's website and you can access the URLs in the app details page in Teams admin center. Many app developers choose to undergo the Microsoft 365 app compliance program. The program checks and audits an app against controls that are derived from leading industry-standard frameworks. The detailed information about each such app is available at [Teams Apps Security and Compliance](/microsoft-365-app-certification/teams/teams-apps).
+* **Privacy and data access considerations**: In the terms of use and privacy policy of any app, the app developer discloses what data their app uses and how it handles the data. This information is available on app developer's website and you can access the URLs in the app details page in Teams admin center. Many app developers choose to undergo the Microsoft 365 app compliance program. The program checks and audits an app against controls that are derived from leading industry-standard frameworks. The detailed information about each such app is available at [Teams Apps Security and Compliance](/microsoft-365-app-certification/teams/teams-apps).
 
-* App developers can provide their contact information that you can use to chat with them. It helps you quickly evaluate an app and get the needed information from the app developers before you adopt and rollout an app. Some examples of such information are compliance and certification details, data handling details, clarity on pricing plans for paid apps, and app configuration instructions. You can start a chat with app developers by selecting **Start a Teams chat** but only if the app developer provided their contact information. We recommend that you don't share personal and sensitive information in the chat.
+* App developers can provide their contact information that you can use to chat with them. It helps you quickly evaluate an app and get the needed information from the app developers before you adopt and roll out an app. Some examples of such information are compliance and certification details, data handling details, clarity on pricing plans for paid apps, and app configuration instructions. You can start a chat with app developers by selecting **Start a Teams chat** but only if the app developer provided their contact information. We recommend that you don't share personal and sensitive information in the chat.
 
-   :::image type="content" source="media/chat-with-app-dev.png" alt-text="Screenshot showing the option in the app details page that let's you chat with app developer." lightbox="media/chat-with-app-dev-large.png":::
+   :::image type="content" source="media/chat-with-app-dev.png" alt-text="Screenshot showing the option in the app details page that lets you chat with app developer." lightbox="media/chat-with-app-dev-large.png":::
 
 ## Related articles
 
