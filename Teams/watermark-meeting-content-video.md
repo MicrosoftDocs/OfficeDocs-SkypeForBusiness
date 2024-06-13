@@ -31,7 +31,6 @@ Watermarks are supported on Teams desktop, mobile, and Microsoft Teams Rooms. Pe
 
 The following participants have an audio-only experience when a watermark is in use:
 
-- Participants using the Teams web client
 - Virtual Desktop Infrastructure (VDI) participants
 - Anonymous participants
 - Overflow participants
@@ -56,10 +55,6 @@ When a watermark is being used in a meeting, the following features are turned o
 - Large gallery
 
 - Together mode
-
-- PowerPoint Live
-
-- Whiteboard
 
 - Content from camera
 
