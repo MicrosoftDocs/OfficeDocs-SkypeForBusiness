@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Read an overview of the steps you will need to learn to support the broad scale enablement of Teams for your organization.
+description: Read an overview of the steps you need to learn to support the broad scale enablement of Teams for your organization.
 f1.keywords:
 - CSH
 ms.custom: 
@@ -25,7 +25,7 @@ appliesto:
 
 # Microsoft Teams adoption phase 3 - Scale
 
-In this phase, you will use your learnings, talented project team, and relationships with stakeholders, champions, and early adopters to support the broad scale enablement of Teams for your organization. You will complete the following steps as you prepare for continued business engagement regarding your organizations use of Microsoft Teams:
+In this phase, you'll use your learnings, talented project team, and relationships with stakeholders, champions, and early adopters to support the broad scale enablement of Teams for your organization. You complete the following steps as you prepare for continued business engagement regarding your organizations use of Microsoft Teams:
 
 1. Define outcomes and success measures.
 2. Select service strategy.

@@ -61,11 +61,11 @@ Acqueon offers 24/7 support with offices worldwide including locations in Dallas
 
 ***Espera*** applies real-time and historical reporting with Lync response groups for call center call handling and queuing.
 
-As a standard part of the Lync Enterprise Voice license, Lync response groups offer well-engineered call center capability. Response groups provide advanced workflow choices and IVR interactions, advanced call routing, interflow and overflows between groups. Espera adds the ability for agents, supervisors, and managers to see what the current real time situation is and then to follow that up with a suite of historical reporting as expected in a call center.
+As a standard part of the Lync Enterprise Voice license, Lync response groups offer well-engineered call center capability. Response groups provide advanced workflow choices and IVR interactions, advanced call routing, interflow, and overflows between groups. Espera adds the ability for agents, supervisors, and managers to see what the current real time situation is and then to follow that up with a suite of historical reporting as expected in a call center.
 
-In addition to reporting, Espera adds call wrap-up and one click agent log-on and log-off, easy to change, on the fly thresholds, and drill down reporting. Espera provides for remote agent log-on and the real time data is transferred to the agent's screen via the existing Lync SIP tunnel.
+In addition to reporting, Espera adds call wrap-up and one select agent sign-in and sign out, easy to change, on the fly thresholds, and drill down reporting. Espera provides for remote agent sign-in and the real time data is transferred to the agent's screen via the existing Lync SIP tunnel.
 
-Note that Espera was tested with the quality of assurance testing program.
+Espera was tested with the quality of assurance testing program.
 
 ## Anywhere365 Unified Contact Center for Lync
 * * *
@@ -77,7 +77,7 @@ Note that Espera was tested with the quality of assurance testing program.
 
 Rethinking the contact center for unified communications, ***Anywhere365*** is a unified contact center for Lync that helps maintain organizational balance with role model based managed communications. More than a contact center, it's a flexible, real time dialogue management platform to redesign dialogue experiences. Detailed live reporting allows for quick and easy decision making.
 
-Due to its design philosophy, Anywhere365 is flexible and can be implemented to meet various needs. Out of the box Anywhere365 offers, voice, webchat, recording, dialogue intelligence, CRM integration, quality monitoring, wallboard, mobile integration, and more. Expansion is easy with a server-based licensing model.
+Due to its design philosophy, Anywhere365 is flexible and can be implemented to meet various needs. Out of the box Anywhere365 offers, voice, web chat, recording, dialogue intelligence, CRM integration, quality monitoring, wallboard, mobile integration, and more. Expansion is easy with a server-based licensing model.
 
 ## Altigen MaxACD
 * * *
@@ -91,7 +91,7 @@ Due to its design philosophy, Anywhere365 is flexible and can be implemented to 
 
 MaxACD takes advantage of AltiGen's 15 years of contact center technology innovation to deliver a complete, integrated software-based contact center solution for Microsoft Lync.
 
-MaxACD includes a robust SDK with APIs to integrate information from your back-office applications to build sophisticated routing rules, screen pops, CRM and ERP integration.
+MaxACD includes a robust SDK with APIs to integrate information from your back-office applications to build sophisticated routing rules, screen pops, CRM, and ERP integration.
 
 MaxACD feature highlights include:
 Advanced call queuing
@@ -161,7 +161,7 @@ ice features include: ACD, speech IVR, social media, email management, quality m
 With Lync embedded in ice, it allows for unplugging of TDM PBXs at a fraction of the cost of competing products.
 
 Our application solutions and services allow banking, finance, government, health care, and many other industries to reduce cost while increasing competitiveness.
-We are a Microsoft Gold partner in communications and application development, communications partner of the year in Canada, and online service advisor.
+We're a Microsoft Gold partner in communications and application development, communications partner of the year in Canada, and online service advisor.
 
 ## CreaLog Contact Center and IVR
 * * *
@@ -177,7 +177,7 @@ Features include:
 - Automated distribution of phone, email, IM, and video contacts including enterprise-wide skill-based routing - integrating virtually everyone, even home office workers, into the service process
 - Self-service IVR with Speech Recognition (Quick IVR - visual editor) in more than 40 languages including satisfaction surveys and other standard modules
 - Advanced call queuing with callback and identification of callers with screen pop-up
-- Eliminates blind transfers and empowers agents to find experts for first call resolution through presence, IM, and desktop-/file sharing with a single click
+- Eliminates blind transfers and empowers agents to find experts for first call resolution through presence, IM, and desktop-/file sharing with a single select
 - Highly secure call recording for workforce optimization with speech analytics
 - Live reporting for the supervisor: multi-level rights and roles management, agent skills, availability, and statistics for quick and easy decision-making
 - 24/7 Support
@@ -227,7 +227,7 @@ Automatic Call Distribution with skills-based routing maximizes agent productivi
 
 Native integration with Lync synchronizes agent status with Lync presence and provides instant access to resources and contacts for consultation, call transfers, and first call resolution.
 
-A rich agent interface allows customized agent scripts and screen-pops of CRM and other business applications. Agents have access to a full contact history whilst handling a call.
+A rich agent interface allows customized agent scripts and screen-pops of CRM and other business applications. Agents have access to a full contact history while handling a call.
 
 Geomant's IVR for Lync allows the creation of simple or sophisticated interactive voice Response trees and scripts, for the routing of calls and full self-service.
 
@@ -254,7 +254,7 @@ Key Features Include:
 - Common directory
 - Single comprehensive directory for CIC and Microsoft Lync users
 - Tab for Lync contacts in Interaction Client
-- Single click to multiple collaboration channels: IM, video, voice call, email, fax, desktop sharing
+- Single select to multiple collaboration channels: IM, video, voice call, email, fax, desktop sharing
 - Direct SIP integration
 - Click to call
 - Plug and play deployments
@@ -279,7 +279,7 @@ Highlights include:
 - Advanced IVR
 - Call back
 - Real-time statistics and historical reports
-- Web-based agents with automatic log-on as a Lync user
+- Web-based agents with automatic sign in as a Lync user
 - Mobile agents
 - Ability to transfer a call to a new queue without losing priority or call data
 - OnCall module for distribution of calls after closing time
@@ -312,9 +312,9 @@ Built natively on the Lync call control server and Lync desktop client, ***MiCon
 All of this is controlled by a simple to use toolbar that docks onto the side of the Lync desktop client.
 
 Supervision: Real-time monitoring, reporting, and resource forecasting.
-"Contact Us" tab: deploy on a business's web pages to show the different contact methods and expected wait time for each.
+"Contact Us" tab: deploy on a business's web pages to show the different contact methods and expected to wait time for each.
 
-Interactive Voice Response: Provide customers with in-queue messaging, web and voice call-backs. Interactive menus guide customers to the services they seek. Access to queue statistics routes calls to queues that aren't busy.
+Interactive Voice Response: Provide customers with in-queue messaging, web, and voice call-backs. Interactive menus guide customers to the services they seek. Access to queue statistics routes calls to queues that aren't busy.
 
 ## Netcall Liberty ContactCentre with Lync Integration
 * * *
@@ -332,14 +332,14 @@ It delivers:
 - Multichannel handled on the unified agent interface
 - Fully integrated self-service
 - End-to-end transaction management with process-led intelligent IVR
-- Captures contact data, identifies context and starts workflow process into CRM
+- Captures contact data identifies context and starts workflow process into CRM
 - Proactive visibility, management, and reporting
 - Tailored alerts enable proactive supervisor responses
 - Demand-driven business rules trigger automated processes, including callback
 - Comprehensive activity reporting using blended Lync presence data
 - Sharing workforce management data supports effective workforce optimization
 - Seamless unified directory
-- Easy instant messaging for internal communication allowing desktop and context sharing between agents, supervisors and back-office
+- Easy instant messaging for internal communication allowing desktop and context sharing between agents, supervisors, and back-office
 
 ## T-Metrics Lync Contact Center
 * * *
@@ -407,12 +407,12 @@ UCS Contact Center is a native Lync application and also supports hybrid archite
 Combine unified communication possibilities with contact center facilities. Install ***Voxtron Communication Center*** and its newly developed Voxtron Client for Microsoft Lync. You have all Lync facilities at your disposal with extra benefits.
 
 **Your benefits**
-- You will instantly increase your customer's satisfaction vigorously.
-- You will boost your image as a customer-friendly, service-minded company.
+- You instantly increase your customer's satisfaction vigorously.
+- You boost your image as a customer-friendly, service-minded company.
 - You can monitor all activities allowing you to plan efficiently.
-- Your contact center agents will cooperate smoothly.
-- Productivity will rise.
-- Costs will go down.
+- Your contact center agents cooperate smoothly.
+- Productivity rises.
+- Costs go down.
 - Straightforward integration
 
 The Voxtron Client for Microsoft Lync integrates your Lync application in a straight- forward way to our contact center software. You have all Lync facilities and all features of Voxtron's customer interaction software in one integrated "Client". If your requirements change, adaptations can occur quickly and smoothly. After all, a Voxtron solution is designed to develop at your pace.
@@ -431,7 +431,7 @@ Built on 20 years of experience delivering enterprise-grade contact center solut
 Zeacom is a member of the Microsoft Partner Network with gold competencies in Application Development, Application Integration and Communications.
 We offer multi-channel contact center solutions native to Lync that seamlessly blend voice, email, web chat, callback, SMS, and social media alerts to optimize agent productivity.
 
-With staff located throughout the Americas, EMEA, and Asia-Pacific, Zeacom has the resources to assist Lync customers and partners in all aspects of pre-sales activity, design, deployment, and support.
+With staff located throughout the Americas, EMEA, and Asia-Pacific, Zeacom has the resources to assist Lync customers and partners in all aspects of presales activity, design, deployment, and support.
 
 ## Zylinc Contact Center for Lync
 **Lync 2013**

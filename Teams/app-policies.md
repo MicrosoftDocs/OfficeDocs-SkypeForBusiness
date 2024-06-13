@@ -22,7 +22,7 @@ ms.collection:
 
 Microsoft Teams uses app policies to govern access to and use of all apps and upload of custom apps. App policies help Teams Administrator and Global Administrators control the following app behavior:
 
-* Configure the access of apps for each individual user or for a group of users. You control the apps that are permitted for each user.
+* Configure the access of apps for each individual user or for a group of users. You control the apps that each user can use.
 
 * Pin the allowed apps for the desired users. Also, admins can install apps for users without user intervention. It helps users easily get started with the relevant apps.
 
@@ -33,7 +33,7 @@ As an alternate, you can use [app centric management](app-centric-management.md)
 ## App permission policies
 
 > [!IMPORTANT]
-> If your organization is moved to app centric management feature to manage access to apps, see [Manage access to Teams apps using app centric management](app-centric-management.md). Permission policies will no longer apply and you may see this message on the policy page.
+> If your organization is using app centric management feature to manage access to apps, see [Manage access to Teams apps using app centric management](app-centric-management.md). Permission policies don't apply and you may see this message on the policy page.
 > 
 > :::image type="content" source="media/acm-policy-page.png" alt-text="Screenshot showing the permissions policy change for organization that are using app centric management.":::
 
