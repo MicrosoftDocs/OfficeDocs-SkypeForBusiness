@@ -130,7 +130,7 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 | C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.705` | `1.19.456`| Teams client: `1449/1.0.94.2024011003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| February 19, 2024|
 | C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.642` | `N/A`| Teams client: `1449/1.0.94.2024011601` <br> Company Portal: `5.0.6061.0` <br> Admin Agent: `1.0.0.202310260109.product`| February 8, 2024|
 | C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.584` | `1.19.516`| Teams client: `1449/1.0.94.2023100602` <br> Company Portal: `5.0.5954.0` <br> Admin Agent: `1.0.0.202306202019.product`| November 6, 2023|
-| C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.516` | N/A | Teams client: `1449/1.0.94.2023100602` <br> Company Portal: `5.0.5954.0` <br> Admin Agent: `1.0.0.202301162118.product`| Recalled |
+| C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.516` | N/A | Teams client: `1449/1.0.94.2023060906` <br> Company Portal: `5.0.5882.0` <br> Admin Agent: `1.0.0.202301162118.product`| Recalled |
 | C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.456` | `1.15.289` | Teams client: `1449/1.0.94.2023020602` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product` | April 6, 2023 |
 | C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.341` | N/A | Teams client: `1449/1.0.94.2022110803` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202209060820.product`| January 23, 2023| 
 
@@ -265,6 +265,8 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 #### <b> Logitech </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications  | Release date|
 |:----------------|:-------------------|:----------------------------|:--------------------------------------------------------------------|:--------------------------------|
+| DockFlex | `1.12.149`| N/A| Teams client: `1449/1.0.97.2024040202` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| June 6, 2024|
+| TAP Scheduler | `1.12.708`| N/A| Teams client: `1449/1.0.97.2024040202` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| June 6, 2024|
 | DockFlex | `1.12.146`| N/A| Teams client: `1449/1.0.97.2024010401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| May 16, 2024|
 | TAP Scheduler | `1.12.181`| N/A| Teams client: `1449/1.0.97.2024010401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| May 16, 2024|
 | DockFlex | `1.10.225`| N/A| Teams client: `1449/1.0.97.2023080401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| February 19, 2024|
