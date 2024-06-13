@@ -143,7 +143,7 @@ To create additional customizations of an app, follow these steps:
    :::image type="content" source="media/app-customization-assign-setup-policy.png" alt-text="Screenshot showing the manage assignments option that is used to apply a setup policy to an additional customization.":::
 
 > [!NOTE]
-> When you assign app setup policy to an additional customization, it only helps you provide customizations to specific users. It doesn't help you to pin and auto-install apps. Use [app setup policies](teams-app-setup-policies.md) to pin and add apps. Also, customizations respect app assignments, so only those users can use customized apps who are allowed by you to use an app.
+> When you assign app setup policy to an additional customization, it only helps you provide customizations to specific users. It doesn't help you to pin and auto-install apps. Use [app setup policies](teams-app-setup-policies.md) to pin and add apps. Also, customizations respect app availability, so only those users can use customized apps who are allowed by you to use an app.
 
 You can create up to 10 additional customizations for an app.
 
