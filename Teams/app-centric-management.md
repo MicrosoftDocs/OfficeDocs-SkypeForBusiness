@@ -13,7 +13,7 @@ ms.collection:
   - M365-collaboration
   - Tier1
 search.appverid: MET150
-ms.date: 06/05/2024
+ms.date: 06/13/2024
 ms.reviewer: mhayrapetyan
 description: Manage access to Teams apps using app centric management.
 f1.keywords:
@@ -29,16 +29,14 @@ ms.custom: seo-marvel-apr2020
 > [!IMPORTANT]
 > All organizations don't have app centric management (ACM) feature available. If you were not using custom permission policies and you weren't an enterprise customer, we migrated your organization to use this feature. If you are using custom permission policies or you are an enterprise customer, then you will soon be able to migrate to ACM feature on your own. For timelines, see [Message Center post MC688930](https://admin.microsoft.com/Adminportal/Home#/MessageCenter/:/messages/MC688930) or [Microsoft 365 roadmap item 151829](https://www.microsoft.com/en-US/microsoft-365/roadmap?filters=&searchterms=151829).
 >
-> If you see policies on the [permission policies page](https://admin.teams.microsoft.com/policies/app-permission), continue to [use app permission policies](teams-app-permission-policies.md) to control user access to apps.
-> If the ACM feature is available in your org, you will see the following message on the policy page.
+> If you see policies on the [permission policies page](https://admin.teams.microsoft.com/policies/app-permission), continue to [use app permission policies](teams-app-permission-policies.md) or migrate to this feature on your own.
+> If your org is now using ACM feature, you see the following message on the permission policy page.
 >
 > :::image type="content" source="media/acm-policy-page.png" alt-text="Screenshot showing the permissions policy change for organization that are using app centric management.":::
 
-App centric management functionality introduces a new way to control how you control access to Teams apps for users and groups. It replaces app permission policies. This functionality lets you specify which users and groups can use each app and you can control it on a per-app basis.
+App centric management functionality introduces a new way to control access to Teams apps for users and groups. It replaces app permission policies. This functionality lets you specify which users and groups can use each app and you can control it on a per-app basis.
 
-When you start using this functionality, we retain your existing app access that you defined using permission policies. Users continue to have access to only those apps that you allow for them.
-
-You can manage access to apps for individual users, supported groups, or everyone in the organization. You have complete control over who can or can't add and use apps in your organization. You can also control the access to new apps that we publish to Teams app store.
+You can manage access to apps for individual users, supported groups, or everyone in the organization. You have complete control over who can or can't add apps in your organization. You can also control the access to new apps that we publish to Teams app store.
 
 ## How is app centric management different than permission policy
 
@@ -69,17 +67,16 @@ Previously, we automatically migrated organizations that weren't using any custo
 | Who does it         | Administrator                        | Microsoft                               |
 | Requirement         | Org uses one or more custom policies | Org uses only the default global policy |
 | Nature of migration | Guided UI in admin center            | Automatic, without admin intervention   |
-| Existing app access | No change                            | No change                               |
 
-To migrate, follow these steps:
+We strongly recommend that you prepare for the migration and follow these steps to prepare:
 
-1. We strongly recommend that you prepare for the migration. To do so, take inventory of the apps that you have in the custom permission policies and identify the groups that can represent the current app permissions policy assignments. During the migration, you're required to provide the users and groups for these apps as the existing app permission policy assignments aren't carried forward in their current state.
+1. Take inventory of the apps that you have in the custom permission policies and identify the users and groups that you provide app access to. During the migration, you must provide these users and groups for these apps.
 
 1. Log into Teams admin center and access Teams apps > [Permission policies](https://admin.teams.microsoft.com/policies/app-permission) page and select **Get started**.
 
    :::image type="content" source="media/acm-start-prompt.png" alt-text="Screenshot showing the policy page with prompt to migrate to app centric management.":::
 
-1. Select policies that you want to migrate. The page displays all the policies that have users assigned to them. Select **Next**. Unselected policies can’t be migrated later.
+1. Select policies that you want to migrate. The page displays all the policies that have users assigned to them. Select **Next**. Apps from only the selected policies are considered for migration. Apps in the unselected policies can’t be migrated later.
 
     :::image type="content" source="media/acm-migration-select-policies.png" alt-text="Screenshot showing the app centric management migration UI to select policies."  lightbox="media/acm-migration-select-policies-large.png":::
 
@@ -89,7 +86,7 @@ To migrate, follow these steps:
    * Available to specific users and groups: List of apps that are selectively allowed for at least one org user or a supported group.
    * Available to no one: List of apps that nobody in the org can use.
 
-1. In each tab, you can modify the app availability to one of the [three app availability types](#how-is-app-centric-management-different-than-permission-policy), as necessary. Apps that are not present in all selected policies will appear in the “Available to specific users and groups tab. It must be assigned to one or more user or group before you can proceed. The existing user assignments from app permission policies aren't transferred and aren't applicable here.
+1. In each tab, you can modify the app availability to one of the [three app availability types](#how-is-app-centric-management-different-than-permission-policy). Apps that are not present in all selected policies appear in the **Available to specific users and groups** tab. These apps must be assigned to one or more users or groups before you can proceed. The user assignments from app permission policies aren't transferred and aren't applicable here.
 
     :::image type="content" source="media/acm-migration-availability.png" alt-text="Screenshot showing three tabs during migration that help you review and modify the app availability.":::
 
@@ -149,7 +146,7 @@ The Org-wide app settings don’t apply to:
 
 * All apps that have user assignment set to Specific users and groups and saved by you.
 * All apps that were assigned to Everyone or to No one and saved individually.
-* Any apps in blocked state.
+* Any blocked apps.
 
 Consider a scenario where you started using the feature and all apps were assigned to everyone. Now, you changed an app's availability to a specific group or users. After saving such an availability, if you change the Org-wide app setting titled **Let users install and use available apps by default**, then this particular app continues to be assigned to the specific group or users. Your change to the org-wide app setting applies only to those apps for which you didn't change the availability. Further, if you again change the **Let users install and use available apps by default** setting, the availability of all other apps are again impacted, except the app that you actively managed.
 
@@ -195,15 +192,10 @@ When your tenant's admin center receives this feature, the following updates are
 
 * After you switch to this feature, you can't access, edit, or use permission policies. Once your organization migrates, you can't revert the migration.
 
-* You can't define availability of apps in bulk.
+* You can't update app availability in bulk.
 
-* [PowerShell cmdlets](/powershell/module/teams/?view=teams-ps&preserve-view=true) for permission policies aren't supported in organizations that migrate to this feature. App centric management feature replaces permission policies. While the cmdlet seems to succeed, but the changes aren't applied to your org.
+## Related articles
 
-* App availability to nested groups isn't supported in Teams admin center. If you assign an app to a nested group, the app is only available to the direct descendants.
-
-## Related article
-
-* [Use app permission policies to control user access to apps](teams-app-permission-policies.md)
 * [Check the availability and state of app](/powershell/module/teams/get-m365teamsapp)
 * [View all Teams apps in the app catalog](/powershell/module/teams/get-allm365teamsapps)
 * [Updates the state of an app](/powershell/module/teams/update-m365teamsapp)
