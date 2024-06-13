@@ -36,7 +36,6 @@ The following participants have an audio-only experience when a watermark is in 
 - Overflow participants
 - Older Teams clients
 - [Direct Guest Join on Microsoft Teams Rooms devices](/microsoftteams/rooms/third-party-join)
-- [Cloud Video Interop (CVI)](cloud-video-interop.md). Check with your CVI partner for watermark support information.
 
 > [!NOTE]
 > Meeting settings in sensitivity labels, custom meeting templates, and watermarks require Teams Premium.
