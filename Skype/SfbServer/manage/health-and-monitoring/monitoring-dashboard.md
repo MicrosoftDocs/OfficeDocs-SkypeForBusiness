@@ -21,13 +21,13 @@ description: "Summary: Learn about the Monitoring Dashboard in Skype for Busines
   
 The Monitoring Dashboard provides administrators with a quick overview of their Skype for Business Server system health and system usage. The Dashboard is designed to show an aggregate view of key system metrics and to do so by displaying either:
   
-- Totals for the current day. Note that values shown for the current day represent data that has been recorded from midnight until the current time (based on the local time of the reporting server). That means that you will typically be viewing data for a partial day and not for a 24-hour period. For example, if the local time of the server is 8:00 AM, you see eight hours' worth of data because there are eight hours between midnight and the current time of 8:00 AM.
+- Totals for the current day. The values shown for the current day represent data that are recorded from midnight until the current time (based on the local time of the reporting server). This means that you'll typically be viewing data for a partial day and not for a 24-hour period. For example, if the local time of the server is 8:00 AM, you see eight hours' worth of data because there are eight hours between midnight and the current time of 8:00 AM.
     
 - Totals for the week, and trend totals for the past six weeks.
     
 - Totals for the month, and trend totals for the past six months (for system usage only).
     
-Note that you can use the [Get-CsReportingConfiguration](/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) cmdlet to return the URL used for accessing Skype for Business Server Monitoring Reports:
+You can use the [Get-CsReportingConfiguration](/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) cmdlet to return the URL used for accessing Skype for Business Server Monitoring Reports:
   
 ```PowerShell
 Get-CsReportingConfiguration
@@ -81,7 +81,7 @@ By default, the Monitoring Dashboard shows data for the following metrics for th
     
 - Total PSTN participant minutes
     
-In addition to the System Usage metrics, the following metrics displays total for the current day and the previous six days (if you select **Weekly View**) or for the current week and the past six weeks if you select **Monthly View**.
+In addition to the System Usage metrics, the following metrics display total for the current day and the previous six days (if you select **Weekly View**) or for the current week and the past six weeks if you select **Monthly View**.
   
 ## Per-User Call Diagnostics
 
@@ -145,12 +145,12 @@ Top worst servers by poor quality call percentage
   
 ## Working with the Monitoring Dashboard
 
-As noted, by default totals are shown for the current week and trend values are shown for the past six weeks. If you would prefer to see totals for the current month (as well as trend values for the past six months), click the **Monthly View** link in the upper right corner of the dashboard. If you decide to view monthly totals, the link text will change to **Weekly View**. You can switch back to the weekly view by clicking that link.
+As noted, by default totals are shown for the current week and trend values are shown for the past six weeks. If you would prefer to see totals for the current month (and trend values for the past six months), select the **Monthly View** link in the upper right corner of the dashboard. If you decide to view monthly totals, the link text changes to **Weekly View**. You can switch back to the weekly view by clicking that link.
   
 > [!TIP]
 > The Monitoring Dashboard restricts you to looking at totals for the current week (or month) and trend values for the past six weeks (or months). You cannot change these dates and times. For example, you cannot use the Dashboard to view report totals for the time period beginning nine months ago. 
   
-The values shown in the **This week**, **This month**, or **Today** columns link you to more detailed information about the item. Keep in mind that the column name and the values displayed in that column will often differ depending on the metric chosen and depending on whether you have selected weekly view or monthly view. For example, if you click the totals shown for the **Unique user logons** metric you will see the **User Registration Report** for the specified time period. You can return to the Monitoring Dashboard at any time by clicking **Dashboard**.
+The values shown in the **This week**, **This month**, or **Today** columns link you to more detailed information about the item. Keep in mind that the column name and the values displayed in that column will often differ depending on the metric chosen and depending on whether you have selected weekly view or monthly view. For example, if you select the totals shown for the **Unique user logons** metric you'll see the **User Registration Report** for the specified time period. You can return to the Monitoring Dashboard at any time by clicking **Dashboard**.
   
 > [!TIP]
 > You can also access the Monitoring Server Reports home page by clicking the **Reports** link in the upper right corner of the Dashboard.
@@ -159,7 +159,7 @@ The **Trend** column displays a simple line graph that shows totals for the past
   
 ## Exporting Data from the Monitoring Dashboard
 
-The Monitoring Dashboard provides a number of ways to export the current dashboard view. On the Dashboard toolbar, you'll see an icon that looks like a floppy disk with a green arrow attached to it. If you click this icon, a dropdown list will appear giving you the following data export formats:
+The Monitoring Dashboard provides numerous ways to export the current dashboard view. On the Dashboard toolbar, you'll see an icon that looks like a floppy disk with a green arrow attached to it. If you click this icon, a dropdown list will appear giving you the following data export formats:
   
 - XML file with report data
     
