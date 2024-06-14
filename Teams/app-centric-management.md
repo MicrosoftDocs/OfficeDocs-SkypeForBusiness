@@ -106,11 +106,11 @@ During migration, you can save a draft of the migration progress using the **Fin
 > [!NOTE]
 > The existing Manage apps UI gets disabled when you start the migration. If you aren't ready to proceed or want to make change to the exiting permission policies, open the wizard and select the Reset all changes option. You can restart the migration again.
 
-After migration, your blocked apps continue to remain unavailable to users. Such apps show as unblocked now but are assigned to `No one` in the `Available to` column on the Manage apps page. It means that org user can't use the app, just as you intended before.
+After migration, your blocked apps continue to remain unavailable to users. On the Manage apps page, the status of previously blocked apps show as unblocked. However, such apps are available to `No one` in the `Available to` column. It means that org user can't use the app, just as you intended before.
 
 ## Add or modify app availability for users
 
-To let users add and use an app, you must assign users or groups to an app. It takes up to 24 hours for the changes to take effect. The apps that you blocked previously, show as unblocked now but are assigned to `No one` in the `Available to` column on the Manage apps page. It means that no org user can use the app.
+To let users add and use an app, you must assign users or groups to an app. It takes up to 24 hours for the changes to take effect.
 
 1. In Teams admin center, go to the [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page, search for the required app, and select the app name to open its app details page. You can't assign apps in bulk.
 
