@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: siunies
-ms.date: 11/13/2018
+ms.date: 06/17/2024
 description: Use Quality of Service (QoS) settings and then Call Analytics and Call Quality Dashboard in Microsoft Teams.
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -15,6 +15,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - Tier1
+  - ContentFreshnessFY24
 f1.keywords:
  - NOCSH
 appliesto: 
@@ -39,9 +40,9 @@ This article introduces three key tools you can use to monitor, troubleshoot, ma
 ## Monitor and troubleshoot call quality
 You'll use per-user **Call analytics** and **Call Quality Dashboard** to find and troubleshoot call-quality problems that come up during ongoing operation. This lets you drive performance improvements across your network. Both of these tools are in the Teams admin center.
 
- - **Call analytics** shows detailed information about the devices, networks, and connectivity related to  ***specific calls and meetings*** for each user in Teams. Teams admin and helpdesk agents will use this information to troubleshoot call quality and connection problems in a specific call. To learn more, read [Set up call analytics](set-up-call-analytics.md) and [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md).
+ - **Call analytics** show detailed information about the devices, networks, and connectivity related to  ***specific calls and meetings*** for each user in Teams. Teams admin and helpdesk agents will use this information to troubleshoot call quality and connection problems in a specific call. To learn more, read [Set up call analytics](set-up-call-analytics.md) and [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md).
  
- - **Real-time analytics** shows detailed information about the devices, networks, and connectivity related to  ***scheduled in-progress meetings*** for each user in Teams. Teams admin and helpdesk agents will use this information to troubleshoot in-progress scheduled meeting quality and connection problems. To learn more, read [Use real-time telemetry to troubleshoot poor meeting quality](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md).
+ - **Real-time analytics** show detailed information about the devices, networks, and connectivity related to  ***scheduled in-progress meetings*** for each user in Teams. Teams admin and helpdesk agents will use this information to troubleshoot in-progress scheduled meeting quality and connection problems. To learn more, read [Use real-time telemetry to troubleshoot poor meeting quality](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md).
 
  - **Call Quality Dashboard (CQD)** gives you a ***network-wide view*** of call quality across your organization. Use CQD information to help you identify and fix problems. First, [Set up CQD](turning-on-and-using-call-quality-dashboard.md). Then read [Manage call and meeting quality in Teams](quality-of-experience-review-guide.md).
 
