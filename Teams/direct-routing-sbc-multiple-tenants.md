@@ -300,5 +300,5 @@ To set up failover for a multi-tenant environment, you'll need to do the followi
 
 ## See also
 
-[Plan Direct Routing](direct-routing-plan.md)
+[Plan Direct Routing](direct-routing-plan.md)<br>
 [Configure Direct Routing](direct-routing-configure.md)
