@@ -158,7 +158,6 @@ The following apps are provided by Microsoft and are generally available:
 * Dynamics 365
 * Employee ideas
 * Forms
-* Games for Work
 * Images
 * Inspection
 * Issue reporting

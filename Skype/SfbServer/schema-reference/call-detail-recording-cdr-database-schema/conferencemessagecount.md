@@ -21,8 +21,8 @@ Each record in this table represents one user in one IM conference and includes 
   
 |**Column**|**Data Type**|**Key/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |Primary, Foreign  <br/> |Time of conference instance. Used in conjunction with **SessionIdSeq** to uniquely identify a conference instance. See the [Conferences table in Skype for Business Server 2015](conferences.md) for more information. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Primary, Foreign  <br/> |ID number to identify the conference instance. Used in conjunction with **SessionIdTime** to uniquely identify a conference instance. See the [Conferences table in Skype for Business Server 2015](conferences.md) for more information. <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |Primary, Foreign  <br/> |Time of conference instance. Used  with **SessionIdSeq** to uniquely identify a conference instance. For more information, see the [Conferences table in Skype for Business Server 2015](conferences.md). <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Primary, Foreign  <br/> |ID number to identify the conference instance. Used with **SessionIdTime** to uniquely identify a conference instance. For more information, see the [Conferences table in Skype for Business Server 2015](conferences.md). <br/> |
 |**UserId** <br/> |int  <br/> |Foreign  <br/> |Unique number identifying this user, referenced from the [Users table](users.md).  <br/> |
 |**MessageCount** <br/> |smallint  <br/> | <br/> |The number of messages sent by this user during this conference.  <br/> |
    

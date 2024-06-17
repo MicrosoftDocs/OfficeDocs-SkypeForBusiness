@@ -46,7 +46,7 @@ For a more detailed comparison between guest and external access users, see [com
 
 * Guests can't add, update, or delete apps into a shared context, such as a chat, channel, or meeting.
 
-* Guest users can access the app store and add apps using [deeplinks](/microsoftteams/platform/concepts/build-and-test/deep-link-application) shared with them by others. However, guest users can use such apps in personal scope only and the app icon doesn't display in the app bar.
+* Guest users can access the app store and add apps using [deep links](/microsoftteams/platform/concepts/build-and-test/deep-link-application) shared with them by others. However, guest users can use such apps in personal scope only and the app icon doesn't display in the app bar.
 
 * Guest users can use apps added by other org users in personal chats, group chats, and teams and channels.
 
@@ -70,12 +70,17 @@ Guests can mention the bot and interact with adaptive cards.
 
 ### Add, update, and delete apps for external access users
 
-External access users can't add, update, or delete apps into any context, such as a personal, chat, channel, or meeting. They don't have access to the Teams app store of the hosting organization.
+Teams users can add apps in group chats with people from other organizations, including external users. Group chats hosted by the other organization works, but such a chat doesn't work in one-on-one chats of your org users and the external users.
+
+The external users don't have access to the Teams app store of the hosting organization.
 
 ### Usage behavior and policy for external access users
 
-* People from other organizations adhere to the hosting organization's global (org-wide default) policy
-* Users in the hosting organization can add apps in meeting chats with people from other organizations. People from other organizations can't add apps in meeting chats but can interact with bots, tabs and message extensions once added to the chat.
+Users from other organizations can't use apps in 1:1 chats with org users, even if the org users try to add apps to individual chats.
+
+* Meeting host can install, remove, or update apps for use by all members of a meeting, including external users.
+* Users in the hosting organization can add apps in meeting chats and group chats that include people from other organizations. People from other organizations can't add apps in chats but can interact with apps such as bots, tabs, and message extensions, after the apps are added to the chat.
+* People from other organizations adhere to the hosting organization's global (org-wide default) policy.
 * After a bot is added in a meeting chat, it can proactively communicate with people from other organizations in that chat, and those people can communicate with bot.
 * The data policies of the hosting organization are applied.
 * The data sharing practices of any third-party apps shared by that user's organization are applied.
@@ -94,7 +99,7 @@ Anonymous users can interact only with the apps that are already available in a 
 
 ### Allow anonymous users to use apps in meetings
 
-By default, anonymous users can interact with the existing apps in a meeting. Anonymous users cannot add new apps to a meeting. You can disallow anonymous users for interacting with apps.
+By default, anonymous users can interact with the existing apps in a meeting. Anonymous users can't add new apps to a meeting. You can disallow anonymous users for interacting with apps.
 
 1. Sign in to the Teams admin center and access **Meetings** > **[Meeting settings](https://admin.teams.microsoft.com/meetings/settings)**.
 
@@ -104,7 +109,7 @@ By default, anonymous users can interact with the existing apps in a meeting. An
 
 ## Related articles
 
-* [Allow anonymous users to join meetings](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
-* [Manage app setup policies in Microsoft Teams](teams-app-setup-policies.md).
+* [How anonymous users can join meetings](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
+* [How to manage app setup policies in Teams](teams-app-setup-policies.md).
 * [How to allow collaboration with guests and external participants](manage-external-access.md).
-* [What can guests do in Teams](guest-access.md)
+* [Know what can guests do in Teams](guest-access.md)
