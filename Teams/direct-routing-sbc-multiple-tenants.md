@@ -102,19 +102,19 @@ The following table is an example of one configuration.
 |sbc2.customers.adatum.biz  |   Subdomain | In a customer tenant   |   \*.customers.adatum.biz   |contoso.com   |sbc2.customers.adatum.biz |
 |sbc3.customers.adatum.biz |   Subdomain | In a customer tenant |   \*.customers.adatum.biz  |  adventureworks.com | sbc3.customers.adatum.biz |
 
-To configure the base and subdomains, you'll need to:
+
+The example in this article configures a base domain name (customers.adatum.biz) and a subdomain for one customer (sbc1.customers.adatum.biz in Woodgrove Bank tenant).
 
 1. [Register a base domain name in the carrier tenant](#register-a-base-domain-name-in-the-carrier-tenant).
 2. [Register a subdomain name in a customer tenant](#register-a-subdomain-name-in-a-customer-tenant).
 
-The following example configures a base domain name (customers.adatum.biz) and a subdomain for one customer (sbc1.customers.adatum.biz in Woodgrove Bank tenant).
 
 > [!NOTE]
 > Use sbcX.customers.adatum.biz to enable voice in the carrier tenant; sbcX can be any unique and valid alphanumeric hostname.
 
 ## Register a base domain name in the carrier tenant
 
-**These actions are performed in the carrier tenant.**
+**In the carrier tenant,** you must:
 
 1. [Ensure that you have appropriate rights in the carrier tenant](#ensure-that-you-have-appropriate-rights-in-the-carrier-tenant).
 2. [Add a base domain to the carrier tenant and verify it](#add-a-base-domain-to-the-carrier-tenant-and-verify-it).
@@ -166,7 +166,7 @@ For example: test@customers.adatum.biz
 
 You'll need to create a unique subdomain name for every customer. This example creates a subdomain sbc1.customers.adatum.biz in a tenant with the default domain name woodgrovebank.us.
 
-**All actions below are in the customer tenant.**
+**In the customer tenant,** you must:
 
 1. [Ensure that you have appropriate rights in the customer tenant](#ensure-that-you-have-appropriate-rights-in-the-customer-tenant).
 2. [Add a subdomain to the customer tenant and verify it](#add-a-subdomain-to-the-customer-tenant-and-verify-it).
