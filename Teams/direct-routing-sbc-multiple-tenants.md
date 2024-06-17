@@ -68,7 +68,7 @@ For detailed steps on how to deploy and configure SBCs for an SBC hosting scenar
 > [!NOTE]
 > Make sure you know how to configure the "Contact" header. The Contact header is used to find the customer tenant on the incoming invite message. 
 
-## Register a base domain and subdomains
+## Register a base domain and subdomains - Overview
 
 For the hosting scenario, you need to create:
 
@@ -112,7 +112,7 @@ The example in this article configures a base domain name (customers.adatum.biz)
 > [!NOTE]
 > Use sbcX.customers.adatum.biz to enable voice in the carrier tenant; sbcX can be any unique and valid alphanumeric hostname.
 
-## Register a base domain name in the carrier tenant
+## Register a base domain name in the carrier tenant - Example
 
 **In the carrier tenant,** you must:
 
@@ -162,7 +162,7 @@ For example: test@customers.adatum.biz
 
 ![Screenshot of the base domain activation page.](media/direct-routing-4-sbc-domain-activation.png)
 
-## Register a subdomain name in a customer tenant
+## Register a subdomain name in a customer tenant - Example
 
 You'll need to create a unique subdomain name for every customer. This example creates a subdomain sbc1.customers.adatum.biz in a tenant with the default domain name woodgrovebank.us.
 
