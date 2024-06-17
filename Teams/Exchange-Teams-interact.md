@@ -96,7 +96,7 @@ Microsoft Teams works with several Microsoft 365 and Office 365 services to prov
 
 - SharePoint Online is required to share and store files in team conversations. Microsoft Teams doesn't support SharePoint on-premises.
 
-- Users must be assigned a SharePoint Online license if they want to share files in Chats. If users aren't assigned and enabled with SharePoint Online licenses, they don't have OneDrive for Business storage in Microsoft 365 or Office 365. File sharing will continue to work in Channels, but users are unable to share files in Chats without OneDrive for Business storage in Microsoft 365 or Office 365.
+- Users must be assigned a SharePoint Online license if they want to share files in Chats. If users aren't assigned and enabled with SharePoint Online licenses, they don't have OneDrive for Business storage in Microsoft 365 or Office 365. File sharing continues to work in Channels, but users are unable to share files in Chats without OneDrive for Business storage in Microsoft 365 or Office 365.
 
 - Users must be enabled for Microsoft 365 group creation to create teams in Microsoft Teams.
 
@@ -144,7 +144,7 @@ Because the menu option is hidden for Skype for Business users, if you want to u
 
 |Co-existance of IM providers  |Existing IM provider  |Expected behavior |Comment |
 |---------|---------|---------|---------|
-|SFB + Teams (T1 or T2.1) |Teams (T1 or T2.1)  |T2.1 automatically registers and starts as the IM provider.<br>Menu option on Settings is not available.  |This is for users who upgrade from T1 or older version of T2.1, and are already using Teams as the IM provider. |
+|SFB + Teams (T1 or T2.1) |Teams (T1 or T2.1)  |T2.1 automatically registers and starts as the IM provider.<br>Menu option on Settings is not available.  |This option is for users who upgrade from T1 or older version of T2.1, and are already using Teams as the IM provider. |
 |SFB + Teams (T1 or T2.1)  |SFB  |SFB is the IM provider.<br>Menu option on Settings is not available. |Because the menu isn't available, other means are needed to use Teams as the IM provider. Admins can push out a registry change by using a Windows policy or script. End users can also modify the registry directly.<br>Admins can also migrate users to Teams Only mode.<br>We can also use an allowlist with the tenant, but this should be done as a last resort. |
 |Third party + Teams (T1 or T2.1) |Third party  |Third party as the IM provider.<br>Menu option is available on Settings.  |Admins can push out a registry change by using a windows policy or script.<BR>End users can select Teams as the IM provider from Settings.  |
 
