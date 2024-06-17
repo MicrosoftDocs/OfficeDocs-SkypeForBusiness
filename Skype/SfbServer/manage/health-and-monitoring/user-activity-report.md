@@ -23,7 +23,7 @@ The User Activity Report provides a detailed list of the peer-to-peer and confer
 
 The User Activity Report is sometimes referred to as the "help desk" report. That's because the report is often used by help desk personnel to retrieve session information for a specific user. You can filter for calls made to or made by an individual user simply by typing the user's SIP URI in the User URI prefix box.
 
-If you do this, the User Activity Report will return information for any user whose SIP URI begins with the specified string. For example, if you type **ken** in the URI box, the User Activity Report will locate **Ken**.Myer@litwareinc.com. However, it will also locate these users:
+If you do this, the User Activity Report returns information for any user whose SIP URI begins with the specified string. For example, if you type **ken** in the URI box, the User Activity Report locates **Ken**.Myer@litwareinc.com. However, it will also locate these users:
 
 - **ken** azi@litwareinc.com
 
@@ -33,7 +33,7 @@ If you do this, the User Activity Report will return information for any user wh
 
 - **Ken** nedy@litwareinc.com
 
-To ensure that information only for Ken Myer is returned, either type his full URI (Ken.Myer@litwareinc.com) in the search box or at least enough type of Ken's URI to uniquely distinguish him from other users in your organization. For example:
+To ensure that information only for Ken Myer is returned, either type their full URI (Ken.Myer@litwareinc.com) in the search box or at least enough type of Ken's URI to uniquely distinguish them from other users in your organization. For example:
 
 Ken.my
 
@@ -43,24 +43,24 @@ The User Activity Report is accessed from the Monitoring Reports home page. You 
 
 ## Making the best use of the user activity report
 
-Although there is a lot of good information in the User Activity Report, that information can sometimes be difficult to locate. For example, all the user activity that takes place in your organization during a specified period is included in the User Activity Report; that means that, buried, within the report is information about which users actually used Skype for Business Server in some way.
+Although there's numerous good information in the User Activity Report, that information can sometimes be difficult to locate. For example, all the user activity that takes place in your organization during a specified period is included in the User Activity Report; that means that, buried, within the report is information about which users used Skype for Business Server in some way.
 
 > [!NOTE]
 > Technically, it's possible that some user activity might go unrecorded: while Skype for Business Server strives to keep information about all phone calls it's possible that a call could have been made without the information about that call being written to the database. Skype for Business Server is designed to give an extremely accurate but not necessarily perfect look at how Skype for Business Server is being used. (The fact that there is no guarantee that 100% of all calls are recorded explains why Skype for Business Server monitoring should not be used as a billing system.) Second, a Monitoring Report can only display, at most, 1,000 records. Depending on the amount of user activity you have, and depending on the time period you are working with, that means your query might not return all the data actually stored in the database. 
 
-- Which users actually used the system during this time period?
+- Which users used the system during this time period?
 
 - Which of my users were the most active during this time period?
 
 - Are the users who make the most phone calls also the users who participate in the most instant messaging sessions?
 
-If you need to answer questions like this, you can export the data retrieved by the Monitoring Reports to an Excel spreadsheet. You then use that spreadsheet and/or a comma-separated values file to analyze the data in ways that the User Activity Report. For example, suppose you have exported the report data to Excel and then to a comma-separated values file. At that point, you can import the data from the .CSV file to Windows PowerShell by using a command similar to this:
+If you need to answer questions like this, you can export the data retrieved by the Monitoring Reports to an Excel spreadsheet. You then use that spreadsheet and/or a comma-separated values file to analyze the data in ways that the User Activity Report. For example, you're exporting the report data to Excel and then to a comma-separated values file. At that point, you can import the data from the .CSV file to Windows PowerShell by using a command similar to this:
 
 ```PowerShell
 $x = Import-Csv -Path "C:\Data\User_Activity_Report.csv"
 ```
 
-After the data has been imported you can then use simple Windows PowerShell commands to help answer your questions. For example, this command returns a list of unique users who served as the "From user" in at least one session:
+After the data is imported, you can then use simple Windows PowerShell commands to help answer your questions. For example, this command returns a list of unique users who served as the "From user" in at least one session:
 
 ```PowerShell
 $x | Group-Object "From user" | Select Name | Sort-Object Name
@@ -102,11 +102,11 @@ This command limits the reported sessions to those that included audio as a moda
 $x | Where-Object {$_.Modalities -match "audio"} | Group-Object "From user" | Select Count, Name | Sort-Object Count -Descending
 ```
 
-If you hold your mouse over any Diagnostic ID shown on the report, a tooltip will appear describing that ID.
+If you hold your mouse over any Diagnostic ID shown on the report, a tooltip appears describing that ID.
 
 ## Filters
 
-Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the User Activity Report enables you to filter the returned data based on such things as activity type (that is, peer-to-peer sessions or conferencing sessions) or by the user's SIP address (allowing you to view the activities for one user). You can also choose how data should be grouped. In this case, usages are grouped by hour, day, week, or month.
+Filters provide a way for you to return a more finely targeted set of data or to view the returned data in different ways. For example, the User Activity Report enables you to filter the returned data based on such things as activity type (that is, peer-to-peer sessions or conferencing sessions) or by the user's SIP address (allowing you to view the activities for one user). You can also choose how data should be grouped. In this case, usage is grouped by hour, day, week, or month.
 
 The following table lists the filters that you can use with the User Activity Report.
 
@@ -115,11 +115,11 @@ The following table lists the filters that you can use with the User Activity Re
 
 | **Name**                   | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |:---------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **From** <br/>             | Start date/time for the time range. To view data by hours, enter both the start date and time as follows:  <br/> 7/17/12015 1:00 PM  <br/> If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:  <br/> 7/17/12015  <br/> To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):  <br/> 7/13/2015  <br/> Weeks always run from Sunday through Saturday.  <br/>                                                      |
-| **To** <br/>               | End date/time for the time range. To view data by hours, enter both the end date and time as follows:  <br/> 7/17/12015 1:00 PM  <br/> If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:  <br/> 7/17/12015  <br/> To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):  <br/> 7/13/2015  <br/> Weeks always run from Sunday through Saturday.  <br/>                                                             |
+| **From** <br/>             | Start date/time for the time range. To view data by hours, enter both the start date and time as follows:  <br/> 7/17/12015 1:00 PM  <br/> If you don't enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:  <br/> 7/17/12015  <br/> To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you don't have to enter the first day of the week or month):  <br/> 7/13/2015  <br/> Weeks always run from Sunday through Saturday.  <br/>                                                      |
+| **To** <br/>               | End date/time for the time range. To view data by hours, enter both the end date and time as follows:  <br/> 7/17/12015 1:00 PM  <br/> If you don't enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:  <br/> 7/17/12015  <br/> To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you don't have to enter the first day of the week or month):  <br/> 7/13/2015  <br/> Weeks always run from Sunday through Saturday.  <br/>                                                             |
 | **Activity type** <br/>    | Type of activity. Select one of the following: <br/>  [All] <br/>  Peer-to-peer <br/>  Conference <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **Modality** <br/>         | The Modality available to you varies depending on the select Activity Type. If the Activity Type is Peer-to-Peer, you can select IM; File Transfer; Application Sharing; Voice; or Video as the modality.  <br/> If the Activity Type is Conference, you can select IM Phone conference; Web conference; Application Sharing; Voice/Video conference; or Telephony conference.  <br/>                                                                                                                                                                                                                                            |
-| **Session category** <br/> | Indicates whether the activity in question succeeded or failed. Select one of the following: <br/>  [All] <br/>  Success <br/>  Expected failure <br/>  Unexpected failure <br/>  An "expected failure" is a failure that is expected to happen; for example, if a user has set his or her status to Do Not Disturb you would expect any call to that user to fail. An "unexpected failure" is a failure that occurs in what would appear to be an otherwise healthy system. For example, a call should not be terminated if the caller is placed on hold. If that occurs, that would be flagged as an unexpected failure. <br/> |
+| **Session category** <br/> | Indicates whether the activity in question succeeded or failed. Select one of the following: <br/>  [All] <br/>  Success <br/>  Expected failure <br/>  Unexpected failure <br/>  An "expected failure" is a failure that is expected to happen; for example, if a user has set their status to Do Not Disturb you would expect any call to that user to fail. An "unexpected failure" is a failure that occurs in what would appear to be an otherwise healthy system. For example, a call should not be terminated if the caller is placed on hold. If that occurs, that would be flagged as an unexpected failure. <br/> |
 | **User URI prefix** <br/>  | SIP address for the user. To view records only for the user Ken Myer you need to enter Ken Myer's SIP address. For example:  <br/> sip:kenmyer@litwareinc.com  <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 
 ## Metrics for peer-to-peer sessions
