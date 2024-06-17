@@ -142,11 +142,13 @@ There are two ways you can fund and use minutes with a Pay-As-You-Go Calling Pla
 - [Audio conferencing](https://www.microsoft.com/microsoft-teams/audio-conferencing).
 
 
-## Related articles
+## Related content 
 
 - [Set up Calling Plans](set-up-calling-plans.md)
 - [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 - [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
 - [Plan your voice solution](cloud-voice-landing-page.md)
 - [PSTN connectivity options](pstn-connectivity.md)
+
+When signed in to the Teams admin center, see the [Plan and Implement your Microsoft Teams Phone Deployment Guide](https://go.microsoft.com/fwlink/?linkid=2224790). This guide customizes your experience based on your environment. To review best practices without signing in and activating automated setup features, see the [Microsoft 365 setup portal](https://go.microsoft.com/fwlink/?linkid=2222974).
 
