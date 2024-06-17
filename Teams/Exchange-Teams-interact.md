@@ -51,7 +51,7 @@ The following table provides a helpful quick reference to feature availability b
 
 <sup>2</sup> Teams private chat messages are not yet supported for Legal Hold for this hosting option.
 
-<sup>3</sup> Retention will use a shadow mailbox for the online user to store messages.
+<sup>3</sup> Retention uses a shadow mailbox for the online user to store messages.
 
 <sup>4</sup> Teams users with on-premises Exchange mailbox may use voicemail with Teams and receive voicemail messages in Outlook, but voicemail messages will not be available to view or play within the Teams client.
 
@@ -76,7 +76,7 @@ Microsoft Teams works with several Microsoft 365 and Office 365 services to prov
 
 - SharePoint Online is required to share and store files in team conversations. Microsoft Teams doesn't support SharePoint on-premises.
 
-- Users must be assigned a SharePoint Online license if they want to share files in Chats. If users aren't assigned and enabled with SharePoint Online licenses, they don't have OneDrive for Business storage in Microsoft 365 or Office 365. File sharing will continue to work in Channels, but users are unable to share files in Chats without OneDrive for Business storage in Microsoft 365 or Office 365.
+- Users must be assigned a SharePoint Online license if they want to share files in Chats. If users aren't assigned and enabled with SharePoint Online licenses, they don't have OneDrive for Business storage in Microsoft 365 or Office 365. File sharing continues to work in Channels, but users are unable to share files in Chats without OneDrive for Business storage in Microsoft 365 or Office 365.
 
 - Users must be enabled for Microsoft 365 group creation to create teams in Microsoft Teams.
 
@@ -109,7 +109,7 @@ If mailboxes are hosted on-premises, to create and view meetings, the following 
 
 To enable calendar delegation for these users:
 
-- You must also complete steps as described in [Configure Integration and OAuth between Skype for Business Online and Exchange Server](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); these steps will provide the Teams scheduling application the required permissions to confirm delegate permissions.
+- You must also complete steps as described in [Configure Integration and OAuth between Skype for Business Online and Exchange Server](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); these steps provide the Teams scheduling application with the required permissions to confirm delegate permissions.
  
   > [!NOTE]
   > Step 2 includes role assignment for ArchiveApplication, which is not required for delegation.
@@ -118,9 +118,11 @@ To enable calendar delegation for these users:
 
 ## Changed behavior of island user for Outlook integration
 
-Because the menu option is hidden for Skype for Business users, if you want to use Teams for office integration, it's recommended that the tenant admin set the default IM provider with a Windows policy. To do this, use the following value i:
+Because the menu option is hidden for Skype for Business users, if you want to use Teams for office integration, it's recommended that the tenant admin set the default IM provider with a Windows policy. To do this, use the following value:
 
 [HKEY_CURRENT_USER\Software\IM Providers] "DefaultIMApp"="**MsTeams**"
+
+
 
 ## Additional considerations
 
