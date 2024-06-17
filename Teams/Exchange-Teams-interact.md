@@ -51,7 +51,7 @@ However, they can't:
 - Manage connectors
 
 > [!IMPORTANT]
-> For integration with on-premises, it's highly recommended that you have an Exchange full Classic Hybrid deployment with Exchange Server 2016 or later. Modern Hybrid support is limited to Free/Busy and will not provide calendar integration from Teams to mailboxes on-premises, for example. For more information about setting up a hybrid deployment, see [Exchange Server hybrid deployments](/exchange/exchange-hybrid).
+> For integration with on-premises, it's highly recommended that you have an Exchange full Classic Hybrid deployment with Exchange Server 2016 or later. Modern Hybrid support is limited to Free/Busy and won't provide calendar integration from Teams to mailboxes on-premises, for example. For more information about setting up a hybrid deployment, see [Exchange Server hybrid deployments](/exchange/exchange-hybrid).
 
 Users with mailboxes hosted on-premises must be synchronized to Microsoft Entra ID. They can make use of all the features in the above scenario, but additionally, they can manage meetings if the requirements listed on [Requirements for mailboxes hosted on-premises](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises) section are met.
 
@@ -68,7 +68,7 @@ The following table provides a helpful quick reference to feature availability b
 
 <sup>1</sup> eDiscovery and Legal Hold for compliance on channel messages is supported for all hosting options.
 
-<sup>2</sup> Teams private chat messages are not yet supported for Legal Hold for this hosting option.
+<sup>2</sup> Teams private chat messages aren't yet supported for Legal Hold for this hosting option.
 
 <sup>3</sup> Retention will use a shadow mailbox for the online user to store messages.
 
@@ -78,7 +78,7 @@ The following table provides a helpful quick reference to feature availability b
 
 <sup>6</sup> Only contacts in default contacts folder. Access to other contacts folders or subfolders is not supported.
 
-<sup>7</sup> Teams honors the [Outlook on the web mailbox policy](/powershell/module/exchange/client-access/set-owamailboxpolicy) setting that's configured by tenant admins to control whether users can change their profile picture. If the **-SetPhotoEnabled** setting is turned off in the policy, users cannot add, change, or remove their profile picture, so the profile picture won't be synced to teams if the admin changes the photo.
+<sup>7</sup> Teams honors the [Outlook on the web mailbox policy](/powershell/module/exchange/client-access/set-owamailboxpolicy) setting that's configured by tenant admins to control whether users can change their profile picture. If the **-SetPhotoEnabled** setting is turned off in the policy, users can't add, change, or remove their profile picture, so the profile picture won't be synced to teams if the admin changes the photo.
 
 <sup>8</sup> You need to meet the requirements listed in the [Requirements to create and view meetings for mailboxes hosted on-premises](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises) section.
 
@@ -118,7 +118,7 @@ If mailboxes are hosted on-premises, to create and view meetings, the following 
 
 - Autodiscover and Exchange Web Services are published externally. For information about which Microsoft 365 services need access to on-premises Autodiscover and Exchange Web Services endpoints, see [Other endpoints not included in the Office 365 IP Address and URL Web service](/microsoft-365/enterprise/additional-office365-ip-addresses-and-urls).
 
-- OAuth authentication is configured preferably via the Exchange Hybrid Configuration Wizard running a full hybrid configuration (Classic or Modern). If you are not able to use the Hybrid Configuration Wizard, configure OAuth as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
+- OAuth authentication is configured preferably via the Exchange Hybrid Configuration Wizard running a full hybrid configuration (Classic or Modern). If you aren't able to use the Hybrid Configuration Wizard, configure OAuth as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
 
   > [!NOTE]
   > Exchange trusts OAuth Token from Teams service which is known as EvoSTS. Step 1 should be enough, but just the EvoSTS; ACS is used for Free/Busy lookup in the calendar.
@@ -144,12 +144,10 @@ Because the menu option is hidden for Skype for Business users, if you want to u
 
 |C-existance of IM providers  |Existing IM provider  |Expected behavior |Comment |
 |---------|---------|---------|---------|
-|SFB + Teams (T1 or T2.1)     |Teams (T1 or T2.1)      |T2.1 automatically register and start as IM provider.<br>Menu option on Setting not available.  |This is for users who upgrade from T1, or older version, of T2.1 and is already using Teams as IM provider. |
-|SFB + Teams (T1 or T2.1)     |SFB  |SFB is the IM provider.<br>Menu option on Setting not available. |As menu is not available. Other means are needed to use Teams as the IM provider. Admin can push out registry change using a Windows policy or script. End users can also modify the registry directly.<br>Admin can also migrate users to Teams-Only mode.<br>We can also whitelist the tenant, but this is the last resort. |
-|Third Party + Teams (T1 or T2.1) |Third party      |Third party as the IM provider.<br>Menu option is available on Setting.  |Admin can push out registry change using a windows policy or script.<BR>End user can select Teams as the IM provider from settings. |
+|SFB + Teams (T1 or T2.1) |Teams (T1 or T2.1)  |T2.1 automatically register and start as IM provider.<br>Menu option on Setting not available.  |This is for users who upgrade from T1, or older version, of T2.1 and is already using Teams as IM provider. |
+|SFB + Teams (T1 or T2.1)  |SFB  |SFB is the IM provider.<br>Menu option on Setting not available. |As menu isn't available. Other means are needed to use Teams as the IM provider. Admin can push out registry change using a Windows policy or script. End users can also modify the registry directly.<br>Admin can also migrate users to Teams-Only mode.<br>We can also whitelist the tenant, but this is the last resort. |
+|Third Party + Teams (T1 or T2.1) |Third party  |Third party as the IM provider.<br>Menu option is available on Setting.  |Admin can push out registry change using a windows policy or script.<BR>End users can select Teams as the IM provider from settings.  |
 
-
-[HKEY_CURRENT_USER\Software\IM Providers] "DefaultIMApp"="**MsTeams**"
 
 ## Additional considerations
 
