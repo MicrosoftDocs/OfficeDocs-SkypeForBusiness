@@ -70,7 +70,7 @@ The following table provides a helpful quick reference to feature availability b
 
 <sup>2</sup> Teams private chat messages aren't yet supported for Legal Hold for this hosting option.
 
-<sup>3</sup> Retention will use a shadow mailbox for the online user to store messages.
+<sup>3</sup> Retention uses a shadow mailbox for the online user to store messages.
 
 <sup>4</sup> Teams users with on-premises Exchange mailbox may use voicemail with Teams and receive voicemail messages in Outlook, but voicemail messages will not be available to view or play within the Teams client.
 
