@@ -116,6 +116,12 @@ To enable calendar delegation for these users:
 
 - The Teams Scheduling add-in for Outlook requires Exchange 2013 CU19 or later when scheduling a meeting on behalf of someone else. This is to support the unauthenticated discovery of the mailbox by our service to check delegate permissions against the delegator mailbox. The delegate and delegator location could be Exchange 2013 or later, or Exchange online, but Autodiscover must resolve to Exchange 2013 CU19 or later.
 
+## Changed behavior of island user for Outlook integration
+
+Because the menu option is hidden for Skype for Business users, if you want to use Teams for office integration, it's recommended that the tenant admin set the default IM provider with a Windows policy. To do this, use the following value i:
+
+[HKEY_CURRENT_USER\Software\IM Providers] "DefaultIMApp"="**MsTeams**"
+
 ## Additional considerations
 
 Here are some extra things to think about as you implement Microsoft Teams in your organization.
