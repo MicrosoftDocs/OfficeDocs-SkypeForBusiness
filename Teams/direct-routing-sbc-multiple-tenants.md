@@ -1,7 +1,7 @@
 ---
 title: "Configure Session Border Controller - Multiple tenants"
 ms.reviewer: filippse
-ms.date: 06/27/2018
+ms.date: 06/17/2024
 ms.author: crowe
 author: CarolynRowe
 manager: pamgreen
@@ -28,6 +28,7 @@ Direct Routing supports configuring one Session Border Controller (SBC) to serve
 
 > [!NOTE]
 > This scenario is designed for Microsoft partners and/or PSTN carriers, referred to as carriers later in this document. A carrier sells telephony services delivered to Microsoft Teams to their customers. 
+> To provide services in Public cloud, both the customer tenant and carrier tenant must be in Public cloud. To provide services in GCCH cloud, both customer tenant and carrier tenant must be in GCCH cloud. Carrier tenant registerd in Public cloud can't provide services to GCCH customer tenant.
 
 A carrier:
 - Deploys and manages an SBC in their datacenter (customers don't need to implement an SBC, and they receive telephony services from the carrier in the Teams client).
