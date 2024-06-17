@@ -105,9 +105,9 @@ The following table is an example of one configuration.
 
 The example in this article:
 
-1. [Configures a base domain name (customers.adatum.biz) in the carrier tenant](#register-a-base-domain-name-in-the-carrier-tenant---example).
+1. [Registers a base domain name (customers.adatum.biz) in the carrier tenant](#register-a-base-domain-name-in-the-carrier-tenant---example).
 
-2. [Configures a subdomain for one customer (sbc1.customers.adatum.biz in the Woodgrove Bank tenant)](#register-a-subdomain-name-in-a-customer-tenant---example).
+2. [Registers a subdomain in one customer tenant (sbc1.customers.adatum.biz in the Woodgrove Bank tenant)](#register-a-subdomain-name-in-a-customer-tenant---example).
 
 > [!NOTE]
 > Use sbcX.customers.adatum.biz to enable voice in the carrier tenant; sbcX can be any unique and valid alphanumeric hostname.
