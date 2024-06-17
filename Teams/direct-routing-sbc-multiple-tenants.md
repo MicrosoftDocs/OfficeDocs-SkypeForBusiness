@@ -1,5 +1,5 @@
 ---
-title: "Configure Session Border Controller - Multiple tenants"
+title: "Configure a Session Border Controller for multiple tenants"
 ms.reviewer: filippse
 ms.date: 06/17/2024
 ms.author: crowe
@@ -27,19 +27,21 @@ ms.custom: seo-marvel-apr2020
 Direct Routing supports configuring one Session Border Controller (SBC) to serve multiple tenants.
 
 > [!NOTE]
-> This scenario is designed for Microsoft partners and/or PSTN carriers, referred to as carriers later in this document. A carrier sells telephony services delivered to Microsoft Teams to their customers. 
-> To provide services in Public cloud, both the customer tenant and carrier tenant must be in Public cloud. To provide services in GCCH cloud, both customer tenant and carrier tenant must be in GCCH cloud. Carrier tenant registerd in Public cloud can't provide services to GCCH customer tenant.
+> This scenario is designed for Microsoft partners and Public Switched Telephone Network (PSTN) carriers. A carrier sells telephony services delivered to Microsoft Teams to their customers. 
+
+To provide services in the Public cloud, both the customer and carrier tenants must be in the Public cloud. To provide services in the GCCH cloud, both the customer and carrier tenants must be in the GCCH cloud. A carrier tenant registered in the Public cloud can't provide services to a GCCH customer tenant.
 
 A carrier:
-- Deploys and manages an SBC in their datacenter (customers don't need to implement an SBC, and they receive telephony services from the carrier in the Teams client).
+
+- Deploys and manages an SBC in their datacenter. Customers don't need to implement an SBC, and they receive telephony services from the carrier in the Teams client.
 - Interconnects the SBC to multiple tenants.
-- Provides Public Switched Telephone Network (PSTN) services to customers.
+- Provides PSTN services to customers.
 - Manages call quality end to end.
 - Charges separately for PSTN services.
 
-Microsoft doesn't manage carriers. Microsoft offers Phone System—a Private Branch Exchange (PBX)—and a Teams client. Microsoft also certifies phones, and certifies SBCs that can be used with Phone System. Before choosing a carrier, ensure that your choice has a certified SBC and can manage voice quality end to end.
+Microsoft doesn't manage carriers. Microsoft offers Teams Phone—a Private Branch Exchange (PBX)—and a Teams client. Microsoft also certifies phones, and certifies SBCs that can be used with Teams Phone. Before choosing a carrier, ensure that your choice has a certified SBC and can manage voice quality end to end.
 
-The following are the technical implementation steps to configure the scenario.
+To configure an SBC to support multiple tenants, the following steps are required:
 
 **Carrier only:**
 1. Deploy the SBC and configure it for the hosting scenario according to the [instructions from the certified SBC vendors](#deploy-and-configure-the-sbc).
@@ -100,7 +102,12 @@ The following table is an example of one configuration.
 |sbc2.customers.adatum.biz  |   Subdomain | In a customer tenant   |   \*.customers.adatum.biz   |contoso.com   |sbc2.customers.adatum.biz |
 |sbc3.customers.adatum.biz |   Subdomain | In a customer tenant |   \*.customers.adatum.biz  |  adventureworks.com | sbc3.customers.adatum.biz |
 
-To configure the base and subdomains, follow the steps described below. This example configures a base domain name (customers.adatum.biz) and a subdomain for one customer (sbc1.customers.adatum.biz in Woodgrove Bank tenant).
+To configure the base and subdomains, you'll need to:
+
+1. [Register a base domain name in the carrier tenant](#register-a-base-domain-name-in-the-carrier-tenant).
+2. [Register a subdomain name in a customer tenant](#register-a-subdomain-name-in-a-customer-tenant).
+
+The following example configures a base domain name (customers.adatum.biz) and a subdomain for one customer (sbc1.customers.adatum.biz in Woodgrove Bank tenant).
 
 > [!NOTE]
 > Use sbcX.customers.adatum.biz to enable voice in the carrier tenant; sbcX can be any unique and valid alphanumeric hostname.
@@ -108,6 +115,10 @@ To configure the base and subdomains, follow the steps described below. This exa
 ## Register a base domain name in the carrier tenant
 
 **These actions are performed in the carrier tenant.**
+
+1. [Ensure that you have appropriate rights in the carrier tenant](#ensure-that-you-have-appropriate-rights-in-the-carrier-tenant).
+2. [Add a base domain to the carrier tenant and verify it](#add-a-base-domain-to-the-carrier-tenant-and-verify-it).
+3. [Activate the domain name in the carrier tenant](#activate-the-domain-name-in-the-carrier-tenant).
 
 ### Ensure that you have appropriate rights in the carrier tenant
 
@@ -117,7 +128,7 @@ To validate the role you have, sign in to the Microsoft 365 admin center (https:
 
 For more information about admin roles and how to assign a role in Microsoft 365, see [About admin roles](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
-### Add a base domain to the tenant and verify it
+### Add a base domain to the carrier tenant and verify it
 
 1. In the Microsoft 365 admin center, go to **Setup** > **Domains** > **Add domain**.
 
@@ -131,7 +142,7 @@ For more information about admin roles and how to assign a role in Microsoft 365
 
 6. On the next page, clear all values (unless you want to use the domain name for Exchange, SharePoint, Teams, or Skype for Business), select **Next**, and then select **Finish**. Make sure your new domain is in the Setup complete status.
 
-### Activate the domain name
+### Activate the domain name in the carrier tenant
 
 After you have registered a domain name, you need to activate it by adding at least one Teams licensed user or resource account. Acceptable accounts will be licensed with any one of the following SKU’s:
 
@@ -153,9 +164,13 @@ For example: test@customers.adatum.biz
 
 ## Register a subdomain name in a customer tenant
 
-You'll need to create a unique subdomain name for every customer. In this example, we will create a subdomain sbc1.customers.adatum.biz in a tenant with the default domain name woodgrovebank.us.
+You'll need to create a unique subdomain name for every customer. This example creates a subdomain sbc1.customers.adatum.biz in a tenant with the default domain name woodgrovebank.us.
 
 **All actions below are in the customer tenant.**
+
+1. [Ensure that you have appropriate rights in the customer tenant](#ensure-that-you-have-appropriate-rights-in-the-customer-tenant).
+2. [Add a subdomain to the customer tenant and verify it](#add-a-subdomain-to-the-customer-tenant-and-verify-it).
+3. [Activate the subdomain name in the customer tenant](#activate-the-subdomain-name-in-the-customer-tenant).
 
 ### Ensure that you have appropriate rights in the customer tenant
 
@@ -198,7 +213,7 @@ For more information about admin roles and how to assign a role in Microsoft 365
 > [!NOTE]
 > The base URL and the subdomain for the individual client have to be on the same tenant to enable you to add a _direct route_ trunk.
 
-### Activate the subdomain name
+### Activate the subdomain name in the customer tenant
 
 After you have registered a subdomain name, you need to activate it by adding at least one Teams licensed user or resource account. Acceptable accounts will be licensed with any one of the following SKU’s:
 
@@ -216,7 +231,7 @@ For example: test@sbc1.customers.adatum.biz
 
 ![Screenshot of the Activation of the subdomain page.](media/direct-routing-13-sbc-activate-subdomain.png)
 
-### Create a trunk and provision users
+## Create a trunk and provision users
 
 With the initial release of Direct Routing, Microsoft required a trunk to be added to each served tenant (customer tenant) using the New-CSOnlinePSTNGateway cmdlet.
 
@@ -286,5 +301,4 @@ To set up failover for a multi-tenant environment, you'll need to do the followi
 ## See also
 
 [Plan Direct Routing](direct-routing-plan.md)
-
 [Configure Direct Routing](direct-routing-configure.md)
