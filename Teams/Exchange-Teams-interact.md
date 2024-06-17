@@ -142,7 +142,7 @@ Because the menu option is hidden for Skype for Business users, if you want to u
 
 [HKEY_CURRENT_USER\Software\IM Providers] "DefaultIMApp"="**MsTeams**"
 
-|C-existance of IM providers  |Existing IM provider  |Expected behavior |Comment |
+|Co-existance of IM providers  |Existing IM provider  |Expected behavior |Comment |
 |---------|---------|---------|---------|
 |SFB + Teams (T1 or T2.1) |Teams (T1 or T2.1)  |T2.1 automatically register and start as the IM provider.<br>Menu option on Settings not available.  |This is for users who upgrade from T1, or older version, of T2.1 and are already using Teams as the IM provider. |
 |SFB + Teams (T1 or T2.1)  |SFB  |SFB is the IM provider.<br>Menu option on Settings not available. |Because menu isn't available, other means are needed to use Teams as the IM provider. Admin can push out a registry change by using a Windows policy or script. End user can also modify the registry directly.<br>Admin can also migrate users to Teams Only mode.<br>We can also use an allowlist with the tenant, but this is the last resort. |
