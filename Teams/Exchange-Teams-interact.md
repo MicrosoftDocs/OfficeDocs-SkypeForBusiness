@@ -129,7 +129,7 @@ If mailboxes are hosted on-premises, to create and view meetings, the following 
 
 To enable calendar delegation for these users:
 
-- You must also complete steps as described in [Configure Integration and OAuth between Skype for Business Online and Exchange Server](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); these steps will provide the Teams scheduling application the required permissions to confirm delegate permissions.
+- You must also complete steps as described in [Configure Integration and OAuth between Skype for Business Online and Exchange Server](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); these steps provide the Teams scheduling application the required permissions to confirm delegate permissions.
 
   > [!NOTE]
   > Step 2 includes role assignment for ArchiveApplication, which is not required for delegation.
