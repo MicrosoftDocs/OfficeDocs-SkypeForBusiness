@@ -7,7 +7,7 @@ ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.reviewer: dansteve
-ms.date: 08/10/2017
+ms.date: 06/13/2024
 search.appverid: MET150
 description: Learn to assign team owner and member roles and permissions in Microsoft Teams including permissions to create teams.
 f1.keywords:
@@ -15,9 +15,9 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.custom: chat-teams-channels-revamp
 ms.collection: 
-  - M365-collaboration
+- M365-collaboration
 appliesto: 
-  - Microsoft Teams
+- Microsoft Teams
 ---
 # Assign team owners and members in Microsoft Teams admin center
 
