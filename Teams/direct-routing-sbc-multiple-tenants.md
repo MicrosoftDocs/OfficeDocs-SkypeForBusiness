@@ -103,11 +103,11 @@ The following table is an example of one configuration.
 |sbc3.customers.adatum.biz |   Subdomain | In a customer tenant |   \*.customers.adatum.biz  |  adventureworks.com | sbc3.customers.adatum.biz |
 
 
-The example in this article configures a base domain name (customers.adatum.biz) and a subdomain for one customer (sbc1.customers.adatum.biz in Woodgrove Bank tenant).
+The example in this article 
 
-1. [Register a base domain name in the carrier tenant](#register-a-base-domain-name-in-the-carrier-tenant).
-2. [Register a subdomain name in a customer tenant](#register-a-subdomain-name-in-a-customer-tenant).
+1. [Configures a base domain name (customers.adatum.biz) in the carrier tenant](#register-a-base-domain-name-in-the-carrier-tenant).
 
+2. [Configures a subdomain for one customer (sbc1.customers.adatum.biz in the Woodgrove Bank tenant)](#register-a-subdomain-name-in-a-customer-tenant).
 
 > [!NOTE]
 > Use sbcX.customers.adatum.biz to enable voice in the carrier tenant; sbcX can be any unique and valid alphanumeric hostname.
