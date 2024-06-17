@@ -145,7 +145,7 @@ Because the menu option is hidden for Skype for Business users, if you want to u
 |C-existance of IM providers  |Existing IM provider  |Expected behavior |Comment |
 |---------|---------|---------|---------|
 |SFB + Teams (T1 or T2.1) |Teams (T1 or T2.1)  |T2.1 automatically register and start as IM provider.<br>Menu option on Setting not available.  |This is for users who upgrade from T1, or older version, of T2.1 and is already using Teams as IM provider. |
-|SFB + Teams (T1 or T2.1)  |SFB  |SFB is the IM provider.<br>Menu option on Setting not available. |As menu isn't available. Other means are needed to use Teams as the IM provider. Admin can push out registry change using a Windows policy or script. End users can also modify the registry directly.<br>Admin can also migrate users to Teams-Only mode.<br>We can also whitelist the tenant, but this is the last resort. |
+|SFB + Teams (T1 or T2.1)  |SFB  |SFB is the IM provider.<br>Menu option on Setting not available. |As menu isn't available. Other means are needed to use Teams as the IM provider. Admin can push out registry change using a Windows policy or script. End users can also modify the registry directly.<br>Admin can also migrate users to Teams-Only mode.<br>We can also use an allowlist with the tenant, but this is the last resort. |
 |Third Party + Teams (T1 or T2.1) |Third party  |Third party as the IM provider.<br>Menu option is available on Setting.  |Admin can push out registry change using a windows policy or script.<BR>End users can select Teams as the IM provider from settings.  |
 
 
