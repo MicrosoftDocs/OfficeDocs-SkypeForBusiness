@@ -5,7 +5,7 @@ ms.author: crowe
 manager: pamgreen
 audience: ITPro
 ms.reviewer: filippse
-ms.date: 07/31/2023
+ms.date: 06/17/2024
 ms.topic: conceptual
 ms.service: msteams
 ms.localizationpriority: medium
@@ -69,7 +69,7 @@ The infrastructure requirements for the supported SBCs, domains, and other netwo
 |Connection points for Direct Routing |The connection points for Direct Routing are the following three FQDNs:<br/><br/>`sip.pstnhub.microsoft.com` – Global FQDN, must be tried first.<br/>`sip2.pstnhub.microsoft.com` – Secondary FQDN, geographically maps to the second priority region.<br/>`sip3.pstnhub.microsoft.com` – Tertiary FQDN, geographically maps to the third priority region.<br/><br/>For information on configuration requirements, see [SIP Signaling: FQDNs](#sip-signaling-fqdns).|
 |Firewall IP addresses and ports for Direct Routing media |The SBC communicates to the following services in the cloud:<br/><br/>SIP Proxy, which handles the signaling<br/>Media Processor, which handles media -except when Media Bypass is on<br/><br/>These two services have separate IP addresses in Microsoft Cloud, described later in this document.<br/><br/>For more information, see the [Microsoft Teams section](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) in [URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges). |
 |Media Transport Profile|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
-Firewall IP addresses and ports for Microsoft Teams media |For more information, see [URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges). 
+
 
 
 ## Licensing and other requirements 
