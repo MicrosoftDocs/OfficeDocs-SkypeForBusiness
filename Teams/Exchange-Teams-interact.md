@@ -72,7 +72,7 @@ The following table provides a helpful quick reference to feature availability b
 
 <sup>3</sup> Retention uses a shadow mailbox for the online user to store messages.
 
-<sup>4</sup> Teams users with on-premises Exchange mailbox may use voicemail with Teams and receive voicemail messages in Outlook, but voicemail messages will not be available to view or play within the Teams client.
+<sup>4</sup> Teams users with on-premises Exchange mailbox can use voicemail with Teams and receive voicemail messages in Outlook, but voicemail messages won't be available to view or play within the Teams client.
 
 <sup>5</sup> If one of the owners of a team can add connectors, everyone else in that team will be able to do so, irrespective of whether their mailbox is homed on-premises or online.
 
@@ -154,7 +154,7 @@ Here are some extra things to think about as you implement Microsoft Teams in yo
 
 - In Microsoft Teams, security and compliance features like eDiscovery, Content Search, archiving, and legal hold work best in Exchange Online and SharePoint Online environments. For channel conversations, messages are journaled to the group mailbox in Exchange Online, where they're available for eDiscovery. If SharePoint Online and OneDrive for Business (using work or school account) are enabled across the organization and for users, these compliance features are available for all files within Teams as well.
 
-- Control and protect the configuration of compliance policies in Teams and Exchange using Conditional Access. For more information see [How do Conditional Access policies work for Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)
+- Control and protect the configuration of compliance policies in Teams and Exchange using Conditional Access. For more information, see [How do Conditional Access policies work for Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)
 
 - If your organization has compliance requirements to ensure all meeting discussions are discoverable, you should disable private meetings if the organizer has an Exchange on-premises mailbox. For more information, see [Private meeting scheduling](./manage-who-can-schedule-meetings.md).
 
