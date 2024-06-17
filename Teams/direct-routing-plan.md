@@ -47,7 +47,7 @@ Microsoft also offers all-in-the-cloud voice solutions, such as Microsoft Callin
 
 For more information about voice solutions, see [Plan your Teams voice solution](cloud-voice-landing-page.md).
 
-With Direct Routing, when users participate in a scheduled meeting, the dial-in number is provided by the Microsoft Audio Conferencing service, which requires proper licensing. When dialing out, Audio Conferencing places the call using online calling capabilities, which requires proper licensing. If a user doesn't have a Microsoft Audio Conferencing license, the call routes through Direct Routing. For more information, see [Audio Conferencing requirements and considerations](#audio-conferencing-requirements-and-considerations).
+With Direct Routing, when users participate in a scheduled meeting, the dial-in number is provided by the Microsoft Audio Conferencing service, which requires proper licensing. When dialing out, Audio Conferencing places the call using online calling capabilities, which requires proper licensing. If a user doesn't have a Microsoft Audio Conferencing license, the call routes through Direct Routing. For more information, see [Direct Routing with Audio Conferencing](#direct-routing-with-audio-conferencing).
 
 Direct Routing also supports users who have another license for Microsoft Calling Plan. For more information, see [Direct Routing with Calling Plan and Operator Connect](#direct-routing-with-calling-plans-and-operator-connect). 
 
@@ -82,7 +82,7 @@ Direct Routing users must have the following licenses assigned in Microsoft 365:
 
 Direct Routing also supports users who are licensed for Microsoft Calling Plan. For more information, see [Direct Routing with Calling Plan and Operator Connect](#direct-routing-with-calling-plans-and-operator-connect).
 
-For more information about licensing, see [Microsoft Teams licensing](./teams-add-on-licensing/user-access.md) and [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+For more information about licensing, see [Microsoft Teams licensing](user-access.md) and [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 Note: Direct Routing isn't supported in Islands mode.
 
