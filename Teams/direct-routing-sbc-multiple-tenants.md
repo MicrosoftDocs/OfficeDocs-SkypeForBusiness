@@ -298,7 +298,7 @@ To set up failover for a multi-tenant environment, you'll need to do the followi
 - In the Online Voice Routes, specify both SBCs. If one SBC fails, the routing policy will route calls to the second SBC.
 
 
-## See also
+## Related articles
 
 [Plan Direct Routing](direct-routing-plan.md)<br>
 [Configure Direct Routing](direct-routing-configure.md)
