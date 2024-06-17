@@ -2,10 +2,10 @@
 title: Use guest access and external access to collaborate with people outside your organization
 ms.author: jtremper
 author: jacktremper
-manager: pamgreen
-ms.reviewer: vinbel, luises
-ms.date: 03/31/2023
-ms.topic: article
+manager: jtremper
+ms.reviewer: majaisin
+ms.date: 06/12/2024
+ms.topic: concept-article
 ms.service: msteams
 audience: admin
 ms.custom: chat-teams-channels-revamp

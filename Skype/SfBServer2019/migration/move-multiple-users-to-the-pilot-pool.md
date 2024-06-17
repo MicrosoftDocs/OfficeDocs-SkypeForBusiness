@@ -32,9 +32,9 @@ You can move multiple users from your legacy pool to your Skype for Business Ser
 
 1. Open Skype for Business Server Control Panel.
     
-2. Click **Users**, click **Search**, and then click **Find**.
+2. Select **Users**, select **Search**, and then select **Find**.
     
-3. Select two users that you want to move to the Skype for Business Server 2019 pool. In this example, we will move users Chen Yang and Claus Hansen.
+3. Select two users that you want to move to the Skype for Business Server 2019 pool. In this example, we move users Chen Yang and Claus Hansen.
     
      ![Move users to specific register pool.](../media/Migration_LyncServer_CPanel_fromLyncServer2010_MoveMultipleUsersList.JPG)
   
@@ -42,18 +42,18 @@ You can move multiple users from your legacy pool to your Skype for Business Ser
     
 5. From the drop-down list, select the Skype for Business Server 2019 pool.
     
-6. Click **Action**, and then click **Move selected users to pool**. Click **OK**.
+6. Select **Action**, and then select **Move selected users to pool**. Select **OK**.
     
      ![Move Users, destination registrar pool dialog box.](../media/Migration_LyncServer_from_LyncServer2010_CPanelMoveUserSelectPoolDialog.png)
   
-7. Verify that the **Registrar pool** column for the users now contains the Skype for Business Server 2019 pool, which indicates that the users have been successfully moved. 
+7. Verify that the **Registrar pool** column for the users now contains the Skype for Business Server 2019 pool, which indicates that the users are successfully moved. 
     
 ## To move multiple users by using the Skype for Business Server 2019 Management Shell
 <a name="sectionSection1"> </a>
 
 1. Open the Skype for Business Server 2019 Management Shell. 
     
-2. At the command line, type the following and replace **User1** and **User2** with specific user names you want to move, and replace **pool_FQDN** with the name of the destination pool. In this example we will move users Hao Chen and Katie Jordan. 
+2. At the command line, type the following and replace **User1** and **User2** with specific user names you want to move, and replace **pool_FQDN** with the name of the destination pool. In this example we move users Hao Chen and Katie Jordan. 
     
    ```PowerShell
    Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
@@ -67,14 +67,14 @@ You can move multiple users from your legacy pool to your Skype for Business Ser
    Get-CsUser -Identity "User1"
    ```
 
-4. The **Registrar Pool** identity should now point to the pool you specified as **pool_FQDN** in the previous step. The presence of this identity confirms that the user has been successfully moved. Repeat step to verify that **User2** has been moved. 
+4. The **Registrar Pool** identity should now point to the pool you specified as **pool_FQDN** in the previous step. The presence of this identity confirms that the user is successfully moved. Repeat step to verify that **User2** is moved. 
     
      ![Output of PowerShell Get-UsUser -Identity  cmdlet.](../media/Migration_LyncServer_from_LyncServer2010_showuser.jpg)
   
 ## To move all users at the same time by using the Skype for Business Server 2019 Management Shell
 <a name="sectionSection2"> </a>
 
-In this example, all users have been returned to the legacy pool (pool01.contoso.net). Using the Skype for Business Server 2019 Management Shell, we will move all users at the same time to the Skype for Business Server 2019 pool (pool02.contoso.net).
+In this example, all users are returned to the legacy pool (pool01.contoso.net). Using the Skype for Business Server 2019 Management Shell, we move all users at the same time to the Skype for Business Server 2019 pool (pool02.contoso.net).
   
 1. Open the Skype for Business Server 2019 Management Shell.
     

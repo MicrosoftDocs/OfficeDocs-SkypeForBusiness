@@ -49,7 +49,7 @@ To determine which version of Microsoft PowerShell you're using, do the followin
 
     If the returned Version number is 5.1, then you're running Windows PowerShell 5.1. If the returned Version number isn't 5.1, then you'll need to install Windows PowerShell 5.1. You can download Windows Management Framework 5.1, which includes Windows PowerShell 5.1, from the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=54616).
   
-After you've verified that Windows PowerShell 5.1 is installed, you must make sure that PowerShell has been configured for running remote scripts. To do that, start PowerShell as an administrator. On Windows 7, Windows Server 2008 R2, Windows Server 2012, or Windows Server 2012 R2 do the following:
+After you verify that Windows PowerShell 5.1 is installed, you must make sure that PowerShell has been configured for running remote scripts. To do that, start PowerShell as an administrator. On Windows 7, Windows Server 2008 R2, Windows Server 2012, or Windows Server 2012 R2 do the following:
   
 1. Click **Start**, select **All Programs**, select **Accessories**, select **Windows PowerShell**, right-click **Windows PowerShell**, and then select **Run as administrator**.
     

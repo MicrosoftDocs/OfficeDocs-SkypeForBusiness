@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 ms.date: 04/04/2024
 manager: pamgreen
-ms.reviewer: tonysmit
+ms.reviewer: kimmatlock
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -31,11 +31,11 @@ In the Description field, describe as best as possible the issue. You can add on
 
 Check **High Impact** to elevate importance to your support if the incident is causing significant health degradation for a critical room.
 
-When a room is (or rooms are) selected as part of the Record an issue, each room will be marked as **Unhealthy** until the recorded issue is closed.
+When a room is (or rooms are) selected as part of the Record an issue, each room is marked as **Unhealthy** until the recorded issue is closed.
 
 ## Closing Record an issue tickets
 
-Recorded issues can be closed by either the customer or partners managing rooms on behalf of customers.
+Recorded issues are closed either by the customer or partners managing rooms on behalf of customers.
 
 **To close a recorded issue ticket**
 
@@ -45,13 +45,13 @@ Recorded issues can be closed by either the customer or partners managing rooms 
 
    Once you've confirmed the reason for closure, the ticket is closed and moved to **Resolved**.
 
-The ticket's Details Overview section displays that the ticket was closed by the name of the customer/partner.  
+The ticket's Details Overview section displays that the ticket is closed by the name of the customer/partner.  
 
 ## FAQ
 
 **Can anyone close tickets?**
 
-Only Customer-reported incidents can be closed by a user. Customers who have assigned a Partner to manage their rooms with Ticket Management permissions will have the ability to close recorded issue tickets.
+Only Customer-reported incidents are closed by a user. Customers who have assigned a Partner to manage their rooms with Ticket Management permissions will have the ability to close recorded issue tickets.
 
 **Can I restrict who can close tickets?**
 
