@@ -31,7 +31,10 @@ description: Learn about how Audio Conferencing in Microsoft 365 allows users to
 
 # Audio Conferencing in Microsoft Teams
 
-Audio Conferencing in Microsoft Teams enables users to call in to Teams meetings from their phones. Audio Conferencing allows up to 1,000 phone attendees.
+Audio Conferencing enables users to join a Teams meeting from a phone using a Public Switched Telephone Network (PSTN) phone number. Audio Conferencing is sometimes called dial-in conferencing or PSTN conferencing. Audio Conferencing allows up to 1,000 phone attendees.
+
+Audio Conferencing requires an additional Teams add-on license for each person in your organization who is going to schedule/host an Audio Conferencing meeting. (Audio Conferencing does not require a Teams Phone license.) For more information, see [Plan for Audio Conferencing](deploy-audio-conferencing-teams-landing-page.md#audio-conferencing-prerequisites).
+
 
 ## What is Audio Conferencing?
 
@@ -59,7 +62,7 @@ With Audio Conferencing, your users can use toll and toll-free phone numbers to 
 
 Toll-free phone numbers (service numbers) are available, but only in some countries/regions. To see what is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-After you decide that you want Audio Conferencing for your organization, you need to buy one **Audio Conferencing** license for each person in your organization who is going to schedule/host an audio meeting.
+
 
 ## How do conferencing bridges work?
 
@@ -103,7 +106,7 @@ Dedicated audio conferencing phone numbers are service numbers that you can get 
 
 ## How do you set it up?
 
-After you decide to set up Audio Conferencing for your users, see [Set up Audio Conferencing for Microsoft Teams](set-up-audio-conferencing-in-teams.md) for the steps you need to follow.
+After you decide to set up Audio Conferencing for your users, see [Plan for Audio Conferending](deploy-audio-conferencing-teams-landing-page.md) and [Set up Audio Conferencing for Microsoft Teams](set-up-audio-conferencing-in-teams.md).
 
 ## Related topics
 

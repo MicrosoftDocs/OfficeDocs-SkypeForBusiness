@@ -7,22 +7,22 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection: 
-  - Teams_ITAdmin_GuestAccess
-  - M365-collaboration
-  - m365initiative-externalcollab
+- Teams_ITAdmin_GuestAccess
+- M365-collaboration
+- m365initiative-externalcollab
 ms.reviewer: rafarhi
-ms.date: 06/23/2023
+ms.date: 06/11/2024
 search.appverid: MET150
 ms.custom: 
-  - NewAdminCenter_Update
-  - seo-marvel-apr2020
-  - ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
-  - chat-teams-channels-revamp
+- NewAdminCenter_Update
+- seo-marvel-apr2020
+- ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
+- chat-teams-channels-revamp
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
 appliesto: 
-  - Microsoft Teams
+- Microsoft Teams
 description: Learn about how to turn on or turn off the guest access feature in Microsoft Teams as an Office 365 admin.
 ---
 
