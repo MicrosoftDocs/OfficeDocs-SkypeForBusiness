@@ -173,6 +173,12 @@ To uninstall and deprovision the new Teams for all users, use the following comm
 ./teamsbootstrapper -x
 ```
 
+## Remove classic Teams for all users
+Once the new Teams version has been installed, use the following command to uninstall the classic Teams machine-wide installer and classic Teams app for all users on the device:
+```powershell
+./teamsbootstrapper -u
+```
+
 ## End user experience:  Launching the new Teams
 
 After new Teams is deployed to your target computers, users will sign in as usual. For first use, the user can launch new Teams in one of two ways:
