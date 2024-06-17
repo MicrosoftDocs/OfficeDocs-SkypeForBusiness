@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.reviewer: aaglick
-ms.date: 07/07/2020
+ms.date: 06/13/2024
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -15,9 +15,9 @@ f1.keywords:
 - NOCSH
 ms.custom: chat-teams-channels-revamp
 ms.collection: 
-  - M365-collaboration
+- M365-collaboration
 appliesto: 
-  - Microsoft Teams
+- Microsoft Teams
 ---
 
 # Create a custom team template in Microsoft Teams
