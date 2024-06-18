@@ -1,5 +1,5 @@
 ---
-title: Country and region zones for Audio Conferencing
+title: Audio Conferencing Zone A (standard) countries
 ms.author: jenz
 author: jenzamora
 manager: pamgreen
@@ -22,63 +22,61 @@ f1.keywords:
 - CSH
 ms.custom: 
   - seo-marvel-mar2020
-description: Lists the zones for Audio Conferencing and the country and regions in each zone. 
+description: Lists the country and regions for Audio Conferencing Zone A.
 ---
 
-# Country and region zones for Audio Conferencing
+# Audio Conferencing Zone A countries and regions
 
-This article lists the country and region zones for Audio Conferencing.
+The following countries and regions are included in the Standard Audio Conferencing license. These countries and regions are described as in Zone A. For information about Audio Conferencing availability in all countries and regions, see [Country and region availability for Audio Conferencing](calling-plan-overview.md).
 
-## Zone A countries and regions
+**Zone A countries and regions**
 
-|Country or region    |
-|-----|
-|Australia  <br/> |
-|Austria  <br/> |
-|Belgium  <br/> |
-|Brazil  <br/> |
-|Bulgaria  <br/> |
-|Canada  <br/> |
-|China  <br/> |
-|Croatia  <br/> |
-|Czech Republic  <br/> |
-|Denmark  <br/> |
-|Estonia  <br/> |
-|Finland  <br/> |
-|France  <br/> |
-|Germany  <br/> |
-|Greece  <br/> |
-|Hong Kong SAR <br/> |
-|Hungary  <br/> |
-|India  <br/> |
-|Ireland  <br/> |
-|Italy  <br/> |
-|Japan  <br/> |
-|Luxembourg  <br/> |
-|Malaysia  <br/> |
-|Mexico  <br/> |
-|Netherlands  <br/> |
-|New Zealand  <br/> |
-|Norway  <br/> |
-|Poland  <br/> |
-|Portugal  <br/> |
-|Puerto Rico  <br/> |
-|Romania  <br/> |
-|Russia  <br/> |
-|Singapore  <br/> |
-|Slovak Republic  <br/> |
-|Slovenia  <br/> |
-|South Africa  <br/> |
-|South Korea  <br/> |
-|Spain  <br/> |
-|Sweden  <br/> |
-|Switzerland  <br/> |
-|Taiwan  <br/> |
-|Thailand  <br/> |
-|United Kingdom  <br/> |
-|United States  <br/> |
+- Australia
+- Austria
+- Belgium
+- Brazil
+- Bulgaria
+- Canada
+- China
+- Croatia
+- Czech Republic
+- Denmark
+- Estonia  
+- Finland  
+- France  
+- Germany  
+- Greece  
+- Hong Kong SAR
+- Hungary  
+- India  
+- Ireland  
+- Italy  
+- Japan  
+- Luxembourg  
+- Malaysia  
+- Mexico  
+- Netherlands  
+- New Zealand  
+- Norway  
+- Poland  
+- Portugal  
+- Puerto Rico  
+- Romania  
+- Russia  
+- Singapore  
+- Slovak Republic  
+- Slovenia  
+- South Africa  
+- South Korea  
+- Spain  
+- Sweden  
+- Switzerland  
+- Taiwan  
+- Thailand  
+- United Kingdom  
+- United States  
 
-## Related topics
+## Related articles
 
 - [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [Audio Conferencing complimentary dial-out period](complimentary-dial-out-period.md)
