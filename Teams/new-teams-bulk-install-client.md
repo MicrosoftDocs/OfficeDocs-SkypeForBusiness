@@ -63,7 +63,6 @@ For new Teams to be successfully installed, computers must meet the minimum requ
 |Webview2|Update to the most current version. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise)|
 |Delivery optimization (DO)|DO powers Teams automatic updates, which are required as part of the [Servicing Agreement](/microsoftteams/new-teams-automatic-upgrade-announced#servicing-agreement).</br></br>Overview: [What is Delivery Optimization?](/windows/deployment/do/waas-delivery-optimization)</br></br>Recommended settings: [Set up Delivery Optimization](/windows/deployment/do/waas-delivery-optimization-setup#recommended-delivery-optimization-settings)<br></br>**Note:** Download Mode 100 (Bypass) isn't supported.|
 
-
 >[!Note]
 >Learn more: [**Update History for Microsoft 365 Apps**](/officeupdates/update-history-microsoft365-apps-by-date#supported-versions).
 
@@ -73,7 +72,6 @@ All steps must be completed to successfully upgrade to the new Teams.
 
 >[!Important]
 >You must run the latest version of the bootstrapper.exe to avoid any issues that may have been already fixed. If you have downloaded the file previously, confirm you have the latest version by checking **Properties > Details > Product version** on your version and compare it to the latest download. 
-
 
 ### Option 1A: Download and install new Teams for a single computer
 
