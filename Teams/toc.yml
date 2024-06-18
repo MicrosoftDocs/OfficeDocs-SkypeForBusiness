@@ -635,7 +635,7 @@ items:
         - name: Manage team template policies
           href: templates-policies.md
 
-- name: Meetings and audio conferencing
+- name: Meetings and Audio Conferencing
   items: 
     
     - name: Meetings, webinars, and town halls
@@ -845,7 +845,7 @@ items:
           href: teams-encoder-configuration.md
         - name: Troubleshooting
           href: teams-stream-troubleshooting.md
-    - name: Audio conferencing
+    - name: Audio Conferencing
       items: 
         - name: Audio Conferencing in Microsoft 365
           href: audio-conferencing-in-office-365.md
@@ -865,7 +865,7 @@ items:
               href: set-up-audio-conferencing-in-teams.md
         - name: Manage
           items:
-            - name: Manage your audio conferencing service
+            - name: Manage your Audio Conferencing service
               items:
                 - name: Extended dial-out minutes for US and Canada
                   href: dial-out-minutes-canada-us.md
@@ -873,7 +873,7 @@ items:
                   href: audio-conferencing-subscription-dial-out.md
                 - name: Audio Conferencing pay-per-minute
                   href: audio-conferencing-pay-per-minute.md
-            - name: Manage your audio conferencing bridge
+            - name: Manage your Audio Conferencing bridge
               items: 
                 - name: Change the phone numbers on your Audio Conferencing bridge
                   href: change-the-phone-numbers-on-your-audio-conferencing-bridge.md
@@ -909,7 +909,7 @@ items:
                   href: outbound-calling-restriction-policies.md
                 - name: Send an email to a user with their Audio Conferencing information
                   href: send-an-email-to-a-user-with-their-dial-in-information-in-teams.md
-            - name: Manage meetings settings for audio conferencing
+            - name: Manage meetings settings for Audio Conferencing
               items:
                 - name: Explicit recording consent for audio conferencing 
                   href: conferencing-recording-consent.md
@@ -933,13 +933,13 @@ items:
               href: operator-connect-conferencing-configure.md
         - name: Reference
           items: 
-            - name: Audio Conferencing supported languages
+            - name: Supported languages for Audio Conferencing
               href: audio-conferencing-supported-languages.md
             - name: Phone numbers for Audio Conferencing
               href: phone-numbers-for-audio-conferencing-in-teams.md
-            - name: Country and region zones for Audio Conferencing
+            - name: Countries and regions in Zone A (standard licensing)
               href: audio-conferencing-zones.md
-            - name: Country and region availability for Audio Conferencing
+            - name: Country and region availability reference 
               href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
             - name: Audio Conferencing Complimentary Dial Out
               href: complimentary-dial-out-period.md
@@ -1748,7 +1748,7 @@ items:
 
     - name: Licensing
       items: 
-        - name: Manage user access to Teams
+        - name: Manage Teams licenses
           href: user-access.md
         - name: Microsoft Teams Premium licensing
           href: teams-add-on-licensing/licensing-enhance-teams.md
@@ -1889,8 +1889,6 @@ items:
           href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md
         - name: Contact the TNS Service Desk
           href: manage-phone-numbers-for-your-organization/contact-tns-service-desk.md
-
-
     - name: Toll-free dialing limitations and restrictions
       items: 
         - name: Overview
@@ -2025,8 +2023,6 @@ items:
           href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md
         - name: Vietnam
           href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md
-
-
     - name: Country and region availability for Audio Conferencing and Calling Plans
       items: 
         - name: Overview
