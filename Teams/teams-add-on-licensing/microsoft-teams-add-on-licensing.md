@@ -50,7 +50,7 @@ The following table provides an overview of the add-on licenses that you can add
 |-------|-----------|
 | **Microsoft Teams Premium** | Microsoft Teams Premium is an add-on license to Teams that allows organizations with Microsoft 365 subscriptions and Teams licenses to enhance their Teams experience with added benefits, such as personalized and intelligent meetings, enhanced meeting protection, and advanced management and reporting capabilities. <br/> <br/>For more information about the Teams Premium add-on license, see [Microsoft Teams Premium licensing](licensing-enhance-teams.md). |
 | **Audio Conferencing** | Audio Conferencing is an add-on license to Teams that enables people in your organization to use a phone instead of their computer to call in to a Teams meeting. <br/><br/>Note that Audio Conferencing doesn't require a Teams Phone license. <br/><br/>[Audio Conferencing licenses](#audio-conferencing-licenses) are described in more detail later in this article. |
-| **Teams Phone Standard** | [Teams Phone Standard](../what-is-phone-system-in-office-365.md) is an add-on license to Teams that provides a hosted telephone service. This service provides Private Branch Exchange (PBX) capabilities, such as cloud voicemail, call forwarding, call transfer, auto attendants, call queues, and caller ID. <br/><br/>If your users need to call phone numbers outside your organization, you can choose from several options for connecting to the Publich Switched Telephone Network (PSTN), including choosing Microsoft as your PSTN carrier. [Teams Phone and PSTN connectivity options](#teams-phone-with-pstn-connectivity-licenses) are described in more detail later in this article. |
+| **Teams Phone Standard** | [Teams Phone Standard](../what-is-phone-system-in-office-365.md) is an add-on license to Teams that provides a hosted telephone service. This service provides Private Branch Exchange (PBX) capabilities, such as cloud voicemail, call forwarding, call transfer, auto attendants, call queues, and caller ID. <br/><br/>If your users need to call phone numbers outside your organization, you can choose from several options for connecting to the Public Switched Telephone Network (PSTN), including choosing Microsoft as your PSTN carrier. [Teams Phone and PSTN connectivity options](#teams-phone-with-pstn-connectivity-licenses) are described in more detail later in this article. |
 | **Microsoft Teams Calling Plans** | Microsoft Teams Calling Plans is an add-on license to Teams Phone for making calls to the PSTN. With this option, Microsoft is your PSTN carrier. If you already have Teams Phone and if Calling Plans are available in your [country/region](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md), you can purchase one of the [Calling Plan options](#teams-phone-with-microsoft-calling-plans), which are described in more detail later in this article. |
 | **Teams Phone with Calling Plan bundle** | Teams Phone with Calling Plan bundle is an add-on license to Teams that provides both Teams Phone and a Microsoft Calling Plan for connectivity to the Public Switched Telephone Network (PSTN). With this option, Microsoft is your PSTN provider. <br/><br/>[Calling Plan options](#teams-phone-with-microsoft-calling-plans) are described in more detail later in this article.|
 | **Communication Credits** | Communication Credits is an add-on license that provides a monthly pool of minutes that can be used for PSTN phone calls. For example, you might want to purchase Communication Credits if all your Calling Plan minutes get used before the beginning of the next month, or if you want toll-free numbers for Audio Conferencing, Auto attendants, or Call queues. For more information, see [set up Communications Credits](../set-up-communications-credits-for-your-organization.md). |
@@ -61,7 +61,7 @@ The following table provides an overview of the add-on licenses that you can add
 
 ## Audio Conferencing licenses
 
-An Audio Conferencing license enables people in your organization to use a phone instead of their computer to call in to a Teams meeting--also called PSTN conferencing for meetings. An Audio Conferencing license is not the same as a Teams Phone license. For information on Teams Phone licenses, see [Teams Phone with PSTN connectivity licenses](#teams-phone-with-pstn-connectivity-licenses).
+An Audio Conferencing license enables people in your organization to use a phone instead of their computer to call in to a Teams meeting--also called PSTN conferencing for meetings. An Audio Conferencing license isn't the same as a Teams Phone license. For information on Teams Phone licenses, see [Teams Phone with PSTN connectivity licenses](#teams-phone-with-pstn-connectivity-licenses).
 
 To find out whether Audio Conferencing is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). For pricing info, see [Pricing for Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=799762).
 
@@ -69,7 +69,7 @@ For users who schedule or lead meetings with attendees who need to call in using
 
 You can also choose to use a third-party operator for your Audio Conferencing numbers if your current operator is part of the Microsoft Operator Connect program. For more information, see [Plan for Operator Connect Conferencing](../operator-connect-conferencing-plan.md).
 
-After purchasing an Microsoft 365 or Office 365 subscription, if you select either a Microsoft 365 or Office 365 E1 or E3 subscription, you will still need to buy a separate Audio Conferencing license. An Audio Conferencing license is already included in the E5 subscription.
+After purchasing a Microsoft 365 or Office 365 subscription, if you select either a Microsoft 365 or Office 365 E1 or E3 subscription, you'll still need to buy a separate Audio Conferencing license. An Audio Conferencing license is already included in the E5 subscription.
 
 The following table displays which Microsoft 365 or Office 365 subscription to purchase based on your subscription audience.
 
@@ -96,17 +96,16 @@ After the 60 minutes of outbound minutes to Zone A countries have been used, you
 
 You can purchase additional licenses and assign them to your users so that they can dial out to non-Zone A countries using the following options:
 
-- *Communication Credits* - Pre-paid budget to support outgoing minutes. For more information on Communication Credits, see:
+- *Communication Credits* - Prepaid budget to support outgoing minutes. For more information on Communication Credits, see:
   - [What are Communication Credits](../what-are-communications-credits.md).
   - [Set up Communication Credits for your organization](../set-up-communications-credits-for-your-organization.md).
   - [Add funds and manage Communications Credits](../add-funds-and-manage-communications-credits.md).
 - *Pay-As-You-Go* - Dial out and pay per user per minute for all outgoing calls.
-- *Pay per minute* - Pay for all of your Audio Conferencing usage on a per-minute basis without paying for a per-user monthly license. This option is only available to Volume and Licensing customers. For more information see,
-[Audio Conferencing pay-per-minute](../audio-conferencing-pay-per-minute.md).
+- *Pay per minute* - Pay for all of your Audio Conferencing usage on a per-minute basis without paying for a per-user monthly license. This option is only available to Volume and Licensing customers. For more information, see [Audio Conferencing pay-per-minute](../audio-conferencing-pay-per-minute.md).
 
 ## Teams Phone with PSTN connectivity licenses
 
-Most Microsoft 365 plans allow Teams users to make peer-to-peer calls within your organization using VoIP technology. However, you may want to add licenses for setting up Teams Phone PBX capabilities and connecting to the PSTN for external calling.
+Most Microsoft 365 plans allow Teams users to make peer-to-peer calls within your organization using VoIP technology. However, you might want to add licenses for setting up Teams Phone PBX capabilities and connecting to the PSTN for external calling.
 
 Teams Phone requires a separate add-on license. For Teams Phone only, buy a Teams Phone Standard license. For users to make and receive external calls using the PSTN, you'll need to choose a PSTN connectivity option as well.
 
@@ -116,7 +115,7 @@ For PSTN connectivity, there are multiple options, including:
 
 - [Choosing a separate PSTN carrier](#teams-phone-with-a-separate-pstn-connectivity-option).
 
-This section describes Teams Phone license options. Some PSTN connectivity options require an additional license; some do not. For detailed information about Teams Phone PBX features, see [Teams Phone features](../here-s-what-you-get-with-phone-system.md). For information about which voice solution is best for your organization, see [Plan your voice solution](../cloud-voice-landing-page.md) and [PSTN connectivity options](../pstn-connectivity.md).
+This section describes Teams Phone license options. Some PSTN connectivity options require an additional license; some don't. For detailed information about Teams Phone PBX features, see [Teams Phone features](../here-s-what-you-get-with-phone-system.md). For information about which voice solution is best for your organization, see [Plan your voice solution](../cloud-voice-landing-page.md) and [PSTN connectivity options](../pstn-connectivity.md).
 
 ### Teams Phone with Microsoft Calling Plans
 

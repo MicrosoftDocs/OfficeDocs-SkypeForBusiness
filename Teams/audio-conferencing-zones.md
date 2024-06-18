@@ -27,26 +27,26 @@ description: Lists the country and regions for Audio Conferencing Zone A.
 
 # Audio Conferencing Zone A countries and regions
 
-The following countries and regions are included in the Standard Audio Conferencing license. These countries and regions are described as in Zone A.  **IS THIS AN ACCURATE DESCRIPTION?  UPDATE IF NECESSARY**  For information about Audio Conferencing availability in all countries and regions, see [Country and region availability for Audio Conferencing](calling-plan-overview.md).
+The following countries and regions are included in the Standard Audio Conferencing license. These countries and regions are described as in Zone A. For information about Audio Conferencing availability in all countries and regions, see [Country and region availability for Audio Conferencing](calling-plan-overview.md).
 
 **Zone A countries and regions**
 
 - Australia
 - Austria
 - Belgium
-- Brazil 
-- Bulgaria 
-- Canada 
-- China 
-- Croatia 
-- Czech Republic 
-- Denmark 
+- Brazil
+- Bulgaria
+- Canada
+- China
+- Croatia
+- Czech Republic
+- Denmark
 - Estonia  
 - Finland  
 - France  
 - Germany  
 - Greece  
-- Hong Kong SAR 
+- Hong Kong SAR
 - Hungary  
 - India  
 - Ireland  
@@ -76,7 +76,7 @@ The following countries and regions are included in the Standard Audio Conferenc
 - United Kingdom  
 - United States  
 
-## Related topics
+## Related articles
 
 - [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [Audio Conferencing complimentary dial-out period](complimentary-dial-out-period.md)
