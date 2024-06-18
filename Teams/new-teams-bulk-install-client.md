@@ -71,7 +71,7 @@ For new Teams to be successfully installed, computers must meet the minimum requ
 All steps must be completed to successfully upgrade to the new Teams.
 
 >[!Important]
->You must run the latest version of the bootstrapper.exe to avoid any issues that may have been already fixed. If you have downloaded the file previously, confirm you have the latest version by checking **Properties > Details > Product version** on your version and compare it to the latest download. 
+>You must run the latest version of the bootstrapper.exe to avoid any issues that may have been already fixed. If you have downloaded the file previously, confirm you have the latest version by checking **Properties > Details > Product version** on your version and compare it to the latest download.
 
 ### Option 1A: Download and install new Teams for a single computer
 
@@ -175,7 +175,7 @@ To uninstall and deprovision the new Teams for all users, use the following comm
 
 ## Remove classic Teams for all users
 >[!Important]
-> Important: required min version for this command option is 1.0.2414501.
+> Important: this command option requires a minimum bootstrapper version of 1.0.2414501 or higher.
 
 Once the new Teams version has been installed, use the following command to uninstall the classic Teams machine-wide installer and classic Teams app for all users on the device:
 ```powershell
