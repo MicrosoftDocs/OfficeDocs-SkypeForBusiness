@@ -1889,8 +1889,6 @@ items:
           href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md
         - name: Contact the TNS Service Desk
           href: manage-phone-numbers-for-your-organization/contact-tns-service-desk.md
-
-
     - name: Toll-free dialing limitations and restrictions
       items: 
         - name: Overview
@@ -2025,8 +2023,6 @@ items:
           href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md
         - name: Vietnam
           href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md
-
-
     - name: Country and region availability for Audio Conferencing and Calling Plans
       items: 
         - name: Overview
