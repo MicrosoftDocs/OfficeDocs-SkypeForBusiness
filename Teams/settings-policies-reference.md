@@ -516,7 +516,7 @@ Meeting policies are used to control what features are available in meetings org
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Meeting recording|On|When **On**, users can record their Teams meetings and group calls to capture audio, video, and screen sharing activity. The meeting organizer and recording initiator need to have recording permissions to record the meeting.|
-|Require participant agreement for recording|Off|When **On**, participants are required to provide explicit consent to be recorded in meetings.|
+|Require participant agreement for recording and transcription|Off|When **On**, participants are required to provide consent to be recorded and transcribed in meetings. Participants’ audio, video, and content sharing are turned off until they agree to be included in the recording and transcript. |
 |Recordings automatically expire|On|When **On**, meeting recordings automatically expire in the number of days shown in the Default expiration time setting.|
 |Default expiration time|120|The default expiration time for new meeting recordings. From 1 to 99,999 days. **Recordings automatically expire** must also be turned **On**.|
 |Store recordings outside your country/region|Off|If you want to store meeting recordings outside of your country/region, turn on both this setting and **Meeting recording**. This setting isn't applicable to recordings stored in OneDrive or SharePoint.|
