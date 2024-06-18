@@ -103,8 +103,8 @@ The following table shows the behaviors of the settings for explicit consent:
 
 |Teams admin center value|PowerShell value| Behavior|
 |---------|---------------|---------------|
-|On|Enabled| For organizers with this policy, all their meetings require participants to provide explicit consent to be recorded.|
-|Off|Disabled| **This setting is the default value.** For organizers with this policy, participants aren't asked for explicit consent to be recorded. All participants are included in recordings from these organizers' meetings.|
+|On|Enabled| For organizers with this policy, all their meetings require participants to provide consent to be recorded and transcribed.|
+|Off|Disabled| **This setting is the default value.** For organizers with this policy, participants aren't asked for consent to be recorded and transcribed. All participants are included in recordings and transcripts from these organizers' meetings.|
 
 #### Manage explicit consent in the Teams admin center
 
@@ -115,7 +115,7 @@ Follow these steps in the Teams admin center to turn explicit consent on or off 
 3. Under **Meetings**, select **Meeting Policies**.
 4. Either select an existing policy or create a new one.
 5. Within your chosen policy, navigate to the **Recording & Transcription** section.
-6. Toggle the **Require participant agreement for recording** setting **On** or **Off**.
+6. Toggle the **Require participant agreement for recording and transcription** setting **On** or **Off**.
 7. Select Save.
 
 #### Manage explicit consent through PowerShell
@@ -154,6 +154,7 @@ Explicit consent is supported on the following endpoints:
 - Teams Web
 - Mobile Teams (Android and iOS)
 - Meeting participants dialing in using [Audio Conferencing](conferencing-recording-consent.md)
+- VDI
 
 #### Unsupported endpoints and platforms
 
@@ -161,7 +162,6 @@ In meetings requiring explicit consent, users joining from unsupported endpoints
 
 - Teams Phone devices (including audio conferencing phone devices)
 - Teams Displays
-- VDI
 - CarPlay
 - Old version native clients
 
