@@ -63,6 +63,7 @@ For new Teams to be successfully installed, computers must meet the minimum requ
 |Webview2|Update to the most current version. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise)|
 |Delivery optimization (DO)|DO powers Teams automatic updates, which are required as part of the [Servicing Agreement](/microsoftteams/new-teams-automatic-upgrade-announced#servicing-agreement).</br></br>Overview: [What is Delivery Optimization?](/windows/deployment/do/waas-delivery-optimization)</br></br>Recommended settings: [Set up Delivery Optimization](/windows/deployment/do/waas-delivery-optimization-setup#recommended-delivery-optimization-settings)<br></br>**Note:** Download Mode 100 (Bypass) isn't supported.|
 
+
 >[!Note]
 >Learn more: [**Update History for Microsoft 365 Apps**](/officeupdates/update-history-microsoft365-apps-by-date#supported-versions).
 
@@ -71,7 +72,8 @@ For new Teams to be successfully installed, computers must meet the minimum requ
 All steps must be completed to successfully upgrade to the new Teams.
 
 >[!Important]
->You must run the latest version of the bootstrapper.exe to avoid any issues that may have been already fixed. If you have downloaded the file previously, confirm you have the latest version by checking **Properties > Details > Product version** on your version and compare it to the latest download.
+>You must run the latest version of the bootstrapper.exe to avoid any issues that may have been already fixed. If you have downloaded the file previously, confirm you have the latest version by checking **Properties > Details > Product version** on your version and compare it to the latest download. 
+
 
 ### Option 1A: Download and install new Teams for a single computer
 
@@ -174,11 +176,13 @@ To uninstall and deprovision the new Teams for all users, use the following comm
 ```
 
 ## Remove classic Teams for all users
+>[!Important]
+> Important: required min version for this command option is 1.0.2414501.
+
 Once the new Teams version has been installed, use the following command to uninstall the classic Teams machine-wide installer and classic Teams app for all users on the device:
 ```powershell
 ./teamsbootstrapper -u
 ```
-
 ## End user experience:  Launching the new Teams
 
 After new Teams is deployed to your target computers, users will sign in as usual. For first use, the user can launch new Teams in one of two ways:
