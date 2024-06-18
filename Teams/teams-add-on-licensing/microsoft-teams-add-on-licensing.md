@@ -4,15 +4,17 @@ author: DaniEASmith
 ms.author: danismith
 manager: pamgreen
 ms.reviewer: mikedav
-ms.date: 03/26/2024
+ms.date: 06/18/2024
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
   - M365-collaboration
   - m365initiative-meetings
+  - m365initiative-voice
   - highpri
   - tier1
+  - ContentFreshnessFY24
 audience: Admin
 appliesto:
   - Microsoft Teams
@@ -39,8 +41,6 @@ This article contains the following sections:
 - [Manage add-on licenses](#manage-add-on-licenses) - Links to information for purchasing add-on licenses, and for assigning licenses to users.
 - [More information](#more-information)
 - [Contact support](#contact-support)
-
-
 
 ## Overview of all add-on licenses
 
@@ -69,9 +69,9 @@ For users who schedule or lead meetings with attendees who need to call in using
 
 You can also choose to use a third-party operator for your Audio Conferencing numbers if your current operator is part of the Microsoft Operator Connect program. For more information, see [Plan for Operator Connect Conferencing](../operator-connect-conferencing-plan.md).
 
-**After purchasing an Microsoft 365 or Office 365 subscription, if you select either a Microsoft 365 or Office 365 E1 or E3 subscription, you will still need to buy a separate Audio Conferencing license. An Audio Conferencing license is already included in the E5 subscription. (what about Frontline or Other license subscriptions?)**
+After purchasing an Microsoft 365 or Office 365 subscription, if you select either a Microsoft 365 or Office 365 E1 or E3 subscription, you will still need to buy a separate Audio Conferencing license. An Audio Conferencing license is already included in the E5 subscription.
 
-**The following table displays which Microsoft 365 or Office 365 subscription to purchase based on your subscription audience.**
+The following table displays which Microsoft 365 or Office 365 subscription to purchase based on your subscription audience.
 
 | Subscription type | Subscription |
 | ----------------- | ----------- |
