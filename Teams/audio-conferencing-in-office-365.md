@@ -138,8 +138,6 @@ For most countries and regions, shared numbers are automatically assigned as tol
 
 To see which countries/regions have phone numbers automatically assigned to organizations, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-**NOTE: I GOT CONFUSED ABOUT WHETHER ALL SHARED NUMBERS ARE TOLL NUMBERS. OUR DOCS SAY DIFFERENT THINGS. ARE SHARED NUMBERS ALWAYS TOLL NUMBERS?  EXCEPT FOR A FEW OUTLIER COUNTRIES?**
-
 
 ## Communications Credits
 
