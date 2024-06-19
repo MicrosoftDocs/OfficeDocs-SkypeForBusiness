@@ -9,7 +9,7 @@ audience: admin
 ms.collection: 
   - M365-collaboration
 ms.reviewer: 
-ms.date: 05/31/2024
+ms.date: 06/19/2024
 search.appverid: MET150
 f1.keywords: 
   - NOCSH
@@ -33,13 +33,13 @@ Users can also manually download updates by selecting **Check for updates** in t
 ## What can I do if classic Teams desktop client remains outdated?
 
 These are a few reasons your classic Teams client remain outdated (major version below 1.7):
-  - The update packages cannot be downloaded. To address this, please ensure that the following domains can be accessed from user's machine:
+  - The update packages can't be downloaded. To address this, make sure the following domains can be accessed from the user's machine:
     - statics.teams.microsoft.com
     - statics.teams.cdn.office.net
   - Multiple users are sharing the machine and new users are logging in frequently (eg., a Kiosk machine)
   - Classic Teams is installed into a non-updatable location such as ProgramData or Program Files
 
-If you are an admin and are experiencing multiple users in your organization remain on an older version of classic Teams client, your users would not be able to automatically move to new Teams. To resolve this, you can use the admin-provision tool TeamsBootstrapper.exe to remove classic Teams as well as to provision the new client. Please see next section to learn more.
+If you're an admin and multiple users in your organization have remained on an older version of classic Teams client, your users aren't able to automatically move to new Teams. To resolve this, you can use the admin-provision tool TeamsBootstrapper.exe to remove classic Teams as well as to provision the new client. Please see next section to learn more.
 
 ## Can admins deploy updates instead of Teams auto-updating?
 
