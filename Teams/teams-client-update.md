@@ -43,9 +43,9 @@ If you're an admin and multiple users in your organization have remained on an o
 
 ## Can admins deploy updates instead of Teams auto-updating?
 
-Admins can quickly move users to new Teams via the provision tool <b>TeamsBootstrapper.exe</b> with the -u argument. To learn more, please see the following article: [Bulk upgrade to the new Microsoft Teams client](https://learn.microsoft.com/microsoftteams/new-teams-bulk-install-client).
+Admins can quickly move users to new Teams via the provision tool <b>TeamsBootstrapper.exe</b> with the -u argument. To learn more, please see the following article: [Bulk upgrade to the new Microsoft Teams client](new-teams-bulk-install-client.md).
 
-You can use [Microsoft Teams Client Usage Report](https://learn.microsoft.com/microsoftteams/new-teams-usage-report) to find out if the users in your organization are using an outdated classic Teams client.
+You can use the [Microsoft Teams new client usage report](new-teams-usage-report.md) to find out if the users in your organization are using an outdated classic Teams client.
 
 ## What about updates to Microsoft 365 Apps for enterprise?
 Teams is installed by default with new installations of Microsoft 365 Apps for enterprise as described in [Deploy Microsoft Teams with Microsoft 365 Apps for enterprise](/DeployOffice/teams-install).
