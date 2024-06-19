@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: jamp
-ms.date: 04/02/2024
+ms.date: 06/17/2024
 ms.topic: article
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
 ms.tgt.pltfrm: cloud
@@ -13,6 +13,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - Tier1
+  - ContentFreshnessFY24
 search.appverid: MET150
 audience: Admin
 appliesto: 
@@ -578,6 +579,7 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 | Call Setup Failure Reason  | Enumeration  | Classification of why media connection couldn't be established for a call. <br/>**Possible values:** <br/> **Missing FW Deep Packet Inspection Exemption Rule** - indicates that network equipment along the path likely prevented the media path from being established due to deep packet inspection rules, possibly due to proxy or firewall rules not being correctly configured. <br/> **Missing FW IP Block Exemption Rule** - indicates that network equipment along the path likely prevented the media path from being established to the Office 365 network, possibly due to proxy or firewall rules not being correctly configured to allow access to IP addresses and ports used for Skype for Business traffic. <br/> **Other** - indicates the media path for the call couldn't be established but the root cause couldn't be classified. <br/> Not Media Failure - indicates no issue is detected with the establishment of the media path.  | &bull; Call setup failed due to an unknown media issue  |
 | Session Type  | Enumeration <br/>**Possible values:** <br/> Conf, P2P  | Indicates if the call session type was a meeting (Conf) or peer-to-peer call (P2P) scenario. <br/> **Example value:** Conf | |
 | CDR Response Reason  | Enumeration <br/>**Possible values:** <br/> 0 or 200 = "OK" <br/> 410 = "MediaConnectivityErrors"<br/> 480 = "UserUnavailable"<br/> 487 = "PickupTimedOut" <br/> 603 = "CallDeclined" <br/> All other CDR codes = "Other" | Provides the reason for a call session concluding, whether the call was successful or not, and allows for differentiation between incomplete calls (no answer, busy, declined) and failed calls (media establishment). 410 errors might not always correlate with a 'Failure' classification; due to identified exclusions, they might not be considered an impacting media failure. <br/> **Example value:** OK | <br/>&bull; A value of "Other" implies response code isn't diagnostically useful outside of Microsoft's engineering teams |
+| Session Id  | String  | Unique identifier for the session. A session represents communication between two endpoints, either user-user in peer-to-peer calls or user-server in group calls/meetings. | |
 |**DNS**||||
 | First DNS Suffix  | String  | DNS suffix associated with the network adapter reported by the first endpoint. Note this value might be reported for any type of network adapter. **Example value:** corp<span></span>.contoso<span></span>.com  | <br/>&bull; This value wasn't reported by the endpoint <br/>  |
 | Second DNS Suffix  | String  | DNS suffix associated with the network adapter reported by the second endpoint. Note this value might be reported for any type of network adapter.<br/> **Example value:** corp<span></span>.contoso<span></span>.com   | <br/>&bull; This value wasn't reported by the endpoint  |
