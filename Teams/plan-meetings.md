@@ -28,11 +28,12 @@ description: Learn how to plan for meetings in Microsoft Teams.
 
 # Plan for Teams meetings
 
-**APPLIES TO:** ✔️Meetings ✖️Webinars ✖️Town halls ✔️Calls
+**APPLIES TO:** ✔️Meetings ✖️Webinars ✖️Town halls
 
-Meetings in Teams include audio, video, and screen sharing for up to 1,000 people and view-only capabilities for participants over 1,000. Participants can be users in your organization or - if you allow it - people outside your organization. Meeting organizers can control which features are available in a given meeting and you can control the availability and default value for many of these features by using meeting policies.
+Meetings in Teams include audio, video, and screen sharing for up to 1,000 people and view-only capabilities for participants over 1,000. Participants can be users in your org or if you allow it, people outside your organization. Meeting organizers can control which features are available in a given meeting and you can control the availability and default value for many of these features by using meeting policies.
 
 The following types of meetings are available:
+
 - Private meetings - meetings that individual users schedule with specific people
 - Channel meetings - meetings that are visible to everyone in a channel
 - Instant meetings - a method of starting an unscheduled meeting with people in a chat
@@ -41,7 +42,7 @@ To specify which users in your organization can start or schedule meetings, see 
 
 ## Meetings and calls
 
-Your users might use meetings and calls interchangeably depending on their needs at a given time. Meeting policies and calling policies have separate settings for starting the meeting or call, recording, transcribing, and using closed captions. We recommend that you plan both sets of settings together in order to give your users a consistent experience as they use both calls and meetings.
+Users with an assigned Teams Phone license can make calls in Teams, and they might use meetings and calls interchangeably based on their needs at any given time. Meeting policies and calling policies have separate settings for starting the meeting or call, recording, transcribing, and using closed captions. We recommend that you plan both sets of settings together to give your users a consistent experience as they use both calls and meetings.
 
 The following table shows the policy settings that are similar between meetings and calls.
 
@@ -53,6 +54,10 @@ The following table shows the policy settings that are similar between meetings 
 |See closed captions in a meeting or call|[Live captions](meeting-transcription-captions.md)|Real-time captions in Teams calls|
 
 For information about calling policies, see [Configure calling policies in Teams](teams-calling-policy.md).
+
+## Audio Conferencing
+
+You can assign an Audio Conferencing license to meeting organizers so they can create meetings where attendees can join by dialing in from their phones. These meeting organizers can also dial-out to attendees to connect them to the meeting's audio portion. To learn more about Audio Conferencing, see [Audio Conferencing in Microsoft Teams](audio-conferencing-in-office-365.md).
 
 ## Recordings
 
@@ -72,7 +77,7 @@ If you have compliance requirements around meeting recordings, see [Manage Micro
 
 People outside your organization can attend meetings hosted by your organizations as guests, people from trusted organization, or anonymous participants. You can configure each of these access methods separately.
 
-#### Guest access for meetings
+### Guest access for meetings
 
 As long as guest access is turned on in Teams, guests in your organization can attend meetings. Several meeting features, including screen sharing options and the ability to start instant meetings, can be controlled separately for guests. For details, see [Turn guest access in Microsoft Teams on or off](set-up-guests.md).
 
@@ -144,8 +149,10 @@ Teams admins and organizers have different policies and settings to control the 
 
 ## Related topics
 
-[Plan for Teams webinars](plan-webinars.md)
+- [Meetings, webinars, and town halls feature comparison](meeting-webinar-town-hall-feature-comparison.md)
 
-[Plan for Teams town halls](plan-town-halls.md)
+- [Plan for Teams webinars](plan-webinars.md)
 
-[Overview of meetings, webinars, and town halls](quick-start-meetings-live-events.md)
+- [Plan for Teams town halls](plan-town-halls.md)
+
+- [Overview of meetings, webinars, and town halls](quick-start-meetings-live-events.md)
