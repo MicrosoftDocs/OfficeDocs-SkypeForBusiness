@@ -32,9 +32,7 @@ This article is for administrators and IT professionals who are evaluating Audio
 
 Audio Conferencing enables users to join a Teams meeting from a phone using a Public Switched Telephone Network (PSTN) phone number. Audio Conferencing is sometimes called dial-in conferencing or PSTN conferencing. 
 
-Audio Conferencing requires an additional Teams add-on license for each person in your organization who is going to schedule/host an Audio Conferencing meeting. Meeting attendees who dial in don't need any additional licenses assigned to them. For more information, see [Audio Conferencing add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md). (Note that Audio Conferencing doesn't require a Teams Phone license.)  
-
-**MK UPDATING LICENSING DOC. ADD LINK TO AUDIO CONFERENCING SECTION WHEN PUBLISHED LIVE.**
+Audio Conferencing requires an additional Teams add-on license for each person in your organization who is going to schedule/host an Audio Conferencing meeting. Meeting attendees who dial in don't need any additional licenses assigned to them. For more information, see [Audio Conferencing add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md#audio-conferencing-licenses). (Note that Audio Conferencing doesn't require a Teams Phone license.)  
 
 This article describes Audio Conferencing concepts, scenarios, and prerequisites. After reading this article, for step-by-step instructions on how to set up Audio Conferencing, see [Set up Audio Conferencing](set-up-audio-conferencing-in-teams.md).
 
@@ -63,10 +61,8 @@ Before you can roll out Audio Conferencing for Teams meetings, consider these qu
 | Ask yourself | Action |
 | :------------| :-------|
 | Is Audio Conferencing available in my country/region?| To find out if Audio Conferencing is available in your country/region, see [Country and region availability for Audio Conferencing](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).|
-| Do my users have the proper licensing for Audio Conferencing? | **INCLUDE LICENSE INFO HERE? OR LINK TO SECTION IN LICENSING DOC?** Audio Conferencing licenses are available as part of a Microsoft 365 or Office 365 E5 plan. Audio conferencing licenses are also available as an add-on service for a Microsoft 365 Business Standard, E1, or E3 subscription. <ul><li> To get and assign licenses, see [Assign or remove licenses for Microsoft 365 Apps for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).</li><li> To learn more, read [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).|
+| Do my users have the proper licensing for Audio Conferencing? |  Audio Conferencing licenses are available as part of a Microsoft 365 or Office 365 E5 plan. Audio conferencing licenses are also available as an add-on service for a Microsoft 365 Business Standard, E1, or E3 subscription. <br><br>For more information, see [Audio Conferencing add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md#audio-conferencing-licenses) and [Assign add-on licenses](./teams-add-on-licensing/assign-teams-add-on-licenses.md). |
 | Do I need to purchase Communications Credits for the users who are assigned Audio Conferencing licenses?| To learn more, read [What are Communications Credits](what-are-communications-credits.md), then check out the [Communications Credits](#communications-credits) section.|
-
-**OTHER KEY QUESTIONS TO ADD TO THE TABLE?**
 
 For pricing information, see [Pricing for Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=799762&clcid=0x409).
 
