@@ -1,10 +1,10 @@
 ---
 title: IT Admins - Manage external meetings and chat with people and organizations using Microsoft identities
-ms.author: jtremper
-author: jacktremper
+ms.author: heidip
+author: MicrosoftHeidi
 manager: pamgreen
 ms.reviewer: nigolc
-ms.date: 06/18/2024
+ms.date: 06/19/2024
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -42,7 +42,7 @@ Note that these people from outside your organization won't have access to your 
 > [!NOTE]
 > Your users can add apps when they host meetings or chats with people outside your organization. They can also use apps shared by external users when they join meetings or chats hosted externally. The data policies of the hosting user's organization, as well as the data sharing practices of any third-party apps shared by that user's organization, are applied. [Learn more about use of apps by people outside your organization](apps-external-users.md).
 
-##### Related settings
+## Related settings
 
 It's important to note that there are other settings in Teams—including guest access and anonymous access—that affect meetings with people outside your organization. See [Plan for meetings with external participants in Microsoft Teams](plan-meetings-external-participants.md) for more information.
 
@@ -79,7 +79,7 @@ You can specify which domains are allowed or which domains are blocked. If you s
 - **Allow all external domains** - This is the default setting in Teams, and it lets users in your organization find, call, chat, and set up meetings with people external to your organization in any domain.
 
     In this scenario, your users can communicate with all external domains that are running Teams or Skype for Business so long as the other organization has also enabled external access.
-    
+
 - **Allow only specific external domains** - By adding domains to an **Allow** list, you limit external access to only the allowed domains. Once you set up a list of allowed domains, all other domains are blocked.
 
 - **Block specific domains** - By adding domains to a **Block** list, you can communicate with all external domains *except* the ones you've blocked.  Once you set up a list of blocked domains, all other domains are allowed.
@@ -129,7 +129,7 @@ Set-CsTenantFederationConfiguration -BlockAllSubdomains $True
 
 If you're an administrator, you can use the following diagnostic tool to validate if a Teams user can communicate with a Teams user in a trusted organization:
 
-1. Select **Run Tests** below, which populates the diagnostic in the Microsoft 365 Admin Center. 
+1. Select **Run Tests** below, which populates the diagnostic in the Microsoft 365 Admin Center.
 
    > [!div class="nextstepaction"]
    > [Run Tests: Teams Trusted Organizations](https://aka.ms/TeamsFederationDiag)
@@ -153,29 +153,25 @@ You can choose to enable or disable chat with external unmanaged Teams users (th
 > [!NOTE]
 > Chats and meetings with external unmanaged Teams users isn't available in GCC, GCC High, or DOD deployments, or in private cloud environments.
 
-To allow chats and meetings with unmanaged Teams accounts
+To allow chats and meetings with unmanaged Teams accounts:
+
 1. In the Teams admin center, go to **Users** > **External access**.
-
-1. Turn on the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
-
-1. If you want to allow external unmanaged Teams users to start the conversation, select the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
-
-1. If you want to restrict communication with people with unmanaged Teams accounts to a specific list of user profiles, select the **Restrict communication to the list of external user profiles added to extended directory** checkbox and select **Manage external user profiles** to add the user profiles that you want to allow. (See [manage external user profiles](#manage-external-user-profiles) below.)
+2. Turn on the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
+3. If you want to allow external unmanaged Teams users to start the conversation, select the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
+4. If you want to restrict communication with people with unmanaged Teams accounts to a specific list of user profiles, select the **Restrict communication to the list of external user profiles added to extended directory** checkbox and select **Manage external user profiles** to add the user profiles that you want to allow. (See [manage external user profiles](#manage-external-user-profiles) below.)
 
     > [!NOTE]
     > [Parent Connection in Microsoft Teams for Education](edu-parents-app.md) does not support restricting communication to the list of external user profiles added to extended directory.
-
-1. Select **Save**.
+5. Select **Save**.
 
 ![Screenshot of external accounts settings](./media/external-access-accounts-not-managed-by-org.png)
 
 Note that if **External users with Teams accounts not managed by an organization can contact users in my organization** is turned off, unmanaged Teams users can't search by email address to find users in your organization. All communications with unmanaged Teams users must be initiated by users in your organization.
 
-To prevent chat with unmanaged Teams accounts
+To prevent chat with unmanaged Teams accounts:
+
 1. In the Teams admin center, go to **Users** > **External access**.
-
 1. Turn off the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
-
 1. Select **Save**.
 
 ### Manage external user profiles
@@ -189,7 +185,8 @@ When a user starts a chat with an external user, the external user can allow or 
 > [!IMPORTANT]
 > Your organization is the Data Controller for the external user profiles that you add. This may have GDPR implications. For more information, see [General Data Protection Regulation Summary](/compliance/regulatory/gdpr).
 
-To add an external user profile
+To add an external user profile:
+
 1. Select **Manage external user profiles**.
 1. Select **Add**.
 1. Type a **Display name** for the contact. (Users will be able to search for this name in Teams.)
@@ -204,13 +201,15 @@ You can remove an existing profile by selecting the profile and then selecting *
 
 If you want to upload a list of users via .csv file, you can download a template file, add the people you want to include and their phone numbers, and upload the file.
 
-To download the .csv template
+To download the .csv template:
+
 1. On the Manage external user profiles page, select **Import** on the command bar.
 1. Select **download a template**.
 
 Required fields in the template are *DisplayName* and *PhoneNumber*. Other fields are optional.
 
-To upload a completed template file
+To upload a completed template file:
+
 1. On the Manage external user profiles page, select **Import** on the command bar.
 1. Select **Select a file**.
 1. Select the file that you want to upload and then select **Open**.
@@ -225,6 +224,7 @@ You can also configure the **Restrict communication to the list of external user
 ```powershell
 Set-CsExternalAccessPolicy -Identity Global -RestrictTeamsConsumerAccessToExternalUserProfiles $true
 ```
+
 restricts communication to the list of user profiles in extended directory for the default global external access policy.
 
 ### Manage chat and calls with Skype users
@@ -236,12 +236,11 @@ Meetings aren't supported with Skype users. If invited to a meeting, they're con
 > [!NOTE]
 > External communication with Skype users isn't available in GCC, GCC High, or DOD deployments, or in private cloud environments.
 
-To configure chat and calls with Skype users
-1. In the Teams admin center, go to **Users** > **External access**.
+To configure chat and calls with Skype users:
 
+1. In the Teams admin center, go to **Users** > **External access**.
 1. Turn the **Allow users in my organization to communicate with Skype users** setting on or off.
     ![Screenshot of Skype users setting.](./media/external-access-skype-settings.png)
-
 1. Select **Save**.
 
 To learn more about the ways that Teams users and Skype users can communicate, including limitations that apply, see [Teams and Skype interoperability](teams-skype-interop.md).
@@ -291,6 +290,7 @@ The following table shows the cmdlet parameters used for configuring who can cha
 |Allow or prevent chat with Skype users|`-EnablePublicCloudAccess`|
 
 To limit external meetings and chat to specific users, you must:
+
 - Turn off the control for the default global policy.
 - Create a new policy with the control turned on, and assign the appropriate users to it.
 
@@ -314,6 +314,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyNam
 ```
 
 The parameters for configuring external access are:
+
 - EnableFederationAccess - controls chat and meetings with other Microsoft 365 organizations
 - EnableTeamsConsumerAccess - controls chat with Teams users not managed by an organization
 
