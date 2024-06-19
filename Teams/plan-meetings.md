@@ -121,12 +121,12 @@ Teams admins and organizers have different policies and settings to control the 
 |:------|:-----|:---------|
 |[Attendance and engagement reports](/microsoftteams/teams-analytics-and-reports/meeting-attendance-report)|Can enforce on or off or allow organizer to choose.|Can turn on or off if allowed by admin.|
 |[Audio and video](meeting-policies-audio-and-video.md)|Can set audio and video modes and network settings.|Can allow or prevent attendee mic and cameras.|
-|[Chat](manage-meeting-chat.md)|Can manage whether users in the org can read and write chat messages. Admins can also manage chat messages in Teams meetings hosted by other organizations that you don’t have a two-way trust relationship with.|Can manage whether chat is available for their meetings.|
+|[Chat](manage-meeting-chat.md)|Can manage whether users in the org can read and write chat messages. You can also manage chat messages in Teams meetings hosted by other organizations that you don’t have a trusted relationship with.|Can manage whether chat is available for their meetings.|
 |[Collaboration features](meeting-policies-content-sharing.md)|Can control the availability of PowerPoint Live, whiteboard, and shared notes.|No control|
 |[Content sharing](meeting-who-present-request-control.md)|Can control sharing mode and who can request control and can set a default for who can present.|Can control who can present.|
 |[Copilot](copilot-teams-transcription.md)|Can control the default value for Copilot in organizers’ meeting options.|Can control whether Copilot can be used with or without transcription during their meetings. Attendees can use Copilot during meetings if they have a Copilot license.|
-|[eCDN](streaming-ecdn-enterprise-content-delivery-network.md)|Can manage and configure the availability of eCDN for meetings with over 1,000 participants. |No control.|
 |[End-to-end encryption (Teams Premium)](end-to-end-encrypted-meetings.md) |Can allow or prevent end-to-end encryption.|Can enforce end-to-end encryption if allowed by the admin.|
+|[Feedback surveys for anonymous participants](meeting-surveys-anonymous-participants.md)| Manage whether anonymous participants who join meetings hosted in your org can rate their meeting experience through surveys.  |No control.|
 |[Green room](https://support.microsoft.com/office/5b744652-789f-42da-ad56-78a68e8460d5)|No control.|Can choose if green room is used for a meeting.|
 |[Hide attendee names (Teams Premium)](hide-attendee-names.md) |Can control whether organizers with a Premium license can hide the names and photos of attendees from other attendees in the stage, roster, and chat. | Can hide attendee names during meetings to protect identities and privacy. |
 |[Limit presenter role permissions](presenter-role-reduction.md) |Can limit presenter role permissions for the tenant. |No control.|
@@ -144,6 +144,7 @@ Teams admins and organizers have different policies and settings to control the 
 |[Streaming](view-only-meeting-experience.md)|Can allow or prevent streaming experience for attendees over 1,000.|No control.|
 |[Meeting Theme (Teams Premium)](meeting-themes.md)|Can define meeting themes, including colors, images, and logo.|Can turn the admin-defined theme on or off.|
 |[Transcription and captions](meeting-transcription-captions.md)|Can allow or prevent transcription and closed captions for attendees.|Can enable captions.|
+|[View-only](view-only-meeting-experience.md)|Allow organizers to host large meetings where after the meeting reaches capacity at 1,000 users, additional attendees join with a view-only experience.|No control.|
 |[Voice isolation](voice-isolation.md)|Can control whether users can use voice isolation in meetings and calls.|Can enable voice isolation.|
 |[Watermarks (Teams Premium)](watermark-meeting-content-video.md)|Can allow or prevent watermarks for attendee video and shared content|Can enforce watermarks if allowed by the admin|
 
