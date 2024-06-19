@@ -48,9 +48,9 @@ Admins can quickly move users to new Teams via the provision tool <b>TeamsBootst
 You can use the [Microsoft Teams new client usage report](new-teams-usage-report.md) to find out if the users in your organization are using an outdated classic Teams client.
 
 ## What about updates to Microsoft 365 Apps for enterprise?
-Teams is installed by default with new installations of Microsoft 365 Apps for enterprise as described in [Deploy Microsoft Teams with Microsoft 365 Apps for enterprise](/DeployOffice/teams-install).
+Teams can be installed with new installations of Microsoft 365 Apps for enterprise as described in [Deploy Microsoft Teams with Microsoft 365 Apps for enterprise](/DeployOffice/teams-install).
 
-Teams follows its own update process as outlined earlier in this article. Teams doesn't follow the update process for the other Offices apps, such as Word and Excel. To learn more, read [Overview of update channels for Microsoft 365 Apps](/DeployOffice/overview-update-channels).
+Teams follows its own update process as outlined earlier in this article. Teams doesn't follow the update process for the other Offices apps, such as Word and Excel.
 
 ## Servicing agreement
 
