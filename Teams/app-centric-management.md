@@ -13,7 +13,7 @@ ms.collection:
   - M365-collaboration
   - Tier1
 search.appverid: MET150
-ms.date: 06/13/2024
+ms.date: 06/18/2024
 ms.reviewer: mhayrapetyan
 description: Manage access to Teams apps using app centric management.
 f1.keywords:
@@ -46,7 +46,7 @@ Previously, when using permission policies, you determined access to apps using 
 * App status: It applies at an app-level as allow or block and controls if it's available to any user or not.
 * Permission policy: It applies at a user-level and controls if a specific user is allowed to use an app or not.
 
-App centric management feature simplifies these settings. Each app contains its access definition using a list of users and groups that you assign to the app. It lets you manage each app individually based on your user's needs and organization's compliance and risk posture.
+App centric management feature simplifies these settings. Each app contains its access definition using a list of users and groups that you assign to it. It lets you manage each app individually based on your user's needs and organization's compliance and risk posture.
 
 When using this functionality, you determine access to apps using one of the following options for each app:
 
@@ -86,7 +86,7 @@ We strongly recommend that you prepare for the migration and follow these steps 
    * Available to specific users and groups: List of apps that are selectively allowed for at least one org user or a supported group.
    * Available to no one: List of apps that nobody in the org can use.
 
-1. In each tab, you can modify the app availability to one of the [three app availability types](#how-is-app-centric-management-different-than-permission-policy). Apps that are not present in all selected policies appear in the **Available to specific users and groups** tab. These apps must be assigned to one or more users or groups before you can proceed. The user assignments from app permission policies aren't transferred and aren't applicable here.
+1. In each tab, you can modify the app availability to one of the [three app availability types](#how-is-app-centric-management-different-than-permission-policy), as necessary. The apps that are not present in any of the selected policies appear in the **Available to specific users and groups** tab. You must assign such apps to one or more users or groups before you can proceed. The existing user assignments from app permission policies aren't transferred and aren't applicable here.
 
     :::image type="content" source="media/acm-migration-availability.png" alt-text="Screenshot showing three tabs during migration that help you review and modify the app availability.":::
 
@@ -106,7 +106,7 @@ During migration, you can save a draft of the migration progress using the **Fin
 > [!NOTE]
 > The existing Manage apps UI gets disabled when you start the migration. If you aren't ready to proceed or want to make change to the exiting permission policies, open the wizard and select the Reset all changes option. You can restart the migration again.
 
-After migration, your blocked apps continue to remain unavailable to users. On the Manage apps page, the status of previously blocked apps show as unblocked. However, such apps are available to `No one` in the `Available to` column. It means that org user can't use the app, just as you intended before.
+After migration, your blocked apps continue to remain unavailable to users. The status of such apps show as `unblocked` now, but the apps are assigned to `No one` in the `Available to` column on the Manage apps page. It means that org user can't use the app, just as you intended before.
 
 ## Add or modify app availability for users
 
@@ -153,13 +153,13 @@ You can view all apps in the catalog and easily access the app availability from
 
 :::image type="content" source="media/acm-app-filter.png" alt-text="Screenshot showing how to filter apps by combining various criteria such as app availability, app type, and app status.":::
 
-### View all apps assigned to a specific user
+### View all apps available to a specific user
 
 On the **[Manage users](https://admin.teams.microsoft.com/users)** page, select a user to open the user details page, and select the **Apps** tab. The tab lists the apps that the user has access to. To easily locate the type of access for an app, you can search for the name of the app.
 
 :::image type="content" source="media/acm-manage-user-apps-tab.png" alt-text="Screenshot showing how to view all the apps that a user has access to, from the Manage users page.":::
 
-Each app displays the type of its availability, which indicates how the user was assigned to the app: through availability to everyone, direct availability to a user, or through a group. The list shows only those apps that are assigned to the user and that are allowed in the organization for use. Apps assigned to no one and app that are blocked in the organization don't appear in this list.
+Each app displays the type of its availability, which indicates how the user is assigned to the app: through availability to everyone, direct availability to a user, or through a group. The list shows only those apps that are assigned to the user and that are allowed in the organization for use. Apps assigned to no one and app that are blocked in the organization don't appear in this list.
 
 You can remove app availability for a user. Select an app that is directly assigned to the user and select **Remove**. You can’t remove availability for a user if the app is available to everyone or to a group.
 
@@ -183,9 +183,13 @@ When your tenant's admin center receives this feature, the following updates are
 | Allowed            | Blocked                           | No one can install                       |
 | Allowed            | Allowed                           | Everyone                                 |
 
-## Considerations and limitations
+## Considerations and known limitations
 
-* After migration, your blocked apps continue to remain unavailable to users. Such apps show as unblocked now but are assigned to `No one` in the `Available to` column on the Manage apps page. It means that no org user can use the app as you intended before.
+* You can add up to 99 users or groups at a time to an app.
+
+* When searching for users or groups to add, the UI displays only 20 results. If you don't find the expected results, refine your search query to use the exact name.
+
+* After migration, your blocked apps continue to remain unavailable to users. The status of such apps is `unblocked` now but the apps are available to `No one` in the `Available to` column on the Manage apps page. It means that no org user can use the app as you intended before.
 
 * After you switch to this feature, you can't access, edit, or use permission policies. Once your organization migrates, you can't revert the migration.
 
