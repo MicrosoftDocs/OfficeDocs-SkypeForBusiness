@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "Teams/resource-specific-consent.md",
+      "redirect_url": "/microsoftteams/platform/graph-api/rsc/resource-specific-consent",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Teams/non-standard-users.md",
       "redirect_url": "/microsoftteams/apps-external-users",
       "redirect_document_id": true
@@ -4796,21 +4801,26 @@
     "redirect_document_id": false
 },
 {
+  "source_path": "Teams/teams-updates.md",
+  "redirect_url": "/microsoftteams/teams-overview",
+  "redirect_document_id": false
+ },
+ {
+  "source_path": "teams/teams-add-on-licensing/remove-assign-free-licenses.md",
+  "redirect_url": "/microsoftteams/user-access",
+  "redirect_document_id": false
+ },
+ {
   "source_path": "teams/upgrade-freemium.md",
   "redirect_url": "/microsoftteams/user-access",
   "redirect_document_id": false
-},
-{
-  "source_path": "Teams/teams-updates.md",
-  "redirect_url": "/Teams/teams-overview",
-  "redirect_document_id": false
  },
-{
+ {
   "source_path": "teams/privacy/teams-privacy.md",
   "redirect_url": "/microsoftteams/privacy/location-of-data-in-teams",
   "redirect_document_id": false
-},
-{
+ },
+ {
   "source_path": "Teams/rooms/with-skype-for-business-server-2015.md",
   "redirect_url": "/microsoftteams/rooms/create-resource-account",
   "redirect_document_id": false
@@ -4822,11 +4832,6 @@
 },
 {
     "source_path": "teams/manage-freemium.md",
-    "redirect_url": "/microsoftteams/user-access",
-    "redirect_document_id": false
-  },
-  {
-    "source_path": "teams/teams-add-on-licensing/remove-assign-free-licenses.md",
     "redirect_url": "/microsoftteams/user-access",
     "redirect_document_id": false
   },
@@ -4849,7 +4854,7 @@
     "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-cloud-connector-integration-with-your-office-365-tenant.md",
     "redirect_url": "/microsoftteams/cloud-voice-landing-page",
     "redirect_document_id": false
-  },
+},
   {
     "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-for-cloud-connector-edition-pstn-sites.md",
     "redirect_url": "/microsoftteams/cloud-voice-landing-page",
