@@ -86,6 +86,7 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Yealink              |WH64 Dual/Mono Headset                                     |6/18/2024       |Certified for Microsoft Teams                           |
 |Lenovo               |Wireless VoIP Headset                                      |5/21/2024       |Certified for Microsoft Teams                           |
 |Logi                 |Zone 305 Headset                                           |4/30/2024       |Certified for Microsoft Teams                           |
 |Yealink              |UH35 Dual/Mono Teams Headset                               |3/28/2024       |Certified for Microsoft Teams                           |
