@@ -2,7 +2,7 @@
 title: Availability and use of Teams apps by different types of users from outside an organization
 author: ashishguptaiitb
 ms.author: guptaashish
-ms.reviewer: mhayrapetyan
+ms.reviewer: shmundra
 manager: prkosh
 ms.topic: article
 audience: admin
@@ -11,7 +11,7 @@ ms.subservice: teams-apps
 search.appverid: MET150
 description: Learn how apps in Microsoft Teams work for guests, external access users, and anonymous users.
 ms.localizationpriority: high
-ms.date: 05/08/2024
+ms.date: 06/20/2024
 f1.keywords:
 - NOCSH
 ms.collection: 
@@ -70,17 +70,12 @@ Guests can mention the bot and interact with adaptive cards.
 
 ### Add, update, and delete apps for external access users
 
-Teams users can add apps in group chats with people from other organizations, including external users. Group chats hosted by the other organization works, but such a chat doesn't work in one-on-one chats of your org users and the external users.
-
-The external users don't have access to the Teams app store of the hosting organization.
+External access users can't add, update, or delete apps into any context, such as a personal, chat, channel, or meeting. They don't have access to the Teams app store of the hosting organization.
 
 ### Usage behavior and policy for external access users
 
-Users from other organizations can't use apps in 1:1 chats with org users, even if the org users try to add apps to individual chats.
-
-* Meeting host can install, remove, or update apps for use by all members of a meeting, including external users.
-* Users in the hosting organization can add apps in meeting chats and group chats that include people from other organizations. People from other organizations can't add apps in chats but can interact with apps such as bots, tabs, and message extensions, after the apps are added to the chat.
-* People from other organizations adhere to the hosting organization's global (org-wide default) policy.
+* People from other organizations adhere to the hosting organization's global (org-wide default) policy
+* Users in the hosting organization can add apps in meeting chats with people from other organizations. People from other organizations can't add apps in meeting chats but can interact with bots, tabs and message extensions once added to the chat.
 * After a bot is added in a meeting chat, it can proactively communicate with people from other organizations in that chat, and those people can communicate with bot.
 * The data policies of the hosting organization are applied.
 * The data sharing practices of any third-party apps shared by that user's organization are applied.
