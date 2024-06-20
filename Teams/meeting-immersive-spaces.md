@@ -94,7 +94,7 @@ The **Mesh app is by default allowed in the Teams admin center**. If you want to
 1. Sign in to the [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/).
 1. In the left panel, go to **Teams apps** > **Manage apps**.
 1. Search for the app named "Mesh" and open the app settings.
-1. Under the Users and groups tab, choose edit availability.
+1. Under the **Users and groups** tab, choose edit availability.
 1. Under the **Users and groups** tab, select edit availability and configure as needed.
 
 :::image type="content" source="media/meetings-immersive-spaces-availability.png" alt-text="Screenshot of the Teams Admin Center showing how to manage the availability of the Mesh application." lightbox="media/meetings-immersive-spaces-availability.png":::
