@@ -6,7 +6,7 @@ manager: jtremper
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
-ms.date: 05/24/2022
+ms.date: 06/20/2024
 audience: Admin
 description: Learn how to manage Microsoft 365 for your organization directly from the Admin app in Microsoft Teams 
 ms.collection: 
