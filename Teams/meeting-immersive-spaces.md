@@ -28,17 +28,17 @@ To set up immersive spaces in Teams, you should:
 1. [Verify URLs, endpoints, and ports](#verify-endpoints-and-ports) are properly set up.
 
 1. Manage user access to the Mesh app using one of the following options:
-    1. [Use app centric management for immersive spaces in Teams](#use-app-centric-management-for-immersive-spaces-in-teams)
+    1. [Manage access to immersive spaces in Teams using app centric management](#use-app-centric-management-for-immersive-spaces-in-teams)
     1. [Block immersive spaces in Teams for specific users or groups](#block-immersive-spaces-in-teams-for-specific-users-or-groups)
-    1. [Use service plans in the Microsoft 365 Admin Center to allow immersive spaces for Teams](#use-service-plans-in-the-microsoft-365-admin-center-to-allow-immersive-spaces-for-teams)
+    1. [Allow immersive spaces in Temas using service plans in the Microsoft 365 Admin Center](#allow-immersive-spaces-for-teams-using-service-plans-in-the-microsoft-365-admin-center)
 
 ## What is an immersive space?
 
-Connect in a 3D immersive space, helping hybrid meetings feel more like face-to-face connections. With just one click, you can easily connect with your team in a pre-built immersive space right from a Teams meeting.
+Connect in a 3D immersive space, helping hybrid meetings feel more like face-to-face connections. With a few clicks, you can easily connect with your team in a prebuilt immersive space right from a Teams meeting.
 
 In a Microsoft Teams meeting, select **View** > **Immersive space (3D)**.
 
-:::image type="content" source="media/meeting-immersive-spaces-view-selector-v2.png" alt-text="Screenshot of mmersive spaces view selector in Teams View menu.":::
+:::image type="content" source="media/meeting-immersive-spaces-view-selector-v2.png" alt-text="Screenshot of immersive spaces view selector in Teams View menu.":::
 
 Use your avatar and join with a Meta Quest VR device to bring even more richness to the experience.  To learn more, [set up avatars for Microsoft Teams](meeting-avatars.md).
 
@@ -62,11 +62,11 @@ Teams Essentials, Microsoft 365 Business Basic, Microsoft 365 Business Standard,
 
 ## Verify endpoints and ports
 
-To ensure immersive spaces in Teams works properly, access to the following endpoints must be allowed through your firewall or proxy server.
+This section outlines the specific endpoints and firewall requirements for the Mesh app in Teams, which allows users to join an immersive space (3D) while in a Teams meeting.
 
-1. First, ensure you have configured your enterprise firewall settings to align with the standard set of Microsoft 365 requirements outlined in [Microsoft M365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true).
+1. Ensure you have configured your enterprise firewall settings to align with the standard set of Microsoft 365 requirements outlined in [Microsoft 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true).
 
-1. In addition to the endpoints listed above, Mesh Immersive Spaces in Teams currently requires that outgoing traffic also be allowed to IP addresses in the "AzureCloud" service tag over the following protocols and ports:
+1. In addition to the standard set of endpoints for Microsoft 365, Mesh Immersive Spaces in Teams currently requires that outgoing traffic is allowed to IP addresses in the "AzureCloud" service tag over the following protocols and ports:
 
     - TCP: 443, 80
     - TCP & UDP: 30,000-30,499
@@ -104,7 +104,7 @@ The **Mesh app is by default allowed in the Teams admin center**. If you want to
 
 Now users in Teams should be able to join an immersive space in Microsoft Teams.
 
-## Use service plans in the Microsoft 365 Admin Center to allow immersive spaces for Teams
+## Allow immersive spaces for Teams using service plans in the Microsoft 365 Admin Center
 
 1. Sign into [Microsoft 365 Admin Center](https://admin.microsoft.com/) with an admin account with at least Global, License, or User level permissions and open the left navigation panel to the Users section.
 
@@ -112,7 +112,7 @@ Now users in Teams should be able to join an immersive space in Microsoft Teams.
 
 1. Ensure that you enabled the appropriate licenses for Immersive spaces for Teams.
 
-For more guidance for assigning licenses in Microsoft 365, see:
+For more information about assigning licenses in Microsoft 365, see:
 
 [Assign or unassign licenses for users in the Microsoft 365 admin center - Microsoft 365 admin | Microsoft Learn](/microsoft-365/admin/manage/assign-licenses-to-users).
 
