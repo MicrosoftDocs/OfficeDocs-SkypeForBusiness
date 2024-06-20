@@ -65,7 +65,7 @@ When the capacity of the main meeting is reached, meeting attendees are informed
 
   ![the Teams pre-join screen and the message for participants telling them that they will join in view-only mode.](media/view-only-pre-join-screen.png)
 
-When the meeting is below capacity, attendees always join the main meeting. If the main meeting reaches capacity and attendees leave, new space becomes available, allowing new attendees to join the main meeting until it fills up again. View-only attendees can't be promoted to the main meeting.
+Before the meeting reaches capacity, attendees always join the main meeting. If the main meeting reaches capacity and attendees leave, new space becomes available, allowing new attendees to join the main meeting until it fills up again. View-only attendees can't be promoted to the main meeting.
 
 If presenter and attendee roles are set, presenters who join after capacity is reached in the main meeting become view-only attendees. These presenters have the same limitations as other view-only attendees. Organizers are always guaranteed space in the main meeting.
 
