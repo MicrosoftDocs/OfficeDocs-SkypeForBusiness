@@ -36,13 +36,13 @@ The following types of meetings are available:
 
 - Private meetings - meetings that individual users schedule with specific people
 - Channel meetings - meetings that are visible to everyone in a channel
-- Instant meetings - a method of starting an unscheduled meeting with people in a chat
+- Meet now meetings - a method of starting an unscheduled meeting with people through a chat
 
 To specify which users in your organization can start or schedule meetings, see [Manage who can start instant meetings and schedule meetings](manage-who-can-schedule-meetings.md).
 
 ## Meetings and calls
 
-Users with an assigned Teams Phone license can make calls in Teams, and they might use meetings and calls interchangeably based on their needs at any given time. Meeting policies and calling policies have separate settings for starting the meeting or call, recording, transcribing, and using closed captions. We recommend that you plan both sets of settings together to give your users a consistent experience as they use both calls and meetings.
+Users with an assigned Teams Phone license can make calls in Teams, and they might use meetings and calls interchangeably based on their needs at any given time. Meeting policies and calling policies have separate settings for starting the meeting or call, recording, transcript, and using closed captions. You should plan both sets of settings together to give your users a consistent experience as they use both calls and meetings.
 
 The following table shows the policy settings that are similar between meetings and calls.
 
@@ -97,11 +97,11 @@ People from other trusted Microsoft 365 organizations can attend meetings withou
 
 ## Attendee limits and streaming options
 
-Up to 10,000 attendees can join a Teams meeting, however, after 1,000 users enter a meeting, extra attendees will join with a view-only streaming experience. Streaming attendees don't have access to the meeting chat or be able to share content or video.
+Up to 10,000 attendees can join a Teams meeting, however, after 1,000 users enter a meeting, extra attendees will join with a view-only experience. View-only attendees don't have access to the meeting chat or be able to share content or video.
 
-You can allow or prevent the streaming experience for meetings with more than 1,000 attendees. If you disable the streaming experience, meeting attendance is limited to the first 1,000 attendees.
+You can allow or prevent the view-only experience for meetings with more than 1,000 attendees. If you disable the view-only experience, meeting attendance is limited to the first 1,000 attendees.
 
-For more information about the meeting view-only streaming experience, see [Teams view-only meeting experience](view-only-meeting-experience.md).
+For more information about the view-only meeting experience, see [Teams view-only meeting experience](view-only-meeting-experience.md).
 
 ## Compliance features
 
