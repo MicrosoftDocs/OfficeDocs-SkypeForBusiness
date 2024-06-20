@@ -8,7 +8,7 @@ Before you start the procedures in this article, ensure you've done the followin
 - [Obtain phone numbers](#obtain-phone-numbers)
 
 > [!NOTE]
-> Resource accounts used for auto attendants and call queues are disabled for sign in and must remain so. Chat and presence are not available for these accounts.
+> Resource accounts used for auto attendants and call queues are disabled for sign in and must remain so. Chat is not available and will not work for these accounts. (Even though presence may still appear.)
 
 ### Obtain Microsoft Teams Phone Resource Account licenses
 
