@@ -30,7 +30,9 @@ description: "Learn how to set up dial-in or Audio Conferencing for the people i
 
 # Set up Audio Conferencing for Microsoft Teams
 
-Sometimes people in your organization need to use a phone to call in to a meeting. Microsoft Teams includes the audio conferencing feature for just this situation! People can call in to Teams meetings using a phone, instead of using the Teams app on a mobile device or PC.
+This article is for administrators and IT professionals who are deploying Audio Conferencing for Teams meetings. Before reading this article, see [Plan for Audio Conferencing](deploy-audio-conferencing-teams-landing-page.md) for information about Audio Conferencing concepts and prerequisites.
+
+Sometimes people in your organization need to use a phone to call in to a meeting. Microsoft Teams includes the Audio Conferencing feature for just this situation. People can call in to Teams meetings using a phone, instead of using the Teams app on a mobile device or PC.
   
 You only need to set up Audio Conferencing for people who plan to schedule or lead meetings. Meeting attendees who dial in don't need any licenses assigned to them or other setup.
   
