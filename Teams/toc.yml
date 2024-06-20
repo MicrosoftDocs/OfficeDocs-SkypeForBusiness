@@ -1618,8 +1618,6 @@ items:
           href: app-permissions.md
         - name: Grant and manage consent to permissions
           href: manage-consent-app-permissions.md
-        - name: Manage resource-specific consent to access team's data
-          href: resource-specific-consent.md
         - name: Brand your organization's app store
           href: customize-your-app-store.md
         - name: Use apps as external user or guest

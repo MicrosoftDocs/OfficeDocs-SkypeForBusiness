@@ -62,11 +62,10 @@ The method to allow users access to an app changes with this functionality. In t
 
 Previously, we automatically migrated organizations that weren't using any custom policies. Admins can now do an on-demand migration. Understand the difference between the two types of migration.
 
-| Considerations      | Assisted migration                   | Automatic migration                     |
-|---------------------|--------------------------------------|-----------------------------------------|
-| Who does it         | Administrator                        | Microsoft                               |
-| Requirement         | Org uses one or more custom policies | Org uses only the default global policy |
-| Nature of migration | Guided UI in admin center            | Automatic, without admin intervention   |
+| Type of migration | Who does it   | Requirement                             | How is it done                        |
+|-------------------|---------------|-----------------------------------------|---------------------------------------|
+| Assisted          | Administrator | Org uses one or more custom policies    | Guided UI in admin center             |
+| Automatic         | Microsoft     | Org uses only the default global policy | Automatic, without admin intervention |
 
 We strongly recommend that you prepare for the migration and follow these steps to prepare:
 
@@ -145,7 +144,7 @@ The Org-wide app settings don’t apply to:
 * All apps that were assigned to Everyone or to No one and saved individually.
 * Any blocked apps.
 
-Consider a scenario where you started using the feature and all apps were assigned to everyone. Now, you changed an app's availability to a specific group or users. After saving such an availability, if you change the Org-wide app setting titled **Let users install and use available apps by default**, then this particular app continues to be assigned to the specific group or users. Your change to the org-wide app setting applies only to those apps for which you didn't change the availability. Further, if you again change the **Let users install and use available apps by default** setting, the availability of all other apps are again impacted, except the app that you actively managed.
+Consider a scenario where you started using the feature and all apps were assigned to everyone. Now, you changed an app's availability to a specific group or some users. After saving this change, if you change the Org-wide app setting titled **Let users install and use available apps by default**, then this particular app continues to be assigned to the specific group or users. Your change to the org-wide app setting applies only to those apps for which you didn't change the availability. Further, if you again change the **Let users install and use available apps by default** setting, the availability of all other apps are again impacted, except the app that you actively managed.
 
 ## View apps in your organization
 
