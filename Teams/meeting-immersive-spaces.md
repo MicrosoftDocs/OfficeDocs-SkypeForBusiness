@@ -6,7 +6,7 @@ manager: tyadams
 audience: ITPro
 ms.reviewer: sekerawa
 ms.date: 05/29/2024
-ms.topic: quickstart
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 f1.keywords: 
@@ -29,7 +29,7 @@ To set up immersive spaces in Teams, you should:
 
 1. Manage user access to the Mesh app using one of the following options:
     1. [Use app centric management for immersive spaces in Teams](#use-app-centric-management-for-immersive-spaces-in-teams)
-    1. [Use app permission policies for immersive spaces in Teams](#use-app-permission-policies-for-immersive-spaces-in-teams)
+    1. [Block immersive spaces in Teams for specific users or groups](#block-immersive-spaces-in-teams-for-specific-users-or-groups)
     1. [Use service plans in the Microsoft 365 Admin Center to allow immersive spaces for Teams](#use-service-plans-in-the-microsoft-365-admin-center-to-allow-immersive-spaces-for-teams)
 
 ## What is an immersive space?
@@ -64,50 +64,40 @@ Teams Essentials, Microsoft 365 Business Basic, Microsoft 365 Business Standard,
 
 To ensure immersive spaces in Teams works properly, access to the following endpoints must be allowed through your firewall or proxy server.
 
-### Ensure endpoints can be allowed for Mesh app
+1. First, ensure you have configured your enterprise firewall settings to align with the standard set of Microsoft 365 requirements outlined in [Microsoft M365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true).
 
-To ensure the Mesh features work properly, the following endpoints must be allowed through your firewall or proxy server. All endpoints need to allow traffic on TCP ports 80 and 443:
+1. In addition to the endpoints listed above, Mesh Immersive Spaces in Teams currently requires that outgoing traffic also be allowed to IP addresses in the "AzureCloud" service tag over the following protocols and ports:
 
-- *.microsoft.com
-- *.office.com
-- *.office.net
+    - TCP: 443, 80
+    - TCP & UDP: 30,000-30,499
+    - UDP: 3478-3481
 
-### Firewall Ports for Mesh
+If you need to resolve a service tag to a list of IP ranges, you can periodically use the [service tag API][service-tag-api] or [download a snapshot][service-tag-download].
 
-In addition to the endpoints, Mesh also requires the following outgoing ports to be opened in your firewall:
-
-- TCP ports 80, 443
-
-- TCP & UDP ports 30,000-30,499
-
-- UDP ports 3478-3481
-
-> [!IMPORTANT]
->Mesh traffic uses IP addresses in the AzureCloud service tag.
->For more information about service tags, see the [Virtual network service tags](/azure/virtual-network/service-tags-overview).
+For more information about service tags, see the [Azure service tags overview][service-tag].
 
 ## Use app centric management for immersive spaces in Teams
 
 > [!IMPORTANT]
 > App centric management of Teams apps is a new feature. For more info on this rollout see [Use app centric management to manage apps | Microsoft Learn](app-centric-management.md).
 
-## Use app permission policies for immersive spaces in Teams
+## Block immersive spaces in Teams for specific users or groups
 
 > [!IMPORTANT]
 > If you disallow or allow the Mesh app, the UI entry point for Immersive space will still be visible for up-to 24 hours.
 
-The **Mesh app is by default allowed in the Teams admin center**. If you want to allow or block the app for specific user groups, create or edit an app permission policy.
+The **Mesh app is by default allowed in the Teams admin center**. If you want to allow or block the app for specific user groups, configure availability via **Manage apps**.
 
 > [!NOTE]
 > It may be more complicated if the tenant already has different app permission policies for users or groups.
 
-1. In the left panel, go to **Teams apps** > **Permission policies**.
-1. In **App permission policies**, select **Add**.
-1. Provide a name and description for the policy.
-1. Under **Microsoft apps**, select **Block specific apps and allow all others**.
-1. Search for and select the **Mesh** app, then select **Block**.
+1. Sign in to the [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/).
+1. In the left panel, go to **Teams apps** > **Manage apps**.
+1. Search for the app named "Mesh" and open the app settings.
+1. Under the Users and groups tab, choose edit availability.
+1. Under the **Users and groups** tab, select edit availability and configure as needed.
 
-    :::image type="content" alt-text="Block the immersive spaces app in permissions policies window in teams admin center." source="media/meetings-immersive-spaces-block-app2.png" lightbox="media/meetings-immersive-spaces-block-app2.png":::
+:::image type="content" source="media/meetings-immersive-spaces-availability.png" alt-text="Screenshot of the Teams Admin Center showing how to manage the availability of the Mesh application." lightbox="media/meetings-immersive-spaces-availability.png":::
 
 > [!NOTE]
 > Users may need to restart Teams for the App setup policy to take effect.
@@ -131,3 +121,7 @@ For more complex and larger group license management, you can do [Assign license
 ## Next steps for immersive spaces
 
 To see all the features and learn more about immersive spaces, see [Immersive spaces in Teams](https://aka.ms/immersivespacesdocs).
+
+[service-tag]: /azure/virtual-network/service-tags-overview
+[service-tag-api]: /azure/virtual-network/service-tags-overview#use-the-service-tag-discovery-api
+[service-tag-download]: /azure/virtual-network/service-tags-overview#discover-service-tags-by-using-downloadable-json-files
