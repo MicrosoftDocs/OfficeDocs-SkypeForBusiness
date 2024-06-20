@@ -50,9 +50,9 @@ App centric management feature simplifies these settings. Each app contains its 
 
 When using this functionality, you determine access to apps using one of the following options for each app:
 
-| New option | What is the app availability | How does it map with previous settings |
-|------------|------------------------------|----------------------------------------|
-| `Everyone` | Available to all org users | Same effect as allowing an app and global (Org-wide default) app permission policy allowing all users to use it. |
+| New option | Who gets the app | How does it map with previous settings |
+|------------|------------------|----------------------------------------|
+| `Everyone` | Available to all org users, new users, and guests | Same effect as allowing an app and global (Org-wide default) app permission policy allowing all users to use it. |
 | `Specific users or groups` | Only the users and groups that you select can use the app. The supported group types are security groups, Microsoft 365 groups, dynamic user membership groups, nested groups, and the distribution lists. | Same as using a custom app permission policy to restrict the use of app to selected users or groups. |
 | `No one` | Not available to any user | Same as a blocked app. |
 
