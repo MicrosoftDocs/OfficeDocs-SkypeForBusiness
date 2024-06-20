@@ -25,12 +25,12 @@ The Mesh app, which enables immersive spaces in Teams, is enabled by default in 
 
 To set up immersive spaces in Teams, you should:
 
-1. [Verify URLs, endpoints, and ports](#verify-endpoints-and-ports) are properly set up.
+1. [Verify endpoints and ports](#verify-endpoints-and-ports) are properly set up.
 
 1. Manage user access to the Mesh app using one of the following options:
     1. [Manage access to immersive spaces in Teams using app centric management](#use-app-centric-management-for-immersive-spaces-in-teams)
     1. [Block immersive spaces in Teams for specific users or groups](#block-immersive-spaces-in-teams-for-specific-users-or-groups)
-    1. [Allow immersive spaces in Temas using service plans in the Microsoft 365 Admin Center](#allow-immersive-spaces-for-teams-using-service-plans-in-the-microsoft-365-admin-center)
+    1. [Allow immersive spaces in Teams using service plans in the Microsoft 365 Admin Center](#allow-immersive-spaces-for-teams-using-service-plans-in-the-microsoft-365-admin-center)
 
 ## What is an immersive space?
 
