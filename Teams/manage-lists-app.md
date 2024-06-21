@@ -34,13 +34,13 @@ ms.custom:
 
 ## Overview of Lists
 
-The Lists app in Microsoft Teams helps users in your organization track information, organize work, and manage workflows. With Lists, users can track data such as issues, assets, routines, contacts, inventory, incidents, loans, patients, and more using customizable views, rules, and alerts to keep everyone on the team in sync.
+The Lists app in Microsoft Teams helps users in your organization track information, organize work, and manage workflows. With Lists, users can track data such as issues, assets, routines, contacts, inventory, incidents, loans, patients, and more. Do this by using customizable views, rules, and alerts to keep everyone on the team in sync.
 
 In Teams, users access Lists as a tab in a channel. Select **+** to open the tab gallery and add a new Lists app tab instance to a channel to get started.
 
 ![Lists app in tab gallery.](media/lists-tab.png)
 
-Users can create new lists or pin existing lists from within the same team or from a different SharePoint site that they have access to. New lists can be created from scratch, from built-in templates, based on the structure of an existing list, or by importing data from an Excel workbook. The Lists app is available in Teams desktop, web, and mobile clients.
+Users can create new lists or pin existing lists from within the same team or from a different SharePoint site that they have access to. New lists can be created from scratch or from built-in templates. They can also be based on the structure of an existing list or by importing data from an Excel workbook. The Lists app is available in Teams desktop, web, and mobile clients.
 
 ![how to create a list in the Lists app.](media/lists-create-list.png)
 
@@ -73,7 +73,7 @@ Lists data is stored in the SharePoint Online team site. To learn more about how
 
 Permissions set in SharePoint apply to lists created in the Lists app. By default, lists inherit permissions from the site to which they belong. These permissions govern the types of actions that users can do, such as whether they can create or edit lists. To learn more, see [Permission levels in SharePoint](/sharepoint/understanding-permission-levels) and [User permissions and permission levels in SharePoint Server](/sharepoint/sites/user-permissions-and-permission-levels).
 
-In certain scenarios, you may want to restrict what actions users can do in lists. For example, a person on a team edits a list view, which changes it for all team members, and you want to allow only the team owner or certain team members to edit list views. To learn more, see [Customize permissions for a SharePoint list or library](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013).
+In certain scenarios, you may want to restrict what actions users can do in lists. For example, a person on a team edits a list view that shouldn't, which changes it for all team members. With restrictions, you can allow only the team owner or certain team members to edit list views. To learn more, see [Customize permissions for a SharePoint list or library](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013).
 
 > [!NOTE]
 > At this point, owner and member permissions in a team aren't linked in any way to permissions in the team site that govern the behavior of lists or the Lists App. However, based on customer feedback and usage, this will be considered for a future iteration of the product.  
@@ -86,7 +86,7 @@ Guests can't create or delete a list. They can add list items to existing lists,
 
 ### Lists and the SharePoint app
 
-If users in your organization created lists using the SharePoint app, those lists will be automatically moved to Lists without any action needed from the user. To get the best and richest lists integration experience in Teams, use the Lists app and pin your existing lists.
+If users in your organization created lists using the SharePoint app, those lists are automatically moved to Lists without any action needed from the user. To get the best and richest lists integration experience in Teams, use the Lists app and pin your existing lists.
 
 ## Set up Lists
 
