@@ -177,12 +177,12 @@ Make sure the user’s device has network connectivity (UDP and TCP) to endpoint
 A walkthrough of the architexture in the diagram:
 
 1. Start new Teams.​
-1. Teams client authenticates to Teams services. Tenant policies are pushed down to the Teams client, and relevant configurations are relayed to the app.​
-1. Teams detects that it’s running in a virtual desktop environment and instantiates the internal vdibridge service​.
-1. Teams opens a secure virtual channel on the server​.
-1. The RDP or HDX protocol carries the request to the RD Client or Citrix Workspace app that previously loaded MsTeamsPlugin (client-side virtual channel component)​.
-1. The RD Client or Citrix Workspace app spawns a new process called MsTeamsVdi.exe, which is the new media engine (SlimCore) used for the new optimization​.
-1. SlimCore media engine (on the client) and msteams.exe (on the virtual desktop) now have a bidirectional channel and can start processing multimedia requests.​
+2. Teams client authenticates to Teams services. Tenant policies are pushed down to the Teams client, and relevant configurations are relayed to the app.​
+3. Teams detects that it’s running in a virtual desktop environment and instantiates the internal vdibridge service​.
+4. Teams opens a secure virtual channel on the server​.
+5. The RDP or HDX protocol carries the request to the RD Client or Citrix Workspace app that previously loaded MsTeamsPlugin (client-side virtual channel component)​.
+6. The RD Client or Citrix Workspace app spawns a new process called MsTeamsVdi.exe, which is the new media engine (SlimCore) used for the new optimization​.
+7. SlimCore media engine (on the client) and msteams.exe (on the virtual desktop) now have a bidirectional channel and can start processing multimedia requests.​
 
 User calls
 
