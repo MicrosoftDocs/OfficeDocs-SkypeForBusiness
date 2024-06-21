@@ -170,9 +170,9 @@ Make sure the user’s device has network connectivity (UDP and TCP) to endpoint
 |127 |Default required  |No  |*.skype.com  |TCP: 443, 80                |      |
 
 
-### Network architecture  XXX 
+### Network architecture
 
-
+:::image type="content" source="media/teams-vdi-2-network-architecture.png" alt-text="The network architecture of Teams VDI 2.":::
 
 
 
