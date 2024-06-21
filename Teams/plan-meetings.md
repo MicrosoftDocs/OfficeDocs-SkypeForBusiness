@@ -97,7 +97,7 @@ People from other trusted Microsoft 365 organizations can attend meetings withou
 
 ## Attendee limits and streaming options
 
-Up to 10,000 attendees can join a Teams meeting, however, after 1,000 users enter a meeting, extra attendees will join with a view-only experience. View-only attendees don't have access to the meeting chat or be able to share content or video.
+Up to 10,000 attendees can join a Teams meeting, however if view-only mode is enabled, after 900 users enter a meeting, extra attendees will join with a view-only experience. View-only attendees don't have access to the meeting chat or be able to share content or video.
 
 You can allow or prevent the view-only experience for meetings with more than 1,000 attendees. If you disable the view-only experience, meeting attendance is limited to the first 1,000 attendees.
 
