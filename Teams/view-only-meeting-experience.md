@@ -24,13 +24,13 @@ appliesto:
 
 **APPLIES TO:** ✔️Meetings ✖️Webinars ✖️Town halls
 
-Microsoft Teams supports up to 10,000 attendees in a meeting. Once the main meeting reaches capacity at 1,000 users, additional attendees join with a view-only experience. Attendees in the view-only experience can view the meeting, but have limited access to meeting features. Meeting organizers see notifications for the view-only experience when around 500 users are in the meeting.
+Microsoft Teams supports up to 10,000 attendees in a meeting. Once the main meeting nears it's capacity at 900 users, additional attendees join with a view-only experience. Attendees in the view-only experience can view the meeting, but have limited access to meeting features. Meeting organizers see notifications for the view-only experience when around 500 users are in the meeting.
 
 Initial attendees who join before the meeting capacity enjoy full meeting experience. These attendees can share audio/video, see shared content, and participate in chat.
 
 Attendees who join after the main meeting capacity is reached have a view-only experience. These attendees can join the view-only experience through desktop, web, and Teams mobile (Android and iOS).
 
-As an admin, you can decide if organizers with this policy have the view-only experience attendees join after the 1,000 user capacity. If you disable the view-only experience, meeting attendance is limited to the first 1,000 attendees.
+As an admin, you can decide if organizers with this policy have the view-only experience attendees join after the first 900 users. If you disable the view-only experience, meeting attendance is limited to the first 1,000 attendees.
 
 ## Teams view-only experience controls
 
@@ -57,15 +57,15 @@ When the capacity of the main meeting is reached, an attendee can't join the mee
 - You didn't enable the Teams view-only experience for either the organizer or for the entire tenant.
 - The view-only attendee can't bypass the lobby. For example, if a meeting  organizer chooses to have only **People in my organization** bypass the lobby, an attendee outside of the org can't join the meeting as a view-only attendee.
 
-When the capacity of the main meeting is reached, the meeting organizer and presenters see a banner informing them that new attendees might join as view-only attendees.
+When the capacity of the main meeting has reached 900, the meeting organizer and presenters see a banner informing them that new attendees might join as view-only attendees.
 
   ![the Teams client and banner message for organizers and presenters.](media/chat-and-banner-message.png)
 
-When the capacity of the main meeting is reached, meeting attendees are informed on the pre-join screen that they're joining in view-only mode.
+When the capacity of the main meeting has reached 900, meeting attendees are informed on the pre-join screen that they're joining in view-only mode.
 
   ![the Teams pre-join screen and the message for participants telling them that they will join in view-only mode.](media/view-only-pre-join-screen.png)
 
-Before the meeting reaches capacity, attendees always join the main meeting. If the main meeting reaches capacity and attendees leave, new space becomes available, allowing new attendees to join the main meeting until it fills up again. View-only attendees can't be promoted to the main meeting.
+Before the meeting reaches capacity, attendees always join the main meeting. If the main meeting reaches 900 and attendees leave, new attendees will still join in view-only mode. View-only attendees can't be promoted to the main meeting.
 
 If presenter and attendee roles are set, presenters who join after capacity is reached in the main meeting become view-only attendees. These presenters have the same limitations as other view-only attendees. Organizers are always guaranteed space in the main meeting.
 
