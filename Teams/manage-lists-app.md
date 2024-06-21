@@ -65,11 +65,11 @@ Before moving to Teams, mail carriers had to go back to the post office to compl
 
 ### Lists is available in every team and channel
 
-Lists is pre-installed for all Teams users and is available directly in the tab gallery of every team and channel. This means that users don't have to go to the Teams app store to install it.
+Lists is preinstalled for all Teams users and is available directly in the tab gallery of every team and channel. This means that users don't have to go to the Teams app store to install it.
 
 ### Lists and SharePoint
 
-Lists data is stored in the SharePoint Online team site. To learn more about how SharePoint Online interacts with Teams, see [How SharePoint Online and OneDrive for Business interact with Teams](SharePoint-OneDrive-interact.md).
+Lists data is stored in the SharePoint Online team site. To learn more about how SharePoint Online interacts with Teams, see [How SharePoint Online and OneDrive interact with Teams](SharePoint-OneDrive-interact.md).
 
 Permissions set in SharePoint apply to lists created in the Lists app. By default, lists inherit permissions from the site to which they belong. These permissions govern the types of actions that users can do, such as whether they can create or edit lists. To learn more, see [Permission levels in SharePoint](/sharepoint/understanding-permission-levels) and [User permissions and permission levels in SharePoint Server](/sharepoint/sites/user-permissions-and-permission-levels).
 
@@ -118,7 +118,7 @@ Lists supports [Power Automate](/power-automate/flow-types) for workflows and [P
 
 ## Lists data
 
-The Lists app is based on SharePoint and Lists data is stored in the SharePoint Online team site. See [Data Residency for SharePoint Online and OneDrive for Business](/microsoft-365/enterprise/m365-dr-workload-spo?view=o365-worldwide) for more information.
+The Lists app is based on SharePoint and Lists data is stored in the SharePoint Online team site. For more information, see [Data Residency for SharePoint Online and OneDrive](/microsoft-365/enterprise/m365-dr-workload-spo?view=o365-worldwide) for more information.
 
 ## Give feedback or report an issue
   
