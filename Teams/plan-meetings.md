@@ -141,7 +141,6 @@ Teams admins and organizers have different policies and settings to control the 
 |[Registration](set-up-meeting-registration.md)|Can allow or prevent meeting registration.|Can require meeting registration if allowed by admin.|
 |[RTMP-In (Teams Premium)](meetings-rtmp-in.md)|Can control whether organizers can use RTMP-In for their meetings. |Can produce their Teams meetings directly from an external hardware or software-based encoder to integrate different types of media. To start streaming from the encoder, organizers can choose RTMP-In from their meeting options and then access the RTMP link and key. |
 |[Scheduling](manage-who-can-schedule-meetings.md)|Can define who can schedule private and channel meetings.|Can schedule meetings if allowed by admin.|
-|[Streaming](view-only-meeting-experience.md)|Can allow or prevent streaming experience for attendees over 1,000.|No control.|
 |[Meeting Theme (Teams Premium)](meeting-themes.md)|Can define meeting themes, including colors, images, and logo.|Can turn the admin-defined theme on or off.|
 |[Transcription and captions](meeting-transcription-captions.md)|Can allow or prevent transcription and closed captions for attendees.|Can enable captions.|
 |[View-only](view-only-meeting-experience.md)|Allow organizers to host large meetings where after the meeting reaches capacity at 1,000 users, additional attendees join with a view-only experience.|No control.|
