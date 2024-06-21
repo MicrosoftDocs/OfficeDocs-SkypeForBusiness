@@ -233,8 +233,6 @@ Implement QoS settings for endpoints and network devices and determine how you w
 |User-uploaded background effect   |Coming soon                                                     |
 |Zoom +/-                          |Coming soon                                                     |
 
-
-
 ## Slimcore user profile on the endpoint
 
 The new solution for VDI stores user-specific data on the endpoint in the following locations, depending on your vendor:
@@ -401,7 +399,7 @@ To debug installations, you can enable installer logging, but then you must use 
 
 ## Troubleshooting SlimCoreVdi MSIX deployment errors
 
-Make sure you review the [SlimCore MSIX staging and registration on the endpoint](#slimcore-msix-staging-and-registration-on-the-endpoint) section, as certain GPOs can prevent MSIX installations.
+Make sure you review the [SlimCore MSIX staging and registration on the endpoint](#step-3-slimcore-msix-staging-and-registration-on-the-endpoint) section, as certain GPOs can prevent MSIX installations.
 
 Diagnostic information can be found in the detailed event logs on the user’s device.
 
