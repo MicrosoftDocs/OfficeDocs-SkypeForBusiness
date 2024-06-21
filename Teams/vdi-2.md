@@ -174,7 +174,22 @@ Make sure the user’s device has network connectivity (UDP and TCP) to endpoint
 
 :::image type="content" source="media/teams-vdi-2-network-architecture.png" alt-text="The network architecture of Teams VDI 2.":::
 
+A walkthrough of the architexture in the diagram:
 
+1. Start new Teams.​
+1. Teams client authenticates to Teams services. Tenant policies are pushed down to the Teams client, and relevant configurations are relayed to the app.​
+1. Teams detects that it’s running in a virtual desktop environment and instantiates the internal vdibridge service​.
+1. Teams opens a secure virtual channel on the server​.
+1. The RDP or HDX protocol carries the request to the RD Client or Citrix Workspace app that previously loaded MsTeamsPlugin (client-side virtual channel component)​.
+1. The RD Client or Citrix Workspace app spawns a new process called MsTeamsVdi.exe, which is the new media engine (SlimCore) used for the new optimization​.
+1. SlimCore media engine (on the client) and msteams.exe (on the virtual desktop) now have a bidirectional channel and can start processing multimedia requests.​
+
+User calls
+
+8. Peer A clicks the call button. MsTeamsVdi.exe communicates with the Microsoft Teams services in Azure, establishing an end-to-end signaling path with Peer B. MsTeamsVdi.exe collects a series of supported call parameters (codecs, resolutions, and so forth, which is known as a Session Description Protocol (SDP) offer). These call parameters are then relayed using the signaling path to the Microsoft Teams services in Azure and from there to the other peer.​
+9. The SDP offer/answer (single-pass negotiation) takes place through the signaling channel, and the ICE connectivity checks (NAT and Firewall traversal using STUN bind requests) complete. Then, Secure Real-time Transport Protocol (SRTP) media flows directly between MsTeamsVdi.exe and the other peer (or Teams Transport Relays or Conference servers).
+
+IP blocks for signaling, media, background effects, and other options are described in [this article](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams).
 
 ### Types of traffic handled by SlimCore on the endpoint
 
