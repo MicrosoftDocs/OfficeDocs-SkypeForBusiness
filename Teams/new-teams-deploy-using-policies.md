@@ -55,7 +55,7 @@ Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-
 
 ## Set the policies to upgrade to the new Teams client
 
-As an admin, you can manage how new Teams to your users.
+As an admin, you can manage how new Teams becomes available to your users.
 
 To control which users can see the toggle, use the Teams admin setting **UseNewTeamsClient** under the **TeamsUpdateManagement** policy.
 
