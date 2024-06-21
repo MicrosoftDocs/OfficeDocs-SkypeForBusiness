@@ -165,8 +165,11 @@ Make sure the user’s device has network connectivity (UDP and TCP) to endpoint
 |127 |Default required  |No  |*.skype.com  |TCP: 443, 80                |      |
 
 
-XXXX ARCHITECTURE/TOPOLOGY SCREEN THAT NEEDS TO BE WRITTEN OUT FOR ACCESSIBILITY AND SEO
-There are numbers on the diagram in the word doc, so I know there's a narrative somewhere for this screenshot. We also can't use the diagram and the colors don't work.
+### Network architecture  XXX 
+
+
+
+
 
 ### Types of traffic handled by SlimCore on the endpoint
 
@@ -270,7 +273,7 @@ By default, the MsTeamsPlugin automatically downloads and installs the right Sli
   > [!NOTE]
   > If the Plugin can't find a SlimCore MSIX package in the local or network storage, it automatically attempts to download it from the Microsoft public CDN as a fallback.
 
-#### Known issues XXX IS THIS SUPPOSED TO BE IN THE KNOWN ISSUES DOC? IS THERE RESOLUTION
+#### Known issues
 
 - Azure RemoteApps and Citrix Published Apps are not supported at this time.
 - Calls drop on Teams running on the local machine that has an HID peripheral connected if a user launches a virtual desktop from that same local machine and logs into Teams.
@@ -302,7 +305,7 @@ Users who have App Protection enabled can still share their screen and apps whil
   - Error Codes 2000 (“No Plugin”) and 2001 ("Virtual Channel not available") are the most likely causes.
   
   1. Make sure your ‘Virtual Channel Allow list’ is properly configured to allow MSTEAMS, MSTEAM1, MSTEAM2.
-  2. Make sure the endpoint has the plugin, and is loaded by the VDI Client (see the media optimization section), with Process Explorer XXX WHERE IS THE MEDIA OPTIMIZATION SECTION WE HAVE NOTHING CALLED THAT:
+  2. Make sure the endpoint has the plugin, and is loaded by the VDI Client with Process Explorer:
     a. Run [process explorer](/sysinternals/downloads/process-explorer).
     b. Enable the bottom pane and switch to the DLL tab.
     c. On AVD, look for the msrdc.exe process and ensure the MsTeamsPluginAvd.dll is loaded.
