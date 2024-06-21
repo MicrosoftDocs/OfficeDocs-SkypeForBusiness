@@ -297,7 +297,6 @@ The types of apps to permission are divided into three categories - Microsoft ap
 - [Information accessed and actions performed by apps and related admin considerations](app-permissions.md)
 - [View and understand app permissions](app-permissions.md)
 - [Grant and manage consent to app permissions](manage-consent-app-permissions.md)
-- [Resource-specific consent in Microsoft Teams](resource-specific-consent.md)
 - [Set-CsTeamsAppPermissionPolicy](/powershell/module/teams/set-csteamsapppermissionpolicy)
 
 ### Setup policies

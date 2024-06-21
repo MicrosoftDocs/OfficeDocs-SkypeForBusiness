@@ -54,7 +54,7 @@ If you set up multiple Teams retention policies with different retention setting
 
 - If there's a conflict between retaining or deleting the same content, the content is always retained in the secured location so that it remains searchable with eDiscovery for compliance administrators.
 
-    This principle also applies to messages that are under eDiscovery holds for legal or investigative reasons.
+  This principle also applies to messages that are under eDiscovery holds for legal or investigative reasons.
 
 - If there's a conflict in how long to retain the same content, it is retained in the secured location for the longest retention period.
 
@@ -76,7 +76,9 @@ For example, for standard channel messages: Create a retention policy for specif
 
 To create or edit a retention policy for Teams messages, use the instructions from [Create and configure a retention policy](/purview/create-retention-policies?tabs=teams-retention#create-and-configure-a-retention-policy) and the **Retention policy for Teams** tab.
 
-That page has additional information about creating and managing retention policies for other workloads in Microsoft 365. For example, you might want to also create a retention policy for Microsoft 365 groups to retain and delete files that are accessed in Teams and stored in OneDrive or SharePoint.  
+That page has additional information about creating and managing retention policies for other workloads in Microsoft 365. For example, you might want to also create a retention policy for Microsoft 365 groups to retain and delete files that are accessed in Teams and stored in OneDrive or SharePoint.
+
+Data can be stored in the form of screenshots in an end users's local drive through the Windows Recall feature and is managed separately. See the [Manage Windows Recall](/windows/client-management/manage-recall) article for more information.
 
 ## End-user experience
 
