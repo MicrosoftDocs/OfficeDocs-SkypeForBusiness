@@ -30,7 +30,7 @@ description: Learn how to plan for meetings in Microsoft Teams.
 
 **APPLIES TO:** ✔️Meetings ✖️Webinars ✖️Town halls
 
-Meetings in Teams include audio, video, and screen sharing for up to 1,000 people and view-only capabilities for participants over 1,000. Participants can be users in your org or if you allow it, people outside your organization. Meeting organizers can control which features are available in a given meeting and you can control the availability and default value for many of these features by using meeting policies.
+Meetings in Teams include audio, video, and screen sharing for up to 1,000 people and view-only capabilities for participants over 1,000. Participants can be users in your org, or if you allow it, people outside your organization. Meeting organizers can control which features are available in a given meeting and you can control the availability and default value for many of these features by using meeting policies.
 
 The following types of meetings are available:
 
