@@ -847,18 +847,14 @@ items:
           href: teams-stream-troubleshooting.md
     - name: Audio Conferencing
       items: 
-        - name: Audio Conferencing in Microsoft 365
+        - name: Plan your deployment
           href: audio-conferencing-in-office-365.md
-        - name: Planning
-          items:
-            - name: Plan your deployment
-              href: deploy-audio-conferencing-teams-landing-page.md
-            - name: On-network Conferencing for Audio Conferencing
-              href: audio-conferencing-on-network.md
-            - name: Audio Conferencing common questions
-              href: audio-conferencing-common-questions.md
-            - name: Try or purchase Audio Conferencing in Microsoft 365
-              href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
+        - name: Audio Conferencing common questions
+          href: audio-conferencing-common-questions.md
+        - name: Try or purchase Audio Conferencing in Microsoft 365
+          href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
+        - name: On-network Conferencing for Audio Conferencing
+          href: audio-conferencing-on-network.md
         - name: Set up
           items:
             - name: Set up Audio Conferencing
@@ -1622,8 +1618,6 @@ items:
           href: app-permissions.md
         - name: Grant and manage consent to permissions
           href: manage-consent-app-permissions.md
-        - name: Manage resource-specific consent to access team's data
-          href: resource-specific-consent.md
         - name: Brand your organization's app store
           href: customize-your-app-store.md
         - name: Use apps as external user or guest

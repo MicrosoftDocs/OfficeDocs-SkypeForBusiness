@@ -50,9 +50,9 @@ App centric management feature simplifies these settings. Each app contains its 
 
 When using this functionality, you determine access to apps using one of the following options for each app:
 
-| New option | What is the app availability | How does it map with previous settings |
-|------------|------------------------------|----------------------------------------|
-| `Everyone` | Available to all org users | Same effect as allowing an app and global (Org-wide default) app permission policy allowing all users to use it. |
+| New option | Who gets the app | How does it map with previous settings |
+|------------|------------------|----------------------------------------|
+| `Everyone` | Available to all org users, new users, and guests | Same effect as allowing an app and global (Org-wide default) app permission policy allowing all users to use it. |
 | `Specific users or groups` | Only the users and groups that you select can use the app. The supported group types are security groups, Microsoft 365 groups, dynamic user membership groups, nested groups, and the distribution lists. | Same as using a custom app permission policy to restrict the use of app to selected users or groups. |
 | `No one` | Not available to any user | Same as a blocked app. |
 
@@ -62,11 +62,10 @@ The method to allow users access to an app changes with this functionality. In t
 
 Previously, we automatically migrated organizations that weren't using any custom policies. Admins can now do an on-demand migration. Understand the difference between the two types of migration.
 
-| Considerations      | Assisted migration                   | Automatic migration                     |
-|---------------------|--------------------------------------|-----------------------------------------|
-| Who does it         | Administrator                        | Microsoft                               |
-| Requirement         | Org uses one or more custom policies | Org uses only the default global policy |
-| Nature of migration | Guided UI in admin center            | Automatic, without admin intervention   |
+| Type of migration | Who does it   | Requirement                             | How is it done                        |
+|-------------------|---------------|-----------------------------------------|---------------------------------------|
+| Assisted          | Administrator | Org uses one or more custom policies    | Guided UI in admin center             |
+| Automatic         | Microsoft     | Org uses only the default global policy | Automatic, without admin intervention |
 
 We strongly recommend that you prepare for the migration and follow these steps to prepare:
 
@@ -145,7 +144,7 @@ The Org-wide app settings don’t apply to:
 * All apps that were assigned to Everyone or to No one and saved individually.
 * Any blocked apps.
 
-Consider a scenario where you started using the feature and all apps were assigned to everyone. Now, you changed an app's availability to a specific group or users. After saving such an availability, if you change the Org-wide app setting titled **Let users install and use available apps by default**, then this particular app continues to be assigned to the specific group or users. Your change to the org-wide app setting applies only to those apps for which you didn't change the availability. Further, if you again change the **Let users install and use available apps by default** setting, the availability of all other apps are again impacted, except the app that you actively managed.
+Consider a scenario where you started using the feature and all apps were assigned to everyone. Now, you changed an app's availability to a specific group or some users. After saving this change, if you change the Org-wide app setting titled **Let users install and use available apps by default**, then this particular app continues to be assigned to the specific group or users. Your change to the org-wide app setting applies only to those apps for which you didn't change the availability. Further, if you again change the **Let users install and use available apps by default** setting, the availability of all other apps are again impacted, except the app that you actively managed.
 
 ## View apps in your organization
 
