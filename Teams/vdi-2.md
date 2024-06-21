@@ -40,7 +40,7 @@ New VDI solution for Teams is a new architecture for optimizing the delivery of 
 |New Teams   |24124.2315.2911.3357                                                                                      |
 |AVD/W365    |Windows App: 1.3.252</br>Remote Desktop Client: 1.2.5405.0                                                |
 |Citrix      |VDA: 2203 LTSR CU2 or 2212 CR</br>Citrix Workspace app: 2203 LTSR (any CU), 2402 LTSR, or 2302 CR          |
-|Endpoint    |Windows 10 1809 (SlimCore minimum requirement)</br>GPOs must not block MSIX installations (sideloading must be enabled)</br>Minimum CPU: Intel Celeron (or equivalent) @ 1.10 GHz, 4 Cores, Minimum RAM: 4 GB |
+|Endpoint    |Windows 10 1809 (SlimCore minimum requirement)</br>GPOs must not block MSIX installations (see section below 'Step 3: SlimCore MSIX staging and registration on the endpoint')</br>Minimum CPU: Intel Celeron (or equivalent) @ 1.10 GHz, 4 Cores, Minimum RAM: 4 GB |
 
 ## Optimizing with new VDI solution for Teams
 
@@ -59,6 +59,9 @@ New VDI solution for Teams is a new architecture for optimizing the delivery of 
   a. Using the user interface when installing CWA:
      On the **Add-on(s)** page, select the **Install Microsoft Teams VDI plug-in** checkbox, and then select **Install**.
      Agree to the user agreement that pops up and proceed with the installation of the Citrix Workspace app.
+
+   Note: Citrix Workspace app 2402 will only present the plugin installation UI on a fresh install. For in-place upgrades to also present this option, Citrix Workspace app 2405 or higher is required.
+
   b. Via command line or scripts for managed devices using:
     `C:\>CitrixWorkspaceApp.exe installMSTeamsPlugin`
   c. Admins can also install the plugin manually on top of any existing supported CWA (see [System Requirements](#system-requirements)) using tools like SCCM (use the Windows app package deployment type) or Intune (use the Line-of-Business app).
@@ -77,7 +80,7 @@ The plugin MSI automatically detects the CWA installation folder and places MsTe
 - Plugins can't be downgraded, only upgraded or reinstalled (repaired).
 - If no CWA is found on the endpoint, installation is stopped.
 
-### SlimCore MSIX staging and registration on the endpoint
+### Step 3: SlimCore MSIX staging and registration on the endpoint
 
 The plugin silently executes this step, without user or admin intervention. The staging and registration relies on the App Readiness Service (ARS) on the endpoint. It's possible that the MSIX package installation is blocked by registry keys set by a Group Policy or a third-party tool. For a complete list of applicable registry keys, see [How Group Policy works with packaged apps - MSIX](/windows/msix/group-policy-msix).
 
@@ -104,6 +107,8 @@ Some policies might change these registry keys and block app installation in you
 
 - Prevent non-admin users from installing packaged Windows apps.
 - Allow all trusted apps to install (disabled).
+
+Note: AppLocker or Windows Defender Application Control can also prevent MSIX package installation. Make sure there is no blocking configuration or policy.
 
 ## Verifying that the end point is optimized
 
@@ -177,7 +182,7 @@ Make sure the user’s device has network connectivity (UDP and TCP) to endpoint
 1. Real-time media. Data encapsulated within Real-time Transport Protocol (RTP) that supports audio, video, and screen sharing workloads. In general, media traffic is highly latency sensitive. This traffic must take the most direct path possible and use UDP versus TCP as the transport layer protocol, which is the best transport for interactive real-time media from a quality perspective.
   a. As a last resort, media can use TCP/IP and also be tunneled within the HTTP protocol, but it isn't recommended due to bad quality implications.
   b. RTP flow is secured using SRTP, in which only the payload is encrypted.
-1. Signaling. The communication link between the endpoint and Teams servers, or other clients, that's used to control activities (for example, when a call is initiated). Most signaling traffic uses the HTTPS-based REST interfaces, though in some scenarios (for example, the connection between Microsoft 365 and a Session Border Controller) it uses SIP protocol. It's important to understand that this traffic is much less sensitive to latency but may cause service outages or call timeouts if latency between the endpoints exceeds several seconds.
+1. Signaling. The communication link between the endpoint and Teams servers, or other clients, that's used to control activities (for example, when a call is initiated). Most signaling traffic uses UDP 3478 with fallback to HTTPS, though in some scenarios (for example, the connection between Microsoft 365 and a Session Border Controller) it uses SIP protocol. It's important to understand that this traffic is much less sensitive to latency but may cause service outages or call timeouts if latency between the endpoints exceeds several seconds.
 
 ### Bandwidth consumption
 
@@ -213,6 +218,8 @@ Implement QoS settings for endpoints and network devices and determine how you w
 1. **VPN network**. It isn't recommended for media traffic.
 1. Packet shapers. Any kind of packet sniffer, packet inspection, proxies, or packet shaper devices aren't recommended for Teams media traffic and may degrade quality significantly.
 
+### Feature list with the new optimization
+
 |Feature                           |Available                                                       |
 |----------------------------------|----------------------------------------------------------------|
 |1080p                             |Yes                                                             |
@@ -226,12 +233,7 @@ Implement QoS settings for endpoints and network devices and determine how you w
 |User-uploaded background effect   |Coming soon                                                     |
 |Zoom +/-                          |Coming soon                                                     |
 
-> [!NOTE]
-> Check the VDI Vendor-specific versions required for any VDI 1.0 feature listed in this table.
->
-> - [AVD/W365](/azure/virtual-desktop/teams-supported-features#version-requirements)
-> - [Citrix](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html#feature-matrix-and-version-support)
-> - [VMware](https://kb.omnissa.com/s/article/86475)
+
 
 ## Slimcore user profile on the endpoint
 
@@ -239,6 +241,8 @@ The new solution for VDI stores user-specific data on the endpoint in the follow
 
 - `C:\users\<user>\AppData\Roaming\Microsoft\TeamsVDI\avd-default-<cloudname>\`
 - `C:\users\<user>\AppData\Roaming\Microsoft\TeamsVDI\citrix-default-<cloudname>\`
+
+Locked-down thin clients must allow these locations to be read/write, otherwise the new optimization might fail.
 
 Logs, configurations, and AI or ML models (used in noise suppression, bandwidth estimation, etc.) are saved in this location. If these folders are purged after a user signs out (for example, locked-down thin clients without roaming profiles), MsTeamsVdi.exe will recreate them and download the user-specific configuration (about 6 MB of data).
 
@@ -297,7 +301,7 @@ The new Teams client requires three custom virtual channels to function: MSTEAMS
 
 #### Citrix App Protection and Microsoft Teams compatibility
 
-Users who have App Protection enabled can still share their screen and apps while optimized with VDI 2.0. Sharing requires VDA version 2402 or higher, and CWA for Windows 2309.1 or higher. Users on lower versions will end up sharing a black screen instead when the App Protection module is installed and enabled.
+Users who have App Protection enabled can still share their screen and apps while using the new optimization. Sharing requires VDA version 2402 or higher, and CWA for Windows 2309.1 or higher. Users on lower versions will end up sharing a black screen instead when the App Protection module is installed and enabled.
 
 #### Troubleshooting
 
@@ -310,7 +314,7 @@ Users who have App Protection enabled can still share their screen and apps whil
     b. Enable the bottom pane and switch to the DLL tab.
     c. On AVD, look for the msrdc.exe process and ensure the MsTeamsPluginAvd.dll is loaded.
     d. On Citrix, look for the wfica32.exe process and ensure the MsTeamsPluginCitrix.dll is loaded.
-  3. Restart the new Teams app. It requires a restart to transition from VDI 1.0 to VDI 2.0 mode, when VDI2 is detected for the first time.
+  3. Restart the new Teams app. It requires two restarts to transition from WebRTC to SlimCore, when the plugin is detected for the first time.
   4. If the problem persists, check Event Viewer in the VM for **Microsoft Teams VDI**-related errors (new Teams 24123.X.X.X or higher).
 
 - Not optimized with SlimCore and instead you see: “AVD SlimCore Media Not Connected” or “Citrix SlimCore Media Not Connected”
@@ -322,7 +326,7 @@ Teams logs can be collected by selecting Ctrl+Alt+Shift+1 while running Teams on
 
 ### Vdi_debug.txt is the main file for VDI related information
 
-|Windows  |Citrix   |
+|AVD/W365  |Citrix   |
 |---------|---------|
 |"vdiConnectedState": {"connectedStack": "remote"}, "vdiVersionInfo": {"bridgeVersion": "2024.18.1.11", "remoteSlimcoreVersion": "2024.18.01.11", "nodeId": "1051a908af6b160e", "clientOsVersion": "10.0.22631", "rdClientVersion": "1.2.5405.0", "rdClientProductName": "Microsoft® Remote Desktop", "pluginVersion": "2024.14.01.1", "screenShareFallback": true} |"vdiConnectedState": {"connectedStack": "remote"}, "vdiVersionInfo": {"bridgeVersion": "2024.18.1.14", "remoteSlimcoreVersion": "2024.18.01.14", "nodeId": "ffffffff93eaee6a", "clientOsVersion": "10.0.22631", "rdClientVersion": "24.3.0.64", "rdClientProductName": "Citrix Workspace", "pluginVersion": "2024.15.01.3", "screenShareFallback": true} |
 
