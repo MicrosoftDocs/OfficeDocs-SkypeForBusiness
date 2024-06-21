@@ -118,7 +118,7 @@ Lists supports [Power Automate](/power-automate/flow-types) for workflows and [P
 
 ## Lists data
 
-The Lists app is based on SharePoint and Lists data is stored in the SharePoint team site. For more information, see [Data Residency for SharePoint and OneDrive](/microsoft-365/enterprise/m365-dr-workload-spo?view=o365-worldwide) for more information.
+The Lists app is based on SharePoint and Lists data is stored in the SharePoint team site. For more information, see [Data Residency for SharePoint and OneDrive](/microsoft-365/enterprise/m365-dr-workload-spo) for more information.
 
 ## Give feedback or report an issue
   
