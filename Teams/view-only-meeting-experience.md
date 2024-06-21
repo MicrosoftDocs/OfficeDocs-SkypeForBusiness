@@ -24,7 +24,7 @@ appliesto:
 
 **APPLIES TO:** ✔️Meetings ✖️Webinars ✖️Town halls
 
-Microsoft Teams supports up to 10,000 attendees in a meeting. Once the main meeting nears it's capacity at 900 users, additional attendees join with a view-only experience. Attendees in the view-only experience can view the meeting, but have limited access to meeting features. Meeting organizers see notifications for the view-only experience when around 500 users are in the meeting.
+Microsoft Teams supports up to 10,000 attendees in a meeting. Once the main meeting nears its capacity at 900 users, additional attendees join with a view-only experience. Attendees in the view-only experience can view the meeting, but have limited access to meeting features. Meeting organizers see notifications for the view-only experience when around 500 users are in the meeting.
 
 Initial attendees who join before the meeting capacity enjoy full meeting experience. These attendees can share audio/video, see shared content, and participate in chat.
 
