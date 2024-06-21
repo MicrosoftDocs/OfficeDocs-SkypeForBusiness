@@ -106,11 +106,11 @@ To allow or block specific users in your organization from using Lists, make sur
 
 ## Search the audit log for list events
 
-Lists are enabled with enterprise level auditing so you can search for lists and list item events in the audit log in the Security & Compliance Center. To learn more, see [Search the audit log in the Security & Compliance Center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
+Lists are enabled with enterprise level auditing so you can search for lists and list item events in the audit log in the Microsoft Purview compliance portal. To learn more, see [Search the audit log in the Security & Compliance Center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
 
 For a list of audit events that are relevant to the Lists app in Teams, see [SharePoint list activities](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities).
 
-Before you can search the audit log, you have to first turn on auditing in the [Security & Compliance Center](https://protection.office.com). Keep in mind that audit data is only available from the point at which you turned on auditing.
+Before you can search the audit log, you have to first turn on auditing in the [Microsoft Purview compliance portal](https://compliance.microsoft.com). Keep in mind that audit data is only available from the point at which you turned on auditing.
 
 ## Power Automate, Power Apps, and Graph API
 
