@@ -26,7 +26,11 @@ appliesto:
 
 The Walkie Talkie usage and performance report in the Microsoft Teams admin center gives you an overview of [Walkie Talkie](../walkie-talkie.md) activity in your organization. The report provides information such as the number of push-to-talk (PTT) transmissions made and received, channel activity, transmission duration, and device and participant details.
 
-Use this report to gain insight into Walkie Talkie usage trends and performance in your organization. To access the report, you must be a Global admin, Teams admin, Global reader, or Report reader.
+Use this report to gain insight into Walkie Talkie usage trends and performance in your organization. To access the report, you must be a Teams admin, Global reader, Report reader, or Global admin.
+
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use a less-privileged role.
+
 
 ## Download and view the report
 
