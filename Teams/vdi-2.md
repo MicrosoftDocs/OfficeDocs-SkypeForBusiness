@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.topic: article
-ms.date: 06/15/2024
+ms.date: 06/24/2024
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -48,7 +48,7 @@ New VDI solution for Teams is a new architecture for optimizing the delivery of 
 
 1. Make sure you have the new Microsoft Teams version 24124.2311.2896.3219 or higher.
 1. Enable the new Teams policy **if necessary** for a specific user group (it's enabled by default at a Global org-wide level).
-1. For Citrix, you must configure the **Virtual channel allow list** as described in **Citrix Virtual channel allow list** section of this article.
+1. For Citrix, you must configure the **Virtual channel allow list** as described in the [Citrix Virtual channel allow list](#citrix-virtual-channel-allow-list) section of this article.
 
 ### Step 2: Plugin installation on the endpoint
 
@@ -278,9 +278,9 @@ The new Teams client requires three custom virtual channels to function: MSTEAMS
 - MSTEAM2,C:\Program Files\WindowsApps\MSTeams*8wekyb3d8bbwe\ms-teams.exe
 
 1. Wildcard support is available in:
-  a. VDA 2206 CR
-  b. VDA 2203 LTSR from CU2 onwards
-2. The VDA machines must be rebooted for the policy to take effect
+  a. VDA 2206 CR.
+  b. VDA 2203 LTSR from CU2 onwards.
+2. The VDA machines must be rebooted for the policy to take effect.
 
 #### Citrix App Protection and Microsoft Teams compatibility
 
@@ -300,16 +300,72 @@ Users who have App Protection enabled can still share their screen and apps whil
   3. Restart the new Teams app. It requires a restart to transition from VDI 1.0 to VDI 2.0 mode, when VDI2 is detected for the first time.
   4. If the problem persists, check Event Viewer in the VM for **Microsoft Teams VDI**-related errors (new Teams 24123.X.X.X or higher).
 
-- Not optimized with VDI 2.0 and instead you see:</br>“AVD SlimCore Media Not Connected”</br>“Citrix SlimCore Media Not Connected”
-  - Check the section “Troubleshooting SlimCoreVdi MSIX deployment errors (15xxx)”.
+- Not optimized with SlimCore and instead you see: “AVD SlimCore Media Not Connected” or “Citrix SlimCore Media Not Connected”
+  - Check the [Troubleshooting SlimCoreVdi MSIX deployment errors](#troubleshooting-slimcorevdi-msix-deployment-errors) section. MSIX or AppX-related errors are the most likely reasons for this error.
 
 ## New Teams logs for VDI
 
-Teams logs can be collected by selecting Ctrl+Alt+Shift+1 while running Teams on VM. This action produces a ZIP folder in the Downloads folder. Inside the PROD-WebLogs-*.zip file, look for the Core folder.
+Teams logs can be collected by selecting Ctrl+Alt+Shift+1 while running Teams on a VM. This action produces a ZIP folder in the Downloads folder. Inside the PROD-WebLogs-*.zip file, look for the Core folder.
 
-- vdi_debug.txt is the main file for VDI related information.
-- diagnostics-logs.txt could be on weblogs\user(..).
-- If there's a connection error, the error code can be found from the log line containing "loadErrc" and "deployErrc". The code logged here needs to be mapped using the following table.
+### Vdi_debug.txt is the main file for VDI related information
+
+|Windows  |Citrix   |
+|---------|---------|
+|"vdiConnectedState": {"connectedStack": "remote"}, "vdiVersionInfo": {"bridgeVersion": "2024.18.1.11", "remoteSlimcoreVersion": "2024.18.01.11", "nodeId": "1051a908af6b160e", "clientOsVersion": "10.0.22631", "rdClientVersion": "1.2.5405.0", "rdClientProductName": "Microsoft® Remote Desktop", "pluginVersion": "2024.14.01.1", "screenShareFallback": true} |"vdiConnectedState": {"connectedStack": "remote"}, "vdiVersionInfo": {"bridgeVersion": "2024.18.1.14", "remoteSlimcoreVersion": "2024.18.01.14", "nodeId": "ffffffff93eaee6a", "clientOsVersion": "10.0.22631", "rdClientVersion": "24.3.0.64", "rdClientProductName": "Citrix Workspace", "pluginVersion": "2024.15.01.3", "screenShareFallback": true} |
+
+- **vdiConnectedState** shows the current active calling stack.
+  - **connectedStack**: **remote** indicates Teams has successfully connected to the remote endpoint through the virtual channel. Note that it doesn't necessarily mean the calling stack is successfully initialized, so the user can still encounter calling-related failures, such as being unable to start a call.
+  - **connectedStack**: **local** indicates the virtual channel connection has failed. The user is now on fallback mode.
+- **vdiVersionInfo** provides useful information for the Teams client as well as the endpoint.
+  - **bridgeVersion** is tied to the version of the Teams desktop client running on the VM.
+  - **remoteSlimcroreVersion** is the version of the SlimCore VDI that's available on the endpoint.
+  - **nodeId** is a unique id tied to the endpoint.
+  - **clientOsVersion** is the OS version for the endpoint.
+  - **rdClientVersion** is the version of the remote desktop client running on the endpoint, which is used to connect to the VM.
+  - **rdClientProductName** is the name of the remote desktop client running on the endpoint.
+  - **pluginVersion** is the version of the plugin that is integrated into the remote desktop client.
+
+### Diagnostics-logs.txt could be on weblogs\user(..)
+
+For further investigating VDI connection-related issues, using keyword **vdiBRidgeEventsHandler** provides the logs from the vdiBridge connection and disconnection event handlings, as shown (onConnected event handling) in the following example of a successful connection with the new optimization stack:
+
+`7432 2024-03-01T17:51:22.032Z Inf    vdiBridgeEventsHandler: VDI Mode: slimcore - onConnected: end, currentStack=remote
+7435 2024-03-01T17:51:22.032Z Inf    vdiBridgeEventsHandler: VDI Mode: slimcore - new calling stack type set: currentStack=remote
+7436 2024-03-01T17:51:22.032Z Inf    vdiBridgeEventsHandler: VDI Mode: slimcore - deviceManagerService reloaded
+7445 2024-03-01T17:51:22.031Z Inf    vdiBridgeEventsHandler: VDI Mode: slimcore - calling stack reinit complete with nextStack=remote
+7464 2024-03-01T17:51:21.785Z Inf    vdiBridgeEventsHandler: VDI Mode: slimcore - starting calling stack reinit with nextStack=remote
+7465 2024-03-01T17:51:21.785Z Inf    vdiBridgeEventsHandler: VDI Mode: slimcore - SlimCore replacement complete, remote is now available
+7467 2024-03-01T17:51:21.783Z Inf    vdiBridgeEventsHandler: VDI Mode: slimcore - setVDIOptimizationModeOverride: from SlimCore to SlimCore
+7468 2024-03-01T17:51:21.782Z Inf    vdiBridgeEventsHandler: VDI Mode: slimcore - onConnected: isVersionMismatch=false, forceVersion=undefined, bridgeVersion=2024.5.1.11
+7469 2024-03-01T17:51:21.782Z Inf    vdiBridgeEventsHandler: VDI Mode: slimcore - cached local SlimCore for future (fallback), currentStack=local
+7470 2024-03-01T17:51:21.782Z Inf    vdiBridgeEventsHandler: VDI Mode: slimcore - onConnected: start, vendorType=1, remoteSlimcoreVersion=2024.05.01.11, platform=win-x86, loadErrc=1, deployErrc=24002, nodeId=ffffffffbd7d5e77
+7471 2024-03-01T17:51:21.782Z Inf    vdiBridgeEventsHandler: VDI Mode: slimcore - enqueueBridgeCallback: adding onConnected to queue, 0 bridge callbacks in queue, isBridgeCallbacksQueueProcessing=false`
+
+### Connection error
+
+If there's a connection error, the error code can be found from the log line containing "loadErrc" and "deployErrc". The code logged here needs to be mapped using this table:
+
+|Error code |deployErrc |Definition                       |Notes |
+|-----------|-----------|---------------------------------|------|
+|0          |0          |OK                               |Special code for ‘ConnectedNoPlugin’ Telemetry Messages. |
+|5          |43         |ERROR_ACCESS_DENIED              |MsTeamsVdi.exe process failed at startup. Possibly caused by BlockNonAdminUserInstall being enabled. |
+|404        |3235       |HTTP_STATUS_NOT_FOUND            |Publishing issue: SlimCore MSIX package is not found on CDN. |
+|1260       |10083      |ERROR_ACCESS_DISABLED_BY_POLICY  |This usually means that Windows Package Manager cannot install the SlimCore MSIX package. Event Viewer can show the hex error code 0x800704EC. AppLocker Policies can cause this. Check ‘Step 3’ under “Optimizing with new VDI solution for Teams”. |
+|1460       |11683      |ERROR_TIMEOUT                    |MsTeamsVdi.exe process failed at startup (60sec timeout). |
+|1722       |           |RPC_S_SERVER_UNAVAILABLE         |‘The RPC server is unavailable’ MsTeamsVdi.exe related error. |
+|2000       |16002      |No Plugin                        |Endpoint does not have the MsTeamsPlugin, or if it has it, it did not load (check with Process Explorer). |
+|2001       |           |Virtual Channel Not Available    |Error on Citrix VDA WFAPI. |
+|3000       |24002      |SlimCore Deployment not needed   |This isn't really an error. It's a good indicator that the user is on the new optimization architecture with SlimCore. |
+|3001       |24010      |SlimCore already loaded          |This isn't really an error. It's a good indicator that the user is on the new optimization architecture with SlimCore. |
+|3004       |24035      |Plugin irresponsive              |Try restarting RDP or ICA session. |
+|3005       |24043      |Plugin timeout while downloading |Failure to download the MSIX within 2 minutes. |
+|3007       |24058      |Load timeout                     |SlimCore download or installation timed out (slow internet or App Readiness Service is busy). |
+|4000       |           |ERROR_WINS_INTERNAL              |WINS encountered an error while processing the command. |
+|15615      |1951       |ERROR_INSTALL_POLICY_FAILURE     |SlimCore MSIX related error. To install this app you need either a Windows developer license or a sideloading-enabled system. AllowAllTrustedApps regkey might be set to 0? |
+|15616      |           |ERROR_PACKAGE_UPDATING           |SlimCore MSIX related error 'The application cannot be started because it is currently updating'. |
+|15700      |           |APPMODEL_ERROR_NO_PACKAGE        |The process has no package identity. |
+|16385      |           |                                 |         |
+|16389      |           |                                 |         |
 
 ## Using Event Viewer on the VM for troubleshooting
 
@@ -317,7 +373,7 @@ Every connect/disconnect event gets logged in the Event Viewer running on the Vi
 
 ## Troubleshooting Plugin deployment errors
 
-Diagnostic information can be found in the detailed event logs on the user’s device. After install, MsTeamsPluginCitrix.dll is written into CWA folder. Only for the Citrix platform, the following keys on the Endpoint (not VM) are created:
+Diagnostic information can be found in the detailed event logs on the user’s device. After install, MsTeamsPluginCitrix.dll is written into the CWA folder. Only for the Citrix platform, the following keys on the Endpoint (not VM) are created:
 
 |Key |Key type |Key name |Key value |
 |---------|---------|---------|---------|
@@ -327,6 +383,25 @@ Diagnostic information can be found in the detailed event logs on the user’s d
 To debug installations, you can enable installer logging, but then you must use msiexec manually, and pass correct flags. For example, if the plugin isn't currently installed, it can be installed with logs like this: msiexec.exe /i MsTeamsPluginCitrix.msi /l*vx installer.log.txt.
 
 ## Troubleshooting SlimCoreVdi MSIX deployment errors
+
+Make sure you review the [SlimCore MSIX staging and registration on the endpoint](#slimcore-msix-staging-and-registration-on-the-endpoint) section, as certain GPOs can prevent MSIX installations.
+
+Diagnostic information can be found in the detailed event logs on the user’s device.
+
+1. Go the Event Viewer (Local) > Applications and Services Logs > Microsoft > Windows.
+1. Check for available logs under these categories:
+  a. AppxPackagingOM > Microsoft-Windows-AppxPackaging/Operational
+  b. AppXDeployment-Server > Microsoft-Windows-AppXDeploymentServer/Operational
+1. Review the logs under AppXDeployment-Server.
+
+### Error 15615
+
+Error 15615 usually means that the Windows Package Manager can't install the MSIX package with SlimCoreVdi.
+
+- Make sure the digital signature of that MSIX is trusted by the Endpoint (Go to MSIX > Properties > Digital signatures > Details). It's a valid store-friendly Microsoft signature, but customers may have something special configured.
+- Try to allow sideloading apps from trusted non-store sources.
+  - On Windows 10, this setting is enabled by default, so modify it here in case it is disabled: Settings > Update and Security > For developers > Sideload apps.
+  - On Windows 11, this setting is enabled by default: Settings > Apps > Advanced app settings > Choose where to get apps > Anywhere.
 
 ## Log collection
 
