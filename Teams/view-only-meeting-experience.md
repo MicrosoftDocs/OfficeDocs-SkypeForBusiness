@@ -65,7 +65,7 @@ When the capacity of the main meeting has reached 900, meeting attendees are inf
 
   ![the Teams pre-join screen and the message for participants telling them that they will join in view-only mode.](media/view-only-pre-join-screen.png)
 
-Before the meeting reaches capacity, attendees always join the main meeting. If the main meeting reaches 900 and attendees leave, new attendees will still join in view-only mode. View-only attendees can't be promoted to the main meeting.
+Before the meeting reaches capacity, attendees always join the main meeting. If the main meeting reaches 900 users and some attendees leave, new attendees will still join in view-only mode. View-only attendees can't be promoted to the main meeting.
 
 If presenter and attendee roles are set, presenters who join after capacity is reached in the main meeting become view-only attendees. These presenters have the same limitations as other view-only attendees. Organizers are always guaranteed space in the main meeting.
 
