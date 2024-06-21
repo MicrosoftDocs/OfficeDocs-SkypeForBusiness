@@ -137,6 +137,15 @@ If you enable the bottom pane and switch to the DLL tab, you can also see the Pl
 XXX WHAT DoeS OPTIMIZED EVEN MEAN? EVEN WITH SCREENS, WHAA
 
 
+## Session roaming and reconnections
+
+New Teams will load WebRTC or SlimCore at launch time. If virtual desktop sessions are disconnected (not logged off, Teams is left running on the VM), new Teams cantt switch optimization stacks unless it's restarted. As a result, users might be in fallback mode (not optimized) if they roam between different devices that don’t support the new optimization architecture (for example, a MAC device that is used in BYOD while working from home, and a corporate-managed thin client in the office).
+
+|Reconnecting options                                        |Current optimization is WebRTC |Current optimization is SlimCore |
+|------------------------------------------------------------|-------------------------------|---------------------------------|
+|Reconnecting from an endpoint **without** the MsTeamsPlugin |WebRTC classic optimization    |Fallback (local SlimCore)        |
+|Reconnecting from an endpoint **with** the MsTeamsPlugin    |WebRTC classic optimization    |New SlimCore-based optimization  |
+
 ## Networking considerations
 
 > [!NOTE]
@@ -263,7 +272,8 @@ By default, the MsTeamsPlugin automatically downloads and installs the right Sli
 
 #### Known issues XXX IS THIS SUPPOSED TO BE IN THE KNOWN ISSUES DOC? IS THERE RESOLUTION
 
-If trying to join a meeting right after launching new Teams (for example, clicking on a Teams deep link in Outlook without having new Teams running), the call might drop.
+- Azure RemoteApps and Citrix Published Apps are not supported at this time.
+- Calls drop on Teams running on the local machine that has an HID peripheral connected if a user launches a virtual desktop from that same local machine and logs into Teams.
 
 #### Citrix virtual channel allow list
 
