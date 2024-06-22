@@ -41,9 +41,9 @@ Teams provides safeguards so that your organization's or user's information can'
 1. Admins understand and analyze the permissions required by the app in admin portals.
 1. Data access is granted in two ways. When the app is added to Teams, it's granted access to some basic capabilities that may include access to basic information. Upon granting consent, an app receives access to some data of user and organization or both, based on app permissions that it requested consent for.
 
-## Types of permissions and source of their declaration
+## Understand data access by apps and the required permissions
 
-Based on the ways in which an application can access organization's information, there are two types of permissions:
+An application can access an organization's information in the following two ways:
 
 * **Delegated access**: An application accesses the resource on behalf of the user. This access requires delegated permissions. The application can access only the information that the user can access themselves.
 * **Application access**: An application acts on its own with no user signed in, when it's undesirable to have a specific user signed in or when the data required can't be scoped to a single user. This access required applications permissions. An application if granted consent is able to access data that the permission is associated with.
