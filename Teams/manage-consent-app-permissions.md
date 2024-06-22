@@ -13,7 +13,7 @@ ms.collection:
   - M365-collaboration
   - Tier1
 search.appverid: MET150
-ms.date: 01/11/2024
+ms.date: 06/22/2024
 ms.reviewer: Orion.OMalley
 description: Manage consent to Teams apps permissions to access the required org information.
 f1.keywords:
@@ -28,12 +28,7 @@ ms.custom: seo-marvel-apr2020
 
 <!---
 
-Objective: Know controls and tools available to you to customize and manage consent. This will address your corner cases and help you get a full inventory of the tools at your disposal.
-
-Add content:
-1 para summary of permissions
-
-related articles from AAD:
+Related articles from AAD:
 - Grant consent by constructing your own AAD URL
 - Re-grant permissions after app update.
 - Consent for self vs for users when using the app (screenshot available locally)
@@ -68,20 +63,18 @@ To view and grant consent for all users in your organization, follow these steps
 
 1. Under **Org-wide permissions**, select **Review permissions and consent**.
 
-    :::image type="content" source="media/app-perm-admin-center-org-wide.png" alt-text="Screenshot showing the option to grant consent to Graph permissions requested an app."  lightbox="media/app-perm-admin-center-org-wide-large.png":::
+    :::image type="content" source="media/app-grant-consent-option.png" alt-text="Screenshot showing the option to grant consent to Graph permissions requested an app.":::
 
 1. In the dialog that opens, review the permissions requested by the app.
 
-    :::image type="content" source="media/app-perm-admin-center-org-wide-permissions.png" alt-text="Screenshot of permissions requested by an app.":::
+    :::image type="content" source="media/app-grant-consent-dialog.png" alt-text="Screenshot showing the dialog that accepts consent for the permissions requested by an app.":::
 
-1. If you agree with the permissions requested by the app, select **Accept** to grant consent. A banner temporarily appears at the top of the page to let you know that the requested permissions are granted for the app. The app now has access to the specified resources for all users in your organization for whom the app is allowed. Users aren't prompted now to review the permissions.
+1. If you agree with the permissions requested by the app, select **Accept** to grant consent. A confirmation in the permissions tab let's you know that consent is available for the app. The app now has access to the specified resources for all users in your organization for whom the app is allowed. Users aren't prompted now to review the permissions.
 
-After you grant consent to permissions of an app, you'll see a message in the **Permissions** tab to let you know that consent was granted. If you want to view the app's permissions in Microsoft Entra ID, click the link to open the app's permissions in Microsoft Entra admin center.
-
-:::image type="content" source="media/app-perm-admin-center-org-wide-accepted-new.png" alt-text="Screenshot showing the link to Microsoft Entra admin center after granting consent to Graph permissions.":::
+   :::image type="content" source="media/app-grant-consent-confirmation.png" alt-text="Screenshot showing a confirmation after you grant consent to app permissions.":::
 
 > [!NOTE]
-> If the new version of an app requires extra permissions than the previous version, then you must grant consent to the app again.
+> In the new version of the app, if the developer adds extra permissions that require admin consent, then users are not able to use the app until you [grant consent to the updated app](#grant-consent-to-new-graph-permissions-after-an-app-update).
 
 ## Let users grant consent to low risk Graph permissions
 
@@ -100,17 +93,19 @@ To accomplish this configuration, you must have a Global Administrator, Applicat
 
 ## Check and verify granted consent to permissions
 
-After you grant consent to permissions of an app, you'll see a message in the **Permissions** tab to let you know that consent was granted.
+After you grant consent to permissions of an app, a confirmation in the **Permissions** tab to let you know that consent is available for the app permissions. If you want to view details of each app permissions, follow these steps:
 
-:::image type="content" source="media/app-perm-admin-center-org-wide-accepted-new.png" alt-text="Screenshot showing the link to Entra after granting consent to Graph permissions.":::
+1. Log in to [Microsoft Entra admin center](https://entra.microsoft.com/).
 
-If you want to view the app's permissions in Microsoft Entra ID, select the link to open the app's permissions in Microsoft Entra admin center.
+1. Select **Applications** > [**Enterprise applications**](https://entra.microsoft.com/#view/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/~/AppAppsPreview).
 
-:::image type="content" source="media/consented-perms-entra.png" alt-text="Screenshot showing Entra UI used to view and manage the granted consent to an app's permissions." lightbox="media/consented-perms-entra-large.png":::
+1. Select an application to view its permissions. Select **Permissions** in the applications page.
 
-Select a permission to know more details about it.
+   :::image type="content" source="media/consented-perms-entra.png" alt-text="Screenshot showing Entra UI used to view and manage the granted consent to an app's permissions." lightbox="media/consented-perms-entra-large.png":::
 
-:::image type="content" source="media/graph-permission-details.png" alt-text="Screenshot showing details of a selected permission.":::
+1. Select a permission to know more details about it.
+
+   :::image type="content" source="media/graph-permission-details.png" alt-text="Screenshot showing details of a selected permission.":::
 
 ## Revoke granted consent to permissions
 

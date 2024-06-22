@@ -67,7 +67,7 @@ For each app, its permissions are listed in the app details page in the admin ce
 
 ## Where can admins see all permissions of an app
 
-You can find the details of all types of permissions requested by an app in the Permissions tab of the app details page.
+You can find the details of all types of permissions requested by an app in the Permissions tab of the app details page. Optionally, you can also download all the permissions in a .csv file for further analysis.
 
 :::image type="content" source="media/app-permissions.png" alt-text="Screenshot showing the page in admin center that list and requests permissions for an app and also allows admins to grant consent for such permissions for all org-users."  lightbox="media/app-permissions-details.png":::
 
