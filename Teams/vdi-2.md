@@ -142,7 +142,7 @@ If you enable the bottom pane and switch to the DLL tab, you can also see the Pl
 
 ## Session roaming and reconnections
 
-New Teams will load WebRTC or SlimCore at launch time. If virtual desktop sessions are disconnected (not logged off, Teams is left running on the VM), new Teams cantt switch optimization stacks unless it's restarted. As a result, users might be in fallback mode (not optimized) if they roam between different devices that don’t support the new optimization architecture (for example, a MAC device that is used in BYOD while working from home, and a corporate-managed thin client in the office).
+New Teams will load WebRTC or SlimCore at launch time. If virtual desktop sessions are disconnected (not logged off, Teams is left running on the VM), new Teams can't switch optimization stacks unless it's restarted. As a result, users might be in fallback mode (not optimized) if they roam between different devices that don’t support the new optimization architecture (for example, a MAC device that is used in BYOD while working from home, and a corporate-managed thin client in the office).
 
 |Reconnecting options                                        |Current optimization is WebRTC |Current optimization is SlimCore |
 |------------------------------------------------------------|-------------------------------|---------------------------------|
@@ -171,7 +171,7 @@ Make sure the user’s device has network connectivity (UDP and TCP) to endpoint
 
 :::image type="content" source="media/teams-vdi-2-network-architecture.png" alt-text="The network architecture of Teams VDI 2.":::
 
-A walkthrough of the architexture in the diagram:
+A walkthrough of the architecture in the diagram:
 
 1. Start new Teams.​
 2. Teams client authenticates to Teams services. Tenant policies are pushed down to the Teams client, and relevant configurations are relayed to the app.​
@@ -245,7 +245,7 @@ Implement QoS settings for endpoints and network devices and determine how you w
 |User-uploaded background effect   |Coming soon                                                     |
 |Zoom +/-                          |Coming soon                                                     |
 
-## Slimcore user profile on the endpoint
+## SlimCore user profile on the endpoint
 
 The new solution for VDI stores user-specific data on the endpoint in the following locations, depending on your vendor:
 
@@ -258,7 +258,7 @@ Logs, configurations, and AI or ML models (used in noise suppression, bandwidth 
 
 ### SlimCore installation and upgrade process in locked down Thin Client environments (optional)
 
-By default, the MsTeamsPlugin automatically downloads and installs the right SlimCore media engine version without user or Admin intervention. But customers on restricted network environments in the branch office can opt for an alternative SlimCore distribution process, without requiring the endpoint be able to fetch slimcore packages using https from Microsoft’s public CDN.
+By default, the MsTeamsPlugin automatically downloads and installs the right SlimCore media engine version without user or Admin intervention. But customers on restricted network environments in the branch office can opt for an alternative SlimCore distribution process, without requiring the endpoint be able to fetch SlimCore packages using https from Microsoft’s public CDN.
 
 > [!IMPORTANT]
 > If you must chose this method, you must guarantee that:
@@ -378,7 +378,7 @@ If there's a connection error, the error code can be found from the log line con
 |5          |43         |ERROR_ACCESS_DENIED              |MsTeamsVdi.exe process failed at startup. Possibly caused by BlockNonAdminUserInstall being enabled. |
 |404        |3235       |HTTP_STATUS_NOT_FOUND            |Publishing issue: SlimCore MSIX package is not found on CDN. |
 |1260       |10083      |ERROR_ACCESS_DISABLED_BY_POLICY  |This usually means that Windows Package Manager cannot install the SlimCore MSIX package. Event Viewer can show the hex error code 0x800704EC. AppLocker Policies can cause this error code. Check ‘Step 3’ under "Optimizing with new VDI solution for Teams". |
-|1460       |11683      |ERROR_TIMEOUT                    |MsTeamsVdi.exe process failed at startup (60sec timeout). |
+|1460       |11683      |ERROR_TIMEOUT                    |MsTeamsVdi.exe process failed at startup (60 second timeout). |
 |1722       |           |RPC_S_SERVER_UNAVAILABLE         |‘The RPC server is unavailable’ MsTeamsVdi.exe related error. |
 |2000       |16002      |No Plugin                        |Endpoint does not have the MsTeamsPlugin, or if it has it, it did not load (check with Process Explorer). |
 |2001       |           |Virtual Channel Not Available    |Error on Citrix VDA WFAPI. |
