@@ -91,7 +91,7 @@ App developers choose appropriate permissions from a wide variety of Graph APIs 
 
 1. In the dialog, view the permissions required by the app. For more information about the information available in the dialog, see [information available in the consent prompt](/entra/identity-platform/application-consent-experience).
 
-    :::image type="content" source="media/app-perm-admin-center-org-wide-permissions.png" alt-text="Screenshot of permissions requested by an app.":::
+    :::image type="content" source="media/app-consent-entra-dialog.png" alt-text="Screenshot of permissions requested by an app.":::
 
 A complete list of all the possible permissions is documented in the [Microsoft Graph permissions reference](/graph/permissions-reference).
 
@@ -110,8 +110,6 @@ To view RSC permissions for an app, follow these steps:
 1. Access Teams admin center and go to **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**.
 1. Search for the app you want, select the app name to go to the app details page, and then select the **Permissions** tab.
 1. Under **Resource-specific consent (RSC) permissions**, review the RSC permissions requested by the app.
-
-    :::image type="content" source="media/app-perm-admin-center-rsc.png" alt-text="Screenshot showing an example of how to view RSC permissions of an app.":::
 
 ## What can apps do in Teams
 
