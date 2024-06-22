@@ -119,6 +119,8 @@ Once you meet all the minimum requirements, launching new Teams for the first ti
 
 You can check in the Teams client that you have VDI 2.0 by going to the ellipsis (three dots ...) on the top bar, then selecting Settings > About. The Teams and client versions are listed there.
 
+:::image type="content" source="media/teams-vdi-2-about-teams.png" alt-text="A screenshot of the About Teams window showing VDI versioning.":::
+
 The plugin (MsTeamsPluginAvd.dll or MsTeamsPluginCitrix.dll) is responsible for eventually downloading the media engine, and SlimCore, which is an MSIX package. It installs silently without admin privileges or reboots in (example, exact path varies):
 
 `C:\Program Files\WindowsApps\Microsoft.Teams.SlimCoreVdi.win-x64.2024.15_2024.15.1.5_x64__8wekyb3d8bbwe`
