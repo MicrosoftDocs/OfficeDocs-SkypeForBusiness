@@ -75,7 +75,7 @@ You can find the details of all types of permissions requested by an app in the 
    * **B**: All the Delegated permissions of the app.
    * **C**: [Basic capabilities and interactions with user and data accessed by apps](#what-can-apps-do-in-teams)
 
-To know how you can permit use of an app by granting consent to its permissions, see [grant and manage consent to Teams app permissions](manage-consent-app-permissions.md).
+To know how you can permit use of an app, see [grant and manage consent to Teams app permissions](manage-consent-app-permissions.md).
 
 ## Microsoft Entra ID permissions
 
@@ -139,7 +139,7 @@ Consider the following types of user interaction, required permissions, and data
 
 * A bot added to teams can get a list of names and IDs of the channels in a team.
 
-* When using it in a channel, in a personal chat, or a group chat, the app's bot can access basic identity information of team members (first name, last name, user principal name [UPN], and email address).
+* When using it in a channel, in a personal chat, or a group chat, the app's bot can access basic identity information of team members. The information includes first name, last name, user principal name (UPN), and email address.
 
 * It's possible for an app's bot to send direct or proactive messages to team members even if they haven't interacted with the bot.
 
