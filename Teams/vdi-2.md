@@ -40,7 +40,7 @@ New VDI solution for Teams is a new architecture for optimizing the delivery of 
 |New Teams   |24124.2315.2911.3357                                                                                      |
 |AVD/W365    |Windows App: 1.3.252</br>Remote Desktop Client: 1.2.5405.0                                                |
 |Citrix      |VDA: 2203 LTSR CU2 or 2212 CR</br>Citrix Workspace app: 2203 LTSR (any CU), 2402 LTSR, or 2302 CR          |
-|Endpoint    |Windows 10 1809 (SlimCore minimum requirement)</br>GPOs must not block MSIX installations (see section below 'Step 3: SlimCore MSIX staging and registration on the endpoint')</br>Minimum CPU: Intel Celeron (or equivalent) @ 1.10 GHz, 4 Cores, Minimum RAM: 4 GB |
+|Endpoint    |Windows 10 1809 (SlimCore minimum requirement)</br>GPOs must not block MSIX installations (see [Step 3: SlimCore MSIX staging and registration on the endpoint](#step-3-slimcore-msix-staging-and-registration-on-the-endpoint))</br>Minimum CPU: Intel Celeron (or equivalent) @ 1.10 GHz, 4 Cores, Minimum RAM: 4 GB |
 
 ## Optimizing with new VDI solution for Teams
 
@@ -53,14 +53,14 @@ New VDI solution for Teams is a new architecture for optimizing the delivery of 
 ### Step 2: Plugin installation on the endpoint
 
 1. For AVD and Windows 365, MsTeamsPluginAvd.dll is bundled with the RD Client for Windows 1.2.5405.0, or with the Windows App Store app 1.3.252 or higher.
-  a. The plugin can be found in the same folder location where the RD Client is installed; either AppData\Local\Apps\Remote Desktop or C:\Program Files (x86), depending on the mode it was installed.
+  a. The plugin is found in the same folder location where the RD Client is installed; either AppData\Local\Apps\Remote Desktop or C:\Program Files (x86), depending on the mode it was installed.
   b. For the [Windows App Store](/windows-app/overview) app, since it's MSIX-based, it's found in C:\Program Files\WindowsApps. Access to this folder is restricted.
 1. For Citrix CWA 2402 or higher, MsTeamsPluginCitrix.dll can be installed either:
   a. Using the user interface when installing CWA:
      On the **Add-on(s)** page, select the **Install Microsoft Teams VDI plug-in** checkbox, and then select **Install**.
      Agree to the user agreement that pops up and proceed with the installation of the Citrix Workspace app.
 
-   Note: Citrix Workspace app 2402 will only present the plugin installation UI on a fresh install. For in-place upgrades to also present this option, Citrix Workspace app 2405 or higher is required.
+   Note: Citrix Workspace app 2402 only presents the plugin installation UI on a fresh install. For in-place upgrades to also present this option, Citrix Workspace app 2405 or higher is required.
 
   b. Via command line or scripts for managed devices using:
     `C:\>CitrixWorkspaceApp.exe installMSTeamsPlugin`
@@ -194,7 +194,7 @@ IP blocks for signaling, media, background effects, and other options are descri
 1. Real-time media. Data encapsulated within Real-time Transport Protocol (RTP) that supports audio, video, and screen sharing workloads. In general, media traffic is highly latency sensitive. This traffic must take the most direct path possible and use UDP versus TCP as the transport layer protocol, which is the best transport for interactive real-time media from a quality perspective.
   a. As a last resort, media can use TCP/IP and also be tunneled within the HTTP protocol, but it isn't recommended due to bad quality implications.
   b. RTP flow is secured using SRTP, in which only the payload is encrypted.
-1. Signaling. The communication link between the endpoint and Teams servers, or other clients, that's used to control activities (for example, when a call is initiated). Most signaling traffic uses UDP 3478 with fallback to HTTPS, though in some scenarios (for example, the connection between Microsoft 365 and a Session Border Controller) it uses SIP protocol. It's important to understand that this traffic is much less sensitive to latency but may cause service outages or call timeouts if latency between the endpoints exceeds several seconds.
+1. Signaling. The communication link between the endpoint and Teams servers, or other clients, used to control activities (for example, when a call is initiated). Most signaling traffic uses UDP 3478 with fallback to HTTPS, though in some scenarios (for example, the connection between Microsoft 365 and a Session Border Controller) it uses SIP protocol. It's important to understand that this traffic is much less sensitive to latency but may cause service outages or call timeouts if latency between the endpoints exceeds several seconds.
 
 ### Bandwidth consumption
 
@@ -282,7 +282,7 @@ By default, the MsTeamsPlugin automatically downloads and installs the right Sli
   > [!IMPORTANT]
   > The MSIX package needs to match the architecture or bitness of the Citrix Workspace app (x86 only) or Remote Desktop or Windows App clients: `Microsoft.Teams.SlimCoreVdi.<platform>-<architecture>.msix`.
 
-3. Place the MSIX in a specific folder with the version within the location specified in the registry key, to preserve the structure. For example, C:\Temp\2024.4.1.9\Microsoft.Teams.SlimCoreVdi.win-x86.msix or //ComputerName/SharedFolder/2024.4.1.9/.
+3. Place the MSIX in a specific folder with the version within the location specified in the registry key to preserve the structure. For example, C:\Temp\2024.4.1.9\Microsoft.Teams.SlimCoreVdi.win-x86.msix or //ComputerName/SharedFolder/2024.4.1.9/.
   
   > [!NOTE]
   > If the Plugin can't find a SlimCore MSIX package in the local or network storage, it automatically attempts to download it from the Microsoft public CDN as a fallback.
@@ -294,7 +294,7 @@ By default, the MsTeamsPlugin automatically downloads and installs the right Sli
 
 #### Citrix virtual channel allow list
 
-The [Virtual channel allow list](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/secure/virtual-channel-security#adding-virtual-channels-to-the-allow-list) policy setting in CVAD enables the use of an allow list that specifies which virtual channels are allowed to be opened in an ICA session. When enabled, all processes except the Citrix built-in virtual channels must be stated. As a result, more entries are required for the new Teams client to be able to connect to the client-side plugin (MsTeamsPluginCitrix.dll).
+The [Virtual channel allow list](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/secure/virtual-channel-security#adding-virtual-channels-to-the-allow-list) policy setting in CVAD enables the use of an allow list that specifies which virtual channels can be opened in an ICA session. When enabled, all processes except the Citrix built-in virtual channels must be stated. As a result, more entries are required for the new Teams client to be able to connect to the client-side plugin (MsTeamsPluginCitrix.dll).
 
 With Citrix Virtual Apps and Desktops 2203 or later, the virtual channel allow list is **enabled by default**. These default settings deny access to the new Teams custom virtual channels as the allow list **doesn't** include the new Teams main process name.
 
@@ -316,7 +316,7 @@ Users who have App Protection enabled can still share their screen and apps whil
 #### Troubleshooting
 
 - Not optimized with VDI 2.0 and instead you see:</br>"AVD Media Optimized"</br>"Citrix HDX Optimized"
-  - Error Codes 2000 (“No Plugin”) and 2001 ("Virtual Channel not available") are the most likely causes.
+  - Error Codes 2000 ("No Plugin") and 2001 ("Virtual Channel not available") are the most likely causes.
   
   1. Make sure your ‘Virtual Channel Allow list’ is properly configured to allow MSTEAMS, MSTEAM1, MSTEAM2.
   2. Make sure the endpoint has the plugin, and is loaded by the VDI Client with Process Explorer:
@@ -327,7 +327,7 @@ Users who have App Protection enabled can still share their screen and apps whil
   3. Restart the new Teams app. It requires two restarts to transition from WebRTC to SlimCore, when the plugin is detected for the first time.
   4. If the problem persists, check Event Viewer in the VM for **Microsoft Teams VDI**-related errors (new Teams 24123.X.X.X or higher).
 
-- Not optimized with SlimCore and instead you see: “AVD SlimCore Media Not Connected” or “Citrix SlimCore Media Not Connected”
+- Not optimized with SlimCore and instead you see: "AVD SlimCore Media Not Connected" or "Citrix SlimCore Media Not Connected".
   - Check the [Troubleshooting SlimCoreVdi MSIX deployment errors](#troubleshooting-slimcorevdi-msix-deployment-errors) section. MSIX or AppX-related errors are the most likely reasons for this error.
 
 ## New Teams logs for VDI
@@ -341,9 +341,9 @@ Teams logs can be collected by selecting Ctrl+Alt+Shift+1 while running Teams on
 |"vdiConnectedState": {"connectedStack": "remote"}, "vdiVersionInfo": {"bridgeVersion": "2024.18.1.11", "remoteSlimcoreVersion": "2024.18.01.11", "nodeId": "1051a908af6b160e", "clientOsVersion": "10.0.22631", "rdClientVersion": "1.2.5405.0", "rdClientProductName": "Microsoft® Remote Desktop", "pluginVersion": "2024.14.01.1", "screenShareFallback": true} |"vdiConnectedState": {"connectedStack": "remote"}, "vdiVersionInfo": {"bridgeVersion": "2024.18.1.14", "remoteSlimcoreVersion": "2024.18.01.14", "nodeId": "ffffffff93eaee6a", "clientOsVersion": "10.0.22631", "rdClientVersion": "24.3.0.64", "rdClientProductName": "Citrix Workspace", "pluginVersion": "2024.15.01.3", "screenShareFallback": true} |
 
 - **vdiConnectedState** shows the current active calling stack.
-  - **connectedStack**: **remote** indicates Teams has successfully connected to the remote endpoint through the virtual channel. Note that it doesn't necessarily mean the calling stack is successfully initialized, so the user can still encounter calling-related failures, such as being unable to start a call.
+  - **connectedStack**: **remote** indicates Teams has successfully connected to the remote endpoint through the virtual channel. It doesn't necessarily mean the calling stack is successfully initialized, so the user can still encounter calling-related failures, such as being unable to start a call.
   - **connectedStack**: **local** indicates the virtual channel connection has failed. The user is now on fallback mode.
-- **vdiVersionInfo** provides useful information for the Teams client as well as the endpoint.
+- **vdiVersionInfo** provides useful information for the Teams client and the endpoint.
   - **bridgeVersion** is tied to the version of the Teams desktop client running on the VM.
   - **remoteSlimcroreVersion** is the version of the SlimCore VDI that's available on the endpoint.
   - **nodeId** is a unique id tied to the endpoint.
@@ -377,18 +377,18 @@ If there's a connection error, the error code can be found from the log line con
 |0          |0          |OK                               |Special code for ‘ConnectedNoPlugin’ Telemetry Messages. |
 |5          |43         |ERROR_ACCESS_DENIED              |MsTeamsVdi.exe process failed at startup. Possibly caused by BlockNonAdminUserInstall being enabled. |
 |404        |3235       |HTTP_STATUS_NOT_FOUND            |Publishing issue: SlimCore MSIX package is not found on CDN. |
-|1260       |10083      |ERROR_ACCESS_DISABLED_BY_POLICY  |This usually means that Windows Package Manager cannot install the SlimCore MSIX package. Event Viewer can show the hex error code 0x800704EC. AppLocker Policies can cause this. Check ‘Step 3’ under “Optimizing with new VDI solution for Teams”. |
+|1260       |10083      |ERROR_ACCESS_DISABLED_BY_POLICY  |This usually means that Windows Package Manager cannot install the SlimCore MSIX package. Event Viewer can show the hex error code 0x800704EC. AppLocker Policies can cause this error code. Check ‘Step 3’ under "Optimizing with new VDI solution for Teams". |
 |1460       |11683      |ERROR_TIMEOUT                    |MsTeamsVdi.exe process failed at startup (60sec timeout). |
 |1722       |           |RPC_S_SERVER_UNAVAILABLE         |‘The RPC server is unavailable’ MsTeamsVdi.exe related error. |
 |2000       |16002      |No Plugin                        |Endpoint does not have the MsTeamsPlugin, or if it has it, it did not load (check with Process Explorer). |
 |2001       |           |Virtual Channel Not Available    |Error on Citrix VDA WFAPI. |
-|3000       |24002      |SlimCore Deployment not needed   |This isn't really an error. It's a good indicator that the user is on the new optimization architecture with SlimCore. |
-|3001       |24010      |SlimCore already loaded          |This isn't really an error. It's a good indicator that the user is on the new optimization architecture with SlimCore. |
+|3000       |24002      |SlimCore Deployment not needed   |This code isn't really an error. It's a good indicator that the user is on the new optimization architecture with SlimCore. |
+|3001       |24010      |SlimCore already loaded          |This code isn't really an error. It's a good indicator that the user is on the new optimization architecture with SlimCore. |
 |3004       |24035      |Plugin irresponsive              |Try restarting RDP or ICA session. |
 |3005       |24043      |Plugin timeout while downloading |Failure to download the MSIX within 2 minutes. |
 |3007       |24058      |Load timeout                     |SlimCore download or installation timed out (slow internet or App Readiness Service is busy). |
 |4000       |           |ERROR_WINS_INTERNAL              |WINS encountered an error while processing the command. |
-|15615      |1951       |ERROR_INSTALL_POLICY_FAILURE     |SlimCore MSIX related error. To install this app you need either a Windows developer license or a sideloading-enabled system. AllowAllTrustedApps regkey might be set to 0? |
+|15615      |1951       |ERROR_INSTALL_POLICY_FAILURE     |SlimCore MSIX related error. To install this app, you need either a Windows developer license, or a sideloading-enabled system. AllowAllTrustedApps regkey might be set to 0? |
 |15616      |           |ERROR_PACKAGE_UPDATING           |SlimCore MSIX related error 'The application cannot be started because it is currently updating'. |
 |15700      |           |APPMODEL_ERROR_NO_PACKAGE        |The process has no package identity. |
 |16385      |           |                                 |         |
