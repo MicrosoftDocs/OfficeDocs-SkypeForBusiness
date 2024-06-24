@@ -28,7 +28,7 @@ ms.custom: seo-marvel-apr2020
 
 Depending on their functionality, Teams apps may or may not access your user's or your organization's information to work as intended.
 
-* Some apps that don't seek access to organization's information and hence don't require any approval. Users can use such apps without admin approval or consent as organization's information is secured from such apps.
+* Some apps don't seek access to organization's information and hence don't require any approval. Users can use such apps without admin approval or consent as organization's information is secured from such apps.
 * Some apps require your organization's or user's information to work or to process the information. Such apps can't work unless you allow such an app to access your org's information.
 
 You must evaluate the compliance, security, and data handling information of an app and also understand the permissions requested by the app before you allow an app to be used by your users. To do so, you need to understand about permissions, consent, and the controls available to you.
