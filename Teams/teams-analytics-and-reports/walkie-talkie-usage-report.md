@@ -31,7 +31,6 @@ Use this report to gain insight into Walkie Talkie usage trends and performance 
 > [!IMPORTANT]
 > Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use a less-privileged role.
 
-
 ## Download and view the report
 
 1. In the left navigation of the Microsoft Teams admin center, choose **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **Walkie Talkie usage**.
@@ -41,7 +40,7 @@ Use this report to gain insight into Walkie Talkie usage trends and performance 
 
 ## Interpret the report
 
-The report gives you a breakdown of each transmission made during the date range that you selected. Here's the information that's included in the report.
+The report gives you a breakdown of each transmission made during the date range that you selected. Here's the information included in the report.
 
 |Column name |Description |
 |---------|---------|
@@ -58,7 +57,7 @@ The report gives you a breakdown of each transmission made during the date range
 |NotifiedParticipants|The participants to which a push notification is sent when a transmission starts. In scenarios where the connection between the device and service is lost, a notification is sent to the device to re-establish the connection as soon as possible because a transmission is coming.|
 |AudioDurationMilliseconds|Duration of the transmission in milliseconds.|
 |ConnectionId|ID of each connection to a Walkie Talkie channel that's established by the device.|
-|TransmissionStartTime |Date and time when the first audio packet is received by the service.
+|TransmissionStartTime |Date and time when the first audio packet is received by the service.|
 |TransmissionEndTime|Date and time when the last audio packet is received by the service.|
 |ParticipantList|A semi-colon delimited list of IDs of the devices connected to the channel at the time the transmission is sent.|
 |CallTimedOut|Whether the transmission exceeded the duration limit. This is a Boolean value.|
