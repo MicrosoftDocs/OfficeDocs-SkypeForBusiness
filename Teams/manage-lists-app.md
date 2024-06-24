@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.reviewer: 
-ms.date: 06/14/2023
+ms.date: 06/21/2024
 ms.topic: how-to
 audience: admin
 ms.service: msteams
@@ -34,13 +34,13 @@ ms.custom:
 
 ## Overview of Lists
 
-The Lists app in Microsoft Teams helps users in your organization track information, organize work, and manage workflows. Users can track data such as issues, assets, routines, contacts, inventory, incidents, loans, patients, and more using customizable views, rules, and alerts to keep everyone on the team in sync.
+The Lists app in Microsoft Teams helps users in your organization track information, organize work, and manage workflows. With Lists, users can track data such as issues, assets, routines, contacts, inventory, incidents, loans, patients, and more. Do this by using customizable views, rules, and alerts to keep everyone on the team in sync.
 
 In Teams, users access Lists as a tab in a channel. Select **+** to open the tab gallery and add a new Lists app tab instance to a channel to get started.
 
 :::image type="content" source="media/lists-tab.png" alt-text="The Lists app in the tab gallery in Teams." lightbox="media/lists-tab.png":::
 
-Users can create new lists or pin existing lists from within the same team or from a different SharePoint site that they have access to. New lists can be created from scratch, from built-in templates, based on the structure of an existing list, or by importing data from an Excel workbook. The Lists app is available in Teams desktop, web, and mobile clients.
+Users can create new lists or pin existing lists from within the same team or from a different SharePoint site that they have access to. New lists can be created from scratch or from built-in templates. They can also be based on the structure of an existing list or by importing data from an Excel workbook. The Lists app is available in Teams desktop, web, and mobile clients.
 
 :::image type="content" source="media/lists-create-list.png" alt-text="The Lists app added as a tab in a channel, showing options for creating a new list." lightbox="media/lists-create-list.png":::
 
@@ -69,11 +69,11 @@ Lists is preinstalled for all Teams users and is available directly in the tab g
 
 ### Lists and SharePoint
 
-Lists data is stored in the SharePoint Online team site. To learn more about how SharePoint Online interacts with Teams, see [Overview of Teams and SharePoint integration](/sharepoint/teams-connected-sites).
+Lists data is stored in the SharePoint team site. To learn more about how SharePoint interacts with Teams, see [How SharePoint and OneDrive interact with Teams](SharePoint-OneDrive-interact.md).
 
 Permissions set in SharePoint apply to lists created in the Lists app. By default, lists inherit permissions from the site to which they belong. These permissions govern the types of actions that users can do, such as whether they can create or edit lists. To learn more, see [Permission levels in SharePoint](/sharepoint/understanding-permission-levels) and [On-premises SharePoint Server user permissions and permission levels](/sharepoint/sites/user-permissions-and-permission-levels).
 
-In certain scenarios, you might want to restrict what actions users can do in lists. For example, a person on a team edits a list view, which changes it for all team members, and you want to allow only the team owner or certain team members to edit list views. To learn more, see [Customize permissions for a SharePoint list or library](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013).
+In certain scenarios, you might want to restrict what actions users can do in lists. For example, a person on a team edits a list view that shouldn't, which changes it for all team members. With restrictions, you can allow only the team owner or certain team members to edit list views. To learn more, see [Customize permissions for a SharePoint list or library](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013).
 
 > [!NOTE]
 > At this point, owner and member permissions in a team aren't linked in any way to permissions in the team site that govern the behavior of lists or the Lists App. However, based on customer feedback and usage, this will be considered for a future iteration of the product.  
@@ -110,7 +110,7 @@ Lists are enabled with enterprise level auditing. You can search for lists and l
 
 For a list of audit events that are relevant to the Lists app in Teams, see [SharePoint list activities](/purview/audit-log-activities#sharepoint-list-activities).
 
-Before you can search the audit log, you have to first turn on auditing in the Microsoft Purview portal or the Microsoft Purview compliance portal. Keep in mind that audit data is only available from the point at which you turned on auditing.
+Before you can search the audit log, you have to first turn on auditing in the [Microsoft Purview compliance portal](https://compliance.microsoft.com). Keep in mind that audit data is only available from the point at which you turned on auditing.
 
 ## Power Automate, Power Apps, and Graph API
 
@@ -118,7 +118,7 @@ Lists supports [Power Automate](/power-automate/flow-types) for workflows and [P
 
 ## Lists data
 
-The Lists app is based on SharePoint and Lists data is stored in the SharePoint Online team site. For more information, see [Data Residency for SharePoint Online and OneDrive](/microsoft-365/enterprise/m365-dr-workload-spo).
+The Lists app is based on SharePoint and Lists data is stored in the SharePoint team site. For more information, see [Data Residency for SharePoint and OneDrive](/microsoft-365/enterprise/m365-dr-workload-spo) for more information.
 
 ## Give feedback or report an issue
   
