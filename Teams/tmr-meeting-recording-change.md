@@ -35,7 +35,7 @@ To learn about blocking the download of Teams meeting recording files from Share
 
 **As an admin, you can't change where recordings are stored.**
 
-For **webinars and meetings**, all recording files are automatically saved to the organizer's OneDrive **Recordings** folder, even if the organizer didn't attend the meeting. This process applies to autorecorded, recurring, meet now, and meetings that delegates create. Co-organizers can edit the recording files.
+For **meetings, webinars, and town halls**, all recording files are automatically saved to the organizer's OneDrive **Recordings** folder, even if the organizer didn't attend the meeting. This process applies to auto-recorded, recurring, meet now, and meetings that delegates create. Co-organizers can edit the recording files.
 
 For **Channel meetings**, the recording is stored in the Teams site documentation library in a folder named **Recordings**. For example: *Teams name - Channel name*/**Documents**/**Recordings**.
 
@@ -47,11 +47,11 @@ To learn how to apply retention labels to Teams meeting recordings, see [How to 
 
 ### Async media storage
 
-If a Teams meeting recording fails to successfully upload to OneDrive because the user doesn't have OneDrive or SharePoint, or the storage quota is full, a "The recording ended unexpectedly" error message appears. The recording is instead temporarily saved to async media storage. Once the recording is in async media storage, no retry attempts are made to automatically upload the recording to OneDrive or SharePoint. During that time, the organizer must download the recording. If not downloaded within 21 days, the recording is deleted.
+If a Teams meeting recording fails to successfully upload to OneDrive because the user doesn't have OneDrive or SharePoint, or the storage quota is full, a "There was a problem uploading this recording to OneDrive" error message appears. The recording is instead temporarily saved to async media storage. Once the recording is in async media storage, no retry attempts are made to automatically upload the recording to OneDrive or SharePoint. During that time, the organizer must download the recording. The organizer can try to upload again if they get a OneDrive or SharePoint license, or if they clear some space in their storage quota. If not downloaded within 21 days, the recording is deleted.
 
 ## Viewing permissions
 
-For **non-Channel meetings**, all meeting invitees, except for external participants, automatically get a personally shared link. The meeting organizer or the person who started the meeting recording must explicitly add external participants to the shared list.
+For **non-Channel meetings**, all meeting invitees, except for external participants, automatically get a personally shared link. The meeting organizer must explicitly add external participants to the shared list.
 
 For **Channel meetings**, permissions are inherited from the owners and members list in the channel.
 
