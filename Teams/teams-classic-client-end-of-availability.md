@@ -47,12 +47,13 @@ The end of support for the classic Teams client starts July 1, 2024. The end of 
 
 **VDI timeline**:
 
-> [!IMPORTANT]
-> An updated VDI timeline for GCCH/DOD will be published soon.
-
 The end of support for the classic Teams client in VDI starts October 1, 2024. The end of availability for the classic Teams client in VDI starts July 1, 2025.
 
 :::image type="content" source="media/new-teams-vdi-timeline.png" alt-text="A chart showing the timelines for classic Teams to new Teams for VDI.":::
+
+The timeline for VDI in regard to GCCH and DOD tenants. The end of support for VDI for these tenants starts October 1, 2024, and the end of availability starts July 1, 2025. For Microsoft-controlled tenants, the Update policy won't be effective from September 1, 2024, and users will be migrated gradually to new Teams starting at this time.
+
+:::image type="content" source="media/new-teams-vdi-timeline-gcch-dod.png" alt-text="A chart showing the timelines for classic Teams to new Teams for VDI, specific to GCCH and DoD tenants.":::
 
 For more information regarding VDI, see [Upgrade to new Teams for Virtualized Desktop Infrastructure (VDI)](new-teams-vdi-requirements-deploy.md).
 
@@ -97,7 +98,7 @@ If we're unable to move you to new Teams, here's a list of the banner messages y
 |Condition for triggering the banner |Banner message |Further information |
 |------------------------------------|---------------|--------------------|
 |Unsupported Windows operating system |Classic Teams will soon be unavailable for use. To use the new Teams, update your OS to meet requirements or contact your IT admin. Learn more. |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites) |
-|Unsupported Mac operating system |Classic Teams will soon be unavailable for use. To use the new Teams, update your OS to meet requirements or contact your IT admin. Learn more. |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites) |
+|Unsupported Mac operating system |Classic Teams will soon be unavailable for use. To use the new Teams, update your OS to meet requirements or contact your IT admin. Learn more. |[Prerequisites](new-teams-mac-install-prerequisites.md#prerequisites) |
 |Unsupported operating system (EDU) |Classic Teams will soon be unavailable for use. To use the new Teams, update your OS to meet requirements or contact your IT admin. Learn more. |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites) |
 |Unsupported operating system (Gov) |Classic Teams will soon be unavailable for use. To use the new Teams, update your OS to meet requirements or contact your IT admin. Learn more. |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites) |
 |Unsupported operating system (DOD)|Classic Teams will soon be unavailable for use. To use the new Teams, update your OS to meet requirements or contact your IT admin. Learn more. |[Prerequisites](new-teams-deploy-using-policies.md#prerequisites)|

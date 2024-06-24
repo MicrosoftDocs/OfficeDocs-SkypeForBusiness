@@ -3,23 +3,23 @@ title: Manage teams in the Microsoft Teams admin center
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.topic: article
+ms.topic: how-to
 ms.service: msteams
 audience: admin
 search.appverid: MET150
 ms.reviewer: jastark
-ms.date: 06/12/2023
+ms.date: 05/22/2024
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 
-  - NewAdminCenter_Update
-  - seo-marvel-apr2020
+- NewAdminCenter_Update
+- seo-marvel-apr2020
 ms.collection: 
-  - M365-collaboration
-  - essentials-manage
+- M365-collaboration
+- essentials-manage
 appliesto: 
-  - Microsoft Teams
+- Microsoft Teams
 description: Learn how to view or update the teams that your organization has set up for collaboration in the Microsoft Teams admin center.
 ---
 

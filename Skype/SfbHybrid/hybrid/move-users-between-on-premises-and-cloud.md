@@ -26,13 +26,13 @@ description: "Summary: In an on-premises deployment of Skype for Business Server
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-In an on-premises deployment of Skype for Business Server, users of Skype for Business may also use Teams, but not all Teams functionality is available to such users as long as they are configured to use the on-premises Skype for Business Server deployment. These users are said to be "homed" on-premises, and certain Teams functionality is not available while these users are homed on-premises, for example:
+In an on-premises deployment of Skype for Business Server, users of Skype for Business may also use Teams, but not all Teams functionality is available to such users as long as they're configured to use the on-premises Skype for Business Server deployment. These users are said to be "homed" on-premises, and certain Teams functionality isn't available while these users are homed on-premises, for example:
 
-- Federated calling and chats via the user's Teams client with users in other organizations is not available
+- Federated calling and chats via the user's Teams client with users in other organizations isn't available
 - Interop communication via the user's Teams client with other users in the organization who use Skype for Business client.
 - PSTN calling functionality (if the user is assigned a Phone System license).
 
-To gain full Teams functionality, these users must be moved from Skype for Business on-premises to the cloud, at which point the user becomes TeamsOnly. The act of moving a user from on-premises to the cloud will set the user's co-existence mode to TeamsOnly. Once users are moved to the cloud, they are TeamsOnly, which means all incoming chats and calls lands in their Teams client. For more information, see [Teams coexistence with Skype for Business](/microsoftteams/coexistence-chat-calls-presence) and [Migration and interoperability guidance for organizations using Teams together with Skype for Business](/microsoftteams/migration-interop-guidance-for-teams-with-skype).
+To gain full Teams functionality, these users must be moved from Skype for Business on-premises to the cloud, at which point the user becomes TeamsOnly. The act of moving a user from on-premises to the cloud, sets the user's coexistence mode to TeamsOnly. Once users are moved to the cloud, they are TeamsOnly, which means all incoming chats and calls lands in their Teams client. For more information, see [Teams coexistence with Skype for Business](/microsoftteams/coexistence-chat-calls-presence) and [Migration and interoperability guidance for organizations using Teams together with Skype for Business](/microsoftteams/migration-interop-guidance-for-teams-with-skype).
 
 To move users from the on-premises Skype for Business Server deployment to the cloud requires the [configuration of Skype for Business hybrid](/skypeforbusiness/hybrid/plan-hybrid-connectivity). Once the deployment is enabled for hybrid, you can move users from the on-premises environment to the cloud to make them TeamsOnly as described below. If necessary, you can also move TeamsOnly users back to the on-premises Skype for Business deployment.
 

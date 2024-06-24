@@ -84,26 +84,9 @@ The following in-meeting transcription locales are supported in all countries an
 
 ### In-meeting transcription locales
 
-Once an end-user enrolls, their voice can be recognized during meetings and identified in the transcription when the meeting is set to one of the following locales:
-
-| Language | Country/Region | Culture ID |
-|:-----|:-----|:-----|
-|Chinese (Simplified)  |China  |zh-CN  |
-|English  |Australia |en-AU  |
-|English  |Canada  |en-CA |
-|English  |India  |en-IN  |
-|English  |New Zealand  |en-NZ  |
-|English  |United Kingdom  |en-GB  |
-|English  |United States  |en-US  |
-|French  |Canada  |fr-CA  |
-|French  |France  |fr-FR  |
-|German  |Germany  |de-DE  |
-|Italian  |Italy  | it-IT |
-|Japanese  |Japan  |ja-JP  |
-|Korean  |Korea  |ko-KR  |
-|Portuguese  |Brazil  |pt-BR  |
-|Spanish  |Mexico  |es-MX  |
-|Spanish  |Spain  |es-ES  |
+Once an end-user enrolls, their voice can be recognized during meetings and identified in the transcription when the meeting is set to one of the following languages:  
+  
+English (US), English (Canada), English (India), English (UK), English (Australia), English (New Zealand), Arabic (Arab Emirates), Arabic (Saudi Arabia), Chinese (Simplified China), Chinese (Traditional, Hong Kong SAR), Chinese (Traditional, Taiwan), Czech (Czechia), Danish (Denmark), Dutch (Belgium), Dutch (Netherlands), French (Canada), French (France), Finnish (Finland), German (Germany), Greek (Greece), Hebrew (Israel), Hindi (India), Hungarian (Hungary), Italian (Italy), Japanese (Japan), Korean (Korea), Norwegian (Norway), Polish (Poland), Portuguese (Brazil), Portuguese (Portugal), Romanian (Romania), Russian (Russia), Slovak (Slovakia), Spanish (Mexico), Spanish (Spain), Swedish (Sweden), Thai (Thailand), Turkish (Turkey), Ukrainian (Ukraine), Vietnamese (Vietnam), Welsh (United Kingdom)
 
 ## Frequently asked questions (FAQ)
 

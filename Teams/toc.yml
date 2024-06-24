@@ -100,9 +100,11 @@ items:
                 - name: Update to the new Teams for Education
                   href: new-teams-education.md
                 - name: Update to the new Teams for Web
-                  href: new-teams-web.md                          
-                - name: Troubleshooting installation issues          
+                  href: new-teams-web.md
+                - name: Troubleshooting installation issues
                   href: /microsoftteams/troubleshoot/teams-administration/fix-new-teams-installation-issues
+                - name: Troubleshooting launch issues
+                  href: /microsoftteams/troubleshoot/teams-administration/resolve-new-teams-launch-issues
                 - name: Known issues in new Teams
                   href: new-teams-known-issues.md
                 - name: Classic Teams client end of availability
@@ -633,7 +635,7 @@ items:
         - name: Manage team template policies
           href: templates-policies.md
 
-- name: Meetings and audio conferencing
+- name: Meetings and Audio Conferencing
   items: 
     
     - name: Meetings, webinars, and town halls
@@ -690,6 +692,8 @@ items:
               href: manage-meeting-chat.md
             - name: Prevent users from joining external meetings
               href: external-meeting-join.md
+            - name: Prevent users from sharing content in external meetings
+              href: block-external-content-share.md
             - name: Manage reactions
               href: manage-reactions-meetings.md
             - name: Set up the Call me feature for your users
@@ -841,27 +845,23 @@ items:
           href: teams-encoder-configuration.md
         - name: Troubleshooting
           href: teams-stream-troubleshooting.md
-    - name: Audio conferencing
+    - name: Audio Conferencing
       items: 
-        - name: Audio Conferencing in Microsoft 365
+        - name: Plan your deployment
           href: audio-conferencing-in-office-365.md
-        - name: Planning
-          items:
-            - name: Plan your deployment
-              href: deploy-audio-conferencing-teams-landing-page.md
-            - name: On-network Conferencing for Audio Conferencing
-              href: audio-conferencing-on-network.md
-            - name: Audio Conferencing common questions
-              href: audio-conferencing-common-questions.md
-            - name: Try or purchase Audio Conferencing in Microsoft 365
-              href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
+        - name: Audio Conferencing common questions
+          href: audio-conferencing-common-questions.md
+        - name: Try or purchase Audio Conferencing in Microsoft 365
+          href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
+        - name: On-network Conferencing for Audio Conferencing
+          href: audio-conferencing-on-network.md
         - name: Set up
           items:
             - name: Set up Audio Conferencing
               href: set-up-audio-conferencing-in-teams.md
         - name: Manage
           items:
-            - name: Manage your audio conferencing service
+            - name: Manage your Audio Conferencing service
               items:
                 - name: Extended dial-out minutes for US and Canada
                   href: dial-out-minutes-canada-us.md
@@ -869,7 +869,7 @@ items:
                   href: audio-conferencing-subscription-dial-out.md
                 - name: Audio Conferencing pay-per-minute
                   href: audio-conferencing-pay-per-minute.md
-            - name: Manage your audio conferencing bridge
+            - name: Manage your Audio Conferencing bridge
               items: 
                 - name: Change the phone numbers on your Audio Conferencing bridge
                   href: change-the-phone-numbers-on-your-audio-conferencing-bridge.md
@@ -905,8 +905,10 @@ items:
                   href: outbound-calling-restriction-policies.md
                 - name: Send an email to a user with their Audio Conferencing information
                   href: send-an-email-to-a-user-with-their-dial-in-information-in-teams.md
-            - name: Manage meetings settings for audio conferencing
-              items: 
+            - name: Manage meetings settings for Audio Conferencing
+              items:
+                - name: Explicit recording consent for audio conferencing 
+                  href: conferencing-recording-consent.md
                 - name: Dialing out from a meeting so other people can join it
                   href: dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md
                 - name: Turn on or off entry and exit announcements for meetings
@@ -927,15 +929,15 @@ items:
               href: operator-connect-conferencing-configure.md
         - name: Reference
           items: 
-            - name: Audio Conferencing supported languages
+            - name: Supported languages for Audio Conferencing
               href: audio-conferencing-supported-languages.md
             - name: Phone numbers for Audio Conferencing
               href: phone-numbers-for-audio-conferencing-in-teams.md
-            - name: Country and region zones for Audio Conferencing
+            - name: Countries and regions in Zone A (standard licensing)
               href: audio-conferencing-zones.md
-            - name: Country and region availability for Audio Conferencing
+            - name: Country and region availability reference 
               href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-            - name: Audio Conferencing Complimentary Dial Out Period
+            - name: Audio Conferencing Complimentary Dial Out
               href: complimentary-dial-out-period.md
 
 - name: Voice - Teams Phone and PSTN connectivity
@@ -1372,7 +1374,7 @@ items:
                   href: rooms/third-party-join.md
                 - name: Meetings with SIP and H.323 devices
                   href: rooms/meetings-with-SIP-H323-devices.md
-                - name: Manage custom backgrounds
+                - name: Manage custom backgrounds on Windows
                   href: rooms/custom-backgrounds.md
                 - name: Join meetings with QR codes
                   href: rooms/teams-rooms-qr-codes.md
@@ -1540,9 +1542,9 @@ items:
       items:
         - name: Manage the Admin app
           href: manage-admin-app.md
-        - name: Manage the avatars app
+        - name: Manage the Avatars app
           href: meeting-avatars.md
-        - name: Manage the immersive spaces app
+        - name: Manage the Mesh app
           href: meeting-immersive-spaces.md
         - name: Manage the Bookings app
           href: bookings-app-admin.md
@@ -1608,14 +1610,14 @@ items:
             href: teams-app-setup-policies.md
         - name: App centric management
           href: app-centric-management.md
+        - name: Manage apps across Microsoft 365
+          href: manage-apps-across-m365.md
         - name: Tailor Teams apps for your frontline workers
           href: /microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: View and understand app permissions
           href: app-permissions.md
         - name: Grant and manage consent to permissions
           href: manage-consent-app-permissions.md
-        - name: Manage resource-specific consent to access team's data
-          href: resource-specific-consent.md
         - name: Brand your organization's app store
           href: customize-your-app-store.md
         - name: Use apps as external user or guest
@@ -1740,7 +1742,7 @@ items:
 
     - name: Licensing
       items: 
-        - name: Manage user access to Teams
+        - name: Manage Teams licenses
           href: user-access.md
         - name: Microsoft Teams Premium licensing
           href: teams-add-on-licensing/licensing-enhance-teams.md
@@ -1808,9 +1810,7 @@ items:
           href: /powershell/module/teams
     - name: Developer documentation for Teams
       href: /microsoftteams/platform
-    - name: Teams content updates
-      href: teams-updates.md
-
+    
     - name: Country phone number management
       items: 
         - name: Phone number management for Australia
@@ -1883,8 +1883,6 @@ items:
           href: manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md
         - name: Contact the TNS Service Desk
           href: manage-phone-numbers-for-your-organization/contact-tns-service-desk.md
-
-
     - name: Toll-free dialing limitations and restrictions
       items: 
         - name: Overview
@@ -2019,8 +2017,6 @@ items:
           href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md
         - name: Vietnam
           href: toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md
-
-
     - name: Country and region availability for Audio Conferencing and Calling Plans
       items: 
         - name: Overview
