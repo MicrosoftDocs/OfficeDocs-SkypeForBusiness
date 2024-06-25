@@ -77,7 +77,6 @@ To execute this script, you must have installed Skype for Business Online PowerS
 > If you have not installed the Microsoft Online Services cmdlets, you will need to install it from the PowerShell repository with the cmdlet `install-module MSOnline`. Detailed information for installing and using the Microsoft Online Services Module can be found on the Microsoft 365 web site. These instructions will also tell you how to configure single sign-on, federation, and synchronization between Microsoft 365 or Office 365 and Active Directory. 
 
 
-
 After you have configured Microsoft 365 or Office 365, and after you have created Microsoft 365 or Office 365 service principals for Skype for Business Server and Exchange 2013, you then need to register your credentials with these service principals. In order to register your credentials, you must first obtain an X.509 Base64 certificate saved as a .CER file. This certificate will then be applied to the Microsoft 365 or Office 365 service principals.
 
 [!INCLUDE [Azure AD PowerShell deprecation note](../../../../Teams/includes/aad-powershell-deprecation-note.md)]
@@ -88,15 +87,15 @@ When you obtain the X.509 certificate, open PowerShell console and import the Mi
 Import-Module MSOnline
 ```
 
-When the module has been imported, type the following command and then press ENTER:
+When the module is imported, type the following command and then press ENTER:
 
 ```PowerShell
 Connect-MsolService
 ```
 
-After you press ENTER, a credentials dialog box will appear. Enter your Microsoft 365 or Office 365 user name and password in the dialog box, and then click OK.
+After you press ENTER, a credentials dialog box will appear. Enter your Microsoft 365 or Office 365 user name and password in the dialog box, and then select OK.
 
-As soon as you are connected to Microsoft 365 or Office 365, you can then run the following command in order to return information about your service principals:
+As soon as you're connected to Microsoft 365 or Office 365, you can then run the following command in order to return information about your service principals:
 
 ```PowerShell
 Get-MsolServicePrincipal

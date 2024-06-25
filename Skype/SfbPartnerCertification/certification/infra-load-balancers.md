@@ -19,7 +19,7 @@ f1.keywords:
 ms.custom:
 - Skype for Business Certification
 - dn947483
-description: "List of Load Balancers that have been independently qualified with Skype for Business Server."
+description: "List of Load Balancers that are independently qualified with Skype for Business Server."
 ---
 
 # Load Balancers
@@ -34,6 +34,6 @@ Listed here are load balancers that work with Skype for Business.
 |     |         |         |
 
 
-If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
+If you're a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 
 

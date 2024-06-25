@@ -26,7 +26,7 @@ Setting up a team targeting hierarchy allows your organization to publish conten
 > [!IMPORTANT]
 > For the initial release, only the Planner app supports hierarchical teams. Applying a team targeting hierarchy to your organization will enable [task publishing](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) in the Planner app. You won't see a hierarchy of teams in other areas of Microsoft Teams.
 
-Here's an example of how the hierarchy is represented in the Planner app in Teams. After a task list is created, members of the publishing team can then select the recipient teams to send (publish) the task list to. When selecting teams, the publishing team can filter by hierarchy, by attributes, or a combination of both.<br>
+Here's an example of how the hierarchy is represented in the Planner app in Teams. After a task list is created, members of the publishing team can then select the recipient teams to send (publish) the task list to. When the publishing team selects teams, they can filter by hierarchy, by attributes, or a combination of both.<br>
 
 :::image type="content" source="media/manage-planner-app-publish-tasks.png" alt-text="Screenshot of task publishing" lightbox="media/manage-planner-app-publish-tasks.png":::
 
@@ -101,7 +101,7 @@ After you add the three required columns, you can add optional attribute columns
 |If the values for an attribute are mutually exclusive, the column name you specify becomes the name of the attribute.|Each row can contain one value for that attribute, and each attribute column can have up to 50 unique values. Each value can be up to 100 characters long. The set of attribute values you specify in the attribute column will be displayed as filter values for that attribute when selecting recipient teams using the team targeting hierarchy.|You want users to be able to filter stores by layout. The values for this attribute are mutually exclusive because a store can have only one layout. <br><br>To add an attribute to filter stores by layout, add a column named Store layout. In this example, values for the Store layout attribute are Compact, Standard, and Large.
 |If you need to indicate multiple values for an attribute and the values aren't mutually exclusive, use the **AttributeName:UniqueValue** format for the column names. <br><br>**IMPORTANT** Make sure to use the English-only colon (:) as unicode isn't supported as an attribute column delimiter. |The text string before the colon (:) becomes the name of the attribute. All columns that contain the same text string before the colons (:) are grouped together into a section in the filtering menu. Each of the strings after the colon become the values for that section.<br><br>Each row can have a value of 0 (zero) or 1 for that attribute. A value of 0 (zero) means that the attribute doesn't apply to the node and a value of 1 means that the attribute applies to that node.|You want users to be able to filter stores by department. A store can have multiple departments and so the values for this attribute aren't mutually exclusive.<br><br>In this example, we add Departments:Clothing, Departments:Electronics, Departments:Foods, Departments:Home and Garden, Departments:Sporting goods as attribute columns. Departments becomes the attribute name and users can filter by the Clothing, Electronics, Foods, Home and Garden, and Sporting goods departments.|
 
-When you add an attribute column, keep the following in mind:
+When you add an attribute column, keep the following things in mind:
 
 * The column name you specify or the column name that you specify before the colon (:) becomes the name of the attribute. This value will be displayed in the Teams apps that use the hierarchy.
 * You can have up to 100 attribute columns in your hierarchy.
@@ -115,7 +115,7 @@ By categorizing the work items one time centrally, the publishing team can preor
 
 When you add a bucket column, note the following:
 
-* The column name becomes the name of the bucket. Each bucket you specify will appear in the Buckets list in the Teams apps that use the hierarchy.
+* The column name becomes the name of the bucket. Each bucket you specify appears in the Buckets list in the Teams apps that use the hierarchy.
 * We recommend that you don't include sensitive information in bucket names. At this time, publishing teams can't remove a bucket through publishing after it's created.
 * The column name must be preceded by a hashtag (#). It can be up to 100 characters long and contain only the characters A-Z, a-z, and 0-9. For example, #Operations and #Frozen Goods.
 * A hierarchy can contain up to 100 bucket columns. We plan to work with customers to increase this limit for larger organizations.
@@ -152,7 +152,7 @@ Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,
 > [!NOTE]
 > To perform this step, you must use Microsoft Teams PowerShell cmdlets. You should use version 4.6.0 or later of the Microsoft Teams cmdlets. This requirement also applies to Government Community Cloud (GCC) customers.
 
-After you define your hierarchy in the schema CSV file, you're ready to upload it to Teams. To do this, run the following command. You must be a global admin or Teams service admin to do this step.
+After you define your hierarchy in the schema CSV file, you're ready to upload it to Teams. To do this, run the following command. You must be a Teams service admin to do this step.
 
 ```powershell
 Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
@@ -183,7 +183,7 @@ FileName | The file name of the CSV.
 
 ## Remove your hierarchy
 
-If you want to immediately disable the **Published lists** tab for all users in your organization, you can remove your hierarchy. Users won't have access to the **Published lists** tab or any of the functionalities on the tab. This includes the ability to create new task lists to publish, access draft lists, publish, unpublish, and duplicate lists, and view reporting. Removing the hierarchy doesn't unpublish tasks that were previously published. These tasks will remain available for recipient teams to complete.
+If you want to immediately disable the **Published lists** tab for all users in your organization, you can remove your hierarchy. Users won't have access to the **Published lists** tab or any of the functionalities on the tab. This includes the ability to create new task lists to publish, access draft lists, publish, unpublish, and duplicate lists, and view reporting. Removing the hierarchy doesn't unpublish tasks that were previously published. These tasks remain available for recipient teams to complete.
 
 To remove your hierarchy, run the following command. You must be an admin to perform this step.
 
@@ -202,7 +202,7 @@ When confirming deletion, the status message will still display the previous sch
 
 ### Sample script
 
-The following script can be used to create the teams and upload a .csv file to your Microsoft Teams tenant. If you have an existing hierarchy, this script will replace it.
+The following script can be used to create the teams and upload a .csv file to your Microsoft Teams tenant. If you have an existing hierarchy, this script replaces it.
 
 #### Create teams for a simple hierarchy
 

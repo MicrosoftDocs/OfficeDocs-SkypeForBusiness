@@ -12,7 +12,7 @@ f1.keywords:
   - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn about cross-team analytics, per-team analytics, and per-channel analytics in Teams, which let users see usage data for teams or channels that they are part of.
+description: Learn about cross-team analytics, per-team analytics, and per-channel analytics in Teams, which let users see usage data for teams or channels that they're part of.
 appliesto: 
   - Microsoft Teams
 ms.custom: chat-teams-channels-revamp
@@ -21,9 +21,9 @@ ms.collection:
 ---
 # View analytics in Teams
 
-In Microsoft Teams, users can view analytics for teams and channels that they are part of. This information gives users insight into usage patterns and activity on their teams. Users can see data such as the number of active users, posts, replies, and more at three levels.
+In Microsoft Teams, users can view analytics for teams and channels that they're part of. This information gives users insight into usage patterns and activity on their teams. Users can see data such as the number of active users, posts, replies, and more at three levels.
 
-- **Cross-team analytics** gives users a broad overview of usage data for all teams that they are a member or owner of in a single list view.
+- **Cross-team analytics** gives users a broad overview of usage data for all teams that they're a member or owner of in a single list view.
 - **Per-team analytics** gives users a more granular view, showing usage data for a specific team.
 - **Per-channel analytics** gives users an even more granular view, showing usage data for a specific channel.
 
@@ -31,8 +31,8 @@ Users can filter any of these views to see data for a specified time period.
 
 ## View cross-team analytics
 
-1. In Teams, at the bottom of the teams list, next to **Join or create a team**, click **Manage teams**.
-2. Click the **Analytics** tab.
+1. In Teams, at the bottom of the teams list, next to **Join or create a team**, select **Manage teams**.
+2. Select the **Analytics** tab.
 3. Select a date range to show usage data for all teams that you're a member or owner of.
 
     ![Screenshot of cross-team analytics view.](../media/view-analytics-cross-team.png)
@@ -49,7 +49,7 @@ Users can filter any of these views to see data for a specified time period.
 
 ## View per-team analytics
 
-1. In Teams, go to the team that you want, click **More options (...)**, and then click **Manage team**.
+1. In Teams, go to the team that you want, select **More options (...)**, and then select **Manage team**.
 2. Click the **Analytics** tab.
 4. Select a date range to show usage data for the team.  
 
@@ -68,8 +68,8 @@ Users can filter any of these views to see data for a specified time period.
 
 ## View per-channel analytics
 
-1. In Teams, go to the channel that you want, click **More options (...)**, and then click **Manage channel**.
-2. Click the **Analytics** tab.
+1. In Teams, go to the channel that you want, select **More options (...)**, and then select **Manage channel**.
+2. Select the **Analytics** tab.
 3. Select a date range to show usage data for the channel.  
 
     ![Screenshot of per-channel analytics view.](../media/view-analytics-per-channel.png)

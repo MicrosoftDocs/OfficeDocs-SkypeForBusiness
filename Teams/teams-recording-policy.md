@@ -272,8 +272,8 @@ Support for notifications is enabled using the Teams client experiences. The exp
 - PSTN callers (audio notice in Teams user's default language)
 
 > [!NOTE]
-> Compliance Recording is not supported with Conference mode call queues. Please use Transfer mode call queues.
-> Compliance Recording will not work if users have experienced an Internet outage, and are making and receiving PSTN calls using an SBA.
+> Compliance Recording isn't supported with call queues.
+> Compliance Recording won't work if users have an Internet outage, and are making and receiving PSTN calls using an SBA.
 
 ## Compliance recording for Teams certification programs
 
@@ -288,6 +288,7 @@ The following partners certify their solution for Microsoft Teams.<br/><br/>
 |CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
 |Dubber |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |Insightful Technology |[https://insightfultechnology.com/teams/](https://insightfultechnology.com/teams/) |
+|Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
 |Mida Solutions |[https://www.midasolutions.com/recorder-for-teams/](https://www.midasolutions.com/recorder-for-teams/) |
 |NICE Engage |[https://www.nice.com/products/workforce-engagement/call-recording/air-and-engage](https://www.nice.com/products/workforce-engagement/call-recording/air-and-engage) |
 |NICE NTR-X |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
@@ -296,7 +297,6 @@ The following partners certify their solution for Microsoft Teams.<br/><br/>
 |Red Box |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/red-box-partners/microsoft-integration/compliance-recording-for-microsoft-teams)  |
 |Theta Lake |[https://thetalake.com/integrations/microsoft/](https://thetalake.com/integrations/microsoft/) |
 |Verint |[https://www.verba.com/solutions/microsoft-teams-recording](https://www.verba.com/solutions/microsoft-teams-recording) |
-|Oak Innovation |[https://www.oakinnovate.com/clarify](https://www.oakinnovate.com/clarify) |
 
 <br/>
 The following partners are in the process of certifying their solution for Microsoft Teams.<br/><br/>
@@ -306,8 +306,7 @@ The following partners are in the process of certifying their solution for Micro
 |Cloud World Wide Services |[https://recordia.net/microsoft-teams-call-recording/](https://recordia.net/microsoft-teams-call-recording/) |
 |GuardRec |[https://www.guardrec.com/en/teams-compliance-recording/](https://www.guardrec.com/en/teams-compliance-recording/) |
 |Landis Technologies |[https://landistechnologies.com/](https://landistechnologies.com/) |
-|Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
-|Redwood Technologies |[https://www.contentguru.com/en-gb/solutions/needs/compliance-recording-ms-teams/](https://www.contentguru.com/en-gb/solutions/needs/compliance-recording-ms-teams/) |
+|Redwood Technologies |[https://www.contentguru.com/en-us/solutions/needs/compliance-recording-ms-teams/](https://www.contentguru.com/en-us/solutions/needs/compliance-recording-ms-teams/) |
 
 This list gets updated as more partners join and meet the certification criteria.
 
@@ -317,7 +316,6 @@ Microsoft supports Compliance Recording solutions only from the certified partne
 
 ## Next steps
 
-If you need to provide more context and details, send a mail to [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com). If you're a vendor seeking to join the certification program, fill out the calling platform intake as the next step.
+If you're a vendor seeking to join the certification program, fill out the calling platform intake as the next step.
+### [Calling Platform Intake](https://aka.ms/CallingPlatformIntake) 
 
-
-### [Calling Platform Intake](https://aka.ms/CallingPlatformIntake)

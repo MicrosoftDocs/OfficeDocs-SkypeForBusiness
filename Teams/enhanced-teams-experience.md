@@ -143,19 +143,7 @@ Teams Premium provides more ways to elevate Teams town halls in your org with th
 
 - **Custom emails** - Organizers and co-organizers can customize the town hall email templates sent to attendees.
 - **Increased broadcast and Q&A capacity**- Organizers can broadcast their town halls to 20,000 attendees. All attendees can use Q&A to interact with presenters, organizers, and co-organizers.
-- **Increased languages for live translations**- Attendees have 10 language options for  live translated captions in town halls. These languages include:
-
-  - English (en-us)
-  - Japanese (ja-jp)
-  - Spanish (es-es)
-  - Portuguese (pt-pt)
-  - French (fr-fr)
-  - Chinese (zh-cn)
-  - German (de-de)
-  - Italian (it-it)
-  - Korean (ko-kr)
-  - Russian (ru-ru)
-
+- **Live translated captions**- The organizer can choose up to 10 languages for attendees to use when translating captions during the town hall.
 - **Microsoft eCDN** - Optimize network performance for video streaming within an enterprise network. Microsoft eCDN allows millions of enterprise users around the world to communicate face-to-face efficiently and reliably. You can use the Microsoft eCDN or select one of our partner providers for Premium town halls.
 - **Real time monitoring of the attendee experience** - Admins can use the eCDN analytics dashboard to troubleshoot the attendee experience during live town halls.
 - **Town hall insights** - Town hall organizers can troubleshoot town halls while they're live.
