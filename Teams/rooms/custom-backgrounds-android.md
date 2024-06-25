@@ -153,7 +153,7 @@ To create custom backgrounds that meet the guidelines in the previous section, y
 
 The template is a .PSD file that can be opened by apps such as Adobe Photoshop or Paint.NET (a plug-in may be required). The template provides assets and guidelines to help you place text and graphics in your custom backgrounds that won't be obscured by on-screen elements.
 
-### Deploy updated custom backgrounds
+### Deploy custom backgrounds
 
 After you've created backgrounds:
 
