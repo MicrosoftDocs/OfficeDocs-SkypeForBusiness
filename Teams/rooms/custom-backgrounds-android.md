@@ -28,9 +28,9 @@ You can create custom background images for your Teams Rooms on Android devices 
 
 Your ability to deploy custom backgrounds depends on the version of Teams Rooms on Android app installed on your device and the license of the account logged in on the device:
 
-1. Your Teams Rooms on Android device must be running on version 1449/1.0.96.2024XXXX or later
+- Your Teams Rooms on Android device must be running on version 1449/1.0.96.2024XXXX or later
 
-1. The account signed in on your Teams Rooms on Android device must be assigned with a Teams Rooms Pro license
+- The account signed in on your Teams Rooms on Android device must be assigned with a Teams Rooms Pro license
 
 To set up and manage custom backgrounds for your Teams Rooms on Android devices, log into **Teams admin center** > go to **Teams devices** > **Teams Rooms on Android** > select **Configuration profiles** > **Add** or **Edit** > **Device settings** > **Background** > select **Upload a custom background**. You can upload up to three images and specify which one goes to the main display, extended display, or touch console. You also have the option to reuse the main display image for the extended display.  
 
