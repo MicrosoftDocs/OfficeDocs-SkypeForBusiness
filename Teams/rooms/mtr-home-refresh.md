@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams Rooms home screen design and features
+title: Overview of Teams Rooms (Windows and Android) home screen and admin controls
 ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
@@ -21,43 +21,50 @@ ms.localizationpriority: medium
 description: Learn about the Microsoft Teams Rooms home screen design and features.
 ---
 
-# Microsoft Teams Rooms home screen design and features
+# Overview of Teams Rooms (Windows and Android) home screen and admin controls
 
-Microsoft Teams Rooms includes a modern home screen design that with a calendar, quick access to commonly used actions on the console, built-in background options, and a consistent look and feel to other Teams devices.
+Microsoft Teams Rooms includes a modern home screen design that provides a seamless, intuitive, and consistent look and feel with other Teams devices. The touch console (or touch board) offers a clean and straightforward user experience, prominently displaying a room calendar, an easy access to join upcoming scheduled meetings with a single touch, and commonly used actions like starting a meeting, making a call, and sharing content. Additionally, the home screen features customizable background options, allowing you to tailor the interface to your organization's needs. This user-centric design ensures efficient collaboration and communication, enhancing productivity in a modern workplace environment.
 
-## User Features
+This article explains the various features available on a Teams Rooms touch console (or touch board), including the default experience, the ways you can configure a feature (if applicable), and any differences between Teams Rooms on Windows and Teams Rooms on Android. For a more comprehensive overview of the Teams Rooms user features beyond the home screen experience, see [Get Started with Teams Rooms](https://support.microsoft.com/office/get-started-with-microsoft-teams-rooms-0e3b47c5-5bc0-4b96-af31-56ac7d4606f9).
 
-This section explains the various features available on a Teams Rooms console (or all-in-one screen).
 
 ### Meet Now
 
-All Teams Rooms devices include Meet Now functionality that automatically launches the Teams Rooms device into an ad-hoc Teams meeting. Lean more about Meet Now here: [Start an instant meeting in Microsoft Teams](https://support.microsoft.com/office/start-an-instant-meeting-in-microsoft-teams-ff95e53f-8231-4739-87fa-00b9723f4ef5)
+Room users can instantly start an ad-hoc Teams meeting using Meet Now on any **Teams Rooms (Windows and Android)** device. To ensure that you are not blocking this functionality via policy, see: [Manage who can start instant meetings](https://learn.microsoft.com/microsoftteams/manage-who-can-schedule-meetings).
 
 ### Call
 
-#### Calling a Teams User
+**Teams Rooms (Windows and Android)** devices include Call. By default, Teams Calling is available, allowing room users to make and receive peer to peer and group calls with other user(s) in the organization or with federated Teams user(s).
 
-All Teams Rooms devices include Call functionality, which allows end users to call an individual participant in the organization or a federated Teams user.
+Additionally, **Teams Rooms (Windows and Android)** devices also support Public Switched Telephone Network (PSTN) calling as the Teams Rooms Pro license includes the M365 Phone System functionality. In addition to having the proper license, you need to add a Calling Plan, Operator Connect, or Direct Routing configuration to your Teams Rooms account for the PSTN functionality to work. Learn more at [Teams PSTN connectivity](/microsoftteams/pstn-connectivity).
 
-#### Public Switched Telephone Network (PSTN)
-
-Teams Rooms support PSTN calling just like a Teams user and Teams Rooms Pro licensing includes the Phone System functionality. You need to add a Calling Plan, Operator Connect, or Direct Routing configuration to your Teams Rooms account for the PSTN functionality to work. You can learn more here: [Teams PSTN connectivity](/microsoftteams/pstn-connectivity)
-
-#### SIP/H.323 Calling
-
-Teams Rooms on Windows devices support making a SIP/H.323 call. Guidance can be found here: [Meetings with SIP and H.323 devices](/microsoftteams/rooms/meetings-with-sip-h323-devices)
+Furthermore, with a Teams Rooms Pro license, **Teams Rooms on Windows** devices support SIP/H.323 calling. For more information, see [Meetings with SIP and H.323 devices](/microsoftteams/rooms/meetings-with-sip-h323-devices).
 
 ### Share
 
-Teams Rooms devices automatically share the audio & video output of a connected HDMI ingest device.
+Room users can share content to any **Teams Rooms (Windows and Android)** device either wirelessly via Teams Cast or by connecting their personal device to the room system via an HDMI or USB-C cable.
+
+#### Casting
+
+By default, Bluetooth beaconing is enabled on all **Teams Rooms (Windows and Android)** devices so room users can cast content from their [desktop](https://support.microsoft.com/office/cast-content-from-your-desktop-to-a-microsoft-teams-room-6d62cdbb-3da2-4bb9-80bd-9cf1098beb3d) or cast content from their [mobile device](https://support.microsoft.com/office/cast-content-from-a-mobile-device-to-a-microsoft-teams-room-c4e5fb1b-6b94-4d48-88f2-6bcd8e7e339d) to the front-of-room display. To disable Bluetooth beaconing:
+
+- On a **Teams Rooms on Windows** device, open Settings > Device > toggle Bluetooth beaconing to Off as desired. You can also make the configuration change via Teams Rooms Pro Management portal, Teams admin center, or XML setting:
+```xml
+<BluetoothAdvertisementEnabled>false</BluetoothAdvertisementEnabled>
+```
+
+- On a **Teams Rooms on Android** device, open Teams Admin Settings > General > toggle Bluetooth beaconing to Off as desired. You can also make the configuration change via the Teams Rooms on Android configuration profile in the Teams admin center.
+
+#### HDMI Input
+
+By default, upon plugging in an HDMI device to the room system, all Teams Rooms (Windows and Android) devices automatically share the audio and video output of a connected HDMI ingest device.
 
 > [!WARNING]
-> Microsoft does not recommend having devices which always output a video signal connected to the HDMI ingest. This can cause challenges when trying to present content in a Teams Meeting as well as misreport in usage data as the system believes it is always in use.
+> We don't recommend having devices which always output a video signal connected to the HDMI ingest. This is known to cause challenges when trying to present content in a Teams meeting and leads to a misreport in usage data due to the system believing it is always in use.
 
-On a Teams Rooms on Windows device, you can disable automatic sharing into a Teams Meeting but you can't disable automatic sharing onto the front of room display. To disable automatic sharing into a meeting, open Settings > Meetings and toggle "Automatic screen sharing" to Off or via XML outlined below.
+On a **Teams Rooms on Windows** device, you can disable automatic sharing into a Teams meeting but this doesn't disable automatic sharing onto the front-of-room display. To disable automatic sharing into a meeting, open Settings > Meetings and toggle Automatic screen sharing to Off. You can also make the configuration change via the XML setting outlined below.
 
-Likewise, Teams Rooms on Windows support XML configuration to disable HDMI ingest audio and an option to disable sending the HDMI ingest to multiple front-of-room screens if multiple screens are connected.
-
+Likewise, **Teams Rooms on Windows** devices support XML configuration to disable HDMI ingest audio and an option to disable sending the HDMI content to both front-of-room displays by default if dual screens are connected
 
 ```xml
 <AutoScreenShare>0</AutoScreenShare>
@@ -65,111 +72,92 @@ Likewise, Teams Rooms on Windows support XML configuration to disable HDMI inges
 <DisableTeamsAudioSharing>true</DisableTeamsAudioSharing>
 ```
 
-On a Teams Rooms on Android device, open Teams Admin Settings > Meetings and toggle "Include Audio" and/or "Automatically share to the room display" to Off as desired.
-
-### Join with an ID
-
-Teams Rooms offer an option for end user to be able to enter the Teams Meeting ID and Passcode to be able to join a meeting. If third party meetings are enabled on the device, you may also have the ability to join by ID into a third-party meeting platform.
+On a **Teams Rooms on Android** device, you can disable HDMI ingest audio sharing and automatic HDMI content sharing onto the room display (which also disables automatic sharing into a Teams meeting). To do so, open Teams Admin Settings on your device > select Meeting and toggle Include Audio and/or Automatically share to the room display to Off as desired. Alternatively, you can adjust these settings through the Teams Rooms on Android configuration profile in the Teams admin center.
 
 ### Whiteboard
 
-Teams Rooms devices offer a way to start an ad-hoc Microsoft whiteboard for in person interactive meetings. This functionality is only available on all-in-one Teams Rooms on Windows devices. All Teams Rooms on Android devices support starting a Whiteboard from the home screen. To change this setting, open Teams Admin Settings > Meetings and toggle "Allow room to initiate whiteboarding" as desired.
+For in person brainstorming sessions, **Teams Rooms (Windows and Android)** devices offer a quick way to start an ad-hoc Microsoft Whiteboard session from the home screen. If the front-of-room display of your **Teams Rooms on Android** device is not touch-enabled, you can disable this feature: open Teams Admin Settings > Meetings and toggle Allow room to initiate whiteboarding to Off as desired. You can also update this setting via the **Teams Rooms on Android** configuration profile in the Teams admin center." 
+
+> [!NOTE]
+> All Teams Rooms on Android devices support starting Whiteboard from the home screen. However, this feature is only supported on the Teams Rooms on Windows touch board form factor.
+
+### Join with an ID
+
+If room users would like to join a meeting that is not on the room calendar, **Teams Rooms (Windows and Android)** devices allow users to enter the meeting ID and passcode to join a meeting. Entering the meeting ID and passcode to join third-party meetings is also supported if third-party meetings are enabled on the device. To enable third-party meetings, see [third-party meetings](https://learn.microsoft.com/microsoftteams/rooms/third-party-join)
 
 ### Room Controls
 
-Teams Rooms on Windows devices offer an extensibility option referred to as Room Controls. Consult your Teams Rooms manufacturer or your Audio Visual (AV) partner if you wish to add extensibility controls for: lights/blinds, cameras, or custom video routing. These controls are supported by your Teams Rooms manufacturer or AV partner.
+**Teams Rooms on Windows** devices offer an extensibility option referred to as Room controls, supported by Teams Rooms device manufacturers or Audio Visual (AV) partners. Consult your Teams Rooms device manufacturer or your Audio Visual (AV) partner if you wish to add extensibility controls for lights/blinds, cameras, or custom video routing.
 
 ### Accessibility
 
-Teams Rooms on Windows devices offer an accessibility button which, allows end user to enable/disable a high contrast screen mode making the Teams Rooms user interface more accessible.
+For accessibility, **Teams Rooms on Windows** devices allow room users to switch on/off a high contrast screen mode. Installation of an external keyboard is also supported if desired. Accessibility options on **Teams Rooms on Android** devices are controlled by the Teams Rooms device manufacturer. 
 
 ### Language
 
-Teams Rooms on Windows devices by default allow end users to change the language of the Microsoft Teams Rooms on the Microsoft Windows app. The language choices offered are those that are offered in the Microsoft Teams desktop app. Once the language has been changed on the device, the device continues using that language until a restart occurs (this restart can be triggered by a user or during the device maintenance reboot).
+By default, **Teams Rooms on Windows** devices allow room users to change the language of the Teams Rooms app using the Language button. The language choices offered are the same as the ones available on the Teams desktop app. Once the language has been changed on the device, the device continues using that language until a restart occurs (can be triggered by a user or during the device maintenance reboot). To disable room users from changing the language of the Teams Rooms app, apply this XML setting: 
+```xml
+<RoomLanguageSwitchEnabled>false</RoomLanguageSwitchEnabled>. 
+```
 
-### The '?' button
+Language options on **Teams Rooms on Android** devices are controlled by the Teams Rooms device manufacturer. 
+
+### Help
 
 #### Report a Problem
 
-Report a Problem will always show if your Teams Room device has a preview build or if your Teams Rooms account is in a preview ring.
+Under Help, Report a problem will show if your Teams Rooms (Windows and Android) device has a preview app or if your account is in a preview ring.
 
-Outside of preview, report a problem is enabled by default on Teams Rooms on Windows devices so that when a user in a Microsoft Teams Room reports an issue, a feedback event is created in the Teams Rooms Pro Management portal. This event gives device managers the data they need to address the feedback or open a support case with logs from the room. This Pro Portal feature can be disabled via XML. Likewise, Report a Problem can also be enabled by adding an email address in Settings > Device or via XML, in this case when an issue is reported an email is sent to the configured email address with the feedback.
-
-
+Outside of the preview experience, Report a problem can be enabled on **Teams Rooms on Windows** devices in two ways:
+- By default, Report a problem is enabled on any **Teams Rooms on Windows** device that has an account with a Teams Rooms Pro license. When a room user reports an issue, a feedback event is created in the Teams Rooms Pro Management portal. This event gives you the data to address the feedback or open a support case with logs from the room. Sending logs and feedback events to the Teams Rooms Pro Management portal can be disabled via XML settings: 
 ```xml
 <SendFeedbackToPMP>true</SendFeedbackToPMP>
+```
+- Report a problem can also be enabled on **Teams Rooms on Windows** devices in the production environment by adding an email address in the device settings, in which case reported issues are sent to the configured email address. To enable sending logs and feedback to the admin-configured email address, go to Settings > Device > add email address or use the following XML settings:
+```xml
 <SendLogs>
     <EmailAddressForLogsAndFeedback>username@microsoft.com</EmailAddressForLogsAndFeedback>
     <SendLogsAndFeedback>true</SendLogsAndFeedback>
 </SendLogs>
 ```
 
+Report a problem outside of the preview environment is not yet available on **Teams Rooms on Android** devices.
+
 #### Give Feedback
 
-Give Feedback is enabled on all Teams Rooms devices by default. Users can fill out Give feedback to send any comments or suggestions about Teams Rooms to Microsoft. We'll use this feedback to improve the Teams experience. Data sent through Give feedback is considered as Support Data under your Microsoft 365 or Office 365 agreement, including information that would otherwise be considered Customer Data or Personal Data. This functionality is controllable by the Teams feedback policies outlined here: [Manage Feedback Policies](/microsoftteams/manage-feedback-policies-in-teams)
+Give feedback is enabled on all **Teams Rooms (Windows and Android)** devices by default. Room users can fill out Give feedback to send any comments or suggestions about Teams Rooms to Microsoft. We'll use this feedback to improve the Teams experience. Data sent through Give feedback is considered as Support Data under your Microsoft 365 or Office 365 agreement, including information that would otherwise be considered Customer Data or Personal Data. You can control this functionality using the Teams feedback policies outlined here: [Manage Feedback Policies](/microsoftteams/manage-feedback-policies-in-teams)
 
 ## Teams Rooms Calendar
 
-Teams Rooms devices communicate with Exchange aligned to the same method Teams desktop, web, and mobile clients utilize. To ensure that meetings appear correctly on your Teams Rooms clients, see [How Exchange and Microsoft Teams interact](../Exchange-Teams-interact.md).
+The room calendar on **Teams Rooms (Windows and Android)** devices shows the room availability and scheduled meetings in the room which includes third-party meetings (when enabled). By default, room users can join meetings in one touch and view meeting details including the meeting name, organizer, time, and platform. To enable third-party meetings, see [third-party meetings](/microsoftteams/rooms/third-party-join). 
 
-> [!WARNING]
-> Only on-premises Exchange servers with Hybrid Configuration and AutoDiscover v2 published externally are supported which is consistent with how other Teams clients connect with Exchange. If you're using Teams Rooms with an on-premises Exchange server, we recommend that you review how on-premises mailboxes work with Teams: [Microsoft Teams and on-premises mailboxes](https://techcommunity.microsoft.com/t5/microsoft-teams-community-blog/microsoft-teams-and-on-premises-mailboxes-part-1-how-do-teams/ba-p/2229851)
-### Calendar Join Buttons
+For privacy purposes, meeting names can be hidden from Teams Rooms (Windows and Android) calendar and replaced with the organizer name if desired:
+- On a **Teams Rooms on Windows** device, open Settings > Meetings and toggle Show meeting names to Off to hide meeting names. This device setting can also be modified using the Teams admin center or an XML setting:
+```xml
+<HideMeetingName>1</HideMeetingName>
+```
+- On a **Teams Rooms on Android** device, open Teams Admin Settings > Meetings and toggle Show meeting names to Off to hide meeting names on the Teams Room device.
 
-Teams Rooms devices read Exchange calendar entries and automatically generate "Join" buttons for end users to one touch join into Teams meetings. The "Join" details for the Teams Meeting come from hidden meeting invite properties and aren't read directly from the meeting body. This one touch join functionality can also be extended for third-party meeting platforms following this guidance: [Join third-party meetings](/microsoftteams/rooms/third-party-join)
+For increased security in the meeting join experience on a shared device, **Teams Rooms (Windows and Android)** devices support requiring room users to enter the meeting credentials (ID and passcode) before joining scheduled Teams meetings. This feature requires the account on the device to have a Teams Rooms Pro license. To enable this functionality: 
 
-If you wish to restrict the one touch join experience on Teams meetings, Teams Rooms offer controls to require users to enter the Teams Meeting ID and Passcode after a user selects the "Join" button. This adds further security to your Teams Rooms and can be achieved by applying this configuration:
-
-
-For Teams Rooms on Windows devices, you can either require the Meeting ID and Passcode for all Teams Meetings or require the Meeting ID and Passcode for Teams Meetings marked as private
-
+- On **Teams Rooms on Windows** devices, you can either require the meeting ID and passcode for all scheduled Teams meetings or only for scheduled Teams meetings that are marked as private with the following XML settings respectively:
 ```xml
 <RequirePasscodeForAllTeamsMeetings>true</RequirePasscodeForAllTeamsMeetings> 
 <RquirePasscodeForAllPrivateTeamsMeetings>true</RequirePasscodeForAllPrivateTeamsMeetings>
 ```
 
-On the Teams Rooms on Android devices, open Teams Admin Settings > Meetings and toggle "Require passcode for all meetings" to On to require users to enter the Teams Meeting passcode on all Teams Meeting "Join" button presses.
+- On **Teams Rooms on Android** devices, open Teams admin settings > Meetings and toggle Require passcode for all meetings to On to require room users to enter the meeting credentials to join all scheduled Teams meetings.
 
-### Calendar entry details
+Teams Rooms devices communicate with Exchange aligned to the same method Teams desktop, web, and mobile clients utilize. To ensure that meetings appear correctly on your Teams Rooms clients, see [How Exchange and Microsoft Teams interact](../Exchange-Teams-interact.md). You may also want to review your Exchange calendar processing settings for additional customizations on the room calendar: [Exchange Calendar configuration](/microsoftteams/rooms/create-resource-account?tabs=m365-admin-center%2Cgraph-powershell-password#configure-mailbox-properties)
 
-Teams Rooms devices show the meeting subject and organizer name for event on the rooms calendar except those calendar invites that are marked as private. The meeting body isn't accessible on a Teams Room device to ensure data privacy and security.
+> [!WARNING]
+> Only on-premises Exchange servers with Hybrid Configuration and AutoDiscover v2 published externally are supported which is consistent with how other Teams clients connect with Exchange. If you're using Teams Rooms with an on-premises Exchange server, we recommend that you review how on-premises mailboxes work with Teams: [Microsoft Teams and on-premises mailboxes](https://techcommunity.microsoft.com/t5/microsoft-teams-community-blog/microsoft-teams-and-on-premises-mailboxes-part-1-how-do-teams/ba-p/2229851)
 
-#### Exchange Calendar Settings
 
-Based on your organizations desired configuration, you may want to review Exchange calendar processing settings for your room mailboxes: [Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing) The important paramaters to check are:
+## QR Codes
 
-- RemovePrivateProperty - If set to "true" devices will show the meeting subject and organizer name regardless of if meeting is set to private
-
-- DeleteComments - If set to "true" devices may not be able to show join buttons for third-party meetings
-
-- DeleteSubject - If set to "true" the meeting subject isn't visible on Teams Rooms devices
-
-On a Teams Rooms on Windows device, open Settings > Meetings and toggle "Show meeting names" to Off to hide meeting names. This can also be modified using an XML configuration file with a value of 1 to hide the meeting names:
-
-```xml
-<HideMeetingName>1</HideMeetingName>
-```
-
-On a Teams Rooms on Android device, open Teams Admin Settings > Meetings and toggle "Show meeting names" to Off to hide meeting names on the Teams Room device.
-
-### Hide the calendar from the front-of-room display
-
-Teams Rooms on Windows allow you to hide the calendar on your front-of-room display and only see the calendar on the console. Add the following to your XML configuration file to do so:
-
-```xml
-<RemoveFoRCalendar>true</RemoveFoRCalendar> 
-```
-
-## QR Codes for Meeting Join
-
-Teams Rooms devices offer QR codes on the console and front-of-room screens to allow users an easy path to join a Microsoft Teams Meeting, for more information, see: [ Join meeting with QR codes](/microsoftteams/rooms/teams-rooms-qr-codes).
+**Teams Rooms (Windows and Android)** devices display a QR code on the console and front-of-room display by default to allow users to easily bring their meetings to the room. For more information, see: [ Join meeting with QR codes](/microsoftteams/rooms/teams-rooms-qr-codes).
 
 ## Backgrounds
 
-Teams Rooms devices include several out of the box backgrounds that can be selected as desired.
-
-Teams Rooms on Windows devices also support custom backgrounds, see [Set up and manage Teams Rooms on Windows custom backgrounds](custom-backgrounds.md).
-
-## Teams Rooms on Windows XML Configuration
-
-To apply the configuration changes included in this article to your Teams Rooms for Windows devices, you need to use the Teams Rooms XML configuration file. The XML configuration file lets you remotely deploy configuration changes to one or more Teams Rooms devices in your organization. For more information, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md).
+**Teams Rooms (Windows and Android)** devices include several out of the box backgrounds that can be selected as desired. If your **Teams Rooms on Windows** device has an account with a Teams Rooms Pro license, you can configure custom backgrounds for your device, see [Setup and managed backgrounds](/microsoftteams/rooms/custom-backgrounds). Custom backgrounds is not yet available on **Teams Rooms on Android** devices.
