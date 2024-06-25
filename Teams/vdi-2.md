@@ -60,7 +60,9 @@ New VDI solution for Teams is a new architecture for optimizing the delivery of 
      On the **Add-on(s)** page, select the **Install Microsoft Teams VDI plug-in** checkbox, and then select **Install**.
      Agree to the user agreement that pops up and proceed with the installation of the Citrix Workspace app.
 
-   Note: Citrix Workspace app 2402 only presents the plugin installation UI on a fresh install. For in-place upgrades to also present this option, Citrix Workspace app 2405 or higher is required.
+> [!NOTE]
+> Citrix Workspace app 2402 only presents the plugin installation UI on a fresh install.
+> For in-place upgrades to also present this option, Citrix Workspace app 2405 or higher is required.
 
   b. Via command line or scripts for managed devices using:
     `C:\>CitrixWorkspaceApp.exe installMSTeamsPlugin`
@@ -86,8 +88,8 @@ The plugin silently executes this step, without user or admin intervention. The 
 
 The following registry keys could block new media engine MSIX package installation:
 
-- BlockNonAdminUserInstall
-- AllowAllTrustedApps
+- [BlockNonAdminUserInstall](https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-csp-applicationmanagement#blocknonadminuserinstall)
+- [AllowAllTrustedApps](https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-csp-applicationmanagement#allowalltrustedapps)
 - AllowDevelopmentWithoutDevLicense
 
 > [!IMPORTANT]
@@ -108,7 +110,9 @@ Some policies might change these registry keys and block app installation in you
 - Prevent non-admin users from installing packaged Windows apps.
 - Allow all trusted apps to install (disabled).
 
-Note: AppLocker or Windows Defender Application Control can also prevent MSIX package installation. Make sure there is no blocking configuration or policy.
+> [!NOTE]:
+> [AppLocker](https://learn.microsoft.com/en-us/windows/security/application-security/application-control/windows-defender-application-control/applocker/applocker-overview) or [Windows Defender Application Control](https://learn.microsoft.com/en-us/windows/security/application-security/application-control/windows-defender-application-control/wdac-and-applocker-overview) can also prevent MSIX package installation.
+> Make sure there is no blocking configuration or policy, or add an exception for SlimCore MSIX packages in Local Security Policy -> Application Control Policies -> AppLocker.
 
 ## Verifying that the end point is optimized
 
@@ -252,7 +256,8 @@ The new solution for VDI stores user-specific data on the endpoint in the follow
 - `C:\users\<user>\AppData\Roaming\Microsoft\TeamsVDI\avd-default-<cloudname>\`
 - `C:\users\<user>\AppData\Roaming\Microsoft\TeamsVDI\citrix-default-<cloudname>\`
 
-Locked-down thin clients must allow these locations to be read/write, otherwise the new optimization might fail.
+> [!IMPORTANT]
+> Locked-down thin clients must allow these locations to be read/write, otherwise the new optimization might fail.
 
 Logs, configurations, and AI or ML models (used in noise suppression, bandwidth estimation, etc.) are saved in this location. If these folders are purged after a user signs out (for example, locked-down thin clients without roaming profiles), MsTeamsVdi.exe will recreate them and download the user-specific configuration (about 6 MB of data).
 
@@ -263,7 +268,7 @@ By default, the MsTeamsPlugin automatically downloads and installs the right Sli
 > [!IMPORTANT]
 > If you must chose this method, you must guarantee that:
 >
-> 1. Teams auto-update is disabled in the virtual desktop.
+> 1. [Teams auto-update is disabled](https://learn.microsoft.com/en-us/microsoftteams/new-teams-vdi-requirements-deploy#disable-new-teams-autoupdate) in the virtual desktop.
 > 2. The SlimCore packages are pre-provisioned to the endpoint’s local storage or network share before you upgrade new Teams in the virtual desktop. Any newer Teams version will request a matching new version of SlimCore and if the plugin can't find it, the user will be in fallback mode (server-side rendering).
 >
 > This is because new Teams and SlimCore versions must match.
@@ -377,7 +382,7 @@ If there's a connection error, the error code can be found from the log line con
 |0          |0          |OK                               |Special code for ‘ConnectedNoPlugin’ Telemetry Messages. |
 |5          |43         |ERROR_ACCESS_DENIED              |MsTeamsVdi.exe process failed at startup. Possibly caused by BlockNonAdminUserInstall being enabled. |
 |404        |3235       |HTTP_STATUS_NOT_FOUND            |Publishing issue: SlimCore MSIX package is not found on CDN. |
-|1260       |10083      |ERROR_ACCESS_DISABLED_BY_POLICY  |This usually means that Windows Package Manager cannot install the SlimCore MSIX package. Event Viewer can show the hex error code 0x800704EC. AppLocker Policies can cause this error code. Check ‘Step 3’ under "Optimizing with new VDI solution for Teams". |
+|1260       |10083      |ERROR_ACCESS_DISABLED_BY_POLICY  |This usually means that Windows Package Manager cannot install the SlimCore MSIX package. Event Viewer can show the hex error code 0x800704EC. AppLocker Policies can cause this error code. You can either disable AppLocker, or add an exception for SlimCoreVdi packages in Local Security Policy -> Application Control Policies -> AppLocker. Check ‘Step 3’ under "Optimizing with new VDI solution for Teams". |
 |1460       |11683      |ERROR_TIMEOUT                    |MsTeamsVdi.exe process failed at startup (60 second timeout). |
 |1722       |           |RPC_S_SERVER_UNAVAILABLE         |‘The RPC server is unavailable’ MsTeamsVdi.exe related error. |
 |2000       |16002      |No Plugin                        |Endpoint does not have the MsTeamsPlugin, or if it has it, it did not load (check with Process Explorer). |
@@ -390,13 +395,12 @@ If there's a connection error, the error code can be found from the log line con
 |4000       |           |ERROR_WINS_INTERNAL              |WINS encountered an error while processing the command. |
 |15615      |1951       |ERROR_INSTALL_POLICY_FAILURE     |SlimCore MSIX related error. To install this app, you need either a Windows developer license, or a sideloading-enabled system. AllowAllTrustedApps regkey might be set to 0? |
 |15616      |           |ERROR_PACKAGE_UPDATING           |SlimCore MSIX related error 'The application cannot be started because it is currently updating'. |
-|15700      |           |APPMODEL_ERROR_NO_PACKAGE        |The process has no package identity. |
-|16385      |           |                                 |         |
-|16389      |           |                                 |         |
+|15700      |           |APPMODEL_ERROR_NO_PACKAGE        |The process has no package identity. There is no alias for MsTeamsVdi in %LOCALAPPDATA%\Microsoft\WindowsApps. [Feedback Hub](https://support.microsoft.com/en-us/windows/send-feedback-to-microsoft-with-the-feedback-hub-app-f59187f8-8739-22d6-ba93-f66612949332) logs will be needed while reproducing the error (make sure you select "Developer Platform" as the category and "App deployment" as the sub-category)|
 
 ## Using Event Viewer on the VM for troubleshooting
 
-Every connect/disconnect event gets logged in the Event Viewer running on the Virtual Machine. The Event Viewer can also display client-side related errors. Error codes can be found in the [New Teams logs for VDI](#new-teams-logs-for-vdi) section.
+Every connect/disconnect event gets logged in the Event Viewer running on the Virtual Machine. The Event Viewer can also display client-side related errors.  Filter by Source (Microsoft Teams VDI) and Event ID (0).
+Error codes can be found in the [New Teams logs for VDI](#new-teams-logs-for-vdi) section.
 
 ## Troubleshooting Plugin deployment errors
 
@@ -426,6 +430,7 @@ Diagnostic information can be found in the detailed event logs on the user’s d
 Error 15615 usually means that the Windows Package Manager can't install the MSIX package with SlimCoreVdi.
 
 - Make sure the digital signature of that MSIX is trusted by the Endpoint (Go to MSIX > Properties > Digital signatures > Details). It's a valid store-friendly Microsoft signature, but customers may have something special configured.
+- Try enabling [AllowAllTrustedApps policy](https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-csp-applicationmanagement#allowalltrustedapps)
 - Try to allow sideloading apps from trusted non-store sources.
   - On Windows 10, this setting is enabled by default, so modify it here in case it is disabled: Settings > Update and Security > For developers > Sideload apps.
   - On Windows 11, this setting is enabled by default: Settings > Apps > Advanced app settings > Choose where to get apps > Anywhere.
