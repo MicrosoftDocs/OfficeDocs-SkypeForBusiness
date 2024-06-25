@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.topic: article
-ms.date: 06/24/2024
+ms.date: 06/25/2024
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -26,7 +26,7 @@ New VDI solution for Teams is a new architecture for optimizing the delivery of 
 
 > [!IMPORTANT]
 > The rollout to public preview started on June 25th 2024, and will reach 100% coverage in the next few days.
-> In order to participate on the public preview, administrators must move users to the public preview channel as described [here](https://learn.microsoft.com/microsoftteams/public-preview-doc-updates?tabs=new-teams-client)
+> In order to participate on the public preview, administrators must move users to the public preview channel as described [in this article](public-preview-doc-updates.md).
 
 ## Components
 
