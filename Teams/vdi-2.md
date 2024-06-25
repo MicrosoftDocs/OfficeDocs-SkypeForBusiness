@@ -53,7 +53,7 @@ New VDI solution for Teams is a new architecture for optimizing the delivery of 
 ### Step 2: Plugin installation on the endpoint
 
 1. For AVD and Windows 365, MsTeamsPluginAvd.dll is bundled with the RD Client for Windows 1.2.5405.0, or with the Windows App Store app 1.3.252 or higher.
-  - The plugin is found in the same folder location where the RD Client is installed; either AppData\Local\Apps\Remote Desktop or C:\Program Files (x86), depending on the mode it was installed.
+  - The plugin is found in the same folder location where the RD Client is installed. It'll either be AppData\Local\Apps\Remote Desktop or C:\Program Files (x86), depending on the mode in which it was installed.
   - For the [Windows App Store](/windows-app/overview) app, since it's MSIX-based, it's found in C:\Program Files\WindowsApps. Access to this folder is restricted.
 1. For Citrix CWA 2402 or higher, MsTeamsPluginCitrix.dll can be installed either:
   - Using the user interface when installing CWA:
