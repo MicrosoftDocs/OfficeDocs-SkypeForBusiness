@@ -1,10 +1,10 @@
 ---
-title: Check in and room release update
+title: Check-in and auto release on Teams Panels
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: eveigrimshaw
-ms.date: 05/02/2024
+ms.date: 06/25/2024
 ms.topic: article
 audience: Admin
 appliesto: 
@@ -19,7 +19,7 @@ f1.keywords:
   - NOCSH
 search.appverid: MET150
 ms.localizationpriority: medium
-description: This article provides guidance on how to enable check-in and room release Teams panels devices.
+description: This article provides guidance on how to enable check-in and auto release for Teams panels.
 ---
 # Auto release and check-in on Microsoft Teams panels
 
@@ -28,6 +28,8 @@ When auto release and check-in are enabled, users must check in at the room they
 This feature can be used in a standalone Teams panel deployment or on a Teams panel that is signed into the same resource account as Teams rooms. For rooms with multiple panels, auto release and check-in are supported if the panel devices are all on app version 1449/1.0.97.2024061108 or later. For additional functionalities like check-in notifications, you can also pair Teams panels with Teams Rooms on Android with app version 1449/1.0.96.2022011305 or later.
 
 The shared mailbox associated with the Teams panel needs to have the correct time zone set for this feature to work correctly. For information about how to set the time zone for shared mailboxes, see [Time zone settings for shared mailboxes in Outlook on the web](/exchange/troubleshoot/outlook-on-the-web-issues/shared-mailboxes-time-zone-setting).
+
+For best practices when downloading app version 1449/1.0.97.2024061108, please see our [release notes](https://support.microsoft.com/en-us/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_panels). 
 
 ## Enable auto release and check-in
 
@@ -42,9 +44,6 @@ Auto release and check-in are off by default. To turn it on:
 1. To adjust the amount of time users have to check in before the room is released, go to **Release after:** and select an option from the dropdown.  
 
 In addition, you can use configuration profiles to apply this feature to a set of devices. For more information, see [Use configuration profiles in Teams](device-management.md#use-configuration-profiles-in-teams).
-
-For best practices when downloading app version 1449/1.0.97.2024061108, please see our [release notes](https://support.microsoft.com/en-us/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_panels). 
-
 
 > [!NOTE]
 > For devices on app version 1449/1.0.97.2024061108 or later, when auto release is enabled, disabled, or adjusted for a room, it can take up to 48 hours for the change to take effect.  For this reason, it is recommended that the settings are adjusted when no meetings are scheduled for the next 48 hours. 
