@@ -276,11 +276,11 @@ By default, the MsTeamsPlugin automatically downloads and installs the right Sli
 #### Configuration steps
 
 1. On the user’s endpoint (thin client/fat client), you must create the following regkey:
-  a. Location for Citrix: HKLM\SOFTWARE\WOW6432Node\Microsoft\Teams\MsTeamsPlugin
-  b. Location for AVD/W365: HKLM\SOFTWARE\Microsoft\Teams\MsTeamsPlugin
-  c. Name: MsixUrlBase
-  d. Type: REG_SZ
-  e. Data: Either local storage or network storage UNC path, such as file://C:/Temp or file://ComputerName/SharedFolder.
+  - Location for Citrix: HKLM\SOFTWARE\WOW6432Node\Microsoft\Teams\MsTeamsPlugin
+  - Location for AVD/W365: HKLM\SOFTWARE\Microsoft\Teams\MsTeamsPlugin
+  - Name: MsixUrlBase
+  - Type: REG_SZ
+  - Data: Either local storage or network storage UNC path, such as file://C:/Temp or file://ComputerName/SharedFolder.
   The regkey defines the Base URL.
 2. Additionally, admins must download the exact SlimCore MSIX Package version from Microsoft’s CDN that matches the new Teams version you're planning to deploy in the future: [https://res.cdn.office.net/ic3-1/slimcorevdi/2024.4.1.9/Microsoft.Teams.SlimCoreVdi.win-x64.msix](https://res.cdn.office.net/ic3-1/slimcorevdi/2024.4.1.9/Microsoft.Teams.SlimCoreVdi.win-x64.msix).
 
@@ -310,8 +310,8 @@ The new Teams client requires three custom virtual channels to function: MSTEAMS
 - MSTEAM2,C:\Program Files\WindowsApps\MSTeams*8wekyb3d8bbwe\ms-teams.exe
 
 1. Wildcard support is available in:
-  a. VDA 2206 CR.
-  b. VDA 2203 LTSR from CU2 onwards.
+  - VDA 2206 CR.
+  - VDA 2203 LTSR from CU2 onwards.
 2. The VDA machines must be rebooted for the policy to take effect.
 
 #### Citrix App Protection and Microsoft Teams compatibility
@@ -325,10 +325,10 @@ Users who have App Protection enabled can still share their screen and apps whil
   
   1. Make sure your ‘Virtual Channel Allow list’ is properly configured to allow MSTEAMS, MSTEAM1, MSTEAM2.
   2. Make sure the endpoint has the plugin, and is loaded by the VDI Client with Process Explorer:
-    a. Run [process explorer](/sysinternals/downloads/process-explorer).
-    b. Enable the bottom pane and switch to the DLL tab.
-    c. On AVD, look for the msrdc.exe process and ensure the MsTeamsPluginAvd.dll is loaded.
-    d. On Citrix, look for the wfica32.exe process and ensure the MsTeamsPluginCitrix.dll is loaded.
+    - Run [process explorer](/sysinternals/downloads/process-explorer).
+    - Enable the bottom pane and switch to the DLL tab.
+    - On AVD, look for the msrdc.exe process and ensure the MsTeamsPluginAvd.dll is loaded.
+    - On Citrix, look for the wfica32.exe process and ensure the MsTeamsPluginCitrix.dll is loaded.
   3. Restart the new Teams app. It requires two restarts to transition from WebRTC to SlimCore, when the plugin is detected for the first time.
   4. If the problem persists, check Event Viewer in the VM for **Microsoft Teams VDI**-related errors (new Teams 24123.X.X.X or higher).
 
@@ -421,8 +421,8 @@ Diagnostic information can be found in the detailed event logs on the user’s d
 
 1. Go the Event Viewer (Local) > Applications and Services Logs > Microsoft > Windows.
 1. Check for available logs under these categories:
-  a. AppxPackagingOM > Microsoft-Windows-AppxPackaging/Operational
-  b. AppXDeployment-Server > Microsoft-Windows-AppXDeploymentServer/Operational
+  - AppxPackagingOM > Microsoft-Windows-AppxPackaging/Operational
+  - AppXDeployment-Server > Microsoft-Windows-AppXDeploymentServer/Operational
 1. Review the logs under AppXDeployment-Server.
 
 ### Error 15615
