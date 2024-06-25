@@ -24,6 +24,10 @@ ms.localizationpriority: high
 
 New VDI solution for Teams is a new architecture for optimizing the delivery of multimedia workloads in virtual desktops.
 
+> [!IMPORTANT]
+> The rollout to public preview started on June 25th 2024, and will reach 100% coverage in the next few days.
+> In order to participate on the public preview, administrators must move users to the public preview channel as described [here](https://learn.microsoft.com/microsoftteams/public-preview-doc-updates?tabs=new-teams-client)
+
 ## Components
 
 |Component |Role |Update |Size |Notes |
@@ -31,14 +35,14 @@ New VDI solution for Teams is a new architecture for optimizing the delivery of 
 |New Teams **vdiBridge**     |Server-side virtual channel module. |New version with every new Teams version. |Bundled with new Teams. | |
 |Custom virtual channel (VC) |Custom VC owned by Microsoft Teams. |Stable API - no updates foreseen. | |Check the Citrix Studio policy **Virtual channel allow list**. |
 |Plugin                      |Client-side VC dll. Responsible also for SlimCore download and clean-up. |Not frequent (ideally no updates). |Approximately 200 KB. |Bundled with [RD Client 1.2.5405.0](/azure/virtual-desktop/whats-new-client-windows) or Windows App 1.3.252 or higher. Citrix CWA 2402 or higher can fetch and install the plugin. |
-|SlimCore                    |Media engine (operating system specific, not VDI vendor specific). |Auto-updated to a new version with each new Teams version. |Approximately 50 MB. |MSIX package hosted on Microsoft's public CDN, [https://res.cdn.office.net/ic3-1/slimcorevdi/2024.14.1.8/Microsoft.Teams.SlimCoreVdi.win-x64.msix](https://res.cdn.office.net/ic3-1/slimcorevdi/2024.14.1.8/Microsoft.Teams.SlimCoreVdi.win-x64.msix) |
+|SlimCore                    |Media engine (operating system specific, not VDI vendor specific). |Auto-updated to a new version with each new Teams version. |Approximately 50 MB. |MSIX package hosted on Microsoft's public CDN|
 
 ## System requirements
 
 |Requirement |Minimum version |
 |------------|----------------|
-|New Teams   |24124.2315.2911.3357                                                                                      |
-|AVD/W365    |Windows App: 1.3.252</br>Remote Desktop Client: 1.2.5405.0                                                |
+|New Teams   |24124.2315.2911.3357 (for AVD/Windows 365) </br> 	24152.408.2949.8308 (for Citrix)                                                                                     |
+|AVD/Winodws 365    |Windows App: 1.3.252</br>Remote Desktop Client: 1.2.5405.0                                                |
 |Citrix      |VDA: 2203 LTSR CU2 or 2212 CR</br>Citrix Workspace app: 2203 LTSR (any CU), 2402 LTSR, or 2302 CR          |
 |Endpoint    |Windows 10 1809 (SlimCore minimum requirement)</br>GPOs must not block MSIX installations (see [Step 3: SlimCore MSIX staging and registration on the endpoint](#step-3-slimcore-msix-staging-and-registration-on-the-endpoint))</br>Minimum CPU: Intel Celeron (or equivalent) @ 1.10 GHz, 4 Cores, Minimum RAM: 4 GB |
 
@@ -46,7 +50,7 @@ New VDI solution for Teams is a new architecture for optimizing the delivery of 
 
 ### Step 1: Confirm prerequisites
 
-1. Make sure you have the new Microsoft Teams version 24124.2311.2896.3219 or higher.
+1. Make sure you have the new Microsoft Teams version 24124.2311.2896.3219 or higher (for AVD/Windows 365), and 	24152.408.2949.8308 or higher for Citrix.
 1. Enable the new Teams policy **if necessary** for a specific user group (it's enabled by default at a Global org-wide level).
 1. For Citrix, you must configure the **Virtual channel allow list** as described in the [Citrix Virtual channel allow list](#citrix-virtual-channel-allow-list) section of this article.
 
@@ -118,12 +122,12 @@ Some policies might change these registry keys and block app installation in you
 
 ## Verifying that the end point is optimized
 
-Once you meet all the minimum requirements, launching new Teams for the first time will be in VDI 1.0 (WebRTC) optimized mode by default.
+Once you meet all the minimum requirements, launching new Teams for the first time will still be in WebRTC optimized mode by default.
 
 > [!IMPORTANT]
-> For first run experiences, two app restarts are required to get into VDI 2.0 mode.
+> For first run experiences, two app restarts are required to get the new optimization.
 
-You can check in the Teams client that you have VDI 2.0 by going to the ellipsis (three dots ...) on the top bar, then selecting Settings > About. The Teams and client versions are listed there.
+You can check in the Teams client that you are optimized with the new architecture by going to the ellipsis (three dots ...) on the top bar, then selecting Settings > About. The Teams and client versions are listed there.
 
 :::image type="content" source="media/teams-vdi-2-about-teams.png" alt-text="A screenshot of the About Teams window showing VDI versioning.":::
 
@@ -144,7 +148,7 @@ Get-AppxPackage Microsoft.Teams.SlimCore*
 
 If you're optimized, you can see MsTeamsVdi.exe running on your endpoint for AVD/W365 or Citrix.
 
-If you enable the bottom pane and switch to the DLL tab, you can also see the Plugin being loaded. This action is a useful troubleshooting step in case you're not getting optimized with VDI 2.0.
+If you enable the bottom pane and switch to the DLL tab, you can also see the Plugin being loaded. This action is a useful troubleshooting step in case you're not getting the new optimization.
 
 ## Session roaming and reconnections
 
@@ -284,7 +288,7 @@ By default, the MsTeamsPlugin automatically downloads and installs the right Sli
   - Type: REG_SZ
   - Data: Either local storage or network storage UNC path, such as file://C:/Temp or file://ComputerName/SharedFolder.
   The regkey defines the Base URL.
-2. Additionally, admins must download the exact SlimCore MSIX Package version from Microsoft's CDN that matches the new Teams version you're planning to deploy in the future: [https://res.cdn.office.net/ic3-1/slimcorevdi/2024.4.1.9/Microsoft.Teams.SlimCoreVdi.win-x64.msix](https://res.cdn.office.net/ic3-1/slimcorevdi/2024.4.1.9/Microsoft.Teams.SlimCoreVdi.win-x64.msix).
+2. Additionally, admins must download the exact SlimCore MSIX Package version from Microsoft's CDN that matches the new Teams version you're planning to deploy in the future.
 
   > [!IMPORTANT]
   > The MSIX package needs to match the architecture or bitness of the Citrix Workspace app (x86 only) or Remote Desktop or Windows App clients: `Microsoft.Teams.SlimCoreVdi.<platform>-<architecture>.msix`.
@@ -322,7 +326,7 @@ Users who have App Protection enabled can still share their screen and apps whil
 
 #### Troubleshooting
 
-- Not optimized with VDI 2.0 and instead you see:</br>"AVD Media Optimized"</br>"Citrix HDX Optimized"
+- Not optimized with SlimCore and instead you see:</br>"AVD Media Optimized"</br>"Citrix HDX Optimized"
   - Error Codes 2000 ("No Plugin") and 2001 ("Virtual Channel not available") are the most likely causes.
   
   1. Make sure your 'Virtual Channel Allow list' is properly configured to allow MSTEAMS, MSTEAM1, MSTEAM2.
