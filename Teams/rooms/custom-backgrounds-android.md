@@ -165,7 +165,7 @@ After you've created backgrounds:
 
 Once the images are saved in the configuration profile, and the configuration profile is assigned to Teams Rooms on Android devices with a Teams Rooms Pro license, the custom background image will be applied to the devices at the next device restart.
 
-On your Teams Rooms on Android device settings, you can switch the background of your device from the custom image to one of the Teams built-in images, or vice versa: go to **Teams Admin Settings** > **General** > **Background** > select another background  thumbnail as desired. To change the custom image saved on the device, you'll need to make the update from the Teams admin center.   
+On your Teams Rooms on Android device settings, you can switch the background of your device from the custom image to one of the Teams built-in images, or vice versa: go to **Teams Admin Settings** > **General** > **Background** > select another background thumbnail as desired. To change the custom image saved on the device, you'll need to make the update from the Teams admin center.   
 
 > [!NOTE]
 > Only one custom image per display can be stored at a time. If you upload and apply another image to a particular display, the new image will replace any existing image for that display. 
