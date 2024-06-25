@@ -88,8 +88,8 @@ The plugin silently executes this step, without user or admin intervention. The 
 
 The following registry keys could block new media engine MSIX package installation:
 
-- [BlockNonAdminUserInstall](https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-csp-applicationmanagement#blocknonadminuserinstall)
-- [AllowAllTrustedApps](https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-csp-applicationmanagement#allowalltrustedapps)
+- [BlockNonAdminUserInstall](/windows/client-management/mdm/policy-csp-applicationmanagement#blocknonadminuserinstall)
+- [AllowAllTrustedApps](/windows/client-management/mdm/policy-csp-applicationmanagement#allowalltrustedapps)
 - AllowDevelopmentWithoutDevLicense
 
 > [!IMPORTANT]
@@ -111,7 +111,7 @@ Some policies might change these registry keys and block app installation in you
 - Allow all trusted apps to install (disabled).
 
 > [!NOTE]:
-> [AppLocker](https://learn.microsoft.com/en-us/windows/security/application-security/application-control/windows-defender-application-control/applocker/applocker-overview) or [Windows Defender Application Control](https://learn.microsoft.com/en-us/windows/security/application-security/application-control/windows-defender-application-control/wdac-and-applocker-overview) can also prevent MSIX package installation.
+> [AppLocker](/windows/security/application-security/application-control/windows-defender-application-control/applocker/applocker-overview) or [Windows Defender Application Control](/windows/security/application-security/application-control/windows-defender-application-control/wdac-and-applocker-overview) can also prevent MSIX package installation.
 > Make sure there is no blocking configuration or policy, or add an exception for SlimCore MSIX packages in Local Security Policy -> Application Control Policies -> AppLocker.
 
 ## Verifying that the end point is optimized
@@ -268,7 +268,7 @@ By default, the MsTeamsPlugin automatically downloads and installs the right Sli
 > [!IMPORTANT]
 > If you must chose this method, you must guarantee that:
 >
-> 1. [Teams auto-update is disabled](https://learn.microsoft.com/en-us/microsoftteams/new-teams-vdi-requirements-deploy#disable-new-teams-autoupdate) in the virtual desktop.
+> 1. [Teams auto-update is disabled](new-teams-vdi-requirements-deploy.md#disable-new-teams-autoupdate) in the virtual desktop.
 > 2. The SlimCore packages are pre-provisioned to the endpoint’s local storage or network share before you upgrade new Teams in the virtual desktop. Any newer Teams version will request a matching new version of SlimCore and if the plugin can't find it, the user will be in fallback mode (server-side rendering).
 >
 > This is because new Teams and SlimCore versions must match.
@@ -395,7 +395,7 @@ If there's a connection error, the error code can be found from the log line con
 |4000       |           |ERROR_WINS_INTERNAL              |WINS encountered an error while processing the command. |
 |15615      |1951       |ERROR_INSTALL_POLICY_FAILURE     |SlimCore MSIX related error. To install this app, you need either a Windows developer license, or a sideloading-enabled system. AllowAllTrustedApps regkey might be set to 0? |
 |15616      |           |ERROR_PACKAGE_UPDATING           |SlimCore MSIX related error 'The application cannot be started because it is currently updating'. |
-|15700      |           |APPMODEL_ERROR_NO_PACKAGE        |The process has no package identity. There is no alias for MsTeamsVdi in %LOCALAPPDATA%\Microsoft\WindowsApps. [Feedback Hub](https://support.microsoft.com/en-us/windows/send-feedback-to-microsoft-with-the-feedback-hub-app-f59187f8-8739-22d6-ba93-f66612949332) logs will be needed while reproducing the error (make sure you select "Developer Platform" as the category and "App deployment" as the sub-category)|
+|15700      |           |APPMODEL_ERROR_NO_PACKAGE        |The process has no package identity. There is no alias for MsTeamsVdi in %LOCALAPPDATA%\Microsoft\WindowsApps. [Feedback Hub](https://support.microsoft.com/windows/send-feedback-to-microsoft-with-the-feedback-hub-app-f59187f8-8739-22d6-ba93-f66612949332) logs are needed while reproducing the error (make sure you select **Developer Platform** as the category and **App deployment** as the sub-category)|
 
 ## Using Event Viewer on the VM for troubleshooting
 
@@ -430,7 +430,7 @@ Diagnostic information can be found in the detailed event logs on the user’s d
 Error 15615 usually means that the Windows Package Manager can't install the MSIX package with SlimCoreVdi.
 
 - Make sure the digital signature of that MSIX is trusted by the Endpoint (Go to MSIX > Properties > Digital signatures > Details). It's a valid store-friendly Microsoft signature, but customers may have something special configured.
-- Try enabling [AllowAllTrustedApps policy](https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-csp-applicationmanagement#allowalltrustedapps)
+- Try enabling the [AllowAllTrustedApps policy](/windows/client-management/mdm/policy-csp-applicationmanagement).
 - Try to allow sideloading apps from trusted non-store sources.
   - On Windows 10, this setting is enabled by default, so modify it here in case it is disabled: Settings > Update and Security > For developers > Sideload apps.
   - On Windows 11, this setting is enabled by default: Settings > Apps > Advanced app settings > Choose where to get apps > Anywhere.
