@@ -22,30 +22,6 @@ ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Learn how to set up custom backgrounds on Teams Rooms on Android front-of-room and touch console displays.
 ---
 
----
-title: Set up and manage Teams Rooms on Android custom backgrounds
-ms.author: tonysmit
-author: mstonysmith
-manager: pamgreen
-ms.reviewer: henrikalim
-ms.date: 06/03/2024
-ms.topic: article
-audience: Admin
-ms.service: msteams
-ms.subservice: itpro-rooms
-appliesto: 
-  - Microsoft Teams
-ms.collection: 
-  - M365-collaboration
-  - teams-rooms-devices
-  - Tier1
-f1.keywords: 
-  - NOCSH
-ms.localizationpriority: medium
-ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: Learn how to set up custom backgrounds on Teams Rooms on Android front-of-room and touch console displays.
----
-
 # Set up and manage Teams Rooms on Android custom backgrounds
 
 You can create custom background images for your Teams Rooms on Android devices to showcase your brand or to provide instructions and support information to Teams Rooms users. For example, you can add your company logo and include contact information for your organization's help desk to your custom background.
