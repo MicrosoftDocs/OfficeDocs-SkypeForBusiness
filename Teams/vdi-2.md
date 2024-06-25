@@ -110,9 +110,11 @@ Some policies might change these registry keys and block app installation in you
 - Prevent non-admin users from installing packaged Windows apps.
 - Allow all trusted apps to install (disabled).
 
-> [!NOTE]:
+> [!NOTE]
 > [AppLocker](/windows/security/application-security/application-control/windows-defender-application-control/applocker/applocker-overview) or [Windows Defender Application Control](/windows/security/application-security/application-control/windows-defender-application-control/wdac-and-applocker-overview) can also prevent MSIX package installation.
-> Make sure there is no blocking configuration or policy, or add an exception for SlimCore MSIX packages in Local Security Policy -> Application Control Policies -> AppLocker.
+
+> [!IMPORTANT]
+> Make sure there's no blocking configuration or policy, or add an exception for SlimCore MSIX packages in Local Security Policy -> Application Control Policies -> AppLocker.
 
 ## Verifying that the end point is optimized
 
