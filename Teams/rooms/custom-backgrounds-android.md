@@ -24,65 +24,43 @@ description: Learn how to set up custom backgrounds on Teams Rooms on Android fr
 
 # Set up and manage Teams Rooms on Android custom backgrounds
 
-You can create custom background images for your Teams Rooms on Android devices to represent your brand or to provide instructions to Teams Rooms users. For example, you can add your company logo and include contact information for your organization's help desk to your custom background.
+You can create custom background images for your Teams Rooms on Android devices to showcase your brand or to provide instructions and support information to Teams Rooms users. For example, you can add your company logo and include contact information for your organization's help desk to your custom background.
 
-The custom background options available to you and how you configure them depend on the Teams Rooms app version installed on your device and whether the resource account logged in on your device has a Teams Rooms Pro or Teams Rooms Basic license.
+Your ability to deploy custom backgrounds depends on the version of Teams Rooms on Android app installed on your device and the license of the account logged in on the device:
 
-To check which version of Teams Rooms app is installed and which Teams Rooms license is applied to your device:
+1. Your Teams Rooms on Android device must be running on version 1449/1.0.96.2024XXXX or later
 
-- On your Teams Rooms device:
-  1. Select **More** and then **Settings**
-  1. Enter your admin password and select **Yes**
-  1. On the **Settings** screen
-      - Find the version under **App version**
-      - Find the Teams Rooms license under **Room License**
-- In Teams admin center:
-  1. Go to <https://admin.teams.microsoft.com> and sign in with your admin account
-  1. Select **Teams Rooms on Windows** and then find the device you want to see the app version and Teams Rooms license for
-  1. On the details page, look next to the device name to find the license type
-      - **Pro** - Teams Rooms Pro license
-      - **Basic** - Teams Rooms Basic license
-      - Any other license type - equivalent to Teams Rooms Basic license
-  1. Select the **Health** tab
-  1. On the **Health** tab, go to the **Software health** section and find the version under **Teams App**
+1. The account signed in on your Teams Rooms on Android device must be assigned with a Teams Rooms Pro license
 
-## Teams Rooms 4.17 and later with Teams Rooms Pro license
+To set up and manage custom backgrounds for your Teams Rooms on Android devices, log into **Teams admin center** > go to **Teams devices** > **Teams Rooms on Android** > select **Configuration profiles** > **Add** or **Edit** > **Device settings** > **Background** > select **Upload a custom background**. You can upload up to three images and specify which one goes to the main display, extended display, or touch console. You also have the option to reuse the main display image for the extended display.  
 
-Enhanced backgrounds lets you configure up to three custom background images and specify which image goes on the main front-of-room display, extended front-of-room display, and touch console. 
+No matter how many screens your devices may have, the main display and extended display inputs are required, while the touch console input is optional:
+
+- When you push the configuration profile to a single screen device, only the main display image will show up. 
+
+- When you have two front-of-room displays or when you connect a second display later, the extended display image will be shown. 
+
+- If no image is uploaded for the touch console, a purple gradient default image will be displayed. 
 
 > [!NOTE]
-> In a dual screen set up, the main display is where the room calendar is shown and is meant to be installed on the right side; the extended display is where the date/time and room information is shown and is meant to be placed on the left side.
-
-When you enable custom backgrounds, you must provide custom backgrounds for all of your front-of-room displays. If you have two front-of-room displays, you need to provide a custom background for each display. Providing a custom background for your touch console is optional. Otherwise, if you enable custom backgrounds and don't provide custom backgrounds for all of your front-of-room displays, all displays, including the touch console, default to `No Theme`.
-
-> [!TIP]
-> If you've been using the `<CustomThemeImageUrl>` element to provide a single custom background image for your front-of-room displays, you can continue using it if it suits your needs. However, if you want to provide separate custom backgrounds for each front-of-room display, or replace your existing backgrounds with higher resolution images, or configure a custom background on your touch console, you need to use the elements provided in this section.
-> For more information about using `<CustomThemeImageUrl>`, see [Standard backgrounds](/microsoftteams/rooms/custom-backgrounds?tabs=Standard).
-
-### Supported resolutions
+> In a dual screen set up, the main display is where the room calendar is shown and is meant to be installed on the right side; the extended display is where the date/time and room information is shown and is meant to be placed on the left side.### Supported resolutions
 
 #### Minimum resolutions
 
 Front-of-room displays and touch consoles have **minimum** supported custom background **resolutions**:
 - For front-of-room displays, the minimum supported resolution is 1920 x 1080. 
-- For touch consoles, the minimum supported resolution is 1280 x 800.
-  
-If the resolution of any custom background is below the minimum supported resolution for the display or console it's added to, all displays default to `No Theme`.
+- For touch consoles, the minimum supported resolution is 1280 x 720.
 
 #### Recommended resolutions
 
 The **recommended** custom background **resolution** for front-of-room displays and touch consoles depends on their aspect ratios. The following lists the aspect ratios supported by each display and the recommended custom background resolution for each:
 - Single and dual front-of-room displays (per display)
   - 16:9 displays – 1920 x 1080 for 1080p displays, 3840 x 2160 for 4K displays. Up to two 16:9 displays are supported.
-  - 21:9 displays – 2560 x 1080 for 1080p displays, 3840 x 1645 for 4K displays. Only one 21:9 display is supported.
 - Touch console displays
   - 16:9 displays – 1920 x 1080 
   - 16:10 displays – 1280 x 800
-  - 3:2 displays – 1920 x 800
 - Touch board displays (4K displays)
   - 16:9 – 3840 x 2160
-  - 3:2 – 3840 x 2560
-
 If you're not sure what the aspect ratio of your display is, check your display's specifications.
 
 > [!IMPORTANT]
@@ -92,9 +70,9 @@ If you're not sure what the aspect ratio of your display is, check your display'
 >
 > Custom backgrounds with resolutions or aspect ratios lower than the recommended resolution but higher than the minimum supported resolution are scaled to fill the frame of the display and are then center-cropped. The original aspect ratio of the custom background is maintained.
 
-### Supported formats 
+### Supported file size and formats 
 
-The custom background image file must be in one of the following formats: `JPG`, `JPEG`, and `PNG`.  
+The custom background image file must be under 20MB and saved in one of the following formats: `JPG`, `JPEG`, and `PNG`. 
 
 ### Custom background content guidelines
 
@@ -130,25 +108,24 @@ When you create a custom background, avoid placing text, logos, or icons, near t
 
 :::image type="content" source="../media/mtr-devices/dual-for-qr.png" alt-text="A custom background showing dual 16:9 front of room displays with element dimensions and a QR code." lightbox="../media/mtr-devices/dual-for-qr.png":::
 
-**21:9 - Single front-of-room display dimensions**
-
-:::image type="content" source="../media/mtr-devices/mtrw-for-qr-21x9.png" alt-text="Custom background showing a 21:9 front of room display with element dimensions and a QR code." lightbox="../media/mtr-devices/mtrw-for-qr-21x9.png":::
-
 #### Touch console displays
 
 When you create a custom background, avoid placing text, logos, or icons, near these locations:
 
 - **Upper left corner** - Time and room information.
-  - **Size**: 540 x 242 px
+  - **Size**: Y x Z
+    
 - **Bottom left corner** - Tips.
-  - **Size**: 540 x 82 px
+  - **Size**: Y x Z 
+    
 - **Middle** - User actions.
-  - **Size**: 408 x 336 px
+  - **Size**: Y x Z 
+    
 - **Right side** - Room calendar.
   - **Size**: up to 44% of the screen width, up to 80% of the screen height depending on the display settings
 - **Bottom right corner** - Help.
-  - **Size**: 56 x 56 px
-
+  - **Size**: Y x Z 
+    
 **16:9 - Touch console dimensions**
 
 :::image type="content" source="../media/mtr-devices/mtrw-console-qr.png" alt-text="A custom background showing a 16:9 touch console display with element dimensions with QR code." lightbox="../media/mtr-devices/mtrw-console-qr.png":::
@@ -170,10 +147,6 @@ When you create a custom background, avoid placing text, logos, or icons, on the
 
 :::image type="content" source="../media/mtr-devices/mtrw-touchboard-qr-16x9.png" alt-text="A custom background showing a 16:9 touch board display with element dimensions with QR code." lightbox="../media/mtr-devices/mtrw-touchboard-qr-16x9.png":::
 
-**3:2 - Touch board display dimensions**
-
-:::image type="content" source="../media/mtr-devices/mtrw-touchboard-qr-3x2.png" alt-text="A custom background showing a 3:2 touch board display with element dimensions with QR code." lightbox="../media/mtr-devices/mtrw-touchboard-qr-3x2.png":::
-
 ### Custom background template
 
 To create custom backgrounds that meet the guidelines in the previous section, you can download the [Microsoft Teams Rooms Theme Template](https://www.microsoft.com/en-us/download/details.aspx?id=105251).
@@ -184,29 +157,15 @@ The template is a .PSD file that can be opened by apps such as Adobe Photoshop o
 
 After you've created backgrounds:
 
-1. Save them with unique and descriptive filenames. For example, `ContosoBackground-Right-FoR.jpg` (main/right display), `ContosoBackground-Left-FoR.jpg` (extended/left display), and `ContosoBackground-Console.jpg` (touch console display).
-1. Copy them to the `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` folder on your Teams Rooms device. You can use a USB drive or remotely connect to the network share of your device to copy the file.
-1. To tell the Teams Rooms on Windows app to use custom backgrounds and which files to use, you must add the `<Theming>` element to your XML configuration file. Within the `<Theming>` element, you need to provide the elements in the table below.
+1. Save them with unique and descriptive filenames. For example, `ContosoBackground-Right-FoR.jpg` (main/right display), `ContosoBackground-Left-FoR.jpg` (extended/left display), and `ContosoBackground-Console.jpg` (touch console display). 
+
+1. Upload them to the Teams Rooms on Android configuration profile in the Teams admin center. 
+
+1. Assign the Teams Rooms on Android configuration profile to any Teams Rooms on Android device with a Teams Rooms Pro license.
+
+Once the images are saved in the configuration profile, and the configuration profile is assigned to Teams Rooms on Android devices, at the next device restart, the custom background image will be applied to the devices that are logged in with an account that has a Teams Rooms Pro license.  
+
+On your Teams Rooms on Android device settings (**Settings** > **Teams Admin Settings** > **General** > **Background**), you can switch the background of your device from the custom image pushed to the device to one of the default images, or vice versa. To change the custom image saved on the device, you'll need to go to the Teams admin center.   
 
 > [!NOTE]
-> If the `<CustomThemeImageUrl>` element is also included in the XML configuration file, the following elements override the value provided in that element.
-
-| Element | Description | Required? |
-|---------|-------------|-----------|
-| `<ThemeName>`                          | Set to `Custom` to use custom backgrounds.                                            | **Yes**, if `<Theming>` element is provided.                                                                                                                    |
-| `<CustomBackgroundMainFoRDisplay>`     | Filename of main/right custom background. <br>e.g., `ContosoBackground-Right-FoR.jpg`   | If `<ThemeName>` is set to:<br><ul><li> `Custom` - **Yes**</li><li>Other value - **No**</li></ul>                                                                 |
-| `<CustomBackgroundExtendedFoRDisplay>` | Filename of extended/left custom background. <br>e.g., `ContosoBackground-Left-FoR.jpg` | **Yes**, if both of the following are true:<br><ul><li>`<ThemeName>` is set to `Custom`.</li><li>`<DualScreenMode>` is set to `true`.</li></ul> |
-| `<CustomBackgroundConsole>`            | Filename of touch console background. <br>e.g., `ContosoBackground-Console.jpg`         | **No**                                                                                                                                                          |
-
-Here's an example XML snippet showing background images being provided for dual front-of-room displays and the touch console:
-
-```xml
-<Theming> 
-    <ThemeName>Custom</ThemeName> 
-    <CustomBackgroundMainFoRDisplay>ContosoBackground-Right-FoR.jpg</CustomBackgroundMainFoRDisplay> 
-    <CustomBackgroundExtendedFoRDisplay>ContosoBackground-Left-FoR.jpg</CustomBackgroundExtendedFoRDisplay> 
-    <CustomBackgroundConsole>ContosoBackground-Console.jpg</CustomBackgroundConsole> 
-</Theming> 
-```
-
-To apply the configuration changes included in this article to your Teams Rooms for Windows devices, you need to use the Teams Rooms XML configuration file. The XML configuration file lets you remotely deploy configuration changes to one or more Teams Rooms devices in your organization. For more information, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md).
+> Only one custom image per display can be stored at a time. If you apply another image to a display, the new image will replace any existing image for that display. 
