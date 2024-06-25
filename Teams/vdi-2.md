@@ -31,7 +31,7 @@ New VDI solution for Teams is a new architecture for optimizing the delivery of 
 |New Teams **vdiBridge**     |Server-side virtual channel module. |New version with every new Teams version. |Bundled with new Teams. | |
 |Custom virtual channel (VC) |Custom VC owned by Microsoft Teams. |Stable API - no updates foreseen. | |Check the Citrix Studio policy **Virtual channel allow list**. |
 |Plugin                      |Client-side VC dll. Responsible also for SlimCore download and clean-up. |Not frequent (ideally no updates). |Approximately 200 KB. |Bundled with [RD Client 1.2.5405.0](/azure/virtual-desktop/whats-new-client-windows) or Windows App 1.3.252 or higher. Citrix CWA 2402 or higher can fetch and install the plugin. |
-|SlimCore                    |Media engine (operating system specific, not VDI vendor specific). |Auto-updated to a new version with each new Teams version. |Approximately 50 MB. |MSIX package hosted on Microsoft’s public CDN, [https://res.cdn.office.net/*](https://res.cdn.office.net/*) |
+|SlimCore                    |Media engine (operating system specific, not VDI vendor specific). |Auto-updated to a new version with each new Teams version. |Approximately 50 MB. |MSIX package hosted on Microsoft's public CDN, [https://res.cdn.office.net/*](https://res.cdn.office.net/*) |
 
 ## System requirements
 
@@ -100,14 +100,14 @@ The following registry keys could block new media engine MSIX package installati
 >
 > If this optional October update isn't available for your OS build, the November security update also includes the fix.
 
-These three registry keys can be found at either of the following locations on the user’s device:
+These three registry keys can be found at either of the following locations on the user's device:
 
 - HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock
 - HKLM\SOFTWARE\Policies\Microsoft\Windows\Appx
 
 Some policies might change these registry keys and block app installation in your organization because the admins set a restrictive policy. Some of the known GPO policies that could prevent installation include:
 
-- Prevent non-admin users from installing packaged Windows apps.
+- Prevent nonadmin users from installing packaged Windows apps.
 - Allow all trusted apps to install (disabled).
 
 > [!NOTE]
@@ -148,7 +148,7 @@ If you enable the bottom pane and switch to the DLL tab, you can also see the Pl
 
 ## Session roaming and reconnections
 
-New Teams will load WebRTC or SlimCore at launch time. If virtual desktop sessions are disconnected (not logged off, Teams is left running on the VM), new Teams can't switch optimization stacks unless it's restarted. As a result, users might be in fallback mode (not optimized) if they roam between different devices that don’t support the new optimization architecture (for example, a MAC device that is used in BYOD while working from home, and a corporate-managed thin client in the office).
+New Teams loads WebRTC or SlimCore at launch time. If virtual desktop sessions are disconnected (not logged off, Teams is left running on the VM), new Teams can't switch optimization stacks unless it's restarted. As a result, users might be in fallback mode (not optimized) if they roam between different devices that don't support the new optimization architecture (for example, a MAC device that is used in BYOD while working from home, and a corporate-managed thin client in the office).
 
 |Reconnecting options                                        |Current optimization is WebRTC |Current optimization is SlimCore |
 |------------------------------------------------------------|-------------------------------|---------------------------------|
@@ -164,7 +164,7 @@ New Teams will load WebRTC or SlimCore at launch time. If virtual desktop sessio
 > `<Rule  Direction="in" IPProtocol="TCP"  Profile="all" />`
 > `<Rule Direction="in" IPProtocol="UDP" Profile="all" />`
 
-Make sure the user’s device has network connectivity (UDP and TCP) to endpoint ID 11, 12, 47 and 127 described in [Microsoft 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams).
+Make sure the user's device has network connectivity (UDP and TCP) to endpoint ID 11, 12, 47 and 127 described in [Microsoft 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams).
 
 |ID  |Category          |ER  |Addresses    |Ports                       |Notes |
 |----|------------------|----|-------------|----------------------------|------|
@@ -181,7 +181,7 @@ A walkthrough of the architecture in the diagram:
 
 1. Start new Teams.​
 2. Teams client authenticates to Teams services. Tenant policies are pushed down to the Teams client, and relevant configurations are relayed to the app.​
-3. Teams detects that it’s running in a virtual desktop environment and instantiates the internal vdibridge service​.
+3. Teams detects that it's running in a virtual desktop environment and instantiates the internal vdibridge service​.
 4. Teams opens a secure virtual channel on the server​.
 5. The RDP or HDX protocol carries the request to the RD Client or Citrix Workspace app that previously loaded MsTeamsPlugin (client-side virtual channel component)​.
 6. The RD Client or Citrix Workspace app spawns a new process called MsTeamsVdi.exe, which is the new media engine (SlimCore) used for the new optimization​.
@@ -221,7 +221,7 @@ Implement QoS settings for endpoints and network devices and determine how you w
   |App or screen sharing |50,040 = 50,059          |TCP/UDP  |18         |Assured Forwarding (AF41) |
 - For information on configuring DSCP markings for Windows endpoints, see [Implement QoS in Teams clients](QoS-in-Teams-clients.md).
   > [!NOTE]
-  > Any endpoint-based marking must be applied to MsTeamsVdi.exe, the process that handles all multimedia offloading on the user’s device.
+  > Any endpoint-based marking must be applied to MsTeamsVdi.exe, the process that handles all multimedia offloading on the user's device.
 - For information on implementing QoS for routers, see your manufacturer's documentation.
 - Setting QoS on network devices might include some or all of:
   - using port-based Access Control Lists (ACLs)
@@ -265,26 +265,26 @@ Logs, configurations, and AI or ML models (used in noise suppression, bandwidth 
 
 ### SlimCore installation and upgrade process in locked down Thin Client environments (optional)
 
-By default, the MsTeamsPlugin automatically downloads and installs the right SlimCore media engine version without user or Admin intervention. But customers on restricted network environments in the branch office can opt for an alternative SlimCore distribution process, without requiring the endpoint be able to fetch SlimCore packages using https from Microsoft’s public CDN.
+By default, the MsTeamsPlugin automatically downloads and installs the right SlimCore media engine version without user or Admin intervention. But customers on restricted network environments in the branch office can opt for an alternative SlimCore distribution process, without requiring the endpoint be able to fetch SlimCore packages using https from Microsoft's public CDN.
 
 > [!IMPORTANT]
 > If you must chose this method, you must guarantee that:
 >
 > 1. [Teams auto-update is disabled](new-teams-vdi-requirements-deploy.md#disable-new-teams-autoupdate) in the virtual desktop.
-> 2. The SlimCore packages are pre-provisioned to the endpoint’s local storage or network share before you upgrade new Teams in the virtual desktop. Any newer Teams version will request a matching new version of SlimCore and if the plugin can't find it, the user will be in fallback mode (server-side rendering).
+> 2. The SlimCore packages are pre-provisioned to the endpoint's local storage or network share before you upgrade new Teams in the virtual desktop. Any newer Teams version will request a matching new version of SlimCore and if the plugin can't find it, the user will be in fallback mode (server-side rendering).
 >
 > This is because new Teams and SlimCore versions must match.
 
 #### Configuration steps
 
-1. On the user’s endpoint (thin client/fat client), you must create the following regkey:
+1. On the user's endpoint (thin client/fat client), you must create the following regkey:
   - Location for Citrix: HKLM\SOFTWARE\WOW6432Node\Microsoft\Teams\MsTeamsPlugin
   - Location for AVD/W365: HKLM\SOFTWARE\Microsoft\Teams\MsTeamsPlugin
   - Name: MsixUrlBase
   - Type: REG_SZ
   - Data: Either local storage or network storage UNC path, such as file://C:/Temp or file://ComputerName/SharedFolder.
   The regkey defines the Base URL.
-2. Additionally, admins must download the exact SlimCore MSIX Package version from Microsoft’s CDN that matches the new Teams version you're planning to deploy in the future: [https://res.cdn.office.net/ic3-1/slimcorevdi/2024.4.1.9/Microsoft.Teams.SlimCoreVdi.win-x64.msix](https://res.cdn.office.net/ic3-1/slimcorevdi/2024.4.1.9/Microsoft.Teams.SlimCoreVdi.win-x64.msix).
+2. Additionally, admins must download the exact SlimCore MSIX Package version from Microsoft's CDN that matches the new Teams version you're planning to deploy in the future: [https://res.cdn.office.net/ic3-1/slimcorevdi/2024.4.1.9/Microsoft.Teams.SlimCoreVdi.win-x64.msix](https://res.cdn.office.net/ic3-1/slimcorevdi/2024.4.1.9/Microsoft.Teams.SlimCoreVdi.win-x64.msix).
 
   > [!IMPORTANT]
   > The MSIX package needs to match the architecture or bitness of the Citrix Workspace app (x86 only) or Remote Desktop or Windows App clients: `Microsoft.Teams.SlimCoreVdi.<platform>-<architecture>.msix`.
@@ -325,7 +325,7 @@ Users who have App Protection enabled can still share their screen and apps whil
 - Not optimized with VDI 2.0 and instead you see:</br>"AVD Media Optimized"</br>"Citrix HDX Optimized"
   - Error Codes 2000 ("No Plugin") and 2001 ("Virtual Channel not available") are the most likely causes.
   
-  1. Make sure your ‘Virtual Channel Allow list’ is properly configured to allow MSTEAMS, MSTEAM1, MSTEAM2.
+  1. Make sure your 'Virtual Channel Allow list' is properly configured to allow MSTEAMS, MSTEAM1, MSTEAM2.
   2. Make sure the endpoint has the plugin, and is loaded by the VDI Client with Process Explorer:
     - Run [process explorer](/sysinternals/downloads/process-explorer).
     - Enable the bottom pane and switch to the DLL tab.
@@ -381,12 +381,12 @@ If there's a connection error, the error code can be found from the log line con
 
 |Error code |deployErrc |Definition                       |Notes |
 |-----------|-----------|---------------------------------|------|
-|0          |0          |OK                               |Special code for ‘ConnectedNoPlugin’ Telemetry Messages. |
+|0          |0          |OK                               |Special code for 'ConnectedNoPlugin' Telemetry Messages. |
 |5          |43         |ERROR_ACCESS_DENIED              |MsTeamsVdi.exe process failed at startup. Possibly caused by BlockNonAdminUserInstall being enabled. |
 |404        |3235       |HTTP_STATUS_NOT_FOUND            |Publishing issue: SlimCore MSIX package is not found on CDN. |
-|1260       |10083      |ERROR_ACCESS_DISABLED_BY_POLICY  |This usually means that Windows Package Manager cannot install the SlimCore MSIX package. Event Viewer can show the hex error code 0x800704EC. AppLocker Policies can cause this error code. You can either disable AppLocker, or add an exception for SlimCoreVdi packages in Local Security Policy -> Application Control Policies -> AppLocker. Check ‘Step 3’ under "Optimizing with new VDI solution for Teams". |
+|1260       |10083      |ERROR_ACCESS_DISABLED_BY_POLICY  |This error usually means that Windows Package Manager cannot install the SlimCore MSIX package. Event Viewer can show the hex error code 0x800704EC. AppLocker Policies can cause this error code. You can either disable AppLocker, or add an exception for SlimCoreVdi packages in Local Security Policy -> Application Control Policies -> AppLocker. Check 'Step 3' under "Optimizing with new VDI solution for Teams". |
 |1460       |11683      |ERROR_TIMEOUT                    |MsTeamsVdi.exe process failed at startup (60 second timeout). |
-|1722       |           |RPC_S_SERVER_UNAVAILABLE         |‘The RPC server is unavailable’ MsTeamsVdi.exe related error. |
+|1722       |           |RPC_S_SERVER_UNAVAILABLE         |'The RPC server is unavailable' MsTeamsVdi.exe related error. |
 |2000       |16002      |No Plugin                        |Endpoint does not have the MsTeamsPlugin, or if it has it, it did not load (check with Process Explorer). |
 |2001       |           |Virtual Channel Not Available    |Error on Citrix VDA WFAPI. |
 |3000       |24002      |SlimCore Deployment not needed   |This code isn't really an error. It's a good indicator that the user is on the new optimization architecture with SlimCore. |
@@ -397,16 +397,16 @@ If there's a connection error, the error code can be found from the log line con
 |4000       |           |ERROR_WINS_INTERNAL              |WINS encountered an error while processing the command. |
 |15615      |1951       |ERROR_INSTALL_POLICY_FAILURE     |SlimCore MSIX related error. To install this app, you need either a Windows developer license, or a sideloading-enabled system. AllowAllTrustedApps regkey might be set to 0? |
 |15616      |           |ERROR_PACKAGE_UPDATING           |SlimCore MSIX related error 'The application cannot be started because it is currently updating'. |
-|15700      |           |APPMODEL_ERROR_NO_PACKAGE        |The process has no package identity. There is no alias for MsTeamsVdi in %LOCALAPPDATA%\Microsoft\WindowsApps. [Feedback Hub](https://support.microsoft.com/windows/send-feedback-to-microsoft-with-the-feedback-hub-app-f59187f8-8739-22d6-ba93-f66612949332) logs are needed while reproducing the error (make sure you select **Developer Platform** as the category and **App deployment** as the sub-category)|
+|15700      |           |APPMODEL_ERROR_NO_PACKAGE        |The process has no package identity. There is no alias for MsTeamsVdi in %LOCALAPPDATA%\Microsoft\WindowsApps. [Feedback Hub](https://support.microsoft.com/windows/send-feedback-to-microsoft-with-the-feedback-hub-app-f59187f8-8739-22d6-ba93-f66612949332) logs are needed while reproducing the error (make sure you select **Developer Platform** as the category and **App deployment** as the subcategory)|
 
 ## Using Event Viewer on the VM for troubleshooting
 
-Every connect/disconnect event gets logged in the Event Viewer running on the Virtual Machine. The Event Viewer can also display client-side related errors.  Filter by Source (Microsoft Teams VDI) and Event ID (0).
+Every connect/disconnect event gets logged in the Event Viewer running on the Virtual Machine. The Event Viewer can also display client-side related errors. Filter by Source (Microsoft Teams VDI) and Event ID (0).
 Error codes can be found in the [New Teams logs for VDI](#new-teams-logs-for-vdi) section.
 
 ## Troubleshooting Plugin deployment errors
 
-Diagnostic information can be found in the detailed event logs on the user’s device. After install, MsTeamsPluginCitrix.dll is written into the CWA folder. Only for the Citrix platform, the following keys on the Endpoint (not VM) are created:
+Diagnostic information can be found in the detailed event logs on the user's device. After install, MsTeamsPluginCitrix.dll is written into the CWA folder. Only for the Citrix platform, the following keys on the Endpoint (not VM) are created:
 
 |Key |Key type |Key name |Key value |
 |---------|---------|---------|---------|
@@ -419,7 +419,7 @@ To debug installations, you can enable installer logging, but then you must use 
 
 Make sure you review the [SlimCore MSIX staging and registration on the endpoint](#step-3-slimcore-msix-staging-and-registration-on-the-endpoint) section, as certain GPOs can prevent MSIX installations.
 
-Diagnostic information can be found in the detailed event logs on the user’s device.
+Diagnostic information can be found in the detailed event logs on the user's device.
 
 1. Go the Event Viewer (Local) > Applications and Services Logs > Microsoft > Windows.
 1. Check for available logs under these categories:
@@ -433,7 +433,7 @@ Error 15615 usually means that the Windows Package Manager can't install the MSI
 
 - Make sure the digital signature of that MSIX is trusted by the Endpoint (Go to MSIX > Properties > Digital signatures > Details). It's a valid store-friendly Microsoft signature, but customers may have something special configured.
 - Try enabling the [AllowAllTrustedApps policy](/windows/client-management/mdm/policy-csp-applicationmanagement).
-- Try to allow sideloading apps from trusted non-store sources.
+- Try to allow sideloading apps from trusted nonstore sources.
   - On Windows 10, this setting is enabled by default, so modify it here in case it is disabled: Settings > Update and Security > For developers > Sideload apps.
   - On Windows 11, this setting is enabled by default: Settings > Apps > Advanced app settings > Choose where to get apps > Anywhere.
 
