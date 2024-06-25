@@ -125,6 +125,8 @@ items:
                   href: msi-deployment.md
                 - name: Classic Teams for Virtualized Desktop Infrastructure (VDI)
                   href: teams-for-vdi.md
+                - name: Teams for Virtualized Desktop Infrastructure 2.0 (VDI)
+                  href: vdi-2.md
                 - name: Classic Teams for Remote Desktop environment (RDP)
                   href: teams-on-rdp.md
                 - name: Troubleshoot classic Teams installation and update issues
