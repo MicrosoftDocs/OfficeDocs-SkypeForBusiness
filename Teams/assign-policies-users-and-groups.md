@@ -95,9 +95,10 @@ Group policy assignments are only propagated to users who are direct members of 
 
 > [!IMPORTANT]
 > The Teams Powershell module and Teams admin center don't support the following policies for group policy assignment.
+>
 > - Teams App Permission Policy
 > - Teams Emergency Call Routing Policy
-> - Teams Network Roaming Policy 
+> - Teams Network Roaming Policy
 > - Teams Upgrade Policy
 > - Teams Voice Applications Policy
 
@@ -156,7 +157,6 @@ To change the ranking of a group assignment, you need to remove the group policy
 This video shows the steps to create and assign a custom meeting policy to a group.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1ca7M?autoplay=false]
-
 
 ### Install and connect to the Microsoft Teams PowerShell module
 
