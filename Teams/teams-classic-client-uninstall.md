@@ -41,7 +41,7 @@ Before proceeding with the uninstallation, you should try to identify how classi
 
 3. **Admin-Deployed Teams Machine-Wide Installer Without Microsoft 365 Apps**:
    - Classic Teams was deployed machine-wide by an admin without using Microsoft 365 Apps (typically by deploying the Teams Machine-Wide Installer directly).
-   - **Action**: After new Teams is deployed, an attempt will be made to remove classic Teams after 14 days. If Microsoft 365 Apps is present, after new Teams is deployed, an attempt to remove the Teams Machine-Wide Installer will be made as well. Otherwise, admins must proactively uninstall the Teams Machine-Wide Installer using their existing deployment tools. See [Bulk install classic Teams using Windows Installer (MSI)](msi-deployment.md) for more information.
+   - **Action**: After new Teams is deployed, an attempt will be made to remove classic Teams after 14 days. If Microsoft 365 Apps is present, after new Teams is deployed, an attempt to remove the Teams Machine-Wide Installer will be made as well. Otherwise, admins must proactively uninstall the Teams Machine-Wide Installer using their existing deployment tools. See [Remove classic Teams for all users](new-teams-bulk-install-client.md) for more information.
 
 > [!NOTE]
 > If your organization has the **New Teams as default** setting, which allows users to switch back, the uninstallation of classic Teams removes the switch option.
