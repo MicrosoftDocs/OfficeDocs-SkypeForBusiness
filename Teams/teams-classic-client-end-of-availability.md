@@ -162,3 +162,8 @@ In the Teams admin center:
 - **Admin-managed rollout**: Until the start of April, admins could choose to control the new Teams rollout as outlined in [Upgrade to the new Teams client using policies](new-teams-deploy-using-policies.md). Apart from your VDI users, this period has ended, and the following is now true:
   - New Teams is installed and becomes the default client. The toggle to return to classic Teams is still available if needed.
   - In mid-May, any users remaining on classic Teams will be switched to new Teams, and the toggle to return to classic Teams won't be available. We'll attempt to uninstall classic Teams after a period of time.
+
+> [!IMPORTANT]
+> A rare issue with the uninstall of classic Teams has been detected and to be cautious Microsoft has paused the automatic uninstallation of classic Teams for customers who haven't already completed this step. This issue could result in the Teams Meeting Addin in Outlook failing to schedule or join Teams meetings. We are actively investigating this issue and will update once it's resolved. If your users are experiencing this issue, a workaround is to use Teams to schedule or join meetings.
+>
+> For customers who are experiencing this issue or who wish to perform the uninstall of classic Teams themselves and experience this issue, there are troubleshooting steps available here: [Teams meeting add-in security when using your Outlook client](teams-meeting-addin-security-with-outlook.md).
