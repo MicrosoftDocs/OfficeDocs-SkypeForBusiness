@@ -169,3 +169,4 @@ On your Teams Rooms on Android device settings, you can switch the background of
 
 > [!NOTE]
 > Only one custom image per display can be stored at a time. If you upload and apply another image to a particular display, the new image will replace any existing image for that display. 
+
