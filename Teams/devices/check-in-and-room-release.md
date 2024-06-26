@@ -62,7 +62,7 @@ To turn on check-in notifications,
 
 1. Go to **Check-in** and turn on **Send check-in notification**
 
-#### Frequently asked questions 
+### Frequently asked questions 
 
 **Question:** **Can I continue to use the check-in feature on Teams panels after Microsoft Places launches their auto release feature? Do they work together?**
 
