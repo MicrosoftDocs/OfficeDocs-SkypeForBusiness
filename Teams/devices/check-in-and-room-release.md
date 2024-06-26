@@ -21,9 +21,9 @@ search.appverid: MET150
 ms.localizationpriority: medium
 description: This article provides guidance on how to enable check-in and auto release for Teams panels.
 ---
-# Auto release and check-in on Microsoft Teams panels
+# Check-in and auto release on Microsoft Teams panels
 
-When auto release and check-in are enabled, users must check in at the room they reserved at the start of the meeting. They can do so on Teams panels using the 'Check in' button or, when Teams panels are signed into the same resource account as Teams Rooms, they can do so by joining a meeting on Teams Room. If a user doesn't check in within a set amount of time after the meeting start time, the meeting room declines the meeting invite, sends a cancellation message to the meeting organizer, and the room becomes available for others to reserve.
+When check-in and auto release are enabled, users must check in at the room they reserved at the start of the meeting. They can do so on Teams panels using the 'Check in' button or, when Teams panels are signed into the same resource account as Teams Rooms, they can do so by joining a meeting on Teams Room. If a user doesn't check in within a set amount of time after the meeting start time, the meeting room declines the meeting invite, sends a cancellation message to the meeting organizer, and the room becomes available for others to reserve.
 
 This feature can be used in a standalone Teams panel deployment or on a Teams panel that is signed into the same resource account as Teams rooms. For rooms with multiple panels, auto release and check-in are supported if the panel devices are all on app version 1449/1.0.97.2024061108 or later. For additional functionalities like check-in notifications, you can also pair Teams panels with Teams Rooms on Android with app version 1449/1.0.96.2022011305 or later.
 
@@ -31,9 +31,9 @@ The shared mailbox associated with the Teams panel needs to have the correct tim
 
 For best practices when downloading app version 1449/1.0.97.2024061108, please see our [release notes](https://support.microsoft.com/en-us/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_panels). 
 
-## Enable auto release and check-in
+## Enable check-in and auto release
 
-Auto release and check-in are off by default. To turn it on:  
+Check-in and auto release are off by default. To turn it on:  
 
 1. On the Teams panel, sign in using your admin credentials.  
 
@@ -64,13 +64,13 @@ To turn on check-in notifications,
 
 #### Frequently asked questions 
 
-**Question:** **Can I continue to use the check-in feature on Teams panels after Microsoft Places launches their auto release feature? Do they work together?** 
+**Question:** **Can I continue to use the check-in feature on Teams panels after Microsoft Places launches their auto release feature? Do they work together?**
 
-**Answer:** Yes, you can! Microsoft Teams and Microsoft Places are working together to light up multiple ways for the user to reflect that they're using the room and prevent it from automatically releasing. For Places preview customers, a new entry point will be offered in addition to checking in through Teams panels or Teams Rooms. 
+**Answer:** Yes, you can! Microsoft Teams and Microsoft Places are working together to light up multiple ways for the user to reflect that they're using the room and prevent it from automatically releasing. For Places preview customers, a new entry point will be offered in addition to checking in through Teams panels or Teams Rooms.
 
 **Question: I am using auto release today for rooms with only one panel. How does support for multi-panel check-in impact this?**
 
-**Answer:** It will not. It is important to note though that once a panel device, regardless of set-up, is on app version 1449/1.0.97.2024061108 or later, any adjustment to the auto release setting can take up to 48 hours to take effect. In addition, please read our [release notes](https://support.microsoft.com/en-us/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_panels) for best practices when downloading app version 1449/1.0.97.2024061108. 
+**Answer:** It will not. It is important to note though that once a panel device, regardless of set-up, is on app version 1449/1.0.97.2024061108 or later, any adjustment to the auto release setting can take up to 48 hours to take effect. In addition, please read our [release notes](https://support.microsoft.com/en-us/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_panels) for best practices when downloading app version 1449/1.0.97.2024061108.
 
 ## Related topics
 
