@@ -107,6 +107,8 @@ items:
                   href: /microsoftteams/troubleshoot/teams-administration/resolve-new-teams-launch-issues
                 - name: Known issues in new Teams
                   href: new-teams-known-issues.md
+                - name: New VDI solution for Teams
+                  href: vdi-2.md
                 - name: Classic Teams client end of availability
                   href: teams-classic-client-end-of-availability.md
                 - name: Manually uninstall classic Teams client
@@ -125,8 +127,6 @@ items:
                   href: msi-deployment.md
                 - name: Classic Teams for Virtualized Desktop Infrastructure (VDI)
                   href: teams-for-vdi.md
-                - name: Teams for Virtualized Desktop Infrastructure 2.0 (VDI)
-                  href: vdi-2.md
                 - name: Classic Teams for Remote Desktop environment (RDP)
                   href: teams-on-rdp.md
                 - name: Troubleshoot classic Teams installation and update issues
