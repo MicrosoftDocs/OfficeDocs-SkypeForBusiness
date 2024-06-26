@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "Teams/apps-working-across-m365.md",
+      "redirect_url": "/microsoftteams/manage-apps-across-m365",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Teams/resource-specific-consent.md",
       "redirect_url": "/microsoftteams/platform/graph-api/rsc/resource-specific-consent",
       "redirect_document_id": false
@@ -5114,6 +5119,11 @@
     "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/update-ccservercertificate.md",
     "redirect_url": "/microsoftteams/cloud-voice-landing-page",
     "redirect_document_id": false
-  }  
+  },
+  {
+    "source_path": "Teams/deploy-audio-conferencing-teams-landing-page.md",
+    "redirect_url": "/microsoftteams/audio-conferencing-in-office-365",
+    "redirect_document_id": false
+  }
 ] 
 }
