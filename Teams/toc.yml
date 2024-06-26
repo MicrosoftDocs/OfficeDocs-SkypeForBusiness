@@ -107,6 +107,8 @@ items:
                   href: /microsoftteams/troubleshoot/teams-administration/resolve-new-teams-launch-issues
                 - name: Known issues in new Teams
                   href: new-teams-known-issues.md
+                - name: New VDI solution for Teams
+                  href: vdi-2.md
                 - name: Classic Teams client end of availability
                   href: teams-classic-client-end-of-availability.md
                 - name: Manually uninstall classic Teams client
@@ -366,6 +368,8 @@ items:
       items:
         - name: Overview
           href: manage-teams-with-policies.md
+        - name: Unified policies and settings management in Teams admin center
+          href: unified-policies-settings-management-teams-admin-center.md
         - name: Assign policies in Teams - getting started
           href: policy-assignment-overview.md
         - name: Assign policies to users and groups
@@ -1464,7 +1468,7 @@ items:
                       href: devices/use-teams-panels.md
                     - name: App support on Teams panels  
                       href: app-support-on-Teams-panels.md
-                    - name: Check-in and room release 
+                    - name: Check-in and auto release
                       href: devices/check-in-and-room-release.md
                     - name: Reserve rooms with a QR code
                       href: devices/reserving-rooms-with-a-qr-code.md
