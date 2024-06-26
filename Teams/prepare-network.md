@@ -6,7 +6,7 @@ manager: jtremper
 ms.topic: article
 ms.service: msteams
 ms.reviewer: jastark
-ms.date: 08/11/2017
+ms.date: 06/25/2024
 audience: admin
 description: Learn about preparing your organization's network for Microsoft Teams, including network requirements, network optimization, and bandwidth requirements.
 ms.localizationpriority: high
