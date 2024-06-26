@@ -1468,7 +1468,7 @@ items:
                       href: devices/use-teams-panels.md
                     - name: App support on Teams panels  
                       href: app-support-on-Teams-panels.md
-                    - name: Check-in and room release 
+                    - name: Check-in and auto release
                       href: devices/check-in-and-room-release.md
                     - name: Reserve rooms with a QR code
                       href: devices/reserving-rooms-with-a-qr-code.md
