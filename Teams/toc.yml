@@ -368,6 +368,8 @@ items:
       items:
         - name: Overview
           href: manage-teams-with-policies.md
+        - name: Unified policies and settings management in Teams admin center
+          href: unified-policies-settings-management-teams-admin-center.md
         - name: Assign policies in Teams - getting started
           href: policy-assignment-overview.md
         - name: Assign policies to users and groups
