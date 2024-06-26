@@ -1,10 +1,10 @@
 ---
-title: Overview of Teams Rooms (Windows and Android) home screen and admin controls
+title: Teams Rooms home screen and admin controls
 ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
 ms.reviewer: henrikalim
-ms.date: 06/04/2024
+ms.date: 06/26/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -21,7 +21,7 @@ ms.localizationpriority: medium
 description: Learn about the Microsoft Teams Rooms home screen design and features.
 ---
 
-# Overview of Teams Rooms (Windows and Android) home screen and admin controls
+# Teams Rooms (Windows and Android) home screen and admin controls
 
 Microsoft Teams Rooms includes a modern home screen design that provides a seamless, intuitive, and consistent look and feel with other Teams devices. The touch console (or touch board) offers a clean and straightforward user experience, prominently displaying a room calendar, an easy access to join upcoming scheduled meetings with a single touch, and commonly used actions like starting a meeting, making a call, and sharing content. Additionally, the home screen features customizable background options, allowing you to tailor the interface to your organization's needs. This user-centric design ensures efficient collaboration and communication, enhancing productivity in a modern workplace environment.
 
@@ -32,7 +32,7 @@ This article explains the various features available on a Teams Rooms touch cons
 
 ### Meet now
 
-Room users can instantly start an ad-hoc Teams meeting using Meet now on any **Teams Rooms (Windows and Android)** device. To ensure that you are not blocking this functionality via policy, see [Manage who can start instant meetings](/microsoftteams/manage-who-can-schedule-meetings).
+Room users can instantly start an ad-hoc Teams meeting using Meet now on any **Teams Rooms (Windows and Android)** device. To ensure that you are not blocking this functionality using policy, see [Manage who can start instant meetings](/microsoftteams/manage-who-can-schedule-meetings).
 
 ### Call
 
@@ -44,18 +44,18 @@ Furthermore, with a Teams Rooms Pro license, **Teams Rooms on Windows** devices 
 
 ### Share
 
-Room users can share content to any **Teams Rooms (Windows and Android)** device either wirelessly via Teams cast or by connecting their personal device to the room system via an HDMI or USB-C cable.
+Room users can share content to any **Teams Rooms (Windows and Android)** device either wirelessly using Teams cast or by connecting their personal device to the room system using an HDMI or USB-C cable.
 
 #### Teams cast
 
 By default, Bluetooth beaconing is enabled on all **Teams Rooms (Windows and Android)** devices so room users can [cast content from desktop](https://support.microsoft.com/office/cast-content-from-your-desktop-to-a-microsoft-teams-room-6d62cdbb-3da2-4bb9-80bd-9cf1098beb3d) or [cast content from mobile](https://support.microsoft.com/office/cast-content-from-a-mobile-device-to-a-microsoft-teams-room-c4e5fb1b-6b94-4d48-88f2-6bcd8e7e339d) to the front-of-room display. To disable Bluetooth beaconing:
 
-- On a **Teams Rooms on Windows** device, open **Settings** > **Device** > toggle **Bluetooth beaconing** to Off as desired. You can also make the configuration change via Teams Rooms Pro Management portal, Teams admin center, or XML setting:
+- On a **Teams Rooms on Windows** device, open **Settings** > **Device** > toggle **Bluetooth beaconing** to Off as desired. You can also make the configuration change using Teams Rooms Pro Management portal, Teams admin center, or XML setting:
 ```xml
 <BluetoothAdvertisementEnabled>false</BluetoothAdvertisementEnabled>
 ```
 
-- On a **Teams Rooms on Android** device, open **Teams Admin Settings** > **General** > toggle **Bluetooth beaconing** to Off as desired. You can also make the configuration change via the Teams Rooms on Android configuration profile in the Teams admin center.
+- On a **Teams Rooms on Android** device, open **Teams Admin Settings** > **General** > toggle **Bluetooth beaconing** to Off as desired. You can also make the configuration change using the Teams Rooms on Android configuration profile in the Teams admin center.
 
 #### HDMI input
 
@@ -64,7 +64,7 @@ By default, upon plugging in an HDMI device to the room system, all **Teams Room
 > [!WARNING]
 > We don't recommend having devices which always output a video signal connected to the HDMI ingest. This is known to cause challenges when trying to present content in a Teams meeting and leads to a misreport in usage data due to the system believing it is always in use.
 
-On a **Teams Rooms on Windows** device, you can disable automatic sharing into a Teams meeting but this doesn't disable automatic sharing onto the front-of-room display. To disable automatic sharing into a meeting, open **Settings** > **Meetings** and toggle **Automatic screen sharing** to Off. You can also disable HDMI ingest audio and disable sending the HDMI content to both front-of-room displays by default. All of which you can make via XML setting:
+On a **Teams Rooms on Windows** device, you can disable automatic sharing into a Teams meeting but this doesn't disable automatic sharing onto the front-of-room display. To disable automatic sharing into a meeting, open **Settings** > **Meetings** and toggle **Automatic screen sharing** to Off. You can also disable HDMI ingest audio and disable sending the HDMI content to both front-of-room displays by default. All of which you can make using XML setting:
 
 ```xml
 <AutoScreenShare>0</AutoScreenShare>
@@ -79,7 +79,7 @@ On a **Teams Rooms on Android** device, you can disable HDMI ingest audio and au
 
 For in person brainstorming sessions, **Teams Rooms (Windows and Android)** devices offer a quick way to start an ad-hoc Microsoft Whiteboard session from the home screen. 
 
-If the front-of-room display of your **Teams Rooms on Android** device is not touch-enabled, you can disable this feature: open **Teams Admin Settings** > **Meetings** and toggle **Allow room to initiate whiteboarding** to Off as desired. You can also update this setting via the Teams Rooms on Android configuration profile in the Teams admin center. 
+If the front-of-room display of your **Teams Rooms on Android** device is not touch-enabled, you can disable this feature: open **Teams Admin Settings** > **Meetings** and toggle **Allow room to initiate whiteboarding** to Off as desired. You can also update this setting using the Teams Rooms on Android configuration profile in the Teams admin center. 
 
 > [!NOTE]
 > All Teams Rooms on Android devices support starting Whiteboard from the home screen. However, for Teams Rooms on Windows, this feature is only supported on the touch board form factor.### Join with an ID
@@ -111,7 +111,7 @@ Language options on **Teams Rooms on Android** devices are controlled by the Tea
 Under Help, Report a problem will show if your **Teams Rooms (Windows and Android)** device has a preview app or if your account is in a preview ring.
 
 Outside of the preview experience, Report a problem can be enabled on **Teams Rooms on Windows** devices in two ways:
-- By default, Report a problem is enabled on any **Teams Rooms on Windows** device that has an account with a Teams Rooms Pro license. When a room user reports an issue, a feedback event is created in the Teams Rooms Pro Management portal. This event gives you the data to address the feedback or open a support case with logs from the room. Sending logs and feedback events to the Teams Rooms Pro Management portal can be disabled via XML setting: 
+- By default, Report a problem is enabled on any **Teams Rooms on Windows** device that has an account with a Teams Rooms Pro license. When a room user reports an issue, a feedback event is created in the Teams Rooms Pro Management portal. This event gives you the data to address the feedback or open a support case with logs from the room. Sending logs and feedback events to the Teams Rooms Pro Management portal can be disabled using XML setting: 
 
 ```xml
 <SendFeedbackToPMP>true</SendFeedbackToPMP>
