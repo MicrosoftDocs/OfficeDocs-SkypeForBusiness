@@ -302,6 +302,7 @@ By default, the MsTeamsPlugin automatically downloads and installs the right Sli
 
 - Azure RemoteApps and Citrix Published Apps are not supported at this time.
 - Calls drop on Teams running on the local machine that has an HID peripheral connected if a user launches a virtual desktop from that same local machine and logs into Teams.
+- If you try to join a meeting right after launching new Teams (for example, clicking on a Teams deep link in Outlook without having new Teams running), the call might drop.
 
 #### Citrix virtual channel allow list
 
