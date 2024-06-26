@@ -51,6 +51,12 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
+| Poly CCX350  | `9.0.0.10315`  | 	October 4, 2026 | 12 |
+| Poly CCX400  | `9.0.0.10315`  | 	October 4, 2026 | 12 |
+| Poly CCX500  | `9.0.0.10315` | 	October 4, 2026 | 12 |
+| Poly CCX505  | `9.0.0.10315`  |  	October 4, 2026 | 12 |
+| Poly CCX600  | `9.0.0.10315` | 	October 4, 2026 | 12 |
+| Poly Trio C60, Trio C60 NR, Trio C60 ND | `9.0.0.10315` | October 4, 2026 | 12 |
 | Yealink MP58 E2 | `176.15.0.16 `|August 27, 2027   | 13|
 | Yealink MP56 E2 | `176.15.0.16 `|August 27, 2027   | 13|
 | Yealink MP54 E2 | `176.15.0.16 `|August 27, 2027   | 13|
