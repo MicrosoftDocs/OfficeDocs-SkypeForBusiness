@@ -89,6 +89,7 @@ To create and manage custom policies, you can follow these steps:
 1. Select the **Assigned groups** or **Assigned users** tab to view or assign the custom policy to groups or individual users respectively.
 
 ## Related topics
+
 [Manage Teams with policies](/microsoftteams/manage-teams-with-policies)
 [Assign policies in Teams](/microsoftteams/policy-assignment-overview)
 [Assign policies to users and groups](/microsoftteams/assign-policies-users-and-groups)
