@@ -86,21 +86,27 @@ When a call arrives at the Microsoft 365 Direct Routing interface, the interface
 
 For more information about creating domain names in Microsoft 365 organizations, see [Get help with Microsoft 365 domains](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
 
-The following diagram summarizes the requirements to base domain, subdomains, and Contact header.
+The following table summarizes the requirements for the default (base) domain, additional domains (carrier subdomains), Request URI, and Contact header.
 
-:::image type="content" source="media/direct-routing-1-sbc-requirements.png" alt-text="Diagram showing requirements to domains and Contact header." lightbox="media/direct-routing-1-sbc-requirements.png":::
 
-The SBC requires a certificate to authenticate the connections. For the SBC hosting scenario, the carrier needs to request a certificate with CN and/or SAN \*.base_domain (for example, \*.sbc1.adatum.biz). This certificate can be used to authenticate connections to multiple tenants served from a single SBC.
+| Company | Default domain | Additional domain | Request URI | Contact header |
+|---------|---------|---------|---------|---------|
+| Adatum (carrier)| adatum.biz | sbc1.adatum.biz | NA | NA |
+| Woodgrove Bank (customer)| woodgrovebank.us | woodgrovebank.sbc1.adatum.biz | 18775682495@xxx.com | woodgrovebank.sbc1.adatum.biz |
+| Contoso (customer) | contoso.com | contoso.sbc2.adatum.biz | 19055680434@xxx.com | contoso.sbc2.adatum.biz | 
+|Adventure Works (customer)| adventureworks.com | adventureworks.sbc3.adatum.biz | 18006427676@xxx.com | adventureworks.sbc3.adatum.biz  |
+
+The SBC requires a certificate to authenticate the connections. For the SBC hosting scenario, the carrier needs to request a certificate with CN and/or SAN \*.base_domain (for example, \*.sbc1.adatum.biz). This certificate is used to authenticate connections to multiple tenants served from a single SBC.
 
 The following table is an example of one configuration.
 
 
 |New domain name |Type|Registered  |Certificate CN/SAN for SBC  |Tenant default domain in the example  |FQDN name that SBC must present in the Contact header when sending calls to users|
 |---------|---------|---------|---------|---------|---------|
-|sbc1.adatum.biz |    Base     |     In carrier tenant  |   *.sbc1.adatum.biz   |   adatum.biz      |NA, this is a service tenant, no users |
-|Woodgrovebank.sbc1.adatum.biz     Subdomain  |    In a customer tenant  |  *.sbc1.adatum.biz  | woodgrovebank.us  |  Woodgrovebank.sbc1.adatum.biz |
-|Contoso.sbc1.adatum.biz |   Subdomain | In a customer tenant   |  *.sbc1.adatum.biz   |contoso.com | Contoso.sbc1.adatum.biz |
-|Adventureworks.sbc1.adatum.biz  |   Subdomain | In a customer tenant | .sbc1.adatum.biz   |  adventureworks.com | Adventureworks.sbc1.adatum.biz  |
+| sbc1.adatum.biz |    Base     |     In carrier tenant  |   *.sbc1.adatum.biz   |   adatum.biz      |NA, this is a service tenant, no users |
+| woodgrovebank.sbc1.adatum.biz     Subdomain  |    In a customer tenant  |  *.sbc1.adatum.biz  | woodgrovebank.us  |  woodgrovebank.sbc1.adatum.biz |
+| contoso.sbc1.adatum.biz |   Subdomain | In a customer tenant   |  *.sbc1.adatum.biz   |contoso.com | Contoso.sbc1.adatum.biz |
+| adventureworks.sbc1.adatum.biz  |   Subdomain | In a customer tenant | .sbc1.adatum.biz   |  adventureworks.com | Adventureworks.sbc1.adatum.biz  |
 
 
 The example in this article:
