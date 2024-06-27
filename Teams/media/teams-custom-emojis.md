@@ -23,7 +23,7 @@ ms.localizationpriority: normal
 
 Microsoft Teams now allows users to add their own custom emojis and reactions by uploading an image or GIF file. These emojis and reactions are also accessible to all users in the tenant alongside the standard Teams emojis and reactions. Up to 5000 custom emojis can be added per tenant. This feature is currently not available for EDU tenants.
 
-The new custom emojis and reactions feature will be turned on by default. Users in the tenant will be able to upload emojis that are visible to the whole tenant. You can preemptively turn this feature off or restrict which users can create new emojis via the Teams Admin Center controls described in this article.
+The new custom emojis and reactions feature will be turned on by default. Users in the tenant will be able to upload emojis. You can preemptively turn this feature off or restrict which users can create new emojis via the Teams Admin Center controls described in this article.
 
 ## Timelines
 
@@ -36,7 +36,7 @@ The new custom emojis and reactions feature will be turned on by default. Users 
 Custom emojis and reactions are found in the emoji and reaction menus in the **Custom** category. Users with upload abilities can add new content through the **Plus** (**+**) button. Users with delete abilities can select any custom emoji to delete.
 
 > [!NOTE]
-> Deleted emojis may take up to 24 hours to reflect for all users in the tenant.
+> Deleted emojis may take up to 24 hours to reflect for all users in the tenant. Users may clear the cache on their own devices to see the removal sooner.
 
 ## How to manage this feature
 
@@ -48,7 +48,7 @@ This feature can be managed through the Teams admin center. Admins have access t
 
 The Teams Admin Center controls are available now, by going to the **Messaging** section and turning the **use custom emojis** option, found under the **Custom emojis** section, on or off. We recommend adjusting your settings as needed prior to late June 2024 to ensure that they're in place when the feature rolls out.
 
-The **Managing policies** section of the Teams admin center will allow you to turn the **Upload custom emojis** and **Delete custom emojis** settings on or off.
+The **Messaging policies** section of the Teams admin center will allow you to turn the **Upload custom emojis** and **Delete custom emojis** settings on or off.
 
 > [!NOTE]
 > Uploading custom emojis is enabled for all users by default, and the deletion of custom emojis is enabled for Admins by default.
