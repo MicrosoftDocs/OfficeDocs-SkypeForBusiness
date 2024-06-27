@@ -84,33 +84,33 @@ Subdomains **MUST** match the FQDN name of the trunk that will be configured for
 
 When a call arrives at the Microsoft 365 Direct Routing interface, the interface uses the Contact header to find the tenant where the user should be looked up. Direct Routing doesn't use phone number lookup on the Invite, as some customers might have non-DID numbers that can overlap in several tenants. Therefore, the FQDN name in the Contact header is required to identify the exact tenant to look up the user by the phone number.
 
-*For more information about creating domain names in Microsoft 365 organizations, see [Get help with Microsoft 365 domains](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).*
+For more information about creating domain names in Microsoft 365 organizations, see [Get help with Microsoft 365 domains](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
 
 The following diagram summarizes the requirements to base domain, subdomains, and Contact header.
 
 :::image type="content" source="media/direct-routing-1-sbc-requirements.png" alt-text="Diagram showing requirements to domains and Contact header." lightbox="media/direct-routing-1-sbc-requirements.png":::
 
-The SBC requires a certificate to authenticate the connections. For the SBC hosting scenario, the carrier needs to request a certificate with CN and/or SAN *\*.base_domain (for example, \*.customers.adatum.biz)*. This certificate can be used to authenticate connections to multiple tenants served from a single SBC.
+The SBC requires a certificate to authenticate the connections. For the SBC hosting scenario, the carrier needs to request a certificate with CN and/or SAN \*.base_domain (for example, \*.sbc1.adatum.biz). This certificate can be used to authenticate connections to multiple tenants served from a single SBC.
 
 The following table is an example of one configuration.
 
 
 |New domain name |Type|Registered  |Certificate CN/SAN for SBC  |Tenant default domain in the example  |FQDN name that SBC must present in the Contact header when sending calls to users|
 |---------|---------|---------|---------|---------|---------|
-|customers.adatum.biz|    Base     |     In carrier tenant  |    \*.customers.adatum.biz  |   adatum.biz      |NA, this is a service tenant, no users |
-|sbc1.customers.adatum.biz|    Subdomain  |    In a customer tenant  |    \*.customers.adatum.biz  | woodgrovebank.us  |  sbc1.customers.adatum.biz|
-|sbc2.customers.adatum.biz  |   Subdomain | In a customer tenant   |   \*.customers.adatum.biz   |contoso.com   |sbc2.customers.adatum.biz |
-|sbc3.customers.adatum.biz |   Subdomain | In a customer tenant |   \*.customers.adatum.biz  |  adventureworks.com | sbc3.customers.adatum.biz |
+|sbc1.adatum.biz |    Base     |     In carrier tenant  |   *.sbc1.adatum.biz   |   adatum.biz      |NA, this is a service tenant, no users |
+|Woodgrovebank.sbc1.adatum.biz     Subdomain  |    In a customer tenant  |  *.sbc1.adatum.biz  | woodgrovebank.us  |  Woodgrovebank.sbc1.adatum.biz |
+|Contoso.sbc1.adatum.biz |   Subdomain | In a customer tenant   |  *.sbc1.adatum.biz   |contoso.com | Contoso.sbc1.adatum.biz |
+|Adventureworks.sbc1.adatum.biz  |   Subdomain | In a customer tenant | .sbc1.adatum.biz   |  adventureworks.com | Adventureworks.sbc1.adatum.biz  |
 
 
 The example in this article:
 
-1. [Registers a base domain name (customers.adatum.biz) in the carrier tenant](#register-a-base-domain-name-in-the-carrier-tenant---example).
+1. [Registers a base domain name (sbc1.adatum.biz) in the carrier tenant](#register-a-base-domain-name-in-the-carrier-tenant---example).
 
-2. [Registers a subdomain in one customer tenant (sbc1.customers.adatum.biz in the Woodgrove Bank tenant)](#register-a-subdomain-name-in-a-customer-tenant---example).
+2. [Registers a subdomain in one customer tenant (woodgrovebank.sbc1.adatum.biz in the Woodgrove Bank tenant)](#register-a-subdomain-name-in-a-customer-tenant---example).
 
 > [!NOTE]
-> Use sbcX.customers.adatum.biz to enable voice in the carrier tenant; sbcX can be any unique and valid alphanumeric hostname.
+> Use sbcX.sbc1.adatum.biz to enable voice in the carrier tenant; sbcX can be any unique and valid alphanumeric hostname.
 
 ## Register a base domain name in the carrier tenant - Example
 
@@ -132,11 +132,13 @@ For more information about admin roles and how to assign a role in Microsoft 365
 
 1. In the Microsoft 365 admin center, go to **Setup** > **Domains** > **Add domain**.
 
-2. In the **Enter a domain you own** box, type the FQDN of the base domain. In the following example, the base domain is *customers.adatum.biz*.
+2. In the **Enter a domain you own** box, type the FQDN of the base domain. In the following example, the base domain is sbc1.adatum.biz.
 
 3. Click **Next**.
 
-4. In this example, the tenant already has adatum.biz as a verified domain name. The wizard will not ask for additional verification because customers.adatum.biz is a subdomain for the already registered name. However, if you add an FQDN that has not been verified before, you'll need to go through the process of verification. The process of verification is [described below](#add-a-subdomain-to-the-customer-tenant-and-verify-it).
+4. In this example, the tenant already has adatum.biz as a verified domain name. The wizard will not ask for additional verification because sbc1.adatum.biz is a subdomain for the already registered name. 
+
+   However, if you add an FQDN that has not been verified before, you'll need to [verify the subdomain name](#add-a-subdomain-to-the-customer-tenant-and-verify-it).
 
 5. Select **Next**, and on the **Update DNS Settings** page, select **I'll add the DNS records myself** and select **Next**.
 
@@ -158,13 +160,10 @@ Additionally the account’s UPN (User Principal Name) or Skype for Business on-
 
 For more information about adding users in Microsoft 365 organizations, see [Get help with Microsoft 365 domains](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
 
-For example: test@customers.adatum.biz
-
-![Screenshot of the base domain activation page.](media/direct-routing-4-sbc-domain-activation.png)
 
 ## Register a subdomain name in a customer tenant - Example
 
-You'll need to create a unique subdomain name for every customer. This example creates a subdomain sbc1.customers.adatum.biz in a tenant with the default domain name woodgrovebank.us.
+You'll need to create a unique subdomain name for every customer. This example creates a subdomain woodgrovebank.sbc1.adatum.biz in a tenant with the default domain name woodgrovebank.us.
 
 **In the customer tenant,** you must:
 
@@ -184,15 +183,13 @@ For more information about admin roles and how to assign a role in Microsoft 365
 
 1. In the Microsoft 365 admin center, go to **Setup** > **Domains** > **Add domain**.
 
-2. In the **Enter a domain you own** box, type the FQDN of the subdomain for this tenant. In the example below, the subdomain is sbc1.customers.adatum.biz.
+2. In the **Enter a domain you own** box, type the FQDN of the subdomain for this tenant. In the example below, the subdomain is woodgrovebank.sbc1.adatum.biz.
 
 3. Select **Next**.
 
 4. The FQDN has never been registered in the tenant. In the next step, you'll need to verify the domain. Select **Add a TXT record instead**. 
 
-5. Select **Next**, and note the TXT value generated to verify the domain name.
-
-    ![Screenshot of text records on the Verify domain page.](media/direct-routing-7-sbc-verify-domain-txt.png)
+5. Select **Next**, and note the **TXT value** generated to verify the domain name.
 
 6. Create the TXT record with the value from the previous step in the carrier's DNS hosting provider.
 
@@ -207,8 +204,6 @@ For more information about admin roles and how to assign a role in Microsoft 365
 10. Select **Finish** on the **Update DNS settings** page.
 
 11. Ensure that the status is **Setup complete**.
-
-    ![Screenshot of page showing status of Setup complete.](media/direct-routing-12-sbc-setup-complete.png)
 
 > [!NOTE]
 > The base URL and the subdomain for the individual client have to be on the same tenant to enable you to add a _direct route_ trunk.
@@ -227,9 +222,6 @@ Additionally the account’s UPN (User Principal Name) or Skype for Business on-
 
 For more information about adding users in Microsoft 365 organizations, see [Get help with Microsoft 365](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
 
-For example: test@sbc1.customers.adatum.biz
-
-![Screenshot of the Activation of the subdomain page.](media/direct-routing-13-sbc-activate-subdomain.png)
 
 ## Create a trunk and provision users
 
@@ -248,7 +240,7 @@ Two new entities were introduced:
 - A carrier trunk registered in the carrier tenant by using the command New-CSOnlinePSTNGateway. For example: 
    
    ```PowerShell
-   New-CSOnlinePSTNGateway -FQDN customers.adatum.biz -SIPSignalingport 5068 -ForwardPAI $true
+   New-CSOnlinePSTNGateway -FQDN sbc1.adatum.biz -SIPSignalingport 5068 -ForwardPAI $true
     ```
 
 - A derived trunk that doesn't require registration. It is simply a desired host name added in from of the carrier trunk. It derives all of its configuration parameters from the carrier trunk. The association with the carrier trunk is based on the FQDN name (see details below).
@@ -262,9 +254,9 @@ Two new entities were introduced:
 - The derived trunk, as the name suggests, inherits or derives all the configuration parameters from the carrier trunk. 
 
 Examples:
-- Customers.adatum.biz – the carrier trunk which needs to be created in the carrier tenant.
+- sbc1.adatum.biz – the carrier trunk which needs to be created in the carrier tenant.
 
-- Sbc1.customers.adatum.biz – the derived trunk in a customer tenant. You can add the name of the derived trunk in the customer tenant in the voice routes without creating it.
+- woodgrovebank.sbc1.adatum.biz – the derived trunk in a customer tenant. You can add the name of the derived trunk in the customer tenant in the voice routes without creating it.
 
 - Carrier will need to set up DNS record resolving derived trunk FQDN to carrier SBC IP address.
 
