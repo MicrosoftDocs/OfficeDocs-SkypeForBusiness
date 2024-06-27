@@ -1366,7 +1366,7 @@ items:
               href: rooms/xml-config-file.md   
             - name: Feature management
               items:
-                - name: Teams Room Home screen
+                - name: Teams Rooms Home screen
                   href: rooms/mtr-home-refresh.md
                 - name: Remotely configure front row layout
                   href: rooms/manage-front-row.md
