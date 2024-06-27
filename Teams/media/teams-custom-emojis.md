@@ -4,7 +4,7 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: jtremper
 ms.topic: article
-ms.date: 05/15/2024
+ms.date: 07/01/2024
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -21,13 +21,13 @@ ms.localizationpriority: normal
 
 # Custom emojis in Microsoft Teams
 
-Microsoft Teams now allows users to add their own custom emojis and reactions by uploading an image or GIF file, and their emojis and reactions are accessible to all users in the tenant alongside the standard Teams emojis and reactions. Up to 5000 custom emojis can be added per tenant. This feature is currently not available for EDU tenants.
+Microsoft Teams now allows users to add their own custom emojis and reactions by uploading an image or GIF file. These emojis and reactions are also accessible to all users in the tenant alongside the standard Teams emojis and reactions. Up to 5000 custom emojis can be added per tenant. This feature is currently not available for EDU tenants.
 
-Thi new custom emojis and reactions will be turned on by default. Users in the tenant will be able to upload emojis that are visible to the whole tenant. You can preemptively turn this feature off or restrict which users can create new emojis via the Teams Admin Center controls described in this article.
+The new custom emojis and reactions feature will be turned on by default. Users in the tenant will be able to upload emojis that are visible to the whole tenant. You can preemptively turn this feature off or restrict which users can create new emojis via the Teams Admin Center controls described in this article.
 
 ## Timelines
 
-- Targeted Release: We're rolling this feature out now, late June 2024, and expect to be completed by early July 2024.
+- Targeted Release: We're rolling this feature out now and we expect to be completed by early July 2024.
 - Worldwide, GCC: We'll begin rolling out early July 2024 and expect to complete by late July 2024.
 - GCC High, DoD: We'll begin rolling out early August 2024 and expect to complete by late August 2024.
 
