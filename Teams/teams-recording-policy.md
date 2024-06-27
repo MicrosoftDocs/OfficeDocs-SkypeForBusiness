@@ -64,7 +64,6 @@ The following table details differences between convenience and compliance recor
 | Target                 | Per-call / meeting / event | Per-user        |
 | Storage owner          | Organizer               | Admin or compliance officer    |
 | Participant notification required? | Yes                | Yes             |
-| Participant consent supported? | Yes                | No             |
 | Retention Policy      | Organizer's SharePoint Online policy enforced | Yes |
 
 Users with an assigned compliance recording policy know that their digital
