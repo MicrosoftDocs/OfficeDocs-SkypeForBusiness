@@ -7,7 +7,7 @@ ms.date: 06/27/2024
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: romanf
+ms.reviewer: ritikag,lisma
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn about Teams third party compliance recording for calling, meetings, town halls, webinars, and live events.
