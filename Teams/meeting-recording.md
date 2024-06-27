@@ -54,7 +54,7 @@ As an admin, you can manage the following recording policies:
 - [Block or allow download of channel meeting recordings](#block-or-allow-download-of-channel-meeting-recordings)
 - [Recording expiration](#recording-expiration)
 - [Set a custom privacy policy URL](#set-a-custom-privacy-policy-url)
-- [Meeting Recording Diagnostic Tools](#meeting-recording-diagnostic-tools)
+- [Meeting recording diagnostic tools](#meeting-recording-diagnostic-tools)
 
 ## External participants
 
@@ -247,7 +247,7 @@ Once you add your privacy policy URL, your URL replaces the default Teams meetin
 
 Teams meeting recordings are stored in the organizer's OneDrive and SharePoint storage. The location and permissions depend on the type of meeting and the role of the user in the meeting. Users that have full edit rights on the video recording file can change the permissions and share it later with others as needed. To understand permissions and storage in OneDrive and SharePoint, see [Use OneDrive and SharePoint for meeting recordings](tmr-meeting-recording-change.md).
 
-## Meeting Recording Diagnostic Tools
+## Meeting recording diagnostic tools
 
 ### User can't record meetings
 
