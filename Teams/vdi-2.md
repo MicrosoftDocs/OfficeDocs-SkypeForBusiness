@@ -42,7 +42,7 @@ New VDI solution for Teams is a new architecture for optimizing the delivery of 
 |Requirement |Minimum version |
 |------------|----------------|
 |New Teams   |24124.2315.2911.3357 (for AVD/Windows 365) </br> 	24152.408.2949.8308 (for Citrix)                                                                                     |
-|AVD/Winodws 365    |Windows App: 1.3.252</br>Remote Desktop Client: 1.2.5405.0                                                |
+|AVD/Windows 365    |Windows App: 1.3.252</br>Remote Desktop Client: 1.2.5405.0                                                |
 |Citrix      |VDA: 2203 LTSR CU2 or 2212 CR</br>Citrix Workspace app: 2203 LTSR (any CU), 2402 LTSR, or 2302 CR          |
 |Endpoint    |Windows 10 1809 (SlimCore minimum requirement)</br>GPOs must not block MSIX installations (see [Step 3: SlimCore MSIX staging and registration on the endpoint](#step-3-slimcore-msix-staging-and-registration-on-the-endpoint))</br>Minimum CPU: Intel Celeron (or equivalent) @ 1.10 GHz, 4 Cores, Minimum RAM: 4 GB |
 
