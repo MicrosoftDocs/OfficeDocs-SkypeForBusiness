@@ -29,9 +29,9 @@ The music that is played is either the default music provided by Microsoft, cust
 
 As the tenant administrator, you configure whether Music on Hold is available by creating a Teams calling policy and assigning the policy to the Teams user.
 
-The default music supplied in Microsoft Teams call scenarios is free of any royalties payable by your organization. 
+The default music supplied in Microsoft Teams call scenarios is free of any royalties payable by your organization.
 
-Note that callers can listen to Music on Hold in other scenarios as well; for example, when they call into a Cloud Call Queue or when their call is parked by a Microsoft Teams user. These scenarios are not covered or controlled by the features mentioned in this article.
+Callers can listen to Music on Hold in other scenarios as well; for example, when they call into a Cloud Call Queue or when their call is parked by a Microsoft Teams user. These scenarios aren't covered or controlled by the features mentioned in this article.
 
 ## Configure Music on Hold
 
@@ -51,12 +51,12 @@ If a Teams user has a Teams calling policy with Music on Hold turned off, then n
 
 ## Configure custom music
 
-In addition to playing default music to callers, you can upload a custom audio file with music or other audio content and configure that audio file to be played to the caller. For example, a department or organization might want to play a custom announcement or custom music when external PSTN callers are put on hold.
+In addition to playing default music to callers, you can upload a custom audio file with music or other audio content and configure that audio file to be played to the caller. For example, a department or organization might want to play a custom announcement or custom music when external Public Switched Telephone Network (PSTN) callers are put on hold.
 
 The configuration is done using call hold policies.
 
 > [!NOTE]
-> You are responsible for independently clearing and securing all necessary rights and permissions to use any music or audio file with your Microsoft Teams service. This may include intellectual property and other rights in any music, sound effects, audio, brands, names, and other content in the audio file from all relevant rights holders. Holders may include artists, actors, performers, musicians, songwriters, composers, record labels, music publishers, unions, guilds, rights societies, collective management organizations, and any other parties who own, control or license the music copyrights, sound effects, audio and other intellectual property rights.
+> You're responsible for independently clearing and securing all necessary rights and permissions to use any music or audio file with your Microsoft Teams service. This may include intellectual property and other rights in any music, sound effects, audio, brands, names, and other content in the audio file from all relevant rights holders. Holders may include artists, actors, performers, musicians, songwriters, composers, record labels, music publishers, unions, guilds, rights societies, collective management organizations, and any other parties who own, control or license the music copyrights, sound effects, audio and other intellectual property rights.
 
 ### Use the Teams admin center
 
@@ -131,7 +131,7 @@ To export an uploaded audio file, use the Export-CsOnlineAudioFile cmdlet.
 
 Streaming Music on Hold allows you to use a supported streaming service to play music to callers. The streaming partner gives you a URL to add to your TeamsCallingPolicy that is then used to play music. You can configure streaming Music on Hold if you have a subscription with a supported partner, such as [Easy On Hold](https://easyonhold.com/).
 
-Once you setup the streaming content with your partner’s administration tool, you are provided with a URL for the streaming source that can then be used to configure your Teams Call Hold Policy. Streaming Music on Hold can only be configured with PowerShell.
+Once you set up the streaming content with your partner’s administration tool, you are provided with a URL for the streaming source that can then be used to configure your Teams Call Hold Policy. Streaming Music on Hold can only be configured with PowerShell.
 
 To configure streaming Music on Hold, use the PowerShell cmdlets [New/Get/Set/Grant/Remove-CsTeamsCallingPolicy](/powershell/module/teams/set-csteamscallingpolicy) and [New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy](/powershell/module/teams/set-csteamscallholdpolicy).
 
