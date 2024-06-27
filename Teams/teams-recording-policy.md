@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: romanf
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn about Teams Policy-based Recording for Calling & Meetings
+description: Learn about Teams third party compliance recording for calling, meetings,town halls, webinars, and live events.
 f1.keywords:
 - CSH
 ms.custom: 
@@ -31,7 +31,7 @@ appliesto:
 
 ## Overview
 
-Third-party compliance recording allows orgs using Microsoft Teams for calls, meetings, and events to implement an admin policy for automatic recording. As an admin, you can also choose when to capture calls, meetings, and events for subsequent processing and retention, in accordance with relevant corporate or regulatory policies.
+Third-party compliance recording allows orgs using Microsoft Teams for calls, meetings,and events to implement an admin policy for automatic recording. For your users to make calls, they must have an assigned Teams Phone license. As an admin, you can also choose when to capture calls, meetings, and events for subsequent processing and retention, in accordance with relevant corporate or regulatory policies.
 
 Teams is enhanced to support the integration of
 partner recording solutions. These enhancements cover platform
@@ -80,11 +80,7 @@ disable the recording and don't have access to the recording once the interactio
 Compliance recording solutions are integrated with Teams as
 shown in the following diagram:
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing the team custom app setting.](media/hp-compliance-recording-for-teams-calling-and-meetings.jpg "Diagram of the flow for when a Teams meeting or call is sent and received.")
-
-compliance-recording-diagram-small
-
+:::image type="content" source="media/compliance-recording-diagram-small.png" alt-text="Diagram of the flow for when a Teams meeting or call is sent and received." lightbox="media/compliance-recording-diagram-expand.png":::
 
 > [!NOTE]
 > This solution is designed specifically to enable policy-based compliance recording with Teams. Any other use of this solution isn't supported.
@@ -256,20 +252,22 @@ policies](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group).
 Support for notifications is enabled using the Teams client experiences. The experiences can be either visual or audio.
 
 **Teams clients - visual notice**
+
 - Desktop/web
 - Mobile (iOS/Android)
 - Teams Phones
 - Teams rooms
 
 **Other endpoints - audio notice**
+
 - SIP phones
 - Skype for Business
 - Audio conferencing (audio notice in dial-in number's default or user-selected language)
 - PSTN callers (audio notice in Teams user's default language)
 
 > [!NOTE]
-> Compliance Recording isn't supported with call queues.
-> Compliance Recording won't work if users have an Internet outage, and are making and receiving PSTN calls using an SBA.
+> Compliance recording isn't supported with call queues.
+> Compliance recording doesn't work if users have an Internet outage, and are making and receiving PSTN calls using an SBA.
 
 ## Compliance recording for Teams certification programs
 
@@ -308,7 +306,7 @@ This list gets updated as more partners join and meet the certification criteria
 
 ## Support boundaries
 
-Microsoft supports Compliance Recording solutions only from the certified partners. If there are issues, you must contact your Compliance Recording partner first. If needed, the Compliance Recording partner brings the issue to Microsoft through internal channels. Microsoft might reject support cases where a non-certified Compliance Recording solution is used, or if investigation shows the issue is one that the partner can address.
+Microsoft only supports compliance recording solutions from the listed certified partners. If there are issues, you must contact your compliance recording partner first. If needed, the partner can bring the issue to Microsoft through internal channels. Microsoft might reject support cases where a non-certified Compliance Recording solution is used, or if investigation shows the issue is one that the partner can address.
 
 ## Next steps
 
