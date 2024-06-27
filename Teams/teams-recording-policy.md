@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: romanf
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn about Teams third party compliance recording for calling, meetings,town halls, webinars, and live events.
+description: Learn about Teams third party compliance recording for calling, meetings, town halls, webinars, and live events.
 f1.keywords:
 - CSH
 ms.custom: 
@@ -31,13 +31,9 @@ appliesto:
 
 ## Overview
 
-Third-party compliance recording allows orgs using Microsoft Teams for calls, meetings,and events to implement an admin policy for automatic recording. For your users to make calls, they must have an assigned Teams Phone license. As an admin, you can also choose when to capture calls, meetings, and events for subsequent processing and retention, in accordance with relevant corporate or regulatory policies.
+Third-party compliance recording allows orgs using Microsoft Teams for calls, meetings, and events to implement an admin policy for automatic recording. For your users to make calls, they must have an assigned Teams Phone license. As an admin, you can also choose when to capture calls, meetings, and events for subsequent processing and retention, in accordance with relevant corporate or regulatory policies.
 
-Teams is enhanced to support the integration of
-partner recording solutions. These enhancements cover platform
-functionality, user experiences, and  administrative interfaces needed to
-provide an end-to-end solution for configuring, managing, recording,
-storing, and analyzing Teams communications. The enhancements include communications platform APIs and events for recording, which provides:
+Teams is enhanced to support the integration of partner recording solutions. These enhancements provide a complete solution for configuring, managing, recording, storing, and analyzing Teams communications. The enhancements include communications platform APIs and events for recording, which provide:
 
 - Seamless, high-quality media capture across devices. Compliance recording captures the same screenshare activity as convenience recording. To learn which screenshare activities are captured, see [Record a meeting in Microsoft Teams](https://support.microsoft.com/office/record-a-meeting-in-microsoft-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24).
 
@@ -127,7 +123,7 @@ shown in the following diagram:
 </tbody>
 </table>
 
-## Recorder
+## Recorders
 
 The core component of the compliance recording solution is the recorder.
 Recorders are built as scalable Azure-based services (bots) that
@@ -155,9 +151,7 @@ Graph documentation on the specific APIs can be found here for
 and
 [incomingContext](/graph/api/resources/incomingcontext).
 
-The exact implementation of the recorder service varies by partner, but must be designed to support multiple recorders. This requirement is necessary to achieve high availability and geographical distribution of deployment to reduce
-latency from Teams to the recorder. In addition, it's expected that
-Recorders themselves be designed with resiliency and redundancy in mind.
+The exact implementation of the recorder service varies by partner, but must be designed to support multiple recorders. This requirement ensures high availability and geographical distribution, reducing latency between Teams and the recorder. Recorders should be designed with resiliency and redundancy in mind.
 
 Partners must confirm the minimum required release version of the
 Microsoft Graph communications APIs and SDKs with Microsoft before
@@ -182,7 +176,7 @@ and functional requirements for compliance recording.
 
 ## Create and manage your compliance recording policy
 
-Through creating and assigning compliance recording policies, IT Administrators can determine which users are to be recorded and which recorder is used for each user. Recorders are automatically invited to participate in conversations based on the configuration of these policies when a communication interaction takes place.
+Through creating and assigning compliance recording policies, as an admin, you can determine which users are to be recorded and which recorder is used for each user. Recorders are automatically invited to participate in conversations based on the configuration of these policies when a communication interaction takes place.
 Compliance
 recording policies are managed using [Microsoft
 PowerShell](./teams-powershell-overview.md)
