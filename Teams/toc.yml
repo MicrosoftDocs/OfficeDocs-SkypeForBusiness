@@ -1404,7 +1404,7 @@ items:
             href: rooms/rooms-pro-rbac.md
           - name: Resource accounts
             href: rooms/resource-accounts.md
-          - name: Bring your own device rooms and desks
+          - name: Bring your own device (BYOD) spaces
             items:
                 - name: Bring Your Own Device (BYOD)
                   href: rooms/bring-your-own-device.md  
