@@ -275,7 +275,7 @@ You can use the following diagnostic tool to validate that the meeting recording
 
 ## Related topics
 
-- [Use OneDrive and SharePoint for meeting recordings](tmr-meeting-recording-change.md)
+- [Use OneDrive and SharePoint to store meeting recordings](tmr-meeting-recording-change.md)
 - [Introduction to Microsoft Teams third party compliance recording](teams-recording-policy.md)
 - [Teams policy reference - Meetings](settings-policies-reference.md#meetings)
 - [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md)
