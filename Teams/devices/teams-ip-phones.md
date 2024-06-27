@@ -51,6 +51,12 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
+| Poly CCX350  | `9.0.0.10315`  | 	October 4, 2026 | 12 |
+| Poly CCX400  | `9.0.0.10315`  | 	October 4, 2026 | 12 |
+| Poly CCX500  | `9.0.0.10315` | 	October 4, 2026 | 12 |
+| Poly CCX505  | `9.0.0.10315`  |  	October 4, 2026 | 12 |
+| Poly CCX600  | `9.0.0.10315` | 	October 4, 2026 | 12 |
+| Poly Trio C60, Trio C60 NR, Trio C60 ND | `9.0.0.10315` | October 4, 2026 | 12 |
 | Yealink MP58 E2 | `176.15.0.16 `|August 27, 2027   | 13|
 | Yealink MP56 E2 | `176.15.0.16 `|August 27, 2027   | 13|
 | Yealink MP54 E2 | `176.15.0.16 `|August 27, 2027   | 13|
@@ -281,6 +287,7 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 #### <b> Neat </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications  | Release date|
 |:----------------|:-------------------|:----------------------------|:-------------------------------------------------------------------------|:-------------------------------------|
+| Neat Pad | `NFA1.20240516.0501` | N/A| Teams client: `1449/1.0.97.2024040202` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202402202353.product`| June 21, 2024|
 | Neat Pad | `NFA1.20240312.0503` | N/A| Teams client: `1449/1.0.97.2024010401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| April 16, 2024|
 | Neat Pad | `NFA1.20240120.0109` | N/A| Teams client: `1449/1.0.97.2023111003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| March 05, 2024|
 | Neat Pad | `NFA1.20230928.0116` | `NFA1.20230504.0202`| Teams client: `1449/1.0.97.2023080401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| December 14, 2023|
