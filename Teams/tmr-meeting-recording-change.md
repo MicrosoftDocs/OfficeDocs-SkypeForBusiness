@@ -1,5 +1,5 @@
 ---
-title: Use OneDrive and SharePoint for meeting recordings
+title: Use OneDrive and SharePoint to store meeting recordings
 ms.author: wlibebe
 author: wlibebe
 ms.reviewer: yudma, yujin1, ritikag
@@ -21,7 +21,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Use OneDrive and SharePoint for meeting recordings
+# Use OneDrive and SharePoint to store meeting recordings
 
 When users in your org record Teams meetings, they're stored in OneDrive and SharePoint. The video plays on the video player of OneDrive or SharePoint depending on where your users access the file. This article helps you, as an admin, understand recording storage and permissions for OneDrive and Sharepoint.
 
@@ -40,6 +40,10 @@ If a Teams meeting recording fails to successfully upload to OneDrive because th
 Since videos are just like any other file in OneDrive and SharePoint, handling ownership and retention after an employee leaves follows the normal [OneDrive and SharePoint process](/onedrive/retention-and-deletion).
 
 To learn how to apply retention labels to Teams meeting recordings, see [How to auto-apply a retention label](/microsoft-365/compliance/apply-retention-labels-automatically).
+
+### Planning for storage
+
+The size of a one-hour recording is 400 MB. Make sure you understand the capacity required for recorded files and have sufficient storage available in OneDrive and SharePoint. Read [Set the default storage space for OneDrive](/sharepoint/set-default-storage-space) and [Manage SharePoint site storage limits](/sharepoint/manage-site-collection-storage-limits) to understand the base storage included in the subscription and how to purchase more storage.
 
 ## Viewing permissions
 

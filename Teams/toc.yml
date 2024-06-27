@@ -774,11 +774,11 @@ items:
               href: teams-encoder-setup.md
         - name: Recording & transcription
           items:
-            - name: Teams meeting recording
+            - name: Manage Teams recording policies for meetings and events
               href: meeting-recording.md
             - name: Configure transcription and captions for Teams meetings
               href: meeting-transcription-captions.md
-            - name: Use OneDrive and SharePoint or Stream for meeting recordings
+            - name: Use OneDrive and SharePoint or Stream to store meeting recordings
               href: tmr-meeting-recording-change.md
             - name: Delete Exchange Online and OneDrive transcript files for Teams meetings
               href: delete-exchange-online-transcripts.md
