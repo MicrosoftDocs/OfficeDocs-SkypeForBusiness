@@ -200,7 +200,7 @@ The classic Teams client and the new Teams client have different install locatio
 |Installer format|Install location|Auto update|
 |:-----|:-----|:-----|
 |Classic Teams MSI with the ALLUSERS=1 flag|C:\Program Files (x86)\Microsoft\Teams|Disabled|
-|Classic Teams .EXE|%localappdata%/Microsoft/Teams |Enabled |
+|Classic Teams .EXE|%localappdata%\Microsoft\Teams |Enabled |
 |New Teams .EXE bootstrapper|**Teamsbootstrapper.exe** is a lightweight wrapper online installer with a headless command-line interface. It allows admins to 'provision' (install) the app for all users on a given target computer/. </br> It installs the Teams MSIX package on a target computer, making sure that Teams can interoperate correctly with Office and other Microsoft software.</br>C:\Program Files\WindowsApps\PublisherName.AppName_AppVersion_architecture_PublisherID</br></br>**Example**</br>C:\Program Files\WindowsApps\MSTeams.23306.3314.2555.9628_x64_8wekyb3d8bbwe|Enabled.  It can be disabled via regkey. Learn more: [Disable new Teams autoupdate](#disable-new-teams-autoupdate)|
 
 ## Troubleshooting new Teams deployment errors
@@ -588,6 +588,10 @@ New Teams for Web isn't supported in VDI environments, so performance and reliab
 
 The following features aren't supported in either classic Teams or new Teams.
 
+- Customers installing new Teams on a golden image which later undergoes a sysprep to generalize it are failing to launch the app. This includes templates from Azure Image Gallery.
+- Users logging in to the provisioned virtual machines see the Teams icon greyed out in the start menu and clicking on it has no effect.
+- The AppX log in the Event Viewer has the error 0x80073CF1.
+- Running `Get-AppxPackage -name MsTeams -allusers` from an elevated PowerShell window shows that PackageUserInformation is in a **Paused state** for SID S-1-15-18 (LocalSystem). This error is not seen on W11 22H2 or higher. Please install KB5039299 for Windows 10 to fix this issue. WS2022 and W11 21H2 will be addressed in July's patch Tuesday knowledge base articles.
 - QoS.
 - 1080p.
 - Custom Backgrounds uploaded by users.
