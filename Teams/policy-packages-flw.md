@@ -65,7 +65,7 @@ To edit the settings of a policy in a policy package, in the left navigation of 
 
 ### Assign
 
-You can assign a policy package to an individual user, mutliple users, a group of users such as a security group or distribution list, or a large set (batch) of users. To learn more, see [Assign policy packages to users and groups](assign-policy-packages.md).
+You can assign a policy package to an individual user, multiple users, a group of users such as a security group or distribution list, or a large set (batch) of users. To learn more, see [Assign policy packages to users and groups](assign-policy-packages.md).
 
 ## Related articles
 
