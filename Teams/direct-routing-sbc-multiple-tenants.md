@@ -86,7 +86,7 @@ When a call arrives at the Microsoft 365 Direct Routing interface, the interface
 
 For more information about creating domain names in Microsoft 365 organizations, see [Get help with Microsoft 365 domains](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
 
-The following table summarizes the requirements for the default (base) domain, additional domains (carrier subdomains), Request URI, and Contact header.
+The following table summarizes the requirements for the default domains, additional domains, Request URI, and Contact header.
 
 
 | Company | Default domain | Additional domain | Request URI | Contact header |
@@ -138,7 +138,7 @@ For more information about admin roles and how to assign a role in Microsoft 365
 
 1. In the Microsoft 365 admin center, go to **Setup** > **Domains** > **Add domain**.
 
-2. In the **Enter a domain you own** box, type the FQDN of the base domain. In the following example, the base domain is sbc1.adatum.biz.
+2. In the **Enter a domain you own** box, type the FQDN of the base domain. In this example, the base domain is sbc1.adatum.biz.
 
 3. Click **Next**.
 
@@ -189,7 +189,7 @@ For more information about admin roles and how to assign a role in Microsoft 365
 
 1. In the Microsoft 365 admin center, go to **Setup** > **Domains** > **Add domain**.
 
-2. In the **Enter a domain you own** box, type the FQDN of the subdomain for this tenant. In the example below, the subdomain is woodgrovebank.sbc1.adatum.biz.
+2. In the **Enter a domain you own** box, type the FQDN of the subdomain for this tenant. In this example, the subdomain is *woodgrovebank.sbc1.adatum.biz*.
 
 3. Select **Next**.
 
@@ -253,7 +253,7 @@ Two new entities were introduced:
 
 **Provisioning logic and example**
 
-- Carriers need to set up and manage only a single trunk (the carrier trunk in the carrier domain) by using the Set-CSOnlinePSTNGateway command. In the example above it is adatum.biz.
+- Carriers need to set up and manage only a single trunk (the carrier trunk in the carrier domain) by using the Set-CSOnlinePSTNGateway command. In the preceding example, the trunk is *adatum.biz*.
 
 - In the customer tenant, the carrier needs to add the derived trunk FQDN to the voice routes. There is no need to run New-CSOnlinePSTNGateway for a trunk.
 
