@@ -256,7 +256,7 @@ You can also configure the **Restrict communication to the list of external user
 Set-CsExternalAccessPolicy -Identity Global -RestrictTeamsConsumerAccessToExternalUserProfiles $true
 ```
 
-restricts communication to the list of user profiles in extended directory for the default global external access policy.
+This cmdlet restricts communication to the list of user profiles in extended directory for the default global external access policy.
 
 ### Manage chat and calls with Skype users
 
