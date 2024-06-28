@@ -65,12 +65,6 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 | AudioCodes C470HD | `2.1.87`  |October 4, 2026  | 12 |
 | AudioCodes C435HD    | `2.1.673`     | October 4, 2026 | 12 |
 | AudioCodes C455HD    | `2.1.638`    | October 4, 2026 | 12 |
-| Poly CCX350  | `8.0.1.4670`  | 	October 31, 2024 | 9 |
-| Poly CCX505  | `7.3.1.0811`  | 	October 31, 2024 | 9 |
-| Poly Trio C60, Trio C60 NR, Trio C60 ND | `5.9.3.6155` | October 31, 2024             | 9 |
-| Poly CCX400  | `1.0.0.0200`  | October 31, 2024               | 9 |
-| Poly CCX600  | `5.9.12.1122` | October 31, 2024               | 9 |
-| Poly CCX500  | `5.9.12.1122` | October 31, 2024                | 9 |
 | Poly EM60 supported on CCX505 and CCX600 | `8.1.5.1732`| October 31, 2024| N/A |
 | Yealink MP58 | `122.15.0.135 `|October 4, 2026   | 12 |
 | Yealink MP56 | `122.15.0.135 `|October 4, 2026   | 12 |

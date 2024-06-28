@@ -538,6 +538,10 @@ Learn more: [Manage accounts and organizations in Microsoft Teams](https://suppo
 
 ## Features currently not available and known issues in VDI with the new Teams
 
+- Customers installing new Teams on a golden image which later undergoes a sysprep to generalize it are failing to launch the app. This includes templates from Azure Image Gallery.
+- Users logging in to the provisioned virtual machines see the Teams icon greyed out in the start menu and clicking on it has no effect.
+- The AppX log in the Event Viewer has the error 0x80073CF1.
+- Running `Get-AppxPackage -name MsTeams -allusers` from an elevated PowerShell window shows that PackageUserInformation is in a **Paused state** for SID S-1-15-18 (LocalSystem). This error is not seen on W11 22H2 or higher. Please install KB5039299 for Windows 10 to fix this issue. WS2022 and W11 21H2 will be addressed in July's patch Tuesday knowledge base articles.
 - Screen sharing from chat for Azure Virtual Desktops/Windows 365 (This issue is now fixed on RD Client 1.2.5105 and Redirector Service
 [1.50.2402.29001](/azure/virtual-desktop/whats-new-webrtc#updates-for-version-150240229001)).
 - Screen sharing from chat for Citrix when using Workspace app 2311 only.
@@ -588,10 +592,6 @@ New Teams for Web isn't supported in VDI environments, so performance and reliab
 
 The following features aren't supported in either classic Teams or new Teams.
 
-- Customers installing new Teams on a golden image which later undergoes a sysprep to generalize it are failing to launch the app. This includes templates from Azure Image Gallery.
-- Users logging in to the provisioned virtual machines see the Teams icon greyed out in the start menu and clicking on it has no effect.
-- The AppX log in the Event Viewer has the error 0x80073CF1.
-- Running `Get-AppxPackage -name MsTeams -allusers` from an elevated PowerShell window shows that PackageUserInformation is in a **Paused state** for SID S-1-15-18 (LocalSystem). This error is not seen on W11 22H2 or higher. Please install KB5039299 for Windows 10 to fix this issue. WS2022 and W11 21H2 will be addressed in July's patch Tuesday knowledge base articles.
 - QoS.
 - 1080p.
 - Custom Backgrounds uploaded by users.

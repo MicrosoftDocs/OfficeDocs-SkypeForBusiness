@@ -774,11 +774,11 @@ items:
               href: teams-encoder-setup.md
         - name: Recording & transcription
           items:
-            - name: Teams meeting recording
+            - name: Manage Teams recording policies for meetings and events
               href: meeting-recording.md
             - name: Configure transcription and captions for Teams meetings
               href: meeting-transcription-captions.md
-            - name: Use OneDrive and SharePoint or Stream for meeting recordings
+            - name: Use OneDrive and SharePoint or Stream to store meeting recordings
               href: tmr-meeting-recording-change.md
             - name: Delete Exchange Online and OneDrive transcript files for Teams meetings
               href: delete-exchange-online-transcripts.md
@@ -1326,12 +1326,8 @@ items:
               href: rooms/rooms-deploy.md
             - name: Prepare your environment
               href: rooms/rooms-prep.md
-            - name: AutoPilot and Autologin
-              href: rooms/autopilot-autologin.md
             - name: Create resource accounts 
               href: rooms/create-resource-account.md
-            - name: Set up using one-time passwords 
-              href: rooms/first-time-setup.md
             - name: Authentication
               items:
               - name: Deploy LAPs
@@ -1370,7 +1366,7 @@ items:
               href: rooms/xml-config-file.md   
             - name: Feature management
               items:
-                - name: Teams Room Home screen
+                - name: Teams Rooms Home screen
                   href: rooms/mtr-home-refresh.md
                 - name: Remotely configure front row layout
                   href: rooms/manage-front-row.md
@@ -1395,49 +1391,63 @@ items:
             - name: Known issues
               href: /microsoftteams/troubleshoot/teams-devices-and-rooms/rooms-known-issues
     - name: Microsoft Teams Rooms Pro Management
-      items: 
-        - name: Overview
-          href: rooms/rooms-pro-management.md
-        - name: Accessing the Pro Management portal
-          href: rooms/enrolling-mtrp-managed-service.md
-        - name: Enroll a device into Pro management
-          href: rooms/enroll-a-device.md
-        - name: Bring Your Own Device
-          href: rooms/bring-your-own-device.md  
-        - name: Create a one-time password
-          href: rooms/create-otp.md
-        - name: Role-based access control
-          href: rooms/rooms-pro-rbac.md
-        - name: Bookable Desks
-          href: rooms/bookable-desks.md
-        - name: Connected peripheral information
-          href: rooms/get-peripheral-information.md 
-        - name: Monitoring and maintaining Rooms
-          href: rooms/managed-meeting-rooms-portal.md
-        - name: Signal settings
-          href: rooms/signal-settings.md  
-        - name: Remote access a Teams Room console
-          href: rooms/remotely-access-teams-rooms.md 
-        - name: Managed updates
-          href: rooms/update-management.md 
-        - name: Configure ServiceNow
-          href: rooms/microsoft-teams-rooms-configure-servicenow.md
-        - name: Resource accounts
-          href: rooms/resource-accounts.md
+      items:
+        - name: Getting started
+          items:
+          - name: Overview
+            href: rooms/rooms-pro-management.md
+          - name: Accessing the Pro Management portal
+            href: rooms/enrolling-mtrp-managed-service.md
+          - name: Enroll a device into Pro management
+            href: rooms/enroll-a-device.md
+          - name: Role-based access control
+            href: rooms/rooms-pro-rbac.md
+          - name: Resource accounts
+            href: rooms/resource-accounts.md
+          - name: Bring your own device (BYOD) spaces
+            items:
+                - name: Bring Your Own Device (BYOD)
+                  href: rooms/bring-your-own-device.md  
+                - name: Bookable Desks
+                  href: rooms/bookable-desks.md
+                - name: Add peripherals to inventory
+                  href: rooms/get-peripheral-information.md 
+        - name: Planning and deployment
+          items:
+          - name: Standards and Rooms Planner 
+            href: rooms/standards-and-room-planner.md
+          - name: Create a one-time password
+            href: rooms/create-otp.md
+          - name: Set up using one-time passwords 
+            href: rooms/first-time-setup.md
+          - name: AutoPilot and Autologin
+            href: rooms/autopilot-autologin.md
+        - name: Monitoring and maintenance
+          items:
+          - name: Monitoring and maintaining Teams Rooms
+            href: rooms/managed-meeting-rooms-portal.md
+          - name: Signal settings
+            href: rooms/signal-settings.md  
+          - name: Remote access a Teams Room console
+            href: rooms/remotely-access-teams-rooms.md 
+          - name: Managed updates
+            href: rooms/update-management.md 
+          - name: Configure ServiceNow
+            href: rooms/microsoft-teams-rooms-configure-servicenow.md
+          - name: Audit logs for activities
+            href: rooms/multi-tenant-auditing.md
+          - name: Viewing events
+            href: rooms/view-events.md
+          - name: Record an issue 
+            href: rooms/customer-reported-incidents.md
         - name: Multi-tenant management for partners
           href: rooms/multi-tenant-management-partner.md
         - name: Multi-tenant management for customers
           href: rooms/multi-tenant-management-customer.md
-        - name: Audit logs for Rooms activities
-          href: rooms/multi-tenant-auditing.md
-        - name: Viewing events
-          href: rooms/view-events.md
-        - name: Health and usage reports
-          href: rooms/health-and-usage-reports.md
-        - name: Standards and Rooms Planner 
-          href: rooms/standards-and-room-planner.md
-        - name: Record an issue 
-          href: rooms/customer-reported-incidents.md
+        - name: Analytics, reports, and insights
+          items: 
+          - name: Health and usage reports
+            href: rooms/health-and-usage-reports.md
         - name: Data and privacy information
           href: rooms/data-and-privacy-info.md
     - name: Devices
