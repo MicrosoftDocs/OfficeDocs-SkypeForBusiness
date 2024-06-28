@@ -37,14 +37,14 @@ With the *external access* feature in Teams, you can allow users in your organiz
 
 Users in your organization can accept or block incoming chats from people outside the organization. For details, see [Accept or block people outside your org who send you a chat](https://support.microsoft.com/office/4b5b917d-895a-4379-a204-a111b2e24f41).
 
-Note that these people from outside your organization won't have access to your teams, sites, or other Microsoft 365 resources. If you want them to have access to your teams and channels, see [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team) and [Collaborate with external participants in a shared channel](/microsoft-365/solutions/collaborate-teams-direct-connect).
+People from outside your organization won't have access to your teams, sites, or other Microsoft 365 resources. If you want them to have access to your teams and channels, see [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team) and [Collaborate with external participants in a shared channel](/microsoft-365/solutions/collaborate-teams-direct-connect).
 
 > [!NOTE]
 > Your users can add apps when they host meetings or chats with people outside your organization. They can also use apps shared by external users when they join meetings or chats hosted externally. The data policies of the hosting user's organization, as well as the data sharing practices of any third-party apps shared by that user's organization, are applied. [Learn more about use of apps by people outside your organization](apps-external-users.md).
 
 ## Related settings
 
-It's important to note that there are other settings in Teams—including guest access and anonymous access—that affect meetings with people outside your organization. See [Plan for meetings with external participants in Microsoft Teams](plan-meetings-external-participants.md) for more information.
+There are other settings in Teams—including guest access and anonymous access—that affect meetings with people outside your organization. See [Plan for meetings with external participants in Microsoft Teams](plan-meetings-external-participants.md) for more information.
 
 The meeting lobby can control how people outside your organization join meetings. For more information, see [Control who can bypass the meeting lobby in Microsoft Teams](who-can-bypass-meeting-lobby.md) and [Configure the Microsoft Teams meeting lobby for sensitive meetings](configure-lobby-sensitive-meetings.md).
 
@@ -52,7 +52,7 @@ The meeting lobby can control how people outside your organization join meetings
 
 Each external access option has both an organization setting and user policies. The organization settings apply to your entire organization. User policies determine which users can use the options that you've configured at the organization level.
 
-Configure the organization settings to specify which types of external meetings and chat you want to allow, and then configure user policies for the users who should have access to these features. Note that both the organization settings and user policies are turned on by default.
+Configure the organization settings to specify which types of external meetings and chat you want to allow, and then configure user policies for the users who should have access to these features. Both the organization settings and user policies are turned on by default.
 
 For a user to use external access, both the organization setting and a user policy must allow it.
 
@@ -177,7 +177,7 @@ If you want chats and calls to arrive in the user's Skype for Business client, c
 
 ### Manage chats and meetings with external Teams users not managed by an organization
 
-You can choose to enable or disable chat with external unmanaged Teams users (those not managed by an organization, such as Microsoft Teams (free)). If you allow chat with unmanaged Teams users, you can further control how your users communicate with them:
+You can choose to enable or disable chat with external unmanaged Teams users (users not managed by an organization, such as Microsoft Teams (free)). If you allow chat with unmanaged Teams users, you can further control how your users communicate with them:
 
 - You can control if unmanaged Teams users can initiate the communication with your users.
 - You can create a list of external user profiles that users can communicate with.
@@ -199,7 +199,7 @@ To allow chats and meetings with unmanaged Teams accounts:
 
 ![Screenshot of external accounts settings](./media/external-access-accounts-not-managed-by-org.png)
 
-Note that if **External users with Teams accounts not managed by an organization can contact users in my organization** is turned off, unmanaged Teams users can't search by email address to find users in your organization. All communications with unmanaged Teams users must be initiated by users in your organization.
+If **External users with Teams accounts not managed by an organization can contact users in my organization** is turned off, unmanaged Teams users can't search by email address to find users in your organization. All communications with unmanaged Teams users must be initiated by users in your organization.
 
 To prevent chat with unmanaged Teams accounts:
 
@@ -305,7 +305,7 @@ Before you can run these cmdlets you must be connected to Microsoft Teams PowerS
 
 ## [**User policies**](#tab/user-policies)
 
-If you've enabled one of the external access settings for the organization, you can specify which users in your organization can chat or meet with people outside your organization by using an external access policy. (It's important to note that both of these must be enabled for users to chat or meet with people outside your organization.)
+If you've enabled one of the external access settings for the organization, you can specify which users in your organization can chat or meet with people outside your organization by using an external access policy (both of these must be enabled for users to chat or meet with people outside your organization.).
 
 For meeting organizers who aren't enabled for external access, meeting attendees from other organizations are considered anonymous when joining their meetings.
 
