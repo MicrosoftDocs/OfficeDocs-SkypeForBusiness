@@ -4,7 +4,7 @@ ms.author: jenz
 author: jenzamora
 manager: pamgreen
 ms.reviewer: mikedav, OscarR
-ms.date: 05/22/2024
+ms.date: 06/28/2024
 ms.topic: conceptual
 ms.assetid: dc6e95cd-51e8-49ca-bcd3-78dc9dae486a
 ms.tgt.pltfrm: cloud
@@ -18,7 +18,7 @@ search.appverid: MET150
 audience: Admin
 appliesto: 
   - Microsoft Teams
-ms.localizationpriority: null
+ms.localizationpriority: Low
 f1.keywords:
 - CSH
 ms.custom: 
