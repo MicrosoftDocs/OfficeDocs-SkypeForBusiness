@@ -30,9 +30,7 @@ description: For IT admins - Learn how to configure chat and meetings with peopl
 With the *external access* feature in Teams, you can allow users in your organization to chat and meet with people outside the organization who are using Microsoft as an identity provider. You can configure external access with:
 
 - Other Microsoft 365 organizations (chat and meetings)
-
-- Teams users not managed by an organization (those using a [Microsoft account](https://account.microsoft.com)) (chat only)
-
+- Teams users not managed by an organization (those users with a [Microsoft account](https://account.microsoft.com)) (chat only)
 - Skype users (chat only)
 
 Users in your organization can accept or block incoming chats from people outside the organization. For details, see [Accept or block people outside your org who send you a chat](https://support.microsoft.com/office/4b5b917d-895a-4379-a204-a111b2e24f41).
@@ -76,7 +74,7 @@ In order to chat and meet with people in external domains, the organizations tha
 
 You can specify which domains are allowed or which domains are blocked. If you specify blocked domains, all other domains are allowed; if you specify allowed domains, all other domains are blocked. There are four scenarios for configuring trusted organizations:
 
-- **Allow all external domains** - This is the default setting in Teams, and it lets users in your organization find, call, chat, and set up meetings with people external to your organization in any domain.
+- **Allow all external domains** - The default setting in Teams, and it lets users in your organization find, call, chat, and set up meetings with people external to your organization in any domain.
 
     In this scenario, your users can communicate with all external domains that are running Teams or Skype for Business so long as the other organization has also enabled external access.
 
@@ -127,15 +125,15 @@ Set-CsTenantFederationConfiguration -BlockAllSubdomains $True
 
 #### Block federation with Teams trial-only tenants
 
-A new admin control is being introduced to block federation with Teams trial-only tenants. Currently, trial tenants have access to the full feature set of Teams for about 30 days before being billed. However, this can be exploited by malicious actors to launch phishing or abuse attacks against Teams users. To embrace the secure-by-default mindset for our customers, we'll disable trial tenant federation by default for all tenants and require explicit tenant action if a tenant wants or needs to federate with any trial tenants.
+A new admin control is being introduced to block federation with Teams trial-only tenants. Currently, trial tenants have access to the full feature set of Teams for about 30 days before being billed. However, this control can be exploited by malicious actors to launch phishing or abuse attacks against Teams users. To embrace the secure-by-default mindset for our customers, we'll disable trial tenant federation by default for all tenants and require explicit tenant action if a tenant wants or needs to federate with any trial tenants.
 
 This change will be rolled out globally starting June 17, 2024, and is expected to complete by June 30, 2024. There will be a 30-day period for tenants to review and update the default setting before it's enforced. If no action is taken, the default value **Blocked** will be applied after this time.
 
-##### How this will affect your organization
+##### How block federation will affect your organization
 
 Teams PowerShell will support a new Tenant Federation setting, `-ExternalAccessWithTrialTenants`, with the values **Allowed** or **Blocked**.
 
-When set to **Blocked**, all external access with users from Teams subscriptions that contain only trial licenses will be blocked. This means users from these trial-only tenants will not be able to search and contact your users via chats, Teams calls, and meetings (using the users' authenticated identities) and your users will not be able to reach users in these trial-only tenants.
+When set to **Blocked**, all external access with users from Teams subscriptions that contain only trial licenses will be blocked. This means users from these trial-only tenants won't be able to search and contact your users via chats, Teams calls, and meetings (using the users' authenticated identities) and your users won't be able to reach users in these trial-only tenants.
 
 If this setting is set to **Blocked**, users from the trial-only tenant will also be removed from existing chats.
 
