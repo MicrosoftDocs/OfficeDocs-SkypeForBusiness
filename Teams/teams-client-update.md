@@ -9,12 +9,12 @@ audience: admin
 ms.collection: 
   - M365-collaboration
 ms.reviewer: 
-ms.date: 05/31/2024
+ms.date: 06/28/2024
 search.appverid: MET150
 f1.keywords: 
   - NOCSH
 description: This article outlines the process behind updating the classic Microsoft Teams desktop client.
-ms.localizationpriority: normal
+ms.localizationpriority: Medium
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-apr2020
@@ -29,14 +29,28 @@ Teams desktop client updates are released monthly after rigorous internal testin
 The desktop client updates itself automatically. Teams checks for updates every few hours behind the scenes, downloads it, and then waits for the computer to be idle before silently installing the update.
 
 Users can also manually download updates by selecting **Check for updates** in the **...** drop-down menu next to your **Profile** icon in the top right of the app. If an update is available, it's downloaded and silently installed when the computer is idle.
-## What about updates to Microsoft 365 Apps for enterprise?
-Teams is installed by default with new installations of Microsoft 365 Apps for enterprise as described in [Deploy Microsoft Teams with Microsoft 365 Apps for enterprise](/DeployOffice/teams-install).
 
-Teams follows its own update process as outlined earlier in this article. Teams doesn't follow the update process for the other Offices apps, such as Word and Excel. To learn more, read [Overview of update channels for Microsoft 365 Apps](/DeployOffice/overview-update-channels).
+## What can I do if classic Teams desktop client remains outdated?
+
+These are a few reasons your classic Teams client remain outdated (major version below 1.7):
+  - The update packages can't be downloaded. To address this, make sure the following domains can be accessed from the user's machine:
+    - statics.teams.microsoft.com
+    - statics.teams.cdn.office.net
+  - Multiple users are sharing the machine and new users are logging in frequently (eg., a Kiosk machine)
+  - Classic Teams is installed into a non-updatable location such as ProgramData or Program Files
+
+If you're an admin and multiple users in your organization have remained on an older version of classic Teams client, your users aren't able to automatically move to new Teams. To resolve this, you can use the admin-provision tool TeamsBootstrapper.exe to remove classic Teams as well as to provision the new client. Please see next section to learn more.
 
 ## Can admins deploy updates instead of Teams auto-updating?
 
-Teams doesn't give admins the ability to deploy updates through any delivery mechanism.
+Admins can quickly move users to new Teams via the provision tool <b>TeamsBootstrapper.exe</b> with the -u argument. To learn more, please see the following article: [Bulk upgrade to the new Microsoft Teams client](new-teams-bulk-install-client.md).
+
+You can use the [Microsoft Teams new client usage report](new-teams-usage-report.md) to find out if the users in your organization are using an outdated classic Teams client.
+
+## What about updates to Microsoft 365 Apps for enterprise?
+Teams can be installed with new installations of Microsoft 365 Apps for enterprise as described in [Deploy Microsoft Teams with Microsoft 365 Apps for enterprise](/DeployOffice/teams-install).
+
+Teams follows its own update process as outlined earlier in this article. Teams doesn't follow the update process for the other Offices apps, such as Word and Excel.
 
 ## Servicing agreement
 
