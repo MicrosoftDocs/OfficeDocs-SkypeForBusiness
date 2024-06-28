@@ -52,7 +52,7 @@ The meeting lobby can control how people outside your organization join meetings
 
 Each external access option has both an organization setting and user policies. The organization settings apply to your entire organization. User policies determine which users can use the options that you've configured at the organization level.
 
-Configure the organization settings to specify which types of external meetings and chat you want to allow, and then configure user policies for the users who should have access to these features. Both the organization settings and user policies are turned on by default.
+Configure the organization settings to specify which types of external meetings and chat you want to allow. Then configure user policies for the users who should have access to these features. Both the organization settings and user policies are turned on by default.
 
 For a user to use external access, both the organization setting and a user policy must allow it.
 
