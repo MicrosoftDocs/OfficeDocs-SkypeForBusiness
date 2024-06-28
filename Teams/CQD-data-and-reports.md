@@ -140,12 +140,10 @@ If you want to use Power BI to analyze your CQD data, read [Use Power BI to anal
 
 ### Select product data to see in reports
 
-In the Summary and Location-Enhanced Reports, you can use the **Product Filter** drop-down to show all product data, only Microsoft Teams data, or only Skype for Business Online data.
+In the Summary and Location-Enhanced Reports, you can use the **Product Filter** drop-down to show all product data or only Microsoft Teams data.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot: shows the Product Filter control options.](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
-
-In Detailed reports, you can use the **Is Teams** dimension to filter the data to Microsoft Teams or Skype for Business Online data.
 
 ## Summary Reports
 
