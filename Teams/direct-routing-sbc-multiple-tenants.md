@@ -104,7 +104,7 @@ The following table is an example of one configuration.
 |New domain name |Type|Registered  |Certificate CN/SAN for SBC  |Tenant default domain in the example  |FQDN name that SBC must present in the Contact header when sending calls to users|
 |---------|---------|---------|---------|---------|---------|
 | sbc1.adatum.biz |    Base     |     In carrier tenant  |   *.sbc1.adatum.biz   |   adatum.biz      |NA, this is a service tenant, no users |
-| woodgrovebank.sbc1.adatum.biz     Subdomain  |    In a customer tenant  |  *.sbc1.adatum.biz  | woodgrovebank.us  |  woodgrovebank.sbc1.adatum.biz |
+| woodgrovebank.sbc1.adatum.biz   |  Subdomain  |    In a customer tenant  |  *.sbc1.adatum.biz  | woodgrovebank.us  |  woodgrovebank.sbc1.adatum.biz |
 | contoso.sbc1.adatum.biz |   Subdomain | In a customer tenant   |  *.sbc1.adatum.biz   |contoso.com | Contoso.sbc1.adatum.biz |
 | adventureworks.sbc1.adatum.biz  |   Subdomain | In a customer tenant | .sbc1.adatum.biz   |  adventureworks.com | Adventureworks.sbc1.adatum.biz  |
 
