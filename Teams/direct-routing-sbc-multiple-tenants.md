@@ -91,10 +91,10 @@ The following table summarizes the requirements for the default (base) domain, a
 
 | Company | Default domain | Additional domain | Request URI | Contact header |
 |---------|---------|---------|---------|---------|
-| Adatum (carrier)| adatum.biz | sbc1.adatum.biz | NA | NA |
-| Woodgrove Bank (customer)| woodgrovebank.us | woodgrovebank.sbc1.adatum.biz | 18775682495@xxx.com | woodgrovebank.sbc1.adatum.biz |
-| Contoso (customer) | contoso.com | contoso.sbc2.adatum.biz | 19055680434@xxx.com | contoso.sbc2.adatum.biz | 
-|Adventure Works (customer)| adventureworks.com | adventureworks.sbc3.adatum.biz | 18006427676@xxx.com | adventureworks.sbc3.adatum.biz  |
+| Adatum (carrier)| adatum.biz | sbc1.adatum.biz<br>(carrier base domain name) | NA | NA |
+| Woodgrove Bank (customer)| woodgrovebank.us | woodgrovebank.sbc1.adatum.biz<br>(carrier subdomain) | 18775682495@xxx.com | woodgrovebank.sbc1.adatum.biz |
+| Contoso (customer) | contoso.com | contoso.sbc1.adatum.biz<br>(carrier subdomain) | 19055680434@xxx.com | contoso.sbc1.adatum.biz | 
+|Adventure Works (customer)| adventureworks.com | adventureworks.sbc1.adatum.biz<br>(carrier subdomain) | 18006427676@xxx.com | adventureworks.sbc1.adatum.biz  |
 
 The SBC requires a certificate to authenticate the connections. For the SBC hosting scenario, the carrier needs to request a certificate with CN and/or SAN \*.base_domain (for example, \*.sbc1.adatum.biz). This certificate is used to authenticate connections to multiple tenants served from a single SBC.
 
