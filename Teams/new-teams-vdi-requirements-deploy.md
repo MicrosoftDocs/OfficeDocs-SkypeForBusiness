@@ -598,7 +598,7 @@ The following features aren't supported in either classic Teams or new Teams.
 - Teams Premium features (End to End Encryption, Watermark, Premium Events aren't optimized, Custom meeting backgrounds for organizations).
 - Avatars.
 - Gallery View 3x3 and 7x7.
-- Noise Suppression (except for AVD/W365, where noise suppression is on by default, but confirmation isn't shown in Teams client UI. This is by design).
+- Noise Suppression (except for Azure Virtual Desktop/W365, where noise suppression is on by default, but confirmation isn't shown in Teams client UI. This is by design).
 - Zoom In / Out.
 - Location Based Routing.
 - Media Bypass.
@@ -608,4 +608,4 @@ The following features aren't supported in either classic Teams or new Teams.
 - Cross cloud anonymous join in Government Clouds (GCC, GCC High and DoD).
 - **Record video clip** doesn't capture screen share.
 - The call monitor (the small floating window after you minimize the main Teams window) doesn't display video or screen share.
-- Teams calls drop on a local machine that has an HID peripheral connected if a user launches a virtual desktop from that local machine and logs into Teams (AVD/W365 and VMware only).
+- Teams calls drop on a local machine that has an HID peripheral connected if a user launches a virtual desktop from that local machine and logs into Teams (Azure Virtual Desktop/W365 and VMware only).
