@@ -56,7 +56,7 @@ Configure the organization settings to specify which types of external meetings 
 
 For a user to use external access, both the organization setting and a user policy must allow it.
 
-Use the procedures on the tabs below to configure organization settings and user policies.
+Use the procedures on the tabs in this article to configure organization settings and user policies.
 
 ## [**Organization settings**](#tab/organization-settings)
 
