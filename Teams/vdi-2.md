@@ -41,24 +41,24 @@ New VDI solution for Teams is a new architecture for optimizing the delivery of 
 
 ## System requirements
 
-|Requirement |Minimum version |
-|------------|----------------|
-|New Teams   |24124.2315.2911.3357 (for AVD/Windows 365) </br> 	24152.408.2949.8308 (for Citrix)                                                                                     |
-|AVD/Winodws 365    |Windows App: 1.3.252</br>Remote Desktop Client: 1.2.5405.0                                                |
-|Citrix      |VDA: 2203 LTSR CU2 or 2212 CR</br>Citrix Workspace app: 2203 LTSR (any CU), 2402 LTSR, or 2302 CR          |
-|Endpoint    |Windows 10 1809 (SlimCore minimum requirement)</br>GPOs must not block MSIX installations (see [Step 3: SlimCore MSIX staging and registration on the endpoint](#step-3-slimcore-msix-staging-and-registration-on-the-endpoint))</br>Minimum CPU: Intel Celeron (or equivalent) @ 1.10 GHz, 4 Cores, Minimum RAM: 4 GB |
+|Requirement                       |Minimum version |
+|----------------------------------|----------------|
+|New Teams                         |24124.2315.2911.3357 (for Azure Virtual Desktop/Windows 365) </br>24152.408.2949.8308 (for Citrix)                                                                                     |
+|Azure Virtual Desktop/Windows 365 |Windows App: 1.3.252</br>Remote Desktop Client: 1.2.5405.0                                                |
+|Citrix                            |VDA: 2203 LTSR CU2 or 2212 CR</br>Citrix Workspace app: 2203 LTSR (any CU), 2402 LTSR, or 2302 CR          |
+|Endpoint                          |Windows 10 1809 (SlimCore minimum requirement)</br>GPOs must not block MSIX installations (see [Step 3: SlimCore MSIX staging and registration on the endpoint](#step-3-slimcore-msix-staging-and-registration-on-the-endpoint))</br>Minimum CPU: Intel Celeron (or equivalent) @ 1.10 GHz, 4 Cores, Minimum RAM: 4 GB |
 
 ## Optimizing with new VDI solution for Teams
 
 ### Step 1: Confirm prerequisites
 
-1. Make sure you have the new Microsoft Teams version 24124.2311.2896.3219 or higher (for AVD/Windows 365), and 	24152.408.2949.8308 or higher for Citrix.
+1. Make sure you have the new Microsoft Teams version 24124.2311.2896.3219 or higher (for Azure Virtual Desktop/Windows 365), and 24152.408.2949.8308 or higher for Citrix.
 1. Enable the new Teams policy **if necessary** for a specific user group (it's enabled by default at a Global org-wide level).
 1. For Citrix, you must configure the **Virtual channel allow list** as described in the [Citrix Virtual channel allow list](#citrix-virtual-channel-allow-list) section of this article.
 
 ### Step 2: Plugin installation on the endpoint
 
-1. For AVD and Windows 365, MsTeamsPluginAvd.dll is bundled with the RD Client for Windows 1.2.5405.0, or with the Windows App Store app 1.3.252 or higher.
+1. For Azure Virtual Desktop and Windows 365, MsTeamsPluginAvd.dll is bundled with the RD Client for Windows 1.2.5405.0, or with the Windows App Store app 1.3.252 or higher.
   - The plugin is found in the same folder location where the RD Client is installed. It'll either be AppData\Local\Apps\Remote Desktop or C:\Program Files (x86), depending on the mode in which it was installed.
   - For the [Windows App Store](/windows-app/overview) app, since it's MSIX-based, it's found in C:\Program Files\WindowsApps. Access to this folder is restricted.
 1. For Citrix CWA 2402 or higher, MsTeamsPluginCitrix.dll can be installed either:
@@ -148,7 +148,7 @@ Get-AppxPackage Microsoft.Teams.SlimCore*
 > [!IMPORTANT]
 > Microsoft stores up to ten versions of SlimCoreVdi for compatibility purposes, and in case the user accesses different VDI environments (such as persistent, where new Teams auto-updates itself, and non-persistent, where new Teams auto-updates are disabled).
 
-If you're optimized, you can see MsTeamsVdi.exe running on your endpoint for AVD/W365 or Citrix.
+If you're optimized, you can see MsTeamsVdi.exe running on your endpoint for Azure Virtual Desktop/W365 or Citrix.
 
 If you enable the bottom pane and switch to the DLL tab, you can also see the Plugin being loaded. This action is a useful troubleshooting step in case you're not getting the new optimization.
 
@@ -285,7 +285,7 @@ By default, the MsTeamsPlugin automatically downloads and installs the right Sli
 
 1. On the user's endpoint (thin client/fat client), you must create the following regkey:
   - Location for Citrix: HKLM\SOFTWARE\WOW6432Node\Microsoft\Teams\MsTeamsPlugin
-  - Location for AVD/W365: HKLM\SOFTWARE\Microsoft\Teams\MsTeamsPlugin
+  - Location for Azure Virtual Desktop/W365: HKLM\SOFTWARE\Microsoft\Teams\MsTeamsPlugin
   - Name: MsixUrlBase
   - Type: REG_SZ
   - Data: Either local storage or network storage UNC path, such as file://C:/Temp or file://ComputerName/SharedFolder.
@@ -329,19 +329,19 @@ Users who have App Protection enabled can still share their screen and apps whil
 
 #### Troubleshooting
 
-- Not optimized with SlimCore and instead you see:</br>"AVD Media Optimized"</br>"Citrix HDX Optimized"
+- Not optimized with SlimCore and instead you see:</br>"Azure Virtual Desktop Media Optimized"</br>"Citrix HDX Optimized"
   - Error Codes 2000 ("No Plugin") and 2001 ("Virtual Channel not available") are the most likely causes.
   
   1. Make sure your 'Virtual Channel Allow list' is properly configured to allow MSTEAMS, MSTEAM1, MSTEAM2.
   2. Make sure the endpoint has the plugin, and is loaded by the VDI Client with Process Explorer:
     - Run [process explorer](/sysinternals/downloads/process-explorer).
     - Enable the bottom pane and switch to the DLL tab.
-    - On AVD, look for the msrdc.exe process and ensure the MsTeamsPluginAvd.dll is loaded.
+    - On Azure Virtual Desktop, look for the msrdc.exe process and ensure the MsTeamsPluginAvd.dll is loaded.
     - On Citrix, look for the wfica32.exe process and ensure the MsTeamsPluginCitrix.dll is loaded.
   3. Restart the new Teams app. It requires two restarts to transition from WebRTC to SlimCore, when the plugin is detected for the first time.
   4. If the problem persists, check Event Viewer in the VM for **Microsoft Teams VDI**-related errors (new Teams 24123.X.X.X or higher).
 
-- Not optimized with SlimCore and instead you see: "AVD SlimCore Media Not Connected" or "Citrix SlimCore Media Not Connected".
+- Not optimized with SlimCore and instead you see: "Azure Virtual Desktop SlimCore Media Not Connected" or "Citrix SlimCore Media Not Connected".
   - Check the [Troubleshooting SlimCoreVdi MSIX deployment errors](#troubleshooting-slimcorevdi-msix-deployment-errors) section. MSIX or AppX-related errors are the most likely reasons for this error.
 
 ## New Teams logs for VDI
@@ -350,8 +350,8 @@ Teams logs can be collected by selecting Ctrl+Alt+Shift+1 while running Teams on
 
 ### Vdi_debug.txt is the main file for VDI related information
 
-|AVD/W365  |Citrix   |
-|---------|---------|
+|Azure Virtual Desktop/W365 |Citrix   |
+|---------------------------|---------|
 |"vdiConnectedState": {"connectedStack": "remote"}, "vdiVersionInfo": {"bridgeVersion": "2024.18.1.11", "remoteSlimcoreVersion": "2024.18.01.11", "nodeId": "1051a908af6b160e", "clientOsVersion": "10.0.22631", "rdClientVersion": "1.2.5405.0", "rdClientProductName": "Microsoft® Remote Desktop", "pluginVersion": "2024.14.01.1", "screenShareFallback": true} |"vdiConnectedState": {"connectedStack": "remote"}, "vdiVersionInfo": {"bridgeVersion": "2024.18.1.14", "remoteSlimcoreVersion": "2024.18.01.14", "nodeId": "ffffffff93eaee6a", "clientOsVersion": "10.0.22631", "rdClientVersion": "24.3.0.64", "rdClientProductName": "Citrix Workspace", "pluginVersion": "2024.15.01.3", "screenShareFallback": true} |
 
 - **vdiConnectedState** shows the current active calling stack.
