@@ -52,8 +52,8 @@ Using Teams in a virtualized environment requires the following components.
 - **Thin client**: The device that the user physically interfaces with.
 - **Teams desktop app**: The Teams desktop client app in the VM. This can be divided into three major sub-components:
   - Desktop client: Win32 native app, installed via .exe (auto update enabled) or .msi (auto update disabled). *Version Example: 1.6.00.18681*
-  - Web client: a common component for both Teams native desktop app and web (browser) app, it auto updates every time the app starts (even in non-persistent environments). *Version Example: 1.0.0.2023052414.* 
-  - Shim: a VDI and VDI partner specific component that is bundled with the Web client, hence it auto updates. *Version Example: 1.14.0.1 (Citrix), 21494295 (VMware), 1.1.2206.13001 (AVD/W365)*
+  - Web client: a common component for both Teams native desktop app and web (browser) app, it auto updates every time the app starts (even in non-persistent environments). *Version Example: 1.0.0.2023052414.*
+  - Shim: a VDI and VDI partner specific component that is bundled with the Web client, hence it auto updates. *Version Example: 1.14.0.1 (Citrix), 21494295 (VMware), 1.1.2206.13001 (Azure Virtual Desktop/W365)*
 
 ## Teams on VDI requirements
 

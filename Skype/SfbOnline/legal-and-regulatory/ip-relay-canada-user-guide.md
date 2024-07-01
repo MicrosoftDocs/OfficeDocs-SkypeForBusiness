@@ -1,5 +1,5 @@
 ---
-ms.date: 04/04/2018
+ms.date: 06/28/2024
 title: "IP Relay Canada User Guide"
 ms.author: serdars
 author: tonysmit
@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-ms.localizationpriority: null
+ms.localizationpriority: Low
 f1.keywords:
 - NOCSH
 ms.custom:

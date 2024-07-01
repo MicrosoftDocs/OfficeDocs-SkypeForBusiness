@@ -5119,6 +5119,16 @@
     "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/update-ccservercertificate.md",
     "redirect_url": "/microsoftteams/cloud-voice-landing-page",
     "redirect_document_id": false
-  }  
+  },
+  {
+    "source_path": "Teams/deploy-audio-conferencing-teams-landing-page.md",
+    "redirect_url": "/microsoftteams/audio-conferencing-in-office-365",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Skype/SfBOnline/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1.md",
+    "redirect_url": "/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell",
+    "redirect_document_id": false
+  }
 ] 
 }
