@@ -3,8 +3,8 @@ title: "Setting up Bookable Desks in Microsoft Teams "
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: prashibadkur
-ms.date: 05/09/2024  
+ms.reviewer: eviegrimshaw
+ms.date: 07/01/2024  
 ms.topic: article
 audience: Admin
 appliesto: 
@@ -126,5 +126,5 @@ The device is now associated with the Desk Pool account.
 **Answer:** Individual desks that are part of a desk pool have the same User Principal Name (UPN) or resource email address, often identical and close to each other in an office. Desk pools are a cluster of individual desks that have a dedicated resource account. The resource account is on Exchange supported by workspace mailbox architecture. The capacity of a desk pool along with metadata such as location can be set using [Set-Place](/powershell/module/exchange/set-place) cmdlet. All devices need to be associated to desk pool accounts on the Teams Pro Management Portal for the end-to-end functionality to work.
 ## Related links
 
-- [First things to know about bookable desks for end users](https://prod.support.services.microsoft.com/en-us/topic/5d10c217-1205-48a1-a883-ff4533f4ae71?preview=true)
+- [First things to know about bookable desks for end users](https://support.microsoft.com/office/first-things-to-know-about-bookable-desks-5d10c217-1205-48a1-a883-ff4533f4ae71)
 
