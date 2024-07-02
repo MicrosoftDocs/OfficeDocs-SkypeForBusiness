@@ -1,11 +1,11 @@
 ---
 title: Manage the Lists app for your organization
 author: MicrosoftHeidi
-ms.author: heidip
+ms.author: v-chinlana
 manager: jtremper
-ms.reviewer: 
+ms.reviewer: mmulpuru
 ms.date: 06/21/2024
-ms.topic: how-to
+ms.topic: conceptual
 audience: admin
 ms.service: msteams
 search.appverid: MET150
@@ -34,7 +34,7 @@ ms.custom:
 
 ## Overview of Lists
 
-The Lists app in Microsoft Teams helps users in your organization track information, organize work, and manage workflows. With Lists, users can track data such as issues, assets, routines, contacts, inventory, incidents, loans, patients, and more. Do this by using customizable views, rules, and alerts to keep everyone on the team in sync.
+The Lists app in Microsoft Teams helps users in your organization track information, organize work, and manage workflows. With Lists, users can track data such as issues, assets, routines, contacts, inventory, incidents, loans, patients, and more. Users do this by using customizable views, rules, and alerts to keep everyone on the team in sync.
 
 In Teams, users access Lists as a tab in a channel. Select **+** to open the tab gallery and add a new Lists app tab instance to a channel to get started.
 
@@ -55,9 +55,9 @@ Templates in Lists are tailored to common information tracking scenarios for use
 
 ## Example scenario
 
-A local post office is responsible for sorting and delivering mail in their district. Each morning, the post office has a team huddle to review daily goals, share announcements, and discuss known incidents.
+A local post office is responsible for sorting and delivering mail in their district. Each morning, the post office has a team huddle to review daily goals, share announcements, and discuss known incidents. 
 
-After the huddle, mail carriers pick up their mail and start their delivery route. Incidents can occur along a route, for example, a vehicle accident, dog-related issue, or social unrest protest. When mail carriers encounter an incident, they use Teams on their mobile devices to record the incident details, which are tracked in a list in the team channel. Everyone on the team, including mail carriers in the field, can see this information and stay informed.
+After the huddle, mail carriers pick up their mail and start their delivery route. Incidents can occur along a route, for example, a vehicle accident, dog-related issue, or social unrest protest. When mail carriers encounter an incident, they use Teams on their mobile devices to record the incident details, which are tracked in a list in the team channel. Everyone on the team, including mail carriers in the field, can see this information and stay informed. 
 
 Before moving to Teams, mail carriers had to go back to the post office to complete a hard-copy form to report an incident, which was then entered in an Excel spreadsheet. Teams gives mail carriers a mobile first, experience where they can use Lists to report incidents in the field as they happen, share incident details with team members, have conversations about them on the channel, and drive incidents to resolution.
 
@@ -65,22 +65,22 @@ Before moving to Teams, mail carriers had to go back to the post office to compl
 
 ### Lists is available in every team and channel
 
-Lists is preinstalled for all Teams users and is available directly in the tab gallery of every team and channel. This means that users don't have to go to the Teams app store to install it.
+Lists is preinstalled for all Teams users and is available directly in the tab gallery of every team and channel. This means that users don’t have to go to the Teams app store to install it.
 
 ### Lists and SharePoint
 
-Lists data is stored in the SharePoint team site. To learn more about how SharePoint interacts with Teams, see [How SharePoint and OneDrive interact with Teams](SharePoint-OneDrive-interact.md).
+Lists data is stored in the SharePoint team site. To learn more about how SharePoint interacts with Teams, see [Overview of Teams and SharePoint integration](SharePoint-OneDrive-interact.md).
 
 Permissions set in SharePoint apply to lists created in the Lists app. By default, lists inherit permissions from the site to which they belong. These permissions govern the types of actions that users can do, such as whether they can create or edit lists. To learn more, see [Permission levels in SharePoint](/sharepoint/understanding-permission-levels) and [On-premises SharePoint Server user permissions and permission levels](/sharepoint/sites/user-permissions-and-permission-levels).
 
 In certain scenarios, you might want to restrict what actions users can do in lists. For example, a person on a team edits a list view that shouldn't, which changes it for all team members. With restrictions, you can allow only the team owner or certain team members to edit list views. To learn more, see [Customize permissions for a SharePoint list or library](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013).
 
 > [!NOTE]
-> At this point, owner and member permissions in a team aren't linked in any way to permissions in the team site that govern the behavior of lists or the Lists App. However, based on customer feedback and usage, this will be considered for a future iteration of the product.  
+> At this point, owner and member permissions in a team aren't linked in any way to permissions in the team site that govern the behavior of lists or the Lists App. However, based on customer feedback and usage, this will be considered for a future iteration.  
 
 ### Limitations
 
-With Lists, users get a desktop, web, and mobile experience. It's important to know that users can't create new lists or pin existing lists using Lists on the Teams mobile client. To view or edit a list on the Teams mobile client, a list must first be created or added using Lists in the Teams desktop or web client.
+With Lists, users get a desktop, web, and mobile experience. It's important to know that users can't create new lists or pin existing lists using Lists on the Teams mobile client yet. To view or edit a list on the Teams mobile client, a list must first be created or added using Lists in the Teams desktop or web client.
 
 Guests can't create or delete a list. They can add list items to existing lists, start new conversations about list items, and reply to existing conversations about list items.
 
@@ -110,7 +110,7 @@ Lists are enabled with enterprise level auditing. You can search for lists and l
 
 For a list of audit events that are relevant to the Lists app in Teams, see [SharePoint list activities](/purview/audit-log-activities#sharepoint-list-activities).
 
-Before you can search the audit log, you have to first turn on auditing in the [Microsoft Purview compliance portal](https://compliance.microsoft.com). Keep in mind that audit data is only available from the point at which you turned on auditing.
+Before you can search the audit log, you have to first turn on auditing in the Microsoft Purview portal or the Microsoft Purview compliance portal. Keep in mind that audit data is only available from the point at which you turned on auditing.
 
 ## Power Automate, Power Apps, and Graph API
 
@@ -118,7 +118,7 @@ Lists supports [Power Automate](/power-automate/flow-types) for workflows and [P
 
 ## Lists data
 
-The Lists app is based on SharePoint and Lists data is stored in the SharePoint team site. For more information, see [Data Residency for SharePoint and OneDrive](/microsoft-365/enterprise/m365-dr-workload-spo) for more information.
+The Lists app is based on SharePoint and Lists data is stored in the SharePoint team site. For more information, see [Data Residency for SharePoint and OneDrive](/microsoft-365/enterprise/m365-dr-workload-spo).
 
 ## Give feedback or report an issue
   
