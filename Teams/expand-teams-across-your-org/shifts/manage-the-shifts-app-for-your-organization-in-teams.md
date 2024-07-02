@@ -57,6 +57,10 @@ Shifts data is stored in one of the following region geographies: Asia Pacific (
 
 To learn more about Shifts data, including data storage location, security and compliance, and access control, see [Shifts data FAQ](shifts-data-faq.md).
 
+## Deploy Shifts
+
+For an overview of deploying Shifts in your organization, see [Shifts for your frontline organization](/microsoft-365/frontline/shifts-for-teams-landing-page).
+
 ## Set up Shifts
 
 ### Enable or disable Shifts in your organization
@@ -125,7 +129,7 @@ To send feedback or report an issue, select **Settings and more** (**…**) in T
 
 ## Related articles
 
-- [Shifts for Teams](/microsoft-365/frontline/shifts-for-teams-landing-page)
+- [Shifts for your frontline organization](/microsoft-365/frontline/shifts-for-teams-landing-page)
 - [Shifts connectors](/microsoft-365/frontline/shifts-connectors)
-- [Shifts Help for frontline workers](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+- [Shifts Help for frontline workers](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821)
 - [Assign policies to your users in Teams](../../policy-assignment-overview.md)
