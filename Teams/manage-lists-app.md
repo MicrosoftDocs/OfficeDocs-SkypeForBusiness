@@ -46,7 +46,11 @@ Users can create new lists or pin existing lists from within the same team or fr
 
 ## Templates
 
-Templates in Lists are tailored to common information tracking scenarios for users. Each template comes with a predefined list structure, form layouts, and formatting options at both a list view and a details view level to help users get started quickly. After selecting a template, users get a preview of what the list will look like, along with some sample data. Here's some examples of how teams in your organization can use the predefined templates in Lists:
+Templates in Lists are tailored to common information tracking scenarios for users. Each template comes with a predefined list structure, form layouts, and formatting options at both a list view and a details view level to help users get started quickly. After selecting a template, users get a preview of what the list will look like, along with some sample data.
+
+:::image type="content" source="media/lists-template-example.png" alt-text="The Event itinerary template in Lists." lightbox="media/lists-template-example.png":::
+
+Here's some examples of how teams in your organization can use the predefined templates in Lists:
 
 - Track issues and bring them to closure using the Issue tracker template.
 - Organize all your event details with the Event itinerary template.
