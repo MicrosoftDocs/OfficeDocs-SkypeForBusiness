@@ -5121,8 +5121,18 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "Teams/set-up-auto-answer-on-teams-android.md",
+    "redirect_url": "/microsoftteams/devices/common-area-mobile-phones",
+    "redirect_document_id": false
+  },
+  {
     "source_path": "Teams/deploy-audio-conferencing-teams-landing-page.md",
     "redirect_url": "/microsoftteams/audio-conferencing-in-office-365",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Skype/SfBOnline/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1.md",
+    "redirect_url": "/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell",
     "redirect_document_id": false
   }
 ] 
