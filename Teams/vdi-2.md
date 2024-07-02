@@ -25,7 +25,6 @@ ms.localizationpriority: high
 New VDI solution for Teams is a new architecture for optimizing the delivery of multimedia workloads in virtual desktops.
 
 > [!IMPORTANT]
-> The rollout to public preview started on June 25th 2024, and will reach 100% coverage in the next few days.
 > In order to participate on the public preview, administrators must move users to the public preview channel as described [in this article](public-preview-doc-updates.md).
 >
 > **For Citrix customers, please contact your Microsoft account manager in order to get signed up for the public preview**.
