@@ -7,9 +7,9 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer:
-ms.date: 09/20/2021
+ms.date: 06/28/2024
 description: Microsoft Teams article documenting prerequisites and setup of Parents in Teams for Education.
-ms.localizationpriority: Normal
+ms.localizationpriority: Medium
 ROBOTS: NOINDEX, NOFOLLOW
 search.appverid: MET150
 f1.keywords:
