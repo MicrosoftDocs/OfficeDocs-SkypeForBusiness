@@ -23,7 +23,7 @@ f1.keywords:
 description: Helps admins set up Bookable Desks for their Microsoft Teams organization.
 ---
 
-  # Setting up Bookable Desks in Microsoft Teams
+# Setting up Bookable Desks in Microsoft Teams
 
 This article helps guide you through the process of setting up Bookable Desks in Microsoft Teams. This includes creating desk pool accounts, searching for and identifying the devices you want included, and then linking those devices with desk pool accounts.
 
@@ -82,7 +82,7 @@ You can use the auto discovery feature to get the device information and then as
 
 1. Sign in and open the [Microsoft Teams Pro Management portal](https://portal.rooms.microsoft.com/) > **Inventory** in the left navigation.
 
-Devices are automatically discovered using your users' Teams app to send device data to the Teams Pro Management Portal. When five users plug in to device on a desk any connected displays and USB audio/video peripherals are scanned and transmitted to the cloud. These devices populate the **Devices** tab within the **Inventory** section.
+   Devices are automatically discovered using your users' Teams app to send device data to the Teams Pro Management Portal. When five users plug in to device on a desk any connected displays and USB audio/video peripherals are scanned and transmitted to the cloud. These devices populate the **Devices** tab within the **Inventory** section.
 
 2. Go to **Planning** > **Inventory** > **Devices** page.
 3. Select the specific device you want to associate to a desk pool. You see a **Needs action** banner.
@@ -90,21 +90,22 @@ Devices are automatically discovered using your users' Teams app to send device 
 5. Select **Add device to a room or desk**.
 6. The list of desk pools is displayed that allows you to select the desired desk pool from the list where the device is located. 
 
-> [!NOTE]
-> If you want to look for a specific desk pool use the **PlaceType:** desks filter in the search bar to see only Desk Pool accounts in the organization.
+   > [!NOTE]
+   > If you want to look for a specific desk pool use the **PlaceType:** desks filter in the search bar to see only Desk Pool accounts in the organization.
 
 7. Once you select the desk pool, select **Save**.
 
-The device is now associated with the Desk Pool account.
+   The device is now associated with the Desk Pool account.
 
 8. Go to **Inventory** > **Desks** page and make sure the device has the specific associated desk pool under the location.
 
-> [!NOTE]
-> The Desk pool is named **Desk** in the Microsoft Teams Pro Management portal.  
+   > [!NOTE]
+   > The Desk pool is named **Desk** in the Microsoft Teams Pro Management portal.  
 
 ## Step 4 - Test the end user experience
 
 1. Take the laptop or tablet and sign in to Teams.
+
 2. Physically plug in the laptop. When you plug in to this associated device, you receive a desk reservation notification with a booking appearing on Teams calendar. You can also reserve a desk using the Teams app or Places Finder on Outlook. If you reserve a Bookable Desk, you see an arrival notification for an existing reservation.  
 
 ## Frequently asked questions
@@ -124,6 +125,7 @@ The device is now associated with the Desk Pool account.
 **Question:** What is the difference between individual desks, desk pools and Bookable Desks in this article?
 
 **Answer:** Individual desks that are part of a desk pool have the same User Principal Name (UPN) or resource email address, often identical and close to each other in an office. Desk pools are a cluster of individual desks that have a dedicated resource account. The resource account is on Exchange supported by workspace mailbox architecture. The capacity of a desk pool along with metadata such as location can be set using [Set-Place](/powershell/module/exchange/set-place) cmdlet. All devices need to be associated to desk pool accounts on the Teams Pro Management Portal for the end-to-end functionality to work.
+
 ## Related links
 
 - [First things to know about bookable desks for end users](https://support.microsoft.com/office/first-things-to-know-about-bookable-desks-5d10c217-1205-48a1-a883-ff4533f4ae71)
