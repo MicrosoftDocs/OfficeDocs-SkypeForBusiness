@@ -45,14 +45,17 @@ To add or deactivate custom security attributes definitions, you must have:
 1. Sign in to the [Microsoft Entra admin center](https://entra.microsoft.com/) as a [Attribute Definition Administrator](/entra/identity/role-based-access-control/permissions-reference).
 2. Browse to **Protection** > **Custom security attributes**.
 3. Select **Add attribute set** to add a new attribute set.
-4. If Add attribute set is disabled, ensure that you're assigned the Attribute Definition Administrator role. For more information, see [Troubleshoot custom security attributes](/entra/fundamentals/custom-security-attributes-troubleshoot).
-5. Enter a name, description, and maximum number of attributes.
+
+   >[!NOTE]
+   >If **Add attribute set** is disabled, ensure that you're assigned the Attribute Definition Administrator role. For more information, see [Troubleshoot custom security attributes](/entra/fundamentals/custom-security-attributes-troubleshoot).
+
+4. Enter a name, description, and maximum number of attributes.
     > [!TIP]
     > An attribute set name can be 32 characters with no spaces or special characters. Once you've specified a name, you can't rename it. For more information, see [Limits and constraints](/entra/fundamentals/custom-security-attributes-overview).
-    
+  
     :::image type="content" source="media/add-attribute-sip-gateway.png" alt-text="Screenshot displaying Add attribute set.":::
-6. When finished, select **Add**.
-7. The new attribute set appears in the list of attribute sets.
+5. When finished, select **Add**.
+6. The new attribute set appears in the list of attribute sets.
 
 ## Step 2: Add a custom security attribute definition
 
@@ -64,7 +67,7 @@ To add or deactivate custom security attributes definitions, you must have:
 6. In the **Attribute name** box, enter a custom security attribute name.
     > [!TIP]
     > An attribute set name can be 32 characters with no spaces or special characters. Once you've specified a name, you can't rename it. For more information, see [Limits and constraints](/entra/fundamentals/custom-security-attributes-overview).
-    
+
     :::image type="content" source="media/exclude-aatribute-set.png" alt-text="Screenshot displaying the Exclude attribute set.":::
 7. In the **Description** box, enter an optional description.
     > [!TIP]
@@ -158,20 +161,23 @@ To add or deactivate custom security attributes definitions, you must have:
 1. Sign in to the [Microsoft Entra admin center](https://entra.microsoft.com/) as at least a [Conditional Access Administrator](/entra/identity/role-based-access-control/permissions-reference).
 2. Browse to **Protection** > **Conditional Access**.
 3. Select the policy you want to change.
-4. Under **Target resources**, select one from the following options:
-   - Select what this policy applies to Cloud apps.
-   - Include all apps.
-   - Change tab to exclude.
-   - Select excluded cloud apps – search for **Microsoft Teams Services**.
+4. Under **Target resources**, select the following options to autofill this field:
+   - For **Select what this policy applies to**, choose **Cloud apps** from the list.
+   - On the **Include** tab, select **All** apps option.
+   - Change tab to **Exclude** and under **Select excluded cloud apps**, search for **Microsoft Teams Services** and click on **Select**.
+
   :::image type="content" source="media/exclude-cloud-apps.png" alt-text="Screenshot displaying the search and selection of Microsoft Teams Service.":::
-5. Click on **Select**.
-6. Select **Edit filter**.
-7. Set **Configure** to **Yes**.
-8. Select the attribute you created earlier (in this case 'exclAttrAllowMultiple').
-9. Set **Operator** to **Contains**.
-10. Set **Value** to the one assigned to SIP Gateway apps in [step 4](#step-4-assign-custom-security-attribute-to-sip-gateway) (in this case requireMFA).
+5. Then, select **Edit filter**.
+6. On the **Edit filter** page, set **Configure** to **Yes**.
+7. Select the attribute you created earlier (in this case 'exclAttrAllowMultiple').
+8. Set **Operator** to **Contains**.
+9. Set **Value** to the one assigned to SIP Gateway apps in [step 4](#step-4-assign-custom-security-attribute-to-sip-gateway) (in this case requireMFA).
   :::image type="content" source="media/edit-filter.png" alt-text="Screenshot displaying the edit filter pane." lightbox="media/edit-filter.png":::
-11. Select **Done**.
-12. Review and confirm your settings.
+10. Select **Done**.
+11. Review and confirm your settings.
   :::image type="content" source="media/include-all-apps-settings.png" alt-text="Screenshot displaying the settings that need confirmation.":::
-13. Select **Save** to enable your policy.
+12. Select **Save** to enable your policy.
+
+## Related articles
+
+- [Configure SIP Gateway](sip-gateway-configure.md)
