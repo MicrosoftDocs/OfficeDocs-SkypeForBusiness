@@ -47,7 +47,6 @@ Beyond the certification period, Microsoft is committed to make efforts to suppo
 
 The following devices are Certified under the Microsoft Teams phones Certification Program:
 
-> The certification end date for Poly Android 9 based Teams audio phones has been extended to October 31, 2024.
 
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
@@ -163,6 +162,8 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 #### <b> Yealink </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications  | Release date|
 |:----------------|:-------------------|:----------------------------|:----------------------------------------------------------------------------------------------|:--------------------------------------------|
+|MP52| `145.15.0.94`| N/A | Teams client: `1449/1.0.94.2024060310` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| June 2, 2024|
+|VP59| `91.15.0.147`| N/A | Teams client: `1449/1.0.94.2024060310` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| June 2, 2024|
 |MP52| `145.15.0.83`| N/A | Teams client: `1449/1.0.94.2023072509` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| January 18, 2024|
 |VP59| `91.15.0.136`| N/A | Teams client: `1449/1.0.94.2023091801` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| January 18, 2024|
 |MP54/MP56/MP58| `122.15.0.142`| `122.15.0.107` | Teams client: `1449/1.0.94.2023091801` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| October 9, 2023|
