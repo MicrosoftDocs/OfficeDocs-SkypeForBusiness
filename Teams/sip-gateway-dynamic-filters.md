@@ -49,6 +49,7 @@ To add or deactivate custom security attributes definitions, you must have:
 5. Enter a name, description, and maximum number of attributes.
     > [!TIP]
     > An attribute set name can be 32 characters with no spaces or special characters. Once you've specified a name, you can't rename it. For more information, see [Limits and constraints](/entra/fundamentals/custom-security-attributes-overview).
+    
     :::image type="content" source="media/add-attribute-sip-gateway.png" alt-text="Screenshot displaying Add attribute set.":::
 6. When finished, select **Add**.
 7. The new attribute set appears in the list of attribute sets.
@@ -63,6 +64,7 @@ To add or deactivate custom security attributes definitions, you must have:
 6. In the **Attribute name** box, enter a custom security attribute name.
     > [!TIP]
     > An attribute set name can be 32 characters with no spaces or special characters. Once you've specified a name, you can't rename it. For more information, see [Limits and constraints](/entra/fundamentals/custom-security-attributes-overview).
+    
     :::image type="content" source="media/exclude-aatribute-set.png" alt-text="Screenshot displaying the Exclude attribute set.":::
 7. In the **Description** box, enter an optional description.
     > [!TIP]
@@ -97,7 +99,7 @@ To add or deactivate custom security attributes definitions, you must have:
 Get-AzureADServicePrincipal -Filter "AppId eq '582b2e88-6cca-4418-83d2-2451801e1d26'"`
 ```
 
-- If you get no output, then run:
+   If you get no output, then run:
 
    ```powershell
    New-AzureADServicePrincipal -AppId "582b2e88-6cca-4418-83d2-2451801e1d26"`
@@ -109,7 +111,7 @@ Get-AzureADServicePrincipal -Filter "AppId eq '582b2e88-6cca-4418-83d2-2451801e1
 Get-AzureADServicePrincipal -Filter "AppId eq '0ab9de21-b802-4d77-b279-1ad41ca233b4'"`
 ```
 
-- If you get no output, then run:
+   If you get no output, then run:
 
    ```powershell
    New-AzureADServicePrincipal -AppId "0ab9de21-b802-4d77-b279-1ad41ca233b4"`.
@@ -144,9 +146,9 @@ After running these cmdlets, you should get the following output to proceed:
 5. Under **Manage** > **Custom security attributes**, select **Add assignment**.
 6. Under **Attribute set**, select the attribute set you created in [step 1](#step-1-add-an-attribute-set).
 7. Under **Attribute name**, select the attribute name you created in [step 2](#step-2-add-a-custom-security-attribute-definition).
-    :::image type="content" source="media/select-attribute-set.png" alt-text="Screenshot displaying the available attributes and selection of the attribute created in earlier steps.":::
-8. Under **Assigned values**, select **Add values**, select the value from the list (requireMFA in this example), then select Done.
-     :::image type="content" source="media/require-mfa-selection.png" alt-text="Screenshot displaying to select requireMFA.":::
+  :::image type="content" source="media/select-attribute-set.png" alt-text="Screenshot displaying the available attributes and selection of the attribute created in earlier steps.":::
+8. Under **Assigned values**, select **Add values**, select the value from the list (requireMFA in this example), then select **Done**.
+    :::image type="content" source="media/require-mfa-selection.png" alt-text="Screenshot displaying to select requireMFA.":::
 9. Select **Save**.
 10. Follow the same steps for SIP Gateway UserApp (582b2e88-6cca-4418-83d2-2451801e1d26)
 
@@ -160,15 +162,15 @@ After running these cmdlets, you should get the following output to proceed:
    - Include All apps.
    - Change tab to Exclude.
    - Select excluded cloud apps – search for **Microsoft Teams Services**.
-     :::image type="content" source="media/exclude-cloud-apps.png" alt-text="Screenshot displaying the search and selection of Microsoft Teams Service.":::
+  :::image type="content" source="media/exclude-cloud-apps.png" alt-text="Screenshot displaying the search and selection of Microsoft Teams Service.":::
 5. Click on **Select**.
 6. Select **Edit filter**.
 7. Set **Configure** to **Yes**.
 8. Select the attribute you created earlier (in this case 'exclAttrAllowMultiple').
 9. Set **Operator** to **Contains**.
 10. Set **Value** to the one assigned to SIP Gateway apps in [step 4](#step-4-assign-custom-security-attribute-to-sip-gateway) (in this case requireMFA).
-     :::image type="content" source="media/edit-filter.png" alt-text="Screenshot displaying the edit filter pane." lightbox="media/edit-filter.png":::
+  :::image type="content" source="media/edit-filter.png" alt-text="Screenshot displaying the edit filter pane." lightbox="media/edit-filter.png":::
 11. Select **Done**.
 12. Review and confirm your settings.
-     :::image type="content" source="media/include-all-apps-settings.png" alt-text="Screenshot displaying the settings that need confirmation.":::
+  :::image type="content" source="media/include-all-apps-settings.png" alt-text="Screenshot displaying the settings that need confirmation.":::
 13. Select **Save** to enable your policy.
