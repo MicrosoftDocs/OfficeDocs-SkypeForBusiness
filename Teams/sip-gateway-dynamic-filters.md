@@ -155,7 +155,7 @@ To add or deactivate custom security attributes definitions, you must have:
    :::image type="content" source="media/require-mfa-selection.png" alt-text="Screenshot displaying to select requireMFA.":::
 
 9. Select **Save**.
-10. Follow the same steps for SIP Gateway UserApp (582b2e88-6cca-4418-83d2-2451801e1d26)
+10. Follow the same steps for SIP Gateway UserApp (582b2e88-6cca-4418-83d2-2451801e1d26).
 
 ## Step 5: Exclude this attribute from your Conditional Access Policy
 
@@ -166,7 +166,9 @@ To add or deactivate custom security attributes definitions, you must have:
    - For **Select what this policy applies to**, choose **Cloud apps** from the list.
    - On the **Include** tab, select **All** apps option.
    - Change tab to **Exclude** and under **Select excluded cloud apps**, search for **Microsoft Teams Services** and click on **Select**.
+
    :::image type="content" source="media/exclude-cloud-apps.png" alt-text="Screenshot displaying the search and selection of Microsoft Teams Service.":::
+
 5. Then, select **Edit filter**.
 6. On the **Edit filter** page, set **Configure** to **Yes**.
 7. Select the attribute you created earlier (in this case 'exclAttrAllowMultiple').
