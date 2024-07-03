@@ -122,20 +122,21 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Provide a unique join link for presenters | ✔️ |  |
 | Set up a green room for presenters and organizers | ✔️ |  |
 | Turn on third party or Microsoft eCDN for town halls | ✔️ |  |
-| Use RTMP-In for town halls | ✔️ |  |
+| Use RTMP-In for town halls <sup>1</sup> | ✔️ |  |
 | Town hall Q&A capacity of 10k attendees | ✔️ |  |
 | Organizers can pre-select six languages for live translated captions | ✔️ |  |
 | Broadcast town halls to 20k attendees |  | ✔️ |
 | Host up to 50 town halls simultaneously |  | ✔️ |
 | Town hall Q&A capacity of 20k attendees |  | ✔️ |
-| Use Microsoft eCDN for Premium town halls\* |  | ✔️ |
-| Choose an eCDN provider for town halls\* |  | ✔️ |
+| Use Microsoft eCDN for Premium town halls <sup>2</sup> |  | ✔️ |
+| Choose an eCDN provider for town halls <sup>2</sup> |  | ✔️ |
 | View Microsoft Town hall insights |  | ✔️ |
 | Town hall organizers can view engagement reports |  | ✔️ |
 | Edit town hall emails |  | ✔️ |
 | Organizers can pre-select 10 languages for live translated captions |  | ✔️ |
 
-\* *To take advantage of eCDN for all attendees, either a Teams Premium or standalone eCDN license is required. eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN licensing, see [Microsoft eCDN](https://www.microsoft.com/en-us/microsoft-teams/ecdn).*
+<sup>1</sup> If RTMP-In is enabled for a town hall, live translated captions will not be available to the attendees even if the organizer selects the languages before the town hall starts. 
+<sup>2</sup> To take advantage of eCDN for all attendees, either a Teams Premium or standalone eCDN license is required. eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN licensing, see [Microsoft eCDN](https://www.microsoft.com/en-us/microsoft-teams/ecdn).*
 
 ### Advanced Collaboration Tools
 
