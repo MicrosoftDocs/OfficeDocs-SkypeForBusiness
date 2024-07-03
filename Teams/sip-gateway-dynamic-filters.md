@@ -152,7 +152,8 @@ To add or deactivate custom security attributes definitions, you must have:
   :::image type="content" source="media/select-attribute-set.png" alt-text="Screenshot displaying the available attributes and selection of the attribute created in earlier steps.":::
 8. Under **Assigned values**, select **Add values**, select the value from the list (requireMFA in this example), then select **Done**.
 
-  :::image type="content" source="media/require-mfa-selection.png" alt-text="Screenshot displaying to select requireMFA.":::
+   :::image type="content" source="media/require-mfa-selection.png" alt-text="Screenshot displaying to select requireMFA.":::
+
 9. Select **Save**.
 10. Follow the same steps for SIP Gateway UserApp (582b2e88-6cca-4418-83d2-2451801e1d26)
 
