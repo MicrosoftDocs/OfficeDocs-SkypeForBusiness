@@ -25,7 +25,6 @@ ms.localizationpriority: high
 New VDI solution for Teams is a new architecture for optimizing the delivery of multimedia workloads in virtual desktops.
 
 > [!IMPORTANT]
-> The rollout to public preview started on June 25th 2024, and will reach 100% coverage in the next few days.
 > In order to participate on the public preview, administrators must move users to the public preview channel as described [in this article](public-preview-doc-updates.md).
 >
 > **For Citrix customers, please contact your Microsoft account manager in order to get signed up for the public preview**.
@@ -45,7 +44,7 @@ New VDI solution for Teams is a new architecture for optimizing the delivery of 
 |----------------------------------|----------------|
 |New Teams                         |24124.2315.2911.3357 (for Azure Virtual Desktop/Windows 365) </br>24152.408.2949.8308 (for Citrix)                                                                                     |
 |Azure Virtual Desktop/Windows 365 |Windows App: 1.3.252</br>Remote Desktop Client: 1.2.5405.0                                                |
-|Citrix                            |VDA: 2203 LTSR CU2 or 2212 CR</br>Citrix Workspace app: 2203 LTSR (any CU), 2402 LTSR, or 2302 CR          |
+|Citrix                            |VDA: 2203 LTSR CU3 or 2305 CR</br>Citrix Workspace app: 2203 LTSR (any CU), 2402 LTSR, or 2302 CR          |
 |Endpoint                          |Windows 10 1809 (SlimCore minimum requirement)</br>GPOs must not block MSIX installations (see [Step 3: SlimCore MSIX staging and registration on the endpoint](#step-3-slimcore-msix-staging-and-registration-on-the-endpoint))</br>Minimum CPU: Intel Celeron (or equivalent) @ 1.10 GHz, 4 Cores, Minimum RAM: 4 GB |
 
 ## Optimizing with new VDI solution for Teams
