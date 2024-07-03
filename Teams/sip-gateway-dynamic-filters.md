@@ -119,23 +119,23 @@ To add or deactivate custom security attributes definitions, you must have:
 
 **Using MS Graph module:**
 
-Run the following cmdlets:
+1. Run the following cmdlets:
 
-```powershell
-## SIP Gateway API:
-Get-MgServicePrincipal -Filter "AppId eq '0ab9de21-b802-4d77-b279-1ad41ca233b4'"
-New-MgServicePrincipal -AppId "0ab9de21-b802-4d77-b279-1ad41ca233b4"
-```
+   ```powershell
+   ## SIP Gateway API:
+   Get-MgServicePrincipal -Filter "AppId eq '0ab9de21-b802-4d77-b279-1ad41ca233b4'"
+   New-MgServicePrincipal -AppId "0ab9de21-b802-4d77-b279-1ad41ca233b4"
+   ```
 
-```powershell
-## SIP Gateway UserApp:
-Get-MgServicePrincipal -Filter "AppId eq '582b2e88-6cca-4418-83d2-2451801e1d26'"
-New-MgServicePrincipal -AppId "582b2e88-6cca-4418-83d2-2451801e1d26"
-```
+   ```powershell
+   ## SIP Gateway UserApp:
+   Get-MgServicePrincipal -Filter "AppId eq '582b2e88-6cca-4418-83d2-2451801e1d26'"
+   New-MgServicePrincipal -AppId "582b2e88-6cca-4418-83d2-2451801e1d26"
+   ```
 
-After running these cmdlets, you should get the following output to proceed:
+2. After running these cmdlets, you should get the following output to proceed:
 
-:::image type="content" source="media/Powershell-output-expected.png" alt-text="Screenshot of the output that is expected after running cmdlets.":::
+   :::image type="content" source="media/Powershell-output-expected.png" alt-text="Screenshot of the output that is expected after running cmdlets.":::
 
 ## Step 4: Assign custom security attribute to SIP Gateway
 
