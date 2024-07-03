@@ -157,10 +157,10 @@ After running these cmdlets, you should get the following output to proceed:
 1. Sign in to the [Microsoft Entra admin center](https://entra.microsoft.com/) as at least a [Conditional Access Administrator](/entra/identity/role-based-access-control/permissions-reference).
 2. Browse to **Protection** > **Conditional Access**.
 3. Select the policy you want to change.
-4. Under Target resources, select the following options:
+4. Under **Target resources**, select one from the following options:
    - Select what this policy applies to Cloud apps.
-   - Include All apps.
-   - Change tab to Exclude.
+   - Include all apps.
+   - Change tab to exclude.
    - Select excluded cloud apps – search for **Microsoft Teams Services**.
   :::image type="content" source="media/exclude-cloud-apps.png" alt-text="Screenshot displaying the search and selection of Microsoft Teams Service.":::
 5. Click on **Select**.
