@@ -1,5 +1,5 @@
 ---
-ms.date: 03/14/2018
+ms.date: 06/28/2024
 title: "End of life program for the integration of Skype for Business with third-party audio conferencing providers "
 ms.author: serdars
 author: tonysmit
@@ -14,7 +14,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-ms.localizationpriority: null
+ms.localizationpriority: Low
 f1.keywords:
 - NOCSH
 ms.custom:
