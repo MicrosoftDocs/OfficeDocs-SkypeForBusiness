@@ -105,9 +105,9 @@ Shift-based tags let your users reach people who are on-shift in real time. Noti
 
 You can turn the feature on or off in the Microsoft Teams admin center. To learn more, see [Manage tags in Teams](../../manage-tags.md).
 
-### Shifts for Microsoft Teams plugin for Copilot
+### Deploy the Shifts for Microsoft Teams plugin for Copilot
 
-With the Shifts for Microsoft Teams plugin for Copilot for Microsoft 365, your frontline workforce can use Copilot for Microsoft 365 within Teams to help manage their schedules. For example, frontline managers can get information about their team’s shifts, open shifts, and scheduled time off, based on schedule data in Shifts. To learn more about the user experience, see [Get insights into your Shifts schedule with Copilot for Microsoft 365]().
+With the Shifts for Microsoft Teams plugin for Copilot for Microsoft 365, your frontline workforce can use Copilot for Microsoft 365 within Teams to help manage their schedules. For example, frontline managers can get information about their team’s shifts, open shifts, and scheduled time off, based on schedule data in Shifts. To learn more about the user experience, see [Get insights into your Shifts schedule with Copilot for Microsoft 365](https://prod.support.services.microsoft.com/topic/30ffaf42-2aa8-4ce0-aee1-b49cbdb6ed08?preview=true).
 
 You deploy the Shifts plug-in for your users in the Microsoft 365 admin center. Users must be assigned a Copilot for Microsoft 365 license to use the plug-in.  
 
