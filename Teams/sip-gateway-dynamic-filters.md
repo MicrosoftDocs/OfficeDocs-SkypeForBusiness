@@ -149,7 +149,7 @@ To add or deactivate custom security attributes definitions, you must have:
 5. Under **Manage** > **Custom security attributes**, select **Add assignment**.
 6. Under **Attribute set**, select the attribute set you created in [step 1](#step-1-add-an-attribute-set).
 7. Under **Attribute name**, select the attribute name you created in [step 2](#step-2-add-a-custom-security-attribute-definition).
-  :::image type="content" source="media/select-attribute-set.png" alt-text="Screenshot displaying the available attributes and selection of the attribute created in earlier steps.":::
+   :::image type="content" source="media/select-attribute-set.png" alt-text="Screenshot displaying the available attributes and selection of the attribute created in earlier steps.":::
 8. Under **Assigned values**, select **Add values**, select the value from the list (requireMFA in this example), then select **Done**.
 
    :::image type="content" source="media/require-mfa-selection.png" alt-text="Screenshot displaying to select requireMFA.":::
@@ -166,17 +166,16 @@ To add or deactivate custom security attributes definitions, you must have:
    - For **Select what this policy applies to**, choose **Cloud apps** from the list.
    - On the **Include** tab, select **All** apps option.
    - Change tab to **Exclude** and under **Select excluded cloud apps**, search for **Microsoft Teams Services** and click on **Select**.
-
-  :::image type="content" source="media/exclude-cloud-apps.png" alt-text="Screenshot displaying the search and selection of Microsoft Teams Service.":::
+   :::image type="content" source="media/exclude-cloud-apps.png" alt-text="Screenshot displaying the search and selection of Microsoft Teams Service.":::
 5. Then, select **Edit filter**.
 6. On the **Edit filter** page, set **Configure** to **Yes**.
 7. Select the attribute you created earlier (in this case 'exclAttrAllowMultiple').
 8. Set **Operator** to **Contains**.
 9. Set **Value** to the one assigned to SIP Gateway apps in [step 4](#step-4-assign-custom-security-attribute-to-sip-gateway) (in this case requireMFA).
-  :::image type="content" source="media/edit-filter.png" alt-text="Screenshot displaying the edit filter pane." lightbox="media/edit-filter.png":::
+   :::image type="content" source="media/edit-filter.png" alt-text="Screenshot displaying the edit filter pane." lightbox="media/edit-filter.png":::
 10. Select **Done**.
 11. Review and confirm your settings.
-  :::image type="content" source="media/include-all-apps-settings.png" alt-text="Screenshot displaying the settings that need confirmation.":::
+   :::image type="content" source="media/include-all-apps-settings.png" alt-text="Screenshot displaying the settings that need confirmation.":::
 12. Select **Save** to enable your policy.
 
 ## Related articles
