@@ -95,9 +95,9 @@ To add or deactivate custom security attributes definitions, you must have:
 5. Sign in with the admin account.
 6. Run the following cmdlet:
 
-```powershell
-Get-AzureADServicePrincipal -Filter "AppId eq '582b2e88-6cca-4418-83d2-2451801e1d26'"`
-```
+   ```powershell
+   Get-AzureADServicePrincipal -Filter "AppId eq '582b2e88-6cca-4418-83d2-2451801e1d26'"`
+   ```
 
    If you get no output, then run:
 
@@ -107,9 +107,9 @@ Get-AzureADServicePrincipal -Filter "AppId eq '582b2e88-6cca-4418-83d2-2451801e1
 
 7. Run the following cmdlet:
 
-```powershell
-Get-AzureADServicePrincipal -Filter "AppId eq '0ab9de21-b802-4d77-b279-1ad41ca233b4'"`
-```
+   ```powershell
+   Get-AzureADServicePrincipal -Filter "AppId eq '0ab9de21-b802-4d77-b279-1ad41ca233b4'"`
+   ```
 
    If you get no output, then run:
 
