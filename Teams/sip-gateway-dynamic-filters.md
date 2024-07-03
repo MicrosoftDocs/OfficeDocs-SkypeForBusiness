@@ -83,7 +83,7 @@ To add or deactivate custom security attributes definitions, you must have:
 10. For **Only allow predefined values to be assigned**, select **Yes** or **No**.
     - Select **Yes**, if custom security attribute can be assigned values from a predefined values list.
     - Select **No** to allow this custom security attribute to be assigned user-defined values or potentially predefined values.
-11. If only allow predefined values to be assigned is Yes, select **Add value** to add predefined values. An active value is available for assignment of objects. A value that isn't active is defined, but not yet available for assignment.
+11. If **Only allow predefined values to be assigned** is selected Yes, then select **Add value** to add predefined values. An active value is available for assignment of objects. A value that isn't active is defined, but not yet available for assignment.
 12. When finished, select **Save**.
 13. The new custom security attribute appears in the list of custom security attributes.
 
