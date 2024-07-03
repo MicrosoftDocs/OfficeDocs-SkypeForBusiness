@@ -109,7 +109,7 @@ You can turn the feature on or off in the Microsoft Teams admin center. To learn
 
 With the Shifts for Microsoft Teams plugin for Copilot for Microsoft 365, your frontline workforce can use Copilot for Microsoft 365 within Teams to help manage their schedules. For example, frontline managers can get information about their team’s shifts, open shifts, and scheduled time off, based on schedule data in Shifts. To learn more about the user experience, see [Get insights into your Shifts schedule with Copilot for Microsoft 365](https://prod.support.services.microsoft.com/topic/30ffaf42-2aa8-4ce0-aee1-b49cbdb6ed08?preview=true).
 
-You deploy the Shifts plug-in for your users in the Microsoft 365 admin center. Users must be assigned a Copilot for Microsoft 365 license to use the plug-in.  
+You deploy the Shifts plugin for your users in the Microsoft 365 admin center. Users must be assigned a Copilot for Microsoft 365 license to use the plugin.  
 
 1. In the Microsoft 365 admin center, go to **Settings** > **Integrated apps**.
 2. Go to the **Available apps** tab, and then select **Shifts for Teams**.
