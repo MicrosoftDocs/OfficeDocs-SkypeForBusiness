@@ -141,7 +141,7 @@ After running these cmdlets, you should get the following output to proceed:
 2. Browse to **Identity** > **Applications** > **Enterprise applications**.
 3. Clear all filters.
 4. Search for SIP Gateway API (0ab9de21-b802-4d77-b279-1ad41ca233b4) and select it.
-5. Under **Manage > Custom security attributes**, select **Add assignment**.
+5. Under **Manage** > **Custom security attributes**, select **Add assignment**.
 6. Under **Attribute set**, select the attribute set you created in [step 1](#step-1-add-an-attribute-set).
 7. Under **Attribute name**, select the attribute name you created in [step 2](#step-2-add-a-custom-security-attribute-definition).
     :::image type="content" source="media/select-attribute-set.png" alt-text="Screenshot displaying the available attributes and selection of the attribute created in earlier steps.":::
@@ -163,9 +163,9 @@ After running these cmdlets, you should get the following output to proceed:
      :::image type="content" source="media/exclude-cloud-apps.png" alt-text="Screenshot displaying the search and selection of Microsoft Teams Service.":::
 5. Click on **Select**.
 6. Select **Edit filter**.
-7. Set Configure to **Yes**.
-8. Select the Attribute you created earlier (in this case 'exclAttrAllowMultiple').
-9. Set Operator to **Contains**.
+7. Set **Configure** to **Yes**.
+8. Select the attribute you created earlier (in this case 'exclAttrAllowMultiple').
+9. Set **Operator** to **Contains**.
 10. Set **Value** to the one assigned to SIP Gateway apps in [step 4](#step-4-assign-custom-security-attribute-to-sip-gateway) (in this case requireMFA).
      :::image type="content" source="media/edit-filter.png" alt-text="Screenshot displaying the edit filter pane." lightbox="media/edit-filter.png":::
 11. Select **Done**.
