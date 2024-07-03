@@ -543,9 +543,6 @@ Learn more: [Manage accounts and organizations in Microsoft Teams](https://suppo
 
 ## Features currently not available and known issues in VDI with the new Teams
 
-> [!NOTE]
-> Application sharing for Azure Virtual Desktops and Windows 365 is currently not supported.
-
 - Customers installing new Teams on a golden image which later undergoes a sysprep to generalize it are failing to launch the app. This includes templates from Azure Image Gallery.
   - Users logging in to the provisioned virtual machines see the Teams icon greyed out in the start menu and clicking on it has no effect.
   - The AppX log in the Event Viewer has the error 0x80073CF1.
