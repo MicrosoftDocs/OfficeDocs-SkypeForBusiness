@@ -24,7 +24,7 @@ This article walks through deployment for Skype Connectivity.
   
 ## Skype Connectivity Overview for IT Professionals
 
-Skype Connectivity provides Skype for Business users with the ability to search for and add Skype users. Skype Connectivity is a feature of Skype for Business that lets you enable federation and directory search with Skype users. After you enable Skype Connectivity your Skype for Business users will be able to search for and add Skype users.
+Skype Connectivity provides Skype for Business users with the ability to search for and add Skype users. Skype Connectivity is a feature of Skype for Business that lets you enable federation and directory search with Skype users. After you enable Skype Connectivity your Skype for Business users are able to search for and add Skype users.
   
 ## Skype Directory Search
 
@@ -32,13 +32,13 @@ Skype Directory Search functionality provides Skype for Business users with the 
   
 - **Search by display name, example "John Doe"** - This could return many results, so you might not find what you are looking for.
     
-- **Search by display name plus location, example "John Doe in Barcelona"** - This will narrow the results of the search down considerably.
+- **Search by display name plus location, example "John Doe in Barcelona"** - This narrows the results of the search down considerably.
     
-- **Search by email, example "johndoe@outlook.com"** - This should return one result in most cases; the one that matches the specified email exactly. But if the same email is associated with more than one account, multiple results may be returned.
+- **Search by email, example "johndoe@outlook.com"** - This should return one result in most cases; the one that matches the specified email exactly. But if the same email is associated with more than one account, multiple results are returned.
     
-- **Search by phone number, example "123-123-1234"** - This should return one result in most cases; the one that matches the specified phone exactly. Phone number must include the country code (i.e. 1-xxx-yyy-zzzz). If the same phone number is associated with more than one account, multiple results may be returned.
+- **Search by phone number, example "123-123-1234"** - This should return one result in most cases; the one that matches the specified phone exactly. Phone number must include the country code (that is 1-xxx-yyy-zzzz). If the same phone number is associated with more than one account, multiple results may be returned.
     
-- **Search by Skype Name, example "JohnDoe1456"** - If exact match is found, it will be returned as the first result. Other possible "name" matches may be returned.
+- **Search by Skype Name, example "JohnDoe1456"** - If exact match is found, it is returned as the first result. Other possible "name" matches might be returned.
     
     > [!NOTE]
     > Skype Directory Search must be able to communicate with the following IP addresses on port 443: 104.40.75.246, 23.101.135.34, and 40.113.86.19. 
@@ -50,8 +50,8 @@ The following table outlines support for Skype Directory Search.
 
 |&nbsp;|Skype for Business Server Front End|Lync Server 2013 (or older) Front End|Comments|
 |:-----|:-----|:-----|:-----|
-|Skype for Business Server Edge   |Supported   |Not Supported   |Skype for Business Server and Edge are prerequisites for Skype Directory Search   |
-|Skype for Business Server Edge + Lync Server 2013 Edge deployed side-by-side   |Supported   |Not Supported   |Skype Directory Search traffic flows through Skype for Business Server Edge servers. Federation traffic goes through edge configured by the administrator. For example, the administrator could choose to continue to send federation traffic through Lync Server 2013 Edge servers which would not support Skype Directory Search.   |
+|Skype for Business Server Edge   |Supported   |Not Supported   |Skype for Business Server and Microsoft Edge are prerequisites for Skype Directory Search   |
+|Skype for Business Server Edge + Lync Server 2013 Edge deployed side-by-side   |Supported   |Not Supported   |Skype Directory Search traffic flows through Skype for Business Server Edge servers. Federation traffic goes through edge configured by the administrator. For example, the administrator could choose to continue to send federation traffic through Lync Server 2013 Edge servers, which wouldn't support Skype Directory Search.   |
 |Lync Server 2013 (or older) Edge   |Not Supported   |Not Supported   ||
    
 > [!NOTE]
@@ -73,9 +73,9 @@ The following table outlines support for Skype Directory Search.
 
 Skype Connectivity is also a feature of Skype for Business Online, which is part of Microsoft 365 and Office 365. You can enable the Skype Connectivity feature from the Skype for Business Administration Center within the Microsoft 365 admin center.
   
-For Microsoft 365 Midsize Business, Office 365 Enterprise, Microsoft 365 Education, and Office 365 for Government: Sign in to the Microsoft 365 admin center and navigate to the Skype for Business Administration Center. Go to External Communications. Under Public IM Service Providers, click Enable. If you want to control individual user access to Skype Connectivity, you can do so by editing individual users' External Communications settings.
+For Microsoft 365 Midsize Business, Office 365 Enterprise, Microsoft 365 Education, and Office 365 for Government: Sign in to the Microsoft 365 admin center and navigate to the Skype for Business Administration Center. Go to External Communications. Under Public IM Service Providers, select Enable. If you want to control individual user access to Skype Connectivity, you can do so by editing individual users' External Communications settings.
   
-For Office 365 Small Business Premium: Sign in to Office 365, and go to Admin \> Service Settings \> Instant messaging, meetings and conferencing. Turn on External communications. The External communications switch turns on both Skype Connectivity and communications with other organizations that use Skype for Business.
+For Office 365 Small Business Premium: Sign in to Office 365, and go to Admin \> Service Settings \> Instant messaging, meetings, and conferencing. Turn on External communications. The External communications switch turns on both Skype Connectivity and communications with other organizations that use Skype for Business.
   
 For more information about Skype for Business Online administration, see:
   
@@ -89,16 +89,16 @@ For more information about Skype for Business Online administration, see:
     
 ## Deploying Skype Connectivity for Skype for Business Server
 
-Skype for Business Server uses the federation access architecture to support connectivity with Skype. This connectivity enables your Skype for Business Server users to add Skype. Skype clients can also add Skype for Business users to their contact list. Based on policies administratively set in Skype for Business Server users will be able to communicate using instant messaging, see each other's presence, and initiate audio and video calls. Skype connectivity is also a feature of Skype for Business Online, and can be enabled for Skype for Business Online customers from the Skype for Business Administration Center within the Microsoft 365 admin center.
+Skype for Business Server uses the federation access architecture to support connectivity with Skype. This connectivity enables your Skype for Business Server users to add Skype. Skype clients can also add Skype for Business users to their contact list. Based on policies administratively set in Skype for Business Server users are able to communicate using instant messaging, see each other's presence, and initiate audio and video calls. Skype connectivity is also a feature of Skype for Business Online, and can be enabled for Skype for Business Online customers from the Skype for Business Administration Center within the Microsoft 365 admin center.
   
 > [!NOTE]
 > If Skype for Business Server is already configured to connect with Windows Messenger by using Public Instant Messaging Connectivity (PIC), your deployment is already configured for Skype connectivity. The only change you may want to consider is to rename your existing Messenger PIC entry as Skype. 
   
 ### The Skype for Business Server public IM connectivity provisioning site is no longer available
 
-The site that was formerly used to manually provision federation between Skype for Business on-premises deployments and Skype is no longer necessary and will be shut down on 8/15/2019. Federation with Skype now utilizes federated partner discovery, which is the same mechanism required for federation with Skype for Business Online.
+The site that was formerly used to manually provision federation between Skype for Business on-premises deployments and Skype is no longer necessary and is shut down on August 15, 2019. Federation with Skype now utilizes federated partner discovery, which is the same mechanism required for federation with Skype for Business Online.
 
-Communication between any on-premises Skype for Business deployment and Skype users via the existing Public IM infrastructure now requires the on-premises Edge Server configuration to be compatible with Skype for Business Online.
+Communication between any on-premises Skype for Business deployment and Skype users via the existing Public IM infrastructure now requires the on-premises Microsoft Edge Server configuration to be compatible with Skype for Business Online.
 
 > [!NOTE]
 > No action is needed by most customers, including all deployments that federate with Skype for Business Online.
@@ -119,23 +119,23 @@ Further guidance regarding External Certificates can be found in [Certificate pl
 #### FAQs
 
 **Why is the provisioning website being shut down?**
-The public IM (PIC) provisioning mechanism (pic.lync.com) that was deployed in 2006 is no longer serviceable and will be shut down on 8/15/2019. Instead, public IM federation will assume the same federation model used by Skype for Business Online, known as "partner discovery", whereby an on-premises deployment is publicly discoverable by its federation DNS SRV record(s).
+The public IM (PIC) provisioning mechanism (pic.lync.com) that was deployed in 2006 is no longer serviceable and is shut down on August 15, 2019. Instead, public IM federation assumes the same federation model used by Skype for Business Online, known as "partner discovery", whereby an on-premises deployment is publicly discoverable by its federation DNS SRV record(s).
 
 **Does this change mean that Public IM federation is being deprecated?**
-No. Public IM federation will continue to be supported for many years, probably until the Skype for Business on-premises product reaches end-of-life.
+No. Public IM federation continues to be supported for many years, probably until the Skype for Business on-premises product reaches end-of-life.
 
 **Our company has a hybrid relationship (shared address space) with Skype for Business Online, are we affected?**
-No, since you are already federating with Skype for Business Online, this change will not affect you.
+No, since you're already federating with Skype for Business Online, this change dosen't affect you.
  
 **Does this change mean that our company has to enable federation with Skype for Business Online?**
-No. If your edge server proxy settings do not enable federation with the Skype for Business Online hosting provider (sipfed.online.lync.com) then this change will not affect that. However, the same DNS and certificate requirements that apply to federating with Skype for Business Online now also apply to federating with Skype users.
+No. If your edge server proxy settings don't enable federation with the Skype for Business Online hosting provider (sipfed.online.lync.com) then this change won't affect that. However, the same DNS and certificate requirements that apply to federating with Skype for Business Online now also apply to federating with Skype users.
  
 **Our company is large and cannot change its edge configuration due to regulatory/compliance/etc reasons ... what can we do?**
-Any on-premises organization that cannot change its edge server configuration as specified should reach out to product support at the earliest opportunity.
+Any on-premises organization that can't change its edge server configuration as specified should reach out to product support at the earliest opportunity.
 
 ### Enabling Federation and Public IM Connectivity (PIC)
 
-Now focus on the Skype for Business Server environment and administrative tasks required to configure Skype Connectivity. In this section, we assume that the administrator has deployed Skype for Business Server and configured external access, also known as Edge servers. 
+Now focus on the Skype for Business Server environment and administrative tasks required to configure Skype Connectivity. In this section, we assume that the administrator deployes Skype for Business Server and configured external access, also known as Edge servers. 
   
 There are three primary steps required to enable federation and PIC. These are:
   
@@ -159,7 +159,7 @@ Federation is required to enable Skype users to communicate with Skype for Busin
 > [!NOTE]
 > EnableSkypeIdRouting and EnableSkypeDirectorySearch attributes need to be set to true in the public provider settings (see later instructions) for Search to work. 
   
-This completes the administrative tasks that must be performed on the server. You are now set up for Skype Connectivity.
+This completes the administrative tasks that must be performed on the server. You're now set up for Skype Connectivity.
   
 #### 2. Configure at least one policy to support federated user access
 
@@ -167,7 +167,7 @@ Using the Skype for Business Server Control Panel, an administrator must configu
   
 #### 3. Configure the Skype PIC provider setting
 
-Using the Skype for Business Server Management Shell, an administrator must configure the Skype for Business client policy to display Skype as an additional PIC provider. 
+Using the Skype for Business Server Management Shell, an administrator must configure the Skype for Business client policy to display Skype as an extra PIC provider. 
   
 > [!NOTE]
 > Users of the Public Instant Messaging Connectivity (PIC) service providers can't participate in IM or conferences in your organization until you also configure at least one policy (step 2, earlier in this procedure) to support public IM connectivity. 

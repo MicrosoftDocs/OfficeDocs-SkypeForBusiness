@@ -4,9 +4,9 @@ author: lana-chin
 ms.author: v-chinlana
 manager: jtremper
 audience: admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: microsoft-365-frontline
-ms.reviewer: prastogi
+ms.reviewer: prkoduku
 ms.date: 10/13/2023
 f1.keywords:
 - NOCSH
@@ -26,7 +26,10 @@ appliesto:
 
 The Walkie Talkie usage and performance report in the Microsoft Teams admin center gives you an overview of [Walkie Talkie](../walkie-talkie.md) activity in your organization. The report provides information such as the number of push-to-talk (PTT) transmissions made and received, channel activity, transmission duration, and device and participant details.
 
-Use this report to gain insight into Walkie Talkie usage trends and performance in your organization. To access the report, you must be a Global admin, Teams admin, Global reader, or Report reader.
+Use this report to gain insight into Walkie Talkie usage trends and performance in your organization. To access the report, you must be a Teams admin, Global reader, Report reader, or Global admin.
+
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use a less-privileged role.
 
 ## Download and view the report
 
@@ -37,7 +40,7 @@ Use this report to gain insight into Walkie Talkie usage trends and performance 
 
 ## Interpret the report
 
-The report gives you a breakdown of each transmission made during the date range that you selected. Here's the information that's included in the report.
+The report gives you a breakdown of each transmission made during the date range that you selected. Here's the information included in the report.
 
 |Column name |Description |
 |---------|---------|
@@ -54,7 +57,7 @@ The report gives you a breakdown of each transmission made during the date range
 |NotifiedParticipants|The participants to which a push notification is sent when a transmission starts. In scenarios where the connection between the device and service is lost, a notification is sent to the device to re-establish the connection as soon as possible because a transmission is coming.|
 |AudioDurationMilliseconds|Duration of the transmission in milliseconds.|
 |ConnectionId|ID of each connection to a Walkie Talkie channel that's established by the device.|
-|TransmissionStartTime |Date and time when the first audio packet is received by the service.
+|TransmissionStartTime |Date and time when the first audio packet is received by the service.|
 |TransmissionEndTime|Date and time when the last audio packet is received by the service.|
 |ParticipantList|A semi-colon delimited list of IDs of the devices connected to the channel at the time the transmission is sent.|
 |CallTimedOut|Whether the transmission exceeded the duration limit. This is a Boolean value.|
@@ -66,5 +69,5 @@ The report gives you a breakdown of each transmission made during the date range
 
 ## Related articles
 
-- [Walkie Talkie app in Teams](../walkie-talkie.md)
+- [Manage the Walkie Talkie app in Teams](../walkie-talkie.md)
 - [Get started with Walkie Talkie](https://support.microsoft.com/office/get-started-with-teams-walkie-talkie-25bdc3d5-bbb2-41b7-89bf-650fae0c8e0c)

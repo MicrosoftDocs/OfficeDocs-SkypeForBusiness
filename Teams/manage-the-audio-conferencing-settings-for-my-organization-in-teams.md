@@ -1,7 +1,7 @@
 ---
 title: Manage Audio Conferencing settings
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jenz
+author: jenzamora
 manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 02/21/2024
@@ -9,6 +9,7 @@ ms.topic: article
 ms.assetid: bc9bd328-c5b2-44e5-af15-e02bf00e1c81
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 search.appverid: MET150
 ms.collection: 
   - M365-voice
@@ -117,13 +118,15 @@ Refer to [Set the phone numbers included on invites in Microsoft Teams](set-the-
 
 3. In the **Bridge settings** pane, enable or disable **Meeting entry and exit notifications**.
 
-    This setting is enabled by default. If you disable this option, users who already joined the meeting by default aren't notified when someone enters or leaves the meeting.
+   This setting is enabled by default. If you disable this option, users who already joined the meeting by default aren't notified when someone enters or leaves the meeting.
 
 4. Under **Entry/exit announcement type**, choose either **Tones** or **Names or phone numbers**.
 
-    If you choose **Names or phone numbers**, you can also choose to enable or disable **Ask callers to record their name before joining the meeting**.
-    > [!NOTE]
-    > By default, external participants can't see the phone numbers of dialed-in participants. If you want to maintain the privacy of these phone numbers, select **Tones** for **Entry/exit announcement type** (this prevents the numbers from being read out by Teams).
+   If you choose **Names or phone numbers**, you can also choose to enable or disable **Ask callers to record their name before joining the meeting**.
+
+   > [!NOTE]
+   > By default, external participants can't see the phone numbers of dialed-in participants. If you want to maintain the privacy of these phone numbers, select **Tones** for **Entry/exit announcement type** (this prevents the numbers from being read out by Teams).
+
 5. Select **Save**.
 
 See [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md).
@@ -136,7 +139,7 @@ See [Change the settings for an Audio Conferencing bridge](change-the-settings-f
 
 3. In the **Bridge settings** pane, enter the number of digits you want for the PIN in the **PIN length** list, and then select **Save**.
 
-    The PIN must be between 4 and 12 digits. The default is 5.
+   The PIN must be between 4 and 12 digits. The default is 5.
 
 See [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md).
 
@@ -150,9 +153,9 @@ See [Change the settings for an Audio Conferencing bridge](change-the-settings-f
 
 4. Select **Save**.
 
-    You can also send email to the user with the audio conferencing settings, by going to the user's audio conferencing properties and clicking **Send conference info in email**.
+   You can also send email to the user with the audio conferencing settings, by going to the user's audio conferencing properties and clicking **Send conference info in email**.
 
-    If you do this, an email is sent that only includes the conference phone number, but the PIN isn't included.
+   If you do this, an email is sent that only includes the conference phone number, but the PIN isn't included.
 
 See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
 
@@ -188,22 +191,24 @@ You can set a user's audio conferencing toll and toll-free number in PowerShell.
 
 1. Connect to the Microsoft Teams service.
 
-```powershell
-PS C:\> Connect-MicrosoftTeams
-```
+   ```powershell
+   PS C:\> Connect-MicrosoftTeams
+   ```
+
 2. Assign a toll number to a user (for example, assign the toll number +612 800 0000 to sarah@contoso.com).
 
-```powershell
-PS C:\> Set-CsOnlineDialInConferencingUser sarah@contoso.com -ServiceNumber 6128000000
-```
+   ```powershell
+   PS C:\> Set-CsOnlineDialInConferencingUser sarah@contoso.com -ServiceNumber 6128000000
+   ```
 
 3. Optional: assign a toll-free number to a user (for example, assign the toll-free number +61 1800 000 000 to sarah@contoso.com).
 
-```powershell
-PS C:\> Set-CsOnlineDialInConferencingUser sarah@contoso.com -ServiceNumber 61280001234
-```
-> [!NOTE]
-> You can only assign toll or toll-free numbers that are registered within your tenant. 
+   ```powershell
+   PS C:\> Set-CsOnlineDialInConferencingUser sarah@contoso.com -ServiceNumber 61280001234
+   ```
+
+   > [!NOTE]
+   > You can only assign toll or toll-free numbers that are registered within your tenant. 
 
 ## Want to know more about Windows PowerShell?
 

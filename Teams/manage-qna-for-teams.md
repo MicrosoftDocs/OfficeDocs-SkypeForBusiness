@@ -3,7 +3,7 @@ title: Manage Q&A in Teams meetings and events
 author: wlibebe
 ms.author: wlibebe
 ms.reviewer: sameer.sitaram
-ms.date: 2/9/2024
+ms.date: 4/18/2024
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
@@ -28,11 +28,11 @@ Your organization might have requirements to limit which organizers can use Q&A.
 To learn more about Q&A for your users, see [Q&A in Microsoft Teams meetings](https://support.microsoft.com/office/q-a-in-microsoft-teams-meetings-f3c84c72-57c3-4b6d-aea5-67b11face787).
 
 > [!NOTE]
-> Q&A isn't available for GCC.
+> Q&A isn't available for GCC and GCCH.
 
 ## Prerequisites
 
-- Verify that you haven’t blocked access to [Viva Engage’s IPs and URLs.](/microsoft-365/enterprise/urls-and-ip-address-ranges)
+- Verify that access to [Viva Engage’s IPs and URLs](/microsoft-365/enterprise/urls-and-ip-address-ranges) isn't blocked.
 - To allow users in your organization to add Q&A to Teams meetings and events, you must confirm that sign-ins for the Office 365 Viva Engage service are enabled in Microsoft Entra ID.
 Follow these steps to confirm that sign-ins are enabled:
   - Go to the **Microsoft Entra admin center** > **All services** > **Enterprise Applications** > **Office 365 Viva Engage** > **Properties**.
@@ -106,6 +106,7 @@ eDiscovery for Q&A works the same as eDiscovery for any other Viva Engage conten
 - When you perform eDiscovery, you can determine whether messages were generated in Viva Engage or through Q&A in Teams. In the File Metadata section, you can find that information in the Item Class field.
 - If your organization uses the Q&A, powered by Viva Engage, the content Q&A generates is considered Viva Engage content and is discoverable. For more information about eDiscovery in Microsoft 365 apps, see [eDiscovery solutions in Microsoft 365.](/microsoft-365/compliance/ediscovery)
 - If the meeting organizer enables anonymous posting, the questions attendees post are ingested into the organizer’s mailbox for eDiscovery.
+- When external participants (users from an external organization using external access) from a different Microsoft 365 tenant, or guests join a Teams meeting that is hosted in your Microsoft 365 tenant, any questions they post into Q&A are ingested within your Microsoft 365 tenant.
 
 ## Data Storage
 
@@ -115,13 +116,21 @@ Files are always stored in SharePoint, which handles all the data rest policies 
 The following guidance explains how messaging data is stored:
 
 - Q&A content is searchable via eDiscovery at the user level.
-- Message data (which includes message content) is stored in North America or EU by default (depending on your Viva Engage network location).
-- For orgs that don’t have an existing Viva Engage network, the Q&A Viva Engage network is created in the United States Viva Engage region. Your organization's messages for Q&A are always stored in the US.
-- Similar to OneNote tabs, removing the Q&A from a meeting doesn't delete the meeting data. Removing Q&A from the meeting only removes access to the data from the meeting. If you add the Q&A tab back, you can see the meeting conversations again.
+- Depending on your Viva Engage network location, if you don't have the Advanced Data Residency (ADR) add-on license, your message data is stored in North America or EU by default.
+- If you have the ADR add-on license, or Go-Locals, your message content is stored in the same region as their Teams Go-Local content.
+- Depending on your Viva Engage network location, message data, including message content is stored in North America or EU by default.
+- For orgs without an existing Viva Engage network, the Q&A Viva Engage network is created in the United States Viva Engage region. Your org's messages for Q&A are always stored in the US, unless they have the ADR add-on license.
+- Similar to OneNote tabs, removing the Q&A from a meeting doesn't delete the meeting data. Removing Q&A from the meeting only removes access to the data from the meeting. If your users add the Q&A tab back, they can see the meeting conversations again.
 
-## GDPR for Q&A in Teams
+For details on the Advanced Data Residency (ADR) add-on license, see [Advanced Data Residency in Microsoft 365](/microsoft-365/enterprise/advanced-data-residency).
 
-When you complete a Data Subject Request through the Microsoft 365 Admin Center, it automatically removes users’ contact information from all their content in the Q&A.
+## Data subject requests and Q&A
+
+When you complete a data subject request through the Microsoft 365 Admin Center, it automatically removes users’ contact information from all their content in the Q&A.
+
+For more information on data subject requests, see [Azure Data Subject Requests for the GDPR and CCPA](/compliance/regulatory/gdpr-dsr-Azure).
+
+For more information about GDPR, see the [GDPR section of the Microsoft Trust Center](https://www.microsoft.com/trust-center/privacy/gdpr-overview) and the [GDPR section of the Service Trust portal](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted).
 
 ## Data lifecycle for Q&A in Teams
 

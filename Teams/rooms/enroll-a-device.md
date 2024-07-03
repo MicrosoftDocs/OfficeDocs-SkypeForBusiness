@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: kimmatlock
-ms.date: 09/28/2022
+ms.date: 03/26/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -23,17 +23,17 @@ f1keywords:
 
 # Enrolling a device into Pro Management
 
-**With the upcoming Teams Rooms on Windows app update (version 4.17), which is scheduled for release by the end of June 2023, we have streamlined the enrollment process for Windows-based Teams Rooms devices. With version 4.17, IT admins will no longer need to manually download and install the Pro management admin agent on each device.**
+**With Teams Rooms on Windows app update (version 4.17 and higher), we have streamlined the enrollment process for Windows-based Teams Rooms devices. With version 4.17+, IT admins will no longer need to manually download and install the Teams Rooms Pro management admin agent on each device.**
 
-Instead of performing the steps in this article, the Pro Management agent will be automatically downloaded and installed onto the Windows-based Teams Rooms devices as part of the Teams Rooms app update. This improvement simplifies the agent deployment and device enrollment tasks for IT admins, reducing their workload.
+Instead of performing the steps in this article, the Teams Rooms Pro Management agent will be automatically downloaded and installed onto the Windows-based Teams Rooms devices as part of the Teams Rooms app update. This improvement simplifies the agent deployment and device enrollment tasks for IT admins, reducing their workload.
 
-Once the Pro Management agent is successfully installed and connected, devices with the Teams Rooms Pro license will be automatically enrolled and visible on the Pro Management portal. This eliminates the need for any additional user action, making the process more efficient.
+Once the Teams Rooms Pro Management agent is successfully installed and connected, devices with the Teams Rooms Pro license will be automatically enrolled and visible in the Teams Rooms Pro Management portal. There may be additional user actions depending on your use of proxies or other network restrictions.
 
 > [!IMPORTANT]
 >
 > If your Windows-based Teams Rooms devices are running version 4.16 or earlier, you must still follow the steps below to enroll those devices.
 
-Both automatic and manual deployment requires onboarding Microsoft Teams Rooms devices to the Microsoft Teams Rooms Pro Management portal. The monitoring service agent is for use with certified Microsoft Teams Rooms (MTR) systems and peripherals.
+Both automatic and manual deployment require onboarding Microsoft Teams Rooms devices to the Microsoft Teams Rooms Pro Management portal. The monitoring service agent is for use with certified Microsoft Teams Rooms (MTR) systems and peripherals.
 
 ## Prerequisites
 
@@ -41,7 +41,7 @@ Follow these procedures to set up your hardware before attempting the enrollment
 
 ### Adding proxy settings (optional)
 
-1. Log in as administrator by following [Performing operations as the Admin user of the MTR device](#performing-operations-as-the-admin-user-of-the-mtr-device).
+1. Log in as administrator by following [Performing operations as the Admin user of the MTR device](#performing-operations-as-the-admin-user-of-the-teams-rooms-device).
 1. In the Windows ***Search*** field (bottom-left section of the screen), enter **cmd** (either long press the screen or right select, and choose ***Run as administrator***).
 1. Run the following command (double quotes at end of command are important):
 
@@ -61,23 +61,9 @@ Follow these procedures to set up your hardware before attempting the enrollment
      bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT http://contosoproxy.corp.net/proxy.pac
      ```
 
-### Enabling TPM settings
 
-> [!NOTE]
-> TPM must be enabled to enroll in Pro Management.
 
-If TPM on an Intel NUC device is disabled, enable TPM on these devices as follows:
-
-1. Plug in the keyboard to a NUC device.
-1. Restart device.
-1. To display the BIOS screen, rapidly press **F2**.
-1. Select **Advanced**.
-1. Select **Security**.
-1. On the right-hand side beneath Security Features, enable **Intel Platform Trust Technology**.
-1. To save your settings, press **F10**.
-1. In the confirmation box, select **Yes**.
-
-## Performing operations as the Admin user of the MTR device
+## Performing operations as the Admin user of the Teams Rooms device
 
 Some configuration/installation procedures require you to log in to the device as Administrator.
 
@@ -87,7 +73,7 @@ To log in to the device as Administrator (local administrator):
 1. In the Microsoft Teams Rooms user interface, select  **More**,  then select **Settings**, where you're prompted for the local Administrator password on the device (the default password is ***sfb***).
 1. Select **Settings**, then select  **Windows Settings**  to access Windows as local administrator.
 
-1. From the list of users displayed in the Windows login screen, select  **Administrator** (or the respective local administrator of your device).
+1. From the list of users displayed in the Windows login screen, select **Administrator** (or the respective local administrator of your device).
 
 > [!NOTE]
 > If the computer is *domain joined*, choose **Other User**, then use **.\admin**, or the user name of the local administrator configured in the device as the user name.
@@ -95,7 +81,7 @@ To log in to the device as Administrator (local administrator):
 To return to the Microsoft Teams Rooms app after performing the necessary administrative tasks:
 
 1. From the Windows ***Start menu***, sign out from the Admin account.
-1. Return to Microsoft Teams Rooms by selecting the user account icon on the far left side of the screen and then selecting **Skype**.
+1. Return to Microsoft Teams Rooms by selecting the user account icon on the far-left side of the screen and then selecting **Skype**.
 
 > [!NOTE]
 > If the Skype user is not listed, select Other User and enter ***.\skype*** as the user name, and sign in.
@@ -208,8 +194,8 @@ The following components are pre-requisites for successful installation:
 Once the process is completed, your devices will start installing the MTR Pro agent after a few minutes.
 
 > [!NOTE]
-> Following installation, the MTR Pro agent may take up to eight hours to execute a self-update to the latest version and become listed in the MTR Pro portal.
-To expedite the automatic enrollment in the MTR Pro portal, consider restarting the MTR device following the agent deployment.
+> Following installation, the Teams Rooms Pro management agent may take up to eight hours to execute a self-update to the latest version and become listed in the Teams Rooms Pro management portal.
+To expedite the automatic enrollment in the Teams Rooms Pro management portal, consider restarting the Teams Rooms device following the agent deployment.
 
 ## Completing enrollment
 
@@ -217,11 +203,11 @@ When the installation is complete, wait 5-10 minutes, then refresh the portal to
 
 In *Onboarding* state, the status of the room is displayed and updated but it won't raise any alerts or create investigation tickets.
 
-Choose the room and select **Enroll**  to start receiving incident alerts.
+Choose the room and select **Enroll** to start receiving incident alerts.
 
 ### Unenrolling and uninstalling monitoring software
 
-To unenroll the device, remove the monitoring agent from the MTR device as follows:
+To unenroll the device, remove the monitoring agent from the Teams Rooms device as follows:
 
 1. On the device being monitored, log in the device as administrator. Be sure to follow the steps in *Performing operations as the Admin user of the device*.
 1. Download reset script from [aka.ms/MTRPDeviceOffBoarding](https://aka.ms/MTRPDeviceOffBoarding).
@@ -230,14 +216,13 @@ To unenroll the device, remove the monitoring agent from the MTR device as follo
 1. Select *"Run as Administrator"* and accept UAC prompt.
 1. Enter *Set-ExecutionPolicy –ExecutionPolicy RemoteSigned* , then press **Y** on next prompt.
 1. Paste or type the full path to the unzipped offboarding script into the PowerShell window and press **Enter**.
-
    Example:
 
    ```powershell
    C:\Users\admin\Downloads\MTRP\_Device\_Offboarding\MTRP\_Device\_Offboarding.ps1
    ```
 
-   This command resets the device to user standard MTR updates and removes the MTR Pro monitoring agent and files.
+1. This command resets the device to user standard MTR updates and removes the Teams Rooms Pro management monitoring agent and files.
 
 1. From the left-hand menu in the Microsoft Teams Rooms Pro Management portal, select **Rooms**.
 1. In the list of rooms provided, choose the room you want to unenroll and select **Unenroll** to stop getting incident alerts or investigation tickets, or to report an incident for the room.

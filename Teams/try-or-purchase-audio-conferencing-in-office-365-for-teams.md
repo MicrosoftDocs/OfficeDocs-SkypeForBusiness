@@ -1,7 +1,7 @@
 ---
 title: Try or purchase Audio Conferencing in Microsoft 365 for Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jenz
+author: jenzamora
 manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 02/21/2024
@@ -9,6 +9,7 @@ ms.topic: article
 ms.assetid: d080bb8c-3465-47bb-ad2b-9428f1a3fd24
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
@@ -37,7 +38,7 @@ For pricing info, see [Pricing for Audio Conferencing](https://www.microsoft.com
 
 ## Step 1: Buy and assign Audio Conferencing licenses
 
-You must be a [global administrator or billing administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) to perform these steps.
+You must be a [billing administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) to perform these steps.
 
 ### To buy and assign user Audio Conferencing licenses
 

@@ -10,7 +10,7 @@ ms.collection:
 - M365-collaboration
 - tier1
 ms.reviewer: ritikag
-ms.date: 01/28/2024
+ms.date: 03/26/2024
 search.appverid: MET150
 description: Learn how to manage user access to Teams by assigning or removing a Teams license to users in your organization. 
 f1.keywords:
@@ -25,19 +25,17 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Manage user access to Teams
+# Manage Teams licenses
 
 [!INCLUDE [EEA Teams licensing notice](./includes/eea-teams-licensing.md)]
 
 You manage access to Teams at the user level by assigning or removing a Microsoft Teams product license. Except for joining Teams meetings anonymously, each user in your organization must have a Teams license before they can use Teams. You can assign a Teams license for new users when new user accounts are created or to users with existing accounts.
 
-By default, when a licensing plan (for example, Microsoft 365 Enterprise E3 or Microsoft 365 Business Premium) is assigned to a user, a Teams license is automatically assigned, and the user is enabled for Teams. You can disable or enable Teams for a user by removing or assigning a license at any time.
-
 Use messaging policies, managed from the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), to control what chat and channel messaging features are available to users in Teams. You can use the default policy or create one or more custom messaging policies for people in your organization. To learn more, read [Manage messaging policies in Teams](messaging-policies-in-teams.md).
 You manage Teams licenses in the Microsoft 365 admin center or by using PowerShell. You must be a Global admin or User management admin to manage licenses.
 
 > [!NOTE]
-> We recommend that you enable Teams for all users so that teams can be formed organically for projects and other dynamic initiatives. Even if you're running a pilot, it may still be helpful to keep Teams enabled for all users, but only target communications to the pilot group of users.
+> We recommend that you enable Teams for all users so that teams can be formed organically for projects and other dynamic initiatives. Even if you're running a pilot, it might still be helpful to keep Teams enabled for all users, but only target communications to the pilot group of users.
 
 ## Using the Microsoft 365 admin center
 
@@ -63,7 +61,7 @@ The steps are different depending on whether you use the **Licenses** page or **
 > [!IMPORTANT]
 > It takes about 24 hours for disabling a Teams SKU to take effect.
 
-When you remove a Teams license from a user, Teams is disabled for that user, and they will no longer see Teams in the app launcher or homepage. For detailed steps, see [Unassign licenses from users](/microsoft-365/admin/manage/remove-licenses-from-users).
+When you remove a Teams license from a user, Teams is disabled for that user, and they'll no longer see Teams in the app launcher or homepage. For detailed steps, see [Unassign licenses from users](/microsoft-365/admin/manage/remove-licenses-from-users).
 
 |&nbsp;|&nbsp;|
 |---------|---------|
@@ -111,7 +109,7 @@ Run the following command to disable Teams for all users who have an active lice
 Get-MgUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MgUserLicense -LicenseOptions $x
 ```
 
-## Related topics
+## Related articles
 
 - [Teams add-on licenses](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [Assign Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md)

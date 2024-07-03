@@ -1,11 +1,11 @@
 ---
 title: Use guest access and external access to collaborate with people outside your organization
-ms.author: mikeplum
-author: MikePlumleyMSFT
-manager: pamgreen
-ms.reviewer: vinbel, luises
-ms.date: 03/31/2023
-ms.topic: article
+ms.author: jtremper
+author: jacktremper
+manager: jtremper
+ms.reviewer: majaisin
+ms.date: 06/28/2024
+ms.topic: concept-article
 ms.service: msteams
 audience: admin
 ms.custom: chat-teams-channels-revamp
@@ -20,7 +20,7 @@ f1.keywords:
 - NOCSH
 appliesto: 
 - Microsoft Teams
-ms.localizationpriority: normal
+ms.localizationpriority: Medium
 description: Learn how to call, chat, find, and add users from outside the organization in Microsoft Teams using external access and guest access.
 ---
 
