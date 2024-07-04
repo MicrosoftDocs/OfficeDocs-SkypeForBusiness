@@ -92,7 +92,7 @@ For more information, see:
 | [New-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/new-csteamsvoiceapplicationspolicy#-HistoricalCallQueueMetricsPermission)  | [Set-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/set-csteamsvoiceapplicationspolicy#-HistoricalCallQueueMetricsPermission) |
 | [New-CsTeamsVoiceApplicationsPolicy/--HistoricalAgentMetricsPermission](/powershell/module/teams/new-csteamsvoiceapplicationspolicy#--HistoricalAgentMetricsPermission)  | [Set-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/set-csteamsvoiceapplicationspolicy#--HistoricalAgentMetricsPermission) |
 
-3. CQD pipeline (legacy)
+3. Call Quality Dashboard (CQD) pipeline [legacy]
 
 If you want the user to report on **all** the Auto attendants, Call queues, and Agents in the tenant and you want to grant the user access to Teams admin center to run other Usage reports, assign the user a CQD access role with both **View Reports** and **View EUII fields** set to **Yes**.
 
