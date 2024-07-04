@@ -13,7 +13,7 @@ ms.collection:
   - M365-collaboration
   - Tier1
 search.appverid: MET150
-ms.date: 06/18/2024
+ms.date: 07/04/2024
 ms.reviewer: mhayrapetyan
 description: Manage access to Teams apps using app centric management.
 f1.keywords:
@@ -24,7 +24,7 @@ appliesto:
 ms.custom: seo-marvel-apr2020
 ---
 
-# Use app centric management to manage apps
+# Use app centric management to manage access to apps
 
 > [!IMPORTANT]
 > All organizations don't have app centric management (ACM) feature available. If you were not using custom permission policies and you weren't an enterprise customer, we migrated your organization to use this feature. If you are using custom permission policies or you are an enterprise customer, then you will soon be able to migrate to ACM feature on your own. For timelines, see [Message Center post MC688930](https://admin.microsoft.com/Adminportal/Home#/MessageCenter/:/messages/MC688930) or [Microsoft 365 roadmap item 151829](https://www.microsoft.com/en-US/microsoft-365/roadmap?filters=&searchterms=151829).

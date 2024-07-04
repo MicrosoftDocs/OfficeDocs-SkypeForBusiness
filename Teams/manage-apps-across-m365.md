@@ -8,7 +8,7 @@ ms.service: msteams
 ms.subservice: teams-apps
 ms.custom: intro-get-started
 audience: admin
-ms.date: 06/04/2024
+ms.date: 07/04/2024
 ms.collection: 
   - M365-collaboration
   - tier2
@@ -25,7 +25,8 @@ ms.localizationpriority: medium
 # Manage apps that work across Teams, Outlook, and Microsoft 365 App
 
 > [!IMPORTANT]
-> This feature is **not** available in the admin centers yet. For more information, see [Microsoft 365 Roadmap 393931](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=393931).
+> * This feature is **not** available in the admin centers yet. For more information, see [Microsoft 365 Roadmap 393931](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=393931).
+> * The feature is available only if you use [app centric management](app-centric-management.md) in your organization. If your org uses permission policies, then the unification of admin settings doesn't apply in your org.
 
 ## What is unified app management
 
@@ -36,9 +37,6 @@ App developers can create apps that work  not only in Microsoft Teams but also i
 * Manage apps page in Teams Admin Center. It manages apps for Teams client. The changes you make in the Teams admin center, impact apps in only Teams.
 
 Unified app management consolidates app catalog management into a single platform. You can manage apps on the Integrated apps page in the Microsoft 365 admin center or in the Teams admin center. Changes made in either admin center synchronize.
-
-> [!IMPORTANT]
-> The feature is available only if [app centric management](app-centric-management.md) is enabled in your organization. If your org uses permission policies, then the unification of admin settings doesn't apply in your org.
 
 ## Understand the impact on your organization
 
@@ -109,5 +107,6 @@ Outcomes of app deployment setting applied to a particular app.
 
 ## Related articles
 
+* [How to enable app centric management functionality](app-centric-management.md)
 * [Integrated apps](/microsoft-365/admin/manage/teams-apps-work-on-outlook-and-m365)
 * [Get started with Integrated apps](/microsoft-365/admin/manage/test-and-deploy-microsoft-365-apps)
