@@ -34,13 +34,13 @@ ms.custom:
 
 ## Overview of Lists
 
-The Lists app in Microsoft Teams helps users in your organization track information, organize work, and manage workflows. With Lists, users can track data such as issues, assets, routines, contacts, inventory, incidents, loans, patients, and more. Users do this by using customizable views, rules, and alerts to keep everyone on the team in sync.
+The Lists app in Microsoft Teams helps users in your organization track information, organize work, and manage workflows. With Lists, users can track data such as issues, assets, routines, contacts, inventory, incidents, loans, patients, and more. Users do this by using customizable views, rules, and alerts to keep everyone on the team in sync. The Lists app is available in Teams desktop, web, and mobile clients.
 
 In Teams, users access Lists as a tab in a channel. Select **+** to open the tab gallery and add a new Lists app tab instance to a channel to get started.
 
 :::image type="content" source="media/lists-tab.png" alt-text="The Lists app in the tab gallery in Teams." lightbox="media/lists-tab.png":::
 
-Users can create new lists or pin existing lists from within the same team or from a different SharePoint site that they have access to. New lists can be created from scratch or from built-in templates. They can also be based on the structure of an existing list or by importing data from an Excel workbook. The Lists app is available in Teams desktop, web, and mobile clients.
+Users can create new lists or pin existing lists from within the same team or from a different SharePoint site that they have access to. New lists can be created from scratch or from built-in templates. They can also be based on the structure of an existing list or by importing data from an Excel workbook. 
 
 :::image type="content" source="media/lists-create-list.png" alt-text="The Lists app added as a tab in a channel, showing options for creating a new list." lightbox="media/lists-create-list.png":::
 
@@ -59,9 +59,9 @@ Here's some examples of how teams in your organization can use the predefined te
 
 ## Example scenario
 
-A local post office is responsible for sorting and delivering mail in their district. Each morning, the post office has a team huddle to review daily goals, share announcements, and discuss known incidents. 
+A local post office is responsible for sorting and delivering mail in their district. Each morning, the post office has a team huddle to review daily goals, share announcements, and discuss known incidents.
 
-After the huddle, mail carriers pick up their mail and start their delivery route. Incidents can occur along a route, for example, a vehicle accident, dog-related issue, or social unrest protest. When mail carriers encounter an incident, they use Teams on their mobile devices to record the incident details, which are tracked in a list in the team channel. Everyone on the team, including mail carriers in the field, can see this information and stay informed. 
+After the huddle, mail carriers pick up their mail and start their delivery route. Incidents can occur along a route, for example, a vehicle accident, dog-related issue, or social unrest protest. When mail carriers encounter an incident, they use Teams on their mobile devices to record the incident details, which are tracked in a list in the team channel. Everyone on the team, including mail carriers in the field, can see this information and stay informed.
 
 Before moving to Teams, mail carriers had to go back to the post office to complete a hard-copy form to report an incident, which was then entered in an Excel spreadsheet. Teams gives mail carriers a mobile first, experience where they can use Lists to report incidents in the field as they happen, share incident details with team members, have conversations about them on the channel, and drive incidents to resolution.
 
@@ -80,7 +80,7 @@ Permissions set in SharePoint apply to lists created in the Lists app. By defaul
 In certain scenarios, you might want to restrict what actions users can do in lists. For example, a person on a team edits a list view that shouldn't, which changes it for all team members. With restrictions, you can allow only the team owner or certain team members to edit list views. To learn more, see [Customize permissions for a SharePoint list or library](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013).
 
 > [!NOTE]
-> At this point, owner and member permissions in a team aren't linked in any way to permissions in the team site that govern the behavior of lists or the Lists App. However, based on customer feedback and usage, this will be considered for a future iteration.  
+> At this point, owner and member permissions in a team aren't linked in any way to permissions in the team site that govern the behavior of lists or the Lists app. However, based on customer feedback and usage, this will be considered for a future iteration.  
 
 ### Limitations
 
