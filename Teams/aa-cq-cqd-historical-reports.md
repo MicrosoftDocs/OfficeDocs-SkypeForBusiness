@@ -82,7 +82,7 @@ For more information, see [Plan for Auto attendant and Call queue authorized use
 > [!TIP]
 > Using the voice applications policy to control access is the recommended approach.  With the voice applications policy and Authorized users it is possible to control which Auto attendants, Call queues, and Agents a user can report on. If necessary, the policy still allows a user to report on all Auto attendants, Call queues, and Agents without providing access to Teams admin Center.
 
-Create, or modify, a voice applications policy that enables the historical reporting permissions. Assign the policy to the appropriate users. Assign the users as authorized users to the appropriate auto attendans and call queues. For more iforamtionn, see [Manage voice applications policies in Microsoft Teams](./manage-voice-applications-policies.md)
+Create, or modify, a voice applications policy that enables the historical reporting permissions. Assign the policy to the appropriate users. Assign the users as authorized users to the appropriate auto attendants and call queues. For more information, see [Manage voice applications policies in Microsoft Teams](./manage-voice-applications-policies.md)
 
 The historical reporting permissions can only be set through PowerShell and will be available in Teams admin center later this year. 
 
@@ -115,7 +115,7 @@ Perform the following steps:
 
 3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.1.7.pbit` template file. Power BI Desktop should launch.
 
-4. You're prompted to select the **DataSource**, **Report Level**, and **UTC Offset**.  
+4. Select the **DataSource**, **Report Level**, and **UTC Offset**.  
 
    :::image type="content" source="media/aa-cq-historical-report-01-v316.png" alt-text="Screenshot showing the DataSource, Report Level, and UTC Offset selections.":::
 
@@ -127,15 +127,17 @@ Perform the following steps:
 
     #### Per Day vs Per Call 
 
-    Per Call reporting retrieves the individual call records for each Auto attendant, Call queue, and Agent, and makes them available in the Power BI client.  Per Call reporting also allows call records to be displayed in the local time zone selected by the user. For some customers, especially those using the CQD access role to control access, this might result in hitting the 90,000 default or 200,000 per query record limit. In this case, the Per Day reporting option should be selected.
+    Per Call reporting retrieves the individual call records for each Auto attendant, Call queue, and Agent, and makes them available in the Power BI client. Per Call reporting also allows call records to be displayed in the local time zone selected by the user. For some customers, especially those using the CQD access role to control access, this might result in hitting the 90,000 default or 200,000 per query record limit. In this case, the Per Day reporting option should be selected.
+
+   Per Call reporting retrieves the individual call records for each Auto attendant, Call queue, and Agent, the user is authorized for and makes them available in the Power BI client. Per Call reporting also allows call records to be displayed in the local time zone selected by the user. For some customers, especially those using the CQD access role to control access, this may result in hitting the 90,000 default or 200,000 per query record limit. In this case, the Per Day reporting option should be selected.
 
     Per Day reporting retrieves one daily summary record for each Auto attendant, Call queue, and Agent. This results in fewer records being returned to the client, reducing the possibility of hitting the 90,000 default or 200,000 per query record limit. Per Day reporting is based on a UTC-00:00 day (00:00:00-23:59:59 UTC) only and any UTC offset supplied by the user is ignored.
 
-5. You're prompted to sign in with an account. Select **Organizational account**, and then select **Sign in**.
+6. Sign in with an account. Select **Organizational account**, and then select **Sign in**.
 
    :::image type="content" source="media/aa-cq-historical-report-03-v300.png" alt-text="Screenshot showing sign-in for V3.x.x.":::
 
-6. Select **Connect**, and the data refreshes.
+7. Select **Connect**, and the data refreshes.
 
 ## Data latency for Auto attendant and Call queue analytics
 
