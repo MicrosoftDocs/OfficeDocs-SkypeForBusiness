@@ -17,7 +17,7 @@ ms.collection:
   - Tier1
 f1.keywords: 
   - NOCSH
-localization_priority: Normal
+ms.localizationpriority: Medium
 search.appverid: MET150
 description: A lookbook and guide for meeting room optimization with Teams Rooms solutions and devices.
 ---

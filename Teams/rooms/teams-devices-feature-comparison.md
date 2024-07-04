@@ -18,7 +18,7 @@ ms.collection:
   - Tier2
 f1.keywords: 
   - NOCSH
-localization_priority: Normal
+ms.localizationpriority: Medium
 description: A guide comparing the Teams devices for shared spaces features between Windows and Android.
 ---
 
@@ -104,20 +104,34 @@ To help guide you as to what features are available on different platforms, you 
 | | Operating System | Windows 10 / Windows 11 | Android 9+ |
 | | Kiosk mode | Available | Available |
 | | Microsoft Defender for Endpoint | Available | Not available |
-| **Management and administration** | Teams Admin Center | Available | Available |
-| | Pro Management Portal | Available | Available |
-| | Role-based access control | Available | Available |
-| | Securely delegate management access to a partner | Available | Available|
+| **Device Management** | Built-in backgrounds | Available | Available |
+| | Custom background | Available | Not available |
+| | Unauthenticated proxy support | Available | Available |
+| | Authenticated proxy support | Not available | Not available |
+| **Teams Admin Center** | Automatic onboarding | Available | Available |
 | | Device inventory views | Available | Available |
 | | Overall device health monitoring | Available | Available |
 | | Connected peripheral health monitoring | Available | Not available |
 | | Remote configuration (restart, settings, & log collection) | Available | Available |
 | | Automatic Teams app updates | Available | Available |
 | | Real-time and call quality analytics | Available | Available |
-| | Built-in backgrounds | Available | Available |
-| | Custom background | Available | Not available |
-| | Unauthenticated proxy support| Available | Available |
-| | Authenticated proxy support | Not available | Not available |
+| **Pro Management Portal** | Automatic onboarding | Available | Available |
+| | Overall device health monitoring | Available | Available |
+| | Connected peripheral health monitoring | Available | Not available |
+| | Remote Access | Available | Not available |
+| | Partner Delegation | Available | Available |
+| | Autopilot + Autologin | Available | Not available |
+| | One Time Passcode | Available | Not available |
+| | ServiceNow Integration | Available | Available |
+| | Device grouping & Role-based access control | Available | Available |
+| | Device Settings Management | Available | Not available |
+| | Update Management | Available | Not available |
+| | Log Collection | Available | Available |
+| | Incident Management | Available | Available |
+| | Health and usage reports | Available | Available |
+| | Events | Available | Available |
+| | Standards and Rooms Planner | Available | Available |
+
 
 ## Teams panels
 
@@ -139,16 +153,6 @@ To help guide you as to what features are available on different platforms, you 
 | | Built-in backgrounds | Available |
 | | Line of business apps | Available |
 | | Change color of LED lights | Available |
-| **Management and administration** | Teams Admin Center | Available | 
-| | Pro Management Portal | Available | 
-| | Role-based access control | Available | 
-| | Securely delegate management access to a partner | Available | 
-| | Overall device health monitoring | Available | 
-| | Remote configuration (restart, settings, & log collection) | Available | 
-| | Automatic Teams app updates | Available | 
-| | Unauthenticated proxy support | Available | 
-| | Authenticated proxy support | Not available | 
-
 
 
 ## [GCC](#tab/GCC)
@@ -222,20 +226,33 @@ To help guide you as to what features are available on different platforms, you 
 | | Operating System | Windows 10 / Windows 11 | Android 9+ |
 | | Kiosk mode | Available | Available |
 | | Microsoft Defender for Endpoint | Available | Not available |
-| **Management and administration** | Teams Admin Center | Available | Available |
-| | Pro Management Portal | Available | Available |
-| | Role-based access control | Available | Available |
-| | Securely delegate management access to a partner | Available | Not available |
+| **Device Management** | Built-in backgrounds | Available | Available |
+| | Custom background | Available | Not available |
+| | Unauthenticated proxy support | Available | Available |
+| | Authenticated proxy support | Not available | Not available |
+| **Teams Admin Center** | Automatic onboarding | Available | Available |
 | | Device inventory views | Available | Available |
 | | Overall device health monitoring | Available | Available |
 | | Connected peripheral health monitoring | Available | Not available |
 | | Remote configuration (restart, settings, & log collection) | Available | Available |
 | | Automatic Teams app updates | Available | Available |
 | | Real-time and call quality analytics | Available | Available |
-| | Built-in backgrounds | Available | Available |
-| | Custom background | Available | Not available |
-| | Unauthenticated proxy support| Available | Available |
-| | Authenticated proxy support | Not available | Not available |
+| **Pro Management Portal** | Automatic onboarding | Available | Available |
+| | Overall device health monitoring | Available | Available |
+| | Connected peripheral health monitoring | Available | Not available |
+| | Remote Access | Not available | Not available |
+| | Partner Delegation | Not available | Not available |
+| | Autopilot + Autologin | Not available | Not available |
+| | One Time Passcode | Not available | Not available |
+| | ServiceNow Integration | Not available | Available |
+| | Device grouping & Role-based access control | Available | Available |
+| | Device Settings Management | Available | Not available |
+| | Update Management | Available | Not available |
+| | Log Collection | Available | Available |
+| | Incident Management | Available | Available |
+| | Health and usage reports | Available | Available |
+| | Events | Available | Available |
+| | Standards and Rooms Planner | Not available | Not available |
 
 ## Teams panels
 
@@ -257,15 +274,6 @@ To help guide you as to what features are available on different platforms, you 
 | | Built-in backgrounds | Available |
 | | Line of business apps | Available |
 | | Change color of LED lights | Available |
-| **Management and administration** | Teams Admin Center | Available | 
-| | Pro Management Portal | Available | 
-| | Role-based access control | Available | 
-| | Securely delegate management access to a partner | Available | 
-| | Overall device health monitoring | Available | 
-| | Remote configuration (restart, settings, & log collection) | Available | 
-| | Automatic Teams app updates | Available |
-| | Unauthenticated proxy support | Available | 
-| | Authenticated proxy support | Not available | 
 
 
 ## [GCC-High](#tab/GCCHigh)
@@ -339,20 +347,18 @@ To help guide you as to what features are available on different platforms, you 
 | | Operating System | Windows 10 / Windows 11 | Android 9+ |
 | | Kiosk mode | Available | Available |
 | | Microsoft Defender for Endpoint | Available | Not available |
-| **Management and administration** | Teams Admin Center | Available | Available |
-| | Pro Management Portal | Not available | Not available |
-| | Role-based access control | Available | Available |
-| | Securely delegate management access to a partner | Available | Not available |
+| **Device Management** | Built-in backgrounds | Available | Available |
+| | Custom background | Available | Not available |
+| | Unauthenticated proxy support | Available | Available |
+| | Authenticated proxy support | Not available | Not available |
+| **Teams Admin Center** | Automatic onboarding | Available | Available |
 | | Device inventory views | Available | Available |
 | | Overall device health monitoring | Available | Available |
 | | Connected peripheral health monitoring | Available | Not available |
 | | Remote configuration (restart, settings, & log collection) | Available | Available |
 | | Automatic Teams app updates | Available | Not available |
 | | Real-time and call quality analytics | Available | Available |
-| | Built-in backgrounds | Available | Available |
-| | Custom background | Available | Not available |
-| | Unauthenticated proxy support| Available | Available |
-| | Authenticated proxy support | Not available | Not available |
+| **Pro Management Portal** | Portal access | Not available | Not available |
 
 ## Teams panels
 
@@ -374,13 +380,3 @@ To help guide you as to what features are available on different platforms, you 
 | | Built-in backgrounds | Available |
 | | Line of business apps | Not available |
 | | Change color of LED lights | Available |
-| **Management and administration** | Teams Admin Center | Available | 
-| | Pro Management Portal | Not available | 
-| | Role-based access control | Available | 
-| | Securely delegate management access to a partner | Not available | 
-| | Overall device health monitoring | Available | 
-| | Remote configuration (restart, settings, & log collection) | Available | 
-| | Automatic Teams app updates | Not available | 
-| | Unauthenticated proxy support | Available | 
-| | Authenticated proxy support | Not available | 
-

@@ -81,7 +81,7 @@ There are three **Domestic Calling Plan** options to choose from:
   
 - **Domestic Calling Plan Zone-1 Canada/UK**: For users in Canada and the United Kingdom.
 
-- **Domestic Calling Plan Zone-2**: For users in Austria, Belgium, Croatia, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, and Switzerland.
+- **Domestic Calling Plan Zone-2**: For users in Austria, Belgium, Croatia, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hong Kong, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, and Switzerland.
 
 ### International Calling Plan
 
@@ -101,7 +101,7 @@ There are three **Pay-As-You-Go Calling Plan** options to choose from:
 
 - **Pay-As-You-Go Calling Plan Zone 1 - UK & Canada**: For users in the United Kingdom and Canada.
 
-- **Pay-As-You-Go Calling Plan Zone 2**: For users in Austria, Belgium, Croatia, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, and Switzerland.
+- **Pay-As-You-Go Calling Plan Zone 2**: For users in Austria, Belgium, Croatia, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hong Kong, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, and Switzerland.
 
 *Zone 2 licenses aren't currently available for sale in the United States and Puerto Rico.*
 
@@ -142,11 +142,15 @@ There are two ways you can fund and use minutes with a Pay-As-You-Go Calling Pla
 - [Audio conferencing](https://www.microsoft.com/microsoft-teams/audio-conferencing).
 
 
-## Related articles
+## Related content 
+
+For more information, see the following articles:
 
 - [Set up Calling Plans](set-up-calling-plans.md)
 - [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 - [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
 - [Plan your voice solution](cloud-voice-landing-page.md)
 - [PSTN connectivity options](pstn-connectivity.md)
+
+When signed in to the Teams admin center, see the [Plan and Implement your Microsoft Teams Phone Deployment Guide](https://go.microsoft.com/fwlink/?linkid=2224790). This guide customizes your experience based on your environment. To review best practices without signing in and activating automated setup features, see the [Microsoft 365 setup portal](https://go.microsoft.com/fwlink/?linkid=2222974).
 

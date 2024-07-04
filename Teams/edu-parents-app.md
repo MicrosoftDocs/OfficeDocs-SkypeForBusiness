@@ -7,9 +7,9 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer:
-ms.date: 09/20/2021
+ms.date: 06/28/2024
 description: Microsoft Teams article documenting prerequisites and setup of Parents in Teams for Education.
-ms.localizationpriority: Normal
+ms.localizationpriority: Medium
 ROBOTS: NOINDEX, NOFOLLOW
 search.appverid: MET150
 f1.keywords:
@@ -105,7 +105,7 @@ If guardian is removed from a *Student's* records, any existing chats involving 
 
 ### Manually Update Parent Contact Information 
 
-Schools can allow teachers to update manually the parent contact information corresponding to each child.  
+Schools can allow teachers to update manually the parent contact information corresponding to each child. This feature is enabled by default. However, no teacher’s request goes through unless an admin 'approves' it. If your school doesn't want to use this feature, you can disable it using [PowerShell](#disable-manual-update-of-parent-contact-information).     
 
 1. The teacher opens the parent app for the class inside the class team. 
 
@@ -114,6 +114,21 @@ Schools can allow teachers to update manually the parent contact information cor
 1. Once the request is submitted, it is sent to admins for approval. For more information about Approvals app, see [What is Approvals?](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3) and [Manage the Approvals app in Microsoft Teams](approval-admin.md). 
 
 1. Global admins and Teams admins are eligible to approve these requests. To check for admin roles, visit [Azure portal](https://ms.portal.azure.com/#view/Microsoft_AAD_IAM/AllRolesBlade). Search for the administrative role you want to check. Select Assignments from the Manage menu to view who are the admins. 
+
+    > [!NOTE]
+    > For an approval request to be created, not just one user, but **all** the Global admins and Teams admins in the tenant should be enabled. For enabled users, you can see the screenshot below. 
+
+    :::image type="content" source="media/enabled-users.png" alt-text="Screenshot of enabled users.":::
+  
+    For more details on the power automate side, see [Enable or disable application users.](/power-apps/developer/data-platform/use-single-tenant-server-server-authentication#enable-or-disable-application-users)  
+
+    Use the following steps to enable the Global/Teams administrator:
+
+    1. Open [Azure portal](https://portal.azure.com/). 
+    2. Go to [All roles - Microsoft Azure](https://portal.azure.com/#view/Microsoft_AAD_IAM/AllRolesBlade). 
+    3. Search for **Global Administrator** or **Teams Administrator**. 
+    4. Click the role and select the **Active assignments** tab. A list of all users assigned with the role is displayed.     
+    5. Navigate to [Users - Microsoft Azure](https://portal.azure.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers) and check for all users individually. If any user is disabled, enable them. 
 
 1. Once the admin approves the request, the teacher can start communicating with parents using the newly updated contact details.
 
@@ -126,6 +141,17 @@ If your school uses both SDS and manual ingestion, you may want to note the foll
 1. If there's a change in the parent contact details in SDS and is also updated manually, the latest change is considered and stored in the final data storage of the substrate. 
 
 1. If a class teacher or class student is deleted, the parent contact information is **not deleted automatically**. To delete the contact information for parent, see [Delete student information from the Dataverse](#delete-student-information-from-the-dataverse). If a teacher leaves the school, the teacher's pending requests will still persist and can be approved or rejected by the admins. 
+
+### Disable manual update of parent contact information 
+
+If your school doesn't want to give educators the capability to manually update parent information, you can disable the same using the following steps.<br> 
+An educator can add or update the parents data via manual ingestion using an admin setting `UpdateParentInformation`. The default value for the setting is enabled. However, to disable the setting, the tenant admin should install the latest TPM version > [6.1.0](https://www.powershellgallery.com/packages/MicrosoftTeams/6.1.0).<br>
+Once the latest TPM version is installed,  
+1. Check if the setting is enabled for you or not, by following these [steps](/powershell/module/teams/get-csteamseducationconfiguration).<br>
+Note the value of the 'Identity' property. It is required when you update the setting. 
+
+2. To update the setting on behalf of your tenant, use this [link](/powershell/module/teams/set-csteamseducationconfiguration) and follow the examples of `UpdateParentInformation` setting.
+
 
 #### Delete student information from the Dataverse
 
