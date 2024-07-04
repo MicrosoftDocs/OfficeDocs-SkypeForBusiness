@@ -22,11 +22,11 @@ ms.localizationpriority: medium
 description: Learn how to create and set up dynamic filters and exclusions for SIP gateways to control access to your organization's resources.
 ---
 
-# Set up dynamic filters for SIP gateways
+# Set up dynamic filters for SIP Gateways
 
 ## Overview of dynamic filters
 
-This article explains how to exclude SIP Gateway from Conditional Access Policy, which is a feature that allows you to control access to your organization's resources based on certain conditions. You can exclude SIP Gateway from conditional access if you use it for voice and don't want to enforce extra security requirements on those users. In this article, you'll find the steps to create an exclusion group and assign it to the policy, and the prerequisites.
+This article explains how to exclude SIP Gateway from Conditional Access Policy, which is a feature that allows you to control access to your organization's resources based on certain conditions. You can exclude SIP Gateway from conditional access if you use it for voice and don't want to enforce extra security requirements on those users. In this article, you'll find the steps to create an exclusion group and assign it to the policy along with the prerequisites.
 
 The SIP Gateway resources mentioned in this article can’t be directly excluded from Conditional Access policies. Hence, we describe the dynamic app filter approach to exclude SIP Gateway apps. Also, simply excluding SIP Gateway apps won't address the gap as SIP Gateway apps don't own any scopes on their own and depend on Teams app for the required scopes.
 
@@ -99,25 +99,25 @@ To add or deactivate custom security attributes definitions, you must have:
 6. Run the following cmdlet:
 
    ```powershell
-   Get-AzureADServicePrincipal -Filter "AppId eq '582b2e88-6cca-4418-83d2-2451801e1d26'"`
+   Get-AzureADServicePrincipal -Filter "AppId eq '582b2e88-6cca-4418-83d2-2451801e1d26'"
    ```
 
    If you get no output, then run:
 
    ```powershell
-   New-AzureADServicePrincipal -AppId "582b2e88-6cca-4418-83d2-2451801e1d26"`
+   New-AzureADServicePrincipal -AppId "582b2e88-6cca-4418-83d2-2451801e1d26"
    ```
 
 7. Run the following cmdlet:
 
    ```powershell
-   Get-AzureADServicePrincipal -Filter "AppId eq '0ab9de21-b802-4d77-b279-1ad41ca233b4'"`
+   Get-AzureADServicePrincipal -Filter "AppId eq '0ab9de21-b802-4d77-b279-1ad41ca233b4'"
    ```
 
    If you get no output, then run:
 
    ```powershell
-   New-AzureADServicePrincipal -AppId "0ab9de21-b802-4d77-b279-1ad41ca233b4"`.
+   New-AzureADServicePrincipal -AppId "0ab9de21-b802-4d77-b279-1ad41ca233b4"
    ```
 
 **Using MS Graph module:**
@@ -163,13 +163,13 @@ To add or deactivate custom security attributes definitions, you must have:
 2. Browse to **Protection** > **Conditional Access**.
 3. Select the policy you want to change.
 4. Under **Target resources**, select the following options to autofill this field:
-   - For **Select what this policy applies to**, choose **Cloud apps** from the list.
+   - From **Select what this policy applies to** list, choose **Cloud apps**.
    - On the **Include** tab, select **All** apps option.
    - Change tab to **Exclude** and under **Select excluded cloud apps**, search for **Microsoft Teams Services** and click on **Select**.
 
-   :::image type="content" source="media/exclude-cloud-apps.png" alt-text="Screenshot displaying the search and selection of Microsoft Teams Service.":::
+     :::image type="content" source="media/exclude-cloud-apps.png" alt-text="Screenshot displaying the search and selection of Microsoft Teams Service.":::
 
-5. Then, select **Edit filter**.
+5. Select **Edit filter**.
 6. On the **Edit filter** page, set **Configure** to **Yes**.
 7. Select the attribute you created earlier (in this case 'exclAttrAllowMultiple').
 8. Set **Operator** to **Contains**.
@@ -183,3 +183,4 @@ To add or deactivate custom security attributes definitions, you must have:
 ## Related articles
 
 - [Configure SIP Gateway](sip-gateway-configure.md)
+- [Plan for SIP Gateway](sip-gateway-plan.md)
