@@ -75,7 +75,7 @@ Use one of the following methods to control access to the historical reports:
 
 1. Voice applications policy
 
-If you want to control which Auto attendants, Call queues and Agents the users can report without providing access to Teams admin center, create a voice applications policy that grants them access to historical reporting and assign them as an Authorized user to the appropriate Auto attendants and Call queues.
+To control which Auto attendants, Call queues and Agents users can report on without providing them access to Teams admin center, create a voice applications policy that grants them access to historical reporting and assign them as an Authorized user to the appropriate Auto attendants and Call queues.
 
 For more information, see [Plan for Auto attendant and Call queue authorized users](./aa-cq-authorized-users-plan.md).
 
@@ -94,7 +94,7 @@ For more information, see:
 | [New-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/new-csteamsvoiceapplicationspolicy#-HistoricalCallQueueMetricsPermission)  | [Set-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/set-csteamsvoiceapplicationspolicy#-HistoricalCallQueueMetricsPermission) |
 | [New-CsTeamsVoiceApplicationsPolicy/--HistoricalAgentMetricsPermission](/powershell/module/teams/new-csteamsvoiceapplicationspolicy#--HistoricalAgentMetricsPermission)  | [Set-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/set-csteamsvoiceapplicationspolicy#--HistoricalAgentMetricsPermission) |
 
-3. Call Quality Dashboard (CQD) pipeline [legacy]
+2. Call Quality Dashboard (CQD) pipeline [legacy]
 
 If you want the user to report on **all** the Auto attendants, Call queues, and Agents in the tenant and you want to grant the user access to Teams admin center to run other Usage reports, assign the user a CQD access role with both **View Reports** and **View EUII fields** set to **Yes**.
 
@@ -127,9 +127,9 @@ Perform the following steps:
 
     #### Per Day vs Per Call 
 
-   Per Call reporting retrieves the individual call records for each Auto attendant, Call queue, and Agent, the user is authorized for and makes them available in the Power BI client. Per Call reporting also allows call records to be displayed in the local time zone selected by the user. For some customers, especially those using the CQD access role to control access, this may result in hitting the 90,000 default or 200,000 per query record limit. In this case, the Per Day reporting option should be selected.
+   - Per Call reporting retrieves the individual call records for each Auto attendant, Call queue, and Agent, the user is authorized for and makes them available in the Power BI client. Per Call reporting also allows call records to be displayed in the local time zone selected by the user. For some customers, especially those using the CQD access role to control access, this may result in hitting the 90,000 default or 200,000 per query record limit. In this case, the Per Day reporting option should be selected.
 
-    Per Day reporting retrieves one daily summary record for each Auto attendant, Call queue, and Agent. This results in fewer records being returned to the client, reducing the possibility of hitting the 90,000 default or 200,000 per query record limit. Per Day reporting is based on a UTC-00:00 day (00:00:00-23:59:59 UTC) only and any UTC offset supplied by the user is ignored.
+    - Per Day reporting retrieves one daily summary record for each Auto attendant, Call queue, and Agent. This results in fewer records being returned to the client, reducing the possibility of hitting the 90,000 default or 200,000 per query record limit. Per Day reporting is based on a UTC-00:00 day (00:00:00-23:59:59 UTC) only and any UTC offset supplied by the user is ignored.
 
 6. Sign in with an account. Select **Organizational account**, and then select **Sign in**.
 
