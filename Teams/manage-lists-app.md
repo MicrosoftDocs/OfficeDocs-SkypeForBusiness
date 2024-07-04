@@ -1,10 +1,10 @@
 ---
 title: Manage the Lists app for your organization
-author: MicrosoftHeidi
+author: lana-chin
 ms.author: v-chinlana
 manager: jtremper
 ms.reviewer: mmulpuru
-ms.date: 06/21/2024
+ms.date: 07/04/2024
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
