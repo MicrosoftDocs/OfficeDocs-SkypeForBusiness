@@ -1,5 +1,5 @@
 ---
-title: Set up dynamic filters for SIP gateways
+title: Set up dynamic filters for SIP Gateway
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
@@ -19,10 +19,10 @@ f1.keywords:
   - NOCSH                           
 search.appverid: MET150
 ms.localizationpriority: medium
-description: Learn how to create and set up dynamic filters and exclusions for SIP gateways to control access to your organization's resources.
+description: Learn how to create and set up dynamic filters and exclusions for SIP gateway to control access to your organization's resources.
 ---
 
-# Set up dynamic filters for SIP Gateways
+# Set up dynamic filters for SIP Gateway
 
 ## Overview of dynamic filters
 
