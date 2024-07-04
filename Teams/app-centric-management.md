@@ -85,7 +85,7 @@ We strongly recommend that you prepare for the migration and follow these steps 
    * Available to specific users and groups: List of apps that are selectively allowed for at least one org user or a supported group.
    * Available to no one: List of apps that nobody in the org can use.
 
-1. In each tab, you can modify the app availability to one of the [three app availability types](#how-is-app-centric-management-different-than-permission-policy), as necessary. The apps that are not present in any of the selected policies appear in the **Available to specific users and groups** tab. You must assign such apps to one or more users or groups before you can proceed. The existing user assignments from app permission policies aren't transferred and aren't applicable here.
+1. In each tab, you can modify the app availability to one of the [three app availability types](#how-is-app-centric-management-different-than-permission-policy), as necessary. The apps that aren't present in any of the selected policies appear in the **Available to specific users and groups** tab. You must assign such apps to one or more users or groups before you can proceed. The existing user assignments from app permission policies aren't transferred and aren't applicable here.
 
     :::image type="content" source="media/acm-migration-availability.png" alt-text="Screenshot showing three tabs during migration that help you review and modify the app availability.":::
 
@@ -105,7 +105,7 @@ During migration, you can save a draft of the migration progress using the **Fin
 > [!NOTE]
 > The existing Manage apps UI gets disabled when you start the migration. If you aren't ready to proceed or want to make change to the exiting permission policies, open the wizard and select the Reset all changes option. You can restart the migration again.
 
-After migration, your blocked apps continue to remain unavailable to users. The status of such apps show as `unblocked` now, but the apps are assigned to `No one` in the `Available to` column on the Manage apps page. It means that org user can't use the app, just as you intended before.
+After migration, your blocked apps continue to remain unavailable to users. The statuses of such apps show as `unblocked` now, but the apps are assigned to `No one` in the `Available to` column on the Manage apps page. It means that org user can't use the app, just as you intended before.
 
 ## Add or modify app availability for users
 
@@ -144,7 +144,7 @@ The Org-wide app settings don’t apply to:
 * All apps that were assigned to Everyone or to No one and saved individually.
 * Any blocked apps.
 
-Consider a scenario where you started using the feature and all apps were assigned to everyone. Now, you changed an app's availability to a specific group or some users. After saving this change, if you change the Org-wide app setting titled **Let users install and use available apps by default**, then this particular app continues to be assigned to the specific group or users. Your change to the org-wide app setting applies only to those apps for which you didn't change the availability. Further, if you again change the **Let users install and use available apps by default** setting, the availability of all other apps are again impacted, except the app that you actively managed.
+Consider a scenario where you started using the feature and all apps were assigned to everyone. Now, you changed an app's availability to a specific group or some users. After you save this change, if you change the Org-wide app setting titled **Let users install and use available apps by default**, then this particular app continues to be assigned to the specific group or users. Your change to the org-wide app setting applies only to those apps for which you didn't change the availability. Further, if you again change the **Let users install and use available apps by default** setting, the availability of all other apps is again impacted, except the app that you actively managed.
 
 ## View apps in your organization
 
