@@ -175,7 +175,7 @@ Implement QoS settings for clients and network devices, and determine how you wa
 
 - Mac and mobile (iOS and Android) clients use hard-coded values for audio (EF) and video and application/screen sharing (AF41). Teams Phone devices also use the default value for audio (EF). However, QoS must be enabled globally in the Teams Admin Center for this to function. See [Configure QoS in the Teams admin center](meetings-real-time-media-traffic.md) for details on enabling the **Insert Quality of Service (QoS) markers** for real-time media traffic” setting.
 
-- For information on configuring DSCP markings for Microsoft Teams Rooms (Windows and Android), see [Quality of Service (QoS) configuration on Teams Rooms devices](./devices/qos-on-teams-devices).
+- For information on configuring DSCP markings for Microsoft Teams Rooms (Windows and Android), see [Quality of Service (QoS) configuration on Teams Rooms devices](./devices/qos-on-teams-devices.md).
 
 - For information on configuring DSCP markings for Surface Hub devices running Windows 10 Team OS , see [Manage Surface Hub with an MDM Provider](/surface-hub/manage-settings-with-mdm-for-surface-hub).
 
