@@ -313,7 +313,7 @@ The following figure shows the call flow.
 
  **One-level interactive call flow**
 
-![Design Call Flows by Using Interactive Voice Respo.](../../media/Ops_OCS_RGS_IVRLevel1.jpg)
+![Chart shows design call flows by using Interactive Voice Response.](../../media/Ops_OCS_RGS_IVRLevel1.jpg)
 
 #### IVR with Two Levels of Questions
 
@@ -345,7 +345,7 @@ The following figure shows the call flow.
 
  **Two-level interactive call flow**
 
-![Design Call Flows by Using Interactive Voice Respo.](../../media/Ops_OCS_RGS_IVRLevel2.jpg)
+![Chart shows two-level interactive call flow.](../../media/Ops_OCS_RGS_IVRLevel2.jpg)
 
 ### Best Practices
 

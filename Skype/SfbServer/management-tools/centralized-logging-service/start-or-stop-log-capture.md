@@ -44,15 +44,15 @@ The Centralized Logging Service provides two ways to issue commands. A number of
    Start-CsClsLogging -Scenario AlwaysOn
    ```
 
-    > [!NOTE]
-    > The AlwaysOn scenario has no default duration. This scenario will run until you explicitly stop it with the **Stop-CsClsLogging** cmdlet. For details, see [Stop-CsClsLogging](/powershell/module/skype/stop-csclslogging?view=skype-ps). For all other scenarios, the default duration is 4 hours. 
+   > [!NOTE]
+> The AlwaysOn scenario has no default duration. This scenario will run until you explicitly stop it with the **Stop-CsClsLogging** cmdlet. For details, see [Stop-CsClsLogging](/powershell/module/skype/stop-csclslogging?view=skype-ps). For all other scenarios, the default duration is 4 hours. 
   
 3. Press Enter to run the command. 
     
     > [!NOTE]
-    > It may take a short amount of time (30 to 60 seconds) for the commands to run and to receive the status back from the computers in your deployment. 
+> It may take a short amount of time (30 to 60 seconds) for the commands to run and to receive the status back from the computers in your deployment. 
   
-     ![Running Start-CsClsLogging.](../../media/Ops_CLS_Show_and_Start_ClsLogging.jpg)
+     ![Screenshot shows the result of the  Start-CsClsLogging cmdlet.](../../media/Ops_CLS_Show_and_Start_ClsLogging.jpg)
   
 4. To start another scenario, use the **Start-CsClsLogging** cmdlet with the name of the additional scenario to run as follows (for example, the scenario **Authentication**):
     
@@ -77,7 +77,7 @@ The Centralized Logging Service provides two ways to issue commands. A number of
 
     The successful execution of this scenario returns a result like the following:
     
-     ![Running Start-CsClsLogging.](../../media/Ops_CsClsLogging_UserReplicator_Exp.jpg)
+     ![Screenshot shows Start-CsClsLogging results.](../../media/Ops_CsClsLogging_UserReplicator_Exp.jpg)
   
 Note that in this example, the AlwaysOn scenario is running and the UserReplicator scenario is running. 
     

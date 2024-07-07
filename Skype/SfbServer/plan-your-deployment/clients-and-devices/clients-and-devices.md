@@ -67,7 +67,7 @@ If Skype for Business is not installed on a user's computer and the user clicks 
 
 ### Skype for Business Web Scheduler
 
-[Skype for Business Web Scheduler](https://sched.lync.com) is a web-based meeting scheduling and management tool for users of Skype for Business Online who don't have access to Microsoft Outlook, or who are on an operating system not based on Windows. With Skype for Business Web Scheduler, users can create new meetings, modify existing meetings, and send invitations using their preferred email program. Skype for Business Web Scheduler [documentation](https://support.office.com/article/Skype-for-Business-Web-Scheduler-3b24a211-6470-4a2d-81b7-22d9399d0fec?ui=en-US&amp;rs=en-US&amp;ad=US)  provides further details.
+Skype for Business Web Scheduler is a web-based meeting scheduling and management tool for users of Skype for Business Online who don't have access to Microsoft Outlook, or who are on an operating system not based on Windows. With Skype for Business Web Scheduler, users can create new meetings, modify existing meetings, and send invitations using their preferred email program. Skype for Business Web Scheduler [documentation](https://support.office.com/article/Skype-for-Business-Web-Scheduler-3b24a211-6470-4a2d-81b7-22d9399d0fec?ui=en-US&amp;rs=en-US&amp;ad=US)  provides further details.
 
 ### VDI plugins
 
