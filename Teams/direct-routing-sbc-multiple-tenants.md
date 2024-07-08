@@ -46,7 +46,7 @@ To configure an SBC to support multiple tenants, the following steps are require
 **Carrier only:**
 1. Deploy the SBC and configure it for the hosting scenario according to the [instructions from the certified SBC vendors](#deploy-and-configure-the-sbc).
 2. Register a base domain name in the carrier tenant and request a wildcard certificate.
-3. Register a subdomain for every customer, which is part of the base domain.
+3. Activate the base domain name in the carrier tenant.
 
 **Carrier with a Customer Global Administrator:**
 1. Add the subdomain name to the customer tenant.
@@ -105,8 +105,8 @@ The following table is an example of one configuration.
 |---------|---------|---------|---------|---------|---------|
 | sbc1.adatum.biz |    Base     |     In carrier tenant  |   *.sbc1.adatum.biz   |   adatum.biz      |NA, this is a service tenant, no users |
 | woodgrovebank.sbc1.adatum.biz   |  Subdomain  |    In a customer tenant  |  *.sbc1.adatum.biz  | woodgrovebank.us  |  woodgrovebank.sbc1.adatum.biz |
-| contoso.sbc1.adatum.biz |   Subdomain | In a customer tenant   |  *.sbc1.adatum.biz   |contoso.com | Contoso.sbc1.adatum.biz |
-| adventureworks.sbc1.adatum.biz  |   Subdomain | In a customer tenant | .sbc1.adatum.biz   |  adventureworks.com | Adventureworks.sbc1.adatum.biz  |
+| contoso.sbc1.adatum.biz |   Subdomain | In a customer tenant   |  *.sbc1.adatum.biz   |contoso.com | contoso.sbc1.adatum.biz |
+| adventureworks.sbc1.adatum.biz  |   Subdomain | In a customer tenant | *.sbc1.adatum.biz   |  adventureworks.com | adventureworks.sbc1.adatum.biz  |
 
 
 The example in this article:
@@ -253,7 +253,7 @@ Two new entities were introduced:
 
 **Provisioning logic and example**
 
-- Carriers need to set up and manage only a single trunk (the carrier trunk in the carrier domain) by using the Set-CSOnlinePSTNGateway command. In the preceding example, the trunk is *adatum.biz*.
+- Carriers need to set up and manage only a single trunk (the carrier trunk in the carrier domain) by using the New-CSOnlinePSTNGateway command. In the preceding example, the trunk is sbc1.adatum.biz.
 
 - In the customer tenant, the carrier needs to add the derived trunk FQDN to the voice routes. There is no need to run New-CSOnlinePSTNGateway for a trunk.
 
