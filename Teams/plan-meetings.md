@@ -32,7 +32,7 @@ description: Learn how to plan for meetings in Microsoft Teams.
 
 This article is for administrators and IT professionals who are managing Teams meetings capabiities for their organization. This article introduces types of meetings, features and functionality, and provides links to more information. This article contains the following sections:
 
-- [Meetings](#meetingsmeetings)
+- [Meetings](#meetings)
 - [Audio Conferencing for meetings](#audio-conferencing-for-meetings)
 - [Guests and external participants](#meeting-options-for-guests-and-external-participants)
 - [Attendee limits and streaming options](#attendee-limits-and-streaming-options)
