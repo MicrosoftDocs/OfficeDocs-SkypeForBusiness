@@ -8,7 +8,7 @@ ms.service: msteams
 ms.subservice: teams-apps
 ms.custom: intro-get-started
 audience: admin
-ms.date: 07/04/2024
+ms.date: 07/08/2024
 ms.collection: 
   - M365-collaboration
   - tier2
@@ -80,29 +80,29 @@ Outcomes of app availability setting applied to a particular app.
 
 | Teams admin center                                  | Microsoft 365 admin center                           | Unification outcome                                         |
 |-----------------------------------------------------|------------------------------------------------------|-------------------------------------------------------------|
-| No one                                              | No one                                               | No one                                                      |
-| No one                                              | Everyone                                             | Everyone                                                    |
-| No one                                              | Specific users & groups                              | Specific users & groups                                     |
-| Specific users & groups                             | Specific users & groups                              | Specific users & groups                                     |
-| Specific users & groups (example: Marketing, Legal) | Specific users & groups (example: Marketing, Design) | Specific users & groups (example: Legal, Design, Marketing) |
-| Specific users & groups                             | No one                                               | Specific users & groups                                     |
-| Everyone                                            | Everyone                                             | Everyone                                                    |
-| Everyone                                            | No one                                               | Everyone                                                    |
-| Everyone                                            | Specific users & groups                              | Everyone                                                    |
+| No one                                              | No user in the organization can install              | No one                                                      |
+| No one                                              | All users in the organization can install            | Everyone                                                    |
+| No one                                              | Specific users/groups can install                    | Specific users & groups                                     |
+| Specific users & groups                             | Specific users/groups can install                    | Specific users & groups                                     |
+| Specific users & groups (example: Marketing, Legal) | Specific users/groups can install (example: Marketing, Design) | Specific users & groups (example: Legal, Design, Marketing) |
+| Specific users & groups                             | No user in the organization can install              | Specific users & groups                                     |
+| Everyone                                            | All users in the organization can install            | Everyone                                                    |
+| Everyone                                            | No user in the organization can install              | Everyone                                                    |
+| Everyone                                            | Specific users/groups can install                    | Everyone                                                    |
 
 Outcomes of app deployment setting applied to a particular app.
 
 | Teams admin center                                  | Microsoft 365 admin center                           | Unification outcome                                         |
 |-----------------------------------------------------|------------------------------------------------------|-------------------------------------------------------------|
-| No one                                              | No one                                               | No one                                                      |
-| No one                                              | Specific users & groups                              | Specific users & groups                                     |
-| No one                                              | Everyone                                             | Everyone                                                    |
-| Specific users & groups                             | No one                                               | Specific users & groups                                     |
-| Specific users & groups (example: Marketing, Legal) | Specific users & groups (example: Marketing, Design) | Specific users & groups (example: Legal, Design, Marketing) |
-| Specific users & groups                             | Everyone                                             | Everyone                                                    |
-| Everyone                                            | No one                                               | Everyone                                                    |
-| Everyone                                            | Specific users & groups                              | Everyone                                                    |
-| Everyone                                            | Everyone                                             | Everyone                                                    |
+| No one                                              | -                                                    | No one                                                      |
+| No one                                              | Specific users/groups                                | Specific users & groups                                     |
+| No one                                              | Entire organization                                  | Everyone                                                    |
+| Specific users & groups                             | -                                                    | Specific users & groups                                     |
+| Specific users & groups (example: Marketing, Legal) | Specific users/groups (example: Marketing, Design)   | Specific users & groups (example: Legal, Design, Marketing) |
+| Specific users & groups                             | Entire organization                                  | Everyone                                                    |
+| Everyone                                            | -                                                    | Everyone                                                    |
+| Everyone                                            | Specific users/groups                                | Everyone                                                    |
+| Everyone                                            | Entire organization                                  | Everyone                                                    |
 | Everyone                                            | No state (default is `None`)                         | Everyone                                                    |
 
 ## Related articles
