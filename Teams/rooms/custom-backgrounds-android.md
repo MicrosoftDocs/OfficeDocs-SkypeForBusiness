@@ -114,7 +114,7 @@ When you create a custom background, avoid placing text, logos, or icons, near t
 - **Bottom left corner** - Tips.
   - **Size**: up to 42% of the screen width, up to 11% of the screen height depending on the display settings 
 - **Middle** - User actions.
-  - **Size**: vertically centered between the room information section and tips section, horizontally centered between the left edge and room calendar 
+  - **Size**: vertically centered between the room information section and tips section, horizontally centered between the left edge and the room calendar 
 - **Right side** - Room calendar.
   - **Size**: up to 44% of the screen width, up to 80% of the screen height depending on the display settings
 - **Bottom right corner** - Help.
