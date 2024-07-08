@@ -49,6 +49,10 @@ To learn how to apply retention labels to Teams meeting recordings, see [How to 
 
 If a Teams meeting recording fails to successfully upload to OneDrive because the user doesn't have OneDrive or SharePoint, or the storage quota is full, a "There was a problem uploading this recording to OneDrive" error message appears. The recording is instead temporarily saved to async media storage. Once the recording is in async media storage, no retry attempts are made to automatically upload the recording to OneDrive or SharePoint. During that time, the organizer must download the recording. The organizer can try to upload again if they get a OneDrive or SharePoint license, or if they clear some space in their storage quota. If not downloaded within 21 days, the recording is deleted.
 
+### Planning for storage
+
+The size of a one-hour recording is 400 MB. Make sure you understand the capacity required for recorded files and have sufficient storage available in OneDrive and SharePoint. Read [Set the default storage space for OneDrive](/sharepoint/set-default-storage-space) and [Manage SharePoint site storage limits](/sharepoint/manage-site-collection-storage-limits) to understand the base storage included in the subscription and how to purchase more storage.
+
 ## Viewing permissions
 
 For **non-Channel meetings**, all meeting invitees, except for external participants, automatically get a personally shared link. The meeting organizer must explicitly add external participants to the shared list.

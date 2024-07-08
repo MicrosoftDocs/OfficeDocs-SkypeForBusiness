@@ -107,6 +107,8 @@ items:
                   href: /microsoftteams/troubleshoot/teams-administration/resolve-new-teams-launch-issues
                 - name: Known issues in new Teams
                   href: new-teams-known-issues.md
+                - name: New VDI solution for Teams
+                  href: vdi-2.md
                 - name: Classic Teams client end of availability
                   href: teams-classic-client-end-of-availability.md
                 - name: Manually uninstall classic Teams client
@@ -366,6 +368,8 @@ items:
       items:
         - name: Overview
           href: manage-teams-with-policies.md
+        - name: Unified policies and settings management in Teams admin center
+          href: unified-policies-settings-management-teams-admin-center.md
         - name: Assign policies in Teams - getting started
           href: policy-assignment-overview.md
         - name: Assign policies to users and groups
@@ -770,7 +774,7 @@ items:
               href: teams-encoder-setup.md
         - name: Recording & transcription
           items:
-            - name: Teams meeting recording
+            - name: Manage Teams recording policies for meetings and events
               href: meeting-recording.md
             - name: Configure transcription and captions for Teams meetings
               href: meeting-transcription-captions.md
@@ -1322,12 +1326,8 @@ items:
               href: rooms/rooms-deploy.md
             - name: Prepare your environment
               href: rooms/rooms-prep.md
-            - name: AutoPilot and Autologin
-              href: rooms/autopilot-autologin.md
             - name: Create resource accounts 
               href: rooms/create-resource-account.md
-            - name: Set up using one-time passwords 
-              href: rooms/first-time-setup.md
             - name: Authentication
               items:
               - name: Deploy LAPs
@@ -1366,7 +1366,7 @@ items:
               href: rooms/xml-config-file.md   
             - name: Feature management
               items:
-                - name: Enable home screen refresh
+                - name: Teams Rooms Home screen
                   href: rooms/mtr-home-refresh.md
                 - name: Remotely configure front row layout
                   href: rooms/manage-front-row.md
@@ -1391,49 +1391,63 @@ items:
             - name: Known issues
               href: /microsoftteams/troubleshoot/teams-devices-and-rooms/rooms-known-issues
     - name: Microsoft Teams Rooms Pro Management
-      items: 
-        - name: Overview
-          href: rooms/rooms-pro-management.md
-        - name: Accessing the Pro Management portal
-          href: rooms/enrolling-mtrp-managed-service.md
-        - name: Enroll a device into Pro management
-          href: rooms/enroll-a-device.md
-        - name: Bring Your Own Device
-          href: rooms/bring-your-own-device.md  
-        - name: Create a one-time password
-          href: rooms/create-otp.md
-        - name: Role-based access control
-          href: rooms/rooms-pro-rbac.md
-        - name: Bookable Desks
-          href: rooms/bookable-desks.md
-        - name: Connected peripheral information
-          href: rooms/get-peripheral-information.md 
-        - name: Monitoring and maintaining Rooms
-          href: rooms/managed-meeting-rooms-portal.md
-        - name: Signal settings
-          href: rooms/signal-settings.md  
-        - name: Remote access a Teams Room console
-          href: rooms/remotely-access-teams-rooms.md 
-        - name: Managed updates
-          href: rooms/update-management.md 
-        - name: Configure ServiceNow
-          href: rooms/microsoft-teams-rooms-configure-servicenow.md
-        - name: Resource accounts
-          href: rooms/resource-accounts.md
+      items:
+        - name: Getting started
+          items:
+          - name: Overview
+            href: rooms/rooms-pro-management.md
+          - name: Accessing the Pro Management portal
+            href: rooms/enrolling-mtrp-managed-service.md
+          - name: Enroll a device into Pro management
+            href: rooms/enroll-a-device.md
+          - name: Role-based access control
+            href: rooms/rooms-pro-rbac.md
+          - name: Resource accounts
+            href: rooms/resource-accounts.md
+          - name: Bring your own device (BYOD) spaces
+            items:
+                - name: Bring Your Own Device (BYOD)
+                  href: rooms/bring-your-own-device.md  
+                - name: Bookable Desks
+                  href: rooms/bookable-desks.md
+                - name: Add peripherals to inventory
+                  href: rooms/get-peripheral-information.md 
+        - name: Planning and deployment
+          items:
+          - name: Standards and Rooms Planner 
+            href: rooms/standards-and-room-planner.md
+          - name: Create a one-time password
+            href: rooms/create-otp.md
+          - name: Set up using one-time passwords 
+            href: rooms/first-time-setup.md
+          - name: AutoPilot and Autologin
+            href: rooms/autopilot-autologin.md
+        - name: Monitoring and maintenance
+          items:
+          - name: Monitoring and maintaining Teams Rooms
+            href: rooms/managed-meeting-rooms-portal.md
+          - name: Signal settings
+            href: rooms/signal-settings.md  
+          - name: Remote access a Teams Room console
+            href: rooms/remotely-access-teams-rooms.md 
+          - name: Managed updates
+            href: rooms/update-management.md 
+          - name: Configure ServiceNow
+            href: rooms/microsoft-teams-rooms-configure-servicenow.md
+          - name: Audit logs for activities
+            href: rooms/multi-tenant-auditing.md
+          - name: Viewing events
+            href: rooms/view-events.md
+          - name: Record an issue 
+            href: rooms/customer-reported-incidents.md
         - name: Multi-tenant management for partners
           href: rooms/multi-tenant-management-partner.md
         - name: Multi-tenant management for customers
           href: rooms/multi-tenant-management-customer.md
-        - name: Audit logs for Rooms activities
-          href: rooms/multi-tenant-auditing.md
-        - name: Viewing events
-          href: rooms/view-events.md
-        - name: Health and usage reports
-          href: rooms/health-and-usage-reports.md
-        - name: Standards and Rooms Planner 
-          href: rooms/standards-and-room-planner.md
-        - name: Record an issue 
-          href: rooms/customer-reported-incidents.md
+        - name: Analytics, reports, and insights
+          items: 
+          - name: Health and usage reports
+            href: rooms/health-and-usage-reports.md
         - name: Data and privacy information
           href: rooms/data-and-privacy-info.md
     - name: Devices
@@ -1464,7 +1478,7 @@ items:
                       href: devices/use-teams-panels.md
                     - name: App support on Teams panels  
                       href: app-support-on-Teams-panels.md
-                    - name: Check-in and room release 
+                    - name: Check-in and auto release
                       href: devices/check-in-and-room-release.md
                     - name: Reserve rooms with a QR code
                       href: devices/reserving-rooms-with-a-qr-code.md
@@ -1482,8 +1496,6 @@ items:
               href: set-up-common-area-phones.md
             - name: Set up a common area mobile phones
               href: devices/common-area-mobile-phones.md
-            - name: Set up auto answer for Teams Android devices
-              href: set-up-auto-answer-on-teams-android.md
             - name: Remote provisioning and sign-in
               href: devices/remote-provision-remote-login.md
             - name: Remote sign in and sign out
