@@ -109,10 +109,10 @@ See [Grant-CsTeamsMediaLoggingPolicy](/powershell/module/teams/grant-csteamsmedi
 Media logs contain diagnostic data about audio, video, and screen sharing in Teams meetings. They are required for support cases that are linked to call-related issues.
 
 > [!NOTE]
-> In __New Teams__ Media Logging is disabled by default for all clients.<br>
+> In __new Teams__ media logging is disabled by default for all clients.<br>
 > End user configuration is not available in New Teams. Please use [Admin configuration](#admin-configuration-1) to manage media logging in New Teams.
 
-In __Teams Classic__ Media logging is turned on by default for computers if your CPU is:
+In __classic Teams__ media logging is turned on by default for computers if your CPU is:
 
 - any Apple M1
 - any Intel Xeon
