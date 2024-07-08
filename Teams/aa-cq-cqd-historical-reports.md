@@ -228,6 +228,7 @@ You have to refresh the report to see any new data.
 |Name                                    |Data Type                |Description                                                                              |
 |:---------------------------------------|:------------------------|:----------------------------------------------------------------------------------------|
 |AA Name                                 |Text                     |Name of the resource account attached to the Auto Attendant<br><br>If the full Resource Account name is **aa_test@microsoft.com**, then this value is: **aa_test** |
+|AA Start Date Local                     |Date                     |Auto Attendant call start date - Local (based on selected UTC Offset)                    |
 |AA Start Hour                           |Whole Number             |Auto Attendant call start hour - Local (based on selected UTC Offset)                    |
 |AA Start Time Local                     |Date/time                |Auto Attendant call start time - Local (based on selected UTC Offset)                    |
 |AA Start Time UTC                       |Date/time                |Auto Attendant call start time - UTC                                                     |
@@ -251,9 +252,9 @@ You have to refresh the report to see any new data.
 |Call End Time UTC                       |Date/time                |Call end time - UTC                                                                      |
 |Call Start Time Local                   |Date/time                |Call start time - Local (based on selected UTC Offset)                                   |
 |Call Start Time UTC                     |Date/time                |Call start time - UTC                                                                    |
-|ConferenceID                            |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
-|DialogID                                |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
-|DocumentID                              |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
+|ConferenceID (Per Day only)             |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
+|DialogID (Per Day only)                 |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
+|DocumentID (Per Day only)               |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
 |MM-DD                                   |Text                     |Auto Attendant call month-day                                                            |
 |PSTNMinutes                             |Whole number             |Summarize: Sum<br>Total minute usage                                                     |
 |TotalCallCount                          |Whole number             |Summarize: Sum<br>Always 1 - used to provide sum of all calls                            |
@@ -270,6 +271,7 @@ You have to refresh the report to see any new data.
 |Call Count Sum (Measure)                |Whole number             |Call Count Sum - zero instead of blank                                                   |
 |Call Count Sum Abandoned (Measure)      |Whole number             |Call Count Abandoned - zero instead of blank                                             |
 |Call Duration Seconds                   |Whole number             |Summarize: Sum<br>Call duration                                                          |
+|Call Duration Seconds AVG (Measure)     |While number             |Average Call Duration Seconds                                                            |
 |Call End Time Local                     |Date/time                |Call end time - Local (based on selected UTC Offset)                                     |
 |Call End Time UTC                       |Date/time                |Call end time - UTC                                                                      |
 |Call Queue Agent Count                  |Whole number             |Summarize: Sum<br>Number of agents configured in the Call queue                          |
@@ -280,13 +282,13 @@ You have to refresh the report to see any new data.
 |Call Queue Target Type Legend           |Text                     |Legend items for Call Queue Target Type. Possible values:<br><ul><li>**Abandoned** - the caller hung up before an agent could answer or before timeout occurred</li><li>**Agent Answered (Call)** - the caller was answered by an agent</li><li>**Agent Answered (Callback)** - the callback was answered by an agent</li><li>**Overflowed (Application)** - the call overflow exception occurred - call routed to another application</li><li>**Overflowed (Disconnect)** - the call overflow exception occurred - call disconnected</li><li>**Overflowed (External)** - the call overflow exception occurred - call was transferred externally</li><li>**Overflowed (User)** - the call overflow exception occurred - call was transferred to a Person in the organization</li><li>**Overflowed (Voicemail)** - the call overflow exception occurred - call was transferred to shared voicemail</li><li>**Timed Out (Application)** - the call timeout exception occurred - call routed to another application</li><li>**Timed Out (Disconnect)** - the call timeout exception occurred - call was disconnected</li><li>**Timed Out (External)** - the call timeout exception occurred - call was transferred externally</li><li>**Timed Out (User)** - the call timeout exception occurred - call was transferred to a Person in the organization</li><li>**Timed Out (Voicemail)** - the call timeout exception occurred - call was transferred to shared voicemail</li><li>**No Agents (Application)** - the no agents exception occurred - call was routed to another application</li><li>**No Agents (Disconnect)** - the no agents exception occurred - call was disconnected</li><li>**No Agents (External)** - the no agents exception occurred - call was transferred externally</li><li>**No Agents (User)** - the no agents exception occurred - call was transferred to a Person in the organization</li><li>**No Agents (Voicemail)** - the no agents exception occurred - call was transferred to shared voicemail</li></ul> |
 |Call Start Time Local                   |Date/time                |Call start time - Local (based on selected UTC Offset)                                   |
 |Call Start Time UTC                     |Date/time                |Call start time - UTC                                                                    |
-|ConferenceID                            |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
+|ConferenceID (Per Call only)            |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
 |CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value is: **cq_test** |
 |CQHour                                  |Whole Number             |Call queue call start hour                                                               |
 |Date                                    |Date/time                |Call queue call start date and time (hour)                                               |
 |DateTimeCQName                          |Text                     |Unique key for filtering on fCallQueueFinalStateAction                                   |
-|DialogID                                |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
-|DocumentID                              |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
+|DialogID (Per Call only)                |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
+|DocumentID (Per Call only)              |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
 |PSTN Connectivity Type                  |Text                     |See [Common Dimensions -> PSTNConnectivityType](#common-dimensions)                      |
 |PSTN Total Minutes                      |Whole number             |Summarize: Sum<br>Total minutes usage for PSTN calls                                     |
 
