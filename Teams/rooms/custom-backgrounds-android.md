@@ -24,10 +24,12 @@ description: Learn how to set up custom backgrounds on Teams Rooms on Android fr
 
 # Set up and manage Teams Rooms on Android custom backgrounds
 
+This feature is in Preview.
+
 You can create custom background images for your Teams Rooms on Android devices to showcase your brand or to provide instructions and support information to Teams Rooms users. For example, you can add your company logo and include contact information for your organization's help desk to your custom background.
 
 Your ability to deploy custom backgrounds depends on the version of Teams Rooms on Android app installed on your device and the license of the account logged in on the device:
-- Your Teams Rooms on Android device must be running on version 1449/1.0.96.2024XXXX or later.
+- Your Teams Rooms on Android device must be running on version 1449/1.0.96.2024070201 or later.
 - The account signed in on your Teams Rooms on Android device must be assigned with a Teams Rooms Pro license.
 
 To set up and manage custom backgrounds for your Teams Rooms on Android devices, log into **Teams admin center** > go to **Teams devices** > **Teams Rooms on Android** > select **Configuration profiles** > **Add** or **Edit** > **Device settings** > **Background** > select **Upload a custom background**. You can upload up to three images and specify which one goes to the main display, extended display, or touch console. You also have the option to reuse the main display image for the extended display.  
@@ -108,15 +110,15 @@ When you create a custom background, avoid placing text, logos, or icons, near t
 When you create a custom background, avoid placing text, logos, or icons, near these locations:
 
 - **Upper left corner** - Time and room information.
-  - **Size**: Y x Z
+  - **Size**: up to 42% of the screen width, up to 32% of the screen height depending on the display settings
 - **Bottom left corner** - Tips.
-  - **Size**: Y x Z 
+  - **Size**: up to 42% of the screen width, up to 11% of the screen height depending on the display settings 
 - **Middle** - User actions.
-  - **Size**: Y x Z 
+  - **Size**: vertically centered between the room information section and tips section, horizontally centered between the left edge and room calendar 
 - **Right side** - Room calendar.
   - **Size**: up to 44% of the screen width, up to 80% of the screen height depending on the display settings
 - **Bottom right corner** - Help.
-  - **Size**: Y x Z 
+  - **Size**: up to 4% of the screen width, up to 7% of the screen height depending on the display settings 
     
 **16:9 - Touch console dimensions**
 
@@ -147,12 +149,12 @@ The template is a .PSD file that can be opened by apps such as Adobe Photoshop o
 
 ### Deploy custom backgrounds
 
-After you've created backgrounds:
+After you've created background images:
 1. Save them with unique and descriptive filenames. For example, `ContosoBackground-Right-FoR.jpg` (main/right display), `ContosoBackground-Left-FoR.jpg` (extended/left display), and `ContosoBackground-Console.jpg` (touch console display). 
 2. Upload them to the Teams Rooms on Android configuration profile in the Teams admin center. 
 3. Assign the Teams Rooms on Android configuration profile to any Teams Rooms on Android device with a Teams Rooms Pro license.
 
-Once the images are saved in the configuration profile, and the configuration profile is assigned to Teams Rooms on Android devices with a Teams Rooms Pro license, the custom background image will be applied to the devices at the next device restart.
+Once the custom images are saved in the configuration profile, and the configuration profile has been subsequently assigned to Teams Rooms on Android devices with a Teams Rooms Pro license, the custom images will be applied as the background of the device.
 
 On your Teams Rooms on Android device settings, you can switch the background of your device from the custom image to one of the Teams built-in images, or vice versa: go to **Teams Admin Settings** > **General** > **Background** > select another background thumbnail as desired. To change the custom image saved on the device, you'll need to make the update from the Teams admin center.   
 
