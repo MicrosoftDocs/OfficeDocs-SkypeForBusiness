@@ -115,8 +115,6 @@ The example in this article:
 
 2. [Registers a subdomain in one customer tenant (woodgrovebank.sbc1.adatum.biz in the Woodgrove Bank tenant)](#register-a-subdomain-name-in-a-customer-tenant---example).
 
-> [!NOTE]
-> Use sbcX.sbc1.adatum.biz to enable voice in the carrier tenant; sbcX can be any unique and valid alphanumeric hostname.
 
 ## Register a base domain name in the carrier tenant - Example
 
