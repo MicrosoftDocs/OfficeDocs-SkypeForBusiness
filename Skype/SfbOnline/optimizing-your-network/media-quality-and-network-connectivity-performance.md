@@ -135,14 +135,14 @@ For optimal Skype for Business media quality, the following network performance 
   
 - The Microsoft network has over 160 Edge locations worldwide. We work with major Internet Service Providers (ISPs) worldwide through those Edge sites. The latency metric target assumes your company site or sites and the Microsoft Edges are on the same continent.
     
-- Your company site or sites to the Microsoft network Edge connection include first hop network access, which can be WiFi or another wireless technology. 
+- Your company site or sites to the Microsoft network Edge connection include first hop network access, which can be WiFi or another wireless technology.
     
 - The network performance target assumes proper bandwidth and/or quality-of-service planning. In other words, This applies directly to Skype for Business Real-Time media traffic when the network connection is under a peak load.
 
 ## Measuring network performance
 <a name="bkNetworkPerf"> </a>
 
-To measure the actual network performance, especially for latency and packet loss, from any company network site to a network Edge, you can use tools such as ping, test against a set of Skype for Business media relay services running from the Microsoft Edge and data center sites. 
+To measure the actual network performance, especially for latency and packet loss, from any company network site to a network Edge, you can use tools such as ping, test against a set of Skype for Business media relay services running from the Microsoft Edge and data center sites.
 
 >[!NOTE]
 > Measuring network performance through ping (ICMP) is not effective. For that reason, the anycast IP expose below will stop answering to ICMP requests starting in Jan, 2020. To measure network performace effectively, Microsoft recommends the [Network Assesment Tool](https://www.microsoft.com/download/details.aspx?id=53885).
@@ -160,7 +160,7 @@ For testing Internet connections to the Microsoft network, it is recommended tha
     
 - You should assess and gather data for all of your networks over a long period of time. We recommend for you to perform your testing of network performance for a minimum of a week, so that you can see usage patterns for all business days and hours. This will show you peak times.
     
-- You should take multiple samples of network performance measurements. We recommend taking a measurement every 10 minutes from a company site during the entire period of time you are gathering data. For comparing the Microsoft Teams network performance requirements, take the 90th percentile measurement value from this sample data set. 
+- You should take multiple samples of network performance measurements. We recommend taking a measurement every 10 minutes from a company site during the entire period of time you are gathering data. For comparing the Microsoft Teams network performance requirements, take the 90th percentile measurement value from this sample data set.
     
 - You should continuously assess the network's performance. Network utilization varies over time due to usage pattern changes, new enterprise-based applications that use a large amount of bandwidth, and changes to your organizational or physical company locations. It is important for you to continuously monitor your network performance against these network performance requirements and targets/thresholds and make timely adjustments to ensure the most optimal Real-Time media quality. 
     
