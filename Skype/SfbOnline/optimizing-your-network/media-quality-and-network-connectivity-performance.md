@@ -137,11 +137,10 @@ For optimal Skype for Business media quality, the following network performance 
 - Your company site or sites to the Microsoft network Edge connection include first hop network access, which can be WiFi or another wireless technology. 
     
 - The network performance target assumes proper bandwidth and/or quality-of-service planning. In other words, This applies directly to Skype for Business Real-Time media traffic when the network connection is under a peak load.
-    
-<a name="bkYourNetworkEdge"> </a>
 
 ## Measuring network performance
 <a name="bkNetworkPerf"> </a>
+<a name="bkYourNetworkEdge"> </a>
 
 To measure the actual network performance, especially for latency and packet loss, from any company network site to a network Edge, you can use tools such as ping, test against a set of Skype for Business media relay services running from the Microsoft Edge and data center sites. 
 
@@ -173,8 +172,6 @@ Instead of testing against the Microsoft network Edge sites, there are network a
 For those network assessment solutions based on Azure hosted testing services. We recommend performing the network assessment within country and/or region. For example, for customer sites in east U.S., the assessment should be performed against a testing service instance hosted in Azure's east US data center region. 
   
 Below are the latency (RTT) targets for the Azure service-based network assessment setup. The one-way latency targets will be half of the corresponding RTT targets. The packet loss and jitter goals stay the same as those defined for Skype Media Relay based testing.
-  
-
 
 |**Customer region** <br/> |**Azure region** <br/> |**Your network Edge - Azure Round-trip Time (RTT)** <br/> |**Your Site - Azure Round-trip Time (RTT)** <br/> |
 |:-----|:-----|:-----|:-----|
