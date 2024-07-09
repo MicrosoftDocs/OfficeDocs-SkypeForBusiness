@@ -126,7 +126,7 @@ For optimal Skype for Business media quality, the following network performance 
 |**Metric** |**Optimal** |**Poor** |
 |:-----|:-----|:-----|
 |Round Trip Time (RFC 3550) |< 60 ms |> 500 ms |
-|Max Packet Loss (RFC 3550) |< 5% |> 25% |
+|Maximum Packet Loss (RFC 3550) |< 5% |> 25% |
 |Average Packet Loss (RFC 3550) |< 0.5% |> 10% |
 |Packet Jitter (RFC 3550) |< 3 ms |> 30 ms |
    
