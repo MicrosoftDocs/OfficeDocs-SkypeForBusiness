@@ -1,10 +1,10 @@
 ---
 ms.date: 11/28/2017
 title: "Media Quality and Network Connectivity Performance"
-ms.author: tonysmit
-author: tonysmit
-manager: serdars
-ms.reviewer: mpottier, dougand
+ms.author: MicrosoftHeidi
+author: heidip
+manager: jtremper
+ms.reviewer: justw, joraffer
 ms.topic: article
 ms.assetid: 5fe3e01b-34cf-44e0-b897-b0b2a83f0917
 ms.tgt.pltfrm: cloud
