@@ -117,7 +117,7 @@ Perform the following steps:
 
 4. Select the **DataSource**, **Report Level**, and **UTC Offset**.  
 
-   :::image type="content" source="media/aa-cq-historical-report-01-v316.png" alt-text="Screenshot showing the DataSource, Report Level, and UTC Offset selections.":::
+   :::image type="content" source="media/aa-cq-historical-report-01-v317.png" alt-text="Screenshot showing the DataSource, Report Level, and UTC Offset selections.":::
 
     - **DataSource**: Select the `api.interfaces.records.teams.microsoft.com` entry.
     - **Report Level**:
