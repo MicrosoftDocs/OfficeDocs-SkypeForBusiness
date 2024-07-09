@@ -99,9 +99,6 @@ You can learn more at [Uninstall an app with Intune for Windows](/mem/intune/app
 - **When will classic Teams be removed automatically?**
   If the policy is set to **New Teams only**, Classic Teams will be uninstalled some time after the new Teams installation completes, and once users receive the new Teams policy settings. If the Teams Machine-Wide Installer is present, Microsoft 365 Apps can uninstall it for each user as they sign in.
 
-> [!NOTE]
-> If the administrator has changed policies to T2.1 Default before the classic client's been removed, then classic Teams will be retained. If the policy is changed too late, classic Teams will need to be reinstalled by a user or an admin.
-
 - **How much network bandwidth is required for the new Teams update?**
   The initial update is approximately 150 MB, with subsequent updates ranging from 15-30 MB. This update is automatically downloaded and installed from the internet once per device (multi-user devices do not download the binaries for each user). An admin can also choose to do an offline installation using the [bulk installer](new-teams-bulk-install-client.md). Subsequent updates should be 15-30MB, and the [MSIX app package updates](/windows/msix/desktop/managing-your-msix-deployment-update) article will have more details.
 
