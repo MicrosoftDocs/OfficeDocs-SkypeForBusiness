@@ -123,8 +123,8 @@ For optimal Skype for Business media quality, the following network performance 
 > [!CAUTION]
 > **Connectivity between a Skype for Business client on your company network to Microsoft 365 or Office 365 services must meet these following network performance requirements and thresholds.**
 
-|**Metric** <br/> |**Target** <br/> |
-|:-----|:-----|
+|**Metric** <br/> |**Optimal** <br/> |**Poor** <br/> |
+|:-----|:-----|:-----|
 |Latency (one way)  <br/> |< 50ms  <br/> |
 |Latency (RTT or Round-trip Time)  <br/> |< 100ms  <br/> |
 |Burst packet loss  <br/> |<10% during any 200ms interval  <br/> |
