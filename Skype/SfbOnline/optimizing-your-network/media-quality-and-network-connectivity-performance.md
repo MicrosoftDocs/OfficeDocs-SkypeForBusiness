@@ -55,7 +55,7 @@ It's important to remember that any media devices, Microsoft Teams clients, and 
   
 #### Environment
 
-The environment and surrounding area where users are meeting and using audio and video devices is another large factor for audio and video quality. Users calling from a noisy environment will have echoed, muffled, and unclear audio. Users in a dark or low light environment won't be able to produce bright, clear image quality for video. In a conference room setting, the location of the microphone and video device have a direct impact on the sound and image quality that participants will receive.
+The environment and surrounding area where users are meeting and using audio and video devices is another large factor for audio and video quality. Users calling from a noisy environment will have echoed, muffled, and unclear audio. Users in a dark or low light environment won't be able to produce bright, clear image quality for video. In a conference room setting, the location of the microphone and video device have a direct impact on the sound and image quality that participants receive.
   
 To get a clearer picture of a user's audio and video experience use the Skype for Business app **Tools** > **Options** > **Audio Device** or **Video Device** to make changes to the device in use and customize its settings.
 
@@ -67,7 +67,7 @@ The quality of the Real-Time media over IP network is greatly impacted by the qu
     
 - **Packet Loss** This is often defined as a percentage of packets that are lost in a given window of time. Packet loss directly affects audio quality—from small, individual lost packets having almost no impact, to back-to-back burst losses that cause complete audio cut-out.
     
-- **Inter-packet arrival jitter or simply jitter** This is the average change in delay between successive packets. Most modern VoIP software including Microsoft Teams can adapt to some levels of jitter through buffering. It's only when the jitter exceeds the buffering that a participant will notice the effects of jitter.
+- **Inter-packet arrival jitter or simply jitter** This is the average change in delay between successive packets. Most modern VoIP software including Microsoft Teams can adapt to some levels of jitter through buffering. It's only when the jitter exceeds the buffering that a participant notices the effects of jitter.
     
 > [!NOTE]
 >  Buffering for jitter will increase end-to-end latency.
@@ -76,7 +76,7 @@ With many concurrent Microsoft Teams Real-Time media sessions, and other network
   
 #### Implementing Quality of Service (QoS) across congested networks
 
-In addition, traffic congestion across a network will greatly impact media quality. To allow audio and video packets to travel the network quicker and to be prioritized over other network traffic in a congested network, Quality of Service (QoS) can be used to help provide an optimal end-user experience for audio and video communications.
+In addition, traffic congestion across a network greatly impacts media quality. To allow audio and video packets to travel the network quicker and to be prioritized over other network traffic in a congested network, Quality of Service (QoS) can be used to help provide an optimal end-user experience for audio and video communications.
   
 QoS provides a way for you to assign higher priorities to network packets that are carrying audio or video data. By assigning a higher priority to these packets, audio and video communications are likely to travel over the network faster, and with less interruption, than network sessions involving things like file transfers, web browsing, or database backups. That's because the network packets used for file transfers or database backups by default are assigned "best effort" as a priority and network congestion won't have as large impact. If you don't assign a higher priority to the media (audio, video, and application sharing) packets and leave them also assigned as "best effort", they too will be processed along with all other network traffic. Depending on the amount of network congestion, this will potentially end up in a lower overall audio and video quality experience for your users.
   
