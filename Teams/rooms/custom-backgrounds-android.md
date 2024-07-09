@@ -40,7 +40,9 @@ No matter how many screens your devices may have, the main display and extended 
 - If no image is uploaded for the touch console, a purple gradient default image will be displayed. 
 
 > [!NOTE]
-> In a dual screen set up, the main display is where the room calendar is shown and is meant to be installed on the right side; the extended display is where the date/time and room information is shown and is meant to be placed on the left side.### Supported resolutions
+> In a dual screen set up, the main display is where the room calendar is shown and is meant to be installed on the right side; the extended display is where the date/time and room information is shown and is meant to be placed on the left side.
+
+### Supported resolutions
 
 #### Minimum resolutions
 
