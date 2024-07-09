@@ -118,7 +118,7 @@ In a PSTN call scenario, the media path crosses the following network segments:
 ### Network Performance requirements from a Skype for Business client to Microsoft network Edge
 <a name="bkSfBClienttoEdge"></a>
 
-For optimal Skype for Business media quality, the following network performance metrics targets or thresholds are required for a connection from your company's network to the Microsoft network Edge. This segment of the network includes your internal network, this includes all WiFi and Ethernet connections, any company site-to-site traffic over a WAN connection, for example Multiprotocol Label Switching (MPLS), as well as the Internet or ExpressRoute partner connections to the Microsoft network Edge.
+For optimal Skype for Business media quality, the following network performance metrics targets or thresholds are required for a connection from your company's network to the Microsoft network Edge. This segment of the network includes your internal network, this includes all WiFi and Ethernet connections, any company site-to-site traffic over a WAN connection, for example Multiprotocol Label Switching (MPLS), and the Internet or ExpressRoute partner connections to the Microsoft network Edge.
   
 > [!CAUTION]
 > **Connectivity between a Skype for Business client on your company network to Microsoft 365 or Office 365 services must meet these following network performance requirements and thresholds.**
@@ -137,29 +137,6 @@ For optimal Skype for Business media quality, the following network performance 
 - Your company site or sites to the Microsoft network Edge connection include first hop network access, which can be WiFi or another wireless technology. 
     
 - The network performance target assumes proper bandwidth and/or quality-of-service planning. In other words, This applies directly to Skype for Business Real-Time media traffic when the network connection is under a peak load.
-    
-### Network performance requirements from your network Edge to Microsoft network Edge
-<a name="bkYourNetworkEdge"> </a>
-
-The following are the network performance targets or thresholds that are required for the connection between your network Edge and the Microsoft network Edge. This segment of the network excludes the customer's internal network or WAN, and is intended as guidance when testing your network traffic that is sent over the Internet, or through an ExpressRoute partner network and can also be used when negotiating a performance Service Level Agreement (SLA) with your ExpressRoute provider.
-  
-> [!CAUTION]
-> **Connectivity between your company network Edge to the Microsoft network edge must meet these following network performance requirements and thresholds.**
-
-|**Metric** <br/> |**Target** <br/> |
-|:-----|:-----|
-|Latency (one way)  <br/> |< 30ms  <br/> |
-|Latency (RTT)  <br/> |< 60ms  <br/> |
-|Burst packet loss  <br/> |<1% during any 200 ms interval  <br/> |
-|Packet loss  <br/> |<0.1% during any 15s interval  <br/> |
-|Packet inter-arrival Jitter  <br/> |<15ms during any 15s interval  <br/> |
-|Packet reorder  <br/> |<0.01% out-of-order packets  <br/> |
-   
- **Other performance target requirements:**
-  
-- The performance target requires connection between any of your company's network Edge and its nearest Microsoft network Edge, to be on the same continent.
-    
-- The network performance target assumes proper bandwidth and/or quality-of-service planning. This also applies to Skype for Business Real-Time media traffic when the network connection is under a peak load. For proper bandwidth and QoS planning, refer to [ExpressRoute and QoS in Microsoft Teams](https://support.office.com/article/ExpressRoute-and-QoS-in-Skype-for-Business-Online-20c654da-30ee-4e4f-a764-8b7d8844431d).
     
 ## Measuring network performance
 <a name="bkNetworkPerf"> </a>
