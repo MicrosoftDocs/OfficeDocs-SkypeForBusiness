@@ -123,12 +123,12 @@ For optimal Skype for Business media quality, the following network performance 
 > [!CAUTION]
 > **Connectivity between a Skype for Business client on your company network to Microsoft 365 or Office 365 services must meet these following network performance requirements and thresholds.**
 
-|**Metric** <br/> |**Optimal** <br/> |**Poor** <br/> |
+|**Metric** |**Optimal** |**Poor** |
 |:-----|:-----|:-----|
-|Round Trip Time (RFC 3550)  <br/> |< 60 ms  <br/> |> 500 ms  <br/> |
-|Max Packet Loss (RFC 3550)  <br/> |< 5%  <br/> |> 25%  <br/> |
-|Average Packet Loss (RFC 3550)  <br/> |<0.5%  <br/> |> 10%  <br/> |
-|Packet Jitter (RFC 3550)  <br/> |<3 ms  <br/> |> 30 ms  <br/> |
+|Round Trip Time (RFC 3550) |< 60 ms |> 500 ms |
+|Max Packet Loss (RFC 3550) |< 5% |> 25% |
+|Average Packet Loss (RFC 3550) |<0.5% |> 10% |
+|Packet Jitter (RFC 3550) |<3 ms |> 30 ms |
    
  **Other performance target requirements:**
   
