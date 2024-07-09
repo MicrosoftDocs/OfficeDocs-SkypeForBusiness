@@ -18,7 +18,7 @@ appliesto:
   - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Learn how to configure one Session Border Controller (SBC) to serve multiple tenants for Microsoft partners and/or PSTN carriers.
+description: Learn how to configure one Session Border Controller (SBC) to serve multiple tenants for Microsoft partners and/or Public Switched Telephone Network (PSTN) carriers.
 ms.custom: seo-marvel-apr2020
 ---
 
@@ -80,7 +80,7 @@ In the following example:
 - Adatum is a carrier that serves several customers by providing Internet and telephony services.
 - Woodgrove Bank, Contoso, and Adventure Works are three customers that have Microsoft 365  domains but receive the telephony services from Adatum.
 
-Subdomains **MUST** match the FQDN name of the trunk that will be configured for the customer and the FQDN in the Contact header when sending the Invite to Microsoft 365. 
+Subdomains **MUST** match the FQDN name of the trunk that is configured for the customer and the FQDN in the Contact header when sending the Invite to Microsoft 365. 
 
 When a call arrives at the Microsoft 365 Direct Routing interface, the interface uses the Contact header to find the tenant where the user should be looked up. Direct Routing doesn't use phone number lookup on the Invite, as some customers might have non-DID numbers that can overlap in several tenants. Therefore, the FQDN name in the Contact header is required to identify the exact tenant to look up the user by the phone number.
 
@@ -138,11 +138,11 @@ For more information about admin roles and how to assign a role in Microsoft 365
 
 2. In the **Enter a domain you own** box, type the FQDN of the base domain. In this example, the base domain is sbc1.adatum.biz.
 
-3. Click **Next**.
+3. Select **Next**.
 
-4. In this example, the tenant already has adatum.biz as a verified domain name. The wizard will not ask for additional verification because sbc1.adatum.biz is a subdomain for the already registered name. 
+4. In this example, the tenant already has adatum.biz as a verified domain name. The wizard won't ask for additional verification because sbc1.adatum.biz is a subdomain for the already registered name. 
 
-   However, if you add an FQDN that has not been verified before, you'll need to [verify the subdomain name](#add-a-subdomain-to-the-customer-tenant-and-verify-it).
+   However, if you add an FQDN that isn't verified, you'll need to [verify the subdomain name](#add-a-subdomain-to-the-customer-tenant-and-verify-it).
 
 5. Select **Next**, and on the **Update DNS Settings** page, select **I'll add the DNS records myself** and select **Next**.
 
@@ -150,7 +150,7 @@ For more information about admin roles and how to assign a role in Microsoft 365
 
 ### Activate the domain name in the carrier tenant
 
-After you have registered a domain name, you need to activate it by adding at least one Teams licensed user or resource account. Acceptable accounts will be licensed with any one of the following SKU’s:
+After you register a domain name, you need to activate it by adding at least one Teams licensed user or resource account. Acceptable accounts are licensed with any one of the following SKUs:
 
 - User Account with Office 365 E1/E3/E5 or Microsoft 365 E3/E5.
 - User Account with Office 365 A1/A3/A5 or Microsoft 365 A1/A3/A5.
@@ -167,7 +167,7 @@ For more information about adding users in Microsoft 365 organizations, see [Get
 
 ## Register a subdomain name in a customer tenant - Example
 
-You'll need to create a unique subdomain name for every customer. This example creates a subdomain woodgrovebank.sbc1.adatum.biz in a tenant with the default domain name woodgrovebank.us.
+You need to create a unique subdomain name for every customer. This example creates a subdomain woodgrovebank.sbc1.adatum.biz in a tenant with the default domain name woodgrovebank.us.
 
 **In the customer tenant,** you must:
 
@@ -191,7 +191,7 @@ For more information about admin roles and how to assign a role in Microsoft 365
 
 3. Select **Next**.
 
-4. The FQDN has never been registered in the tenant. In the next step, you'll need to verify the domain. Select **Add a TXT record instead**. 
+4. The FQDN hasn't been registered in the tenant. In the next step, you'll need to verify the domain. Select **Add a TXT record instead**. 
 
 5. Select **Next**, and note the **TXT value** generated to verify the domain name.
 
@@ -203,7 +203,7 @@ For more information about admin roles and how to assign a role in Microsoft 365
 
 8. On the next page, select **I'll add the DNS records myself** and select **Next**.
 
-9. On the **Choose your online services** page, clear all options and select **Next**.
+9. On the **Choose your online services** page, clear all options, and select **Next**.
 
 10. Select **Finish** on the **Update DNS settings** page.
 
@@ -214,7 +214,7 @@ For more information about admin roles and how to assign a role in Microsoft 365
 
 ### Activate the subdomain name in the customer tenant
 
-After you have registered a subdomain name, you need to activate it by adding at least one Teams licensed user or resource account. Acceptable accounts will be licensed with any one of the following SKU’s:
+After you register a subdomain name, you need to activate it by adding at least one Teams licensed user or resource account. Acceptable accounts are licensed with any one of the following SKUs:
 
 -	User Account with Office 365 E1/E3/E5/A3/A5 or Microsoft 365 E3/E5/A3/A5
 -	User Account with Office 365 F1/F3 or Microsoft 365 F1/F3
@@ -231,7 +231,7 @@ For more information about adding users in Microsoft 365 organizations, see [Get
 
 With the initial release of Direct Routing, Microsoft required a trunk to be added to each served tenant (customer tenant) using the New-CSOnlinePSTNGateway cmdlet.
 
-However, this method has not proved optimal for two reasons:
+However, this method isn't optimal for two reasons:
  
 - **Overhead management**. Offloading or draining an SBC, for example, changes some parameters, like enabling or disabling media bypass. Changing the port requires changing parameters in multiple tenants (by running Set-CSOnlinePSTNGateway), but it is in fact the same SBC. 
 
@@ -247,28 +247,28 @@ Two new entities were introduced:
    New-CSOnlinePSTNGateway -FQDN sbc1.adatum.biz -SIPSignalingport 5068 -ForwardPAI $true
     ```
 
-- A derived trunk that doesn't require registration. It is simply a desired host name added in from of the carrier trunk. It derives all of its configuration parameters from the carrier trunk. The association with the carrier trunk is based on the FQDN name (see details below).
+- A derived trunk that doesn't require registration. It's simply a desired host name added in from of the carrier trunk. It derives all of its configuration parameters from the carrier trunk. The association with the carrier trunk is based on the FQDN name.
 
 **Provisioning logic and example**
 
 - Carriers need to set up and manage only a single trunk (the carrier trunk in the carrier domain) by using the New-CSOnlinePSTNGateway command. In the preceding example, the trunk is sbc1.adatum.biz.
 
-- In the customer tenant, the carrier needs to add the derived trunk FQDN to the voice routes. There is no need to run New-CSOnlinePSTNGateway for a trunk.
+- In the customer tenant, the carrier needs to add the derived trunk FQDN to the voice routes. There's no need to run New-CSOnlinePSTNGateway for a trunk.
 
 - The derived trunk, as the name suggests, inherits or derives all the configuration parameters from the carrier trunk. 
 
 Examples:
-- sbc1.adatum.biz – the carrier trunk which needs to be created in the carrier tenant.
+- sbc1.adatum.biz – the carrier trunk that needs to be created in the carrier tenant.
 
 - woodgrovebank.sbc1.adatum.biz – the derived trunk in a customer tenant. You can add the name of the derived trunk in the customer tenant in the voice routes without creating it.
 
-- Carrier will need to set up DNS record resolving derived trunk FQDN to carrier SBC IP address.
+- Carrier needs to set up a DNS record resolving the derived trunk FQDN to the carrier SBC IP address.
 
 - Any changes made on a carrier trunk (on carrier tenant) are automatically applied to derived trunks. For example, carriers can change an SIP port on the carrier trunk, and this change applies to all derived trunks. New logic to configure the trunks simplifies the management as you don't need to go to every tenant and change the parameter on every trunk.
 
 - The options are sent only to the carrier trunk FQDN. The health status of the carrier trunk is applied to all derived trunks and is used for routing decisions. Find out more about [Direct Routing options](./direct-routing-monitor-and-troubleshoot.md).
 
-- The carrier can drain the carrier trunk, and all derived trunks will be drained as well. 
+- The carrier can drain the carrier trunk, and all derived trunks are drained as well. 
  
 > [!NOTE]
 > Number translation rules applied on the carrier trunk don't apply to derived trunks. This is a known issue. As an alternative solution, number translation rules must be created for each customer's tenant.
@@ -276,22 +276,22 @@ Examples:
 
 **Migration from the previous model to the carrier trunk**
  
-For migration from the current implementation of the carrier hosted model to the new model, the carriers will need to reconfigure the trunks for customer tenants. Remove the trunks from the customer tenants using Remove-CSOnlinePSTNGateway (leaving the trunk in the carrier tenant)-
+For migration from the current implementation of the carrier hosted model to the new model, the carriers need to reconfigure the trunks for customer tenants. Remove the trunks from the customer tenants using Remove-CSOnlinePSTNGateway (leaving the trunk in the carrier tenant)-
 
-We highly encourage migrating to the new solution as soon as possible as we will be enhancing monitoring and provisioning using the carrier and derived trunk model.
+We encourage migrating to the new solution as soon as possible because we'll be enhancing monitoring and provisioning using the carrier and derived trunk model.
  
 For more information about configuring sending the FQDN name of subdomains in the Contact header, see the [SBC vendor instructions](#deploy-and-configure-the-sbc).
 
 ## Considerations for setting up multi-tenant failover 
 
-To set up failover for a multi-tenant environment, you'll need to do the following:
+To set up failover for a multi-tenant environment, follow these steps:
 
 - For each tenant, add the FQDNs for two different SBCs. For example:
 
    customer1.sbc1.contoso.com <br>
    customer1.sbc2.contoso.com <br>
 
-- In the Online Voice Routes, specify both SBCs. If one SBC fails, the routing policy will route calls to the second SBC.
+- In the Online Voice Routes, specify both SBCs. If one SBC fails, the routing policy routes calls to the second SBC.
 
 
 ## Related articles
