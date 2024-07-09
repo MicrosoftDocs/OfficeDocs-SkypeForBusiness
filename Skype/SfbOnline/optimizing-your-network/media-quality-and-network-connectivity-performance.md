@@ -117,6 +117,7 @@ In a PSTN call scenario, the media path crosses the following network segments:
     
 ### Network Performance requirements from a Skype for Business client to Microsoft network Edge
 <a name="bkSfBClienttoEdge"></a>
+<a name="bkYourNetworkEdge"> </a>
 
 For optimal Skype for Business media quality, the following network performance metrics targets or thresholds are required for a connection from your company's network to the Microsoft network Edge. This segment of the network includes your internal network, this includes all WiFi and Ethernet connections, any company site-to-site traffic over a WAN connection, for example Multiprotocol Label Switching (MPLS), and the Internet or ExpressRoute partner connections to the Microsoft network Edge.
   
@@ -140,7 +141,6 @@ For optimal Skype for Business media quality, the following network performance 
 
 ## Measuring network performance
 <a name="bkNetworkPerf"> </a>
-<a name="bkYourNetworkEdge"> </a>
 
 To measure the actual network performance, especially for latency and packet loss, from any company network site to a network Edge, you can use tools such as ping, test against a set of Skype for Business media relay services running from the Microsoft Edge and data center sites. 
 
