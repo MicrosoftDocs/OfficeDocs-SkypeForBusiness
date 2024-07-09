@@ -224,7 +224,7 @@ To **add a group** to the queue:
 >
 > If you already have private channels assigned to Call queue they will continue to work. This problem only affects new assignments.
 >
-> Support continutes to work on identifying the root cause of this problem.
+> Support continues to work on identifying the root cause of this problem.
 
 ### Conference mode
 
