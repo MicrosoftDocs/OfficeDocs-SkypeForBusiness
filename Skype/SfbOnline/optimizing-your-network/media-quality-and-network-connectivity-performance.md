@@ -1,8 +1,8 @@
 ---
 ms.date: 11/28/2017
 title: "Media Quality and Network Connectivity Performance"
-ms.author: MicrosoftHeidi
-author: heidip
+ms.author: heidip
+author: MicrosoftHeidi
 manager: jtremper
 ms.reviewer: justw, joraffer
 ms.topic: article
