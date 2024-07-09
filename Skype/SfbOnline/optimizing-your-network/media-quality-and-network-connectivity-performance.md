@@ -125,12 +125,10 @@ For optimal Skype for Business media quality, the following network performance 
 
 |**Metric** <br/> |**Optimal** <br/> |**Poor** <br/> |
 |:-----|:-----|:-----|
-|Latency (one way)  <br/> |< 50ms  <br/> |
-|Latency (RTT or Round-trip Time)  <br/> |< 100ms  <br/> |
-|Burst packet loss  <br/> |<10% during any 200ms interval  <br/> |
-|Packet loss  <br/> |<1% during any 15s interval  <br/> |
-|Packet inter-arrival Jitter  <br/> |<30ms during any 15s interval  <br/> |
-|Packet reorder  <br/> |<0.05% out-of-order packets  <br/> |
+|Round Trip Time (RFC 3550)  <br/> |< 60 ms  <br/> |> 500 ms  <br/> |
+|Max Packet Loss (RFC 3550)  <br/> |< 5%  <br/> |> 25%  <br/> |
+|Average Packet Loss (RFC 3550)  <br/> |<0.5%  <br/> |> 10%  <br/> |
+|Packet Jitter (RFC 3550)  <br/> |<3 ms  <br/> |> 30 ms  <br/> |
    
  **Other performance target requirements:**
   
