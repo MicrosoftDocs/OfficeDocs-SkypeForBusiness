@@ -34,13 +34,13 @@ The quality of Real-Time media (audio, video, and application sharing) over IP i
 Azure ExpressRoute isn't a requirement for Microsoft 365 and Office 365 services including Microsoft Teams. However, Azure ExpressRoute is one of the deployment options that are available that will help make sure that connectivity to Microsoft 365 or Office 365 meets the Microsoft Teams network performance requirements and ensures the most optimal Microsoft Teams media quality experience.
   
 > [!TIP]
-> Although this topic provides you with overall networking performance guidance, complete guidance for network assessment is outside of the scope of this document. To find a list of Microsoft Teams partners who can help you with the network performance measurements as part of a thorough and complete network assessment, please visit [Skype for Business Partner Solutions](http://partnersolutions.skypeforbusiness.com/). 
+> Although this topic provides you with overall networking performance guidance, complete guidance for network assessment is outside of the scope of this document. To find a list of Microsoft Teams partners who can help you with the network performance measurements as part of a thorough and complete network assessment, please visit [Skype for Business Partner Solutions](http://partnersolutions.skypeforbusiness.com/).
   
 ## Network connectivity requirements to Microsoft Teams
 
 ### Factors that impact Microsoft Teams media quality
 
-There are many different factors that contribute to Microsoft Teams Real-Time media (audio, video, and application sharing) quality that includes the devices that are used, the environment, and the network connectivity. 
+There are many different factors that contribute to Microsoft Teams Real-Time media (audio, video, and application sharing) quality that includes the devices that are used, the environment, and the network connectivity.
   
 #### Devices
 
@@ -138,6 +138,8 @@ For optimal Skype for Business media quality, the following network performance 
     
 - The network performance target assumes proper bandwidth and/or quality-of-service planning. In other words, This applies directly to Skype for Business Real-Time media traffic when the network connection is under a peak load.
     
+<a name="bkYourNetworkEdge"> </a>
+
 ## Measuring network performance
 <a name="bkNetworkPerf"> </a>
 
