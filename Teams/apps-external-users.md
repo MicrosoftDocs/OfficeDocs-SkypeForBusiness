@@ -42,11 +42,11 @@ For a more detailed comparison between guest and external access users, see [com
 
 ### Add, update, and delete apps for guests
 
-* Guest users can't find and add apps from Teams app store (AppSource or client store) and from the in-context stores in Teams.
+* Guest users can't search and add apps from Teams app store (AppSource or client store) and from the in-context stores in Teams.
 
 * Guests can't add, update, or delete apps into a shared context, such as a chat, channel, or meeting.
 
-* Guest users can access the app store and add apps using [deep links](/microsoftteams/platform/concepts/build-and-test/deep-link-application) shared with them by others. However, guest users can use such apps in personal scope only and the app icon doesn't display in the app bar.
+* Guest users can add apps using [deep links](/microsoftteams/platform/concepts/build-and-test/deep-link-application) shared with them by others. However, guest users can use such apps in personal scope only and the app icon doesn't display in the app bar.
 
 * Guest users can use apps added by other org users in personal chats, group chats, and teams and channels.
 
