@@ -224,7 +224,7 @@ To **add a group** to the queue:
 >
 > If you already have private channels assigned to Call queue they will continue to work. This problem only affects new assignments.
 >
-> Support is working on identifying the root cause of this problem and will plan an update to address this issue. At this time, it's estimated that this problem will be resolved during the first half of 2024 (January to June 2024).
+> Support continutes to work on identifying the root cause of this problem.
 
 ### Conference mode
 
