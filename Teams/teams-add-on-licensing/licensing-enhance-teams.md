@@ -341,7 +341,7 @@ Many Teams Premium features require an IT admin to configure the feature before 
 
 The following list indicates Teams Premium features that require admin configuration in the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851) before users can access the feature:
 
-- Using end-to-end encryption on meetings up to 50 participants.
+- Using end-to-end encryption on meetings up to 200 participants.
 - Adding watermarks to meetings.
 - Adding sensitivity labels.
 - Preventing copy and paste in meeting chats.
