@@ -53,8 +53,6 @@ Before proceeding with the uninstallation, you should try to identify how classi
 >
 > For customers who are experiencing this issue or who wish to perform the uninstall of classic Teams themselves and experience this issue, there are troubleshooting steps available here: [Teams meeting add-in missing from Outlook and new Teams](/microsoftteams/troubleshoot/meetings/teams-meeting-add-in-missing).
 
-
-
 ### For User-Deployed or Per-user Admin Deployments
 
 These users won't see the "Teams Machine-Wide Installer" in their system. As the **New Teams Only** policy rolls out, classic Teams will be automatically uninstalled some time after the new Teams installation. No further action is required unless users haven't signed in for an extended period. In those cases, make sure that new Teams is deployed machine-wide to prevent users from being left without a Teams installation.
@@ -100,7 +98,7 @@ You can learn more at [Uninstall an app with Intune for Windows](/mem/intune/app
   If the policy is set to **New Teams only**, Classic Teams will be uninstalled some time after the new Teams installation completes, and once users receive the new Teams policy settings. If the Teams Machine-Wide Installer is present, Microsoft 365 Apps can uninstall it for each user as they sign in.
 
 - **How much network bandwidth is required for the new Teams update?**
-  The initial update is approximately 150 MB, with subsequent updates ranging from 15-30 MB. This update is automatically downloaded and installed from the internet once per device (multi-user devices do not download the binaries for each user). An admin can also choose to do an offline installation using the [bulk installer](new-teams-bulk-install-client.md). Subsequent updates should be 15-30MB, and the [MSIX app package updates](/windows/msix/desktop/managing-your-msix-deployment-update) article will have more details.
+  The initial update is approximately 150 MB, with subsequent updates ranging from 120-150 MB. This update is automatically downloaded and installed from the internet once per device (multi-user devices do not download the binaries for each user). An admin can also choose to do an offline installation using the [bulk installer](new-teams-bulk-install-client.md). The [MSIX app package updates](/windows/msix/desktop/managing-your-msix-deployment-update) article will have more details.
 
 - **How can I remove all copies of classic Teams from a multi-user device without each user signing in?**
   Manual deletion is possible but not recommended as it may leave residual files.
