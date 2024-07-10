@@ -52,7 +52,7 @@ Front-of-room displays and touch consoles have **minimum** supported custom back
 
 #### Recommended resolutions
 
-The **recommended** custom background **resolution** for front-of-room displays and touch consoles depends on the display aspect ratios and supported resolution. The following lists the aspect ratios supported by each display and the recommended custom background resolution for each:
+The **recommended** custom background **resolution** for front-of-room displays and touch consoles depends on the aspect ratio and resolution of the display used. The following lists the recommended custom background resolution for each supported display aspect ratio:
 - Single and dual front-of-room displays (per display)
   - 16:9 displays – 1920 x 1080 for 1080p displays, 3840 x 2160 for 4K displays. Up to two 16:9 displays are supported.
 - Touch console displays
