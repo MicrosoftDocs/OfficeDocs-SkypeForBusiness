@@ -684,8 +684,6 @@ items:
               href: meeting-who-present-request-control.md
             - name: Speaker coach
               href: meeting-speaker-coach.md
-            - name: Set up meeting registration
-              href: set-up-meeting-registration.md
         - name: Attendee experience
           items: 
             - name: Manage Copilot for Teams
