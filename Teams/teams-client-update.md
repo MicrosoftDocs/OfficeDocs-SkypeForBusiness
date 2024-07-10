@@ -9,12 +9,12 @@ audience: admin
 ms.collection: 
   - M365-collaboration
 ms.reviewer: 
-ms.date: 06/19/2024
+ms.date: 06/28/2024
 search.appverid: MET150
 f1.keywords: 
   - NOCSH
 description: This article outlines the process behind updating the classic Microsoft Teams desktop client.
-ms.localizationpriority: normal
+ms.localizationpriority: Medium
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-apr2020
