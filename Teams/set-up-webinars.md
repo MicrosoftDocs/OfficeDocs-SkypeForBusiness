@@ -104,11 +104,6 @@ To allow organizers to create public or private webinars, use the following scri
 Set-CsTeamsEventsPolicy -Identity <policy name> -EventAccessType Everyone
 ```
 
-## Next Steps
-
-> [!div class="nextstepaction"]
-> [Manage the registration form for webinars](manage-registration-form-webinars.md)
-
 ## Related articles
 
 - [Issues that affect Teams webinars](/microsoftteams/troubleshoot/meetings/issues-with-webinars)
