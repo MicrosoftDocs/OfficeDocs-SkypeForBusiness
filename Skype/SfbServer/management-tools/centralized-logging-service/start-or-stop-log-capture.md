@@ -44,15 +44,15 @@ The Centralized Logging Service provides two ways to issue commands. A number of
    Start-CsClsLogging -Scenario AlwaysOn
    ```
 
-    > [!NOTE]
-    > The AlwaysOn scenario has no default duration. This scenario will run until you explicitly stop it with the **Stop-CsClsLogging** cmdlet. For details, see [Stop-CsClsLogging](/powershell/module/skype/stop-csclslogging?view=skype-ps). For all other scenarios, the default duration is 4 hours. 
+   > [!NOTE]
+   > The AlwaysOn scenario has no default duration. This scenario will run until you explicitly stop it with the **Stop-CsClsLogging** cmdlet. For details, see [Stop-CsClsLogging](/powershell/module/skype/stop-csclslogging). For all other scenarios, the default duration is 4 hours. 
   
 3. Press Enter to run the command. 
     
     > [!NOTE]
     > It may take a short amount of time (30 to 60 seconds) for the commands to run and to receive the status back from the computers in your deployment. 
   
-     ![Running Start-CsClsLogging.](../../media/Ops_CLS_Show_and_Start_ClsLogging.jpg)
+   ![Screenshot shows the result of the  Start-CsClsLogging cmdlet.](../../media/Ops_CLS_Show_and_Start_ClsLogging.jpg)
   
 4. To start another scenario, use the **Start-CsClsLogging** cmdlet with the name of the additional scenario to run as follows (for example, the scenario **Authentication**):
     
@@ -77,14 +77,14 @@ The Centralized Logging Service provides two ways to issue commands. A number of
 
     The successful execution of this scenario returns a result like the following:
     
-     ![Running Start-CsClsLogging.](../../media/Ops_CsClsLogging_UserReplicator_Exp.jpg)
+     ![Screenshot shows Start-CsClsLogging results.](../../media/Ops_CsClsLogging_UserReplicator_Exp.jpg)
   
 Note that in this example, the AlwaysOn scenario is running and the UserReplicator scenario is running. 
     
 ## Stop the Centralized Logging Service log capture
 <a name="stop"> </a>
 
-You can stop a currently running logging session with the Stop-CsClsLogging cmdlet. Generally, there aren't many situations in which you would need to stop a logging session. For example, you can search logs and change configurations without first needing to stop logging. If you have two scenarios running, for example AlwaysOn and UserReplicator, and you need to collect information related to Authentication, you will need to stop one of the other scenarios (at a global, site, pool or computer scope) before you can start running to Authentication scenario. For details, see [Stop-CsClsLogging](/powershell/module/skype/stop-csclslogging?view=skype-ps).
+You can stop a currently running logging session with the Stop-CsClsLogging cmdlet. Generally, there aren't many situations in which you would need to stop a logging session. For example, you can search logs and change configurations without first needing to stop logging. If you have two scenarios running, for example AlwaysOn and UserReplicator, and you need to collect information related to Authentication, you will need to stop one of the other scenarios (at a global, site, pool or computer scope) before you can start running to Authentication scenario. For details, see [Stop-CsClsLogging](/powershell/module/skype/stop-csclslogging).
   
 > [!NOTE]
 > When determining what scenarios you can run on a given deployment, pool or computer, you need to remember that you are limited to running two scenarios **per computer**: AlwaysOn and one custom scenario. If you are logging activity on a pool, you should treat a pool as a single entity. In most cases, it would not make sense to run different scenarios on each computer in a pool. It does make sense to look at the problem that you are collecting data about and think about what scenario makes the most sense on a given computer in the overall deployment. For example, if you consider the UserReplicator scenario, there would be very little value in running UserReplicator on an Edge Server or Edge pool. 
@@ -118,7 +118,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
    ![Windows PowerShell console after calling Show-CsCl.](../../media/Ops_Show_Stop_CsClsLogging.jpg)
   
-   The result of Show-CsClsLogging is a summary of the scenarios that are running and what scope they are running in. For details, see [Show-CsClsLogging](/powershell/module/skype/show-csclslogging?view=skype-ps).
+   The result of Show-CsClsLogging is a summary of the scenarios that are running and what scope they are running in. For details, see [Show-CsClsLogging](/powershell/module/skype/show-csclslogging).
     
 3. To stop a currently running logging session with a specific scenario, type:
     
@@ -134,7 +134,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    This command will stop logging with the UserReplicatior scenario on pool01.contoso.net.
     
     > [!NOTE]
-    > Logs created during this logging session using the UserReplicator scenario are not deleted. The logging is still available for you to execute searches against using the Search-CsClsLogging command. For details, see [Search-CsClsLogging](/powershell/module/skype/search-csclslogging?view=skype-ps). 
+    > Logs created during this logging session using the UserReplicator scenario are not deleted. The logging is still available for you to execute searches against using the Search-CsClsLogging command. For details, see [Search-CsClsLogging](/powershell/module/skype/search-csclslogging). 
   
 Acting as the companion command to Start-CsClsLogging, the Stop-CsClsLogging cmdlet ends the logging session, defined by scenarios, and retains the logs created by the logging session. You can run two scenarios on a given computer at any time. The method of stopping one scenario to gather information using another scenario is a common task that you can perform during most workload troubleshooting.
 ## See also

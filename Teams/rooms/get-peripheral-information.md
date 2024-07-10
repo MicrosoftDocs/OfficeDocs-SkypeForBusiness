@@ -1,5 +1,5 @@
 ---
-title: Get information for connected peripherals
+title: Add peripherals to inventory
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
@@ -20,10 +20,10 @@ ms.custom: QuickDraft
 search.appverid: MET150  
 f1.keywords:
   - NOCSH
-description: Learn how to gather information about connected devices in Microsoft Teams using PowerShell and upload the data to the Teams Pro Management portal for BYOD monitoring and reporting.
+description: Learn how to gather information about connected devices and add them to your inventory in Microsoft Teams
 ---
 
-  # Using PowerShell to gather and upload information on devices in BYOD Rooms and Bookable Desks to Teams Rooms Pro Management Portal 
+  # Add peripherals to inventory
 
 The script utilizes PowerShell cmdlets and native Windows API functions to gather information about connected devices (peripherals). It can tell the differences between different types of peripherals such as USB devices, monitors, cameras, speakers, and microphones.
 
@@ -32,11 +32,11 @@ When you run the PowerShell script, the data is exported to a CSV file that can 
 ## Steps
 
 1. Go [here](https://www.microsoft.com/en-us/download/details.aspx?id=106063) to download the **Get-TeamsBYODRoomDevices.ps1** PowerShell script.
-2. Unblock and extract the downloaded zip file. Move the **Get-TeamsBYODRoomDevices.ps1** script to your preferred location on your PC.
-3. Open a new PowerShell window and navigate to the location where you moved the **Get-TeamsBYODRoomDevices.ps1** script.
+1. Unblock and extract the downloaded zip file. Move the **Get-TeamsBYODRoomDevices.ps1** script to your preferred location on your PC.
+1. Open a new PowerShell window and navigate to the location where you moved the **Get-TeamsBYODRoomDevices.ps1** script.
 
-> [!NOTE]
-> You can optionally open the script and customize it before you run it.
+   > [!NOTE]
+   > You can optionally open the script and customize it before you run it. However, don't change the sheet name. The sheet name must be named **PERIPHERALS**.
 
 1. Run the script by executing the following command in the PowerShell window:
 
@@ -58,7 +58,11 @@ When you run the PowerShell script, the data is exported to a CSV file that can 
 
    > [!NOTE]
    > Group ID is a way to still 'group them' for later assignment if while individually collecting the peripheral data you do not know the UPN or Display Name for the group of peripherals being collected. This is because Teams Pro Management portal won't have any understanding of Group ID, it is more for keep the peripherals grouped in the output CSV so an account plus the display name could be assigned to each at a later time.
-1. Save the CSV file in .XLSX format. Verify that the sheet is titled 'PERIPHERALS'. 
+
+1. Save the CSV file in .XLSX format. The first sheet in the CSV file must be titled **PERIPHERALS**.
+
+   > [!IMPORTANT]
+   > If sensitivity labels are enabled in your tenant, verify that the Excel file has a label of non-business, public, or general.  
 
 1. Sign in and open the [Microsoft Teams Pro Management portal](https://portal.rooms.microsoft.com/), in the **Devices** page, select __Import__ to add the device inventory to upload the file you modified.
 
