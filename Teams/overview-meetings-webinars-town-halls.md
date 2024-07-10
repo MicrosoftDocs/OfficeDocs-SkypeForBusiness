@@ -35,9 +35,8 @@ There are multiple ways to meet in Microsoft Teams:
 - Meetings
 - Webinars
 - Town halls
-- Calls
 
-This article, intended for administrators and IT Pros, describes the differences between meetings, webinars, and town halls. You can use this information as a first step in planning for these types of virtual meetings and events.
+This article, intended for administrators and IT professionals, describes the differences between meetings, webinars, and town halls. You can use this information as a first step in planning for these types of virtual meetings and events.
 
 The sections below include further information for planning and configuring these features, as well as links to information for your end users.
 
@@ -50,7 +49,7 @@ The following table shows the main features that are different between meetings,
 |End-to-end encryption|Premium|✖️|✖️|
 |Watermarks|Premium|✖️|✖️|
 |Theme|Premium|✔️|✔️|
-|Registration|Optional|✔️|✖️|
+|Registration|✖️|✔️|✖️|
 |Breakout rooms|✔️|✖️<sup>2</sup>|✖️|
 |Content sharing and interaction|✔️|✔️|Q&A only|
 |Interactive participants|1,000 (Enterprise plans)<br>300 (Business plans)|1,000|Town halls: 10,000<br> Premium town halls: 20,000|
