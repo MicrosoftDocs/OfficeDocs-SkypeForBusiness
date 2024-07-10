@@ -39,8 +39,6 @@ The meeting scheduling policy settings are all turned on by default. These setti
 > [!NOTE]
 > When a delegate authorized to send meeting invitations for someone else sends a meeting, the meeting policy applies to the person who granted the delegate permission.
 
-To learn about meeting registration, see [Manage registration for Microsoft Teams meetings](set-up-meeting-registration.md).
-
 To learn  about managing the attendance and engagement report, see [Manage the attendance and engagement report for meetings and events in Microsoft Teams](/microsoftteams/teams-analytics-and-reports/meeting-attendance-report).
 
 ## Channel meetings
