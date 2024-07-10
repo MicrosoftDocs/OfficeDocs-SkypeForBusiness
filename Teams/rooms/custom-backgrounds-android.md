@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
 ms.reviewer: henrikalim
-ms.date: 06/03/2024
+ms.date: 07/10/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -24,7 +24,7 @@ description: Learn how to set up custom backgrounds on Teams Rooms on Android fr
 
 # Set up and manage Teams Rooms on Android custom backgrounds
 
-This feature is in Preview.
+This feature is available for TAP customers and early adopters.
 
 You can create custom background images for your Teams Rooms on Android devices to showcase your brand or to provide instructions and support information to Teams Rooms users. For example, you can add your company logo and include contact information for your organization's help desk to your custom background.
 
@@ -60,6 +60,7 @@ The **recommended** custom background **resolution** for front-of-room displays 
   - 16:10 displays – 1280 x 800
 - Touch board displays (4K displays)
   - 16:9 – 3840 x 2160
+
 If you're not sure what the aspect ratio of your display is, check your display's specifications.
 
 > [!IMPORTANT]
