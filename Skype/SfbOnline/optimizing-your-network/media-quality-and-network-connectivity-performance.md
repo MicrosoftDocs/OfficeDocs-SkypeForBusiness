@@ -44,7 +44,7 @@ There are many different factors that contribute to Microsoft Teams Real-Time me
   
 #### Devices
 
-In a Real-Time media session, media capturing and rendering devices that are used by all participants such as headsets and Web cams have a great impact on the overall audio and video quality. Lower quality devices or devices with incorrect device drivers will produce lower overall sound quality for audio and lower image quality for video. Certified devices or good quality devices help with echo cancellation, noise filtering, video resolution and reduce latency.
+In a Real-Time media session, media capturing and rendering devices that are used by all participants such as headsets and Web cams have a great impact on the overall audio and video quality. Lower quality devices or devices with incorrect device drivers produce lower overall sound quality for audio and lower image quality for video. Certified devices or good quality devices help with echo cancellation, noise filtering, video resolution and reduce latency.
   
 Although certified audio and video media devices aren't required, it's highly recommended devices certified for Microsoft Teams for the most optimal media experience. For a list of all Microsoft Teams certified devices, see [Phones and Devices for Skype for Business](../../SfbPartnerCertification/certification/devices-ip-phones.md). You can use the [Microsoft Teams Call Quality Dashboard](/microsoftteams/turning-on-and-using-call-quality-dashboard), found in the **Skype for Business admin center**, to verify devices in use are working correctly and monitor audio and video media quality.
   
