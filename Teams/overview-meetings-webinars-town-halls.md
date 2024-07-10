@@ -49,7 +49,7 @@ The following table shows the main features that are different between meetings,
 |End-to-end encryption|Premium|✖️|✖️|
 |Watermarks|Premium|✖️|✖️|
 |Theme|Premium|✔️|✔️|
-|Registration|✖️|✔️|✖️|
+|Registration|Optional|✔️|✖️|
 |Breakout rooms|✔️|✖️<sup>2</sup>|✖️|
 |Content sharing and interaction|✔️|✔️|Q&A only|
 |Interactive participants|1,000 (Enterprise plans)<br>300 (Business plans)|1,000|Town halls: 10,000<br> Premium town halls: 20,000|
