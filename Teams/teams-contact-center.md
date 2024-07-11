@@ -87,6 +87,7 @@ The following providers offer contact center solutions that are integrated into 
 | `Ultatel` | https://www.ultatel.com/microsoft-teams-contact-center/                     |
 
 
+
 ### Solutions currently in the certification process
 
 |  Solution Provider                                                                                                                               |  Solution website                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
@@ -98,6 +99,7 @@ The following providers offer contact center solutions that are integrated into 
 | `Imagicle` | https://www.imagicle.com/en/integration/microsoft-teams/                                                                                        |
 | `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `Unexus` | https://www.unexus.nl/en/solutions/unexus-connect/                |
+| `Vier` | https://www.vier.ai/                   |
 | `Vonage` |  https://www.vonage.com/contact-centers/integrations/microsoft-teams/                                 |
 
 This list will be updated as more solution providers join and meet the certification criteria.
