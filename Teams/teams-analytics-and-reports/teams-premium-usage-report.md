@@ -34,7 +34,7 @@ From this report, you can:
 
 - Learn how your org benefits from specific Teams features and encourage users to try new features.
 
-- Validate and understand overall value around Teams premium.
+- Validate overall value around Teams premium.
 
 The report provides the following metrics:  
 
