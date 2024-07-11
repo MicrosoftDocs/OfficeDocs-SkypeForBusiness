@@ -224,9 +224,9 @@ With a Teams Premium license, your users can experience immersive 3D for the wor
 
 Teams Premium provides custom Mesh experience capabilities for your users, such as:
 
-- **Host immersive events tailored to your business needs** - Elevate team engagement for new employee onboarding, training, product showcases, or any hybrid business scenario - enhancing it with copresence via the Mesh app.
-- **Create custom 3D experiences** - Creators can leverage no-code tools to add Videos, and images to pre-created and custom environments. Developers and technical artists can build custom 3D environments with the Mesh toolkit in Unity - enabling enhanced interactivity with scripting, physics, and embedded web content.
-- **Represent yourself, explore environments, and communicate virtually** - Customizable avatars can navigate around 3D environments to experience content and have multiple simultaneous discussions with spatial audio built-in to the experience, no extra work required.
+- **Host immersive events tailored to your business needs** - Elevate team engagement during employee onboardings, trainings, product showcases, or any hybrid business scenarios by creating engaging and interactive experiences with the Mesh app.
+- **Create custom 3D experiences** - Creators can easily use no-code tools to add videos, and images to pre-created and custom environments. Developers and technical artists can leverage scripting, physics, and embedded web content within the Mesh toolkit in Unity to build custom 3D environments with enhanced interactivity.
+- **Create custom avatars, explore environments, and communicate virtually** - Customizable avatars can navigate around 3D environments to experience content and have multiple simultaneous discussions with spatial audio built-in to the experience.
 - **Integrated with Microsoft 365** - Mesh provides enterprise-grade security and privacy, built on trusted platforms.
 
 | Feature/Task  | Can admins turn this feature on/off? | Documentation for admins |Documentation for end users |
