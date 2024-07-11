@@ -30,21 +30,17 @@ The Teams Premium feature usage report in the Microsoft Teams admin center allow
 
 From this report, you can:  
 
-- Understand how individual users are benefiting from Teams premium features.
+- Understand how individual users are using and benefiting from Teams premium features.
 
-- Understand how organization is getting benefitted from specific Teams features and encourage their use in their org.
+- Learn how your org benefits from specific Teams features and encourage users to try new features.
 
 - Validate and understand overall value around Teams premium.
 
 The report provides the following metrics:  
 
-- Reached users across organization:  Count of users who attended meetings/events where a given Teams premium feature was used.
+- **Reached users across organization:**  Count of how many users attended meetings or events that used a Teams Premium feature.
 
-- Count of meetings across organization: Count of meetings where a given Teams premium feature is experienced by users.
-
-- Count of meetings for each user: Count of meetings where a user (reached) who attended a meeting where given Teams premium feature was used.
-
-- You can use this report to understand where exactly different apps are getting used and deep dive into per-app utilization data.
+- **Count of meetings across organization:** Count of meetings or events that used a Teams Premium feature.
 
 > [!NOTE]
 > This feature isn’t available for gov clouds (GCC, GCC-H and DoD).
