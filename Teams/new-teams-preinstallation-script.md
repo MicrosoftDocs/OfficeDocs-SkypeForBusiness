@@ -49,4 +49,4 @@ After running the script:
 
 ## Further issues
 
-If devices remain un-updatable post-remediation, please report back to us. Your feedback is crucial for the continuous enhancement of the script.
+If you still can't update your devices after addressing the issues identified by the script, report back to us. Your feedback is crucial for the continuous enhancement of the script.
