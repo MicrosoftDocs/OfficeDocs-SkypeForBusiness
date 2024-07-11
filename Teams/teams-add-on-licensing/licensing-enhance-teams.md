@@ -228,7 +228,7 @@ The Meet app in Teams allows users to view important details of their meetings i
 
 ### Immersive Mesh Experiences
 
-With Immersive spaces in Teams, your users can join a 3D immersive meeting experience for up-to 16 people right from any Teams meeting
+With Immersive spaces in Teams, your users can join a 3D immersive meeting experience for up-to 16 people right from any Teams meeting.</br>
 With a Teams Premium license, your users can host customized single or multi-room mixed-reality events in the Mesh app for up to 200 attendees. To learn more about Mesh, see [Microsoft Mesh overview](/mesh/overview).
 
 | Feature | Teams | Teams Premium |
