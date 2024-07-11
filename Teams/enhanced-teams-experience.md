@@ -4,7 +4,7 @@ author: wlibebe
 ms.author: wlibebe
 manager: pamgreen
 ms.reviewer: spraveen, margidesai
-ms.date: 05/22/2024
+ms.date: 7/11/2024
 ms.topic: conceptual
 ms.service: msteams
 ms.subservice: teams-premium
@@ -220,14 +220,14 @@ Teams Premium provides the following key AI-powered meetings features:
 
 ## Custom 3D Immersive Mesh Experiences
 
-With a Teams Premium license, your users can host customized single or multi-room mixed-reality events in the Mesh app for up to 200 attendees.
+With a Teams Premium license, your users can experience immersive 3D for the workplace. Host customized single or multi-room immersive events in the Mesh app for up to 200 attendees, available cross-platform on PC and Meta Quest VR devices.
 
-Teams Premium provides custom 3D Immersive Mesh Experiences capabilities, such as:
+Teams Premium provides custom Mesh experience capabilities for your users, such as:
 
-- **Create custom experiences using the Mesh toolkit**- Your users can build imaginative settings, add 3D models, and develop activities for visitors.
-- **Interact with engaging and dynamic environments**- Your users can join other custom immersive events that are synchronized across all attendees simultaneously.
-- **Add event objects**- Your users can add event objects like playing a video, displaying images, and showing a screenshare simultaneously.
-- **Spatial audio**- Spatial audio provides directionality and distance to interactions in Mesh, so event attendees can have multiple small group discussions to occur in the same place.
+**Host immersive events tailored to your business needs** - Elevate team engagement for new employee onboarding, training, product showcases, or any hybrid business scenario - enhancing it with copresence via the Mesh app.
+**Create custom 3D experiences** - Creators can leverage no-code tools to add Videos, and images to pre-created and custom environments. Developers and technical artists can build custom 3D environments with the Mesh toolkit in Unity - enabling enhanced interactivity with scripting, physics, and embedded web content.
+**Represent yourself, explore environments, and communicate virtually** - Customizable avatars can navigate around 3D environments to experience content and have multiple simultaneous discussions with spatial audio built-in to the experience, no extra work required.
+**Integrated with Microsoft 365** - Mesh provides enterprise-grade security and privacy, built on trusted platforms.
 
 | Feature/Task  | Can admins turn this feature on/off? | Documentation for admins |Documentation for end users |
 | -------------------- | ----------- | ----------- |----------- |
