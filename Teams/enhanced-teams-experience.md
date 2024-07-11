@@ -220,19 +220,23 @@ Teams Premium provides the following key AI-powered meetings features:
 
 ## Custom 3D Immersive Mesh Experiences
 
-With a Teams Premium license, your users can experience immersive 3D for the workplace. Host customized single or multi-room immersive events in the Mesh app for up to 200 attendees, available cross-platform on PC and Meta Quest VR devices.
+With a Teams Premium license, users can explore immersive 3D experiences for the workplace. Host customized single or multi-room immersive events in the Mesh app for up to 200 attendees, available cross-platform on PC and Meta Quest VR devices.
 
 Teams Premium provides custom Mesh experience capabilities for your users, such as:
 
 - **Host immersive events tailored to your business needs** - Elevate team engagement during employee onboardings, trainings, product showcases, or any hybrid business scenarios by creating engaging and interactive experiences with the Mesh app.
 - **Create custom 3D experiences** - Creators can easily use no-code tools to add videos, and images to pre-created and custom environments. Developers and technical artists can leverage scripting, physics, and embedded web content within the Mesh toolkit in Unity to build custom 3D environments with enhanced interactivity.
-- **Create custom avatars, explore environments, and communicate virtually** - Customizable avatars can navigate around 3D environments to experience content and have multiple simultaneous discussions with spatial audio built-in to the experience.
+- **Create custom avatars, explore environments, and communicate virtually** - Customizable avatars can navigate around 3D environments to experience content and have multiple simultaneous discussions with colleagues using spatial audio built-in to the experience.
 - **Integrated with Microsoft 365** - Mesh provides enterprise-grade security and privacy, built on trusted platforms.
 
 | Feature/Task  | Can admins turn this feature on/off? | Documentation for admins |Documentation for end users |
 | -------------------- | ----------- | ----------- |----------- |
-| Set up Mesh | Yes, use [App centric management](app-centric-management.md) to allow or prevent users from using this feature.| [Configure Microsoft Mesh](/mesh/setup/content/setup-m365-mesh)<br>[Preparing your organization for Mesh](/mesh/setup/content/preparing-your-organization) | No end user control.|
+| Set up Mesh | Yes, use [App centric management](app-centric-management.md) to allow or prevent users from using Mesh.| [Configure Microsoft Mesh](/mesh/setup/content/setup-m365-mesh)<br>[Preparing your organization for Mesh](/mesh/setup/content/preparing-your-organization) | No end user control.|
 | Create your event | Yes| No admin control. |[Overview of Mesh events](/mesh/events-guide/events-overview) |
+| Customize your avatar | Yes| No admin control. |[Personalize your avatar](/mesh/user-guide/avatars) |
+| Develop a custom environment | Yes| No admin control. |[Mesh Development Overview](/mesh/develop/development-overview) |
+| Download the Mesh app | Yes| No admin control. |[Getting started with events in Microsoft Mesh](/mesh/user-guide/getting-started) |
+
 
 ## More resources
 
