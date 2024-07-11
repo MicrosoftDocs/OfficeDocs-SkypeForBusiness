@@ -684,6 +684,8 @@ items:
               href: meeting-who-present-request-control.md
             - name: Speaker coach
               href: meeting-speaker-coach.md
+            - name: Set up meeting registration
+              href: set-up-meeting-registration.md
         - name: Attendee experience
           items: 
             - name: Manage Copilot for Teams
@@ -1372,6 +1374,8 @@ items:
                   href: rooms/third-party-join.md
                 - name: Meetings with SIP and H.323 devices
                   href: rooms/meetings-with-SIP-H323-devices.md
+                - name: Manage custom backgrounds on Android
+                  href: rooms/custom-backgrounds-android.md
                 - name: Manage custom backgrounds on Windows
                   href: rooms/custom-backgrounds.md
                 - name: Join meetings with QR codes
