@@ -124,7 +124,7 @@ If the customer tenant is on the GCCH, DoD, or Gallatin, the customer may need t
 HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams
 Value = CloudType
 value type = DWORD
-  1 = Commercial, 2 = GCC, 3 = GCCH, 4 = DOD, 7 = Gallatin
+  1 = Commercial, 2 = GCC, 3 = GCCH, 4 = DOD, 5 = DOD-SEC, 7 = Gallatin
 ```
 
 ###### Mac update
@@ -136,7 +136,7 @@ Domain: com.microsoft.teams2
 Key: CloudType
 Data Type: Int
 Value: {Enter number associated with the cloud}
-  1 = Commercial, 2 = GCC, 3 = GCCH, 4 = DOD, 7 = Gallatin
+  1 = Commercial, 2 = GCC, 3 = GCCH, 4 = DOD, 5 = DOD-SEC, 7 = Gallatin
 ```
 
 The .plist configuration can be propagated to managed devices using Intune as described in [Add preference file settings to macOS devices in Microsoft Intune](/mem/intune/configuration/preference-file-settings-macos).
