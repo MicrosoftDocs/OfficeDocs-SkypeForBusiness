@@ -72,6 +72,7 @@ The following providers offer contact center solutions that are integrated into 
 | `Genesys` | https://www.genesys.com/campaign/get-started-genesys-cloud-microsoft-teams                                      |
 | `Heedify` | https://heedify.io/call-center/                                                 |
 | `Intermedia` | https://www.intermedia.com/integration/contact-center-for-microsoft-teams                       |
+| `IPDynamics` | https://www.ipdynamics.de/ |
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
 | `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
@@ -86,6 +87,7 @@ The following providers offer contact center solutions that are integrated into 
 | `Ultatel` | https://www.ultatel.com/microsoft-teams-contact-center/                     |
 
 
+
 ### Solutions currently in the certification process
 
 |  Solution Provider                                                                                                                               |  Solution website                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
@@ -95,9 +97,9 @@ The following providers offer contact center solutions that are integrated into 
 | `FrontStage` | https://www.frontstage.cc                                                                                        |
 | `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                                  |
 | `Imagicle` | https://www.imagicle.com/en/integration/microsoft-teams/                                                                                        |
-| `IPDynamics` | https://www.ipdynamics.de/ |
 | `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `Unexus` | https://www.unexus.nl/en/solutions/unexus-connect/                |
+| `Vier` | https://www.vier.ai/                   |
 | `Vonage` |  https://www.vonage.com/contact-centers/integrations/microsoft-teams/                                 |
 
 This list will be updated as more solution providers join and meet the certification criteria.

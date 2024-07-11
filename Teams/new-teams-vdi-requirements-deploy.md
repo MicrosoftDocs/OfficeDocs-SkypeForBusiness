@@ -41,11 +41,10 @@ In addition, virtual machines must meet the minimum requirements listed here:
 
 |Requirement |Version|
 |:-----|:-----|
-|Windows|- Windows 10.0.19041 or higher </br>- Windows Server 2019 (10.0.17763) </br>- Windows Server 2022 (10.0.20348) or higher</br>- Windows Server 2016 is NOT supported. Plan upgrades.</br>- WebView2 framework required in Windows Server and Windows 10/11 Multi-User environments|
-|Webview2|Minimum version: 90.0.818.66. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise)|
+|Windows|- Windows 10.0.19041 or higher </br>- Windows Server 2019 (10.0.17763) </br>- Windows Server 2022 (20348.2402) or higher</br>- Windows Server 2016 is NOT supported. Plan upgrades.</br>- WebView2 framework required in Windows Server and Windows 10/11 Multi-User environments|
+|Webview2|Update to the most current version. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise)|
 |Classic Teams app |Version 1.6.00.4472 or later to see the Try the new Teams toggle. Important: Classic Teams is only a requirement if you want users to be able to switch between classic Teams and new Teams. This prerequisite is optional if you only want your users to see the new Teams client. |
 |Settings |Turn on the **Show Notification Banners** setting in System > Notifications > Microsoft Teams to receive Teams Notifications. |
-|App sideloading enabled |Ensure that sideloading is enabled on every computer you install on. Learn more: Sideload line of business (LOB) apps in Windows client devices |
 |Exclude antivirus and DLP|Add new Teams to antivirus and DLP applications so Teams can start correctly. </br>Learn more: [Exclude antivirus and DLP applications from blocking Teams](/microsoftteams/troubleshoot/teams-administration/include-exclude-teams-from-antivirus-dlp)|
 
 ## Virtualization provider requirements
@@ -200,7 +199,7 @@ The classic Teams client and the new Teams client have different install locatio
 |Installer format|Install location|Auto update|
 |:-----|:-----|:-----|
 |Classic Teams MSI with the ALLUSERS=1 flag|C:\Program Files (x86)\Microsoft\Teams|Disabled|
-|Classic Teams .EXE|%localappdata%/Microsoft/Teams |Enabled |
+|Classic Teams .EXE|%localappdata%\Microsoft\Teams |Enabled |
 |New Teams .EXE bootstrapper|**Teamsbootstrapper.exe** is a lightweight wrapper online installer with a headless command-line interface. It allows admins to 'provision' (install) the app for all users on a given target computer/. </br> It installs the Teams MSIX package on a target computer, making sure that Teams can interoperate correctly with Office and other Microsoft software.</br>C:\Program Files\WindowsApps\PublisherName.AppName_AppVersion_architecture_PublisherID</br></br>**Example**</br>C:\Program Files\WindowsApps\MSTeams.23306.3314.2555.9628_x64_8wekyb3d8bbwe|Enabled.  It can be disabled via regkey. Learn more: [Disable new Teams autoupdate](#disable-new-teams-autoupdate)|
 
 ## Troubleshooting new Teams deployment errors
@@ -219,7 +218,7 @@ Learn more here: [Common error codes](/windows/win32/appxpkg/troubleshooting#com
 
 |Teamsbootstrapper.exe common error codes |Further information |
 |-----------------------------------------|--------------------|
-|0x80070057                               |The bootstrapper command dosen't have the full path (avoid URIs using .\). Try the full path instead (for example, c:\temp\MSTeams-x64.msix). |
+|0x80070057                               |The bootstrapper command doesn't have the full path (avoid URIs using .\). Try the full path instead (for example, c:\temp\MSTeams-x64.msix). |
 |0x80070032                               |A probable error on the UNC path. Try copying the MSIX to a local folder instead. |
 |0x80004004                               |There might be a regkey 'maglevInstallationSource' left behind in regkey HKLM\Software\WoW6432Node\Microsoft\Office\Teams. Try deleting it and reattempting the install. |
 
@@ -327,6 +326,11 @@ The folder "meeting-addin" under TeamsSharedConfig shouldn't be persisted, as th
 >[!Note]
 >[Folder Redirection or Roaming User Profiles](/windows-server/storage/folder-redirection/folder-redirection-rup-overview) aren't supported with the new Teams client in VDI environments since they can't roam folders in AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams. Customers can continue to use Folder Redirection or Roaming User Profiles with a complementary product, such as FSLogix, Citrix Profile Manager, and VMware DEM, that can roam the Appdata\Local folders above.
 
+> [!IMPORTANT]
+> Citrix recommends Citrix Profile Manager version 2402 or 2203 CU5, as those address new Teams registrations errors and "the parameter is incorrect" error when trying to launch the application.
+>
+> If customers still experience Teams related issues, reach out to Citrix for a private build for 2402 CU1 or 2203 CU6.
+
 ### Folder exclusions
 
 #### Disk storage usage
@@ -417,7 +421,7 @@ BinaryVersion
 
 ```
 
-**Example:** The following is are examples of the final command:
+**Example:** The following are examples of the final command:
 
 ```command prompt
 
@@ -538,6 +542,10 @@ Learn more: [Manage accounts and organizations in Microsoft Teams](https://suppo
 
 ## Features currently not available and known issues in VDI with the new Teams
 
+- Customers installing new Teams on a golden image which later undergoes a sysprep to generalize it are failing to launch the app. This includes templates from Azure Image Gallery.
+  - Users logging in to the provisioned virtual machines see the Teams icon greyed out in the start menu and clicking on it has no effect.
+  - The AppX log in the Event Viewer has the error 0x80073CF1.
+  - Running `Get-AppxPackage -name MsTeams -allusers` from an elevated PowerShell window shows that PackageUserInformation is in a **Paused state** for SID S-1-15-18 (LocalSystem). This error is not seen on W11 22H2 or higher. Please install KB5039299 for Windows 10 to fix this issue. WS2022 and W11 21H2 will be addressed in July's patch Tuesday knowledge base articles.
 - Screen sharing from chat for Azure Virtual Desktops/Windows 365 (This issue is now fixed on RD Client 1.2.5105 and Redirector Service
 [1.50.2402.29001](/azure/virtual-desktop/whats-new-webrtc#updates-for-version-150240229001)).
 - Screen sharing from chat for Citrix when using Workspace app 2311 only.
@@ -594,7 +602,7 @@ The following features aren't supported in either classic Teams or new Teams.
 - Teams Premium features (End to End Encryption, Watermark, Premium Events aren't optimized, Custom meeting backgrounds for organizations).
 - Avatars.
 - Gallery View 3x3 and 7x7.
-- Noise Suppression (except for AVD/W365, where noise suppression is on by default, but confirmation isn't shown in Teams client UI. This is by design).
+- Noise Suppression (except for Azure Virtual Desktop/W365, where noise suppression is on by default, but confirmation isn't shown in Teams client UI. This is by design).
 - Zoom In / Out.
 - Location Based Routing.
 - Media Bypass.
@@ -604,4 +612,4 @@ The following features aren't supported in either classic Teams or new Teams.
 - Cross cloud anonymous join in Government Clouds (GCC, GCC High and DoD).
 - **Record video clip** doesn't capture screen share.
 - The call monitor (the small floating window after you minimize the main Teams window) doesn't display video or screen share.
-- Teams calls drop on a local machine that has an HID peripheral connected if a user launches a virtual desktop from that local machine and logs into Teams (AVD/W365 and VMware only).
+- Teams calls drop on a local machine that has an HID peripheral connected if a user launches a virtual desktop from that local machine and logs into Teams (Azure Virtual Desktop/W365 and VMware only).

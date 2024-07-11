@@ -24,11 +24,11 @@ This article provides a tutorial and samples on development for Call Quality Das
 
 ## Call Quality Dashboard (CQD) Development Samples
 
-Tutorial: Building Customized Report Presentation using the CQD Data Service and Repository Service API's.
+Tutorial: Building Customized Report Presentation using the CQD Data Service and Repository Service APIs.
 
 ### Introduction to CQD
 
-CQD offers quick and easy access to aggregated call quality information for on-premise Skype for Business Server deployments. CQD consists of three components: the QoE Archive database, the Cube, and the Portal. The Portal is the main presentation layer and can be further divided into the following three components:
+CQD offers quick and easy access to aggregated call quality information for on-premises Skype for Business Server deployments. CQD consists of three components: the QoE Archive database, the Cube, and the Portal. The Portal is the main presentation layer and can be further divided into the following three components:
 
 1. Data Service, which is accessible for authenticated users through the [Data API for Call Quality Dashboard (CQD) in Skype for Business Server](data-api.md).
 
@@ -40,15 +40,15 @@ The reports shown on the web portal are grouped into "report sets". The figure s
 
 ![CQD Sample Report.](../../media/9e0723f7-f850-4d11-9ecd-7e8e013a8bed.png)
 
-CQD is created following the Call Quality Methodology (CQM), so the default set of reports is designed to align with the investigation flow introduced by CQM. Users also have the flexibility to edit or create custom reports to meet their needs. However, since there are multiple ways to visualize the data, the visualization provided by CQD may not fully address the needs of every user. In such situations, a user can leverage the Data APIs and Repository APIs to create custom report pages. We will go through a series of examples in this tutorial.
+CQD is created following the Call Quality Methodology (CQM), so the default set of reports is designed to align with the investigation flow introduced by CQM. Users also have the flexibility to edit or create custom reports to meet their needs. However, since there are multiple ways to visualize the data, the visualization provided by CQD might not fully address the needs of every user. In such situations, a user can apply the Data APIs and Repository APIs to create custom report pages. We'll go through a series of examples in this tutorial.
 
 ### How the dashboard consumes the data service
 
-When navigating to the CQD homepage (e.g. http://localhost/cqd), the report set and corresponding reports for an authenticated and authorized user will be retrieved from the Repository Service. A full URL will be constructed from the report-set ID and the year-month (report-set ID is the integer number after '/#/' section in URL, and by default the current year-month is appended at the end of the report-set ID after the slash). The report definitions are stored in JSON format and when retrieved from the Repository Service, will then be used as input to the Data Service. The Data Service generates Multi-Dimension expressions (MDX) queries based on the input and then run these MDX queries against the Cube to retrieve data for each report. 
+When you navigate to the CQD homepage (for example, http://localhost/cqd), the report set and corresponding reports for an authenticated and authorized users are retrieved from the Repository Service. A full URL will be constructed from the report-set ID and the year-month (report-set ID is the integer number after '/#/' section in URL, and by default the current year-month is appended at the end of the report-set ID after the slash). The report definitions are stored in JSON format and when retrieved from the Repository Service, are used as input to the Data Service. The Data Service generates Multi-Dimension expressions (MDX) queries based on the input and then run these MDX queries against the Cube to retrieve data for each report. 
 
 ### Building customized reports
 
-CQD already has a lot of flexibility in customizing reports, but there could be situations where users may want to aggregate data across multiple reports created in CQD. For example, there could be a need to create a report that shows the poor call percentages of all possible combinations of wired calls in a table (a result like the figure):
+CQD already has numerous flexibilities in customizing reports, but there could be situations where users might want to aggregate data across multiple reports created in CQD. For example, there could be a need to create a report that shows the poor call percentages of all possible combinations of wired calls in a table (a result like the figure):
 
 ![CQD Table.](../../media/ef19d535-5da6-44a9-91f6-1ed3f30b96f1.png)
 
@@ -56,7 +56,7 @@ Using the Portal provided by CQD, a user would have to navigate to multiple repo
 
  **Example 1: Simple report sample**
 
-Let us take a simple example first. If we want to show the Audio Good Stream and the Audio Bad stream count of February 2015 on an HTML page like the figure:
+Let us take an example first. If we want to show the Audio Good Stream and the Audio Bad stream count of February 2015 on an HTML page like the figure:
 
 ![CQD Example Report.](../../media/f0e4e61f-1fa5-4d69-b192-f19e9612bf1c.png)
 
@@ -98,13 +98,13 @@ This example can be further deconstructed into three steps:
 
 1. Construct the query (in the example this is defined in the variable 'query'). The query is defined as a JSON object, which includes the following data:
 
-   a. Zero or more dimensions. Each dimension is indicated by a DataModelName.
+   a. Zero or more dimensions. Each dimension indicates a DataModelName.
 
    b. Zero or more filters. Each filter has:
 
-   - DataModelName (the dimension that will have the filter set).
+   - DataModelName (the dimension that has the filter set).
 
-   - Value (the value that will be compared by the operand).
+   - Value (the value that is compared by the operand).
 
    - Operand (comparison type, 0 means "Equal").
 
@@ -114,7 +114,7 @@ This example can be further deconstructed into three steps:
 
    a. url (which should be http://[ServerName]/QoEDataService/RunQuery).
 
-   b. data (this is the string representation of the JSON object defined in the 'query' variable). Data Service will return the query results as a parameter of the call back function for success.
+   b. data (this is the string representation of the JSON object defined in the 'query' variable). Data Service returns the query results as a parameter of the call-back function for success.
 
    c. type (for QoEDataService, RunQuery only accepts 'POST' requests).
 
@@ -128,7 +128,7 @@ This example can be further deconstructed into three steps:
 
 3. Put data into div elements in the HTML (in the example in the code, this is done via the anonymous function call after the AJAX request is completed successfully).
 
-Enclosing the JavaScript code into an HTML page, and the page will show a report like the one shown in the figure. The full html is as follows:
+Enclosing the JavaScript code into an HTML page, and the page shows a report like the one shown in the figure. The full html is as follows:
 
 ```javascript
 <!DOCTYPE html>
@@ -187,17 +187,17 @@ Enclosing the JavaScript code into an HTML page, and the page will show a report
 </html>
 ```
 
-So far, the report is still very simple. The user can add more measurements, dimensions, or filters to customize the report. For example, if you want to show AppSharing poor call percentage, then a new measurement regarding AppSharing needs to be added. If you want to show all TCP calls v.s. UDP calls, a new dimension regarding transportation type should be added. If you want to show the number of poor calls within a specific building, then a new filter should be added to select the calls to and from that building.
+So far, the report is still simple. The user can add more measurements, dimensions, or filters to customize the report. For example, if you want to show AppSharing poor call percentage, then a new measurement regarding AppSharing needs to be added. If you want to show all TCP calls v.s. UDP calls, a new dimension regarding transportation type should be added. If you want to show the number of poor calls within a specific building, then a new filter should be added to select the calls to and from that building.
 
  **Example 2: Report definition sample**
 
 It might be difficult for someone to figure out how to write the full list of measurements/dimensions/filters and their corresponding values when constructing a query. In this case, you can go to the Portal, build a report using the report editor, and view the JSON string of the report definition, and then copy the definition into a custom report. 
 
-In this example, we will create a web page like the one shown in the figure where a user can enter the ID of any existing report set (or report) and show the definition of the report set or report on the web page. The user can then plug the JSON string of each report into code similar to the one shown in Example 1 and construct any customized report the user desires. 
+In this example, we create a web page like the one shown in the figure where a user can enter the ID of any existing report set (or report) and show the definition of the report set or report on the web page. The user can then plug the JSON string of each report into code similar to the one shown in Example 1 and construct any customized report the user desires. 
 
 ![CQD Example.](../../media/01c45c23-c4d2-47b8-819f-0888cf71260f.png)
 
-To create the report definition viewer tool, we need to send calls to Repository Service to retrieve the JSON string representations of the definitions of every report-set we want. The Repository API will return report-set definition based on a given report set ID. 
+To create the report definition viewer tool, we need to send calls to Repository Service to retrieve the JSON string representations of the definitions of every report-set we want. The Repository API returns report-set definition based on a given report set ID. 
 
 A quick example is as follows, the code contains a block that is a simple example to send a query to the Repository service to get the contents of a repository item based on its identifier. And the next portion of code (processReportSetData method) is sending AJAX calls to get the definition of each report within that report set. Since the ID in the CQD web portal is the ID of a report set, the AJAX call will return a report set item. More detail on the Repository API and specifically, GetItems, can be found in the [Get Items](get-items.md). 
 

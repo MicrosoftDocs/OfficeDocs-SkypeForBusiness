@@ -172,7 +172,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Logitech Rally Bar | `1.2.788` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Neat Bar Pro | `NFD1.20220914.1210` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Neat Bar | `NFF1.20220914.1210` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
-| Neat Pad Touch Console | `NFA1.20230928.0108` | September 3, 2025 | Compatible with Neat Bar Gen 2, Neat Bar, Neat Bar Pro & Neat Board | 10 |
+| Neat Pad Touch Console | `NFA1.20230928.0108` | September 3, 2025 | Compatible with Neat Bar Gen 2, Neat Bar, Neat Bar Pro, Neat Board 50 & Neat Board | 10 |
 | Neat Board | `NFC1.20220914.1210` | September 3, 2025 | Small Meeting Room (4.5 m x 4.5 m) | 10 |
 | Neat Board 50 |`NFH1.20230824.0001` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Poly Studio X30 | `4.0.0.100885` | September 3, 2025 | Small meeting room(4.5 m x 4.5 m) | 10 |
@@ -282,6 +282,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Poly Trio C60](https://www.poly.com/us/en/products/phones/trio/trio-c60) | 5.9.5.3066 |  |  |
 | [Poly Studio P15 Video Bar](https://www.poly.com/us/en/products/video-conferencing/studio-p/studio-p15) | 1.2.0.000287 |  |  |
 | [Poly Studio E70 Camera](https://www.poly.com/us/en/products/video-conferencing/studio/studio-e70) | 1.1 |  |  |
+| Poly Studio E60 Camera | 1.0.4.0 |  |  |
 | [Poly Studio R30](https://www.poly.com/us/en/products/video-conferencing/studio/studio-r30) | 2.0.0.001096 |  |  |
 | [EPOS SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc) | 2.0.12.0 |  |  |
 | [EPOS SP20](https://www.eposaudio.com/en/us/enterprise/products/sp-20-ml-142ee5ca-speakerphone-1000226) | 1.2.15 |  |  |
@@ -296,6 +297,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [:::no-loc text="Jabra"::: 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710) | 1.8.0 |  |  |
 | [:::no-loc text="Jabra"::: 810](http://www.jabra.com/supportpages/jabra-speak-810) | 1.2.23 |  |  |
 | [Yealink CP900](https://www.yealink.com/products_150.html) | 100.20.0.29 |  |  |
+| Yealink Smartvision 40 | 286.410.0.20 |  |  |
 | [Yealink SmartVision 60](https://www.yealink.com/en/product-detail/smartvision60) | 279.410.0.74 |  | &#x2714; |  | &#x2714; |
 | [Yealink UVC30](https://www.yealink.com/product/microsoft-teams-room-system-uvc30) | 105.420.0.11 | &#x2714; |  |
 | [Yealink UVC34 All-in-one video bar](https://www.yealink.com/product/usb-videobar-uvc34) | 265.410.0.9 |  |  |
@@ -306,6 +308,8 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | Shure Microflex Ecosystem<sup>1</sup>:  [MXA910 Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910?variant=MXA910AL-60CM) or [MXA920 Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa920?variant=MXA920W-S) or [MXA901 Conferencing Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa901?variant=MXA901W-R) or [MXA902 Integrated Conferencing Ceiling Array](https://www.shure.com/products/microphones/mxa902?variant=MXA902W-S) or [MXA710 Linear Array Microphone](https://www.shure.com/products/microphones/mxa710?variant=MXA710AL-2FT%2520) or [MXA310 Table Array Microphone](https://www.shure.com/products/microphones/mxa310?variant=MXA310AL) + </br>Shure [IntelliMix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300?variant=P300-IMX) or [ANIUSB-MATRIX Network Interface](https://www.shure.com/products/mixers/aniusb-matrix?variant=ANIUSB-MATRIX) + </br>Shure [MXN5W-C Ceiling Speaker](https://www.shure.com/products/loudspeakers/mxn5?variant=MXN5W-C) | MXA910: FW 4.1, MXA920: FW 1.1.56, MXA901: FW 6.0.15.0, MXA902: FW 5.0.115, MXA710: FW 1.2.0, MXA310: FW 4.1, </br> P300: FW 4.1, ANIUSB-MATRIX: FW 4.7.21, </br> MXN5W-C: FW 1.0.4 |  |  |
 |Shure Microflex Ecosystem<sup>1</sup>: [MXA910 Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910?variant=MXA910AL-60CM) or [MXA920 Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa920?variant=MXA920W-S) or [MXA901 Conferencing Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa901?variant=MXA901W-R) or [MXA902 Integrated Conferencing Ceiling Array](https://www.shure.com/products/microphones/mxa902?variant=MXA902W-S) or [MXA710 Linear Array Microphone](https://www.shure.com/products/microphones/mxa710?variant=MXA710AL-2FT%2520) or [MXA310 Table Array Microphone](https://www.shure.com/products/microphones/mxa310?variant=MXA310AL) + </br>[Shure IntelliMix Room Software DSP](https://www.shure.com/products/software/intellimix_room) on Crestron UC-C100-T with :::no-loc text="ASUSTeK"::: Computer INC 9934 Compute or Dell OptiPlex7080XE or on Lenovo ThinkSmart Core + </br>[Shure MXN5W-C Ceiling Speaker](https://www.shure.com/products/loudspeakers/mxn5?variant=MXN5W-C) | MXA910: FW 4.1, MXA920: FW 1.1.56, MXA901: FW 6.0.15.0, MXA902: FW 5.0.115, MXA710: FW 1.2.0, MXA310: FW 4.1, </br>MXN5W-C: FW 1.0.4 |  |  |
 | [Sennheiser TeamConnect Intelligent Speaker/TC ISP (T-Rock)](https://en-us.sennheiser.com/tcisp) | 1.0.6 |  |  |  | &#x2714; |
+| [Sennheiser TC Bar M](https://www.sennheiser.com/tcbar-medium) | 0.9.17 |  |  |
+| [Sennheiser TC Bar S](https://www.sennheiser.com/tcbar-small) | 0.9.17 |  |  |
 | [Biamp Tesira Fore AVB VT4 Fixed audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br>[Sennheiser TeamConnect Ceiling 2 Microphone](https://sennheiser.com/tcc2)+ &Dagger;</br>[Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; | Biamp DSP: 3.12.0.15 </br> TCC2: 1.3.3 </br>EX-UBT: 3.12.0.15 |  |  |
 | [Biamp Tesira FORTÉ AVB VT4 Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+</br>[Biamp Parlé TCM-XA Ceiling Microphone](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br>[Biamp Desono C-IC6 ceiling mounted loudspeaker](https://www.biamp.com/products/tesira-speakers) | Audio FW version: 3.15 |  |  |
 | [Biamp TesiraFORTE AVB VT4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br>[Parle TTM-X(Table Mic)](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br>[Ex-UBT]() | Audio FW version: 3.15 |  |  |

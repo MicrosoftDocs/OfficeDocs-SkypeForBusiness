@@ -2,7 +2,7 @@
 title: "Session Border Controllers certified for Direct Routing"
 ms.author: crowe
 ms.reviewer: FilippSe
-ms.date: 07/31/2023
+ms.date: 06/12/2024
 author: CarolynRowe
 manager: pamgreen
 audience: ITPro
@@ -94,7 +94,7 @@ Note that we're not accepting new nominations for certification until further no
 |[Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|Nokia Session Border Controller|&#10004;|&#10004;|23.8|&#10004;||
 |[Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|NetMatch-S CI|&#10004;|&#10004;|Supported 5.8 (Recommended the latest version)|&#10004;|&#10004;|
 |[Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|vSBC 2.16|&#10004;|||||
-|[Cataleya](https://cataleya.com/orchidplatforms/)|Orchid Link|&#10004;||3.1|||
+|[Cataleya](https://cataleya.com/cataleya-launches-orchid-cloud-revolutionary-cloud-based-wholesale-voice-business-platform/)|Orchid Link|&#10004;||3.1|||
 |[ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|Teams SBC|&#10004;|&#10004;|1.6|||
 |[Mitel](https://unify.com/en/solutions/voice-platforms/session-border-controller)|Unify OpenScape Session Border Controller|&#10004;|&#10004;|V10R2.2.0 or higher|||
 |[Sansay Inc.](https://www.sansay.com/solutions/microsoft-teams/)|vmVSXi|&#10004;|&#10004;|10.5.1.354-vm-S-x64|&#10004;||
