@@ -122,7 +122,6 @@ All the features available in new Teams Windows client are supported on Mac clie
 
 - Cameo (weather person) in PPT
 - Green Screen
-- NDI
 
 ## Enhancements in new Teams
 
