@@ -70,9 +70,9 @@ To help guide you as to what features are available on different platforms, you 
 | | Teams Live Event (Presenter role) | Available | Not available |
 | | Teams Live Event (Attendee role) | Available | Not available |
 | | Overflow Meeting Join (1k+ meeting participants) | Available | Not available |
-| | Microsoft Whiteboard - Initate during a Teams Meeting | Available | Available |
-| | Microsoft Whiteboard - Initate without a Teams Meeting (from a console) | Not available | Available |
-| | Microsoft Whiteboard - Initate without a Teams Meeting (all-in-one board) | Available | Available |
+| | Microsoft Whiteboard - Initiate during a Teams Meeting | Available | Available |
+| | Microsoft Whiteboard - Initiate without a Teams Meeting (from a console) | Not available | Available |
+| | Microsoft Whiteboard - Initiate without a Teams Meeting (all-in-one board) | Available | Available |
 | | Intelligent content capture (content camera) | Available | Available |
 | | Meeting Lock | Available | Available |
 | | Automatically disconnect if room is the only participant 5 minutes after meeting time ends | Available | Available |
@@ -193,9 +193,9 @@ To help guide you as to what features are available on different platforms, you 
 | | Teams Live Event (Presenter role) | Available | Not available |
 | | Teams Live Event (Attendee role) | Available | Not available |
 | | Overflow Meeting Join (1k+ meeting participants) | Available | Not available |
-| | Microsoft Whiteboard - Initate during a Teams Meeting | Available | Available |
-| | Microsoft Whiteboard - Initate without a Teams Meeting (from a console) | Not available | Not available |
-| | Microsoft Whiteboard - Initate without a Teams Meeting (all-in-one board) | Not available | Not available |
+| | Microsoft Whiteboard - Initiate during a Teams Meeting | Available | Available |
+| | Microsoft Whiteboard - Initiate without a Teams Meeting (from a console) | Not available | Not available |
+| | Microsoft Whiteboard - Initiate without a Teams Meeting (all-in-one board) | Not available | Not available |
 | | Intelligent content capture (content camera) | Available | Available |
 | | Meeting Lock | Available | Available |
 | | Automatically disconnect if room is the only participant 5 minutes after meeting time ends | Available | Available |
@@ -315,9 +315,9 @@ To help guide you as to what features are available on different platforms, you 
 | | Teams Live Event (Presenter role) | Available | Not available |
 | | Teams Live Event (Attendee role) | Available | Not available |
 | | Overflow Meeting Join (1k+ meeting participants) | Available | Not available |
-| | Microsoft Whiteboard - Initate during a Teams Meeting | Not available | Not available |
-| | Microsoft Whiteboard - Initate without a Teams Meeting (from a console) | Not available | Not available |
-| | Microsoft Whiteboard - Initate without a Teams Meeting (all-in-one board) | Not available | Not available |
+| | Microsoft Whiteboard - Initiate during a Teams Meeting | Not available | Not available |
+| | Microsoft Whiteboard - Initiate without a Teams Meeting (from a console) | Not available | Not available |
+| | Microsoft Whiteboard - Initiate without a Teams Meeting (all-in-one board) | Not available | Not available |
 | | Intelligent content capture (content camera) | Available | Available |
 | | Meeting Lock | Available | Available |
 | | Automatically disconnect if room is the only participant 5 minutes after meeting time ends | Available | Available |
