@@ -4,7 +4,7 @@ author: wlibebe
 ms.author: wlibebe
 manager: pamgreen
 ms.reviewer: spraveen, margidesai
-ms.date: 05/22/2024
+ms.date: 7/11/2024
 ms.topic: conceptual
 ms.service: msteams
 ms.subservice: teams-premium
@@ -48,6 +48,8 @@ The following sections in this article describe the Teams Premium enhancements f
 - [Premium events](#premium-events)
 - [Virtual Appointments](#advanced-virtual-appointments)
 - [Intelligent meeting features](#intelligent-meeting-features)
+- [Custom 3D Immersive Mesh Experiences](#custom-3d-immersive-mesh-experiences)
+- [Intelligent call recap](#intelligent-call-recap)
 
 For more general information about Teams meetings and premium events, see the following articles:
 
@@ -216,6 +218,32 @@ Teams Premium provides the following key AI-powered meetings features:
 | Live translated transcription | Yes |  [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md) | [View live transcription in Microsoft Teams meetings](https://support.microsoft.com/office/view-live-transcription-in-microsoft-teams-meetings-dc1a8f23-2e20-4684-885e-2152e06a4a8b)|
 
 <sup>1</sup>If you toggle the **Transcription** and **Recording** settings to **Off** in your **Meeting policies**, intelligent meeting recap isn't available for users with this policy.
+
+## Custom 3D Immersive Mesh Experiences
+
+With a Teams Premium license, users can explore immersive 3D experiences for the workplace. Host customized single or multi-room immersive events in the Mesh app for up to 200 attendees, available cross-platform on PC and Meta Quest VR devices.
+
+Teams Premium provides custom Mesh experience capabilities for your users, such as:
+
+- **Host immersive events tailored to your business needs** - Elevate team engagement during employee onboardings, trainings, product showcases, or any hybrid business scenarios by creating engaging and interactive experiences with the Mesh app.
+- **Create custom 3D experiences** - Creators can easily use no-code tools to add videos, and images to pre-created and custom environments. Developers and technical artists can leverage scripting, physics, and embedded web content within the Mesh toolkit in Unity to build custom 3D environments with enhanced interactivity.
+- **Create custom avatars, explore environments, and communicate virtually** - Customizable avatars can navigate around 3D environments to experience content and have multiple simultaneous discussions with colleagues using spatial audio built-in to the experience.
+- **Integrated with Microsoft 365** - Mesh provides enterprise-grade security and privacy, built on trusted platforms.
+
+| Feature/Task  | Can admins turn this feature on/off? | Documentation for admins |Documentation for end users |
+| -------------------- | ----------- | ----------- |----------- |
+| Set up Mesh | Yes, use [App centric management](app-centric-management.md) to allow or prevent users from using Mesh.| [Configure Microsoft Mesh](/mesh/setup/content/setup-m365-mesh)<br>[Preparing your organization for Mesh](/mesh/setup/content/preparing-your-organization) | No end user control.|
+| Create your event | Yes| No admin control. |[Overview of Mesh events](/mesh/events-guide/events-overview) |
+| Customize your avatar | Yes| No admin control. |[Personalize your avatar](/mesh/user-guide/avatars) |
+| Develop a custom environment | Yes| No admin control. |[Mesh Development Overview](/mesh/develop/development-overview) |
+| Download the Mesh app | Yes| No admin control. |[Getting started with events in Microsoft Mesh](/mesh/user-guide/getting-started) |
+
+## Intelligent call recap
+
+**Intelligent call recap** provides AI-powered insights and recaps to Public Switched Telephone Network (PSTN) and 1:1 Teams calls.
+
+- To use this feature for PSTN calls, you must assign a Teams Phone license and either Teams Premium license or a Copilot for Microsoft 365 license to users. For more information on Teams Phone licensing, see [Microsoft Teams add-on licenses](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+- To use this feature with 1:1 Teams calls, you must assign a Teams Premium license or Copilot for Microsoft 365 license to users.
 
 ## More resources
 

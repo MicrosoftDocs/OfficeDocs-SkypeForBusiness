@@ -241,12 +241,12 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | :::no-loc text="Huddly"::: L1 Camera with Crestron UC-MX70-T MTR kit | :::no-loc text="Huddly"::: L1 Camera: 1.2.1 </br> Crestron UC-MX70-T with :::no-loc text="ASUSTeK"::: Computer INC 9934 compute 1.0.20.246 or above |  |  |
 | [:::no-loc text="Huddly"::: S1 camera](https://www.huddly.com/conference-cameras/s1/) | 1.4.0 |  |  |
 | [:::no-loc text="Jabra Panacast3"::: Camera](https://www.jabra.com/business/video-conferencing/jabra-panacast) | 1.3.9.12 |  |  |
-| [:::no-loc text="Jabra Panacast"::: 50 Video Bar](https://www.jabra.com/business/video-conferencing/jabra-panacast-50) | 6.2.2 | &#x2714; | &#x2714; |  | &#x2714; |
+| [:::no-loc text="Jabra Panacast"::: 50 Video Bar](https://www.jabra.com/business/video-conferencing/jabra-panacast-50) | 8.0.7 | &#x2714; | &#x2714; |  | &#x2714; |
 | [:::no-loc text="Jabra Speak2"::: 75](https://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak2-75) | 1.2.3 |  |  |
 | [Lenovo ThinkSmart Cam Camera](https://www.lenovo.com/us/en/p/accessories-and-software/webcams-and-video/webcams-&-video_webcams/40cltscam1?orgRef=https%253A%252F%252Fwww.bing.com%252F) | 1.0.111.4 |  |  |
 | [Lenovo ThinkSmart Bar](https://www.lenovo.com/us/en/virtual-reality-and-smart-devices/smart-collaboration/thinksmart/ThinkSmart-Bar/p/11SP1TSSDBR) | 0.9.3 |  |  |
 | Lenovo ThinkSmart Bar Expand XL | 5.9.5 |  |  |
-| Lenovo Thinksmart Bar 180 | 6.5.1 | &#x2714; | &#x2714; |  | &#x2714; |
+| Lenovo Thinksmart Bar 180 | 6.5.1 | &#x2714; |  |  | &#x2714; |
 | [Logitech Brio](https://www.logitech.com/product/brio) | V2.2.50 | &#x2714; |  |
 | [Logitech 930e](https://www.logitech.com/product/c930e-webcam) | 8.0.914 | &#x2714; |  |
 | [Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam) | 1.2.4 |  |  |
