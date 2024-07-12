@@ -32,7 +32,7 @@ The report provides the following metrics:
 
 - **Reached users across organization:**  Count of how many users attended meetings or events that used a Teams Premium feature.
 - **Count of meetings across organization:** Count of meetings or events that used a Teams Premium feature.
-- **Count of meetings for each user:** Count of meetings or events a user attended that used a Teams Premium feature.
+- **Count of meetings for each user:** Count of meetings or eventsa user attended that used a Teams Premium feature.
 
 > [!NOTE]
 > This feature isn’t available for gov clouds (GCC, GCC-H and DoD).
@@ -48,7 +48,7 @@ You must be either a global admin, global reader, or Teams service admin to view
 
 2. Under **Date range**, select a range and then select **Run report**.
 
-:::image type="content" alt-text="Screenshot of the Teams app usage report in the Teams admin center with callouts." source="media/app-usage2-report10.png" lightbox="media/app-usage2-report10.png":::
+:::image type="content" source="../media/premium-usage-report-small.png" alt-text="Diagram of the flow for when a Teams meeting or call is sent and received." lightbox="../media/premium-usage-report-expand.png":::
 
 ## Interpret the report
 
