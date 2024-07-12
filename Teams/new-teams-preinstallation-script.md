@@ -46,7 +46,3 @@ After running the script:
   - Administrators can download these results as a CSV file.
   - Admins can filter the CSV file for each error to identify all devices requiring a specific fix.
   - Admin can fix one error at a time across all machines and rerun the new Teams installation.
-
-## Further issues
-
-If you still can't update your devices after addressing the issues identified by the script, report back to us. Your feedback is crucial for the continuous enhancement of the script.
