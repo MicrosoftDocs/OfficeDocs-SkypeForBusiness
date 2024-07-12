@@ -9,7 +9,7 @@ on: [pull_request_target]
 jobs:
 
   auto-label-assign:
-    uses: MicrosoftDocs/microsoft-365-docs/.github/workflows/Shared-AutoLabelAssign.yml@workflows-test
+    uses: MicrosoftDocs/microsoft-365-docs/.github/workflows/Shared-AutoLabelAssign.yml@workflows-prod
     with:
       PayloadJson: ${{ toJSON(github) }}
       AutoAssignUsers: 1
