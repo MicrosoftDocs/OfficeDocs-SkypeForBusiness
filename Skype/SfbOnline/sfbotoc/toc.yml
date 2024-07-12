@@ -566,8 +566,6 @@ items:
       items: 
         - name: Diagnose connection problems with the Skype for Business Online Connector
           href: ../set-up-your-computer-for-windows-powershell/diagnose-problems-with-the-skype-for-business-online-connector.md
-        - name: Download and install Windows PowerShell 5.1
-          href: ../set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1.md
         - name: Download and install the Skype for Business Online Connector
           href: ../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md
         - name: Manage Exchange Unified Messaging and hosted voicemail
