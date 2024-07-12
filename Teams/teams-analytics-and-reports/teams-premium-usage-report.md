@@ -32,7 +32,7 @@ The report provides the following metrics:
 
 - **Reached users across organization:**  Count of how many users attended meetings or events that used a Teams Premium feature.
 - **Count of meetings across organization:** Count of meetings or events that used a Teams Premium feature.
-- **Count of meetings for each user:** Count of meetings or eventsa user attended that used a Teams Premium feature.
+- **Count of meetings for each user:** Count of meetings or events a user attended that used a Teams Premium feature.
 
 > [!NOTE]
 > This feature isn’t available for gov clouds (GCC, GCC-H and DoD).
