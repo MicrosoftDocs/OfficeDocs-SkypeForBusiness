@@ -26,15 +26,7 @@ ms.custom: seo-marvel-apr2020
 
 [!INCLUDE[Teams Premium ECM](../includes/teams-premium-ecm.md)]
 
-The Teams Premium feature usage report in the Microsoft Teams admin center allows you, as an admin, to view aggregated usage of Teams Premium features by users in your org.
-
-From this report, you can:  
-
-- Understand how individual users are using and benefiting from Teams premium features.
-
-- Learn how your org benefits from specific Teams features and encourage users to try new features.
-
-- Validate overall value around Teams premium.
+The Teams Premium feature usage report in the Microsoft Teams admin center allows you, as an admin, to view aggregated usage of Teams Premium features by users in your org. You can use this report to understand how individual users are using and benefiting from Teams premium features, encourage users to try underused features, and measure the value of Teams Premium for your org.
 
 The report provides the following metrics:  
 
