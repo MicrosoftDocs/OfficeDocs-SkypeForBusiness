@@ -24,8 +24,8 @@ ms.localizationpriority: high
 
 Microsoft has a [pre-installation check script](https://aka.ms/NewTeamsReadinessCheck) designed to identify why devices can't be updated to the new Teams client. The script also suggests solutions to any problems it finds. Admins can save time moving to new Teams by running the script in these two use cases:
 
-- Before installing new Teams for the first time.
-- If the new Teams client installation has failed on some devices.
+- Before you install new Teams for the first time.
+- If the new Teams client installation fails on some devices.
 
 Admins, by running this script, can proactively identify and resolve issues, making it easier to install the new Teams client across their organization.
 
