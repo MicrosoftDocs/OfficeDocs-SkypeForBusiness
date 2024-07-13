@@ -64,11 +64,13 @@ When creating an enrollment profile, verify it doesn't conflict with any enrollm
 
    - **Name** Give the profile a name like 'AOSP – Teams Devices'.
    - **Description** Put in a description so others in the organization know what this enrollment profile is used for. Use something like 'This AOSP Management enrollment profile is to allow Teams Android Devices to enroll in Intune'.
-   - **Token expiration date** Leave this blank. (The current enrollment profiles are limited to a 90-day expiration. However, this expiration limit might be extended in a future release.)
+   - **Token expiration date** This field is required with a maximum of 90 days (The current enrollment profiles are limited to a 90-day expiration. However, this expiration limit might be extended in a future release.)
    - **Wi-Fi** Select **Not configured**.
    - **Microsoft Teams devices** Select **Enabled**.
 
-   ![Screenshot of AOSP enrollment profile.](media/android-migration-guide/aosp-enrollment-profile.png)
+
+<img width="389" alt="aosp-enrollment-profile-new" src="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/assets/101729053/ea1d11bd-47dd-4316-9439-f9b87739e1e7">
+
 
 6. Select **Next**.
 7. Review the profile and then select **Create**.
