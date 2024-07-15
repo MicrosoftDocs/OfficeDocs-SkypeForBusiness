@@ -56,7 +56,7 @@ The SBA feature is supported on the following Microsoft Teams clients:
 - Teams for Mobile 
 - Teams Phones
 
-## How it works
+## How it works (The section below contains features that are based on code that is not yet available.  I would revert back to previous how it works section)
 
 The SBA checks TCP connectivity (ping) with sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com, and sip3.pstnhub.microsoft.com. If there is connectivity with at least one of these addresses, a network outage is not declared. When connectivity to all three addresses is lost, the SBA detects a network outage and will initiate. SP addresses are within Microsoft IP ranges, which should be preconfigured during Direct Routing setup. Customers do not need to add extra rules on the Firewall.
 During an internet outage, the Teams client switches to the SBA automatically, and ongoing calls continue with no interruptions. No action is required from the user. As soon as the Teams client detects that the internet is up, and any outgoing calls are finished, the client falls back to normal operation mode, and connects to other Teams services. The SBA uploads collected Call Data Records to the cloud. Call history is updated for review by the tenant administrator. 
