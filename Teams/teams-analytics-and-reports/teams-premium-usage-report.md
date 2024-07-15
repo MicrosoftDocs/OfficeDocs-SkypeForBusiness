@@ -37,7 +37,7 @@ The report provides the following metrics:
 > [!NOTE]
 > This feature isn’t available for gov clouds (GCC, GCC-H and DoD).
 
-## View the app usage report
+## View the Teams Premium feature usage report
 
 > [!IMPORTANT]
 > Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see [Best practices for Microsoft Entra roles](/entra/identity/role-based-access-control/best-practices).
@@ -69,7 +69,7 @@ You must be either a global admin, global reader, or Teams service admin to view
 To make the data in Teams user activity report anonymous, you must be a global administrator. Anonymizing the report hides identifiable information (using Message Digest 5 (MD5) hashes) such as display name, email, and Microsoft Entra Object ID in report and their export.
 
 1. In Microsoft 365 admin center, go to the **Settings** > **Org Settings**, and under **Services** tab, choose **Reports**.
-2. Select **Reports**, and then choose to **Display anonymous identifiers**. This setting applies to the usage reports in Microsoft 365 admin center and Teams admin center.
+2. Select **Reports**, and keep the option for **Display concealed user, group, and site names in all reports** as checked. This setting applies to the usage reports in Microsoft 365 admin center and Teams admin center.
 3. Select **Save changes**.
 
 ## Related articles
