@@ -3,7 +3,7 @@ title: Plan SIP Gateway
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.date: 08/22/2023
+ms.date: 07/15/2024
 ms.reviewer: chasing
 ms.topic: article
 audience: Admin
@@ -256,10 +256,12 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |8028g2        |5.3     |5.3     |Intercom|   |
 |          |8063          |5.3     |5.3     |Intercom|   |
 |          |8201          |5.3     |5.3     |Intercom|   |
+|          |8203          |5.4     |5.4     |Intercom|   |
 |          |8128g2        |5.3     |5.3     |Visual Alerter |   |
 |          |8138          |5.3     |5.3     |Visual Alerter |   |
 |          |8301          |5.3     |5.3     |Paging Adapter |   |
 |          |8373          |5.3     |5.3     |Paging Adapter |   |
+|          |8305          |5.4     |5.4     |Paging Adapter |   |
 |          |8410          |5.3     |5.3     |Display Speaker |   |
 |          |8420          |5.3     |5.3     |Display Speaker |   |
 |**Alcatel-Lucent Enterprise**|       |     |              |                |   |
