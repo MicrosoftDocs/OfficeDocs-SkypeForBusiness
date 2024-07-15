@@ -42,7 +42,7 @@ This article, designed for admins, introduces types of meetings, features and fu
 - [Admin and meeting organizer meeting options](#admin-and-meeting-organizer-meeting-options)
 
 > [!NOTE]
-> Meetings with registration are no longer supported. Instead, you and your users can use webinars. To learn more about setting up webinars for your org, see [Plan for Teams webinars](plan-webinars.md). Meetings with registration that were previously scheduled, or created with Graph API are still supported until December 31st, 2024.
+> While meetings with registration are no longer supported, you and your users can use webinars. To learn more about setting up webinars for your org, see [Plan for Teams webinars](plan-webinars.md). Meetings with registration that were previously scheduled, or created with Graph API are still supported until December 31st, 2024.
 
 ## Meetings
 
