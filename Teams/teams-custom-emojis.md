@@ -13,7 +13,7 @@ ms.reviewer:
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn about adding custom emojis to Microsoft Teams.
+description: Learn about adding custom emojis to Microsoft Teams chats.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: medium
