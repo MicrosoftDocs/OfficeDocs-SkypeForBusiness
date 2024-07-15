@@ -101,7 +101,7 @@ If the resource account uses an Operator Connect service number, no further acti
 
 ### Using a Direct Routing service number
 
-If the resource account uses a Direct Routing service number, you must have a online voice routing policy with valid Public Switched Telephone Network (PSTN) usages associated with the resource account.
+If the resource account uses a Direct Routing service number, you must have an online voice routing policy with valid Public Switched Telephone Network (PSTN) usages associated with the resource account.
 
 ## Step 6: Create voice routing policy without PSTN usages
 
