@@ -860,7 +860,7 @@ Choose who can attend events and customize registration options for webinars.
 
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
-|EventAccessType|None|This setting controls whether your organizers can publish public or in org webinars and town halls.To learn more, see [Manage who can schedule town halls in Microsoft Teams](set-up-town-halls.md) and [Manage who can schedule webinars in Microsoft Teams](set-up-webinars.md).|
+|EventAccessType|None|This setting controls whether your organizers can publish public or in org webinars and town halls. To learn more, see [Manage who can schedule town halls in Microsoft Teams](set-up-town-halls.md) and [Manage who can schedule webinars in Microsoft Teams](set-up-webinars.md).|
 
 ##### Related articles for events policies
 
