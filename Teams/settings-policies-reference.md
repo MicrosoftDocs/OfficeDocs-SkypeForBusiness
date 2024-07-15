@@ -403,6 +403,7 @@ Meeting policies are used to control what features are available in meetings org
 - [Meetings, webinars, and live events](quick-start-meetings-live-events.md)
 - [Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report)
 - [Teams Meeting add-in in Outlook](Teams-add-in-for-Outlook.md)
+- [Set up meetings with registration](set-up-meeting-registration.md)
 
 #### Meeting join & lobby
 
@@ -859,7 +860,7 @@ Choose who can attend events and customize registration options for webinars.
 
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
-|EventAccessType|None|This setting controls whether your organizers can publish public or in org webinars and town halls.To learn more, see [Manage who can schedule town halls in Microsoft Teams](set-up-town-halls.md) and [Manage who can schedule webinars in Microsoft Teams](set-up-webinars.md).|
+|EventAccessType|None|This setting controls whether your organizers can publish public or in org webinars and town halls. To learn more, see [Manage who can schedule town halls in Microsoft Teams](set-up-town-halls.md) and [Manage who can schedule webinars in Microsoft Teams](set-up-webinars.md).|
 
 ##### Related articles for events policies
 
