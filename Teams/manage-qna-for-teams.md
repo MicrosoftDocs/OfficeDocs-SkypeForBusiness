@@ -35,7 +35,7 @@ To learn more about Q&A for your users, see [Q&A in Microsoft Teams meetings](ht
 - Verify that access to [Viva Engage’s IPs and URLs](/microsoft-365/enterprise/urls-and-ip-address-ranges) isn't blocked.
 - To allow users in your organization to add Q&A to Teams meetings and events, you must confirm that sign-ins for the Office 365 Viva Engage service are enabled in Microsoft Entra ID.
 Follow these steps to confirm that sign-ins are enabled:
-  - Go to the **Microsoft Entra admin center** > **All services** > **Enterprise Applications** > **Office 365 Viva Engage** > **Properties**.
+  - Go to the **Microsoft Entra admin center** > **Identity** > **Applications** > **Enterprise Applications** > **Viva Engage** > **Properties**.
   - For the **Enabled for users to sign-in?** option, select **Yes** if necessary.
 
 When you enable Q&A, organizers can turn on Q&A in their Meeting options when creating or updating meetings and events. Through Teams and Outlook meeting options, organizers can also remove Q&A from meetings where it was previously added to prevent attendees from using the feature.
