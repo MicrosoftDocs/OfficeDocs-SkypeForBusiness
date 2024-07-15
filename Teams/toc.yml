@@ -101,6 +101,8 @@ items:
                   href: new-teams-education.md
                 - name: Update to the new Teams for Web
                   href: new-teams-web.md
+                - name: New teams pre-installation script
+                  href: new-teams-preinstallation-script.md
                 - name: Troubleshooting installation issues
                   href: /microsoftteams/troubleshoot/teams-administration/fix-new-teams-installation-issues
                 - name: Troubleshooting launch issues
