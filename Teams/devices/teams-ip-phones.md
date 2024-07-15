@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
 ms.reviewer: divank
-ms.date: 11/02/2023
+ms.date: 07/15/2024
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
@@ -43,9 +43,9 @@ Microsoft is committed to certifying devices on latest Android versions availabl
 After certification end date, Microsoft is committed to make efforts to support the most recent version of the Teams client on such devices for two years following the end of the certification period.
 
 > [!NOTE]
-> Certification end dates are based on the Android version release date plus 5 years. Once device passes the certification requirements and OEM partners provide the firmware that enables the upgrade to a newer Android version, the certification end date will be extended to match the new Android OS version release date plus 5 years. 
+> Certification end dates are based on the Android version release date plus five years. Once device passes the certification requirements and OEM partners provide the firmware that enables the upgrade to a newer Android version, the certification end date will be extended to match the new Android OS version release date plus five years.
+> 
 ## Certified Teams phones
-
 The following devices are Certified under the Microsoft Teams phones Certification Program:
 
 
