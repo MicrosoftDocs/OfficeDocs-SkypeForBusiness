@@ -1,7 +1,7 @@
 ---
 title: "Configure Shared Calling"
 ms.reviewer: roykuntz, jastark
-ms.date: 2/8/2024
+ms.date: 07/15/2024
 author: mkbond007
 ms.author: mabond
 manager: pamgreen
@@ -33,7 +33,7 @@ This article describes the following steps to configure Shared Calling:
 1. [Assign number to resource account for inbound and outbound calling.](#step-2-assign-number-to-resource-account-for-inbound-and-outbound-calling)
 1. [Associate resource account with Auto attendant for inbound calling.](#step-3-associate-resource-account-with-auto-attendant-for-inbound-calling)
 1. [Assign a location to the resource account for emergency calling](#step-4-assign-a-location-to-the-resource-account-for-emergency-calling)
-1. [If you're using a resource account with Calling Plan service number, assign Pay-As-You-Go Calling Plan to the resource account and fund it.](#step-5-if-youre-using-a-resource-account-with-calling-plan-service-number-assign-pay-as-you-go-calling-plan-to-the-resource-account-and-fund-it)
+1. [Configure resource accounts with service numbers](#step-5-configure-resource-accounts-with-service-numbers)
 1. [Create voice routing policy without PSTN usages.](#step-6-create-voice-routing-policy-without-pstn-usages)
 1. [Enable emergency calling for users.](#step-7-enable-emergency-calling-for-users)
 1. [Create your Shared Calling policy.](#step-8-create-the-shared-calling-policy)
@@ -86,7 +86,7 @@ To assign a location to a resource account number for Calling Plan, Operator Con
 
 For information on the configuration of emergency locations, see [Manage emergency locations](add-change-remove-emergency-location-organization.md).
 
-## Step 5: If you're using a resource account with Calling Plan service number, assign Pay-As-You-Go Calling Plan to the resource account and fund it
+## Step 5: Configure resource accounts with service numbers
 
 ### Using a Calling Plan service number
 
