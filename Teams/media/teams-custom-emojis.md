@@ -4,7 +4,7 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: jtremper
 ms.topic: article
-ms.date: 07/01/2024
+ms.date: 07/15/2024
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -27,8 +27,8 @@ The new custom emojis and reactions feature will be turned on by default. Users 
 
 ## Timelines
 
-- Targeted Release: We're rolling this feature out now and we expect to be completed by early July 2024.
-- Worldwide, GCC: We'll begin rolling out early July 2024 and expect to complete by late July 2024.
+- Targeted Release: We're rolling this feature out now and we expect to be completed by mid-July 2024.
+- Worldwide, GCC: We'll begin rolling out early July 2024 and expect to complete by early August 2024.
 - GCC High, DoD: We'll begin rolling out early August 2024 and expect to complete by late August 2024.
 
 ## How to use this feature
@@ -46,7 +46,7 @@ This feature can be managed through the Teams admin center. Admins have access t
 - Set which users can create new emojis via the Messaging Policy groups (on for all users by default).
 - Set which users can delete emojis via the Messaging Policy groups (off for all users except admins by default).
 
-The Teams Admin Center controls are available now, by going to the **Messaging** section and turning the **use custom emojis** option, found under the **Custom emojis** section, on or off. We recommend adjusting your settings as needed prior to late June 2024 to ensure that they're in place when the feature rolls out.
+The Teams Admin Center controls are available now, by going to the **Messaging Settings** section and turning the **use custom emojis** option, found under the **Custom emojis** section, on or off. We recommend adjusting your settings as needed prior to late June 2024 to ensure that they're in place when the feature rolls out.
 
 The **Messaging policies** section of the Teams admin center will allow you to turn the **Upload custom emojis** and **Delete custom emojis** settings on or off.
 
