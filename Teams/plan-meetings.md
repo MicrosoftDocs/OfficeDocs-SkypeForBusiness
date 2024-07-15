@@ -30,7 +30,7 @@ description: Learn how to plan for meetings in Microsoft Teams.
 
 **APPLIES TO:** ✔️Meetings ✖️Webinars ✖️Town halls
 
-This article is for administrators and IT professionals who are managing Teams meetings capabiities for their organization. This article introduces types of meetings, features and functionality, and provides links to more information. This article contains the following sections:
+This article, designed for admins, introduces types of meetings, features and functionality, and provides links to more information. The following sections are included in this article:
 
 - [Meetings](#meetings)
 - [Audio Conferencing for meetings](#audio-conferencing-for-meetings)
@@ -41,7 +41,10 @@ This article is for administrators and IT professionals who are managing Teams m
 - [Apps for meetings](#apps-for-meetings)
 - [Admin and meeting organizer meeting options](#admin-and-meeting-organizer-meeting-options)
 
-## Meetings 
+> [!NOTE]
+> Meetings with registration are no longer supported. Instead, you and your users can use webinars. To learn more about setting up webinars for your org, see [Plan for Teams webinars](plan-webinars.md). Meetings with registration that were previously scheduled, or created with Graph API are still supported until December 31st, 2024.
+
+## Meetings
 
 Meetings in Teams include audio, video, and screen sharing capabilities for up to 1,000 people and view-only capabilities for participants over 1,000.
 
@@ -57,19 +60,15 @@ To specify which users in your organization can start or schedule meetings, see 
 
 ### Meeting policies
 
-Meeting policies define who can join meetings, the meeting join experience, what features can be set by the meeting organizer, closed caption settings, recording and transcription policies, and more. 
+Meeting policies define who can join meetings, the meeting join experience, what features can be set by the meeting organizer, closed caption settings, recording and transcription policies, and more.
 
-Teams administrators and organizers have different policies and settings to control the meeting experience. For more information, see [Admin and meeting organizer options](#admin-and-meeting-organizer-meeting-options) later in this article. 
+Teams administrators and organizers have different policies and settings to control the meeting experience. For more information, see [Admin and meeting organizer options](#admin-and-meeting-organizer-meeting-options) later in this article.
 
-For a complete list of meeting policies, see [Teams setting and policies reference](settings-policies-reference.md). 
-
-
+For a complete list of meeting policies, see [Teams setting and policies reference](settings-policies-reference.md).
 
 ## Audio Conferencing for meetings
 
 You can assign an Audio Conferencing license to meeting organizers so they can create meetings where attendees can join by dialing in from their phones. These meeting organizers can also dial-out to attendees to connect them to the meeting's audio portion. To learn more about Audio Conferencing, see [Audio Conferencing in Microsoft Teams](audio-conferencing-in-office-365.md).
-
-
 
 ## Meeting options for guests and external participants
 
@@ -100,7 +99,6 @@ Up to 10,000 attendees can join a Teams meeting, however, after 1,000 users ente
 You can allow or prevent the view-only experience for meetings with more than 1,000 attendees. If you disable the view-only experience, meeting attendance is limited to the first 1,000 attendees.
 
 For more information about the view-only meeting experience, see [Teams view-only meeting experience](view-only-meeting-experience.md).
-
 
 ## Recordings
 
