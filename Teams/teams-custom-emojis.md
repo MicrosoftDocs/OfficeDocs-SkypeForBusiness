@@ -16,7 +16,7 @@ f1.keywords:
 description: Learn about adding custom emojis to Microsoft Teams.
 appliesto: 
 - Microsoft Teams
-ms.localizationpriority: normal
+ms.localizationpriority: medium
 ---
 
 # Custom emojis in Microsoft Teams
