@@ -31,7 +31,7 @@ description: Learn how to set up and manage meeting registration policies in Tea
 [!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
 > [!NOTE]
-> Meetings with registration are no longer supported. Instead, you and your users can use webinars. To learn more about setting up webinars for your org, see [Plan for Teams webinars](plan-webinars.md). Meetings with registration that were previously scheduled, or created with Graph API are still supported until December 31st, 2024.
+> While meetings with registration are no longer supported, you and your users can use webinars. To learn more about setting up webinars for your org, see [Plan for Teams webinars](plan-webinars.md) Meetings with registration that were previously scheduled, or created with Graph API are still supported until December 31st, 2024.
 
 This article describes how you, as an admin, can set up and manage meeting registration for your end users in Microsoft Teams meetings.
 
