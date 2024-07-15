@@ -101,11 +101,11 @@ If the resource account uses an Operator Connect service number, no further acti
 
 ### Using a Direct Routing service number
 
-If the resource account uses a Direct Routing service number, you must have a online voice routing policy with valid PSTN usages associated with the resource account.
+If the resource account uses a Direct Routing service number, you must have a online voice routing policy with valid Public Switched Telephone Network (PSTN) usages associated with the resource account.
 
 ## Step 6: Create voice routing policy without PSTN usages
 
-Shared Calling users must not have an assigned voice routing policy (also known as a call routing policy) with valid Public Switched Telephone Network (PSTN) usages. If you're using global voice routing policies in your tenant with valid PSTN usages, then you must create a new voice routing policy with empty PSTN usages and assign this policy to Shared Calling users.
+Shared Calling users must not have an assigned voice routing policy (also known as a call routing policy) with valid PSTN usages. If you're using global voice routing policies in your tenant with valid PSTN usages, then you must create a new voice routing policy with empty PSTN usages and assign this policy to Shared Calling users.
 
 ## Step 7: Enable emergency calling for users
 
