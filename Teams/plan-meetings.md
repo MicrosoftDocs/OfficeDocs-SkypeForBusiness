@@ -30,7 +30,22 @@ description: Learn how to plan for meetings in Microsoft Teams.
 
 **APPLIES TO:** ✔️Meetings ✖️Webinars ✖️Town halls
 
-Meetings in Teams include audio, video, and screen sharing for up to 1,000 people and view-only capabilities for participants over 1,000. Participants can be users in your org, or if you allow it, people outside your organization. Meeting organizers can control which features are available in a given meeting and you can control the availability and default value for many of these features by using meeting policies.
+This article is for administrators and IT professionals who are managing Teams meetings capabiities for their organization. This article introduces types of meetings, features and functionality, and provides links to more information. This article contains the following sections:
+
+- [Meetings](#meetings)
+- [Audio Conferencing for meetings](#audio-conferencing-for-meetings)
+- [Guests and external participants](#meeting-options-for-guests-and-external-participants)
+- [Attendee limits and streaming options](#attendee-limits-and-streaming-options)
+- [Recordings](#recordings)
+- [Compliance features](#compliance-features)
+- [Apps for meetings](#apps-for-meetings)
+- [Admin and meeting organizer meeting options](#admin-and-meeting-organizer-meeting-options)
+
+## Meetings 
+
+Meetings in Teams include audio, video, and screen sharing capabilities for up to 1,000 people and view-only capabilities for participants over 1,000.
+
+Participants can be users in your organization, or if you allow it, people outside your organization. Meeting organizers can control which features are available in a given meeting. You as the administrator, can control the availability and default value for many of these features by using [meeting policies](#meeting-policies).
 
 The following types of meetings are available:
 
@@ -40,38 +55,21 @@ The following types of meetings are available:
 
 To specify which users in your organization can start or schedule meetings, see [Manage who can start instant meetings and schedule meetings](manage-who-can-schedule-meetings.md).
 
-## Meetings and calls
+### Meeting policies
 
-Users with an assigned Teams Phone license can make calls in Teams, and they might use meetings and calls interchangeably based on their needs at any given time. Meeting policies and calling policies have separate settings for starting the meeting or call, recording, transcript, and using closed captions. You should plan both sets of settings together to give your users a consistent experience as they use both calls and meetings.
+Meeting policies define who can join meetings, the meeting join experience, what features can be set by the meeting organizer, closed caption settings, recording and transcription policies, and more. 
 
-The following table shows the policy settings that are similar between meetings and calls.
+Teams administrators and organizers have different policies and settings to control the meeting experience. For more information, see [Admin and meeting organizer options](#admin-and-meeting-organizer-meeting-options) later in this article. 
 
-|User intent|Meeting policies|Calling policies|
-|:------|:--------------|:---------------|
-|Meet with someone by starting a call or instant meeting|[Private meeting scheduling](manage-who-can-schedule-meetings.md)|Make private calls|
-|Record a meeting or call|[Meeting recording](meeting-recording.md)|Cloud recording for calling|
-|Transcribe a meeting or call|[Transcription](meeting-transcription-captions.md)|Transcription|
-|See closed captions in a meeting or call|[Live captions](meeting-transcription-captions.md)|Real-time captions in Teams calls|
+For a complete list of meeting policies, see [Teams setting and policies reference](settings-policies-reference.md). 
 
-For information about calling policies, see [Configure calling policies in Teams](teams-calling-policy.md).
 
-## Audio Conferencing
+
+## Audio Conferencing for meetings
 
 You can assign an Audio Conferencing license to meeting organizers so they can create meetings where attendees can join by dialing in from their phones. These meeting organizers can also dial-out to attendees to connect them to the meeting's audio portion. To learn more about Audio Conferencing, see [Audio Conferencing in Microsoft Teams](audio-conferencing-in-office-365.md).
 
-## Recordings
 
-You can specify which meeting organizers and attendees can record meetings. For someone to record a meeting, admin policies must allow both the person who starts the recording and the meeting organizer to record.
-
-Organizers can't disable recording for a meeting if admin policies permit it, but they can limit recording to organizers and co-organizers if they have a Teams Premium license.
-
-You can set meeting recordings to expire after a specified time. Managing the expiration date can help save storage space in organizations where many meetings are recorded. When a recording expires, it's moved to the recycle bin, and the file owner is notified. They can restore the recording if they need to.
-
-Recording files are saved to OneDrive (for private meetings) or SharePoint (for channel meetings). Users who attended the meeting have permissions to view the recording by default. You can [block the download of meeting recording files](block-download-meeting-recording.md) if you need to.
-
-To learn more about meeting recording and expiration and to configure recording policies for your organization, see [Teams meeting recording](meeting-recording.md).
-
-If you have compliance requirements around meeting recordings, see [Manage Microsoft Teams meeting recording options for sensitive meetings](manage-meeting-recording-options.md).
 
 ## Meeting options for guests and external participants
 
@@ -102,6 +100,21 @@ Up to 10,000 attendees can join a Teams meeting, however, after 1,000 users ente
 You can allow or prevent the view-only experience for meetings with more than 1,000 attendees. If you disable the view-only experience, meeting attendance is limited to the first 1,000 attendees.
 
 For more information about the view-only meeting experience, see [Teams view-only meeting experience](view-only-meeting-experience.md).
+
+
+## Recordings
+
+You can specify which meeting organizers and attendees can record meetings. For someone to record a meeting, admin policies must allow both the person who starts the recording and the meeting organizer to record.
+
+Organizers can't disable recording for a meeting if admin policies permit it, but they can limit recording to organizers and co-organizers if they have a Teams Premium license.
+
+You can set meeting recordings to expire after a specified time. Managing the expiration date can help save storage space in organizations where many meetings are recorded. When a recording expires, it's moved to the recycle bin, and the file owner is notified. They can restore the recording if they need to.
+
+Recording files are saved to OneDrive (for private meetings) or SharePoint (for channel meetings). Users who attended the meeting have permissions to view the recording by default. You can [block the download of meeting recording files](block-download-meeting-recording.md) if you need to.
+
+To learn more about meeting recording and expiration and to configure recording policies for your organization, see [Teams meeting recording](meeting-recording.md).
+
+If you have compliance requirements around meeting recordings, see [Manage Microsoft Teams meeting recording options for sensitive meetings](manage-meeting-recording-options.md).
 
 ## Compliance features
 
@@ -147,7 +160,7 @@ Teams admins and organizers have different policies and settings to control the 
 |[Voice isolation](voice-isolation.md)|Can control whether users can use voice isolation in meetings and calls.|Can enable voice isolation.|
 |[Watermarks (Teams Premium)](watermark-meeting-content-video.md)|Can allow or prevent watermarks for attendee video and shared content|Can enforce watermarks if allowed by the admin|
 
-## Related topics
+## Related articles
 
 - [Meetings, webinars, and town halls feature comparison](meeting-webinar-town-hall-feature-comparison.md)
 

@@ -1374,6 +1374,8 @@ items:
                   href: rooms/third-party-join.md
                 - name: Meetings with SIP and H.323 devices
                   href: rooms/meetings-with-SIP-H323-devices.md
+                - name: Manage custom backgrounds on Android
+                  href: rooms/custom-backgrounds-android.md
                 - name: Manage custom backgrounds on Windows
                   href: rooms/custom-backgrounds.md
                 - name: Join meetings with QR codes
@@ -1496,8 +1498,6 @@ items:
               href: set-up-common-area-phones.md
             - name: Set up a common area mobile phones
               href: devices/common-area-mobile-phones.md
-            - name: Set up auto answer for Teams Android devices
-              href: set-up-auto-answer-on-teams-android.md
             - name: Remote provisioning and sign-in
               href: devices/remote-provision-remote-login.md
             - name: Remote sign in and sign out
