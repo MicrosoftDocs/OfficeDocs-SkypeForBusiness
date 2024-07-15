@@ -32,12 +32,12 @@ This article describes the following steps to configure Shared Calling:
 1. [Assign Teams Phone licenses and enable users for voice.](#step-1-assign-teams-phone-licenses-and-enable-users-for-voice)
 1. [Assign number to resource account for inbound and outbound calling.](#step-2-assign-number-to-resource-account-for-inbound-and-outbound-calling)
 1. [Associate resource account with Auto attendant for inbound calling.](#step-3-associate-resource-account-with-auto-attendant-for-inbound-calling)
-1. [Assign a location to the resource account for emergency calling](#step-4-assign-a-location-to-the-resource-account-for-emergency-calling)
-1. [Configure resource accounts with service numbers](#step-5-configure-resource-accounts-with-service-numbers)
+1. [Assign a location to the resource account for emergency calling.](#step-4-assign-a-location-to-the-resource-account-for-emergency-calling)
+1. [Configure resource accounts with service numbers.](#step-5-configure-resource-accounts-with-service-numbers)
 1. [Create voice routing policy without PSTN usages.](#step-6-create-voice-routing-policy-without-pstn-usages)
 1. [Enable emergency calling for users.](#step-7-enable-emergency-calling-for-users)
 1. [Create your Shared Calling policy.](#step-8-create-the-shared-calling-policy)
-1. [Assign the Shared Calling policy to users](#step-9-assign-the-shared-calling-policy-to-users)
+1. [Assign the Shared Calling policy to users.](#step-9-assign-the-shared-calling-policy-to-users)
 
 For a step-by-step example on how to configure Shared Calling with PowerShell, see [Shared Calling scenario](shared-calling-scenario.md).
 
