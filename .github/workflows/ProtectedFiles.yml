@@ -1,0 +1,20 @@
+name: Protected Files
+
+permissions:
+  pull-requests: write
+  statuses: write
+  contents: read
+      
+on: [pull_request_target]
+
+jobs:
+
+  check-files:
+    uses: MicrosoftDocs/MAX-CPUB-Test/.github/workflows/Shared-ProtectedFiles.yml@main
+    with:
+      PayloadJson: ${{ toJSON(github) }}
+    secrets:
+      AccessToken: ${{ secrets.GITHUB_TOKEN }}
+
+
+  
