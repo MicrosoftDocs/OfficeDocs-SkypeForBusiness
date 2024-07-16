@@ -43,7 +43,7 @@ The Admin app creates a central hub for administrators to manage Microsoft 365 f
 
 ## Who can access the Admin app in Teams?
 
-The Admin app in Teams is meant for administrative use. The Admin app is only accessible to users with the following admin roles: Global administrator, Teams administrator, Users administrator, and Billings administrator. [Learn more about admin roles in the Microsoft 365 admin center.](/microsoft-365/admin/add-users/about-admin-roles) 
+The Admin app in Teams is meant for administrative use. The Admin app is only accessible to users with the following admin roles: Global administrator, Teams administrator, Users administrator, and Billings administrator. [Learn more about admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 ## Get started with the Admin app
 
@@ -82,9 +82,7 @@ From the Dashboard tab, there is a navigation menu consisting of the **Home**, *
 We welcome your feedback on the **Admin** app. To submit feedback about the **Admin** app, use the **Give Feedback**  feature in Microsoft Teams. Let us know how we’re doing in the areas of:
 
 - User experience or ease of use
-
 - Feature gaps or missing functionality
-
 - Bugs or issues
 
 In the Desktop app, select **Help**   at the bottom lower-left of Teams and then choose **Give feedback** to tell us what you think. To share feedback from an Android or iOS device, follow the instructions at [Give feedback](https://support.microsoft.com/office/give-feedback-in-teams-c0fb6297-22af-4db5-b19b-69e0a6720927#ID0EBBD=Desktop) in Teams. We recommend that you indicate that you're sending feedback about the **Admin** app at the beginning of your report so that we can easily identify **Admin** app related issues.
