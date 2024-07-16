@@ -71,8 +71,11 @@ The following camera models when deployed in Microsoft Teams Rooms on Windows wi
 
 - AVer CAM520 Pro 
 - AVer CAM520 Pro2
+- Crestron P12
+
+- Crestron P20
+
 - Jabra PanaCast 
-- Lenovo ThinkSmart Cam 
 - Lenovo ThinkSmart One
 - Logitech BRIO
 - Logitech CC3000e
