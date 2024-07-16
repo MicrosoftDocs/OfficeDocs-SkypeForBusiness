@@ -104,7 +104,7 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |8865<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
 |          |ATA191-MPP       |11.2.2MPP   |11-2-2MPP0101-013  |   |   |
 |          |ATA192-MPP       |11.2.2MPP   |11-2-2MPP0101-013  |   |   |
-|**Poly**  |           |            |           |The device will auto reboot and install the selected firmware.|   |
+|**Poly**  |           |            |           |The device will auto reboot and install the selected firmware.|[Poly Lens Provisioning Guide](https://info.lens.poly.com/docs/category/lens-assisted-provisioning)|
 |          |Trio 8500  |5.9.5.3182  |7.2.2.1094 |   |   |
 |          |Trio 8800  |5.9.5.3182  |7.2.2.1094 |   |   |
 |          |VVX150<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
