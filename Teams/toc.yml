@@ -1297,10 +1297,13 @@ items:
     - name: Teams device certification
       items:
         - name: Overview
-          href: devices/certification-overview.md
-        - name: Partners
-          href: devices/certifcation-partners.md
           items:
+          - name: Overview
+            href: devices/certification-overview.md
+          - name: Partners
+            items:
+            - name: Overview
+              href: devices/certification-partners.md
             - name: How to Join the program
               href: devices/certification-join.md
         - name: IT admins and decision makers
