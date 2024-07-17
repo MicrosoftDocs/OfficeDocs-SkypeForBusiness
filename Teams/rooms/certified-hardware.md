@@ -26,15 +26,34 @@ description: Find lists of certified systems and peripherals for use with Micros
 
 # Teams Rooms certified systems and peripherals
 
-Certified Microsoft Teams Rooms systems are available on both Windows and Android operating systems. Whether you should choose a Teams Rooms system on Windows or Android depends on your specific needs and budget. Select the **Teams Rooms for Windows** and **Teams Rooms for Android** tabs for a complete list of certified systems and links to their respective product sites.
+The Microsoft Teams Devices Certification Program ensures certified devices meet a high standard, with higher performance targets and quality metrics across the entire Teams experience (audio, video, user interface). Microsoft and OEM partners are actively working together to ensure devices meet all certification requirements, including security, audio and video quality, Teams experience, and accessibility.
 
-For a comparison of features available on each operating system, check out [Teams Rooms on Windows and Android feature comparison](teams-devices-feature-comparison.md).
+>[!Important]
+>The Microsoft Teams Devices Certification Program ensures certified devices meet specific requirements for hardware design and performance only. The certification program doesn't evaluate feature-level or cloud environment support.
+
+
+Certified Microsoft Teams Rooms systems are available on both Windows and Android operating systems. Whether you should choose a Teams Rooms system on Windows or Android depends on your specific needs and budget. Select the **Teams Rooms for Windows** and **Teams Rooms for Android** tabs for a complete list of certified systems and links to their respective product sites. For additional certification information specific to **Teams Rooms for Android** see details below.  
+
+For a comparison of features available on each operating system, check out [Teams Rooms on Windows and Android feature comparison](teams-devices-feature-comparison.md). 
 
 To see Teams Rooms pricing, see the [Teams Rooms product showcase](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20).
 
 Numerous certified peripherals, from speakers to microphones and cameras, are available for use with Teams Rooms systems. Select the **Peripherals** tab for a complete list of peripherals and links to their respective product sites.
 
 To see peripherals pricing, see the [Rooms systems accessories product showcase](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/room-systems-accessories/73).
+
+# Teams Rooms for Android Certification programs 
+The following information pertains to **Teams Rooms for Android** only. 
+
+Certification programs are designed to ensure all certified devices run an Android version with the required feature set for Teams and Teams Admin Center. Certification end dates are based on the Android version running on the device when it enters into the certification program. Our OEM partners are working to extend the lifetime of the certification by upgrading the Android version and recertifying, or by releasing new models that are state-of-the-art.
+
+Microsoft is committed to certifying devices on latest Android versions available for Teams devices as long as OEM partners and SoC manufacturers are able to meet all certification requirements in effect at the time device enters certification.
+
+After certification end date, Microsoft is committed to making efforts to support the most recent version of the Teams client on such devices for two years following the end of the certification period. 
+
+>[!Note]
+>Certification end dates are based on the Android version release date plus five years. Once the device passes the certification requirements and OEM partners provide the firmware that enables the upgrade to a newer Android version, the certification end date will be extended to match the new Android OS version release date plus five years.
+
 
 ## [Teams Rooms for Windows](#tab/Windows)
 
