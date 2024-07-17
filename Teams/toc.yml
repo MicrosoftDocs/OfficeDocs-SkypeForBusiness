@@ -1292,6 +1292,24 @@ items:
 
 - name: Devices and rooms management
   items:
+    - name: Teams device store
+      href: devices/device-store.md
+    - name: Teams device certification
+      items:
+        - name: Overview
+          href: devices/certification-overview.md
+        - name: Partners
+          href: devices/certifcation-partners.md
+        - name: IT admins and decision makers
+          href: devices/certification-it-admins.md
+        - name: End users
+          href: devices/certification-end-users.md
+        - name: Teams specifications
+          href: ../certification/test-spec.md
+        - name: Personal peripherals
+          href: devices/usb-devices.md
+        - name: Teams certified Android devices
+          href: devices/teams-ip-phones.md
     - name: Microsoft Teams Rooms
       items: 
         - name: Overview
@@ -1306,8 +1324,6 @@ items:
               href: rooms/room-planning-guidance.md
             - name: Hardware and operating systems
               items:
-                - name: Certified Teams Rooms hardware
-                  href: rooms/certified-hardware.md
                 - name: Windows version support
                   href: rooms/rooms-lifecycle-support.md
                 - name: Android app and firmware versions
@@ -1458,10 +1474,6 @@ items:
           href: rooms/data-and-privacy-info.md
     - name: Devices
       items:
-        - name: Teams device store
-          href: devices/device-store.md
-        - name: Teams certified devices
-          href: devices/teams-ip-phones.md
         - name: Phones for Teams
           href: devices/phones-for-teams.md
         - name: Teams displays
@@ -1526,8 +1538,6 @@ items:
               items:
                 - name: QoS on Teams devices
                   href: devices/qos-on-teams-devices.md
-                - name: USB audio and video devices
-                  href: devices/usb-devices.md
                 - name: RealWear for Teams
                   href: flw-realwear.md
                 - name: Multi-Stream IntelliFrame
