@@ -1305,7 +1305,7 @@ items:
         - name: End users
           href: devices/certification-end-users.md
         - name: Teams specifications
-          href: ../certification/test-spec.md
+          href: devices/certification-specifications.md
         - name: Personal peripherals
           href: devices/usb-devices.md
         - name: Teams certified Android devices
