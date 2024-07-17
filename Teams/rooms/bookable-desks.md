@@ -106,7 +106,11 @@ You can use the auto discovery feature to get the device information and then as
 
 1. Take the laptop or tablet and sign in to Teams.
 
-2. Physically plug in the laptop. When you plug in to this associated device, you receive a desk reservation notification with a booking appearing on Teams calendar. You can also reserve a desk using the Teams app or Places Finder on Outlook. If you reserve a Bookable Desk, you see an arrival notification for an existing reservation.  
+1. Physically plug in the laptop. When you plug in to this associated device, you receive a desk reservation notification with a booking appearing on Teams calendar. You can also reserve a desk using the Teams app or Places Finder on Outlook. If you reserve a Bookable Desk, you see an arrival notification for an existing reservation.  
+
+## Step 5 (Optional) - Enable automatic location updates
+
+Once the end user experience is operational, you can [enable the automatic location update policy](/powershell/module/teams/new-csteamsworklocationdetectionpolicy?view=teams-ps) for your tenant or a group of users. Automatic location updates are designed to enhance the end-user experience by making it easier to keep one's work location up-to-date and connect with others when in the office. With the policy enabled, users will have the opportunity to enable automatic location updates as well. They can do so in Teams desktop client under **Settings** -> **Privacy** -> **Sharing your work location**. After users have opted-in, their work location will automatically update to ‘In the office’ whenever they connect to a bookable desk, provided their work location was previously set to unknown or remote. This feature ensures a seamless transition between remote and in-office work, enhancing collaboration and communication within your team. 
 
 ## Frequently asked questions
 
