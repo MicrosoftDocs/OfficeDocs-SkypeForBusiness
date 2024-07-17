@@ -41,7 +41,7 @@ Tenant admins can configure your organization's privacy statement in the Microso
 
 ## Meeting join experience
 
-After it's set up, the privacy statement link is shown to attendees in the lower-left corner of the meeting join experience. When external and internal attendees join using the Teams meeting link in their meeting invitation or from their Teams or Outlook calendar, they can go the privacy statement link to view your organization's privacy statement.
+After it's set up, the privacy statement link is shown to attendees when they hover over the lower-left corner of the meeting join experience. When external and internal attendees join using the Teams meeting link in their meeting invitation or from their Teams or Outlook calendar, they can go the privacy statement link to view your organization's privacy statement.
 
 :::image type="content" source="media/meeting-privacy-statement-experience.png" alt-text="Screenshot of the meeting join experience in Teams, showing the privacy statement link." lightbox="media/meeting-privacy-statement-experience.png":::
 
