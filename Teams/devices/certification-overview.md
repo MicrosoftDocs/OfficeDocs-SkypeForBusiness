@@ -37,9 +37,8 @@ If you need to know more, please choose one of the following links.
 
 - [For Partners](/MicrosoftTeams/devices/certifcation-partners?branch=pr-en-us-15156)
 
-- [For End Users](/MicrosoftTeams/devices/certification-end-users?branch=pr-en-us-15156)  
-  
-  
+- [For End Users](/MicrosoftTeams/devices/certification-end-users?branch=pr-en-us-15156)
+
 Browse and shop our Certified for Teams devices at: [Teams devices store](https://www.microsoft.com/microsoft-teams/across-devices)
 
 For a list of our Certified for Teams Rooms partner devices by type and platform go to the following:
