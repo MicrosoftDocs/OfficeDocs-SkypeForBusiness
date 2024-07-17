@@ -66,11 +66,5 @@ Use the following table to find the tools for testing USB peripherals, PCs, and 
 
 ### Related resources
 
-[Phones and devices home](devices-ip-phones.md)
-
-[USB Audio and Video devices](devices-usb-devices.md)
-
-If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
-
 View the [Microsoft Teams devices store](https://products.office.com/microsoft-teams/across-devices/devices) to see products certified for Microsoft Teams and Skype for Business.
 

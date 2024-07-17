@@ -1300,6 +1300,9 @@ items:
           href: devices/certification-overview.md
         - name: Partners
           href: devices/certifcation-partners.md
+          items:
+            - name: How to Join the program
+              href: devices/certification-join.md
         - name: IT admins and decision makers
           href: devices/certification-it-admins.md
         - name: End users
