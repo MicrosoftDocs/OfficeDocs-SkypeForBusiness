@@ -101,6 +101,8 @@ items:
                   href: new-teams-education.md
                 - name: Update to the new Teams for Web
                   href: new-teams-web.md
+                - name: New teams pre-installation script
+                  href: new-teams-preinstallation-script.md
                 - name: Troubleshooting installation issues
                   href: /microsoftteams/troubleshoot/teams-administration/fix-new-teams-installation-issues
                 - name: Troubleshooting launch issues
@@ -602,6 +604,8 @@ items:
           href: presence-admins.md
         - name: User work location in Teams
           href: user-work-location-in-teams.md
+        - name: Custom emojis in Teams
+          href: teams-custom-emojis.md
         - name: Supervised chat for non-educational tenants
           href: supervised-chat-non-edu.md
 

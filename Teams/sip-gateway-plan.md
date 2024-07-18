@@ -3,7 +3,7 @@ title: Plan SIP Gateway
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.date: 08/22/2023
+ms.date: 07/15/2024
 ms.reviewer: chasing
 ms.topic: article
 audience: Admin
@@ -104,7 +104,7 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |8865<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
 |          |ATA191-MPP       |11.2.2MPP   |11-2-2MPP0101-013  |   |   |
 |          |ATA192-MPP       |11.2.2MPP   |11-2-2MPP0101-013  |   |   |
-|**Poly**  |           |            |           |The device will auto reboot and install the selected firmware.|   |
+|**Poly**  |           |            |           |The device will auto reboot and install the selected firmware.|[Poly Lens Provisioning Guide](https://info.lens.poly.com/docs/category/lens-assisted-provisioning)|
 |          |Trio 8500  |5.9.5.3182  |7.2.2.1094 |   |   |
 |          |Trio 8800  |5.9.5.3182  |7.2.2.1094 |   |   |
 |          |VVX150<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
@@ -256,10 +256,12 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |8028g2        |5.3     |5.3     |Intercom|   |
 |          |8063          |5.3     |5.3     |Intercom|   |
 |          |8201          |5.3     |5.3     |Intercom|   |
+|          |8203          |5.4     |5.4     |Intercom|   |
 |          |8128g2        |5.3     |5.3     |Visual Alerter |   |
 |          |8138          |5.3     |5.3     |Visual Alerter |   |
 |          |8301          |5.3     |5.3     |Paging Adapter |   |
 |          |8373          |5.3     |5.3     |Paging Adapter |   |
+|          |8305          |5.4     |5.4     |Paging Adapter |   |
 |          |8410          |5.3     |5.3     |Display Speaker |   |
 |          |8420          |5.3     |5.3     |Display Speaker |   |
 |**Alcatel-Lucent Enterprise**|       |     |              |                |   |

@@ -49,6 +49,7 @@ The following sections in this article describe the Teams Premium enhancements f
 - [Virtual Appointments](#advanced-virtual-appointments)
 - [Intelligent meeting features](#intelligent-meeting-features)
 - [Custom 3D Immersive Mesh Experiences](#custom-3d-immersive-mesh-experiences)
+- [Intelligent call recap](#intelligent-call-recap)
 
 For more general information about Teams meetings and premium events, see the following articles:
 
@@ -240,6 +241,12 @@ Teams Premium provides custom Mesh experience capabilities for your users, such 
 | Develop a custom environment | Yes| No admin control. |[Mesh Development Overview](/mesh/develop/development-overview) |
 | Download the Mesh app | Yes| No admin control. |[Getting started with events in Microsoft Mesh](/mesh/user-guide/getting-started) |
 
+## Intelligent call recap
+
+**Intelligent call recap** provides AI-powered insights and recaps to Public Switched Telephone Network (PSTN) and 1:1 Teams calls.
+
+- To use this feature for PSTN calls, you must assign a Teams Phone license and either Teams Premium license or a Copilot for Microsoft 365 license to users. For more information on Teams Phone licensing, see [Microsoft Teams add-on licenses](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+- To use this feature with 1:1 Teams calls, you must assign a Teams Premium license or Copilot for Microsoft 365 license to users.
 
 ## More resources
 
