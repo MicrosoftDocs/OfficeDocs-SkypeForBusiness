@@ -10,7 +10,7 @@ on: [pull_request_target]
 jobs:
 
   check-files:
-    uses: MicrosoftDocs/MAX-CPUB-Test/.github/workflows/Shared-ProtectedFiles.yml@main
+    uses: MicrosoftDocs/microsoft-365-docs/.github/workflows/Shared-ProtectedFiles.yml@workflows-prod
     with:
       PayloadJson: ${{ toJSON(github) }}
     secrets:
