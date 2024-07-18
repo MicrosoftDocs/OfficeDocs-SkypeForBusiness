@@ -30,7 +30,7 @@ ms.custom:
 
 This article explains how to configure SIP Gateway so that your organization can use compatible SIP devices with Microsoft Teams. To find out what SIP Gateway can do for your organization and what hardware, software, and licenses your organization needs for it, read [Plan for SIP Gateway](sip-gateway-plan.md).
 
-Before you can configure SIP Gateway, do the following:
+### Before you can configure SIP Gateway, do the following:
 
 - **Reset SIP devices to factory default settings.** You or your organization's users must reset each SIP device used with SIP Gateway to its factory default settings. To find out how to do that, see the manufacturer’s instructions.
 
@@ -42,16 +42,7 @@ Before you can configure SIP Gateway, do the following:
 
 - **Open the TCP port.** Open TCP port 5061 for IP ranges 52.112.0.0/14 and 52.122.0.0/15.
 
-- **Open the following IP addresses for HTTP and HTTPS:**
-
-  - 13.75.175.145
-  - 52.189.219.201
-  - 51.124.34.164
-  - 13.74.250.91
-  - 13.83.55.36
-  - 23.96.103.40
-
-The following sections describe what you must do as an administrator to configure SIP Gateway.
+### The following sections describe what you must do as an administrator to configure SIP Gateway.
 
 - [Verify that SIP Gateway is available for your organization](#verify-that-sip-gateway-is-available-for-your-organization).
 
@@ -59,7 +50,7 @@ The following sections describe what you must do as an administrator to configur
 
 - [Set the SIP Gateway provisioning server URL](#set-the-sip-gateway-provisioning-server-url).
 
-This article also describes how to:
+### This article also describes how to:
 
 - [Enroll SIP devices either individually or in batches for your convenience](#provision-and-enroll-sip-devices-as-common-area-phones).  
 
