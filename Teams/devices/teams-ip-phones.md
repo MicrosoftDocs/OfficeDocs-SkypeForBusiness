@@ -153,7 +153,7 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 |CX350/CCX400/CCX500/CCX505/CCX600 | `8.1.4.1480` | N/A | Teams client: `1449/1.0.94.2023072509` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| November 6, 2023|
 |Trio C60 | `8.1.4.1456` | N/A | Teams client: `1449/1.0.94.2023072509` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| November 6, 2023 |
 |CX350/CCX400/CCX500/CCX505/CCX600 | `8.1.3.1301` | N/A | Teams client: `1449/1.0.94.2023060906` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| August 4, 2023|
-|Trio C60 | `8.1.3.1300` | N/A | Teams client: `1449/1.0.94.2023072509` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| November 6, 2023 |
+|Trio C60 | `8.1.3.1300` | N/A | Teams client: `1449/1.0.94.2023072509` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| August 4, 2023 |
 |CX350/CCX400/CCX500/CCX505/CCX600 | `8.1.2.1122` | N/A | Teams client: `1449/1.0.94.2023041203` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product`| May 5, 2023|
 |Trio C60 | `8.1.2.1124` | N/A | Teams client: `1449/1.0.94.2023041203` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product`| May 5, 2023|
 |CX350/CCX400/CCX500/CCX505/CCX600 | `8.1.1.3290` | N/A | Teams client: `1449/1.0.94.2022110803` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product`| March 30, 2023|
