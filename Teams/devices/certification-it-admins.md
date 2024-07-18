@@ -37,10 +37,6 @@ Devices certified for Teams are made to work best with Microsoft Teams. The cert
 
 Whether you need to work together, talk, or create, you can do it easily and efficiently. Certified devices go through tough testing to make sure they work well with Teams. They help reduce common problems like video lag, background noise, and echo, so you can focus on your meeting or call. Enjoy features that make your conversations more natural and engaging, such as customizable views in Teams meetings and instant access to Teams with a dedicated Teams button on personal devices.
 
-You can choose from a variety of devices that fit your work style and preferences, from standalone interactive devices to complete systems. These devices are easy to use, set up, and manage, saving you time and hassle. They're continuously updated with new features and functionalities that enhance your Teams experience.
-
-With these innovative features, you can confidently step into an environment that feels like face-to-face conversations with your team. Benefit from the collaboration between Microsoft and device manufacturers, who work together to deliver the best solutions for your needs. With devices certified for Teams, you can fully engage, participate equally, and be seen, heard, and recognized in every Teams meeting and conversation.
-
  Devices certified for Teams are built for Microsoft Teams to offer a reliable, familiar, and seamless experience. They offer these benefits:
 
 - They work with Teams effortlessly on devices that are Teams dedicated appliances.
