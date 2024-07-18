@@ -1,4 +1,4 @@
-name: Live Merge Check
+name: Check max/live-compare-merge below
 
 permissions:
   pull-requests: write
@@ -11,7 +11,7 @@ on:
 
 jobs:
 
-  check-files:
+  live-merge:
     uses: MicrosoftDocs/MAX-CPUB-Test/.github/workflows/Shared-LiveMergeCheck.yml@main
     with:
       PayloadJson: ${{ toJSON(github) }}
