@@ -29,7 +29,7 @@ To learn about blocking the download of Teams meeting recording files from Share
 
 ## Recording storage
 
-By default, all recording files go to the OneDrive account of the user who selected **Record**. For channel meetings, the recording always goes to the SharePoint site of the channel. **As an admin, you can't change where the recording is stored.**
+By default, all recording files go to the OneDrive account of the user who selected **Record**. For channel meetings, the recording always goes to the SharePoint site of the channel. **As an admin, you can't change where the recording is stored.** Co-organizers have the same permissions to edit recording files as organizers.
 
 For **non-Channel meetings**, the recording is stored in a folder named **Recordings** that's at the top level of the OneDrive that belongs to the person who started the meeting recording. For example, *recorder's OneDrive*/**Recordings**.
 
