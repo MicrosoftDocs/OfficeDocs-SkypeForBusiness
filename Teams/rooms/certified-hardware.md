@@ -36,11 +36,11 @@ Certified Microsoft Teams Rooms systems are available on both Windows and Androi
 
 For a comparison of features available on each operating system, check out [Teams Rooms on Windows and Android feature comparison](teams-devices-feature-comparison.md). 
 
-To see Teams Rooms pricing, see the [Teams Rooms product showcase](/microsoft-teams/across-devices/devices/category/teams-rooms/20).
+To see Teams Rooms pricing, see the [Teams Rooms product showcase](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20).
 
 Numerous certified peripherals, from speakers to microphones and cameras, are available for use with Teams Rooms systems. Select the **Peripherals** tab for a complete list of peripherals and links to their respective product sites.
 
-To see peripherals pricing, see the [Rooms systems accessories product showcase](/microsoft-teams/across-devices/devices/category/room-systems-accessories/73).
+To see peripherals pricing, see the [Rooms systems accessories product showcase](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/room-systems-accessories/73).
 
 ## Teams Rooms for Android certification program
 
