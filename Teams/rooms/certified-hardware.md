@@ -42,7 +42,8 @@ Numerous certified peripherals, from speakers to microphones and cameras, are av
 
 To see peripherals pricing, see the [Rooms systems accessories product showcase](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/room-systems-accessories/73).
 
-# Teams Rooms for Android certification programs 
+## Teams Rooms for Android certification program
+
 >[!Important] 
 >The following information pertains to **Teams Rooms for Android** only.
 >For additional Android based devices that are Microsoft certified, please visit [Microsoft Teams certified Android devices](https://learn.microsoft.com/en-us/microsoftteams/devices/teams-ip-phones).
