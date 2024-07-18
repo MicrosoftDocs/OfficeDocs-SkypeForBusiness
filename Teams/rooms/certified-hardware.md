@@ -36,17 +36,17 @@ Certified Microsoft Teams Rooms systems are available on both Windows and Androi
 
 For a comparison of features available on each operating system, check out [Teams Rooms on Windows and Android feature comparison](teams-devices-feature-comparison.md). 
 
-To see Teams Rooms pricing, see the [Teams Rooms product showcase](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20).
+To see Teams Rooms pricing, see the [Teams Rooms product showcase](/microsoft-teams/across-devices/devices/category/teams-rooms/20).
 
 Numerous certified peripherals, from speakers to microphones and cameras, are available for use with Teams Rooms systems. Select the **Peripherals** tab for a complete list of peripherals and links to their respective product sites.
 
-To see peripherals pricing, see the [Rooms systems accessories product showcase](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/room-systems-accessories/73).
+To see peripherals pricing, see the [Rooms systems accessories product showcase](/microsoft-teams/across-devices/devices/category/room-systems-accessories/73).
 
 ## Teams Rooms for Android certification program
 
 >[!Important] 
->The following information pertains to **Teams Rooms for Android** only.
->For additional Android based devices that are Microsoft certified, please visit [Microsoft Teams certified Android devices](https://learn.microsoft.com/en-us/microsoftteams/devices/teams-ip-phones).
+> The following information pertains to **Teams Rooms for Android** only.
+> For additional Android based devices that are Microsoft certified, please visit [Microsoft Teams certified Android devices](/microsoftteams/devices/teams-ip-phones).
 
 Certification programs are designed to ensure all certified devices run an Android version with the required feature set for Teams and Teams Admin Center. Certification end dates are based on the Android version running on the device when it enters into the certification program. Our OEM partners are working to extend the lifetime of the certification by upgrading the Android version and recertifying, or by releasing new models that are state-of-the-art.
 
@@ -55,7 +55,7 @@ Microsoft is committed to certifying devices on latest Android versions availabl
 After certification end date, Microsoft is committed to making efforts to support the most recent version of the Teams client on such devices for two years following the end of the certification period. 
 
 >[!Note]
->Certification end dates are based on the Android version release date plus five years. Once the device passes the certification requirements and OEM partners provide the firmware that enables the upgrade to a newer Android version, the certification end date will be extended to match the new Android OS version release date plus five years.
+> Certification end dates are based on the Android version release date plus five years. Once the device passes the certification requirements and OEM partners provide the firmware that enables the upgrade to a newer Android version, the certification end date will be extended to match the new Android OS version release date plus five years.
 
 
 ## [Teams Rooms for Windows](#tab/Windows)
