@@ -23,108 +23,89 @@ description: Learn more about certification for Teams devices for IT admins and 
 ---
 # Certification for Teams devices - IT admins and decision makers
 
-## Connect and collaborate at your best
+## Connect and collaborate
 
-Devices certified for Teams are designed to give you the best experience with Microsoft Teams. Whether you need to collaborate, communicate, or create, you can do it with ease and efficiency. Certified devices have passed rigorous tests to ensure integration and high performance with Teams. They also reduce common distractions, such as video lag, background noise, and echo, and let you focus on your meeting or call. You can enjoy features that make your conversations more natural and engaging, such as customizable views with Teams meetings and instant access to Teams with a Teams button on our personal devices. You can choose from a range of devices that suit your work style and preferences, from standalone interactive devices to complete systems. They are easy to use, deploy, and manage, saving you time and hassle. They are constantly updated with new features and functionalities that enrich your Teams experience. With innovative features like these, step confidently into an atmosphere that resembles face-to-face conversations with your team. You can benefit from the partnership between Microsoft and the device manufacturers, who work together to deliver the best solutions for your needs. With devices certified for Teams, you can fully engage, participate equally, and be seen, heard, and recognized in every Teams meeting and conversation.Devices certified for Teams are built for Microsoft Teams to offer a reliable, familiar, and seamless experience.
+Devices certified for Teams are designed to provide the best experience with Microsoft Teams. Whether you need to collaborate, communicate, or create, you can do so with ease and efficiency. Certified devices undergo rigorous testing to ensure seamless integration and high performance with Teams. They help reduce common distractions like video lag, background noise, and echo, allowing you to focus on your meeting or call. Enjoy features that make your conversations more natural and engaging, such as customizable views in Teams meetings and instant access to Teams with a dedicated Teams button on personal devices.
 
-- They work with Teams effortlessly on devices that are Teams- dedicated appliances. Enjoy familiar and easy features, such as one-click access to meetings, files, and chats.
+You can choose from a variety of devices that suit your work style and preferences, ranging from standalone interactive devices to complete systems. These devices are easy to use, deploy, and manage, saving you time and hassle. They are continuously updated with new features and functionalities that enhance your Teams experience.
 
-- They offer a consistent feel and meetings made simple.
+With innovative features like these, you can confidently step into an environment that mimics face-to-face conversations with your team. Benefit from the collaboration between Microsoft and device manufacturers, who work together to deliver the best solutions for your needs. With devices certified for Teams, you can fully engage, participate equally, and be seen, heard, and recognized in every Teams meeting and conversation.
 
-- Join meetings fast with a dedicated Teams button that instantly opens your next meeting on your screen.
+## Benefits of Teams certified
 
-- Ready to use by automatic registration with your Teams desktop. 
+Devices certified for Teams are made to work best with Microsoft Teams. The certification process encourages OEMs to innovate and develop devices that not only meet current Teams standards but also anticipate future needs and features.
 
-- With Teams desk phones that have native Teams, functionalities such as Calendar, Contacts, Meetings, and Team Chat  are always running in the background, making collaboration on Microsoft Teams easier than ever.
+Whether you need to work together, talk, or create, you can do it easily and efficiently. Certified devices go through tough testing to make sure they work well with Teams. They help reduce common problems like video lag, background noise, and echo, so you can focus on your meeting or call. Enjoy features that make your conversations more natural and engaging, like customizable views in Teams meetings and instant access to Teams with a dedicated Teams button on personal devices.
 
-- In shared spaces where multiple people interact with devices, certified peripheral devices work seamlessly with Microsoft Teams, providing a consistent and reliable user experience.
+You can choose from a variety of devices that fit your work style and preferences, from standalone interactive devices to complete systems. These devices are easy to use, set up, and manage, saving you time and hassle. They are continuously updated with new features and functionalities that enhance your Teams experience.
 
-- The certification process encourages OEMs to innovate and develop devices that not only meet current Teams standards but also anticipate future needs and features
+With these innovative features, you can confidently step into an environment that feels like face-to-face conversations with your team. Benefit from the collaboration between Microsoft and device manufacturers, who work together to deliver the best solutions for your needs. With devices certified for Teams, you can fully engage, participate equally, and be seen, heard, and recognized in every Teams meeting and conversation.
 
-- Utilize devices that can support and utilize the full range of Teams features, such as one-touch join, proximity join, and content sharing, enhancing the overall meeting experience.
+ Devices certified for Teams are built for Microsoft Teams to offer a reliable, familiar, and seamless experience. They offer these benefits:
 
-  
-__Enhance Teams features__ like intelligent meeting recap and Copilot or Microsoft Whiteboard by integrating the features with the hardware.
+- They work with Teams effortlessly on devices that are Teams dedicated appliances.
+- They offer a consistent feel and meetings are made simple.
+- Join meetings fast with a dedicated Teams button that instantly opens your next meeting.
+- Ready to use by automatic registration with your Teams desktop.
+- With Teams desk phones that have native Teams, features such as Calendar, Contacts, Meetings, and Team Chat are always run in the background.
+- Certified peripheral devices work seamlessly with Microsoft Teams, providing a consistent and reliable user experience.
+- Certified devices support the full range of Teams features, such as one-touch join, proximity join, and content sharing, all while enhancing the overall meeting experience.
 
-- Intelligent speakers can detect who is speaking in a shared room, assigning the right transcript portion to each participant in the room for accurate Copilot and intelligent recap content capture.
+## Enhanced Teams features
 
-- Enhance co-creation and whiteboard collaboration with flexible interactive devices like meeting boards and displays, or content cameras in rooms that share physical whiteboards into the meeting in an intelligent way.
+Enhance Teams features like intelligent meeting recap and Copilot or Microsoft Whiteboard by integrating the features with the hardware. Intelligent speakers can detect who is speaking in a shared room, assigning the right transcript portion to each participant in the room for accurate Copilot and intelligent recap content capture.
 
-**Proven quality**
+Enhance co-creation and whiteboard collaboration with flexible interactive devices like meeting boards and displays, or content cameras in rooms that share physical whiteboards into the meeting in an intelligent way.
 
-- Present your best self in meetings and calls, feeling confident in any space. 
+## Proven high quality standards
 
-- High-performance, carefully selected, and rigorously tested devices ensure that you can confidently engage with your team.
+Certified devices undergo rigorous testing to meet strict quality standards. High-performance, carefully selected, and rigorously tested devices ensure that you can confidently engage with your team. High-quality standards for audio and video ensure that devices produce clear sound and visuals, which is vital for effective communication in shared spaces. Having these high-quality standards for certified devices for Teams helps to ensure that your end users can present their best selves in meetings and calls, feeling confident in any space.
 
-- Certified devices undergo rigorous testing to meet strict quality standards.
+Audio devices have basic call controls like answer/hang-up, mute/unmute, and volume control. Video devices meet requirements for noise, color, image detail, jitter, latency, frame rate, and field of view. All devices support firmware updates to allow new features and performance improvements.
 
-- Video devices meet requirements for noise, color, image detail, jitter, latency, frame rate, and field of view.
+With certified devices, troubleshooting becomes more straightforward, as there is a clear understanding of how devices should perform within the Teams ecosystem.
 
-- All devices support firmware updates to allow new features and performance improvements.
+## Online meeting barriers
 
-- Audio devices have basic call control like answer/hang-up, mute/unmute, and volume control.
-
-- High-quality standards for audio and video, ensuring that devices produce clear sound and visuals, which is vital for effective communication in shared spaces.
-
-- With certified devices, troubleshooting becomes more straightforward, as there is a clear understanding of how devices should perform within the Teams ecosystem.
-
-**Eliminate online meeting barriers** for optimized audio and visual experience.
+Eliminate online meeting barriers for optimized audio and visual experience.
 
 - Focus on the discussion and remove audio distractions with noise suppression.
-
 - Wide-band audio with no echo, distortion, or excessive glitches.
-
 - Collaborate with your team in real-time without any lag in your video or audio.
 
- 
+## Choose the right devices
 
-**Choose the right devices for your needs from a vast and growing ecosystem**, with audio, video, compute, and touchboard devices.
+You can choose the right devices for your needs from a vast and growing ecosystem, containing audio, video, compute, and touchboard devices.
 
-- Microsoft Teams Device Certification Program consists of 3rd party testing and three levels of internal testing before certification is awarded.
+- Microsoft Teams Device Certification Program consists of third party testing and three levels of internal testing before certification is awarded.
+- We cafefully select devices in each device category, which creates a wide and curated portfolio.
 
-- Only carefully selected devices are accepted in each device category, creating a wide, curated portfolio.
+## Co-developed with OEM partners
 
-**Co-engineered** 
+You benefit from reliability of Microsoft’s relationship with OEM partners that guarantee the quality of the Teams certified devices. You can benefit and rely on any issues being quickly detected and fixed by Microsoft and those OEM partners because of those affective support case management relationships that we have fostered. And all of this work developing these relationships and the quality devices directly helps to improve the way that users connect, collaborate, and communicate with others. Users experience online and hybrid meetings that are optimized to feel like you are having an effortless face-to-face interaction. You can get access to best-in-class AI innovations by Microsoft and our partners.
 
-- Improve the way you connect, collaborate, and communicate with others
-
-- Experience online and hybrid meetings that are optimized to feel like you are having an effortless face-to-face interaction. Get access to best-in-class AI innovations by Microsoft that enable more inclusive and intelligent meetings.
+Codeveloping these products and devices with partners enables features such as:
 
 - Intelligent cameras enable facial recognition, auto-zoom and auto-framing, active speaker tracking to follow the conversation and provide a 360- or 180-degree panoramic video with AI stitching to deliver a remote meeting experience that’s fully immersive and responsive.
-
 - Intelligent cameras can do whiteboard streaming, while enhancing the image in real time, reducing shine, gloss, and shadows, and enhancing color and contrast of marker strokes.
+- Advanced intelligent audio and video experiences with noise suppression to help everyone participate as if they were in the same space.
 
-- Deliver advanced, intelligent audio and video experiences with noise suppression to help everyone participate as if they were in the same space.
-
-- Benefit from reliability of Microsoft’s relationship with partners that guarantees the quality of the OEM devices.
-
-- Rely on potential device issues being quickly detected and fixed by Microsoft and OEMs due to affective support case management relationships*
-
-  *Contingent on whether the OEM has a support contract with Microsoft
+When we work with our OEM partners to develop these world class devices, we:
   
-- Deep integration with Microsoft Teams ecosystem, guaranteeing a seamless experience and compatibility. These devices have been specifically tested to work with Teams.
+- Allow deep integration with Microsoft Teams ecosystem, guaranteeing a seamless experience and compatibility. These devices have been specifically tested to work with Teams.
+- Work with carefully selected partners, by invitation only, to test every device through multiple levels of testing, including internal and private preview testing.
+- Certify only the highest quality devices per device category, accepting a select few.
 
-- Microsoft works with carefully selected partners, by invitation only, to test every device through multiple levels of testing, including internal and private preview testing.
-
-- Microsoft also certifies only the highest quality devices per device category, accepting a select few.
-
-- By choosing a device that is Certified for Teams, customers can be confident that their data and communications are secure and protected. Microsoft's commitment to security is one of the reasons why Certified for Teams devices are a trusted choice.
-
- 
+By choosing a device that is Certified for Teams, customers can be confident that their data and communications are secure and protected. Microsoft's commitment to security is one of the reasons why Certified for Teams devices are a trusted choice.
 
 Browse and shop our Certified for Teams devices at: [Teams devices store](https://www.microsoft.com/microsoft-teams/across-devices)
 
-For a list of our Certified for Teams Rooms partner devices by type and platform go to the following:
+For a list of our Certified for Teams Rooms partner devices by type and platform see:
 
 - [Teams Rooms for Windows](/microsoftteams/rooms/certified-hardware?tabs=Windows)
-
 - [Rooms devices for Windows](/microsoftteams/rooms/certified-hardware?tabs=Devices)
-
 - [Personal Peripherals for Windows](/microsoftteams/devices/usb-devices)
-
 - [Teams Rooms for Android](/microsoftteams/rooms/certified-hardware?tabs=Android)
-
 - [Teams Android Devices](/microsoftteams/devices/teams-ip-phones)
 
-Learn about the Certified for Teams certification program [specs](/SkypeForBusiness/certification/test-spec)
-
+Learn about the Certified for Teams certification program [specs](/SkypeForBusiness/certification/test-spec).
