@@ -25,7 +25,7 @@ description: Learn more about how to join the Teams certification program.
 
 ## Requirements and available programs
 
-Some programs already have sufficient partners to achieve our current product and market reach needs and aren't seeking new partners. The table that follows indicates the programs that are currently seeking partners, and will be updated periodically as needs change.
+This is not an open program, but by invitation only. Some programs already have sufficient partners to achieve our current product and market reach needs and aren't seeking new partners. The table that follows indicates the programs that are currently seeking partners, and will be updated periodically as needs change.
 
 Vendors interested in submitting their products for the **Certified for Microsoft Teams** program must have:
 
@@ -35,6 +35,8 @@ Vendors interested in submitting their products for the **Certified for Microsof
 - Commitment to acquire a Premier support contract or equivalent benefit as required by the program
 - Commitment to pay testing fees* and support customer trials as required by the program
 - Commitment to share product usage data for purposes of enhancing customer support and program planning
+
+- Differentiation from competition
 
 > [!NOTE]
 > For testing fees payable to independent lab, contact the certification lab from Current Programs table for more information.
@@ -54,7 +56,7 @@ Vendors that meet the general requirements for partners above may follow the pro
 
 Programs that aren't listed below are currently closed.
 
-<table border="1" cellpadding="1" cellspacing="" class="grid">
+<table border="1" cellpadding="1" class="grid">
         <colgroup>
             <col width="115" />
             <col width="200" />
@@ -82,7 +84,7 @@ Programs that aren't listed below are currently closed.
         <tr align="left" valign="middle">
             <td>PCs</td>
             <td>Not seeking partners</td>
-            <td><a href="/SkypeForBusiness/certification/test-spec.md" data-raw-source="[Skype and Lync test specifications for USB peripherals, PCs, and Lync room systems](test-spec.md)">Skype and Lync test specifications for USB peripherals, PCs, and Lync room systems</a> </td>
+            <td><a href="/SkypeForBusiness/certification/test-spec.md">Skype and Lync test specifications for USB peripherals, PCs, and Lync room systems</a> </td>
             <td rowspan="3">
                 <p><a href="http://www.asttechlabs.com/">AST</a></p>
                 <p><a href="http://www.pal-acoustics.com/">PAL</a></p>
@@ -91,7 +93,7 @@ Programs that aren't listed below are currently closed.
         <tr align="left" valign="top">
             <td>USB Audio and Video Devices</td>
             <td>Not seeking partners</td>
-            <td><a href="/SkypeForBusiness/certification/test-spec.md" data-raw-source="[Skype and Lync test specifications for USB peripherals, PCs, and Lync room systems](test-spec.md)">Skype and Lync test specifications for USB peripherals, PCs, and Lync room systems</a></a></td>
+            <td><a href="/SkypeForBusiness/certification/test-spec.md">Skype and Lync test specifications for USB peripherals, PCs, and Lync room systems</a></a></td>
         </tr>
         <tr align="left" valign="top">
             <td>Meeting Room Devices and Solutions</td>
