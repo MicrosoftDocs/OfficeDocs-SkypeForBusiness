@@ -59,7 +59,7 @@ Certified devices undergo rigorous testing to meet strict quality standards. Hig
 
 Audio devices have basic call controls like answer/hang-up, mute/unmute, and volume control. Video devices meet requirements for noise, color, image detail, jitter, latency, frame rate, and field of view. All devices support firmware updates to allow new features and performance improvements.
 
-With certified devices, troubleshooting becomes more straightforward, as there's a clear understanding of how devices should perform within the Teams ecosystem.
+With certified devices, troubleshooting becomes more straightforward, as there's a clear understanding of how devices should perform within the Microsoft Teams ecosystem.
 
 ## Online meeting barriers
 
@@ -78,7 +78,7 @@ You can choose the right devices for your needs from a vast and growing ecosyste
 
 ## Codeveloped with OEM partners
 
-You benefit from reliability of Microsoft’s relationship with OEM partners that guarantee the quality of the Teams certified devices. You can benefit and rely on any issues being quickly detected and fixed by Microsoft and those OEM partners because of those affective support case management relationships that we have fostered. And all of this work developing these relationships and the quality devices directly helps to improve the way that users connect, collaborate, and communicate with others. Users experience online and hybrid meetings that are optimized to feel like yo're having an effortless face-to-face interaction. You can get access to best-in-class AI innovations by Microsoft and our partners.
+You benefit from reliability of Microsoft’s relationship with OEM partners that guarantee the quality of the Teams certified devices. You can benefit and rely on any issues being quickly detected and fixed by Microsoft and those OEM partners because of those affective support case management relationships that we have fostered. And all of this work developing these relationships and the quality devices directly helps to improve the way that users connect, collaborate, and communicate with others. Users experience online and hybrid meetings that are optimized to feel like you're having an effortless face-to-face interaction. You can get access to best-in-class AI innovations by Microsoft and our partners.
 
 Codeveloping these products and devices with partners enables features such as:
 
@@ -92,7 +92,7 @@ When we work with our OEM partners to develop these world class devices, we:
 - Work with carefully selected partners, by invitation only, to test every device through multiple levels of testing, including internal and private preview testing.
 - Certify only the highest quality devices per device category, accepting a select few.
 
-By choosing a device that is Certified for Teams, customers can be confident that their data and communications are secure and protected. Microsoft's commitment to security is one of the reasons why Certified for Teams devices is a trusted choice.
+By choosing a device that is Certified for Teams, customers can be confident that their data and communications are secured and protected. Microsoft's commitment to security is one of the reasons why Certified for Teams devices is a trusted choice.
 
 Browse and shop our Certified for Teams devices at: [Teams devices store](https://www.microsoft.com/microsoft-teams/across-devices)
 
