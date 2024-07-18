@@ -21,7 +21,7 @@ search.appverid: MET150
 ms.localizationpriority: medium
 description: Learn more about certification of Teams devices for end users.
 ---
-# Certification for Teams devices for end users
+# Certification for Teams devices - End users
 
 ## Connect and collaborate at your best
 
