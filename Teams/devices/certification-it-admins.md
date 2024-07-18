@@ -52,7 +52,9 @@ __Enhance Teams features__ like intelligent meeting recap and Copilot or Microso
 
 **Proven quality**
 
-- Present your best self in meetings and calls, feeling confident in any space. High-performance, carefully selected, and rigorously tested devices ensure that you can confidently engage with your team.
+- Present your best self in meetings and calls, feeling confident in any space. 
+
+- High-performance, carefully selected, and rigorously tested devices ensure that you can confidently engage with your team.
 
 - Certified devices undergo rigorous testing to meet strict quality standards.
 
