@@ -184,16 +184,16 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 #### <b> HP | Poly </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications  | Release date| Cloud|
 |:----------------|:-------------------|:----------------------------|:------------------------------------------------------------------|:-------------------------|:----------------------------------|
-|CX350/CCX400/CCX505/CCX600 | `8.1.2.1122` | N/A | Teams client: `1449/1.0.94.2023041203` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product`| January 22, 2024| DoD |
-| CCX350/CCX400/CCX500/CCX505/CCX600 | `8.1.5.1732` | `8.1.3.1301`| Teams client: `1449/1.0.94.2023072509` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| January 19, 2024| GCCH|
+|CCX350/CCX400/CCX505/CCX600 | `8.1.2.1122` | N/A | Teams client: `1449/1.0.94.2023041203` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product`| January 22, 2024| DoD |
+|CCX350/CCX400/CCX500/CCX505/CCX600 | `8.1.5.1732` | `8.1.3.1301`| Teams client: `1449/1.0.94.2023072509` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| January 19, 2024| GCCH|
 |Trio C60 | `8.1.5.1737` | `8.1.3.1300` | Teams client: `1449/1.0.94.2023072509` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| January 19, 2024 | GCCH|
 |CCX500 | `8.1.2.1122` | N/A | Teams client: `1449/1.0.94.2023041203` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product`| September 26, 2023| DoD |
-|CX350/CCX400/CCX500/CCX505/CCX600 | `8.1.3.1301` | N/A | Teams client: `1449/1.0.94.2023060906` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| August 10, 2023| GCCH|
+|CCX350/CCX400/CCX500/CCX505/CCX600 | `8.1.3.1301` | N/A | Teams client: `1449/1.0.94.2023060906` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| August 10, 2023| GCCH|
 |Trio C60 | `8.1.3.1300` | N/A | Teams client: `1449/1.0.94.2023060906` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| August 10, 2023 | GCCH|
-|CX350/CCX400/CCX500/CCX505/CCX600 | `8.1.2.1122` | N/A | Teams client: `1449/1.0.94.2023041203` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product`| May 8, 2023| GCCH |
-|CX350/CCX400/CCX500/CCX505/CCX600 | `8.1.1.3290` | N/A | Teams client: `1449/1.0.94.2022110803` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product`| March 30, 2023| GCCH|
+|CCX350/CCX400/CCX500/CCX505/CCX600 | `8.1.2.1122` | N/A | Teams client: `1449/1.0.94.2023041203` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product`| May 8, 2023| GCCH |
+|CCX350/CCX400/CCX500/CCX505/CCX600 | `8.1.1.3290` | N/A | Teams client: `1449/1.0.94.2022110803` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product`| March 30, 2023| GCCH|
 |Trio C60 | `8.1.1.3291` | N/A | Teams client: `1449/1.0.94.2022110803` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product`| March 30, 2023| GCCH|
-|CX350/CCX400/CCX500/CCX505/CCX600 | `8.0.2.3267` | N/A | Teams client: `1449/1.0.94.2022110803` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202209060820.product`| February 16, 2023| GCCH|
+|CCX350/CCX400/CCX500/CCX505/CCX600 | `8.0.2.3267` | N/A | Teams client: `1449/1.0.94.2022110803` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202209060820.product`| February 16, 2023| GCCH|
 |Trio C60 | `8.0.2.3266` | N/A | Teams client: `1449/1.0.94.2022110803` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202209060820.product`| February 16, 2023| GCCH|
 
 
