@@ -36,8 +36,6 @@ Vendors interested in submitting their products for the **Certified for Microsof
 - Commitment to pay testing fees* and support customer trials as required by the program
 - Commitment to share product usage data for purposes of enhancing customer support and program planning
 
-- Differentiation from competition
-
 > [!NOTE]
 > For testing fees payable to independent lab, contact the certification lab from Current Programs table for more information.
 
@@ -45,10 +43,10 @@ Vendors that meet the general requirements for partners above may follow the pro
 
 1. Confirm that the program that you're seeking to join is seeking new partners by reviewing the table below.
 
-2. Email the alias listed in the table. You must clearly indicate which program you're seeking to join. Responses are assessed and if further information is needed, candidates are contacted for a more comprehensive discussion under NDA.
+1. Submit the following [form](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR6yYt89c-wxLgzhJNGTQ5kVUN0dGVERROEFHUEYxOVZNU0FVRUYxRFM5UC4u). Responses are assessed periodically and if further information is needed, candidates are contacted for a more comprehensive discussion under NDA.
 
    Vendors that meet the full requirements for the program will be provided detailed program information (specifications and policies), provided there's capacity in the program at the time. Program **Terms and Conditions** are made available for acceptance when these requirements are fulfilled.
-
+   
 3. Sign the terms and agreements.</br></br>
    Signing the terms and agreements completes the partner onboarding process and allows the partner to submit products for testing and certification according to the program guidelines.
 
