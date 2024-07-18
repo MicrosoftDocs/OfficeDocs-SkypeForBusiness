@@ -82,7 +82,7 @@ Programs that aren't listed below are currently closed.
         <tr align="left" valign="middle">
             <td>PCs</td>
             <td>Not seeking partners</td>
-            <td><a href="/SkypeForBusiness/certification/test-spec.md">Skype and Lync test specifications for USB peripherals, PCs, and Lync room systems</a> </td>
+            <td><a href="/Skype/SfbPartnerCertification/certification/test-spec.md" data-raw-source="[Skype and Lync test specifications for USB peripherals, PCs, and Lync room systems](test-spec.md)">Skype and Lync test specifications for USB peripherals, PCs, and Lync room systems</a> </td>
             <td rowspan="3">
                 <p><a href="http://www.asttechlabs.com/">AST</a></p>
                 <p><a href="http://www.pal-acoustics.com/">PAL</a></p>
@@ -91,7 +91,7 @@ Programs that aren't listed below are currently closed.
         <tr align="left" valign="top">
             <td>USB Audio and Video Devices</td>
             <td>Not seeking partners</td>
-            <td><a href="/SkypeForBusiness/certification/test-spec.md">Skype and Lync test specifications for USB peripherals, PCs, and Lync room systems</a></a></td>
+            <td><a href="/Skype/SfbPartnerCertification/certification/test-spec.md" data-raw-source="[Skype and Lync test specifications for USB peripherals, PCs, and Lync room systems](test-spec.md)">Skype and Lync test specifications for USB peripherals, PCs, and Lync room systems</a></a></td>
         </tr>
         <tr align="left" valign="top">
             <td>Meeting Room Devices and Solutions</td>

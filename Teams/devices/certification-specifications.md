@@ -32,7 +32,7 @@ description: "Test specifications describe the Microsoft Teams requirements for 
 |5.0     |March 2023| [Microsoft Teams V5 specifications](https://download.microsoft.com/download/1/2/5/125f0389-d733-4951-9117-d36589f3c86c/V5%20Release.zip)|
 |4.0|April / August 2019|[Microsoft Teams V4 specifications](https://download.microsoft.com/download/9/f/6/9f63c68d-817b-40ff-935c-9dd8b74cb07d/V4%20Release.zip)  (audio & video were released to partners in April all other specs released August)|
 
-Use the following table to find the tools for testing USB peripherals, PCs, and Lync Room Systems, for Skype and Lync qualification.</p>
+</p>
 
 ### Related resources
 
