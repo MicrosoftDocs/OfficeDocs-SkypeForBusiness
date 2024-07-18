@@ -34,7 +34,7 @@ With more online meetings and calls than ever, trust our extensively validated d
 If you want to know more, see:
 
 - [For IT Admins](certification-it-admins.md)
-- [For Partners](certifcation-partners.md)
+- [For Partners](certification-partners.md)
 - [For End Users](certification-end-users.md)
 
 Browse and shop for Certified for Teams devices at [Teams devices store](https://www.microsoft.com/microsoft-teams/across-devices).
