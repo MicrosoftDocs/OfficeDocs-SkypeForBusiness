@@ -37,9 +37,7 @@ Devices certified for Teams are **built for Microsoft Teams** to offer a reliabl
 
 - Ready to use by automatic registration with your Teams desktop.
 
-- With Teams desk phones that have native Teams, functionalities such as Calendar, Contacts, Meetings, and Team Chat  are always running in the background, making collaboration on Microsoft Teams easier than ever. 
-
-- In shared spaces where multiple people interact with devices, certified peripheral devices work seamlessly with Microsoft Teams, providing a consistent and reliable user experience.
+- With Teams displays and desk phones that have native Teams, functionalities such as Calendar, Contacts, Meetings, and Team Chat  are always running in the background, making collaboration on Microsoft Teams easier than ever. In shared spaces where multiple people interact with devices, certified peripheral devices work seamlessly with Microsoft Teams, providing a consistent and reliable user experience.
 
 - The certification process encourages OEMs to innovate and develop devices that not only meet current Teams standards but also anticipate future needs and features
 
