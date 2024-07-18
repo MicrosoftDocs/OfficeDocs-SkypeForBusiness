@@ -25,7 +25,7 @@ description: Learn more about how to join the Teams certification program.
 
 ## Requirements and available programs
 
-Some programs already have sufficient partners to achieve our current product and market reach needs and aren't seeking new partners. The table that follows indicates the programs that are currently seeking partners, and will be updated periodically as needs change.
+This is not an open program, but by invitation only. Some programs already have sufficient partners to achieve our current product and market reach needs and aren't seeking new partners. The table that follows indicates the programs that are currently seeking partners, and will be updated periodically as needs change.
 
 Vendors interested in submitting their products for the **Certified for Microsoft Teams** program must have:
 
@@ -43,10 +43,10 @@ Vendors that meet the general requirements for partners above may follow the pro
 
 1. Confirm that the program that you're seeking to join is seeking new partners by reviewing the table below.
 
-2. Email the alias listed in the table. You must clearly indicate which program you're seeking to join. Responses are assessed and if further information is needed, candidates are contacted for a more comprehensive discussion under NDA.
+1. Submit the following [form](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR6yYt89c-wxLgzhJNGTQ5kVUN0dGVERROEFHUEYxOVZNU0FVRUYxRFM5UC4u). Responses are assessed periodically and if further information is needed, candidates are contacted for a more comprehensive discussion under NDA.
 
    Vendors that meet the full requirements for the program will be provided detailed program information (specifications and policies), provided there's capacity in the program at the time. Program **Terms and Conditions** are made available for acceptance when these requirements are fulfilled.
-
+   
 3. Sign the terms and agreements.</br></br>
    Signing the terms and agreements completes the partner onboarding process and allows the partner to submit products for testing and certification according to the program guidelines.
 
@@ -54,7 +54,7 @@ Vendors that meet the general requirements for partners above may follow the pro
 
 Programs that aren't listed below are currently closed.
 
-<table border="1" cellpadding="1" cellspacing="" class="grid">
+<table border="1" cellpadding="1" class="grid">
         <colgroup>
             <col width="115" />
             <col width="200" />
