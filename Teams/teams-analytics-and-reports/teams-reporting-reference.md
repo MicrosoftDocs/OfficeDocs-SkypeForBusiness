@@ -30,7 +30,6 @@ A new analytics and reporting experience for Microsoft Teams is available in the
 
 To access the reports, you must be assigned one of the following roles:
 
-- Global administrator.
 - Teams or Skype for Business administrator.
 - Global reader (only tenant-level aggregate and no per-user or team data).
 
