@@ -29,15 +29,13 @@ Through the Microsoft Teams Device Certification Program, Microsoft tests person
 
  Certified for Teams are designed to ensure that you are seen and heard at your best in every Teams meeting and call, wherever you are. Choose devices that are built for Microsoft Teams and, tested to offer a deeply immersive experience that makes it easy to collaborate, communicate, and connect with your team. With more online meetings and calls than ever, trust our extensively validated devices to elevate the way you present yourself in every meeting and call whether you are in a conference room or at your desk.
 
- 
-
 If you need to know more, please choose one of the following links.
 
-- [For IT Admins](/MicrosoftTeams/devices/certification-it-admins?branch=pr-en-us-15156)
+- [For IT Admins](/MicrosoftTeams/devices/certification-it-admins)
 
-- [For Partners](/MicrosoftTeams/devices/certifcation-partners?branch=pr-en-us-15156)
+- [For Partners](/MicrosoftTeams/devices/certifcation-partners)
 
-- [For End Users](/MicrosoftTeams/devices/certification-end-users?branch=pr-en-us-15156)
+- [For End Users](/MicrosoftTeams/devices/certification-end-users)
 
 Browse and shop our Certified for Teams devices at: [Teams devices store](https://www.microsoft.com/microsoft-teams/across-devices)
 
@@ -53,5 +51,5 @@ For a list of our Certified for Teams Rooms partner devices by type and platform
 
 - [Teams Android Devices](/microsoftteams/devices/teams-ip-phones)
 
-Learn about the Certified for Teams certification program [specs](/SkypeForBusiness/certification/test-spec)
+Learn about the Certified for Teams certification program [specs](/SkypeForBusiness/certification/test-spec).
 
