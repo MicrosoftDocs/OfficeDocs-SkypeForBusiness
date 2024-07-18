@@ -3,7 +3,7 @@ title: Manage the Shifts app for your organization
 author: lana-chin
 ms.author: v-chinlana
 manager: jtremper
-ms.date: 11/22/2023
+ms.date: 7/18/2024
 ms.topic: conceptual
 ms.reviewer: imarquesgil
 audience: admin
@@ -72,13 +72,13 @@ Shifts is enabled by default for all Teams users in your organization. You can t
 
 ### Enable or disable Shifts for specific users in your organization
 
-To allow or block specific users in your organization from using Shifts, make sure Shifts is turned on for your organization on the [Manage apps](../../manage-apps.md) page. Then create a custom policy for app permissions and assign it to those users. To learn more, see [Manage app permission policies in Teams](../../teams-app-permission-policies.md).
+To allow or block specific users in your organization from using Shifts, make sure Shifts is turned on for your organization on the [Manage apps](../../manage-apps.md) page. Then create a custom policy for app permissions and assign it to those users. To learn more, see [Use app permission policies to control user access to apps](../../teams-app-permission-policies.md).
 
 ### Pin Shifts to Teams
 
 #### Use the Tailored frontline app experience to pin Shifts and other apps to Teams
 
-The tailored frontline app experience in Teams pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Pinned apps include Shifts, Walkie Talkie, Tasks, and Approvals. By default, this feature is on, giving your frontline workers an out-of-the-box experience tailored to their needs.
+The tailored frontline app experience in Teams pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline-plans-and-pricing). Pinned apps include Shifts, Walkie Talkie, Tasks, and Approvals. By default, this feature is on, giving your frontline workers an out-of-the-box experience tailored to their needs.
 
 The apps are pinned to the app bar—the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients—where users can quickly and easily access them.
 
