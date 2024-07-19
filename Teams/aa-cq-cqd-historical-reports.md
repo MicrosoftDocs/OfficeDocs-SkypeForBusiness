@@ -136,7 +136,7 @@ Perform the following steps:
    - Select **Edit Permissions**, and then **Edit**
    - Select **Organizational account**, and then **Sign in**.
 
-   :::image type="content" source="media/aa-cq-historical-report-03-v300.png" alt-text="Screenshot showing sign-in for V3.x.x.":::
+   :::image type="content" source="media/aa-cq-historical-report-03-v301.png" alt-text="Screenshot showing sign-in for V3.x.x.":::
 
    - Select **Save**, then **OK**, and then **Close**.
 
