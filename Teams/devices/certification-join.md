@@ -41,10 +41,10 @@ Vendors that meet the general requirements for partners above may follow the pro
 
 1. Submit the following [form](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR6yYt89c-wxLgzhJNGTQ5kVUN0dGVERROEFHUEYxOVZNU0FVRUYxRFM5UC4u). Responses are assessed periodically and if further information is needed, candidates are contacted for a more comprehensive discussion under NDA.
 
-Vendors that meet the full requirements for the program will be provided detailed program information (specifications, policies and program fees), provided there's capacity in the program at the time. Program **Terms and Conditions** are made available for acceptance when these requirements are fulfilled.
+1. Sign the terms and agreements.</br>
 
-3. Sign the terms and agreements.</br></br>
-   Signing the terms and agreements completes the partner onboarding process and allows the partner to submit products for testing and certification according to the program guidelines.
+Vendors that meet the full requirements for the program will be provided detailed program information (specifications, policies and program fees), provided there's capacity in the program at the time. Program **Terms and Conditions** are made available for acceptance when these requirements are fulfilled.</br>
+Signing the terms and agreements completes the partner onboarding process and allows the partner to submit products for testing and certification according to the program guidelines.
 
 > [!NOTE]
 > Test labs are independent companies that have been trained and are approved to complete testing on behalf of these programs. All fees for testing are payable directly to test labs. In cases where test requirements are published publicly, the test labs may offer unofficial testing services to companies not yet admitted to the program. These unofficial test results do not constitute a certification or endorsement from Microsoft and would not be used in any Microsoft material.
