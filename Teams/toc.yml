@@ -1329,7 +1329,7 @@ items:
             - name: Hardware and operating systems
               items:
                 - name: Certified Teams Rooms hardware
-                  href: rooms/certified-hardware.md
+                  href: rooms/certified-hardware.md 
                 - name: Windows version support
                   href: rooms/rooms-lifecycle-support.md
                 - name: Android app and firmware versions
