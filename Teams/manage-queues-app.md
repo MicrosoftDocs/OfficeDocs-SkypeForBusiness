@@ -5,7 +5,7 @@ ms.author: mabond
 manager: pamgreen
 ms.date: 07/16/2024
 ms.topic: article
-ms.reviewer: 
+ms.reviewer: colongma, emkirby
 audience: admin
 ms.service: msteams
 description: Learn how to set up and manage the Queues app in Teams.
@@ -14,25 +14,42 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
+  - m365initiative-voice
+  - tier1
   - teams-1p-app-admin
 appliesto: 
   - Microsoft Teams
-ms.custom:
-  - M365-collaboration
 search.appverid: MET150
 ---
 
 # Manage the Queues app for your organization in Microsoft Teams
 
+> [!NOTE]
+> Queues app is in limited public preview. For more information, contact your Microsoft customer success manager. Information in this article is subject to change.
+
+The Queues app is a Teams-native solution designed to empower organizations to manage customer engagements efficiently, starting with call queue calls. It leverages Teams Phone to enable your users to make and receive customer calls without leaving Teams, offering tailored experiences for users and leads that are designed for efficiency in call handling and resolution.
+
+To learn more about call queues, see [Plan for Teams Auto attendants and Call queues](plan-auto-attendant-call-queue.md).
+
 ## Overview of Queues
 
-[insert Queues overview text here]
+As an IT admin, you can enable Queues for your organization, manage the app settings, and designate authorized users to perform various actions such as adding and removing queue members, changing call handling flows, configuring auto-attendant greetings, and more. For a complete list of actions authorized users can make, see [Manage voice applications policies in Microsoft Teams](manage-voice-applications-policies.md).
 
 ## Licensing
 
 Users must have a Teams Phone and a Teams Premium license to use Queues.
 
 ## Set up Queues
+
+Before your users can use Queues, you need to enable the app for your organization and assign the appropriate licenses to your authorized users. You can also pin the Queues app to the Teams client for easy access.
+
+For information on authorized users, see the following articles:
+
+- [Plan for Auto attendant and Call queue authorized users](aa-cq-authorized-users-plan.md)
+- [Set up Auto attendant and Call queue authorized users](aa-cq-authorized-users.md)
+- [Manage voice applications policies in Teams](manage-voice-applications-policies.md)
+
+Your users can find information on using the Queues app with [Use the Queues app for Microsoft Teams](https://support.microsoft.com/office/370ad83e-c2c1-4a9f-8a59-16c98be102e9).
 
 ### Enable Queues in your organization
 
@@ -71,4 +88,6 @@ To send feedback or report an issue, select **Settings and more** (**…**) in T
 - [Plan for Auto attendant and Call queue authorized users](aa-cq-authorized-users-plan.md)
 - [Set up Auto attendant and Call queue authorized users](aa-cq-authorized-users.md)
 - [Manage voice applications policies in Teams](manage-voice-applications-policies.md)
+- [Use the Queues app for Microsoft Teams](https://support.microsoft.com/office/370ad83e-c2c1-4a9f-8a59-16c98be102e9)
 - [Assign policies to your users in Teams](../../policy-assignment-overview.md)
+- [Teams Premium licensing](/teams-add-on-licensing/licensing-enhance-teams)
