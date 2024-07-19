@@ -21,23 +21,13 @@ f1.keywords:
 description: See what USB peripherals and devices (such as headsets, speakerphones, webcams, and monitors) are certified for Microsoft Teams.
 ---
 
-# USB audio and video devices certified for Microsoft Teams
+# Personal peripherals certified for Microsoft Teams
 
-The peripherals certification program ensures USB peripherals (such as headsets, speakerphones, webcams, and monitors) offer rich audio or video quality. Certified devices work (plug & play) with no extra configuration required, and offer call control with Microsoft Teams and Skype for Business. The products provide a great experience for end users and administrators.
+The personal peripherals certification program ensures peripherals (such as headsets, speakerphones, webcams, and monitors) offer rich audio or video quality. Certified devices work (plug & play) with no extra configuration required, and offer call control with Microsoft Teams. The products provide a great experience for end users and administrators.
 
 To explore devices tested and certified for Microsoft Teams, head over to the [Teams store](https://products.office.com/microsoft-teams/across-devices/devices).
 
 For more information about call control support with Teams, see [control calls using a headset in Teams](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8).
-
-> [!TIP]
-> Looking for devices certified for Skype for Business? Head over to [USB audio and video devices certified for Skype for Business](/skypeforbusiness/certification/devices-usb-devices).
-
-## Understanding certification categories
-
-Users don’t need to replace previously certified devices when upgrading to Teams from Skype for Business. All certified devices are supported for Microsoft Teams and Skype for Business users, with only a few differences. Certification also provides further designation for certain device categories.
-
-- **Skype for Business certified with Teams upgrade** Devices certified at this level were initially certified for Skype for Business. Microsoft works with device manufacturers to deliver the best Teams integration experience possible without any changes to the original hardware. The *hookswitch* button acts as a Teams button when not in a call, and may include more functions over time. Devices in this category may carry the Teams certification badge on marketing materials.
-- **Certified for Microsoft Teams** Devices certified at this level indicate the newest devices certified, for a no-compromise Teams experience. These devices offer all of the benefits of prior certification and also include a dedicated Teams button with LED indicator. With most form factors, the Teams button will be an easy-to-find tactile button with the Teams logo. Microsoft continues to work with device manufacturers to deliver new value via firmware updates over time.
 
 ### Special usage designations
 
@@ -57,7 +47,8 @@ Browse [devices certified for Microsoft Teams](https://products.office.com/micro
 ### New Teams certification benefits
 
 - Dedicated Teams button and LED indicator light.
-- User notification of events and alerts from the Teams client (for example, meeting starting, voicemail or missed call).
+- User notification of events and alerts from the Teams client (for example, meeting starting).
+
 - Ability to activate the Teams client or respond to notification with a press of the button (for example, to join a meeting).
 - Certification designed for extensibility (new device/client features to be delivered via firmware update).
 
