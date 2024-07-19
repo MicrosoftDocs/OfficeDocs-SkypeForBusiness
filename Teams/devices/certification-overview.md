@@ -33,7 +33,8 @@ With more online meetings and calls than ever, trust our extensively validated d
 
 If you want to know more, see:
 
-- [For IT Admins](certification-it-admins.md)
+- [For IT Admins and decision makers](certification-it-admins.md)
+
 - [For Partners](certification-partners.md)
 - [For End Users](certification-end-users.md)
 
