@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: sohailta
-ms.date: 11/13/2023
+ms.date: 07/18/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -26,15 +26,37 @@ description: Find lists of certified systems and peripherals for use with Micros
 
 # Teams Rooms certified systems and peripherals
 
-Certified Microsoft Teams Rooms systems are available on both Windows and Android operating systems. Whether you should choose a Teams Rooms system on Windows or Android depends on your specific needs and budget. Select the **Teams Rooms for Windows** and **Teams Rooms for Android** tabs for a complete list of certified systems and links to their respective product sites.
+The Microsoft Teams Devices Certification Program ensures certified devices meet a high standard, with higher performance targets and quality metrics across the entire Teams experience (audio, video, user interface). Microsoft and OEM partners are actively working together to ensure devices meet all certification requirements, including security, audio and video quality, Teams experience, and accessibility.
 
-For a comparison of features available on each operating system, check out [Teams Rooms on Windows and Android feature comparison](teams-devices-feature-comparison.md).
+>[!Important]
+>The Microsoft Teams Devices Certification Program ensures certified devices meet specific requirements for hardware design and performance only. The certification program doesn't evaluate feature-level or cloud environment support.
+
+
+Certified Microsoft Teams Rooms systems are available on both Windows and Android operating systems. Whether you should choose a Teams Rooms system on Windows or Android depends on your specific needs and budget. Select the **Teams Rooms for Windows** and **Teams Rooms for Android** tabs for a complete list of certified systems and links to their respective product sites. For additional certification information specific to **Teams Rooms for Android** see details below.  
+
+For a comparison of features available on each operating system, check out [Teams Rooms on Windows and Android feature comparison](teams-devices-feature-comparison.md). 
 
 To see Teams Rooms pricing, see the [Teams Rooms product showcase](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20).
 
 Numerous certified peripherals, from speakers to microphones and cameras, are available for use with Teams Rooms systems. Select the **Peripherals** tab for a complete list of peripherals and links to their respective product sites.
 
 To see peripherals pricing, see the [Rooms systems accessories product showcase](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/room-systems-accessories/73).
+
+## Teams Rooms for Android certification program
+
+>[!Important] 
+> The following information pertains to **Teams Rooms for Android** only.
+> For additional Android based devices that are Microsoft certified, please visit [Microsoft Teams certified Android devices](/microsoftteams/devices/teams-ip-phones).
+
+Certification programs are designed to ensure all certified devices run an Android version with the required feature set for Teams and Teams Admin Center. Certification end dates are based on the Android version running on the device when it enters into the certification program. Our OEM partners are working to extend the lifetime of the certification by upgrading the Android version and recertifying, or by releasing new models that are state-of-the-art.
+
+Microsoft is committed to certifying devices on latest Android versions available for Teams devices as long as OEM partners and SoC manufacturers are able to meet all certification requirements in effect at the time device enters certification.
+
+After certification end date, Microsoft is committed to making efforts to support the most recent version of the Teams client on such devices for two years following the end of the certification period. 
+
+>[!Note]
+> Certification end dates are based on the Android version release date plus five years. Once the device passes the certification requirements and OEM partners provide the firmware that enables the upgrade to a newer Android version, the certification end date will be extended to match the new Android OS version release date plus five years.
+
 
 ## [Teams Rooms for Windows](#tab/Windows)
 
@@ -140,9 +162,12 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Current certification end date | Room size | Android OS version |
 |:-|:-|:-|:-|:-|
+| Yealink MeetingBoard 65"/86" with MB-Camera-6X | `155.15.0.37 ` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10|
+| DTEN D7X 75" + Vue Pro | `1.5.8` | October 4, 2026 | Medium size room (4.5 m x 6 m) | 12 |
+| DTEN D7X 75" + Vue | `1.5.8` | October 4, 2026 | Medium size room (4.5 m x 6 m) | 12 |
 | Poly G62 | `PolyOS 4.1.5` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Neat Bar Gen2 | `NFA1.20231116.0626 ` |  September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
-| DTEN DCR200 Bar | `1.0.2` |  October 4, 2026 |  Small size room (4.5 m x 4.5 m) | 12 |
+| DTEN Bar | `1.0.2` |  October 4, 2026 |  Small size room (4.5 m x 4.5 m) | 12 |
 | Cisco Room Kit EQX | `RoomOS11.15` | September 3, 2025 |  Large Meeting Room (4.5m x 8.5 m)| 11 |
 | Cisco Board Pro G2 55 | `RoomOS11.15` | September 3, 2025 |  Medium size room (4.5 m x 6 m) | 11 |
 | Cisco Board Pro G2 75 | `RoomOS11.15` | September 3, 2025 |  Medium size room (4.5 m x 6 m) | 11 |
@@ -241,12 +266,12 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | :::no-loc text="Huddly"::: L1 Camera with Crestron UC-MX70-T MTR kit | :::no-loc text="Huddly"::: L1 Camera: 1.2.1 </br> Crestron UC-MX70-T with :::no-loc text="ASUSTeK"::: Computer INC 9934 compute 1.0.20.246 or above |  |  |
 | [:::no-loc text="Huddly"::: S1 camera](https://www.huddly.com/conference-cameras/s1/) | 1.4.0 |  |  |
 | [:::no-loc text="Jabra Panacast3"::: Camera](https://www.jabra.com/business/video-conferencing/jabra-panacast) | 1.3.9.12 |  |  |
-| [:::no-loc text="Jabra Panacast"::: 50 Video Bar](https://www.jabra.com/business/video-conferencing/jabra-panacast-50) | 6.2.2 | &#x2714; | &#x2714; |  | &#x2714; |
+| [:::no-loc text="Jabra Panacast"::: 50 Video Bar](https://www.jabra.com/business/video-conferencing/jabra-panacast-50) | 8.0.7 | &#x2714; | &#x2714; |  | &#x2714; |
 | [:::no-loc text="Jabra Speak2"::: 75](https://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak2-75) | 1.2.3 |  |  |
 | [Lenovo ThinkSmart Cam Camera](https://www.lenovo.com/us/en/p/accessories-and-software/webcams-and-video/webcams-&-video_webcams/40cltscam1?orgRef=https%253A%252F%252Fwww.bing.com%252F) | 1.0.111.4 |  |  |
 | [Lenovo ThinkSmart Bar](https://www.lenovo.com/us/en/virtual-reality-and-smart-devices/smart-collaboration/thinksmart/ThinkSmart-Bar/p/11SP1TSSDBR) | 0.9.3 |  |  |
 | Lenovo ThinkSmart Bar Expand XL | 5.9.5 |  |  |
-| Lenovo Thinksmart Bar 180 | 6.5.1 | &#x2714; | &#x2714; |  | &#x2714; |
+| Lenovo Thinksmart Bar 180 | 6.5.1 | &#x2714; |  |  | &#x2714; |
 | [Logitech Brio](https://www.logitech.com/product/brio) | V2.2.50 | &#x2714; |  |
 | [Logitech 930e](https://www.logitech.com/product/c930e-webcam) | 8.0.914 | &#x2714; |  |
 | [Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam) | 1.2.4 |  |  |
@@ -282,6 +307,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Poly Trio C60](https://www.poly.com/us/en/products/phones/trio/trio-c60) | 5.9.5.3066 |  |  |
 | [Poly Studio P15 Video Bar](https://www.poly.com/us/en/products/video-conferencing/studio-p/studio-p15) | 1.2.0.000287 |  |  |
 | [Poly Studio E70 Camera](https://www.poly.com/us/en/products/video-conferencing/studio/studio-e70) | 1.1 |  |  |
+| Poly Studio E60 Camera | 1.0.4.0 |  |  |
 | [Poly Studio R30](https://www.poly.com/us/en/products/video-conferencing/studio/studio-r30) | 2.0.0.001096 |  |  |
 | [EPOS SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc) | 2.0.12.0 |  |  |
 | [EPOS SP20](https://www.eposaudio.com/en/us/enterprise/products/sp-20-ml-142ee5ca-speakerphone-1000226) | 1.2.15 |  |  |
