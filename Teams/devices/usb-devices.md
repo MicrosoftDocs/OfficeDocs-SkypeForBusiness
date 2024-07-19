@@ -64,7 +64,7 @@ For more information about call control support with Teams, see [control calls u
 - No provisioning required.
 - All devices support firmware updates to allow new features and performance improvements.
 
-If you're a manufacturer and want to join the certification program, see [How to Join](/MicrosoftTeams/devices/certification-join) for requirements and available programs.
+If you're a manufacturer and want to join the certification program, see [How to Join](certification-join.md) for requirements and available programs.
 
 ## Certified devices
 
