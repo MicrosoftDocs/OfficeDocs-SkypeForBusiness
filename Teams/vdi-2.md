@@ -26,8 +26,6 @@ New VDI solution for Teams is a new architecture for optimizing the delivery of 
 
 > [!IMPORTANT]
 > In order to participate on the public preview, administrators must move users to the public preview channel as described [in this article](public-preview-doc-updates.md).
->
-> **For Citrix customers, please contact your Microsoft account manager in order to get signed up for the public preview**.
 
 ## Components
 
@@ -82,9 +80,9 @@ The plugin MSI automatically detects the CWA installation folder and places MsTe
 |User type     |Installation folder                                                                             |Installation type |
 |--------------|------------------------------------------------------------------------------------------------|------------------|
 |Administrator |64-bit: C:\Program Files (x86)\Citrix\ICA Client</br>32-bit: C:\Program Files\Citrix\ICA Client |Per-system installation |
-|User          |%USERPROFILE%\AppData\Local\Citrix\ICA Client                                                   |Per-user installation |
 
 - Plugins can't be downgraded, only upgraded or reinstalled (repaired).
+- Per-user installation of CWA isn't supported.
 - If no CWA is found on the endpoint, installation is stopped.
 
 ### Step 3: SlimCore MSIX staging and registration on the endpoint
