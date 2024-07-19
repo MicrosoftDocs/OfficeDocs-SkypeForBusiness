@@ -92,4 +92,4 @@ For a list of our Certified for Teams Rooms partner devices by type and platform
 
 - [Teams Android devices](/microsoftteams/devices/teams-ip-phones)
 
-Learn about the Certified for Teams certification program [specs](/SkypeForBusiness/certification/test-spec).
+Learn about the Certified for Teams certification program [specs](certification-specifications.md).
