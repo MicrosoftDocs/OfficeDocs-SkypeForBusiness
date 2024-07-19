@@ -86,27 +86,27 @@ If you have a 3PIP or SIP device, you must have the following:
 |Vendor    |Model      |Minimum firmware version|Approved firmware version|Remarks|Links|
 |----------|-----------|------------|-----------|------------|------------|
 |**Cisco** |           |            |           |Devices running enterprise firmware must be converted to multiplatform firmware. Read the guide at the right to learn how.|[Cisco firmware conversion guide](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-7800-series/guide-c07-742786.html)|
-|          |8832<sup>1</sup>       |11.3.5MPP   |12-0-1MPP  |   |   |
-|          |6821<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
-|          |6841<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
-|          |6851<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
-|          |6861<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
-|          |6871<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
-|          |7811<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
-|          |7821<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
-|          |7841<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
-|          |7861<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
-|          |8811<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
-|          |8841<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
-|          |8845<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
-|          |8851<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
-|          |8861<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
-|          |8865<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
+|          |8832<sup>1</sup>       |11.3.5MPP   |12-0-3MPP  |   |   |
+|          |6821<sup>1</sup>       |11.1.1MPP   |12-0-3MPP  |   |   |
+|          |6841<sup>1</sup>       |11.1.1MPP   |12-0-3MPP  |   |   |
+|          |6851<sup>1</sup>       |11.1.1MPP   |12-0-3MPP  |   |   |
+|          |6861<sup>1</sup>       |11.1.1MPP   |12-0-3MPP  |   |   |
+|          |6871<sup>1</sup>       |11.1.1MPP   |12-0-3MPP  |   |   |
+|          |7811<sup>1</sup>       |11.1.1MPP   |12-0-3MPP  |   |   |
+|          |7821<sup>1</sup>       |11.1.1MPP   |12-0-3MPP  |   |   |
+|          |7841<sup>1</sup>       |11.1.1MPP   |12-0-3MPP  |   |   |
+|          |7861<sup>1</sup>       |11.1.1MPP   |12-0-3MPP  |   |   |
+|          |8811<sup>1</sup>       |11.1.1MPP   |12-0-3MPP  |   |   |
+|          |8841<sup>1</sup>       |11.1.1MPP   |12-0-3MPP  |   |   |
+|          |8845<sup>1</sup>       |11.1.1MPP   |12-0-3MPP  |   |   |
+|          |8851<sup>1</sup>       |11.1.1MPP   |12-0-3MPP  |   |   |
+|          |8861<sup>1</sup>       |11.1.1MPP   |12-0-3MPP  |   |   |
+|          |8865<sup>1</sup>       |11.1.1MPP   |12-0-3MPP  |   |   |
 |          |ATA191-MPP       |11.2.2MPP   |11-2-2MPP0101-013  |   |   |
 |          |ATA192-MPP       |11.2.2MPP   |11-2-2MPP0101-013  |   |   |
 |**Poly**  |           |            |           |The device will auto reboot and install the selected firmware.|[Poly Lens Provisioning Guide](https://info.lens.poly.com/docs/category/lens-assisted-provisioning)|
-|          |Trio 8500  |5.9.5.3182  |7.2.2.1094 |   |   |
-|          |Trio 8800  |5.9.5.3182  |7.2.2.1094 |   |   |
+|          |Trio 8500  |5.9.5.3182  |7.2.4.0185 |   |   |
+|          |Trio 8800  |5.9.5.3182  |7.2.4.0185 |   |   |
 |          |VVX150<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
 |          |VVX201<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
 |          |VVX250<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
@@ -174,6 +174,7 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |T57W<sup>1</sup>      |83          |96.86.5.1  |   |   |
 |          |W56H                  |            |61.85.0.56 |   |   |
 |          |W73H                  |            |116.85.0.38|   |   |
+|          |W57R                  |            |124.86.0.147|   |   |
 |          |W59R                  |            |115.85.0.56|   |   |
 |          |W70B NOAM             |            |146.85.5.4 |   |   |
 |          |W70B EMEA             |            |146.85.5.2 |   |   |
@@ -185,30 +186,34 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |W90 EMEA              |            |130.85.5.6 |   |   |
 |          |W90 APAC              |            |130.85.5.4 |   |   |
 |**AudioCodes**|       |            |           |Some AudioCodes SIP devices need a provisioning URL setting. Download and install upgrade files for the affected AudioCodes devices at the right. |[Downloadable files for affected devices at AudioCodes](https://audiocodes.sharefile.com/share/view/sc9cdf17f9ec45d09/fo7914a2-4f3a-4000-8957-47bd6f35a3a5)|
-|          |405<sup>1</sup>        |2.2.8      |2.2.16.600 |   |   |
-|          |405HD<sup>1</sup>      |3.2.1      |2.2.16.600 |   |   |
-|          |405HDG<sup>1</sup>     |3.2.1      |2.2.16.600 |   |   |
-|          |420HD<sup>1</sup>      |3.2.1      |2.2.16.600 |   |   |
-|          |420HDG<sup>1</sup>     |3.2.1      |2.2.16.600 |   |   |
-|          |430HD<sup>1</sup>      |3.2.1      |2.2.16.600 |   |   |
-|          |430HDG<sup>1</sup>     |3.2.1      |2.2.16.600 |   |   |
-|          |440HD<sup>1</sup>      |3.2.1      |2.2.16.600 |   |   |
-|          |445HD<sup>1</sup>      |3.2.1      |3.4.6.717 |   |   |
-|          |445HDG<sup>1</sup>     |3.2.1      |3.4.6.717 |   |   |
-|          |450HD<sup>1</sup>      |3.2.1      |3.4.6.717  |   |   |
-|          |C450HD<sup>1</sup>     |3.2.1      |3.4.6.717  |   |   |
-|          |445HD<sup>1</sup>      |3.2.1      |3.4.6.717  |   |   |
-|          |RX50<sup>1</sup>       |3.2.1      |3.4.6.717  |   |   |
-|          |MP112                  |6.60A.367.001      |6.60A.367.001  |ATA   | All ports available [AudioCodes ATA Setup Guide](https://www.audiocodes.com/media/pafhki3d/onboarding-audiocodes-ata-to-microsoft-sip-gateway-for-teams.pdf)  |
-|          |MP114-FXS              |6.60A.367.001      |6.60A.367.001  |ATA   | 3 out of 4 ports available   |
-|          |MP114-FXS-FXO          |6.60A.367.001      |6.60A.367.001  |ATA   | 3 out of 4 ports available   |
-|          |MP118-FXS              |6.60A.367.001      |6.60A.367.001  |ATA   | 6 out of 8 ports available  |
-|          |MP118-FXS-FXO          |6.60A.367.001      |6.60A.367.001  |ATA   | 6 out of 8 ports available  |
-|          |MP124-FXS              |6.60A.367.001      |6.60A.367.001  |ATA   | 18 out of 24 ports available  |
-|          |MP1288-FXS             |7.40A.400.063      |7.40A.400.063  |ATA   | All ports available  |
-|          |MP502                  |7.26A.356.075      |7.26A.356.075  |ATA   | All ports available  |
-|          |MP504                  |7.26A.356.075      |7.26A.356.075  |ATA   | All ports available  |
-|          |MP508                  |7.26A.356.075      |7.26A.356.075  |ATA   | All ports available  |
+|          |405<sup>1</sup>        |2.2.8      |2.2.16.681 |   |   |
+|          |405HD<sup>1</sup>      |3.2.1      |2.2.16.681 |   |   |
+|          |405HDG<sup>1</sup>     |3.2.1      |2.2.16.681 |   |   |
+|          |420HD<sup>1</sup>      |3.2.1      |2.2.16.681 |   |   |
+|          |420HDG<sup>1</sup>     |3.2.1      |2.2.16.681 |   |   |
+|          |430HD<sup>1</sup>      |3.2.1      |2.2.16.681 |   |   |
+|          |430HDG<sup>1</sup>     |3.2.1      |2.2.16.681 |   |   |
+|          |440HD<sup>1</sup>      |3.2.1      |2.2.16.681 |   |   |
+|          |445HD<sup>1</sup>      |3.2.1      |3.4.8.808 |   |   |
+|          |445HDG<sup>1</sup>     |3.2.1      |3.4.8.808 |   |   |
+|          |450HD<sup>1</sup>      |3.2.1      |3.4.8.808 |   |   |
+|          |C450HD<sup>1</sup>     |3.2.1      |3.4.8.808 |   |   |
+|          |C448HD                 |3.2.1      |3.4.8.808 |   |   |
+|          |445HD<sup>1</sup>      |3.2.1      |3.4.8.808 |   |   |
+|          |RX50<sup>1</sup>       |3.2.1      |3.4.8.808 |   |   |
+|          |MP112                  |6.60A.367.001      |6.60A.367.005  |ATA   | All ports available [AudioCodes ATA Setup Guide](https://www.audiocodes.com/media/pafhki3d/onboarding-audiocodes-ata-to-microsoft-sip-gateway-for-teams.pdf)  |
+|          |MP114-FXS              |6.60A.367.001      |6.60A.367.005  |ATA   | 3 out of 4 ports available   |
+|          |MP114-FXS-FXO          |6.60A.367.001      |6.60A.367.005  |ATA   | 3 out of 4 ports available   |
+|          |MP118-FXS              |6.60A.367.001      |6.60A.367.005  |ATA   | 6 out of 8 ports available  |
+|          |MP118-FXS-FXO          |6.60A.367.001      |6.60A.367.005  |ATA   | 6 out of 8 ports available  |
+|          |MP124-FXS              |6.60A.367.001      |6.60A.367.005  |ATA   | 18 out of 24 ports available  |
+|          |MP1288-FXS             |7.40A.400.063      |7.40A.600.014  |ATA   | All ports available  |
+|          |MP502                  |7.26A.356.075      |7.26A.356.773  |ATA   | All ports available  |
+|          |MP504                  |7.26A.356.075      |7.26A.356.773  |ATA   | All ports available  |
+|          |MP508                  |7.26A.356.075      |7.26A.356.773  |ATA   | All ports available  |
+|          |MP516                  |7.26A.356.075      |7.26A.356.773  |ATA   | All ports available  |
+|          |MP524                  |7.26A.356.075      |7.26A.356.773  |ATA   | All ports available  |
+|          |MP532                  |7.26A.356.075      |7.26A.356.773  |ATA   | All ports available  |
 |**Spectralink**|       |           |           |   |[Spectralink Support](https://support.spectralink.com)|
 |          |7202        |PCS22B     |PCS22B     |Handset |   |
 |          |7212        |PCS22B     |PCS22B     |Handset |   |
