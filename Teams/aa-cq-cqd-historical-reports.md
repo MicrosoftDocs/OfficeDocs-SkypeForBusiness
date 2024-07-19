@@ -132,13 +132,12 @@ Perform the following steps:
     - Per Day reporting retrieves one daily summary record for each Auto attendant, Call queue, and Agent. This results in fewer records being returned to the client, reducing the possibility of hitting the 90,000 default or 200,000 per query record limit. Per Day reporting is based on a UTC-00:00 day (00:00:00-23:59:59 UTC) only and any UTC offset supplied by the user is ignored.
 
 5. Sign in with your Teams account.
-   - Select **File**, then **Options and settings**, and then **Data source settings**
-   - Select **Edit Permissions**, and then **Edit**
+   - Select **File**, then **Options and settings**, and then **Data source settings**.
+   - Select **Edit Permissions**, and then **Edit**.
    - Select **Organizational account**, and then **Sign in**.
-
-   :::image type="content" source="media/aa-cq-historical-report-03-v301.png" alt-text="Screenshot showing sign-in for V3.x.x.":::
-
    - Select **Save**, then **OK**, and then **Close**.
+
+     :::image type="content" source="media/aa-cq-historical-report-03-v301.png" alt-text="Screenshot showing sign-in for V3.x.x.":::
 
 6. Select **Refresh**, in the ribbon bar and the data refreshes.
 
