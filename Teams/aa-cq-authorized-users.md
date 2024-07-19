@@ -94,33 +94,7 @@ With Queues in Microsoft Teams, authorized users can access more configuration f
 
 For a complete list of features and licensing required for each, see [Manage voice applications policies](manage-voice-applications-policies.md).
 
-### Enable Queues in your organization
-
-Queues is enabled by default for all Teams users in your organization who have been assigned a Teams Premium and Teams Phone license and who have been voice enabled. These users must be Authorized users. For more information, see [Steps for setting up Authorized users](#steps-for-setting-up-authorized-users).
-
-You can turn off or turn on the Queues app at the organization level on the [Manage apps](manage-apps.md) page in the Teams admin center:
-
-1. In the Teams admin center, go to **Teams apps** >  **Manage apps**.
-1. In the list of apps, search for **Queues**, select the app, and then switch the **Status** toggle to **Allowed**.
-
-### Enable Queues for specific users in your organization
-
-To allow or block specific users in your organization from using Queues, make sure Queues is turned on for your organization on the Manage apps page. Then, create a custom policy for app permissions and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
-
-### Pin Queues to Teams
-
-App setup policies let you customize Teams to highlight the apps that are most important for users in your organization. The apps you set in a policy are pinned to the app bar—the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients—where users can quickly and easily access them.
-
-Authorized users with a Teams Phone and Teams Premium license have access to Queues and can pin the app on their Teams client. If the app isn't pinned by you via an app setup policy, Authorized users can still view Queues in the app bar flyout.
-
-To automatically pin the Queues app in the Teams client for your users, do the following:
-
-1. In the Teams admin center, go to **Teams apps** > **Setup policies**.
-1. Select an existing policy or select **Add** to create a new policy.
-1. Turn on **User pinning** so that your users can choose to pin the app for convenient access.
-1. Under **Pinned apps**, select **Add apps**.
-1. Search for **Queues** and select **Add**.
-1. Select **Add** and then **Save**.
+For information on how to manage the Queues app, see [Manage the Queues app in Microsoft Teams](manage-queues-app.md).
 
 ## Authorized user examples
 
