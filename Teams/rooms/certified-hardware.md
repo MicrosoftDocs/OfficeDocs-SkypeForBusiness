@@ -26,9 +26,9 @@ description: Find lists of certified systems and peripherals for use with Micros
 
 # Teams Rooms certified systems and peripherals
 
--[Teams Rooms for Windows](https://learn.microsoft.com/en-us/microsoftteams/rooms/certified-hardware?tabs=Windows#tabpanel_1_Windows)
-- [Teams Rooms for Android](https://learn.microsoft.com/en-us/microsoftteams/rooms/certified-hardware?tabs=Android#tabpanel_1_Android)
-- [Certified Room peripherals](https://learn.microsoft.com/en-us/microsoftteams/rooms/certified-hardware?tabs=Devices#tabpanel_1_Devices)
+-[Teams Rooms for Windows](/microsoftteams/rooms/certified-hardware?tabs=Windows#tabpanel_1_Windows)
+- [Teams Rooms for Android](/microsoftteams/rooms/certified-hardware?tabs=Android#tabpanel_1_Android)
+- [Certified Room peripherals](/microsoftteams/rooms/certified-hardware?tabs=Devices#tabpanel_1_Devices)
 
 ***
 
