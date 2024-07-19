@@ -26,6 +26,12 @@ description: Find lists of certified systems and peripherals for use with Micros
 
 # Teams Rooms certified systems and peripherals
 
+-[Teams Rooms for Windows](https://learn.microsoft.com/en-us/microsoftteams/rooms/certified-hardware?tabs=Windows#tabpanel_1_Windows)
+- [Teams Rooms for Android](https://learn.microsoft.com/en-us/microsoftteams/rooms/certified-hardware?tabs=Android#tabpanel_1_Android)
+- [Certified Room peripherals](https://learn.microsoft.com/en-us/microsoftteams/rooms/certified-hardware?tabs=Devices#tabpanel_1_Devices)
+
+***
+
 The Microsoft Teams Devices Certification Program ensures certified devices meet a high standard, with higher performance targets and quality metrics across the entire Teams experience (audio, video, user interface). Microsoft and OEM partners are actively working together to ensure devices meet all certification requirements, including security, audio and video quality, Teams experience, and accessibility.
 
 >[!Important]
