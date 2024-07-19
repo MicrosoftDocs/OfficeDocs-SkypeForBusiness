@@ -1302,7 +1302,7 @@ items:
           items:
             - name: Partners device certification
               href: devices/certification-partners.md
-            - name: How to Join the program
+            - name: How to join the program
               href: devices/certification-join.md
         - name: IT admins and decision makers
           href: devices/certification-it-admins.md
