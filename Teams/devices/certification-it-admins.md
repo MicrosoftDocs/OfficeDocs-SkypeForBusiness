@@ -88,7 +88,8 @@ For a list of our Certified for Teams Rooms partner devices by type and platform
 
 - [Rooms peripherals for Windows](/microsoftteams/rooms/certified-hardware?tabs=Devices)
 
-- [Personal Peripherals for Windows](/microsoftteams/devices/usb-devices)
-- [Teams Android Devices](/microsoftteams/devices/teams-ip-phones)
+- [Personal peripherals for Windows](/microsoftteams/devices/usb-devices)
+
+- [Teams Android devices](/microsoftteams/devices/teams-ip-phones)
 
 Learn about the Certified for Teams certification program [specs](/SkypeForBusiness/certification/test-spec).
