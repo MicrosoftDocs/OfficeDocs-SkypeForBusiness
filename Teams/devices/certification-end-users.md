@@ -85,11 +85,11 @@ For a list of our Certified for Teams Rooms partner devices by type and platform
 
 - [Teams Rooms for Windows](/microsoftteams/rooms/certified-hardware?tabs=Windows)
 
+- [Teams Rooms for Android](/microsoftteams/rooms/certified-hardware?tabs=Android)
+
 - [Rooms devices for Windows](/microsoftteams/rooms/certified-hardware?tabs=Devices)
 
 - [Personal Peripherals for Windows](/microsoftteams/devices/usb-devices)
-
-- [Teams Rooms for Android](/microsoftteams/rooms/certified-hardware?tabs=Android)
 
 - [Teams Android Devices](/microsoftteams/devices/teams-ip-phones)
 
