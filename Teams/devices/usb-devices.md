@@ -40,8 +40,6 @@ For more information about call control support with Teams, see [control calls u
 - **Premium Microphone for Open Office** All headsets are tested to provide clear audio, but open office and other noisy environments pose a greater challenge. Headsets with this designation pick up the voice of the headset user but don't transmit the sound of their neighbors.
 - **Meeting room size** Shared devices such as speakerphones and cameras have a supported usage distance. Recommended distances may be different depending on the manufacturer. To give customers clear guidance, all shared devices are tested at certification against well-defined rooms sizes and noise environments.
 
-Browse [devices certified for Microsoft Teams](https://products.office.com/microsoft-teams/across-devices/devices).
-
 ## End-user experience
 
 ### New Teams certification benefits
@@ -66,7 +64,7 @@ Browse [devices certified for Microsoft Teams](https://products.office.com/micro
 - No provisioning required.
 - All devices support firmware updates to allow new features and performance improvements.
 
-If you're a manufacturer and want to join the certification program, see [How to Join](/skypeforbusiness/certification/how-to-join) for requirements and available programs.
+If you're a manufacturer and want to join the certification program, see [How to Join](/MicrosoftTeams/devices/certification-join?branch=pr-en-us-15156) for requirements and available programs.
 
 ## Certified devices
 
