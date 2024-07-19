@@ -44,7 +44,7 @@ To see peripherals pricing, see the [Rooms systems accessories product showcase]
 
 ## Teams Rooms for Android certification program
 
->[!Important] 
+> [!Important] 
 > The following information pertains to **Teams Rooms for Android** only.
 > For additional Android based devices that are Microsoft certified, please visit [Microsoft Teams certified Android devices](/microsoftteams/devices/teams-ip-phones).
 
@@ -54,7 +54,7 @@ Microsoft is committed to certifying devices on latest Android versions availabl
 
 After certification end date, Microsoft is committed to making efforts to support the most recent version of the Teams client on such devices for two years following the end of the certification period. 
 
->[!Note]
+> [!Note]
 > Certification end dates are based on the Android version release date plus five years. Once the device passes the certification requirements and OEM partners provide the firmware that enables the upgrade to a newer Android version, the certification end date will be extended to match the new Android OS version release date plus five years.
 
 
@@ -157,8 +157,10 @@ The following devices are Certified under the Microsoft Teams Rooms on Windows C
 ## [Teams Rooms for Android](#tab/Android)
 
 The following devices are certified under the Microsoft Teams Rooms on Android Certification Program:
+
 > [!NOTE]
 > The certification end date for Android 12 based devices has been extended from October 6, 2026, to August 15, 2027. Table below reflects updated current certification end dates. 
+
 | Device model | Firmware version | Current certification end date | Room size | Android OS version |
 |:-|:-|:-|:-|:-|
 | Yealink MeetingBoard 65"/86" with MB-Camera-6X | `155.15.0.37 ` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10|
