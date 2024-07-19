@@ -76,22 +76,6 @@ You can choose the right devices for your needs from a vast and growing ecosyste
 - Microsoft Teams Device Certification Program consists of third party testing and three levels of internal testing before certification is awarded.
 - We carefully select devices in each device category, which creates a wide and curated portfolio.
 
-## Codeveloped with OEM partners
-
-You benefit from reliability of Microsoft’s relationship with OEM partners that guarantee the quality of the Teams certified devices. You can benefit and rely on any issues being quickly detected and fixed by Microsoft and those OEM partners because of those affective support case management relationships that we have fostered. And all of this work developing these relationships and the quality devices directly helps to improve the way that users connect, collaborate, and communicate with others. Users experience online and hybrid meetings that are optimized to feel like you're having an effortless face-to-face interaction. You can get access to best-in-class AI innovations by Microsoft and our partners.
-
-Codeveloping these products and devices with partners enables features such as:
-
-- Intelligent cameras enable facial recognition, auto-zoom and auto-framing, active speaker tracking to follow the conversation and provide a 360- or 180-degree panoramic video with AI stitching to deliver a remote meeting experience that’s fully immersive and responsive.
-- Intelligent cameras can do whiteboard streaming, while enhancing the image in real time, reducing shine, gloss, and shadows, and enhancing color and contrast of marker strokes.
-- Advanced intelligent audio and video experiences with noise suppression to help everyone participate as if they were in the same space.
-
-When we work with our OEM partners to develop these world class devices, we:
-  
-- Allow deep integration with Microsoft Teams ecosystem, guaranteeing a seamless experience and compatibility. These devices have been specifically tested to work with Teams.
-- Work with carefully selected partners, by invitation only, to test every device through multiple levels of testing, including internal and private preview testing.
-- Certify only the highest quality devices per device category, accepting a select few.
-
 By choosing a device that is Certified for Teams, customers can be confident that their data and communications are secured and protected. Microsoft's commitment to security is one of the reasons why Certified for Teams devices is a trusted choice.
 
 Browse and shop our Certified for Teams devices at: [Teams devices store](https://www.microsoft.com/microsoft-teams/across-devices)
@@ -99,9 +83,12 @@ Browse and shop our Certified for Teams devices at: [Teams devices store](https:
 For a list of our Certified for Teams Rooms partner devices by type and platform see:
 
 - [Teams Rooms for Windows](/microsoftteams/rooms/certified-hardware?tabs=Windows)
-- [Rooms devices for Windows](/microsoftteams/rooms/certified-hardware?tabs=Devices)
-- [Personal Peripherals for Windows](/microsoftteams/devices/usb-devices)
+
 - [Teams Rooms for Android](/microsoftteams/rooms/certified-hardware?tabs=Android)
+
+- [Rooms peripherals for Windows](/microsoftteams/rooms/certified-hardware?tabs=Devices)
+
+- [Personal Peripherals for Windows](/microsoftteams/devices/usb-devices)
 - [Teams Android Devices](/microsoftteams/devices/teams-ip-phones)
 
 Learn about the Certified for Teams certification program [specs](/SkypeForBusiness/certification/test-spec).
