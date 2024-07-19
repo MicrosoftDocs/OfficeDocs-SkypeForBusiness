@@ -205,10 +205,13 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |MP118-FXS              |6.60A.367.001      |6.60A.367.001  |ATA   | 6 out of 8 ports available  |
 |          |MP118-FXS-FXO          |6.60A.367.001      |6.60A.367.001  |ATA   | 6 out of 8 ports available  |
 |          |MP124-FXS              |6.60A.367.001      |6.60A.367.001  |ATA   | 18 out of 24 ports available  |
-|          |MP1288-FXS             |7.40A.400.063      |7.40A.400.063  |ATA   | All ports available  |
-|          |MP502                  |7.26A.356.075      |7.26A.356.075  |ATA   | All ports available  |
-|          |MP504                  |7.26A.356.075      |7.26A.356.075  |ATA   | All ports available  |
-|          |MP508                  |7.26A.356.075      |7.26A.356.075  |ATA   | All ports available  |
+|          |MP1288-FXS             |7.40A.400.063      |7.40A.600.014  |ATA   | All ports available  |
+|          |MP502                  |7.26A.356.075      |7.26A.356.773  |ATA   | All ports available  |
+|          |MP504                  |7.26A.356.075      |7.26A.356.773  |ATA   | All ports available  |
+|          |MP508                  |7.26A.356.075      |7.26A.356.773  |ATA   | All ports available  |
+|          |MP516                  |7.26A.356.075      |7.26A.356.773  |ATA   | All ports available  |
+|          |MP524                  |7.26A.356.075      |7.26A.356.773  |ATA   | All ports available  |
+|          |MP532                  |7.26A.356.075      |7.26A.356.773  |ATA   | All ports available  |
 |**Spectralink**|       |           |           |   |[Spectralink Support](https://support.spectralink.com)|
 |          |7202        |PCS22B     |PCS22B     |Handset |   |
 |          |7212        |PCS22B     |PCS22B     |Handset |   |
