@@ -29,6 +29,7 @@ IT admins can install Teams apps for some or all users in their organization. De
 The prerequisites for app installation are:
 
 * Allow use of apps in your org using the options in Org-wide app settings.
+* Unblock the required apps in case it is [blocked by an admin](manage-apps.md#allow-or-block-apps) or is [blocked by the developer](/microsoftteams/platform/concepts/deploy-and-publish/add-default-install-scope#block-apps-by-default-for-users-until-an-admin-approves).
 * Make the app available to the required users using either app centric management or permission policies.
 * [Grant consent to the app permissions](manage-consent-app-permissions.md#grant-and-manage-consent-to-teams-app-permissions) if an app requires permission to access organization information.
 
@@ -48,7 +49,7 @@ If you're using app centric management, then follow these steps to install apps 
 1. Alternately, you can install an app from the app details page.
 
    1. Select **Users and groups** > **Installs** > **Install app**.
-   1. Select whom to install the app for and select **Apply**.
+   1. Select whom to install the app for and select **Apply**. The app is made available to the selected users and groups and there's no need to separately make the app available for the same users and groups.
 
    :::image type="content" source="media\app-install-app-details-page.png" alt-text="Screenshot showing app installation option for admins on the app details page."  lightbox="media/app-install-app-details-page.png":::
 

@@ -67,11 +67,11 @@ As an admin, you control access to all [types of apps](apps-in-teams.md#types-of
 
 To allow an app, you must do all of the following settings. To block an app, just use any one of these settings.
 
-| Method                                                    | Scope      | Use case                                                                                                                           |
-|:----------------------------------------------------------|:-----------|:-----------------------------------------------------------------------------------------------------------------------------------|
-| [Org-wide app settings](#manage-org-wide-app-settings)    | Org-level  | Use this setting to allow use of relevant apps in your org.            |
-| Block or unblock apps                                       | App-level  | Use this setting to allow a specific app in your org. You control which users use an app. |
-| [App permission policy](teams-app-permission-policies.md) or [app centric management](app-centric-management.md) | User-level | Let all users or let specific users use an app.                          |
+| Method                                                                                                           | Scope      | Use case                                                                                  |
+|:-----------------------------------------------------------------------------------------------------------------|:-----------|:------------------------------------------------------------------------------------------|
+| [Org-wide app settings](#manage-org-wide-app-settings)                                                           | Org-level  | Use this setting to allow use of relevant apps in your org.                               |
+| Block or unblock apps                                                                                            | App-level  | Use this setting to allow a specific app in your org. You control which users use an app. |
+| [App permission policy](teams-app-permission-policies.md) or [app centric management](app-centric-management.md) | User-level | Let all users or let specific users use an app.                                           |
 
 You allow or block specific apps on either the Manage apps page or in the app details page. Manage apps page displays all the available app and the current org-level app status. To allow or block an app, follow these steps:
 
