@@ -35,7 +35,7 @@ The prerequisites for app installation are:
 
 If you complete the prerequisites, then users can install the apps themselves. However, you can proactively install apps for users so that you help them discover apps easily, ensure app retention, and save user's effort to install. For example, you can install IT helpdesk or ticketing app for all new employees to provide an easy and quick way for new joiners to seek support.
 
-## Install apps for users using app centric management
+## Install apps using app centric management
 
 > [!IMPORTANT]
 > Previously, you installed apps using app setup policy. We are gradually moving this functionality to app centric management via [Microsoft 365 roadmap ID 394274](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=394274). For timelines and other details, see [Message Center post MC795355](https://admin.microsoft.com/Adminportal/Home?ref=MessageCenter/:/messages/MC795355). Your app setup policy settings to install apps get automatically migrated to the new experience and we retain the user and group assignments. The rest of the settings in app setup policies remain unchanged and continues to work as before.
@@ -55,7 +55,7 @@ If you're using app centric management, then follow these steps to install apps 
 
 1. Optionally, you can let apps install automatically by enabling [auto-install approved apps feature](auto-install-approved-apps.md). It works for a few specific apps, only if you allow the use of apps by making it available, and only if a user uses the app outside Teams.
 
-## Install apps for users using app setup policy
+## Install apps using app setup policy
 
 To install apps for your users using an app setup policy, follow these steps:
 
