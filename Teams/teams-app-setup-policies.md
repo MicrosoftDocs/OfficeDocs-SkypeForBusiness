@@ -23,7 +23,7 @@ ms.custom:
   - ms.teamsadmincenter.appsetuppolicies.overview
 ---
 
-# Use app setup policies to pin and auto install apps for users
+# Use app setup policies to pin and install apps for users
 
 As an admin, you use app setup policies to install and pin apps and control which users can upload custom apps in personal or team context. Pinning helps promote adoption of apps for the users and it provides quick access to the relevant apps. To know more, see [app setup policy](app-policies.md).
 
@@ -90,28 +90,14 @@ To modify the pinned apps for everyone in your organization, edit the existing `
 > [!TIP]
 > For the frontline workers in your organization, we recommend using the tailored frontline app experience. This feature pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/en-us/microsoft-365/enterprise/frontline). To learn more, see [Tailor Teams apps for your frontline workers](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).
 
-## Add apps to your Teams client
+## Install apps to Teams client of your users
 
-You can achieve the following by using an app setup policy:
+> [!NOTE]
+> If you are using app centric management functionality, then you must [use Manage apps page to install apps for users](install-teams-apps.md#install-apps-for-users-using-app-centric-management). App installation feature is moving to the app details page.
+>
+> :::image type="content" source="media/acm-setup-policy-change.png" alt-text="Screenshot showing updated setup policy page without the app installation option.":::
 
-* Add apps for the users in their personal Teams environment.
-* Add apps for the users as [messaging extensions](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
-
-Users can add apps on their own if the [app permission policy](teams-app-permission-policies.md) lets them use it and an admin [allows the app](manage-apps.md#allow-or-block-apps). If an app is blocked, then the users can [request admin approval](user-requests-approve-apps.md).
-
-To add apps for your users using an app setup policy, follow these steps:
-
-1. Sign in to Teams admin center, access **Teams apps** > **[Setup policies](https://admin.teams.microsoft.com/policies/app-setup)**, and Select **Add**.
-
-1. Provide a name and description of the policy.
-
-1. Under **Installed apps**, select **Add apps**.
-
-1. In the **Add installed apps** pane, search the apps that you want to add in the Teams client of the allowed users.
-
-   :::image type="content" source="media/admin-installed-apps.png" alt-text="Screenshot showing how admins can auto-install apps using app setup policy." lightbox="media/admin-installed-apps-large.png":::
-
-1. Select **Add**.
+If your organization is not migrated to app centric management, then continue to [use app setup policy to install apps](install-teams-apps.md#install-apps-for-users-using-app-setup-policy).
 
 ## Use app setup policy to allow independent bots
 
