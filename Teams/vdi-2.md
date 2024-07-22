@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.topic: article
-ms.date: 06/25/2024
+ms.date: 07/09/2024
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -26,8 +26,6 @@ New VDI solution for Teams is a new architecture for optimizing the delivery of 
 
 > [!IMPORTANT]
 > In order to participate on the public preview, administrators must move users to the public preview channel as described [in this article](public-preview-doc-updates.md).
->
-> **For Citrix customers, please contact your Microsoft account manager in order to get signed up for the public preview**.
 
 ## Components
 
@@ -42,7 +40,7 @@ New VDI solution for Teams is a new architecture for optimizing the delivery of 
 
 |Requirement                       |Minimum version |
 |----------------------------------|----------------|
-|New Teams                         |24124.2315.2911.3357 (for Azure Virtual Desktop/Windows 365) </br>24152.408.2949.8308 (for Citrix)                                                                                     |
+|New Teams                         |24124.2315.2911.3357 (for Azure Virtual Desktop/Windows 365) </br>24165.1410.2974.6689 (for Citrix)                                                                                     |
 |Azure Virtual Desktop/Windows 365 |Windows App: 1.3.252</br>Remote Desktop Client: 1.2.5405.0                                                |
 |Citrix                            |VDA: 2203 LTSR CU3 or 2305 CR</br>Citrix Workspace app: 2203 LTSR (any CU), 2402 LTSR, or 2302 CR          |
 |Endpoint                          |Windows 10 1809 (SlimCore minimum requirement)</br>GPOs must not block MSIX installations (see [Step 3: SlimCore MSIX staging and registration on the endpoint](#step-3-slimcore-msix-staging-and-registration-on-the-endpoint))</br>Minimum CPU: Intel Celeron (or equivalent) @ 1.10 GHz, 4 Cores, Minimum RAM: 4 GB |
@@ -51,8 +49,8 @@ New VDI solution for Teams is a new architecture for optimizing the delivery of 
 
 ### Step 1: Confirm prerequisites
 
-1. Make sure you have the new Microsoft Teams version 24124.2311.2896.3219 or higher (for Azure Virtual Desktop/Windows 365), and 24152.408.2949.8308 or higher for Citrix.
-1. Enable the new Teams policy **if necessary** for a specific user group (it's enabled by default at a Global org-wide level).
+1. Make sure you have the new Microsoft Teams version 24124.2311.2896.3219 or higher (for Azure Virtual Desktop/Windows 365), and 24165.1410.2974.6689 or higher for Citrix.
+1. [Enable the new Teams policy](#microsoft-teams-powershell-policy-for-optimization) **if necessary** for a specific user group (it's enabled by default at a Global org-wide level).
 1. For Citrix, you must configure the **Virtual channel allow list** as described in the [Citrix Virtual channel allow list](#citrix-virtual-channel-allow-list) section of this article.
 
 ### Step 2: Plugin installation on the endpoint
@@ -82,9 +80,9 @@ The plugin MSI automatically detects the CWA installation folder and places MsTe
 |User type     |Installation folder                                                                             |Installation type |
 |--------------|------------------------------------------------------------------------------------------------|------------------|
 |Administrator |64-bit: C:\Program Files (x86)\Citrix\ICA Client</br>32-bit: C:\Program Files\Citrix\ICA Client |Per-system installation |
-|User          |%USERPROFILE%\AppData\Local\Citrix\ICA Client                                                   |Per-user installation |
 
 - Plugins can't be downgraded, only upgraded or reinstalled (repaired).
+- Per-user installation of CWA isn't supported.
 - If no CWA is found on the endpoint, installation is stopped.
 
 ### Step 3: SlimCore MSIX staging and registration on the endpoint
@@ -239,6 +237,27 @@ Implement QoS settings for endpoints and network devices and determine how you w
 1. **VPN network**. It isn't recommended for media traffic.
 1. Packet shapers. Any kind of packet sniffer, packet inspection, proxies, or packet shaper devices aren't recommended for Teams media traffic and may degrade quality significantly.
 
+### Microsoft Teams PowerShell policy for optimization
+
+The CsTeamsVdiPolicy cmdlets enabled administrators to control the type of meetings that users can create or the features that they can access while in a meeting specifically on an VDI environment, where WebRTC optimization was disabled using the VDI Partner's policy engine ([Citrix Studio](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html#enable-optimization-of-microsoft-teams), [VMware HTML5 ADMX template](https://docs.vmware.com/en/VMware-Horizon/2203/horizon-remote-desktop-features/GUID-8557C3D7-4B08-4C98-B474-97B795300A6E.html#GUID-8557C3D7-4B08-4C98-B474-97B795300A6E), or [this registry key](/azure/virtual-desktop/teams-on-avd) for AVD and Windows 365).
+
+The default policy configurations are:
+
+- DisableCallsAndMeetings: False
+- DisableAudioVideoInCallsAndMeetings: False
+
+This policy is now expanded with an additional argument as the only configuration point to control whether a user can get the new optimization mode based on SlimCore or not (in other words, the VDI Partner's policy engines don't control the new optimization mode):
+
+- VDI2Optimization: Enabled  (default value)
+
+|Name                    |Definition |Example |Notes |
+|------------------------|-----------|--------|------|
+|New-CsTeamsVdiPolicy    |Allows administrators to define new VDI policies that can be assigned to users for controlling Teams features related to meetings on a VDI environment. |`PS C:\> New-CsTeamsVdiPolicy -Identity RestrictedUserPolicy -VDI2Optimization "Disabled"` |The command shown here uses the New-CsTeamsVdiPolicy cmdlet to create a new VDI policy with the identity RestrictedUserPolicy. This policy uses all the default values for a VDI policy except one: VDI2Optimization. In this example, users with this policy will not be able to be optimized with SlimCore. |
+|Grant-CsTeamsVdiPolicy  |Allows administrators to assign a Teams VDI policy at a per-user scope to control the type of meetings that a user can create, the features they can access on an unoptimized VDI environment, and whether a user can be optimized with the new optimization mode based on SlimCore. |`PS C:\> Grant-CsTeamsVdiPolicy -identity "Ken Myer" -PolicyName RestrictedUserPolicy` |In this example, a user with identity "Ken Myer" is assigned the RestrictedUserPolicy. |
+|Set-CsTeamsVdiPolicy    |Allows administrators to update existing VDI policies. |`PS C:\> Set-CsTeamsVdiPolicy -Identity RestrictedUserPolicy -VDI2Optimization "Disabled"` |The command shown here uses the Set-CsTeamsVdiPolicy cmdlet to update an existing VDI policy with the Identity RestrictedUserPolicy. This policy uses all the existing values except one: VDI2Optimization; in this example, users with this policy can not be optimized with SlimCore. |
+|Remove-CsTeamsVdiPolicy |Allows administrators to delete a previously created Teams VDI policy. Users with no explicitly assigned policy will fall back to the default policy in the organization. |`PS C:\> Remove-CsTeamsMeetingPolicy -Identity RestrictedUserPolicy` |In the example shown above, the command deletes the restricted user policy from the organization's list of policies and removes all assignments of this policy from users who have the policy assigned. |
+|Get-CsTeamsVdiPolicy    |Allows administrators to retrieve information about all the VDI policies that have been configured in the organization. |`PS C:\> Get-CsTeamsVdiPolicy -Identity SalesPolicy` |In this example, Get-CsTeamsVdiPolicy is used to return the per-user meeting policy that has an Identity SalesPolicy. Because identities are unique, this command doesn't return more than one item. |
+
 ### Feature list with the new optimization
 
 |Feature                           |Available                                                       |
@@ -386,7 +405,7 @@ If there's a connection error, the error code can be found from the log line con
 |Error code |deployErrc |Definition                       |Notes |
 |-----------|-----------|---------------------------------|------|
 |0          |0          |OK                               |Special code for 'ConnectedNoPlugin' Telemetry Messages. |
-|5          |43         |ERROR_ACCESS_DENIED              |MsTeamsVdi.exe process failed at startup. Possibly caused by BlockNonAdminUserInstall being enabled. |
+|5          |43         |ERROR_ACCESS_DENIED              |MsTeamsVdi.exe process failed at startup. Could be caused by BlockNonAdminUserInstall being enabled. Or the endpoint could be busy registering multiple MSIX packages after a user logon and it didn't finish registering SlimCoreVdi. |
 |404        |3235       |HTTP_STATUS_NOT_FOUND            |Publishing issue: SlimCore MSIX package is not found on CDN. |
 |1260       |10083      |ERROR_ACCESS_DISABLED_BY_POLICY  |This error usually means that Windows Package Manager cannot install the SlimCore MSIX package. Event Viewer can show the hex error code 0x800704EC. AppLocker Policies can cause this error code. You can either disable AppLocker, or add an exception for SlimCoreVdi packages in Local Security Policy -> Application Control Policies -> AppLocker. Check 'Step 3' under "Optimizing with new VDI solution for Teams". |
 |1460       |11683      |ERROR_TIMEOUT                    |MsTeamsVdi.exe process failed at startup (60 second timeout). |
@@ -405,8 +424,12 @@ If there's a connection error, the error code can be found from the log line con
 
 ## Using Event Viewer on the VM for troubleshooting
 
-Every connect/disconnect event gets logged in the Event Viewer running on the Virtual Machine. The Event Viewer can also display client-side related errors. Filter by Source (Microsoft Teams VDI) and Event ID (0).
-Error codes can be found in the [New Teams logs for VDI](#new-teams-logs-for-vdi) section.
+Every connect/disconnect event gets logged in the Event Viewer running on the Virtual Machine. The Event Viewer can also display client-side related errors. Filter by Source (Microsoft Teams VDI) and Event ID (0). Error codes can be found in the [New Teams logs for VDI](#new-teams-logs-for-vdi) section.
+
+> [!NOTE]
+> In order to be able to filter by Source, you need to run this command from an elevated powershell window:
+>
+> PS C:\Windows\system32> New-EventLog -LogName Application -Source "Microsoft Teams VDI"
 
 ## Troubleshooting Plugin deployment errors
 

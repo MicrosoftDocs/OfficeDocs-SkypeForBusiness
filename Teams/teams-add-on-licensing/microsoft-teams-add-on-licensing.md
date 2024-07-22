@@ -132,7 +132,7 @@ If you don't have Microsoft Calling Plans available in your region or if you wan
 
 - **Teams Phone with Operator Connect** -  If your existing carrier participates in the Microsoft Operator Connect program, they can manage PSTN calling for you. Operator Connect requires a Teams Phone license. See [Plan for Operator Connect](../operator-connect-plan.md).
 - **Teams Phone with Operator Connect for India** - Addresses the telephony regulatory issues specific to India. Operator Connect for India requires licenses from your PSTN carrier in India. For more information, see [Plan Operator Connect for India](../operator-connect-india-plan.md).
-- **Teams Phone Mobile** - A user’s SIM-enabled phone number is also their Teams phone number. Teams Phone Mobile requires Teams Phone and Teams Phone Mobile licenses. For more information, see [Plan for Teams Phone Mobile](../operator-connect-mobile-plan.md).
+- **Teams Phone Mobile** - A user’s SIM-enabled phone number is also their Teams phone number. Teams Phone Mobile requires a Teams Phone license. For more information, see [Plan for Teams Phone Mobile](../operator-connect-mobile-plan.md).
 - **Direct Routing** - Lets you connect a supported, customer-provided Session Border Controller (SBC) to Microsoft Teams Phone. Direct Routing requires a Teams Phone license. For more information, see [Plan for Direct Routing](../direct-routing-plan.md).
 - **Shared Calling** - Uses the phone number of a resource account associated with an Auto attendant for inbound and outbound PSTN calls. Share Calling requires a Teams Phone license. For more information, see [Plan for Shared Calling](../shared-calling-plan.md).
 

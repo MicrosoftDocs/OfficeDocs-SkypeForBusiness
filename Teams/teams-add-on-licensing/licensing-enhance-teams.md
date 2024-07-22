@@ -134,8 +134,9 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Town hall organizers can view engagement reports |  | ✔️ |
 | Edit town hall emails |  | ✔️ |
 | Organizers can pre-select 10 languages for live translated captions |  | ✔️ |
+| Real time monitoring of the attendee experience |  | ✔️ |
 
-<sup>1</sup> If RTMP-In is enabled for a town hall, live translated captions will not be available to the attendees even if the organizer selects the languages before the town hall starts. 
+<sup>1</sup> If RTMP-In is enabled for a town hall, live translated captions will not be available to the attendees even if the organizer selects the languages before the town hall starts.
 <sup>2</sup> To take advantage of eCDN for all attendees, either a Teams Premium or standalone eCDN license is required. eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN licensing, see [Microsoft eCDN](https://www.microsoft.com/en-us/microsoft-teams/ecdn).*
 
 ### Advanced Collaboration Tools
@@ -225,6 +226,18 @@ The Meet app in Teams allows users to view important details of their meetings i
 
 \* *Mentions of a user's name is pulled from the meeting transcript, not from an @mention tag in the meeting chat.*
 
+### Immersive Mesh Experiences
+
+With Immersive spaces in Teams, your users can join a 3D immersive meeting experience for up-to 16 people right from any Teams meeting.</br>
+With a Teams Premium license, your distributed workforce can connect in 3D immersive experiences using the Mesh application with up-to 200 attendees. To learn more about Mesh, see [Microsoft Mesh overview](/mesh/overview).
+
+| Feature | Teams | Teams Premium |
+|---------|:-----:|:-------------:|
+| Avatars in Teams | ✔️ |  |
+| 3D immersive meetings in Teams | ✔️ |  |
+| Custom immersive spaces in Microsoft Mesh |  | ✔️ |
+| Larger capacity immersive meetings |  | ✔️ |
+
 ## Are there previous Teams features that moved to Teams Premium?
 
 With the general release of Teams Premium on February 1, 2023, the following Teams features moved from Teams to Teams Premium.
@@ -276,11 +289,11 @@ The following table shows which Teams Premium features provide primary value to 
 | Premium Value | Features Applied at Organizer Level | Features Applied at Attendee/User Level | Features Applied at the IT Admin Level |
 | ------------- | :---------------------------------- | :--------------------------------- | :------------------------------------- |
 | **More intelligence** | ✔️ AI-generated chapters in meeting recordings</br> ✔️ Live translation for captions (40 languages) | ✔️ Personalized timeline markers in meeting recordings</br> ✔️ Speaker timeline markers</br> ✔️ Intelligent speaker search in the transcript</br> ✔️ AI-generated notes and tasks | ✔️ Advanced collaboration analytics |
-| **More personalized** | ✔️ Meeting templates (configured by IT admin)</br> ✔️ Custom meeting branding | ✔️ Custom organization backgrounds</br> ✔️ Organization together mode scenes</br> ✔️ Custom user policy packages |  |
+| **More personalized** | ✔️ Meeting templates (configured by IT admin)</br> ✔️ Custom meeting branding ✔️ Custom immersive spaces in Microsoft Mesh| ✔️ Custom organization backgrounds</br> ✔️ Organization together mode scenes</br> ✔️ Custom user policy packages</br>|  |
 | **More protected** | ✔️ Watermarking</br> ✔️ Who can record</br> ✔️ End-to-end encryption for online meetings (up to 200)</br> ✔️ Hide attendees' names</br> ✔️ E5 customers: Microsoft Purview Information Protection sensitivity labels for Meetings | ✔️ Block incoming chats from people in the organization</br>✔️ Prevent users from sharing content in external Teams meetings</br>✔️ Audio quality alerts</br>✔️ Video quality alerts</br>✔️Screen sharing quality alerts</br>✔️Automatic real time telemetry with 7 day retention</br>✔️Prevent users from sharing content when attending external Teams meetings |  |
 | **Advanced Virtual Appointments** | ✔️ Custom lobby room with branding, logos, and more</br> ✔️ SMS notifications | ✔️ On-demand and scheduled appointment functionality and queue views</br> ✔️ Analytics at departmental and organizational level</br> SMS notifications</br></br> *At the user level, these features apply to any user in the tenant who wants access to pre and post-appointment actions and data, like a meeting scheduler, supervisor, or admin.* |  |
 | **Advanced Webinars** | ✔️ Manage attendee view</br> ✔️ Reminder emails</br> ✔️ Wait lists and manual approval</br> ✔️ Limit registration date and time</br> ✔️ RTMP-In |  |
-| **Advanced Town halls** | ✔️ Scale up to 20,000 attendees</br> ✔️ Concurrency limit of 50 meetings</br> ✔️ Email customization</br> ✔️ Microsoft eCDN support</br> ✔️Real-time organizer analytics |  |  |
+| **Advanced Town halls** | ✔️ Scale up to 20,000 attendees</br> ✔️ Concurrency limit of 50 meetings</br> ✔️ Email customization</br> ✔️ Microsoft eCDN support</br> ✔️Real-time organizer analytics | ✔️Pre-select 10 languages for attendee captions | ✔️Real time monitoring of the attendee experience |
 | **Microsoft eCDN** |  | ✔️ Works with Teams Meetings and Town halls</br> ✔️ Microsoft eCDN included as a part of the Teams Premium bundle |  |
 
 ## How does Teams Premium differ from Teams Rooms Pro?
@@ -341,7 +354,7 @@ Many Teams Premium features require an IT admin to configure the feature before 
 
 The following list indicates Teams Premium features that require admin configuration in the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851) before users can access the feature:
 
-- Using end-to-end encryption on meetings up to 50 participants.
+- Using end-to-end encryption on meetings up to 200 participants.
 - Adding watermarks to meetings.
 - Adding sensitivity labels.
 - Preventing copy and paste in meeting chats.

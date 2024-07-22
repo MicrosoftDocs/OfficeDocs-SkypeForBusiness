@@ -13,7 +13,7 @@ ms.collection:
   - M365-collaboration
   - Tier1
 search.appverid: MET150
-ms.date: 06/22/2024
+ms.date: 07/08/2024
 ms.reviewer: Orion.OMalley
 description: Understand permissions that Teams apps request to access your organization and user information.
 f1.keywords:
@@ -32,6 +32,8 @@ Depending on their functionality, Teams apps may or may not access your user's o
 * Some apps require your organization's or user's information to work or to process the information. Such apps can't work unless you allow such an app to access your org's information.
 
 You must evaluate the compliance, security, and data handling information of an app and also understand the permissions requested by the app before you allow an app to be used by your users. To do so, you need to understand about permissions, consent, and the controls available to you.
+
+Permissions enable apps to access privileged resources and act on behalf of the user. This allows developers to create rich features in apps that boost user productivity. You must understand about permissions, their scope, and implications clearly. We provide all permissions of an app and its detailed info in the app details page in Teams admin center.
 
 ## How apps access organization's information using permissions
 
