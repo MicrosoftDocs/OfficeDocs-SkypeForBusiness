@@ -45,33 +45,36 @@ After certification end date, Microsoft is committed to make efforts to support 
 > [!NOTE]
 > Certification end dates are based on the Android version release date plus five years. Once device passes the certification requirements and OEM partners provide the firmware that enables the upgrade to a newer Android version, the certification end date will be extended to match the new Android OS version release date plus five years.
 > 
+
+>[!NOTE]
+> Certification end dates for Android 12 based devices has been extended by one year, from October 4, 2026 to August 15, 2027. Tables below reflects current certification end dates. 
 ## Certified Teams phones
 The following devices are Certified under the Microsoft Teams phones Certification Program:
 
 
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
-| AudioCodes C430HD    | `2.3.364`     | October 4, 2026 | 12 |
-| AudioCodes Exp Module supported on C455HD-DBW| 2.1.638| October 4, 2026 | N/A |
-| AudioCodes C470HD | `2.1.87`  |October 4, 2026  | 12 |
-| AudioCodes C435HD    | `2.1.673`     | October 4, 2026 | 12 |
-| AudioCodes C455HD    | `2.1.638`    | October 4, 2026 | 12 |
-| Poly CCX350  | `9.0.0.10315`  | 	October 4, 2026 | 12 |
-| Poly CCX400  | `9.0.0.10315`  | 	October 4, 2026 | 12 |
-| Poly CCX500  | `9.0.0.10315` | 	October 4, 2026 | 12 |
-| Poly CCX505  | `9.0.0.10315`  |  	October 4, 2026 | 12 |
-| Poly CCX600  | `9.0.0.10315` | 	October 4, 2026 | 12 |
-| Poly Trio C60, Trio C60 NR, Trio C60 ND | `9.0.0.10315` | October 4, 2026 | 12 |
-| Poly EM60 supported on CCX505 and CCX600 | `8.1.5.1732`| October 31, 2024| N/A |
-| Yealink MP52 E2 | `176.15.0.16 `|August 27, 2027   | 13|
-| Yealink MP54 E2 | `176.15.0.16 `|August 27, 2027   | 13|
-| Yealink MP56 E2 | `176.15.0.16 `|August 27, 2027   | 13|
-| Yealink MP58 E2 | `176.15.0.16 `|August 27, 2027   | 13|
-| Yealink MP54 | `122.15.0.135 `|October 4, 2026   | 12 |
-| Yealink MP56 | `122.15.0.135 `|October 4, 2026   | 12 |
-| Yealink MP58 | `122.15.0.135 `|October 4, 2026   | 12 |
-| Yealink CP965 | `143.15.0.48 `|October 4, 2026   | 12 |
-| Yealink EXP50 supported on MP56, MP58| For each supported device model, see firmware version | October 4, 2026 | N/A |
+| AudioCodes C430HD    | `2.3.364`     | August 15, 2027 | 12 |
+| AudioCodes Exp Module supported on C455HD-DBW| 2.1.638| August 15, 2027 | N/A |
+| AudioCodes C470HD | `2.1.87`  |August 15, 2027  | 12 |
+| AudioCodes C435HD    | `2.1.673`     | August 15, 2027 | 12 |
+| AudioCodes C455HD    | `2.1.638`    | August 15, 2027 | 12 |
+| Poly CCX350  | `9.0.0.10315`  | 	August 15, 2027 | 12 |
+| Poly CCX400  | `9.0.0.10315`  | 	August 15, 2027 | 12 |
+| Poly CCX500  | `9.0.0.10315` | 	August 15, 2027 | 12 |
+| Poly CCX505  | `9.0.0.10315`  |  	August 15, 2027 | 12 |
+| Poly CCX600  | `9.0.0.10315` | 	August 15, 2027 | 12 |
+| Poly Trio C60, Trio C60 NR, Trio C60 ND | `9.0.0.10315` | August 15, 2027 | 12 |
+| Poly EM60 supported on CCX505 and CCX600 | `8.1.5.1732`| August 15, 2027 | N/A |
+| Yealink MP52 E2 | `176.15.0.16 `|August 15, 2027   | 13|
+| Yealink MP54 E2 | `176.15.0.16 `|August 15, 2027   | 13|
+| Yealink MP56 E2 | `176.15.0.16 `|August 15, 2027   | 13|
+| Yealink MP58 E2 | `176.15.0.16 `|August 15, 2027   | 13|
+| Yealink MP54 | `122.15.0.135 `|August 15, 2027  | 12 |
+| Yealink MP56 | `122.15.0.135 `|August 15, 2027   | 12 |
+| Yealink MP58 | `122.15.0.135 `|August 15, 2027  | 12 |
+| Yealink CP965 | `143.15.0.48 `|August 15, 2027   | 12 |
+| Yealink EXP50 supported on MP56, MP58| For each supported device model, see firmware version | August 15, 2027 | N/A |
 
 
 ## Certified Teams Rooms on Android
@@ -102,7 +105,7 @@ The following devices are Certified under the Microsoft Teams panels Certificati
 
 | Device model| Firmware version | Current certification end date | Android OS version |
 |:------------------------|:-----------------|:--------------|-----------------------|
-|Audiocodes RX-Panel | `2.1.457`|October 4, 2026  | 12 |
+|Audiocodes RX-Panel | `2.1.457`|August 15, 2027  | 12 |
 |Crestron TSS-770 | `2.001.0058` |September 3, 2025  | 10 |
 |Crestron TSS-1070 | `2.001.0058`|September 3, 2025 | 10 |
 |EPOS Expand Control Panel   | `1.2.22206.03` | September 3, 2025 | 10 |
