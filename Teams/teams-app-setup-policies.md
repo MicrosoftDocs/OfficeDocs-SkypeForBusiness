@@ -29,7 +29,7 @@ As an admin, you use app setup policies to install and pin apps and control whic
 
 * **[Pin apps in Teams client](#pin-apps):** App setup policies let you choose apps to pin, set the order the apps show up for your users in the Teams app bar or the compose message area. Admins can also control whether the users can pin their own apps or not.
 
-* **[Add apps to Teams client](install-teams-apps.md):** App setup policies let you add the allowed apps on behalf of users when they start Teams and during meetings. This feature will soon [move to app centric management](install-teams-apps.md#install-apps-for-users-using-app-centric-management).
+* **[Add apps to Teams client](install-teams-apps.md):** App setup policies let you add the allowed apps on behalf of users when they start Teams and during meetings. This feature will soon [move to app centric management](install-teams-apps.md#install-apps-using-app-centric-management).
 
 * **Upload custom apps:** App setup policies let you control which users can upload custom apps to Teams. See [Upload custom apps](teams-custom-app-policies-and-settings.md) article.
 
@@ -93,11 +93,11 @@ To modify the pinned apps for everyone in your organization, edit the existing `
 ## Install apps to Teams client of your users
 
 > [!NOTE]
-> If you are using app centric management functionality, then you must [use Manage apps page to install apps for users](install-teams-apps.md#install-apps-for-users-using-app-centric-management). App installation feature is moving to the app details page.
+> If you are using app centric management functionality, then you must [use Manage apps page to install apps for users](install-teams-apps.md#install-apps-using-app-centric-management). App installation feature is moving to the app details page.
 >
 > :::image type="content" source="media/acm-setup-policy-change.png" alt-text="Screenshot showing updated setup policy page without the app installation option.":::
 
-If your organization is not migrated to app centric management, then continue to [use app setup policy to install apps](install-teams-apps.md#install-apps-for-users-using-app-setup-policy).
+If your organization is not migrated to app centric management, then continue to [use app setup policy to install apps](install-teams-apps.md#install-apps-using-app-setup-policy).
 
 ## Use app setup policy to allow independent bots
 
