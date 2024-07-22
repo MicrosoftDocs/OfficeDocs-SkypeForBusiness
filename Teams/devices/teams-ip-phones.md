@@ -131,6 +131,8 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 #### <b> Audiocodes </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications                            | Release date|
 |:----------------|:-------------------|:----------------------------|:---------------------------------------------------------------------------------------------------------------|:------------------------------------------|
+| C448HD/C450HD | `1.19.712` | `N/A`| Teams client: `1449/1.0.94.2024062301` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| July 22, 2024|
+| C435HD/C455HD/C470HD | `2.3.423` | `1.19.584`| Teams client: `1449/1.0.94.2024062010` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| July 22, 2024|
 | C435HD/C455HD/C470HD | `2.3.410` | `1.19.584`| Teams client: `1449/1.0.94.2024061301` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| June 27, 2024|
 | C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.705` | `1.19.456`| Teams client: `1449/1.0.94.2024011003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| February 19, 2024|
 | C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.642` | `N/A`| Teams client: `1449/1.0.94.2024011601` <br> Company Portal: `5.0.6061.0` <br> Admin Agent: `1.0.0.202310260109.product`| February 8, 2024|
@@ -142,6 +144,8 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 #### <b> Crestron </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications                               | Release date|
 |:----------------|:-------------------|:----------------------------|:---------------------------------------------------------------------------------|:------------------------------------------|
+|UC-P8/UC-P10| `1.0.6.38` | N/A | Teams client: `1449/1.0.94.2024060310` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| July 22, 2024|
+|UC-2 | `1.0.7.56`| N/A | Teams client: `1449/1.0.94.2024060310` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| July 22, 2024|
 |UC-P8/UC-P10| `1.0.6.20` | N/A | Teams client: `1449/1.0.94.2022110803` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product`| April 20, 2023|
 |UC-2 | `1.0.7.35`| N/A | Teams client: `1449/1.0.94.2022110803` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product` | April 20, 2023 |
 |UC-2 | `1.0.6.28`| N/A | Teams client: `1449/1.0.94.2022062103` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202205230848.product` | February 14, 2023 |
