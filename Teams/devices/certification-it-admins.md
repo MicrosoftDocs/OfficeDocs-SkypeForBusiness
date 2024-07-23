@@ -82,11 +82,11 @@ Browse and shop our Certified for Teams devices at: [Teams devices store](https:
 
 For a list of our Certified for Teams Rooms partner devices by type and platform see:
 
-- [Teams Rooms for Windows](/microsoftteams/rooms/certified-hardware?tabs=Windows&branch=pr-en-us-15156)
+- [Teams Rooms for Windows](/microsoftteams/rooms/certified-hardware?tabs=Windows&branch=pr-en-us-15156#tabpanel_1_Windows)
 
-- [Teams Rooms for Android](/microsoftteams/rooms/certified-hardware?tabs=Android&branch=pr-en-us-15156)
+- [Teams Rooms for Android](/microsoftteams/rooms/certified-hardware?tabs=Android&branch=pr-en-us-15156#tabpanel_1_Android)
 
-- [Rooms peripherals for Windows](/microsoftteams/rooms/certified-hardware?tabs=Devices&branch=pr-en-us-15156)
+- [Rooms peripherals for Windows](/microsoftteams/rooms/certified-hardware?tabs=Devices&branch=pr-en-us-15156#tabpanel_1_Devices)
 
 - [Personal peripherals for Windows](/microsoftteams/devices/usb-devices)
 
