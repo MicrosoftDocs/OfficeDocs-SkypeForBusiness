@@ -70,12 +70,12 @@ When creating an enrollment profile, verify it doesn't conflict with any enrollm
    ![Screenshot of AOSP enrollment profile.](media/android-migration-guide/aosp-enrollment-profile.png)
 
 > [!IMPORTANT]
-> The current enrollment profiles are limited to a 90-day token expiration, this limit might be extended in a future release. In the meantime, you will need to edit this enrollment profile every 90 days to extend and support further enrollments. An expired enrollment token will not impact any existing devices, just new device enrollments.
+> The current enrollment profiles are limited to a 90-day token expiration. This limit might be extended in a future release. In the meantime, you will need to edit this enrollment profile every 90 days to extend and support further enrollments. An expired enrollment token will not impact any existing devices, just new device enrollments.
 
 6. Select **Next**.
 7. Review the profile and then select **Create**.
 
-The enrollment profile is been created and is now ready to enroll devices.
+The enrollment profile has been created and is now ready to enroll devices.
 
 ## Step 2 - Set up AOSP Management Configuration & Compliance Policies
 
