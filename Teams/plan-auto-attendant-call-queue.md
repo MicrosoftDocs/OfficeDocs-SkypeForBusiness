@@ -81,6 +81,8 @@ To configure Auto attendants and Call queues, you need the following resources:
 
 > [!NOTE]
 > Resource accounts are disabled for sign in and must remain so. Chat and presence are not available for these accounts.
+>
+> A **Global Administrator** or **User Administrator** role is required to create and license Resource Accounts.
 
 Agents who receive calls from a Call queue must be Enterprise Voice enabled online or on-premises users. For more information, see [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) and [Enable users for Direct Routing](/microsoftteams/direct-routing-enable-users). In addition, if the Call queue is using Direct Routing or Operator Connect numbers, agents who need to conference or transfer calls also require:
 
