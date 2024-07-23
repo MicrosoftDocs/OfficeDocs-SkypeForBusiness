@@ -39,7 +39,15 @@ Used together, Auto attendants and Call queues can easily route callers to the a
 
 ## Auto attendants
 
-The primary purpose of an Auto attendant is to direct a caller to an appropriate person or department based on the caller's input to the provided menu options. Callers can be directed to specific people within your organization, to Call queues where they wait to talk to the next available agent, to external numbers, to other Auto attendants, or to voicemail. Different call routing options can be specified for business hours, off hours, and holidays.
+The primary purpose of an Auto attendant is to direct a caller to an appropriate person or department based on the caller's input to the provided menu options. Callers can be directed to:
+
+- specific people within your organization
+- Call queues where they wait to talk to the next available agent
+- external phone numbers
+- other Auto attendants
+- voicemail
+
+Different call routing options can be specified for business hours, off hours, and holidays.
 
 Menu prompts can be created by using text-to-speech (system-generated prompts) or by uploading a recorded audio file. Speech recognition accepts voice commands for hands-free navigation, but people calling in can also use the phone keypad to navigate menus.
 
@@ -55,7 +63,7 @@ Internal callers, using their Teams client, can reach an Auto attendant by calli
 
 A Call queue is analogous to a waiting room in a physical building. Callers wait on hold while calls are routed to the agents in the queue. Call queues are commonly used for sales and service functions. However, Call queues can be used for any situation where the number of calls exceeds your internal capacity, such as a receptionist in a busy facility.
 
-Call queues allow for specific routing of calls in cases where there are no agents logged in or where the total number of callers in the queue or the wait time exceeds the limits that you specify. Calls can be routed to specific people, voicemail, other Call queues, or Auto attendants.
+Call queue exception handling allows you to redirect calls in cases where there are no agents logged in and where the total number of callers or wait time exceeds limits that you specify. Calls can be routed to specific people, voicemail, other Call queues, or Auto attendants.
 
 Like Auto attendants, Call queues each have a language setting. You can use different Call queues if you do business in multiple languages. Agents can be members of more than one queue if they're multi-lingual.
 
