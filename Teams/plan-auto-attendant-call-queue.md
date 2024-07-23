@@ -41,11 +41,11 @@ Used together, Auto attendants and Call queues can easily route callers to the a
 
 The primary purpose of an Auto attendant is to direct a caller to an appropriate person or department based on the caller's input to the provided menu options. Callers can be directed to:
 
-- specific people within your organization
-- Call queues where they wait to talk to the next available agent
-- external phone numbers
-- other Auto attendants
-- voicemail
+- Specific people within your organization.
+- Call queues where they wait to talk to the next available agent.
+- External phone numbers.
+- Other Auto attendants.
+- Voicemail.
 
 Different call routing options can be specified for business hours, off hours, and holidays.
 
