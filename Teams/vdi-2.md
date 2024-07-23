@@ -26,8 +26,6 @@ New VDI solution for Teams is a new architecture for optimizing the delivery of 
 
 > [!IMPORTANT]
 > In order to participate on the public preview, administrators must move users to the public preview channel as described [in this article](public-preview-doc-updates.md).
->
-> **For Citrix customers, please contact your Microsoft account manager in order to get signed up for the public preview**.
 
 ## Components
 
@@ -82,9 +80,9 @@ The plugin MSI automatically detects the CWA installation folder and places MsTe
 |User type     |Installation folder                                                                             |Installation type |
 |--------------|------------------------------------------------------------------------------------------------|------------------|
 |Administrator |64-bit: C:\Program Files (x86)\Citrix\ICA Client</br>32-bit: C:\Program Files\Citrix\ICA Client |Per-system installation |
-|User          |%USERPROFILE%\AppData\Local\Citrix\ICA Client                                                   |Per-user installation |
 
 - Plugins can't be downgraded, only upgraded or reinstalled (repaired).
+- Per-user installation of CWA isn't supported.
 - If no CWA is found on the endpoint, installation is stopped.
 
 ### Step 3: SlimCore MSIX staging and registration on the endpoint
@@ -407,7 +405,7 @@ If there's a connection error, the error code can be found from the log line con
 |Error code |deployErrc |Definition                       |Notes |
 |-----------|-----------|---------------------------------|------|
 |0          |0          |OK                               |Special code for 'ConnectedNoPlugin' Telemetry Messages. |
-|5          |43         |ERROR_ACCESS_DENIED              |MsTeamsVdi.exe process failed at startup. Possibly caused by BlockNonAdminUserInstall being enabled. |
+|5          |43         |ERROR_ACCESS_DENIED              |MsTeamsVdi.exe process failed at startup. Could be caused by BlockNonAdminUserInstall being enabled. Or the endpoint could be busy registering multiple MSIX packages after a user logon and it didn't finish registering SlimCoreVdi. |
 |404        |3235       |HTTP_STATUS_NOT_FOUND            |Publishing issue: SlimCore MSIX package is not found on CDN. |
 |1260       |10083      |ERROR_ACCESS_DISABLED_BY_POLICY  |This error usually means that Windows Package Manager cannot install the SlimCore MSIX package. Event Viewer can show the hex error code 0x800704EC. AppLocker Policies can cause this error code. You can either disable AppLocker, or add an exception for SlimCoreVdi packages in Local Security Policy -> Application Control Policies -> AppLocker. Check 'Step 3' under "Optimizing with new VDI solution for Teams". |
 |1460       |11683      |ERROR_TIMEOUT                    |MsTeamsVdi.exe process failed at startup (60 second timeout). |
@@ -426,8 +424,12 @@ If there's a connection error, the error code can be found from the log line con
 
 ## Using Event Viewer on the VM for troubleshooting
 
-Every connect/disconnect event gets logged in the Event Viewer running on the Virtual Machine. The Event Viewer can also display client-side related errors. Filter by Source (Microsoft Teams VDI) and Event ID (0).
-Error codes can be found in the [New Teams logs for VDI](#new-teams-logs-for-vdi) section.
+Every connect/disconnect event gets logged in the Event Viewer running on the Virtual Machine. The Event Viewer can also display client-side related errors. Filter by Source (Microsoft Teams VDI) and Event ID (0). Error codes can be found in the [New Teams logs for VDI](#new-teams-logs-for-vdi) section.
+
+> [!NOTE]
+> In order to be able to filter by Source, you need to run this command from an elevated powershell window:
+>
+> PS C:\Windows\system32> New-EventLog -LogName Application -Source "Microsoft Teams VDI"
 
 ## Troubleshooting Plugin deployment errors
 
