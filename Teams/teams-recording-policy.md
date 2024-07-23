@@ -259,8 +259,8 @@ Support for notifications is enabled using the Teams client experiences. The exp
 - PSTN callers (audio notice in Teams user's default language)
 
 > [!NOTE]
-> Compliance recording isn't supported with call queues.
-> Compliance recording doesn't work if users have an Internet outage, and are making and receiving PSTN calls using an SBA.
+> 1. When you assign a compliance recording policy to your users, they can record calls from CQs, but this setup isn't supported. Depending on the call queue routing method selected, there might be issues with multiple recording announcements.
+> 2. Compliance recording doesn't work if users have an Internet outage, and make or receive PSTN calls using an SBA.
 
 ## Compliance recording for Teams certification programs
 
@@ -291,6 +291,7 @@ The following partners are in the process of certifying their solution for Micro
 |Partner|Solution website |
 |:--|:--|
 |Cloud World Wide Services |[https://recordia.net/microsoft-teams-call-recording/](https://recordia.net/microsoft-teams-call-recording/) |
+|Crealog |[https://www.crealog.com/en/products-solutions/recording/](https://www.crealog.com/en/products-solutions/recording/) |
 |GuardRec |[https://www.guardrec.com/en/teams-compliance-recording/](https://www.guardrec.com/en/teams-compliance-recording/) |
 |Landis Technologies |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Redwood Technologies |[https://www.contentguru.com/en-us/solutions/needs/compliance-recording-ms-teams/](https://www.contentguru.com/en-us/solutions/needs/compliance-recording-ms-teams/) |
