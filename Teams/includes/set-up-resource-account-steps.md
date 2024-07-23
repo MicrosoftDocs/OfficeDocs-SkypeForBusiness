@@ -10,7 +10,7 @@ Before you start the procedures in this article, ensure you've done the followin
 > [!NOTE]
 > Resource accounts used for auto attendants and call queues are disabled for sign in and must remain so. Chat and presence aren't available and won't work for these accounts. Even though presence still appears, it won't change.
 >
-> A **Global Administrator** or **User Administrator** role is required to create and license Resource Accounts. For more information, see [Using Microsoft Teams administrator roles to manage Teams](using-admin-roles.md).
+> A **Global Administrator** or **User Administrator** role is required to create and license Resource Accounts. For more information, see [Using Microsoft Teams administrator roles to manage Teams](/microsoftteams/using-admin-roles).
 
 ### Obtain Microsoft Teams Phone Resource Account licenses
 
