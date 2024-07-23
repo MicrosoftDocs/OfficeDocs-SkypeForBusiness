@@ -1314,6 +1314,8 @@ items:
           href: devices/usb-devices.md
         - name: Teams certified Android devices
           href: devices/teams-ip-phones.md
+        - name: Teams Rooms certified consoles and peripherals
+          href: rooms/certified-hardware.md 
     - name: Microsoft Teams Rooms
       items: 
         - name: Overview
