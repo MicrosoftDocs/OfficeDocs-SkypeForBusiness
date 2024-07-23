@@ -546,7 +546,7 @@ Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRe
 
 Create a new call queue:
 ````PowerShell
-New-CsCallQueue -Name "Callback Eligible After 2x calls to agents" -UseDefaultMusicOnHold $true -LanguageID en-US -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -WaitTimeBeforeOfferingCallbackInSecond 60 -NumberOfCallsInQueueBeforeOfferingCallback 50 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
+New-CsCallQueue -Name "Callback Eligible After 60s or 50 calls" -UseDefaultMusicOnHold $true -LanguageID en-US -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -WaitTimeBeforeOfferingCallbackInSecond 60 -NumberOfCallsInQueueBeforeOfferingCallback 50 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
 ````
 
 Modify an existing call queue:
