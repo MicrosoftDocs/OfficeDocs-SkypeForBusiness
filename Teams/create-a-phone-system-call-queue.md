@@ -487,6 +487,7 @@ Once a caller has successfully requested a callback, the callback is also subjec
 > | 1-900, 939                                       |
 > | 1-nnn-555-1212                                   |
 > | 1-nnn-555,0100-0199                              |
+
 For more information, see:
 
 |New-CsCallQueue (For new call queues)   |Set-CsCallQueue (For existing call queues) |
@@ -502,9 +503,45 @@ For more information, see:
 
 #### PowerShell Examples
 
-asdfasdf
-asfdasf
+##### Calls become eligible after waiting 60 seconds
 
+Creating a new call queue
+````PowerShell
+````
+
+Modifying an existing call queue
+````PowerShell
+````
+
+##### Calls become eligible for callback when there are more then 50 calls in queue
+
+Creating a new call queue
+````PowerShell
+````
+
+Modifying an existing call queue
+````PowerShell
+````
+
+##### Calls become eligible for callback when there 2 times more calls than agents
+
+Creating a new call queue
+````PowerShell
+````
+
+Modifying an existing call queue
+````PowerShell
+````
+
+##### Calls become eligible for callback after waiting 60 seconds or when there are more than 50 calls in queue
+
+Creating a new call queue
+````PowerShell
+````
+
+Modifying an existing call queue
+````PowerShell
+````
 
 ### Hiding authorized users
 
