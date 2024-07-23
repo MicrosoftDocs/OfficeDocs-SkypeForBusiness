@@ -153,9 +153,9 @@ You can use a combination of these options for each queue if needed. Groups that
 
 We recommend choosing a strategy for adding call agents to queues before you start your configuration.
 
-If you have an existing Auto attendant and Call queue infrastructure and you're migrating to Teams, you'll need a plan to transfer your existing phone numbers to the new Auto attendants and Call queues. You might need to create a [port order](phone-number-calling-plans/port-order-overview.md) to move your numbers from another providers. We recommend that you temporarily acquire one or more new phone numbers and test your Auto attendant and Call queue flows before switching them over the numbers you currently have in service.
+If you have existing Auto attendants and Call queues that you're migrating to Teams, you need a plan to transfer your existing phone numbers to the new Auto attendants and Call queues. You might need to create a [port order](phone-number-calling-plans/port-order-overview.md) to move your numbers from another providers. We recommend that you temporarily acquire one or more new phone numbers and test your Auto attendant and Call queue flows before switching them over the numbers you currently have in service.
 
-**Conference mode** is an option in Call queues that significantly reduces the amount of time it takes to connect Teams VOIP calls and PSTN calls to an agent. For conference mode to work, agents in the Call queue must use one of the following clients:
+**Conference mode** is an option in Call queues that significantly reduces the amount of time it takes to connect Teams VOIP calls and external PSTN (Public Switched Telephone Network) calls to an agent. For conference mode to work, agents in the Call queue must use one of the following clients:
 
 - The latest version of the Microsoft Teams desktop client, Android app, or iOS app.
 - Microsoft Phone System version 1449/1.0.94.2020051601 or later.
@@ -172,7 +172,7 @@ In order to help prevent a denial of service attack from web based click-to-call
 
 ## Supported audio file formats
 
-When using a recorded audio file for prompts or music the supported formats are WAV (uncompressed, linear PCM with 8/16/32-bit depth in mono or stereo), WMA (mono only), and MP3. 
+When using a recorded audio file for prompts or music the supported formats are WAV (uncompressed, linear PCM (Pulse-code modulation) with 8/16/32-bit depth in mono or stereo), WMA (mono only), and MP3. 
 
 The audio file content cannot be more 5MB.
 
@@ -209,7 +209,7 @@ See the following articles for information on how to create Auto attendants and 
 >
 > This doesn't apply to Call queue agent memberships that are configured via distribution lists or channels. It also doesn't apply to users who are reached through the **Dial by Name** or **Dial by Number** feature of Auto attendants.
 
-If you need more extensive capabilities, such as integration with workflows, bots, and SMS, consider [Azure Communication Services](/azure/communication-services/overview).
+If you need more extensive capabilities, such as integration with workflows, bots, and SMS (Short Message Service), consider [Azure Communication Services](/azure/communication-services/overview).
 
 ## Related topics
 
