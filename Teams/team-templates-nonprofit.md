@@ -44,7 +44,7 @@ Here's the channels and apps that come with the Manage Volunteers team template.
 >[!div class="mx-tdBreakAll"]
 >| Template type |TemplateId | Properties that come with this template |
 >| ------------------|-- |----------------------------------------------------- |
->|Manage Volunteers| `com.microsoft.teams.template.ManageVolunteers` |Channels: <ul><li>General<ul><li>Website&sup1;</li></ul><li>Announcements</li><li>Reporting<ul><li>Power BI&sup1;</li></ul></li><li>Volunteer Management<ul><li>Power Apps&sup1;</li></ul></li><li>Engagement Opportunities<ul><li>Tasks by Planner and To Do&sup1;</li></ul></li><li>Volunteer Onboarding<ul><li>SharePoint&sup1;</li><li>OneNote&sup1;</li></ul></li></ul>Apps: <ul><li>OneNote</li><li>Power Apps</li><li>Power BI</li><li>SharePoint</li><li>Tasks by Planner and To Do</li><li>Website</li><li>YouTube</li></ul>|
+>|Manage Volunteers| `com.microsoft.teams.template.ManageVolunteers` |Channels: <ul><li>General<ul><li>Website&sup1;</li></ul><li>Announcements</li><li>Reporting<ul><li>Power BI&sup1;</li></ul></li><li>Volunteer Management<ul><li>Power Apps&sup1;</li></ul></li><li>Engagement Opportunities<ul><li>Planner&sup1;</li></ul></li><li>Volunteer Onboarding<ul><li>SharePoint&sup1;</li><li>OneNote&sup1;</li></ul></li></ul>Apps: <ul><li>OneNote</li><li>Power Apps</li><li>Power BI</li><li>SharePoint</li><li>Planner</li><li>Website</li><li>YouTube</li></ul>|
 
 &sup1;App added to the channel as a tab.
 
