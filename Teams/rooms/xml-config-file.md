@@ -92,6 +92,7 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
   <OpenMeetingChatByDefault>true</OpenMeetingChatByDefault>
   <EnablePublicPreview>false</EnablePublicPreview>
   <NoiseSuppressionDefault>1</NoiseSuppressionDefault>
+  <RoomLanguageSwitchEnabled>true</RoomLanguageSwitchEnabled>
   <SendLogs>
     <EmailAddressForLogsAndFeedback>username@microsoft.com</EmailAddressForLogsAndFeedback>
     <SendLogsAndFeedback>true</SendLogsAndFeedback>
@@ -216,7 +217,7 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | `<Video>` | Boolean &#x2777; |  | Controls video configuration on a Teams Rooms device. This element has two attributes:<br><ul><li><b>default</b> Determines on which device the camera will be active when a meeting starts. For the best experience, we recommend that only the Teams Rooms device be set to `true` while all other devices are set to `false`.</li><li><b>enabled</b> Determines whether participants in a meeting can toggle the camera on or off. You can set this to `true` on any other devices in the event participants want to share different video perspectives (such as if a participant is using the Surface Hub whiteboard). If you don't want participants to turn a camera on or off on a device, set this to `false`.<p> If **Video default** is set to `true`, the **Video enabled** setting is ignored and participants can turn the camera on or off.</li></ul> |
 | `<Whiteboard>` | Boolean &#x2777; |  | Controls whiteboard configuration on a Teams Rooms device. This element has two attributes:<br><ul><li><b>default</b> Determines on which device the whiteboard will be active when a meeting starts. For the best experience, we recommend that the Teams Rooms device be set to `false` and that you use the whiteboard on a Surface Hub.</li><li><b>enabled</b> Determines whether participants in a meeting can toggle the whiteboard on or off. If you don't want participants to turn the whiteboard on or off on a device, set this to `false`.<p> If **Whiteboard default** is set to `true`, the **Whiteboard enabled** setting is ignored and participants can turn the whiteboard on or off.</li></ul> |
 | `<EnableDeviceEndToEndEncryption>` | Boolean &#x2777; |  | Default is `false`. Specify `true` to enable end-to-end encryption for one-to-one Teams calls. Both caller and recipient need to have end-to-end encryption enabled for this to work. |
-| `<RoomLanguageSwitchEnabled>` | Boolean &#x2777; |  | Default is `false`. Specify `true` to enable end users to change language. |
+| `<RoomLanguageSwitchEnabled>` | Boolean &#x2777; |  | Default is `true`. Specify `false` to block end users from changing the console language. |
 | `<SplitVideoLayoutsDisabled>` | Boolean &#x2777; |  | Default is `false`. This setting is only applicable to dual-display rooms. Specify `true` to disable splitting video gallery across both screens. This will also disable Front row layout, and any settings associated with Front row layout. |
 
 &#x2776; All of the first-level elements are optional. If a first-level element is omitted, all of its child parameters remain unchanged on the device.
