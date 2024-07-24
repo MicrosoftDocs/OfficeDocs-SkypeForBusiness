@@ -149,7 +149,6 @@ There are two ways for you to view consent data. The first way is in the [Teams 
 The following user types are auto consented for recording and transcription without any participant interaction. They get a consent notification, and their consent data is logged as 'not applicable' or 'auto consent':
 
 - Teams Rooms on Windows
-- Teams Rooms on Android
 - Third party video conferencing devices via Cloud Video Interop (CVI)
 - Third party video conferencing devices connecting via Direct Guest Join (DGJ)
 
@@ -163,12 +162,14 @@ Explicit consent is supported on the following endpoints:
 - Mobile Teams (Android and iOS)
 - Meeting participants dialing in using [Audio Conferencing](conferencing-recording-consent.md)
 - VDI
+- Shared devices
+- Teams Rooms on Android
+- Teams Phone devices (including audio conferencing phone devices)
 
 #### Unsupported endpoints and platforms
 
 In meetings requiring explicit consent, users joining from unsupported endpoints have the view-only experience. Explicit consent isn’t supported on the following endpoints, along with any endpoints not listed under supported endpoints:
 
-- Teams Phone devices (including audio conferencing phone devices)
 - Teams Displays
 - CarPlay
 - Old version native clients
