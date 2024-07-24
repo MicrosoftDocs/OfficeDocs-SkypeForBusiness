@@ -87,7 +87,7 @@ Apps in teams allow better collaboration for the users. You can also install an 
 
 You can create a new team for your users using a team template. Team template lets you, as an admin, to add apps in template so that the new teams that are created, have these apps available from the beginning, for the users of the team. for more info, see [add apps when creating a team template](create-a-team-template.md) and [get started with team templates](get-started-with-teams-templates-in-the-admin-console.md).
 
-## How users install apps
+## Understand how users install apps
 
 If the app installation prerequisites are met, [users can install apps](https://support.microsoft.com/office/add-an-app-to-microsoft-teams-b2217706-f7ed-4e64-8e96-c413afd02f77) on their own. If an app is blocked, then the users can [request admin approval](user-requests-approve-apps.md).
 
