@@ -37,12 +37,12 @@ appliesto:
 
 A team template in Microsoft Teams is a definition of a team's structure designed around a business need or project. As an admin, you can use templates to easily deploy consistent teams across your organization. With templates, your users can quickly create rich collaboration spaces with predefined settings, channels, and apps.
 
-You can manage team templates in the Microsoft Teams admin center or by using PowerShell. You can use the pre-built templates that we provide and you can also [create your own custom templates](#create-your-own-team-templates). You can also [apply template policies](#apply-team-template-policies) to control which templates are available to your users in Teams.
+You can manage team templates in the Microsoft Teams admin center or by using PowerShell. You can use the prebuilt templates that we provide and you can also [create your own custom templates](#create-your-own-team-templates). You can also [apply template policies](#apply-team-template-policies) to control which templates are available to your users in Teams.
 
-This article gives you an overview of working with team templates in the Teams admin center. You'll learn about the properties that are supported in templates, the pre-built templates that we provide, template size limits, how to create and manage templates, and more.
+This article gives you an overview of working with team templates in the Teams admin center. You'll learn about the properties that are supported in templates, the prebuilt templates that we provide, template size limits, how to create and manage templates, and more.
 
 > [!NOTE]
-> Your users can [create teams from pre-built or custom team templates](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) in the Teams app. Developers can also programmatically create teams from pre-built or custom team templates using Microsoft Graph. To learn more, see [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md).
+> Your users can [create teams from prebuilt or custom team templates](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) in the Teams app. Developers can also programmatically create teams from prebuilt or custom team templates using Microsoft Graph. To learn more, see [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md).
 
 ## Team template capabilities
 
@@ -62,11 +62,11 @@ Most properties in a team are included and supported by team templates. But ther
 > [!NOTE]
 > We'll be adding more template capabilities in future releases of Microsoft Teams, so check back for the most up-to-date information on supported properties.
 
-## Pre-built team templates in the Teams admin center
+## Prebuilt team templates in the Teams admin center
 
-Here are the pre-built team templates that are available in the Teams admin center. Pre-built templates are templates that we created for specific industries. To view these templates, in the left navigation of the Teams admin center, go to **Teams** > **Team templates**.
+Here are the prebuilt team templates that are available in the Teams admin center. Prebuilt templates are templates that we created for specific industries. To view these templates, in the left navigation of the Teams admin center, go to **Teams** > **Team templates**.
 
-You can duplicate pre-built templates but you can't edit them. If you want to change the properties in a pre-built template, you can create a new template from an existing one, and then add or remove the properties that you want. Keep in mind that certain properties in some templates can't be changed.
+You can duplicate prebuilt templates but you can't edit them. If you want to change the properties in a prebuilt template, you can create a new template from an existing one, and then add or remove the properties that you want. Keep in mind that certain properties in some templates can't be changed.
 
 > [!NOTE]
 > An asterisk (*) indicates that the template is a *Microsoft 365 connected template*. When users create a team using the template, the connected SharePoint template is applied to the site and the team. SharePoint components such as pages, lists, and Power Platform integrations are automatically added and pinned as tabs to the General channel in the team. Users can edit these pages and lists right from within Teams.
@@ -94,7 +94,7 @@ You can duplicate pre-built templates but you can't edit them. If you want to ch
 
 ### Team templates by category and industry
 
-For more information about ways to use the pre-built templates in your industry, see:
+For more information about ways to use the prebuilt templates in your industry, see:
 
 - [General team templates](general-teams-templates-in-the-admin-console.md)
 - [Financial team templates](financial-teams-templates-in-the-admin-console.md)

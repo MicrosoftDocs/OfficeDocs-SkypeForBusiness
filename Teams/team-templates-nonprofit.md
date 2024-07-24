@@ -25,11 +25,11 @@ appliesto:
 
 # Use nonprofit team templates
 
-Team templates in Microsoft Teams allow you to quickly and easily create teams by providing a predefined team structure of settings, channels, and pre-installed apps.
+Team templates in Microsoft Teams allow you to quickly and easily create teams by providing a predefined team structure of settings, channels, and preinstalled apps.
 
 For nonprofit organizations, team templates can be especially powerful, as they help you to quickly deploy consistent teams across your organization. Templates also help staff to get oriented with how to effectively use Teams.
 
-Teams includes a Manage Volunteers team template designed to streamline volunteer management activities. Use this pre-built template to quickly create teams for staff to communicate and collaborate on volunteer management tasks and activities.
+Teams includes a Manage Volunteers team template designed to streamline volunteer management activities. Use this prebuilt template to quickly create teams for staff to communicate and collaborate on volunteer management tasks and activities.
 
 In this article, you'll learn about the Manage Volunteers team template and how to use it to create a team. This article also gives you an overview of how to manage team templates in the Teams admin center.
 
@@ -84,5 +84,5 @@ To learn more about team templates in general, see [Get started with team templa
 
 ## Related articles
 
-- [Teams help documentation](https://support.microsoft.com/teams)
+- [Teams help & learning](https://support.microsoft.com/teams)
 - [Microsoft Cloud for Nonprofit documentation](/industry/nonprofit/)
