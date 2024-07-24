@@ -33,8 +33,6 @@ The prerequisites for app installation are:
 * [Grant consent to the app permissions](manage-consent-app-permissions.md#grant-and-manage-consent-to-teams-app-permissions) if an app requires permission to access organization information.
 * Make the app available to the required users using either app centric management or permission policies.
 
-If you complete the prerequisites, then users can install the apps themselves. However, you can proactively install apps for users so that you help them discover apps easily, ensure app retention, and save user's effort to install. For example, you can install IT helpdesk or ticketing app for all new employees to provide an easy and quick way for new joiners to seek support.
-
 ## Preinstall apps in user's Teams client
 
 Unified app management changes a few app governance methods. Previously, you used app setup policy to preinstall apps for users. If your organization is now migrated to use app centric management feature, then you use it to preinstall apps. Follow the applicable method to provide apps to your users, without them having to install apps on their own.
