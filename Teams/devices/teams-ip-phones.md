@@ -131,6 +131,8 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 #### <b> Audiocodes </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications                            | Release date|
 |:----------------|:-------------------|:----------------------------|:---------------------------------------------------------------------------------------------------------------|:------------------------------------------|
+| C448HD/C450HD | `1.19.712` | `N/A`| Teams client: `1449/1.0.94.2024062301` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| July 22, 2024|
+| C435HD/C455HD/C470HD | `2.3.423` | `1.19.584`| Teams client: `1449/1.0.94.2024062010` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| July 22, 2024|
 | C435HD/C455HD/C470HD | `2.3.410` | `1.19.584`| Teams client: `1449/1.0.94.2024061301` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| June 27, 2024|
 | C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.705` | `1.19.456`| Teams client: `1449/1.0.94.2024011003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| February 19, 2024|
 | C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.642` | `N/A`| Teams client: `1449/1.0.94.2024011601` <br> Company Portal: `5.0.6061.0` <br> Admin Agent: `1.0.0.202310260109.product`| February 8, 2024|
@@ -142,6 +144,8 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 #### <b> Crestron </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications                               | Release date|
 |:----------------|:-------------------|:----------------------------|:---------------------------------------------------------------------------------|:------------------------------------------|
+|UC-P8/UC-P10| `1.0.6.38` | N/A | Teams client: `1449/1.0.94.2024060310` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| July 22, 2024|
+|UC-2 | `1.0.7.56`| N/A | Teams client: `1449/1.0.94.2024060310` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| July 22, 2024|
 |UC-P8/UC-P10| `1.0.6.20` | N/A | Teams client: `1449/1.0.94.2022110803` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product`| April 20, 2023|
 |UC-2 | `1.0.7.35`| N/A | Teams client: `1449/1.0.94.2022110803` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product` | April 20, 2023 |
 |UC-2 | `1.0.6.28`| N/A | Teams client: `1449/1.0.94.2022062103` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202205230848.product` | February 14, 2023 |
@@ -328,8 +332,37 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 
 #### <b> Neat </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications  | Release date| Cloud|
-|:----------------|:-------------------|:----------------------------|:-------------------------------------------------------------------------|:-------------------------------------|
+|:----------------|:-------------------|:----------------------------|:-------------------------------------------------------------------------|:-------------------------------------|:--------------------|
 | Neat Pad | `NFA1.20240120.0109` | N/A| Teams client: `1449/1.0.97.2023111003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| March 26, 2024| GCCH|
+
+## End of certification Teams devices
+
+Microsoft and its Original Equipment Manufacturers (OEM) partners continually develop products to meet the needs of the market and elevate the Teams devices experience. During the product lifecycle, some products may receive an OS upgrade before their certification expires and will undergo re-certification, while others might not get re-certified and will ultimately be discontinued by the OEM.
+
+We recognize that device certification expiration can impact your business. Our OEM partners have detailed End-of-Life policies to assist and direct you towards adopting newer technologies. For the most current information on Teams certified devices referenced here, please consult our OEM partners' websites.
+
+Following a certification expiration, Microsoft is committed to supporting the latest version of the Teams client on certified devices for a span of two years after the certification period concludes. While Microsoft will make every effort to maintain support as described here, it retains the discretion to modify its support policy if necessary. Should any changes occur, they will be communicated through established channels directed at customers.
+
+| Device Category | Device Model | Android OS Version | Certification end date |  
+|:----------------|:-------------------|:----------------------------|:--------------------------|
+|Teams phones - conference|Poly Trio 8500/8600|7|October 4, 2021|
+|Teams phones|Yealink T55/T55A|7|October 4, 2021|
+|Teams phones|Yealink T56/T56A|7|October 4, 2021|
+|Teams phones|Yealink T58/T57A|7|October 4, 2021|
+|Teams phones - conference | Yealink CP960| 7 | October 4, 2021 |
+|Teams phones | Yealink MP52 | 9 | August 5, 2023 |
+|Teams phones - video | Yealink VP59 | 9| August 5, 2023|
+|Teams phones | AudioCodes C448HD | 9| August 5, 2023 | 
+|Teams phones | AudioCodes C450HD | 9 | August 5, 2023 |
+|Teams phones - conference |Crestron UC-2 | 9 | August 5, 2023 | 
+|Teams phones | Crestron UC-P8| 9 | August 5, 2023 |
+|Teams phones | Crestron UC-P10 | 9 | August 5, 2023 | 
+|Teams phones - video| Crestron UC-P8-C | 9 | August 5, 2023 |
+|Teams phones - video | Crestron UC-P10-C | 9 | August 5, 2023 |
+|Teams displays | Crestron UC-P8-TD | 9 | August 5, 2023 |
+|Teams displays | Crestron UC-P10-TD| 9 | August 5, 2023 |
+|Teams Rooms for Android | Yealink VC210 | 9 | August 5, 2023 |
+|Teams Rooms for Android | EPOS Expand Vision 3T | 9 | August 5, 2023| 
 
 
 ## More resources
