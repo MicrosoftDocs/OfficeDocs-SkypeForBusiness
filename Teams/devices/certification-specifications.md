@@ -19,13 +19,14 @@ f1.keywords:
   - NOCSH
 search.appverid: MET150
 ms.localizationpriority: medium
-description: "Test specifications describe the Microsoft Teams requirements for personal peripherals and Teams Rooms and it's peripherals."
+description: "Test specifications describe the Microsoft Teams requirements for personal peripherals and Teams Rooms and its peripherals."
 ---
+# Certification specifications for Teams devices
 
-# Specifications for Microsoft Teams Devices
+## Resources
 
 > [!NOTE]
-> Starting with the V4 specification package, Microsoft is only releasing a subset of the specifications to the public. Specifications for user flow, Accessory Signaling Protocol, are subject to more frequent change as the Teams client adds new features or refines existing ones, and are therefore only shared with direct device OEM partners.
+> Starting with the V4 specification package, Microsoft is only releasing a subset of the specifications to the public. Specifications for user flow, Accessory Signaling Protocol, are subject to more frequent change as the Teams client app adds new features or refines existing ones, and are therefore only shared with direct device OEM partners.
 
 |Version  |Date Published  |Specification  |
 |:---------|:---------|:---------|
@@ -36,4 +37,4 @@ description: "Test specifications describe the Microsoft Teams requirements for 
 
 ### Related resources
 
-View the [Microsoft Teams devices store](https://www.microsoft.com/en-ca/microsoft-teams/across-devices) to see products certified for Microsoft Teams.
+See the [Microsoft Teams devices store](https://www.microsoft.com/en-ca/microsoft-teams/across-devices) to see products certified for Microsoft Teams.
