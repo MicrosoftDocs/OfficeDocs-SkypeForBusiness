@@ -472,7 +472,7 @@ Once a caller has successfully requested a callback, the callback is also subjec
 **In order for a callback to be successful, the call queue timeout value must be high enough to allow for the call to become eligible, for the music to stop playing, for a caller to successfully request a callback and for the callback to be queued until an agent becomes available for and answers the call.**
 
 > [!NOTE]
-> For callers in the North American Numbering Plan, the inbound phone number must also not start with any of the following digits in order to become eligible for callback:
+> In addition to the eligibility requirements already listed, for callers within the North American Numbering Plan, the inbound phone number must not start with any of the following digits in order to become eligible for callback:
 >
 > |Starting Digits                                   |
 > |:-------------------------------------------------|
