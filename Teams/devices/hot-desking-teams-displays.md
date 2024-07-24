@@ -24,6 +24,10 @@ search.appverid: MET150
 
 # Deploy hot desking for Teams Displays
 
+> [!IMPORTANT]
+>
+> Teams Displays are being deprecated in September 2025. Those devices will still be supported, but no new devices will be certified at this time.
+
 Teams Displays are used in a shared area with hot desks, or private work areas such as phone booths or other type of private rooms. This article helps you to deploy and configure Teams Displays in hot desking mode. Hot desking lets users reserve, sign-in, collaborate with other people, and then end their session securely.
 
 Hot-desking requires two types of accounts:

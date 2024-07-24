@@ -24,6 +24,10 @@ description: This article provides an overview of and features supported by Micr
 
 # Microsoft Teams displays
 
+> [!IMPORTANT]
+>
+> Teams Displays are being deprecated in September 2025. Those devices will still be supported, but no new devices will be certified at this time.
+
 Microsoft Teams displays are a category of all-in-one dedicated Teams devices that feature an ambient touchscreen. This article provides an overview of Teams displays and can help you plan, deliver, and manage Teams displays in your organization.
 
 Teams displays brings together your favorite Teams features&ndash;chat, meetings, calls, calendar, and files&ndash;into a single device. With Teams displays, users can use a microphone, camera, and speakers (or Bluetooth headset) for a reliable calling and meeting experience. Teams displays integrates with users' Windows PCs to bring a companion experience that allows for seamless cross-device interaction.
