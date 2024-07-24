@@ -35,7 +35,7 @@ The prerequisites for app installation are:
 
 If you complete the prerequisites, then users can install the apps themselves. However, you can proactively install apps for users so that you help them discover apps easily, ensure app retention, and save user's effort to install. For example, you can install IT helpdesk or ticketing app for all new employees to provide an easy and quick way for new joiners to seek support.
 
-## Preinstall apps
+## Preinstall apps in user's Teams client
 
 Unified app management changes a few app governance methods. Previously, you used app setup policy to preinstall apps for users. If your organization is now migrated to use app centric management feature, then you use it to preinstall apps. Follow the applicable method to provide apps to your users, without them having to install apps on their own.
 
@@ -71,7 +71,7 @@ If you're using app centric management, then follow these steps to install apps 
 
    :::image type="content" source="media\app-install-app-details-page.png" alt-text="Screenshot showing app installation option for admins on the app details page."  lightbox="media/app-install-app-details-page.png":::
 
-## Install apps in a team
+## Install apps in an existing team
 
 Apps in teams allow better collaboration for the users. You can also install an app in a team to improve app discovery and usage. To add apps in teams that will be created in the future, [add apps to a teams template](/microsoftteams/get-started-with-teams-templates-in-the-admin-console). To add apps in the existing teams, follow these steps.
 
@@ -83,7 +83,7 @@ Apps in teams allow better collaboration for the users. You can also install an 
 
 1. In the **Add to team** pane, search for the team you want to add the app to, select the team, and then select **Apply**.
 
-## Preinstall apps in a new team
+## Preinstall apps in a new team using team creation template
 
 You can create a new team for your users using a team template. Team template lets you, as an admin, to add apps in template so that the new teams that are created, have these apps available from the beginning, for the users of the team. for more info, see [add apps when creating a team template](create-a-team-template.md) and [get started with team templates](get-started-with-teams-templates-in-the-admin-console.md).
 
