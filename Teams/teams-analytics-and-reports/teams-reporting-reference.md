@@ -30,7 +30,6 @@ A new analytics and reporting experience for Microsoft Teams is available in the
 
 To access the reports, you must be assigned one of the following roles:
 
-- Global administrator.
 - Teams or Skype for Business administrator.
 - Global reader (only tenant-level aggregate and no per-user or team data).
 
@@ -81,4 +80,4 @@ To make the identifiable information in usage reports anonymous, you have to be 
 > [!NOTE]
 > Enabling this setting will de-identify user, group, and site name information in the [Teams user activity report](user-activity-report.md), [Teams device usage report](device-usage-report.md), and [Teams usage report](teams-usage-report.md). Starting September 1, 2021, this setting is enabled by default for everyone as part of our ongoing commitment to help protect important information and enable companies to support their local privacy laws.
 >
->This setting also applies to Microsoft 365 usage reports in Microsoft 365 admin center, Microsoft Graph, and Power BI. This setting doesn't apply to the webinar and town hall usage reports.
+>This setting also applies to Microsoft 365 usage reports in Microsoft 365 admin center, Microsoft Graph, and Power BI.

@@ -124,7 +124,7 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 
 | Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
-| DTEN DCR200 Bar |`1.2.7.1` | N/A| `1449/1.0.96.2024032804` | `5.0.5484.0`| `1.0.0.202402202353.product`| July 2, 2024|
+| DTEN Bar |`1.2.7.1` | N/A| `1449/1.0.96.2024032804` | `5.0.5484.0`| `1.0.0.202402202353.product`| July 2, 2024|
 | DTEN D7X 75" |`1.5.8.3` | N/A| `1449/1.0.96.2024032804` | `5.0.5484.0`| `1.0.0.202402202353.product`| July 2, 2024|
 | DTEN D7X 55" |`1.5.8.3`   | N/A| `1449/1.0.96.2024032804` | `5.0.5484.0`| `1.0.0.202402202353.product`| July 2, 2024|
 | DTEN Mate Touch Console | `2.2.6.2` | N/A| `1449/1.0.96.2024032804` | `5.0.5484.0`| `1.0.0.202402202353.product`| July 2, 2024|
