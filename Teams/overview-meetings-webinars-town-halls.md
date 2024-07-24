@@ -148,6 +148,9 @@ Teams Premium offers additional town hall functionality through the Teams Premiu
 |Layouts|Focused curated view|Focused curated view|
 |Green room|✔️|✔️|
 |External presenters|✔️|✔️|
+|External presenters capacity|20|20|
+|Presenter capacity (including external presenters)|100|100|
+|Co-organizer capacity|10|10|
 |Manage what attendees see|✔️|✔️|
 |AI generated captions|✔️|✔️|
 |Q&A capacity|10k|20k|
