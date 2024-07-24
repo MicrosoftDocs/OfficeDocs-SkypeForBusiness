@@ -163,7 +163,7 @@ We recommend choosing a strategy for adding call agents to queues before you sta
 
 If you have existing Auto attendants and Call queues that you're migrating to Teams, you need a plan to transfer your existing phone numbers to the new Auto attendants and Call queues. You might need to create a [port order](phone-number-calling-plans/port-order-overview.md) to move your numbers from another providers. We recommend that you temporarily acquire one or more new phone numbers and test your Auto attendant and Call queue flows before switching them over the numbers you currently have in service.
 
-**Conference mode** is an option in Call queues that significantly reduces the amount of time it takes to connect Teams VOIP calls and external PSTN (Public Switched Telephone Network) calls to an agent. For conference mode to work, agents in the Call queue must use one of the following clients:
+**Conference mode** is an option in Call queues that significantly reduces the amount of time it takes to connect Teams VoIP calls and external PSTN (Public Switched Telephone Network) calls to an agent. For conference mode to work, agents in the Call queue must use one of the following clients:
 
 - The latest version of the Microsoft Teams desktop client, Android app, or iOS app.
 - Microsoft Phone System version 1449/1.0.94.2020051601 or later.
