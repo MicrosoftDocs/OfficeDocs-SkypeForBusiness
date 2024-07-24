@@ -27,6 +27,7 @@ ms.localizationpriority: high
 - [The new Teams desktop app fails to render video](/microsoftteams/troubleshoot/meetings/new-teams-desktop-app-fail-render-video).
 - Collaborative Notes is only available in public clouds, and not in EDU (Academic SKUs).
 - In rare cases, users trying to join a Teams meeting from Outlook are unable to open the meeting window. The resolution is to restart Outlook and Teams. If this fails, rebooting the device may be required.
+- Selective Device Isolation through the M365 Defender for Endpoint Portal does not work with the New Teams client. When the box "Allow Outlook, Teams and Skype for Business communication while device is isolated" is checked for selective isolation, this only applies to the Teams Classic client and New Teams will experience loss of network connectivity. 
 
 ## Issues specifically for the new Microsoft Teams for Education
 
