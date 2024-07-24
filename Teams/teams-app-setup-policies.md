@@ -92,12 +92,11 @@ To modify the pinned apps for everyone in your organization, edit the existing `
 
 ## Install apps to Teams client of your users
 
-> [!NOTE]
-> If you are using app centric management functionality, then you must [use Manage apps page to install apps for users](install-teams-apps.md#install-apps-using-app-centric-management). App installation feature is moving to the app details page.
->
-> :::image type="content" source="media/acm-setup-policy-change.png" alt-text="Screenshot showing updated setup policy page without the app installation option.":::
+If you are using app centric management functionality, then you must [use Manage apps page to install apps for users](install-teams-apps.md). For organizations using app centric management, the app installation feature is available in the app details page and not in the setup policy.
 
-If your organization is not migrated to app centric management, then continue to [use app setup policy to install apps](install-teams-apps.md#install-apps-using-app-setup-policy).
+:::image type="content" source="media/acm-setup-policy-change.png" alt-text="Screenshot showing updated setup policy page without the app installation option.":::
+
+If your organization is not using app centric management, then continue to [use app setup policy to install apps](install-teams-apps.md#install-apps-using-app-setup-policy).
 
 ## Use app setup policy to allow independent bots
 
