@@ -43,13 +43,14 @@ Devices certified for Teams are **built for Microsoft Teams** to offer a reliabl
 
 - Utilize devices that can support and utilize the full range of Teams features, such as one-touch join, proximity join, and content sharing, enhancing the overall meeting experience.
 
-__Enhance Teams features__ like intelligent meeting recap and Copilot or Microsoft Whiteboard by integrating the features with the hardware.
+## Enhance Teams features 
+
+Enhance Teams features like intelligent meeting recap and Copilot or Microsoft Whiteboard by integrating the features with the hardware.
 
 - Intelligent speakers can detect who is speaking in a shared room, assigning the right transcript portion to each participant in the room for accurate Copilot and intelligent recap content capture.
-
 - Enhance co-creation and whiteboard collaboration with flexible interactive devices like meeting boards and displays<ins>,</ins> or content cameras in rooms that share physical whiteboards into the meeting in an intelligent way.
 
-__Proven quality__
+## Proven quality
 
 - Present your best self in meetings and calls, feeling confident in any space
 
@@ -65,7 +66,9 @@ __Proven quality__
 
 - With certified devices, troubleshooting becomes more straightforward, as there is a clear understanding of how devices should perform within the Teams ecosystem.
 
-__Eliminate online meeting barriers__ for optimized audio and visual experience.
+## Eliminate online meeting barriers
+
+Eliminate online meeting barriers for optimized audio and visual experience.
 
 - Focus on the discussion and remove audio distractions with noise suppression.
 
@@ -73,7 +76,9 @@ __Eliminate online meeting barriers__ for optimized audio and visual experience.
 
 - Collaborate with your team in real-time without any lag in your video or audio.
 
-__Choose the right devices for your needs from a vast and growing ecosystem,__ with audio, video, compute, and touch board device<ins>s</ins>.
+## Choose the right devices for your needs
+
+Choose the right devices for your needs from a vast and growing ecosystem, with audio, video, compute, and touch board device<ins>s</ins>.
 
 - Microsoft Teams Device Certification Program consists of 3rd party testing and three levels of internal testing before certification is awarded.
 
