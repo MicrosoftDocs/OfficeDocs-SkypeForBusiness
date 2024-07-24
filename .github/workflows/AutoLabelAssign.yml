@@ -1,4 +1,4 @@
-name: Auto label and assign pull requests
+name: Assign and label PR
 
 permissions:
   pull-requests: write
@@ -8,7 +8,7 @@ on: [pull_request_target]
 
 jobs:
 
-  auto-label-assign:
+  label-assign:
     uses: MicrosoftDocs/microsoft-365-docs/.github/workflows/Shared-AutoLabelAssign.yml@workflows-prod
     with:
       PayloadJson: ${{ toJSON(github) }}
