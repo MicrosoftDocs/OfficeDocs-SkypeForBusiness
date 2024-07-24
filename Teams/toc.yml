@@ -1384,6 +1384,10 @@ items:
                   href: rooms/custom-backgrounds.md
                 - name: Join meetings with QR codes
                   href: rooms/teams-rooms-qr-codes.md
+                - name: Multi-Stream IntelliFrame
+                  href: devices/smartvision-admin.md
+                - name: Cloud IntelliFrame
+                  href: devices/cloud-intelliframe.md
             - name: Identification and enrollment
               items:
                 - name: Voice and face recognition
@@ -1464,12 +1468,6 @@ items:
           href: devices/teams-ip-phones.md
         - name: Phones for Teams
           href: devices/phones-for-teams.md
-        - name: Teams displays
-          items:
-            - name: Overview
-              href: devices/teams-displays.md
-            - name: Hot desking Teams Displays
-              href: devices/hot-desking-teams-displays.md
         - name: Teams panels
           items: 
             - name: Overview
@@ -1530,10 +1528,6 @@ items:
                   href: devices/usb-devices.md
                 - name: RealWear for Teams
                   href: flw-realwear.md
-                - name: Multi-Stream IntelliFrame
-                  href: devices/smartvision-admin.md
-                - name: Cloud IntelliFrame
-                  href: devices/cloud-intelliframe.md
         - name: Monitor
           items: 
             - name: Teams device health monitoring
@@ -1542,6 +1536,10 @@ items:
               href: teams-device-health.md
     - name: Reference
       items:
+        - name: Teams displays overview
+          href: devices/teams-displays.md
+        - name: Hot desking Teams Displays
+          href: devices/hot-desking-teams-displays.md
         - name: Meeting room devices and solutions
           href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Configure notifications for Mi push
