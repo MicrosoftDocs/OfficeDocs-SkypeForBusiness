@@ -54,7 +54,7 @@ Auto attendants can redirect calls, based on callers' input, to one of the follo
 
 ## What's new for Auto attendants in the past six months
 
-- February 16 - [Support click-to-call web based calling](/azure/communication-services/quickstarts/voice-video-calling/get-started-teams-auto-attendant)
+- No new features in the past six months.
 
 ## Steps to create an Auto attendant
 
