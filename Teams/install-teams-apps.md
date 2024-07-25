@@ -60,7 +60,7 @@ If you're using app centric management, then follow these steps to install apps 
 
 1. Log into Teams admin center and access **Teams apps** > [**Manage apps**](https://admin.teams.microsoft.com/policies/manage-apps/) page. Select an app, and click **Edit installs**. Select whom to install the app for and select **Apply**.
 
-   :::image type="content" source="media\app-install-manage-apps-page.png" alt-text="Screenshot showing app installation option for admins on the Manage apps page.":::
+   :::image type="content" source="media\app-install-manage-apps-page.png" alt-text="Screenshot showing app installation option for admins on the Manage apps page." lightbox="media\app-install-manage-apps-page.png":::
 
 1. Alternately, you can install an app from the app details page.
 
@@ -77,7 +77,7 @@ Apps in teams allow better collaboration for the users. You can also install an 
 
 1. Select **Add to team**.
 
-   :::image type="content" source="media/add-app-team.png" alt-text="Screenshot showing the option for admins to add an app to specific teams.":::
+   :::image type="content" source="media/add-app-team.png" alt-text="Screenshot showing the option for admins to add an app to specific teams." lightbox="media/add-app-team.png":::
 
 1. In the **Add to team** pane, search for the team you want to add the app to, select the team, and then select **Apply**.
 
