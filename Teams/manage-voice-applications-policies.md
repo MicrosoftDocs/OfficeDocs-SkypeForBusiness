@@ -123,6 +123,9 @@ Reporting values:
 - *AuthorizedOnly* - the authorized user only sees metrics for the auto attendants and call queues (and associated agents) they're authorized for.
 - *All* - the authorized user sees metrics for all auto attendants and call queues (and associated agents) configured in the tenant.
 
+> [!IMPORTANT]
+> The `All` option for real-time auto attendant metrics is being removed. Please do not use the `All` option at this time.
+
 Notes
 
 1. The user requires a Teams Premium license and Queues app to access this functionality.
@@ -176,6 +179,9 @@ Reporting values:
 - *None* - no access to any metrics.
 - *AuthorizedOnly* - the authorized user only sees metrics for the auto attendants and call queues (and associated agents) they're authorized for.
 - *All* - the authorized user sees metrics for all auto attendants and call queues (and associated agents) configured in the tenant.
+
+> [!IMPORTANT]
+> The `All` option for real-time call queue and real-time agent metrics is being removed. Please do not use the `All` option at this time.
 
 Notes
 
