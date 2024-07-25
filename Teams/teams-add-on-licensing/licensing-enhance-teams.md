@@ -87,6 +87,9 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Screen sharing quality alerts |  | ✔️ |
 | Automatic real time telemetry with 7 day retention | | ✔️  |
 | Prevent users from sharing content when attending external Teams meetings | | ✔️  |
+| View how many users attended meetings that used a Teams Premium feature | | ✔️  |
+| View the number of meetings used a Teams Premium feature| | ✔️  |
+| View the number of meetings each user attended that used a Teams Premium feature| | ✔️  |
 
 \* *To take advantage of eCDN for all attendees, either a Teams Premium or standalone eCDN license is required. eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN licensing, see [Microsoft eCDN](https://www.microsoft.com/en-us/microsoft-teams/ecdn).*
 
@@ -109,6 +112,9 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | View engagement reports |  | ✔️ |
 | Limit the day and time when people can register |  | ✔️ |
 | Use RTMP-In for webinars |  | ✔️ |
+| View how many users attended webinars that used a Teams Premium feature | | ✔️  |
+| View the number of webinars used a Teams Premium feature| | ✔️  |
+| View the number of webinars each user attended that used a Teams Premium feature.| | ✔️  |
 
 ### Town halls
 
@@ -135,6 +141,9 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Edit town hall emails |  | ✔️ |
 | Organizers can pre-select 10 languages for live translated captions |  | ✔️ |
 | Real time monitoring of the attendee experience |  | ✔️ |
+| View how many users attended town halls that used a Teams Premium feature | | ✔️  |
+| View the number of town halls used a Teams Premium feature| | ✔️  |
+| View the number of town halls each user attended that used a Teams Premium feature.| | ✔️  |
 
 <sup>1</sup> If RTMP-In is enabled for a town hall, live translated captions will not be available to the attendees even if the organizer selects the languages before the town hall starts.
 <sup>2</sup> To take advantage of eCDN for all attendees, either a Teams Premium or standalone eCDN license is required. eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN licensing, see [Microsoft eCDN](https://www.microsoft.com/en-us/microsoft-teams/ecdn).*
@@ -288,8 +297,8 @@ The following table shows which Teams Premium features provide primary value to 
 
 | Premium Value | Features Applied at Organizer Level | Features Applied at Attendee/User Level | Features Applied at the IT Admin Level |
 | ------------- | :---------------------------------- | :--------------------------------- | :------------------------------------- |
-| **More intelligence** | ✔️ AI-generated chapters in meeting recordings</br> ✔️ Live translation for captions (40 languages) | ✔️ Personalized timeline markers in meeting recordings</br> ✔️ Speaker timeline markers</br> ✔️ Intelligent speaker search in the transcript</br> ✔️ AI-generated notes and tasks | ✔️ Advanced collaboration analytics |
-| **More personalized** | ✔️ Meeting templates (configured by IT admin)</br> ✔️ Custom meeting branding ✔️ Custom immersive spaces in Microsoft Mesh| ✔️ Custom organization backgrounds</br> ✔️ Organization together mode scenes</br> ✔️ Custom user policy packages</br>|  |
+| **More intelligence** | ✔️ AI-generated chapters for meeting recordings in Stream</br> ✔️ Live translation for captions (40 languages) | ✔️ AI-generated chapters for intelligent meeting recap recordings</br>✔️ Personalized timeline markers in meeting recordings</br> ✔️ Speaker timeline markers</br> ✔️ Intelligent speaker search in the transcript</br> ✔️ AI-generated notes and tasks | ✔️ Advanced collaboration analytics |
+| **More personalized** | ✔️ Meeting templates (configured by IT admin)</br> ✔️ Custom meeting branding ✔️ Custom immersive spaces in Microsoft Mesh| ✔️ Custom organization backgrounds</br> ✔️ Organization together mode scenes</br> ✔️ Custom user policy packages</br> ✔️ View aggregated usage of Teams Premium features by users in your org|  |
 | **More protected** | ✔️ Watermarking</br> ✔️ Who can record</br> ✔️ End-to-end encryption for online meetings (up to 200)</br> ✔️ Hide attendees' names</br> ✔️ E5 customers: Microsoft Purview Information Protection sensitivity labels for Meetings | ✔️ Block incoming chats from people in the organization</br>✔️ Prevent users from sharing content in external Teams meetings</br>✔️ Audio quality alerts</br>✔️ Video quality alerts</br>✔️Screen sharing quality alerts</br>✔️Automatic real time telemetry with 7 day retention</br>✔️Prevent users from sharing content when attending external Teams meetings |  |
 | **Advanced Virtual Appointments** | ✔️ Custom lobby room with branding, logos, and more</br> ✔️ SMS notifications | ✔️ On-demand and scheduled appointment functionality and queue views</br> ✔️ Analytics at departmental and organizational level</br> SMS notifications</br></br> *At the user level, these features apply to any user in the tenant who wants access to pre and post-appointment actions and data, like a meeting scheduler, supervisor, or admin.* |  |
 | **Advanced Webinars** | ✔️ Manage attendee view</br> ✔️ Reminder emails</br> ✔️ Wait lists and manual approval</br> ✔️ Limit registration date and time</br> ✔️ RTMP-In |  |
