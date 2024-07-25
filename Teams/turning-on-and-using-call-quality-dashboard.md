@@ -42,7 +42,7 @@ Assign [roles](/microsoft-365/admin/add-users/about-admin-roles) for accessing C
 
 If you want non-admin users (such as support engineers and helpdesk agents) to use Call Quality Dashboard, you can assign those users one of the following roles, which gives access to CQD.
 
-Due to the fact that CQD is an aggregate reporting tool, users assigned to one or more [Administrative Units](/azure/active-directory/roles/administrative-units) will not see end-user identifying information (EUII) even if their role would ordinarily allow it.
+Due to the fact that CQD is an aggregate reporting tool, users assigned to one or more [Administrative Units](/azure/active-directory/roles/administrative-units) don't see end-user identifying information (EUII) even if their role would ordinarily allow it.
 
 |&nbsp;  |View reports  |View EUII fields  |Create reports  |Upload building data  |Activate CQD |
 |---------|:-------:|:-------:|:-------:|:-------:|:-------:|
@@ -58,7 +58,7 @@ Due to the fact that CQD is an aggregate reporting tool, users assigned to one o
 <sup>1</sup> In addition to reading CQD reports, the Reports Reader can view all the [activity reports](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) in the admin center and any reports from the [Microsoft 365 Adoption content pack](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
 
 > [!NOTE]
-> If you're not seeing [EUII (end-user identifiable information)](CQD-data-and-reports.md#euii-data) and you have one of the roles that's permitted to see this information, keep in mind that CQD only keeps EUII for 28 days. Anything older than 28 days is deleted. Additionally, users assigned to one or more [Administrative Units](/azure/active-directory/roles/administrative-units) will not see EUII even if their role would ordinarily allow it.
+> If you're not seeing [EUII (end-user identifiable information)](CQD-data-and-reports.md#euii-data) and you have one of the roles that's permitted to see this information, keep in mind that CQD only keeps EUII for 28 days. Anything older than 28 days is deleted. Additionally, users assigned to one or more [Administrative Units](/azure/active-directory/roles/administrative-units) don't see EUII even if their role would ordinarily allow it.
 
 For more information about these roles, see [About Office 365 admin roles](/office365/admin/add-users/about-admin-roles).
 
