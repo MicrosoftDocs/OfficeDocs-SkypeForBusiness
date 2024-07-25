@@ -30,7 +30,7 @@ description: Learn about how to turn on and use the Call Quality Dashboard and g
 
 Open the Microsoft Call Quality Dashboard (CQD) at [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (sign in with your admin credentials). Or go to the Teams admin center and select **Analytics & reports** > **Call Quality Dashboard**.
 
-On the page that opens, click **Sign in** and enter your Global Administrator account or Microsoft Teams Administrator account information. This must be done the first time your tenant accesses CQD in order to allow users holding less privileged admin roles to log in. CQD shows call and meeting quality, at an org-wide level, for Microsoft Teams, Skype for Business Online, and Skype for Business Server 2019.
+On the page that opens, click **Sign in** and enter the credentials for an administrator account that has "Activate CQD" privileges. This must be done only the first time your tenant accesses CQD in order to allow users holding less privileged admin roles to log in. CQD shows call and meeting quality, at an org-wide level, for Microsoft Teams, Skype for Business Online, and Skype for Business Server 2019.
 
 > [!IMPORTANT]
 > To use CQD with Skype for Business Server 2019, you'll have to [Configure Call Data Connector](/skypeforbusiness/hybrid/configure-call-data-connector). See [Plan Call Data Connector](/skypeforbusiness/hybrid/plan-call-data-connector) before you start.
@@ -43,16 +43,16 @@ If you want non-admin users (such as support engineers and helpdesk agents) to u
 
 Due to the fact that CQD is an aggregate reporting tool, users assigned to one or more [Administrative Units](/azure/active-directory/roles/administrative-units) will not see end-user identifying information (EUII) even if their role would ordinarily allow it.
 
-|&nbsp;  |View reports  |View EUII fields  |Create reports  |Upload building data  |
-|---------|:-------:|:-------:|:-------:|:-------:|
-|Global Administrator     |Yes         |Yes         |Yes         |Yes         |
-|Teams Administrator     |Yes         |Yes         |Yes         |Yes         |
-|Teams Communications Administrator     |Yes         |Yes         |Yes         |Yes         |
-|Teams Communications Support Engineer     |Yes         |Yes         |Yes         |No         |
-|Teams Communications Support Specialist     |Yes         |No         |Yes         |No         |
-|Skype for Business Administrator     |Yes         |Yes         |Yes         |Yes         |
-|Global Reader |Yes         |Yes         |Yes         |No         |
-|Reports Reader<sup>1</sup>     |Yes         |No         |Yes         |No         |
+|&nbsp;  |View reports  |View EUII fields  |Create reports  |Upload building data  |Activate CQD |
+|---------|:-------:|:-------:|:-------:|:-------:|:-------:|
+|Global Administrator     |Yes         |Yes         |Yes         |Yes         |Yes  |
+|Teams Administrator     |Yes         |Yes         |Yes         |Yes         |Yes  |
+|Teams Communications Administrator     |Yes         |Yes         |Yes         |Yes         |Yes  |
+|Teams Communications Support Engineer     |Yes         |Yes         |Yes         |No         |No  |
+|Teams Communications Support Specialist     |Yes         |No         |Yes         |No         |No  |
+|Skype for Business Administrator     |Yes         |Yes         |Yes         |Yes         |Yes  |
+|Global Reader |Yes         |Yes         |Yes         |No         |No  |
+|Reports Reader<sup>1</sup>     |Yes         |No         |Yes         |No         | No  |
 
 <sup>1</sup> In addition to reading CQD reports, the Reports Reader can view all the [activity reports](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) in the admin center and any reports from the [Microsoft 365 Adoption content pack](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
 
@@ -61,7 +61,7 @@ Due to the fact that CQD is an aggregate reporting tool, users assigned to one o
 
 For more information about these roles, see [About Office 365 admin roles](/office365/admin/add-users/about-admin-roles).
 
-After the first time you sign in with a Global Administrator or Teams Administrator account, CQD will become accessible to admins with the lesser privileged roles as shown in the table.
+After the first time you sign in with a role that can activate CQD, CQD will become accessible to admins with the lesser privileged roles as shown in the table.
 
 ## Use Power BI to analyze CQD data
 
