@@ -30,7 +30,7 @@ description: Learn about how to turn on and use the Call Quality Dashboard and g
 
 Open the Microsoft Call Quality Dashboard (CQD) at [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (sign in with your admin credentials). Or go to the Teams admin center and select **Analytics & reports** > **Call Quality Dashboard**.
 
-On the page that opens, click **Sign in** and enter your Global Administrator account or Microsoft Teams Administrator account information. CQD shows call and meeting quality, at an org-wide level, for Microsoft Teams, Skype for Business Online, and Skype for Business Server 2019.
+On the page that opens, click **Sign in** and enter your Global Administrator account or Microsoft Teams Administrator account information. This must be done the first time your tenant accesses CQD in order to allow users holding less privileged admin roles to log in. CQD shows call and meeting quality, at an org-wide level, for Microsoft Teams, Skype for Business Online, and Skype for Business Server 2019.
 
 > [!IMPORTANT]
 > To use CQD with Skype for Business Server 2019, you'll have to [Configure Call Data Connector](/skypeforbusiness/hybrid/configure-call-data-connector). See [Plan Call Data Connector](/skypeforbusiness/hybrid/plan-call-data-connector) before you start.
@@ -61,7 +61,7 @@ Due to the fact that CQD is an aggregate reporting tool, users assigned to one o
 
 For more information about these roles, see [About Office 365 admin roles](/office365/admin/add-users/about-admin-roles).
 
-After the first time you sign in, CQD will begin collecting and processing data.
+After the first time you sign in with a Global Administrator or Teams Administrator account, CQD will become accessible to admins with the lesser privileged roles as shown in the table.
 
 ## Use Power BI to analyze CQD data
 
