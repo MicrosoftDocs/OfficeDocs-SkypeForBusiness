@@ -4,12 +4,13 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: mikedav, siunies, gageames, jamp
-ms.date: 12/12/2023
+ms.date: 07/25/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 search.appverid: MET150
 audience: Admin
@@ -24,7 +25,7 @@ ms.custom:
   - ms.teamsadmincenter.directrouting.cqd
   - ms.lync.lac.ToolsCallQualityDashboard
   - seo-marvel-apr2020
-description: Learn about how to turn on and use the Call Quality Dashboard and get summary reports of quality of calls.
+description: Learn about how to turn on and use the Call Quality Dashboard (CQD) and get summary reports of quality of calls.
 ---
 # Set up the Call Quality Dashboard
 
