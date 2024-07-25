@@ -133,7 +133,7 @@ Admin center settings may allow your users to collaborate with users from other 
 
 ## Install apps or let users install apps and uninstall apps
 
-IT admins can install Teams apps for some or all users in their organization. Developers may create some Teams apps to work on Outlook and Microsoft 365 Apps (formerly office.com). You can easily preinstall the apps on all the supports hosts. Alternately, you can let users install apps on their own. A few supported apps can also be auto-installed if a user uses it outside teams. For details, see [how to preinstall apps](install-teams-apps.md).
+IT admins can install Teams apps for some or all users in their organization. Developers may create some Teams apps to work on Outlook and Microsoft 365 Apps (formerly office.com). You can easily preinstall the apps on all the supported hosts. Alternately, you can let users install apps on their own. A few supported apps can also be auto-installed if a user uses it outside teams. For details, see [how to preinstall apps](install-teams-apps.md).
 
 ## Manage org-wide app settings for Microsoft 365 Government
 
