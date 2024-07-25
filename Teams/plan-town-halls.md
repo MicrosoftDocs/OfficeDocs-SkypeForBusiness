@@ -90,6 +90,7 @@ If you've been using live events for your organization, you might want to unders
 |Live translated captions|✔️|Six languages|10 languages|
 |Manage what attendees see|✖️|✔️|✔️|
 |External presenters|✔️|✔️|✔️|
+|Presenter capacity (including external presenters)|100|100|100|
 |AI generated captions|✔️|✔️|✔️|
 |DVR|✔️|✖️|✖️|
 |Q&A capacity|10k|10k|20k|

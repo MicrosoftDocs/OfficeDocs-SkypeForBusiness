@@ -52,6 +52,7 @@ We're continually improving the Teams reporting experience and adding features a
 |[Teams user activity report](user-activity-report.md)  |Yes|Yes|Yes|Yes|Active internal and external (In shared channels) users<br/> Messages a user posted in a team chat<br/>Messages a user posted in a private chat<br/>  1:1 calls a user participated in<br/> Number of meetings user organized <br/>Number of meetings user participated in<br/>Meetings Audio, Video and Screen sharing time<br/>   Last activity date of a user  <br>Shared channel interactions of a user (new)</br>   |
 |[Teams device usage report](device-usage-report.md)   |Yes|Yes|Yes|Yes|  Windows users<br/>Mac users<br/>iOS users<br/>Android phone users     |
 |[Teams app usage report (new)](app-usage-report.md)   |Yes|Yes|No|No|  Total active users of the app<br/>Total active teams using the app<br/>Total apps installed (new)<br/>Total inactive apps <br/>Total 1P vs 3P vs LoB app usage (new)     |
+|[Teams Premium feature usage report](teams-premium-usage-report.md)   |Yes|No|No|No|  Total reached users<br/>Total meetings<br/>|
 |[Teams live event usage report](teams-live-event-usage-report.md)   |Yes|Yes|No|No|  Total views<br>Start time<br>Event status<br>Organizer<br>Presenter<br>Producer<br>Recording setting<br>Production type    |
 |[Teams PSTN blocked users report](pstn-blocked-users-report.md)   |Yes|Yes|No|No|  Display name<br>Phone number<br>Reason<br>Action type<br>Action date and time   |
 |[Teams PSTN minute pools report](pstn-minute-pools-report.md) |Yes|Yes|No|No|  Country or region<br>Capability (license) <br>Total minutes<br>Minutes used<br>Minutes available|
@@ -79,4 +80,4 @@ To make the identifiable information in usage reports anonymous, you have to be 
 > [!NOTE]
 > Enabling this setting will de-identify user, group, and site name information in the [Teams user activity report](user-activity-report.md), [Teams device usage report](device-usage-report.md), and [Teams usage report](teams-usage-report.md). Starting September 1, 2021, this setting is enabled by default for everyone as part of our ongoing commitment to help protect important information and enable companies to support their local privacy laws.
 >
->This setting also applies to Microsoft 365 usage reports in Microsoft 365 admin center, Microsoft Graph, and Power BI. This setting doesn't apply to the webinar and town hall usage reports.
+>This setting also applies to Microsoft 365 usage reports in Microsoft 365 admin center, Microsoft Graph, and Power BI.

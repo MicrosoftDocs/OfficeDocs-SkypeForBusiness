@@ -26,11 +26,17 @@ description: Find lists of certified systems and peripherals for use with Micros
 
 # Teams Rooms certified systems and peripherals
 
+***
+- [Teams Rooms Android certification program](/microsoftteams/rooms/certified-hardware#teams-rooms-for-android-certification-program)
+- [Teams Rooms for Windows](/microsoftteams/rooms/certified-hardware?tabs=Windows#tabpanel_1_Windows)
+- [Teams Rooms for Android](/microsoftteams/rooms/certified-hardware?tabs=Android#tabpanel_1_Android)
+- [Certified Room peripherals](/microsoftteams/rooms/certified-hardware?tabs=Devices#tabpanel_1_Devices)
+***
+
 The Microsoft Teams Devices Certification Program ensures certified devices meet a high standard, with higher performance targets and quality metrics across the entire Teams experience (audio, video, user interface). Microsoft and OEM partners are actively working together to ensure devices meet all certification requirements, including security, audio and video quality, Teams experience, and accessibility.
 
 >[!Important]
 >The Microsoft Teams Devices Certification Program ensures certified devices meet specific requirements for hardware design and performance only. The certification program doesn't evaluate feature-level or cloud environment support.
-
 
 Certified Microsoft Teams Rooms systems are available on both Windows and Android operating systems. Whether you should choose a Teams Rooms system on Windows or Android depends on your specific needs and budget. Select the **Teams Rooms for Windows** and **Teams Rooms for Android** tabs for a complete list of certified systems and links to their respective product sites. For additional certification information specific to **Teams Rooms for Android** see details below.  
 
@@ -310,6 +316,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Poly Studio E70 Camera](https://www.poly.com/us/en/products/video-conferencing/studio/studio-e70) | 1.1 |  |  |
 | Poly Studio E60 Camera | 1.0.4.0 |  |  |
 | [Poly Studio R30](https://www.poly.com/us/en/products/video-conferencing/studio/studio-r30) | 2.0.0.001096 |  |  |
+| Poly Studio V52 | 1.0.1-400045 |  |  |
 | [EPOS SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc) | 2.0.12.0 |  |  |
 | [EPOS SP20](https://www.eposaudio.com/en/us/enterprise/products/sp-20-ml-142ee5ca-speakerphone-1000226) | 1.2.15 |  |  |
 | [EPOS SP30](https://www.eposaudio.com/en/us/enterprise/products/sp-30-78c0cecc-bluetooth-speakerphone-1000223) | 2.1.52 |  |  |
