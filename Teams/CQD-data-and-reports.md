@@ -65,19 +65,29 @@ Download [two curated CQD report templates](https://aka.ms/qertemplates) (All Ne
 
 For compliance reasons, EUII data (also known as personally-identifiable information or PII) is only kept for 28 days. As CQD's data crosses the 28-day mark, fields that contain EUII are cleared, resulting in EUII-free data. Fields that contain EUII data are:
 
-- Full IP address
-- Media Access Control (MAC) Address
-- Basic Service Set identifier (BSSID)
-- Session Initiation Protocol (SIP) URI (Skype for Business only)
-- User Principal Name (UPN)
-- Machine Endpoint Name
-- User Verbatim Feedback
-- Object ID (the Active Directory object ID of the endpoint's user)
+- IP Address
+- User ObjectId
+- MAC Address
+- Sip Uri (Skype for Business only)
 - Phone Number
+- UPN
+- Feedback Text
+- Client Endpoint Name
+- Local Address
+- Remote Address
+- Base Address
+- Local Site
+- Remote Site
 - Auto Attendant Identity
 - Call Queue Identity
-- Video Teleconferencing (VTC) Device Name
-- Video Teleconferencing (VTC) Device Detail
+- Transferred from Call Queue Identity
+- Organizer ObjectId
+- Organizer UPN
+- Organizer Sip Uri (Skype for Business only)
+- VTC Device Name
+- VTC Device Detail
+
+
 
 ### Admin roles with and without EUII access
 
