@@ -1642,8 +1642,10 @@ items:
             href: teams-app-permission-policies.md
           - name: Manage app setup policies
             href: teams-app-setup-policies.md
-        - name: App centric management
+        - name: Know App centric management
           href: app-centric-management.md
+        - name: Install apps as an admin
+          href: install-teams-apps.md
         - name: Manage apps across Microsoft 365
           href: manage-apps-across-m365.md
         - name: Tailor Teams apps for your frontline workers
