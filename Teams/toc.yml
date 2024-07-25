@@ -1294,6 +1294,30 @@ items:
 
 - name: Devices and rooms management
   items:
+    - name: Teams device store
+      href: devices/device-store.md
+    - name: Teams device certification
+      items:
+        - name: Certification overview
+          href: devices/certification-overview.md
+        - name: Partners
+          items:
+            - name: Partners device certification
+              href: devices/certification-partners.md
+            - name: How to join the program
+              href: devices/certification-join.md
+        - name: IT admins and decision makers
+          href: devices/certification-it-admins.md
+        - name: End users
+          href: devices/certification-end-users.md
+        - name: Teams specifications
+          href: devices/certification-specifications.md
+        - name: Teams Rooms certified systems and peripherals
+          href: rooms/certified-hardware.md 
+        - name: Personal peripherals
+          href: devices/usb-devices.md
+        - name: Teams certified Android devices
+          href: devices/teams-ip-phones.md
     - name: Microsoft Teams Rooms
       items: 
         - name: Overview
@@ -1309,7 +1333,7 @@ items:
             - name: Hardware and operating systems
               items:
                 - name: Certified Teams Rooms hardware
-                  href: rooms/certified-hardware.md
+                  href: rooms/certified-hardware.md 
                 - name: Windows version support
                   href: rooms/rooms-lifecycle-support.md
                 - name: Android app and firmware versions
@@ -1464,10 +1488,6 @@ items:
           href: rooms/data-and-privacy-info.md
     - name: Devices
       items:
-        - name: Teams device store
-          href: devices/device-store.md
-        - name: Teams certified devices
-          href: devices/teams-ip-phones.md
         - name: Phones for Teams
           href: devices/phones-for-teams.md
         - name: Teams panels
@@ -1526,8 +1546,6 @@ items:
               items:
                 - name: QoS on Teams devices
                   href: devices/qos-on-teams-devices.md
-                - name: USB audio and video devices
-                  href: devices/usb-devices.md
                 - name: RealWear for Teams
                   href: flw-realwear.md
         - name: Monitor
@@ -1626,8 +1644,10 @@ items:
             href: teams-app-permission-policies.md
           - name: Manage app setup policies
             href: teams-app-setup-policies.md
-        - name: App centric management
+        - name: Know App centric management
           href: app-centric-management.md
+        - name: Install apps as an admin
+          href: install-teams-apps.md
         - name: Manage apps across Microsoft 365
           href: manage-apps-across-m365.md
         - name: Tailor Teams apps for your frontline workers
