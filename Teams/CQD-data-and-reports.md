@@ -29,7 +29,7 @@ description: Learn about the data and reports available in Microsoft Call Qualit
 
 # Data and reports in Call Quality Dashboard (CQD)
 
-Microsoft Call Quality Dashboard (CQD) uses a near-real-time (NRT) data feed. Call records are available in CQD within 30 minutes of the end of a call and remain in CQD for 12 months, except for EUII fields which are removed after 28 days.
+Microsoft Call Quality Dashboard (CQD) uses a near-real-time (NRT) data feed. Call records are available in CQD within 30 minutes of the end of a call and remain in CQD for 12 months, except for end user identifiable information (EUII) fields which are removed after 28 days.
 
 ## Many ways to access call quality data
 
@@ -39,12 +39,12 @@ You can access call quality data by several different avenues. Pick the one that
 |---|---|
 |Teams admin center [(https://admin.teams.microsoft.com)](https://admin.teams.microsoft.com)|Call quality data is included on the **Users** page in the Teams admin center, showing the most common data you need in an easy-to-read format. You can't customize the data that you find under **Users**.|
 |CQD portal [(https://cqd.teams.microsoft.com)](https://cqd.teams.microsoft.com)|Robust summary and detailed reports that meet most needs, with drill-through filtering. You can also customize reports in the CQD portal. <br><br>Get two [CQD report templates](#import-the-cqd-report-templates) to help you analyze data in the CQD portal.|
-|Power BI|Use direct queries to view your CQD data in Power BI using [customizable Power BI templates](CQD-Power-BI-query-templates.md). [Download Power BI query templates for CQD](https://www.microsoft.com/download/details.aspx?id=102291).<br><br>You can also [use the REST API to access CQD data](/skypeforbusiness/management-tools/call-quality-dashboard/data-api) through Power BI. Use this method if you want to download your CQD data so you can work on it offline. The benefit of using this method is better performance, especially useful for large data sets that bog down in Power BI when you're online.|
+|Power BI|Use direct queries to view your CQD data in Power BI using [customizable Power BI templates](CQD-Power-BI-query-templates.md). The CQD Power BI templates are regularly updated to support new Teams features, calling scenarios, and the latest telemetry we have available in CQD.|
 |Graph API|Access raw call quality data yourself using the [Graph API](/graph/api/resources/callrecords-api-overview). This is the most complex method, but it gives you the most control and flexibility in analyzing your call quality data. For example, if you need to join it with other data for your organization, you can use the Graph API to create a data model and incorporate call quality data. Please note that CallRecords Graph API may not contain all of the fields that are available in CQD and naming conventions may differ between the two products. |
 
 ## Import the CQD report templates
 
-Download [two curated CQD report templates](https://aka.ms/qertemplates) (All Networks and Managed Networks) to help you get up to speed quickly with CQD. The All Networks template, though optimized to work with a building data file, can be used while you work toward collecting and uploading building information into CQD, as described in the next section.
+Download [two curated CQD report templates](https://aka.ms/qertemplates) (All Networks and Managed Networks) to help you get up to speed quickly with CQD on the web. The All Networks template, though optimized to work with a building data file, can be used while you work toward collecting and uploading building information into CQD, as described in the next section.
 
 **To import the templates (.CQDX) into CQD**:
 
@@ -57,11 +57,13 @@ Download [two curated CQD report templates](https://aka.ms/qertemplates) (All Ne
 4. Repeat steps 2 and 3 for the second CQD template.
 
    > [!NOTE]
-   > Each user must import the CQD templates into their CQD instance.
+   > Templates and saved reports are unique for each admin that logs into CQD. Each user must follow the steps to import the CQD templates if they wish to use them.
+   >
+   > For the best experience with using CQD, we recommend using [the latest QER experience in Power BI](cqd-power-bi-query-templates.md) instead.
 
 ## EUII data
 
-For compliance reasons, end-user identifiable information (EUII) data (also known as personally-identifiable information or PII) is only kept for 28 days. As NRT data crosses the 28-day mark, fields that contain EUII are cleared, resulting in EUII-free NRT data. Fields that contain EUII data are:
+For compliance reasons, EUII data (also known as personally-identifiable information or PII) is only kept for 28 days. As CQD's data crosses the 28-day mark, fields that contain EUII are cleared, resulting in EUII-free data. Fields that contain EUII data are:
 
 - Full IP address
 - Media Access Control (MAC) Address
@@ -222,7 +224,6 @@ As the names indicate, the classification criteria is based on the type of clien
 The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, accessed by selecting **Tenant Data Upload** from the settings menu in the top-right corner. This page is used for admins to upload their own information, such as:
 
 - A map of IP address and geographical information.
-- A map of each wireless AP and its MAC address.
 - A map of Endpoint to Endpoint Make/Model/Type, etc.
 
 We recommend that you upload your tenant, building, and location data so CQD can include this information in your reports. If you haven't already uploaded this data, read [Upload tenant and building data](CQD-upload-tenant-building-data.md).
@@ -303,7 +304,7 @@ In order to select multiple filter values, begin by adding a new filter to the r
 
 Then, click **Search** (a magnifying glass icon next to the new filter). You'll see a text field, and a number of options, including **Select All** and **Invert**. Enter a value,  and click **Search** next to that field to search. Alternatively, leave the text field empty and click **Search** to view up to the first 100 options.
 
-```powershell
+```URL
 /filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
 ```
 
@@ -317,7 +318,7 @@ Certain CQD reports have dashboard-level filters added to them, making it easy t
 
 ![Screenshot of a dashboard filter.](media/qerguide-image-dashboardfilters.png)
 
-```powershell
+```URL
 /filter/[AllStreams].[Is Teams]|[TRUE | FALSE]
 ```
 
@@ -328,7 +329,7 @@ Excluding federated data from CQD reports is useful when you're remediating mana
 
 To add a filter, append the following to the end of the URL:
 
-```console
+```URL
 /filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
 ```
 
