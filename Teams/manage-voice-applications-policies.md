@@ -123,7 +123,7 @@ Reporting values:
 - *AuthorizedOnly* - the authorized user only sees metrics for the auto attendants and call queues (and associated agents) they're authorized for.
 - *All* - the authorized user sees metrics for all auto attendants and call queues (and associated agents) configured in the tenant.
 
-> [!IMPORTANT]
+> [!CAUTION]
 > The `All` option for real-time auto attendant metrics is being removed. Please do not use the `All` option at this time.
 
 Notes
@@ -180,7 +180,7 @@ Reporting values:
 - *AuthorizedOnly* - the authorized user only sees metrics for the auto attendants and call queues (and associated agents) they're authorized for.
 - *All* - the authorized user sees metrics for all auto attendants and call queues (and associated agents) configured in the tenant.
 
-> [!IMPORTANT]
+> [!CAUTION]
 > The `All` option for real-time call queue and real-time agent metrics is being removed. Please do not use the `All` option at this time.
 
 Notes
