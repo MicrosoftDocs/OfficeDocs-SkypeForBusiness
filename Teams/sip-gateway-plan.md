@@ -196,7 +196,7 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |440HD<sup>1</sup>      |3.2.1      |2.2.16.681 |   |   |
 |          |445HD<sup>2</sup>      |3.2.1      |3.4.8.808 |   |   |
 |          |445HDG<sup>2</sup>     |3.2.1      |3.4.8.808 |   |   |
-|          |450HD<sup>2/sup>      |3.2.1      |3.4.8.808 |   |   |
+|          |450HD<sup>2</sup>      |3.2.1      |3.4.8.808 |   |   |
 |          |C450HD<sup>2</sup>     |3.2.1      |3.4.8.808 |   |   |
 |          |C448HD<sup>2</sup>                 |3.2.1      |3.4.8.808 |   |   |
 |          |445HD<sup>2</sup>      |3.2.1      |3.4.8.808 |   |   |
