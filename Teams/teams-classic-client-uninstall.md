@@ -89,6 +89,19 @@ You can learn more at [Uninstall an app with Intune for Windows](/mem/intune/app
 - For **Persistent VDI** configurations, follow the steps for admin-deployed Teams Machine-Wide Installer without Microsoft 365 Apps.
 - For **Non-Persistent VDI** configurations, admins must manage the uninstallation process according to their device configuration.
 
+### Removing Classic Teams on MacOS
+
+To remove the Classic Teams client from a macOS device, execute the following commands in the terminal:
+
+```
+# Remove Classic Teams
+sudo rm -rf /Applications/Microsoft\ Teams\ classic.app
+# Remove Classic Teams cache
+rm -rf ~/Library/Application\ Support/Microsoft/Teams
+```
+
+make sure you have the necessary permissions to execute these commands. This process will completely remove the Classic Teams client and its associated file.
+
 ## FAQs
 
 - **How do I know if users still have classic Teams?**
@@ -113,5 +126,4 @@ You can learn more at [Uninstall an app with Intune for Windows](/mem/intune/app
 
 This article will be updated at a later time with additional information on:
 
-- Uninstalling classic Teams from macOS
 - VDI-specific guidance
