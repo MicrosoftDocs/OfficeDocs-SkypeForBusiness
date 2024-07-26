@@ -278,9 +278,12 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |D717<sup>3</sup>          |10.1.141.13     |10.1.141.13 |IP Phone   |   |
 |          |D735<sup>3</sup>          |10.1.141.13     |10.1.141.13 |IP Phone   |   |
 
-<sup>1</sup> Devices support dynamic emergency calling (E911) with SIP Gateway through the LLDP protocol.
-<sup>2</sup> Devices support dynamic emergency calling (E911) with SIP Gateway through both LLDP and Subnet Length based protocols. For Poly Devices, LLDP must be enabled for Subnet Length based dynamic calling to function.
-<sup>3</sup> Devices do not support dynamic emergency calling (E911) with SIP Gateway.
+<sup>1</sup> Device supports dynamic location discovery through LLDP with SIP Gateway.
+<sup>2</sup> Device supports dynamic location discovery with SIP Gateway.
+<sup>3</sup> Device supports only static location with SIP Gateway.
+
+> [!NOTE]
+> For Poly devices, LLDP must be turned on at switch level for subnet length based dynamic location discovery.
 
 > [!NOTE]
 > Compatible Cisco SIP IP phones support dynamic location discovery over LLDP only.
