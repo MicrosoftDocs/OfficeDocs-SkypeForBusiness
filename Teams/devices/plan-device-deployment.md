@@ -58,8 +58,7 @@ The space you choose will determine the type of license you'll need.
 :::image type="content" source="media/teams-apps-1.png" alt-text="Screenshot of teams app." lightbox="media/teams-apps-1.png":::
 
 ## Step 3: Setup desired phone device experience for your users 
-First, Configure IP Phone Policy [SignInMode](/powershell/module/teams/new-csteamsipphonepolicy?view=teams-ps&viewFallbackFrom=skype-ps#-signinmode&preserve-view=true) parameter via PowerShell to enable associated apps on phone device.
-[https://learn.microsoft.com/en-us/powershell/module/teams/new-csteamsipphonepolicy?view=teams-ps&viewFallbackFrom=skype-ps#-signinmode](/powershell/module/teams/new-csteamsipphonepolicy?view=teams-ps&viewFallbackFrom=skype-ps&preserve-view=true)
+First, Configure IP Phone Policy [SignInMode](/powershell/module/teams/new-csteamsipphonepolicy?view=teams-ps&viewFallbackFrom=skype-ps#signinmode&preserve-view=true) parameter via PowerShell to enable associated apps on phone device.
 - With **UserSignIn** mode, get Calls, People, Voicemail, Walkie Talkie, and Calendar apps when Personal License is assigned to the account.
 - With **CommonAreaPhoneSignIn** mode, get Calls app when Shared Device License is assigned to the account. Additionally, you can enable '[Advanced Calling](../set-up-common-area-phones.md#step-6---set-up-advanced-calling-on-common-area-phones-optional)' setting on phone device or Teams Admin Center to get People, Walkie Talkie, and Voicemail apps.
 - With **MeetingSignIn** mode, get Calendar app with meeting join experience when Teams Rooms Pro license is assigned to the account.
@@ -73,8 +72,7 @@ Then, choose from the following home screen experiences you want to enable for y
 
 In addition to the above, you can choose from the following experiences on touch phones.
 
-- **Calls App Experience**: On an account signed in with UserSignIn mode or CommonAreaSignIn mode (with Advanced Calling enabled), you can set the Calls app to be your default home screen by disabling [Homescreen](/powershell/module/teams/new-csteamsipphonepolicy?view=teams-ps&viewFallbackFrom=skype-ps#-allowhomescreen&preserve-view=true).
-- [https://learn.microsoft.com/en-us/powershell/module/teams/new-csteamsipphonepolicy?view=teams-ps&viewFallbackFrom=skype-ps#-allowhomescreen](/powershell/module/teams/new-csteamsipphonepolicy?view=teams-ps&viewFallbackFrom=skype-ps&preserve-view=true)
+- **Calls App Experience**: On an account signed in with UserSignIn mode or CommonAreaSignIn mode (with Advanced Calling enabled), you can set the Calls app to be your default home screen by disabling [Homescreen](/powershell/module/teams/new-csteamsipphonepolicy?view=teams-ps&viewFallbackFrom=skype-ps#allowhomescreen&preserve-view=true).
 - **Meeting Experience**: An account signed in with MeetingSignIn mode will get meeting join experience.
 
 ## Best Practices:
