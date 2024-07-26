@@ -72,7 +72,7 @@ Then, choose from the following home screen experiences you want to enable for y
 
 In addition to the above, you can choose from the following experiences on touch phones.
 
-- **Calls App Experience**: On an account signed in with UserSignIn mode or CommonAreaSignIn mode (with Advanced Calling enabled), you can set the Calls app to be your default home screen by disabling [Homescreen](/powershell/module/teams/new-csteamsipphonepolicy#allowhomescreen).
+- **Calls App Experience**: On an account signed in with UserSignIn mode or CommonAreaSignIn mode (with Advanced Calling enabled), you can set the Calls app to be your default home screen by disabling [Homescreen](/powershell/module/teams/new-csteamsipphonepolicy#-allowhomescreen).
 - **Meeting Experience**: An account signed in with MeetingSignIn mode will get meeting join experience.
 
 ## Best Practices:
