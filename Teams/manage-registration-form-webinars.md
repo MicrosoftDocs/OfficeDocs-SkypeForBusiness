@@ -61,7 +61,7 @@ You can use the Teams admin center to manage the types of questions an organizer
 Follow these steps in the Teams admin center to manage the registration form:
 
 1. Open the Teams admin center.
-2. Select **Meetings** from the navigation pane.
+2. Expand **Meetings** from the navigation pane.
 3. Under **Meetings**, select **Events Policies**.
 4. Either select an existing policy or create a new one.
 5. Use the dropdown for the **Webinar registration form questions** setting to select your choice from the following options:
