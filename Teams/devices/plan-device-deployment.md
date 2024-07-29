@@ -58,7 +58,7 @@ The space you choose will determine the type of license you'll need.
 :::image type="content" source="media/teams-apps-1.png" alt-text="Screenshot of teams app." lightbox="media/teams-apps-1.png":::
 
 ## Step 3: Setup desired phone device experience for your users 
-First, Configure IP Phone Policy [SignInMode](/powershell/module/teams/new-csteamsipphonepolicy#-signinmode) parameter via PowerShell to enable associated apps on phone device.
+First, configure IP Phone Policy [SignInMode](/powershell/module/teams/new-csteamsipphonepolicy#-signinmode) parameter via PowerShell to enable associated apps on phone device.
 - With **UserSignIn** mode, get Calls, People, Voicemail, Walkie Talkie, and Calendar apps when Personal License is assigned to the account.
 - With **CommonAreaPhoneSignIn** mode, get Calls app when Shared Device License is assigned to the account. Additionally, you can enable '[Advanced Calling](../set-up-common-area-phones.md#step-6---set-up-advanced-calling-on-common-area-phones-optional)' setting on phone device or Teams Admin Center to get People, Walkie Talkie, and Voicemail apps.
 - With **MeetingSignIn** mode, get Calendar app with meeting join experience when Teams Rooms Pro license is assigned to the account.
