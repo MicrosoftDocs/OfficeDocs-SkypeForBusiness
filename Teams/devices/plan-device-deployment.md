@@ -67,7 +67,7 @@ First, configure IP Phone Policy [SignInMode](/powershell/module/teams/new-cstea
 Then, choose from the following home screen experiences you want to enable for your users. On touch and non-touch phones, you can choose to enable one of the following experiences:
 
 - **Basic Calling Experience**: On an account signed in with CommonAreaPhoneSignIn mode, you can offer a basic Dialpad and Speed Dial view by disabling the '[Advanced Calling](../set-up-common-area-phones.md#step-6---set-up-advanced-calling-on-common-area-phones-optional)' setting.
-- **Advanced Calling Experience**: On an account signed in with CommonAreaPhoneSignIn mode, you can offer a home screen experience with Calls, People, and Voicemail apps by enabling '[Advanced Calling](../set-up-common-area-phones.md)' setting.
+- **Advanced Calling Experience**: On an account signed in with CommonAreaPhoneSignIn mode, you can offer a home screen experience with Calls, People, and Voicemail apps by enabling '[Advanced Calling](../set-up-common-area-phones.md#step-6---set-up-advanced-calling-on-common-area-phones-optional)' setting.
 - **Hotline Experience**: On an account signed in with CommonAreaPhoneSignIn mode and assigned with Shared Device license, you can enable '[Hotline](../set-up-common-area-phones.md#step-7---set-up-hotlineplar-on-common-area-phones-optional)' setting to offer a PLAR (Private line auto ringdown) experience.
 
 In addition to the above, you can choose from the following experiences on touch phones.
