@@ -14,7 +14,7 @@ on:
 jobs:
     download-payload:
         name: Download and extract payload artifact
-        uses: MicrosoftDocs/microsoft-365-docs/.github/workflows/Shared-ExtractPayload.yml@workflows-test
+        uses: MicrosoftDocs/microsoft-365-docs/.github/workflows/Shared-ExtractPayload.yml@workflows-prod
         with:
             WorkflowId: ${{ github.event.workflow_run.id }}
             OrgRepo: ${{ github.repository }}
