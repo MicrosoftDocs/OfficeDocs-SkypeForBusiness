@@ -68,8 +68,8 @@ Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: ico
 Introduced in this update:
 
 - **Support for Windows 23H2** - Eligible devices will now be updated to Windows 11 23H2.
-- Fixes for certain Windowing issues
-- Other bug fixes
+- Fixes for certain Windowing issues.
+- Other bug fixes.
   
 ### 5.0.305.0 (6/3/2024) 
 
