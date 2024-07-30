@@ -25,12 +25,12 @@ f1.keywords:
 ms.custom: 
  - Reporting
  - seo-marvel-mar2020
-description: "Get detailed information about the dimensions and measurements used by the Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online."
+description: "Get detailed information about the dimensions and measurements used by the Call Quality Dashboard (CQD) for Microsoft Teams."
 ---
 
 # Dimensions and measurements available in Call Quality Dashboard (CQD)
 
-The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to understand the quality of calls made with these services. This article describes the dimensions and measurements visible through CQD. To learn more about CQD, see [Use CQD to manage call and meeting quality in Microsoft Teams](quality-of-experience-review-guide.md).
+The Call Quality Dashboard (CQD) for Microsoft Teams allows you to understand the quality of calls made with these services. This article describes the dimensions and measurements visible through CQD. To learn more about CQD, see [Use CQD to manage call and meeting quality in Microsoft Teams](quality-of-experience-review-guide.md).
 
 ## First and Second endpoint classification
 
@@ -694,10 +694,8 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 |**VDI**||||
 |First Client VDI Desktop Version| String | The VDI Teams client version of the first endpoint. | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
 |Second Client VDI Desktop Version | String | The VDI Teams client version of the second endpoint. | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
-|First Client VDI Mode| String | The vdiMode value of the first endpoint. <br/> **Example:** 3100 <br/>First digit = [1,2 for Citrix][3 for VMware][5 for AVD/Windows 365]
-Second digit = [0 not optimized][1 optimized with WebRTC][2 optimized with SlimCore]| &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
-|Second Client VDI Mode| String | The vdiMode value of the second endpoint. <br/> **Example:** 3100 <br/>First digit = [1,2 for Citrix][3 for VMware][5 for AVD/Windows 365]
-Second digit = [0 not optimized][1 optimized with WebRTC][2 optimized with SlimCore] | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|First Client VDI Mode| String | The vdiMode value of the first endpoint. <br/> **Example:** 3100 <br/> First digit = `[1,2 for Citrix][3 for VMware][5 for AVD/Windows 365]` <br/> Second digit = `[0 not optimized]``[1 optimized with WebRTC]``[2 optimized with SlimCore]`| &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|Second Client VDI Mode| String | The vdiMode value of the second endpoint. <br/> **Example:** 3100 <br/> First digit = `[1,2 for Citrix]``[3 for VMware]``[5 for AVD/Windows 365]` <br/> Second digit = `[0 not optimized]``[1 optimized with WebRTC]``[2 optimized with SlimCore]` | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
 |First Client VDI Connected State | String | Indicates the VDI connected state of the first endpoint.| &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
 |Second Client VDI Connected State| String | Indicates the VDI connected state of the second endpoint.| &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
 |First Client VDI Provider Version| String | The VDI provider client version of the first endpoint. | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
