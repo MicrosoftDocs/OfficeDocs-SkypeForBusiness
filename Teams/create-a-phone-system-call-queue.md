@@ -144,9 +144,9 @@ Service level measures the efficiency and responsiveness to incoming customer re
 You can set the threshold target to any value from 0 to 40 minutes (2,400 seconds).  The value must be less than the value set for [Call timeout](#call-timeout-set-how-to-handle-call-timeouts). Setting the value to blank (empty) disables the service level metric calculation for the call queue.
 
 >[!NOTE]
-> Service level metrics are not currently available in the Queues app.
+> Service level metrics are not currently available in Queues app.
 > 
-> Service level metrics are not currently avilable in historical reporting.
+> Service level metrics are not currently available in historical reporting.
 
 ### Set the Call queue language
 
