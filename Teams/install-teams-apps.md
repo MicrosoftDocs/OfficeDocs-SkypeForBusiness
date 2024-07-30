@@ -8,7 +8,7 @@ ms.service: msteams
 ms.subservice: teams-apps
 ms.custom: intro-get-started
 audience: admin
-ms.date: 07/19/2024
+ms.date: 07/26/2024
 ms.collection: 
   - M365-collaboration
   - tier2
@@ -24,9 +24,7 @@ ms.localizationpriority: medium
 ---
 # Install apps as an admin
 
-IT admins can install Teams apps for some or all users in their organization. Developers can create some Teams apps to work on Outlook and Microsoft 365 Apps (formerly office.com). You can easily preinstall the apps on all the supported hosts. Alternately, you can let users install apps on their own.
-
-The prerequisites for app installation are:
+IT admins can install Microsoft Teams apps that work on Microsoft Outlook and the Microsoft 365 app (formerly known as Office.com) for some or all users in their organization. You can easily preinstall the apps on the supported hosts. Alternately, you can let users install apps on their own. The prerequisites for app installation are:
 
 * Allow use of apps in your org using the options in the Org-wide app settings.
 * Allow the required apps. Individual apps can be [blocked by an admin](manage-apps.md#allow-or-block-apps) or can be [blocked by the developer](/microsoftteams/platform/concepts/deploy-and-publish/add-default-install-scope#block-apps-by-default-for-users-until-an-admin-approves).
@@ -83,7 +81,7 @@ Apps in teams allow better collaboration for the users. You can also install an 
 
 ## Preinstall apps in a new team using team creation template
 
-You can create a new team for your users using a team template. Team template lets you, as an admin, to add apps in template so that the new teams that are created, have these apps available from the beginning, for the users of the team. for more info, see [add apps when creating a team template](create-a-team-template.md) and [get started with team templates](get-started-with-teams-templates-in-the-admin-console.md).
+You can create a new team for your users using a team template. Team template lets you, as an admin, to add apps in template so that the new teams that are created, have these apps available from the beginning, for the users of the team. For more info, see [add apps when creating a team template](create-a-team-template.md) and [get started with team templates](get-started-with-teams-templates-in-the-admin-console.md).
 
 ## Understand how users install apps
 
