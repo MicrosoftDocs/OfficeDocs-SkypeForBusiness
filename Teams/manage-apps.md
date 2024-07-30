@@ -125,7 +125,7 @@ Use org-wide app settings to control whether users with an [F license](https://w
 
     * **Allow any new third-party apps published to the store by default**: This setting controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if you allow third-party apps.
 
-1. Under **Custom apps**, turn off or turn on **Upload custom apps for personal use** option. This setting controls whether users can upload custom apps or not. To learn more about custom apps, see [how to manage custom apps](teams-custom-app-policies-and-settings.md).
+1. Under **Custom apps**, turn off or turn on **Let users install and use available apps by default** option. This setting controls whether users can install and use the custom apps that you make available to them. To learn more about custom apps, see [how to manage custom apps](teams-custom-app-policies-and-settings.md).
 
 1. Select **Save**. The settings take effect after a few hours.
 
