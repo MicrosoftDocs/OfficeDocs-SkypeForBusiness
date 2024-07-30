@@ -69,13 +69,13 @@ Previously, we automatically migrated organizations that weren't using any custo
 
 We strongly recommend that you prepare for the migration and follow these steps to prepare:
 
-1. Take inventory of the apps that you have in the custom permission policies and identify the users and groups that you provide app access to. During the migration, you must provide these users and groups for these apps.
+1. Take inventory of the apps that you have in the custom permission policies and identify the users and groups that you provide app access to. During the migration, you may have to manually edit the availability for some apps for the existing users and groups. For details, see the below steps.
 
 1. Log into Teams admin center and access Teams apps > [Permission policies](https://admin.teams.microsoft.com/policies/app-permission) page and select **Get started**.
 
    :::image type="content" source="media/acm-start-prompt.png" alt-text="Screenshot showing the policy page with prompt to migrate to app centric management.":::
 
-1. Select policies that you want to migrate. The page displays all the policies that have users assigned to them. Select **Next**. Apps from only the selected policies are considered for migration. Apps in the unselected policies can’t be migrated later.
+1. Select policies that you want to migrate. The page displays all the policies that have users assigned to them. Select **Next**. Apps from only the selected policies are considered for migration. Apps in the unselected policies aren't part of the migration and can’t be migrated later. However, you can manually edit the availability for any app after the migration.
 
     :::image type="content" source="media/acm-migration-select-policies.png" alt-text="Screenshot showing the app centric management migration UI to select policies."  lightbox="media/acm-migration-select-policies-large.png":::
 
@@ -85,7 +85,7 @@ We strongly recommend that you prepare for the migration and follow these steps 
    * Available to specific users and groups: List of apps that are selectively allowed for at least one org user or a supported group.
    * Available to no one: List of apps that nobody in the org can use.
 
-1. In each tab, you can modify the app availability to one of the [three app availability types](#how-is-app-centric-management-different-than-permission-policy), as necessary. Edit availability option appears in **Available to specific users and groups** tab if the app availability is not clear and admin input is needed to proceed. It is because the apps aren't present in the policies that you selected to migrate, so the app availability isn't clear. You must assign such apps to before you can proceed.
+1. In each tab, you can modify the app availability to one of the [three app availability types](#how-is-app-centric-management-different-than-permission-policy), as necessary. Edit availability option appears in **Available to specific users and groups** tab if the app availability is not clear and admin input is needed to proceed. It is because the apps aren't present in the policies that you selected to migrate or have conflicting availability. You must assign such apps to before you can proceed.
 
     :::image type="content" source="media/acm-migration-availability.png" alt-text="Screenshot showing three tabs during migration that help you review and modify the app availability.":::
 
@@ -96,7 +96,7 @@ We strongly recommend that you prepare for the migration and follow these steps 
 
     :::image type="content" source="media/acm-verify-per-app.png" alt-text="Screenshot showing the option to verify available of for each user and users who receive a particular app."  lightbox="media/acm-verify-per-app-large.png":::
 
-1. On the final review UI, you can see the apps, their availability, and the Org-wide app settings that apply after the migration. You can download this information as a CSV file to evaluate further. Once assured, select **Start migration** and follow the prompts.
+1. On the final review UI, you can see the apps, their availability, and the Org-wide app settings that apply after the migration. You can download this information as a CSV file to evaluate further. For example, you can use the inventory mapping from Step 1 to ensure that the app availability is as intended. Once assured, select **Start migration** and follow the prompts.
 
     :::image type="content" source="media/acm-migration-review.png" alt-text="Screenshot showing the last UI to review all settings.":::
 
