@@ -66,6 +66,10 @@ This section outlines the specific endpoints and firewall requirements for the M
 
 1. Ensure you have configured your enterprise firewall settings to align with the standard set of Microsoft 365 requirements outlined in [Microsoft 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true).
 
+    Mesh also requires the IP addresses and port ranges detailed in [Firewall configuration for Azure Communication Services](/azure/communication-services/concepts/voice-video-calling/network-requirements#firewall-configuration&preserve-view=true) for media capabilities such as audio, video, and screenshare.
+
+    Without access to these, Mesh won't work properly for users in your organization.
+
 1. In addition to the standard set of endpoints for Microsoft 365, Mesh Immersive Spaces in Teams currently requires that outgoing traffic is allowed to IP addresses in the "AzureCloud" service tag over the following protocols and ports:
 
     - TCP: 443, 80
@@ -117,6 +121,14 @@ For more information about assigning licenses in Microsoft 365, see:
 [Assign or unassign licenses for users in the Microsoft 365 admin center - Microsoft 365 admin | Microsoft Learn](/microsoft-365/admin/manage/assign-licenses-to-users).
 
 For more complex and larger group license management, you can do [Assign licenses to a group - Microsoft Entra ID | Microsoft Learn](/entra/identity/users/licensing-groups-assign).
+
+## End user license agreement
+
+Your users must enter a separate agreement directly with Microsoft to enable spatial audio for Mesh experiences. That agreement is presented to your users before the user's first use of Mesh. If a user does not wish to enter into that agreement, the user cannot use Mesh.
+
+If an admin does not agree to the license agreement terms, then admins can disable the Mesh app for users.
+
+:::image type="content" source="media/meetings-immersive-spaces-EULA-agreement.png" alt-text="Screenshot of the End User License Agreement for immersive spaces in Teams.":::
 
 ## Next steps for immersive spaces
 
