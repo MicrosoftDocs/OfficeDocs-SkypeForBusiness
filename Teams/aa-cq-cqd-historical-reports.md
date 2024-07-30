@@ -28,6 +28,8 @@ ms.custom:
 description: Learn about how to use the updated Teams Auto Attendant & Call Queue Historical Report Power BI report to view Auto Attendant and Call Queue historical data.
 ---
 
+
+
 # Auto attendant and Call queue historical reports
 
 > [!IMPORTANT]
