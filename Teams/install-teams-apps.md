@@ -81,7 +81,7 @@ Apps in teams allow better collaboration for the users. You can also install an 
 
 ## Preinstall apps in a new team using team creation template
 
-You can create a new team for your users using a team template. Team template lets you, as an admin, to add apps in template so that the new teams that are created, have these apps available from the beginning, for the users of the team. for more info, see [add apps when creating a team template](create-a-team-template.md) and [get started with team templates](get-started-with-teams-templates-in-the-admin-console.md).
+You can create a new team for your users using a team template. Team template lets you, as an admin, to add apps in template so that the new teams that are created, have these apps available from the beginning, for the users of the team. For more info, see [add apps when creating a team template](create-a-team-template.md) and [get started with team templates](get-started-with-teams-templates-in-the-admin-console.md).
 
 ## Understand how users install apps
 
