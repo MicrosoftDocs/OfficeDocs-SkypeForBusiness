@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
 ms.reviewer: sohailta
-ms.date: 05/14/2024
+ms.date: 07/30/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -39,6 +39,7 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|[5.1.24.0](#51240-7302024) | 7/30/2024 |
 |[5.0.305.0](#503050-632024) | 6/3/2024 |
 |[5.0.230.0](#502300-5232024) | 5/23/2024 |
 |[5.0.111.0](#501110-4242024) | 4/24/2024 |
@@ -61,6 +62,15 @@ Teams Rooms app updates happen either via the Microsoft Store or via [manual upd
 
 Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: icon are available only with Teams Rooms Pro license.
 
+
+### 5.1.24.0 (7/30/2024) 
+
+Introduced in this update:
+
+- **Support for Windows 23H2** - Eligible devices will now be updated to Windows 11 23H2.
+- Fixes for certain Windowing issues.
+- Other bug fixes.
+  
 ### 5.0.305.0 (6/3/2024) 
 
 **This is a manual update only.** This update brings the new features released in updates 5.0.111.0 and 5.0.230.0 to GCC-High customers. 
