@@ -91,16 +91,16 @@ You can learn more at [Uninstall an app with Intune for Windows](/mem/intune/app
 
 ### Removing Classic Teams on macOS
 
-To remove the Classic Teams client from a macOS device, execute the following commands in the terminal:
+To remove the classic Teams client from a macOS device, execute the following commands in the terminal:
 
 ```
-# Remove Classic Teams
+# Remove classic Teams
 sudo rm -rf /Applications/Microsoft\ Teams\ classic.app
-# Remove Classic Teams cache
+# Remove classic Teams cache
 rm -rf ~/Library/Application\ Support/Microsoft/Teams
 ```
 
-Make sure you have the necessary permissions to execute these commands. This process will completely remove the Classic Teams client and its associated file.
+Make sure you have the necessary permissions to execute these commands. This process will completely remove the classic Teams client and its associated file.
 
 ## FAQs
 
