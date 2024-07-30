@@ -90,6 +90,7 @@ If you've been using live events for your organization, you might want to unders
 |Live translated captions|✔️|Six languages|10 languages|
 |Manage what attendees see|✖️|✔️|✔️|
 |External presenters|✔️|✔️|✔️|
+|Presenter capacity (including external presenters)|100|100|100|
 |AI generated captions|✔️|✔️|✔️|
 |DVR|✔️|✖️|✖️|
 |Q&A capacity|10k|10k|20k|
@@ -117,9 +118,11 @@ There are two types of real time monitoring for town halls.
 
 ### Call Quality Dashboard
 
-You can use the Call Quality Dashboard (CQD) to monitor town hall quality at the org-wide level and optimize your network to drive performance quality.
-To learn more about using CQD for town halls in your org, see [What is Call Quality Dashboard (CQD).](CQD-what-is-call-quality-dashboard.md)
+Leverage the Call Quality Dashboard (CQD) to monitor town hall quality at the org-wide level and optimize your network to drive performance quality.
+To learn more about using CQD for town halls in your org, see [What is Call Quality Dashboard (CQD)](CQD-what-is-call-quality-dashboard.md). You can use the Microsoft Call Quality connector to view specialized **'Teams Events Overview'** and **'Event Health Details'** reports in Power BI Desktop. To get started, download the latest [CQD Quality of Experience (QER) report template](cqd-power-bi-query-templates.md).
+
 For more information about the dimensions and measurements visible through CQD for town halls, search for the word "events" in [Dimensions and measurements available in Call Quality Dashboard (CQD)](dimensions-and-measures-available-in-call-quality-dashboard.md).
+
 
 ### Town hall insights for organizers
 

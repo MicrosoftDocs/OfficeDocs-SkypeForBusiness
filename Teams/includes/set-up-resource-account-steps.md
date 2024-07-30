@@ -8,7 +8,9 @@ Before you start the procedures in this article, ensure you've done the followin
 - [Obtain phone numbers](#obtain-phone-numbers)
 
 > [!NOTE]
-> Resource accounts used for auto attendants and call queues are disabled for sign in and must remain so. Chat and presence are not available for these accounts.
+> Resource accounts used for auto attendants and call queues are disabled for sign in and must remain so. Chat and presence aren't available and won't work for these accounts. Even though presence still appears, it won't change.
+>
+> A **User Administrator** or higher role is required to create and license Resource Accounts. For more information, see [Using Microsoft Teams administrator roles to manage Teams](/microsoftteams/using-admin-roles).
 
 ### Obtain Microsoft Teams Phone Resource Account licenses
 

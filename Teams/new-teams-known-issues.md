@@ -23,11 +23,10 @@ ms.localizationpriority: high
 # Known issues for new Microsoft Teams
 
 - Language-aware spell checking is currently not available in the new Teams. The team is focusing on this issue with a high priority. Check back for updates.
-- New Teams client isn't respecting the date time formats set in the OS. This issue affects both 12h/24h time formatting and date formatting in the product. A fix is pending; check back for updates.
 - [A website doesn't load in the new Teams desktop](/microsoftteams/troubleshoot/tabs/websites-not-loaded-new-teams).
 - [The new Teams desktop app fails to render video](/microsoftteams/troubleshoot/meetings/new-teams-desktop-app-fail-render-video).
 - Collaborative Notes is only available in public clouds, and not in EDU (Academic SKUs).
-- The app crashes on startup with the error APPLICATION_FAULT_c06d007e_PvDSSource64.ax if the Pleora Technologies eBUS SDK is installed. Update to the latest version of the SDK or uninstall.
+- In rare cases, users trying to join a Teams meeting from Outlook are unable to open the meeting window. The resolution is to restart Outlook and Teams. If this fails, rebooting the device may be required.
 
 ## Issues specifically for the new Microsoft Teams for Education
 

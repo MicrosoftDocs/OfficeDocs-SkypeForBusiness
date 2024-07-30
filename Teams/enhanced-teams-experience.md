@@ -4,7 +4,7 @@ author: wlibebe
 ms.author: wlibebe
 manager: pamgreen
 ms.reviewer: spraveen, margidesai
-ms.date: 05/22/2024
+ms.date: 7/11/2024
 ms.topic: conceptual
 ms.service: msteams
 ms.subservice: teams-premium
@@ -48,6 +48,8 @@ The following sections in this article describe the Teams Premium enhancements f
 - [Premium events](#premium-events)
 - [Virtual Appointments](#advanced-virtual-appointments)
 - [Intelligent meeting features](#intelligent-meeting-features)
+- [Custom 3D Immersive Mesh Experiences](#custom-3d-immersive-mesh-experiences)
+- [Intelligent call recap](#intelligent-call-recap)
 
 For more general information about Teams meetings and premium events, see the following articles:
 
@@ -83,6 +85,8 @@ Teams Premium provides more ways to safeguard and monitor users' Teams experienc
 
 - **Real time telemetry and retention** - Real-time telemetry is gathered automatically for all users who have a Teams Premium license and retained for seven days.
 
+- **Teams Premium feature usage report** - View aggregated usage of Teams Premium features by users in your org.
+
 - **Video quality alerts** - Set up alerts for in-progress meeting video issues and get notified immediately when your specified users experience issues.
 
 - **Watermarking** - Enforced through a sensitivity label, watermarks display the email address of a meeting participant. Watermarks are useful for protecting confidential information shared in meetings.
@@ -101,6 +105,7 @@ Teams Premium provides more ways to safeguard and monitor users' Teams experienc
 | Restrict who can record | Yes, use the Teams admin center to add or delete recording restrictions in your meeting templates. Use the Microsoft Purview compliance portal to turn labels with recording restrictions on or off.|[Manage recordings for sensitive meetings](manage-meeting-recording-options.md) | [Record a meeting](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24?storagetype=stage#bkmk_whocanstartorstoparecording) |
 | Screen sharing quality alerts|Yes, you can add or remove users.| [Alerts for in-progress meeting screen sharing issues](/MicrosoftTeams/alerts/alerts-in-progress-meeting-screen-sharing) | No end-user control |
 | Sensitivity labels | Yes, use the Microsoft Purview compliance portal to turn labels on or off.|[Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md) | [Sensitivity labels for Teams meetings](https://support.microsoft.com/office/sensitivity-labels-for-teams-meetings-2b244d1d-72d0-471e-8e58-c41079e190fb)|
+| Teams Premium feature usage report|No, contact support for assistance.| [Teams Premium feature usage report](/microsoftteams/teams-analytics-and-reports/teams-premium-usage-report) | No end-user control |
 | Templates, labels, and policies |Yes, use the Teams admin center to add or delete meeting templates. Use the Microsoft Purview compliance portal to turn labels on or off.| [Templates, sensitivity labels, and policies](meeting-templates-sensitivity-labels-policies.md)  | [Use custom templates](https://support.microsoft.com/office/use-custom-templates-for-teams-meetings-78279be9-3283-4999-b24e-96fb0da2fb4f) |
 | Video quality alerts|Yes, you can add or remove users.| [Alerts for in-progress meeting video quality issues](/MicrosoftTeams/alerts/alerts-in-progress-meeting-video) | No end-user control |
 | Watermarks | Yes | [Require a watermark for meetings](watermark-meeting-content-video.md) | [Watermarks for meetings](https://support.microsoft.com/office/watermark-for-teams-meetings-a9166432-f429-4a19-9a72-c9e8fdf4f589)|
@@ -216,6 +221,32 @@ Teams Premium provides the following key AI-powered meetings features:
 | Live translated transcription | Yes |  [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md) | [View live transcription in Microsoft Teams meetings](https://support.microsoft.com/office/view-live-transcription-in-microsoft-teams-meetings-dc1a8f23-2e20-4684-885e-2152e06a4a8b)|
 
 <sup>1</sup>If you toggle the **Transcription** and **Recording** settings to **Off** in your **Meeting policies**, intelligent meeting recap isn't available for users with this policy.
+
+## Custom 3D Immersive Mesh Experiences
+
+With a Teams Premium license, users can explore immersive 3D experiences for the workplace. Host customized single or multi-room immersive events in the Mesh app for up to 200 attendees, available cross-platform on PC and Meta Quest VR devices.
+
+Teams Premium provides custom Mesh experience capabilities for your users, such as:
+
+- **Host immersive events tailored to your business needs** - Elevate team engagement during employee onboardings, trainings, product showcases, or any hybrid business scenarios by creating engaging and interactive experiences with the Mesh app.
+- **Create custom 3D experiences** - Creators can easily use no-code tools to add videos, and images to pre-created and custom environments. Developers and technical artists can leverage scripting, physics, and embedded web content within the Mesh toolkit in Unity to build custom 3D environments with enhanced interactivity.
+- **Create custom avatars, explore environments, and communicate virtually** - Customizable avatars can navigate around 3D environments to experience content and have multiple simultaneous discussions with colleagues using spatial audio built-in to the experience.
+- **Integrated with Microsoft 365** - Mesh provides enterprise-grade security and privacy, built on trusted platforms.
+
+| Feature/Task  | Can admins turn this feature on/off? | Documentation for admins |Documentation for end users |
+| -------------------- | ----------- | ----------- |----------- |
+| Set up Mesh | Yes, use [App centric management](app-centric-management.md) to allow or prevent users from using Mesh.| [Configure Microsoft Mesh](/mesh/setup/content/setup-m365-mesh)<br>[Preparing your organization for Mesh](/mesh/setup/content/preparing-your-organization) | No end user control.|
+| Create your event | Yes| No admin control. |[Overview of Mesh events](/mesh/events-guide/events-overview) |
+| Customize your avatar | Yes| No admin control. |[Personalize your avatar](/mesh/user-guide/avatars) |
+| Develop a custom environment | Yes| No admin control. |[Mesh Development Overview](/mesh/develop/development-overview) |
+| Download the Mesh app | Yes| No admin control. |[Getting started with events in Microsoft Mesh](/mesh/user-guide/getting-started) |
+
+## Intelligent call recap
+
+**Intelligent call recap** provides AI-powered insights and recaps to Public Switched Telephone Network (PSTN) and 1:1 Teams calls.
+
+- To use this feature for PSTN calls, you must assign a Teams Phone license and either Teams Premium license or a Copilot for Microsoft 365 license to users. For more information on Teams Phone licensing, see [Microsoft Teams add-on licenses](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+- To use this feature with 1:1 Teams calls, you must assign a Teams Premium license or Copilot for Microsoft 365 license to users.
 
 ## More resources
 

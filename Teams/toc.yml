@@ -101,6 +101,8 @@ items:
                   href: new-teams-education.md
                 - name: Update to the new Teams for Web
                   href: new-teams-web.md
+                - name: New teams pre-installation script
+                  href: new-teams-preinstallation-script.md
                 - name: Troubleshooting installation issues
                   href: /microsoftteams/troubleshoot/teams-administration/fix-new-teams-installation-issues
                 - name: Troubleshooting launch issues
@@ -505,6 +507,8 @@ items:
           href: teams-analytics-and-reports/external-domain-activity-report.md
         - name: Teams app usage report
           href: teams-analytics-and-reports/app-usage-report.md
+        - name: Teams Premium feature usage report
+          href: teams-analytics-and-reports/teams-premium-usage-report.md
         - name: Teams device usage report
           href: /microsoft-365/admin/activity-reports/microsoft-teams-device-usage-preview?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: PSTN blocked users report
@@ -600,9 +604,12 @@ items:
           href: presence-admins.md
         - name: User work location in Teams
           href: user-work-location-in-teams.md
+        - name: Custom emojis in Teams
+          href: teams-custom-emojis.md
         - name: Supervised chat for non-educational tenants
           href: supervised-chat-non-edu.md
-
+        - name: Block incoming chat messages
+          href: block-incoming-chats.md
     - name: Channels
       items:
         - name: Overview of channels
@@ -774,11 +781,11 @@ items:
               href: teams-encoder-setup.md
         - name: Recording & transcription
           items:
-            - name: Teams meeting recording
+            - name: Manage Teams recording policies for meetings and events
               href: meeting-recording.md
             - name: Configure transcription and captions for Teams meetings
               href: meeting-transcription-captions.md
-            - name: Use OneDrive and SharePoint or Stream for meeting recordings
+            - name: Meeting recording storage and permissions in OneDrive and SharePoint
               href: tmr-meeting-recording-change.md
             - name: Delete Exchange Online and OneDrive transcript files for Teams meetings
               href: delete-exchange-online-transcripts.md
@@ -1288,6 +1295,30 @@ items:
 
 - name: Devices and rooms management
   items:
+    - name: Teams device store
+      href: devices/device-store.md
+    - name: Teams device certification
+      items:
+        - name: Certification overview
+          href: devices/certification-overview.md
+        - name: Partners
+          items:
+            - name: Partners device certification
+              href: devices/certification-partners.md
+            - name: How to join the program
+              href: devices/certification-join.md
+        - name: IT admins and decision makers
+          href: devices/certification-it-admins.md
+        - name: End users
+          href: devices/certification-end-users.md
+        - name: Teams specifications
+          href: devices/certification-specifications.md
+        - name: Teams Rooms certified systems and peripherals
+          href: rooms/certified-hardware.md 
+        - name: Personal peripherals
+          href: devices/usb-devices.md
+        - name: Teams certified Android devices
+          href: devices/teams-ip-phones.md
     - name: Microsoft Teams Rooms
       items: 
         - name: Overview
@@ -1303,7 +1334,7 @@ items:
             - name: Hardware and operating systems
               items:
                 - name: Certified Teams Rooms hardware
-                  href: rooms/certified-hardware.md
+                  href: rooms/certified-hardware.md 
                 - name: Windows version support
                   href: rooms/rooms-lifecycle-support.md
                 - name: Android app and firmware versions
@@ -1326,12 +1357,8 @@ items:
               href: rooms/rooms-deploy.md
             - name: Prepare your environment
               href: rooms/rooms-prep.md
-            - name: AutoPilot and Autologin
-              href: rooms/autopilot-autologin.md
             - name: Create resource accounts 
               href: rooms/create-resource-account.md
-            - name: Set up using one-time passwords 
-              href: rooms/first-time-setup.md
             - name: Authentication
               items:
               - name: Deploy LAPs
@@ -1370,7 +1397,7 @@ items:
               href: rooms/xml-config-file.md   
             - name: Feature management
               items:
-                - name: Teams Room Home screen
+                - name: Teams Rooms Home screen
                   href: rooms/mtr-home-refresh.md
                 - name: Remotely configure front row layout
                   href: rooms/manage-front-row.md
@@ -1378,10 +1405,16 @@ items:
                   href: rooms/third-party-join.md
                 - name: Meetings with SIP and H.323 devices
                   href: rooms/meetings-with-SIP-H323-devices.md
+                - name: Manage custom backgrounds on Android
+                  href: rooms/custom-backgrounds-android.md
                 - name: Manage custom backgrounds on Windows
                   href: rooms/custom-backgrounds.md
                 - name: Join meetings with QR codes
                   href: rooms/teams-rooms-qr-codes.md
+                - name: Multi-Stream IntelliFrame
+                  href: devices/smartvision-admin.md
+                - name: Cloud IntelliFrame
+                  href: devices/cloud-intelliframe.md
             - name: Identification and enrollment
               items:
                 - name: Voice and face recognition
@@ -1395,65 +1428,69 @@ items:
             - name: Known issues
               href: /microsoftteams/troubleshoot/teams-devices-and-rooms/rooms-known-issues
     - name: Microsoft Teams Rooms Pro Management
-      items: 
-        - name: Overview
-          href: rooms/rooms-pro-management.md
-        - name: Accessing the Pro Management portal
-          href: rooms/enrolling-mtrp-managed-service.md
-        - name: Enroll a device into Pro management
-          href: rooms/enroll-a-device.md
-        - name: Bring Your Own Device
-          href: rooms/bring-your-own-device.md  
-        - name: Create a one-time password
-          href: rooms/create-otp.md
-        - name: Role-based access control
-          href: rooms/rooms-pro-rbac.md
-        - name: Bookable Desks
-          href: rooms/bookable-desks.md
-        - name: Connected peripheral information
-          href: rooms/get-peripheral-information.md 
-        - name: Monitoring and maintaining Rooms
-          href: rooms/managed-meeting-rooms-portal.md
-        - name: Signal settings
-          href: rooms/signal-settings.md  
-        - name: Remote access a Teams Room console
-          href: rooms/remotely-access-teams-rooms.md 
-        - name: Managed updates
-          href: rooms/update-management.md 
-        - name: Configure ServiceNow
-          href: rooms/microsoft-teams-rooms-configure-servicenow.md
-        - name: Resource accounts
-          href: rooms/resource-accounts.md
+      items:
+        - name: Getting started
+          items:
+          - name: Overview
+            href: rooms/rooms-pro-management.md
+          - name: Accessing the Pro Management portal
+            href: rooms/enrolling-mtrp-managed-service.md
+          - name: Enroll a device into Pro management
+            href: rooms/enroll-a-device.md
+          - name: Role-based access control
+            href: rooms/rooms-pro-rbac.md
+          - name: Resource accounts
+            href: rooms/resource-accounts.md
+          - name: Bring your own device (BYOD) spaces
+            items:
+                - name: Bring Your Own Device (BYOD)
+                  href: rooms/bring-your-own-device.md  
+                - name: Bookable Desks
+                  href: rooms/bookable-desks.md
+                - name: Add peripherals to inventory
+                  href: rooms/get-peripheral-information.md 
+        - name: Planning and deployment
+          items:
+          - name: Standards and Rooms Planner 
+            href: rooms/standards-and-room-planner.md
+          - name: Create a one-time password
+            href: rooms/create-otp.md
+          - name: Set up using one-time passwords 
+            href: rooms/first-time-setup.md
+          - name: AutoPilot and Autologin
+            href: rooms/autopilot-autologin.md
+        - name: Monitoring and maintenance
+          items:
+          - name: Monitoring and maintaining Teams Rooms
+            href: rooms/managed-meeting-rooms-portal.md
+          - name: Signal settings
+            href: rooms/signal-settings.md  
+          - name: Remote access a Teams Room console
+            href: rooms/remotely-access-teams-rooms.md 
+          - name: Managed updates
+            href: rooms/update-management.md 
+          - name: Configure ServiceNow
+            href: rooms/microsoft-teams-rooms-configure-servicenow.md
+          - name: Audit logs for activities
+            href: rooms/multi-tenant-auditing.md
+          - name: Viewing events
+            href: rooms/view-events.md
+          - name: Record an issue 
+            href: rooms/customer-reported-incidents.md
         - name: Multi-tenant management for partners
           href: rooms/multi-tenant-management-partner.md
         - name: Multi-tenant management for customers
           href: rooms/multi-tenant-management-customer.md
-        - name: Audit logs for Rooms activities
-          href: rooms/multi-tenant-auditing.md
-        - name: Viewing events
-          href: rooms/view-events.md
-        - name: Health and usage reports
-          href: rooms/health-and-usage-reports.md
-        - name: Standards and Rooms Planner 
-          href: rooms/standards-and-room-planner.md
-        - name: Record an issue 
-          href: rooms/customer-reported-incidents.md
+        - name: Analytics, reports, and insights
+          items: 
+          - name: Health and usage reports
+            href: rooms/health-and-usage-reports.md
         - name: Data and privacy information
           href: rooms/data-and-privacy-info.md
     - name: Devices
       items:
-        - name: Teams device store
-          href: devices/device-store.md
-        - name: Teams certified devices
-          href: devices/teams-ip-phones.md
         - name: Phones for Teams
           href: devices/phones-for-teams.md
-        - name: Teams displays
-          items:
-            - name: Overview
-              href: devices/teams-displays.md
-            - name: Hot desking Teams Displays
-              href: devices/hot-desking-teams-displays.md
         - name: Teams panels
           items: 
             - name: Overview
@@ -1486,8 +1523,6 @@ items:
               href: set-up-common-area-phones.md
             - name: Set up a common area mobile phones
               href: devices/common-area-mobile-phones.md
-            - name: Set up auto answer for Teams Android devices
-              href: set-up-auto-answer-on-teams-android.md
             - name: Remote provisioning and sign-in
               href: devices/remote-provision-remote-login.md
             - name: Remote sign in and sign out
@@ -1512,14 +1547,8 @@ items:
               items:
                 - name: QoS on Teams devices
                   href: devices/qos-on-teams-devices.md
-                - name: USB audio and video devices
-                  href: devices/usb-devices.md
                 - name: RealWear for Teams
                   href: flw-realwear.md
-                - name: Multi-Stream IntelliFrame
-                  href: devices/smartvision-admin.md
-                - name: Cloud IntelliFrame
-                  href: devices/cloud-intelliframe.md
         - name: Monitor
           items: 
             - name: Teams device health monitoring
@@ -1528,6 +1557,10 @@ items:
               href: teams-device-health.md
     - name: Reference
       items:
+        - name: Teams displays overview
+          href: devices/teams-displays.md
+        - name: Hot desking Teams Displays
+          href: devices/hot-desking-teams-displays.md
         - name: Meeting room devices and solutions
           href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Configure notifications for Mi push
@@ -1612,8 +1645,10 @@ items:
             href: teams-app-permission-policies.md
           - name: Manage app setup policies
             href: teams-app-setup-policies.md
-        - name: App centric management
+        - name: Know App centric management
           href: app-centric-management.md
+        - name: Install apps as an admin
+          href: install-teams-apps.md
         - name: Manage apps across Microsoft 365
           href: manage-apps-across-m365.md
         - name: Tailor Teams apps for your frontline workers

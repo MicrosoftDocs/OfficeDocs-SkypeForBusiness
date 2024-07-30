@@ -5,7 +5,7 @@ author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
-ms.reviewer: 
+ms.reviewer: defnea
 ms.date: 10/12/2023
 audience: admin
 ms.localizationpriority: medium
@@ -27,7 +27,7 @@ description: Learn to manage meeting reactions in Teams meetings.
 
 **APPLIES TO:** ✔️Meetings ✔️Webinars ✖️Town halls
 
-The availability of reactions can be configured through either the Teams admin center interface or using PowerShell. Reactions are enabled by default. This setting also controls the hand raise feature.
+As an admin, you can manage whether organizers can include reactions in their meetings and webinars through the Teams admin center or using PowerShell. Reactions are enabled by default.
 
 This setting sets the default for new meetings. Meeting organizers can change the setting for each meeting that they create.
 
@@ -36,7 +36,7 @@ To set the default for meeting reactions in new meetings:
 1. In the Teams admin center, expand **Meetings** and select **Meeting policies**.
 1. Select the policy that you want to edit.
 1. Scroll to the **Meeting engagement** section.
-1. Set **Reactions** to **On** or **Off**.
+1. Toggle the **Reactions** setting **On** or **Off**.
 1. Select **Save**.
 
 To configure the setting in PowerShell, use the **`-AllowMeetingReactions`** parameter within the PowerShell [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet.

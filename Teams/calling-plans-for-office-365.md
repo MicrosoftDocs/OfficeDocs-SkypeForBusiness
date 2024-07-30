@@ -137,7 +137,6 @@ There are two ways you can fund and use minutes with a Pay-As-You-Go Calling Pla
 ## Pricing information
 
 - [Pricing for Calling Plans and Phone System](https://www.microsoft.com/microsoft-365/microsoft-teams/voice-calling).
-- [Pricing for Audio Conferencing](https://www.microsoft.com/microsoft-365/microsoft-teams/online-meetings).
 - [Microsoft Teams Essentials and Microsoft Teams Phone Bundles](https://www.microsoft.com/en-us/microsoft-teams/teams-essentials-phone-bundles#x0c044f2ce7a4401b8f4f88e1d917522d).
 - [Audio conferencing](https://www.microsoft.com/microsoft-teams/audio-conferencing).
 
