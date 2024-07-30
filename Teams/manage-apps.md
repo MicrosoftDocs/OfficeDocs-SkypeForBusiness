@@ -8,7 +8,7 @@ ms.service: msteams
 ms.subservice: teams-apps
 ms.custom: intro-get-started
 audience: admin
-ms.date: 04/17/2024
+ms.date: 07/31/2024
 ms.collection: 
   - M365-collaboration
   - tier2
