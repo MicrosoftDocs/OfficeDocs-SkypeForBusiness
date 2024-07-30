@@ -135,6 +135,19 @@ After you create this new resource account for calling ID, you still need to:
 - Assign a Microsoft Calling Plan license, assign an Operator Connect phone number, or assign an online voice routing policy for Direct Routing.
 - Assign the [phone number to the resource account](manage-resource-accounts.md#assign-a-phone-number), if you're using Microsoft Calling Plan.
 
+### Set the Service level threshold
+
+_This feature is in limited public preview._
+
+Service level measures the efficiency and responsiveness to incoming customer requests within a specific Service level threshold.
+
+You can set the threshold target to any value from 0 to 40 minutes (2,400 seconds).  The value must be less than the value set for [Call timeout](#call-timeout-set-how-to-handle-call-timeouts)  Setting the value to blank (empty) disables the service level metric calculation for the call queue.
+
+>[!NOTE]
+> Service level metrics are not currently available in the Queues app.
+> 
+> Service level metrics are not currently avilable in historical reporting.
+
 ### Set the Call queue language
 
 Choose a [supported language](create-a-phone-system-call-queue-languages.md).
@@ -370,7 +383,6 @@ This call exception handling option handles calls when no agents are opted into 
 
 Once you select your call overflow, call timeout, and no agents handling options, select the **Next** button at the bottom of the **Add a Call queue** page.
 
-
 ## [Step 6: Authorized users](#tab/authorized-users)
 
 ## Step 6: Authorized users
@@ -566,20 +578,6 @@ For more information, see:
 |New-CsCallQueue (For new call queues)   |Set-CsCallQueue (For existing call queues) |
 |:---------------------------------------|:-------------------|
 | [-HideAuthorizedUsers](/powershell/module/teams/new-cscallqueue#-hideauthorizedusers) | [-HideAuthorizedUsers](/powershell/module/teams/set-cscallqueue#-hideauthorizedusers) |
-
-### Service level threshold target
-
-Service level measures the efficiency and responsiveness to incoming customer requests within a specific Service level threshold.
-
-Real-time service level metrics will be shown in Queues app. Historical service level metrics aren't currently available.
-
-You can set the threshold target to any value from 0 to 40 minutes (2,400 seconds).  The value must be less than the value set for [Call timeout](#call-timeout-set-how-to-handle-call-timeouts)  Setting the value to null turns off the real-time service level metric display.
-
-For more information, see:
-
-|New-CsCallQueue (For new call queues)   |Set-CsCallQueue (For existing call queues) |
-|:---------------------------------------|:------------------------------------------|
-| [-ServiceLevelThresholdResponseTimeInSecond](/powershell/module/teams/new-cscallqueue#-ServiceLevelThresholdResponseTimeInSecond)  | [-ServiceLevelThresholdResponseTimeInSecond](/powershell/module/teams/set-cscallqueue#-ServiceLevelThresholdResponseTimeInSecond) |
 
 ## Resources for complex scenarios
 
