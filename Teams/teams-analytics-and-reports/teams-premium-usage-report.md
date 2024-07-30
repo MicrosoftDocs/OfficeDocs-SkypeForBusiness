@@ -40,7 +40,7 @@ The report provides the following metrics:
 ## View the Teams Premium feature usage report
 
 > [!IMPORTANT]
-> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see [Best practices for Microsoft Entra roles](/entra/identity/role-based-access-control/best-practices).
+> Microsoft recommends that you use roles with the fewest permissions. Using accounts with lower permissions helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 You must be either a global admin, global reader, or Teams service admin to view the reports in the Microsoft Teams admin center. To learn more about getting admin roles and permissions, see [Use Teams administrator roles to manage Teams](../using-admin-roles.md).
 
