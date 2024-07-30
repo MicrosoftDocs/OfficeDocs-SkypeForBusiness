@@ -46,7 +46,7 @@ This article describes some of the limits, specifications, and other requirement
 
 <sup>1</sup> Any directory object in Microsoft Entra ID counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](/graph/permissions-reference).
 
-<sup>2</sup> This limit includes archived teams. 
+<sup>2</sup> This limit includes archived teams.
 
 <sup>3</sup> To further increase the number of teams, you must contact Microsoft support and request further increase to the number of Microsoft Entra objects in your tenant. Increase is only made for real-life production scenarios.
 
@@ -101,7 +101,7 @@ Users who participate in conversations that are part of the chat list in Teams m
 
 <sup>1</sup> If you have more than 20 people in a chat, the following chat features are turned off: Outlook automatic replies and Teams status messages; typing indicator; video and audio calling; sharing; read receipts. The "Set Delivery Options" button (!) is also removed when private group chats contain more than 20 members.
 
-<sup>2</sup> Only 200 members can be added to a group chat at the same time. 
+<sup>2</sup> Only 200 members can be added to a group chat at the same time.
 
 <sup>3</sup> If the number of attachments exceeds this limit, you'll see an error message.
 
