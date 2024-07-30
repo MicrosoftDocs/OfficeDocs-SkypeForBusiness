@@ -608,7 +608,8 @@ items:
           href: teams-custom-emojis.md
         - name: Supervised chat for non-educational tenants
           href: supervised-chat-non-edu.md
-
+        - name: Block incoming chat messages
+          href: block-incoming-chats.md
     - name: Channels
       items:
         - name: Overview of channels
