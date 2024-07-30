@@ -42,7 +42,7 @@ Many of the dimensions and measurements in CQD are labeled as first or second. T
 
 In the following example, each row represents a pair of User Agents involved in a stream:
 
-|User Agent Category of Caller |User Agent Category of Callee |First Endpoint |Second Endpoint|First Is Caller
+|User Agent Category of Caller |User Agent Category of Callee |First Endpoint |Second Endpoint|First Is Caller|
 |:--- |:--- |:--- |:--- |:--- |
 |AV-MCU |OC (Skype for Business client) |AV-MCU |OC (Skype for Business client) |TRUE |
 |OC (Skype for Business client) |AV-MCU |AV-MCU |OC (Skype for Business client) |FALSE |
@@ -79,7 +79,6 @@ For example, the Duration (Minutes) dimension represents the call duration in se
 |064: [1 - 2) |1 minute < = stream duration < 2 minutes |
 |065: [2 - 3) |2 minutes < = stream duration < 3 minutes |
 |066: [3–4) |3 minutes < = stream duration < 4 minutes |
-|  | |
 
 The \<sort order string> is used to control the sort order when presenting the data and can be used for filtering. For example, a filter on Duration (Minutes) < "065", would show streams with duration less than 2 minutes (The leading '0' is needed for the filter to work as expected). The actual value of the sort order string isn't significant.
 
@@ -105,13 +104,12 @@ For example, the Network Connection Detail Pair shows the Network Connection Det
 |Wired : Wired |First and second endpoints both used wired ethernet connections. |
 |Wired : wifi | One endpoint used a wired ethernet connection and the other endpoint used a Wi-Fi connection. |
 |: wifi |One endpoint used a WiFi connection and the network connection used by the other endpoint is unknown. |
-| | |
 
 #### Blank values
 
 The table below describes why a dimension might be blank. Many dimensions and measurements are blank if the QoE Record Available dimension is false. Missing QoE typically occurs when the call isn't successfully established, or when the client fails to send its telemetry to the service.
 
-### Available dimensions 
+### Available dimensions
 
 The following table lists the dimensions currently available in CQD, in the order listed in the Query Editor used to create reports or edit previously defined reports.
 
@@ -696,8 +694,10 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 |**VDI**||||
 |First Client VDI Desktop Version| String | The VDI Teams client version of the first endpoint. | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
 |Second Client VDI Desktop Version | String | The VDI Teams client version of the second endpoint. | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
-|First Client VDI Mode| String | The vdiMode value of the first endpoint. <br/> **Example:** 3100 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
-|Second Client VDI Mode| String | The vdiMode value of the second endpoint. <br/> **Example:** 3100 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|First Client VDI Mode| String | The vdiMode value of the first endpoint. <br/> **Example:** 3100 <br/>First digit = [1,2 for Citrix][3 for VMware][5 for AVD/Windows 365]
+Second digit = [0 not optimized][1 optimized with WebRTC][2 optimized with SlimCore]| &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|Second Client VDI Mode| String | The vdiMode value of the second endpoint. <br/> **Example:** 3100 <br/>First digit = [1,2 for Citrix][3 for VMware][5 for AVD/Windows 365]
+Second digit = [0 not optimized][1 optimized with WebRTC][2 optimized with SlimCore] | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
 |First Client VDI Connected State | String | Indicates the VDI connected state of the first endpoint.| &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
 |Second Client VDI Connected State| String | Indicates the VDI connected state of the second endpoint.| &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
 |First Client VDI Provider Version| String | The VDI provider client version of the first endpoint. | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
