@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.custom: 
-ROBOTS: NOINDEX, NOFOLLOW
 ms.collection: 
 f1.keywords: 
   - NOCSH
