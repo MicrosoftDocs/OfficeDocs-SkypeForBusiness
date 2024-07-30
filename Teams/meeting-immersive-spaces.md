@@ -128,7 +128,7 @@ For more complex and larger group license management, you can do [Assign license
 
 Your users must enter a separate agreement directly with Microsoft to enable spatial audio for Mesh experiences. That agreement is presented to your users before the user's first use of Mesh. If a user does not wish to enter into that agreement, the user cannot use Mesh.
 
-If an admin does not agree to the license agreement terms, then admins can disable the Mesh app for users.
+As an admin, if you don't want users in your organization to agree to these terms, you can disable immersive spaces in Teams for users in your organization.
 
 :::image type="content" source="media/meetings-immersive-spaces-EULA-agreement.png" alt-text="Screenshot of the End User License Agreement for immersive spaces in Teams.":::
 
