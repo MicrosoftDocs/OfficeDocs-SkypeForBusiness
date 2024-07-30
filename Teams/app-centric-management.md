@@ -13,7 +13,7 @@ ms.collection:
   - M365-collaboration
   - Tier1
 search.appverid: MET150
-ms.date: 07/04/2024
+ms.date: 07/31/2024
 ms.reviewer: mhayrapetyan
 description: Manage access to Teams apps using app centric management.
 f1.keywords:
@@ -85,12 +85,12 @@ We strongly recommend that you prepare for the migration and follow these steps 
    * Available to specific users and groups: List of apps that are selectively allowed for at least one org user or a supported group.
    * Available to no one: List of apps that nobody in the org can use.
 
-1. In each tab, you can modify the app availability to one of the [three app availability types](#how-is-app-centric-management-different-than-permission-policy), as necessary. The apps that aren't present in any of the selected policies appear in the **Available to specific users and groups** tab. You must assign such apps to one or more users or groups before you can proceed. The existing user assignments from app permission policies aren't transferred and aren't applicable here.
+1. In each tab, you can modify the app availability to one of the [three app availability types](#how-is-app-centric-management-different-than-permission-policy), as necessary. Edit availability option appears in **Available to specific users and groups** tab if the app availability is not clear and admin input is needed to proceed. It is because the apps aren't present in the policies that you selected to migrate, so the app availability isn't clear. You must assign such apps to before you can proceed.
 
     :::image type="content" source="media/acm-migration-availability.png" alt-text="Screenshot showing three tabs during migration that help you review and modify the app availability.":::
 
    > [!TIP]
-   > If you see almost all the apps as available to specific users and groups, you likely have policies that have conflicting apps availability. For example, a policy that allows all apps and another policy that blocks all apps. In such a scenario, we recommend that you uncheck the policy that leads to a conflict and select the apps that are in use from the list.
+   > If you see that many apps in this tab, you likely have policies that have conflicting apps availability. For example, a policy that allows many apps and another policy that blocks the same apps. In such a scenario, we recommend that you uncheck the policy that leads to a conflict or you edit the availability in this tab.
 
 1. You can validate the changes on a per-app or a per-user basis. Select a tab and type the name of the app or the user.
 
