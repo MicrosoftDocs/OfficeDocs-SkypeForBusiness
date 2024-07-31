@@ -183,7 +183,7 @@ The following tables compare key features between Teams and Teams Premium. Becau
 
 #### Intelligent meeting recap
 
-In the meeting recap, your users can find the most important parts of a meeting, captured and organized in one place. Your users with a Teams Premium license can get a more personalized rundown of their meetings with intelligent meeting recap. To learn more about intelligent meeting recap, see [Meeting recap in Microsoft Teams](https://support.microsoft.com/office/meeting-recap-in-microsoft-teams-c2e3a0fe-504f-4b2c-bf85-504938f110ef#bkmk_intelligent_meeting_recap).
+In the meeting recap, your users can find the most important parts of a meeting, captured and organized in one place. With a Teams Premium license, your users can get a more personalized rundown of their meetings with intelligent meeting recap. To learn more about intelligent meeting recap, see [Meeting recap in Microsoft Teams](https://support.microsoft.com/office/meeting-recap-in-microsoft-teams-c2e3a0fe-504f-4b2c-bf85-504938f110ef#bkmk_intelligent_meeting_recap).
 
 | Feature | Teams | Teams Premium |
 |---------|:-----:|:-------------:|
