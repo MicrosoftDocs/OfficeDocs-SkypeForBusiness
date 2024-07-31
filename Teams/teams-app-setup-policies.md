@@ -92,11 +92,11 @@ To modify the pinned apps for everyone in your organization, edit the existing `
 
 ## Install apps to Teams client of your users
 
-If you are using app centric management functionality, then you must [use Manage apps page to install apps for users](install-teams-apps.md). For organizations using app centric management, the app installation feature is available in the app details page and not in the setup policy.
+If you're using app centric management functionality, then you must [use Manage apps page to install apps for users](install-teams-apps.md). For organizations using app centric management, the app installation feature is available in the app details page and not in the setup policy.
 
 :::image type="content" source="media/acm-setup-policy-change.png" alt-text="Screenshot showing updated setup policy page without the app installation option.":::
 
-If your organization is not using app centric management, then continue to [use app setup policy to install apps](install-teams-apps.md#install-apps-using-app-setup-policy).
+If your organization isn't using app centric management, then continue to [use app setup policy to install apps](install-teams-apps.md#install-apps-using-app-setup-policy).
 
 ## Use app setup policy to allow independent bots
 
@@ -182,7 +182,7 @@ When you unassign policies in bulk, you're removing policy assignments that were
 
 * You can't add custom apps with configurable tabs using app setup policies.
 
-* Users can't remove an app from their client if an admin adds it. The `Uninstall` option for an app in the app bar is not available.
+* Users can't remove an app from their client if an admin adds it. The `Uninstall` option for an app in the app bar isn't available.
 
 * Users can unpin an app that is pinned via app setup policy if user pinning is allowed in the policy.
 
@@ -202,7 +202,7 @@ When you unassign policies in bulk, you're removing policy assignments that were
 
 * In Teams for Education, the [Assignments app](expand-teams-across-your-org/assignments-in-teams.md) is pinned by default even though it isn't listed in the Global policy.
 
-* In Teams for Education, the `Calling` app isn't available. When you create a new custom policy in the app setup policy, the `Calling` app is displayed in the list of apps. However, Teams for Education users can't see the `Calls` app in Teams client as it is not pinned.
+* In Teams for Education, the `Calling` app isn't available. When you create a new custom policy in the app setup policy, the `Calling` app is displayed in the list of apps. However, Teams for Education users can't see the `Calls` app in Teams client as it isn't pinned.
 
 ## Related article
 

@@ -32,11 +32,11 @@ Unified app management changes a few app governance methods. Previously, you use
 
 ### Install apps using app setup policy
 
-If you are not using app centric management, then you preinstall apps using app setup policy. To know more, see [overview of app setup policy](teams-app-setup-policies.md). Ensure that the following prerequisites are met.
+If you aren't using app centric management, then you preinstall apps using app setup policy. To know more, see [overview of app setup policy](teams-app-setup-policies.md). Ensure that the following prerequisites are met.
 
 * Allow use of apps in your org using the options in the [Org-wide app settings](manage-apps.md#manage-org-wide-app-settings).
-* Allow the required apps. Individual apps can be [blocked by an admin](manage-apps.md#allow-or-block-apps) or can be [blocked by the developer](/microsoftteams/platform/concepts/deploy-and-publish/add-default-install-scope#block-apps-by-default-for-users-until-an-admin-approves).
-* [Grant consent to the app permissions](manage-consent-app-permissions.md#grant-and-manage-consent-to-teams-app-permissions) if an app requires permission to access organization information.
+* Allow the required apps. [Admins can block an app](manage-apps.md#allow-or-block-apps) or [Developers can block their app by default](/microsoftteams/platform/concepts/deploy-and-publish/add-default-install-scope#block-apps-by-default-for-users-until-an-admin-approves).
+* If an app requires permission to access organization information, [grant consent to the app permissions](manage-consent-app-permissions.md#grant-and-manage-consent-to-teams-app-permissions).
 * Make the app available to the required users and groups using app permission policies.
 
 To install apps using the policy, follow these steps:
@@ -64,9 +64,9 @@ Before you preinstall apps using app centric management, ensure that the followi
 * Allow the required apps. Individual apps can be [blocked by an admin](manage-apps.md#allow-or-block-apps) or can be [blocked by the developer](/microsoftteams/platform/concepts/deploy-and-publish/add-default-install-scope#block-apps-by-default-for-users-until-an-admin-approves).
 * [Grant consent to the app permissions](manage-consent-app-permissions.md#grant-and-manage-consent-to-teams-app-permissions) if an app requires permission to access organization information.
 
-To install apps using the sapp centric management UI, follow these steps:
+To install apps using the app centric management UI, follow these steps:
 
-1. Log into Teams admin center and access **Teams apps** > [**Manage apps**](https://admin.teams.microsoft.com/policies/manage-apps/) page. Do one of the following:
+1. Log into Teams admin center and access **Teams apps** > [**Manage apps**](https://admin.teams.microsoft.com/policies/manage-apps/) page. Do one of the following tasks:
 
    * Select an app, and click **Edit installs**. Select whom to install the app for and select **Apply**.
 
