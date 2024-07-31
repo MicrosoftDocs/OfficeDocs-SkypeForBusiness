@@ -38,9 +38,11 @@ Note that if you have an explicit allowed domains list, this report may include 
 |People in my org|The number of users that have communicated with the organization through chat during the selected time range.|
 |**Premium:** Total messages| The number of messages that have been exchanged between your organization and the external domain during the selected time range.|
 |**Premium:** Messages sent| The number of messages that have been sent to your organization by the external domain during the selected time range.|
-|**Premium:** Messages received| The number of messages that have been sent by your organization to the external domain during the selected time range."|
+|**Premium:** Messages received| The number of messages that have been sent by your organization to the external domain during the selected time range.|
 
-Note that it's possible to have 0 "people in my org." If an external domain reaches out to your organization to no response, we will display 0 "people in my org."
+> [!NOTE]
+>
+> It's possible to have 0 **people in my org**. If an external domain reaches out to your organization and receives no response, we will display 0 **people in my org**.
 
 ## Interpret the domain-specific report
 
@@ -49,8 +51,9 @@ Note that it's possible to have 0 "people in my org." If an external domain reac
 |**Premium:** Username|The UPN of the user in your org who communicates with the external domain. |
 |**Premium:** Messages sent| The number of messages that have been sent to each user by the external domain during the selected time range.|
 
-Note that it's not possible at this time to expose the messages received at a per-user basis due to privacy concerns.
-
+> [!NOTE]
+>
+> It's not possible at this time to expose the messages received at a per-user basis due to privacy concerns.
 
 ## Related topics
 
