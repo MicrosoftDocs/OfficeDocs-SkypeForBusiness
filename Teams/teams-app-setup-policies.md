@@ -8,7 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.subservice: teams-apps
 ms.service: msteams
 audience: Admin
-ms.date: 06/05/2024
+ms.date: 07/31/2024
 ms.reviewer: mhayrapetyan
 ms.collection: 
   - M365-collaboration
@@ -29,7 +29,7 @@ As an admin, you use app setup policies to install and pin apps and control whic
 
 * **[Pin apps in Teams client](#pin-apps):** App setup policies let you choose apps to pin, set the order the apps show up for your users in the Teams app bar or the compose message area. Admins can also control whether the users can pin their own apps or not.
 
-* **[Add apps to Teams client](install-teams-apps.md):** App setup policies let you add the allowed apps on behalf of users when they start Teams and during meetings. For organizations using app centric management, this functionality is available in [app centric management UI](install-teams-apps.md#install-apps-using-app-centric-management).
+* **[Installs apps in Teams client](#install-apps-to-teams-client-of-your-users):** App setup policies let you add the allowed apps on behalf of users when they start Teams and during meetings. For organizations using app centric management, this functionality is available in [app centric management UI](install-teams-apps.md#install-apps-using-app-centric-management).
 
 * **Upload custom apps:** App setup policies let you control which users can upload custom apps to Teams. See [Upload custom apps](teams-custom-app-policies-and-settings.md) article.
 
@@ -92,7 +92,9 @@ To modify the pinned apps for everyone in your organization, edit the existing `
 
 ## Install apps to Teams client of your users
 
-If you're using app centric management functionality, then you must [use Manage apps page to install apps for users](install-teams-apps.md). For organizations using app centric management, the app installation feature is available in the app details page and not in the setup policy.
+If your organization uses app centric management functionality, then [use Manage apps page to install apps for users](install-teams-apps.md). Otherwise, continue to preinstall apps using app setup policies.
+
+The below message on app setup policy page indicates that your org is using app centric management functionality.
 
 :::image type="content" source="media/acm-setup-policy-change.png" alt-text="Screenshot showing updated setup policy page without the app installation option.":::
 
