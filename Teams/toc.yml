@@ -1639,7 +1639,7 @@ items:
       items:
         - name: Overview of app management
           href: manage-apps.md
-        - name: App access and admin installation
+        - name: Policies for app access and rollout
           items: 
           - name: Understand app policies
             href: app-policies.md
@@ -1647,7 +1647,7 @@ items:
             href: teams-app-permission-policies.md
           - name: Manage app setup policies
             href: teams-app-setup-policies.md
-        - name: Know App centric management
+        - name: Use or migrate to app centric management
           href: app-centric-management.md
         - name: Install apps as an admin
           href: install-teams-apps.md
