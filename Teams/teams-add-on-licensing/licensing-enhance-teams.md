@@ -57,7 +57,7 @@ To learn how to set up and configure Teams Premium features, see [Microsoft Team
 
 Purchasing the Teams Premium add-on license provides admins and end users with extra features on top Teams along with their Microsoft 365 subscription.
 
-The following tables compare key features between Teams and Teams Premium. Because Teams Premium is an add-on license to Teams, users need Teams and Teams Premium licenses to access all features listed below. Teams Premium licenses don't replace users' standard Teams licenses.
+The following tables compare key features between Teams and Teams Premium. Because Teams Premium is an add-on license to Teams, users need Teams and Teams Premium licenses to access all features listed in the following table. Teams Premium licenses don't replace users' standard Teams licenses.
 
 ### Meetings
 
@@ -101,7 +101,7 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Assign a co-organizer | ✔️ |  |
 | Limit the number of people who can register | ✔️ |  |
 | Allow registered users to bypass the lobby | ✔️ |  |
-| Turn on Q&A for webinars with up to 1000 attendees | ✔️ |  |
+| Turn on Q&A for webinars with up to 1,000 attendees | ✔️ |  |
 | View attendance reports | ✔️ |  |
 | Set up a green room for webinar presenters and organizers| ✔️ |  |
 | Manage what attendees see |  | ✔️ |
@@ -145,7 +145,7 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | View the number of town halls used a Teams Premium feature| | ✔️  |
 | View the number of town halls each user attended that used a Teams Premium feature.| | ✔️  |
 
-<sup>1</sup> If RTMP-In is enabled for a town hall, live translated captions will not be available to the attendees even if the organizer selects the languages before the town hall starts.
+<sup>1</sup> If RTMP-In is enabled for a town hall, live translated captions aren't available to the attendees even if the organizer selects the languages before the town hall starts.
 <sup>2</sup> To take advantage of eCDN for all attendees, either a Teams Premium or standalone eCDN license is required. eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN licensing, see [Microsoft eCDN](https://www.microsoft.com/en-us/microsoft-teams/ecdn).*
 
 ### Advanced Collaboration Tools
@@ -281,7 +281,7 @@ The **user requirement** is:
 
 ### Can I acquire Teams Premium features without the Teams Premium license?
 
-Teams Premium bundles a large set of advanced Teams features under a single license. There are instances where a single Teams Premium feature could be acquired through other licensing scenarios. However, the Teams Premium license is designed to be the most holistic and simplest avenue to enhance your organization's and users' Teams experience.
+Teams Premium bundles a large set of advanced Teams features under a single license. There are instances where a single Teams Premium feature could be acquired through other licensing scenarios. However, the Teams Premium license is designed to be the most holistic and simplest avenue to enhance your organization's and users' Teams experiences.
 
 ## Which users should be assigned Teams Premium licenses?
 
@@ -289,7 +289,7 @@ Teams Premium is licensed on a per-user subscription basis and is subject to the
 
 ### Which features are applied to organizers, attendees/users, or admins?
 
-Which Teams experience a user has depends on their Teams license and their event role. Teams checks a user’s license and role feature by feature to deliver the appropriate experience.
+A user's Teams experience has depends on their Teams license and their event role. Teams checks a user’s license and role feature by feature to deliver the appropriate experience.
 
 For example, in a Teams meeting, Teams checks each users’ type of Teams license and whether they're a meeting organizer or attendee. These factors determine a user’s experience and potentially other attendees’ experience during the meeting.
 
@@ -313,7 +313,7 @@ The following table shows which Teams Premium features provide primary value to 
 
 Teams Premium licenses are assigned to your organization's users, and Teams Rooms Pro licenses should only be assigned to Microsoft Teams Rooms devices. These two licenses aren't dependent on one another, don't overlap features, and don't cause license enforcement conflicts.
 
-Before the release of Teams Rooms Pro, Microsoft offered a Teams Rooms license called Teams Rooms Premium. Teams Rooms Premium has been retired and isn't related to Teams Premium.
+Before the release of Teams Rooms Pro, Microsoft offered a Teams Rooms license called Teams Rooms Premium. Teams Rooms Premium has gone away and isn't related to Teams Premium.
 
 ## Can I experience Teams Premium before buying licenses?
 
@@ -341,7 +341,7 @@ For more information on enabling or disabling self-service trials for your users
 
 ### What are the terms and conditions of the Teams Premium self-service trial?
 
-By participating in this free trial (“Trial”) of the Microsoft 365 services, you agree to be bound by our [Product Terms](https://go.microsoft.com/fwlink/?linkid=2108910) and the following terms (“Trial Terms”), provided that in the event of a conflict the Trial Terms shall govern. The Trial period will be for thirty (30) or sixty (60) days from the date you activate the Trial depending on the trial you start. Unless you purchase a subscription to the Microsoft 365 services prior to the expiration or termination of your Trial period, you will no longer have access to (i) any data related to the features of the Trial that you entered into your account, and (ii) configurations or customizations made by you or for you using the features of the Trial. Microsoft reserves the right to terminate or modify the Trial and/or these Trial Terms at any time without prior notice and without liability. Trial offer is not available for customers in all regions and countries.
+By participating in this free trial (“Trial”) of the Microsoft 365 services, you agree to be bound by our [Product Terms](https://go.microsoft.com/fwlink/?linkid=2108910) and the following terms (“Trial Terms”), provided that in the event of a conflict the Trial Terms shall govern. The Trial period is for thirty (30) or sixty (60) days from the date you activate the Trial depending on the trial you start. Unless you purchase a subscription to the Microsoft 365 services before the expiration or termination of your Trial period, you no longer have access to (i) any data related to the features of the Trial that you entered into your account, and (ii) configurations or customizations made by you or for you using the features of the Trial. Microsoft reserves the right to terminate or modify the Trial and/or these Trial Terms at any time without prior notice and without liability. Trial offer isn't available for customers in all regions and countries.
 
 ### What happens if my users' trial licenses expire?
 
