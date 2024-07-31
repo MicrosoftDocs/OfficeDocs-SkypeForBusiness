@@ -88,8 +88,10 @@ For a list of supported app and firmware versions for Teams Rooms on Android sys
 The following devices are Certified under the Microsoft Teams Displays Android Certification Program:
 
 
-> The certification end date for Android 9 based devices has been extended to November 5, 2023.
-> The Certification end date for Qualcomm-based devices on Android 10 has been extended to September 3, 2025
+> [!IMPORTANT]
+>
+> End of support for the Teams display app is September 3, 2025. Microsoft will make commercially reasonable best efforts to maintain compatibility with the most recent version of the Teams app provided to manufacturers for a period of two (2) years from this date. See the [Microsoft Product and Services lifecycle](/lifecycle/products/) for details.
+
 
 | Device model | Firmware version | Current certification end date  | Android OS version |
 |:------------------------|:-----------------|:--------------|----------------------------------|
