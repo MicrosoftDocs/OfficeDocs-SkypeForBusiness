@@ -1,5 +1,5 @@
 ---
-title: Digital signage with Teams Rooms for Android
+title: Digital signage with Teams Rooms for Windows
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
