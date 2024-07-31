@@ -1649,7 +1649,7 @@ items:
             href: teams-app-setup-policies.md
         - name: Use or migrate to app centric management
           href: app-centric-management.md
-        - name: Install apps as an admin
+        - name: Preinstall appss for users
           href: install-teams-apps.md
         - name: Manage apps across Microsoft 365
           href: manage-apps-across-m365.md

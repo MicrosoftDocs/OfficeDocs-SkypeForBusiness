@@ -1,5 +1,5 @@
 ---
-title: Preinstall Teams apps or let users install apps
+title: Preinstall Teams apps for your org users
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
@@ -17,12 +17,12 @@ ms.reviewer: mhayrapetyan
 search.appverid: MET150
 f1keywords: 
   - ms.teamsadmincenter.manageapps.overview
-description: Preinstall Teams apps or let users install apps and manage the installation options for an app.
+description: How IT professionals can driven preinstallation of Teams apps for users, in channels, and in meetings and manage the installation options of an app.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: medium
 ---
-# Install apps as an admin
+# Preinstall apps for your users
 
 IT admins can install Microsoft Teams apps that work on Microsoft Outlook and the Microsoft 365 app (formerly known as Office.com) for some or all users in their organization. You can easily preinstall the apps on the supported hosts. Alternately, users install apps on their own if you [allow users to use apps](manage-apps.md#allow-or-block-apps). You can proactively install apps for users so that you help them discover apps easily, ensure app retention, and save user's effort to install. For example, you can install IT helpdesk or ticketing app for all new employees to provide an easy and quick way for new joiners to seek support.
 
@@ -99,7 +99,7 @@ You can create a new team for your users using a team template. Team template le
 
 If the app installation prerequisites are met, [users can install apps](https://support.microsoft.com/office/add-an-app-to-microsoft-teams-b2217706-f7ed-4e64-8e96-c413afd02f77) on their own. If an app is blocked, then the users can [request admin approval](user-requests-approve-apps.md).
 
-From the store in their Teams client, users use the **Add to team** option to install an app to a team. This option is available only for the apps that can be installed in a team scope. The option isn't available for apps that can only be installed in the personal scope.
+From the store in their Teams client, users install apps for their personal use by selecting **Add** option or install apps in their teams and channels by selecting **Add to team** option. Option to add an app to a team is available for only those apps that can work in a team scope.
 
 ## Related articles
 
