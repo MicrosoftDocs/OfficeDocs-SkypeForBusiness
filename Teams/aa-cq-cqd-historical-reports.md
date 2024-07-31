@@ -94,6 +94,10 @@ For more information, see:
 | [New-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/new-csteamsvoiceapplicationspolicy#-HistoricalCallQueueMetricsPermission)  | [Set-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/set-csteamsvoiceapplicationspolicy#-HistoricalCallQueueMetricsPermission) |
 | [New-CsTeamsVoiceApplicationsPolicy/--HistoricalAgentMetricsPermission](/powershell/module/teams/new-csteamsvoiceapplicationspolicy#--HistoricalAgentMetricsPermission)  | [Set-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/set-csteamsvoiceapplicationspolicy#--HistoricalAgentMetricsPermission) |
 
+#### Known Issue
+
+If the Voice application policy assigned to the user only enables the Historical reporting permissions, and optionally the real-time reporting permissions, then the user will be denied access to the historical reports. Support is working to resolve this problem. In the interim, enable at least one Auto attendant and Call queue change permission in the policy. Enabling the Auto attendant `Business hours greeting` and Call queue `Welcome greeting` is suggested but any of the change permissions will work-around the issue.
+
 2. Call Quality Dashboard (CQD) pipeline [legacy]
 
 If you want the user to report on **all** the Auto attendants, Call queues, and Agents in the tenant and you want to grant the user access to Teams admin center to run other Usage reports, assign the user a CQD access role with both **View Reports** and **View EUII fields** set to **Yes**.
