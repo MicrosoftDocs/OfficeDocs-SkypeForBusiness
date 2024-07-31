@@ -527,6 +527,8 @@ items:
           href: teams-analytics-and-reports/teams-webinar-usage-report.md
         - name: Teams information protection license report
           href: teams-analytics-and-reports/information-protection-license-report.md
+        - name: Frontline usage report
+          href: /microsoft-365/frontline/frontline-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Virtual Appointments usage report
           href: /microsoft-365/frontline/virtual-appointments-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Advanced Virtual Appointments activity report
@@ -608,7 +610,8 @@ items:
           href: teams-custom-emojis.md
         - name: Supervised chat for non-educational tenants
           href: supervised-chat-non-edu.md
-
+        - name: Block incoming chat messages
+          href: block-incoming-chats.md
     - name: Channels
       items:
         - name: Overview of channels
@@ -1636,7 +1639,7 @@ items:
       items:
         - name: Overview of app management
           href: manage-apps.md
-        - name: App access and admin installation
+        - name: Policies for app access and rollout
           items: 
           - name: Understand app policies
             href: app-policies.md
@@ -1644,7 +1647,7 @@ items:
             href: teams-app-permission-policies.md
           - name: Manage app setup policies
             href: teams-app-setup-policies.md
-        - name: Know App centric management
+        - name: Use or migrate to app centric management
           href: app-centric-management.md
         - name: Install apps as an admin
           href: install-teams-apps.md
