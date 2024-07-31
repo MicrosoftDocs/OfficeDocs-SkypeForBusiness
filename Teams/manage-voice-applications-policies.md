@@ -124,7 +124,7 @@ Reporting values:
 - **All** - the authorized user sees metrics for all auto attendants and call queues (and associated agents) configured in the tenant.
 
 > [!IMPORTANT]
-> The **All** value for real-time call queue and real-time agent metrics is no longer supported.
+> The **All** value for real-time auto attendant metrics is no longer supported.
 
 Notes
 
