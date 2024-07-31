@@ -64,7 +64,7 @@ Before you preinstall apps using app centric management, ensure that the followi
 * Allow the required apps. Individual apps can be [blocked by an admin](manage-apps.md#allow-or-block-apps) or can be [blocked by the developer](/microsoftteams/platform/concepts/deploy-and-publish/add-default-install-scope#block-apps-by-default-for-users-until-an-admin-approves).
 * [Grant consent to the app permissions](manage-consent-app-permissions.md#grant-and-manage-consent-to-teams-app-permissions) if an app requires permission to access organization information.
 
-To install apps using the sapp centric management UI, follow these steps:
+To install apps using the app centric management UI, follow these steps:
 
 1. Log into Teams admin center and access **Teams apps** > [**Manage apps**](https://admin.teams.microsoft.com/policies/manage-apps/) page. Do one of the following:
 
