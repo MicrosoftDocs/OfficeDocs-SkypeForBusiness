@@ -332,8 +332,38 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 
 #### <b> Neat </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications  | Release date| Cloud|
-|:----------------|:-------------------|:----------------------------|:-------------------------------------------------------------------------|:-------------------------------------|
+|:----------------|:-------------------|:----------------------------|:-------------------------------------------------------------------------|:-------------------------------------|:--------------------|
+| Neat Pad | `NFA1.20240516.0501` | N/A| Teams client: `1449/1.0.97.2024040202` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202402202353.product`| July 30, 2024| GCCH|
 | Neat Pad | `NFA1.20240120.0109` | N/A| Teams client: `1449/1.0.97.2023111003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| March 26, 2024| GCCH|
+
+## End of certification Teams devices
+
+Microsoft and its Original Equipment Manufacturers (OEM) partners continually develop products to meet the needs of the market and elevate the Teams devices experience. During the product lifecycle, some products may receive an OS upgrade before their certification expires and will undergo re-certification, while others might not get re-certified and will ultimately be discontinued by the OEM.
+
+We recognize that device certification expiration can impact your business. Our OEM partners have detailed End-of-Life policies to assist and direct you towards adopting newer technologies. For the most current information on Teams certified devices referenced here, please consult our OEM partners' websites.
+
+Following a certification expiration, Microsoft is committed to supporting the latest version of the Teams client on certified devices for a span of two years after the certification period concludes. While Microsoft will make every effort to maintain support as described here, it retains the discretion to modify its support policy if necessary. Should any changes occur, they will be communicated through established channels directed at customers.
+
+| Device Category | Device Model | Android OS Version | Certification end date |  
+|:----------------|:-------------------|:----------------------------|:--------------------------|
+|Teams phones - conference|Poly Trio 8500/8600|7|October 4, 2021|
+|Teams phones|Yealink T55/T55A|7|October 4, 2021|
+|Teams phones|Yealink T56/T56A|7|October 4, 2021|
+|Teams phones|Yealink T58/T57A|7|October 4, 2021|
+|Teams phones - conference | Yealink CP960| 7 | October 4, 2021 |
+|Teams phones | Yealink MP52 | 9 | August 5, 2023 |
+|Teams phones - video | Yealink VP59 | 9| August 5, 2023|
+|Teams phones | AudioCodes C448HD | 9| August 5, 2023 | 
+|Teams phones | AudioCodes C450HD | 9 | August 5, 2023 |
+|Teams phones - conference |Crestron UC-2 | 9 | August 5, 2023 | 
+|Teams phones | Crestron UC-P8| 9 | August 5, 2023 |
+|Teams phones | Crestron UC-P10 | 9 | August 5, 2023 | 
+|Teams phones - video| Crestron UC-P8-C | 9 | August 5, 2023 |
+|Teams phones - video | Crestron UC-P10-C | 9 | August 5, 2023 |
+|Teams displays | Crestron UC-P8-TD | 9 | August 5, 2023 |
+|Teams displays | Crestron UC-P10-TD| 9 | August 5, 2023 |
+|Teams Rooms for Android | Yealink VC210 | 9 | August 5, 2023 |
+|Teams Rooms for Android | EPOS Expand Vision 3T | 9 | August 5, 2023| 
 
 
 ## More resources

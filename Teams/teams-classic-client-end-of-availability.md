@@ -114,7 +114,7 @@ If we're unable to move you to new Teams, here's a list of the banner messages y
 
 #### Unsupported OS
 
-- Starting October 23, 2024, classic Teams won't be available on Windows 7, 8, and 8.1. If you use classic Teams on these systems, you'll see warning messages starting in August. On October 23, 2024, you won't be able to use the classic Teams app anymore. If you can't update your Windows to a [supported browser](new-teams-web.md#prerequisites), you can use the new Teams web app in a supported browser instead.
+- Starting October 23, 2024, classic Teams won't be available on Windows 7, 8, and 8.1; and macOS Sierra (10.12), High Sierra (10.13) and Mojave (10.14). If you use classic Teams on these systems, you'll see warning messages starting in August. On October 23, 2024, you won't be able to use the classic Teams app anymore. If you can't update your Windows to a [supported browser](new-teams-web.md#prerequisites), you can use the new Teams web app in a supported browser instead.
 - Starting July 1, 2025, classic Teams will stop working on Windows 10, macOS older than Big Sur (11), LTSC, or for users with configuration issues. You'll see the in-app messages about classic Teams going away and you won't be able to use the classic Teams app after that date.
 
 Users who can't upgrade to the new Teams client on their device can use the new Teams web app on [supported browsers](new-teams-web.md#prerequisites) instead.
