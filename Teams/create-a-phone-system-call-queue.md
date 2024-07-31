@@ -500,7 +500,7 @@ The following clients are supported for call agents in a Call queue:
 
 - Skype for Business desktop client 2016 (32-bit and 64-bit versions)
 - Lync desktop client 2013 (32-bit and 64-bit versions)
-- All IP phone models supported for Microsoft Teams. See [Getting phones for Skype for Business Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online).
+- All IP phone models supported for Microsoft Teams.
 - Mac Skype for Business Client (version 16.8.196 and later)
 - Android Skype for Business Client (version 6.16.0.9 and later)
 - iPhone Skype for Business Client (version 6.16.0 and later)

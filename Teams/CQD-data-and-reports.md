@@ -352,7 +352,7 @@ To apply URL filters with multi-select values, separate each value with a pipe (
 
 If you specify an invalid name or value, the URL filter won't be applied.
 
-You can use a URL filter to filter every report for a specific dimension. The most common URL filters are used to filter reports to exclude federated participant telemetry, or focus on only Teams or Skype for Business Online. Excluding federated data from CQD reports is useful when you're remediating managed buildings or networks where federated endpoints might influence your reports.
+You can use a URL filter to filter every report for a specific dimension. The most common URL filters are used to filter reports to exclude federated participant telemetry, or focus on only Teams or Skype for Business. Excluding federated data from CQD reports is useful when you're remediating managed buildings or networks where federated endpoints might influence your reports.
 
 |Filter|Description|CQD query filter example|
 |---|---|---|
