@@ -69,13 +69,13 @@ Previously, we automatically migrated organizations that weren't using any custo
 
 We strongly recommend that you prepare for the migration and follow these steps to prepare:
 
-1. Take inventory of the apps that you have in the custom permission policies and identify the users and groups that you provide app access to. During the migration, you may have to manually edit the availability for some apps for the existing users and groups. For details, see the below steps.
+1. Log into Teams admin center and access Teams apps > [Permission policies](https://admin.teams.microsoft.com/policies/app-permission) page. Take inventory of the apps in the permission policies and identify the users and groups that the apps are allowed or blocked for. During the migration, you may have to manually edit the availability for some apps for the existing users and groups. For details, see step 5.
 
-1. Log into Teams admin center and access Teams apps > [Permission policies](https://admin.teams.microsoft.com/policies/app-permission) page and select **Get started**.
+1. On the permission policies page, select **Get started**.
 
    :::image type="content" source="media/acm-start-prompt.png" alt-text="Screenshot showing the policy page with prompt to migrate to app centric management.":::
 
-1. Select policies that you want to migrate. The page displays all the policies that have users assigned to them. Select **Next**. Apps from only the selected policies are considered for migration. Apps in the unselected policies aren't part of the migration and can’t be migrated later. However, you can manually edit the availability for any app after the migration.
+1. Select policies that you want to migrate and select **Next**. The page displays only those policies that are assigned to users or groups. Also, we migrate only those apps and their availability that are part of the policies that you choose to migrate. Apps in the unselected policies aren't part of the migration and can’t be migrated later. However, you can manually edit the availability for any app after the migration.
 
     :::image type="content" source="media/acm-migration-select-policies.png" alt-text="Screenshot showing the app centric management migration UI to select policies."  lightbox="media/acm-migration-select-policies-large.png":::
 
@@ -90,7 +90,7 @@ We strongly recommend that you prepare for the migration and follow these steps 
     :::image type="content" source="media/acm-migration-availability.png" alt-text="Screenshot showing three tabs during migration that help you review and modify the app availability.":::
 
    > [!TIP]
-   > If you see that many apps in this tab, you likely have policies that have conflicting apps availability. For example, a policy that allows many apps and another policy that blocks the same apps. In such a scenario, we recommend that you uncheck the policy that leads to a conflict or you edit the availability in this tab.
+   > If you see many apps in this tab, you likely have policies that have conflicting apps availability. For example, a policy that allows many apps and another policy that blocks the same apps. In such a scenario, we recommend that you uncheck the policy that leads to a conflict or you edit the availability in this tab.
 
 1. You can validate the changes on a per-app or a per-user basis. Select a tab and type the name of the app or the user.
 
