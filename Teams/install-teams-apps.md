@@ -17,7 +17,7 @@ ms.reviewer: mhayrapetyan
 search.appverid: MET150
 f1keywords: 
   - ms.teamsadmincenter.manageapps.overview
-description: How IT professionals can driven preinstallation of Teams apps for users, in channels, and in meetings and manage the installation options of an app.
+description: How IT professionals preinstall Teams apps for users, in channels, and in meetings and manage the installation options of apps.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: medium

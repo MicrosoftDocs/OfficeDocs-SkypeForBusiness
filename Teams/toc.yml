@@ -1621,7 +1621,7 @@ items:
           href: customize-apps.md
         - name: Set Adobe Acrobat as default PDF viewer
           href: adobe-acrobat-pdf-viewer-teams.md
-        - name: Manage M365 connectors and custom connectors
+        - name: Manage Microsoft 365 and custom connectors
           href: m365-custom-connectors.md
         - name: Auto install approved apps
           href: auto-install-approved-apps.md
@@ -1649,7 +1649,7 @@ items:
             href: teams-app-setup-policies.md
         - name: Use or migrate to app centric management
           href: app-centric-management.md
-        - name: Preinstall appss for users
+        - name: Preinstall apps for users
           href: install-teams-apps.md
         - name: Manage apps across Microsoft 365
           href: manage-apps-across-m365.md
