@@ -333,6 +333,7 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 #### <b> Neat </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications  | Release date| Cloud|
 |:----------------|:-------------------|:----------------------------|:-------------------------------------------------------------------------|:-------------------------------------|:--------------------|
+| Neat Pad | `NFA1.20240516.0501` | N/A| Teams client: `1449/1.0.97.2024040202` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202402202353.product`| July 30, 2024| GCCH|
 | Neat Pad | `NFA1.20240120.0109` | N/A| Teams client: `1449/1.0.97.2023111003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| March 26, 2024| GCCH|
 
 ## End of certification Teams devices
