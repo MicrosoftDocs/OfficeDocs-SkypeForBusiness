@@ -284,6 +284,52 @@ Type: DWORD
 Value: 1
 ```
 
+## New Teams auto-start
+
+The auto-start behavior of Teams is controlled by three components:
+
+1. By default, MSIX-based applications will not auto-start until there is a first launch, because the Windows OS doesn't auto-start packages in a provisioned state. An AppX registration is needed with user consent. After the first launch, users can go to **Settings** > **General** and fill the **Auto-start Teams** checkbox, or enable auto-start from the Windows Setting menu.
+
+2. If the "Auto-start Teams" checkbox is greyed out, it means a system-wide GPO is disabling this option for UWP apps:
+
+```Registry editor
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System] 
+"EnableFullTrustStartupTasks"=dword:00000000
+"EnableUwpStartupTasks"=dword:00000000
+"SupportFullTrustStartupTasks"=dword:00000000
+"SupportUwpStartupTasks"=dword:00000000
+```
+
+This registry setting causes the option to be unavailable in the operation systems under **Settings** > **Apps** > **Installed Apps**. In order to change this, create the regkeys with the values as shown below:
+
+```Registry editor
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"EnableFullTrustStartupTasks"=dword:00000002
+"EnableUwpStartupTasks"=dword:00000002
+"SupportFullTrustStartupTasks"=dword:00000001
+"SupportUwpStartupTasks"=dword:00000001
+```
+
+Restart the virtual machine to see the startup options active in the operative system’s settings menu.
+
+3. This registry key controls the Teams auto-start behavior, so you can enable or disable it programmatically.
+
+```Registry editor
+[HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\MSTeams_8wekyb3d8bbwe\TeamsTfwStartupTask]
+"State"=dword:00000002
+"UserEnabledStartupOnce"=dword:00000001
+```
+
+|State            |Number |Information                                                              |
+|-----------------|-------|-------------------------------------------------------------------------|
+|Disabled         |0      |The task is disabled.                                                    |
+|DisabledByUser   |1      |The task was disabled by the user. It can only be re-enabled by the user.|
+|EnabledByUser    |2      |The task is enabled.                                                     |
+|DisabledByPolicy |3      |The task is disabled by the administrator or group policy. Platforms that don't support startup taks also report DisabledByPolicy. |
+|EnabledByPolicy  |4      |The task is enabled by the administrator or group policy.                |
+
+You can learn more at [this link](https://learn.microsoft.com/uwp/api/windows.applicationmodel.startuptaskstate?view=winrt-19041#fields).
+
 ## Profile and cache location for new Teams Client
 
 All the user settings and configurations are now stored in:
