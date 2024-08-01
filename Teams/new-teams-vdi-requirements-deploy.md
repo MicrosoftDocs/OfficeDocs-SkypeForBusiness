@@ -328,7 +328,10 @@ Restart the virtual machine to see the startup options active in the operative s
 |DisabledByPolicy |3      |The task is disabled by the administrator or group policy. Platforms that don't support startup taks also report DisabledByPolicy. |
 |EnabledByPolicy  |4      |The task is enabled by the administrator or group policy.                |
 
-You can learn more at [this link](https://learn.microsoft.com/uwp/api/windows.applicationmodel.startuptaskstate?view=winrt-19041#fields).
+You can learn more at [this link](/uwp/api/windows.applicationmodel.startuptaskstate?view=winrt-19041#fields).
+
+> [!IMPORTANT]
+> If you're using non-persistent VDI, you must make sure the TeamsTfwStartupTask registry key is roamed. FSLogix ODFC containers won't roam this, so you must rely on your other profile management tools (VMWare DEM, AppSense, Citrix UPM) to persist this key.
 
 ## Profile and cache location for new Teams Client
 
