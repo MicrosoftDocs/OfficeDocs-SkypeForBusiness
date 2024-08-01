@@ -43,7 +43,9 @@ Before you follow the procedures in this article, be sure you have read [Plan fo
 
 ## What's new for Call queues in the past six months
 
-- August 7 - [Courtesy callback](#courtesy-callback) functionality available through PowerShell cmdlets
+- August 7
+  - [Courtesy callback](#courtesy-callback) functionality available through PowerShell cmdlets
+  - Conference mode is now supported for Skype for Business clients and calls that are routed to the queue from Skype for Business Server
 - April 8 - Additional messaging options for call queue Overflow, Timeout, and No Agents exception routing in Teams admin center and [PowerShell cmdlets](#additional-messaging)
 
 ## Steps to create a Call queue
@@ -241,12 +243,9 @@ To **add a group** to the queue:
 
 ### Conference mode
 
-**Conference mode** reduces the amount of time it takes for a caller to be connected to an agent after the agent accepts the call. For conference mode to work, agents in the Call queue must use one of the following clients:
-
-- The latest version of the Microsoft Teams desktop client, Android app, or iOS app
-- Microsoft Teams Phone version 1449/1.0.94.2020051601 or later
+**Conference mode** reduces the amount of time it takes for a caller to be connected to an agent after the agent accepts the call. 
   
-Agents' Teams accounts must be set to TeamsOnly mode. Agents who don't meet the requirements aren't included in the call routing list. We recommend enabling conference mode for your Call queues if your agents are using compatible clients.
+Agents' Teams accounts must be set to TeamsOnly mode. Agents who don't meet the requirements aren't included in the call routing list.
 
 > [!TIP]
 > Setting **Conference mode** to **On** is the recommended setting.
@@ -255,8 +254,6 @@ Once you select your call answering options, select the **Next** button at the b
 
 > [!NOTE]
 > Conference mode isn't supported for calls that are routed to the queue from a Direct Routing gateway that's enabled for Location Based Routing.
->
-> Conference mode isn't supported for calls that are routed to the queue from Skype for Business Server.
 >
 > Conference mode is required if Teams users need to consult/transfer calls with Call queues.
 >
@@ -594,7 +591,7 @@ For more information, see:
 |Presence Based Routing<sup>4</sup>|Y                        |Y         |Y                             |Y<sup>11</sup>                 |N                  |Y         |Y                     |Y                         |*Default*     |
 |Agents can opt out               |Y                         |Y         |Y                             |Y<sup>11</sup>                 |Y<sup>8</sup>      |Y<sup>8</sup>|Y                  |Y                         |*Default*     |
 |**Transfer Modes**               |                          |          |                              |                               |                   |          |                      |                          |              |
-|Conference Mode<sup>6</sup>      |Y                         |Y         |Y                             |Y                              |N                  |Y<sup>7</sup>|Y                  |Y                         |*Default*     |
+|Conference Mode<sup>6</sup>      |Y                         |Y         |Y                             |Y                              |Y                  |Y<sup>7</sup>|Y                  |Y                         |*Default*     |
 |Transfer Mode                    |Y                         |Y         |Y                             |Y                              |Y                  |Y         |Y                     |Y                         |              |
 |**Collaborative Calling**        |                          |          |                              |                               |                   |          |                      |                          |              |
 |Channel Based Queues             |Y                         |N         |N                             |N                              |N                  |N         |N/A                   |Y<sup>9</sup>             |Agents on non-supported devices can still answer calls however they won't have the collaborative calling user interface           |
@@ -603,8 +600,8 @@ For more information, see:
 |Channel based Call queue         |Y                         |N/A       |N/A                           |N/A                            |N/A                |N/A       |N/A                   |Y                         |              |
 |**PSTN Connectivity Methods**    |                          |          |                              |                               |                   |          |                      |                          |See Note 10   |
 |Calling Plans                    |Y                         |Y         |Y                             |Y                              |Y                  |Y         |Y                     |Y                         |              |
-|Direct Routing                   |Y                         |Y         |Y                             |Y                              |N                  |Y         |Y<sup>7</sup>         |Y                         |              |
-|Operator Connect                 |Y                         |Y         |Y                             |Y                              |                   |Y         |Y<sup>7</sup>         |Y                         |              |
+|Direct Routing                   |Y                         |Y         |Y                             |Y                              |N<sup>12</sup>     |Y         |Y<sup>7</sup>         |Y                         |              |
+|Operator Connect                 |Y                         |Y         |Y                             |Y                              |N                  |Y         |Y<sup>7</sup>         |Y                         |              |
 |**Miscellaneous**                |                          |          |                              |                               |                   |          |                      |                          |              |
 |Call toast shows Resource Account Name |Y                   |N         |Y                             |N                              |Y                  |          |Y                     |Y                         |              |
 |[Compliance recording](teams-recording-policy.md) | N/A     |N/A       |N/A                           |N/A                            |N/A                |N/A       |N/A                   |N                         |              |
@@ -627,6 +624,7 @@ For more information, see:
 9. Only standard channels are supported.
 10. Transferring calls between PSTN connectivity methods isn't supported.
 11. Performed through Team Phone Mobile app or see #8.
+12. Call queues that are assigned a direct routing number don't support Skype for Business clients, Lync clients, or Skype for Business IP Phones as agents. The Teams client is only supported with a [co-existence mode of Teams Only](setting-your-coexistence-and-upgrade-settings.md).
 
 ### Supported clients
 
@@ -644,9 +642,6 @@ The following clients are supported for call agents in a Call queue:
 - Microsoft Teams on [Virtualized Desktop Infrastructure](teams-for-vdi.md) (Windows Virtual Desktop, Citrix, and VMware)
 - Microsoft Teams iPhone app
 - Microsoft Teams Android app
-
-> [!NOTE]
-> Call queues that are assigned a direct routing number don't support Skype for Business clients, Lync clients, or Skype for Business IP Phones as agents. The Teams client is only supported with a [co-existence mode of Teams Only](setting-your-coexistence-and-upgrade-settings.md).
 
 ### Call Queue Diagnostic Tool
 
