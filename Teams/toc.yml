@@ -329,7 +329,7 @@ items:
           href: /microsoft-365/compliance/information-barriers-teams-shared-channels?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Legal hold
           href: /microsoft-365/compliance/ediscovery-teams-legal-hold?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-        - name: Policy-based recording for callings & meetings
+        - name: Third party compliance recording
           href: teams-recording-policy.md
         - name: Retention policies
           href: retention-policies.md        
