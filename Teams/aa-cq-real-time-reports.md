@@ -116,12 +116,12 @@ Current Feed:
 - Previous calls that have have been answered by an agent or abandoned will not be re-evaluated against the new service level target
 
 Summary Feed (non-aggregated):
-•	The last service level target of the current interval will be used as the value for that interval in the summary feed
-•	Previous calls in earlier intervals that have been answered by an agent or abandoned will not be re-evaluated against the new service level target
+- The last service level target of the current interval will be used as the value for that interval in the summary feed
+- Previous calls in earlier intervals that have been answered by an agent or abandoned will not be re-evaluated against the new service level target
 
 Summary Feed (aggregated):
-•	The service level target of the most recent summary interval will be sent.
-•	Previous calls in earlier intervals that have been answered by an agent or abandoned will not be re-evaluated agent the new service level target
+- The service level target of the most recent summary interval will be sent.
+- Previous calls in earlier intervals that have been answered by an agent or abandoned will not be re-evaluated agent the new service level target
 
 ## Agent metrics
 All metrics are whole numbers unless otherwise stated.
