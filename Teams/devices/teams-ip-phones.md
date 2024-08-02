@@ -256,6 +256,7 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 #### <b> Audiocodes </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications  | Release date|
 |:----------------|:-------------------|:----------------------------|:---------------------------------------------------------------|:----------------------------|
+| RX Panel | `2.4.124` | N/A| Teams client: `1449/1.0.97.2024061108` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| August 1, 2024|
 | RX Panel | `2.4.55` | N/A| Teams client: `1449/1.0.97.2024010401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202402202353.product`| May 16, 2024|
 | RX Panel | `2.2.808` | N/A| Teams client: `1449/1.0.97.2023111003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| February 27, 2024|
 | RX Panel | `2.2.311` | N/A| Teams client: `1449/1.0.97.2023080401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| October 16, 2023|
@@ -305,6 +306,7 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 #### <b> Poly </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications  | Release date|
 |:----------------|:-------------------|:----------------------------|:---------------------------------------------------------------------------------|:---------------------------------------------|
+| TC10 | `6.3.0-211719` | N/A| Teams client: `1449/1.0.97.2024042504` <br> Company Portal: `5.0.6061.0` <br> Admin Agent: `1.0.0.202402202353.product`| August 1, 2024|
 | TC10 | `5.0.1.211321` | N/A| Teams client: `1449/1.0.97.2023080401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| December 12, 2023|
 | TC10 | `5.0.0.211238` | N/A| Teams client: `1449/1.0.97.2023060102` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| September 12, 2023|
 
