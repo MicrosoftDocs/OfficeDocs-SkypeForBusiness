@@ -107,4 +107,24 @@ All metrics are whole numbers unless otherwise stated.
 |sl_met_positive_abandon (Decimal – two digits) (null if sl_target is null) | Current & Summary |Authorized Users & Agents|Percentage of calls answered/abandoned that met service level target - abandoned calls within service level target positively impact service level percentage<br>([sl_tot_answered_calls + sl_tot_abandoned_calls] / tot_offered_calls) |
 |sl_met_negative_abandon (Decimal – two digits) (null if sl_target is null)	|Current & Summary |Authorized Users & Agents|Percentage of calls answered/abandoned that met service level target - abandoned calls within service level target negatively impact service level percentage<br>(sl_tot_answered_calls / tot_offered_calls) |
 
+### Service Level Notes
 
+Changes to the service level target threshold are processed as follows:
+
+Current Feed:
+- Changes will be reflected in the current feed with the next call answered / call abandoned event
+- Previous calls that have have been answered by an agent or abandoned will not be re-evaluated against the new service level target
+
+Summary Feed (non-aggregated):
+•	The last service level target of the current interval will be used as the value for that interval in the summary feed
+•	Previous calls in earlier intervals that have been answered by an agent or abandoned will not be re-evaluated against the new service level target
+
+Summary Feed (aggregated):
+•	The service level target of the most recent summary interval will be sent.
+•	Previous calls in earlier intervals that have been answered by an agent or abandoned will not be re-evaluated agent the new service level target
+
+## Agent metrics
+All metrics are whole numbers unless otherwise stated.
+
+|Key                                     |Feed              |Available To             |Description                                           |
+|:---------------------------------------|:-----------------|:------------------------|:-----------------------------------------------------|
