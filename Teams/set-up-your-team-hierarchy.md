@@ -113,7 +113,7 @@ You can add bucket columns to create buckets, which are groupings into which tas
 
 By categorizing the work items one time centrally, the publishing team can preorganize the task list for all the tens, hundreds, or thousands of recipient teams that receive the task list. The recipient teams can then sort and filter their tasks by bucket to focus on the area most relevant to their work.
 
-When you add a bucket column, note the following:
+When you add a bucket column, keep the following things in mind:
 
 * The column name becomes the name of the bucket. Each bucket you specify appears in the Buckets list in the Teams apps that use the hierarchy.
 * We recommend that you don't include sensitive information in bucket names. At this time, publishing teams can't remove a bucket through publishing after it's created.
@@ -122,7 +122,7 @@ When you add a bucket column, note the following:
 
 ### Example
 
-Here's an example of a schema CSV file that would be created to support the hierarchy shown in the previous image. This schema contains the following:
+Here's an example of a schema CSV file that would be created to support the hierarchy shown in the previous image. This schema contains the following columns:
 
 * Three required columns named `TargetName`, `ParentName`, and `TeamId`
 * Three attribute columns named `Store layout`, `Departments:Clothing`, and `Departments:Foods`
@@ -143,8 +143,8 @@ New York Store,Northeast Zone,e2ba65f6-25e7-488b-b8f0-b8562d5de60a,Large,1,1,,,
 Boston Store,Northeast Zone,0454f08a-0507-437c-969a-682eb2fae7fc,Standard,1,1,,,
 Miami Store,Southeast Zone,619d6e4e-5f68-4b36-8e1f-16c98d7396c1,Compact,0,1,,,
 New Orleans Store,Southeast Zone,6be960b8-72af-4561-a343-9ac4711874eb,Compact,0,1,,,
-Seattle Store,West Regional Zone,487c0d20-4e55-4dc2-8187-a24c826e0fee,Standard,1,1,,,
-Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,1,1,,,
+Seattle Store,West Regional Office,487c0d20-4e55-4dc2-8187-a24c826e0fee,Standard,1,1,,,
+Los Angeles Store,West Regional Office,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,1,1,,,
 ```
 
 ## Apply your hierarchy

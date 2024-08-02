@@ -283,6 +283,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Logitech 930e](https://www.logitech.com/product/c930e-webcam) | 8.0.914 | &#x2714; |  |
 | [Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam) | 1.2.4 |  |  |
 | [Logitech Rally Bar](https://www.logitech.com/products/video-conferencing/room-solutions/rallybar.960-001308.html) | 10.3.82 |  |  |
+| [Logitech Rally Bar](https://www.logitech.com/products/video-conferencing/room-solutions/rallybar.html) with [Mic Pods](https://www.logitech.com/products/video-conferencing/accessories/mic-pod-for-rally.html) | Logi CollabOS: 1.10.425 <br/> Mic pods: 2.1.4 |  |  |
 | [Logitech Sight](https://www.logitech.com/products/video-conferencing/room-solutions/sight.960-001510.html) + [Rally Bar](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/rallybar.960-001308.html) |  Sight: <br/> Logi CollabOS: 1.10.208 |  | &#x2714; |
 | [Logitech Rally Bar Mini](https://www.logitech.com/products/video-conferencing/room-solutions/rallybarmini.960-001336.html) | 10.5.880 |  |  |
 | [Logitech Sight](https://www.logitech.com/products/video-conferencing/room-solutions/sight.960-001510.html) + [Rally Bar Mini](https://www.logitech.com/products/video-conferencing/room-solutions/rallybarmini.960-001336.html) | Sight: <br/> Logi CollabOS: 1.10.208 |  | &#x2714; |
