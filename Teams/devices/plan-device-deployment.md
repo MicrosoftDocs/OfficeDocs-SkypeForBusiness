@@ -1,10 +1,10 @@
 ---
-title: Plan your deployment for Teams Phone devices and Displays
+title: Plan your deployment for Teams Phones
 ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
-ms.reviewer: vijagan
-ms.date: 12/17/2021
+ms.reviewer: prashibadkur
+ms.date: 08/02/2024
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
@@ -18,16 +18,12 @@ ms.collection:
 f1.keywords: 
   - NOCSH
 search.appverid: MET150
-description: This article provides an overview of the tasks and steps to deploy Teams Phones and displays in your organization.
+description: This article provides an overview of the tasks and steps to deploy Teams Phones in your organization.
 ---
 
-# Plan your deployment for Teams Phone devices and Displays
+# Plan your deployment for Teams Phones
 
 Teams Phone devices are a great way to stay connected and productive with your colleagues and customers. These devices are designed to provide a seamless calling and meeting experience. With just three easy steps, you can deploy a [Teams Phone device certified by Microsoft](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/category/desk-phones-teams-displays/34?page=1&filterIds=), in your spaces and enjoy advanced calling features.
-
-> [!IMPORTANT]
-> End of support for the Teams display app is September 3, 2025. Microsoft will make commercially reasonable best efforts to maintain compatibility with the most recent version of the Teams app provided to manufacturers for a period of two (2) years from this date. See the [Microsoft Product and Services lifecycle](/lifecycle/products/) for details.
-
 
 ## Step 1: Consider the space Teams Phone device will be used in
 - **Personal Space**: Used on an employee’s desk to make and receive calls.
