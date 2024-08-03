@@ -717,6 +717,7 @@ Introduced in this update:
 
 |Release  |Release date  |
 |---------|---------|
+|[1449/1.0.96.2024072902](#144910962024072902-june-2024) | August 2024 |
 |[1449/1.0.96.2024061103](#144910962024061103-june-2024) | June 2024 |
 |[1449/1.0.96.2024042606](#144910962024042606-april-2024) | April 2024 |
 |[1449/1.0.96.2024032804](#144910962024032804-april-2024) | April 2024 |
@@ -745,6 +746,13 @@ Introduced in this update:
 > There can be a delay between when features are released by Microsoft and when they become available on a device make and model. If an update isn't available on your device, check with your device manufacturer for information on when it might become available.
 
 Features with :::image type="icon" source="../media/mtr-pro-icon.png"::: are only available with Teams Rooms Pro license.
+
+### 1449/1.0.96.2024072902 (August 2024)
+
+Introduced in this update:
+
+- **Custom backgrounds**. IT admins can upload custom background images on the Teams admin center to reinforce their company brand on their Teams Rooms on Android devices. The main room display, extended room display, and touch console can each have their own specific background image. PNG, JPG, and JPEG formats are supported. This feature is only available with the Teams Rooms Pro license. [Learn more](/microsoftteams/rooms/custom-backgrounds-android).
+- **Join Zoom meetings with an ID and passcode**. Users can now join Zoom meetings with an ID and a passcode on Teams Rooms on Android. Rooms must be configured to enable Direct Guest Join meetings. [Learn more](/microsoftteams/rooms/third-party-join).  
 
 ### 1449/1.0.96.2024061103 (June 2024)
 
