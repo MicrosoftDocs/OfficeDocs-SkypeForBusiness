@@ -85,6 +85,10 @@ Here are the messaging policy settings that you can configure.
   - **Turned off for everyone** This means the feature is disabled and no one in the tenant has read receipts nor can they turn it on.
 <a name="bkchat"> </a>
 
+- **Upload custom emoji** Set which users can create custom emojis. This setting is on by default.
+
+- **Delete custom emoji** Set which users can delete emojis. This setting is off by default (except for Teams admins).
+
 - **Chat** Turn this setting on if you want users in your organization to be able to use the Teams app to chat with other people. When this setting is off, chat is disabled for new one-on-one and group chats.
 - **Chat with groups** Users can start a chat with distribution groups, mail-enabled security groups, and Microsoft 365 groups.
 - **Use Giphy in conversations**  If you turn on Giphys, users can include Giphys in chat conversations with other people. Giphy is an online database and search engine that allows users to search for and share animated GIF files. Each Giphy is assigned a content rating. In addition to turning on this setting, you need to enable [Optional Connected Experiences](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) to allow Giphys in conversations.
