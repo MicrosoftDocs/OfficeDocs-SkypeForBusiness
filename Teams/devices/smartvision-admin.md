@@ -49,7 +49,7 @@ These Microsoft Teams Rooms devices support Multi-Stream IntelliFrame and people
 
 ### Setting up your certified Multi-Stream IntelliFrame camera to your Microsoft Teams Room
 
-Connect the supplied USB cable to the USB port on your Microsoft Teams Room device.
+Connect the supplied USB 3 cable to a USB 3 port on your Microsoft Teams Rooms compute module. 
 
 > [!Note]
 > Ensure the cable is not pulled tightly or pinched for ideal data transmission and connectivity.
