@@ -33,10 +33,11 @@ To learn about recording for live events, see [Live event recording policies in 
 
 When a meeting is recorded:
 
-- It gets uploaded to the meeting organizer's OneDrive (private meetings) or SharePoint (channel meetings)
-- People invited to the meeting have permissions to view the recording (guests and external attendees can view the recording only if the recording is explicitly shared with them)
+- It gets uploaded to the meeting organizer's OneDrive (private meetings) or SharePoint (channel meetings). To learn more about recordings in OneDrive and SharePoint, see [Teams meeting recording storage and permissions in OneDrive and SharePoint](tmr-meeting-recording-change.md).
+- People invited to the meeting have permissions to view the recording (guests and external attendees can view the recording only if the recording is explicitly shared with them).
 - Microsoft Purview compliance, OneDrive file storage, and access permissions apply to the meeting recording files the same as with other files.
 - It's linked in the chat for the meeting.
+- It's displayed in the Recordings and Transcripts tab for the meeting in Teams calendar.
 - It's added to various file lists across Microsoft 365: Shared with me, office.com, Recommended, Recent, etc.
 - Microsoft 365 Search indexes it
 
@@ -148,7 +149,6 @@ There are two ways for you to view consent data. The first way is in the [Teams 
 The following user types are auto consented for recording and transcription without any participant interaction. They get a consent notification, and their consent data is logged as 'not applicable' or 'auto consent':
 
 - Teams Rooms on Windows
-- Teams Rooms on Android
 - Third party video conferencing devices via Cloud Video Interop (CVI)
 - Third party video conferencing devices connecting via Direct Guest Join (DGJ)
 
@@ -162,12 +162,14 @@ Explicit consent is supported on the following endpoints:
 - Mobile Teams (Android and iOS)
 - Meeting participants dialing in using [Audio Conferencing](conferencing-recording-consent.md)
 - VDI
+- Shared devices
+- Teams Rooms on Android
+- Teams Phone devices (including audio conferencing phone devices)
 
 #### Unsupported endpoints and platforms
 
 In meetings requiring explicit consent, users joining from unsupported endpoints have the view-only experience. Explicit consent isn’t supported on the following endpoints, along with any endpoints not listed under supported endpoints:
 
-- Teams Phone devices (including audio conferencing phone devices)
 - Teams Displays
 - CarPlay
 - Old version native clients
