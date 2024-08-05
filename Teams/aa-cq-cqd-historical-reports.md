@@ -96,7 +96,7 @@ For more information, see:
 
 #### Known Issue
 
-If the Voice application policy assigned to the user only enables the Historical reporting permissions, and optionally the real-time reporting permissions, then the user will be denied access to the historical reports. Support is working to resolve this problem. In the interim, enable at least one Auto attendant and Call queue change permission in the policy. Enabling the Auto attendant `Business hours greeting` and Call queue `Welcome greeting` is suggested but any of the change permissions will work around this issue.
+If the voice applications policy assigned to a user only enables the historical reporting permissions, and optionally the real-time reporting permissions, then the user can't access the historical reports. Support is working to resolve this problem. In the interim, enable at least one Auto attendant and Call queue change permission in the policy. Enabling the Auto attendant **Business hours greeting** and Call queue **Welcome greeting** is suggested, but enabling any of the change permissions will work around this issue.
 
 2. Call Quality Dashboard (CQD) pipeline [legacy]
 
