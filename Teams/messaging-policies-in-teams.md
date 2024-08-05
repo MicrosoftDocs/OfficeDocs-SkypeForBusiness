@@ -85,9 +85,8 @@ Here are the messaging policy settings that you can configure.
   - **Turned off for everyone** This means the feature is disabled and no one in the tenant has read receipts nor can they turn it on.
 <a name="bkchat"> </a>
 
-- **Upload custom emoji** Set which users can create custom emojis. This setting is on by default.
-
-- **Delete custom emoji** Set which users can delete custom emojis. This setting is off by default (except for Teams admins). For more information about custom emojis and their new messaging policy settings, see [Custom emojis in Microsoft Teams](teams-custom-emojis.md).
+- **Upload custom emojis** Set which users can create custom emojis. This setting is on by default.
+- **Delete custom emojis** Set which users can delete custom emojis. This setting is off by default (except for Teams admins). For more information about custom emojis and their new messaging policy settings, see [Custom emojis in Microsoft Teams](teams-custom-emojis.md).
 
 - **Chat** Turn this setting on if you want users in your organization to be able to use the Teams app to chat with other people. When this setting is off, chat is disabled for new one-on-one and group chats.
 - **Chat with groups** Users can start a chat with distribution groups, mail-enabled security groups, and Microsoft 365 groups.
