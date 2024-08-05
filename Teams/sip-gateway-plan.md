@@ -279,7 +279,9 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |D735<sup>3</sup>          |10.1.141.13     |10.1.141.13 |IP Phone   |   |
 
 <sup>1</sup> Device supports dynamic location discovery through LLDP with SIP Gateway.
+
 <sup>2</sup> Device supports dynamic location discovery with SIP Gateway.
+
 <sup>3</sup> Device supports only static location with SIP Gateway.
 
 > [!NOTE]
