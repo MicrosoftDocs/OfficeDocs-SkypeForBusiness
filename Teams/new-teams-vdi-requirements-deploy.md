@@ -59,7 +59,7 @@ Azure Virtual Desktop provides AV optimization for Teams on VDI. To learn more o
 
 The following minimum versions are necessary to support the new Teams client:
 
-- Remote Desktop Client for Windows 1.2.1755
+- Remote Desktop Client for Windows 1.2.2606
 - Remote Desktop Client for Mac 10.7.7
 - WebRTC Redirector Service 1.1.2110.16001
 
@@ -83,7 +83,7 @@ If you want to create custom images that include optimizations for Microsoft Tea
 
 The following minimum versions are necessary to support the new Teams client:
 
-- Remote Desktop Client for Windows 1.2.1755
+- Remote Desktop Client for Windows 1.2.2606
 - Remote Desktop Client for Mac 10.7.7
 - Windows 365 app for Windows via the Microsoft Store
 
@@ -659,7 +659,7 @@ The following features aren't supported in either classic Teams or new Teams.
 - Location Based Routing.
 - Media Bypass.
 - HID (Citrix only).
-- Share System Audio (Citrix and VMware).
+- Share System Audio (VMware only).
 - Broadcast and live event producer and presenter roles.
 - Cross cloud anonymous join in Government Clouds (GCC, GCC High and DoD).
 - **Record video clip** doesn't capture screen share.
