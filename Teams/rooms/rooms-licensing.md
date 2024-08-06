@@ -208,3 +208,10 @@ If you encounter devices showing an incorrect “unlicensed” status even thoug
 - For MTR-A devices, kindly open an incident with the TAC team to ensure that the correct account information is sent to the service. 
 
 
+### Assigning additional licenses:
+
+Teams rooms licenses contain all service needed for Teams rooms functions and additional licenses are not needed or supported with Teams Rooms devices. This excludes telephony, and customers with calling needs should purchase a calling plan to assign to the device, or setup direct routing for the room account. A Teams rooms device managed by central IT should not assign any other licenses than needed for calling. However, in some instances, where a device is used by an executive to conduct meetings using a Teams rooms device and access to their personal calendar is desired, executive's user account can be setup on the device as long as device also have a valid Microsoft Teams Rooms Pro license. Using a user account on a Teams rooms device would require the account to meet authentication requirements as needed by the device and will still provide room specific experience on the device. IT administrator should perform independent evaluation of this scenario and decide if their company policies allow for this exception. 
+
+> [!IMPORTANT]
+> - Microsoft Teams rooms are not personal devices and should not be considered or used as such.
+> -  Do not assign Microsoft OneDrive for Business licenses to Teams rooms account when the resource account for the Teams rooms device is managed by your IT department. Doing so has potential of saving user owned content on room's OneDrive for Business (such as recordings, transcripts and Whiteboards in cases where room starts the meeting/ session and invites end users to the session) and provides challenges for content management.
