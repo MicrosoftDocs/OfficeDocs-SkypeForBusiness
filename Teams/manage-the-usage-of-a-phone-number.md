@@ -47,7 +47,7 @@ Before changing the usage of a number:
 
 To change the usage of a phone number by using the Teams admin center:
 
-1. Open the Microsoft Teams admin center and log in with a Global admin or a Teams administrator account. This account is usually the one you used to sign up for Microsoft 365.
+1. Open the Microsoft Teams admin center and log in with a Teams Telephony Administrator, Teams Communications Administrator, or Teams Administrator account. 
 
 2. In the left navigation, select **Voice** \> **Phone numbers**.
 
