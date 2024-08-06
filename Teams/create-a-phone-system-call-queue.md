@@ -43,7 +43,7 @@ Before you follow the procedures in this article, be sure you have read [Plan fo
 
 ## What's new for Call queues in the past six months
 
-- August 19
+- August 26
   - [Courtesy callback](#courtesy-callback) functionality available through PowerShell cmdlets
   - Conference mode is now supported for Skype for Business clients and calls that are routed to the queue from Skype for Business Server
 - April 8 - Additional messaging options for call queue Overflow, Timeout, and No Agents exception routing in Teams admin center and [PowerShell cmdlets](#additional-messaging)
@@ -616,7 +616,7 @@ For more information, see:
 4. Selecting *Longest Idle* for the agent routing method automatically enables Presence based routing.
 5. It's not possible to set the order the agents are presented with calls when using a group or channel for membership.
 6. Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that's enabled for Location-Based Routing.
-    - Location based routing is not supported for Call queues, see [Voice apps (Auto Attendant or Call Queue)](location-based-routing-plan.md#inbound-calls-through-auto-attendants).
+    - Location based routing is not supported with Call queues, see [Voice apps (Auto Attendant or Call Queue)](location-based-routing-plan.md#inbound-calls-through-auto-attendants).
 7. Microsoft Teams Phone only.
 8. Through the User Settings Portal page at [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
     - GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
