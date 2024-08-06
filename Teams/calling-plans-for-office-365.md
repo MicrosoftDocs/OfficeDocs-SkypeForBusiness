@@ -40,7 +40,7 @@ This article describes Teams Phone with Microsoft Teams Calling Plans--Microsoft
 
 To find out if Microsoft Teams Calling Plans are available in your area, see [Country and region availability](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-If Teams Calling Plans are not available in your area, Microsoft provides other PSTN connectivity options. For more information about planning your voice solution, and for information on all PSTN connectivity options, see the following articles:
+If Teams Calling Plans aren't available in your area, Microsoft provides other PSTN connectivity options. For more information about planning your voice solution, and for information on all PSTN connectivity options, see the following articles:
 
 - [Plan your voice solution](cloud-voice-landing-page.md)
 - [PSTN connectivity options](pstn-connectivity.md)
@@ -58,7 +58,7 @@ Microsoft Teams Calling Plans include the following options:
 
 To decide which option is right for your organization, ask yourself the following:
 
-- Are Teams Calling Plans available in my area? Which user locations will have Calling Plan service? 
+- Are Teams Calling Plans available in my area? Which user locations  have Calling Plan service? 
 - Do my users need international calling?
 - If some of my users don't make a significant number of outgoing calls, is the Pay-As-You-Go Calling Plan the most economical option for them?
 
@@ -119,12 +119,12 @@ You can buy and assign different Calling Plans to different users, depending on 
 
 ## How to fund a Pay-As-You-Go Calling Plan
 
-Pay-As-You-Go Calling Plans don't have a set number of outgoing call minutes like the Domestic or International Calling Plans. Instead, some admins may need to take additional steps to fund their Pay-As-You-Go Calling Plan. Until the Pay-As-You-Go Calling Plan is properly funded, users won't be able to make outgoing calls.
+Pay-As-You-Go Calling Plans don't have a set number of outgoing call minutes like the Domestic or International Calling Plans. Instead, some admins may need to take additional steps to fund their Pay-As-You-Go Calling Plan. Until the Pay-As-You-Go Calling Plan is properly funded, users aren't able to make outgoing calls.
 
 There are two ways you can fund and use minutes with a Pay-As-You-Go Calling Plan:
 
 - **Purchase the Pay-As-You-Go Calling Plan through the new commerce experience (NCE)**
-  - Customers who purchased their calling plan through the new commerce experience are able to pay for the outgoing call minutes they used in the previous month. This is also called post-usage or post-consumption billing.
+  - Customers who purchased their calling plan through the new commerce experience are able to pay for the outgoing call minutes they used in the previous month. This billing is also called post-usage or post-consumption billing.
   - For instructions on purchasing a calling plan through the new commerce experience, see [Enable pay-as-you-go for your subscription](/microsoft-365/commerce/subscriptions/manage-pay-as-you-go-services) and [New commerce overage for telco pay-as-you-go](/partner-center/new-commerce-telco-payg).
 
 - **Purchase Communication Credits**
