@@ -156,6 +156,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Windows C
 | Yealink MVC320 | Core i5 | 8 GB | 128 GB |
 | Yealink MVC340 | Core i5 | 8 GB | 128 GB |
 | [Yealink MCore 3 Kit](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvc640) | Core i5 | 8 GB | 128 GB |
+| Yealink MVC S40 | Core i5 | 8 GB | 128 GB |
 | [Yealink MVC S60](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvcs60) | Core i5 | 8 GB | 128 GB |
 | [Yealink MVC S90](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvcs90) | Core i5 | 8 GB | 128 GB |
 | [Yealink MVC 960](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvc960) | Core i5 | 8 GB | 128 GB |
@@ -231,6 +232,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 |:-|:-|:-|:-|:-|:-|
 | [Aver VC520 Pro Camera + Speakerphone](https://www.averusa.com/products/conference-camera/vc520pro) | 1004.35 |  |  |
 | [Aver VC520 PRO2 Conferencing System](https://www.averusa.com/products/conference-camera/vc520pro2) | 00.0.7200.79 |  |  |
+| [Aver VC520 PRO3 Conferencing System](https://www.averusa.com/products/conference-camera/VC520pro3) | 0.0.9803.08 |  |  |
 | Aver VB342+ Camera Soundbar | Soundbar: 0.0.0000.97 |  |  |
 | [Aver VB342 pro Video bar](https://www.averusa.com/products/video-collaboration-bar/vb342pro) | 0.0.7800.61 |  |  |
 | [Aver VB350 Video bar](https://communication.aver.com/model/vb350) | 0.0.8200.91 |  |  |
