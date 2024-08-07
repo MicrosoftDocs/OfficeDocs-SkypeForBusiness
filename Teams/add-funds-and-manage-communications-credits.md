@@ -96,8 +96,6 @@ To see a table with the license or licenses you need for each feature, see [Micr
   
 ## Related articles
 
-- [Set up Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
-
 - [Set up Cloud Voicemail - Admin help](set-up-phone-system-voicemail.md)
 
 - [Set up Calling Plans](set-up-calling-plans.md) and [Calling Plans for Microsoft 365 or Office 365](calling-plans-for-office-365.md)
