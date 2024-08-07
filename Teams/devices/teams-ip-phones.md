@@ -349,26 +349,26 @@ We recognize that device certification expiration can impact your business. Our 
 
 Following a certification expiration, Microsoft is committed to supporting the latest version of the Teams client on certified devices for a span of two years after the certification period concludes. While Microsoft will make every effort to maintain support as described here, it retains the discretion to modify its support policy if necessary. Should any changes occur, they will be communicated through established channels directed at customers.
 
-| Device Category | Device Model | Android OS Version | Certification end date |  
+| Device Category | Device Model | Android OS Version | Certification end date |
 |:----------------|:-------------------|:----------------------------|:--------------------------|
-|Teams phones - conference|Poly Trio 8500/8600|7|October 4, 2021|
+|Teams phones - conference|Poly Trio 8500/8800|7|October 4, 2021|
 |Teams phones|Yealink T55/T55A|7|October 4, 2021|
 |Teams phones|Yealink T56/T56A|7|October 4, 2021|
 |Teams phones|Yealink T58/T57A|7|October 4, 2021|
 |Teams phones - conference | Yealink CP960| 7 | October 4, 2021 |
 |Teams phones | Yealink MP52 | 9 | August 5, 2023 |
 |Teams phones - video | Yealink VP59 | 9| August 5, 2023|
-|Teams phones | AudioCodes C448HD | 9| August 5, 2023 | 
+|Teams phones | AudioCodes C448HD | 9| August 5, 2023 |
 |Teams phones | AudioCodes C450HD | 9 | August 5, 2023 |
-|Teams phones - conference |Crestron UC-2 | 9 | August 5, 2023 | 
+|Teams phones - conference |Crestron UC-2 | 9 | August 5, 2023 |
 |Teams phones | Crestron UC-P8| 9 | August 5, 2023 |
-|Teams phones | Crestron UC-P10 | 9 | August 5, 2023 | 
+|Teams phones | Crestron UC-P10 | 9 | August 5, 2023 |
 |Teams phones - video| Crestron UC-P8-C | 9 | August 5, 2023 |
 |Teams phones - video | Crestron UC-P10-C | 9 | August 5, 2023 |
 |Teams displays | Crestron UC-P8-TD | 9 | August 5, 2023 |
 |Teams displays | Crestron UC-P10-TD| 9 | August 5, 2023 |
 |Teams Rooms for Android | Yealink VC210 | 9 | August 5, 2023 |
-|Teams Rooms for Android | EPOS Expand Vision 3T | 9 | August 5, 2023| 
+|Teams Rooms for Android | EPOS Expand Vision 3T | 9 | August 5, 2023|
 
 
 ## More resources
