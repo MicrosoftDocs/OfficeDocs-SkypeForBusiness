@@ -49,6 +49,9 @@ To use the devices store in the Teams admin center, go to  **Devices > Store**.
 
 To use the device store, you need to be a Global admin, a Teams admin, or a Teams device admin.
 
+> [IMPORTANT]
+>  Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+
 ### Browse the store
 
 The device store includes all devices that are certified for Teams, including headsets, web cameras, and Teams devices such as Teams Rooms, desk phones, and Teams displays. You can sort, filter, or search to find the device that your organization needs.
