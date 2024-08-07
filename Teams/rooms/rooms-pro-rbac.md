@@ -30,6 +30,9 @@ To create, edit, or assign roles, your account must have one of the following pe
 - Global Administrator through Microsoft Entra ID
 - Teams Rooms Pro Manager through the Microsoft Teams Rooms Pro Management portal
 
+> [!IMPORTANT]
+>Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+
 ## What is a role?
 
 A role defines the set of permissions granted to users assigned to that role. For now, the Microsoft Teams Rooms Pro Management portal has three built-in roles: **Teams Rooms Pro Manager**, **Site Lead**, and **Site Technician**. They cover some common scenarios for users in your organization that may be involved in managing your rooms.
@@ -76,6 +79,9 @@ The following table summarizes what each role can do.
 
 If the built-in roles do not suit your organizational needs, you can create a role and configure its permissions as desired. To create a role, you must be a Global Administrator or Teams Rooms Pro Manager role. 
 
+> [!IMPORTANT]
+>Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+
 1. In the left navigation of the Microsoft Teams Rooms Pro Management portal, go to **Settings** > **Roles**.
 2. Select **Create role**.
 3. On the **General settings** page, under **Role properties**, enter a name for this role. Under **Description**, enter details about this role. Choose **Next**.
@@ -88,6 +94,9 @@ If the built-in roles do not suit your organizational needs, you can create a ro
 ## Assign a role
 
 To assign roles, you must be a Global Administrator or Teams Rooms Pro Manager role or have a role with role management permissions.
+
+> [!IMPORTANT]
+>Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
 1. In the left navigation of the Microsoft Teams Rooms Pro Management portal, expand **Settings** > **Roles**.
 
