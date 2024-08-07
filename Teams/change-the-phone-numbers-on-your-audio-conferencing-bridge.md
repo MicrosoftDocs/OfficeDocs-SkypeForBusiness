@@ -95,7 +95,7 @@ Because the phone number is changing, you should update all users with a changin
 
 If the phone number is removed without updating the users and their meetings, their existing meeting invites could contain a phone number that doesn't work for joining their meetings.
 
-For the first three steps, you need to start Windows PowerShell. For more information on how to start Windows PowerShell, see [Getting started with PowerShell](powershell/scripting/learn/ps101/01-getting-started).
+For the first three steps, you need to start Windows PowerShell. For more information on how to start Windows PowerShell, see [Getting started with PowerShell](/powershell/scripting/learn/ps101/01-getting-started).
 
 ### Step 1 - Update users who have the phone number to be unassigned as one of their default numbers
 
