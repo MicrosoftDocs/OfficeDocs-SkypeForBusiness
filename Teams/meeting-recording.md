@@ -37,7 +37,7 @@ When a meeting is recorded:
 - People invited to the meeting have permissions to view the recording (guests and external attendees can view the recording only if the recording is explicitly shared with them).
 - Microsoft Purview compliance, OneDrive file storage, and access permissions apply to the meeting recording files the same as with other files.
 - It's linked in the chat for the meeting.
-- It's displayed in the Recordings and Transcripts tab for the meeting in Teams calendar.
+- It's displayed in the **Recordings and Transcripts tab** for the meeting in Teams calendar.
 - It's added to various file lists across Microsoft 365: Shared with me, office.com, Recommended, Recent, etc.
 - Microsoft 365 Search indexes it
 
