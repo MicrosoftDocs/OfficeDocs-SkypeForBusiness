@@ -32,7 +32,7 @@ This article explains:
 1. [How to control that bandwidth usage?](#how-do-i-control-microsoft-teams-rooms-bandwidth-usage)
 1. [How to ensure your devices are optimized with the right quality of service (QoS) configuration to align to your organizations requirements?](#quality-of-service-qos-with-microsoft-teams-rooms)
 
-Wired network connectivity is recommended for Microsoft Teams Rooms devices. If wireless network connectivity is the only option, see best practice guidance [here](../rooms/rooms-plan.md).
+Wired network connectivity is recommended for Microsoft Teams Rooms devices. If wireless network connectivity is the only option, see best practice guidance [here](../rooms/rooms-plan.md#wireless-network-considerations).
 
 ## How much bandwidth will a Microsoft Teams Rooms device use?
 
@@ -51,7 +51,7 @@ The following table provides rough estimates of bandwidth utilized for the vario
 |**Total**     |  **4128/6128**       |**10256/6256**         |
 
 
-Teams Rooms can support up to 18 individual incoming video streams, up to five outbound video streams, and content sharing either inbound or outbound.  The number of streams consumed by the Teams Rooms device can have a large impact on the downstream bandwidth consumed, and the capabilities of the connected Teams Rooms camera can impact the outbound bandwidth usage. Bandwidth consumption can also vary with the resolution of the cameras that the remote participants have connected to the meeting, along with the number of participants with video enabled.
+Teams Rooms can support up to 18 individual incoming video streams, up to five outbound video streams (with a [Multi-Stream IntelliFrame camera](../devices/smartvision-admin)), and content sharing either inbound or outbound. The number of streams consumed by the Teams Rooms device can have a large impact on the downstream bandwidth consumed, and the capabilities of the connected Teams Rooms camera can impact the outbound bandwidth usage. Bandwidth consumption can also vary with the resolution of the cameras that the remote participants have connected to the meeting, along with the number of participants with video enabled.
 
 ## How do I control Microsoft Teams Rooms bandwidth usage?
 
