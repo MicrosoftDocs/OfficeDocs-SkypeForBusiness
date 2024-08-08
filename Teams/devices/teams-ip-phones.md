@@ -173,6 +173,8 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 #### <b> Yealink </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications  | Release date|
 |:----------------|:-------------------|:----------------------------|:----------------------------------------------------------------------------------------------|:--------------------------------------------|
+|MP54/MP56/MP58| `122.15.0.157`| `N/A` | Teams client: `1449/1.0.94.2024071104` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| August 7, 2024|
+|CP965| `143.15.0.65`| `N/A` | Teams client: `1449/1.0.94.2024071104` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| August 7, 2024|
 |MP52 E2/MP54 E2/MP56 E2/MP58 E2| `176.15.0.19`| `N/A` | Teams client: `1449/1.0.94.2024071104` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: ` 1.0.0.202402202353.product`| July 31, 2023|
 |MP52| `145.15.0.94`| N/A | Teams client: `1449/1.0.94.2024060310` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| July 2, 2024|
 |VP59| `91.15.0.147`| N/A | Teams client: `1449/1.0.94.2024060310` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| July 2, 2024|
@@ -194,6 +196,8 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 #### <b> HP | Poly </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications  | Release date| Cloud|
 |:----------------|:-------------------|:----------------------------|:------------------------------------------------------------------|:-------------------------|:----------------------------------|
+| CCX350/CCX400/CCX500/CCX505/CCX600 | `8.1.6.1006` | `N/A`| Teams client: `1449/1.0.94.2024011003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| August 2, 2024| GCCH|
+|Trio C60 | `8.1.6.1005` | `N/A` | Teams client: `1449/1.0.94.2024011003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| August 2, 2024 | GCCH|
 |CCX350/CCX400/CCX505/CCX600 | `8.1.2.1122` | N/A | Teams client: `1449/1.0.94.2023041203` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product`| January 22, 2024| DoD |
 |CCX350/CCX400/CCX500/CCX505/CCX600 | `8.1.5.1732` | `8.1.3.1301`| Teams client: `1449/1.0.94.2023072509` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| January 19, 2024| GCCH|
 |Trio C60 | `8.1.5.1737` | `8.1.3.1300` | Teams client: `1449/1.0.94.2023072509` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| January 19, 2024 | GCCH|
@@ -232,6 +236,7 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 #### <b> Neat </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications  | Release date|
 |:----------------|:-------------------|:----------------------------|:-----------------------------------------------------------|:--------------------------|
+| Neat Frame | `NFF1.20240516.0007` | N/A | Teams client: `1449/1.0.95.2023101102` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| August 7, 2024|
 | Neat Frame | `NFF1.20240312.0005` | N/A | Teams client: `1449/1.0.95.2023101102` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| April 12, 2024|
 | Neat Frame | `NFF1.20240120.0009` | N/A | Teams client: `1449/1.0.95.2023101102` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| February 29, 2024|
 | Neat Frame | `NFF1.20230928.0015` | N/A | Teams client: `1449/1.0.95.2023061601` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| December 7, 2023|
@@ -273,6 +278,7 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 #### <b> EPOS </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications  | Release date|
 |:----------------|:-------------------|:----------------------------|:--------------------------------------------------------------------|:-------------------------------|
+| Expand Control 3P | `v2.1.24185.04` | N/A| Teams client: `1449/1.0.97.2024061108` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| August 8, 2024|
 | Expand Control 3P | `v1.9.24025.01` | N/A| Teams client: `1449/1.0.97.2023111003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| February 19, 2024|
 | Expand Control 3P | `v1.8.23258.01` | N/A| Teams client: `1449/1.0.97.2023080401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| October 17, 2023|
 | Expand Control 3P | `v1.7.23195.06` | N/A| Teams client: `1449/1.0.97.2023060102` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202305022347.product`| July 31, 2023|
