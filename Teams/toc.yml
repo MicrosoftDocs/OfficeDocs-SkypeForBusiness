@@ -1045,9 +1045,9 @@ items:
       items:
         - name: Overview
           href: pstn-connectivity.md
-        - name: Calling Plans
+        - name: Teams Calling Plans
           items: 
-            - name: Calling Plans for Teams Phone
+            - name: Calling Plans overview
               href: calling-plans-for-office-365.md
             - name: Set up Calling Plans
               href: set-up-calling-plans.md

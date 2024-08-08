@@ -78,7 +78,8 @@ Direct Routing users must have the following licenses assigned in Microsoft 365:
 
 - Teams Phone 
 - Microsoft Teams 
-- Audio Conferencing. For information about when an Audio Conferencing license is required, see [Direct Routing with Audio Conferencing](#direct-routing-with-audio-conferencing).
+
+For information about when an Audio Conferencing license is required, see [Direct Routing with Audio Conferencing](#direct-routing-with-audio-conferencing).
 
 Direct Routing also supports users who are licensed for Microsoft Calling Plan. For more information, see [Direct Routing with Calling Plan and Operator Connect](#direct-routing-with-calling-plans-and-operator-connect).
 
