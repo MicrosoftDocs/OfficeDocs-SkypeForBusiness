@@ -51,7 +51,7 @@ The following table provides rough estimates of bandwidth utilized for the vario
 |**Total**     |  **4128/6128**       |**10256/6256**         |
 
 
-Teams Rooms can support up to 18 individual incoming video streams, up to five outbound video streams (with a [Multi-Stream IntelliFrame camera](../smartvision-admin.md)), and content sharing either inbound or outbound. The number of streams consumed by the Teams Rooms device can have a large impact on the downstream bandwidth consumed, and the capabilities of the connected Teams Rooms camera can impact the outbound bandwidth usage. Bandwidth consumption can also vary with the number and resolution of the videos from remote participants connected to the meeting.
+Teams Rooms can support up to 18 individual incoming video streams, up to five outbound video streams, and content sharing either inbound or outbound. The number of streams consumed by the Teams Rooms device can have a large impact on the downstream bandwidth consumed, and the capabilities of the connected Teams Rooms camera can impact the outbound bandwidth usage. Bandwidth consumption can also vary with the number and resolution of the videos from remote participants connected to the meeting.
 
 ## How do I control Microsoft Teams Rooms bandwidth usage?
 
