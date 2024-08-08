@@ -14,7 +14,7 @@ ms.reviewer: gaurav.chawla
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-localization_priority: medium
+ms.localizationpriority: medium
 appliesto: 
   - Microsoft Teams
 ms.custom:
@@ -87,7 +87,8 @@ To learn more about these options, check out [Kollective eCDN for Microsoft](htt
 
 Follow these steps to configure your eCDN solution:
 
-1. Open the Teams admin center as a Microsoft 365 Global admin or a Teams admin and navigate to the [events settings](https://admin.teams.microsoft.com/broadcasts/settings) page.
+1. Open the Teams admin center.
+1. Expand **Meetings** from the navigation pane and select [**Live events settings**](https://admin.teams.microsoft.com/broadcasts/settings).
 1. Toggle the **Video distribution provider** to **On**.
 1. Choose an **eCDN/SDN provider** from the **Video distribution provider** dropdown list.
 1. Fill out the other fields as directed by your solution provider (some solution providers don't use all the fields).
@@ -103,8 +104,8 @@ Microsoft eCDN solution is the default for town hall organizers with a Teams Pre
 
 |Teams admin center policy option|Parameter value in PowerShell| Behavior|
 |---------|---------|---------------|
-|On|Enabled| **This is the default value.** Premium town hall organizers with this policy use the Microsoft eCDN.|
-|Off|Disabled| Premium town hall organizers with this policy use your chosen partner eCDN solution. These organizers might not be able use some future town hall features.|
+|On|$true| **This is the default value.** Premium town hall organizers with this policy use the Microsoft eCDN.|
+|Off|$false| Premium town hall organizers with this policy use your chosen partner eCDN solution. These organizers might not be able use some future town hall features.|
 
 ### Using the Teams admin center
 
@@ -124,7 +125,7 @@ To manage eCDN for Premium town halls, use the **`-UseMicrosoftECDN`** parameter
 To allow Premium town hall organizers to use a partner eCDN solution, use the following script:
 
 ```powershell
-Set-CsTeamsEventsPolicy -Identity <policy name> -UseMicrosoftECDN  Disabled
+Set-CsTeamsEventsPolicy -Identity <policy name> -UseMicrosoftECDN $false
 ```
 
 ## Configure Teams production type events through Teams and Yammer for your eCDN solution

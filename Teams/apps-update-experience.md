@@ -8,7 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
-ms.date: 10/18/2023
+ms.date: 06/05/2024
 ms.reviewer: shmundra
 ms.collection: 
   - M365-collaboration
@@ -23,7 +23,7 @@ description: Learn how third-party and custom apps get updated in Teams to a new
 
 # Role of an admin to upgrade Teams apps to a newer version
 
-When you install an app for the first time, it may require consent of an admin depending on the permissions that the app needs. When a new version of an installed app is made available in the store, then one of the following scenarios occurs:
+When you install an app for the first time, it may require consent of an admin depending on the permissions that the app needs. When a new version of an app in use is made available, then the following app update scenarios can occur:
 
 * If there are changes in app permissions or [some selected functionality](#conditions-when-an-app-update-requires-consent), then the app update requires consent from the app user.
 * If the updated version of the app doesn't require new permissions and has only basic functionality changes, then it updates automatically.
@@ -35,7 +35,7 @@ As a Teams administrator, you can update Teams apps to help the users get the la
 
 ## Conditions when an app update requires consent
 
-Apps update on their own if there's no change in functionality or request for organization's data. When one or more of the following changes are made to an app, it doesn't update on its own. Users must provide consent when they use the app after the update is made available.
+Apps update on their own if there's no change in functionality or request for organization's data. When one or more of the following changes are made to an app, it doesn't update on its own, unless an admin installed or pinned it. However, users may receive a notification to update an app if their consent is required and the app doesn't auto-update. Users can provide consent by selecting [`Update` option displayed in Teams](#update-to-new-version-by-users-and-admins).
 
 * Add a bot or change the ID of the bot using the `botId` property.
 * Change the `isNotificationOnly` property of an existing bot that changes the bot's notifications.
@@ -51,7 +51,7 @@ When developers create a new version of an app, they can change the above values
 
 ## Update to new version by users and admins
 
-If an app update doesn't require consent, then it automatically updates. If consent is required, then Teams simplifies the app update experience by requesting user consent only once. When a user consents, Teams updates the app in the chats, channels, and meetings where the user is added. Users don't need to update the app separately in different contexts. Apps that are pinned or installed by the admin update without a need for user consent when a new version of the app is available in the Teams app store.
+If an app update doesn't require consent, then it automatically updates. If consent is required, then Teams simplifies the app update experience by requesting user consent only once. When a user consents, Teams updates the app in the chats, channels, and meetings where the user is added. Users don't need to update the app separately in different contexts. If you pin or install an app, then it updates to a new version without requiring user consent. An update happens when a new version of the app is available in the Teams app store or when you upload a new version of a custom app.
 
 To update their app, users must individually provide their consent. Admins can't consent on behalf of the users but can update an app manually.
 
@@ -92,7 +92,7 @@ For custom apps to update, after you upload the new version of the app to Teams,
 
 ## Considerations for app upgrades
 
-* If you pin or install an app, then it automatically updates when a new version is available. However, it only updates automatically if only user consent is required.
+* If you pin or install an app, then it automatically updates when a new version is available.
 
 * If an app isn't updated for a user, then the user continues to use the older version of an app. If an app updates in one context but not in the other context for a user, then the user continues to use two different versions of the app.
 

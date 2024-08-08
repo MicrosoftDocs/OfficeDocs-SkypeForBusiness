@@ -25,8 +25,8 @@ The ConferenceMessageCount view stores information about how many messages were 
 |**Column**|**Data Type**|**Details**|
 |:-----|:-----|:-----|
 |**UserUri** <br/> |nvarchar(450)  <br/> |URI of the user who sent the message.  <br/> |
-|**UserUriType** <br/> |nvarchar(256)  <br/> |Type of URI of the user who sent the messages. See the [UriTypes table](uritypes.md) for more information. <br/> |
-|**UserTenant** <br/> |uniqueidentifier  <br/> |Tenant of user who sent the messages. See the [Tenants table](tenants.md) for more information. <br/> |
+|**UserUriType** <br/> |nvarchar(256)  <br/> |Type of URI of the user who sent the messages. For more information, see the [UriTypes table](uritypes.md). <br/> |
+|**UserTenant** <br/> |uniqueidentifier  <br/> |Tenant of user who sent the messages. For more information, see the [Tenants table](tenants.md). <br/> |
 |**UserMessageCount** <br/> |smallint  <br/> |Number of messages sent by the user during the conference session.  <br/> |
    
 

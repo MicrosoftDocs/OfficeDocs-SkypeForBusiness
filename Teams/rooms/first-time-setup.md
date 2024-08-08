@@ -1,8 +1,8 @@
 ---
 title: Set up Microsoft Teams Rooms consoles through one-time passwords
 ms.author: tonysmit
-author: tonysmit
-manager: serdars
+author: mstonysmith
+manager: pamgreen
 audience: ITPro
 ms.reviewer: sohailta
 ms.date: 10/26/2023

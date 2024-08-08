@@ -3,8 +3,8 @@ title: Set up Meeting Registration in Microsoft Teams
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.reviewer: justle, ritikag
-ms.date: 10/01/2023
+ms.reviewer: sherimehmood
+ms.date: 7/15/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -29,6 +29,9 @@ description: Learn how to set up and manage meeting registration policies in Tea
 **APPLIES TO:** ✔️Meetings ✖️Webinars ✖️Town halls
 
 [!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
+
+> [!NOTE]
+> While meetings with registration are no longer supported, you and your users can use webinars. To learn more about setting up webinars for your org, see [Plan for Teams webinars](plan-webinars.md) Meetings with registration that were previously scheduled, or created with Graph API are still supported until December 31st, 2024.
 
 This article describes how you, as an admin, can set up and manage meeting registration for your end users in Microsoft Teams meetings.
 

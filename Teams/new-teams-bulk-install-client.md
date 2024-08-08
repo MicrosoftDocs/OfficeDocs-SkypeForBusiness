@@ -111,7 +111,7 @@ Admins can also use a local teams MSIX to provision new Teams. This option minim
 To deploy this installer to a group of computers, or your entire organization, follow these steps:
 
 1. [Download the .exe installer](https://go.microsoft.com/fwlink/?linkid=2243204&clcid=0x409). If you have downloaded this file previously confirm you have the latest version by comparing the properties on each file.
-2. Use [Intune](/mem/intune/fundamentals/what-is-intune), [Microsoft Endpoint Configuration Manager](/configmgr/core/understand/introduction), [Group Policy](/troubleshoot/windows-server/group-policy/use-group-policy-to-install-software), or third-party distribution software, to distribute the installer to your target computers.
+2. Use [Intune](/mem/intune/apps/apps-add-office365), [Microsoft Endpoint Configuration Manager](/configmgr/core/understand/introduction), [Group Policy](/troubleshoot/windows-server/group-policy/use-group-policy-to-install-software), or third-party distribution software, to distribute the installer to your target computers.
 3. Run the installer on each computer.
 
 ##### Gov cloud updates for PC and Mac
@@ -173,6 +173,14 @@ To uninstall and deprovision the new Teams for all users, use the following comm
 ./teamsbootstrapper -x
 ```
 
+## Remove classic Teams for all users
+>[!Important]
+> Important: this command option requires a minimum bootstrapper version of 1.0.2414501 or higher.
+
+Once the new Teams version has been installed, use the following command to uninstall the classic Teams machine-wide installer and classic Teams app for all users on the device:
+```powershell
+./teamsbootstrapper -u
+```
 ## End user experience:  Launching the new Teams
 
 After new Teams is deployed to your target computers, users will sign in as usual. For first use, the user can launch new Teams in one of two ways:

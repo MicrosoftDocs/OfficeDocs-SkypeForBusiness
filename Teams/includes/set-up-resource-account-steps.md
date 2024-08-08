@@ -8,7 +8,9 @@ Before you start the procedures in this article, ensure you've done the followin
 - [Obtain phone numbers](#obtain-phone-numbers)
 
 > [!NOTE]
-> Resource accounts used for auto attendants and call queues are disabled for sign in and must remain so. Chat and presence are not available for these accounts.
+> Resource accounts used for auto attendants and call queues are disabled for sign in and must remain so. Chat and presence aren't available and won't work for these accounts. Even though presence still appears, it won't change.
+>
+> A **User Administrator** or higher role is required to create and license Resource Accounts. For more information, see [Using Microsoft Teams administrator roles to manage Teams](/microsoftteams/using-admin-roles).
 
 ### Obtain Microsoft Teams Phone Resource Account licenses
 
@@ -29,6 +31,9 @@ To see if you already have **Teams Phone Resource Account** licenses in your ten
 1. Select the **Buy** button.
 1. Fill in the purchasing details.
 1. Confirm your order details, and then select the **Place order** button.
+
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see [About Admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 There's zero cost for your allotment of licenses, but you still need to follow these steps to acquire the licenses.
 
