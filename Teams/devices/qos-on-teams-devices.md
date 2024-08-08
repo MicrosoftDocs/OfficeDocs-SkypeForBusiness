@@ -28,7 +28,7 @@ Deploying one or many Microsoft Teams Rooms devices requires planning. One of th
 
 This article explains:
 
-1. [How much bandwidth a Teams Rooms device will consume?](#how-much-bandwidth-will-a-microsoft-teams-rooms-device-use)
+1. [How much bandwidth does a Microsoft Teams Rooms device use?](#how-much-bandwidth-does-a-microsoft-teams-rooms-device-use)
 1. [How to control that bandwidth usage?](#how-do-i-control-microsoft-teams-rooms-bandwidth-usage)
 1. [How to ensure your devices are optimized with the right quality of service (QoS) configuration to align to your organizations requirements?](#quality-of-service-qos-with-microsoft-teams-rooms)
 
@@ -51,11 +51,11 @@ The following table provides rough estimates of bandwidth utilized for the vario
 |**Total**     |  **4128/6128**       |**10256/6256**         |
 
 
-Teams Rooms can support up to 18 individual incoming video streams, up to five outbound video streams (with a [Multi-Stream IntelliFrame camera](../smartvision-admin)), and content sharing either inbound or outbound. The number of streams consumed by the Teams Rooms device can have a large impact on the downstream bandwidth consumed, and the capabilities of the connected Teams Rooms camera can impact the outbound bandwidth usage. Bandwidth consumption can also vary with the resolution of the videos from remote participants connected to the meeting, along with the number of participants with video enabled.
+Teams Rooms can support up to 18 individual incoming video streams, up to five outbound video streams (with a [Multi-Stream IntelliFrame camera](../smartvision-admin.md)), and content sharing either inbound or outbound. The number of streams consumed by the Teams Rooms device can have a large impact on the downstream bandwidth consumed, and the capabilities of the connected Teams Rooms camera can impact the outbound bandwidth usage. Bandwidth consumption can also vary with the number and resolution of the videos from remote participants connected to the meeting.
 
 ## How do I control Microsoft Teams Rooms bandwidth usage?
 
-By default, Teams Rooms don't have a bandwidth-limiting policy. If you wish to implement one, we recommend allocating 10 Mbps to each Teams Rooms resource account. This implementation can be accomplished by assigning a Teams meeting policy with a media bitrate limit configured. When setting the meeting policy at 10 Mbps, Teams Rooms still only use the bandwidth required for the meeting (typically 3-4 Mbps), and will dynamically adjust if its network connection isn't able to sustain 10 Mbps.
+By default, Teams Rooms don't have a bandwidth-limiting policy. If you wish to implement one, we recommend allocating 10 Mbps to each Teams Rooms resource account. This implementation can be accomplished by assigning a Teams meeting policy with a media bitrate limit configured. When setting the meeting policy at 10 Mbps, Teams Rooms still only use the bandwidth required for the meeting (typically 3-4 Mbps), and dynamically adjusts if its network connection isn't able to sustain 10 Mbps.
 
 For information on how to configure a Teams meeting policy, see [Meeting policy settings for audio and video](../meeting-policies-audio-and-video.md). You want to create a custom policy and assign it to all Microsoft Teams Rooms resource accounts, with the limit for media bitrate configured for 10,000 kbps.
 
@@ -108,5 +108,5 @@ For instructions on how to configure your tenant to insert QoS markings, see [Te
 
 - [Implement Quality of Service (QoS) in Microsoft Teams](../QoS-in-Teams.md)
 - [Implement Quality of Service (QoS) in Microsoft Teams clients](../QoS-in-Teams-clients.md)
-- [NetworkQoSPolicy CSP](/windows/client-management/mdm/networkqospolicy-csp)
+- [Configure the NetworkQoSPolicy CSP](/windows/client-management/mdm/networkqospolicy-csp)
 - [Prepare your organization's network for Microsoft Teams](../prepare-network.md)
