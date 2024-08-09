@@ -19,6 +19,7 @@ jobs:
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         debug-only: true
+        operations-per-run: 1000
         days-before-issue-stale: -1
         days-before-issue-close: -1
         days-before-pr-stale: 180
