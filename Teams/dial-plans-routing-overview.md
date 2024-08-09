@@ -51,7 +51,7 @@ For more information, see [Direct Routing voice routing policy considerations](d
 
 A process called **Reverse Number Lookup (RNL)** uses strict string matching to find a user or resource account that matches the dialed phone number for an incoming PSTN call. For example, assume that a user is assigned the phone number +14255551234;ext=1234. If an incoming PSTN call has the dialed phone number +14255551234;ext=1234, RNL finds the user and the call is transferred to that user. However, if an incoming PSTN call has the dialed phone number +14255551234, RNL won't find the user and the call will fail or be routed to [unassigned number routing](routing-calls-to-unassigned-numbers.md).
 
-To bypass RNL and have a phone number assigned to a user or resource account, you can use the **Set-CsPhoneNumberAssignment** cmdlet with `parameter`. For more information, see [Set-CsPhoneNumberAssignment](powershell/module/skype/set-csphonenumberassignment) and [Get-CsPhoneNumberAssignment](powershell/module/skype/get-csphonenumberassignment).
+To bypass RNL for have a phone number assigned to a user or resource account, you can use the PowerShell **Set-CsPhoneNumberAssignment** cmdlet with `-ReverseNumberLookup` parameter. For more information, see [Set-CsPhoneNumberAssignment](powershell/module/skype/set-csphonenumberassignment) and [Get-CsPhoneNumberAssignment](powershell/module/skype/get-csphonenumberassignment).
 
 ## Related topics
 
