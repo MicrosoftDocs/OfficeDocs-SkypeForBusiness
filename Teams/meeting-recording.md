@@ -37,7 +37,7 @@ When a meeting is recorded:
 - People invited to the meeting have permissions to view the recording (guests and external attendees can view the recording only if the recording is explicitly shared with them).
 - Microsoft Purview compliance, OneDrive file storage, and access permissions apply to the meeting recording files the same as with other files.
 - It's linked in the chat for the meeting.
-- It's displayed in the Recordings and Transcripts tab for the meeting in Teams calendar.
+- It's displayed in the **Recordings and Transcripts** tab for the meeting in Teams calendar.
 - It's added to various file lists across Microsoft 365: Shared with me, office.com, Recommended, Recent, etc.
 - Microsoft 365 Search indexes it
 
@@ -218,9 +218,17 @@ You shouldn't rely on meeting expiration settings for legal protection since end
 
 #### Recording expiration settings and Microsoft 365 retention policies in Microsoft Purview
 
-File retention takes precedence over file deletion. A Teams meeting recording expiration policy can't delete a Teams meeting recording with a Purview retention policy until after the retention period is completed. For example, if you have a Purview retention policy that says a file will be kept for five years and a Teams meeting recording expiration policy set for 60 days, the Teams meeting recording expiration policy permanently deletes the recording after five years.
+#### File retention vs expiration policies
+
+File retention takes precedence over file deletion. A Teams meeting recording expiration policy can't delete a Teams meeting recording with a Purview retention policy until after the retention period is completed. For example, if you have a Purview retention policy that says a file will be kept for five years and a Teams meeting recording expiration policy set for 60 days, the Teams meeting recording expiration policy permanently deletes the recording after five years. 
+
+Once the recording reaches the expiration date, it gets deleted from the user’s OneDrive, and is copied to the tenant's Preservation Hold library. Your users can't see the recording in OneDrive anymore, but as an admin, only you can find the recording in the Preservation Hold library. To learn more about the Preservation Hold library, see [Learn about retention for SharePoint and OneDrive](/purview/retention-policies-sharepoint#how-retention-works-for-sharepoint-and-onedrive).
+
+#### Expiration vs deletion policies
 
 If you have a Teams meeting recording expiration policy and Purview deletion policy with different deletion dates, the file is deleted at the earliest of the two dates. For example, if you have a Purview deletion policy that says a file will be deleted after one year and a Teams meeting recording expiration set for 120 days, the Teams meeting recording expiration policy will delete the file after 120 days.
+
+#### Deleting recordings before the expiration date
 
 Users can manually delete their recordings before the expiration date unless there's a Purview retention policy that prevents it. If a user manually deletes a recording that's still in the retention period, the recording is held in the Preservation Hold library. However, the recording shows as deleted to the end user. To find out more, see [Learn about retention for SharePoint and OneDrive](/microsoft-365/compliance/retention-policies-sharepoint).
 
