@@ -6,11 +6,12 @@ Before you start the procedures in this article, ensure you've done the followin
 
 - [Obtain Microsoft Teams Phone Resource Account licenses](#obtain-microsoft-teams-phone-resource-account-licenses)
 - [Obtain phone numbers](#obtain-phone-numbers)
+- [Assign permissions for managing a resource account](#assign-permissions-for-managing-a-resource-account)
 
 > [!NOTE]
 > Resource accounts used for auto attendants and call queues are disabled for sign in and must remain so. Chat and presence aren't available and won't work for these accounts. Even though presence still appears, it won't change.
 >
-> A **User Administrator** or higher role is required to create and license Resource Accounts. For more information, see [Using Microsoft Teams administrator roles to manage Teams](/microsoftteams/using-admin-roles).
+> A **User Administrator** or higher role is required to create and license Resource Accounts. For more information, see [Assigning permissions for managing resource accounts](#assign-permissions-for-managing-a-resource-account) and [Using Microsoft Teams administrator roles to manage Teams](/microsoftteams/using-admin-roles).
 
 ### Obtain Microsoft Teams Phone Resource Account licenses
 
@@ -54,15 +55,46 @@ Acceptable phone numbers that can be applied to resource accounts include:
 
 To port a number from another carrier, see [Transfer phone numbers to Teams](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
+## Assign permissions for managing a resource account
+
+> [!NOTE]
+> Currently, Teams administrators can create and manage resource accounts without requiring any user management permissions in Microsoft 365. As part of our commitment to deliver secure solutions that meet the highest standards, we are implementing changes to the management of resource accounts. Going forward, Teams Administrators will need to have user management permissions in Microsoft 365 to create and manage resource accounts. This change will take effect in the 3rd quarter of 2024.
+
+To create and manage a resource account, you must have a one of the following Teams roles:
+
+- Teams Telephony Administrator
+- Teams Communications Administrator
+- Teams Administrator
+
+A Global Administrator can also has the necessary Teams and User permissions to create and manage resource accounts, but we recommend using roles with the fewest permissions.
+
+Keep the following in mind:
+
+- Teams Administrators who don't have the User Administrator role need additional permissions to create and update these accounts. You must assign the User Administrator role or create a custom role via [Microsoft Graph API]().
+- User Administrators who don't have the Teams Administrator role need additional permissions to create and update these accounts. You must assign one of the following Teams Administrator roles to the User Administrator:
+  - Teams Administrator
+  - Teams Communications Administrator
+  - Teams Telephony Administrator
+
+By following these guidelines, your organization can securely manage Teams Resource Accounts while ensuring that only authorized personnel have the necessary permissions.
+
 ## Create a resource account
 
-You can create a resource account in the Teams admin center.
+Before creating a resource account, you must [assign permissions for creating and managing a resource account](#assign-permissions-for-managing-a-resource-account).
+
+You can create a resource account in the Teams admin center or with PowerShell.
+
+### Teams admin center
 
 1. Sign into the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851).
 2. Expand **Voice**, and then select **Resource accounts**.
 3. Select **Add**.
 4. In the **Add resource account** pane, fill out **Display name**, **Username**, and the **Resource account type**. The resource account type can be either **Auto attendant** or **Call queue**, depending how you intend to use this resource account.
 5. Select **Save**.
+
+### PowerShell
+
+You can create a resource account with the New-CsOnlineApplicationInstance PowerShell cmdlet. For more information, see [New-CsOnlineApplicationInstance](/powershell/module/teams/new-csonlineapplicationinstance).
 
 ## Assign a license
 
@@ -73,7 +105,7 @@ For each resource account, you must assign a **Microsoft Teams Phone Resource Ac
 3. Select the resource account to which you want to assign a license. The resource account's user pane will appear.
 4. On the **Licenses and Apps** tab, under **Licenses**, select **Microsoft Teams Phone Resource Account**.
 5. Select **Save changes**.
-   
+
 > [!NOTE]
 > If the resource account requires a phone number, check that the **Select location** dropdown list in the **Licenses and Apps** tab matches the intended country code.
 
@@ -87,4 +119,3 @@ If you're planning to use the resource account with an auto attendant or call qu
 4. In the **Phone number type** dropdown, choose the type of number that you want to use.
 5. In the **Assigned phone number** box, search for the number you want to use and select **Add**. Be sure to include the country code (for example, +1 250 555 0012).
 6. Select **Save**.
-
