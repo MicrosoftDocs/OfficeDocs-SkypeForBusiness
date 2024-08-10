@@ -30,7 +30,7 @@ Use this reference when using PowerShell to identify users in your organization 
 
 |Plan name |SkuPartNumber   |SkuID |
 |---------|---------|---------|
-|Office 365 Education E3 for Faculty |ENTERPRISEPACK_FACULTY |e4fa3838-3d01-42df-aa28-5e0a4c68604b |
+|Office 365 Education E3 for Faculty |ENTERPRISEPACK_FACULTY |e4fa3838-3d01-42df-aa28-5e0a4c68604bb |
 |Office 365 A1 for Faculty |STANDARDWOFFPACK_FACULTY |94763226-9b3c-4e75-a931-5c89701abe66 |
 |Office 365 A5 for Faculty |ENTERPRISEPREMIUM_FACULTY |a4585165-0533-458a-97e3-c400570268c4 |
 |Office 365 A5 without Audio Conferencing for faculty |ENTERPRISEPREMIUM_NOPSTNCONF_FACULTY |9a320620-ca3d-4705-a79d-27c135c96e05 |
