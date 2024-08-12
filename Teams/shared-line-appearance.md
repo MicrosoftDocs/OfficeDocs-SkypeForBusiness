@@ -58,7 +58,7 @@ The following apps and devices currently support shared line appearance:
 | See the delegate view of shared lines | Yes | Yes | Yes | Yes | Yes |
 | See the delegate view of manager's call activities | Yes | Yes | Yes | No | Yes |
 | See the manager view of delegates | Yes | Yes | Yes | Yes | Yes |
-| See shared calling history | Yes | No | Yes | No | No|
+| See shared call history | Yes | No | Yes | No | No|
 | Delegate or manager can hold or resume | Yes | Yes | Yes | No | Yes |
 
 ## Limitations
