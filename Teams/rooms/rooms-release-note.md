@@ -66,11 +66,13 @@ Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: ico
 
 ### 5.1.28.0 (8/8/2024)
 - Bug fixes for GCC-High: authentication & Teams Admin Center connectivity
+
 ### 5.1.24.0 (7/30/2024) 
 
 Introduced in this update:
 
 - **Support for Windows 23H2** - Eligible devices will now be updated to Windows 11 23H2.
+- **Text and UI resizing** - IT admins can adjust the size of the text and all other UI elements on the front-of-room display by changing the display scaling settings. Text and UI elements are resized and adjusted for all supported display resolution and scaling combinations (1080p resolution at 100-150% scaling, 4K resolution at 100-300% scaling). This capability is extended to support touch boards.
 - Fixes for certain Windowing issues.
 - Other bug fixes.
   
