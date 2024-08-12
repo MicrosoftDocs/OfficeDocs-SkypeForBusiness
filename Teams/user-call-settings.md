@@ -56,7 +56,7 @@ The configuration of call delegation and group call pickup is integrated into th
 
 This video shows the steps to view and edit the voice settings for a user.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE546F7?autoplay=false]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1c7JR?autoplay=false]
 
 ## Use PowerShell
 

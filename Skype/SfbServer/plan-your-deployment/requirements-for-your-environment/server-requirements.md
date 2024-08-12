@@ -16,16 +16,16 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
-description: "Summary: Prepare your Skype for Business Server 2015 servers with this topic. Hardware, OS, databases, software, all the system requirements and recommendations are here to help ensure a successful install and deployment of your server farm."
+description: "Summary: Prepare your Skype for Business Server 2015 servers with this article. Hardware, OS, databases, software, all the system requirements and recommendations are here to help ensure a successful install and deployment of your server farm."
 ---
 
 # Server requirements for Skype for Business Server 2015
  
-**Summary:** Prepare your Skype for Business Server 2015 servers with this topic. Hardware, OS, databases, software, all the system requirements and recommendations are here to help ensure a successful install and deployment of your server farm.
+**Summary:** Prepare your Skype for Business Server 2015 servers with this article. Hardware, OS, databases, software, all the system requirements and recommendations are here to help ensure a successful install and deployment of your server farm.
 
-If you're looking for environmental requirements, such as Active Directory, DNS or certificates, you can check out the [Environmental requirements for Skype for Business Server 2015](environmental-requirements.md) doc.
+If you're looking for environmental requirements, such as Active Directory, DNS, or certificates, you can check out the [Environmental requirements for Skype for Business Server 2015](environmental-requirements.md) doc.
   
-As you might expect, there are some preparations to make before you begin deploying Skype for Business Server 2015. This article will walk you through planning for the following:
+As you might expect, there are some preparations to make before you begin deploying Skype for Business Server 2015. This article walks you through planning for the following:
   
 - [Hardware for Skype for Business Server 2015](server-requirements.md#Hardware)
   
@@ -38,30 +38,31 @@ As you might expect, there are some preparations to make before you begin deploy
 ## Hardware for Skype for Business Server 2015
 <a name="Hardware"> </a>
 
-Now that you have your topology down (and if you don't, you can check out the [Topology Basics for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md) topic), it's time to think about servers. Skype for Business Server 2015 servers will require 64-bit hardware. Our recommendations for hardware are below. These aren't requirements, but they reflect the requirements necessary for optimal performance. We have capacity planning documentation that will help you determine if you need more than this, depending on your circumstances.
-  
+Now that you have your topology down (and if you don't, you can check out the [Topology Basics for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md) article), it's time to think about servers. Skype for Business Server 2015 servers require 64-bit hardware. Our recommendations for hardware are below. These aren't requirements, but they reflect the requirements necessary for optimal performance. We have capacity planning documentation that will help you determine if you need more than this, depending on your circumstances.
+
 Recommended hardware for Front End Servers, Back End Servers, Standard Edition servers, and Persistent Chat Servers:
   
 |Hardware component|Recommended|
 |:-----|:-----|
-|CPU   |64-bit dual processor, hex-core, 2.26 gigahertz (GHz) or higher.  <br/> Intel Itanium processors are not supported for Skype for Business Server 2015 roles.   |
+|CPU   |64-bit dual processor, hex-core, 2.26 gigahertz (GHz) or higher.  <br/> Intel Itanium processors aren't supported for Skype for Business Server 2015 roles.   |
 |Memory   |32 gigabytes (GB).   |
-|Disk   |EITHER:  <br/> • 8 or more 10000 RPM hard disk drives with at least 72 GB free disk space (two of the disks using RAID 1 and 6 using RAID 10).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to 8 10000 RPM mechanical disk drives.   |
-|Network   |1 dual-port network adapter, 1 Gbps or higher (2 network adapters can be used, but they need to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Front End Servers, Back End Servers, Standard Edition servers, and Persistent Chat Servers. <br/> As long as they are not exposed to the operating system and are being used to monitor and manage server hardware, you can have out of band management systems, such as DRAC or ILO. This scenario doesn't constitute a multi-homed server, and it is supported.   |
+|Disk   |EITHER:  <br/> • 8 or more 10,000 RPM hard disk drives with at least 72-GB free disk space (two of the disks using RAID 1 and 6 using RAID 10).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to 8 10000-RPM mechanical disk drives.   |
+|Network   |1 dual-port network adapter, 1 Gbps or higher (2 network adapters can be used, but they need to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Front End Servers, Back End Servers, Standard Edition servers, and Persistent Chat Servers. <br/> As long as they aren't exposed to the operating system and are being used to monitor and manage server hardware, you can have out of band management systems, such as DRAC or ILO. This scenario doesn't constitute a multi-homed server, and it's supported.   |
    
 Recommended hardware for Edge Servers, standalone Mediation Servers, Video Interop Servers, and Directors:
   
 |Hardware component|Recommended|
 |:-----|:-----|
-|CPU   |64-bit dual processor, quad-core, 2.26 gigahertz (GHz) or higher.  <br/> Intel Itanium processors are not supported for Skype for Business Server 2015 roles.   |
+|CPU   |64-bit dual processor, quad-core, 2.26 gigahertz (GHz) or higher.  <br/> Intel Itanium processors aren't supported for Skype for Business Server 2015 roles.   |
 |Memory   |16 gigabytes.   |
-|Disk   |EITHER:  <br/> • 4 or more 10000 RPM hard disk drives with at least 72 GB free disk space (the disks should be in a 2x RAID 1 configuration).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to 4 10000 RPM mechanical disk drives.   |
-|Network   |1 dual-port network adapter, 1 Gbps or higher (2 network adapters can be used, but they need to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Video Interop Servers and Directors. <br/> Edge servers will require two network interfaces that are dual-port network adapters, 1 Gbps or higher (or two paired network adapters, for a total of four, each pair being teamed with a single MAC address and a single IP address, for a total of two pairs).  <br/> On standalone Mediation Servers the installation of additional network interface cards (NICs) to allow the configuration of a specific PSTN IP address is supported.   |
+|Disk   |EITHER:  <br/> • 4 or more 10,000 RPM hard disk drives with at least 72-GB free disk space (the disks should be in a 2x RAID 1 configuration).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to 4 10000-RPM mechanical disk drives.   |
+|Network   |1 dual-port network adapter, 1 Gbps or higher (2 network adapters can be used, but they need to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Video Interop Servers and Directors. <br/> Edge servers will require two network interfaces that are dual-port network adapters, 1 Gbps or higher (or two paired network adapters, for a total of four, each pair being teamed with a single MAC address and a single IP address, for a total of two pairs).  <br/> On standalone Mediation Servers the installation of extra network interface cards (NICs) to allow the configuration of a specific PSTN IP address is supported.   |
+
    
 ## Operating systems for Skype for Business Server 2015
 <a name="OS"> </a>
 
-Once you have the hardware in place, you'll need to install operating systems (OS). These are the OS that will allow you to install and successfully use Skype for Business Server 2015.
+Once you have the hardware in place, you need to install operating systems (OS). These are the OS that  allows you to install and successfully use Skype for Business Server 2015.
   
 |&nbsp;|&nbsp;|
 |:-----|:-----|
@@ -77,19 +78,25 @@ If it's not on this list, it won't work properly, please don't try it for new in
 > [!NOTE]
 > You may have noticed Windows Server 2008 R2 isn't on this list. That's because we recommend Windows Server 2012 R2 for all new servers to be used for SFB. You should only be using Windows Server 2008 R2 when you have existing servers with Lync Server 2013 already installed, and you're intending to do an in-place upgrade of them. Windows Server 2008 R2 reached the end of the mainstream support lifecycle on 1/13/2015 and will reach the end of its support lifecycle on 1/14/2020.
   
-In addition to the latest service pack, you'll want to ensure the following updates are installed where relevant to you:
+In addition to the latest service pack, you want to ensure the following updates are installed where relevant to you:
   
 - For Windows Server 2012, KB article 2858668 should be installed before an upgrade. [Get it here](https://support.microsoft.com/kb/2858668/).
     
-- If you have Windows Server 2012 R2, please install KB article 2982006 before upgrading. [It's found here](https://support.microsoft.com/kb/2982006/).
+- If you have Windows Server 2012 R2, install KB article 2982006 before upgrading. [It's found here](https://support.microsoft.com/kb/2982006/).
     
-- If you're upgrading on a Windows Server 2008 R2 box (see the Note above), then you'll want to install KB article 2533623 first. [It's at this link](https://support.microsoft.com/kb/2533623/).
+- If you're upgrading on a Windows Server 2008 R2 box (see the Note above), then you want to install KB article 2533623 first. [It's at this link](https://support.microsoft.com/kb/2533623/).
     
 ## Back end databases that will work with Skype for Business Server 2015
 <a name="DBs"> </a>
 
+When installing Skype for Business Server 2015 Standard Edition, as part of the installation process, SQL Server 2014 Express (64-bit edition) is automatically installed. Skype for Business 2015 Standard Edition now also supports SQL Server 2019 Express (64-bit edition). This is achieved by either:
 
-When installing Skype for Business Server 2015 Standard Edition, you'll have SQL Server 2014 Express (64-bit edition) is automatically installed as well.
+
+- Running an in place upgrade of SQL Express on existing installation of Skype for Business 2015 Standard Edition, or
+
+- Running an in place upgrade of SQL Express after a fresh installation of Skype for Business 2015 Standard Edition.
+
+Skype for Business Server 2015 Enterprise Edition also supports SQL Server 2019 Express (64-bit edition) for local SQL express instances. This can also be updated by an in place upgrade of SQL Express.
   
 Skype for Business Server 2015 Enterprise Edition is a little more complicated, but the supported list is below (everything is 64-bit edition, you'll notice, please don't use 32-bit editions):
   
@@ -102,22 +109,23 @@ If you don't see the SQL Server edition you want to use listed here, you can't u
   
 - You're also going to need to install SQL Server Reporting Services for the Monitoring Server role.
 - For a well-connected SQL back end, the connection to the Skype for Business front end should be local, and not across a low speed link. 
-- Sharing SQL back ends between two or more pools is not supported.
+- Sharing SQL back ends between two or more pools isn't supported.
 
 ### Microsoft Exchange storage
 Meeting content files, such as PowerPoint presentations, are archived as attachments. If you want to store Skype for Business archive data with Exchange compliance data, you must use Exchange for your Exchange deployment and ensure that the maximum storage size supports storage of the meeting content files. You must deploy Exchange prior to deploying and enabling archiving using the Microsoft Exchange integration option. 
     
-If you choose to use Exchange storage, you do not need to deploy separate SQL Server databases for archiving, unless you have Skype for Business users who are not homed on your Exchange servers. If you deploy archiving using the Microsoft Exchange integration option, Skype for Business archive data is stored with Exchange compliance data only for the users who are homed on your Exchange servers. 
+If you choose to use Exchange storage, you don't need to deploy separate SQL Server databases for archiving, unless you have Skype for Business users who aren't homed on your Exchange servers. If you deploy archiving using the Microsoft Exchange integration option, Skype for Business archive data is stored with Exchange compliance data only for the users who are homed on your Exchange servers. 
   
 ## Hardware and software requirements for archiving in Skype for Business Server 2015
   
-Archiving is not a defined server role, you do not need to install a separate server for archiving. Unified Data Collection Agents are installed and activated automatically on every Enterprise Edition Front End pool and every Standard Edition Server. You will need to enable and publish your archiving topology by using Topology Builder.
+Archiving isn't a defined server role, you don't need to install a separate server for archiving. Unified Data Collection Agents are installed and activated automatically on every Enterprise Edition Front End pool and every Standard Edition Server. You'll need to enable and publish your archiving topology by using Topology Builder.
     
-Archiving uses the Skype for Business Server file storage for temporary storage of meeting content files, so you do not set up a separate file store for archiving.
+Archiving uses the Skype for Business Server file storage for temporary storage of meeting content files, so you don't set up a separate file store for archiving.
     
-Microsoft Message Queuing is not required.
-    
-You will need to set up the infrastructure for archiving storage. This includes choosing either Exchange or Archiving storage using SQL Server.   Skype for Business Server Archiving infrastructure requirements are the same as for deployment of Skype for Business Server. For details, see [Requirements for your Skype for Business environment](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md). 
+Microsoft Message Queuing isn't required.
+
+You'll need to set up the infrastructure for archiving storage. This includes choosing either Exchange or Archiving storage using SQL Server.   Skype for Business Server Archiving infrastructure requirements is the same as for deployment of Skype for Business Server. For details, see [Requirements for your Skype for Business environment](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md). 
+
   
 > [!NOTE]
 > To support users who are not homed on Exchange servers, or if you do not want to use the Microsoft Exchange integration option, you must deploy archiving storage using a 64-bit SQL Server database. 
@@ -128,7 +136,7 @@ The load increase for archiving can be significant. Therefore, you should ensure
 
 ### SQL Mirroring, SQL Clustering, and SQL Always On
 
-You are able to use SQL Mirroring or SQL Clustering with Skype for Business Server 2015, it's supported. SQL Mirroring's set up through the Skype for Business Server Topology Builder. If you're intent on setting up SQL Clustering, that's done in SQL Server.
+You're able to use SQL Mirroring or SQL Clustering with Skype for Business Server 2015, it's supported. SQL Mirroring's set up through the Skype for Business Server Topology Builder. If your intent on setting up SQL Clustering, that's done in SQL Server.
   
 Make sure you have an active/passive configuration for SQL Clustering, as that's what's supported. Don't share the passive node with any other SQL instance.
   
@@ -161,7 +169,7 @@ Sixteen-node:
 > [!IMPORTANT]
 > For upgrading, we do want you to ensure that on your Front End Servers you have at least SQL Server 2012 SP1 installed prior to upgrade. [Here's a link](https://www.microsoft.com/download/details.aspx?id=35575) to SP1 if you want to download it right away.
   
-If you need to read up more on SQL Mirroring, we have a Back End Server high availability in Skype for Business Server 2015 topic. Configure SQL Server clustering for Skype for Business Server 2015 has the steps for getting clustering ready. There are also further links on failover clustering for SQL, for [2014](/sql/sql-server/failover-clusters/install/sql-server-failover-cluster-installation), [2012](/previous-versions/sql/sql-server-2012/hh231721(v=sql.110)), and [2008](/previous-versions/sql/sql-server-2008-r2/ms189134(v=sql.105)).
+If you need to read up more on SQL Mirroring, we have a Back End Server high availability in Skype for Business Server 2015 article. Configure SQL Server clustering for Skype for Business Server 2015 has the steps for getting clustering ready. There are also further links on failover clustering for SQL, for [2014](/sql/sql-server/failover-clusters/install/sql-server-failover-cluster-installation), [2012](/previous-versions/sql/sql-server-2012/hh231721(v=sql.110)), and [2008](/previous-versions/sql/sql-server-2008-r2/ms189134(v=sql.105)).
   
 > [!NOTE]
 > New to the 2015 release is support of SQL Always On. It is supported, and you can read more about it in the [Back End Server high availability in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md) topic.
@@ -172,15 +180,16 @@ If you need to read up more on SQL Mirroring, we have a Back End Server high ava
 ## Software that should be installed before a Skype for Business Server 2015 deployment
 <a name="Software"> </a>
 
-There are some things you're going to need to install or configure for any server running Skype for Business Server 2015, and they're listed below. After that are additional requirements for specific server roles.
+
+There are some things you're going to need to install or configure for any server running Skype for Business Server 2015, and they're listed below. After that are other requirements for specific server roles.
 
   
  **All Servers:**
   
 |Software/Role|Details|
 |:-----|:-----|
-|Windows PowerShell 3.0   |All Skype for Business Server servers need Windows PowerShell 3.0 installed.  <br/> • If you're doing the installation on Windows Server 2012 or Windows Server 2012 R2, you're set, because it's already there.  <br/> • If you're doing an upgrade on Windows Server 2008 R2, you can download the [Windows Management Framework 3.0](https://www.microsoft.com/download/details.aspx?id=34595) to get it. <br/> **Tip:** Once you have the correct PowerShell on there, confirm that it's BuildVersion 6.2.9200.0 or later by going to the PowerShell prompt and typing `$PSVersionTable`. This should bring up the information you need.   |
-|Microsoft .NET Framework   |WCF services is a **Feature** that's installed as a Windows feature, under **Server Manager**, no downloads needed. <br/> • You need to make sure, when you install this feature, or if it's already installed and you're checking on it, that the **HTTP Activation** option is also checked and installed, as follows: <br/> ![Screenshot showing HTTP Activation option under the .NET Framework 4.5 Features.](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> Don't worry if you get an additional pop-up saying some other things need to be installed for HTTP Activation to be installed. That's normal, click OK and go ahead. If you don't get this pop-up, then assume those things are already installed, and go ahead.  <br/> Microsoft .NET Framework is usually installed when Windows Server 2012 R2 or Windows Server 2016 are installed. Skype for Business Server works with the following Microsoft .NET Framework versions:  <br/> • .NET 3.5  <br/> • .NET 4.5  <br/> • .NET 4.6.x  <br/> • .NET 4.7.1 (for Skype for Business Server CU 5 or later releases)  <br/> • .NET 4.7.2 (for Skype for Business Server CU 6 or later releases)  <br/>  • .NET 4.8 (for Skype for Business Server CU 9 or later releases) <br/>  .NET Framework 3.5 will likely be installed by default on your Windows Server 2008 R2 machine (definitely check to be sure before you upgrade), but it actually won't be on your Windows Server 2012/Windows Server 2012 R2 servers (for new installations). To add it in, you'll need access to your installation drive or media (the place your Windows Server was installed from, or where the install files are now). Then go ahead and install it as a feature from Server Manager, and point to the installation media (specifically the **\sources\sxs** folder) when asked for it, and continue on to install it.  |
+|Windows PowerShell 3.0   |All Skype for Business Server servers needs Windows PowerShell 3.0 installed.  <br/> • If you're doing the installation on Windows Server 2012 or Windows Server 2012 R2, you're set, because it's already there.  <br/> • If you're doing an upgrade on Windows Server 2008 R2, you can download the [Windows Management Framework 3.0](https://www.microsoft.com/download/details.aspx?id=34595) to get it. <br/> **Tip:** Once you have the correct PowerShell on there, confirm that it's BuildVersion 6.2.9200.0 or later by going to the PowerShell prompt and typing `$PSVersionTable`. This should bring up the information you need.   |
+|Microsoft .NET Framework   |WCF services are a **Feature** that's installed as a Windows feature, under **Server Manager**, no downloads needed. <br/> • You need to make sure, when you install this feature, or if it's already installed and you're checking on it, that the **HTTP Activation** option is also checked and installed, as follows: <br/> ![Screenshot showing HTTP Activation option under the .NET Framework 4.5 Features.](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> Don't worry if you get an additional pop-up saying some other things need to be installed for HTTP Activation to be installed. That's normal, select OK and go ahead. If you don't get this pop-up, then assume those things are already installed, and go ahead.  <br/> Microsoft .NET Framework is installed when Windows Server 2012 R2 or Windows Server 2016 are installed. Skype for Business Server works with the following Microsoft .NET Framework versions:  <br/> • .NET 3.5  <br/> • .NET 4.5  <br/> • .NET 4.6.x  <br/> • .NET 4.7.1 (for Skype for Business Server CU 5 or later releases)  <br/> • .NET 4.7.2 (for Skype for Business Server CU 6 or later releases)  <br/>  • .NET 4.8 (for Skype for Business Server CU 9 or later releases) <br/>  .NET Framework 3.5 will likely be installed by default on your Windows Server 2008 R2 machine (definitely check to be sure before you upgrade), but it actually won't be on your Windows Server 2012/Windows Server 2012 R2 servers (for new installations). To add it in, you'll need access to your installation drive or media (the place your Windows Server was installed from, or where the install files are now). Then go ahead and install it as a feature from Server Manager, and point to the installation media (specifically the **\sources\sxs** folder) when asked for it, and continue on to install it.  |
 |Media Foundation   |For Windows Server 2016, Windows Server 2012 and Windows Server 2012 R2 the Windows Media Format Runtime installs with Microsoft Media Foundation.  <br/> All Front End Servers and Standard Edition servers used for conferencing require Windows Media Format Runtime to run the Windows Media Audio (.wma) files that the Call Park, Announcement, and Response Group applications play for announcements and music.   |
 |Windows Identity Foundation  <br/> |We need Windows Identity Foundation 3.5 to support server-to-server authentication scenarios for Skype for Business Server 2015.  <br/> • For Windows Server 2012 and Windows Server 2012 R2, there's no need to download anything. Open **Server Manager**, and go to the **Add Roles and Features Wizard**. **Windows Identity Foundation 3.5** is listed under the **Features** section. If it's checked, you're good. Otherwise select it and click Next to reach the **Install** button.  |
 |Remote Server Administration Tools   |Role Administration Tools: AD DS and AD LDS tools   |
@@ -189,7 +198,7 @@ There are some things you're going to need to install or configure for any serve
   
 |Software/Role|Details|
 |:-----|:-----|
-|Internet Information Services (IIS)   |IIS is needed on all Front End Servers, as well as all Standard Edition servers, with the following modules selected:  <br/> • Common HTTP Features: Default Document, HTTP Errors, Static Content  <br/> • Health and Diagnostics: HTTP Logging, Logging Tools, Tracing  <br/> • Performance: Static Content Compression, Dynamic Content Compression  <br/> • Security: Request Filtering, Client Certificate Mapping Authentication, Windows Authentication  <br/> • Application Development: .NET Extensibility 3.5, .NET Extensibility 4.5, ASP.NET 3.5, ASP.NET 4.5, ISAPI Extensions, ISAPI Filters  <br/> • Management Tools: IIS Management Console, IIS Management Scripts and Tools  <br/> We should also note Anonymous Access is also needed, but you get that when you install IIS, so you don't have a place to select that on the list.   |
+|Internet Information Services (IIS)   |IIS is needed on all Front End Servers, and all Standard Edition servers, with the following modules selected:  <br/> • Common HTTP Features: Default Document, HTTP Errors, Static Content  <br/> • Health and Diagnostics: HTTP Logging, Logging Tools, Tracing  <br/> • Performance: Static Content Compression, Dynamic Content Compression  <br/> • Security: Request Filtering, Client Certificate Mapping Authentication, Windows Authentication  <br/> • Application Development: .NET Extensibility 3.5, .NET Extensibility 4.5, ASP.NET 3.5, ASP.NET 4.5, ISAPI Extensions, ISAPI Filters  <br/> • Management Tools: IIS Management Console, IIS Management Scripts and Tools  <br/> We should also note Anonymous Access is also needed, but you get that when you install IIS, so you don't have a place to select that on the list.   |
 |Windows Media Format Runtime   | For Windows Server 2016, Windows Server 2012, and Windows Server 2012 R2, you'll need to install the **Media Foundation** feature in **Server Manager**. Now, you actually can start your Skype for Business Server 2015 installation without this one, but you'll be prompted to install it, and then reboot the server, before the Skype for Business Server 2015 install continues. Better to do it ahead of time.  |
 |Silverlight   |You can install the latest version of Silverlight at [this link](https://www.microsoft.com/silverlight/).   |
    
@@ -271,4 +280,4 @@ Message Queuing, which is also called MSMQ. It's a Windows Server component, and
   
  **Last thoughts:**
   
-Please don't install any Microsoft Internet Security and Acceleration (ISA) Server client software, or any other Winsock Layered Service Providers (LSP) software (any third-party firewalls or anti-virus network inspection software would be included here) on any of your front end servers or standalone mediation servers. Poor media traffic performance has been seen when that software's installed.
+Don't install any Microsoft Internet Security and Acceleration (ISA) Server client software, or any other Winsock Layered Service Providers (LSP) software (any third-party firewalls or anti-virus network inspection software would be included here) on any of your front end servers or standalone mediation servers. Poor media traffic performance has been seen when that software's installed.

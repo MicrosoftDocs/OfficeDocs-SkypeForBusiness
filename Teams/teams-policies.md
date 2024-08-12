@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.reviewer: jastark
-ms.date: 06/26/2019
+ms.date: 06/20/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -78,4 +78,4 @@ You can edit the global policy or any custom policies that you create.
 
 [Assign policies to your users in Teams](policy-assignment-overview.md)
 
-[New-CsTeamsChannelsPolicy](/powershell/module/skype/new-csteamschannelspolicy)
+[New-CsTeamsChannelsPolicy](/powershell/module/teams/new-csteamschannelspolicy)

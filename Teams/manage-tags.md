@@ -4,7 +4,7 @@ author: lana-chin
 ms.author: v-chinlana
 manager: jtremper
 ms.reviewer: yinchang
-ms.date: 02/20/2024
+ms.date: 03/08/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,18 +25,18 @@ description: Learn to manage how tags are used in your organization in Microsoft
 
 Tags in Microsoft Teams let users quickly and easily connect with a subset of people on a team. There are three kinds of tags in Teams.
 
-- **Custom tags**: Team owners and team members (if they have permissions) can manually create and assign tags to people based on attributes, such as role, project, skill, or location. For example, a “Designer” tag reaches that set of people on a team without having to type their names.
+- **Custom tags**: Team owners and team members (if they have permissions) can manually create and assign tags to people based on attributes, such as role, project, skill, or location. For example, a "Designer" tag reaches that set of people on a team without having to type their names.
 
-- **Tagging by shift**: With this feature, people are automatically assigned tags that match their schedule and shift group name in the [Shifts app](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6) in Teams. For example, the “EngineerOnCall” tag reaches all engineers who are scheduled in Shifts to work at the time the tag is used in a chat or channel post. With tagging by shift, Teams takes the guesswork out of knowing the name of on-shift staff when users need to quickly relay information.
+- **Tagging by shift**: With this feature, people are automatically assigned tags that match their schedule and shift group name in the [Shifts app](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6) in Teams. For example, the "EngineerOnCall" tag reaches all engineers who are scheduled in Shifts to work at the time the tag is used in a chat or channel post. With tagging by shift, Teams takes the guesswork out of knowing the name of on-shift staff when users need to quickly relay information.
 
-- **Automatic tags** (coming soon): Use automatic tags to reach groups of people by department or job title in Teams channel conversations. For example, the “Store Associate” tag and the “Sales” tag reaches those specific groups of people. These tags are automatically created and assigned based on values mapped from Microsoft Entra attributes that you set through the [deploy frontline dynamic teams experience](/microsoft-365/frontline/deploy-dynamic-teams-at-scale) in the Teams admin center. [Learn more about attribute mapping and targeted communications](/microsoft-365/frontline/set-up-targeted-communications).
+- **Automatic tags** (coming soon): Use automatic tags to reach groups of people by department or job title in Teams channel conversations. For example, the "Store Associate" tag and the "Sales" tag reaches those specific groups of people. These tags are automatically created and assigned based on values mapped from Microsoft Entra attributes that you set through the [deploy frontline dynamic teams experience](/microsoft-365/frontline/deploy-dynamic-teams-at-scale) in the Teams admin center. [Learn more about attribute mapping and targeted communications](/microsoft-365/frontline/set-up-targeted-communications).
 
 After a tag is added to one or multiple team members, it can be used in @mentions by anyone on the team in a channel post to notify only those people who are assigned that tag of a conversation.
 
 If you're a team owner and you want to manage tags for your team, see [Using tags in Teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e).
 
 > [!NOTE]
-> Tags aren't supported in private or shared channels.
+> Tags are now supported in [private channels](private-channels.md) and [shared channels](shared-channels.md). For shared channels, only direct members of a shared channel can be added to a shared channel tag. People who inherit membership to a shared channel when it's shared with a team can't be added to a shared channel tag.
 
 ## How tags work
 
@@ -89,7 +89,7 @@ You can configure the following tags settings to control how tags are used acros
     - **Suggested tags**: Use this option to add a set of default tags. You can add up to 25 tags, and each tag can contain a maximum of 25 characters. Team owners and members (if the feature is enabled for them) can use these suggestions, add to them, or create a new set of tags.
 
       > [!NOTE]
-      > Suggested tags is being deprecated.
+      > Suggested tags is available in classic Teams but will no longer be available in [new Teams](new-teams-desktop-admin.md).
 
     - **Custom tags**: Turn on this setting to let people add tags other than the suggested default tags that you set. If this setting is turned off, people can only use the suggested default tags. If you turn off this setting, make sure that you add one or more default tags.
     - **Shifts app can apply tags**: Turn on this setting to enable the Shifts app to automatically assign tags to people who are on-shift in real time. These tags match a user's schedule and group name in Shifts. Notifications are only sent to those people who are on-shift at the time the tag is used in a chat or channel post.

@@ -1,6 +1,6 @@
 ---
 ms.date: 06/11/2018
-title: "Lync Online Dedicated-qualified solutoins"
+title: "Lync Online Dedicated-qualified solutions"
 ms.author: serdars
 author: msdmaguire
 manager: serdars
@@ -28,23 +28,23 @@ Customers deployed with Lync Online Dedicated have Lync running in data centers 
 
 Lync Online Dedicated offers interoperability with customer's on-premises session border controllers and provides connectivity with IP telephony service providers for SIP trunking.
 
-It is recommended that you visit the vendor's web site for the latest information regarding protocol, capacity, country/region support and documentation including a Quick Start Guide, release notes and any known issues.
+It's recommended that you visit the vendor's web site for the latest information regarding protocol, capacity, country/region support and documentation including a Quick Start Guide, release notes, and any known issues.
 
 ## USB audio and video devices
 
-All USB audio and video devices that are "Optimized for Lync" are supported in Lync Online Dedicated. For details, please visit the [USB audio and video devices](usb-and-video.md) page.
+All USB audio and video devices that are "Optimized for Lync" are supported in Lync Online Dedicated. For details, visit the [USB audio and video devices](usb-and-video.md) page.
 
 ## IP phones
 
-All IP phones that are "Optimized for Lync" are supported in Lync Online Dedicated. For details, please visit the [IP desk phones](ip-phones.md) page and refer to devices that are "Optimized for Lync." Devices that are "Qualified for Lync" are not currently supported in Lync Online Dedicated.
+All IP phones that are "Optimized for Lync" are supported in Lync Online Dedicated. For details, visit the [IP desk phones](ip-phones.md) page and refer to devices that are "Optimized for Lync." Devices that are "Qualified for Lync" aren't currently supported in Lync Online Dedicated.
 
 ## Meeting room devices
 
-All meeting room devices that are "Qualified for Lync" are supported in Lync Online Dedicated. For details, please visit the [Meeting room devices](meeting-room-devices.md) page.
+All meeting room devices that are "Qualified for Lync" are supported in Lync Online Dedicated. For details, visit the [Meeting room devices](meeting-room-devices.md) page.
 
 ## Video infrastructure
 
-Video infrastructure provides interoperability and connectivity capabilities between a customer's datacenter and the Microsoft Online Dedicated environment. Listed below are the video infrastructure products along with the necessary firmware combinations that are supported with Lync Online Dedicated.
+Video infrastructure provides interoperability and connectivity capabilities between a customer's datacenter and the Microsoft Online Dedicated environment. The following table lists the video infrastructure products along with the necessary firmware combinations that are supported with Lync Online Dedicated.
 
 | Manufacturer |Product | Device type |
 |:---  |  :--- |  :---  |
@@ -54,7 +54,7 @@ Radvision| SCOPIA Video Gateway for Microsoft Lync| Gateway|
 | | | |
 
 ## SIP trunking
-SIP trunking enables connectivity to the public switched telephony network (PSTN) directly over SIP. SIP trunking services are offerings from IP telephony service provider partners that offer PSTN origination, termination and emergency services using the SIP protocol. All SIP Trunking providers qualified for Lync Server 2013 are supported in Lync Online Dedicated. For additional information about qualified SIP trunk carriers and devices, see [Services qualified for Lync](sip-trunking-services.md).
+SIP trunking enables connectivity to the public switched telephony network (PSTN) directly over SIP. SIP trunking services are offerings from IP telephony service provider partners that offer PSTN origination, termination, and emergency services using the SIP protocol. All SIP Trunking providers qualified for Lync Server 2013 are supported in Lync Online Dedicated. For more information about qualified SIP trunk carriers and devices, see [Services qualified for Lync](sip-trunking-services.md).
 
 ## Session border controllers
 

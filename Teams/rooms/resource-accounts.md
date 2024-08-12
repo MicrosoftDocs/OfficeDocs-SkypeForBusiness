@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: sohailta
-ms.date: 09/29/2023
+ms.date: 08/08/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -86,7 +86,7 @@ This section lists crucial alert messages and their descriptions:
 
 |Message  |Description  |
 |---------|---------|
-|Mailbox settings are not available. You need to be a global admin to get this information. Contact your administrator to get access.     |  This message appears if the users don't have permissions.       |
+|Mailbox settings are not available. You need to be a global admin to get this information. Contact your administrator to get access.     |  This message appears if the users don't have permissions.  Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.|
 |An error occurred while loading resource account(s). If the problem persists please contact support.     |   This message appears when an error has occurred while loading accounts.      |
 |An error occurred while loading summary, please try again later. If the problem persists please contact support.     | This message appears when an error has occurred while loading stats.       |
 |An error occurred while exporting file, please try again later. If the problem persists, please contact support.     | This message appears when an error has occurred while exporting resource accounts.         |

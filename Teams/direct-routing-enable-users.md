@@ -47,8 +47,6 @@ There are two options for creating a new user in Microsoft 365. However, Microso
 - Create the user in on-premises Active Directory and sync the user to the cloud. See [Integrate your on-premises directories with Microsoft Entra ID](/azure/active-directory/connect/active-directory-aadconnect).
 - Create the user directly in the Microsoft 365 admin center. See [Add users individually or in bulk to Microsoft 365 or Office 365 - Admin Help](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec). 
 
-If your Skype for Business Online deployment coexists with Skype for Business 2015 or Lync 2010 or 2013 on-premises, the only supported option is to create the user in the on-premises Active Directory and sync the user to the cloud (Option 1). 
-
 For information about license requirements, see [licensing and other requirements](direct-routing-plan.md#licensing-and-other-requirements) in [Plan Direct Routing](direct-routing-plan.md).
 
 ## Ensure that the user is homed online 
@@ -140,7 +138,7 @@ The account general information will now show the assigned phone number and Dire
     Microsoft recommends, but doesn't require, that the phone number is configured as a full E.164 phone number with country code. You can configure phone numbers with extensions. These extensions will be used to look up users when the lookup against the base number returns more than one result. This functionality allows companies to configure phone numbers with the same base number and unique extensions. For lookup to be successful, the invite must include the full number with extension as follows:
     
     ```PowerShell
-    To: <sip:+14255388701;ext=1001@sbc1.adatum.biz
+    Invite: <sip:+14255388701;ext=1001@sbc1.adatum.biz
     ```
 
 

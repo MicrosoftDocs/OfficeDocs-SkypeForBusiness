@@ -8,7 +8,6 @@ ms.date: 01/31/2024
 ms.service: msteams
 audience: admin
 ms.collection: 
-- Teams_ITAdmin_GuestAccess
 - M365-collaboration
 - m365initiative-deployteams
 ms.reviewer: daro
@@ -55,7 +54,7 @@ The data in the table columns below the graph allow a more granular look at indi
 ## Example Scenarios for the Teams desktop client usage report
 
 - While your organization is moving from classic Teams to new Teams, this report allows you to monitor progress along the way. You may have given your users the ability to toggle back and forth between classic and new Teams, or you may be moving groups of users to new Teams on a set schedule. In either case, this report allows you to see and confirm the transition as you proceed.
-- If your organization allows users to toggle back and forth between classic and new Teams ahead of the [automatic update coming on March 31 2024](new-teams-automatic-upgrade-announced.md), this report will allow you to identify users who have chosen to remain on classic Teams. With that information, you can perform any relevant communication or change management campaigns to help those users make the switch.
+- If your organization allows users to toggle back and forth between classic and new Teams ahead of [the automatic update coming on March 31 2024](teams-classic-client-end-of-availability.md), this report will allow you to identify users who have chosen to remain on classic Teams. With that information, you can perform any relevant communication or change management campaigns to help those users make the switch.
 - Using the export capability of the report, you can identify any Teams desktop clients in your organization stuck on an older version and that aren't automatically updating as they should. Becoming stuck and not automatically updating is often a result of some sort of network or machine issue or a configuration change. Identifying these users with this report allows you to proactively identify and engage with these users to investigate and resolve the issue.
 
 ## Related articles
@@ -63,4 +62,4 @@ The data in the table columns below the graph allow a more granular look at indi
 - [The new Microsoft Teams](new-teams-desktop-admin.md)
 - [New Teams for Mac - Overview and prerequisites](new-teams-mac-install-prerequisites.md)
 - [Upgrade to new Teams for Virtualized Desktop Infrastructure (VDI)](new-teams-vdi-requirements-deploy.md)
-- [Troubleshooting installation issues in the new Teams client](new-teams-troubleshooting-installation.md)
+- [Troubleshooting installation issues in the new Teams client](/microsoftteams/troubleshoot/teams-administration/fix-new-teams-installation-issues)

@@ -61,7 +61,7 @@ A workflow also defines settings such as a welcome message, music on hold, busin
 8. To allow federated users to call the group, select the **Enable for federation** check box. You must also have an external access policy that applies to the Response Group application configured for federation.
 
     > [!NOTE]
-    > The global external access policy applies to the Response Group application. You can configure the global policy for response group federation by using Skype for Business Server Control Panel or by using the **Set-CsExternalAccessPolicy** cmdlet to set the EnableOutsideAccess parameter to True. Keep in mind that global policy settings apply to all users unless they are assigned a site or user policy. Therefore, before changing this setting for response groups, make sure that the federation setting meets the requirements of your organization. For details about how policies apply to users, see [Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization). For details about the federation setting, see [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps).
+    > The global external access policy applies to the Response Group application. You can configure the global policy for response group federation by using Skype for Business Server Control Panel or by using the **Set-CsExternalAccessPolicy** cmdlet to set the EnableOutsideAccess parameter to True. Keep in mind that global policy settings apply to all users unless they are assigned a site or user policy. Therefore, before changing this setting for response groups, make sure that the federation setting meets the requirements of your organization. For details about how policies apply to users, see [Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization). For details about the federation setting, see [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy).
 
     > [!NOTE]
     > Users who are hosted in Skype for Business Online can't place calls to response groups that are hosted in an on-premises deployment. This is true in both hybrid deployments and in cases where an on-premises deployment is federated with a Skype for Business Online deployment.
@@ -215,7 +215,7 @@ A workflow also defines settings such as a welcome message, music on hold, busin
    ```
 
      > [!NOTE]
-     > To use an audio file for the prompt, use the **Import-CsRgsAudioFile** cmdlet. For details, see [Import-CsRgsAudioFile](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps).
+     > To use an audio file for the prompt, use the **Import-CsRgsAudioFile** cmdlet. For details, see [Import-CsRgsAudioFile](/powershell/module/skype/import-csrgsaudiofile).
 
 4. Get the identity of the queue or question where the calls will be directed. At the command line, run:
 
@@ -223,7 +223,7 @@ A workflow also defines settings such as a welcome message, music on hold, busin
    $qid = (Get-CsRgsQueue -Name "Help Desk").Identity
    ```
 
-    For details about creating the queue, see [New-CsRgsQueue](/powershell/module/skype/new-csrgsqueue?view=skype-ps).
+    For details about creating the queue, see [New-CsRgsQueue](/powershell/module/skype/new-csrgsqueue).
 
 5. Define the default action to be taken when a workflow is opened during business hours, and save it in a variable. At the command line, run:
 
@@ -242,7 +242,7 @@ A workflow also defines settings such as a welcome message, music on hold, busin
 
 6. If you want to define business hours and holidays, you need to create them before you create or modify the workflow. For details, see [(Optional) Define Response Group business hours in Skype for Business](optional-define-response-group-business-hours.md) and [(Optional) Define Response Group holiday sets in Skype for Business](optional-define-response-group-holiday-sets.md).
 
-7. If you want to have prompts for calls that are received out of business hours or on holidays, use the **New-CsRgsPrompt** cmdlet to define the prompt, and use the **New-CsRgsCallAction** to define the action to be taken after the prompt. For details, see [New-CsRgsPrompt](/powershell/module/skype/new-csrgsprompt?view=skype-ps) and [New-CsRgsCallAction](/powershell/module/skype/new-csrgscallaction?view=skype-ps).
+7. If you want to have prompts for calls that are received out of business hours or on holidays, use the **New-CsRgsPrompt** cmdlet to define the prompt, and use the **New-CsRgsCallAction** to define the action to be taken after the prompt. For details, see [New-CsRgsPrompt](/powershell/module/skype/new-csrgsprompt) and [New-CsRgsCallAction](/powershell/module/skype/new-csrgscallaction).
 
 8. Retrieve the service name for the Lync Server Response Group service and assign it to a variable. At the command, run:
 
@@ -266,7 +266,7 @@ A workflow also defines settings such as a welcome message, music on hold, busin
      > All users who are designated managers for workflows must be assigned the CsResponseGroupManager role.
 
      > [!NOTE]
-     > For details about additional optional parameters, see [New-CsRgsWorkflow](/powershell/module/skype/new-csrgsworkflow?view=skype-ps) or [Set-CsRgsWorkflow](/powershell/module/skype/set-csrgsworkflow?view=skype-ps)
+     > For details about additional optional parameters, see [New-CsRgsWorkflow](/powershell/module/skype/new-csrgsworkflow) or [Set-CsRgsWorkflow](/powershell/module/skype/set-csrgsworkflow)
 
 ## Designing an interactive workflow
 
@@ -313,7 +313,7 @@ The following figure shows the call flow.
 
  **One-level interactive call flow**
 
-![Design Call Flows by Using Interactive Voice Respo.](../../media/Ops_OCS_RGS_IVRLevel1.jpg)
+![Chart shows design call flows by using Interactive Voice Response.](../../media/Ops_OCS_RGS_IVRLevel1.jpg)
 
 #### IVR with Two Levels of Questions
 
@@ -345,7 +345,7 @@ The following figure shows the call flow.
 
  **Two-level interactive call flow**
 
-![Design Call Flows by Using Interactive Voice Respo.](../../media/Ops_OCS_RGS_IVRLevel2.jpg)
+![Chart shows two-level interactive call flow.](../../media/Ops_OCS_RGS_IVRLevel2.jpg)
 
 ### Best Practices
 
@@ -646,10 +646,10 @@ The following list describes some best practices for designing your IVR:
 
 [(Optional) Define Response Group business hours in Skype for Business](optional-define-response-group-business-hours.md)
 
-[New-CsRgsWorkflow](/powershell/module/skype/new-csrgsworkflow?view=skype-ps)
+[New-CsRgsWorkflow](/powershell/module/skype/new-csrgsworkflow)
 
-[Set-CsRgsWorkflow](/powershell/module/skype/set-csrgsworkflow?view=skype-ps)
+[Set-CsRgsWorkflow](/powershell/module/skype/set-csrgsworkflow)
 
-[New-CsRgsPrompt](/powershell/module/skype/new-csrgsprompt?view=skype-ps)
+[New-CsRgsPrompt](/powershell/module/skype/new-csrgsprompt)
 
-[New-CsRgsCallAction](/powershell/module/skype/new-csrgscallaction?view=skype-ps)
+[New-CsRgsCallAction](/powershell/module/skype/new-csrgscallaction)

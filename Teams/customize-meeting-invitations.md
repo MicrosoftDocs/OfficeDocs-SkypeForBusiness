@@ -1,7 +1,7 @@
 ---
 title: Customize meeting invitations (IT admins)
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.reviewer: 
 ms.date: 11/13/2023
@@ -47,10 +47,8 @@ Now that you have your logo, you can customize your meeting invitations.
 2. In the left navigation, go to **Meetings** > **Meeting settings**.
 3. Under **Email invitation**, do the following:
 
-    :::image type="content" source="media/meeting-settings-invitation.png" alt-text="Screenshot of the meeting invitation settings that you can customize for Teams meetings.":::
-
     - **Logo URL** Enter the URL where your logo is stored.
-    - **Legal URL** If your organization has a legal website that you want people to go to for any legal concerns, enter the URL here.
+    - **Privacy and security URL** If your organization has a legal website that you want people to go to for any legal concerns, enter the URL here.
     - **Help URL** If your organization has a support website that you want people to go to if they run into issues, enter the URL here.
     - **Footer** Enter text that you want to include as a footer.
 4. Select **Preview invite** to see a preview of your meeting invitation.

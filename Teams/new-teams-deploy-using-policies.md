@@ -24,6 +24,9 @@ ms.localizationpriority: high
 
 You can upgrade to the new Teams client to your organization by setting policies in either the Teams Admin Center or by using PowerShell.
 
+> [!TIP]
+>As a companion to this article, we recommend using the [Microsoft Teams Setup Guide](https://go.microsoft.com/fwlink/?linkid=2270034) when signed in to the Microsoft 365 admin center. This guide will customize your experience based on your environment. To review best practices without signing in and activating automated setup features, go to the [Microsoft 365 setup portal](https://go.microsoft.com/fwlink/?linkid=2270204).
+
 ## Prerequisites
 
 |Requirement|Version|
@@ -48,7 +51,7 @@ You can upgrade to the new Teams client to your organization by setting policies
 Learn more at [**Update History for Microsoft 365 Apps**](/officeupdates/update-history-microsoft365-apps-by-date#supported-versions).
 
 > [!NOTE]
-> The end of availability for classic Teams client is March 31 2024 for most people, with some exceptions ending on June 30 2024. For more information see [End of availability for classic Teams client](teams-classic-client-end-of-availability.md).
+> The end of availability for classic Teams client is June 30 2024. For more information see [End of availability for classic Teams client](teams-classic-client-end-of-availability.md).
 
 ## Set the policies to upgrade to the new Teams client
 
@@ -70,7 +73,13 @@ Configure setting via Teams Admin Center.
    |Classic Teams as default|Use this value to have classic Teams the default version. The new Teams toggle switch displays to let users opt into the new Teams and switch back if needed. **Note:** This option was previously called *Users can choose*.|
    |Microsoft controlled| Default. The value lets Microsoft control whether the new Teams toggle switch is shown or not based on product readiness|
    |New Teams as default </br>Rollout for the feature began in early August  2023 | Use this value to make new Teams the default version. Users can switch back to classic Teams using the toggle.|
-   |New Teams only (Rolling out mid-February 2024) |Use this value to make new Teams the default version and uninstall classic Teams. Users don't have the option to switch back to classic Teams.|
+   |New Teams only (Rolling out mid-February 2024) |Use this value to make new Teams the default version and uninstall classic Teams after a fourteen-day period. Users don't have the option to switch back to classic Teams.|
+
+> [!IMPORTANT]
+> Admins should know that they can always move forward in the steps to new Teams Only from any other point in the rollout schedule, but they can't move backwards in the steps from where they currently are. Some examples:
+>
+> - If a customer is currently in classic Teams default mode, they can go to new Teams default mode, or new Teams Only, by assigning those policy states. However, they can't move back to the AdminDisabled state.
+> - If a customer is currently in new Teams default mode, they can move forward to new Teams Only by assigning that policy state. In this case, they couldn't move back to classic Teams default or AdminDisabled.
 
 In addition to PowerShell, you can also use Teams Admin Center to manage the visibility of the toggle on a per-user basis.
 
@@ -86,7 +95,7 @@ In addition to PowerShell, you can also use Teams Admin Center to manage the vis
 |Not enabled|Use this value to hide the new Teams toggle switch. Users won't be able to opt in to the new Teams.|
 |Classic Teams as default|Use this value to have classic Teams the default version. The new Teams toggle switch displays to let users opt into the new Teams and switch back if needed. **Note:** This option was previously called *Users can choose*.|
 |New Teams as default|Sets the new Teams as default. **Note:** This option is currently being rolled out|
-|**Microsoft controlled**|**Default. Use this value to let Microsoft control the following:</br>-Whether the "Try the new Teams" toggle switch is shown or not</br>- In the future, let Microsoft manage the installation of the new Teams client and </br>Allow Microsoft to determine default client behavior based on the [rollout schedule](new-teams-desktop-admin.md#new-teams-schedule-for-clients).**|
+|**Microsoft controlled**|**Default. Use this value to let Microsoft control the following:</br>-Whether the "Try the new Teams" toggle switch is shown or not</br>- In the future, let Microsoft manage the installation of the new Teams client and </br>Allow Microsoft to determine default client behavior based on the [rollout schedule](new-teams-desktop-admin.md).**|
 
 </br>
 
@@ -236,5 +245,5 @@ Local settings that are automatically migrated when switching from classic Teams
 
 ## Related topics
 
-- [Troubleshooting installation issues in the new Teams client](new-teams-troubleshooting-installation.md)
+- [Troubleshooting installation issues in the new Teams client](/microsoftteams/troubleshoot/teams-administration/fix-new-teams-installation-issues)
 - [Upgrade to new Teams for Virtualized Desktop Infrastructure (VDI)](new-teams-vdi-requirements-deploy.md)

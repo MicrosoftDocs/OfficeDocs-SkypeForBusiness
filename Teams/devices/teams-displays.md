@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
 ms.reviewer: prashibadkur
-ms.date: 08/24/2020
+ms.date: 05/15/2024
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
@@ -23,6 +23,10 @@ description: This article provides an overview of and features supported by Micr
 ---
 
 # Microsoft Teams displays
+
+> [!IMPORTANT]
+>
+> End of support for the Teams display app is September 3, 2025. Microsoft will make commercially reasonable best efforts to maintain compatibility with the most recent version of the Teams app provided to manufacturers for a period of two (2) years from this date. See the [Microsoft Product and Services lifecycle](/lifecycle/products/) for details.
 
 Microsoft Teams displays are a category of all-in-one dedicated Teams devices that feature an ambient touchscreen. This article provides an overview of Teams displays and can help you plan, deliver, and manage Teams displays in your organization.
 
@@ -59,7 +63,7 @@ Hot desking allows people in your organization to reserve temporary workspaces i
 
 To get started, you'll need to acquire [Microsoft Teams Shared Device licenses](../teams-add-on-licensing/teams-shared-device-license.md) and create resource accounts for each Teams display. See [Create resource accounts for rooms and shared Teams devices](../rooms/create-resource-account.md) to create resource accounts.
 
-After you create resource accounts, you can create and assign a policy to enable hot-desking. See [New-CsTeamsIPPhonePolicy](/powershell/module/skype/new-csteamsipphonepolicy) to learn more.
+After you create resource accounts, you can create and assign a policy to enable hot-desking. See [New-CsTeamsIPPhonePolicy](/powershell/module/teams/new-csteamsipphonepolicy) to learn more.
 
 > [!IMPORTANT]
 > Because Teams displays with hot-desking are used in shared workspaces by multiple people, Conditional Access rules and other identity configurations in your environment, like Multi-Factor Authentication, can impact these devices and cause sign-in issues. For guidance on securing shared devices, see [Authentication best practices for shared Teams Android devices](authentication-best-practices-for-android-devices.md).

@@ -41,7 +41,7 @@ While the ordered devices are being delivered to your organization, work with yo
 
 You can find out more about these dependencies in the planning guidance links below:
 
-- [Check network availability](rooms-prep.md#check-network-availability)
+- [Check network availability](rooms-prep.md#confirm-network-configuration)
 - [Certificates](rooms-prep.md#certificates)
 - [Proxy](rooms-prep.md#proxy)
 

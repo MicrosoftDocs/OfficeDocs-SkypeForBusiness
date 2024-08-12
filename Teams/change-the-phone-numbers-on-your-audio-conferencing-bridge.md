@@ -1,7 +1,7 @@
 ---
 title: "Change phone numbers on Audio Conferencing bridge"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: jenz
+author: jenzamora
 manager: pamgreen
 ms.reviewer: oscarr
 ms.date: 02/21/2024
@@ -9,6 +9,7 @@ ms.topic: article
 ms.assetid: 6403f6d1-c05a-44ab-a6e0-558000e246f4
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-audio-conferencing
 search.appverid: MET150
 ms.collection:
   - m365initiative-meetings
@@ -77,15 +78,15 @@ If you changed the default phone numbers included in meeting invites for some or
 
 - Run the Meeting Migration Service (MMS) for the users who had their default phone numbers changed in Step 2. To run MMS, use the following command:
 
-```PowerShell
-    Start-CsExMeetingMigration user@contoso.com
-```
+  ```PowerShell
+  Start-CsExMeetingMigration user@contoso.com
+  ```
 
 - You can also view the meeting migration status. All meetings would be rescheduled once there are no operations in  *Pending*  or *In-Progress*  state.
 
-```PowerShell
-    Get-CsMeetingMigrationStatus -SummaryOnly
-```
+  ```PowerShell
+  Get-CsMeetingMigrationStatus -SummaryOnly
+  ```
 
 ## Steps when you're unassigning a service phone number for a conferencing bridge
 
@@ -94,7 +95,7 @@ Because the phone number is changing, you should update all users with a changin
 
 If the phone number is removed without updating the users and their meetings, their existing meeting invites could contain a phone number that doesn't work for joining their meetings.
 
-For the first three steps, you need to start Windows PowerShell. To see how to start Windows PowerShell, select [Want to know how to manage with Windows PowerShell?](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#about-windows-powershell)
+For the first three steps, you need to start Windows PowerShell. For more information on how to start Windows PowerShell, see [Getting started with PowerShell](/powershell/scripting/learn/ps101/01-getting-started).
 
 ### Step 1 - Update users who have the phone number to be unassigned as one of their default numbers
 
@@ -104,13 +105,13 @@ Replace the default toll or toll-free number for all users who have the number t
 Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be removed> -ToNumber <Number to be set as new default> -NumberType <"Toll" or "Toll-Free"> -RescheduleMeetings
 ```
 
- > [!IMPORTANT]
- >You can also change the default toll or toll-free number of users in the Microsoft Teams admin center. However, this won't automatically reschedule their meetings.
+> [!IMPORTANT]
+> You can also change the default toll or toll-free number of users in the Microsoft Teams admin center. However, this won't automatically reschedule their meetings.
 
- For more information, see [Set the phone numbers included on invites in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) or [Set the phone numbers included on invites in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
+For more information, see [Set the phone numbers included on invites in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md).
 
-  > [!NOTE]
-  > Depending on the size of your organization, this could take some time to complete.
+> [!NOTE]
+> Depending on the size of your organization, this could take some time to complete.
 
 ### Step 2 - View meeting migration status using Windows PowerShell
 
@@ -139,38 +140,38 @@ To find the Conference Bridge ID, run the following PowerShell: Get-CsOnlineDial
 
 ### Save time and automate
 
-To save time by automating this process, you can use the [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/Set-CsOnlineDialInConferencingUser) or the **Set-CsOnlineDialInConferencingUserDefaultNumber** cmdlets.
+To save time by automating this process, you can use the [Set-CsOnlineDialInConferencingUser](/powershell/module/teams/Set-CsOnlineDialInConferencingUser) or the **Set-CsOnlineDialInConferencingUserDefaultNumber** cmdlets.
 
-- Use the [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/Set-CsOnlineDialInConferencingUser) cmdlet to change the default toll or toll-free number for specific users.
+- Use the [Set-CsOnlineDialInConferencingUser](/powershell/module/teams/Set-CsOnlineDialInConferencingUser) cmdlet to change the default toll or toll-free number for specific users.
 
   - To change the default toll-free number for a user, run:
 
-  ```PowerShell
-  Set-CsOnlineDialinConferencingUser -Identity amos.marble@Contoso.com -TollFreeServiceNumber   80045551234
-  ```
+    ```PowerShell
+    Set-CsOnlineDialinConferencingUser -Identity amos.marble@Contoso.com -TollFreeServiceNumber   80045551234
+    ```
 
 - Use the **Set-CsOnlineDialInConferencingUserDefaultNumber** cmdlet to change the default toll or toll-free number of users based on their original default number or their location.
 
-    > [!NOTE]
-    > To find the BridgeID, use the **Get-CsOnlineDialInConferencingBridge**.
+  > [!NOTE]
+  > To find the BridgeID, use the **Get-CsOnlineDialInConferencingBridge**.
 
   - To set the default toll-free number for all users without one to 8005551234, run:
 
-  ```PowerShell
-  Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber $null -ToNumber 8005551234 -NumberType TollFree -BridgeId <Bridge Id>
-  ```
+    ```PowerShell
+    Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber $null -ToNumber 8005551234 -NumberType TollFree -BridgeId <Bridge Id>
+    ```
 
   - To change the default toll-free number of all users that have 8005551234 as their default toll-free number to 8005551239 and automatically reschedule their meetings, run:
 
-  ```PowerShell
-  Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber 8005551234 -ToNumber 8005551239 NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings
-  ```
+    ```PowerShell
+    Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber 8005551234 -ToNumber 8005551239 NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings
+    ```
 
   - To set the default toll-free number of all users located in the U.S. to 8005551234 and automatically reschedule their meetings, run:
 
-  ```PowerShell
-  Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber 8005551234 -NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings
-  ```
+    ```PowerShell
+    Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber 8005551234 -NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings
+    ```
 
     > [!NOTE]
     > The location that is used above needs to match the contact information of user(s) that is set in the Microsoft 365 admin center.
@@ -194,22 +195,6 @@ The result, aside other information like Identity, Name and Region, should also 
 ```PowerShell
 Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridge" -RemoveDefaultServiceNumber 8005551234
 ```
-
-## About Windows PowerShell
-
-With Windows PowerShell, you can manage users and what they are or aren't allowed to do. Windows PowerShell can help you manage Microsoft 365 or Office 365 and Skype for Business Online using a single point of administration. Having single point of administration can simplify your daily work, especially when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
-
-- [An introduction to Windows PowerShell and Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-
-- [Why you need to use Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
-
-Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center such as when you're making setting changes for many users at one time. Learn about these advantages in the following topics:
-
-- [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](/previous-versions//dn568025(v=technet.10))
-
-- [Using Windows PowerShell to manage Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-
-- [Using Windows PowerShell to do common Skype for Business Online management tasks](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
 ## Related topics
 

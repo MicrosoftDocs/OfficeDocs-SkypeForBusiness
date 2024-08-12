@@ -24,7 +24,7 @@ appliesto:
 
 ## Overview
 
-With a Teams Premium license, you can decide if event organizers and co-organizers can edit email templates for their webinars and town halls. With email templates, organizers and co-organizers can manage waitlists, remind attendees about webinars they've registered for, and provide clear instructions to attendees before, during, and after the event.
+With a Teams Premium license, you can decide if event organizers and co-organizers can edit email templates for their webinars and town halls. With email templates, organizers and co-organizers can manage waitlists, remind attendees about webinars they registered for, and provide clear instructions to attendees before, during, and after the event.
 Your organizers and co-organizers can edit the following email communication templates:
 
 - Registration Confirmation
@@ -50,7 +50,7 @@ Follow these steps in the Teams admin center to manage the email communications 
 2. Select **Meetings** from the navigation pane.
 3. Under **Meetings**, select **Events Policies**.
 4. Either select an existing policy or create a new one.
-5. Toggle the **Allow email editing** setting **On** or **Off**.
+5. Toggle the **Customize event emails** setting **On** or **Off**.
 6. Select **Save**
 
 ## Manage email communications for webinars and town halls with PowerShell
@@ -80,5 +80,6 @@ To learn more about `-AllowEmailEditing`, see the following cmdlet topics:
 
 ## Related articles
 
+- [Issues that affect Teams webinars](/microsoftteams/troubleshoot/meetings/issues-with-webinars)
 - [Set up webinars](set-up-webinars.md)
 - [Set up town halls](set-up-town-halls.md)

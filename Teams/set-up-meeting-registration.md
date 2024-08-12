@@ -3,8 +3,8 @@ title: Set up Meeting Registration in Microsoft Teams
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.reviewer: justle, ritikag
-ms.date: 10/01/2023
+ms.reviewer: sherimehmood
+ms.date: 7/15/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -29,6 +29,9 @@ description: Learn how to set up and manage meeting registration policies in Tea
 **APPLIES TO:** ✔️Meetings ✖️Webinars ✖️Town halls
 
 [!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
+
+> [!NOTE]
+> While meetings with registration are no longer supported, you and your users can use webinars. To learn more about setting up webinars for your org, see [Plan for Teams webinars](plan-webinars.md) Meetings with registration that were previously scheduled, or created with Graph API are still supported until December 31st, 2024.
 
 This article describes how you, as an admin, can set up and manage meeting registration for your end users in Microsoft Teams meetings.
 
@@ -135,16 +138,16 @@ For more information, on **Who can register** for education tenants, see [Teams 
 
 [Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report)
 
-[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)
+[Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)
 
 [Set-CsTeamsEventsPolicy](/powershell/module/teams/set-csteamseventspolicy)
 
 [Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report)
 
-[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy)
+[New-CsTeamsMeetingPolicy](/powershell/module/teams/new-csteamsmeetingpolicy)
 
-[Grant-CsTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy)
+[Grant-CsTeamsMeetingPolicy](/powershell/module/teams/grant-csteamsmeetingpolicy)
 
-[Get-CsTeamsMeetingPolicy](/powershell/module/skype/get-csteamsmeetingpolicy)
+[Get-CsTeamsMeetingPolicy](/powershell/module/teams/get-csteamsmeetingpolicy)
 
-[Remove-CsTeamsMeetingPolicy](/powershell/module/skype/remove-csteamsmeetingpolicy)
+[Remove-CsTeamsMeetingPolicy](/powershell/module/teams/remove-csteamsmeetingpolicy)

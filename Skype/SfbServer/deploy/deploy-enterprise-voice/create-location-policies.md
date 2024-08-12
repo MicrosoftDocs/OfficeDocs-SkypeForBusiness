@@ -16,32 +16,32 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
-description: "Read this topic to learn how to configure enhanced emergency service (E9-1-1) location policies in Skype for Business Server Enterprise Voice."
+description: "Read this article to learn how to configure enhanced emergency service (E9-1-1) location policies in Skype for Business Server Enterprise Voice."
 ---
 
 # Create location policies in Skype for Business Server
 
-Read this topic to learn how to configure enhanced emergency service (E9-1-1) location policies in Skype for Business Server Enterprise Voice. 
+Read this article to learn how to configure enhanced emergency service (E9-1-1) location policies in Skype for Business Server Enterprise Voice. 
 
-Skype for Business Server uses a location policy to enable Skype for Business clients for E9-1-1 during client registration. A location policy contains the settings that define how E9-1-1 will be implemented. For more information, see [Plan location policies for Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/location-policies.md).
+Skype for Business Server uses a location policy to enable Skype for Business clients for E9-1-1 during client registration. A location policy contains the settings that define how E9-1-1 is implemented. For more information, see [Plan location policies for Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/location-policies.md).
 
-You define location policies by using the Skype for Business Control Panel or by using the [New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) cmdlet.
+You define location policies by using the Skype for Business Control Panel or by using the [New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps&preserve-view=true) cmdlet.
 
 > [!NOTE]
 > Skype for Business Server now supports the configuration of multiple emergency numbers for a client. If you want to configure multiple emergency numbers, you must follow the information in [Plan for multiple emergency numbers in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md) and [Configure multiple emergency numbers in Skype for Business](configure-multiple-emergency-numbers.md). 
 
-You can edit the global location policy and create new tagged location policies. A client obtains a global policy when it is not located within a subnet with an associated location policy, or when the client has not been directly assigned a location policy. Tagged policies are assigned to subnets or users. 
+You can edit the global location policy and create new tagged location policies. A client obtains a global policy when it isn't located within a subnet with an associated location policy, or when the client hasn't been directly assigned a location policy. Tagged policies are assigned to subnets or users. 
 
 To create a location policy, you must use an account that is a member of the RTCUniversalServerAdmins group, or is a member of the CsVoiceAdministrator administrative role, or has equivalent administrator rights and permissions.
 
-For more information, see [Plan location policies for Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/location-policies.md). Cmdlets in this procedure use a location policy defined using the following values. For a complete description of cmdlet parameters and values, see [New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps).
+For more information, see [Plan location policies for Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/location-policies.md). Cmdlets in this procedure use a location policy defined using the following values. For a complete description of cmdlet parameters and values, see [New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps&preserve-view=true).
 
 
 | **Element**                               | **Value**                                                                                                                                                                          |
 |:------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | EnhancedEmergencyServicesEnabled  <br/>   | **True** <br/>                                                                                                                                                                     |
 | LocationRequired  <br/>                   | **Disclaimer** <br/>                                                                                                                                                               |
-| EnhancedEmergencyServiceDisclaimer  <br/> | Your company policy requires you to set a location. If you do not set a location, emergency services will not be able to locate you in an emergency. Please set a location.  <br/> |
+| EnhancedEmergencyServiceDisclaimer  <br/> | Your company policy requires you to set a location. If you don't set a location, emergency services won't be able to locate you in an emergency. Set a location.  <br/> |
 | UseLocationForE911Only  <br/>             | **False** <br/>                                                                                                                                                                    |
 | PstnUsage  <br/>                          | **EmergencyUsage** <br/>                                                                                                                                                           |
 | EmergencyDialString  <br/>                | **911** <br/>                                                                                                                                                                      |
@@ -53,7 +53,7 @@ For more information, see [Plan location policies for Skype for Business Server]
 
 ### To create location policies
 
-1. Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.
+1. Start the Skype for Business Server Management Shell: Select **Start**, select **All Programs**, select **Skype for Business 2015**, and then select **Skype for Business Server Management Shell**.
 
     > [!NOTE]
     > CsLocationPolicy will fail if the setting for **PstnUsage** is not already in the Global list of PstnUsages.

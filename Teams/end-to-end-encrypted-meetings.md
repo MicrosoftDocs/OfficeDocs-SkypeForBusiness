@@ -1,7 +1,7 @@
 ---
 title: Require end-to-end encryption for sensitive Teams meetings
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: wlibebe
+author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
@@ -31,7 +31,7 @@ End-to-end encrypted meetings can be made between two parties when: the parties 
 
 Web, Virtual Desktop (VDI), and Cloud Video Interoperability(CVI) devices aren't currently supported. Participants trying to join an end-to-end encrypted meeting from one of these platforms are blocked.
 
-A maximum of 200 participants can attend an end-to-end encrypted meeting. If the first participant joins from a Teams Rooms device, the maximum number of participants is 50.
+A maximum of 200 participants can attend an end-to-end encrypted meeting.
 
 > [!Note]
 > End-to-end meeting encryption requires Teams Premium.

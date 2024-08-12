@@ -1,9 +1,9 @@
 ---
 title: Microsoft 365 Groups and Microsoft Teams
 ms.reviewer: rahulnayak
-ms.date: 08/10/2017
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.date: 06/11/2024
+ms.author: jtremper
+author: jacktremper
 manager: pamgreen
 ms.topic: conceptual
 audience: admin
@@ -13,9 +13,9 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.collection: 
-  - M365-collaboration
+- M365-collaboration
 appliesto: 
-  - Microsoft Teams
+- Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: Learn about how Microsoft 365 groups and group memberships work with Microsoft Teams.
 ---

@@ -3,7 +3,7 @@ title: IT Admins- Manage and create custom meeting backgrounds for Teams meeting
 author: wlibebe
 ms.author: wlibebe
 manager: pamgreen
-ms.date: 12/4/2023
+ms.date: 04/10/2024
 ms.reviewer: margidesai
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -74,13 +74,35 @@ Uploaded images must adhere to the following parameters. You can upload:
 - Images with a minimum dimension of 360 px X 360 px.
 - Images with a maximum dimension of 3840 px X 2160 px.
 - A maximum of 50 custom background images.
+- For frosted glass backgrounds: a transparent png image.
 
 > [!NOTE]
 > Only end users with a Teams Premium license have these images in their background settings panel to use during meetings.
 
+### Add a frosted glass background effect
+
+Frosted glass backgrounds blend the privacy of background blur with the personalization of your chosen image to create a polished background that looks like frosted glass windows.
+
+To create this effect, upload a transparent PNG image as a custom background. Your image could be your company logo or a custom design. The frosted glass effect turns the transparent areas of your image into a blurred background, while the graphic remains as part of the background.
+
+:::image type="content" source="media/frosted-glass-small.png" alt-text="Screenshot of frosted glass background effect in a Teams meeting." lightbox="media/frosted-glass-expand.png":::
+
 ### Save custom background images
 
 You can find previews of your uploaded images in a new table under the **Meeting backgrounds** section. This table also displays the names and resolutions of your images. Once you confirm your choice of uploaded images, select the **Save** button below the preview table. Once you select save, your uploaded backgrounds are visible to your users with a Teams Premium license.
+
+## Choose a preset background
+
+You can choose a preset background for your users in the Teams admin center. Users with this policy are restricted to the chosen background and can't change it.
+
+To choose a preset background, follow these steps:
+
+1. Select **Meetings** from the navigation pane in the Teams admin center.
+2. Under Meetings, select **Customization policies** to select an existing policy or create a new one.
+3. Within your chosen policy, navigate to the **Meeting backgrounds** section.
+4. Select your desired uploaded background in the table.
+5. Next to the +Add button, select the **Set as default** button.
+6. Select **Save**.
 
 ## Require users to only use the backgrounds you upload
 
@@ -99,9 +121,13 @@ To only show the custom backgrounds that you upload, follow these steps:
 > [!NOTE]
 > You must set **Participants can use video effects** to **Off** or **Only background blur** to only show your custom backgrounds in your users' gallery.
 
+When custom backgrounds are required, users with this assigned policy can't view their own uploaded backgrounds. For your users to access and delete their personally uploaded images, they can navigate to the following file path and delete their images from there:  
+
+`C:\Users\{username}\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Backgrounds\Uploads`
+
 ## Apply a blur for users with no backgrounds
 
-You can use the Teams Admin Center to automatically apply a background blur to any users that aren't using any video effects or background images during meetings. Meeting and customization policies both control meeting backgrounds. However, customization policies take precedence over meeting policies; any settings you change in customization policies will also reflect in meeting policies.
+You can use the Teams admin center to automatically apply a background blur to any users that aren't using any video effects or background images during meetings. Meeting and customization policies both control meeting backgrounds. However, customization policies take precedence over meeting policies; any settings you change in customization policies will also reflect in meeting policies.
 
 Use the following steps to apply blurred backgrounds for users that aren't using any backgrounds or video effects:
 
