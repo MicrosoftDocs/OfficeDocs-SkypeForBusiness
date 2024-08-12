@@ -27,9 +27,9 @@ The new custom emojis and reactions feature will be turned on by default. Users 
 
 ## Timelines
 
-- Targeted Release: We're rolling this feature out now and we expect to be completed by mid-July 2024.
+- Targeted Release: This was completed in mid-July 2024.
 - Worldwide, GCC: We began rolling out early July 2024 and expect to complete by early August 2024.
-- GCC High, DoD: We'll begin rolling out early August 2024 and expect to complete by late August 2024.
+- GCC High, DoD: We'll begin rolling out early August 2024 and expect to complete by early September 2024.
 
 ## How to use this feature
 
