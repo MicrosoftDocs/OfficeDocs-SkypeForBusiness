@@ -51,7 +51,8 @@ For more information, see [Direct Routing voice routing policy considerations](d
 
 A process called **Reverse Number Lookup (RNL)** uses strict string matching to find a user or resource account that matches the dialed phone number for an incoming PSTN call. For example, assume that a user is assigned the phone number +14255551234;ext=1234. If an incoming PSTN call has the dialed phone number +14255551234;ext=1234, RNL finds the user and the call is connected to that user. However, if an incoming PSTN call has the dialed phone number +14255551234, RNL won't find the user and the call will fail or be routed to [unassigned number routing](routing-calls-to-unassigned-numbers.md).
 
-To bypass RNL for a phone number assigned to a user or resource account, you can use the PowerShell **Set-CsPhoneNumberAssignment** cmdlet with the `-ReverseNumberLookup` parameter. For more information, see [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) and [Get-CsPhoneNumberAssignment](/powershell/module/teams/get-csphonenumberassignment).
+
+If you have a calling scenario that requires calls from Teams users to bypass the RNL and instead need calls sent directly through a PSTN connection to the external network, the RNL process can be bypassed by changing the phone number assignment. To bypass RNL for a phone number assigned to a user or resource account, you can use the PowerShell **Set-CsPhoneNumberAssignment** cmdlet with the `-ReverseNumberLookup` parameter. For more information, see [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) and [Get-CsPhoneNumberAssignment](/powershell/module/teams/get-csphonenumberassignment).
 
 ## Related topics
 
