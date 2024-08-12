@@ -70,7 +70,7 @@ A Global Administrator can also has the necessary Teams and User permissions to 
 
 Keep the following in mind:
 
-- Teams Administrators who don't have the User Administrator role need additional permissions to create and update these accounts. You must assign the User Administrator role or create a custom role via [Microsoft Graph API]().
+- Teams Administrators who don't have the User Administrator role need additional permissions to create and update these accounts. You must either assign the User Administrator role to provide the necessary permissions to create user accounts or create a custom role with the minimum required permission to allow the creation of resource accounts. This custom role can be created with [Microsoft Graph API](/graph/overview). For information on creating a custom role in Microsoft Graph API, see [Assign custom admin roles using the Microsoft Graph API in Microsoft Entra ID](/entra/identity/role-based-access-control/custom-create) and [Create and assign a custom role in Microsoft Entra ID](/entra/identity/role-based-access-control/custom-create).
 - User Administrators who don't have the Teams Administrator role need additional permissions to create and update these accounts. You must assign one of the following Teams Administrator roles to the User Administrator:
   - Teams Administrator
   - Teams Communications Administrator
