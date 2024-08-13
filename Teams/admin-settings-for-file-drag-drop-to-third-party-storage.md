@@ -69,9 +69,6 @@ To remove the policy for the complete list of users, use the *Remove-CsTeamsFile
 Remove-CsTeamsFilesPolicy
 ```
 
-> [!NOTE]
-> To make this policy work, *NativeFileEntryPoints* should be disabled. For more information on making related changes, see [Turn off Teams Native File Upload policy](/microsoftteams/turn-off-teams-native-file-upload-policy).
-
 ### Out of scope
 Teams Mobile support for the *DefaultFileUploadAppId* policy isn't applicable. Also note that image or media copy and paste is today treated as part of the Teams message payload and not as a cloud file. This policy doesn't impact the image or media copy and paste.
 
