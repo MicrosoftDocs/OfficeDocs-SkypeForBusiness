@@ -53,13 +53,19 @@ The SBA feature is supported on the following Microsoft Teams clients:
 
 - Microsoft Teams Windows desktop 
 - Microsoft Teams macOS desktop
-- Teams for Mobile 
 - Teams Phones
 
 ## How it works
 
-The SBA checks TCP connectivity (ping) with sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com, and sip3.pstnhub.microsoft.com. If there is connectivity with at least one of these addresses, a network outage is not declared. When connectivity to all three addresses is lost, the SBA detects a network outage and will initiate. SP addresses are within Microsoft IP ranges, which should be preconfigured during Direct Routing setup. Customers do not need to add extra rules on the Firewall.
 During an internet outage, the Teams client switches to the SBA automatically, and ongoing calls continue with no interruptions. No action is required from the user. As soon as the Teams client detects that the internet is up, and any outgoing calls are finished, the client falls back to normal operation mode, and connects to other Teams services. The SBA uploads collected Call Data Records to the cloud. Call history is updated for review by the tenant administrator. 
+The Teams client-side outage mechanism for SBA (Survivable Branch Appliance) is designed to ensure continuous connectivity and service availability during network disruptions. The mechanism operates as follows:
+Client Policy Check: The user needs to be assigned the branch survivability policy for an SBA which the Teams client connects to, only if the appliance is up.
+Network Status Check: Teams clients connect to SBA only when the internet is disconnected but the users device is still connected to the SBA appliance.
+Once these two conditions are met the Teams client pings the SBA appliance and the client checks the policy. At this point if both of these conditions are met the following occurs: 
+Branch Survivability Policy: The branch survivability policy points to the SBA URLs assigned to the user/tenant. 
+Connection to SBA on Teams Client Side: Once the Teams client is offline and the user has the required policies as outlined above, the Teams client switches to Appliance mode where the user is able to make/receive PSTN calls. A banner is displayed to inform users of the switch to SBA.
+Important to note is that the only UI indicator of the switch to Appliance mode is the banner. If the banner is not present the user is not in SBA mode and Calling will not work. SBA mode functionality would only be activated on desktop clients on a physical machine. VMs and web clients are not supported at the moment.
+
 
 When the Microsoft Teams client is in offline mode, the following calling-related functionality is available: 
 
@@ -70,6 +76,7 @@ When the Microsoft Teams client is in offline mode, the following calling-relate
 - Call forwarding to single phone number or Teams user.
 - Unanswered call forwarding to single phone number or Teams user.
 - Redirect of incoming PSTN call to a Call queue or Auto attendant number to a local agent.
+- Redirect of incoming PSTN call to a Call queue or Auto attendant number to an alternative Call queue or Auro attendant number.
 - VoIP Fallback. If VoIP call cannot be initiated and receiving party has a PSTN number, PSTN call will be attempted
 - VoIP calls between local users. If both users are registered behind the same SBA, a VoIP call can be initiated instead of PSTN call,  and the SBA will fully support it.
 
