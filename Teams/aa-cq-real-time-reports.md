@@ -35,9 +35,39 @@ description: Learn about the real-time metrics that are available
 >
 > Please see {insert Queues app link} for information on how and where these metrics are shown within Queues app.
 
-## Feeds
+## Feeds & Intervals
 
-describe feeds here
+### Feeds
+When a client registers for real-time data, there are two feeds of metrics that the client will immediately receive:
+
+1. Current feed
+   The current feed contains the metrics for the current interval the client has registered for.
+
+   The client will receive an updated current feed throughout the interval as calls arrive, are answered, transferred or abandoned.
+
+   At the end of the current interval, most of the metrics from the current feed are moved to the summary feed and the current feed metrics are reset to zero.
+1. Summary feed
+   The summary feed contains the metrics for the past 24 hours UTC or since midnight local time of the client, depending on what the client registered for.
+
+   The metrics may be broken down by interval or may be aggregated depending on what the client registered for.
+
+   The client will receive an updated summary feed shortly after each interval has passed.
+
+It is the client's responsiblity to add the current and summary feeds to get the totals for the time period to be displayed.
+
+### Intervals
+Clients may register for a 15, 30 or 60 minute interval.
+
+Clients in time zones that are X hours and 0 minutes off of UTC should register for the 60 minute interval.
+
+Clients in time zones that are X hours and 30 minutes off of UTC should register for the 30 minute interval.
+
+Clients in time zones that are X hours and 45 minutes off of UTC should register for the 15 minute interval.
+
+## Queues app
+Queues app will automatically register for the interval that matches the computer's time zone offset.
+
+Queues app also registers to receive an aggregated summary feed since midnight local time of the client.
 
 ## Auto attendant metrics
 All metrics are whole numbers unless otherwise stated.
@@ -74,8 +104,8 @@ All metrics are whole numbers unless otherwise stated.
 |tot_sysxfer_psrn_calls                  |Current & Summary	|Authorized	Users Only    |Total number of system-initiated transfers to a Teams user                |
 |tot_sysxfer_vm_calls                    |Current & Summary	|Authorized	Users Only    |Total number of system-initiated transfers to shared voicemail            |
 |tot_sysdisconnected_calls               |Current & Summary	|Authorized	Users Only    |Total number of system-initiated disconnects                              |
-|avg_call_time (Decimal – single digit)  |Current & Summary	|Authorized	Users Only    |Average amount of time calls spent in the auto attendant                  |
-|avg_caller_actions (Decimal – single digit)	|Current & Summary |Authorized Users Only |Average number of caller actions in the auto attendant                  |
+|avg_call_time<br>Decimal–single digit |Current & Summary	|Authorized	Users Only    |Average amount of time calls spent in the auto attendant                  |
+|avg_caller_actions<br>Decimal–single digit	|Current & Summary |Authorized Users Only |Average number of caller actions in the auto attendant                  |
 
 ### Notes
 
@@ -85,46 +115,53 @@ All metrics are whole numbers unless otherwise stated.
 ## Call queue metrics
 All metrics are whole numbers unless otherwise stated.
 
-|Key                                     |Feed              |Available To             |Description                                           |
-|:---------------------------------------|:-----------------|:------------------------|:-----------------------------------------------------|
-|abandoned_% (Decimal – 3 digits)	       |Current	          |Authorized Users & Agents|Abandoned percentage<br>|tot_abandoned_calls / tot_offered_calls  |
-|calls_waiting	                         |Current	          |Authorized Users & Agents|Number of calls currently waiting                                 |
-|calls_waiting_longest	                 |Current	          |Authorized Users & Agents|Longest wait time, in seconds, of oldest call in queue<br>Note: To be deprecated |
+|Key                                     |Feed              |Available To             |Description                                                                          |
+|:---------------------------------------|:-----------------|:------------------------|:------------------------------------------------------------------------------------|
+|abandoned_%<br>Decimal–3 digits         |Current	          |Authorized Users & Agents|Abandoned percentage<br>|tot_abandoned_calls / tot_offered_calls                     |
+|calls_waiting	                         |Current	          |Authorized Users & Agents|Number of calls currently waiting                                                    |
+|calls_waiting_longest	                 |Current	          |Authorized Users & Agents|Longest wait time, in seconds, of oldest call in queue<br>Note: To be deprecated     |
 |longest_waiting_call_enqueue_time       |Current	          |Authorized Users & Agents|Timestamp of arrival time for longest waiting call<br>Offset by UTC offset if supplied during registration.<br>Format: "2024-03-19T11:55:09.9887885+00:00” |
-|tot_offered_calls                       |Current & Summary	|Authorized Users & Agents|Total number of accepted calls |
-|tot_answered_calls	                     |Current & Summary	|Authorized Users & Agents|Total number of accepted calls answered by agents |
-|tot_timeout_calls	                     |Current & Summary	|Authorized Users & Agents|Total number of accepted calls that received the timeout treatment |
-|tot_overflowed_calls                    |Current & Summary	|Authorized Users & Agents|	Total number of rejected calls that received the overflow treatment |
-|tot_noagent_calls                       |Current & Summary	|Authorized Users & Agents|Total number of accepted calls that received the no-agents treatment |
-|tot_abandoned_calls                     |Current & Summary	|Authorized Users & Agents|Total number of accepted calls that abandoned  |
+|tot_offered_calls                       |Current & Summary	|Authorized Users & Agents|Total number of accepted calls                                                       |
+|tot_answered_calls	                     |Current & Summary	|Authorized Users & Agents|Total number of accepted calls answered by agents                                    |
+|tot_timeout_calls	                     |Current & Summary	|Authorized Users & Agents|Total number of accepted calls that received the timeout treatment                   |
+|tot_overflowed_calls                    |Current & Summary	|Authorized Users & Agents|	Total number of rejected calls that received the overflow treatment                 |
+|tot_noagent_calls                       |Current & Summary	|Authorized Users & Agents|Total number of accepted calls that received the no-agents treatment                 |
+|tot_abandoned_calls                     |Current & Summary	|Authorized Users & Agents|Total number of accepted calls that abandoned                                        |
 |avg_speed_answer                        |Current & Summary	|Authorized Users & Agents|	Average speed of answer<br>total wait time of answered calls / total answered calls |
-|tot_agent_presents                      |Current & Summary	|Authorized Users & Agents|Total number of presented but not answered calls |
-|sl_target (null if not set)             |Current & Summary	|Authorized Users & Agents|Service level target number of seconds<br>See Service Level Notes below |
-|sl_tot_answered_calls (null if sl_target is null)	|Current & Summary |Authorized Users & Agents|Total number of calls answered within the service level target |
-|sl_tot_abandoned_calls (null if sl_target is null)	|Current & Summary |Authorized Users & Agents|Total number of calls that abandoned within the service level target |
-|sl_met_handled (Decimal- two digits) (null if sl_target is null)	|Current & Summary |Authorized Users & Agents|Percentage of answered  calls answered that met the service level target<br>(sl_tot_answered_calls / tot_answered_calls) |
-|sl_met_no_abandon (Decimal – two digits) (null if sl_target is null)	|Current & Summary |Authorized Users & Agents|Percentage of answered/abandoned calls that met the service level target - abandoned calls within service level target do not impact service level percentage<br>(sl_tot_answered_calls / [tot_offered_calls – sl_tot_abandoned_calls  ]) |
-|sl_met_positive_abandon (Decimal – two digits) (null if sl_target is null) | Current & Summary |Authorized Users & Agents|Percentage of calls answered/abandoned that met service level target - abandoned calls within service level target positively impact service level percentage<br>([sl_tot_answered_calls + sl_tot_abandoned_calls] / tot_offered_calls) |
-|sl_met_negative_abandon (Decimal – two digits) (null if sl_target is null)	|Current & Summary |Authorized Users & Agents|Percentage of calls answered/abandoned that met service level target - abandoned calls within service level target negatively impact service level percentage<br>(sl_tot_answered_calls / tot_offered_calls) |
+|tot_agent_presents                      |Current & Summary	|Authorized Users & Agents|Total number of presented but not answered calls                                     |
+|sl_target<br>null if not set            |Current & Summary	|Authorized Users & Agents|Service level target number of seconds<br>See Service Level Notes below              |
+|sl_tot_answered_calls<br>null if sl_target is null	|Current & Summary |Authorized Users & Agents|Total number of calls answered within the service level target            |
+|sl_tot_abandoned_calls<br>null if sl_target is null|Current & Summary |Authorized Users & Agents|Total number of calls that abandoned within the service level target      |
+|sl_met_handled<br>Decimal-two digits<br>null if sl_target is null	|Current & Summary |Authorized Users & Agents|Percentage of answered  calls answered that met the service level target<br>(sl_tot_answered_calls / tot_answered_calls) |
+|sl_met_no_abandon<br>Decimal-two digits<br>null if sl_target is null	|Current & Summary |Authorized Users & Agents|Percentage of answered/abandoned calls that met the service level target - abandoned calls within service level target do not impact service level percentage<br>(sl_tot_answered_calls / [tot_offered_calls – sl_tot_abandoned_calls]) |
+|sl_met_positive_abandon<br>Decimal-two digits<br>null if sl_target is null | Current & Summary |Authorized Users & Agents|Percentage of calls answered/abandoned that met service level target - abandoned calls within service level target positively impact service level percentage<br>([sl_tot_answered_calls + sl_tot_abandoned_calls] / tot_offered_calls) |
+|sl_met_negative_abandon<br>Decimal-two digits<br>null if sl_target is null)	|Current & Summary |Authorized Users & Agents|Percentage of calls answered/abandoned that met service level target - abandoned calls within service level target negatively impact service level percentage<br>(sl_tot_answered_calls / tot_offered_calls) |
 
 ### Service Level Notes
 
 Changes to the service level target threshold are processed as follows:
 
 Current Feed:
-- Changes will be reflected in the current feed with the next call answered / call abandoned event
-- Previous calls that have have been answered by an agent or abandoned will not be re-evaluated against the new service level target
+- Changes will be reflected in the current feed with the next call answered or call abandoned event.
+- Previous call results and service level calculations in the current feed will not be re-evaluated against the new service level target.
 
 Summary Feed (non-aggregated):
-- The last service level target of the current interval will be used as the value for that interval in the summary feed
-- Previous calls in earlier intervals that have been answered by an agent or abandoned will not be re-evaluated against the new service level target
+- The last service level target of the current interval will be used as the value for that interval in the summary feed.
+- Previous call results and service level calculations in the summary feed intervals will not be re-evaluated against the new service level target.
 
 Summary Feed (aggregated):
 - The service level target of the most recent summary interval will be sent.
-- Previous calls in earlier intervals that have been answered by an agent or abandoned will not be re-evaluated agent the new service level target
+- The service level target of the most recent summary interval will be used to calculate the service level for the aggregated totals.
+- Previous call results and service level calculations in the summary feed will not be re-evaluated agent the new service level target.
 
-## Agent metrics
+## Agent by queue metrics
 All metrics are whole numbers unless otherwise stated.
 
-|Key                                     |Feed              |Available To             |Description                                           |
-|:---------------------------------------|:-----------------|:------------------------|:-----------------------------------------------------|
+|Key                                     |Feed              |Available To             |Description                                                       |
+|:---------------------------------------|:-----------------|:------------------------|:-----------------------------------------------------------------|
+|tot_calls_offered                       |Current & Summary |Authorized Users<sup>1</sup> & Agents<sup>2</sup>|Total number of calls offered to the agent.                       |
+|tot_calls_answered                      |Current & Summary |Authorized Users<sup>1</sup> & Agents<sup>2</sup>|Total number of calls answered by the agent.                      |
+
+### Notes
+1. Authorized Users: for all agents in the queue
+1. Agents: for self only – not for all other agents in the queue
