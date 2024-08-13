@@ -56,13 +56,10 @@ When a client registers for real-time data, there are two feeds of metrics that 
 It's the client's responsibility to add the current and summary feeds to get the totals for the time period to be displayed.
 
 ### Intervals
-Clients may register for a 15, 30 or 60-minute interval.
-
-Clients in time zones that are X hours and 0 minutes off of UTC should register for the 60-minute interval.
-
-Clients in time zones that are X hours and 30 minutes off of UTC should register for the 30-minute interval.
-
-Clients in time zones that are X hours and 45 minutes off of UTC should register for the 15-minute interval.
+- Clients may register for a 15, 30 or 60-minute interval.
+- Clients in time zones that are X hours and 0 minutes off of UTC should register for the 60-minute interval.
+- Clients in time zones that are X hours and 30 minutes off of UTC should register for the 30-minute interval.
+- Clients in time zones that are X hours and 45 minutes off of UTC should register for the 15-minute interval.
 
 ## Queues app
 Queues app automatically registers for the interval that matches the computer's time zone offset.
