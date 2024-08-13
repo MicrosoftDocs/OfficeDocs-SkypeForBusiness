@@ -3,7 +3,7 @@ title: "Microsoft Teams Dial plans and routing"
 author: CarolynRowe
 ms.author: crowe
 manager: pamgreen
-ms.reviewer: jenstr
+ms.reviewer: roykuntz
 ms.date: 10/02/2023
 ms.topic: article
 ms.assetid: aa2ec464-3481-4bbb-8c14-e13e18093df5
