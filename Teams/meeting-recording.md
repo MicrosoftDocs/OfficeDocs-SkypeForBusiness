@@ -175,7 +175,6 @@ In meetings requiring explicit consent, users joining from unsupported endpoints
 - Old version native clients
 - Teams Displays
 
-
 ## Block or allow download of channel meeting recordings
 
 In PowerShell, the **`-ChannelRecordingDownload`** parameter in [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) controls whether channel members can download meeting recordings. This is done by controlling which folder recordings are stored in.
