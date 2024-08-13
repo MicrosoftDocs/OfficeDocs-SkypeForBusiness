@@ -171,9 +171,10 @@ Explicit consent is supported on the following endpoints:
 
 In meetings requiring explicit consent, users joining from unsupported endpoints have the view-only experience. Explicit consent isn’t supported on the following endpoints, along with any endpoints not listed under supported endpoints:
 
-- Teams Displays
 - CarPlay
 - Old version native clients
+- Teams Displays
+
 
 ## Block or allow download of channel meeting recordings
 
