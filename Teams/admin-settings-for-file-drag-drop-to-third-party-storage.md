@@ -54,8 +54,6 @@ Set-CsTeamsFilesPolicy -Identity Global -DefaultFileUploadAppId  ""
 Remove-CsTeamsFilesPolicy -Identity Global
 ```
 
-For more information on user-level policy changes, see [Turn off Teams Native File Upload policy](/microsoftteams/turn-off-teams-native-file-upload-policy).
-
 ### User side-error conditions
 A user side error could occur due to the following reasons:
 - The app is configured but not installed
