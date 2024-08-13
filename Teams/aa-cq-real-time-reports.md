@@ -164,6 +164,6 @@ All metrics are whole numbers unless otherwise stated.
 1. Agents: for self only – not for all other agents in the queue
 
 ## Related articles
- [Auto attendant and Call queue historical reports](aa-cq-cqd-historical-reports.md).
- [Plan for authorized users](aa-cq-authorized-users-plan.md)
+- [Auto attendant and Call queue historical reports](aa-cq-cqd-historical-reports.md).
+- [Plan for authorized users](aa-cq-authorized-users-plan.md)
 
