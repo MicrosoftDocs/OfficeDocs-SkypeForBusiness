@@ -753,6 +753,6 @@ Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx
 |3.1.4    |January 24, 2024   |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.4 |Per day reporting for large volume customers, accessibility improvements for screen readers   |
 
 ## Related articles
-[Auto attendant and Call queue real-time metrics](aa-cq-real-time-report.md)
+[Auto attendant and Call queue real-time metrics](aa-cq-real-time-reports.md)
 [Plan for authorized users](aa-cq-authorized-users-plan.md)
 
