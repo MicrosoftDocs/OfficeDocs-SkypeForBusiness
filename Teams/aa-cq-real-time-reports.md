@@ -129,7 +129,7 @@ All metrics are whole numbers unless otherwise stated.
 |tot_abandoned_calls                     |Current & Summary	|Authorized Users & Agents|Total number of accepted calls that abandoned                                        |
 |avg_speed_answer                        |Current & Summary	|Authorized Users & Agents|	Average speed of answer<br>total wait time of answered calls / total answered calls |
 |tot_agent_presents                      |Current & Summary	|Authorized Users & Agents|Total number of presented but not answered calls                                     |
-|sl_target<br>null if not set            |Current & Summary	|Authorized Users & Agents|Service level target number of seconds<br>See [Service Level Notes](#Service_Level_Notes)  |
+|sl_target<br>null if not set            |Current & Summary	|Authorized Users & Agents|Service level target number of seconds<br>See [Service Level Notes](#service_level_notes)  |
 |sl_tot_answered_calls<br>null if sl_target is null	|Current & Summary |Authorized Users & Agents|Total number of calls answered within the service level target            |
 |sl_tot_abandoned_calls<br>null if sl_target is null|Current & Summary |Authorized Users & Agents|Total number of calls that abandoned within the service level target      |
 |sl_met_handled<br>Decimal-two digits<br>null if sl_target is null	|Current & Summary |Authorized Users & Agents|Percentage of answered  calls answered that met the service level target<br>(sl_tot_answered_calls / tot_answered_calls) |
@@ -165,3 +165,8 @@ All metrics are whole numbers unless otherwise stated.
 ### Notes
 1. Authorized Users: for all agents in the queue
 1. Agents: for self only – not for all other agents in the queue
+
+## Related articles
+[Auto attendant and Call queue historical reports](aa-cq-cqd-historical-reports.md).
+[Plan for authorized users](aa-cq-authorized-users-plan.md)
+
