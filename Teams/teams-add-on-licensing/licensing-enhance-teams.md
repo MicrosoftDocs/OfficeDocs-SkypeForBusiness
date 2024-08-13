@@ -55,7 +55,7 @@ To learn how to set up and configure Teams Premium features, see [Microsoft Team
 
 ## How does Teams Premium compare to Teams?
 
-Purchasing the Teams Premium add-on license provides admins and end users with extra features on top Teams along with their Microsoft 365 subscription.
+Purchasing the Teams Premium add-on license provides admins and end users with extra features on top of Teams along with their Microsoft 365 subscription.
 
 The following tables compare key features between Teams and Teams Premium. Because Teams Premium is an add-on license to Teams, users need Teams and Teams Premium licenses to access all features listed in the following table. Teams Premium licenses don't replace users' standard Teams licenses.
 
