@@ -35,7 +35,7 @@ description: Learn about how to use the updated Teams Auto Attendant & Call Queu
 
 This Power BI template provides three reports that allow organizations to report on the number of calls processed by Auto attendants and Call queues. It also provides agent performance insights.
 
-## V3.1.7 published on July 15, 2024
+## V3.1.8 published on August 12, 2024
 
 The Teams Auto Attendant & Call Queue Historical Report Power BI template provides the following three reports:
 
@@ -94,7 +94,7 @@ For more information, see:
 | [New-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/new-csteamsvoiceapplicationspolicy#-HistoricalCallQueueMetricsPermission)  | [Set-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/set-csteamsvoiceapplicationspolicy#-HistoricalCallQueueMetricsPermission) |
 | [New-CsTeamsVoiceApplicationsPolicy/--HistoricalAgentMetricsPermission](/powershell/module/teams/new-csteamsvoiceapplicationspolicy#--HistoricalAgentMetricsPermission)  | [Set-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/set-csteamsvoiceapplicationspolicy#--HistoricalAgentMetricsPermission) |
 
-#### Known Issue
+#### Known Issues
 
 If the voice applications policy assigned to a user only enables the historical reporting permissions, and optionally the real-time reporting permissions, then the user can't access the historical reports. Support is working to resolve this problem. In the interim, enable at least one Auto attendant and Call queue change permission in the policy. Enabling the Auto attendant **Business hours greeting** and Call queue **Welcome greeting** is suggested, but enabling any of the change permissions will work around this issue.
 
@@ -113,11 +113,11 @@ The following steps assume the Power BI Desktop client is installed on your comp
 
 Perform the following steps:
 
-1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.1.7.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
+1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.1.8.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
 
 2. Open the zip file.
 
-3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.1.7.pbit` template file. Power BI Desktop should launch.
+3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.1.8.pbit` template file. Power BI Desktop should launch.
 
 4. Select the **DataSource**, **Report Level**, and **UTC Offset**.  
 
@@ -749,7 +749,8 @@ Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx
 
 |Version  |Date Published     |Supported |Filename                                                    |Description                                                             |
 |:--------|:------------------|:---------|:-----------------------------------------------------------|:-----------------------------------------------------------------------|
-|3.1.7    |July 15, 2024      |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.7 |Improved support for authorized users, removed original reporting templates |
+|3.1.8    |August 12, 2024    |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.7 |Bug fix for Date slicer on Call Queue tab                               |
+|3.1.7    |July 15, 2024      |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.7 |Improved support for authorized users, removed original reporting templates |
 |3.1.6    |April 15, 2024     |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.6 |Support click2call, callback, authorized users, and some visuals changed due to deprecation |
 |3.1.5    |January 29, 2024   |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.5 |Corrected an error with the Per Day query logic for fAgentTimelineAnalytics and fAgentTimelineAnalyticsSummary  |
 |3.1.4    |January 24, 2024   |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.4 |Per day reporting for large volume customers, accessibility improvements for screen readers   |
