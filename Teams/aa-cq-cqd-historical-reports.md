@@ -752,6 +752,7 @@ Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx
 |3.1.5    |January 29, 2024   |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.5 |Corrected an error with the Per Day query logic for fAgentTimelineAnalytics and fAgentTimelineAnalyticsSummary  |
 |3.1.4    |January 24, 2024   |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.4 |Per day reporting for large volume customers, accessibility improvements for screen readers   |
 
-## Related topics
-[Auto attendant and Call queue real-time metrics](aa-cq-real-time.md)
-[Plan]()
+## Related articles
+[Auto attendant and Call queue real-time metrics](aa-cq-real-time-report.md)
+[Plan for authorized users](aa-cq-authorized-users-plan.md)
+
