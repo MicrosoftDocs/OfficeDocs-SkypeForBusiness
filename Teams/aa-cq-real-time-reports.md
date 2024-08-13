@@ -31,41 +31,41 @@ description: Learn about the real-time metrics that are available
 # Auto attendant and Call queue real-time metrics
 
 > [!IMPORTANT]
-> Only some of the metrics outlined below are currently available to Queues app users.
+> Only some of the metrics outlined here are currently available to Queues app users.
 >
 > Please see {insert Queues app link} for information on how and where these metrics are shown within Queues app.
 
 ## Feeds & Intervals
 
 ### Feeds
-When a client registers for real-time data, there are two feeds of metrics that the client will immediately receive:
+When a client registers for real-time data, there are two feeds of metrics that the client immediately receives:
 
-1. Current feed
+1. Current feeds
    The current feed contains the metrics for the current interval the client has registered for.
 
-   The client will receive an updated current feed throughout the interval as calls arrive, are answered, transferred or abandoned.
+   The client receives an updated current feed throughout the interval as calls arrive, are answered, transferred, or abandoned.
 
    At the end of the current interval, most of the metrics from the current feed are moved to the summary feed and the current feed metrics are reset to zero.
-1. Summary feed
+1. Summary feeds
    The summary feed contains the metrics for the past 24 hours UTC or since midnight local time of the client, depending on what the client registered for.
 
-   The metrics may be broken down by interval or may be aggregated depending on what the client registered for.
+   The metrics are broken down by interval or aggregated depending on what the client registered for.
 
-   The client will receive an updated summary feed shortly after each interval has passed.
+   The client will receive an updated summary feed shortly after each interval ends.
 
-It is the client's responsiblity to add the current and summary feeds to get the totals for the time period to be displayed.
+It is the client's responsibility to add the current and summary feeds to get the totals for the time period to be displayed.
 
 ### Intervals
-Clients may register for a 15, 30 or 60 minute interval.
+Clients may register for a 15, 30 or 60-minute interval.
 
-Clients in time zones that are X hours and 0 minutes off of UTC should register for the 60 minute interval.
+Clients in time zones that are X hours and 0 minutes off of UTC should register for the 60-minute interval.
 
-Clients in time zones that are X hours and 30 minutes off of UTC should register for the 30 minute interval.
+Clients in time zones that are X hours and 30 minutes off of UTC should register for the 30-minute interval.
 
-Clients in time zones that are X hours and 45 minutes off of UTC should register for the 15 minute interval.
+Clients in time zones that are X hours and 45 minutes off of UTC should register for the 15-minute interval.
 
 ## Queues app
-Queues app will automatically register for the interval that matches the computer's time zone offset.
+Queues app automatically registers for the interval that matches the computer's time zone offset.
 
 Queues app also registers to receive an aggregated summary feed since midnight local time of the client.
 
@@ -74,7 +74,7 @@ All metrics are whole numbers unless otherwise stated.
 
 |Key                                     |Feed              |Available To             |Description                                                               |
 |:---------------------------------------|:-----------------|:------------------------|:-------------------------------------------------------------------------|
-|tot_callers                             |Current & Summary |Authorized Users Only    |Total number of all accepted callers<br>A caller may pass through an Auto Attendant multiple times in a single call – they will only be counted once |
+|tot_callers                             |Current & Summary |Authorized Users Only    |Total number of all accepted callers<br>A caller may pass through an Auto Attendant multiple times in a single call – they areonly counted once |
 |tot_callers_int                         |Current & Summary |Authorized Users Only    |Total number of accepted internal callers                                 |
 |tot_callers_ext                         |Current & Summary |Authorized Users Only    |Total number of accepted external callers                                 |
 |tot_calls                               |Current & Summary	|Authorized	Users Only    |Total number of all accepted calls<br>A caller may pass through an Auto Attendant multiple times in a single call – each pass is counted |
@@ -129,7 +129,7 @@ All metrics are whole numbers unless otherwise stated.
 |tot_abandoned_calls                     |Current & Summary	|Authorized Users & Agents|Total number of accepted calls that abandoned                                        |
 |avg_speed_answer                        |Current & Summary	|Authorized Users & Agents|	Average speed of answer<br>total wait time of answered calls / total answered calls |
 |tot_agent_presents                      |Current & Summary	|Authorized Users & Agents|Total number of presented but not answered calls                                     |
-|sl_target<br>null if not set            |Current & Summary	|Authorized Users & Agents|Service level target number of seconds<br>See Service Level Notes below              |
+|sl_target<br>null if not set            |Current & Summary	|Authorized Users & Agents|Service level target number of seconds<br>See [Service Level Notes](#Service_Level_Notes)  |
 |sl_tot_answered_calls<br>null if sl_target is null	|Current & Summary |Authorized Users & Agents|Total number of calls answered within the service level target            |
 |sl_tot_abandoned_calls<br>null if sl_target is null|Current & Summary |Authorized Users & Agents|Total number of calls that abandoned within the service level target      |
 |sl_met_handled<br>Decimal-two digits<br>null if sl_target is null	|Current & Summary |Authorized Users & Agents|Percentage of answered  calls answered that met the service level target<br>(sl_tot_answered_calls / tot_answered_calls) |
@@ -143,16 +143,16 @@ Changes to the service level target threshold are processed as follows:
 
 Current Feed:
 - Changes will be reflected in the current feed with the next call answered or call abandoned event.
-- Previous call results and service level calculations in the current feed will not be re-evaluated against the new service level target.
+- Previous call results and service level calculations in the current feed are not reevaluated against the new service level target.
 
-Summary Feed (non-aggregated):
-- The last service level target of the current interval will be used as the value for that interval in the summary feed.
-- Previous call results and service level calculations in the summary feed intervals will not be re-evaluated against the new service level target.
+Summary Feed (nonaggregated):
+- The last service level target of the current interval is used as the value for that interval in the summary feed.
+- Previous call results and service level calculations in the summary feed intervals are not reevaluated against the new service level target.
 
 Summary Feed (aggregated):
 - The service level target of the most recent summary interval will be sent.
-- The service level target of the most recent summary interval will be used to calculate the service level for the aggregated totals.
-- Previous call results and service level calculations in the summary feed will not be re-evaluated agent the new service level target.
+- The service level target of the most recent summary interval is used to calculate the service level for the aggregated totals.
+- Previous call results and service level calculations in the summary feed are not reevaluated agent the new service level target.
 
 ## Agent by queue metrics
 All metrics are whole numbers unless otherwise stated.
