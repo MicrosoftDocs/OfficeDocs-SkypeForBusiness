@@ -94,7 +94,7 @@ For more information, see:
 | [New-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/new-csteamsvoiceapplicationspolicy#-HistoricalCallQueueMetricsPermission)  | [Set-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/set-csteamsvoiceapplicationspolicy#-HistoricalCallQueueMetricsPermission) |
 | [New-CsTeamsVoiceApplicationsPolicy/--HistoricalAgentMetricsPermission](/powershell/module/teams/new-csteamsvoiceapplicationspolicy#--HistoricalAgentMetricsPermission)  | [Set-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/set-csteamsvoiceapplicationspolicy#--HistoricalAgentMetricsPermission) |
 
-#### Known Issues
+#### Known issues
 
 If the voice applications policy assigned to a user only enables the historical reporting permissions, and optionally the real-time reporting permissions, then the user can't access the historical reports. Support is working to resolve this problem. In the interim, enable at least one Auto attendant and Call queue change permission in the policy. Enabling the Auto attendant **Business hours greeting** and Call queue **Welcome greeting** is suggested, but enabling any of the change permissions will work around this issue.
 
