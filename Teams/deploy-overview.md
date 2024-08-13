@@ -49,7 +49,7 @@ See these additional resources to help you get started:
 |---------|---------|
 |[Small business setup](deploy-small-business.md)| This article guides smaller businesses through setting up Teams. Small business might want all the core features of Teams (such as chat, teams, channels, meetings, and phone support), but don't need to plan for multiple office locations, rolling out Teams to large numbers of users, and so on.
 |[Enterprise setup](deploy-enterprise-overview.md)     | This article guides larger business through setting up Teams in situations where network planning, lifecycle management, and wide-scale adoption, are critical factors to successful deployment. This article also helps you understand the requirements for audio and video conferencing, and configuring Phone System and PSTN connectivity.         |
-|[Deploy Team clients](new-teams-desktop-admin.md)     | This article provides instructions for setting up the new Teams client in your organization. |
+|[Deploy Teams client](new-teams-desktop-admin.md)     | This article provides instructions for setting up the new Teams client in your organization. |
 |[Teams training](training-microsoft-teams-landing-page.md)     | This article provides training materials for end-users who use the Teams clients, and also for organization admins who need to manage Teams across your organization.        |
 
 ## Upgrade or migrate from Skype for Business Server
