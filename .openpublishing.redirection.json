@@ -5134,6 +5134,26 @@
     "source_path": "Skype/SfBOnline/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1.md",
     "redirect_url": "/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell",
     "redirect_document_id": false
-  }
+},
+{
+  "source_path": "teams/rooms/azure-monitor-deploy.md",
+  "redirect_url": "/microsoftteams/rooms/rooms-pro-management",
+  "redirect_document_id": false
+},
+{
+  "source_path": "teams/rooms/azure-monitor-plan.md",
+  "redirect_url": "/microsoftteams/rooms/rooms-pro-management",
+  "redirect_document_id": false
+},
+{
+  "source_path": "teams/rooms/azure-monitor-manage.md",
+  "redirect_url": "/microsoftteams/rooms/rooms-pro-management",
+  "redirect_document_id": false
+},
+{
+  "source_path": "Teams/devices/xiaomi-push-notifications.md",
+  "redirect_url": "/microsoftteams/devices/device-management",
+  "redirect_document_id": false
+}
 ] 
 }

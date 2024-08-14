@@ -1045,9 +1045,9 @@ items:
       items:
         - name: Overview
           href: pstn-connectivity.md
-        - name: Calling Plans
+        - name: Teams Calling Plans
           items: 
-            - name: Calling Plans for Teams Phone
+            - name: Calling Plans overview
               href: calling-plans-for-office-365.md
             - name: Set up Calling Plans
               href: set-up-calling-plans.md
@@ -1563,16 +1563,6 @@ items:
           href: devices/teams-displays.md
         - name: Hot desking Teams Displays
           href: devices/hot-desking-teams-displays.md
-        - name: Meeting room devices and solutions
-          href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-        - name: Configure notifications for Mi push
-          href: devices/xiaomi-push-notifications.md
-        - name: Plan management with Azure Monitor
-          href: rooms/azure-monitor-plan.md
-        - name: Deploy Azure Monitor
-          href: rooms/azure-monitor-deploy.md
-        - name: Manage devices with Azure Monitor
-          href: rooms/azure-monitor-manage.md    
 - name: Manage apps in Teams
   items: 
     - name: Understand apps in Teams
