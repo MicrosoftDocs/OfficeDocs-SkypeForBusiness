@@ -73,7 +73,7 @@ When managing the event access type for town halls to decide whether organizers 
 
 ## Premium town halls and live events
 
-If you've been using live events for your organization, you might want to understand the differences and similarities between live events, town halls, and Premium town halls. With a Teams premium license, your users have access to extended town hall capabilities. The following table is a comparison of live events, town hall, and Premium town hall features:
+If you've been using live events for your organization, you might want to understand the differences and similarities between live events, town halls, and Premium town halls. With a Teams Premium license, your users have access to extended town hall capabilities. The following table is a comparison of live events, town hall, and Premium town hall features:
 
 |Capability|Live Events|Town halls|Premium town halls|
 |:------| :---: | :---: | :---: |
@@ -122,7 +122,6 @@ Leverage the Call Quality Dashboard (CQD) to monitor town hall quality at the or
 To learn more about using CQD for town halls in your org, see [What is Call Quality Dashboard (CQD)](CQD-what-is-call-quality-dashboard.md). You can use the Microsoft Call Quality connector to view specialized **'Teams Events Overview'** and **'Event Health Details'** reports in Power BI Desktop. To get started, download the latest [CQD Quality of Experience (QER) report template](cqd-power-bi-query-templates.md).
 
 For more information about the dimensions and measurements visible through CQD for town halls, search for the word "events" in [Dimensions and measurements available in Call Quality Dashboard (CQD)](dimensions-and-measures-available-in-call-quality-dashboard.md).
-
 
 ### Town hall insights for organizers
 
