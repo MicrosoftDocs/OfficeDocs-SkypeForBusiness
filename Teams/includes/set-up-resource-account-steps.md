@@ -62,7 +62,7 @@ To port a number from another carrier, see [Transfer phone numbers to Teams](../
 
 To create and manage a resource account, admins must have two roles - a **Teams administrator** role and the **User Administrator** role.
 
-Admins need one of the following Teams administrator roles:
+An admin needing to create resource accounts needs one of the following Teams administrator roles:
 
 - Teams Telephony Administrator
 - Teams Communications Administrator
