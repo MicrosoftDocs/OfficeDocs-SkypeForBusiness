@@ -60,15 +60,19 @@ To port a number from another carrier, see [Transfer phone numbers to Teams](../
 > [!NOTE]
 > Currently, Teams administrators can create and manage resource accounts without requiring any user management permissions in Microsoft 365. As part of our commitment to deliver secure solutions that meet the highest standards, we are implementing changes to the management of resource accounts. Going forward, Teams administrators will need to have user management permissions in Microsoft 365 to create and manage resource accounts. This change will take effect in the 3rd quarter of 2024.
 
-To create and manage a resource account, admins must have the User Administrator role *and* one of the following Teams administrator roles:
+To create and manage a resource account, admins must have two roles - a **Teams administrator** role and the **User Administrator** role.
+
+Admins need one of the following Teams administrator roles:
 
 - Teams Telephony Administrator
 - Teams Communications Administrator
 - Teams Administrator
 
+The User Administrator role is a built-in role in Microsoft 365 that grants permissions to create and manage user accounts. For more information, see [Assign admin roles in Microsoft 365](/microsoft-365/admin/add-users/assign-admin-roles).
+
 If a user has a Teams administrator role without the User Administrator role, you must either assign the User Administrator role to provide the necessary permissions to create user accounts or create a custom role with the minimum required permission (microsoft.directory/users/create) to allow the creation of resource accounts. This custom role can be created with [Microsoft Graph API](/graph/overview). For information on creating a custom role in Microsoft Graph API, see [Assign custom admin roles using the Microsoft Graph API in Microsoft Entra ID](/entra/identity/role-based-access-control/custom-create) and [Create and assign a custom role in Microsoft Entra ID](/entra/identity/role-based-access-control/custom-create).
 
-A Global Administrator can also has the necessary Teams and User permissions to create and manage resource accounts, but we recommend using roles with the fewest permissions.
+A Global Administrator also has the necessary Teams and User permissions to create and manage resource accounts, but we recommend using roles with the fewest permissions.
 
 For more information about Teams administrator roles, see [Use Microsoft Teams administrator roles to manage Teams](/microsoftteams/using-admin-roles).
 
