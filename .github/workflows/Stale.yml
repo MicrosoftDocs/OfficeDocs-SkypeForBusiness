@@ -1,4 +1,4 @@
-name: Mark stale pull requests
+name: (Scheduled) Mark stale pull requests
 
 permissions:
   issues: write
@@ -10,36 +10,10 @@ on:
   workflow_dispatch:
 
 jobs:
-  stale-private:
-
-    runs-on: ubuntu-latest
-    if: github.repository_visibility == 'private'
-    steps:
-    - uses: actions/stale@v9
-      with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        debug-only: true
-        operations-per-run: 1000
-        days-before-issue-stale: -1
-        days-before-issue-close: -1
-        days-before-pr-stale: 180
-        days-before-pr-close: 14
-        stale-pr-label: Inactive
-        close-pr-label: Auto closed
-        exempt-pr-labels: Keep open
-        stale-pr-message: >
-          This pull request has been inactive for 180 days, and an **Inactive** label has been added to it. If this PR remains inactive with no new comments, commits, or updates from main, it will be closed automatically in 14 days.
-          <br/>
-          If you're ready to merge this PR, add the **Sign off** label to have the PR reviewed and merged by PubOps.
-          <br/>
-          If you're not ready to merge this PR yet and want to keep it open, click on **Update branch** at the bottom of this PR to bring it up to date with the main branch.
-          <br/>
-          Thank you!
-          <br/>
-          PS: Mention **@marveldocs-pubops** in the comments if you need assistance.
-        close-pr-message: >
-          This pull request has been inactive for 14 days, and an **Auto Closed** label has been added. At this time, the system is closing the PR automatically. If you decide to continue working on your changes, that's no problem. At the bottom of the pull request, simply select the **Reopen pull request** button.
-          <br/>
-          Thank you!
-          <br/>
-          PS: Mention **@marveldocs-pubops** in the comments if you need assistance.
+  stale:
+    uses: MicrosoftDocs/microsoft-365-docs/.github/workflows/Shared-Stale.yml@workflows-prod
+    with:
+      RunDebug: true
+      RepoVisibility: ${{ github.repository_visibility }}
+    secrets:
+      AccessToken: ${{ secrets.GITHUB_TOKEN }}
