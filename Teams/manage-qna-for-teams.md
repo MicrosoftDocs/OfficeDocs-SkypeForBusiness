@@ -21,7 +21,7 @@ description: Learn about how IT Admins can set up, use, and manage Q&A in Q&A fo
 
 **APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
 
-Q&A allows presenters, organizers, and co-organizers to take questions from attendees and answer them in real time. This feature is best suited for large, structured meetings and events– like town halls, webinars, all hands, and trainings. The Q&A policy is a per-organizer setting.
+Q&A allows presenters, organizers, and co-organizers to take questions from attendees and answer them in real time. This feature is best suited for large, structured meetings and events– like town halls, webinars, all hands, and trainings. Town hall and webinar organizers and co-organizers can export the event's questions and answers to a CSV file.
 
 Your organization might have requirements to limit which organizers can use Q&A. As an admin, you can control whether an organizer can enable Q&A in their meetings and events.
 
