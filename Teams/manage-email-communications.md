@@ -24,7 +24,7 @@ appliesto:
 
 ## Overview
 
-With a Teams Premium license, you can decide whether event organizers and co-organizers can edit email templates for their webinars and town halls. With email templates, organizers and co-organizers can manage waitlists, remind attendees about webinars they registered for, and provide clear instructions to attendees before, during, and after the event.
+With a Teams Premium license, you can decide whether event organizers and coorganizers can edit email templates for their webinars and town halls. With email templates, organizers and co-organizers can manage waitlists, remind attendees about webinars they registered for, and provide clear instructions for attendees before, during, and after the event.
 
 Your webinar organizers and co-organizers can edit the following email communication templates:
 
@@ -32,7 +32,7 @@ Your webinar organizers and co-organizers can edit the following email communica
 - Attendee pending approval
 - Attendee registration
 - Attendee rejection
-- Attendee wait listing
+- Attendee waitlisting
 - Event recording available
 - Webinar cancellation
 - Webinar date time update
@@ -54,7 +54,7 @@ For more information on the town hall email communications experience for your u
 |On|Enabled| **This is the default value.** Organizers and co-organizers can edit all email templates for their webinars and town halls. |
 |Off|Disabled| Organizers and co-organizers can’t edit any email templates for their webinars and town halls.|
 
-### Use the Teams admin center to manage email communications
+### Manage email communications in the Teams admin center
 
 You can use the Teams admin center to manage whether organizers and co-organizers can edit email templates for their webinars and town halls.
 
@@ -67,7 +67,7 @@ Follow these steps in the Teams admin center to manage the email communications 
 5. Toggle the **Customize event emails** setting **On** or **Off**.
 6. Select **Save**
 
-### Use PowerShell to manage email communications
+### Manage email communications through PowerShell
 
 Through PowerShell, you can manage whether organizers and co-organizers can edit email templates for their webinars and town halls. The **`-AllowEmailEditing`** parameter in the **CsTeamsEventsPolicy** cmdlet controls whether your users can edit email communication templates.
 
