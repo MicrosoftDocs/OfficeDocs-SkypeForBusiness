@@ -677,7 +677,7 @@ items:
               href: presenter-role-reduction.md
             - name: Manage VOD publishing permissions for webinars and town halls 
               href: manage-vod-publishing.md
-            - name: Manage email communications for webinars and town halls
+            - name: Manage email communications for events
               href: manage-email-communications.md
             - name: Manage the registration form for webinars
               href: manage-registration-form-webinars.md
