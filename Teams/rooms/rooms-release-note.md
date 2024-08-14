@@ -717,7 +717,7 @@ Introduced in this update:
 
 |Release  |Release date  |
 |---------|---------|
-|[1449/1.0.96.2024072902](#144910962024072902-june-2024) | August 2024 |
+|[1449/1.0.96.2024080804](#144910962024080804-august-2024) | August 2024 |
 |[1449/1.0.96.2024061103](#144910962024061103-june-2024) | June 2024 |
 |[1449/1.0.96.2024042606](#144910962024042606-april-2024) | April 2024 |
 |[1449/1.0.96.2024032804](#144910962024032804-april-2024) | April 2024 |
@@ -747,7 +747,7 @@ Introduced in this update:
 
 Features with :::image type="icon" source="../media/mtr-pro-icon.png"::: are only available with Teams Rooms Pro license.
 
-### 1449/1.0.96.2024072902 (August 2024)
+### 1449/1.0.96.2024080804 (August 2024)
 
 Introduced in this update:
 
