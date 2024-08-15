@@ -50,11 +50,11 @@ To manage voice applications policies with PowerShell, use the following PowerSh
   - Delete an existing Teams voice applications policy.
 
 > [!IMPORTANT]
-> The global, org-wide default policy turns off all configuration change capabilities. This policy should not be changed.
+> The global, org-wide default policy disables all configuration change capabilities for all users. This policy should not be changed.
 >
 > You must create and assign custom policies to allow authorized users to make configuration changes to auto attendants and call queues.
 >
-> Best practice: The custom policy should provide the user with the minimum levels of permissions they need to perform their job.
+> Best practice: The custom policy assigned to a user should provide the minimum levels of permissions the user needs to perform their job.
 
 ## Create a custom voice applications policy
 
