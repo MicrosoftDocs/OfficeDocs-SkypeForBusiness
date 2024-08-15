@@ -190,7 +190,7 @@ A walkthrough of the architecture in the diagram:
 
 User calls
 
-8. Peer A clicks the call button. MsTeamsVdi.exe communicates with the Microsoft Teams services in Azure, establishing an end-to-end signaling path with Peer B. MsTeamsVdi.exe collects a series of supported call parameters (codecs, resolutions, and so forth, which is known as a Session Description Protocol (SDP) offer). These call parameters are then relayed using the signaling path to the Microsoft Teams services in Azure and from there to the other peer.​
+8. Peer A selectss the call button. MsTeamsVdi.exe communicates with the Microsoft Teams services in Azure, establishing an end-to-end signaling path with Peer B. MsTeamsVdi.exe collects a series of supported call parameters (codecs, resolutions, and so forth, which is known as a Session Description Protocol (SDP) offer). These call parameters are then relayed using the signaling path to the Microsoft Teams services in Azure and from there to the other peer.​
 9. The SDP offer/answer (single-pass negotiation) takes place through the signaling channel, and the ICE connectivity checks (NAT and Firewall traversal using STUN bind requests) complete. Then, Secure Real-time Transport Protocol (SRTP) media flows directly between MsTeamsVdi.exe and the other peer (or Teams Transport Relays or Conference servers).
 
 IP blocks for signaling, media, background effects, and other options are described in [this article](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams).
@@ -320,7 +320,8 @@ By default, the MsTeamsPlugin automatically downloads and installs the right Sli
 
 - Azure RemoteApps and Citrix Published Apps are not supported at this time.
 - Calls drop on Teams running on the local machine that has an HID peripheral connected if a user launches a virtual desktop from that same local machine and logs into Teams.
-- If you try to join a meeting right after launching new Teams (for example, clicking on a Teams deep link in Outlook without having new Teams running), the call might drop.
+- If you try to join a meeting right after launching new Teams (for example, selecting a Teams deep link in Outlook without having new Teams running), the call might drop.
+- Camera self preview is not supported at this time (either under Settings/Devices, or while on a call when selecting the down arrow on the camera icon).
 
 #### Citrix virtual channel allow list
 
