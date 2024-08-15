@@ -239,6 +239,10 @@ The Meet app in Teams allows users to view important details of their meetings i
 
 \* *Mentions of a user's name is pulled from the meeting transcript, not from an @mention tag in the meeting chat.*
 
+### Premium Places Functionality
+
+Microsoft Places will be licensed as part of Microsoft Teams Premium, contributing to the Teams vision to build a smart workplace. With Places in Teams Premium, your users can experience premium features that support intelligent booking, space analytics, and admin capabilities. To learn more about Places, see [Microsoft Places overview](https://www.microsoft.com/microsoft-places).
+
 ### Immersive Mesh Experiences
 
 With Immersive spaces in Teams, your users can join a 3D immersive meeting experience for up-to 16 people right from any Teams meeting.</br>
