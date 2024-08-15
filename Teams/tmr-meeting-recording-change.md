@@ -43,7 +43,7 @@ The **`-MeetingRecordingOwnership`** parameter within the PowerShell [**CsTeamsR
 - Webinars
 - Town halls
 - Recurring meetings
-- Scheduled meetings in the Teams client [**QUESTION: Does this apply to Outlook??**]
+- Scheduled meetings in the Teams client [**QUESTION: Does this apply to scheduled meetings in Outlook??**]
 - Meet now meetings
 - Automatically recorded meetings
 - Manually recorded meetings
