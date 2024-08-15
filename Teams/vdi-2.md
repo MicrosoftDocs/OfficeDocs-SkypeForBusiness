@@ -56,8 +56,8 @@ New VDI solution for Teams is a new architecture for optimizing the delivery of 
 ### Step 2: Plugin installation on the endpoint
 
 1. For Azure Virtual Desktop and Windows 365, MsTeamsPluginAvd.dll is bundled with the RD Client for Windows 1.2.5405.0, or with the Windows App Store app 1.3.252 or higher.
-  - The plugin is found in the same folder location where the RD Client is installed. It'll either be AppData\Local\Apps\Remote Desktop or C:\Program Files (x86), depending on the mode in which it was installed.
-  - For the [Windows App Store](/windows-app/overview) app, since it's MSIX-based, it's found in C:\Program Files\WindowsApps. Access to this folder is restricted.
+  - The plugin is found in the same folder location where the RD Client is installed. It's either located at AppData\Local\Apps\Remote Desktop or C:\Program Files (x86), depending on the mode in which it was installed.
+  - The [Windows App Store](/windows-app/overview) app, since it's MSIX-based, is found in C:\Program Files\WindowsApps. Access to this folder is restricted.
 1. For Citrix CWA 2402 or higher, MsTeamsPluginCitrix.dll can be installed either:
   - Using the user interface when installing CWA:
      On the **Add-on(s)** page, select the **Install Microsoft Teams VDI plug-in** checkbox, and then select **Install**.
@@ -246,14 +246,14 @@ The default policy configurations are:
 - DisableCallsAndMeetings: False
 - DisableAudioVideoInCallsAndMeetings: False
 
-This policy is now expanded with an additional argument as the only configuration point to control whether a user can get the new optimization mode based on SlimCore or not (in other words, the VDI Partner's policy engines don't control the new optimization mode):
+This policy is now expanded with an additional argument as the only configuration point to control whether a user can get the new optimization mode that's based on SlimCore or not (in other words, the VDI Partner's policy engines don't control the new optimization mode):
 
 - VDI2Optimization: Enabled  (default value)
 
 |Name                    |Definition |Example |Notes |
 |------------------------|-----------|--------|------|
-|New-CsTeamsVdiPolicy    |Allows administrators to define new VDI policies that can be assigned to users for controlling Teams features related to meetings on a VDI environment. |`PS C:\> New-CsTeamsVdiPolicy -Identity RestrictedUserPolicy -VDI2Optimization "Disabled"` |The command shown here uses the New-CsTeamsVdiPolicy cmdlet to create a new VDI policy with the identity RestrictedUserPolicy. This policy uses all the default values for a VDI policy except one: VDI2Optimization. In this example, users with this policy will not be able to be optimized with SlimCore. |
-|Grant-CsTeamsVdiPolicy  |Allows administrators to assign a Teams VDI policy at a per-user scope to control the type of meetings that a user can create, the features they can access on an unoptimized VDI environment, and whether a user can be optimized with the new optimization mode based on SlimCore. |`PS C:\> Grant-CsTeamsVdiPolicy -identity "Ken Myer" -PolicyName RestrictedUserPolicy` |In this example, a user with identity "Ken Myer" is assigned the RestrictedUserPolicy. |
+|New-CsTeamsVdiPolicy    |Allows administrators to define new VDI policies that can be assigned to users for controlling Teams features related to meetings on a VDI environment. |`PS C:\> New-CsTeamsVdiPolicy -Identity RestrictedUserPolicy -VDI2Optimization "Disabled"` |The command shown here uses the New-CsTeamsVdiPolicy cmdlet to create a new VDI policy with the identity RestrictedUserPolicy. This policy uses all the default values for a VDI policy except one: VDI2Optimization. In this example, users with this policy can't be optimized with SlimCore. |
+|Grant-CsTeamsVdiPolicy  |Allows administrators to assign a Teams VDI policy at a per-user scope to control the type of meetings that a user can create, the features they can access on an unoptimized VDI environment, and whether a user can be optimized with the new optimization mode that's based on SlimCore. |`PS C:\> Grant-CsTeamsVdiPolicy -identity "Ken Myer" -PolicyName RestrictedUserPolicy` |In this example, a user with identity "Ken Myer" is assigned the RestrictedUserPolicy. |
 |Set-CsTeamsVdiPolicy    |Allows administrators to update existing VDI policies. |`PS C:\> Set-CsTeamsVdiPolicy -Identity RestrictedUserPolicy -VDI2Optimization "Disabled"` |The command shown here uses the Set-CsTeamsVdiPolicy cmdlet to update an existing VDI policy with the Identity RestrictedUserPolicy. This policy uses all the existing values except one: VDI2Optimization; in this example, users with this policy can not be optimized with SlimCore. |
 |Remove-CsTeamsVdiPolicy |Allows administrators to delete a previously created Teams VDI policy. Users with no explicitly assigned policy will fall back to the default policy in the organization. |`PS C:\> Remove-CsTeamsMeetingPolicy -Identity RestrictedUserPolicy` |In the example shown above, the command deletes the restricted user policy from the organization's list of policies and removes all assignments of this policy from users who have the policy assigned. |
 |Get-CsTeamsVdiPolicy    |Allows administrators to retrieve information about all the VDI policies that have been configured in the organization. |`PS C:\> Get-CsTeamsVdiPolicy -Identity SalesPolicy` |In this example, Get-CsTeamsVdiPolicy is used to return the per-user meeting policy that has an Identity SalesPolicy. Because identities are unique, this command doesn't return more than one item. |
