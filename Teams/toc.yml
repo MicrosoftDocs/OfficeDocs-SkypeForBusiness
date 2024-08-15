@@ -1127,6 +1127,8 @@ items:
                   href: direct-routing-media-optimization.md
                 - name: Configure Local Media Optimization
                   href: direct-routing-media-optimization-configure.md
+            - name: Direct Routing Survivable Branch Appliance
+              href: direct-routing-survivable-branch-appliance.md
             - name: Monitor Direct Routing
               items: 
                 - name: Overview
@@ -1149,8 +1151,6 @@ items:
                       href: direct-routing-protocols-SIP.md
                     - name: Media protocols
                       href: direct-routing-protocols-media.md
-                - name: Direct Routing Survivable Branch Appliance
-                  href: direct-routing-survivable-branch-appliance.md
 
     - name: Shared Calling - A simpler solution
       items:
