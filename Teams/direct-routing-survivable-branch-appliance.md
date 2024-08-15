@@ -225,9 +225,7 @@ For step-by-step guidance on how to configure your Session Border Controller wit
 
 - [TE-Systems](https://www.anynode.de/microsoft-teams-sba/)
 
-## Report an issue
 
-Report any issues to your SBC vendor's support organization. When reporting the issue, indicate that you have a configured Survivable Branch Appliance.
 
 ## Known issues and considerations
 
@@ -246,3 +244,7 @@ The following are known issues and considerations:
 - The SBA doesn't support call forwarding settings. 
 
 - Making an emergency call to an emergency number configured for dynamic emergency calling (E911) is not supported.
+
+## Report an issue
+
+Report any issues to your SBC vendor's support organization. When reporting the issue, indicate that you have a configured Survivable Branch Appliance.
