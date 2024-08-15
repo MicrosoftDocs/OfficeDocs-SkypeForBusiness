@@ -241,7 +241,7 @@ The Meet app in Teams allows users to view important details of their meetings i
 
 ### Premium Places Functionality
 
-Microsoft Places will be licensed as part of Microsoft Teams Premium, contributing to the Teams vision to build a smart workplace. With Places in Teams Premium, your users can experience premium features that support intelligent booking, space analytics, and admin capabilities. To learn more about Places, see [Microsoft Places overview](https://www.microsoft.com/microsoft-places).
+Microsoft Places will be licensed as part of Microsoft Teams Premium, contributing to the Teams vision to build a smart workplace. With Places in Teams Premium, your users can experience premium features that support intelligent booking, space analytics, and admin capabilities. To learn more about Places, see [Microsoft Places overview](/microsoft-365/places/places-overview).
 
 ### Immersive Mesh Experiences
 
