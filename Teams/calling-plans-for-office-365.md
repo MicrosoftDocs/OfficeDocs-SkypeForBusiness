@@ -102,7 +102,9 @@ To learn how to fund and use minutes for a Pay-As-You-Go Calling Plan, see [How 
 
 There are three **Pay-As-You-Go Calling Plan** options to choose from:
 
-- **Pay-As-You-Go Calling Plan Zone 1 - US**: For users in the United States and Puerto Rico. Zone 1 (US) licenses are only available for purchase by organizations based in the United States and Puerto Rico.  
+- **Pay-As-You-Go Calling Plan Zone 1 - US**: For users in the United States and Puerto Rico. 
+
+  Zone 1 (US) licenses are only available for purchase by organizations based in the United States and Puerto Rico.  
 
 - **Pay-As-You-Go Calling Plan Zone 1 - UK & Canada**: For users in the United Kingdom and Canada.
 
