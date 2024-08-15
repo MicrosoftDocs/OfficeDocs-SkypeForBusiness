@@ -38,9 +38,18 @@ By default, for scheduled meetings, all recording files go to the OneDrive accou
 
 For **meetings, webinars, and town halls**, all recording files are automatically saved to the organizer's OneDrive **Recordings** folder, even if the organizer didn't attend the meeting or event. Co-organizers have the same editing permissions as organizers for recording files.
 
-#### Recording ownership policy
+#### Meeting recording ownership policy
 
-The **`-MeetingRecordingOwnership`** parameter within the PowerShell [**CsTeamsRecordingRolloutPolicy**](/powershell/module/teams/set-csteamsrecordingrolloutpolicy) cmdlet overrides the default storage settings and controls whether the recording is saved to the organizer or recording initiator's OneDrive. This policy applies to webinars, town halls, recurring, Teams client scheduled, meet now, automatically recorded, manually recorded, and delegate-created meetings.
+The **`-MeetingRecordingOwnership`** parameter within the PowerShell [**CsTeamsRecordingRolloutPolicy**](/powershell/module/teams/set-csteamsrecordingrolloutpolicy) cmdlet controls whether the recording is saved to the organizer's or recording initiator's OneDrive, overriding the default storage settings. This policy applies to the following meeting and event types:
+
+- Webinars
+- Town halls
+- Recurring meetings
+- Teams client scheduled meetings
+- Meet now meetings
+- Automatically recorded meetings
+- Manually recorded meetings
+- Delegate-created meetings
 
 If set to *RecordingInitiator*, when organizers with this policy create meetings and events, the recording saves to the OneDrive of the user who starts the recording. If the recording initiator doesn't have a OneDrive, the recording is temporarily saved to async media storage.
 
