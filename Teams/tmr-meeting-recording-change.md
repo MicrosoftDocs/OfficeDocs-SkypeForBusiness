@@ -36,9 +36,17 @@ By default, for scheduled meetings, all recording files go to the OneDrive accou
 
 ### Meetings and events
 
-For **meetings, webinars, and town halls**, all recording files are automatically saved to the organizer's OneDrive **Recordings** folder, even if the organizer didn't attend the meeting or event. This process applies to recurring, meet now, and delegate-created meetings. Co-organizers have the same editing permissions as organizers for recording files.
+For **meetings, webinars, and town halls**, all recording files are automatically saved to the organizer's OneDrive **Recordings** folder, even if the organizer didn't attend the meeting or event. Co-organizers have the same editing permissions as organizers for recording files.
 
-### Delegate-created meetings
+#### Recording ownership policy
+
+The **`-MeetingRecordingOwnership`** parameter within the PowerShell [**CsTeamsRecordingRolloutPolicy**](/powershell/module/teams/set-csteamsrecordingrolloutpolicy) cmdlet overrides the default storage settings and controls whether the recording is saved to the organizer or recording initiator's OneDrive. This policy applies to webinars, town halls, recurring, Teams client scheduled, meet now, automatically recorded, manually recorded, and delegate-created meetings.
+
+If set to *RecordingInitiator*, when organizers with this policy create meetings and events, the recording saves to the OneDrive of the user who starts the recording. If the recording initiator doesn't have a OneDrive, the recording is temporarily saved to async media storage.
+
+If set to *MeetingOrganizer*, when organizers with this policy create meetings and events, the recording saves to organizer's OneDrive. To understand what happens if an organizer doesn't have a OneDrive account, see the **Recording storage for organizers without OneDrive accounts** section in this article.
+
+#### Delegate-created meetings
 
 For meetings in which an organizer appoints a **delegate** who has permission to act on the organizer's behalf, all recording files are automatically saved to the organizer's **Recordings** folder in OneDrive. When delegates are added as co-organizers, they have the same editing permissions as organizers for recording files.
 
@@ -54,18 +62,6 @@ To understand what happens if an organizer doesn't have a OneDrive account, see 
 
 To learn more about Microsoft Teams Rooms meetings, see [Microsoft Teams Rooms (Windows)](https://support.microsoft.com/office/microsoft-teams-rooms-windows-e667f40e-5aab-40c1-bd68-611fe0002ba2). For details on shared accounts, see [About shared mailboxes - Microsoft 365 admin](/microsoft-365/admin/email/about-shared-mailboxes).
 
-### Automatically recorded meetings
-
-For meetings that are automatically recorded, the recording is temporarily saved to async media storage.
-
-### Videos
-
-Videos are just like any other file in OneDrive and SharePoint. Handling ownership and retention after an employee leaves follows the standard [OneDrive and SharePoint process](/onedrive/retention-and-deletion).
-
-### Retention labels
-
-To learn how to apply retention labels to Teams meeting recordings, see [How to autoapply a retention label](/microsoft-365/compliance/apply-retention-labels-automatically).
-
 ### Recording storage for organizers without OneDrive accounts
 
 If the organizer doesn’t have a OneDrive account, here's what happens, in order, to the meeting recording:
@@ -77,6 +73,14 @@ If the organizer doesn’t have a OneDrive account, here's what happens, in orde
 ### Async media storage
 
 If a Teams meeting recording fails to successfully upload to OneDrive because the organizer, co-organizers and recording initiator don’t have OneDrive accounts, or the storage quota is full, an error message appears. The recording is instead temporarily saved to async media storage. Once the recording is in async media storage, no retry attempts are made to automatically upload the recording to OneDrive or SharePoint. During that time, the organizer must download the recording. The organizer can try to upload the recording again if they get a OneDrive or SharePoint license, or clear some space in their storage quota. If not downloaded within 21 days, the recording is deleted.
+
+### Videos
+
+Videos are just like any other file in OneDrive and SharePoint. Handling ownership and retention after an employee leaves follows the standard [OneDrive and SharePoint process](/onedrive/retention-and-deletion).
+
+### Retention labels
+
+To learn how to apply retention labels to Teams meeting recordings, see [How to autoapply a retention label](/microsoft-365/compliance/apply-retention-labels-automatically).
 
 ### Planning for storage
 
