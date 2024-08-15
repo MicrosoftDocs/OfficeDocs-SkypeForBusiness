@@ -32,8 +32,6 @@ To learn about your recording policies, see [Teams meeting recording](meeting-re
 > [!NOTE]
 > As an admin, you can't change where the recording is stored.
 
-By default, for scheduled meetings, all recording files go to the OneDrive account of organizer. For 1-1 call and group call, recording files go to the OneDrive account of the user who selected **Record**. For channel meetings, the recording always goes to the SharePoint site of the channel.
-
 ### Meetings and events
 
 By default, for **meetings, webinars, and town halls**, all recording files are saved to the organizer's OneDrive **Recordings** folder, even if the organizer didn't attend the meeting or event. Co-organizers have the same editing permissions as organizers for recording files.
@@ -45,7 +43,7 @@ The **`-MeetingRecordingOwnership`** parameter within the PowerShell [**CsTeamsR
 - Webinars
 - Town halls
 - Recurring meetings
-- Teams client scheduled meetings
+- Scheduled meetings in the Teams client [**QUESTION: Does this apply to Outlook??**]
 - Meet now meetings
 - Automatically recorded meetings
 - Manually recorded meetings
@@ -59,9 +57,13 @@ If set to *MeetingOrganizer*, when organizers with this policy create meetings a
 
 For meetings in which an organizer appoints a **delegate** who has permission to act on the organizer's behalf, all recording files are automatically saved to the organizer's **Recordings** folder in OneDrive. When delegates are added as co-organizers, they have the same editing permissions as organizers for recording files.
 
+### 1:1 and group calls
+
+For 1-1 call and group calls, recording files go to the OneDrive account of the user who selected **Record**.
+
 ### Channel meetings
 
-For **Channel meetings**, the recording is stored in the Teams site documentation library in a folder named **Recordings**. For example: *Teams name - Channel name*/**Documents**/**Recordings**.
+For **Channel meetings**, the recording is stored in the SharePoint Teams site documentation library in a folder named **Recordings**. For example: *Teams name - Channel name*/**Documents**/**Recordings**.
 
 ### Shared accounts and Microsoft Teams Rooms meetings
 
