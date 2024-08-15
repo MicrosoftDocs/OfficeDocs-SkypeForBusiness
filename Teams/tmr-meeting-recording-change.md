@@ -75,7 +75,7 @@ To learn more about Microsoft Teams Rooms meetings, see [Microsoft Teams Rooms
 
 If the organizer doesn’t have a OneDrive account, here's what happens, in order, to the meeting recording:
   
-1. The recording is saved to the co-organizer's OneDrive. When there are multiple co-organizers, the recording saves to the co-organizers' OneDrive, ordered by the first number in each co-organizer's Entra object ID. The meeting or event organizer has permissions to edit and share the recording. To find the object IDs for users in your org, see [Locate important IDs for a user](/partner-center/account-settings/find-ids-and-domain-names#find-the-user-object-id).
+1. The recording is saved to the co-organizer's OneDrive and the meeting or event organizer still has permissions to edit and share the recording. When there are multiple co-organizers, the recording saves to the co-organizers' OneDrive, ordered by the first number of each co-organizer's Entra object ID. To find the object IDs for users in your org, see [Locate important IDs for a user](/partner-center/account-settings/find-ids-and-domain-names#find-the-user-object-id).
 2. If none of the co-organizers have OneDrive accounts, the recording is saved to the OneDrive account of the user who initiated the recording.
 3. If the user who initiated the recording doesn’t have a OneDrive, the recording gets temporarily stored to async media storage.
 
