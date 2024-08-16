@@ -198,7 +198,7 @@ For information about how to prepare your app for shared channels, see [Microsof
 The following apps are supported for use in shared channels. 
 
 > [!NOTE]
-> The following apps are supported for use in production environment. To ensure your app supports Government Community Cloud (GCC), GCC-High, and Department of Defense (DOD) environments, [enable shared channels in your app](/microsoftteams/platform/concepts/build-and-test/shared-channels).
+> SharePoint pages and SharePoint apps aren't supported in Government Community Cloud (GCC), GCC-High, and Department of Defense (DOD) environments.
 
 - Activity
 - Adobe Acrobat Sign
