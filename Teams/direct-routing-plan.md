@@ -354,7 +354,7 @@ Applies to non-media bypass case only. With media bypass, the media flows direct
 On the leg between the Cloud media processor and the Teams client, either SILK or G.722 is used. The codec choice on this leg is based on Microsoft algorithms, which take into consideration multiple parameters.
 
 > [!NOTE]
-> Media re-targeting is not supported. During a call, if Direct Routing SBC SIP re-Invite (Offer) contains a new media IP address, port, or transport , media is not sent from PSTN Hub to the new target. Per RFC 3264 8.3.1, media re-target support is optional (not required). 
+> Media re-targeting isn't supported. During a call, if Direct Routing SBC SIP re-Invite (Offer) contains a new media IP address, port, or transport, media isn't sent from PSTN Hub to the new target. Per RFC 3264 8.3.1, media re-target support is optional (not required). 
 
 ## Supported Session Border Controllers (SBCs)
 
