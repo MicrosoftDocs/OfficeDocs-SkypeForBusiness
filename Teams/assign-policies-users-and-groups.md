@@ -97,10 +97,7 @@ Group policy assignments are only propagated to users who are direct members of 
 > The Teams Powershell module and Teams admin center don't support the following policies for group policy assignment.
 >
 > - Teams App Permission Policy
-> - Teams Emergency Call Routing Policy
-> - Teams Network Roaming Policy
 > - Teams Upgrade Policy
-> - Teams Voice Applications Policy
 
 ### What you need to know about policy assignment to groups
 
