@@ -289,7 +289,7 @@ Teams Premium is licensed on a per-user subscription basis and is subject to the
 
 ### Which features are applied to organizers, attendees/users, or admins?
 
-A user's Teams experience has depends on their Teams license and their event role. Teams checks a user’s license and role feature by feature to deliver the appropriate experience.
+A user's Teams experience depends on their Teams license and their event role. Teams checks a user’s license and role feature by feature to deliver the appropriate experience.
 
 For example, in a Teams meeting, Teams checks each users’ type of Teams license and whether they're a meeting organizer or attendee. These factors determine a user’s experience and potentially other attendees’ experience during the meeting.
 
