@@ -38,8 +38,8 @@ Queues app is designed to enhance call queue handling capabilities within Teams 
 
 Keep the following in mind:
 
-- Queues app is currently only supported on Teams desktop and Mac client, not web or VDI.
-- Queues app supports 50 auto attendants, 50 call queues, and up to 200 agents per call queue. Otherwise, you might experience performance issues.
+- Queues app is currently only supported on Teams desktop and Mac client, not on the web or Virtualized Desktop Infrastructure (VDI).
+- Queues app supports 50 auto attendants, 50 call queues, and up to 200 agents per call queue. If you have more, you might experience performance issues.
 - Queues app is available in all regions where Teams Phone is supported. For more information, see [Country/region availability for Teams Phone](calling-plan-overview.md).
 - Queues app is currently only available in public clouds.
 
@@ -49,7 +49,7 @@ Your users can find information on using the Queues app with [Use the Queues app
 
 ## Overview of Queues
 
-As an IT admin, you can enable Queues app for your organization, manage the app settings, and designate authorized users to perform various actions such as adding and removing queue members, changing call handling flows, configuring auto-attendant greetings, and more. For a complete list of actions authorized users can make, see [Manage voice applications policies in Microsoft Teams](manage-voice-applications-policies.md).
+As an IT admin, you can enable Queues app for your organization, manage the app settings, and designate authorized users to perform various actions such as adding and removing queue members, changing call handling flows, configuring auto attendant greetings, and more. For a complete list of actions authorized users can make, see [Manage voice applications policies in Microsoft Teams](manage-voice-applications-policies.md).
 
 ## Licensing
 
@@ -57,11 +57,11 @@ Users must have a Teams Phone and a Teams Premium license to use Queues app. For
 
 ## Configure authorized users for Queues app
 
-Queues app is enabled by default for all Teams users in your organization who have been assigned a Teams Premium and Teams Phone license and are voice enabled.
+Queues app is enabled by default for all Teams users in your organization who are assigned both a Teams Premium and Teams Phone license who and are voice enabled.
 
 For users who need additional capabilities to manage day-to-day operational changes, such as team leads, you must set up a voice applications policy and assign this policy to *authorized users*. You can allow authorized users to control call queue membership, greetings, call routing rules, and hours of operation.
 
-By utilizing multiple voice application policies, you can assign different levels of permissions that reflect the configuration changes you want to allow authorized users to make to auto attendants and call queues. For example, you could have one voice application policy that allows the “team supervisor” to have access to both real-time and historical reporting and another policy for “shift leads” that allows access to real-time reporting and the ability to opt agents in and out of call queues.
+By utilizing multiple voice application policies, you can assign different levels of permissions that reflect the configuration changes you want to allow authorized users to make to auto attendants and call queues. For example, you could have one voice application policy that allows the "team supervisor" to have access to both real-time and historical reporting and another policy for "shift leads" that allows access to real-time reporting and the ability to opt agents in and out of call queues.
 
 For information on authorized users, see the following articles:
 
@@ -115,7 +115,7 @@ Your users, both queue members and leads, can find information on using the Queu
 
 ### Enable Queues in your organization
 
-Queues is enabled by default for all Teams users in your organization who are assigned a Teams Premium and Teams Phone license and who are voice enabled.
+Queues is enabled by default for all Teams users in your organization who are assigned both a Teams Premium and Teams Phone license and who are voice enabled.
 
 You can turn off or turn on Queues app at the organization level on the [Manage apps](manage-apps.md) page in the Teams admin center:
 
