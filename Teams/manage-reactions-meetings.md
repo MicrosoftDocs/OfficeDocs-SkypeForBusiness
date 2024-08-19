@@ -47,6 +47,9 @@ To turn off meeting reactions, use the following script:
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowMeetingReactions Disabled
 ```
 
+> [!NOTE]
+> This user setting does not apply to town halls. 
+
 ## Related topics
 
 [Teams policy reference](settings-policies-reference.md)
