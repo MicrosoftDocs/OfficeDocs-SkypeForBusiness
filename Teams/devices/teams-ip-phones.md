@@ -107,6 +107,7 @@ The following devices are Certified under the Microsoft Teams panels Certificati
 
 | Device model| Firmware version | Current certification end date | Android OS version |
 |:------------------------|:-----------------|:--------------|-----------------------|
+|Cisco Navigator | `CiscoOS 11.20 `|August 15, 2027  | 12 |
 |Audiocodes RX-Panel | `2.1.457`|August 15, 2027  | 12 |
 |Crestron TSS-770 | `2.001.0058` |September 3, 2025  | 10 |
 |Crestron TSS-1070 | `2.001.0058`|September 3, 2025 | 10 |
@@ -175,7 +176,7 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 |:----------------|:-------------------|:----------------------------|:----------------------------------------------------------------------------------------------|:--------------------------------------------|
 |MP54/MP56/MP58| `122.15.0.157`| `N/A` | Teams client: `1449/1.0.94.2024071104` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| August 7, 2024|
 |CP965| `143.15.0.65`| `N/A` | Teams client: `1449/1.0.94.2024071104` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| August 7, 2024|
-|MP52 E2/MP54 E2/MP56 E2/MP58 E2| `176.15.0.19`| `N/A` | Teams client: `1449/1.0.94.2024071104` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: ` 1.0.0.202402202353.product`| July 31, 2023|
+|MP52 E2/MP54 E2/MP56 E2/MP58 E2| `176.15.0.19`| `N/A` | Teams client: `1449/1.0.94.2024071104` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: ` 1.0.0.202402202353.product`| July 31, 2024|
 |MP52| `145.15.0.94`| N/A | Teams client: `1449/1.0.94.2024060310` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| July 2, 2024|
 |VP59| `91.15.0.147`| N/A | Teams client: `1449/1.0.94.2024060310` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| July 2, 2024|
 |MP52| `145.15.0.83`| N/A | Teams client: `1449/1.0.94.2023072509` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| January 18, 2024|

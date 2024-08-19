@@ -29,7 +29,10 @@ description: Learn to manage meeting reactions in Teams meetings.
 
 As an admin, you can manage whether organizers can include reactions in their meetings and webinars through the Teams admin center or using PowerShell. Reactions are enabled by default.
 
-This setting sets the default for new meetings. Meeting organizers can change the setting for each meeting that they create.
+This setting sets the default for new meetings and webinars. Meeting and webinar organizers can change the setting for each meeting that they create.
+
+> [!NOTE]
+> This policy doesn't apply to town halls. 
 
 To set the default for meeting reactions in new meetings:
 
