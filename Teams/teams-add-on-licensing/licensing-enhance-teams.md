@@ -170,7 +170,7 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Moderate meeting chats | ✔️ |  |
 | Control who can present | ✔️ |  |
 | Add watermarks to meetings |  | ✔️ |
-| End-to-end encryption for meetings with up to 50 attendees |  | ✔️ |
+| End-to-end encryption for meetings |  | ✔️ |
 | Control who can record |  | ✔️ |
 | Prevent copy/paste in meeting chats |  | ✔️ |
 | Assign Microsoft Purview Information Protection sensitivity labels for meetings\* |  | ✔️ |
