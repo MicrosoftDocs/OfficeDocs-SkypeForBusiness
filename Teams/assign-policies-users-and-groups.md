@@ -97,10 +97,7 @@ Group policy assignments are only propagated to users who are direct members of 
 > The Teams Powershell module and Teams admin center don't support the following policies for group policy assignment.
 >
 > - Teams App Permission Policy
-> - Teams Emergency Call Routing Policy
-> - Teams Network Roaming Policy
 > - Teams Upgrade Policy
-> - Teams Voice Applications Policy
 
 ### What you need to know about policy assignment to groups
 
@@ -121,9 +118,6 @@ A user's effective policy is updated according to these rules:
 - a policy that's directly assigned to the user is removed.
 
 #### Group assignment ranking
-
-> [!NOTE]
-> A given policy type can be assigned to a maximum of 64 groups across policy instances for that type.
 
 When you assign a policy to a group, you specify a ranking for the group assignment. This ranking is used to determine which policy a user should inherit as their effective policy if the user is a member of two or more groups and each group is assigned a policy of the same type.
 
