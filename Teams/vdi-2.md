@@ -151,10 +151,10 @@ If you enable the bottom pane and switch to the DLL tab, you can also see the Pl
 
 New Teams loads WebRTC or SlimCore at launch time. If virtual desktop sessions are disconnected (not logged off, Teams is left running on the VM), new Teams can't switch optimization stacks unless it's restarted. As a result, users might be in fallback mode (not optimized) if they roam between different devices that don't support the new optimization architecture (for example, a MAC device that is used in BYOD while working from home, and a corporate-managed thin client in the office).
 
-|Reconnecting options                                        |Current optimization is WebRTC |Current optimization is SlimCore |
-|------------------------------------------------------------|-------------------------------|---------------------------------|
-|Reconnecting from an endpoint **without** the MsTeamsPlugin |WebRTC classic optimization    |Fallback (local SlimCore)        |
-|Reconnecting from an endpoint **with** the MsTeamsPlugin    |WebRTC classic optimization    |New SlimCore-based optimization  |
+|Reconnecting options                                        |If current optimization is WebRTC |If current optimization is SlimCore  |
+|------------------------------------------------------------|----------------------------------|-------------------------------------|
+|Reconnecting from an endpoint **without** the MsTeamsPlugin |Then WebRTC classic optimization  |Then fallback (local SlimCore)       |
+|Reconnecting from an endpoint **with** the MsTeamsPlugin    |THen WebRTC classic optimization  |Then new SlimCore-based optimization |
 
 ## Networking considerations
 
