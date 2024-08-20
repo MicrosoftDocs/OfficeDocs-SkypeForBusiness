@@ -87,7 +87,7 @@ To set up an Auto attendant, in the [Teams admin center](https://admin.teams.mic
    > [!IMPORTANT]
    > When using *Text to Speech*, the text must be entered in the selected language as the system doesn't perform translation.
    >
-   > All words are pronouced in the selected language.
+   > All words are pronounced in the selected language.
 
 1. Choose if you want to enable voice inputs. When enabled, the name of every menu option becomes a speech-recognition keyword. For example, callers can say "One" to select the menu option mapped to key 1, or they can say "Sales" to select the menu option named "Sales." If you choose a language in Step 4 that doesn't support voice inputs, this option isn't available.
 
@@ -204,33 +204,15 @@ Once you've selected your **Dial scope** options, select **Next**.
 
 ## Step 4: Assign resource accounts
 
-All Auto attendants must have an associated resource account. All resource accounts must be assigned a [Microsoft Teams Phone Resource Account license](teams-add-on-licensing/virtual-user.md). If you wish, you can assign several resource accounts to an Auto attendant. 
+Before you can create and manage resource accounts, you must do the following:
 
-### Add an existing resource account
+- [Obtain Microsoft Teams Phone Resource Account licenses](manage-resource-accounts.md#obtain-microsoft-teams-phone-resource-account-licenses)
+- [Obtain phone numbers](manage-resource-accounts.md#obtain-phone-numbers)
+- [Assign permissions for managing a resource account](manage-resource-accounts.md#assign-permissions-for-managing-a-resource-account)
 
-To add an existing resource account:
+All Auto attendants must have an associated resource account. All resource accounts must be assigned a [Microsoft Teams Phone Resource Account license](teams-add-on-licensing/virtual-user.md). If you wish, you can assign several resource accounts to an Auto attendant.
 
-1. Under Resource accounts, select the **Add** button to add a resource account for this Call queue.
-1. On the **Add accounts** pane, search for the resource account to add.
-1. Select the **Add** button next to the resource account you want to assign to this Call queue.
-1. At the bottom of the pane, select the **Add** button.
-
-### Create a new resource account:
-
-1. Under Resource accounts, select the **Add** button to add a resource account for this Call queue.
-1. On the Add accounts pane, search for any set of letters to pull up the results dropdown.
-1. Select the **Add a resource account** button at the bottom of the results.
-1. On the Add resource account pane:
-  1. Type in a descriptive Display name. Agents see this name when a call is presented to them.
-  1. Type in a descriptive Username for the resource account.
-  1. Select the **Resource account type** dropdown and select **Call queue**.
-  1. At the bottom of the pane, select the **Save** button.
-1. On the Resource accounts pane, select the **Add** button.
-
->[!NOTE]
-> Remember to assign a [Microsoft Teams Phone System Resource Account license](manage-resource-accounts.md#assign-a-license).
-
-For more information, see [Manage Teams resource accounts](manage-resource-accounts.md).
+For details on how to create resource accounts and ready them for use with auto attendants, see [Manage Teams resource accounts](manage-resource-accounts.md).
 
 Once you've added resource accounts, select **Next**.
 
@@ -238,7 +220,7 @@ Once you've added resource accounts, select **Next**.
 
 ## Step 5: Authorized users
 
-**Authorized users** specifies the users who are authorized to make changes to this Auto attendant.  The capabilities that the users have is determined based on the [Teams voice applications policy](./manage-voice-applications-policies.md) that is assigned to the user.
+**Authorized users** specifies the users who are authorized to make changes to this Auto attendant.  The capabilities that the users have are determined based on the [Teams voice applications policy](./manage-voice-applications-policies.md) that is assigned to the user.
 
 To **add a user** to the authorized users:
 
@@ -300,5 +282,3 @@ If you're an administrator, you can use the following diagnostic tool to validat
 [Getting service phone numbers](./getting-service-phone-numbers.md)
 
 [Country and region availability for Audio Conferencing and Calling Plans](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-[An introduction to Windows PowerShell and Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)

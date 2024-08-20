@@ -63,7 +63,7 @@ The E3 plan is part of your Action Pack. To buy the **Phone System** and **Audio
 
 2. Sign in to the admin center and go to **Billing** > **Subscriptions** > **Add-ons**.
 
-    Now you'll see the prices and option to buy the **Phone System** and **Audio Conferencing** add-ons.
+    Now you see the prices and option to buy the **Phone System** and **Audio Conferencing** add-ons.
 
 ## Why don't I see the option to buy add-ons?
 <a name="bkmk_how"> </a>

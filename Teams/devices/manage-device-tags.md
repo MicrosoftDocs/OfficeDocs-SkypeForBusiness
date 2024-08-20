@@ -3,7 +3,7 @@ title: Manage and filter Microsoft Teams device tags
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: ayerragangu
+ms.reviewer: snchatur
 ms.date: 05/01/2024
 ms.topic: article
 ms.service: msteams
@@ -26,12 +26,15 @@ search.appverid: MET150
 
 Device tags in Microsoft Teams let you group, organize, and more easily manage the devices you've deployed in your organization. With the Microsoft Teams admin center, you can add one or more tags to devices, use filters to view devices that match the tag you specify, and then perform actions on the devices that have that tag.
 
-You can add a device tag to more than one device type. However, when you open a device pane in the admin center, only the devices of that type are returned. For example, you can assign the "Corporate" tag to both phones and Teams Rooms devices. If you search for the "Corporate" tag while in **Teams Devices** > **Phones**, only phones are returned. Similarly, if you search for the "Corporate" tag in **Teams Devices** > **Teams Rooms**, only Teams Rooms devices are returned.
-
-To manage device tags, you need to be a Global admin, Teams Service admin, or Teams Device admin. For more information about admin roles, see [Use Microsoft Teams administrator roles to manage Teams](../using-admin-roles.md).
-
 > [!IMPORTANT]
 > Device tags are assigned to the resource account that's logged into a device. If you sign a resource account out of one device and then use it to sign in to another device, the device tags are applied to the new device.
+
+You can add a device tag to more than one device type. However, when you open a device pane in the admin center, only the devices of that type are returned. For example, you can assign the "Corporate" tag to both phones and Teams Rooms devices. If you search for the "Corporate" tag while in **Teams Devices** > **Phones**, only phones are returned. Similarly, if you search for the "Corporate" tag in **Teams Devices** > **Teams Rooms**, only Teams Rooms devices are returned.
+
+To manage device tags, you need to be a Teams Service admin, or Teams Device admin. For more information about admin roles, see [Use Microsoft Teams administrator roles to manage Teams](../using-admin-roles.md).
+
+> [IMPORTANT]
+>  Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
 ## Create, remove, or rename device tags
 

@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: chasing
-ms.date: 11/02/2023
+ms.date: 08/08/2024
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -30,7 +30,7 @@ ms.custom:
 
 This article explains how to configure SIP Gateway so that your organization can use compatible SIP devices with Microsoft Teams. To find out what SIP Gateway can do for your organization and what hardware, software, and licenses your organization needs for it, read [Plan for SIP Gateway](sip-gateway-plan.md).
 
-Before you can configure SIP Gateway, do the following:
+### Before you can configure SIP Gateway, do the following:
 
 - **Reset SIP devices to factory default settings.** You or your organization's users must reset each SIP device used with SIP Gateway to its factory default settings. To find out how to do that, see the manufacturer’s instructions.
 
@@ -42,16 +42,7 @@ Before you can configure SIP Gateway, do the following:
 
 - **Open the TCP port.** Open TCP port 5061 for IP ranges 52.112.0.0/14 and 52.122.0.0/15.
 
-- **Open the following IP addresses for HTTP and HTTPS:**
-
-  - 13.75.175.145
-  - 52.189.219.201
-  - 51.124.34.164
-  - 13.74.250.91
-  - 13.83.55.36
-  - 23.96.103.40
-
-The following sections describe what you must do as an administrator to configure SIP Gateway.
+### The following sections describe what you must do as an administrator to configure SIP Gateway.
 
 - [Verify that SIP Gateway is available for your organization](#verify-that-sip-gateway-is-available-for-your-organization).
 
@@ -59,7 +50,7 @@ The following sections describe what you must do as an administrator to configur
 
 - [Set the SIP Gateway provisioning server URL](#set-the-sip-gateway-provisioning-server-url).
 
-This article also describes how to:
+### This article also describes how to:
 
 - [Enroll SIP devices either individually or in batches for your convenience](#provision-and-enroll-sip-devices-as-common-area-phones).  
 
@@ -133,7 +124,7 @@ Users who work remotely must manually configure the provisioning server URL into
 
 ## Configure conditional access
 
-Conditional Access is an Microsoft Entra feature that helps ensure that devices that access your Microsoft 365 resources are properly managed and secure. SIP devices are not managed by Intune hence stricter conditional access checks are applied to them. SIP Gateway authenticates SIP devices with Microsoft Entra ID, so if your organization uses Conditional Access for devices in the corporate network, you should do one of the following: 
+Conditional Access is a Microsoft Entra feature that helps ensure that devices that access your Microsoft 365 resources are properly managed and secure. SIP devices are not managed by Intune hence stricter conditional access checks are applied to them. SIP Gateway authenticates SIP devices with Microsoft Entra ID, so if your organization uses Conditional Access for devices in the corporate network, you should do one of the following: 
 
 1. Exclude your site public IP addresses and the following SIP Gateway service IP addresses from Conditional Access checks:
 
@@ -289,7 +280,11 @@ Bulk sign-in is very helpful and can be used in these scenarios.
 6. The accounts must have a phone number assigned.
 7. The accounts must have the SIP device calling policy assigned. [AllowSIPDevicesCalling policy](/microsoftteams/sip-gateway-configure)
 8. You must use an account that has the **Global Administrator, Privileged Authentication Administrator or the Authentication Administrator** role to run the cmdlets.
-9. The **BulkSignIn** attribute must be set to `Enabled` in [TeamsSipDevicesConfiguration](/powershell/module/teams/set-csteamssipdevicesconfiguration)
+
+> [!IMPORTANT]
+>Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+
+1. The **BulkSignIn** attribute must be set to `Enabled` in [TeamsSipDevicesConfiguration](/powershell/module/teams/set-csteamssipdevicesconfiguration)
 
 > [!NOTE]
 > As a best practice, try running bulk sign in cmdlet at least 1 hour and at most 70 hours after device provisioning.

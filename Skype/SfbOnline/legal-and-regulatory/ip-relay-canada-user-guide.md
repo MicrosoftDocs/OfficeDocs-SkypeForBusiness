@@ -1,5 +1,5 @@
 ---
-ms.date: 04/04/2018
+ms.date: 06/28/2024
 title: "IP Relay Canada User Guide"
 ms.author: serdars
 author: tonysmit
@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-ms.localizationpriority: null
+ms.localizationpriority: Low
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -38,10 +38,10 @@ If a nonimpaired person wishes to talk to a registered hearing- or voice-impaire
 
 The Call Taker then communicates with the nonimpaired person and contacts the hearing- or voice-impaired person via chat and communicates back and forth.
 
-Should the hearing- or voice-impaired person not be online in the chat program, if an email address is available the Call Taker will send an email to the hearing- or voice-impaired person, if requested by the caller.
+Should the hearing- or voice-impaired person are not online in the chat program, if an email address is available the Call Taker sends an email to the hearing- or voice-impaired person, if requested by the caller.
 
 ## Scenario C
-If an hearing- or voice-impaired person requires emergency assistance, he or she may select the appropriate button:  911 – Police / 911 – Fire / 911 – Ambulance.
+If an hearing- or voice-impaired person requires emergency assistance, they might select the appropriate button:  911 – Police / 911 – Fire / 911 – Ambulance.
 
 This will send an emergency notification to the Northern IP Relay operators, who will then access the 911 account designed for this purpose. Once the Call Taker has confirmed his or her address, they'll contact the appropriate PSAP and stay on the line for as long as required.
 
@@ -59,7 +59,7 @@ Once logged in, you'll see instructions displayed on the left side of your scree
 3. In the bottom of the new box that pops up, type your message.
 
 ### How to receive a Voice to Text call:
-- Voice users will need to know your IP Message Relay Username in order to place a voice to text call.
+- Voice users need to know your IP Message Relay Username in order to place a voice to text call.
 - Voice users can call (866) 660-8613 to connect with an IP Message Relay operator.
 - You must be logged in to the IP Message Relay portal to receive calls or chats.
 

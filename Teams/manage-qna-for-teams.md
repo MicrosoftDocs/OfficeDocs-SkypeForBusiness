@@ -21,7 +21,7 @@ description: Learn about how IT Admins can set up, use, and manage Q&A in Q&A fo
 
 **APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
 
-Q&A allows presenters, organizers, and co-organizers to take questions from attendees and answer them in real time. This feature is best suited for large, structured meetings and events– like town halls, webinars, all hands, and trainings. The Q&A policy is a per-organizer setting.
+Q&A allows presenters, organizers, and co-organizers to take questions from attendees and answer them in real time. This feature is best suited for large, structured meetings and events– like town halls, webinars, all hands, and trainings. Town hall and webinar organizers and co-organizers can export the event's questions and answers to a CSV file.
 
 Your organization might have requirements to limit which organizers can use Q&A. As an admin, you can control whether an organizer can enable Q&A in their meetings and events.
 
@@ -35,7 +35,7 @@ To learn more about Q&A for your users, see [Q&A in Microsoft Teams meetings](ht
 - Verify that access to [Viva Engage’s IPs and URLs](/microsoft-365/enterprise/urls-and-ip-address-ranges) isn't blocked.
 - To allow users in your organization to add Q&A to Teams meetings and events, you must confirm that sign-ins for the Office 365 Viva Engage service are enabled in Microsoft Entra ID.
 Follow these steps to confirm that sign-ins are enabled:
-  - Go to the **Microsoft Entra admin center** > **All services** > **Enterprise Applications** > **Office 365 Viva Engage** > **Properties**.
+  - Go to the **Microsoft Entra admin center** > **Identity** > **Applications** > **Enterprise Applications** > **Viva Engage** > **Properties**.
   - For the **Enabled for users to sign-in?** option, select **Yes** if necessary.
 
 When you enable Q&A, organizers can turn on Q&A in their Meeting options when creating or updating meetings and events. Through Teams and Outlook meeting options, organizers can also remove Q&A from meetings where it was previously added to prevent attendees from using the feature.
@@ -106,6 +106,7 @@ eDiscovery for Q&A works the same as eDiscovery for any other Viva Engage conten
 - When you perform eDiscovery, you can determine whether messages were generated in Viva Engage or through Q&A in Teams. In the File Metadata section, you can find that information in the Item Class field.
 - If your organization uses the Q&A, powered by Viva Engage, the content Q&A generates is considered Viva Engage content and is discoverable. For more information about eDiscovery in Microsoft 365 apps, see [eDiscovery solutions in Microsoft 365.](/microsoft-365/compliance/ediscovery)
 - If the meeting organizer enables anonymous posting, the questions attendees post are ingested into the organizer’s mailbox for eDiscovery.
+- When external participants (users from an external organization using external access) from a different Microsoft 365 tenant, or guests join a Teams meeting that is hosted in your Microsoft 365 tenant, any questions they post into Q&A are ingested within your Microsoft 365 tenant.
 
 ## Data Storage
 

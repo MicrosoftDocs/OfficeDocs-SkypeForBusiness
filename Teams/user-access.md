@@ -25,24 +25,24 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Manage user access to Teams
+# Manage Teams licenses
 
 [!INCLUDE [EEA Teams licensing notice](./includes/eea-teams-licensing.md)]
 
 You manage access to Teams at the user level by assigning or removing a Microsoft Teams product license. Except for joining Teams meetings anonymously, each user in your organization must have a Teams license before they can use Teams. You can assign a Teams license for new users when new user accounts are created or to users with existing accounts.
 
 Use messaging policies, managed from the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), to control what chat and channel messaging features are available to users in Teams. You can use the default policy or create one or more custom messaging policies for people in your organization. To learn more, read [Manage messaging policies in Teams](messaging-policies-in-teams.md).
-You manage Teams licenses in the Microsoft 365 admin center or by using PowerShell. You must be a Global admin or User management admin to manage licenses.
+You manage Teams licenses in the Microsoft 365 admin center or by using PowerShell. You must be a User management admin to manage licenses.
 
 > [!NOTE]
-> We recommend that you enable Teams for all users so that teams can be formed organically for projects and other dynamic initiatives. Even if you're running a pilot, it may still be helpful to keep Teams enabled for all users, but only target communications to the pilot group of users.
+> We recommend that you enable Teams for all users so that teams can be formed organically for projects and other dynamic initiatives. Even if you're running a pilot, it might still be helpful to keep Teams enabled for all users, but only target communications to the pilot group of users.
 
 ## Using the Microsoft 365 admin center
 
 Teams user-level licenses are managed directly through the Microsoft 365 admin center user management interfaces. An administrator can assign licenses to new users when new user accounts are created, or to users with existing accounts.
 
 > [!IMPORTANT]
-> The administrator must have Global Administrator or User Management Administrator privileges to manage Microsoft Teams licenses.
+> The administrator must have at least User Management Administrator privileges to manage Microsoft Teams licenses.
 
 Use the Microsoft 365 admin center to manage Teams licenses for individual users or small sets of users at a time. You can manage Teams licenses on the **Licenses** page (for up to 20 users at a time) or **Active users** page. The method you choose depends on whether you want to manage product licenses for specific users or manage user licenses for specific products.
 
@@ -61,7 +61,7 @@ The steps are different depending on whether you use the **Licenses** page or **
 > [!IMPORTANT]
 > It takes about 24 hours for disabling a Teams SKU to take effect.
 
-When you remove a Teams license from a user, Teams is disabled for that user, and they will no longer see Teams in the app launcher or homepage. For detailed steps, see [Unassign licenses from users](/microsoft-365/admin/manage/remove-licenses-from-users).
+When you remove a Teams license from a user, Teams is disabled for that user, and they'll no longer see Teams in the app launcher or homepage. For detailed steps, see [Unassign licenses from users](/microsoft-365/admin/manage/remove-licenses-from-users).
 
 |&nbsp;|&nbsp;|
 |---------|---------|
@@ -109,7 +109,7 @@ Run the following command to disable Teams for all users who have an active lice
 Get-MgUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MgUserLicense -LicenseOptions $x
 ```
 
-## Related topics
+## Related articles
 
 - [Teams add-on licenses](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [Assign Teams add-on licenses](teams-add-on-licensing/assign-teams-add-on-licenses.md)

@@ -2,13 +2,13 @@
 title: Know about apps in Microsoft Teams
 description: Learn about apps and decide what apps to allow in Teams based on your organization's profile and business requirements.
 ms.topic: conceptual
-author: lkueter
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 audience: admin
 ms.service: msteams
 ms.subservice: teams-apps
-ms.date: 05/03/2024
+ms.date: 07/31/2024
 ms.reviewer: mhayrapetyan
 ms.collection: 
   - M365-collaboration
@@ -158,7 +158,6 @@ The following apps are provided by Microsoft and are generally available:
 * Dynamics 365
 * Employee ideas
 * Forms
-* Games for Work
 * Images
 * Inspection
 * Issue reporting
@@ -172,6 +171,7 @@ The following apps are provided by Microsoft and are generally available:
 * Outgoing Webhook
 * Payments (preview)
 * Places
+* Planner
 * Polls
 * Power Apps
 * Power Automate Actions
@@ -186,7 +186,6 @@ The following apps are provided by Microsoft and are generally available:
 * SharePoint Pages
 * Shifts
 * Stocks
-* Tasks by Planner and To Do
 * Viva Topics
 * Updates
 * Virtual Appointments

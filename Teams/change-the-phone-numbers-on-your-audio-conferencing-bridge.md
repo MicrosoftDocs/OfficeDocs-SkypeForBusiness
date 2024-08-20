@@ -95,7 +95,7 @@ Because the phone number is changing, you should update all users with a changin
 
 If the phone number is removed without updating the users and their meetings, their existing meeting invites could contain a phone number that doesn't work for joining their meetings.
 
-For the first three steps, you need to start Windows PowerShell. To see how to start Windows PowerShell, select [Want to know how to manage with Windows PowerShell?](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#about-windows-powershell)
+For the first three steps, you need to start Windows PowerShell. For more information on how to start Windows PowerShell, see [Getting started with PowerShell](/powershell/scripting/learn/ps101/01-getting-started).
 
 ### Step 1 - Update users who have the phone number to be unassigned as one of their default numbers
 
@@ -108,7 +108,7 @@ Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be remove
 > [!IMPORTANT]
 > You can also change the default toll or toll-free number of users in the Microsoft Teams admin center. However, this won't automatically reschedule their meetings.
 
-For more information, see [Set the phone numbers included on invites in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) or [Set the phone numbers included on invites in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
+For more information, see [Set the phone numbers included on invites in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md).
 
 > [!NOTE]
 > Depending on the size of your organization, this could take some time to complete.
@@ -195,22 +195,6 @@ The result, aside other information like Identity, Name and Region, should also 
 ```PowerShell
 Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridge" -RemoveDefaultServiceNumber 8005551234
 ```
-
-## About Windows PowerShell
-
-With Windows PowerShell, you can manage users and what they are or aren't allowed to do. Windows PowerShell can help you manage Microsoft 365 or Office 365 and Skype for Business Online using a single point of administration. Having single point of administration can simplify your daily work, especially when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
-
-- [An introduction to Windows PowerShell and Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-
-- [Why you need to use Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
-
-Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center such as when you're making setting changes for many users at one time. Learn about these advantages in the following topics:
-
-- [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](/previous-versions//dn568025(v=technet.10))
-
-- [Using Windows PowerShell to manage Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-
-- [Using Windows PowerShell to do common Skype for Business Online management tasks](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
 ## Related topics
 
