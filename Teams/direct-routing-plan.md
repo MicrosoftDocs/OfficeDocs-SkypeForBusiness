@@ -78,7 +78,8 @@ Direct Routing users must have the following licenses assigned in Microsoft 365:
 
 - Teams Phone 
 - Microsoft Teams 
-- Audio Conferencing. For information about when an Audio Conferencing license is required, see [Direct Routing with Audio Conferencing](#direct-routing-with-audio-conferencing).
+
+For information about when an Audio Conferencing license is required, see [Direct Routing with Audio Conferencing](#direct-routing-with-audio-conferencing).
 
 Direct Routing also supports users who are licensed for Microsoft Calling Plan. For more information, see [Direct Routing with Calling Plan and Operator Connect](#direct-routing-with-calling-plans-and-operator-connect).
 
@@ -353,7 +354,7 @@ Applies to non-media bypass case only. With media bypass, the media flows direct
 On the leg between the Cloud media processor and the Teams client, either SILK or G.722 is used. The codec choice on this leg is based on Microsoft algorithms, which take into consideration multiple parameters.
 
 > [!NOTE]
-> Media re-targeting isn't supported. During a Direct Routing call, if the SBC sends a new media IP to Direct Routing, although it's negotiated in the SIP signaling, the media is never sent to the new IP address from  Direct Routing.
+> Media re-targeting isn't supported. During a call, if Direct Routing SBC SIP re-Invite (Offer) contains a new media IP address, port, or transport, media isn't sent from PSTN Hub to the new target. Per RFC 3264 8.3.1, media re-target support is optional (not required). 
 
 ## Supported Session Border Controllers (SBCs)
 
