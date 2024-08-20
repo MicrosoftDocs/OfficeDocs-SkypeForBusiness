@@ -196,7 +196,7 @@ There are two places where you can control *Education Insights*. Both options ha
 
 #### Turn on and off Insights from the Teams client
 
-1. If you don’t have the *Education Insights* personal app pinned, follow [these instructions](class-insights.md#education-leaders) to add it.
+1. If you don’t have the *Education Insights* personal app pinned, follow [these instructions](class-insights.md##educators-1) to add it.
 1. With a Microsoft 365 administrator account, open the **Admin settings** page using the ellipsis icon located in the top right corner of *Education Insights*.
 1. Adjust the **Collect activity data for Insights** toggle to on or off.
 
@@ -215,7 +215,7 @@ There are two places where you can control *Advanced inferences*. Both options h
 
 #### Turn on and off Advanced inferences from the Teams client
 
-1. If you don’t have the *Education Insights* personal app pinned, follow [these instructions](class-insights.md#education-leaders) to add it.
+1. If you don’t have the *Education Insights* personal app pinned, follow [these instructions](class-insights.md#educators-1) to add it.
 1. With a Microsoft 365 administrator account, open the **Admin settings** page using the ellipsis icon located in the top right corner of *Education Insights*.
 1. Adjust the **Allow advanced inferences** toggle to on or off.
 
