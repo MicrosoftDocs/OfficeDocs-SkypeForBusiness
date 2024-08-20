@@ -46,7 +46,7 @@ You can now use the Teams apps on Teams panels and customize the user experience
 
 ## Manage apps on Teams panels in Teams admin center
 
-**Note**: You must be a global admin or a Teams service admin to access the [Teams admin center](https://admin.teams.microsoft.com/).
+**Note**: You must be a Teams service admin to access the [Teams admin center](https://admin.teams.microsoft.com/).
 
 End users can view but not install apps on Teams panels. As an admin, you can view and manage all Teams apps for your organization via the Teams admin center. Learn more about how you can [manage your apps in the Microsoft Teams admin center](/microsoftteams/manage-apps) via the **Manage apps** page. The **Manage apps** page within the Teams admin center is also where you can upload [custom apps](/microsoftteams/manage-apps#publish-a-custom-app-to-your-organizations-app-store).
 
