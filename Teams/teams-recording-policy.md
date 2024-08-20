@@ -260,7 +260,7 @@ Support for notifications is enabled using the Teams client experiences. The exp
 
 ### PSTN calls
 
-When users with an assigned compliance policy make PSTN calls, they experience a 4 second audio delay.
+Users with an assigned compliance policy experience a 4-second audio delay when making PSTN calls.
 
 Inbound call queue (CQ) calls are recorded for users who have an assigned compliance recording (CR) policy. Certain routing methods might involve usability concerns with multiple announcements. We recommend appropriately configuring your call queues to align with your organization's user experience.
 
