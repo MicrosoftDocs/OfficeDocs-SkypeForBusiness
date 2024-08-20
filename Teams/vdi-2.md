@@ -128,6 +128,9 @@ Once you meet all the minimum requirements, launching new Teams for the first ti
 
 You can check in the Teams client that you optimized with the new architecture by going to the ellipsis (three dots ...) on the top bar, then selecting Settings > About. The Teams and client versions are listed there.
 
+- AVD SlimCore Media Optimized = New optimization based on SlimCore.
+- AVD Media Optimized = Legacy optimization based on WebRTC.
+
 The plugin (MsTeamsPluginAvd.dll or MsTeamsPluginCitrix.dll) is responsible for eventually downloading the media engine, and SlimCore, which is an MSIX package. It installs silently without admin privileges or reboots in (example, exact path varies):
 
 `C:\Program Files\WindowsApps\Microsoft.Teams.SlimCoreVdi.win-x64.2024.15_2024.15.1.5_x64__8wekyb3d8bbwe`
@@ -140,8 +143,31 @@ PowerShellCopy
 Get-AppxPackage Microsoft.Teams.SlimCore*
 ```
 
+A sample of the results that can be returned from running this Powershell is:
+
+```powershell
+Name              : Microsoft.Teams.SlimCoreVdi.win-x64.2024.32
+Publisher         : CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+Architecture      : X64
+ResourceId        :
+Version           : 2024.32.1.7
+PackageFullName   : Microsoft.Teams.SlimCoreVdi.win-x64.2024.32_2024.32.1.7_x64__8wekyb3d8bbwe
+InstallLocation   : C:\Program
+                    Files\WindowsApps\Microsoft.Teams.SlimCoreVdi.win-x64.2024.32_2024.32.1.7_x64__8wekyb3d8bbwe
+IsFramework       : False
+PackageFamilyName : Microsoft.Teams.SlimCoreVdi.win-x64.2024.32_8wekyb3d8bbwe
+PublisherId       : 8wekyb3d8bbwe
+IsResourcePackage : False
+IsBundle          : False
+IsDevelopmentMode : False
+NonRemovable      : False
+IsPartiallyStaged : False
+SignatureKind     : Developer
+Status            : Ok
+```
+
 > [!IMPORTANT]
-> Microsoft stores up to ten versions of SlimCoreVdi for compatibility purposes, and in case the user accesses different VDI environments (such as persistent, where new Teams auto-updates itself, and non-persistent, where new Teams auto-updates are disabled).
+> Microsoft stores up to 12 versions of SlimCoreVdi for compatibility purposes, and in case the user accesses different VDI environments (such as persistent, where new Teams auto-updates itself, and non-persistent, where new Teams auto-updates are disabled).
 
 If you're optimized, you can see MsTeamsVdi.exe running on your endpoint for Azure Virtual Desktop/W365 or Citrix.
 
@@ -151,10 +177,10 @@ If you enable the bottom pane and switch to the DLL tab, you can also see the Pl
 
 New Teams loads WebRTC or SlimCore at launch time. If virtual desktop sessions are disconnected (not logged off, Teams is left running on the VM), new Teams can't switch optimization stacks unless it's restarted. As a result, users might be in fallback mode (not optimized) if they roam between different devices that don't support the new optimization architecture (for example, a MAC device that is used in BYOD while working from home, and a corporate-managed thin client in the office).
 
-|Reconnecting options                                        |Current optimization is WebRTC |Current optimization is SlimCore |
-|------------------------------------------------------------|-------------------------------|---------------------------------|
-|Reconnecting from an endpoint **without** the MsTeamsPlugin |WebRTC classic optimization    |Fallback (local SlimCore)        |
-|Reconnecting from an endpoint **with** the MsTeamsPlugin    |WebRTC classic optimization    |New SlimCore-based optimization  |
+|Reconnecting options                                        |If current optimization is WebRTC |If current optimization is SlimCore  |
+|------------------------------------------------------------|----------------------------------|-------------------------------------|
+|Reconnecting from an endpoint **without** the MsTeamsPlugin |Then WebRTC classic optimization  |Then fallback (local SlimCore)       |
+|Reconnecting from an endpoint **with** the MsTeamsPlugin    |THen WebRTC classic optimization  |Then new SlimCore-based optimization |
 
 ## Networking considerations
 
