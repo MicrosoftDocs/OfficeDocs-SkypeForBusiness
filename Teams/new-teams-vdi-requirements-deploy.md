@@ -75,7 +75,7 @@ HKLM\SOFTWARE\Microsoft\Teams:
 
 ### RemoteApp
 
-You can publish new Teams using the Windows `shell:appsFolder` location in the format: `shell:appsFolder\MSTeams_8wekyb3d8bbwe!MSTeams"`.
+You can publish new Teams using the Windows `shell:appsFolder` location in the format: `shell:appsFolder\MSTeams_8wekyb3d8bbwe!MSTeams`.
  
 See [this article](/azure/virtual-desktop/publish-applications?tabs=portal) for more details on RemoteApp.
 
