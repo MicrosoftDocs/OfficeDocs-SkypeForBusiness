@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: eviegrimshaw
-ms.date: 8/2/2024
+ms.date: 8/20/2024
 ms.topic: article
 audience: Admin
 appliesto: 
@@ -25,41 +25,48 @@ description: <Insert description>
 
 You can create custom background images for your Teams panel devices to showcase your brand or to provide instructions and support information to Teams panels users. For example, you can add your company logo.
 
-Your ability to deploy custom backgrounds depends on the version of Teams panels app installed on your device and the license of the account logged in on the device:
+Your ability to deploy custom backgrounds depends on the version of Teams panels app installed on your Teams panel and the license of the account that is signed in to the device:
 
-- Your Teams panels device must be running on version 1449/1.0.96.2024XXXX or later
+- Verify the Teams panels is running on version 1449/1.0.96.2024XXXX or later.
+- Verify the account signed in on your Teams panel device is assigned a Teams Rooms Pro or Teams Shared Devices license.
 
-- The account signed in on your Teams panel device must be assigned a Teams Rooms Pro or Teams Shared Devices license
-
-To set up and manage custom backgrounds for your Teams panels devices, log into __Teams admin center__ > go to __Teams devices__ > __Panels__ > select __Configuration profiles__ > __Add__ or __Edit__ > __Device settings__ > __Background__ > select __Use a custom background__. You can upload up to one image, which will display on the panel home screen.
+To set up and manage custom backgrounds for your Teams panels:
+1. Sign in to the **Teams admin center**.
+2. Go to **Teams devices** > **Panels** > **Configuration profiles** and click **Add** or **Edit**.
+3. Go to **Device settings** > **Background** > select **Use a custom background**. You can upload up to one image, which will display on the panel home screen.
+4. Click **Save**.
 
 ### Custom background requirements
 
-There are a few requirements on the custom background you will upload to the panel device. The minimum resolution supported is 1280 x 720. The custom background image file must be between 100KB and 2MB and uploaded in one of the following formats: JPG, JPEG, and PNG.   
-  
-**Note:** Custom backgrounds with resolutions or aspect ratios higher than the recommended resolution for a display may be center-cropped. ### Custom background content guidelines
+There are a few requirements on the custom background you will upload to the Teams panel. The minimum resolution supported is 1280 x 720. The custom background image file must be between 100KB and 2MB and is a JPG, JPEG, and PNG file format.  
 
-Follow the best practices listed in this section to ensure the following:- Content doesn't collide with on-screen elements
+> [!NOTE]
+> Custom backgrounds with resolutions or aspect ratios higher than the recommended resolution for a display may be center-cropped.
 
-- Content remains legible when placed in front of visual elements in the custom background
+### Custom background content guidelines
 
-- Content remains visible if a custom background is cropped
+Follow the best practices listed here to ensure that:
+- Content doesn't collide with on-screen elements.
+- Content remains legible when placed in front of visual elements in the custom background.
+- Content remains visible if a custom background is cropped.
 
 For Teams panels display, follow the following guidelines:
 
 - Use a darker background on the top corner to ensure users can read the clock and room information in white.
+- For the best experience, use a contrast ratio of (@Evie to provide here). Use an accessibility contrast checker on the Internet to input color values to see if their contrast ratio is acceptable.
 
-- For the best experience, use a contrast ratio of _____. Use an accessibility contrast checker on the Internet to input color values to see if their contrast ratio is acceptable.
+> [!TIP]
+> Use the custom background template in designing your custom background image.   
 
-Tip: Use the custom background template in designing your custom background image.   
-  
+:::image type="content" source="../media/byod/inventory-rooms-tab.png" alt-text="Screenshot of Inventory rooms tab." lightbox="../media/byod/inventory-rooms-tab.png"::: ![image](https://github.com/user-attachments/assets/2f4c6b95-a72f-490b-82ad-359ed9956e7e)
+
 ![User's image](media/custom-background-panels/image.png)
 
 ![User's image](media/custom-background-panels/image1.png)
 
 ### Custom background template
 
-To create custom backgrounds that meet the guidelines in the previous section, you can download the ________The template is a .PSD file that can be opened by apps such as Adobe Photoshop or Paint.NET (a plug-in may be required). The template provides assets and guidelines to help you place text and graphics in your custom backgrounds that won't be obscured by on-screen elements.
+To create custom backgrounds that meet the guidelines in the previous section, you can download the (@Evie to provide here). The template is a .PSD file that can be opened by apps such as Adobe Photoshop or Paint.NET (a plug-in may be required). The template provides assets and guidelines to help you place text and graphics in your custom backgrounds that won't be obscured by on-screen elements.
 
 ### Deploy custom backgrounds
 
