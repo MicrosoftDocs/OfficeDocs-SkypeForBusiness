@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams Rooms
-ms.reviewer: 
+ms.reviewer: sohailta
 ms.date: 10/04/2023
 ms.author: tonysmit
 author: mstonysmith
