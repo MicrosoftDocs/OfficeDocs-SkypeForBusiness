@@ -49,6 +49,9 @@ When you create, edit, or assign custom roles, the account must have one of the 
     - Global Administrator in Azure Active Directory (Azure AD)
     - Teams Rooms Pro Manager in the Microsoft Teams Rooms Pro Management portal
 
+> [IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+
 - **Role-based access control (RBAC)**: You can use RBAC roles to determine the scope of a Teams Rooms Pro management remote access users. For remote access, it as two RBAC roles:
 
   - **VIEW** These users can remotely access the device, but with this level, they're limited to only viewing the Teams Rooms consoles and displays. No changes can be saved.

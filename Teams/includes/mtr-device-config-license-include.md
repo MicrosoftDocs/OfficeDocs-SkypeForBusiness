@@ -6,7 +6,7 @@ Follow the steps below to purchase a Teams Rooms Basic or Teams Rooms Pro licens
 > [!NOTE]
 > If you have multiple Teams Rooms consoles, we recommend that you purchase a Teams Rooms Pro license for each of your consoles. The Teams Rooms Pro license enables more advanced remote management and analytics for Teams Rooms, enabling you to create a more consistent and robust Teams Rooms and meeting experience.
 
-1. Go to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) and log in with an account that has global admin permissions.
+1. Go to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) and log in with an account that has license admin permissions.
 1. In the admin center, go to the **Billing** > [Purchase services](https://go.microsoft.com/fwlink/p/?linkid=868433) page.
 1. On the **Purchase services** page, type in **Teams Rooms** in the search box and press enter.
 1. Select **Details** under either **Teams Rooms Basic** or **Teams Rooms Pro**.

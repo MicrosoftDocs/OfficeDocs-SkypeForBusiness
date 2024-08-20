@@ -73,7 +73,7 @@ When managing the event access type for town halls to decide whether organizers 
 
 ## Premium town halls and live events
 
-If you've been using live events for your organization, you might want to understand the differences and similarities between live events, town halls, and Premium town halls. With a Teams premium license, your users have access to extended town hall capabilities. The following table is a comparison of live events, town hall, and Premium town hall features:
+If you've been using live events for your organization, you might want to understand the differences and similarities between live events, town halls, and Premium town halls. With a Teams Premium license, your users have access to extended town hall capabilities. The following table is a comparison of live events, town hall, and Premium town hall features:
 
 |Capability|Live Events|Town halls|Premium town halls|
 |:------| :---: | :---: | :---: |
@@ -90,6 +90,7 @@ If you've been using live events for your organization, you might want to unders
 |Live translated captions|✔️|Six languages|10 languages|
 |Manage what attendees see|✖️|✔️|✔️|
 |External presenters|✔️|✔️|✔️|
+|Presenter capacity (including external presenters)|100|100|100|
 |AI generated captions|✔️|✔️|✔️|
 |DVR|✔️|✖️|✖️|
 |Q&A capacity|10k|10k|20k|
@@ -122,7 +123,6 @@ To learn more about using CQD for town halls in your org, see [What is Call Qual
 
 For more information about the dimensions and measurements visible through CQD for town halls, search for the word "events" in [Dimensions and measurements available in Call Quality Dashboard (CQD)](dimensions-and-measures-available-in-call-quality-dashboard.md).
 
-
 ### Town hall insights for organizers
 
 With a Teams Premium license, during a town hall, organizers and co-organizers can see real-time event analytics like viewer count, attendees’ country/region, and more. The analytics consist of several data widgets, including charts and graphs, breakdowns tables, and a viewing experience timeline.
@@ -149,7 +149,7 @@ Teams admins and organizers have different policies and settings to control the 
 |[Live translated transcription (Teams Premium)](meeting-transcription-captions.md) |Can control whether organizers with a Premium license can have live translated transcription for their town halls. |Can enable live translated transcription for themselves; attendees can always turn on live translated transcription.|
 |[Manage what attendees see](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16) |No control. |Can decide whose avatars or video feeds to spotlight during the town hall. |
 |[Manage who can schedule town halls](set-up-town-halls.md)|Can disable town halls for users and groups, control which organizers can schedule town halls,  and decide whether organizers can schedule public town halls.|Can schedule town halls if allowed by admin.|
-|[Q&A](manage-qna-for-teams.md)|Can manage if organizers can use Q&A in town halls.|Can decide if Q&A is available for their town halls if allowed by admins. Q&A is the only way attendees can interact and engage with presenters and organizers.|
+|[Q&A](manage-qna-for-teams.md)|Can manage if organizers can use Q&A in town halls.|Can decide if Q&A is available for their town halls if allowed by admins. Q&A is the only way attendees can interact and engage with presenters and organizers. Town hall organizers and co-organizers can export the event's questions and answers to a CSV file.|
 |[Recording](meeting-recording.md)|Can allow or prevent town hall recording. |Recordings start automatically for town halls, but organizers can turn this off. |
 |[Recording expiration](meeting-recording.md)|Can manage whether recordings automatically expire. |By default, published recordings expire after 30 days. Organizers can extend the expiration date to 60 days. After the new date passes, they must reupload and republish the file to keep sharing.|
 |[RTMP-In](meetings-rtmp-in.md)|Can control whether organizers can use RTMP-In for their town halls. |Can produce their Teams events directly from an external hardware or software-based encoder to integrate different types of media into the event. To start streaming from the encoder, organizers can choose RTMP-In from their meeting options and then access the RTMP link and key. |

@@ -41,7 +41,7 @@ In addition, virtual machines must meet the minimum requirements listed here:
 
 |Requirement |Version|
 |:-----|:-----|
-|Windows|- Windows 10.0.19041 or higher </br>- Windows Server 2019 (10.0.17763) </br>- Windows Server 2022 (20348.2402) or higher</br>- Windows Server 2016 is NOT supported. Plan upgrades.</br>- WebView2 framework required in Windows Server and Windows 10/11 Multi-User environments|
+|Windows|- Windows 10.0.19041 or higher (excluding Windows 10 LTSC for Teams desktop app) </br>- Windows Server 2019 (10.0.17763) </br>- Windows Server 2022 (20348.2402) or higher</br>- Windows Server 2016 is NOT supported. Plan upgrades.</br>- WebView2 framework required in Windows Server and Windows 10/11 Multi-User environments|
 |Webview2|Update to the most current version. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise)|
 |Classic Teams app |Version 1.6.00.4472 or later to see the Try the new Teams toggle. Important: Classic Teams is only a requirement if you want users to be able to switch between classic Teams and new Teams. This prerequisite is optional if you only want your users to see the new Teams client. |
 |Settings |Turn on the **Show Notification Banners** setting in System > Notifications > Microsoft Teams to receive Teams Notifications. |
@@ -59,7 +59,7 @@ Azure Virtual Desktop provides AV optimization for Teams on VDI. To learn more o
 
 The following minimum versions are necessary to support the new Teams client:
 
-- Remote Desktop Client for Windows 1.2.1755
+- Remote Desktop Client for Windows 1.2.2606
 - Remote Desktop Client for Mac 10.7.7
 - WebRTC Redirector Service 1.1.2110.16001
 
@@ -83,7 +83,7 @@ If you want to create custom images that include optimizations for Microsoft Tea
 
 The following minimum versions are necessary to support the new Teams client:
 
-- Remote Desktop Client for Windows 1.2.1755
+- Remote Desktop Client for Windows 1.2.2606
 - Remote Desktop Client for Mac 10.7.7
 - Windows 365 app for Windows via the Microsoft Store
 
@@ -283,6 +283,55 @@ Name: disableAutoUpdate
 Type: DWORD
 Value: 1
 ```
+
+## New Teams auto-start
+
+The auto-start behavior of Teams is controlled by three components:
+
+1. By default, MSIX-based applications will not auto-start until there is a first launch, because the Windows OS doesn't auto-start packages in a provisioned state. An AppX registration is needed with user consent. After the first launch, users can go to **Settings** > **General** and fill the **Auto-start Teams** checkbox, or enable auto-start from the Windows Setting menu.
+
+2. If the "Auto-start Teams" checkbox is greyed out, it means a system-wide GPO is disabling this option for UWP apps:
+
+```Registry editor
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System] 
+"EnableFullTrustStartupTasks"=dword:00000000
+"EnableUwpStartupTasks"=dword:00000000
+"SupportFullTrustStartupTasks"=dword:00000000
+"SupportUwpStartupTasks"=dword:00000000
+```
+
+This registry setting causes the option to be unavailable in the operation systems under **Settings** > **Apps** > **Installed Apps**. In order to change this, create the regkeys with the values as shown below:
+
+```Registry editor
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"EnableFullTrustStartupTasks"=dword:00000002
+"EnableUwpStartupTasks"=dword:00000002
+"SupportFullTrustStartupTasks"=dword:00000001
+"SupportUwpStartupTasks"=dword:00000001
+```
+
+Restart the virtual machine to see the startup options active in the operative system’s settings menu.
+
+3. This registry key controls the Teams auto-start behavior, so you can enable or disable it programmatically.
+
+```Registry editor
+[HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\MSTeams_8wekyb3d8bbwe\TeamsTfwStartupTask]
+"State"=dword:00000002
+"UserEnabledStartupOnce"=dword:00000001
+```
+
+|State            |Number |Information                                                              |
+|-----------------|-------|-------------------------------------------------------------------------|
+|Disabled         |0      |The task is disabled.                                                    |
+|DisabledByUser   |1      |The task was disabled by the user. It can only be re-enabled by the user.|
+|EnabledByUser    |2      |The task is enabled.                                                     |
+|DisabledByPolicy |3      |The task is disabled by the administrator or group policy. Platforms that don't support startup taks also report DisabledByPolicy. |
+|EnabledByPolicy  |4      |The task is enabled by the administrator or group policy.                |
+
+You can learn more at [this link](/uwp/api/windows.applicationmodel.startuptaskstate#fields).
+
+> [!IMPORTANT]
+> If you're using non-persistent VDI, you must make sure the TeamsTfwStartupTask registry key is roamed. FSLogix ODFC containers won't roam this, so you must rely on your other profile management tools (VMWare DEM, AppSense, Citrix UPM) to persist this key.
 
 ## Profile and cache location for new Teams Client
 
@@ -610,7 +659,7 @@ The following features aren't supported in either classic Teams or new Teams.
 - Location Based Routing.
 - Media Bypass.
 - HID (Citrix only).
-- Share System Audio (Citrix and VMware).
+- Share System Audio (VMware only).
 - Broadcast and live event producer and presenter roles.
 - Cross cloud anonymous join in Government Clouds (GCC, GCC High and DoD).
 - **Record video clip** doesn't capture screen share.
