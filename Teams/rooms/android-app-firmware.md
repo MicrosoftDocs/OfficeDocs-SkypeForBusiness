@@ -124,7 +124,7 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 
 | Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
-| DTEN DCR200 Bar |`1.2.7.1` | N/A| `1449/1.0.96.2024032804` | `5.0.5484.0`| `1.0.0.202402202353.product`| July 2, 2024|
+| DTEN Bar |`1.2.7.1` | N/A| `1449/1.0.96.2024032804` | `5.0.5484.0`| `1.0.0.202402202353.product`| July 2, 2024|
 | DTEN D7X 75" |`1.5.8.3` | N/A| `1449/1.0.96.2024032804` | `5.0.5484.0`| `1.0.0.202402202353.product`| July 2, 2024|
 | DTEN D7X 55" |`1.5.8.3`   | N/A| `1449/1.0.96.2024032804` | `5.0.5484.0`| `1.0.0.202402202353.product`| July 2, 2024|
 | DTEN Mate Touch Console | `2.2.6.2` | N/A| `1449/1.0.96.2024032804` | `5.0.5484.0`| `1.0.0.202402202353.product`| July 2, 2024|
@@ -144,6 +144,9 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 
 | Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
+| EPOS EXPAND Vision 5T |`v2.1.24193.02`| N/A |  `1449/1.0.96.2024061103`| `5.0.6152.0` | `1.0.0.202402202353.product`| August 6, 2024|
+| EPOS EXPAND Control 3C |`v2.0.24185.02`| N/A |  `1449/1.0.96.2024061103`| `5.0.6152.0` | `1.0.0.202402202353.product`| August 6, 2024|
+| EPOS EXPAND Vision 3T |`v2.1.24193.02`| N/A |  `1449/1.0.96.2024032804`| `5.0.6152.0` | `1.0.0.202402202353.product`| August 6, 2024|
 | EPOS EXPAND Vision 5T |`v2.0.24113.02`| N/A |  `1449/1.0.96.2024032804`| `5.0.5484.0` | `1.0.0.202402202353.product`| February 20, 2024|
 | EPOS EXPAND Control 3C |`v2.0.24113.03`| N/A |  `1449/1.0.96.2024032804`| `5.0.5484.0` | `1.0.0.202402202353.product`| February 8, 2024|
 | EPOS EXPAND Vision 5T |`v1.9.23365.01`| N/A |  `1449/1.0.96.2023062301`| `5.0.5484.0` | `1.0.0.202310260109.product`| February 20, 2024|
@@ -350,6 +353,17 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 
 | Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date | Cloud |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|:----------------------------------|
+| Cisco Board Pro 55 | `11.17.1.11` | N/A | `1449/1.0.96.2024061103` | `5.0.6061.0` | `1.0.0.202402202353.product` | August 6, 2024| GCCH|
+| Cisco Board Pro 75 | `11.17.1.11` |  N/A | `1449/1.0.96.2024061103` | `5.0.6061.0` | `1.0.0.202402202353.product` | August 6, 2024| GCCH|
+| Cisco Room Bar | `11.17.1.11` |  N/A | `1449/1.0.96.2024061103` | `5.0.6061.0` | `1.0.0.202402202353.product` | August 6, 2024| GCCH|
+| Cisco Room Kit Pro | `11.17.1.11` | N/A | `1449/1.0.96.2024061103` | `5.0.6061.0` | `1.0.0.202402202353.product`| August 6, 2024| GCCH|
+| Cisco Desk Pro | `11.17.1.11` |  N/A | `1449/1.0.96.2024061103` | `5.0.6061.0` | `1.0.0.202402202353.product` | August 6, 2024| GCCH|
+| Cisco Room Bar Pro | `11.17.1.11` |  N/A | `1449/1.0.96.2024061103` | `5.0.6061.0` | `1.0.0.202402202353.product` | August 6, 2024| GCCH|
+| Cisco Room Kit EQ | `11.17.1.11` |  N/A | `1449/1.0.96.2024061103` | `5.0.6061.0` | `1.0.0.202402202353.product` | August 6, 2024| GCCH|
+| Cisco Navigator | `11.17.1.11` | N/A | `1449/1.0.96.2024061103` | `5.0.6061.0` | `1.0.0.202402202353.product` | August 6, 2024| GCCH|
+| Cisco Room Kit EQX | `11.17.1.11` | N/A | `1449/1.0.96.2024061103` | `5.0.6061.0` | `1.0.0.202402202353.product` | August 6, 2024| GCCH|
+| Cisco Board Pro G2 55 | `11.17.1.11` | N/A | `1449/1.0.96.2024061103` | `5.0.6061.0` | `1.0.0.202402202353.product` | August 6, 2024| GCCH|
+| Cisco Board Pro G2 75 | `11.17.1.11` | N/A | `1449/1.0.96.2024061103` | `5.0.6061.0` | `1.0.0.202402202353.product` | August 6, 2024| GCCH|
 | Cisco Board Pro 55 | `11.16.1.10` | N/A | `1449/1.0.96.2024042606` | `5.0.6061.0` | `1.0.0.202402202353.product` | June 26, 2024| GCCH|
 | Cisco Board Pro 75 | `11.16.1.10` |  N/A | `1449/1.0.96.2024042606` | `5.0.6061.0` | `1.0.0.202402202353.product` |  June 26, 2024| GCCH|
 | Cisco Room Bar | `11.16.1.10` |  N/A | `1449/1.0.96.2024042606` | `5.0.6061.0` | `1.0.0.202402202353.product` |  June 26, 2024| GCCH|

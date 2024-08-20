@@ -34,7 +34,7 @@ You can use Teams monitoring and alerting to do the following items:
 
 ## How to manage monitoring and alerting
 
-You must be a global admin in Microsoft 365 or a Teams service admin to configure alerting rules. See [Use Teams administrator roles to manage Teams](../using-admin-roles.md) to learn more about Teams admin roles and which reports each admin role can access.
+You must be a Teams service admin to configure alerting rules. See [Use Teams administrator roles to manage Teams](../using-admin-roles.md) to learn more about Teams admin roles and which reports each admin role can access.
 
 1. Sign in to the Teams admin center.
 2. From the left navigation, select **Notifications & alerts**.

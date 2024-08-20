@@ -30,7 +30,6 @@ A new analytics and reporting experience for Microsoft Teams is available in the
 
 To access the reports, you must be assigned one of the following roles:
 
-- Global administrator.
 - Teams or Skype for Business administrator.
 - Global reader (only tenant-level aggregate and no per-user or team data).
 
@@ -53,12 +52,14 @@ We're continually improving the Teams reporting experience and adding features a
 |[Teams user activity report](user-activity-report.md)  |Yes|Yes|Yes|Yes|Active internal and external (In shared channels) users<br/> Messages a user posted in a team chat<br/>Messages a user posted in a private chat<br/>  1:1 calls a user participated in<br/> Number of meetings user organized <br/>Number of meetings user participated in<br/>Meetings Audio, Video and Screen sharing time<br/>   Last activity date of a user  <br>Shared channel interactions of a user (new)</br>   |
 |[Teams device usage report](device-usage-report.md)   |Yes|Yes|Yes|Yes|  Windows users<br/>Mac users<br/>iOS users<br/>Android phone users     |
 |[Teams app usage report (new)](app-usage-report.md)   |Yes|Yes|No|No|  Total active users of the app<br/>Total active teams using the app<br/>Total apps installed (new)<br/>Total inactive apps <br/>Total 1P vs 3P vs LoB app usage (new)     |
+|[Teams Premium feature usage report](teams-premium-usage-report.md)   |Yes|No|No|No|  Total reached users<br/>Total meetings<br/>|
 |[Teams live event usage report](teams-live-event-usage-report.md)   |Yes|Yes|No|No|  Total views<br>Start time<br>Event status<br>Organizer<br>Presenter<br>Producer<br>Recording setting<br>Production type    |
 |[Teams PSTN blocked users report](pstn-blocked-users-report.md)   |Yes|Yes|No|No|  Display name<br>Phone number<br>Reason<br>Action type<br>Action date and time   |
 |[Teams PSTN minute pools report](pstn-minute-pools-report.md) |Yes|Yes|No|No|  Country or region<br>Capability (license) <br>Total minutes<br>Minutes used<br>Minutes available|
 |[Teams PSTN usage report - Calling Plans](pstn-usage-report.md#calling-plans)|Yes|Yes|No|No|  Time stamp<br>User name<br>Phone number<br>Call type <br>Called to<br>To country or region <br>Called from <br>From country or region<br>Charge<br>Currency<br>Duration<br>Domestic/International<br>Call ID<br>Number type<br>Country or region<br>Conference ID<br>Capability (license)|
 |[Teams PSTN usage report - Direct Routing](pstn-usage-report.md#direct-routing)  |Yes|Yes|Yes|Yes|  Time stamp<br>Display name<br>SIP address<br>Phone number <br>Call type<br>Called to<br>Start time<br>Invite time<br>Failure time<br>End time<br>Duration<br>Number type<br>Media bypass<br>SBC FQDN<br>Azure region<br>Event type<br>Final SIP code<br>Final Microsoft subcode<br>Final SIP phrase<br>Correlation ID  |
 |[Teams information protection license report](information-protection-license-report.md)  |Yes|Yes|No|No| <br>Whether users have valid licenses to push their messages via change notifications</br><br>Total number of change notification events triggered by a user<br><br>What apps are listening to org-wide change notification events<br>|
+|[Frontline usage report](/microsoft-365/frontline/frontline-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)|Yes|No|No|No| Total number of users on each team.<br>Number of active users on each team. <br>Last date on which the user signed in to Teams.|
 |[Teams Virtual Appointments usage report](/microsoft-365/frontline/virtual-appointments-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)|Yes|Yes|No|No| Number of virtual appointments<br>Number of Bookings appointments<br>Number of Teams Electronic Health Records (EHR)-integrated appointments<br>Average duration of an appointment<br>Average lobby wait time of attendees<br>Start time<br>Meeting ID<br>Lobby wait time<br>Duration<br>Status<br>Product type<br>Attendees<br>Department<br>SMS sent<br>Whether the appointment used an advanced Virtual Appointments capability|
 |[Teams Advanced Virtual Appointments activity report](/microsoft-365/frontline/advanced-virtual-appointments-activity-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) |Yes|Yes|No|No|Number of users using advanced Virtual Appointments capabilities<br>Number of users who use SMS text notifications<br>Number of users who conduct on-demand appointments<br>Number of users who use the queue|
 |[Teams EHR connector Virtual Appointments report](/microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) |Yes|Yes|No|No| Start time<br>Duration<br>Primary (name of meeting organizer)<br>Primary's email (email of meeting organizer)<br>Department<br>Attendants<br>Lobby wait time<br>Whether the appointment is within the allocation limit|
@@ -80,4 +81,4 @@ To make the identifiable information in usage reports anonymous, you have to be 
 > [!NOTE]
 > Enabling this setting will de-identify user, group, and site name information in the [Teams user activity report](user-activity-report.md), [Teams device usage report](device-usage-report.md), and [Teams usage report](teams-usage-report.md). Starting September 1, 2021, this setting is enabled by default for everyone as part of our ongoing commitment to help protect important information and enable companies to support their local privacy laws.
 >
->This setting also applies to Microsoft 365 usage reports in Microsoft 365 admin center, Microsoft Graph, and Power BI. This setting doesn't apply to the webinar and town hall usage reports.
+>This setting also applies to Microsoft 365 usage reports in Microsoft 365 admin center, Microsoft Graph, and Power BI.

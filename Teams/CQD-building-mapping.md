@@ -27,7 +27,7 @@ description: Learn how to create a building map that you can use to upload tenan
 
 # Create a building map for Call Quality Dashboard (CQD)
 
-In a Microsoft Teams or Skype for Business Online deployment, all clients are external. As a result, by default, all clients are reported as outside in Call Quality Dashboard (CQD), regardless of whether the client is connected on an internal corporate network.
+In a Microsoft Teams or Skype for Business deployment, all clients are external. As a result, by default, all clients are reported as outside in Call Quality Dashboard (CQD), regardless of whether the client is connected on an internal corporate network.
 
 When you work with CQD, you need to know the location of an endpoint and whether it was connected to a network you can manage or a network you can't manage, the assumption being that you can only improve networks you can manage. By uploading subnet and building information to CQD, you enable CQD to determine whether the endpoint was connected to an internal (managed) network or to an external (unmanaged) network. That's why it's important to create a building map for your organization and [upload it to CQD](CQD-upload-tenant-building-data.md).
 
