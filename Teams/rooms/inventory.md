@@ -47,9 +47,9 @@ To set up your organization with meeting room location information:
 
 ## Manage Your location directory and view meeting rooms
 
-Once the setup is complete, your organization's location directory will appear in the left pane. Meeting rooms are organized hierarchically by location details, such as country, state, city, campus, building, floor, and room. You can also view a comprehensive list of all meeting rooms within your organization.
+Once the setup is complete, your organization's location directory appears in the left pane. Meeting rooms are organized hierarchically by location details, such as country, state, city, campus, building, floor, and room. You can also view a comprehensive list of all meeting rooms within your organization.
 
-At the top, you'll find a summary that includes a breakdown of meeting rooms, including the number of unlicensed rooms. Additionally, there is a quick overview of meeting rooms categorized by type, such as Small, Medium, and Large.
+At the top, you find a summary that includes a breakdown of meeting rooms, including the number of unlicensed rooms. Additionally, there's a quick overview of meeting rooms categorized by type, such as Small, Medium, and Large.
 
 ## Search for specific meeting rooms
 
@@ -59,15 +59,15 @@ To filter your meeting rooms, use the search feature. You can search for rooms i
 
 You can view and manage your inventory of Teams Room systems and other assets from the inventory pane:
 
-- If a Microsoft Teams Room console is deployed in a meeting room, it will be automatically detected and added to the room's inventory.
-- To remove a device, select it and click the **Remove** button.
+- If a Microsoft Teams Room console is deployed in a meeting room, it is automatically detected and added to the room's inventory.
+- To remove a device, select it and select the **Remove** button.
 - To add a new device, select **Add** and choose from the available Teams Room system devices in your organization.
 
 Microsoft Teams Room systems, Surface Hubs, Collab Bars, Teams Displays, and Teams IP Phones are automatically detected. For all other hardware types, you can manually add them to the room inventory under the **Meeting Room assets** section. You can also manage additional meeting room assets, such as projectors, docking stations, routers, motion sensors, or tables, using the **Add, Edit, or Remove** functions in the **Manage Room assets** section.
 
 ## Update your meeting room information
 
-Select a room from your inventory and go to the **General** tab to update details such as address, building, and floor. The changes will be immediately reflected in your location directory. Updated location information will also be saved in Microsoft Entra.
+Select a room from your inventory and go to the **General** tab to update details such as address, building, and floor. The changes are immediately reflected in your location directory. Updated location information will also be saved in Microsoft Entra.
 
 ## Access control
 
