@@ -3,8 +3,8 @@ title: Release notes for Microsoft Teams Rooms
 ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
-ms.reviewer: sohailta
-ms.date: 07/30/2024
+ms.reviewer: henrikalim
+ms.date: 08/21/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
