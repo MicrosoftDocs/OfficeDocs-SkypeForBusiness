@@ -29,28 +29,27 @@ description: Learn which desk and conference phones are certified for Microsoft 
 
 # Microsoft Teams certified Android devices
 
-The Microsoft Teams Devices Certification Program ensures certified devices meet a high standard, with higher performance targets and quality metrics across the entire Teams experience (audio, video, user interface). Microsoft and OEM partners are actively working together to ensure devices meet all certification requirements, including security, audio and video quality, Teams experience, and accessibility.
+The Microsoft Teams Devices Certification Program ensures certified devices meet a high standard, with higher performance targets and quality metrics across the entire Teams experience (audio, video, user interface). Microsoft and Original Equipment Manufacturers (OEMs) partners are actively working together to ensure devices meet all certification requirements, including security, audio and video quality, Teams experience, and accessibility.
 
 > [!IMPORTANT]
 > The Microsoft Teams Devices Certification Program ensures certified devices meet specific requirements for hardware design and performance only. The certification program doesn't evaluate feature-level or cloud environment support.
 >
 > For information about what features are supported on Teams Rooms on Windows and Teams Rooms on Android, including cloud environment support, see [Teams Rooms on Windows and Android feature comparison](../rooms/teams-devices-feature-comparison.md).
 
-Certification programs are designed to ensure all certified devices run an Android version with the required feature set for Teams and Teams Admin Center. Certification end dates are based on the Android version running on the device when it enters into the certification program. Our OEM partners are working to extend the lifetime of the certification by upgrading the Android version and recertifying, or by releasing new models that are state-of-the-art. 
+Certification programs are designed to ensure all certified devices run an Android version with the required feature set for Teams and Teams Admin Center. Certification end dates are based on the Android version running on the device when it enters into the certification program. Microsoft OEM partners are working to extend the lifetime of the certification by upgrading the Android version and recertifying, or by releasing new models that are state-of-the-art. 
 
 Microsoft is committed to certifying devices on latest Android versions available for Teams devices as long as OEM partners and SoC manufacturers are able to meet all certification requirements in effect at the time device enters certification.
 
-After certification end date, Microsoft is committed to make efforts to support the most recent version of the Teams client on such devices for two years following the end of the certification period.
+After certification end date, Microsoft is committed to make efforts to support the most recent version of the Teams client on such devices for two (2) years following the end of the certification period.
 
 > [!NOTE]
-> Certification end dates are based on the Android version release date plus five years. Once device passes the certification requirements and OEM partners provide the firmware that enables the upgrade to a newer Android version, the certification end date will be extended to match the new Android OS version release date plus five years.
-> 
+> Certification end dates are based on the Android version release date plus five years. Once device passes the certification requirements and OEM partners provide the firmware that enables the upgrade to a newer Android version, the certification end date will be extended. 
 
->[!NOTE]
-> Certification end dates for Android 12 based devices has been extended by one year, from October 4, 2026 to August 15, 2027. Tables below reflects current certification end dates. 
+> [!NOTE]
+> Certification end dates for Android 12 based devices has been extended by one year, from October 4, 2026, to August 15, 2027. Information below reflects current certification end dates. 
+
 ## Certified Teams phones
-The following devices are Certified under the Microsoft Teams phones Certification Program:
-
+The following devices are Certified under the Microsoft Teams phones Certification Program.
 
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
@@ -85,13 +84,10 @@ For a list of supported app and firmware versions for Teams Rooms on Android sys
 
 ## Certified Teams Displays
 
-The following devices are Certified under the Microsoft Teams Displays Android Certification Program:
-
+The following devices are Certified under the Microsoft Teams Displays Android Certification Program.
 
 > [!IMPORTANT]
->
-> End of support for the Teams display app is September 3, 2025. Microsoft will make commercially reasonable best efforts to maintain compatibility with the most recent version of the Teams app provided to manufacturers for a period of two (2) years from this date. See the [Microsoft Product and Services lifecycle](/lifecycle/products/) for details.
-
+> End of certification for Teams display devices is September 3, 2025. Microsoft will make commercially reasonable best efforts to maintain compatibility with the most recent version of the Teams apps provided to manufacturers for a period of two (2) years from this date. See the [Microsoft Product and Services lifecycle](/lifecycle/products/) for details.
 
 | Device model | Firmware version | Current certification end date  | Android OS version |
 |:------------------------|:-----------------|:--------------|----------------------------------|
@@ -101,9 +97,7 @@ The following devices are Certified under the Microsoft Teams Displays Android C
 
 ## Certified Teams panels
 
-The following devices are Certified under the Microsoft Teams panels Certification Program:
-
-> The certification end date for Android 10 based devices has been extended to September 3, 2025
+The following devices are Certified under the Microsoft Teams panels Certification Program.
 
 | Device model| Firmware version | Current certification end date | Android OS version |
 |:------------------------|:-----------------|:--------------|-----------------------|
@@ -122,12 +116,11 @@ The following devices are Certified under the Microsoft Teams panels Certificati
 
 ## Product release information for Teams phones
 
+The following are the latest firmware versions released via Microsoft Teams Admin Center (TAC) for each device and OEM, as well as the Teams APK, Company Portal, and Admin Agent applications bundled into the firmware release. 
 
-For information about the latest Teams app releases, see [What's new in Microsoft Teams Devices](https://support.microsoft.com/en-us/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones).
-
+> [!NOTE]
+> More recent and supported Microsoft Teams phones applications may be available for Android devices. Release details and notes for the latest Microsoft Teams phones applications can be found at: [What's new in Microsoft Teams devices](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones)
 See [Microsoft Teams phones feature set](phones-for-teams.md) for information on features supported by these devices.
-
-The following are the latest firmware versions released via Microsoft Teams Admin Center. 
 
 ### Firmware versions released to the Public cloud
 
@@ -215,11 +208,12 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 
 ## Product release information for Teams displays
 
-For information about the latest Teams app releases, see [What's new in Microsoft Teams Devices](https://support.microsoft.com/en-us/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones)
+The following are the latest firmware versions released via Microsoft Teams Admin Center (TAC) for each device and OEM, as well as the Teams APK, Company Portal, and Admin Agent applications bundled into the firmware release. 
 
-For See [Microsoft Teams displays](teams-displays.md) for features supported by Teams displays devices. 
+> [!NOTE]
+> More recent and supported Microsoft Teams displays applications may be available for Android devices. Release details and notes for the latest Microsoft Teams displays applications can be found at [What's new in Microsoft Teams devices](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_displays)
+See [Microsoft Teams displays](teams-displays.md) for features supported by Teams displays devices. 
 
-The following are the latest firmware versions released via Microsoft Teams Admin Center. 
 
 ### Firmware versions released to the Public cloud
 
@@ -253,9 +247,11 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 
 ## Product release information for Teams Panels
 
-For information about the latest Teams app releases, see [What's new in Microsoft Teams Devices](https://support.microsoft.com/en-us/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones)
+The following are the latest firmware versions released via Microsoft Teams Admin Center (TAC) for each device and OEM, as well as the Teams APK, Company Portal, and Admin Agent applications bundled into the firmware release. 
 
-The following are the latest firmware versions released via Microsoft Teams Admin Center. 
+> [!NOTE]
+> More recent and supported Microsoft Teams panels applications may be available for Android devices. Release details and notes for the latest Microsoft Teams panels applications can be found at [What's new in Microsoft Teams devices](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_panels)
+See [Microsoft Teams panels](../devices/overview-teams-panels.md) for features supported by Teams panels devices. 
 
 ### Firmware versions released to the Public cloud
 
@@ -355,7 +351,7 @@ Microsoft and its Original Equipment Manufacturers (OEM) partners continually de
 
 We recognize that device certification expiration can impact your business. Our OEM partners have detailed End-of-Life policies to assist and direct you towards adopting newer technologies. For the most current information on Teams certified devices referenced here, please consult our OEM partners' websites.
 
-Following a certification expiration, Microsoft is committed to supporting the latest version of the Teams client on certified devices for a span of two years after the certification period concludes. While Microsoft will make every effort to maintain support as described here, it retains the discretion to modify its support policy if necessary. Should any changes occur, they will be communicated through established channels directed at customers.
+Following a certification expiration, Microsoft is committed to supporting the latest version of the Teams client on certified devices for a span of two (2) years after the certification period concludes. While Microsoft will make every effort to maintain support as described here, it retains the discretion to modify its support policy if necessary. Should any changes occur, they will be communicated through the established customer facing communication channels.
 
 | Device Category | Device Model | Android OS Version | Certification end date |
 |:----------------|:-------------------|:----------------------------|:--------------------------|
@@ -364,6 +360,8 @@ Following a certification expiration, Microsoft is committed to supporting the l
 |Teams phones|Yealink T56/T56A|7|October 4, 2021|
 |Teams phones|Yealink T58/T57A|7|October 4, 2021|
 |Teams phones - conference | Yealink CP960| 7 | October 4, 2021 |
+|Teams displays| Lenovo ThinkSmart View | 8.1 | December 31, 2021|
+|Teams phones | Lenovo ThinkSmart View | 8.1 | December 31, 2021 |
 |Teams phones | Yealink MP52 | 9 | August 5, 2023 |
 |Teams phones - video | Yealink VP59 | 9| August 5, 2023|
 |Teams phones | AudioCodes C448HD | 9| August 5, 2023 |
