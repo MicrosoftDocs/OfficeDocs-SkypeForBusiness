@@ -1463,6 +1463,8 @@ items:
             href: rooms/autopilot-autologin.md
         - name: Monitoring and maintenance
           items:
+          - name: Managing your inventory
+            href: rooms/inventory.md
           - name: Monitoring and maintaining Teams Rooms
             href: rooms/managed-meeting-rooms-portal.md
           - name: Signal settings
