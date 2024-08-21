@@ -759,6 +759,17 @@ Introduced in this update:
 - **Custom backgrounds<sup>1</sup>**:::image type="icon" source="../media/mtr-pro-icon.png":::. IT admins can upload custom background images on the Teams admin center to reinforce their company brand on their Teams Rooms on Android devices. The main room display, extended room display, and touch console can each have their own specific background image. PNG, JPG, and JPEG formats are supported. This feature is only available with the Teams Rooms Pro license. [Learn more](/microsoftteams/rooms/custom-backgrounds-android).
 - **Join Zoom meetings with an ID and passcode**. Users can now join Zoom meetings with an ID and a passcode on Teams Rooms on Android. Rooms must be configured to enable Direct Guest Join meetings. [Learn more](/microsoftteams/rooms/third-party-join).
 
+Resolved issues:
+
+- Joining meetings on Cisco devices results in meeting drops and returning to the home screen.
+- Built-in Teams backgrounds are not downloading successfully.
+- Tapping Meet now on Logi TAP devices shows a notification that the app does not support launching on secondary displays.
+- When joining Direct Guest Join meetings while the HDMI ingest cable is connected, the HDMI ingest feed is shown as the room video instead of the local room camera feed.
+- Volume is increased and decreased by increments of 30 instead of 10 on Logi devices.
+- Participant video gets re-framed from fit-to-frame to fill-frame intermittently on Cisco devices.
+- Various meeting and call reliability issues.
+
+
 <sup>1</sup>Neat devices are excluded from this rollout of custom backgrounds due to an issue that is unique to Neat devices. Once the issue is resolved, custom backgrounds will be enabled for Neat devices in a later release. 
 
 
