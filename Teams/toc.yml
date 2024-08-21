@@ -677,7 +677,7 @@ items:
               href: presenter-role-reduction.md
             - name: Manage VOD publishing permissions for webinars and town halls 
               href: manage-vod-publishing.md
-            - name: Manage email communications for webinars and town halls
+            - name: Manage email communications for events
               href: manage-email-communications.md
             - name: Manage the registration form for webinars
               href: manage-registration-form-webinars.md
@@ -1127,6 +1127,8 @@ items:
                   href: direct-routing-media-optimization.md
                 - name: Configure Local Media Optimization
                   href: direct-routing-media-optimization-configure.md
+            - name: Direct Routing Survivable Branch Appliance
+              href: direct-routing-survivable-branch-appliance.md
             - name: Monitor Direct Routing
               items: 
                 - name: Overview
@@ -1149,8 +1151,6 @@ items:
                       href: direct-routing-protocols-SIP.md
                     - name: Media protocols
                       href: direct-routing-protocols-media.md
-                - name: Direct Routing Survivable Branch Appliance
-                  href: direct-routing-survivable-branch-appliance.md
 
     - name: Shared Calling - A simpler solution
       items:
@@ -1711,11 +1711,7 @@ items:
         - name: Learn about students with Education Insights
           items:           
             - name: Get started with Insights
-              href: class-insights.md
-            - name: Sync SIS data with Insights
-              href: education-insights-sis-data-sync.md
-            - name: Manage user access to Insights
-              href: education-insights-manage-access.md           
+              href: class-insights.md     
             - name: Set up Reflect for emotional insights
               href: reflect.md
             - name: Understand Insights for Reading Progress
