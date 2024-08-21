@@ -88,6 +88,7 @@ The following devices are Certified under the Microsoft Teams Displays Android C
 
 > [!IMPORTANT]
 > End of certification for Teams display devices is September 3, 2025. Microsoft will make commercially reasonable best efforts to maintain compatibility with the most recent version of the Teams apps provided to manufacturers for a period of two (2) years from this date. See the [Microsoft Product and Services lifecycle](/lifecycle/products/) for details.
+
 | Device model | Firmware version | Current certification end date  | Android OS version |
 |:------------------------|:-----------------|:--------------|----------------------------------|
 | Lenovo ThinkSmart View Plus | `10.1.t.2.30` | September 3, 2025 | 10 |
