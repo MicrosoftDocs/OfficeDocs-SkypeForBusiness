@@ -34,8 +34,8 @@ The SIP Gateway resources mentioned in this article can’t be directly excluded
 
 To add or deactivate custom security attributes definitions, you must have:
 
-- [Attribute Assignment Administrator](entra/identity/role-based-access-control/permissions-reference#attribute-assignment-administrator)
-- [Attribute Definition Administrator](/entra/identity/role-based-access-control/permissions-reference)
+- [Attribute Assignment Administrator](/entra/identity/role-based-access-control/permissions-reference#attribute-assignment-administrator)
+- [Attribute Definition Administrator](/entra/identity/role-based-access-control/permissions-reference#attribute-definition-reader)
 - Microsoft Graph module, when using [Microsoft Graph PowerShell](/powershell/microsoftgraph/installation)
 
 > [!IMPORTANT]
