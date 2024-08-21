@@ -22,7 +22,7 @@ ms.localizationpriority: medium
 description: Learn how to manage your Teams Rooms devices in the Teams Room Pro Management portal.
 ai-usage:  
 - ai-assisted
-- ms.custom: QuickDraft
+ms.custom: QuickDraft
 ---
 
 # Manage your device and console inventory
