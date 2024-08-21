@@ -8,7 +8,7 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: admin
-ms.date: 03/25/2024
+ms.date: 07/31/2024
 ms.collection: 
 - M365-voice
 - m365initiative-voice
@@ -119,9 +119,12 @@ Notes
 
 Reporting values:
 
-- *None* - no access to any metrics.
-- *AuthorizedOnly* - the authorized user only sees metrics for the auto attendants and call queues (and associated agents) they're authorized for.
-- *All* - the authorized user sees metrics for all auto attendants and call queues (and associated agents) configured in the tenant.
+- **None** - no access to any metrics.
+- **AuthorizedOnly** - the authorized user only sees metrics for the auto attendants and call queues (and associated agents) they're authorized for.
+- **All** - the authorized user sees metrics for all auto attendants and call queues (and associated agents) configured in the tenant.
+
+> [!IMPORTANT]
+> The **All** value for real-time auto attendant metrics is no longer supported.
 
 Notes
 
@@ -173,9 +176,12 @@ Notes
 
 Reporting values:
 
-- *None* - no access to any metrics.
-- *AuthorizedOnly* - the authorized user only sees metrics for the auto attendants and call queues (and associated agents) they're authorized for.
-- *All* - the authorized user sees metrics for all auto attendants and call queues (and associated agents) configured in the tenant.
+- **None** - no access to any metrics.
+- **AuthorizedOnly** - the authorized user only sees metrics for the auto attendants and call queues (and associated agents) they're authorized for.
+- **All** - the authorized user sees metrics for all auto attendants and call queues (and associated agents) configured in the tenant.
+
+> [!IMPORTANT]
+> The **All** value for real-time call queue and real-time agent metrics is no longer supported.
 
 Notes
 

@@ -26,8 +26,6 @@ appliesto:
 
 # Get started with team templates in the Teams admin center
 
-**The ability to create custom templates is not yet supported for EDU customers.**
-
 > [!NOTE]
 > - Private and shared channels are currently not supported in team templates. Private and shared channel creation is not included in  template definitions.
 >

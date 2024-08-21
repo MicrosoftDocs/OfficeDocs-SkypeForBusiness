@@ -259,7 +259,7 @@ Support for notifications is enabled using the Teams client experiences. The exp
 - PSTN callers (audio notice in Teams user's default language)
 
 > [!NOTE]
-> 1. When you assign a compliance recording policy to your users, they can record calls from CQs, but this setup isn't supported. Depending on the call queue routing method selected, there might be issues with multiple recording announcements.
+> 1. Inbound call queue (CQ) calls are recorded for users who have an assigned compliance recording (CR) policy. Some routing methods might involve usability concerns with multiple announcements. We recommend appropriately configuring your call queues to align with your organization's intended user experience.
 > 2. Compliance recording doesn't work if users have an Internet outage, and make or receive PSTN calls using an SBA.
 
 ## Compliance recording for Teams certification programs

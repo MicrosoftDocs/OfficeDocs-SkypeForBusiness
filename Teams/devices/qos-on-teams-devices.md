@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: mattslomka
-ms.date: 09/01/2023
+ms.date: 08/08/2024
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
@@ -28,13 +28,13 @@ Deploying one or many Microsoft Teams Rooms devices requires planning. One of th
 
 This article explains:
 
-1. [How much bandwidth a Teams Rooms device will consume?](#how-much-bandwidth-will-a-microsoft-teams-rooms-device-use)
+1. [How much bandwidth does a Microsoft Teams Rooms device use?](#how-much-bandwidth-does-a-microsoft-teams-rooms-device-use)
 1. [How to control that bandwidth usage?](#how-do-i-control-microsoft-teams-rooms-bandwidth-usage)
 1. [How to ensure your devices are optimized with the right quality of service (QoS) configuration to align to your organizations requirements?](#quality-of-service-qos-with-microsoft-teams-rooms)
 
-Wired network connectivity is recommended for Microsoft Teams Rooms devices. If wireless network connectivity is the only option, see best practice guidance [here](../rooms/rooms-plan.md).
+Wired network connectivity is recommended for Microsoft Teams Rooms devices. If wireless network connectivity is the only option, see best practice guidance [here](../rooms/rooms-plan.md#wireless-network-considerations).
 
-## How much bandwidth will a Microsoft Teams Rooms device use?
+## How much bandwidth does a Microsoft Teams Rooms device use?
 
 Microsoft Teams Rooms is designed to give the best audio, video, and content-sharing experience regardless of your network conditions. That said, when bandwidth is insufficient, Teams prioritizes traffic in the following order: audio, content sharing, lastly participant video.
 
@@ -51,13 +51,13 @@ The following table provides rough estimates of bandwidth utilized for the vario
 |**Total**     |  **4128/6128**       |**10256/6256**         |
 
 
-Teams Rooms can support up to 18 individual incoming video streams, up to five outbound video streams, and content sharing either inbound or outbound.  The number of streams consumed by the Teams Rooms device can have a large impact on the downstream bandwidth consumed, and the capabilities of the connected Teams Rooms camera can impact the outbound bandwidth usage. Bandwidth consumption can also vary with the resolution of the cameras that the remote participants have connected to the meeting, along with the number of participants with video enabled.
+Teams Rooms can support up to 18 individual incoming video streams, up to five outbound video streams, and content sharing either inbound or outbound. The number of streams consumed by the Teams Rooms device can have a large impact on the downstream bandwidth consumed, and the capabilities of the connected Teams Rooms camera can impact the outbound bandwidth usage. Bandwidth consumption can also vary with the number and resolution of the videos from remote participants connected to the meeting.
 
 ## How do I control Microsoft Teams Rooms bandwidth usage?
 
-By default, Teams Rooms don't have a bandwidth-limiting policy. If you wish to implement one, we recommend allocating 10 Mbps to each Teams Rooms resource account. This implementation can be accomplished by assigning a Teams meeting policy with a media bitrate limit configured. When setting the meeting policy at 10 Mbps, Teams Rooms will still only use the bandwidth required for the meeting (typically 3-4 Mbps), and it will dynamically adjust if its network connection isn't able to sustain 10 Mbps.
+By default, Teams Rooms don't have a bandwidth-limiting policy. If you wish to implement one, we recommend allocating 10 Mbps to each Teams Rooms resource account. This implementation can be accomplished by assigning a Teams meeting policy with a media bitrate limit configured. When setting the meeting policy at 10 Mbps, Teams Rooms still only use the bandwidth required for the meeting (typically 3-4 Mbps), and dynamically adjusts if its network connection isn't able to sustain 10 Mbps.
 
-For information on how to configure a Teams meeting policy, see [Meeting policy settings for audio and video](../meeting-policies-audio-and-video.md). You’ll want to create a custom policy and assign it to all Microsoft Teams Rooms resource accounts, with the limit for media bitrate configured for 10,000 kbps.
+For information on how to configure a Teams meeting policy, see [Meeting policy settings for audio and video](../meeting-policies-audio-and-video.md). You want to create a custom policy and assign it to all Microsoft Teams Rooms resource accounts, with the limit for media bitrate configured for 10,000 kbps.
 
 ## Quality of Service (QoS) with Microsoft Teams Rooms
 
@@ -90,17 +90,17 @@ For more information on Teams Media and implementing QoS, see [Implement Quality
 
 ### QoS with Microsoft Teams Rooms on Windows devices
 
-For Teams Rooms on Windows devices, you must configure Windows to add DSCP markings to the Teams Rooms application traffic. We recommend using Microsoft Intune to apply a Network QoS policy to Teams Rooms devices. You can use the Intune `NetworkQoSPolicy` CSP to apply the configuration based on the port ranges and DSCP value shown in [Quality of Service (QoS) with Microsoft Teams Rooms](#quality-of-service-qos-with-microsoft-teams-rooms).
+For Teams Rooms on Windows devices, you must configure Windows to add DSCP markings to the Teams Rooms application traffic. We recommend using Microsoft Intune to apply a Network QoS policy to Teams Rooms devices. You can use the Intune `NetworkQoSPolicy` configuration service provider (CSP) to apply the configuration based on the port ranges and DSCP value shown in [Quality of Service (QoS) with Microsoft Teams Rooms](#quality-of-service-qos-with-microsoft-teams-rooms).
 
 For more information on this Intune CSP, see [NetworkQoSPolicy CSP](/windows/client-management/mdm/networkqospolicy-csp).
 
-If your Teams Rooms devices are joined to Active Directory, you can use Group Policy to apply the markings. You can follow the same instructions that have been provided for the Teams Desktop application, but don't specify the application name in the configuration; only specify the port range and the DSCP value in the configuration.
+If your Teams Rooms devices are joined to Active Directory, you can use Group Policy to apply the markings. Follow the instructions for the Teams Desktop application, but don't specify the application name in the configuration; only specify the port range and the DSCP value in the configuration.
 
 For more information, see [Implement Quality of Service (QoS) in Microsoft Teams clients](../QoS-in-Teams-clients.md).
 
 ### QoS with Microsoft Teams Rooms on Android devices
 
-For Teams Rooms on Android devices, you'll need to configure your Microsoft Teams tenant to insert QoS markings. Teams Rooms on Android devices honor this policy and apply the markings defined earlier in [Quality of Service (QoS) with Microsoft Teams Rooms](#quality-of-service-qos-with-microsoft-teams-rooms) with one exception, Application/screen sharing will use a DSCP value of 34 (AF41) aligned to video traffic.
+For Teams Rooms on Android devices, you need to configure your Microsoft Teams tenant to insert QoS markings. Teams Rooms on Android devices honor this policy and apply the markings defined earlier in [Quality of Service (QoS) with Microsoft Teams Rooms](#quality-of-service-qos-with-microsoft-teams-rooms) with one exception, Application/screen sharing uses a DSCP value of 34 (AF41) aligned to video traffic.
 
 For instructions on how to configure your tenant to insert QoS markings, see [Teams settings and policies reference](../settings-policies-reference.md).
 
@@ -108,5 +108,5 @@ For instructions on how to configure your tenant to insert QoS markings, see [Te
 
 - [Implement Quality of Service (QoS) in Microsoft Teams](../QoS-in-Teams.md)
 - [Implement Quality of Service (QoS) in Microsoft Teams clients](../QoS-in-Teams-clients.md)
-- [NetworkQoSPolicy CSP](/windows/client-management/mdm/networkqospolicy-csp)
+- [Configure the NetworkQoSPolicy CSP](/windows/client-management/mdm/networkqospolicy-csp)
 - [Prepare your organization's network for Microsoft Teams](../prepare-network.md)

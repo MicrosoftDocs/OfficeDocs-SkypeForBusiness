@@ -46,13 +46,17 @@ For meetings in which an organizer appoints a **delegate** who has permission to
 
 For **Channel meetings**, the recording is stored in the Teams site documentation library in a folder named **Recordings**. For example: *Teams name - Channel name*/**Documents**/**Recordings**.
 
-### Shared accounts and Microsoft Teams Rooms meet now meetings
+### Shared accounts and Microsoft Teams Rooms meetings
 
-For **shared accounts** and **Microsoft Teams Rooms meet now meetings**, if the organizer has a OneDrive account, the recording gets uploaded to the organizer’s OneDrive. If the recording upload fails because the organizer’s OneDrive space is full, or the organizer, co-organizers, and recording initiator don’t have OneDrive accounts, the recording is temporarily stored to async media storage.
+For **shared accounts** and **Microsoft Teams Rooms meetings**, if the organizer has a OneDrive account, the recording gets uploaded to the organizer’s OneDrive. If the recording upload fails because the organizer’s OneDrive space is full, or the organizer, co-organizers, and recording initiator don’t have OneDrive accounts, the recording is temporarily stored to async media storage.
 
 To understand what happens if an organizer doesn't have a OneDrive account, see the **Recording storage for organizers without OneDrive accounts** section in this article.
 
-To learn more about Microsoft Teams Rooms meet now meetings, see [Microsoft Teams Rooms (Windows)](https://support.microsoft.com/office/microsoft-teams-rooms-windows-e667f40e-5aab-40c1-bd68-611fe0002ba2). For details on shared accounts, see [About shared mailboxes - Microsoft 365 admin](/microsoft-365/admin/email/about-shared-mailboxes).  
+To learn more about Microsoft Teams Rooms meetings, see [Microsoft Teams Rooms (Windows)](https://support.microsoft.com/office/microsoft-teams-rooms-windows-e667f40e-5aab-40c1-bd68-611fe0002ba2). For details on shared accounts, see [About shared mailboxes - Microsoft 365 admin](/microsoft-365/admin/email/about-shared-mailboxes).
+
+### Automatically recorded meetings
+
+For meetings that are automatically recorded, the recording is temporarily saved to async media storage.
 
 ### Videos
 
@@ -66,9 +70,9 @@ To learn how to apply retention labels to Teams meeting recordings, see [How to 
 
 If the organizer doesn’t have a OneDrive account, here's what happens, in order, to the meeting recording:
   
-  1. The recording is saved to the co-organizers' OneDrive. If there are multiple co-organizers, the recording is saved to the co-organizers' OneDrive, according to the first letter of each co-organizer's user ID. To see the user IDs for users in your org, see [Get-TeamUser](/powershell/module/teams/get-teamuser).
-  2. If none of the co-organizers have OneDrive accounts, the recording is saved to the OneDrive account of the user who initiated the recording. However, for meetings that are automatically recorded, the recording is temporarily saved to async media storage.
-  3. If the user who initiated the recording doesn’t have a OneDrive, the recording gets temporarily stored to async media storage.
+1. The recording is saved to the co-organizer's OneDrive. When there are multiple co-organizers, the recording saves to the co-organizers' OneDrive, ordered by the first number in each co-organizer's Entra object ID. The meeting or event organizer has permissions to edit and share the recording. To find the object IDs for users in your org, see [Locate important IDs for a user](/partner-center/account-settings/find-ids-and-domain-names#find-the-user-object-id).
+2. If none of the co-organizers have OneDrive accounts, the recording is saved to the OneDrive account of the user who initiated the recording.
+3. If the user who initiated the recording doesn’t have a OneDrive, the recording gets temporarily stored to async media storage.
 
 ### Async media storage
 

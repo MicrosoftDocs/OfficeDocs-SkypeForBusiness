@@ -26,11 +26,17 @@ description: Find lists of certified systems and peripherals for use with Micros
 
 # Teams Rooms certified systems and peripherals
 
+***
+- [Teams Rooms Android certification program](/microsoftteams/rooms/certified-hardware#teams-rooms-for-android-certification-program)
+- [Teams Rooms for Windows](/microsoftteams/rooms/certified-hardware?tabs=Windows#tabpanel_1_Windows)
+- [Teams Rooms for Android](/microsoftteams/rooms/certified-hardware?tabs=Android#tabpanel_1_Android)
+- [Certified Room peripherals](/microsoftteams/rooms/certified-hardware?tabs=Devices#tabpanel_1_Devices)
+***
+
 The Microsoft Teams Devices Certification Program ensures certified devices meet a high standard, with higher performance targets and quality metrics across the entire Teams experience (audio, video, user interface). Microsoft and OEM partners are actively working together to ensure devices meet all certification requirements, including security, audio and video quality, Teams experience, and accessibility.
 
 >[!Important]
 >The Microsoft Teams Devices Certification Program ensures certified devices meet specific requirements for hardware design and performance only. The certification program doesn't evaluate feature-level or cloud environment support.
-
 
 Certified Microsoft Teams Rooms systems are available on both Windows and Android operating systems. Whether you should choose a Teams Rooms system on Windows or Android depends on your specific needs and budget. Select the **Teams Rooms for Windows** and **Teams Rooms for Android** tabs for a complete list of certified systems and links to their respective product sites. For additional certification information specific to **Teams Rooms for Android** see details below.  
 
@@ -132,6 +138,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Windows C
 | Poly GC8 Console with Lenovo Thinksmart Core | Core i5 | 8 GB | 128 GB |
 | Poly GC8 Console with Dell Optiplex 7080 | Core i5 | 8 GB | 128 GB |
 | [Poly GC8 Console with HP 800 G9 Compute -MTR-W](https://www.poly.com/us/en/solutions/platform/microsoft/video/teams-rooms-windows) | Core i7 | 16 GB | 256 GB |
+| [ViewSonic TeamJoin TRS10](https://www.viewsonic.com/global/products/commercial-display/TRS10) bundle (Compute: [MPC310-W31-TU](https://www.viewsonic.com/global/products/commercial-display/MPC310-W31-TU) + Console: [MRC1010-TN](https://www.viewsonic.com/global/products/commercial-display/MRC1010-TN)) | Core i3 | 8 GB | 128 GB |
 | [Yealink Core2 Kit](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvc640) | Core i5 | 8 GB | 128 GB |
 | [Yealink MVC300 with Intel NUC](https://www.yealink.com/products_154.html) | Core i5 | 8 GB | 128 GB |
 | [Yealink MVC500 with Intel NUC](https://www.yealink.com/products_126.html) | Core i5 | 8 GB | 128 GB |
@@ -150,6 +157,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Windows C
 | Yealink MVC320 | Core i5 | 8 GB | 128 GB |
 | Yealink MVC340 | Core i5 | 8 GB | 128 GB |
 | [Yealink MCore 3 Kit](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvc640) | Core i5 | 8 GB | 128 GB |
+| Yealink MVC S40 | Core i5 | 8 GB | 128 GB |
 | [Yealink MVC S60](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvcs60) | Core i5 | 8 GB | 128 GB |
 | [Yealink MVC S90](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvcs90) | Core i5 | 8 GB | 128 GB |
 | [Yealink MVC 960](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvc960) | Core i5 | 8 GB | 128 GB |
@@ -225,6 +233,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 |:-|:-|:-|:-|:-|:-|
 | [Aver VC520 Pro Camera + Speakerphone](https://www.averusa.com/products/conference-camera/vc520pro) | 1004.35 |  |  |
 | [Aver VC520 PRO2 Conferencing System](https://www.averusa.com/products/conference-camera/vc520pro2) | 00.0.7200.79 |  |  |
+| [Aver VC520 PRO3 Conferencing System](https://www.averusa.com/products/conference-camera/VC520pro3) | 0.0.9803.08 |  |  |
 | Aver VB342+ Camera Soundbar | Soundbar: 0.0.0000.97 |  |  |
 | [Aver VB342 pro Video bar](https://www.averusa.com/products/video-collaboration-bar/vb342pro) | 0.0.7800.61 |  |  |
 | [Aver VB350 Video bar](https://communication.aver.com/model/vb350) | 0.0.8200.91 |  |  |
@@ -277,6 +286,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Logitech 930e](https://www.logitech.com/product/c930e-webcam) | 8.0.914 | &#x2714; |  |
 | [Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam) | 1.2.4 |  |  |
 | [Logitech Rally Bar](https://www.logitech.com/products/video-conferencing/room-solutions/rallybar.960-001308.html) | 10.3.82 |  |  |
+| [Logitech Rally Bar](https://www.logitech.com/products/video-conferencing/room-solutions/rallybar.html) with [Mic Pods](https://www.logitech.com/products/video-conferencing/accessories/mic-pod-for-rally.html) | Logi CollabOS: 1.10.425 <br/> Mic pods: 2.1.4 |  |  |
 | [Logitech Sight](https://www.logitech.com/products/video-conferencing/room-solutions/sight.960-001510.html) + [Rally Bar](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/rallybar.960-001308.html) |  Sight: <br/> Logi CollabOS: 1.10.208 |  | &#x2714; |
 | [Logitech Rally Bar Mini](https://www.logitech.com/products/video-conferencing/room-solutions/rallybarmini.960-001336.html) | 10.5.880 |  |  |
 | [Logitech Sight](https://www.logitech.com/products/video-conferencing/room-solutions/sight.960-001510.html) + [Rally Bar Mini](https://www.logitech.com/products/video-conferencing/room-solutions/rallybarmini.960-001336.html) | Sight: <br/> Logi CollabOS: 1.10.208 |  | &#x2714; |
@@ -334,6 +344,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | Yealink MSpeech | 136.410.0.19 |  |  |  | &#x2714; |
 | Shure Microflex Ecosystem<sup>1</sup>:  [MXA910 Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910?variant=MXA910AL-60CM) or [MXA920 Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa920?variant=MXA920W-S) or [MXA901 Conferencing Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa901?variant=MXA901W-R) or [MXA902 Integrated Conferencing Ceiling Array](https://www.shure.com/products/microphones/mxa902?variant=MXA902W-S) or [MXA710 Linear Array Microphone](https://www.shure.com/products/microphones/mxa710?variant=MXA710AL-2FT%2520) or [MXA310 Table Array Microphone](https://www.shure.com/products/microphones/mxa310?variant=MXA310AL) + <br/>Shure [IntelliMix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300?variant=P300-IMX) or [ANIUSB-MATRIX Network Interface](https://www.shure.com/products/mixers/aniusb-matrix?variant=ANIUSB-MATRIX) + <br/>Shure [MXN5W-C Ceiling Speaker](https://www.shure.com/products/loudspeakers/mxn5?variant=MXN5W-C) | MXA910: FW 4.1, MXA920: FW 1.1.56, MXA901: FW 6.0.15.0, MXA902: FW 5.0.115, MXA710: FW 1.2.0, MXA310: FW 4.1, <br/> P300: FW 4.1, ANIUSB-MATRIX: FW 4.7.21, <br/> MXN5W-C: FW 1.0.4 |  |  |
 |Shure Microflex Ecosystem<sup>1</sup>: [MXA910 Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910?variant=MXA910AL-60CM) or [MXA920 Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa920?variant=MXA920W-S) or [MXA901 Conferencing Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa901?variant=MXA901W-R) or [MXA902 Integrated Conferencing Ceiling Array](https://www.shure.com/products/microphones/mxa902?variant=MXA902W-S) or [MXA710 Linear Array Microphone](https://www.shure.com/products/microphones/mxa710?variant=MXA710AL-2FT%2520) or [MXA310 Table Array Microphone](https://www.shure.com/products/microphones/mxa310?variant=MXA310AL) + <br/>[Shure IntelliMix Room Software DSP](https://www.shure.com/products/software/intellimix_room) on Crestron UC-C100-T with :::no-loc text="ASUSTeK"::: Computer INC 9934 Compute or Dell OptiPlex7080XE or on Lenovo ThinkSmart Core + <br/>[Shure MXN5W-C Ceiling Speaker](https://www.shure.com/products/loudspeakers/mxn5?variant=MXN5W-C) | MXA910: FW 4.1, MXA920: FW 1.1.56, MXA901: FW 6.0.15.0, MXA902: FW 5.0.115, MXA710: FW 1.2.0, MXA310: FW 4.1, <br/>MXN5W-C: FW 1.0.4 |  |  |
+| Shure MXW6X/C Cardioid Boundary Transmitter + <br/>Shure MXWAPXD2 Access Point Transceiver + <br/>Shure MXN5W-C Ceiling Speaker | MXW6X/C Transmitter:  1.1.0.236 <br/>MXWAPXD2: 1.1.0.236 <br/>MXN5W-C: 1.5.21.0 |  |  |
 | [Sennheiser TeamConnect Intelligent Speaker/TC ISP (T-Rock)](https://en-us.sennheiser.com/tcisp) | 1.0.6 |  |  |  | &#x2714; |
 | [Sennheiser TC Bar M](https://www.sennheiser.com/tcbar-medium) | 0.9.17 |  |  |
 | [Sennheiser TC Bar S](https://www.sennheiser.com/tcbar-small) | 0.9.17 |  |  |
