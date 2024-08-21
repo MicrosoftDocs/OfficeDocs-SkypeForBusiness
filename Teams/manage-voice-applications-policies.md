@@ -99,6 +99,8 @@ Voice applications policies control what configuration changes and actions an au
 |Business hours greeting|This setting allows authorized users to change the Business Hours Greeting.|AllowAutoAttendantBusinessHoursGreetingChange|No|
 |After hours greeting|This setting allows authorized users to change the After Hours Greeting.|AllowAutoAttendantAfterHoursGreetingChange|No|
 |Holiday greeting|This setting allows authorized users to change the Holiday Greeting.|AllowAutoAttendantHolidayGreetingChange|No|
+|Time zone|This setting allows authorized users to change the time zone used for the business hours schedule|AllowAutoAttendantTimeZoneChange|Yes,<br>See note 2|
+|Language|This setting allows authorized users to change the language used for Text-To-Speech or system prompts|AllowAutoAttendantLanguageChange|Yes,<br>See note 2|
 |Business hours|This setting allows authorized users to change the auto attendant business hours schedule.|AllowAutoAttendantBusinessHoursChange|Yes, Public Preview|
 |Business hours call routing|This setting allows authorized users to change the auto attendant business hours call flow.|AllowAutoAttendantBusinessHoursRoutingChange|Yes, Public Preview|
 |After hours call routing|This setting allows authorized users to change the auto attendant after hours call flow.|AllowAutoAttendantAfterHoursRoutingChange|Yes, Public Preview|
@@ -108,6 +110,7 @@ Voice applications policies control what configuration changes and actions an au
 Notes
 
 1. The user requires a Teams Premium license and Queues app to access this functionality.
+1. This option is not currently available in Queues app.
    
 ### Auto attendant - Reporting
 
@@ -144,6 +147,7 @@ Notes
 |Shared voicemail greeting for call overflow|This setting allows authorized users to change the Overflow Shared Voicemail Greeting.|AllowCallQueueOverflowSharedVoicemailGreetingChange|No|
 |Shared voicemail greeting for call timeout|This setting allows authorized users to change the Timeout Shared Voicemail Greeting.|AllowCallQueueTimeoutSharedVoicemailGreetingChange|No|
 |Shared voicemail greeting for no agents|This setting allows authorized users to change the No Agents Shared Voicemail Greeting.|AllowCallQueueNoAgentSharedVoicemailGreetingChange|No|
+|Language|This setting allows authorized users to change the language used for Text-To-Speech or system prompts|AllowCallQueueLanguageChange|Yes,<br>See note 3|
 |Membership|This setting allows authorized users to change the agents who are part of the call queue.|AllowCallQueueMembershipChange|Yes, Public Preview<br>See note 2|
 |Conference mode|This setting allows authorized users to change the call queue conference mode setting.|AllowCallQueueConferenceModeChange|Yes, Public Preview|
 |Agent routing method|This setting allows authorized users to change the call queue agent routing (selection) method.|AllowCallQueueRoutingMethodChange|Yes, Public Preview|
@@ -157,12 +161,15 @@ Notes
 
 1. The user requires a Teams Premium license and Queues app to access this functionality.
 1. If the Call queue uses a distribution list, security group, Microsoft 365 group or a Microsoft Teams channel the owner of these can add or remove agents without a Teams Premium license or Queues app.
+1. This option is not currently available in Queues app.
 
 ### Call queues - Agent actions
 
 |Teams voice applications policy setting|Description|PowerShell parameter|Teams Premium required<sup>1</sup>|
 |-----------------------|--------------------------------|---------------------|---------------------|
 |Opt agent in/out of queue|This setting allows authorized users to change an agent's opt-in status.|AllowCallQueueAgentOptChange|Yes, Public Preview|
+|Agent monitor mode     |This feature is not currently available for use       |               |Yes |
+|Agent monitor notification mode |This feature is not currently available for use |            |Yes |
 
 Notes
 
