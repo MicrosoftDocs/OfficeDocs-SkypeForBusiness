@@ -26,7 +26,7 @@ description: Learn how to use and manage voice applications policies in Microsof
 # Manage voice applications policies in Microsoft Teams
 
 > [!NOTE]
-> Some of these features are in limited public preview. For more information, contact your Microsoft customer success manager. Information in this article is subject to change.
+> Some of these features are in public preview. For more information, contact your Microsoft customer success manager. Information in this article is subject to change.
 
 This article is for IT Pros and administrators who want to delegate Auto attendant and Call queue change capabilities to users in their organization.
 
@@ -117,7 +117,12 @@ Notes
 |Historical auto attendant metrics using Power BI|This setting allows authorized users to access historical auto attendant metrics.|HistoricalAutoAttendantMetricsPermission|No|
 |Historical auto attendants metrics using Queues app|This setting allows authorized users to access historical auto attendant metrics.|HistoricalAutoAttendantMetricsPermission|Yes, Public Preview|
 
-Reporting values:
+Real-time reporting values:
+
+- *None* - no access to any metrics.
+- *AuthorizedOnly* - the authorized user only sees metrics for the auto attendants and call queues (and associated agents) they're authorized for.
+
+Historical reporting values:
 
 - *None* - no access to any metrics.
 - *AuthorizedOnly* - the authorized user only sees metrics for the auto attendants and call queues (and associated agents) they're authorized for.
@@ -171,7 +176,12 @@ Notes
 |Historical call queue metrics using Queues app|This setting allows authorized users to access historical call queue metrics in the Queues app.|HistoricalQueueMetricsPermission|Yes, Public Preview|
 |Historical agent metrics using Queues app|This setting allows authorized users to access historical call queue agent metrics in the Queues app.|HistoricalAgentMetricsPermission|Yes, Public Preview|
 
-Reporting values:
+Real-time reporting values:
+
+- *None* - no access to any metrics.
+- *AuthorizedOnly* - the authorized user only sees metrics for the auto attendants and call queues (and associated agents) they're authorized for.
+
+Historical reporting values:
 
 - *None* - no access to any metrics.
 - *AuthorizedOnly* - the authorized user only sees metrics for the auto attendants and call queues (and associated agents) they're authorized for.
