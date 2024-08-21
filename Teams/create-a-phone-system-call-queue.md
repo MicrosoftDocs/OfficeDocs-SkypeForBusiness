@@ -44,7 +44,7 @@ Before you follow the procedures in this article, be sure you have read [Plan fo
 ## What's new for Call queues in the past six months
 
 - August 27
-  - [Courtesy callback](#courtesy-callback) functionality available through PowerShell cmdlets
+  - [Callback](#callback) functionality available through PowerShell cmdlets
   - Conference mode is now supported for Skype for Business clients and calls that are routed to the queue from Skype for Business Server
 - April 8 - Additional messaging options for call queue Overflow, Timeout, and No Agents exception routing in Teams admin center and [PowerShell cmdlets](#additional-messaging)
 
@@ -417,9 +417,9 @@ For more information, see:
 | [-NoAgentRedirectVoicemailTextToSpeechPrompt](/powershell/module/teams/new-cscallqueue#-NoAgentRedirectVoicemailTextToSpeechPrompt)    | [-NoAgentRedirectVoicemailTextToSpeechPrompt](/powershell/module/teams/set-cscallqueue#-NoAgentRedirectVoicemailTextToSpeechPrompt)    |
 | [-NoAgentRedirectVoicemailAudioFilePrompt](/powershell/module/teams/new-cscallqueue#-NoAgentRedirectVoicemailAudioFilePrompt)          | [-NoAgentRedirectVoicemailAudioFilePrompt](/powershell/module/teams/set-cscallqueue#-NoAgentRedirectVoicemailAudioFilePrompt)          |
 
-### Courtesy callback
+### Callback
 
-Courtesy callback allows eligible callers waiting in queue to receive a callback to the number they are calling from when an agent becomes available.
+Callback allows eligible callers waiting in queue to receive a callback to the number they are calling from when an agent becomes available.
 
 A caller becomes *eligible* for callback based on any one of the following configured conditions coming true:
 
