@@ -46,19 +46,6 @@ There are no prerequisites to using Insights, and educators just need to add the
 
 Educators are identified by faculty licenses. Educators must have a faculty license and be a class team owner to see the data in Insights.
 
-### Education leaders
-
-Education leaders are all those roles in the institution that need an organizational view to understand their student engagement, progress, well-being, etc. Educators can also be education leaders when they own a class team and need more than their classes view, such as the head of a subject department.
-
-Education leaders may include chief academic officers, heads of department, district leaders, school principals, head teachers, counselors, heads of a subject, program directors, social workers, and psychologists.
-
-Education leaders get an organizational view that depends on the permissions assigned by the IT Admin. For example, school district administrators can see all the schools they access. In contrast, a school principal or a school supervisor only sees that school's grade levels and classes.
-
-Assuming a supervisor also teaches, they're considered both an educator and an education leader and can access both views of Insights (for educators and education leaders). Here, Insights helps education leaders support educators and students.
-At the organizational level, the IT admin needs to connect the student information system and assign permissions to each role to access the schools or departments relevant to them.
-
-Education leaders are identified by faculty licenses, and they also need *explicit permissions* from the IT global admin to view their organization's Insights reports.
-
 > [!NOTE]
 > **Regarding students:**
 >
@@ -67,10 +54,6 @@ Education leaders are identified by faculty licenses, and they also need *explic
 > Students are members of a class team within Teams. They are identified by their license and **do not have access** to the Insights app or tab (even if they are the team owner).
 
 ## Where do users find Insights?
-
-Educators and education leaders have different ways to access Insights.
-
-### Educators
 
 Educators can use these two methods:
 
@@ -82,16 +65,6 @@ Insights surfaces activity data from all channels within a class team but can on
 In both views, an educator can access class data. Using the personal app, the educator needs to drill down to the class level, whereas the tab provides direct access to class data.
 
 At the class level, if an educator owns a class Team, Insights is available without any other action on the part of the IT Admin.
-
-### Education leaders
-
-Education leaders can use Insights as a [personal app](https://support.microsoft.com/office/8738d1b1-4e1c-49bd-9e8d-b5292474c347) available from Teams left app bar.
-
-At the organizational level, the IT admin needs to connect the student information system and assign permissions to each role to access the schools or departments relevant to them.
-
-For example, a principal sees only the classes in their school, or the head of a department sees only the department's classes.
-The student data is aggregated at the class, department, school, and district level, and we provide insights at each level (based on the permission of each user)
-Both educators and education leaders can zoom in and see the data for individual students.
 
 **To add the Insights app in Teams:**
 
@@ -191,12 +164,6 @@ Insights has been designed to support both students and educators in the digital
 
 To access Insights, users must have an A1, A3, or A5 faculty license for Microsoft 365.
 
-## Manage permissions
-
-As an IT admin you can provide permissions for education leaders, district leaders, school principals, head teachers, counselors, heads of learning areas, program directors, social workers, and psychologists. Educators are *automatically* given permission when they own a class team.
-
-To learn more, read [**Manage user access to Education Insights**](education-insights-manage-access.md).
-
 ## Manage the setup policy
 
 As an IT Admin, you can use the app setup policy to install Insights by default for your educators and leaders when they start Teams. With the setup policy, you can customize Teams to highlight Insights and pin it on the apps bar.
@@ -221,10 +188,6 @@ Feel free to distribute the following material to your **educators**:
 - Train yourself with the [free Insights course](https://aka.ms/insights/course) at the Microsoft Educator Center
 - And lastly, check out [this blog](https://techcommunity.microsoft.com/t5/education-blog/6-ways-to-be-insight-ful-and-support-student-engagement/ba-p/1903091) dedicated to Insights.
 
-Material for **education leaders**:
-
-- [Insights for education organizations support page](https://support.microsoft.com/office/8738d1b1-4e1c-49bd-9e8d-b5292474c347).
-
 ### Turn on and off Insights
 
 By default, Insights is turned on, which allows analytics of students' activities within Teams to be used in Insights. You may opt out of Insights, in which case we *delete all the data collected* for Insights and stop collecting any future data. If you turn Insights back on, we start collecting data from the time it's re-enabled.
@@ -233,7 +196,7 @@ There are two places where you can control *Education Insights*. Both options ha
 
 #### Turn on and off Insights from the Teams client
 
-1. If you don’t have the *Education Insights* personal app pinned, follow [these instructions](class-insights.md#education-leaders) to add it.
+1. If you don’t have the *Education Insights* personal app pinned, follow [these instructions](class-insights.md#educators) to add it.
 1. With a Microsoft 365 administrator account, open the **Admin settings** page using the ellipsis icon located in the top right corner of *Education Insights*.
 1. Adjust the **Collect activity data for Insights** toggle to on or off.
 
@@ -252,7 +215,7 @@ There are two places where you can control *Advanced inferences*. Both options h
 
 #### Turn on and off Advanced inferences from the Teams client
 
-1. If you don’t have the *Education Insights* personal app pinned, follow [these instructions](class-insights.md#education-leaders) to add it.
+1. If you don’t have the *Education Insights* personal app pinned, follow [these instructions](class-insights.md#educators) to add it.
 1. With a Microsoft 365 administrator account, open the **Admin settings** page using the ellipsis icon located in the top right corner of *Education Insights*.
 1. Adjust the **Allow advanced inferences** toggle to on or off.
 

@@ -3,8 +3,8 @@ title: Release notes for Microsoft Teams Rooms
 ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
-ms.reviewer: sohailta
-ms.date: 07/30/2024
+ms.reviewer: henrikalim
+ms.date: 08/21/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -39,6 +39,7 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|[5.1.28.0](#51280-882024) | 8/8/2024 |
 |[5.1.24.0](#51240-7302024) | 7/30/2024 |
 |[5.0.305.0](#503050-632024) | 6/3/2024 |
 |[5.0.230.0](#502300-5232024) | 5/23/2024 |
@@ -63,11 +64,15 @@ Teams Rooms app updates happen either via the Microsoft Store or via [manual upd
 Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: icon are available only with Teams Rooms Pro license.
 
 
+### 5.1.28.0 (8/8/2024)
+- Bug fixes for GCC-High: authentication & Teams Admin Center connectivity
+
 ### 5.1.24.0 (7/30/2024) 
 
 Introduced in this update:
 
 - **Support for Windows 23H2** - Eligible devices will now be updated to Windows 11 23H2.
+- **Text and UI resizing** - IT admins can adjust the size of the text and all other UI elements on the front-of-room display by changing the display scaling settings. Text and UI elements are resized and adjusted for all supported display resolution and scaling combinations (1080p resolution at 100-150% scaling, 4K resolution at 100-300% scaling). This capability is extended to support touch boards.
 - Fixes for certain Windowing issues.
 - Other bug fixes.
   
@@ -717,6 +722,7 @@ Introduced in this update:
 
 |Release  |Release date  |
 |---------|---------|
+|[1449/1.0.96.2024080804](#144910962024080804-august-2024) | August 2024 |
 |[1449/1.0.96.2024061103](#144910962024061103-june-2024) | June 2024 |
 |[1449/1.0.96.2024042606](#144910962024042606-april-2024) | April 2024 |
 |[1449/1.0.96.2024032804](#144910962024032804-april-2024) | April 2024 |
@@ -745,6 +751,25 @@ Introduced in this update:
 > There can be a delay between when features are released by Microsoft and when they become available on a device make and model. If an update isn't available on your device, check with your device manufacturer for information on when it might become available.
 
 Features with :::image type="icon" source="../media/mtr-pro-icon.png"::: are only available with Teams Rooms Pro license.
+
+### 1449/1.0.96.2024080804 (August 2024)
+
+Introduced in this update:
+
+- **Custom backgrounds<sup>1</sup>**:::image type="icon" source="../media/mtr-pro-icon.png":::. IT admins can upload custom background images on the Teams admin center to reinforce their company brand on their Teams Rooms on Android devices. The main room display, extended room display, and touch console can each have their own specific background image. PNG, JPG, and JPEG formats are supported. This feature is only available with the Teams Rooms Pro license. [Learn more](/microsoftteams/rooms/custom-backgrounds-android).
+- **Join Zoom meetings with an ID and passcode**. Users can now join Zoom meetings with an ID and a passcode on Teams Rooms on Android. Rooms must be configured to enable Direct Guest Join meetings. [Learn more](/microsoftteams/rooms/third-party-join).
+
+Resolved issues:
+
+- Joining meetings on Cisco devices results in meeting drops and returning to the home screen.
+- Built-in Teams backgrounds are not downloading successfully.
+- Tapping Meet now on Logitech TAP devices shows a notification that the app does not support launching on secondary displays.
+- When joining Direct Guest Join meetings while the HDMI ingest cable is connected, the HDMI ingest feed is shown as the room video instead of the local room camera feed.
+- Volume is increased and decreased by increments of 30 instead of 10 on Logitech devices.
+- Participant video gets re-framed from fit-to-frame to fill-frame intermittently on Cisco devices.
+- Various meeting and call reliability issues.
+
+<sup>1</sup>Neat devices are excluded from this rollout of custom backgrounds due to an issue that is unique to Neat devices. Once the issue is resolved, custom backgrounds will be enabled for Neat devices in a later release. 
 
 ### 1449/1.0.96.2024061103 (June 2024)
 
