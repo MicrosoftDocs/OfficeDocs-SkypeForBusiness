@@ -258,13 +258,9 @@ Support for notifications is enabled using the Teams client experiences. The exp
 - Audio conferencing (audio notice in dial-in number's default or user-selected language)
 - PSTN callers (audio notice in Teams user's default language)
 
-### PSTN calls
-
-Users with an assigned compliance policy experience a 4-second audio delay when making PSTN calls.
-
-Inbound call queue (CQ) calls are recorded for users who have an assigned compliance recording (CR) policy. Certain routing methods might involve usability concerns with multiple announcements. We recommend appropriately configuring your call queues to align with your organization's user experience.
-
-Compliance recording doesn't work if users have an Internet outage, and make or receive PSTN calls using an SBA.
+> [!NOTE]
+> 1. Inbound call queue (CQ) calls are recorded for users who have an assigned compliance recording (CR) policy. Some routing methods might involve usability concerns with multiple announcements. We recommend appropriately configuring your call queues to align with your organization's intended user experience.
+> 2. Compliance recording doesn't work if users have an Internet outage, and make or receive PSTN calls using an SBA.
 
 ## Compliance recording for Teams certification programs
 
