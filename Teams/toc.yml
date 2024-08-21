@@ -1383,7 +1383,7 @@ items:
                   href: rooms/content-camera.md
             - name: Test environments
               items:
-                - name: Configure a custom-built console
+                - name: Test image for Teams Rooms
                   href: rooms/console.md
                 - name: Manually update a device
                   href: rooms/manual-update.md
