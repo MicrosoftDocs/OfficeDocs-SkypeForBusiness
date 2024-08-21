@@ -1713,11 +1713,7 @@ items:
         - name: Learn about students with Education Insights
           items:           
             - name: Get started with Insights
-              href: class-insights.md
-            - name: Sync SIS data with Insights
-              href: education-insights-sis-data-sync.md
-            - name: Manage user access to Insights
-              href: education-insights-manage-access.md           
+              href: class-insights.md     
             - name: Set up Reflect for emotional insights
               href: reflect.md
             - name: Understand Insights for Reading Progress
