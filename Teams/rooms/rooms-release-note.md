@@ -763,9 +763,9 @@ Resolved issues:
 
 - Joining meetings on Cisco devices results in meeting drops and returning to the home screen.
 - Built-in Teams backgrounds are not downloading successfully.
-- Tapping Meet now on Logi TAP devices shows a notification that the app does not support launching on secondary displays.
+- Tapping Meet now on Logitech TAP devices shows a notification that the app does not support launching on secondary displays.
 - When joining Direct Guest Join meetings while the HDMI ingest cable is connected, the HDMI ingest feed is shown as the room video instead of the local room camera feed.
-- Volume is increased and decreased by increments of 30 instead of 10 on Logi devices.
+- Volume is increased and decreased by increments of 30 instead of 10 on Logitech devices.
 - Participant video gets re-framed from fit-to-frame to fill-frame intermittently on Cisco devices.
 - Various meeting and call reliability issues.
 
