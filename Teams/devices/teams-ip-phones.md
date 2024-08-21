@@ -251,7 +251,7 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 
 > [!NOTE]
 > More recent and supported Microsoft Teams panels applications may be available for Android devices. Release details and notes for the latest Microsoft Teams panels applications can be found at [What's new in Microsoft Teams devices](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_panels)
-See [Microsoft Teams panels](overview-teams-panels.md) for features supported by Teams panels devices. 
+See [Microsoft Teams panels](../devices/overview-teams-panels.md) for features supported by Teams panels devices. 
 
 ### Firmware versions released to the Public cloud
 
