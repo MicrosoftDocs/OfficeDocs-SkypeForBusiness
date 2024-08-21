@@ -769,9 +769,7 @@ Resolved issues:
 - Participant video gets re-framed from fit-to-frame to fill-frame intermittently on Cisco devices.
 - Various meeting and call reliability issues.
 
-
 <sup>1</sup>Neat devices are excluded from this rollout of custom backgrounds due to an issue that is unique to Neat devices. Once the issue is resolved, custom backgrounds will be enabled for Neat devices in a later release. 
-
 
 ### 1449/1.0.96.2024061103 (June 2024)
 
