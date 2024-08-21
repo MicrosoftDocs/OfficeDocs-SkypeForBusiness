@@ -245,6 +245,14 @@ policies](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group).
 
 ## User experiences
 
+### PSTN calls
+
+Inbound call queue (CQ) calls are recorded for users who have an assigned compliance recording (CR) policy. Some routing methods might involve usability concerns with multiple announcements. We recommend appropriately configuring your call queues to align with your organization's intended user experience.
+
+Compliance recording doesn't work if users have an Internet outage, and make or receive PSTN calls using an SBA.
+
+### Notifications
+
 Support for notifications is enabled using the Teams client experiences. The experiences can be either visual or audio.
 
 **Teams clients - visual notice**
@@ -260,12 +268,6 @@ Support for notifications is enabled using the Teams client experiences. The exp
 - Skype for Business
 - Audio conferencing (audio notice in dial-in number's default or user-selected language)
 - PSTN callers (audio notice in Teams user's default language)
-
-### PSTN calls
-
-Inbound call queue (CQ) calls are recorded for users who have an assigned compliance recording (CR) policy. Some routing methods might involve usability concerns with multiple announcements. We recommend appropriately configuring your call queues to align with your organization's intended user experience.
-
-Compliance recording doesn't work if users have an Internet outage, and make or receive PSTN calls using an SBA.
 
 ## Compliance recording for Teams certification programs
 
