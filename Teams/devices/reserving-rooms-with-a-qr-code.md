@@ -3,7 +3,7 @@ title: Reserve a room from a Teams Panel
 ms.author: tonysmit
 author: mstonysmith
 ms.reviewer: eviegrimshaw
-ms.date: 08/18/2023
+ms.date: 08/22/2024
 manager: pamgreen
 audience: Admin
 ms.topic: article
