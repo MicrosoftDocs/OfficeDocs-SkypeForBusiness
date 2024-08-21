@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: eviegrimshaw
-ms.date: 8/20/2024
+ms.date: 8/21/2024
 ms.topic: article
 audience: Admin
 appliesto: 
@@ -37,7 +37,7 @@ To set up and manage custom backgrounds for your Teams panels:
 3. Go to **Device settings** > **Background** > select **Use a custom background**. You can upload one image, which will be displayed on the panel home screen.
 4. Select **Save**.
 
-### Custom background requirements
+## Custom background requirements
 
 There are a few requirements on the custom background you'll upload to the Teams panel. The minimum resolution supported is 1280 x 720. The custom background image file must be between 100 KB and 2 MB and a JPG, JPEG, and PNG file format.  
 
@@ -67,7 +67,7 @@ For Teams panels display, follow the following guidelines:
 
 To create custom backgrounds that meet the guidelines in the previous section, you can download the (@Evie to provide here). The template is a .PSD file. You can use apps such as Adobe Photoshop or Paint.NET (a plug-in may be required) to customize the PSD file. The template provides the guidelines to help you place text and graphics in your custom backgrounds so that on-screen elements won't be blocked or obscured.
 
-### Deploy custom backgrounds
+## Deploy custom backgrounds
 
 After you've created a background image, make sure you save it, and then you can deploy the background image.
 
