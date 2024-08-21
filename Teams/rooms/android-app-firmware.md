@@ -3,7 +3,7 @@ title: Teams Rooms on Android app and firmware versions
 ms.author: tonysmit
 author: mstonysmith
 ms.reviewer: divank
-ms.date: 11/04/2023
+ms.date: 08/21/2024
 manager: pamgreen
 audience: Admin
 ms.topic: article
@@ -173,6 +173,8 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 
 | Device model  | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
+| Logi Rallybar | `1.12.268` | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | August 21, 2024|
+| Logi Rallybar Mini | `1.12.268` | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | August 21, 2024|
 | Logi Rallybar | `1.12.264` | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | July 2, 2024|
 | Logi Rallybar Mini | `1.12.264` | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | July 2, 2024|
 | Logi RoomMate | `1.12.240`   | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | July 2, 2024|
