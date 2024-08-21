@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: chasing
-ms.date: 07/01/2024
+ms.date: 08/20/2024
 ms.topic: article
 audience: admin
 appliesto: 
@@ -34,6 +34,7 @@ The SIP Gateway resources mentioned in this article can’t be directly excluded
 
 To add or deactivate custom security attributes definitions, you must have:
 
+- [Attribute Assignment Administrator](entra/identity/role-based-access-control/permissions-reference#attribute-assignment-administrator)
 - [Attribute Definition Administrator](/entra/identity/role-based-access-control/permissions-reference)
 - Microsoft Graph module, when using [Microsoft Graph PowerShell](/powershell/microsoftgraph/installation)
 
@@ -53,7 +54,6 @@ To add or deactivate custom security attributes definitions, you must have:
     > [!TIP]
     > An attribute set name can be 32 characters with no spaces or special characters. Once you've specified a name, you can't rename it. For more information, see [Limits and constraints](/entra/fundamentals/custom-security-attributes-overview).
   
-    :::image type="content" source="media/add-attribute-sip-gateway.png" alt-text="Screenshot displaying Add attribute set.":::
 5. When finished, select **Add**.
 6. The new attribute set appears in the list of attribute sets.
 
@@ -68,7 +68,8 @@ To add or deactivate custom security attributes definitions, you must have:
     > [!TIP]
     > An attribute set name can be 32 characters with no spaces or special characters. Once you've specified a name, you can't rename it. For more information, see [Limits and constraints](/entra/fundamentals/custom-security-attributes-overview).
 
-    :::image type="content" source="media/exclude-aatribute-set.png" alt-text="Screenshot displaying the Exclude attribute set.":::
+    :::image type="content" source="media/exclude-attribute-set.png" alt-text="Screenshot displaying the Exclude attribute set.":::
+
 7. In the **Description** box, enter an optional description.
     > [!TIP]
     > A description can be 128 characters long. If necessary, you can later change the description.
@@ -140,6 +141,26 @@ To add or deactivate custom security attributes definitions, you must have:
 
    :::image type="content" source="media/Powershell-output-expected.png" alt-text="Screenshot of the output that is expected after running cmdlets.":::
 
+**Bulk device sign-in**
+If you are using bulk-sigin for your devices, you will also have to add this extra service principal Teams SIP Gateway:
+
+```powershell
+##Using AzureAd Module:
+Get-AzureADServicePrincipal -Filter "AppId eq '61c8fd69-c13e-4ee6-aaa6-24ff71c09bca
+```
+
+If you get no output, then run:
+```powershell
+
+New-AzureADServicePrincipal -AppId "61c8fd69-c13e-4ee6-aaa6-24ff71c09bca"
+```
+
+```powershell
+## Using MS Graph Module:
+Get-AzureADServicePrincipal -Filter "AppId eq '61c8fd69-c13e-4ee6-aaa6-24ff71c09bca
+New-MgServicePrincipal -AppId "61c8fd69-c13e-4ee6-aaa6-24ff71c09bca" 
+```
+
 ## Step 4: Assign custom security attribute to SIP Gateway
 
 1. Sign in to the [Microsoft Entra admin center](https://entra.microsoft.com/) as at least a [Conditional Access Administrator](/entra/identity/role-based-access-control/permissions-reference).
@@ -149,13 +170,13 @@ To add or deactivate custom security attributes definitions, you must have:
 5. Under **Manage** > **Custom security attributes**, select **Add assignment**.
 6. Under **Attribute set**, select the attribute set you created in [step 1](#step-1-add-an-attribute-set).
 7. Under **Attribute name**, select the attribute name you created in [step 2](#step-2-add-a-custom-security-attribute-definition).
-   :::image type="content" source="media/select-attribute-set.png" alt-text="Screenshot displaying the available attributes and selection of the attribute created in earlier steps.":::
 8. Under **Assigned values**, select **Add values**, select the value from the list (requireMFA in this example), then select **Done**.
 
    :::image type="content" source="media/require-mfa-selection.png" alt-text="Screenshot displaying to select requireMFA.":::
 
 9. Select **Save**.
 10. Follow the same steps for SIP Gateway UserApp (582b2e88-6cca-4418-83d2-2451801e1d26).
+11. Follow the same steps for Teams SIP Gateway (61c8fd69-c13e-4ee6-aaa6-24ff71c09bca) in case you’re using bulk signin for your devices.
 
 ## Step 5: Exclude this attribute from your Conditional Access Policy
 
@@ -166,18 +187,19 @@ To add or deactivate custom security attributes definitions, you must have:
    - From **Select what this policy applies to** list, choose **Cloud apps**.
    - On the **Include** tab, select **All** apps option.
    - Change tab to **Exclude** and under **Select excluded cloud apps**, search for **Microsoft Teams Services** and click on **Select**.
-
-     :::image type="content" source="media/exclude-cloud-apps.png" alt-text="Screenshot displaying the search and selection of Microsoft Teams Service.":::
-
 5. Select **Edit filter**.
 6. On the **Edit filter** page, set **Configure** to **Yes**.
 7. Select the attribute you created earlier (in this case 'exclAttrAllowMultiple').
 8. Set **Operator** to **Contains**.
 9. Set **Value** to the one assigned to SIP Gateway apps in [step 4](#step-4-assign-custom-security-attribute-to-sip-gateway) (in this case requireMFA).
+
    :::image type="content" source="media/edit-filter.png" alt-text="Screenshot displaying the edit filter pane." lightbox="media/edit-filter.png":::
+
 10. Select **Done**.
 11. Review and confirm your settings.
+
    :::image type="content" source="media/include-all-apps-settings.png" alt-text="Screenshot displaying the settings that need confirmation.":::
+
 12. Select **Save** to enable your policy.
 
 ## Related articles
