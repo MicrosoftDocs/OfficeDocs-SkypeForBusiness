@@ -61,7 +61,7 @@ For Teams panels display, follow the following guidelines:
 > [!TIP]
 > Use the custom background template in designing your custom background image.
 
-:::image type="content" source="../media/custom-background-panels/image.png" alt-text="Teams panel background screen layout." lightbox="../media/custom-background-panels/image.png":::
+:::image type="content" source="./media/custom-background-panels/image.png" alt-text="Teams panel background screen layout." lightbox="./media/custom-background-panels/image.png":::
 
 ### Custom background template
 
