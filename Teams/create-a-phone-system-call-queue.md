@@ -43,7 +43,7 @@ Before you follow the procedures in this article, be sure you have read [Plan fo
 
 ## What's new for Call queues in the past six months
 
-- August 26
+- August 27
   - [Courtesy callback](#courtesy-callback) functionality available through PowerShell cmdlets
   - Conference mode is now supported for Skype for Business clients and calls that are routed to the queue from Skype for Business Server
 - April 8 - Additional messaging options for call queue Overflow, Timeout, and No Agents exception routing in Teams admin center and [PowerShell cmdlets](#additional-messaging)
@@ -260,7 +260,7 @@ Once you select your call answering options, select the **Next** button at the b
 > Agents may hear the configured music on hold in queue for up to 2 seconds when first joining the call.
 
 > [!IMPORTANT]
-> Transfer mode (when conference mode is disabled) is now in legacy mode.  Support for transfer mode is scheduled to be removed by the end of September, 2024.
+> Transfer mode (when conference mode is disabled) is now in legacy mode.  Support for transfer mode is scheduled to be removed by the end of June 2025.
 
 ## [Step 4: Agent selection](#tab/agent-selection)
 
@@ -412,7 +412,7 @@ Once you select your authorized users, select the **Submit** button at the botto
 The following settings are recommended:
 
 - **Conference mode** to **On**
-  - This will be the only option available for call queues after September 2024
+  - This will be the only option available for call queues after June 2025
 - **Routing method** to **Round robin** or **Longest idle**
 - **Presence-based routing** to **On**
 - **Agent alert time:** to a minimum of **20 seconds**
@@ -481,6 +481,8 @@ Once a caller has successfully requested a callback, the callback is also subjec
 **In order for a callback to be successful, the call queue timeout value must be high enough to allow for the call to become eligible, for the music to stop playing, for a caller to successfully request a callback and for the callback to be queued until an agent becomes available for and answers the call.**
 
 > [!NOTE]
+> Conference mode must be enabled on the call queue in order to configure callback.
+> 
 > In addition to the eligibility requirements already listed, for callers within the North American Numbering Plan, the inbound phone number must not start with any of the following digits in order to become eligible for callback:
 >
 > |Starting Digits                                   |
