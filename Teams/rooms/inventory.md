@@ -37,13 +37,13 @@ To set up your organization with meeting room location information:
 2. Select on the **Inventory** tab in the left navigation pane.
 3. Select **Get data** to retrieve the location details and inventory of Microsoft Teams Rooms devices deployed in your organization.
 
->[!NOTE]
-> This process may take some time, depending on the number of meeting rooms. For example, a large organization with over 20,000 meeting rooms might experience a wait of up to 20 minutes.
+  >[!NOTE]
+  > This process may take some time, depending on the number of meeting rooms. For example, a large organization with over 20,000 meeting rooms might experience a wait of up to 20 minutes.
 
 4. Newly created room resource accounts may take up to 48 hours to appear in the portal.
 
->[!NOTE]
-> Alternatively, you can perform an on-demand sync from the inventory command bar by selecting the **Sync** option. However, this on-demand sync will take 15 minutes.
+  >[!NOTE]
+  > Alternatively, you can perform an on-demand sync from the inventory command bar by selecting the **Sync** option. However, this on-demand sync will take 15 minutes.
 
 ## Manage Your location directory and view meeting rooms
 
