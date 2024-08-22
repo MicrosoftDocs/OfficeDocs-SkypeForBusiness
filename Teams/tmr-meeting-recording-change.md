@@ -77,9 +77,13 @@ To learn more about Microsoft Teams Rooms meetings, see [Microsoft Teams Rooms
 
 When the organizer doesn’t have a OneDrive account, here's what happens, in order, to the meeting recording:
   
-1. The recording is saved to the co-organizer's OneDrive, while the meeting or event organizer retains permissions to edit and share the recording. When there are multiple co-organizers, the recording saves to the co-organizers' OneDrive, ordered by the first number of each co-organizer's Entra object ID. To find the object IDs for users in your org, see [Locate important IDs for a user](/partner-center/account-settings/find-ids-and-domain-names#find-the-user-object-id). </br></br>Let's take a look at the following example with three co-organizers:
-:::image type="content" source="media/objectid-co-organizer-recording-small.png" alt-text="Screenshot of the object IDs for three organizers. The first organizer's object ID starts with the letter one, the second character in the second organizer's object ID is the number 5, and the second character in the third organizer's object ID is the number 3." lightbox="media/objectid-co-organizer-recording-expand.png":::
-In this example, the recording is saved to co-organizer 1’s OneDrive account. If co-organizer 1 doesn’t have a OneDrive account, the recording is saved to co-organizer 3’s OneDrive. If co-organizer 3 also doesn’t have a OneDrive account, the recording is then saved to co-organizer 2’s OneDrive.
+1. The recording is saved to the co-organizer's OneDrive, while the meeting or event organizer retains permissions to edit and share the recording. When there are multiple co-organizers, the recording saves to the co-organizers' OneDrive, ordered by the first number of each co-organizer's Entra object ID. To find the object IDs for users in your org, see [Locate important IDs for a user](/partner-center/account-settings/find-ids-and-domain-names#find-the-user-object-id).
+
+   Let's take a look at the following example with three co-organizers:
+
+   :::image type="content" source="media/objectid-co-organizer-recording-small.png" alt-text="Screenshot of the object IDs for three organizers. The first organizer's object ID starts with the letter one, the second character in the second organizer's object ID is the number 5, and the second character in the third organizer's object ID is the number 3." lightbox="media/objectid-co-organizer-recording-expand.png":::
+
+   In this example, the recording is saved to co-organizer 1’s OneDrive account. If co-organizer 1 doesn’t have a OneDrive account, the recording is saved to co-organizer 3’s OneDrive. If co-organizer 3 also doesn’t have a OneDrive account, the recording is then saved to co-organizer 2’s OneDrive.
 
 1. If none of the co-organizers have OneDrive accounts, the recording is saved to the OneDrive account of the user who initiated the recording.
 1. If the user who initiated the recording doesn’t have a OneDrive, the recording gets temporarily stored to async media storage.
