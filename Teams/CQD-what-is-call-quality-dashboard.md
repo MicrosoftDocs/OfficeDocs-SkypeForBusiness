@@ -33,9 +33,9 @@ description: Learn about Call Quality Dashboard (CQD) and how to use it to  see 
 The Microsoft Call Quality Dashboard (CQD) - [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) - shows call and meeting quality, at an **org-wide level**, for Microsoft Teams, and Skype for Business Server. 
 
   
-The latest version of CQD features a [near-real-time (NRT) data feed](CQD-data-and-reports.md), which means that call records are available in CQD within 30 minutes of the end of a call.
+The latest version of CQD features a [near-real-time (NRT) data feed](cqd-data-and-reports.md), which means that call records are available in CQD within 30 minutes of the end of a call.
 
-Wherever CQD includes [end-user identifiable information (EUII) data](CQD-data-and-reports.md#euii-data), it's managed in the same way as [EUII throughout Microsoft 365](/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview).
+Wherever CQD includes [end-user identifiable information (EUII) data](cqd-data-and-reports.md#euii-data), it's managed in the same way as [EUII throughout Microsoft 365](/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview).
 
 CQD is designed to help Teams admins, Skype for Business admins, and network engineers monitor call and meeting quality at an org-wide level. You'll use CQD to help you **optimize your network** to drive performance quality. When you need to look into call and meeting information for a **specific user**, use CQD data in conjunction with per-user [call analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md).
 
@@ -66,7 +66,7 @@ Read [Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md) to lear
 
 [Upload tenant and building data](CQD-upload-tenant-building-data.md)
 
-[CQD data and reports](CQD-data-and-reports.md)
+[CQD data and reports](cqd-data-and-reports.md)
 
 [Use CQD to manage call and meeting quality](quality-of-experience-review-guide.md)
 
