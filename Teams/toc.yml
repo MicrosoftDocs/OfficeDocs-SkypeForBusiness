@@ -1379,9 +1379,9 @@ items:
                   href: rooms/surface-hub-manage-config.md
             - name: Teams Room for Windows deployment tools
               items:
-                - name: Create a Teams Rooms for Windows image
+                - name: Create a Teams Room for Windows image
                   href: rooms/console.md
-                - name: Update a Teams Rooms for Windows 
+                - name: Update a Teams Room for Windows 
                   href: rooms/manual-update.md
             - name: Peripherals
               items:
