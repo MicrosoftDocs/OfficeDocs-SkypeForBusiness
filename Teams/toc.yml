@@ -434,7 +434,7 @@ items:
             - name: Upload tenant and building data
               href: CQD-upload-tenant-building-data.md
             - name: CQD data and reports
-              href: CQD-data-and-reports.md
+              href: cqd-data-and-reports.md
             - name: Use CQD to manage call and meeting quality
               href: quality-of-experience-review-guide.md
             - name: Frequently asked questions
