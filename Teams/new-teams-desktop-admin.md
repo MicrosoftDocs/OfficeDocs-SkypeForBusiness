@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.topic: article
-ms.date: 11/06/2023
+ms.date: 08/06/2024
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -21,7 +21,7 @@ ms.localizationpriority: high
 
 # The new Microsoft Teams
 
->[!Important]
+>[!IMPORTANT]
 >We have updated the offical name of classic Teams as follows:</br>
 >- "**Microsoft Teams classic**" for Windows 10 and Mac devices.</br>
 >- "**Microsoft Teams classic (work or school)**" for Windows 11 devices.
@@ -37,7 +37,7 @@ The new Teams desktop client is reimagined from the ground up with performance i
 
 The new Teams ensures more efficient use of device resources. You can lower memory and disk usage with a Teams app optimized for your device. Whether you have users on multiple accounts or tenants, the new Teams can help eliminate the silos and bring them together in one place, giving them more extensibility and scale.
 
->[!Note]
+>[!NOTE]
 >See [What's features are changing?](new-teams-known-issues.md) to review some of the changes you will see.
 
 ## Servicing agreement
@@ -52,7 +52,7 @@ New Teams is available for:
 
 - Windows
 - Mac
-- VDI
+- VDI (Dates for VDI are available at [Upgrade to new Teams for Virtualized Desktop Infrastructure (VDI)](new-teams-vdi-requirements-deploy.md).)
 - Edu
 - Web
 
@@ -61,56 +61,46 @@ New Teams is available for:
 - Consumer
 - Desktop running a Windows 10 version earlier than 10.0.19041
 
-## New Teams client availability
+## New Teams web client availability
 
 The new Teams client is now available for the Web.
 
-|Browser|Date|
-|:-----|:-----|
-|R4, Chrome/Edge, Non-EDU|Mid November 2023|
-|Chrome/Edge, EDU|November 2023|
-|Safari/Firefox (target date)|March 2024|
-|Gov |March 2024|
-|Microsoft 365 operated by 21Vianet in China |March 2024|
-
-### New Teams schedule for clients
-
->[!Important]
->These schedules only apply if your organization has set the Teams Update policy "**Use new Teams Client**" to either:
-
->- **Microsoft controlled** (the value in the Teams Admin Center)  **or**
->- **Microsoft choice** (if you are using PowerShell)
->
->[Learn more about Teams admin policies](manage-teams-with-policies.md).
+|Browser                                     |Date              |
+|:-------------------------------------------|:-----------------|
+|R4, Chrome/Edge, Non-EDU                    |Mid November 2023 |
+|Chrome/Edge, EDU                            |November 2023     |
+|Safari/Firefox (target date)                |March 2024        |
+|Gov                                         |March 2024        |
+|Microsoft 365 operated by 21Vianet in China |March 2024        |
 
 ## When will all users see the "Try the new Teams" toggle?
 
 ### Licenses
 
-|License|Availability date|
-|:-----|:-----|
-|Business Licenses and Teams Essentials|Available|
-|Enterprise and other Licenses|See the schedule listed in this article.|
+|License                                |Availability date                       |
+|:--------------------------------------|:---------------------------------------|
+|Business Licenses and Teams Essentials |Available                               |
+|Enterprise and other Licenses          |See the schedule listed in this article |
 
 ### Update channels
 
->[!Tip]
+>[!TIP]
 >Learn more about update channels, including how to make changes here:
 > - [**Update channels for Microsoft 365 apps**](/deployoffice/updates/overview-update-channels)
 
 If the update channel isn't listed, then the Monthly Enterprise Channel schedule is followed.
 
-|Update channel                                                                    |Date       |
-|:---------------------------------------------------------------------------------|:----------|
-|Public preview program                                                            |Available  |
-|Targeted release program                                                          |Available  |
-|Monthly Enterprise Channel                                                        |Available  |
-|Semi-Annual Enterprise Channel (Preview)                                          |Available  |
-|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC and remaining channels |Available  |
-|Current Channel                                                                   |In rollout |
-|Government Cloud (GCC, GCC High) Preview                                          |In rollout |
-|Government Cloud (DoD) Preview                                                    |March 2024 |
-|Microsoft 365 operated by 21Vianet in China                                       |March 2024 |
+|Update channel                                                               |Date       |
+|:----------------------------------------------------------------------------|:----------|
+|Public preview program                                                       |Available  |
+|Targeted release program                                                     |Available  |
+|Monthly Enterprise Channel                                                   |Available  |
+|Semi-Annual Enterprise Channel (Preview)                                     |Available  |
+|Semi-Annual Enterprise Channel, Semi-annual Extended, and remaining channels |Available  |
+|Current Channel                                                              |In rollout |
+|Government Cloud (GCC, GCC High) Preview                                     |In rollout |
+|Government Cloud (DoD) Preview                                               |March 2024 |
+|Microsoft 365 operated by 21Vianet in China                                  |March 2024 |
 
 ## When will the new Teams become the default client?
 
@@ -123,28 +113,28 @@ Users are switched once to the new Teams. Afterward, users can switch back to cl
 
 ### Licenses
 
-|License|Date|
-|:-----|:-----|
-|Business Licenses and Teams Essentials|October 2023|
-|Enterprise and other Licenses|See the schedule listed in this article.|
+|License                                |Date                                    |
+|:--------------------------------------|:---------------------------------------|
+|Business Licenses and Teams Essentials |October 2023                            |
+|Enterprise and other Licenses          |See the schedule listed in this article |
 
 ### Update channels
 
 If the update channel isn't listed, then the Monthly Enterprise Channel schedule is followed.
 
->[!Tip]
+>[!TIP]
 >Learn more about update channels, including how to make changes here: [**Update channels for Microsoft 365 apps**](/deployoffice/updates/overview-update-channels).
 
-|Update channel|Date|
-|:-----|:-----|
-|Teams Public Preview|October 2023|
-|Targeted Release Channel|October 2023|
-|Current Channel|Late October 2023|
-|Monthly Enterprise Channel|December 2023|
-|Semi-Annual Enterprise Channel (Preview)|November 2023|
-|Semi-Annual Enterprise Channel, Semi-annual Extended, LTSC, and remaining channels|January 2024|
-|Government Cloud (GCC, GCC High) Preview|March 2024|
-|Government Cloud (DoD) Preview|May 2024|
-|Microsoft 365 operated by 21Vianet in China|May 2024|
+|Update channel                                                               |Date              |
+|:----------------------------------------------------------------------------|:-----------------|
+|Teams Public Preview                                                         |October 2023      |
+|Targeted Release Channel                                                     |October 2023      |
+|Current Channel                                                              |Late October 2023 |
+|Monthly Enterprise Channel                                                   |December 2023     |
+|Semi-Annual Enterprise Channel (Preview)                                     |November 2023     |
+|Semi-Annual Enterprise Channel, Semi-annual Extended, and remaining channels |January 2024      |
+|Government Cloud (GCC, GCC High) Preview                                     |March 2024        |
+|Government Cloud (DoD) Preview                                               |May 2024          |
+|Microsoft 365 operated by 21Vianet in China                                  |May 2024          |
 
 [**Follow Microsoft Adoption for the latest information on upcoming features for the new Teams.**](https://aka.ms/newTeams).

@@ -30,6 +30,9 @@ To deliver a high-quality and reliable Microsoft Teams experience on phones, we 
 
 To manage phones, you need to be a Global admin, Teams Service admin, or Teams Device admin. For more information about admin roles, see [Use Microsoft Teams administrator roles to manage Teams](../using-admin-roles.md).
 
+> [IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+
 ## Features supported by Teams phones
 
 Teams-certified phones have a broad array of features to help your users do their jobs, and help you manage their use. Here's a summary of the features available in Teams-certified phones:

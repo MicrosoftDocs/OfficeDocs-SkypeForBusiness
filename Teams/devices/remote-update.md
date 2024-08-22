@@ -127,6 +127,7 @@ If you want to check which software versions are currently rolling out for your 
 
 > [!NOTE]
 > The new version may not always be the latest available version. Devices running older versions may be updated in a step-wise approach, until they reach the latest version.
+
 ### Pause automatic updates
 
 You can temporarily pause automatic updates for your tenant. When paused, Android based devices aren't automatically updated for the next 15 days. To pause the updates, do the following steps:
@@ -135,7 +136,6 @@ You can temporarily pause automatic updates for your tenant. When paused, Androi
 2. Navigate to **Teams devices** and then select **Phones**, **Displays**, **Panels**, or **Teams Rooms on Android**.
 3. Under the **Actions** menu, select **Pause auto-updates**.
 1. Updates automatically resume after 15 days. If you want to resume the updates before that, select **Resume auto-updates** from under the **Actions** menu.
-
 
 ## Manually update remote devices
 
@@ -158,10 +158,10 @@ When you select a single device, updates that are available for the device are s
 
 After you select **Update**, updates are applied to your devices at the date and time of the selected scheduling option. If you didn't select a future date and time, updates are applied to your devices within a few minutes.
 
+To manage devices, you need to be a Global admin, Teams Service admin, or Teams Device admin. For more information about admin roles, see [Use Microsoft Teams administrator roles to manage Teams](../using-admin-roles.md).
 
-> [!NOTE]
-> To manage devices, you need to be a Global admin, Teams Service admin, or Teams Device admin. For more information about admin roles, see [Use Microsoft Teams administrator roles to manage Teams](../using-admin-roles.md).
-
+> [IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
 This video shows how to update Teams devices.
 

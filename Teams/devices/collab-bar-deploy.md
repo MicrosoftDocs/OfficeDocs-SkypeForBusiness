@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: tjaved
-ms.date: 11/04/2023
+ms.date: 08/21/2024
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
@@ -32,6 +32,9 @@ Deployment of Microsoft Teams Rooms on Android can be broken down into the follo
 - **Configuration and deployment** - Set up Teams Rooms and connect the peripheral devices you need. (See the manufacturer's documentation for details.)
 
 To manage Teams Rooms, you need to be a Global admin, Teams Service admin, or Teams Device admin. For more information about admin roles, see [Use Microsoft Teams administrator roles to manage Teams](../using-admin-roles.md).
+
+> [IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
 ## Site readiness
 
