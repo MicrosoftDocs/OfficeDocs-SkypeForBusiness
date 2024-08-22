@@ -3,6 +3,7 @@ title: Bring Your Own Device Rooms in Pro Management Portal
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
+ms.reviewer: eshanmathur
 ms.date: 01/29/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
