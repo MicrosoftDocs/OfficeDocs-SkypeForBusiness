@@ -140,7 +140,7 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | Element | Type | Level | Usage |
 |:--|:--|:--|:--|
 | `<SkypeSettings>` | Container for all elements. |  | Required. |
-| `<AutoScreenShare>` | Boolean &#x2777; | First &#x2776; | If true, a connected HDMI ingest will be automatically shared on the Front of Room display and when in a Teams Meeting it will be automaticallyed shared to remote participants. If false, a connected HDMI ingest will be automatically shared on the Front of Room display in and out of a Teams meeting but it will not be shared to remote participants in the meeting automatically, users will need to select the share icon to shared content to remote participants. |
+| `<AutoScreenShare>` | Boolean &#x2777; | First &#x2776; | If true, a connected HDMI ingest will be automatically shared on the Front of Room display and when in a Teams Meeting it will be automatically shared to remote participants. If false, a connected HDMI ingest will be automatically shared on the Front of Room display in and out of a Teams meeting but it will not be shared to remote participants in the meeting automatically, users will need to select the share icon to shared content to remote participants. |
 | `<HideMeetingName>` | Boolean &#x2777; | First &#x2776; | If true, meeting names are hidden. |
 | `<UserAccount>` | Container | First &#x2776; | Container for credentials parameters. The sign-in address, Exchange address, or email address are usually the same, such as RainierConf<span></span>@contoso.com. |
 | `<SkypeSignInAddress>` | String &#x2777; |  | The sign-in name for the console's SfB or Teams device account. |
