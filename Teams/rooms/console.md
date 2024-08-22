@@ -21,21 +21,20 @@ ms.localizationpriority: medium
 description: This article describes how to create and apply Microsoft Teams Rooms installation media.
 ---
 
-# Build a Microsoft Teams Rooms test image
+# Build a Microsoft Teams Rooms image
 
-This article describes how to build a Microsoft Teams Rooms test image of Teams Rooms.
+This article describes how to build a Microsoft Teams Rooms image of Teams Rooms.
 
 > [!IMPORTANT]
-> The information in this article is intended for test environments or for organizations that have very specific and uncommon deployment blockers that prevent the usage of [certified Teams Rooms systems](certified-hardware.md). Before following the information in this article, we strongly recommend that you discuss your specific Teams Rooms deployment with your Microsoft representative.
-
+> The information in this article is intended for test environments or for organizations that have very specific and uncommon deployment blockers that prevent the usage of OEM-supplied images or recovery media. Before following the information in this article, we strongly recommend that you discuss your specific Teams Rooms deployment with your Microsoft representative.
 > [!NOTE]
 > The following steps should only be used when creating a [WIM-based image](/windows-hardware/manufacture/desktop/capture-and-apply-an-image) for mass deployment. If you are recovering individual devices, contact your Original Equipment Manufacturer (OEM) for support.
 
 ## Prepare the installation media
 <a name="Prep_Media"> </a>
 
-Installing the Microsoft Teams Rooms console app requires a USB storage device with at least 32 GB of capacity. There should be no other files on the device; any existing files on the USB storage will be lost. The script requires that a specific Windows ISO be supplied in order to generate the installation media. That ISO is available only through [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/).
-  
+Creating the Microsoft Teams Rooms installation media requires a USB storage device with at least 32 GB of capacity. There should be no other files on the device; any existing files on the USB storage will be lost. The script requires that a specific Windows ISO be supplied in order to generate the installation media. That ISO is available only through [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/).
+
 > [!NOTE]
 > Failure to create your Microsoft Teams Rooms installation media according to these instructions will likely result in unexpected behavior.
 
@@ -54,7 +53,7 @@ When finishes, you can safely eject and remove the USB disk from your computer a
 ## Install Windows and the Microsoft Teams Rooms console app
 <a name="Reimage"> </a>
 
-You now need to apply the setup media you've created. The target device runs as an appliance and the default user will be set to only run the Microsoft Teams Rooms app.
+You now need to apply the installation media you've created. The target device runs as an appliance and the default user will be set to only run the Microsoft Teams Rooms app.
 
 > [!IMPORTANT]
 > Installation is supported only on [certified Microsoft Teams Rooms on Windows hardware](certified-hardware.md?tabs=Windows). Microsoft will not provide any support for non-certified hardware, even if installation succeeds.
@@ -71,7 +70,7 @@ You now need to apply the setup media you've created. The target device runs as 
 
 6. The system shuts down once installation is complete.
 
-After the system has shut down, it's safe to remove the USB setup disk. A drive image can now be captured from this device, for use in bulk deployment of identical hardware if necessary.
+After the system has shut down, it's safe to remove the USB installation media. A drive image can now be captured from this device, for use in bulk deployment of identical hardware if necessary.
 
 ## See also
 
