@@ -292,7 +292,7 @@ CQD, although useful for analyzing trends and subnets, doesn't always provide a 
 
 ### CQD reports overview
 
-Use the drop-down menu at the top of the screen to open a report. For a list of the data provided in each report, read [Data available in CQD reports](CQD-data-and-reports.md#data-available-in-cqd-reports).
+Use the drop-down menu at the top of the screen to open a report. For a list of the data provided in each report, read [Data available in CQD reports](cqd-data-and-reports.md#data-available-in-cqd-reports).
 
 New in January 2020: [Download Power BI query templates for CQD](https://download.microsoft.com/download/f/b/f/fbf2527c-f392-410e-aeb6-1a02ac1b5dd1/CQD-Power-BI-query-templates.zip). Customizable Power BI templates you can use to analyze and report your CQD data.
 
@@ -319,7 +319,7 @@ To filter all detailed reports, in the browser bar, append the following to the 
 
 ```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-5/filter/[AllStreams].[Is Teams]|[FALSE]```
 
-For more information about URL filters, read [Filtering reports](CQD-data-and-reports.md#report-filters) later in this section.
+For more information about URL filters, read [Filtering reports](cqd-data-and-reports.md#report-filters) later in this section.
 
 To filter an individual detailed report, add the filter ``Is Teams`` to the report and set it to True or False.
 
@@ -678,7 +678,7 @@ These reports focus on identifying Skype for Business client versions in use and
 > [!IMPORTANT]
 > Currently, Teams clients are distributed and updated automatically through the Azure Content Delivery Network and will be kept up to date by the service. As a result, you don't need to monitor Teams client versions (unless you turn off the auto updating, which we don't recommend).
 
-Unless you exclude federated participant data, these reports will include client telemetry from federated endpoints. To exclude federated endpoints, you must add a query filter for Second Tenant ID set to your organization's [tenant ID](CQD-data-and-reports.md#how-to-find-your-tenant-id). Alternatively, you can use a [URL filter](CQD-data-and-reports.md#url-filters) to exclude federated participant telemetry.
+Unless you exclude federated participant data, these reports will include client telemetry from federated endpoints. To exclude federated endpoints, you must add a query filter for Second Tenant ID set to your organization's [tenant ID](cqd-data-and-reports.md#how-to-find-your-tenant-id). Alternatively, you can use a [URL filter](cqd-data-and-reports.md#url-filters) to exclude federated participant telemetry.
 
 
 
@@ -722,7 +722,7 @@ By supplying users with devices certified for Teams and Skype for Business, you 
 The device reports are used to assess device usage by volume and MOS score (audio only), and can be found in the accompanying templates under Clients & Devices. 
 
 > [!IMPORTANT]
-> Unless you exclude federated participant data, these reports will include client telemetry from federated endpoints. To exclude federated endpoints, you must add a query filter for **Second Tenant ID** set to your organization's [tenant ID](CQD-data-and-reports.md#how-to-find-your-tenant-id). ALternatively, you can use a [URL filter](CQD-data-and-reports.md#url-filters) to exclude federated participant telemetry.
+> Unless you exclude federated participant data, these reports will include client telemetry from federated endpoints. To exclude federated endpoints, you must add a query filter for **Second Tenant ID** set to your organization's [tenant ID](cqd-data-and-reports.md#how-to-find-your-tenant-id). ALternatively, you can use a [URL filter](cqd-data-and-reports.md#url-filters) to exclude federated participant telemetry.
 
 
 > [!Note]
@@ -769,7 +769,7 @@ Wi-Fi drivers also need to be patched on a regular cadence as well and should be
 
 [Upload tenant and building data](CQD-upload-tenant-building-data.md)
 
-[CQD data and reports](CQD-data-and-reports.md)
+[CQD data and reports](cqd-data-and-reports.md)
 
 [Dimensions and measures available in CQD](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
