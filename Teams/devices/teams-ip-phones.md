@@ -118,10 +118,10 @@ The following devices are Certified under the Microsoft Teams panels Certificati
 
 The following are the latest firmware versions released via Microsoft Teams Admin Center (TAC) for each device and OEM, as well as the Teams APK, Company Portal, and Admin Agent applications bundled into the firmware release. 
 
-> [!NOTE]
-> More recent and supported Microsoft Teams phones applications may be available for Android devices. Release details and notes for the latest Microsoft Teams phones applications can be found at: [What's new in Microsoft Teams devices](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones)
 See [Microsoft Teams phones feature set](phones-for-teams.md) for information on features supported by these devices.
 
+> [!NOTE]
+> More recent and supported Microsoft Teams phones applications may be available for Android devices. Release details and notes for the latest Microsoft Teams phones applications can be found at: [What's new in Microsoft Teams devices](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones)
 ### Firmware versions released to the Public cloud
 
 #### <b> Audiocodes </b>
@@ -210,10 +210,10 @@ See [Microsoft Teams phones feature set](phones-for-teams.md) for information on
 
 The following are the latest firmware versions released via Microsoft Teams Admin Center (TAC) for each device and OEM, as well as the Teams APK, Company Portal, and Admin Agent applications bundled into the firmware release. 
 
-> [!NOTE]
-> More recent and supported Microsoft Teams displays applications may be available for Android devices. Release details and notes for the latest Microsoft Teams displays applications can be found at [What's new in Microsoft Teams devices](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_displays)
 See [Microsoft Teams displays](teams-displays.md) for features supported by Teams displays devices. 
 
+> [!NOTE]
+> More recent and supported Microsoft Teams displays applications may be available for Android devices. Release details and notes for the latest Microsoft Teams displays applications can be found at [What's new in Microsoft Teams devices](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_displays)
 
 ### Firmware versions released to the Public cloud
 
@@ -249,10 +249,10 @@ See [Microsoft Teams displays](teams-displays.md) for features supported by Team
 
 The following are the latest firmware versions released via Microsoft Teams Admin Center (TAC) for each device and OEM, as well as the Teams APK, Company Portal, and Admin Agent applications bundled into the firmware release. 
 
-> [!NOTE]
-> More recent and supported Microsoft Teams panels applications may be available for Android devices. Release details and notes for the latest Microsoft Teams panels applications can be found at [What's new in Microsoft Teams devices](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_panels)
 See [Microsoft Teams panels](../devices/overview-teams-panels.md) for features supported by Teams panels devices. 
 
+> [!NOTE]
+> More recent and supported Microsoft Teams panels applications may be available for Android devices. Release details and notes for the latest Microsoft Teams panels applications can be found at [What's new in Microsoft Teams devices](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_panels)
 ### Firmware versions released to the Public cloud
 
 #### <b> Audiocodes </b>
