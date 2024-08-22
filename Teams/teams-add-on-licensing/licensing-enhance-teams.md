@@ -239,9 +239,9 @@ The Meet app in Teams allows users to view important details of their meetings i
 
 \* *Mentions of a user's name is pulled from the meeting transcript, not from an @mention tag in the meeting chat.*
 
-### Places Functionality
+### Places Workplace Collaboration
 
-Microsoft Places will be licensed as part of Microsoft Teams Premium, contributing to the Teams vision to build a **smart workplace.** With Places in Teams Premium, your users can experience upgraded features that support advanced booking, space analytics, and admin capabilities. To learn more about Places, see [Microsoft Places overview](/microsoft-365/places/places-overview).
+Microsoft Places will be licensed as part of Microsoft Teams Premium, contributing to the Teams vision to build a smart workplace**.** With Places in Teams Premium, your users can experience upgraded features that support advanced booking, space analytics, and admin capabilities. To learn more about Places, see [Microsoft Places overview](/microsoft-365/places/places-overview).
 
 ### Immersive Mesh Experiences
 
