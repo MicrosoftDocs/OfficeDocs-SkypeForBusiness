@@ -1,5 +1,5 @@
 ---
-title: Build a test image for Teams Rooms
+title: Create a Teams Rooms for Windows image
 ms.author: tonysmit
 author: mstonysmith
 ms.reviewer: Travis-Snoozy
@@ -18,10 +18,10 @@ ms.collection:
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
-description: This article describes how to create and apply Microsoft Teams Rooms installation media.
+description: This article describes how to create and apply Microsoft Teams Room for Windows installation media.
 ---
 
-# Build a Microsoft Teams Rooms image
+# Overview - Microsoft Teams Room for Windows image
 
 This article describes how to build a Microsoft Teams Rooms image of Teams Rooms.
 
