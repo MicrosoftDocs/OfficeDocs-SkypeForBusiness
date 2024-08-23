@@ -24,8 +24,6 @@ description: Learn how to create and set up dynamic filters and exclusions for S
 
 # Set up dynamic filters for SIP Gateway
 
-## Overview of dynamic filters
-
 This article explains how to exclude SIP Gateway from Conditional Access Policy, which is a feature that allows you to control access to your organization's resources based on certain conditions. You can exclude SIP Gateway from conditional access if you use it for voice and don't want to enforce extra security requirements on those users. In this article, you'll find the steps to create an exclusion group and assign it to the policy along with the prerequisites.
 
 The SIP Gateway resources mentioned in this article can’t be directly excluded from Conditional Access policies. Hence, we describe the dynamic app filter approach to exclude SIP Gateway apps. Also, simply excluding SIP Gateway apps won't address the gap as SIP Gateway apps don't own any scopes on their own and depend on Teams app for the required scopes.
