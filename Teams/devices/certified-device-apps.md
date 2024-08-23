@@ -42,7 +42,7 @@ For product release information about firmware and Teams app, refer to the follo
 The following are supported versions of Teams admin agent app:
 
 |**Release date**|**App version**|**Requirements**|**Related devices**|
-
+|:-----|:-----|:-----|:-----|
 |insert information|insert information|insert information|insert information|
 |insert information|insert information|insert information|insert information|
 |insert information|insert information|insert information|insert information|
@@ -54,7 +54,7 @@ The following are supported versions of Teams admin agent app:
 The following are supported versions of the Intune app:
 
 |**Release date**|**App version**|**Requirements**|**Related devices**|
-
+|:-----|:-----|:-----|:-----|
 |insert information|insert information|insert information|insert information|
 |insert information|insert information|insert information|insert information|
 |insert information|insert information|insert information|insert information|
@@ -66,7 +66,7 @@ The following are supported versions of the Intune app:
 The following are supported versions of the Microsoft Authenticator app:
 
 |**Release date**|**App version**|**Requirements**|**Related devices**|
-
+|:-----|:-----|:-----|:-----|
 |insert information|insert information|insert information|insert information|
 |insert information|insert information|insert information|insert information|
 |insert information|insert information|insert information|insert information|
