@@ -42,36 +42,33 @@ For product release information about firmware and Teams app, refer to the follo
 The following are supported versions of Teams admin agent app:
 
 |**Release date**|**App version**|**Requirements**|**Related devices**|
-|<Enter information>|<Enter information>|<Enter information>|<Enter information>|
-|<Enter information>|<Enter information>|<Enter information>|<Enter information>|
-|<Enter information>|<Enter information>|<Enter information>|<Enter information>|
-|<Enter information>|<Enter information>|<Enter information>|<Enter information>|
-|<Enter information>|<Enter information>|<Enter information>|<Enter information>|
-|<Enter information>|<Enter information>|<Enter information>|<Enter information>|
+|insert information|insert information|insert information|insert information|
+|insert information|insert information|insert information|insert information|
+|insert information|insert information|insert information|insert information|
+|insert information|insert information|insert information|insert information|
+|insert information|insert information|insert information|insert information|
 
 ## [Intune](#tab/Intune)
 
 The following are supported versions of the Intune app:
 
 |**Release date**|**App version**|**Requirements**|**Related devices**|
-|<Enter information>|<Enter information>|<Enter information>|<Enter information>|
-|<Enter information>|<Enter information>|<Enter information>|<Enter information>|
-|<Enter information>|<Enter information>|<Enter information>|<Enter information>|
-|<Enter information>|<Enter information>|<Enter information>|<Enter information>|
-|<Enter information>|<Enter information>|<Enter information>|<Enter information>|
-|<Enter information>|<Enter information>|<Enter information>|<Enter information>|
+|insert information|insert information|insert information|insert information|
+|insert information|insert information|insert information|insert information|
+|insert information|insert information|insert information|insert information|
+|insert information|insert information|insert information|insert information|
+|insert information|insert information|insert information|insert information|
 
 ## [Microsoft Authenticator](#tab/Authenticator)
 
 The following are supported versions of the Microsoft Authenticator app:
 
 |**Release date**|**App version**|**Requirements**|**Related devices**|
-|<Enter information>|<Enter information>|<Enter information>|<Enter information>|
-|<Enter information>|<Enter information>|<Enter information>|<Enter information>|
-|<Enter information>|<Enter information>|<Enter information>|<Enter information>|
-|<Enter information>|<Enter information>|<Enter information>|<Enter information>|
-|<Enter information>|<Enter information>|<Enter information>|<Enter information>|
-|<Enter information>|<Enter information>|<Enter information>|<Enter information>|
+|insert information|insert information|insert information|insert information|
+|insert information|insert information|insert information|insert information|
+|insert information|insert information|insert information|insert information|
+|insert information|insert information|insert information|insert information|
+|insert information|insert information|insert information|insert information|
 
 ## Related articles
 - [Microsoft Teams certified Android devices](/microsoftteams/devices/teams-ip-phones)
