@@ -241,6 +241,10 @@ Teams Premium provides custom Mesh experience capabilities for your users, such 
 | Develop a custom environment | Yes| No admin control. |[Mesh Development Overview](/mesh/develop/development-overview) |
 | Download the Mesh app | Yes| No admin control. |[Getting started with events in Microsoft Mesh](/mesh/user-guide/getting-started) |
 
+## Advanced Places Workplace Collaboration
+
+Microsoft Places will be licensed as part of Microsoft Teams Premium, contributing to the Teams vision to build a smart workplace. With Places in Teams Premium, your users can experience upgraded features that support advanced booking, space analytics, and admin capabilities. To learn more about Places, see [Microsoft Places overview](/microsoft-365/places/places-overview).
+
 ## Intelligent call recap
 
 **Intelligent call recap** provides AI-powered insights and recaps to Public Switched Telephone Network (PSTN) and 1:1 Teams calls.
