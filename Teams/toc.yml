@@ -1519,6 +1519,8 @@ items:
               href: sip-gateway-plan.md
             - name: Configure SIP Gateway
               href: sip-gateway-configure.md
+            - name: Dynamic filters
+              href: sip-gateway-dynamic-filters.md
         - name: Deploy
           items:
             - name: Plan phones and displays deployment
