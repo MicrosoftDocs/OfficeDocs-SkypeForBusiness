@@ -137,33 +137,6 @@ When set to **Blocked**, users from these trial-only tenants aren't able to sear
 
 Users from trial-only tenants are blocked by default (with no option to override) from external communication with users in other Microsoft 365 cloud environments and with Microsoft Skype for Business server users. Two tenants with only trial subscriptions can federate with each other if the -ExternalAccessWithTrialTenants is Allowed by both tenants.
 
-##### How block federation will affect your organization
-
-Teams PowerShell will support a new Tenant Federation setting, `-ExternalAccessWithTrialTenants`, with the values **Allowed** or **Blocked**.
-
-When set to **Blocked**, all external access with users from Teams subscriptions that contain only trial licenses will be blocked. This means users from these trial-only tenants won't be able to search and contact your users via chats, Teams calls, and meetings (using the users' authenticated identities) and your users won't be able to reach users in these trial-only tenants.
-
-If this setting is set to **Blocked**, users from the trial-only tenant will also be removed from existing chats.
-
-##### More information
-
-- A **trial tenant** is defined as a tenant with a Teams service plan that has only Trial subscriptions (0 purchased seats).
-- Shared Channels and Anonymous Meeting joins won't be affected by this setting.
-- The feature supports the tenant admin control only for same-cloud external communication. For cross-clouds and Skype for Business Server on-premises deployments, external communication with trial tenants will be disabled by default, with no option to override by the admin setting.
-- If your tenant has disabled external access by default and is using a specific domain Allowlist instead, trial tenants will still be blocked even if they are in the organization's Allowlist.
-
-##### What you need to do to prepare
-
-- Tenant admins need to install the latest PowerShell package (6.2.2) and use the `Set-CsTenantFederationConfiguration` command to set the desired value for the federation with trial tenants:
-  - Download or upgrade to the latest PowerShell package: PowerShell Gallery | MicrosoftTeams 6.2.0
-  - To allow external communication with trial-only tenants, use this command:
-    `Set-CsTenantFederationConfiguration -ExternalAccessWithTrialTenants "Allowed"`
-  - To block external communication with trial-only tenants, use this command:
-    `Set-CsTenantFederationConfiguration -ExternalAccessWithTrialTenants "Blocked"`
-
-> [!IMPORTANT]
-> If you want to restrict external access for most trial tenants, but still allow a few legitimate trial-tenants with which you need to federate, you'll need to purchase a license for those specific accounts.
-
 #### Diagnostic Tool
 
 If you're an administrator, you can use the following diagnostic tool to validate if a Teams user can communicate with a Teams user in a trusted organization:
