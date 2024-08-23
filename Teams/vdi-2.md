@@ -427,27 +427,31 @@ For further investigating VDI connection-related issues, using keyword **vdiBR
 
 ### Connection error
 
-If there's a connection error, the error code can be found from the log line containing "loadErrc" and "deployErrc". The code logged here needs to be mapped using this table:
+If there's a connection error, the error code can be found from the log line containing "loadErrc" and "deployErrc". A deploy error (also known as install_error) is an error that happens when the plugin was trying to download the SlimCore MSIX package from Microsoft's CDN and stage or provision it to the endpoint using the App Readiness Service for AppX. A load error is an error that happens when the plugin tried to start MsTeamsVdi.exe and establish a Remote Procedure Call (RPC) to it.
 
-|Error code |deployErrc |Definition                       |Notes |
-|-----------|-----------|---------------------------------|------|
-|0          |0          |OK                               |Special code for 'ConnectedNoPlugin' Telemetry Messages. |
-|5          |43         |ERROR_ACCESS_DENIED              |MsTeamsVdi.exe process failed at startup. Could be caused by BlockNonAdminUserInstall being enabled. Or the endpoint could be busy registering multiple MSIX packages after a user logon and it didn't finish registering SlimCoreVdi. |
-|404        |3235       |HTTP_STATUS_NOT_FOUND            |Publishing issue: SlimCore MSIX package isn't found on CDN. |
-|1260       |10083      |ERROR_ACCESS_DISABLED_BY_POLICY  |This error usually means that Windows Package Manager can't install the SlimCore MSIX package. Event Viewer can show the hex error code 0x800704EC. AppLocker Policies can cause this error code. You can either disable AppLocker, or add an exception for SlimCoreVdi packages in Local Security Policy -> Application Control Policies -> AppLocker. Check 'Step 3' under "Optimizing with new VDI solution for Teams". |
-|1460       |11683      |ERROR_TIMEOUT                    |MsTeamsVdi.exe process failed at startup (60-second timeout). |
-|1722       |           |RPC_S_SERVER_UNAVAILABLE         |'The RPC server is unavailable' MsTeamsVdi.exe related error. |
-|2000       |16002      |No Plugin                        |Endpoint doesn't have the MsTeamsPlugin, or if it has it, it didn't load (check with Process Explorer). |
-|2001       |           |Virtual Channel Not Available    |Error on Citrix VDA WFAPI. |
-|3000       |24002      |SlimCore Deployment not needed   |This code isn't really an error. It's a good indicator that the user is on the new optimization architecture with SlimCore. |
-|3001       |24010      |SlimCore already loaded          |This code isn't really an error. It's a good indicator that the user is on the new optimization architecture with SlimCore. |
-|3004       |24035      |Plugin irresponsive              |Try restarting RDP or ICA session. |
-|3005       |24043      |Plugin timeout while downloading |Failure to download the MSIX within 2 minutes. |
-|3007       |24058      |Load timeout                     |SlimCore download or installation timed out (slow internet or App Readiness Service is busy). |
-|4000       |           |ERROR_WINS_INTERNAL              |WINS encountered an error while processing the command. |
-|15615      |1951       |ERROR_INSTALL_POLICY_FAILURE     |SlimCore MSIX related error. To install this app, you need either a Windows developer license, or a sideloading-enabled system. AllowAllTrustedApps regkey might be set to 0? |
-|15616      |           |ERROR_PACKAGE_UPDATING           |SlimCore MSIX related error 'The application cannot be started because it is currently updating'. |
-|15700      |           |APPMODEL_ERROR_NO_PACKAGE        |The process has no package identity. There's no alias for MsTeamsVdi in %LOCALAPPDATA%\Microsoft\WindowsApps. [Feedback Hub](https://support.microsoft.com/windows/send-feedback-to-microsoft-with-the-feedback-hub-app-f59187f8-8739-22d6-ba93-f66612949332) logs are needed while reproducing the error (make sure you select **Developer Platform** as the category and **App deployment** as the subcategory)|
+The code logged here needs to be mapped using this table:
+
+|loadErrc   |deployErrc |Definition                         |Notes |
+|-----------|-----------|-----------------------------------|------|
+|0          |0          |OK                                 |Special code for 'ConnectedNoPlugin' Telemetry Messages. |
+|5          |43         |ERROR_ACCESS_DENIED                |MsTeamsVdi.exe process failed at startup. Could be caused by BlockNonAdminUserInstall being enabled. Or the endpoint could be busy registering multiple MSIX packages after a user logon and it didn't finish registering SlimCoreVdi. |
+|404        |3235       |HTTP_STATUS_NOT_FOUND              |Publishing issue: SlimCore MSIX package isn't found on CDN. |
+|1260       |10083      |ERROR_ACCESS_DISABLED_BY_POLICY    |This error usually means that Windows Package Manager can't install the SlimCore MSIX package. Event Viewer can show the hex error code 0x800704EC. AppLocker Policies can cause this error code. You can either disable AppLocker, or add an exception for SlimCoreVdi packages in Local Security Policy -> Application Control Policies -> AppLocker. Check 'Step 3' under "Optimizing with new VDI solution for Teams". |
+|1460       |11683      |ERROR_TIMEOUT                      |MsTeamsVdi.exe process failed at startup (60-second timeout). |
+|1722       |           |RPC_S_SERVER_UNAVAILABLE           |'The RPC server is unavailable' MsTeamsVdi.exe related error. |
+|2000       |16002      |No Plugin                          |Endpoint doesn't have the MsTeamsPlugin, or if it has it, it didn't load (check with Process Explorer). |
+|2001       |           |Virtual Channel Not Available      |Error on Citrix VDA WFAPI. |
+|3000       |24002      |SlimCore Deployment not needed     |This code isn't really an error. It's a good indicator that the user is on the new optimization architecture with SlimCore. |
+|3001       |24010      |SlimCore already loaded            |This code isn't really an error. It's a good indicator that the user is on the new optimization architecture with SlimCore. |
+|3004       |24035      |Plugin irresponsive                |Try restarting RDP or ICA session. |
+|3005       |24043      |Plugin timeout while downloading   |Failure to download the MSIX within 2 minutes. |
+|3007       |24058      |Load timeout                       |SlimCore download or installation timed out (slow internet or App Readiness Service is busy). |
+|4000       |           |ERROR_WINS_INTERNAL                |WINS encountered an error while processing the command. |
+|15615      |1951       |ERROR_INSTALL_POLICY_FAILURE       |SlimCore MSIX related error. To install this app, you need either a Windows developer license, or a sideloading-enabled system. AllowAllTrustedApps regkey might be set to 0? |
+|15616      |           |ERROR_PACKAGE_UPDATING             |SlimCore MSIX related error 'The application cannot be started because it is currently updating'. |
+|15700      |           |APPMODEL_ERROR_NO_PACKAGE          |The process has no package identity. There's no alias for MsTeamsVdi in %LOCALAPPDATA%\Microsoft\WindowsApps. [Feedback Hub](https://support.microsoft.com/windows/send-feedback-to-microsoft-with-the-feedback-hub-app-f59187f8-8739-22d6-ba93-f66612949332) logs are needed while reproducing the error (make sure you select **Developer Platform** as the category and **App deployment** as the subcategory) |
+|16389      |           |E_FAIL reported by Package Manager |Usually the same as Load error code 5 (ERROR_ACCESS_DENIED).
+Most likely caused by the BlockNonAdminUserInstall policy when the user is not an Admin. Check [this link](/windows/client-management/mdm/policy-csp-applicationmanagement#blocknonadminuserinstall) for more details. |
 
 ## Using Event Viewer on the VM for troubleshooting
 
