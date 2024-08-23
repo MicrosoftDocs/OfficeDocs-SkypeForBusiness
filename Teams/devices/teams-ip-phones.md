@@ -101,7 +101,7 @@ The following devices are Certified under the Microsoft Teams panels Certificati
 
 | Device model| Firmware version | Current certification end date | Android OS version |
 |:------------------------|:-----------------|:--------------|-----------------------|
-|Cisco Navigator | `CiscoOS 11.20 `|August 15, 2027  | 12 |
+|Cisco Navigator | `CiscoOS 11.20 `|August 15, 2027  | 13 |
 |Audiocodes RX-Panel | `2.1.457`|August 15, 2027  | 12 |
 |Crestron TSS-770 | `2.001.0058` |September 3, 2025  | 10 |
 |Crestron TSS-1070 | `2.001.0058`|September 3, 2025 | 10 |
