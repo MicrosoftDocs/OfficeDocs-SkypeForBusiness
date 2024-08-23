@@ -140,6 +140,7 @@ To add or deactivate custom security attributes definitions, you must have:
    :::image type="content" source="media/powershell-output-expected.png" alt-text="Screenshot of the output that is expected after running cmdlets.":::
 
 **Bulk device sign-in**
+
 If you are using bulk-sigin for your devices, you will also have to add this extra service principal Teams SIP Gateway:
 
 ```powershell
@@ -148,8 +149,8 @@ Get-AzureADServicePrincipal -Filter "AppId eq '61c8fd69-c13e-4ee6-aaa6-24ff71c09
 ```
 
 If you get no output, then run:
-```powershell
 
+```powershell
 New-AzureADServicePrincipal -AppId "61c8fd69-c13e-4ee6-aaa6-24ff71c09bca"
 ```
 
@@ -196,7 +197,7 @@ New-MgServicePrincipal -AppId "61c8fd69-c13e-4ee6-aaa6-24ff71c09bca"
 10. Select **Done**.
 11. Review and confirm your settings.
 
-   :::image type="content" source="media/include-all-apps-settings.png" alt-text="Screenshot displaying the settings that need confirmation.":::
+    :::image type="content" source="media/include-all-apps-settings.png" alt-text="Screenshot displaying the settings that need confirmation.":::
 
 12. Select **Save** to enable your policy.
 
