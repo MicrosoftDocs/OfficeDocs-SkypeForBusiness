@@ -139,7 +139,7 @@ To add or deactivate custom security attributes definitions, you must have:
 
 2. After running these cmdlets, you should get the following output to proceed:
 
-   :::image type="content" source="media/Powershell-output-expected.png" alt-text="Screenshot of the output that is expected after running cmdlets.":::
+   :::image type="content" source="media/powershell-output-expected.png" alt-text="Screenshot of the output that is expected after running cmdlets.":::
 
 **Bulk device sign-in**
 If you are using bulk-sigin for your devices, you will also have to add this extra service principal Teams SIP Gateway:
