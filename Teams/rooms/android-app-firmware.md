@@ -3,7 +3,7 @@ title: Teams Rooms on Android app and firmware versions
 ms.author: tonysmit
 author: mstonysmith
 ms.reviewer: divank
-ms.date: 11/04/2023
+ms.date: 08/21/2024
 manager: pamgreen
 audience: Admin
 ms.topic: article
@@ -145,8 +145,8 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 | Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
 | EPOS EXPAND Vision 5T |`v2.1.24193.02`| N/A |  `1449/1.0.96.2024061103`| `5.0.6152.0` | `1.0.0.202402202353.product`| August 6, 2024|
-| EPOS EXPAND Control 3C |`v2.0.24185.02`| N/A |  `1449/1.0.96.2024061103`| `5.0.6152.0` | `1.0.0.202402202353.product`| August 6, 2024|
-| EPOS EXPAND Vision 3T |`v2.1.24193.02`| N/A |  `1449/1.0.96.2024032804`| `5.0.6152.0` | `1.0.0.202402202353.product`| August 6, 2024|
+| EPOS EXPAND Control 3C |`v2.1.24193.02`| N/A |  `1449/1.0.96.2024061103`| `5.0.6152.0` | `1.0.0.202402202353.product`| August 6, 2024|
+| EPOS EXPAND Vision 3T |`v2.0.24185.02`| N/A |  `1449/1.0.96.2024032804`| `5.0.6152.0` | `1.0.0.202402202353.product`| August 6, 2024|
 | EPOS EXPAND Vision 5T |`v2.0.24113.02`| N/A |  `1449/1.0.96.2024032804`| `5.0.5484.0` | `1.0.0.202402202353.product`| February 20, 2024|
 | EPOS EXPAND Control 3C |`v2.0.24113.03`| N/A |  `1449/1.0.96.2024032804`| `5.0.5484.0` | `1.0.0.202402202353.product`| February 8, 2024|
 | EPOS EXPAND Vision 5T |`v1.9.23365.01`| N/A |  `1449/1.0.96.2023062301`| `5.0.5484.0` | `1.0.0.202310260109.product`| February 20, 2024|
@@ -173,6 +173,8 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 
 | Device model  | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
+| Logi Rallybar | `1.12.268` | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | August 21, 2024|
+| Logi Rallybar Mini | `1.12.268` | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | August 21, 2024|
 | Logi Rallybar | `1.12.264` | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | July 2, 2024|
 | Logi Rallybar Mini | `1.12.264` | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | July 2, 2024|
 | Logi RoomMate | `1.12.240`   | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | July 2, 2024|

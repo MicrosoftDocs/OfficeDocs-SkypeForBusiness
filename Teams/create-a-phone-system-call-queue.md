@@ -71,33 +71,17 @@ Type a name for the Call queue in the box at the top.
 
 ### Add an existing resource account
 
-All Call queues must have an associated resource account. All resource accounts must be assigned a [Microsoft Teams Phone Resource Account license](teams-add-on-licensing/virtual-user.md). If you wish, you can assign several resource accounts to a Call queue. 
+Before you can create and manage resource accounts, you must do the following:
 
-To add an existing resource account:
+- [Obtain Microsoft Teams Phone Resource Account licenses](manage-resource-accounts.md#obtain-microsoft-teams-phone-resource-account-licenses)
+- [Obtain phone numbers](manage-resource-accounts.md#obtain-phone-numbers)
+- [Assign permissions for managing a resource account](manage-resource-accounts.md#assign-permissions-for-managing-a-resource-account)
 
-1. Under **Resource accounts**, select the **Add** button to add a resource account for this Call queue.
-1. On the **Add accounts** pane, search for the resource account to add.
-1. Select the **Add** button next to the resource account you want to assign to this Call queue.
-1. At the bottom of the pane, select the **Add** button.
+All Call queues must have an associated resource account. All resource accounts must be assigned a [Microsoft Teams Phone Resource Account license](teams-add-on-licensing/virtual-user.md). If you wish, you can assign several resource accounts to a Call queue.
 
-### Create a new resource account:
-
-1. Under **Resource accounts**, select the **Add** button to add a resource account for this Call queue.
-1. On the **Add accounts** pane, search for any set of letters to pull up the results dropdown.
-1. Select the **+ Add a resource account** button at the bottom of the results.
-1. On the **Add resource account** pane:
-    1. Type in a descriptive **Display name**. Agents see this name when a call is presented to them.
-    1. Type in a descriptive **Username** for the resource account.
-    1. Select the **Resource account type** dropdown and select **Call queue**.
-1. At the bottom of the pane, select the **Save** button.
-1. On the **Resource accounts** pane, select the **Add** button.
-
->[!NOTE]
-> Remember to assign a [Microsoft Teams Phone Resource Account license](manage-resource-accounts.md#assign-a-license).
+For details on how to create resource accounts and ready them for use with auto attendants, see [Manage Teams resource accounts](manage-resource-accounts.md).
 
 Agents see the resource account name when they receive an incoming call.
-
-For more information, see [Manage Teams resource accounts](manage-resource-accounts.md).
 
 ### Assign a calling ID (optional)
 
@@ -117,17 +101,7 @@ Assign outbound caller ID numbers for the agents by specifying one or more resou
 1. Select the **Add** button next to the resource account with an assigned phone number.
 1. Select the **Add** button at the bottom of the pane.
 
-If you don't have a resource account with an assigned phone number:
-
-1. Under **Resource accounts**, select the **Add** button to add a resource account.
-1. On the **Add accounts** pane, search for any set of letters to pull up the results dropdown.
-1. Select the **+ Add a resource account** button at the bottom of the results.
-1. On the **Add resource account** pane:
-    1. Type in a descriptive **Display name**. Agents see this name when a call is presented to them.
-    1. Type in a descriptive **Username** for the resource account.
-    1. Select the **Resource account type** dropdown and select **Call queue**.
-1. At the bottom of the pane, select the **Save** button.
-1. On the **Resource accounts** pane, select the **Add** button.
+If you don't have a resource account with an assigned phone number, you must create a resource account. For more information, see [Create a Teams resource accounts](manage-resource-accounts.md#create-a-resource-account).
 
 After you create this new resource account for calling ID, you still need to:
 
@@ -460,7 +434,7 @@ For more information, see:
 |Presence Based Routing<sup>4</sup>|Y                        |Y         |Y                             |Y<sup>11</sup>                 |N                  |Y         |Y                     |Y                         |*Default*     |
 |Agents can opt out               |Y                         |Y         |Y                             |Y<sup>11</sup>                 |Y<sup>8</sup>      |Y<sup>8</sup>|Y                  |Y                         |*Default*     |
 |**Transfer Modes**               |                          |          |                              |                               |                   |          |                      |                          |              |
-|Conference Mode<sup>6</sup>      |Y                         |Y         |Y                             |Y                              |N                  |Y<sup>7</sup>|Y                  |Y                         |*Default*     |
+|Conference Mode<sup>6</sup>      |Y                         |Y         |Y                             |Y                              |N                  |Y         |Y                  |Y                         |*Default*     |
 |Transfer Mode                    |Y                         |Y         |Y                             |Y                              |Y                  |Y         |Y                     |Y                         |              |
 |**Collaborative Calling**        |                          |          |                              |                               |                   |          |                      |                          |              |
 |Channel Based Queues             |Y                         |N         |N                             |N                              |N                  |N         |N/A                   |Y<sup>9</sup>             |Agents on non-supported devices can still answer calls however they won't have the collaborative calling user interface           |
