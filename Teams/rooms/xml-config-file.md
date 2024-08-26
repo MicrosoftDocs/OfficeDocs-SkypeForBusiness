@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
 ms.reviewer: sohailta
-ms.date: 07/15/2024
+ms.date: 08/22/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -57,11 +57,7 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
   <AudioRenderCommunicationDeviceVolume>50</AudioRenderCommunicationDeviceVolume>
   <UserAccount>
     <SkypeSignInAddress>username@microsoft.com</SkypeSignInAddress>
-    <ExchangeAddress>username@microsoft.com</ExchangeAddress>
-    <DomainUsername>domain\username</DomainUsername>
     <Password>Password!</Password>
-    <ConfigureDomain>domain1, domain2</ConfigureDomain>
-    <ModernAuthEnabled>true</ModernAuthEnabled>
   </UserAccount>
   <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
   <SfbMeetingEnabled>false</SfbMeetingEnabled>
@@ -144,15 +140,11 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | Element | Type | Level | Usage |
 |:--|:--|:--|:--|
 | `<SkypeSettings>` | Container for all elements. |  | Required. |
-| `<AutoScreenShare>` | Boolean &#x2777; | First &#x2776; | If true, auto screen share is enabled. |
+| `<AutoScreenShare>` | Boolean &#x2777; | First &#x2776; | If true, a connected HDMI ingest will be automatically shared on the Front of Room display and when in a Teams Meeting it will be automatically shared to remote participants. If false, a connected HDMI ingest will be automatically shared on the Front of Room display in and out of a Teams meeting but it will not be shared to remote participants in the meeting automatically, users will need to select the share icon to shared content to remote participants. |
 | `<HideMeetingName>` | Boolean &#x2777; | First &#x2776; | If true, meeting names are hidden. |
 | `<UserAccount>` | Container | First &#x2776; | Container for credentials parameters. The sign-in address, Exchange address, or email address are usually the same, such as RainierConf<span></span>@contoso.com. |
 | `<SkypeSignInAddress>` | String &#x2777; |  | The sign-in name for the console's SfB or Teams device account. |
-| `<ExchangeAddress>` | String  &#x2778; |  | The sign-in name for the console's Exchange device account. If the ExchangeAddress is omitted, the SkypeSignInAddress will not be reused automatically. |
-| `<DomainUsername>` | String  &#x2777; |  | The domain and user name of the console device, for example Seattle\RainierConf. |
 | `<Password>` | String  &#x2778; |  | The password parameter is the same password used for the Skype for Business device account sign-in. |
-| `<ConfigureDomain>` | String  &#x2777; |  | You can list several domains, separated by commas. |
-| `<ModernAuthEnabled>` | Boolean &#x2777; |  | Disabled by default. <br/> <br/>When set to true, the Microsoft Teams Rooms application only uses modern authentication to connect to resources and doesn't fall back to basic authentication. |
 | `<TeamsMeetingsEnabled>` | Boolean &#x2777; | First &#x2776; | Disabled by default. <br/> <br/> The XML file is considered badly formed if both `<SkypeMeetingsEnabled>` and`<TeamsMeetingsEnabled>` are disabled, but it's acceptable to have both settings enabled at the same time. |
 | `<SfbMeetingEnabled>` | Boolean &#x2777; | First &#x2776; | Disabled by default. |
 | `<IsTeamsDefaultClient>` | Boolean &#x2777; | First &#x2776; | Enabled by default. |
@@ -169,7 +161,7 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | `<AllowRoomRemoteEnabled>` | Boolean &#x2777; | First &#x2776; | If true, room remote connections are allowed. Enabled by default. |
 | `<RoomQRcodeEnabled>` | Boolean &#x2777; | First &#x2776; | If true, a QR code is shown on the home screen. Users can scan the QR code to quickly join meetings with the room system. Enabled by default. For more information, see [Join meetings with QR codes](/microsoftteams/rooms/teams-rooms-qr-codes).|
 | `<QRCodeAutoAcceptProximateMeetingInvitations>` | Boolean &#x2777; | First &#x2776; | If true, proximity based meeting invitations via QR code are automatically accepted. Enabled by default. For more information, see [Join meetings with QR codes](/microsoftteams/rooms/teams-rooms-qr-codes).|
-| `<AutoExitMeetingEnabled>` | Boolean &#x2777; | First &#x2776; | If true, device will automatically leave the meeting if it is the last participant remaining in the meeting.  Disabled by default. |
+| `<AutoExitMeetingEnabled>` | Boolean &#x2777; | First &#x2776; | If true, device will automatically leave the meeting if it is the last participant remaining in the meeting before or after the meeting end time.  Disabled by default. |
 | `<DualScreenMode>` | Boolean &#x2777; | First &#x2776; | If true, dual screen mode is enabled. Otherwise the device uses single screen mode. |
 | `<DuplicateIngestDefault>` | Boolean &#x2777; | First &#x2776; | If true, content is shown on both screens in dual screen mode, when out of meeting. |
 | `<DisableTeamsAudioSharing>` | Boolean &#x2777; | First &#x2776; | Set to true to disable HDMI audio sharing to meeting participants in Teams meeting. The default is false. |

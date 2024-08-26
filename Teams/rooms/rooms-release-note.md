@@ -3,8 +3,8 @@ title: Release notes for Microsoft Teams Rooms
 ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
-ms.reviewer: sohailta
-ms.date: 07/30/2024
+ms.reviewer: henrikalim
+ms.date: 08/21/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -722,6 +722,7 @@ Introduced in this update:
 
 |Release  |Release date  |
 |---------|---------|
+|[1449/1.0.96.2024080804](#144910962024080804-august-2024) | August 2024 |
 |[1449/1.0.96.2024061103](#144910962024061103-june-2024) | June 2024 |
 |[1449/1.0.96.2024042606](#144910962024042606-april-2024) | April 2024 |
 |[1449/1.0.96.2024032804](#144910962024032804-april-2024) | April 2024 |
@@ -750,6 +751,25 @@ Introduced in this update:
 > There can be a delay between when features are released by Microsoft and when they become available on a device make and model. If an update isn't available on your device, check with your device manufacturer for information on when it might become available.
 
 Features with :::image type="icon" source="../media/mtr-pro-icon.png"::: are only available with Teams Rooms Pro license.
+
+### 1449/1.0.96.2024080804 (August 2024)
+
+Introduced in this update:
+
+- **Custom backgrounds<sup>1</sup>**:::image type="icon" source="../media/mtr-pro-icon.png":::. IT admins can upload custom background images on the Teams admin center to reinforce their company brand on their Teams Rooms on Android devices. The main room display, extended room display, and touch console can each have their own specific background image. PNG, JPG, and JPEG formats are supported. This feature is only available with the Teams Rooms Pro license. [Learn more](/microsoftteams/rooms/custom-backgrounds-android).
+- **Join Zoom meetings with an ID and passcode**. Users can now join Zoom meetings with an ID and a passcode on Teams Rooms on Android. Rooms must be configured to enable Direct Guest Join meetings. [Learn more](/microsoftteams/rooms/third-party-join).
+
+Resolved issues:
+
+- Joining meetings on Cisco devices results in meeting drops and returning to the home screen.
+- Built-in Teams backgrounds are not downloading successfully.
+- Tapping Meet now on Logitech TAP devices shows a notification that the app does not support launching on secondary displays.
+- When joining Direct Guest Join meetings while the HDMI ingest cable is connected, the HDMI ingest feed is shown as the room video instead of the local room camera feed.
+- Volume is increased and decreased by increments of 30 instead of 10 on Logitech devices.
+- Participant video gets re-framed from fit-to-frame to fill-frame intermittently on Cisco devices.
+- Various meeting and call reliability issues.
+
+<sup>1</sup>Neat devices are excluded from this rollout of custom backgrounds due to an issue that is unique to Neat devices. Once the issue is resolved, custom backgrounds will be enabled for Neat devices in a later release. 
 
 ### 1449/1.0.96.2024061103 (June 2024)
 
