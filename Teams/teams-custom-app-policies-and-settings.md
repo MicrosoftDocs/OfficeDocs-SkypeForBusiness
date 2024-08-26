@@ -27,16 +27,16 @@ ms.custom:
   - seo-marvel-mar2020
 ---
 
-# Manage custom apps in Teams admin center
+# Manage custom apps in Microsoft Teams admin center
 
 Your organization can commission creation of Teams apps that work only within your organization. Such apps are available within your organizations or tenant but aren't available on the Teams store. Users can discover and use such apps from Teams client and admins can govern such apps from the admin centers, but such apps aren't available on [AppSource](https://appsource.microsoft.com/). Such apps are called custom apps.
 
 As a Teams Administrator or a Global Administrator, you use various settings to control the following scenarios:
 
-* Who can upload custom apps to Microsoft Teams for their personal use.
-* Which custom apps you allow for all org users that developers submit for your approval.
-* Whether users can use custom apps or not.
-* Allow or disallow upload of custom apps to a particular team.
+* Let users add custom apps to their Teams client for their personal use.
+* Let users use specific custom apps from amongst all the custom apps available in your org.
+* Disallow all users to not use custom apps.
+* Allow or disallow team users to add custom apps to a particular team.
 
 :::image type="content" source="media/upload-custom-apps.png" alt-text="Overview of a custom app from development to deployment.":::
 
@@ -64,7 +64,7 @@ As Teams administrator, you have the following controls on upload and use of cus
 | Allow or disallow specific users from uploading custom apps | Use [app setup policy](#allow-users-to-upload-custom-apps) | You apply app setup policy to specific users to allow or disallow them from uploading custom app in personal context or in a team. Users can still submit custom apps for your approval. |
 | Allow or disallow all users from uploading custom apps | Use [custom app setting in Org-wide app settings](manage-apps.md#manage-org-wide-app-settings) | Users can't upload custom apps even in their personal context. Users can still submit custom apps for your approval. |
 | Restrict app access for a few users | Use [app permission policy](teams-app-permission-policies.md) | You granularly control which users have access to what particular custom app (also applies to third-party apps). |
-| Delete a custom app | [Delete an app](#delete-custom-apps-from-your-organizations-catalog) | The deleted app isn't available in your org. It's removed for existing users too. |
+| Delete a custom app | [Delete an app](#delete-custom-apps-from-your-organizations-catalog) | The deleted app isn't available in your org. Existing app users also can't use it anymore. |
 
 If you disallow custom app upload, app developers can [create a separate test tenant to test apps](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant). Once custom app development is complete, app creators request admins to distribute their custom app. For details, see [how to publish a custom app](/microsoftteams/upload-custom-apps). As an admin, you allow or block the use of a custom app for all users or for specific users.
 
@@ -101,11 +101,11 @@ Microsoft Teams provides granular control over who can add custom apps to a team
 
    :::image type="content" source="media/teams-custom-app-policy-and-settings-org-wide.png" alt-text="Screenshot showing the org-wide custom app settings.":::
 
-* [**App setup policy**](#app-setup-policy-settings-for-custom-apps) for specific users: The setting named **Upload custom apps** in the app setup policy lets assigned users to upload custom apps. You can use this setting to allow specific users in your org to upload custom apps.
+* [**App setup policy**](#app-setup-policy-settings-for-custom-apps) for specific users: The setting named **Upload custom apps** in the app setup policy lets assigned users upload custom apps. You can use this setting to allow specific users in your org to upload custom apps.
 
    :::image type="content" source="media/upload-custom-app-setup-policy.png" alt-text="Screenshot showing the custom app option available in an app setup policy.":::
 
-* [**Allow members to upload custom apps**](#team-setting-for-custom-app) at team level: This setting in each team determines if users of a team can upload custom apps or not. Team owners and Teams admins can modify this setting. Using this setting team owners can prevent custom app upload to a specific team even if the users are allowed to upload custom apps.
+* [**Allow members to upload custom apps**](#team-setting-for-custom-app) at team level: This setting in each team determines if users of a team can upload custom apps or not. Team owners and Teams admins can modify this setting. Using this setting, team owners can prevent custom app upload to a specific team even if the users are allowed to upload custom apps.
 
 If an admin uploads a custom app, it's available in the organization's catalog in the store without requiring any approval. You can allow some org users using app permission policy to use such an app. The impact of team setting and app setup policy on user's ability to upload custom apps is summarized in the following table.
 
@@ -145,7 +145,7 @@ To configure the custom apps related setting in a team, follow these steps as a 
 
 1. Select **Settings** and expand **Member permissions**.
 
-1. Select or clear the **Allow members to upload custom apps** check box.
+1. Select or clear the **Allow members to upload custom apps** option.
 
    :::image type="content" source="media/teams-custom-app-policy-and-settings-team-trim.png" alt-text="Screenshot showing the team custom app setting." lightbox="media/teams-custom-app-policy-and-settings-team.png":::
 
