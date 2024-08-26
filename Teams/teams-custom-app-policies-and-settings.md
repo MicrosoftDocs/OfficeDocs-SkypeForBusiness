@@ -8,7 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.subservice: teams-apps
 ms.service: msteams
 audience: Admin
-ms.date: 08/21/2024
+ms.date: 08/26/2024
 ms.reviewer: mhayrapetyan
 ms.collection: 
   - M365-collaboration
@@ -186,7 +186,7 @@ Consider a scenario where you want to allow only team owners to upload custom ap
 
 ## Custom apps in 21Vianet and air-gapped cloud environments
 
-You can [upload custom apps](#upload-a-custom-app-using-teams-admin-center) in Microsoft 365 operated by 21Vianet and air-gapped cloud environments by using the Teams apps > Manage apps page. Also, you can [update your existing custom app](#update-a-custom-app-to-a-new-version) from the app details page.
+You can [upload custom apps](#upload-a-custom-app-using-teams-admin-center) in Microsoft 365 operated by 21Vianet and air-gapped cloud environments by using the Teams apps > Manage apps page. Also, you can [update your existing custom app](#update-a-custom-app-using-teams-admin-center) from the app details page.
 
 ## Related article
 
