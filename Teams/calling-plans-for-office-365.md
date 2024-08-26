@@ -62,22 +62,22 @@ To decide which option is right for your organization, ask yourself the followin
 - Do my users need international calling?
 - If some of my users don't make a significant number of outgoing calls, is the Pay-As-You-Go Calling Plan the most economical option for them?
 
-All users in the same country/region with the same Calling Plan share a pool of minutes. For example, if you have 100 users located in the United States with a Domestic Calling Plan assigned, each user will be allocated 3,000 minutes and they will all share a pool of 300,000 minutes. All calls exceeding these minutes are billed per minute. **Pooling is only available on identical Calling Plans.**
+All users in the same country with the same Calling Plan share a pool of minutes. For example, if you have 100 users located in the United States with a Domestic Calling Plan assigned, each user is allocated 3,000 minutes and they all share a pool of 300,000 minutes. All calls exceeding these minutes are billed per minute. **Pooling is only available on identical Calling Plans.**
 
 > [!NOTE]
-> The country/region is based on the location of the user's license in the **Microsoft 365 admin center** > **Active users** and **NOT** the billing address listed under the **Organization Profile** in the **Microsoft 365 admin center**.
+> The country is based on the location of the user's license in the **Microsoft 365 admin center** > **Active users** and **NOT** the billing address listed under the **Organization Profile** in the **Microsoft 365 admin center**.
 
-For more information about monthly minutes available in each country/region, see [Country and region availability](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+For more information about monthly minutes available in each country, see [Country and region availability](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
 ### Domestic Calling Plan
 
-With the Domestic Calling Plan, licensed users can call out to numbers located in the country/region where they're assigned in Microsoft 365. Unlimited incoming minutes are included. Outgoing minutes are included based on the license purchased.
+With the Domestic Calling Plan, licensed users can call out to numbers located in the country where they're assigned in Microsoft 365. Unlimited incoming minutes are included. Outgoing minutes are included based on the license purchased.
 
 There are two Domestic Calling Plan options to choose from based on your organization's billing location.  
 
-- Microsoft Teams Domestic Calling Plan (customers in US/UK/CA): For organizations in the United States, Puerto Rico, United Kingdom, and Canada. Organizations can assign this license to end users in any market where Calling Plans are available.  
+- **Microsoft Teams Domestic Calling Plan (customers in US/UK/CA)**: For organizations in the United States, Puerto Rico, United Kingdom, and Canada. Organizations can assign this license to end users in any market where Calling Plans are available.  
 
-- Microsoft Teams Domestic Calling Plan (customers outside US/UK/CA): For organizations in Australia (through Telstra), Austria, Belgium, Croatia, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hong Kong, Hungary, Ireland, Italy, Japan (through Softbank), Latvia, Lithuania, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, and Switzerland. Organizations can assign this license to end users in any market where Calling Plans are available. 
+- **Microsoft Teams Domestic Calling Plan (customers outside US/UK/CA)**: For organizations in Australia (through Telstra), Austria, Belgium, Croatia, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hong Kong, Hungary, Ireland, Italy, Japan (through Softbank), Latvia, Lithuania, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, and Switzerland. Organizations can assign this license to end users in any market where Calling Plans are available. 
 
 Once these plans are assigned, the minutes available vary depending on the location of the end user. For more information, see [Country and region availability for Audio Conferencing and Calling Plans](calling-plan-overview.md).  
 
