@@ -71,7 +71,7 @@ At any time, the app can be turned off at the tenant level using [Allow and bloc
 The Parents app can also be turned off at the user level using [Manage app permission policies in Microsoft Teams](teams-app-permission-policies.md).
 
 > [!TIP]
-> If you want to learn about School Connection, which empowers parents and guardians to stay informed about their child’s classroom progress in real-time with no extra work required from educators, see [Set up School Connection](/microsoft-365/education/deploy/school-connection-app). 
+> If you want to learn about School Connection, which empowers parents and guardians to stay informed about their child’s classroom progress in real-time with no extra work required from educators, see  [Set up School Connection](/microsoft-365/education/deploy/school-connection-app). 
 
 ## Requirements
 
