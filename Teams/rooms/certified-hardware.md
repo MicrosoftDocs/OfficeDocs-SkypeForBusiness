@@ -171,6 +171,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Current certification end date | Room size | Android OS version |
 |:-|:-|:-|:-|:-|
+| Yealink MeetingBar A40 | `289.320.0.10` | September 8, 2025 | Medium size room (4.5 m x 6 m) | 13 |
 | Yealink MeetingBoard 65"/86" with MB-Camera-6X | `155.15.0.37 ` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10|
 | DTEN D7X 75" + Vue Pro | `1.5.8` |August 15, 2027| Medium size room (4.5 m x 6 m) | 12 |
 | DTEN D7X 75" + Vue | `1.5.8` |August 15, 2027| Medium size room (4.5 m x 6 m) | 12 |
