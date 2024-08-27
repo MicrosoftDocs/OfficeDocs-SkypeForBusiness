@@ -415,6 +415,9 @@ SIP Gateway only supports IPv4. Microsoft Teams service and client support both 
 SIP Gateway supports dynamic emergency calling (dynamic E911) for compatible SIP devices that share network attributes over the wire. These attributes are provisioned in the Teams admin center and can be a combination of local IP and subnet length, or chassis ID and network port number. For devices that do not share location attributes, or if the location is not resolved dynamically for any reason, SIP Gateway will continue to support emergency calling based on registered addresses. Currently, registered addresses are not supported for Direct Routing scenarios. For more information about emergency calling, see [Plan and manage emergency calling](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
 
 > [!NOTE]
+> **Troubleshooting Emergency Calls** : Dialing 911 from a SIP Gateway Connected phones may result in the Call unable to reach 911. If dialing 911 on a SIP Gateway Connected phone fails, and dialing 911 on other Teams clients is successful, check the Emergency Calling & Call Routing Policies. SIP Gateway phones exhibiting this behaviour require a Emergency Calling Policy and Call Routing Policy for 911 calls. For more information about emergency calling, see [Plan and manage emergency calling](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).  
+
+> [!NOTE]
 > Compatible Cisco SIP IP phones only support dynamic location discovery over LLDP. 
 
 ## Report problems to Microsoft
