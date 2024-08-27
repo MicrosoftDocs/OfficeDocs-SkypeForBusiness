@@ -110,7 +110,7 @@ If guardian is removed from a *Student's* records, any existing chats involving 
 
 ### Manually Update Parent Contact Information 
 
-Schools can allow teachers to update manually the parent contact information corresponding to each child. This feature is enabled by default. However, no teacher’s request goes through unless an admin 'approves' it. If your school doesn't want to use this feature, you can disable it using [PowerShell](#disable-manual-update-of-parent-contact-information).     
+Schools can allow teachers to update manually the parent contact information corresponding to each child. This feature is enabled by default. However, no teacher’s request goes through unless an admin 'approves' it.<br> **Once an admin approves the request, educators can leverage the parent contact information to easily contact parents and guardians through Teams. Additionally, the School Connection app can use this information to keep parents and guardians informed about their child’s classroom progress in real-time.** <br> If your school doesn't want to use this feature, you can disable it using [PowerShell](#disable-manual-update-of-parent-contact-information).     
 
 1. The teacher opens the parent app for the class inside the class team. 
 
