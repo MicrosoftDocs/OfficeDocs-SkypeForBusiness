@@ -21,7 +21,7 @@ search.appverid: MET150
 ms.localizationpriority: medium
 description: Learn more about how 
 ---
-# Digital signage configuration on Teams Rooms
+# Configure digital signage on Teams Rooms
 
 This feature is only available for Technology Adoption Program (TAP) Preview and early adopter customers. 
 
