@@ -305,8 +305,8 @@ This policy is now expanded with an additional argument as the only configuratio
 
 The new solution for VDI stores user-specific data on the endpoint in the following locations, depending on your vendor:
 
-- `C:\users\<user>\Local\Roaming\Microsoft\TeamsVDI\avd-default-<cloudname>\`
-- `C:\users\<user>\Local\Roaming\Microsoft\TeamsVDI\citrix-default-<cloudname>\`
+- `C:\users\<user>\AppData\Local\Microsoft\TeamsVDI\avd-default-<cloudname>\`
+- `C:\users\<user>\AppData\Local\Microsoft\TeamsVDI\citrix-default-<cloudname>\`
 
 > [!IMPORTANT]
 > Locked-down thin clients must allow these locations to be read/write, otherwise the new optimization might fail. For older Windows 10 1809 Thin Clients (such as Dell Wyse 5070 and similar models), the folder location for SlimCore profile is
