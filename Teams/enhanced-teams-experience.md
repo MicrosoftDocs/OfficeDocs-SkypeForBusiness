@@ -49,6 +49,7 @@ The following sections in this article describe the Teams Premium enhancements f
 - [Virtual Appointments](#advanced-virtual-appointments)
 - [Intelligent meeting features](#intelligent-meeting-features)
 - [Custom 3D Immersive Mesh Experiences](#custom-3d-immersive-mesh-experiences)
+- [Advanced Places Workplace Collaboration](#advanced-places-workplace-collaboration)
 - [Intelligent call recap](#intelligent-call-recap)
 
 For more general information about Teams meetings and premium events, see the following articles:
