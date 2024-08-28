@@ -105,7 +105,7 @@ If you've been using live events for your organization, you might want to unders
 |Presenter role|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
 |Preview for shared content in managed mode|??|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
 |Producer UX|✔️ |Manage what attendees see|Manage what attendees see|
-|Nudge attendees to join|✖️ |*Targeted for H2 CY24*|*Targeted for H1 CY24*|
+|Nudge attendees to join|??|*Targeted for H2 CY24*|*Targeted for H1 CY24*|
 |Presenters can dial in|??|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
 |Q&A capacity|10k|10k|20k|
 |Q&A: attendees can filter questions|??|*Targeted for H2 CY24*|*Targeted for H1 CY24*|
