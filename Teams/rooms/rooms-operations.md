@@ -45,7 +45,7 @@ The logs are output as a ZIP file in c:\rigel.
 <a name="Display"> </a>
 
 ### Display Sleep/Wake Behavior
-Teams Rooms on Windows devices are configured out of the box to send no video signal after 10 minutes of inactivity, the Windows PC will stop sending video from its video outputs and will send commands via Consumer Electronics Control (CEC) to power off displays. You need to configure front of room displays to listen for CEC commands or enable PC mode on the display if available. If PC mode or CEC isn't available, you may be able to have the displays automatically sleep/wake on an inactive/active HDMI video signal, consult your display OEM documentation for guidance. If the display doesn't support any of the mentioned functionalities, you may be able to use a display controller to enable the desired behavior:
+Teams Rooms on Windows devices are configured out of the box to send no video signal after 10 minutes of inactivity, at which time the Windows PC will stop sending video from its video outputs. You need to configure front of room displays in PC mode if available or set displays to automatically sleep/wake on an inactive/active HDMI video signal, consult your display OEM documentation for guidance. If the display doesn't support any of the mentioned functionalities, you may be able to use a display controller to enable the desired behavior over CEC or RS-232 control:
 - [Crestron HD-CTL-101](https://www.crestron.com/Products/Control-Hardware-Software/Hardware/Control-Modules/HD-CTL-101)
 - [Liberty DL-UHDILC](https://secure.libertycable.com/product_details.php?pitem=DL-UHDILC)
 - [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad)
