@@ -71,7 +71,35 @@ When managing the event access type for town halls to decide whether organizers 
 - Guests are considered in-org.
 - Attendees who aren't in your org (including anonymous and external access users) can't join in-org town halls.
 
-## Premium town halls and live events
+## Monitor town halls in your organization
+
+### Real time monitoring
+
+You can use real-time data telemetry to monitor town halls and troubleshoot technical issues.
+There are two types of real time monitoring for town halls.
+
+1. **Real time monitoring of the presenter and organizer experience**
+   You can view scheduled town halls and see audio, video, content sharing, and network-related issues. As an admin, you can use this telemetry to investigate any issues presenters and organizers experience during the town hall and troubleshoot in real time.
+   To learn more about real time monitoring of presenters and organizers, see [Use real-time telemetry to troubleshoot poor meeting quality](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md).
+1. **Real time monitoring of the attendee experience (Teams Premium)**
+   With a Teams premium license, you can use the Microsoft eCDN analytics dashboard for performance analysis and network troubleshooting of the attendee experience during town halls.
+
+   To learn more about real time monitoring of attendees, see [Microsoft eCDN Real Time analytics](/ecdn/technical-documentation/analytics).
+
+### Call Quality Dashboard
+
+Leverage the Call Quality Dashboard (CQD) to monitor town hall quality at the org-wide level and optimize your network to drive performance quality.
+To learn more about using CQD for town halls in your org, see [What is Call Quality Dashboard (CQD)](CQD-what-is-call-quality-dashboard.md). You can use the Microsoft Call Quality connector to view specialized **'Teams Events Overview'** and **'Event Health Details'** reports in Power BI Desktop. To get started, download the latest [CQD Quality of Experience (QER) report template](cqd-power-bi-query-templates.md).
+
+For more information about the dimensions and measurements visible through CQD for town halls, search for the word "events" in [Dimensions and measurements available in Call Quality Dashboard (CQD)](dimensions-and-measures-available-in-call-quality-dashboard.md).
+
+### Town hall insights for organizers
+
+With a Teams Premium license, during a town hall, organizers and co-organizers can see real-time event analytics like viewer count, attendees’ country/region, and more. The analytics consist of several data widgets, including charts and graphs, breakdowns tables, and a viewing experience timeline.
+For more information on how organizers in your org can use insights for their town halls, see [Town hall insights in Microsoft Teams.](https://support.microsoft.com/office/town-hall-insights-in-microsoft-teams-def99575-61bf-4ea2-ad0e-c6e75dce7741)
+For town hall organizers that don't have a Teams Premium license, you can check to see if your eCDN provider offers insights during town halls.
+
+## Live events and Premium town halls
 
 If you've been using live events for your organization, you might want to understand the differences and similarities between live events, town halls, and Premium town halls. With a Teams Premium license, your users have access to extended town hall capabilities. The following table is a comparison of live events, town hall, and Premium town hall features:
 
@@ -127,34 +155,6 @@ If you've been using live events for your organization, you might want to unders
 |VOD|✔️|✔️|✔️|
 
 For more information on Teams premium, see [Teams Premium licensing](/microsoftteams/teams-add-on-licensing/licensing-enhance-teams).
-
-## Monitor town halls in your organization
-
-### Real time monitoring
-
-You can use real-time data telemetry to monitor town halls and troubleshoot technical issues.
-There are two types of real time monitoring for town halls.
-
-1. **Real time monitoring of the presenter and organizer experience**
-   You can view scheduled town halls and see audio, video, content sharing, and network-related issues. As an admin, you can use this telemetry to investigate any issues presenters and organizers experience during the town hall and troubleshoot in real time.
-   To learn more about real time monitoring of presenters and organizers, see [Use real-time telemetry to troubleshoot poor meeting quality](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md).
-1. **Real time monitoring of the attendee experience (Teams Premium)**
-   With a Teams premium license, you can use the Microsoft eCDN analytics dashboard for performance analysis and network troubleshooting of the attendee experience during town halls.
-
-   To learn more about real time monitoring of attendees, see [Microsoft eCDN Real Time analytics](/ecdn/technical-documentation/analytics).
-
-### Call Quality Dashboard
-
-Leverage the Call Quality Dashboard (CQD) to monitor town hall quality at the org-wide level and optimize your network to drive performance quality.
-To learn more about using CQD for town halls in your org, see [What is Call Quality Dashboard (CQD)](CQD-what-is-call-quality-dashboard.md). You can use the Microsoft Call Quality connector to view specialized **'Teams Events Overview'** and **'Event Health Details'** reports in Power BI Desktop. To get started, download the latest [CQD Quality of Experience (QER) report template](cqd-power-bi-query-templates.md).
-
-For more information about the dimensions and measurements visible through CQD for town halls, search for the word "events" in [Dimensions and measurements available in Call Quality Dashboard (CQD)](dimensions-and-measures-available-in-call-quality-dashboard.md).
-
-### Town hall insights for organizers
-
-With a Teams Premium license, during a town hall, organizers and co-organizers can see real-time event analytics like viewer count, attendees’ country/region, and more. The analytics consist of several data widgets, including charts and graphs, breakdowns tables, and a viewing experience timeline.
-For more information on how organizers in your org can use insights for their town halls, see [Town hall insights in Microsoft Teams.](https://support.microsoft.com/office/town-hall-insights-in-microsoft-teams-def99575-61bf-4ea2-ad0e-c6e75dce7741)
-For town hall organizers that don't have a Teams Premium license, you can check to see if your eCDN provider offers insights during town halls.
 
 ## Town hall control comparison
 
