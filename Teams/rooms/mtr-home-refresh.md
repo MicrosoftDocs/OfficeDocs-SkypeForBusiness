@@ -172,7 +172,7 @@ If your Teams Rooms device has an account with a Teams Rooms Pro license, you ca
 
 ## Release Ring Indicator
 
-**Teams Rooms (Windows and Android)** indicate with a pill icon below the time if they are in an earlier release ring for Microsoft Teams (no pill is present on a device not in preview). This is indiciator is intentional to ensure users know the device is running an earlier release of Microsoft Teams. Teams Rooms can be put into a preview state in any of the following ways, if you wish to move the devices out of the preview ring, review the options and undo those changes:
+**Teams Rooms (Windows and Android)** indicate with a pill icon below the time if they are in an earlier release ring for Microsoft Teams (no pill is present on a device not in preview). This indicator is intentional to ensure users know the device is running an earlier release of Microsoft Teams. Teams Rooms can be put into a preview state in any of the following ways, if you wish to move the devices out of the preview ring, review the options and undo those changes:
 - [Teams Public Preview](/microsoftteams/public-preview-doc-updates)
 - [M365 Targeted Release](/microsoft-365/admin/manage/release-options-in-office-365)
 - Participating in a private preview in partnership with Microsoft. Please contact your Microsoft account team for more information.
