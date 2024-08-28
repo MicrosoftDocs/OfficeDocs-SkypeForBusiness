@@ -168,6 +168,4 @@ The way **Teams Rooms (Windows and Android)** devices communicate with Exchange 
 
 **Teams Rooms (Windows and Android)** devices include several out of the box backgrounds that can be selected as desired. 
 
-If your **Teams Rooms on Windows** device has an account with a Teams Rooms Pro license, you can configure custom backgrounds for your device, see [Set up and manage Teams Rooms on Windows custom backgrounds](/microsoftteams/rooms/custom-backgrounds). 
-
-Custom backgrounds is not yet available on **Teams Rooms on Android** devices.
+If your Teams Rooms device has an account with a Teams Rooms Pro license, you can configure custom backgrounds for your device, see [Teams Rooms on Windows custom backgrounds](/microsoftteams/rooms/custom-backgrounds) or [Teams Rooms on Android custom backgrounds](/microsoftteams/rooms/custom-backgrounds-android)
