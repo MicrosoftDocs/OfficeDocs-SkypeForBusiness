@@ -135,8 +135,8 @@ If you've been using live events for your organization, you might want to unders
 |Producer UX|✔️ |Manage what attendees see|Manage what attendees see|
 |Nudge attendees to join|??|*Targeted for H2 CY24*|*Targeted for H1 CY24*|
 |Presenters can dial in|??|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
-|Q&A capacity|10k|10k|20k|
 |Q&A: attendees can filter questions|??|*Targeted for H2 CY24*|*Targeted for H1 CY24*|
+|Q&A capacity|10k|10k|20k|
 |Q&A: delete and archive questions|??|*Targeted for H2 CY24*|*Targeted for H1 CY24*|
 |Q&A: organizers can make presenters moderators|??|*Targeted for H2 CY24*|*Targeted for H1 CY24*|
 |Q&A: organizers can privately reply to a question|??|*Targeted for H2 CY24*|*Targeted for H1 CY24*|
