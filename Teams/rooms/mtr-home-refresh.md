@@ -176,4 +176,9 @@ If your Teams Rooms device has an account with a Teams Rooms Pro license, you ca
 - [Teams Public Preview](/microsoftteams/public-preview-doc-updates)
 - [M365 Targeted Release](/microsoft-365/admin/manage/release-options-in-office-365)
 - Participating in a private preview in partnership with Microsoft. Please contact your Microsoft account team for more information.
-- On a **Teams Rooms on Windows** device an XML setting can be used to enable public preview: <EnablePublicPreview>
+- On a **Teams Rooms on Windows** device an XML setting can be used to enable public preview:
+
+```xml
+<EnablePublicPreview>true</EnablePublicPreview>
+```
+
