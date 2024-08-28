@@ -23,7 +23,7 @@ description: Learn more about how
 ---
 # Digital signage configuration on Teams Rooms
 
-This feature is only available for TAP Preview and early adopters. 
+This feature is only available for Technology Adoption Program (TAP) Preview and early adopter customers. 
 
 Digital signage on Microsoft Teams Rooms expands organizational communications into your meeting spaces, enabling you to inform, connect, and engage your teams. When your Teams Rooms devices are not used for meetings or presentations, they can be configured to display dynamic content and relevant information like how-to guides, company news, upcoming events, and more in signage mode. You can adjust when signage mode is activated and deactivated, including whether signage mode will adhere to the operating system's screen time out setting. When your Teams Rooms devices are in signage mode, signage content appears in full screen on the front-of-room displays. You have the option to show the Teams Rooms banner so that users can see the room information and calendar preview alongside the signage content on the front-of-room displays. Tapping the touch console during signage mode seamlessly returns the user to the home screen.![DS-Meeting-enlarged-console](media/digital-signage/ds-meeting-enlarged-console.jpg)
 
@@ -127,15 +127,17 @@ If you don’t use any of the supported third-party providers, you can set web U
 
 - Accessible within a browser InPrivate window without requiring authentication or permission from the resource account
 
-- Loads within an iframe that runs in sandbox="allow-scripts allow-same-origin" environment. For more information, see [CSP: frame-ancestors - HTTP | MDN (mozilla.org)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors).
+- Loads within an iframe that runs in sandbox="allow-scripts allow-same-origin" environment. For more information, see [CSP: frame-ancestors - HTTP | MDN (mozilla.org)](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors).
 
 To add a web URL as signage source, from the digital signage tenant management page, select **Add source** > enter a unique name and description for this source > select **Next** > choose **Custom**> enter a web URL that meets the requirements above > select **Next** > acknowledge terms of use > select **Next** > review and finish > select **Submit**.
 
 > [!NOTE]
 > SharePoint and OneDrive for Business URLs are not supported for the custom option.
+
 > [!IMPORTANT]
 > By adding a signage source to your tenant, you accept full responsibility for all signage content that is displayed in your rooms and acknowledge that Microsoft is not responsible for the signage content that is displayed nor the data that may be transferred out of our system to the external signage source. 
 > Supported third-party providers will receive the name and email of the specific rooms where they have been assigned as the signage source, allowing seamless integration.
+
 ## Step 4 - Assigning a signage source and settings
 
 Once you've added signage source(s) for your tenant, you can now assign a signage source and settings to your rooms. If you're assigning one of the trusted third-party providers as a signage source to a room, this step automatically registers that specific room onto the third-party content management system. You can assign a signage source and settings for multiple rooms and/or room groups at the tenant level or for individual rooms at a room level:
@@ -187,6 +189,7 @@ When there is an issue with the third-party player or signage content, the issue
 
 > [!NOTE]
 > The digital signage health signal is not available for rooms with a web URL (custom option) signage source.
+
 ### Help and support
 
 If you have issues with configuring signage settings on your Teams Rooms device using the Teams Rooms Pro Management portal, you may contact Microsoft support. For issues specific to the signage content displayed in your rooms, supported third-party providers must be contacted first for assistance. If your digital signage provider determines that the underlying issue requires Microsoft's attention, they can route the issue to Microsoft on your behalf or advise you to open a ticket directly with Microsoft.
