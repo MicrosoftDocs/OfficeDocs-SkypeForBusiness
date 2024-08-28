@@ -279,7 +279,7 @@ Teams upgrade settings let you set up your upgrade experience from Skype for Bus
 
 App permission policies control which apps you want to make available to Teams users in your organization.
 
-All organizations don't have app centric management (ACM) feature available. If you weren't using custom permission policies, we migrated your org to use this feature. If you're using custom permission policies, then you'll soon be able to migrate to ACM feature on your own. If you see policies on the permission policies page, continue to use app permission policies to control user access to apps.
+All organizations don't have app centric management feature available. If you weren't using custom permission policies, we migrated your org to use this feature. If you're using custom permission policies, then you'll soon be able to migrate to the app centric management feature on your own. If you see policies on the permission policies page, continue to use app permission policies to control user access to apps.
 
 :::image type="content" source="media/permission-policies-tac.png" alt-text="Screenshot of Teams app permission policies in the Teams admin center." lightbox="media/permission-policies-tac-expand.png":::
 
