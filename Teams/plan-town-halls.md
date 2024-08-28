@@ -77,27 +77,54 @@ If you've been using live events for your organization, you might want to unders
 
 |Capability|Live Events|Town halls|Premium town halls|
 |:------| :---: | :---: | :---: |
-|Broadcast capacity|10k|10k|20k|
-|Concurrent events|15|15|50|
+|Ability to not send emails and calendar invites to attendees|??|*Targeted for H2 CY24*|*Targeted for H1 CY24*|
+|AI generated captions|✔️|✔️|✔️|
 |Attendee reporting|✔️| ✔️|✔️|
-|eCDN|Microsoft and partner providers|Microsoft and partner providers|Microsoft and partner providers|
-|Duration|Four hours|30 hours|30 hours|
-|RTMP-In|✔️|✔️|✔️|
-|Producer UX|✔️ |Manage what attendees see|Manage what attendees see |
+|Broadcast capacity|10k|10k|20k</br> *50k targeted for [Sam, how do we want to describe the TBD items??]*|
+|Concurrent events|15|15|50|
+|Control when event invites are sent|??|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
+|CVI support|??|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
 |Default audio and video off|✔️|✔️|✔️|
-|Layouts|Single Video, Video + Content​​|Dynamic focused curated view|Dynamic focused curated view|
+|Download translated transcripts|??|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
+|Duration|Four hours|30 hours|30 hours|
+|eCDN|Microsoft and partner providers|Microsoft and partner providers|Microsoft and partner providers|
+|DVR|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
+|Dynamics 365 integration|??|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
+|Email editing|✖️|✖️|✔️|
+|End event for attendees|??|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
+|Essential emails|✖️|✔️|✔️|
+|External presenters|✔️|✔️|✔️|
 |Green room|✔️|✔️|✔️|
+|Join as attendee for presenters and organizers|??|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
+|Layouts|Single Video, Video + Content​​|Dynamic focused curated view|Dynamic focused curated view|
 |Live translated captions|✔️|Six languages|10 languages|
 |Manage what attendees see|✖️|✔️|✔️|
-|External presenters|✔️|✔️|✔️|
-|Presenter capacity (including external presenters)|100|100|100|
-|AI generated captions|✔️|✔️|✔️|
-|DVR|✔️|✖️|✖️|
-|Q&A capacity|10k|10k|20k|
-|VOD|✔️|✔️|✔️|
 |Microsoft town hall insights|✖️|✖️|✔️|
-|Essential emails|✖️|✔️|✔️|
-|Email editing|✖️|✖️|✔️|
+|MTR-W support for presenters and attendees|??|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
+|Presenter capacity (including external presenters)|100|100|100|
+|Presenter role|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
+|Preview for shared content in managed mode|??|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
+|Producer UX|✔️ |Manage what attendees see|Manage what attendees see|
+|Nudge attendees to join|✖️ |*Targeted for H2 CY24*|*Targeted for H1 CY24*|
+|Presenters can dial in|??|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
+|Q&A capacity|10k|10k|20k|
+|Q&A: attendees can filter questions|??|*Targeted for H2 CY24*|*Targeted for H1 CY24*|
+|Q&A: delete and archive questions|??|*Targeted for H2 CY24*|*Targeted for H1 CY24*|
+|Q&A: organizers can make presenters moderators|??|*Targeted for H2 CY24*|*Targeted for H1 CY24*|
+|Q&A: organizers can privately reply to a question|??|*Targeted for H2 CY24*|*Targeted for H1 CY24*|
+|Q&A: question export to CSV|??|✔️|✔️|
+|Q&A: vote on and sort questions|??|*Targeted for H2 CY24*|*Targeted for H1 CY24*|
+|Queue and preview content|??|*targeted for [Sam, how do we want to describe the TBD items??]*|*targeted for [Sam, how do we want to describe the TBD items??]*|
+|Queue and preview presenters|??|*targeted for [Sam, how do we want to describe the TBD items??]*|*targeted for [Sam, how do we want to describe the TBD items??]*|
+|Return to green room|?? |*Targeted for H2 CY24*|*Targeted for H1 CY24*|
+|RTMP-In|✔️|✔️|✔️|
+|RTMP-In Transcription|??|*Targeted for H2 CY24*|*Targeted for H2 CY24*|
+|Separate invites for presenters and attendees|??|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
+|Sharepoint embedded scheduling|??|*Targeted for H2 CY24*|*Targeted for H1 CY24*|
+|Usage reports|✔️|✔️|✔️|
+|VDI support|??|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
+|Viva Engage integration|??|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
+|VOD|✔️|✔️|✔️|
 
 For more information on Teams premium, see [Teams Premium licensing](/microsoftteams/teams-add-on-licensing/licensing-enhance-teams).
 
