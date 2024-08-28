@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: tjaved
-ms.date: 11/04/2023
+ms.date: 08/21/2024
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices

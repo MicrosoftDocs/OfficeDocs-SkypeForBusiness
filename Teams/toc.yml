@@ -434,7 +434,7 @@ items:
             - name: Upload tenant and building data
               href: CQD-upload-tenant-building-data.md
             - name: CQD data and reports
-              href: CQD-data-and-reports.md
+              href: cqd-data-and-reports.md
             - name: Use CQD to manage call and meeting quality
               href: quality-of-experience-review-guide.md
             - name: Frequently asked questions
@@ -1377,16 +1377,16 @@ items:
                   href: rooms/coordinated-meetings.md
                 - name: Manage Microsoft Teams settings
                   href: rooms/surface-hub-manage-config.md
+            - name: Teams Room for Windows deployment tools
+              items:
+                - name: Create a Teams Room for Windows image
+                  href: rooms/console.md
+                - name: Update a Teams Room for Windows 
+                  href: rooms/manual-update.md
             - name: Peripherals
               items:
                 - name: Content cameras
                   href: rooms/content-camera.md
-            - name: Test environments
-              items:
-                - name: Configure a custom-built console
-                  href: rooms/console.md
-                - name: Manually update a device
-                  href: rooms/manual-update.md
         - name: Manage
           items: 
             - name: Management overview
@@ -1465,6 +1465,8 @@ items:
             href: rooms/autopilot-autologin.md
         - name: Monitoring and maintenance
           items:
+          - name: Managing your inventory
+            href: rooms/inventory.md
           - name: Monitoring and maintaining Teams Rooms
             href: rooms/managed-meeting-rooms-portal.md
           - name: Signal settings
@@ -1519,6 +1521,8 @@ items:
               href: sip-gateway-plan.md
             - name: Configure SIP Gateway
               href: sip-gateway-configure.md
+            - name: Dynamic filters
+              href: sip-gateway-dynamic-filters.md
         - name: Deploy
           items:
             - name: Plan phones and displays deployment
@@ -1713,11 +1717,7 @@ items:
         - name: Learn about students with Education Insights
           items:           
             - name: Get started with Insights
-              href: class-insights.md
-            - name: Sync SIS data with Insights
-              href: education-insights-sis-data-sync.md
-            - name: Manage user access to Insights
-              href: education-insights-manage-access.md           
+              href: class-insights.md     
             - name: Set up Reflect for emotional insights
               href: reflect.md
             - name: Understand Insights for Reading Progress

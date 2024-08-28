@@ -70,9 +70,14 @@ At any time, the app can be turned off at the tenant level using [Allow and bloc
 
 The Parents app can also be turned off at the user level using [Manage app permission policies in Microsoft Teams](teams-app-permission-policies.md).
 
+> [!TIP]
+> If you want to learn about School Connection, which empowers parents and guardians to stay informed about their child’s classroom progress in real-time with no extra work required from educators, see  [Set up School Connection](/microsoft-365/education/deploy/school-connection-app). 
+
 ## Requirements
 
 You need to use Microsoft Graph or School Data Sync (SDS) to populate each student's parent and guardian related contact information. If your school doesn't use SDS, you can allow teachers to manually update students’ parent contact information.  
+
+For any queries, contact us through [Microsoft Education Support](https://aka.ms/schoolconnectionsupport) and we're happy to assist you. 
 
 ### Graph API
 
@@ -105,7 +110,7 @@ If guardian is removed from a *Student's* records, any existing chats involving 
 
 ### Manually Update Parent Contact Information 
 
-Schools can allow teachers to update manually the parent contact information corresponding to each child. This feature is enabled by default. However, no teacher’s request goes through unless an admin 'approves' it. If your school doesn't want to use this feature, you can disable it using [PowerShell](#disable-manual-update-of-parent-contact-information).     
+Schools can allow teachers to update manually the parent contact information corresponding to each child. This feature is enabled by default. However, no teacher’s request goes through unless an admin 'approves' it. **Once an admin approves the request, educators can leverage the parent contact information to easily contact parents and guardians through Teams. Additionally, the [School Connection](/microsoft-365/education/deploy/school-connection-app) app can use this information to keep parents and guardians informed about their child’s classroom progress in real-time.** <br> If your school doesn't want to use this feature, you can disable it using [PowerShell](#disable-manual-update-of-parent-contact-information).     
 
 1. The teacher opens the parent app for the class inside the class team. 
 

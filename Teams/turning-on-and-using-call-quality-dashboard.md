@@ -61,7 +61,7 @@ Due to the fact that CQD is an aggregate reporting tool, users assigned to one o
 <sup>1</sup> In addition to reading CQD reports, the Reports Reader can view all the [activity reports](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) in the admin center and any reports from the [Microsoft 365 Adoption content pack](https://support.office.com/article/77ff780d-ab19-4553-adea-09cb65ad0f1f).
 
 > [!NOTE]
-> If you're not seeing [EUII (end-user identifiable information)](CQD-data-and-reports.md#euii-data) and you have one of the roles that's permitted to see this information, keep in mind that CQD only keeps EUII for 28 days. Anything older than 28 days is deleted. Additionally, users assigned to one or more [Administrative Units](/azure/active-directory/roles/administrative-units) don't see EUII even if their role would ordinarily allow it.
+> If you're not seeing [EUII (end-user identifiable information)](cqd-data-and-reports.md#euii-data) and you have one of the roles that's permitted to see this information, keep in mind that CQD only keeps EUII for 28 days. Anything older than 28 days is deleted. Additionally, users assigned to one or more [Administrative Units](/azure/active-directory/roles/administrative-units) don't see EUII even if their role would ordinarily allow it.
 
 For more information about these roles, see [About Office 365 admin roles](/office365/admin/add-users/about-admin-roles).
 
@@ -81,7 +81,7 @@ Read [Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md) to lear
 
 [Upload tenant and building data](CQD-upload-tenant-building-data.md)
 
-[CQD data and reports](CQD-data-and-reports.md)
+[CQD data and reports](cqd-data-and-reports.md)
 
 [Use CQD to manage call and meeting quality](quality-of-experience-review-guide.md)
 

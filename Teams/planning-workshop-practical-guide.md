@@ -50,7 +50,7 @@ Download these tools to walk you through planning, delivering, and adopting Team
 
 [Teams training](training-microsoft-teams-landing-page.md)
 
-[IT admin readiness for Teams](ITAdmin-readiness.md)
+[IT admin readiness for Teams](itadmin-readiness.md)
 
 [Tools for adoption](adopt-tools-and-downloads.md)
 

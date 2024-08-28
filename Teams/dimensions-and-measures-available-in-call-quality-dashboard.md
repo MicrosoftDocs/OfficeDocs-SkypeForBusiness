@@ -692,16 +692,22 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 |Teams Events Attendee Stream Buffering Rate|Range (Ratio)|Indicates the ratio of the stream spent waiting for video buffering versus the overall stream playback time.||
 |Teams Events Attendee Average Stream Download Bit Rate|Integer (bits/second)|The length of the stream viewed by the user, in seconds.||
 |**VDI**||||
-|First Client VDI Desktop Version| String | The VDI Teams client version of the first endpoint. | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
-|Second Client VDI Desktop Version | String | The VDI Teams client version of the second endpoint. | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|First Client VDI Desktop Version| String | The VDI Teams client version of the first endpoint. <br/> **Example:** 24165.1414.2987.41 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|Second Client VDI Desktop Version | String | The VDI Teams client version of the second endpoint. <br/> **Example:** 24165.1414.2987.41 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
 |First Client VDI Mode| String | The vdiMode value of the first endpoint. <br/> **Example:** 3100 <br/> First digit = `[1,2 for Citrix]` `[3 for VMware]` `[5 for AVD/Windows 365]` <br/> Second digit = `[0 not optimized]` `[1 optimized with WebRTC]` `[2 optimized with SlimCore]`| &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
 |Second Client VDI Mode| String | The vdiMode value of the second endpoint. <br/> **Example:** 3100 <br/> First digit = `[1,2 for Citrix]` `[3 for VMware]` `[5 for AVD/Windows 365]` <br/> Second digit = `[0 not optimized]` `[1 optimized with WebRTC]` `[2 optimized with SlimCore]` | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
-|First Client VDI Connected State | String | Indicates the VDI connected state of the first endpoint.| &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
-|Second Client VDI Connected State| String | Indicates the VDI connected state of the second endpoint.| &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
-|First Client VDI Provider Version| String | The VDI provider client version of the first endpoint. | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
-|Second Client VDI Provider Version| String | The VDI provider client version of the second endpoint. | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
-|First Client VDI Is Optimized| String | Indicates if the first endpoint's VDI client is operating in optimized mode. | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
-|Second Client VDI Is Optimized| String | Indicates if the second endpoint's VDI client is operating in optimized mode. | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|First Client VDI Connected State | String | Indicates the VDI connected state of the first endpoint. <br/> **Example:** Connected | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|Second Client VDI Connected State| String | Indicates the VDI connected state of the second endpoint. <br/> **Example:** Connected | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|First Client VDI Provider Version| String | The VDI provider client version of the first endpoint. <br/> **Example:** 24.2.0.187 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|Second Client VDI Provider Version| String | The VDI provider client version of the second endpoint. <br/> **Example:** 24.2.0.187 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|First Client VDI Is Optimized| String | Indicates if the first endpoint's VDI client is operating in optimized mode. <br/> **Example:** VDI 2.0 Optimized | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|Second Client VDI Is Optimized| String | Indicates if the second endpoint's VDI client is operating in optimized mode. <br/> **Example:** VDI 2.0 Optimized | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|First Client VDI OS Version| String | Version of the operating system running on the first VDI client endpoint. <br/> **Example:** 10.0.19045 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|Second Client VDI OS Version| String | Version of the operating system running on the second VDI client endpoint. <br/> **Example:** 10.0.19045 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|First Client VDI Media Stack Version| String | Version of the SlimCore media engine running on the first VDI client endpoint. <br/> **Example:** 2024.14.1.1 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|Second Client VDI Media Stack Version| String | Version of the SlimCore media engine running on the second VDI client endpoint. <br/> **Example:** 2024.14.1.1 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|First Client VDI Plugin Version| String | Version of the Teams plugin for the first VDI client endpoint. <br/> **Example:** 2024.15.1.1 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|Second Client VDI Plugin Version| String | Version of the Teams plugin for the second VDI client endpoint. <br/> **Example:** 2024.15.1.1 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
 |**Datapair**||||
 | Network Connection Detail Pair  | Enumerated pair <br/>**Possible values:** <br/> wifi : wifi <br/> wifi : wired <br/> Wired : wifi <br/> Wired : Wired <br/> MobileBB : MobileBB <br/> MobileBB : Other <br/> MobileBB : Tunnel <br/> MobileBB : wifi <br/> MobileBB : Wired <br/> Other : Other <br/> Other : wifi <br/> Other : Wired <br/> Tunnel : Tunnel <br/> Tunnel : wifi <br/> Tunnel : Wired <br/> : MobileBB <br/> : Other <br/> : Tunnel <br/> : wifi <br/> : Wired <br/> :  | Pair of network connection detail for the first and second endpoint.  | &bull; Endpoint network connectivity type was unknown. This might happen if the call couldn't be established.   |
 | User Agent Category Pair  | Enumerated pair  | Pair of User Agent Category for first and second endpoint. <br/> **Example value:** AV-MCU : OC  | &bull; Endpoint user agent wasn't a known type  |
@@ -1000,7 +1006,7 @@ You can use many Dimension and Measurement values as filters. You can use filter
 
 [Upload tenant and building data](CQD-upload-tenant-building-data.md)
 
-[CQD data and reports](CQD-data-and-reports.md)
+[CQD data and reports](cqd-data-and-reports.md)
 
 [Use CQD to manage call and meeting quality](quality-of-experience-review-guide.md)
 

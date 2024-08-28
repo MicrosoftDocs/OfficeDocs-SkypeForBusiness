@@ -13,7 +13,7 @@ ms.collection:
   - M365-collaboration
   - Tier1
 search.appverid: MET150
-ms.date: 07/31/2024
+ms.date: 08/27/2024
 ms.reviewer: mhayrapetyan
 description: Manage access to Teams apps using app centric management.
 f1.keywords:
@@ -27,10 +27,10 @@ ms.custom: seo-marvel-apr2020
 # Use app centric management to manage access to apps
 
 > [!IMPORTANT]
-> All organizations don't have app centric management (ACM) feature available. If you were not using custom permission policies and you weren't an enterprise customer, we migrated your organization to use this feature. If you are using custom permission policies or you are an enterprise customer, then you will soon be able to migrate to ACM feature on your own. For timelines, see [Message Center post MC688930](https://admin.microsoft.com/Adminportal/Home#/MessageCenter/:/messages/MC688930) or [Microsoft 365 roadmap item 151829](https://www.microsoft.com/en-US/microsoft-365/roadmap?filters=&searchterms=151829).
+> All organizations don't have app centric management feature available. If you were not using custom permission policies and you weren't an enterprise customer, we migrated your organization to use this feature. If you are using custom permission policies or you are an enterprise customer, then you will soon be able to migrate to the app centric management feature on your own. For timelines, see [Message Center post MC688930](https://admin.microsoft.com/Adminportal/Home#/MessageCenter/:/messages/MC688930) or [Microsoft 365 roadmap item 151829](https://www.microsoft.com/en-US/microsoft-365/roadmap?filters=&searchterms=151829).
 >
 > If you see policies on the [permission policies page](https://admin.teams.microsoft.com/policies/app-permission), continue to [use app permission policies](teams-app-permission-policies.md) or migrate to this feature on your own.
-> If your org is now using ACM feature, you see the following message on the permission policy page.
+> If your org is now using the app centric management feature, you see the following message on the permission policy page.
 >
 > :::image type="content" source="media/acm-policy-page.png" alt-text="Screenshot showing the permissions policy change for organization that are using app centric management.":::
 
@@ -109,7 +109,7 @@ After migration, your blocked apps continue to remain unavailable to users. The 
 
 ## Add or modify app availability for users
 
-To let users add and use an app, you must assign users or groups to an app. It takes up to 24 hours for the changes to take effect.
+To let users add and use an app, you must assign users or groups to an app. It takes up to 24-72 hours for the changes to take effect. In rare cases, it may take up to 6 days for the availability changes to reflect in the client.
 
 1. In Teams admin center, go to the [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page, search for the required app, and select the app name to open its app details page. You can't assign apps in bulk.
 

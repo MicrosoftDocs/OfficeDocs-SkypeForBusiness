@@ -73,6 +73,12 @@ HKLM\SOFTWARE\Microsoft\Teams:
 - Type: DWORD
 - Value: 1
 
+### RemoteApp
+
+You can publish new Teams using the Windows `shell:appsFolder` location in the format: `shell:appsFolder\MSTeams_8wekyb3d8bbwe!MSTeams`.
+ 
+See [this article](/azure/virtual-desktop/publish-applications?tabs=portal) for more details on RemoteApp.
+
 ## Windows 365
 
 Windows 365 uses AV optimization provided by Azure Virtual Desktop to ensure optimal Teams experiences from Cloud PCs. To learn more on requirements and installation, see [Use Teams on Cloud PC](/windows-365/enterprise/teams-on-cloud-pc).
