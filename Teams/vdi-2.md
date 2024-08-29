@@ -25,7 +25,9 @@ ms.localizationpriority: high
 New VDI solution for Teams is a new architecture for optimizing the delivery of multimedia workloads in virtual desktops.
 
 > [!IMPORTANT]
-> In order to participate on the public preview, administrators must move users to the public preview channel as described [in this article](public-preview-doc-updates.md).
+> The rollout to General Availability started on August 27th 2024, and will reach 100% coverage in the next few days for Azure Virtual Desktops and Windows 365. 
+>
+> For Citrix customers, in order to participate on the public preview, administrators must move users to the public preview channel as described [in this article](public-preview-doc-updates.md).
 
 ## Components
 
@@ -40,7 +42,7 @@ New VDI solution for Teams is a new architecture for optimizing the delivery of 
 
 |Requirement                       |Minimum version |
 |----------------------------------|----------------|
-|New Teams                         |24124.2315.2911.3357 (for Azure Virtual Desktop/Windows 365) </br>24165.1410.2974.6689 (for Citrix)                                                                                     |
+|New Teams                         |24193.1805.3040.8975 (for Azure Virtual Desktop/Windows 365) </br>24165.1410.2974.6689 (for Citrix)                                                                                     |
 |Azure Virtual Desktop/Windows 365 |Windows App: 1.3.252</br>Remote Desktop Client: 1.2.5405.0                                                |
 |Citrix                            |VDA: 2203 LTSR CU3 or 2305 CR</br>Citrix Workspace app: 2203 LTSR (any CU), 2402 LTSR, or 2302 CR          |
 |Endpoint                          |Windows 10 1809 (SlimCore minimum requirement)</br>GPOs must not block MSIX installations (see [Step 3: SlimCore MSIX staging and registration on the endpoint](#step-3-slimcore-msix-staging-and-registration-on-the-endpoint))</br>Minimum CPU: Intel Celeron (or equivalent) @ 1.10 GHz, 4 Cores, Minimum RAM: 4 GB |
@@ -49,7 +51,7 @@ New VDI solution for Teams is a new architecture for optimizing the delivery of 
 
 ### Step 1: Confirm prerequisites
 
-1. Make sure you have the new Microsoft Teams version 24124.2311.2896.3219 or higher (for Azure Virtual Desktop/Windows 365), and 24165.1410.2974.6689 or higher for Citrix.
+1. Make sure you have the new Microsoft Teams version 24193.1805.3040.8975 or higher (for Azure Virtual Desktop/Windows 365), and 24165.1410.2974.6689 or higher for Citrix.
 1. [Enable the new Teams policy](#microsoft-teams-powershell-policy-for-optimization) **if necessary** for a specific user group (it's enabled by default at a Global org-wide level).
 1. For Citrix, you must configure the **Virtual channel allow list** as described in the [Citrix Virtual channel allow list](#citrix-virtual-channel-allow-list) section of this article.
 
@@ -303,11 +305,12 @@ This policy is now expanded with an additional argument as the only configuratio
 
 The new solution for VDI stores user-specific data on the endpoint in the following locations, depending on your vendor:
 
-- `C:\users\<user>\AppData\Roaming\Microsoft\TeamsVDI\avd-default-<cloudname>\`
-- `C:\users\<user>\AppData\Roaming\Microsoft\TeamsVDI\citrix-default-<cloudname>\`
+- `C:\users\<user>\AppData\Local\Microsoft\TeamsVDI\avd-default-<cloudname>\`
+- `C:\users\<user>\AppData\Local\Microsoft\TeamsVDI\citrix-default-<cloudname>\`
 
 > [!IMPORTANT]
-> Locked-down thin clients must allow these locations to be read/write, otherwise the new optimization might fail.
+> Locked-down thin clients must allow these locations to be read/write, otherwise the new optimization might fail. For older Windows 10 1809 Thin Clients (such as Dell Wyse 5070 and similar models), the folder location for SlimCore profile is
+`C:\Users\<user>\AppData\Local\Packages\Microsoft.Teams.SlimCoreVdi.win-<architecture>.<version>_8wekyb3d8bbwe\LocalCache\`.
 
 Logs, configurations, and AI or ML models (used in noise suppression, bandwidth estimation, etc.) are saved in this location. If these folders are purged after a user signs out (for example, locked-down thin clients without roaming profiles), MsTeamsVdi.exe will recreate them and download the user-specific configuration (about 6 MB of data).
 
@@ -450,8 +453,7 @@ The code logged here needs to be mapped using this table:
 |15615      |1951       |ERROR_INSTALL_POLICY_FAILURE       |SlimCore MSIX related error. To install this app, you need either a Windows developer license, or a sideloading-enabled system. AllowAllTrustedApps regkey might be set to 0? |
 |15616      |           |ERROR_PACKAGE_UPDATING             |SlimCore MSIX related error 'The application cannot be started because it is currently updating'. |
 |15700      |           |APPMODEL_ERROR_NO_PACKAGE          |The process has no package identity. There's no alias for MsTeamsVdi in %LOCALAPPDATA%\Microsoft\WindowsApps. [Feedback Hub](https://support.microsoft.com/windows/send-feedback-to-microsoft-with-the-feedback-hub-app-f59187f8-8739-22d6-ba93-f66612949332) logs are needed while reproducing the error (make sure you select **Developer Platform** as the category and **App deployment** as the subcategory) |
-|16389      |           |E_FAIL reported by Package Manager |Usually the same as Load error code 5 (ERROR_ACCESS_DENIED).
-Most likely caused by the BlockNonAdminUserInstall policy when the user is not an Admin. Check [this link](/windows/client-management/mdm/policy-csp-applicationmanagement#blocknonadminuserinstall) for more details. |
+|16389      |           |E_FAIL reported by Package Manager |Usually the same as Load error code 5 (ERROR_ACCESS_DENIED). Most likely caused by the BlockNonAdminUserInstall policy when the user is not an Admin. Check [this link](/windows/client-management/mdm/policy-csp-applicationmanagement#blocknonadminuserinstall) for more details. |
 
 ## Using Event Viewer on the VM for troubleshooting
 

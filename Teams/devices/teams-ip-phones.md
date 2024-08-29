@@ -129,7 +129,7 @@ See [Microsoft Teams phones feature set](phones-for-teams.md) for information on
 |:----------------|:-------------------|:----------------------------|:---------------------------------------------------------------------------------------------------------------|:------------------------------------------|
 | C448HD/C450HD | `1.19.712` | `N/A`| Teams client: `1449/1.0.94.2024062301` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| July 22, 2024|
 | C435HD/C455HD/C470HD | `2.3.423` | `1.19.584`| Teams client: `1449/1.0.94.2024062010` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| July 22, 2024|
-| C435HD/C455HD/C470HD | `2.3.410` | `1.19.584`| Teams client: `1449/1.0.94.2024061301` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| June 27, 2024|
+| C435HD/C455HD/C470HD | `2.3.410` | `1.19.584`| Teams client: `1449/1.0.94.2024061301` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| Recalled|
 | C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.705` | `1.19.456`| Teams client: `1449/1.0.94.2024011003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| February 19, 2024|
 | C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.642` | `N/A`| Teams client: `1449/1.0.94.2024011601` <br> Company Portal: `5.0.6061.0` <br> Admin Agent: `1.0.0.202310260109.product`| February 8, 2024|
 | C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.584` | `1.19.516`| Teams client: `1449/1.0.94.2023100602` <br> Company Portal: `5.0.5954.0` <br> Admin Agent: `1.0.0.202306202019.product`| November 6, 2023|
@@ -231,6 +231,7 @@ See [Microsoft Teams displays](teams-displays.md) for features supported by Team
 #### <b> Neat </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications  | Release date|
 |:----------------|:-------------------|:----------------------------|:-----------------------------------------------------------|:--------------------------|
+| Neat Frame | `NFF1.20240620.1740` | N/A | Teams client: `1449/1.0.95.2023101102` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202402202353.product`| August 26, 2024|
 | Neat Frame | `NFF1.20240516.0007` | N/A | Teams client: `1449/1.0.95.2023101102` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| August 7, 2024|
 | Neat Frame | `NFF1.20240312.0005` | N/A | Teams client: `1449/1.0.95.2023101102` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| April 12, 2024|
 | Neat Frame | `NFF1.20240120.0009` | N/A | Teams client: `1449/1.0.95.2023101102` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| February 29, 2024|
@@ -300,6 +301,7 @@ See [Microsoft Teams panels](../devices/overview-teams-panels.md) for features s
 #### <b> Neat </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications  | Release date|
 |:----------------|:-------------------|:----------------------------|:-------------------------------------------------------------------------|:-------------------------------------|
+| Neat Pad | `NFA1.20240620.1740` | N/A| Teams client: `1449/1.0.97.2024061108` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202402202353.product`| August 26, 2024|
 | Neat Pad | `NFA1.20240516.0501` | N/A| Teams client: `1449/1.0.97.2024040202` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202402202353.product`| June 21, 2024|
 | Neat Pad | `NFA1.20240312.0503` | N/A| Teams client: `1449/1.0.97.2024010401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| April 16, 2024|
 | Neat Pad | `NFA1.20240120.0109` | N/A| Teams client: `1449/1.0.97.2023111003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| March 05, 2024|
