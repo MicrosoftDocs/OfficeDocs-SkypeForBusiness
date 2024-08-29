@@ -131,26 +131,28 @@ If you've been using live events for your organization, you might want to unders
 |Manage whether events in your org can be recorded|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
 |Manage whether events in your org can be transcribed|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
 |Microsoft town hall insights|✖️|✖️|✔️|
+|Modern and dynamic group support|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
 |MTR-W support for presenters and attendees|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
-|Presenter capacity (including external presenters)|100|100|100|
-|Presenter role|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
-|Preview for shared content in managed mode|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
-|Producer UX|✔️ |Manage what attendees see|Manage what attendees see|
 |Nudge attendees to join|✔️|*Targeted for H2 CY24*|*Targeted for H2 CY24*|
+|Presenter capacity (including external presenters)|100|100|100|
 |Presenters can dial in|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
+|Preview shared content in managed mode|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
+|Producer role|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
+|Producer UX|✔️ |Manage what attendees see|Manage what attendees see|
 |Q&A: attendees can filter questions|✔️|*Targeted for H2 CY24*|*Targeted for H2 CY24*|
 |Q&A capacity|10k|10k|20k|
 |Q&A: delete and archive questions|✔️|*Targeted for H2 CY24*|*Targeted for H2 CY24*|
+|Q&A: moderator default and hide real names|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
 |Q&A: organizers can make presenters moderators|✔️|*Targeted for H2 CY24*|*Targeted for H2 CY24*|
 |Q&A: organizers can privately reply to a question|✔️|*Targeted for H2 CY24*|*Targeted for H2 CY24*|
 |Q&A: question export to CSV|✔️|✔️|✔️|
 |Q&A: vote on and sort questions|✔️|*Targeted for H2 CY24*|*Targeted for H2 CY24*|
 |Queue and preview content and presenters|✔️|In development|In development|
-|Return to green room|✔️ |*Targeted for H2 CY24*|*Targeted for H1 CY24*|
+|Return to green room|✔️ |*Targeted for H1 CY25*|*Targeted for H1 CY25*|
 |RTMP-In|✔️|✔️|✔️|
-|RTMP-In Transcription|✔️|*Targeted for H2 CY24*|*Targeted for H2 CY24*|
+|RTMP-In Transcription|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
 |Separate invites for presenters and attendees|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
-|Sharepoint embedded scheduling|✔️|*Targeted for H2 CY24*|*Targeted for H1 CY24*|
+|Sharepoint embedded scheduling|✔️|*Targeted for H2 CY24*|*Targeted for H2 CY24*|
 |Usage reports|✔️|✔️|✔️|
 |VDI support|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
 |Viva Engage integration|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
