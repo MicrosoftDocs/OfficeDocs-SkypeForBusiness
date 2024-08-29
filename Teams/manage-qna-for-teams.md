@@ -28,7 +28,7 @@ Your organization might have requirements to limit which organizers can use Q&A.
 To learn more about Q&A for your users, see [Q&A in Microsoft Teams meetings](https://support.microsoft.com/office/q-a-in-microsoft-teams-meetings-f3c84c72-57c3-4b6d-aea5-67b11face787).
 
 > [!NOTE]
-> Q&A is available in GCC, but not in GCC-High
+> Q&A is available in GCC, but not in GCC-High.
 
 ## Prerequisites
 
