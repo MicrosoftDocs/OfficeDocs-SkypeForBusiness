@@ -1341,6 +1341,8 @@ items:
                   href: rooms/rooms-lifecycle-support.md
                 - name: Android app and firmware versions
                   href: rooms/android-app-firmware.md
+                - name: Android version support
+                  href: devices/android-version-support.md         
                 - name: Teams Rooms and devices feature comparison
                   href: rooms/teams-devices-feature-comparison.md
             - name: Licensing
@@ -1505,6 +1507,8 @@ items:
               items:
                 - name: Feature management
                   items:
+                    - name: Android version support
+                      href: devices/android-version-support.md      
                     - name: Use Teams panels
                       href: devices/use-teams-panels.md
                     - name: App support on Teams panels  
@@ -1539,6 +1543,8 @@ items:
               href: devices/authentication-best-practices-for-android-devices.md
             - name: AOSP device management 
               href: rooms/android-migration-guide.md
+            - name: Android version support
+              href: devices/android-version-support.md      
         - name: Manage
           items:
             - name: Manage your devices in Teams
