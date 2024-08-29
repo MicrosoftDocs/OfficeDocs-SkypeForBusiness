@@ -67,9 +67,15 @@ For details on shared accounts, see [About shared mailboxes - Microsoft 365 ad
 
 ### Microsoft Teams Rooms meetings
 
-For **Microsoft Teams Rooms meetings(MTR)**, when an organizer creates a meeting using the meet-now button in MTR, the room itself becomes the meeting organizer, and the recording is stored in the MTR’s OneDrive account. As a result, none of the meeting participants have full permissions to the file. If you want meeting participants to have full permissions to the recording file, avoid assigning OneDrive storage to an MTR.
+WHICH VERSION IS CORRECT?
+
+**VERSION 1:** For **Microsoft Teams Rooms meetings(MTR)**, when an organizer creates a meeting using the meet-now button in MTR, the room itself becomes the meeting organizer, and the recording is stored in the MTR’s OneDrive account. However, none of the meeting participants have full permissions to the file. If you want meeting participants to have full permissions to the recording file, avoid assigning OneDrive storage to an MTR.
+
+When an an MTR attends a meeting that another user organizes, the MTR can't initiate the recording, but other meeting participants can.
 
 When the MTR doesn't have a OneDrive account, the recording gets saved to the organizer's OneDrive. For details on what happens if an organizer doesn't have a OneDrive account, see the **Recording storage for organizers without OneDrive accounts** section in this article.
+
+**VERSION 2:** In Microsoft Teams Rooms, recording and transcription initiation isn't yet available.
 
 To learn more about Microsoft Teams Rooms meetings, see [Microsoft Teams Rooms (Windows)](https://support.microsoft.com/office/microsoft-teams-rooms-windows-e667f40e-5aab-40c1-bd68-611fe0002ba2).
 
