@@ -88,13 +88,13 @@ Once these plans are assigned, the minutes available vary depending on the locat
 
 ### International Calling Plan
 
-The International Calling Plan includes both domestic and international minutes for outbound calls. Domestic minutes allow users to call numbers in the country or region where their Microsoft 365 license is assigned. International minutes allow users to call international numbers in [196 countries/regions](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md). Unlimited incoming minutes are included. Outgoing minutes are included based on the license purchased.
+The International Calling Plan includes both domestic and international minutes for outbound calls. Domestic minutes allow users to call numbers in the country where their Microsoft 365 license is assigned. International minutes allow users to call international numbers in [196 countries](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md). Unlimited incoming minutes are included. Outgoing minutes are included based on the license purchased.
 
 For more information, see [Country and region availability for Audio Conferencing and Calling Plans](calling-plan-overview.md).  
 
 ### Pay-As-You-Go Calling Plan
 
-With the Pay-As-You-Go Calling Plan, licensed users can call out to numbers located in the country/region where their Microsoft 365 license is assigned to the user based on the user's location, and to international numbers in [196 countries/regions](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md). 
+With the Pay-As-You-Go Calling Plan, licensed users can call out to numbers located in the country where their Microsoft 365 license is assigned to the user based on the user's location, and to international numbers in [196 countries](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md). 
 
 Unlimited incoming minutes are included. No outgoing minutes are included. All outgoing calls are charged based on the minutes used, either with Communication Credits or post-usage billing (for new commerce experience calling subscriptions only). Licenses are assigned to users based on their location.
 
