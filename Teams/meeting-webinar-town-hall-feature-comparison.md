@@ -72,6 +72,7 @@ The following table shows which features are available in meetings, webinars, an
 |[RTMP-in](https://support.microsoft.com/office/use-rtmp-in-in-a-teams-meeting-789d6090-8511-4e2e-add6-52a9f551be7f)| Premium|Premium|✔️|
 |[Shared notes](meeting-policies-content-sharing.md)|✔️|✔️|Only for organizers and co-organizers.|
 |[Speaker coach](meeting-speaker-coach.md)|✔️|✔️|For organizers and co-organizers.|
+|[Town hall attendee reactions](https://support.microsoft.com/office/schedule-a-town-hall-in-microsoft-teams-d493b5cc-9f61-4dac-8027-d837dafb7a4c#bkmk_townhall_reactions)|✖️|✖️|Premium|
 |[View-only experience](view-only-meeting-experience.md)|10,000<sup>1</sup>|✖️|✖️|
 |[VOD](manage-vod-publishing.md)|✖️|✔️|✔️|
 |[Voice isolation](voice-isolation.md)|✔️|✔️|✔️|
