@@ -161,8 +161,6 @@ Teams admins and organizers have different policies and settings to control the 
 |[VOD publishing](manage-vod-publishing.md) |Can manage the types of recordings organizers can publish. |Can publish and modify town hall recordings. |
 |[Voice isolation](voice-isolation.md)|Can control whether users can use voice isolation in town halls.|Can enable voice isolation.|
 
-
-
 ## Need help with your town hall?
 
 Are you and your organizers are new to hosting town halls or just need some extra help? The Microsoft 365 Live Event Assistance Program (LEAP) can help you get more familiar with setting up and running town halls. The LEAP program is also available during the event to help if any questions or issues come up. For more information on the LEAP program, see [Microsoft 365 Live Event Assistance Program.](https://adoption.microsoft.com/virtual-event-guidance/assistance)
