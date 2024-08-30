@@ -293,6 +293,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Logitech Sight](https://www.logitech.com/products/video-conferencing/room-solutions/sight.960-001510.html) + [Rally Bar Mini](https://www.logitech.com/products/video-conferencing/room-solutions/rallybarmini.960-001336.html) | Sight: <br/> Logi CollabOS: 1.10.208 |  | &#x2714; |
 | [Logitech Rally Bar Huddle](https://www.logitech.com/business/solutions/huddle-space.html) | Logi CollabOS: 1.10.277 <br/> System Image: 0.903.271 <br/> Audio: 0.2.67 |  |  |
 | [Logitech MeetUp](https://www.logitech.com/product/meetup-conferencecam) | Audio — 1.0.172 <br/> Video — 1.0.156 |  |  |
+| [Logitech MeetUp 2](https://www.logitech.com/products/video-conferencing/conference-cameras/meetup2.html) | Logi CollabOS: 1.13.77 |  |  |
 | [Logitech ConferenceCam Connect](https://www.logitech.com/product/conferencecam-connect) | 1.1.248.0 <br/> 1.1.684 |  |  |
 | [Logitech Group](https://www.logitech.com/product/conferencecam-group) | 8.5.778 |  |  |
 | Logitech PTZ Pro | 1.1.219 |  |  |
