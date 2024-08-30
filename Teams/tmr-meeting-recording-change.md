@@ -43,9 +43,9 @@ For **meetings, webinars, and town halls**, by default, all recording files are 
 - Town halls
 - Webinars
 
-If **`-MeetingRecordingOwnership`** is set to `RecordingInitiator`, when organizers with this policy create meetings and events, the recording saves to the OneDrive of the user who starts the recording. If the recording initiator doesn't have a OneDrive, the recording is temporarily saved to async media storage.
+If **`-MeetingRecordingOwnership`** is set to `MeetingOrganizer` (default setting value), the recording saves to the organizer's OneDrive, even if the organizer didn't attend the meeting or event. Co-organizers have the same editing permissions as organizers for recording files. To understand what happens if an organizer doesn't have a OneDrive account, see the **Recording storage for organizers without OneDrive accounts** section in this article.
 
-If **`-MeetingRecordingOwnership`** is set to `MeetingOrganizer`, when organizers with this policy create meetings and events, the recording saves to organizer's OneDrive, even if the organizer didn't attend the meeting or event. Co-organizers have the same editing permissions as organizers for recording files. To understand what happens if an organizer doesn't have a OneDrive account, see the **Recording storage for organizers without OneDrive accounts** section in this article.
+If **`-MeetingRecordingOwnership`** is set to `RecordingInitiator`, the recording saves to the OneDrive of the user who starts the recording. If the recording initiator doesn't have a OneDrive, the recording is temporarily saved to async media storage.
 
 #### Delegate-created meetings
 
