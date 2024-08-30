@@ -250,7 +250,7 @@ Implement QoS settings for endpoints and network devices and determine how you w
   |App or screen sharing |50,040 = 50,059          |TCP/UDP  |18         |Assured Forwarding (AF41) |
 - For information on configuring DSCP markings for Windows endpoints, see [Implement QoS in Teams clients](QoS-in-Teams-clients.md).
   > [!NOTE]
-  > Any endpoint-based marking must be applied to MsTeamsVdi.exe, the process that handles all multimedia offloading on the user's device.
+  > Any endpoint-based marking must be applied to MsTeamsVdi.exe, the process that handles all multimedia offloading on the user's device. Refer to the [Playbook document](https://aka.ms/teams-vdi-2.0-playbook) for more info on QoS.
 - For information on implementing QoS for routers, see your manufacturer's documentation.
 - Setting QoS on network devices might include some or all of:
   - using port-based Access Control Lists (ACLs)
