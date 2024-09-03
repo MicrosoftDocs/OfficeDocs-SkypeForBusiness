@@ -113,6 +113,28 @@ To switch off Cloud IntelliFrame in a room, perform the following steps:
 
 1. Restart the console for the configuration changes to take effect.
 
+## Override Default Settings
+Admins have granular control over Cloud IntelliFrame's end-user behavior. These settings can be configured either through XML or directly from the in-room console:
+
+#### XML Settings
+
+| **Setting**                     | **Values**     | **Purpose**                                                             |
+|----------------------------------|----------------|-------------------------------------------------------------------------|
+| `EnableCloudIntelliframe`        | `True` / `False`  | Enable or disable Cloud IntelliFrame for this room.                      
+| `EnableCIFOnByDefault`           | `True` / `False`  | Auto-enable or allow in-room users to manually switch it on|
+| `EnableCIFOnSupportedCamerasOnly`| `True` / `False`  | Restrict to supported cameras or allow any camera.    |
+
+#### Console Settings
+
+To modify Cloud IntelliFrame settings via the console:
+
+1. Navigate to **Settings > Peripherals > Cameras > Cloud IntelliFrame**.
+2. Here, you can:
+   - Enable or disable Cloud IntelliFrame for the room.
+   - Configure whether Cloud IntelliFrame is on by default or if in-room users can manually enable it.
+   - Override the default setting to allow Cloud IntelliFrame to work on any camera.
+
 > [!IMPORTANT]
 > You are responsible for compliance with local laws and regulations when you enable Cloud IntelliFrame in a particular jurisdiction, including with respect to obligations around notice, consent, and data retention. These obligations may include installing appropriate signage outside any meeting room where you enable Cloud IntelliFrame advising people about the feature.
 > Cloud IntelliFrame does not have the capacity to identify particular individuals, due to the uncertainty regarding the scope of “biometrics” in the State of Illinois law; therefore, Cloud IntelliFrame is not intended for use in Illinois.
+> If enabling Cloud IntelliFrame on a non-supported camera, ensure that other AI features (e.g., Speaker Tracking, Grid View) are turned off, as they can interfere with Cloud IntelliFrame.
