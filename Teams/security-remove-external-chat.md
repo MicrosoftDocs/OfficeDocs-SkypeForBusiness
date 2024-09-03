@@ -37,7 +37,7 @@ You can obtain these three parameters from the new Unified Audit Log (UAL) event
 
 To search for the UAL events that match your criteria, you can use the Search-UnifiedAuditLog graph API, or you can use the audit log search feature in the Microsoft Purview compliance portal. The rest of this document assumes you're using the interactive version in the Microsoft Purview compliance portal. Use the following steps: 
 
-1. Sign in to https://compliance.microsoft.com as a global administrator or an audit log administrator. 
+1. Sign in to https://compliance.microsoft.com as an audit log administrator. 
 2. In the left navigation, select **Audit**.
 3. On the Audit log search page, specify the following criteria:
 
