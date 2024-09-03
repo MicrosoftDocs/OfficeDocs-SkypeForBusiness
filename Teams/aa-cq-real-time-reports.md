@@ -46,6 +46,7 @@ When a client registers for real-time data, there are two feeds of metrics that 
    The client receives an updated current feed throughout the interval as calls arrive, are answered, transferred, or abandoned.
 
    At the end of the current interval, most of the metrics from the current feed are moved to the summary feed and the current feed metrics are reset to zero.
+   
 1. Summary feeds
    The summary feed contains the metrics for the past 24 hours UTC or since midnight local time of the client, depending on what the client registered for.
 
@@ -104,10 +105,6 @@ All metrics are whole numbers unless otherwise stated.
 |avg_call_time<br>Decimal–single digit   |Current & Summary	|Authorized	Users Only    |Average amount of time calls spent in the auto attendant                  |
 |avg_caller_actions<br>Decimal–single digit	|Current & Summary |Authorized Users Only |Average number of caller actions in the auto attendant                    |
 
-### Notes
-
-- calls pegging more than once
-- explain decimal numbers (if needed here)
 
 ## Call queue metrics
 All metrics are whole numbers unless otherwise stated.
