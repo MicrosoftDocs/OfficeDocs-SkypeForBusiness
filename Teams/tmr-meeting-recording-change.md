@@ -61,7 +61,7 @@ For **Channel meetings**, the recording is stored in the SharePoint Teams site d
 
 ### Shared account scheduled meetings
 
-For **shared accounts scheduled meetings**, if the shared account has OneDrive, the recording is uploaded there. However, since shared accounts typically don’t have OneDrive, the recordings are uploaded to the co-organizer’s or recording initiator's OneDrive in those cases. To understand what happens if an organizer doesn't have a OneDrive account, see the **Recording storage for organizers without OneDrive accounts** section in this article.
+For **shared accounts scheduled meetings**, if the shared account has a OneDrive, the recording is uploaded there. However, since shared accounts typically don’t have a OneDrive, the recordings are uploaded to the co-organizer’s or recording initiator's OneDrive instead. To understand what happens if an organizer doesn't have a OneDrive account, see the **Recording storage for organizers without OneDrive accounts** section in this article.
 
 For details on shared accounts, see [About shared mailboxes - Microsoft 365 admin](/microsoft-365/admin/email/about-shared-mailboxes).
 
