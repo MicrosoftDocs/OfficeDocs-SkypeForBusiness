@@ -41,6 +41,9 @@ Teams is enhanced to support the integration of partner recording solutions. The
 
 Compliance recording can be enabled on Microsoft 365 A3/A5/E3/E5/Business Premium, Office 365 A3/A5/E3/E5 users, Teams Rooms license, or Microsoft Teams Shared Devices license.
 
+> [!IMPORTANT]
+> Users with an assigned compliance policy experience a 4-second audio delay when making PSTN calls.
+
 > [!NOTE]
 > Compliance recording isn't currently supported for E911 emergency calling services.
 
@@ -242,6 +245,14 @@ policies](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group).
 
 ## User experiences
 
+### PSTN calls
+
+Inbound call queue (CQ) calls are recorded for users who have an assigned compliance recording (CR) policy. Some routing methods might involve usability concerns with multiple announcements. We recommend appropriately configuring your call queues to align with your organization's intended user experience.
+
+Compliance recording doesn't work if users have an Internet outage, and make or receive PSTN calls using an SBA.
+
+### Notifications
+
 Support for notifications is enabled using the Teams client experiences. The experiences can be either visual or audio.
 
 **Teams clients - visual notice**
@@ -258,10 +269,6 @@ Support for notifications is enabled using the Teams client experiences. The exp
 - Audio conferencing (audio notice in dial-in number's default or user-selected language)
 - PSTN callers (audio notice in Teams user's default language)
 
-> [!NOTE]
-> 1. Inbound call queue (CQ) calls are recorded for users who have an assigned compliance recording (CR) policy. Some routing methods might involve usability concerns with multiple announcements. We recommend appropriately configuring your call queues to align with your organization's intended user experience.
-> 2. Compliance recording doesn't work if users have an Internet outage, and make or receive PSTN calls using an SBA.
-
 ## Compliance recording for Teams certification programs
 
 In addition to publishing publicly available APIs allowing partners to develop and integrate CCaaS solutions with Teams, we developed the compliance recording for Microsoft Teams certification program. This program provides customers with the assurance that each participating partner's solution is tested and verified. Customers can be assured that partners provide the quality, compatibility, and reliability they expect from Microsoft solutions.
@@ -274,6 +281,7 @@ The following partners certify their solution for Microsoft Teams.<br/><br/>
 |AudioCodes |[https://online.audiocodes.com/smarttap-360-live-for-microsoft-teams](https://online.audiocodes.com/smarttap-360-live-for-microsoft-teams) |
 |CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
 |Dubber |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
+|Touch Call Recording (GuardRec Compliance 2022.10.3) |[https://touchcallrecording.com/teams-policy-based-recording-for-callings-and-meetings](https://touchcallrecording.com/teams-policy-based-recording-for-callings-and-meetings) |
 |Insightful Technology |[https://insightfultechnology.com/teams/](https://insightfultechnology.com/teams/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
 |Mida Solutions |[https://www.midasolutions.com/recorder-for-teams/](https://www.midasolutions.com/recorder-for-teams/) |
@@ -291,8 +299,7 @@ The following partners are in the process of certifying their solution for Micro
 |Partner|Solution website |
 |:--|:--|
 |Cloud World Wide Services |[https://recordia.net/microsoft-teams-call-recording/](https://recordia.net/microsoft-teams-call-recording/) |
-|Crealog |[https://www.crealog.com/en/products-solutions/recording/](https://www.crealog.com/en/products-solutions/recording/) |
-|GuardRec |[https://www.guardrec.com/en/teams-compliance-recording/](https://www.guardrec.com/en/teams-compliance-recording/) |
+|CreaLog |[https://www.crealog.com/en/products-solutions/recording/](https://www.crealog.com/en/products-solutions/recording/) |
 |Landis Technologies |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Redwood Technologies |[https://www.contentguru.com/en-us/solutions/needs/compliance-recording-ms-teams/](https://www.contentguru.com/en-us/solutions/needs/compliance-recording-ms-teams/) |
 

@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
 ms.reviewer: divank
-ms.date: 07/15/2024
+ms.date: 08/21/2024
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
@@ -29,28 +29,27 @@ description: Learn which desk and conference phones are certified for Microsoft 
 
 # Microsoft Teams certified Android devices
 
-The Microsoft Teams Devices Certification Program ensures certified devices meet a high standard, with higher performance targets and quality metrics across the entire Teams experience (audio, video, user interface). Microsoft and OEM partners are actively working together to ensure devices meet all certification requirements, including security, audio and video quality, Teams experience, and accessibility.
+The Microsoft Teams Devices Certification Program ensures certified devices meet a high standard, with higher performance targets and quality metrics across the entire Teams experience (audio, video, user interface). Microsoft and Original Equipment Manufacturers (OEMs) partners are actively working together to ensure devices meet all certification requirements, including security, audio and video quality, Teams experience, and accessibility.
 
 > [!IMPORTANT]
 > The Microsoft Teams Devices Certification Program ensures certified devices meet specific requirements for hardware design and performance only. The certification program doesn't evaluate feature-level or cloud environment support.
 >
 > For information about what features are supported on Teams Rooms on Windows and Teams Rooms on Android, including cloud environment support, see [Teams Rooms on Windows and Android feature comparison](../rooms/teams-devices-feature-comparison.md).
 
-Certification programs are designed to ensure all certified devices run an Android version with the required feature set for Teams and Teams Admin Center. Certification end dates are based on the Android version running on the device when it enters into the certification program. Our OEM partners are working to extend the lifetime of the certification by upgrading the Android version and recertifying, or by releasing new models that are state-of-the-art. 
+Certification programs are designed to ensure all certified devices run an Android version with the required feature set for Teams and Teams Admin Center. Certification end dates are based on the Android version running on the device when it enters into the certification program. Microsoft OEM partners are working to extend the lifetime of the certification by upgrading the Android version and recertifying, or by releasing new models that are state-of-the-art. 
 
 Microsoft is committed to certifying devices on latest Android versions available for Teams devices as long as OEM partners and SoC manufacturers are able to meet all certification requirements in effect at the time device enters certification.
 
-After certification end date, Microsoft is committed to make efforts to support the most recent version of the Teams client on such devices for two years following the end of the certification period.
+After certification end date, Microsoft is committed to make efforts to support the most recent version of the Teams client on such devices for two (2) years following the end of the certification period.
 
 > [!NOTE]
-> Certification end dates are based on the Android version release date plus five years. Once device passes the certification requirements and OEM partners provide the firmware that enables the upgrade to a newer Android version, the certification end date will be extended to match the new Android OS version release date plus five years.
-> 
+> Certification end dates are based on the Android version release date plus five years. Once device passes the certification requirements and OEM partners provide the firmware that enables the upgrade to a newer Android version, the certification end date will be extended. 
 
->[!NOTE]
-> Certification end dates for Android 12 based devices has been extended by one year, from October 4, 2026 to August 15, 2027. Tables below reflects current certification end dates. 
+> [!NOTE]
+> Certification end dates for Android 12 based devices has been extended by one year, from October 4, 2026, to August 15, 2027. Information below reflects current certification end dates. 
+
 ## Certified Teams phones
-The following devices are Certified under the Microsoft Teams phones Certification Program:
-
+The following devices are Certified under the Microsoft Teams phones Certification Program.
 
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
@@ -85,13 +84,10 @@ For a list of supported app and firmware versions for Teams Rooms on Android sys
 
 ## Certified Teams Displays
 
-The following devices are Certified under the Microsoft Teams Displays Android Certification Program:
-
+The following devices are Certified under the Microsoft Teams Displays Android Certification Program.
 
 > [!IMPORTANT]
->
-> End of support for the Teams display app is September 3, 2025. Microsoft will make commercially reasonable best efforts to maintain compatibility with the most recent version of the Teams app provided to manufacturers for a period of two (2) years from this date. See the [Microsoft Product and Services lifecycle](/lifecycle/products/) for details.
-
+> End of certification for Teams display devices is September 3, 2025. Microsoft will make commercially reasonable best efforts to maintain compatibility with the most recent version of the Teams apps provided to manufacturers for a period of two (2) years from this date. See the [Microsoft Product and Services lifecycle](/lifecycle/products/) for details.
 
 | Device model | Firmware version | Current certification end date  | Android OS version |
 |:------------------------|:-----------------|:--------------|----------------------------------|
@@ -101,19 +97,17 @@ The following devices are Certified under the Microsoft Teams Displays Android C
 
 ## Certified Teams panels
 
-The following devices are Certified under the Microsoft Teams panels Certification Program:
-
-> The certification end date for Android 10 based devices has been extended to September 3, 2025
+The following devices are Certified under the Microsoft Teams panels Certification Program.
 
 | Device model| Firmware version | Current certification end date | Android OS version |
 |:------------------------|:-----------------|:--------------|-----------------------|
-|Cisco Navigator | `CiscoOS 11.20 `|August 15, 2027  | 12 |
+|Cisco Navigator | `CiscoOS 11.20 `|August 15, 2027  | 13 |
 |Audiocodes RX-Panel | `2.1.457`|August 15, 2027  | 12 |
 |Crestron TSS-770 | `2.001.0058` |September 3, 2025  | 10 |
 |Crestron TSS-1070 | `2.001.0058`|September 3, 2025 | 10 |
 |EPOS Expand Control Panel   | `1.2.22206.03` | September 3, 2025 | 10 |
-|Logitech Dock Flex | `1.10.81` | September 3, 2025 | 10|
-|Logitech TAP Scheduler | `1.3.111` |September 3, 2025 | 10 |
+|Logitech Dock Flex (VR0035) | `1.10.81` | September 3, 2025 | 10|
+|Logitech TAP Scheduler (VR0028) | `1.3.111` |September 3, 2025 | 10 |
 |Neat Pad Panel    | `NFA1.20230928.0108` | 	September 3, 2025  | 10 |
 |Poly TC10 | `5.0.0.211194`|September 3, 2025  | 11 |
 |Yealink RoomPanel | `147.520.0.4 `|September 3, 2025  | 10 |
@@ -122,13 +116,12 @@ The following devices are Certified under the Microsoft Teams panels Certificati
 
 ## Product release information for Teams phones
 
-
-For information about the latest Teams app releases, see [What's new in Microsoft Teams Devices](https://support.microsoft.com/en-us/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones).
+The following are the latest firmware versions released via Microsoft Teams Admin Center (TAC) for each device and OEM, as well as the Teams APK, Company Portal, and Admin Agent applications bundled into the firmware release. 
 
 See [Microsoft Teams phones feature set](phones-for-teams.md) for information on features supported by these devices.
 
-The following are the latest firmware versions released via Microsoft Teams Admin Center. 
-
+> [!NOTE]
+> More recent and supported Microsoft Teams phones applications may be available for Android devices. Release details and notes for the latest Microsoft Teams phones applications can be found at: [What's new in Microsoft Teams devices](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones)
 ### Firmware versions released to the Public cloud
 
 #### <b> Audiocodes </b>
@@ -136,7 +129,7 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 |:----------------|:-------------------|:----------------------------|:---------------------------------------------------------------------------------------------------------------|:------------------------------------------|
 | C448HD/C450HD | `1.19.712` | `N/A`| Teams client: `1449/1.0.94.2024062301` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| July 22, 2024|
 | C435HD/C455HD/C470HD | `2.3.423` | `1.19.584`| Teams client: `1449/1.0.94.2024062010` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| July 22, 2024|
-| C435HD/C455HD/C470HD | `2.3.410` | `1.19.584`| Teams client: `1449/1.0.94.2024061301` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| June 27, 2024|
+| C435HD/C455HD/C470HD | `2.3.410` | `1.19.584`| Teams client: `1449/1.0.94.2024061301` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| Recalled|
 | C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.705` | `1.19.456`| Teams client: `1449/1.0.94.2024011003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| February 19, 2024|
 | C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.642` | `N/A`| Teams client: `1449/1.0.94.2024011601` <br> Company Portal: `5.0.6061.0` <br> Admin Agent: `1.0.0.202310260109.product`| February 8, 2024|
 | C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.584` | `1.19.516`| Teams client: `1449/1.0.94.2023100602` <br> Company Portal: `5.0.5954.0` <br> Admin Agent: `1.0.0.202306202019.product`| November 6, 2023|
@@ -215,11 +208,12 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 
 ## Product release information for Teams displays
 
-For information about the latest Teams app releases, see [What's new in Microsoft Teams Devices](https://support.microsoft.com/en-us/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones)
+The following are the latest firmware versions released via Microsoft Teams Admin Center (TAC) for each device and OEM, as well as the Teams APK, Company Portal, and Admin Agent applications bundled into the firmware release. 
 
-For See [Microsoft Teams displays](teams-displays.md) for features supported by Teams displays devices. 
+See [Microsoft Teams displays](teams-displays.md) for features supported by Teams displays devices. 
 
-The following are the latest firmware versions released via Microsoft Teams Admin Center. 
+> [!NOTE]
+> More recent and supported Microsoft Teams displays applications may be available for Android devices. Release details and notes for the latest Microsoft Teams displays applications can be found at [What's new in Microsoft Teams devices](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_displays)
 
 ### Firmware versions released to the Public cloud
 
@@ -237,6 +231,7 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 #### <b> Neat </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications  | Release date|
 |:----------------|:-------------------|:----------------------------|:-----------------------------------------------------------|:--------------------------|
+| Neat Frame | `NFF1.20240620.1740` | N/A | Teams client: `1449/1.0.95.2023101102` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202402202353.product`| August 26, 2024|
 | Neat Frame | `NFF1.20240516.0007` | N/A | Teams client: `1449/1.0.95.2023101102` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| August 7, 2024|
 | Neat Frame | `NFF1.20240312.0005` | N/A | Teams client: `1449/1.0.95.2023101102` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| April 12, 2024|
 | Neat Frame | `NFF1.20240120.0009` | N/A | Teams client: `1449/1.0.95.2023101102` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| February 29, 2024|
@@ -253,15 +248,18 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 
 ## Product release information for Teams Panels
 
-For information about the latest Teams app releases, see [What's new in Microsoft Teams Devices](https://support.microsoft.com/en-us/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones)
+The following are the latest firmware versions released via Microsoft Teams Admin Center (TAC) for each device and OEM, as well as the Teams APK, Company Portal, and Admin Agent applications bundled into the firmware release. 
 
-The following are the latest firmware versions released via Microsoft Teams Admin Center. 
+See [Microsoft Teams panels](../devices/overview-teams-panels.md) for features supported by Teams panels devices. 
 
+> [!NOTE]
+> More recent and supported Microsoft Teams panels applications may be available for Android devices. Release details and notes for the latest Microsoft Teams panels applications can be found at [What's new in Microsoft Teams devices](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_panels)
 ### Firmware versions released to the Public cloud
 
 #### <b> Audiocodes </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications  | Release date|
 |:----------------|:-------------------|:----------------------------|:---------------------------------------------------------------|:----------------------------|
+| RX Panel | `2.6.228` | N/A| Teams client: `1449/1.0.97.2024053104` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| August 21, 2024|
 | RX Panel | `2.4.124` | N/A| Teams client: `1449/1.0.97.2024061108` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| August 1, 2024|
 | RX Panel | `2.4.55` | N/A| Teams client: `1449/1.0.97.2024010401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202402202353.product`| May 16, 2024|
 | RX Panel | `2.2.808` | N/A| Teams client: `1449/1.0.97.2023111003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| February 27, 2024|
@@ -287,22 +285,23 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 #### <b> Logitech </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications  | Release date|
 |:----------------|:-------------------|:----------------------------|:--------------------------------------------------------------------|:--------------------------------|
-| DockFlex | `1.12.149`| N/A| Teams client: `1449/1.0.97.2024040202` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| June 6, 2024|
-| TAP Scheduler | `1.12.708`| N/A| Teams client: `1449/1.0.97.2024040202` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| June 6, 2024|
-| DockFlex | `1.12.146`| N/A| Teams client: `1449/1.0.97.2024010401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| May 16, 2024|
-| TAP Scheduler | `1.12.181`| N/A| Teams client: `1449/1.0.97.2024010401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| May 16, 2024|
-| DockFlex | `1.10.225`| N/A| Teams client: `1449/1.0.97.2023080401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| February 19, 2024|
-| TAP Scheduler | `1.11.205`| N/A| Teams client: `1449/1.0.97.2023111003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| February 19, 2024|
-| TAP Scheduler | `1.10.129`| N/A| Teams client: `1449/1.0.97.2023080401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| November 30, 2023|
-| TAP Scheduler | `1.10.121`| N/A| Teams client: `1449/1.0.97.2023060102` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202305022347.product`| September 7, 2023|
-| TAP Scheduler | `1.9.400` | N/A| Teams client: `1449/1.0.97.2023060102` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202305022347.product`| August 3, 2023|
-| TAP Scheduler | `1.9.388` | N/A| Teams client: `1449/1.0.97.2023041403` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product`| June 15, 2023|
-| TAP Scheduler | `1.8.184` | N/A| Teams client: `1449/1.0.97.2022748302` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product`| March 3, 2023|
-| TAP Scheduler | `1.8.181` | N/A| Teams client: `1449/1.0.97.2022747803` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202209060820.product`| January 18, 2023|
+| DockFlex (VR0035) | `1.12.149`| N/A| Teams client: `1449/1.0.97.2024040202` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| June 6, 2024|
+| TAP Scheduler (VR0028) | `1.12.708`| N/A| Teams client: `1449/1.0.97.2024040202` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| June 6, 2024|
+| DockFlex (VR0035) | `1.12.146`| N/A| Teams client: `1449/1.0.97.2024010401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| May 16, 2024|
+| TAP Scheduler (VR0028) | `1.12.181`| N/A| Teams client: `1449/1.0.97.2024010401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| May 16, 2024|
+| DockFlex (VR0035) | `1.10.225`| N/A| Teams client: `1449/1.0.97.2023080401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| February 19, 2024|
+| TAP Scheduler (VR0028) | `1.11.205`| N/A| Teams client: `1449/1.0.97.2023111003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| February 19, 2024|
+| TAP Scheduler (VR0028) | `1.10.129`| N/A| Teams client: `1449/1.0.97.2023080401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| November 30, 2023|
+| TAP Scheduler (VR0028) | `1.10.121`| N/A| Teams client: `1449/1.0.97.2023060102` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202305022347.product`| September 7, 2023|
+| TAP Scheduler (VR0028) | `1.9.400` | N/A| Teams client: `1449/1.0.97.2023060102` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202305022347.product`| August 3, 2023|
+| TAP Scheduler (VR0028) | `1.9.388` | N/A| Teams client: `1449/1.0.97.2023041403` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product`| June 15, 2023|
+| TAP Scheduler (VR0028) | `1.8.184` | N/A| Teams client: `1449/1.0.97.2022748302` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product`| March 3, 2023|
+| TAP Scheduler (VR0028) | `1.8.181` | N/A| Teams client: `1449/1.0.97.2022747803` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202209060820.product`| January 18, 2023|
 
 #### <b> Neat </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications  | Release date|
 |:----------------|:-------------------|:----------------------------|:-------------------------------------------------------------------------|:-------------------------------------|
+| Neat Pad | `NFA1.20240620.1740` | N/A| Teams client: `1449/1.0.97.2024061108` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202402202353.product`| August 26, 2024|
 | Neat Pad | `NFA1.20240516.0501` | N/A| Teams client: `1449/1.0.97.2024040202` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202402202353.product`| June 21, 2024|
 | Neat Pad | `NFA1.20240312.0503` | N/A| Teams client: `1449/1.0.97.2024010401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| April 16, 2024|
 | Neat Pad | `NFA1.20240120.0109` | N/A| Teams client: `1449/1.0.97.2023111003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| March 05, 2024|
@@ -337,10 +336,10 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 #### <b> Logitech </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications  | Release date| Cloud|
 |:----------------|:-------------------|:----------------------------|:----------------------------------------------------------------------------|:-----------------|:-------------------------------------|
-| TAP Scheduler | `1.12.708`| N/A| Teams client: `1449/1.0.97.2024040202` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| June 17, 2024| GCCH|
-| DockFlex | `1.12.149`| N/A| Teams client: `1449/1.0.97.2024040202` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| June 17, 2024| GCCH|
-| TAP Scheduler | `1.11.205` | N/A| Teams client: `1449/1.0.97.2023111003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| February 22, 2024| GCCH|
-| TAP Scheduler | `1.10.121` | N/A| Teams client: `1449/1.0.97.2023060102` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202305022347.product`| October 9, 2023| GCCH|
+| TAP Scheduler (VR0028) | `1.12.708`| N/A| Teams client: `1449/1.0.97.2024040202` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| June 17, 2024| GCCH|
+| DockFlex (VR0035) | `1.12.149`| N/A| Teams client: `1449/1.0.97.2024040202` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| June 17, 2024| GCCH|
+| TAP Scheduler (VR0028) | `1.11.205` | N/A| Teams client: `1449/1.0.97.2023111003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| February 22, 2024| GCCH|
+| TAP Scheduler (VR0028) | `1.10.121` | N/A| Teams client: `1449/1.0.97.2023060102` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202305022347.product`| October 9, 2023| GCCH|
 
 #### <b> Neat </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications  | Release date| Cloud|
@@ -354,7 +353,7 @@ Microsoft and its Original Equipment Manufacturers (OEM) partners continually de
 
 We recognize that device certification expiration can impact your business. Our OEM partners have detailed End-of-Life policies to assist and direct you towards adopting newer technologies. For the most current information on Teams certified devices referenced here, please consult our OEM partners' websites.
 
-Following a certification expiration, Microsoft is committed to supporting the latest version of the Teams client on certified devices for a span of two years after the certification period concludes. While Microsoft will make every effort to maintain support as described here, it retains the discretion to modify its support policy if necessary. Should any changes occur, they will be communicated through established channels directed at customers.
+Following a certification expiration, Microsoft is committed to supporting the latest version of the Teams client on certified devices for a span of two (2) years after the certification period concludes. While Microsoft will make every effort to maintain support as described here, it retains the discretion to modify its support policy if necessary. Should any changes occur, they will be communicated through the established customer facing communication channels.
 
 | Device Category | Device Model | Android OS Version | Certification end date |
 |:----------------|:-------------------|:----------------------------|:--------------------------|
@@ -363,6 +362,8 @@ Following a certification expiration, Microsoft is committed to supporting the l
 |Teams phones|Yealink T56/T56A|7|October 4, 2021|
 |Teams phones|Yealink T58/T57A|7|October 4, 2021|
 |Teams phones - conference | Yealink CP960| 7 | October 4, 2021 |
+|Teams displays| Lenovo ThinkSmart View | 8.1 | December 31, 2021|
+|Teams phones | Lenovo ThinkSmart View | 8.1 | December 31, 2021 |
 |Teams phones | Yealink MP52 | 9 | August 5, 2023 |
 |Teams phones - video | Yealink VP59 | 9| August 5, 2023|
 |Teams phones | AudioCodes C448HD | 9| August 5, 2023 |
