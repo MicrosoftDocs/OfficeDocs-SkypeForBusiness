@@ -43,7 +43,7 @@ Before you follow the procedures in this article, be sure you have read [Plan fo
 
 ## What's new for Call queues in the past six months
 
-- August 27
+- September 16
   - [Callback](#callback) functionality available through PowerShell cmdlets
   - Conference mode is now supported for Skype for Business clients and calls that are routed to the queue from Skype for Business Server
 - April 8 - Additional messaging options for call queue Overflow, Timeout, and No Agents exception routing in Teams admin center and [PowerShell cmdlets](#additional-messaging)
