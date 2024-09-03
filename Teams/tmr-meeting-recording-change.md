@@ -71,7 +71,7 @@ For **Microsoft Teams Rooms (MTR) meetings**, when an organizer creates a meetin
 
 When the MTR doesn't have a OneDrive account, the recording gets saved to the co-organizer's or recording initiator's OneDrive. For details on what happens if an organizer doesn't have a OneDrive account, see the **Recording storage for organizers without OneDrive accounts** section in this article.
 
-When an an MTR attends a meeting that another user organizes, the MTR can't initiate the recording, but other meeting participants can.
+When an MTR attends a meeting that another user organizes, the MTR can't initiate the recording, but other meeting participants can.
 
 To learn more about Microsoft Teams Rooms meetings, see [Microsoft Teams Rooms (Windows)](https://support.microsoft.com/office/microsoft-teams-rooms-windows-e667f40e-5aab-40c1-bd68-611fe0002ba2).
 
