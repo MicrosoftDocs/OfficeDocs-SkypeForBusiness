@@ -75,7 +75,7 @@ A user can only be assigned one messaging policy at a time.
 
 Here are the messaging policy settings that you can configure.
 
-- **Owners can delete sent messages**  Enable this setting to allow owners to delete messages or posts sent by users, excluding their own. _To allow owners to delete their own sent messages, activate the **Delete Sent Messages** setting._
+- **Owners can delete sent messages**  Enable this setting to allow owners to delete messages or posts sent by users, excluding their own. *To allow owners to delete their own sent messages, activate the **Delete Sent Messages** setting*.
 - **Delete sent messages** Use this setting to let users delete individual messages that they sent in chat.
 - **Delete chat** Use this setting to let users have the option to delete entire conversations from their chat list. This will only delete the chat content for the user taking the action; other users in the chat will still be able to see all of the messages. The user who deleted the chat will not see any existing messages in their activity feed or search results for the deleted chat; this user will also be removed from the deleted chat. Users will be prompted to confirm the decision to delete a chat. This setting is on by default. If this setting is turned off, users will no longer see the delete option for their chats.
 - **Edit sent messages** Use this setting to let users edit the messages that they sent in chat.
