@@ -38,6 +38,7 @@ This article describes the following steps to configure Shared Calling:
 1. [Enable emergency calling for users.](#step-7-enable-emergency-calling-for-users)
 1. [Create your Shared Calling policy.](#step-8-create-the-shared-calling-policy)
 1. [Assign the Shared Calling policy to users.](#step-9-assign-the-shared-calling-policy-to-users)
+1. [Configure extension dialing support for Shared Calling enabled users (optional).](#step-10-configure-extension-dialing-support-for-shared-calling-enabled-users-optional)
 
 For a step-by-step example on how to configure Shared Calling with PowerShell, see [Shared Calling scenario](shared-calling-scenario.md).
 
@@ -172,6 +173,36 @@ Grant-CsTeamsSharedCallingRoutingPolicy -PolicyName Seattle -Identity user@conto
 ```
 
 To learn about the different ways that you can assign policies to users in the Teams admin center, see [Assign policies to users and groups](assign-policies-users-and-groups.md).
+
+## Step 10: Configure extension dialing support for Shared Calling enabled users (optional)
+
+By default, Shared Calling operates when a user doesn’t have an assigned phone number and instead is configured for Shared Calling.  Using the default Shared Calling method, your users can place internal calls between themselves by dialing by name.
+
+If your organization also wants to allow users to place internal calls by dialing extensions, you can configure extension-based dialing with Shared Calling.  With extension-based dialing, users are assigned a number as a Direct Routing number with a unique extension.  Internal calls between users can then be made by dialing the user’s unique assigned extension in addition to dialing by name.
+
+> [!NOTE]
+> For extension dialing to operate as expected, as described with [Shared Calling in Step 6](#step-6-create-voice-routing-policy-without-pstn-usages), the voice routing policy assigned to the user must not contain PSTN usages. If the policy is populated with PSTN usages, the end-user won’t use Shared Calling and instead will operate as if they have an assigned phone number.
+
+You can assign an extension to a Shared Calling user with the Teams admin center and PowerShell.
+
+### Use the Teams admin center
+
+1. In the Teams admin center, go to **Users** > **Manage Users**.
+1. Select the **Display name** of the user to edit.
+1. In the General information section under the Account tab, select **Edit**.
+1. Under Phone number type, select **Direct Routing**.
+1. In the **Assigned phone number** field, enter any number. For example, this number can be the same digits of the telephone number assigned to the Resource Account for the configured Shared Calling policy.
+1. In the **Phone number extension** field, enter a unique extension of only digits.
+1. Select **Apply**.
+
+### Use PowerShell
+
+In the following example, the [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignmen) cmdlet assigns a Direct Routing phone number of +12223334444 with an extension 6789 to the Shared Calling user user@company.com.
+
+```powershell
+Set-CsPhoneNumberAssignment -Identity <user@company.com>  
+-PhoneNumber “+12223334444;ext=6789” -PhoneNumberType DirectRouting 
+```
 
 ## Emergency calling for Shared Calling users
 
