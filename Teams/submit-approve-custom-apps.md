@@ -8,7 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
-ms.date: 10/17/2023
+ms.date: 09/03/2024
 ms.reviewer: mhayrapetyan
 ms.collection: 
 - M365-collaboration
@@ -51,7 +51,7 @@ For more information about using the Graph API to submit apps, see [here](/graph
 
 ## Notification for app submissions
 
-You can turn on notifications so you know when developers submit a new application for review and approval. You'll also get notifications when developers submit app updates. To enable app submission notifications in the Teams admin center, go to **Notifications & alerts** > **[Rules](https://admin.teams.microsoft.com/notifications/rules)** > **App submissions**, and activate the rule by changing the status to **Active**. By default, this setting is turned off. You must be a Global admin or Teams admin to turn on this setting.
+You can turn on notifications so you know when developers submit a new application for review and approval. You'll also get notifications when developers submit app updates. To enable app submission notifications in the Teams admin center, go to **Notifications & alerts** > **[Rules](https://admin.teams.microsoft.com/notifications/rules)** > **App submissions**, and activate the rule by changing the status to **Active**. By default, this setting is turned off. You must be a Teams admin to turn on this setting.
 
 After you turn on this setting, you'll get notifications in the **Admin Alerts and Notifications** team under a new channel named **App submissions**. Alternatively, you can choose an existing team and channel to get notifications delivered to a specified team and channel. To do this, follow these steps:
 
