@@ -59,13 +59,15 @@ An application can access an organization's information in the following two way
 
 For each app, its permissions are listed in the app details page in the admin center.
 
-| App permission type | Access context | Declaration source | When is consent required? | Who can consent? |
+| App permission type | Access context | Declaration source | When is consent required? | Who all can consent? |
 |---------------------|----------------|--------------------|---------------------------|------------------|
 | [Microsoft Entra ID for Graph and legacy endpoint access](#microsoft-entra-id-permissions) | Delegated | Microsoft Entra ID  | App sign-in  | Global Admin, Cloud Admin, and Application Admin |
 | [Microsoft Entra ID for Graph and legacy endpoint access](#microsoft-entra-id-permissions) | Application | Microsoft Entra ID  |  App sign-in  |  Global Admin, Cloud Admin, and Application Admin |
 | [RSC for information of teams, chats, and users](#resource-specific-consent-permissions) | Delegated | App manifest file | Adding app to a team, chat, meetings | Resource owner |
 | [RSC for information of teams, chats, and users](#resource-specific-consent-permissions) | Application | App manifest file |  Adding app to a team, chat, meetings  | Resource owner |
 | [Other permissions and data access](#what-can-apps-do-in-teams) | Delegated via SDKs | Manifest properties define it | Add app in a client | Consent is implied at install |
+
+We recommend using a lower privilege role to accomplish tasks where possible. Use Global Administrator role only when necessary.
 
 ## Where can admins see all permissions of an app
 
