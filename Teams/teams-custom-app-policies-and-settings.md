@@ -31,7 +31,7 @@ ms.custom:
 
 Your organization can commission creation of Teams apps that work only within your organization. Such apps are available within your organizations or tenant but aren't available on the Teams store. Users can discover and use such apps from Teams client and admins can govern such apps from the admin centers, but such apps aren't available on [AppSource](https://appsource.microsoft.com/). Such apps are called custom apps.
 
-As a Teams Administrator or a Global Administrator, you use various settings to control the following scenarios:
+As a Teams Administrator, you use various settings to control the following scenarios:
 
 * Let users add custom apps to their Teams client for their personal use.
 * Let users use specific custom apps from amongst all the custom apps available in your org.
