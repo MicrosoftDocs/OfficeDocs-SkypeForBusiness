@@ -75,9 +75,9 @@ With extended notifications, you can configure specific notification settings fo
 
 - You can only enter a number to dial when the notification mode is NOT "Send notification only". 
 
-**Emergency calling policy Example 1.** In the following example, ECP1, you configure the emergency calling policy with full security desk configuration. Extended notifications for the test emergency number, 933, are set to null.  
+**Emergency calling policy Example** In the following example you configure the emergency calling policy with full security desk configuration. Extended notifications for the test emergency number, 933, are set to null.  
 
-**ECP1**
+
 - Notification group: alert@contoso.com
 - Notification Dial Out Number - 14255551234
 - Notification Mode - Conferenced in and are unmuted
@@ -92,25 +92,10 @@ The settings are:
 
 <br>
 
-**Emergency calling policy Example 2.** In this example, ECP2, you configure the emergency calling policy with mostly null values. You configure both 911 and 933 in the extended notification settings. Extended notifications for the test emergency number, 933, are set to null.  
-
-**ECP2**
-- Notification Group - null
-- Notification Dial Out Number - null
-- Notification Mode - null
-- External Lookup Mode - On
-
-The settings are:
-
-| Emergency dial string | Notification groups | Notification dial out number | Notification mode |
-| :------------| :-------| :-------| :-------|
-| 911 | alert@contoso.com | 14255551234 | Conferenced in and are unmuted | 
-| 933 |   |  | None |
-
-
-
 
 > [!NOTE] 
+> If you configure any extended notifications with a Notification Mode of Conferenced in, muted or unmuted, then a default emergency number, no dial string specified, must be set with at least one user, group, or PSTN number and a Notification Mode of Conferenced in. See the example above. 
+> 
 > If you're using Calling Plan or Operator Connect, the emergency numbers are predefined (in our example, 911 and 933). If you're using Direct Routing, you need to define the numbers in an emergency call routing policy for Direct Routing. For more information, see [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md).
 
 
@@ -128,22 +113,12 @@ For more information about using the Teams admin center, see [Manage emergency c
 To configure the extended notifications
 by using the [New-CsTeamsEmergencyCallingPolicy](/powershell/module/teams/new-csteamsemergencycallingpolicy) cmdlet, see the following examples:
 
-**ECP1 example**
+**Emergency Calling Policy example**
 
 ```powershell
 $en1 = New-CsTeamsEmergencyCallingExtendedNotification -EmergencyDialString "933"
 New-CsTeamsEmergencyCallingPolicy -Identity ECP1 -Description "Test ECP1" -NotificationGroup "alert@contoso.com" -NotificationDialOutNumber "+14255551234" -NotificationMode ConferenceUnMuted -ExternalLocationLookupMode Enabled -ExtendedNotifications @{add=$en1}
 ```
-
-
-**ECP2 example**
-
-```powershell
-$en1 = New-CsTeamsEmergencyCallingExtendedNotification -EmergencyDialString "911" -NotificationGroup "alert@contoso.com" -NotificationDialOutNumber "+14255551234" -NotificationMode ConferenceUnMuted
-$en2 = New-CsTeamsEmergencyCallingExtendedNotification -EmergencyDialString "933"
-New-CsTeamsEmergencyCallingPolicy -Identity ECP2 -Description "Test ECP2" -ExternalLocationLookupMode Enabled -ExtendedNotifications @{add=$en1,$en2}
-```
-
 
 
 ## Related topics
