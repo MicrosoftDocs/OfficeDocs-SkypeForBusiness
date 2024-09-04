@@ -43,7 +43,7 @@ After you have enabled Skype for Business users in your organization for Audio C
 
 ## What else should I know?
 
-- When you view the list of users that are enabled, you can select a user from the list and use the Action pane to edit the audio conferencing settings for that user.
+- When you view the list of users that are enabled, you can select a user from the list.From the Action pane, you may edit the audio conferencing settings for that user.
     
 - When you select a single user that is configured to use Microsoft as the audio conferencing provider, you can view the default phone number and whether your organization is enabled for dynamic conference IDs, and you can reset the conference ID for meetings that the user organizes.
     

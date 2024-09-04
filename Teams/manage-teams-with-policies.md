@@ -6,7 +6,7 @@ manager: jtremper
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: 
-ms.date: 01/07/2021
+ms.date: 06/20/2024
 search.appverid: 
 description: Lean about Teams policies.
 audience: admin

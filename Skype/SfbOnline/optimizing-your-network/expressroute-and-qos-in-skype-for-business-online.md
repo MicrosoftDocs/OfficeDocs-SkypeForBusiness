@@ -40,7 +40,7 @@ This document is designed to help you, administrators, and network designers und
   
 The first part of this document walks you through a case study to help you with the network design using the [Lync 2010 and 2013 Bandwidth Calculator](https://go.microsoft.com/fwlink/?LinkId=690282) to estimate the network requirements for a large, multi-site Skype for Business ExpressRoute deployment. The second part of this document gives you with the fundamental concepts of Quality of Service (QoS), a deep-dive on the specific technical details for supporting Skype for Business real-time communications, and the specific types of network services that are needed.
   
-All of the information here will give you the technical details and understanding for QoS and ExpressRoute, an understanding of the specific challenges you'll be facing, and give you a working knowledge of the tools and techniques that will allow you to successfully deploy an ExpressRoute across your Skype for Business network. 
+All of the information here gives you the technical details and understanding for QoS and ExpressRoute, an understanding of the specific challenges you are facing, and give you a working knowledge of the tools and techniques that allow you to successfully deploy an ExpressRoute across your Skype for Business network. 
   
 ## Getting started
 
@@ -54,7 +54,7 @@ When you're getting ready for ExpressRoute for Skype for Business, it's a good i
     
 ## Part 1: Case study - ExpressRoute for Dewey Law, LLC.
 
-This case study for Dewey Law, LLC. will show you how to setup a network, order network access services, and determine the bandwidth requirements to support ExpressRoute for Skype for Business Online.
+This case study for Dewey Law, LLC. shows you how to setup a network, order network access services, and determine the bandwidth requirements to support ExpressRoute for Skype for Business Online.
   
  **Background** Dewy Law LLC. is a large national law firm with 790 attorneys and a total of 5,580 employees spread across 78 locations. The firm has a headquarters in New York, three regional offices in Chicago, San Francisco and Dallas, along with 24 large and 50 small branch offices scattered around the country/region. The firm handles large, complex cases with the workload typically spread among two or more of the offices. Having this network design results in considerable network traffic between the offices.
   
@@ -140,11 +140,11 @@ To help you with the spreadsheet, the various cells in the spreadsheet are color
     
 - **Gray** These are display-only areas. They're the results or data that is from the general input areas.
     
-The design process for Dewey Law LLC. begins by characterizing their users into different 'Personas.' For each persona you define, you can specify their expected use of the various Skype for Business applications ('None', 'Low', 'Medium', 'High', or one of three defined 'Custom' settings). Those selections are found in the 'Persona' worksheet. The specific usage for each choice ('Low', 'Medium', or 'High') is provided, but the defaults for each choice can be changed. By identifying the number of users for each persona that is located at each site, the calculator can compute the total bandwidth required for each location.
+The design process for Dewey Law LLC. begins by characterizing their users into different 'Personas.' For each persona you define, you can specify their expected use of the various Skype for Business applications ('None,' 'Low,' 'Medium,' 'High,' or one of three defined 'Custom' settings). Those selections are found in the 'Persona' worksheet. The specific usage for each choice ('Low,' 'Medium,' or 'High') is provided, but the defaults for each choice can be changed. By identifying the number of users for each persona that is located at each site, the calculator can compute the total bandwidth required for each location.
   
 You can also specify the audio and video codecs that are used, whether forward error correction is used and also other system parameters that will affect the bandwidth requirements. You can use the default settings in the Lync 2010 and 2013 Bandwidth Calculator or select different codecs and other system parameters. For Dewey Law LLC's site design, the default settings can be used. However, to change from any of the default settings there's a pull-down menu with all of the available choices. The bandwidths that are used for each choice are included in the 'Codecs' worksheet. When you change any setting, the change in bandwidth and class of service (CoS) mix at each site is updated. Having this capability allows you to test different potential configurations for them and see the impact the changes will have on bandwidth requirements for them.
   
-We have defined three personas for Dewey Law LLC., 'Executive/Partner', 'Associate/Paralegal' and 'IT admins'. The table below shows how we have set the usage profiles for the various Skype for Business apps for each persona.
+We have defined three personas for Dewey Law LLC., 'Executive/Partner,' 'Associate/Paralegal' and 'IT admins'. The table below shows how we set the usage profiles for the various Skype for Business apps for each persona.
   
  **Personas and usage profiles ('Persona' Worksheet- Columns A through P)**
   
@@ -156,7 +156,7 @@ We have defined three personas for Dewey Law LLC., 'Executive/Partner', 'Associa
    
 You'll need to enter the information in the **Distribution of users by locations and positions** table above in the 'Sites' worksheet of the Lync 2010 and 2013 Bandwidth Calculator. As the number of users in the regional offices is identical, they're defined for one 'Site' and specified that there were three instances of it. The same was done for the large and small branches where there were 24 and 50 users in sites respectively.
   
-After specifying the settings for each persona, you need to enter the number of users in each persona at each site in the 'Sites' worksheet. The total users for all sites is updated automatically. Since there aren't users at the Microsoft 365 or Office 365 location, they should all be entered in the 'Branches' rows of the worksheet. The Lync 2010 and 2013 Bandwidth Calculator then populates the 'Best Effort Class', 'Data Traffic Class' and 'Real-time traffic class' columns in the 'WAN BW per QoS traffic class' table. This is shown in the data in the table below.
+After specifying the settings for each persona, you need to enter the number of users in each persona at each site in the 'Sites' worksheet. The total users for all sites are updated automatically. Since there aren't users at the Microsoft 365 or Office 365 location, they should all be entered in the 'Branches' rows of the worksheet. The Lync 2010 and 2013 Bandwidth Calculator then populates the 'Best Effort Class', 'Data Traffic Class' and 'Real-time traffic class' columns in the 'WAN BW per QoS traffic class' table. This is shown in the data in the table below.
   
 > [!TIP]
 >  The full spreadsheet also includes the maximum number of simultaneous sessions for each application, but we deleted those columns to save space.
@@ -197,7 +197,7 @@ It's important that you don't exceed the bandwidth in the voice or 'Expedited Fo
    
 ### Putting your plan into action
 
-We can calculate the total bandwidth that will traverse the WAN and the amount of bandwidth that will traverse ExpressRoute, using the bandwidth estimates from the **Per application Per site** table above. The portion of traffic that traverses ExpressRoute excludes the inter-site peer bandwidth.
+We can calculate the total bandwidth that traverses the WAN and the amount of bandwidth that traverse ExpressRoute, using the bandwidth estimates from the **Per application Per site** table above. The portion of traffic that traverses ExpressRoute excludes the inter-site peer bandwidth.
 
  
 |**Site**|**Peak SIP / IM bandwidth**|**Peak Audio Conferencing bandwidth**|**Peak Video Conferencing bandwidth**|**Peak WAN Share bandwidth**|**Peak WAN bandwidth for PSTN Calls**|**Total ExpressRoute<br/>traffic per site class<br/>(i.e., total<br/>time # of sites)**|
@@ -238,7 +238,7 @@ Knowing the impact of lost voice packets, designers came up with two approaches 
     
 Resilient voice coding only addresses the problem of packet loss, so it's important that a network used to carry real-time voice and video have mechanisms that minimize delay and jitter. Even with resilient coding, if too many packets are lost, the receiving station won't have enough information to reconstruct a recognizable version of the voice signal. The percentage of lost packets that would result in a noticeable degradation in voice quality, which varies depending on the voice encoding technique that is used. In all cases however, losing strings of successive packets is problematic.
   
-Minimizing delay is important because excessive delay can impact the flow of the conversation and create an annoyance for speakers. Best practices tell us that end-to-end delay for voice (what we refer to as 'mouth-to-ear' delay) must be kept below 150 milliseconds (msecs). one-way, not 'round trip' delay. Of course the delay will increase on longer transmission links like those that go across oceans, given the propagation delay or the time it takes for the signal to physically travel over the cable.
+Minimizing delay is important because excessive delay can impact the flow of the conversation and create an annoyance for speakers. Best practices tell us that end-to-end delay for voice (what we refer to as 'mouth-to-ear' delay) must be kept below 150 milliseconds (msecs). one-way, not 'round trip' delay. The delay will increase on longer transmission links like those that go across oceans, given the propagation delay or the time it takes for the signal to physically travel over the cable.
   
 When the delay goes higher than 150 msecs. one-way, it has a strange effect on the speaker. Psychologically, a clock goes off in the speaker's brain that makes them think that the recipient hasn't heard them and they repeat the last thing they said. This collides with the delayed response coming from the far end. If you have ever spoken over a satellite channel, you'll recognize this effect. Over a satellite channel the one-way delay is roughly 250 msecs., which is far beyond the allowable delay.
   

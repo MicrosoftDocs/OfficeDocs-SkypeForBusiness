@@ -26,7 +26,7 @@ description: "Learn about add-on licenses, features, and how to buy for Office 3
 
 # Office 365 Enterprise E5 (without Audio Conferencing)
 
-If you have already purchased the Office 365 Enterprise E5 (without Audio Conferencing) plan, here are the Skype for Business add-on licenses you need to buy to get more features.
+If you have purchased the Office 365 Enterprise E5 (without Audio Conferencing) plan, here are the Skype for Business add-on licenses you need to buy to get more features.
 
 
 |To add this feature |Here's what you need to buy |

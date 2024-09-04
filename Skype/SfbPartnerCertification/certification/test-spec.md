@@ -2,7 +2,7 @@
 ms.date: 06/11/2018
 title: "Skype for Business certification program — Test Specifications"
 ms.author: serdars
-author: msdmaguire
+author: slamprianou
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article

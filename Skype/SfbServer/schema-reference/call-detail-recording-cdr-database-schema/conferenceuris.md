@@ -24,7 +24,7 @@ The ConfereneUris table is a supporting table that stores a list of the various 
 |**NextUpdateTS** <br/> |datetime  <br/> |Primary  <br/> |Time stamp, Internal used.  <br/> |
 |**ConferenceUriId** <br/> |int  <br/> |Primary  <br/> |Unique number identifying this conference URI.  <br/> |
 |**ConferenceUri** <br/> |nvarchar(450)  <br/> ||Conference URI.  <br/> |
-|**Checksum** <br/> |int  <br/> ||Checksum of ConferenceUri. Used to increases the speed of database searches.  <br/> |
-|**UriTypeId** <br/> |int  <br/> |Foreign  <br/> |URI type, such as conf:chat for IM conference, or conf:audio-video for audio/video conference. See the [UriTypes table](uritypes.md) table for more information. <br/> |
+|**Checksum** <br/> |int  <br/> ||Checksum of ConferenceUri. Used to increase the speed of database searches.  <br/> |
+|**UriTypeId** <br/> |int  <br/> |Foreign  <br/> |URI type, such as conf: chat for IM conference, or conf: audio-video for audio/video conference. For more information, see the [UriTypes table](uritypes.md). <br/> |
    
 

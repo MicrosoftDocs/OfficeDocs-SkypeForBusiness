@@ -2,7 +2,7 @@
 title: Availability and use of Teams apps by different types of users from outside an organization
 author: ashishguptaiitb
 ms.author: guptaashish
-ms.reviewer: mhayrapetyan
+ms.reviewer: shmundra
 manager: prkosh
 ms.topic: article
 audience: admin
@@ -11,7 +11,7 @@ ms.subservice: teams-apps
 search.appverid: MET150
 description: Learn how apps in Microsoft Teams work for guests, external access users, and anonymous users.
 ms.localizationpriority: high
-ms.date: 05/08/2024
+ms.date: 06/20/2024
 f1.keywords:
 - NOCSH
 ms.collection: 
@@ -42,11 +42,11 @@ For a more detailed comparison between guest and external access users, see [com
 
 ### Add, update, and delete apps for guests
 
-* Guest users can't find and add apps from Teams app store (AppSource or client store) and from the in-context stores in Teams.
+* Guest users can't search and add apps from Teams app store (AppSource or client store) and from the in-context stores in Teams.
 
 * Guests can't add, update, or delete apps into a shared context, such as a chat, channel, or meeting.
 
-* Guest users can access the app store and add apps using [deeplinks](/microsoftteams/platform/concepts/build-and-test/deep-link-application) shared with them by others. However, guest users can use such apps in personal scope only and the app icon doesn't display in the app bar.
+* Guest users can add apps using [deep links](/microsoftteams/platform/concepts/build-and-test/deep-link-application) shared with them by others. However, guest users can use such apps in personal scope only and the app icon doesn't display in the app bar.
 
 * Guest users can use apps added by other org users in personal chats, group chats, and teams and channels.
 
@@ -94,7 +94,7 @@ Anonymous users can interact only with the apps that are already available in a 
 
 ### Allow anonymous users to use apps in meetings
 
-By default, anonymous users can interact with the existing apps in a meeting. Anonymous users cannot add new apps to a meeting. You can disallow anonymous users for interacting with apps.
+By default, anonymous users can interact with the existing apps in a meeting. Anonymous users can't add new apps to a meeting. You can disallow anonymous users for interacting with apps.
 
 1. Sign in to the Teams admin center and access **Meetings** > **[Meeting settings](https://admin.teams.microsoft.com/meetings/settings)**.
 
@@ -104,7 +104,7 @@ By default, anonymous users can interact with the existing apps in a meeting. An
 
 ## Related articles
 
-* [Allow anonymous users to join meetings](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
-* [Manage app setup policies in Microsoft Teams](teams-app-setup-policies.md).
+* [How anonymous users can join meetings](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
+* [How to manage app setup policies in Teams](teams-app-setup-policies.md).
 * [How to allow collaboration with guests and external participants](manage-external-access.md).
-* [What can guests do in Teams](guest-access.md)
+* [Know what can guests do in Teams](guest-access.md)

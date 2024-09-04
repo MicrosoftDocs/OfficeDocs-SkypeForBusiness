@@ -3,14 +3,18 @@ title: Teams settings and policies reference
 author: mkbond007
 ms.author: mabond
 manager: pamgreen
-ms.reviewer: 
-ms.date: 04/24/2023
+ms.reviewer: mabond
+ms.date: 06/12/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection: 
   - Tier1
+  - m365initiative-voice
+  - m365initiative-meetings
+  - teams-rooms-devices
+  - ContentFreshnessFY24
 f1.keywords: 
   - NOCSH
 appliesto: 
@@ -35,8 +39,6 @@ Teams settings are used to control notification, tagging, email integration, and
 #### Notifications and feeds
 
 **Navigation:** Teams admin center > Teams > Teams settings
-
-:::image type="content" source="media/notifications-tac.png" alt-text="Screenshot of Teams notifications and feeds settings in the Teams admin center." lightbox="media/notifications-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -75,8 +77,6 @@ Teams settings are used to control notification, tagging, email integration, and
 
 **Navigation:** Teams admin center > Teams > Teams settings
 
-:::image type="content" source="media/files-tac.png" alt-text="Screenshot of Teams cloud storage service files settings in the Teams admin center." lightbox="media/files-tac-expand.png":::
-
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Citrix files|On|When **On**, Citrix can be added as a cloud storage service in a team.|
@@ -92,8 +92,6 @@ Teams settings are used to control notification, tagging, email integration, and
 #### Organization
 
 **Navigation:** Teams admin center > Teams > Teams settings
-
-:::image type="content" source="media/organization-tac.png" alt-text="Screenshot of Teams organization settings in the Teams admin center." lightbox="media/organization-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -115,11 +113,13 @@ Teams settings are used to control notification, tagging, email integration, and
 |Set content PIN|Required for outside scheduled meeting|Specifies if Skype for Business users require a content PIN.|
 |Surface hub accounts can send emails|On|When **On**, Surface Hub accounts can send emails.|
 
+##### Related articles for devices
+
+[Create and test a device account on Surface Hub](/surface-hub/create-and-test-a-device-account-surface-hub)
+
 #### Search by name
 
 **Navigation:** Teams admin center > Teams > Teams settings
-
-:::image type="content" source="media/search-by-name-tac.png" alt-text="Screenshot of Teams search by name settings in the Teams admin center." lightbox="media/search-by-name-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -127,11 +127,9 @@ Teams settings are used to control notification, tagging, email integration, and
 
 ##### Related articles for search by name
 
-[Limit who users can see when searching the directory in Teams](teams-scoped-directory-search.md)
+- [Limit who users can see when searching the directory in Teams](teams-scoped-directory-search.md)
 
 #### Safety and communications
-
-:::image type="content" source="media/safety-and-communications-tac.png" alt-text="Screenshot of Teams safety and communications settings in the Teams admin center." lightbox="media/safety-and-communications-tac-expand.png":::
 
 **Navigation:** Teams admin center > Teams > Teams settings
 
@@ -141,11 +139,10 @@ Teams settings are used to control notification, tagging, email integration, and
 
 ##### Related articles for safety and communications
 
-[Supervised chats in Microsoft Teams](supervise-chats-edu.md)
+- [Supervised chats for educational tenants](supervise-chats-edu.md)
+- [Supervised chats for non-educational tenants](supervised-chat-non-edu.md)
 
 #### Shared channels
-
-:::image type="content" source="media/shared-channels-tac.png" alt-text="Screenshot of Teams shared channel settings in the Teams admin center." lightbox="media/shared-channels-tac-expand.png":::
 
 **Navigation:** Teams admin center > Teams > Teams settings
 
@@ -155,7 +152,8 @@ Teams settings are used to control notification, tagging, email integration, and
 
 ##### Related articles for shared channels
 
-[Shared channels in Microsoft Teams](shared-channels.md)
+- [Shared channels in Microsoft Teams](shared-channels.md)
+- [Collaborate with external participants in a shared channel](/microsoft-365/solutions/collaborate-teams-direct-connect)
 
 ### Teams policies
 
@@ -163,10 +161,9 @@ Teams settings are used to control notification, tagging, email integration, and
 
 Teams policies are used to control what settings or features are available to users when they're using teams and channels.
 
-:::image type="content" source="media/teams-policies-tac.png" alt-text="Screenshot of Teams team policies in the Teams admin center." lightbox="media/teams-policies-tac-expand.png":::
-
 | Setting | Default | Description |
 |:-----|:-----|:-----|
+|Discover private teams|Off|When **On**, users can search for private teams. When they find a private team, they can request to join.|
 |Create private channels|On|When **On**, team owners and members can create private channels that contain a subset of team members.|
 |Create shared channels|On|When **On**, team owners can create shared channels for people within and outside the organization.|
 |Invite external users to shared channels|On|When **On**, owners of a shared channel can invite external people in other Microsoft Entra organizations to join the channel, if Microsoft Entra cross-tenant access settings are configured.|
@@ -177,12 +174,14 @@ Teams policies are used to control what settings or features are available to us
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
 |AllowOrgWideTeamCreation|None|Determines whether a user is allowed to create an org-wide team. Set this value to **True** to allow or **False** to prohibit. Read more on [how organization-wide teams in Microsoft Teams help everyone collaborate](create-an-org-wide-team.md).|
-|EnablePrivateTeamDiscovery|None|Determines whether a user is allowed to discover private teams in suggestions and search results. Set this value to **True** to allow or **False** to prohibit.|
 
 #### Related articles for Teams policies
 
 - [Manage channel policies in Microsoft Teams](teams-policies.md)
+- [Private channels in Microsoft Teams](private-channels.md)
+- [Shared channels in Microsoft Teams](shared-channels.md)
 - [Set-CsTeamsChannelsPolicy](/powershell/module/teams/set-csteamschannelspolicy)
+- [Collaborate with external participants in a shared channel (IT Admins)](/microsoft-365/solutions/collaborate-teams-direct-connect)
 
 ### Template policies
 
@@ -203,13 +202,17 @@ Template policies control what team templates users see when they create a new t
 - Hospital
 - Quality and Safety
 - Retail for Managers
+- Manage Volunteers
+- Frontline Collaboration
 
 #### Related articles for template policies
 
 - [Manage team templates in the admin center](templates-policies.md)
 - [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md)
+- [Create a custom team template in Microsoft Teams](create-a-team-template.md)
 - [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate)
 - [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist)
+- [Manage the Virtual appointment meeting template in Microsoft Teams](virtual-appointment-meeting-template.md)
 
 ### Teams update policies
 
@@ -221,7 +224,7 @@ Update policies are used to manage Teams and Office preview users who can see pr
 
 |Setting | Default | Description |
 |:-----|:-----|:-----|
-Show Teams preview features|On for users in current channel (Preview)|Turns on Teams Public preview features for any user enrolled in Office Current Channel (Preview).|
+|Show Teams preview features|On for users in current channel (Preview)|Turns on Teams Public preview features for any user enrolled in Office Current Channel (Preview).|
 |Use new Teams client|Microsoft controlled| Allows Microsoft to: <br>- Control whether the "Try the new Teams" toggle switch is shown. <br>- Manage the installation of the new Teams client and determine default client behavior based on the rollout schedule.|
 
 You could set the preview policy using the PowerShell `Set-CsTeamsUpdateManagementPolicy` cmdlet with the `-AllowPublicPreview` parameter.
@@ -276,6 +279,8 @@ Teams upgrade settings let you set up your upgrade experience from Skype for Bus
 
 App permission policies control which apps you want to make available to Teams users in your organization.
 
+All organizations don't have app centric management feature available. If you weren't using custom permission policies, we migrated your org to use this feature. If you're using custom permission policies, then you'll soon be able to migrate to the app centric management feature on your own. If you see policies on the permission policies page, continue to use app permission policies to control user access to apps.
+
 :::image type="content" source="media/permission-policies-tac.png" alt-text="Screenshot of Teams app permission policies in the Teams admin center." lightbox="media/permission-policies-tac-expand.png":::
 
 The types of apps to permission are divided into three categories - Microsoft apps, Third-party apps, and Custom apps. Each app category includes the following options for permissions:
@@ -292,7 +297,6 @@ The types of apps to permission are divided into three categories - Microsoft ap
 - [Information accessed and actions performed by apps and related admin considerations](app-permissions.md)
 - [View and understand app permissions](app-permissions.md)
 - [Grant and manage consent to app permissions](manage-consent-app-permissions.md)
-- [Resource-specific consent in Microsoft Teams](resource-specific-consent.md)
 - [Set-CsTeamsAppPermissionPolicy](/powershell/module/teams/set-csteamsapppermissionpolicy)
 
 ### Setup policies
@@ -328,7 +332,7 @@ The defaults for all the customization options use Teams app default backgrounds
 
 #### Related articles for customize store
 
-- [Customize your organization's app store in Microsoft Teams](customize-your-app-store.md)
+[Customize your organization's app store in Microsoft Teams](customize-your-app-store.md)
 
 ## Meetings
 
@@ -362,15 +366,13 @@ Conference bridges let people dial into meetings using a phone. You can use the 
 
 Manage the audio conferencing toll and toll-free numbers to display in meeting invites that users in your org create.
 
-:::image type="content" source="media/audio-conferencing-tac.png" alt-text="Screenshot of Teams audio conferencing policies in the Teams admin center." lightbox="media/audio-conferencing-tac-expand.png":::
-
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Include toll-free numbers in meeting invites created by users of this policy|On|When **On**, any meetings users with this policy create include toll-free numbers.|
 
 #### Related articles for audio conferencing
 
-- [Audio Conferencing policy settings for toll and toll-free numbers](audio-conferencing-toll-free-numbers-policy.md)
+[Audio Conferencing policy settings for toll and toll-free numbers](audio-conferencing-toll-free-numbers-policy.md)
 
 ### Meeting policies
 
@@ -380,7 +382,7 @@ Meeting policies are used to control what features are available in meetings org
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
 
-:::image type="content" source="media/meeting-scheduling-tac.png" alt-text="Screenshot of Teams meeting scheduling policies in the Teams admin center." lightbox="media/meeting-scheduling-tac-expand.png":::
+:::image type="content" source="media/meeting-schedule-small.png" alt-text="Screenshot of Teams meeting scheduling policies in the Teams admin center." lightbox="media/meeting-schedule-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -389,7 +391,7 @@ Meeting policies are used to control what features are available in meetings org
 |Channel meeting scheduling|On|When **On**, meeting organizers allow users to schedule channel meetings within channels that the users belong to.|
 |Meet now in channel meetings|On|When **On**, meeting organizers allow users to start instant meetings within channels that the users belong to.|
 |Outlook add-in|On|When **On**, meeting organizers allow users to schedule private meetings from Outlook. Read more about [the Teams Meeting add-in in Outlook](Teams-add-in-for-Outlook.md).|
-|Meeting registration|On|When **On**, meeting organizers can require registration to join a meeting.|
+|Meeting registration|Off|When **On**, meeting organizers can require registration to join a meeting.|
 |Who can register|Everyone|Determines who can register for meetings (if **Meeting registration** is **On**) - **Everyone** or **People in my organization**.|
 |Attendance and engagement report|On, but organizers turn it off|This setting gives meeting and event organizers the ability to see the toggle that turns attendance and engagement reports on or off within their Meeting options.|
 |Include attendees in the report|Yes, but attendees can opt out|This setting controls whether participants in the meeting or webinar can opt in or out of offering their attendance information in the Attendance Report. Only the post-meeting report is supported.|
@@ -400,13 +402,14 @@ Meeting policies are used to control what features are available in meetings org
 - [Manage who can start instant meetings and schedule meetings](manage-who-can-schedule-meetings.md)
 - [Meetings, webinars, and live events](quick-start-meetings-live-events.md)
 - [Attendance report for meetings and webinars in Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report)
-- [the Teams Meeting add-in in Outlook](Teams-add-in-for-Outlook.md)
+- [Teams Meeting add-in in Outlook](Teams-add-in-for-Outlook.md)
+- [Set up meetings with registration](set-up-meeting-registration.md)
 
 #### Meeting join & lobby
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
 
-:::image type="content" source="media/meeting-join-lobby-tac.png" alt-text="Screenshot of Teams meeting join & lobby policies in the Teams admin center." lightbox="media/meeting-join-lobby-tac-expand.png":::
+:::image type="content" source="media/join-lobby-small.png" alt-text="Screenshot of Teams meeting join & lobby policies in the Teams admin center." lightbox="media/join-lobby-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -414,6 +417,7 @@ Meeting policies are used to control what features are available in meetings org
 |Anonymous users and dial-in callers can start a meeting|Off|When this setting is turned on, anonymous users and dial-in callers can start a meeting without someone in attendance. When this setting is off, they must wait in the lobby until someone in your organization, a guest, or a user from a trusted organization starts the meeting. This setting only works if **Anonymous users can join a meeting** is turned on in both the org-wide meeting settings and in this meeting policy and **Who can bypass the lobby** is set to **Everyone**.|
 |Who can bypass the lobby|People in my org and guests|Controls who can join a meeting directly and who must wait in the lobby until they're admitted. This setting controls the default value of who can bypass the lobby in Meeting options; organizers and co-organizers can change this setting when they set up Teams meetings.|
 |People dialing in can bypass the lobby|Off|Controls whether people who dial in by phone join the meeting directly or wait in the lobby, regardless of the **Who can bypass the lobby** setting. When this setting is turned off, dial-in callers must wait in the lobby until they're admitted. This setting controls the default value for Meeting options; organizers and co-organizers can change this setting when they set up Teams meetings.|
+|People can join external meetings hosted by|Anyone| This setting controls which types of external Microsoft Teams meetings users in your org can join.|
 
 **PowerShell-only meeting join & lobby policies**
 
@@ -426,6 +430,7 @@ Meeting policies are used to control what features are available in meetings org
 - [Control who can bypass the meeting lobby in Microsoft Teams](who-can-bypass-meeting-lobby.md)
 - [Manage anonymous participant access to Teams meetings](anonymous-users-in-meetings.md)
 - [Plan for meetings with external participants in Microsoft Teams](plan-meetings-external-participants.md)
+- [Prevent users from joining external Microsoft Teams meetings](external-meeting-join.md)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)
 
 #### Meeting engagement
@@ -436,7 +441,7 @@ Meeting policies are used to control what features are available in meetings org
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Meeting chat|On for everyone|Controls which meeting attendees can participate in the meeting chat. When turned off for anonymous participants, they can't read the chat or post messages. Read more about how to [Manage chat in Microsoft Teams meetings](manage-meeting-chat.md)|
+|Meeting chat|On for everyone|Controls which meeting attendees can participate in the meeting chat. When turned off for anonymous participants, they can't read the chat or post messages. Read more about how to [Manage chat in Microsoft Teams meetings](manage-meeting-chat.md).|
 |External meeting chat|On|When this setting is turned on, users in your org can read or write chat messages in Teams meetings that organizations you don't have a trusted relationship with host.|
 |Q&A|On|When **On**, organizers can enable a question and answer experience for their meetings. Read more on [Q&A in Teams Meetings](manage-qna-for-teams.md).|
 |Reactions|On|This setting controls whether users can use live reactions such as Like, Love, Applause, Laugh, and Surprise in Teams meetings.|
@@ -446,17 +451,19 @@ Meeting policies are used to control what features are available in meetings org
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
 |StreamingAttendeeMode|Enabled|This setting enables view-only mode for meetings that exceed the capacity of the main meeting. Read more about [Teams view-only meeting experience](view-only-meeting-experience.md).|
-|AttendeeIdentityMasking|Enabled|This setting controls whether meeting and webinar organizers can hide the names and photos of attendees from other attendees in the stage, roster, and chat. [Allow meeting and webinar organizers to hide the names of attendees](hide-attendee-names.md).|
+|LimitPresenterRolePermissions|False|Reduces presenter role permissions for your tenant. To learn more, see [Limit presenter role permissions for your org](presenter-role-reduction.md).|
+|FeedbackSurveyforAnonymousUsers|Enabled|Determines if anonymous participants receive surveys to provide feedback about their meeting experience. To learn more, see [Manage feedback surveys for anonymous participants in Microsoft Teams meetings](meeting-surveys-anonymous-participants.md).|
+|AttendeeIdentityMasking|Enabled|This setting controls whether meeting and webinar organizers can hide the names and photos of attendees from other attendees in the stage, roster, and chat. For more information, see [Allow meeting and webinar organizers to hide the names of attendees](hide-attendee-names.md).|
 
 ##### Related articles for meeting engagement policies
 
-- [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)
+[Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)
 
 #### Content sharing
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
 
-:::image type="content" source="media/content-sharing-tac.png" alt-text="Screenshot of Teams meeting content sharing policies in the Teams admin center." lightbox="media/content-sharing-tac-expand.png":::
+:::image type="content" source="media/cont-share-small.png" alt-text="Screenshot of Teams meeting content sharing policies in the Teams admin center." lightbox="media/cont-share-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -468,13 +475,16 @@ Meeting policies are used to control what features are available in meetings org
 |Whiteboard|On|Controls whether a user can share the Whiteboard in a meeting. External participants, including anonymous, guest, and external access users, inherit the policy of the meeting organizer. Read more on [how to manage the Whiteboard in Microsoft Teams](manage-whiteboard.md).|
 |Collaborative annotations|On|When **On**, participants can collaborate while sharing their screen during a Teams meeting.|
 |Shared notes|On|When **On**, attendees can create shared meeting notes through the meeting details.|
+|Live Share|On|When **On**, users can edit a document from within the Teams meeting window, which enables real-time coauthoring in the meeting.|
 |Organizer can restrict participants from copying or forwarding meeting chat messages|On|When this setting is on, meeting organizers can turn off message copying and forwarding, which includes using keyboard shortcuts, right click, or the more actions menu to copy or forward messages.|
+|Participants can share content in external meetings hosted by|Any org|When this setting is set to **Any org**, your users with a Teams premium license can share content when attending any external meeting. When set to **Trusted orgs and guests**, these users can only share content when attending external meetings that orgs with domains specified on the External access page host.|
 
 **PowerShell-only content sharing policies**
 
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
 |AllowMeetingCoach|True|This setting lets users turn on Speaker Coach during a Teams meeting. Read more on [how to turn Speaker Coach on or off](meeting-speaker-coach.md).|
+|AllowDocumentCollaboration|True/False|This setting lets users edit a document from within the Teams meeting window, thereby enabling real-time coauthoring in the meeting.|
 
 ##### Related articles for content sharing policies
 
@@ -482,16 +492,31 @@ Meeting policies are used to control what features are available in meetings org
 - [Manage who can present and request control in Teams meetings](meeting-who-present-request-control.md)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)
 
+#### Content protection
+
+**Navigation:** Teams admin center > Meetings > Meeting policies
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Watermark videos|On|When **On**, the meeting organizer controls if videos shared during meetings are watermarked on each participant's screen with their own email address.|
+|Watermark shared content|On|When **On**, the meeting organizer controls if content shared during meetings is watermarked on each participant's screen with their own email address.|
+
+##### Related articles for content protection
+
+- [Require a watermark for sensitive Teams meetings](watermark-meeting-content-video.md)
+- [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
+- [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)
+
 #### Recording & transcription
 
 **Navigation:** Teams admin center > Meetings > Meeting policies
 
-:::image type="content" source="media/recording-transcription-tac.png" alt-text="Screenshot of Teams meeting recording & transcription policies in the Teams admin center." lightbox="media/recording-transcription-tac-expand.png":::
+:::image type="content" source="media/recording-tac-small.png" alt-text="Screenshot of Teams meeting recording & transcription policies in the Teams admin center." lightbox="media/recording-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Meeting recording|On|When **On**, users can record their Teams meetings and group calls to capture audio, video, and screen sharing activity. The meeting organizer and recording initiator need to have recording permissions to record the meeting.|
-|Require participant agreement for recording|Off|When **On**, participants are required to provide explicit consent to be recorded in meetings.|
+|Require participant agreement for recording and transcription|Off|When **On**, participants are required to provide consent to be recorded and transcribed in meetings. Participants’ audio, video, and content sharing are turned off until they agree to be included in the recording and transcript. |
 |Recordings automatically expire|On|When **On**, meeting recordings automatically expire in the number of days shown in the Default expiration time setting.|
 |Default expiration time|120|The default expiration time for new meeting recordings. From 1 to 99,999 days. **Recordings automatically expire** must also be turned **On**.|
 |Store recordings outside your country/region|Off|If you want to store meeting recordings outside of your country/region, turn on both this setting and **Meeting recording**. This setting isn't applicable to recordings stored in OneDrive or SharePoint.|
@@ -516,6 +541,7 @@ Meeting policies are used to control what features are available in meetings org
 - [Teams meeting recording](meeting-recording.md)
 - [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)
+- [Customize meeting invitations (IT admins)](customize-meeting-invitations.md)
 
 #### Audio & video
 
@@ -542,31 +568,15 @@ Meeting policies are used to control what features are available in meetings org
 |AllowBreakoutRooms|True|This setting enables the Breakout Rooms functionality.|
 |PreferredMeetingProviderForIslandsMode|TeamsAndSfb|Determines the Outlook meeting add-in availability to users on Islands mode. With the default value of `TeamsAndSfb`, users see both the Skype for Business and Teams add-ins. If you set this value to `Teams`, the Skype for Business add-in is removed and only the Teams add-in is shown.|
 |TeamsCameraFarEndPTZMode|Disabled|Read more about how to to configure [Far end camera control (FECC) for pan tilt zoom (PTZ) cameras](meeting-policies-audio-and-video.md#far-end-camera-control-fecc-for-pan-tilt-zoom-ptz-cameras).|
+|VoiceIsolation|Enabled|Controls whether users with this policy can use voice isolation in Teams calls and meetings. To learn more, see [Manage voice isolation for your users' Microsoft Teams calls and meetings](voice-isolation.md).|
+|EnrollUserOverride|Enabled|Controls whether users with this policy can set the voice profile capture and enrollment through the Recognition tab in their Teams client settings. To learn more, see [Overview of voice and face enrollment](/microsoftteams/rooms/voice-and-face-recognition).|
 
 ##### Related articles for audio & video meeting policies
 
 - [Meeting policy settings for audio & video](meeting-policies-audio-and-video.md)
 - [Manage RTMP-In for Teams meetings and events](meetings-rtmp-in.md)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)
-
-#### Watermark
-
-**Navigation:** Teams admin center > Meetings > Meeting policies
-
- Watermarks can be displayed in Teams meetings both for content shared on screen and for attendee video. For watermarks to be available in templates and sensitivity labels, and to the meeting organizer, they must be enabled. These settings require a Teams Premium license.
-
-:::image type="content" source="media/watermark-tac.png" alt-text="Screenshot of Teams meeting watermark policies in the Teams admin center." lightbox="media/watermark-tac-expand.png":::
-
-| Setting | Default | Description |
-|:-----|:-----|:-----|
-|Watermark videos|On|This setting controls watermarks on attendee videos.|
-|Watermark shared content|On|This setting controls watermarks on content shared on screen in a meeting.|
-
-##### Related articles for watermark policies
-
-- [Require a watermark for sensitive Teams meetings](watermark-meeting-content-video.md)
-- [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
-- [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy)
+- [Broadcast meeting content](use-ndi-in-meetings.md)
 
 ### Customization policies
 
@@ -600,8 +610,6 @@ Meeting settings allow you to customize meeting email invitations and configure 
 
 **Navigation:** Teams admin center > Meetings > Meeting settings
 
-:::image type="content" source="media/participants-tac.png" alt-text="Screenshot of Teams meeting settings for anonymous participants in the Teams admin center." lightbox="media/participants-tac-expand.png":::
-
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Anonymous users can join a meeting|On|This setting will be removed in the future. We recommend leaving this setting **On** and using the **Anonymous users can join a meeting** user level meeting policy control to allow or prevent anonymous meeting join instead.|
@@ -619,9 +627,9 @@ Meeting settings allow you to customize meeting email invitations and configure 
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Microsoft Azure Government|Off if your tenant isn't in this cloud| When **On**, you can allow meetings between your organization and an organization in Microsoft Azure Government.|
-|Microsoft Azure China|Off if your tenant isn't in this cloud| When **On**, you can allow meetings between your organization and an organization in Microsoft Azure China.|
-|Microsoft Azure Commercial|Off if your tenant isn't in this cloud| When **On**, you can allow meetings between your organization and an organization in Microsoft Azure Commercial.|
+|Microsoft Azure Government|Off (if your tenant isn't in this cloud)| When **On**, you can allow meetings between your organization and an organization in Microsoft Azure Government.|
+|Microsoft Azure China|Off (if your tenant isn't in this cloud)| When **On**, you can allow meetings between your organization and an organization in Microsoft Azure China.|
+|Microsoft Azure Commercial|Off (if your tenant isn't in this cloud)| When **On**, you can allow meetings between your organization and an organization in Microsoft Azure Commercial.|
 |Add with tenant ID |None|Add the tenant ID of the organization you want to connect to.|
 |Add with tenant FQDN |None|Add the tenant FQDN of the organization you want to connect to.|
 |Inbound connections|Off|When **On**, users from another organization in a different cloud environment can join meetings hosted by your organization.|
@@ -629,13 +637,12 @@ Meeting settings allow you to customize meeting email invitations and configure 
 
 ##### Related articles for cross-cloud meetings
 
-[Meet with people in other Microsoft 365 cloud environments](cross-cloud-meetings.md)
+- [Meet with people in other Microsoft 365 cloud environments](cross-cloud-meetings.md)
+- [Configure Microsoft cloud settings for B2B collaboration](/entra/external-id/cross-cloud-settings)
 
 #### Email invitation
 
 **Navigation:** Teams admin center > Meetings > Meeting settings
-
-:::image type="content" source="media/email-inv-tac-small.png" alt-text="Screenshot of Teams meeting settings for email invitations in the Teams admin center." lightbox="media/email-inv-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -700,8 +707,6 @@ Teams live events settings let you control org-wide settings for all live events
 
 **Navigation:** Teams admin center > Meetings > Live event settings
 
-:::image type="content" source="media/support-url-tac.png" alt-text="Screenshot of Teams live events support URL setting in the Teams admin center." lightbox="media/support-url-tac-expand.png":::
-
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Custom support URL|(none)|URL for live event attendees to contact support during a live event.|
@@ -709,8 +714,6 @@ Teams live events settings let you control org-wide settings for all live events
 #### Video distribution providers
 
 **Navigation:** Teams admin center > Meetings > Live event settings
-
-:::image type="content" source="media/video-distribution-provider-tac.png" alt-text="Screenshot of Teams live events settings for video distribution providers in the Teams admin center." lightbox="media/video-distribution-provider-tac-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -738,11 +741,13 @@ Meeting templates can be used to create meetings that are available to users wit
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
+|Apply sensitivity label|None|Protect and regulate access to sensitive organizational content created during collaboration within teams.|
 |Lobby|People in my org and guests| Sets the default value of who can bypass the lobby in the organizer's Meeting options to **People in my org and guests**; organizers and co-organizers can change this when they set up Teams meetings.|
 |People dialing in can bypass the lobby|Off|When **On**, people who dial in by phone join the meeting directly or wait in the lobby.|
 |End-to-end encryption|Off|When **On**, only meeting participants can hear or see the communications.|
 |Enable watermark for screenshare|Off|When **On**, each meeting participant sees their own email address overlaid on the shared content.|
 |Enable watermark for video|Off|When **On**, each meeting participant sees their own email address overlaid on the meeting video.|
+|Restrict participants from copying or forwarding chat messages|Off|When **On**, participants can't copy or forward messages, which includes using keyboard shortcuts, right click or the more actions menu to copy or forward messages.|
 
 #### Audio & video template
 
@@ -758,13 +763,13 @@ Meeting templates can be used to create meetings that are available to users wit
 
 **Navigation:** Teams admin center > Meetings > Meeting templates
 
-:::image type="content" source="media/recording-template-tac.png" alt-text="Screenshot of Teams recording policies for meeting templates in the Teams admin center." lightbox="media/recording-template-tac-expand.png":::
+:::image type="content" source="media/template-rt-small.png" alt-text="Screenshot of Teams recording policies for meeting templates in the Teams admin center." lightbox="media/template-rt-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
 |Record meetings automatically |Off|When **On**, meetings are automatically recorded. |
 |Who can record|Only organizers and co-organizers| Only organizers and co-organizers can record meetings.|
-|Copilot|On with transcript|Copilot is enabled with a persisted transcript.|
+|Allow Copilot|During and after the meeting|Copilot is enabled with a persisted transcript.|
 
 #### Roles template
 
@@ -797,6 +802,25 @@ Meeting templates can be used to create meetings that are available to users wit
 - [Require end-to-end encryption for sensitive Teams meetings](end-to-end-encrypted-meetings.md)
 - [Require a watermark for sensitive Teams meetings](watermark-meeting-content-video.md)
 - [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
+- [Sensitivity labels for Microsoft Teams](sensitivity-labels.md)
+- [Manage chat for sensitive Teams meetings](manage-chat-sensitive-meetings.md)
+
+### Virtual appointments
+
+You can use the following PowerShell parameters to manage Virtual appointments for your users.
+
+| Parameter | Default | Description |
+|:-----|:-----|:-----|
+|EnableSMSNotifications|True|Controls whether your users can choose to send SMS text notifications to external guests in meetings that they schedule using a virtual appointment template meeting. To learn more, see [Manage the Virtual appointment meeting template in Microsoft Teams](virtual-appointment-meeting-template.md).|
+
+#### Related articles for Virtual appointments
+
+- [Manage the Virtual appointment meeting template in Microsoft Teams](virtual-appointment-meeting-template.md)
+- [New-CsTeamsVirtualAppointmentsPolicy](/powershell/module/teams/new-csteamsvirtualappointmentspolicy)
+- [Set-CsTeamsVirtualAppointmentsPolicy](/powershell/module/teams/set-csteamsvirtualappointmentspolicy)
+- [Grant-CsTeamsVirtualAppointmentsPolicy](/powershell/module/teams/grant-csteamsvirtualappointmentspolicy)
+- [Get-CsTeamsVirtualAppointmentsPolicy](/powershell/module/teams/get-csteamsvirtualappointmentspolicy)
+- [Remove-CsTeamsVirtualAppointmentsPolicy](/powershell/module/teams/remove-csteamsvirtualappointmentspolicy)
 
 ### Meeting template policies
 
@@ -830,17 +854,19 @@ Choose who can attend events and customize registration options for webinars.
 |Webinar registration form questions|Custom, standard, required|When **On**, organizers require attendees to answer custom, standard, and required questions when registering for webinars.|
 |Allowed webinar types for recording|Public|When **On**, organizers can publish any webinar recordings.|
 |Allowed town hall types for recording|Public|When **On**, organizers can publish any town hall recordings.|
+|Use Microsoft eCDN|On|When **On**, organizers use the Microsoft eCDN for Premium town halls. When **Off**, organizers use the eCDN provider set in **Live event policies**.|
 
 #### PowerShell-only events policies
 
 |Parameter|Default|Description|
 |:-----|:-----|:-----|
-|EventAccessType|None|This setting controls whether your organizers can publish public or in org webinars and town halls.|
+|EventAccessType|None|This setting controls whether your organizers can publish public or in org webinars and town halls. To learn more, see [Manage who can schedule town halls in Microsoft Teams](set-up-town-halls.md) and [Manage who can schedule webinars in Microsoft Teams](set-up-webinars.md).|
 
 ##### Related articles for events policies
 
 - [Plan for town halls](plan-town-halls.md)
 - [Plan for webinars](plan-webinars.md)
+- [Enterprise content delivery networks for streaming Microsoft Teams events](streaming-ecdn-enterprise-content-delivery-network.md#configure-your-ecdn-solution)
 
 ## Messaging policies
 
@@ -888,7 +914,7 @@ Messaging policies are used to control what chat and channel messaging features 
 
 Calling policies are used to control what calling features are available to people in Teams.
 
-:::image type="content" source="media/teams-calling-policies-small.png" alt-text="Screenshot of Teams calling policies." lightbox="media/teams-calling-policies.png":::
+:::image type="content" source="media/tac-calling-small.png" alt-text="Screenshot of Teams calling policies." lightbox="media/tac-calling-expand.png":::
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
@@ -971,8 +997,8 @@ Caller ID policies are used to change or block the Caller ID (also called a Call
 |Block incoming caller ID|Off|Turn on this setting to block the caller ID of incoming calls from being displayed.|
 |Override the caller ID policy|Off|Turn on this setting to let users override the settings in the policy regarding displaying their number to callees or not. Users can then choose whether or not to display their caller ID.|
 |Calling Party Name|(Blank)|The name of the person or entity that is displayed on the receiving end of a Teams call. Read more about [Calling Party Name](more-about-calling-line-ID-and-calling-party-name.md).|
-|Replace the caller ID with|User's number|Set the caller ID to be displayed for users as **User's number**, **Service number**, or **Anonymous**|
-|Replace the caller ID with this resource account/service number|(Choose a resource account/service number)|Choose a resource account or service number to replace the caller ID of users. This option is available if you selected ***Resource account** or **Service number** in **Replace the caller ID with**.|
+|Replace the caller ID with|User's number|Set the caller ID to be displayed for users as **User's number**, **Anonymous**, or **Resource account**|
+|Replace the caller ID with this resource account|(Choose a resource account)|Choose a resource account to replace the caller ID of users. This option is available if you selected ***Resource account** in **Replace the caller ID with**.|
 
 #### Related articles for Caller ID policies
 
@@ -985,6 +1011,10 @@ Caller ID policies are used to change or block the Caller ID (also called a Call
 
 **Navigation:** Teams admin center > Voice > Emergency policies
 
+#### Calling policies
+
+**Navigation:** Emergency policies > Calling policies
+
 Emergency calling policies are used to control how users in your organization can use dynamic emergency calling features.
 
 :::image type="content" source="media/teams-policies-emergency-calling.png" alt-text="Screenshot of Teams emergency calling policies.":::
@@ -993,10 +1023,17 @@ Emergency calling policies are used to control how users in your organization ca
 |:-----|:-----|:-----|
 |External location lookup mode|Off|Turn on this setting to allow your end users to configure their emergency address when they're working from a network location outside of the corporate network. Read more about [emergency addresses for remote locations](emergency-calling-dispatchable-location.md) and how to [add, change, or remove an emergency location](add-change-remove-emergency-location-organization.md) or [place for an emergency location](add-change-remove-emergency-place-organization.md) for your organization.|
 |Notification mode|(Blank)|This setting controls the type of notification sent to a security desk or team when someone calls emergency services. You can set it to just send a notification to them, or if they can, join an emergency call muted or unmuted.|
-|Emergency service disclaimer|(Blank)|Text that displays in a banner to remind your end users to confirm their emergency location.|
-|Numbers to dial for emergency calls notifications|(Blank)|If you selected either of the **Conference in muted** options for **Notification mode**, you can enter a PSTN phone number of a user or group to call and join the emergency call.|
+|Emergency service disclaimer|(Blank)|Text that displays in a banner to remind your end users to confirm their emergency location. This setting appears if you choose a Notification mode other than **None**.|
+|Number to dial for emergency calls notifications|(Blank)|If you selected either of the **Conference in muted** options for **Notification mode**, you can enter a PSTN phone number of a user or group to call and join the emergency call.|
 |Users and groups for emergency calls notifications|(Blank)|Search for and select one or more users or groups, such as your organization's security desk, to notify when an emergency call is made. The notification can be sent to email addresses of users, distribution groups, and security groups. A maximum of 50 users can be notified.|
-|Dynamic emergency calling|Off|If you turn on this setting, users assigned to the policy can use emergency call routing features when they move from one location to another. This setting is found under **Emergency policies** > **Call routing policies**. Read more about [how to plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).|
+
+#### Call routing policies
+
+**Navigation**: Emergency policies > Call routing policies
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Dynamic emergency calling|Off|If you turn on this setting, users assigned to the policy can use emergency call routing features when they move from one location to another. Read more about [how to plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).|
 
 #### Related articles for emergency policies
 
@@ -1007,6 +1044,39 @@ Emergency calling policies are used to control how users in your organization ca
 - [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 - [Set-CsTeamsEmergencyCallingPolicy](/powershell/module/teams/set-csteamsemergencycallingpolicy)
 - [Set-CsTeamsEmergencyCallRoutingPolicy](/powershell/module/teams/set-csteamsemergencycallroutingpolicy)
+
+### Mobility policies
+
+**Navigation:** Teams admin center > Voice > Mobility policies
+
+Mobility policies control the Teams Phone Mobile features that are available to users in Teams.
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Select a mobile dialer|Microsoft Teams|This setting manages a user's incoming calling policies. The options are **Microsoft Teams**, **Native Dialer**, or **User Controlled**.|
+
+#### Related articles for mobility policies
+
+- [Configure Teams Phone Mobile](operator-connect-mobile-configure.md)
+- [Plan for Teams Phone Mobile](operator-connect-mobile-plan.md)
+- [Set-CsTeamsMobilityPolicy](/powershell/module/teams/set-csteamsmobilitypolicy)
+
+### Shared calling policies
+
+**Navigation:** Teams admin center > Voice > Shared calling policies
+
+Shared calling policies control the ability for users to have inbound and outbound calling transit through an auto attendant instead of having an assigned phone number.
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Resource account|None|This setting controls the resource account that is used for shared calling.|
+|Emergency callback number|(Blank)|This setting controls the callback number that is used for emergency calls.|
+
+#### Related articles for shared calling policies
+
+- [Plan for Shared Calling](shared-calling-plan.md)
+- [Configure Shared Calling](shared-calling-setup.md)
+- [Shared Calling scenario](shared-calling-scenario.md)
 
 ### Voice routing policies
 
@@ -1052,6 +1122,41 @@ Voicemail policies control the available features for the voicemail service in T
 - [Change the default language for voicemail](change-the-default-language-for-greetings-and-emails.md)
 - [Set-CsOnlineVoicemailPolicy](/powershell/module/teams/set-csonlinevoicemailpolicy)
 - [Set up Cloud Voicemail](set-up-phone-system-voicemail.md)
+
+### Voice applications policies
+
+**Navigation:** Teams admin center > Voice > Voice applications policies
+
+Authorized users are users who are authorized to make changes to an Auto attendant or Call queue. The capabilities that the users have are based on the Teams voice applications policy that's assigned to the user.
+
+#### Auto attendants
+
+Control what changes *authorized users* can make in auto attendants they're assigned to.
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Business hours greeting|Off|When this setting is turned **On**, authorized users can update the business hours greeting for an auto attendant.|
+|After hours greeting|Off|When this setting is turned **On**, authorized users can update the after hours greeting for an auto attendant.|
+|Holiday greeting|Off|When this setting is turned **On**, authorized users can update the holiday greeting for an auto attendant.|
+
+#### Call queues
+
+Control what changes *authorized users* can make in call queues they're assigned to.
+
+| Setting | Default | Description |
+|:-----|:-----|:-----|
+|Welcome greeting|Off|When this setting is turned **On**, authorized users can update the welcome greeting for a call queue.|
+|Music on Hold|Off|When this setting is turned **On**, authorized users can update music on hold for a call queue.|
+|Shared voicemail greeting for call overflow|Off|When this setting is turned **On**, authorized users can update the shared voicemail greeting for a call overflow for a call queue.|
+|Shared voicemail greeting for call timeout|Off|When this setting is turned **On**, authorized users can update the shared voicemail greeting for call timeout for a call queue.|
+|Shared voicemail greeting for no agents|Off|When this setting is turned **On**, authorized users can update the shared voicemail greeting for no agents for a call queue.|
+
+#### Related articles for voice applications policies
+
+- [Plan for Teams Auto attendants and Call queues](plan-auto-attendant-call-queue.md)
+- [Set up a Microsoft Teams Auto attendant](create-a-phone-system-auto-attendant.md)
+- [Set up a Call queue in Microsoft Teams](create-a-phone-system-call-queue.md)
+- [PowerShell cmdlet reference for Auto attendants and Call queues](call-queue-auto-attendant-cmdlets.md)
 
 ## Enhanced encryption policies
 

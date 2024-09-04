@@ -61,7 +61,7 @@ removes a blocked number pattern from the tenant list.
 - [Set-CsInboundBlockedNumberPattern](/powershell/module/teams/set-csinboundblockednumberpattern)
 modifies one or more parameters of a blocked number pattern in the tenant list.
 
-- [Test-CsInboundBlockedNumberPattern](/powershell/module/teams/set-csinboundblockednumberpattern)
+- [Test-CsInboundBlockedNumberPattern](/powershell/module/teams/test-csinboundblockednumberpattern)
 tests whether calls from a given phone number will be blocked.
 
 ### Examples

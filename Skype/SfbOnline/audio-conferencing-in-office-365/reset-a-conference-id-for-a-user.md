@@ -31,16 +31,16 @@ description: "Learn the steps to reset a user's meeting conference ID in Skype f
 > [!NOTE]
 > For information about resetting conference ID in Microsoft Teams, see [Reset a conference ID for a user in Microsoft Teams](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams).
 
-A dynamic conference ID is included at the bottom of meeting invitations along with the dial-in phone numbers that can be used by callers to call in to a meeting. When the user dials the phone number, the auto attendant for the meeting will ask the caller to enter this conference ID so they can attend the meeting.
+A dynamic conference ID is included at the bottom of meeting invitations along with the dial-in phone numbers that can be used by callers to call in to a meeting. When the user dials the phone number, the auto attendant for the meeting asks the caller to enter this conference ID so they can attend the meeting.
   
 > [!NOTE]
 > If your conferencing provider is Microsoft, your users' conference IDs are set to Dynamic Only. This cannot be changed. Conference IDs are automatically set only for Skype for Business users enabled for Audio Conferencing. 
 
 ## Resetting the conference ID for a user
    
-1. In the **Skype for Business admin center**, click **Audio conferencing** > **Users**, select a user, and then in the Action pane under **Conference ID** click **Reset**.
+1. In the **Skype for Business admin center**, select **Audio conferencing** > **Users**, select a user, and then in the Action pane under **Conference ID** select **Reset**.
     
-2. In the **Reset conference ID?** window, click **Yes**. A conference ID will be automatically created and an email sent to the user with the new conference ID. By default, emails are sent to users, but this can be turned off.
+2. In the **Reset conference ID?** window, select **Yes**. A conference ID is automatically created and an email sent to the user with the new conference ID. By default, emails are sent to users, but this can be turned off.
     
 > [!NOTE]
 > After you reset the conference ID, an email with the new conference ID will be sent to the user. This email will be sent to the primary email address, in many cases, their Microsoft 365 or Office 365 mailbox. The email contains the new conference ID, default dial-in phone number(s) and instructions to use the Skype for Business Meeting Update Tool to update existing meetings. 
@@ -52,7 +52,7 @@ A dynamic conference ID is included at the bottom of meeting invitations along w
 
 - You can send all of the conferencing information to the user in an email that includes the conference ID and dial-in phone numbers by clicking **Send conference info via email** for the user in the Action pane. It doesn't send the PIN.
     
-- A conference ID will contain 7 digits, and you can't change its length in the Skype for Business admin center or by using Windows PowerShell.
+- A conference ID contains seven digits, and you can't change its length in the Skype for Business admin center or by using Windows PowerShell.
     
 - After it has been reset, you can see the new conference ID listed under **Conference ID**.
     
@@ -68,13 +68,13 @@ A dynamic conference ID is included at the bottom of meeting invitations along w
     
 ## Want to know how to manage with Windows PowerShell?
 
-- When it comes to Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
+- When it comes to Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. To get started with Windows PowerShell, see these articles:
     
   - [An introduction to Windows PowerShell and Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
   - [Why you need to use Microsoft 365 or Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
  
-- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics:
+- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center such as when you're making setting changes for many users at one time. Learn about these advantages in the following articles:
     
   - [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
@@ -82,7 +82,7 @@ A dynamic conference ID is included at the bottom of meeting invitations along w
     
   - [Using Windows PowerShell to do common Skype for Business Online management tasks](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-## Related topics
+## Related articles
 
 [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin.md)
 

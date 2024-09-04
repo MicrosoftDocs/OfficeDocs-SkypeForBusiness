@@ -57,7 +57,7 @@ To learn how to set up and configure Teams Premium features, see [Microsoft Team
 
 Purchasing the Teams Premium add-on license provides admins and end users with extra features on top Teams along with their Microsoft 365 subscription.
 
-The following tables compare key features between Teams and Teams Premium. Because Teams Premium is an add-on license to Teams, users need Teams and Teams Premium licenses to access all features listed below. Teams Premium licenses don't replace users' standard Teams licenses.
+The following tables compare key features between Teams and Teams Premium. Because Teams Premium is an add-on license to Teams, users need Teams and Teams Premium licenses to access all features listed in the following table. Teams Premium licenses don't replace users' standard Teams licenses.
 
 ### Meetings
 
@@ -69,6 +69,7 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Read live captions during meetings and live events | ✔️ |  |
 | Set up a green room for meeting presenters and organizers| ✔️ |  |
 | View attendance reports | ✔️ |  |
+| In-progress meeting real time telemetry with 24 hour retention | ✔️ |  |
 | Customize meeting templates for your organization |  | ✔️ |
 | Add organization branding to meeting lobbies |  | ✔️ |
 | Customize meeting backgrounds for your organization |  | ✔️ |
@@ -81,6 +82,14 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | View engagement reports |  | ✔️ |
 | Translate post-meeting transcriptions (*coming soon*) |  | ✔️ |
 | Turn on eCDN Meetings\* |  | ✔️ |
+| Audio quality alerts |  | ✔️ |
+| Video quality alerts |  | ✔️ |
+| Screen sharing quality alerts |  | ✔️ |
+| Automatic real time telemetry with 7 day retention | | ✔️  |
+| Prevent users from sharing content when attending external Teams meetings | | ✔️  |
+| View how many users attended meetings that used a Teams Premium feature | | ✔️  |
+| View the number of meetings used a Teams Premium feature| | ✔️  |
+| View the number of meetings each user attended that used a Teams Premium feature| | ✔️  |
 
 \* *To take advantage of eCDN for all attendees, either a Teams Premium or standalone eCDN license is required. eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN licensing, see [Microsoft eCDN](https://www.microsoft.com/en-us/microsoft-teams/ecdn).*
 
@@ -92,7 +101,7 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Assign a co-organizer | ✔️ |  |
 | Limit the number of people who can register | ✔️ |  |
 | Allow registered users to bypass the lobby | ✔️ |  |
-| Turn on Q&A for webinars with up to 1000 attendees | ✔️ |  |
+| Turn on Q&A for webinars with up to 1,000 attendees | ✔️ |  |
 | View attendance reports | ✔️ |  |
 | Set up a green room for webinar presenters and organizers| ✔️ |  |
 | Manage what attendees see |  | ✔️ |
@@ -103,6 +112,9 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | View engagement reports |  | ✔️ |
 | Limit the day and time when people can register |  | ✔️ |
 | Use RTMP-In for webinars |  | ✔️ |
+| View how many users attended webinars that used a Teams Premium feature | | ✔️  |
+| View the number of webinars used a Teams Premium feature| | ✔️  |
+| View the number of webinars each user attended that used a Teams Premium feature.| | ✔️  |
 
 ### Town halls
 
@@ -116,20 +128,26 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Provide a unique join link for presenters | ✔️ |  |
 | Set up a green room for presenters and organizers | ✔️ |  |
 | Turn on third party or Microsoft eCDN for town halls | ✔️ |  |
-| Use RTMP-In for town halls | ✔️ |  |
+| Use RTMP-In for town halls <sup>1</sup> | ✔️ |  |
 | Town hall Q&A capacity of 10k attendees | ✔️ |  |
-| View live translated captions in six languages | ✔️ |  |
+| Organizers can pre-select six languages for live translated captions | ✔️ |  |
 | Broadcast town halls to 20k attendees |  | ✔️ |
 | Host up to 50 town halls simultaneously |  | ✔️ |
 | Town hall Q&A capacity of 20k attendees |  | ✔️ |
-| Use Microsoft eCDN for town halls\* |  | ✔️ |
-| Choose an eCDN provider for town halls\* |  | ✔️ |
+| Use Microsoft eCDN for Premium town halls <sup>2</sup> |  | ✔️ |
+| Choose an eCDN provider for town halls <sup>2</sup> |  | ✔️ |
 | View Microsoft Town hall insights |  | ✔️ |
 | Town hall organizers can view engagement reports |  | ✔️ |
 | Edit town hall emails |  | ✔️ |
-| View live translated captions in 10 languages |  | ✔️ |
+| Town hall attendee reactions |  | ✔️ |
+| Organizers can pre-select 10 languages for live translated captions |  | ✔️ |
+| Real time monitoring of the attendee experience |  | ✔️ |
+| View how many users attended town halls that used a Teams Premium feature | | ✔️  |
+| View the number of town halls used a Teams Premium feature| | ✔️  |
+| View the number of town halls each user attended that used a Teams Premium feature.| | ✔️  |
 
-\* *To take advantage of eCDN for all attendees, either a Teams Premium or standalone eCDN license is required. eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN licensing, see [Microsoft eCDN](https://www.microsoft.com/en-us/microsoft-teams/ecdn).*
+<sup>1</sup> If RTMP-In is enabled for a town hall, live translated captions aren't available to the attendees even if the organizer selects the languages before the town hall starts.
+<sup>2</sup> To take advantage of eCDN for all attendees, either a Teams Premium or standalone eCDN license is required. eCDN can be acquired as a standalone license, and more licenses can be purchased outside of Teams Premium, if needed. To learn about eCDN licensing, see [Microsoft eCDN](https://www.microsoft.com/en-us/microsoft-teams/ecdn).*
 
 ### Advanced Collaboration Tools
 
@@ -153,15 +171,20 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Moderate meeting chats | ✔️ |  |
 | Control who can present | ✔️ |  |
 | Add watermarks to meetings |  | ✔️ |
-| End-to-end encryption for meetings with up to 50 attendees |  | ✔️ |
+| End-to-end encryption for meetings |  | ✔️ |
 | Control who can record |  | ✔️ |
 | Prevent copy/paste in meeting chats |  | ✔️ |
 | Assign Microsoft Purview Information Protection sensitivity labels for meetings\* |  | ✔️ |
 | Custom user policy packages |  | ✔️ |
+| Prevent users from sharing content in external Teams meetings |  | ✔️ |
 
 \* *This feature is only available to Teams Premium users with a Microsoft 365 E5, E5 Compliance, F5 Compliance, or F5 Security + Compliance subscription. For more information on licensing requirements, see [What are the requirements to purchase Teams Premium?](#what-are-the-requirements-to-purchase-teams-premium)*
 
-### Meeting recap and intelligent recap
+### Intelligent recap
+
+#### Intelligent meeting recap
+
+In the meeting recap, your users can find the most important parts of a meeting, captured and organized in one place. With a Teams Premium license, your users can get a more personalized rundown of their meetings with intelligent meeting recap. To learn more about intelligent meeting recap, see [Meeting recap in Microsoft Teams](https://support.microsoft.com/office/meeting-recap-in-microsoft-teams-c2e3a0fe-504f-4b2c-bf85-504938f110ef#bkmk_intelligent_meeting_recap).
 
 | Feature | Teams | Teams Premium |
 |---------|:-----:|:-------------:|
@@ -217,6 +240,18 @@ The Meet app in Teams allows users to view important details of their meetings i
 
 \* *Mentions of a user's name is pulled from the meeting transcript, not from an @mention tag in the meeting chat.*
 
+### Immersive Mesh Experiences
+
+With Immersive spaces in Teams, your users can join a 3D immersive meeting experience for up-to 16 people right from any Teams meeting.</br>
+With a Teams Premium license, your distributed workforce can connect in 3D immersive experiences using the Mesh application with up-to 200 attendees. To learn more about Mesh, see [Microsoft Mesh overview](/mesh/overview).
+
+| Feature | Teams | Teams Premium |
+|---------|:-----:|:-------------:|
+| Avatars in Teams | ✔️ |  |
+| 3D immersive meetings in Teams | ✔️ |  |
+| Custom immersive spaces in Microsoft Mesh |  | ✔️ |
+| Larger capacity immersive meetings |  | ✔️ |
+
 ## Are there previous Teams features that moved to Teams Premium?
 
 With the general release of Teams Premium on February 1, 2023, the following Teams features moved from Teams to Teams Premium.
@@ -247,7 +282,7 @@ The **user requirement** is:
 
 ### Can I acquire Teams Premium features without the Teams Premium license?
 
-Teams Premium bundles a large set of advanced Teams features under a single license. There are instances where a single Teams Premium feature could be acquired through other licensing scenarios. However, the Teams Premium license is designed to be the most holistic and simplest avenue to enhance your organization's and users' Teams experience.
+Teams Premium bundles a large set of advanced Teams features under a single license. There are instances where a single Teams Premium feature could be acquired through other licensing scenarios. However, the Teams Premium license is designed to be the most holistic and simplest avenue to enhance your organization's and users' Teams experiences.
 
 ## Which users should be assigned Teams Premium licenses?
 
@@ -255,7 +290,7 @@ Teams Premium is licensed on a per-user subscription basis and is subject to the
 
 ### Which features are applied to organizers, attendees/users, or admins?
 
-Which Teams experience a user has depends on their Teams license and their event role. Teams checks a user’s license and role feature by feature to deliver the appropriate experience.
+A user's Teams experience depends on their Teams license and their event role. Teams checks a user’s license and role feature by feature to deliver the appropriate experience.
 
 For example, in a Teams meeting, Teams checks each users’ type of Teams license and whether they're a meeting organizer or attendee. These factors determine a user’s experience and potentially other attendees’ experience during the meeting.
 
@@ -267,19 +302,19 @@ The following table shows which Teams Premium features provide primary value to 
 
 | Premium Value | Features Applied at Organizer Level | Features Applied at Attendee/User Level | Features Applied at the IT Admin Level |
 | ------------- | :---------------------------------- | :--------------------------------- | :------------------------------------- |
-| **More intelligence** | ✔️ AI-generated chapters in meeting recordings</br> ✔️ Live translation for captions (40 languages) | ✔️ Personalized timeline markers in meeting recordings</br> ✔️ Speaker timeline markers</br> ✔️ Intelligent speaker search in the transcript</br> ✔️ AI-generated notes and tasks | ✔️ Advanced collaboration analytics |
-| **More personalized** | ✔️ Meeting templates (configured by IT admin)</br> ✔️ Custom meeting branding | ✔️ Custom organization backgrounds</br> ✔️ Organization together mode scenes</br> ✔️ Custom user policy packages |  |
-| **More protected** | ✔️ Watermarking</br> ✔️ Who can record</br> ✔️ End-to-end encryption for online meetings (up to 200)</br> ✔️ Hide attendees' names</br> ✔️ E5 customers: Microsoft Purview Information Protection sensitivity labels for Meetings | ✔️ Block incoming chats from people in the organization |  |
+| **More intelligence** | ✔️ Live translation for captions (40 languages) | ✔️ AI-generated chapters for intelligent meeting recap recordings</br>✔️ Personalized timeline markers in meeting recordings</br> ✔️ Speaker timeline markers</br> ✔️ Intelligent speaker search in the transcript</br> ✔️ AI-generated notes and tasks | ✔️ Advanced collaboration analytics |
+| **More personalized** | ✔️ Meeting templates (configured by IT admin)</br> ✔️ Custom meeting branding ✔️ Custom immersive spaces in Microsoft Mesh| ✔️ Custom organization backgrounds</br> ✔️ Organization together mode scenes</br> ✔️ Custom user policy packages</br> ✔️ View aggregated usage of Teams Premium features by users in your org|  |
+| **More protected** | ✔️ Watermarking</br> ✔️ Who can record</br> ✔️ End-to-end encryption for online meetings (up to 200)</br> ✔️ Hide attendees' names</br> ✔️ E5 customers: Microsoft Purview Information Protection sensitivity labels for Meetings | ✔️ Block incoming chats from people in the organization</br>✔️ Prevent users from sharing content in external Teams meetings</br>✔️ Audio quality alerts</br>✔️ Video quality alerts</br>✔️Screen sharing quality alerts</br>✔️Automatic real time telemetry with 7 day retention</br>✔️Prevent users from sharing content when attending external Teams meetings |  |
 | **Advanced Virtual Appointments** | ✔️ Custom lobby room with branding, logos, and more</br> ✔️ SMS notifications | ✔️ On-demand and scheduled appointment functionality and queue views</br> ✔️ Analytics at departmental and organizational level</br> SMS notifications</br></br> *At the user level, these features apply to any user in the tenant who wants access to pre and post-appointment actions and data, like a meeting scheduler, supervisor, or admin.* |  |
 | **Advanced Webinars** | ✔️ Manage attendee view</br> ✔️ Reminder emails</br> ✔️ Wait lists and manual approval</br> ✔️ Limit registration date and time</br> ✔️ RTMP-In |  |
-| **Advanced Town halls** | ✔️ Scale up to 20,000 attendees</br> ✔️ Concurrency limit of 50 meetings</br> ✔️ Email customization</br> ✔️ Microsoft eCDN support</br> ✔️Real-time organizer analytics |  |  |
+| **Advanced Town halls** | ✔️ Scale up to 20,000 attendees</br> ✔️ Concurrency limit of 50 meetings</br> ✔️ Email customization</br> ✔️ Microsoft eCDN support</br> ✔️Real-time organizer analytics ✔️Pre-select 10 languages for attendee captions | ✔️Town hall attendee reactions | ✔️Real time monitoring of the attendee experience |
 | **Microsoft eCDN** |  | ✔️ Works with Teams Meetings and Town halls</br> ✔️ Microsoft eCDN included as a part of the Teams Premium bundle |  |
 
 ## How does Teams Premium differ from Teams Rooms Pro?
 
 Teams Premium licenses are assigned to your organization's users, and Teams Rooms Pro licenses should only be assigned to Microsoft Teams Rooms devices. These two licenses aren't dependent on one another, don't overlap features, and don't cause license enforcement conflicts.
 
-Before the release of Teams Rooms Pro, Microsoft offered a Teams Rooms license called Teams Rooms Premium. Teams Rooms Premium has been retired and isn't related to Teams Premium.
+Before the release of Teams Rooms Pro, Microsoft offered a Teams Rooms license called Teams Rooms Premium. Teams Rooms Premium has gone away and isn't related to Teams Premium.
 
 ## Can I experience Teams Premium before buying licenses?
 
@@ -307,7 +342,7 @@ For more information on enabling or disabling self-service trials for your users
 
 ### What are the terms and conditions of the Teams Premium self-service trial?
 
-By participating in this free trial (“Trial”) of the Microsoft 365 services, you agree to be bound by our [Product Terms](https://go.microsoft.com/fwlink/?linkid=2108910) and the following terms (“Trial Terms”), provided that in the event of a conflict the Trial Terms shall govern. The Trial period will be for thirty (30) or sixty (60) days from the date you activate the Trial depending on the trial you start. Unless you purchase a subscription to the Microsoft 365 services prior to the expiration or termination of your Trial period, you will no longer have access to (i) any data related to the features of the Trial that you entered into your account, and (ii) configurations or customizations made by you or for you using the features of the Trial. Microsoft reserves the right to terminate or modify the Trial and/or these Trial Terms at any time without prior notice and without liability. Trial offer is not available for customers in all regions and countries.
+By participating in this free trial (“Trial”) of the Microsoft 365 services, you agree to be bound by our [Product Terms](https://go.microsoft.com/fwlink/?linkid=2108910) and the following terms (“Trial Terms”), provided that in the event of a conflict the Trial Terms shall govern. The Trial period is for thirty (30) or sixty (60) days from the date you activate the Trial depending on the trial you start. Unless you purchase a subscription to the Microsoft 365 services before the expiration or termination of your Trial period, you no longer have access to (i) any data related to the features of the Trial that you entered into your account, and (ii) configurations or customizations made by you or for you using the features of the Trial. Microsoft reserves the right to terminate or modify the Trial and/or these Trial Terms at any time without prior notice and without liability. Trial offer isn't available for customers in all regions and countries.
 
 ### What happens if my users' trial licenses expire?
 
@@ -333,7 +368,7 @@ Many Teams Premium features require an IT admin to configure the feature before 
 
 The following list indicates Teams Premium features that require admin configuration in the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851) before users can access the feature:
 
-- Using end-to-end encryption on meetings up to 50 participants.
+- Using end-to-end encryption on meetings up to 200 participants.
 - Adding watermarks to meetings.
 - Adding sensitivity labels.
 - Preventing copy and paste in meeting chats.

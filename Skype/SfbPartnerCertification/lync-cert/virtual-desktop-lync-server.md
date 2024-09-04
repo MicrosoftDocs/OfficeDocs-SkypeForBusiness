@@ -37,7 +37,6 @@ With the release of Lync Server 2013, Microsoft works closely with multiple part
 [Troubleshooting the Lync VDI Plug-in](/previous-versions/office/lync-server-2013/lync-server-2013-troubleshooting-the-lync-vdi-plug-in) <!-- 2013 yet to migrate -->
 
 ## VDI environments
-
 The following table lists the VDI partners and their products that are tested with the Lync 2013 VDI plug-in. 
 
 <table border="1" cellpadding="0" cellspacing="0" class="grid" width="100%">

@@ -21,15 +21,15 @@ The ErrorReport view stores information about errors reported. Each record is on
   
 |**Column**|**Data Type**|**Details**|
 |:-----|:-----|:-----|
-|**ErrorTime** <br/> |datetime  <br/> |Time of error occurred. Used in conjunction with ErrorReportSeq to uniquely identify an error.  <br/> |
-|**ErrorReportSeq** <br/> |int  <br/> |ID number to identify the error. Used in conjunction with ErrorTime to uniquely identify an error.  <br/> |
+|**ErrorTime** <br/> |datetime  <br/> |Time of error occurred. Used with ErrorReportSeq to uniquely identify an error.  <br/> |
+|**ErrorReportSeq** <br/> |int  <br/> |ID number to identify the error. Used with ErrorTime to uniquely identify an error.  <br/> |
 |**MsDiagId** <br/> |int  <br/> |Diagnostic ID for the error report.  <br/> |
 |**FromUri** <br/> |nvarchar(450)  <br/> |URI of the user who originated the error.  <br/> |
-|**FromUriType** <br/> |nvarchar(256)  <br/> |Type of URI of the user who originated the error. See the [UriTypes table](uritypes.md) for more information. <br/> |
-|**FromTenant** <br/> |nvarchar(256)  <br/> |Tenant of the user who originated the error. See the [Tenants table](tenants.md) for more information. <br/> |
+|**FromUriType** <br/> |nvarchar(256)  <br/> |Type of URI of the user who originated the error. For more information, see the [UriTypes table](uritypes.md). <br/> |
+|**FromTenant** <br/> |nvarchar(256)  <br/> |Tenant of the user who originated the error. For more information, see the [Tenants table](tenants.md). <br/> |
 |**ToUri** <br/> |nvarchar(450)  <br/> |URI of the user who was the target of the error report.  <br/> |
 |**ToUriType** <br/> |nvarchar(256)  <br/> |Type of URI of the user who target of the error report. See the UriTypes Table for more information.  <br/> |
-|**ToTenant** <br/> |nvarchar(256)  <br/> |Tenant of the user who target of the error report. See the [Tenants table](tenants.md) for more information. <br/> |
+|**ToTenant** <br/> |nvarchar(256)  <br/> |Tenant of the user who target of the error report. For more information, see the [Tenants table](tenants.md). <br/> |
 |**ConferenceUri** <br/> |nvarchar(450)  <br/> |URI of the conference that was the target of the error report.  <br/> |
 |**ConferenceUriType** <br/> |nvarchar(256)  <br/> |URI type of the conference that was the target of the error report. See the [UriTypes table](uritypes.md) for more information. <br/> |
 |**SessionIdTime** <br/> |datetime  <br/> |Time of session request that originated the error report. Used in conjunction with SessionIdSeq to uniquely identify a session. See the [Dialogs table in Skype for Business Server 2015](dialogs.md) for more information. <br/> |

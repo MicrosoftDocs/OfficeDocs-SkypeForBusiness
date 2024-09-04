@@ -72,7 +72,7 @@ A customizable app can be customized in two ways depending on your organization'
 | Where to do it in the admin center                         | Manage apps page or app details page                                       | App details page only                                                                                                                             |
 | How do users receive the customized app                    | Automatically, after an app is customized                                  | You assign users to setup policy and you apply setup policy to customizations                                                                    |
 | Which users can add and use the app                        | Only the allowed users receive the app                                     | Only the allowed users receive the app                                                                                                            |
-| How is the access to the app governed                      | Using [app permission policies](teams-app-permission-policies.md) or [ACM feature](app-centric-management.md)                               | Using app permission policies or app centric management feature                                                                                   |
+| How is the access to the app governed                      | Using [app permission policies](teams-app-permission-policies.md) or [app centric management feature](app-centric-management.md)                               | Using app permission policies or app centric management feature                                                                                   |
 | Which users receive what customization, if both are created | Users who aren’t assigned an additional customization using a setup policy | Specific users who you [assign to an additional customizations](#create-and-assign-additional-customizations-to-different-users)                                                                       |
 
 ## Create a default customization for an app
@@ -136,14 +136,14 @@ To create additional customizations of an app, follow these steps:
 
 1. In the right sidebar, provide the updated values of the app information that you want to customize. Select **Apply**.
 
-1. After it's created, select the additional customization and select **Manage assignments**.
+1. After you create it, select the additional customization and select **Manage assignments**.
 
 1. Search for and select the appropriate app setup policy to apply to the additional customization. Select **Close**. Users who are assigned to this setup policy receive the additional customization. You can assign a policy to one additional customization of the same app.
 
    :::image type="content" source="media/app-customization-assign-setup-policy.png" alt-text="Screenshot showing the manage assignments option that is used to apply a setup policy to an additional customization.":::
 
 > [!NOTE]
-> When you assign app setup policy to an additional customization, it only helps you provide customizations to specific users. It doesn't help you to pin and auto-install apps. Use [app setup policies](teams-app-setup-policies.md) to pin and add apps. Also, customizations respect app assignments, so only those users can use customized apps who are allowed by you to use an app.
+> When you assign app setup policy to an additional customization, it only helps you provide customizations to specific users. It doesn't help you to pin and auto-install apps. Use [app setup policies](teams-app-setup-policies.md) to pin and add apps. Also, customizations respect app availability, so only those users can use customized apps who are allowed by you to use an app.
 
 You can create up to 10 additional customizations for an app.
 

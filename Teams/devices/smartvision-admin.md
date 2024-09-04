@@ -45,7 +45,7 @@ Microsoft Teams Multi-Stream IntelliFrame certified devices, include a speaker, 
 These Microsoft Teams Rooms devices support Multi-Stream IntelliFrame and people recognition:
 
 - Yealink SmartVision 60
-- Jabra Panacast 50 (coming soon)
+- Jabra Panacast 50
 
 ### Setting up your certified Multi-Stream IntelliFrame camera to your Microsoft Teams Room
 

@@ -5,8 +5,8 @@ author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
-ms.reviewer: 
-ms.date: 10/01/2023
+ms.reviewer: bryannyce
+ms.date: 8/14/2024
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -26,7 +26,7 @@ description: Learn to manage meeting and event policy settings in Teams and use 
 
 **APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
 
-Meeting and event policies are used to control the features that are available to organizers and participants of meetings, webinars, and town halls in your organization. You manage meeting policies in the Microsoft Teams admin center or by using [PowerShell](teams-powershell-overview.md).
+As an admin, you can use meeting and event policies to control the features that are available to organizers and participants of meetings, webinars, and town halls in your organization. Depending on the feature, you can manage meeting policies in the Microsoft Teams admin center or through [PowerShell](teams-powershell-overview.md).
 
 You can edit the settings in the global policy or create and assign one or more custom policies. Users get the global policy unless you create and assign a custom policy.
 
@@ -41,10 +41,10 @@ Policies are implemented in one of the following ways:
 ## Create a custom meeting or event policy
 
 1. In the left navigation of the Teams admin center, go to **Meetings** > **Meeting policies** or **Event policies**.
-2. Click **Add**.
+2. Select **Add**.
 3. Enter a name and description for the policy. The name can't contain special characters or be longer than 64 characters.
 4. Choose the settings that you want.
-5. Click **Save**.
+5. Select **Save**.
 
 This video shows the steps to create and assign a custom meeting policy to a user (or users).
 
@@ -55,9 +55,9 @@ This video shows the steps to create and assign a custom meeting policy to a use
 You can edit the global policy and any custom policies that you create.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Meeting policies** or **Event policies**.
-2. Select the policy by clicking to the left of the policy name, and then click **Edit**.
+2. Choose the policy by clicking to the left of the policy name, and then select **Edit**.
 3. From here, make the changes that you want.
-4. Click **Save**.
+4. Select **Save**.
 
 > [!NOTE]
 > A user can be assigned only one meeting policy and one event policy at a time.
@@ -75,10 +75,7 @@ This video shows the steps to edit an organizational-wide default meeting policy
 
 ## Related topics
 
-[Teams policies reference - Meetings](settings-policies-reference.md#meetings)
-
-[Teams PowerShell overview](teams-powershell-overview.md)
-
-[Assign policies to your users in Teams](policy-assignment-overview.md)
-
-[Roles in a Teams meeting](https://support.microsoft.com/office/c16fa7d0-1666-4dde-8686-0a0bfe16e019)
+- [Teams policies reference - Meetings](settings-policies-reference.md#meetings)
+- [Teams PowerShell overview](teams-powershell-overview.md)
+- [Assign policies to your users in Teams](policy-assignment-overview.md)
+- [Roles in a Teams meeting](https://support.microsoft.com/office/c16fa7d0-1666-4dde-8686-0a0bfe16e019)

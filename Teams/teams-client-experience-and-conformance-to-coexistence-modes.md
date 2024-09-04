@@ -41,14 +41,14 @@ The available functionality in Teams depends on the user's coexistence mode, as 
 |---|---|
 |Any Skype for Business mode|Calling, Chat, and self-presence are disabled.|
 |SfBWithTeamsCollabAndMeetings|Meeting scheduling is available|
-|SfBWithTeamsCollab or SfBOnly<sup>1</sup>|Meeting scheduling is not available|
+|SfBWithTeamsCollab or SfBOnly<sup>1</sup>|Meeting scheduling isn't available|
 |||
 
-The following screenshots illustrate the difference between **Teams Only** or **Islands** mode and all other modes. Note that the chat and calling icons are available by default with **Teams Only** or **Islands** mode (left screenshot), but not with the other modes (right screenshot):
+The following screenshots illustrate the difference between **Teams Only** or **Islands** mode and all other modes. The chat and calling icons are available by default with **Teams Only** or **Islands** mode (left screenshot), but not with the other modes (right screenshot):
 
 ![A side-by-side comparison of Teams modes.](media/teams-mode-comparison.png)
 
-In addition, self presence is not available in the other modes, as shown here.
+In addition, self presence isn't available in the other modes, as shown here.
 
 ![Screenshot of self presence in Meetings First.](media/meetings-first-no-self-presence-general.png)
  
@@ -66,7 +66,7 @@ As described above, a user's coexistence mode impact's what functionality is ava
 |Meeting scheduling|TeamsMeetingPolicy.AllowPrivateMeetingScheduling</br>TeamsMeetingPolicy.AllowChannelMeetingScheduling|
 |||
 
-Administrators need *not* explicitly set these policy settings when using co-existence mode, but it's important to understand that these settings effectively behave as follows for a given mode. 
+Administrators need *not* explicitly set these policy settings when using coexistence mode, but it's important to understand that these settings effectively behave as follows for a given mode. 
 
 |Mode|AllowUserChat|AllowPrivateCalling|AllowPrivateMeetingScheduling|AllowChannelMeetingScheduling|
 |---|---|---|---|---|
@@ -75,7 +75,7 @@ Administrators need *not* explicitly set these policy settings when using co-exi
 |SfBWithTeamsCollab or SfBOnly|Disabled|Disabled|Disabled|Disabled|
 ||||||
 
-When using PowerShell, the `Grant-CsTeamsUpgradePolicy` cmdlet checks the configuration of the corresponding settings in TeamsMessagingPolicy, TeamsCallingPolicy, and TeamsMeetingPolicy to determine if those settings would be superseded by TeamsUpgradePolicy and if so, an informational message is provided in PowerShell.  As noted above,  is no longer necessary to set these other policy settings. The following is an example of what the PowerShell warning looks like:
+When you're using PowerShell, the `Grant-CsTeamsUpgradePolicy` cmdlet checks the configuration of the corresponding settings in TeamsMessagingPolicy, TeamsCallingPolicy, and TeamsMeetingPolicy to determine if those settings would be superseded by TeamsUpgradePolicy and if so, an informational message is provided in PowerShell.  As noted above,  is no longer necessary to set these other policy settings. The following is an example of what the PowerShell warning looks like:
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
 

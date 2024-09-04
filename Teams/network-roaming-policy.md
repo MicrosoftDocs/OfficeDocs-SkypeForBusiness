@@ -4,14 +4,14 @@ author: CarolynRowe
 ms.author: crowe
 manager: pamgreen
 ms.reviewer: roykuntz
-ms.date: 03/23/2021
+ms.date: 06/28/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 appliesto: 
   - Microsoft Teams
-ms.localizationpriority: Priority
+ms.localizationpriority: High
 search.appverid: MET150
  
 ms.custom: 

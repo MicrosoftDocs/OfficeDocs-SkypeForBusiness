@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: In this article, you will learn about the the startup, experiment, and enable phases of Microsoft Teams adoption.
+description: In this article, you learn about the startup, experiment, and enable phases of Microsoft Teams adoption.
 f1.keywords:
 - CSH
 ms.custom: 
@@ -32,7 +32,7 @@ By driving adoption of Microsoft Teams, you can deliver an excellent user experi
 
 Before getting started, make sure that:
 
-- [Teams is installed](get-clients.md) and [licenses are assigned](/office365/servicedescriptions/teams-service-description) in your environment. At a minimum licenses should be assigned to your core team and to the early adopters who will participate in this initial project phase.
+- [Teams is installed](get-clients.md) and [licenses are assigned](/office365/servicedescriptions/teams-service-description) in your environment. A minimum license should be assigned to your core team and to the early adopters who participates in this initial project phase.
 
 - You've downloaded the desktop and mobile applications. 
 
@@ -44,7 +44,7 @@ In this Teams adoption plan, we've organized the steps in phases and provided sp
 
 ## Adoption phases 
 
-Every adoption project varies in size and complexity based on your environment, but the initial steps are identical across the board. We believe that breaking the process down into three distinct phases—startup, experiment, and enable—will streamline adoption for everyone.  
+Every adoption project varies in size and complexity based on your environment, but the initial steps are identical across the board. We believe that breaking down the process into three distinct phases—startup, experiment, and enable—will streamline adoption for everyone.  
 
 - **Start** - In this first phase, you'll gather your team together, set up your initial teams, and use Teams to begin planning Teams adoption. This approach will increase your technical familiarity with the product and help you to build the skills necessary to successfully complete subsequent phases. 
 

@@ -4,7 +4,7 @@ ms.author: jenz
 author: jenzamora
 manager: pamgreen
 ms.reviewer: mikedav, oscarr
-ms.date: 04/10/2019
+ms.date: 05/22/2024
 ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -24,7 +24,7 @@ f1.keywords:
 ms.custom: 
   - Licensing
   - seo-marvel-mar2020
-description: Dial-Out and Call Me At minutes benefit. As of December 1, 2019 each audio conferencing subscription provides 60 minutes per-user per-month to Zone A countries and regions.
+description: Dial-Out and Call Me At minutes benefit. Each audio conferencing subscription provides 60 minutes per-user per-month to Zone A countries and regions.
 ---
 
 # Audio Conferencing subscription "Dial-Out"/"Call Me At" minutes benefit
@@ -37,7 +37,7 @@ Each Audio Conferencing standard subscription provides 60 minutes per user per m
 > The dial-out minute pool size of the Audio Conferencing dial-out to USA and Canadian subscriptions is based on the number of licenses *assigned* to users. For example, if a customer has 100 licenses, and 20 of them are assigned to users, the dial-out minute pool of the Audio Conferencing dial-out to USA or Canadian subscription will be 1200 minutes (60 dial-out minutes to the subscription x 20 licenses assigned to users).
 
 > [!NOTE]
-> The end of the [complimentary dial-out period](complimentary-dial-out-period.md) did not take place on November 30, 2019, for countries and regions where the Audio Conferencing subscription is available, but we do not currently provide the ability to set up Communications Credits. These specific countries and regions are Russia, South Korea, and Taiwan.
+> The [complimentary dial-out](complimentary-dial-out-period.md) is only available in Russia, South Korea, and Taiwan, where Audio Conferencing is available, but Communications Credits setup isn't currently supported.
 
 ## Audio Conferencing "Dial Out From a Meeting" & "Call Me At" details
 

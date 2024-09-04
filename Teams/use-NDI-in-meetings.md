@@ -1,9 +1,9 @@
 ---
-title: Broadcast meeting content
+title: Allow broadcast production in Teams meetings with NDI and SDI hardware
 ms.author: wlibebe
 author: wlibebe
-ms.reviewer: 
-ms.date: 07/28/2020
+ms.reviewer: bryanyce
+ms.date: 5/23/2024
 manager: pamgreen
 ms.topic: article
 audience: admin
@@ -20,41 +20,47 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Broadcast meeting content 
+# Allow broadcast production in Teams meetings with NDI and SDI hardware
 
-Teams provides two options for broadcasting Teams meeting content: Network Device Interface (NewTek NDI®) and Serial Digital Interface (SDI):
+Teams offers two options for broadcasting Teams meeting content: Network Device Interface(NewTek NDI®) and Serial Digital Interface (SDI):
 
-- NewTek NDI® technology is a modern solution for connecting media devices (such as a studio camera and mixer). Instead of using physical connections, NDI® technology enables connectivity over a local intranet, including on a local machine.
+- NewTek NDI® is a modern solution for connecting multiple media devices, such as studio cameras and mixers, without physical connections. Instead, NDI® technology enables connectivity over a local intranet, including on a local machine. This technology is a widely adopted industry standard for producing live content for streams, with significant awareness and adoption in the professional broadcast world.
 
-  NDI® technology has become a standard industry solution for producing live content for streams and has gained significant awareness and adoption in the professional broadcast world.
-
-- SDI has been used in broadcast productions since 1989 and is supported on most legacy studio hardware devices. Hardware devices from AJA Video Systems and Blackmagic Design provide connectivity to legacy broadcast devices that use SDI.
-
-> [!NOTE]
-> The Video Hardware Out feature the supports SDI is currently in Preview release.
+- SDI, known for its reliable long-distance transmission, is a widely used technology for sending video through cables. It's a goto choice in professional broadcasting because it carries uncompressed, high-quality video along with audio and other data. Hardware devices from AJA Video Systems and Blackmagic Design provide connectivity to legacy broadcast devices that use SDI.
 
 NDI® and SDI technology is supported in all locales.
 
-Access to using NDI and SDI is determined by the meeting policy for the user attempting to activate the feature. For the most secure solution, do not turn on the local streaming parameter as a global setting.
+As an admin, you can allow your users to use NDI® and SDI for broadcast production in their meetings. For the most secure solution, don't enable this policy as a global setting.
 
+## 1. Enable the broadcast production policy
 
-## Enable broadcast features
+To enable NDI® and SDI broadcast features for a user, you can use the Teams admin center or PowerShell.
 
-To enable NDI® and SDI broadcast features for a user:
+### Enable broadcast production in the Teams admin center
 
-1. You must enable **Local broadcasting** for the user's meeting policy. 
+1. Open the Teams admin center.
+2. Expand **Meetings** from the navigation pane.
+3. Under **Meetings**, select **Meeting Policies**.
+4. Either select an existing policy or create a new one.
+5. Navigate to the **Audio & video** section.
+6. Toggle **Broadcast production with NDI and SDI hardware** to  **On**.
+7. Select **Save**
 
-2. The user must turn on local broadcasting for their specific client.
+### Enable broadcast production in PowerShell
 
+You can use the **`-ContentSharingInExternalMeetings`** parameter in the [**CsTeamsMeetingPolicy**](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet to enable broadcast production for your users.
 
-To enable the end user, you can use the Teams Admin center or Teams PowerShell as follows.
+To allow users with this policy to use broadcast production, use the following script:
 
-In the Teams admin center, go to **Meeting policies > Audio & video** and select **Local broadcasting**.
-
-To use PowerShell, use the Set-CsTeamsMeetingPolicy cmdlet as follows:
-
-```PowerShell
-Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
+```powershell
+Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowNDIStreaming $true
 ```
 
-After this change has populated, the end user must turn on local streaming for their specific client from **Settings** > **Permissions**. For more information, see [Broadcasting audio and video from Teams](https://support.microsoft.com/office/broadcasting-audio-and-video-from-teams-with-ndi-technology-e91a0adb-96b9-4dca-a2cd-07181276afa3).
+## 2. Instruct your users to turn on production capabilities
+
+Users with an enabled **Broadcast production with NDI and SDI hardware** policy must turn on **Production capabilities**  from **Settings** > **App Permissions** in their specific client.
+For details on how your user can turn on production capabilities, see [Broadcasting audio and video from Teams](https://support.microsoft.com/office/broadcasting-audio-and-video-from-teams-with-ndi-technology-e91a0adb-96b9-4dca-a2cd-07181276afa3).
+
+## Related topics
+
+- [Plan for meetings](plan-meetings.md)

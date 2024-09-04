@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.topic: article
-ms.date: 10/02/2023
+ms.date: 05/20/2024
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -15,7 +15,7 @@ ms.reviewer: smylavarapu
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn about installing and meeting prerequisites for the new Microsoft Teams desktop client for the Mac
+description: Learn about installing and meeting prerequisites for the new Microsoft Teams desktop client for the Mac.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: high
@@ -23,7 +23,7 @@ ms.localizationpriority: high
 # New Teams for Mac - Overview and prerequisites
 
 >[!Note]
-> The features described in this article are available to [**Teams Public preview**](/microsoftteams/public-preview-doc-updates) and [**Microsoft 365 Targeted release**](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide#targeted-release) customers only. Features and content are subject to change. Check back for updates.
+> The features described in this article are available to [**Teams Public preview**](/microsoftteams/public-preview-doc-updates) and [**Microsoft 365 Targeted release**](/microsoft-365/admin/manage/release-options-in-office-365) customers only. Features and content are subject to change. Check back for updates.
 
 The new Teams for Mac has been reimagined from the ground up with performance in mind, providing a faster, simpler, and more flexible experience. The new Teams client installs and loads faster, letting you launch the app and join meetings more quickly, giving you more time to focus on the business tasks.
 
@@ -44,7 +44,7 @@ The new Teams ensures more efficient use of device resources. Whether you have u
 
 - You must be running on macOS Monterey (12) or higher.
 
-- To see the “Try the new Teams” toggle, your current Teams app must be running version 1.6.00.12303 or higher. If you are at a lower version, select on the overflow menu (…) and select **>**Check for updates >Update**, and restart your app. If you still don't see the App Switcher, please Report a Problem.  
+- To see the **Try the new Teams** toggle, your current Teams app must be running version 1.6.00.12303 or higher. If you are at a lower version, select on the overflow menu (…) and select **>**Check for updates >Update**, and restart your app. If you still don't see the App Switcher, use **Report a Problem**.
 
 - To install the new Teams client, the user needs admin privileges for their computer. If the user doesn't have admin privileges, admins can user their MDM (or whatever other way they deploy and install software on devices without admin privileges) and use this [**PKG**](https://statics.teams.cdn.office.net/production-osx/enterprise/webview2/lkg/MicrosoftTeams.pkg).  
 
@@ -56,7 +56,7 @@ The new Teams ensures more efficient use of device resources. Whether you have u
 
 After installing the new client, if users don't choose to Allow Notifications with the initial macOS Alert about notifications settings, then users must turn on the **Allow Notifications** from system settings.
 
-For Monterey OS:
+#### System notification for Monterey OS
 
 1. Open macOS System Preferences.
 2. Go to **Notifications & Focus** and under **Notifications**, select Microsoft Teams.
@@ -64,7 +64,7 @@ For Monterey OS:
 
 :::image type="content" source="media/new-teams-mac-notifications-monterey.png" alt-text="new teams for mac notifications macOS Monterey":::
 
-#### For macOS Ventura and Sonoma
+##### System notification for macOS Ventura and Sonoma
 
 1. Open macOS System Preferences.
 2. Go to **Notifications** and under **App Notifications**, select Microsoft Teams.
@@ -74,20 +74,20 @@ For Monterey OS:
 
 ### Turn on Screen Sharing
 
-Users can enable screen sharing for sharing content on call and in meetings using the regular in-app flow when they first try to screen share, but this requires they restart new Teams. The user needs to drop from the meeting. Alternatively, users can turn on permissions for screen recording under system settings.
+Users can enable screen sharing for sharing content on calls and in meetings using the regular in-app flow when they first try to screen share. This action requires that they restart new Teams. The user needs to drop from the meeting. Alternatively, users can turn on permissions for screen recording under system settings.
 
-For Monterey OS:
+#### Screen sharing for Monterey OS
 
 1. Open macOS System Preferences.
 2. Go to Security & Privacy > Privacy tab > Screen Recording.
-3. Select the **+** sign to add Microsoft Teams (work or school) to allow recording content of your screen.
+3. Select the **+** sign to add Microsoft Teams to allow recording content of your screen.
 
 :::image type="content" source="media/new-teams-mac-security.png" alt-text="new teams mac security page":::
 
-#### For macOS Ventura and Sonoma
+##### Screen sharing for macOS Ventura and Sonoma
 
 1. Go to Privacy & Security > Screen Recording.  
-2. Switch the toggle for Microsoft Teams (work or school) to Allow recording of the content of your screen.
+2. Switch the toggle for Microsoft Teams to Allow recording of the content of your screen.
 
 :::image type="content" source="media/new-teams-mac-screen-recording.png" alt-text="new teams mac screen recording page":::
 
@@ -99,10 +99,10 @@ For Monterey OS:
 
 - If you’re not seeing the toggle for new Teams, make sure you have the minimum required versions for Mac and Teams:
 
-  - macOS Monterey (12) or above
-  - Microsoft Teams (work or school) version 1.6.00.12303 or higher.
+  - macOS Monterey (12) or higher.
+  - Microsoft Teams version 1.6.00.12303 or higher.
 
-- After you've successfully switched to new Teams, if you can't find the toggle on the top left to switch between new Teams and Microsoft Teams (work or school), you can start the version you want by searching in Launchpad for Teams.
+- After you've successfully switched to new Teams, if you can't find the toggle on the top left to switch between new Teams and Microsoft Teams, you can start the version you want by searching in Launchpad for Teams.
 
 :::image type="content" source="media/new-teams-mac-switch-using-launchpad.png" alt-text="switchusing launchpad":::
 
@@ -122,7 +122,6 @@ All the features available in new Teams Windows client are supported on Mac clie
 
 - Cameo (weather person) in PPT
 - Green Screen
-- NDI
 
 ## Enhancements in new Teams
 

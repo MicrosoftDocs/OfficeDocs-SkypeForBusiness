@@ -26,7 +26,7 @@ description: "Learn how to fix issues for admins and users of Skype for Business
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Sometimes things aren't working like you expect. Here is a list of topics that can help you fix problems, whether you're administrating Skype for Business Online or helping your users solve their problems.
+Sometimes things aren't working like you expect. Here's a list of articles that can help you fix problems, whether you're administrating Skype for Business Online or helping your users solve their problems.
 
 ## Troubleshoot admin issues for Skype for Business Online
 
@@ -46,7 +46,7 @@ For dial-in conferencing issues, see [Audio Conferencing troubleshooting and kno
 
 ## Help your Skype for Business Online users
 
-Most of the problems faced by Skype for Business Online users are related to forgotten passwords. You can solve most of the sign-in problems by following the instructions in these two topics:
+Most of the problems faced by Skype for Business Online users are related to forgotten passwords. You can solve most of the sign-in problems by following the instructions in these two articles:
 
 - [Need help signing in to Skype for Business?](https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05)
 
@@ -73,7 +73,7 @@ Most of the problems faced by Skype for Business Online users are related to for
 ## Still need help? Contact support.
 <a name="BK_SupportBridge_1"> </a>
 
-As an admin for Microsoft 365 Apps for business, you get free access to our knowledgeable support agents for pre-sales, account, and billing support, as well as for help resolving technical issues. You can also [contact support](/microsoft-365/Admin/contact-support-for-business-products) on behalf of Microsoft 365 and Office 365 users in your organization.
+As an admin for Microsoft 365 Apps for business, you get free access to our knowledgeable support agents for pre-sales, account, and billing support, and for help resolving technical issues. You can also [contact support](/microsoft-365/Admin/contact-support-for-business-products) on behalf of Microsoft 365 and Office 365 users in your organization.
 
 - [Get help from the Microsoft 365 and Office 365 community forums](https://go.microsoft.com/fwlink/p/?LinkId=518605)
 

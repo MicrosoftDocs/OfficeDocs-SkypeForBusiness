@@ -32,7 +32,7 @@ It's recommended that you visit the vendor's web site for the latest information
 
 ## USB audio and video devices
 
-All USB audio and video devices that are "Optimized for Lync" are supported in Lync Online Dedicated. For details, please visit the [USB audio and video devices](usb-and-video.md) page.
+All USB audio and video devices that are "Optimized for Lync" are supported in Lync Online Dedicated. For details, visit the [USB audio and video devices](usb-and-video.md) page.
 
 ## IP phones
 

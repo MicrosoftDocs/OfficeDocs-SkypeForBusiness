@@ -67,11 +67,11 @@ To use the SRS v1 Administrative Web Portal, you will need to install or configu
 
 6. Add LRSFullAccessAdminGroup as a member of LRSSupportAdminGroup.
 
-     ![LRSSupportAdminGroup Properties Members page.](../../media/LRS_Add_LRSSupportAdminGroup.png)
+     ![Screenshot shows the LRSSupportAdminGroup Properties Members page.](../../media/LRS_Add_LRSSupportAdminGroup.png)
 
 7. Create a SIP enabled Active Directory user with name LRSSupport. Add this user to LRSSupportAdminGroup.
 
-     ![LRSSupportAdminGroup Properties Members page.](../../media/LRS_Add_LRS_SIP_SupportUser.png)
+     ![Screenshot shows the LRSSupportAdminGroup Properties Members page with the new user added](../../media/LRS_Add_LRS_SIP_SupportUser.png)
 
 8. Install [ASP.NET MVC 4 for Visual Studio 2010 SP1 and Visual Web Developer 2010 SP1](https://go.microsoft.com/fwlink/p/?LinkId=323967).
 

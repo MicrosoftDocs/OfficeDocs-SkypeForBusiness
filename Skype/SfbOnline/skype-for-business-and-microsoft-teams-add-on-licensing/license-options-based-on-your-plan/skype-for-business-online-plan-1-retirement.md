@@ -27,7 +27,7 @@ description: "The Skype for Business Online Plan 1 has been retired. However, if
 
 [!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
 
-The Skype for Business Online Plan 1 has been retired. However, if you have a current subscription to Skype for Business Online Plan 1, this change won’t affect you right away. As a global Office 365 admin, you’ll receive email updates and see posts in the message center (part of the Microsoft 365 admin center) with information on when you need to take action. In the meantime, you can continue to use your existing Skype for Business Online Plan 1 licenses.
+The Skype for Business Online Plan 1 has been retired. However, if you have a current subscription to Skype for Business Online Plan 1, this change won’t affect you right away. As a global Office 365 admin, you receive email updates and see posts in the message center (part of the Microsoft 365 admin center) with information on when you need to take action. In the meantime, you can continue to use your existing Skype for Business Online Plan 1 licenses.
 
 When you're ready to move to a new plan—either now or during renewal—you’ll have the option to switch to Office 365 F1 or another Office 365 plan of your choosing.
 
@@ -41,7 +41,7 @@ This option is ideal if you want to take advantage of the other functionality th
 
 ### How to switch 
 
-You can switch to Office 365 F1 now or wait until it’s time to renew and upgrade during the renewal process. Either way, you’ll work with your account representative or partner to make the switch, unless you bought your subscription directly from Microsoft, in which case you can switch to Office 365 F1 yourself in the Microsoft 365 admin center.
+You can switch to Office 365 F1 now or wait until it’s time to renew and upgrade during the renewal process. Either way, you work with your account representative or partner to make the switch, unless you bought your subscription directly from Microsoft, in which case you can switch to Office 365 F1 yourself in the Microsoft 365 admin center.
 
 
 ## Switching to another Office 365 offer

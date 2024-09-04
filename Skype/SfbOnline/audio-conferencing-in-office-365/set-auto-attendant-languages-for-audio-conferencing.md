@@ -21,7 +21,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: "See how to select the audio conferencing auto attendant languages for a audio conferencing number in Skype for Business Online."
+description: "See how to select the audio conferencing auto attendant languages for an audio conferencing number in Skype for Business Online."
 ---
 
 # Set auto attendant languages for Audio Conferencing in Skype for Business Online
@@ -31,9 +31,9 @@ description: "See how to select the audio conferencing auto attendant languages 
 > [!Note]
 > For information about setting the auto attendant language in Microsoft Teams, see [Set auto attendant languages for Audio Conferencing in Microsoft Teams](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams).
 
-The Audio Conferencing auto attendant for Skype for Business can greet audio callers in a number of different languages when they join a meeting.
+The Audio Conferencing auto attendant for Skype for Business can greet audio callers in many different languages when they join a meeting.
   
-Choose one primary language and up to four secondary languages. The primary language that you set will be used first and the secondary languages will be used by the auto-attendant in order that you select. 
+Choose one primary language and up to four secondary languages. The primary language that you set will be used first and the secondary languages will be used by the autoattendant in order that you select. 
   
 > [!NOTE]
 >  You can only change the languages of audio conferencing numbers that are of the Dedicated category. The languages of Shared audio conferencing number can't be changed.
@@ -43,20 +43,20 @@ Choose one primary language and up to four secondary languages. The primary lang
   
 ## Set the conferencing auto attendant languages
 
-You must be a [global admin](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) or [Skype for Business admin](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) to perform this step.
+You must be a [Skype for Business admin](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) to perform this step.
     
-1. In the **Skype for Business admin center**, in the left navigation, go to **Legacy portal**. Once in the legacy portal, select **Audio conferencing**, and then click **Microsoft bridge**.
+1. In the **Skype for Business admin center**, in the left navigation, go to **Legacy portal**. Once in the legacy portal, select **Audio conferencing**, and then select **Microsoft bridge**.
     
-2. Select the audio conferencing phone number from the list, and in the Action pane, click **Set languages**. It is only possible to change the languages of Dedicated audio conferencing numbers.  
+2. Select the audio conferencing phone number from the list, and in the Action pane, click **Set languages**. It's only possible to change the languages of Dedicated audio conferencing numbers.  
     
-3. On the **Set languages** page, click the **Primary language** list to view the complete list of available languages. If you need to, click each of the **Secondary languages** lists to select secondary language.
+3. On the **Set languages** page, select the **Primary language** list to view the complete list of available languages. If you need to, select each of the **Secondary languages** lists to select secondary language.
     
     > [!NOTE]
     > The primary and secondary languages that are supported are listed. The order in which you select them in the lists will be the order of the languages presented to callers. 
   
 4. Click **Save**.
     
-## Want else should I know?
+## What else should I know?
 
 - To see the list of supported languages for Audio Conferencing, see [Audio Conferencing supported languages](/MicrosoftTeams/audio-conferencing-supported-languages).
     
@@ -70,7 +70,7 @@ To automate this step, you can use the [Set-CsOnlineDialInConferencingServiceNum
   
 To learn more, see [Using Windows PowerShell to do common Skype for Business Online management tasks](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
-## Related topics
+## Related articles
 
 [Try or purchase Audio Conferencing in Microsoft 365 or Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 

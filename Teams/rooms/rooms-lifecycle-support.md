@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
 ms.reviewer: raginis
-ms.date: 10/04/2023
+ms.date: 08/21/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -24,18 +24,18 @@ ms.custom: seo-marvel-apr2020
 
 # Microsoft Teams Rooms app version support
  
-The Microsoft Teams Rooms app gets updates through the Windows store. The app uses an evergreen product lifecycle and only the current and the next most recent version of the app are supported at any given time. The app bundles a specific version of the Teams desktop app that is modified for room use. The Teams desktop app updates every two weeks while the Teams Rooms app updates less frequently. This means Teams Rooms app current-1 version can be up to six Teams desktop app updates behind, so it's recommended to keep the Teams Rooms app updated to the latest version at all times. Learn more about the [Teams update process](../teams-client-update.md).
+By default, the Microsoft Teams Rooms application receives updates through the Microsoft store. The app uses an evergreen product lifecycle and only the current and the next most recent major version of the app is supported at any given time. The app bundles a specific version of the Teams desktop app that is modified for room use. The Teams desktop app updates frequently while the Teams Rooms app updates less frequently. This means Teams Rooms app current-1 version can be several Teams desktop app updates behind, so it's recommended to keep the Teams Rooms app updated to the latest version at all times. Learn more about the [Teams update process](../teams-client-update.md).
 
-The support structure for Teams Rooms is dynamic and depends on the availability of the latest version. When you encounter a code defect in a version of the application that's not the latest, you must install the latest version to receive a fix.
+While we support the most current release of Teams Rooms (N) and the previous major release (N-1) (5.1.xxx and 5.0.xxx for example), the support structure for Teams Rooms is dynamic and depends on the availability of the latest version. When you encounter a code defect in a version of the application that's not the latest, you must install the latest version to receive a fix.
 
 All releases are listed in the [Microsoft Teams Rooms release notes](rooms-release-note.md).
 
 > [!IMPORTANT]
-> When installing a new device that came with an older version of the Teams Rooms application, it is recommended to [manually update the application](manual-update.md) after setting the account, before downloading any Windows updates. This ensures correct OS version and Windows updates are installed on your device.  
+> When installing a new device that came with an older version of the Teams Rooms application, it is recommended to [manually update the application](/microsoftteams/rooms/rooms-operations#software-updates) after setting the account this ensures correct OS version and Windows Updates are installed on your device.  
 
 ## Windows release support
 
-Microsoft Teams Rooms requires the  Windows IoT Enterprise or Windows Enterprise SKUs under the Global Availability Channel servicing option. These other Windows editions aren't supported:
+Microsoft Teams Rooms requires the Windows IoT Enterprise or Windows Enterprise SKUs under the Global Availability Channel servicing option. These other Windows editions aren't supported:
 
 - Windows Enterprise Long-term Servicing Branch (LTSB) / Long Term Servicing Channel (LTSC) editions
 - Windows Internet of Things (IoT) Enterprise LTSB / LTSC editions
@@ -50,8 +50,9 @@ The following table shows recommended and supported versions of Windows that are
 
 | Version | Availability date | Microsoft Teams Rooms support status                    | Microsoft Teams Rooms Minimum application version | Recommended OS build |
 |:--------|:------------------|:--------------------------------------------------------|:--------------------------------------------------|:---------------------|
-| 22H2    | 2022-10-18        | Supported,<br>Recommended                               | 4.16.134.0                                        | 22621.525 &#x2780;  |
-| 21H2    | 2021-11-16        | Supported                                               | 4.12.126.0                                        | 19044.1288           |
+| 23H2    | 2023-10-31        | Supported,<br>Recommended                               |5.1.24.0                                           | 22631.2428   |
+| 22H2    | 2022-10-18        | Supported                                               | 4.16.134.0                                        | 22621.525 &#x2780;   |
+| 21H2    | 2021-11-16        | Not Supported                                           | &#x2014;                                          | &#x2014;             |
 | 21H1    | 2021-05-18        | Not Supported                                           | &#x2014;                                          | &#x2014;             |
 | 20H2    | 2020-10-20        | Not Supported                                           | &#x2014;                                          | &#x2014;             |
 | 2004    | 2020-05-27        | Not Supported, <br/>Known compatibility issues  &#x2781;| &#x2014;                                          | &#x2014;             |
@@ -62,29 +63,9 @@ The following table shows recommended and supported versions of Windows that are
 | 1709    | 2018-01-18        | Not supported                                           | &#x2014;                                          | &#x2014;             |
 | 1703    | 2017-07-11        | Not Supported                                           | &#x2014;                                          | &#x2014;             |
 
-&#x2780; In order to maximize service life, hardware that is not Windows 11 eligible will upgrade from Windows 10 21H2 to Windows 10 22H2. However, take note of the [Windows 10 IoT Enterprise end of support date](/lifecycle/products/windows-10-iot-enterprise).  
+&#x2780; In order to maximize service life, hardware that is not Windows 11 eligible will upgrade from Windows 10 21H2 to Windows 10 22H2. However, take note of the [Windows 10 IoT Enterprise end of support date](/lifecycle/products/windows-10-iot-enterprise), Teams Rooms on Windows devices running Windows 10 will not be supported after the Windows 10 IoT Enterprise end of support date.  
 
-&#x2781; Windows 10 version 2004 is not recommended due to compatibility issues found with the Microsoft Teams Rooms application. This specific issue causes the Microsoft Teams Rooms application to fail to start after the nightly reboot.
-
-&#x2782; Windows 10 version 1809 is not recommended due to compatibility issues found with the Microsoft Teams Rooms application. This specific issue causes the Microsoft Teams Rooms application to fail to start after the nightly reboot. This issue was addressed in  Windows 10 version 1903.  
-
-When you use a supported version of Windows 10, you will always get the latest application updates for the Microsoft Teams Rooms app.  
-
-## Delay upgrade to Windows 11 on eligible devices
-
-If you need to, you can delay the upgrade of your Teams Rooms device to Windows 11 22H2 until November 20, 2023. 
-
-To delay the upgrade, you need to set the `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PPI\SkypeSettings\CBU11` value to `1 (DWORD)`. We recommend setting the `CBU11` value using group policy, Intune, or remote PowerShell. Alternately, you can complete the steps below on each Teams Rooms device.
-
-> [!IMPORTANT]
-> If you want to temporarily delay the Windows 11 upgrade on eligible devices, you need to set the `CBU11` value before June 20, 2023.
-
-1. Switch to admin mode on your Teams Rooms device.
-2. In admin mode, open Registry Editor.
-3. Go to the `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PPI\SkypeSettings` registry key. If it doesn't exist, create it.
-4. Create the value `CBU11` and set it to `1 (DWORD)`.
-
-Once the `CBU11` value is set, the device won't be upgraded to Windows 11 until November 20, 2023. If you're ready before November 20, 2023, delete the registry key to resume the upgrade.
+When you use a supported version of Windows, you will always get the latest application updates for the Microsoft Teams Rooms app.  
 
 ## Related topics
 

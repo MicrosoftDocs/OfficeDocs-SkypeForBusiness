@@ -4,7 +4,7 @@ ms.author: jtremper
 author: jacktremper
 manager: pamgreen
 ms.reviewer: nas, pbafna
-ms.date: 12/10/2018
+ms.date: 06/28/2024
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -21,7 +21,7 @@ ms.custom:
 - chat-teams-channels-revamp
 appliesto: 
   - Microsoft Teams
-ms.localizationpriority: normal
+ms.localizationpriority: Medium
 description: Learn how to configure Skype for Business Server for external chat and meetings with other Microsoft 365 organizations and external chat and calls with Skype users.
 ---
 

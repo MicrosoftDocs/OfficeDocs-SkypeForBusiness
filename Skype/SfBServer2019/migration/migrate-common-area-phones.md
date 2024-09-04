@@ -11,12 +11,12 @@ ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: "Common Area Phones are IP phones that most often reside in a shared workspace or common area, like a lobby, kitchen, or factory floor. Common Area Phones do not need to be connected to a computer to provide Skype for Business Server unified communications (UC) functionality. After migrating a deployment to Skype for Business Server 2019, you must also migrate the contact objects associated with the legacy Common Area Phone. Using Skype for Business Server Management Shell you will first retrieve all contact objects associated with the legacy Common Area Phones, and then move those objects to the Skype for Business Server 2019 pool."
+description: "Common Area Phones are IP phones that most often reside in a shared workspace or common area, like a lobby, kitchen, or factory floor. Common Area Phones don't need to be connected to a computer to provide Skype for Business Server unified communications (UC) functionality. After migrating a deployment to Skype for Business Server 2019, you must also migrate the contact objects associated with the legacy Common Area Phone. Using Skype for Business Server Management Shell you first retrieve all contact objects associated with the legacy Common Area Phones, and then move those objects to the Skype for Business Server 2019 pool."
 ---
 
 # Migrate Common Area Phones
 
-Common Area Phones are IP phones that most often reside in a shared workspace or common area, like a lobby, kitchen, or factory floor. Common Area Phones do not need to be connected to a computer to provide Skype for Business Server unified communications (UC) functionality. After migrating a deployment to Skype for Business Server 2019, you must also migrate the contact objects associated with the legacy Common Area Phone. Using Skype for Business Server Management Shell, you will first retrieve all contact objects associated with the legacy Common Area Phones, and then move those objects to the Skype for Business Server 2019 pool.
+Common Area Phones are IP phones that most often reside in a shared workspace or common area, like a lobby, kitchen, or factory floor. Common Area Phones don't need to be connected to a computer to provide Skype for Business Server unified communications (UC) functionality. After migrating a deployment to Skype for Business Server 2019, you must also migrate the contact objects associated with the legacy Common Area Phone. Using Skype for Business Server Management Shell, you first retrieve all contact objects associated with the legacy Common Area Phones, and then move those objects to the Skype for Business Server 2019 pool.
   
 ### Migrate Common Area Phones
 
@@ -28,7 +28,7 @@ Common Area Phones are IP phones that most often reside in a shared workspace or
    Get-CsCommonAreaPhone -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsCommonAreaPhone -Target pool02.contoso.net
    ```
 
-3. To verify that all contact objects have been moved to the Skype for Business Server 2019 pool, from the Skype for Business Server Management Shell type the following:
+3. To verify that all contact objects are moved to the Skype for Business Server 2019 pool, from the Skype for Business Server Management Shell type the following:
     
    ```PowerShell
    Get-CsCommonAreaPhone -Filter {RegistrarPool -eq "pool02.contoso.net"}

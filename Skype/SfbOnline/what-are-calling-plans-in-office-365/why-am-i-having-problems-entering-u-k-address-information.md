@@ -35,7 +35,7 @@ Here are some reasons why you may be having problems getting your address or add
 
 If you're having a problem entering the company name, remember:
   
-- It can have letters, numbers, and the following special characters: , / - + . ' &amp; " _ 
+- It can have letters, numbers, and the following special characters: , / - +. ' &amp; " _ 
     
     > [!CAUTION]
     > In the United Kingdom (U.K.), the company name can't have the + sign. 

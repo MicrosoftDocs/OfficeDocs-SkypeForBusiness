@@ -75,11 +75,9 @@ The following partners have video interop solutions for Microsoft Teams. Your co
 |![The logo representing Cisco CVI.](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Cisco Webex Video Integration for Microsoft Teams</a> |
 |![The logo representing HP Poly CloudConnect.](media/hppoly.png) | <a href="https://aka.ms/PolyCloudConnect" target="_blank">HP Poly CloudConnect</a> |
 |![The logo representing Poly RealConnect.](media/polycom.png) | <a href="https://aka.ms/PolyRealConnect" target="_blank">Poly RealConnect Service</a> |
-|![The logo representing BlueJeans Gateway.](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">BlueJeans Gateway for Microsoft Teams</a> |
 
 > [!NOTE]
-> Both BlueJeans and Poly (RealConnect Service) are no longer on-boarding additional customers, their respective services are now in maintenance only mode.
-
+> Poly (RealConnect Service) is no longer on-boarding additional customers, their respective services are now in maintenance only mode.
 ## Deploy CVI
 
 When deploying a CVI solution, it's important to understand that you're deploying a partner solution. You need to plan your deployment, get set up with provisioning details and partner tenant key, and consent to the video interop app in your organization. The general steps you should take to deploy CVI are listed in the following diagram.
@@ -122,10 +120,10 @@ You must provide permission consent for the video teleconferencing devices (VTCs
 
 |Name|Application Permission Short Description| Description|
 |---|---|---|
-|Calls.JoinGroupCall.All|Join Group Calls and Meetings as an app (preview)|Allows the app to join group calls and scheduled meetings in your organization, without a signed-in user. The app is joined with the privileges of a directory user to meetings in your tenant.|
+|Calls.JoinGroupCall.All|Join Group Calls and Meetings as an app|Allows the app to join group calls and scheduled meetings in your organization, without a signed-in user. The app is joined with the privileges of a directory user to meetings in your tenant.|
 |Calls.JoinGroupCallasGuest.All|Join Group Calls and Meetings as a guest|Allows the app to anonymously join group calls and scheduled meetings in your organization, without a signed-in user. The app is joined as a guest to meetings in your tenant.|
-|Calls.AccessMedia.All|Access media streams in a call as an app (preview)|Allows the app to get direct access to media streams in a call, without a signed-in user.|
-|OnlineMeetings.Read.All|Read Online Meeting details (preview)|Allows the app to read Online Meeting details in your organization, without a signed-in user.|
+|Calls.AccessMedia.All|Access media streams in a call as an app|Allows the app to get direct access to media streams in a call, without a signed-in user.|
+|OnlineMeetings.Read.All|Read Online Meeting details|Allows the app to read Online Meeting details in your organization, without a signed-in user.|
 
 ### 4. Schedule
 
@@ -151,6 +149,18 @@ Depending on the partner solution, there are several ways to join a CVI-enabled 
 
 - **One-touch dial**
   - If you integrated the VTC room calendar, you can use the one-touch dial capabilities offered by your partner (without needing to type any dial string).
+
+## SIP Guest Join
+
+SIP Guest Join (SGJ) is a new CVI capability, *offered by specific CVI partners. This feature provides the facility to utilize your existing CVI subscription for meetings which have been scheduled by external orgs, this was previously not possible due to:
+
+1. The CVI partner application wasn't located or consented to within the external organization
+
+1. The Teams meeting initiation wouldn't contain CVI join coordinates
+
+Due to the absence of CVI join coordinates within the external organization's Teams meeting invitations, it is required that One Touch Join calendaring be configured for VTCs enabled for SGJ. Once the Teams meeting invitation is parsed by the CVI partner calendaring solution, their respective services will join the external meeting as a guest. **There is no lobby bypass capability for SGJ-enabled meetings**.
+
+*Refer to CVI release notes for partners which offer SGJ.
 
 ## Manage CVI
 
@@ -182,16 +192,17 @@ Microsoft continues to work with CVI partners to make meetings between Microsoft
 
 |Release Date| Feature Name|Feature Description|Microsoft Status|*BlueJeans|Cisco|Pexip|*Poly|
 | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
-|CY22Q3|PowerPoint Notifications|CVI participants are notified when PowerPoint is being shared via Teams participants|Delivered to CVI Partners|Available|TBD|Available|TBD|
+|CY22Q3|PowerPoint Notifications|CVI participants are notified when PowerPoint is being shared via Teams participants|Delivered to CVI Partners|Available|Available|Available|TBD|
 |CY22Q4|CVI Telemetry|Enable identification of CVI calls within Call Quality Dashboard (CQD) metrics|Delivered to CVI Partners|TBD|Available|TBD|Available|
 |CY22Q4|Alignment of lobby between CVI and Teams meetings|Alignment of CVI Lobby with Teams Meeting Scheduling, specifically: "People who were invited" and "Only me and co-organizers," now ensures VTC is held in lobby even when VTC lobby bypass is configured. **Note:** *as a result of this change, VTCs (used within Teams live events as a presenter) must be admitted via the lobby*|Delivered to CVI Partners|Available|Available|Available|Available|
 |CY22Q4|Support for Long Term Reference Frame(LTRF)|Improved support for video packet loss recovery within CVI|Delivered to CVI Partners|TBD|TBD|TBD|N/A|
-|CY22Q4|Support for Microsoft Teams Premium, "Watermark Feature"|Phase 1: Notification for Watermark-enabled meeting with both video and content blocked|Delivered to CVI Partners|TBD|TBD|N/A - will launch Phase 2|N/A - will launch Phase 2|
-|CY23Q1|Support for Microsoft Teams Premium, "Watermark Feature"|Phase 2: Full Watermark support, CVI Partners will create Watermark overlay with both video and content displayed. **Note:** *at this time Teams meetings only support Watermark for trusted VTCs, i.e., Lobby Bypass must be enabled*|Delivered to CVI Partners|TBD|TBD|Planned|Available|
-|CY23Q2|SIP Guest Join|The ability to join Teams Meetings with VTCs when CVI coordinates aren't present within the invite|Delivered to CVI Partners|TBD|TBD|Available|TBD|
+|CY22Q4|Support for Microsoft Teams Premium, "Watermark Feature"|Phase 1: Notification for Watermark-enabled meeting with both video and content blocked|Delivered to CVI Partners|TBD|N/A - will launch Phase 2|N/A - will launch Phase 2|N/A - will launch Phase 2|
+|CY23Q1|Support for Microsoft Teams Premium, "Watermark Feature"|Phase 2: Full Watermark support, CVI Partners will create Watermark overlay with both video and content displayed. **Note:** *at this time Teams meetings only support Watermark for trusted VTCs, i.e., Lobby Bypass must be enabled*|Delivered to CVI Partners|TBD|Available|Planned|Available|
+|CY23Q2|SIP Guest Join|The ability to join Teams Meetings with VTCs when CVI coordinates aren't present within the invite|Delivered to CVI Partners|TBD|Planned|Available|TBD|
 |CY23Q3|Point-to-Point (P2P) calling between Teams Rooms on Windows and VTCs|Teams Rooms Pro calling feature, which creates the ability to perform bi-directional calling between Teams Rooms on Windows and VTC devices|Delivered to CVI Partners|TBD|TBD|Available|TBD|
+|CY24Q2|Support for Microsoft Teams video retransmission (RTX)|Microsoft Teams now supports video retransmission or RTX. This video packet loss mechanism provides additional media resiliency for Teams call legs|Delivered to CVI Partners|Available|Available|Available|Available|
 
-*Both BlueJeans and Poly CVI solutions are in maintenance only mode. No new customers are being on-boarded.
+*Poly (RealConnect Service) is in maintenance only mode. No new customers are being on-boarded.
 
 ## Related topics
 

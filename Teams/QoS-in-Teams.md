@@ -97,7 +97,7 @@ A simple analogy is that QoS creates virtual "carpool lanes" in your data networ
 
 If you're considering a QoS implementation, you should've already determined your [bandwidth and other network requirements](prepare-network.md).
   
-Traffic congestion across a network greatly impacts media quality. A lack of bandwidth leads to performance degradation and a poor user experience. As Teams adoption and usage grows in your organization, you'll need to monitor and manage your network performance. To identify problems, and then make adjustments using QoS and selective bandwidth additions, use the following tools: [reporting](/teams-analytics-and-reports/teams-reporting-reference.md), [per-user call analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md), and [Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md).
+Traffic congestion across a network greatly impacts media quality. A lack of bandwidth leads to performance degradation and a poor user experience. As Teams adoption and usage grows in your organization, you'll need to monitor and manage your network performance. To identify problems, and then make adjustments using QoS and selective bandwidth additions, use the following tools: [reporting](./teams-analytics-and-reports/teams-reporting-reference.md), [per-user call analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md), and [Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md).
 
 ### VPN considerations
 
@@ -175,7 +175,7 @@ Implement QoS settings for clients and network devices, and determine how you wa
 
 - Mac and mobile (iOS and Android) clients use hard-coded values for audio (EF) and video and application/screen sharing (AF41). Teams Phone devices also use the default value for audio (EF). However, QoS must be enabled globally in the Teams Admin Center for this to function. See [Configure QoS in the Teams admin center](meetings-real-time-media-traffic.md) for details on enabling the **Insert Quality of Service (QoS) markers** for real-time media traffic” setting.
 
-- For information on configuring DSCP markings for Microsoft Teams Rooms (Windows and Android), see [Quality of Service (QoS) configuration on Teams Rooms devices](/devices/qos-on-teams-devices).
+- For information on configuring DSCP markings for Microsoft Teams Rooms (Windows and Android), see [Quality of Service (QoS) configuration on Teams Rooms devices](./devices/qos-on-teams-devices.md).
 
 - For information on configuring DSCP markings for Surface Hub devices running Windows 10 Team OS , see [Manage Surface Hub with an MDM Provider](/surface-hub/manage-settings-with-mdm-for-surface-hub).
 

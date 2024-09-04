@@ -36,7 +36,7 @@ Also, CQD exposes web APIs that give users programmatic access to the cube data 
 
 When you visit the Call Quality Dashboard, you see the following screen:
 
-![Use CQD.](../../media/1e061858-db6f-452b-9ae4-eab507220371.png)
+![Screenshot of the Skype Call Quality Dashboard.](../../media/1e061858-db6f-452b-9ae4-eab507220371.png)
 
 1. The "Summary Pane" is where context for the "Report Set" (to the right) can be found.
 2. Click "Edit" in the Summary PaneReport to set level properties (including Y-axis height).
@@ -59,7 +59,7 @@ Click the title of any of the reports to navigate into reports with more filters
 
 Click "Edit" in the action menu of a report to see the Report Editor. Each report is backed by a query into the cube. A report is a visualization of the data returned by its query. The Report Editor helps you edit these queries and the display options of the report. When you open the Report Editor, you  see:
 
-![Use CQD.](../../media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
+![Screenshot of the Report Editor.](../../media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
 
 1. Dimensions, measures, and filters are chosen in the left pane. Hover over one of the existing values to show an "x" button that allows the value to be removed. Click the "plus" button next to a heading to open the dialog where you can add a new dimension, measure, or filter.
 2. Options for chart customization are displayed at the top.
@@ -70,7 +70,7 @@ Click "Edit" in the action menu of a report to see the Report Editor. Each repor
 
 When StartDate.Month is added as a dimension and the data is rendered as a trend in table form, bar charts and sparklines can be shown inside the table cells. Move the mouse pointer over the bar chart and the sparklines to show the values for individual months.
 
-![Use CQD.](../../media/fe6b18d7-b8cf-472a-9c93-0f7703f5a700.png)
+![Screenshot of sample bar charts and sparklines.](../../media/fe6b18d7-b8cf-472a-9c93-0f7703f5a700.png)
 
 In order for the bar charts and the sparklines to appear, the "Show sparklines" checkbox at the top of the Report Editor must be checked. This selects the Trend option and moves Month down to be the last dimension, which can also be accomplished by clicking on Month and using the up and down arrows to shift StartDate.Month up or down.
 
@@ -78,7 +78,7 @@ In order for the bar charts and the sparklines to appear, the "Show sparklines" 
 
 The settings menu contains links to useful pages like the System Health and About pages, and is located in the top-right corner of the dashboard.
 
-![Use CQD.](../../media/0e9ae123-e231-4fea-94e1-5788e8f3e1d3.png)
+![Screenshot shows settings menu options.](../../media/0e9ae123-e231-4fea-94e1-5788e8f3e1d3.png)
 
 Whether to show descriptions and time stamps is up to individual users, and these settings only affect the individual's version of the dashboard, and do not modify the report set or what other users see. Clearing the cache causes all queries to reload their data from the cube, while restoring defaults deletes all of user-created or modified reports and recreates the system report set — what a user would see when they log in for the first time.
 

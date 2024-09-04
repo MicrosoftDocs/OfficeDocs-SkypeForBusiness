@@ -17,13 +17,13 @@ description: "Summary: Learn about the per-user Call Diagnostic Reports used in 
 
 # Call Diagnostic Reports (per user) in Skype for Business Server
   
-The Call Diagnostic Reports provide per-user information about failed peer-to-peer and conferencing sessions. At this time there is only one report, the **User Activity Report**.
+The Call Diagnostic Reports provide per-user information about failed peer-to-peer and conferencing sessions. At this time, there's only one report, the **User Activity Report**.
 
-The User Activity Report provides a detailed list of the peer-to-peer and conferencing sessions carried out by your users in a given time period. Unlike many of the Monitoring Reports, the User Activity Report ties each call to individual users. For example, peer-to-peer sessions specify the SIP URIs of the person who initiated the call (the From user) and the person who was being called (the To user). If you expand the information for a conference, you'll see a list of all the conference participants and the role they held for that conference.
+The User Activity Report provides a detailed list of the peer-to-peer and conferencing sessions carried out by your users in a given time period. Unlike many of the Monitoring Reports, the User Activity Report ties each call to individual users. For example, peer-to-peer sessions specify the SIP URIs of the person who initiated the call (the From user) and the person who was being called (the To user). If you expand the information for a conference, you see a list of all the conference participants and the role they held for that conference.
 
 The User Activity Report is sometimes referred to as the "help desk" report. That's because the report is often used by help desk personnel to retrieve session information for a specific user. You can filter for calls made to or made by an individual user simply by typing the user's SIP URI in the User URI prefix box.
 
-If you do this, the User Activity Report will return information for any user whose SIP URI begins with the specified string. For example, if you type **ken** in the URI box, the User Activity Report will locate **Ken**.Myer@litwareinc.com. However, it will also locate these users:
+If you do this, the User Activity Report returns information for any user whose SIP URI begins with the specified string. For example, if you type **ken** in the URI box, the User Activity Report locates **Ken**.Myer@litwareinc.com. However, it will also locate these users:
 
 - **ken** azi@litwareinc.com
 
@@ -33,7 +33,7 @@ If you do this, the User Activity Report will return information for any user wh
 
 - **Ken** nedy@litwareinc.com
 
-To ensure that information only for Ken Myer is returned, either type his full URI (Ken.Myer@litwareinc.com) in the search box or at least enough type of Ken's URI to uniquely distinguish him from other users in your organization. For example:
+To ensure that information only for Ken Myer is returned, either type their full URI (Ken.Myer@litwareinc.com) in the search box or at least type enough of Ken's URI to uniquely distinguish them from other users in your organization. For example:
 
 Ken.my
 
@@ -43,7 +43,7 @@ The User Activity Report is accessed from the Monitoring Reports home page. You 
 
 ## Making the best use of the user activity report
 
-Although there is a lot of good information in the User Activity Report, that information can sometimes be difficult to locate. For example, all the user activity that takes place in your organization during a specified period is included in the User Activity Report; that means that, buried, within the report is information about which users actually used Skype for Business Server in some way.
+Although there are many good information in the User Activity Report, that information can sometimes be difficult to locate. For example, all the user activity that takes place in your organization during a specified period is included in the User Activity Report; that means that, buried, within the report is information about which users used Skype for Business Server in some way.
 
 > [!NOTE]
 > Technically, it's possible that some user activity might go unrecorded: while Skype for Business Server strives to keep information about all phone calls it's possible that a call could have been made without the information about that call being written to the database. Skype for Business Server is designed to give an extremely accurate but not necessarily perfect look at how Skype for Business Server is being used. (The fact that there is no guarantee that 100% of all calls are recorded explains why Skype for Business Server monitoring should not be used as a billing system.) Second, a Monitoring Report can only display, at most, 1,000 records. Depending on the amount of user activity you have, and depending on the time period you are working with, that means your query might not return all the data actually stored in the database. 
@@ -54,7 +54,7 @@ Although there is a lot of good information in the User Activity Report, that in
 
 - Are the users who make the most phone calls also the users who participate in the most instant messaging sessions?
 
-If you need to answer questions like this, you can export the data retrieved by the Monitoring Reports to an Excel spreadsheet. You then use that spreadsheet and/or a comma-separated values file to analyze the data in ways that the User Activity Report. For example, suppose you have exported the report data to Excel and then to a comma-separated values file. At that point, you can import the data from the .CSV file to Windows PowerShell by using a command similar to this:
+If you need to answer questions like this, you can export the data retrieved by the Monitoring Reports to an Excel spreadsheet. You then use that spreadsheet and/or a comma-separated values file to analyze the data in ways that the User Activity Report. For example, suppose you are exporting the report data to Excel and then to a comma-separated values file. At that point, you can import the data from the .CSV file to Windows PowerShell by using a command similar to this:
 
 ```PowerShell
 $x = Import-Csv -Path "C:\Data\User_Activity_Report.csv"
@@ -102,11 +102,11 @@ This command limits the reported sessions to those that included audio as a moda
 $x | Where-Object {$_.Modalities -match "audio"} | Group-Object "From user" | Select Count, Name | Sort-Object Count -Descending
 ```
 
-If you hold your mouse over any Diagnostic ID shown on the report, a tooltip will appear describing that ID.
+If you hold your mouse over any Diagnostic ID shown on the report, a tooltip appears describing the ID.
 
 ## Filters
 
-Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the User Activity Report enables you to filter the returned data based on such things as activity type (that is, peer-to-peer sessions or conferencing sessions) or by the user's SIP address (allowing you to view the activities for one user). You can also choose how data should be grouped. In this case, usages are grouped by hour, day, week, or month.
+Filters provide a way for you to return a more finely targeted set of data or to view the returned data in different ways. For example, the User Activity Report enables you to filter the returned data based on such things as activity type (that is, peer-to-peer sessions or conferencing sessions) or by the user's SIP address (allowing you to view the activities for one user). You can also choose how data should be grouped. In this case, usages are grouped by hour, day, week, or month.
 
 The following table lists the filters that you can use with the User Activity Report.
 
@@ -115,12 +115,12 @@ The following table lists the filters that you can use with the User Activity Re
 
 | **Name**   | **Description**  |
 |:-----------|:--------|
-| **From** <br/>             | Start date/time for the time range. To view data by hours, enter both the start date and time as follows:  <br/> 7/17/12015 1:00 PM  <br/> If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:  <br/> 7/17/12015  <br/> To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):  <br/> 7/13/2015  <br/> Weeks always run from Sunday through Saturday.  <br/>                                                      |
-| **To** <br/>               | End date/time for the time range. To view data by hours, enter both the end date and time as follows:  <br/> 7/17/12015 1:00 PM  <br/> If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:  <br/> 7/17/12015  <br/> To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):  <br/> 7/13/2015  <br/> Weeks always run from Sunday through Saturday.  <br/>                                                             |
+| **From** <br/>             | Start date/time for the time range. To view data by hours, enter both the start date and time as follows:  <br/> 7/17/12015 1:00 PM  <br/> If you don't enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:  <br/> 7/17/12015  <br/> To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you don't have to enter the first day of the week or month):  <br/> 7/13/2015  <br/> Weeks always run from Sunday through Saturday.  <br/>                                                      |
+| **To** <br/>               | End date/time for the time range. To view data by hours, enter both the end date and time as follows:  <br/> 7/17/12015 1:00 PM  <br/> If you don't enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:  <br/> 7/17/12015  <br/> To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you don't have to enter the first day of the week or month):  <br/> 7/13/2015  <br/> Weeks always run from Sunday through Saturday.  <br/>                                                             |
 | **Activity type** <br/>    | Type of activity. Select one of the following: <br/>  [All] <br/>  Peer-to-peer <br/>  Conference <br/>      |
 | **Modality** <br/>         | The Modality available to you varies depending on the select Activity Type. If the Activity Type is Peer-to-Peer, you can select IM; File Transfer; Application Sharing; Voice; or Video as the modality.  <br/> If the Activity Type is Conference, you can select IM Phone conference; Web conference; Application Sharing; Voice/Video conference; or Telephony conference.  <br/>         |
-| **Session category** <br/> | Indicates whether the activity in question succeeded or failed. Select one of the following: <br/>  [All] <br/>  Success <br/>  Expected failure <br/>  Unexpected failure <br/>  An "expected failure" is a failure that is expected to happen; for example, if a user has set his or her status to Do Not Disturb you would expect any call to that user to fail. An "unexpected failure" is a failure that occurs in what would appear to be an otherwise healthy system. For example, a call should not be terminated if the caller is placed on hold. If that occurs, that would be flagged as an unexpected failure. <br/> |
-| **User URI prefix** <br/>  | SIP address for the user. To view records only for the user Ken Myer you need to enter Ken Myer's SIP address. For example:  <br/> sip:kenmyer@litwareinc.com  <br/>
+| **Session category** <br/> | Indicates whether the activity in question succeeded or failed. Select one of the following: <br/>  [All] <br/>  Success <br/>  Expected failure <br/>  Unexpected failure <br/>  An "expected failure" is a failure that is expected to happen; for example, if a user sets their status to Do Not Disturb you would expect any call to that user to fail. An "unexpected failure" is a failure that occurs in what would appear to be an otherwise healthy system. For example, a call shouldn't be terminated if the caller is placed on hold. If that occurs, that would be flagged as an unexpected failure. <br/> |
+| **User URI prefix** <br/>  | SIP address for the user. To view records only for the user Ken Myer,you need to enter Ken Myer's SIP address. For example:  <br/> sip:kenmyer@litwareinc.com  <br/>
 
 ## Metrics for peer-to-peer sessions
 
@@ -130,14 +130,14 @@ The following table lists the information provided in the User Activity Report f
 
 |**Name**|**Can you sort on this item?**|**Description**|
 |:-----|:-----|:-----|
-|**Detail** <br/> |No  <br/> |When you click this item, the report shows you the Peer-to-Peer Session Detail Report for the selected session.  <br/> |
+|**Detail** <br/> |No  <br/> |When you select this item, the report shows you the Peer-to-Peer Session Detail Report for the selected session.  <br/> |
 |**From user** <br/> |Yes  <br/> |SIP address of the user who initiated the peer-to-peer session.  <br/> |
 |**To user** <br/> |Yes  <br/> |SIP address of the user who joined the peer-to-peer session.  <br/> |
 |**Modalities** <br/> |Yes  <br/> |Type of communication used in the session. For example, IM, audio, or file transfer.  <br/> |
 |**Invite time** <br/> |Yes  <br/> |Date and time the initial invitation to join the peer-to-peer session was sent.  <br/> |
 |**Response time** <br/> |Yes  <br/> |Date and time that the "To" user accepted the session invitation.  <br/> |
 |**End time** <br/> |Yes  <br/> |Date and time the peer-to-peer session ended.  <br/> |
-|**Diagnostic ID** <br/> |Yes  <br/> |Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors. Diagnostics headers are optional (it is possible to have SIP sessions that do not include these headers), and diagnostic IDs are reported only for sessions that experienced problems of some kind.  <br/> |
+|**Diagnostic ID** <br/> |Yes  <br/> |Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors. Diagnostics headers are optional (it's possible to have SIP sessions that don't include these headers), and diagnostic IDs are reported only for sessions that experienced problems of some kind.  <br/> |
 
 ## Metrics for conferencing sessions
 
@@ -147,7 +147,7 @@ The following table lists the information provided in the User Activity Report f
 
 |**Name**|**Can you sort on this item?**|**Description**|
 |:-----|:-----|:-----|
-|**Conference URI** <br/> |Yes  <br/> |Unique conference identifier. When you click this item, the report shows you the Conference Detail Report for the selected session. When you expand this item, the report shows you information about the conference participants. For details, see the "Metrics for Conference Participants" section later in this topic.  <br/> |
+|**Conference URI** <br/> |Yes  <br/> |Unique conference identifier. When you select this item, the report shows you the Conference Detail Report for the selected session. When you expand this item, the report shows you information about the conference participants. For details, see the "Metrics for Conference Participants" section later in this article.  <br/> |
 |**Organizer** <br/> |Yes  <br/> |SIP address of the user who organized the conference.  <br/> |
 |**Pool** <br/> |Yes  <br/> |Name of the Edge Server (if any) used in the conference.  <br/> |
 |**Start time** <br/> |Yes  <br/> |Date and time that the conference began.  <br/> |

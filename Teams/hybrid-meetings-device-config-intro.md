@@ -36,6 +36,9 @@ In order for Teams Rooms to work with your organization, you need to complete a 
 
 - You need to be a Global admin and a Teams admin to complete the steps below. For more information, see [About Microsoft 365 admin roles](/microsoft-365/admin/add-users/about-admin-roles).
 
+> [!IMPORTANT]
+>Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+
 ## Set up the Teams Rooms account
 
 The following steps show you how to purchase a license for your Teams Rooms console, create an account for it, and then assign the license to it. Each Teams Rooms console needs its own account and license to work properly. The account you create will show up in the organization's address list as a room available for reservation in Outlook.

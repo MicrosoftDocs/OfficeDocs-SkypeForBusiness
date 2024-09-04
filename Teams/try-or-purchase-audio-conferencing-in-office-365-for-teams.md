@@ -38,7 +38,7 @@ For pricing info, see [Pricing for Audio Conferencing](https://www.microsoft.com
 
 ## Step 1: Buy and assign Audio Conferencing licenses
 
-You must be a [global administrator or billing administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) to perform these steps.
+You must be a [billing administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) to perform these steps.
 
 ### To buy and assign user Audio Conferencing licenses
 

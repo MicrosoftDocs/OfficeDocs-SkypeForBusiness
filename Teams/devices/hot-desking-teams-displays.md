@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: prashibadkur
-ms.date: 07/05/2023
+ms.date: 05/15/2024
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
@@ -24,12 +24,16 @@ search.appverid: MET150
 
 # Deploy hot desking for Teams Displays
 
-Teams Displays are used in a shared areas with hot desks, or private work areas such as phone booths or other type of private rooms. This article helps you to deploy and configure Teams Displays in hot desking mode. Hot desking lets users reserve, sign-in, collaborate with other people, and then end their session securely.
+> [!IMPORTANT]
+>
+> End of support for the Teams display app is September 3, 2025. Microsoft will make commercially reasonable best efforts to maintain compatibility with the most recent version of the Teams app provided to manufacturers for a period of two (2) years from this date. See the [Microsoft Product and Services lifecycle](/lifecycle/products/) for details.
 
-Hot desking requires two types of accounts:
+Teams Displays are used in a shared area with hot desks, or private work areas such as phone booths or other type of private rooms. This article helps you to deploy and configure Teams Displays in hot desking mode. Hot desking lets users reserve, sign-in, collaborate with other people, and then end their session securely.
 
-- **Resource account** - used by the Teams Display for the hot desking experience and booking the space.
-- **User account** - used by the user who's booked the Teams Display to sign in to access their account and settings.
+Hot-desking requires two types of accounts:
+
+- **Resource account** - used by the Teams Display for the hot-desking experience and booking the space.
+- **User account** - used by the user who booked the Teams Display to sign in to access their account and settings.
 
 ## Step 1 – Buy the licenses
 
@@ -44,7 +48,7 @@ First, you need to purchase a  **Teams Shared Devices**  license and make sure t
 >
 >If you're using Intune in your environment and have conditional access rules that require device compliance, you'll need to assign a **Microsoft Entra ID P1** , and  **Intune**  license to the device account for the Teams Display.
 
-Teams Displays can be impacted by conditional access rules and other identity configurations, like Multi-Factor Authentication (MFA). See [**Authentication best practices for Teams Android devices**](./authentication-best-practices-for-android-devices.md) to learn more.
+Teams Displays can be impacted by conditional access rules and other identity configurations, like multifactor authentication (MFA). See [**Authentication best practices for Teams Android devices**](./authentication-best-practices-for-android-devices.md) to learn more.
 
 ## Step 2 - Create a new resource account and assign licenses
 
@@ -56,9 +60,9 @@ If you're deploying more than one Teams Display at once, learn how to create res
 
 1. In the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), go to **Resources** > **Rooms & Equipment** > **Add a resource**.
 2. Select **Room** as the resource type.
-3. Enter an email like "Building5hotdesk1", then select a domain like "Contoso.com".
-4. Enter a location such as "Building 5 – 1st Floor HotDesk 1".
-5. Click **Save**.
+3. Enter an email like `Building5hotdesk1`, then select a domain like "Contoso.com".
+4. Enter a location such as "Building 5 – first Floor HotDesk 1".
+5. Select **Save**.
 
 > [!Important]
 >
@@ -100,10 +104,10 @@ To sign in locally with a username and password:
 
 1. Turn on the Teams Display and connect it to your network.
 2. Select  **Sign in on this device**.
-3. Follow the sign-in directions on the device. Once signed in, the Teams Display will display the hot desking user experience.
+3. Follow the sign-in directions on the device. Once you're signed in, the Teams Display will display the hot desking user experience.
 
 ### Sign in from another device
-You can also sign into to a Teams Display from another device using a code. When you sign in this way, you'll enter the username and password on another device, rather than on the display itself.
+You can also sign into to a Teams Display from another device using a code. When you sign in this way, you enter the username and password on another device, rather than on the display itself.
 
 1. On your Teams Display, find the code displayed on the sign in screen.
 2. On another device, go to [https://www.microsoft.com/devicelogin](https://www.microsoft.com/devicelogin).
@@ -115,7 +119,7 @@ As an admin, you can remotely provision and sign into Teams Display from the [Te
 ## Step 5 – Booking Options (Optional)
 
   1. In the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), go to **Resources** > **Rooms & Equipment**.
-  2. Search for the resource account and click the **name** of the account.
+  2. Search for the resource account and select the **name** of the account.
   3. Select **Edit** in the **Booking options** section.
   4. Validate the **Booking options** meet your needs, and make sure that " **Auto Accept**" is checked.
 

@@ -24,9 +24,9 @@ description: "Skype for Business dial-in audio conferencing is available through
 
 # Skype for Business audio conferencing providers
 
-Dial-in audio conferencing is the ability to dial into scheduled Skype for Business Online meetings and conferences from fixed-line or mobile phones. You can get dial-in audio conferenceing through interoperability with leading third-party audio conferencing services.
+Dial-in audio conferencing is the ability to dial into scheduled Skype for Business Online meetings and conferences from fixed-line or mobile phones. You can get dial-in audio conferencing through interoperability with leading partner audio conferencing services.
 
-Vendors in the following table have been certified with Skype for Business Online.
+Vendors in the following table are with Skype for Business Online.
 
 |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|Regions available|
 |---|---|---|---|---|---|

@@ -18,7 +18,7 @@ description: "Summary: Skype for Business Server Control panel to Cmdlet mapping
 
 This article describes how similar results as that of the **Security** menu item in the legacy Control Panel can be achieved using cmdlets.
 
-This article describes the following sub-menus :
+This article describes the following submenus:
 
 - [Security](#security)
   - [Registrar](#registrar)
@@ -27,7 +27,7 @@ This article describes the following sub-menus :
 
 ## Registrar
 
-**REGISTRAR** sub-menu enables administrators to manage proxy servers through proxy server configuration settings. These settings, which can be applied at both the global scope and the service scope (albeit for only the Edge Server and Registrar services) enables to control such things as the authentication protocols that can be used by client endpoints and whether or not compression will be used on incoming and outgoing proxy server connections.
+**REGISTRAR** submenu enables administrators to manage proxy servers through proxy server configuration settings. These settings, which can be applied at both the global scope and the service scope (albeit for only the Microsoft Edge Server and Registrar services) enables to control such things as the authentication protocols that are used by client endpoints and whether or not compression is used on incoming and outgoing proxy server connections.
 
 Let us consider the various tasks a user can do on **REGISTRAR**, and the Skype for Business cmdlets those tasks map to.
 
@@ -115,7 +115,7 @@ Let us consider the various tasks a user can do on **REGISTRAR**, and the Skype 
 
 ## Web Service
 
-The **WEB SERVICE** sub-menu item under **Security** enables administrators to manage Web Services configuration settings throughout the organization; this includes managing group expansion, certificate settings, and allowed authentication methods. Because administrators can configure different settings at the global, site, and service scope (albeit for the only the Web Services service), one can customize Web Services capabilities for different users and different locations.
+The **WEB SERVICE** submenu item under **Security** enables administrators to manage Web Services configuration settings throughout the organization; this includes managing group expansion, certificate settings, and allowed authentication methods. Because administrators can configure different settings at the global, site, and service scope (albeit for the only the Web Services service), one can customize Web Services capabilities for different users and different locations.
 
 Let us consider the various tasks a user can do on **WEB SERVICE**, and the Skype for Business cmdlets those tasks map to.
 
@@ -202,7 +202,7 @@ Let us consider the various tasks a user can do on **WEB SERVICE**, and the Skyp
 
 ## PIN Policy
 
-Administrators can use **PIN POLICY** to manage PIN authentication properties; for example, one can specify the minimum length for a PIN and determine whether one will allow PINs that use "common patterns" such as consecutive digits (for example, a PIN like 123456)
+Administrators can use **PIN POLICY** to manage PIN authentication properties; for example, one can specify the minimum length for a PIN and determine whether one allows PINs that use "common patterns" such as consecutive digits (for example, a PIN like 123456).
 
 Let us consider the various tasks a user can do on **PIN POLICY**, and the Skype for Business cmdlets those tasks map to.
 

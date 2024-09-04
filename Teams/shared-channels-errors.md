@@ -4,7 +4,7 @@ author: jacktremper
 ms.author: jtremper
 manager: pamgreen
 ms.reviewer: jasonlewis
-ms.date: 01/17/2024
+ms.date: 06/28/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -16,7 +16,7 @@ f1.keywords:
 - NOCSH
 appliesto: 
 - Microsoft Teams
-ms.localizationpriority: normal
+ms.localizationpriority: Medium
 search.appverid: MET150
 description: Learn how to use fix errors in shared channels in Microsoft Teams. 
 ---

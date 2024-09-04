@@ -8,7 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.subservice: teams-apps
 ms.service: msteams
 audience: Admin
-ms.date: 01/10/2024
+ms.date: 07/31/2024
 ms.reviewer: mhayrapetyan
 ms.collection: 
   - M365-collaboration
@@ -23,13 +23,13 @@ ms.custom:
   - ms.teamsadmincenter.appsetuppolicies.overview
 ---
 
-# Use app setup policies to pin and auto install apps for users
+# Use app setup policies to pin and install apps for users
 
 As an admin, you use app setup policies to install and pin apps and control which users can upload custom apps in personal or team context. Pinning helps promote adoption of apps for the users and it provides quick access to the relevant apps. To know more, see [app setup policy](app-policies.md).
 
 * **[Pin apps in Teams client](#pin-apps):** App setup policies let you choose apps to pin, set the order the apps show up for your users in the Teams app bar or the compose message area. Admins can also control whether the users can pin their own apps or not.
 
-* **[Add apps to Teams client](#add-apps-to-your-teams-client):** App setup policies let you add the allowed apps on behalf of users when they start Teams and during meetings.
+* **[Installs apps in Teams client](#install-apps-to-teams-client-of-your-users):** App setup policies let you add the allowed apps on behalf of users when they start Teams and during meetings. For organizations using app centric management, this functionality is available in [app centric management UI](install-teams-apps.md#install-apps-using-app-centric-management).
 
 * **Upload custom apps:** App setup policies let you control which users can upload custom apps to Teams. See [Upload custom apps](teams-custom-app-policies-and-settings.md) article.
 
@@ -41,12 +41,13 @@ The following built-in app setup policies are available in the Microsoft Teams a
 
 ## Pin apps
 
-Using app pinning functionality, you can highlight apps that users need the most; make such apps available for users instantly; and make it available in the use's context. App pinning promotes ease of access and improves app adoption in your organization. Admins can pin apps and they can allow users to pin apps. If an admin pins an app, the app is added and pinned in the Teams client for the permitted users only. Pinning feature respects other governance controls such as permission policies. Pinned apps aren't available to users who aren't permitted to use the app.
+Using app pinning functionality, you can highlight apps that users need the most; make such apps available for users instantly; and make it available in the use's context. App pinning promotes ease of access and improves app adoption in your organization. Admins can pin apps and they can allow users to pin apps. If an admin pins an app, the app is added and pinned in the Teams client of the allowed users only. Pinning respects other governance controls and apps aren't available to users who aren't allowed to use the app.
+
 You can pin apps in the following UIs for the users:
 
-* **App bar**: When an app is pinned in the app bar in the Teams client, users can easily access it and use it.
-* **Message extension**: When an app is pinned as a messaging extension, users can quickly use it when composing their messages.
-* **Meeting extension**: When an app is pinned as a meeting extension, the meeting attendees can view it without leaving the meeting and quickly collaborate using the app. The functionality to pin apps in meetings is available only in Teams classic and not in the [new Teams client](new-teams-desktop-admin.md). The in-meeting bar displays only two apps and the rest of the apps, if added, display under the More option.
+* **App bar**: Users can easily access it and use it.
+* **Message extension**: Users can quickly use it when composing their messages.
+* **Meeting extension**: Meeting attendees can view it without leaving the meeting and quickly collaborate using the app. The functionality to pin apps in meetings is available only in Teams classic and not in the [new Teams client](new-teams-desktop-admin.md). The in-meeting bar displays only two apps and the rest of the apps, if added, display under the **More** option.
 
 > [!NOTE]
 > Pinning apps in meetings is a Preview feature. To use Preview features in your organization, see [Microsoft Teams Public preview](public-preview-doc-updates.md).
@@ -77,7 +78,7 @@ To modify the pinned apps for everyone in your organization, edit the existing `
 
     :::image type="content" source="media/add-pinned-apps-trimmed.png" alt-text="Screenshot shows how to add pinned apps in app setup policy." lightbox="media/add-pinned-apps-large.png":::
 
-1. Arrange the apps in the order that you want the apps to appear in Teams client. You can change the sequence independently under **App bar**, **Messaging extensions**, and **Meeting extensions**. You can remove apps from a particular scope.
+1. Arrange the apps in the order that you want the apps to appear in Teams client. You can change the sequence independently under **App bar**, **Messaging extensions**, and **Meeting extensions**. You can remove apps from a scope.
 
    :::image type="content" source="media/pinned-apps.png" alt-text="Screenshot of the pinned apps and options to change their order.":::
 
@@ -89,30 +90,15 @@ To modify the pinned apps for everyone in your organization, edit the existing `
 > [!TIP]
 > For the frontline workers in your organization, we recommend using the tailored frontline app experience. This feature pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/en-us/microsoft-365/enterprise/frontline). To learn more, see [Tailor Teams apps for your frontline workers](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).
 
-## Add apps to your Teams client
+## Install apps to Teams client of your users
 
-You can achieve the following by using an app setup policy:
+If your organization uses app centric management functionality, then [use Manage apps page to install apps for users](install-teams-apps.md). Otherwise, continue to preinstall apps using app setup policies.
 
-* Add apps for the users in their personal Teams environment.
-* Add apps for the users as [messaging extensions](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
+The below message on app setup policy page indicates that your org is using app centric management functionality.
 
-Users can add apps on their own if the [app permission policy](teams-app-permission-policies.md) lets them use it and an admin [allows the app](manage-apps.md#allow-or-block-apps). If an app is blocked, then the users can [request admin approval](user-requests-approve-apps.md).
+:::image type="content" source="media/acm-setup-policy-change.png" alt-text="Screenshot showing updated setup policy page without the app installation option.":::
 
-To add apps for your users using an app setup policy, follow these steps:
-
-1. Sign in to Teams admin center and access **Teams apps** > **[Setup policies](https://admin.teams.microsoft.com/policies/app-setup)**.
-
-1. Select **Add**.
-
-1. Provide a name and description for the policy.
-
-1. Under **Installed apps**, select **Add apps**.
-
-1. In the **Add installed apps** pane, search the apps that you want to add for users. You can also filter apps by app permission policy.
-
-1. Select **Add**.
-
-:::image type="content" source="media/install-apps-in-meeting.png" alt-text="Screenshot showing an example of a list of apps that are installed using app setup policy.":::
+If your organization isn't using app centric management, then continue to [use app setup policy to install apps](install-teams-apps.md#install-apps-using-app-setup-policy).
 
 ## Use app setup policy to allow independent bots
 
@@ -131,7 +117,7 @@ Teams classic and in [new Teams](new-teams-desktop-admin.md) support the followi
 
 ## Manage app setup policies
 
-You can manage the app setup policies in the Microsoft Teams admin center. Use the Global (Org-wide default) policy or create and assign custom policies. Global policy applies to all users unless you assign a custom policy to some users. Custom policy overrides the global policy. A Global Administrator or a Teams Administrator can manage these policies.
+You can manage the app setup policies in the Microsoft Teams admin center. Use the Global (Org-wide default) policy or create and assign custom policies. Global policy applies to all users unless you assign a custom policy to some users. Custom policy overrides the global policy. A Teams Administrator or an admin with a higher role can manage these policies.
 
 You can edit the settings in the global policy to include the apps that you want. To customize Teams for different groups of users in your organization, create and assign one or more custom policies.
 
@@ -198,7 +184,7 @@ When you unassign policies in bulk, you're removing policy assignments that were
 
 * You can't add custom apps with configurable tabs using app setup policies.
 
-* Users can't remove an app if an admin adds it.
+* Users can't remove an app from their client if an admin adds it. The `Uninstall` option for an app in the app bar isn't available.
 
 * Users can unpin an app that is pinned via app setup policy if user pinning is allowed in the policy.
 
@@ -208,8 +194,6 @@ When you unassign policies in bulk, you're removing policy assignments that were
 
 * The user pinning setting is available in the Teams admin center in Microsoft 365 Government Community Cloud (GCC) environments (GCC, GCC High, and DoD), but it has no effect.
 
-* In Teams for Education, the [Assignments app](expand-teams-across-your-org/assignments-in-teams.md) is pinned by default even though it isn't listed in the Global policy.
-
 * There's no limit on the maximum number of pinned apps that you can add to a policy. However, at least two apps must be pinned to the Teams mobile client (iOS and Android). If a policy has fewer than two apps, the mobile client doesn't reflect the policy settings. Instead, the mobile client continues to use the existing configuration.
 
 * After you edit or assign a policy, it can take a few hours for changes to take effect. Also, the rollback takes a few hours to take effect if you choose to roll back the policy application.
@@ -218,7 +202,9 @@ When you unassign policies in bulk, you're removing policy assignments that were
 
 * Not all apps can be pinned to Teams through an app setup policy. Some apps don't support this functionality. To find apps that can be pinned, search for the app in the **Add pinned apps** pane. Tabs that have a personal scope (static tabs) and bots can be pinned to the Teams desktop client and these apps are available in the **Add pinned apps** pane. While the Teams app store lists all Teams apps, the **Add pinned apps** pane includes only apps that can be pinned to Teams through a policy.
 
-* In Teams for Education, the Calling app isn't available. When you create a new custom policy in the app setup policy, the Calling app is displayed in the list of apps. However, the app isn't pinned to Teams clients and Teams for Education users can't see the Calls app in Teams.
+* In Teams for Education, the [Assignments app](expand-teams-across-your-org/assignments-in-teams.md) is pinned by default even though it isn't listed in the Global policy.
+
+* In Teams for Education, the `Calling` app isn't available. When you create a new custom policy in the app setup policy, the `Calling` app is displayed in the list of apps. However, Teams for Education users can't see the `Calls` app in Teams client as it isn't pinned.
 
 ## Related article
 

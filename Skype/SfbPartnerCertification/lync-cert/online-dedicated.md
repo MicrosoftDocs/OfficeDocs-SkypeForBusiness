@@ -1,6 +1,6 @@
 ---
 ms.date: 06/11/2018
-title: "Lync Online Dedicated-qualified solutoins"
+title: "Lync Online Dedicated-qualified solutions"
 ms.author: serdars
 author: msdmaguire
 manager: serdars

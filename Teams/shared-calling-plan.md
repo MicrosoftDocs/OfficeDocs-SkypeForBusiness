@@ -1,7 +1,7 @@
 ---
 title: "Plan for Shared Calling"
 ms.reviewer: roykuntz, jastark
-ms.date: 2/8/2024
+ms.date: 07/15/2024
 author: mkbond007
 ms.author: mabond
 manager: pamgreen
@@ -31,11 +31,11 @@ If you have users who aren't heavy users of the Public Switched Telephone Networ
 
 Note: Shared Calling is currently available in public clouds only.
 
-Let's start with some definitions that you'll need to know for Shared Calling:
+Let's start with some definitions that you need to know for Shared Calling:
 
 | Term | Definition |
 |----------|-----------|
-|Auto attendant|Directs a caller to an appropriate person or department based on the caller's input to the provided menu options--for example, dial by name or dial by extension. The Auto attendant phone number used is specified by the resource account associated with the Auto attendant.<br><br>For more information about using Auto attendants, see [Plan for Auto attendants](plan-auto-attendant-call-queue.md) and [Set up Auto attendants](create-a-phone-system-auto-attendant.md).|
+|Auto attendant|Directs a caller to an appropriate person or department based on the caller's input to the provided menu options--for example, dial by name. The Auto attendant phone number used is specified by the resource account associated with the Auto attendant.<br><br>For more information about using Auto attendants, see [Plan for Auto attendants](plan-auto-attendant-call-queue.md) and [Set up Auto attendants](create-a-phone-system-auto-attendant.md).|
 |Inbound calls|An incoming call that comes from a PSTN to a user in your organization. When a Shared Calling user receives an inbound PSTN call, the call connects to the Auto attendant.|
 |Outbound calls|An outgoing call by a user in your organization to a PSTN. When a Shared Calling user makes an outbound call to the PSTN, the recipients see the caller ID of the Auto attendant.|
 
@@ -43,7 +43,7 @@ With Shared Calling, instead of assigning a phone number to every user, you use 
 
 To set up Shared Calling, you need to perform the following steps. These steps are described in detail in [Configure Shared Calling](shared-calling-setup.md).
 
-1. Assign Teams Phone licenses and enable users for voice.
+1. Assign Teams Phone licenses and enable users for voice. Don't assign a phone number to any Shared Calling enabled user.
 
 1. Assign number to resource account for inbound and outbound calling.
 
@@ -51,7 +51,7 @@ To set up Shared Calling, you need to perform the following steps. These steps a
 
 1. Assign a location to the resource account for emergency calling.
 
-1. If you're using a resource account with Calling Plan service number, assign Pay-As-You-Go Calling Plan to the resource account. Communication Credits may  be required if your tenant doesn't have the New commerce experience calling subscriptions, or you don't want to post pay for calls.
+1. Configure resource accounts with service numbers. Communication Credits might be required if your tenant doesn't have the New commerce experience calling subscriptions, or you don't want to post pay for calls.
 
 1. Create voice routing policy without PSTN usages.
 
@@ -63,7 +63,7 @@ To set up Shared Calling, you need to perform the following steps. These steps a
 
 Shared Calling can be configured with the Teams admin center and PowerShell. You must have Teams PowerShell Module version 5.5.0 or higher to use the new [TeamsSharedCallingRoutingPolicy](/powershell/module/teams/set-csteamssharedcallingroutingpolicy) cmdlets. You can use these cmdlets to create and manage Shared Calling policies.
 
-## Related topics
+## Related articles
 
 - [Configure Shared Calling](shared-calling-setup.md)
 - [Shared Calling example scenario](shared-calling-scenario.md)

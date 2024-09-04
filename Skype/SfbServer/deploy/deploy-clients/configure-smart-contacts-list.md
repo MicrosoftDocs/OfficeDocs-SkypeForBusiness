@@ -19,7 +19,7 @@ description: "Summary: Learn how to turn on the Smart contacts list feature in t
 
 **Summary:** Learn how to turn on the Smart contacts list feature in the Skype for Business client.
 
-The Smart contacts list feature allows automatic population of contact lists for your end users. Upon first using Skype for Business, your users will automatically see their manager and other people on their team. This feature is turned on by default for Microsoft 365 and Office 365 users, but you must explicitly enable this feature for your on-premises users by configuring the client policy setting.
+The Smart contacts list feature allows automatic population of contact lists for your end users. Upon first using Skype for Business, your users automatically see their manager and other people on their team. This feature is turned on by default for Microsoft 365 and Office 365 users, but you must explicitly enable this feature for your on-premises users by configuring the client policy setting.
 
 Keep the following in mind when configuring this feature:
 
@@ -31,17 +31,17 @@ Keep the following in mind when configuring this feature:
 
   3. Peers in alphabetical order
 
-- The first time a user logs in, a new group, named My Group, is created. The group is automatically populated with people in the user's AD group relationship based on the user alias populated in the Manager field. Note that changes to the AD group membership do not cause updates to My Group after it is initially populated. If a user deletes a contact or the group, neither the contact nor the group are re-created. 
+- The first time a user logs in, a new group, named My Group, is created. The group is automatically populated with people in the user's AD group relationship based on the user alias populated in the Manager field. Changes to the AD group membership don't cause updates to My Group after it's initially populated. If a user deletes a contact or the group, neither the contact nor the group are re-created. 
 
-- If auto tagging is turned on, contacts in the list will be tagged for presence changes. Auto tagging is turned on by default, but you can choose to turn it off. 
+- If auto tagging is turned on, contacts in the list are tagged for presence changes. Auto tagging is turned on by default, but you can choose to turn it off. 
 
-- All new users in the group will be informed that they have been added to the contacts list. Users can manually add new members to their My Group or to other groups of their choosing.
+- All new users in the group are informed that they're added to the contacts list. Users can manually add new members to their My Group or to other groups of their choosing.
 
-- This feature works only for users who are signing in for the first time. If a user has previously signed in from any device--including, for example, any mobile device or a Mac--the feature is not enabled for that user.
+- This feature works only for users who are signing in for the first time. If a user previously signs in from any device--including, for example, any mobile device or a Mac--the feature isn't enabled for that user.
 
 ## Configure Smart contacts list
 
-To enable the Smart contacts list feature for your users, you will need to perform the following steps: 
+To enable the Smart contacts list feature for your users, you need to perform the following steps: 
 
 - Create a new CsClientPolicy entry and add it to the global client policy. 
 
@@ -49,13 +49,13 @@ To enable the Smart contacts list feature for your users, you will need to perfo
 
 ### Create a policy entry to enable Smart contacts list
 
-To create a policy entry to enable the Smart contacts list feature, use the [New-CsClientPolicyEntry](/powershell/module/skype/new-csclientpolicyentry?view=skype-ps) cmdlet with the EnableClientAutoPopulateWithTeam option as follows:
+To create a policy entry to enable the Smart contacts list feature, use the [New-CsClientPolicyEntry](/powershell/module/skype/new-csclientpolicyentry?view=skype-ps&preserve-view=true) cmdlet with the EnableClientAutoPopulateWithTeam option as follows:
 
 ```powershell
 $x=New-CsClientPolicyEntry -Name EnableClientAutoPopulateWithTeam -Value $True
 ```
 
-Next, use the [Set-CsClientPolicy](/powershell/module/skype/set-csclientpolicy?view=skype-ps) cmdlet to write the changes to the global policy as follows:
+Next, use the [Set-CsClientPolicy](/powershell/module/skype/set-csclientpolicy?view=skype-ps&preserve-view=true) cmdlet to write the changes to the global policy as follows:
 
 ```powershell
 Set-CsClientPolicy -Identity Global -PolicyEntry @{Add=$x}
@@ -68,18 +68,18 @@ $x=New-CsClientPolicyEntry -Name TagContactsInClientAutoPopulatedGroup -Value $F
 Set-CsClientPolicy -Identity Global -PolicyEntry @{Add=$x}
 ```
 
-You must also set the AddressBookAvailability parameter for the corresponding policy to WebSearchOnly. For more information, see [Set-CsClientPolicy](/powershell/module/skype/set-csclientpolicy?view=skype-ps). 
+You must also set the AddressBookAvailability parameter for the corresponding policy to WebSearchOnly. For more information, see [Set-CsClientPolicy](/powershell/module/skype/set-csclientpolicy?view=skype-ps&preserve-view=true). 
 
 ### Troubleshoot
 
-If Smart contacts list is not functioning as expected, check the following:
+If Smart contacts list isn't functioning as expected, check the following:
 
-- Validate the configuration. 
+- Validate the configuration.
 
 - Confirm that the AD organization information is populated.
 
 - Collect Skype for Business client logs on a new user for further analysis.
 
-- Confirm that the Skype for Business client UI is not displaying a message that it cannot connect to the Address Book. To confirm Address Book connectivity, perform a search for a user in the Skype for Business client search bar.
+- Confirm that the Skype for Business client UI isn't displaying a message that it can't connect to the Address Book. To confirm Address Book connectivity, perform a search for a user in the Skype for Business client search bar.
 
 - AD DS replication issues could cause contacts to be unresolved when a user first signs in to Skype for Business.

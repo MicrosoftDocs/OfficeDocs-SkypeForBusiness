@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: rowille
 ms.date: 07/27/2018
 audience: admin
-description: In this article, you will learn about how to plan for implementing lifecycle management capabilities in Teams.
+description: In this article, you learn about how to plan for implementing lifecycle management capabilities in Teams.
 ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
@@ -24,7 +24,7 @@ ms.custom: seo-marvel-apr2020
 
 Teams provides a rich set of tools to implement collaboration lifecycle management processes for your organization. This article guides IT pros through the right questions to determine their requirements for lifecycle management, and the tools to use to meet them. 
 
-Planning for lifecycle management is important, because it means you're building a plan to get your work done effectively. Most projects consist of a beginning, middle, and end. Teams do too, but they can be constructed and used in such a variety of ways that it's not always obvious which stage of their lifecycle they're in. Having a plan for lifecycle management will help you track your organization's projects as they go through these stages.
+Planning for lifecycle management is important, because it means you're building a plan to get your work done effectively. Most projects consist of a beginning, middle, and end. Teams does too, but they can be constructed and used in such a variety of ways that it's not always obvious which stage of their lifecycle they're in. Having a plan for lifecycle management helps you track your organization's projects as they go through these stages.
 
 > [!Tip]
 > Watch the following session to learn about more about lifecycle in Microsoft Teams: [Governance, management and lifecycle in Microsoft Teams](https://aka.ms/teams-governance)

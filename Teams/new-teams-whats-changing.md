@@ -54,3 +54,4 @@ As we improved the client, the experience also improved to align with similar fe
 |Third-party and custom sign-in solutions using RunAs or undocumented hooks.|No longer available.|
 |App name is Microsoft Teams classic, except for Windows 11, where it's Microsoft Teams classic (work or school).|Microsoft Teams (work or school) app name is changing to Microsoft Teams.|
 |Presenter mode (standout) during PowerPoint Live sharing.|Presenter mode is no longer available. To use presenter modes, start a screen sharing session and choose one of the three available modes.|
+|The classic Teams client is able to autostart itself without a user manually launching it after it's been installed by an admin machine-wide.|New Teams won't autostart until the app has been manually opened once by the user after machine-wide installation by an admin.|

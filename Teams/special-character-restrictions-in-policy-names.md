@@ -29,11 +29,11 @@ description: "See what issues there are with special characters in the names of 
 
 **You can't create or edit policies (for messaging, meetings, etc.) that have a special character in the name in the Microsoft Teams admin center**. 
 
-If a policy name contains special characters, you will be limited in managing these policies in the Microsoft Teams admin center. **As such, we strongly recommend that policy names don't include special characters**. 
+If a policy name contains special characters, you are limited in managing these policies in the Microsoft Teams admin center. **As such, we strongly recommend that policy names don't include special characters**. 
 
-Policy names that have been created using PowerShell for meetings and messaging in Teams can have special characters such as @,#,$. However, if you are wanting to make changes to the policy in the Microsoft Teams admin center, you won't be able to. 
+Policy names that are created using PowerShell for meetings and messaging in Teams can have special characters such as @,#,$. However, if you're wanting to make changes to the policy in the Microsoft Teams admin center, you won't be able to. 
 
-If you have a policy with special characters, you will need to either edit the policy using Windows PowerShell (forever) or create a new policy in the Microsoft Teams admin center with the same settings as the old policy and assign it to the same group of users.
+If you have a policy with special characters, you need to either edit the policy using Windows PowerShell (forever) or create a new policy in the Microsoft Teams admin center with the same settings as the old policy and assign it to the same group of users.
 
 ## To remove special characters
 
@@ -79,7 +79,7 @@ See, [Grant-CsTeamsMessagingPolicy](/powershell/module/teams/grant-csteamsmessag
 
 **Step 5 - Delete the old policy.**
 
-This will delete the old policy with the special characters.
+This deletes the old policy with the special characters.
   ```PowerShell
   Remove-CsTeamsMessagingPolicy -identity <old_policy_name>
   ```
@@ -92,13 +92,13 @@ Grant-CsMessagingPolicy -Policy <old_policy_name> $null
 ```
 ### Want to know how to manage with Windows PowerShell?
 
-Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 by using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
+Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 by using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these articles:
     
   - [Why you need to use Office 365 PowerShell?](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
   - [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center, such as when you are making settings changes for many users at one time. Learn about these advantages in the following topics:
+- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center, such as when you're making settings changes for many users at one time. Learn about these advantages in the following articles:
     
   - [An introduction to Windows PowerShell and Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     

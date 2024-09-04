@@ -11,7 +11,7 @@ ms.collection:
   - m365initiative-meetings
   - Tier3
 ms.reviewer: richardzhang
-ms.date: 01/17/2024
+ms.date: 06/18/2024
 search.appverid: MET150
 ms.localizationpriority: medium
 f1.keywords:
@@ -25,13 +25,13 @@ appliesto:
 
 **APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
 
-In Microsoft Teams, the current storage location of meeting transcript files is known as Exchange Online transcript or substrate transcript. Exchange Online transcript will be deprecated in 2024. The new storage location will be OneDrive.
+In Microsoft Teams, the current storage location of meeting transcript files is known as Exchange Online transcript or substrate transcript. Exchange Online transcript is scheduled for deprecation in 2024. The new storage location is OneDrive.
 
 This article describes how to delete the meeting transcript files in Exchange Online and OneDrive.
 
 ## Delete Exchange Online transcript files using XML
 
-You need to use EWS API to delete a transcript file that’s saved on Exchange Online. For more information on the instructions of API, see [EWS operations in Exchange](/exchange/client-developer/web-service-reference/ews-operations-in-exchange).
+You need to use EWS API to delete a transcript file saved on Exchange Online. For more information on the instructions of API, see [EWS operations in Exchange](/exchange/client-developer/web-service-reference/ews-operations-in-exchange).
 
 The structure of the transcription file will be: `Root\ApplicationDataRoot\93c8660e-1330-4e40-8fda-fd27f9eafe10\MeetingTranscriptCollection\`
 
@@ -214,6 +214,9 @@ The structure of the transcription file will be: `Root\ApplicationDataRoot\93c86
 
 ## Delete transcripts using EWSEditor
 
+> [!WARNING]
+> EWS Editor has no protection against data deletion or corruption. Only users with extensive Exchange AND EWS Editor knowledge should proceed (with caution). EWS Editor can cause extensive damage to an installation (including, but not limited to, folder deletion, account deletion, Teams data corruption, calendar corruption, mail corruption).
+
 You can also use the [EWSEditor open source tool](https://github.com/dseph/EwsEditor) to delete the meeting transcripts by following these steps:
 
 1. Sign in with client app ID: "d3590ed6-52b3-4102-aeff-aad2292ab01c".
@@ -234,7 +237,7 @@ To identify a particular meeting, users can check the DateTimeCreated. Additiona
 
    Provide the following details under Property Identifier in the Extended Property Definition pane and select **OK**:
    - Name or ID: RawJSON
-   - Property Set: 2842957e-8ed9-439b-99b5-f681924bd972 
+   - Property Set: 2842957e-8ed9-439b-99b5-f681924bd972
    - Property Type: String
 
 3. Go back to EWSEditor and the new property will be displayed with its raw JSON string in the lower part of the pane.

@@ -23,7 +23,7 @@ description: "Summary: Review the network component considerations below before 
 
 **Summary:** Review the network component considerations below before implementing Skype for Business Server.
 
-The information in these topics is also discussed in the whitepaper [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://www.microsoft.com/download/details.aspx?id=39084) with additional details and depth. While the content refers explicitly to Lync 2010 and Lync 2013, the considerations for Skype for Business Server are unchanged.
+The information in these articles is also discussed in the whitepaper [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://www.microsoft.com/download/details.aspx?id=39084) with more details and depth. While the content refers explicitly to Lync 2010 and Lync 2013, the considerations for Skype for Business Server are unchanged.
 
 Likewise, if your network involves wi-fi as well as wired access, the whitepaper [Delivering Lync 2013 Real-Time Communications over Wi-Fi](https://www.microsoft.com/download/details.aspx?id=36494) is a good reference and is equally applicable to Skype for Business Server.
 
@@ -46,7 +46,7 @@ For public switched telephone network (PSTN) integration, you can integrate by u
 
 Network requirements for audio/video (A/V) in a Skype for Business Server deployment include the following:
 
-- If you are deploying a single Edge Server or an Edge pool using DNS load balancing, you can configure the  _external_ firewall to perform network address translation (NAT). You can't configure the _internal_ firewall to perform NAT. For details, see [Port and firewall planning](../edge-server-deployments/edge-environmental-requirements.md#port-and-firewall-planning).
+- If you're deploying a single Edge Server or an Edge pool using DNS load balancing, you can configure the  _external_ firewall to perform network address translation (NAT). You can't configure the _internal_ firewall to perform NAT. For details, see [Port and firewall planning](../edge-server-deployments/edge-environmental-requirements.md#port-and-firewall-planning).
 
     > [!IMPORTANT]
     > If you have an Edge pool and are using a hardware load balancer, you must use public IP addresses on the Edge Servers and you can't use NAT for the servers or the pool at your NAT-capable device (for example, a firewall appliance or LAN switch. For details, see [Edge Server scenarios in Skype for Business Server](../edge-server-deployments/scenarios.md).
@@ -57,15 +57,15 @@ Network requirements for audio/video (A/V) in a Skype for Business Server deploy
 
 To provide optimal media quality, do the following:
 
-- Provision the network links to support throughput of 65 kilobits per second (Kbps) per audio stream and 500 Kbps per video stream, if they are enabled, during peak usage periods. A two-way audio or video session uses two streams, so a simple audio/phone connection will require 130Kbps to cover each stream. Video will likewise use 1000 Kbps total to carry an upstream and downstream connection.
+- Provision the network links to support throughput of 65 kilobits per second (Kbps) per audio stream and 500 Kbps per video stream, if they're enabled, during peak usage periods. A two-way audio or video session uses two streams, so a simple audio/phone connection requires 130 Kbps to cover each stream. Video will likewise use 1,000 Kbps total to carry an upstream and downstream connection.
 
-- To cope with unexpected spikes in traffic and increased usage over time, Skype for Business Server media endpoints can adapt to varying network conditions and support three times the throughput for audio and video while still maintaining acceptable quality. Do not assume that this adaptability will mask the problem when a network is under-provisioned. In an under-provisioned network, the ability of the Skype for Business Server media endpoints to dynamically deal with varying network conditions (for example, temporary high packet loss) is reduced.
+- To cope with unexpected spikes in traffic and increased usage over time, Skype for Business Server media endpoints can adapt to varying network conditions and support three times the throughput for audio and video while still maintaining acceptable quality. Don't assume that this adaptability will mask the problem when a network is under-provisioned. In an under-provisioned network, the ability of the Skype for Business Server media endpoints to dynamically deal with varying network conditions (for example, temporary high packet loss) is reduced.
 
-- For network links where provisioning is very costly and difficult, you may have to consider provisioning for a lower volume of traffic. In this scenario, let the elasticity of the Skype for Business Server media endpoints absorb the difference between the traffic volume and the peak traffic level, at the cost of some reduction in the voice quality. Also, there will be a decrease in the headroom otherwise available to absorb sudden peaks in traffic.
+- For network links where provisioning is costly and difficult, you may have to consider provisioning for a lower volume of traffic. In this scenario, let the elasticity of the Skype for Business Server media endpoints absorb the difference between the traffic volume and the peak traffic level, at the cost of some reduction in the voice quality. Also, there will be a decrease in the headroom otherwise available to absorb sudden peaks in traffic.
 
-- For links that cannot be provisioned correctly in the short term (for example, a site that uses very poor WAN links), consider disabling video for certain users.
+- For links that can't be provisioned correctly in the short term (for example, a site that uses poor WAN links), consider disabling video for certain users.
 
-- Provision the network to guarantee a maximum end-to-end delay (latency) of 150 milliseconds (ms) under peak load. Latency is the one network impairment that Skype for Business Server media components can't reduce, and it is important to find and eliminate the weak points.
+- Provision the network to guarantee a maximum end-to-end delay (latency) of 150 milliseconds (ms) under peak load. Latency is the one network impairment that Skype for Business Server media components can't reduce, and it's important to find and eliminate the weak points.
 
 - For servers that are running antivirus software, include all servers that are running Skype for Business Server in the exception list to provide optimal performance and audio quality.
 
@@ -79,21 +79,21 @@ The following table explains the recommended IPsec exception settings.
 
 |Rule name |Source IP |Destination IP |Protocol |Source port |Destination port |Authentication Requirement |
 |:--- |:--- |:--- |:--- |:---|:---|:--- |
-|A/V Edge Server Internal Inbound|Any  |A/V Edge Server Internal|UDP and TCP|Any |Any |Do not authenticate|
-|A/V Edge Server External Inbound|Any  |A/V Edge Server External|UDP and TCP|Any |Any |Do not authenticate|
-|A/V Edge Server Internal Outbound|A/V Edge Server Internal  |A/V Edge Server External |UDP and TCP|Any |Any |Do not authenticate|
-|A/V Edge Server External Outbound|A/V Edge Server External |Any |UDP and TCP|Any |Any |Do not authenticate|
-|Mediation Server Inbound|Any  |Mediation Server(s) |UDP and TCP|Any |Any |Do not authenticate|
-|Mediation Server Outbound|Mediation Server(s)  |Any|UDP and TCP|Any |Any |Do not authenticate|
-|Conferencing Attendant Inbound|Any  |Front End Server running Conferencing Attendant |UDP and TCP|Any |Any |Do not authenticate|
-|Conferencing Attendant Outbound|Front End Server running Conferencing Attendant  |Any|UDP and TCP|Any |Any |Do not authenticate|
-|A/V Conferencing Inbound|Any|Front End Servers|UDP and TCP|Any |Any |Do not authenticate|
-|A/V Conferencing Outbound|Front End Servers|Any|UDP and TCP|Any |Any |Do not authenticate|
-|Exchange Inbound|Any|Exchange Unified Messaging|UDP and TCP|Any |Any |Do not authenticate|
-|Application Sharing Servers Inbound|Any|Application Sharing Servers|UDP and TCP|Any |Any |Do not authenticate|
-|Application Sharing Server Outbound|Application Sharing Servers| Any |UDP and TCP|Any |Any |Do not authenticate|
-|Exchange Outbound|Exchange Unified Messaging|Any|UDP and TCP|Any |Any |Do not authenticate|
-|Clients| Any  |Any|UDP and TCP|Any |Any |Do not authenticate|
+|A/V Edge Server Internal Inbound|Any  |A/V Edge Server Internal|UDP and TCP|Any |Any |Don't authenticate|
+|A/V Edge Server External Inbound|Any  |A/V Edge Server External|UDP and TCP|Any |Any |Don't authenticate|
+|A/V Edge Server Internal Outbound|A/V Edge Server Internal  |A/V Edge Server External |UDP and TCP|Any |Any |Don't authenticate|
+|A/V Edge Server External Outbound|A/V Edge Server External |Any |UDP and TCP|Any |Any |Don't authenticate|
+|Mediation Server Inbound|Any  |Mediation Server(s) |UDP and TCP|Any |Any |Don't authenticate|
+|Mediation Server Outbound|Mediation Server(s)  |Any|UDP and TCP|Any |Any |Don't authenticate|
+|Conferencing Attendant Inbound|Any  |Front End Server running Conferencing Attendant |UDP and TCP|Any |Any |Don't authenticate|
+|Conferencing Attendant Outbound|Front End Server running Conferencing Attendant  |Any|UDP and TCP|Any |Any |Don't authenticate|
+|A/V Conferencing Inbound|Any|Front End Servers|UDP and TCP|Any |Any |Don't authenticate|
+|A/V Conferencing Outbound|Front End Servers|Any|UDP and TCP|Any |Any |Don't authenticate|
+|Exchange Inbound|Any|Exchange Unified Messaging|UDP and TCP|Any |Any |Don't authenticate|
+|Application Sharing Servers Inbound|Any|Application Sharing Servers|UDP and TCP|Any |Any |Don't authenticate|
+|Application Sharing Server Outbound|Application Sharing Servers| Any |UDP and TCP|Any |Any |Don't authenticate|
+|Exchange Outbound|Exchange Unified Messaging|Any|UDP and TCP|Any |Any |Don't authenticate|
+|Clients| Any  |Any|UDP and TCP|Any |Any |Don't authenticate|
 |         |         |         |         |         |         |         |
 
 
@@ -110,7 +110,7 @@ An important part of network planning is ensuring that your network can handle t
 ### Media traffic network usage
 <a name="Net_req"> </a>
 
-The media traffic bandwidth usage can be challenging to calculate because of the number of different variables, such as codec usage, resolution, and activity levels. The bandwidth usage is a function of the codec that is used and the activity of the stream, which can vary between scenarios. The following table lists the audio codecs typically used in Skype for Business Server scenarios.
+The media traffic bandwidth usage can be challenging to calculate because of the number of different variables, such as codec usage, resolution, and activity levels. The bandwidth usage is a function of the codec that is used to and the activity of the stream, which can vary between scenarios. The following table lists the audio codecs typically used in Skype for Business Server scenarios.
 
 **Audio codec bandwidth**
 
@@ -130,7 +130,7 @@ The media traffic bandwidth usage can be challenging to calculate because of the
 > [!NOTE]
 > PSTN calls from the Skype for Business client usually use the G.711 codec, which requires a high bandwidth. If enough bandwidth is not available for that codec, then calls can fail with an error that resembles the following in the Media logs: **Atleast one codec must be enabled, hr: c0042004**. Media logs (.blog files) are encrypted and can be decoded only by Microsoft support personnel.
 
-The bandwidth numbers in the previous table are based on 20ms packetization (50 packets per second) and for the Siren and G.722 codecs include the additional secure real-time transport protocol (SRTP) overhead from conferencing scenarios and assume the stream is 100% active. Forward Error Correction (FEC) is used dynamically when there is packet loss on the link to help maintain the quality of the audio stream.
+The bandwidth numbers in the previous table are based on 20 ms packetization (50 packets per second) and for the Siren and G.722 codecs include the other secure real-time transport protocol (SRTP) overhead from conferencing scenarios and assume the stream is 100% active. Forward Error Correction (FEC) is used dynamically when there's packet loss on the link to help maintain the quality of the audio stream.
 
 The stereo version of the G.722 codec is used by systems that are based on the Lync Room System, which uses a single stereo microphone or a pair of mono microphones to allow listeners to better distinguish multiple speakers in the meeting room.
 
@@ -150,19 +150,19 @@ The stereo version of the G.722 codec is used by systems that are based on the L
 |H.264  <br/> |1280x192 (20:3)  <br/> |1000  <br/> |250  <br/> |
 |H.264  <br/> |1920x288 (20:3)  <br/> |2000  <br/> |500  <br/> |
 
-The default codec for video is the H.264/MPEG-4 Part 10 Advanced Video Coding standard, together with its scalable video coding extensions for temporal scalability. To maintain interoperability with legacy clients, the RTVideo codec is still used for peer-to-peer calls between Skype for Business Server and legacy clients. In conference sessions with both Skype for Business Server and legacy clients the Skype for Business Server endpoint may encode the video using both video codecs and send the H.264 bitstream to the Skype for Business Server clients and the RTVideo bitstream to legacy clients.
+The default codec for video is the H.264 /MPEG-4 Part 10 Advanced Video Coding standard, together with its scalable video coding extensions for temporal scalability. To maintain interoperability with legacy clients, the RTVideo codec is still used for peer-to-peer calls between Skype for Business Server and legacy clients. In conference sessions with both Skype for Business Server and legacy clients the Skype for Business Server endpoint may encode the video using both video codecs and send the H.264 bitstream to the Skype for Business Server clients and the RTVideo bitstream to legacy clients.
 
 The bandwidth required depends on the resolution, quality, frame rate, and the amount of motion or change in the picture. For each resolution, there are two pertinent bit rates:
 
 - **Maximum payload bit rate** This is the bit rate that an endpoint will use for resolution at the maximum frame rate. This is the value that allows the highest video and sound quality.
 
-- **Minimum payload bit rate** This is the bit rate below which a Skype for Business Server endpoint will switch to the next lower resolution. To guarantee a certain resolution, the available video payload bit rate must not fall below this minimum bit rate for that resolution. This value is helps you understand the lowest value possible if the maximum bit rate is not available or practical. For some users, such a low bit rate video might provide an unacceptable video experience so use caution with these minimum video payload bitrates. Note that for static, unchanging video scenes the actual bit rate may temporarily fall below the minimum bit rate.
+- **Minimum payload bit rate** This is the bit rate below which a Skype for Business Server endpoint will switch to the next lower resolution. To guarantee a certain resolution, the available video payload bit rate must not fall below this minimum bit rate for that resolution. This value helps you understand the lowest value possible if the maximum bit rate isn't available or practical. For some users, such a low bit rate video might provide an unacceptable video experience so use caution with these minimum video payload bitrates. For static, unchanging video scenes the actual bit rate may temporarily fall below the minimum bit rate.
 
-Skype for Business Server supports many resolutions. This allows Skype for Business Server to adjust to different network bandwidth and receiving client capabilities. The default aspect ratio for Skype for Business Server is 16:9. The legacy 4:3 aspect ratio is still supported for webcams which don't allow capture in the 16:9 aspect ratio.
+Skype for Business Server supports many resolutions. This allows Skype for Business Server to adjust to different network bandwidth and receiving client capabilities. The default aspect ratio for Skype for Business Server is 16:9. The legacy 4:3 aspect ratio is still supported for webcams, which don't allow capture in the 16:9 aspect ratio.
 
-Video FEC is always included in the video payload bit rate when it is used so there are no separate values for with video FEC and without video FEC.
+Video FEC is always included in the video payload bit rate when it's used so there are no separate values for with video FEC and without video FEC.
 
-Endpoints do not stream audio or video packets continuously. Depending on the scenario there are different levels of stream activity which indicate how often packets are sent for a stream. The activity of a stream depends on the media and the scenario, and does not depend on the codec being used. In a peer-to-peer scenario:
+Endpoints don't stream audio or video packets continuously. Depending on the scenario there are different levels of stream activity, which indicate how often packets are sent for a stream. The activity of a stream depends on the media and the scenario, and doesn't depend on the codec being used. In a peer-to-peer scenario:
 
 - Endpoints only send audio streams when the users speak.
 
@@ -170,7 +170,7 @@ Endpoints do not stream audio or video packets continuously. Depending on the sc
 
 - If video is used, both endpoints send and receive video streams during the call.
 
-- For static video scenes the actual bit rate may temporarily be very low as the video codec will skip encoding regions of the video without a change since the prior sample.
+- For static video scenes, the actual bit rate may temporarily be very low as the video codec will skip encoding regions of the video without a change since the prior sample.
 
 In a conferencing scenario:
 
@@ -180,7 +180,7 @@ In a conferencing scenario:
 
 - If video is used, all participants can receive up to five receive video streams and one panoramic (for example, aspect ratio 20:3) video stream. By default the five receive video streams are based on active speaker history but users can also manually select the participants from which they want to receive a video stream. If multi-video is enabled, the resolution and bandwidth requirement for each of the video streams will be lower.
 
-- Each participant that turns on the user's send video stream will send one or more video streams. Skype for Business Server has the capability of sending up to five video streams to optimize the video quality for all the receiving clients. The actual number of video streams being sent is determined by the sender based on CPU capability, available uplink bandwidth, and the number of receiving clients requesting a certain video stream. The most common case is that one H.264 and one RTVideo video stream are being sent in case a legacy client joins the conference. Another common scenario is that several H.264 video streams (for example, with different video resolutions) are sent to accommodate different receiver requests.
+- Each participant that turns on the user's send video stream will send one or more video streams. Skype for Business Server has the capability of sending up to five video streams to optimize the video quality for all the receiving clients. The actual number of video streams being sent is determined by the sender based on CPU capability, available uplink bandwidth, and the number of receiving clients requesting a certain video stream. The most common case is that one H.264 and one RTVideo video stream is being sent in case a legacy client joins the conference. Another common scenario is that several H.264 video streams (for example, with different video resolutions) are sent to accommodate different receiver requests.
 
 In addition to the bandwidth required for the real-time transport protocol (RTP) traffic for audio and video media, bandwidth is required for real-time transport control protocol (RTCP). RTCP is used for reporting statistics and out-of-band control of the RTP stream. For planning, use the bandwidth numbers in the following table for RTCP traffic. These values represent the maximum bandwidth used for RTCP and are different for audio and video streams because of differences in the control data
 
@@ -194,11 +194,11 @@ In addition to the bandwidth required for the real-time transport protocol (RTP)
 
 For capacity planning, the following two statistics are of interest:
 
-- **Maximum bandwidth without FEC** The maximum bandwidth that a stream will consume. This includes the typical activity of the stream and the typical codec that is used in the scenario without FEC. This is the bandwidth when the stream is at 100% activity and there is no packet loss triggering the use of FEC. This is useful for computing how much bandwidth must be allocated to allow the codec to be used in a given scenario. FEC is not expected to be a requirement on a managed network.
+- **Maximum bandwidth without FEC** The maximum bandwidth that a stream will consume. This includes the typical activity of the stream and the typical codec that is used in the scenario without FEC. This is the bandwidth when the stream is at 100% activity and there's no packet loss triggering the use of FEC. This is useful for computing how much bandwidth must be allocated to allow the codec to be used in a given scenario. FEC isn't expected to be a requirement on a managed network.
 
-- **Maximum bandwidth with FEC** The maximum bandwidth that a stream consumes. This includes the typical activity of the stream and the typical codec that is used in the scenario with FEC. This is the bandwidth when the stream is at 100% activity and there is packet loss triggering the use of FEC to improve quality. This is useful for computing how much bandwidth must be allocated to allow the codec to be used in a given scenario and allow the use of FEC to preserve quality under packet-loss conditions.
+- **Maximum bandwidth with FEC** The maximum bandwidth that a stream consumes. This includes the typical activity of the stream and the typical codec that is used in the scenario with FEC. This is the bandwidth when the stream is at 100% activity and there's packet loss triggering the use of FEC to improve quality. This is useful for computing how much bandwidth must be allocated to allow the codec to be used in a given scenario and allow the use of FEC to preserve quality under packet-loss conditions.
 
-The following tables also list an additional bandwidth value, **Typical bandwidth**. This is the average bandwidth that a stream consumes. This includes the typical activity of the stream and the typical codec that is used in the scenario. This bandwidth can be used for approximating how much bandwidth is being consumed by media traffic at a specific time, but should not be used for capacity planning, because individual calls will exceed this value when the activity level is greater than average. The typical video stream bandwidth in the tables below is based on a mix of different video resolutions as observed in measured customer data, and smaller installations are likely to have actual numbers that differ from the table data. For example, in peer-to-peer sessions most users would use the default video render window whereas some percentage of users would increase or maximize the Skype for Business Server application to allow better video resolutions.
+The following tables also list an other bandwidth value, **Typical bandwidth**. This is the average bandwidth that a stream consumes. This includes the typical activity of the stream and the typical codec that is used in the scenario. This bandwidth can be used for approximating how much bandwidth is being consumed by media traffic at a specific time, but shouldn't be used for capacity planning, because individual calls will exceed this value when the activity level is greater than average. The typical video stream bandwidth in the tables below is based on a mix of different video resolutions as observed in measured customer data, and smaller installations are likely to have actual numbers that differ from the table data. For example, in peer-to-peer sessions most users would use the default video render window whereas some percentage of users would increase or maximize the Skype for Business Server application to allow better video resolutions.
 
 The following tables provide values for the various scenarios.
 
@@ -229,7 +229,7 @@ The following tables provide values for the various scenarios.
 
 2. If there are multiple streams, they dynamically share the allocated bandwidth.
 
-For the main video the typical stream bandwidth is the aggregated bandwidth over all received video streams and the maximum stream is the bandwidth over all send video streams. Even with multiple video streams the typical video bandwidth is smaller than in the peer-to-peer scenario because many video conferences are using content sharing that leads to much smaller video windows and therefore smaller video resolutions. The maximum supported aggregated video payload bandwidth is 8000 Kbps for both, send and receive streams which would be used (e.g. if there are two incoming 1920x1080p video streams). Maximum values are only rarely seen in actual implementations.
+For the main video the typical stream bandwidth is the aggregated bandwidth over all received video streams and the maximum stream is the bandwidth over all send video streams. Even with multiple video streams the typical video bandwidth is smaller than in the peer-to-peer scenario because many video conferences are using content sharing that leads to much smaller video windows and therefore smaller video resolutions. The maximum supported aggregated video payload bandwidth is 8000 Kbps for both, send and receive streams, which would be used (for example, if there are two incoming 1920x1080p video streams). Maximum values are only rarely seen in actual implementations.
 
 When building out a multiparty conference that uses the gallery view feature, bandwidth utilization increases initially as participants join, then decreases as resolutions are dropped to fit within the maximum.
 
@@ -258,23 +258,23 @@ Quality of Service (QoS) is a networking technology that is used in some organiz
 > [!NOTE]
 > As a rule, QoS applies only to communication sessions on your internal network. When you implement QoS, you configure your servers and routers to support packet marking in a particular manner that may not be supported on the Internet or on other networks. Even if Quality of Service is supported on other networks, there is no guarantee that QoS will be configured in exactly the same way you configured the service. If you are using MPLS, you'll need to work with your MPLS provider.
 
-Skype for Business Server does not require QoS, but it is strongly recommended. If you experience packet loss issues on the network your available solutions are to add more bandwidth or to implement QoS. If adding more bandwidth is not possible, then implementing QoS might be your only toll to resolve the problem.
+Skype for Business Server doesn't require QoS, but it's recommended. If you experience packet loss issues on the network your available solutions are to add more bandwidth or to implement QoS. If adding more bandwidth isn't possible, then implementing QoS might be your only toll to resolve the problem.
 
 Skype for Business Server offers full support for QoS: that means that organizations that are already using QoS can easily integrate Skype for Business Server into their existing network infrastructure. To do this you must follow these steps:
 
-- [Enabling QoS in Skype for Business Server for devices that are not based on Windows](../../manage/network-management/qos/enabling-qos-for-devices-that-are-not-based-on-windows.md). By default, QoS is disabled for computers and other devices (such as iPhones) that run other operating systems. Although you can use Skype for Business Server to enable and disable Quality of Service for devices, you typically cannot use the product to modify the DSCP codes used by these devices.
+- [Enabling QoS in Skype for Business Server for devices that aren't based on Windows](../../manage/network-management/qos/enabling-qos-for-devices-that-are-not-based-on-windows.md). By default, QoS is disabled for computers and other devices (such as iPhones) that run other operating systems. Although you can use Skype for Business Server to enable and disable Quality of Service for devices, you typically can't use the product to modify the DSCP codes used by these devices.
 
-- [Configuring port ranges and a Quality of Service policy for your Conferencing, Application, and Mediation servers](../../manage/network-management/qos/configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md). You must reserve a unique set of ports for different packet types, such as audio and video. By using Skype for Business Server you do not enable or disable QoS by setting a property value to True or to False. Instead, you enable QoS by configuring port ranges and then creating and applying Group Policy. If you later decide not to use QoS you can "disable" QoS by removing the appropriate Group Policy objects.
+- [Configuring port ranges and a Quality of Service policy for your Conferencing, Application, and Mediation servers](../../manage/network-management/qos/configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md). You must reserve a unique set of ports for different packet types, such as audio and video. By using Skype for Business Server, you don't enable or disable QoS by setting a property value to True or to False. Instead, you enable QoS by configuring port ranges and then creating and applying Group Policy. If you later decide not to use QoS, you can "disable" QoS by removing the appropriate Group Policy objects.
 
 - [Configuring port ranges and a Quality of Service policy for your Edge Servers](../../manage/network-management/qos/configuring-port-ranges-for-your-edge-servers.md). Although not required, you can configure your Edge servers to use the same port ranges as your other servers. Configuring a QoS policy only be done for the internal side of your Edge servers. That's because QoS is designed for use on your internal network and not on the Internet.
 
-- [Configuring port ranges and a Quality of Service policy for your clients in Skype for Business Server](../../manage/network-management/qos/configuring-port-ranges-for-your-skype-clients.md). These port ranges apply only to client computers and are typically different from the port ranges configured on your servers. Note that Skype for Business Server does not support QoS for Windows operating systems other than Windows 10.
+- [Configuring port ranges and a Quality of Service policy for your clients in Skype for Business Server](../../manage/network-management/qos/configuring-port-ranges-for-your-skype-clients.md). These port ranges apply only to client computers and are typically different from the port ranges configured on your servers. Skype for Business Server doesn't support QoS for Windows operating systems other than Windows 10.
 
 
 > [!NOTE]
 > If you are using Windows Server 2012 or Windows Server 2012 R2 you might be interested in the new set of Windows PowerShell cmdlets available for managing QoS on that platform. For more information, see [Windows PowerShell Cmdlets for Networking](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj717268(v=ws.11)).
 
-QoS is also discussed in the whitepaper [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://www.microsoft.com/download/details.aspx?id=39084) with additional details and depth. While the content refers explicitly to Lync 2010 and Lync 2013, the considerations for Skype for Business Server are unchanged.
+QoS is also discussed in the whitepaper [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://www.microsoft.com/download/details.aspx?id=39084) with more details and depth. While the content refers explicitly to Lync 2010 and Lync 2013, the considerations for Skype for Business Server are unchanged.
 
 ## See also
 <a name="man_QOS"> </a>

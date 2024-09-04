@@ -12,14 +12,14 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
-description: "Summary: How to use the Config.xml file to specify additional installation instructions."
+description: "Summary: How to use the Config.xml file to specify other installation instructions."
 ---
 
 # Use Config.xml to perform installation tasks in Skype for Business clients
 
-**Summary:** How to use the Config.xml file to specify additional installation instructions.
+**Summary:** How to use the Config.xml file to specify other installation instructions.
 
-Although the Office Customization Tool (OCT) is the primary tool for customization installation, administrators can use the Config.xml file to specify additional installation instructions that are not available in the OCT. The following customizations can only be made by using the Config.xml file:
+Although the Office Customization Tool (OCT) is the primary tool for customization installation, administrators can use the Config.xml file to specify other installation instructions that aren't available in the OCT. The following customizations can only be made by using the Config.xml file:
 
 - Specify the path of the network installation point.
 
@@ -46,7 +46,7 @@ The Config.xml elements most commonly used for Skype for Business installation a
 
 | **Element**              | **Description**                                                                                                                                                                                                                                                                                         |
 |:-------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Configuration  <br/>     | Top-level element (required). Contains the Product attribute, for example: Product=Lync (This will work for Skype for Business clients)  <br/>                                                                                                                                                          |
+| Configuration  <br/>     | Top-level element (required). Contains the Product attribute, for example: Product=Lync (This works for Skype for Business clients)  <br/>                                                                                                                                                          |
 | OptionState  <br/>       | Specifies how specific product features are handled during installation. Use the following attributes to prevent installation of Business Connectivity Services, which includes shared components that interfere with Outlook: <br/>  Id="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
 | Display  <br/>           | The level of UI that Setup displays to the user. Typical attributes include the following: <br/>  CompletionNotice="Yes"                                                                                                                                                                                |
 | Logging  <br/>           | Options for the kind of logging that Setup performs. Typical attributes include the following: <br/>  Type ="Off"                                                                                                                                                                                       |

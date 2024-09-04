@@ -52,8 +52,8 @@ Using Teams in a virtualized environment requires the following components.
 - **Thin client**: The device that the user physically interfaces with.
 - **Teams desktop app**: The Teams desktop client app in the VM. This can be divided into three major sub-components:
   - Desktop client: Win32 native app, installed via .exe (auto update enabled) or .msi (auto update disabled). *Version Example: 1.6.00.18681*
-  - Web client: a common component for both Teams native desktop app and web (browser) app, it auto updates every time the app starts (even in non-persistent environments). *Version Example: 1.0.0.2023052414.* 
-  - Shim: a VDI and VDI partner specific component that is bundled with the Web client, hence it auto updates. *Version Example: 1.14.0.1 (Citrix), 21494295 (VMware), 1.1.2206.13001 (AVD/W365)*
+  - Web client: a common component for both Teams native desktop app and web (browser) app, it auto updates every time the app starts (even in non-persistent environments). *Version Example: 1.0.0.2023052414.*
+  - Shim: a VDI and VDI partner specific component that is bundled with the Web client, hence it auto updates. *Version Example: 1.14.0.1 (Citrix), 21494295 (VMware), 1.1.2206.13001 (Azure Virtual Desktop/W365)*
 
 ## Teams on VDI requirements
 
@@ -279,9 +279,9 @@ If you're migrating from Skype for Business on VDI to Teams on VDI, besides the 
 - Per-platform policy to disable some AV features in VDI
 - Give and take control when app sharing
 
-### Teams on Chrome browser versus Teams desktop app for VDI
+### Teams on Web versus Teams desktop app for VDI
 
-Teams on Chrome browser doesn't provide a replacement for the Teams desktop app for VDI with AV optimization. The chat and collaboration experience works as expected. When media is needed, there are some experiences that might not meet user expectations on the Chrome browser:
+Teams on Web isn't a supported replacement for the Teams desktop app for VDI. Though the chat and collaboration experience may work as expected, there are some experiences that might not meet user expectations on the unsupported web client when media is needed:
 
 - The audio and video streaming experience might not be optimal. Users might experience delays or reduced quality.
 - Device settings aren't available in browser settings.

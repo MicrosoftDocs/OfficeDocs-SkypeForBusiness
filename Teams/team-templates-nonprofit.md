@@ -25,11 +25,11 @@ appliesto:
 
 # Use nonprofit team templates
 
-Team templates in Microsoft Teams allow you to quickly and easily create teams by providing a predefined team structure of settings, channels, and pre-installed apps.
+Team templates in Microsoft Teams allow you to quickly and easily create teams by providing a predefined team structure of settings, channels, and preinstalled apps.
 
 For nonprofit organizations, team templates can be especially powerful, as they help you to quickly deploy consistent teams across your organization. Templates also help staff to get oriented with how to effectively use Teams.
 
-Teams includes a Manage Volunteers team template designed to streamline volunteer management activities. Use this pre-built template to quickly create teams for staff to communicate and collaborate on volunteer management tasks and activities.
+Teams includes a Manage Volunteers team template designed to streamline volunteer management activities. Use this prebuilt template to quickly create teams for staff to communicate and collaborate on volunteer management tasks and activities.
 
 In this article, you'll learn about the Manage Volunteers team template and how to use it to create a team. This article also gives you an overview of how to manage team templates in the Teams admin center.
 
@@ -44,7 +44,7 @@ Here's the channels and apps that come with the Manage Volunteers team template.
 >[!div class="mx-tdBreakAll"]
 >| Template type |TemplateId | Properties that come with this template |
 >| ------------------|-- |----------------------------------------------------- |
->|Manage Volunteers| `com.microsoft.teams.template.ManageVolunteers` |Channels: <ul><li>General<ul><li>Website&sup1;</li></ul><li>Announcements</li><li>Reporting<ul><li>Power BI&sup1;</li></ul></li><li>Volunteer Management<ul><li>Power Apps&sup1;</li></ul></li><li>Engagement Opportunities<ul><li>Tasks by Planner and To Do&sup1;</li></ul></li><li>Volunteer Onboarding<ul><li>SharePoint&sup1;</li><li>OneNote&sup1;</li></ul></li></ul>Apps: <ul><li>OneNote</li><li>Power Apps</li><li>Power BI</li><li>SharePoint</li><li>Tasks by Planner and To Do</li><li>Website</li><li>YouTube</li></ul>|
+>|Manage Volunteers| `com.microsoft.teams.template.ManageVolunteers` |Channels: <ul><li>General<ul><li>Website&sup1;</li></ul><li>Announcements</li><li>Reporting<ul><li>Power BI&sup1;</li></ul></li><li>Volunteer Management<ul><li>Power Apps&sup1;</li></ul></li><li>Engagement Opportunities<ul><li>Planner&sup1;</li></ul></li><li>Volunteer Onboarding<ul><li>SharePoint&sup1;</li><li>OneNote&sup1;</li></ul></li></ul>Apps: <ul><li>OneNote</li><li>Power Apps</li><li>Power BI</li><li>SharePoint</li><li>Planner</li><li>Website</li><li>YouTube</li></ul>|
 
 &sup1;App added to the channel as a tab.
 
@@ -84,5 +84,5 @@ To learn more about team templates in general, see [Get started with team templa
 
 ## Related articles
 
-- [Teams help documentation](https://support.microsoft.com/teams)
+- [Teams help & learning](https://support.microsoft.com/teams)
 - [Microsoft Cloud for Nonprofit documentation](/industry/nonprofit/)

@@ -72,6 +72,16 @@ To prevent organizers with this policy from creating town halls, use the followi
 Set-CsTeamsEventsPolicy -Identity <policy name> -AllowTownhalls Disabled
 ```
 
+### Disable public town halls
+
+To prevent organizers with this policy from scheduling public town halls, use the following script:
+
+```powershell
+Set-CsTeamsEventsPolicy -Identity <policy name> -EventAccessType EveryoneInCompanyExcludingGuests
+```
+
+> [!NOTE]
+> The EveryoneInCompanyExcludingGuests setting allows only in org attendees to join town halls created by organizers with this policy. In org attendees include guests in town halls (but not in webinars).
 
 ## Related topics
 

@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
 ms.reviewer: kspiess
-ms.date: 08/1/2023
+ms.date: 08/08/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -47,7 +47,10 @@ A Teams Room system can be one of the following:
 
 The remote administration tasks you perform on a Teams Rooms system or device in the Teams admin center depend on the license that's assigned the system or device. For more information, see [Microsoft Teams Rooms license overview in Teams admin center](admin-center-license-overview.md).
 
-[!INCLUDE [mtr-user-licensing](../includes/mtr-user-licensing.md)]
+> [!IMPORTANT]
+> - Microsoft Teams Rooms devices need specific licenses like "Microsoft Teams Rooms Pro" or "Microsoft Teams Rooms Basic" to work. Other user licenses won't function with meeting devices. Meeting devices without a Teams Rooms license will be unable to sign in until they obtain one.
+> - Microsoft Teams Shared Devices licenses are not supported with Teams Rooms devices. Only assign Teams Rooms Basic or Teams Rooms Pro licenses to these devices (Teams Rooms legacy licenses are also acceptable).
+
 
 ## Teams Rooms license service plan comparison
 
@@ -89,6 +92,9 @@ If your organization has an Enterprise Agreement, you can continue using your ex
 For information about legacy licenses, see [Microsoft Teams Rooms legacy licenses](rooms-legacy-licensing.md).
 
 <sup>*</sup>Microsoft Service engineers will no longer serve as intermediaries to incident response starting October 1, 2022.
+
+> [!TIP]
+> As a companion to this article, we recommend using the [Microsoft Teams Rooms automated setup guide](https://go.microsoft.com/fwlink/?linkid=2224463) when signed in to the Microsoft 365 admin center. This guide will customize your experience based on your environment. To review best practices without signing in and activating automated setup features, go to the [Microsoft 365 setup portal](https://go.microsoft.com/fwlink/?linkid=2223356).
 
 ## Teams Rooms Basic and Teams Rooms Pro feature comparison
 
@@ -204,4 +210,15 @@ If you encounter devices showing an incorrect “unlicensed” status even thoug
 - For MTR-W devices, consult our documentation page on and follow the steps [here](/microsoftteams/troubleshoot/teams-rooms-and-devices/teams-rooms-resource-account-sign-in-issues) that outline how to sign in properly. 
 - For MTR-A devices, kindly open an incident with the TAC team to ensure that the correct account information is sent to the service. 
 
+
+## Assigning additional licenses:
+
+Teams Rooms licenses include all necessary services for Teams Rooms functionality, and additional licenses are neither needed nor supported for these devices, with the exception of telephony. Customers requiring outbound calling features should purchase an appropriate calling plan for the device or configure direct routing for the room account. 
+
+Teams Rooms devices managed by central IT should not be assigned any licenses beyond Microsoft Teams Rooms Pro, Microsoft Teams Rooms Basic and those required for calling. However, if a device is used by an executive to conduct meetings and access their personal calendar, it is permissible to set up the executive's user account on the device, provided the device also has a valid Microsoft Teams Rooms Pro license. The executive's account needs to satisfy the device's authentication requirements. Signing in with a user account doesn’t provide personal device experience on the device. An IT administrator should independently evaluate this scenario to determine if it aligns with company policies and permits such exceptions.
+
+
+> [!IMPORTANT]
+> - Microsoft Teams rooms are communal devices and should not be regarded or utilized as personal ones.
+> - Avoid assigning Microsoft OneDrive for Business licenses to a Teams rooms account if the resource account is IT-managed. This can prevent user content, like recordings or transcripts, from being saved on the room's OneDrive, ensuring better content management.
 

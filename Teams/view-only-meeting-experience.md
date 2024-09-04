@@ -30,7 +30,7 @@ Initial attendees who join before the meeting capacity enjoy full meeting experi
 
 Attendees who join after the main meeting capacity is reached have a view-only experience. These attendees can join the view-only experience through desktop, web, and Teams mobile (Android and iOS).
 
-As an admin, you can decide if organizers with this policy have the view-only experience attendees join after the 1,000 user capacity.
+As an admin, you can decide if organizers with this policy have the view-only experience attendees join after the 1,000 user capacity. If you disable the view-only experience, meeting attendance is limited to the first 1,000 attendees.
 
 ## Teams view-only experience controls
 
@@ -61,11 +61,11 @@ When the capacity of the main meeting is reached, the meeting organizer and pres
 
   ![the Teams client and banner message for organizers and presenters.](media/chat-and-banner-message.png)
 
-When the capacity of the main meeting is reached, meeting attendees are informed on the prejoin screen that they're joining in view-only mode.
+When the capacity of the main meeting is reached, meeting attendees are informed on the pre-join screen that they're joining in view-only mode.
 
   ![the Teams pre-join screen and the message for participants telling them that they will join in view-only mode.](media/view-only-pre-join-screen.png)
 
-If space is available, users always join the main meeting. If the main meeting reaches capacity, but attendees leave, space becomes available again. In this case, new attendees join the main meeting until it fills up. View-only attendees can't be promoted to the main meeting.
+Before the meeting reaches capacity, attendees always join the main meeting. If the main meeting reaches capacity and attendees leave, new space becomes available, allowing new attendees to join the main meeting until it fills up again. View-only attendees can't be promoted to the main meeting.
 
 If presenter and attendee roles are set, presenters who join after capacity is reached in the main meeting become view-only attendees. These presenters have the same limitations as other view-only attendees. Organizers are always guaranteed space in the main meeting.
 
@@ -92,7 +92,7 @@ View-only attendees can't perform these actions in the meeting:
 
 - Join the meeting if they don't have permission to bypass the lobby.
 - Join the view-only meeting using Audio Conferencing.
-- Join the view-only meeting using Microsoft Teams Rooms system or using Cloud Video Interop (CVI) services.
+- Join the view-only meeting using Microsoft Teams Rooms on Android system or using Cloud Video Interop (CVI) services.
 - Share their audio or video.
 - See or participate in the meeting chat.
 - See the video feed of meeting participants unless the participant is the active speaker.
@@ -116,7 +116,7 @@ View-only attendees can't perform these actions in the meeting:
   
 ## Networking Considerations
 
-Teams View-Only meetings utilize the same platform as Teams live events. View-only attendees receive meeting content, audio, and video as TCP HTTPS streams. We strongly recommend that you bypass proxy infrastructure for Teams live events URLs and IP addresses. For more information, see [Azure CDN Coverage by Metro](/azure/cdn/cdn-pop-locations).
+Teams view-only meetings use the same platform as Teams live events. View-only attendees receive meeting content, audio, and video as TCP HTTPS streams. We strongly recommend that you bypass proxy infrastructure for Teams live events URLs and IP addresses. For more information, see [Azure CDN Coverage by Metro](/azure/cdn/cdn-pop-locations).
 
 ## Related topics
 

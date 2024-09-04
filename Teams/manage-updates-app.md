@@ -4,7 +4,7 @@ author: lana-chin
 ms.author: v-chinlana
 manager: jtremper
 ms.reviewer: diyu
-ms.date: 02/01/2024
+ms.date: 05/21/2024
 ms.topic: how-to
 audience: admin
 ms.service: msteams
@@ -31,15 +31,25 @@ ms.custom:
 
 The Updates app in Microsoft Teams provides a centralized place for members of your organization to create, review, and submit updates. By creating update requests, you can use the Updates app to keep track of anything your organization needs. Updates is available for both desktop and mobile.
 
-In Teams, users can get the Updates app from the Teams app store. They'll see all the update requests they need to submit on the **Submit** page. You can share the [Get started in Updates article](https://support.microsoft.com/office/get-started-in-updates-c03a079e-e660-42dc-817b-ca4cfd602e5a) with your users to help them get comfortable using Updates.
+In Teams, users can get the Updates app from the Teams app store. You can share the [Get started in Updates article](https://support.microsoft.com/office/get-started-in-updates-c03a079e-e660-42dc-817b-ca4cfd602e5a) with your users to help them get comfortable using Updates.
 
-:::image type="content" source="media/manage-updates-home.png" alt-text="Screenshot of the Updates app on Teams desktop and mobile." lightbox="media/manage-updates-home.png":::
+:::image type="content" source="media/manage-updates-home.png" alt-text="Image of the Updates app on Teams desktop and mobile." lightbox="media/manage-updates-home.png":::
 
-When a user is assigned an update request, it shows up in their Teams activity feed. Users can also view all their current update requests and previous submissions in the Updates app. In addition, anyone can create and send out update requests.
-
-Updates comes with both out-of-the-box templates for common business scenarios and the option to create your own requests. Anyone can create an update request for new types of updates and ask others to submit updates to sync their work status.
+Updates comes with out-of-the-box templates for common business scenarios and the option to create your own requests.
 
 :::image type="content" source="media/manage-updates-templates.png" alt-text="Screenshot of templates available in the Updates app." lightbox="media/manage-updates-templates.png":::
+
+Anyone can create an update request and ask others to submit updates to sync their work status. They can also add people as Viewers to review the update submissions.
+
+:::image type="content" source="media/manage-updates-request.png" alt-text="Screenshot of creating an update request." lightbox="media/manage-updates-request.png":::
+
+When a user is assigned an update request, they get a notification in their Teams activity feed. They can see the requests assigned to them on the **Needing your updates** section of the homepage on desktop and on the **Submit** tab on mobile.
+
+:::image type="content" source="media/manage-updates-submitters.png" alt-text="Screenshot of the Needing your updates section of the Updates app homepage on desktop." lightbox="media/manage-updates-submitters.png":::
+
+Viewers can review update submissions on the **Review updates** section of the homepage on desktop and on the **Review** tab on mobile.
+
+:::image type="content" source="media/manage-updates-viewers.png" alt-text="Screenshot of the Review updates section of the Updates app homepage on desktop." lightbox="media/manage-updates-viewers.png":::
 
 ## Example scenario
 
@@ -47,15 +57,15 @@ Employees at a clothing store are responsible for opening and closing the store 
 
 At the store's manufacturing facilities, employees perform safety checks with Updates using mobile devices.
 
-![Image of the Weekly safety walkthrough template on a mobile device.](media/updates-mobile.png)
+:::image type="content" source="media/updates-mobile.png" alt-text="Image of the Weekly safety walkthrough template on a mobile device.":::
 
 Meanwhile, a team of remote workers is updating the store's website. They're spread across time zones, so daily stand-up meetings aren't convenient. Instead, each of the team members submits daily Updates reports on their progress to the team leader.
 
 [Download the Updates lookbook](https://go.microsoft.com/fwlink/?linkid=2197649) to see more examples of what you can do with Updates.
 
-## Required permissions and licenses
+## Prerequisites
 
-You need permission for the following items to deploy Updates:
+Here are the prerequisites for deploying Updates:
 
 - Permissions to create a Microsoft Dataverse database.
 
@@ -63,7 +73,7 @@ You need permission for the following items to deploy Updates:
 
 - Administrator role in your target environment.
 
-- License for Power Automate, Office 365, or Dynamics 365.
+- License for Power Automate, Microsoft 365, or Dynamics 365.
 
 ## Storage with Microsoft Dataverse
 

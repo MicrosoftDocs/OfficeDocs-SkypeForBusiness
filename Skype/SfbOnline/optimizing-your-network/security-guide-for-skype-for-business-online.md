@@ -72,7 +72,7 @@ A man-in-the-middle attack occurs when an attacker reroutes communication betwee
 A man-in-the-middle attack can also occur with media traffic between two clients, except that in SfBO point-to-point audio, video, and application sharing streams are encrypted with SRTP, using cryptographic keys that are negotiated between the peers using Session Initiation Protocol (SIP) over TLS. 
 
 ### RTP Replay Attack
-A replay attack occurs when a valid media transmission between two parties is intercepted and retransmitted for malicious purposes. SfBO uses SRTP in conjunction with a secure signaling protocol that protects transmissions from replay attacks by enabling the receiver to maintain an index of already received RTP packets and compare each new packet with those already listed in the index.
+A replay attack occurs when a valid media transmission between two parties is intercepted and retransmitted for malicious purposes. SfBO uses SRTP with a secure signaling protocol that protects transmissions from replay attacks by enabling the receiver to maintain an index of already received RTP packets and compare each new packet with those already listed in the index.
 
 ### Spim
 Spim is unsolicited commercial instant messages or presence subscription requests. While not by itself a compromise of the network, it's annoying in the least, can reduce resource availability and production, and can possibly lead to a compromise of the network. An example of this is users spimming each other by sending requests. Users can block each other to prevent this, but with federation, if a coordinated spim attack is established, this can be difficult to overcome unless you disable federation for the partner.

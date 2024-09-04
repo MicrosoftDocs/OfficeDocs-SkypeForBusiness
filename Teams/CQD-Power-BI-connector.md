@@ -44,6 +44,8 @@ The process for installing a custom connector and adjusting security to enable u
 
 If a new version of the Microsoft Call Quality connector is released, replace the old connector file in the *Custom Connectors* directory with the new file.
 
+Customers in Government cloud environments (GCC, GCC-H, DoD) will need to [install the connector](/power-bi/connect-data/service-gateway-custom-connectors) with an [on-premises data gateway](/power-bi/connect-data/service-gateway-onprem) for compatibility with Power BI Service. Without an on-premises gateway, Government cloud customers will only be able to use the Microsoft Call Quality connector in Power BI Desktop.
+
 ## Setup
 
 To build a report and run queries, you'll first need to connect to the CQD data source. Follow the steps below in order to connect:
@@ -76,7 +78,7 @@ Once setup is complete, you should see the names of several hundred dimensions a
 
 2. Determine which dimensions and measures (denoted by an aggregation symbol by their name) you wish to use for your query, then manually select them and drag them onto the black visualization. Alternately, drag them onto the *Values* field beneath the visualization options.
 
-    !Visualizations query in the Power BI Connector.](media/CQD-power-bi-connector4-resize2.png)
+    ![Visualizations query in the Power BI Connector.](media/CQD-power-bi-connector4-resize2.png)
 
     > [!IMPORTANT]
     > Call Quality Dashboard requires a measure for any query to run. Failure to add a measure to a query will cause that query to fail.
@@ -111,7 +113,7 @@ Unlike Call Quality Dashboard, Power BI supports non-sequential drillthrough. If
 
 ### Best practice
 
-You should design Microsoft Call Quality connector queries with drillthrough functionality in mind. Instead of trying to load all the data at once, and then slicing down with filters, start with broader, low-cardinality queries and drill down to high-cardinality queries. For instance, when attempting to diagnose which subnets contribute most to quality issues, it's helpful to first identify those regions and countries/regions that contribute to the problem, then drill down to the subnets in that region or country. The Call Quality connector templates have been designed in this manner in order to act as an example.
+You should design Microsoft Call Quality connector queries with drillthrough functionality in mind. Instead of trying to load all the data at once, and then slicing down with filters, start with broader, low-cardinality queries and drill down to high-cardinality queries. For instance, when attempting to diagnose which subnets contribute most to quality issues, it's helpful to first identify those regions and countries/regions that contribute to the problem, then drill down to the subnets in that region or country. The Call Quality connector templates are designed in this manner in order to act as an example.
 
 ## Limitations
 
@@ -127,9 +129,9 @@ Not all Power BI functionality is support by the Microsoft Call Quality connecto
 
 5. **Relative Data Filtering –** Is supported in the Microsoft Call Quality connector, but only with the *Start Time* and *End Time* dimensions. Although the *Date* dimension may be the obvious choice for relative date filtering, *Date* isn't stored as a date time object and thus doesn't support relative date filtering in Power BI.
 
-6. **Dimension Only or Measurement Only Queries -** Aren't supported at this time in the Microsoft Call Quality connector. When creating a visualization with three or more measurements and no dimensions, or three or more dimensions and no measurements, the column data will be transposed. Always include at least one dimension (for example, Month Year) and one measurement (for example, Total Call Count) in your visualizations. 
+6. **Dimension Only or Measurement Only Queries -** Aren't supported at this time in the Microsoft Call Quality connector. If you create a visualization with three or more measurements and no dimensions, or three or more dimensions and no measurements, the column data will be transposed. Always include at least one dimension (for example, Month Year) and one measurement (for example, Total Call Count) in your visualizations. 
 
-7. **Government Community Cloud (GCC, GCC-High, and DoD) Support –** For customers in Government cloud environments, the Microsoft Call Quality connector will work when using Power BI Desktop only. The Microsoft Call Quality connector isn't presently compatible with the Power BI service for Government cloud customers. Additionally, an appropriate Power BI US Government license is required for government cloud. For more information on licensing, please see the latest guidance for [Power BI for US government customers](/power-bi/enterprise/service-govus-overview#buy-a-power-bi-pro-subscription-for-government-customers).
+7. **Government Community Cloud (GCC, GCC-High, and DoD) Support –** For customers in Government cloud environments, the Microsoft Call Quality connector can be used with an [on-premises data gateway](/power-bi/connect-data/service-gateway-onprem) for compatibility with Power BI service. Simply follow the guide for [installing custom connectors with an on-premises data gateway](/power-bi/connect-data/service-gateway-custom-connectors) using the latest version of the Microsoft Call Quality connector to enable access. Additionally, an appropriate Power BI US Government license is required for government cloud. For more information on licensing, please see the latest guidance for [Power BI for US government customers](/power-bi/enterprise/service-govus-overview#buy-a-power-bi-pro-subscription-for-government-customers).
 
 Most of these issues are either restrictions to DirectQuery connector design in Power BI or fundamental to the design of the CQD data model.
 

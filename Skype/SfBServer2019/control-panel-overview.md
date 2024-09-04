@@ -6,7 +6,7 @@ author: v-smandalika
 manager: dansimp
 ms.date: 10/13/2021
 audience: ITPro
-ms.topic: article
+ms.topic: concept-article
 ms.service: skype-for-business-server
 f1.keywords:
 - NOCSH
@@ -20,7 +20,7 @@ description: "This article provides an overview of the new Control Panel."
 
 The current Control Panel is a new version of the legacy Control Panel, with which it exists in tandem. The new Control Panel came into existence from the Cumulative Update of July 2019. It helps manage the configuration of servers, users, clients, and devices in the environment of an organization.
 
-The legacy Control Panel may not work as Silverlight technology reached the "end-of-support" stage on October 12, 2021. For more information, see [Silverlight End of Support](https://support.microsoft.com/windows/silverlight-end-of-support-0a3be3c7-bead-e203-2dfd-74f0a64f1788).
+The legacy Control Panel might not work as Silverlight technology reached the "end-of-support" stage on October 12, 2021. For more information, see [Silverlight End of Support](https://support.microsoft.com/windows/silverlight-end-of-support-0a3be3c7-bead-e203-2dfd-74f0a64f1788).
 
 > [!NOTE]
 > For information on the legacy Control Panel, see [Control Panel](../SfbServer/management-tools/install-and-open-administrative-tools.md), and navigate to the section **Skype for Business Server Control Panel**.
@@ -29,7 +29,7 @@ The legacy Control Panel may not work as Silverlight technology reached the "end
 
 To launch the new Control Panel in the browser, enter https://&lt;pool-FQDN&gt;/macp or a configured simple URL.
 
-The new Control Panel includes commonly used menu items that cover most of the needs of the organization. There are a few menu items from the legacy Control Panel that are unavailable in the new Control Panel. However, there is an option for the user to avail the functionalities in those menu items through PowerShell cmdlets. For more information, see the following table.
+The new Control Panel includes commonly used menu items that cover most of the needs of the organization. There are a few menu items from the legacy Control Panel that are unavailable in the new Control Panel. However, there's an option for the user to avail the functionalities in those menu items through PowerShell cmdlets. For more information, see the following table.
 
 > [!NOTE]
 > The documentation for other menus items will be made available subsequently in a phased manner.

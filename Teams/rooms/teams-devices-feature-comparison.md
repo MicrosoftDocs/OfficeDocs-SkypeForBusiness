@@ -45,7 +45,7 @@ To help guide you as to what features are available on different platforms, you 
 | | Meet now | Available | Available |
 | | Teams Meeting with ID | Available | Available |
 | | Direct guest join | BlueJeans: Available <br> Webex: Available<br> Zoom: Available| BlueJeans: Not available <br> Webex: Available<br> Zoom: Available |
-| | Direct guest join with ID | BlueJeans: Not available <br> Webex: Not available<br> Zoom: Available | BlueJeans: Not available <br> Webex: Not available<br> Zoom: Not available |
+| | Direct guest join with ID | BlueJeans: Not available <br> Webex: Not available<br> Zoom: Available | BlueJeans: Not available <br> Webex: Not available<br> Zoom: Available |
 | | SIP/H.323 calling | Available | Not available |
 | | PSTN calling | Available | Available|
 | | Admins can require meeting ID and passcode on meeting join | Available | Available |
@@ -70,8 +70,9 @@ To help guide you as to what features are available on different platforms, you 
 | | Teams Live Event (Presenter role) | Available | Not available |
 | | Teams Live Event (Attendee role) | Available | Not available |
 | | Overflow Meeting Join (1k+ meeting participants) | Available | Not available |
-| | Microsoft Whiteboard during Teams Meeting (with touch display) | Available | Available |
-| | Microsoft Whiteboard outside a meeting (with touch display) | Not available | Available |
+| | Microsoft Whiteboard - Initiate during a Teams Meeting | Available | Available |
+| | Microsoft Whiteboard - Initiate without a Teams Meeting (from a console) | Not available | Available |
+| | Microsoft Whiteboard - Initiate without a Teams Meeting (all-in-one board) | Available | Available |
 | | Intelligent content capture (content camera) | Available | Available |
 | | Meeting Lock | Available | Available |
 | | Automatically disconnect if room is the only participant 5 minutes after meeting time ends | Available | Available |
@@ -104,20 +105,34 @@ To help guide you as to what features are available on different platforms, you 
 | | Operating System | Windows 10 / Windows 11 | Android 9+ |
 | | Kiosk mode | Available | Available |
 | | Microsoft Defender for Endpoint | Available | Not available |
-| **Management and administration** | Teams Admin Center | Available | Available |
-| | Pro Management Portal | Available | Available |
-| | Role-based access control | Available | Available |
-| | Securely delegate management access to a partner | Available | Available|
+| **Device Management** | Built-in backgrounds | Available | Available |
+| | Custom background | Available | Available |
+| | Unauthenticated proxy support | Available | Available |
+| | Authenticated proxy support | Not available | Not available |
+| **Teams Admin Center** | Automatic onboarding | Available | Available |
 | | Device inventory views | Available | Available |
 | | Overall device health monitoring | Available | Available |
 | | Connected peripheral health monitoring | Available | Not available |
 | | Remote configuration (restart, settings, & log collection) | Available | Available |
 | | Automatic Teams app updates | Available | Available |
 | | Real-time and call quality analytics | Available | Available |
-| | Built-in backgrounds | Available | Available |
-| | Custom background | Available | Not available |
-| | Unauthenticated proxy support| Available | Available |
-| | Authenticated proxy support | Not available | Not available |
+| **Pro Management Portal** | Automatic onboarding | Available | Available |
+| | Overall device health monitoring | Available | Available |
+| | Connected peripheral health monitoring | Available | Not available |
+| | Remote Access | Available | Not available |
+| | Partner Delegation | Available | Available |
+| | Autopilot + Autologin | Available | Not available |
+| | One Time Passcode | Available | Not available |
+| | ServiceNow Integration | Available | Available |
+| | Device grouping & Role-based access control | Available | Available |
+| | Device Settings Management | Available | Not available |
+| | Update Management | Available | Not available |
+| | Log Collection | Available | Available |
+| | Incident Management | Available | Available |
+| | Health and usage reports | Available | Available |
+| | Events | Available | Available |
+| | Standards and Rooms Planner | Available | Available |
+
 
 ## Teams panels
 
@@ -139,16 +154,6 @@ To help guide you as to what features are available on different platforms, you 
 | | Built-in backgrounds | Available |
 | | Line of business apps | Available |
 | | Change color of LED lights | Available |
-| **Management and administration** | Teams Admin Center | Available | 
-| | Pro Management Portal | Available | 
-| | Role-based access control | Available | 
-| | Securely delegate management access to a partner | Available | 
-| | Overall device health monitoring | Available | 
-| | Remote configuration (restart, settings, & log collection) | Available | 
-| | Automatic Teams app updates | Available | 
-| | Unauthenticated proxy support | Available | 
-| | Authenticated proxy support | Not available | 
-
 
 
 ## [GCC](#tab/GCC)
@@ -163,7 +168,7 @@ To help guide you as to what features are available on different platforms, you 
 | | Meet now | Available | Available |
 | | Teams Meeting with ID | Available | Available |
 | | Direct guest join | BlueJeans: Available <br> Webex: Available<br> Zoom: Available| BlueJeans: Not available <br> Webex: Available<br> Zoom: Available |
-| | Direct guest join with ID | BlueJeans: Not available <br> Webex: Not available<br> Zoom: Available | BlueJeans: Not available <br> Webex: Not available<br> Zoom: Not available |
+| | Direct guest join with ID | BlueJeans: Not available <br> Webex: Not available<br> Zoom: Available | BlueJeans: Not available <br> Webex: Not available<br> Zoom: Available |
 | | SIP/H.323 calling | Available | Not available |
 | | PSTN calling | Available | Available |
 | | Admins can require meeting ID and passcode on meeting join | Available | Available |
@@ -188,8 +193,9 @@ To help guide you as to what features are available on different platforms, you 
 | | Teams Live Event (Presenter role) | Available | Not available |
 | | Teams Live Event (Attendee role) | Available | Not available |
 | | Overflow Meeting Join (1k+ meeting participants) | Available | Not available |
-| | Microsoft Whiteboard during Teams Meeting (with touch display) | Available | Available |
-| | Microsoft Whiteboard outside a meeting (with touch display)| Not available | Not available |
+| | Microsoft Whiteboard - Initiate during a Teams Meeting | Available | Available |
+| | Microsoft Whiteboard - Initiate without a Teams Meeting (from a console) | Not available | Not available |
+| | Microsoft Whiteboard - Initiate without a Teams Meeting (all-in-one board) | Not available | Not available |
 | | Intelligent content capture (content camera) | Available | Available |
 | | Meeting Lock | Available | Available |
 | | Automatically disconnect if room is the only participant 5 minutes after meeting time ends | Available | Available |
@@ -222,20 +228,33 @@ To help guide you as to what features are available on different platforms, you 
 | | Operating System | Windows 10 / Windows 11 | Android 9+ |
 | | Kiosk mode | Available | Available |
 | | Microsoft Defender for Endpoint | Available | Not available |
-| **Management and administration** | Teams Admin Center | Available | Available |
-| | Pro Management Portal | Available | Available |
-| | Role-based access control | Available | Available |
-| | Securely delegate management access to a partner | Available | Not available |
+| **Device Management** | Built-in backgrounds | Available | Available |
+| | Custom background | Available | Not available |
+| | Unauthenticated proxy support | Available | Available |
+| | Authenticated proxy support | Not available | Not available |
+| **Teams Admin Center** | Automatic onboarding | Available | Available |
 | | Device inventory views | Available | Available |
 | | Overall device health monitoring | Available | Available |
 | | Connected peripheral health monitoring | Available | Not available |
 | | Remote configuration (restart, settings, & log collection) | Available | Available |
 | | Automatic Teams app updates | Available | Available |
 | | Real-time and call quality analytics | Available | Available |
-| | Built-in backgrounds | Available | Available |
-| | Custom background | Available | Not available |
-| | Unauthenticated proxy support| Available | Available |
-| | Authenticated proxy support | Not available | Not available |
+| **Pro Management Portal** | Automatic onboarding | Available | Available |
+| | Overall device health monitoring | Available | Available |
+| | Connected peripheral health monitoring | Available | Not available |
+| | Remote Access | Not available | Not available |
+| | Partner Delegation | Not available | Not available |
+| | Autopilot + Autologin | Not available | Not available |
+| | One Time Passcode | Available | Not available |
+| | ServiceNow Integration | Not available | Not available |
+| | Device grouping & Role-based access control | Available | Available |
+| | Device Settings Management | Available | Not available |
+| | Update Management | Available | Not available |
+| | Log Collection | Available | Available |
+| | Incident Management | Available | Available |
+| | Health and usage reports | Available | Available |
+| | Events | Available | Available |
+| | Standards and Rooms Planner | Not available | Not available |
 
 ## Teams panels
 
@@ -257,15 +276,6 @@ To help guide you as to what features are available on different platforms, you 
 | | Built-in backgrounds | Available |
 | | Line of business apps | Available |
 | | Change color of LED lights | Available |
-| **Management and administration** | Teams Admin Center | Available | 
-| | Pro Management Portal | Available | 
-| | Role-based access control | Available | 
-| | Securely delegate management access to a partner | Available | 
-| | Overall device health monitoring | Available | 
-| | Remote configuration (restart, settings, & log collection) | Available | 
-| | Automatic Teams app updates | Available |
-| | Unauthenticated proxy support | Available | 
-| | Authenticated proxy support | Not available | 
 
 
 ## [GCC-High](#tab/GCCHigh)
@@ -276,11 +286,11 @@ To help guide you as to what features are available on different platforms, you 
 |--------|----------|---------|---------|
 | **Meeting join** | One-touch-join | Available   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | Available  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
 | | Proximity join | Available | Available |
-| | QR code meeting join | Available | Not available |
+| | QR code meeting join | Available | Available |
 | | Meet now | Available | Available |
 | | Teams Meeting with ID | Available | Available |
 | | Direct guest join | BlueJeans: Available <br> Webex: Available<br> Zoom: Available| BlueJeans: Not available <br> Webex: Available<br> Zoom: Available |
-| | Direct guest join with ID | BlueJeans: Not available <br> Webex: Not available<br> Zoom: Available | BlueJeans: Not available <br> Webex: Not available<br> Zoom: Not available |
+| | Direct guest join with ID | BlueJeans: Not available <br> Webex: Not available<br> Zoom: Available | BlueJeans: Not available <br> Webex: Not available<br> Zoom: Available |
 | | SIP/H.323 calling | Available | Not available |
 | | PSTN calling | Available | Available |
 | | Admins can require meeting ID and passcode on meeting join | Available | Available |
@@ -305,8 +315,9 @@ To help guide you as to what features are available on different platforms, you 
 | | Teams Live Event (Presenter role) | Available | Not available |
 | | Teams Live Event (Attendee role) | Available | Not available |
 | | Overflow Meeting Join (1k+ meeting participants) | Available | Not available |
-| | Microsoft Whiteboard during Teams Meeting (with touch display) | Available | Available |
-| | Microsoft Whiteboard outside a meeting (with touch display)| Not available | Not available |
+| | Microsoft Whiteboard - Initiate during a Teams Meeting | Not available | Not available |
+| | Microsoft Whiteboard - Initiate without a Teams Meeting (from a console) | Not available | Not available |
+| | Microsoft Whiteboard - Initiate without a Teams Meeting (all-in-one board) | Not available | Not available |
 | | Intelligent content capture (content camera) | Available | Available |
 | | Meeting Lock | Available | Available |
 | | Automatically disconnect if room is the only participant 5 minutes after meeting time ends | Available | Available |
@@ -339,20 +350,18 @@ To help guide you as to what features are available on different platforms, you 
 | | Operating System | Windows 10 / Windows 11 | Android 9+ |
 | | Kiosk mode | Available | Available |
 | | Microsoft Defender for Endpoint | Available | Not available |
-| **Management and administration** | Teams Admin Center | Available | Available |
-| | Pro Management Portal | Not available | Not available |
-| | Role-based access control | Available | Available |
-| | Securely delegate management access to a partner | Available | Not available |
+| **Device Management** | Built-in backgrounds | Available | Available |
+| | Custom background | Available | Not available |
+| | Unauthenticated proxy support | Available | Available |
+| | Authenticated proxy support | Not available | Not available |
+| **Teams Admin Center** | Automatic onboarding | Available | Available |
 | | Device inventory views | Available | Available |
 | | Overall device health monitoring | Available | Available |
 | | Connected peripheral health monitoring | Available | Not available |
 | | Remote configuration (restart, settings, & log collection) | Available | Available |
 | | Automatic Teams app updates | Available | Not available |
 | | Real-time and call quality analytics | Available | Available |
-| | Built-in backgrounds | Available | Available |
-| | Custom background | Available | Not available |
-| | Unauthenticated proxy support| Available | Available |
-| | Authenticated proxy support | Not available | Not available |
+| **Pro Management Portal** | Portal access | Not available | Not available |
 
 ## Teams panels
 
@@ -374,13 +383,3 @@ To help guide you as to what features are available on different platforms, you 
 | | Built-in backgrounds | Available |
 | | Line of business apps | Not available |
 | | Change color of LED lights | Available |
-| **Management and administration** | Teams Admin Center | Available | 
-| | Pro Management Portal | Not available | 
-| | Role-based access control | Available | 
-| | Securely delegate management access to a partner | Not available | 
-| | Overall device health monitoring | Available | 
-| | Remote configuration (restart, settings, & log collection) | Available | 
-| | Automatic Teams app updates | Not available | 
-| | Unauthenticated proxy support | Available | 
-| | Authenticated proxy support | Not available | 
-

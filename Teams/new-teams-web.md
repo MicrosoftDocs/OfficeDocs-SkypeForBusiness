@@ -4,7 +4,7 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: jtremper
 ms.topic: article
-ms.date: 12/11/2023
+ms.date: 05/31/2024
 ms.service: msteams
 audience: admin
 ms.collection: 
@@ -26,51 +26,42 @@ The new Teams for Web is reimagined from the ground up with performance in mind,
 
 ## New Teams for Web rollout schedule
 
-General availability of New Teams for Web for Chrome and Microsoft Edge was announced earlier in November, and the following details provide further clarity on the timelines for the availability and update progress for New Teams for Web.
+New Teams on the Teams for Web client is available on Microsoft Edge, Chrome, Firefox, and Safari browsers.
+
+Teams for Web users that haven’t updated to new Teams experience will be automatically updated following the same timelines as native clients listed in [End of availability for classic Teams client](teams-classic-client-end-of-availability.md).
 
 >[!Note]
 >Education, Special Cloud, GCC, GCC-High, and DOD customer segments operate on separate timelines than what is presented here.
 
-### Availability on Microsoft Edge and Chrome browsers on Windows and macOS
-
-|Date                            |Availability|
-|:-------------------------------|:-----------|
-|Nov 15, 2023 to<br>Jan 15, 2024 |<ul><li>Chrome and Microsoft Edge users receive classic Teams for Web by default when navigating to https://teams.microsoft.com.<li>These users see a toggle to switch to new Teams for Web unless the [tenant’s upgrade policy](/microsoftteams/new-teams-deploy-using-policies?tabs=teams-admin-center#set-the-policies-to-upgrade-to-the-new-teams-client) is set to ‘Not enabled’.</li><li>Users who have switched to new Teams for Web can switch back to Classic Teams at any time.</li></ul>|
-|Jan 15, 2024                    | <ul><li>Teams for Web begins honoring all [Teams upgrade policies](/microsoftteams/new-teams-deploy-using-policies). Changes to these policies affect both the web client and desktop client.</li><li>The policy **”Classic Teams as default”** continues providing the current experience where users receive classic Teams for Web with a toggle to update to new Teams for Web.</li><li>The policy **“New Teams as default”** automatically updates Web users to new Teams for Web as their default experience.</li><li>The policy **“Microsoft Controlled”** allows Microsoft to manage the updating of Web users to new Teams.<br>We anticipate first updating users in the public preview program and Targeted release program to new Teams for Web in stages beginning January 15, 2024. <br>We anticipate updating all regular users with the “Microsoft Controlled” policy afterwards, beginning January 29, 2024. <br>Microsoft will control how long these users may switch back to classic Teams. We anticipate retiring the switch-back option for or all users in April 2024 in following the overall timeline in [this article](teams-classic-client-end-of-availability.md).</li><li>The policy **“New Teams only”** will automatically update Web users to new Teams for Web as their only experience. We anticipate slowly rolling out this policy enforcement on web clients beginning April 8th, 2024.</li><li>The policy **“Not enabled”** will continue to restrict users to classic Teams with no toggle to update to new Teams through March 31, 2024.</li></ul> |
-|After March 31, 2024            |<ul><li>Any classic Teams for Web users that haven’t updated to new Teams for Web will be automatically updated to new Teams along with desktop clients. [See this announcement for details.](/microsoftteams/new-teams-automatic-upgrade-announced) |
-
-### Availability on Firefox and Safari browsers, and Linux
-
-|Date                           |Availability                                                                                         |
-|:------------------------------|:----------------------------------------------------------------------------------------------------|
-|April 1 through April 15, 2024 |<ul><li>New Teams for Web is currently rolling out to general audiences for these clients:</li><li>New Teams for Web on Firefox browser on Windows, macOS, and Linux</li><li>New Teams for Web on Safari browser on macOS</li><li>Microsoft Edge and Chrome browsers with Progressive Web App (PWA) support on Linux</li></ul> |
-
-## How to try new Teams: App Switcher
-
-1. Navigate to the Teams web client at https://teams.microsoft.com using Microsoft Edge or Chrome browsers.
-2. Select the **Try the new Teams** toggle on the upper-left corner of the app to switch to new Teams.
-
 ## Prerequisites
 
-### Minimum Browser versions
+New Teams for Web is supported on the following browsers when running on a desktop computer:
 
-New Teams for Web follows the same browser requirements as classic Teams for Microsoft Edge and Chrome Browsers:
+|Browser        |Supported versions    |Operating System      |
+|:--------------|:---------------------|:---------------------|
+|Microsoft Edge |Latest three versions |Windows, macOS, Linux |
+|Chrome         |Latest three versions |Windows, macOS, Linux |
+|Firefox        |Latest three versions |Windows, macOS, Linux |
+|Safari         |Latest two versions   |macOS                 |
 
-- The browser must be configured to allow third-party cookies.
-- The browser runs on a desktop computer.
-- The browser is updated to one of the three most-recent versions of Microsoft Edge or Chrome.
+The browser must be configured to allow third-party cookies for some third-party or line-of-business (LOB) apps to function properly.
 
-The new Teams web client offers near feature parity with the new Desktop client thanks to a new, cross-client infrastructure.
+>[!Note]
+>New Teams for Web isn't supported in VDI environments, so performance and reliability may be negatively impacted if used in VDI. New Teams for Web isn't supported on mobile browsers.
 
-## Features currently not available
+## Features not currently available
 
-The following notable features aren't available on new Teams or classic Teams clients:
+New Teams for Web offers near feature parity with the new Desktop client thanks to a new, cross-client infrastructure.
+
+The following notable features aren't available on new Teams or classic Teams for Web:
 
 - Simultaneous availability and notifications across multiple accounts and tenants.
 - Popout windows for chat and channel content.
 - Avatars and video background effects, except for background blur.
 
 New Teams for Web supports the same features available on classic Teams for Web with the exception of the changes listed in [Features that are changing in the new Microsoft Teams](new-teams-whats-changing.md).
+
+Learn more at [Features currently unavailable in new Teams for Web](new-teams-desktop-client-features.md)
 
 ## Enhancements in new Teams
 

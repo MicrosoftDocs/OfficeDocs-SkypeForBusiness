@@ -29,7 +29,7 @@ This guidance is for IT pros who are driving deployments of Office 365 in US fed
 > [!NOTE]
 > If your organization has already met the Office 365 Government – GCC High eligibility requirements and applied for and been accepted into the program, you can skip steps 1 and 2 and go directly to step 3.
 
-## Step 1: Determine whether your organization needs Office 365 Government - GCC High and meets eligibility requirements. 
+## Step 1: Determine whether your organization needs Office 365 Government - GCC High and meets eligibility requirements
 
 The Office 365 Government - GCC  High environment provides compliance with US government requirements for cloud services. In addition to enjoying the features and capabilities of Office 365, organizations benefit from the following features that are unique to Office 365 Government – GCC High:
 
@@ -42,31 +42,27 @@ You can find more information about the Office 365 Government – GCC High offer
 
 The [Office 365 US Government service description](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) describes the platform's benefits, which are centered on meeting compliance requirements within the United States.
 
-
-> [!Tip]
+> [!TIP]
 > You might want to transfer the tables of information in the service description into an Excel workbook and add two columns: **Relevant for my organization Y/N** and **Meets the needs of my organization Y/N**. Then you can review this list with your colleagues to confirm that this service meets your organization's needs.
-
 
 |&nbsp;|&nbsp;|
 |-----------|------------|
 | ![An icon depicting decision points.](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide whether Office 365 Government - GCC High is appropriate for your organization.</li><li>Confirm that your organization meets eligibility requirements.</li></ul> |
 
-> [!Note]
+> [!NOTE]
 > Office 365 Government - GCC High is only available in the United States. Non–US Government customers can choose from a number of [Office 365 Government plans](https://products.office.com/en/government/compare-office-365-government-plans).
 
 ## Step 2: Apply for Office 365 Government - GCC High
 
-Having decided that this service is right for your organization, start the process of [applying for this service](https://products.office.com/government/eligibility-validation).
+Having decided that this service is right for your organization, start the process of [applying for this service](https://usgovintake.embark.microsoft.com/?ReqType=CSPcustomer).
 
-
-## Step 3: Understand Office 365 Government - GCC High default security settings.
+## Step 3: Understand Office 365 Government - GCC High default security settings
 
 We recommend that you take time to carefully review your [admin and security settings](enable-features-office-365.md) before you modify them, and consider impacts on compliance before you make any changes to the default security settings.
 
 |&nbsp;|&nbsp;|
 |-----------|------------|
 | ![An icon depicting a decision point.](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Decide whether you'll need to modify any of the default Office 365 Government - GCC High security settings, resolving to first understand the impact of any changes you might make.</li></ul> |
-
 
 ## Step 4: Understand which Teams capabilities are currently available in Office 365 Government - GCC High
 

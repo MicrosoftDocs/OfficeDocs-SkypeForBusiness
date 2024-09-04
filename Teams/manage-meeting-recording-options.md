@@ -50,7 +50,7 @@ If you need to prevent meetings from being recorded entirely, you must configure
 
 ## Require participant agreement for recording
 
-You can require participants to agree to being recorded before they can unmute or turn on their camera. Consent results are stored in the meeting attendance report. This is controlled through a Teams meeting policy. For details, see [Require participant agreement for recording](meeting-recording.md#require-participant-agreement-for-recording).
+You can require participants to agree to being recorded before they can unmute or turn on their camera. Consent results are stored in the meeting attendance report. This is controlled through a Teams meeting policy. For details, see [Require participant agreement for recording](meeting-recording.md#require-participant-agreement-for-recording-and-transcription).
 
 ## Automatic recording
 

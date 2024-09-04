@@ -31,6 +31,9 @@ The new Teams update is seamless for our Education users. Updating is quick and 
 >[!Note]
 >New Teams for Education is available for web for Edge and Chrome. It will be available for other web browsers in early 2024.
 
+> [!TIP]
+> As a companion to this article, we recommend using the [Microsoft Teams for Education Setup Guide](https://go.microsoft.com/fwlink/?linkid=2270300) to review best practices without signing in and activating automated setup features. This guide will customize your experience based on your environment.
+
 ## Update schedule
 
 **On January 2, 2024, Microsoft will update the classic Teams client to the new Teams client** for all tenants whose IT administrators took no explicit action to update to new Teams via Teams Admin Center policy (meaning, they still are using the default setting *Microsoft Controlled*). IT administrators can still set classic Teams for their users via policy.  

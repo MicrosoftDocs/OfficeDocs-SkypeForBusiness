@@ -27,7 +27,7 @@ To manage Teams in the Teams admin center, see [Manage Teams with Azure Cloud Sh
 
 The cmdlets for creating and managing teams are in the [Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams/).
 
-Teams are backed by Office 365 Groups, so when you create a team, you create a group. There are a set of cmdlets provided for operating on the core team and its settings (``new-team``, ``get-team``,  ``set-team``), managing team users (``add-teamuser``, ``remove-teamuser``), as well as cmdlets for managing the channels of the team (``new-teamchannel``, ``remove-teamchannel``). All of these cmdlets can be run as end users, but they'll work only on the teams that you own or are a member of. If you are a Global Admin or Teams Administrator, you'll be able to act on all teams in your organization.
+Teams are backed by Office 365 Groups, so when you create a team, you create a group. There are a set of cmdlets provided for operating on the core team and its settings (``new-team``, ``get-team``,  ``set-team``), managing team users (``add-teamuser``, ``remove-teamuser``), and cmdlets for managing the channels of the team (``new-teamchannel``, ``remove-teamchannel``). All of these cmdlets can be run as end users, but they work only on the teams that you own or are a member of. If you're a Global Administrator or Teams Administrator, you can act on all teams in your organization.
 
 ```powershell
 New-Team -DisplayName "Contoso Marketing" -Description "Collaboration space for Contoso's Marketing department"
@@ -56,10 +56,8 @@ To access the Azure Cloud Shell and use PowerShell to manage Teams, sign in to t
     Connect-MicrosoftTeams
     ```
 
-After you've completed these steps, you're ready to run Teams PowerShell commands.
+After you complete these steps, you're ready to run Teams PowerShell commands.
 
-> [!IMPORTANT]
-> If you want to use Cs* cmdlets, you first need to connect to Teams by using the ``Connect-MicrosoftTeams -UseDeviceAuthentication`` command.
 
 ## Manage policies via PowerShell
 
@@ -67,15 +65,15 @@ Find the cmdlets for managing policies in the [Microsoft Teams cmdlet module](/p
 
 A policy is a group of settings that can be applied granularly to individual users. Each policy type has its own set of cmdlets for creating, viewing, deleting, and updating the policies themselves, and then assigning those policies to users. The general structure is:
 
-- **GET** commands (for example, ``Get-CsTeamsMeetingPolicy``): Returns the policy documents that are available for you to assign in your organization, including the policies created by Microsoft for you to use as well as the custom policies you’ve created.
+- **GET** commands (for example, ``Get-CsTeamsMeetingPolicy``): Returns the policy documents that are available for you to assign in your organization, including the policies created by Microsoft for you to use and the custom policies you’ve created.
   - To find only the custom policies you’ve created in your organization, use ``-Filter "tag:*"``.
 
 - **NEW** commands (for example, ``New-CsTeamsMeetingPolicy``): Creates new policies for your organization to assign to users in your organization. Not all policies support the creation of custom policies. Often this is to ensure that the policies you use in your organization have a supported combination of settings.
 
 - **SET** commands (for example, ``Set-CsTeamsMeetingPolicy``): Sets particular values on a given policy. Some policies don't have SET commands available, or they contain parameters that can't be customized in the policy. The PowerShell descriptions tell you which parameters can't be customized.
-  - To edit the policy that will by default be assigned to users in your organization who do not have a custom policy assigned, run ``Set-Cs<PolicyName> -Identity Global``.
+  - To edit the policy that will by default be assigned to users in your organization who don't have a custom policy assigned, run ``Set-Cs<PolicyName> -Identity Global``.
 
-- **REMOVE** commands (for example, ``Remove-CsTeamsMeetingPolicy``): Deletes a custom policy that has been created in your tenant. If you delete a custom policy that has been assigned to at least one user in your organization, that user will fall back to the global policy.
+- **REMOVE** commands (for example, ``Remove-CsTeamsMeetingPolicy``): Deletes a custom policy that has been created in your tenant. If you delete a custom policy that has been assigned to at least one user in your organization, that user falls back to the global policy.
   - You can’t actually remove the global policy in your organization, but if you want to reset the global policy in your organization to the Microsoft-provided default settings, run ``Remove-Cs<PolicyName> -Identity Global``.
 
 - **GRANT** command (for example, ``Grant-CsTeamsMeetingPolicy``): Assigns a policy to a particular user.
@@ -86,7 +84,7 @@ A policy is a group of settings that can be applied granularly to individual use
 
 Common parameters:
 
-- **Identity**: For ``Get-``, ``Set-``, ``New-``, and ``Remove-``, the **Identity** parameter will always refer to a specific policy instance. For ``Grant``, the **Identity** parameter refers to a specific user object to whom the policy is being applied.
+- **Identity**: For ``Get-``, ``Set-``, ``New-``, and ``Remove-``, the **Identity** parameter refers to a specific policy instance. For ``Grant``, the **Identity** parameter refers to a specific user object to whom the policy is being applied.
 
 ## Manage configurations via PowerShell
 

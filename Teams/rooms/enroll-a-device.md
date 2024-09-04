@@ -27,13 +27,13 @@ f1keywords:
 
 Instead of performing the steps in this article, the Teams Rooms Pro Management agent will be automatically downloaded and installed onto the Windows-based Teams Rooms devices as part of the Teams Rooms app update. This improvement simplifies the agent deployment and device enrollment tasks for IT admins, reducing their workload.
 
-Once the Teams Rooms Pro Management agent is successfully installed and connected, devices with the Teams Rooms Pro license will be automatically enrolled and visible in the Teams Rooms Pro Management portal. This eliminates the need for any additional user action, making the process more efficient.
+Once the Teams Rooms Pro Management agent is successfully installed and connected, devices with the Teams Rooms Pro license will be automatically enrolled and visible in the Teams Rooms Pro Management portal. There may be additional user actions depending on your use of proxies or other network restrictions.
 
 > [!IMPORTANT]
 >
 > If your Windows-based Teams Rooms devices are running version 4.16 or earlier, you must still follow the steps below to enroll those devices.
 
-Both automatic and manual deployment requires onboarding Microsoft Teams Rooms devices to the Microsoft Teams Rooms Pro Management portal. The monitoring service agent is for use with certified Microsoft Teams Rooms (MTR) systems and peripherals.
+Both automatic and manual deployment require onboarding Microsoft Teams Rooms devices to the Microsoft Teams Rooms Pro Management portal. The monitoring service agent is for use with certified Microsoft Teams Rooms (MTR) systems and peripherals.
 
 ## Prerequisites
 
@@ -61,20 +61,7 @@ Follow these procedures to set up your hardware before attempting the enrollment
      bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT http://contosoproxy.corp.net/proxy.pac
      ```
 
-### Enabling TPM settings
 
-> [!NOTE]
-> TPM must be enabled to enroll in Teams Rooms Pro Management.
-If TPM on an Intel NUC device is disabled, enable TPM on these devices as follows:
-
-1. Plug in the keyboard to a NUC device.
-1. Restart device.
-1. To display the BIOS screen, rapidly press **F2**.
-1. Select **Advanced**.
-1. Select **Security**.
-1. On the right-hand side beneath Security Features, enable **Intel Platform Trust Technology**.
-1. To save your settings, press **F10**.
-1. In the confirmation box, select **Yes**.
 
 ## Performing operations as the Admin user of the Teams Rooms device
 

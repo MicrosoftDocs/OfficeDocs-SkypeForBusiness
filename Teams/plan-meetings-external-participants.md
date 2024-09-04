@@ -43,7 +43,7 @@ A *verified* external meeting participant is one that is logged in to Teams in M
 - **Guests** - people who are logged in to Teams with a [guest account](guest-access.md) in your directory. Guests can be anyone with an email address, including people from other Microsoft 365 organizations.
 - **People from trusted organizations** - people in other Microsoft 365 organizations with which you have configured a trust relationship in [external access](trusted-organizations-external-meetings-chat.md) and who have the required user-level external access permissions
 
-External participants who are not verified in one of these two ways are considered *[anonymous](#meetings-with-anonymous-participants)*.
+External participants who aren't verified in one of these two ways are considered *[anonymous](#meetings-with-anonymous-participants)*.
 
 People who don't have a work or school account in Microsoft 365 must be invited as guests to your organization and can join meetings using guest access. People in other Microsoft 365 organizations can join meetings through the external access feature. (They can also join as guests if they have guest accounts.)
 

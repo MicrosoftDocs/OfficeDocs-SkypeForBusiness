@@ -44,7 +44,7 @@ By default, MMS is automatically triggered in each of these cases, except in the
 
 ## How MMS works
 
-When MMS is triggered for a given user, a migration request for that user is placed in a queue. To avoid any race conditions, the queued request is deliberately not processed until at least 90 minutes have gone by. Once MMS processes the request, it performs the following tasks:
+When MMS is triggered for a given user, a migration request for that user is placed in a queue. To avoid any race conditions, the queued request is deliberately not processed until at least 90 minutes have passed by. Once MMS processes the request, it performs the following tasks:
 
 1. It searches that user’s mailbox for all existing meetings organized by that user and scheduled in the future.
 2. Based on the information found in the user’s mailbox, it either updates or schedules new meetings in Teams for that user, depending on the exact scenario.
@@ -53,7 +53,7 @@ When MMS is triggered for a given user, a migration request for that user is pla
 
  ![Screenshot that shows the meeting block that gets updated by MMS.](/skypeforbusiness/sfbonline/images/210a03ee-30c1-46f3-808f-4c2ebdaa3ea1.png)
 
-From the time MMS is triggered, it typically takes about 2 hours until the user’s meetings are migrated. However, if the user has a large number of meetings, it might take longer. If MMS encounters an error migrating one or more meetings for the user, it will periodically retry up to 9 times over the span of 24 hours.
+From the time MMS is triggered, it typically takes about 2 hours until the user’s meetings are migrated. However, if the user has a large number of meetings, it might take longer. If MMS encounters an error migrating one or more meetings for the user, it periodically retries up to nine times over the span of 24 hours.
 
 **Notes**:
 
@@ -77,11 +77,11 @@ This section describes what happens when MMS is triggered in each of the followi
 
 This is the most common scenario where MMS helps create a smoother transition for your users. Without meeting migration, existing meetings organized by a user in Skype for Business Server on-premises would no longer work once the user is moved online. Therefore, when you use the on-premises admin tools (either `Move-CsUser` or the Admin Control Panel) to move a user to the cloud, existing meetings are automatically moved to the cloud and converted to TeamsOnly.
 
-If the user has been assigned an Audio Conferencing license before being moved to the cloud, the meetings will be created with dial-in coordinates. If you move a user from on-premises to the cloud and you intend for that user to use Audio Conferencing, we recommend that you first assign the audio conference before you move the user so that only 1 meeting migration is triggered.
+If the user is assigned an Audio Conferencing license before being moved to the cloud, the meetings are created with dial-in coordinates. If you move a user from on-premises to the cloud and you intend for that user to use Audio Conferencing, we recommend that you first assign the audio conference before you move the user so that only one meeting migration is triggered.
 
 ### Updating meetings when a user's audio conferencing settings change
 
-In the following cases, MMS will update existing Skype for Business and Microsoft Teams meetings to add, remove, or modify dial-in coordinates:
+In the following cases, MMS updates existing Skype for Business and Microsoft Teams meetings to add, remove, or modify dial-in coordinates:
 
 - When you assign or remove a Microsoft Audio Conferencing service license to a user, and that user isn't enabled for a third-party audio conferencing provider.
 - When you change the audio conferencing provider of a user from any other provider to Microsoft, provided the user is assigned a Microsoft Audio Conferencing license. For more information, see [Assign Microsoft as the audio conferencing provider](./assign-microsoft-as-the-audio-conferencing-provider.md). Also note that support for third party audio conferencing providers [ACP] is scheduled for end of life on April 1, 2019, as [previously announced](../legal-and-regulatory/end-of-integration-with-3rd-party-providers.md).

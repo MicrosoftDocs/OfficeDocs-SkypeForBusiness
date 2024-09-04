@@ -24,7 +24,7 @@ description: "Planning for Optimal Skype for Business Experience over Wi-Fi prov
 
 # USB audio and video devices certified for Skype for Business and Lync clients
 
-The peripherals certification program ensures that USB peripherals such as headsets, speakerphones, webcams, and monitors, offer rich audio or video quality. Certified devices work out of the box (plug & play) with no additional configuration required, and offer call control with Skype for Business and Lync clients. The products provide a great experience for end-users and administrators.
+The peripherals certification program ensures that USB peripherals such as headsets, speakerphones, webcams, and monitors, offer rich audio or video quality. Certified devices work out of the box (plug & play) with no other configuration required, and offer call control with Skype for Business and Lync clients. The products provide a great experience for end-users and administrators.
 
 [Explore devices tested and certified for Skype for Business.](https://products.office.com/microsoft-teams/across-devices/devices)
 

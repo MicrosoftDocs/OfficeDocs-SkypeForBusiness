@@ -46,7 +46,7 @@ It might be easier for you to see all of the audio conferencing settings for Sky
 2. In the left navigation of the admin center, go to **Users** > **Active users**, and then select the user or users from the list of available users.
 
     > [!NOTE]
-    > If you are assigning licenses to up to 20 users at the same time, you can use the **Select a view** drop-down then choose one of the options or create your own view. Then click **Edit**, **Next** twice then select the license and click **Submit**. You can also assign licenses to multiple users by using Windows Powershell. For instructions and sample PowerShell scripts, see [Assign Skype for Business licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+    > If you are assigning licenses to up to 20 users at the same time, you can use the **Select a view** drop-down then choose one of the options or create your own view. Then click **Edit**, **Next** twice then select the license and select **Submit**. You can also assign licenses to multiple users by using Windows Powershell. For instructions and sample PowerShell scripts, see [Assign Skype for Business licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
 3. In the Action pane under **Product licenses**, click **Edit**.
 
@@ -61,11 +61,11 @@ It might be easier for you to see all of the audio conferencing settings for Sky
 
 1. Sign in with your work or school account.
 
-2. Go to the admin center > **Skype for Business** and in the left navigation, click **Audio conferencing**.
+2. Go to the admin center > **Skype for Business** and in the left navigation, select **Audio conferencing**.
 
 3. On the **Microsoft bridge settings** page, select or clear the **Automatically send emails to users if their audio conferencing settings change**.
 
-4. Click **Save**.
+4. Select **Save**.
 
     You can also send emails to the user with the audio conferencing settings by going to the user's audio conferencing properties and clicking **Send conference info via email**. The conference ID and default audio conferencing phone number is included on the meeting invite but not the PIN.
 

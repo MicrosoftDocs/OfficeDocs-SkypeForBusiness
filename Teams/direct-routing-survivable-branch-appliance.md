@@ -3,7 +3,7 @@ title: Direct Routing SBA
 author: CarolynRowe
 ms.author: crowe
 manager: pamgreen
-ms.date: 03/24/2024
+ms.date: 08/15/2024
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -16,7 +16,7 @@ search.appverid: MET150
 f1.keywords: 
   - NOCSH
   - ms.teamsadmincenter.directrouting.overview
-description: Learn more about Direct Routing Survivable Branch Appliance (SBA).
+description: Learn about Direct Routing Survivable Branch Appliance (SBA).
 ms.custom: 
   - seo-marvel-apr2020
   - seo-marvel-jun2020
@@ -28,9 +28,9 @@ appliesto:
 
 Occasionally, a customer site using Direct Routing to connect to Microsoft Teams Phone may experience an internet outage.
 
-Assume that the customer site--called a branch--temporarily can't connect to the Microsoft cloud through Direct Routing. However, the intranet inside the branch is still fully functional, and users can connect to the Session Border Controller (SBC) that is providing PSTN connectivity.
+In this scenario, assume that the customer site--called a branch--temporarily can't connect to the Microsoft cloud through Direct Routing. However, the intranet inside the branch is still fully functional, and users can connect to the Session Border Controller (SBC) that is providing PSTN connectivity.
 
-This article describes how to use a Survivable Branch Appliance (SBA) to enable Teams Phone to continue to make and receive Public Switched Telephone Network (PSTN) calls in the case of an outage.
+This article describes how to use a Survivable Branch Appliance (SBA) to enable Teams Phone to continue to make and receive Public Switched Telephone Network (PSTN) calls in case of an outage.
 
 ## Prerequisites
 
@@ -38,14 +38,14 @@ The SBA is distributable code provided by Microsoft to SBC vendors who then embe
 
 To get the latest Session Border Controller firmware with the embedded Survivable Branch Appliance, contact your SBC vendor. In addition, the following is required:
 
-- The SBC needs to be configured for Media Bypass to ensure that the Microsoft Teams client in the branch site can have media flowing directly with the SBC. 
+- The SBC is configured for Media Bypass to ensure that the Microsoft Teams client in the branch site can have media flowing directly with the SBC. 
 
-- TLS1.2 should be enabled on the SBA VM OS.
-- Ports 3443, 4444 and 8443 are used by Microsoft SBA Server to communicate with the Teams client and should be allowed on the firewall. 
-- Port 5061 (or the one configured on the SBC) is used by Microsoft SBA Server to communicate with the SBC and should be allowed on the firewall. 
-- UDP Port 123 is used by Microsoft SBA Server to communicate with NTP server and should be allowed on the firewall.
-- Port 443 is used by Microsoft SBA Server to communicate with Microsoft 365 and should be allowed on the firewall.
-- Azure IP Ranges and Service Tags for the Public Cloud should be defined according to the guidelines described at: https://www.microsoft.com/download/details.aspx?id=56519
+- TLS1.2 is enabled on the SBA VM OS.
+- Ports 3443, 4444, and 8443 are used by Microsoft SBA Server to communicate with the Teams client and is allowed on the firewall. 
+- Port 5061 (or the one configured on the SBC) is used by Microsoft SBA Server to communicate with the SBC and is allowed on the firewall. 
+- UDP Port 123 is used by Microsoft SBA Server to communicate with NTP server and is allowed on the firewall.
+- Port 443 is used by Microsoft SBA Server to communicate with Microsoft 365 and is allowed on the firewall.
+- Azure IP Ranges and Service Tags for the Public Cloud are defined according to the guidelines described at: https://www.microsoft.com/download/details.aspx?id=56519
 
 ## Supported Teams clients
 
@@ -53,13 +53,32 @@ The SBA feature is supported on the following Microsoft Teams clients:
 
 - Microsoft Teams Windows desktop 
 - Microsoft Teams macOS desktop
-- Teams for Mobile 
 - Teams Phones
 
 ## How it works
 
-The SBA checks TCP connectivity (ping) with sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com, and sip3.pstnhub.microsoft.com. If there is connectivity with at least one of these addresses, a network outage is not declared. When connectivity to all three addresses is lost, the SBA detects a network outage and will initiate. SP addresses are within Microsoft IP ranges, which should be preconfigured during Direct Routing setup. Customers do not need to add extra rules on the Firewall.
-During an internet outage, the Teams client switches to the SBA automatically, and ongoing calls continue with no interruptions. No action is required from the user. As soon as the Teams client detects that the internet is up, and any outgoing calls are finished, the client falls back to normal operation mode, and connects to other Teams services. The SBA uploads collected Call Data Records to the cloud. Call history is updated for review by the tenant administrator. 
+During an internet outage, the Teams client switches to the SBA automatically, and ongoing calls continue with no interruptions. No action is required from the user. 
+
+As soon as the Teams client detects that the internet is up, and any outgoing calls are finished, the client falls back to normal operation mode, and connects to other Teams services. The SBA uploads collected Call Data Records to the cloud. Call history is updated for review by the tenant administrator. 
+
+The Teams client-side outage mechanism for the SBA is designed to ensure continuous connectivity and service availability during network disruptions. 
+
+The following conditions must be met:
+
+- Client Policy Check: The user is assigned the branch survivability policy for an SBA that the Teams client connects to--only if the appliance is up.
+
+- Network Status Check: The Teams client connects to the SBA when the internet is disconnected, but the user's device is still connected to the SBA appliance.
+
+Once these conditions are met, the Teams client pings the SBA appliance, and the client checks the policy. If both of these conditions are met, the following occurs: 
+
+- Branch Survivability Policy: The branch survivability policy points to the SBA URLs assigned to the user/tenant. 
+
+- Connection to the SBA on the Teams Client Side: Once the Teams client is offline and the user has the required policies, the Teams client switches to Appliance mode where the user is able to make and receive PSTN calls. A banner is displayed to inform users of the switch to the SBA.
+  
+  The only UI indicator of the switch to Appliance mode is the banner. If the banner isn't present, the user isn't in SBA mode, and calling won't work. 
+  
+SBA mode is activated only on desktop clients on a physical machine. VMs and web clients aren't supported at the moment.
+
 
 When the Microsoft Teams client is in offline mode, the following calling-related functionality is available: 
 
@@ -67,11 +86,12 @@ When the Microsoft Teams client is in offline mode, the following calling-relate
 - Receiving PSTN calls through the local SBA/SBC with media flowing through the SBC.
 - Hold and resume of PSTN calls.
 - Blind transfer.
-- Call forwarding to single phone number or Teams user.
+- Call forwarding to a single phone number or Teams user.
 - Unanswered call forwarding to single phone number or Teams user.
 - Redirect of incoming PSTN call to a Call queue or Auto attendant number to a local agent.
-- VoIP Fallback. If VoIP call cannot be initiated and receiving party has a PSTN number, PSTN call will be attempted
-- VoIP calls between local users. If both users are registered behind the same SBA, a VoIP call can be initiated instead of PSTN call,  and the SBA will fully support it.
+- Redirect of incoming PSTN call to a Call queue or Auto attendant number to an alternative Call queue or Auto attendant number.
+- VoIP Fallback. If a VoIP call can't be initiated and the receiving party has a PSTN number, a PSTN call is attempted
+- VoIP calls between local users. If both users are registered behind the same SBA, a VoIP call can be initiated instead of PSTN call, and the SBA will support the call.
 
 ## Configuration
 
@@ -82,9 +102,9 @@ For the SBA feature to work, the Teams client needs to know which SBAs are avail
 3. Assign the policy to users.
 4. Register an application for the SBA with Microsoft Entra ID.
 
-All configuration is done by using Teams PowerShell cmdlets. (The Teams admin center does not yet support the Direct Routing SBA feature.) 
+All configuration is done by using Teams PowerShell cmdlets. (The Teams admin center doesn't yet support the Direct Routing SBA feature.) 
 
-For information on configuring the SBC, with links to SBC vendor documentation, see Session Border Controller configuration at the end of this article.
+For information on configuring the SBC, with links to SBC vendor documentation, see [Session Border Controller configuration](#session-border-controller-configuration).
 
 ### Create the SBAs
 
@@ -110,7 +130,7 @@ Description : SBA 1
 
 ### Create the Teams Branch Survivability Policy 
 
-To create a policy, use the New-CsTeamsSurvivableBranchAppliancePolicy cmdlet. This cmdlet has the following parameters. Note that the policy can contain one or more SBAs.
+To create a policy, use the New-CsTeamsSurvivableBranchAppliancePolicy cmdlet. This cmdlet has the following parameters. The policy can contain one or more SBAs.
 
 | Parameter| Description |
 | :------------|:-------|
@@ -205,21 +225,26 @@ For step-by-step guidance on how to configure your Session Border Controller wit
 
 - [TE-Systems](https://www.anynode.de/microsoft-teams-sba/)
 
-## Reporting issues
 
-Report any issues to your SBC vendor's support organization. When reporting the issue, indicate that you have a configured Survivable Branch Appliance.
 
-## Known issues
+## Known issues and considerations
 
-- Because the SBA relies on authentication tokens that are valid for 24 hours and are renewed daily, the SBA can support outages for up to 24 hours from the last authentication. This means that if an outage occurs 20 hours after the last authentication token renewal, SBA will be operational only for the remaining 4 hours.
-- If the tenant is using Continuous Access Evaluation (CAE) tokens, SBA will be operational only for about 30 minutes, due to the nature of continuous access evaluation. An alternative would be to dissable CAE for the tenant.
+The following are known issues and considerations:
+
+- Because the SBA relies on authentication tokens that are valid for 24 hours and are renewed daily, the SBA can support outages for up to 24 hours from the last authentication. If an outage occurs 20 hours after the last authentication token renewal, the SBA will be operational only for the remaining 4 hours.
+
+- If the tenant is using Continuous Access Evaluation (CAE) tokens, the SBA will be operational only for about 30 minutes, due to the nature of continuous access evaluation. An alternative would be to dissable CAE for the tenant.
 
 - When you add new Survivable Branch Appliances, it might take time before you can use them in Survivable Branch Appliance policies.
 
 - When you assign a Survivable Branch Appliance policy to a user, it might take time before the SBA is shown in the output of Get-CsOnlineUser. 
 
-- Reverse number lookup against Microsoft Entra ID Contacts is not performed. 
+- Reverse number lookup against Microsoft Entra ID Contacts isn't performed. 
 
-- The SBA does not support call forwarding settings. 
+- The SBA doesn't support call forwarding settings. 
 
 - Making an emergency call to an emergency number configured for dynamic emergency calling (E911) is not supported.
+
+## Report an issue
+
+Report any issues to your SBC vendor's support organization. When reporting the issue, indicate that you have a configured Survivable Branch Appliance.

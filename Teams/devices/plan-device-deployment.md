@@ -1,10 +1,10 @@
 ---
-title: Plan your deployment for Teams phone devices and Displays
+title: Plan your deployment for Teams Phones
 ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
-ms.reviewer: kponnus
-ms.date: 12/17/2021
+ms.reviewer: prashibadkur
+ms.date: 08/02/2024
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
@@ -18,148 +18,85 @@ ms.collection:
 f1.keywords: 
   - NOCSH
 search.appverid: MET150
-description: This article provides an overview of the tasks and steps to deploy Teams phones and displays in your organization.
+description: This article provides an overview of the tasks and steps to deploy Teams Phones in your organization.
 ---
 
-# Plan your deployment for Teams phone devices and Displays
+# Plan your deployment for Teams Phones
 
-A successful deployment of Teams phone devices and Teams Displays starts with planning. This article will take you through the tasks and steps to deploy these devices in your organization. It also provides guidance on devices usage, licensing, integrating with your environment, touchpoints, and management.
+Teams Phone devices are a great way to stay connected and productive with your colleagues and customers. These devices are designed to provide a seamless calling and meeting experience. With just three easy steps, you can deploy a [Teams Phone device certified by Microsoft](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/category/desk-phones-teams-displays/34?page=1&filterIds=), in your spaces and enjoy advanced calling features.
 
-> [!TIP]
-> [The Microsoft 365 Adoption Hub](https://adoption.microsoft.com/) is a great place to get started on your adoption journey with Microsoft Teams.
+## Step 1: Consider the space Teams Phone device will be used in
 
-## Task 1: What are your deployment objectives?
+- **Personal Space**: Used on an employee’s desk to make and receive calls.
+- **Shared Space**: Used in a shared space, such as a lobby, a building floor, or anywhere your employees and visitors need quick access to make call.
 
-Planning the rollout of Teams phones and Displays in your organization starts with your deployment goals. Teams devices support hybrid work in meeting rooms, offices, and other functional spaces. You'll need to determine where these devices will be used and by whom.
+The space you choose will determine the type of license you'll need.
 
-### Objective: Identify your device personas
+## Step 2: Pick the licenses and workloads you'll need for the space 
 
-Teams phones and Displays will fit one of two personas: 
+|License  |Calls |People  |Voicemail  |	Walkie Talkie|Calendar|
+|---------|---------|---------|---------|-------|------|
+|Teams Phone license     | Yes        |Yes         |Yes         |Yes|Yes|
+|Teams Shared Device license    | 	Yes   |  	Yes    | 	Yes    |Yes|No|
+|Teams Rooms Pro license     |Yes         |  Yes       |  No       |No|Yes|
 
-- Personal devices
-- Shared space devices
+### Licenses
 
-Personal and shared devices have different roles and uses. 
+- **Teams Phone license**: If the phone device is used at a user’s desk, you can use the same Teams Phone License used on Teams desktop or Teams mobile app allowing you to make and receive calls and join meetings on the phone device. Teams subscriptions with Teams Phone license enable calling between Teams on mobile, desktop, and phone device. With Microsoft Calling plans add-on license, you can make and receive calls to and from a phone number over PSTN network.
 
-**Personal devices:** 
+- **Teams Shared Device license**: If you're using the phone device in a shared space, such as a lobby or a building floor, you'll need a Shared Device license that allows users to use the device for calling purposes. Shared Device license comes included with a Teams Phone license enabling use of advanced calling features such as call queue, auto attendant, etc.
 
-- Typically assigned to one user, signed in with that user's account, and enabled with a Teams feature license to access the service.
-- Think of personal devices as having a one-to-one relationship, with one device per one user.
-- Can be paired with the Teams desktop client and use features like Better Together
-- May connect to a headset, wired or wireless
-- Additional features on personal devices include hot-desking and Home Screen. 
+- **Teams Rooms Pro license**: If you're using the audio-conferencing device in a small meeting room, you'll need a Teams Rooms Pro license that allows you to join audio meetings with one touch.
 
-**Shared space devices:**
+### Workloads:
 
-- Perform a specific function, like a common area phone or meeting room device and require a dedicated account and feature license to access the service.
-- Think of shared devices as having a one-to-many relationship: one device shared by many users.
-- Deployed in shared spaces like meeting rooms, reception areas, or manufacturing floors. 
-- Their user interfaces (UI) are specific to their function, such as common area phone UI, or meeting room UI depend upon the function and placement of the shared device.
-- Require configuration and optional hardening to ensure settings aren't changed, or to prevent the account from signing out. 
-- Additional features on shared space devices include search on common area phones and hot-desking with idle timeout
+- **Calls**: Manage calls, search the directory, and use speed dial for quick calling. Users can also use advanced calling features, such as call queue and auto attendant.
+- **People**: Add and manage contacts and contact groups.
+- **Voicemail**: View voicemail history and associated actions.
+- **Walkie Talkie**: Users part of a Teams channel can broadcast messages to other users' part of the same channel.
+- **Calendar**: Schedule and join meetings.
 
-### Objective: How many personal and shared space devices do you need?
+  :::image type="content" source="media/teams-apps-1.png" alt-text="Screenshot of teams app." lightbox="media/teams-apps-1.png":::
 
-Now that you've identified your device personas, you need to determine which certified devices you want to use and how many of them you need. To help you make this decision, consider the following questions: 
+## Step 3: Setup desired phone device experience for your users 
 
-- How many personal devices are required and who will have one?
-- How many rooms or spaces require shared devices? Will every space have the same type of device? 
-- Will your devices need to meet specific requirements?
-    - Examples include screen size, form factor, and manufacturer or model? For a list of certified phones and displays, see [Microsoft Teams certified devices](teams-ip-phones.md).
--  Do you need Teams phones or Teams displays? For a list of features supported by Teams phones, see [Phones for Microsoft Teams](phones-for-teams.md#features-supported-by-teams-phones). For a list of features supported by Teams displays, see [Microsoft Teams displays](teams-displays.md#features-supported-by-teams-displays).
-- Do you have enough devices for new users, or a process for new orders and delivery?
-- Will you have spare devices available for maintenance or if a device experiences hardware issues? Being able to swap a device quickly prevents disruptions in user experience.
+First, configure IP Phone Policy [SignInMode](/powershell/module/teams/new-csteamsipphonepolicy#-signinmode) parameter via PowerShell to enable associated apps on phone device.
 
-## Task 2: What are your licensing requirements? 
+- With **UserSignIn** mode, get Calls, People, Voicemail, Walkie Talkie, and Calendar apps when Personal License is assigned to the account.
 
-Now you know how many devices you need, the next step is to determine how many licenses are needed. Teams phones and displays require licenses to access Microsoft Teams and Microsoft 365.
+- With **CommonAreaPhoneSignIn** mode, get Calls app when Shared Device License is assigned to the account. Additionally, you can enable '[Advanced Calling](../set-up-common-area-phones.md#step-6---set-up-advanced-calling-on-common-area-phones-optional)' setting on phone device or Teams Admin Center to get People, Walkie Talkie, and Voicemail apps.
 
-Shared and personal devices need different licensing. For personal devices, licenses assigned to user accounts can be used. Shared devices need licenses specific to their function. For phones and displays, the applicable license is [the Microsoft Teams Shared Devices license](/microsoftteams/teams-add-on-licensing/teams-shared-device-license).
+- With **MeetingSignIn** mode, get Calendar app with meeting join experience when Teams Rooms Pro license is assigned to the account.
 
-For more information and to compare your licensing options, see [Microsoft 365 licensing plans](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1).
+  :::image type="content" source="media/sign-in-teams.png" alt-text="Screenshot to sign into teams." lightbox="media/sign-in-teams.png":::
 
-## Task 3: What are your dependencies? 
+Then, choose from the following home screen experiences you want to enable for your users. On touch and non-touch phones, you can choose to enable one of the following experiences:
 
-### Objective: Plan your device identities
+- **Basic Calling Experience**: On an account signed in with CommonAreaPhoneSignIn mode, you can offer a basic Dialpad and Speed Dial view by disabling the '[Advanced Calling](../set-up-common-area-phones.md#step-6---set-up-advanced-calling-on-common-area-phones-optional)' setting.
 
-Identities enable devices to access Microsoft 365 services, and they should make devices easier to discover, manage, and connect to within your organization. To accomplish this, consider the following when planning device identities:
+- **Advanced Calling Experience**: On an account signed in with CommonAreaPhoneSignIn mode, you can offer a home screen experience with Calls, People, and Voicemail apps by enabling '[Advanced Calling](../set-up-common-area-phones.md#step-6---set-up-advanced-calling-on-common-area-phones-optional)' setting.
 
-- User principal names and their format and domain
-- Display names
-- Address book discoverability
-- Personal versus shared space device types
-- Group versus user assigned licensing
+- **Hotline Experience**: On an account signed in with CommonAreaPhoneSignIn mode and assigned with Shared Device license, you can enable '[Hotline](../set-up-common-area-phones.md#step-7---set-up-hotlineplar-on-common-area-phones-optional)' setting to offer a PLAR (Private line auto ringdown) experience.
 
-### Objective: Review Conditional Access policies
+In addition to the above, you can choose from the following experiences on touch phones.
 
-Microsoft Entra Conditional Access policies are additional requirements that must be met before a device can be signed in.
+- **Calls App Experience**: On an account signed in with UserSignIn mode or CommonAreaSignIn mode (with Advanced Calling enabled), you can set the Calls app to be your default home screen by disabling [Homescreen](/powershell/module/teams/new-csteamsipphonepolicy#-allowhomescreen).
 
-As you plan your deployment
+- **Meeting Experience**: An account signed in with MeetingSignIn mode will get meeting join experience.
 
-- Review existing Conditional Access policies that could affect your Teams phones and displays. You can do this in the Microsoft Entra Admin Center using the [What If tool](/azure/active-directory/conditional-access/what-if-tool) and [Sign-in logs](/azure/active-directory/reports-monitoring/concept-sign-ins)
+## Best Practices:
 
-- Plan for new rules if needed
+- **Manage firmware and Teams app updates**: Enable [auto updates](remote-update.md#automatic-updates) of firmware via Teams admin center and assign devices to different rings (Validation, General, Final) to roll out updates in phases. You can assign the Validation ring to a small set of test phones and assign other phones to General and Final rings. 
 
-- Use Conditional Access features like device filters to apply rules to Teams phones and displays.
+  > [!NOTE]
+  > Auto updates on Teams application is coming soon. Currently, you can [schedule](remote-update.md#manually-update-remote-devices) Teams application update via Teams admin center.
 
->[!NOTE]
->There are some Conditional Access policies that Android devices don't support. For guidance and best practices, see Android devices, see [Authentication best practices for Teams Android devices](authentication-best-practices-for-android-devices.md).
+- **Manage Authentication**: For password management, review [Authentication best practices](authentication-best-practices-for-android-devices.md).
 
-## Task 4: Prepare your environment
+- **Configure calling policies**: Configure different [calling policies](../teams-calling-policy.md) based on your needs.
 
-### Objective: Plan network basics
+- **Optimize phone memory usage**: To optimize phone performance, enable daily or automatic restart of Teams application on the phone device via [configuration profile](device-management.md#use-configuration-profiles-in-teams).
 
-Teams Phone devices and displays require access to the internet to connect to Teams and function as intended. To get your network ready for deployment, consider the following:
+- **Secure common area phones**: To provide secured access to settings on phone devices in shared spaces, set an Admin PIN on common area phones via [configuration profile](device-management.md#use-configuration-profiles-in-teams).
 
-- Does your network infrastructure have enough capacity? Consider switch ports, wireless access points, and other coverage.
-- If you use VLANs and DHCP, are your scopes sized accordingly?
-- Evaluate and test network paths from where devices are deployed to Microsoft 365. 
-- Open the required firewall ports and URLs for Microsoft 365 as per guidance.
-- Review and test E911 requirements and configuration for location accuracy and compliance. 
-- Avoid using a proxy server and optimize media paths for reliability and quality.
-
-### Objective: Physical considerations
-
-Consider the physical spaces that your Teams phones and displays will be used in.
-
-Key aspects include
-
-- **Power:** Do you have enough electrical outlets? If the device needs an external power source, how close can you position it to an outlet?
-- **Device placement:** Where will your device physically be? Review desk stands, wall mounts, and other accessories from the original equipment manufacturer (OEM).
-- **Security:** Does your device need to be locked in certain spaces?
-- **Accessibility:** Does the device meet the accessibility requirements of its primary user? Consider where it's placed, wire length, and handset or headset usability.
-
-### Task 5: How will you manage deployed devices?
-
-Teams phones and displays are managed from two to three Microsoft 365 portals and their respective PowerShell modules: 
-
-<a name='azure-active-directory-admin-center'></a>
-
-#### Microsoft Entra Admin Center
-
-Use the Microsoft Entra Admin Center to manage
-
-- All identity-related tasks for Teams phones and displays
-- Conditional Access policies 
-- Password resets
-
-#### Teams Admin Center
-
-Use the Teams Admin Center to manage
-
-- [Device settings for Teams](../business-voice/manage-devices.md)
-- [Configuration profiles](device-management.md#use-configuration-profiles-in-teams)
-- [Device tagging](manage-device-tags.md)
-- [Remote sign-in and sign-out](remote-sign-in-and-sign-out.md)
-- Call analytics  
-- Firmware
-- Troubleshooting and downloading logs
-
-#### Endpoint Manager Admin Center (if you use Intune for device management)
-
-Use the Endpoint Manager Admin Center to manage: 
-
-- Device compliance policies
-- Enrollment restrictions
-- Corporate device identifiers
-- Device filters
+- **Secure personal phones**: Ask your users who use phones in personal spaces to set a phone device lock PIN for secured access instead of setting a default phone device lock PIN via configuration profile.

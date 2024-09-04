@@ -14,7 +14,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
-description: Learn about the different identity models for Microsoft Teams such as cloud-only and hybrid. Also learn about multi-factor authentication.
+description: Learn about the different identity models for Microsoft Teams such as cloud-only and hybrid. Also learn about multifactor authentication.
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020
@@ -26,7 +26,7 @@ Microsoft Teams supports all the identity models that are available with Microso
 
 - **Cloud-only**: User accounts are created and managed in Microsoft 365 or Office 365 and stored in Microsoft Entra ID. User sign-in credentials (account name and password) are validated by Microsoft Entra ID.
 
-- **Hybrid**: User accounts are typically managed in an on-premises Active Directory Domain Services (AD DS) forest. Depending on the configuration, credential validation can be done by Microsoft Entra ID, AD DS, or a federated identity provider. This model uses directory synchronization from AD DS to Microsoft Entra ID with Microsoft Entra Connect.
+- **Hybrid**: User accounts are typically managed in an on-premises Active Directory Domain Services (AD DS) forest. Depending on the configuration, credential validations are done by Microsoft Entra ID, AD DS, or a federated identity provider. This model uses directory synchronization from AD DS to Microsoft Entra ID with Microsoft Entra Connect.
 
 For more information, see [Microsoft 365 identity models and Microsoft Entra ID](/microsoft-365/enterprise/about-microsoft-365-identity).
 
@@ -44,19 +44,19 @@ If you haven't already deployed Microsoft 365 or Office 365 and an identity mode
 |Hybrid identity with federated authentication    |<ol type="1"><li>Install and configure a federated identity provider such as AD FS.</li><li>Install Microsoft Entra Connect and configure directory synchronization and federated authentication.</li><li>Manage users and groups with AD DS tools.</li></ol> |<ul><li>[Plan your AD FS deployment](/previous-versions/azure/azure-services/dn151324(v=azure.100))</li><li>[Checklist: Deploy your federation server farm](/previous-versions/azure/azure-services/dn528856(v=azure.100))</li><li>[Configure extranet access for AD FS](/previous-versions/azure/azure-services/dn528859(v=azure.100))</li><li>[Set up a trust between AD FS and Microsoft Entra ID](/previous-versions/azure/azure-services/jj205461(v=azure.100))</li><li>[Verify and manage single sign-on with ADFS](/previous-versions/azure/azure-services/jj151809(v=azure.100))</li><li>[Set up directory synchronization](/microsoft-365/enterprise/set-up-directory-synchronization)</li></ul> |
 ||||
 
-## Multi-factor authentication
+## Multifactor authentication
 
-Passwords are the most common method of authentication for signing in to a computer or online service, but they are also the most vulnerable. People can choose easy passwords and use the same passwords for multiple sign-ins to different computers and services. 
+Passwords are the most common method of authentication for signing in to a computer or online service, but they're also the most vulnerable. People can choose easy passwords and use the same passwords for multiple sign-ins to different computers and services. 
 
-To provide an additional level of security for sign-ins, use multi-factor authentication (MFA), which requires both a password and an additional verification method such as:
+To provide an extra level of security for sign-ins, use multifactor authentication (MFA), which requires both a password and an other verification method such as:
 
 - A text message sent to a phone that requires the user to type a verification code.
 - A phone call.
 - The Microsoft Authenticator smart phone app.
 - Other methods available with hybrid identity and federated authentication.
 
-MFA is supported with any Microsoft 365 or Office 365 plan that includes Microsoft Teams. It is highly recommended that at a minimum you require MFA for that accounts that are [assigned administrator roles](/microsoft-365/admin/add-users/about-admin-roles), such as Teams service admin.
+MFA is supported with any Microsoft 365 or Office 365 plan that includes Microsoft Teams. It's highly recommended that at a minimum you require MFA for that accounts that are [assigned administrator roles](/microsoft-365/admin/add-users/about-admin-roles), such as Teams service admin.
 
-You should also roll out MFA to your users. Once your users are enrolled for MFA, the next time they sign in, they will see a message that asks them to set up their additional verification method. 
+You should also roll out MFA to your users. Once your users are enrolled for MFA, the next time they sign in, they'll see a message that asks them to set up their extra verification method. 
 
-For more information, see [Multi-factor authentication for Microsoft 365](/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365).
+For more information, see [multifactor authentication for Microsoft 365](/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365).

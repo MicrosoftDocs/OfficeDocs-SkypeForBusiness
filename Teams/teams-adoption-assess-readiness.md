@@ -26,7 +26,7 @@ appliesto:
 
 # How ready is your organization for Microsoft Teams?
 
-Now that your project team has come together and you are beginning to see what Teams can do for your organization, it's important to assess your organization's readiness for the Teams transition. To assess your readiness, you will need to:
+Now that your project team has come together and you're beginning to see what Teams can do for your organization, it's important to assess your organization's readiness for the Teams transition. To assess your readiness, you need to:
 
 1. Assess your stakeholders.
 2. Identify early adopters.
@@ -38,13 +38,13 @@ List the core stakeholders and business leaders in your organization. For each i
  
 1. Is this leader friendly to new technology?
 2. Rate this leader's satisfaction with your current technology.
-3. Is this leader willing to use unsanctioned technology to accelerate results or create a better experience for his/her team members?
-4. Is this leader under a high degree of pressure to deliver key business results? 
-5. Will this leader be willing to evangelize his/her experience with Teams to assist in the transition?
+3. Is this leader willing to use unsanctioned technology to accelerate results or create a better experience for the team members?
+4. Is this leader under a high degree of pressure to deliver key business results?
+5. Will this leader be willing to evangelize his/her experience with Teams to help the transition?
 6. Does this leader have a positive relationship with key members of the existing project team?
 7. Does this leader like to be viewed as an "agent of change" within the organization?  
 
-You can add additional questions that are relevant to your organization. For your initial two phases (startup and experiment), you'll see leaders who are friendly to change, somewhat dissatisfied with current technology, and that you have a good relationship with. These leaders should be brought into the core project team as business advisors and may have projects that will be essential for your experimentation phase. It is important to select impactful, real world situations to experiment with, and avoid high risk projects for your initial experiments.
+You can add other questions that are relevant to your organization. For your initial two phases (startup and experiment), you see leaders who are friendly to change, dissatisfied with current technology, and that you have a good relationship with. These leaders should be brought into the core project team as business advisors and might have projects that will be essential for your experimentation phase. It's important to select impactful, real world situations to experiment with, and avoid high risk projects for your initial experiments.
    
 > [!NOTE]
 > While it's possible to assign a score to this sort of questionnaire that would minimize the impact of the human element of relationships within your organization, driving change depends on the chemistry of the team as much as their technical skill or business acumen. Review this list with your team members to discuss the "fit" of your various leaders with this project as you select projects and staff for subsequent phases. 
@@ -60,13 +60,13 @@ Early adopters share certain traits no matter what size or industry your organiz
 - Willing to share their observations and learnings with the group
 - Are risk takers; that is, they're willing to try something to see if it works
 
-Use a simple form in Microsoft 365 or Office 365 to allow these individuals to opt into your early adopter program for Teams. Depending on the size and complexity of your organization, you may choose to enable some or all of these individuals for your experimentation phase. In this program, they are agreeing to actively participate in your experimentation phase and provide regular feedback to the project team. Avoid having individuals who simply want to test drive new technology. Let them know that by giving this active feedback, they are helping to craft the outcome of your project. You will use this list of people in [Phase 2 - experiment](teams-adoption-phase2-experiment.md).
+Use a form in Microsoft 365 or Office 365 to allow these individuals to opt into your early adopter program for Teams. Depending on the size and complexity of your organization, you may choose to enable some or all of these individuals for your experimentation phase. In this program, they're agreeing to actively participate in your experimentation phase and provide regular feedback to the project team. Avoid having individuals who simply want to test drive new technology. Let them know that by giving this active feedback, they're helping to craft the outcome of your project. You'll use this list of people in [Phase 2 - experiment](teams-adoption-phase2-experiment.md).
 
 Our Early Adopter Program Guide is a helpful resource for kicking off this program in your environment.  
  
 ## Assess your organization's readiness for change
 
-Change is a human process that has nothing to do with technology. There is behavioral psychology and neuroscience that educates us about the natural resistance to change. To make change acceptable, it's critical to anticipate the needs of your users, express your understanding of their situation, and create solutions that improve that situation. Even in doing so you will encounter natural resistance to change.  
+Change is a human process that has nothing to do with technology. There's behavioral psychology and neuroscience that educates us about the natural resistance to change. To make change acceptable, it's critical to anticipate the needs of your users, express your understanding of their situation, and create solutions that improve that situation. Even in doing so you'll encounter natural resistance to change.  
 
 ![Graph illustrating resistance to change.](media/teams-adoption-resistance.png)
 

@@ -26,7 +26,7 @@ appliesto:
 
 Team templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
 
-Team templates have pre-built definitions of team structures designed around governmental needs. You can also extend the team templates to create teams that are tailored to your specific organizational needs.
+Team templates have prebuilt definitions of team structures designed around governmental needs. You can also extend the team templates to create teams that are tailored to your specific organizational needs.
 
 In this article, we introduce each of the team templates and recommend how to use them.
 

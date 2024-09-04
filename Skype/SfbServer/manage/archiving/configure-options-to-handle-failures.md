@@ -12,30 +12,30 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
-description: "Summary: Learn how to block IM and conferencing sessions in the case of a Skype for Business Server failure that would prevent archiving."
+description: "Summary: Learn how to block IM and conferencing sessions if Skype for Business Server failure that would prevent archiving."
 ---
 
 # Configure archiving options to handle failures in Skype for Business Server
 
-**Summary:** Learn how to block IM and conferencing sessions in the case of a Skype for Business Server failure that would prevent archiving.
+**Summary:** Learn how to block IM and conferencing sessions if Skype for Business Server failure that would prevent archiving.
   
-If archiving is a requirement for your organization, you can block IM and conferencing sessions in the event of a Skype for Business Server failure that would prevent archiving. This is sometimes called critical mode. For example, if there is a problem with a storage service, IM would be blocked for users whose communications are enabled for archiving. Both IM and conferencing automatically recover after the failures are corrected. 
+If archiving is a requirement for your organization, you can block IM and conferencing sessions if Skype for Business Server failure that would prevent archiving. This is sometimes called critical mode. For example, if there's a problem with a storage service, IM would be blocked for users whose communications are enabled for archiving. Both IM and conferencing automatically recover after the failures are corrected. 
   
 ## Configure critical mode by using the Control Panel
 
-To specify whether communication sessions should be allowed in case of a failure that would prevent archiving:
+To specify whether communication sessions should be allowed if failure that would prevent archiving:
   
-1. From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment. 
+1. From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, sign in any computer in your internal deployment. 
     
 2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
     
-3. In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Configuration**.
+3. In the left navigation bar, select **Monitoring and Archiving**, and then select **Archiving Configuration**.
     
-4. Click the name of the appropriate global, site, or pool configuration in the list of archiving configurations, click **Edit**, and then click **Show details**.
+4. Select the name of the appropriate global, site, or pool configuration in the list of archiving configurations, select **Edit**, and then click **Show details**.
     
 5. To set how archiving behaves when a failure occurs, select or clear the **Block instant messaging (IM) or web conferencing sessions if archiving fails** check box.
     
-6. Click **Commit**.
+6. Select **Commit**.
     
 ## Configure critical mode by using Windows PowerShell
 

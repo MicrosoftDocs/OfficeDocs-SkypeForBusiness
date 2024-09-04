@@ -48,8 +48,8 @@ The following table shows which features are available in meetings, webinars, an
 |[eCDN](streaming-ecdn-enterprise-content-delivery-network.md)|✔️|✖️|✔️|
 |[End-to-end encryption](teams-end-to-end-encryption.md)|Premium|✖️|✖️|
 |[External participants can give or request control](meeting-who-present-request-control.md)|✔️|✔️|✖️|
-|[Green room](hide-attendee-names.md)|✔️|✔️|✔️|
-|[Hide attendee names](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5)|Premium|Premium|✖️|
+|[Green room](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5)|✔️|✔️|✔️|
+|[Hide attendee names](hide-attendee-names.md)|Premium|Premium|✖️|
 |[Interactive participants](view-only-meeting-experience.md)|1,000|1,000|✖️|
 |[Language interpretation](https://support.microsoft.com/office/use-language-interpretation-in-microsoft-teams-meetings-b9fdde0f-1896-48ba-8540-efc99f5f4b2e)|✔️|✔️|✖️|
 |[Limit presenter role permissions](presenter-role-reduction.md)|✔️|✔️|✔️|
@@ -68,10 +68,11 @@ The following table shows which features are available in meetings, webinars, an
 |[Recording](meeting-recording.md)|✔️|✔️|✔️|
 |[Record automatically](https://support.microsoft.com/office/record-a-meeting-in-microsoft-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_whocanstartorstoparecording)|✔️|✔️|✔️|
 |[Recordings automatically expire](meeting-recording.md)|✔️|✔️|✔️|
-|[Registration](set-up-webinars.md)| Optional|✔️|✖️|
+|[Registration](set-up-webinars.md)| ✖️|✔️|✖️|
 |[RTMP-in](https://support.microsoft.com/office/use-rtmp-in-in-a-teams-meeting-789d6090-8511-4e2e-add6-52a9f551be7f)| Premium|Premium|✔️|
 |[Shared notes](meeting-policies-content-sharing.md)|✔️|✔️|Only for organizers and co-organizers.|
 |[Speaker coach](meeting-speaker-coach.md)|✔️|✔️|For organizers and co-organizers.|
+|[Town hall attendee reactions](https://support.microsoft.com/office/schedule-a-town-hall-in-microsoft-teams-d493b5cc-9f61-4dac-8027-d837dafb7a4c#bkmk_townhall_reactions)|✖️|✖️|Premium|
 |[View-only experience](view-only-meeting-experience.md)|10,000<sup>1</sup>|✖️|✖️|
 |[VOD](manage-vod-publishing.md)|✖️|✔️|✔️|
 |[Voice isolation](voice-isolation.md)|✔️|✔️|✔️|

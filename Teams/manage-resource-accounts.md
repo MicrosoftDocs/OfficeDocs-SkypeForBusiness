@@ -3,8 +3,8 @@ title: Manage resource accounts for service numbers
 author: mkbond007
 ms.author: mabond
 manager: pamgreen
-ms.reviewer: roykuntz
-ms.date: 02/24/2023
+ms.reviewer: roykuntz, jastark
+ms.date: 05/21/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -32,9 +32,9 @@ description: In this article, you'll learn how to create, edit, and manage resou
 
 ## Next steps
 
-Once you've completed the resource account setup and assigning a phone number if needed, you're ready to use the resource account with an Auto attendant or Call queue.
+Once you complete the resource account setup and assign a phone number if needed, you're ready to use the resource account with an Auto attendant or Call queue.
 
-See the following references to learn more:
+To learn more, see the following references:
 
 - [Cloud Auto attendant](create-a-phone-system-auto-attendant.md)
 - [Cloud Call queue](create-a-phone-system-call-queue.md)
@@ -115,7 +115,7 @@ For more information on this option, see [Limit who users can see when searching
 
 1. Sign into the [Microsoft Purview compliance portal](https://compliance.microsoft.com/).
 2. In the left navigation pane, select **Audit**.
-3. If auditing is turned off, the following banner will be displayed:
+3. If auditing is turned off, the following banner is displayed:
 
      :::image type="content" source="/microsoft-365/media/AuditingBanner.png" alt-text="Screenshot showing audit banner if auditing is not enabled."lightbox="/microsoft-365/media/AuditingBanner.png":::
   
@@ -125,7 +125,7 @@ For more information on auditing, see [Set up Audit (Standard) in Microsoft 365]
 
 #### Segmenting Data
 
-The Resource Accounts that shouldn't be called directly need to be segmented and easily identifiable.  This can be done by making them members of a particular group or by some unique information in their user profile such as:
+The Resource Accounts that shouldn't be called directly need to be segmented and easily identifiable. This can be done by making them members of a particular group or by some unique information in their user profile such as:
 
 - Company
 - User principal name
@@ -141,9 +141,9 @@ The Resource Accounts that shouldn't be called directly need to be segmented and
 - Mail (WindowsEmailAddress)
 - Description
 
-In the example steps below, the `Department` field will be used.
+In the example steps below, the `Department` field is used.
 
-For more information on segmenting users, see  [Identify segments](/microsoft-365/compliance/information-barriers-policies).
+For more information on segmenting users, see [Identify segments](/microsoft-365/compliance/information-barriers-policies).
 
 #### Microsoft admin center
 

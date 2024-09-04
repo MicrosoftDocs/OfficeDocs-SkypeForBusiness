@@ -39,7 +39,15 @@ Used together, Auto attendants and Call queues can easily route callers to the a
 
 ## Auto attendants
 
-The primary purpose of an Auto attendant is to direct a caller to an appropriate person or department based on the caller's input to the provided menu options. Callers can be directed to specific people within your organization, to Call queues where they wait to talk to the next available agent, to external numbers, to other Auto attendants, or to voicemail. Different call routing options can be specified for business hours, off hours, and holidays.
+The primary purpose of an Auto attendant is to direct a caller to an appropriate person or department based on the caller's input to the provided menu options. Callers can be directed to:
+
+- Specific people within your organization.
+- Call queues where they wait to talk to the next available agent.
+- External phone numbers.
+- Other Auto attendants.
+- Voicemail.
+
+Different call routing options can be specified for business hours, off hours, and holidays.
 
 Menu prompts can be created by using text-to-speech (system-generated prompts) or by uploading a recorded audio file. Speech recognition accepts voice commands for hands-free navigation, but people calling in can also use the phone keypad to navigate menus.
 
@@ -55,7 +63,7 @@ Internal callers, using their Teams client, can reach an Auto attendant by calli
 
 A Call queue is analogous to a waiting room in a physical building. Callers wait on hold while calls are routed to the agents in the queue. Call queues are commonly used for sales and service functions. However, Call queues can be used for any situation where the number of calls exceeds your internal capacity, such as a receptionist in a busy facility.
 
-Call queues allow for specific routing of calls in cases where there are no agents logged in or where the total number of callers in the queue or the wait time exceeds the limits that you specify. Calls can be routed to specific people, voicemail, other Call queues, or Auto attendants.
+Call queue exception handling allows you to redirect calls in cases where there are no agents logged in and where the total number of callers or wait time exceeds limits that you specify. Calls can be routed to specific people, voicemail, other Call queues, or Auto attendants.
 
 Like Auto attendants, Call queues each have a language setting. You can use different Call queues if you do business in multiple languages. Agents can be members of more than one queue if they're multi-lingual.
 
@@ -81,6 +89,8 @@ To configure Auto attendants and Call queues, you need the following resources:
 
 > [!NOTE]
 > Resource accounts are disabled for sign in and must remain so. Chat and presence are not available for these accounts.
+>
+> A **User Administrator** or higher role is required to create and license Resource Accounts. For more information, see [Using Microsoft Teams administrator roles to manage Teams](using-admin-roles.md).
 
 Agents who receive calls from a Call queue must be Enterprise Voice enabled online or on-premises users. For more information, see [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) and [Enable users for Direct Routing](/microsoftteams/direct-routing-enable-users). In addition, if the Call queue is using Direct Routing or Operator Connect numbers, agents who need to conference or transfer calls also require:
 
@@ -151,9 +161,9 @@ You can use a combination of these options for each queue if needed. Groups that
 
 We recommend choosing a strategy for adding call agents to queues before you start your configuration.
 
-If you have an existing Auto attendant and Call queue infrastructure and you're migrating to Teams, you'll need a plan to transfer your existing phone numbers to the new Auto attendants and Call queues. You might need to create a [port order](phone-number-calling-plans/port-order-overview.md) to move your numbers from another providers. We recommend that you temporarily acquire one or more new phone numbers and test your Auto attendant and Call queue flows before switching them over the numbers you currently have in service.
+If you have existing Auto attendants and Call queues that you're migrating to Teams, you need a plan to transfer your existing phone numbers to the new Auto attendants and Call queues. You might need to create a [port order](phone-number-calling-plans/port-order-overview.md) to move your numbers from another providers. We recommend that you temporarily acquire one or more new phone numbers and test your Auto attendant and Call queue flows before switching them over the numbers you currently have in service.
 
-**Conference mode** is an option in Call queues that significantly reduces the amount of time it takes to connect Teams VOIP calls and PSTN calls to an agent. For conference mode to work, agents in the Call queue must use one of the following clients:
+**Conference mode** is an option in Call queues that significantly reduces the amount of time it takes to connect Teams VoIP calls and external PSTN (Public Switched Telephone Network) calls to an agent. For conference mode to work, agents in the Call queue must use one of the following clients:
 
 - The latest version of the Microsoft Teams desktop client, Android app, or iOS app.
 - Microsoft Phone System version 1449/1.0.94.2020051601 or later.
@@ -170,7 +180,7 @@ In order to help prevent a denial of service attack from web based click-to-call
 
 ## Supported audio file formats
 
-When using a recorded audio file for prompts or music the supported formats are WAV (uncompressed, linear PCM with 8/16/32-bit depth in mono or stereo), WMA (mono only), and MP3. 
+When using a recorded audio file for prompts or music the supported formats are WAV (uncompressed, linear PCM (Pulse-code modulation) with 8/16/32-bit depth in mono or stereo), WMA (mono only), and MP3. 
 
 The audio file content cannot be more 5MB.
 
@@ -207,7 +217,7 @@ See the following articles for information on how to create Auto attendants and 
 >
 > This doesn't apply to Call queue agent memberships that are configured via distribution lists or channels. It also doesn't apply to users who are reached through the **Dial by Name** or **Dial by Number** feature of Auto attendants.
 
-If you need more extensive capabilities, such as integration with workflows, bots, and SMS, consider [Azure Communication Services](/azure/communication-services/overview).
+If you need more extensive capabilities, such as integration with workflows, bots, and SMS (Short Message Service), consider [Azure Communication Services](/azure/communication-services/overview).
 
 ## Related topics
 

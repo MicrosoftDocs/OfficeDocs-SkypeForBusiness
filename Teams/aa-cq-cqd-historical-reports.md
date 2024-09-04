@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
-ms.date: 04/15/2024
+ms.date: 06/10/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -12,6 +12,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
   - Tier1
+  - ContentFreshnessFY24
 search.appverid: MET150
 audience: Admin
 appliesto: 
@@ -34,26 +35,15 @@ description: Learn about how to use the updated Teams Auto Attendant & Call Queu
 
 This Power BI template provides three reports that allow organizations to report on the number of calls processed by Auto attendants and Call queues. It also provides agent performance insights.
 
-## V3.1.6 published on April 15, 2024
+## V3.1.8 published on August 12, 2024
 
 The Teams Auto Attendant & Call Queue Historical Report Power BI template provides the following three reports:
 
-- The Auto Attendant report shows analytics for calls coming into your Auto attendants.
-  - [Original](media/aa-cq-historical-report-sample-aa-v310-orig.png)
-  - [New (as of v3.1.0)](media/aa-cq-historical-report-sample-aa-v316-new.png)
-
-- The Call Queue report shows analytics for calls coming into your Call queues.
-  - [Original](media/aa-cq-historical-report-sample-cq-v310-orig.png)
-  - [New (as of v3.1.0)](media/aa-cq-historical-report-sample-cq-v316-new.png)
-
-- The Agent Timeline report shows a timeline view of agents being active in Call queue calls.
-  - [Original](media/aa-cq-historical-report-sample-at-v310-orig.png)
-  - [New (as of v3.1.0)](media/aa-cq-historical-report-sample-at-v316-new.png)
+- The [Auto Attendant](media/aa-cq-historical-report-sample-aa-v316-new.png) report shows analytics for calls coming into your Auto attendants.
+- The [Call Queue](media/aa-cq-historical-report-sample-cq-v316-new.png) report shows analytics for calls coming into your Call queues.
+- The [Agent Timeline](media/aa-cq-historical-report-sample-at-v316-new.png) report shows a timeline view of agents being active in Call queue calls.
 
 These reports use data from the Voice Applications Analytics Collector (VAAC) service.
-
-> [!NOTE]
-> The `Original` reports will be removed from the Power BI template in July 2024.
 
 ## V3.x.x prerequisites
 
@@ -85,14 +75,16 @@ Use one of the following methods to control access to the historical reports:
 
 1. Voice applications policy
 
-If you want to control which Auto attendants, Call queues and Agents the user can report on and don't want to provide any access to Teams admin center, create a voice applications policy for the user that grants them access to historical reporting and assign them as an Authorized user to the appropriate Auto attendants and Call queues.
+To control which Auto attendants, Call queues and Agents users can report on without providing them access to Teams admin center, create a voice applications policy that grants them access to historical reporting and assign them as an Authorized user to the appropriate Auto attendants and Call queues.
 
 For more information, see [Plan for Auto attendant and Call queue authorized users](./aa-cq-authorized-users-plan.md).
 
 > [!TIP]
-> Using the voice applications policy to control access is the recommended approach.  With the voice applications policy and Authorized users it is possible to control which Auto attendants, Call queues, and Agents that a user can report on. If necessary, the policy still allows a user to report on all Auto attendants, Call queues, and Agents without the need to grant the user access to Teams admin Center.
+> Using the voice applications policy to control access is the recommended approach.  With the voice applications policy and Authorized users it is possible to control which Auto attendants, Call queues, and Agents a user can report on. If necessary, the policy still allows a user to report on all Auto attendants, Call queues, and Agents without providing access to Teams admin Center.
 
-To access this functionality an existing voice applications policy must be modified to enable the historical reporting permissions or, a new voice applications policy must be created with the historical reporting permissions enabled.  The historical reporting permissions can currently only be set through PowerShell and will be available in Teams admin center later this year. 
+Create, or modify, a voice applications policy that enables the historical reporting permissions. Assign the policy to the appropriate users. Assign the users as authorized users to the appropriate auto attendants and call queues. For more information, see [Manage voice applications policies in Microsoft Teams](./manage-voice-applications-policies.md)
+
+The historical reporting permissions can only be set through PowerShell and will be available in Teams admin center later this year. 
 
 For more information, see:
 
@@ -102,15 +94,18 @@ For more information, see:
 | [New-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/new-csteamsvoiceapplicationspolicy#-HistoricalCallQueueMetricsPermission)  | [Set-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/set-csteamsvoiceapplicationspolicy#-HistoricalCallQueueMetricsPermission) |
 | [New-CsTeamsVoiceApplicationsPolicy/--HistoricalAgentMetricsPermission](/powershell/module/teams/new-csteamsvoiceapplicationspolicy#--HistoricalAgentMetricsPermission)  | [Set-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/set-csteamsvoiceapplicationspolicy#--HistoricalAgentMetricsPermission) |
 
+#### Known issues
 
-2. CQD pipeline (legacy)
+If the voice applications policy assigned to a user only enables the historical reporting permissions, and optionally the real-time reporting permissions, then the user can't access the historical reports. Support is working to resolve this problem. In the interim, enable at least one Auto attendant and Call queue change permission in the policy. Enabling the Auto attendant **Business hours greeting** and Call queue **Welcome greeting** is suggested, but enabling any of the change permissions will work around this issue.
 
-If you want the user to report on **all** the Auto attendants, Call queues, and Agents in the tenant and you also want to grant the user access to Teams admin center to run other Usage reports, assign the user a CQD access role with both **View Reports** and **View EUII fields** set to **Yes**.
+2. Call Quality Dashboard (CQD) pipeline [legacy]
+
+If you want the user to report on **all** the Auto attendants, Call queues, and Agents in the tenant and you want to grant the user access to Teams admin center to run other Usage reports, assign the user a CQD access role with both **View Reports** and **View EUII fields** set to **Yes**.
 
 For more information, see [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
 
 > [!NOTE]
-> If a user is assigned a CQD role and a voice applications policy, the CQD role will take precendence and the user will see all the Auto attendants, Call queues and Agents in the tenant.
+> If a user is assigned a CQD access role and a voice applications policy, the CQD role will take precendence and the user will see all the Auto attendants, Call queues and Agents in the tenant.
 
 ## V3.x.x desktop installation
 
@@ -118,15 +113,15 @@ The following steps assume the Power BI Desktop client is installed on your comp
 
 Perform the following steps:
 
-1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.1.6.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
+1. Download and save the [Teams Auto Attendant & Call Queue Historical Reports V3.1.8.zip](https://www.microsoft.com/download/details.aspx?id=104623) file on your computer.
 
 2. Open the zip file.
 
-3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.1.6.pbit` template file. Power BI Desktop should launch.
+3. Open the `Teams Auto Attendant & Call Queue Historical Reports V3.1.8.pbit` template file. Power BI Desktop should launch.
 
-4. You're prompted to select the **DataSource**, **Report Level**, and **UTC Offset**.  
+4. Select the **DataSource**, **Report Level**, and **UTC Offset**.  
 
-   :::image type="content" source="media/aa-cq-historical-report-01-v316.png" alt-text="Screenshot showing the DataSource, Report Level, and UTC Offset selections.":::
+   :::image type="content" source="media/aa-cq-historical-report-01-v318.png" alt-text="Screenshot showing the DataSource, Report Level, and UTC Offset selections.":::
 
     - **DataSource**: Select the `api.interfaces.records.teams.microsoft.com` entry.
     - **Report Level**:
@@ -136,15 +131,19 @@ Perform the following steps:
 
     #### Per Day vs Per Call 
 
-    Per Call reporting retrieves the individual call records for each Auto attendant, Call queue, and Agent, and makes them available in the Power BI client.  Per Call reporting also allows call records to be displayed in the local time zone selected by the user. For some customers, especially those using the CQD access role to control access, this may result in hitting the 90,000 default or 200,000 per query record limit. In this case, the Per Day reporting option should be selected.
+   - Per Call reporting retrieves the individual call records for each Auto attendant, Call queue, and Agent, the user is authorized for and makes them available in the Power BI client. Per Call reporting also allows call records to be displayed in the local time zone selected by the user. For some customers, especially those using the CQD access role to control access, this may result in hitting the 90,000 default or 200,000 per query record limit. In this case, the Per Day reporting option should be selected.
 
-    Per Day reporting retrieves one daily summary record for each Auto attendant, Call queue, and Agent.  This results in fewer records being returned to the client, reducing the possibility of hitting the 90,000 default or 200,000 per query record limit. Per Day reporting is based on a UTC-00:00 day (00:00:00-23:59:59 UTC) only and any UTC offset supplied by the user is ignored.
+    - Per Day reporting retrieves one daily summary record for each Auto attendant, Call queue, and Agent. This results in fewer records being returned to the client, reducing the possibility of hitting the 90,000 default or 200,000 per query record limit. Per Day reporting is based on a UTC-00:00 day (00:00:00-23:59:59 UTC) only and any UTC offset supplied by the user is ignored.
 
-5. You're prompted to sign in with an account. Select **Organizational account**, and then select **Sign in**.
+5. Sign in with your Teams account.
+   - Select **File**, then **Options and settings**, and then **Data source settings**.
+   - Select **Edit Permissions**, and then **Edit**.
+   - Select **Organizational account**, and then **Sign in**.
+   - Select **Save**, then **OK**, and then **Close**.
 
-   :::image type="content" source="media/aa-cq-historical-report-03-v300.png" alt-text="Screenshot showing sign-in for V3.x.x.":::
+     :::image type="content" source="media/aa-cq-historical-report-03-v301.png" alt-text="Screenshot showing sign-in for V3.x.x.":::
 
-6. Select **Connect**, and the data refreshes.
+6. Select **Refresh**, in the ribbon bar and the data refreshes.
 
 ## Data latency for Auto attendant and Call queue analytics
 
@@ -237,6 +236,7 @@ You have to refresh the report to see any new data.
 |Name                                    |Data Type                |Description                                                                              |
 |:---------------------------------------|:------------------------|:----------------------------------------------------------------------------------------|
 |AA Name                                 |Text                     |Name of the resource account attached to the Auto Attendant<br><br>If the full Resource Account name is **aa_test@microsoft.com**, then this value is: **aa_test** |
+|AA Start Date Local                     |Date                     |Auto Attendant call start date - Local (based on selected UTC Offset)                    |
 |AA Start Hour                           |Whole Number             |Auto Attendant call start hour - Local (based on selected UTC Offset)                    |
 |AA Start Time Local                     |Date/time                |Auto Attendant call start time - Local (based on selected UTC Offset)                    |
 |AA Start Time UTC                       |Date/time                |Auto Attendant call start time - UTC                                                     |
@@ -260,9 +260,9 @@ You have to refresh the report to see any new data.
 |Call End Time UTC                       |Date/time                |Call end time - UTC                                                                      |
 |Call Start Time Local                   |Date/time                |Call start time - Local (based on selected UTC Offset)                                   |
 |Call Start Time UTC                     |Date/time                |Call start time - UTC                                                                    |
-|ConferenceID                            |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
-|DialogID                                |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
-|DocumentID                              |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
+|ConferenceID (Per Day only)             |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
+|DialogID (Per Day only)                 |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
+|DocumentID (Per Day only)               |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
 |MM-DD                                   |Text                     |Auto Attendant call month-day                                                            |
 |PSTNMinutes                             |Whole number             |Summarize: Sum<br>Total minute usage                                                     |
 |TotalCallCount                          |Whole number             |Summarize: Sum<br>Always 1 - used to provide sum of all calls                            |
@@ -279,6 +279,7 @@ You have to refresh the report to see any new data.
 |Call Count Sum (Measure)                |Whole number             |Call Count Sum - zero instead of blank                                                   |
 |Call Count Sum Abandoned (Measure)      |Whole number             |Call Count Abandoned - zero instead of blank                                             |
 |Call Duration Seconds                   |Whole number             |Summarize: Sum<br>Call duration                                                          |
+|Call Duration Seconds AVG (Measure)     |While number             |Average Call Duration Seconds                                                            |
 |Call End Time Local                     |Date/time                |Call end time - Local (based on selected UTC Offset)                                     |
 |Call End Time UTC                       |Date/time                |Call end time - UTC                                                                      |
 |Call Queue Agent Count                  |Whole number             |Summarize: Sum<br>Number of agents configured in the Call queue                          |
@@ -289,13 +290,13 @@ You have to refresh the report to see any new data.
 |Call Queue Target Type Legend           |Text                     |Legend items for Call Queue Target Type. Possible values:<br><ul><li>**Abandoned** - the caller hung up before an agent could answer or before timeout occurred</li><li>**Agent Answered (Call)** - the caller was answered by an agent</li><li>**Agent Answered (Callback)** - the callback was answered by an agent</li><li>**Overflowed (Application)** - the call overflow exception occurred - call routed to another application</li><li>**Overflowed (Disconnect)** - the call overflow exception occurred - call disconnected</li><li>**Overflowed (External)** - the call overflow exception occurred - call was transferred externally</li><li>**Overflowed (User)** - the call overflow exception occurred - call was transferred to a Person in the organization</li><li>**Overflowed (Voicemail)** - the call overflow exception occurred - call was transferred to shared voicemail</li><li>**Timed Out (Application)** - the call timeout exception occurred - call routed to another application</li><li>**Timed Out (Disconnect)** - the call timeout exception occurred - call was disconnected</li><li>**Timed Out (External)** - the call timeout exception occurred - call was transferred externally</li><li>**Timed Out (User)** - the call timeout exception occurred - call was transferred to a Person in the organization</li><li>**Timed Out (Voicemail)** - the call timeout exception occurred - call was transferred to shared voicemail</li><li>**No Agents (Application)** - the no agents exception occurred - call was routed to another application</li><li>**No Agents (Disconnect)** - the no agents exception occurred - call was disconnected</li><li>**No Agents (External)** - the no agents exception occurred - call was transferred externally</li><li>**No Agents (User)** - the no agents exception occurred - call was transferred to a Person in the organization</li><li>**No Agents (Voicemail)** - the no agents exception occurred - call was transferred to shared voicemail</li></ul> |
 |Call Start Time Local                   |Date/time                |Call start time - Local (based on selected UTC Offset)                                   |
 |Call Start Time UTC                     |Date/time                |Call start time - UTC                                                                    |
-|ConferenceID                            |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
+|ConferenceID (Per Call only)            |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
 |CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value is: **cq_test** |
 |CQHour                                  |Whole Number             |Call queue call start hour                                                               |
 |Date                                    |Date/time                |Call queue call start date and time (hour)                                               |
 |DateTimeCQName                          |Text                     |Unique key for filtering on fCallQueueFinalStateAction                                   |
-|DialogID                                |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
-|DocumentID                              |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
+|DialogID (Per Call only)                |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
+|DocumentID (Per Call only)              |Text                     |Used for troubleshooting purposes - provide this information when opening a ticket       |
 |PSTN Connectivity Type                  |Text                     |See [Common Dimensions -> PSTNConnectivityType](#common-dimensions)                      |
 |PSTN Total Minutes                      |Whole number             |Summarize: Sum<br>Total minutes usage for PSTN calls                                     |
 
@@ -309,7 +310,7 @@ You have to refresh the report to see any new data.
 |Average Call Queue Duration (Sec) (Measure)        |Whole number  |Average of Average Call Queue Duration (Sec) - zero instead of blank                     |
 |Call Count                              |Whole number             |Summarize: Sum<br>Number of calls                                                        |
 |Call Queue Call Result                  |Text                     |See [Call Queue Dimensions -> CallQueueCallResult](#call-queue-dimensions)               |
-|Call Queue Call Result Legend           |Text                     |Legend items for Call Queue Call Result. Possible values:<br><ul><li>**Abandoned** - the caller hung up before an agent could answer or before timeout occurred</li><li>**Agent Answered (Call)** - the caller was answered by an agent</li><li>**Agent Answered (Callback)** - the callback was answered by an agent</li><li>**Overflowed (Disconnect)** - the call overflow exception occurred - call disconnected</li><li>**Overflowed (Xferred)** - the call overflow exception occurred - call was transferred externally</li><li>**Overflowed (Voicemail)** - the call overflow exception occurred - call was transferred to shared voicemail</li><li>**Timed Out (Callback)** - the callback has timed out - callback did not occur</li><li>**Timed Out (Disconnect)** - the call timeout exception occurred - call was disconnected</li><li>**Timed Out (Xferred)** - the call timeout exception occurred - call was transferred externally</li><li>**Timed Out (Voicemail)** - the call timeout exception occurred - call was transferred to shared voicemail</li><li>**No Agents (Disconnect)** - the no agents exception occurred - call was disconnected</li><li>**No Agents (Xferred)** - the no agents exception occurred - call was transferred externally</li><li>**No Agents (Voicemail)** - the no agents exception occurred - call was transferred to shared voicemail</li></ul> |
+|Call Queue Call Result Legend           |Text                     |Legend items for Call Queue Call Result. Possible values:<br><ul><li>**Abandoned** - the caller hung up before an agent could answer or before timeout occurred</li><li>**Agent Answered (Call)** - the caller was answered by an agent</li><li>**Agent Answered (Callback)** - the callback was answered by an agent</li><li>**Overflowed (Disconnect)** - the call overflow exception occurred - call disconnected</li><li>**Overflowed (Xferred)** - the call overflow exception occurred - call was transferred externally</li><li>**Overflowed (Voicemail)** - the call overflow exception occurred - call was transferred to shared voicemail</li><li>**Timed Out (Callback)** - the callback timed out - callback didn't occur</li><li>**Timed Out (Disconnect)** - the call timeout exception occurred - call was disconnected</li><li>**Timed Out (Xferred)** - the call timeout exception occurred - call was transferred externally</li><li>**Timed Out (Voicemail)** - the call timeout exception occurred - call was transferred to shared voicemail</li><li>**No Agents (Disconnect)** - the no agents exception occurred - call was disconnected</li><li>**No Agents (Xferred)** - the no agents exception occurred - call was transferred externally</li><li>**No Agents (Voicemail)** - the no agents exception occurred - call was transferred to shared voicemail</li></ul> |
 |Call Queue Final State Action           |Text                     |See [Call Queue Dimensions -> CallQueueFinalStateAction](#call-queue-dimensions)         |
 |CQ Name                                 |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com**, then this value is: **cq_test** |
 |CQHour                                  |Number                   |Hour that the call took place in                                                         |
@@ -362,7 +363,7 @@ You have to refresh the report to see any new data.
 
 ## Data Limits
 
-Each report tab retrieves data for all Auto attendants, Call queues, or agents in the tenant for the selected date range. This data retrieval occurs regardless of the specific Resource Accounts or Agent selected on the report. Filtering to show only the requested information occurs locally. 
+Each report tab retrieves data for all Auto attendants, Call queues, or agents the user is authorized for in the tenant for the selected date range. This data retrieval occurs regardless of the specific Resource Accounts or Agent selected on the report. Filtering to show only the requested information occurs locally. 
 
 **Each report tab is restricted to retrieving 90,000 rows.**
 
@@ -385,7 +386,7 @@ Increasing the limit results in longer execution and response times.
 
 ## Report Execution Time Limits
 
-Increasing the maximum number of rows that can be returned results in longer execution and response times meaning the report may time out before the data can be returned.  The report execution time can be increased by modifying the report as follows:
+Increasing the maximum number of rows that can be returned results in longer execution and response times meaning the report might time out before the data can be returned.  The report execution time can be increased by modifying the report as follows:
 
 1. Select on the **Transform data** in the ribbon bar to open the Power Query Editor.
 1. Select on **ReportExecutionMinutes** on the left-hand side.
@@ -505,7 +506,7 @@ These dimensions are common to both Auto attendants and Call queues:
 | CallQueueAgentOptInCount<br>(Whole Number) |                         | Number of agents opted-in to Call queue    |
 | CallQueueCallResult<br>(Text)              |                         | Call queue call final state                |
 |                                            | agent_joined_conference | Call answered - conference mode CQ         |
-|                                            | callback_call_timed_out | Call back call has timed out               |
+|                                            | callback_call_timed_out | Call back call timed out                   |
 |                                            | declined                |                                            |
 |                                            | disconnected            |                                            |
 |                                            | error                   |                                            |
@@ -520,7 +521,7 @@ These dimensions are common to both Auto attendants and Call queues:
 | CallQueueFinalStateAction<br>(Text)        |                         | Call queue final action                    |
 |                                            | disconnect              | time_out calls                             |
 |                                            | disconnect_with_busy    | overflown calls                            |
-|                                            | failed_to_accept_call   | Call queue could not accept the call       |
+|                                            | failed_to_accept_call   | Call queue couldn't accept the call       |
 |                                            | forward                 | Call was forwarded to a Person in the organization or externally |
 |                                            | shared_voicemail        | Call was sent to shared voicemail          |
 |                                            | other                   | Some other condition occurred              |
@@ -748,17 +749,8 @@ Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx
 
 |Version  |Date Published     |Supported |Filename                                                    |Description                                                             |
 |:--------|:------------------|:---------|:-----------------------------------------------------------|:-----------------------------------------------------------------------|
-|3.1.6    |April 15, 2024     |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.6 |Support click2call, callback, authorized users, and some visuals changed due to deprecation |
-|3.1.5    |January 29, 2024   |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.5 |Corrected an error with the Per Day query logic for fAgentTimelineAnalytics and fAgentTimelineAnalyticsSummary  |
-|3.1.4    |January 24, 2024   |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.4 |Per day reporting for large volume customers, accessibility improvements for screen readers   |
-|3.1.3    |September 13, 2023 |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.3 |Accessibility improvements for screen readers   |
-|3.1.2    |July 21, 2023      |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.2 |Support any time zone offset, added detail call pop-up on Auto Attendant & Call Queue, No Agents support    |
-|3.1.1    |May 11, 2023       |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.1 |Corrected an error with the Date, Agent, and Call Queue slicers          |
-|3.1.0    |May 1, 2023        |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.0 |New templates, added detail call pop-up on Agent Timeline, Power BI Service support   |
-|3.0.7    |February 16, 2023  |No        |Teams Auto Attendant & Call Queue Historical Reports V3.0.7 |Corrected error on Agent Timeline when call minutes were greater than 9 |
-|3.0.6    |February 14, 2023  |No        |Teams Auto Attendant & Call Queue Historical Reports V3.0.6 |Corrected error, improved call classification and Agent timeline visuals|
-|3.0.5    |January 9, 2023    |No        |Teams Auto Attendant & Call Queue Historical Reports V3.0.5 |Improved Call Overflow/Timeout Destinations and Agent timeline visuals  |
-|3.0.4    |November 18, 2022  |No        |Teams Auto Attendant & Call Queue Historical Reports V3.0.4 |Corrected error, improved call classification, added legend             |
-|3.0.3    |November 8, 2022   |No        |Teams Auto Attendant & Call Queue Historical Reports V3.0.3 |Corrected error, added documentation link, optimized queries            |
-|3.0.1    |October 26, 2022   |No        |Teams Auto Attendant & Call Queue Historical Reports V3.0.1 |Removed testing data source entry                                       |
-|3.0.0    |October 25, 2022   |No        |Teams Auto Attendant & Call Queue Historical Reports V3.0.0 |New backend data source                                                 |
+|3.1.8    |August 12, 2024    |Yes       |Teams Auto Attendant & Call Queue Historical Reports V3.1.7 |Bug fix for Date slicer on Call Queue tab                               |
+|3.1.7    |July 15, 2024      |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.7 |Improved support for authorized users, removed original reporting templates |
+|3.1.6    |April 15, 2024     |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.6 |Support click2call, callback, authorized users, and some visuals changed due to deprecation |
+|3.1.5    |January 29, 2024   |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.5 |Corrected an error with the Per Day query logic for fAgentTimelineAnalytics and fAgentTimelineAnalyticsSummary  |
+|3.1.4    |January 24, 2024   |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.4 |Per day reporting for large volume customers, accessibility improvements for screen readers   |

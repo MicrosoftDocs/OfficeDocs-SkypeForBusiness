@@ -1,6 +1,6 @@
 ---
 ms.date: 06/13/2018
-title: "Skype for Business Certification Program — Session Border Controllers"
+title: "Skype for Business Certification Program—Session Border Controllers"
 ms.author: serdars
 author: msdmaguire
 manager: serdars
@@ -19,7 +19,7 @@ f1.keywords:
 ms.custom:
 - Skype for Business Certification
 - dn947483
-description: "List of Session Border Controllers that have been independently qualified with Skype for Business Server."
+description: "List of Session Border Controllers that are independently qualified with Skype for Business Server."
 ---
 
 # Session border controllers
@@ -37,7 +37,7 @@ These session border controllers that are certified for Skype for Business.
 | |Mediant Virtual Edition SBC | &#x2714; | 7.20A.000.042 |
 |[Nuera](http://www.nuera.com/) | GX 500 E-SBC | |7.00A.021.013 |
 | | GX 800 E-SBC | | 7.00A.021.013 |
-| | GX 1K SBC | | 7.00A.021.013 |
+| | GX 1 K SBC | | 7.00A.021.013 |
 | | GX 2600 SBC | |7.00A.021.013 |
 | | GX 4K SBC | |7.00A.021.013 |
 | | GX 9K SBC | |7.00A.044.007 |
@@ -54,9 +54,9 @@ These session border controllers that are certified for Skype for Business.
 | | SBC 7000 | <br/> &#x2714; | 4.2.4 <br/> 05.01.00-R000 |
 |||||
 
-&Dagger; This device was pre-release tested with Skype for Business. Upon completion of official qualification testing, the software version may change.
+&Dagger; This device was prerelease tested with Skype for Business. Upon completion of official qualification testing, the software version might change.
 
 All Lync Server 2013 qualified session border controllers are forward compatible and supported with Skype for Business 2015. See [this list of Lync Server 2013 qualified SBCs](../lync-cert/sbcs-lync-server.md).
 
-If you are a vendor that wishes to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
+If you're a vendor that wishes to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 

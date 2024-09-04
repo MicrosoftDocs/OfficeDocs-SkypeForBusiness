@@ -3,7 +3,7 @@ title: Plan for Teams Phone Mobile
 author: CarolynRowe
 ms.author: crowe
 manager: pamgreen
-ms.date: 02/14/2024
+ms.date: 07/08/2024
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -91,11 +91,10 @@ Teams Phone Mobile users can leverage existing [Teams Phone features](here-s-wha
 Ensure your organization has the following Microsoft 365 services:
 
 - Teams Phone SKU or E5 with Teams
-- Teams Phone Mobile add-on SKU
 
 To enable phone number assignments with Teams Phone Mobile, make sure your users:
 
-- Have Teams Phone and Teams Phone Mobile licenses. To learn more, see [What is Phone System?](what-is-phone-system-in-office-365.md) and [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+- Have Teams Phone licenses. To learn more, see [What is Phone System?](what-is-phone-system-in-office-365.md) and [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
 - Have an eligible mobile subscription with your preferred operator that supports their SIM-enabled phone number to be used for Teams Phone. Your operator will upload the phone numbers to your Microsoft 365 tenant.
 

@@ -21,11 +21,11 @@ ms.custom: seo-marvel-mar2020
 
 # Issues receiving messages and calls on legacy systems
 
-Users might have issues receiving messages or calls if they are using older versions of Teams or have logged in with other applications.
+Users might have issues receiving messages or calls if they're using older versions of Teams or have logged in with other applications.
 
 ## Legacy ADU setups
 
- If users are signed in to a domain-joined computer and you **don't want their user name pre-populated on the Teams sign-in screen**, admins can set the following Windows registry to turn off pre-population of the user name (UPN):
+ If users are signed in to a domain-joined computer and you **don't want their user name pre-populated on the Teams sign-in screen**, admins can set the following Windows registry to turn off prepopulation of the user name (UPN):
 
   Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams<br/>
   SkipUpnPrefill(REG_DWORD)<br/>
@@ -38,9 +38,9 @@ See [Sign in to Microsoft Teams using modern authentication](sign-in-teams.md) f
 
 ## Skype token revocation
 
-When changing/resetting a password, older clients will not receive messages and calls for up to an hour. To resolve this issue, either restart the app or move to newer clients.
+When changing/resetting a password, older clients won't receive messages and calls for up to an hour. To resolve this issue, either restart the app or move to newer clients.
 
 
-## Related topics
+## Related articles
 
 [Teams Troubleshooting](/MicrosoftTeams/troubleshoot/teams)

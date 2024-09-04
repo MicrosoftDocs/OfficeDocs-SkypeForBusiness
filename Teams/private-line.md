@@ -55,7 +55,8 @@ The following information describes how inbound calls are handled using a privat
 
 - For calls to a user’s private line, all inbound call handling rules are ignored, including call forwarding, simultaneous ringing, and call groups. For example, if a user has a private line and a primary line, and the user has a call forwarding rule set up to forward calls to a delegate, the call still rings the user's primary line and isn't forwarded to the delegate.
 - If a user with a private line has voicemail enabled, the call goes to voicemail per normal.
-- If the user doesn't have voicemail enabled and the call is unanswered, the busy signal will be played after 1 minute. Calls to a user's private line don't follow "do not disturb" rules.
+- If the user doesn't have voicemail enabled and the call is unanswered, the busy signal will be played after 1 minute.
+- Calls to a user's private line still follow "do not disturb" rules. For example, if a user is in "do not disturb" mode, the user doesn't hear a ringtone and the call is routed to voicemail, just as calls to the user's primary line are routed during "do not disturb" mode.
 - Incoming calls to a user's private line have a special ringtone to distinguish them from calls to the user's primary line.
 - The Teams notification for the call tells the user that the incoming call is on their private line. The call history in Teams will also show a label that an incoming call was made to the private line.
 

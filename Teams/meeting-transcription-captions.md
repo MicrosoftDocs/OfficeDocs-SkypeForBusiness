@@ -42,10 +42,10 @@ If recording is turned on, but transcription is turned off, the recording doesn'
 
 The transcription link remains for the lifetime of the file in most cases, but can be broken if the video file is copied within the same OneDrive or SharePoint site. This would result in captions not displaying on the copied video file.
 
-The transcription is [stored together with the meeting recordings in OneDrive and SharePoint storage](https://support.microsoft.com/en-us/office/3cb9acb6-05b2-4f59-a50d-7df61123aa20#bkmk_how-captions-and-transcripts-are-stored). Another copy is stored in the meeting organizer's Exchange Online account.
+The transcription is [stored together with the meeting recordings in OneDrive and SharePoint storage](https://support.microsoft.com/office/3cb9acb6-05b2-4f59-a50d-7df61123aa20#bkmk_how-captions-and-transcripts-are-stored).
 
 > [!NOTE]
-> Transcription for recorded meetings is currently only supported for English (US), English (Canada), English (India), English (UK), English (Australia), English (New Zealand), Arabic (United Arab Emirates), Arabic (Saudi Arabia), Chinese (Simplified, China), Chinese (Traditional, Hong Kong SAR), Chinese (Traditional, Taiwan), Czech (Czechia), Danish (Denmark), Dutch (Belgium), Dutch (Netherlands), French (Canada), French (France), Finnish (Finland), German (Germany), Greek (Greece), Hebrew (Israel), Hindi (India), Hungarian (Hungary), Italian (Italy), Japanese (Japan), Korean (Korea), Norwegian (Norway), Polish (Poland), Portuguese (Brazil), Portuguese (Portugal), Romanian (Romania), Russian (Russia), Slovak (Slovakia), Spanish (Mexico), Spanish (Spain), Swedish (Sweden), Thai (Thailand), Turkish (Türkiye), Ukrainian (Ukraine), Vietnamese (Vietnam).
+> Transcription for recorded meetings is currently only supported for English (US), English (Canada), English (India), English (UK), English (Australia), English (New Zealand), Arabic (United Arab Emirates), Arabic (Saudi Arabia), Chinese (Simplified, China), Chinese (Traditional, Hong Kong SAR), Chinese (Traditional, Taiwan), Czech (Czechia), Danish (Denmark), Dutch (Belgium), Dutch (Netherlands), French (Canada), French (France), Finnish (Finland), German (Germany), Greek (Greece), Hebrew (Israel), Hindi (India), Hungarian (Hungary), Italian (Italy), Japanese (Japan), Korean (Korea), Norwegian (Norway), Polish (Poland), Portuguese (Brazil), Portuguese (Portugal), Romanian (Romania), Russian (Russia), Slovak (Slovakia), Spanish (Mexico), Spanish (Spain), Swedish (Sweden), Thai (Thailand), Turkish (Türkiye), Ukrainian (Ukraine), Vietnamese (Vietnam), Welsh(United Kingdom).
 
 ### Use the Teams admin center to enable or disable transcription
 
@@ -109,13 +109,11 @@ Set-CsTeamsMeetingPolicy -Identity <policy name> -LiveCaptionsEnabledType Disabl
 
 To learn how your end users can use live captions for meetings and webinars, see [Use live captions in a teams meeting](https://support.microsoft.com/office/4be2d304-f675-4b57-8347-cbd000a21260).
 
-To learn how your end users can use live captions in live events, see [Use live captions in a live event](https://support.microsoft.com/office/1d6778d4-6c65-4189-ab13-e2d77beb9e2a).
-
 For details on how your organizers can create human-generated captions, see [Use CART captions in a Microsoft Teams meeting](https://support.microsoft.com/office/2dd889e8-32a8-4582-98b8-6c96cf14eb47).
 
 ### Live translated captions
 
-Live translated captions allow your users to see captions translated into the language they’re most comfortable with. By default, live captions are displayed in the language spoken during a meeting, webinar, or town hall.
+Live translated captions allow your users to see captions translated into the language they’re most comfortable with. By default, live captions are displayed in the language spoken during a meeting, webinar, or town hall. For town halls, organizers can pre-select 6 languages and 10 languages with a Teams Premium license, for attendees to use during the event.
 
 To enable **Live translated captions**, **Live captions** must be set to '**Off, but organizers and co-organizers can turn them on**' in the corresponding meeting policy in the Teams admin center. To turn off **Live translated captions**, set **Live captions** to **Off**.
 
@@ -124,6 +122,7 @@ For information on how your end users can use live translated captions, see [Use
 ## Related topics
 
 - [Teams meeting recording](meeting-recording.md)
+- [Block the download of Teams meeting recording and transcript files from SharePoint or OneDrive](block-download-meeting-recording.md)
 - [Accessibility guide for Microsoft Teams Admins](accessibility-guide-admin.md)
 - [Teams policies reference - Meetings](settings-policies-reference.md#meetings)
 - [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)

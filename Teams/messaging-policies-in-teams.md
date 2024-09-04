@@ -75,7 +75,7 @@ A user can only be assigned one messaging policy at a time.
 
 Here are the messaging policy settings that you can configure.
 
-- **Owners can delete sent messages**  Use this setting to let owners delete channel messages or posts that users sent.
+- **Owners can delete sent messages**  Enable this setting to allow owners to delete messages or posts sent by users, excluding their own. *To allow owners to delete their own sent messages, activate the **Delete Sent Messages** setting*.
 - **Delete sent messages** Use this setting to let users delete individual messages that they sent in chat.
 - **Delete chat** Use this setting to let users have the option to delete entire conversations from their chat list. This will only delete the chat content for the user taking the action; other users in the chat will still be able to see all of the messages. The user who deleted the chat will not see any existing messages in their activity feed or search results for the deleted chat; this user will also be removed from the deleted chat. Users will be prompted to confirm the decision to delete a chat. This setting is on by default. If this setting is turned off, users will no longer see the delete option for their chats.
 - **Edit sent messages** Use this setting to let users edit the messages that they sent in chat.
@@ -84,6 +84,9 @@ Here are the messaging policy settings that you can configure.
   - **Turned on for everyone** This means everyone in the tenant will have the feature ON with no option to turn it off. When using the **On for everyone** setting, the only way to set receipts for the whole tenant is either to have only one messaging policy for the whole tenant (the default policy named "Global (Org-wide Default)") or to have all messaging policies in the tenant use the same settings for receipts. The read receipts feature is most effective when the feature is enabled to **On for everyone**.
   - **Turned off for everyone** This means the feature is disabled and no one in the tenant has read receipts nor can they turn it on.
 <a name="bkchat"> </a>
+
+- **Upload custom emojis** Set which users can create custom emojis. This setting is on by default. For more information about custom emojis and their new messaging policy settings, see [Custom emojis in Microsoft Teams](teams-custom-emojis.md).
+- **Delete custom emojis** Set which users can delete custom emojis. This setting is off by default (except for Teams admins). For more information about custom emojis and their new messaging policy settings, see [Custom emojis in Microsoft Teams](teams-custom-emojis.md).
 
 - **Chat** Turn this setting on if you want users in your organization to be able to use the Teams app to chat with other people. When this setting is off, chat is disabled for new one-on-one and group chats.
 - **Chat with groups** Users can start a chat with distribution groups, mail-enabled security groups, and Microsoft 365 groups.

@@ -30,7 +30,7 @@ The new Skype for Business Admin Center **Reports** area shows you calling and a
   
 Check out the [Reports overview](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) for more reports that are available.
   
-This report, along with the other Skype for Business reports, gives you details on activity including calling usage across your organization. These details are very helpful when you investigating, planning, and making other business decisions for your organization and for setting up [Communications Credits](/microsoftteams/what-are-communications-credits).
+This report, along with the other Skype for Business reports, gives you details on activity including calling usage across your organization. These details are helpful when you investigating, planning, and making other business decisions for your organization and for setting up [Communications Credits](/microsoftteams/what-are-communications-credits).
   
 > [!NOTE]
 > You can see all of the Skype for Business reports when you log on as an administrator to the Microsoft 365 admin center. 

@@ -150,7 +150,9 @@
                 "Stacyrch140",
                 "garycentric",
                 "dstrome",
-                "beccarobins"        
+                "beccarobins",
+                "padmagit77",
+                "aditisrivastava07"        
             ],
             "feedback_system": "None",
             "hideEdit": true
@@ -161,15 +163,6 @@
                 "SfbHybrid/**/*.md": "Skype for Business Hybrid",
                 "SfbOnline/**/*.md": "Skype for Business Online",
                 "SfbServer/**/*.md": "Skype for Business Server 2015"
-            },
-            "feedback_product_url": {
-                "SfbHybrid/hybrid/*.md": "https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/issues"
-            },
-            "feedback_system": {
-                "SfbHybrid/hybrid/*.md": "GitHub"
-            },
-            "feedback_github_repo": {
-                "SfbHybrid/hybrid/*.md": "MicrosoftDocs/OfficeDocs-SkypeForBusiness"
             },
             "hideEdit": {
                 "SfbHybrid/hybrid/*.md": false

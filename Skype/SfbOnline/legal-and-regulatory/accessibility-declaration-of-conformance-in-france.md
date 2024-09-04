@@ -1,5 +1,5 @@
 ---
-ms.date: 11/28/2017
+ms.date: 06/28/2024
 title: "Accessibility Declaration of Conformance in France"
 ms.author: serdars
 author: tonysmit
@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-ms.localizationpriority: null
+ms.localizationpriority: Low
 f1.keywords:
 - NOCSH
 ms.custom:
