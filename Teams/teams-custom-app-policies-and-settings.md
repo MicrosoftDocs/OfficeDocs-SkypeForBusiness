@@ -79,7 +79,7 @@ To make a custom app available to users in your organization's app store, follow
    * Select **Upload new app**, select **Upload**, and select the app package that the developer provided to you.
    * Select **Actions** > **Upload new app** and upload the app.
 
-   :::image type="content" source="media/custom-app-upload-option.png" alt-text="Screenshot showing the option for admins to upload a custom app from Teams admin center.":::
+     :::image type="content" source="media/custom-app-upload-option.png" alt-text="Screenshot showing the option for admins to upload a custom app from Teams admin center.":::
 
 The uploaded app is available to the org users after a few hours.
 
