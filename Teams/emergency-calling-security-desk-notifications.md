@@ -75,7 +75,7 @@ With extended notifications, you can configure specific notification settings fo
 
 - You can only enter a number to dial when the notification mode is NOT "Send notification only". 
 
-**Emergency calling policy Example** In the following example you configure the emergency calling policy with full security desk configuration. Extended notifications for the test emergency number, 933, are set to null.  
+**Emergency calling policy Example** In the following example, you configure the emergency calling policy with full security desk configuration. Extended notifications for the test emergency number, 933, are set to null.  
 
 
 - Notification group: alert@contoso.com
