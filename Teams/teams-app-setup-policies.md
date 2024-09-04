@@ -117,7 +117,7 @@ Teams classic and in [new Teams](new-teams-desktop-admin.md) support the followi
 
 ## Manage app setup policies
 
-You can manage the app setup policies in the Microsoft Teams admin center. Use the Global (Org-wide default) policy or create and assign custom policies. Global policy applies to all users unless you assign a custom policy to some users. Custom policy overrides the global policy. A Global Administrator or a Teams Administrator can manage these policies.
+You can manage the app setup policies in the Microsoft Teams admin center. Use the Global (Org-wide default) policy or create and assign custom policies. Global policy applies to all users unless you assign a custom policy to some users. Custom policy overrides the global policy. A Teams Administrator or an admin with a higher role can manage these policies.
 
 You can edit the settings in the global policy to include the apps that you want. To customize Teams for different groups of users in your organization, create and assign one or more custom policies.
 
