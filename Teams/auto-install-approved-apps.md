@@ -92,7 +92,7 @@ Before you use the feature, understand the following considerations:
 
 * If the app doesn’t support the language that the user is using in Teams, the app’s default supported language is used.
 
-* When you turn on Auto install approved apps for Adobe Acrobat, then Teams client uses the Adobe Acrobat app as the default file handler for the PDF files. This experience impacts the new and the existing users of Adobe Acrobat app. The change will be automatically applied later in 2023 and the admins will be informed via a [Microsoft 365 Message Center post](/microsoft-365/admin/manage/message-center?view=o365-worldwide).
+* When you turn on Auto install approved apps for Adobe Acrobat, then Teams client uses the Adobe Acrobat app as the default file handler for the PDF files. This experience impacts the new and the existing users of Adobe Acrobat app. The change will be automatically applied later in 2023 and the admins will be informed via a [Microsoft 365 Message Center post](/microsoft-365/admin/manage/message-center?view=o365-worldwide&preserve-view=true).
 
 * Teams admin may have blocked a Teams app for a user and your organization may allow Microsoft Entra SSO for the user to use the app, say in a browser. If this feature has been turned on for the Teams app and the user is later allowed to use the app, the app will be auto installed for them if they have used Microsoft Entra ID to sign in up to 30 days before they were allowed to use the app.
 
