@@ -197,7 +197,7 @@ You can assign an extension to a Shared Calling user with the Teams admin center
 
 ### Use PowerShell
 
-In the following example, the [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignmen) cmdlet assigns a Direct Routing phone number of +12223334444 with an extension 6789 to the Shared Calling user user@company.com.
+In the following example, the [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) cmdlet assigns a Direct Routing phone number of +12223334444 with an extension 6789 to the Shared Calling user user@company.com.
 
 ```powershell
 Set-CsPhoneNumberAssignment -Identity <user@company.com>  
