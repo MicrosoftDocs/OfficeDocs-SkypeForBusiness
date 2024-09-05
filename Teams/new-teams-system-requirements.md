@@ -36,7 +36,7 @@ The new Teams client delivers up to two times faster app performance while usi
 |Display                |1024 x 768 or higher resolution.                                                           |
 |Graphics hardware      |Graphics hardware acceleration requires DirectX 9 or later, with WDDM 2.0 or higher for Windows 10 (or WDDM 1.3 or higher for Windows 10 Fall Creators Update). |
 |Operating system       |Windows 10 version 10.0.19041 or higher (excluding Windows LTSC versions for Teams desktop app<sup>1</sup>). |
-|Webview2               |Update to the most current version. Learn more: [Enterprise management of WebView2 Runtimes](/microsoft-edge/webview2/concepts/enterprise). |
+|Webview2               |Update to the most current version.                                                        |
 |Call and meeting audio |CPU with AVX2 and FMA3 instruction set                                                     |
 |Video                  |USB 2.0 video camera.                                                                      |
 |Devices                |Standard laptop camera, microphone, and speakers.                                          |
@@ -52,6 +52,7 @@ The new Teams client delivers up to two times faster app performance while usi
 |Hard disk              |1.5 GB of available disk space.                                                    |
 |Display                |1200 x 800 or higher resolution                                                    |
 |Operating system       |One of the three most recent versions of macOS.</br>**NOTE** You can find information about the latest macOS versions, and how to upgrade your version of macOS [here](https://support.apple.com/HT201260). For example, when a new version of macOS is released, the new version and the two versions immediately preceding it become the supported versions.   |
+|Webview2               |Update to the most current version.                                                |
 |Video                  |Compatible webcam.                                                                 |
 |Voice                  |Compatible microphone and speakers, headset with microphone, or equivalent device. |
 
