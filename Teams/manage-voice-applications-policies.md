@@ -121,7 +121,7 @@ Notes
 |Teams voice applications policy setting             |Description                                                                      |PowerShell parameter           |Teams Premium required<sup>1</sup>|
 |----------------------------------------------------|---------------------------------------------------------------------------------|------------------------------------------|-----------------------|
 |Real-time auto attendant metrics   |This setting allows authorized users to access real-time auto attendant metrics. |RealTimeAutoAttendantMetricsPermission    |Yes, Public Preview    |
-|Historical auto attendant metrics  |This setting allows authorized users to access historical auto attendant metrics in Power BI and Queues App.|HistoricalAutoAttendantMetricsPermission  |Power Bi No, Generally Available<br>Queues App - Yes, Public Preview|
+|Historical auto attendant metrics  |This setting allows authorized users to access historical auto attendant metrics in Power BI and Queues App.|HistoricalAutoAttendantMetricsPermission  |Power Bi - No, Generally Available<br>Queues App - Yes, Public Preview|
 
 
 Reporting values:
