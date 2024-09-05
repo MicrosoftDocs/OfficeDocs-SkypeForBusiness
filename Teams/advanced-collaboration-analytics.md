@@ -108,7 +108,7 @@ Note that for privacy reasons the data is hidden by default in this card. To rev
 
 ## Users with the most external user and guest collaboration
 
-The **Users with the most external user and guest collaboration** card shows you which of your users have the most collaboration with guests and external shared channel users for the last 7 or 30 days.
+The **Users with the most external user and guest collaboration** card shows you which of your users have the most collaboration with guests and external userss for the last 7 or 30 days.
 
 You can select **View details** to see the users' names and the sent message count for each user. An average message count is also displayed.
 
@@ -118,7 +118,7 @@ Note that for privacy reasons the data is hidden by default in this card. To rev
 
 ## Guests with the most external user and guest collaboration
 
-The **Guest with the most external user and guest collaboration** card shows you which guests have the most collaboration with other guests or external shared channel users over the last 7 or 30 days.
+The **Guest with the most external user and guest collaboration** card shows you which guests have the most collaboration with other guests or external users over the last 7 or 30 days.
 
 Note that for privacy reasons the data is hidden by default in this card. To reveal the data, see [Show user details in the reports](/microsoft-365/admin/activity-reports/activity-reports#show-user-details-in-the-reports).
 
