@@ -91,10 +91,10 @@ To create this effect, upload a transparent PNG image as a custom background. Yo
 
 You can find previews of your uploaded images in a new table under the **Meeting backgrounds** section. This table also displays the names and resolutions of your images. Once you confirm your choice of uploaded images, select the **Save** button below the preview table. Once you select save, your uploaded backgrounds are visible to your users with a Teams Premium license.
 
+## Choose a preset background
+
 > [!IMPORTANT]
 > You can't configure the **Set as required** and **Apply background blur when no effect is selected** settings within a single policy.
-
-## Choose a preset background
 
 You can choose a preset background for your users in the Teams admin center. Users with this policy are restricted to the chosen background and can't change it.
 
