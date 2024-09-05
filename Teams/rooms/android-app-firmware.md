@@ -33,6 +33,9 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 
 | Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
+| Audiocodes RXV81 | `2.6.228` | N/A| `1449/1.0.96.2024061103` | `5.0.6152.0`|  `1.0.0.202402202353.product` | September 4, 2024|
+| Audiocodes RX-Pad | `2.6.228` | N/A | `1449/1.0.96.2024061103` | `5.0.6152.0`| `1.0.0.202402202353.product` | September 4, 2024|
+| Audiocodes RXV200 | `2.6.228` | N/A | `1449/1.0.96.2024061103` | `5.0.6152.0`| `1.0.0.202402202353.product` | September 4, 2024|
 | Audiocodes RXV81 | `2.4.121` | N/A| `1449/1.0.96.2024042606` | `5.0.6152.0`|  `1.0.0.202402202353.product` | July 11, 2024|
 | Audiocodes RX-Pad | `2.4.121` | N/A | `1449/1.0.96.2024042606` | `5.0.6152.0`| `1.0.0.202402202353.product` | July 11, 2024|
 | Audiocodes RXV200 | `2.4.121` | N/A | `1449/1.0.96.2024042606` | `5.0.6152.0`| `1.0.0.202402202353.product` | July 11, 2024|
