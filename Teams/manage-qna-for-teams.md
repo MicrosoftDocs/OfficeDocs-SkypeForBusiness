@@ -70,27 +70,6 @@ To prevent organizers with this policy from using Q&A in meetings and events the
 Set-CsTeamsMeetingPolicy -Identity Global -QnAEngagementMode Disabled
 ```
 
-## Delete an individual message from Q&A in Teams
-
-To delete a question or answer posted in the Q&A application, follow these steps:
-
-1. Sign in to the Exchange Admin Center as a Global Administrator.
-2. Go to **Recipients** > **Mailboxes** and search by name for the user who organized the meeting or event.
-3. Select the organizer and select **Manage mailbox delegation**. In the **Read and manage** section, select **Edit** > **Add permissions**.
-4. Add yourself as a delegate of the meeting organizer and select **Save**.
-5. Open Outlook Calendar in the Outlook Web App (not desktop) and select **Add calendar** and then **Add from directory**.
-6. Search for the meeting organizer and add their calendar to **My calendars**. Meetings for the selected user are now shown on your calendar.
-7. In your calendar, find the meeting you want to delete content for, open the meeting record, and select **Chat with participants**. Selecting chat with participants opens the meeting chat in Teams.
-8. Navigate to the **Q&A** application in the Teams app bar.
-9. Find any questions or answers you want to delete and select **Delete**.
-10. Once you’re finished deleting content, go back to the Exchange Admin Center and remove yourself as a delegate of the meeting organizer.
-
-If you delete a question before removing the answers, the first answer to the question becomes the question. To avoid this scenario, follow these steps in order:
-
-1. Identify the question you’d like to delete
-2. Delete the answers to the question
-3. Delete the question
-
 ## Available languages for Viva Engage vs Teams
 
 Q&A defaults to the user’s language for Teams. When there’s a difference in the languages available for Teams versus Viva Engage, the following language defaults occur:
