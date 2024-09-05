@@ -85,7 +85,7 @@ The following providers offer contact center solutions that are integrated into 
 | `Solgari` | https://solgari.com/                       |
 | `Talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
 | `Tendfor` | https://www.tendfor.com                                                            |
-| `Ultatel` | https://www.ultatel.com/microsoft-teams-contact-center/                     |
+
 
 
 

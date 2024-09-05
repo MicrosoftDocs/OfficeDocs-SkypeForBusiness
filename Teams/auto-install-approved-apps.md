@@ -33,12 +33,12 @@ The Auto install approved apps feature is available only for a few Teams apps. F
 
 ## Prerequisites for Auto install approved apps feature
 
-To ensure that the feature installs the relevant apps and for the allowed users, meet the following requirements as a Global Admin or a Teams Administrator:
+To ensure that the feature installs the relevant apps and for the allowed users, meet the following requirements:
 
 * [Allow the relevant app in your organization](#allow-third-party-apps-in-your-organization).
 * [Ensure users can consent to app permissions or grant admin consent](#ensure-users-can-consent-or-grant-admin-consent-to-microsoft-entra-permissions-of-an-app) for Microsoft Entra permissions that an app requires.
 
-In addition, the app is only installed if a user signs in to the app outside Teams using Microsoft Entra identity, for example in a web browser.
+In addition, the app is installed for a user only if the user signs in to the app outside Teams using Microsoft Entra identity. For example, the web version of the app may be already allowed in your organization and a user signs into the app in a browser using their Entra identity. This will initiate a Teams app installation only for the specific user, if the Teams app is allowed for them.
 
 ### Allow third-party apps in your organization
 
@@ -46,7 +46,7 @@ The feature respects the app governance controls and installs apps only if admin
 
 ### Ensure users can consent or grant admin consent to Microsoft Entra permissions of an app
 
-Some apps require access to the relevant information about your users and organization. Accessing this information requires users to grant their consent and/or admins to consent on behalf of their users. Admins can grant consent on behalf of the users as well. To use the Auto install approved apps feature, we recommend that you understand the required Microsoft Entra permission and [grant consent as a Global Administrator](app-permissions-admin-center.md). Each user isn't prompted for consent if admins do so.
+Some apps require access to the relevant information about your users and organization. Accessing this information requires users to grant their consent and/or admins to consent on behalf of their users. Admins can grant consent on behalf of the users as well. To use the Auto install approved apps feature, we recommend that you understand the required Microsoft Entra permission and [grant consent as a Global Administrator](app-permissions-admin-center.md). Each user isn't prompted for consent if an admin does so.
 
 Alternately, you can let the individual users provide the consent themselves. By default, users can provide their consent for apps. Ensure that the [user consent setting in Microsoft Entra admin center](/azure/active-directory/manage-apps/configure-user-consent?tabs=azure-portal&pivots=portal) permits it.
 
@@ -92,7 +92,7 @@ Before you use the feature, understand the following considerations:
 
 * If the app doesn’t support the language that the user is using in Teams, the app’s default supported language is used.
 
-* When you turn on Auto install approved apps for Adobe Acrobat, then Teams client uses the Adobe Acrobat app as the default file handler for the PDF files. This experience impacts the new and the existing users of Adobe Acrobat app. The change will be automatically applied later in 2023 and the admins will be informed via a [Microsoft 365 Message Center post](/microsoft-365/admin/manage/message-center?view=o365-worldwide).
+* When you turn on Auto install approved apps for Adobe Acrobat, then Teams client uses the Adobe Acrobat app as the default file handler for the PDF files. This experience impacts the new and the existing users of Adobe Acrobat app. The change will be automatically applied later in 2023 and the admins will be informed via a [Microsoft 365 Message Center post](/microsoft-365/admin/manage/message-center?view=o365-worldwide&preserve-view=true).
 
 * Teams admin may have blocked a Teams app for a user and your organization may allow Microsoft Entra SSO for the user to use the app, say in a browser. If this feature has been turned on for the Teams app and the user is later allowed to use the app, the app will be auto installed for them if they have used Microsoft Entra ID to sign in up to 30 days before they were allowed to use the app.
 
@@ -102,7 +102,7 @@ Before you use the feature, understand the following considerations:
 
 A few specific Teams apps require a prior setup before you roll out these apps to your organization's users. Follow the app setup instructions from the app developers that are provided below and then turn on the Auto install approved apps feature for these apps.
 
-Some of these apps require an admin to consent to its Graph permissions to work. In Teams Admin Center, a Global administrator must provide consent on behalf of users.
+Some apps require consent to its Graph permissions for the app to work. In Teams Admin Center, only a Global Administrator can grant consent on behalf of users of their organization.
 
 | App                                                                                                      | Setup instruction                                                                                                                                       | Admin consent to Graph permissions required                                                                                              |
 |----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
