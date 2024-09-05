@@ -27,7 +27,8 @@ You can create custom background images for your Teams panel devices to showcase
 
 To use custom backgrounds, it depends on the version of Teams panels app installed and the license of the account that is signed in to that device:
 
-- Verify the Teams panel is running on version 1449/1.0.96.2024XXXX or later.
+- Verify the Teams panel is running on version 1449/1.0.96.2024081207 or later.
+
 - Verify the account signed in on your Teams panel device is assigned a Teams Rooms Pro or Teams Shared Devices license.
 
 To set up and manage custom backgrounds for your Teams panels:
@@ -65,7 +66,7 @@ For Teams panels display, follow the following guidelines:
 
 ### Custom background template
 
-To create custom backgrounds that meet the guidelines in the previous section, you can download the (@Evie to provide here). The template is a .PSD file. You can use apps such as Adobe Photoshop or Paint.NET (a plug-in may be required) to customize the PSD file. The template provides the guidelines to help you place text and graphics in your custom backgrounds so that on-screen elements won't be blocked or obscured.
+To create custom backgrounds that meet the guidelines in the previous section, you can download the [Microsoft Teams panels Custom Background template](https://www.microsoft.com/en-us/download/details.aspx?id=106223). The template is a .PSD file. You can use apps such as Adobe Photoshop or Paint.NET (a plug-in may be required) to customize the PSD file. The template provides the guidelines to help you place text and graphics in your custom backgrounds so that on-screen elements won't be blocked or obscured.
 
 ## Deploy custom backgrounds
 
