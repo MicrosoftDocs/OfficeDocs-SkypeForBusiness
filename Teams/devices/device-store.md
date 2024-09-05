@@ -103,7 +103,7 @@ Users can pay with a credit or debit card. All orders can be returned up to 30 d
 
 ### Admin controls
 
-Admins can manage the device store experience for their organization from Teams admin center. You can disable the purchase for all users in your tenant using this setting, available in **Teams admin center > Devices > Store > Settings**.
+Admins can manage the device store experience for their organization from Teams admin center. You can disable the purchase for all users in your tenant using this setting, available in **Teams admin center > Devices > Store > Settings**. To update this setting in Teams admin center, you need to be a Global administrator.
 
 By default, purchase is enabled. When it's disabled, the device store will be visible for users to browse and learn about latest certified devices, but the users can't purchase.
 
