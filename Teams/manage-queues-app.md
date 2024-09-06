@@ -52,7 +52,9 @@ As an IT admin, you can enable Queues app for your organization, manage the app 
 
 ## Licensing
 
-Users must have a Teams Phone and a Teams Premium license to use Queues app. For more information on Teams Phone, see [What is Teams Phone](what-is-phone-system-in-office-365.md). For more information on Teams Premium, see [Microsoft Teams Premium – Overview for admins](enhanced-teams-experience.md) and [Teams Premium licensing](teams-add-on-licensing/licensing-enhance-teams.md).
+Users must have a Teams Phone and a Teams Premium license to use Queues app. Once a user is licensed for Teams Premium, it can take up to 48 hours for Queues app to be available in the Teams client.
+
+For more information on Teams Phone, see [What is Teams Phone](what-is-phone-system-in-office-365.md). For more information on Teams Premium, see [Microsoft Teams Premium – Overview for admins](enhanced-teams-experience.md) and [Teams Premium licensing](teams-add-on-licensing/licensing-enhance-teams.md).
 
 ## Configure authorized users for Queues app
 
