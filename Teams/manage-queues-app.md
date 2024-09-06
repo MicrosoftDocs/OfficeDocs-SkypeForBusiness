@@ -115,7 +115,7 @@ Your users, both queue members and leads, can find information on using the Queu
 ## Set up Queues app
 
 > [!NOTE]
-> Queues app can be turned off from the Teams admin center, but this will also turn off other Microsoft apps like Insights, Tasks, and more. Navigate to **Teams apps** > **Manage apps**. Select **Actions** > **Org-wide app settings** > **Microsoft apps**. *Select **Off** and **Save**.
+> You can turn off Queues app via the the Teams admin center. However,doing so also turns off other Microsoft apps like Insights and Tasks. Navigate to **Teams apps** > **Manage apps**. Select **Actions** > **Org-wide app settings** > **Microsoft apps**. *Select **Off** and **Save**.
 
 ### Step 1: Assign licenses to users in your organization
 
