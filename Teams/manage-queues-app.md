@@ -34,7 +34,7 @@ The Queues app is a Teams-native solution designed to empower organizations to m
 
 - **Historical reporting**: View historical metrics for call queues, and auto attendants, and agent queue actions. Historical metrics report up to the past 27 days.
 
-Queues app is designed to enhance call queue handling capabilities within Teams for your users who utilize or plan to utilize call queues and auto attendants, rather than serving as a substitute for a contact center.
+Queues app is designed to enhance call queue handling capabilities within Teams for your users who utilize or plan to utilize call queues and auto attendants.
 
 Keep the following in mind:
 
@@ -46,9 +46,9 @@ To learn more about Call queues and Auto attendants, see [Plan for Teams Auto at
 
 Your users can find information on using the Queues app with [Use the Queues app for Microsoft Teams](https://support.microsoft.com/office/370ad83e-c2c1-4a9f-8a59-16c98be102e9).
 
-## Overview of Queues
+## Overview of Queues app
 
-As an IT admin, you can enable Queues app for your organization, manage the app settings, and designate authorized users to perform various actions such as adding and removing queue members, changing call handling flows, configuring auto attendant greetings, and more. For a complete list of actions authorized users can make, see [Manage voice applications policies in Microsoft Teams](manage-voice-applications-policies.md).
+As an IT admin, you can manage Queues app settings and designate authorized users to perform various actions such as adding and removing queue members, changing call handling flows, configuring auto attendant greetings, and more. For a complete list of actions authorized users can make, see [Manage voice applications policies in Microsoft Teams](manage-voice-applications-policies.md).
 
 ## Licensing
 
