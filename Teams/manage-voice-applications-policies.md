@@ -88,13 +88,9 @@ To individually assign a custom voice application policy to users, you can use t
 
 In addition to creating a TeamsVoiceApplicationsPolicy and assigning it to users, a user must also be assigned as an [Authorized user](aa-cq-authorized-users.md) to at least one auto attendant or call queue.
 
-If the user is only assigned a voice application policy and is not assigned as an Authorized user to any auto attendants or call queues, the user can't perform the actions described in [Voice applications policy settings](#voice-applications-policy-settings). 
+If the user is assigned a voice application policy and is not assigned as an Authorized user to any auto attendants or call queues, the user can't perform the actions described in [Voice applications policy settings](#voice-applications-policy-settings). 
 
-If you only assign a voice application policy to a user and don't assign them as an authorized user to at least one auto attendant or call queue, the user can't perform the actions described in [Voice applications policy settings](#voice-applications-policy-settings). 
-
-The reverse is also true.  If the user is only assigned as an Authorized user any auto attendants or call queues but is not assigned a voice application policy, the user can't perform the actions you delegate.
-
-The reverse is also true - if you only assign a user as an Authorized user to at least one auto attendant or call queue but you don't assign them a voice applications policy, the user can't perform the actions you delegate.
+The reverse is also true.  If the user is assigned as an Authorized user any auto attendants or call queues but is not assigned a voice application policy, the user can't perform the actions you delegate.
 
 To learn more about the different ways that you can assign policies to users, see [Assign policies to your users in Teams](policy-assignment-overview.md).
 
