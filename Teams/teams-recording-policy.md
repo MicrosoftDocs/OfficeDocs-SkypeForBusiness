@@ -169,7 +169,7 @@ scenario:
 
 - Recorder bot outbound firewall destination IP address must be open to the Azure public IP range.
 
-- Recorder bot inbound firewall source IP address must be open to the Azure public IP range.
+- Recorder bot inbound firewall source IP address must be open to the [Teams IP range](/microsoft-365/enterprise/urls-and-ip-address-ranges#microsoft-teams).
 
 The Azure and Windows VM requirements only apply to the Teams Bot
 component, which means that a partner might implement the rest of the
