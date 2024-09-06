@@ -76,6 +76,7 @@ For compliance reasons, EUII data (also known as personally-identifiable informa
 - Local Address
 - Remote Address
 - Base Address
+- BSSID
 - Local Site
 - Remote Site
 - Auto Attendant Identity
