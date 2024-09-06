@@ -151,4 +151,4 @@ To send feedback or report an issue, select **Settings and more** (**…**) in T
 - [Manage voice applications policies in Teams](manage-voice-applications-policies.md)
 - [Use the Queues app for Microsoft Teams](https://support.microsoft.com/office/370ad83e-c2c1-4a9f-8a59-16c98be102e9)
 - [Assign policies to your users in Teams](policy-assignment-overview.md)
-- [Teams Premium licensing](/teams-add-on-licensing/licensing-enhance-teams)
+- [Teams Premium licensing](teams-add-on-licensing/licensing-enhance-teams.md)
