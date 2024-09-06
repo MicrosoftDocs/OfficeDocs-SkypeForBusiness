@@ -57,7 +57,7 @@ To enable digital signage for your Teams Rooms devices, you need to follow these
 1. Assign a source and settings to rooms which will register rooms onto supported third-party content management systems (if applicable).
 
 > [!IMPORTANT]
-> Before you enable and set up digital signage, consider your privacy and compliance requirements. See [Adding an external signage source](#adding-an-external-signage-source) for more information.
+> Before you enable and set up digital signage, consider your privacy and compliance requirements. See [Adding an external signage source](#step-3---adding-an-external-signage-source) for more information.
 The following sections show you how to complete each step.
 
 ## Step 1 - Managing permissions for digital signage
