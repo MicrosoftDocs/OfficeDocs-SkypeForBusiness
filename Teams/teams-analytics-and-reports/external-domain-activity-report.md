@@ -1,8 +1,8 @@
 ---
 title: Microsoft Teams external domain activity report
-ms.author: jtremper
-author: jacktremper
-manager: pamgreen
+ms.author: heidip
+author: MicrosoftHeidi
+manager: jtremper
 audience: Admin
 ms.topic: article
 ms.service: msteams
