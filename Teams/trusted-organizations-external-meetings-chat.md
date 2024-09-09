@@ -125,36 +125,17 @@ Set-CsTenantFederationConfiguration -BlockAllSubdomains $True
 
 #### Block federation with Teams trial-only tenants
 
-A new admin control is being introduced to block federation with Teams trial-only tenants. Currently, trial tenants have access to the full feature set of Teams for about 30 days before being billed. However, this control can be exploited by malicious actors to launch phishing or abuse attacks against Teams users. To embrace the secure-by-default mindset for our customers, we'll disable trial tenant federation by default for all tenants and require explicit tenant action if a tenant wants or needs to federate with any trial tenants.
+You can control your organization's external access with Teams trial-only tenants (that don't have any purchased seats), by using the `-ExternalAccessWithTrialTenants` setting in PowerShell (at least version 6.4.0 is required).
 
-This change will be rolled out globally starting June 17, 2024, and is expected to complete by June 30, 2024. There will be a 30-day period for tenants to review and update the default setting before it's enforced. If no action is taken, the default value **Blocked** will be applied after this time.
+The default value for this setting is **Blocked**, but you can override it to **Allowed**, using:
+`Set-CsTenantFederationConfiguration -ExternalAccessWithTrialTenants "Allowed"`
 
-##### How block federation will affect your organization
+To block external communication with trial-only tenants:
+`Set-CsTenantFederationConfiguration -ExternalAccessWithTrialTenants "Blocked"`
 
-Teams PowerShell will support a new Tenant Federation setting, `-ExternalAccessWithTrialTenants`, with the values **Allowed** or **Blocked**.
+When set to **Blocked**, users from these trial-only tenants aren't able to search and contact your users via chats, Teams calls, and meetings (using the users' authenticated identities) and your users aren't able to reach users in these trial-only tenants. Users from the trial-only tenant are also removed from existing chats.
 
-When set to **Blocked**, all external access with users from Teams subscriptions that contain only trial licenses will be blocked. This means users from these trial-only tenants won't be able to search and contact your users via chats, Teams calls, and meetings (using the users' authenticated identities) and your users won't be able to reach users in these trial-only tenants.
-
-If this setting is set to **Blocked**, users from the trial-only tenant will also be removed from existing chats.
-
-##### More information
-
-- A **trial tenant** is defined as a tenant with a Teams service plan that has only Trial subscriptions (0 purchased seats).
-- Shared Channels and Anonymous Meeting joins won't be affected by this setting.
-- The feature supports the tenant admin control only for same-cloud external communication. For cross-clouds and Skype for Business Server on-premises deployments, external communication with trial tenants will be disabled by default, with no option to override by the admin setting.
-- If your tenant has disabled external access by default and is using a specific domain Allowlist instead, trial tenants will still be blocked even if they are in the organization's Allowlist.
-
-##### What you need to do to prepare
-
-- Tenant admins need to install the latest PowerShell package (6.2.2) and use the `Set-CsTenantFederationConfiguration` command to set the desired value for the federation with trial tenants:
-  - Download or upgrade to the latest PowerShell package: PowerShell Gallery | MicrosoftTeams 6.2.0
-  - To allow external communication with trial-only tenants, use this command:
-    `Set-CsTenantFederationConfiguration -ExternalAccessWithTrialTenants "Allowed"`
-  - To block external communication with trial-only tenants, use this command:
-    `Set-CsTenantFederationConfiguration -ExternalAccessWithTrialTenants "Blocked"`
-
-> [!IMPORTANT]
-> If you want to restrict external access for most trial tenants, but still allow a few legitimate trial-tenants with which you need to federate, you'll need to purchase a license for those specific accounts.
+Users from trial-only tenants are blocked by default (with no option to override) from external communication with users in other Microsoft 365 cloud environments and with Microsoft Skype for Business server users. Two tenants with only trial subscriptions can federate with each other if the -ExternalAccessWithTrialTenants is Allowed by both tenants.
 
 #### Diagnostic Tool
 
@@ -175,11 +156,7 @@ If you want chats and calls to arrive in the user's Skype for Business client, c
 
 ### Manage chats and meetings with external Teams users not managed by an organization
 
-You can choose to enable or disable chat with external unmanaged Teams users (users not managed by an organization, such as Microsoft Teams (free)). If you allow chat with unmanaged Teams users, you can further control how your users communicate with them:
-
-- You can control if unmanaged Teams users can initiate the communication with your users.
-- You can create a list of external user profiles that users can communicate with.
-- You can restrict communication to the external user profiles list if needed.
+You can choose to enable or disable chats and meetings with external unmanaged Teams users (those not managed by an organization, such as Microsoft Teams (free)). If enabled, you can also control if people with unmanaged Teams accounts can start chats and meetings with users in your organization.
 
 > [!NOTE]
 > Chats and meetings with external unmanaged Teams users isn't available in GCC, GCC High, or DOD deployments, or in private cloud environments.
@@ -189,10 +166,6 @@ To allow chats and meetings with unmanaged Teams accounts:
 1. In the Teams admin center, go to **Users** > **External access**.
 2. Turn on the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
 3. If you want to allow external unmanaged Teams users to start the conversation, select the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
-4. If you want to restrict communication with people with unmanaged Teams accounts to a specific list of user profiles, select the **Restrict communication to the list of external user profiles added to extended directory** checkbox and select **Manage external user profiles** to add the user profiles that you want to allow. (See [manage external user profiles](#manage-external-user-profiles) below.)
-
-    > [!NOTE]
-    > [Parent Connection in Microsoft Teams for Education](edu-parents-app.md) does not support restricting communication to the list of external user profiles added to extended directory.
 5. Select **Save**.
 
 ![Screenshot of external accounts settings](./media/external-access-accounts-not-managed-by-org.png)
@@ -204,59 +177,6 @@ To prevent chat with unmanaged Teams accounts:
 1. In the Teams admin center, go to **Users** > **External access**.
 1. Turn off the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
 1. Select **Save**.
-
-### Manage external user profiles
-
-External user profiles are based on phone numbers. You can add the name and phone numbers of people outside your organization and they'll be invited to communicate with people in your organization by using Teams on their mobile device. If they don't have Teams installed, they will receive a link to install it via SMS. Once they have created a Teams account, they can also use Teams on the desktop. You can delegate management of the user profiles by using the Extended Directory User Administrator role in Azure AD.
-
-When a profile is added for someone outside your organization, it's available to your users via search by name or phone number within 24 hours. Users can start a 1:1 or group chat with the external users and can see the external users' profile cards with the information that you specify.
-
-When a user starts a chat with an external user, the external user can allow or block the connection.
-
-> [!IMPORTANT]
-> Your organization is the Data Controller for the external user profiles that you add. This may have GDPR implications. For more information, see [General Data Protection Regulation Summary](/compliance/regulatory/gdpr).
-
-To add an external user profile:
-
-1. Select **Manage external user profiles**.
-1. Select **Add**.
-1. Type a **Display name** for the contact. (Users will be able to search for this name in Teams.)
-1. Type a **Country or region code** and **Phone number**.
-1. Add any additional information that you want to include.
-1. Read the Data Controller statement and select the check box to agree.
-1. Select **Save**.
-
-You can remove an existing profile by selecting the profile and then selecting **Delete**.
-
-#### Import a list of profiles
-
-If you want to upload a list of users via .csv file, you can download a template file, add the people you want to include and their phone numbers, and upload the file.
-
-To download the .csv template:
-
-1. On the Manage external user profiles page, select **Import** on the command bar.
-1. Select **download a template**.
-
-Required fields in the template are *DisplayName* and *PhoneNumber*. Other fields are optional.
-
-To upload a completed template file:
-
-1. On the Manage external user profiles page, select **Import** on the command bar.
-1. Select **Select a file**.
-1. Select the file that you want to upload and then select **Open**.
-1. If you want to update the profile information for existing profiles, select the **Update existing external users** checkbox.
-1. Read the Data Controller statement and select the check box to agree.
-1. Select **Import**.
-
-### Use PowerShell to restrict communication to the user profiles in extended directory
-
-You can also configure the **Restrict communication to the list of external user profiles added to extended directory** setting in PowerShell by using the [Set-CsExternalAccessPolicy](/powershell/module/teams/set-csexternalaccesspolicy) cmdlet with the *RestrictTeamsConsumerAccessToExternalUserProfiles* parameter. For example:
-
-```powershell
-Set-CsExternalAccessPolicy -Identity Global -RestrictTeamsConsumerAccessToExternalUserProfiles $true
-```
-
-This cmdlet restricts communication to the list of user profiles in extended directory for the default global external access policy.
 
 ### Manage chat and calls with Skype users
 

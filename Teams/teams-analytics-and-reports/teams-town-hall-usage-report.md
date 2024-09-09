@@ -25,7 +25,7 @@ The Teams town hall usage report in the Microsoft Teams admin center shows you t
 ## View the town hall usage report
 
 1. In the left navigation of the Microsoft Teams admin center, select **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **Town hall usage reports**.
-2. Under **Date range**, select a predefined range or set a custom range. You can set a range to show data up to a year, six months before and after the current date.
+2. Under **Date range**, select a predefined range or set a custom range. You can set a range to show data up to 90 days, 45 days before and after the current date.
 3. Under **Organizer**, you can choose to show only town halls organized by a specific user.
 4. Select **Run report**.  
 
