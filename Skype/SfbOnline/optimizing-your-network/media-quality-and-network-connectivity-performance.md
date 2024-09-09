@@ -1,10 +1,10 @@
 ---
 ms.date: 11/28/2017
 title: "Media Quality and Network Connectivity Performance"
-ms.author: tonysmit
-author: tonysmit
-manager: serdars
-ms.reviewer: mpottier, dougand
+ms.author: heidip
+author: MicrosoftHeidi
+manager: jtremper
+ms.reviewer: justw, joraffer
 ms.topic: article
 ms.assetid: 5fe3e01b-34cf-44e0-b897-b0b2a83f0917
 ms.tgt.pltfrm: cloud
@@ -34,17 +34,17 @@ The quality of Real-Time media (audio, video, and application sharing) over IP i
 Azure ExpressRoute isn't a requirement for Microsoft 365 and Office 365 services including Microsoft Teams. However, Azure ExpressRoute is one of the deployment options that are available that will help make sure that connectivity to Microsoft 365 or Office 365 meets the Microsoft Teams network performance requirements and ensures the most optimal Microsoft Teams media quality experience.
   
 > [!TIP]
-> Although this topic provides you with overall networking performance guidance, complete guidance for network assessment is outside of the scope of this document. To find a list of Microsoft Teams partners who can help you with the network performance measurements as part of a thorough and complete network assessment, please visit [Skype for Business Partner Solutions](http://partnersolutions.skypeforbusiness.com/). 
+> Although this topic provides you with overall networking performance guidance, complete guidance for network assessment is outside of the scope of this document. To find a list of Microsoft Teams partners who can help you with the network performance measurements as part of a thorough and complete network assessment, please visit [Skype for Business Partner Solutions](http://partnersolutions.skypeforbusiness.com/).
   
 ## Network connectivity requirements to Microsoft Teams
 
 ### Factors that impact Microsoft Teams media quality
 
-There are many different factors that contribute to Microsoft Teams Real-Time media (audio, video, and application sharing) quality that includes the devices that are used, the environment, and the network connectivity. 
+There are many different factors that contribute to Microsoft Teams Real-Time media (audio, video, and application sharing) quality that includes the devices that are used, the environment, and the network connectivity.
   
 #### Devices
 
-In a Real-Time media session, media capturing and rendering devices that are used by all participants such as headsets and Web cams have a great impact on the overall audio and video quality. Lower quality devices or devices with incorrect device drivers will produce lower overall sound quality for audio and lower image quality for video. Certified devices or good quality devices help with echo cancellation, noise filtering, video resolution and reduce latency.
+In a Real-Time media session, media capturing and rendering devices that are used by all participants such as headsets and Web cams have a great impact on the overall audio and video quality. Lower quality devices or devices with incorrect device drivers produce lower overall sound quality for audio and lower image quality for video. Certified devices or good quality devices help with echo cancellation, noise filtering, video resolution and reduce latency.
   
 Although certified audio and video media devices aren't required, it's highly recommended devices certified for Microsoft Teams for the most optimal media experience. For a list of all Microsoft Teams certified devices, see [Phones and Devices for Skype for Business](../../SfbPartnerCertification/certification/devices-ip-phones.md). You can use the [Microsoft Teams Call Quality Dashboard](/microsoftteams/turning-on-and-using-call-quality-dashboard), found in the **Skype for Business admin center**, to verify devices in use are working correctly and monitor audio and video media quality.
   
@@ -55,7 +55,7 @@ It's important to remember that any media devices, Microsoft Teams clients, and 
   
 #### Environment
 
-The environment and surrounding area where users are meeting and using audio and video devices is another large factor for audio and video quality. Users calling from a noisy environment will have echoed, muffled, and unclear audio. Users in a dark or low light environment won't be able to produce bright, clear image quality for video. In a conference room setting, the location of the microphone and video device have a direct impact on the sound and image quality that participants will receive.
+The environment and surrounding area where users are meeting and using audio and video devices is another large factor for audio and video quality. Users calling from a noisy environment will have echoed, muffled, and unclear audio. Users in a dark or low light environment won't be able to produce bright, clear image quality for video. In a conference room setting, the location of the microphone and video device have a direct impact on the sound and image quality that participants receive.
   
 To get a clearer picture of a user's audio and video experience use the Skype for Business app **Tools** > **Options** > **Audio Device** or **Video Device** to make changes to the device in use and customize its settings.
 
@@ -67,16 +67,16 @@ The quality of the Real-Time media over IP network is greatly impacted by the qu
     
 - **Packet Loss** This is often defined as a percentage of packets that are lost in a given window of time. Packet loss directly affects audio quality—from small, individual lost packets having almost no impact, to back-to-back burst losses that cause complete audio cut-out.
     
-- **Inter-packet arrival jitter or simply jitter** This is the average change in delay between successive packets. Most modern VoIP software including Microsoft Teams can adapt to some levels of jitter through buffering. It's only when the jitter exceeds the buffering that a participant will notice the effects of jitter.
+- **Inter-packet arrival jitter or simply jitter** This is the average change in delay between successive packets. Most modern VoIP software including Microsoft Teams can adapt to some levels of jitter through buffering. It's only when the jitter exceeds the buffering that a participant notices the effects of jitter.
     
 > [!NOTE]
->  Buffering for jitter will increase end-to-end latency.
+> Buffering for jitter will increase end-to-end latency.
   
-With many concurrent Microsoft Teams Real-Time media sessions, and other network traffic generated by other Microsoft 365 or Office 365 services and other business applications, making sure that there is sufficient bandwidth over the entire network path that connects your network to the Microsoft Teams service is critical to avoid network congestion and ensure excellent media Real-Time media (audio, video, and application sharing) quality. 
+With many concurrent Microsoft Teams Real-Time media sessions, and other network traffic generated by other Microsoft 365 or Office 365 services and other business applications, making sure that there is sufficient bandwidth over the entire network path that connects your network to the Microsoft Teams service is critical to avoid network congestion and ensure excellent media Real-Time media (audio, video, and application sharing) quality.
   
 #### Implementing Quality of Service (QoS) across congested networks
 
-In addition, traffic congestion across a network will greatly impact media quality. To allow audio and video packets to travel the network quicker and to be prioritized over other network traffic in a congested network, Quality of Service (QoS) can be used to help provide an optimal end-user experience for audio and video communications.
+In addition, traffic congestion across a network greatly impacts media quality. To allow audio and video packets to travel the network quicker and to be prioritized over other network traffic in a congested network, Quality of Service (QoS) can be used to help provide an optimal end-user experience for audio and video communications.
   
 QoS provides a way for you to assign higher priorities to network packets that are carrying audio or video data. By assigning a higher priority to these packets, audio and video communications are likely to travel over the network faster, and with less interruption, than network sessions involving things like file transfers, web browsing, or database backups. That's because the network packets used for file transfers or database backups by default are assigned "best effort" as a priority and network congestion won't have as large impact. If you don't assign a higher priority to the media (audio, video, and application sharing) packets and leave them also assigned as "best effort", they too will be processed along with all other network traffic. Depending on the amount of network congestion, this will potentially end up in a lower overall audio and video quality experience for your users.
   
@@ -118,57 +118,32 @@ In a PSTN call scenario, the media path crosses the following network segments:
 ### Network Performance requirements from a Skype for Business client to Microsoft network Edge
 <a name="bkSfBClienttoEdge"></a>
 
-For optimal Skype for Business media quality, the following network performance metrics targets or thresholds are required for a connection from your company's network to the Microsoft network Edge. This segment of the network includes your internal network, this includes all WiFi and Ethernet connections, any company site-to-site traffic over a WAN connection, for example Multiprotocol Label Switching (MPLS), as well as the Internet or ExpressRoute partner connections to the Microsoft network Edge.
+For optimal Skype for Business media quality, the following network performance metrics targets or thresholds are required for a connection from your company's network to the Microsoft network Edge. This segment of the network includes your internal network, this includes all WiFi and Ethernet connections, any company site-to-site traffic over a WAN connection, for example Multiprotocol Label Switching (MPLS), and the Internet or ExpressRoute partner connections to the Microsoft network Edge.
   
 > [!CAUTION]
 > **Connectivity between a Skype for Business client on your company network to Microsoft 365 or Office 365 services must meet these following network performance requirements and thresholds.**
 
-|**Metric** <br/> |**Target** <br/> |
-|:-----|:-----|
-|Latency (one way)  <br/> |< 50ms  <br/> |
-|Latency (RTT or Round-trip Time)  <br/> |< 100ms  <br/> |
-|Burst packet loss  <br/> |<10% during any 200ms interval  <br/> |
-|Packet loss  <br/> |<1% during any 15s interval  <br/> |
-|Packet inter-arrival Jitter  <br/> |<30ms during any 15s interval  <br/> |
-|Packet reorder  <br/> |<0.05% out-of-order packets  <br/> |
+|**Metric** |**Optimal** |**Poor** |
+|:-----|:-----|:-----|
+|Round Trip Time (RFC 3550) |< 60 ms |> 500 ms |
+|Maximum Packet Loss (RFC 3550) |< 5% |> 25% |
+|Average Packet Loss (RFC 3550) |< 0.5% |> 10% |
+|Packet Jitter (RFC 3550) |< 3 ms |> 30 ms |
    
  **Other performance target requirements:**
   
 - The Microsoft network has over 160 Edge locations worldwide. We work with major Internet Service Providers (ISPs) worldwide through those Edge sites. The latency metric target assumes your company site or sites and the Microsoft Edges are on the same continent.
     
-- Your company site or sites to the Microsoft network Edge connection include first hop network access, which can be WiFi or another wireless technology. 
+- Your company site or sites to the Microsoft network Edge connection include first hop network access, which can be WiFi or another wireless technology.
     
 - The network performance target assumes proper bandwidth and/or quality-of-service planning. In other words, This applies directly to Skype for Business Real-Time media traffic when the network connection is under a peak load.
-    
-### Network performance requirements from your network Edge to Microsoft network Edge
-<a name="bkYourNetworkEdge"> </a>
 
-The following are the network performance targets or thresholds that are required for the connection between your network Edge and the Microsoft network Edge. This segment of the network excludes the customer's internal network or WAN, and is intended as guidance when testing your network traffic that is sent over the Internet, or through an ExpressRoute partner network and can also be used when negotiating a performance Service Level Agreement (SLA) with your ExpressRoute provider.
-  
-> [!CAUTION]
-> **Connectivity between your company network Edge to the Microsoft network edge must meet these following network performance requirements and thresholds.**
-
-|**Metric** <br/> |**Target** <br/> |
-|:-----|:-----|
-|Latency (one way)  <br/> |< 30ms  <br/> |
-|Latency (RTT)  <br/> |< 60ms  <br/> |
-|Burst packet loss  <br/> |<1% during any 200 ms interval  <br/> |
-|Packet loss  <br/> |<0.1% during any 15s interval  <br/> |
-|Packet inter-arrival Jitter  <br/> |<15ms during any 15s interval  <br/> |
-|Packet reorder  <br/> |<0.01% out-of-order packets  <br/> |
-   
- **Other performance target requirements:**
-  
-- The performance target requires connection between any of your company's network Edge and its nearest Microsoft network Edge, to be on the same continent.
-    
-- The network performance target assumes proper bandwidth and/or quality-of-service planning. This also applies to Skype for Business Real-Time media traffic when the network connection is under a peak load. For proper bandwidth and QoS planning, refer to [ExpressRoute and QoS in Microsoft Teams](https://support.office.com/article/ExpressRoute-and-QoS-in-Skype-for-Business-Online-20c654da-30ee-4e4f-a764-8b7d8844431d).
-    
 ## Measuring network performance
 <a name="bkNetworkPerf"> </a>
 
-To measure the actual network performance, especially for latency and packet loss, from any company network site to a network Edge, you can use tools such as ping, test against a set of Skype for Business media relay services running from the Microsoft Edge and data center sites. 
+To measure the actual network performance, especially for latency and packet loss, from any company network site to a network Edge, you can use tools such as ping, test against a set of Skype for Business media relay services running from the Microsoft Edge and data center sites.
 
->[!NOTE]
+> [!NOTE]
 > Measuring network performance through ping (ICMP) is not effective. For that reason, the anycast IP expose below will stop answering to ICMP requests starting in Jan, 2020. To measure network performace effectively, Microsoft recommends the [Network Assesment Tool](https://www.microsoft.com/download/details.aspx?id=53885).
   
 For testing Internet connections to the Microsoft network, it is recommended that you test against the following VIPs of the Skype for Business media relays. The *Anycast VIP*  will resolve to an IP address of a Media Relay in a Microsoft network Edge site that is closest to the testing location.
@@ -184,20 +159,18 @@ For testing Internet connections to the Microsoft network, it is recommended tha
     
 - You should assess and gather data for all of your networks over a long period of time. We recommend for you to perform your testing of network performance for a minimum of a week, so that you can see usage patterns for all business days and hours. This will show you peak times.
     
-- You should take multiple samples of network performance measurements. We recommend taking a measurement every 10 minutes from a company site during the entire period of time you are gathering data. For comparing the Microsoft Teams network performance requirements, take the 90th percentile measurement value from this sample data set. 
+- You should take multiple samples of network performance measurements. We recommend taking a measurement every 10 minutes from a company site during the entire period of time you are gathering data. For comparing the Microsoft Teams network performance requirements, take the 90th percentile measurement value from this sample data set.
     
-- You should continuously assess the network's performance. Network utilization varies over time due to usage pattern changes, new enterprise-based applications that use a large amount of bandwidth, and changes to your organizational or physical company locations. It is important for you to continuously monitor your network performance against these network performance requirements and targets/thresholds and make timely adjustments to ensure the most optimal Real-Time media quality. 
+- You should continuously assess the network's performance. Network utilization varies over time due to usage pattern changes, new enterprise-based applications that use a large amount of bandwidth, and changes to your organizational or physical company locations. It is important for you to continuously monitor your network performance against these network performance requirements and targets/thresholds and make timely adjustments to ensure the most optimal Real-Time media quality.
     
 ## Measuring Network Performance using Azure VMs
 <a name="bkNetworkPerf"> </a>
 
 Instead of testing against the Microsoft network Edge sites, there are network assessment solutions from Skype for Business customers and partners that use testing setup for services in the Microsoft Azure cloud. In those solutions, the network assessment tools test latency, packet loss and jitter against custom endpoints set up as a service in the Azure cloud. As a result, the test network traffic travels through one other network segment, which is the connection within the Microsoft network between the network edges and Azure data centers that hosts the network assessment service.
   
-For those network assessment solutions based on Azure hosted testing services. We recommend performing the network assessment within country and/or region. For example, for customer sites in east U.S., the assessment should be performed against a testing service instance hosted in Azure's east US data center region. 
+For those network assessment solutions based on Azure hosted testing services. We recommend performing the network assessment within country and/or region. For example, for customer sites in east U.S., the assessment should be performed against a testing service instance hosted in Azure's east US data center region.
   
 Below are the latency (RTT) targets for the Azure service-based network assessment setup. The one-way latency targets will be half of the corresponding RTT targets. The packet loss and jitter goals stay the same as those defined for Skype Media Relay based testing.
-  
-
 
 |**Customer region** <br/> |**Azure region** <br/> |**Your network Edge - Azure Round-trip Time (RTT)** <br/> |**Your Site - Azure Round-trip Time (RTT)** <br/> |
 |:-----|:-----|:-----|:-----|
@@ -235,11 +208,11 @@ Azure ExpressRoute is available for all Microsoft 365 and Office 365 licensing o
 
 Azure ExpressRoute isn't a requirement for getting the most optimal Microsoft Teams media quality. It is, however, one of the deployment options that help you make sure that your cloud connectivity meets the Skype for Business network performance targets or thresholds.
   
-Microsoft 365 and Office 365 are high performance and secure services that use the Internet. We continue to invest in new security capabilities and regional Edge nodes to continuously improve security and performance. Azure ExpressRoute isn't a requirement for Microsoft 365 or Office 365 services including Microsoft Teams. Azure ExpressRoute is one of the deployment options that are available that will help make sure that connectivity to Microsoft 365 or Office 365 meets the Skype for Business network performance requirements and ensures the most optimal Microsoft Teams media quality experience.
+Microsoft 365 and Office 365 are high performance and secure services that use the Internet. We continue to invest in new security capabilities and regional Edge nodes to continuously improve security and performance. Azure ExpressRoute isn't a requirement for Microsoft 365 or Office 365 services including Microsoft Teams. Azure ExpressRoute is one of the deployment options that are available that help make sure that connectivity to Microsoft 365 or Office 365 meets the Skype for Business network performance requirements and ensures the most optimal Microsoft Teams media quality experience.
   
-For Microsoft Teams media quality, it is important that the connection between your company sites and the Microsoft network Edges meets the performance targets in [Network Performance requirements from a Skype for Business client to Microsoft network Edge](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge) and that the connection between your network Edges and the Microsoft network edges meets the performance targets in [Network performance requirements from your network Edge to Microsoft network Edge](media-quality-and-network-connectivity-performance.md#bkYourNetworkEdge).  
+For Microsoft Teams media quality, it is important that the connection between your company sites and the Microsoft network Edges meets the performance targets in [Network Performance requirements from a Skype for Business client to Microsoft network Edge](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge) and that the connection between your network Edges and the Microsoft network edges meets the performance targets.  
   
-It is also important that your company's physical network connectivity, including your internal network and cloud connectivity capacity accommodate peak media traffic volume. Azure ExpressRoute is one of many ways that will help customers ensure their Microsoft Teams cloud connectivity meets all of these performance requirements.
+It is also important that your company's physical network connectivity, including your internal network and cloud connectivity capacity accommodate peak media traffic volume. Azure ExpressRoute is one of many ways that help customers ensure their Microsoft Teams cloud connectivity meets all of these performance requirements.
   
 ### Is ExpressRoute required for voice quality SLA?
 
@@ -252,7 +225,7 @@ No, ExpressRoute isn't required for Microsoft Teams Voice Quality SLA. The [Micr
 - Voice quality issues due to Microsoft Network problems.
     
 > [!NOTE]
-> The voice quality SLA excludes those calls where the low call quality is caused by problems in non-Microsoft networks including ExpressRoute partner and other networks. 
+> The voice quality SLA excludes those calls where the low call quality is caused by problems in non-Microsoft networks including ExpressRoute partner and other networks.
   
 ### Internet or Azure ExpressRoute?
 
@@ -333,13 +306,10 @@ In the following example, Contoso is a European accounting firm with presence in
   
 ![ExpressRoute Cloud Connector One.](../images/ebdc96e5-b22a-4bf2-b668-062460b4b890.png)
   
-Below is another deployment option for Contoso. In this case, they decided to set up an ExpressRoute connection at each site where a Cloud Connector is deployed. 
+Below is another deployment option for Contoso. In this case, they decided to set up an ExpressRoute connection at each site where a Cloud Connector is deployed.
   
 ![ExpressRoute Cloud Connector Two.](../images/06d967a9-64f5-4d7d-98ed-3f3add1b7c2b.png)
   
 ## Related topics
 
 [ExpressRoute and QoS in Skype for Business Online](expressroute-and-qos-in-skype-for-business-online.md)
-
-  
-
