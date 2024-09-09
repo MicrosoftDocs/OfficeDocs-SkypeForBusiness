@@ -103,7 +103,7 @@ Voice applications policies control what configuration changes and actions an au
 |Business hours greeting    |This setting allows authorized users to change the Business Hours Greeting.                    |AllowAutoAttendantBusinessHoursGreetingChange |No, Generally Available |
 |After hours greeting       |This setting allows authorized users to change the After Hours Greeting.                       |AllowAutoAttendantAfterHoursGreetingChange    |No, Generally Available |
 |Holiday greeting           |This setting allows authorized users to change the Holiday Greeting.                           |AllowAutoAttendantHolidayGreetingChange       |No, Generally Available |
-|Time zone                  |This setting allows authorized users to change the Time zone.                                  |AllowAutoAttendantTimeZoneChange              |Yes<sup>3</sup) |
+|Time zone                  |This setting allows authorized users to change the Time zone.                                  |AllowAutoAttendantTimeZoneChange              |Yes<sup>3</sup> |
 |Language                   |This setting allows authorized users to change the Lanugage.                                   |AllowAutoAttendantLanguageChange              |Yes<sup>3</sup> |
 |Business hours             |This setting allows authorized users to change the auto attendant business hours schedule.     |AllowAutoAttendantBusinessHoursChange         |Yes, Public Preview     |
 |Holiday dates and hours    |This setting allows authorized users to change the auto attendant holiday schedule.<sup>2</sup>|AllowAutoAttendantHolidaysChange              |Yes, Public Preview     |
