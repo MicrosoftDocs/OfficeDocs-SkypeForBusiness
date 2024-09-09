@@ -1,11 +1,11 @@
 ---
 title: Manage the Microsoft Teams Exploratory experience
-author: DaniEASmith
-ms.author: danismith
-manager: pamgreen
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.topic: reference
 audience: Admin
-ms.reviewer: 
+ms.reviewer: janebo
 ms.date: 04/23/2024
 ms.service: msteams
 search.appverid: MET150
