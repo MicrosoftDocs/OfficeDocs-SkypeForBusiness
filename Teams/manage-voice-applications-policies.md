@@ -146,8 +146,8 @@ Notes
 |Music on Hold                 |This setting allows authorized users to change the Music on Hold.                                   |AllowCallQueueMusicOnHoldChange          |No, Generally Available|
 |Shared voicemail greeting for call overflow|This setting allows authorized users to change the Overflow Shared Voicemail Greeting. |AllowCallQueueOverflowSharedVoicemailGreetingChange|No, Generally Available|
 |Shared voicemail greeting for call timeout|This setting allows authorized users to change the Timeout Shared Voicemail Greeting.   |AllowCallQueueTimeoutSharedVoicemailGreetingChange|No, Generally Available|
-|Shared voicemail greeting for no agents|This setting allows authorized users to change the No Agents Shared Voicemail Greeting.    |AllowCallQueueNoAgentSharedVoicemailGreetingChange|No, Not Available|
-|Language                      |This setting allows authorized users to change the Language.                                        |AllowCallQueueLanguageChange             |Yes<sup>3</sup) |
+|Shared voicemail greeting for no agents|This setting allows authorized users to change the No Agents Shared Voicemail Greeting.    |AllowCallQueueNoAgentSharedVoicemailGreetingChange|No<sup>3</sup>|
+|Language                      |This setting allows authorized users to change the Language.                                        |AllowCallQueueLanguageChange             |Yes<sup>3</sup> |
 |Membership                    |This setting allows authorized users to change the agents who are part of the call queue.           |AllowCallQueueMembershipChange           |Yes, Public Preview<br>See note 2|
 |Conference mode               |This setting allows authorized users to change the call queue conference mode setting.              |AllowCallQueueConferenceModeChange       |Yes, Public Preview|
 |Agent routing method          |This setting allows authorized users to change the call queue agent routing (selection) method.     |AllowCallQueueRoutingMethodChange        |Yes, Public Preview|
