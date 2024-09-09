@@ -5154,6 +5154,16 @@
   "source_path": "Teams/devices/xiaomi-push-notifications.md",
   "redirect_url": "/microsoftteams/devices/device-management",
   "redirect_document_id": false
+},
+{
+  "source_path": "Teams/education-insights-manage-access.md",
+  "redirect_url": "/microsoftteams/expand-teams-across-your-org/teams-for-education-landing-page",
+  "redirect_document_id": false
+},
+{
+  "source_path": "Teams/education-insights-sis-data-sync.md",
+  "redirect_url": "/microsoftteams/expand-teams-across-your-org/teams-for-education-landing-page",
+  "redirect_document_id": false
 }
 ] 
 }

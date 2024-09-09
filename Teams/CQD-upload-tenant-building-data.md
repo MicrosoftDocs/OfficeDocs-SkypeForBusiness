@@ -236,7 +236,7 @@ After you upload building information for managed networks, every managed networ
 
 [Set up Call Quality Dashboard (CQD)](turning-on-and-using-call-quality-dashboard.md)
 
-[CQD data and reports](CQD-data-and-reports.md)
+[CQD data and reports](cqd-data-and-reports.md)
 
 [Use CQD to manage call and meeting quality](quality-of-experience-review-guide.md)
 
