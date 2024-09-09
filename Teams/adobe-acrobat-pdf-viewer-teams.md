@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.subservice: teams-apps
-ms.date: 06/13/2024
+ms.date: 09/09/2024
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -83,3 +83,4 @@ Know the following information about this functionality:
 * If you face any issues to sign in to the Adobe Acrobat app in the Teams desktop client, then use [Teams in browser](https://teams.microsoft.com/) to sign in.
 * Sign-in to a free [Adobe account](https://acrobat.adobe.com/us/en/) to comment or annotate on the PDF files. The app in Teams can offer functionality such as annotating, organizing, compressing, and protecting PDF files. For a complete list of functionality and the prerequisites, see [Manage PDF files in Teams with Acrobat app](https://www.adobe.com/content/dam/dx-dc/pdf/ue/acrobat-msft-teams-feature-comp-ue.pdf).
 * When you collaborate on a PDF document, it's temporarily stored (for up to 24 hours) on the Adobe servers in the region in which you're located. This temporary storage is to facilitate transient processing. Your documents are encrypted end-to-end when being transferred from your local filesystem to the server and remain encrypted on the server as well. See [security for Acrobat](https://aka.ms/Adobe_Acrobat_Security).
+* Once Adobe Acrobat is made the default PDF file handler, then PDF files clicked inside Teams will open inside Teams. Users can't open PDF files in their desktop app using any setting.
