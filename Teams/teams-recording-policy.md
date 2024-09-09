@@ -252,14 +252,14 @@ Compliance recording doesn't work if users have an Internet outage, and make or 
 
 Support for notifications is enabled using the Teams client experiences. The experiences can be either visual or audio.
 
-**Teams clients - visual notice**
+#### Teams clients - visual notice
 
 - Desktop/web
 - Mobile (iOS/Android)
 - Teams Phones
 - Teams rooms
 
-**Other endpoints - audio notice**
+#### Other endpoints - audio notice
 
 - SIP phones
 - Skype for Business
