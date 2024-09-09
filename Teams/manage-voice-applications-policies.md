@@ -103,8 +103,8 @@ Voice applications policies control what configuration changes and actions an au
 |Business hours greeting    |This setting allows authorized users to change the Business Hours Greeting.                    |AllowAutoAttendantBusinessHoursGreetingChange |No, Generally Available |
 |After hours greeting       |This setting allows authorized users to change the After Hours Greeting.                       |AllowAutoAttendantAfterHoursGreetingChange    |No, Generally Available |
 |Holiday greeting           |This setting allows authorized users to change the Holiday Greeting.                           |AllowAutoAttendantHolidayGreetingChange       |No, Generally Available |
-|Time zone                  |This setting allows authorized users to change the Time zone.                                  |AllowAutoAttendantTimeZoneChange              |Yes, Not Available      |
-|Language                   |This setting allows authorized users to change the Lanugage.                                   |AllowAutoAttendantLanguageChange              |Yes, Not Available      |
+|Time zone                  |This setting allows authorized users to change the Time zone.                                  |AllowAutoAttendantTimeZoneChange              |Yes<sup>3</sup) |
+|Language                   |This setting allows authorized users to change the Lanugage.                                   |AllowAutoAttendantLanguageChange              |Yes<sup>3</sup> |
 |Business hours             |This setting allows authorized users to change the auto attendant business hours schedule.     |AllowAutoAttendantBusinessHoursChange         |Yes, Public Preview     |
 |Holiday dates and hours    |This setting allows authorized users to change the auto attendant holiday schedule.<sup>2</sup>|AllowAutoAttendantHolidaysChange              |Yes, Public Preview     |
 |Business hours call routing|This setting allows authorized users to change the auto attendant business hours call flow.    |AllowAutoAttendantBusinessHoursRoutingChange  |Yes, Public Preview     |
@@ -115,6 +115,7 @@ Notes
 
 1. The user requires a Teams Premium license and Queues app to access this functionality.
 2. In order to change the holiday schedule, the user must be authorized for all auto attendants that reference the holiday.
+3. This option is not currently available in Queues app.
    
 ### Auto attendant - Reporting
 
@@ -146,7 +147,7 @@ Notes
 |Shared voicemail greeting for call overflow|This setting allows authorized users to change the Overflow Shared Voicemail Greeting. |AllowCallQueueOverflowSharedVoicemailGreetingChange|No, Generally Available|
 |Shared voicemail greeting for call timeout|This setting allows authorized users to change the Timeout Shared Voicemail Greeting.   |AllowCallQueueTimeoutSharedVoicemailGreetingChange|No, Generally Available|
 |Shared voicemail greeting for no agents|This setting allows authorized users to change the No Agents Shared Voicemail Greeting.    |AllowCallQueueNoAgentSharedVoicemailGreetingChange|No, Not Available|
-|Language                      |This setting allows authorized users to change the Language.                                        |AllowCallQueueLanguageChange             |Yes, Not Available |
+|Language                      |This setting allows authorized users to change the Language.                                        |AllowCallQueueLanguageChange             |Yes<sup>3</sup) |
 |Membership                    |This setting allows authorized users to change the agents who are part of the call queue.           |AllowCallQueueMembershipChange           |Yes, Public Preview<br>See note 2|
 |Conference mode               |This setting allows authorized users to change the call queue conference mode setting.              |AllowCallQueueConferenceModeChange       |Yes, Public Preview|
 |Agent routing method          |This setting allows authorized users to change the call queue agent routing (selection) method.     |AllowCallQueueRoutingMethodChange        |Yes, Public Preview|
@@ -160,18 +161,20 @@ Notes
 
 1. The user requires a Teams Premium license and Queues app to access this functionality.
 1. If the Call queue uses a distribution list, security group, Microsoft 365 group or a Microsoft Teams channel the owner of these can add or remove agents without a Teams Premium license or Queues app.
+1. This option is not currently available in Queues app.
 
 ### Call queues - Agent actions
 
 |Teams voice applications policy setting|Description                                                      |PowerShell parameter     |Teams Premium required<sup>1</sup>|
 |--------------------------------|------------------------------------------------------------------------|--------------------------------------|---------------------|
 |Opt agent in/out of queue       |This setting allows authorized users to change an agent's opt-in status.|AllowCallQueueAgentOptChange          |Yes, Public Preview  | 
-|Agent monitor mode              |This setting is not currently available for authorized users.           |CallQueueAgentMonitorMode             |Yes, Not Available   |
-|Agent monitor notification mode |This setting is not currently available for authorized users.           |CallQueueAgentMonitorNotificationMode |Yes, Not Available   |
+|Agent monitor mode              |This setting is not currently available for authorized users.           |CallQueueAgentMonitorMode             |Yes<sup>2</sup>      |
+|Agent monitor notification mode |This setting is not currently available for authorized users.           |CallQueueAgentMonitorNotificationMode |Yes<sup>2</sup>      |
 
 Notes
 
 1. The user requires a Teams Premium license and Queues app to access this functionality.
+1. This option is not currently available in Queues app.
    
 ### Call queues - Reporting
 
