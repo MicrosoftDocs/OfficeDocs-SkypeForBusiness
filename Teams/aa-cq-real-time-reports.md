@@ -33,7 +33,7 @@ description: Learn about the real-time metrics that are available
 > [!IMPORTANT]
 > Only some of the metrics outlined here are currently available to Queues app users.
 >
-> Please see {insert Queues app link} for information on how and where these metrics are shown within Queues app.
+> Please see [Use the Queues app for Microsoft Teams](https://support.microsoft.com/office/use-the-queues-app-for-microsoft-teams-370ad83e-c2c1-4a9f-8a59-16c98be102e9) for information on how to use Queues app.
 
 ## Feeds & Intervals
 
