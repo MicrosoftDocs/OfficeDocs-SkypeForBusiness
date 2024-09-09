@@ -113,7 +113,7 @@ After you create this new resource account for calling ID, you still need to:
 
 ### Set the Service level threshold
 
-_This feature is in limited public preview._
+_This feature is in public preview._
 
 Service level measures the efficiency and responsiveness to incoming customer requests within a specific Service level threshold.
 
