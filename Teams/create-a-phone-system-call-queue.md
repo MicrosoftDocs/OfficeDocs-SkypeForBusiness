@@ -432,7 +432,7 @@ A caller becomes *eligible* for callback based on any one of the following confi
 - Calls to agent ratio
   Once the number of callers waiting in queue exceeds the ratio, new callers arriving in the queue become *eligible* for callback. This option applies to callers arriving in the queue.
 
-Additionally, for a call to become *eligble* for callback, it must have a valid inbound phone number in E.164 format and it must not be  presenting to an agent.
+Additionally, for a call to become *eligble* for callback, it must have a valid inbound phone number in E.164 format and it must not be presenting to an agent.
 
 *Eligible* callers will receive an option to request callback *after* the music on hold finishes playing.
 
