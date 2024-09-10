@@ -105,57 +105,57 @@ If you've been using live events for your organization, you might want to unders
 
 |Capability|Live Events|Town halls|Premium town halls|
 |:------| :---: | :---: | :---: |
-|Ability to not send emails and calendar invites to attendees|✔️|*Targeted for H2 CY24*|*Targeted for H2 CY24*|
+|Ability to not send emails and calendar invites to attendees|✔️|*Targeted*|*Targeted*|
 |AI generated captions|✔️|✔️|✔️|
 |Attendee reporting|✔️| ✔️|✔️|
-|Broadcast capacity|10k|10k|- 20k</br> *- 100k targeted for H2 CY25*|
+|Broadcast capacity|10k|10k|- 20k</br> *- 100k targeted*|
 |Concurrent events|15|15|50|
-|Control when event invites are sent|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
-|CVI support|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
+|Control when event invites are sent|✔️|*Targeted*|*Targeted*|
+|CVI support|✔️|*Targeted*|*Targeted*|
 |Default audio and video off|✔️|✔️|✔️|
-|Download translated transcripts|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
+|Download translated transcripts|✔️|*Targeted*|*Targeted*|
 |Duration|Four hours|30 hours|30 hours|
 |eCDN|Microsoft and partner providers|Microsoft and partner providers|Microsoft and partner providers|
-|DVR|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
-|Dynamics 365 integration|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
+|DVR|✔️|*Targeted*|*Targeted*|
+|Dynamics 365 integration|✔️|*Targeted*|*Targeted*|
 |Email editing|✖️|✖️|✔️|
-|End event for attendees|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
+|End event for attendees|✔️|*Targeted*|*Targeted*|
 |Essential emails|✖️|✔️|✔️|
 |External presenters|✔️|✔️|✔️|
 |Green room|✔️|✔️|✔️|
-|Join as attendee for presenters and organizers|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
+|Join as attendee for presenters and organizers|✔️|*Targeted*|*Targeted*|
 |Layouts|Single Video, Video + Content​​|Dynamic focused curated view|Dynamic focused curated view|
 |Live translated captions|✔️|Six languages|10 languages|
-|Manage the types of events your organizers can create|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
+|Manage the types of events your organizers can create|✔️|*Targeted*|*Targeted*|
 |Manage what attendees see|✖️|✔️|✔️|
-|Manage whether events in your org can be recorded|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
-|Manage whether events in your org can be transcribed|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
+|Manage whether events in your org can be recorded|✔️|*Targeted*|*Targeted*|
+|Manage whether events in your org can be transcribed|✔️|*Targeted*|*Targeted*|
 |Microsoft town hall insights|✖️|✖️|✔️|
-|Modern and dynamic group support|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
-|MTR-W support for presenters and attendees|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
-|Nudge attendees to join|✔️|*Targeted for H2 CY24*|*Targeted for H2 CY24*|
+|Modern and dynamic group support|✔️|*Targeted*|*Targeted*|
+|MTR-W support for presenters and attendees|✔️|*Targeted*|*Targeted*|
+|Nudge attendees to join|✔️|*Targeted*|*Targeted*|
 |Presenter capacity (including external presenters)|100|100|100|
-|Presenters can dial in|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
-|Preview shared content in managed mode|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
-|Producer role|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
+|Presenters can dial in|✔️|*Targeted*|*Targeted*|
+|Preview shared content in managed mode|✔️|*Targeted*|*Targeted*|
+|Producer role|✔️|*Targeted*|*Targeted*|
 |Producer UX|✔️ |Manage what attendees see|Manage what attendees see|
-|Q&A: attendees can filter questions|✔️|*Targeted for H2 CY24*|*Targeted for H2 CY24*|
+|Q&A: attendees can filter questions|✔️|*Targeted*|*Targeted*|
 |Q&A capacity|10k|10k|20k|
-|Q&A: delete and archive questions|✔️|*Targeted for H2 CY24*|*Targeted for H2 CY24*|
-|Q&A: moderator default and hide real names|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
-|Q&A: organizers can make presenters moderators|✔️|*Targeted for H2 CY24*|*Targeted for H2 CY24*|
-|Q&A: organizers can privately reply to a question|✔️|*Targeted for H2 CY24*|*Targeted for H2 CY24*|
+|Q&A: delete and archive questions|✔️|*Targeted*|*Targeted*|
+|Q&A: moderator default and hide real names|✔️|*Targeted*|*Targeted*|
+|Q&A: organizers can make presenters moderators|✔️|*Targeted*|*Targeted*|
+|Q&A: organizers can privately reply to a question|✔️|*Targeted*|*Targeted*|
 |Q&A: question export to CSV|✔️|✔️|✔️|
-|Q&A: vote on and sort questions|✔️|*Targeted for H2 CY24*|*Targeted for H2 CY24*|
+|Q&A: vote on and sort questions|✔️|*Targeted*|*Targeted*|
 |Queue and preview content and presenters|✔️|In development|In development|
-|Return to green room|✔️ |*Targeted for H1 CY25*|*Targeted for H1 CY25*|
+|Return to green room|✔️ |*Targeted*|*Targeted*|
 |RTMP-In|✔️|✔️|✔️|
-|RTMP-In Transcription|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
-|Separate invites for presenters and attendees|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
-|Sharepoint embedded scheduling|✔️|*Targeted for H2 CY24*|*Targeted for H2 CY24*|
+|RTMP-In Transcription|✔️|*Targeted*|*Targeted*|
+|Separate invites for presenters and attendees|✔️|*Targeted*|*Targeted*|
+|Sharepoint embedded scheduling|✔️|*Targeted*|*Targeted*|
 |Usage reports|✔️|✔️|✔️|
-|VDI support|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
-|Viva Engage integration|✔️|*Targeted for H1 CY25*|*Targeted for H1 CY25*|
+|VDI support|✔️|*Targeted*|*Targeted*|
+|Viva Engage integration|✔️|*Targeted*|*Targeted*|
 |VOD|✔️|✔️|✔️|
 
 For more information on Teams premium, see [Teams Premium licensing](/microsoftteams/teams-add-on-licensing/licensing-enhance-teams).
