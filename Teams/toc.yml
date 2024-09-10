@@ -1411,6 +1411,8 @@ items:
                   href: rooms/custom-backgrounds-android.md
                 - name: Manage custom backgrounds on Windows
                   href: rooms/custom-backgrounds.md
+                - name: Digital signage
+                  href: rooms/digital-signage.md                  
                 - name: Join meetings with QR codes
                   href: rooms/teams-rooms-qr-codes.md
                 - name: Multi-Stream IntelliFrame
