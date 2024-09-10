@@ -132,7 +132,7 @@ If you've been using live events for your organization, you might want to unders
 |Manage whether events in your org can be transcribed|✔️|*Targeted*|*Targeted*|
 |Microsoft town hall insights|✖️|✖️|✔️|
 |Modern and dynamic group support|✔️|*Targeted*|*Targeted*|
-|MTR-W support for presenters and attendees|✔️|*Targeted*|*Targeted*|
+|MTR (Windows) support for presenters and attendees|✔️|*Targeted*|*Targeted*|
 |Nudge attendees to join|✔️|*Targeted*|*Targeted*|
 |Presenter capacity (including external presenters)|100|100|100|
 |Presenters can dial in|✔️|*Targeted*|*Targeted*|
