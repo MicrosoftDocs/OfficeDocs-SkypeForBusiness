@@ -47,7 +47,7 @@ Currently, digital signage isn't yet available on the following clients and envi
 - Government Community Cloud High (GCC-H)
 - Department of Defense (DoD)
 
-## Set up and management
+## Setup and management
 
 To enable digital signage for your Teams Rooms devices, you need to follow these steps:
 
