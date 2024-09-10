@@ -3,8 +3,8 @@ title: Manage Copilot for Microsoft Teams meetings and events
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.reviewer: elederman
-ms.date: 4/19/2024
+ms.reviewer: maryam.ahmad
+ms.date: 9/9/2024
 ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -80,7 +80,8 @@ The following table shows the behaviors of the settings for the **`-Copilot`** p
 |Teams admins center policy value |PowerShell setting value | Behavior|
 |---------|---------|---------------|
 |On|Enabled| When organizers with this policy create meetings and events, the default value for Copilot in their meeting options is **Only during the meeting**. Meeting organizers can change this value to **During and after the meeting**.  |
-|On only with retained transcript|EnabledWithTranscript| **This is the default value**. When organizers with this policy create meetings, the default value for Copilot in their meeting options is **During and after the meeting**. This option is enforced; organizers can't change this value.|
+|On with saved transcript required|EnabledWithTranscript| **This is the default value**. When organizers with this policy create meetings, the default value for Copilot in their meeting options is **During and after the meeting**. This option is enforced; organizers can't change this value.|
+|On with transcript saved by default|EnabledWithTranscriptDefaultOn| When organizers with this policy create meetings, the default value for Copilot in their meeting options is **During and after the meeting**. Organizers can change this value.|
 
 ### Manage Copilot in the Teams admin center
 
@@ -101,6 +102,12 @@ To allow users in meetings and events that organizers with this policy create to
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -Copilot Enabled
+```
+
+To set the default for organizers for Copilot with this policy to **During and after the meeting** and give them the option to change, use the following script:
+
+```PowerShell
+Set-CsTeamsMeetingPolicy -Identity <policy name> -Copilot EnabledWithTranscriptDefaultOn
 ```
 
 ## Related articles
