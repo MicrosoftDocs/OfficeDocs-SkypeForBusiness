@@ -29,6 +29,9 @@ The cmdlets for creating and managing teams are in the [Microsoft Teams PowerShe
 
 Teams are backed by Office 365 Groups, so when you create a team, you create a group. There are a set of cmdlets provided for operating on the core team and its settings (``new-team``, ``get-team``,  ``set-team``), managing team users (``add-teamuser``, ``remove-teamuser``), and cmdlets for managing the channels of the team (``new-teamchannel``, ``remove-teamchannel``). All of these cmdlets can be run as end users, but they work only on the teams that you own or are a member of. If you're a Global Administrator or Teams Administrator, you can act on all teams in your organization.
 
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+
 ```powershell
 New-Team -DisplayName "Contoso Marketing" -Description "Collaboration space for Contoso's Marketing department"
 ```
