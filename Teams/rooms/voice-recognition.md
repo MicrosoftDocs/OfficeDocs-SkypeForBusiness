@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: parisataheri
-ms.date: 05/15/2024
+ms.date: 08/15/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -26,6 +26,9 @@ This article provides guidance on how admins can enable Teams Rooms for voice re
 > [!NOTE]
 > Intelligent Speaker is available in all countries and regions. See [Supported locales](#in-meeting-transcription-locales) for a list of the locales currently supported for biometric enrollment and in-meeting transcription.
 
+> [!NOTE]
+> - Intelligent Speakers are available to customers with Teams Room Pro licenses.​​​​​​​
+> - Selected devices under legacy Microsoft Teams Rooms Premium licenses will continue to be supported.
 ## Optimizing Transcription Precision with Intelligent Speakers
 
 When you have activated Intelligent Speaker for your Microsoft Teams Rooms, the meeting transcript is able to not only distinguish between different speakers in the room, but also identify them and attribute them to the correct person. Intelligent Speaker enables critical use cases for Copilot and intelligent recap.
