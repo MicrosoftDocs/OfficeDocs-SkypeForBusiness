@@ -30,7 +30,7 @@ description: Learn how to manage Copilot admin policies in the Teams admin cente
 
 **APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
 
-Copilot for Microsoft Teams meetings and events is an artificial intelligence (AI) tool that can capture important conversation points. Each meeting and webinar participant with a Copilot license can ask prompts that are only visible to them. Participants and organizers can learn things like who said what and where people agree or disagree. Copilot can also recommend follow-up tasks, all in real time during a meeting. Organizers, co-organizers, and presenters can use Copilot during town hall events.
+Copilot for Microsoft Teams meetings and events is an artificial intelligence (AI) tool that can capture important conversation points. Each meeting and webinar participant with a Copilot license can ask prompts that are only visible to them. Participants and organizers can learn things like who said what and where people agree or disagree. Copilot can also recommend follow-up tasks, all in real time during a meeting. Organizers, co-organizers, and presenters can use Copilot during town hall events. As an admin, you can manage how users in your org use Copilot for Teams meetings and events.
 
 There are two ways for users in your organization to use Copilot in meetings and events:
 
@@ -45,8 +45,6 @@ To learn more about how organizers can use Copilot during, and after the meeting
 When organizers create a meeting or event, they can set Copilot’s value to **Only during the meeting** from the dropdown in their meeting options. Once someone with a Copilot license selects the Copilot button during the meeting or event, Copilot runs for all licensed users. This option relies on a hidden transcript that isn't saved after the meeting or event ends. Users can't access Copilot and its history after the meeting or event.
 
 To learn more about how organizers can use Copilot  only during the meeting, see [Use Copilot without recording a Teams meeting](https://support.microsoft.com/office/use-copilot-without-recording-a-teams-meeting-a59cb88c-0f6b-4a20-a47a-3a1c9a818bd9).
-
-As an admin, you can manage how users in your org use Copilot for Teams meetings and events.
 
 > [!IMPORTANT]
 > Copilot for Teams meetings isn’t available in end-to-end encrypted meetings. For more information on end-to-end encryption, see [Require end-to-end encryption for sensitive Teams meetings](end-to-end-encrypted-meetings.md).
@@ -81,7 +79,7 @@ The following table shows the behaviors of the settings for the **`-Copilot`** p
 |---------|---------|---------------|
 |On|Enabled| When organizers with this policy create meetings and events, the default value for Copilot in their meeting options is **Only during the meeting**. Meeting organizers can change this value to **During and after the meeting**.  |
 |On with saved transcript required|EnabledWithTranscript| **This is the default value**. When organizers with this policy create meetings, the default value for Copilot in their meeting options is **During and after the meeting**. This option is enforced; organizers can't change this value.|
-|On with transcript saved by default|EnabledWithTranscriptDefaultOn| When organizers with this policy create meetings, the default value for Copilot in their meeting options is **During and after the meeting**. Organizers can change this value.|
+|On with transcript saved by default|EnabledWithTranscriptDefaultOn| When organizers with this policy create meetings, the default value for Copilot in their meeting options is **During and after the meeting**. Organizers can change this value to **During and after the meeting**.|
 
 ### Manage Copilot in the Teams admin center
 
