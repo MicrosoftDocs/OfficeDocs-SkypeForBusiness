@@ -31,7 +31,7 @@ To learn about your recording policies, see [Teams meeting recording](meeting-re
 
 ### Meetings and events
 
-For **meetings, webinars, and town halls**, use the per-organizer **`-MeetingRecordingOwnership`** parameter within the PowerShell [**CsTeamsRecordingRolloutPolicy**](/powershell/module/teams/set-csteamsrecordingrolloutpolicy) cmdlet to decide if the recording is saved to the organizer's or recording initiator's OneDrive. This policy applies to the following meeting and event types:
+For **meetings and events**, use the per-organizer **`-MeetingRecordingOwnership`** parameter within the PowerShell [**CsTeamsRecordingRolloutPolicy**](/powershell/module/teams/set-csteamsrecordingrolloutpolicy) cmdlet to decide if the recording is saved to the organizer's or recording initiator's OneDrive. This policy applies to the following meeting and event types:
 
 - Automatically recorded meetings
 - Delegate-created meetings
@@ -43,7 +43,7 @@ For **meetings, webinars, and town halls**, use the per-organizer **`-MeetingRec
 - Town halls
 - Webinars
 
-If **`-MeetingRecordingOwnership`** is set to **`MeetingOrganizer`**, which is the **default value**, the recording saves to organizer's OneDrive, even if the organizer didn't attend the meeting or event. All recording files are saved to the organizer's OneDrive **Recordings** folder. Co-organizers have the same editing permissions as organizers for recording files. To understand what happens if an organizer doesn't have a OneDrive account, see the **Recording storage for organizers without OneDrive accounts** section in this article.
+If **`-MeetingRecordingOwnership`** is set to **`MeetingOrganizer`**, which is the **default value**, the recording saves to the organizer's OneDrive, even if the organizer didn't attend the meeting or event. All recording files are saved to the organizer's OneDrive **Recordings** folder. Co-organizers have the same editing permissions as organizers for recording files. To understand what happens if an organizer doesn't have a OneDrive account, see the **Recording storage for organizers without OneDrive accounts** section in this article.
 
 If **`-MeetingRecordingOwnership`** is set to **`RecordingInitiator`**, the recording saves to the OneDrive of the user who starts the recording. If the recording initiator doesn't have a OneDrive, the recording is temporarily saved to async media storage.
 
