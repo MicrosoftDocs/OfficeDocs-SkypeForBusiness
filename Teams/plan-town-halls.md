@@ -139,15 +139,15 @@ If you've been using live events for your organization, you might want to unders
 |Preview shared content in managed mode|✔️|*Targeted*|*Targeted*|
 |Producer role|✔️|*Targeted*|*Targeted*|
 |Producer UX|✔️ |Manage what attendees see|Manage what attendees see|
-|Q&A: attendees can filter questions|✔️|*Targeted*|*Targeted*|
+|Q&A: attendees can filter questions|✔️|✔️|✔️|
 |Q&A capacity|10k|10k|20k|
-|Q&A: delete and archive questions|✔️|*Targeted*|*Targeted*|
+|Q&A: delete and archive questions|✔️|✔️|✔️|
 |Q&A: moderator default and hide real names|✔️|*Targeted*|*Targeted*|
 |Q&A: organizers can make presenters moderators|✔️|*Targeted*|*Targeted*|
 |Q&A: organizers can privately reply to a question|✔️|*Targeted*|*Targeted*|
 |Q&A: question export to CSV|✔️|✔️|✔️|
 |Q&A: vote on and sort questions|✔️|*Targeted*|*Targeted*|
-|Queue and preview content and presenters|✔️|In development|In development|
+|Queue and preview content and presenters|✔️|*Targeted*|*Targeted*|
 |Return to green room|✔️ |*Targeted*|*Targeted*|
 |RTMP-In|✔️|✔️|✔️|
 |RTMP-In Transcription|✔️|*Targeted*|*Targeted*|
