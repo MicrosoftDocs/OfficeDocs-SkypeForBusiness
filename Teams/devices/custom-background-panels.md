@@ -72,9 +72,10 @@ To create custom backgrounds that meet the guidelines in the previous section, y
 
 After you've created a background image, make sure you save it, and then you can deploy the background image.
 
-1. Upload them to a Teams panel configuration profile in the Teams admin center.
+1. Upload it to a Teams panel configuration profile in the Teams admin center.
+
 2. Assign the Teams panel configuration profile to any Teams panel device with a Teams Rooms Pro or Teams Shared Devices license.
 
-Once your custom images are saved and assigned to the configuration profile for your Teams panels, the custom images are applied as the screen background.
+Once your custom image is saved and assigned to the configuration profile for your Teams panels, the custom image is applied as the screen background.
 
 If you want to revert back to one of the Teams built-in images you can go to **Teams Admin Settings** > **Backgrounds** and then select another background. To change the custom image saved on the device, you need to make the update from the Teams admin center.
