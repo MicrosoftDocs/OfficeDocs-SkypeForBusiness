@@ -139,6 +139,40 @@ In scenarios where the media level classifier predicts a problem, but no area le
 
 If there are area level problem predictions but not at the media level, the classifiers suggest that there were issues with media quality, although they may not have been significant enough to result in a poor user feedback rating.
 
+## Locating origins of quality issues
+
+CQD media classifiers create aggregated views that help address quality issues. These views can be analyzed through a unique set of dimensions that are tailored to specific characteristics of each classifier. This analysis gives admins a more precise understanding of the underlying issues.
+
+For example, Network classifiers might benefit from troubleshooting efforts focused on dimensions such as location and network, whereas Compute and Input Devices classifiers might require attention to dimensions related to with device specifications and functionality.
+
+**INSERT DIMENSIONS INFO HERE**
+
+## Troubleshooting quality issues
+
+After [locating the origin of quality issues](#locating-origins-of-quality-issues), the detected problem areas identified by [CQD media classifiers](#media-quality-classifier-definitions) can be analyzed further to uncover potential root causes and help admins take proactive measures to prevent future issues.
+
+### Network classifiers
+
+**INSERT DIMENSIONS INFO HERE**
+
+#### Network root cause examples
+
+### Compute classifiers
+
+**INSERT DIMENSIONS INFO HERE**
+
+#### Compute root cause examples
+
+### Input device classifiers
+
+**INSERT DIMENSIONS INFO HERE**
+
+#### Input device root cause examples
+
+## Maintenance of classification models
+
+The classifier models are monitored on the general population of Microsoft Teams users. If an anomaly is detected, then it is investigated and there is a high chance that the model is re-trained. This can cause temporal fluctuation of respective problem detection rates. Where these fluctuations would cause a significant change in detection rates, we will post a message to inform Teams admins through the M365 Message Center.
+
 ## Related topics
 
 [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
