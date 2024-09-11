@@ -48,7 +48,7 @@ When creating a support request with Microsoft Support, the support engineer wil
 
 ## Log collection
 
-Both sets of logs will be collected in the Downloads folder by default. The Prod-Weblogs will already be compressed, but the MS Teams Support Log Files will need to be compressed before uploading to Microsoft Support.
+Both sets of logs are collected in the Downloads folder by default. The Prod-Weblogs will already be compressed, but the MS Teams Support Log Files need to be compressed before uploading to Microsoft Support.
 
 To collect logs for Windows: 
 
