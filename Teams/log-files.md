@@ -25,7 +25,7 @@ appliesto:
 There are two types of logs that are automatically created upon request, which can be leveraged to assist Microsoft support in troubleshooting Teams.
 
 - MS Teams Support Log Files, which contain media and signaling logs in addition to platform logs (not created when collecting logs while using the Teams browser client).
-- Weblogs, which contain application event logs. You may see multiple weblog files depending on the types of users logged in and using the client (when the Teams browser client, there will only be one log).
+- Weblogs, which contain application event logs. You may see multiple weblog files depending on the types of users logged in and using the client (when using the Teams browser client, there will only be one log).
   - Public Enterprise  = Prod-Weblogs
   - Public Consumer = Life-Weblogs
   - GCCH = GCCH-Weblogs
