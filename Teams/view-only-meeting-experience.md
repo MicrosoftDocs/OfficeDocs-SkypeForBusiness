@@ -92,7 +92,7 @@ View-only attendees can't perform these actions in the meeting:
 
 - Join the meeting if they don't have permission to bypass the lobby.
 - Join the view-only meeting using Audio Conferencing.
-- Join the view-only meeting using Microsoft Teams Rooms system or using Cloud Video Interop (CVI) services.
+- Join the view-only meeting using Microsoft Teams Rooms on Android system or using Cloud Video Interop (CVI) services.
 - Share their audio or video.
 - See or participate in the meeting chat.
 - See the video feed of meeting participants unless the participant is the active speaker.

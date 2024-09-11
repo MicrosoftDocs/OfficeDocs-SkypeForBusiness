@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams Rooms
-ms.reviewer: 
+ms.reviewer: sohailta
 ms.date: 10/04/2023
 ms.author: tonysmit
 author: mstonysmith
@@ -32,7 +32,7 @@ ms.custom: seo-marvel-may2020; intro-overview
 
        Start meetings on time with one-touch join, then instantly project to the display in the room and share to remote participants.
 
-       Select the right system and audio video peripherals from one of our partners: Dell, Yealink, Logitech, Crestron, Polycom, Lenovo, and HP.
+       Teams Rooms are available in Windows & Android variants from one of many partners: HP/Poly, Yealink, Logitech, Crestron, Lenovo, Jabra, and Neat.
 
        For a quick introduction to Teams Rooms, click on the video to the right.
     :::column-end:::
@@ -47,10 +47,10 @@ ms.custom: seo-marvel-may2020; intro-overview
 | ------------- | ------------- | ------------- |
 |  **[Plan](./rooms-plan.md)** |  **[Deploy](./rooms-deploy.md)** |  **[Manage](./rooms-manage.md)** |
 
-[:::image type="content" source="../media/teams-rooms-microsoft-mechanics.jpg" alt-text="Microsoft Teams Rooms Microsoft Mechanics video.":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
 
 > [!NOTE]
-> Microsoft Teams Rooms is intended for use with Microsoft Teams.
-> Skype for Business Server 2019, or Skype for Business Server 2015 products and earlier platforms like Lync Server 2013 are not supported with Microsoft Teams Rooms.
-These articles are intended for people tasked with planning, deploying, and managing these Microsoft Teams Rooms. End-users will be more interested in the Microsoft Teams Rooms [online help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+> Microsoft Teams Rooms are intended for use with Microsoft Teams.
+> Skype for Business and earlier platforms like Lync Server are not supported with Microsoft Teams Rooms.
+
+These articles are intended for people tasked with planning, deploying, and managing these Microsoft Teams Rooms. End-users will be more interested in the Microsoft Teams Rooms [online help](https://support.microsoft.com/office/microsoft-teams-rooms-windows-e667f40e-5aab-40c1-bd68-611fe0002ba2?ui=).
 

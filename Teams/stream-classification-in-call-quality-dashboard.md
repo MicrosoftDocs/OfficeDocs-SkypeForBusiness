@@ -122,7 +122,7 @@ If ICE connectivity succeeded for an _Unclassified_ stream, the stream is likely
 
 [Upload tenant and building data](CQD-upload-tenant-building-data.md)
 
-[CQD data and reports](CQD-data-and-reports.md)
+[CQD data and reports](cqd-data-and-reports.md)
 
 [Use CQD to manage call and meeting quality](quality-of-experience-review-guide.md)
 

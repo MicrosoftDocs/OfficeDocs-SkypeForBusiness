@@ -62,32 +62,39 @@ To decide which option is right for your organization, ask yourself the followin
 - Do my users need international calling?
 - If some of my users don't make a significant number of outgoing calls, is the Pay-As-You-Go Calling Plan the most economical option for them?
 
-All users in the same country/region with the same Calling Plan share a pool of minutes. For example, if you have 100 users located in the same country/region with a 120 minutes Domestic Calling Plan assigned, they share a pool of 12,000 minutes. All calls exceeding these minutes are billed per minute. **Pooling is only available on identical Calling Plans.**
+All users in the same country with the same Calling Plan share a pool of minutes. For example, if you have 100 users located in the United States with a Domestic Calling Plan assigned, each user is allocated 3,000 minutes and they all share a pool of 300,000 minutes. All calls exceeding these minutes are billed per minute. **Pooling is only available on identical Calling Plans.**
 
 > [!NOTE]
-> The country/region is based on the location of the user's license in the **Microsoft 365 admin center** > **Active users** and **NOT** the billing address listed under the **Organization Profile** in the **Microsoft 365 admin center**.
+> The country is based on the location of the user's license in the **Microsoft 365 admin center** > **Active users** and **NOT** the billing address listed under the **Organization Profile** in the **Microsoft 365 admin center**.
 
-For more information about monthly minutes available in each country/region, see [Country and region availability](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+For more information about monthly minutes available in each country, see [Country and region availability](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
 ### Domestic Calling Plan
 
-With the Domestic Calling Plan, licensed users can call out to numbers located in the country/region where they're assigned in Microsoft 365. Unlimited incoming minutes are included. Outgoing minutes are included based on the license purchased.
+With the Domestic Calling Plan, licensed users can call out to numbers located in the country where they're assigned in Microsoft 365. Unlimited incoming minutes are included. Outgoing minutes are included based on the license purchased.
 
-There are three **Domestic Calling Plan** options to choose from:
+There are two Domestic Calling Plan options to choose from based on your organization's billing location.  
 
-- **Domestic Calling Plan Zone-1 US**: For users in the United States and Puerto Rico.
-  
-- **Domestic Calling Plan Zone-1 Canada/UK**: For users in Canada and the United Kingdom.
+- **Microsoft Teams Domestic Calling Plan (customers in US/UK/CA)**: For organizations in the United States, Puerto Rico, United Kingdom, and Canada. Organizations can assign this license to end users in any market where Calling Plans are available.  
 
-- **Domestic Calling Plan Zone-2**: For users in Austria, Belgium, Croatia, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hong Kong, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, and Switzerland.
+- **Microsoft Teams Domestic Calling Plan (customers outside US/UK/CA)**: For organizations in Australia (through Telstra), Austria, Belgium, Croatia, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hong Kong, Hungary, Ireland, Italy, Japan (through Softbank), Latvia, Lithuania, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, and Switzerland. Organizations can assign this license to end users in any market where Calling Plans are available. 
+
+Once these plans are assigned, the minutes available vary depending on the location of the end user. For more information, see [Country and region availability for Audio Conferencing and Calling Plans](calling-plan-overview.md).  
+
+> [!NOTE]
+> Mexico has its own Domestic Calling Plan. You must purchase the independent Domestic Calling Plan for Mexico. 
+
+
 
 ### International Calling Plan
 
-The International Calling Plan includes both domestic and international minutes for outbound calls. Domestic minutes allow users to call numbers in the country or region where their Microsoft 365 license is assigned. International minutes allow users to call international numbers in [196 countries/regions](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md). Unlimited incoming minutes are included. Outgoing minutes are included based on the license purchased.
+The International Calling Plan includes both domestic and international minutes for outbound calls. Domestic minutes allow users to call numbers in the country where their Microsoft 365 license is assigned. International minutes allow users to call international numbers in [196 countries](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md). Unlimited incoming minutes are included. Outgoing minutes are included based on the license purchased.
+
+For more information, see [Country and region availability for Audio Conferencing and Calling Plans](calling-plan-overview.md).  
 
 ### Pay-As-You-Go Calling Plan
 
-With the Pay-As-You-Go Calling Plan, licensed users can call out to numbers located in the country/region where their Microsoft 365 license is assigned to the user based on the user's location, and to international numbers in [196 countries/regions](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md). 
+With the Pay-As-You-Go Calling Plan, licensed users can call out to numbers located in the country where their Microsoft 365 license is assigned to the user based on the user's location, and to international numbers in [196 countries](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md). 
 
 Unlimited incoming minutes are included. No outgoing minutes are included. All outgoing calls are charged based on the minutes used, either with Communication Credits or post-usage billing (for new commerce experience calling subscriptions only). Licenses are assigned to users based on their location.
 
@@ -95,13 +102,15 @@ To learn how to fund and use minutes for a Pay-As-You-Go Calling Plan, see [How 
 
 There are three **Pay-As-You-Go Calling Plan** options to choose from:
 
-- **Pay-As-You-Go Calling Plan Zone 1 - US**: For users in the United States and Puerto Rico.
+- **Pay-As-You-Go Calling Plan Zone 1 - US**: For users in the United States and Puerto Rico. 
+
+  Zone 1 (US) licenses are only available for purchase by organizations based in the United States and Puerto Rico.  
 
 - **Pay-As-You-Go Calling Plan Zone 1 - UK & Canada**: For users in the United Kingdom and Canada.
 
 - **Pay-As-You-Go Calling Plan Zone 2**: For users in Austria, Belgium, Croatia, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hong Kong, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, and Switzerland.
 
-*Zone 2 licenses aren't currently available for sale in the United States and Puerto Rico.*
+  Zone 2 licenses aren't currently available for sale in the United States and Puerto Rico.
 
 > [!NOTE]
 > Mexico has its own Pay-As-You-Go Calling Plan. It's not part of any zone. You must purchase the independent Pay-As-You-Go Calling Plan for Mexico.
