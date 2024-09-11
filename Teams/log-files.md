@@ -15,7 +15,7 @@ ms.collection:
 ms.custom: 
 - asset-status-active
 search.appverid: MET150
-description: Learn about Debug, Media, and Desktop logs produced by Microsoft Teams, where they can be found, and how they can help with monitoring and troubleshooting.
+description: Learn about collecting Teams logs, where they can be found, and how they can help with monitoring and troubleshooting.
 appliesto:
   - Microsoft Teams
 ---
