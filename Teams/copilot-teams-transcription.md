@@ -46,7 +46,7 @@ When organizers create a meeting or event, they can set Copilot’s value to **O
 
 To learn more about how organizers can use Copilot  only during the meeting, see [Use Copilot without recording a Teams meeting](https://support.microsoft.com/office/use-copilot-without-recording-a-teams-meeting-a59cb88c-0f6b-4a20-a47a-3a1c9a818bd9).
 
-Meeting or event organizers can also set Copilot’s value to Off to prevent anyone in the meeting from using Copilot. This option disables recording and transcription for the meeting. You don't have a policy to control this value, but your organizers can set it on a per-meeting basis.
+Meeting or event organizers can also set Copilot’s value to **Off** to prevent anyone in the meeting from using Copilot. This option disables recording and transcription for the meeting. You don't have a policy to control this value, but your organizers can set it on a per-meeting basis.
 
 > [!IMPORTANT]
 > Copilot for Teams meetings isn’t available in end-to-end encrypted meetings. For more information on end-to-end encryption, see [Require end-to-end encryption for sensitive Teams meetings](end-to-end-encrypted-meetings.md).
