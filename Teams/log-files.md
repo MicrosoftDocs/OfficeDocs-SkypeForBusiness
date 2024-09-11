@@ -41,7 +41,7 @@ It’s important to collect logs as soon as an issue occurs.
 > [!NOTE]
 > To preserve disk space, the size of logs files for Microsoft Teams Virtual Desktop (VDI) clients is limited by default. If an issue is encountered on a VDI client, turn **Extended Logging** on in Teams Privacy settings before reproducing the issue and collecting logs.
 
-When creating a support request with Microsoft Support, the support engineer will require the diagnostic logs. Having the diagnostic logs on hand before creating the support request allows Microsoft to quickly start troubleshooting the problem.
+When you create a support request with Microsoft Support, the support engineer will require the diagnostic logs. Having the diagnostic logs on hand before creating the support request allows Microsoft to quickly start troubleshooting the problem.
 
 > [!NOTE]
 > Times in logs are recorded in Coordinated Universal Time (UTC). When opening a support case, be sure to inform the support agent of the time difference between the local time the issue occurred, and UTC time.
