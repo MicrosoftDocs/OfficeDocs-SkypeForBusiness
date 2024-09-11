@@ -1,9 +1,9 @@
 ---
 title: Collect log files for monitoring and troubleshooting in Teams
-ms.reviewer: mastank
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
+ms.reviewer: mastank
 ms.date: 09/11/2024
 audience: admin
 ms.topic: troubleshooting
