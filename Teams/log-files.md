@@ -15,7 +15,7 @@ ms.collection:
 ms.custom: 
 - asset-status-active
 search.appverid: MET150
-description: Learn about collecting Teams logs, where they can be found, and how they can help with monitoring and troubleshooting.
+description: Learn about collecting Teams logs for support engineers, where they can be found, and how they can help with monitoring and troubleshooting.
 appliesto:
   - Microsoft Teams
 ---
