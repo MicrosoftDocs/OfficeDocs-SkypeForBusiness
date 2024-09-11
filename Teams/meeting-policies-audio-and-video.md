@@ -5,7 +5,7 @@ author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
-ms.reviewer: 
+ms.reviewer: casjacks
 ms.date: 03/15/2021
 audience: admin
 ms.localizationpriority: medium
@@ -57,80 +57,79 @@ This setting isn't available for Microsoft 365 Government Community Cloud (GCC),
 
 To learn more, see [Manage audio/video for meeting participants](#manage-audiovideo-for-meeting-participants).
 
-## Mode for IP video
+## Mode for video conferencing
 
 This is a per-user policy. This setting controls whether video can be turned on in meetings and group calls. Here are the values for this setting.
 
 |Setting value|Behavior|
 |---|---|
 |**Outgoing and incoming video enabled**|Outgoing and incoming video is allowed in the meeting. This is the default setting.|
-|**Not enabled**|Outgoing and incoming video is turned off in the meeting. On Teams mobile clients, users can't share videos or photos in the meeting. <br><br>Note that if **Mode for IP audio** isn't enabled, then **Mode for IP video** will also remain not enabled.|
+|**Not enabled**|Outgoing and incoming video is turned off in the meeting. On Teams mobile clients, users can't share videos or photos in the meeting. <br><br>Note that if **Mode for IP audio** isn't enabled, then **Mode for video conferencing** will also remain not enabled.|
 
 If set to **Not enabled** for a  user, that user can't turn on video or view videos shared by other meeting participants. Meeting participants who don't have any policies assigned (for example, anonymous participants) have this set to **Outgoing and incoming video enabled** by default.
+
+> [!NOTE]
+> Currently, the **Not enabled** setting doesn't turn off video for meetings and events. Your users should use their **Meeting Options** for your individual meeting instead to control video access for their meetings and events. To learn more, see the [Which video conferencing policy setting takes precedence](#which-video-conferencing-policy-setting-takes-precedence) and [Manage audio/video for meeting participants](#manage-audiovideo-for-meeting-participants) sections in this article.
 
 This setting doesn't apply to conference room devices such as Surface Hub and Microsoft Teams Rooms devices.
 
 This setting isn't available for Microsoft 365 Government Community Cloud (GCC), GCC High, or Department of Defense (DoD) environments.
 
-> [!NOTE]
-> Keep in mind that this setting controls both outgoing and incoming video whereas the **IP video** setting controls outgoing video. To learn more, see [Which IP video policy setting takes precedence?](#which-ip-video-policy-setting-takes-precedence) and [Manage audio/video for meeting participants](#manage-audiovideo-for-meeting-participants).
-
 To learn more, see [Manage audio/video for meeting participants](#manage-audiovideo-for-meeting-participants).
 
-## IP video
+## Video conferencing
 
 This is a combination of a per-organizer and per-user policy that controls which users' meetings have video. This setting controls whether video can be turned on in meetings hosted by a user and in 1:1 and group calls started by a user. On Teams mobile clients, this setting controls whether users can share photos and videos in a meeting.
 
 Meetings organized by a user who has this policy setting enabled allow video sharing in the meeting by the meeting participants, if the participants also have the policy setting enabled. Meeting participants who don't have any policies assigned (for example, anonymous and federated participants) inherit the policy of the meeting organizer.
 
-
 For a given user, if this setting is on:
+
 - Meetings they organize will allow video
 - They can use their video in meetings they attend
 
 If this setting is off:
+
 - Meetings they organize won't allow video
 - They can't use their video in meetings they attend 
 
-For a given user, the **Mode for IP video** setting affects video in both meetings they organize and meetings they attend. See the following table for details.
+For a given user, the **Mode for video conferencing** setting affects video in both meetings they organize and meetings they attend. See the following table for details.
 
 ||Meetings the user organizes|Meetings the user attends|
 |:-|:------------------------|:------------------------|
-|**Mode for IP video** set to **On** for the user|All attendees can use video unless the policy assigned to them prohibits it.|User can use video unless the organizer's policy prohibits it.|
-|**Mode for IP video** set to **Off** for the user|No attendees can use video.|User can't use video. Other attendees may be able to use video if the policy assigned to them and the policy assigned to the meeting organizer allow it.|
-
-
+|**Mode for video conferencing** set to **On** for the user|All attendees can use video unless the policy assigned to them prohibits it.|User can use video unless the organizer's policy prohibits it.|
+|**Mode for video conferencing** set to **Off** for the user|No attendees can use video.|User can't use video. Other attendees may be able to use video if the policy assigned to them and the policy assigned to the meeting organizer allow it.|
 
 > [!NOTE]
-> Keep in mind that this setting controls outgoing video whereas the **Mode for IP video** setting controls both outgoing and incoming video. To learn more, see [Which IP video policy setting takes precedence?](#which-ip-video-policy-setting-takes-precedence) and [Manage audio/video for meeting participants](#manage-audiovideo-for-meeting-participants).
+> Keep in mind that this setting controls outgoing video whereas the **Mode for video conferencing** setting controls both outgoing and incoming video. To learn more, see [Which video conferencing policy setting takes precedence?](#which-video-conferencing-policy-setting-takes-precedence) and [Manage audio/video for meeting participants](#manage-audiovideo-for-meeting-participants).
 
 To learn more, see [Manage audio/video for meeting participants](#manage-audiovideo-for-meeting-participants).
 
-#### Which IP video policy setting takes precedence?
+### Which video conferencing policy setting takes precedence?
 
 For a user, the most restrictive policy setting for video takes precedence. Here are some examples.
 
-|IP video|Mode for IP video|Meeting experience|
+|video conferencing|Mode for video conferencing|Meeting experience|
 |---|---|---|
-|Organizer: **On**<br><br>Participant: **On**|Participant: **Not enabled**|The **Mode for IP video** setting takes precedence. The participant who is assigned this policy can't turn on or view videos shared by others.|
+|Organizer: **On**<br><br>Participant: **On**|Participant: **Not enabled**|The **Mode for video conferencing** setting takes precedence. The participant who is assigned this policy can't turn on or view videos shared by others.|
 |Organizer: **On**<br><br>Participant: **On**|Participant: **Outgoing and incoming video enabled**|The participant who is assigned this policy can turn on or view videos shared by others.|
-|Organizer: **On**<br><br>Participant: **Off**|Participant: **Outgoing and incoming video enabled**|The **IP video** setting takes precedence. Participants can only see incoming video and can't send outgoing video.|
-|Organizer: **On**<br><br>Participant: **Off**|Participant: **Not enabled**|The **Mode for IP video** setting takes precedence. The participant can't see incoming or outgoing video.|
-|Organizer: **Off**||The **IP video** setting takes precedence because it's turned off for the organizer. No one can turn on video in meetings organized by the user who is assigned this policy.|
+|Organizer: **On**<br><br>Participant: **Off**|Participant: **Outgoing and incoming video enabled**|The **Video conferencing** setting takes precedence. Participants can only see incoming video and can't send outgoing video.|
+|Organizer: **On**<br><br>Participant: **Off**|Participant: **Not enabled**|The **Mode for video conferencing** setting takes precedence. The participant can't see incoming or outgoing video.|
+|Organizer: **Off**||The **Video conferencing** setting takes precedence because it's turned off for the organizer. No one can turn on video in meetings organized by the user who is assigned this policy.|
 
 #### Manage audio/video for meeting participants
 
 |If you want to...|Set the following policy settings|
 |---|---|
-|Enable audio and video for participants in meetings|Mode for IP audio: **Outgoing and incoming audio enabled** (default)<br> Mode for IP video: **Outgoing and incoming video enabled** (default)<br>IP video: **On** (default)|
-|Disable audio and video for participants in meetings|Mode for IP audio: **Not enabled**<br> Mode for IP video: **Disabled**<br>IP video: N/A|
-|Disable video for participants in meetings (participants have audio only)|Mode for IP audio: **Enable outgoing and incoming audio**<br> Mode for IP video: **Not enabled**<br>IP video: N/A
+|Enable audio and video for participants in meetings|Mode for IP audio: **Outgoing and incoming audio enabled** (default)<br> Mode for video conferencing: **Outgoing and incoming video enabled** (default)<br>Video conferencing: **On** (default)|
+|Disable audio and video for participants in meetings|Mode for IP audio: **Not enabled**<br> Mode for video conferencing: **Disabled**<br>Video conferencing: N/A|
+|Disable video for participants in meetings (participants have audio only)|Mode for IP audio: **Enable outgoing and incoming audio**<br> Mode for video conferencing: **Not enabled**<br>Video conferencing: N/A
 
 The most restrictive policy between the meeting organizer’s policy and the user’s policy applies. For example, if an organizer has a policy that restricts video and a user’s policy doesn't restrict video, meeting participants inherit the policy of the meeting organizer and don't have access to video in meetings. This means that they can join the meeting with audio only.
 
 #### Teams mobile clients
 
-For users on Teams mobile clients, the ability to share photos and videos during a meeting is also determined by the **IP video** or **IP video mode** setting. Depending on which policy setting takes precedence, the ability to share videos and photos won't be available. This doesn't affect screen sharing, which you configure using a separate [Screen sharing mode](meeting-policies-content-sharing.md#screen-sharing-mode) setting. Additionally, you can set a [Teams mobility policy](/powershell/module/teams/new-csteamsmobilitypolicy) to prevent mobile users from using IP video over a cellular connection, which means they must use a WiFi connection.
+For users on Teams mobile clients, the ability to share photos and videos during a meeting is also determined by the **Video conferencing** or **Video conferencing mode** setting. Depending on which policy setting takes precedence, the ability to share videos and photos won't be available. This doesn't affect screen sharing, which you configure using a separate [Screen sharing mode](meeting-policies-content-sharing.md#screen-sharing-mode) setting. Additionally, you can set a [Teams mobility policy](/powershell/module/teams/new-csteamsmobilitypolicy) to prevent mobile users from using video conferencing over a cellular connection, which means they must use a WiFi connection.
 
 ## Media bit rate (Kbps)
 
