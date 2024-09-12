@@ -23,6 +23,8 @@ search.appverid: MET150
 
 # Manage Queues app for Microsoft Teams in your organization  
 
+## Overview of Queues app
+
 > [!NOTE]
 > Queues app is currently in limited private preview. Once generally available, it will be included in Teams Premium. For more information, contact your Microsoft customer success manager. Information in this article is subject to change.
 
@@ -45,8 +47,6 @@ Keep the following in mind:
 To learn more about Call queues and Auto attendants, see [Plan for Teams Auto attendants and Call queues](plan-auto-attendant-call-queue.md).
 
 Your users can find information on using the Queues app with [Use the Queues app for Microsoft Teams](https://support.microsoft.com/office/370ad83e-c2c1-4a9f-8a59-16c98be102e9).
-
-## Overview of Queues app
 
 ## Configure users for Queues app
 
