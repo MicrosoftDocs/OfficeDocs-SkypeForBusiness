@@ -41,9 +41,6 @@ Teams is enhanced to support the integration of partner recording solutions. The
 
 Compliance recording can be enabled on Microsoft 365 A3/A5/E3/E5/Business Premium, Office 365 A3/A5/E3/E5 users, Teams Rooms license, or Microsoft Teams Shared Devices license.
 
-> [!IMPORTANT]
-> Users with an assigned compliance policy experience a 4-second audio delay when making PSTN calls.
-
 > [!NOTE]
 > Compliance recording isn't currently supported for E911 emergency calling services.
 
@@ -255,14 +252,14 @@ Compliance recording doesn't work if users have an Internet outage, and make or 
 
 Support for notifications is enabled using the Teams client experiences. The experiences can be either visual or audio.
 
-**Teams clients - visual notice**
+#### Teams clients - visual notice
 
 - Desktop/web
 - Mobile (iOS/Android)
 - Teams Phones
 - Teams rooms
 
-**Other endpoints - audio notice**
+#### Other endpoints - audio notice
 
 - SIP phones
 - Skype for Business
