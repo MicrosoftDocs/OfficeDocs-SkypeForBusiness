@@ -1515,6 +1515,8 @@ items:
                       href: devices/check-in-and-room-release.md
                     - name: Reserve rooms with a QR code
                       href: devices/reserving-rooms-with-a-qr-code.md
+                    - name: Custom backgrounds
+                      href: devices/custom-background-panels.md
         - name: SIP gateways
           items:
             - name: Plan for SIP Gateway
