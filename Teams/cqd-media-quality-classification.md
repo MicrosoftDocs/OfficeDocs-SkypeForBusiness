@@ -110,9 +110,9 @@ The following Remote classifiers are based on a user’s telemetry to predict if
 
 The following list displays the measurements for Local and Remote classifiers. Each classifier is represented with /.../ in the list below:
 
-- /../ True Count
-- /../ False Count
-- /../ Null Count
+- /../ Problem True Count
+- /../ Problem False Count
+- /../ Problem Null Count
 - /../ Rate
 - /../ Rate Upper Limit
 - /../ Rate Lower Limit
