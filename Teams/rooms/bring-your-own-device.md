@@ -200,7 +200,7 @@ The Teams BYOD solution uses peripheral data crowdsourced from the Teams client 
 > Disabling this policy setting for certain users will cause BYOD usage information to cease flowing to the service. The Teams BYOD solution requires peripheral data sent from users to calculate usage reports for BYOD peripherals and rooms.
 
 ```
-insert policy command here here
+Set-CsTeamsBYODAndDesksPolicy -Identity "Test" -DeviceDataCollection Disabled
 ```
 
 ### Inventory management permission
