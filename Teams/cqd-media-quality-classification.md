@@ -95,24 +95,29 @@ The following Local classifiers are based on a user’s telemetry to predict if 
 |Detected Local Compute|Predicts if a user’s compute device (for example: desktop computer or mobile phone running Teams client) is causing degradations to the media quality received by a user.|
 |Detected Local Input Device|Predicts if a user’s media capture device (for example: computer’s inbuilt soundcard or microphone) is causing problems for the user.|
 
-#### Local classifier measurements for detected problems
-
-**INSERT INFO HERE**
-
 ### Remote classifiers
 
 The following Remote classifiers are based on a user’s telemetry to predict if the user causes quality issues to other call participants:
 
 |Classifier|Description|
 |:-----|:-----|
-|Detected Uplink Problem|Predicts if the quality of sent media is degraded due to the link from endpoint to server.|
+|Detected Uplink|Predicts if the quality of sent media is degraded due to the link from endpoint to server.|
 |Detected Compute Device Causing|Predicts if the quality of sent media is degraded due to user’s compute device.|
 |Detected Input Device Causing|Predicts if the quality of sent media is degraded due to user’s media capture device.|
 |Detected Leaking Echo|Predicts if the quality of sent audio is degraded due to acoustic echo.|
 
-#### Remote classifier measurements for detected problems
+### Local and Remote classifier measurements for detected problems
 
-**INSERT INFO HERE**
+The following list displays the measurements for Local and Remote classifiers. Each classifier is represented with /.../ in the list below:
+
+- /../ True Count
+- /../ False Count
+- /../ Null Count
+- /../ Rate
+- /../ Rate Upper Limit
+- /../ Rate Lower Limit
+
+For example, the measurement for the Remote classifier of *Detected Uplink Problem* has measurements for a True Count, False Count, Null Count, Rate, Rate Upper Limit, and Rate Lower Limit.
 
 ### Other user classifiers
 
