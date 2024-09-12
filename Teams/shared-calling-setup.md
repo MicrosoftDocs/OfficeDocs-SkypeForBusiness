@@ -1,7 +1,7 @@
 ---
 title: "Configure Shared Calling"
 ms.reviewer: roykuntz, jastark
-ms.date: 07/15/2024
+ms.date: 09/12/2024
 author: mkbond007
 ms.author: mabond
 manager: pamgreen
@@ -176,12 +176,12 @@ To learn about the different ways that you can assign policies to users in the T
 
 ## Step 10: Configure extension dialing support for Shared Calling enabled users (optional)
 
-By default, Shared Calling operates when a user doesn’t have an assigned phone number and instead is configured for Shared Calling.  Using the default Shared Calling method, your users can place internal calls between themselves by dialing by name.
+By default, Shared Calling operates when a user doesn’t have an assigned phone number and instead is configured for Shared Calling. When your users are configured in this manner, they can place internal calls between themselves by dialing by name.
 
 If your organization also wants to allow users to place internal calls by dialing extensions, you can configure extension-based dialing with Shared Calling.  With extension-based dialing, users are assigned a number as a Direct Routing number with a unique extension.  Internal calls between users can then be made by dialing the user’s unique assigned extension in addition to dialing by name.
 
 > [!NOTE]
-> For extension dialing to operate as expected, as described with [Shared Calling in Step 6](#step-6-create-voice-routing-policy-without-pstn-usages), the voice routing policy assigned to the user must not contain PSTN usages. If the policy is populated with PSTN usages, the end-user won’t use Shared Calling and instead will operate as if they have an assigned phone number.
+> For extension dialing to operate as expected, as described in [Step 6: Create voice routing policy without PSTN usages](#step-6-create-voice-routing-policy-without-pstn-usages), the voice routing policy assigned to the user must not contain PSTN usages. If the policy is populated with PSTN usages, the end-user won’t use Shared Calling and instead will operate as if they have an assigned phone number.
 
 You can assign an extension to a Shared Calling user with the Teams admin center and PowerShell.
 
