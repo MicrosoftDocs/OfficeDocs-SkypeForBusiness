@@ -76,9 +76,8 @@ To learn more, see [Manage audio/video for meeting participants](#manage-audiovi
 
 ## Video conferencing
 
-> [!NOTE]
-> Currently, the **Video conferencing** setting doesn't turn off video for meetings and events. Your users should instead use their **Meeting Options** to control video access in their meetings and events. To learn more, see the [Which video conferencing policy setting takes precedence](#which-video-conferencing-policy-setting-takes-precedence) and [Manage audio/video for meeting participants](#manage-audiovideo-for-meeting-participants) sections in this article.
-
+> [!IMPORTANT]
+> Currently, the **Video conferencing** setting doesn't turn off video for meetings and events. Your organizers should instead use the **Allow camera for attendees** setting in their **Meeting Options** to control video access in their meetings and events. To learn more, see the [Which video conferencing policy setting takes precedence](#which-video-conferencing-policy-setting-takes-precedence) and [Manage audio/video for meeting participants](#manage-audiovideo-for-meeting-participants) sections in this article.
 
 This is a combination of a per-organizer and per-user policy that controls which users' meetings have video. The Video conferencing setting controls whether video can be turned on in meetings hosted by a user and in 1:1 and group calls started by a user. On Teams mobile clients, this setting controls whether users can share photos and videos in a meeting.
 
@@ -111,9 +110,9 @@ For a user, the most restrictive policy setting for video takes precedence. Here
 |---|---|---|
 |Organizer: **On**<br><br>Participant: **On**|Participant: **Not enabled**|The **Mode for IP video** setting takes precedence. The participant who is assigned this policy can't turn on or view videos shared by others.|
 |Organizer: **On**<br><br>Participant: **On**|Participant: **Outgoing and incoming video enabled**|The participant who is assigned this policy can turn on or view videos shared by others.|
-|Organizer: **On**<br><br>Participant: **Off**|Participant: **Outgoing and incoming video enabled**|The **Video conferencing** setting takes precedence. Participants can only see incoming video and can't send outgoing video.|
+|Organizer: **On**<br><br>Participant: **Off**|Participant: **Outgoing and incoming video enabled**|The **Video conferencing** setting takes precedence. The organizer can use the **Allow camera for attendees** setting in their **Meeting Options** to control video access in their meetings and events.|
 |Organizer: **On**<br><br>Participant: **Off**|Participant: **Not enabled**|The **Mode for IP video** setting takes precedence. The participant can't see incoming or outgoing video.|
-|Organizer: **Off**||The **Video conferencing** setting takes precedence because it's turned off for the organizer. No one can turn on video in meetings organized by the user who is assigned this policy.|
+|Organizer: **Off**||The **Video conferencing** setting takes precedence. The organizer should instead use the **Allow camera for attendees** setting in their **Meeting Options** to control video access in their meetings and events.|
 
 #### Manage audio/video for meeting participants
 
