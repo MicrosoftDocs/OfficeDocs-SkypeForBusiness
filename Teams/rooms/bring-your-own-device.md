@@ -194,13 +194,17 @@ This setting option enables admins to delete data for a specific user upon reque
 
 ### Turning off automatic discovery & usage data collection
 
-The Teams BYOD solution uses peripheral data crowdsourced from the Teams client application running on user's computers to discover peripherals as well as understand when those peripherals (and the rooms they are associated to) are used. No personally identifiable data is collected, but should you feel that this data collection is inappropriate for certain users or groups in your organization, you may use the following PowerShell command to enable or disable BYOD data collection via a Teams policy setting.
+The Teams BYOD solution uses peripheral data crowdsourced from the Teams client application running on user's computers to discover peripherals as well as understand when those peripherals (and the rooms they are associated to) are used. No personally identifiable data is collected, but should you feel that this data collection is inappropriate for certain users or groups in your organization, you may use the following PowerShell commands to enable or disable BYOD data collection via a Teams policy setting, as well as get the current policy setting status, create a new policy, and remove a policy.
 
 > [!WARNING]
 > Disabling this policy setting for certain users will cause BYOD usage information to cease flowing to the service. The Teams BYOD solution requires peripheral data sent from users to calculate usage reports for BYOD peripherals and rooms.
 
 ```
+Get-CsTeamsBYODAndDesksPolicy
+New-CsTeamsBYODAndDesksPolicy -Identity "Test"
 Set-CsTeamsBYODAndDesksPolicy -Identity "Test" -DeviceDataCollection Disabled
+Set-CsTeamsBYODAndDesksPolicy -Identity "Test" -DeviceDataCollection Enabled
+Remove-CsTeamsBYODAndDesksPolicy -Identity "Test"
 ```
 
 ### Inventory management permission
