@@ -143,7 +143,9 @@ SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromT
 **Policies for macOS**
 For macOS managed devices, use .plist to deploy sign-in restrictions. The configuration profile is a .plist file that consists of entries identified by a key (which denotes the name of the preference), followed by a value, which depends on the nature of the preference. Values can either be simple (such as a numerical value) or complex, such as a nested list of preferences.
 
-- Domain: com.microsoft.teams
+- Domain:
+  - Teams: com.microsoft.teams2
+  - Classic Teams: com.microsoft.teams
 - Key: RestrictTeamsSignInToAccountsFromTenantList
 - Data Type: String
 - Comments: Enter comma separate list of Microsoft Entra tenant ID(s)
