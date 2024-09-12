@@ -298,7 +298,6 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Logitech ConferenceCam Connect](https://www.logitech.com/product/conferencecam-connect) | 1.1.248.0 <br/> 1.1.684 |  |  |
 | [Logitech Group](https://www.logitech.com/product/conferencecam-group) | 8.5.778 |  |  |
 | Logitech PTZ Pro | 1.1.219 |  |  |
-| [Logitech PTZ Pro 2](https://www.logitech.com/products/video-conferencing/conference-cameras/ptz-pro2-conferencecam.960-001184.html) |  |  |  |
 | [Logitech Scribe](https://www.logitech.com/products/video-conferencing/room-solutions/scribe.960-001332.html) | 1.1.1 | &#x2714; |  |
 | [MAXHUB UC S07 Videoconferencing Camera](https://www.maxhub.com/en/s07/) | Audio firmware version: V0.0.0.5476 <br/> Video firmware version: V100-20230726-175602 |  |  |
 | MAXHUB UC W31 4K USB Camera | Video firmware version: 100-20230731-104934 |  |  |
