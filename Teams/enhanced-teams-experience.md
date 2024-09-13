@@ -50,6 +50,7 @@ The following sections in this article describe the Teams Premium enhancements f
 - [Intelligent meeting features](#intelligent-meeting-features)
 - [Custom 3D Immersive Mesh Experiences](#custom-3d-immersive-mesh-experiences)
 - [Intelligent call recap](#intelligent-call-recap)
+- [Queues app](#queues-app)
 
 For more general information about Teams meetings and premium events, see the following articles:
 
@@ -243,12 +244,26 @@ Teams Premium provides custom Mesh experience capabilities for your users, such 
 | Develop a custom environment | Yes| No admin control. |[Mesh Development Overview](/mesh/develop/development-overview) |
 | Download the Mesh app | Yes| No admin control. |[Getting started with events in Microsoft Mesh](/mesh/user-guide/getting-started) |
 
-## Intelligent call recap
+## Calls
+
+### Intelligent call recap
 
 **Intelligent call recap** provides AI-powered insights and recaps to Public Switched Telephone Network (PSTN) and 1:1 Teams calls.
 
 - To use this feature for PSTN calls, you must assign a Teams Phone license and either Teams Premium license or a Copilot for Microsoft 365 license to users. For more information on Teams Phone licensing, see [Microsoft Teams add-on licenses](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 - To use this feature with 1:1 Teams calls, you must assign a Teams Premium license or Copilot for Microsoft 365 license to users.
+
+### Queues app
+
+Teams Premium and Teams Phone provides access to Queues app, a Teams-native solution that unlocks a set of advanced call functionalities for Teams Phone Call queues and Auto attendants, such as:
+
+- **Call queue management**: Admins can now delegate authorized users, also known as leads or supervisors, to manage and configure Call queues and Auto attendants directly from the Teams client. Authorized users can configure Call queues and Auto attendants from Call settings and they can opt agents into and out of the queue from Queues app. For more information, see Configure Queues app.
+- **Real-time metrics**: The number of waiting calls, average wait time, longest call waiting time metrics, and more are included in real-time metrics within the Queues app. During public preview, the analytics report will show activity made in the queue from 12:00 AM local time of the signed in user.
+- **Historical reporting**: View historical metrics for call queues, and auto attendants, and agent queue actions. Historical metrics report up to the past 27 days.
+
+Queues app is enabled by default for all Teams users in your organization who are assigned both a Teams Premium and Teams Phone license and who and are voice enabled.
+
+For more information about Queues app, see [Manage the Queues app for Microsoft Teams](manage-queues-app.md).
 
 ## More resources
 
