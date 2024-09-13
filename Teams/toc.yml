@@ -1593,6 +1593,8 @@ items:
           href: manage-praise-app.md
         - name: Manage the Approvals app
           href: approval-admin.md
+        - name: Manage the Queues app
+          href: manage-queues-app.md
         - name: Manage the Shifts app
           href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
         - name: Shifts data FAQ       
