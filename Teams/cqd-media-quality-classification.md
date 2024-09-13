@@ -31,9 +31,9 @@ The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business allo
 
 CQD media classifiers use Machine Learning (ML) algorithms that help pinpoint specific problem areas in stream quality. Compared to [Steam classification in CQD](stream-classification-in-call-quality-dashboard.md), media quality classification in CQD provides IT admins with a more advanced analysis into causality, media degradation, and root cause. These classifiers enable you to take proactive measures for addressing and preventing call quality issues.
 
-To deliver the most comprehensive insights, CQD media classifiers individually address three main real-time media modalities: Audio, Video, and Screensharing. These classifiers focus on call quality on a stream level (such as Audio, Video, and Screensharing) and then they go further with in-depth analyses in areas such as Network, Compute Device, and Input Device, allowing for pinpointing specific problem areas.
+To deliver the most comprehensive insights, CQD media classifiers individually address three main real-time media modalities: Audio, Video, and Screensharing. These classifiers focus on call quality on a stream level (such as Audio, Video, and Screensharing) and then they go further with in-depth analyses in areas such as network, compute Device, and input device, allowing for pinpointing specific problem areas.
 
-There are two levels of classification to provide a view into causality and root cause: higher-level and lower-level. Higher-level classifiers predict if audio, video, or screensharing are not functioning properly, whereas lower-level classifiers predict if a problem was in a network, compute device, or media capture device.
+There are two levels of classification to provide a view into causality and root cause: higher-level and lower-level. Higher-level classifiers predict if audio, video, or screensharing are not functioning properly, whereas lower-level classifiers predict if a problem was in a network, compute device, or input device.
 
 ## Supported platforms and media types
 
@@ -197,7 +197,7 @@ If there are area level problem predictions but not at the media level, the clas
 
 CQD media classifiers create aggregated views that help address quality issues. These views can be analyzed through a unique set of dimensions that are tailored to specific characteristics of each classifier. This analysis gives admins a more precise understanding of the underlying issues.
 
-For example, Network classifiers might benefit from troubleshooting efforts focused on dimensions such as location and network, whereas Compute and Input Devices classifiers might require attention to dimensions related to with device specifications and functionality.
+For example, Network classifiers might benefit from troubleshooting efforts focused on dimensions such as location and network, whereas Compute and Input Device classifiers might require attention to dimensions related to with device specifications and functionality.
 
 ### Network classifier dimensions
 
@@ -236,7 +236,7 @@ Network classifiers include three types of dimensions: location-related, network
   - Second CPU Number of Cores
   - Second CPU Processor Speed
 
-### Media capture device classifier dimensions
+### Input device classifier dimensions
 
 - Second Capture
 - Dev Name
