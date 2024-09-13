@@ -3,7 +3,7 @@ title: Understand teams and channels in Microsoft Teams
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
-ms.date: 10/29/2018
+ms.date: 09/12/2024
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
