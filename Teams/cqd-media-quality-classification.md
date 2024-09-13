@@ -177,7 +177,7 @@ The following table displays the measurements for Local, Remote, and Other user 
 ##### Measurement examples
 
 - The dimension *Detected Inbound Network Problem* has measurements for Problem True Count, Problem False Count, Problem Null Count, Problem Rate, Problem Rate Upper Limit, Problem Rate Lower Limit, Caused Problem Rate, Caused Problem Rate Upper Limit, and Caused Problem Rate Lower Limit.
-- The dimension *Detected Input Device Causing* includes measurements for a Problem True Count, Problem False Count, Problem Null Count, Problem Rate, Problem Rate Upper Limit, and Problem Rate Lower Limit.
+- The dimension *Detected Input Device Causing Problem* includes measurements for a Problem True Count, Problem False Count, Problem Null Count, Problem Rate, Problem Rate Upper Limit, and Problem Rate Lower Limit.
 
 For a list of all available dimensions and measures in CQD, including their name, data type, definition, and possible reasons for blank values, see [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md).
 
