@@ -23,12 +23,14 @@ search.appverid: MET150
 
 # Manage Queues app for Microsoft Teams in your organization  
 
+## Overview of Queues app
+
 > [!NOTE]
 > Queues app is currently in limited private preview. Once generally available, it will be included in Teams Premium. For more information, contact your Microsoft customer success manager. Information in this article is subject to change.
 
 The Queues app is a Teams-native solution designed to empower organizations to manage customer engagements efficiently, unlocking a set of advanced call functionalities for Teams Phone Call queues and Auto attendants, such as:
 
-- **Call queue management**: Admins can now delegate authorized users, also known as leads or supervisors, to manage and configure Call queues and Auto attendants directly from the Teams client. Authorized users can configure Call queues and Auto attendants from Call settings and they can opt agents into and out of the queue from Queues app. For more information, see [Configure Queues app](#configure-authorized-users-for-queues-app).
+- **Call queue management**: Admins can now delegate authorized users, also known as leads or supervisors, to manage and configure Call queues and Auto attendants directly from the Teams client. Authorized users can configure Call queues and Auto attendants from Call settings and they can opt agents into and out of the queue from Queues app. For more information, see [Configure Queues app](#configure-users-for-queues-app).
 
 - **Real-time metrics**: The number of waiting calls, average wait time, longest call waiting time metrics, and more are included in real-time metrics within the Queues app. During public preview, the analytics report will show activity made in the queue from 12:00 AM local time of the signed in user.
 
@@ -38,7 +40,7 @@ Queues app is designed to enhance call queue handling capabilities within Teams 
 
 Keep the following in mind:
 
-- Queues app is currently only supported on Teams desktop and Mac client, not on the web or Virtualized Desktop Infrastructure (VDI).
+- Queues app is currently only supported on Teams desktop and Mac clients, not on web, mobile, or Virtualized Desktop Infrastructure (VDI) clients.
 - Queues app is available in all regions where Teams Phone is supported. For more information, see [Country/region availability for Teams Phone](calling-plan-overview.md).
 - Queues app is currently only available in public clouds, including GCC.
 
@@ -46,21 +48,19 @@ To learn more about Call queues and Auto attendants, see [Plan for Teams Auto at
 
 Your users can find information on using the Queues app with [Use the Queues app for Microsoft Teams](https://support.microsoft.com/office/370ad83e-c2c1-4a9f-8a59-16c98be102e9).
 
-## Overview of Queues app
+## Configure users for Queues app
 
-As an IT admin, you can manage Queues app settings and designate authorized users to perform various actions such as adding and removing queue members, changing call handling flows, configuring auto attendant greetings, and more. For a complete list of actions authorized users can make, see [Manage voice applications policies in Microsoft Teams](manage-voice-applications-policies.md).
-
-## Licensing
+### Licensing
 
 Users must have a Teams Phone and a Teams Premium license to use Queues app. Once a user is licensed for Teams Premium, it can take up to 48 hours for Queues app to be available in the Teams client.
 
 For more information on Teams Phone, see [What is Teams Phone](what-is-phone-system-in-office-365.md). For more information on Teams Premium, see [Microsoft Teams Premium – Overview for admins](enhanced-teams-experience.md) and [Teams Premium licensing](teams-add-on-licensing/licensing-enhance-teams.md).
 
-## Configure authorized users for Queues app
+### Prerequisites
 
 Queues app is enabled by default for all Teams users in your organization who are assigned both a Teams Premium and Teams Phone license who and are voice enabled.
 
-For users who need additional capabilities to manage day-to-day operational changes, such as team leads, you must set up a voice applications policy and assign this policy to *authorized users*. You can allow authorized users to control call queue membership, greetings, call routing rules, and hours of operation.
+As an IT admin, you can manage Queues app settings and designate *authorized users* to perform various actions such as adding and removing queue members, changing call handling flows, configuring auto attendant greetings, and more. For users who need additional capabilities to manage day-to-day operational changes, such as team leads, you must set up a voice applications policy and assign this policy to authorized users. You can allow authorized users to control call queue membership, greetings, call routing rules, and hours of operation.
 
 By utilizing multiple voice application policies, you can assign different levels of permissions that reflect the configuration changes you want to allow authorized users to make to auto attendants and call queues. For example, you could have one voice application policy that allows the "team supervisor" to have access to both real-time and historical reporting and another policy for "shift leads" that allows access to real-time reporting and the ability to opt agents in and out of call queues.
 
@@ -69,46 +69,6 @@ For information on authorized users, see the following articles:
 - [Plan for Auto attendant and Call queue authorized users](aa-cq-authorized-users-plan.md)
 - [Set up Auto attendant and Call queue authorized users](aa-cq-authorized-users.md)
 - [Manage voice applications policies in Teams](manage-voice-applications-policies.md)
-
-### Available settings for authorized users
-
-You can delegate your authorized users to configure the following settings:
-
-**Auto attendants**
-
-- Features
-  - Business hours greeting
-  - After hours greeting
-  - Holiday greeting
-  - Business hours
-  - Business hours call routing
-  - After hours call routing
-  - Holiday hours call routing
-- Reporting
-  - Real-time auto attendant metrics
-  - Historical auto attendant metrics using Power BI and Queues app
-
-**Call queues**
-
-- Features
-  - Welcome greeting
-  - Music on Hold
-  - Shared voicemail greeting for call overflow
-  - Shared voicemail greeting for call timeout
-  - Membership
-  - Conference mode
-  - Agent routing method
-  - Presence-based routing
-  - Opt out (queue configuration)
-  - Routing for call overflow
-  - Routing for call timeout
-  - Routing for no agents
-- Agent actions
-  - Opt agent in/out of queue
-- Reporting
-  - Real-time call queue metrics
-  - Real-time agent metrics
-  - Historical call queue and agent metrics using Power BI & Queues app
 
 For a list of all the Teams voice applications policy configuration and reporting settings, including their definitions, their PowerShell parameters, and their licensing requirements, see [Manage voice applications policies in Teams](manage-voice-applications-policies.md).
 
