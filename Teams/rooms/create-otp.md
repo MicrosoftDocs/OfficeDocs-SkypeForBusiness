@@ -5,7 +5,7 @@ author: mstonysmith
 manager: serdars
 audience: ITPro
 ms.reviewer: kramachandra
-ms.date: 009/12/2024
+ms.date: 09/12/2024
 ms.topic: quickstart
 ms.service: msteams
 ms.subservice: itpro-rooms
