@@ -2,8 +2,8 @@
 title: Update Microsoft Teams devices remotely
 ms.author: tonysmit
 author: mstonysmith
-ms.reviewer: anusharma
-ms.date: 05/13/2024
+ms.reviewer: vapati
+ms.date: 09/13/2024
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
@@ -34,7 +34,8 @@ Using Teams admin center, you can update your Teams devices, including Teams pho
 Updates for Teams app and device firmware happen automatically by default. However, you can update them manually as well. When you're applying updates manually, they can be applied immediately or scheduled to be updated on a future date and time that you set.
 
 > [!IMPORTANT]
-> Microsoft strongly recommends customers to use Teams admin center for managing and updating their devices. Only firmware and app updates released via Teams admin center are validated and supported by Microsoft. If customers use any other way to update, Microsoft cannot guarantee to provide regular updates for those devices. Such cases might impact the functionality and cause disruptions to your devices.
+> Microsoft strongly recommends customers to use Teams admin center for managing and updating their devices. Only firmware and app updates released using the Teams admin center are validated and supported by Microsoft. If customers use any other way to update, Microsoft can't guarantee to provide regular updates for those devices. Such cases might impact the functionality and cause disruptions to your devices.
+> 
 ## Software versions on Teams admin center
 
 All new software versions for Teams devices are made available on Teams admin center once they're published by Microsoft. New releases might have minimum software version requirements. In such cases, the new version is only made available if the device meets the requirements. Verify that the device is meeting those requirements, but especially the firmware is current and updated.
