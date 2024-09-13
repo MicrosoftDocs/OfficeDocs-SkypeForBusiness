@@ -3,7 +3,7 @@ title: Manage Queues app for Microsoft Teams
 author: mkbond007
 ms.author: mabond
 manager: pamgreen
-ms.date: 09/05/2024
+ms.date: 09/13/2024
 ms.topic: article
 ms.reviewer: colongma, emkirby
 audience: admin
@@ -81,7 +81,7 @@ Your users, both queue members and leads, can find information on using the Queu
 
 ### Step 1: Assign licenses to users in your organization
 
-Queues is enabled by default for all Teams users in your organization who are assigned both a Teams Premium and Teams Phone license and who are voice enabled.
+Queues app is enabled by default for all Teams users in your organization who are assigned both a Teams Premium and Teams Phone license and who are voice enabled.
 
 ### Step 2: Assign users to a call queue
 
