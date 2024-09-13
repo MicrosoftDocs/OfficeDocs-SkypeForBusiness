@@ -105,57 +105,56 @@ If you've been using live events for your organization, you might want to unders
 
 |Capability|Live Events|Town halls|Premium town halls|
 |:------| :---: | :---: | :---: |
-|Ability to not send emails and calendar invites to attendees|✔️|*Targeted*|*Targeted*|
+|Ability to not send emails and calendar invites to attendees|✔️|*In development*|*In development*|
 |AI generated captions|✔️|✔️|✔️|
 |Attendee reporting|✔️| ✔️|✔️|
-|Broadcast capacity|10k|10k|- 20k</br> *- 100k targeted*|
+|Broadcast capacity|10k|10k|- 20k</br> *- 100k In development*|
 |Concurrent events|15|15|50|
-|Control when event invites are sent|✔️|*Targeted*|*Targeted*|
-|CVI support|✔️|*Targeted*|*Targeted*|
+|Control when event invites are sent|✔️|*In development*|*In development*|
+|CVI support|✔️|*In development*|*In development*|
 |Default audio and video off|✔️|✔️|✔️|
-|Download translated transcripts|✔️|*Targeted*|*Targeted*|
+|Download translated transcripts|✔️|*In development*|*In development*|
 |Duration|Four hours|30 hours|30 hours|
 |eCDN|Microsoft and partner providers|Microsoft and partner providers|Microsoft and partner providers|
-|DVR|✔️|*Targeted*|*Targeted*|
-|Dynamics 365 integration|✔️|*Targeted*|*Targeted*|
+|DVR|✔️|*In development*|*In development*|
+|Dynamics 365 integration|✔️|*In development*|*In development*|
 |Email editing|✖️|✖️|✔️|
-|End event for attendees|✔️|*Targeted*|*Targeted*|
+|End event for attendees and return presenters to green room|✔️|*In development*|*In development*|
 |Essential emails|✖️|✔️|✔️|
 |External presenters|✔️|✔️|✔️|
 |Green room|✔️|✔️|✔️|
-|Join as attendee for presenters and organizers|✔️|*Targeted*|*Targeted*|
+|Join as attendee for presenters and organizers|✔️|*In development*|*In development*|
 |Layouts|Single Video, Video + Content​​|Dynamic focused curated view|Dynamic focused curated view|
 |Live translated captions|✔️|Six languages|10 languages|
-|Manage the types of events your organizers can create|✔️|*Targeted*|*Targeted*|
+|Manage the types of events your organizers can create|✔️|*In development*|*In development*|
 |Manage what attendees see|✖️|✔️|✔️|
-|Manage whether events in your org can be recorded|✔️|*Targeted*|*Targeted*|
-|Manage whether events in your org can be transcribed|✔️|*Targeted*|*Targeted*|
+|Manage whether events in your org can be recorded|✔️|*In development*|*In development*|
+|Manage whether events in your org can be transcribed|✔️|*In development*|*In development*|
 |Microsoft town hall insights|✖️|✖️|✔️|
-|Modern and dynamic group support|✔️|*Targeted*|*Targeted*|
-|MTR (Windows) support for presenters and attendees|✔️|*Targeted*|*Targeted*|
-|Nudge attendees to join|✔️|*Targeted*|*Targeted*|
+|Modern and dynamic group support|✔️|*In development*|*In development*|
+|MTR (Windows) support for presenters and attendees|✔️|*In development*|*In development*|
+|Nudge attendees to join|✔️|*In development*|*In development*|
 |Presenter capacity (including external presenters)|100|100|100|
-|Presenters can dial in|✔️|*Targeted*|*Targeted*|
-|Preview shared content in managed mode|✔️|*Targeted*|*Targeted*|
-|Producer role|✔️|*Targeted*|*Targeted*|
+|Presenters can dial in|✔️|*In development*|*In development*|
+|Preview shared content in managed mode|✔️|*In development*|*In development*|
+|Producer role|✔️|*In development*|*In development*|
 |Producer UX|✔️ |Manage what attendees see|Manage what attendees see|
 |Q&A: attendees can filter questions|✔️|✔️|✔️|
 |Q&A capacity|10k|10k|20k|
 |Q&A: delete and archive questions|✔️|✔️|✔️|
-|Q&A: moderator default and hide real names|✔️|*Targeted*|*Targeted*|
-|Q&A: organizers can make presenters moderators|✔️|*Targeted*|*Targeted*|
-|Q&A: organizers can privately reply to a question|✔️|*Targeted*|*Targeted*|
+|Q&A: moderator default and hide real names|✔️|*In development*|*In development*|
+|Q&A: organizers can make presenters moderators|✔️|*In development*|*In development*|
+|Q&A: organizers can privately reply to a question|✔️|*In development*|*In development*|
 |Q&A: question export to CSV|✔️|✔️|✔️|
-|Q&A: vote on and sort questions|✔️|*Targeted*|*Targeted*|
-|Queue and preview content and presenters|✔️|*Targeted*|*Targeted*|
-|Return to green room|✔️ |*Targeted*|*Targeted*|
+|Q&A: vote on and sort questions|✔️|*In development*|*In development*|
+|Queue and preview content and presenters|✔️|*In development*|*In development*|
 |RTMP-In|✔️|✔️|✔️|
-|RTMP-In Transcription|✔️|*Targeted*|*Targeted*|
-|Separate invites for presenters and attendees|✔️|*Targeted*|*Targeted*|
-|Sharepoint embedded scheduling|✔️|*Targeted*|*Targeted*|
+|RTMP-In Transcription|✔️|*In development*|*In development*|
+|Separate invites for presenters and attendees|✔️|*In development*|*In development*|
+|Sharepoint embedded scheduling|✔️|*In development*|*In development*|
 |Usage reports|✔️|✔️|✔️|
-|VDI support|✔️|*Targeted*|*Targeted*|
-|Viva Engage integration|✔️|*Targeted*|*Targeted*|
+|VDI support|✔️|*In development*|*In development*|
+|Viva Engage integration|✔️|*In development*|*In development*|
 |VOD|✔️|✔️|✔️|
 
 For more information on Teams premium, see [Teams Premium licensing](/microsoftteams/teams-add-on-licensing/licensing-enhance-teams).
