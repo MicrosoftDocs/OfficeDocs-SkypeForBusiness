@@ -51,7 +51,7 @@ To learn more, see [Manage meeting templates in Teams](manage-meeting-templates.
 ![Information icon](media/info.png) **This is a [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) feature. Meeting organizers must have a Teams Premium license to use this feature.**.
 
 > [!NOTE]
-> This feature is currently only available in the United States. Your users can only send SMS text notifications to people who have a valid United States phone number (+1 country code). SMS text notifications are sent in English.
+> This feature is currently available in Canada, the United Kingdom, and the United States. Your users can only send SMS text notifications to people who have a valid Canada phone number (+1 country code), United Kingdom phone number (+44 country code), or United States phone number (+1 country code). SMS text notifications are sent in English.
 
 You can control whether your users can choose to send SMS text notifications to external guests in appointments that they schedule using the template. When this feature is enabled for a user, they'll see  the SMS notifications option in the template.
 
