@@ -95,9 +95,9 @@ The following Local classifiers are based on a user’s telemetry to predict if 
 |Detected Local Compute|Predicts if a user’s compute device (for example: desktop computer or mobile phone running Teams client) is causing degradations to the media quality received by a user.|
 |Detected Local Input Device|Predicts if a user’s media capture device (for example: computer’s inbuilt soundcard or microphone) is causing problems for the user.|
 
-#### Local classifier measurements for detected problems (OPTION 1)
+#### Local classifier measurements for detected problems
 
-The following list displays the measurements for [Local classifiers](#local-classifiers). Each classifier is represented with /.../ in the list below:
+The following list displays the measurements for [Local classifiers](#local-classifiers) using the *Problem* dimension. Each Local classifier is represented with /.../ in the list below:
 
 - /../ Problem True Count
 - /../ Problem False Count
@@ -106,13 +106,13 @@ The following list displays the measurements for [Local classifiers](#local-clas
 - /../ Problem Rate Upper Limit
 - /../ Problem Rate Lower Limit
 
-For example, the measurement for the Local classifier of *Detected Inbound Network* has measurements for a Problem True Count, Problem False Count, Problem Null Count, Problem Rate, Problem Rate Upper Limit, and Problem Rate Lower Limit.
+For example, the Local classifier *Detected Media Modality* uses the *Problem* dimensions with measurements for Problem True Count, Problem False Count, Problem Null Count, Problem Rate, Problem Rate Upper Limit, and Problem Rate Lower Limit.
 
 Detected Inbound Network, Detected Local Compute, and Detected Local Input Device also have the following additional measurements:
 
-- /../ Caused Poor Call Rate
-- /../ Caused Poor Call Rate Upper Limit
-- /../ Caused Poor Call Rate Lower Limit
+- /../ Caused Problem Rate
+- /../ Caused Problem Rate Upper Limit
+- /../ Caused Problem Rate Lower Limit
 
 ### Remote classifiers
 
@@ -125,9 +125,9 @@ The following Remote classifiers are based on a user’s telemetry to predict if
 |Detected Input Device Causing|Predicts if the quality of sent media is degraded due to user’s media capture device.|
 |Detected Leaking Echo|Predicts if the quality of sent audio is degraded due to acoustic echo.|
 
-### Remote classifier measurements for detected problems (OPTION 1)
+#### Remote classifier measurements for detected problems
 
-The following list displays the measurements for all [Remote classifiers](#remote-classifiers). Each classifier is represented with /.../ in the list below:
+The following list displays the measurements for all [Remote classifiers](#remote-classifiers) using the *Problem* dimension. Each Remote classifier is represented with /.../ in the list below:
 
 - /../ Problem True Count
 - /../ Problem False Count
@@ -136,11 +136,11 @@ The following list displays the measurements for all [Remote classifiers](#remot
 - /../ Problem Rate Upper Limit
 - /../ Problem Rate Lower Limit
 
-For example, the Remote classifier of *Detected Input Device Causing* includes measurements for a Problem True Count, Problem False Count, Problem Null Count, Problem Rate, Problem Rate Upper Limit, and Problem Rate Lower Limit.
+For example, the Remote classifier of *Detected Input Device Causing* uses the *Problem* dimension with measurements for Problem True Count, Problem False Count, Problem Null Count, Problem Rate, Problem Rate Upper Limit, and Problem Rate Lower Limit.
 
 ### Other user classifiers
 
-The following Other user classifiers are based on the problems that a dominant participant has that degrades the experience of the remaining Conference call participants:
+Other user classifiers are based on the problems that a dominant participant has that degrades the experience of the remaining Conference call participants:
 
 |Classifier|Description|
 |:-----|:-----|
@@ -151,9 +151,9 @@ The following Other user classifiers are based on the problems that a dominant p
 
 #### Other user classifier measurement for detected problems (OPTION 1)
 
-Other user classifiers use the /.../ Problem measurement.
+Other user classifiers use the /.../ Problem dimension.
 
-For example, the measurement for the Other user classifier of *Detected Other User Device* has the Problem measurement, listed in CQD as *Detected Other User Device Problem*.
+For example, the Other user classifier *Detected Other User Device* has the Problem dimension, listed in CQD as *Detected Other User Device Problem*.
 
 #### Local, Remote, and Other user classifier measurements (OPTION 2)
 
@@ -168,17 +168,16 @@ The following table displays the measurements for Local, Remote, and Other user 
 |Problem Rate|✔️|✔️|✖️|
 |Problem Rate Lower Limit|✔️|✔️|✖️|
 |Problem Rate Upper Limit|✔️|✔️|✖️|
-|Caused Poor Call Rate|✔️<sup>1</sup>|✖️|✖️|
-|Caused Poor Call Rate Upper Limit|✔️<sup>1</sup>|✖️|✖️|
-|Caused Poor Call Rate Lower Limit|✔️<sup>1</sup>|✖️|✖️|
+|Caused Problem Rate|✔️<sup>1</sup>|✖️|✖️|
+|Caused Problem Rate Upper Limit|✔️<sup>1</sup>|✖️|✖️|
+|Caused Problem Rate Lower Limit|✔️<sup>1</sup>|✖️|✖️|
 
-<sup>1</sup> The Caused Poor Call Rate, Caused Poor Call Rate Upper Limit, and Caused Poor Call Rate Lower Limit measurements are available for these Local classifiers only: Detected Inbound Network, Detected Local Compute, and Detected Local Input Device.
+<sup>1</sup> The Caused Problem Rate, Caused Problem Rate Upper Limit, and Caused Problem Rate Lower Limit measurements are available for these Local classifiers only: Detected Inbound Network, Detected Local Compute, and Detected Local Input Device.
 
 ##### Measurement examples
 
-- The measurement for the Local classifier of *Detected Inbound Network* has measurements for a Problem True Count, Problem False Count, Problem Null Count, Problem Rate, Problem Rate Upper Limit, Problem Rate Lower Limit, Caused Poor Call Rate, Caused Poor Call Rate Upper Limit, and Caused Poor Call Rate Lower Limit.
-- The Remote classifier of *Detected Input Device Causing* includes measurements for a Problem True Count, Problem False Count, Problem Null Count, Problem Rate, Problem Rate Upper Limit, and Problem Rate Lower Limit.
-- The measurement for the Other user classifier of *Detected Other User Device* has the Problem measurement, listed in CQD as Detected Other User Device Problem.
+- The dimension *Detected Inbound Network Problem* has measurements for Problem True Count, Problem False Count, Problem Null Count, Problem Rate, Problem Rate Upper Limit, Problem Rate Lower Limit, Caused Problem Rate, Caused Problem Rate Upper Limit, and Caused Problem Rate Lower Limit.
+- The dimension *Detected Input Device Causing* includes measurements for a Problem True Count, Problem False Count, Problem Null Count, Problem Rate, Problem Rate Upper Limit, and Problem Rate Lower Limit.
 
 For a list of all available dimensions and measures in CQD, including their name, data type, definition, and possible reasons for blank values, see [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md).
 
