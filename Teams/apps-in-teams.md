@@ -151,6 +151,7 @@ The following apps are provided by Microsoft and are generally available:
 * Bookings
 * Bulletins
 * Channel calendar
+* Copilot for Sales
 * Data Activator
 * Dataverse Chat Sync
 * Defender Experts
@@ -180,7 +181,6 @@ The following apps are provided by Microsoft and are generally available:
 * Project
 * PTZ Camera Controls
 * Roadmap – Microsoft Project
-* Sales Copilot
 * SharePoint
 * SharePoint News
 * SharePoint Pages
