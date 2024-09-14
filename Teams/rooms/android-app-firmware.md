@@ -177,6 +177,8 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 
 | Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
+| Jabra Panacast 50 VBS | `3.6.0-31` |  N/A|  `1449/1.0.96.2024080804` | `5.0.6152.0` | `1.0.0.202402202353.product` | September 11, 2024|
+| Jabra Panacast 50 TC | `3.6.0-31` | N/A | `1449/1.0.96.2024080804` | `5.0.6152.0` | `1.0.0.202402202353.product` | September 11, 2024|
 | Jabra Panacast 50 VBS | `2.8.0-15` |  N/A|  `1449/1.0.96.2024020802` | `5.0.5484.0` | `1.0.0.202402202353.product` | May 20, 2024|
 | Jabra Panacast 50 TC | `2.8.0-15` | N/A | `1449/1.0.96.2024020802` | `5.0.5484.0` | `1.0.0.202402202353.product` | May 20, 2024|
 | Jabra Panacast 50 VBS | `1.17.4-1` |  N/A|  `1449/1.0.96.2023062301` | `5.0.5484.0` | `1.0.0.202306202019.product` | January 30, 2024|
