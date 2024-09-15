@@ -49,9 +49,6 @@ You can pin apps in the following UIs for the users:
 * **Message extension**: Users can quickly use it when composing their messages.
 * **Meeting extension**: Meeting attendees can view it without leaving the meeting and quickly collaborate using the app. The functionality to pin apps in meetings is available only in Teams classic and not in the [new Teams client](new-teams-desktop-admin.md). The in-meeting bar displays only two apps and the rest of the apps, if added, display under the **More** option.
 
-> [!NOTE]
-> Pinning apps in meetings is a Preview feature. To use Preview features in your organization, see [Microsoft Teams Public preview](public-preview-doc-updates.md).
-
 Apps that you pin to the app bar, show on the app bar on the left side of the Teams desktop client and at the bottom of the Teams mobile client.
 
 | Teams desktop client                                                                                      | Teams mobile client                                                                |
