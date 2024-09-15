@@ -164,7 +164,7 @@ The following apps are provided by Microsoft and are generally available:
 * Lists
 * Microsoft 365 Chat
 * Mesh
-* Power Virtual Agents
+* Power Automate Actions
 * Milestones
 * News
 * OneNote
