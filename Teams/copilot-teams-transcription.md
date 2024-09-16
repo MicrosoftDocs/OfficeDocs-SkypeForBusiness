@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
 ms.reviewer: maryam.ahmad
-ms.date: 9/12/2024
+ms.date: 9/16/2024
 ms.topic: how-to
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -82,8 +82,8 @@ The following table shows the behaviors of the settings for the **`-Copilot`** p
 |---------|---------|---------------|
 |On|Enabled| When organizers with this policy create meetings and events, Copilot's default value in their meeting options is **Only during the meeting**. Organizers can change this value to **During and after the meeting**.  |
 |On with saved transcript required|EnabledWithTranscript| **This is the default value**. When organizers with this policy create meetings and events, Copilot's default value in their meeting options is **During and after the meeting**. This option is enforced; organizers can't change this value.|
-|On with transcript saved by default|EnabledWithTranscriptDefaultOn| When organizers with this policy create meetings and events, Copilot in Teams' default value in their meeting options is **During and after the meeting**. Organizers can change this value to **Only during the meeting**.|
-|Off|Disabled| When organizers with this policy create meetings and events, Copilot in Teams' default value in their meeting options is **Off**. Organizers can change this value to **Only during the meeting** or **During and after the meeting**.|
+|On with transcript saved by default|EnabledWithTranscriptDefaultOn| When organizers with this policy create meetings and events, Copilot's default value in their meeting options is **During and after the meeting**. Organizers can change this value to **Only during the meeting**.|
+|Off|Disabled| When organizers with this policy create meetings and events, Copilot's  default value in their meeting options is **Off**. Organizers can change this value to **Only during the meeting** or **During and after the meeting**.|
 
 ### Manage Copilot in the Teams admin center
 
@@ -106,13 +106,13 @@ To allow users to use Copilot **Only during the meeting** in meetings and events
 Set-CsTeamsMeetingPolicy -Identity <policy name> -Copilot Enabled
 ```
 
-To set the default Copilot option for organizers to **During and after the meeting** and allow them to change it, use the following script:
+To set the organizer's default Copilot option to **During and after the meeting** and allow them to change it, use the following script:
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -Copilot EnabledWithTranscriptDefaultOn
 ```
 
-To set the default Copilot option for organizers to **Off** and allow them to change it, use the following script:
+To set the organizer's default Copilot option to **Off** and allow them to change it, use the following script:
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity <policy name> -Copilot Disabled
