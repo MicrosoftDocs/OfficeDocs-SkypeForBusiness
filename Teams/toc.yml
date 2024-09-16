@@ -1405,12 +1405,14 @@ items:
                   href: rooms/manage-front-row.md
                 - name: Join third-party meetings
                   href: rooms/third-party-join.md
-                - name: Meetings with SIP and H.323 devices
+                - name: SIP and H.323 Calling with Teams Rooms
                   href: rooms/meetings-with-SIP-H323-devices.md
                 - name: Manage custom backgrounds on Android
                   href: rooms/custom-backgrounds-android.md
                 - name: Manage custom backgrounds on Windows
                   href: rooms/custom-backgrounds.md
+                - name: Digital signage
+                  href: rooms/digital-signage.md                  
                 - name: Join meetings with QR codes
                   href: rooms/teams-rooms-qr-codes.md
                 - name: Multi-Stream IntelliFrame
@@ -1513,6 +1515,8 @@ items:
                       href: devices/check-in-and-room-release.md
                     - name: Reserve rooms with a QR code
                       href: devices/reserving-rooms-with-a-qr-code.md
+                    - name: Custom backgrounds
+                      href: devices/custom-background-panels.md
         - name: SIP gateways
           items:
             - name: Plan for SIP Gateway
@@ -1589,6 +1593,8 @@ items:
           href: manage-praise-app.md
         - name: Manage the Approvals app
           href: approval-admin.md
+        - name: Manage the Queues app
+          href: manage-queues-app.md
         - name: Manage the Shifts app
           href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
         - name: Shifts data FAQ       
