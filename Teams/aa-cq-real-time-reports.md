@@ -68,7 +68,7 @@ All metrics are whole numbers unless otherwise stated.
 |tot_callers                             |Current & Summary |Authorized Users Only    |Total number of all accepted callers<br><br>A caller may pass through an Auto attendant multiple times in a single call – this caller is only counted once |
 |tot_callers_int                         |Current & Summary |Authorized Users Only    |Total number of accepted internal callers                                 |
 |tot_callers_ext                         |Current & Summary |Authorized Users Only    |Total number of accepted external callers                                 |
-|tot_calls                               |Current & Summary	|Authorized	Users Only    |Total number of all accepted calls<br<br>>A caller may pass through an Auto attendant multiple times in a single call – each individual pass is counted |
+|tot_calls                               |Current & Summary	|Authorized	Users Only    |Total number of all accepted calls<br><br>A caller may pass through an Auto attendant multiple times in a single call – each individual pass is counted |
 |tot_calls_int                           |Current & Summary |Authorized	Users Only    |Total number of accepted internal calls                                   |
 |tot_calls_ext                           |Current & Summary	|Authorized	Users Only    |Total number of accepted external calls                                   |
 |tot_0_calls                             |Current & Summary	|Authorized	Users Only    |Total number of times callers selected the zero menu option               |
