@@ -452,7 +452,7 @@ The caller will become eligible for callback after waiting in the queue for 60 s
 
 Once a caller has successfully requested a callback, the callback is also subject to the call queue timout configuration. If a callback times out the information about the caller will be sent to the configured email notification address.
 
-**In order for a callback to be successful, the call queue timeout value must be high enough to allow for the call to become eligible, for the music to stop playing, for a caller to successfully request a callback and for the callback to be queued until an agent becomes available for and answers the call.**
+In order for a callback to be successful, the call queue timeout value must be high enough to allow for the call to become eligible, for the music to stop playing, for a caller to successfully request a callback, and for the callback to be queued until an agent becomes available for and answers the call.
 
 > [!NOTE]
 > Conference mode must be enabled on the call queue in order to configure callback.
