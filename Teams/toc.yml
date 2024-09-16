@@ -1020,7 +1020,7 @@ items:
                 - name: Historical reporting
                   href: aa-cq-cqd-historical-reports.md
                 - name: Real-time reporting
-                  href: aa-cq-cqd-real-time-reports.md
+                  href: aa-cq-real-time-reports.md
             - name: PowerShell cmdlet reference for Auto attendants and Call queues
               href: call-queue-auto-attendant-cmdlets.md
             - name: Dial and voice reference
