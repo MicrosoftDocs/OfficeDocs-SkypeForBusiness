@@ -40,16 +40,16 @@ Town halls are enabled by default. If you'd like to disable or manage town halls
 
 There are five steps you must follow to ensure your network is set up to support town halls.
 
-1. **Ensure your teams environment is set up to connect to our services**
+1. **Ensure your teams environment is set up to connect to our services**</br>
    Ensure that your network connectivity to Microsoft 365 follows our network connectivity principles outlined in [Microsoft 365 network connectivity principles](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles). The network connectivity principles are standard principles to follow for all Microsoft 365 services, and not just specific to Teams town hall.
-2. **Ensure your devices are optimized to connect to our services**
+2. **Ensure your devices are optimized to connect to our services**</br>
    As part of the network connectivity principles, ensure that the Microsoft 365 endpoints are reachable as defined in [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges).
-3. **Understand special considerations for events in VPN environments**
+3. **Understand special considerations for events in VPN environments**</br>
    If your organization is using VPN connectivity for remote participants, review the guidance published in [Special considerations for Stream and Teams events in VPN environments](/microsoft-365/enterprise/microsoft-365-vpn-stream-and-live-events). This article details how to optimize the attendee traffic for direct connectivity (also known as split tunneling) to the service.
-4. **Plan for bandwidth considerations for town halls**
+4. **Plan for bandwidth considerations for town halls**</br>
    Follow the bandwidth requirements documented in [Prepare your organization's network for Teams](/MicrosoftTeams/prepare-network#bandwidth-requirements) for your organizers, co-organizers, presenters.
    Each attendee stream consumes approximately 1.5 Mbps of bandwidth; attendee connectivity  utilizes HTTPS. Physical locations that have a large/densely populated attendee profile should explore using an eCDN to optimize bandwidth usage.
-5. **Optimize your Internal network via eCDN**
+5. **Optimize your Internal network via eCDN**</br>
    An Enterprise Content Delivery Network (eCDN) takes the video content from the internet and distributes the content throughout your enterprise without impacting network performance.<br><br> Town hall organizers with a Teams Premium license have Microsoft eCDN enabled by default, but you can select a different eCDN solution for these organizers. Keep in mind that some future Teams Premium town hall features might require the Microsoft eCDN. <br>For town hall organizers with all other Teams subscriptions, you can enable them to use the Microsoft eCDN solution or, alternatively, one of the following certified eCDN partner solutions to optimize your network for town halls held within your organization:
    - [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
    - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
@@ -70,36 +70,6 @@ When managing the event access type for town halls to decide whether organizers 
 - External attendees can only join a town hall if the organizer sets the event to public.
 - Guests are considered in-org.
 - Attendees who aren't in your org (including anonymous and external access users) can't join in-org town halls.
-
-## Premium town halls and live events
-
-If you've been using live events for your organization, you might want to understand the differences and similarities between live events, town halls, and Premium town halls. With a Teams Premium license, your users have access to extended town hall capabilities. The following table is a comparison of live events, town hall, and Premium town hall features:
-
-|Capability|Live Events|Town halls|Premium town halls|
-|:------| :---: | :---: | :---: |
-|Broadcast capacity|10k|10k|20k|
-|Concurrent events|15|15|50|
-|Attendee reporting|✔️| ✔️|✔️|
-|eCDN|Microsoft and partner providers|Microsoft and partner providers|Microsoft and partner providers|
-|Duration|Four hours|30 hours|30 hours|
-|RTMP-In|✔️|✔️|✔️|
-|Producer UX|✔️ |Manage what attendees see|Manage what attendees see |
-|Default audio and video off|✔️|✔️|✔️|
-|Layouts|Single Video, Video + Content​​|Dynamic focused curated view|Dynamic focused curated view|
-|Green room|✔️|✔️|✔️|
-|Live translated captions|✔️|Six languages|10 languages|
-|Manage what attendees see|✖️|✔️|✔️|
-|External presenters|✔️|✔️|✔️|
-|Presenter capacity (including external presenters)|100|100|100|
-|AI generated captions|✔️|✔️|✔️|
-|DVR|✔️|✖️|✖️|
-|Q&A capacity|10k|10k|20k|
-|VOD|✔️|✔️|✔️|
-|Microsoft town hall insights|✖️|✖️|✔️|
-|Essential emails|✖️|✔️|✔️|
-|Email editing|✖️|✖️|✔️|
-
-For more information on Teams premium, see [Teams Premium licensing](/microsoftteams/teams-add-on-licensing/licensing-enhance-teams).
 
 ## Monitor town halls in your organization
 
@@ -128,6 +98,66 @@ For more information about the dimensions and measurements visible through CQD f
 With a Teams Premium license, during a town hall, organizers and co-organizers can see real-time event analytics like viewer count, attendees’ country/region, and more. The analytics consist of several data widgets, including charts and graphs, breakdowns tables, and a viewing experience timeline.
 For more information on how organizers in your org can use insights for their town halls, see [Town hall insights in Microsoft Teams.](https://support.microsoft.com/office/town-hall-insights-in-microsoft-teams-def99575-61bf-4ea2-ad0e-c6e75dce7741)
 For town hall organizers that don't have a Teams Premium license, you can check to see if your eCDN provider offers insights during town halls.
+
+## Live events and Premium town halls
+
+If you've been using live events for your organization, you might want to understand the differences and similarities between live events, town halls, and Premium town halls. With a Teams Premium license, your users have access to extended town hall capabilities. The following table is a comparison of live events, town hall, and Premium town hall features. We'll continue to update this table. Check back often for the latest details:
+
+|Capability|Live Events|Town halls|Premium town halls|
+|:------| :---: | :---: | :---: |
+|Ability to not send emails and calendar invites to attendees|✔️|*In development*|*In development*|
+|AI generated captions|✔️|✔️|✔️|
+|Attendee reporting|✔️| ✔️|✔️|
+|Broadcast capacity|10k|10k|- 20k</br> *- 100k In development*|
+|Concurrent events|15|15|50|
+|Control when event invites are sent|✔️|*In development*|*In development*|
+|CVI support|✔️|*In development*|*In development*|
+|Default audio and video off|✔️|✔️|✔️|
+|Download translated transcripts|✔️|*In development*|*In development*|
+|Duration|Four hours|30 hours|30 hours|
+|eCDN|Microsoft and partner providers|Microsoft and partner providers|Microsoft and partner providers|
+|DVR|✔️|*In development*|*In development*|
+|Dynamics 365 integration|✔️|*In development*|*In development*|
+|Email editing|✖️|✖️|✔️|
+|End event for attendees and return presenters to green room|✔️|*In development*|*In development*|
+|Essential emails|✖️|✔️|✔️|
+|External presenters|✔️|✔️|✔️|
+|Green room|✔️|✔️|✔️|
+|Join as attendee for presenters and organizers|✔️|*In development*|*In development*|
+|Layouts|Single Video, Video + Content​​|Dynamic focused curated view|Dynamic focused curated view|
+|Live translated captions|✔️|Six languages|10 languages|
+|Manage the types of events your organizers can create|✔️|*In development*|*In development*|
+|Manage what attendees see|✖️|✔️|✔️|
+|Manage whether events in your org can be recorded|✔️|*In development*|*In development*|
+|Manage whether events in your org can be transcribed|✔️|*In development*|*In development*|
+|Microsoft town hall insights|✖️|✖️|✔️|
+|Modern and dynamic group support|✔️|*In development*|*In development*|
+|MTR (Windows) support for presenters and attendees|✔️|*In development*|*In development*|
+|Nudge attendees to join|✔️|*In development*|*In development*|
+|Presenter capacity (including external presenters)|100|100|100|
+|Presenters can dial in|✔️|*In development*|*In development*|
+|Preview shared content in managed mode|✔️|*In development*|*In development*|
+|Producer role|✔️|*In development*|*In development*|
+|Producer UX|✔️ |Manage what attendees see|Manage what attendees see|
+|Q&A: attendees can filter questions|✔️|✔️|✔️|
+|Q&A capacity|10k|10k|20k|
+|Q&A: delete and archive questions|✔️|✔️|✔️|
+|Q&A: moderator default and hide real names|✔️|*In development*|*In development*|
+|Q&A: organizers can make presenters moderators|✔️|*In development*|*In development*|
+|Q&A: organizers can privately reply to a question|✔️|*In development*|*In development*|
+|Q&A: question export to CSV|✔️|✔️|✔️|
+|Q&A: vote on and sort questions|✔️|*In development*|*In development*|
+|Queue and preview content and presenters|✔️|*In development*|*In development*|
+|RTMP-In|✔️|✔️|✔️|
+|RTMP-In Transcription|✔️|*In development*|*In development*|
+|Separate invites for presenters and attendees|✔️|*In development*|*In development*|
+|Sharepoint embedded scheduling|✔️|*In development*|*In development*|
+|Usage reports|✔️|✔️|✔️|
+|VDI support|✔️|*In development*|*In development*|
+|Viva Engage integration|✔️|*In development*|*In development*|
+|VOD|✔️|✔️|✔️|
+
+For more information on Teams Premium, see [Teams Premium licensing](/microsoftteams/teams-add-on-licensing/licensing-enhance-teams).
 
 ## Town hall control comparison
 
