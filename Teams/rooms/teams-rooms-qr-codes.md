@@ -1,9 +1,9 @@
 ---
 title: Join meetings on Teams Rooms using a QR code
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: henrikalim
+ms.reviewer: leungsam
 ms.date: 04/05/2024
 ms.topic: article
 audience: admin
