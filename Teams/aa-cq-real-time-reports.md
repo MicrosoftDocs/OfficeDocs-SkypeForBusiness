@@ -29,39 +29,9 @@ description: Learn about the real-time metrics that are available for Auto atten
 >
 > For more information about Queues app, see [Manage the Queues app](manage-queues-app.md). For user documentation about Queues app, see [Use the Queues app for Microsoft Teams](https://support.microsoft.com/office/370ad83e-c2c1-4a9f-8a59-16c98be102e9).
 
-## Feeds & Intervals
-
-### Feeds
-
-When a client registers for real-time data, there are two feeds of metrics that the client immediately receives: current feed and summary feed.
-
-- **Current feed** contains the metrics for the current interval the client is registered for.
-   - The client receives an updated current feed throughout the interval as calls arrive, are answered, transferred, or abandoned.
-   - At the end of the current interval, most of the metrics from the current feed are moved to the summary feed and the current feed metrics are reset to zero.
-- **Summary feed** contains the metrics for the past 24 hours UTC or since midnight local time of the client, depending on what the client registered for.
-   - The metrics are broken down by interval or aggregated depending on what the client registered for.
-   - The client will receive an updated summary feed shortly after each interval ends.
-
-It's the client's responsibility to add the current and summary feeds to get the totals for the time period to be displayed.
-
-### Intervals
-
-- Clients may register for a 15, 30, or 60-minute interval.
-- Clients in time zones that are X hours and 0 minutes off of UTC should register for the 60-minute interval.
-- Clients in time zones that are X hours and 30 minutes off of UTC should register for the 30-minute interval.
-- Clients in time zones that are X hours and 45 minutes off of UTC should register for the 15-minute interval.
-
-## Queues app
-
-Queues app automatically registers for the interval that matches the computer's time zone offset.
-
-Queues app also registers to receive an aggregated summary feed since midnight local time of the client.
-
-For more information about Queues app, see [Manage the Queues app](manage-queues-app.md). For user documentation about Queues app, see [Use the Queues app for Microsoft Teams](https://support.microsoft.com/office/370ad83e-c2c1-4a9f-8a59-16c98be102e9).
-
 ## Auto attendant metrics
 
-All metrics are whole numbers unless otherwise stated.
+The following table includes real-time Auto attendant metrics. All metrics are whole numbers unless otherwise stated.
 
 |Key                         |Feed              |Available To             |Description                                                                                            |
 |:---------------------------|:-----------------|:------------------------|:------------------------------------------------------------------------------------------------------|
@@ -101,7 +71,7 @@ All metrics are whole numbers unless otherwise stated.
 
 ## Call queue metrics
 
-All metrics are whole numbers unless otherwise stated.
+The following table includes real-time Call queue metrics. All metrics are whole numbers unless otherwise stated.
 
 |Key                                     |Feed              |Available To             |Description                                                                                |
 |:---------------------------------------|:-----------------|:------------------------|:------------------------------------------------------------------------------------------|
@@ -125,28 +95,9 @@ All metrics are whole numbers unless otherwise stated.
 |sl_met_positive_abandon                  | Current & Summary |Authorized Users & Agents|Percentage of calls answered/abandoned that met service level target (*Two-digit decimal*) - abandoned calls within service level target positively impact service level percentage<br><br>`([sl_tot_answered_calls + sl_tot_abandoned_calls] / tot_offered_calls`<br><br>**null if sl_target is null** |
 |sl_met_negative_abandon                 	|Current & Summary |Authorized Users & Agents|Percentage of calls answered/abandoned that met service level target (*Two-digit decimal*) - abandoned calls within service level target negatively impact service level percentage<br><br>`(sl_tot_answered_calls / tot_offered_calls)`<br><br>**null if sl_target is null** |
 
-### Service level notes
-
-Changes to the service level target threshold are processed as follows:
-
-Current Feed:
-
-- Changes will be reflected in the current feed with the next call answered or call abandoned event.
-- Previous call results and service level calculations in the current feed aren't reevaluated against the new service level target.
-
-Summary Feed (non-aggregated):
-
-- The last service level target of the current interval is used as the value for that interval in the summary feed.
-- Previous call results and service level calculations in the summary feed intervals aren't reevaluated against the new service level target.
-
-Summary Feed (aggregated):
-
-- The service level target of the most recent summary interval is sent.
-- The service level target of the most recent summary interval is used to calculate the service level for the aggregated totals.
-- Previous call results and service level calculations in the summary feed aren't reevaluated agent the new service level target.
-
 ## Agent by queue metrics
-All metrics are whole numbers unless otherwise stated.
+
+The following table includes real-time agent metrics. All metrics are whole numbers unless otherwise stated.
 
 |Key                                     |Feed              |Available To             |Description                                                       |
 |:---------------------------------------|:-----------------|:------------------------|:-----------------------------------------------------------------|
