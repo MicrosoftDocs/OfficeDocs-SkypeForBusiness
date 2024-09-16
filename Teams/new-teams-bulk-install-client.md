@@ -170,7 +170,7 @@ The .plist configuration can be propagated to managed devices using Intune as de
 To uninstall and deprovision the new Teams for all users, use the following command:
 
 ```powershell
-./teamsbootstrapper -x
+.\teamsbootstrapper.exe -x
 ```
 
 ## Remove classic Teams for all users
