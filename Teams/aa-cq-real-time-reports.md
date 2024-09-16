@@ -31,7 +31,7 @@ description: Learn about the real-time metrics that are available for Auto atten
 
 ## Auto attendant metrics
 
-The following table includes real-time Auto attendant metrics. All metrics are whole numbers unless otherwise stated.
+The following table contains real-time Auto attendant metrics. All metrics are whole numbers unless otherwise stated.
 
 |Key                         |Feed              |Available To             |Description                                                                                            |
 |:---------------------------|:-----------------|:------------------------|:------------------------------------------------------------------------------------------------------|
@@ -71,7 +71,7 @@ The following table includes real-time Auto attendant metrics. All metrics are w
 
 ## Call queue metrics
 
-The following table includes real-time Call queue metrics. All metrics are whole numbers unless otherwise stated.
+The following table contains real-time Call queue metrics. All metrics are whole numbers unless otherwise stated.
 
 |Key                                     |Feed              |Available To             |Description                                                                                |
 |:---------------------------------------|:-----------------|:------------------------|:------------------------------------------------------------------------------------------|
@@ -97,7 +97,7 @@ The following table includes real-time Call queue metrics. All metrics are whole
 
 ## Agent by queue metrics
 
-The following table includes real-time agent metrics. All metrics are whole numbers unless otherwise stated.
+The following table contains real-time agent metrics. All metrics are whole numbers unless otherwise stated.
 
 |Key                                     |Feed              |Available To             |Description                                                       |
 |:---------------------------------------|:-----------------|:------------------------|:-----------------------------------------------------------------|
