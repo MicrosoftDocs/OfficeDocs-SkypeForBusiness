@@ -35,19 +35,19 @@ When a Microsoft Power Platform app is created or shared, users can view and ins
 
 :::image type="content" source="media/manage-power-platform-apps-apps-page.png" alt-text="Screenshots of Apps page, showing Microsoft Power Platform apps category.":::
 
-Users see an app in **Copilot agents** if the app meets one of the following conditions.
+Users see an app in **Copilot agents** section in the client store, if the app meets one of the following conditions.
 
-| Power Apps | Copilot Studio |
-|---------|---------|
+| Power Apps | Copilots Studio |
+|------------|-----------------|
 |<ul><li>The user created the app.</li><li>The app was shared directly with the user.</li><li>The user recently used the app. </li></ul>| <ul><li>The user created the bot.</li><li>The team, that a user is a member of, owns a bot. </li></ul>  |
 
 Users install Microsoft Power Platform apps in the same way they install any other Teams app. Keep in mind that users can only install apps to the context to which they have permissions. For example, a team that a user owns, a chat that the user is a part of, or their personal scope.
 
 ## Manage access to Microsoft Power Platform apps in the Teams admin center
 
-As an admin, you can control whether Microsoft Power Platform apps are available to users in your org or not. You can collectively block or allow all apps created in Power Apps or all apps created in Copilot Studio at the org level on the [Manage apps](manage-apps.md) page. Block `Power Apps` and `Power Automate Actions` app for everyone. To block these apps for specific users, use [app permission policies](teams-app-permission-policies.md) or [app centric management](app-centric-management.md).
+As an admin, you can control whether Microsoft Power Platform apps are available to users in your org or not. You can collectively block or allow all apps created in Power Apps or all apps created in Copilot Studio at the org level on the [Manage apps](manage-apps.md) page. Block `Power Apps` and `Shared Copilots` app for everyone. To block these apps for specific users, use [app permission policies](teams-app-permission-policies.md) or [app centric management](app-centric-management.md).
 
-The **Shared Power Apps** and **Power Automate Actions** apps in your organization's app store represent all apps created on that particular platform. If you block one or both these apps for entire org or for specific users, the users can't install them in Teams. The users can't request admin approval to allow apps.
+The **Shared Power Apps** app and **Shared Copilots** app in your org catalog represent all apps created on the platform. If you block one or both these apps for entire org or for specific users, the users can't install the app in Teams. The users can't request admin approval to allow the apps.
 
 Keep in mind that you can control access to all apps created in Power Apps and Copilot Studio but you can't allow or block individual apps. The app creator decides who can access the apps they create through the sharing feature from within Power Apps and Copilot Studio.
 
