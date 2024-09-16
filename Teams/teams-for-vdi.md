@@ -134,7 +134,7 @@ The following is the recommended minimum VM configuration.
 |Storage    | 32 GB        | 40 GB to 60 GB        |
 
 > [!NOTE]
-> Microsoft Teams requires 3.0 GB of available disk space.
+> Microsoft Teams requires at least 3.0 GB of available disk space.
 
 #### Non-persistent setup
 
