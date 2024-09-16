@@ -1,7 +1,7 @@
 ---
 title: Teams Rooms home screen and admin controls
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: henrikalim
 ms.date: 08/28/2024

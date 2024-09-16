@@ -3,7 +3,7 @@ title: Enroll a Teams Room device into Pro Management
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: kimmatlock
+ms.reviewer: altsou
 ms.date: 03/26/2024
 ms.topic: article
 audience: Admin

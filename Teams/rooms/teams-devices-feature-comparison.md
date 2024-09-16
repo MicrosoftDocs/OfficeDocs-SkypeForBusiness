@@ -3,7 +3,7 @@ title: Teams Rooms and  Devices feature comparison
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: sohailta
+ms.reviewer: mattslomka
 ms.date: 4/24/2024
 ms.topic: article
 audience: Admin

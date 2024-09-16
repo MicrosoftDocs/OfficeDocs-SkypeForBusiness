@@ -1,7 +1,7 @@
 ---
 title: Remotely configure front row layout on Teams Rooms
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 ms.reviewer: yoojinjung
 ms.date: 08/21/2024
 manager: pamgreen

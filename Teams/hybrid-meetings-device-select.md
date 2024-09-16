@@ -1,7 +1,7 @@
 ---
 title: "Step 4 - Select devices that enable your space for hybrid meetings"
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: sohailta
 ms.date: 2/26/2024
