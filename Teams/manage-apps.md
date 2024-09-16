@@ -8,7 +8,7 @@ ms.service: msteams
 ms.subservice: teams-apps
 ms.custom: intro-get-started
 audience: admin
-ms.date: 09/04/2024
+ms.date: 09/16/2024
 ms.collection: 
   - M365-collaboration
   - tier2
@@ -30,7 +30,7 @@ In the Teams admin center, we provide a few dedicated pages to manage your apps 
 
 To use Teams admin center, you must have a Teams Administrator role. For details, see [Teams administrator roles](./using-admin-roles.md) and [Microsoft 365 administrator roles](/microsoft-365/admin/add-users/about-admin-roles). Some admins with a higher privilege role can accomplish app governance tasks but we recommend to use the lower privilege role when possible.
 
-App developers [extend Microsoft Copilot](/microsoft-365-copilot/extensibility/) for Microsoft 365 by creating plugins, for example, Microsoft Teams message extension or a Power Platform connector. These plugins increase user productivity across daily tasks and workflows. Admins manage plugins for Copilot in the [Integrated apps](/microsoft-365/admin/manage/manage-plugins-for-copilot-in-integrated-apps) section of the Microsoft 365 admin center.
+App developers [extend Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/) by creating copilot agents, for example, Microsoft Teams message extension or a Power Platform connector. These copilot agents increase user productivity across daily tasks and workflows. Admins manage copilot agents in the [Integrated apps](/microsoft-365/admin/manage/manage-plugins-for-copilot-in-integrated-apps) section of the Microsoft 365 admin center.
 
 > [!NOTE]
 > You can only view and manage apps that are deployed in the same release channel as your tenant is. For example, if your tenant is in the general release channel then you can't manage apps that are deployed in the private or public preview channels. This isn't an issue for apps that are released to the general release channel.
