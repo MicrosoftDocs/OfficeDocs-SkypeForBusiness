@@ -263,7 +263,7 @@ Teams Premium and Teams Phone provides access to Queues app, a Teams-native solu
 
 Queues app is enabled by default for all Teams users in your organization who are assigned both a Teams Premium and Teams Phone license and who and are voice enabled.
 
-For more information about Queues app, see [Manage the Queues app for Microsoft Teams](manage-queues-app.md).
+For more information about Queues app, see [Manage the Queues app for Microsoft Teams](manage-queues-app.md). For end user documentation, see [Use the Queues app for Microsoft Teams](https://support.microsoft.com/office/370ad83e-c2c1-4a9f-8a59-16c98be102e9).
 
 ## More resources
 
