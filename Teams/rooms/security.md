@@ -1,9 +1,9 @@
 ---
 title: Microsoft Teams Rooms security
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: kspiess
+ms.reviewer: kimmatlock
 ms.date: 03/19/2024
 ms.topic: article
 audience: Admin

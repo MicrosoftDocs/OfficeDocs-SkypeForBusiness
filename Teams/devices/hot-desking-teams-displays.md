@@ -3,7 +3,7 @@ title: Hot desking Teams displays
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: prashibadkur
+ms.reviewer: eviegrimshaw
 ms.date: 05/15/2024
 ms.topic: article
 ms.service: msteams

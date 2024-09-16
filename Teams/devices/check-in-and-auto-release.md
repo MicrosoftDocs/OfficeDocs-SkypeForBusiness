@@ -3,7 +3,7 @@ title: Check-in and auto release on Teams Panels
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: eveigrimshaw
+ms.reviewer: eviegrimshaw
 ms.date: 06/25/2024
 ms.topic: article
 audience: Admin

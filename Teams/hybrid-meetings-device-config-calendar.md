@@ -1,7 +1,7 @@
 ---
 title: "Step 7 - Configure calendar options"
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: sohailta
 ms.date: 2/26/2024

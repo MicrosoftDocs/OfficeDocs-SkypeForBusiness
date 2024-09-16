@@ -3,7 +3,7 @@ title: Authentication best practices for Microsoft Teams shared device managemen
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: tjaved
+ms.reviewer: dimehta
 ms.date: 05/07/2024
 ms.topic: article
 ms.service: msteams

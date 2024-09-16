@@ -1,7 +1,7 @@
 ---
 title: Overview of voice and face enrollment
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: parisataheri  
 ms.date: 05/02/2024  
