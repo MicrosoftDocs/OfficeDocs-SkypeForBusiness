@@ -90,13 +90,13 @@ This room features a curved table with participants seated on one side, allowing
 
 This room features a traditional meeting room table with a height of 30 in or 76 cm.
 
-:::image type="content" source="media/emr10.png" alt-text="[Blueprint of a Signature Teams Room design.":::
+:::image type="content" source="media/emr10.png" alt-text="[Blueprint of a Signature Teams Rooms design.":::
 
 ## Signature Teams Rooms equipment mounting
 
 :::image type="content" source="media/hybrid-audience-audiovisual-small.png" alt-text="Audio visual audience" border="false"::: :::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="Facilities audience" border="false":::
 
-The Signature Teams Room shown in the images above requires specific placement of Teams Rooms devices to create the best hybrid meeting experience.
+The Signature Teams Rooms shown in the images above requires specific placement of Teams Rooms devices to create the best hybrid meeting experience.
 
 | Component      | Recommendations                                                                                                                                                                                                                                                                                                                                                             |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
