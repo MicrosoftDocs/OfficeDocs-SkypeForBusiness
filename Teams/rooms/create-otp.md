@@ -1,10 +1,10 @@
 ---
 title: Create a one-time password
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: serdars
+ms.reviewer: altsou
 audience: ITPro
-ms.reviewer: kramachandra
 ms.date: 09/12/2024
 ms.topic: quickstart
 ms.service: msteams
