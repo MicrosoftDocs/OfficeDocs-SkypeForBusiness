@@ -1,7 +1,7 @@
 ---
 title: Teams Rooms on Android app and firmware versions
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 ms.reviewer: divank
 ms.date: 08/21/2024
 manager: pamgreen
@@ -12,7 +12,7 @@ ms.subservice: itpro-rooms
 ms.collection:
   - M365-collaboration
   - teams-rooms-devices
-  - Tier3
+  - Tier2
 f1.keywords:
   - NOCSH
 ms.localizationpriority: medium

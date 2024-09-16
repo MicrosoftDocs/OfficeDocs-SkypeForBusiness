@@ -5164,6 +5164,10 @@
   "source_path": "Teams/education-insights-sis-data-sync.md",
   "redirect_url": "/microsoftteams/expand-teams-across-your-org/teams-for-education-landing-page",
   "redirect_document_id": false
+},
+{  "source_path": "Teams/rooms/updates.md",
+"redirect_url": "/microsoftteams/rooms/update-management",
+"redirect_document_id": false
 }
 ] 
 }

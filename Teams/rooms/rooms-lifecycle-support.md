@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rooms app version support
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: raginis
 ms.date: 08/21/2024
@@ -14,7 +14,7 @@ appliesto:
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
-  - Tier1
+  - Tier2
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium

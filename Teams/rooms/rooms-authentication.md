@@ -1,9 +1,9 @@
 ---
 title: "Authentication in Microsoft Teams Rooms on Windows"
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: sohailta
+ms.reviewer: dimehta
 ms.date: 03/01/2024
 ms.topic: article
 audience: Admin

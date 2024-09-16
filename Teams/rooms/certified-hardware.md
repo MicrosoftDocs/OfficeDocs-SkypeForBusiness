@@ -3,7 +3,7 @@ title: Teams Rooms certified systems and peripherals
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: sohailta
+ms.reviewer: raginis
 ms.date: 08/22/2024
 ms.topic: article
 audience: Admin
@@ -14,7 +14,7 @@ appliesto:
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
-  - Tier3
+  - Tier2
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium

@@ -1,8 +1,8 @@
 ---
 title: Update Microsoft Teams devices remotely
-ms.author: tonysmit
 author: mstonysmith
-ms.reviewer: anusharma
+ms.author: tonysmit
+ms.reviewer: vapati
 ms.date: 05/13/2024
 manager: pamgreen
 ms.topic: article
