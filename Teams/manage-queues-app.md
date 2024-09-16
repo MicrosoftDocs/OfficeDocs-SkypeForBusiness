@@ -26,15 +26,15 @@ search.appverid: MET150
 ## Overview of Queues app
 
 > [!NOTE]
-> Queues app is currently in public preview. Once generally available, it will be included in Teams Premium. For more information, contact your Microsoft customer success manager. Information in this article is subject to change.
+> Queues app is currently in [public preview](public-preview-doc-updates.md).
 
 The Queues app is a Teams-native solution designed to empower organizations to manage customer engagements efficiently, unlocking a set of advanced call functionalities for Teams Phone Call queues and Auto attendants, such as:
 
 - **Call queue management**: Admins can now delegate authorized users, also known as leads or supervisors, to manage and configure Call queues and Auto attendants directly from the Teams client. Authorized users can configure Call queues and Auto attendants from Call settings and they can opt agents into and out of the queue from Queues app. For more information, see [Configure Queues app](#configure-users-for-queues-app).
 
-- **Real-time metrics**: The number of waiting calls, average wait time, longest call waiting time metrics, and more are included in real-time metrics within the Queues app. During public preview, the analytics report will show activity made in the queue from 12:00 AM local time of the signed in user.
+- **Real-time metrics**: The number of waiting calls, average wait time, longest call waiting time metrics, and more are included in real-time metrics within the Queues app. The analytics report shows activity made in the queue from 12:00 AM local time of the signed in user. For more information on real-time reports, see [Auto attendant and Call queue real-time reports](aa-cq-real-time-reports.md).
 
-- **Historical reporting**: View historical metrics for call queues, and auto attendants, and agent queue actions. Historical metrics report up to the past 27 days.
+- **Historical reporting**: View historical metrics for call queues, and auto attendants, and agent queue actions. Historical metrics report up to the past 27 days. For more information on historical reports, see [Auto attendant and Call queue historical reports](aa-cq-cqd-historical-reports.md).
 
 Queues app is designed to enhance call queue handling capabilities within Teams for your users who utilize or plan to utilize call queues and auto attendants.
 
