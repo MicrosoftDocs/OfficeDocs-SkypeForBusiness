@@ -760,4 +760,5 @@ Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx
 ## Related articles
 - [Auto attendant and Call queue real-time metrics](aa-cq-real-time-reports.md)
 - [Plan for authorized users](aa-cq-authorized-users-plan.md)
+- [Manage the Queues app](manage-queues-app.md)
 
