@@ -42,7 +42,7 @@ To set up the app as a default PDF viewer, [allow third-party apps in your org](
 
 1. Select the **Permissions** tab and then select **Review permission**.
 
-   :::image type="content" source="media/permission-policy.png" alt-text="Screenshot of app permission in Teams admin center." lightbox="media/teams-app-adobe-acrobat-permission.png":::
+   :::image type="content" source="media/permission-policy.png" alt-text="Screenshot of app permission in Teams admin center." lightbox="media/teams-app-adobe-acrobat-permission.png" lightbox="media/permission-policy.png":::
 
 1. Select **Accept**.
 
