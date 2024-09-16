@@ -5168,6 +5168,10 @@
 {  "source_path": "Teams/rooms/updates.md",
 "redirect_url": "/microsoftteams/rooms/update-management",
 "redirect_document_id": false
+},
+{  "source_path": "Teams/devices/check-in-and-room-release.md",
+"redirect_url": "/microsoftteams/devices/check-in-and-auto-release",
+"redirect_document_id": false
 }
 ] 
 }
