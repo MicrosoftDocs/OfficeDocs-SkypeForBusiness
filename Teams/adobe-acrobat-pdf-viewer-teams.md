@@ -42,7 +42,7 @@ To set up the app as a default PDF viewer, [allow third-party apps in your org](
 
 1. Select the **Permissions** tab and then select **Review permission**.
 
-   :::image type="content" source="media/permission-policy.png" alt-text="Screenshot of app permission in Teams admin center." lightbox="media/teams-app-adobe-acrobat-permission.png" lightbox="media/permission-policy.png":::
+   :::image type="content" source="media/permission-policy.png" alt-text="Screenshot of app permission in Teams admin center." lightbox="media/teams-app-adobe-acrobat-permission.png":::
 
 1. Select **Accept**.
 
@@ -54,7 +54,7 @@ To assign and make the Adobe Acrobat app available for all users, follow these s
 
 1. Under **Manage policies** tab, select **Global (Org-wide default)**, and then select **Edit**.
 
-   :::image type="content" source="media/setup-policies.png" alt-text="Screenshot of setup policies for Adobe Acrobat app in Teams admin center.":::
+   :::image type="content" source="media/setup-policies.png" alt-text="Screenshot of setup policies for Adobe Acrobat app in Teams admin center." lightbox="media/setup-policies.png":::
 
 1. Under Installed apps, select **Add apps**.
 
