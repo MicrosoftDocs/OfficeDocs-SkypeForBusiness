@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
-ms.date: 06/10/2024
+ms.date: 09/16/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -27,6 +27,8 @@ ms.custom:
   - ms.lync.lac.ToolsCallQualityDashboard
 description: Learn about how to use the updated Teams Auto Attendant & Call Queue Historical Report Power BI report to view Auto Attendant and Call Queue historical data.
 ---
+
+
 
 # Auto attendant and Call queue historical reports
 
@@ -754,3 +756,9 @@ Refer to: Teams Auto Attendant & Call Queue Historical Reports - Change Log.docx
 |3.1.6    |April 15, 2024     |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.6 |Support click2call, callback, authorized users, and some visuals changed due to deprecation |
 |3.1.5    |January 29, 2024   |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.5 |Corrected an error with the Per Day query logic for fAgentTimelineAnalytics and fAgentTimelineAnalyticsSummary  |
 |3.1.4    |January 24, 2024   |No        |Teams Auto Attendant & Call Queue Historical Reports V3.1.4 |Per day reporting for large volume customers, accessibility improvements for screen readers   |
+
+## Related articles
+- [Auto attendant and Call queue real-time metrics](aa-cq-real-time-reports.md)
+- [Plan for authorized users](aa-cq-authorized-users-plan.md)
+- [Manage the Queues app](manage-queues-app.md)
+
