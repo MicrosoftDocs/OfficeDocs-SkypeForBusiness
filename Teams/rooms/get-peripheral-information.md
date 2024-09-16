@@ -3,7 +3,7 @@ title: Add peripherals to inventory
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: prashibadkur
+ms.reviewer: eviegrimshaw
 ms.date: 05/02/2024  
 ms.topic: article
 audience: Admin
