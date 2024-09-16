@@ -70,7 +70,7 @@ Consider the following example. A customer has purchased 115 Audio Conferencing 
 
 - All dial-out calls to destinations not in the [Zone A countries and regions](audio-conferencing-zones.md) list are billed per minute using Communications Credits at our published rates to that destination (provided the customer has set up Communications Credits and assigned the Communications Credits license to the meeting organizer).
 
-## How can I monitor minute my pool usage?
+## How can I monitor my minute pool usage?
 
 - You can monitor the usage against your dial-out minute pool in the Microsoft Teams admin center. In the left navigation, go to **Analytics & reports** > **Usage reports**, and then select **PSTN minute pools**. The Zone A dial-out minute pool will be labeled in the report as "Outbound Calls to Zone A Countries and Regions."
 - Email notifications will be sent to the following admins when the utilization of your organization's dial-out minutes pool has reached 80 percent and 100 percent:
