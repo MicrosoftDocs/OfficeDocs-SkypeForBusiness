@@ -1,7 +1,7 @@
 ---
 title: Devices for Teams
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: divank
 ms.date: 08/21/2024
@@ -11,7 +11,7 @@ ms.subservice: itpro-devices
 ms.collection: 
   - teams-rooms-devices
   - Teams_ITAdmin_Devices
-  - Tier3
+  - Tier2
 audience: Admin
 appliesto: 
   - Microsoft Teams

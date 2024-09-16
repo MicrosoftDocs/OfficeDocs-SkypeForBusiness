@@ -1,7 +1,7 @@
 ---
 title: Phones and Devices for Microsoft Teams
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: slamprianou
 ms.date: 09/11/2024
@@ -12,7 +12,7 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 ms.collection: 
-  - Tier3
+  - Tier2
   - teams-rooms-devices
   - Teams_ITAdmin_Devices
 ms.localizationpriority: medium
