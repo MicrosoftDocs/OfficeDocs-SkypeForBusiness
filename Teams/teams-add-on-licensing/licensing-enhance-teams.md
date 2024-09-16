@@ -240,6 +240,18 @@ The Meet app in Teams allows users to view important details of their meetings i
 
 \* *Mentions of a user's name is pulled from the meeting transcript, not from an @mention tag in the meeting chat.*
 
+### Queues app
+
+The Queues app is a Teams-native solution designed to empower organizations to manage customer engagements efficiently, unlocking a set of advanced call functionalities for Teams Phone Call queues and Auto attendants. To learn more about the Queues app, see [Use the Queues app for Microsoft Teams](https://support.microsoft.com/office/370ad83e-c2c1-4a9f-8a59-16c98be102e9) and [Manage the Queues app](/microsoftteams/manage-queues-app).
+
+| Feature | Teams | Teams Premium |
+|---------|:-----:|:-------------:|
+|Call queue and Auto attendant management directly within Teams|  | ✔️ |
+|Real-time metrics for Call queues and Auto attendants within Queues app|  | ✔️ |
+|Historical reporting for Call queues and Auto attendants within Queues app|  | ✔️ |
+
+For a complete list of features available in the Queues app, see [Manage voice applications policies](/microsoftteams/manage-voice-applications-policies).
+
 ### Immersive Mesh Experiences
 
 With Immersive spaces in Teams, your users can join a 3D immersive meeting experience for up-to 16 people right from any Teams meeting.</br>
