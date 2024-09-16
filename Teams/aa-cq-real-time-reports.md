@@ -87,7 +87,7 @@ The following table contains real-time Call queue metrics. All metrics are whole
 |tot_abandoned_calls                     |Current & Summary	|Authorized Users & Agents|Total number of accepted calls that abandoned                                              |
 |avg_speed_answer                        |Current & Summary	|Authorized Users & Agents|	Average speed of answer<br><br>`(total wait time of answered calls / total answered calls)`       |
 |tot_agent_presents                      |Current & Summary	|Authorized Users & Agents|Total number of presented but not answered calls                                           |
-|sl_target                               |Current & Summary	|Authorized Users & Agents|Service level target number of seconds<br>See [Service Level Notes](#service-level-notes)<br><br> **null if not set** |
+|sl_target                               |Current & Summary	|Authorized Users & Agents|Service level target number of seconds<br><br> **null if not set** |
 |sl_tot_answered_calls                   |Current & Summary |Authorized Users & Agents|Total number of calls answered within the service level target<br><br>**null if sl_target is null**  |
 |sl_tot_abandoned_calls                  |Current & Summary |Authorized Users & Agents|Total number of calls that abandoned within the service level target<br><br>**null if sl_target is null**  |
 |sl_met_handled                        	 |Current & Summary |Authorized Users & Agents|Percentage of answered  calls answered that met the service level target (*Two-digit decimal*)<br><br>`(sl_tot_answered_calls / tot_answered_calls)`<br><br>**null if sl_target is null** |
