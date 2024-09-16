@@ -8,7 +8,7 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: admin
-ms.date: 07/31/2024
+ms.date: 09/16/2024
 ms.collection: 
 - M365-voice
 - m365initiative-voice
@@ -94,7 +94,7 @@ To learn more about the different ways that you can assign policies to users, se
 
 ## Voice applications policy settings
 
-Voice applications policies control what configuration changes and actions an authorized user can make to the auto attendants and call queues they're authorized for and what reports authorized users have access to. The following settings are available:
+Voice applications policies control the configuration changes and actions an authorized user can make to the auto attendants and call queues they're authorized for. In addition, they also control which real-time and historical reports authorized users have access to. The following settings are available:
 
 ### Auto attendants - Features
 
@@ -122,8 +122,7 @@ Notes
 |Teams voice applications policy setting             |Description                                                                      |PowerShell parameter           |Teams Premium required<sup>1</sup>|
 |----------------------------------------------------|---------------------------------------------------------------------------------|------------------------------------------|-----------------------|
 |Real-time auto attendant metrics   |This setting allows authorized users to access real-time auto attendant metrics. |RealTimeAutoAttendantMetricsPermission    |Yes, Public Preview    |
-|Historical auto attendant metrics  |This setting allows authorized users to access historical auto attendant metrics in Power BI and Queues App.|HistoricalAutoAttendantMetricsPermission  |Power Bi - No, Generally Available<br>Queues App - Yes, Public Preview|
-
+|Historical auto attendant metrics  |This setting allows authorized users to access historical auto attendant metrics in Power BI and Queues App.|HistoricalAutoAttendantMetricsPermission  |Power BI - No, Generally Available<br>Queues App - Yes, Public Preview|
 
 Reporting values:
 
