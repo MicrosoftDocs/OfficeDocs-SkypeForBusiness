@@ -111,7 +111,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Windows C
 | [Crestron Mercury Mini UC-MM30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MM30-T) | Core i5 | 8 GB | 128 GB |
 | [Dell OptiPlex 7000 with Logitech TAP](https://www.dell.com/en-us/lp/logitechvideoconferencing?ref=cptl_logitech-store-at-dell---4_cta_primary_shopgoogleteamsorzoombundles#All-in-one-Room-Solutions) | Core i7 | 16 GB | 256 GB |
 | [HP Elite Slice for Meeting Rooms G2](https://www.hp.com/us-en/desktops/business/elite-slice.html) | Core i5 | 8 GB | 128 GB |
-| [HP Elite Slice G2 Audio Ready with Microsoft Teams Rooms](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) | Core i5 | 8 GB | 128 GB |
+| [HP Elite Slice G2 Audio Ready with Microsoft Teams Rooms](https://www.hp.com/us-en/desktops/business/elite-slice/microsoft-teams-rooms.html) | Core i5 | 8 GB | 128 GB |
 | [HP Slice Partner Ready with Logitech TAP]( https://www.logitech.com/video-collaboration/partners/hp.html) | Core i5 | 8 GB | 128 GB |
 | [HP Presence Small Space Solution with Microsoft Teams Rooms](https://www.hp.com/us-en/solutions/presence.html) | Core i5/i7 | 8 GB/16 GB | 256 GB |
 | [HP Presence Small Space Solution Plus AI Camera with Microsoft Teams Rooms](https://www.hp.com/us-en/solutions/presence.html) | Core i5/i7 | 8 GB/16 GB | 256 GB |
