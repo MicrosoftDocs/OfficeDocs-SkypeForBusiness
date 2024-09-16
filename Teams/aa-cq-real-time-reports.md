@@ -95,8 +95,8 @@ All metrics are whole numbers unless otherwise stated.
 |tot_sysxfer_psrn_calls                  |Current & Summary	|Authorized	Users Only    |Total number of system-initiated transfers to a Teams user                |
 |tot_sysxfer_vm_calls                    |Current & Summary	|Authorized	Users Only    |Total number of system-initiated transfers to shared voicemail            |
 |tot_sysdisconnected_calls               |Current & Summary	|Authorized	Users Only    |Total number of system-initiated disconnects                              |
-|avg_call_time<br>Single-digit decimal   |Current & Summary	|Authorized	Users Only    |Average amount of time calls spent in the auto attendant                  |
-|avg_caller_actions<br>Single-digit decimal	|Current & Summary |Authorized Users Only |Average number of caller actions in the auto attendant                    |
+|avg_call_time                           |Current & Summary	|Authorized	Users Only    |Average amount of time calls spent in the auto attendant<br>Single-digit decimal  |
+|avg_caller_actions                      |Current & Summary |Authorized Users Only |Average number of caller actions in the auto attendant<br>Single-digit decimal       |
 
 
 ## Call queue metrics
@@ -105,7 +105,7 @@ All metrics are whole numbers unless otherwise stated.
 
 |Key                                     |Feed              |Available To             |Description                                                                                |
 |:---------------------------------------|:-----------------|:------------------------|:------------------------------------------------------------------------------------------|
-|abandoned_%<br>Three-digit decimal         |Current	          |Authorized Users & Agents|Abandoned percentage<br><br>`(tot_abandoned_calls / tot_offered_calls)`                            |
+|abandoned_%                             |Current	          |Authorized Users & Agents|Abandoned percentage<br><br>`(tot_abandoned_calls / tot_offered_calls)`<br>Three-digit decimal   |
 |calls_waiting	                         |Current	          |Authorized Users & Agents|Number of calls currently waiting                                                          |
 |calls_waiting_longest	                 |Current	          |Authorized Users & Agents|Longest wait time, in seconds, of oldest call in queue<br><br>Note: To be deprecated.        |
 |longest_waiting_call_enqueue_time       |Current	          |Authorized Users & Agents|Timestamp of arrival time for longest waiting call<br><br>Offset by UTC offset if supplied during registration.<br><br>Format: `2024-03-19T11:55:09.9887885+00:00` |
@@ -117,13 +117,13 @@ All metrics are whole numbers unless otherwise stated.
 |tot_abandoned_calls                     |Current & Summary	|Authorized Users & Agents|Total number of accepted calls that abandoned                                              |
 |avg_speed_answer                        |Current & Summary	|Authorized Users & Agents|	Average speed of answer<br><br>`(total wait time of answered calls / total answered calls)`       |
 |tot_agent_presents                      |Current & Summary	|Authorized Users & Agents|Total number of presented but not answered calls                                           |
-|sl_target<br>null if not set            |Current & Summary	|Authorized Users & Agents|Service level target number of seconds<br><br>See [Service Level Notes](#service-level-notes). |
-|sl_tot_answered_calls<br>null if sl_target is null	|Current & Summary |Authorized Users & Agents|Total number of calls answered within the service level target                  |
-|sl_tot_abandoned_calls<br>null if sl_target is null|Current & Summary |Authorized Users & Agents|Total number of calls that abandoned within the service level target            |
-|sl_met_handled<br>Two-digit decimal<br>null if sl_target is null	|Current & Summary |Authorized Users & Agents|Percentage of answered  calls answered that met the service level target<br><br>`(sl_tot_answered_calls / tot_answered_calls)` |
-|sl_met_no_abandon<br>Two-digit decimal<br>null if sl_target is null	|Current & Summary |Authorized Users & Agents|Percentage of answered/abandoned calls that met the service level target - abandoned calls within service level target don't impact service level percentage<br><br>`(sl_tot_answered_calls / [tot_offered_calls – sl_tot_abandoned_calls])` |
-|sl_met_positive_abandon<br>Two-digit decimal<br>null if sl_target is null | Current & Summary |Authorized Users & Agents|Percentage of calls answered/abandoned that met service level target - abandoned calls within service level target positively impact service level percentage<br><br>`([sl_tot_answered_calls + sl_tot_abandoned_calls] / tot_offered_calls` |
-|sl_met_negative_abandon<br>Two-digit decimal<br><br>null if sl_target is null	|Current & Summary |Authorized Users & Agents|Percentage of calls answered/abandoned that met service level target - abandoned calls within service level target negatively impact service level percentage<br><br>`(sl_tot_answered_calls / tot_offered_calls)` |
+|sl_target                               |Current & Summary	|Authorized Users & Agents|Service level target number of seconds<br><br>See [Service Level Notes](#service-level-notes).<br>null if not set |
+|sl_tot_answered_calls                   |Current & Summary |Authorized Users & Agents|Total number of calls answered within the service level target<br>null if sl_target is null  |
+|sl_tot_abandoned_calls                  |Current & Summary |Authorized Users & Agents|Total number of calls that abandoned within the service level target<br>null if sl_target is null  |
+|sl_met_handled                        	 |Current & Summary |Authorized Users & Agents|Percentage of answered  calls answered that met the service level target<br><br>`(sl_tot_answered_calls / tot_answered_calls)`<br>Two-digit decimal<br>null if sl_target is null |
+|sl_met_no_abandon                      	|Current & Summary |Authorized Users & Agents|Percentage of answered/abandoned calls that met the service level target - abandoned calls within service level target don't impact service level percentage<br><br>`(sl_tot_answered_calls / [tot_offered_calls – sl_tot_abandoned_calls])`<br>Two-digit decimal<br>null if sl_target is null |
+|sl_met_positive_abandon                  | Current & Summary |Authorized Users & Agents|Percentage of calls answered/abandoned that met service level target - abandoned calls within service level target positively impact service level percentage<br><br>`([sl_tot_answered_calls + sl_tot_abandoned_calls] / tot_offered_calls`<br>Two-digit decimal<br>null if sl_target is null |
+|sl_met_negative_abandon                 	|Current & Summary |Authorized Users & Agents|Percentage of calls answered/abandoned that met service level target - abandoned calls within service level target negatively impact service level percentage<br><br>`(sl_tot_answered_calls / tot_offered_calls)`<br>Two-digit decimal<br><br>null if sl_target is null |
 
 ### Service level notes
 
