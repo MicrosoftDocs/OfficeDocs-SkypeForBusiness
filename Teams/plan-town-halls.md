@@ -157,7 +157,7 @@ If you've been using live events for your organization, you might want to unders
 |Viva Engage integration|✔️|*In development*|*In development*|
 |VOD|✔️|✔️|✔️|
 
-For more information on Teams premium, see [Teams Premium licensing](/microsoftteams/teams-add-on-licensing/licensing-enhance-teams).
+For more information on Teams Premium, see [Teams Premium licensing](/microsoftteams/teams-add-on-licensing/licensing-enhance-teams).
 
 ## Town hall control comparison
 
