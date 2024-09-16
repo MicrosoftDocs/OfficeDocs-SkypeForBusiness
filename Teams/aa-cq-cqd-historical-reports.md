@@ -75,7 +75,7 @@ When completed, you're able to [configure a scheduled refresh](/power-bi/connect
 
 Use one of the following methods to control access to the historical reports:
 
-1. Voice applications policy
+- Voice applications policy
 
 To control which Auto attendants, Call queues and Agents users can report on without providing them access to Teams admin center, create a voice applications policy that grants them access to historical reporting and assign them as an Authorized user to the appropriate Auto attendants and Call queues.
 
@@ -100,7 +100,7 @@ For more information, see:
 
 If the voice applications policy assigned to a user only enables the historical reporting permissions, and optionally the real-time reporting permissions, then the user can't access the historical reports. Support is working to resolve this problem. In the interim, enable at least one Auto attendant and Call queue change permission in the policy. Enabling the Auto attendant **Business hours greeting** and Call queue **Welcome greeting** is suggested, but enabling any of the change permissions will work around this issue.
 
-2. Call Quality Dashboard (CQD) pipeline [legacy]
+- Call Quality Dashboard (CQD) pipeline [legacy]
 
 If you want the user to report on **all** the Auto attendants, Call queues, and Agents in the tenant and you want to grant the user access to Teams admin center to run other Usage reports, assign the user a CQD access role with both **View Reports** and **View EUII fields** set to **Yes**.
 
