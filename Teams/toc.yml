@@ -697,7 +697,7 @@ items:
               href: set-up-meeting-registration.md
         - name: Attendee experience
           items: 
-            - name: Manage Copilot for Teams
+            - name: Manage Microsoft 365 Copilot for Teams meetings and events
               href: copilot-teams-transcription.md
             - name: Manage Q&A
               href: manage-qna-for-teams.md
@@ -1015,8 +1015,12 @@ items:
               href: set-up-holidays-in-teams.md
             - name: Answer Auto attendant and Call queue calls directly from Teams
               href: answer-auto-attendant-and-call-queue-calls.md
-            - name: Reports - Historical
-              href: aa-cq-cqd-historical-reports.md
+            - name: Reporting
+              items:
+                - name: Historical reporting
+                  href: aa-cq-cqd-historical-reports.md
+                - name: Real-time reporting
+                  href: aa-cq-real-time-reports.md
             - name: PowerShell cmdlet reference for Auto attendants and Call queues
               href: call-queue-auto-attendant-cmdlets.md
             - name: Dial and voice reference
@@ -1405,7 +1409,7 @@ items:
                   href: rooms/manage-front-row.md
                 - name: Join third-party meetings
                   href: rooms/third-party-join.md
-                - name: Meetings with SIP and H.323 devices
+                - name: SIP and H.323 Calling with Teams Rooms
                   href: rooms/meetings-with-SIP-H323-devices.md
                 - name: Manage custom backgrounds on Android
                   href: rooms/custom-backgrounds-android.md
@@ -1593,6 +1597,8 @@ items:
           href: manage-praise-app.md
         - name: Manage the Approvals app
           href: approval-admin.md
+        - name: Manage the Queues app
+          href: manage-queues-app.md
         - name: Manage the Shifts app
           href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
         - name: Shifts data FAQ       

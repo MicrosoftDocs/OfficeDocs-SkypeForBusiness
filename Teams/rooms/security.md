@@ -1,10 +1,10 @@
 ---
 title: Microsoft Teams Rooms security
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: kspiess
-ms.date: 11/02/2023
+ms.reviewer: kimmatlock
+ms.date: 03/19/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -13,7 +13,7 @@ appliesto:
   - Microsoft Teams
 ms.collection: 
   - M365-collaboration
-  - teams-rooms-devices
+  - teams-rooms-devicesf
   - Tier1
 f1.keywords: 
   - NOCSH

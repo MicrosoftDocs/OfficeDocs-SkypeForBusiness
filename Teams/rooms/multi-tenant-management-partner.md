@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 ms.date: 04/04/2024
 manager: pamgreen
-ms.reviewer: altsou
+ms.reviewer: kimmatlock
 ms.topic: article
 audience: Admin
 ms.service: msteams
