@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: raginis
-ms.date: 08/22/2024
+ms.date: 09/17/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -171,6 +171,8 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Current certification end date | Room size | Android OS version |
 |:-|:-|:-|:-|:-|
+| Crestron AIO Video Bar 70 | `1.240618.1240` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10|
+| Touch Panel TS-1070 | `2.005.1030` | September 3, 2025 | Compatible with Crestron AIO Video Bar 70 | 10 |
 | Yealink CTP25 touch console | `311.320.0.2` | August 15, 2027 | Compatible with Yealink MeetingBar A40 | 13 |
 | Yealink MeetingBar A40 | `289.320.0.11` | August 15, 2027 | Medium size room (4.5 m x 6 m) | 13 |
 | Yealink MeetingBoard 65"/86" with MB-Camera-6X | `155.15.0.37 ` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10|
