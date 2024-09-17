@@ -1,5 +1,5 @@
 ---
-title: Set custom backgrounds on Teams Panels
+title: Set up and manage custom backgrounds on Teams panels
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
