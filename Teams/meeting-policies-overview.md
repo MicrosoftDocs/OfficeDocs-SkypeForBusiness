@@ -47,7 +47,7 @@ Policies are implemented in one of the following ways:
 5. Select **Save**.
 
 > [!NOTE]
-> Policy name can't be changed once a policy has been created.
+> Once you create a policy, its name can't be changed.
 
 This video shows the steps to create and assign a custom meeting policy to a user (or users).
 
