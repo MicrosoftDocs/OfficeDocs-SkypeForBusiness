@@ -5164,6 +5164,26 @@
   "source_path": "Teams/education-insights-sis-data-sync.md",
   "redirect_url": "/microsoftteams/expand-teams-across-your-org/teams-for-education-landing-page",
   "redirect_document_id": false
+},
+{  
+  "source_path": "Teams/rooms/updates.md",
+  "redirect_url": "/microsoftteams/rooms/update-management",
+  "redirect_document_id": false
+},
+{  
+  "source_path": "Teams/devices/check-in-and-room-release.md",
+  "redirect_url": "/microsoftteams/devices/check-in-and-auto-release",
+  "redirect_document_id": false
+},
+{  
+  "source_path": "Teams/rooms/license-check.md",
+  "redirect_url": "/microsoftteams/rooms/rooms-licensing",
+  "redirect_document_id": false
+},  
+{
+  "source_path": "Teams/teams-analytics-and-reports/pstn-blocked-users-report.md",
+  "redirect_url": "/microsoftteams/teams-analytics-and-reports/teams-reporting-reference",
+  "redirect_document_id": false
 }
-] 
+]
 }

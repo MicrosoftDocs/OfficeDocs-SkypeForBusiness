@@ -2,17 +2,17 @@
 title: Add and update reporting labels
 author: mkbond007
 ms.author: mabond
-manager: serdars
+manager: pamgreen
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: 
-ms.date: 09/11/2018
+ms.reviewer: mamcgrath
+ms.date: 09/05/2024
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
-description: Learn how to add and update reporting labels by uploading a text file that contains a list of physical locations and associated subnets.
+description: Learn how to add and update Call Analytics reporting labels by uploading a text file that contains a list of physical locations and associated subnets.
 f1.keywords:
 - CSH
 ms.custom:
@@ -36,17 +36,17 @@ The report labels and locations data you provide is a single data structure – 
 
 **To edit the table of subnets and locations**
 
-1. In the left navigation of the Microsoft Teams admin center, click **Analytics & reports** > **Reporting labels**.
-2. Click **Upload data**.
-3. In the **Upload data** pane, click **Select a file**, and then browse to and upload your edited .csv or .tsv file.
-4. Click **Upload**.
+1. In the left navigation of the Microsoft Teams admin center, select **Analytics & reports** > **Reporting labels**.
+2. Select **Upload data**.
+3. In the **Upload data** pane, select **Select a file**, and then browse to and upload your edited .csv or .tsv file.
+4. Select **Upload**.
 
 You can download a sample template [here](https://download.microsoft.com/download/0/b/9/0b9c1610-d421-489a-a3f9-d1ae703c9f1b/locations-template.zip).
 
 Use the following example to help create your data file.
 
 > [!IMPORTANT]
-> Your data file shouldn't contain column headers (such as Network, Network Name, etc.). These are used here for informational purposes only. <br>
+> Your data file shouldn't contain column headers (such as Network, Network Name, etc.). These are used here for informational purposes only.
 
 |Network|Network Name|Network Range|Building Name|Ownership Type|Building Type|Building Office Type|City|Zip Code|Country|State|Region|Inside Corp|Express Route|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|

@@ -3,7 +3,7 @@ title: Manage and filter Microsoft Teams device tags
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: snchatur
+ms.reviewer: ayerragangu
 ms.date: 05/01/2024
 ms.topic: article
 ms.service: msteams

@@ -1,10 +1,10 @@
 ---
 title: Teams Rooms home screen and admin controls
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: henrikalim
-ms.date: 06/26/2024
+ms.date: 08/28/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -168,6 +168,17 @@ The way **Teams Rooms (Windows and Android)** devices communicate with Exchange 
 
 **Teams Rooms (Windows and Android)** devices include several out of the box backgrounds that can be selected as desired. 
 
-If your **Teams Rooms on Windows** device has an account with a Teams Rooms Pro license, you can configure custom backgrounds for your device, see [Set up and manage Teams Rooms on Windows custom backgrounds](/microsoftteams/rooms/custom-backgrounds). 
+If your Teams Rooms device has an account with a Teams Rooms Pro license, you can configure custom backgrounds for your device, see [Teams Rooms on Windows custom backgrounds](/microsoftteams/rooms/custom-backgrounds) or [Teams Rooms on Android custom backgrounds](/microsoftteams/rooms/custom-backgrounds-android)
 
-Custom backgrounds is not yet available on **Teams Rooms on Android** devices.
+## Release Ring Indicator
+
+**Teams Rooms (Windows and Android)** indicate with a pill icon below the time if they are in an earlier release ring for Microsoft Teams (no pill is present on a device not in preview). This indicator is intentional to ensure users know the device is running an earlier release of Microsoft Teams. Teams Rooms can be put into a preview state in any of the following ways, if you wish to move the devices out of the preview ring, review the options and undo those changes:
+- [Teams Public Preview](/microsoftteams/public-preview-doc-updates)
+- [M365 Targeted Release](/microsoft-365/admin/manage/release-options-in-office-365)
+- Participating in a private preview in partnership with Microsoft. Please contact your Microsoft account team for more information.
+- On a **Teams Rooms on Windows** device an XML setting can be used to enable public preview:
+
+```xml
+<EnablePublicPreview>true</EnablePublicPreview>
+```
+

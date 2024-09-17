@@ -6,7 +6,7 @@ manager: jtremper
 audience: admin
 ms.topic: conceptual
 ms.service: microsoft-365-frontline
-ms.reviewer: prkoduku
+ms.reviewer: yinchang
 ms.date: 10/13/2023
 f1.keywords:
 - NOCSH
@@ -26,7 +26,7 @@ appliesto:
 
 The Walkie Talkie usage and performance report in the Microsoft Teams admin center gives you an overview of [Walkie Talkie](../walkie-talkie.md) activity in your organization. The report provides information such as the number of push-to-talk (PTT) transmissions made and received, channel activity, transmission duration, and device and participant details.
 
-Use this report to gain insight into Walkie Talkie usage trends and performance in your organization. To access the report, you must be a Teams admin, Global reader, Report reader, or Global admin.
+Use this report to gain insight into Walkie Talkie usage trends and performance in your organization. To access the report, you must be a Teams Administrator, Global Reader, Report Reader, or Global Administrator.
 
 > [!IMPORTANT]
 > Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use a less-privileged role.
@@ -56,7 +56,7 @@ The report gives you a breakdown of each transmission made during the date range
 |PacketCount|Number of packets used to send the audio transmission.|
 |NotifiedParticipants|The participants to which a push notification is sent when a transmission starts. In scenarios where the connection between the device and service is lost, a notification is sent to the device to re-establish the connection as soon as possible because a transmission is coming.|
 |AudioDurationMilliseconds|Duration of the transmission in milliseconds.|
-|ConnectionId|ID of each connection to a Walkie Talkie channel that's established by the device.|
+|ConnectionId|ID of each connection to a Walkie Talkie channel established by the device.|
 |TransmissionStartTime |Date and time when the first audio packet is received by the service.|
 |TransmissionEndTime|Date and time when the last audio packet is received by the service.|
 |ParticipantList|A semi-colon delimited list of IDs of the devices connected to the channel at the time the transmission is sent.|

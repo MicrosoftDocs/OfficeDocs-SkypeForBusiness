@@ -6,12 +6,12 @@ manager: jtremper
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jewilcze
-ms.date: 10/26/2023
+ms.date: 09/13/2024
 search.appverid: MET150
 searchScope:
   - Microsoft Teams
 audience: admin
-description: Learn how to manage the Virtual appointment meeting template for Teams to provide a default meeting configuration for your organization.
+description: Learn how to manage the Virtual appointment meeting template in Teams for your organization. Your users can use this template to schedule virtual appointments with external guests, such as customers, clients, and other people outside your organization.
 ms.localizationpriority: medium
 ms.collection: 
 - M365-collaboration
@@ -51,7 +51,7 @@ To learn more, see [Manage meeting templates in Teams](manage-meeting-templates.
 ![Information icon](media/info.png) **This is a [Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md) feature. Meeting organizers must have a Teams Premium license to use this feature.**.
 
 > [!NOTE]
-> This feature is currently only available in the United States. Your users can only send SMS text notifications to people who have a valid United States phone number (+1 country code). SMS text notifications are sent in English.
+> This feature is currently available in Canada, the United Kingdom, and the United States. Your users can only send SMS text notifications to people who have a valid Canada phone number (+1 country code), United Kingdom phone number (+44 country code), or United States phone number (+1 country code). SMS text notifications are sent in English.
 
 You can control whether your users can choose to send SMS text notifications to external guests in appointments that they schedule using the template. When this feature is enabled for a user, they'll see  the SMS notifications option in the template.
 
@@ -102,7 +102,7 @@ To get an overview of SMS notifications usage across your organization, view the
 
 When users in your organization use the template to schedule a virtual appointment, external guests get a tailored meeting invitation that includes a **Join appointment as a guest** button and other appointment details. They can use this button to easily join from any device without having to download and install Teams.
 
-Keep in mind that some Teams meeting options may not apply to external guests or to any person who joins using the **Join appointment as a guest** button. The following meeting options are supported for guests to join:
+Keep in mind that some Teams meeting options might not apply to external guests or to any person who joins using the **Join appointment as a guest** button. The following meeting options are supported for guests to join:
 
 - **Who can bypass the lobby**: The **Everyone** setting allows external guests to bypass the lobby.
 - **Choose co-organizers**

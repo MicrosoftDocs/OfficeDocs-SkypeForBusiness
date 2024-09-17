@@ -511,8 +511,6 @@ items:
           href: teams-analytics-and-reports/teams-premium-usage-report.md
         - name: Teams device usage report
           href: /microsoft-365/admin/activity-reports/microsoft-teams-device-usage-preview?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-        - name: PSTN blocked users report
-          href: teams-analytics-and-reports/pstn-blocked-users-report.md
         - name: PSTN minute pools report
           href: teams-analytics-and-reports/pstn-minute-pools-report.md
         - name: PSTN usage report
@@ -697,7 +695,7 @@ items:
               href: set-up-meeting-registration.md
         - name: Attendee experience
           items: 
-            - name: Manage Copilot for Teams
+            - name: Manage Microsoft 365 Copilot for Teams meetings and events
               href: copilot-teams-transcription.md
             - name: Manage Q&A
               href: manage-qna-for-teams.md
@@ -1015,8 +1013,12 @@ items:
               href: set-up-holidays-in-teams.md
             - name: Answer Auto attendant and Call queue calls directly from Teams
               href: answer-auto-attendant-and-call-queue-calls.md
-            - name: Reports - Historical
-              href: aa-cq-cqd-historical-reports.md
+            - name: Reporting
+              items:
+                - name: Historical reporting
+                  href: aa-cq-cqd-historical-reports.md
+                - name: Real-time reporting
+                  href: aa-cq-real-time-reports.md
             - name: PowerShell cmdlet reference for Auto attendants and Call queues
               href: call-queue-auto-attendant-cmdlets.md
             - name: Dial and voice reference
@@ -1405,12 +1407,14 @@ items:
                   href: rooms/manage-front-row.md
                 - name: Join third-party meetings
                   href: rooms/third-party-join.md
-                - name: Meetings with SIP and H.323 devices
+                - name: SIP and H.323 Calling with Teams Rooms
                   href: rooms/meetings-with-SIP-H323-devices.md
                 - name: Manage custom backgrounds on Android
                   href: rooms/custom-backgrounds-android.md
                 - name: Manage custom backgrounds on Windows
                   href: rooms/custom-backgrounds.md
+                - name: Digital signage
+                  href: rooms/digital-signage.md                  
                 - name: Join meetings with QR codes
                   href: rooms/teams-rooms-qr-codes.md
                 - name: Multi-Stream IntelliFrame
@@ -1423,8 +1427,6 @@ items:
                   href: rooms/voice-and-face-recognition.md
                 - name: Voice recognition controls for Intelligent speakers
                   href: rooms/voice-recognition.md
-            - name: Find devices with unsupported licenses
-              href: rooms/license-check.md
             - name: Use the recovery tool
               href: rooms/recovery-tool.md
             - name: Known issues
@@ -1513,6 +1515,8 @@ items:
                       href: devices/check-in-and-room-release.md
                     - name: Reserve rooms with a QR code
                       href: devices/reserving-rooms-with-a-qr-code.md
+                    - name: Custom backgrounds
+                      href: devices/custom-background-panels.md
         - name: SIP gateways
           items:
             - name: Plan for SIP Gateway
@@ -1589,6 +1593,8 @@ items:
           href: manage-praise-app.md
         - name: Manage the Approvals app
           href: approval-admin.md
+        - name: Manage the Queues app
+          href: manage-queues-app.md
         - name: Manage the Shifts app
           href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
         - name: Shifts data FAQ       

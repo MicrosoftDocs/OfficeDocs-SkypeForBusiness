@@ -25,7 +25,9 @@ ms.localizationpriority: high
 New VDI solution for Teams is a new architecture for optimizing the delivery of multimedia workloads in virtual desktops.
 
 > [!IMPORTANT]
-> In order to participate on the public preview, administrators must move users to the public preview channel as described [in this article](public-preview-doc-updates.md).
+> The rollout to General Availability started on August 27th 2024, and will reach 100% coverage in the next few days for Azure Virtual Desktops and Windows 365. 
+>
+> For Citrix customers, in order to participate on the public preview, administrators must move users to the public preview channel as described [in this article](public-preview-doc-updates.md).
 
 ## Components
 
@@ -40,7 +42,7 @@ New VDI solution for Teams is a new architecture for optimizing the delivery of 
 
 |Requirement                       |Minimum version |
 |----------------------------------|----------------|
-|New Teams                         |24124.2315.2911.3357 (for Azure Virtual Desktop/Windows 365) </br>24165.1410.2974.6689 (for Citrix)                                                                                     |
+|New Teams                         |24193.1805.3040.8975 (for Azure Virtual Desktop/Windows 365) </br>24165.1410.2974.6689 (for Citrix)                                                                                     |
 |Azure Virtual Desktop/Windows 365 |Windows App: 1.3.252</br>Remote Desktop Client: 1.2.5405.0                                                |
 |Citrix                            |VDA: 2203 LTSR CU3 or 2305 CR</br>Citrix Workspace app: 2203 LTSR (any CU), 2402 LTSR, or 2302 CR          |
 |Endpoint                          |Windows 10 1809 (SlimCore minimum requirement)</br>GPOs must not block MSIX installations (see [Step 3: SlimCore MSIX staging and registration on the endpoint](#step-3-slimcore-msix-staging-and-registration-on-the-endpoint))</br>Minimum CPU: Intel Celeron (or equivalent) @ 1.10 GHz, 4 Cores, Minimum RAM: 4 GB |
@@ -49,7 +51,7 @@ New VDI solution for Teams is a new architecture for optimizing the delivery of 
 
 ### Step 1: Confirm prerequisites
 
-1. Make sure you have the new Microsoft Teams version 24124.2311.2896.3219 or higher (for Azure Virtual Desktop/Windows 365), and 24165.1410.2974.6689 or higher for Citrix.
+1. Make sure you have the new Microsoft Teams version 24193.1805.3040.8975 or higher (for Azure Virtual Desktop/Windows 365), and 24165.1410.2974.6689 or higher for Citrix.
 1. [Enable the new Teams policy](#microsoft-teams-powershell-policy-for-optimization) **if necessary** for a specific user group (it's enabled by default at a Global org-wide level).
 1. For Citrix, you must configure the **Virtual channel allow list** as described in the [Citrix Virtual channel allow list](#citrix-virtual-channel-allow-list) section of this article.
 
@@ -115,9 +117,13 @@ Some policies might change these registry keys and block app installation in you
 
 > [!NOTE]
 > [AppLocker](/windows/security/application-security/application-control/windows-defender-application-control/applocker/applocker-overview) or [Windows Defender Application Control](/windows/security/application-security/application-control/windows-defender-application-control/wdac-and-applocker-overview) can also prevent MSIX package installation.
+>
+> AppLocker is a defense-in-depth security feature and not considered a defensible [Windows security feature](https://www.microsoft.com/msrc/windows-security-servicing-criteria). [Windows Defender Application Control](/windows/security/threat-protection/windows-defender-application-control/wdac-and-applocker-overview) should be used when the goal is to provide robust protection against a threat and there are expected to be no by-design limitations that would prevent the security feature from achieving this goal.
 
 > [!IMPORTANT]
 > Make sure there's no blocking configuration or policy, or add an exception for SlimCore MSIX packages in Local Security Policy -> Application Control Policies -> AppLocker.
+>
+> AppLocker can't process trailing wildcards, unlike Windows Defender Application Control. Since SlimCoreVdi Packages contain a version-specific PackageFamilyName (for example, Microsoft.Teams.SlimCoreVdi.win-x64.2024.36_8wekyb3d8bbwe), customers can add AppX or MSIX exclusions by relying on the PublisherID 8wekyb3d8bbwe instead.
 
 ## Verifying that the end point is optimized
 
@@ -169,7 +175,7 @@ Status            : Ok
 > [!IMPORTANT]
 > Microsoft stores up to 12 versions of SlimCoreVdi for compatibility purposes, and in case the user accesses different VDI environments (such as persistent, where new Teams auto-updates itself, and non-persistent, where new Teams auto-updates are disabled).
 
-If you're optimized, you can see MsTeamsVdi.exe running on your endpoint for Azure Virtual Desktop/W365 or Citrix.
+If you're optimized, you can see MsTeamsVdi.exe running on your endpoint for Azure Virtual Desktop/W365 (as a child process of msrdc.exe) or Citrix (as a child process of wfica32.exe). When using Process Explorer, If you select msrdc.exe (or wfica32.exe), select **Show the lower pane** under **View** and switch to the DLL tab, you can also see the Plugin (MsTeamsPluginAvd.dll or MsTeamsPluginCitrix.dll) being loaded. This action is a useful troubleshooting step in case you're not getting the new optimization.
 
 If you enable the bottom pane and switch to the DLL tab, you can also see the Plugin being loaded. This action is a useful troubleshooting step in case you're not getting the new optimization.
 
@@ -195,7 +201,7 @@ Make sure the user's device has network connectivity (UDP and TCP) to endpoint I
 
 |ID  |Category          |ER  |Addresses    |Ports                       |Notes |
 |----|------------------|----|-------------|----------------------------|------|
-|11  |Optimize required |Yes |13.107.64.0/18, 52.112.0.0/14, 52.122.0.0/15, 2603:1063::/38 |UDP: 3478, 3479, 3480, 3481 |Media Processors and Transport Relay 3478 (STUN), 347 (Audio), 3480 (Video), 3481 (Screenshare) |
+|11  |Optimize required |Yes |13.107.64.0/18, 52.112.0.0/14, 52.122.0.0/15, 2603:1063::/38 |UDP: 3478, 3479, 3480, 3481 |Media Processors and Transport Relay 3478 (STUN), 3479 (Audio), 3480 (Video), 3481 (Screenshare) |
 |12  |Allow required    |Yes |`*.lync.com`, `*.teams.microsoft.com`, `teams.microsoft.com` 13.107.64.0/18, 52.112.0.0/14, 52.122.0.0/15, 52.238.119.141/32, 52.244.160.207/32, 2603:1027::/48, 2603:1037::/48, 2603:1047::/48, 2603:1057::/48, 2603:1063::/38, 2620:1ec:6::/48, 2620:1ec:40::/42 |TCP: 443, 80                |      |
 |47  |Default required  |No  |*.office.net |TCP: 443, 80                |Used for SlimCore downloads and background effects |
 |127 |Default required  |No  |*.skype.com  |TCP: 443, 80                |      |
@@ -248,7 +254,7 @@ Implement QoS settings for endpoints and network devices and determine how you w
   |App or screen sharing |50,040 = 50,059          |TCP/UDP  |18         |Assured Forwarding (AF41) |
 - For information on configuring DSCP markings for Windows endpoints, see [Implement QoS in Teams clients](QoS-in-Teams-clients.md).
   > [!NOTE]
-  > Any endpoint-based marking must be applied to MsTeamsVdi.exe, the process that handles all multimedia offloading on the user's device.
+  > Any endpoint-based marking must be applied to MsTeamsVdi.exe, the process that handles all multimedia offloading on the user's device. Refer to the [Playbook document](https://aka.ms/teams-vdi-2.0-playbook) for more info on QoS.
 - For information on implementing QoS for routers, see your manufacturer's documentation.
 - Setting QoS on network devices might include some or all of:
   - using port-based Access Control Lists (ACLs)
@@ -303,11 +309,12 @@ This policy is now expanded with an additional argument as the only configuratio
 
 The new solution for VDI stores user-specific data on the endpoint in the following locations, depending on your vendor:
 
-- `C:\users\<user>\AppData\Roaming\Microsoft\TeamsVDI\avd-default-<cloudname>\`
-- `C:\users\<user>\AppData\Roaming\Microsoft\TeamsVDI\citrix-default-<cloudname>\`
+- `C:\users\<user>\AppData\Local\Microsoft\TeamsVDI\avd-default-<cloudname>\`
+- `C:\users\<user>\AppData\Local\Microsoft\TeamsVDI\citrix-default-<cloudname>\`
 
 > [!IMPORTANT]
-> Locked-down thin clients must allow these locations to be read/write, otherwise the new optimization might fail.
+> Locked-down thin clients must allow these locations to be read/write, otherwise the new optimization might fail. For older Windows 10 1809 Thin Clients (such as Dell Wyse 5070 and similar models), the folder location for SlimCore profile is
+`C:\Users\<user>\AppData\Local\Packages\Microsoft.Teams.SlimCoreVdi.win-<architecture>.<version>_8wekyb3d8bbwe\LocalCache\`.
 
 Logs, configurations, and AI or ML models (used in noise suppression, bandwidth estimation, etc.) are saved in this location. If these folders are purged after a user signs out (for example, locked-down thin clients without roaming profiles), MsTeamsVdi.exe will recreate them and download the user-specific configuration (about 6 MB of data).
 
@@ -436,7 +443,7 @@ The code logged here needs to be mapped using this table:
 |0          |0          |OK                                 |Special code for 'ConnectedNoPlugin' Telemetry Messages. |
 |5          |43         |ERROR_ACCESS_DENIED                |MsTeamsVdi.exe process failed at startup. Could be caused by BlockNonAdminUserInstall being enabled. Or the endpoint could be busy registering multiple MSIX packages after a user logon and it didn't finish registering SlimCoreVdi. |
 |404        |3235       |HTTP_STATUS_NOT_FOUND              |Publishing issue: SlimCore MSIX package isn't found on CDN. |
-|1260       |10083      |ERROR_ACCESS_DISABLED_BY_POLICY    |This error usually means that Windows Package Manager can't install the SlimCore MSIX package. Event Viewer can show the hex error code 0x800704EC. AppLocker Policies can cause this error code. You can either disable AppLocker, or add an exception for SlimCoreVdi packages in Local Security Policy -> Application Control Policies -> AppLocker. Check 'Step 3' under "Optimizing with new VDI solution for Teams". |
+|1260       |10083      |ERROR_ACCESS_DISABLED_BY_POLICY    |This error usually means that Windows Package Manager can't install the SlimCore MSIX package. Event Viewer can show the hex error code 0x800704EC. AppLocker Policies can cause this error code. You can either disable AppLocker, or add an exception for SlimCoreVdi packages in Local Security Policy -> Application Control Policies -> AppLocker. Check [Step 3](#step-3-slimcore-msix-staging-and-registration-on-the-endpoint) under "Optimizing with new VDI solution for Teams". |
 |1460       |11683      |ERROR_TIMEOUT                      |MsTeamsVdi.exe process failed at startup (60-second timeout). |
 |1722       |           |RPC_S_SERVER_UNAVAILABLE           |'The RPC server is unavailable' MsTeamsVdi.exe related error. |
 |2000       |16002      |No Plugin                          |Endpoint doesn't have the MsTeamsPlugin, or if it has it, it didn't load (check with Process Explorer). |
@@ -450,8 +457,7 @@ The code logged here needs to be mapped using this table:
 |15615      |1951       |ERROR_INSTALL_POLICY_FAILURE       |SlimCore MSIX related error. To install this app, you need either a Windows developer license, or a sideloading-enabled system. AllowAllTrustedApps regkey might be set to 0? |
 |15616      |           |ERROR_PACKAGE_UPDATING             |SlimCore MSIX related error 'The application cannot be started because it is currently updating'. |
 |15700      |           |APPMODEL_ERROR_NO_PACKAGE          |The process has no package identity. There's no alias for MsTeamsVdi in %LOCALAPPDATA%\Microsoft\WindowsApps. [Feedback Hub](https://support.microsoft.com/windows/send-feedback-to-microsoft-with-the-feedback-hub-app-f59187f8-8739-22d6-ba93-f66612949332) logs are needed while reproducing the error (make sure you select **Developer Platform** as the category and **App deployment** as the subcategory) |
-|16389      |           |E_FAIL reported by Package Manager |Usually the same as Load error code 5 (ERROR_ACCESS_DENIED).
-Most likely caused by the BlockNonAdminUserInstall policy when the user is not an Admin. Check [this link](/windows/client-management/mdm/policy-csp-applicationmanagement#blocknonadminuserinstall) for more details. |
+|16389      |           |E_FAIL reported by Package Manager |Usually the same as Load error code 5 (ERROR_ACCESS_DENIED). Most likely caused by the BlockNonAdminUserInstall policy when the user is not an Admin. Check [this link](/windows/client-management/mdm/policy-csp-applicationmanagement#blocknonadminuserinstall) for more details. |
 
 ## Using Event Viewer on the VM for troubleshooting
 

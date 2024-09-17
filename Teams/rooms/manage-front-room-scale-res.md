@@ -1,7 +1,7 @@
 ---
 title: Remotely configure layout, scale, and resolution on Teams Rooms displays
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 ms.reviewer: yoojinjung
 ms.date: 07/15/2024
 manager: pamgreen
