@@ -29,6 +29,9 @@ In Microsoft Teams, users can view analytics for teams and channels that they're
 
 Users can filter any of these views to see data for a specified time period.
 
+> [!Note]
+> The analytics tab is not available to users in the DoD.
+
 ## View cross-team analytics
 
 1. In Teams, at the bottom of the teams list, next to **Join or create a team**, select **Manage teams**.
