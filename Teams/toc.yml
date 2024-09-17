@@ -1471,7 +1471,7 @@ items:
             href: rooms/managed-meeting-rooms-portal.md
           - name: Signal settings
             href: rooms/signal-settings.md  
-          - name: Remote access a Teams Room console
+          - name: Remotely access a Teams Room console
             href: rooms/remotely-access-teams-rooms.md 
           - name: Managed updates
             href: rooms/update-management.md 
@@ -1515,7 +1515,7 @@ items:
                       href: devices/check-in-and-room-release.md
                     - name: Reserve rooms with a QR code
                       href: devices/reserving-rooms-with-a-qr-code.md
-                    - name: Custom backgrounds
+                    - name: Manage custom backgrounds
                       href: devices/custom-background-panels.md
         - name: SIP gateways
           items:
@@ -1538,7 +1538,7 @@ items:
             - name: Remote sign in and sign out
               href: devices/remote-sign-in-and-sign-out.md
             - name: Deploy Teams phones and Teams displays using Intune
-              href: devices/phones-displays-deploy.md
+              href: devices/phones-panels-deploy.md
             - name: Authentication best practices for Android devices
               href: devices/authentication-best-practices-for-android-devices.md
             - name: AOSP device management 
