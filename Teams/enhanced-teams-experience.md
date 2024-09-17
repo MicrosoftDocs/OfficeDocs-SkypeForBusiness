@@ -250,8 +250,8 @@ Teams Premium provides custom Mesh experience capabilities for your users, such 
 
 **Intelligent call recap** provides AI-powered insights and recaps to Public Switched Telephone Network (PSTN) and 1:1 Teams calls.
 
-- To use this feature for PSTN calls, you must assign a Teams Phone license and either Teams Premium license or a Copilot for Microsoft 365 license to users. For more information on Teams Phone licensing, see [Microsoft Teams add-on licenses](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
-- To use this feature with 1:1 Teams calls, you must assign a Teams Premium license or Copilot for Microsoft 365 license to users.
+- To use this feature for PSTN calls, you must assign a Teams Phone license and either Teams Premium license or a Microsoft 365 Copilot license to users. For more information on Teams Phone licensing, see [Microsoft Teams add-on licenses](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+- To use this feature with 1:1 Teams calls, you must assign a Teams Premium license or Microsoft 365 Copilot license to users.
 
 ### Queues app
 

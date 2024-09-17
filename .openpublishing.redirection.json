@@ -5178,6 +5178,10 @@
 {  
   "source_path": "Teams/rooms/rooms/license-check.md",
   "redirect_url": "/microsoftteams/rooms/rooms-licensing",
+},  
+{
+  "source_path": "Teams/teams-analytics-and-reports/pstn-blocked-users-report.md",
+  "redirect_url": "/microsoftteams/teams-analytics-and-reports/teams-reporting-reference",
   "redirect_document_id": false
 }
 ]
