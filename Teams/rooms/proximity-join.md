@@ -42,14 +42,14 @@ Admins have the ability to configure each Microsoft Teams Room to emit either Bl
 Like most Teams Rooms on Windows features, you can update the settings of your device with the Teams Rooms XML configuration file. The XML configuration file lets you remotely deploy configuration changes to one or more Teams Rooms on Windows devices in your organization. For more information, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](/microsoftteams/rooms/xml-config-file).
 
 
-|Element|Type|Level|Usage|
+|Parmater|Type|Level|Usage|
 | -------- | -------- | -------- | -------- |
-|<BluetoothAdvertisementEnabled>|Boolean ❷|First ❶|Enabled by default.|
-|<AutoAcceptProximateMeetingInvitations>|Boolean ❷|First ❶|If true, proximity based meeting invitations via Bluetooth are automatically accepted. Enabled by default.|
-|<UltrasoundAdvertisementEnabled>|Boolean ❷|First ❶|Enabled by default.|
-|<UltrasoundAutoAcceptProximateMeetingInvitations>|Boolean ❷|First ❶|If true, proximity based meeting invitations via Bluetooth are automatically accepted. Enabled by default.|
-| <UltrasoundSpeaker> | ? | ? | Device name (string) is the acceptable value. No default value. If empty, MTR uses console speaker provided it's a supported speaker |
-| <UltrasoundSpeakerVolume> | ? | ? | Value can be from 0 to 100, default value is 0 |
+|BluetoothAdvertisementEnabled|Boolean ❷|First ❶|Enabled by default.|
+|AutoAcceptProximateMeetingInvitations|Boolean ❷|First ❶|If true, proximity based meeting invitations via Bluetooth are automatically accepted. Enabled by default.|
+|UltrasoundAdvertisementEnabled|Boolean ❷|First ❶|Enabled by default.|
+|UltrasoundAutoAcceptProximateMeetingInvitations|Boolean ❷|First ❶|If true, proximity based meeting invitations via Bluetooth are automatically accepted. Enabled by default.|
+|UltrasoundSpeaker| ? | ? | Device name (string) is the acceptable value. No default value. If empty, MTR uses console speaker provided it's a supported speaker |
+|UltrasoundSpeakerVolume| ? | ? | Value can be from 0 to 100, default value is 0 |
 
 
 ### Pro Management Portal
