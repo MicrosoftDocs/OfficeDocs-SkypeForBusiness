@@ -7,7 +7,7 @@ ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.reviewer: divyasrirk
-ms.date: 11/30/2023
+ms.date: 09/17/2024
 search.appverid: MET150
 description: In this article, you will learn about how to archive or permanently delete a team in Microsoft Teams.
 ms.localizationpriority: medium
