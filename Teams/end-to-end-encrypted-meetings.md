@@ -52,7 +52,7 @@ Some features aren't available during an end-to-end encrypted meeting, including
 
 - Breakout rooms
 
-- Copilot for Teams meetings
+- Microsoft 365 Copilot in Teams meetings and events
 
 - Excel Live
 

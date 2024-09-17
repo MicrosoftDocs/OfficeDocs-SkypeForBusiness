@@ -1,7 +1,7 @@
 ---
 title: Devices for Teams
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: divank
 ms.date: 08/21/2024
@@ -11,7 +11,7 @@ ms.subservice: itpro-devices
 ms.collection: 
   - teams-rooms-devices
   - Teams_ITAdmin_Devices
-  - Tier3
+  - Tier2
 audience: Admin
 appliesto: 
   - Microsoft Teams
@@ -74,6 +74,7 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 | Yealink MP58 | `122.15.0.135 `|August 15, 2027  | 12 |
 | Yealink CP965 | `143.15.0.48 `|August 15, 2027   | 12 |
 | Yealink EXP50 supported on MP56, MP58| For each supported device model, see firmware version | August 15, 2027 | N/A |
+| Yealink EXP50 supported on MP56 E2, MP58 E2 | 176.15.0.19 | August 15, 2027 | N/A |
 
 
 ## Certified Teams Rooms on Android
@@ -128,7 +129,7 @@ See [Microsoft Teams phones feature set](phones-for-teams.md) for information on
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications                            | Release date|
 |:----------------|:-------------------|:----------------------------|:---------------------------------------------------------------------------------------------------------------|:------------------------------------------|
 | C448HD/C450HD | `1.19.712` | `N/A`| Teams client: `1449/1.0.94.2024062301` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| July 22, 2024|
-| C435HD/C455HD/C470HD | `2.3.423` | `1.19.584`| Teams client: `1449/1.0.94.2024062010` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| July 22, 2024|
+| C435HD/C455HD/C470HD | `2.3.423` | `1.19.584`| Teams client: `1449/1.0.94.2024062010` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| Recalled|
 | C435HD/C455HD/C470HD | `2.3.410` | `1.19.584`| Teams client: `1449/1.0.94.2024061301` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| Recalled|
 | C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.705` | `1.19.456`| Teams client: `1449/1.0.94.2024011003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| February 19, 2024|
 | C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.642` | `N/A`| Teams client: `1449/1.0.94.2024011601` <br> Company Portal: `5.0.6061.0` <br> Admin Agent: `1.0.0.202310260109.product`| February 8, 2024|

@@ -1,7 +1,7 @@
 ---
 title: Set up and manage Teams Rooms on Android custom backgrounds
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: henrikalim
 ms.date: 07/10/2024

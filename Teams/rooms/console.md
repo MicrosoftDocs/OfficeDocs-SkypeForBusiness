@@ -1,10 +1,10 @@
 ---
 title: Create a Teams Rooms for Windows image
-ms.author: tonysmit
 author: mstonysmith
-ms.reviewer: Travis-Snoozy
+ms.author: tonysmit
+ms.reviewer: travis-snoozy
 manager: pamgreen
-ms.date: 08/21/2024
+ms.date: 08/22/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams

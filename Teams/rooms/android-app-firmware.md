@@ -1,9 +1,9 @@
 ---
 title: Teams Rooms on Android app and firmware versions
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 ms.reviewer: divank
-ms.date: 08/21/2024
+ms.date: 09/17/2024
 manager: pamgreen
 audience: Admin
 ms.topic: article
@@ -12,7 +12,7 @@ ms.subservice: itpro-rooms
 ms.collection:
   - M365-collaboration
   - teams-rooms-devices
-  - Tier3
+  - Tier2
 f1.keywords:
   - NOCSH
 ms.localizationpriority: medium
@@ -177,6 +177,8 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 
 | Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
+| Jabra Panacast 50 VBS | `3.6.0-31` |  N/A|  `1449/1.0.96.2024080804` | `5.0.6152.0` | `1.0.0.202402202353.product` | September 11, 2024|
+| Jabra Panacast 50 TC | `3.6.0-31` | N/A | `1449/1.0.96.2024080804` | `5.0.6152.0` | `1.0.0.202402202353.product` | September 11, 2024|
 | Jabra Panacast 50 VBS | `2.8.0-15` |  N/A|  `1449/1.0.96.2024020802` | `5.0.5484.0` | `1.0.0.202402202353.product` | May 20, 2024|
 | Jabra Panacast 50 TC | `2.8.0-15` | N/A | `1449/1.0.96.2024020802` | `5.0.5484.0` | `1.0.0.202402202353.product` | May 20, 2024|
 | Jabra Panacast 50 VBS | `1.17.4-1` |  N/A|  `1449/1.0.96.2023062301` | `5.0.5484.0` | `1.0.0.202306202019.product` | January 30, 2024|
@@ -347,6 +349,13 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 #### Yealink
 | Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
+| Yealink MeetingBar A10 | `278.320.0.48` | N/A | `1449/1.0.96.2024080804`| `5.0.6152.0` | `1.0.0.202402202353.product` | September 17, 2024 |
+| Yealink MeetingBar A20 | `133.320.0.46` | N/A | `1449/1.0.96.2024080804`| `5.0.6152.0` | `1.0.0.202402202353.product` | September 17, 2024 |
+| Yealink MeetingBar A30 | `133.320.0.46` | N/A | `1449/1.0.96.2024080804`| `5.0.6152.0` | `1.0.0.202402202353.product` | September 17, 2024 |
+| Yealink MeetingBar A40 | `289.320.0.31` | N/A | `1449/1.0.96.2024080804`| `5.0.6152.0` | `1.0.0.202402202353.productt` | September 17, 2024 |
+| Yealink MeetingBoard 65" | `155.15.0.71` | N/A | `1449/1.0.96.2024080804`| `5.0.6152.0` | `1.0.0.202402202353.product` | September 17, 2024 |
+| Yealink MeetingBoard 86" | `155.15.0.71` |N/A | `1449/1.0.96.2024080804`| `5.0.6152.0` | `1.0.0.202402202353.product` | September 17, 2024 |
+| Yealink CTP18 | `137.320.0.53`   | N/A | `1449/1.0.96.2024080804`| `5.0.6152.0` | `1.0.0.202402202353.product` | September 17, 2024 |
 | Yealink MeetingBar A10 | `278.320.0.36` | N/A | `1449/1.0.96.2023111001`| `5.0.6061.0` | `1.0.0.202306202019.product` | February 15, 2024 |
 | Yealink MeetingBar A20 | `133.320.0.39` | N/A | `1449/1.0.96.2023111001`| `5.0.6061.0` | `1.0.0.202306202019.product` | February 15, 2024 |
 | Yealink MeetingBar A30 | `133.320.0.39` | N/A | `1449/1.0.96.2023111001`| `5.0.6061.0` | `1.0.0.202306202019.product` | February 15, 2024 |

@@ -522,7 +522,7 @@ Meeting policies are used to control what features are available in meetings org
 |Store recordings outside your country/region|Off|If you want to store meeting recordings outside of your country/region, turn on both this setting and **Meeting recording**. This setting isn't applicable to recordings stored in OneDrive or SharePoint.|
 |Transcription|Off|Controls whether captions and transcription features are available during playback of meeting recordings. The person who started the recording needs this setting turned on for these features to work with their recording.|
 |Live captions|Off, but organizers and co-organizers can turn them on|This setting is a per-user policy and applies during a meeting. This setting controls whether the **Turn on live captions** option is available for the user to turn on and turn off live captions in meetings that the user attends.|
-|Copilot|On only with retained transcript|Controls the default value for Copilot in your organizers’ meeting options.|
+|Copilot|On with saved transcript required| When organizers with this policy create meetings, the default value for Copilot in their meeting options is **During and after the meeting**. This option is enforced; organizers can't change this value.|
 
 **PowerShell-only recording & transcription policies**
 
@@ -769,7 +769,7 @@ Meeting templates can be used to create meetings that are available to users wit
 |:-----|:-----|:-----|
 |Record meetings automatically |Off|When **On**, meetings are automatically recorded. |
 |Who can record|Only organizers and co-organizers| Only organizers and co-organizers can record meetings.|
-|Allow Copilot|During and after the meeting|Copilot is enabled with a persisted transcript.|
+|Allow Copilot|During and after the meeting|Microsoft 365 Copilot in Teams meetings and events is enabled with a persisted transcript.|
 
 #### Roles template
 

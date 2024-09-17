@@ -1,10 +1,10 @@
 ---
 title: Set up an Android mobile phone as a common area phone
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: vijagan
-ms.date: 08/25/2023
+ms.reviewer: prashibadkur
+ms.date: 08/25/2024
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
