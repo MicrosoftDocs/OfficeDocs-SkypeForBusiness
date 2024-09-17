@@ -6,7 +6,7 @@ manager: prkosh
 ms.topic: conceptual
 ms.service: msteams
 ms.subservice: teams-apps
-ms.date: 05/09/2024
+ms.date: 09/04/2024
 ms.reviewer: mhayrapetyan
 search.appverid: 
 description: Learn about app permission policies and setup policies that are used to manage apps in Microsoft Teams.
@@ -20,7 +20,7 @@ ms.collection:
 
 # Know how to manage access to and install Teams apps
 
-Microsoft Teams uses app policies to govern access to and use of all apps and upload of custom apps. App policies help Teams Administrator and Global Administrators control the following app behavior:
+Microsoft Teams uses app policies to govern access to and use of all apps and upload of custom apps. App policies help Teams Administrator control the following app behavior:
 
 * Configure the access of apps for each individual user or for a group of users. You control the apps that each user can use.
 

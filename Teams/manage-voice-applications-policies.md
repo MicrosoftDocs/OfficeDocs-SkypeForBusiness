@@ -8,7 +8,7 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: admin
-ms.date: 07/31/2024
+ms.date: 09/16/2024
 ms.collection: 
 - M365-voice
 - m365initiative-voice
@@ -26,7 +26,7 @@ description: Learn how to use and manage voice applications policies in Microsof
 # Manage voice applications policies in Microsoft Teams
 
 > [!NOTE]
-> Some of these features are in limited public preview. For more information, contact your Microsoft customer success manager. Information in this article is subject to change.
+> Most of these features are now in public preview. See the specific feature for more details. Information in this article is subject to change prior to general availability.
 
 This article is for IT Pros and administrators who want to delegate Auto attendant and Call queue change capabilities to users in their organization.
 
@@ -88,38 +88,41 @@ To individually assign a custom voice application policy to users, you can use t
 
 In addition to creating a TeamsVoiceApplicationsPolicy and assigning it to users, a user must also be assigned as an [Authorized user](aa-cq-authorized-users.md) to at least one auto attendant or call queue.
 
-If you only assign a voice application policy to a user and don't assign them as an authorized user to at least one auto attendant or call queue, the user can't perform the actions described in [Voice applications policy settings](#voice-applications-policy-settings). The reverse is also true - if you only assign a user as an Authorized user to at least one auto attendant or call queue but you don't assign them a voice applications policy, the user can't perform the actions you delegate.
+A user must be an Authorized user to at least one auto attendant or call queue, and must have a voice applications policy assigned to perform the actions described in [Voice applications policy settings](#voice-applications-policy-settings). 
 
 To learn more about the different ways that you can assign policies to users, see [Assign policies to your users in Teams](policy-assignment-overview.md).
 
 ## Voice applications policy settings
 
-Voice applications policies control what configuration changes and actions an authorized user can make to the auto attendants and call queues they're authorized for and what reports authorized users have access to. The following settings are available:
+Voice applications policies control the configuration changes and actions an authorized user can make to the auto attendants and call queues they're authorized for. In addition, they also control which real-time and historical reports authorized users have access to. The following settings are available:
 
 ### Auto attendants - Features
 
-|Teams voice applications policy setting|Description|PowerShell parameter|Teams Premium required<sup>1</sup>|
-|-----------------------|--------------------------------|---------------------|---------------------|
-|Business hours greeting|This setting allows authorized users to change the Business Hours Greeting.|AllowAutoAttendantBusinessHoursGreetingChange|No|
-|After hours greeting|This setting allows authorized users to change the After Hours Greeting.|AllowAutoAttendantAfterHoursGreetingChange|No|
-|Holiday greeting|This setting allows authorized users to change the Holiday Greeting.|AllowAutoAttendantHolidayGreetingChange|No|
-|Business hours|This setting allows authorized users to change the auto attendant business hours schedule.|AllowAutoAttendantBusinessHoursChange|Yes, Public Preview|
-|Business hours call routing|This setting allows authorized users to change the auto attendant business hours call flow.|AllowAutoAttendantBusinessHoursRoutingChange|Yes, Public Preview|
-|After hours call routing|This setting allows authorized users to change the auto attendant after hours call flow.|AllowAutoAttendantAfterHoursRoutingChange|Yes, Public Preview|
-|Holiday hours dates and hours |This setting allows authorized users to change the auto attendant holiday schedules.|AllowAutoAttendantHolidaysChange|Yes, Public Preview|
-|Holiday hours call routing|This setting allows authorized users to change the auto attendant holiday call flow.|AllowAutoAttendantHolidayRoutingChange|Yes, Public Preview|
+|Teams voice applications policy setting|Description                                                                        |PowerShell parameter                |Teams Premium required<sup>1</sup>|
+|---------------------------|-----------------------------------------------------------------------------------------------|----------------------------------------------|------------------------|
+|Business hours greeting    |This setting allows authorized users to change the Business Hours Greeting.                    |AllowAutoAttendantBusinessHoursGreetingChange |No, Generally Available |
+|After hours greeting       |This setting allows authorized users to change the After Hours Greeting.                       |AllowAutoAttendantAfterHoursGreetingChange    |No, Generally Available |
+|Holiday greeting           |This setting allows authorized users to change the Holiday Greeting.                           |AllowAutoAttendantHolidayGreetingChange       |No, Generally Available |
+|Time zone                  |This setting allows authorized users to change the Time zone.                                  |AllowAutoAttendantTimeZoneChange              |Yes<sup>3</sup> |
+|Language                   |This setting allows authorized users to change the Lanugage.                                   |AllowAutoAttendantLanguageChange              |Yes<sup>3</sup> |
+|Business hours             |This setting allows authorized users to change the auto attendant business hours schedule.     |AllowAutoAttendantBusinessHoursChange         |Yes, Public Preview     |
+|Holiday dates and hours    |This setting allows authorized users to change the auto attendant holiday schedule.<sup>2</sup>|AllowAutoAttendantHolidaysChange              |Yes, Public Preview     |
+|Business hours call routing|This setting allows authorized users to change the auto attendant business hours call flow.    |AllowAutoAttendantBusinessHoursRoutingChange  |Yes, Public Preview     |
+|After hours call routing|This setting allows authorized users to change the auto attendant after hours call flow.          |AllowAutoAttendantAfterHoursRoutingChange     |Yes, Public Preview     |
+|Holiday hours call routing|This setting allows authorized users to change the auto attendant holiday call flow.            |AllowAutoAttendantHolidayRoutingChange        |Yes, Public Preview     |
 
 Notes
 
 1. The user requires a Teams Premium license and Queues app to access this functionality.
+2. In order to change the holiday schedule, the user must be authorized for all auto attendants that reference the holiday.
+3. This option is not currently available in Queues app.
    
 ### Auto attendant - Reporting
 
-|Teams voice applications policy setting|Description|PowerShell parameter|Teams Premium required<sup>1</sup>|
-|-----------------------|--------------------------------|---------------------|---------------------|
-|Real-time auto attendant metrics|This setting allows authorized users to access real-time auto attendant metrics. |RealTimeAutoAttendantMetricsPermission |Yes, Public Preview|
-|Historical auto attendant metrics using Power BI|This setting allows authorized users to access historical auto attendant metrics.|HistoricalAutoAttendantMetricsPermission|No|
-|Historical auto attendants metrics using Queues app|This setting allows authorized users to access historical auto attendant metrics.|HistoricalAutoAttendantMetricsPermission|Yes, Public Preview|
+|Teams voice applications policy setting             |Description                                                                      |PowerShell parameter           |Teams Premium required<sup>1</sup>|
+|----------------------------------------------------|---------------------------------------------------------------------------------|------------------------------------------|-----------------------|
+|Real-time auto attendant metrics   |This setting allows authorized users to access real-time auto attendant metrics. |RealTimeAutoAttendantMetricsPermission    |Yes, Public Preview    |
+|Historical auto attendant metrics  |This setting allows authorized users to access historical auto attendant metrics in Power BI and Queues App.|HistoricalAutoAttendantMetricsPermission  |Power BI - No, Generally Available<br>Queues App - Yes, Public Preview|
 
 Reporting values:
 
@@ -136,47 +139,50 @@ Notes
 
 ### Call queues - Features
 
-|Teams voice applications policy setting|Description|PowerShell parameter|Teams Premium required<sup>1</sup>|
-|-----------------------|--------------------------------|---------------------|---------------------|
-|Welcome greeting|This setting allows authorized users to change the Welcome Greeting.|AllowCallQueueWelcomeGreetingChange|No|
-|Music on Hold|This setting allows authorized users to change the Music on Hold.|AllowCallQueueMusicOnHoldChange|No|
-|Shared voicemail greeting for call overflow|This setting allows authorized users to change the Overflow Shared Voicemail Greeting.|AllowCallQueueOverflowSharedVoicemailGreetingChange|No|
-|Shared voicemail greeting for call timeout|This setting allows authorized users to change the Timeout Shared Voicemail Greeting.|AllowCallQueueTimeoutSharedVoicemailGreetingChange|No|
-|Shared voicemail greeting for no agents|This setting allows authorized users to change the No Agents Shared Voicemail Greeting.|AllowCallQueueNoAgentSharedVoicemailGreetingChange|No|
-|Membership|This setting allows authorized users to change the agents who are part of the call queue.|AllowCallQueueMembershipChange|Yes, Public Preview<br>See note 2|
-|Conference mode|This setting allows authorized users to change the call queue conference mode setting.|AllowCallQueueConferenceModeChange|Yes, Public Preview|
-|Agent routing method|This setting allows authorized users to change the call queue agent routing (selection) method.|AllowCallQueueRoutingMethodChange|Yes, Public Preview|
-|Presence-based routing|This setting allows authorized users to change the call queue presence-based routing setting.|AllowCallQueuePresenceBasedRoutingChange|Yes, Public Preview|
-|Opt out (queue configuration)|This setting allows authorized users to change the call queue opt-out setting.|AllowCallQueueOptOutChange|Yes, Public Preview|
-|Routing for call overflow|This setting allows authorized users to change the call queue overflow handling.|AllowCallQueueOverflowRoutingChange|Yes, Public Preview|
-|Routing for call timeout|This setting allows authorized users to change the call queue timeout handling.|AllowCallQueueTimeoutRoutingChange|Yes, Public Preview|
-|Routing for no agents|This setting allows authorized users to change the call queue no agents handling.|AllowCallQueueNoAgentsRoutingChange|Yes, Public Preview|
+|Teams voice applications policy setting|Description                                                                                |PowerShell parameter          |Teams Premium required<sup>1</sup>|
+|------------------------------|----------------------------------------------------------------------------------------------------|-----------------------------------------|-----------------------|
+|Welcome greeting              |This setting allows authorized users to change the Welcome Greeting.                                |AllowCallQueueWelcomeGreetingChange      |No, Generally Available|
+|Music on Hold                 |This setting allows authorized users to change the Music on Hold.                                   |AllowCallQueueMusicOnHoldChange          |No, Generally Available|
+|Shared voicemail greeting for call overflow|This setting allows authorized users to change the Overflow Shared Voicemail Greeting. |AllowCallQueueOverflowSharedVoicemailGreetingChange|No, Generally Available|
+|Shared voicemail greeting for call timeout|This setting allows authorized users to change the Timeout Shared Voicemail Greeting.   |AllowCallQueueTimeoutSharedVoicemailGreetingChange|No, Generally Available|
+|Shared voicemail greeting for no agents|This setting allows authorized users to change the No Agents Shared Voicemail Greeting.    |AllowCallQueueNoAgentSharedVoicemailGreetingChange|No<sup>3</sup>|
+|Language                      |This setting allows authorized users to change the Language.                                        |AllowCallQueueLanguageChange             |Yes<sup>3</sup> |
+|Membership                    |This setting allows authorized users to change the agents who are part of the call queue.           |AllowCallQueueMembershipChange           |Yes, Public Preview<br>See note 2|
+|Conference mode               |This setting allows authorized users to change the call queue conference mode setting.              |AllowCallQueueConferenceModeChange       |Yes, Public Preview|
+|Agent routing method          |This setting allows authorized users to change the call queue agent routing (selection) method.     |AllowCallQueueRoutingMethodChange        |Yes, Public Preview|
+|Presence-based routing        |This setting allows authorized users to change the call queue presence-based routing setting.       |AllowCallQueuePresenceBasedRoutingChange |Yes, Public Preview|
+|Opt out (queue configuration) |This setting allows authorized users to change the call queue opt-out setting.                      |AllowCallQueueOptOutChange               |Yes, Public Preview|
+|Routing for call overflow     |This setting allows authorized users to change the call queue overflow handling.                    |AllowCallQueueOverflowRoutingChange      |Yes, Public Preview|
+|Routing for call timeout      |This setting allows authorized users to change the call queue timeout handling.                     |AllowCallQueueTimeoutRoutingChange       |Yes, Public Preview|
+|Routing for no agents         |This setting allows authorized users to change the call queue no agents handling.                   |AllowCallQueueNoAgentsRoutingChange      |Yes, Public Preview|
 
 Notes
 
 1. The user requires a Teams Premium license and Queues app to access this functionality.
 1. If the Call queue uses a distribution list, security group, Microsoft 365 group or a Microsoft Teams channel the owner of these can add or remove agents without a Teams Premium license or Queues app.
+1. This option is not currently available in Queues app.
 
 ### Call queues - Agent actions
 
-|Teams voice applications policy setting|Description|PowerShell parameter|Teams Premium required<sup>1</sup>|
-|-----------------------|--------------------------------|---------------------|---------------------|
-|Opt agent in/out of queue|This setting allows authorized users to change an agent's opt-in status.|AllowCallQueueAgentOptChange|Yes, Public Preview|
+|Teams voice applications policy setting|Description                                                      |PowerShell parameter     |Teams Premium required<sup>1</sup>|
+|--------------------------------|------------------------------------------------------------------------|--------------------------------------|---------------------|
+|Opt agent in/out of queue       |This setting allows authorized users to change an agent's opt-in status.|AllowCallQueueAgentOptChange          |Yes, Public Preview  | 
+|Agent monitor mode              |This setting is not currently available for authorized users.           |CallQueueAgentMonitorMode             |Yes<sup>2</sup>      |
+|Agent monitor notification mode |This setting is not currently available for authorized users.           |CallQueueAgentMonitorNotificationMode |Yes<sup>2</sup>      |
 
 Notes
 
 1. The user requires a Teams Premium license and Queues app to access this functionality.
+1. This option is not currently available in Queues app.
    
 ### Call queues - Reporting
 
 |Teams voice applications policy setting|Description|PowerShell parameter|Teams Premium required<sup>1</sup>|
-|-----------------------|--------------------------------|---------------------|---------------------|
-|Real-time call queue metrics|This setting allows authorized users to access real-time call queue metrics.|RealTimeQueueMetricsPermission|Yes, Public Preview|
-|Real-time agent metrics|This setting allows authorized users to access real-time call queue agent metrics.|RealTimeAgentMetricsPermission|Yes, Public Preview|
-|Historical call queue metrics using Power BI|This setting allows authorized users to access historical call queue metrics in Power BI.|HistoricalQueueMetricsPermission|No|
-|Historical agent metrics using Power BI|This setting allows authorized users to access historical call queue agent metrics in Power BI.|HistoricalAgentMetricsPermission|No|
-|Historical call queue metrics using Queues app|This setting allows authorized users to access historical call queue metrics in the Queues app.|HistoricalQueueMetricsPermission|Yes, Public Preview|
-|Historical agent metrics using Queues app|This setting allows authorized users to access historical call queue agent metrics in the Queues app.|HistoricalAgentMetricsPermission|Yes, Public Preview|
+|------------------------------------------------|--------------------------------|---------------------|---------------------|
+|Real-time call queue metrics   |This setting allows authorized users to access real-time call queue metrics.                            |RealTimeQueueMetricsPermission|Yes, Public Preview|
+|Real-time agent metrics        |This setting allows authorized users to access real-time call queue agent metrics.                      |RealTimeAgentMetricsPermission|Yes, Public Preview|
+|Historical call queue metrics  |This setting allows authorized users to access historical call queue metrics in Power BI and Queues App.|HistoricalQueueMetricsPermission|Power BI - No, Generally Available<br>Queues App - Yes, Public Preview|
+|Historical agent metrics       |This setting allows authorized users to access historical call queue agent metrics in Power BI and Queues App.|HistoricalAgentMetricsPermission|Power BI - No, Generally Available<br>Queues App - Yes, Public Preview|
 
 Reporting values:
 

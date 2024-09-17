@@ -3,7 +3,7 @@ title: Meeting room guidance for Teams
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.date: 10/04/2023
+ms.date: 09/16/2024
 ms.reviewer: sohailta
 ms.topic: article
 audience: Admin

@@ -114,7 +114,7 @@ Schools can allow teachers to update manually the parent contact information cor
 
 1. The teacher opens the parent app for the class inside the class team. 
 
-1. The teacher can add or edit existing parent contact details. To view the educator flow, see [Communicate with guardians in Microsoft Teams](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e). 
+1. The teacher can add or edit existing parent contact details. To view the educator flow, see [Communicate with guardians in Microsoft Teams](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e#ID0EDDBHD). 
 
 1. Once the request is submitted, it is sent to admins for approval. For more information about Approvals app, see [What is Approvals?](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3) and [Manage the Approvals app in Microsoft Teams](approval-admin.md). 
 

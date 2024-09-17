@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
-ms.date: 12/05/2023
+ms.date: 09/17/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -42,21 +42,23 @@ Given the prerequisites involved, Dial by Name or Extension must be explicitly e
 
 ### Maximum directory size
 
-There isn't a limit on the number of Active Directory users Dial by Name and Dial by Extension can support when a caller searches for a specific person. A caller can enter partial or full names (FirstName + LastName, and also LastName + FirstName), but needs the full extension number. The maximum name list size that a single Auto attendant can support using speech recognition is 80,000 users.
+There's no limit on the number of Active Directory users that search can support when a caller searches for a specific person. A caller can enter partial or full names (FirstName + LastName or LastName + FirstName), but they must enter a full extension number.
   
 |Input type|Search format|Maximum number of users in an organization|
 |:-----|:-----|:-----|
 |DTMF (keypad entry) |Partial  <br/> FirstName + LastName  <br/> LastName + FirstName |No limit  |
-|Speech (voice input) |FirstName  <br/> LastName  <br/> FirstName + LastName  <br/> LastName + FirstName  | 80,000 users |
+|Speech (voice input) |FirstName  <br/> LastName  <br/> FirstName + LastName  <br/> LastName + FirstName  | No limit  |
 
 > [!NOTE]
-> If you're using Dial by Name with speech recognition, but your organization's Active Directory is larger than 80,000 users and you haven't limited the scope of Dial by Name using [Dial Scope](create-a-phone-system-auto-attendant.md?tabs=dial-scope) feature, Dial by Name still works for your callers using a phone keypad, and voice inputs are available for all other scenarios. You can use the Dial Scope feature to narrow down the names that are reachable by changing the scope of Dial by Name for a particular Auto attendant.
+>  You can use the [Dial Scope](create-a-phone-system-auto-attendant.md?tabs=dial-scope) feature to narrow down the names that are reachable by changing the scope for a particular Auto attendant.
 
 ### Search Considerations
 
-As of late May 2024, Auto attendant search is a part of the main Address Book search of Microsoft. Exchange Address Book settings affect searches performed via the Auto attendant service. For example, if some users in your Address Book settings have the property `-HiddenFromAddressListsEnabled = $true`, then Auto attendant search won't return these users. This is similar to the Address Book search experience in Exchange, Teams, and other products. For more information about hiding users from the Address Book, see [Manage address lists in Exchange Online](/exchange/address-books/address-lists/manage-address-lists#hide-recipients-from-address-lists).
+Auto attendant search is a part of the main Address Book search of Microsoft. Exchange Address Book settings affect searches performed via the Auto attendant service. For example, if some users in your Address Book settings have the property `-HiddenFromAddressListsEnabled = $true`, then Auto attendant search won't return these users. This is similar to the Address Book search experience in Exchange, Teams, and other products. For more information about hiding users from the Address Book, see [Manage address lists in Exchange Online](/exchange/address-books/address-lists/manage-address-lists#hide-recipients-from-address-lists).
 
-Dial by Name searches the entire organization's directory first before it applies any Dial Scope Include or Exclude lists you configure. If the initial search against the entire directory returns more than 100 users, the Dial Scope lists aren't applied, the search fails, and the caller is told that too many names were found.
+Once the main address book settings are verified, the search then proceeds to apply any configured [Dial Scope](create-a-phone-system-auto-attendant.md?tabs=dial-scope) Include or Exclude lists.
+
+Note that it might take up to 24 hours for Active Directory Address Book updates to be reflected in the Auto attendant search results. This timeframe also applies to the addition of new users or the removal of existing ones.
 
 ## Dial by Name - Keypad (DTMF) entry
 
@@ -109,17 +111,17 @@ Callers can say names in the following formats:
 |FirstName or LastName |Partial |Mar |Press or say 1 for Mary Marble  <br/> Press or say 2 for Mary Jones  <br/> Press or say 3 for Amos Marcus |
 |FirsName + LastName |Partial |Amos Mar |Press or say 1 for Amos Marble  <br/> Press or say 2 for Amos Marcus |
 
-> [!NOTE]
-> It might take up to 36 hours for a new user to have their name listed in the directory for Dial by Name with speech recognition due to Active Directory replication lag.
 
 ### Dial by Extension
 
 Users you want to make available for **Dial By Extension** need to have an extension specified as part of one of the following phone attributes defined in Active Directory (and synchronized via Microsoft Entra Connect) or Microsoft Entra ID. For more information, see [Add users individually or in bulk](/microsoft-365/admin/add-users/add-users).
 
 - TelephoneNumber (AD) or BusinessPhone (Microsoft Entra ID)
-- HomePhone (AD)
 - Mobile (AD and Microsoft Entra ID)
-- OtherTelephone (AD)
+- HomePhone (AD) - legacy field 
+- OtherTelephone (AD) - legacy field 
+
+It's recommended to avoid using the *HomePhone* and *OtherTelephone* fields due to their legacy status. While both fields are currently supported, there might be long-term implications.
 
 The required format to enter the extension in the user phone number field can be one of the following formats:
 
@@ -131,7 +133,7 @@ The required format to enter the extension in the user phone number field can be
 - Example 2: Update-MgUser -UserId 'usern@domain.com' -MobilePhone '+15555555678x5678'
 - Example 3: Update-MgUser -UserId 'usern@domain.com' -MobilePhone 'x5678'
 
-You can set the extension in the [Microsoft 365 admin center](https://admin.microsoft.com/) or the [Microsoft Entra admin center](https://aad.portal.azure.com). It can take up to 12 hours before changes are available to Auto attendants and Call queues.
+You can set the extension in the [Microsoft 365 admin center](https://admin.microsoft.com/) or the [Microsoft Entra admin center](https://aad.portal.azure.com). 
 
 > [!NOTE]
 > If using the TelephoneNumber field to define the extension, Microsoft recommends that you use the format *+\<phone number>;ext=\<extension>*. If the user is also assigned a Teams Phone Number, you should define both numbers the same way.

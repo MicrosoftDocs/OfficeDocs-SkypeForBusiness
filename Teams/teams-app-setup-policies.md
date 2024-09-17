@@ -47,10 +47,7 @@ You can pin apps in the following UIs for the users:
 
 * **App bar**: Users can easily access it and use it.
 * **Message extension**: Users can quickly use it when composing their messages.
-* **Meeting extension**: Meeting attendees can view it without leaving the meeting and quickly collaborate using the app. The functionality to pin apps in meetings is available only in Teams classic and not in the [new Teams client](new-teams-desktop-admin.md). The in-meeting bar displays only two apps and the rest of the apps, if added, display under the **More** option.
-
-> [!NOTE]
-> Pinning apps in meetings is a Preview feature. To use Preview features in your organization, see [Microsoft Teams Public preview](public-preview-doc-updates.md).
+* **Meeting extension**: Meeting attendees can view it without leaving the meeting and quickly collaborate using the app. The in-meeting bar displays only two apps and the rest of the apps, if added, display under the **More** option.
 
 Apps that you pin to the app bar, show on the app bar on the left side of the Teams desktop client and at the bottom of the Teams mobile client.
 
@@ -104,7 +101,7 @@ If your organization isn't using app centric management, then continue to [use a
 
 Developers can create bots as part of [Microsoft Bot Framework](https://dev.botframework.com/). Developers can incorporate these bots in a Teams app for use in Teams or developers can share these bots as independent bots that users can use anywhere else, including in Teams client. As an admin, you not only govern Teams apps that contain bots but you can also let your users use independent bots.
 
-Teams classic and in [new Teams](new-teams-desktop-admin.md) support the following bot scenarios based on the admin center settings:
+Teams supports the following bot scenarios based on the admin center settings:
 
 * Independent bots don't work if custom app upload isn't allowed.
 * Independent bots work if [custom app upload is allowed](teams-custom-app-policies-and-settings.md).
@@ -117,7 +114,7 @@ Teams classic and in [new Teams](new-teams-desktop-admin.md) support the followi
 
 ## Manage app setup policies
 
-You can manage the app setup policies in the Microsoft Teams admin center. Use the Global (Org-wide default) policy or create and assign custom policies. Global policy applies to all users unless you assign a custom policy to some users. Custom policy overrides the global policy. A Global Administrator or a Teams Administrator can manage these policies.
+You can manage the app setup policies in the Microsoft Teams admin center. Use the Global (Org-wide default) policy or create and assign custom policies. Global policy applies to all users unless you assign a custom policy to some users. Custom policy overrides the global policy. A Teams Administrator or an admin with a higher role can manage these policies.
 
 You can edit the settings in the global policy to include the apps that you want. To customize Teams for different groups of users in your organization, create and assign one or more custom policies.
 
@@ -198,7 +195,7 @@ When you unassign policies in bulk, you're removing policy assignments that were
 
 * After you edit or assign a policy, it can take a few hours for changes to take effect. Also, the rollback takes a few hours to take effect if you choose to roll back the policy application.
 
-* The functionality to pin apps in meetings is available only in Teams classic and not in the [new Teams client](new-teams-desktop-admin.md). The in-meeting bar displays only two apps and the rest of the apps, if added, display under the More option.
+* The in-meeting bar displays only two apps and the rest of the apps, if added, display under the More option.
 
 * Not all apps can be pinned to Teams through an app setup policy. Some apps don't support this functionality. To find apps that can be pinned, search for the app in the **Add pinned apps** pane. Tabs that have a personal scope (static tabs) and bots can be pinned to the Teams desktop client and these apps are available in the **Add pinned apps** pane. While the Teams app store lists all Teams apps, the **Add pinned apps** pane includes only apps that can be pinned to Teams through a policy.
 

@@ -32,7 +32,7 @@ As an admin, you can manage whether organizers can include reactions in their me
 This setting sets the default for new meetings and webinars. Meeting and webinar organizers can change the setting for each meeting that they create.
 
 > [!NOTE]
-> This policy doesn't apply to town halls. 
+> This policy doesn't apply to town halls. To learn more about town hall attendee reactions, see [Schedule a town hall in Microsoft Teams](https://support.microsoft.com/office/schedule-a-town-hall-in-microsoft-teams-d493b5cc-9f61-4dac-8027-d837dafb7a4c#bkmk_townhall_reactions).
 
 To set the default for meeting reactions in new meetings:
 
@@ -52,10 +52,8 @@ Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowMeetingReactions Disabled
 
 ## Related topics
 
-[Teams policy reference](settings-policies-reference.md)
-
-[Assign policies to your users in Teams](policy-assignment-overview.md)
-
-[Teams PowerShell overview](teams-powershell-overview.md)
-
-[Express yourself in Teams meetings with live reactions](https://support.microsoft.com/office/a8323a40-3d07-4129-934b-305370a36e21)
+- [Plan for Teams town halls](plan-town-halls.md)
+- [Teams policy reference](settings-policies-reference.md)
+- [Assign policies to your users in Teams](policy-assignment-overview.md)
+- [Teams PowerShell overview](teams-powershell-overview.md)
+- [Express yourself in Teams meetings with live reactions](https://support.microsoft.com/office/a8323a40-3d07-4129-934b-305370a36e21)

@@ -1,7 +1,7 @@
 ---
 title: Plan your deployment for Teams Phones
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: prashibadkur
 ms.date: 08/02/2024
