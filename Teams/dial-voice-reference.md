@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
-ms.date: 12/05/2023
+ms.date: 09/17/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -42,7 +42,7 @@ Given the prerequisites involved, Dial by Name or Extension must be explicitly e
 
 ### Maximum directory size
 
-There is no limit on the number of Active Directory users that search can support when a caller searches for a specific person. A caller can enter partial or full names (FirstName + LastName or LastName + FirstName) but must enter the full extension number.
+There's no limit on the number of Active Directory users that search can support when a caller searches for a specific person. A caller can enter partial or full names (FirstName + LastName or LastName + FirstName), but they must enter a full extension number.
   
 |Input type|Search format|Maximum number of users in an organization|
 |:-----|:-----|:-----|
@@ -50,15 +50,15 @@ There is no limit on the number of Active Directory users that search can suppor
 |Speech (voice input) |FirstName  <br/> LastName  <br/> FirstName + LastName  <br/> LastName + FirstName  | No limit  |
 
 > [!NOTE]
->  You can use [Dial Scope](create-a-phone-system-auto-attendant.md?tabs=dial-scope) feature to narrow down the names that are reachable by changing the scope for a particular Auto attendant.
+>  You can use the [Dial Scope](create-a-phone-system-auto-attendant.md?tabs=dial-scope) feature to narrow down the names that are reachable by changing the scope for a particular Auto attendant.
 
 ### Search Considerations
 
 Auto attendant search is a part of the main Address Book search of Microsoft. Exchange Address Book settings affect searches performed via the Auto attendant service. For example, if some users in your Address Book settings have the property `-HiddenFromAddressListsEnabled = $true`, then Auto attendant search won't return these users. This is similar to the Address Book search experience in Exchange, Teams, and other products. For more information about hiding users from the Address Book, see [Manage address lists in Exchange Online](/exchange/address-books/address-lists/manage-address-lists#hide-recipients-from-address-lists).
 
-Once the main address book settings have been verified, the search will proceed to apply any [Dial Scope](create-a-phone-system-auto-attendant.md?tabs=dial-scope) Include or Exclude lists that you configure.
+Once the main address book settings are verified, the search then proceeds to apply any configured [Dial Scope](create-a-phone-system-auto-attendant.md?tabs=dial-scope) Include or Exclude lists.
 
-Please note that it may take up to 24 hours for Active Directory Address Book updates to be reflected in the Auto Attendant search results. This timeframe also applies to the addition of new users or the removal of existing ones.
+Note that it might take up to 24 hours for Active Directory Address Book updates to be reflected in the Auto attendant search results. This timeframe also applies to the addition of new users or the removal of existing ones.
 
 ## Dial by Name - Keypad (DTMF) entry
 
@@ -121,7 +121,7 @@ Users you want to make available for **Dial By Extension** need to have an exten
 - HomePhone (AD) - legacy field 
 - OtherTelephone (AD) - legacy field 
 
-It is recommended to avoid using the *HomePhone* and *OtherTelephone* fields due to their legacy status. While both fields are currently supported, there may be long-term implications.
+It's recommended to avoid using the *HomePhone* and *OtherTelephone* fields due to their legacy status. While both fields are currently supported, there might be long-term implications.
 
 The required format to enter the extension in the user phone number field can be one of the following formats:
 
