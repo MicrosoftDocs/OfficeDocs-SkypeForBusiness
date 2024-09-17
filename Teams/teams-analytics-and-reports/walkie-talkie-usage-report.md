@@ -6,7 +6,7 @@ manager: jtremper
 audience: admin
 ms.topic: conceptual
 ms.service: microsoft-365-frontline
-ms.reviewer: prkoduku
+ms.reviewer: yinchang
 ms.date: 10/13/2023
 f1.keywords:
 - NOCSH
