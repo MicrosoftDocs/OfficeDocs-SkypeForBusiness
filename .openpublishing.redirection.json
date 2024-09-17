@@ -5170,9 +5170,9 @@
   "redirect_url": "/microsoftteams/rooms/update-management",
   "redirect_document_id": false
 },
-{  
-  "source_path": "Teams/devices/check-in-and-room-release.md",
-  "redirect_url": "/microsoftteams/devices/check-in-and-auto-release",
+{
+  "source_path": "Teams/teams-analytics-and-reports/pstn-blocked-users-report.md",
+  "redirect_url": "/microsoftteams/teams-analytics-and-reports/teams-reporting-reference",
   "redirect_document_id": false
 }
 ]
