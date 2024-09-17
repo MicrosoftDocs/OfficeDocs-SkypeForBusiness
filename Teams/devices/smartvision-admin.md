@@ -1,10 +1,10 @@
 ---
 title: What is Microsoft Multi-Stream IntelliFrame and Intelligent Camera?
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: vishnuna
-ms.date: 08/18/2023
+ms.date: 09/12/2024
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices

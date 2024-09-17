@@ -190,6 +190,23 @@ To see the call utilization view for each room, select the specific Bring Your O
 This setting option is located under the "General" tab and controls if peripheral data from BYOD and desk is sent to Microsoft. This feature is currently enabled by default, but admins have the option to disable it with this function. 
 #### Delete device data.
 This setting option enables admins to delete data for a specific user upon request. With the search function, IT Admins can be able to search for the name of the specific user and delete all related data. 
-## Access Control
-#### Inventory management permission
+## Access Control & Configuration
+
+### Turning off automatic discovery & usage data collection
+
+The Teams BYOD solution uses peripheral data crowdsourced from the Teams client application running on user's computers to discover peripherals as well as understand when those peripherals (and the rooms they are associated to) are used. No personally identifiable data is collected, but should you feel that this data collection is inappropriate for certain users or groups in your organization, you may use the following PowerShell commands to enable or disable BYOD data collection via a Teams policy setting, as well as get the current policy setting status, create a new policy, and remove a policy.
+
+> [!WARNING]
+> Disabling this policy setting for certain users will cause BYOD usage information to cease flowing to the service. The Teams BYOD solution requires peripheral data sent from users to calculate usage reports for BYOD peripherals and rooms.
+
+```
+Get-CsTeamsBYODAndDesksPolicy
+New-CsTeamsBYODAndDesksPolicy -Identity "Test"
+Set-CsTeamsBYODAndDesksPolicy -Identity "Test" -DeviceDataCollection Disabled
+Set-CsTeamsBYODAndDesksPolicy -Identity "Test" -DeviceDataCollection Enabled
+Remove-CsTeamsBYODAndDesksPolicy -Identity "Test"
+```
+
+### Inventory management permission
+
 This new inventory permission allows other users to view and manage the inventory management. IT Admins can create roles and grant other users' permission to access the inventory management and perform devices association with rooms.

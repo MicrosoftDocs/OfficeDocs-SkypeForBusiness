@@ -43,7 +43,6 @@ The following table shows which features are available in meetings, webinars, an
 |[Channel meeting scheduling](https://support.microsoft.com/office/schedule-a-meeting-in-microsoft-teams-943507a9-8583-4c58-b5d2-8ec8265e04e5)|✔️|✖️|✖️|
 |[Choose co-organizers](https://support.microsoft.com/office/roles-in-microsoft-teams-meetings-c16fa7d0-1666-4dde-8686-0a0bfe16e019)|✔️|✔️|✔️|
 |[Content sharing](meeting-policies-content-sharing.md)|✔️|✔️|✔️|
-|[Copilot](copilot-teams-transcription.md)|✔️|✔️|For organizers, co-organizers, and presenters only.|
 |[Custom backgrounds](custom-meeting-backgrounds.md)|Premium|Premium|Premium|
 |[eCDN](streaming-ecdn-enterprise-content-delivery-network.md)|✔️|✖️|✔️|
 |[End-to-end encryption](teams-end-to-end-encryption.md)|Premium|✖️|✖️|
@@ -59,6 +58,7 @@ The following table shows which features are available in meetings, webinars, an
 |[Manage what attendees see](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|Premium|Premium|✔️|
 |[Meeting chat](manage-meeting-chat.md)|✔️|✔️|For organizers, co-organizers, and presenters only.|
 |[Meeting themes](meeting-themes.md)|Premium|✖️|✖️|
+|[Microsoft 365 Copilot in Teams meetings and events](copilot-teams-transcription.md)|✔️|✔️|For organizers, co-organizers, and presenters only.|
 |[Organizers and co-organizers can use video effects](https://support.microsoft.com/office/apply-video-filters-in-microsoft-teams-meetings-c04a1326-7f63-4170-a4f7-0778520af465)|✔️|✔️|✔️|
 |[Outlook add-in](https://support.microsoft.com/office/schedule-a-microsoft-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)|✔️|✔️|✔️|
 |[Participants can give or request control](meeting-who-present-request-control.md)|✔️|✔️|✖️|

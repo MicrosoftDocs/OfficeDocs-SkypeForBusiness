@@ -1,7 +1,7 @@
 ---
 title: "Step 3 - Assign a meeting room license"
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: sohailta
 ms.date: 2/26/2024

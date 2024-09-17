@@ -3,8 +3,8 @@ title: "Set up call analytics for Microsoft Teams"
 author: mkbond007
 ms.author: mabond
 manager: pamgreen
-ms.reviewer: mikedav
-ms.date: 11/28/2017
+ms.reviewer: mamcgrath
+ms.date: 09/05/2024
 ms.topic: article
 ms.assetid: fbf7247a-84ae-46cc-9204-2c45b1c734cd
 ms.tgt.pltfrm: cloud
