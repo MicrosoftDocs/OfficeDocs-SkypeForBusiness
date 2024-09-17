@@ -106,6 +106,9 @@ For your specific PSTN connectivity setup, read the following considerations for
 - [Teams Phone Mobile considerations](considerations-teams-phone-mobile.md)
 - [Direct Routing considerations](considerations-direct-routing.md)
 
+For Shared Calling, consider emergency calling options under [Shared calling Setup](shared-calling-setup.md).
+
+- [Shared Calling considerations](shared-calling-setup.md#routing-of-emergency-calls)
 ## Related topics
 
 - [Manage emergency calling policies](manage-emergency-calling-policies.md)
