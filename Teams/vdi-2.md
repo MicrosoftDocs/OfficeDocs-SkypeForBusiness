@@ -122,6 +122,8 @@ Some policies might change these registry keys and block app installation in you
 
 > [!IMPORTANT]
 > Make sure there's no blocking configuration or policy, or add an exception for SlimCore MSIX packages in Local Security Policy -> Application Control Policies -> AppLocker.
+>
+> AppLocker can't process trailing wildcards, unlike Windows Defender Application Control. Since SlimCoreVdi Packages contain a version-specific PackageFamilyName (for example, Microsoft.Teams.SlimCoreVdi.win-x64.2024.36_8wekyb3d8bbwe), customers can add AppX or MSIX exclusions by relying on the PublisherID 8wekyb3d8bbwe instead.
 
 ## Verifying that the end point is optimized
 
