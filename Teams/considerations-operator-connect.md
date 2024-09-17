@@ -68,7 +68,7 @@ When a Teams Operator Connect user dials an emergency number, how the call is ro
   - In the United States, emergency calls from that client are automatically routed to the PSAP serving that geographic location.
   - In Canada, all emergency calls are screened by a national call center before transferring the call to the PSAP serving that geographic location.
 
-- If a Teams client isn't located at a tenant-defined dynamic emergency location, emergency calls from that client are screened by a national call center to determine the location of the caller before transferring the call to the PSAP serving that geographic location.
+- If a Teams client isn't located at a tenant-defined dynamic emergency location and the client isn't a Common Area Phone, emergency calls from that client are screened by a national call center to determine the location of the caller before transferring the call to the PSAP serving that geographic location.
 
 - If an emergency caller is unable to update their emergency location to the screening center, the call is transferred to the PSAP serving the caller's registered address.
 
