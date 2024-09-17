@@ -410,7 +410,7 @@ The underlying folder structure is logically similar to Electron-based classic T
 |**Logs**                    |LocalCache\Microsoft\MSTeams\Logs </br>LocalCache\Microsoft\MSTeams\PerfLog |Diagnostics, perf logs, and so on. |No impact. |
 |**WebStorage**              |LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\WebStorage |Storage used and managed by the browser when accessing other web apps inside a web app using iframes. For example, loading Sharepoint, OneDrive and office apps within Teams. |Loading these apps again could be slower after clearing this cache. |
 |**GPU Cache**               |LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\GPUCache |GPU cache. |No impact. |
-|**StartMenuExperienceHost** |AppData\Local\Packages\Microsoft.Windows.ShellExperienceHost_cw5n1h2txyewy\TempState |Responsible for the **Start Menu** button and the tiles within it. |No impact. The exclusion is recommended to solve a missing Teams icon in the Start menu issue. |
+|**StartMenuExperienceHost** |AppData\Local\Packages\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\TempState |Responsible for the **Start Menu** button and the tiles within it. |No impact. The exclusion is recommended to solve a missing Teams icon in the Start menu issue. |
 |**ShellExperienceHost (For Windows Server 2019 only)** |AppData\Local\Packages\Microsoft.Windows.ShellExperienceHost_cw5n1h2txyewy\TempState |Responsible for the **Start Menu** button and the tiles within it. |No impact. The exclusion is recommended to solve a missing Teams icon in the Start menu issue. |
 
 ##### Review tradeoff considerations, requiring evaluation and testing for these environments
