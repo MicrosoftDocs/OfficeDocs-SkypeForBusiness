@@ -46,6 +46,9 @@ Policies are implemented in one of the following ways:
 4. Choose the settings that you want.
 5. Select **Save**.
 
+> [!NOTE]
+> Once you create a policy, its name can't be changed.
+
 This video shows the steps to create and assign a custom meeting policy to a user (or users).
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1c7DS?autoplay=false]
