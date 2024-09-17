@@ -665,7 +665,7 @@ New Teams for Web isn't supported in VDI environments, so performance and reliab
 
 ## Features not supported in VDI
 
-The following features aren't supported in either classic Teams or new Teams.
+The following features aren't supported in either classic Teams or new Teams when using the WebRTC-based optimization. Most of these limitations have been addressed with the new SlimCore-based optimization. Check out the [Feature list with the new optimization](vdi-2.md#feature-list-with-the-new-optimization) section of our VDI 2.0 article for more information.
 
 - QoS.
 - 1080p.
