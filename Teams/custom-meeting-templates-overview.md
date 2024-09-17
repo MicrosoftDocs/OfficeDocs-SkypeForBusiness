@@ -41,7 +41,7 @@ The following meeting options can be controlled by using a meeting template:
 |Allow mic and camera for attendees|Specifies if attendees can unmute and use their camera.|
 |*Recording & transcription*||
 |Recording|Specifies who can record and if the meeting is recorded automatically.|
-|Copilot|Specifies if Copilot is on or on with transcript|
+|Copilot|Specifies how transcripts are used for Microsoft 365 Copilot in Teams meetings and events.|
 |*Roles*||
 |Announce when people dialing in join or leave|Specifies if a sound plays when people calling in by phone join or leave the meeting.|
 |*Meeting engagement*||
