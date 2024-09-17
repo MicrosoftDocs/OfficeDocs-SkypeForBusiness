@@ -3,7 +3,7 @@ title: Partner management for customers
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: altsou
+ms.reviewer: kimmatlock
 ms.date: 04/04/2024
 ms.topic: article
 audience: Admin

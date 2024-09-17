@@ -1,10 +1,10 @@
 ---
 title: Microsoft Teams Rooms
-ms.reviewer: sohailta
-ms.date: 10/04/2024
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
+ms.reviewer: rachelan
+ms.date: 10/04/2024
 audience: ITPro
 ms.topic: article
 feedback_system: None
