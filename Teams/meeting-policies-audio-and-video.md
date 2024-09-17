@@ -81,7 +81,7 @@ To learn more, see [Manage audio/video for meeting participants](#manage-audiovi
 
 This is a combination of a per-organizer and per-user policy that controls which users' meetings have outgoing video. The Video conferencing setting controls whether video can be turned on in meetings hosted by a user and in 1:1 and group calls started by a user. On Teams mobile clients, this setting controls whether users can share photos and videos in a meeting.
 
-When organizers with this policy set to **On** create meetings, if participants also have the policy set to **On**, they can share video during the meeting. Meeting participants who don't have any assigned policies (for example, anonymous and trusted participants) inherit the meeting organizer's policy.
+When both the meeting organizer and participants have this policy set to **On**, participants can share video during the meeting. Meeting participants who don't have any assigned policies (for example, anonymous and trusted participants) inherit the meeting organizer's policy.
 
 For a given user, if this setting is on:
 
