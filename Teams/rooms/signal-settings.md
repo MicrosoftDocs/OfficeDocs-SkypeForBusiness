@@ -3,7 +3,7 @@ title: Signal settings
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: tonysmit
+ms.reviewer: altsou
 ms.date: 12/20/2023
 ms.topic: article
 ms.tgt.pltfrm: cloud

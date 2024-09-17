@@ -1,7 +1,7 @@
 ---
 title: Teams device store
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: pauljuricic
 ms.date: 08/08/2024
@@ -49,7 +49,7 @@ To use the devices store in the Teams admin center, go to  **Devices > Store**.
 
 To use the device store, you need to be a Global admin, a Teams admin, or a Teams device admin.
 
-> [IMPORTANT]
+> [!IMPORTANT]
 >  Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
 ### Browse the store
@@ -103,7 +103,10 @@ Users can pay with a credit or debit card. All orders can be returned up to 30 d
 
 ### Admin controls
 
-Admins can manage the device store experience for their organization from Teams admin center. You can disable the purchase for all users in your tenant using this setting, available in **Teams admin center > Devices > Store > Settings**.
+Admins can manage the device store experience for their organization from Teams admin center. You can disable the purchase for all users in your tenant using this setting, available in **Teams admin center > Devices > Store > Settings**. To update this setting in Teams admin center, you need to be a Global administrator.
+
+> [IMPORTANT]
+>  Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
 By default, purchase is enabled. When it's disabled, the device store will be visible for users to browse and learn about latest certified devices, but the users can't purchase.
 
