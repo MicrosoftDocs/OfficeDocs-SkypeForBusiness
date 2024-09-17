@@ -1379,7 +1379,7 @@ items:
                   href: rooms/coordinated-meetings.md
                 - name: Manage Microsoft Teams settings
                   href: rooms/surface-hub-manage-config.md
-            - name: Teams Room for Windows deployment tools
+            - name: Teams Rooms for Windows deployment tools
               items:
                 - name: Create a Teams Room for Windows image
                   href: rooms/console.md
