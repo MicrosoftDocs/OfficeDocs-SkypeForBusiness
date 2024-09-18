@@ -74,7 +74,7 @@ Dynamic emergency calling for Microsoft Calling Plans, Operator Connect, Teams P
 
 ## Emergency call routing
 
-Emergency call routing determines how an emergency call is routed to the Public Safety Answering Point (PSAP). Call routing depends on several factors including the emergency calling network of the country/region in which the call originates and which [PSTN connectivity option](pstn-connectivity.md) you’ve chosen. For example, Direct Routing requires configuring [specific call routing polices](manage-emergency-call-routing-policies.md). With other PSTN connectivity options, the carrier handles a lot of the configuration for call routing.
+Emergency call routing determines how an emergency call is routed to the Public Safety Answering Point (PSAP). Call routing depends on several factors including the emergency calling network of the country/region in which the call originates, the type of client that is making the call, and which [PSTN connectivity option](pstn-connectivity.md) you’ve chosen. For example, Direct Routing requires configuring [specific call routing polices](manage-emergency-call-routing-policies.md). With other PSTN connectivity options, the carrier handles a lot of the configuration for call routing.
 
 ## Emergency addresses for remote locations
 

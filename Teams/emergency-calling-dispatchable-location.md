@@ -77,6 +77,7 @@ The following table shows the types of emergency addresses and associated routin
 | Emergency address obtained from the operating system and manually edited and confirmed by the user.  | Screened and Transferred to PSAP. |
 | Emergency address entered manually and confirmed by the user. | Screened and Transferred to PSAP. |
 | Emergency address entered through address autosuggest and confirmed by the user.   | Direct to PSAP.  |
+| Emergency address statically assigned to a Common Area Phone. | Direct to PSAP.|
 | Emergency address statically assigned to the user/number. | Screened and Transferred to PSAP. |
 | Null | Screened and Transferred to PSAP. |
 
