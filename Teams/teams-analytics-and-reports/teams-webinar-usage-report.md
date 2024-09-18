@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: justle
-ms.date: 10/20/2023
+ms.date: 9/18/2024
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
@@ -20,7 +20,7 @@ appliesto:
 
 **APPLIES TO:** ✖️Meetings ✔️Webinars ✖️Town halls
 
-The Teams webinar usage report in the Microsoft Teams admin center shows you the activity overview for webinars created in your organization. You can view usage information, including the event title, event ID, start time, end time, event access type, and the names of the organizers, presenters, and co-organizers for each event. You can gain insight into usage trends and see who in your organization schedules and produces webinars.
+The Teams webinar usage report in the Microsoft Teams admin center shows you the activity overview for webinars created in your organization. As an admin, you can view usage information, including the event title, event ID, start time, end time, event access type, and the names of the organizers, presenters, and co-organizers for each event. You can also gain insight into usage trends and see who in your organization schedules and produces webinars.
 
 ## View the webinar usage report
 
@@ -28,7 +28,6 @@ The Teams webinar usage report in the Microsoft Teams admin center shows you the
 2. Under **Date range**, select a predefined range or set a custom range. You can set a range to show data up to a year, six months before and after the current date.
 3. Under **Organizer**, you can choose to show only webinars organized by a specific user.
 4. Select **Run report**.  
-
 
 ## Interpret the report
 
