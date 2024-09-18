@@ -39,8 +39,6 @@ This setting is on by default. To turn off Speaker Coach, use the following scri
 Set-CsTeamsMeetingPolicy -Identity <policy name> -AllowMeetingCoach False
 ```
 
-
-
 ## Related topics
 
 - [Plan meetings](plan-meetings.md)
