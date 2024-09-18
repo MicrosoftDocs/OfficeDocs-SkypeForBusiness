@@ -42,7 +42,7 @@ In addition to this **Meeting chat** policy, your users have their own **Meeting
 
 The following table describes the behavior for your **Meeting chat** policy settings:
 
-|Setting value |PowerShell value|Behavior |
+|Teams admin center value  |PowerShell value|Behavior |
 |---------|---------|---------|
 |**On for everyone**  | Enabled|All participants can read and write chat messages; the organizer's **Allow meeting chat** settings control the chat experience. Organizers can also manage chat availability in their meetings and webinars.|
 |**On for everyone but anonymous users**  | EnabledExceptAnonymous|All participants can read and write chat messages, except for anonymous participants. The organizer's **Allow meeting chat** settings control the chat experience for everyone, except for anonymous participants, who can't read or write any messages. Organizers can also manage chat availability in their meetings and webinars.|
