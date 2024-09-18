@@ -48,7 +48,7 @@ Dynamic location for routing emergency calls is supported in the United States a
 
 - If a Teams client for a United States Calling Plan user dynamically acquires an emergency address within the United States, that address is used for emergency routing instead of the registered address. The call is automatically routed to the PSAP in the serving area of the address.
 
-- If a Teams client for a United States Calling Plan user doesn't dynamically acquire an emergency address within the United States, then the registered emergency address is used to help screen and route the call. However, the call is screened to determine if an updated address is required before connecting the caller to the appropriate PSAP.
+- If a Teams client for a United States Calling Plan user doesn't dynamically acquire an emergency address within the United States, then the registered emergency address is used to help screen and route the call. Calls from Common Area Phones route directly to the PSAP. Otherwise, the call is screened to determine if an updated address is required before connecting the caller to the appropriate PSAP.
 
 Dynamic location for routing emergency calls is supported in Canada the same as in the United States with the following exception: all emergency calls are screened nationally before being transferred to the PSAP.
 
@@ -70,7 +70,7 @@ For example:
 
 - If a Teams client is located at a tenant-defined dynamic emergency location, emergency calls from that client are automatically routed to the PSAP serving that geographic location.
 
-- If a Teams client isn't located at a tenant-defined dynamic emergency location, emergency calls from that client are screened by a national call center to determine the location of the caller before transferring the call to the PSAP serving that geographic location.
+- If a Teams client isn't located at a tenant-defined dynamic emergency location and the client isn't a Common Area Phone, emergency calls from that client are screened by a national call center to determine the location of the caller before transferring the call to the PSAP serving that geographic location.
 
 - If an emergency caller is unable to update their emergency location to the screening center, the call is transferred to the PSAP serving the caller's registered address.
 
