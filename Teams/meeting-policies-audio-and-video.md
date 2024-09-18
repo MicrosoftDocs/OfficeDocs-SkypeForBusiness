@@ -77,7 +77,7 @@ To learn more, see [Manage audio/video for meeting participants](#manage-audiovi
 ## Video conferencing
 
 > [!IMPORTANT]
-> Currently, the **Video conferencing** setting doesn't turn off video for meetings and events. Your organizers should instead use the **Allow camera for attendees** setting in their **Meeting Options** to control video access in their meetings and events. To learn more, see the [Which video conferencing policy setting takes precedence](#which-video-conferencing-policy-setting-takes-precedence) and [Manage audio/video for meeting participants](#manage-audiovideo-for-meeting-participants) sections in this article.
+> Currently, the **Video conferencing** setting doesn't turn off video for meetings and events. Your organizers should instead use the **Allow camera for attendees** setting in their **Meeting Options** to control video access in their meetings and events. To learn more, see the [Which video conferencing policy setting takes precedence](#which-video-policy-setting-takes-precedence) and [Manage audio/video for meeting participants](#manage-audiovideo-for-meeting-participants) sections in this article.
 
 This is a combination of a per-organizer and per-user policy that controls which users' meetings have outgoing video. The Video conferencing setting controls whether video can be turned on in meetings hosted by a user and in 1:1 and group calls started by a user. On Teams mobile clients, this setting controls whether users can share photos and videos in a meeting.
 
@@ -102,7 +102,7 @@ For a given user, the **Mode for IP video** setting affects video in both meetin
 
 To learn more, see [Manage audio/video for meeting participants](#manage-audiovideo-for-meeting-participants).
 
-### Which video conferencing policy setting takes precedence?
+### Which video policy setting takes precedence?
 
 For a user, the most restrictive policy setting for video takes precedence. Here are some examples.
 
