@@ -1,7 +1,7 @@
 ---
 title: Manage VOD publishing for webinars and town halls
 ms.reviewer: sachung
-ms.date: 12/4/2023
+ms.date: 9/18/2024
 ms.author: wlibebe
 author: wlibebe
 ms.topic: article
@@ -48,6 +48,7 @@ The following table lists the values that you can set for webinar publishing per
 |Teams admin center value |PowerShell value| Behavior|
 |---------|---------|---------------|
 |Not allowed| None| Organizers with this policy can't publish any webinar recordings. |
+|Your organization| EveryoneInCompanyIncludingGuests |Organizers with this policy can only publish recordings for private webinars. These organizers can't publish any recordings for public webinars.|
 |Public| Everyone| **This is the default.** Organizers with this policy can publish any webinar recordings.|
 
 ### Manage webinar VOD publishing permissions using the Teams admin center
