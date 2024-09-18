@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: altsou
-ms.date: 12/20/2023
+ms.date: 09/17/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
