@@ -1,7 +1,7 @@
 ---
 title: Overview of meetings, webinars, and town halls
 ms.reviewer: 
-ms.date: 10/13/2023
+ms.date: 9/18/2024
 ms.topic: article
 ms.author: wlibebe
 author: wlibebe
