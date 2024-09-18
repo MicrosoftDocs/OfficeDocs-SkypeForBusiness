@@ -506,7 +506,7 @@ Error 15615 usually means that the Windows Package Manager can't install the MSI
 Logging can be found in the following locations:
 
 - On the client:
-  - `AppData\Roaming\Microsoft\TeamsVDI\<vdi_vendor>-default-<cloudname>\skylib`
-  - `AppData\Roaming\Microsoft\TeamsVDI\<vdi_vendor>-default-<cloudname>\media-stack`
+  - `AppData\Local\Microsoft\TeamsVDI\<vdi_vendor>-default-<cloudname>\skylib`
+  - `AppData\Local\Microsoft\TeamsVDI\<vdi_vendor>-default-<cloudname>\media-stack`
 - On the Server:
   - `AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Logs\skylib`
