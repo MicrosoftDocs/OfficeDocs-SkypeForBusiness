@@ -1429,8 +1429,6 @@ items:
                   href: rooms/voice-and-face-recognition.md
                 - name: Voice recognition controls for Intelligent speakers
                   href: rooms/voice-recognition.md
-            - name: Find devices with unsupported licenses
-              href: rooms/license-check.md
             - name: Use the recovery tool
               href: rooms/recovery-tool.md
             - name: Known issues
