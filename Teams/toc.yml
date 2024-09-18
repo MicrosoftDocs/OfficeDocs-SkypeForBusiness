@@ -1537,7 +1537,7 @@ items:
               href: devices/remote-provision-remote-login.md
             - name: Remote sign in and sign out
               href: devices/remote-sign-in-and-sign-out.md
-            - name: Deploy Teams phones and Teams displays using Intune
+            - name: Deploy Teams phones and Teams panels using Intune
               href: devices/phones-panels-deploy.md
             - name: Authentication best practices for Android devices
               href: devices/authentication-best-practices-for-android-devices.md
