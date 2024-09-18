@@ -6,7 +6,7 @@ manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: defnea
-ms.date: 10/12/2023
+ms.date: 9/18/2024
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150
