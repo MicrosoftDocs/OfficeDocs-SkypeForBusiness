@@ -86,16 +86,6 @@ Use one of the following methods to control access to the historical reports:
 
   Create, or modify, a voice applications policy that enables the historical reporting permissions. Assign the policy to the appropriate users. Assign the users as authorized users to the appropriate auto attendants and call queues. For more information, see [Manage voice applications policies in Microsoft Teams](./manage-voice-applications-policies.md)
 
-  The historical reporting permissions can only be set through PowerShell and will be available in Teams admin center later this year. 
-
-  For more information, see:
-
-  |New voice applications policy           |Existing voice applications policy |
-  |:---------------------------------------|:----------------------------------|
-  | [New-CsTeamsVoiceApplicationsPolicy/-HistoricalAutoAttendantMetricsPermission](/powershell/module/teams/new-csteamsvoiceapplicationspolicy#-HistoricalAutoAttendantMetricsPermission)  | [Set-CsTeamsVoiceApplicationsPolicy/-HistoricalAutoAttendantMetricsPermission](/powershell/module/teams/set-csteamsvoiceapplicationspolicy#-HistoricalAutoAttendantMetricsPermission) |
-  | [New-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/new-csteamsvoiceapplicationspolicy#-HistoricalCallQueueMetricsPermission)  | [Set-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/set-csteamsvoiceapplicationspolicy#-HistoricalCallQueueMetricsPermission) |
-  | [New-CsTeamsVoiceApplicationsPolicy/--HistoricalAgentMetricsPermission](/powershell/module/teams/new-csteamsvoiceapplicationspolicy#--HistoricalAgentMetricsPermission)  | [Set-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/set-csteamsvoiceapplicationspolicy#--HistoricalAgentMetricsPermission) |
-
 - Call Quality Dashboard (CQD) pipeline [legacy]
 
   If you want the user to report on **all** the Auto attendants, Call queues, and Agents in the tenant and you want to grant the user access to Teams admin center to run other Usage reports, assign the user a CQD access role with both **View Reports** and **View EUII fields** set to **Yes**.
