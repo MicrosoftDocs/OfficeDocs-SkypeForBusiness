@@ -1381,7 +1381,7 @@ items:
                   href: rooms/coordinated-meetings.md
                 - name: Manage Microsoft Teams settings
                   href: rooms/surface-hub-manage-config.md
-            - name: Teams Room for Windows deployment tools
+            - name: Teams Rooms for Windows deployment tools
               items:
                 - name: Create a Teams Room for Windows image
                   href: rooms/console.md
@@ -1473,7 +1473,7 @@ items:
             href: rooms/managed-meeting-rooms-portal.md
           - name: Signal settings
             href: rooms/signal-settings.md  
-          - name: Remote access a Teams Room console
+          - name: Remotely access a Teams Room console
             href: rooms/remotely-access-teams-rooms.md 
           - name: Managed updates
             href: rooms/update-management.md 
@@ -1517,7 +1517,7 @@ items:
                       href: devices/check-in-and-room-release.md
                     - name: Reserve rooms with a QR code
                       href: devices/reserving-rooms-with-a-qr-code.md
-                    - name: Custom backgrounds
+                    - name: Manage custom backgrounds
                       href: devices/custom-background-panels.md
         - name: SIP gateways
           items:
@@ -1539,8 +1539,8 @@ items:
               href: devices/remote-provision-remote-login.md
             - name: Remote sign in and sign out
               href: devices/remote-sign-in-and-sign-out.md
-            - name: Deploy Teams phones and Teams displays using Intune
-              href: devices/phones-displays-deploy.md
+            - name: Deploy Teams phones and Teams panels using Intune
+              href: devices/phones-panels-deploy.md
             - name: Authentication best practices for Android devices
               href: devices/authentication-best-practices-for-android-devices.md
             - name: AOSP device management 
