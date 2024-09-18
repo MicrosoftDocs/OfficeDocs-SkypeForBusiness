@@ -5181,8 +5181,8 @@
   "redirect_document_id": false
 },
 {  
-  "source_path": "Teams/devices/teams-displays-deploy.md",
-  "redirect_url": "/microsoftteams/devices/teams-panels-deploy",
+  "source_path": "Teams/devices/phones-displays-deploy.md",
+  "redirect_url": "/microsoftteams/devices/phones-panels-deploy",
   "redirect_document_id": false
 },  
 {
