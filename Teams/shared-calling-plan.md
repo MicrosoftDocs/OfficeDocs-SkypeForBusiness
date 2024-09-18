@@ -1,7 +1,7 @@
 ---
 title: "Plan for Shared Calling"
 ms.reviewer: roykuntz, jastark
-ms.date: 07/15/2024
+ms.date: 09/17/2024
 author: mkbond007
 ms.author: mabond
 manager: pamgreen
@@ -27,7 +27,7 @@ description: "In this article, you'll learn about Teams Phone Shared Calling."
 
 This article describes what you need to know before configuring Shared Calling for Teams Phone.
 
-If you have users who aren't heavy users of the Public Switched Telephone Network (PSTN), they might not need a dedicated assigned phone number. Instead, for these users, you should consider Shared Calling as a simpler, easier-to-implement phone solution for your organization. Shared Calling greatly simplifies phone number management for some users. Shared Calling also reduces costs for your organization because you don't need a dedicated phone number for every user.
+If you have users who aren't heavy users of the Public Switched Telephone Network (PSTN), they might not need a dedicated assigned phone number. Instead, for these users, you should consider Shared Calling as a simpler, easier-to-implement phone solution for your organization. Shared Calling greatly simplifies phone number management for some users. Shared Calling also reduces costs for your organization because you don't need a dedicated phone number for every user. Optionally, you can also configure extension dialing support for Shared Calling users.
 
 Note: Shared Calling is currently available in public clouds only.
 
@@ -60,6 +60,8 @@ To set up Shared Calling, you need to perform the following steps. These steps a
 1. Create your Shared Calling policy.
 
 1. Assign the Shared Calling policy to users.
+
+1. Configure extension dialing support for Shared Calling enabled users (optional).
 
 Shared Calling can be configured with the Teams admin center and PowerShell. You must have Teams PowerShell Module version 5.5.0 or higher to use the new [TeamsSharedCallingRoutingPolicy](/powershell/module/teams/set-csteamssharedcallingroutingpolicy) cmdlets. You can use these cmdlets to create and manage Shared Calling policies.
 

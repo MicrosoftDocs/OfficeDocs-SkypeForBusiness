@@ -35,7 +35,7 @@ Microsoft Teams Multi-Stream IntelliFrame certified devices, include a speaker, 
 - Microsoft Teams Rooms Pro license
   - Microsoft Teams Rooms with Pro license is required to enable IntelliFrame, and people recognition features on Microsoft Teams Rooms.
   - Basic license doesn't support IntelliFrame or people recognition. If you have Teams Rooms Basic license, the camera shows only active speaker and panoramic views.
-  - Check the [this link](../rooms/license-check.md#check-the-license-of-a-couple-teams-rooms-devices   ) to determine if you have the right license.
+  - Check the [this link](/microsoftteams/rooms/rooms-licensing#rooms-view) to determine if you have the right license.
 - Policy configured for [People Recognition and Enrollment](#enabling-enrollment-option-and-people-recognition).
 
 ## Device provisioning
