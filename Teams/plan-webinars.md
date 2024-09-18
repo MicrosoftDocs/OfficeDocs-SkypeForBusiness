@@ -79,13 +79,26 @@ As an admin, you can manage the following features attendees use for interaction
 
 A Teams Premium subscription includes the following features for webinars:
 
-- Create a webinar wait list.
-- Limit the day and time when people can register.
-- Manage attendees’ view.
-- Manually approve registrants.
-- Use RTMP-in.
-- Send reminder emails to registrants.
-- Set up a green room for webinar presenters.
+|Feature name | Webinar features | Teams Premium webinar features |
+|-------------------------------------------------------|:---------------------:|:-------------------------:|
+|Allow registered users to bypass the lobby         |✔️                      |✔️                          |
+|Assign a co-organizer                              |✔️                      |✔️                          |
+|Limit the number of people who can register        |✔️                      |✔️                         |
+|Require attendees to register|✔️|✔️|
+|Set up a green room for webinar presenters |✔️|✔️ |
+|Turn on Q&A for webinars with up to 1,000 attendees |✔️ |✔️|
+|View attendance reports|✔️|✔️|
+|External presenters|✔️|✔️|
+|Create a webinar wait list                         |                       |✔️                          |
+|Limit the day and time when people can register    |                       |✔️                         |
+|Manage attendees’ view                             |                       |✔️                          |
+|Manually approve registrants                       |                       |✔️                          |
+|Send reminder emails to registrants                |                       |✔️                          |
+|Use RTMP-In for webinars                           |                       |✔️                         |
+|Hide attendee names                          |                       |✔️                         |
+|Manage what attendees see                          |                       |✔️                         |
+|Custom meeting templates                         |                       |✔️                         |
+|Admin created custom meeting backgrounds                         |                       |✔️                         |
 
 ## Webinar control comparison
 

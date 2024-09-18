@@ -6,23 +6,23 @@ manager: pamgreen
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: sachung
-ms.date: 11/13/2023
+ms.reviewer: chbalaki
+ms.date: 9/18/2024
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
-  - M365-collaboration
-  - m365initiative-meetings
+ - M365-collaboration
+ - m365initiative-meetings
 description: Learn how to use the Teams live event usage report in the Microsoft Teams admin center to get an overview of Teams live events activity in your organization.
 appliesto: 
-  - Microsoft Teams
+ - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 ---
 # Microsoft Teams live event usage report
 
-The Teams live event usage report in the Microsoft Teams admin center shows you the activity overview for live events held in your organization. You can view usage information, including event status, start time, views, and production type for each event. You can gain insight into usage trends and see who in your organization schedules, presents, and produces live events.
+The Teams live event usage report in the Microsoft Teams admin center shows you the activity overview for live events held in your organization. As an admin, you can view usage information, including event status, start time, views, and production type for each event. You can gain insight into usage trends and see who in your organization schedules, presents, and produces live events.
 
 ## View the live event usage report
 
@@ -35,13 +35,13 @@ The Teams live event usage report in the Microsoft Teams admin center shows you 
 
 :::image type="content" alt-text="Screenshot of the Teams live event usage report in the Teams admin center with callouts." source="../media/teams-live-event-usage-report-with-callouts.png" lightbox="../media/teams-live-event-usage-report-with-callouts.png":::
 
-|Callout |Description  |
+|Callout |Description |
 |--------|-------------|
-|**1**   |The Teams live event report can be viewed for trends over the last 7 days, 28 days, or a custom date range that you set. |
-|**2**   |Each report has a date for when it was generated. The report reflects near real time activity when the page is refreshed. |
-|**3**   |<ul><li>The X axis on the chart is the selected date range for the report.</li> <li> The Y axis is the total view count.</li> </ul>Hover over the dot on a given date to see the number of views across all live events on that date.|
-|**4**   |The table gives you a breakdown of each live event. <ul><li>**Event** is the display name of the live event. Select the event name to [get more details](#view-event-details) about the event. </li> <li>**Start Time** refers to the start date and time of the event.</li> <li>**Event Status** shows whether the event took place.  </li><li>**Organizer** is the name of the event organizer.</li> <li>**Presenters** are the names of the  event presenters.</li><li>**Producers** are the names of the event producers.</li><li>**Views** is the number of unique views after the event is completed.</li><li>**Recording** shows whether the recording setting is on or off.</li><li>**Production Type** shows whether the event is produced in Teams or by an external application or device.</li></li> </ul>If a user account no longer exists in Microsoft Entra ID, the user name is displayed as "--" in the table. <br><br>To see the information that you want in the table, make sure to add the columns to the table. |
-|**5**   |Select **Edit columns** to add or remove columns in the table.|
+|**1**  |The Teams live event report can be viewed for trends over the last 7 days, 28 days, or a custom date range that you set. |
+|**2**  |Each report has a date for when it was generated. The report reflects near real time activity when the page is refreshed. |
+|**3**  |<ul><li>The X axis on the chart is the selected date range for the report.</li> <li> The Y axis is the total view count.</li> </ul>Hover over the dot on a given date to see the number of views across all live events on that date.|
+|**4**  |The table gives you a breakdown of each live event. <ul><li>**Event** is the display name of the live event. Select the event name to [get more details](#view-event-details) about the event. </li> <li>**Start Time** refers to the start date and time of the event.</li> <li>**Event Status** shows whether the event took place. </li><li>**Organizer** is the name of the event organizer.</li> <li>**Presenters** are the names of the event presenters.</li><li>**Producers** are the names of the event producers.</li><li>**Views** is the number of unique views after the event is completed.</li><li>**Recording** shows whether the recording setting is on or off.</li><li>**Production Type** shows whether the event is produced in Teams or by an external application or device.</li></li> </ul>If a user account no longer exists in Microsoft Entra ID, the user name is displayed as "--" in the table. <br><br>To see the information that you want in the table, make sure to add the columns to the table. |
+|**5**  |Select **Edit columns** to add or remove columns in the table.|
 
 ## Notes
 We show a maximum of up to 100 live events that match the current report criteria. To see more live events, apply date filters to reduce the list size.
@@ -56,7 +56,7 @@ The live event details page gives you a summary of the details of a live event a
 
 :::image type="content" alt-text="Screenshot showing details of a live event." source="../media/teams-live-event-usage-report-event-detail.png" lightbox="../media/teams-live-event-usage-report-event-detail.png":::
 
-If your organization uses Microsoft eCDN, advanced analytics can be viewed and exported from the [eCDN Dashboard](https://admin.ecdn.microsoft.com).  If your organization is enabled for [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) eCDN or [Kollective](https://kollective.com) eCDN, you can get more attendee analytics by clicking the partner report link.
+If your organization uses Microsoft eCDN, advanced analytics can be viewed and exported from the [eCDN Dashboard](https://admin.ecdn.microsoft.com). If your organization is enabled for [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) eCDN or [Kollective](https://kollective.com) eCDN, you can get more attendee analytics by clicking the partner report link.
 
 ## Related articles
 
