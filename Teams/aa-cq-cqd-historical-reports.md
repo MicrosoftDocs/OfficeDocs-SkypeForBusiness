@@ -77,24 +77,12 @@ Use one of the following methods to control access to the historical reports:
 
 - Voice applications policy
 
-  To control which Auto attendants, Call queues and Agents users can report on without providing them access to Teams admin center, create a voice applications policy that grants them access to historical reporting and assign them as an Authorized user to the appropriate Auto attendants and Call queues.
+  To control which Auto attendants, Call queues, and Agents users can report on without providing them access to Teams admin center, create a voice applications policy that grants them access to historical reporting and assign them as an Authorized user to the appropriate Auto attendants and Call queues. As an admin, you can create a voice applications policy in the Team admin center or with PowerShell.
 
-  For more information, see [Plan for Auto attendant and Call queue authorized users](./aa-cq-authorized-users-plan.md).
+  For more information about creating a voice applications policy, see [Manage voice applications policies in Microsoft Teams](./manage-voice-applications-policies.md).
 
   > [!TIP]
   > Using the voice applications policy to control access is the recommended approach.  With the voice applications policy and Authorized users it is possible to control which Auto attendants, Call queues, and Agents a user can report on. If necessary, the policy still allows a user to report on all Auto attendants, Call queues, and Agents without providing access to Teams admin Center.
-
-  Create, or modify, a voice applications policy that enables the historical reporting permissions. Assign the policy to the appropriate users. Assign the users as authorized users to the appropriate auto attendants and call queues. For more information, see [Manage voice applications policies in Microsoft Teams](./manage-voice-applications-policies.md)
-
-  The historical reporting permissions can only be set through PowerShell and will be available in Teams admin center later this year. 
-
-  For more information, see:
-
-  |New voice applications policy           |Existing voice applications policy |
-  |:---------------------------------------|:----------------------------------|
-  | [New-CsTeamsVoiceApplicationsPolicy/-HistoricalAutoAttendantMetricsPermission](/powershell/module/teams/new-csteamsvoiceapplicationspolicy#-HistoricalAutoAttendantMetricsPermission)  | [Set-CsTeamsVoiceApplicationsPolicy/-HistoricalAutoAttendantMetricsPermission](/powershell/module/teams/set-csteamsvoiceapplicationspolicy#-HistoricalAutoAttendantMetricsPermission) |
-  | [New-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/new-csteamsvoiceapplicationspolicy#-HistoricalCallQueueMetricsPermission)  | [Set-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/set-csteamsvoiceapplicationspolicy#-HistoricalCallQueueMetricsPermission) |
-  | [New-CsTeamsVoiceApplicationsPolicy/--HistoricalAgentMetricsPermission](/powershell/module/teams/new-csteamsvoiceapplicationspolicy#--HistoricalAgentMetricsPermission)  | [Set-CsTeamsVoiceApplicationsPolicy/-HistoricalCallQueueMetricsPermission](/powershell/module/teams/set-csteamsvoiceapplicationspolicy#--HistoricalAgentMetricsPermission) |
 
 - Call Quality Dashboard (CQD) pipeline [legacy]
 
