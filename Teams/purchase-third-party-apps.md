@@ -162,7 +162,7 @@ To manage licenses across multiple users who are part of the same team, you can 
 
 1. Search and select the team, and select **Assign**.
 
-After you assign licenses to the users or team, you can view the list of assigned users. This list allows you to view a mapping of licenses and assigned users.
+   After you assign licenses to the users or team, you can view the list of assigned users. This list allows you to view a mapping of licenses and assigned users.
 
    :::image type="content" source="media/remove-licenses.png" alt-text="Screenshot that shows list of assigned users to remove the licenses." lightbox="media/remove-licenses1.png":::
 
