@@ -1,5 +1,5 @@
 ---
-title: Proximity Join
+title: Proximity Join using Bluetooth and ultrasound
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
@@ -18,7 +18,7 @@ appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn how to use Proximity Join to nudge your meeting room into Microsoft Teams Rooms for an optimum meeting room experience.
+description: Learn how to use the Proximity Join feature using Bluetooth and Ultrasound connnectivity to nudge a Microsoft Teams Room console into a meeting you are having for an optimum meeting room experience.
 f1keywords: NOCSH
 ---
 
