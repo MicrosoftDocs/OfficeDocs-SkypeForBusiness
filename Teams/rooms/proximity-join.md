@@ -72,13 +72,14 @@ Proximity Join is available on these certified consoles:
 
 Proximity Join using ultrasound isn't currently available for Teams Rooms on Android.
 
+
 ## Administration
 
 There are multiple ways and tools you can use to manage Bluetooth and Ultrasound settings for Teams Rooms.
 
 ### [Teams Rooms on Android](#tab/admin-controls-android)
 
-#### Teams Room Pro Management portal
+### Teams Room Pro Management portal
 
 Management of proximity features is available in the Teams Rooms Pro Management portal:
 
@@ -87,7 +88,7 @@ Management of proximity features is available in the Teams Rooms Pro Management 
 - Remote control from personal devices.
 - Enable ultrasound beacon.
   
-#### Teams Rooms App Settings
+### Teams Rooms App Settings
 
 Management of proximity features is available on Microsoft Teams Rooms admin settings:
 
@@ -98,7 +99,7 @@ Management of proximity features is available on Microsoft Teams Rooms admin set
 
 ### [Teams Rooms on Windows](#tab/admin-controls-windows)
 
-#### Teams Room Pro Management portal
+### Teams Room Pro Management portal
 
 Management of proximity features is available in the Teams Rooms Pro Management portal:
 
@@ -107,7 +108,7 @@ Management of proximity features is available in the Teams Rooms Pro Management 
 - Remote control from personal devices.
 - Enable ultrasound beacon.
  
-#### Teams Rooms App Settings
+### Teams Rooms App Settings
 
 Management of proximity features is available on Microsoft Teams Rooms admin settings:
 
@@ -116,7 +117,7 @@ Management of proximity features is available on Microsoft Teams Rooms admin set
 - Remote control from personal devices.
 - Enable ultrasound beacon.
 
-#### XML configuration file for Teams Rooms on Windows
+### XML configuration file for Teams Rooms on Windows
 
 Like most Teams Rooms on Windows features, you can update the settings of your device with the Teams Rooms XML configuration file. The XML configuration file lets you remotely deploy configuration changes to one or more Teams Rooms on Windows devices in your organization. For more information, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](/microsoftteams/rooms/xml-config-file).
 
