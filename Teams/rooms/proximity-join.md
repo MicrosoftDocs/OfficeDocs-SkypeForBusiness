@@ -73,7 +73,10 @@ Proximity Join using Ultrasound is available on these certified consoles:
 
 ## Adminstration and settings
 
-There are multiple ways and tools you can use to manage Ultrasound settings for Teams Rooms.
+There are multiple ways and tools you can use to manage Ultrasound settings for Teams Rooms on Windows.
+
+> [!NOTE]
+> The settings for ultrasound don't apply to Teams Room on Android but the Bluetooth settings are available for those devices.
 
 ### [Teams Rooms Pro portal](#tab/portal)
 
