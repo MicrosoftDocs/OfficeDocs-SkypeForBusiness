@@ -27,7 +27,7 @@ f1keywords: NOCSH
 Proximity Join is a feature that enables you to nudge your Microsoft Teams Rooms into a Teams meeting from your Teams app on desktop or mobile. It doesn't require the room to be invited to the meeting prior to nudging it into the meeting. This feature uses wireless technologies that can be individually enabled or disabled depending on the requirements of the environment:
 
 1. [Bluetooth](#bluetooth)
-2. [Ultrasonic sound (Ultrasound)](#ultrasonic-sound-ultrasound)
+2. [Ultrasonic sound (Ultrasound)](#ultrasound)
 
 The end user experience is the same regardless of the technology used for proximity join. If both are enabled, both technologies operate in parallel. A room found with ultrasound will prioritize in the list of nearby rooms of a meeting prejoin screen in the room audio option. Rooms found with Bluetooth is listed after the ultrasound detected room.
 
