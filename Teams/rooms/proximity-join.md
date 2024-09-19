@@ -22,7 +22,7 @@ description: Learn how to use the Proximity Join feature using Bluetooth and Ult
 f1keywords: NOCSH
 ---
 
-# Overview of Proximity Join
+# Proximity Join using Bluetooth and ultrasound
 
 Proximity Join is a feature that lets you use your Teams app on a desktop or mobile device to invite or nudge a Microsoft Teams Rooms console into a Teams meeting. Before you nudge the Teams Rooms console into the meeting, the room doesn't have to be already invited or added to the meeting. This feature uses wireless technologies that can be individually turned on or off on the Teams Rooms console depending on the requirements of the environment including:
 
