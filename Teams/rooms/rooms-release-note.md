@@ -1,7 +1,7 @@
 ---
 title: Release notes for Microsoft Teams Rooms
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: henrikalim
 ms.date: 08/21/2024
@@ -722,6 +722,7 @@ Introduced in this update:
 
 |Release  |Release date  |
 |---------|---------|
+|[1449/1.0.96.2024091202](#144910962024091202-september-2024) | September 2024 |
 |[1449/1.0.96.2024080804](#144910962024080804-august-2024) | August 2024 |
 |[1449/1.0.96.2024061103](#144910962024061103-june-2024) | June 2024 |
 |[1449/1.0.96.2024042606](#144910962024042606-april-2024) | April 2024 |
@@ -752,6 +753,17 @@ Introduced in this update:
 
 Features with :::image type="icon" source="../media/mtr-pro-icon.png"::: are only available with Teams Rooms Pro license.
 
+### 1449/1.0.96.2024091202 (September 2024)
+
+Resolved issues:
+
+- When a secondary external camera is attached, users are unable to switch the room camera in meetings.
+- Local HDMI content that is projected outside of a meeting gets automatically shared into a meeting.
+- Incorrect Korean translation of calendar time slots.
+- The Join button is not showing up correctly on the calendar for Direct Guest Join meetings.
+- Various issues causing meetings to crash.
+- Minor improvements and bug fixes. 
+  
 ### 1449/1.0.96.2024080804 (August 2024)
 
 Introduced in this update:

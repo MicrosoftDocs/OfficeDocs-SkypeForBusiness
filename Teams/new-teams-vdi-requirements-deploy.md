@@ -150,8 +150,8 @@ To deploy the new Microsoft Teams client to your organization, select one of the
 > [!NOTE]
 > Make sure you have these KBs in your system, as they address many [policy settings restricting download and installation](/microsoftteams/troubleshoot/teams-administration/fix-new-teams-installation-issues#policy-settings-restricting-download--install) of new Teams.
 >
-> 1. If using Windows 10 or 11, make sure you're installing the appropriate KB patch [Windows 10: October 26, 2023 - KB5031445 (OS Build 19045.3636)](https://support.microsoft.com/topic/october-26-2023-kb5031445-os-build-19045-3636-preview-03f350cb-57f9-45e6-bfd7-438895d3c7fa) or [Windows 11: October 26, 2023 - KB5031445 (OS Build 22621.2506)](https://support.microsoft.com/topic/october-31-2023-kb5031455-os-builds-22621-2506-and-22631-2506-preview-6513c5ec-c5a2-4aaf-97f5-44c13d29e0d4). Otherwise, when GPO **AllowAllTrustedApps** is set to false and the issue mentioned in the “Features currently not available and known issues in VDI with the new Teams” section of this article can occur (New Teams fails to launch for users logging into non-persistent virtual desktops, or the app is **not** visible in the Start Menu.).
-> 2. If GPO **BlockNonAdminUserInstall** is set to true, users might face the issue mentioned in the “Features currently not available and known issues  in VDI with the new Teams” section can occur (New Teams fails to launch for users logging into non-persistent virtual desktops, or the app is NOT visible in the Start Menu).
+> 1. If using Windows 10 or 11, make sure you're installing the appropriate KB patch [Windows 10: October 26, 2023 - KB5031445 (OS Build 19045.3636)](https://support.microsoft.com/topic/october-26-2023-kb5031445-os-build-19045-3636-preview-03f350cb-57f9-45e6-bfd7-438895d3c7fa) or [Windows 11: October 26, 2023 - KB5031445 (OS Build 22621.2506)](https://support.microsoft.com/topic/october-31-2023-kb5031455-os-builds-22621-2506-and-22631-2506-preview-6513c5ec-c5a2-4aaf-97f5-44c13d29e0d4). Otherwise, when GPO **AllowAllTrustedApps** is set to false and the issue mentioned in the [Features currently not available and known issues in VDI with the new Teams](#features-currently-not-available-and-known-issues-in-vdi-with-the-new-teams) section of this article can occur (New Teams fails to launch for users logging into non-persistent virtual desktops, or the app is **not** visible in the Start Menu.).
+> 2. If GPO **BlockNonAdminUserInstall** is set to true, users might face the issue mentioned in the [Features currently not available and known issues  in VDI with the new Teams](#features-currently-not-available-and-known-issues-in-vdi-with-the-new-teams) section can occur (New Teams fails to launch for users logging into non-persistent virtual desktops, or the app is NOT visible in the Start Menu).
 > Make sure you have the respective KB for your OS:
 >
 > - KB5035942 (Windows 11 version 22H2 and 23H2, all editions)
@@ -405,11 +405,13 @@ The underlying folder structure is logically similar to Electron-based classic T
 
 ##### Recommended for exclusion
 
-|Folder             |Folder path |Role |Exclusion impact |
-|-------------------|------------|---------|-----------------|
-|**Logs**           |LocalCache\Microsoft\MSTeams\Logs </br>LocalCache\Microsoft\MSTeams\PerfLog |Diagnostics, perf logs, and so on. |No impact. |
-|**WebStorage**     |LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\ WebStorage |Storage used and managed by the browser when accessing other web apps inside a web app using iframes. For example, loading Sharepoint, OneDrive and office apps within Teams. |Loading these apps again could be slower after clearing this cache. |
-|**GPU Cache**      |LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\ GPUCache |GPU cache. |No impact. |
+|Folder                      |Folder path |Role |Exclusion impact |
+|----------------------------|------------|---------|-----------------|
+|**Logs**                    |LocalCache\Microsoft\MSTeams\Logs </br>LocalCache\Microsoft\MSTeams\PerfLog |Diagnostics, perf logs, and so on. |No impact. |
+|**WebStorage**              |LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\WebStorage |Storage used and managed by the browser when accessing other web apps inside a web app using iframes. For example, loading Sharepoint, OneDrive and office apps within Teams. |Loading these apps again could be slower after clearing this cache. |
+|**GPU Cache**               |LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\GPUCache |GPU cache. |No impact. |
+|**StartMenuExperienceHost** |AppData\Local\Packages\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\TempState |Responsible for the **Start Menu** button and the tiles within it. |No impact. The exclusion is recommended to solve a missing Teams icon in the Start menu issue. |
+|**ShellExperienceHost (For Windows Server 2019 only)** |AppData\Local\Packages\Microsoft.Windows.ShellExperienceHost_cw5n1h2txyewy\TempState |Responsible for the **Start Menu** button and the tiles within it. |No impact. The exclusion is recommended to solve a missing Teams icon in the Start menu issue. |
 
 ##### Review tradeoff considerations, requiring evaluation and testing for these environments
 
@@ -599,9 +601,17 @@ Learn more: [Manage accounts and organizations in Microsoft Teams](https://suppo
 
 ## Features currently not available and known issues in VDI with the new Teams
 
+- New Microsoft Teams doesn't on-demand register during FSLogix profile creation (even with HotFix 4), and doesn't register during future signins, despite being installed. The issue is caused by a race condition between Process Lifetime Manager (PLM) service and AppxSvc causing a transient failure when updating the package with error 0x80004001 (E_NOTIMPL). If the PLM service is not running, the new Teams registration fails.
+  - (In MSIX, Registration occurs on a per-user basis and begins when a user logs on. The OS will then load the preinstalled packaged app, creating user-specific app data, FTAs, and app tiles in the Start menu. This is done by the AppReadiness Service, which is aware of all preinstalled apps and requests the Appx Deployment Service (AppxSvc) deploy those packages.)
+  - Customers hitting this error, even with FSLogix Hotfix 4, must deploy these KBs:
+    - Windows 11 21H2 [KB5043067](https://support.microsoft.com/topic/september-10-2024-kb5043067-os-build-22000-3197-62287850-4f0d-4e4a-9fe8-b026bb1be994)
+    - Windows Server 2022 [KB5042881](https://support.microsoft.com/topic/september-10-2024-kb5042881-os-build-20348-2700-5b548143-9613-4e5a-9454-8ed9be8b2bd2)
+    - Windows Server 2019 [KB5043050](https://support.microsoft.com/topic/september-10-2024-kb5043050-os-build-17763-6293-66e9809a-1838-4474-a6a7-90d64f042f00)
+  - This bug has addressed with [KB5037849](https://support.microsoft.com/help/5037849) for Windows 10 (May 2024). The issue isn't present on Windows 11 22H2 or higher.
 - New Teams fails to launch for users logging into single-user non-persistent Windows 10 virtual desktops, or the app isn't visible in the Start Menu, but the app might become visible and launches successfully fifteen minutes after logging in.
   - This issue is addressed in [KB5041582](https://support.microsoft.com/topic/august-29-2024-kb5041582-os-build-19045-4842-preview-f4c4d191-5457-475c-80ac-e1d43cf9c941)/[KB5041587](https://support.microsoft.com/topic/august-27-2024-kb5041587-os-builds-22621-4112-and-22631-4112-preview-9706ea0e-6f72-430e-b08a-878963dafe08) for Windows 10/11, and Teams 24215.1007.3082.1590 (or higher) - both components are needed.
-  - **NOTE** - The issue isn't seen in **multi-user** Windows 10 or 11.
+  - You might also need to exclude the following location from your roaming profile solution ( for FSLogix customers, as an example, via redirections.xml): `AppData\Local\Packages\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\TempState`
+  - **NOTE** - The issue isn't seen in **multi-user** Windows 10 or 11. For Windows 2019, the StartMenuExperienceHost exclusion (`AppData\Local\Packages\Microsoft.Windows.ShellExperienceHost_cw5n1h2txyewy\TempState`) should be a workaround until a KB for that OS is published on Microsoft's October patch Tuesday (KB 5044277).
 - Customers installing new Teams on a golden image which later undergoes a sysprep to generalize it are failing to launch the app. This includes templates from Azure Image Gallery.
   - Users logging in to the provisioned virtual machines see the Teams icon greyed out in the start menu and clicking on it has no effect.
   - The AppX log in the Event Viewer has the error 0x80073CF1.
@@ -655,7 +665,7 @@ New Teams for Web isn't supported in VDI environments, so performance and reliab
 
 ## Features not supported in VDI
 
-The following features aren't supported in either classic Teams or new Teams.
+The following features aren't supported in either classic Teams or new Teams when using the WebRTC-based optimization. Most of these limitations have been addressed with the new SlimCore-based optimization. Check out the [Feature list with the new optimization](vdi-2.md#feature-list-with-the-new-optimization) section of our VDI 2.0 article for more information.
 
 - QoS.
 - 1080p.
