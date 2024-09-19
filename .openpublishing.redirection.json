@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "Teams/auto-install-approved-apps.md",
+      "redirect_url": "/microsoftteams/manage-apps",
+      "redirect_document_id": false
+    },    
+    {
       "source_path": "Teams/apps-working-across-m365.md",
       "redirect_url": "/microsoftteams/manage-apps-across-m365",
       "redirect_document_id": false
