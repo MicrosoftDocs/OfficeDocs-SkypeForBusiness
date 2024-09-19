@@ -7,17 +7,18 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
-ms.date: 04/08/2024
+ms.date: 09/19/2024
 ms.collection: 
   - M365-collaboration
 search.appverid: MET150
-ms.reviewer: Christian.Maier
+ms.reviewer: shruti.dhir
 f1keywords: 
 description: Learn how to purchase paid app licenses in Teams store using a credit card, a debit card, or via invoice billing.
 appliesto: 
 - Microsoft Teams
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ---
+
 # Purchase third-party Microsoft Teams apps and manage subscriptions and licenses
 
 Some Teams apps require purchasing a service subscription to use app functionality. These service subscriptions are called Software as a Service (SaaS) offers. A license is available for purchase from [AppSource](https://appsource.microsoft.com) and in the [Microsoft Teams admin center](https://admin.teams.microsoft.com).
@@ -30,23 +31,28 @@ You can purchase licenses for services offered by third-party apps from the Mana
 
 ## Purchase apps in the Teams admin center
 
-To purchase apps in Teams admin center, follow these steps:
+To purchase an app in Teams admin center, follow these steps:
 
 1. Sign in to the Teams admin center and access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**. You must be a Teams Administrator to access the page.
 
-1. Search for the app that you want by its name. To check if the app offers a paid SaaS subscription, see the **Licenses** column. Each app has one of the following values:
+1. You can search for an app by its name. To check if an app offers a paid SaaS subscription, see the **Licenses** column. Each app has one of the following values:
+
     * **Purchase**: The app offers a SaaS subscription and is available to purchase.
     * **Purchased**: The app offers a paid SaaS subscription and you have the licenses for the app.
     * **- -**: The app doesn't offer a SaaS subscription.
 
-1. Select **Purchase** to go to the **Plans and pricing** tab of the app details page. You can review the plans and pricing information available in admin center. You can select **Learn more** link to go to the app's page on [AppSource](https://appsource.microsoft.com/).
+1. Select **Purchase** on the Manage apps page to open the **Plans and pricing** tab on the app details page. You can review the plans and pricing information available in admin center. You can select **Learn more** link to go to the app's page on [AppSource](https://appsource.microsoft.com/).
 
-1. To subscribe to an app, choose the plan you want, and select **Purchase**. The checkout flow opens directly in the Teams admin center.
+   :::image type="content" source="media/app-plans-pricing.png" alt-text="Screenshot showing paid plans of an app in the Teams admin center.":::
+
+1. To subscribe to an app, choose the plan you want, and select **Buy**. The checkout dialog opens.
 
    > [!NOTE]
-   > Private plans may also be listed for purchase, which include special pricing that your organization can separately negotiate with an app developer. Such plans have the label **Private plan** under the plan name.
+   > Some plans have the label **Private plan**. Private plans are special pricing that your organization can separately negotiate with an app developer.
 
-1. Select the number of user licenses you want to buy.
+1. On the checkout screen, select the number of user licenses that you want to buy.
+
+   :::image type="content" source="media/subscription-quantity.png" alt-text="Screenshot showing the checkout dialog to select the number of licenses when an admin purchases an app.":::
 
 1. Verify that the billing account and the sold-to address are correct. If you don't already have an account, select **Add**. Only a Global Administrator can add a new billing account. For more information on billing accounts, see [Understand billing accounts](/microsoft-365/commerce/manage-billing-accounts).
 
@@ -92,7 +98,7 @@ In Teams admins center, you can manage the app subscriptions and licenses you pu
 
 To manage subscriptions, follow these steps:
 
-1. Sign in to Teams admin center and access **Teams apps** > [**Manage apps**](https://admin.teams.microsoft.com/policies/manage-apps) .
+1. Sign in to Teams admin center and access **Teams apps** > [**Manage apps**](https://admin.teams.microsoft.com/policies/manage-apps).
 
 1. Select the **Subscriptions** tab to view the subscriptions you purchased.
 
@@ -126,7 +132,7 @@ You can assign a license to one or more users in your tenant. To view and assign
 
 1. To view the licenses, select an app. The app details page shows the number of licenses available for the app on the **Licenses** tab.
 
-   :::image type="content" source="media/purchased-licenses.png" alt-text="Screenshot that shows the purchased licenses of an app."  lightbox="media/purchased-licenses1.png":::
+   :::image type="content" source="media/purchased-licenses.png" alt-text="Screenshot that shows the purchased licenses of an app.":::
 
 1. To view the license utilization and assign licenses, select **Assign licenses**. The assign licenses window appears.
 
