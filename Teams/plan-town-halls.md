@@ -111,6 +111,7 @@ If you've been using live events for your organization, you might want to unders
 |Broadcast capacity|10k|10k|- 20k</br> *- 100k In development*|
 |Concurrent events|15|15|50|
 |Control when event invites are sent|✔️|*In development*|*In development*|
+|Co-organizer capacity|N/A|10|10|
 |CVI support|✔️|*In development*|*In development*|
 |Default audio and video off|✔️|✔️|✔️|
 |Download translated transcripts|✔️|*In development*|*In development*|
