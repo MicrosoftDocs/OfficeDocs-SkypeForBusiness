@@ -59,13 +59,23 @@ The Proximity Join feature uses ultrasound by emitting an ultrasonic (19.5 kHz -
 > [!CAUTION]
 > Some younger people and animals with sensitive hearing may be able to hear it. In our testing, this sound hasn't been distressing, but take note if young people or animals are in your meeting room environment. We recommend that younger people and animals aren't present in the meeting room environments. If the beacon can be heard outside of the space for which it is intended to represent, speak with your admin. While Microsoft works with partners to ensure volume levels are adequately capped, your admin may have overridden the volume for ultrasound emission on a console or audio peripheral that will in turn may have unintended consequences.
 
+### Ultrasound supported Microsoft Teams Rooms consoles
+
+Proximity Join using Ultrasound is available on these certified consoles:
+
+- Crestron UC-2
+- Crestron MercuryX
+- Lenovo Hub 500
+- Lenovo ThinkSmart Audio G2
+- Logi Tap
+- Desktop - Teams on Windows (minimum version 24193.1805.3040.8975)
+- Desktop - Teams on macOS (minimum version 24193.1707.3028.4282)
+
 ## Adminstration and settings
 
 There are multiple ways and tools you can use to manage Ultrasound settings for Teams Rooms.
 
 ### [Teams Rooms Pro portal](#tab/portal)
-
-**Teams Room Pro Management portal**
 
 Management of proximity features is available in the Teams Rooms Pro Management portal:
 
@@ -77,8 +87,6 @@ Management of proximity features is available in the Teams Rooms Pro Management 
 
 ### [Teams Rooms app settings](#tab/app-settings)
 
-**Teams Rooms App Settings**
-
 Management of proximity features is available on Microsoft Teams Rooms admin settings:
 
 - Enable Bluetooth beacon.
@@ -87,8 +95,6 @@ Management of proximity features is available on Microsoft Teams Rooms admin set
 - Enable ultrasound beaconing.
 
 ### [XML configuration file](#tab/xml)
-
-**XML configuration file for Teams Rooms on Windows**
 
 Like most Teams Rooms on Windows features, you can update the settings of your device with the Teams Rooms XML configuration file. The XML configuration file lets you remotely deploy configuration changes to one or more Teams Rooms on Windows devices in your organization. For more information, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](/microsoftteams/rooms/xml-config-file).
 
@@ -102,14 +108,3 @@ Like most Teams Rooms on Windows features, you can update the settings of your d
 |UltrasoundSpeaker| ? | ? | Device name (string) is the acceptable value. No default value. If empty, Microsoft Teams Rooms uses console speaker provided it's a supported speaker. |
 |UltrasoundSpeakerVolume| ? | ? | Value can be from 0 to 100, default value is 0. |
 
-## Supported Microsoft Teams Rooms consoles
-
-Proximity Join is available on these certified consoles:
-
-- Crestron UC-2
-- Crestron MercuryX
-- Lenovo Hub 500
-- Lenovo ThinkSmart Audio G2
-- Logi Tap
-- Desktop - Teams on Windows (minimum version 24193.1805.3040.8975)
-- Desktop - Teams on macOS (minimum version 24193.1707.3028.4282)
