@@ -39,13 +39,15 @@ Bluetooth is a short range wireless technology that compatible devices can commu
 
 ## Ultrasound
 
-## [Teams Rooms for Windows](#tab/Windows)
+Ultrasound signaling is available on Microsoft Teams Rooms.
 
 ## [Teams Rooms for Windows](#tab/Windows)
 
 ### Teams Room Pro Management portal
 
-Management of proximity features is available on PMP:
+Proximity Join using ultrasound works by emitting an ultrasonic (19.5 kHz - 21.5 kHz) signal not audible to humans. It's more secure and accurate than Bluetooth because at reasonable volume won't penetrate through walls. The signal is paused when the Microsoft Teams Room is either in a meeting or HDMI ingest is active.
+
+Management of proximity features is available in the Teams Rooms Pro Management portal:
 
 - Allow bluetooth beaconing.
 - Automatically accept proximity-based meeting invitations.
@@ -76,17 +78,13 @@ Like most Teams Rooms on Windows features, you can update the settings of your d
 |UltrasoundSpeaker| ? | ? | Device name (string) is the acceptable value. No default value. If empty, MTR uses console speaker provided it's a supported speaker |
 |UltrasoundSpeakerVolume| ? | ? | Value can be from 0 to 100, default value is 0 |
 
-Proximity Join using ultrasound works by emitting an ultrasonic (19.5 kHz - 21.5 kHz) signal not audible to humans. It's more secure and accurate than Bluetooth because at reasonable volume won't penetrate through walls. The signal is paused when the Microsoft Teams Room is either in a meeting or HDMI ingest is active.
-
-Proximity Join using ultrasound works by emitting an ultrasonic (19.5 kHz - 21.5 kHz) signal not audible to humans. It's more secure and accurate than Bluetooth because at reasonable volume won't penetrate through walls. The signal is paused when the Microsoft Teams Room is either in a meeting or HDMI ingest is active.
-
 > [!NOTE]
 > Room Remote can't be used with ultrasound only because the ultrasound beacon is paused while the Teams Room is in a call. Room Remote can't use ultrasound to verify that the personal device is in proximity with the room, so Room Remote won't work if only ultrasound is enabled.
 
 > [!CAUTION]
 > Some younger people and animals with sensitive hearing may be able to hear it. In our testing, this sound hasn't been distressing, but take note if young people or animals are in your meeting room environment. We recommend that younger people and animals aren't present in the meeting room environments. If the beacon can be heard outside of the space for which it is intended to represent, speak with your admin. While Microsoft works with partners to ensure volume levels are adequately capped, your admin may have overridden the volume for ultrasound emission on a console or audio peripheral.
 
-## Supported devices
+## Supported Teams Rooms consoles
 
 Proximity Join is available on Microsoft Teams Rooms on Windows on the following consoles:
 
@@ -100,6 +98,4 @@ Proximity Join is available on Microsoft Teams Rooms on Windows on the following
   
 ### [Teams Rooms for Android](#tab/Android)
 
-Proximity join via ultrasound is currently not available for Teams Rooms on Android.
-
-
+Proximity Join using ultrasound isn't currently available for Teams Rooms on Android.
