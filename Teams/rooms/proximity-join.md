@@ -48,6 +48,8 @@ Bluetooth connectivity is available on both Microsoft Teams Rooms on Android and
 
 There are multiple ways and tools you can use to manage Bluetooth settings for Teams Rooms.
 
+### [Teams Rooms Pro portal](#tab/bt-portal)
+
 **Teams Room Pro Management portal**
 
 Management of proximity features is available in the Teams Rooms Pro Management portal:
@@ -55,7 +57,9 @@ Management of proximity features is available in the Teams Rooms Pro Management 
 - Allow bluetooth beaconing.
 - Automatically accept proximity-based meeting invitations.
 - Remote control from personal devices.
-  
+
+### [Teams Rooms app settings](#tab/bt-app-settings)
+
 **Teams Rooms App Settings**
 
 Management of proximity features is available on Microsoft Teams Rooms admin settings:
@@ -79,6 +83,8 @@ Management of proximity features is available on Microsoft Teams Rooms admin set
 - Allow bluetooth beaconing.
 - Automatically accept proximity-based meeting invitations.
 - Remote control from personal devices.
+
+### [XML configuration file](#tab/bt-xml)
 
 #### XML configuration file for Teams Rooms on Windows
 
@@ -108,6 +114,8 @@ The Proximity Join feature uses ultrasound by emitting an ultrasonic (19.5 kHz -
 
 There are multiple ways and tools you can use to manage Ultrasound settings for Teams Rooms.
 
+### [Teams Rooms Pro portal](#tab/portal)
+
 **Teams Room Pro Management portal**
 
 Management of proximity features is available in the Teams Rooms Pro Management portal:
@@ -115,7 +123,9 @@ Management of proximity features is available in the Teams Rooms Pro Management 
 - Automatically accept proximity-based meeting invitations.
 - Remote control from personal devices.
 - Enable ultrasound beacon.
- 
+
+### [Teams Rooms app settings](#tab/app-settings)
+
 **Teams Rooms App Settings**
 
 Management of proximity features is available on Microsoft Teams Rooms admin settings:
@@ -123,6 +133,8 @@ Management of proximity features is available on Microsoft Teams Rooms admin set
 - Automatically accept proximity-based meeting invitations.
 - Remote control from personal devices.
 - Enable ultrasound beacon.
+
+### [XML configuration file](#tab/xml)
 
 **XML configuration file for Teams Rooms on Windows**
 
