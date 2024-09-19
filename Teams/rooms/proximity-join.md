@@ -44,57 +44,6 @@ Bluetooth connectivity is available on both Microsoft Teams Rooms on Android and
 > [!NOTE]
 > Teams Rooms that are appearing in the list of discovered rooms in the Teams app using Bluetooth are sorted by signal strength in descending order.
 
-### Bluetooth settings
-
-There are multiple ways and tools you can use to manage Bluetooth settings for Teams Rooms.
-
-### [Teams Rooms Pro portal](#tab/bt-portal)
-
-**Teams Room Pro Management portal**
-
-Management of proximity features is available in the Teams Rooms Pro Management portal:
-
-- Allow bluetooth beaconing.
-- Automatically accept proximity-based meeting invitations.
-- Remote control from personal devices.
-
-### [Teams Rooms app settings](#tab/bt-app-settings)
-
-**Teams Rooms App Settings**
-
-Management of proximity features is available on Microsoft Teams Rooms admin settings:
-
-- Allow bluetooth beaconing.
-- Automatically accept proximity-based meeting invitations.
-- Remote control from personal devices.
-
-**Teams Room Pro Management portal**
-
-Management of proximity features is available in the Teams Rooms Pro Management portal:
-
-- Allow bluetooth beaconing.
-- Automatically accept proximity-based meeting invitations.
-- Remote control from personal devices.
- 
-#### Teams Rooms App Settings
-
-Management of proximity features is available on Microsoft Teams Rooms admin settings:
-
-- Allow bluetooth beaconing.
-- Automatically accept proximity-based meeting invitations.
-- Remote control from personal devices.
-
-### [XML configuration file](#tab/bt-xml)
-
-#### XML configuration file for Teams Rooms on Windows
-
-Like most Teams Rooms on Windows features, you can update the settings of your device with the Teams Rooms XML configuration file. The XML configuration file lets you remotely deploy configuration changes to one or more Teams Rooms on Windows devices in your organization. For more information, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](/microsoftteams/rooms/xml-config-file).
-
-|**Paramater**|**Type**|**Level**|**Usage**|
-|:-------- |:-------- |:-------- |:-------- |
-|BluetoothAdvertisementEnabled|Boolean ❷|First ❶|Enabled by default.|
-|AutoAcceptProximateMeetingInvitations|Boolean ❷|First ❶|If true, proximity based meeting invitations using Bluetooth are automatically accepted. Enabled by default.|
-
 ## Ultrasound
 
 Ultrasound signaling is available on Microsoft Teams Rooms on Windows and can be used to along with Bluetooth for people that want to join the Teams Rooms console to a meeting they're holding.
@@ -110,7 +59,7 @@ The Proximity Join feature uses ultrasound by emitting an ultrasonic (19.5 kHz -
 > [!CAUTION]
 > Some younger people and animals with sensitive hearing may be able to hear it. In our testing, this sound hasn't been distressing, but take note if young people or animals are in your meeting room environment. We recommend that younger people and animals aren't present in the meeting room environments. If the beacon can be heard outside of the space for which it is intended to represent, speak with your admin. While Microsoft works with partners to ensure volume levels are adequately capped, your admin may have overridden the volume for ultrasound emission on a console or audio peripheral that will in turn may have unintended consequences.
 
-### Ultrasound settings
+## Adminstration and settings
 
 There are multiple ways and tools you can use to manage Ultrasound settings for Teams Rooms.
 
@@ -120,9 +69,11 @@ There are multiple ways and tools you can use to manage Ultrasound settings for 
 
 Management of proximity features is available in the Teams Rooms Pro Management portal:
 
+- Allow bluetooth beaconing.
+- Remote control from personal devices.
 - Automatically accept proximity-based meeting invitations.
 - Remote control from personal devices.
-- Enable ultrasound beacon.
+- Enable ultrasound beaconing.
 
 ### [Teams Rooms app settings](#tab/app-settings)
 
@@ -130,9 +81,10 @@ Management of proximity features is available in the Teams Rooms Pro Management 
 
 Management of proximity features is available on Microsoft Teams Rooms admin settings:
 
+- Enable Bluetooth beacon.
 - Automatically accept proximity-based meeting invitations.
 - Remote control from personal devices.
-- Enable ultrasound beacon.
+- Enable ultrasound beaconing.
 
 ### [XML configuration file](#tab/xml)
 
