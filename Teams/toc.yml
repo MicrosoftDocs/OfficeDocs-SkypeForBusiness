@@ -1629,8 +1629,6 @@ items:
           href: adobe-acrobat-pdf-viewer-teams.md
         - name: Manage Microsoft 365 and custom connectors
           href: m365-custom-connectors.md
-        - name: Auto install approved apps
-          href: auto-install-approved-apps.md
 
     - name: Manage custom apps
       items:
