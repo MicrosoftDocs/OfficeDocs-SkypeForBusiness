@@ -41,69 +41,27 @@ Bluetooth is a short range wireless technology that compatible devices can commu
 
 ## [Teams Rooms for Windows](#tab/Windows)
 
-Proximity Join via ultrasound works by emitting an ultrasonic (19.5 kHz - 21.5 kHz) signal not audible to humans. It's more secure and accurate than Bluetooth because at reasonable volume won't penetrate through walls. The signal is paused when the Microsoft Teams Room is either in a meeting or HDMI ingest is active.
-
-Note: Room Remote cannot be used with ultrasound only because the ultrasound beacon is paused while the Teams Room is in a call. Room Remote cannot use ultrasound to verify that the personal device is in proximity with the room, and therefore, Room Remote will not work if only ultrasound is enabled.
-
-> [!CAUTION]
-> Some younger people and animals with sensitive hearing may be able to hear it. In our testing, this sound hasn't been distressing, but take note if young people or animals are in your meeting room environment. We recommend that younger people and animals are not present in the meeting room environments. If the beacon can be heard outside of the space for which it is intended to represent, speak to your admin. While Microsoft works with partners to ensure volume levels are adequately capped, your admin may have overridden the volume for ultrasound emission on a console or audio peripheral.
-
-Supported devices:
-
-- Microsoft Teams Rooms on Windows with the following consoles:
-
-  - Crestron UC-2
-    
-  - Crestron MercuryX
-    
-  - Lenovo Hub 500
-    
-  - Lenovo ThinkSmart Audio G2
-    
-  - Logi Tap
-    
-- Desktop - Teams on Windows (minimum version 24193.1805.3040.8975)
-
-- Desktop - Teams on MacOS (minimum version 24193.1707.3028.4282)
-
-### [Teams Rooms for Android](#tab/Android)
-
-Proximity join via ultrasound is currently not available for Teams Rooms on Android.
-
-
-## Admin Controls
-
-Admins have the ability to configure each Microsoft Teams Room to emit either Bluetooth, ultrasound, or both depending on the Teams Rooms device's capability.
-
 ## [Teams Rooms for Windows](#tab/Windows)
 
-### Pro Management Portal
+### Teams Room Pro Management portal
 
 Management of proximity features is available on PMP:
 
-- Allow bluetooth beaconing
-
-  - Automatically accept proximity-based meeting invitations
-  
-  - Remote control from personal devices
-  
-- Enable ultrasound beacon
-
-  - Automatically accept proximity-based meeting invitations
+- Allow bluetooth beaconing.
+- Automatically accept proximity-based meeting invitations.
+- Remote control from personal devices.
+- Enable ultrasound beacon.
+- Automatically accept proximity-based meeting invitations.
   
 ### Teams Rooms App Settings
 
 Management of proximity features is available on Microsoft Teams Rooms admin settings:
 
-- Allow bluetooth beaconing
-
-  - Automatically accept proximity-based meeting invitations
-  
-  - Remote control from personal devices
-  
-- Enable ultrasound beacon
-
-  - Automatically accept proximity-based meeting invitations
+- Allow bluetooth beaconing.
+- Automatically accept proximity-based meeting invitations.
+- Remote control from personal devices.
+- Enable ultrasound beacon.
+- Automatically accept proximity-based meeting invitations.
 
 ### XML configuration file for Teams Rooms on Windows
 
@@ -118,33 +76,7 @@ Like most Teams Rooms on Windows features, you can update the settings of your d
 |UltrasoundSpeaker| ? | ? | Device name (string) is the acceptable value. No default value. If empty, MTR uses console speaker provided it's a supported speaker |
 |UltrasoundSpeakerVolume| ? | ? | Value can be from 0 to 100, default value is 0 |
 
-### [Teams Rooms for Android](#tab/Android)
-
-### Teams Rooms Pro Management Portal
-
-Management of proximity features is available in the Teams Rooms Pro Management portal:
-
-- Allow Bluetooth beaconing.
-- Automatically accept proximity-based meeting invitations.
-- Remote control from personal devices.
-- Enable ultrasound beacon.
-- Automatically accept proximity-based meeting invitations.
-  
-### Teams Rooms App Settings
-
-Management of proximity features is available on Microsoft Teams Rooms admin settings:
-
-- Allow Bluetooth beaconing.
-- Automatically accept proximity-based meeting invitations.
-- Remote control from personal devices.
-- Enable ultrasound beacon.
-- Automatically accept proximity-based meeting invitations.
-  
-## Bluetooth
-
-Bluetooth is a short range wireless technology that compatible devices can communicate over. This signal can penetrate through walls. The signal isn't paused when Microsoft Teams Room is in a meeting. Rooms appearing in the list of discovered rooms using Bluetooth are sorted by signal strength in descending order.
-
-## Ultrasound
+Proximity Join using ultrasound works by emitting an ultrasonic (19.5 kHz - 21.5 kHz) signal not audible to humans. It's more secure and accurate than Bluetooth because at reasonable volume won't penetrate through walls. The signal is paused when the Microsoft Teams Room is either in a meeting or HDMI ingest is active.
 
 Proximity Join using ultrasound works by emitting an ultrasonic (19.5 kHz - 21.5 kHz) signal not audible to humans. It's more secure and accurate than Bluetooth because at reasonable volume won't penetrate through walls. The signal is paused when the Microsoft Teams Room is either in a meeting or HDMI ingest is active.
 
@@ -165,3 +97,9 @@ Proximity Join is available on Microsoft Teams Rooms on Windows on the following
 - Logi Tap
 - Desktop - Teams on Windows (minimum version 24193.1805.3040.8975)
 - Desktop - Teams on macOS (minimum version 24193.1707.3028.4282)
+  
+### [Teams Rooms for Android](#tab/Android)
+
+Proximity join via ultrasound is currently not available for Teams Rooms on Android.
+
+
