@@ -35,8 +35,8 @@ Latest version supports following functionality:
 - Redirect of incoming PSTN call to a Call queue or Auto attendant number to an alternative Call queue or Auto attendant number.
 - VoIP Fallback. If a VoIP call can't be initiated and the receiving party has a PSTN number, a PSTN call is attempted.
 - VoIP calls between local users. If both users are registered behind the same SBA, a VoIP call can be initiated instead of PSTN call, and the SBA will support the call.
-To get the latest version please contact your SBC vendor. For the list of supported SBC vendors please refer to [Session Border Controller configuration](https://learn.microsoft.com/en-us/microsoftteams/direct-routing-survivable-branch-appliance#session-border-controller-configuration).
-To learn more about about Survivable Branch Appliance (SBA), see [Survivable Branch Appliance (SBA) for Direct Routing](https://learn.microsoft.com/en-us/microsoftteams/direct-routing-survivable-branch-appliance).
+To get the latest version please contact your SBC vendor. For the list of supported SBC vendors please refer to [Session Border Controller configuration](/microsoftteams/direct-routing-survivable-branch-appliance#session-border-controller-configuration).
+To learn more about about Survivable Branch Appliance (SBA), see [Survivable Branch Appliance (SBA) for Direct Routing](/microsoftteams/direct-routing-survivable-branch-appliance).
 
 ## SBC certificates EKU extensions test
 
