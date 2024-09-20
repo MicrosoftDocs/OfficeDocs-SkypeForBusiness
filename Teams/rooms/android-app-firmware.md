@@ -355,7 +355,8 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 | Yealink MeetingBar A40 | `289.320.0.31` | N/A | `1449/1.0.96.2024080804`| `5.0.6152.0` | `1.0.0.202402202353.productt` | September 17, 2024 |
 | Yealink MeetingBoard 65" | `155.15.0.71` | N/A | `1449/1.0.96.2024080804`| `5.0.6152.0` | `1.0.0.202402202353.product` | September 17, 2024 |
 | Yealink MeetingBoard 86" | `155.15.0.71` |N/A | `1449/1.0.96.2024080804`| `5.0.6152.0` | `1.0.0.202402202353.product` | September 17, 2024 |
-| Yealink CTP18 | `137.320.0.53`   | N/A | `1449/1.0.96.2024080804`| `5.0.6152.0` | `1.0.0.202402202353.product` | September 17, 2024 |
+| Yealink CTP18 | `137.320.0.53` | N/A | `1449/1.0.96.2024080804`| `5.0.6152.0` | `1.0.0.202402202353.product` | September 17, 2024 |
+| Yealink CTP25 | `311.320.0.25` | N/A | `1449/1.0.96.2024080804`| `5.0.6152.0` | `1.0.0.202402202353.product` | September 18, 2024 |
 | Yealink MeetingBar A10 | `278.320.0.36` | N/A | `1449/1.0.96.2023111001`| `5.0.6061.0` | `1.0.0.202306202019.product` | February 15, 2024 |
 | Yealink MeetingBar A20 | `133.320.0.39` | N/A | `1449/1.0.96.2023111001`| `5.0.6061.0` | `1.0.0.202306202019.product` | February 15, 2024 |
 | Yealink MeetingBar A30 | `133.320.0.39` | N/A | `1449/1.0.96.2023111001`| `5.0.6061.0` | `1.0.0.202306202019.product` | February 15, 2024 |
