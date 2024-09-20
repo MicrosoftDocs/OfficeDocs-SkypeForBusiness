@@ -351,9 +351,9 @@ By default, the MsTeamsPlugin automatically downloads and installs the right Sli
 
 #### Known issues
 
-- Azure RemoteApps and Citrix Published Apps aren't supported at this time.
+- AVD RemoteApps and Citrix Published Apps aren't supported at this time.
+- Screen Capture Protection (SCP) causes the presenter's screen to show as a black screen with only the mouse cursor on top it (as seen by the receiving side).
 - Calls drop on Teams running on the local machine that has an HID peripheral connected if a user launches a virtual desktop from that same local machine and logs into Teams.
-- If you try to join a meeting right after launching new Teams (for example, selecting a Teams deep link in Outlook without having new Teams running), the call might drop.
 - Camera self preview isn't supported at this time (either under Settings/Devices, or while on a call when selecting the down arrow on the camera icon).
 
 #### Citrix virtual channel allow list
