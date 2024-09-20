@@ -241,8 +241,6 @@ The following are known issues and considerations:
 
 - Reverse number lookup against Microsoft Entra ID Contacts isn't performed. 
 
-- The SBA doesn't support call forwarding settings. 
-
 - Making an emergency call to an emergency number configured for dynamic emergency calling (E911) is not supported.
 
 ## Report an issue
