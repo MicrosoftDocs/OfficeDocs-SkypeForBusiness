@@ -377,6 +377,10 @@ The new Teams client requires three custom virtual channels to function: MSTEAMS
 
 Users who have App Protection enabled can still share their screen and apps while using the new optimization. Sharing requires VDA version 2402 or higher, and CWA for Windows 2309.1 or higher. Users on lower versions will end up sharing a black screen instead when the App Protection module is installed and enabled.
 
+#### AVD Screen Capture Protection and Microsoft Teams compatibility
+
+Users who have [Screen Capture Protection](/azure/virtual-desktop/screen-capture-protection?tabs=intune) (SCP) enabled can't share their screens or apps. Other people on the call can only see a black screen. If you want to allow users to share their screen even with SCP enabled, you need to disable SlimCore optimization in the Teams Admin Center policy (so the user will be optimized with WebRTC), and set the SCP policy to **Block screen capture on client**.
+
 #### Troubleshooting
 
 - Not optimized with SlimCore and instead you see:</br>"Azure Virtual Desktop Media Optimized"</br>"Citrix HDX Optimized"
