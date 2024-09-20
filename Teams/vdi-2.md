@@ -127,7 +127,7 @@ Some policies might change these registry keys and block app installation in you
 
 ## Verifying that the end point is optimized
 
-Once you meet all the minimum requirements, launching new Teams for the first time will still be in WebRTC optimized mode by default.
+Once you meet all the minimum requirements, launching new Teams for the first time finds it still in WebRTC optimized mode by default.
 
 > [!IMPORTANT]
 > For first run experiences, two app restarts are required to get the new optimization.
@@ -193,7 +193,7 @@ New Teams loads WebRTC or SlimCore at launch time. If virtual desktop sessions a
 > [!NOTE]
 > MsTeamsVdi.exe is the process that makes all the TCP/UDP network connections to the Teams relays/conference servers or other peers.
 >
-> SlimCore MSIX manifest will add the following rules to the Firewall:
+> SlimCore MSIX manifest adds the following rules to the Firewall:
 > `<Rule  Direction="in" IPProtocol="TCP"  Profile="all" />`
 > `<Rule Direction="in" IPProtocol="UDP" Profile="all" />`
 
@@ -262,7 +262,7 @@ Implement QoS settings for endpoints and network devices and determine how you w
   - defining DSCP markings
 
 > [!IMPORTANT]
-> We recommend implementing these QoS policies using the endpoint source ports and a source and destination IP address of "any". This will catch both incoming and outgoing media traffic on the internal network.
+> We recommend implementing these QoS policies using the endpoint source ports and a source and destination IP address of "any". This catches both incoming and outgoing media traffic on the internal network.
 
 ### Technologies that aren't recommended with Microsoft Teams in VDI
 
@@ -287,7 +287,7 @@ This policy is now expanded with an additional argument as the only configuratio
 |New-CsTeamsVdiPolicy    |Allows administrators to define new VDI policies that can be assigned to users for controlling Teams features related to meetings on a VDI environment. |`PS C:\> New-CsTeamsVdiPolicy -Identity RestrictedUserPolicy -VDI2Optimization "Disabled"` |The command shown here uses the New-CsTeamsVdiPolicy cmdlet to create a new VDI policy with the identity RestrictedUserPolicy. This policy uses all the default values for a VDI policy except one: VDI2Optimization. In this example, users with this policy can't be optimized with SlimCore. |
 |Grant-CsTeamsVdiPolicy  |Allows administrators to assign a Teams VDI policy at a per-user scope to control the type of meetings that a user can create, the features they can access on an unoptimized VDI environment, and whether a user can be optimized with the new optimization mode that's based on SlimCore. |`PS C:\> Grant-CsTeamsVdiPolicy -identity "Ken Myer" -PolicyName RestrictedUserPolicy` |In this example, a user with identity "Ken Myer" is assigned the RestrictedUserPolicy. |
 |Set-CsTeamsVdiPolicy    |Allows administrators to update existing VDI policies. |`PS C:\> Set-CsTeamsVdiPolicy -Identity RestrictedUserPolicy -VDI2Optimization "Disabled"` |The command shown here uses the Set-CsTeamsVdiPolicy cmdlet to update an existing VDI policy with the Identity RestrictedUserPolicy. This policy uses all the existing values except one: VDI2Optimization; in this example, users with this policy can't be optimized with SlimCore. |
-|Remove-CsTeamsVdiPolicy |Allows administrators to delete a previously created Teams VDI policy. Users with no explicitly assigned policy will fall back to the default policy in the organization. |`PS C:\> Remove-CsTeamsMeetingPolicy -Identity RestrictedUserPolicy` |In the example shown above, the command deletes the restricted user policy from the organization's list of policies and removes all assignments of this policy from users who have the policy assigned. |
+|Remove-CsTeamsVdiPolicy |Allows administrators to delete a previously created Teams VDI policy. Users with no explicitly assigned policy fall back to the default policy in the organization. |`PS C:\> Remove-CsTeamsMeetingPolicy -Identity RestrictedUserPolicy` |In the example shown above, the command deletes the restricted user policy from the organization's list of policies and removes all assignments of this policy from users who have the policy assigned. |
 |Get-CsTeamsVdiPolicy    |Allows administrators to retrieve information about all the VDI policies that have been configured in the organization. |`PS C:\> Get-CsTeamsVdiPolicy -Identity SalesPolicy` |In this example, Get-CsTeamsVdiPolicy is used to return the per-user meeting policy that has an Identity SalesPolicy. Because identities are unique, this command doesn't return more than one item. |
 
 ### Feature list with the new optimization
@@ -375,11 +375,11 @@ The new Teams client requires three custom virtual channels to function: MSTEAMS
 
 #### Citrix App Protection and Microsoft Teams compatibility
 
-Users who have App Protection enabled can still share their screen and apps while using the new optimization. Sharing requires VDA version 2402 or higher, and CWA for Windows 2309.1 or higher. Users on lower versions will end up sharing a black screen instead when the App Protection module is installed and enabled.
+Users who have App Protection enabled can still share their screen and apps while using the new optimization. Sharing requires VDA version 2402 or higher, and CWA for Windows 2309.1 or higher. Users on lower versions end up sharing a black screen instead when the App Protection module is installed and enabled.
 
 #### AVD Screen Capture Protection and Microsoft Teams compatibility
 
-Users who have [Screen Capture Protection](/azure/virtual-desktop/screen-capture-protection?tabs=intune) (SCP) enabled can't share their screens or apps. Other people on the call can only see a black screen. If you want to allow users to share their screen even with SCP enabled, you need to disable SlimCore optimization in the Teams Admin Center policy (so the user will be optimized with WebRTC), and set the SCP policy to **Block screen capture on client**.
+Users who have [Screen Capture Protection](/azure/virtual-desktop/screen-capture-protection?tabs=intune) (SCP) enabled can't share their screens or apps. Other people on the call can only see a black screen. If you want to allow users to share their screen even with SCP enabled, you need to disable SlimCore optimization in the Teams Admin Center policy (so the user is optimized with WebRTC), and set the SCP policy to **Block screen capture on client**.
 
 #### Troubleshooting
 
