@@ -3,7 +3,7 @@ title: Get started with Teams for frontline workers
 author: lana-chin
 ms.author: v-chinlana
 manager: jtremper
-ms.reviewer: aaglick
+ms.reviewer:
 ms.topic: landing-page
 audience: admin
 ms.service: msteams
@@ -16,7 +16,7 @@ ms.collection:
   - highpri
 appliesto: 
   - Microsoft Teams
-ms.date: 11/27/2023
+ms.date: 09/20/2024
 
 ---
 
