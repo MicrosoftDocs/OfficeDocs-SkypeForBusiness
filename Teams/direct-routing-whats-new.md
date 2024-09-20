@@ -22,6 +22,21 @@ ms.collection:
 # What's new for Direct Routing
 
 This article describes what's new in Direct Routing. Check back often for updates.
+## New Survivable Branch Appliance version (v2024.8.15.1) is available
+New Survivable Branch Appliance (SBA) for Direct Routing version is available starting September 23, 2024. 
+Latest version supports following functionality:
+- Making PSTN calls through the local SBA/SBC with media flowing through the SBC.
+- Receiving PSTN calls through the local SBA/SBC with media flowing through the SBC.
+- Hold and resume of PSTN calls.
+- Blind transfer.
+- Call forwarding to a single phone number or Teams user.
+- Unanswered call forwarding to single phone number or Teams user.
+- Redirect of incoming PSTN call to a Call queue or Auto attendant number to a local agent.
+- Redirect of incoming PSTN call to a Call queue or Auto attendant number to an alternative Call queue or Auto attendant number.
+- VoIP Fallback. If a VoIP call can't be initiated and the receiving party has a PSTN number, a PSTN call is attempted.
+- VoIP calls between local users. If both users are registered behind the same SBA, a VoIP call can be initiated instead of PSTN call, and the SBA will support the call.
+To get the latest version please contact your SBC vendor. For the list of supported SBC vendors please refer to [Session Border Controller configuration](/microsoftteams/direct-routing-survivable-branch-appliance#session-border-controller-configuration).
+To learn more about about Survivable Branch Appliance (SBA), see [Survivable Branch Appliance (SBA) for Direct Routing](/microsoftteams/direct-routing-survivable-branch-appliance).
 
 ## SBC certificates EKU extensions test
 
