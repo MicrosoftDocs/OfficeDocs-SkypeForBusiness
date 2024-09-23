@@ -231,7 +231,7 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |IP-DECT Server 6500<sup>3</sup> |PCS22Ab |PCS24B|IP-DECT Server |   |
 |          |Virtual IP-DECT Server One<sup>3</sup> |PCS22Ab |PCS24B |IP-DECT Server |   |
 |          |IP-DECT Base Station<sup>3</sup> |PCS22Ab |PCS24B |IP-DECT Base Station|   |
-|          |RFP6 TDM Digital Base Station<sup>3</sup> |PCS16H |PCS16H |DECT Base Station |   |
+|          |RFP6 TDM Digital Base Station<sup>3</sup> |PCS16E_ |PCS16E_ |DECT Base Station |   |
 |          |IP-DECT Gateway<sup>3</sup> |PCS24Ab |PCS24B |IP-DECT Gateway |   |
 |**Ascom**|       |           |           |   |[Ascom Support](https://www.ascom.com/products-and-services/services/support-and-maintenance/)|
 |          |Ascom d43<sup>3</sup>        |2.11.4     |3.0.8     |Handset |   |
