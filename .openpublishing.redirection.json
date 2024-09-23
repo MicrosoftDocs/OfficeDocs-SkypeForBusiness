@@ -2,7 +2,7 @@
   "redirections": [
     {
       "source_path": "Teams/auto-install-approved-apps.md",
-      "redirect_url": "/microsoftteams/manage-apps",
+      "redirect_url": "https://admin.microsoft.com/#/MessageCenter/:/messages/MC841224",
       "redirect_document_id": false
     },    
     {
