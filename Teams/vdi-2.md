@@ -38,9 +38,6 @@ New VDI solution for Teams is a new architecture for optimizing the delivery of 
 
 ## System requirements
 
-
-
-
 |Requirement                       |Minimum version |
 |----------------------------------|----------------|
 |New Teams                         |24193.1805.3040.8975 (for Azure Virtual Desktop/Windows 365) </br>24165.1410.2974.6689 (for Citrix single session VDAs) </br>24243.1309.3132.617 (for Citrix multi-session VDAs) |
