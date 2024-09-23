@@ -5194,6 +5194,36 @@
   "source_path": "Teams/teams-analytics-and-reports/pstn-blocked-users-report.md",
   "redirect_url": "/microsoftteams/teams-analytics-and-reports/teams-reporting-reference",
   "redirect_document_id": false
-}
+},
+{
+  "source_path": "Skype/SfbPartnerCertification/certification/overview.md",
+  "redirect_url": "Teams/devices/certification-overview",
+  "redirect_document_id": false
+},
+{
+  "source_path": "Skype/SfbPartnerCertification/certification/how-to-join.md",
+  "redirect_url": "Teams/devices/certification-join",
+  "redirect_document_id": false
+},
+{
+  "source_path": "Skype/SfbPartnerCertification/certification/test-spec.md",
+  "redirect_url": "Teams/devices/certification-specifications",
+  "redirect_document_id": false
+},
+{
+  "source_path": "Skype/SfbPartnerCertification/certification/device-ip-phones.md",
+  "redirect_url": "Teams/devices/teams-ip-phones",
+  "redirect_document_id": false
+},
+{
+  "source_path": "Skype/SfbPartnerCertification/certification/devices-usb-devices.md",
+  "redirect_url": "Teams/devices/usb-devices",
+  "redirect_document_id": false
+},
+{
+  "source_path": "Skype/SfbPartnerCertification/certification/devices-pcs.md",
+  "redirect_url": "Teams/devices/usb-devices",
+  "redirect_document_id": false
+},
 ]
 }
