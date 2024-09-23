@@ -80,7 +80,7 @@ If you're a vendor seeking to join the certification program, see [How to Join](
 
 ### Additional Resources
 
-Learn about [Skype for Business certification](../certification/overview.md) .
+Learn about [Microsoft Teams Device Certification Program overview](../../../Teams/devices/certification-overview.md).
 
 For companies that want to certify their Wi-Fi products, contact Ixia, a third-party vendor responsible for Skype for Business Wi-Fi certification: TestSkype@ixiacom.com
 
