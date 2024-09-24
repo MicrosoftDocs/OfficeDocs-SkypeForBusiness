@@ -183,7 +183,7 @@ New Teams loads WebRTC or SlimCore at launch time. If virtual desktop sessions a
 
 |Reconnecting options                                        |If current optimization is WebRTC |If current optimization is SlimCore  |
 |------------------------------------------------------------|----------------------------------|-------------------------------------|
-|Reconnecting from an endpoint **without** the MsTeamsPlugin |Then WebRTC classic optimization </br>("AVD Media Optimized") </br>("Citrix HDX Media Optimized") |Then fallback (local SlimCore)</br>After restart, the user is on WebRTC classic optimization. Otherwise, Teams isn't restarted and the user is in fallback mode (server -side rendering). |
+|Reconnecting from an endpoint **without** the MsTeamsPlugin |Then WebRTC classic optimization </br>("AVD Media Optimized") </br>("Citrix HDX Media Optimized") |Then restart dialogue prompt</br>After restart, the user is on WebRTC classic optimization. Otherwise, Teams isn't restarted and the user is in fallback mode (server -side rendering). |
 |Reconnecting from an endpoint **with** the MsTeamsPlugin    |Then WebRTC classic optimization</br>("AVD Media Optimized") </br>("Citrix HDX Media Optimized") |Then new SlimCore-based optimization |
 
 ## Networking considerations
