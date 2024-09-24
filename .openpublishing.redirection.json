@@ -5194,6 +5194,11 @@
   "source_path": "Teams/teams-analytics-and-reports/pstn-blocked-users-report.md",
   "redirect_url": "/microsoftteams/teams-analytics-and-reports/teams-reporting-reference",
   "redirect_document_id": false
+},
+{
+  "source_path": "Skype/SfbServer/deploy/deploy-clients/skype-room-system-exchange-and-skype-accounts.md",
+  "redirect_url": "Teams/rooms/create-resource-account",
+  "redirect_document_id": false
 }
 ]
 }
