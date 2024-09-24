@@ -5225,5 +5225,21 @@
   "redirect_url": "Teams/devices/usb-devices",
   "redirect_document_id": false
 },
+{
+  "source_path": "Skype/SfbPartnerCertification/lync-cert/usb-and-video.md",
+  "redirect_url": "Teams/devices/usb-devices",
+  "redirect_document_id": false
+},
+{
+  "source_path": "Skype/SfbPartnerCertification/lync-cert/meeting-room-devices.md",
+  "redirect_url": "Teams/devices/usb-devices",
+  "redirect_document_id": false
+},
+{
+  "source_path": "Skype/SfbPartnerCertification/lync-cert/room-systems.md",
+  "redirect_url": "Teams/rooms/certified-hardware",
+  "redirect_document_id": false
+}
+
 ]
 }

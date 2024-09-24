@@ -134,8 +134,6 @@ See the following for more information on supported and certified devices:
 
 - [Solutions Catalog for Personal Peripherals](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)
 
-- [Phones and devices qualified for Microsoft Lync](../../SfbPartnerCertification/lync-cert/ip-phones.md)
-
 The environment and surrounding area where users are meeting and using audio and video devices is another significant factor for audio and video quality. Users calling from a noisy environment will have echoed, muffled, and unclear audio. Users in a dark or low light environment won't be able to produce bright, clear image quality for video. In a conference room setting, the location of the microphone and video device have a direct impact on the sound and image quality that participants will receive.
 
 To get a clearer picture of a user's audio and video experience use the Skype for Business app **Tools** > **Options** > **Audio Device** or **Video Device** to make changes to the device in use and customize its settings. You can also check the audio quality of a call by clicking **Check Call Quality**. If they select **Check Call Quality**, they can then report the quality and issues found with the test call.
