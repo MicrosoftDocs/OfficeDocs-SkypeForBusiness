@@ -5239,6 +5239,11 @@
   "source_path": "Skype/SfbPartnerCertification/lync-cert/room-systems.md",
   "redirect_url": "Teams/rooms/certified-hardware",
   "redirect_document_id": false
+},
+{
+  "source_path": "Skype/SfbPartnerCertification/lync-cert/ip-phones.md",
+  "redirect_url": "Teams/devices/teams-ip-phones",
+  "redirect_document_id": false
 }
 
 ]
