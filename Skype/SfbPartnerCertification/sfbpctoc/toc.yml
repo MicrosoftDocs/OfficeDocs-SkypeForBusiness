@@ -102,6 +102,3 @@
           href: ../lync-cert/online-dedicated.md
     - name: Video
       href: ../lync-cert/video-solutions-qualified.md
-      items: 
-        - name: Meeting room devices and solutions
-          href: ../lync-cert/meeting-room-devices.md
