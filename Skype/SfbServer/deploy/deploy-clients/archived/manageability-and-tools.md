@@ -32,7 +32,7 @@ See the following article for more details:
 
 - Confirm Autodiscover is set up and an internal DNS A/CNAME RECORD is available for autodiscover.domain.com.
     
-- Ping autodiscover (e.g., Ping Autodiscover.contoso.com).
+- Ping autodiscover (for example, Ping Autodiscover.contoso.com).
     
 - Test your Autodiscover service with the Microsoft Connectivity Analyzer Tool. Choose the first test, "I can't log on with Office Outlook."
     
@@ -96,7 +96,7 @@ Verify that you use a KMS for activating software. If so, you might need to chec
   
 ## License keys
 
-Skype Room System runs the Skype for Business desktop client in the background. If Skype Room System is a domain member, it will discover your KMS. (and if it has the Volume Licensing KMS Key it will activate automatically). Volume Licensing also provides a MAK, which you enter as it displays xxxxx-xxxxx-xxxxx-xxxxx. (You need Internet access to activate using MAK but not KMS). For more information, see Volume activation of Office 2013.
+Skype Room System runs the Skype for Business desktop client in the background. If Skype Room System is a domain member, it will discover your KMS. (and if it has the Volume Licensing KMS Key it activates automatically). Volume Licensing also provides a MAK, which you enter as it displays xxxxx-xxxxx-xxxxx-xxxxx. (You need Internet access to activate using MAK but not KMS). For more information, see Volume activation of Office 2013.
   
 - To enter the MAK key, go to OEM Settings \> SRS Licensing Tool. Click Check Status. When the status says "product isn't activated," enter the key.
     
@@ -128,7 +128,7 @@ Import the .crt file to the Skype Room System under Trusted Room Certification A
   
 Import the .crl files on the Skype Room System under the Intermediate Certificate Authorities folder. (You need to change the file extension filter in Certificate Manager to .crl to see the files).
   
-Note: The Office Web Apps 2013 server may share the same CA as Skype for Business. If it doesn't you won't be able to share PowerPoint in a meeting. Check with IT and obtain the CRT and CRL files off the CA network share CertEnroll as explained above. 
+Note: The Office Web Apps 2013 server may share the same CA as Skype for Business. If it doesn't, you can't share PowerPoint in a meeting. Check with IT and obtain the CRT and CRL files off the CA network share CertEnroll as explained above. 
   
 Domain membership can simplify some things because you can treat the Skype Room System as a Windows system and it can rely on Active Directory for some of the certificate aspects. However, it's best to manually manage this.
 

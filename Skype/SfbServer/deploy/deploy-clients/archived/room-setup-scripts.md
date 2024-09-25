@@ -40,7 +40,7 @@ Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=166
 
 ## Example Setup Script: Skype for Business and Exchange Server Online
 
-Make sure you've reviewed the following prerequisites before running the script:
+Make sure the following prerequisites are reviewed by you before running the script:
   
 - Microsoft Online Services Sign in Assistant for IT Professionals BETA
     
