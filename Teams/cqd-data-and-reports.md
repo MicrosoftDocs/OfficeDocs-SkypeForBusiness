@@ -40,7 +40,7 @@ You can access call quality data by several different avenues. Pick the one that
 |Teams admin center [(https://admin.teams.microsoft.com)](https://admin.teams.microsoft.com)|Call quality data is included on the **Users** page in the Teams admin center, showing the most common data you need in an easy-to-read format. You can't customize the data that you find under **Users**.|
 |CQD portal [(https://cqd.teams.microsoft.com)](https://cqd.teams.microsoft.com)|Robust summary and detailed reports that meet most needs, with drill-through filtering. You can also customize reports in the CQD portal. <br><br>Get two [CQD report templates](#import-the-cqd-report-templates) to help you analyze data in the CQD portal.|
 |Power BI|Use direct queries to view your CQD data in Power BI using [customizable Power BI templates](CQD-Power-BI-query-templates.md). The CQD Power BI templates are regularly updated to support new Teams features, calling scenarios, and the latest telemetry we have available in CQD.|
-|Graph API|Access raw call quality data yourself using the [Graph API](/graph/api/resources/callrecords-api-overview). This is the most complex method, but it gives you the most control and flexibility in analyzing your call quality data. For example, if you need to join it with other data for your organization, you can use the Graph API to create a data model and incorporate call quality data. Please note that CallRecords Graph API may not contain all of the fields that are available in CQD and naming conventions may differ between the two products. |
+|Graph API|Access raw call quality data yourself using the [Graph API](/graph/api/resources/callrecords-api-overview). Using Graph API is the most complex method, but it gives you the most control and flexibility in analyzing your call quality data. For example, if you need to join it with other data for your organization, you can use the Graph API to create a data model and incorporate call quality data. Please note that CallRecords Graph API may not contain all of the fields that are available in CQD and naming conventions may differ between the two products. |
 
 ## Import the CQD report templates
 
@@ -168,7 +168,7 @@ These are the reports that you'll see on the CQD Dashboard when you first sign i
 
 |Tab|Description|
 |---|---|
-|Overall Call Quality|Aggregate of the other 3 tabs.|
+|Overall Call Quality|Aggregate of the other three tabs.|
 |Server—Client|Details of the streams between server and client endpoints.|
 |Client—Client|Details of the streams between two client endpoints.|
 |Voice Quality SLA|Info about calls included in the Skype for Business voice quality [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252).|
@@ -252,7 +252,7 @@ We recommend that you upload your tenant, building, and location data so CQD can
 |Failure Drill Down Reports|Drill downs: Date by region, locations, subnets, hour, and users.|
 |Rate My Call Reports|Analyze user call ratings by region, location, or by user. Includes verbatim feedback.|
 |Help Desk Reports|Help Desk Reports look at call and meeting data for individual users, groups of users, or everyone. Incorporating building and EUII data, these reports help identify possible system issues based on network location, conference details, devices, or firmware.|
-|Client Version Reports|Client Version Summary: View the Sessions and Users counts for each client app version<br><br>Client Version by User: View user names for each client app version <br><br>Pre-built filters for Product and Client Type help focus the versions to specific clients.|
+|Client Version Reports|Client Version Summary: View the Sessions and Users counts for each client app version<br><br>Client Version by User: View user names for each client app version <br><br>Prebuilt filters for Product and Client Type help focus the versions to specific clients.|
 |Endpoint Reports|Shows call quality by machine endpoints (computer make and model). These reports include building data, if you've uploaded it.|
 
 ## Create custom detailed reports
@@ -266,11 +266,11 @@ From the pull-down list of reports at the top of the screen displayed at login \
 >
 > The VPN column is optional and will default to 0.  If the VPN column's value is set to 1, the subnet represented by that row will be fully expanded to match all IP addresses within the subnet.  Please use this sparingly and only for VPN subnets since fully expanding these subnets will have a negative impact on query times for queries involving building data.
 
-Point to bar charts and trend lines in the report to display detailed values. The report that has focus will show the action menu: **Edit**, **Clone**, **Delete**, **Download**, and **Export Report Tree**.
+Point to bar charts and trend lines in the report to display detailed values. The report in focus shows the action menu: **Edit**, **Clone**, **Delete**, **Download**, and **Export Report Tree**.
 
 ## Query filters
 
-Query filters are implemented by using the Query Editor in CQD. These filters are used to reduce the number of records returned by CQD, thus minimizing the report's overall size and query times. This is especially useful for filtering out unmanaged networks. The filters listed in the following table use regular expressions (RegEx).
+Query filters are implemented by using the Query Editor in CQD. These filters are used to reduce the number of records returned by CQD, thus minimizing the report's overall size and query times. Query filters are especially useful for filtering out unmanaged networks. The filters listed in the following table use regular expressions (RegEx).
 
 |Filter|Description|CQD query filter example|
 |---|---|---|
