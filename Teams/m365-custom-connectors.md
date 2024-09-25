@@ -33,7 +33,7 @@ Any team member can add a connector to a channel, if the team permissions allow 
 
 The [Teams connectors are transitioning](https://devblogs.microsoft.com/microsoft365dev/retirement-of-office-365-connectors-within-microsoft-teams) to a new URL to enhance security. During this transition, you may receive notifications to update your configured connector to use the new URL. We strongly recommended that you update your connector immediately to prevent any disruption to connector services.
 
-You must update your Webhook URL for the connector to continue posting notifications into Teams after December 31, 2024. To update the URL, go to **Manage Channel** in a Teams channel, select **Edit** under the Connectors option, and select **Configured** section. Select **Configure** and update the URL. This change is needed only for Webhook-based Connectors such as Incoming Webhook and third-party connectors. The change is not required for polling connectors such as RSS.
+You must update your Webhook URL for the connector to continue posting notifications into Teams after December 31, 2024. To update the URL, go to **Manage Channel** in a Teams channel, select **Edit** under the Connectors option, and select **Configured** section. Select **Configure** and update the URL. This change is needed only for Webhook-based Connectors such as Incoming Webhook and third-party connectors. The change isn't required for polling connectors such as RSS.
 
 To know more or to share more information with your app developers, see [Connectors deprecation information](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors).
 
@@ -41,7 +41,7 @@ To know more or to share more information with your app developers, see [Connect
 
 ## Enable or disable connectors in Teams
 
-The Exchange Online PowerShell v2 module uses modern authentication and works with multi-factor authentication (MFA) to connect to all Exchange related PowerShell environments in Microsoft 365. Admins can use Exchange Online PowerShell to disable connectors for an entire organization or a specific group mailbox. If a connector is disabled, it affects all users in that org or mailbox. You can't disable a connector for a few specific users.
+The Exchange Online PowerShell v2 module uses modern authentication and works with multifactor authentication (MFA) to connect to all Exchange related PowerShell environments in Microsoft 365. Admins can use Exchange Online PowerShell to disable connectors for an entire organization or a specific group mailbox. If a connector is disabled, it affects all users in that org or mailbox. You can't disable a connector for a few specific users.
 
 The organization setting overrides the group setting. For example, if an admin enables connectors for the group and disables the same connectors for the organization, then the connectors are disabled for the group. To enable a connector in Teams, [connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps#connect-to-exchange-online-powershell-using-modern-authentication-with-or-without-mfa&preserve-view=true) using modern authentication with or without MFA.
 
