@@ -25,9 +25,7 @@ ms.localizationpriority: high
 New VDI solution for Teams is a new architecture for optimizing the delivery of multimedia workloads in virtual desktops.
 
 > [!IMPORTANT]
-> The rollout to General Availability started on August 27th 2024, and will reach 100% coverage in the next few days for Azure Virtual Desktops and Windows 365. 
->
-> For Citrix customers, in order to participate on the public preview, administrators must move users to the public preview channel as described [in this article](public-preview-doc-updates.md).
+> The rollout to General Availability is now complete for Azure Virtual Desktops and Windows 365. For Citrix customers, in order to participate on the public preview, administrators must move users to the public preview channel as described [in this article](public-preview-doc-updates.md).
 
 ## Components
 
@@ -42,9 +40,9 @@ New VDI solution for Teams is a new architecture for optimizing the delivery of 
 
 |Requirement                       |Minimum version |
 |----------------------------------|----------------|
-|New Teams                         |24193.1805.3040.8975 (for Azure Virtual Desktop/Windows 365) </br>24165.1410.2974.6689 (for Citrix)                                                                                     |
-|Azure Virtual Desktop/Windows 365 |Windows App: 1.3.252</br>Remote Desktop Client: 1.2.5405.0                                                |
-|Citrix                            |VDA: 2203 LTSR CU3 or 2305 CR</br>Citrix Workspace app: 2203 LTSR (any CU), 2402 LTSR, or 2302 CR          |
+|New Teams                         |24193.1805.3040.8975 (for Azure Virtual Desktop/Windows 365) </br>24165.1410.2974.6689 (for Citrix single session VDAs) </br>24243.1309.3132.617 (for Citrix multi-session VDAs) |
+|Azure Virtual Desktop/Windows 365 |Windows App: 1.3.252</br>Remote Desktop Client: 1.2.5405.0 |
+|Citrix                            |VDA: 2203 LTSR CU3 or 2305 CR</br>Citrix Workspace app: 2203 LTSR (any CU), 2402 LTSR, or 2302 CR |
 |Endpoint                          |Windows 10 1809 (SlimCore minimum requirement)</br>GPOs must not block MSIX installations (see [Step 3: SlimCore MSIX staging and registration on the endpoint](#step-3-slimcore-msix-staging-and-registration-on-the-endpoint))</br>Minimum CPU: Intel Celeron (or equivalent) @ 1.10 GHz, 4 Cores, Minimum RAM: 4 GB |
 
 ## Optimizing with new VDI solution for Teams
@@ -185,8 +183,8 @@ New Teams loads WebRTC or SlimCore at launch time. If virtual desktop sessions a
 
 |Reconnecting options                                        |If current optimization is WebRTC |If current optimization is SlimCore  |
 |------------------------------------------------------------|----------------------------------|-------------------------------------|
-|Reconnecting from an endpoint **without** the MsTeamsPlugin |Then WebRTC classic optimization  |Then fallback (local SlimCore)       |
-|Reconnecting from an endpoint **with** the MsTeamsPlugin    |THen WebRTC classic optimization  |Then new SlimCore-based optimization |
+|Reconnecting from an endpoint **without** the MsTeamsPlugin |Then WebRTC classic optimization </br>("AVD Media Optimized") </br>("Citrix HDX Media Optimized") |Then restart dialogue prompt</br>After restart, the user is on WebRTC classic optimization. Otherwise, Teams isn't restarted and the user is in fallback mode (server -side rendering). |
+|Reconnecting from an endpoint **with** the MsTeamsPlugin    |Then WebRTC classic optimization</br>("AVD Media Optimized") </br>("Citrix HDX Media Optimized") |Then new SlimCore-based optimization |
 
 ## Networking considerations
 
@@ -380,6 +378,40 @@ Users who have App Protection enabled can still share their screen and apps whil
 #### AVD Screen Capture Protection and Microsoft Teams compatibility
 
 Users who have [Screen Capture Protection](/azure/virtual-desktop/screen-capture-protection?tabs=intune) (SCP) enabled can't share their screens or apps. Other people on the call can only see a black screen. If you want to allow users to share their screen even with SCP enabled, you need to disable SlimCore optimization in the Teams Admin Center policy (so the user is optimized with WebRTC), and set the SCP policy to **Block screen capture on client**.
+
+#### Call Quality Dashboard in VDI
+
+Call Quality Dashboard (CQD) allows IT Pros to use aggregate data to identify problems creating media quality issues by comparing statistics for groups of users to identify trends and patterns. CQD isn't focused on solving individual call issues, but on identifying problems and solutions that apply to many users.
+
+VDI user information is now exposed through numerous dimensions and filters. Check [this page](dimensions-and-measures-available-in-call-quality-dashboard.md) for more information about each dimension.
+
+##### Query fundamentals
+
+A well-formed CQD query/report contains all three of these parameters:
+
+- [Measurement](dimensions-and-measures-available-in-call-quality-dashboard.md#measurements)
+- [Dimension](dimensions-and-measures-available-in-call-quality-dashboard.md#dimensions)
+- [Filter](dimensions-and-measures-available-in-call-quality-dashboard.md#filters)
+
+Some examples of a well-formed query would be:
+
+1. "Show me Poor Streams [Measurement] for VDI Users with the new Optimization [Dimension] for Last Month [Filter]."
+1. "Show me Poor Appsharing [Measurement] by Total Stream Count [Dimension] for Last Month AND where First OR Second Client VDI mode was optimized [Filters]." 
+
+You can use many Dimension and Measurement values as filters too. You can use filters in your query to eliminate information in the same way you'd select a Dimension or Measurement to add or include information in the query.
+
+##### What UNION does
+
+By default, Filters allow you to filter conditions with the AND operator. But there are scenarios where you might want to combine multiple Filter conditions together to achieve a result similar to an OR operation. For example: To get all streams from VDI Users, UNION provides a distinct view of the merged dataset. To use the UNION, insert common text into the UNION field on the two filter conditions you want to UNION.
+
+##### Caller and Callee location
+
+CQD doesn't use Caller or Callee fields, instead it uses **First** and **Second** because there are intervening steps between the caller and callee.
+
+- **First** is always the server endpoint (for example, AV MCU or the Media Processor Server) if a server is involved in the stream.
+- **Second** ia always the client endpoint, unless it's a server-server stream.
+
+If both endpoints are the same type (for example a person-to-person call), first versus second is set based on the internal ordering of the user agent category to make sure the ordering is consistent.
 
 #### Troubleshooting
 
