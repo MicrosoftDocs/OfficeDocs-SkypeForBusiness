@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
-ms.date: 10/11/2023
+ms.date: 09/24/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -51,9 +51,9 @@ To use the Teams admin center:
 5. If the address isn't found, and you want to manually edit the address, turn on **Edit the address manually**.
 6. Select **Save**.
 
-### Using PowerShell
+### Use PowerShell
 
-See [New-CsOnlineLisCivicAddress](/powershell/module/teams/new-csonlineliscivicaddress).
+For information about using PowerShell, see [New-CsOnlineLisCivicAddress](/powershell/module/teams/new-csonlineliscivicaddress).
 
 ### Required information for Microsoft Calling Plans
 
@@ -93,7 +93,7 @@ To use the Teams admin center:
 
 ### Use PowerShell
 
-For informatioun on using PowerShell, see [Set-CsOnlineLisCivicAddress](/powershell/module/teams/set-csonlineliscivicaddress).
+For information about using PowerShell, see [Set-CsOnlineLisCivicAddress](/powershell/module/teams/set-csonlineliscivicaddress).
 
 ## Remove an emergency location
 
