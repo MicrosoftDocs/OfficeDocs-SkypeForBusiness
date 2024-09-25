@@ -14,7 +14,7 @@ ms.reviewer: daro
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Information about the system requirements, minimum hardware requirements, for the new Teams client, what customers will need to be able to install and use the new Teams client.
+description: Information about the system requirements, minimum hardware requirements, for the new Teams client, what customers need to be able to install and use the new Teams client.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: high
