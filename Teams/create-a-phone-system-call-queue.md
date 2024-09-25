@@ -117,7 +117,7 @@ _This feature is in public preview._
 
 Service level measures the efficiency and responsiveness to incoming customer requests within a specific Service level threshold.
 
-You can set the threshold target to any value from 0 to 40 minutes (2,400 seconds).  The value must be less than the value set for [Call timeout](#call-timeout-set-how-to-handle-call-timeouts). Setting the value to blank (empty) disables the service level metric calculation for the call queue.
+You can set the threshold target to any value from 0 to 40 minutes (2,400 seconds). The value must be less than the value set for [Call timeout](#call-timeout-set-how-to-handle-call-timeouts). Setting the value to blank (empty) disables the service level metric calculation for the call queue.
 
 >[!NOTE]
 > Service level metrics are not currently available in Queues app.
@@ -234,7 +234,7 @@ Once you select your call answering options, select the **Next** button at the b
 > Agents may hear the configured music on hold in queue for up to 2 seconds when first joining the call.
 
 > [!IMPORTANT]
-> Transfer mode (when conference mode is disabled) is now in legacy mode.  Support for transfer mode is scheduled to be removed by the end of June 2025.
+> Transfer mode (when conference mode is disabled) is now in legacy mode. Support for transfer mode is scheduled to be removed by the end of June 2025.
 
 ## [Step 4: Agent selection](#tab/agent-selection)
 
@@ -257,7 +257,7 @@ Choose from these options:
 
 - **Round robin** balances the routing of incoming calls so that each call agent gets the same number of calls from the queue.
 
-- **Longest idle** routes each call to the agent who has been idle the longest. An agent is considered idle if their presence state is *Available*. Agents who aren't available don't receive calls until they change their presence to *Available*.
+- **Longest idle** routes each call to the agent who who's been idle the longest. An agent is considered idle if their presence state is *Available*. Agents who aren't available don't receive calls until they change their presence to *Available*.
 
 > [!TIP]
 > Setting the **Routing Method** to **Round robin** or **Longest idle** is the recommended setting.
@@ -358,7 +358,7 @@ Once you select your call overflow, call timeout, and no agents handling options
 
 ## Step 6: Authorized users
 
-**Authorized users** specifies the users who are authorized to make changes to this Call queue.  The capabilities that the users have are based on the [Teams voice applications policy](./manage-voice-applications-policies.md) that's assigned to the user.
+**Authorized users** specifies the users who are authorized to make changes to this Call queue. The capabilities that the users have are based on the [Teams voice applications policy](./manage-voice-applications-policies.md) that's assigned to the user.
 
 To **add a user** to the authorized users:
 
@@ -419,7 +419,7 @@ For more information, see:
 
 ### Callback
 
-Callback allows eligible callers waiting in queue to receive a callback to the number they are calling from when an agent becomes available.
+Callback allows eligible callers waiting in queue to receive a callback to the number they're calling from when an agent becomes available.
 
 A caller becomes *eligible* for callback based on any one of the following configured conditions coming true:
 
@@ -432,7 +432,7 @@ A caller becomes *eligible* for callback based on any one of the following confi
 - Calls to agent ratio
   Once the number of callers waiting in queue exceeds the ratio, new callers arriving in the queue become *eligible* for callback. This option applies to callers arriving in the queue.
 
-Additionally, for a call to become *eligble* for callback, it must have a valid inbound phone number in E.164 format and it must not be presenting to an agent.
+Additionally, for a call to become *eligible* for callback, it must have a valid inbound phone number in E.164 format and it must not be presenting to an agent.
 
 *Eligible* callers will receive an option to request callback *after* the music on hold finishes playing.
 
@@ -513,7 +513,7 @@ Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRe
  "Tone1" -NumberOfCallsInQueueBeforeOfferingCallback 50 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
 ````
 
-##### Calls become eligible for callback when there 2 times more calls than agents
+##### Calls become eligible for callback when there are 2 times more calls than agents
 
 Create a new call queue:
 ````PowerShell
@@ -542,7 +542,7 @@ Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRe
 
 Hidden authorized users are authorized users who shouldn't appear on the list of supervisors for the agents who are members of a particular call queue.
 
-Note that hidden authorized users aren't visible to Queues app users.
+Hidden authorized users aren't visible to Queues app users.
 
 For more information, see:
 
