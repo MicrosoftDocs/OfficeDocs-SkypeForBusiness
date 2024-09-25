@@ -183,7 +183,7 @@ New Teams loads WebRTC or SlimCore at launch time. If virtual desktop sessions a
 
 |Reconnecting options                                        |If current optimization is WebRTC |If current optimization is SlimCore  |
 |------------------------------------------------------------|----------------------------------|-------------------------------------|
-|Reconnecting from an endpoint **without** the MsTeamsPlugin |Then WebRTC classic optimization </br>("AVD Media Optimized") </br>("Citrix HDX Media Optimized") |Then fallback (local SlimCore)</br>After restart, the user is on WebRTC classic optimization. Otherwise, Teams isn't restarted and the user is in fallback mode (server -side rendering). |
+|Reconnecting from an endpoint **without** the MsTeamsPlugin |Then WebRTC classic optimization </br>("AVD Media Optimized") </br>("Citrix HDX Media Optimized") |Then restart dialogue prompt</br>After restart, the user is on WebRTC classic optimization. Otherwise, Teams isn't restarted and the user is in fallback mode (server -side rendering). |
 |Reconnecting from an endpoint **with** the MsTeamsPlugin    |Then WebRTC classic optimization</br>("AVD Media Optimized") </br>("Citrix HDX Media Optimized") |Then new SlimCore-based optimization |
 
 ## Networking considerations
@@ -378,6 +378,40 @@ Users who have App Protection enabled can still share their screen and apps whil
 #### AVD Screen Capture Protection and Microsoft Teams compatibility
 
 Users who have [Screen Capture Protection](/azure/virtual-desktop/screen-capture-protection?tabs=intune) (SCP) enabled can't share their screens or apps. Other people on the call can only see a black screen. If you want to allow users to share their screen even with SCP enabled, you need to disable SlimCore optimization in the Teams Admin Center policy (so the user is optimized with WebRTC), and set the SCP policy to **Block screen capture on client**.
+
+#### Call Quality Dashboard in VDI
+
+Call Quality Dashboard (CQD) allows IT Pros to use aggregate data to identify problems creating media quality issues by comparing statistics for groups of users to identify trends and patterns. CQD isn't focused on solving individual call issues, but on identifying problems and solutions that apply to many users.
+
+VDI user information is now exposed through numerous dimensions and filters. Check [this page](dimensions-and-measures-available-in-call-quality-dashboard.md) for more information about each dimension.
+
+##### Query fundamentals
+
+A well-formed CQD query/report contains all three of these parameters:
+
+- [Measurement](dimensions-and-measures-available-in-call-quality-dashboard.md#measurements)
+- [Dimension](dimensions-and-measures-available-in-call-quality-dashboard.md#dimensions)
+- [Filter](dimensions-and-measures-available-in-call-quality-dashboard.md#filters)
+
+Some examples of a well-formed query would be:
+
+1. "Show me Poor Streams [Measurement] for VDI Users with the new Optimization [Dimension] for Last Month [Filter]."
+1. "Show me Poor Appsharing [Measurement] by Total Stream Count [Dimension] for Last Month AND where First OR Second Client VDI mode was optimized [Filters]." 
+
+You can use many Dimension and Measurement values as filters too. You can use filters in your query to eliminate information in the same way you'd select a Dimension or Measurement to add or include information in the query.
+
+##### What UNION does
+
+By default, Filters allow you to filter conditions with the AND operator. But there are scenarios where you might want to combine multiple Filter conditions together to achieve a result similar to an OR operation. For example: To get all streams from VDI Users, UNION provides a distinct view of the merged dataset. To use the UNION, insert common text into the UNION field on the two filter conditions you want to UNION.
+
+##### Caller and Callee location
+
+CQD doesn't use Caller or Callee fields, instead it uses **First** and **Second** because there are intervening steps between the caller and callee.
+
+- **First** is always the server endpoint (for example, AV MCU or the Media Processor Server) if a server is involved in the stream.
+- **Second** ia always the client endpoint, unless it's a server-server stream.
+
+If both endpoints are the same type (for example a person-to-person call), first versus second is set based on the internal ordering of the user agent category to make sure the ordering is consistent.
 
 #### Troubleshooting
 
