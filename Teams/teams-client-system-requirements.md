@@ -68,7 +68,7 @@ New Teams for Web shares the same hardware requirements as the underlying operat
 
 ## New Teams on Linux
 
-Linux users have access to New Teams for Web as well as new Teams as a progressive web app (PWA).
+Linux users have access to New Teams for Web and new Teams as a progressive web app (PWA).
 
 ## New Teams in a Virtual Desktop Infrastructure (VDI) environment
 
@@ -92,6 +92,6 @@ While you can use new Teams with the previously mentioned minimal hardware requi
 
 |Teams user scenario               |Hardware systems requirements (equivalent or higher)              |
 |----------------------------------|------------------------------------------------------------------|
-|Avatar/Mesh experience            |8GB Ram or higher</br>Four-core processor from 2018 or higher     |
+|Avatar/Mesh experience            |8 GB Ram or higher</br>Four-core processor from 2018 or higher    |
 |Large meetings (10+ participants) |Four-core processor from 2018 or higher                           |
 |Teams Live Events                 |Four-core processor from 2018 or higher                           |
