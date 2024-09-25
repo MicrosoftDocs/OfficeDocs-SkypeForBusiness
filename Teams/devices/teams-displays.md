@@ -1,9 +1,9 @@
 ---
 title: Microsoft Teams displays
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: prashibadkur
+ms.reviewer: eviegrimshaw
 ms.date: 05/15/2024
 ms.topic: article
 ms.service: msteams
@@ -51,7 +51,7 @@ For more information about how to get Teams, check out [How do I get access to M
 
 ## Deploy Teams displays using Intune
 
-To learn more about how to deploy Teams displays using Intune, see [Deploy Teams phones and Teams displays](phones-displays-deploy.md).
+To learn more about how to deploy Teams displays using Intune, see [Deploy Teams phones and Teams displays](phones-panels-deploy.md).
 
 ## Manage Teams displays in your organization
 

@@ -769,7 +769,7 @@ Meeting templates can be used to create meetings that are available to users wit
 |:-----|:-----|:-----|
 |Record meetings automatically |Off|When **On**, meetings are automatically recorded. |
 |Who can record|Only organizers and co-organizers| Only organizers and co-organizers can record meetings.|
-|Allow Copilot|During and after the meeting|Copilot is enabled with a persisted transcript.|
+|Allow Copilot|During and after the meeting|Microsoft 365 Copilot in Teams meetings and events is enabled with a persisted transcript.|
 
 #### Roles template
 

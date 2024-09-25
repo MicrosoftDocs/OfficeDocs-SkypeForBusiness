@@ -1,7 +1,7 @@
 ---
 title: SIP and H.323 calling with Teams Rooms
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: naforer
 ms.date: 09/06/2024

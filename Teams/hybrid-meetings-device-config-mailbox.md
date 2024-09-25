@@ -1,7 +1,7 @@
 ---
 title: "Step 4 - Configure mailbox properties"
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: sohailta
 ms.date: 2/26/2024

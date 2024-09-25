@@ -87,6 +87,8 @@ OnlineVoiceRoutingPolicy
 ------------------------
 Test_Policy
 ```
+ > [!NOTE]
+> If your tenant is configured with a Global OnlineVoiceRoutingPolicy that applies to all users, then a user assigned policy is not required.
 
 ## User has Enterprise Voice enabled
 
@@ -103,6 +105,8 @@ EnterpriseVoiceEnabled
 ----------------------
                   True
 ```
+ > [!NOTE]
+> When assigning a phone number, Enterprise Voice enabled is automatically set to True. If a phone number is assigned and the value is False, you must use the [Set-CsPhoneNumber](/powershell/module/teams/set-csphonenumberassignment) cmdlet to set the value to True. 
 
 ## User is homed online and not in Skype for Business on premises
 

@@ -1,7 +1,7 @@
 ---
 title: Set up and manage Teams Rooms on Windows custom backgrounds
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: henrikalim
 ms.date: 05/28/2024

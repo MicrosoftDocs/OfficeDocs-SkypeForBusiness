@@ -1,7 +1,7 @@
 ---
 title: Phones and Devices for Microsoft Teams
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: slamprianou
 ms.date: 09/11/2024
@@ -12,7 +12,7 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 ms.collection: 
-  - Tier3
+  - Tier2
   - teams-rooms-devices
   - Teams_ITAdmin_Devices
 ms.localizationpriority: medium
@@ -78,6 +78,7 @@ If you're a manufacturer and want to join the certification program, see [How to
 |EPOS                 |IMPACT 460T                                                |8/5/2024        |Certified for Microsoft Teams                           |
 |EPOS                 |IMPACT 430T                                                |8/5/2024        |Certified for Microsoft Teams                           | 
 |Yealink              |WH64 Hybrid Dual/Mono Headset                              |7/23/2024       |Certified for Microsoft Teams                           | 
+|Logi                 |H570e Stereo/Mono Headset                                  |7/2/2024        |Certified for Microsoft Teams                           |
 |Yealink              |WH64 Dual/Mono Headset                                     |6/18/2024       |Certified for Microsoft Teams                           |
 |Lenovo               |Wireless VoIP Headset                                      |5/21/2024       |Certified for Microsoft Teams                           |
 |Logi                 |Zone 305 Headset                                           |4/30/2024       |Certified for Microsoft Teams                           |

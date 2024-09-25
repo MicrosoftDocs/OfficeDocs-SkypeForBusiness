@@ -3,7 +3,7 @@ title: Managing the health of Teams devices
 ms.author: tonysmit
 author: mstonysmith
 manager: pamgreen
-ms.reviewer: snchatur
+ms.reviewer: vapati
 ms.date: 05/15/2024
 ms.topic: article
 audience: Admin
