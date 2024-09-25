@@ -44,10 +44,10 @@ Keep the following requirements for private lines in mind:
 
 The automated provisioning and deprovisioning of private line licenses must match the user's primary line. The following user license combinations are simultaneously supported for both private line and primary lines:
 
-|User license combinations|Simultaneous phone number types allowed|
+|User license combinations|Phone number category available for assignment|
 |-----|-----|
-|Phone System|Direct Routing, Operator Connect, Teams Phone Mobile|
-|Phone System with Calling Plan add-on|Calling Plan|
+|Teams Phone<br>(MCOEV)|Direct Routing, Operator Connect, Teams Phone Mobile|
+|Teams Phone + Calling Plans<br>(MCOEV + MCOPSTN)|Direct Routing, Operator Connect, Teams Phone Mobile, Calling Plan|
 
 ## Call handling for private lines
 
@@ -71,8 +71,9 @@ Private lines can be configured in the Teams admin center or with PowerShell. Yo
 1. From the Teams admin center, go to **Users** > **Manage users**.
 1. Select a user.
 1. From the user's Account tab, under Assigned phone number, select **Assign private phone number**.
-1. From the panel, select the **Private phone number type**. For **Assign private phone number**, select a phone number from the dropdown.
-1. Assign a private emergency location.
+1. From the Assign private phone number panel, select the **Private phone number type**.
+1. For **Assign private phone number**, select a phone number from the dropdown.
+1. Assign an emergency location for the primary number.
 1. Select **Apply**.
 
 #### Unassign a private line from a user
@@ -81,7 +82,7 @@ Private lines can be configured in the Teams admin center or with PowerShell. Yo
 1. Select a user.
 1. From the user's Account tab, under Assigned phone number, select **View details**.
 1. On the user's Private phone number, select **Edit**.
-1. From the panel, for **Assign private phone number**, select **None**.
+1. From the Assign private phone number panel, select **None** for **Assigned phone number**.
 1. Select **Apply**.
 
 ### Using PowerShell
