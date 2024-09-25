@@ -215,6 +215,7 @@ You have to refresh the report to see any new data.
 1. In some scenarios, the agent answered call count might be different than the number of calls shown in the Teams client call history. The Teams client call history is correct. Support is investigating, but there's no estimated time to repair available at this time.
 1. When an agent answers a call in a different call queue due to redirection through Call Overflow exception handling, they are displayed in the original call queue where the exception occurred instead of the one they answered the call in.
 1. Callback calls handled by agents are not captured resulting in a discrepancy between the number of calls answered on the Call Queue report and the Agent Timeline report.
+1. The agent tooltip which shows the individual calls for the agent shows all calls instead of only the calls within the selected date range.
 
 ## Auto attendant and Call queue historical reports field definitions
 
