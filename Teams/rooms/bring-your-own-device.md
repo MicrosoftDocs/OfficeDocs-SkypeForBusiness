@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: eshanmathur
-ms.date: 01/29/2024
+ms.date: 09/26/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -206,7 +206,7 @@ Remove-CsTeamsBYODAndDesksPolicy -Identity "Test"
 
 **BYOD Rooms and Desk management**
 
-This setting option is located under the "General" tab in Teams Pro management portal and controls if peripheral data is ingested into the cloud service. This feature is currently enabled by default, but admins have the option to disable it with this function. Disabling this setting will stop showing any usage reports for BYOD rooms or Desks, and also remove the display of any devices in the Inventory section, though those devices will continue to exist in the database.
+This setting option is located under the **General** tab in Teams Pro Management portal and controls if peripheral data is ingested into the cloud service. This feature is currently enabled by default, but admins have the option to disable it with this function. Disabling this setting will stop showing any usage reports for BYOD rooms or Desks, and also remove the display of any devices in the **Inventory** section, though those devices will continue to exist in the database.
 
 **Delete Device Data**
 
@@ -214,4 +214,4 @@ This setting option enables admins to delete all device management data for a sp
 
 ### Inventory management permission
 
-The inventory management permission in Teams Pro management portal allows other users to view and manage the inventory management. You can create roles and grant other users' permission to access inventory management and associate peripherals to rooms or desks.
+The inventory management permission in Teams Pro Management portal allows other users to view and manage the inventory management. You can create roles and grant other users permission to access inventory management and associate peripherals to rooms or desks.
