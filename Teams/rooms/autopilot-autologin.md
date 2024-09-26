@@ -92,7 +92,7 @@ Going through these steps enables Intune to push the update tool to the Teams Ro
 
 To deploy the Teams Rooms app update tool to your consoles:
 
-1. To download the update tool Win32 package, see [here](https://mmrprodglobstor.blob.core.windows.net/public/softwareupdates/onboarding/MTRPUpdater/ProvisioningToolInstaller.intunewin).
+1. To download the update tool Win32 package, see [here](https://aka.ms/mtrp/autopilot-tool).
 2. In the Microsoft Intune Admin center, navigate to **Apps** and under **By platform** select **Windows**.
 3. Select **Add**. In the **Select app type** detail pane, select **Windows app (Win32)** in the drop-down menu.
 4. Browse to select the update tool app package file downloaded in Step 1.
