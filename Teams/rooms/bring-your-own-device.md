@@ -123,8 +123,8 @@ To associate a device with a room, the following two methods are available:
     5. Go back to the Inventory Devices page and click **Import** to upload the modified file.
     6. Verify that the device-room association is updated successfully.
 
-      > [!NOTE]
-      > In cases where the devices were not discovered or reported by Pro Management portal, admins can add those new devices using the import function. Device information such as the Product ID, Vendor ID, Serial Number, and Account information are required for the association to be done.
+     > [!NOTE]
+     > In cases where the devices were not discovered or reported by Pro Management portal, admins can add those new devices using the import function. Device information such as the Product ID, Vendor ID, Serial Number, and Account information are required for the association to be done.
 
 - **Manually associate discovered devices using Pro Management UI:** 
 
