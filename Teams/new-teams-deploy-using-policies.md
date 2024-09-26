@@ -153,9 +153,7 @@ UserChoice
 Example:
 
 ```powershell
-
 Set-CsTeamsUpdateManagementPolicy -identity MySetting -UseNewTeamsClient UserChoice
-
 ```
 
    > [!NOTE]
@@ -164,11 +162,8 @@ Set-CsTeamsUpdateManagementPolicy -identity MySetting -UseNewTeamsClient UserCho
 5. Use the following commands to deploy a **new policy** to opt-out a specific user from seeing the toggle:
 
 ```powershell
-
 New-CsTeamsUpdateManagementPolicy -identity <new_policy_name> -UseNewTeamsClient AdminDisabled
-
 Grant-CsTeamsUpdateManagementPolicy -identity <user> -PolicyName <new_policy_name>
-
 ```
 
 **Example:**
@@ -196,7 +191,6 @@ After they opt out, the toggle won't appear when they relaunch Teams. To prevent
 To remove the new Teams from all users' computers, use the following PowerShell command:
 
 ```powershell
-
 Remove-AppxPackage 
 ```
 
