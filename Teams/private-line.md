@@ -47,7 +47,9 @@ The automated provisioning and deprovisioning of private line licenses must matc
 |User license combinations|Phone number category available for assignment|
 |-----|-----|
 |Teams Phone|Direct Routing, Operator Connect, Teams Phone Mobile|
-|Teams Phone + Calling Plans|Direct Routing, Operator Connect, Teams Phone Mobile, Calling Plan|
+|Teams Phone with Calling Plan|Direct Routing, Operator Connect, Teams Phone Mobile, Calling Plan|
+
+For more information about licensing, see [Microsoft Teams add-on licenses](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 ## Call handling for private lines
 
