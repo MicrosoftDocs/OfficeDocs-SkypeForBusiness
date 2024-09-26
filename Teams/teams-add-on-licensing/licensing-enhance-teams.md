@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Premium licensing
-author: DaniEASmith
-ms.author: danismith
+author: wlibebe
+ms.author: wlibebe
 manager: pamgreen
 ms.reviewer: margidesai, spraveen
 ms.date: 03/26/2024
