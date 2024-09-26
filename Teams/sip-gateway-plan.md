@@ -215,23 +215,24 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |MP524<sup>3</sup>                  |7.26A.356.075      |7.26A.356.773  |ATA   | All ports available  |
 |          |MP532<sup>3</sup>                  |7.26A.356.075      |7.26A.356.773  |ATA   | All ports available  |
 |**Spectralink**|       |           |           |   |[Spectralink Support](https://support.spectralink.com)|
-|          |7202<sup>3</sup>        |PCS22B     |PCS22B     |Handset |   |
-|          |7212<sup>3</sup>        |PCS22B     |PCS22B     |Handset |   |
-|          |7502<sup>3</sup>        |PCS22B     |PCS22B     |Handset |   |
-|          |7522<sup>3</sup>        |PCS22B     |PCS22B     |Handset |   |
-|          |7532<sup>3</sup>        |PCS22B     |PCS22B     |Handset |   |
-|          |7622<sup>3</sup>        |PCS22B     |PCS22B     |Handset |   |
-|          |7642<sup>3</sup>        |PCS22B     |PCS22B     |Handset |   |
-|          |7722<sup>3</sup>        |PCS22B     |PCS22B     |Handset |   |
-|          |7742<sup>3</sup>        |PCS22B     |PCS22B     |Handset |   |
-|          |S33<sup>3</sup>         |PCS23Ca    |PCS23Ca    |Handset |   |
-|          |S35<sup>3</sup>         |PCS23Ca    |PCS23Ca    |Handset |   |
-|          |S37<sup>3</sup>         |PCS23Ca    |PCS23Ca    |Handset |   |
-|          |IP-DECT Server 200<sup>3</sup> |PCS22Ab |PCS22Ab |IP-DECT Server |   |
-|          |IP-DECT Server 400<sup>3</sup> |PCS22Ab |PCS22Ab |IP-DECT Server |   |
-|          |IP-DECT Server 6500<sup>3</sup> |PCS22Ab |PCS22Ab |IP-DECT Server |   |
-|          |Virtual IP-DECT Server One<sup>3</sup> |PCS22Ab |PCS22Ab |IP-DECT Server |   |
-|          |IP-DECT Base Station<sup>3</sup> |PCS22Ab |PCS22Ab |IP-DECT Server |   |
+|          |7202<sup>3</sup>        |PCS22B     |PCS22D     |Handset |   |
+|          |7212<sup>3</sup>        |PCS22B     |PCS22D     |Handset |   |
+|          |7502<sup>3</sup>        |PCS22B     |PCS22D     |Handset |   |
+|          |7522<sup>3</sup>        |PCS22B     |PCS22D     |Handset |   |
+|          |7532<sup>3</sup>        |PCS22B     |PCS22D     |Handset |   |
+|          |7622<sup>3</sup>        |PCS22B     |PCS22D     |Handset |   |
+|          |7642<sup>3</sup>        |PCS22B     |PCS22D     |Handset |   |
+|          |7722<sup>3</sup>        |PCS22B     |PCS22D     |Handset |   |
+|          |7742<sup>3</sup>        |PCS22B     |PCS22D     |Handset |   |
+|          |S33<sup>3</sup>         |PCS23Ca    |PCS24G    |Handset |   |
+|          |S35<sup>3</sup>         |PCS23Ca    |PCS24G    |Handset |   |
+|          |S37<sup>3</sup>         |PCS23Ca    |PCS24G    |Handset |   |
+|          |IP-DECT Server 400<sup>3</sup> |PCS22Ab |PCS24B |IP-DECT Server |   |
+|          |IP-DECT Server 6500<sup>3</sup> |PCS22Ab |PCS24B|IP-DECT Server |   |
+|          |Virtual IP-DECT Server One<sup>3</sup> |PCS22Ab |PCS24B |IP-DECT Server |   |
+|          |IP-DECT Base Station<sup>3</sup> |PCS22Ab |PCS24B |IP-DECT Base Station|   |
+|          |RFP6 TDM Digital Base Station<sup>3</sup> |PCS16E_ |PCS16E_ |DECT Base Station |   |
+|          |IP-DECT Gateway<sup>3</sup> |PCS24Ab |PCS24B |IP-DECT Gateway |   |
 |**Ascom**|       |           |           |   |[Ascom Support](https://www.ascom.com/products-and-services/services/support-and-maintenance/)|
 |          |Ascom d43<sup>3</sup>        |2.11.4     |3.0.8     |Handset |   |
 |          |Ascom d63<sup>3</sup>        |2.11.4     |3.0.8     |Handset |   |
@@ -242,7 +243,7 @@ If you have a 3PIP or SIP device, you must have the following:
 |          |IP-DECT Access Point IPBSx<sup>3</sup>        |11.8.8     |11.9.11     |IP-DECT Access Point |   |
 |          |IP-DECT Gateway IPBL<sup>3</sup>     |11.8.8     |11.9.11     |IP-DECT Gateway |   |
 |          |TDM Base Station<sup>3</sup>        |R3N     |R4B     |IP-DECT Base Station |   |
-|          |IP-DECT Virtual Appliance IPVM<sup>3</sup>        |11.8.8     |11.9.11     |IP-DECT Server |   |
+|          |IP-DECT Virtual Appliance IPVM<sup>3</sup>        |11.8.8     |11.9.11     |IP-DECT Server|   |
 |**Gigaset**|       |           |           |   |[Gigaset Support](https://www.gigaset.com/en_en/cms/home/support/support.html)|
 |          |N610 IP PRO<sup>3</sup>        |2.52.0     |2.52.0     |Base Station |   |
 |          |N670 IP PRO<sup>3</sup>        |2.52.0     |2.52.0     |Base Station |   |
