@@ -81,7 +81,6 @@ The following camera models when deployed in Microsoft Teams Rooms on Windows wi
 - Logitech CC3000e
 - Logitech MeetUp
 - Logitech PTZ Pro
-- Logitech PTZ Pro 2
 - Logitech Rally
 - Logitech Webcam C925e
 - Logitech Webcam C920
