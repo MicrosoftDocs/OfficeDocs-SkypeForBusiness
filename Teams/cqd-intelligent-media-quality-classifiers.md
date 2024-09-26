@@ -31,7 +31,7 @@ In CQD, Good and Poor stream classification is performed by a series of conditio
 
 ## Overview of intelligent media classifiers in CQD
 
-Intelligent media classifiers in CQD use Machine Learning (ML) algorithms that help pinpoint specific problem areas in stream quality. Compared to [Steam classification in CQD](stream-classification-in-call-quality-dashboard.md), media quality classification in CQD provides IT admins with a more advanced analysis into causality, media degradation, and root cause. These classifiers enable you to take proactive measures for addressing and preventing call quality issues.
+Intelligent media classifiers in CQD use Machine Learning (ML) algorithms that help pinpoint specific problem areas in stream quality. Compared to [Steam classification in CQD](stream-classification-in-call-quality-dashboard.md), intelligent media quality classification in CQD provides IT admins with a more advanced analysis into causality, media degradation, and root cause. These classifiers enable you to take proactive measures for addressing and preventing call quality issues.
 
 To deliver the most comprehensive insights, intelligent media quality classifiers individually address three main real-time media modalities: Audio, Video, and VBSS. These classifiers focus on call quality on a stream level (such as Audio, Video, and VBSS) and then they go further with in-depth analyses in areas such as network, compute device, and input device, allowing for pinpointing specific problem areas.
 
