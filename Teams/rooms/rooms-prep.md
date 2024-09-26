@@ -101,7 +101,7 @@ This guidance is for manual configuration. This can also be automated using Intu
     ```
     
 9. Once you're finished making your changes highlight the Skype User key (root folder for Skype) and choose unload Hive from the Registry file menu (you'll be prompted for confirmation - select **Yes**)
-10. You can now close the registry editor and reboot your Teams Room 
+10. You can now close the registry editor and reboot your Teams Rooms 
     
 ##### Windows System Proxy
 
