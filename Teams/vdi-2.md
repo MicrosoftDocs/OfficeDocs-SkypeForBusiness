@@ -320,8 +320,11 @@ Logs, configurations, and AI or ML models (used in noise suppression, bandwidth 
 
 By default, the MsTeamsPlugin automatically downloads and installs the right SlimCore media engine version without user or Admin intervention. But customers on restricted network environments in the branch office can opt for an alternative SlimCore distribution process, without requiring the endpoint be able to fetch SlimCore packages using https from Microsoft's public CDN.
 
+> [!NOTE]
+> For an updated list of SlimCore packages that match their corresponding new Teams version, [check this table](/officeupdates/teams-app-versioning#vdi-slimcore-version-2-msix-packages).
+
 > [!IMPORTANT]
-> If you must chose this method, you must guarantee that:
+> If you must choose this method, you must guarantee that:
 >
 > 1. [Teams auto-update is disabled](new-teams-vdi-requirements-deploy.md#disable-new-teams-autoupdate) in the virtual desktop.
 > 2. The SlimCore packages are pre-provisioned to the endpoint's local storage or network share before you upgrade new Teams in the virtual desktop. Any newer Teams version requests a matching new version of SlimCore and if the plugin can't find it, the user will be in fallback mode (server-side rendering).
