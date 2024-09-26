@@ -182,9 +182,11 @@ To view the Usage report for your Bring Your Own Device rooms:
 To see the call utilization view for each room, select the specific Bring Your Own Device room from the table. There will be a new pane, which gives a detailed view of devices call utilization based on selected period. 
 
 > [!NOTE]
-> Only rooms with Teams Shared Devices or Pro licenses and which are associated with their peripherals are shown in the Bring Your Own Device usage report. 
-> > Great news! for this first release, customers can utilize the Bring Your Own Device usage data without an additional Teams shared device license until April 8th, 2024. 
-> ## Settings 
+> Only rooms with Teams Shared Devices or Pro licenses and which are associated with their peripherals are shown in the Bring Your Own Device usage report.
+> > Great news! for this first release, customers can utilize the Bring Your Own Device usage data without an additional Teams shared device license until April 8th, 2024.
+
+## Settings
+
 ## Access Control & Configuration
 
 ### Turning off automatic discovery & usage data collection in the Teams client
