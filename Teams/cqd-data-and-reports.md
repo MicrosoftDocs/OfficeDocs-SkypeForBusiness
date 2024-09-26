@@ -158,7 +158,7 @@ If you want to use Power BI to analyze your CQD data, read [Use Power BI to anal
 
 In the Summary and Location-Enhanced Reports, you can use the **Product Filter** drop-down to show all product data, only Microsoft Teams data, or only Skype for Business data.
 
-![Screenshot: shows the Product Filter control options.](media/CQD-product-filter.png)
+![Screenshot: shows the Product Filter control options.](media/cqd-product-filter.png)
 
 In Detailed reports, you can use the **Is Teams** dimension to filter the data to Microsoft Teams or Skype for Business data.
 
@@ -301,7 +301,7 @@ In addition to drill-down functionality, CQD also supports specifying Filters wi
 
 In order to select multiple filter values, begin by adding a new filter to the report. Select **+** beside the **Filters** label, enter the name of the Dimension you want to use, and select **Add**.
 
-![Screenshot of adding a multi-select filter.](media/CQD-Multi-select-filters.png)
+![Screenshot of adding a multi-select filter.](media/cqd-multi-select-filters.png)
 
 Then, select **Search** (a magnifying glass icon next to the new filter). You'll see a text field, and a number of options, including **Select All** and **Invert**. Enter a value,  and select **Search** next to that field to search. Alternatively, leave the text field empty and select **Search** to view up to the first 100 options.
 
@@ -311,13 +311,13 @@ Then, select **Search** (a magnifying glass icon next to the new filter). You'll
 
 Example:
 
-![Screenshot of adding a query filter.](media/CQD-Multi-select-filters-2.png)
+![Screenshot of adding a query filter.](media/cqd-multi-select-filters-2.png)
 
 ### Dashboard level filters
 
 Certain CQD reports have dashboard-level filters added to them, making it easy to filter by common parameters. These filters appear outside the regular report tabs and directly beneath the Product filter, and they apply to all filters in the Dashboard.
 
-![Screenshot of a dashboard filter.](media/CQD-Dashboard-level-filters.png)
+![Screenshot of a dashboard filter.](media/cqd-dashboard-level-filters.png)
 
 ```URL
 /filter/[AllStreams].[Is Teams]|[TRUE | FALSE]
