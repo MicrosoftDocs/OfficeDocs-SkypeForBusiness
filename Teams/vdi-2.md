@@ -179,7 +179,7 @@ If you enable the bottom pane and switch to the DLL tab, you can also see the Pl
 
 ## Session roaming and reconnections
 
-New Teams loads WebRTC or SlimCore at launch time. If virtual desktop sessions are disconnected (not logged off, Teams is left running on the VM), new Teams can't switch optimization stacks unless it's restarted. As a result, users might be in fallback mode (not optimized) if they roam between different devices that don't support the new optimization architecture (for example, a MAC device that is used in BYOD while working from home, and a corporate-managed thin client in the office).
+New Teams loads WebRTC or SlimCore at launch time. If virtual desktop sessions are disconnected (not logged off, Teams is left running on the VM), new Teams can't switch optimization stacks unless it's restarted. As a result, users might be in fallback mode (not optimized) if they roam between different devices that don't support the new optimization architecture (for example, a MAC device that is used in BYOD while working from home, and a corporate-managed thin client in the office). In order to avoid this scenario, Teams prompts the user with a modal dialogue asking to restart the app. After the restart, users are in WebRTC optimization mode.
 
 |Reconnecting options                                        |If current optimization is WebRTC |If current optimization is SlimCore  |
 |------------------------------------------------------------|----------------------------------|-------------------------------------|
@@ -314,7 +314,7 @@ The new solution for VDI stores user-specific data on the endpoint in the follow
 > Locked-down thin clients must allow these locations to be read/write, otherwise the new optimization might fail. For older Windows 10 1809 Thin Clients (such as Dell Wyse 5070 and similar models), the folder location for SlimCore profile is
 `C:\Users\<user>\AppData\Local\Packages\Microsoft.Teams.SlimCoreVdi.win-<architecture>.<version>_8wekyb3d8bbwe\LocalCache\`.
 
-Logs, configurations, and AI or ML models (used in noise suppression, bandwidth estimation, etc.) are saved in this location. If these folders are purged after a user signs out (for example, locked-down thin clients without roaming profiles), MsTeamsVdi.exe will recreate them and download the user-specific configuration (about 6 MB of data).
+Logs, configurations, and AI or ML models (used in noise suppression, bandwidth estimation, etc.) are saved in this location. If these folders are purged after a user signs out (for example, locked-down thin clients without roaming profiles), MsTeamsVdi.exe recreates them and downloads the user-specific configuration (about 6 MB of data).
 
 ### SlimCore installation and upgrade process in locked down Thin Client environments (optional)
 
@@ -324,7 +324,7 @@ By default, the MsTeamsPlugin automatically downloads and installs the right Sli
 > If you must chose this method, you must guarantee that:
 >
 > 1. [Teams auto-update is disabled](new-teams-vdi-requirements-deploy.md#disable-new-teams-autoupdate) in the virtual desktop.
-> 2. The SlimCore packages are pre-provisioned to the endpoint's local storage or network share before you upgrade new Teams in the virtual desktop. Any newer Teams version will request a matching new version of SlimCore and if the plugin can't find it, the user will be in fallback mode (server-side rendering).
+> 2. The SlimCore packages are pre-provisioned to the endpoint's local storage or network share before you upgrade new Teams in the virtual desktop. Any newer Teams version requests a matching new version of SlimCore and if the plugin can't find it, the user will be in fallback mode (server-side rendering).
 >
 > This is because new Teams and SlimCore versions must match.
 
