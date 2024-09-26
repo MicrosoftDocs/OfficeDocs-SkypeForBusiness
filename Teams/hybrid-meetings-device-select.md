@@ -73,6 +73,7 @@ When considering a display, look at its specifications to find out what size roo
 The following are examples of displays for Teams Rooms:
 
 - [Epson EB-PU1007B projector](https://epson.com/For-Work/Projectors/Large-Venue/EB-PU1007B-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement/p/V11HA34820)
+- [Jupiter Pana 105D 105" 21:9 display](https://www.jupiter.com/pana105/)
 - [Samsung QM85R-B 85" display](https://displaysolutions.samsung.com/digital-signage/detail/1944/QM85R-B)
 
 ## Sound bars
