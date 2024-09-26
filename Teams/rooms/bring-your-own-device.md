@@ -29,10 +29,9 @@ Bring Your Own Device rooms are identified as rooms with no Microsoft Teams Room
 1. Open Pro Management Portal on [https://portal.rooms.microsoft.com/](https://portal.rooms.microsoft.com/) and navigate to **Inventory**.
 2. In the left navigation menu, select **Planning** and go to **Inventory**.
 
-> [!NOTE]
-> For the devices to be captured in Pro Management Portal as Bring Your Own Devices, users need to plug the device into the laptop in the room and join a meeting. We require at least five unique users to report the devices, which will then be displayed in the Pro Management Portal as shared devices.
-> 
-> Devices such as speaker, microphone, camera, display, etc can be plugged into a laptop and captured as shared devices in a BYOD room. ## Inventory page.
+   > [!NOTE]
+   > For the devices to be captured in Pro Management Portal as Bring Your Own Devices, users need to plug the device into the laptop in the room and join a meeting. We require at least five unique users to report the devices, which will then be displayed in the Pro Management Portal as shared devices.
+   > Devices such as speaker, microphone, camera, display, etc can be plugged into a laptop and captured as shared devices in a BYOD room. ## Inventory page.
 
 In the **Inventory** page, you'll find an overview of all the rooms within your organization. You can explore your organization's inventory and devices and you can find rooms based on specific groups (country, city, buildings) or by utilizing the search function.
 
@@ -45,19 +44,19 @@ This page provides a comprehensive summary of your rooms, featuring the followin
 
 - The total number of rooms in your tenant categorized by type (Microsoft Teams Rooms, Bring Your Own Device).
 
-> [!NOTE]
-> The Devices and Rooms association needs to be done in order to view your **Bring Your Own Device** rooms under the **Rooms** page.
+  > [!NOTE]
+  > The Devices and Rooms association needs to be done in order to view your **Bring Your Own Device** rooms under the **Rooms** page.
 
 - Rooms by capacity: Distribution of rooms by capacity, with a breakdown into small, medium, and large rooms.
 
-The following table describes the columns in the **Rooms** view of Inventory. 
+  The following table describes the columns in the **Rooms** view of Inventory. 
 
-| **Column** | **Description** |
-| --- | --- |
-| Display name | Name of the room |
-| Capacity | Illustrate the room's capacity number |
-| Room type | Type of the room either Teams Rooms or Bring Your Own Device |
-| Licenses Type | Type of license assigned to the room (for example, pro, premium, basic, standard, shared licenses, or unlicensed) |
+  | **Column** | **Description** |
+  | --- | --- |
+  | Display name | Name of the room |
+  | Capacity | Illustrate the room's capacity number |
+  | Room type | Type of the room either Teams Rooms or Bring Your Own Device |
+  | Licenses Type | Type of license assigned to the room (for example, pro, premium, basic, standard, shared licenses, or unlicensed) |
 
 Below the headline, you'll find a table with specific information about each room:
 
@@ -67,21 +66,21 @@ When you select a specific room, you'll see a new pane with two different pages,
 
 - **The General page:** Provides the following room information:
 
-| Name | The name of the room |
-| --- | --- |
-| Seating Capacity | The room's capacity |
-| OEM name | The manufacturer name |
-| Resource account | The account associated with the room |
-| Room address | The physical address of the room (street, city, zip code, building, floor) |
+  | Name | The name of the room |
+  | --- | --- |
+  | Seating Capacity | The room's capacity |
+  | OEM name | The manufacturer name |
+  | Resource account | The account associated with the room |
+  | Room address | The physical address of the room (street, city, zip code, building, floor) |
 
 - **The Inventory page** displays detailed information about the room's devices:
 
-| **Column** | **Description** |
-| --- | --- |
-| Name | Name of the device |
-| Type | Type of device (for example, Microsoft Teams Rooms, TeamsPanel, camera.) |
-| Make | Manufacturer name |
-| SerialNumber | The device's serial number |
+  | **Column** | **Description** |
+  | --- | --- |
+  | Name | Name of the device |
+  | Type | Type of device (for example, Microsoft Teams Rooms, TeamsPanel, camera.) |
+  | Make | Manufacturer name |
+  | SerialNumber | The device's serial number |
 
 ### Device view
 
@@ -134,9 +133,8 @@ To associate a device with a room, the following two methods are available:
   1. Click **Add a room to this device**.
   1. Select the desired room from the list to associate the devices with.
   1. Click **Save**.
-    
-:::image type="content" source="../media/byod/device-discovery.png" alt-text="Screenshot of device room association." lightbox="../media/byod/device-discovery.png":::
 
+     :::image type="content" source="../media/byod/device-discovery.png" alt-text="Screenshot of device room association." lightbox="../media/byod/device-discovery.png":::
 
 ## Devices automatically discovered by the Pro Management Portal
 
@@ -155,7 +153,7 @@ To view the Usage report for your Bring Your Own Device rooms:
 1. In the left navigation menu, select **Reports**.
 1. In the Reports page, select the **BYOD Usage** tab.  
 
-:::image type="content" source="../media/byod/usage-report.png" alt-text="Screenshot of Usage Report." lightbox="../media/byod/usage-report.png":::
+   :::image type="content" source="../media/byod/usage-report.png" alt-text="Screenshot of Usage Report." lightbox="../media/byod/usage-report.png":::
 The headlines provide few rooms’ insights described in the following table: 
 
 | Metrics | Description |
