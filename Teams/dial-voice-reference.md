@@ -129,7 +129,7 @@ The required format to enter the extension in the user phone number field can be
 - *+\<phone number>x\<extension>*
 - *x\<extension>*
 
-- Example 1: Update-MgUser -UserId 'usern@domain.com' -MobilePhone '15555555678;ext=5678'
+- Example 1: Update-MgUser -UserId 'usern@domain.com' -MobilePhone '+15555555678;ext=5678'
 - Example 2: Update-MgUser -UserId 'usern@domain.com' -MobilePhone '+15555555678x5678'
 - Example 3: Update-MgUser -UserId 'usern@domain.com' -MobilePhone 'x5678'
 
