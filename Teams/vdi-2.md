@@ -179,7 +179,7 @@ If you enable the bottom pane and switch to the DLL tab, you can also see the Pl
 
 ## Session roaming and reconnections
 
-New Teams loads WebRTC or SlimCore at launch time. If virtual desktop sessions are disconnected (not logged off, Teams is left running on the VM), new Teams can't switch optimization stacks unless it's restarted. As a result, users might be in fallback mode (not optimized) if they roam between different devices that don't support the new optimization architecture (for example, a MAC device that is used in BYOD while working from home, and a corporate-managed thin client in the office).
+New Teams loads WebRTC or SlimCore at launch time. If virtual desktop sessions are disconnected (not logged off, Teams is left running on the VM), new Teams can't switch optimization stacks unless it's restarted. As a result, users might be in fallback mode (not optimized) if they roam between different devices that don't support the new optimization architecture (for example, a MAC device that is used in BYOD while working from home, and a corporate-managed thin client in the office). In order to avoid this scenario, Teams prompts the user with a modal dialogue asking to restart the app. After the restart, users are in WebRTC optimization mode.
 
 |Reconnecting options                                        |If current optimization is WebRTC |If current optimization is SlimCore  |
 |------------------------------------------------------------|----------------------------------|-------------------------------------|
@@ -285,7 +285,7 @@ This policy is now expanded with an additional argument as the only configuratio
 |New-CsTeamsVdiPolicy    |Allows administrators to define new VDI policies that can be assigned to users for controlling Teams features related to meetings on a VDI environment. |`PS C:\> New-CsTeamsVdiPolicy -Identity RestrictedUserPolicy -VDI2Optimization "Disabled"` |The command shown here uses the New-CsTeamsVdiPolicy cmdlet to create a new VDI policy with the identity RestrictedUserPolicy. This policy uses all the default values for a VDI policy except one: VDI2Optimization. In this example, users with this policy can't be optimized with SlimCore. |
 |Grant-CsTeamsVdiPolicy  |Allows administrators to assign a Teams VDI policy at a per-user scope to control the type of meetings that a user can create, the features they can access on an unoptimized VDI environment, and whether a user can be optimized with the new optimization mode that's based on SlimCore. |`PS C:\> Grant-CsTeamsVdiPolicy -identity "Ken Myer" -PolicyName RestrictedUserPolicy` |In this example, a user with identity "Ken Myer" is assigned the RestrictedUserPolicy. |
 |Set-CsTeamsVdiPolicy    |Allows administrators to update existing VDI policies. |`PS C:\> Set-CsTeamsVdiPolicy -Identity RestrictedUserPolicy -VDI2Optimization "Disabled"` |The command shown here uses the Set-CsTeamsVdiPolicy cmdlet to update an existing VDI policy with the Identity RestrictedUserPolicy. This policy uses all the existing values except one: VDI2Optimization; in this example, users with this policy can't be optimized with SlimCore. |
-|Remove-CsTeamsVdiPolicy |Allows administrators to delete a previously created Teams VDI policy. Users with no explicitly assigned policy fall back to the default policy in the organization. |`PS C:\> Remove-CsTeamsMeetingPolicy -Identity RestrictedUserPolicy` |In the example shown above, the command deletes the restricted user policy from the organization's list of policies and removes all assignments of this policy from users who have the policy assigned. |
+|Remove-CsTeamsVdiPolicy |Allows administrators to delete a previously created Teams VDI policy. Users with no explicitly assigned policy fall back to the default policy in the organization. |`PS C:\> Remove-CsTeamsMeetingPolicy -Identity RestrictedUserPolicy` |In the example shown previously, the command deletes the restricted user policy from the organization's list of policies and removes all assignments of this policy from users who have the policy assigned. |
 |Get-CsTeamsVdiPolicy    |Allows administrators to retrieve information about all the VDI policies that have been configured in the organization. |`PS C:\> Get-CsTeamsVdiPolicy -Identity SalesPolicy` |In this example, Get-CsTeamsVdiPolicy is used to return the per-user meeting policy that has an Identity SalesPolicy. Because identities are unique, this command doesn't return more than one item. |
 
 ### Feature list with the new optimization
@@ -314,17 +314,20 @@ The new solution for VDI stores user-specific data on the endpoint in the follow
 > Locked-down thin clients must allow these locations to be read/write, otherwise the new optimization might fail. For older Windows 10 1809 Thin Clients (such as Dell Wyse 5070 and similar models), the folder location for SlimCore profile is
 `C:\Users\<user>\AppData\Local\Packages\Microsoft.Teams.SlimCoreVdi.win-<architecture>.<version>_8wekyb3d8bbwe\LocalCache\`.
 
-Logs, configurations, and AI or ML models (used in noise suppression, bandwidth estimation, etc.) are saved in this location. If these folders are purged after a user signs out (for example, locked-down thin clients without roaming profiles), MsTeamsVdi.exe will recreate them and download the user-specific configuration (about 6 MB of data).
+Logs, configurations, and AI or ML models (used in noise suppression, bandwidth estimation, etc.) are saved in this location. If these folders are purged after a user signs out (for example, locked-down thin clients without roaming profiles), MsTeamsVdi.exe recreates them and downloads the user-specific configuration (about 6 MB of data).
 
 ### SlimCore installation and upgrade process in locked down Thin Client environments (optional)
 
 By default, the MsTeamsPlugin automatically downloads and installs the right SlimCore media engine version without user or Admin intervention. But customers on restricted network environments in the branch office can opt for an alternative SlimCore distribution process, without requiring the endpoint be able to fetch SlimCore packages using https from Microsoft's public CDN.
 
+> [!NOTE]
+> For an updated list of SlimCore packages that match their corresponding new Teams version, [check this table](/officeupdates/teams-app-versioning#vdi-slimcore-version-2-msix-packages).
+
 > [!IMPORTANT]
-> If you must chose this method, you must guarantee that:
+> If you must choose this method, you must guarantee that:
 >
 > 1. [Teams auto-update is disabled](new-teams-vdi-requirements-deploy.md#disable-new-teams-autoupdate) in the virtual desktop.
-> 2. The SlimCore packages are pre-provisioned to the endpoint's local storage or network share before you upgrade new Teams in the virtual desktop. Any newer Teams version will request a matching new version of SlimCore and if the plugin can't find it, the user will be in fallback mode (server-side rendering).
+> 2. The SlimCore packages are pre-provisioned to the endpoint's local storage or network share before you upgrade new Teams in the virtual desktop. Any newer Teams version requests a matching new version of SlimCore and if the plugin can't find it, the user will be in fallback mode (server-side rendering).
 >
 > This is because new Teams and SlimCore versions must match.
 
@@ -493,7 +496,7 @@ The code logged here needs to be mapped using this table:
 |15615      |1951       |ERROR_INSTALL_POLICY_FAILURE       |SlimCore MSIX related error. To install this app, you need either a Windows developer license, or a sideloading-enabled system. AllowAllTrustedApps regkey might be set to 0? |
 |15616      |           |ERROR_PACKAGE_UPDATING             |SlimCore MSIX related error 'The application cannot be started because it is currently updating'. |
 |15700      |           |APPMODEL_ERROR_NO_PACKAGE          |The process has no package identity. There's no alias for MsTeamsVdi in %LOCALAPPDATA%\Microsoft\WindowsApps. [Feedback Hub](https://support.microsoft.com/windows/send-feedback-to-microsoft-with-the-feedback-hub-app-f59187f8-8739-22d6-ba93-f66612949332) logs are needed while reproducing the error (make sure you select **Developer Platform** as the category and **App deployment** as the subcategory) |
-|16389      |           |E_FAIL reported by Package Manager |Usually the same as Load error code 5 (ERROR_ACCESS_DENIED). Most likely caused by the BlockNonAdminUserInstall policy when the user is not an Admin. Check [this link](/windows/client-management/mdm/policy-csp-applicationmanagement#blocknonadminuserinstall) for more details. |
+|16389      |           |E_FAIL reported by Package Manager |Usually the same as Load error code 5 (ERROR_ACCESS_DENIED). Most likely caused by the BlockNonAdminUserInstall policy when the user isn't an Admin. Check [this link](/windows/client-management/mdm/policy-csp-applicationmanagement#blocknonadminuserinstall) for more details. |
 
 ## Using Event Viewer on the VM for troubleshooting
 
