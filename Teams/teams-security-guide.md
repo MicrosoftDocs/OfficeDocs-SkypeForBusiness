@@ -206,7 +206,7 @@ For Teams to function properly, for example, for users to be able to join meetin
 
 ### UDP 3478-3481 and TCP 443
 
-The UDP 3478-3481 and TCP 443 ports are used by clients to request service for audio visuals. A client uses these two ports to allocate UDP and TCP ports respectively to enable these media flows. The media flows on these ports are protected with a key that is exchanged over a TLS protected signaling channel.
+The UDP 3478-3481 and TCP 443 ports are used by clients to request service for audio visuals. A client uses these ports to allocate UDP and TCP ports respectively to enable these media flows. The media flows on these ports are protected with a key that is exchanged over a TLS protected signaling channel.
 
 ### Federation safeguards for Teams
 
