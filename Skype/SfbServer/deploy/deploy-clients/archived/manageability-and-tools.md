@@ -25,9 +25,8 @@ For Skype for Business Server on-premises deployments, you can use the Skype Roo
   
 See the following article for more details:
   
-- [Deploy SRS v1 Administrative Web Portal in Skype for Business Server](../deploy-conferencing/room-system-v1-administrative-web-portal.md)
-    
-  
+- [Deploy SRS v1 Administrative Web Portal in Skype for Business Server](../../deploy-conferencing/room-system-v1-administrative-web-portal.md#deploy-srs-v1-administrative-web-portal-in-skype-for-business-server)
+
 ## Exchange Checklist
 
 - Confirm Autodiscover is set up and an internal DNS A/CNAME RECORD is available for autodiscover.domain.com.
@@ -88,7 +87,7 @@ Skype Room System is an embedded system that can be fully integrated in a Window
     
   - Skype for Business uses end-to-end encryption and authorization for all modes of communication
     
-  - Skype Room System supports Skype for Business security and compliance standards. See [Plan for security in Skype For Business Server](../../plan-your-deployment/security/security.md) for more information.
+  - Skype Room System supports Skype for Business security and compliance standards. See [Plan for security in Skype For Business Server](../../../plan-your-deployment/security/security.md#plan-for-security-in-skype-for-business-server) for more information.
     
 ## License
 
