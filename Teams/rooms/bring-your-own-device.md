@@ -123,16 +123,16 @@ To associate a device with a room, the following two methods are available:
     5. Go back to the Inventory Devices page and click **Import** to upload the modified file.
     6. Verify that the device-room association is updated successfully.
 
-    > [!NOTE]
-    > In cases where the devices were not discovered or reported by Pro Management portal, admins can add those new devices using the import function. Device information such as the Product ID, Vendor ID, Serial Number, and Account information are required for the association to be done.
+      > [!NOTE]
+      > In cases where the devices were not discovered or reported by Pro Management portal, admins can add those new devices using the import function. Device information such as the Product ID, Vendor ID, Serial Number, and Account information are required for the association to be done.
 
 - **Manually associate discovered devices using Pro Management UI:** 
 
-  1. Go to the device table.
-  1. Select the specific device group with the **Need Action** banner. 
-  1. Click **Add a room to this device**.
-  1. Select the desired room from the list to associate the devices with.
-  1. Click **Save**.
+   1. Go to the device table.
+   1. Select the specific device group with the **Need Action** banner. 
+   1. Click **Add a room to this device**.
+   1. Select the desired room from the list to associate the devices with.
+   1. Click **Save**.
 
      :::image type="content" source="../media/byod/device-discovery.png" alt-text="Screenshot of device room association." lightbox="../media/byod/device-discovery.png":::
 
@@ -154,27 +154,28 @@ To view the Usage report for your Bring Your Own Device rooms:
 1. In the Reports page, select the **BYOD Usage** tab.  
 
    :::image type="content" source="../media/byod/usage-report.png" alt-text="Screenshot of Usage Report." lightbox="../media/byod/usage-report.png":::
-The headlines provide few rooms’ insights described in the following table: 
 
-| Metrics | Description |
-|---|---|
-| **Total rooms** | Total number of Bring Your Own Device rooms |
-| **Unused rooms** | Number of Bring Your Own Device rooms with no calls |
-| **Used rooms** | Number of Bring Your Own Device rooms used based on calls made |
-| **Utilization** | Percentage of utilization of all Bring Your Own Device rooms across the tenant. <br> Utilization = Total call duration (all rooms) / (Workdays * workday hour * Bring Your Own Device rooms) <br> For example: If the tenant has 15 Bring Your Own Device Rooms, total call duration for all rooms is 300 h, work days = 10, work day hour = 8 h; then Utilization = 300/(10\*8\*15)= 25% |
-| **Audio and video calls** | Will generate the duration of the audio call and video camera |
-| **Overall call performance** | Overall Percentage of calls rated as “Good” out of the total calls in the room. Each call is evaluated and receives a Good, poor, Unknown rating. |
-| **Total calls** | Overall number of calls made in Bring Your Own Device rooms |
+   The headlines provide few rooms’ insights described in the following table:
 
-Below the headline metrics, there's a table that provides a granular breakdown of individual Bring Your Own Device rooms, accompanied by specific metrics that illuminate each room’s usage and performance during the period selected. 
+   | Metrics | Description |
+   |---|---|
+   | **Total rooms** | Total number of Bring Your Own Device rooms |
+   | **Unused rooms** | Number of Bring Your Own Device rooms with no calls |
+   | **Used rooms** | Number of Bring Your Own Device rooms used based on calls made |
+   | **Utilization** | Percentage of utilization of all Bring Your Own Device rooms across the tenant. <br> Utilization = Total call duration (all rooms) / (Workdays * workday hour * Bring Your Own Device rooms) <br> For example: If the tenant has 15 Bring Your Own Device Rooms, total call duration for all rooms is 300 h, work days = 10, work day hour = 8 h; then Utilization = 300/(10\*8\*15)= 25% |
+   | **Audio and video calls** | Will generate the duration of the audio call and video camera |
+   | **Overall call performance** | Overall Percentage of calls rated as “Good” out of the total calls in the room. Each call is evaluated and receives a Good, poor, Unknown rating. |
+   | **Total calls** | Overall number of calls made in Bring Your Own Device rooms |
 
-| **Column** | **Description** |
-|---|---|
-| **Display room name** | The designated name of the Bring Your Own Device room |
-| **Room Type** | Will show as “Bring Your Own Device Room” as room type |
-| **Utilization** | The percentage of total call duration spent in a Bring Your Own Device room during business hours in the selected period. <br> For example, for a time period set to 10 Work days for room A, total call duration for room A is 12 h and Work Day Hour = 8 h; then room utilization = Total Call Duration in Room / (Work Days * Work Day Hour) = 12/(10\*8) =  15% |
-| **Total calls** | Total count of calls conducted in the room during the specified timeframe |
-| **Call performance** | Percentage of calls rated as “Good” out of the total calls in the room. Each call is evaluated and receives a Good, poor, Unknown rating. |
+   Below the headline metrics, there's a table that provides a granular breakdown of individual Bring Your Own Device rooms, accompanied by specific metrics that illuminate each room’s usage and performance during the period selected. 
+
+   | **Column** | **Description** |
+   |---|---|
+   | **Display room name** | The designated name of the Bring Your Own Device room |
+   | **Room Type** | Will show as “Bring Your Own Device Room” as room type |
+   | **Utilization** | The percentage of total call duration spent in a Bring Your Own Device room during business hours in the selected period. <br> For example, for a time period set to 10 Work days for room A, total call duration for room A is 12 h and Work Day Hour = 8 h; then room utilization = Total Call Duration in Room / (Work Days * Work Day Hour) = 12/(10\*8) =  15% |
+   | **Total calls** | Total count of calls conducted in the room during the specified timeframe |
+   | **Call performance** | Percentage of calls rated as “Good” out of the total calls in the room. Each call is evaluated and receives a Good, poor, Unknown rating. |
 
 ### Bring Your Own Device call utilization detailed view 
 
@@ -192,6 +193,7 @@ The Teams BYOD solution uses peripheral data crowdsourced from the Teams client 
 
 > [!WARNING]
 > Disabling this policy setting for certain users will cause BYOD and desk usage information to cease flowing to the service. The Teams BYOD and Desk solution requires peripheral data sent from users to calculate usage reports for peripherals, BYOD rooms, and desks.
+
 ```
 Get-CsTeamsBYODAndDesksPolicy
 New-CsTeamsBYODAndDesksPolicy -Identity "Test"
