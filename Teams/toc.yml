@@ -446,7 +446,7 @@ items:
             - name: Stream Classification in CQD
               href: stream-classification-in-call-quality-dashboard.md
             - name: Intelligent Media Quality Classifiers in CQD
-              href: cqd-media-quality-classification.md
+              href: cqd-intelligent-media-quality-classifiers.md
             - name: Create a building map
               href: CQD-building-mapping.md
             - name: Use Power BI to analyze CQD data
