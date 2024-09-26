@@ -43,7 +43,7 @@ The availability of the CQD Media classifiers varies depending on the specific p
 
 - Media modality and Network classifiers are applied to all platforms and media modalities (Audio, Video, Screen Sharing).
 - Compute device classifiers are applied to native platforms (excluding Teams Web, optimized VDI, and CVI) and all media modalities.
-- Input device classifiers are applied to native platforms (excluding WebRTC based ones) and audio only. Video and Screensharing as well
+- Input device classifiers are applied to native platforms (excluding WebRTC based ones) and audio only.
 
 ## When to use media classifiers
 
