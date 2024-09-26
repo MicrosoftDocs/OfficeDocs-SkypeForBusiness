@@ -1,9 +1,9 @@
 ---
 title: Conditional Access and compliance best practices for Microsoft Teams Rooms
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: tjaved
+ms.reviewer: dimehta
 ms.date: 08/22/2024
 ms.topic: article
 audience: Admin
@@ -66,7 +66,7 @@ Compliance requirements are defined rules that devices must meet to be marked as
 
 For a list of supported Intune compliance policies for Teams Rooms, see [Supported device compliance policies](supported-ca-and-compliance-policies.md#supported-device-compliance-policies).
 
-For more information on setting up Intune with Teams Android devices, see [Configure Intune to enroll Teams Android-based devices](../devices/phones-displays-deploy.md#configure-intune-to-enroll-teams-android-based-devices).
+For more information on setting up Intune with Teams Android devices, see [Configure Intune to enroll Teams Android-based devices](../devices/phones-panels-deploy.md#configure-intune-to-enroll-teams-android-based-devices).
 
 ## Example (Windows only): Conditional Access with Intune device compliance
 

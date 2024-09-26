@@ -79,13 +79,26 @@ As an admin, you can manage the following features attendees use for interaction
 
 A Teams Premium subscription includes the following features for webinars:
 
-- Create a webinar wait list.
-- Limit the day and time when people can register.
-- Manage attendees’ view.
-- Manually approve registrants.
-- Use RTMP-in.
-- Send reminder emails to registrants.
-- Set up a green room for webinar presenters.
+|Feature name | Webinar features | Teams Premium webinar features |
+|-------------------------------------------------------|:---------------------:|:-------------------------:|
+|Allow registered users to bypass the lobby         |✔️                      |✔️                          |
+|Assign a co-organizer                              |✔️                      |✔️                          |
+|Limit the number of people who can register        |✔️                      |✔️                         |
+|Require attendees to register|✔️|✔️|
+|Set up a green room for webinar presenters |✔️|✔️ |
+|Turn on Q&A for webinars with up to 1,000 attendees |✔️ |✔️|
+|View attendance reports|✔️|✔️|
+|External presenters|✔️|✔️|
+|Create a webinar wait list                         |                       |✔️                          |
+|Limit the day and time when people can register    |                       |✔️                         |
+|Manage attendees’ view                             |                       |✔️                          |
+|Manually approve registrants                       |                       |✔️                          |
+|Send reminder emails to registrants                |                       |✔️                          |
+|Use RTMP-In for webinars                           |                       |✔️                         |
+|Hide attendee names                          |                       |✔️                         |
+|Manage what attendees see                          |                       |✔️                         |
+|Custom meeting templates                         |                       |✔️                         |
+|Admin created custom meeting backgrounds                         |                       |✔️                         |
 
 ## Webinar control comparison
 
@@ -98,7 +111,6 @@ Teams admins and organizers have different policies and settings to control the 
 |[Chat](manage-meeting-chat.md)|Can manage whether organizers, presenters, and co-organizers, and attendees can read and write chat messages.|Can manage whether chat is available for their webinars.|
 |[Collaboration features](meeting-policies-content-sharing.md)|Can control the availability of PowerPoint Live, whiteboard, and shared notes.|No control.|
 |[Content sharing](meeting-who-present-request-control.md)|Can control sharing mode and who can request control and can set a default for who can present.|Can control who can present.|
-|[Copilot](copilot-teams-transcription.md)|Can control the default value for Copilot in organizers’ meeting options.|Can control whether Copilot can be used with or without transcription during their webinars. Attendees can use Copilot during webinars if they have a Copilot license.|
 |[Email communications (Teams Premium)](manage-email-communications.md)|Can control if event organizers and co-organizers can edit email templates for their webinars.|Can edit email templates  before they're sent out.|
 |[External presenters](https://support.microsoft.com/office/schedule-a-webinar-in-microsoft-teams-0719a9bd-07a0-47fd-8415-6c576860f36a)|No control.|Can invite presenters from outside  of your organization. External presenters have a unique join link to join the webinar without waiting in the lobby.|
 |[Green room](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5)|No control.|Can choose if green room is used for a webinar.|
@@ -107,6 +119,7 @@ Teams admins and organizers have different policies and settings to control the 
 |[Live translated transcription (Teams Premium)](meeting-transcription-captions.md) |Can control whether organizers with a Premium license can have live translated transcription for their webinars. |Can enable live translated transcription for themselves; attendees can always turn on live translated transcription. |
 |[Manage what attendees see (Teams Premium)](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|No control|Can decide whose avatars or video feeds to spotlight during a Teams meeting. Others are hidden from view.|
 |[Manage who can schedule webinars](set-up-webinars.md)|Can disable webinars for users and groups, control which organizers can schedule webinars,  and decide whether organizers can schedule public webinars.|Can schedule webinars if allowed by admin.|
+|[Microsoft 365 Copilot in Teams meetings and events](copilot-teams-transcription.md)|Can control the default values and enforce specific values for Microsoft 365 Copilot in Teams meetings and events in organizers’ meeting options.|Can control whether Microsoft 365 Copilot in Teams meetings and events is used **Only during the meeting**, **During and after the meeting**, or **Off** during their webinars. Attendees can use Copilot if they have a Copilot Microsoft 365 Copilot license.|
 |[Q&A](manage-qna-for-teams.md)|Can manage if organizers can use Q&A in webinars.|Can decide if Q&A is available for their webinars if allowed by admins. Webinar organizers and co-organizers can export the event's questions and answers to a CSV file.|
 |[Reactions](manage-reactions-meetings.md)| Manage whether organizers with this policy can use reactions in their webinars. |Can control whether reactions can be used in their webinars. |
 |[Recording](meeting-recording.md)| Can allow or prevent webinar recording. |If the admin enables recording, organizers can set who can record and automatic recording. |

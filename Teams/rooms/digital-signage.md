@@ -1,5 +1,5 @@
 ---
-title: Digital signage with Teams Rooms for Windows
+title: Digital signage with Teams Rooms
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen

@@ -32,8 +32,7 @@ Spam filtering for calls isn't the same as blocking inbound calls. For more info
 
 This setting allows you to control the type of spam filtering available on incoming calls. This setting is on by default. This setting has three options:
 
-- **On** Spam filtering is fully enabled. Both Basic and Captcha Interactive Voice Response (IVR) checks are performed. In case the call is considered as spam, the user gets a "Spam Likely" notification in Teams.
-- **On without IVR** Spam Filtering is partially enabled. Captcha IVR checks are disabled. A "Spam Likely" notification appears. A call might get dropped if it gets a high score from Basic checks.
+- **On** or **On without IVR** Spam filtering is enabled. In case the call is considered as spam, the user gets a "Spam Likely" notification in Teams.
 - **Off** Spam filtering is disabled. No checks are performed. A "Spam Likely" notification doesn't appear.
 
 ## Using PowerShell
