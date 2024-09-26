@@ -15,8 +15,8 @@ ms.collection:
 search.appverid: MET150
 audience: Admin
 appliesto: 
-  - Skype for Business
   - Microsoft Teams
+  - Skype for Business
 ms.localizationpriority: medium
 ms.custom: 
  - Reporting
