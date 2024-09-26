@@ -1,10 +1,10 @@
 ---
-title: "Media quality classification in CQD"
+title: "Intelligent media quality classifiers in CQD"
 author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: jamp, oloper, hakanbe, mamcgrath
-ms.date: 09/11/2024
+ms.date: 09/26/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,15 +23,17 @@ ms.custom:
 description: "Learn how media quality is classified in the Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business."
 ---
 
-# Media quality classification in Call Quality Dashboard (CQD)
+# Intelligent media quality classifiers in Call Quality Dashboard (CQD)
 
 The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business allows you to gain insights into the quality of calls made using Microsoft Teams and Skype for Business services. This topic provides detailed information about the quality classification of media streams. To learn more about CQD and how to set it up, see [Set up Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md).
+
+In Call Quality Dashboard, audio stream classification of Good and Poor is performed by a series of conditional statements to determine if the underlying network was performing in such a manner that the stream would likely be degraded, while the video and VBSS Good and Poor classifiers use basic video metrics to accomplish the same task. The intelligent media quality classifiers take a broader and deeper view of the call telemetry, weighing several factors (including network) to determine perceived user experience of the call and identify possible root cause when we suspect quality was degraded. As a result, it's expected that the Good and Poor values won't necessarily match up with the intelligent media quality classifier results.
 
 ## Overview of CQD media classifiers
 
 CQD media classifiers use Machine Learning (ML) algorithms that help pinpoint specific problem areas in stream quality. Compared to [Steam classification in CQD](stream-classification-in-call-quality-dashboard.md), media quality classification in CQD provides IT admins with a more advanced analysis into causality, media degradation, and root cause. These classifiers enable you to take proactive measures for addressing and preventing call quality issues.
 
-To deliver the most comprehensive insights, CQD media classifiers individually address three main real-time media modalities: Audio, Video, and Screensharing. These classifiers focus on call quality on a stream level (such as Audio, Video, and Screensharing) and then they go further with in-depth analyses in areas such as network, compute Device, and input device, allowing for pinpointing specific problem areas.
+To deliver the most comprehensive insights, CQD media classifiers individually address three main real-time media modalities: Audio, Video, and Screensharing. These classifiers focus on call quality on a stream level (such as Audio, Video, and Screensharing) and then they go further with in-depth analyses in areas such as network, compute device, and input device, allowing for pinpointing specific problem areas.
 
 There are two levels of classification to provide a view into causality and root cause: higher-level and lower-level. Higher-level classifiers predict if audio, video, or screensharing are not functioning properly, whereas lower-level classifiers predict if a problem was in a network, compute device, or input device.
 
@@ -39,9 +41,9 @@ There are two levels of classification to provide a view into causality and root
 
 The availability of the CQD Media classifiers varies depending on the specific platforms and media types, due to differences in telemetry availability across various platforms. We are continuously improving the coverage of the classifiers. The following platforms and media types are covered by CQD media classifiers:
 
-- Media Modality and Network classifiers are applied to all platforms and media modalities (Audio, Video, Screen Sharing).
-- Compute Device classifiers are applied to native platforms (excluding Teams Web, optimized VDI, and CVI) and all media modalities.
-- Input Device classifiers are applied to native platforms (excluding WebRTC based ones) and audio only.
+- Media modality and Network classifiers are applied to all platforms and media modalities (Audio, Video, Screen Sharing).
+- Compute device classifiers are applied to native platforms (excluding Teams Web, optimized VDI, and CVI) and all media modalities.
+- Input device classifiers are applied to native platforms (excluding WebRTC based ones) and audio only. Video and Screensharing as well
 
 ## When to use media classifiers
 
@@ -49,8 +51,8 @@ There are certain application rules of the CQD media classifiers that determine 
 
 - Inbound classifiers are applied only if a user is receiving at least 60 seconds of media. In CQD, **this data is recorded** as *Stream Duration Value* for Audio and Video and *Duration Seconds* for Video and Screensharing.
 - Outbound classifiers are applied only if the user sent at least 60 seconds of respective media. **This data is recorded** as the following:
-  - For Audio: Avg First Received Audio Seconds >= 60
-  - For Video and Screensharing: Second Video Duration Seconds
+  - For Audio: AvgFirstReceivedAudioSeconds >= 60
+  - For Video and Screensharing: SecondVideoDurationSeconds >= 60
 
 ## Inbound and outbound streams in Peer-to-Peer (P2P) and Conference calls
 
@@ -185,9 +187,9 @@ For a list of all available dimensions and measures in CQD, including their name
 
 CQD media classifiers assign probabilities to endpoints in calls by learning from user telemetry and Call Quality Feedback ratings. These probabilities are transformed into Boolean values (true/false) that indicate whether the call experience for the corresponding endpoint is considered poor or not.
 
-To determine a stream quality problem rate to help mitigate false predictions, we use percentile-based thresholding. With percentile-based thresholding, the lowest performing 2% of endpoints within a specific platform and region are identified as **having poor call experiences/a poor call experience**. This thresholding helps IT admins take action on the reported issues that might affect call quality.
+To determine a stream quality problem rate to help mitigate false predictions, we use percentile-based thresholding. With percentile-based thresholding, the lowest performing 2% of endpoints within a specific platform, region, and media type are identified as having a poor call experience. This thresholding helps IT admins take action on the reported issues that might affect call quality.
 
-**The area classifiers are provided as Local classifiers.** For inbound streams or local devices, start by thoroughly assessing the *Detected Media Modality* classifiers that predict the issues related to received Audio, Video or Screensharing. These classifiers incorporate input features from all Local area classifiers--such as *Detected Inbound Network*, *Detected Local Compute*, and *Detected Local Input Device*--along with additional important features that are not exclusively associated with any area.
+The media level classifiers are provided as Local classifiers. For inbound streams or local devices, start by thoroughly assessing the *Detected Media Modality* classifiers that predict the issues related to received Audio, Video, or Screensharing. These classifiers incorporate input features from all Local area classifiers--such as *Detected Inbound Network*, *Detected Local Compute*, and *Detected Local Input Device*--along with additional important features that are not exclusively associated with any area.
 
 In scenarios where the media level classifier predicts a problem, but no area level problems are detected, either the existence of several minor issues or the significant influence of non-overlapping input features suggest further investigation. Usually, at least one Warning field highlights a potential problem.  
 
