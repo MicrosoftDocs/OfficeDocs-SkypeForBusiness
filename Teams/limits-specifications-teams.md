@@ -145,11 +145,11 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 
 |Feature     | Maximum limit |
 |------------|---------------|
-|Number of people in a meeting (can chat and call in)  | With Microsoft 365 Business Basic, Microsoft 365 Business Standard, Microsoft 365 Business Premium, and Microsoft 365 A1 plans, you can host online meetings and video calls for up to 300 people using Microsoft Teams. With Microsoft 365 E3/E5, Microsoft 365 A3/A5, and Microsoft 365 Government G3/G5 plans, this limit increases up to 1,000 people.|
+|Number of people in a meeting (can chat and call in)  | With Microsoft 365 Business Basic, Microsoft 365 Business Standard, Microsoft 365 Business Premium, and Microsoft 365 A1 plans, you can host online meetings and video calls for up to 300 people using Microsoft Teams. With Microsoft 365 E3/E5, Microsoft 365 A3/A5, and Microsoft 365 Government G3/G5 plans, this limit increases to around 900 people.|
 |Number of people in a video or audio call from chat | 20 |
 |Max PowerPoint File Size | 2 GB|
 |Teams keeps [meeting recordings](meeting-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |
-| Meeting recording maximum length | 4 hours or 1.5 GB. When this limit is reached, the recording ends and automatically restarts.
+| Meeting recording maximum length | 4 hours or 1.5 GB. When this limit is reached, the recording ends and automatically restarts.|
 
 For more information, see [Meetings, webinars, and live events](/microsoftteams/quick-start-meetings-live-events).  
   
@@ -185,7 +185,7 @@ Live events are structured meetings that enable your organization to schedule an
 |Duration of event | 16 hours <sup>2>/sup> |
 |Concurrent Live Events running in a Microsoft 365 or Office 365 organization <sup>3</sup> | 50<sup>4</sup> |
 
-<sup>1</sup>  The usual 10,000 is increased to 20,000 until further notice. You can schedule even greater numbers with live events in Viva Engage and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365). Events over 20,000 attendees require the [Live Events Assistance Program](/stream/live-events-assistance).
+<sup>1</sup>  The usual 10,100 is increased to 20,000 until further notice. You can schedule even greater numbers with live events in Viva Engage and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365). Events over 20,000 attendees require the [Live Events Assistance Program](/stream/live-events-assistance).
 
 <sup>2</sup> The usual 4 hours is increased to 16 hours until further notice.
 
