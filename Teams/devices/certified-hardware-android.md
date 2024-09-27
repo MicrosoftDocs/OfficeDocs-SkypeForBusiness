@@ -137,7 +137,6 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 
 | Microsoft Teams Rooms peripheral | Certified firmware version | Supports content camera | Intelligent camera | Spatial audio | Intelligent speaker |
 
-
 ## [Rooms devices for Android](#tab/Devices)
 
 The following devices are certified under the Microsoft Teams Rooms for Android peripherals program:
@@ -311,3 +310,16 @@ The following table provide recommendations for peripherals based on room size:
 |**Small** <br/> 16' x 16' <br/> (4.87 x 4.87 m)  |4-6  |2.0 m  |
 |**Medium** <br/> 18' x 20' <br/> (5.5 x 6 m)  |6-12  |2.4 m  |
 |**Large** <br/> 15' x 32' <br/> (4.5 x 9.75 m)  |12-16  |3 m <br/> This distance also applies to the area covered by each connected satellite microphone.  |
+
+## End of life
+
+Microsoft and its Original Equipment Manufacturers (OEM) partners continually develop products to meet the needs of the market and elevate the Teams devices experience. During the product lifecycle, some products may receive an OS upgrade before their certification expires and will undergo re-certification, while others might not get re-certified and will ultimately be discontinued by the OEM.
+
+We recognize that device certification expiration can impact your business. Our OEM partners have detailed End-of-Life policies to assist and direct you towards adopting newer technologies. For the most current information on Teams certified devices referenced here, please consult our OEM partners' websites.
+
+Following a certification expiration, Microsoft is committed to supporting the latest version of the Teams devices applications on certified devices for a span of two (2) years after the certification period concludes. While Microsoft will make every effort to maintain support as described here, it retains the discretion to modify its support policy if necessary. Should any changes occur, they will be communicated through the established customer facing communication channels.
+
+| **Device Category** | **Device Model**| **Android OS Versio** | **Certification end date** | **Microsoft 'best effort' support end date** | 
+|:----------------|:-------------------|:----------------------------|:--------------------------|:----------------------|
+|Teams Rooms for Android | Yealink VC210 | 9 | August 5, 2023 | August 5, 2025 |
+|Teams Rooms for Android | EPOS Expand Vision 3T | 9 | August 5, 2023| August 5, 2025 |
