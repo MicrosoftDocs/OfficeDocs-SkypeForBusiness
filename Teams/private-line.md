@@ -2,11 +2,11 @@
 title: 'Configure private lines in Microsoft Teams'
 author: mkbond007
 ms.author: mabond
-manager: serdars
-ms.topic: conceptual
+manager: pamgreen
+ms.topic: article
 ms.service: msteams
 ms.reviewer: roykuntz
-ms.date: 02/14/2024
+ms.date: 09/27/2024
 audience: admin
 search.appverid: MET150
 description: Learn how to configure private telephone lines for users in Microsoft Teams.
@@ -44,10 +44,12 @@ Keep the following requirements for private lines in mind:
 
 The automated provisioning and deprovisioning of private line licenses must match the user's primary line. The following user license combinations are simultaneously supported for both private line and primary lines:
 
-|User license combinations|Simultaneous phone number types allowed|
+|User license combinations|Phone number category available for assignment|
 |-----|-----|
-|Phone System|Direct Routing, Operator Connect, Teams Phone Mobile|
-|Phone System with Calling Plan add-on|Calling Plan|
+|Teams Phone|Direct Routing, Operator Connect, Teams Phone Mobile|
+|Teams Phone with Calling Plan|Direct Routing, Operator Connect, Teams Phone Mobile, Calling Plan|
+
+For more information about licensing, see [Microsoft Teams add-on licenses](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 ## Call handling for private lines
 
@@ -62,9 +64,32 @@ The following information describes how inbound calls are handled using a privat
 
 ## Configure a private line for a user
 
-Currently, private lines can only be configured with PowerShell. You must have Teams PowerShell Module version 5.4.0 or higher to use the updated [CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) cmdlets.
+Private lines can be configured in the Teams admin center or with PowerShell. You must have Teams PowerShell Module version 5.4.0 or higher to use the updated [CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) cmdlets.
 
-### Assign a private line to a user
+### Using Teams admin center
+
+#### Assign a private line to a user
+
+1. From the Teams admin center, go to **Users** > **Manage users**.
+1. Select a user.
+1. From the user's Account tab, under Assigned phone number, select **Assign private phone number**.
+1. From the Assign private phone number panel, select the **Private phone number type**.
+1. Select a phone number for **Assign private phone number**.
+1. Assign an emergency location for the primary number.
+1. Select **Apply**.
+
+#### Unassign a private line from a user
+
+1. From the Teams admin center, go to **Users** > **Manage users**.
+1. Select a user.
+1. From the user's Account tab, under Assigned phone number, select **View details**.
+1. On the user's Private phone number, select **Edit**.
+1. From the Assign private phone number panel, select **None** for **Assigned phone number**.
+1. Select **Apply**.
+
+### Using PowerShell
+
+#### Assign a private line to a user
 
 Accounts for new users who need private lines use the same [CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) cmdlet as accounts for new users who don't need private lines. The only difference is that you need to specify the parameter `-AssignmentPlan` with the **Private** attribute.
 
@@ -76,7 +101,7 @@ Set-CsPhoneNumberAssignment -Identity user1@contoso.com -PhoneNumber '+142555512
 
 When you assign a phone number to a user, the `-EnterpriseVoiceEnabled` parameter is automatically set to **True**.
 
-### Unassign a private line from a user
+#### Unassign a private line from a user
 
 The following PowerShell script unassigns the Microsoft Calling Plan phone number +14255551234 as a private line for user1@contoso.com:
 

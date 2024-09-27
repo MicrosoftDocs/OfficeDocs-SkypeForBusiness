@@ -270,6 +270,7 @@ See [Microsoft Teams panels](../devices/overview-teams-panels.md) for features s
 #### <b> Crestron </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications  | Release date|
 |:----------------|:-------------------|:----------------------------|:-------------------------------------------------------------------|:---------------------------|
+| TSS-770/TSS-1070 | `2.006.0054` | N/A| Teams client: `1449/1.0.97.2024061108` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| September 24, 2024|
 | TSS-770/TSS-1070 | `2.004.1054` | N/A| Teams client: `1449/1.0.97.2023080401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| January 8, 2024|
 | TSS-770/TSS-1070 | `2.004.1029` | N/A| Teams client: `1449/1.0.97.2022748302` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product`| July 3, 2023|
 | TSS-770/TSS-1070 | `2.004.1026` | N/A| Teams client: `1449/1.0.97.2022748302` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product`| June 9, 2023|
@@ -346,6 +347,7 @@ See [Microsoft Teams panels](../devices/overview-teams-panels.md) for features s
 #### <b> Neat </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications  | Release date| Cloud|
 |:----------------|:-------------------|:----------------------------|:-------------------------------------------------------------------------|:-------------------------------------|:--------------------|
+| Neat Pad | `NFA1.20240620.1740` | N/A| Teams client: `1449/1.0.97.2024061108` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202402202353.product`| September 27, 2024| GCCH|
 | Neat Pad | `NFA1.20240516.0501` | N/A| Teams client: `1449/1.0.97.2024040202` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202402202353.product`| July 30, 2024| GCCH|
 | Neat Pad | `NFA1.20240120.0109` | N/A| Teams client: `1449/1.0.97.2023111003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| March 26, 2024| GCCH|
 
