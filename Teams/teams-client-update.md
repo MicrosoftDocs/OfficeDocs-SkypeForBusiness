@@ -9,7 +9,7 @@ audience: admin
 ms.collection: 
   - M365-collaboration
 ms.reviewer: 
-ms.date: 06/28/2024
+ms.date: 10/13/2024
 search.appverid: MET150
 f1.keywords: 
   - NOCSH
@@ -20,12 +20,12 @@ appliesto:
 ms.custom: seo-marvel-apr2020
 ---
 
-> [!NOTE]
-> This article contains information for the new Teams client. The classic Teams client has ended support, and is no longer receiving updates.
-
 # Why it's important to keep Teams updated.
 
-Keeping Microsoft Teams up to date is crucial for maximizing productivity and staying connected. Regular updates mean you have access to the latest features, security enhancements, and bug fixes. Updating not only improves the overall performance and reliability of the application, it also helps you and your team collaborate more efficiently. By staying current with updates, you reduce the risk of having issues and ensure compatibility with other tools, making it easier to focus on your work without interruptions. 
+> [!IMPORTANT]
+> This article contains information for the new Teams client. The classic Teams client has ended support, and is no longer receiving updates.
+
+Keeping Microsoft Teams up-to-date is crucial for maximizing productivity and staying connected. Regular updates mean you have access to the latest features, security enhancements, and bug fixes. Updating not only improves the overall performance and reliability of the application, it also helps you and your team collaborate more efficiently. By staying current with updates, you reduce the risk of having issues and ensure compatibility with other tools, making it easier to focus on your work without interruptions. 
 
 ## Servicing agreement
 
@@ -91,13 +91,15 @@ For more information, see [Teams client system requirements](teams-client-system
 
 XXX WHAT CODE FORMAT IS THIS I NEED TO KNOW TO MARK IT PROPERLY
 
-    <key>/Applications/Microsoft Teams.app</key>
+```html
+<key>/Applications/Microsoft Teams.app</key>
     <dict>
       <key>Application ID</key>
       <string>TEAMS21</string>
       <key>LCID</key>
       <integer>1033</integer>
     </dict>
+```
 
 ### Issues with Mac update and best practices
 
@@ -117,6 +119,6 @@ XXX I'm not putting this in until I confirm with Meera Krishna that this doesn't
 
 XXX LEAVING VDI IN FOR NOW.
 
-## What about updates to Teams on VDI?
+## Updates to Teams on VDI
 
 Teams clients on Virtual Desktop Infrastructure (VDI) aren't automatically updated the way that non-VDI Teams clients are. You have to update the VM image by installing a new MSI as described in the instructions to [Install Teams on VDI](teams-for-vdi.md). You must uninstall the current version to update to a newer version.
