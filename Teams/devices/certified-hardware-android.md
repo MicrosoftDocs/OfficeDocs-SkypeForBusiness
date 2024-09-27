@@ -1,10 +1,10 @@
 ---
-title: Teams Rooms certified systems and peripherals
+title: Teams Rooms certified systems and peripherals for Android
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: raginis
-ms.date: 09/17/2024
+ms.reviewer: divank
+ms.date: 09/26/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -21,14 +21,16 @@ ms.localizationpriority: medium
 ms.custom: 
   - seo-marvel-mar2020
 hideEdit: true
-description: Find lists of certified systems and peripherals for use with Microsoft Teams Rooms systems.
+description: Find lists of certified systems and peripherals for use with Microsoft Teams Rooms systems on Android.
 ---
 
-# Teams Rooms certified systems and peripherals
+# Teams Rooms on Android certified systems and peripherals
 
 ***
-- [Teams Rooms for Windows](/microsoftteams/rooms/certified-hardware?tabs=Windows#tabpanel_1_Windows)
-- [Certified Room peripherals](/microsoftteams/rooms/certified-hardware?tabs=Devices#tabpanel_1_Devices)
+- [Teams Rooms Android certification program](/microsoftteams/rooms/certified-hardware#teams-rooms-for-android-certification-program)
+- [Teams Rooms for Android](/microsoftteams/rooms/certified-hardware-android?tabs=Android#tabpanel_1_Android)
+- [Teams panels](/microsoftteams/rooms/certified-hardware-android?tabs=Panels#tabpanel_1_Panels)
+- [Certified Room peripherals](/microsoftteams/rooms/certified-hardware-android?tabs=Devices#tabpanel_1_Devices)
 ***
 
 The Microsoft Teams Devices Certification Program ensures certified devices meet a high standard, with higher performance targets and quality metrics across the entire Teams experience (audio, video, user interface). Microsoft and OEM partners are actively working together to ensure devices meet all certification requirements, including security, audio and video quality, Teams experience, and accessibility.
@@ -46,104 +48,20 @@ Numerous certified peripherals, from speakers to microphones and cameras, are av
 
 To see peripherals pricing, see the [Rooms systems accessories product showcase](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/room-systems-accessories/73).
 
+## Teams Rooms for Android certification program
 
-## [Teams Rooms for Windows](#tab/Windows)
+> [!Important] 
+> The following information pertains to **Teams Rooms for Android** only.
+> For additional Android based devices that are Microsoft certified, please visit [Microsoft Teams certified Android devices](/microsoftteams/devices/teams-ip-phones).
 
-The following devices are Certified under the Microsoft Teams Rooms on Windows Certification Program:
+Certification programs are designed to ensure all certified devices run an Android version with the required feature set for Teams and Teams Admin Center. Certification end dates are based on the Android version running on the device when it enters into the certification program. Our OEM partners are working to extend the lifetime of the certification by upgrading the Android version and recertifying, or by releasing new models that are state-of-the-art.
 
-| Console | Processor | RAM | Disk |
-|:-|:-|:-|:-|
-| [Arena NUC (compute) with Logitech TAP Console](https://www.logitech.com/en-us/video-collaboration/partners/microsoft.html) | Core i5 | 16 GB | 256 GB |
-| [Crestron Flex UC-M130-T with Intel NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M130-T) | Core i5 | 8 GB | 128 GB |
-| [Crestron Flex UC- B130-T with Intel NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T) | Core i5 | 8 GB | 128 GB |
-| [Crestron Flex UC-B140-T with Intel NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B140-T) | Core i5 | 8 GB | 128 GB |
-| [Crestron Flex UC-C140-T with Intel NUC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C140-T) | Core i7 | 8 GB | 128 GB |
-| [Crestron Flex UC-M150-T with Intel NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T) + [CCS-UCA-MIC](https://www.crestron.com/Products/Audio/Microphones/Wired-Microphones/CCS-UCA-MIC-KIT) | Core i7 | 8 GB | 128 GB |
-| [Crestron Flex UC-MX150-T with Intel NUC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX150-T) | Core i5 | 8 GB | 128 GB |
-| [Crestron Flex UC-B160-T with Intel NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T) | Core i7 | 8 GB | 128 GB |
-| [Crestron Flex UC-C160-T with Intel NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T) | Core i7 | 8 GB | 128 GB |
-| [Crestron Flex UC-MMX30-T with UC Presentation Transmitter (UC-PR) and ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MMX30-T) | Core i5/i7 | 8 GB | 128 GB |
-| [Crestron Flex UC-BX30-T with UC Presentation Transmitter (UC-PR) and ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-BX30-T) | Core i5/i7 | 8 GB | 128 GB |
-| [Crestron Flex UC-CX100-T with UC Presentation Transmitter (UC-PR) and ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-CX100-T) | Core i5/i7 | 8 GB | 128 GB |
-| [Crestron Flex UC-B30-T with ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B30-T) | Core i5/i7 | 8 GB | 128 GB |
-| [Crestron Flex UC-C100-T with ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) | Core i5/i7 | 8 GB | 128 GB |
-| [Crestron Flex UC-M50-T with ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M50-T) | Core i5/i7 | 8 GB | 128 GB |
-| [Crestron Flex UC-M70-T with ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M70-T) | Core i5/i7 | 8 GB | 128 GB |
-| [Crestron Flex UC-MX50-T with ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX50-T) | Core i5/i7 | 8 GB | 128 GB |
-| [Crestron Flex UC-MX70-T with ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX70-T) | Core i5/i7 | 8 GB | 128 GB |
-| Crestron FLEX UC-B30-T with Dell OPTIPLEX | Core i5 | 8 GB | 128 GB |
-| Crestron FLEX UC-Bx30-T with Dell OPTIPLEX | Core i5 | 8 GB | 128 GB |
-| Crestron FLEX UC-MM30-T with Dell OPTIPLEX | Core i5 | 8 GB | 128 GB |
-| Crestron FLEX UC-MMX30-T with Dell OPTIPLEX | Core i5 | 8 GB | 128 GB |
-| Crestron FLEX UC-M50-T with Dell OPTIPLEX | Core i5 | 8 GB | 128 GB |
-| Crestron FLEX UC-MX50-T with Dell OPTIPLEX | Core i5 | 8 GB | 128 GB |
-| Crestron FLEX UC-M70-T with Dell OPTIPLEX | Core i5 | 8 GB | 128 GB |
-| Crestron FLEX UC-MX70-T with Dell OPTIPLEX | Core i5 | 8 GB | 128 GB |
-| Crestron FLEX UC-C100-T with Dell OPTIPLEX | Core i5 | 8 GB | 128 GB |
-| Crestron FLEX UC-CX100-T with Dell OPTIPLEX | Core i5 | 8 GB | 128 GB |
-| Crestron FLEX UC-MM30-T with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE | Core i5 | 8 GB | 128 GB |
-| Crestron FLEX UC-MM30-T-I with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE | Core i5 | 8 GB | 128 GB |
-| Crestron FLEX UC-B30-T with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE | Core i5 | 8 GB | 128 GB |
-| Crestron FLEX UC-B30-T-WM with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE | Core i5 | 8 GB | 128 GB |
-| Crestron FLEX UC-B31-T with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE | Core i5 | 8 GB | 128 GB |
-| Crestron FLEX UC-B31-T-WM with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE | Core i5 | 8 GB | 128 GB |
-| Crestron FLEX UC-M50-T with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE | Core i5 | 8 GB | 128 GB |
-| Crestron FLEX UC-M70-T with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE | Core i5 | 8 GB | 128 GB |
-| Crestron FLEX UC-C100-T with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE | Core i5 | 8 GB | 128 GB |
-| Crestron FLEX UC-C100-T-WM with Dell OPTIPLEX 7080 with HD-CONV-USB-300 installed on the UC-ENGINE | Core i5 | 8 GB | 128 GB |
-| [Crestron Mercury Mini UC-MM30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MM30-T) | Core i5 | 8 GB | 128 GB |
-| [Dell OptiPlex 7000 with Logitech TAP](https://www.dell.com/en-us/lp/logitechvideoconferencing?ref=cptl_logitech-store-at-dell---4_cta_primary_shopgoogleteamsorzoombundles#All-in-one-Room-Solutions) | Core i7 | 16 GB | 256 GB |
-| [HP Elite Slice for Meeting Rooms G2](https://www.hp.com/us-en/desktops/business/elite-slice.html) | Core i5 | 8 GB | 128 GB |
-| [HP Elite Slice G2 Audio Ready with Microsoft Teams Rooms](https://www.hp.com/us-en/desktops/business/elite-slice/microsoft-teams-rooms.html) | Core i5 | 8 GB | 128 GB |
-| [HP Slice Partner Ready with Logitech TAP]( https://www.logitech.com/video-collaboration/partners/hp.html) | Core i5 | 8 GB | 128 GB |
-| [HP Presence Small Space Solution with Microsoft Teams Rooms](https://www.hp.com/us-en/solutions/presence.html) | Core i5/i7 | 8 GB/16 GB | 256 GB |
-| [HP Presence Small Space Solution Plus AI Camera with Microsoft Teams Rooms](https://www.hp.com/us-en/solutions/presence.html) | Core i5/i7 | 8 GB/16 GB | 256 GB |
-| [Lenovo ThinkSmart Hub Gen 2](https://www.lenovo.com/us/en/p/smart-devices/smart-office/thinksmart/thinksmart-hub-60/11sp1tshb60) | Core i5 | 16 GB | 128 GB |
-| [Lenovo ThinkSmart Core Full Room Kit](https://www.lenovo.com/us/en/p/smart-devices/smart-office/thinksmart/thinksmart-core-full-room-kit-t/len102e0002?orgRef=https%253A%252F%252Fwww.google.com%252F) | Core i5 | 16 GB | 128 GB |
-| [Lenovo ThinkSmart One + Controller](https://www.lenovo.com/us/en/p/smart-devices/smart-office/thinksmart/thinksmart-one-plus-controller-for-teams/len102e0006) | Core i5 | 16 GB | 256 GB |
-| [Lenovo ThinkSmart Core + IP Controller](https://www.lenovo.com/us/en/p/smart-devices/smart-office/thinksmart/lenovo-thinksmart-core-plus-ip-controller-for-microsoft-teams-rooms/len102e0015) | Core i5 | 16 GB | 256 GB |
-| [Lenovo ThinkSmart One + IP Controller](https://www.lenovo.com/us/en/p/smart-devices/smart-office/thinksmart/lenovo-thinksmart-one-plus-ip-controller-for-teams/12bw0002us) | Core i5 | 16 GB | 256 GB |
-| [Logitech Tap with Intel NUC](https://www.logitech.com/product/microsoft-rooms) | Core i5 | 8 GB | 128 GB |
-| Logitech Tap and Intel Tiger Canyon NUC PC | Core i5 | 8 GB | 128 GB |
-| Logitech TAP Console with Lenovo Core Compute | Core i5 | 8 GB | 128 GB |
-| [Logitech Tap and Lenovo ThinkSmart Tiny](https://www.logitech.com/video-collaboration/partners/lenovo.html) | Core i5 | 8 GB | 128 GB |
-| MAXHUB XCore Kit | Core i3 | 8 GB | 128 GB |
-| [Microsoft Surface Hub 3 50"](https://www.microsoft.com/surface/business/surface-hub-3) | Core i5 | 32 GB | 512 GB |
-| [Microsoft Surface Hub 3 85"](https://www.microsoft.com/surface/business/surface-hub-3) | Core i5 | 32 GB | 512 GB |
-| [Microsoft Surface Hub 2S 50" upgraded with the Surface Hub 3 Pack](https://www.microsoft.com/d/surface-hub-3-pack-for-business/8mf5qhhn1t4g) | Core i5 | 32 GB | 512 GB |
-| [Microsoft Surface Hub 2S 85" upgraded with the Surface Hub 3 Pack](https://www.microsoft.com/d/surface-hub-3-pack-for-business/8mf5qhhn1t4g) | Core i5 | 32 GB | 512 GB |
-| [Microsoft Surface Hub 2S 50" migrated to run the Teams Rooms on Windows experience](https://aka.ms/migrate-surface-hub-2s) | Core i5 | 8 GB | 128 GB |
-| [Microsoft Surface Hub 2S 85" migrated to run the Teams Rooms on Windows experience](https://aka.ms/migrate-surface-hub-2s) | Core i5 | 8 GB | 128 GB |
-| Poly Studio G9 Plus with TC10 | Core i7 | 16 GB | 256 GB |
-| [Poly G10-T with Lenovo ThinkSmart Tiny](https://www.poly.com/us/en/products/video-conferencing/g/g10) | Core i5 | 8 GB | 128 GB |
-| [Poly G40-T Kit with Poly Studio USB, with Lenovo](https://www.poly.com/us/en/support/products/video-conferencing/poly-room-solutions/g40) | Core i5 | 8 GB | 128 GB |
-| [Poly G85-T Kit with Poly Eagle Eye Director II, with Lenovo](https://www.poly.com/us/en/support/products/video-conferencing/poly-room-solutions/g85) | Core i5 | 8 GB | 128 GB |
-| Poly GC8 Console with Lenovo Thinksmart Core | Core i5 | 8 GB | 128 GB |
-| Poly GC8 Console with Dell Optiplex 7080 | Core i5 | 8 GB | 128 GB |
-| [Poly GC8 Console with HP 800 G9 Compute -MTR-W](https://www.poly.com/us/en/solutions/platform/microsoft/video/teams-rooms-windows) | Core i7 | 16 GB | 256 GB |
-| [ViewSonic TeamJoin TRS10](https://www.viewsonic.com/global/products/commercial-display/TRS10) bundle (Compute: [MPC310-W31-TU](https://www.viewsonic.com/global/products/commercial-display/MPC310-W31-TU) + Console: [MRC1010-TN](https://www.viewsonic.com/global/products/commercial-display/MRC1010-TN)) | Core i3 | 8 GB | 128 GB |
-| [Yealink Core2 Kit](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvc640) | Core i5 | 8 GB | 128 GB |
-| [Yealink MVC300 with Intel NUC](https://www.yealink.com/products_154.html) | Core i5 | 8 GB | 128 GB |
-| [Yealink MVC500 with Intel NUC](https://www.yealink.com/products_126.html) | Core i5 | 8 GB | 128 GB |
-| [Yealink MVC800 with Intel NUC](https://www.yealink.com/products_125.html) | Core i5 | 8 GB | 128 GB |
-| [Yealink MVC900 with Intel NUC](https://www.yealink.com/product/microsoft-teams-room-system-mvc900) | Core i5 | 8 GB | 128 GB |
-| [Yealink MVC 300 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc300II) | Core i5 | 8 GB | 128 GB |
-| [Yealink MVC400](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvc400) | Core i5 | 8 GB | 128 GB |
-| [Yealink MVC 500 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc500II) | Core i5 | 8 GB | 128 GB |
-| [Yealink MVC 800 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc800II) | Core i5 | 8 GB | 128 GB |
-| [Yealink MVC 900 II](https://www.yealink.com/product/microsoft-teams-room-system-mvc900II) | Core i5 | 8 GB | 128 GB |
-| [Yealink MVC840](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvc840-iii) | Core i5 | 8 GB | 128 GB |
-| [Yealink MVC940](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvc940-iii) | Core i5 | 8 GB | 128 GB |
-| [Yealink MVC940 Bundle with AV Hub](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvc940-avhub) | Core i5 | 8 GB | 128 GB |
-| [Yealink MVC860](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvc860-iii) | Core i5 | 8 GB | 128 GB |
-| [Yealink MVC640](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvc640-iii) | Core i5 | 8 GB | 128 GB |
-| Yealink MVC320 | Core i5 | 8 GB | 128 GB |
-| Yealink MVC340 | Core i5 | 8 GB | 128 GB |
-| [Yealink MCore 3 Kit](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvc640) | Core i5 | 8 GB | 128 GB |
-| Yealink MVC S40 | Core i5 | 8 GB | 128 GB |
-| [Yealink MVC S60](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvcs60) | Core i5 | 8 GB | 128 GB |
-| [Yealink MVC S90](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvcs90) | Core i5 | 8 GB | 128 GB |
-| [Yealink MVC 960](https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvc960) | Core i5 | 8 GB | 128 GB |
+Microsoft is committed to certifying devices on latest Android versions available for Teams devices as long as OEM partners and SoC manufacturers are able to meet all certification requirements in effect at the time device enters certification.
+
+After certification end date, Microsoft is committed to making efforts to support the most recent version of the Teams client on such devices for two years following the end of the certification period. 
+
+> [!Note]
+> Certification end dates are based on the Android version release date plus five years. Once the device passes the certification requirements and OEM partners provide the firmware that enables the upgrade to a newer Android version, the certification end date will be extended to match the new Android OS version release date plus five years.
 
 ## [Teams Rooms for Android](#tab/Android)
 
@@ -213,9 +131,16 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Yealink MeetingBar A40 | `289.320.0.11` | August 15, 2027 | Medium size room (4.5 m x 6 m) | 13 |
 | Yealink MeetingBoard 65"/86" with MB-Camera-6X | `155.15.0.37 ` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10|
 
-## [Rooms devices for Windows](#tab/Devices)
+## [Teams panels](#tab/Panels)
 
 The following devices are certified under the Microsoft Teams Rooms peripherals program:
+
+| Microsoft Teams Rooms peripheral | Certified firmware version | Supports content camera | Intelligent camera | Spatial audio | Intelligent speaker |
+
+
+## [Rooms devices for Android](#tab/Devices)
+
+The following devices are certified under the Microsoft Teams Rooms for Android peripherals program:
 
 | Microsoft Teams Rooms peripheral | Certified firmware version | Supports content camera | Intelligent camera | Spatial audio | Intelligent speaker |
 |:-|:-|:-|:-|:-|:-|

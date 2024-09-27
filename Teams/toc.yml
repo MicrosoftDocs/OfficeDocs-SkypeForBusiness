@@ -1319,12 +1319,23 @@ items:
           href: devices/certification-end-users.md
         - name: Teams specifications
           href: devices/certification-specifications.md
-        - name: Teams Rooms certified systems and peripherals
-          href: rooms/certified-hardware.md 
+        - name: Teams Rooms on Windows certified systems and peripherals
+          href: rooms/certified-hardware.md
+        - name: Teams certified Android devices
+          items: 
+            - name: Teams certified Android devices
+              href: devices/teams-ip-phones.md
+            - name: Teams Rooms on Android certified hardware
+              href: devices/certified-hardware-android.md
+            - name: Teams phones certified devices
+              href: devices/teams-phones-certified.md
+            - name: Teams displays certified devices
+              href: devices/teams-displays-certified.md
+            - name: Teams panels certified devices
+              href: devices/teams-panels-certified.md
         - name: Personal peripherals
           href: devices/usb-devices.md
-        - name: Teams certified Android devices
-          href: devices/teams-ip-phones.md
+        
     - name: Microsoft Teams Rooms
       items: 
         - name: Overview
