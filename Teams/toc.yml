@@ -1307,6 +1307,12 @@ items:
       items:
         - name: Certification overview
           href: devices/certification-overview.md
+        - name: Product lifecycle
+          items:
+            - name: Windows version support
+              href: rooms/rooms-lifecycle-support.md
+            - name: Android version support
+              href: devices/android-version-support.md         
         - name: Partners
           items:
             - name: Partners device certification
@@ -1331,8 +1337,6 @@ items:
               href: devices/teams-panels-certified-hardware.md
             - name: Teams displays certified devices
               href: devices/teams-displays-certified-hardware.md
-            - name: Android version support
-              href: devices/android-version-support.md
         - name: Personal peripherals
           href: devices/usb-devices.md
         
@@ -1348,16 +1352,6 @@ items:
               href: rooms/security.md
             - name: Meeting room guidance for Teams
               href: rooms/room-planning-guidance.md
-            - name: Hardware and operating systems
-              items:
-                - name: Certified Teams Rooms hardware
-                  href: rooms/certified-hardware.md 
-                - name: Windows version support
-                  href: rooms/rooms-lifecycle-support.md
-                - name: Android version support
-                  href: devices/android-version-support.md         
-                - name: Teams Rooms and devices feature comparison
-                  href: rooms/teams-devices-feature-comparison.md
             - name: Licensing
               items:
                 - name: Overview of Teams Rooms licensing
