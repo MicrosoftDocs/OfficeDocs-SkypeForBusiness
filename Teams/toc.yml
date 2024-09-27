@@ -1584,8 +1584,6 @@ items:
               href: teams-device-health.md
     - name: Reference
       items:
-        - name: Android version support
-          href: devices/android-version-support.md    
         - name: Teams displays overview
           href: devices/teams-displays.md
         - name: Hot desking Teams Displays
