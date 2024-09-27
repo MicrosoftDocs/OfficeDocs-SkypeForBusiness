@@ -117,9 +117,9 @@ Perform the following steps:
 
    #### Per Day vs Per Call 
 
-   - Per Call reporting retrieves the individual call records for each Auto attendant, Call queue, and Agent the user is authorized for and makes them available in the Power BI client. Per Call reporting also allows call records to be displayed in the local time zone selected by the user. For some customers, especially those using the CQD access role to control access, Per Call reporting might result in hitting the 90,000 default or 200,000 per query record limit. In this case, the Per Day reporting option should be selected.
+   - **Per Call** reporting retrieves the individual call records for each Auto attendant, Call queue, and Agent the user is authorized for and makes them available in the Power BI client. Per Call reporting also allows call records to be displayed in the local time zone selected by the user. For some customers, especially those using the CQD access role to control access, Per Call reporting might result in hitting the 90,000 default or 200,000 per query record limit. In this case, the Per Day reporting option should be selected.
 
-   - Per Day reporting retrieves one daily summary record for each Auto attendant, Call queue, and Agent. This results in fewer records being returned to the client, reducing the possibility of hitting the 90,000 default or 200,000 per query record limit. Per Day reporting is based on a UTC-00:00 day (00:00:00-23:59:59 UTC) only and any UTC offset supplied by the user is ignored.
+   - **Per Day** reporting retrieves one daily summary record for each Auto attendant, Call queue, and Agent. This results in fewer records being returned to the client, reducing the possibility of hitting the 90,000 default or 200,000 per query record limit. Per Day reporting is based on a UTC-00:00 day (00:00:00-23:59:59 UTC) only and any UTC offset supplied by the user is ignored.
 
 5. Sign in with your Teams account.
    - Select **File**, then **Options and settings**, and then **Data source settings**.
