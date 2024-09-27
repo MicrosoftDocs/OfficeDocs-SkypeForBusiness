@@ -44,7 +44,7 @@ To learn more about these features and how to use them, see [Use Microsoft Teams
 
 ## Partners certified for Teams panels
 
-To learn more about partners certified for Teams panels, see [Certified Teams panels](teams-panels-certified-hardware).
+To learn more about partners certified for Teams panels, see [Certified Teams panels](teams-panels-certified-hardware.md).
 
 ## Teams panels requirements
 
@@ -146,4 +146,4 @@ To manage your Teams panels devices, in the left navigation of the Microsoft Tea
 
 [Teams panels marketplace](https://office.com/teamsdevices)
 
-[Certified Teams panels](teams-panels-certified-hardware)
+[Certified Teams panels](teams-panels-certified-hardware.md)
