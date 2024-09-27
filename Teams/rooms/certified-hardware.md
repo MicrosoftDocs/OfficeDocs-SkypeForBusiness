@@ -395,7 +395,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 >
 > Microsoft Teams Rooms does not use a keyboard. If needed, the Admin should use the on-screen keyboard. A USB keyboard or mouse will be required when imaging the Microsoft Teams Rooms device.
 
-The following table provide recommendations for peripherals based on room size:
+The following table provides recommendations for peripherals based on room size:
 
 ### Microsoft Teams Rooms Certified Audio Peripherals
 
