@@ -30,7 +30,7 @@ Users in your organization can send feedback about Microsoft Teams to let us kno
 
 ## The **Report a problem** feature
 
-Users can send comments and suggestions about Teams to us by going to the elipsis (**...**) menu > **Feedback** > **Report a problem** in Teams desktop and web. You can access feedback on mobile using **Settings** > **Help & feedback** > **Report a problem**.
+Users can send comments and suggestions about Teams to us by going to the ellipsis (**...**) menu > **Feedback** > **Report a problem** in Teams desktop and web. You can access feedback on mobile using **Settings** > **Help & feedback** > **Report a problem**.
 
 > [!NOTE]
 > Data sent through **Report a problem** is considered "Support Data" under your Microsoft 365 or Office 365 agreement, including information that would otherwise be considered "customer data" or "personal data".
@@ -45,8 +45,7 @@ Users can also rate their experience with Teams and send us details about the ra
 
 As an admin, you can control whether users in your organization can report a problem or with Teams to Microsoft and whether they receive a survey.
 
-These capabilitites are currently controlled by two sets of policies based on user platfrom and feedback feature. This table provides more information on policies for different platforms and feedback features.
-
+Two sets of policies currently control these capabilities based on user platform and feedback feature. This table provides more information on policies for different platforms and feedback features.
 
 |Platform/Feedback feature |Report a problem/Send feedback |Give a compliment |Suggest a feature |Surveys |
 |--------------------------|-------------------------------|------------------|------------------|--------|
@@ -73,8 +72,8 @@ You manage feedback policies by using PowerShell. Use the [**New-CsTeamsFeedback
 
 To turn off and turn on the features, set the following parameters:
 
-- **Give feedback**: Set the **userInitiatedMode** parameter to **enabled** to allow users who are assigned the policy to give feedback. Setting the parameter to **disabled** turns off the feature and users who are assigned the policy don't have the option to give feedback.
-- **Surveys**: Set the **receiveSurveysMode** parameter to **enabled** to allow users who are assigned the policy to receive the survey. To have users receive the survey and allow them to opt out, set the parameter to **enabledUserOverride**. In Teams, users can then go to **Settings** > **Privacy** and choose whether they want to participate in surveys. Setting the parameter to **disabled** turns off the feature and users who are assigned the policy won't receive the survey.
+- **Give feedback**: Set the **userInitiatedMode** parameter to **enabled** to allow users who are assigned the policy to give feedback. Setting the parameter to **disabled** turns off the feature and users who are assigned the policy can't give feedback.
+- **Surveys**: Set the **receiveSurveysMode** parameter to **enabled** to allow users who are assigned the policy to receive the survey. To have users receive the survey and allow them to opt out, set the parameter to **enabledUserOverride**. In Teams, users can then go to **Settings** > **Privacy** and choose whether they want to participate in surveys. Setting the parameter to **disabled** turns off the feature, preventing users who are assigned the policy from getting the survey.
 
 > [!NOTE]
 > **receiveSurveysMode** doesn't control call quality feedback by default. If an admin wants to control call quality feedback via **receiveSurveysMode**, they should contact the engineering team.
@@ -82,7 +81,7 @@ To turn off and turn on the features, set the following parameters:
 - **Screenshots**: Use the **AllowScreenshotCollection** flag to add screenshot collection opt-in for users.
 - **Email**: Use the **AllowEmailCollection** flag to add an email field.
 - **Log collection**: Use the **AllowLogCollection** flag to add log collection opt-in for users. Log collection is currently enabled only on mobile. For more details on what data is shared via logs, [learn more at this link](https://go.microsoft.com/fwlink/?linkid=2168178).
-- **Suggest a feature**: Set the **EnableFeatureSuggestions** parameter to **True** to allow users who are assigned the policy to suggest a feature. Setting the parameter to **disabled** turns off the feature and users who are assigned the policy don't have the option to give feedback. The default setting is taken from your Microsoft 365 optional connected experiences policy setting. To learn more about that setting, see [Overview of optional connected experiences in Office](/deployoffice/privacy/optional-connected-experiences).
+- **Suggest a feature**: Set the **EnableFeatureSuggestions** parameter to **True** to allow users who are assigned the policy to suggest a feature. Setting the parameter to **disabled** turns off the feature and users who are assigned the policy can't give feedback. The default setting is taken from your Microsoft 365 optional connected experiences policy setting. To learn more about that setting, see [Overview of optional connected experiences in Office](/deployoffice/privacy/optional-connected-experiences).
 
 ## Create a custom feedback policy
 
