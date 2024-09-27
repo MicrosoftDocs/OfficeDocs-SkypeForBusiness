@@ -98,7 +98,7 @@ The following Teams displays are certified under the Android Certification Progr
 | DeskVision A24 | `156.15.0.32` | N/A | Teams client: `1449/1.0.95.2023061601` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| September 20, 2023|
 | DeskVision A24 | `156.15.0.24` | N/A | Teams client: `1449/1.0.95.2023042701` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product`| May 2, 2023|
 
-## [End of life](#tab/eol)
+## [End of certification](#tab/eol)
 
 Microsoft and its Original Equipment Manufacturers (OEM) partners continually develop products to meet the needs of the market and elevate the Teams devices experience. During the product lifecycle, some products may receive an OS upgrade before their certification expires and will undergo re-certification, while others might not get re-certified and will ultimately be discontinued by the OEM.
 

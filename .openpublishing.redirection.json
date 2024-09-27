@@ -5199,6 +5199,11 @@
   "source_path": "Teams/devices/teams-ip-phones.md",
   "redirect_url": "/microsoftteams/devices/certified-hardware-android",
   "redirect_document_id": false
+},  
+{
+  "source_path": "Teams/devices/android-app-firmware.md",
+  "redirect_url": "/microsoftteams/devices/certified-hardware-android#tab/firmware",
+  "redirect_document_id": false
 }
 ]
 }

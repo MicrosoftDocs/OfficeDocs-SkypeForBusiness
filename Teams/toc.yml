@@ -1354,8 +1354,6 @@ items:
                   href: rooms/certified-hardware.md 
                 - name: Windows version support
                   href: rooms/rooms-lifecycle-support.md
-                - name: Android app and firmware versions
-                  href: rooms/android-app-firmware.md
                 - name: Android version support
                   href: devices/android-version-support.md         
                 - name: Teams Rooms and devices feature comparison

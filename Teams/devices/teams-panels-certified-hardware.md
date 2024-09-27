@@ -66,7 +66,7 @@ The following devices are Certified under the Microsoft Teams panels Android Cer
 
 ## [Firmware](#tab/firmware)
 
-The following are the latest firmware versions released via Microsoft Teams Admin Center (TAC) for each device and OEM, as well as the Teams APK, Company Portal, and Admin Agent applications bundled into the firmware release. 
+The following are the latest firmware versions released using Microsoft Teams Admin Center (TAC) for each device and OEM, as well as the Teams APK, Company Portal, and Admin Agent applications bundled into the firmware release. 
 
 See [Microsoft Teams panels](../devices/overview-teams-panels.md) for features supported by Teams panels devices. 
 
@@ -171,7 +171,7 @@ See [Microsoft Teams panels](../devices/overview-teams-panels.md) for features s
 |:----------------|:-------------------|:----------------------------|:---------------------------------------------------------------------------------|:---------------------------------------------|
 | TC10 | `6.3.0-211719` | N/A| Teams client: `1449/1.0.97.2024042504` <br> Company Portal: `5.0.6061.0` <br> Admin Agent: `1.0.0.202402202353.product`| August 29, 2024|
 
-## [End of life](#tab/eol)
+## [End of certification](#tab/eol)
 
 Microsoft and its Original Equipment Manufacturers (OEM) partners continually develop products to meet the needs of the market and elevate the Teams devices experience. During the product lifecycle, some products may receive an OS upgrade before their certification expires and will undergo re-certification, while others might not get re-certified and will ultimately be discontinued by the OEM.
 

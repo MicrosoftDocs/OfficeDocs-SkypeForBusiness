@@ -168,7 +168,7 @@ See [Microsoft Teams phones feature set](phones-for-teams.md) for information on
 |CCX350/CCX400/CCX500/CCX505/CCX600 | `8.0.2.3267` | N/A | Teams client: `1449/1.0.94.2022110803` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202209060820.product`| February 16, 2023| GCCH|
 |Trio C60 | `8.0.2.3266` | N/A | Teams client: `1449/1.0.94.2022110803` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202209060820.product`| February 16, 2023| GCCH|
 
-## [End of life](#tab/eol)
+## [End of certification](#tab/eol)
 
 Microsoft and its Original Equipment Manufacturers (OEM) partners continually develop products to meet the needs of the market and elevate the Teams devices experience. During the product lifecycle, some products may receive an OS upgrade before their certification expires and will undergo recertification, while others might not get recertified and will ultimately be discontinued by the OEM.
 
