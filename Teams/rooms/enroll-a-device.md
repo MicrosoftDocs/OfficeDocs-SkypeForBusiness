@@ -35,6 +35,9 @@ Once the Teams Rooms Pro Management agent is successfully installed and connecte
 
 Both automatic and manual deployment require onboarding Microsoft Teams Rooms devices to the Microsoft Teams Rooms Pro Management portal. The monitoring service agent is for use with certified Microsoft Teams Rooms (MTR) systems and peripherals.
 
+> [!NOTE]
+> This article applies only to Microsoft Teams Rooms on Windows. To enroll Microsoft Teams Rooms on Android, you must assign the Pro license and ensure that the device can access the URLs that follow. The device will be automatically enrolled.
+
 ## Prerequisites
 
 Follow these procedures to set up your hardware before attempting the enrollment process:
