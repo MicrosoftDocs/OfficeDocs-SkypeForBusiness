@@ -1326,11 +1326,11 @@ items:
             - name: Teams Rooms on Android certified systems and peripherals
               href: devices/certified-hardware-android.md
             - name: Teams phones certified devices
-              href: devices/teams-phones-certified.md
+              href: devices/teams-phones-certified-hardware.md
             - name: Teams panels certified devices
-              href: devices/teams-panels-certified.md
+              href: devices/teams-panels-certified-hardware.md
             - name: Teams displays certified devices
-              href: devices/teams-displays-certified.md
+              href: devices/teams-displays-certified-hardware.md
             - name: Android version support
               href: devices/android-version-support.md
         - name: Personal peripherals
