@@ -438,7 +438,7 @@ Additionally, for a call to become *eligible* for callback, it must have a valid
 
 You can also set the messaging a caller hears, the key they need to press, and an email address to be notified if the callback fails.
 
-#### Callback and Call queue timeout
+#### Callback and Call Queue Timeout
 
 In order for an *eligible* call to be offered callback, the [Call timeout](#call-timeout-set-how-to-handle-call-timeouts) value must be set high enough to allow the call to become eligible for callback and for the music to finish playing after the call becomes eligible.
 
