@@ -33,11 +33,25 @@ Any team member can add a connector to a channel, if the team permissions allow 
 
 The [Teams connectors are transitioning](https://devblogs.microsoft.com/microsoft365dev/retirement-of-office-365-connectors-within-microsoft-teams) to a new URL to enhance security. During this transition, you may receive notifications to update your configured connector to use the new URL. We strongly recommended that you update your connector immediately to prevent any disruption to connector services.
 
-You must update your Webhook URL for the connector to continue posting notifications into Teams after December 31, 2024. To update the URL, go to **Manage Channel** in a Teams channel, select **Edit** under the Connectors option, and select **Configured** section. Select **Configure** and update the URL. This change is needed only for Webhook-based Connectors such as Incoming Webhook and third-party connectors. The change isn't required for polling connectors such as RSS.
+This change is needed only for Webhook-based Connectors such as Incoming Webhook and third-party connectors. The change isn't required for polling connectors such as RSS. You must update the URL for the connector to continue posting notifications into Teams after December 31, 2024. To update the URL, follow these steps:
+
+1. Go to **Manage Channel** in a Teams channel, select **Edit** under the Connectors option, and select **Configured** section. Check the existing connector connections on this page.
+
+   :::image type="content" source="media/connectors-attention-required.png" alt-text="Screenshot showing the configured connections in a Teams channel that need attention.":::
+
+1. Do one of the following:
+
+   * For incoming webhook connectors, select **Manage** and **Update URL**.
+
+      :::image type="content" source="media/connectors-update-url.png" alt-text="Screenshot showing the option to update a webhook URL.":::
+
+   * For other types of connectors, remove the connector and recreate the connector configuration.
+
+1. Use the new URL or the new connection. The Configure page displays that the URL is updated.
+
+   :::image type="content" source="media/connectors-url-updated.png" alt-text="Screenshot showing a confirmation after URL update.":::
 
 To know more or to share more information with your app developers, see [Connectors deprecation information](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors).
-
-:::image type="content" source="media/connectors-config-channel.png" alt-text="Screenshot showing the configure option for Connectors in the settings UI of a Teams channel.":::
 
 ## Enable or disable connectors in Teams
 
