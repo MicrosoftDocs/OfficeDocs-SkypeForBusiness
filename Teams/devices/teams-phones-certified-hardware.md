@@ -26,7 +26,7 @@ description: Find lists of certified Teams phones running on Android.
 
 # Certified Teams phones
 
-This article will help you find the resources for Teams phones that are certified under the Android Certification program including supported devices, firmware versioning, and End of Life (EOL) information.
+This article helps you find the resources for Teams phones that are certified under the Android Certification program including supported devices, firmware versioning, and End of Life (EOL) information.
 
 ## Microsoft Teams certified Android device certification
 
@@ -37,7 +37,7 @@ The Microsoft Teams Devices Certification Program ensures certified devices meet
 >
 > For information about what features are supported on Teams Rooms on Windows and Teams Rooms on Android, including cloud environment support, see [Teams Rooms on Windows and Android feature comparison](../rooms/teams-devices-feature-comparison.md).
 
-Certification programs are designed to ensure all certified devices run an Android version with the required feature set for Teams and Teams Admin Center. Certification end dates are based on the Android version running on the device when it enters into the certification program. Microsoft OEM partners are working to extend the lifetime of the certification by upgrading the Android version and recertifying, or by releasing new models that are state-of-the-art. Once a device passes the certification requirements and OEM partners provide the firmware that enables the upgrade to a newer Android version, the certification end date will be extended.
+Certification programs are designed to ensure all certified devices run an Android version with the required feature set for Teams and Teams Admin Center. Certification end dates are based on the Android version running on the device when it enters into the certification program. Microsoft OEM partners are working to extend the lifetime of the certification by upgrading the Android version and recertifying, or by releasing new models that are state-of-the-art. Once a device passes the certification requirements and OEM partners provide the firmware that enables the upgrade to a newer Android version, the certification end date is extended.
 
 Microsoft is committed to certifying devices on latest Android versions available for Teams devices as long as OEM partners and SoC manufacturers are able to meet all certification requirements in effect at the time device enters certification.
 
@@ -151,7 +151,6 @@ See [Microsoft Teams phones feature set](phones-for-teams.md) for information on
 |:----------------|:-------------------|:----------------------------|:---------------------------------------------------------------------------|:-----------------------|:-------------------------------------|
 | C435HD/C455HD | `1.19.456` | `1.15.289` | Teams client: `1449/1.0.94.2023020602` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product`| April 6, 2023 | GCCH|
 
-
 #### <b> HP | Poly </b>
 | **Device model**  | **Latest firmware version**  | **Minimum firmware version** | **Included Microsoft applications**  | **Release date**| **Cloud**|
 |:----------------|:-------------------|:----------------------------|:------------------------------------------------------------------|:-------------------------|:----------------------------------|
@@ -171,11 +170,11 @@ See [Microsoft Teams phones feature set](phones-for-teams.md) for information on
 
 ## [End of life](#tab/eol)
 
-Microsoft and its Original Equipment Manufacturers (OEM) partners continually develop products to meet the needs of the market and elevate the Teams devices experience. During the product lifecycle, some products may receive an OS upgrade before their certification expires and will undergo re-certification, while others might not get re-certified and will ultimately be discontinued by the OEM.
+Microsoft and its Original Equipment Manufacturers (OEM) partners continually develop products to meet the needs of the market and elevate the Teams devices experience. During the product lifecycle, some products may receive an OS upgrade before their certification expires and will undergo recertification, while others might not get recertified and will ultimately be discontinued by the OEM.
 
 We recognize that device certification expiration can impact your business. Our OEM partners have detailed End-of-Life policies to assist and direct you towards adopting newer technologies. For the most current information on Teams certified devices referenced here, please consult our OEM partners' websites.
 
-Following a certification expiration, Microsoft is committed to supporting the latest version of the Teams devices applications on certified devices for a span of two (2) years after the certification period concludes. While Microsoft will make every effort to maintain support as described here, it retains the discretion to modify its support policy if necessary. Should any changes occur, they will be communicated through the established customer facing communication channels.
+Following a certification expiration, Microsoft is committed to supporting the latest version of the Teams devices applications on certified devices for a span of two (2) years after the certification period concludes. While Microsoft makes every effort to maintain support as described here, it retains the discretion to modify its support policy if necessary. Should any changes occur, they'll be communicated through the established customer facing communication channels.
 
 | **Device Category** | **Device Model**| **Android OS Version** | **Certification end date** | **Microsoft 'best effort' support end date** | 
 |:----------------|:-------------------|:----------------------------|:--------------------------|:----------------------|
