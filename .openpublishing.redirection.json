@@ -5244,6 +5244,16 @@
   "source_path": "Skype/SfbPartnerCertification/lync-cert/ip-phones.md",
   "redirect_url": "Teams/devices/teams-ip-phones",
   "redirect_document_id": false
+},
+{
+  "source_path": "Skype/SfbPartnerCertification/certification/devices-meeting-rooms.md",
+  "redirect_url": "Teams/rooms/room-planning-guidance",
+  "redirect_document_id": false
+},
+{
+  "source_path": "Skype/SfbPartnerCertification/lync-cert/pcs-optimized-for-lync.md",
+  "redirect_url": "Teams/devices/certification-overview",
+  "redirect_document_id": false
 }
 
 ]

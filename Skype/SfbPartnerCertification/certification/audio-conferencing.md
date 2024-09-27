@@ -48,18 +48,6 @@ Vendors listed in the following table have been certified for Skype for Business
     </thead>
     <tbody>
         <tr>
-            <td><a href="http://www.intercall.com/services/unified-communication/office365-lyncOnline.php">InterCall</a></td>
-            <td>Y</td>
-            <td>Y</td>
-            <td>Y</td>
-        </tr>
-        <tr>
-            <td><a href="http://www.pgi.com/products/microsoft-lync-online/">PGi</a></td>
-            <td>Y</td>
-            <td>Y</td>
-            <td>Y</td>
-        </tr>
-        <tr>
             <td><a href="https://www.btconferencing.com/">BT</a></td>
             <td>Y</td>
             <td>Y</td>
