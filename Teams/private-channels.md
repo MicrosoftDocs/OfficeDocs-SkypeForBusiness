@@ -117,7 +117,7 @@ Sharing a OneNote notebook in a private channel site is the same as sharing acce
 
 Private channels don't support connectors and tabs in Stream, Planner, Tasks by Planner and To Do, and Forms.
 
-Each team can have a maximum of 30 private channels and each private channel can have a maximum of 250 members. The 30 private channel limit is in addition to the 200 standard channel limit per team.
+Each team can have a maximum of 30 private channels and each private channel can have a maximum of 250 members. The 30 private channel limit is included in the 1000 channel limit per team.
 
 When you create a team from an existing team, any private channels in the existing team don't copy over.
 
