@@ -22,7 +22,7 @@ description: "Read this article to find sample scripts for provisioning Skype Ro
  
 Read this article to find sample scripts for provisioning Skype Room System accounts.
   
-This section illustrates sample scripts that can be used to provision Skype Room System accounts. These scripts are only for illustrative purposes. They should be used only after you consult with your IT expert or domain administrator.
+This section illustrates sample scripts that can be used to provision Skype Room System accounts. These scripts are only for illustrative purposes. They should be used only after you consult your IT expert or domain administrator.
   
 ## Example Setup Script: Skype for Business and Exchange Server (On Premises)
 
@@ -40,7 +40,7 @@ Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=166
 
 ## Example Setup Script: Skype for Business and Exchange Server Online
 
-Make sure you've reviewed the following prerequisites before running the script:
+Make sure you review the following prerequisites before running the script:
   
 - Microsoft Online Services Sign in Assistant for IT Professionals BETA
     
