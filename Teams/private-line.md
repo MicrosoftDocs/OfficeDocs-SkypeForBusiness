@@ -6,7 +6,7 @@ manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: roykuntz
-ms.date: 09/25/2024
+ms.date: 09/27/2024
 audience: admin
 search.appverid: MET150
 description: Learn how to configure private telephone lines for users in Microsoft Teams.
