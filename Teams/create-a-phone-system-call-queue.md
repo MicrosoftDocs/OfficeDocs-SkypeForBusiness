@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
-ms.date: 05/20/2024
+ms.date: 09/27/2024
 ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
@@ -16,9 +16,9 @@ ms.collection:
   - highpri
   - tier1
 audience: Admin
-appliesto: 
-  - Skype for Business
+appliesto:
   - Microsoft Teams
+  - Skype for Business
 ms.localizationpriority: medium
 f1.keywords: 
   - CSH
@@ -73,7 +73,7 @@ Type a name for the Call queue in the box at the top.
 
 ### Add an existing resource account
 
-Before you can create and manage resource accounts, you must do the following:
+Before you can create and manage resource accounts, you must do the following actions:
 
 - [Obtain Microsoft Teams Phone Resource Account licenses](manage-resource-accounts.md#obtain-microsoft-teams-phone-resource-account-licenses)
 - [Obtain phone numbers](manage-resource-accounts.md#obtain-phone-numbers)
@@ -358,7 +358,7 @@ Once you select your call overflow, call timeout, and no agents handling options
 
 ## Step 6: Authorized users
 
-**Authorized users** specifies the users who are authorized to make changes to this Call queue. The capabilities that the users have are based on the [Teams voice applications policy](./manage-voice-applications-policies.md) that's assigned to the user.
+**Authorized users** specifies the users who are authorized to make changes to this Call queue. You can determine the capabilities that the users have through [Teams voice applications policies](./manage-voice-applications-policies.md) assigned to your users.
 
 To **add a user** to the authorized users:
 
@@ -386,7 +386,7 @@ Once you select your authorized users, select the **Submit** button at the botto
 The following settings are recommended:
 
 - **Conference mode** to **On**
-  - This will be the only option available for call queues after June 2025
+  - Conference mode will be the only option available for Call queues after June 2025
 - **Routing method** to **Round robin** or **Longest idle**
 - **Presence-based routing** to **On**
 - **Agent alert time:** to a minimum of **20 seconds**
@@ -438,7 +438,7 @@ Additionally, for a call to become *eligible* for callback, it must have a valid
 
 You can also set the messaging a caller hears, the key they need to press, and an email address to be notified if the callback fails.
 
-#### Callback and Call Queue Timeout Interplay
+#### Callback and Call queue timeout
 
 In order for an *eligible* call to be offered callback, the [Call timeout](#call-timeout-set-how-to-handle-call-timeouts) value must be set high enough to allow the call to become eligible for callback and for the music to finish playing after the call becomes eligible.
 
@@ -448,11 +448,11 @@ Consider the following call queue configuration:
 - Call Queue Timeout: 120 seconds
 - Call Queue Music: Default
 
-The caller will become eligible for callback after waiting in the queue for 60 seconds however, as the default music is 2 minutes long, call queue timeout will occur and the caller will never be offered callback.
+In this configuration, a caller becomes eligible for callback after waiting in the queue for 60 seconds. However, as the default music is two minutes long, call queue timeout will occur and the caller won't be offered a callback.
 
-Once a caller has successfully requested a callback, the callback is also subject to the call queue timout configuration. If a callback times out the information about the caller will be sent to the configured email notification address.
+Once a caller successfully requests a callback, the callback is also subject to the call queue timeout configuration. If a callback times out, the information about the caller is sent to the configured email notification address.
 
-In order for a callback to be successful, the call queue timeout value must be high enough to allow for the call to become eligible, for the music to stop playing, for a caller to successfully request a callback, and for the callback to be queued until an agent becomes available for and answers the call.
+In order for a callback to be successful, the call queue timeout value must be high enough to allow for the call to become eligible, for the music to stop playing, for a caller to successfully request a callback, and for the callback to be queued until an agent becomes available and answers the call.
 
 > [!NOTE]
 > Conference mode must be enabled on the call queue in order to configure callback.
@@ -590,7 +590,7 @@ For more information, see:
 4. Selecting *Longest Idle* for the agent routing method automatically enables Presence based routing.
 5. It's not possible to set the order the agents are presented with calls when using a group or channel for membership.
 6. Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that's enabled for Location-Based Routing.
-    - Location based routing is not supported with Call queues, see [Voice apps (Auto Attendant or Call Queue)](location-based-routing-plan.md#inbound-calls-through-auto-attendants).
+    - Location based routing isn't supported with Call queues. For more information, see [Voice apps (Auto Attendant or Call Queue)](location-based-routing-plan.md#inbound-calls-through-auto-attendants).
 7. Microsoft Teams Phone only.
 8. Through the User Settings Portal page at [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
     - GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
@@ -630,6 +630,8 @@ If you're an administrator, you can use the following diagnostic tool to validat
 3. The tests will return the best next steps to address any tenant, policy, and resource account configurations to validate that the Call queue is able to receive calls.
 
 ## Related articles
+
+[Plan for Teams Auto attendants and Call queues](plan-auto-attendant-call-queue.md)
 
 [Here's what you get with Microsoft Teams Phone](here-s-what-you-get-with-phone-system.md).
 
