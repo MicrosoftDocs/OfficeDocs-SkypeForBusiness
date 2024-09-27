@@ -171,7 +171,6 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Current certification end date | Room size | Android OS version |
 |:-|:-|:-|:-|:-|
-| Poly Studio X72 | `PolyOS 4.2.5`| September 3, 2025 | Large rooms (4.5 m x 8.5 m) | 10 |
 | AudioCodes RXV200 | `2.2.335` | September 3, 2025 |  Focus room(3 m x 3 m) | 10 |
 | Audiocodes RXPad Touch console | `2.0.282` | August 15, 2027 | Compatible with Audiocodes RXV81 and RXV200 Collaboration bars. | 12 |
 | Audiocodes RXV81 Collaboration Bar | `2.0.0` | August 15, 2027 | Small meeting room (4.5 m x 4.5 m) | 12 |
@@ -189,6 +188,8 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Crestron AIO Video Bar 70 | `1.240618.1240` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10|
 | Crestron Touch Panel TS-1070 | `2.005.1030` | September 3, 2025 | Compatible with Crestron AIO Video Bar 70 | 10 |
 | DTEN Bar | `1.0.2` | August 15, 2027|  Small size room (4.5 m x 4.5 m) | 12 |
+| DTEN D7X 55" + Vue Pro | `1.5.8` |August 15, 2027| Small size room (4.5 m x 4.5 m) | 12 |
+| DTEN D7X 55" + Vue | `1.5.8` |August 15, 2027| Small size room (4.5 m x 4.5 m) | 12 |
 | DTEN D7X 75" + Vue Pro | `1.5.8` |August 15, 2027| Medium size room (4.5 m x 6 m) | 12 |
 | DTEN D7X 75" + Vue | `1.5.8` |August 15, 2027| Medium size room (4.5 m x 6 m) | 12 |
 | DTEN D7X 75" | `1.2.8` |  August 15, 2027 |  Medium size room (4.5 m x 6 m) | 12 |
@@ -219,6 +220,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Poly Studio X52 | `4.1.0.382110` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Poly G7500 + Shure Large Room Kit | `4.0.1` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Poly G62 | `PolyOS 4.1.5` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
+| Poly Studio X72 | `PolyOS 4.2.5`| September 3, 2025 | Large rooms (4.5 m x 8.5 m) | 10 |
 | Yealink DeskVision A24 | `156.15.0.29` | September 3, 2025 | Phone room (2 m x 2 m) | 10 |
 | Yealink CTP18 touch console | `137.320.0.29` | September 3, 2025 | Compatible with Yealink MeetingBar A20 and Yealink MeetingBar A30 | 10 |
 | Yealink MeetingBar A10 | `278.15.0.6` | September 3, 2025 | Small meeting room (4.5 m x 4.5 m) | 11 |
@@ -393,7 +395,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 >
 > Microsoft Teams Rooms does not use a keyboard. If needed, the Admin should use the on-screen keyboard. A USB keyboard or mouse will be required when imaging the Microsoft Teams Rooms device.
 
-The following table provide recommendations for peripherals based on room size:
+The following table provides recommendations for peripherals based on room size:
 
 ### Microsoft Teams Rooms Certified Audio Peripherals
 
