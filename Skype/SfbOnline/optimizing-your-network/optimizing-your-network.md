@@ -130,7 +130,7 @@ See the following for more information on supported and certified devices:
 
 - [Getting phones for Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 
-- [Microsoft Teams certified Android devices](/Teams/devices/teams-ip-phones.md)
+- [Microsoft Teams certified Android devices](../../../Teams/devices/teams-ip-phones.md)
 
 - [Solutions Catalog for Personal Peripherals](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)
 
