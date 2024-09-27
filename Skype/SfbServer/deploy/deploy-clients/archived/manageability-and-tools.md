@@ -127,7 +127,8 @@ Import the .crt file to the Skype Room System under Trusted Room Certification A
   
 Import the .crl files on the Skype Room System under the Intermediate Certificate Authorities folder. (You need to change the file extension filter in Certificate Manager to .crl to see the files).
   
-Note: The Office Web Apps 2013 server may share the same CA as Skype for Business. If it doesn't, you can't share PowerPoint in a meeting. Check with IT and obtain the CRT and CRL files off the CA network share CertEnroll as explained above. 
+> [!NOTE]
+> The Office Web Apps 2013 server may share the same CA as Skype for Business. If it doesn't, you can't share PowerPoint in a meeting. Check with IT and obtain the CRT and CRL files off the CA network share CertEnroll as explained above. 
   
 Domain membership can simplify some things because you can treat the Skype Room System as a Windows system and it can rely on Active Directory for some of the certificate aspects. However, it's best to manually manage this.
 
