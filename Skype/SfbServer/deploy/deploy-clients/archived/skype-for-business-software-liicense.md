@@ -23,7 +23,7 @@ Skype Room System uses an installed Skype for Business client, which requires a 
   
 ## Key Management Servers (KMS)
 
-If KMS are in place and will distribute Skype for Business Volume License activations, the Skype Room System will automatically activate the Skype for Business client. To find out if KMS are in place:
+If KMSs are in place and will distribute Skype for Business Volume License activations, the Skype Room System will automatically activate the Skype for Business client. To find out if KMSs are in place:
   
 From a command prompt, run:  `nslookup -type=srv _vlmcs._tcp >%temp%\kms.txt`
   

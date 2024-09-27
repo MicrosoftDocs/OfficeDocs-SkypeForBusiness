@@ -66,6 +66,11 @@ New Teams for Web shares the same hardware requirements as the underlying operat
 |Firefox        |Latest three versions |Windows, macOS, Linux |
 |Safari         |Latest two versions   |macOS                 |
 
+The browser must be configured to allow third-party cookies for some third-party or line-of-business (LOB) apps to function properly.
+
+>[!Note]
+>New Teams for Web isn't supported in VDI environments, so performance and reliability may be negatively impacted if used in VDI. New Teams for Web isn't supported on mobile browsers.
+
 ## New Teams on Linux
 
 Linux users have access to New Teams for Web and new Teams as a progressive web app (PWA).

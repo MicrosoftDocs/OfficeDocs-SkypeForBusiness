@@ -23,7 +23,7 @@ This section provides an overview of the steps for provisioning the Skype Room S
   
 ## Single forest on-premises deployments
 
-If you already have a resource mailbox account for the conferencing room, you can use it. Otherwise, you will need to create a new one. You can use either Exchange Management Shell (PowerShell) or Exchange Management Console to create a new resource mailbox account. We recommend using a new (delete old mailbox and re-create) resource mailbox for Skype Room System. Make sure to back up mailbox data before deleting and then export it back to the re-created mailbox using the Outlook client (see Export or back up messages, calendar, tasks, and contacts for more information). To restore the meetings lost by deleting the mailbox, see [Connect or restore a deleted mailbox](/exchange/connect-or-restore-a-deleted-mailbox-exchange-2013-help). 
+If you already have a resource mailbox account for the conferencing room, you can use it. Otherwise, you'll need to create a new one. You can use either Exchange Management Shell (PowerShell) or Exchange Management Console to create a new resource mailbox account. We recommend using a new (delete old mailbox and re-create) resource mailbox for Skype Room System. Make sure to back up mailbox data before deleting and then export it back to the re-created mailbox using the Outlook client (see Export or back up messages, calendar, tasks, and contacts for more information). To restore the meetings lost by deleting the mailbox, see [Connect or restore a deleted mailbox](/exchange/connect-or-restore-a-deleted-mailbox-exchange-2013-help). 
   
 To use an existing resource mailbox account (for example, LRS-01) follow the steps below:
   
@@ -33,7 +33,7 @@ To use an existing resource mailbox account (for example, LRS-01) follow the ste
    Set-Mailbox -Name 'LRS-01' -Alias 'LRS01' -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
-2. If you plan to create a new mailbox, then, for a single forest on-premises Exchange organization, run the following command:
+2. If you plan to create a new mailbox then for a single forest on-premises Exchange organization, run the following command:
     
    ```powershell
    New-Mailbox -UserPrincipalName LRS01@contoso.com -Alias LRS01 -Name "LRS-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
