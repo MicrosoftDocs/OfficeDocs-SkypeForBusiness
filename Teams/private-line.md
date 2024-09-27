@@ -74,7 +74,7 @@ Private lines can be configured in the Teams admin center or with PowerShell. Yo
 1. Select a user.
 1. From the user's Account tab, under Assigned phone number, select **Assign private phone number**.
 1. From the Assign private phone number panel, select the **Private phone number type**.
-1. For **Assign private phone number**, select a phone number from the dropdown.
+1. From the Assign private phone number panel, select a phone number for **Assign private phone number**.
 1. Assign an emergency location for the primary number.
 1. Select **Apply**.
 
