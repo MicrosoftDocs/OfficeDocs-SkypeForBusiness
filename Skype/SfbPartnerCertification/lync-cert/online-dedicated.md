@@ -32,11 +32,11 @@ It's recommended that you visit the vendor's web site for the latest information
 
 ## USB audio and video devices
 
-All USB audio and video devices that are "Optimized for Lync" are supported in Lync Online Dedicated. For details, visit the [USB audio and video devices](../../../Teams/devices/usb-devices.md#personal-peripherals-certified-for-microsoft-teams) page.
+All USB audio and video devices that are "Optimized for Lync" are supported in Lync Online Dedicated. For details, visit the [USB audio and video devices](/Teams/devices/usb-devices.md#personal-peripherals-certified-for-microsoft-teams) page.
 
 ## IP phones
 
-All IP phones that are "Optimized for Lync" are supported in Lync Online Dedicated. For details, visit the [Phones and devices qualified for Lync](../../../Teams/devices/teams-ip-phones.md#microsoft-teams-certified-android-devices) page and refer to devices that are "Optimized for Lync." Devices that are "Qualified for Lync" aren't currently supported in Lync Online Dedicated.
+All IP phones that are "Optimized for Lync" are supported in Lync Online Dedicated. For details, visit the [Phones and devices qualified for Lync](/Teams/devices/teams-ip-phones.md#microsoft-teams-certified-android-devices) page and refer to devices that are "Optimized for Lync." Devices that are "Qualified for Lync" aren't currently supported in Lync Online Dedicated.
 
 ## Meeting room devices
 
