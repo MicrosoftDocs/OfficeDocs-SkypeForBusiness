@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: jamp, siunies, mikedav, gageames
-ms.date: 07/31/2024
+ms.date: 09/25/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -40,7 +40,7 @@ You can access call quality data by several different avenues. Pick the one that
 |Teams admin center [(https://admin.teams.microsoft.com)](https://admin.teams.microsoft.com)|Call quality data is included on the **Users** page in the Teams admin center, showing the most common data you need in an easy-to-read format. You can't customize the data that you find under **Users**.|
 |CQD portal [(https://cqd.teams.microsoft.com)](https://cqd.teams.microsoft.com)|Robust summary and detailed reports that meet most needs, with drill-through filtering. You can also customize reports in the CQD portal. <br><br>Get two [CQD report templates](#import-the-cqd-report-templates) to help you analyze data in the CQD portal.|
 |Power BI|Use direct queries to view your CQD data in Power BI using [customizable Power BI templates](CQD-Power-BI-query-templates.md). The CQD Power BI templates are regularly updated to support new Teams features, calling scenarios, and the latest telemetry we have available in CQD.|
-|Graph API|Access raw call quality data yourself using the [Graph API](/graph/api/resources/callrecords-api-overview). This is the most complex method, but it gives you the most control and flexibility in analyzing your call quality data. For example, if you need to join it with other data for your organization, you can use the Graph API to create a data model and incorporate call quality data. Please note that CallRecords Graph API may not contain all of the fields that are available in CQD and naming conventions may differ between the two products. |
+|Graph API|Access raw call quality data yourself using the [Graph API](/graph/api/resources/callrecords-api-overview). Using Graph API is the most complex method, but it gives you the most control and flexibility in analyzing your call quality data. For example, if you need to join it with other data for your organization, you can use the Graph API to create a data model and incorporate call quality data. Please note that CallRecords Graph API may not contain all of the fields that are available in CQD and naming conventions may differ between the two products. |
 
 ## Import the CQD report templates
 
@@ -158,8 +158,7 @@ If you want to use Power BI to analyze your CQD data, read [Use Power BI to anal
 
 In the Summary and Location-Enhanced Reports, you can use the **Product Filter** drop-down to show all product data, only Microsoft Teams data, or only Skype for Business data.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot: shows the Product Filter control options.](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
+![Screenshot: shows the Product Filter control options.](media/cqd-product-filter.png)
 
 In Detailed reports, you can use the **Is Teams** dimension to filter the data to Microsoft Teams or Skype for Business data.
 
@@ -169,7 +168,7 @@ These are the reports that you'll see on the CQD Dashboard when you first sign i
 
 |Tab|Description|
 |---|---|
-|Overall Call Quality|Aggregate of the other 3 tabs.|
+|Overall Call Quality|Aggregate of the other three tabs.|
 |Server—Client|Details of the streams between server and client endpoints.|
 |Client—Client|Details of the streams between two client endpoints.|
 |Voice Quality SLA|Info about calls included in the Skype for Business voice quality [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252).|
@@ -222,7 +221,7 @@ Similarly, the Client-Client tab has five collapsible sections:
 
 #### Inside versus Outside
 
-CQD classifies a stream as  *Inside*  or *Outside*  using Building information, if it exists. Endpoints of each stream are associated with a subnet address. If the subnet is in the list of the subnets marked InsideCorp in the uploaded Building information, then it is considered *Inside*. If Building information has not yet been uploaded, then Inside Test always classifies the streams as *Outside*.
+CQD classifies a stream as  *Inside*  or *Outside*  using Building information, if it exists. Endpoints of each stream are associated with a subnet address. If the subnet is in the list of the subnets marked InsideCorp in the uploaded Building information, then it's considered *Inside*. If Building information hasn't been uploaded yet, then Inside Test always classifies the streams as *Outside*.
 
 The Inside Test for a Server-Client scenario only considers the client endpoint. Because servers are always outside from a user's perspective, this isn't accounted for in the test.
 
@@ -231,7 +230,7 @@ The Inside Test for a Server-Client scenario only considers the client endpoint.
 As the names indicate, the classification criteria is based on the type of client connections. Server is always wired and it isn't included in the calculation. In a given stream, if one of the two endpoints is connected to a WiFi network, then CQD classifies it as WiFi.
 
 > [!NOTE]
-> Given a stream, if one of the two endpoints is connected to a WiFi network, then it is classified as WiFi in CQD.
+> Given a stream, if one of the two endpoints is connected to a WiFi network, then it's classified as WiFi in CQD.
 
 ## Tenant Data information
 
@@ -253,25 +252,25 @@ We recommend that you upload your tenant, building, and location data so CQD can
 |Failure Drill Down Reports|Drill downs: Date by region, locations, subnets, hour, and users.|
 |Rate My Call Reports|Analyze user call ratings by region, location, or by user. Includes verbatim feedback.|
 |Help Desk Reports|Help Desk Reports look at call and meeting data for individual users, groups of users, or everyone. Incorporating building and EUII data, these reports help identify possible system issues based on network location, conference details, devices, or firmware.|
-|Client Version Reports|Client Version Summary: View the Sessions and Users counts for each client app version<br><br>Client Version by User: View user names for each client app version <br><br>Pre-built filters for Product and Client Type help focus the versions to specific clients.|
+|Client Version Reports|Client Version Summary: View the Sessions and Users counts for each client app version<br><br>Client Version by User: View user names for each client app version <br><br>Prebuilt filters for Product and Client Type help focus the versions to specific clients.|
 |Endpoint Reports|Shows call quality by machine endpoints (computer make and model). These reports include building data, if you've uploaded it.|
 
 ## Create custom detailed reports
 
 If the default CQD reports don't meet your needs, use these instructions to create a custom report. Or [Use Power BI for CQD reports](cqd-power-bi-query-templates.md) instead.
 
-From the pull-down list of reports at the top of the screen displayed at login \(the **Summary Reports** screen\) Select **Detailed Reports**  and then **New**. Click **Edit** in a report to see the Query Editor. Each report is backed by a query into the cube. A report is a visualization of the data returned by its query. The Query Editor helps you edit these queries and the display options of the report.
+From the pull-down list of reports at the top of the screen displayed at login \(the **Summary Reports** screen\) Select **Detailed Reports**  and then **New**. Select **Edit** in a report to see the Query Editor. Each report is backed by a query into the cube. A report is a visualization of the data returned by its query. The Query Editor helps you edit these queries and the display options of the report.
 
 > [!IMPORTANT]
-> The network range can be used to represent a supernet (combination of several subnets with a single routing prefix). All new building uploads will be checked for any overlapping ranges. If you have previously uploaded a building file, you should download the current file and re-upload it to identify any overlaps and fix the issue before uploading again. Any overlap in previously uploaded files may result in the wrong mappings of subnets to buildings in the reports. Certain VPN implementations do not accurately report the subnet information. It is recommended that when adding a VPN subnet to the building file, instead of one entry for the subnet, separate entries are added for each address in the VPN subnet as a separate 32-bit network. Each row can have the same building metadata. For example, instead of one row for 172.16.18.0/24, you should have 256 rows, with one row for each address between 172.16.18.0/32 and 172.16.18.255/32, inclusive.
+> The network range can be used to represent a supernet (combination of several subnets with a single routing prefix). All new building uploads will be checked for any overlapping ranges. If you have previously uploaded a building file, you should download the current file and re-upload it to identify any overlaps and fix the issue before uploading again. Any overlap in previously uploaded files may result in the wrong mappings of subnets to buildings in the reports. Certain VPN implementations do not accurately report the subnet information. It's recommended that when adding a VPN subnet to the building file, instead of one entry for the subnet, separate entries are added for each address in the VPN subnet as a separate 32-bit network. Each row can have the same building metadata. For example, instead of one row for 172.16.18.0/24, you should have 256 rows, with one row for each address between 172.16.18.0/32 and 172.16.18.255/32, inclusive.
 >
 > The VPN column is optional and will default to 0.  If the VPN column's value is set to 1, the subnet represented by that row will be fully expanded to match all IP addresses within the subnet.  Please use this sparingly and only for VPN subnets since fully expanding these subnets will have a negative impact on query times for queries involving building data.
 
-Point to bar charts and trend lines in the report to display detailed values. The report that has focus will show the action menu: **Edit**, **Clone**, **Delete**, **Download**, and **Export Report Tree**.
+Point to bar charts and trend lines in the report to display detailed values. The report in focus shows the action menu: **Edit**, **Clone**, **Delete**, **Download**, and **Export Report Tree**.
 
 ## Query filters
 
-Query filters are implemented by using the Query Editor in CQD. These filters are used to reduce the number of records returned by CQD, thus minimizing the report's overall size and query times. This is especially useful for filtering out unmanaged networks. The filters listed in the following table use regular expressions (RegEx).
+Query filters are implemented by using the Query Editor in CQD. These filters are used to reduce the number of records returned by CQD, thus minimizing the report's overall size and query times. Query filters are especially useful for filtering out unmanaged networks. The filters listed in the following table use regular expressions (RegEx).
 
 |Filter|Description|CQD query filter example|
 |---|---|---|
@@ -296,27 +295,15 @@ CQD reports feature several drill-down filters, which are powerful tools for nar
 
 ![Diagram illustrating drill-down report flow.](media/qerguide-image-drillthrureportflow.png)
 
-#### Adding and editing drill-down fields
-
-When editing a report, you have the option to specify drill-down fields of your own using the Query Editor.
-
-Start by clicking **...** for the report you want to edit, then select **Edit**.
-
-![Screenshot of editing a drill-down field.](media/qerguide-image-addeditdrilldownfields.png)
-
-Select a Dimension from the list on the left side of the Query Editor. Then click on the dropdown below the **Navigate To** label and select the tab and expander group that you want that Dimension to drill through to. Note: Presently, drill-down functionality only works by navigating to different tabs. Support for drilling through to a specific expander will be added later. Finally, click **Close** to save your changes to the Dimension, then click **Save** to save and close the Query Editor.
-
-![Screenshot of selecting a dimension in the Query Editor.](media/qerguide-image-selectquerydimension.png)
-
 ### Multi-select filters
 
 In addition to drill-down functionality, CQD also supports specifying Filters with multiple values (OR filters).
 
-In order to select multiple filter values, begin by adding a new filter to the report. Click **+** beside the **Filters** label, enter the name of the Dimension you want to use, and click **Add**.
+In order to select multiple filter values, begin by adding a new filter to the report. Select **+** beside the **Filters** label, enter the name of the Dimension you want to use, and select **Add**.
 
-![Screenshot of adding a multi-select filter.](media/qerguide-image-addmultiselectfilter.png)
+![Screenshot of adding a multi-select filter.](media/cqd-multi-select-filters.png)
 
-Then, click **Search** (a magnifying glass icon next to the new filter). You'll see a text field, and a number of options, including **Select All** and **Invert**. Enter a value,  and click **Search** next to that field to search. Alternatively, leave the text field empty and click **Search** to view up to the first 100 options.
+Then, select **Search** (a magnifying glass icon next to the new filter). You'll see a text field, and a number of options, including **Select All** and **Invert**. Enter a value,  and select **Search** next to that field to search. Alternatively, leave the text field empty and select **Search** to view up to the first 100 options.
 
 ```URL
 /filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
@@ -324,13 +311,13 @@ Then, click **Search** (a magnifying glass icon next to the new filter). You'll 
 
 Example:
 
-![Screenshot of adding a query filter.](media/qerguide-image-addfilter.png)
+![Screenshot of adding a query filter.](media/cqd-multi-select-filters-2.png)
 
 ### Dashboard level filters
 
 Certain CQD reports have dashboard-level filters added to them, making it easy to filter by common parameters. These filters appear outside the regular report tabs and directly beneath the Product filter, and they apply to all filters in the Dashboard.
 
-![Screenshot of a dashboard filter.](media/qerguide-image-dashboardfilters.png)
+![Screenshot of a dashboard filter.](media/cqd-dashboard-level-filters.png)
 
 ```URL
 /filter/[AllStreams].[Is Teams]|[TRUE | FALSE]
