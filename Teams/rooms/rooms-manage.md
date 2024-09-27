@@ -35,7 +35,7 @@ With Microsoft Teams admin center, you can:
 - Review current and past meeting activity (such as details about call quality, network health and connectivity, and number of participants)
 - See peripherals (such as cameras and projectors) connected to Microsoft Teams Rooms (only for Teams Rooms on Windows)
 
-To manage Teams Rooms devices in Teams Room Pro Management, see [Microsoft Teams Rooms Pro Management Portal](rooms-pro-rbac.md)
+To manage Teams Rooms devices in Teams Rooms Pro Management, see [Microsoft Teams Rooms Pro Management Portal](rooms-pro-rbac.md)
 
 To manage Teams Rooms devices in Teams Admin Center, open the [Microsoft Teams admin center](https://admin.teams.microsoft.com) and go to **Teams Devices** > **Teams Rooms on Windows** or **Surface Hubs**.
 
