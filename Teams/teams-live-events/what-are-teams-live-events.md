@@ -83,7 +83,7 @@ Video input is the foundation of the live event and it can vary from a single we
 
 The live event streaming platform is made up of the following pieces:
 
-- **Azure Media Services**: [Azure Media Services](/azure/media-services/previous/) gives you broadcast-quality video streaming services to reach larger audiences on today’s most popular mobile devices. Media Services enhances accessibility, distribution, and scalability, and makes it easy and cost-effective to stream content to your local or worldwide audiences—all while protecting your content.
+- **Azure Media Services**: [Azure Media Services](/azure/media-services/) gives you broadcast-quality video streaming services to reach larger audiences on today’s most popular mobile devices. Media Services enhances accessibility, distribution, and scalability, and makes it easy and cost-effective to stream content to your local or worldwide audiences—all while protecting your content.
 - **Azure Content Delivery Network (CDN)**: Once your stream goes live, it's delivered through the [Azure Content Delivery Network (CDN)](/azure/cdn/). Azure Media Services provides integrated CDN for streaming endpoints. This allows the streams to be viewed worldwide with no buffering.
 
 ### Enterprise Content Delivery Network (eCDN)
