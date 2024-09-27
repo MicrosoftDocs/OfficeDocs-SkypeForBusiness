@@ -78,5 +78,4 @@ Manage and keep your Teams phones up-to-date using the Microsoft Teams admin cen
 
 [Teams Marketplace](https://office.com/teamsdevices)
 
-[IP phones certified for Microsoft Teams](teams-ip-phones.md)
-
+[Certified Teams phones](teams-phones-certified-hardware.md)

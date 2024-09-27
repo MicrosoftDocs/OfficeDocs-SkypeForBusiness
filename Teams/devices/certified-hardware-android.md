@@ -27,10 +27,10 @@ description: Find lists of certified systems and peripherals for use with Micros
 # Teams Rooms on Android certified systems and peripherals
 
 ***
-- [Teams Rooms Android certification program](/microsoftteams/rooms/certified-hardware#teams-rooms-for-android-certification-program)
-- [Teams Rooms for Android](/microsoftteams/rooms/certified-hardware-android?tabs=Android#tabpanel_1_Android)
-- [Teams panels](/microsoftteams/rooms/certified-hardware-android?tabs=Panels#tabpanel_1_Panels)
-- [Certified Room peripherals](/microsoftteams/rooms/certified-hardware-android?tabs=Devices#tabpanel_1_Devices)
+- [Teams Rooms Android certification program](/microsoftteams/devices/certified-hardware#teams-rooms-for-android-certification-program)
+- [Teams Rooms for Android](/microsoftteams/devices/certified-hardware-android?tabs=Android#tabpanel_1_Android)
+- [Teams panels](/microsoftteams/devices/certified-hardware-android?tabs=Panels#tabpanel_1_Panels)
+- [Certified Room peripherals](/microsoftteams/devices/certified-hardware-android?tabs=Devices#tabpanel_1_Devices)
 ***
 
 The Microsoft Teams Devices Certification Program ensures certified devices meet a high standard, with higher performance targets and quality metrics across the entire Teams experience (audio, video, user interface). Microsoft and OEM partners are actively working together to ensure devices meet all certification requirements, including security, audio and video quality, Teams experience, and accessibility.
@@ -40,7 +40,7 @@ The Microsoft Teams Devices Certification Program ensures certified devices meet
 
 Certified Microsoft Teams Rooms systems are available on both Windows and Android operating systems. Whether you should choose a Teams Rooms system on Windows or Android depends on your specific needs and budget. Select the **Teams Rooms for Windows** and **Teams Rooms for Android** tabs for a complete list of certified systems and links to their respective product sites. For additional certification information specific to **Teams Rooms for Android** see details below.  
 
-For a comparison of features available on each operating system, check out [Teams Rooms on Windows and Android feature comparison](teams-devices-feature-comparison.md). 
+For a comparison of features available on each operating system, check out [Teams Rooms on Windows and Android feature comparison](..rooms/teams-devices-feature-comparison.md).
 
 To see Teams Rooms pricing, see the [Teams Rooms product showcase](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20).
 
