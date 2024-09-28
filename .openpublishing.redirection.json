@@ -5197,72 +5197,72 @@
 },
 {
   "source_path": "Skype/SfbServer/deploy/deploy-clients/skype-room-system-exchange-and-skype-accounts.md",
-  "redirect_url": "Teams/rooms/index",
+  "redirect_url": "/microsoftteams/rooms/index",
   "redirect_document_id": false
 },
 {
   "source_path": "Skype/SfbServer/deploy/deploy-clients/single-forest-on-premises-deployments.md",
-  "redirect_url": "Teams/rooms/index",
+  "redirect_url": "/microsoftteams/rooms/index",
   "redirect_document_id": false
 },
 {
   "source_path": "Skype/SfbServer/deploy/deploy-clients/multiple-forest-on-premises-deployments.md",
-  "redirect_url": "Teams/rooms/index",
+  "redirect_url": "/microsoftteams/rooms/index",
   "redirect_document_id": false
 },
 {
   "source_path": "Skype/SfbServer/deploy/deploy-clients/provisioning-skype-room-system-accounts-in-office-365.md",
-  "redirect_url": "Teams/rooms/index",
+  "redirect_url": "/microsoftteams/rooms/index",
   "redirect_document_id": false
 },
 {
   "source_path": "Skype/SfbServer/deploy/deploy-clients/hybrid-deployments.md",
-  "redirect_url": "Teams/rooms/index",
+  "redirect_url": "/microsoftteams/rooms/index",
   "redirect_document_id": false
 },
 {
   "source_path": "Skype/SfbServer/deploy/deploy-clients/room-system-and-federated-partners.md",
-  "redirect_url": "Teams/rooms/index",
+  "redirect_url": "/microsoftteams/rooms/index",
   "redirect_document_id": false
 },
 {
   "source_path": "Skype/SfbServer/deploy/deploy-clients/manage-skype-room-system-accounts.md",
-  "redirect_url": "Teams/rooms/index",
+  "redirect_url": "/microsoftteams/rooms/index",
   "redirect_document_id": false
 },
 {
   "source_path": "Skype/SfbServer/deploy/deploy-clients/room-setup-scripts.md",
-  "redirect_url": "Teams/rooms/index",
+  "redirect_url": "/microsoftteams/rooms/index",
   "redirect_document_id": false
 },
 {
   "source_path": "Skype/SfbServer/deploy/deploy-clients/manageability-and-tools.md",
-  "redirect_url": "Teams/rooms/index",
+  "redirect_url": "/microsoftteams/rooms/index",
   "redirect_document_id": false
 },
 {
   "source_path": "Skype/SfbServer/deploy/deploy-clients/skype-for-business-software-liicense.md",
-  "redirect_url": "Teams/rooms/index",
+  "redirect_url": "/microsoftteams/rooms/index",
   "redirect_document_id": false
 },
 {
   "source_path": "Skype/SfbServer/deploy/deploy-clients/domain-joining-considerations.md",
-  "redirect_url": "Teams/rooms/index",
+  "redirect_url": "/microsoftteams/rooms/index",
   "redirect_document_id": false
 },
 {
   "source_path": "Skype/SfbServer/deploy/deploy-clients/migration-considerations.md",
-  "redirect_url": "Teams/rooms/index",
+  "redirect_url": "/microsoftteams/rooms/index",
   "redirect_document_id": false
 },
 {
   "source_path": "Skype/SfbServer/deploy/deploy-clients/trusted-domains.md",
-  "redirect_url": "Teams/rooms/index",
+  "redirect_url": "/microsoftteams/rooms/index",
   "redirect_document_id": false
 },
 {
   "source_path": "Skype/SfbServer/deploy/deploy-clients/conferencing-policy.md",
-  "redirect_url": "Teams/rooms/index",
+  "redirect_url": "/microsoftteams/rooms/index",
   "redirect_document_id": false
 }
 
