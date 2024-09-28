@@ -57,8 +57,8 @@ The conferencing policy assigned to the Skype Room System account must have cert
 |FileTransferBitRateKb  <br/> |5000  <br/> |N/A  <br/> |
 |TotalReceiveVideoBitRateKb  <br/> |20000  <br/> |We recommend that you set this as high as possible. The effective bandwidth depends on network conditions at the time of conferences.\*  <br/> |
 |EnableMultiViewJoin  <br/> |TRUE  <br/> |Must be TRUE for Skype Room System to ensure multi-view video streams  <br/> |
-   
-* For information about bandwidth planning, see [Network bandwidth requirements for media traffic](../../plan-your-deployment/network-requirements/network-requirements.md#network-bandwidth-requirements-for-media-traffic).
+
+* For information about bandwidth planning, see [Network bandwidth requirements for media traffic](../../../plan-your-deployment/network-requirements/network-requirements.md#network-bandwidth-requirements-for-media-traffic).
   
 > [!NOTE]
 > If the Skype Room System client tries to join a scheduled meeting organized by a user who is homed on a Lync Server 2010 pool, the meeting organizer's conferencing policy could prevent the Skype Room System client from performing collaboration. 
