@@ -5266,62 +5266,62 @@
       "redirect_document_id": false
     },
 	{
-	  "source_path": "Skype/SfbPartnerCertification/certification/overview.md",
+	  "source_path": "skypeforbusiness/certification/overview",
 	  "redirect_url": "/microsoftteams/devices/certification-overview",
 	  "redirect_document_id": false
 	},
 	{
-	  "source_path": "Skype/SfbPartnerCertification/certification/how-to-join.md",
+	  "source_path": "skypeforbusiness/certification/how-to-join",
 	  "redirect_url": "/microsoftteams/devices/certification-join",
 	  "redirect_document_id": false
 	},
 	{
-	  "source_path": "Skype/SfbPartnerCertification/certification/test-spec.md",
+	  "source_path": "skypeforbusiness/certification/test-spec",
 	  "redirect_url": "/microsoftteams/devices/certification-specifications",
 	  "redirect_document_id": false
 	},
 	{
-	  "source_path": "Skype/SfbPartnerCertification/certification/devices-ip-phones.md",
+	  "source_path": "skypeforbusiness/certification/devices-ip-phones",
 	  "redirect_url": "/microsoftteams/devices/teams-ip-phones",
 	  "redirect_document_id": false
 	},
 	{
-	  "source_path": "Skype/SfbPartnerCertification/certification/devices-usb-devices.md",
+	  "source_path": "skypeforbusiness/certification/devices-usb-devices",
 	  "redirect_url": "/microsoftteams/devices/usb-devices",
 	  "redirect_document_id": false
 	},
 	{
-	  "source_path": "Skype/SfbPartnerCertification/certification/devices-pcs.md",
+	  "source_path": "skypeforbusiness/certification/devices-pcs",
 	  "redirect_url": "/microsoftteams/devices/usb-devices",
 	  "redirect_document_id": false
 	},
 	{
-	  "source_path": "Skype/SfbPartnerCertification/lync-cert/usb-and-video.md",
+	  "source_path": "skypeforbusiness/certification/usb-and-video",
 	  "redirect_url": "/microsoftteams/devices/usb-devices",
 	  "redirect_document_id": false
 	},
 	{
-	  "source_path": "Skype/SfbPartnerCertification/lync-cert/meeting-room-devices.md",
+	  "source_path": "skypeforbusiness/lync-cert/meeting-room-devices",
 	  "redirect_url": "/microsoftteams/devices/usb-devices",
 	  "redirect_document_id": false
 	},
 	{
-	  "source_path": "Skype/SfbPartnerCertification/lync-cert/room-systems.md",
+	  "source_path": "skypeforbusiness/lync-cert/room-systems",
 	  "redirect_url": "/microsoftteams/rooms/certified-hardware",
 	  "redirect_document_id": false
 	},
 	{
-	  "source_path": "Skype/SfbPartnerCertification/lync-cert/ip-phones.md",
+	  "source_path": "skypeforbusiness/lync-cert/ip-phones",
 	  "redirect_url": "/microsoftteams/devices/teams-ip-phones",
 	  "redirect_document_id": false
 	},
 	{
-	  "source_path": "Skype/SfbPartnerCertification/certification/devices-meeting-rooms.md",
+	  "source_path": "skypeforbusiness/lync-cert/devices-meeting-rooms",
 	  "redirect_url": "/microsoftteams/rooms/room-planning-guidance",
 	  "redirect_document_id": false
 	},
 	{
-	  "source_path": "Skype/SfbPartnerCertification/lync-cert/pcs-optimized-for-lync.md",
+	  "source_path": "skypeforbusiness/lync-cert/pcs-optimized-for-lync",
 	  "redirect_url": "/microsoftteams/devices/certification-overview",
 	  "redirect_document_id": false
 	}
