@@ -70,5 +70,5 @@ Browse all [devices Certified for Teams](https://products.office.com/microsoft-t
 
 Learn about [Skype for Business certification](overview.md).
 
-Find details of our [Microsoft Teams certified Android devices](../../lync-cert/ip-phones.md).
+Find details of our [Microsoft Teams certified Android devices](microsoftteams/devices/teams-ip-phones).
 
