@@ -64,14 +64,14 @@ Dewy Law LLC. is a relatively young firm and the attorneys and other staff membe
   
 |Staff | Headquarters (NY) | Regional offices (3) | Large branch offices (24) | Small branch offices (50) |
 |:-----|:-----|:-----|:-----|:-----|
-|Executive  <br/> |20  <br/> |10  <br/> |1  <br/> |1  <br/> |
-|Partners  <br/> |150  <br/> |50  <br/> |10  <br/> |5  <br/> |
-|Associates  <br/> |300  <br/> |100  <br/> |20  <br/> |10  <br/> |
-|Paralegal  <br/> |400  <br/> |125  <br/> |30  <br/> |15  <br/> |
-|Executive admins  <br/> |100  <br/> |35  <br/> |6  <br/> |3  <br/> |
-|IT and general Administrative  <br/> |100  <br/> |25  <br/> |3  <br/> |2  <br/> |
-|Total per site  <br/> |1,070  <br/> |345  <br/> |70  <br/> |36  <br/> |
-|Total per site class  <br/> |1,070  <br/> |1,035  <br/> |1,680  <br/> |1,800  <br/> |
+|Executive |20 |10 |1 |1 |
+|Partners |150 |50 |10 |5 |
+|Associates |300 |100 |20 |10 |
+|Paralegal |400 |125 |30 |15 |
+|Executive admins |100 |35 |6 |3 |
+|IT and general Administrative |100 |25 |3 |2 |
+|Total per site |1,070 |345 |70 |36 |
+|Total per site class |1,070 |1,035 |1,680 |1,800 |
    
 ### Setting up the network
 
@@ -150,9 +150,9 @@ We have defined three personas for Dewey Law LLC., 'Executive/Partner,' 'Associa
   
 | Persona | IM/Presence | P2P audio | P2P video | Conferencing audio | Conferencing video | Desktop sharing | Audio Conferencing | Lync 2010 RTV_Type | Remote Users | Lync 2013 stereo audio | Lync 2013 video quality | Lync 2013 users behavior for P2P video window | Lync 2013 Multi-view usage |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Executive/ Partner  <br/> |High  <br/> |Medium  <br/> |Low  <br/> |Medium  <br/> |Medium  <br/> |None  <br/> |Medium  <br/> |CIF  <br/> |0%  <br/> |0%  <br/> |Best  <br/> |Typical  <br/> |Typical  <br/> |
-|Associate/ Paralegal  <br/> |High  <br/> |Medium  <br/> |Low  <br/> |Medium  <br/> |High  <br/> |High  <br/> |Medium  <br/> |CIF  <br/> |0%  <br/> |0%  <br/> |Medium  <br/> |Typical  <br/> |Typical  <br/> |
-|IT admins  <br/> |High  <br/> |Medium  <br/> |None  <br/> |Low  <br/> |None  <br/> |None  <br/> |Medium  <br/> |CIF  <br/> |0%  <br/> |0%  <br/> |Medium  <br/> |Typical  <br/> |Typical  <br/> |
+|Executive/ Partner |High |Medium |Low |Medium |Medium |None |Medium |CIF |0% |0% |Best |Typical |Typical |
+|Associate/ Paralegal |High |Medium |Low |Medium |High |High |Medium |CIF |0% |0% |Medium |Typical |Typical |
+|IT admins |High |Medium |None |Low |None |None |Medium |CIF |0% |0% |Medium |Typical |Typical |
    
 You'll need to enter the information in the **Distribution of users by locations and positions** table above in the 'Sites' worksheet of the Lync 2010 and 2013 Bandwidth Calculator. As the number of users in the regional offices is identical, they're defined for one 'Site' and specified that there were three instances of it. The same was done for the large and small branches where there were 24 and 50 users in sites respectively.
   
@@ -165,19 +165,19 @@ After specifying the settings for each persona, you need to enter the number of 
   
 | Site Name | Total Users in Site | Total Sites Like This | User Profile 1 | User's of Profile 1 | User Profile 2 | User's of Profile 2 | User Profile 3 | User's of Profile 3 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Headquarters  <br/> |1070  <br/> |1  <br/> |Executive/Partner  <br/> |170  <br/> |Associate/Paralegal  <br/> |700  <br/> |IT admins  <br/> |200  <br/> |
-|Regional offices  <br/> |345  <br/> |3  <br/> |Executive/Partner  <br/> |60  <br/> |Associate/Paralegal  <br/> |225  <br/> |IT admin  <br/> |60  <br/> |
-|Large branch offices  <br/> |70  <br/> |24  <br/> |Executive/Partner  <br/> |11  <br/> |Associate/Paralegal  <br/> |50  <br/> |IT admin  <br/> |9  <br/> |
-|Small branch offices  <br/> |36  <br/> |50  <br/> |Executive/Partner  <br/> |6  <br/> |Associate/Paralegal  <br/> |25  <br/> |IT admin  <br/> |1  <br/> |
+|Headquarters |1070 |1 |Executive/Partner |170 |Associate/Paralegal |700 |IT admins |200 |
+|Regional offices |345 |3 |Executive/Partner |60 |Associate/Paralegal |225 |IT admin |60 |
+|Large branch offices |70 |24 |Executive/Partner |11 |Associate/Paralegal |50 |IT admin |9 |
+|Small branch offices |36 |50 |Executive/Partner |6 |Associate/Paralegal |25 |IT admin |1 |
    
 **Bandwidth required per application by site in Kbps ('Sites Worksheet'- Columns A and BQ through LF)**
   
 | Site | Peak SIP / IM bandwidth | Peak Intersite Peer Audio bandwidth | Peak Intersite Peer Video bandwidth | Peak Audio Conferencing bandwidth | Peak Video Conferencing bandwidth | Peak WAN Share bandwidth | Peak WAN bandwidth for PSTN Calls |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Headquarters  <br/> |1070  <br/> |525.30  <br/> |560.00  <br/> |739.50  <br/> |2640.00  <br/> |4224.00  <br/> |2688.30  <br/> |
-|Regional Offices  <br/> |345  <br/> |185.40  <br/> |560.00  <br/> |255.00  <br/> |1320.00  <br/> |1536.00  <br/> |896.10  <br/> |
-|Large Branches  <br/> |70  <br/> |92.70  <br/> |560.00  <br/> |102.00  <br/> |600.00  <br/> |384.00  <br/> |216.30  <br/> |
-|Small Branches  <br/> |36  <br/> |119.40  <br/> |560.00  <br/> |76.50  <br/> |600.00  <br/> |384.00  <br/> |123.60  <br/> |
+|Headquarters |1070 |525.30 |560.00 |739.50 |2640.00 |4224.00 |2688.30 |
+|Regional Offices |345 |185.40 |560.00 |255.00 |1320.00 |1536.00 |896.10 |
+|Large Branches |70 |92.70 |560.00 |102.00 |600.00 |384.00 |216.30 |
+|Small Branches |36 |119.40 |560.00 |76.50 |600.00 |384.00 |123.60 |
    
 Probably the most important columns in the spreadsheet are those that describe the WAN bandwidth by QoS class. This is shown in the table below. This data summarizes the information you'll need to provide to the network service provider to order the access connection at each of your sites. When calculating total bandwidth, please remember to multiply the bandwidth for each type of branch sites by the number of sites of the same type. To connect with your ExpressRoute network services partner, you can see [Azure ExpressRoute]( https://go.microsoft.com/fwlink/?LinkId=690283).
   
@@ -190,10 +190,10 @@ It's important that you don't exceed the bandwidth in the voice or 'Expedited Fo
   
 | Site Name | Best effort class (DSCP 0) | Data traffic class (DSCP custom) | Real-time traffic class (DSCP 34, AF41) | Priority traffic class (DSCP 46, EF) |
 |:-----|:-----|:-----|:-----|:-----|
-|Headquarters  <br/> |0.00  <br/> |5764.80  <br/> |3200.00  <br/> |3953.10  <br/> |
-|Regional Offices  <br/> |0.00  <br/> |2033.60  <br/> |1880.00  <br/> |1336.50  <br/> |
-|Large Branches  <br/> |0.00  <br/> |486.40  <br/> |1160.00  <br/> |411.00  <br/> |
-|Small Branches  <br/> |0.00  <br/> |438.40  <br/> |1160.00  <br/> |319.50  <br/> |
+|Headquarters |0.00 |5764.80 |3200.00 |3953.10 |
+|Regional Offices |0.00 |2033.60 |1880.00 |1336.50 |
+|Large Branches |0.00 |486.40 |1160.00 |411.00 |
+|Small Branches |0.00 |438.40 |1160.00 |319.50 |
    
 ### Putting your plan into action
 
@@ -202,10 +202,10 @@ We can calculate the total bandwidth that traverses the WAN and the amount of ba
  
 | Site | Peak SIP / IM bandwidth | Peak Audio Conferencing bandwidth | Peak Video Conferencing bandwidth | Peak WAN Share bandwidth | Peak WAN bandwidth for PSTN Calls | Total ExpressRoute<br/>traffic per site class<br/>(i.e., total<br/>time # of sites) |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|**Headquarters** <br/> |1,070  <br/> |739.50  <br/> |2640.00  <br/> |4224.00  <br/> |2688.30  <br/> |11361.80  <br/> |
-|**Regional Offices** <br/> |345  <br/> |255.00  <br/> |1320.00  <br/> |1536.00  <br/> |896.10  <br/> |8704.20  <br/> |
-|**Large Branches** <br/> |70  <br/> |102.00  <br/> |600.00  <br/> |384.00  <br/> |216.30  <br/> |32935.20  <br/> |
-|**Small Branches** <br/> |36  <br/> |76.50  <br/> |600.00  <br/> |384.00  <br/> |123.60  <br/> |61005.00  <br/> |
+|**Headquarters**|1,070 |739.50 |2640.00 |4224.00 |2688.30 |11361.80 |
+|**Regional Offices**|345 |255.00 |1320.00 |1536.00 |896.10 |8704.20 |
+|**Large Branches**|70 |102.00 |600.00 |384.00 |216.30 |32935.20 |
+|**Small Branches**|36 |76.50 |600.00 |384.00 |123.60 |61005.00 |
    
 This means that Skype for Business Online traffic, which will traverse the express route will be approximately 114 Mbps, so Dewey will need at least the 200-Mbps subscription for ExpressRoute. Multiple ExpressRoute circuits may be purchased at different ExpressRoute peering locations. This could be recommended if Dewey's sites are in different geographical regions, or to provide resiliency when connection to the ExpressRoute circuit fails. If you purchase ExpressRoute circuits in multiple Azure regions, the ExpressRoute premium add-on will be required to receive global connectivity over ExpressRoute.
   
@@ -246,10 +246,10 @@ When the delay goes higher than 150 msecs. one-way, it has a strange effect on t
   
 | Parameter | Recommended value |
 |:-----|:-----|
-|Inter arrival packet jitter (average)  <br/> |≤ 5ms  <br/> |
-|Inter arrival packet jitter (maximum)  <br/> |≤ 40ms  <br/> |
-|Packet loss rate (average)  <br/> |0% approaching  <br/> |
-|Network latency one way  <br/> |≤ 100ms (should include checks on delay versus geographic distance)  <br/> |
+|Inter arrival packet jitter (average) |≤ 5ms |
+|Inter arrival packet jitter (maximum) |≤ 40ms |
+|Packet loss rate (average) |0% approaching |
+|Network latency one way |≤ 100ms (should include checks on delay versus geographic distance) |
    
 ### ExpressRoute as part of a business grade voice network
 
@@ -299,11 +299,11 @@ Differentiated Services (DiffServ) is referred to as a "coarse grained" mechanis
   
 | Traffic Class | Treatment (DSCP Marking) | Skype for Business workloads |
 |:-----|:-----|:-----|
-|**Voice** <br/> |EF (46)  <br/> |Skype for Business and Lync voice  <br/> |
-|**Interactive** <br/> |AF41 (34)  <br/> |Video  <br/> |
-||AF21 (18)  <br/> |Application sharing  <br/> |
-|**Default** <br/> |AF11 (10)  <br/> |File transfer  <br/> |
-||CS0 (0)  <br/> |Anything else  <br/> |
+|**Voice**|EF (46) |Skype for Business and Lync voice |
+|**Interactive**|AF41 (34) |Video |
+||AF21 (18) |Application sharing |
+|**Default**|AF11 (10) |File transfer |
+||CS0 (0) |Anything else |
    
  **IP Version 4 header**
   
@@ -319,14 +319,14 @@ The IEEE 802.1p uses a 3-bit Priority Code Point (PCP) to identify the message's
   
 | PCP Value | Priority | Acronym | Traffic types |
 |:-----|:-----|:-----|:-----|
-|7  <br/> |7  <br/> |NC  <br/> |Network Control  <br/> |
-|6  <br/> |6  <br/> |IC  <br/> |Internetwork Control  <br/> |
-|5  <br/> |5  <br/> |VO  <br/> |Voice  <br/> |
-|4  <br/> |4  <br/> |VI  <br/> |Video  <br/> |
-|3  <br/> |3  <br/> |CA  <br/> |Critical Applications  <br/> |
-|2  <br/> |2  <br/> |EE  <br/> |Excellent Effort  <br/> |
-|0  <br/> |1  <br/> |BE  <br/> |Best Effort  <br/> |
-|1  <br/> |0  <br/> |BK  <br/> |Background  <br/> |
+|7 |7 |NC |Network Control |
+|6 |6 |IC |Internetwork Control |
+|5 |5 |VO |Voice |
+|4 |4 |VI |Video |
+|3 |3 |CA |Critical Applications |
+|2 |2 |EE |Excellent Effort |
+|0 |1 |BE |Best Effort |
+|1 |0 |BK |Background |
    
 Where IEEE 802.1p is implemented in much the same way as DSCP with traffic sorted into different priority queues for each priority level, but the shared media nature of WLANs calls for a different approach. While the access point and the client will maintain separate output queues for the different priority levels, there are also differences in how the frames are sent out on the radio channel.
   
@@ -340,14 +340,14 @@ Priority is given by assigning shorter AFIS values to the higher priority frames
   
 | WMM access category | WMM description | 802.1P PCP value | 802.1P designation |
 |:-----|:-----|:-----|:-----|
-|1 (AC_VO)  <br/> |Voice  <br/> |7 (111)  <br/> |NC  <br/> |
-|6 (110)  <br/> |VO  <br/> |
-|2 (AC_VI)  <br/> |Video  <br/> |5 (101)  <br/> |VI  <br/> |
-|4 (100)  <br/> |CL  <br/> |
-|3 (AC_BE)  <br/> |Best Effort Data  <br/> |3 (011)  <br/> |EE  <br/> |
-|0 (000)  <br/> |BE  <br/> |
-|4 (AC_BK)  <br/> |Background Data  <br/> |1 (001)  <br/> |BK  <br/> |
-|2 (010)  <br/> |---  <br/> |
+|1 (AC_VO) |Voice |7 (111) |NC |
+|6 (110) |VO |
+|2 (AC_VI) |Video |5 (101) |VI |
+|4 (100) |CL |
+|3 (AC_BE) |Best Effort Data |3 (011) |EE |
+|0 (000) |BE |
+|4 (AC_BK) |Background Data |1 (001) |BK |
+|2 (010) |--- |
    
 The recommended association of Layer 3 to Layer 2 priorities is shown here:
   
@@ -355,20 +355,20 @@ The recommended association of Layer 3 to Layer 2 priorities is shown here:
   
 |&nbsp; | Layer 3 markings | Layer 2 (PCP Value) | Wi-Fi (Access Category) |
 |:-----|:-----|:-----|:-----|
-|Network Control  <br/> |Per Hop Behavior (PHB) - Class Selector (CS) 6  <br/> |6  <br/> |1 (AC_VO)  <br/> |
-|DSCP Value -48  <br/> |
-|Voice  <br/> |Per Hop Behavior (PHB) -Expedited Forwarding (EF)  <br/> |5  <br/> |1 (AC_VO)  <br/> |
-|DSCP Value - 46  <br/> |
-|Video Conferencing  <br/> |Per Hop Behavior (PHB) - Assured Forwarding (AF) 41  <br/> |4  <br/> |2 (AC_VI)  <br/> |
-|DSCP Value - 34  <br/> |
-|Call Signaling  <br/> |Per Hop Behavior (PHB) - Class Selector (CS) 3  <br/> |3  <br/> |2 (AC_VI)  <br/> |
-|DSCP Value - 24  <br/> |
-|Low Latency Data  <br/> |Per Hop Behavior (PHB) -Assured Forwarding (AF) 21  <br/> |2  <br/> |3 (AC_BE)  <br/> |
-|DSCP Value -18  <br/> |
-|High Throughput Data  <br/> |Per Hop Behavior (PHB) - Assured Forwarding (AF) 11  <br/> |1  <br/> |3 (AC_BE)  <br/> |
-|DSCP Value - 10  <br/> |
-|Best Effort  <br/> |Per Hop Behavior (PHB) - 0  <br/> |0  <br/> |4 (AC_BK)  <br/> |
-|DSCP Value - 0  <br/> |
+|Network Control |Per Hop Behavior (PHB) - Class Selector (CS) 6 |6 |1 (AC_VO) |
+|DSCP Value -48 |
+|Voice |Per Hop Behavior (PHB) -Expedited Forwarding (EF) |5 |1 (AC_VO) |
+|DSCP Value - 46 |
+|Video Conferencing |Per Hop Behavior (PHB) - Assured Forwarding (AF) 41 |4 |2 (AC_VI) |
+|DSCP Value - 34 |
+|Call Signaling |Per Hop Behavior (PHB) - Class Selector (CS) 3 |3 |2 (AC_VI) |
+|DSCP Value - 24 |
+|Low Latency Data |Per Hop Behavior (PHB) -Assured Forwarding (AF) 21 |2 |3 (AC_BE) |
+|DSCP Value -18 |
+|High Throughput Data |Per Hop Behavior (PHB) - Assured Forwarding (AF) 11 |1 |3 (AC_BE) |
+|DSCP Value - 10 |
+|Best Effort |Per Hop Behavior (PHB) - 0 |0 |4 (AC_BK) |
+|DSCP Value - 0 |
    
 It's important to note that there's a mismatch in the priority coding for IEEE 802.1p and WMM. The 802.1p the PCP value for voice is 5, however, in the standard equivalence mapping to WMM, PCP 5 is translated to Access Category 2, the WMM access category for video (AC_VI). If possible you should override that mapping so that PCP 5 translates to Access Category 1, or simply avoid using voice and video on the same Wi-Fi network until the Wi-Fi Alliance addresses this issue. For more information on Wi-Fi, see [Wi-Fi Catalog Items]( https://go.microsoft.com/fwlink/?LinkId=690322).
   
