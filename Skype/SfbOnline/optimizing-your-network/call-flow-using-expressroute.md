@@ -193,7 +193,7 @@ Skype for Business Online usage scenarios involves users who are homed Online, a
  **Call flow summary for Skype for Business Online**
 
 
-|**Usage scenario** <br/> |**Endpoints** <br/> |**Signaling path** <br/> |**Media path** <br/> |**Example flow** <br/> |**Notes** <br/> |
+| Usage scenario  <br/> | Endpoints  <br/> | Signaling path  <br/> | Media path  <br/> | Example flow  <br/> | Notes  <br/> |
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Peer-to-peer call  <br/> |Two clients, both on your network.  <br/> |ExpressRoute  <br/> |local  <br/> |[Peer-to-peer call for Microsoft 365 or Office 365 user from within customer network](call-flow-using-expressroute.md#bk_Figure2) <br/> ||
 |Peer-to-peer call  <br/> |Two clients, one on your network (internal) and the other client on the Internet (external).  <br/> |Internal user: ExpressRoute  <br/> External user: Internet  <br/> |Internal user: ExpressRoute  <br/> External user: Internet to Microsoft 365 or Office 365 Edge server.  <br/> |[Peer-to-peer call for Microsoft 365 or Office 365 users from within customer network](call-flow-using-expressroute.md#bk_Figure2) <br/> |Assumes that firewall blocks direct connections between clients, which requires an Online Edge server. Traffic from internal user to Online Edge server follows similar path as that to conferencing server for conference call.  <br/> |
@@ -213,7 +213,7 @@ Hybrid call flows apply when you have a Skype for Business deployment that inclu
 
 
 
-|**Usage scenario** <br/> |**Endpoints** <br/> |**Signaling path** <br/> |**Media path** <br/> |**Example flow** <br/> |**Notes** <br/> |
+| Usage scenario  <br/> | Endpoints  <br/> | Signaling path  <br/> | Media path  <br/> | Example flow  <br/> | Notes  <br/> |
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Peer-to-peer call  <br/> |Two clients, both on customer network and homed on-premises  <br/> |Local  <br/> |local  <br/> |[Peer-to-peer call for Microsoft 365 or Office 365 user from within customer network](call-flow-using-expressroute.md#bk_Figure2) <br/> |Since users are homed on-premises, signaling flows locally to the on-premises datacenter instead of the cloud.  <br/> |
 |Peer-to-peer call  <br/> |Two clients, both connecting from customer network. One is homed online, the other is homed on-premises.  <br/> |Online user: ExpressRoute  <br/> On-premises user: local  <br/> |local  <br/> |[Peer-to-peer call for Microsoft 365 or Office 365 users from within customer network](call-flow-using-expressroute.md#bk_Figure2) <br/> |Only the Online homed user sends signaling traffic to the cloud.  <br/> |
@@ -227,7 +227,7 @@ Users that will connect to Cloud Connector Edition are all homed Online. This me
 
 
 
-|**Usage scenario** <br/> |**Endpoints** <br/> |**Signaling path** <br/> |**Media path** <br/> |**Example flow** <br/> |**Notes** <br/> |
+| Usage scenario  <br/> | Endpoints  <br/> | Signaling path  <br/> | Media path  <br/> | Example flow  <br/> | Notes  <br/> |
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |PSTN call  <br/> |Online user on your network using Cloud Connector Edition.  <br/> |local  <br/> |local  <br/> |[PSTN call using Skype for Business Cloud Connector Edition](call-flow-using-expressroute.md#bk_Figure6) <br/> ||
 |PSTN call  <br/> |Online user using the internet using Cloud Connector Edition.  <br/> |Internet  <br/> |Internet  <br/> |Combination of [On-premises Edge server with Microsoft 365 or Office 365 hosted conferences](call-flow-using-expressroute.md#bk_Figure5) and [PSTN call using Skype for Business Cloud Connector Edition](call-flow-using-expressroute.md#bk_Figure6).  <br/> |Internet users will connect via the Edge server that is included in Cloud Connector, and Cloud Connector will connect to the PSTN network.  <br/> |

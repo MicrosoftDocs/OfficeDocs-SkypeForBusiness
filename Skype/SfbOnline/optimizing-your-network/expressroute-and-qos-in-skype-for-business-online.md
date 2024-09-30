@@ -56,13 +56,13 @@ When you're getting ready for ExpressRoute for Skype for Business, it's a good i
 
 This case study for Dewey Law, LLC. shows you how to set up a network, order network access services, and determine the bandwidth requirements to support ExpressRoute for Skype for Business Online.
   
- **Background** Dewy Law LLC. is a large national law firm with 790 attorneys and a total of 5,580 employees spread across 78 locations. The firm has a headquarters in New York, three regional offices in Chicago, San Francisco and Dallas, along with 24 large and 50 small branch offices scattered around the country/region. The firm handles large, complex cases with the workload typically spread among two or more of the offices. Having this network design results in considerable network traffic between the offices.
+**Background** Dewy Law LLC. is a large national law firm with 790 attorneys and a total of 5,580 employees spread across 78 locations. The firm has a headquarters in New York, three regional offices in Chicago, San Francisco and Dallas, along with 24 large and 50 small branch offices scattered around the country/region. The firm handles large, complex cases with the workload typically spread among two or more of the offices. Having this network design results in considerable network traffic between the offices.
   
 Dewy Law LLC. is a relatively young firm and the attorneys and other staff members are comfortable with technology and greatly depend on it for their daily work. 
   
- **Distribution of users by locations and positions**
+**Distribution of users by locations and positions**
   
-|Staff |**Headquarters (NY)**|**Regional offices (3)**|**Large branch offices (24)**|**Small branch offices (50)**|
+|Staff | Headquarters (NY) | Regional offices (3) | Large branch offices (24) | Small branch offices (50) |
 |:-----|:-----|:-----|:-----|:-----|
 |Executive  <br/> |20  <br/> |10  <br/> |1  <br/> |1  <br/> |
 |Partners  <br/> |150  <br/> |50  <br/> |10  <br/> |5  <br/> |
@@ -146,9 +146,9 @@ You can also specify the audio and video codecs that are used, whether forward e
   
 We have defined three personas for Dewey Law LLC., 'Executive/Partner,' 'Associate/Paralegal' and 'IT admins'. The table below shows how we set the usage profiles for the various Skype for Business apps for each persona.
   
- **Personas and usage profiles ('Persona' Worksheet- Columns A through P)**
+**Personas and usage profiles ('Persona' Worksheet- Columns A through P)**
   
-|**Persona**|**IM/Presence**|**P2P audio**|**P2P video**|**Conferencing audio**|**Conferencing video**|**Desktop sharing**|**Audio Conferencing**|**Lync 2010 RTV_Type**|**Remote Users**|**Lync 2013 stereo audio**|**Lync 2013 video quality**|**Lync 2013 users behavior for P2P video window**|**Lync 2013 Multi-view usage**|
+| Persona | IM/Presence | P2P audio | P2P video | Conferencing audio | Conferencing video | Desktop sharing | Audio Conferencing | Lync 2010 RTV_Type | Remote Users | Lync 2013 stereo audio | Lync 2013 video quality | Lync 2013 users behavior for P2P video window | Lync 2013 Multi-view usage |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Executive/ Partner  <br/> |High  <br/> |Medium  <br/> |Low  <br/> |Medium  <br/> |Medium  <br/> |None  <br/> |Medium  <br/> |CIF  <br/> |0%  <br/> |0%  <br/> |Best  <br/> |Typical  <br/> |Typical  <br/> |
 |Associate/ Paralegal  <br/> |High  <br/> |Medium  <br/> |Low  <br/> |Medium  <br/> |High  <br/> |High  <br/> |Medium  <br/> |CIF  <br/> |0%  <br/> |0%  <br/> |Medium  <br/> |Typical  <br/> |Typical  <br/> |
@@ -161,18 +161,18 @@ After specifying the settings for each persona, you need to enter the number of 
 > [!TIP]
 >  The full spreadsheet also includes the maximum number of simultaneous sessions for each application, but we deleted those columns to save space.
   
- **Personas by site - ('Sites' Worksheet- Columns A, D, I and AI through AX)**
+**Personas by site - ('Sites' Worksheet- Columns A, D, I and AI through AX)**
   
-|**Site Name**|**Total Users in Site**|**Total Sites Like This**|**User Profile 1**|**User's of Profile 1**|**User Profile 2**|**User's of Profile 2**|**User Profile 3**|**User's of Profile 3**|
+| Site Name | Total Users in Site | Total Sites Like This | User Profile 1 | User's of Profile 1 | User Profile 2 | User's of Profile 2 | User Profile 3 | User's of Profile 3 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Headquarters  <br/> |1070  <br/> |1  <br/> |Executive/Partner  <br/> |170  <br/> |Associate/Paralegal  <br/> |700  <br/> |IT admins  <br/> |200  <br/> |
 |Regional offices  <br/> |345  <br/> |3  <br/> |Executive/Partner  <br/> |60  <br/> |Associate/Paralegal  <br/> |225  <br/> |IT admin  <br/> |60  <br/> |
 |Large branch offices  <br/> |70  <br/> |24  <br/> |Executive/Partner  <br/> |11  <br/> |Associate/Paralegal  <br/> |50  <br/> |IT admin  <br/> |9  <br/> |
 |Small branch offices  <br/> |36  <br/> |50  <br/> |Executive/Partner  <br/> |6  <br/> |Associate/Paralegal  <br/> |25  <br/> |IT admin  <br/> |1  <br/> |
    
- **Bandwidth required per application by site in Kbps ('Sites Worksheet'- Columns A and BQ through LF)**
+**Bandwidth required per application by site in Kbps ('Sites Worksheet'- Columns A and BQ through LF)**
   
-|**Site**|**Peak SIP / IM bandwidth**|**Peak Intersite Peer Audio bandwidth**|**Peak Intersite Peer Video bandwidth**|**Peak Audio Conferencing bandwidth**|**Peak Video Conferencing bandwidth**|**Peak WAN Share bandwidth**|**Peak WAN bandwidth for PSTN Calls**|
+| Site | Peak SIP / IM bandwidth | Peak Intersite Peer Audio bandwidth | Peak Intersite Peer Video bandwidth | Peak Audio Conferencing bandwidth | Peak Video Conferencing bandwidth | Peak WAN Share bandwidth | Peak WAN bandwidth for PSTN Calls |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Headquarters  <br/> |1070  <br/> |525.30  <br/> |560.00  <br/> |739.50  <br/> |2640.00  <br/> |4224.00  <br/> |2688.30  <br/> |
 |Regional Offices  <br/> |345  <br/> |185.40  <br/> |560.00  <br/> |255.00  <br/> |1320.00  <br/> |1536.00  <br/> |896.10  <br/> |
@@ -186,9 +186,9 @@ It's important that you don't exceed the bandwidth in the voice or 'Expedited Fo
 > [!TIP]
 >  Again, while the EF class of service offers the best performance guarantee, if you exceed the defined bandwidth, any additional packets will immediately be discarded.
   
- **Aggregate bandwidth per site by QoS traffic class - ('Sites' Worksheet- Columns A and ML through MR)**
+**Aggregate bandwidth per site by QoS traffic class - ('Sites' Worksheet- Columns A and ML through MR)**
   
-|**Site Name**|**Best effort class (DSCP 0)**|**Data traffic class (DSCP custom)**|**Real-time traffic class (DSCP 34, AF41)**|**Priority traffic class (DSCP 46, EF)**|
+| Site Name | Best effort class (DSCP 0) | Data traffic class (DSCP custom) | Real-time traffic class (DSCP 34, AF41) | Priority traffic class (DSCP 46, EF) |
 |:-----|:-----|:-----|:-----|:-----|
 |Headquarters  <br/> |0.00  <br/> |5764.80  <br/> |3200.00  <br/> |3953.10  <br/> |
 |Regional Offices  <br/> |0.00  <br/> |2033.60  <br/> |1880.00  <br/> |1336.50  <br/> |
@@ -200,7 +200,7 @@ It's important that you don't exceed the bandwidth in the voice or 'Expedited Fo
 We can calculate the total bandwidth that traverses the WAN and the amount of bandwidth that traverse ExpressRoute, using the bandwidth estimates from the **Per application Per site** table above. The portion of traffic that traverses ExpressRoute excludes the inter-site peer bandwidth.
 
  
-|**Site**|**Peak SIP / IM bandwidth**|**Peak Audio Conferencing bandwidth**|**Peak Video Conferencing bandwidth**|**Peak WAN Share bandwidth**|**Peak WAN bandwidth for PSTN Calls**|**Total ExpressRoute<br/>traffic per site class<br/>(i.e., total<br/>time # of sites)**|
+| Site | Peak SIP / IM bandwidth | Peak Audio Conferencing bandwidth | Peak Video Conferencing bandwidth | Peak WAN Share bandwidth | Peak WAN bandwidth for PSTN Calls | Total ExpressRoute<br/>traffic per site class<br/>(i.e., total<br/>time # of sites) |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |**Headquarters** <br/> |1,070  <br/> |739.50  <br/> |2640.00  <br/> |4224.00  <br/> |2688.30  <br/> |11361.80  <br/> |
 |**Regional Offices** <br/> |345  <br/> |255.00  <br/> |1320.00  <br/> |1536.00  <br/> |896.10  <br/> |8704.20  <br/> |
@@ -242,9 +242,9 @@ Minimizing delay is important because excessive delay can impact the flow of the
   
 When the delay goes higher than 150 msecs. one-way, it has a strange effect on the speaker. Psychologically, a clock goes off in the speaker's brain that makes them think that the recipient hasn't heard them and they repeat the last thing they said. This collides with the delayed response coming from the far end. If you have ever spoken over a satellite channel, you'll recognize this effect. Over a satellite channel the one-way delay is roughly 250 msecs., which is far beyond the allowable delay.
   
- **Recommended network parameters for business grade voice**
+**Recommended network parameters for business grade voice**
   
-|**Parameter**|**Recommended value**|
+| Parameter | Recommended value |
 |:-----|:-----|
 |Inter arrival packet jitter (average)  <br/> |≤ 5ms  <br/> |
 |Inter arrival packet jitter (maximum)  <br/> |≤ 40ms  <br/> |
@@ -295,9 +295,9 @@ There are two options for how data from the various Skype for Business applicati
 
 Differentiated Services (DiffServ) is referred to as a "coarse grained" mechanism for classifying and managing network traffic and providing QoS in IP networks. Routers and other devices that implement Layer 3 functions use the DiffServ Control Point (DSCP) to define the packet's priority. QoS is implemented by inserting a 6-bit DSCP value in the Differentiated Services field (formerly the "Type of Service" field) in the IP header; 6-bits allows for 64 different priority levels. The priority levels are typically defined as shown here.
   
- **Recommended DSCP settings**
+**Recommended DSCP settings**
   
-|**Traffic Class**|**Treatment (DSCP Marking)**|**Skype for Business workloads**|
+| Traffic Class | Treatment (DSCP Marking) | Skype for Business workloads |
 |:-----|:-----|:-----|
 |**Voice** <br/> |EF (46)  <br/> |Skype for Business and Lync voice  <br/> |
 |**Interactive** <br/> |AF41 (34)  <br/> |Video  <br/> |
@@ -315,9 +315,9 @@ While DSCP is the standard mechanism for implementing QoS at Layer 3, there are 
   
 The IEEE 802.1p uses a 3-bit Priority Code Point (PCP) to identify the message's priority; the PCP is part of a 32-bit field in the Ethernet Header that also carries the VLAN identifier. The definitions for the PCP values are included below.
   
- **IEEE 802.1p PCP values**
+**IEEE 802.1p PCP values**
   
-|**PCP Value**|**Priority**|**Acronym**|**Traffic types**|
+| PCP Value | Priority | Acronym | Traffic types |
 |:-----|:-----|:-----|:-----|
 |7  <br/> |7  <br/> |NC  <br/> |Network Control  <br/> |
 |6  <br/> |6  <br/> |IC  <br/> |Internetwork Control  <br/> |
@@ -336,9 +336,9 @@ To prioritize access to the radio channel, IEEE 802.11e/WMM defines different pr
   
 Priority is given by assigning shorter AFIS values to the higher priority frames. So if one station is waiting to send a voice frame and another is waiting to send a data frame, the voice frame will always be sent first. Technically, voice and video frames are assigned the same AFIS value, but the range of back-off intervals for video frames is higher. So while a voice and video frame may collide on the first attempt, the voice frame will always be retransmitted sooner. The correlation between IEEE 802.1p and IEEE 802.11e is shown below:
   
- **IEEE 802.11e/Wi-Fi Multi-Media (WMM) to 802.1P mapping**
+**IEEE 802.11e/Wi-Fi Multi-Media (WMM) to 802.1P mapping**
   
-|**WMM access category**|**WMM description**|**802.1P PCP value**|**802.1P designation**|
+| WMM access category | WMM description | 802.1P PCP value | 802.1P designation |
 |:-----|:-----|:-----|:-----|
 |1 (AC_VO)  <br/> |Voice  <br/> |7 (111)  <br/> |NC  <br/> |
 |6 (110)  <br/> |VO  <br/> |
@@ -351,9 +351,9 @@ Priority is given by assigning shorter AFIS values to the higher priority frames
    
 The recommended association of Layer 3 to Layer 2 priorities is shown here:
   
- **Recommended Layer 3 to Layer 2 priority associations**
+**Recommended Layer 3 to Layer 2 priority associations**
   
-|&nbsp; |**Layer 3 markings**|**Layer 2 (PCP Value)**|**Wi-Fi (Access Category)**|
+|&nbsp; | Layer 3 markings | Layer 2 (PCP Value) | Wi-Fi (Access Category) |
 |:-----|:-----|:-----|:-----|
 |Network Control  <br/> |Per Hop Behavior (PHB) - Class Selector (CS) 6  <br/> |6  <br/> |1 (AC_VO)  <br/> |
 |DSCP Value -48  <br/> |

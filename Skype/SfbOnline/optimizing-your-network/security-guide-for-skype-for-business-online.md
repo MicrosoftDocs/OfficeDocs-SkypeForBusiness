@@ -91,7 +91,7 @@ The following tables list the data that is required for SfBO to operate.
 
 
 
-| **Data**             | **Possible** **settings**                                                                  |
+| Data | Possible settings |
 |:---------------------|:-------------------------------------------------------------------------------------------|
 | Personal Data        | Name, Title, Company, Email address, Time zone                                             |
 | Telephone Numbers    | Work, Mobile, Home                                                                         |
@@ -106,7 +106,7 @@ The following tables list the data that is required for SfBO to operate.
 <!--start table here -->
 
 
-| **Data**             | **Possible** **settings**                                                                  |
+| Data | Possible settings |
 |:---------------------|:-------------------------------------------------------------------------------------------|
 | IP Address   | Actual address of computer or NATed address                     |
 | SIP URI      | <u>david.campbell@contoso.com</u>                               |
@@ -132,9 +132,11 @@ Microsoft Entra ID functions as the directory service for Microsoft 365 and Offi
 
 ### Public Key Infrastructure for SfBO
 SfBO service relies on certificates for server authentication and to establish a chain of trust between clients and servers and among the different server roles. The Windows Server public key infrastructure (PKI) provides the infrastructure for establishing and validating this chain of trust.
+
 Certificates are digital IDs. They identify a server by name and specify its properties. To ensure that the information on a certificate is valid, the certificate must be issued by a Certificate Authority (CA) that is trusted by clients or other servers that connect to the server. If the server connects only with other clients and servers on a private network, the CA can be an enterprise CA. If the server interacts with entities outside the private network, a public CA might be required.
 
 Even if the information on the certificate is valid, there must be some way to verify that the server presenting the certificate is actually the one represented by the certificate. This is where the Windows PKI comes in.
+
 Each certificate is linked to a public key. The server named on the certificate holds a corresponding private key that only it knows. A connecting client or server uses the public key to encrypt a random piece of information and sends it to the server. If the server decrypts the information and returns it as plain text, the connecting entity can be sure that the server holds the private key to the certificate and therefore is the server named on the certificate.
 
 #### CRL Distribution Points
@@ -164,7 +166,7 @@ The following table summarizes the protocol used by SfBO.
 
 
 
-|**Traffic type**|**Protected by**|
+| Traffic type | rotected by |
 |:-----|:-----|
 |Server-to-server|MTLS|
 |Client-to-server|TLS|
