@@ -54,7 +54,7 @@ When you're getting ready for ExpressRoute for Skype for Business, it's a good i
     
 ## Part 1: Case study - ExpressRoute for Dewey Law, LLC.
 
-This case study for Dewey Law, LLC. shows you how to setup a network, order network access services, and determine the bandwidth requirements to support ExpressRoute for Skype for Business Online.
+This case study for Dewey Law, LLC. shows you how to set up a network, order network access services, and determine the bandwidth requirements to support ExpressRoute for Skype for Business Online.
   
  **Background** Dewy Law LLC. is a large national law firm with 790 attorneys and a total of 5,580 employees spread across 78 locations. The firm has a headquarters in New York, three regional offices in Chicago, San Francisco and Dallas, along with 24 large and 50 small branch offices scattered around the country/region. The firm handles large, complex cases with the workload typically spread among two or more of the offices. Having this network design results in considerable network traffic between the offices.
   
@@ -75,7 +75,7 @@ Dewy Law LLC. is a relatively young firm and the attorneys and other staff membe
    
 ### Setting up the network
 
-To deliver consistent and high quality real-time services for Dewey Law LLC., there are a couple basics requirements that must be met:
+To deliver consistent and high-quality, real-time services for Dewey Law LLC., there are a couple basics requirements that must be met:
   
 - They want to provide voice services during power failure so their network distribution switches and routers must provide power over Ethernet (PoE) IEEE 802.3af or 802.3at.
     
@@ -90,7 +90,7 @@ To deliver consistent and high quality real-time services for Dewey Law LLC., th
     
 Now that you have the basics covered, to deliver business grade voice services for Dewey Law LLC., we recommend using Multi-Protocol Label Switching (MPLS) IP service from a network service partner that will connect to the Azure ExpressRoute service. MPLS provides an IP service with performance guarantees for delay, jitter, and packet loss. However, if MPLS isn't available, Ethernet connected to one of our ExpressRoute data exchange partners can also be used.
   
-MPLS providers offer several class of service levels but each use different terms to identify them. You'll have to work closely with your provider to ensure they understand the data that you have input into the [Lync 2010 and 2013 Bandwidth Calculator](https://go.microsoft.com/fwlink/?LinkID=690282) and the options available and are recommended for the different Microsoft 365 and Office 365 real-time workload applications.
+MPLS providers offer several classes of service levels, but each uses different terms to identify them. You'll have to work closely with your provider to ensure that they understand the data that you have input into the [Lync 2010 and 2013 Bandwidth Calculator](https://go.microsoft.com/fwlink/?LinkID=690282) and the options available and are recommended for the different Microsoft 365 and Office 365 real-time workload applications.
   
 There are two options for how data from Skype for Business applications can be mapped to the appropriate MPLS classes of service:
   
@@ -267,7 +267,7 @@ You may use ExpressRoute for data transit from offices or datacenters (if hybrid
   
 ### If ExpressRoute isn't an option
 
-It may not be feasible to connect all sites to ExpressRoute, either due to costs, inability to meet ExpressRoute prerequisites, or limitations of your current NSP. If you who can't use ExpressRoute you're still recommended to follow the guidance below for marking QoS within your network, and to plan the contracts with your NSP to ensure sufficient bandwidth and support for traffic prioritization based on QoS.
+It may not be feasible to connect all sites to ExpressRoute, either due to costs, inability to meet ExpressRoute prerequisites, or limitations of your current NSP. If you can't use ExpressRoute, we still recommend using the following guidance for marking QoS within your network, and to plan the contracts with your NSP to ensure sufficient bandwidth and support for traffic prioritization based on QoS.
   
 Additionally, if you have offices in multiple regions, but don't have ExpressRoute circuits in all regions should use the region BGP community tags when configuring routing for traffic to/from satellite offices so that unnecessary long haul transit can be avoided. For example, consider a company that has a Skype for Business Online organization hosted in United states, but with branch offices in Europe, and the company only has a single ExpressRoute circuit in Silicon Valley. Most of the Skype for Business Online traffic will be routed to a datacenter where the organization is hosted (For example, conference calls with other users within the company), using the ExpressRoute circuit may be preferred for most traffic. However, if a user in Europe were to join a conference call hosted by another company whose organization is located in Europe, the destination for media in that call would be the European datacenter where second company is located. Routing the traffic through the ExpressRoute circuit in Silicon Valley would be a less direct route than would be possible via the Internet. In such a case, you may want to configure routers within your network (For example, at the European offices) to inspect the community tags when making routing rules, and routing via Internet rather than Silicon Valley ExpressRoute circuit for traffic that has European region tags.
   
@@ -376,9 +376,9 @@ It's important to note that there's a mismatch in the priority coding for IEEE 8
 
 The alternative method of implementing QoS in an ExpressRoute configuration is to use Network Access Control List (ACL). In that approach, rather than having the end points insert the appropriate DSCP marking in the header of each packet, the marking can be done by an upstream router, based on the UDP source port. All of the switches and routers must still be configured to support QoS to ensure the DSCP settings are maintained. More importantly, the router connected to the service provider's network must maintain the DSCP in the header of each packet, as that DSCP setting is essentially your instruction to the network service provider for how that packet should be treated.
   
-The recommended port ranges for each Skype for Business application are listed in Section 2.6.1.1 of the [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://go.microsoft.com/fwlink/?LinkId=690286) guide. It's important that this be coordinated with the organization's overall approach to QoS and you should be on the lookout for different QoS policies and potential packet remarking mismatches.
+The recommended port ranges for each Skype for Business application are listed in Section 2.6.1.1 of the [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://go.microsoft.com/fwlink/?LinkId=690286) guide. It's important that this be coordinated with the organization's overall approach to QoS, and you should be on the lookout for different QoS policies and potential packet remarking mismatches.
   
-While the main reason QoS and MPLS network services are used is to ensure a good user experience for real-time voice and video, those same capabilities can also be applied to data applications. Rather than treating all applications equally, MPLS networks can allow organizations to give priority to some data applications over others. With MPLS, real-time applications like credit card transactions or screen sharing can be given priority over less time sensitive traffic like email.
+While the main reason QoS and MPLS network services are used is to ensure a good experience for users for real-time voice and video, those same capabilities can also be applied to data applications. Rather than treating all applications equally, MPLS networks can allow organizations to give priority to some data applications over others. With MPLS, real-time applications like credit card transactions or screen sharing can be given priority over traffic that's less time-sensitive, such as email.
   
 ### Understanding the types of IP Network Services- Basic IP and MPLS
 
