@@ -47,39 +47,6 @@ To assign a number by using the Teams admin center:
 
 [!INCLUDE [assign-phone-numbers-to-users-steps](./includes/assign-phone-numbers-to-users-steps.md)]
 
-To assign numbers by using PowerShell, use the [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) cmdlet as follows:
-
-For Calling Plan numbers:
-
-```PowerShell
-Set-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <phone number> -PhoneNumberType CallingPlan
-```
-
-For Operator Connect numbers:
-
-```PowerShell
-Set-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <phone number> -PhoneNumberType OperatorConnect
-```
-
-For Teams Phone Mobile numbers:
-
-```PowerShell
-Set-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <phone number> -PhoneNumberType OperatorConnect
-```
-
-For example:
-
-```PowerShell
-Set-CsPhoneNumberAssignment -Identity john@contoso.com -PhoneNumber "+14255550101" -PhoneNumberType CallingPlan
-Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+14255550102" -PhoneNumberType OperatorConnect
-```
-
-> [!NOTE]
-> Because of the latency between Microsoft 365 and Teams, it can take up to 24 hours for users to be enabled. If the phone number isn't assigned correctly after 24 hours, see [Phone Number Service Center](https://pstnsd.powerappsportals.com/).
-
-> [!NOTE]
-> When you assign a phone number, the EnterpriseVoiceEnabled flag is automatically set to True.
-
 ## Change a phone number for a user
 
 To change a phone number for a user by using the Teams admin center:
@@ -122,6 +89,39 @@ To remove a phone number by using the Teams admin center:
 5. Click **Save**.
 
 For a PowerShell example, see [Remove-CsPhoneNumberAssignment](/powershell/module/teams/remove-csphonenumberassignment).
+
+To assign numbers by using PowerShell, use the [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) cmdlet as follows:
+
+For Calling Plan numbers:
+
+```PowerShell
+Set-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <phone number> -PhoneNumberType CallingPlan
+```
+
+For Operator Connect numbers:
+
+```PowerShell
+Set-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <phone number> -PhoneNumberType OperatorConnect
+```
+
+For Teams Phone Mobile numbers:
+
+```PowerShell
+Set-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <phone number> -PhoneNumberType OperatorConnect
+```
+
+For example:
+
+```PowerShell
+Set-CsPhoneNumberAssignment -Identity john@contoso.com -PhoneNumber "+14255550101" -PhoneNumberType CallingPlan
+Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+14255550102" -PhoneNumberType OperatorConnect
+```
+
+> [!NOTE]
+> Because of the latency between Microsoft 365 and Teams, it can take up to 24 hours for users to be enabled. If the phone number isn't assigned correctly after 24 hours, see [Phone Number Service Center](https://pstnsd.powerappsportals.com/).
+
+> [!NOTE]
+> When you assign a phone number, the EnterpriseVoiceEnabled flag is automatically set to True.
 
 ## Related topics
 
