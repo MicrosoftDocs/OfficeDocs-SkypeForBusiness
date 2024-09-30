@@ -1,8 +1,8 @@
 ---
 ms.date: 11/28/2017
 title: "Call flow using ExpressRoute"
-ms.author: tonysmit
-author: tonysmit
+ms.author: serdars
+author: pamgreen
 manager: serdars
 ms.reviewer: mpottier, dougand
 ms.topic: article

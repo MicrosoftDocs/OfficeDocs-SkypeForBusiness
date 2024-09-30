@@ -1,8 +1,8 @@
 ---
 ms.date: 11/28/2017
 title: "ExpressRoute and QoS in Skype for Business Online"
-ms.author: tonysmit
-author: tonysmit
+ms.author: serdars
+author: pamgreen
 manager: serdars
 ms.reviewer: mpottier, dougand
 ms.topic: article
