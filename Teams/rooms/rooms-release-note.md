@@ -39,7 +39,7 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
-|[5.2.115.0](#5211500-92624)| 9/26/2024 |
+|[5.2.115.0](#521150-9262024)| 9/26/2024 |
 |[5.1.28.0](#51280-882024) | 8/8/2024 |
 |[5.1.24.0](#51240-7302024) | 7/30/2024 |
 |[5.0.305.0](#503050-632024) | 6/3/2024 |
