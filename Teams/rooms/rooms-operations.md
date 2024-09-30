@@ -3,8 +3,8 @@ title: Microsoft Teams Rooms maintenance and operations
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: rachelan
-ms.date: 08/28/2024
+ms.reviewer: kramachandra
+ms.date: 09/30/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
