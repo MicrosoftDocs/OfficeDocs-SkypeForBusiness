@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: divank
-ms.date: 08/21/2024
+ms.date: 09/30/2024
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
@@ -168,6 +168,8 @@ See [Microsoft Teams phones feature set](phones-for-teams.md) for information on
 #### <b> Yealink </b>
 | Device model  | Latest firmware version  | Minimum firmware version | Included Microsoft applications  | Release date|
 |:----------------|:-------------------|:----------------------------|:----------------------------------------------------------------------------------------------|:--------------------------------------------|
+|MP54/MP56/MP58| `122.15.0.160`| `122.15.0.142` | Teams client: `1449/1.0.94.2024082806` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| September 30, 2024|
+|CP965| `143.15.0.68`| `143.15.0.54` | Teams client: `1449/1.0.94.2024082806` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| September 30, 2024|
 |MP52| `145.15.0.97`| N/A | Teams client: `1449/1.0.94.2024060310` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| August 29, 2024|
 |MP54/MP56/MP58| `122.15.0.157`| `N/A` | Teams client: `1449/1.0.94.2024071104` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| August 7, 2024|
 |CP965| `143.15.0.65`| `N/A` | Teams client: `1449/1.0.94.2024071104` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| August 7, 2024|
@@ -399,7 +401,7 @@ Microsoft Teams licenses can be purchased as part of [Microsoft 365 or Office 36
 
 For more information about getting Teams, check out [How do I get access to Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
-If you're a vendor seeking to join the certification program, see [How to Join](/skypeforbusiness/certification/how-to-join) for requirements and available programs.
+If you're a vendor seeking to join the certification program, see [How to join the program](certification-join.md) for requirements and available programs.
 
 [Explore Microsoft Teams phones and certified devices.](https://products.office.com/microsoft-teams/across-devices/devices)
 
