@@ -121,12 +121,11 @@ Get-CsTeamsMeetingPolicy -identity {identity_name} // to confirm the changed val
 ```
 
 
-## Scheduling a meeting
+## Getting Identified during a meeting. 
 
-When you schedule a meeting, both room and users who wish to be identified must be invited to experience Multi-Stream IntelliFrame and people recognition upon enrollment. Else, users are identified as **Guest**.
-Following is an example of a meeting invite.
+When you schedule a meeting, the users who wish to be identified must be invited to meeting or meeting forwarded to them before the meeting transcription is started . 
 
-:::image type="content" source="../media/demo-meeting.png" alt-text="Screenshot that shows the demo meeting schedule.":::
+Note: Identification only works for Face enrolled users, everyone else will be treated as a participant.
 
 > [!Note]
 > Adhoc meetings won't have face identifications, where there is no Outlook appointment with a list of participants.
