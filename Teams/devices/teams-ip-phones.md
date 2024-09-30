@@ -399,7 +399,7 @@ Microsoft Teams licenses can be purchased as part of [Microsoft 365 or Office 36
 
 For more information about getting Teams, check out [How do I get access to Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
-If you're a vendor seeking to join the certification program, see [How to Join](/skypeforbusiness/certification/how-to-join) for requirements and available programs.
+If you're a vendor seeking to join the certification program, see [How to join the program](certification-join.md) for requirements and available programs.
 
 [Explore Microsoft Teams phones and certified devices.](https://products.office.com/microsoft-teams/across-devices/devices)
 
