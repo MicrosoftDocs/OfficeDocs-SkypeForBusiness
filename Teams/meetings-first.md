@@ -92,7 +92,7 @@ For your users to have the best possible experience in Teams meetings, you shoul
 - [Evaluate your environment](3-envision-evaluate-my-environment.md).
 - [Prepare your organization's network for Microsoft Teams](prepare-network.md).
 - Upgrade your meeting rooms with Teams capable [meeting room devices and solutions](/skypeforbusiness/certification/devices-meeting-rooms?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json), or use [Cloud Video Interop for Microsoft Teams](cloud-video-interop.md) to enable your existing third-party rooms and devices to join Teams meetings.
-- Equip your users with [certified USB audio and video devices](/skypeforbusiness/certification/devices-usb-devices?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json).
+- Equip your users with [Personal peripherals certified for Microsoft Teams](devices/usb-devices.md).
 - Prepare to [drive awareness and adoption for Teams meetings](adopt-microsoft-teams-landing-page.md).
 - [Plan your service management](4-envision-plan-my-service-management.md).
 - Familiarize yourself with the rich Call Analytics reports to [troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md).
