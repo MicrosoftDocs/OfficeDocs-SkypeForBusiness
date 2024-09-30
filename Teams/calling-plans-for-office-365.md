@@ -100,20 +100,15 @@ Unlimited incoming minutes are included. No outgoing minutes are included. All o
 
 To learn how to fund and use minutes for a Pay-As-You-Go Calling Plan, see [How to fund a Pay-As-You-Go Calling Plan](#how-to-fund-a-pay-as-you-go-calling-plan).
 
+ **(((((((((((Customers (in the US and PR?) can purchase pay-as-you-go calling plans for end users in Zone 1 & Zone 2 markets.)))))))))))**
+
 There are three **Pay-As-You-Go Calling Plan** options to choose from:
 
-- **Pay-As-You-Go Calling Plan Zone 1 - US**: For users in the United States and Puerto Rico. 
+- **Pay-As-You-Go Calling Plan Zone 1**: For users in the United States and Puerto Rico, United Kingdom, and Canada.
 
-  Zone 1 (US) licenses are only available for purchase by organizations based in the United States and Puerto Rico.  
+- **Pay-As-You-Go Calling Plan Zone 2**: For users in Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hong Kong, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, and Switzerland.
 
-- **Pay-As-You-Go Calling Plan Zone 1 - UK & Canada**: For users in the United Kingdom and Canada.
-
-- **Pay-As-You-Go Calling Plan Zone 2**: For users in Austria, Belgium, Croatia, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hong Kong, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, and Switzerland.
-
-  Zone 2 licenses aren't currently available for sale in the United States and Puerto Rico.
-
-> [!NOTE]
-> Mexico has its own Pay-As-You-Go Calling Plan. It's not part of any zone. You must purchase the independent Pay-As-You-Go Calling Plan for Mexico.
+- **Pay-As-You-Go Calling Plan Mexico**: For users in Mexico.
 
 ## How to buy Calling Plans
 
