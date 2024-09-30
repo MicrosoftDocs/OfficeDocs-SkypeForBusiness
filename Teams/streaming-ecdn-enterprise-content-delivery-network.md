@@ -22,21 +22,23 @@ description: Learn about scale video delivery and enterprise content delivery ne
 ---
 # Enterprise content delivery networks for streaming Microsoft Teams events
 
-**APPLIES TO:** ✔️Meetings ✖️Webinars ✔️Town halls ✔️Live events
+**APPLIES TO:** ✔️View only-meetings ✖️Webinars ✔️Town halls ✔️Live events
 
 Teams streaming events can use enterprise content delivery networks (eCDNs), including the Microsoft eCDN and eCDNs from Microsoft partners. Teams streaming events include:
 
 - Town halls
 - Live events
-- Meetings with more than 1,000 participants
+- [View-only](view-only-meeting-experience.md) meetings
 
-Playback of videos from Microsoft Teams events uses adaptive bitrate streaming (ABR) delivered as a unicast stream. Every viewer gets their own video stream from the internet. For events or videos sent out to large portions of your organization, there could be a significant amount of network and internet bandwidth consumed by viewers.
+Video playback from Microsoft Teams events utilizes adaptive bitrate streaming (ABR), which is delivered as a unicast stream. Every viewer gets their own video stream from the internet. For events or videos sent out to large portions of your organization, there could be a significant amount of network and internet bandwidth consumed by viewers.
 
-Organizations might want to understand and reduce the network traffic for events and popular videos. If so, you can enable Teams to integrate with Microsoft’s enterprise content delivery network (eCDN) or trusted Microsoft partners that offer eCDN solutions. The eCDN solutions from our trusted partners include capabilities like real-time monitoring, and in-depth network analytics. These eCDN platforms let organizations monitor, scale, and optimize the distribution of video streams (and sometimes other content types) across your enterprise network.
+Video playback from Microsoft Teams events uses adaptive bitrate streaming (ABR) delivered as a unicast stream. This means that each viewer gets their own video stream from the internet. For events or videos sent out to a large portion of your organization, this can result in viewers consuming significant network and internet bandwidth.
+
+As an admin, you might want to understand and reduce the network traffic for events and popular videos. If so, you can enable Teams to integrate with Microsoft’s enterprise content delivery network (eCDN) or trusted Microsoft partners that offer eCDN solutions. The eCDN solutions from our trusted partners include capabilities like real-time monitoring, and in-depth network analytics. These eCDN platforms let you monitor, scale, and optimize the distribution of video streams (and sometimes other content types) across your enterprise network.
 
 ## Microsoft eCDN
 
-**Microsoft eCDN** solves the network congestion problem that occurs during large corporate virtual events such as all-hands meetings. Microsoft eCDN forms a mesh network over the LAN, which reduces the load by up to 98%. With WebRTC as its foundation, Microsoft eCDN eliminates the need for any software or hardware installations. Microsoft eCDN is included with a Teams Premium license, but you can also purchase this solution for organizers who don't have a Teams Premium license.
+**Microsoft eCDN** solves the network congestion problem that occurs during large corporate virtual events such as all-hands meetings. Microsoft eCDN forms a mesh network over the LAN, reducing the load by up to 98%. With WebRTC as its foundation, Microsoft eCDN eliminates the need for any software or hardware installations. Microsoft eCDN is included with a Teams Premium license, but you can also purchase this solution for organizers who don't have a Teams Premium license.
 
 - Microsoft eCDN works out of the box without any configuration. The network configuration for Microsoft eCDN ensures that remote workers and/or heavy video traffic doesn't strain your network nor oblige you to invest in costly infrastructure. It includes automatic site detection, automatic VPN detection, and automatic NAT/firewall traversal. To learn more, see [How to enable Microsoft eCDN](/ecdn/how-to/enable-microsoft-ecdn-for-your-tenant).
 - Silent Testing with Microsoft eCDN allows admins to simulate large events on their corporate network, allowing thorough and non-disruptive testing and troubleshooting before a real event. To learn more, see [Perform a silent test](/ecdn/how-to/perform-silent-test).
