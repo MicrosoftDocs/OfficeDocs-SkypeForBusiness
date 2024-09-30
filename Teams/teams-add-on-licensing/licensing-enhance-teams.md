@@ -81,7 +81,7 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Hide attendee names |  | ✔️ |
 | View engagement reports |  | ✔️ |
 | Translate post-meeting transcriptions (*coming soon*) |  | ✔️ |
-| Turn on eCDN Meetings\* |  | ✔️ |
+| Turn on eCDN for view-only meetings\* |  | ✔️ |
 | Audio quality alerts |  | ✔️ |
 | Video quality alerts |  | ✔️ |
 | Screen sharing quality alerts |  | ✔️ |
@@ -324,7 +324,7 @@ The following table shows which Teams Premium features provide primary value to 
 | **Advanced Virtual Appointments** | ✔️ Custom lobby room with branding, logos, and more</br> ✔️ SMS notifications | ✔️ On-demand and scheduled appointment functionality and queue views</br> ✔️ Analytics at departmental and organizational level</br> SMS notifications</br></br> *At the user level, these features apply to any user in the tenant who wants access to pre and post-appointment actions and data, like a meeting scheduler, supervisor, or admin.* |  |
 | **Advanced Webinars** | ✔️ Manage attendee view</br> ✔️ Reminder emails</br> ✔️ Wait lists and manual approval</br> ✔️ Limit registration date and time</br> ✔️ RTMP-In |  |
 | **Advanced Town halls** | ✔️ Scale up to 20,000 attendees</br> ✔️ Concurrency limit of 50 meetings</br> ✔️ Email customization</br> ✔️ Microsoft eCDN support</br> ✔️Real-time organizer analytics ✔️Pre-select 10 languages for attendee captions</br> ✔️Town hall attendee reactions |  | ✔️Real time monitoring of the attendee experience |
-| **Microsoft eCDN** |  | ✔️ Works with Teams Meetings and Town halls</br> ✔️ Microsoft eCDN included as a part of the Teams Premium bundle |  |
+| **Microsoft eCDN** |  | ✔️ Works with Teams view-only meetings, live events, and town halls</br> ✔️ Microsoft eCDN included as a part of the Teams Premium bundle |  |
 
 ## How does Teams Premium differ from Teams Rooms Pro?
 
@@ -394,7 +394,7 @@ The following list indicates Teams Premium features that require admin configura
 - Being assigned a custom policy package.
 - Using organization customized meeting templates.
 - Seeing organization customized branding.
-- Using eCDN for town halls.
+- Using eCDN for town halls, view-only meetings, and live events.
 - Using RTMP-In.
 - Customizing Virtual Appointment lobby rooms with branding.
 - Hiding attendees names from meetings and webinars.
