@@ -62,7 +62,7 @@ To help guide you as to what features are available on different platforms, you 
 | | Live reactions | Available | Available |
 | | PowerPoint Live | Available | Available |
 | | Live closed captions | Available | Available |
-| | Participate in breakout rooms | Not available | Not available |
+| | Participate in breakout rooms | Available | Not available |
 | | Teams Premium meeting protection policies (watermark, E2E encryption for meetings, and sensitivity labels) | Available | Available |
 | | Start meeting recording and transcription | Not available | Not available |
 | | Teams Town Hall (Presenter role) | Not available | Not available |
@@ -86,7 +86,7 @@ To help guide you as to what features are available on different platforms, you 
 | | Rate my call report | Available | Not available |
 | | Net promoter score (NPS) at meeting end| Available | Not available |
 | | Meeting controls on touch enabled front of room displays | Not available | Available |
-| | Smart Camera Controls | Available | Available|
+| | Smart Camera Controls | Available | Available |
 | | Local pan tilt zoom (PTZ) controls | Not available | Not available |
 | | Remote Pan tilt zoom (PTZ) control | Available | Available |
 | | Switch between multiple in-room cameras | Available | Available|
@@ -185,7 +185,7 @@ To help guide you as to what features are available on different platforms, you 
 | | Live reactions | Available | Available |
 | | PowerPoint Live | Available | Available |
 | | Live closed captions | Available | Available |
-| | Participate in breakout rooms | Not available | Not available |
+| | Participate in breakout rooms | Available | Not available |
 | | Teams Premium meeting protection policies (watermark, E2E encryption for meetings, and sensitivity labels) | Available | Not available |
 | | Start meeting recording and transcription | Not available | Not available |
 | | Teams Town Hall (Presenter role) | Not available | Not available |
