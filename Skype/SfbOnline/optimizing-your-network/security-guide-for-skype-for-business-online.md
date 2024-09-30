@@ -269,8 +269,12 @@ A presenter can also promote an attendee to the role of presenter during the mee
 
 Meeting participants are also categorized by location and credentials. You can use both of these characteristics to specify which users can have access to specific meetings. Users can be divided broadly into the following categories:
 1.  **Users that belong to the tenant** &nbsp;&nbsp;These users have a credential in Microsoft Entra ID for the tenant.<br/>
-    a. *Inside corpnet* – These users are joining from inside the corporate network.<br/>b. *Remote users* – These users are joining from outside the corporate network. They can include employees who are working at home or on the road, and others, such as employees of trusted vendors, who have been granted enterprise credentials for their terms of service. Remote users can create and join conferences and act as presenters.
-2.  **Users that do not belong to the tenant**&nbsp;&nbsp;These users don't have credentials in Microsoft Entra ID for the tenant.<br/>a. *Federated Users* - Federated users possess valid credentials with federated partners and are therefore treated as authenticated by SfBO. Federated users can join conferences and be promoted to presenters after they have joined the meeting, but they can't create conferences in enterprises with which they're federated.<br/>b. *Anonymous Users* - Anonymous users don't have an Active Directory identity and aren't federated with the tenant. 
+    1. *Inside corpnet* – These users are joining from inside the corporate network.
+    1. *Remote users* – These users are joining from outside the corporate network. They can include employees who are working at home or on the road, and others, such as employees of trusted vendors, who have been granted enterprise credentials for their terms of service. Remote users can create and join conferences and act as presenters.
+
+1.  **Users that do not belong to the tenant**&nbsp;&nbsp;These users don't have credentials in Microsoft Entra ID for the tenant.
+    1. *Federated Users* - Federated users possess valid credentials with federated partners and are therefore treated as authenticated by SfBO. Federated users can join conferences and be promoted to presenters after they have joined the meeting, but they can't create conferences in enterprises with which they're federated.
+    1. *Anonymous Users* - Anonymous users don't have an Active Directory identity and aren't federated with the tenant. 
 
 Customer data shows that many conferences involve external users. Those same customers also want reassurance about the identity of external users before allowing those users to join a conference. As the following section describes, SfBO limits meeting access to those user types that have been explicitly allowed and requires all user types to present appropriate credentials when entering a meeting.
 

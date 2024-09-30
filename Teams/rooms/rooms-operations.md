@@ -66,9 +66,11 @@ Teams Rooms on Windows support many resolutions, you may find you need to specif
 4. Set the display resolution to as desired. If you have dual monitors, set the scale and resolution for both screens
 5. Next, select the start icon and enter **Command prompt**. Select **Run as administrator**
 6. Run the following command:
- ```powershell
- Powershell -ExecutionPolicy Unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentDisplayScaling.ps1 
- ```
+
+   ```powershell
+   Powershell -ExecutionPolicy Unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentDisplayScaling.ps1 
+   ```
+
 7. Restart the device
 
 
