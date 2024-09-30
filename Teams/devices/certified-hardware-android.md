@@ -1,10 +1,10 @@
 ---
-title: Teams Rooms certified systems and peripherals for Android
+title: Teams Rooms on Android certified devices
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: divank
-ms.date: 09/26/2024
+ms.date: 09/30/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -24,7 +24,7 @@ hideEdit: true
 description: Find lists of certified systems and peripherals for use with Microsoft Teams Rooms systems on Android.
 ---
 
-# Teams Rooms on Android certified systems and peripherals
+# Teams Rooms on Android certified devices
 
 The Microsoft Teams Devices Certification Program ensures certified devices meet a high standard, with higher performance targets and quality metrics across the entire Teams experience (audio, video, user interface). Microsoft and OEM partners are actively working together to ensure devices meet all certification requirements, including security, audio and video quality, Teams experience, and accessibility.
 
