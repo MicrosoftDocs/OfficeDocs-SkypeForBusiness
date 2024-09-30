@@ -130,11 +130,9 @@ See the following for more information on supported and certified devices:
 
 - [Getting phones for Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 
-- [Phones and Devices for Skype for Business](../../SfbPartnerCertification/certification/devices-ip-phones.md)
+- [Microsoft Teams certified Android devices](/microsoftteams/devices/teams-ip-phones)
 
 - [Solutions Catalog for Personal Peripherals](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)
-
-- [Phones and devices qualified for Microsoft Lync](../../SfbPartnerCertification/lync-cert/ip-phones.md)
 
 The environment and surrounding area where users are meeting and using audio and video devices is another significant factor for audio and video quality. Users calling from a noisy environment will have echoed, muffled, and unclear audio. Users in a dark or low light environment won't be able to produce bright, clear image quality for video. In a conference room setting, the location of the microphone and video device have a direct impact on the sound and image quality that participants will receive.
 
