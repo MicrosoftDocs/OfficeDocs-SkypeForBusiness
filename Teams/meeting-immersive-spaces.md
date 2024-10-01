@@ -116,18 +116,6 @@ For more information about assigning licenses in Microsoft 365, see:
 
 For more complex and larger group license management, you can do [Assign licenses to a group - Microsoft Entra ID | Microsoft Learn](/entra/identity/users/licensing-groups-assign).
 
-## End user license agreement
-
-Your users must enter a separate agreement directly with Microsoft to enable spatial audio for Mesh experiences. That agreement is presented to your users before the user's first use of Mesh. If a user does not wish to enter into that agreement, the user cannot use Mesh.
-
-As an admin, if you don't want users in your organization to agree to these terms, you can disable immersive spaces in Teams for users in your organization.
-
-:::image type="content" source="media/meetings-immersive-spaces-EULA-agreement.png" alt-text="Screenshot of the End User License Agreement for immersive spaces in Teams.":::
-
 ## Next steps for immersive spaces
 
 To see all the features and learn more about immersive spaces, see [Immersive spaces in Teams](https://aka.ms/immersivespacesdocs).
-
-[service-tag]: /azure/virtual-network/service-tags-overview
-[service-tag-api]: /azure/virtual-network/service-tags-overview#use-the-service-tag-discovery-api
-[service-tag-download]: /azure/virtual-network/service-tags-overview#discover-service-tags-by-using-downloadable-json-files
