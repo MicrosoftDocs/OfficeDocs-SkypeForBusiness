@@ -21,9 +21,9 @@ search.appverid: MET150
 ms.localizationpriority: medium
 description: Learn about the versions of Android-based that are supported on Android-based Teams devices including the Teams admin agent app, the Intune app, and the Microsoft Authenticator app.
 ---
-# Microsoft Teams android devices - app versioning support
+# Microsoft Teams android devices - app update support
 
-  
+
 This article provides the details about the releases of following apps for Android-based Teams devices:
 
 - Teams admin agent app
