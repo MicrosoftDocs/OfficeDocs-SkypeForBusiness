@@ -19,13 +19,13 @@ f1.keywords:
 ms.custom:
 - Skype for Business Certification
 - dn947482
-description: "Skype for Businees Certification of PCs ensures that workers can use their PCs as their complete unified communications endpoint"
+description: "Skype for Business Certification of PCs ensures that workers can use their PCs as their complete unified communications endpoint"
 ---
 
 # PCs
-Effective June 2019, the Skype for Business certification program for Personal Computers is no longer active. Microsoft and the PC OEMs will continue to support PCs that were previously certified, but no new devices will be certified. Personal Computers are not certified under the Microsoft Teams devices certification program. 
+Effective June 2019, the Skype for Business certification program for Personal Computers is no longer active. Microsoft and the PC OEMs continue to support PCs that were previously certified, but no new devices are certified. Personal Computers aren't certified under the Microsoft Teams devices certification program. 
 
-The listing of recent Skype for Business PC certifications will be maintained for a transitionary period so customers can determine which PCs had been previously certified. However, it is recommended customers no longer include Skype for Business PC certification as a prerequisite for future purchasing decisions (or RFQs) since new models will not be certified.
+The listing of recent Skype for Business PC certifications is maintained for a transitionary period so customers can determine which PCs were earlier certified. However, customers are recommended not to include longer include Skype for Business PC certification as a prerequisite for future purchasing decisions [or Requests for quotations (RFQs)]. This recommendation is because new models aren't certified.
 
 When the Skype for Business PC certification program was active, PCs were tested to deliver:
 
@@ -42,7 +42,7 @@ When the Skype for Business PC certification program was active, PCs were tested
 |Manufacturer | Model| Qualification Date|
 |:--- |:--- |:--- |
 | Lenovo | ThinkPad E595 | 6/2019 |
-| HP| ProOne 400 G5 20-inch| 6/2019 |
+| HP| ProOne 400 G5 20 inch| 6/2019 |
 | HP| EliteOne 800 G5 | 6/2019 |
 | Lenovo | ThinkBook 14s | 6/2019 | 
 | Dell | Vostro 5390 / 5391 | 5/2019 |
@@ -431,6 +431,6 @@ When the Skype for Business PC certification program was active, PCs were tested
 > [!NOTE]
 > Monitors require an embedded camera and embedded speakerphone, both passing Lync Logo specs (including USB HID support). The display is not tested.
 
-If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
+If you're a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 
 
