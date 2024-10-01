@@ -68,7 +68,7 @@ The following table shows how each option for the **Who can bypass the lobby** p
 
 **Only people who were invited** applies only to participants who were sent an invite directly, who are part of an invited distribution list (of up to 10,000 users), or to whom an invite was forwarded. Users added via *Invite members* in a channel meeting wait in the lobby.
 
-## Manage lobby options in meetings hosted by your organization in the Teams admin center
+## Use the Teams admin center to manage lobby options in meetings hosted by your organization
 
 You can manage lobby settings and policies in the Teams admin center. See the following sections for guidance on which setting to choose for different circumstances. For information about how meeting policies work, see [Manage meeting policies in Microsoft Teams](/microsoftteams/meeting-policies-overview).
 
@@ -119,49 +119,9 @@ By default, the **Anonymous users and dial-in callers can start a meeting** poli
 > [!IMPORTANT]
 > We recommend that you leave this setting off. When the setting is on, people with unverified accounts can start meetings, including using the meeting link to have meetings at unscheduled times.
 
-### Use Powershell to control whether anonymous users can join meetings
-
-You can use the **`-AllowAnonymousUsersToJoinMeeting`** parameter in the [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy?#-allowanonymoususerstojoinmeeting) PowerShell cmdlet to control whether anonymous users can join meetings.
-
-#### Prevent anonymous participants from joining meetings
-
-To prevent anonymous participants from joining meetings and webinars created by organizers with this policy, use the following script:
-
-```powershell
-Set-CsTeamsEventsPolicy -Identity <policy name> -AllowAnonymousUsersToJoinMeeting $false
-```
-
-#### Allow anonymous participants to join meetings
-
-**This is the default setting.** To allow anonymous participants to join meetings and webinars created by organizers with this policy, use the following script:
-
-```powershell
-Set-CsTeamsEventsPolicy -Identity <policy name> -AllowAnonymousUsersToJoinMeeting $true
-```
-
 ## Control access to meetings by people dialing in by phone
 
 By default, the **People dialing in can bypass the lobby** policy is **Off**, but meeting organizers can change this in Meeting Options when they set up a meeting. You can change the default by updating the **People dialing in can bypass the lobby** policy or you can enforce a particular value by using a meeting template.
-
-### Use PowerShell to control whether users dialing in by phone can bypass the lobby
-
-You can use the **`-AllowPSTNUsersToBypassLobby`** parameter in the [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy#-allowpstnuserstobypasslobby) PowerShell cmdlet to control whether users dialing in by phone can bypass the lobby.
-
-#### Prevent users dialing in by phone from bypassing the lobby
-
-To prevent users dialing in by phone from bypassing the lobby in meetings and webinars created by organizers with this policy, use the following script:
-
-```powershell
-Set-CsTeamsEventsPolicy -Identity <policy name> -AllowPSTNUsersToBypassLobby $false
-```
-
-#### Allow users dialing in by phone to bypass the lobby
-
-To allow users dialing in by phone to bypass the lobby in meetings and webinars created by organizers with this policy, use the following script:
-
-```powershell
-Set-CsTeamsEventsPolicy -Identity <policy name> -AllowPSTNUsersToBypassLobby $true
-```
 
 ## Control who can admit participants from the lobby
 
@@ -203,6 +163,26 @@ With these settings, anonymous users and dial-in callers still wait in the lobby
 
 You can use the [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) PowerShell cmdlet to manage lobby options.
 
+### Control whether anonymous users can join meetings
+
+To control whether anonymous users can join meetings, use the [**`-AllowAnonymousUsersToJoinMeeting`**](/powershell/module/teams/set-csteamsmeetingpolicy?#-allowanonymoususerstojoinmeeting) parameter.
+
+#### Prevent anonymous participants from joining meetings
+
+To prevent anonymous participants from joining meetings and webinars created by organizers with this policy, use the following script:
+
+```powershell
+Set-CsTeamsEventsPolicy -Identity <policy name> -AllowAnonymousUsersToJoinMeeting $false
+```
+
+#### Allow anonymous participants to join meetings
+
+**This is the default setting.** To allow anonymous participants to join meetings and webinars created by organizers with this policy, use the following script:
+
+```powershell
+Set-CsTeamsEventsPolicy -Identity <policy name> -AllowAnonymousUsersToJoinMeeting $true
+```
+
 ### Control whether users dialing in by phone can bypass the lobby
 
 To control whether users dialing in by phone can bypass the lobby, use the [**`-AllowPSTNUsersToBypassLobby`**](/powershell/module/teams/set-csteamsmeetingpolicy#-allowpstnuserstobypasslobby) parameter.
@@ -227,25 +207,73 @@ Set-CsTeamsEventsPolicy -Identity <policy name> -AllowPSTNUsersToBypassLobby $tr
 
 To control who can bypass the lobby, use the [**`-AutoAdmittedUsers`**](/powershell/module/teams/set-csteamsmeetingpolicy?#-autoadmittedusers) parameter.
 
-- [-AutoAdmittedUsers](/powershell/module/teams/set-csteamsmeetingpolicy?#-autoadmittedusers) to control who can bypass the lobby
+#### Allow everyone to bypass the lobby
+
+To allow everyone to bypass the lobby in meetings and webinars created by organizers with this policy, use the following script:
+
+```powershell
+Set-CsTeamsEventsPolicy -Identity <policy name> -AutoAdmittedUsers Everyone 
+```
+
+#### Only allow people in my org, trusted orgs, and guests to bypass the lobby
+
+To only allow people in your org, trusted orgs, and guests to bypass to bypass the lobby in meetings and webinars created by organizers with this policy, use the following script:
+
+```powershell
+Set-CsTeamsEventsPolicy -Identity <policy name> -AutoAdmittedUsers EveryoneInSameAndFederatedCompany 
+```
+
+#### Only allow people in my org and guests to bypass the lobby
+
+To only allow people in your org and guests to bypass to bypass the lobby in meetings and webinars created by organizers with this policy, use the following script:
+
+```powershell
+Set-CsTeamsEventsPolicy -Identity <policy name> -AutoAdmittedUsers EveryoneInCompany 
+```
+
+#### Only allow people in my org to bypass the lobby
+
+To only allow people in your org to bypass to bypass the lobby in meetings and webinars created by organizers with this policy, use the following script:
+
+```powershell
+Set-CsTeamsEventsPolicy -Identity <policy name> -AutoAdmittedUsers EveryoneInCompany 
+```
+
+#### Only allow people who were invited to bypass the lobby
+
+To only allow people who were invited to bypass the lobby in meetings and webinars created by organizers with this policy, use the following script:
+
+```powershell
+Set-CsTeamsEventsPolicy -Identity <policy name> -AutoAdmittedUsers InvitedUsers 
+```
+
+#### Only allow organizers and co-organizers to bypass the lobby
+
+To only allow organizers and co-organizers to bypass the lobby in meetings and webinars created by organizers with this policy, use the following script:
+
+```powershell
+Set-CsTeamsEventsPolicy -Identity <policy name> -AutoAdmittedUsers OrganizerOnly 
+```
 
 ### Control who can admit users from the lobby
 
-- [-UsersCanAdmitFromLobby](/powershell/module/teams/set-csteamsmeetingpolicy?#-UsersCanAdmitFromLobby) to control who can admit users from the lobby
+To control who can admit users from the lobby, use the [**`-UsersCanAdmitFromLobby`**](/powershell/module/teams/set-csteamsmeetingpolicy?#-userscanadmitfromlobby) parameter.
 
-You can use PowerShell to manage who can schedule town halls in your organization.
+#### Only allow organizers and presenters to admit participants from the lobby
 
-To manage who can schedule town halls, use the **`-AllowTownhalls`** parameter within the PowerShell [**CsTeamsEventsPolicy**](/powershell/module/teams/set-csteamseventspolicy) cmdlet.
-
-### Turn off town halls
-
-To prevent organizers with this policy from creating town halls, use the following script:
+**This is the default value.** To only allow organizers and presenters to bypass the lobby in meetings and webinars created by organizers with this policy, use the following script:
 
 ```powershell
-Set-CsTeamsEventsPolicy -Identity <policy name> -AllowTownhalls Disabled
+Set-CsTeamsEventsPolicy -Identity <policy name> -AutoAdmittedUsers OrganizersAndPresentersOnly
 ```
 
-Set-CsTeamsMeetingPolicy -Identity SalesMeetingPolicy -AllowTranscription $True
+#### Only allow organizers and co-organizers to admit participants from the lobby
+
+To only allow organizers and co-organizers to bypass the lobby in meetings and webinars created by organizers with this policy, use the following script:
+
+```powershell
+Set-CsTeamsEventsPolicy -Identity <policy name> -AutoAdmittedUsers OrganizerAndCoOrganizersOnly 
+```
 
 ## Run the lobby diagnostic tool
 
