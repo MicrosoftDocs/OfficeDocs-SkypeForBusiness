@@ -109,7 +109,7 @@ There are three **Pay-As-You-Go Calling Plan** options to choose from:
 - **Pay-As-You-Go Calling Plan Mexico**: For users in Mexico.
 
   > [!NOTE]
-  > Pay-As-You-Go Calling Plans for Zone 1 and Zone 2 are available for purchase by any customer. Pay-As-You-Go Calling Plan Mexico is not available for purchase by US or PR customers.
+  > Pay-As-You-Go Calling Plan Mexico can't be purchased by US or PR customers.
 
 ## How to buy Calling Plans
 
