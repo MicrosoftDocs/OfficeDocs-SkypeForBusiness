@@ -4901,37 +4901,7 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/validate-your-cloud-connector-deployment.md",
-      "redirect_url": "/microsoftteams/cloud-voice-landing-page",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/upgrade-to-a-new-version-of-cloud-connector.md",
-      "redirect_url": "/microsoftteams/cloud-voice-landing-page",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/modify-the-configuration-of-an-existing-cloud-connector-deployment.md",
-      "redirect_url": "/microsoftteams/cloud-voice-landing-page",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/deploy-media-bypass-in-cloud-connector.md",
-      "redirect_url": "/microsoftteams/cloud-voice-landing-page",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/monitor-cloud-connector-using-operations-management-suite-oms.md",
-      "redirect_url": "/microsoftteams/cloud-voice-landing-page",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/troubleshoot-your-cloud-connector-deployment.md",
-      "redirect_url": "/microsoftteams/cloud-voice-landing-page",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/backup-cccertificationauthority.md",
       "redirect_url": "/microsoftteams/cloud-voice-landing-page",
       "redirect_document_id": false
     },
@@ -5275,46 +5245,6 @@
     "redirect_document_id": false
   },
   {
-    "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-cloud-connector-integration-with-your-office-365-tenant.md",
-    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
-    "redirect_document_id": false
-  },
-  {
-    "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-for-cloud-connector-edition-pstn-sites.md",
-    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
-    "redirect_document_id": false
-  },
-  {
-    "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md",
-    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
-    "redirect_document_id": false
-  },
-  {
-    "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-for-media-bypass-in-cloud-connector-edition.md",
-    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
-    "redirect_document_id": false
-  },
-  {
-    "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-skype-for-business-cloud-connector-edition.md",
-    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
-    "redirect_document_id": false
-  },
-  {
-    "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/deploy-a-single-site-in-cloud-connector.md",
-    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
-    "redirect_document_id": false
-  },
-  {
-    "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/prepare-your-cloud-connector-appliance.md",
-    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
-    "redirect_document_id": false
-  },
-  {
-    "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/deploy-multiple-sites-in-cloud-connector.md",
-    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
-    "redirect_document_id": false
-  },
-  {
     "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/validate-your-cloud-connector-deployment.md",
     "redirect_url": "/microsoftteams/cloud-voice-landing-page",
     "redirect_document_id": false
@@ -5340,44 +5270,10 @@
     "redirect_document_id": false
   },
   {
-    "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/troubleshoot-your-cloud-connector-deployment.md",
-    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
-    "redirect_document_id": false
-  },
-  {
     "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/backup-cccertificationauthority.md",
     "redirect_url": "/microsoftteams/cloud-voice-landing-page",
     "redirect_document_id": false
-  },
-  {
-    "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/cloud-connector-cmdlet-reference.md",
-    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
-    "redirect_document_id": false
-  },
-  {
-    "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/convert-ccisotovhdx.md",
-    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
-    "redirect_document_id": false
-  },
-  {
-    "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enter-ccupdate.md",
-    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
-    "redirect_document_id": false
-  },
-  {
-    "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/exit-ccupdate.md",
-    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
-    "redirect_document_id": false
-  },
-  {
-    "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/export-ccconfiguration.md",
-    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
-    "redirect_document_id": false
-  },
-  {
-    "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/export-ccconfigurationsamplefile.md",
-    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
-    "redirect_document_id": false
+
   },
   {
     "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/export-ccrootcertificate.md",
