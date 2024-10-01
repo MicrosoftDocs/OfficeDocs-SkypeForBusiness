@@ -27,11 +27,11 @@ description: "Learn how intelligent media quality classifiers are used to better
 
 The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business allows you to gain insights into the quality of calls made using Microsoft Teams and Skype for Business services. This topic provides detailed information about intelligent media quality classifiers. To learn more about CQD and how to set it up, see [Set up Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md).
 
-In CQD, Good and Poor stream classification is performed by a series of conditional statements. For audio, network metrics are used to determine if the performance of the underlying network would have resulted in degraded audio quality, while video and video-based screen sharing (VBSS) use video metrics to perform a similar quality assessment. The intelligent media quality classifiers take a broader and deeper view of the call telemetry, weighing several factors (including network) to determine perceived user experience of the call and to identify possible root cause when there's suspected quality degradation. Because of this difference, it's expected that the Good and Poor values resulting from the [stream classification](stream-classification-in-call-quality-dashboard.md) logic won't necessarily match up with the intelligent media classifier findings.
+In CQD, Good and Poor stream classification is performed by a series of conditional statements. For audio, network metrics are used to determine if the performance of the underlying network would have resulted in degraded audio quality, while video and video-based screen sharing (VBSS) use video metrics to perform a similar quality assessment. The intelligent media quality classifiers take a broader and deeper view of the call telemetry, weighing several factors (including network) to determine perceived user experience of the call and to identify possible root cause when there's suspected quality degradation. Because of this difference, it's expected that the Good and Poor values resulting from the [stream classification](stream-classification-in-call-quality-dashboard.md) logic won't necessarily match up with the intelligent media quality classifier findings.
 
 ## Overview of intelligent media classifiers in CQD
 
-Intelligent media classifiers in CQD use Machine Learning (ML) algorithms that help pinpoint specific problem areas in stream quality. Compared to [Steam classification in CQD](stream-classification-in-call-quality-dashboard.md), intelligent media quality classification in CQD provides IT admins with a more advanced analysis into causality, media degradation, and root cause. These classifiers enable you to take proactive measures for addressing and preventing call quality issues.
+Intelligent media quality classifiers in CQD use Machine Learning (ML) algorithms that help pinpoint specific problem areas in stream quality. Compared to [Steam classification in CQD](stream-classification-in-call-quality-dashboard.md), intelligent media quality classification in CQD provides IT admins with a more advanced analysis into causality, media degradation, and root cause. These classifiers enable you to take proactive measures for addressing and preventing call quality issues.
 
 To deliver the most comprehensive insights, intelligent media quality classifiers individually address three main real-time media modalities: Audio, Video, and VBSS. These classifiers focus on call quality on a stream level (such as Audio, Video, and VBSS) and then they go further with in-depth analyses in areas such as network, compute device, and input device, allowing for pinpointing specific problem areas.
 
@@ -39,15 +39,15 @@ There are two levels of classification to provide a view into causality and root
 
 ## Supported platforms and media types
 
-The availability of intelligent media classifiers varies depending on the specific platforms and media types, due to differences in telemetry availability across various platforms. We are continuously improving the coverage of the classifiers. The following platforms and media types are covered by intelligent media classifiers:
+The availability of intelligent media quality classifiers varies depending on the specific platforms and media types, due to differences in telemetry availability across various platforms. We are continuously improving the coverage of the classifiers. The following platforms and media types are covered by intelligent media quality classifiers:
 
 - Media modality and Network classifiers are applied to all platforms and media modalities (Audio, Video, VBSS).
 - Compute device classifiers are applied to native platforms (excluding Teams Web, optimized VDI, and CVI) and all media modalities.
 - Input device classifiers are applied to native platforms (excluding WebRTC based ones) and audio only.
 
-## When to use intelligent media quality classifiers
+## When to use intelligent media quality quality classifiers
 
-There are certain application rules of the intelligent media classifiers that determine when to apply the classifiers, with the most basic rules being as follows:  
+There are certain application rules of the intelligent media quality classifiers that determine when to apply the classifiers, with the most basic rules being as follows:  
 
 - Inbound classifiers are applied only if a user is receiving at least 60 seconds of media. In CQD, **this data is recorded** as *Stream Duration Value* for Audio and Video and *Duration Seconds* for Video and VBSS.
 - Outbound classifiers are applied only if the user sent at least 60 seconds of respective media. **This data is recorded** as the following:
@@ -71,7 +71,7 @@ For Conference calls, which are more common, the engagement level of certain use
 
 ## Local and remote classifiers
 
-The intelligent media classifiers, whether for Conference or P2P calls, are segmented into two primary categories: Local and Remote.  
+The intelligent media quality classifiers, whether for Conference or P2P calls, are segmented into two primary categories: Local and Remote.  
 
 - **Local classifiers** are tailored to evaluate the end-point user's call experience, addressing concerns stemming from inbound streams or local device capabilities and limitations.  
 - **Remote classifiers** encompass issues originating from the other endpoint(s) of the call, offering a comprehensive perspective on the overall call quality.  
@@ -80,11 +80,11 @@ In the both P2P and Conference configurations, observing a Local classifier in a
 
 The role of Remote classifiers in Second-to-First stream directions is to evaluate whether a participant, known as Second, is adversely affecting the call quality of other users under the same conditions. Additionally, in the context of Conference calls, observing a Remote classifier on a First-to-Second stream indicates if a highly active user, classified as dominant, is detrimentally impacting the call quality experienced by the user, referred to as Second.
 
-## Intelligent media classifier definitions
+## Intelligent media quality classifier definitions
 
-In CQD, intelligent media classifiers use local and remote classifiers **(and other user classifiers?)......** based on the values of the available key quality metrics. The metrics and conditions used to classify media quality are shown in the tables that follow.  
+In CQD, intelligent media quality classifiers use local and remote classifiers based on the values of available key quality metrics. The metrics and conditions used to classify media quality are shown in the tables for [Local classifiers](#local-classifiers) and [Remote classifiers](#remote-classifiers).  
 
-The detected problem areas, identified through the intelligent media classifiers, indicate quality issues that can be further analyzed by admins to uncover potential root causes. Using CQD, this deeper analysis can provide valuable insights for taking proactive measures to prevent future occurrences.
+The detected problem areas, identified through the intelligent media quality classifiers, indicate quality issues that can be further analyzed by admins to uncover potential root causes. Using CQD, this deeper analysis can provide valuable insights for taking proactive measures to prevent future occurrences.
 
 ### Local classifiers
 
@@ -164,9 +164,9 @@ For example, the Other user classifier *Detected Other User Device* has the Prob
 
 For a list of all available dimensions and measures in CQD, including their name, data type, definition, and possible reasons for blank values, see [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md).
 
-## Interpreting intelligent media classifiers
+## Interpreting intelligent media quality classifiers
 
-Intelligent media classifiers assign probabilities to endpoints in calls by learning from user telemetry and Call Quality Feedback ratings. These probabilities are transformed into Boolean values (true/false) that indicate whether the call experience for the corresponding endpoint is considered poor or not.
+Intelligent media quality classifiers assign probabilities to endpoints in calls by learning from user telemetry and Call Quality Feedback ratings. These probabilities are transformed into Boolean values (true/false) that indicate whether the call experience for the corresponding endpoint is considered poor or not.
 
 To determine a stream quality problem rate to help mitigate false predictions, we use percentile-based thresholding. With percentile-based thresholding, the lowest performing 2% of endpoints within a specific platform, region, and media type are identified as having a poor call experience. This thresholding helps IT admins take action on the reported issues that might affect call quality.
 
@@ -178,7 +178,7 @@ If there are area level problem predictions but not at the media level, the clas
 
 ## Locating the origins of quality issues
 
-In CQD, intelligent media classifiers create aggregated views that help address quality issues. These views can be analyzed through a unique set of dimensions that are tailored to specific characteristics of each classifier. This analysis gives admins a more precise understanding of the underlying issues.
+In CQD, intelligent media quality classifiers create aggregated views that help address quality issues. These views can be analyzed through a unique set of dimensions that are tailored to specific characteristics of each classifier. This analysis gives admins a more precise understanding of the underlying issues.
 
 For example, Network classifiers might benefit from troubleshooting efforts focused on dimensions such as location and network, whereas Compute and Input Device classifiers might require attention to dimensions related to with device specifications and functionality.
 
@@ -231,7 +231,7 @@ Network classifiers include three types of dimensions: location-related, network
 
 ## Troubleshooting quality issues
 
-After [locating the origin of quality issues](#locating-the-origins-of-quality-issues), the detected problem areas identified by [intelligent media classifiers](#intelligent-media-classifier-definitions) can be analyzed further to uncover potential root causes and help admins take proactive measures to prevent future issues.
+After [locating the origin of quality issues](#locating-the-origins-of-quality-issues), the detected problem areas identified by [intelligent media quality classifiers](#intelligent-media-quality-classifier-definitions) can be analyzed further to uncover potential root causes and help admins take proactive measures to prevent future issues.
 
 ### Network classifiers
 
