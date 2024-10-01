@@ -5,7 +5,7 @@ author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
-ms.reviewer: 
+ms.reviewer: vivek.mohan
 ms.date: 12/11/2023
 audience: admin
 ms.localizationpriority: medium
@@ -27,7 +27,7 @@ description: Learn how to configure Teams meetings for a baseline level of prote
 
 For the *baseline* level of protection, we restrict who can bypass the lobby by using a sensitivity label and set a default value for who can present with a Teams admin policy. You can restrict additional actions as well if your organization requires it.
 
-> [!Note]
+> [!NOTE]
 > Meeting options in sensitivity labels and custom meeting templates require Teams Premium.
 
 The following table describes which actions we restrict for baseline meetings and where those options are configured.
@@ -44,6 +44,7 @@ The following table describes which actions we restrict for baseline meetings an
 |People dialing in can bypass the lobby|**Off**|Template|Yes|
 |Prevent copying chat content to clipboard|**Off**|Label|Yes|
 |Record automatically|**Off**|Template|No|
+|Who can admit from lobby|**Organizers and presenters**|Teams admin center|No|
 |Who can bypass the lobby?|**People in my org, trusted orgs, and guests**|Template|No|
 |Who can present|**People in my org and guests**|Teams admin center|No|
 |Who can record|**Organizers, co-organizers, and presenters**|Template|No|
@@ -56,11 +57,23 @@ The default value for **Who can present** is **Everyone**. For the baseline prot
 
 We can set this value with a sensitivity label, but the value would be enforced for any meetings with that label. This option isn't available in meeting templates, so we set it in the Teams admin center.
 
-To configure who can present
+To configure who can present:
+
 1. In the Teams admin center, expand **Meetings** and select **Meeting policies**.
 1. Select the policy that you want to update.
 1. Under **Content sharing**, set **Who can present** to **People in my org and guests**.
 1. Select **Save**.
+
+## Default values for **Who can admit from lobby**
+
+You can choose to keep the default for **Who can admit from lobby** as **Organizers and presenters** or change it to **Organizers and co-organizers**. This per-organizer policy sets a default that your organizers can change through their **Meeting options**. You must manage this setting through the Teams admin center. Meeting templates and sensitivity labels don't support this policy.
+
+To configure who can admit from lobby:
+
+1. In the Teams admin center, expand **Meetings** and select **Meeting policies**.
+2. Select the policy that you want to update.
+3. Under **Meeting join & lobby**, for **Who can admit from lobby**, choose either **Organizers and presenters**(default value) or **Organizers and co-organizers**.
+4. Select **Save**
 
 ## Watermarks and end-to-end encryption
 
@@ -76,7 +89,8 @@ For the *baseline* level of protection, we use a sensitivity label that you can 
 
 If you already have sensitivity labels deployed in your organization, consider how this label fits with your overall label strategy. You can change the name or settings shown below if needed to meet the needs of your organization. If you already have a label that you use for baseline or general protection, you can edit the label and add Teams meetings to it.
 
-To create a sensitivity label
+To create a sensitivity label:
+
 1. Open the [Microsoft Purview compliance portal](https://compliance.microsoft.com).
 1. Under **Solutions**, expand **Information protection** and then select **Labels**.
 1. Select **Create a label**.
