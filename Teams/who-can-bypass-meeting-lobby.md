@@ -167,9 +167,14 @@ While there isn't a specific control that turns off the meeting lobby completely
 
 With these settings, anonymous users and dial-in callers still wait in the lobby if the meeting hasn't started. While you can set **Anonymous users and dial-in callers can start a meeting** to **On** to avoid this, we don't recommend it.
 
-## Set meeting policies by using PowerShell
+## Use PowerShell to manage lobby policies
 
-You can use the [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) PowerShell cmdlet to manage lobby options.
+You can use the [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) PowerShell cmdlet to manage the following lobby options:
+
+- Anonymous users can join meetings
+- Users dialing in by phone can bypass the lobby
+- Who can bypass the lobby
+- Who can admit users from the lobby
 
 ### Control whether anonymous users can join meetings
 
