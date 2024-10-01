@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: henrikalim
-ms.date: 08/21/2024
+ms.date: 09/30/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -39,6 +39,7 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|[5.2.115.0](#521150-9262024)| 9/26/2024 |
 |[5.1.28.0](#51280-882024) | 8/8/2024 |
 |[5.1.24.0](#51240-7302024) | 7/30/2024 |
 |[5.0.305.0](#503050-632024) | 6/3/2024 |
@@ -59,10 +60,24 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 ## Teams Rooms on Windows feature introduction and issue resolution
 
-Teams Rooms app updates happen either via the Microsoft Store or via [manual update](manual-update.md). Updates are applied to the Universal Windows Platform (UWP) application that is installed locally on the device.
+Teams Rooms app updates happen either using the Microsoft Store or using [manual update](manual-update.md). Updates are applied to the Universal Windows Platform (UWP) application that is installed locally on the device.
 
 Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: icon are available only with Teams Rooms Pro license.
 
+### 5.2.115.0 (9/26/2024)
+Introduced in this update:
+- **Proximity based join experience improvements**: Proximity based join experience is updated to disable auto accepting all nudges from external or federated tenants. Room admins can allow this depending on the location of the room. In addition, granular controls for ultrasound are added that allow IT admins to select speaker to use to omit ultrasound beacon as well as volume output percentage to fine tune room experience. 
+- **Dynamic video tile resizing based on people count** :::image type="icon" source="../media/mtr-pro-icon.png"::: **:**  The room video tile on Teams desktop client dynamically adjusts size based on the number of people in the room. When one person is in the room, the tile matches the remote participant's size. With two or more people, the room tile expands to be four times larger. Room admins can enable or disable the people count. 
+- **Microsoft Teams Rooms on Windows room preview shows Cloud IntelliFrame** :::image type="icon" source="../media/mtr-pro-icon.png"::: **:** The Preview video of room will show IntelliFrame when Cloud IntelliFrame is enabled for the room, to let in room participants be aware of how they appear to those online. [Learn more](/microsoftteams/devices/cloud-intelliframe).
+- **Roster grouping for in-room participants through proximity join** :::image type="icon" source="../media/mtr-pro-icon.png"::: **:**  When joining a meeting in a Microsoft Teams Room on Windows with a companion device, in-room participants will be grouped under the room node. Participants must join through Proximity Join with Microsoft Teams Rooms. 
+- **Native controls for Group Framing, Active Speaker and Edge-composed IntelliFrame:**  Allow users to natively toggle certain camera features provided by OEMs, including group framing, active speaker framing, and edge-composed IntelliFrame. 
+- **Breakout rooms support:** With breakout room support, Teams Rooms on Windows can be added to a breakout room as an attendee and moved in and out of the main room making it easy for breakout session coordination. 
+
+Resolved issues: 
+- Fixed a known issue where content and gallery were swapped, after reconnecting a screen on dual display setups.
+- Fixed a known issue where the chat panel is empty after a reboot.
+- Fixed an issue where sometimes, the on-screen keyboard failed to appear on the console.
+- Fixed an issue where the app would restart after the device wakes up or while using meet now.
 
 ### 5.1.28.0 (8/8/2024)
 - Bug fixes for GCC-High: authentication & Teams Admin Center connectivity

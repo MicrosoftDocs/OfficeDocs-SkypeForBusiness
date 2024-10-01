@@ -388,6 +388,17 @@ The following are the latest firmware versions released via Microsoft Teams Admi
 
 | Device model  | Latest Firmware version | Minimum Firmware version required| Teams client | Company Portal | Admin Agent | Release date | Cloud |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|:----------------------------------|
+| Cisco Board Pro 55 | `11.18.1.8` | N/A | `1449/1.0.96.2024061103` | `5.0.6061.0` | `1.0.0.202402202353.product` | September 27, 2024| GCCH|
+| Cisco Board Pro 75 | `11.18.1.8` |  N/A | `1449/1.0.96.2024061103` | `5.0.6061.0` | `1.0.0.202402202353.product` |  September 27, 2024| GCCH|
+| Cisco Room Bar | `11.18.1.8` |  N/A | `1449/1.0.96.2024061103` | `5.0.6061.0` | `1.0.0.202402202353.product` |  September 27, 2024| GCCH|
+| Cisco Room Kit Pro | `11.18.1.8` | N/A | `1449/1.0.96.2024061103` | `5.0.6061.0` | `1.0.0.202402202353.product`| September 27, 2024| GCCH|
+| Cisco Desk Pro | `11.18.1.8` |  N/A | `1449/1.0.96.2024061103` | `5.0.6061.0` | `1.0.0.202402202353.product` | September 27, 2024| GCCH|
+| Cisco Room Bar Pro | `11.18.1.8` |  N/A | `1449/1.0.96.2024061103` | `5.0.6061.0` | `1.0.0.202402202353.product` | September 27, 2024| GCCH|
+| Cisco Room Kit EQ | `11.18.1.8` |  N/A | `1449/1.0.96.2024061103` | `5.0.6061.0` | `1.0.0.202402202353.product` | September 27, 2024| GCCH|
+| Cisco Navigator | `11.18.1.8` | N/A | `1449/1.0.96.2024061103` | `5.0.6061.0` | `1.0.0.202402202353.product` | September 27, 2024| GCCH|
+| Cisco Room Kit EQX | `11.18.1.8` | N/A | `1449/1.0.96.2024061103` | `5.0.6061.0` | `1.0.0.202402202353.product` | September 27, 2024| GCCH|
+| Cisco Board Pro G2 55 | `11.18.1.8` | N/A | `1449/1.0.96.2024061103` | `5.0.6061.0` | `1.0.0.202402202353.product` | September 27, 2024| GCCH|
+| Cisco Board Pro G2 75 | `11.18.1.8` | N/A | `1449/1.0.96.2024061103` | `5.0.6061.0` | `1.0.0.202402202353.product` | September 27, 2024| GCCH|
 | Cisco Board Pro 55 | `11.17.1.11` | N/A | `1449/1.0.96.2024061103` | `5.0.6061.0` | `1.0.0.202402202353.product` | August 6, 2024| GCCH|
 | Cisco Board Pro 75 | `11.17.1.11` |  N/A | `1449/1.0.96.2024061103` | `5.0.6061.0` | `1.0.0.202402202353.product` | August 6, 2024| GCCH|
 | Cisco Room Bar | `11.17.1.11` |  N/A | `1449/1.0.96.2024061103` | `5.0.6061.0` | `1.0.0.202402202353.product` | August 6, 2024| GCCH|

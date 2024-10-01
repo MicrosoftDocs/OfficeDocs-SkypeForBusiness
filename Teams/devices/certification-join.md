@@ -21,6 +21,7 @@ search.appverid: MET150
 ms.localizationpriority: medium
 description: Learn more about how to join the Teams certification program.
 ---
+
 # How to join the program
 
 ## Requirements and available programs
