@@ -68,6 +68,8 @@ The following table shows how each option for the **Who can bypass the lobby** p
 
 **Only people who were invited** applies only to participants who were sent an invite directly, who are part of an invited distribution list (of up to 10,000 users), or to whom an invite was forwarded. Users added via *Invite members* in a channel meeting wait in the lobby.
 
+To manage who can bypass the lobby using PowerShell, see the [Control who can bypass the lobby](#control-who-can-bypass-the-lobby) section in this article.
+
 ## Use the Teams admin center to manage lobby options in meetings hosted by your organization
 
 You can manage lobby settings and policies in the Teams admin center. See the following sections for guidance on which setting to choose for different circumstances. For information about how meeting policies work, see [Manage meeting policies in Microsoft Teams](/microsoftteams/meeting-policies-overview).
@@ -116,6 +118,8 @@ If you want people joining anonymously to wait in the lobby, you can set the **W
 
 By default, the **Anonymous users and dial-in callers can start a meeting** policy is **Off**. This means that anonymous participants and people calling in by phone always wait in the lobby until a verified participant starts the meeting.
 
+To manage this setting using PowerShell, see the [Control whether anonymous users can join meetings](#control-whether-anonymous-users-can-join-meetings) section in this article.
+
 > [!IMPORTANT]
 > We recommend that you leave this setting off. When the setting is on, people with unverified accounts can start meetings, including using the meeting link to have meetings at unscheduled times.
 
@@ -123,9 +127,13 @@ By default, the **Anonymous users and dial-in callers can start a meeting** poli
 
 By default, the **People dialing in can bypass the lobby** policy is **Off**, but meeting organizers can change this in Meeting Options when they set up a meeting. You can change the default by updating the **People dialing in can bypass the lobby** policy or you can enforce a particular value by using a meeting template.
 
+To manage this setting using PowerShell, see the [Control whether users dialing in by phone can bypass the lobby](#control-whether-users-dialing-in-by-phone-can-bypass-the-lobby) section in this article.
+
 ## Control who can admit participants from the lobby
 
 By default, the **Who can admit from lobby** policy is set to **Organizers and presenters**, but meeting organizers can change this in their **Meeting options** when they set up a meeting or webinar. You can change the default by updating the **Who can admit from lobby** policy.
+
+To manage this setting using PowerShell, see the [Control who can admit users from the lobby](#control-who-can-admit-users-from-the-lobby) section in this article.
 
 ## Control access to meetings by guests and people from trusted organizations
 
