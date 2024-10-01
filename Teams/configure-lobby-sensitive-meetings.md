@@ -54,7 +54,7 @@ The following settings are available for **Who can admit from lobby**:
 - Organizers and presenters
 - Organizers and co-organizers
 
-To manage who can bring participants from the lobby into the meeting or webinar, you should consider using this policy per-organizer policy for sensitive meetings. When set to it's default value of **Organizers and presenters**, only organizers and presenters can admit participants into the meeting from the lobby. This policy sets a default that your organizers can change through their **Meeting options**.
+To manage who can bring participants from the lobby into the meeting or webinar, you should consider using this per-organizer policy for sensitive meetings. When set to it's default value of **Organizers and presenters**, only organizers and presenters can admit participants into the meeting from the lobby. This policy sets a default that your organizers can change through their **Meeting options**.
 
 The following settings are available for **Who can bypass the lobby**:
 
