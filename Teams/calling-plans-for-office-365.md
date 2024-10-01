@@ -94,7 +94,7 @@ For more information, see [Country and region availability for Audio Conferencin
 
 ### Pay-As-You-Go Calling Plan
 
-With the Pay-As-You-Go Calling Plan, licensed users can call out to numbers located in the country where their Microsoft 365 license is assigned to the user based on the user's location, and to international numbers in [196 countries](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md). 
+With the Pay-As-You-Go Calling Plan, licensed users can call out to numbers located in the country where their Microsoft 365 license is assigned to the user based on the user's location, and to international numbers in [196 countries](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md).
 
 Unlimited incoming minutes are included. No outgoing minutes are included. All outgoing calls are charged based on the minutes used, either with Communication Credits or post-usage billing (for new commerce experience calling subscriptions only). Licenses are assigned to users based on their location.
 
@@ -107,6 +107,9 @@ There are three **Pay-As-You-Go Calling Plan** options to choose from:
 - **Pay-As-You-Go Calling Plan Zone 2**: For users in Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hong Kong, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Singapore, Slovakia, Slovenia, South Africa, Spain, Sweden, and Switzerland.
 
 - **Pay-As-You-Go Calling Plan Mexico**: For users in Mexico.
+
+  > [!NOTE]
+  > Pay-As-You-Go Calling Plans for Zone 1 and Zone 2 are available for purchase by any customer. Pay-As-You-Go Calling Plan Mexico is not available for purchase by US or PR customers.
 
 ## How to buy Calling Plans
 
