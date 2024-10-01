@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: colongma
-ms.date: 05/20/2024
+ms.date: 09/27/2024
 ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
@@ -16,9 +16,9 @@ ms.collection:
   - highpri
   - tier1
 audience: Admin
-appliesto: 
-  - Skype for Business
+appliesto:
   - Microsoft Teams
+  - Skype for Business
 ms.localizationpriority: medium
 f1.keywords: 
   - CSH
@@ -73,7 +73,7 @@ Type a name for the Call queue in the box at the top.
 
 ### Add an existing resource account
 
-Before you can create and manage resource accounts, you must do the following:
+Before you can create and manage resource accounts, you must do the following actions:
 
 - [Obtain Microsoft Teams Phone Resource Account licenses](manage-resource-accounts.md#obtain-microsoft-teams-phone-resource-account-licenses)
 - [Obtain phone numbers](manage-resource-accounts.md#obtain-phone-numbers)
@@ -117,7 +117,7 @@ _This feature is in public preview._
 
 Service level measures the efficiency and responsiveness to incoming customer requests within a specific Service level threshold.
 
-You can set the threshold target to any value from 0 to 40 minutes (2,400 seconds).  The value must be less than the value set for [Call timeout](#call-timeout-set-how-to-handle-call-timeouts). Setting the value to blank (empty) disables the service level metric calculation for the call queue.
+You can set the threshold target to any value from 0 to 40 minutes (2,400 seconds). The value must be less than the value set for [Call timeout](#call-timeout-set-how-to-handle-call-timeouts). Setting the value to blank (empty) disables the service level metric calculation for the call queue.
 
 >[!NOTE]
 > Service level metrics are not currently available in Queues app.
@@ -234,7 +234,7 @@ Once you select your call answering options, select the **Next** button at the b
 > Agents may hear the configured music on hold in queue for up to 2 seconds when first joining the call.
 
 > [!IMPORTANT]
-> Transfer mode (when conference mode is disabled) is now in legacy mode.  Support for transfer mode is scheduled to be removed by the end of June 2025.
+> Transfer mode (when conference mode is disabled) is now in legacy mode. Support for transfer mode is scheduled to be removed by the end of June 2025.
 
 ## [Step 4: Agent selection](#tab/agent-selection)
 
@@ -257,7 +257,7 @@ Choose from these options:
 
 - **Round robin** balances the routing of incoming calls so that each call agent gets the same number of calls from the queue.
 
-- **Longest idle** routes each call to the agent who has been idle the longest. An agent is considered idle if their presence state is *Available*. Agents who aren't available don't receive calls until they change their presence to *Available*.
+- **Longest idle** routes each call to the agent who's been idle the longest. An agent is considered idle if their presence state is *Available*. Agents who aren't available don't receive calls until they change their presence to *Available*.
 
 > [!TIP]
 > Setting the **Routing Method** to **Round robin** or **Longest idle** is the recommended setting.
@@ -358,7 +358,7 @@ Once you select your call overflow, call timeout, and no agents handling options
 
 ## Step 6: Authorized users
 
-**Authorized users** specifies the users who are authorized to make changes to this Call queue.  The capabilities that the users have are based on the [Teams voice applications policy](./manage-voice-applications-policies.md) that's assigned to the user.
+**Authorized users** specifies the users who are authorized to make changes to this Call queue. You can determine the capabilities that the users have through [Teams voice applications policies](./manage-voice-applications-policies.md) assigned to your users.
 
 To **add a user** to the authorized users:
 
@@ -386,7 +386,7 @@ Once you select your authorized users, select the **Submit** button at the botto
 The following settings are recommended:
 
 - **Conference mode** to **On**
-  - This will be the only option available for call queues after June 2025
+  - Conference mode will be the only option available for Call queues after June 2025
 - **Routing method** to **Round robin** or **Longest idle**
 - **Presence-based routing** to **On**
 - **Agent alert time:** to a minimum of **20 seconds**
@@ -419,7 +419,7 @@ For more information, see:
 
 ### Callback
 
-Callback allows eligible callers waiting in queue to receive a callback to the number they are calling from when an agent becomes available.
+Callback allows eligible callers waiting in queue to receive a callback to the number they're calling from when an agent becomes available.
 
 A caller becomes *eligible* for callback based on any one of the following configured conditions coming true:
 
@@ -432,13 +432,13 @@ A caller becomes *eligible* for callback based on any one of the following confi
 - Calls to agent ratio
   Once the number of callers waiting in queue exceeds the ratio, new callers arriving in the queue become *eligible* for callback. This option applies to callers arriving in the queue.
 
-Additionally, for a call to become *eligble* for callback, it must have a valid inbound phone number in E.164 format and it must not be presenting to an agent.
+Additionally, for a call to become *eligible* for callback, it must have a valid inbound phone number in E.164 format and it must not be presenting to an agent.
 
 *Eligible* callers will receive an option to request callback *after* the music on hold finishes playing.
 
 You can also set the messaging a caller hears, the key they need to press, and an email address to be notified if the callback fails.
 
-#### Callback and Call Queue Timeout Interplay
+#### Callback and Call Queue Timeout
 
 In order for an *eligible* call to be offered callback, the [Call timeout](#call-timeout-set-how-to-handle-call-timeouts) value must be set high enough to allow the call to become eligible for callback and for the music to finish playing after the call becomes eligible.
 
@@ -448,11 +448,11 @@ Consider the following call queue configuration:
 - Call Queue Timeout: 120 seconds
 - Call Queue Music: Default
 
-The caller will become eligible for callback after waiting in the queue for 60 seconds however, as the default music is 2 minutes long, call queue timeout will occur and the caller will never be offered callback.
+In this configuration, a caller becomes eligible for callback after waiting in the queue for 60 seconds. However, as the default music is two minutes long, call queue timeout will occur and the caller won't be offered a callback.
 
-Once a caller has successfully requested a callback, the callback is also subject to the call queue timout configuration. If a callback times out the information about the caller will be sent to the configured email notification address.
+Once a caller successfully requests a callback, the callback is also subject to the call queue timeout configuration. If a callback times out, the information about the caller is sent to the configured email notification address.
 
-In order for a callback to be successful, the call queue timeout value must be high enough to allow for the call to become eligible, for the music to stop playing, for a caller to successfully request a callback, and for the callback to be queued until an agent becomes available for and answers the call.
+In order for a callback to be successful, the call queue timeout value must be high enough to allow for the call to become eligible, for the music to stop playing, for a caller to successfully request a callback, and for the callback to be queued until an agent becomes available and answers the call.
 
 > [!NOTE]
 > Conference mode must be enabled on the call queue in order to configure callback.
@@ -497,8 +497,7 @@ New-CsCallQueue -Name "Callback Eligible After 60 seconds" -UseDefaultMusicOnHol
 
 Modify an existing call queue:
 ````PowerShell
-Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRequestDtmf
- “Tone1” -WaitTimeBeforeOfferingCallbackInSecond 60 -CallbackOfferTextToSpeechPrompt “If you would like to have a callback when an agent becomes available, press 1” -CallbackEmailNotificationTarget <Team or DL GUID>
+Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -WaitTimeBeforeOfferingCallbackInSecond 60 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
 ````
 
 ##### Calls become eligible for callback when there are more than 50 calls in queue
@@ -514,7 +513,7 @@ Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRe
  "Tone1" -NumberOfCallsInQueueBeforeOfferingCallback 50 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
 ````
 
-##### Calls become eligible for callback when there 2 times more calls than agents
+##### Calls become eligible for callback when there are 2 times more calls than agents
 
 Create a new call queue:
 ````PowerShell
@@ -536,15 +535,14 @@ New-CsCallQueue -Name "Callback Eligible After 60s or 50 calls" -UseDefaultMusic
 
 Modify an existing call queue:
 ````PowerShell
-Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRequestDtmf
- "Tone1" -WaitTimeBeforeOfferingCallbackInSecond 60 -NumberOfCallsInQueueBeforeOfferingCallback 50 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
+Set-CsCallQueue -Identity <Call Queue GUID> -IsCallbackEnabled $true -CallbackRequestDtmf "Tone1" -WaitTimeBeforeOfferingCallbackInSecond 60 -NumberOfCallsInQueueBeforeOfferingCallback 50 -CallbackOfferTextToSpeechPrompt "If you would like to have a callback when an agent becomes available, press 1" -CallbackEmailNotificationTarget <Team or DL GUID>
 ````
 
 ### Hiding authorized users
 
 Hidden authorized users are authorized users who shouldn't appear on the list of supervisors for the agents who are members of a particular call queue.
 
-Note that hidden authorized users aren't visible to Queues app users.
+Hidden authorized users aren't visible to Queues app users.
 
 For more information, see:
 
@@ -592,7 +590,7 @@ For more information, see:
 4. Selecting *Longest Idle* for the agent routing method automatically enables Presence based routing.
 5. It's not possible to set the order the agents are presented with calls when using a group or channel for membership.
 6. Conference mode isn't supported if phone calls are routed to the queue from a Direct Routing gateway that's enabled for Location-Based Routing.
-    - Location based routing is not supported with Call queues, see [Voice apps (Auto Attendant or Call Queue)](location-based-routing-plan.md#inbound-calls-through-auto-attendants).
+    - Location based routing isn't supported with Call queues. For more information, see [Voice apps (Auto Attendant or Call Queue)](location-based-routing-plan.md#inbound-calls-through-auto-attendants).
 7. Microsoft Teams Phone only.
 8. Through the User Settings Portal page at [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
     - GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
@@ -632,6 +630,8 @@ If you're an administrator, you can use the following diagnostic tool to validat
 3. The tests will return the best next steps to address any tenant, policy, and resource account configurations to validate that the Call queue is able to receive calls.
 
 ## Related articles
+
+[Plan for Teams Auto attendants and Call queues](plan-auto-attendant-call-queue.md)
 
 [Here's what you get with Microsoft Teams Phone](here-s-what-you-get-with-phone-system.md).
 

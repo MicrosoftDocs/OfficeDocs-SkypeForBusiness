@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Premium licensing
-author: DaniEASmith
-ms.author: danismith
+author: wlibebe
+ms.author: wlibebe
 manager: pamgreen
 ms.reviewer: margidesai, spraveen
 ms.date: 03/26/2024
@@ -307,6 +307,10 @@ A user's Teams experience depends on their Teams license and their event role. T
 For example, in a Teams meeting, Teams checks each users’ type of Teams license and whether they're a meeting organizer or attendee. These factors determine a user’s experience and potentially other attendees’ experience during the meeting.
 
 - **Organizer-based features:** Some Teams Premium features are applied at the organizer level. If an event organizer has a Teams Premium license, the organizer-based features are shared and made accessible to the attendees only during the event.
+
+> [!NOTE]
+> If an organizer with a Teams Premium license appoints a delegate to create their meetings, the delegate doesn't need a Teams Premium license for organizer-based features to work.
+
 - **Attendee-based features:** Some Teams Premium features are applied at the attendee/user level. These Teams Premium features aren't shared or made accessible to other attendees during the event and only benefit the Teams Premium licensed users.
 - **Admin-based features:** Some Teams Premium features primarily benefit an organization's IT admins. These features are only accessible to Teams admins with a Teams Premium license.
 

@@ -28,7 +28,7 @@ description: "Partner qualification requirements for Lync rooms and devices."
 
 ## Meeting room devices and solutions
 
-Microsoft tests and qualifies meeting room solutions for Lync under the [Partner qualification processes](partner-qualification.md) and [Compatible Devices Program](partner-qualification.md#compatible-devices-program). Meeting room solutions optimized for Lync offer high-quality audio and video and reduce the need to set up and troubleshoot equipment.
+Microsoft tests and qualifies meeting room solutions for Lync under the [Partner qualification processes](../partner-qualification.md) and [Compatible Devices Program](../partner-qualification.md#compatible-devices-program). Meeting room solutions optimized for Lync offer high-quality audio and video and reduce the need to set up and troubleshoot equipment.
 
 - IP conference phones
 - USB speakerphones designed for conference rooms
@@ -36,7 +36,7 @@ Microsoft tests and qualifies meeting room solutions for Lync under the [Partner
 
 ## Video Solutions Qualified for Lync
 
-Microsoft tests and qualifies video teleconference systems (VTCs), multipoint control unit (MCUs) or conferencing bridges, and gateways for interoperability with Lync through our [Video Interoperability Program](partner-qualification.md#video-interoperability). Our Video Interoperability program tests:
+Microsoft tests and qualifies video teleconference systems (VTCs), multipoint control unit (MCUs) or conferencing bridges, and gateways for interoperability with Lync through our [Video Interoperability Program](../partner-qualification.md#lync-video-interoperability-program). Our Video Interoperability program tests:
 
 - **Video endpoints** enable direct registration as an end point on Office Communications Server 2007 R2 and Lync Server.
 - **Video infrastructure** to enable multipoint video conference bridge with Lync users and enable standards based VTCs to connect via a gateway.

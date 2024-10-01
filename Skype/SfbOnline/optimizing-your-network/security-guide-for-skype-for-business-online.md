@@ -1,8 +1,7 @@
 ---
 title: "Security guide for Skype for Business Online"
-ms.author: tonysmit
-author: tonysmit
-manager: serdars
+ms.author: serdars
+author: pamgreen
 ms.date: 01/22/2018
 ms.reviewer: 
 ms.topic: article
@@ -92,7 +91,7 @@ The following tables list the data that is required for SfBO to operate.
 
 
 
-| **Data**             | **Possible** **settings**                                                                  |
+| Data | Possible settings |
 |:---------------------|:-------------------------------------------------------------------------------------------|
 | Personal Data        | Name, Title, Company, Email address, Time zone                                             |
 | Telephone Numbers    | Work, Mobile, Home                                                                         |
@@ -107,7 +106,7 @@ The following tables list the data that is required for SfBO to operate.
 <!--start table here -->
 
 
-| **Data**             | **Possible** **settings**                                                                  |
+| Data | Possible settings |
 |:---------------------|:-------------------------------------------------------------------------------------------|
 | IP Address   | Actual address of computer or NATed address                     |
 | SIP URI      | <u>david.campbell@contoso.com</u>                               |
@@ -133,9 +132,11 @@ Microsoft Entra ID functions as the directory service for Microsoft 365 and Offi
 
 ### Public Key Infrastructure for SfBO
 SfBO service relies on certificates for server authentication and to establish a chain of trust between clients and servers and among the different server roles. The Windows Server public key infrastructure (PKI) provides the infrastructure for establishing and validating this chain of trust.
+
 Certificates are digital IDs. They identify a server by name and specify its properties. To ensure that the information on a certificate is valid, the certificate must be issued by a Certificate Authority (CA) that is trusted by clients or other servers that connect to the server. If the server connects only with other clients and servers on a private network, the CA can be an enterprise CA. If the server interacts with entities outside the private network, a public CA might be required.
 
 Even if the information on the certificate is valid, there must be some way to verify that the server presenting the certificate is actually the one represented by the certificate. This is where the Windows PKI comes in.
+
 Each certificate is linked to a public key. The server named on the certificate holds a corresponding private key that only it knows. A connecting client or server uses the public key to encrypt a random piece of information and sends it to the server. If the server decrypts the information and returns it as plain text, the connecting entity can be sure that the server holds the private key to the certificate and therefore is the server named on the certificate.
 
 #### CRL Distribution Points
@@ -165,7 +166,7 @@ The following table summarizes the protocol used by SfBO.
 
 
 
-|**Traffic type**|**Protected by**|
+| Traffic type | rotected by |
 |:-----|:-----|
 |Server-to-server|MTLS|
 |Client-to-server|TLS|
@@ -268,8 +269,12 @@ A presenter can also promote an attendee to the role of presenter during the mee
 
 Meeting participants are also categorized by location and credentials. You can use both of these characteristics to specify which users can have access to specific meetings. Users can be divided broadly into the following categories:
 1.  **Users that belong to the tenant** &nbsp;&nbsp;These users have a credential in Microsoft Entra ID for the tenant.<br/>
-    a. *Inside corpnet* – These users are joining from inside the corporate network.<br/>b. *Remote users* – These users are joining from outside the corporate network. They can include employees who are working at home or on the road, and others, such as employees of trusted vendors, who have been granted enterprise credentials for their terms of service. Remote users can create and join conferences and act as presenters.
-2.  **Users that do not belong to the tenant**&nbsp;&nbsp;These users don't have credentials in Microsoft Entra ID for the tenant.<br/>a. *Federated Users* - Federated users possess valid credentials with federated partners and are therefore treated as authenticated by SfBO. Federated users can join conferences and be promoted to presenters after they have joined the meeting, but they can't create conferences in enterprises with which they're federated.<br/>b. *Anonymous Users* - Anonymous users don't have an Active Directory identity and aren't federated with the tenant. 
+    1. *Inside corpnet* – These users are joining from inside the corporate network.
+    1. *Remote users* – These users are joining from outside the corporate network. They can include employees who are working at home or on the road, and others, such as employees of trusted vendors, who have been granted enterprise credentials for their terms of service. Remote users can create and join conferences and act as presenters.
+
+1.  **Users that do not belong to the tenant**&nbsp;&nbsp;These users don't have credentials in Microsoft Entra ID for the tenant.
+    1. *Federated Users* - Federated users possess valid credentials with federated partners and are therefore treated as authenticated by SfBO. Federated users can join conferences and be promoted to presenters after they have joined the meeting, but they can't create conferences in enterprises with which they're federated.
+    1. *Anonymous Users* - Anonymous users don't have an Active Directory identity and aren't federated with the tenant. 
 
 Customer data shows that many conferences involve external users. Those same customers also want reassurance about the identity of external users before allowing those users to join a conference. As the following section describes, SfBO limits meeting access to those user types that have been explicitly allowed and requires all user types to present appropriate credentials when entering a meeting.
 
