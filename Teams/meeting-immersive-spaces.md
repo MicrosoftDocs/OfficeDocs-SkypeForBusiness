@@ -64,17 +64,13 @@ Teams Essentials, Microsoft 365 Business Basic, Microsoft 365 Business Standard,
 
 This section outlines the specific endpoints and firewall requirements for the Mesh app in Teams, which allows users to join an immersive space (3D) while in a Teams meeting.
 
-1. Ensure you have configured your enterprise firewall settings to align with the standard set of Microsoft 365 requirements outlined in [Microsoft 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true).
+Configure your enterprise firewall settings to align with the standard set of Microsoft 365 requirements for **Microsoft Teams**, and **Microsoft 365 Common** outlined in [Microsoft M365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true).
 
-1. In addition to the standard set of endpoints for Microsoft 365, Mesh Immersive Spaces in Teams currently requires that outgoing traffic is allowed to IP addresses in the "AzureCloud" service tag over the following protocols and ports:
+As part of this, ensure that you have configured your firewall to enable traffic to `*.cloud.microsoft.com`, `*.office.com`, and `*.microsoft.com` over `TCP 443`, `80`.
 
-    - TCP: 443, 80
-    - TCP & UDP: 30,000-30,499
-    - UDP: 3478-3481
+Mesh also requires the IP addresses and port ranges detailed in [Firewall configuration for Azure Communication Services](https://learn.microsoft.com/azure/communication-services/concepts/voice-video-calling/network-requirements#firewall-configuration) for media capabilities such as audio, video, and screenshare.
 
-If you need to resolve a service tag to a list of IP ranges, you can periodically use the [service tag API][service-tag-api] or [download a snapshot][service-tag-download].
-
-For more information about service tags, see the [Azure service tags overview][service-tag].
+Without access to these, Mesh won't work properly for users in your organization.
 
 ## Use app centric management for immersive spaces in Teams
 
