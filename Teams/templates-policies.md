@@ -45,7 +45,7 @@ Watch this short video to learn how to manage templates policies.
 
     ![The selected templates with hide highlighted.](media/template-policies-2.png)
 
-    You can see the templates you've chosen to hide in the **Hidden templates** list.
+    You can see the templates you chose to hide in the **Hidden templates** list.
 
 1. To unhide certain templates, go the **Hidden templates** list.
 
@@ -60,7 +60,7 @@ Watch this short video to learn how to manage templates policies.
 
 ## Assign templates policies to users
 
-You can assign a templates policy directly to users, either individually or at scale through a batch assignment. Keep in mind that it may take up to 24 hours for your new policy to take effect for your users.
+You can assign a templates policy directly to users, either individually or at scale through a batch assignment. Keep in mind that it might take up to 24 hours for your new policy to take effect for your users.
 
 > [!Note]
 > Currently, assigning templates policies to users based on group membership, such as to all users in a security group, isn't supported. This capability will be available in the future.
@@ -91,7 +91,7 @@ You can hide a max of 100 templates per policy. The **Hide** button is disabled 
 
 **Q: If a new template is created, will the template be included in my policies?**
 
-A: Any new templates will be visible by default. You can choose to hide the template in the admin center in the Templates Policies section.
+A: Any new templates are visible by default. You can choose to hide the template in the Teams admin center in the **Templates policies** section.
 
 **Q: What happens if a template is deleted?**
 
@@ -120,10 +120,6 @@ A: In the Teams admin center:
 **Q: Can I manage templates policies via PowerShell?**
 
 A: No, managing templates policies in PowerShell isn't supported. However, you can use PowerShell to [assign templates policies](#assign-templates-policies-to-users) to users.
-
-**Q: Are templates policies applicable to EDU?**
-
-A: No, templates policies for EDU aren't supported.
 
 ## Related articles
 

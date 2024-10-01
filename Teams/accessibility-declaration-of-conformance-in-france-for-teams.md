@@ -4,7 +4,7 @@ author: pamgreen
 ms.author: pamgreen
 manager: serdars
 ms.reviewer: mikedav
-ms.date: 07/18/2018
+ms.date: 06/28/2024
 ms.topic: reference
 audience: admin
 ms.service: msteams
@@ -13,7 +13,7 @@ ms.collection:
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
-ms.localizationpriority: null
+ms.localizationpriority: Low
 f1.keywords:
 - CSH
 ms.custom: 

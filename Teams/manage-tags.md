@@ -36,7 +36,7 @@ After a tag is added to one or multiple team members, it can be used in @mention
 If you're a team owner and you want to manage tags for your team, see [Using tags in Teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e).
 
 > [!NOTE]
-> Tags will soon be supported in [private channels](private-channels.md) and [shared channels](shared-channels.md). For shared channels, only direct members of a shared channel can be added to a shared channel tag. People who inherit membership to a shared channel when it's shared with a team can't be added to a shared channel tag.
+> Tags are now supported in [private channels](private-channels.md) and [shared channels](shared-channels.md). For shared channels, only direct members of a shared channel can be added to a shared channel tag. People who inherit membership to a shared channel when it's shared with a team can't be added to a shared channel tag.
 
 ## How tags work
 

@@ -1,10 +1,10 @@
 ---
 title: Use the Microsoft Teams Rooms recovery tool
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: travis-snoozy
-ms.date: 11/02/2023
+ms.date: 08/21/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams

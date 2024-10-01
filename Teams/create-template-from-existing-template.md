@@ -22,9 +22,7 @@ appliesto:
 
 # Create a new team template from an existing team template in Microsoft Teams
 
-**Custom templates are not yet supported for EDU customers.**
-
-Microsoft Teams provides pre-built templates that can be saved and modified to meet your particular organizational needs.
+Microsoft Teams provides prebuilt templates that can be saved and modified to meet your particular organizational needs.
 
 1. Sign in to the Teams admin center.
 
@@ -63,7 +61,7 @@ Microsoft Teams provides pre-built templates that can be saved and modified to m
     5. Search for an app name that you want to add to the channel.
     6. Select **Apply** when finished.
 
-7. Select **Submit** when you're finished adding channels and apps.
+7. Select **Submit** when you finish adding channels and apps.
 
     The new template is saved to the template library.
 

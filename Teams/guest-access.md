@@ -35,7 +35,7 @@ When you invite a guest to Teams, a guest account is created for them in Microso
 
 In Teams, guests are clearly identified. A guest's name includes the label **(Guest)**, and a channel includes an icon to indicate that there are guests on the team. For more details, see [What the guest experience is like](guest-experience.md).
   
-Guests can leave the team at any time from within Teams. For details, see  [How do I leave a team?](https://support.office.com/article/leave-a-team-e481005d-3ec6-4694-b300-375472ba4076). (Leaving the team doesn't remove the guest account from your organization's directory. This must be done by a Microsoft 365 global admin or a Microsoft Entra admin.)
+Guests can leave the team at any time from within Teams. For details, see  [How do I leave a team?](https://support.office.com/article/leave-a-team-e481005d-3ec6-4694-b300-375472ba4076). (Leaving the team doesn't remove the guest account from your organization's directory. This must be done by a Microsoft Entra admin.)
 
 The guest experience has limitations by design. For a full list of what a guest can and can't do in Teams, see [Guest experience in Microsoft Teams](guest-experience.md).
 
@@ -46,7 +46,7 @@ The guest experience has limitations by design. For a full list of what a guest 
 
 Team owners can add guests to a team in the Teams client. To learn more, read [Add guests to a team](https://support.office.com/article/fccb4fa6-f864-4508-bdde-256e7384a14f).
 
-Global Administrators or Teams Administrators can also add guests to a team in the Teams admin center.
+Teams Administrators can also add guests to a team in the Teams admin center.
 
 Guests you have already added via Microsoft Entra B2B, Microsoft 365 Groups, or SharePoint are ready to go. Team owners can add those guests to their teams. If you add a guest directly to the Microsoft 365 group associated with a team, the guest will get access to the team but the Microsoft 365 group doesn't generate an invitation email to the guest, so someone on the team should notify the guest.
 

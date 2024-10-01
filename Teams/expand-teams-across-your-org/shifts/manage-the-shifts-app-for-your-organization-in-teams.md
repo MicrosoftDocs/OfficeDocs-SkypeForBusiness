@@ -3,7 +3,7 @@ title: Manage the Shifts app for your organization
 author: lana-chin
 ms.author: v-chinlana
 manager: jtremper
-ms.date: 11/22/2023
+ms.date: 09/19/2024
 ms.topic: conceptual
 ms.reviewer: imarquesgil
 audience: admin
@@ -57,6 +57,10 @@ Shifts data is stored in one of the following region geographies: Asia Pacific (
 
 To learn more about Shifts data, including data storage location, security and compliance, and access control, see [Shifts data FAQ](shifts-data-faq.md).
 
+## Deploy Shifts
+
+For an overview of deploying Shifts in your organization, see [Shifts for your frontline organization](/microsoft-365/frontline/shifts-for-teams-landing-page).
+
 ## Set up Shifts
 
 ### Enable or disable Shifts in your organization
@@ -68,13 +72,13 @@ Shifts is enabled by default for all Teams users in your organization. You can t
 
 ### Enable or disable Shifts for specific users in your organization
 
-To allow or block specific users in your organization from using Shifts, make sure Shifts is turned on for your organization on the [Manage apps](../../manage-apps.md) page. Then create a custom policy for app permissions and assign it to those users. To learn more, see [Manage app permission policies in Teams](../../teams-app-permission-policies.md).
+To allow or block specific users in your organization from using Shifts, make sure Shifts is turned on for your organization on the [Manage apps](../../manage-apps.md) page. Then create a custom policy for app permissions and assign it to those users. To learn more, see [Use app permission policies to control user access to apps](../../teams-app-permission-policies.md).
 
 ### Pin Shifts to Teams
 
 #### Use the Tailored frontline app experience to pin Shifts and other apps to Teams
 
-The tailored frontline app experience in Teams pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Pinned apps include Shifts, Walkie Talkie, Tasks, and Approvals. By default, this feature is on, giving your frontline workers an out-of-the-box experience tailored to their needs.
+The tailored frontline app experience in Teams pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline-plans-and-pricing). Pinned apps include Shifts, Walkie Talkie, Tasks, and Approvals. By default, this feature is on, giving your frontline workers an out-of-the-box experience tailored to their needs.
 
 The apps are pinned to the app bar—the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients—where users can quickly and easily access them.
 
@@ -101,6 +105,18 @@ Shift-based tags let your users reach people who are on-shift in real time. Noti
 
 You can turn the feature on or off in the Microsoft Teams admin center. To learn more, see [Manage tags in Teams](../../manage-tags.md).
 
+### Deploy the Shifts for Microsoft Teams plugin for Copilot
+
+With the Shifts for Microsoft Teams plugin for Microsoft 365 Copilot, your frontline workforce can use Business Chat (BizChat) within Teams to help manage their schedules. For example, frontline managers can get information about their team’s shifts, open shifts, and scheduled time off, based on schedule data in Shifts. To learn more about the user experience, see [Get insights into your Shifts schedule with Microsoft 365 Copilot](https://support.microsoft.com/topic/30ffaf42-2aa8-4ce0-aee1-b49cbdb6ed08).
+
+You deploy the Shifts plugin for your users in the Microsoft 365 admin center. Users must be assigned a Microsoft 365 Copilot license to use the plugin.  
+
+1. In the Microsoft 365 admin center, go to **Settings** > **Integrated apps**.
+2. Go to the **Available apps** tab, and then select **Shifts for Teams**.
+3. Under **Actions**, select **Deploy app**. You can choose to deploy to specific users or groups.
+
+To learn more, see [Manage extensions for Copilot in Integrated Apps](/microsoft-365/admin/manage/manage-plugins-for-copilot-in-integrated-apps).
+
 ## Search the audit log for Shifts events
 
 You can search the audit log to view Shifts activity in your organization. To learn more about how to search the audit log and to see a list of [Shifts activities](../../audit-log-events.md#shifts-in-teams-activities) that are logged in the audit log, see [Search the audit log for events in Teams](../../audit-log-events.md).
@@ -113,7 +129,7 @@ To send feedback or report an issue, select **Settings and more** (**…**) in T
 
 ## Related articles
 
-- [Shifts for Teams](/microsoft-365/frontline/shifts-for-teams-landing-page)
+- [Shifts for your frontline organization](/microsoft-365/frontline/shifts-for-teams-landing-page)
 - [Shifts connectors](/microsoft-365/frontline/shifts-connectors)
-- [Shifts Help for frontline workers](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+- [Shifts Help for frontline workers](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821)
 - [Assign policies to your users in Teams](../../policy-assignment-overview.md)

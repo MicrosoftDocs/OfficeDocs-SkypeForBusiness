@@ -235,18 +235,18 @@ The complete topology consists of seven virtual machines that enable you to full
 |:--- |:--- |
 | IM an Expert for Microsoft Lync Server 2010 |March 2012 |
 | Lync Server 2010 Best Practices Analyzer |February 2011 |
-|[Lync Server 2010 Capacity Calculator](https://www.microsoft.com/downloads/details.aspx?FamilyID=6E8342A7-3238-4F37-9F95-7B056525DC1A)|February 2012 |
+|Lync Server 2010 Capacity Calculator|February 2012 |
 | Lync Server 2010 Planning Tool |February 2011 |
 | Lync Server 2010 Resource Kit Tools|May 2012 |
 | Lync Server 2010 Stress and Performance Tool |March 2011 |
-|[Lync Server 2010 Visio Stencil](https://www.microsoft.com/downloads/details.aspx?FamilyID=65B5A396-2C87-445D-BE23-D324727D19CB)|February 2011 |
+|Lync Server 2010 Visio Stencil|February 2011 |
 | Lync Server 2010 Web Scheduler |April 2011 |
 
 ### <a id="lync-2010-downloadable-documentation"></a>Lync Server 2010 downloadable documentation
 
 | Package name |Release date|
 |:--- |:--- |
-|[Lync Server 2010 Documentation Help File](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=9720c3f1-ddd4-426b-b98a-f1205561ce00)|March 2012 |
+|Lync Server 2010 Documentation Help File|March 2012 |
 |[Lync Server 2010 Welcome page](/previous-versions/office/skype-server-2010/gg398616(v=ocs.14))|October 2012 |
 |[IM an Expert for Microsoft Lync Server 2010 Documentation](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=8E4546AA-9B24-435D-9043-A2181B4E6D06&displaylang=en)|March 2012 |
 |[Lync 2010 Release Notes](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d76f8027-d97f-4336-adbc-7979c2b069b3).aspx)|January 2011 |

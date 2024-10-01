@@ -90,8 +90,10 @@ The **Mesh app is by default allowed in the Teams admin center**. If you want to
 1. Sign in to the [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/).
 1. In the left panel, go to **Teams apps** > **Manage apps**.
 1. Search for the app named "Mesh" and open the app settings.
-1. Under the **Users and groups** tab, choose edit availability.
-1. Under the **Users and groups** tab, select edit availability and configure as needed.
+1. To block the app, select **Actions** at the top right and select **Block app**.
+1. To block the app for specific users or groups:
+    1. Under the **Users and groups** tab, choose edit availability.
+    2. Under the **Users and groups** tab, select edit availability and configure as needed.
 
 :::image type="content" source="media/meetings-immersive-spaces-availability.png" alt-text="Screenshot of the Teams Admin Center showing how to manage the availability of the Mesh application." lightbox="media/meetings-immersive-spaces-availability.png":::
 
@@ -113,6 +115,14 @@ For more information about assigning licenses in Microsoft 365, see:
 [Assign or unassign licenses for users in the Microsoft 365 admin center - Microsoft 365 admin | Microsoft Learn](/microsoft-365/admin/manage/assign-licenses-to-users).
 
 For more complex and larger group license management, you can do [Assign licenses to a group - Microsoft Entra ID | Microsoft Learn](/entra/identity/users/licensing-groups-assign).
+
+## End user license agreement
+
+Your users must enter a separate agreement directly with Microsoft to enable spatial audio for Mesh experiences. That agreement is presented to your users before the user's first use of Mesh. If a user does not wish to enter into that agreement, the user cannot use Mesh.
+
+As an admin, if you don't want users in your organization to agree to these terms, you can disable immersive spaces in Teams for users in your organization.
+
+:::image type="content" source="media/meetings-immersive-spaces-EULA-agreement.png" alt-text="Screenshot of the End User License Agreement for immersive spaces in Teams.":::
 
 ## Next steps for immersive spaces
 

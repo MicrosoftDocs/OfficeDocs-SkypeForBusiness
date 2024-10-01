@@ -1,10 +1,10 @@
 ---
 title: Prepare your Environment
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: kimmatlock
-ms.date: 10/04/2023
+ms.reviewer: altsou
+ms.date: 08/21/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -161,7 +161,7 @@ Teams Rooms includes a passwordless local account named "Skype". This account is
 Microsoft Teams Rooms default password is set to "sfb". The password can be changed in several ways:
 
 - Recommended: [Configuring LAPS on Teams Rooms on Windows](/microsoftteams/rooms/laps-authentication)
-- Intune: [Set-LocalUser](/powershell/module/microsoft.powershell.localaccounts/set-localuser?view=powershell-5.1#example-2-change-the-password-on-an-account)
+- Intune: [Set-LocalUser](/powershell/module/microsoft.powershell.localaccounts/set-localuser)
 - Locally: [Change or reset your Windows password](https://support.microsoft.com/windows/change-or-reset-your-windows-password-8271d17c-9f9e-443f-835a-8318c8f68b9c)
 
 You can read more about the Admin account in the [Microsoft Teams Rooms security](security.md) article.

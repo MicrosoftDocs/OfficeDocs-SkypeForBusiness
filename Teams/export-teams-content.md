@@ -30,9 +30,9 @@ Here are some examples on how you can use these export APIs:
 
 - **Example 2**: If you want to programmatically export all user or team messages daily by providing a date range. Export APIs can retrieve all the messages created or updated during the given date range.
 
-- **(Beta) Example 3**: If you want to programmatically export the links to Teams meeting recordings for a given meeting organizer, and then download the actual recordings.
+- **Example 3**: If you want to programmatically export the links to Teams meeting recordings for a given meeting organizer, and then download the actual recordings.
 
-- **(Beta) Example 4**: If you want to programmatically export the links to Teams meeting transcripts for a given meeting organizer, and then download the actual transcripts. 
+- **Example 4**: If you want to programmatically export the links to Teams meeting transcripts for a given meeting organizer, and then download the actual transcripts. 
 
 ## What is supported by the Teams Export APIs?
 
@@ -46,9 +46,10 @@ Here are some examples on how you can use these export APIs:
 - **Reactions:** Export APIs support reactions initiated by a user on a Teams message. Reactions currently supported are heart, angry, like, sad, surprised, and laugh. In addition to Reactions, Export API also supports Reaction Edit History, which includes changes and updates made to a reaction on a message.
 - **Shared Channel Messages:** Export APIs support capturing messages from a Shared Channel.
 - **Deleted Teams:** Export API supports [capturing messages from deleted Teams](/graph/api/deletedteam-getallmessages) and deleted standard, private, and shared channels.
+- **Deleted Users**: Export API supports capturing messages for deleted users up to 30 days from the time the user was deleted. To find the list of deleted users, see [Deleted Items](/graph/api/directory-deleteditems-list).
 - **Chat Message Properties:** Refer to the [complete list of properties that Teams Export APIs support](/graph/api/resources/chatmessage#properties).
 - **Control Messages:** Export API supports capturing control messages in addition to the user generated messages. Control Messages are system generated messages that appear on the Teams client and carry important information such as "User A added User B to the chat and shared all chat history" along with the timestamp. System messages enable the caller to have insights about events that happened in a team, a channel, or a chat. Currently Export API supports the [Add Member and Remove Member event for chats, teams and standard channels](/graph/system-messages#supported-system-message-events).
-- **(Beta) Edited History:** Provided that [your tenant is setup with Teams Retention Policy](/purview/create-retention-policies?tabs=teams-retention), Export API supports capturing messages' edited history for [individual & group chat](/graph/api/chat-getallretainedmessages), and [posts, comments in Public & Shared channels](/graph/api/channel-getallretainedmessages).
+- **Edited History:** Provided that [your tenant is setup with Teams Retention Policy](/purview/create-retention-policies?tabs=teams-retention), Export API supports capturing messages' edited history for [individual & group chat](/graph/api/chat-getallretainedmessages), and [posts, comments in Public & Shared channels](/graph/api/channel-getallretainedmessages).
 
     To learn more about Teams Retention policy, see the [Manage retention policies for Microsoft Teams](/microsoftteams/retention-policies) for further details.
 
@@ -78,16 +79,25 @@ Here are some examples on how you can use these export APIs:
   GET https://graph.microsoft.com/v1.0/teams/{id}/channels/getAllMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
   ```
 
-- **(Beta) Example 3** is a sample query to retrieve the links to all the available Teams meetings recordings of a user. TOP n filter is supported similar to Chat messages:
+- **Example 3** is a sample query to retrieve the links to all the available Teams meetings recordings of a user. Date-range filtering is supported. TOP n filter is supported similar to Chat messages:
 
   ```HTTP
-  GET https://graph.microsoft.com/beta/users/{id}/onlineMeetings/getAllRecordings?$filter=MeetingOrganizerId eq ‘{id}’
+  GET https://graph.microsoft.com/v1.0/users/{id}/onlineMeetings/getAllRecordings?$filter=MeetingOrganizer/User/Id eq ‘{id}’
   ```
-- **(Beta) Example 4** is a sample query to retrieve the links to all the available Teams meetings transcripts of a user. TOP n filter is supported similar to Chat messages: 
+
+  ``` http
+  GET  https://graph.microsoft.com/v1.0/users/{id}/onlineMeetings/getAllRecordings(meetingOrganizerUserId='{userId}',startDateTime={startDateTime},endDateTime={endDateTime})
+  ```
+- **Example 4** is a sample query to retrieve the links to all the available Teams meetings transcripts of a user. Date-range filtering is supported. TOP n filter is supported similar to Chat messages: 
 
   ```HTTP
-  GET https://graph.microsoft.com/beta/users/{id}/onlineMeetings/getAllTranscripts?$filter=MeetingOrganizerId eq ‘{id}’
+  GET https://graph.microsoft.com/v1.0/users/{id}/onlineMeetings/getAllTranscripts?$filter=MeetingOrganizer/User/Id eq ‘{id}’
   ```
+
+  ```HTTP
+  GET https://graph.microsoft.com/v1.0/users/{id}/onlineMeetings/getAllTranscripts(meetingOrganizerUserId='{userId}',startDateTime={startDateTime},endDateTime={endDateTime})
+  ```
+
 
 > [!NOTE]
 > The API returns response with next page link in case of multiple results. For getting next set of results, simply call GET on the url from @odata.nextlink. If @odata.nextlink isn't present or null then all messages are retrieved.
@@ -193,9 +203,9 @@ No model declaration enables access to APIs with limited usage per each requesti
 
     ```JSON
     {
-     "@odata.context": "https://graph.microsoft.com/beta/$metadata#Collection(meetingRecording)", 
+     "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#Collection(meetingRecording)", 
      "@odata.count": 2, 
-     "@odata.nextLink": "https://graph.microsoft.com/beta/users('{userId}')/onlineMeetings/getAllRecordings?$filter=MeetingOrganizerId+eq+%27{userId}%27&$skiptoken=MSMjMCMjTkNaYVNIQjVVbXRPYWxaV1dscGFWVGg1V2pOb1IxUXpRWGxrUm1oTFVrWmtTV1ZyYkhwUlZVWm9UMWR3VEdWWGRFTlJWVVpDVVZFOVBRPT0%3d", 
+     "@odata.nextLink": "https://graph.microsoft.com/v1.0/users('{userId}')/onlineMeetings/getAllRecordings?$filter=MeetingOrganizer%2fUser%2fId+eq+%27{userId}%27&$skiptoken=MSMjMCMjTkNaYVNIQjVVbXRPYWxaV1dscGFWVGg1V2pOb1IxUXpRWGxrUm1oTFVrWmtTV1ZyYkhwUlZVWm9UMWR3VEdWWGRFTlJWVVpDVVZFOVBRPT0%3d", 
      "value":
        [ 
          { 
@@ -204,7 +214,7 @@ No model declaration enables access to APIs with limited usage per each requesti
           "meetingId": "MSoxMjczYTAxNi0yMDFkRLTmOTUtODA5My0xYjdmOTliM2VkZWIqMCoqMTk6bWVldGluZ19aR1F3WTJZNE9XTXROekppWlMwME1XWTRMVGc0TWpBdE1BBXdOV1kzWlRsak9UTXlAdGhyZWFkLnYy", 
           "meetingOrganizerId": "{userId}", 
           "createdDateTime": "2022-08-03T20:43:36.2573447Z", 
-          "recordingContentUrl":    "https://graph.microsoft.com/beta/users/{userId}/onlineMeetings/MSoxMjczYTAxNi0yMDFkLTRmOTUtODA4My0xYjdmOTliM2VkZWIqMCoqMTk6bWVldGluZ19aR1F3WTJZNE9XTXROekppWlMwME1XWTRMVGc0TWpBdE1ERXdOV1kzWlRsak9UTXlAdGhyZWFkLnYy/recordings/MSMjMCMjMGFjNmUwZTgtYmZjYy00NDQxLTk2MGYtZjllNjVhNjI0NzBh/content" 
+          "recordingContentUrl":    "https://graph.microsoft.com/v1.0/users/{userId}/onlineMeetings/MSoxMjczYTAxNi0yMDFkLTRmOTUtODA4My0xYjdmOTliM2VkZWIqMCoqMTk6bWVldGluZ19aR1F3WTJZNE9XTXROekppWlMwME1XWTRMVGc0TWpBdE1ERXdOV1kzWlRsak9UTXlAdGhyZWFkLnYy/recordings/MSMjMCMjMGFjNmUwZTgtYmZjYy00NDQxLTk2MGYtZjllNjVhNjI0NzBh/content" 
          }, 
          { 
           "@odata.type": "#microsoft.graph.meetingRecording", 
@@ -212,7 +222,7 @@ No model declaration enables access to APIs with limited usage per each requesti
           "meetingId": "{meetingId}", 
           "meetingOrganizerId": "{userId}", 
           "createdDateTime": "2022-08-03T20:44:11.2635254Z", 
-          "recordingContentUrl": " https://graph.microsoft.com/beta/users/{userId}/onlineMeetings/{meetingId}/recordings/{recordingId}/content" 
+          "recordingContentUrl": " https://graph.microsoft.com/v1.0/users/{userId}/onlineMeetings/{meetingId}/recordings/{recordingId}/content" 
           },
         ] 
        }
@@ -224,7 +234,7 @@ No model declaration enables access to APIs with limited usage per each requesti
 
    - `<meetingId>` represents a meeting or call identifier. 
 
-   - `<meetingOrganizerId>` represents the organizer of the meeting.
+   - `<meetingOrganizer/user/id>` represents the organizer of the meeting.
 
    - `<createdDateTime>` indicates the start time of the meeting. 
 
@@ -262,9 +272,9 @@ No model declaration enables access to APIs with limited usage per each requesti
 
    ```JSON
    {
-     "@odata.context": "https://graph.microsoft.com/beta/$metadata#Collection(callTranscript)",  
+     "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#Collection(callTranscript)",  
      "@odata.count": 2, 
-     "@odata.nextLink": "https://graph.microsoft.com/beta/users('{userId}')/onlineMeetings/getAllTranscripts?$filter=MeetingOrganizerId+eq+%27{userId}%27&$skiptoken=MSMjMCMjTkNaYVNIQjVVbXRPYWxaV1dscGFWVGg1V2pOb1IxUXpRWGxrUm1oTFVrWmtTV1ZyYkhwUlZVWm9UMWR3VEdWWGRFTlJWVVpDVVZFOVBRPT0%3d",  
+     "@odata.nextLink": "https://graph.microsoft.com/v1.0/users('{userId}')/onlineMeetings/getAllTranscripts?$filter=MeetingOrganizer%2fUser%2fId+eq+%27{userId}%27&$skiptoken=MSMjMCMjTkNaYVNIQjVVbXRPYWxaV1dscGFWVGg1V2pOb1IxUXpRWGxrUm1oTFVrWmtTV1ZyYkhwUlZVWm9UMWR3VEdWWGRFTlJWVVpDVVZFOVBRPT0%3d",  
      "value":
        [ 
          { 
@@ -272,7 +282,7 @@ No model declaration enables access to APIs with limited usage per each requesti
           "id": "MSMjMCMjMGFjNmUwZTgtYmZjYy00NDQxLTk2MGYtZjllNjVhNjI0NzBh", 
           "meetingId": "MSoxMjczYTAxNi0yMDFkLTRmOTUtODA4My0xYjdmOTliM2VkZWIqMCoqMTk6bWVldGluZ19aR1F3WTJZNE9XTXROekppWlMwME1XWTRMVGc0TWpBdE1ERXdOV1kzWlRsak9UTXlAdGhyZWFkLnYy", 
           "meetingOrganizerId": "{userId}", 
-          "transcriptContentUrl": "https://graph.microsoft.com/beta/users/{userId}/onlineMeetings/MSoxMjczYTAxNi0yMDFkLTRmOTUtODA4My0xYjdmOTliM2VkZWIqMCoqMTk6bWVldGluZ19aR1F3WTJZNE9XTXROekppWlMwME1XWTRMVGc0TWpBdE1ERXdOV1kzWlRsak9UTXlAdGhyZWFkLnYy/transcripts/MSMjMCMjMGFjNmUwZTgtYmZjYy00NDQxLTk2MGYtZjllNjVhNjI0NzBh/content", 
+          "transcriptContentUrl": "https://graph.microsoft.com/v1.0/users/{userId}/onlineMeetings/MSoxMjczYTAxNi0yMDFkLTRmOTUtODA4My0xYjdmOTliM2VkZWIqMCoqMTk6bWVldGluZ19aR1F3WTJZNE9XTXROekppWlMwME1XWTRMVGc0TWpBdE1ERXdOV1kzWlRsak9UTXlAdGhyZWFkLnYy/transcripts/MSMjMCMjMGFjNmUwZTgtYmZjYy00NDQxLTk2MGYtZjllNjVhNjI0NzBh/content", 
          "createdDateTime": "2022-08-03T20:43:36.6248355Z" 
          }, 
          { 
@@ -280,7 +290,7 @@ No model declaration enables access to APIs with limited usage per each requesti
           "id": "{transcriptId}", 
           "meetingId": "{meetingId}", 
           "meetingOrganizerId": "{userId}", 
-          "transcriptContentUrl": "https://graph.microsoft.com/beta/users/{userId}/onlineMeetings/{meetingId}/transcripts/{transcriptId}/content",   
+          "transcriptContentUrl": "https://graph.microsoft.com/v1.0/users/{userId}/onlineMeetings/{meetingId}/transcripts/{transcriptId}/content",   
           },
         ] 
        }
@@ -292,7 +302,7 @@ No model declaration enables access to APIs with limited usage per each requesti
 
    - `<meetingId>` represents a meeting or call identifier. 
 
-   - `<meetingOrganizerId>` represents the organizer of the meeting. 
+   - `<meetingOrganizer/user/id>` represents the organizer of the meeting. 
 
    - `<createdDateTime>` indicates the start time of the meeting. 
 

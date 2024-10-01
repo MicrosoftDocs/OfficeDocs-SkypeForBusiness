@@ -4,7 +4,7 @@ ms.author: jtremper
 author: jacktremper
 manager: serdars
 ms.reviewer: lshook
-ms.date: 11/28/2017
+ms.date: 06/28/2024
 ms.topic: article
 ms.assetid: 1094e7b0-eeb5-4fe4-b2c8-5fe6d80ce178
 ms.tgt.pltfrm: cloud
@@ -16,7 +16,7 @@ ms.collection:
 appliesto: 
   - Skype for Business
   - Microsoft Teams
-ms.localizationpriority: null
+ms.localizationpriority: Low
 f1.keywords:
 - CSH
 ms.custom: 

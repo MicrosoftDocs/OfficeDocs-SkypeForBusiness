@@ -37,7 +37,6 @@ Clients are available for PC, Mac, and mobile, which provides features on device
 > For details about Teams phone systems on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 **Licenses and voice enablement** - To use Teams Phone features, your organization must have a Teams Phone license. For more information about licensing, including Teams Phone Standard and Teams Phone Standard for Frontline Workers, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
-**Licenses and voice enablement** - To use Teams Phone features, your organization must have a Teams Phone license. For more information about licensing, including Teams Phone Standard and Teams Phone Standard for Frontline Workers, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 Most features require you to assign the Teams Phone license and ensure that users are "voice enabled." To assign the license, use the [Set-CsPhoneNumberAssignment cmdlet](/powershell/module/teams/set-csphonenumberassignment) and set the **EnterpriseVoiceEnabled** parameter to $true. A few features, such as Auto attendant, don't require a user to be voice enabled. Exceptions are called out in the table below.
   

@@ -3,8 +3,8 @@ title: Manage devices in Microsoft Teams
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: kimmatlock
-ms.date: 08/25/2023
+ms.reviewer: srpall
+ms.date: 07/08/2024
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
@@ -33,7 +33,6 @@ You can manage devices used with Microsoft Teams in your organization from the M
 
 To manage devices, such as change device configuration, restart devices, manage updates, or view device and peripheral health, you need to be assigned one of the following Microsoft 365 admin roles:
 
-- Microsoft 365 Global admin
 - Teams Service admin
 - Teams Device admin
 
@@ -88,7 +87,11 @@ Here are some examples of how you can manage phones, Teams Rooms on Android, Tea
 | Add or remove device tags               | Select one or more devices > **Manage tags**. For more information about device tags, see [Manage Teams device tags](manage-device-tags.md).                                                                                                                                                                 |
 | Restart devices                         | Select one or more devices > **Restart**.                                                                                                                                                                                                                                                                    |
 | Filter devices using device tags        | Select the filter icon, select the **Tag** field, specify a device tag to filter on, and select **Apply**. For more information about filtering devices using device tags, see [Use filters to return devices with a specific tag](manage-device-tags.md#use-filters-to-return-devices-with-a-specific-tag). |
+|Schedule device actions|Actions like **Restart** and **Software update** can be scheduled for the preferred date and time.|
 | View device history and diagnostics     | Under the **History** column, click the **View** link for a device to view its update history and diagnostic details.                                                                                                                                                                                         |
+|View device action details|In the **History** tab on the device page, select the action status to view the details of the action.|
+|Cancel device actions|From the **History** section, you can cancel any action that is in a Queued or Scheduled state (not in progress or completed) to prevent execution. This option is accessible from the **History** tab in the device page and the **History** column in the list page. You can select multiple actions to cancel at once. Paired actions will be canceled together if execution hasn't started.|
+|Actions on multiple devices|You can select multiple devices from the list page and perform an action on them at once. This is applicable for **Restart**, **Software update**, **Assign configuration**, **Manage tags**, **Remove device**, and **Sign-out**.|
 
 This video shows how to search for Teams devices.
 

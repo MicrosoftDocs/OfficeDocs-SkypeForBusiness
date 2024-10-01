@@ -1,8 +1,8 @@
 ---
 ms.date: 01/08/2020
 title: "Proxy servers for Teams or Skype for Business Online"
-ms.author: tonysmit
-author: tonysmit
+ms.author: serdars
+author: pamgreen
 manager: serdars
 ms.reviewer: jastark
 ms.topic: reference

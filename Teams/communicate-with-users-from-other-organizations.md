@@ -4,7 +4,7 @@ ms.author: jtremper
 author: jacktremper
 manager: jtremper
 ms.reviewer: majaisin
-ms.date: 06/12/2024
+ms.date: 06/28/2024
 ms.topic: concept-article
 ms.service: msteams
 audience: admin
@@ -20,7 +20,7 @@ f1.keywords:
 - NOCSH
 appliesto: 
 - Microsoft Teams
-ms.localizationpriority: normal
+ms.localizationpriority: Medium
 description: Learn how to call, chat, find, and add users from outside the organization in Microsoft Teams using external access and guest access.
 ---
 

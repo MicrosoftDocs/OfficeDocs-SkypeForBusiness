@@ -1,7 +1,7 @@
 ---
 title: Remotely access a Teams Room on Windows console
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: kimmatlock
 ms.date: 5/06/2024
@@ -48,6 +48,9 @@ See [Role Base access control in Teams Rooms Pro management portal](/microsoftte
 When you create, edit, or assign custom roles, the account must have one of the following permissions:
     - Global Administrator in Azure Active Directory (Azure AD)
     - Teams Rooms Pro Manager in the Microsoft Teams Rooms Pro Management portal
+
+> [IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
 - **Role-based access control (RBAC)**: You can use RBAC roles to determine the scope of a Teams Rooms Pro management remote access users. For remote access, it as two RBAC roles:
 

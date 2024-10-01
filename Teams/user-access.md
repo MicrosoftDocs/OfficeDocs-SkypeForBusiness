@@ -32,7 +32,7 @@ appliesto:
 You manage access to Teams at the user level by assigning or removing a Microsoft Teams product license. Except for joining Teams meetings anonymously, each user in your organization must have a Teams license before they can use Teams. You can assign a Teams license for new users when new user accounts are created or to users with existing accounts.
 
 Use messaging policies, managed from the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), to control what chat and channel messaging features are available to users in Teams. You can use the default policy or create one or more custom messaging policies for people in your organization. To learn more, read [Manage messaging policies in Teams](messaging-policies-in-teams.md).
-You manage Teams licenses in the Microsoft 365 admin center or by using PowerShell. You must be a Global admin or User management admin to manage licenses.
+You manage Teams licenses in the Microsoft 365 admin center or by using PowerShell. You must be a User management admin to manage licenses.
 
 > [!NOTE]
 > We recommend that you enable Teams for all users so that teams can be formed organically for projects and other dynamic initiatives. Even if you're running a pilot, it might still be helpful to keep Teams enabled for all users, but only target communications to the pilot group of users.
@@ -42,7 +42,7 @@ You manage Teams licenses in the Microsoft 365 admin center or by using PowerShe
 Teams user-level licenses are managed directly through the Microsoft 365 admin center user management interfaces. An administrator can assign licenses to new users when new user accounts are created, or to users with existing accounts.
 
 > [!IMPORTANT]
-> The administrator must have Global Administrator or User Management Administrator privileges to manage Microsoft Teams licenses.
+> The administrator must have at least User Management Administrator privileges to manage Microsoft Teams licenses.
 
 Use the Microsoft 365 admin center to manage Teams licenses for individual users or small sets of users at a time. You can manage Teams licenses on the **Licenses** page (for up to 20 users at a time) or **Active users** page. The method you choose depends on whether you want to manage product licenses for specific users or manage user licenses for specific products.
 

@@ -1,10 +1,10 @@
 ---
 title: What is Microsoft Multi-Stream IntelliFrame and Intelligent Camera?
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: vishnuna
-ms.date: 08/18/2023
+ms.date: 09/12/2024
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
@@ -35,7 +35,7 @@ Microsoft Teams Multi-Stream IntelliFrame certified devices, include a speaker, 
 - Microsoft Teams Rooms Pro license
   - Microsoft Teams Rooms with Pro license is required to enable IntelliFrame, and people recognition features on Microsoft Teams Rooms.
   - Basic license doesn't support IntelliFrame or people recognition. If you have Teams Rooms Basic license, the camera shows only active speaker and panoramic views.
-  - Check the [this link](../rooms/license-check.md#check-the-license-of-a-couple-teams-rooms-devices   ) to determine if you have the right license.
+  - Check the [this link](/microsoftteams/rooms/rooms-licensing#rooms-view) to determine if you have the right license.
 - Policy configured for [People Recognition and Enrollment](#enabling-enrollment-option-and-people-recognition).
 
 ## Device provisioning
@@ -45,7 +45,7 @@ Microsoft Teams Multi-Stream IntelliFrame certified devices, include a speaker, 
 These Microsoft Teams Rooms devices support Multi-Stream IntelliFrame and people recognition:
 
 - Yealink SmartVision 60
-- Jabra Panacast 50 (coming soon)
+- Jabra Panacast 50
 
 ### Setting up your certified Multi-Stream IntelliFrame camera to your Microsoft Teams Room
 

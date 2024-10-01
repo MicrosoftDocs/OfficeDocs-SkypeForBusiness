@@ -8,7 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
-ms.date: 10/17/2023
+ms.date: 09/03/2024
 ms.reviewer: mhayrapetyan
 ms.collection: 
 - M365-collaboration
@@ -37,7 +37,7 @@ When you publish a custom Teams app, it's available to users in your organizatio
 
 ## App developer submits the app
 
-When the app is ready for use in production, the developer can submit the app using the Teams App Submission API, which can be called from [Graph API](/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog&preserve-view=true), an integrated development environment (IDE) such as Visual Studio Code, or a platform such as Power Apps and Power Virtual Agents. Doing this makes the app available on the [Manage apps](/microsoftteams/manage-apps) page of the Teams admin center, where you can review and approve it.
+When the app is ready for use in production, the developer can submit the app using the Teams App Submission API, which can be called from [Graph API](/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog&preserve-view=true), an integrated development environment (IDE) such as Visual Studio Code, or a platform such as Power Apps and Power Automate. Doing this makes the app available on the [Manage apps](/microsoftteams/manage-apps) page of the Teams admin center, where you can review and approve it.
 
 The Teams App Submission API, [built on Microsoft Graph](/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog&preserve-view=true), allows your organization to develop on the platform of your choice and automates the submission-to-approval process for custom apps on Teams.
 
@@ -51,7 +51,7 @@ For more information about using the Graph API to submit apps, see [here](/graph
 
 ## Notification for app submissions
 
-You can turn on notifications so you know when developers submit a new application for review and approval. You'll also get notifications when developers submit app updates. To enable app submission notifications in the Teams admin center, go to **Notifications & alerts** > **[Rules](https://admin.teams.microsoft.com/notifications/rules)** > **App submissions**, and activate the rule by changing the status to **Active**. By default, this setting is turned off. You must be a Global admin or Teams admin to turn on this setting.
+You can turn on notifications so you know when developers submit a new application for review and approval. You'll also get notifications when developers submit app updates. To enable app submission notifications in the Teams admin center, go to **Notifications & alerts** > **[Rules](https://admin.teams.microsoft.com/notifications/rules)** > **App submissions**, and activate the rule by changing the status to **Active**. By default, this setting is turned off. You must be a Teams admin to turn on this setting.
 
 After you turn on this setting, you'll get notifications in the **Admin Alerts and Notifications** team under a new channel named **App submissions**. Alternatively, you can choose an existing team and channel to get notifications delivered to a specified team and channel. To do this, follow these steps:
 

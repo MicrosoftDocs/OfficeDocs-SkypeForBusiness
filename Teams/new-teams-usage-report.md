@@ -8,7 +8,6 @@ ms.date: 01/31/2024
 ms.service: msteams
 audience: admin
 ms.collection: 
-- Teams_ITAdmin_GuestAccess
 - M365-collaboration
 - m365initiative-deployteams
 ms.reviewer: daro

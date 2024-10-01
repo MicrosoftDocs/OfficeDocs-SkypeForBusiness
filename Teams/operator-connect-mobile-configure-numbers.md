@@ -3,7 +3,7 @@ title: Manage phone numbers for Teams Phone Mobile
 author: CarolynRowe
 ms.author: crowe
 manager: pamgreen
-ms.date: 03/14/2024
+ms.date: 07/08/2024
 ms.topic: article
 ms.service: msteams 
 audience: admin
@@ -42,7 +42,7 @@ How you manage phone numbers depends on whether you're setting up numbers for ne
 
 To acquire numbers for new Teams users, follow these steps:
 
-1. **Assign a Teams Phone license and a Teams Phone Mobile add-on license** to users by using the Microsoft 365 admin center or by using PowerShell. For more information, see [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+1. **Assign a Teams Phone license** to users by using the Microsoft 365 admin center or by using PowerShell. For more information, see [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
 2. **Ensure users who are assigned phone numbers acquired with Teams Phone Mobile are in TeamsOnly mode.** If your organization is in TeamsOnly mode, then all your users are in TeamsOnly mode. 
 
@@ -57,7 +57,7 @@ To acquire numbers for new Teams users, follow these steps:
 
 ## Move numbers from Calling Plans to Teams Phone Mobile
 
-1. Ensure you have eligible Microsoft 365 subscriptions for Teams Phone Mobile and the Teams Phone Mobile add-on license. 
+1. Ensure you have eligible Microsoft 365 subscriptions for Teams Phone Mobile. 
 
 2. [Remove the phone number to be moved for respective users](assign-change-or-remove-a-phone-number-for-a-user.md#remove-a-phone-number-from-a-user). 
 
@@ -69,7 +69,7 @@ To acquire numbers for new Teams users, follow these steps:
 
 ## Move numbers from Operator Connect to Teams Phone Mobile
 
-1. Ensure you have eligible Microsoft 365 subscriptions for Teams Phone Mobile and the Teams Phone Mobile add-on license. 
+1. Ensure you have eligible Microsoft 365 subscriptions for Teams Phone Mobile. 
 
 2. [Remove the phone number to be moved for respective users](assign-change-or-remove-a-phone-number-for-a-user.md#remove-a-phone-number-from-a-user). 
 
@@ -91,11 +91,9 @@ To move numbers from Direct Routing to Teams Phone Mobile, you'll need to comple
 
 3. [Remove the Direct Routing online voice routing policy associated with your user](#remove-the-direct-routing-online-voice-routing-policy-associated-with-your-user).
 
-4. [Assign Teams Phone Mobile licenses to your users](#assign-teams-phone-mobile-licenses-to-your-users).
+4. [Acquire phone numbers](#acquire-phone-numbers).
 
-5. [Acquire phone numbers](#acquire-phone-numbers).
-
-6. [Assign phone numbers](#assign-phone-numbers).
+5. [Assign phone numbers](#assign-phone-numbers).
 
 These steps are described in greater detail in the following sections.
 

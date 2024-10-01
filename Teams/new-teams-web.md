@@ -47,7 +47,7 @@ New Teams for Web is supported on the following browsers when running on a deskt
 The browser must be configured to allow third-party cookies for some third-party or line-of-business (LOB) apps to function properly.
 
 >[!Note]
->New Teams for Web isn't supported in VDI environments, so performance and reliability may be negatively impacted if used in VDI.
+>New Teams for Web isn't supported in VDI environments, so performance and reliability may be negatively impacted if used in VDI. New Teams for Web isn't supported on mobile browsers.
 
 ## Features not currently available
 

@@ -3,10 +3,10 @@ title: Configure live event settings in Microsoft Teams
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.date: 10/01/2023
+ms.date: 8/14/2024
 ms.topic: article
 ms.service: msteams
-ms.reviewer: 
+ms.reviewer: chbalaki
 audience: admin
 search.appverid: MET150
 ms.localizationpriority: medium
@@ -28,34 +28,33 @@ appliesto:
 # Configure live event settings in Microsoft Teams
 
 > [!NOTE]
-> Teams Live Events will no longer be deprecated on September 30, 2024, as previously announced. While we still recommend that customers upgrade to [Teams town hall](../plan-town-halls.md) when ready to take advantage of new features and experiences, Live Events users can now schedule events beyond September 2024. For more information, please read our recent [blog post](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/extension-for-teams-live-events-retirement/ba-p/4148352).
+> Teams live events are no longer going away on September 30, 2024. While we still recommend you to upgrade to [Teams town hall](../plan-town-halls.md) when ready to take advantage of new features and experiences, your users can continue to schedule events beyond September 2024. For more information, see [Updates for Town Hall in Microsoft Teams and Teams Live Events](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/extension-for-teams-live-events-retirement/ba-p/4148352).
 
-Use Teams live events settings to configure settings for live events that are held in your organization. You can set up a support URL and configure a third-party video distribution provider. These settings apply to all live events that are created in your organization.
-
-You can easily manage these settings in the Microsoft Teams admin center. In the left navigation, go to **Meetings** > **Live events settings**.
+Teams live events settings  allow you, as an admin, to manage settings for live events in your organization. You can set up a support URL and configure a third-party video distribution provider. These settings apply to all live events that are created in your organization.
 
 ![Screen shot of Teams live events settings.](../media/teams-live-events-settings-new.png "Screen shot of Teams live events settings that you can configure in the Microsoft Teams admin center")
 
-## Set up event support URL
+## Add event support URL
 
-This URL is shown to live event attendees. Add the support URL for your organization to give attendees a way to contact support during a live event.
+The support URL for the event is shown to live event attendees. Add your organization's support URL so attendees can contact support during live events.
 
-### Using the Microsoft Teams admin center
+### Use the Microsoft Teams admin center to add an event support URL
 
-1. In the left navigation, go to **Meetings** > **Live event settings**.
-2. Under **Support URL**, enter your organization's support URL.
+1. Open the Teams admin center.
+2. Expand **Meetings** from the navigation pane.
+3. Under **Meetings**, select **Live event settings***.
+4. Under **Support URL**, enter your organization's support URL.
+5. Select **Save**
 
-    ![Support URL setting for live events in the admin center.](../media/teams-live-events-settings-supporturl.png "Screen shot of support URL setting for Teams live events")
+### Use PowerShell to add an event support URL
 
-### Using Windows PowerShell
+In PowerShell, the **`-SupportURL`** parameter in the **CsTeamsMeetingBroadcastConfiguration** cmdlet allows you to add a support URL for live events.
 
-Run the following:
+To add a support URL, use the following script:
 
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 ```
-
-For more information, see [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/teams/set-csteamsmeetingbroadcastconfiguration).
 
 ## Configure a third-party video distribution provider
 
@@ -63,8 +62,7 @@ For information about setting up a software defined network (SDN) solution or en
 
 ## Related topics
 
-[What are Teams live events?](what-are-teams-live-events.md)
-
-[Plan for Teams live events](plan-for-teams-live-events.md)
-
-[Set up for Teams live events](set-up-for-teams-live-events.md)
+- [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/teams/set-csteamsmeetingbroadcastconfiguration)
+- [What are Teams live events?](what-are-teams-live-events.md)
+- [Plan for Teams live events](plan-for-teams-live-events.md)
+- [Set up for Teams live events](set-up-for-teams-live-events.md)

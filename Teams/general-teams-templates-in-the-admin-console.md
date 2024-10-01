@@ -47,7 +47,7 @@ Manage tasks, share documents, conduct project meetings and document risks and d
 > [!div class="mx-tdBreakAll"]
 > | Template type| TemplateId| Properties that come with this template |
 > | ------------------|--|-----------------------------------------------------------|
-> | Manage a Project |`com.microsoft.teams.template.ManageAProject`| Channels: <ul><li>General</li> <li>Announcements</li> <li>Resources</li> <li>Planning</li></ul> Apps:<ul><li>Approvals</li><li>Bulletins</li><li>Lists<ul><li>Project tracker</li><li>Issue tracker</li></ul></li><li>Milestones</li><li>OneNote</li><li>Power Automate</li><li>SharePoint Pages<ul><li>Our site</li></ul></li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul> |
+> | Manage a Project |`com.microsoft.teams.template.ManageAProject`| Channels: <ul><li>General</li> <li>Announcements</li> <li>Resources</li> <li>Planning</li></ul> Apps:<ul><li>Approvals</li><li>Bulletins</li><li>Lists<ul><li>Project tracker</li><li>Issue tracker</li></ul></li><li>Milestones</li><li>OneNote</li><li>Power Automate</li><li>SharePoint Pages<ul><li>Our site</li></ul></li><li>Planner</li><li>Wiki</li></ul> |
 
 ## Manage an Event*
 
@@ -58,7 +58,7 @@ You might not have access to certain apps based on your app permission policy.
 > [!div class="mx-tdBreakAll"]
 > | Template type | TemplateId| Properties that come with this template |
 > | ------------------ |--|-----------------------------------------------------------|
-> | Manage an Event|`com.microsoft.teams.template.ManageAnEvent` | Channels: <ul><li>General</li> <li>Announcements</li> <li>Budget</li> <li>Content</li><li>Logistics</li> <li>Planning</li> <li> Marketing and PR</li></ul> Apps:<ul><li>Approvals</li><li>Bulletins</li> <li>Employee ideas</li> <li>Lists<ul><li>Content scheduler</li></ul><li>Milestones</li></li> <li>OneNote</li> <li>Power Automate</li> <li>SharePoint Pages<ul><li>Our site</li><li>About our event</li></ul><li>Tasks by Planner and To Do</li><li>Wiki</li> |
+> | Manage an Event|`com.microsoft.teams.template.ManageAnEvent` | Channels: <ul><li>General</li> <li>Announcements</li> <li>Budget</li> <li>Content</li><li>Logistics</li> <li>Planning</li> <li> Marketing and PR</li></ul> Apps:<ul><li>Approvals</li><li>Bulletins</li> <li>Employee ideas</li> <li>Lists<ul><li>Content scheduler</li></ul><li>Milestones</li></li> <li>OneNote</li> <li>Power Automate</li> <li>SharePoint Pages<ul><li>Our site</li><li>About our event</li></ul><li>Planner</li><li>Wiki</li> |
 
 ## Onboard Employees*
 
@@ -67,7 +67,7 @@ Improve your culture and streamline your employee onboarding with this central t
 > [!div class="mx-tdBreakAll"]
 > | Template type |TemplateId| Properties that come with this template |
 > | ------------------|--|-----------------------------------------------------------|
-> | Onboard Employees|`com.microsoft.teams.template.OnboardEmployees` | Channels: <ul><li>General</li> <li>Announcements</li> <li>Employee Chat</li> <li>Training</li></ul>Apps:<ul><li>Bulletins</li><li>Employee ideas</li><li>Lists<ul><li>Onboarding checklist</li></ul></li><li>Milestones</li><li>Power Automate</li> <li>SharePoint Pages<ul><li>Get started</li><li>Training</li></ul><li>Tasks by Planner and To Do</li><li>Viva Engage</li><li>Wiki</li></ul>|
+> | Onboard Employees|`com.microsoft.teams.template.OnboardEmployees` | Channels: <ul><li>General</li> <li>Announcements</li> <li>Employee Chat</li> <li>Training</li></ul>Apps:<ul><li>Bulletins</li><li>Employee ideas</li><li>Lists<ul><li>Onboarding checklist</li></ul></li><li>Milestones</li><li>Power Automate</li> <li>SharePoint Pages<ul><li>Get started</li><li>Training</li></ul><li>Planner</li><li>Viva Engage</li><li>Wiki</li></ul>|
 
 ## Adopt Office 365
 
@@ -85,7 +85,7 @@ Collaborate on documentation, policy, and processes that support your help desk.
 > [!div class="mx-tdBreakAll"]
 > | Template type |TemplateId| Properties that come with this template |
 > | ------------------|--|------------------------------------------------------------|
-> | Organize Help Desk| `com.microsoft.teams.template.OrganizeHelpDesk`|Channels:<ul><li>General</li><li>Announcements</li><li>FAQ</li></ul>Apps:<ul><li>Issue reporting</li><li>Lists<ul><li>Devices</li><li>Tickets</li></ul></li><li>OneNote</li><li>Power Automate</li><li>SharePoint Pages<ul><li>Our site</li><li>FAQs</li></ul></li><li>Tasks by Planner and To Do</li><li>Wiki</li></ul> |
+> | Organize Help Desk| `com.microsoft.teams.template.OrganizeHelpDesk`|Channels:<ul><li>General</li><li>Announcements</li><li>FAQ</li></ul>Apps:<ul><li>Issue reporting</li><li>Lists<ul><li>Devices</li><li>Tickets</li></ul></li><li>OneNote</li><li>Power Automate</li><li>SharePoint Pages<ul><li>Our site</li><li>FAQs</li></ul></li><li>Planner</li><li>Wiki</li></ul> |
 
 ## Crisis Communications*
 
@@ -94,7 +94,7 @@ Centralize communication and critical crisis resources for your crisis managemen
 > [!div class="mx-tdBreakAll"]
 > | Template type |TemplateId| Properties that come with this template |
 > | ------------------ |--|----------------------------------------------------------|
-> | Crisis Communications |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Channels: <ul><li>General<li>Announcements</li><li>Executive Update</li><li>Planning</li><li>Logistics</li></ul>Apps: <ul><li>Approvals</li><li>Issue reporting</li><li>Lists<ul><li>Content scheduler</li><li>Project plan</li></ul></li><li>OneNote</li><li>Power Automate</li><li>SharePoint Pages<ul><li>Our site</li><li>Latest update</li></ul><li>Tasks by Planner and To Do</li></ul>|
+> | Crisis Communications |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Channels: <ul><li>General<li>Announcements</li><li>Executive Update</li><li>Planning</li><li>Logistics</li></ul>Apps: <ul><li>Approvals</li><li>Issue reporting</li><li>Lists<ul><li>Content scheduler</li><li>Project plan</li></ul></li><li>OneNote</li><li>Power Automate</li><li>SharePoint Pages<ul><li>Our site</li><li>Latest update</li></ul><li>Planner</li></ul>|
 
 ## Related articles
 

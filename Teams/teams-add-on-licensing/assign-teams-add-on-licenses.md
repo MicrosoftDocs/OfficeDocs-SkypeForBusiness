@@ -31,7 +31,7 @@ Add-on licenses are licenses for specific Teams capabilities like Audio Conferen
 > [!NOTE]
 > See [Teams add-on licensing](./microsoft-teams-add-on-licensing.md) for Teams capabilities that are available with add-on licenses. You'll also find information about which licenses you need to buy and how to buy them, depending on your plan. After you decide which capabilities you want for your users, assign the licenses to them.
 
-You can use the Microsoft 365 admin center or PowerShell to assign licenses to users in your organization. You must be a Global admin or User management admin to manage licenses.
+You can use the Microsoft 365 admin center or PowerShell to assign licenses to users in your organization. You must be a User management admin to manage licenses.
 
 ## What you need to know before you assign Phone System, Calling Plan, and Communication Credits licenses
 

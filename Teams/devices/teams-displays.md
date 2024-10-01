@@ -1,9 +1,9 @@
 ---
 title: Microsoft Teams displays
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: prashibadkur
+ms.reviewer: eviegrimshaw
 ms.date: 05/15/2024
 ms.topic: article
 ms.service: msteams
@@ -23,6 +23,10 @@ description: This article provides an overview of and features supported by Micr
 ---
 
 # Microsoft Teams displays
+
+> [!IMPORTANT]
+>
+> End of support for the Teams display app is September 3, 2025. Microsoft will make commercially reasonable best efforts to maintain compatibility with the most recent version of the Teams app provided to manufacturers for a period of two (2) years from this date. See the [Microsoft Product and Services lifecycle](/lifecycle/products/) for details.
 
 Microsoft Teams displays are a category of all-in-one dedicated Teams devices that feature an ambient touchscreen. This article provides an overview of Teams displays and can help you plan, deliver, and manage Teams displays in your organization.
 
@@ -47,7 +51,7 @@ For more information about how to get Teams, check out [How do I get access to M
 
 ## Deploy Teams displays using Intune
 
-To learn more about how to deploy Teams displays using Intune, see [Deploy Teams phones and Teams displays](phones-displays-deploy.md).
+To learn more about how to deploy Teams displays using Intune, see [Deploy Teams phones and Teams displays](phones-panels-deploy.md).
 
 ## Manage Teams displays in your organization
 

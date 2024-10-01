@@ -7,20 +7,21 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
-ms.date: 02/12/2024
+ms.date: 09/19/2024
 ms.collection: 
   - M365-collaboration
 search.appverid: MET150
-ms.reviewer: Christian.Maier
+ms.reviewer: shruti.dhir
 f1keywords: 
 description: Learn how to purchase paid app licenses in Teams store using a credit card, a debit card, or via invoice billing.
 appliesto: 
 - Microsoft Teams
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ---
-# Purchase third-party Teams apps and manage subscriptions and licenses
 
-Some Teams apps require purchasing a service subscription to use app functionality. These service subscriptions are called Software as a Service (SaaS) offers. A license is available for purchase through [AppSource](https://appsource.microsoft.com/) and through the [Microsoft Teams admin center](https://admin.teams.microsoft.com).
+# Purchase third-party Microsoft Teams apps and manage subscriptions and licenses
+
+Some Teams apps require purchasing a service subscription to use app functionality. These service subscriptions are called Software as a Service (SaaS) offers. A license is available for purchase from [AppSource](https://appsource.microsoft.com) and in the [Microsoft Teams admin center](https://admin.teams.microsoft.com).
 
 Paid apps require users to authenticate to prevent unwarranted access. Also, user sign-in is required to check for entitlement and to make the corresponding app functionality available for the logged-in user. For authentication, app developers can use single sign-on (SSO) using Microsoft Entra ID or use third-party OAuth Identity Provider. The authentication mechanism is similar for Teams or web apps. For more information, see [How apps authenticate users](/microsoftteams/platform/concepts/authentication/authentication).
 
@@ -30,31 +31,44 @@ You can purchase licenses for services offered by third-party apps from the Mana
 
 ## Purchase apps in the Teams admin center
 
-To purchase apps in Teams admin center, follow these steps:
+To purchase an app in Teams admin center, follow these steps:
 
-1. Sign in to the Teams admin center and access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**. You must be a Global admin or Teams service admin to access the page.
+1. Sign in to the Teams admin center and access **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)**. You must be a Teams Administrator to access the page.
 
-1. Search for the app that you want by its name. To check if the app offers a paid SaaS subscription, see the **Licenses** column. Each app has one of the following values:
+1. You can search for an app by its name. To check if an app offers a paid SaaS subscription, see the **Licenses** column. Each app has one of the following values:
+
     * **Purchase**: The app offers a SaaS subscription and is available to purchase.
     * **Purchased**: The app offers a paid SaaS subscription and you have the licenses for the app.
     * **- -**: The app doesn't offer a SaaS subscription.
 
-1. Select **Purchase** to go to the **Plans and pricing** tab of the app details page. You can review the plans and pricing information available in admin center. You can select **Learn more** link to go to the app's page on [AppSource](https://appsource.microsoft.com/).
+1. Select **Purchase** on the Manage apps page to open the **Plans and pricing** tab on the app details page. You can review the plans and pricing information available in admin center. You can select **Learn more** link to go to the app's page on [AppSource](https://appsource.microsoft.com/).
 
-1. To subscribe to an app, choose the plan you want, and select **Purchase**. The checkout flow opens directly in the Teams admin center.
+   :::image type="content" source="media/app-plans-pricing.png" alt-text="Screenshot showing paid plans of an app in the Teams admin center.":::
+
+1. To subscribe to an app, choose the plan you want, and select **Buy**. The checkout dialog opens.
 
    > [!NOTE]
-   > Private plans may also be listed for purchase, which include special pricing that your organization can separately negotiate with an app developer. Such plans have the label **Private plan** under the plan name.
+   > Some apps may have a **Private plan**. Private plans are special pricing that your organization can separately negotiate with an app developer.
 
-1. Select the number of user licenses you want to buy.
+1. On the checkout screen, select the number of user licenses that you want to buy.
 
-1. Verify that the billing account and the sold-to address are correct. If you don't already have one, select **Add**. For more information on billing accounts, see [Understand billing accounts](/microsoft-365/commerce/manage-billing-accounts). Only a Global Admin can add a new billing account.
+   :::image type="content" source="media/subscription-quantity.png" alt-text="Screenshot showing the checkout dialog to select the number of licenses when an admin purchases an app.":::
 
-1. Verify that the correct billing profile is selected. If you don't already have one, select **Add new**. You can pay with a credit card, debit card, or with [invoice billing](#invoice-billing). The billing profile also lets you add a purchase order number to identify your order later. For more information on billing profiles, see [Understand billing profiles](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles).
+1. Under **Billing account**, provide the name and billing details and select **Next**.
 
-1. Select **Place order**.
+   :::image type="content" source="media/app-purchase-billing-details.png" alt-text="Screenshot showing the billing account name and address when admins purchase an app.":::
 
-1. Select **Set up** to activate your subscription on the app developer's website. If you don't set up your subscription after your purchase, you can do it later by selecting **Manage subscriptions**.
+1. Under **Verify your address**, select the address and select **Next**.
+
+   :::image type="content" source="media/app-purchase-verify-address.png" alt-text="Screenshot showing the billing address verification dialog when admins purchase an app.":::
+
+1. Under **Add a credit or debit card**, add the required details and select **Next**. By default, the **Same as billing address** checkbox is selected to use the billing account’s address for the card. To add a new address, clear the checkbox and enter the address.
+
+   :::image type="content" source="media/app-purchase-credit-card.png" alt-text="Screenshot showing the payment dialog with credit card details when admins purchase an app.":::
+
+1. Under **Review**, verify the details and select **Place order**.
+
+1. Select **Set up subscription** to activate your subscription on the app developer's website. If you don't set up your subscription after your purchase, you can do it later.
 
 After you purchase the SaaS offer associated with a Teams app, you can view the following purchase details on the **Plans and subscriptions** tab of the app details page.
 
@@ -63,19 +77,19 @@ After you purchase the SaaS offer associated with a Teams app, you can view the 
 
 Select **Manage subscriptions** to view and manage the licenses you already have.
 
-Global Administrators can view the subscriptions purchased by anyone in the organization, but they can only add more licenses, remove licenses, and cancel subscriptions for purchases made by anyone in their billing account. Teams Administrators can perform the same actions for purchases made by them.
+Global Administrators can view the subscriptions purchased by anyone in the organization. They can add more licenses, remove licenses, and cancel subscriptions for purchases made by anyone in their billing account. Teams Administrators can perform the same actions for purchases made by them but not for the purchases made by other admins.
 
 > [!NOTE]
-> If a Global Admin wants to manage a subscription purchased by another Global Admin, they need to be in the same billing account. You can give another Global Admin access to a subscription you purchased by selecting the app in the [Microsoft 365 admin center](https://admin.microsoft.com). In admin center, access **View billing profile** > **Select billing account** > **Assign roles** > **Add other Global admins**.
+> If a Global Administrator wants to manage a subscription purchased by another Global Administrator, they need to be in the same billing account. You can give another Global Administrator access to a subscription you purchased by selecting the app in the [Microsoft 365 admin center](https://admin.microsoft.com). In admin center, access **View billing profile** > **Select billing account** > **Assign roles** > **Add other Global admins**.
 
 > [!IMPORTANT]
-> When you enable app purchasing, it also turns on in-app purchasing. Users may see in-app purchase offers which are controlled by the app developer for their app. To prevent users from purchasing an app, you have to block the app.
+> When you enable app purchasing, it also turns on in-app purchasing. Users may see in-app purchase offers that app developer control. To prevent users from making in-app purchases, you can block the app.
 
 ### Invoice billing
 
 * Invoice billing is available as a payment option for some transactions.
 * A credit review is required the first time you use invoice billing, which can take up to 24 to 48 hours for approval. Invoice billing isn't available until the credit check is complete. You can place your order with a credit card or try again later after your credit review is approved.
-* Invoice billing is only available for Global admins or an admin with both Teams service admin and Billing admin permissions.
+* Invoice billing is only available for an admin account that has Teams Administrator and Billing Administrator role.
 * Invoice billing isn't available when purchasing a plan with a 30-day free trial.
 
 ## Manage subscriptions in Teams admin center
@@ -92,7 +106,7 @@ In Teams admins center, you can manage the app subscriptions and licenses you pu
 
 To manage subscriptions, follow these steps:
 
-1. Sign in to Teams admin center and access **Teams apps** > [**Manage apps**](https://admin.teams.microsoft.com/policies/manage-apps) .
+1. Sign in to Teams admin center and access **Teams apps** > [**Manage apps**](https://admin.teams.microsoft.com/policies/manage-apps).
 
 1. Select the **Subscriptions** tab to view the subscriptions you purchased.
 
@@ -126,7 +140,7 @@ You can assign a license to one or more users in your tenant. To view and assign
 
 1. To view the licenses, select an app. The app details page shows the number of licenses available for the app on the **Licenses** tab.
 
-   :::image type="content" source="media/purchased-licenses.png" alt-text="Screenshot that shows the purchased licenses of an app."  lightbox="media/purchased-licenses1.png":::
+   :::image type="content" source="media/purchased-licenses.png" alt-text="Screenshot that shows the purchased licenses of an app.":::
 
 1. To view the license utilization and assign licenses, select **Assign licenses**. The assign licenses window appears.
 
@@ -148,13 +162,13 @@ To manage licenses across multiple users who are part of the same team, you can 
 
 1. Search and select the team, and select **Assign**.
 
-After you assign licenses to the users or team, you can view the list of assigned users. This list allows you to view a mapping of licenses and assigned users.
+   After you assign licenses to the users or team, you can view the list of assigned users. This list allows you to view a mapping of licenses and assigned users.
 
    :::image type="content" source="media/remove-licenses.png" alt-text="Screenshot that shows list of assigned users to remove the licenses." lightbox="media/remove-licenses1.png":::
 
 ## Disable app purchases in Teams admin center
 
-To prevent users from purchasing third-party apps, you can disable purchases using the MSCommerce PowerShell module. You can view a list of applicable apps and whether self-service purchase is enabled or disabled, using `AllowSelfServicePurchase` parameter. For more information, see [Use AllowSelfServicePurchase to disable Teams app purchases](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell?view=o365-worldwide). The change applies to all users in your organization.
+To prevent users from purchasing third-party apps, you can disable purchases using the MSCommerce PowerShell module. You can view a list of applicable apps and whether self-service purchase is enabled or disabled, using `AllowSelfServicePurchase` parameter. For more information, see [Use AllowSelfServicePurchase to disable Teams app purchases](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell). The change applies to all users in your organization.
 
 ## Related articles
 

@@ -112,7 +112,7 @@ The following example configurations provide Exchange UM resiliency.
 
 **Example 1: Exchange UM Resiliency**
 
-![Exchange UM Resiliency diagram.](../../media/d8381ecc-0e4e-47ea-9bf7-e54fec9414e7.png)
+![Diagram shows Exchange UM Resiliency.](../../media/d8381ecc-0e4e-47ea-9bf7-e54fec9414e7.png)
 
 In Example 1, Exchange UM servers 1 and 2 are enabled in the Tukwila data center, and Exchange UM servers 3 and 4 are enabled in the Dublin data center. In the event of an Exchange UM outage in Tukwila, the Domain Name System (DNS) A records for servers 1 and 2 should be configured to point to servers 3 and 4, respectively. In the event of an Exchange UM outage in Dublin, the DNS A records for servers 3 and 4 should be configured to point to servers 1 and 2, respectively.
 
@@ -121,7 +121,7 @@ In Example 1, Exchange UM servers 1 and 2 are enabled in the Tukwila data center
 
 **Example 2: Exchange UM Resiliency**
 
-![Exchange UM Resiliency diagram.](../../media/4ad101c3-f318-4fc0-b4da-c05f2e92a943.png)
+![[Diagram of Exchange UM Resiliency.](../../media/4ad101c3-f318-4fc0-b4da-c05f2e92a943.png)
 
 In Example 2, under ordinary operating conditions Exchange UM servers 1 and 2 are enabled in the Tukwila data center, and Exchange UM servers 3 and 4 are enabled in the Dublin data center. All four servers are included in the Tukwila users' SIP URI dial plan; however, servers 3 and 4 are disabled. In the event of an Exchange UM outage in Tukwila, for example, Exchange UM servers 1 and 2 should be disabled and Exchange UM servers 3 and 4 should be enabled so the Tukwila Exchange UM traffic will be routed to the servers in Dublin.
 

@@ -3,7 +3,7 @@ title: Configure Teams Phone Mobile
 author: CarolynRowe
 ms.author: crowe
 manager: pamgreen
-ms.date: 08/10/2023
+ms.date: 07/08/2024
 ms.topic: article
 ms.service: msteams 
 audience: admin

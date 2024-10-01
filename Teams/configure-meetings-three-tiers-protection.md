@@ -3,7 +3,7 @@ title: Configure Teams meetings with three tiers of protection
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
-ms.topic: article
+ms.topic: solution-overview
 ms.service: msteams
 ms.reviewer: 
 ms.date: 12/11/2023

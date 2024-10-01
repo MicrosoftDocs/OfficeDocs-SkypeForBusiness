@@ -1,9 +1,9 @@
 ---
-title: Get information for connected peripherals
+title: Add peripherals to inventory
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: prashibadkur
+ms.reviewer: eviegrimshaw
 ms.date: 05/02/2024  
 ms.topic: article
 audience: Admin
@@ -20,10 +20,10 @@ ms.custom: QuickDraft
 search.appverid: MET150  
 f1.keywords:
   - NOCSH
-description: Learn how to gather information about connected devices in Microsoft Teams using PowerShell and upload the data to the Teams Pro Management portal for BYOD monitoring and reporting.
+description: Learn how to gather information about connected devices and add them to your inventory in Microsoft Teams
 ---
 
-  # Using PowerShell to gather and upload information on devices in BYOD Rooms and Bookable Desks to Teams Rooms Pro Management Portal 
+  # Add peripherals to inventory
 
 The script utilizes PowerShell cmdlets and native Windows API functions to gather information about connected devices (peripherals). It can tell the differences between different types of peripherals such as USB devices, monitors, cameras, speakers, and microphones.
 

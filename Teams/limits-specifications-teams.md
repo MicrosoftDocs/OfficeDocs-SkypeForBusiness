@@ -46,7 +46,7 @@ This article describes some of the limits, specifications, and other requirement
 
 <sup>1</sup> Any directory object in Microsoft Entra ID counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](/graph/permissions-reference).
 
-<sup>2</sup> This limit includes archived teams. 
+<sup>2</sup> This limit includes archived teams.
 
 <sup>3</sup> To further increase the number of teams, you must contact Microsoft support and request further increase to the number of Microsoft Entra objects in your tenant. Increase is only made for real-life production scenarios.
 
@@ -101,7 +101,7 @@ Users who participate in conversations that are part of the chat list in Teams m
 
 <sup>1</sup> If you have more than 20 people in a chat, the following chat features are turned off: Outlook automatic replies and Teams status messages; typing indicator; video and audio calling; sharing; read receipts. The "Set Delivery Options" button (!) is also removed when private group chats contain more than 20 members.
 
-<sup>2</sup> Only 200 members can be added to a group chat at the same time. 
+<sup>2</sup> Only 200 members can be added to a group chat at the same time.
 
 <sup>3</sup> If the number of attachments exceeds this limit, you'll see an error message.
 
@@ -185,20 +185,20 @@ Live events are structured meetings that enable your organization to schedule an
 |Duration of event | 16 hours <sup>2>/sup> |
 |Concurrent Live Events running in a Microsoft 365 or Office 365 organization <sup>3</sup> | 50<sup>4</sup> |
 
-<sup>1</sup>  The usual 10,000 is increased to 20,000 through June 30, 2024. You can schedule even greater numbers with live events in Viva Engage and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365). Events over 20,000 attendees require the [Live Events Assistance Program](/stream/live-events-assistance).
+<sup>1</sup>  The usual 10,000 is increased to 20,000 until further notice. You can schedule even greater numbers with live events in Viva Engage and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365). Events over 20,000 attendees require the [Live Events Assistance Program](/stream/live-events-assistance).
 
-<sup>2</sup> The usual 4 hours is increased to 16 hours through June 30, 2024.
+<sup>2</sup> The usual 4 hours is increased to 16 hours until further notice.
 
 <sup>3</sup> You can schedule as many Live Events as you want, but you can only run 15 at a time. As soon as the producer joins a live event, it's considered to be running. The producer who attempts to join the 16th live event gets an error.
 
-<sup>4</sup>  The usual 15 is increased to 50 through June 30, 2024.
+<sup>4</sup>  The usual 15 is increased to 50 until further notice.
 
 For more information about live events, go to [Teams live events](teams-live-events/plan-for-teams-live-events.md#teams-live-events). See also [Schedule a Teams live event](https://support.microsoft.com/office/schedule-a-live-event-in-microsoft-teams-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
 > [!IMPORTANT]
 > **Microsoft 365 live event limit increases**
 >
-> **To continue supporting our customers' needs, we will extend temporary limit increases for live events through June 30, 2024, including:**
+> **To continue supporting our customers' needs, we will extend temporary limit increases for live events until further notice, including:**
 >
 >- Event support for up to 20,000 attendees
 >- 50 events can be hosted simultaneously across a tenant
