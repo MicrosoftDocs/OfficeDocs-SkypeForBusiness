@@ -5273,27 +5273,6 @@
     "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/backup-cccertificationauthority.md",
     "redirect_url": "/microsoftteams/cloud-voice-landing-page",
     "redirect_document_id": false
-
-  },
-  {
-    "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/export-ccrootcertificate.md",
-    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
-    "redirect_document_id": false
-  },
-  {
-    "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/get-ccappliancedirectory.md",
-    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
-    "redirect_document_id": false
-  },
-  {
-    "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/get-ccappliancelogdirectory.md",
-    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
-    "redirect_document_id": false
-  },
-  {
-    "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/get-ccappliancestatus.md",
-    "redirect_url": "/microsoftteams/cloud-voice-landing-page",
-    "redirect_document_id": false
   },
   {
     "source_path": "skype/sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/get-cccredential.md",
