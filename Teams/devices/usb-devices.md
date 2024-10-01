@@ -68,13 +68,14 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 ## Certified devices
 
-*Table Updated September 2024*
+*Table Updated October 2024*
 
 > [!NOTE]
 > The date format is MM/DD/YYYY.
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Yealink              |BH74 Headset                                               |9/25/2024       |Certified for Microsoft Teams                           |
 |EPOS                 |IMPACT 460T                                                |8/5/2024        |Certified for Microsoft Teams                           |
 |EPOS                 |IMPACT 430T                                                |8/5/2024        |Certified for Microsoft Teams                           | 
 |Yealink              |WH64 Hybrid Dual/Mono Headset                              |7/23/2024       |Certified for Microsoft Teams                           | 
