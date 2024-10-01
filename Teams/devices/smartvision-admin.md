@@ -125,7 +125,7 @@ Get-CsTeamsMeetingPolicy -identity {identity_name} // to confirm the changed val
 
 When you schedule a meeting, the users who wish to be identified must be invited to meeting or meeting forwarded to them before the meeting transcription is started . 
 
-Note: Identification only works for Face enrolled users, everyone else will be treated as a participant.
+Note that identification only works for Face-enrolled users, everyone else will be treated as a participant.
 
 > [!Note]
 > Adhoc meetings won't have face identifications, where there is no Outlook appointment with a list of participants.
