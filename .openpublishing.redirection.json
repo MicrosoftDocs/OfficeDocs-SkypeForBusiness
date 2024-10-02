@@ -5324,6 +5324,11 @@
 	  "source_path": "Skype/SfbPartnerCertification/lync-cert/pcs-optimized-for-lync.md",
 	  "redirect_url": "/microsoftteams/devices/certification-overview",
 	  "redirect_document_id": false
-	}
+	},
+    {
+      "source_path": "Teams/devices/teams-ip-phones.md",
+      "redirect_url": "/microsoftteams/devices/certified-hardware-android",
+      "redirect_document_id": false
+    }, 
   ]
 }
