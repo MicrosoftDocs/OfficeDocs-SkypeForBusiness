@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: jamp, oloper, hakanbe, mamcgrath
-ms.date: 09/26/2024
+ms.date: 10/01/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -101,20 +101,20 @@ The following Local classifiers are based on a user’s telemetry to predict if 
 
 The following list displays the measurements for [Local classifiers](#local-classifiers) using the *Problem* dimension. Each Local classifier is represented with /.../ in the list below:
 
-- /../ Problem True Count
-- /../ Problem False Count
-- /../ Problem Null Count
-- /../ Problem Rate
-- /../ Problem Rate Upper Limit
-- /../ Problem Rate Lower Limit
+- /.../ Problem True Count
+- /.../ Problem False Count
+- /.../ Problem Null Count
+- /.../ Problem Rate
+- /.../ Problem Rate Upper Limit
+- /.../ Problem Rate Lower Limit
 
-For example, the Local classifier *Detected Media Modality* uses the *Problem* dimensions with measurements for Problem True Count, Problem False Count, Problem Null Count, Problem Rate, Problem Rate Upper Limit, and Problem Rate Lower Limit.
+For example, the Local classifier *Detected Media Modality* uses the *Problem* dimension with measurements for Problem True Count, Problem False Count, Problem Null Count, Problem Rate, Problem Rate Upper Limit, and Problem Rate Lower Limit.
 
 Detected Inbound Network, Detected Local Compute, and Detected Local Input Device also have the following additional measurements:
 
-- /../ Caused Problem Rate
-- /../ Caused Problem Rate Upper Limit
-- /../ Caused Problem Rate Lower Limit
+- /.../ Caused Problem Rate
+- /.../ Caused Problem Rate Upper Limit
+- /.../ Caused Problem Rate Lower Limit
 
 ### Remote classifiers
 
@@ -131,18 +131,18 @@ The following Remote classifiers are based on a user’s telemetry to predict if
 
 The following list displays the measurements for all [Remote classifiers](#remote-classifiers) using the *Problem* dimension. Each Remote classifier is represented with /.../ in the list below:
 
-- /../ Problem True Count
-- /../ Problem False Count
-- /../ Problem Null Count
-- /../ Problem Rate
-- /../ Problem Rate Upper Limit
-- /../ Problem Rate Lower Limit
+- /.../ Problem True Count
+- /.../ Problem False Count
+- /.../ Problem Null Count
+- /.../ Problem Rate
+- /.../ Problem Rate Upper Limit
+- /.../ Problem Rate Lower Limit
 
 For example, the Remote classifier of *Detected Input Device Causing* uses the *Problem* dimension with measurements for Problem True Count, Problem False Count, Problem Null Count, Problem Rate, Problem Rate Upper Limit, and Problem Rate Lower Limit.
 
-### Other user classifiers
+#### Other user classifiers
 
-Other user classifiers are based on the problems that a dominant participant has that degrades the experience of the remaining Conference call participants:
+Other user classifiers, a type of remote classifier, are based on the problems that a dominant participant has that degrades the experience of the remaining Conference call participants:
 
 |Classifier|Description|
 |:-----|:-----|
@@ -151,7 +151,7 @@ Other user classifiers are based on the problems that a dominant participant has
 |Detected Other User Device|Predict if the quality of a user’s received media quality is degraded due to other (dominant) participant’s media capture device issues.|
 |Detected Hearing Echo|Predicts if the quality of a user’s received media quality is degraded due to other (dominant) participant’s echo issues.|
 
-#### Other user classifier measurement for detected problems
+##### Other user classifier measurement for detected problems
 
 Other user classifiers use the /.../ Problem dimension.
 
