@@ -70,7 +70,7 @@ When creating an enrollment profile, verify it doesn't conflict with any enrollm
    ![Screenshot of AOSP enrollment profile.](media/android-migration-guide/aosp-enrollment-profile.png)
 
 > [!IMPORTANT]
-> The enrollment profile defaults to a 65 year token expiration. If you are a customer participating in private preview of AOSP DM, you will need to have a 90 day or shorter expiration configured, customers waiting for general availability of AOSP DM can utilize the 65 year expiration. An expired enrollment token will not impact any existing devices, just new device enrollments and sign ins.
+> The enrollment profile defaults to a 65 year token expiration. If you are a customer participating in private preview of AOSP DM, you will need to have a 90 day or shorter expiration configured, customers waiting for general availability of AOSP DM can utilize the 65 year expiration. An expired enrollment token will not impact any existing devices, just new device enrollments and sign-ins.
 
 6. Select **Next**.
 7. Review the profile and then select **Create**.
