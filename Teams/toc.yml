@@ -85,6 +85,8 @@ items:
                   href: new-teams-desktop-admin.md
                 - name: Features that are changing in new Teams
                   href: new-teams-whats-changing.md
+                - name: New Teams client requirements
+                  href: teams-client-system-requirements.md
                 - name: Deployment checklist for new Teams
                   href: new-teams-deployment-checklist.md
                 - name: Upgrade to the new Teams using policies               
@@ -1695,8 +1697,6 @@ items:
           href: adobe-acrobat-pdf-viewer-teams.md
         - name: Manage Microsoft 365 and custom connectors
           href: m365-custom-connectors.md
-        - name: Auto install approved apps
-          href: auto-install-approved-apps.md
 
     - name: Manage custom apps
       items:

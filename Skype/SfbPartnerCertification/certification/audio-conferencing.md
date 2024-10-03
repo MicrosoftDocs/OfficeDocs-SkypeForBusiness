@@ -48,18 +48,6 @@ Vendors listed in the following table have been certified for Skype for Business
     </thead>
     <tbody>
         <tr>
-            <td><a href="http://www.intercall.com/services/unified-communication/office365-lyncOnline.php">InterCall</a></td>
-            <td>Y</td>
-            <td>Y</td>
-            <td>Y</td>
-        </tr>
-        <tr>
-            <td><a href="http://www.pgi.com/products/microsoft-lync-online/">PGi</a></td>
-            <td>Y</td>
-            <td>Y</td>
-            <td>Y</td>
-        </tr>
-        <tr>
             <td><a href="https://www.btconferencing.com/">BT</a></td>
             <td>Y</td>
             <td>Y</td>
@@ -76,11 +64,11 @@ Vendors listed in the following table have been certified for Skype for Business
 
 <br/>
 
-If you're a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
+If you're a vendor seeking to join the certification program, see [How to Join](/microsoftteams/devices/certification-join) for requirements and available programs.
 
 ### Additional Resources
 
-Learn about [Skype for Business certification](../certification/overview.md) .
+Learn about [Microsoft Teams Device Certification Program overview](/microsoftteams/devices/certification-overview).
 
 For companies that want to certify their Wi-Fi products, contact Ixia, a third-party vendor responsible for Skype for Business Wi-Fi certification: TestSkype@ixiacom.com
 
