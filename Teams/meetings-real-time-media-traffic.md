@@ -57,7 +57,7 @@ Note: If you enable QoS or change settings in the Microsoft Teams admin center f
 
     - If you've enabled Quality of Service, you must manage your port settings. 
     
-      To specify port ranges, next to **Select a port range for each type of real-time media traffic**, select  **Specify port ranges**, and then enter the starting and ending ports for audio, video, and screen sharing. 
+      To specify port ranges, next to **Select a port range for each type of real-time media traffic**, select  **Specify port ranges**, and then enter the starting and ending ports for audio, video, and screen sharing. The port ranges for calling and meeting signaling are not customizable currently.
       
       Selecting a port range that is too narrow will lead to dropped calls and poor call quality. For more information about choosing port ranges, see [Choose initial port ranges](qos-in-teams.md#step-3-choose-initial-port-ranges-for-each-media-type).
 
