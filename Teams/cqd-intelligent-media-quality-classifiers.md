@@ -265,7 +265,7 @@ Network classifiers predict quality issues largely based on audio telemetry from
 #### Network root cause examples
 
 - If the wifi strength is low, then the network classifier indicates that the office location isn't adequately covered with wifi. Check the number and positioning of the access points.
-- If the network metrics are worsening periodically in a specific location, then the network classifier indicates that there's network congestion when the calling volume is high. For example, if there are monthly company meetings where a large part of the site is joining, you might consider [deploying eCDN](../ecdn/intro.md).
+- If the network metrics are worsening periodically in a specific location, then the network classifier indicates that there's network congestion when the calling volume is high. For example, if there are monthly company meetings where a large part of the site is joining, you might consider [deploying eCDN](https://learn.microsoft.com/en-us/ecdn/intro).
 - If AV Sync distance values are high, then the network classifier indicates that there are network congestion problems because audio is prioritized over video. Check that there's enough bandwidth, and that the bandwidth is stable enough to allow for good quality video and VBSS.
 
 ### Compute classifiers
