@@ -28,7 +28,7 @@ ms.custom:
 
 Teams accepts live feeds from various different encoders that output RTMP or RTMPS. Each encoder is different, so make sure to follow the guidelines for the encoder configurations when sending to Teams.
 
-To learn how to set up a live event in Teams, see [Set up for live events in Microsoft Teams](/microsoftteams/set-up-for-teams-live-events). If you're already using an encoder integrated with Teams, see [configuring encoders for live streaming](teams-encoder-setup.md).
+To learn how to set up a live event in Teams, see [Set up for live events in Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events). If you're already using an encoder integrated with Teams, see [configuring encoders for live streaming](teams-encoder-setup.md).
 
 ## Configuration Steps
 
