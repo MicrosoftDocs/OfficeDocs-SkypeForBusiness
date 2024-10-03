@@ -1298,7 +1298,7 @@ items:
           href: microsoft-teams-online-call-flows.md
         - name: Contact Center integrations
           href: teams-contact-center.md
-
+  
 - name: Teams Rooms and devices 
   items:
     - name: What's new in Teams devices
@@ -1306,34 +1306,6 @@ items:
     - name: Teams device store
       href: devices/device-store.md
     - name: Teams device certification
-      items:
-        - name: Certification overview
-          href: devices/certification-overview.md
-        - name: Partners
-          items:
-            - name: Partners device certification
-              href: devices/certification-partners.md
-            - name: How to join the program
-              href: devices/certification-join.md
-        - name: IT admins and decision makers
-          href: devices/certification-it-admins.md
-        - name: End users
-          href: devices/certification-end-users.md
-        - name: Teams specifications
-          href: devices/certification-specifications.md
-        - name: Teams Rooms certified systems and peripherals
-          href: rooms/certified-hardware.md 
-        - name: Personal peripherals
-          href: devices/usb-devices.md
-        - name: Teams certified Android devices
-          href: devices/teams-ip-phones.md
-        - name: Android version support
-          href: devices/android-version-support.md
-        - name: Supported Teams apps for Android devices (in process)
-          href: devices/certified-device-apps.md
-
-
-- name: Rooms and devices
   items:
     - name: Teams device store
       href: devices/device-store.md
@@ -1373,8 +1345,7 @@ items:
               href: devices/teams-displays-certified-hardware.md
             - name: Personal peripherals
               href: devices/usb-devices.md
-        - name: Management apps
-          href: devices/certified-device-apps.md
+              
     - name: Teams Rooms & panels
       items: 
         - name: Overview & planning
