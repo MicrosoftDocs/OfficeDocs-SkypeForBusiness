@@ -105,6 +105,6 @@ After you schedule the live event using Teams or Viva Engage, and select the **T
 
 ## Related topics
 
-- [What is Teams live events?](/MicrosoftTeams/teams-live-events/configure-teams-live-events)
-- [Plan for Teams live events](/MicrosoftTeams/teams-live-events/configure-teams-live-events)
-- [Configure live events settings in Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events)
+- [What is Teams live events?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events)
+- [Plan for Teams live events](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events)
+- [Configure live events settings in Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events)
