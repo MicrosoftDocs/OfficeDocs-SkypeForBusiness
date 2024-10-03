@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: jamp, oloper, hakanbe, mamcgrath
-ms.date: 10/01/2024
+ms.date: 10/03/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -125,7 +125,6 @@ The following Remote classifiers are based on a user’s telemetry to predict if
 |Detected Uplink|Predicts if the quality of sent media is degraded due to the link from endpoint to server.|
 |Detected Compute Device Causing|Predicts if the quality of sent media is degraded due to user’s compute device.|
 |Detected Input Device Causing|Predicts if the quality of sent media is degraded due to user’s media capture device.|
-|Detected Leaking Echo|Predicts if the quality of sent audio is degraded due to acoustic echo.|
 
 #### Remote classifier measurements for detected problems
 
@@ -140,7 +139,7 @@ The following list displays the measurements for all [Remote classifiers](#remot
 
 For example, the Remote classifier of *Detected Input Device Causing* uses the *Problem* dimension with measurements for Problem True Count, Problem False Count, Problem Null Count, Problem Rate, Problem Rate Upper Limit, and Problem Rate Lower Limit.
 
-#### Other user classifiers
+### Other user classifiers
 
 Other user classifiers, a type of remote classifier, are based on the problems that a dominant participant has that degrades the experience of the remaining Conference call participants:
 
@@ -149,9 +148,8 @@ Other user classifiers, a type of remote classifier, are based on the problems t
 |Detected Other User Uplink|Predicts if the quality of a user’s received media quality is degraded due to other (dominant) participant’s uplink issues.|
 |Detected Other User Compute|Predicts if the quality of a user’s received media quality is degraded due to other (dominant) participant’s compute device issues.|
 |Detected Other User Device|Predict if the quality of a user’s received media quality is degraded due to other (dominant) participant’s media capture device issues.|
-|Detected Hearing Echo|Predicts if the quality of a user’s received media quality is degraded due to other (dominant) participant’s echo issues.|
 
-##### Other user classifier measurement for detected problems
+#### Other user classifier measurement for detected problems
 
 Other user classifiers use the /.../ Problem dimension.
 
@@ -267,7 +265,7 @@ Network classifiers predict quality issues largely based on audio telemetry from
 #### Network root cause examples
 
 - If the wifi strength is low, then the network classifier indicates that the office location is not adequately covered with wifi. Check the number and positioning of the access points.
-- If the network metrics are worsening periodically in a specific location, then the network classifier indicates that there's network congestion when the calling volume is high. For example, if there are monthly company meetings where a large part of the site is joining, you might consider [deploying eCDN](/ecdn/intro.md).
+- If the network metrics are worsening periodically in a specific location, then the network classifier indicates that there's network congestion when the calling volume is high. For example, if there are monthly company meetings where a large part of the site is joining, you might consider [deploying eCDN](../ecdn/intro.md).
 - If AV Sync distance values are high, then the network classifier indicates that there are network congestion problems because audio is prioritized over video. Check that there is enough bandwidth, and that the bandwidth is stable enough to allow for good quality video and VBSS.
 
 ### Compute classifiers
