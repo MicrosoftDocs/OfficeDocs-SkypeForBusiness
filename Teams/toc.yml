@@ -1329,6 +1329,8 @@ items:
               href: devices/android-version-support.md      
         - name: Teams Certified Devices
           items: 
+            - name: Overview of certified devices
+              href: devices/certified-devices-overview.md
             - name: Teams Rooms on Windows certified devices
               href: rooms/certified-hardware.md
             - name: Teams Rooms on Android certified devices
