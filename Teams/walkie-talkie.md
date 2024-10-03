@@ -6,7 +6,7 @@ manager: jtremper
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: prkoduku
+ms.reviewer: yinchang
 description: How to manage the Walkie Talkie app in Microsoft Teams, which provides push-to-talk communication for teams on Android and iOS devices.
 ms.localizationpriority: medium
 search.appverid: MET150

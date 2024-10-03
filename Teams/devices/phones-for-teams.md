@@ -1,9 +1,9 @@
 ---
 title: Phones for Microsoft Teams
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: kponnus
+ms.reviewer: prashibadkur
 ms.date: 04/25/2024
 ms.topic: article
 ms.service: msteams
@@ -64,7 +64,7 @@ For more information about getting Teams, check out [How do I get access to Micr
 
 ## Deploy your phones using Intune
 
-To learn more about how to deploy Teams displays using Intune, see [Deploy Teams phones and Teams displays](phones-displays-deploy.md).
+To learn more about how to deploy Teams displays using Intune, see [Deploy Teams phones and Teams panels](phones-panels-deploy.md).
 
 ## Manage your phones
 

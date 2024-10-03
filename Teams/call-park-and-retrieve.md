@@ -44,9 +44,11 @@ By default, the range of call pickup numbers is from 10-99. You can also create 
 
 You can specify a timeout as the number of seconds to wait before ringing back when the parked call isn't picked up. The allowed range is 120-1800 seconds, and the default value is 300 seconds.
 
-To configure call park and retrieve, you must be a Teams administrator. Call park and retrieve is turned off by default. You can enable it for users and create user groups by using the call park policy. When you apply the same policy to a set of users, they can park and retrieve calls among themselves.
+To configure call park and retrieve, you must be a Teams administrator. Call park and retrieve is turned off by default. You can enable it for users and create user groups by using the call park policy. Assign the same call park policy to users who need to park and retrieve calls amongst themselves.  
 
 > [!NOTE]
+> When users are **not** assigned the same call park policy, retrieving parked calls will fail.
+> 
 > Call park and retrieve is only available in [Teams Only deployment mode](teams-and-skypeforbusiness-coexistence-and-interoperability.md). It isn't supported on Skype for Business IP phones.
 
 You can configure call park and retrieve by using the Teams admin center or by using PowerShell.

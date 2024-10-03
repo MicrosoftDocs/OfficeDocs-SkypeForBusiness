@@ -5,7 +5,7 @@ author: typride
 manager: tyadams
 audience: ITPro
 ms.reviewer: sekerawa
-ms.date: 06/20/2024
+ms.date: 10/01/2024
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - teams-1p-app-admin
-description: Learn how to set up immersive spaces for teams.
+description: Learn how to set up and manage the Mesh app in Teams that is allows users to access an Immersive space (3D) in a Teams meeting and access the Mesh events in Teams.
 ---
 
 
@@ -64,21 +64,13 @@ Teams Essentials, Microsoft 365 Business Basic, Microsoft 365 Business Standard,
 
 This section outlines the specific endpoints and firewall requirements for the Mesh app in Teams, which allows users to join an immersive space (3D) while in a Teams meeting.
 
-1. Ensure you have configured your enterprise firewall settings to align with the standard set of Microsoft 365 requirements outlined in [Microsoft 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true).
+Configure your enterprise firewall settings to align with the standard set of Microsoft 365 requirements for **Microsoft Teams**, and **Microsoft 365 Common** outlined in [Microsoft M365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true).
 
-    Mesh also requires the IP addresses and port ranges detailed in [Firewall configuration for Azure Communication Services](/azure/communication-services/concepts/voice-video-calling/network-requirements#firewall-configuration&preserve-view=true) for media capabilities such as audio, video, and screenshare.
+As part of this, ensure that you have configured your firewall to enable traffic to `*.cloud.microsoft.com`, `*.office.com`, and `*.microsoft.com` over `TCP 443`, `80`.
 
-    Without access to these, Mesh won't work properly for users in your organization.
+Mesh also requires the IP addresses and port ranges detailed in [Firewall configuration for Azure Communication Services](https://learn.microsoft.com/azure/communication-services/concepts/voice-video-calling/network-requirements#firewall-configuration) for media capabilities such as audio, video, and screenshare.
 
-1. In addition to the standard set of endpoints for Microsoft 365, Mesh Immersive Spaces in Teams currently requires that outgoing traffic is allowed to IP addresses in the "AzureCloud" service tag over the following protocols and ports:
-
-    - TCP: 443, 80
-    - TCP & UDP: 30,000-30,499
-    - UDP: 3478-3481
-
-If you need to resolve a service tag to a list of IP ranges, you can periodically use the [service tag API][service-tag-api] or [download a snapshot][service-tag-download].
-
-For more information about service tags, see the [Azure service tags overview][service-tag].
+Without access to these, Mesh won't work properly for users in your organization.
 
 ## Use app centric management for immersive spaces in Teams
 
@@ -124,18 +116,6 @@ For more information about assigning licenses in Microsoft 365, see:
 
 For more complex and larger group license management, you can do [Assign licenses to a group - Microsoft Entra ID | Microsoft Learn](/entra/identity/users/licensing-groups-assign).
 
-## End user license agreement
-
-Your users must enter a separate agreement directly with Microsoft to enable spatial audio for Mesh experiences. That agreement is presented to your users before the user's first use of Mesh. If a user does not wish to enter into that agreement, the user cannot use Mesh.
-
-As an admin, if you don't want users in your organization to agree to these terms, you can disable immersive spaces in Teams for users in your organization.
-
-:::image type="content" source="media/meetings-immersive-spaces-EULA-agreement.png" alt-text="Screenshot of the End User License Agreement for immersive spaces in Teams.":::
-
 ## Next steps for immersive spaces
 
 To see all the features and learn more about immersive spaces, see [Immersive spaces in Teams](https://aka.ms/immersivespacesdocs).
-
-[service-tag]: /azure/virtual-network/service-tags-overview
-[service-tag-api]: /azure/virtual-network/service-tags-overview#use-the-service-tag-discovery-api
-[service-tag-download]: /azure/virtual-network/service-tags-overview#discover-service-tags-by-using-downloadable-json-files

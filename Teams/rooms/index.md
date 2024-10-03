@@ -1,10 +1,10 @@
 ---
 title: Microsoft Teams Rooms
-ms.reviewer: sohailta
-ms.date: 10/04/2023
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
+ms.reviewer: sohailta
+ms.date: 09/30/2024
 audience: ITPro
 ms.topic: article
 feedback_system: None
@@ -28,13 +28,13 @@ ms.custom: seo-marvel-may2020; intro-overview
 
 :::row:::
     :::column span="2":::
-       Transform meeting spaces ranging from small huddle areas to large conference rooms with a rich, collaborative Teams experience that's simple to use, deploy, and manage.
-
-       Start meetings on time with one-touch join, then instantly project to the display in the room and share to remote participants.
-
-       Teams Rooms are available in Windows & Android variants from one of many partners: HP/Poly, Yealink, Logitech, Crestron, Lenovo, Jabra, and Neat.
-
-       For a quick introduction to Teams Rooms, click on the video to the right.
+    Transform meeting spaces ranging from small huddle areas to large conference rooms with a rich, collaborative Teams experience that's simple to use, deploy, and manage.
+    
+    Start meetings on time with one-touch join, then instantly project to the display in the room and share to remote participants.
+    
+    Teams Rooms are available in Windows & Android variants from one of many partners: Microsoft, HP/Poly, Yealink, Logitech, Crestron, Lenovo, Cisco, Jabra, Neat, Audiocodes, Neat, Maxhub, EPOS and DTEN.
+    
+    For a quick introduction to Teams Rooms, click on the video to the right.
     :::column-end:::
     :::column:::
        [:::image type="content" source="../media/teams-rooms-microsoft-mechanics.jpg" alt-text="Microsoft Teams Rooms Microsoft Mechanics video.":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)

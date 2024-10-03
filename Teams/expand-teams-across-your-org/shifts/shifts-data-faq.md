@@ -4,7 +4,7 @@ author: lana-chin
 ms.author: v-chinlana
 manager: jtremper
 ms.topic: conceptual
-ms.reviewer: imarquesgil
+ms.reviewer: harrywong
 audience: admin
 ms.service: msteams
 search.appverid: MET150

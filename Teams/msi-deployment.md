@@ -17,6 +17,7 @@ ms.collection:
   - M365-collaboration
   - m365initiative-deployteams
 ms.custom: seo-marvel-apr2020
+  - asset-status-to-be-retired
 appliesto: 
   - Microsoft Teams
 ---
