@@ -1332,6 +1332,49 @@ items:
         - name: Supported Teams apps for Android devices (in process)
           href: devices/certified-device-apps.md
 
+
+- name: Rooms and devices
+  items:
+    - name: Teams device store
+      href: devices/device-store.md
+    - name: Teams device certification
+      items:
+        - name: Certification overview
+          href: devices/certification-overview.md   
+        - name: Partners
+          items:
+            - name: Partners device certification
+              href: devices/certification-partners.md
+            - name: How to join the program
+              href: devices/certification-join.md
+            - name: Teams specifications
+              href: devices/certification-specifications.md
+        - name: IT admins and decision makers
+          href: devices/certification-it-admins.md
+        - name: End users
+          href: devices/certification-end-users.md
+        - name: Product lifecycle
+          items:
+            - name: Windows version support
+              href: rooms/rooms-lifecycle-support.md
+            - name: Android version support
+              href: devices/android-version-support.md      
+        - name: Teams Certified Devices
+          items: 
+            - name: Teams Rooms on Windows certified devices
+              href: rooms/certified-hardware.md
+            - name: Teams Rooms on Android certified devices
+              href: devices/certified-hardware-android.md
+            - name: Teams panels certified devices
+              href: devices/teams-panels-certified-hardware.md
+            - name: Teams phones certified devices
+              href: devices/teams-phones-certified-hardware.md
+            - name: Teams displays certified devices
+              href: devices/teams-displays-certified-hardware.md
+            - name: Personal peripherals
+              href: devices/usb-devices.md
+        - name: Management apps
+          href: devices/certified-device-apps.md
     - name: Teams Rooms & panels
       items: 
         - name: Overview & planning
@@ -1492,6 +1535,8 @@ items:
                   href: rooms/android-app-firmware.md
                 - name: Teams panels
                   href: rooms/android-app-firmware.md
+                - name: Management apps
+                  href: devices/certified-device-apps.md
             - name: Operations
               items:
                 - name: Teams Rooms operations
