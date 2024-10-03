@@ -1,6 +1,5 @@
 ---
-title: Microsoft Teams Rooms app version and Windows support
-ms.author: tonysmit
+title: Teams Rooms app and Windows versioning support
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
