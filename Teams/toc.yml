@@ -1345,6 +1345,8 @@ items:
               href: devices/teams-displays-certified-hardware.md
             - name: Personal peripherals
               href: devices/usb-devices.md
+            - name: Supported SIP Gateway devices
+              href: devices/supported-sip-gateways.md
               
     - name: Teams Rooms & panels
       items: 
