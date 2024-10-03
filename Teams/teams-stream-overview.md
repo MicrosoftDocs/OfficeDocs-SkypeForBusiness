@@ -83,5 +83,5 @@ Teams live events is a highly available service and you can expect good performa
 ## Related topics
 
 - [What are Teams live events?](what-are-teams-live-events.md)
-- [Plan for Teams live events](/microsoftteams/plan-for-teams-live-events)
-- [Set up for Teams live events](/microsoftteams/set-up-for-teams-live-events)
+- [Plan for Teams live events](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events)
+- [Set up for Teams live events](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events)
