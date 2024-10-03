@@ -1413,6 +1413,7 @@ items:
                 - name: Remotely configure front row layout
                   href: rooms/manage-front-row.md
                 - name: Proximity join
+                  href: rooms/proximity-join.md
                 - name: Join third-party meetings
                   href: rooms/third-party-join.md
                 - name: SIP and H.323 calling with Teams Rooms
