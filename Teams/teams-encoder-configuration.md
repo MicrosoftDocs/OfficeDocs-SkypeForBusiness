@@ -10,7 +10,7 @@ ms.collection:
   - M365-collaboration
   - m365initiative-meetings
 ms.reviewer: christi.balaki
-ms.date: 01/16/2024
+ms.date: 10/3/2024
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -24,15 +24,15 @@ ms.custom:
 # Configuring encoders for live event streaming in Microsoft Teams
 
 > [!NOTE]
-> Teams Live Events will no longer be deprecated on September 30, 2024, as previously announced. While we still recommend that customers upgrade to [Teams town hall](plan-town-halls.md) when ready to take advantage of new features and experiences, Live Events users can now schedule events beyond September 2024. For more information, please read our recent [blog post](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/extension-for-teams-live-events-retirement/ba-p/4148352).
+> We're currently still supporting live events. While we still recommend you to upgrade to [Teams town halls](plan-town-halls.md) to take advantage of new features and experiences, your users can continue to schedule events. For more information, see [Updates for Town Hall in Microsoft Teams and Teams Live Events](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/extension-for-teams-live-events-retirement/ba-p/4148352).
 
 Teams accepts live feeds from various different encoders that output RTMP or RTMPS. Each encoder is different, so make sure to follow the guidelines for the encoder configurations when sending to Teams.
 
-To learn how to set up a Live event in Teams, read about creating live events. If you're already using an encoder integrated with Teams, read about [configuring encoders for live streaming](teams-encoder-setup.md).
+To learn how to set up a live event in Teams, see [Set up for live events in Microsoft Teams](/microsoftteams/set-up-for-teams-live-events). If you're already using an encoder integrated with Teams, see [configuring encoders for live streaming](teams-encoder-setup.md).
 
 ## Configuration Steps
 
-After you scheduled the live event using Teams or Viva Engage, and select the **Teams Encoder** option, you can retrieve the RTMP URL and key from the meeting invite and use them to send the feed into the Teams producer UI.
+After you schedule the live event using Teams or Viva Engage, and select the **Teams Encoder** option, you can retrieve the RTMP URL and key from the meeting invite and use them to send the feed into the Teams producer UI.
 
 ### Gather the RTMP information
 
@@ -74,12 +74,12 @@ After you scheduled the live event using Teams or Viva Engage, and select the **
 - Aspect Ratio: 16:9
 - Codec: H.264
 - Profile: High (Level 4.0)
-- Bitrate: Up to 5 Mbps (5000 kbps)
+- Bitrate: Up to 5 Mbps (5,000 kbps)
 - Strict Constant Bitrate (CBR)
 - Keyframe/GOP: 2 seconds
   - There must be an IDR frame at the beginning of each GOP
   - Frame Rate: 29.97 fps or 30 fps
-  - Resolution: 1280 x 720 (720P)
+  - Resolution: 1280 x 720 (720 P)
   - Interlace Mode: Progressive
 
 ### Audio format
@@ -101,5 +101,10 @@ After you scheduled the live event using Teams or Viva Engage, and select the **
 - Don't change your encoder configuration after it starts pushing. It has negative effects on the event and can cause the event to be unstable. If you want to change encoder configurations before the event starts, you must disconnect using the producer controls in Teams and start setup again.
 - If the encoder is disconnected during the live event, reconnect it keeping the same timestamps of continuing process. Any discontinuity might cause audio or video issues on certain browsers and devices.
 - Give yourself ample time to set up your event. For high scale events, it's recommended to start the setup an hour before your event.
-- For customers using the vMix encoder for RTMP-In, make sure to select the FFMPEG6 option from the **Application** drop-down menu in the vMix encoder settings.
+- If you're using the vMix encoder for RTMP-In, make sure to select the FFMPEG6 option from the **Application** drop-down menu in the vMix encoder settings.
 
+## Related topics
+
+- [What is Teams live events?](/MicrosoftTeams/teams-live-events/configure-teams-live-events)
+- [Plan for Teams live events](/MicrosoftTeams/teams-live-events/configure-teams-live-events)
+- [Configure live events settings in Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events)
