@@ -24,21 +24,22 @@ hideEdit: true
 description: Find lists of certified systems and peripherals for use with Microsoft Teams Rooms running Android and Windows.
 ---
 # Overview of Teams certified devices
+
 Through the Microsoft Teams Device Certification Program, Microsoft tests personal and shared technological devices to ensure that they meet the highest standards of quality, reliability, and compatibility, and that users can have an optimized meeting experience when using Teams.
 
 This program tests the devices based on a set of rigorous specifications, covering aspects such as audio and video quality, user interface, device management, and security. Only devices that successfully pass all certification requirements, and associated testing receive the designation of **Certified for Microsoft Teams**.
 
-Certification programs are designed to ensure all certified devices run supported versions with the required feature set for Teams and Teams Admin Center. Certification end dates are based on the Android or Windows version running on the device when it enters into the certification program. Microsoft OEM partners are working to extend the lifetime of the certification by upgrading the Android or Windows version and recertifying, or by releasing new models that are state-of-the-art. Once a device passes the certification requirements and OEM partners provide the firmware that enables the upgrade to a newer Android version, the certification end date will be extended.
+Certification programs are designed to ensure all certified devices run supported versions with the required feature set for Teams and Teams Admin Center. Certification end dates are based on the Android or Windows version running on the device when it enters into the certification program. Microsoft OEM partners are working to extend the lifetime of the certification by upgrading the Android or Windows version and recertifying, or by releasing new models that are state-of-the-art.
 
 - [Teams Rooms on Windows certified devices](..rooms/certified-hardware)
-- [Teams Rooms on Andoid certified devices](certified-hardware-android.md)
+- [Teams Rooms on Android certified devices](certified-hardware-android.md)
 - [Certified Teams panels](teams-panels-certified-hardware.md)
 - [Certified Teams phones](teams-phones-certified-hardware.md)
 - [Certified Teams displays](teams-displays-certified-hardware.md)
 - [Certified personal devices](usb-devices.md)
 
-## Related topics
+## Related articles
 [Certification overview](certification-overview.md)
-[Partner device certificaiton](certification-partners.md)
+[Partner device certification](certification-partners.md)
 [Windows version support](../rooms/rooms-lifecycle-support.md)
 [Android version support](android-version-support.md)
