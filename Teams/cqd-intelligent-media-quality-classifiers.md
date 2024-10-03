@@ -35,17 +35,17 @@ Intelligent media quality classifiers in CQD use Machine Learning (ML) algorithm
 
 To deliver the most comprehensive insights, intelligent media quality classifiers individually address three main real-time media modalities: Audio, Video, and VBSS. These classifiers focus on call quality on a stream level (such as Audio, Video, and VBSS) and then they go further with in-depth analyses in areas such as network, compute device, and input device, allowing for pinpointing specific problem areas.
 
-There are two levels of classification to provide a view into causality and root cause: higher-level and lower-level. Higher-level classifiers predict if audio, video, or VBSS are not functioning properly, whereas lower-level classifiers predict if a problem was in a network, compute device, or input device.
+There are two levels of classification to provide a view into causality and root cause: higher-level and lower-level. Higher-level classifiers predict if audio, video, or VBSS aren't functioning properly, whereas lower-level classifiers predict if a problem was in a network, compute device, or input device.
 
 ## Supported platforms and media types
 
-The availability of intelligent media quality classifiers varies depending on the specific platforms and media types, due to differences in telemetry availability across various platforms. We are continuously improving the coverage of the classifiers. The following platforms and media types are covered by intelligent media quality classifiers:
+The availability of intelligent media quality classifiers varies depending on the specific platforms and media types, due to differences in telemetry availability across various platforms. We're continuously improving the coverage of the classifiers. The following platforms and media types are covered by intelligent media quality classifiers:
 
 - Media modality and Network classifiers are applied to all platforms and media modalities (Audio, Video, VBSS).
 - Compute device classifiers are applied to native platforms (excluding Teams Web, optimized VDI, and CVI) and all media modalities.
 - Input device classifiers are applied to native platforms (excluding WebRTC based ones) and audio only.
 
-## When to use intelligent media quality quality classifiers
+## When to use intelligent media quality classifiers
 
 There are certain application rules of the intelligent media quality classifiers that determine when to apply the classifiers, with the most basic rules being as follows:  
 
@@ -76,7 +76,7 @@ The intelligent media quality classifiers, whether for Conference or P2P calls, 
 - **Local classifiers** are tailored to evaluate the end-point user's call experience, addressing concerns stemming from inbound streams or local device capabilities and limitations.  
 - **Remote classifiers** encompass issues originating from the other endpoint(s) of the call, offering a comprehensive perspective on the overall call quality.  
 
-In the both P2P and Conference configurations, observing a Local classifier in a stream direction called *First-to-Second* indicates the analysis of the inbound stream's impact or the local device's capacity and limitations on the user's (known as Second) own call experience.  
+In both P2P and Conference configurations, observing a Local classifier in a stream direction called *First-to-Second* indicates the analysis of the inbound stream's impact or the local device's capacity and limitations on the user's (known as Second) own call experience.  
 
 The role of Remote classifiers in Second-to-First stream directions is to evaluate whether a participant, known as Second, is adversely affecting the call quality of other users under the same conditions. Additionally, in the context of Conference calls, observing a Remote classifier on a First-to-Second stream indicates if a highly active user, classified as dominant, is detrimentally impacting the call quality experienced by the user, referred to as Second.
 
@@ -168,11 +168,11 @@ Intelligent media quality classifiers assign probabilities to endpoints in calls
 
 To determine a stream quality problem rate to help mitigate false predictions, we use percentile-based thresholding. With percentile-based thresholding, the lowest performing 2% of endpoints within a specific platform, region, and media type are identified as having a poor call experience. This thresholding helps IT admins take action on the reported issues that might affect call quality.
 
-The media level classifiers are provided as Local classifiers. For inbound streams or local devices, start by thoroughly assessing the *Detected Media Modality* classifiers that predict the issues related to received Audio, Video, or VBSS. These classifiers incorporate input features from all Local area classifiers--such as *Detected Inbound Network*, *Detected Local Compute*, and *Detected Local Input Device*--along with additional important features that are not exclusively associated with any area.
+The media level classifiers are provided as Local classifiers. For inbound streams or local devices, start by thoroughly assessing the *Detected Media Modality* classifiers that predict the issues related to received Audio, Video, or VBSS. These classifiers incorporate input features from all Local area classifiers--such as *Detected Inbound Network*, *Detected Local Compute*, and *Detected Local Input Device*--along with additional important features that aren't exclusively associated with any area.
 
 In scenarios where the media level classifier predicts a problem, but no area level problems are detected, either the existence of several minor issues or the significant influence of non-overlapping input features suggest further investigation. Usually, at least one Warning field highlights a potential problem.  
 
-If there are area level problem predictions but not at the media level, the classifiers suggest that there were issues with media quality, although they may not have been significant enough to result in a poor user feedback rating.
+If there are area level problem predictions but not at the media level, the classifiers suggest that there were issues with media quality, although they might not have been significant enough to result in a poor user feedback rating.
 
 ## Locating the origins of quality issues
 
@@ -233,7 +233,7 @@ After [locating the origin of quality issues](#locating-the-origins-of-quality-i
 
 ### Network classifiers
 
-Network classifiers predict quality issues largely based on audio telemetry from error handling implemented into Microsoft Teams. This audio telemetry extends the coverage of the raw network degradation distribution effectively. However, if a classifier detects any issues, then there might be visible problems with the raw network metrics as well, except in cases where multiple telemetry collectively influences the outcome. In such instances, the complexity of identifying the root cause may increase due to the combined effects of multiple dimensions. The lowest level CQD dimensions serve as indicators of issues, as listed below.
+Network classifiers predict quality issues largely based on audio telemetry from error handling implemented into Microsoft Teams. This audio telemetry extends the coverage of the raw network degradation distribution effectively. However, if a classifier detects any issues, then there might be visible problems with the raw network metrics as well, except in cases where multiple telemetry collectively influences the outcome. In such instances, the complexity of identifying the root cause might increase due to the combined effects of multiple dimensions. The lowest level CQD dimensions serve as indicators of issues, as listed below.
 
 #### Dimensions related to audio
 
@@ -264,9 +264,9 @@ Network classifiers predict quality issues largely based on audio telemetry from
 
 #### Network root cause examples
 
-- If the wifi strength is low, then the network classifier indicates that the office location is not adequately covered with wifi. Check the number and positioning of the access points.
+- If the wifi strength is low, then the network classifier indicates that the office location isn't adequately covered with wifi. Check the number and positioning of the access points.
 - If the network metrics are worsening periodically in a specific location, then the network classifier indicates that there's network congestion when the calling volume is high. For example, if there are monthly company meetings where a large part of the site is joining, you might consider [deploying eCDN](../ecdn/intro.md).
-- If AV Sync distance values are high, then the network classifier indicates that there are network congestion problems because audio is prioritized over video. Check that there is enough bandwidth, and that the bandwidth is stable enough to allow for good quality video and VBSS.
+- If AV Sync distance values are high, then the network classifier indicates that there are network congestion problems because audio is prioritized over video. Check that there's enough bandwidth, and that the bandwidth is stable enough to allow for good quality video and VBSS.
 
 ### Compute classifiers
 
@@ -313,7 +313,7 @@ The recommended range for signal level is (-24,-14), the optimal for noise is <-
 
 ## Maintenance of classification models
 
-The classifier models are monitored on the general population of Microsoft Teams users. If an anomaly is detected, then it is investigated and there is a high chance that the model is re-trained. This can cause temporal fluctuation of respective problem detection rates. Where these fluctuations would cause a significant change in detection rates, we will post a message to inform Teams admins through the M365 Message Center.
+The classifier models are monitored on the general population of Microsoft Teams users. If an anomaly is detected, then it is investigated and there's a high chance that the model is re-trained. This can cause temporal fluctuation of respective problem detection rates. Where these fluctuations would cause a significant change in detection rates, we will post a message to inform Teams admins through the M365 Message Center.
 
 ## Related topics
 
