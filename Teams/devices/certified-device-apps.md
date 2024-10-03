@@ -1,5 +1,5 @@
 ---
-title: Management apps for Teams devices
+title: Teams devices management apps
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
