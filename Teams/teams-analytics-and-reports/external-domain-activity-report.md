@@ -18,7 +18,12 @@ appliesto:
 ---
 # Microsoft Teams external domain activity report
 
-The external domain activity report in the Microsoft Teams admin center shows you how you communicate with [trusted external organizations](/microsoftteams/trusted-organizations-external-meetings-chat?tabs=organization-settings#specify-trusted-microsoft-365-organizations) over chat. This report includes information for 1:1 chats, group chats, and meeting chats, but not for calls or meetings themselves. This report includes both a base and Teams Premium version, where the base version tells you which domains you communicate with and the premium version exposes more detailed information about your communication with each domain.
+The external domain activity report in the Microsoft Teams admin center shows you how you communicate with [trusted external organizations](/microsoftteams/trusted-organizations-external-meetings-chat?tabs=organization-settings#specify-trusted-microsoft-365-organizations) over chat. This report includes information for 1:1 chats, group chats, and meeting chats.
+
+> [!NOTE]
+> We count the following events as meeting chats: When a user is invited to a meeting, when a meeting ends, and when a user leaves a meeting chat.
+
+This report includes both a base and Teams Premium version, where the base version tells you which domains you communicate with and the premium version exposes more detailed information about your communication with each domain.
 
 > [!NOTE]
 > If you have an explicit allowed domains list, this report may include domains not on your allow list. It's possible for users from an allowed organization to start a group chat with users from your organization and users from other organizations allowed by them, but not allowed by you. These domains will show up in your external domain activity report.
@@ -45,12 +50,15 @@ The external domain activity report in the Microsoft Teams admin center shows yo
 >
 > It's possible to have 0 **people in my org**. If an external domain reaches out to your organization and receives no response, we will display 0 **people in my org**.
 
+> [!IMPORTANT]
+> In addition to managed communication, we look at when anonymous users join meetings. If you have **Anonymous user join** turned on, you might have unexpected domains appear on your list. Our reports show the names of the domains of the users who joined meetings, rather than marking them as anonymous.
+
 ## Interpret the domain-specific report
 
-|Item |Description  |
-|--------|-------------|
-|**Premium:** Username|The UPN of the user in your org who communicates with the external domain. |
-|**Premium:** Messages sent| The number of messages that have been sent to each user by the external domain during the selected time range.|
+|Item                       |Description                                                                |
+|---------------------------|---------------------------------------------------------------------------|
+|**Premium:** Username      |The UPN of the user in your org who communicates with the external domain. |
+|**Premium:** Messages sent |The number of messages that have been sent to each user by the external domain during the selected time range.|
 
 > [!NOTE]
 >
