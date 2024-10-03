@@ -1345,8 +1345,6 @@ items:
               href: devices/teams-displays-certified-hardware.md
             - name: Personal peripherals
               href: devices/usb-devices.md
-            - name: Supported SIP Gateway devices
-              href: devices/supported-sip-gateways.md
               
     - name: Teams Rooms & panels
       items: 
@@ -1354,41 +1352,41 @@ items:
           items:
             - name: Teams Rooms
               items:
-                - name: Copilot for Teams Rooms
-                  href: copilot-admin.md
                 - name: Overview
                   href: rooms/index.md
                 - name: Teams Rooms planning
                   href: rooms/rooms-plan.md
+                - name: Copilot for Teams Rooms
+                  href: copilot-admin.md
                 - name: Features
                   items:
                     - name: Teams Room Home Screen and admin controls 
                       href: rooms/mtr-home-refresh.md
                     - name: Teams In Meeting experiences (to be written)
                       href: rooms/meeting experiences.md
-                    - name: Meetings with SIP and H.323 devices
+                    - name: Join a meeting using Proximity Join
+                      href: rooms/proximity-join.md
+                    - name: Join meetings with QR codes
+                      href: rooms/teams-rooms-qr-codes.md
+                    - name: SIP and H.323 Calling
                       href: rooms/meetings-with-SIP-H323-devices.md
                     - name: Join third-party meetings
                       href: rooms/third-party-join.md
-                    - name: Join meetings with QR codes
-                      href: rooms/teams-rooms-qr-codes.md
                     - name: Digital signage
                       href: rooms/digital-signage.md
-                    - name: Manage custom backgrounds on Android
+                    - name: Custom backgrounds on Android
                       href: rooms/custom-backgrounds-android.md
-                    - name: Manage custom backgrounds on Windows
+                    - name: Custom backgrounds on Windows
                       href: rooms/custom-backgrounds.md
-                    - name: Content cameras
+                    - name: Content camera
                       href: rooms/content-camera.md
-                    - name: Set up coordinated meetings
+                    - name: Coordinated meetings
                       href: rooms/coordinated-meetings.md
-                    - name: Join a meeting using Proximity Join
-                      href: rooms/proximity-join.md
                     - name: Intelligent speaker
                       items:
                         - name: Voice and face recognition
                           href: rooms/voice-and-face-recognition.md
-                        - name: Voice recognition controls for Intelligent speakers
+                        - name: Voice recognition controls
                           href: rooms/voice-recognition.md
                     - name: IntelliFrame
                       items:
@@ -1408,13 +1406,13 @@ items:
                   items:
                     - name: Use Teams panels
                       href: devices/use-teams-panels.md
-                    - name: App support on Teams panels  
+                    - name: App support  
                       href: app-support-on-Teams-panels.md
                     - name: Check-in and auto release
                       href: devices/check-in-and-room-release.md
                     - name: Reserve rooms with a QR code
                       href: devices/reserving-rooms-with-a-qr-code.md
-                    - name: Set custom backgrounds on Teams panels
+                    - name: Custom backgrounds on Teams panels
                       href: devices/custom-background-panels.md
             - name: Teams Rooms and devices feature comparison
               href: rooms/teams-devices-feature-comparison.md
@@ -1424,8 +1422,6 @@ items:
               items:
                 - name: Overview of Teams Rooms licensing
                   href: rooms/rooms-licensing.md
-                - name: Teams Rooms admin center licensing
-                  href: rooms/admin-center-license-overview.md
                 - name: Teams Rooms legacy licensing
                   href: rooms/rooms-legacy-licensing.md
             - name: Security
@@ -1436,36 +1432,34 @@ items:
                 href: rooms/conditional-access-and-compliance-for-devices.md
               - name: Supported Conditional Access and Intune compliance policies
                 href: rooms/supported-ca-and-compliance-policies.md
-              - name: Authentication best practices for Android devices
+              - name: Authentication for Teams Rooms on Windows devices
+                href: rooms/rooms-authentication.md
+              - name: Authentication for Teams Android devices
                 href: devices/authentication-best-practices-for-android-devices.md
             - name: Release notes
               items:
                 - name: Teams Rooms release notes
                   href: rooms/rooms-release-note.md
-                - name: Teams Panels release notes (to be written)
-                  href: devices/teams-panels-release-notes.md
+                - name: Teams Panels release notes
+                  href: https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_panels
             - name: Known issues
               items:
                 - name: Teams Rooms on Windows
                   href: /microsoftteams/troubleshoot/teams-devices-and-rooms/rooms-known-issues-windows
                 - name: Teams Rooms on Android
                   href: /microsoftteams/troubleshoot/teams-devices-and-rooms/rooms-known-issues-android
-                - name: Teams Panels (to be written)
-                  href: devices/teams-panels-known-issues.md
-        - name: Deploy
+        - name: Deployment
           items: 
             - name: Deployment overview
               href: rooms/rooms-deploy.md
-            - name: Step 1 - Select your devices (to be written)
-              href: rooms/select-devices.md
+            - name: Step 1 - Plan your rooms
+              href: rooms/rooms-plan.md
             - name: Step 2 - Prepare your environment
               items:
                 - name: Preparing your network
                   href: rooms/rooms-prep.md
                 - name: QoS on Teams devices
                   href: devices/qos-on-teams-devices.md
-                - name: Configure authentication
-                  href: rooms/rooms-authentication.md
                 - name: Intune Enrollment for Windows
                   items:
                     - name: AutoPilot and Autologin
@@ -1514,26 +1508,24 @@ items:
               items:
                 - name: Teams Rooms operations
                   href: rooms/rooms-operations.md
-                - name: Teams Rooms for Window - Recovery
+                - name: Reset Teams Rooms on Windows
                   href: rooms/recovery-tool.md
-                - name: Media creation for Teams Rooms on Windows
+                - name: OEM Image creation for Teams Rooms on Windows
                   href: rooms/console.md
-                - name: Update a Teams Room for Windows
+                - name: Manually update Teams Rooms on Windows
                   href: rooms/manual-update.md
             - name: Teams Admin Center
               items:
                 - name: Overview
                   href: rooms/rooms-manage.md
-                - name: Manage your devices in Teams
+                - name: Manage your devices
                   href: devices/device-management.md
                 - name: Manage Teams device tags
                   href: devices/manage-device-tags.md
                 - name: Update your devices remotely
                   href: devices/remote-update.md
-                - name: Use administrative units to manage devices
+                - name: RBAC using administrative units
                   href: administrative-unit.md
-                - name: Analytics, reports, & insights
-                  items:
                 - name: Teams device health
                   href: teams-device-health.md
                 - name: Teams device health monitoring
@@ -1648,7 +1640,7 @@ items:
           href: rooms/bookable-desks.md
         - name: Add peripherals to inventory
           href: rooms/get-peripheral-information.md
-    - name: SIP gateways
+    - name: SIP Gateway
       items:
         - name: Plan for SIP Gateway
           href: sip-gateway-plan.md
