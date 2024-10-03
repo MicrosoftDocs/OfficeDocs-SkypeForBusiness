@@ -5,7 +5,7 @@ author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
-ms.reviewer: sanjayra
+ms.reviewer: margidesai
 audience: admin
 ms.date: 2/26/2024
 ms.localizationpriority: medium
@@ -48,11 +48,11 @@ Teams Premium provides a variety of enhancements to Teams meetings. We recommend
 
 Not all trial participants need a Teams Premium license. Some people, such as business stakeholders who help define use cases, may not need to test the features themselves.
 
-The following table lists potential trial participants and their roles.
+The following table lists potential trial participants and their roles. For details on roles, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles#commonly-used-microsoft-365-admin-center-roles).
 
 |Who|Their role in the trial|Trial license needed?|
 |:--|:---|:--------------------|
-|Microsoft 365 Global Administrator|Assign Teams Premium trial licenses to trial participants.|No|
+|License or User Administrator|Assign Teams Premium trial licenses to trial participants.|No|
 |Teams Administrator|Configure Teams Premium settings and policies|If using the Advanced Virtual Appointments activity report|
 |Compliance Administrator|Set up and publish sensitivity labels if needed|No|
 |Meeting organizers|Schedule meetings where participants can test Teams Premium features|Yes|

@@ -7,7 +7,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: mikeplum
-ms.date: 11/06/2018
+ms.date: 09/17/2024
 description: Set up Teams in your small business to enable your users to collaborate using chat and file sharing, set up and attend small and large meetings, and talk via video and voice.
 ms.localizationpriority: high
 search.appverid: MET150

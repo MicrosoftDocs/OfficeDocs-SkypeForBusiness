@@ -1,10 +1,10 @@
 ---
 title: What is Microsoft Multi-Stream IntelliFrame and Intelligent Camera?
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: vishnuna
-ms.date: 08/18/2023
+ms.date: 10/01/2024
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
@@ -35,7 +35,7 @@ Microsoft Teams Multi-Stream IntelliFrame certified devices, include a speaker, 
 - Microsoft Teams Rooms Pro license
   - Microsoft Teams Rooms with Pro license is required to enable IntelliFrame, and people recognition features on Microsoft Teams Rooms.
   - Basic license doesn't support IntelliFrame or people recognition. If you have Teams Rooms Basic license, the camera shows only active speaker and panoramic views.
-  - Check the [this link](../rooms/license-check.md#check-the-license-of-a-couple-teams-rooms-devices   ) to determine if you have the right license.
+  - Check the [this link](/microsoftteams/rooms/rooms-licensing#rooms-view) to determine if you have the right license.
 - Policy configured for [People Recognition and Enrollment](#enabling-enrollment-option-and-people-recognition).
 
 ## Device provisioning
@@ -121,12 +121,11 @@ Get-CsTeamsMeetingPolicy -identity {identity_name} // to confirm the changed val
 ```
 
 
-## Scheduling a meeting
+## Getting Identified during a meeting. 
 
-When you schedule a meeting, both room and users who wish to be identified must be invited to experience Multi-Stream IntelliFrame and people recognition upon enrollment. Else, users are identified as **Guest**.
-Following is an example of a meeting invite.
+When you schedule a meeting, the users who wish to be identified must be invited to meeting or meeting forwarded to them before the meeting transcription is started . 
 
-:::image type="content" source="../media/demo-meeting.png" alt-text="Screenshot that shows the demo meeting schedule.":::
+Note that identification only works for Face-enrolled users, everyone else will be treated as a participant.
 
 > [!Note]
 > Adhoc meetings won't have face identifications, where there is no Outlook appointment with a list of participants.
