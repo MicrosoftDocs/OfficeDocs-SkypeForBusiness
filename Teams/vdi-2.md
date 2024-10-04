@@ -334,21 +334,24 @@ By default, the MsTeamsPlugin automatically downloads and installs the right Sli
 #### Configuration steps
 
 1. On the user's endpoint (thin client/fat client), you must create the following regkey:
-  - Location for Citrix: HKLM\SOFTWARE\WOW6432Node\Microsoft\Teams\MsTeamsPlugin
-  - Location for Azure Virtual Desktop/W365: HKLM\SOFTWARE\Microsoft\Teams\MsTeamsPlugin
-  - Name: MsixUrlBase
-  - Type: REG_SZ
-  - Data: Either local storage or network storage UNC path, such as file://C:/Temp or file://ComputerName/SharedFolder.
-  The regkey defines the Base URL.
+
+   - Location for Citrix: HKLM\SOFTWARE\WOW6432Node\Microsoft\Teams\MsTeamsPlugin
+   - Location for Azure Virtual Desktop/W365: HKLM\SOFTWARE\Microsoft\Teams\MsTeamsPlugin
+   - Name: MsixUrlBase
+   - Type: REG_SZ
+   - Data: Either local storage or network storage UNC path, such as file://C:/Temp or file://ComputerName/SharedFolder.
+   
+   The regkey defines the Base URL.
+
 2. Additionally, admins must download the exact SlimCore MSIX Package version from Microsoft's CDN that matches the new Teams version you're planning to deploy in the future.
 
-  > [!IMPORTANT]
-  > The MSIX package needs to match the architecture or bitness of the Citrix Workspace app (x86 only) or Remote Desktop or Windows App clients: `Microsoft.Teams.SlimCoreVdi.<platform>-<architecture>.msix`.
+   > [!IMPORTANT]
+   > The MSIX package needs to match the architecture or bitness of the Citrix Workspace app (x86 only) or Remote Desktop or Windows App clients: `Microsoft.Teams.SlimCoreVdi.<platform>-<architecture>.msix`.
 
 3. Place the MSIX in a specific folder with the version within the location specified in the registry key to preserve the structure. For example, C:\Temp\2024.4.1.9\Microsoft.Teams.SlimCoreVdi.win-x86.msix or //ComputerName/SharedFolder/2024.4.1.9/.
   
-  > [!NOTE]
-  > If the Plugin can't find a SlimCore MSIX package in the local or network storage, it automatically attempts to download it from the Microsoft public CDN as a fallback.
+   > [!NOTE]
+   > If the Plugin can't find a SlimCore MSIX package in the local or network storage, it automatically attempts to download it from the Microsoft public CDN as a fallback.
 
 #### Known issues
 
@@ -370,8 +373,9 @@ The new Teams client requires three custom virtual channels to function: MSTEAMS
 - MSTEAM2,C:\Program Files\WindowsApps\MSTeams*8wekyb3d8bbwe\ms-teams.exe
 
 1. Wildcard support is available in:
-  - VDA 2206 CR.
-  - VDA 2203 LTSR from CU2 onwards.
+   - VDA 2206 CR.
+   - VDA 2203 LTSR from CU2 onwards.
+
 2. The VDA machines must be rebooted for the policy to take effect.
 
 #### Citrix App Protection and Microsoft Teams compatibility
@@ -526,8 +530,9 @@ Diagnostic information can be found in the detailed event logs on the user's dev
 
 1. Go the Event Viewer (Local) > Applications and Services Logs > Microsoft > Windows.
 1. Check for available logs under these categories:
-  - AppxPackagingOM > Microsoft-Windows-AppxPackaging/Operational
-  - AppXDeployment-Server > Microsoft-Windows-AppXDeploymentServer/Operational
+   - AppxPackagingOM > Microsoft-Windows-AppxPackaging/Operational
+   - AppXDeployment-Server > Microsoft-Windows-AppXDeploymentServer/Operational
+
 1. Review the logs under AppXDeployment-Server.
 
 ### Error 15615
