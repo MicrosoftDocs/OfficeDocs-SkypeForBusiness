@@ -416,7 +416,7 @@ By default, Filters allow you to filter conditions with the AND operator. But th
 CQD doesn't use Caller or Callee fields, instead it uses **First** and **Second** because there are intervening steps between the caller and callee.
 
 - **First** is always the server endpoint (for example, AV MCU or the Media Processor Server) if a server is involved in the stream.
-- **Second** ia always the client endpoint, unless it's a server-server stream.
+- **Second** is always the client endpoint, unless it's a server-server stream.
 
 If both endpoints are the same type (for example a person-to-person call), first versus second is set based on the internal ordering of the user agent category to make sure the ordering is consistent.
 
