@@ -44,7 +44,7 @@ Microsoft is committed to certifying devices on latest Android versions availabl
 After certification end date, Microsoft is committed to make efforts to support the most recent version of the Teams devices applications on such devices for two (2) years following the end of the certification period.
 
 > [!NOTE]
-> Certification end dates for Android 12 based devices has been extended by one year, from October 4, 2026, to August 15, 2027. Information below reflects current certification end dates.
+> Certification end dates for Android 12 based devices has been extended by one year, from October 4, 2026, to August 15, 2027. The folowing information reflects current certification end dates.
 
 ## [Certified Teams phones](#tab/certified-phones)
 
@@ -174,7 +174,7 @@ Microsoft and its Original Equipment Manufacturers (OEM) partners continually de
 
 We recognize that device certification expiration can impact your business. Our OEM partners have detailed End-of-Life policies to assist and direct you towards adopting newer technologies. For the most current information on Teams certified devices referenced here, please consult our OEM partners' websites.
 
-Following a certification expiration, Microsoft is committed to supporting the latest version of the Teams devices applications on certified devices for a span of two (2) years after the certification period concludes. While Microsoft makes every effort to maintain support as described here, it retains the discretion to modify its support policy if necessary. Should any changes occur, they'll be communicated through the established customer facing communication channels.
+Following a certification expiration, Microsoft is committed to supporting the latest version of the Teams devices applications on certified devices for a span of two (2) years after the certification period concludes. While Microsoft makes every effort to maintain support as described here, it retains the discretion to modify its support policy if necessary. Should any changes occur, they're communicated through the established customer facing communication channels.
 
 | Device Category | Device Model | Android OS Version | Certification end date | Microsoft support end date |
 |:----------------|:-------------------|:----------------------------|:--------------------------|:----------------------|
