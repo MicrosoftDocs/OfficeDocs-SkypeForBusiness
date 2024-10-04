@@ -5,7 +5,7 @@ author: typride
 manager: tyadams
 audience: ITPro
 ms.reviewer: sekerawa
-ms.date: 10/01/2024
+ms.date: 10/04/2024
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
@@ -53,6 +53,10 @@ Immersive spaces work well for these types of meetings:
 - *Virtual networking events* across multiple groups
 
 - *Onboarding meet-and-greets* for new team members
+
+## Limitations and specifications
+
+Please refer to the [limitations and specifications for Immersive spaces (3D)](/mesh/resources/limitations-specifications-mesh#immersive-spaces-3d-view-in-microsoft-teams).
 
 ## License requirements
 
