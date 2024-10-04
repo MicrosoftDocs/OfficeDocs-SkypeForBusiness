@@ -72,7 +72,7 @@ Configure your enterprise firewall settings to align with the standard set of Mi
 
 As part of this, ensure that you have configured your firewall to enable traffic to `*.cloud.microsoft.com`, `*.office.com`, and `*.microsoft.com` over `TCP 443`, `80`.
 
-Mesh also requires the IP addresses and port ranges detailed in [Firewall configuration for Azure Communication Services](https://learn.microsoft.com/azure/communication-services/concepts/voice-video-calling/network-requirements#firewall-configuration) for media capabilities such as audio, video, and screenshare.
+Mesh also requires the IP addresses and port ranges detailed in [Firewall configuration for Azure Communication Services](/azure/communication-services/concepts/voice-video-calling/network-requirements#firewall-configuration) for media capabilities such as audio, video, and screenshare.
 
 Without access to these, Mesh won't work properly for users in your organization.
 
