@@ -74,7 +74,7 @@ To turn on check-in notifications,
   
 **Question: Are there any times when a user would be automatically checked in?**
 
-**Answer:** Yes, there are. At this time, the user will be automatically checked in if the room is the organizer of the meeting, the room was invited after the meeting start time, it's a 3P meeting such as Zoom meeting, or it's an in-person meeting as in there is no online link. We'll be requiring check-in for 3P and in-person meetings in the future.  
+**Answer:** Yes, there are. At this time, the user will be automatically checked in if the room is the organizer of the meeting, the room was invited after the meeting start time, it's a 3P meeting such as Zoom meeting, or it's an in-person meeting as in there is no online Teams link. We'll be requiring check-in for 3P and in-person meetings in the future.  
 
 ## Related topics
 
