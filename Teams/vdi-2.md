@@ -56,24 +56,31 @@ New VDI solution for Teams is a new architecture for optimizing the delivery of 
 ### Step 2: Plugin installation on the endpoint
 
 1. For Azure Virtual Desktop and Windows 365, MsTeamsPluginAvd.dll is bundled with the RD Client for Windows 1.2.5405.0, or with the Windows App Store app 1.3.252 or higher.
-  - The plugin is found in the same folder location where the RD Client is installed. It's either located at AppData\Local\Apps\Remote Desktop or C:\Program Files (x86), depending on the mode in which it was installed.
-  - The [Windows App Store](/windows-app/overview) app, since it's MSIX-based, is found in C:\Program Files\WindowsApps. Access to this folder is restricted.
+   - The plugin is found in the same folder location where the RD Client is installed. It's either located at AppData\Local\Apps\Remote Desktop or C:\Program Files (x86), depending on the mode in which it was installed.
+   - The [Windows App Store](/windows-app/overview) app, since it's MSIX-based, is found in C:\Program Files\WindowsApps. Access to this folder is restricted.
+
 1. For Citrix CWA 2402 or higher, MsTeamsPluginCitrix.dll can be installed either:
-  - Using the user interface when installing CWA:
+
+   - Using the user interface when installing CWA:
+
      On the **Add-on(s)** page, select the **Install Microsoft Teams VDI plug-in** checkbox, and then select **Install**.
+ 
      Agree to the user agreement that pops up and proceed with the installation of the Citrix Workspace app.
 
-> [!NOTE]
-> Citrix Workspace app 2402 only presents the plugin installation UI on a fresh install.
-> For in-place upgrades to also present this option, Citrix Workspace app 2405 or higher is required.
+     > [!NOTE]
+     > Citrix Workspace app 2402 only presents the plugin installation UI on a fresh install.
+     > For in-place upgrades to also present this option, Citrix Workspace app 2405 or higher is required.
 
-  - Via command line or scripts for managed devices using:
-    `C:\>CitrixWorkspaceApp.exe installMSTeamsPlugin`
-  - Admins can also install the plugin manually on top of any existing supported CWA (see [System Requirements](#system-requirements)) using tools like SCCM (use the Windows app package deployment type) or Intune (use the Line-of-Business app).
-  Admins can use **msiexec** with appropriate flags, as discussed in [this documentation](/windows-server/administration/windows-commands/msiexec).
+   - Via command line or scripts for managed devices using:
 
-> [!IMPORTANT]
-> You can find the plugin MSI download link for Citrix customers [here](https://download.microsoft.com/download/3/0/e/30e54a38-eb74-44dc-9755-36dcac09656d/MsTeamsPluginCitrix.msi).
+     `C:\>CitrixWorkspaceApp.exe installMSTeamsPlugin`
+
+   - Admins can also install the plugin manually on top of any existing supported CWA (see [System Requirements](#system-requirements)) using tools like SCCM (use the Windows app package deployment type) or Intune (use the Line-of-Business app).
+
+     Admins can use **msiexec** with appropriate flags, as discussed in [msiexec](/windows-server/administration/windows-commands/msiexec).
+
+     > [!IMPORTANT]
+     > You can find the plugin MSI download link for Citrix customers: [MsTeamsPluginCitrix.msi](https://download.microsoft.com/download/3/0/e/30e54a38-eb74-44dc-9755-36dcac09656d/MsTeamsPluginCitrix.msi).
 
 The plugin MSI automatically detects the CWA installation folder and places MsTeamsPluginCitrix.dll in that location:
 
