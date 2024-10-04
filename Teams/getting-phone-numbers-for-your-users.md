@@ -89,6 +89,10 @@ You must be a Teams service admin to make these changes. See [Use Teams administ
 **Using the Microsoft Teams admin center**
 
 In the left navigation of the admin center, go to **Voice** > **Phone numbers** to view the numbers for your organization, including number provider, location, number type, and status information.
+
+**Using the Teams PowerShell cmdlet**
+
+To view a list of up to 500 phone numbers, use the PowerShell cmdlet [Get-CsPhoneNumberAssignment](/powershell/module/teams/get-csphonenumberassignment). You can also download the full list of all acquired phone numbers by using the [Export-CsAcquiredPhoneNumber](/powershell/module/teams/export-csacquiredphonenumber) cmdlet.
   
 ## Assign phone numbers to users
 
