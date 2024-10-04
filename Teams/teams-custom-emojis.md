@@ -26,7 +26,7 @@ Microsoft Teams now allows users to add their own custom emojis and reactions by
 The new custom emojis and reactions feature will be turned on by default. Users in the tenant will be able to upload emojis. You can preemptively turn this feature off or restrict which users can create new emojis via the Teams Admin Center controls described in this article.
 
 > [!NOTE]
-> Custom emojis are available in cross-tenant and federated scenarios. Users outside of your tenant will not have access to your custom emojis unless emojis are sent in conversations with them.
+> Custom emojis are available in cross-tenant and federated scenarios. Users outside of your tenant can't see your tenant's custom emojis in their own emoji menu, however, they can view any custom emojis that are sent to them. Furthermore, any AAD-authenticated user can access or download an emoji asset if they've obtained the content URL and image ID.
 
 ## Timelines
 
