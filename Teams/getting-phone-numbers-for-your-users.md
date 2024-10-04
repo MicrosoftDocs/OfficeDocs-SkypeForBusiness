@@ -92,7 +92,7 @@ In the left navigation of the admin center, go to **Voice** > **Phone numbers** 
 
 **Using the Teams PowerShell cmdlet**
 
-Use [Get-CsPhoneNumberAssignment](https://learn.microsoft.com/en-us/powershell/module/teams/get-csphonenumberassignment?view=teams-ps) cmdlet to quickly view a list of upto 500 phone numbers in PowerShell. You can also download the full list of all the acquired phone numbers using Teams PowerShell cmdlet [Export-CsAcquiredPhoneNumber](https://learn.microsoft.com/en-us/powershell/module/teams/export-csacquiredphonenumber?view=teams-ps).
+Use [Get-CsPhoneNumberAssignment](https://learn.microsoft.com/en-us/powershell/module/teams/get-csphonenumberassignment) cmdlet to quickly view a list of upto 500 phone numbers in PowerShell. You can also download the full list of all the acquired phone numbers using Teams PowerShell cmdlet [Export-CsAcquiredPhoneNumber](https://learn.microsoft.com/en-us/powershell/module/teams/export-csacquiredphonenumber).
   
 ## Assign phone numbers to users
 
