@@ -358,7 +358,6 @@ items:
         - name: Intelligent recap
           href: privacy/intelligent-recap.md
 
-
 - name: Manage and monitor Teams
   items: 
     - name: Overview
@@ -443,8 +442,10 @@ items:
               href: CQD-frequently-asked-questions.md
             - name: Dimensions and measures available in CQD
               href: dimensions-and-measures-available-in-call-quality-dashboard.md
-            - name: Stream Classification in CQD
+            - name: Stream classification in CQD
               href: stream-classification-in-call-quality-dashboard.md
+            - name: Intelligent media quality classifiers in CQD
+              href: cqd-intelligent-media-quality-classifiers.md
             - name: Create a building map
               href: CQD-building-mapping.md
             - name: Use Power BI to analyze CQD data
@@ -1319,7 +1320,7 @@ items:
               href: devices/certification-partners.md
             - name: How to join the program
               href: devices/certification-join.md
-            - name: Teams specifications
+            - name: Teams device specifications
               href: devices/certification-specifications.md
         - name: IT admins and decision makers
           href: devices/certification-it-admins.md
@@ -1330,8 +1331,28 @@ items:
             - name: Windows version support
               href: rooms/rooms-lifecycle-support.md
             - name: Android version support
-              href: devices/android-version-support.md      
+              href: devices/android-version-support.md   
         - name: Teams Certified Devices
+          items: 
+            - name: Overview of certified devices
+              href: devices/certified-devices-overview.md
+            - name: Teams Rooms on Windows certified devices
+              href: rooms/certified-hardware.md
+            - name: Teams Rooms on Android certified devices
+              href: devices/certified-hardware-android.md
+            - name: Teams panels certified devices
+              href: devices/teams-panels-certified-hardware.md
+            - name: Teams phones certified devices
+              href: devices/teams-phones-certified-hardware.md
+            - name: Teams displays certified devices
+              href: devices/teams-displays-certified-hardware.md
+            - name: Personal peripherals
+              href: devices/usb-devices.md
+    - name: Microsoft Teams Rooms
+      items: 
+        - name: Overview
+          href: rooms/index.md
+        - name: Plan
           items: 
             - name: Teams Rooms on Windows certified devices
               href: rooms/certified-hardware.md
